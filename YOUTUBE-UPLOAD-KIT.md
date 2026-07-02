@@ -311,25 +311,75 @@ There are ideas in physics that scientists discuss carefully, and late at night 
 
 ---
 
-## 13. Apollo 11: The Full Story  (`mindwired_apollo11.mp4`, ~62 min — rendering)
+## 13. Apollo 11: The Full Story  (`mindwired_apollo11.mp4`, **61:54** — ✅ rendered & verified)
 
-**Titles (A/B):**
-1. Apollo 11: The Full Story — And Why Millions Still Don't Believe It
-2. Apollo 11 Nearly Failed. Then People Said It Never Happened.
-3. The Broken Switch That Almost Left Them on the Moon
+**Titles (A/B — pick ONE as the live title, test the others via YouTube's title A/B tool):**
+1. **Apollo 11: The Full Story — And Why Millions Still Don't Believe It** ← recommended (curiosity gap + keyword-front-loaded)
+2. The Broken Switch That Almost Stranded Them on the Moon
+3. Apollo 11 Nearly Failed. Then People Said It Never Happened.
+4. Apollo 11: Everything That Almost Went Wrong
 
 **Description:**
-July 20, 1969. As Neil Armstrong squeezed out of the lunar module, a piece of the spacecraft snapped off — silently, in vacuum. It was the switch that armed the ascent engine. The one that would take them home. This is the complete story of Apollo 11: the Cold War panic that started it, the fire that nearly ended it, the 1202 alarms and 30 seconds of fuel, the felt-tip pen that saved the crew — and the strangest chapter of all: why millions decided it never happened, and why every hoax claim falls apart.
+July 20, 1969. As Neil Armstrong squeezed out of the lunar module, a piece of the spacecraft snapped off — silently, in vacuum. It was the switch that armed the ascent engine. The one that would take them home.
+
+This is the complete story of Apollo 11: the Cold War panic that started the Space Race, the Apollo 1 fire that nearly ended the program before it began, the 1202 program alarms and the 30 seconds of fuel that decided the landing, the felt-tip pen that saved the crew on the way home — and the strangest chapter of all: why millions of people decided it never happened, and why every single hoax claim falls apart under real evidence.
 
 🔭 What you'll learn:
 • How the Space Race forced a Moon landing in under a decade
-• The near-disasters at every step of the mission
-• Every moon-landing hoax claim — and the science that debunks each
-• Why the Soviet Union is the proof the landing was real
+• The near-disasters at every single step of the mission — from the launch pad to splashdown
+• Every major moon-landing hoax claim, debunked one by one with real science
+• Why the Soviet Union — America's rival — is the strongest proof the landing was real
+• What Apollo actually cost, who criticized it, and what it left behind
 
 🛰 Subscribe to @mindwiredd for more on the strange machinery of our universe.
 
-**Hashtags:** #apollo11 #moonlanding #nasa #space #neilarmstrong #buzzaldrin #moonlandinghoax #saturnv #spacerace #history #documentary #artemis #1202alarm #spacefacts #mindwired
+⏱ CHAPTERS
+0:00 The Broken Switch (Cold Open)
+2:03 Intro
+4:11 NASA Is Born
+5:48 Kennedy's Challenge
+7:17 Building the Impossible
+9:58 Testing the Saturn V
+12:10 The Apollo 1 Fire
+15:30 Apollo 8 and Turning Back
+17:06 Meet the Crew
+19:04 The Saturn V Rocket
+21:21 Launch and Earth Departure
+23:19 Nixon's Contingency Speech
+25:05 Final Descent Begins
+26:47 The 1202 Program Alarm
+28:22 The Fuel Countdown
+30:00 Seconds of Fuel Remaining
+31:47 The Eagle Has Landed
+33:02 Watched by the World
+35:28 The Flag on the Moon
+37:31 A Restless Night on the Moon
+38:42 Discovering the Broken Switch
+40:15 Liftoff from the Moon
+41:41 The Dangerous Journey Home
+43:10 Quarantine and Moon Germs
+44:33 Conspiracy Theories: The Flag
+46:19 Conspiracy Theories: The Shadows
+47:50 Conspiracy Theories: The Cameras
+49:23 The Strongest Evidence: Mirrors on the Moon
+50:50 Yes, It Happened
+52:19 The Critics and the Cost
+53:46 Apollo's Unexpected Legacy
+55:22 The Program Ends
+56:48 Fifty Years of Silence
+58:24 The Return to the Moon
+59:53 A Flag for All Mankind
+1:01:32 Closing Thoughts
+
+**Hashtags (15, description-safe):** #apollo11 #moonlanding #nasa #space #neilarmstrong #buzzaldrin #moonlandinghoax #saturnv #spacerace #coldwar #documentary #artemis #history #spacefacts #mindwired
+
+**Tags field (paste, comma-separated, ~490 chars):**
+apollo 11, moon landing, moon landing hoax, moon landing hoax debunked, nasa, neil armstrong, buzz aldrin, michael collins, saturn v rocket, space race, cold war history, apollo 1 fire, 1202 program alarm, eagle has landed, one small step, artemis program, nasa history, space documentary, full documentary, apollo 11 documentary, did we go to the moon, mindwired
+
+**Pinned comment (post right after publishing):**
+> The felt-tip pen part still gets me every time. If you'd never heard the broken-switch story before this video, you're not alone — turns out it's one of the least-known near-disasters of the whole mission. What part surprised you most? 🌕
+
+**Thumbnail prompt:** see "Filled example 1 — Apollo 11" in THUMBNAILS.md → Workflow C (2027 Editorial Standard).
 
 ---
 
