@@ -1,0 +1,14 @@
+node_modules
+dist
+.DS_Store
+.env
+
+out
+
+# media — regenerate on the render machine (source files only in git)
+*.mp4
+*.mov
+*.mp3
+*.wav
+.env.*
+voice_samples

@@ -1,0 +1,647 @@
+{
+ "clips": {
+  "hook": {
+   "dur": 3.947,
+   "text": "The universe should be screaming with life. Instead, it is silent.",
+   "words": [
+    {
+     "word": "The",
+     "start": 0.0,
+     "end": 0.163
+    },
+    {
+     "word": "universe",
+     "start": 0.244,
+     "end": 0.65
+    },
+    {
+     "word": "should",
+     "start": 0.673,
+     "end": 0.848
+    },
+    {
+     "word": "be",
+     "start": 0.871,
+     "end": 0.952
+    },
+    {
+     "word": "screaming",
+     "start": 0.987,
+     "end": 1.37
+    },
+    {
+     "word": "with",
+     "start": 1.416,
+     "end": 1.544
+    },
+    {
+     "word": "life.",
+     "start": 1.614,
+     "end": 2.032
+    },
+    {
+     "word": "Instead,",
+     "start": 2.415,
+     "end": 2.879
+    },
+    {
+     "word": "it",
+     "start": 2.902,
+     "end": 2.972
+    },
+    {
+     "word": "is",
+     "start": 3.03,
+     "end": 3.111
+    },
+    {
+     "word": "silent.",
+     "start": 3.158,
+     "end": 3.947
+    }
+   ]
+  },
+  "gap": {
+   "dur": 5.898,
+   "text": "Billions of Earth-like planets. Thirteen billion years of time. And not one single signal.",
+   "words": [
+    {
+     "word": "Billions",
+     "start": 0.0,
+     "end": 0.488
+    },
+    {
+     "word": "of",
+     "start": 0.534,
+     "end": 0.592
+    },
+    {
+     "word": "Earth-like",
+     "start": 0.639,
+     "end": 1.01
+    },
+    {
+     "word": "planets.",
+     "start": 1.057,
+     "end": 1.579
+    },
+    {
+     "word": "Thirteen",
+     "start": 1.962,
+     "end": 2.519
+    },
+    {
+     "word": "billion",
+     "start": 2.601,
+     "end": 2.937
+    },
+    {
+     "word": "years",
+     "start": 2.972,
+     "end": 3.181
+    },
+    {
+     "word": "of",
+     "start": 3.216,
+     "end": 3.274
+    },
+    {
+     "word": "time.",
+     "start": 3.332,
+     "end": 3.796
+    },
+    {
+     "word": "And",
+     "start": 4.122,
+     "end": 4.272
+    },
+    {
+     "word": "not",
+     "start": 4.331,
+     "end": 4.493
+    },
+    {
+     "word": "one",
+     "start": 4.574,
+     "end": 4.841
+    },
+    {
+     "word": "single",
+     "start": 4.888,
+     "end": 5.201
+    },
+    {
+     "word": "signal.",
+     "start": 5.236,
+     "end": 5.898
+    }
+   ]
+  },
+  "theory": {
+   "dur": 3.762,
+   "text": "One theory explains this perfectly. And you will wish it didn't.",
+   "words": [
+    {
+     "word": "One",
+     "start": 0.0,
+     "end": 0.197
+    },
+    {
+     "word": "theory",
+     "start": 0.244,
+     "end": 0.488
+    },
+    {
+     "word": "explains",
+     "start": 0.546,
+     "end": 0.952
+    },
+    {
+     "word": "this",
+     "start": 0.975,
+     "end": 1.08
+    },
+    {
+     "word": "perfectly.",
+     "start": 1.138,
+     "end": 1.753
+    },
+    {
+     "word": "And",
+     "start": 2.136,
+     "end": 2.299
+    },
+    {
+     "word": "you",
+     "start": 2.368,
+     "end": 2.473
+    },
+    {
+     "word": "will",
+     "start": 2.519,
+     "end": 2.682
+    },
+    {
+     "word": "wish",
+     "start": 2.728,
+     "end": 2.914
+    },
+    {
+     "word": "it",
+     "start": 2.972,
+     "end": 3.053
+    },
+    {
+     "word": "didn't.",
+     "start": 3.111,
+     "end": 3.762
+    }
+   ]
+  },
+  "forest": {
+   "dur": 6.641,
+   "text": "The universe is a dark forest. And every civilization is a hunter, moving silently between the trees.",
+   "words": [
+    {
+     "word": "The",
+     "start": 0.0,
+     "end": 0.163
+    },
+    {
+     "word": "universe",
+     "start": 0.279,
+     "end": 0.708
+    },
+    {
+     "word": "is",
+     "start": 0.743,
+     "end": 0.824
+    },
+    {
+     "word": "a",
+     "start": 0.882,
+     "end": 0.917
+    },
+    {
+     "word": "dark",
+     "start": 0.975,
+     "end": 1.207
+    },
+    {
+     "word": "forest.",
+     "start": 1.277,
+     "end": 1.8
+    },
+    {
+     "word": "And",
+     "start": 2.125,
+     "end": 2.276
+    },
+    {
+     "word": "every",
+     "start": 2.345,
+     "end": 2.531
+    },
+    {
+     "word": "civilization",
+     "start": 2.589,
+     "end": 3.251
+    },
+    {
+     "word": "is",
+     "start": 3.297,
+     "end": 3.379
+    },
+    {
+     "word": "a",
+     "start": 3.425,
+     "end": 3.46
+    },
+    {
+     "word": "hunter,",
+     "start": 3.529,
+     "end": 4.052
+    },
+    {
+     "word": "moving",
+     "start": 4.435,
+     "end": 4.725
+    },
+    {
+     "word": "silently",
+     "start": 4.807,
+     "end": 5.329
+    },
+    {
+     "word": "between",
+     "start": 5.399,
+     "end": 5.712
+    },
+    {
+     "word": "the",
+     "start": 5.747,
+     "end": 5.817
+    },
+    {
+     "word": "trees.",
+     "start": 5.84,
+     "end": 6.641
+    }
+   ]
+  },
+  "logic": {
+   "dur": 6.502,
+   "text": "You cannot know if a stranger is friendly. But you know they might destroy you. So the safest move is to stay quiet.",
+   "words": [
+    {
+     "word": "You",
+     "start": 0.0,
+     "end": 0.174
+    },
+    {
+     "word": "cannot",
+     "start": 0.255,
+     "end": 0.615
+    },
+    {
+     "word": "know",
+     "start": 0.65,
+     "end": 0.778
+    },
+    {
+     "word": "if",
+     "start": 0.824,
+     "end": 0.882
+    },
+    {
+     "word": "a",
+     "start": 0.94,
+     "end": 0.964
+    },
+    {
+     "word": "stranger",
+     "start": 1.01,
+     "end": 1.358
+    },
+    {
+     "word": "is",
+     "start": 1.405,
+     "end": 1.463
+    },
+    {
+     "word": "friendly.",
+     "start": 1.521,
+     "end": 2.032
+    },
+    {
+     "word": "But",
+     "start": 2.415,
+     "end": 2.566
+    },
+    {
+     "word": "you",
+     "start": 2.601,
+     "end": 2.67
+    },
+    {
+     "word": "know",
+     "start": 2.705,
+     "end": 2.81
+    },
+    {
+     "word": "they",
+     "start": 2.856,
+     "end": 2.961
+    },
+    {
+     "word": "might",
+     "start": 3.019,
+     "end": 3.181
+    },
+    {
+     "word": "destroy",
+     "start": 3.228,
+     "end": 3.587
+    },
+    {
+     "word": "you.",
+     "start": 3.646,
+     "end": 3.936
+    },
+    {
+     "word": "So",
+     "start": 4.319,
+     "end": 4.458
+    },
+    {
+     "word": "the",
+     "start": 4.516,
+     "end": 4.586
+    },
+    {
+     "word": "safest",
+     "start": 4.632,
+     "end": 4.992
+    },
+    {
+     "word": "move",
+     "start": 5.05,
+     "end": 5.248
+    },
+    {
+     "word": "is",
+     "start": 5.283,
+     "end": 5.352
+    },
+    {
+     "word": "to",
+     "start": 5.387,
+     "end": 5.433
+    },
+    {
+     "word": "stay",
+     "start": 5.48,
+     "end": 5.677
+    },
+    {
+     "word": "quiet.",
+     "start": 5.735,
+     "end": 6.502
+    }
+   ]
+  },
+  "shooters": {
+   "dur": 5.48,
+   "text": "Which means anyone still broadcasting either knows something we don't. Or won't survive long.",
+   "words": [
+    {
+     "word": "Which",
+     "start": 0.0,
+     "end": 0.232
+    },
+    {
+     "word": "means",
+     "start": 0.29,
+     "end": 0.511
+    },
+    {
+     "word": "anyone",
+     "start": 0.604,
+     "end": 1.057
+    },
+    {
+     "word": "still",
+     "start": 1.091,
+     "end": 1.277
+    },
+    {
+     "word": "broadcasting",
+     "start": 1.324,
+     "end": 1.95
+    },
+    {
+     "word": "either",
+     "start": 2.043,
+     "end": 2.287
+    },
+    {
+     "word": "knows",
+     "start": 2.334,
+     "end": 2.519
+    },
+    {
+     "word": "something",
+     "start": 2.554,
+     "end": 2.821
+    },
+    {
+     "word": "we",
+     "start": 2.868,
+     "end": 2.937
+    },
+    {
+     "word": "don't.",
+     "start": 2.984,
+     "end": 3.309
+    },
+    {
+     "word": "Or",
+     "start": 3.75,
+     "end": 3.889
+    },
+    {
+     "word": "won't",
+     "start": 3.947,
+     "end": 4.168
+    },
+    {
+     "word": "survive",
+     "start": 4.238,
+     "end": 4.748
+    },
+    {
+     "word": "long.",
+     "start": 4.807,
+     "end": 5.48
+    }
+   ]
+  },
+  "us": {
+   "dur": 6.827,
+   "text": "And for one hundred years, Earth has been screaming into that forest. Radio. Television. Radar.",
+   "words": [
+    {
+     "word": "And",
+     "start": 0.0,
+     "end": 0.163
+    },
+    {
+     "word": "for",
+     "start": 0.209,
+     "end": 0.325
+    },
+    {
+     "word": "one",
+     "start": 0.406,
+     "end": 0.639
+    },
+    {
+     "word": "hundred",
+     "start": 0.697,
+     "end": 0.964
+    },
+    {
+     "word": "years,",
+     "start": 1.01,
+     "end": 1.335
+    },
+    {
+     "word": "Earth",
+     "start": 1.382,
+     "end": 1.567
+    },
+    {
+     "word": "has",
+     "start": 1.602,
+     "end": 1.695
+    },
+    {
+     "word": "been",
+     "start": 1.73,
+     "end": 1.881
+    },
+    {
+     "word": "screaming",
+     "start": 1.916,
+     "end": 2.264
+    },
+    {
+     "word": "into",
+     "start": 2.299,
+     "end": 2.415
+    },
+    {
+     "word": "that",
+     "start": 2.473,
+     "end": 2.601
+    },
+    {
+     "word": "forest.",
+     "start": 2.659,
+     "end": 3.216
+    },
+    {
+     "word": "Radio.",
+     "start": 3.657,
+     "end": 4.354
+    },
+    {
+     "word": "Television.",
+     "start": 4.679,
+     "end": 5.492
+    },
+    {
+     "word": "Radar.",
+     "start": 5.933,
+     "end": 6.827
+    }
+   ]
+  },
+  "cta": {
+   "dur": 6.037,
+   "text": "Maybe the silence isn't emptiness. Maybe it's everyone else hiding. Follow mindwired for more.",
+   "words": [
+    {
+     "word": "Maybe",
+     "start": 0.0,
+     "end": 0.313
+    },
+    {
+     "word": "the",
+     "start": 0.36,
+     "end": 0.43
+    },
+    {
+     "word": "silence",
+     "start": 0.499,
+     "end": 0.998
+    },
+    {
+     "word": "isn't",
+     "start": 1.033,
+     "end": 1.265
+    },
+    {
+     "word": "emptiness.",
+     "start": 1.312,
+     "end": 1.997
+    },
+    {
+     "word": "Maybe",
+     "start": 2.438,
+     "end": 2.694
+    },
+    {
+     "word": "it's",
+     "start": 2.728,
+     "end": 2.844
+    },
+    {
+     "word": "everyone",
+     "start": 2.926,
+     "end": 3.367
+    },
+    {
+     "word": "else",
+     "start": 3.402,
+     "end": 3.587
+    },
+    {
+     "word": "hiding.",
+     "start": 3.622,
+     "end": 4.098
+    },
+    {
+     "word": "Follow",
+     "start": 4.307,
+     "end": 4.621
+    },
+    {
+     "word": "mindwired",
+     "start": 4.69,
+     "end": 5.224
+    },
+    {
+     "word": "for",
+     "start": 5.259,
+     "end": 5.364
+    },
+    {
+     "word": "more.",
+     "start": 5.41,
+     "end": 6.037
+    }
+   ]
+  }
+ }
+}

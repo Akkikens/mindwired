@@ -1,0 +1,103 @@
+# CLAUDE.md — Mindwired video factory
+
+Mindwired is a faceless YouTube channel: cinematic space/science explainers plus a
+gaming/tech lane. Everything is code-generated: Remotion (React → MP4), React Three
+Fiber for 3D, TTS narration with word-level timings. This file is the production
+manual — read it before making or editing any video.
+
+## The two repos
+
+| Repo | What lives here |
+|---|---|
+| **mindwired** (this repo) | Custom long-form episodes (`src/orbit-style` comps, `src/attractor`, `src/scariest`, `src/gtavi`), the **viral shorts engine** (`src/viral`), packaging docs (`METADATA-*.md`, `THUMBNAILS.md`), finished uploads at repo root / `out/` |
+| **singaloo** (`../singaloo`) | The **cosmic explainer engine** (`src/videos/cosmic`) that mass-produces mindwired long-forms, plus the kids-channel content. Cosmic videos are authored there and the mp4 copied here for publishing |
+
+## The three video systems
+
+### 1. Cosmic explainer engine (long-form, 3D) — singaloo repo
+Data-driven WebGL explainers, 1-10 min. One JSON per video.
+
+- Topic file: `singaloo/src/videos/cosmic/topics/<slug>.json` — `{id, title, subtitle, lines:[{id, text, scene, arg?}]}`. Each line = one narration sentence + one scene.
+- Scene vocabulary (`Cosmos3D.tsx`): title, star/sun, supernova/flash, redgiant, whitedwarf, nebula, earth/earthdark/earthfrozen, blackhole, galaxy, wormhole, saturn, comet, pulsar, bigbang, warp, moon, mars, jupiter, neptune, planet (arg="#colA,#colB"), word (arg=BIG TEXT), outro — plus place/story scenes: void, attractor, ton618, magnetar, roguebh, cmb, horizon, signal, probe. Add new scenes in `Cosmos3D.tsx` (component + CameraRig case + router case) when a topic needs its own visual identity.
+- Build: `python3 scripts/cosmic/build_topic.py <slug>` (TTS) → `python3 scripts/cosmic/gen_registry.py` → `npx remotion render <CompId> out/<name>.mp4 --gl=angle`. **WebGL comps always need `--gl=angle`** (stills too).
+- Copy the finished mp4 into the mindwired repo root for upload.
+
+### 2. Viral shorts engine (vertical, DOM/SVG) — this repo
+See `src/viral/README.md` for full docs. Summary: plan JSON in `src/viral/plans/` →
+`python3 scripts/build_short.py <slug>` → register in `src/Root.tsx` →
+`npx remotion render Short<Name> out/<name>.mp4` (no --gl flag). Pacing knobs:
+`HOLD` / `LEAD` in `src/viral/lib/plan.ts`. Tone→motion grammar: `src/viral/lib/tone.ts`.
+
+### 3. Hand-built episodes — this repo
+One-off cinematic comps (orbit, attractor, gtavi, scariest). Shared primitives in
+`src/components` (kinetic.tsx, Captions.tsx, Camera.tsx, effects.tsx) and `src/lib`
+(theme.ts palette + fonts, manifest.ts word-timing helpers). Only build one of these
+when the topic needs bespoke visuals the engines can't produce; prefer the engines.
+
+## Voice / TTS (shared rules)
+
+- Priority: **Hume Octave** (expressive, per-tone acting directions) → **ElevenLabs**
+  (voice pinned to **George**; `with-timestamps` gives real word timings) → offline
+  estimated manifest (video still renders; rerun the build script later — all
+  builders are idempotent per clip and never re-spend quota on existing clips).
+- Check ElevenLabs quota before big builds:
+  creator tier ~121K chars/mo. A short ≈ 500-600 chars; a long-form ≈ 4-7K.
+- Hume ran out of credits 2026-06-30 (platform.hume.ai/billing to top up). Its lib
+  `sys.exit`s on HTTP errors — catch `BaseException` when wrapping it.
+- Keys live in each repo's `.env` (ELEVENLABS_API_KEY, HUME_API_KEY).
+
+## Writing scripts that retain viewers
+
+- **Long-form opening structure (channel convention, 2026-07-01):**
+  1. **0-10s teaser** — 1-2 hook lines over dramatic *content* visuals (never the
+     logo): the most shocking true fact or question of the video.
+  2. **Then the wordmark intro** — one line on scene "intro" (slow mindwired
+     wordmark bloom + tagline).
+  3. **Then the title card and the video begins.**
+  In cosmic topic JSONs: line 1 = hook scene (void/blackhole/etc.), line 2 =
+  scene "intro", line 3 = scene "title". Shorts skip the wordmark entirely —
+  vertical formats stay logo-free.
+- **Hook in the first line.** No greetings, no "in this video", no cold logo opens.
+  State the most shocking true fact immediately.
+- Short declarative sentences, one idea per line (each line is one scene cut).
+- Numbers numeric ("66 billion suns"), no year-stamping the narration ("right now"),
+  spell numbers phonetically only when TTS mangles them ("TON six eighteen").
+- Long-forms: listicle/ranked structure ("8 theories… each more unsettling") — this
+  is the proven format for the niche (see memory: icahn-scary-space-niche).
+  Use `word` scenes as chapter cards; vary the scene every 1-2 lines; give each
+  list item its own dedicated scene type — NEVER cycle the same 3 generic scenes
+  (repetitive-animation feedback, 2026-07-01).
+- Shorts: hook (0-3s) → curiosity gap → story → twist → CTA. mainText is NOT the
+  transcript — shorter and punchier, with 1-2 emphasis words.
+- End every video with the standard outro line ("…subscribe to mindwired").
+
+## Picking topics (don't skip this)
+
+Use the Icahn method: only make videos whose demand is proven by an outlier —
+100K+ views on a <100K-sub channel at 5:1+ views:subs with mediocre packaging.
+Run YouTube searches (Videos filter), collect candidates, compute ratios. Current
+validated niche: **scary/unsettling space compilations**. Research log in memory
+(`icahn-scary-space-niche`); queued winners belong in that file.
+
+## Packaging & publishing
+
+- Every video gets a `METADATA-<slug>.md` here: primary title + A/B alternates,
+  SEO description with CHAPTERS timestamps, tags, pinned comment. Follow the
+  existing files' format (e.g. METADATA-attractor.md).
+- Thumbnails: follow `THUMBNAILS.md` — image-model generation (Workflow A) for
+  scene+text posters, or Remotion still + text overlay (Workflow B). House style:
+  3-5 word ALL-CAPS yellow/white text, one dramatic scene, dark background.
+- Renders for upload live at repo root as `mindwired_<slug>.mp4`.
+- Loudness target −14 LUFS for YouTube.
+
+## Gotchas
+
+- zsh: `echo ===` fails (`==` is a glob operator) — use `---` as a separator.
+- Remotion: registry/Root imports JSON statically — a comp's manifest must exist
+  before typecheck/render, so always run the audio builder (even offline-estimate
+  mode) before registering a comp.
+- `Date.now()`/`Math.random()` are fine in Remotion code only if deterministic per
+  frame — prefer the seeded `rng()` pattern used across the 3D components.
+- Verify renders: ffprobe duration + extract a mid-video frame and *look at it*
+  before declaring done. For WebGL comps also render 2-3 stills of new scenes
+  before committing to a full render.

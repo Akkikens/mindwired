@@ -1,0 +1,4812 @@
+{
+  "clips": {
+    "hook": {
+      "kind": "spoken",
+      "dur": 37.941,
+      "words": [
+        {
+          "word": "Right",
+          "start": 0.0,
+          "end": 0.267
+        },
+        {
+          "word": "now,",
+          "start": 0.313,
+          "end": 0.499
+        },
+        {
+          "word": "more",
+          "start": 0.534,
+          "end": 0.662
+        },
+        {
+          "word": "than",
+          "start": 0.685,
+          "end": 0.813
+        },
+        {
+          "word": "two",
+          "start": 0.871,
+          "end": 1.068
+        },
+        {
+          "word": "hundred",
+          "start": 1.149,
+          "end": 1.405
+        },
+        {
+          "word": "fifty",
+          "start": 1.463,
+          "end": 1.73
+        },
+        {
+          "word": "miles",
+          "start": 1.788,
+          "end": 2.043
+        },
+        {
+          "word": "above",
+          "start": 2.09,
+          "end": 2.299
+        },
+        {
+          "word": "your",
+          "start": 2.322,
+          "end": 2.426
+        },
+        {
+          "word": "head,",
+          "start": 2.473,
+          "end": 2.949
+        },
+        {
+          "word": "a",
+          "start": 3.1,
+          "end": 3.17
+        },
+        {
+          "word": "single",
+          "start": 3.286,
+          "end": 3.646
+        },
+        {
+          "word": "lost",
+          "start": 3.692,
+          "end": 4.005
+        },
+        {
+          "word": "glove",
+          "start": 4.063,
+          "end": 4.365
+        },
+        {
+          "word": "is",
+          "start": 4.4,
+          "end": 4.47
+        },
+        {
+          "word": "moving",
+          "start": 4.54,
+          "end": 4.76
+        },
+        {
+          "word": "faster",
+          "start": 4.818,
+          "end": 5.132
+        },
+        {
+          "word": "than",
+          "start": 5.166,
+          "end": 5.283
+        },
+        {
+          "word": "a",
+          "start": 5.317,
+          "end": 5.341
+        },
+        {
+          "word": "rifle",
+          "start": 5.399,
+          "end": 5.666
+        },
+        {
+          "word": "bullet.",
+          "start": 5.689,
+          "end": 6.06
+        },
+        {
+          "word": "Seventeen",
+          "start": 6.757,
+          "end": 7.396
+        },
+        {
+          "word": "thousand",
+          "start": 7.454,
+          "end": 7.848
+        },
+        {
+          "word": "five",
+          "start": 7.918,
+          "end": 8.15
+        },
+        {
+          "word": "hundred",
+          "start": 8.185,
+          "end": 8.417
+        },
+        {
+          "word": "miles",
+          "start": 8.464,
+          "end": 8.673
+        },
+        {
+          "word": "per",
+          "start": 8.719,
+          "end": 8.835
+        },
+        {
+          "word": "hour.",
+          "start": 8.882,
+          "end": 9.3
+        },
+        {
+          "word": "It",
+          "start": 10.112,
+          "end": 10.252
+        },
+        {
+          "word": "isn't",
+          "start": 10.31,
+          "end": 10.553
+        },
+        {
+          "word": "a",
+          "start": 10.612,
+          "end": 10.646
+        },
+        {
+          "word": "weapon.",
+          "start": 10.739,
+          "end": 11.238
+        },
+        {
+          "word": "It",
+          "start": 11.389,
+          "end": 11.505
+        },
+        {
+          "word": "was",
+          "start": 11.54,
+          "end": 11.645
+        },
+        {
+          "word": "never",
+          "start": 11.738,
+          "end": 11.97
+        },
+        {
+          "word": "meant",
+          "start": 12.016,
+          "end": 12.167
+        },
+        {
+          "word": "to",
+          "start": 12.202,
+          "end": 12.249
+        },
+        {
+          "word": "be",
+          "start": 12.295,
+          "end": 12.365
+        },
+        {
+          "word": "dangerous.",
+          "start": 12.399,
+          "end": 12.968
+        },
+        {
+          "word": "It",
+          "start": 13.351,
+          "end": 13.479
+        },
+        {
+          "word": "is",
+          "start": 13.526,
+          "end": 13.607
+        },
+        {
+          "word": "a",
+          "start": 13.665,
+          "end": 13.7
+        },
+        {
+          "word": "thermal",
+          "start": 13.77,
+          "end": 14.118
+        },
+        {
+          "word": "glove,",
+          "start": 14.164,
+          "end": 14.64
+        },
+        {
+          "word": "dropped",
+          "start": 14.884,
+          "end": 15.244
+        },
+        {
+          "word": "by",
+          "start": 15.302,
+          "end": 15.418
+        },
+        {
+          "word": "an",
+          "start": 15.476,
+          "end": 15.534
+        },
+        {
+          "word": "astronaut",
+          "start": 15.616,
+          "end": 16.045
+        },
+        {
+          "word": "more",
+          "start": 16.115,
+          "end": 16.242
+        },
+        {
+          "word": "than",
+          "start": 16.266,
+          "end": 16.393
+        },
+        {
+          "word": "half",
+          "start": 16.463,
+          "end": 16.66
+        },
+        {
+          "word": "a",
+          "start": 16.707,
+          "end": 16.742
+        },
+        {
+          "word": "century",
+          "start": 16.811,
+          "end": 17.148
+        },
+        {
+          "word": "ago.",
+          "start": 17.194,
+          "end": 17.601
+        },
+        {
+          "word": "But",
+          "start": 18.042,
+          "end": 18.193
+        },
+        {
+          "word": "up",
+          "start": 18.239,
+          "end": 18.332
+        },
+        {
+          "word": "here,",
+          "start": 18.414,
+          "end": 18.866
+        },
+        {
+          "word": "in",
+          "start": 19.145,
+          "end": 19.284
+        },
+        {
+          "word": "the",
+          "start": 19.319,
+          "end": 19.389
+        },
+        {
+          "word": "cold",
+          "start": 19.47,
+          "end": 19.807
+        },
+        {
+          "word": "and",
+          "start": 19.853,
+          "end": 19.923
+        },
+        {
+          "word": "the",
+          "start": 19.946,
+          "end": 20.016
+        },
+        {
+          "word": "silence,",
+          "start": 20.062,
+          "end": 20.759
+        },
+        {
+          "word": "the",
+          "start": 21.2,
+          "end": 21.316
+        },
+        {
+          "word": "rules",
+          "start": 21.374,
+          "end": 21.641
+        },
+        {
+          "word": "are",
+          "start": 21.676,
+          "end": 21.769
+        },
+        {
+          "word": "different.",
+          "start": 21.815,
+          "end": 22.338
+        },
+        {
+          "word": "Out",
+          "start": 22.721,
+          "end": 22.988
+        },
+        {
+          "word": "here,",
+          "start": 23.069,
+          "end": 23.522
+        },
+        {
+          "word": "the",
+          "start": 23.766,
+          "end": 23.882
+        },
+        {
+          "word": "things",
+          "start": 23.94,
+          "end": 24.172
+        },
+        {
+          "word": "we",
+          "start": 24.23,
+          "end": 24.335
+        },
+        {
+          "word": "lose",
+          "start": 24.416,
+          "end": 24.695
+        },
+        {
+          "word": "don't",
+          "start": 24.729,
+          "end": 24.938
+        },
+        {
+          "word": "fall.",
+          "start": 24.996,
+          "end": 25.484
+        },
+        {
+          "word": "They",
+          "start": 25.809,
+          "end": 25.96
+        },
+        {
+          "word": "don't",
+          "start": 25.983,
+          "end": 26.157
+        },
+        {
+          "word": "decay",
+          "start": 26.204,
+          "end": 26.575
+        },
+        {
+          "word": "the",
+          "start": 26.633,
+          "end": 26.703
+        },
+        {
+          "word": "way",
+          "start": 26.749,
+          "end": 26.854
+        },
+        {
+          "word": "they",
+          "start": 26.9,
+          "end": 27.005
+        },
+        {
+          "word": "would",
+          "start": 27.04,
+          "end": 27.202
+        },
+        {
+          "word": "on",
+          "start": 27.249,
+          "end": 27.33
+        },
+        {
+          "word": "Earth.",
+          "start": 27.388,
+          "end": 27.829
+        },
+        {
+          "word": "They",
+          "start": 28.108,
+          "end": 28.282
+        },
+        {
+          "word": "transform",
+          "start": 28.34,
+          "end": 29.013
+        },
+        {
+          "word": "into",
+          "start": 29.071,
+          "end": 29.222
+        },
+        {
+          "word": "something",
+          "start": 29.303,
+          "end": 29.698
+        },
+        {
+          "word": "else",
+          "start": 29.768,
+          "end": 29.954
+        },
+        {
+          "word": "entirely.",
+          "start": 30.0,
+          "end": 30.639
+        },
+        {
+          "word": "This",
+          "start": 31.08,
+          "end": 31.265
+        },
+        {
+          "word": "is",
+          "start": 31.324,
+          "end": 31.405
+        },
+        {
+          "word": "the",
+          "start": 31.463,
+          "end": 31.533
+        },
+        {
+          "word": "story",
+          "start": 31.579,
+          "end": 31.869
+        },
+        {
+          "word": "of",
+          "start": 31.904,
+          "end": 31.95
+        },
+        {
+          "word": "the",
+          "start": 31.985,
+          "end": 32.055
+        },
+        {
+          "word": "equipment",
+          "start": 32.113,
+          "end": 32.554
+        },
+        {
+          "word": "we",
+          "start": 32.589,
+          "end": 32.67
+        },
+        {
+          "word": "left",
+          "start": 32.74,
+          "end": 32.914
+        },
+        {
+          "word": "behind",
+          "start": 32.961,
+          "end": 33.216
+        },
+        {
+          "word": "in",
+          "start": 33.274,
+          "end": 33.332
+        },
+        {
+          "word": "orbit,",
+          "start": 33.39,
+          "end": 33.773
+        },
+        {
+          "word": "and",
+          "start": 34.098,
+          "end": 34.249
+        },
+        {
+          "word": "what",
+          "start": 34.296,
+          "end": 34.435
+        },
+        {
+          "word": "the",
+          "start": 34.47,
+          "end": 34.539
+        },
+        {
+          "word": "universe",
+          "start": 34.632,
+          "end": 35.085
+        },
+        {
+          "word": "is",
+          "start": 35.132,
+          "end": 35.213
+        },
+        {
+          "word": "slowly,",
+          "start": 35.294,
+          "end": 35.968
+        },
+        {
+          "word": "patiently",
+          "start": 36.084,
+          "end": 36.664
+        },
+        {
+          "word": "turning",
+          "start": 36.745,
+          "end": 37.059
+        },
+        {
+          "word": "it",
+          "start": 37.105,
+          "end": 37.163
+        },
+        {
+          "word": "into.",
+          "start": 37.21,
+          "end": 37.941
+        }
+      ]
+    },
+    "s1_launch": {
+      "kind": "spoken",
+      "dur": 61.115,
+      "words": [
+        {
+          "word": "It",
+          "start": 0.0,
+          "end": 0.163
+        },
+        {
+          "word": "always",
+          "start": 0.209,
+          "end": 0.453
+        },
+        {
+          "word": "begins",
+          "start": 0.499,
+          "end": 0.789
+        },
+        {
+          "word": "the",
+          "start": 0.836,
+          "end": 0.906
+        },
+        {
+          "word": "same",
+          "start": 0.94,
+          "end": 1.149
+        },
+        {
+          "word": "way.",
+          "start": 1.184,
+          "end": 1.544
+        },
+        {
+          "word": "A",
+          "start": 1.927,
+          "end": 2.009
+        },
+        {
+          "word": "small",
+          "start": 2.078,
+          "end": 2.31
+        },
+        {
+          "word": "mistake.",
+          "start": 2.357,
+          "end": 2.902
+        },
+        {
+          "word": "In",
+          "start": 3.228,
+          "end": 3.367
+        },
+        {
+          "word": "nineteen",
+          "start": 3.425,
+          "end": 3.843
+        },
+        {
+          "word": "sixty-five,",
+          "start": 3.936,
+          "end": 4.737
+        },
+        {
+          "word": "during",
+          "start": 4.76,
+          "end": 4.969
+        },
+        {
+          "word": "the",
+          "start": 5.004,
+          "end": 5.074
+        },
+        {
+          "word": "very",
+          "start": 5.108,
+          "end": 5.306
+        },
+        {
+          "word": "first",
+          "start": 5.364,
+          "end": 5.596
+        },
+        {
+          "word": "American",
+          "start": 5.642,
+          "end": 5.991
+        },
+        {
+          "word": "spacewalk,",
+          "start": 6.037,
+          "end": 6.78
+        },
+        {
+          "word": "astronaut",
+          "start": 7.059,
+          "end": 7.639
+        },
+        {
+          "word": "Ed",
+          "start": 7.755,
+          "end": 7.93
+        },
+        {
+          "word": "White",
+          "start": 7.999,
+          "end": 8.313
+        },
+        {
+          "word": "reached",
+          "start": 8.382,
+          "end": 8.673
+        },
+        {
+          "word": "out",
+          "start": 8.719,
+          "end": 8.847
+        },
+        {
+          "word": "into",
+          "start": 8.882,
+          "end": 9.021
+        },
+        {
+          "word": "the",
+          "start": 9.079,
+          "end": 9.149
+        },
+        {
+          "word": "void,",
+          "start": 9.183,
+          "end": 9.659
+        },
+        {
+          "word": "and",
+          "start": 9.903,
+          "end": 10.054
+        },
+        {
+          "word": "a",
+          "start": 10.101,
+          "end": 10.136
+        },
+        {
+          "word": "spare",
+          "start": 10.182,
+          "end": 10.519
+        },
+        {
+          "word": "thermal",
+          "start": 10.565,
+          "end": 10.902
+        },
+        {
+          "word": "glove",
+          "start": 10.948,
+          "end": 11.331
+        },
+        {
+          "word": "drifted",
+          "start": 11.447,
+          "end": 11.831
+        },
+        {
+          "word": "away",
+          "start": 11.865,
+          "end": 12.051
+        },
+        {
+          "word": "from",
+          "start": 12.086,
+          "end": 12.202
+        },
+        {
+          "word": "the",
+          "start": 12.237,
+          "end": 12.307
+        },
+        {
+          "word": "open",
+          "start": 12.353,
+          "end": 12.55
+        },
+        {
+          "word": "hatch.",
+          "start": 12.62,
+          "end": 13.084
+        },
+        {
+          "word": "It",
+          "start": 13.526,
+          "end": 13.642
+        },
+        {
+          "word": "was",
+          "start": 13.688,
+          "end": 13.793
+        },
+        {
+          "word": "gone",
+          "start": 13.863,
+          "end": 14.06
+        },
+        {
+          "word": "in",
+          "start": 14.083,
+          "end": 14.141
+        },
+        {
+          "word": "seconds.",
+          "start": 14.223,
+          "end": 14.803
+        },
+        {
+          "word": "Decades",
+          "start": 15.186,
+          "end": 15.674
+        },
+        {
+          "word": "later,",
+          "start": 15.743,
+          "end": 16.045
+        },
+        {
+          "word": "in",
+          "start": 16.069,
+          "end": 16.138
+        },
+        {
+          "word": "two",
+          "start": 16.185,
+          "end": 16.324
+        },
+        {
+          "word": "thousand",
+          "start": 16.382,
+          "end": 16.707
+        },
+        {
+          "word": "eight,",
+          "start": 16.754,
+          "end": 17.079
+        },
+        {
+          "word": "astronaut",
+          "start": 17.288,
+          "end": 17.822
+        },
+        {
+          "word": "Heidemarie",
+          "start": 17.891,
+          "end": 18.367
+        },
+        {
+          "word": "Stefanyshyn-Piper",
+          "start": 18.391,
+          "end": 19.435
+        },
+        {
+          "word": "was",
+          "start": 19.819,
+          "end": 19.981
+        },
+        {
+          "word": "repairing",
+          "start": 20.051,
+          "end": 20.446
+        },
+        {
+          "word": "the",
+          "start": 20.492,
+          "end": 20.562
+        },
+        {
+          "word": "International",
+          "start": 20.643,
+          "end": 21.2
+        },
+        {
+          "word": "Space",
+          "start": 21.235,
+          "end": 21.502
+        },
+        {
+          "word": "Station",
+          "start": 21.525,
+          "end": 21.943
+        },
+        {
+          "word": "when",
+          "start": 22.152,
+          "end": 22.326
+        },
+        {
+          "word": "a",
+          "start": 22.361,
+          "end": 22.384
+        },
+        {
+          "word": "grease",
+          "start": 22.442,
+          "end": 22.721
+        },
+        {
+          "word": "gun",
+          "start": 22.768,
+          "end": 22.953
+        },
+        {
+          "word": "erupted",
+          "start": 23.0,
+          "end": 23.383
+        },
+        {
+          "word": "inside",
+          "start": 23.429,
+          "end": 23.72
+        },
+        {
+          "word": "her",
+          "start": 23.754,
+          "end": 23.824
+        },
+        {
+          "word": "tool",
+          "start": 23.87,
+          "end": 24.056
+        },
+        {
+          "word": "bag.",
+          "start": 24.103,
+          "end": 24.463
+        },
+        {
+          "word": "As",
+          "start": 24.904,
+          "end": 25.043
+        },
+        {
+          "word": "she",
+          "start": 25.089,
+          "end": 25.182
+        },
+        {
+          "word": "tried",
+          "start": 25.229,
+          "end": 25.473
+        },
+        {
+          "word": "to",
+          "start": 25.496,
+          "end": 25.542
+        },
+        {
+          "word": "clean",
+          "start": 25.6,
+          "end": 25.844
+        },
+        {
+          "word": "it,",
+          "start": 25.891,
+          "end": 26.03
+        },
+        {
+          "word": "the",
+          "start": 26.065,
+          "end": 26.169
+        },
+        {
+          "word": "entire",
+          "start": 26.227,
+          "end": 26.657
+        },
+        {
+          "word": "bag,",
+          "start": 26.715,
+          "end": 27.179
+        },
+        {
+          "word": "worth",
+          "start": 27.458,
+          "end": 27.667
+        },
+        {
+          "word": "around",
+          "start": 27.713,
+          "end": 27.945
+        },
+        {
+          "word": "one",
+          "start": 28.015,
+          "end": 28.178
+        },
+        {
+          "word": "hundred",
+          "start": 28.224,
+          "end": 28.468
+        },
+        {
+          "word": "thousand",
+          "start": 28.491,
+          "end": 28.839
+        },
+        {
+          "word": "dollars,",
+          "start": 28.886,
+          "end": 29.466
+        },
+        {
+          "word": "slipped",
+          "start": 29.791,
+          "end": 30.151
+        },
+        {
+          "word": "from",
+          "start": 30.174,
+          "end": 30.302
+        },
+        {
+          "word": "her",
+          "start": 30.372,
+          "end": 30.453
+        },
+        {
+          "word": "grasp",
+          "start": 30.523,
+          "end": 31.01
+        },
+        {
+          "word": "and",
+          "start": 31.126,
+          "end": 31.277
+        },
+        {
+          "word": "floated",
+          "start": 31.359,
+          "end": 31.719
+        },
+        {
+          "word": "into",
+          "start": 31.765,
+          "end": 31.893
+        },
+        {
+          "word": "the",
+          "start": 31.951,
+          "end": 32.02
+        },
+        {
+          "word": "black.",
+          "start": 32.055,
+          "end": 32.496
+        },
+        {
+          "word": "On",
+          "start": 33.1,
+          "end": 33.286
+        },
+        {
+          "word": "Earth,",
+          "start": 33.367,
+          "end": 33.657
+        },
+        {
+          "word": "a",
+          "start": 33.681,
+          "end": 33.716
+        },
+        {
+          "word": "dropped",
+          "start": 33.774,
+          "end": 34.075
+        },
+        {
+          "word": "object",
+          "start": 34.122,
+          "end": 34.482
+        },
+        {
+          "word": "falls.",
+          "start": 34.54,
+          "end": 35.074
+        },
+        {
+          "word": "It",
+          "start": 35.457,
+          "end": 35.585
+        },
+        {
+          "word": "hits",
+          "start": 35.631,
+          "end": 35.829
+        },
+        {
+          "word": "the",
+          "start": 35.887,
+          "end": 35.956
+        },
+        {
+          "word": "ground,",
+          "start": 36.003,
+          "end": 36.479
+        },
+        {
+          "word": "and",
+          "start": 36.514,
+          "end": 36.653
+        },
+        {
+          "word": "the",
+          "start": 36.688,
+          "end": 36.757
+        },
+        {
+          "word": "story",
+          "start": 36.792,
+          "end": 37.071
+        },
+        {
+          "word": "ends.",
+          "start": 37.129,
+          "end": 37.57
+        },
+        {
+          "word": "But",
+          "start": 37.953,
+          "end": 38.116
+        },
+        {
+          "word": "in",
+          "start": 38.162,
+          "end": 38.243
+        },
+        {
+          "word": "orbit,",
+          "start": 38.336,
+          "end": 38.801
+        },
+        {
+          "word": "there",
+          "start": 38.859,
+          "end": 39.056
+        },
+        {
+          "word": "is",
+          "start": 39.091,
+          "end": 39.172
+        },
+        {
+          "word": "no",
+          "start": 39.253,
+          "end": 39.346
+        },
+        {
+          "word": "ground.",
+          "start": 39.416,
+          "end": 39.857
+        },
+        {
+          "word": "These",
+          "start": 40.24,
+          "end": 40.531
+        },
+        {
+          "word": "objects",
+          "start": 40.6,
+          "end": 41.053
+        },
+        {
+          "word": "were",
+          "start": 41.088,
+          "end": 41.25
+        },
+        {
+          "word": "already",
+          "start": 41.297,
+          "end": 41.726
+        },
+        {
+          "word": "traveling",
+          "start": 41.772,
+          "end": 42.248
+        },
+        {
+          "word": "at",
+          "start": 42.307,
+          "end": 42.423
+        },
+        {
+          "word": "seventeen",
+          "start": 42.539,
+          "end": 43.177
+        },
+        {
+          "word": "thousand",
+          "start": 43.235,
+          "end": 43.688
+        },
+        {
+          "word": "five",
+          "start": 43.781,
+          "end": 44.083
+        },
+        {
+          "word": "hundred",
+          "start": 44.118,
+          "end": 44.35
+        },
+        {
+          "word": "miles",
+          "start": 44.396,
+          "end": 44.629
+        },
+        {
+          "word": "per",
+          "start": 44.675,
+          "end": 44.791
+        },
+        {
+          "word": "hour,",
+          "start": 44.826,
+          "end": 45.255
+        },
+        {
+          "word": "the",
+          "start": 45.534,
+          "end": 45.65
+        },
+        {
+          "word": "same",
+          "start": 45.743,
+          "end": 46.103
+        },
+        {
+          "word": "blistering",
+          "start": 46.138,
+          "end": 46.579
+        },
+        {
+          "word": "speed",
+          "start": 46.637,
+          "end": 46.916
+        },
+        {
+          "word": "as",
+          "start": 46.962,
+          "end": 47.032
+        },
+        {
+          "word": "the",
+          "start": 47.078,
+          "end": 47.148
+        },
+        {
+          "word": "spacecraft",
+          "start": 47.183,
+          "end": 47.752
+        },
+        {
+          "word": "beside",
+          "start": 47.786,
+          "end": 48.123
+        },
+        {
+          "word": "them.",
+          "start": 48.146,
+          "end": 48.448
+        },
+        {
+          "word": "So",
+          "start": 49.052,
+          "end": 49.191
+        },
+        {
+          "word": "they",
+          "start": 49.249,
+          "end": 49.365
+        },
+        {
+          "word": "didn't",
+          "start": 49.447,
+          "end": 49.714
+        },
+        {
+          "word": "fall.",
+          "start": 49.772,
+          "end": 50.236
+        },
+        {
+          "word": "They",
+          "start": 50.619,
+          "end": 50.782
+        },
+        {
+          "word": "kept",
+          "start": 50.863,
+          "end": 51.13
+        },
+        {
+          "word": "going.",
+          "start": 51.188,
+          "end": 51.722
+        },
+        {
+          "word": "In",
+          "start": 52.047,
+          "end": 52.21
+        },
+        {
+          "word": "an",
+          "start": 52.268,
+          "end": 52.349
+        },
+        {
+          "word": "instant,",
+          "start": 52.465,
+          "end": 52.988
+        },
+        {
+          "word": "a",
+          "start": 53.115,
+          "end": 53.197
+        },
+        {
+          "word": "glove",
+          "start": 53.278,
+          "end": 53.522
+        },
+        {
+          "word": "and",
+          "start": 53.557,
+          "end": 53.626
+        },
+        {
+          "word": "a",
+          "start": 53.661,
+          "end": 53.696
+        },
+        {
+          "word": "tool",
+          "start": 53.754,
+          "end": 53.986
+        },
+        {
+          "word": "bag",
+          "start": 54.044,
+          "end": 54.323
+        },
+        {
+          "word": "stopped",
+          "start": 54.474,
+          "end": 54.845
+        },
+        {
+          "word": "being",
+          "start": 54.869,
+          "end": 55.054
+        },
+        {
+          "word": "equipment,",
+          "start": 55.112,
+          "end": 55.658
+        },
+        {
+          "word": "and",
+          "start": 55.983,
+          "end": 56.134
+        },
+        {
+          "word": "became",
+          "start": 56.18,
+          "end": 56.54
+        },
+        {
+          "word": "satellites.",
+          "start": 56.598,
+          "end": 57.365
+        },
+        {
+          "word": "Independent,",
+          "start": 57.748,
+          "end": 58.63
+        },
+        {
+          "word": "uncontrolled,",
+          "start": 58.804,
+          "end": 59.64
+        },
+        {
+          "word": "and",
+          "start": 59.675,
+          "end": 59.849
+        },
+        {
+          "word": "utterly",
+          "start": 59.965,
+          "end": 60.36
+        },
+        {
+          "word": "alone.",
+          "start": 60.418,
+          "end": 61.115
+        }
+      ]
+    },
+    "s2_shredder": {
+      "kind": "spoken",
+      "dur": 70.774,
+      "words": [
+        {
+          "word": "You",
+          "start": 0.0,
+          "end": 0.163
+        },
+        {
+          "word": "might",
+          "start": 0.209,
+          "end": 0.372
+        },
+        {
+          "word": "imagine",
+          "start": 0.406,
+          "end": 0.778
+        },
+        {
+          "word": "that,",
+          "start": 0.813,
+          "end": 1.068
+        },
+        {
+          "word": "sealed",
+          "start": 1.138,
+          "end": 1.463
+        },
+        {
+          "word": "in",
+          "start": 1.498,
+          "end": 1.544
+        },
+        {
+          "word": "the",
+          "start": 1.579,
+          "end": 1.649
+        },
+        {
+          "word": "vacuum",
+          "start": 1.695,
+          "end": 2.032
+        },
+        {
+          "word": "of",
+          "start": 2.078,
+          "end": 2.136
+        },
+        {
+          "word": "space,",
+          "start": 2.206,
+          "end": 2.833
+        },
+        {
+          "word": "these",
+          "start": 3.274,
+          "end": 3.495
+        },
+        {
+          "word": "objects",
+          "start": 3.553,
+          "end": 3.913
+        },
+        {
+          "word": "would",
+          "start": 3.947,
+          "end": 4.098
+        },
+        {
+          "word": "last",
+          "start": 4.145,
+          "end": 4.377
+        },
+        {
+          "word": "forever.",
+          "start": 4.423,
+          "end": 4.992
+        },
+        {
+          "word": "Perfectly",
+          "start": 5.375,
+          "end": 5.863
+        },
+        {
+          "word": "preserved.",
+          "start": 5.921,
+          "end": 6.525
+        },
+        {
+          "word": "The",
+          "start": 7.129,
+          "end": 7.268
+        },
+        {
+          "word": "truth",
+          "start": 7.326,
+          "end": 7.628
+        },
+        {
+          "word": "is",
+          "start": 7.686,
+          "end": 7.779
+        },
+        {
+          "word": "far",
+          "start": 7.86,
+          "end": 8.104
+        },
+        {
+          "word": "stranger.",
+          "start": 8.173,
+          "end": 8.824
+        },
+        {
+          "word": "Space",
+          "start": 9.207,
+          "end": 9.59
+        },
+        {
+          "word": "is",
+          "start": 9.625,
+          "end": 9.706
+        },
+        {
+          "word": "not",
+          "start": 9.787,
+          "end": 9.973
+        },
+        {
+          "word": "empty.",
+          "start": 10.019,
+          "end": 10.495
+        },
+        {
+          "word": "It",
+          "start": 10.553,
+          "end": 10.693
+        },
+        {
+          "word": "is",
+          "start": 10.739,
+          "end": 10.809
+        },
+        {
+          "word": "corrosive.",
+          "start": 10.879,
+          "end": 11.598
+        },
+        {
+          "word": "At",
+          "start": 11.923,
+          "end": 12.086
+        },
+        {
+          "word": "the",
+          "start": 12.132,
+          "end": 12.214
+        },
+        {
+          "word": "altitude",
+          "start": 12.307,
+          "end": 12.922
+        },
+        {
+          "word": "where",
+          "start": 12.945,
+          "end": 13.096
+        },
+        {
+          "word": "the",
+          "start": 13.131,
+          "end": 13.201
+        },
+        {
+          "word": "Space",
+          "start": 13.235,
+          "end": 13.537
+        },
+        {
+          "word": "Station",
+          "start": 13.56,
+          "end": 13.932
+        },
+        {
+          "word": "flies,",
+          "start": 13.99,
+          "end": 14.617
+        },
+        {
+          "word": "the",
+          "start": 14.942,
+          "end": 15.058
+        },
+        {
+          "word": "thin",
+          "start": 15.151,
+          "end": 15.429
+        },
+        {
+          "word": "upper",
+          "start": 15.545,
+          "end": 15.789
+        },
+        {
+          "word": "atmosphere",
+          "start": 15.871,
+          "end": 16.463
+        },
+        {
+          "word": "is",
+          "start": 16.532,
+          "end": 16.637
+        },
+        {
+          "word": "filled",
+          "start": 16.753,
+          "end": 17.078
+        },
+        {
+          "word": "with",
+          "start": 17.113,
+          "end": 17.241
+        },
+        {
+          "word": "atomic",
+          "start": 17.275,
+          "end": 17.67
+        },
+        {
+          "word": "oxygen,",
+          "start": 17.728,
+          "end": 18.425
+        },
+        {
+          "word": "single,",
+          "start": 18.866,
+          "end": 19.365
+        },
+        {
+          "word": "highly",
+          "start": 19.412,
+          "end": 19.783
+        },
+        {
+          "word": "reactive",
+          "start": 19.876,
+          "end": 20.41
+        },
+        {
+          "word": "oxygen",
+          "start": 20.456,
+          "end": 20.944
+        },
+        {
+          "word": "atoms",
+          "start": 21.014,
+          "end": 21.362
+        },
+        {
+          "word": "torn",
+          "start": 21.513,
+          "end": 21.78
+        },
+        {
+          "word": "apart",
+          "start": 21.815,
+          "end": 22.07
+        },
+        {
+          "word": "by",
+          "start": 22.117,
+          "end": 22.198
+        },
+        {
+          "word": "the",
+          "start": 22.256,
+          "end": 22.326
+        },
+        {
+          "word": "sun.",
+          "start": 22.372,
+          "end": 22.79
+        },
+        {
+          "word": "At",
+          "start": 23.394,
+          "end": 23.545
+        },
+        {
+          "word": "seventeen",
+          "start": 23.661,
+          "end": 24.23
+        },
+        {
+          "word": "thousand",
+          "start": 24.288,
+          "end": 24.671
+        },
+        {
+          "word": "miles",
+          "start": 24.729,
+          "end": 24.973
+        },
+        {
+          "word": "per",
+          "start": 25.031,
+          "end": 25.147
+        },
+        {
+          "word": "hour,",
+          "start": 25.193,
+          "end": 25.449
+        },
+        {
+          "word": "the",
+          "start": 25.472,
+          "end": 25.542
+        },
+        {
+          "word": "glove",
+          "start": 25.6,
+          "end": 25.855
+        },
+        {
+          "word": "slams",
+          "start": 25.936,
+          "end": 26.424
+        },
+        {
+          "word": "into",
+          "start": 26.47,
+          "end": 26.633
+        },
+        {
+          "word": "these",
+          "start": 26.703,
+          "end": 26.865
+        },
+        {
+          "word": "atoms",
+          "start": 26.923,
+          "end": 27.225
+        },
+        {
+          "word": "like",
+          "start": 27.272,
+          "end": 27.422
+        },
+        {
+          "word": "an",
+          "start": 27.446,
+          "end": 27.504
+        },
+        {
+          "word": "invisible",
+          "start": 27.539,
+          "end": 28.015
+        },
+        {
+          "word": "sandstorm,",
+          "start": 28.049,
+          "end": 28.746
+        },
+        {
+          "word": "and",
+          "start": 29.071,
+          "end": 29.21
+        },
+        {
+          "word": "they",
+          "start": 29.257,
+          "end": 29.373
+        },
+        {
+          "word": "burn",
+          "start": 29.466,
+          "end": 29.71
+        },
+        {
+          "word": "its",
+          "start": 29.756,
+          "end": 29.861
+        },
+        {
+          "word": "surface",
+          "start": 29.896,
+          "end": 30.314
+        },
+        {
+          "word": "away,",
+          "start": 30.36,
+          "end": 30.917
+        },
+        {
+          "word": "atom",
+          "start": 30.999,
+          "end": 31.301
+        },
+        {
+          "word": "by",
+          "start": 31.347,
+          "end": 31.463
+        },
+        {
+          "word": "atom.",
+          "start": 31.533,
+          "end": 31.939
+        },
+        {
+          "word": "Smooth",
+          "start": 32.38,
+          "end": 32.717
+        },
+        {
+          "word": "fabric",
+          "start": 32.775,
+          "end": 33.147
+        },
+        {
+          "word": "turns",
+          "start": 33.193,
+          "end": 33.425
+        },
+        {
+          "word": "porous.",
+          "start": 33.495,
+          "end": 34.099
+        },
+        {
+          "word": "Solid",
+          "start": 34.424,
+          "end": 34.818
+        },
+        {
+          "word": "metal",
+          "start": 34.876,
+          "end": 35.132
+        },
+        {
+          "word": "is",
+          "start": 35.19,
+          "end": 35.271
+        },
+        {
+          "word": "eaten",
+          "start": 35.329,
+          "end": 35.527
+        },
+        {
+          "word": "into",
+          "start": 35.573,
+          "end": 35.736
+        },
+        {
+          "word": "dust.",
+          "start": 35.794,
+          "end": 36.27
+        },
+        {
+          "word": "Then",
+          "start": 36.711,
+          "end": 36.885
+        },
+        {
+          "word": "there",
+          "start": 36.92,
+          "end": 37.059
+        },
+        {
+          "word": "is",
+          "start": 37.094,
+          "end": 37.164
+        },
+        {
+          "word": "the",
+          "start": 37.21,
+          "end": 37.28
+        },
+        {
+          "word": "light.",
+          "start": 37.338,
+          "end": 37.791
+        },
+        {
+          "word": "With",
+          "start": 38.232,
+          "end": 38.418
+        },
+        {
+          "word": "no",
+          "start": 38.51,
+          "end": 38.661
+        },
+        {
+          "word": "atmosphere",
+          "start": 38.743,
+          "end": 39.23
+        },
+        {
+          "word": "to",
+          "start": 39.253,
+          "end": 39.3
+        },
+        {
+          "word": "filter",
+          "start": 39.37,
+          "end": 39.683
+        },
+        {
+          "word": "it,",
+          "start": 39.741,
+          "end": 39.985
+        },
+        {
+          "word": "raw",
+          "start": 40.229,
+          "end": 40.461
+        },
+        {
+          "word": "ultraviolet",
+          "start": 40.531,
+          "end": 41.123
+        },
+        {
+          "word": "radiation",
+          "start": 41.169,
+          "end": 41.726
+        },
+        {
+          "word": "bombards",
+          "start": 41.796,
+          "end": 42.307
+        },
+        {
+          "word": "every",
+          "start": 42.365,
+          "end": 42.551
+        },
+        {
+          "word": "surface.",
+          "start": 42.597,
+          "end": 43.131
+        },
+        {
+          "word": "Bright",
+          "start": 43.572,
+          "end": 43.863
+        },
+        {
+          "word": "mission",
+          "start": 43.944,
+          "end": 44.234
+        },
+        {
+          "word": "patches",
+          "start": 44.304,
+          "end": 44.699
+        },
+        {
+          "word": "fade.",
+          "start": 44.768,
+          "end": 45.291
+        },
+        {
+          "word": "Colorful",
+          "start": 45.674,
+          "end": 46.173
+        },
+        {
+          "word": "nylon",
+          "start": 46.266,
+          "end": 46.731
+        },
+        {
+          "word": "is",
+          "start": 46.789,
+          "end": 46.858
+        },
+        {
+          "word": "bleached",
+          "start": 46.916,
+          "end": 47.23
+        },
+        {
+          "word": "a",
+          "start": 47.276,
+          "end": 47.3
+        },
+        {
+          "word": "ghostly,",
+          "start": 47.369,
+          "end": 48.008
+        },
+        {
+          "word": "lifeless",
+          "start": 48.217,
+          "end": 48.693
+        },
+        {
+          "word": "white.",
+          "start": 48.751,
+          "end": 49.262
+        },
+        {
+          "word": "And",
+          "start": 49.703,
+          "end": 49.842
+        },
+        {
+          "word": "every",
+          "start": 49.9,
+          "end": 50.074
+        },
+        {
+          "word": "ninety",
+          "start": 50.132,
+          "end": 50.411
+        },
+        {
+          "word": "minutes,",
+          "start": 50.481,
+          "end": 50.794
+        },
+        {
+          "word": "as",
+          "start": 50.817,
+          "end": 50.933
+        },
+        {
+          "word": "the",
+          "start": 50.992,
+          "end": 51.073
+        },
+        {
+          "word": "object",
+          "start": 51.154,
+          "end": 51.549
+        },
+        {
+          "word": "races",
+          "start": 51.607,
+          "end": 51.955
+        },
+        {
+          "word": "in",
+          "start": 52.036,
+          "end": 52.187
+        },
+        {
+          "word": "and",
+          "start": 52.245,
+          "end": 52.327
+        },
+        {
+          "word": "out",
+          "start": 52.396,
+          "end": 52.524
+        },
+        {
+          "word": "of",
+          "start": 52.559,
+          "end": 52.605
+        },
+        {
+          "word": "Earth's",
+          "start": 52.663,
+          "end": 52.872
+        },
+        {
+          "word": "shadow,",
+          "start": 52.896,
+          "end": 53.499
+        },
+        {
+          "word": "the",
+          "start": 53.708,
+          "end": 53.813
+        },
+        {
+          "word": "temperature",
+          "start": 53.871,
+          "end": 54.324
+        },
+        {
+          "word": "swings",
+          "start": 54.358,
+          "end": 54.637
+        },
+        {
+          "word": "violently.",
+          "start": 54.684,
+          "end": 55.369
+        },
+        {
+          "word": "From",
+          "start": 55.647,
+          "end": 55.833
+        },
+        {
+          "word": "over",
+          "start": 55.891,
+          "end": 56.088
+        },
+        {
+          "word": "two",
+          "start": 56.158,
+          "end": 56.344
+        },
+        {
+          "word": "hundred",
+          "start": 56.413,
+          "end": 56.646
+        },
+        {
+          "word": "fifty",
+          "start": 56.704,
+          "end": 56.959
+        },
+        {
+          "word": "degrees",
+          "start": 57.017,
+          "end": 57.4
+        },
+        {
+          "word": "in",
+          "start": 57.447,
+          "end": 57.505
+        },
+        {
+          "word": "the",
+          "start": 57.528,
+          "end": 57.598
+        },
+        {
+          "word": "sunlight,",
+          "start": 57.644,
+          "end": 58.213
+        },
+        {
+          "word": "to",
+          "start": 58.329,
+          "end": 58.434
+        },
+        {
+          "word": "nearly",
+          "start": 58.503,
+          "end": 58.747
+        },
+        {
+          "word": "minus",
+          "start": 58.828,
+          "end": 59.211
+        },
+        {
+          "word": "two",
+          "start": 59.327,
+          "end": 59.525
+        },
+        {
+          "word": "hundred",
+          "start": 59.583,
+          "end": 59.838
+        },
+        {
+          "word": "fifty",
+          "start": 59.885,
+          "end": 60.163
+        },
+        {
+          "word": "in",
+          "start": 60.198,
+          "end": 60.245
+        },
+        {
+          "word": "the",
+          "start": 60.28,
+          "end": 60.349
+        },
+        {
+          "word": "dark.",
+          "start": 60.384,
+          "end": 60.825
+        },
+        {
+          "word": "Again.",
+          "start": 61.15,
+          "end": 61.777
+        },
+        {
+          "word": "And",
+          "start": 62.102,
+          "end": 62.276
+        },
+        {
+          "word": "again.",
+          "start": 62.334,
+          "end": 62.88
+        },
+        {
+          "word": "Materials",
+          "start": 63.321,
+          "end": 63.879
+        },
+        {
+          "word": "expand,",
+          "start": 63.937,
+          "end": 64.645
+        },
+        {
+          "word": "then",
+          "start": 64.97,
+          "end": 65.156
+        },
+        {
+          "word": "contract,",
+          "start": 65.225,
+          "end": 65.98
+        },
+        {
+          "word": "then",
+          "start": 66.363,
+          "end": 66.549
+        },
+        {
+          "word": "crack.",
+          "start": 66.63,
+          "end": 67.153
+        },
+        {
+          "word": "Slowly,",
+          "start": 67.756,
+          "end": 68.302
+        },
+        {
+          "word": "the",
+          "start": 68.325,
+          "end": 68.407
+        },
+        {
+          "word": "universe",
+          "start": 68.523,
+          "end": 68.999
+        },
+        {
+          "word": "is",
+          "start": 69.033,
+          "end": 69.115
+        },
+        {
+          "word": "taking",
+          "start": 69.173,
+          "end": 69.475
+        },
+        {
+          "word": "our",
+          "start": 69.533,
+          "end": 69.649
+        },
+        {
+          "word": "equipment",
+          "start": 69.695,
+          "end": 70.055
+        },
+        {
+          "word": "apart.",
+          "start": 70.09,
+          "end": 70.775
+        }
+      ]
+    },
+    "s3_ballistic": {
+      "kind": "spoken",
+      "dur": 60.836,
+      "words": [
+        {
+          "word": "But",
+          "start": 0.0,
+          "end": 0.197
+        },
+        {
+          "word": "as",
+          "start": 0.232,
+          "end": 0.313
+        },
+        {
+          "word": "these",
+          "start": 0.383,
+          "end": 0.615
+        },
+        {
+          "word": "objects",
+          "start": 0.673,
+          "end": 1.091
+        },
+        {
+          "word": "break",
+          "start": 1.138,
+          "end": 1.347
+        },
+        {
+          "word": "down,",
+          "start": 1.405,
+          "end": 1.95
+        },
+        {
+          "word": "they",
+          "start": 2.125,
+          "end": 2.252
+        },
+        {
+          "word": "become",
+          "start": 2.299,
+          "end": 2.624
+        },
+        {
+          "word": "something",
+          "start": 2.67,
+          "end": 2.995
+        },
+        {
+          "word": "far",
+          "start": 3.088,
+          "end": 3.344
+        },
+        {
+          "word": "more",
+          "start": 3.425,
+          "end": 3.611
+        },
+        {
+          "word": "dangerous",
+          "start": 3.657,
+          "end": 4.098
+        },
+        {
+          "word": "than",
+          "start": 4.122,
+          "end": 4.249
+        },
+        {
+          "word": "litter.",
+          "start": 4.319,
+          "end": 4.783
+        },
+        {
+          "word": "In",
+          "start": 5.48,
+          "end": 5.631
+        },
+        {
+          "word": "orbit,",
+          "start": 5.7,
+          "end": 6.118
+        },
+        {
+          "word": "energy",
+          "start": 6.269,
+          "end": 6.664
+        },
+        {
+          "word": "is",
+          "start": 6.722,
+          "end": 6.827
+        },
+        {
+          "word": "not",
+          "start": 6.943,
+          "end": 7.129
+        },
+        {
+          "word": "about",
+          "start": 7.163,
+          "end": 7.396
+        },
+        {
+          "word": "size.",
+          "start": 7.465,
+          "end": 8.081
+        },
+        {
+          "word": "It",
+          "start": 8.406,
+          "end": 8.533
+        },
+        {
+          "word": "is",
+          "start": 8.58,
+          "end": 8.661
+        },
+        {
+          "word": "about",
+          "start": 8.719,
+          "end": 8.975
+        },
+        {
+          "word": "speed.",
+          "start": 9.044,
+          "end": 9.671
+        },
+        {
+          "word": "A",
+          "start": 10.275,
+          "end": 10.356
+        },
+        {
+          "word": "fleck",
+          "start": 10.437,
+          "end": 10.658
+        },
+        {
+          "word": "of",
+          "start": 10.704,
+          "end": 10.762
+        },
+        {
+          "word": "paint",
+          "start": 10.844,
+          "end": 11.157
+        },
+        {
+          "word": "traveling",
+          "start": 11.204,
+          "end": 11.656
+        },
+        {
+          "word": "at",
+          "start": 11.714,
+          "end": 11.784
+        },
+        {
+          "word": "orbital",
+          "start": 11.865,
+          "end": 12.237
+        },
+        {
+          "word": "velocity",
+          "start": 12.353,
+          "end": 13.05
+        },
+        {
+          "word": "carries",
+          "start": 13.433,
+          "end": 13.793
+        },
+        {
+          "word": "the",
+          "start": 13.827,
+          "end": 13.897
+        },
+        {
+          "word": "force",
+          "start": 13.944,
+          "end": 14.187
+        },
+        {
+          "word": "of",
+          "start": 14.222,
+          "end": 14.269
+        },
+        {
+          "word": "a",
+          "start": 14.327,
+          "end": 14.35
+        },
+        {
+          "word": "bullet.",
+          "start": 14.408,
+          "end": 14.861
+        },
+        {
+          "word": "A",
+          "start": 15.557,
+          "end": 15.639
+        },
+        {
+          "word": "lost",
+          "start": 15.732,
+          "end": 16.022
+        },
+        {
+          "word": "bolt",
+          "start": 16.08,
+          "end": 16.359
+        },
+        {
+          "word": "hits",
+          "start": 16.417,
+          "end": 16.614
+        },
+        {
+          "word": "with",
+          "start": 16.649,
+          "end": 16.765
+        },
+        {
+          "word": "the",
+          "start": 16.8,
+          "end": 16.87
+        },
+        {
+          "word": "energy",
+          "start": 16.928,
+          "end": 17.229
+        },
+        {
+          "word": "of",
+          "start": 17.287,
+          "end": 17.346
+        },
+        {
+          "word": "a",
+          "start": 17.392,
+          "end": 17.415
+        },
+        {
+          "word": "hand",
+          "start": 17.473,
+          "end": 17.647
+        },
+        {
+          "word": "grenade.",
+          "start": 17.682,
+          "end": 18.123
+        },
+        {
+          "word": "That",
+          "start": 18.565,
+          "end": 18.774
+        },
+        {
+          "word": "harmless",
+          "start": 18.843,
+          "end": 19.25
+        },
+        {
+          "word": "glove?",
+          "start": 19.296,
+          "end": 19.807
+        },
+        {
+          "word": "If",
+          "start": 20.248,
+          "end": 20.387
+        },
+        {
+          "word": "it",
+          "start": 20.445,
+          "end": 20.515
+        },
+        {
+          "word": "struck",
+          "start": 20.573,
+          "end": 20.84
+        },
+        {
+          "word": "a",
+          "start": 20.887,
+          "end": 20.91
+        },
+        {
+          "word": "spacecraft",
+          "start": 20.991,
+          "end": 21.688
+        },
+        {
+          "word": "head-on,",
+          "start": 21.734,
+          "end": 22.396
+        },
+        {
+          "word": "the",
+          "start": 22.57,
+          "end": 22.686
+        },
+        {
+          "word": "impact",
+          "start": 22.767,
+          "end": 23.151
+        },
+        {
+          "word": "could",
+          "start": 23.185,
+          "end": 23.325
+        },
+        {
+          "word": "punch",
+          "start": 23.36,
+          "end": 23.592
+        },
+        {
+          "word": "straight",
+          "start": 23.661,
+          "end": 24.056
+        },
+        {
+          "word": "through",
+          "start": 24.091,
+          "end": 24.312
+        },
+        {
+          "word": "metal",
+          "start": 24.37,
+          "end": 24.602
+        },
+        {
+          "word": "shielding",
+          "start": 24.671,
+          "end": 25.113
+        },
+        {
+          "word": "designed",
+          "start": 25.391,
+          "end": 25.832
+        },
+        {
+          "word": "to",
+          "start": 25.856,
+          "end": 25.902
+        },
+        {
+          "word": "protect",
+          "start": 25.972,
+          "end": 26.378
+        },
+        {
+          "word": "human",
+          "start": 26.413,
+          "end": 26.668
+        },
+        {
+          "word": "lives.",
+          "start": 26.726,
+          "end": 27.249
+        },
+        {
+          "word": "And",
+          "start": 27.632,
+          "end": 27.783
+        },
+        {
+          "word": "every",
+          "start": 27.853,
+          "end": 28.05
+        },
+        {
+          "word": "object",
+          "start": 28.12,
+          "end": 28.456
+        },
+        {
+          "word": "that",
+          "start": 28.479,
+          "end": 28.607
+        },
+        {
+          "word": "fragments",
+          "start": 28.665,
+          "end": 29.2
+        },
+        {
+          "word": "creates",
+          "start": 29.351,
+          "end": 29.71
+        },
+        {
+          "word": "more",
+          "start": 29.757,
+          "end": 29.908
+        },
+        {
+          "word": "debris.",
+          "start": 29.954,
+          "end": 30.488
+        },
+        {
+          "word": "More",
+          "start": 30.93,
+          "end": 31.173
+        },
+        {
+          "word": "fragments",
+          "start": 31.231,
+          "end": 31.742
+        },
+        {
+          "word": "mean",
+          "start": 31.812,
+          "end": 31.986
+        },
+        {
+          "word": "more",
+          "start": 32.044,
+          "end": 32.207
+        },
+        {
+          "word": "collisions.",
+          "start": 32.253,
+          "end": 33.008
+        },
+        {
+          "word": "More",
+          "start": 33.333,
+          "end": 33.53
+        },
+        {
+          "word": "collisions",
+          "start": 33.577,
+          "end": 34.053
+        },
+        {
+          "word": "mean",
+          "start": 34.122,
+          "end": 34.285
+        },
+        {
+          "word": "more",
+          "start": 34.343,
+          "end": 34.494
+        },
+        {
+          "word": "fragments.",
+          "start": 34.552,
+          "end": 35.237
+        },
+        {
+          "word": "Scientists",
+          "start": 35.841,
+          "end": 36.433
+        },
+        {
+          "word": "have",
+          "start": 36.479,
+          "end": 36.642
+        },
+        {
+          "word": "a",
+          "start": 36.676,
+          "end": 36.7
+        },
+        {
+          "word": "name",
+          "start": 36.781,
+          "end": 37.002
+        },
+        {
+          "word": "for",
+          "start": 37.036,
+          "end": 37.129
+        },
+        {
+          "word": "the",
+          "start": 37.164,
+          "end": 37.234
+        },
+        {
+          "word": "nightmare",
+          "start": 37.28,
+          "end": 37.64
+        },
+        {
+          "word": "scenario.",
+          "start": 37.675,
+          "end": 38.313
+        },
+        {
+          "word": "The",
+          "start": 38.639,
+          "end": 38.755
+        },
+        {
+          "word": "Kessler",
+          "start": 38.836,
+          "end": 39.242
+        },
+        {
+          "word": "Syndrome.",
+          "start": 39.3,
+          "end": 39.846
+        },
+        {
+          "word": "A",
+          "start": 40.171,
+          "end": 40.264
+        },
+        {
+          "word": "runaway",
+          "start": 40.392,
+          "end": 40.786
+        },
+        {
+          "word": "chain",
+          "start": 40.856,
+          "end": 41.1
+        },
+        {
+          "word": "reaction,",
+          "start": 41.181,
+          "end": 41.889
+        },
+        {
+          "word": "where",
+          "start": 42.098,
+          "end": 42.307
+        },
+        {
+          "word": "orbiting",
+          "start": 42.354,
+          "end": 42.714
+        },
+        {
+          "word": "debris",
+          "start": 42.772,
+          "end": 43.108
+        },
+        {
+          "word": "collides,",
+          "start": 43.155,
+          "end": 43.84
+        },
+        {
+          "word": "multiplies,",
+          "start": 43.956,
+          "end": 44.804
+        },
+        {
+          "word": "and",
+          "start": 44.955,
+          "end": 45.117
+        },
+        {
+          "word": "cascades,",
+          "start": 45.187,
+          "end": 46.069
+        },
+        {
+          "word": "until",
+          "start": 46.348,
+          "end": 46.626
+        },
+        {
+          "word": "entire",
+          "start": 46.696,
+          "end": 47.126
+        },
+        {
+          "word": "regions",
+          "start": 47.207,
+          "end": 47.625
+        },
+        {
+          "word": "of",
+          "start": 47.671,
+          "end": 47.741
+        },
+        {
+          "word": "space",
+          "start": 47.811,
+          "end": 48.182
+        },
+        {
+          "word": "become",
+          "start": 48.229,
+          "end": 48.519
+        },
+        {
+          "word": "a",
+          "start": 48.554,
+          "end": 48.577
+        },
+        {
+          "word": "wall",
+          "start": 48.623,
+          "end": 48.809
+        },
+        {
+          "word": "of",
+          "start": 48.856,
+          "end": 48.902
+        },
+        {
+          "word": "shrapnel.",
+          "start": 48.948,
+          "end": 49.54
+        },
+        {
+          "word": "And",
+          "start": 50.237,
+          "end": 50.388
+        },
+        {
+          "word": "as",
+          "start": 50.446,
+          "end": 50.527
+        },
+        {
+          "word": "we",
+          "start": 50.585,
+          "end": 50.678
+        },
+        {
+          "word": "launch",
+          "start": 50.748,
+          "end": 51.05
+        },
+        {
+          "word": "tens",
+          "start": 51.131,
+          "end": 51.456
+        },
+        {
+          "word": "of",
+          "start": 51.503,
+          "end": 51.572
+        },
+        {
+          "word": "thousands",
+          "start": 51.63,
+          "end": 52.048
+        },
+        {
+          "word": "of",
+          "start": 52.083,
+          "end": 52.13
+        },
+        {
+          "word": "new",
+          "start": 52.199,
+          "end": 52.315
+        },
+        {
+          "word": "satellites",
+          "start": 52.385,
+          "end": 52.942
+        },
+        {
+          "word": "into",
+          "start": 52.977,
+          "end": 53.128
+        },
+        {
+          "word": "these",
+          "start": 53.186,
+          "end": 53.325
+        },
+        {
+          "word": "same",
+          "start": 53.36,
+          "end": 53.581
+        },
+        {
+          "word": "orbits,",
+          "start": 53.627,
+          "end": 54.161
+        },
+        {
+          "word": "the",
+          "start": 54.486,
+          "end": 54.591
+        },
+        {
+          "word": "margin",
+          "start": 54.66,
+          "end": 54.997
+        },
+        {
+          "word": "for",
+          "start": 55.067,
+          "end": 55.171
+        },
+        {
+          "word": "error",
+          "start": 55.241,
+          "end": 55.508
+        },
+        {
+          "word": "is",
+          "start": 55.578,
+          "end": 55.682
+        },
+        {
+          "word": "vanishing.",
+          "start": 55.763,
+          "end": 56.414
+        },
+        {
+          "word": "A",
+          "start": 57.11,
+          "end": 57.191
+        },
+        {
+          "word": "single",
+          "start": 57.342,
+          "end": 57.714
+        },
+        {
+          "word": "forgotten",
+          "start": 57.76,
+          "end": 58.202
+        },
+        {
+          "word": "glove",
+          "start": 58.26,
+          "end": 58.585
+        },
+        {
+          "word": "could,",
+          "start": 58.631,
+          "end": 58.817
+        },
+        {
+          "word": "in",
+          "start": 58.84,
+          "end": 58.945
+        },
+        {
+          "word": "theory,",
+          "start": 59.061,
+          "end": 59.421
+        },
+        {
+          "word": "be",
+          "start": 59.455,
+          "end": 59.56
+        },
+        {
+          "word": "the",
+          "start": 59.595,
+          "end": 59.664
+        },
+        {
+          "word": "first",
+          "start": 59.711,
+          "end": 59.966
+        },
+        {
+          "word": "domino.",
+          "start": 60.013,
+          "end": 60.837
+        }
+      ]
+    },
+    "s4_graveyard": {
+      "kind": "spoken",
+      "dur": 60.743,
+      "words": [
+        {
+          "word": "So",
+          "start": 0.0,
+          "end": 0.174
+        },
+        {
+          "word": "where",
+          "start": 0.232,
+          "end": 0.406
+        },
+        {
+          "word": "does",
+          "start": 0.43,
+          "end": 0.557
+        },
+        {
+          "word": "all",
+          "start": 0.592,
+          "end": 0.72
+        },
+        {
+          "word": "of",
+          "start": 0.766,
+          "end": 0.813
+        },
+        {
+          "word": "it",
+          "start": 0.848,
+          "end": 0.917
+        },
+        {
+          "word": "go?",
+          "start": 0.964,
+          "end": 1.428
+        },
+        {
+          "word": "Lost",
+          "start": 1.869,
+          "end": 2.229
+        },
+        {
+          "word": "objects",
+          "start": 2.299,
+          "end": 2.717
+        },
+        {
+          "word": "don't",
+          "start": 2.752,
+          "end": 2.949
+        },
+        {
+          "word": "scatter",
+          "start": 3.007,
+          "end": 3.425
+        },
+        {
+          "word": "randomly.",
+          "start": 3.483,
+          "end": 4.156
+        },
+        {
+          "word": "They",
+          "start": 4.481,
+          "end": 4.644
+        },
+        {
+          "word": "follow",
+          "start": 4.702,
+          "end": 4.969
+        },
+        {
+          "word": "the",
+          "start": 5.027,
+          "end": 5.108
+        },
+        {
+          "word": "invisible",
+          "start": 5.19,
+          "end": 5.712
+        },
+        {
+          "word": "highways",
+          "start": 5.759,
+          "end": 6.165
+        },
+        {
+          "word": "of",
+          "start": 6.211,
+          "end": 6.269
+        },
+        {
+          "word": "orbital",
+          "start": 6.362,
+          "end": 6.676
+        },
+        {
+          "word": "mechanics,",
+          "start": 6.722,
+          "end": 7.442
+        },
+        {
+          "word": "drifting",
+          "start": 7.686,
+          "end": 8.081
+        },
+        {
+          "word": "into",
+          "start": 8.127,
+          "end": 8.255
+        },
+        {
+          "word": "specific",
+          "start": 8.313,
+          "end": 8.858
+        },
+        {
+          "word": "lanes",
+          "start": 8.928,
+          "end": 9.195
+        },
+        {
+          "word": "and",
+          "start": 9.23,
+          "end": 9.3
+        },
+        {
+          "word": "altitudes,",
+          "start": 9.358,
+          "end": 10.043
+        },
+        {
+          "word": "places",
+          "start": 10.484,
+          "end": 10.937
+        },
+        {
+          "word": "where,",
+          "start": 11.006,
+          "end": 11.32
+        },
+        {
+          "word": "over",
+          "start": 11.366,
+          "end": 11.552
+        },
+        {
+          "word": "the",
+          "start": 11.598,
+          "end": 11.668
+        },
+        {
+          "word": "decades,",
+          "start": 11.726,
+          "end": 12.376
+        },
+        {
+          "word": "the",
+          "start": 12.585,
+          "end": 12.69
+        },
+        {
+          "word": "discarded",
+          "start": 12.736,
+          "end": 13.305
+        },
+        {
+          "word": "artifacts",
+          "start": 13.375,
+          "end": 13.92
+        },
+        {
+          "word": "of",
+          "start": 13.955,
+          "end": 14.013
+        },
+        {
+          "word": "human",
+          "start": 14.071,
+          "end": 14.315
+        },
+        {
+          "word": "spaceflight",
+          "start": 14.35,
+          "end": 14.953
+        },
+        {
+          "word": "quietly",
+          "start": 15.127,
+          "end": 15.569
+        },
+        {
+          "word": "gather.",
+          "start": 15.615,
+          "end": 16.091
+        },
+        {
+          "word": "In",
+          "start": 16.416,
+          "end": 16.555
+        },
+        {
+          "word": "low",
+          "start": 16.637,
+          "end": 16.822
+        },
+        {
+          "word": "orbit,",
+          "start": 16.915,
+          "end": 17.403
+        },
+        {
+          "word": "there",
+          "start": 17.461,
+          "end": 17.647
+        },
+        {
+          "word": "is",
+          "start": 17.682,
+          "end": 17.763
+        },
+        {
+          "word": "a",
+          "start": 17.821,
+          "end": 17.844
+        },
+        {
+          "word": "mercy.",
+          "start": 17.914,
+          "end": 18.471
+        },
+        {
+          "word": "The",
+          "start": 18.854,
+          "end": 18.982
+        },
+        {
+          "word": "faint",
+          "start": 19.063,
+          "end": 19.353
+        },
+        {
+          "word": "drag",
+          "start": 19.411,
+          "end": 19.771
+        },
+        {
+          "word": "of",
+          "start": 19.818,
+          "end": 19.864
+        },
+        {
+          "word": "the",
+          "start": 19.899,
+          "end": 19.969
+        },
+        {
+          "word": "atmosphere",
+          "start": 20.038,
+          "end": 20.631
+        },
+        {
+          "word": "slowly",
+          "start": 20.781,
+          "end": 21.211
+        },
+        {
+          "word": "pulls",
+          "start": 21.257,
+          "end": 21.49
+        },
+        {
+          "word": "objects",
+          "start": 21.559,
+          "end": 21.954
+        },
+        {
+          "word": "down,",
+          "start": 22.0,
+          "end": 22.5
+        },
+        {
+          "word": "and",
+          "start": 22.778,
+          "end": 22.929
+        },
+        {
+          "word": "within",
+          "start": 22.987,
+          "end": 23.254
+        },
+        {
+          "word": "months",
+          "start": 23.336,
+          "end": 23.579
+        },
+        {
+          "word": "or",
+          "start": 23.614,
+          "end": 23.696
+        },
+        {
+          "word": "years,",
+          "start": 23.754,
+          "end": 24.114
+        },
+        {
+          "word": "they",
+          "start": 24.137,
+          "end": 24.253
+        },
+        {
+          "word": "burn",
+          "start": 24.299,
+          "end": 24.473
+        },
+        {
+          "word": "away.",
+          "start": 24.52,
+          "end": 24.984
+        },
+        {
+          "word": "Ed",
+          "start": 25.681,
+          "end": 25.855
+        },
+        {
+          "word": "White's",
+          "start": 25.925,
+          "end": 26.215
+        },
+        {
+          "word": "glove",
+          "start": 26.261,
+          "end": 26.552
+        },
+        {
+          "word": "fell",
+          "start": 26.598,
+          "end": 26.784
+        },
+        {
+          "word": "back",
+          "start": 26.853,
+          "end": 27.051
+        },
+        {
+          "word": "to",
+          "start": 27.097,
+          "end": 27.167
+        },
+        {
+          "word": "Earth",
+          "start": 27.26,
+          "end": 27.538
+        },
+        {
+          "word": "within",
+          "start": 27.689,
+          "end": 27.991
+        },
+        {
+          "word": "a",
+          "start": 28.026,
+          "end": 28.049
+        },
+        {
+          "word": "month.",
+          "start": 28.107,
+          "end": 28.514
+        },
+        {
+          "word": "But",
+          "start": 28.955,
+          "end": 29.117
+        },
+        {
+          "word": "push",
+          "start": 29.163,
+          "end": 29.384
+        },
+        {
+          "word": "something",
+          "start": 29.43,
+          "end": 29.744
+        },
+        {
+          "word": "higher,",
+          "start": 29.814,
+          "end": 30.255
+        },
+        {
+          "word": "into",
+          "start": 30.371,
+          "end": 30.638
+        },
+        {
+          "word": "the",
+          "start": 30.708,
+          "end": 30.777
+        },
+        {
+          "word": "graveyard",
+          "start": 30.812,
+          "end": 31.218
+        },
+        {
+          "word": "orbits,",
+          "start": 31.265,
+          "end": 31.729
+        },
+        {
+          "word": "and",
+          "start": 32.008,
+          "end": 32.159
+        },
+        {
+          "word": "it",
+          "start": 32.217,
+          "end": 32.275
+        },
+        {
+          "word": "can",
+          "start": 32.321,
+          "end": 32.449
+        },
+        {
+          "word": "circle",
+          "start": 32.542,
+          "end": 32.89
+        },
+        {
+          "word": "the",
+          "start": 32.925,
+          "end": 32.995
+        },
+        {
+          "word": "planet",
+          "start": 33.053,
+          "end": 33.401
+        },
+        {
+          "word": "for",
+          "start": 33.459,
+          "end": 33.587
+        },
+        {
+          "word": "centuries.",
+          "start": 33.668,
+          "end": 34.376
+        },
+        {
+          "word": "Untouched.",
+          "start": 34.817,
+          "end": 35.63
+        },
+        {
+          "word": "Untracked.",
+          "start": 36.013,
+          "end": 36.872
+        },
+        {
+          "word": "Almost.",
+          "start": 37.314,
+          "end": 38.045
+        },
+        {
+          "word": "Because",
+          "start": 38.428,
+          "end": 38.753
+        },
+        {
+          "word": "we",
+          "start": 38.8,
+          "end": 38.893
+        },
+        {
+          "word": "are",
+          "start": 38.939,
+          "end": 39.067
+        },
+        {
+          "word": "watching.",
+          "start": 39.136,
+          "end": 39.763
+        },
+        {
+          "word": "Powerful",
+          "start": 40.146,
+          "end": 40.681
+        },
+        {
+          "word": "radar",
+          "start": 40.797,
+          "end": 41.168
+        },
+        {
+          "word": "systems,",
+          "start": 41.238,
+          "end": 41.783
+        },
+        {
+          "word": "like",
+          "start": 41.865,
+          "end": 42.051
+        },
+        {
+          "word": "the",
+          "start": 42.085,
+          "end": 42.155
+        },
+        {
+          "word": "Space",
+          "start": 42.201,
+          "end": 42.515
+        },
+        {
+          "word": "Fence,",
+          "start": 42.573,
+          "end": 42.991
+        },
+        {
+          "word": "stare",
+          "start": 43.316,
+          "end": 43.688
+        },
+        {
+          "word": "constantly",
+          "start": 43.746,
+          "end": 44.361
+        },
+        {
+          "word": "into",
+          "start": 44.407,
+          "end": 44.547
+        },
+        {
+          "word": "orbit,",
+          "start": 44.616,
+          "end": 45.057
+        },
+        {
+          "word": "cataloguing",
+          "start": 45.382,
+          "end": 46.067
+        },
+        {
+          "word": "tens",
+          "start": 46.148,
+          "end": 46.462
+        },
+        {
+          "word": "of",
+          "start": 46.508,
+          "end": 46.566
+        },
+        {
+          "word": "thousands",
+          "start": 46.624,
+          "end": 47.019
+        },
+        {
+          "word": "of",
+          "start": 47.042,
+          "end": 47.1
+        },
+        {
+          "word": "objects,",
+          "start": 47.17,
+          "end": 47.716
+        },
+        {
+          "word": "some",
+          "start": 48.227,
+          "end": 48.47
+        },
+        {
+          "word": "no",
+          "start": 48.517,
+          "end": 48.621
+        },
+        {
+          "word": "larger",
+          "start": 48.714,
+          "end": 49.051
+        },
+        {
+          "word": "than",
+          "start": 49.086,
+          "end": 49.202
+        },
+        {
+          "word": "a",
+          "start": 49.237,
+          "end": 49.272
+        },
+        {
+          "word": "marble,",
+          "start": 49.341,
+          "end": 49.875
+        },
+        {
+          "word": "mapping",
+          "start": 50.386,
+          "end": 50.723
+        },
+        {
+          "word": "their",
+          "start": 50.758,
+          "end": 50.897
+        },
+        {
+          "word": "paths",
+          "start": 50.932,
+          "end": 51.292
+        },
+        {
+          "word": "to",
+          "start": 51.338,
+          "end": 51.408
+        },
+        {
+          "word": "predict",
+          "start": 51.477,
+          "end": 51.768
+        },
+        {
+          "word": "the",
+          "start": 51.802,
+          "end": 51.872
+        },
+        {
+          "word": "next",
+          "start": 51.919,
+          "end": 52.116
+        },
+        {
+          "word": "deadly",
+          "start": 52.174,
+          "end": 52.476
+        },
+        {
+          "word": "collision",
+          "start": 52.534,
+          "end": 53.022
+        },
+        {
+          "word": "before",
+          "start": 53.138,
+          "end": 53.44
+        },
+        {
+          "word": "it",
+          "start": 53.474,
+          "end": 53.521
+        },
+        {
+          "word": "happens.",
+          "start": 53.567,
+          "end": 54.159
+        },
+        {
+          "word": "Every",
+          "start": 54.856,
+          "end": 55.135
+        },
+        {
+          "word": "glove.",
+          "start": 55.193,
+          "end": 55.703
+        },
+        {
+          "word": "Every",
+          "start": 55.912,
+          "end": 56.203
+        },
+        {
+          "word": "bolt.",
+          "start": 56.272,
+          "end": 56.725
+        },
+        {
+          "word": "Every",
+          "start": 57.108,
+          "end": 57.387
+        },
+        {
+          "word": "flake",
+          "start": 57.433,
+          "end": 57.677
+        },
+        {
+          "word": "of",
+          "start": 57.712,
+          "end": 57.758
+        },
+        {
+          "word": "frozen",
+          "start": 57.793,
+          "end": 58.118
+        },
+        {
+          "word": "paint.",
+          "start": 58.176,
+          "end": 58.559
+        },
+        {
+          "word": "Counted.",
+          "start": 58.943,
+          "end": 59.57
+        },
+        {
+          "word": "And",
+          "start": 59.744,
+          "end": 59.918
+        },
+        {
+          "word": "followed.",
+          "start": 59.999,
+          "end": 60.742
+        }
+      ]
+    },
+    "s5_legacy": {
+      "kind": "spoken",
+      "dur": 53.824,
+      "words": [
+        {
+          "word": "There",
+          "start": 0.0,
+          "end": 0.221
+        },
+        {
+          "word": "is",
+          "start": 0.255,
+          "end": 0.325
+        },
+        {
+          "word": "something",
+          "start": 0.383,
+          "end": 0.72
+        },
+        {
+          "word": "haunting",
+          "start": 0.813,
+          "end": 1.196
+        },
+        {
+          "word": "about",
+          "start": 1.231,
+          "end": 1.428
+        },
+        {
+          "word": "all",
+          "start": 1.463,
+          "end": 1.579
+        },
+        {
+          "word": "of",
+          "start": 1.625,
+          "end": 1.672
+        },
+        {
+          "word": "this.",
+          "start": 1.707,
+          "end": 2.113
+        },
+        {
+          "word": "Each",
+          "start": 2.926,
+          "end": 3.146
+        },
+        {
+          "word": "lost",
+          "start": 3.239,
+          "end": 3.587
+        },
+        {
+          "word": "object",
+          "start": 3.669,
+          "end": 4.145
+        },
+        {
+          "word": "is",
+          "start": 4.191,
+          "end": 4.272
+        },
+        {
+          "word": "an",
+          "start": 4.331,
+          "end": 4.4
+        },
+        {
+          "word": "accidental",
+          "start": 4.481,
+          "end": 5.085
+        },
+        {
+          "word": "time",
+          "start": 5.132,
+          "end": 5.41
+        },
+        {
+          "word": "capsule.",
+          "start": 5.445,
+          "end": 6.037
+        },
+        {
+          "word": "A",
+          "start": 6.42,
+          "end": 6.502
+        },
+        {
+          "word": "frozen",
+          "start": 6.618,
+          "end": 7.012
+        },
+        {
+          "word": "fragment",
+          "start": 7.094,
+          "end": 7.558
+        },
+        {
+          "word": "of",
+          "start": 7.593,
+          "end": 7.651
+        },
+        {
+          "word": "twenty-first",
+          "start": 7.721,
+          "end": 8.266
+        },
+        {
+          "word": "century",
+          "start": 8.313,
+          "end": 8.719
+        },
+        {
+          "word": "human",
+          "start": 8.8,
+          "end": 9.091
+        },
+        {
+          "word": "engineering,",
+          "start": 9.137,
+          "end": 9.857
+        },
+        {
+          "word": "sealed",
+          "start": 10.182,
+          "end": 10.542
+        },
+        {
+          "word": "in",
+          "start": 10.577,
+          "end": 10.623
+        },
+        {
+          "word": "the",
+          "start": 10.658,
+          "end": 10.728
+        },
+        {
+          "word": "most",
+          "start": 10.762,
+          "end": 10.971
+        },
+        {
+          "word": "hostile",
+          "start": 11.041,
+          "end": 11.482
+        },
+        {
+          "word": "museum",
+          "start": 11.517,
+          "end": 11.912
+        },
+        {
+          "word": "ever",
+          "start": 11.958,
+          "end": 12.109
+        },
+        {
+          "word": "built.",
+          "start": 12.156,
+          "end": 12.574
+        },
+        {
+          "word": "And",
+          "start": 13.177,
+          "end": 13.328
+        },
+        {
+          "word": "it",
+          "start": 13.386,
+          "end": 13.456
+        },
+        {
+          "word": "raises",
+          "start": 13.526,
+          "end": 13.92
+        },
+        {
+          "word": "a",
+          "start": 13.978,
+          "end": 14.013
+        },
+        {
+          "word": "strange",
+          "start": 14.071,
+          "end": 14.408
+        },
+        {
+          "word": "question.",
+          "start": 14.455,
+          "end": 15.082
+        },
+        {
+          "word": "Is",
+          "start": 15.686,
+          "end": 15.86
+        },
+        {
+          "word": "a",
+          "start": 15.918,
+          "end": 15.953
+        },
+        {
+          "word": "glove",
+          "start": 16.034,
+          "end": 16.405
+        },
+        {
+          "word": "dropped",
+          "start": 16.452,
+          "end": 16.754
+        },
+        {
+          "word": "by",
+          "start": 16.777,
+          "end": 16.881
+        },
+        {
+          "word": "one",
+          "start": 16.974,
+          "end": 17.137
+        },
+        {
+          "word": "of",
+          "start": 17.16,
+          "end": 17.218
+        },
+        {
+          "word": "the",
+          "start": 17.264,
+          "end": 17.334
+        },
+        {
+          "word": "first",
+          "start": 17.427,
+          "end": 17.717
+        },
+        {
+          "word": "humans",
+          "start": 17.764,
+          "end": 18.182
+        },
+        {
+          "word": "to",
+          "start": 18.24,
+          "end": 18.333
+        },
+        {
+          "word": "walk",
+          "start": 18.414,
+          "end": 18.646
+        },
+        {
+          "word": "in",
+          "start": 18.704,
+          "end": 18.774
+        },
+        {
+          "word": "space",
+          "start": 18.855,
+          "end": 19.273
+        },
+        {
+          "word": "simply",
+          "start": 19.308,
+          "end": 19.61
+        },
+        {
+          "word": "garbage,",
+          "start": 19.691,
+          "end": 20.295
+        },
+        {
+          "word": "to",
+          "start": 20.62,
+          "end": 20.713
+        },
+        {
+          "word": "be",
+          "start": 20.782,
+          "end": 20.864
+        },
+        {
+          "word": "cleaned",
+          "start": 20.91,
+          "end": 21.2
+        },
+        {
+          "word": "up?",
+          "start": 21.258,
+          "end": 21.618
+        },
+        {
+          "word": "Or",
+          "start": 22.222,
+          "end": 22.396
+        },
+        {
+          "word": "is",
+          "start": 22.466,
+          "end": 22.582
+        },
+        {
+          "word": "it",
+          "start": 22.628,
+          "end": 22.698
+        },
+        {
+          "word": "a",
+          "start": 22.733,
+          "end": 22.768
+        },
+        {
+          "word": "historical",
+          "start": 22.837,
+          "end": 23.348
+        },
+        {
+          "word": "artifact,",
+          "start": 23.406,
+          "end": 24.068
+        },
+        {
+          "word": "a",
+          "start": 24.277,
+          "end": 24.347
+        },
+        {
+          "word": "piece",
+          "start": 24.428,
+          "end": 24.683
+        },
+        {
+          "word": "of",
+          "start": 24.706,
+          "end": 24.765
+        },
+        {
+          "word": "our",
+          "start": 24.823,
+          "end": 24.927
+        },
+        {
+          "word": "story",
+          "start": 24.985,
+          "end": 25.299
+        },
+        {
+          "word": "that",
+          "start": 25.345,
+          "end": 25.461
+        },
+        {
+          "word": "deserves",
+          "start": 25.508,
+          "end": 25.867
+        },
+        {
+          "word": "to",
+          "start": 25.902,
+          "end": 25.949
+        },
+        {
+          "word": "be",
+          "start": 25.995,
+          "end": 26.076
+        },
+        {
+          "word": "protected,",
+          "start": 26.111,
+          "end": 26.785
+        },
+        {
+          "word": "right",
+          "start": 27.063,
+          "end": 27.307
+        },
+        {
+          "word": "where",
+          "start": 27.342,
+          "end": 27.516
+        },
+        {
+          "word": "it",
+          "start": 27.551,
+          "end": 27.609
+        },
+        {
+          "word": "floats?",
+          "start": 27.667,
+          "end": 28.236
+        },
+        {
+          "word": "For",
+          "start": 28.933,
+          "end": 29.083
+        },
+        {
+          "word": "now,",
+          "start": 29.153,
+          "end": 29.385
+        },
+        {
+          "word": "most",
+          "start": 29.432,
+          "end": 29.641
+        },
+        {
+          "word": "of",
+          "start": 29.687,
+          "end": 29.734
+        },
+        {
+          "word": "these",
+          "start": 29.78,
+          "end": 29.943
+        },
+        {
+          "word": "relics",
+          "start": 30.001,
+          "end": 30.303
+        },
+        {
+          "word": "share",
+          "start": 30.326,
+          "end": 30.523
+        },
+        {
+          "word": "the",
+          "start": 30.558,
+          "end": 30.628
+        },
+        {
+          "word": "same",
+          "start": 30.674,
+          "end": 30.906
+        },
+        {
+          "word": "quiet",
+          "start": 30.953,
+          "end": 31.243
+        },
+        {
+          "word": "fate.",
+          "start": 31.301,
+          "end": 31.731
+        },
+        {
+          "word": "Slowly,",
+          "start": 32.172,
+          "end": 32.822
+        },
+        {
+          "word": "inevitably,",
+          "start": 32.88,
+          "end": 33.588
+        },
+        {
+          "word": "the",
+          "start": 33.635,
+          "end": 33.751
+        },
+        {
+          "word": "thin",
+          "start": 33.82,
+          "end": 34.006
+        },
+        {
+          "word": "grip",
+          "start": 34.099,
+          "end": 34.331
+        },
+        {
+          "word": "of",
+          "start": 34.389,
+          "end": 34.436
+        },
+        {
+          "word": "the",
+          "start": 34.471,
+          "end": 34.54
+        },
+        {
+          "word": "atmosphere",
+          "start": 34.61,
+          "end": 35.132
+        },
+        {
+          "word": "wins.",
+          "start": 35.19,
+          "end": 35.724
+        },
+        {
+          "word": "They",
+          "start": 36.108,
+          "end": 36.27
+        },
+        {
+          "word": "spiral",
+          "start": 36.317,
+          "end": 36.758
+        },
+        {
+          "word": "lower,",
+          "start": 36.827,
+          "end": 37.327
+        },
+        {
+          "word": "and",
+          "start": 37.501,
+          "end": 37.675
+        },
+        {
+          "word": "lower,",
+          "start": 37.756,
+          "end": 38.186
+        },
+        {
+          "word": "until",
+          "start": 38.255,
+          "end": 38.581
+        },
+        {
+          "word": "one",
+          "start": 38.65,
+          "end": 38.848
+        },
+        {
+          "word": "day",
+          "start": 38.882,
+          "end": 39.045
+        },
+        {
+          "word": "they",
+          "start": 39.091,
+          "end": 39.196
+        },
+        {
+          "word": "meet",
+          "start": 39.254,
+          "end": 39.416
+        },
+        {
+          "word": "the",
+          "start": 39.451,
+          "end": 39.521
+        },
+        {
+          "word": "air",
+          "start": 39.591,
+          "end": 39.73
+        },
+        {
+          "word": "at",
+          "start": 39.776,
+          "end": 39.858
+        },
+        {
+          "word": "full",
+          "start": 39.916,
+          "end": 40.159
+        },
+        {
+          "word": "orbital",
+          "start": 40.241,
+          "end": 40.577
+        },
+        {
+          "word": "speed,",
+          "start": 40.624,
+          "end": 41.123
+        },
+        {
+          "word": "and",
+          "start": 41.402,
+          "end": 41.564
+        },
+        {
+          "word": "end",
+          "start": 41.634,
+          "end": 41.738
+        },
+        {
+          "word": "their",
+          "start": 41.773,
+          "end": 41.913
+        },
+        {
+          "word": "long",
+          "start": 41.971,
+          "end": 42.203
+        },
+        {
+          "word": "journey",
+          "start": 42.284,
+          "end": 42.563
+        },
+        {
+          "word": "the",
+          "start": 42.621,
+          "end": 42.69
+        },
+        {
+          "word": "way",
+          "start": 42.737,
+          "end": 42.876
+        },
+        {
+          "word": "so",
+          "start": 42.992,
+          "end": 43.19
+        },
+        {
+          "word": "many",
+          "start": 43.259,
+          "end": 43.433
+        },
+        {
+          "word": "things",
+          "start": 43.48,
+          "end": 43.7
+        },
+        {
+          "word": "in",
+          "start": 43.759,
+          "end": 43.817
+        },
+        {
+          "word": "space",
+          "start": 43.863,
+          "end": 44.165
+        },
+        {
+          "word": "do.",
+          "start": 44.2,
+          "end": 44.571
+        },
+        {
+          "word": "Not",
+          "start": 45.384,
+          "end": 45.581
+        },
+        {
+          "word": "with",
+          "start": 45.616,
+          "end": 45.755
+        },
+        {
+          "word": "a",
+          "start": 45.802,
+          "end": 45.825
+        },
+        {
+          "word": "whisper,",
+          "start": 45.883,
+          "end": 46.313
+        },
+        {
+          "word": "but",
+          "start": 46.382,
+          "end": 46.568
+        },
+        {
+          "word": "as",
+          "start": 46.615,
+          "end": 46.719
+        },
+        {
+          "word": "a",
+          "start": 46.777,
+          "end": 46.812
+        },
+        {
+          "word": "brief,",
+          "start": 46.893,
+          "end": 47.3
+        },
+        {
+          "word": "brilliant",
+          "start": 47.45,
+          "end": 47.938
+        },
+        {
+          "word": "streak",
+          "start": 48.008,
+          "end": 48.298
+        },
+        {
+          "word": "of",
+          "start": 48.344,
+          "end": 48.403
+        },
+        {
+          "word": "light",
+          "start": 48.495,
+          "end": 48.693
+        },
+        {
+          "word": "across",
+          "start": 48.728,
+          "end": 49.041
+        },
+        {
+          "word": "the",
+          "start": 49.076,
+          "end": 49.146
+        },
+        {
+          "word": "night",
+          "start": 49.192,
+          "end": 49.366
+        },
+        {
+          "word": "sky.",
+          "start": 49.401,
+          "end": 49.97
+        },
+        {
+          "word": "A",
+          "start": 50.666,
+          "end": 50.748
+        },
+        {
+          "word": "shooting",
+          "start": 50.875,
+          "end": 51.235
+        },
+        {
+          "word": "star,",
+          "start": 51.305,
+          "end": 51.851
+        },
+        {
+          "word": "that",
+          "start": 52.176,
+          "end": 52.338
+        },
+        {
+          "word": "was",
+          "start": 52.385,
+          "end": 52.512
+        },
+        {
+          "word": "once",
+          "start": 52.594,
+          "end": 52.93
+        },
+        {
+          "word": "a",
+          "start": 52.988,
+          "end": 53.046
+        },
+        {
+          "word": "glove.",
+          "start": 53.116,
+          "end": 53.824
+        }
+      ]
+    },
+    "outro": {
+      "kind": "spoken",
+      "dur": 18.065,
+      "words": [
+        {
+          "word": "The",
+          "start": 0.0,
+          "end": 0.151
+        },
+        {
+          "word": "next",
+          "start": 0.209,
+          "end": 0.372
+        },
+        {
+          "word": "time",
+          "start": 0.395,
+          "end": 0.546
+        },
+        {
+          "word": "you",
+          "start": 0.569,
+          "end": 0.639
+        },
+        {
+          "word": "look",
+          "start": 0.708,
+          "end": 0.871
+        },
+        {
+          "word": "up,",
+          "start": 0.94,
+          "end": 1.115
+        },
+        {
+          "word": "remember.",
+          "start": 1.161,
+          "end": 1.718
+        },
+        {
+          "word": "We",
+          "start": 2.159,
+          "end": 2.287
+        },
+        {
+          "word": "have",
+          "start": 2.334,
+          "end": 2.473
+        },
+        {
+          "word": "left",
+          "start": 2.519,
+          "end": 2.717
+        },
+        {
+          "word": "more",
+          "start": 2.81,
+          "end": 3.03
+        },
+        {
+          "word": "than",
+          "start": 3.065,
+          "end": 3.193
+        },
+        {
+          "word": "footprints",
+          "start": 3.262,
+          "end": 3.75
+        },
+        {
+          "word": "out",
+          "start": 3.785,
+          "end": 3.947
+        },
+        {
+          "word": "there.",
+          "start": 3.982,
+          "end": 4.342
+        },
+        {
+          "word": "We've",
+          "start": 4.783,
+          "end": 5.004
+        },
+        {
+          "word": "left",
+          "start": 5.039,
+          "end": 5.213
+        },
+        {
+          "word": "pieces",
+          "start": 5.259,
+          "end": 5.608
+        },
+        {
+          "word": "of",
+          "start": 5.654,
+          "end": 5.712
+        },
+        {
+          "word": "ourselves,",
+          "start": 5.782,
+          "end": 6.316
+        },
+        {
+          "word": "drifting",
+          "start": 6.374,
+          "end": 6.757
+        },
+        {
+          "word": "in",
+          "start": 6.792,
+          "end": 6.85
+        },
+        {
+          "word": "the",
+          "start": 6.885,
+          "end": 6.954
+        },
+        {
+          "word": "dark,",
+          "start": 6.989,
+          "end": 7.465
+        },
+        {
+          "word": "changing",
+          "start": 7.744,
+          "end": 8.162
+        },
+        {
+          "word": "in",
+          "start": 8.208,
+          "end": 8.266
+        },
+        {
+          "word": "ways",
+          "start": 8.336,
+          "end": 8.626
+        },
+        {
+          "word": "we",
+          "start": 8.684,
+          "end": 8.766
+        },
+        {
+          "word": "are",
+          "start": 8.812,
+          "end": 8.94
+        },
+        {
+          "word": "only",
+          "start": 8.998,
+          "end": 9.218
+        },
+        {
+          "word": "beginning",
+          "start": 9.288,
+          "end": 9.601
+        },
+        {
+          "word": "to",
+          "start": 9.636,
+          "end": 9.683
+        },
+        {
+          "word": "understand.",
+          "start": 9.752,
+          "end": 10.484
+        },
+        {
+          "word": "If",
+          "start": 10.925,
+          "end": 11.041
+        },
+        {
+          "word": "you",
+          "start": 11.076,
+          "end": 11.146
+        },
+        {
+          "word": "want",
+          "start": 11.204,
+          "end": 11.378
+        },
+        {
+          "word": "to",
+          "start": 11.424,
+          "end": 11.482
+        },
+        {
+          "word": "keep",
+          "start": 11.552,
+          "end": 11.761
+        },
+        {
+          "word": "exploring",
+          "start": 11.819,
+          "end": 12.307
+        },
+        {
+          "word": "the",
+          "start": 12.353,
+          "end": 12.422
+        },
+        {
+          "word": "strange",
+          "start": 12.469,
+          "end": 12.875
+        },
+        {
+          "word": "machinery",
+          "start": 12.921,
+          "end": 13.432
+        },
+        {
+          "word": "of",
+          "start": 13.49,
+          "end": 13.537
+        },
+        {
+          "word": "our",
+          "start": 13.595,
+          "end": 13.688
+        },
+        {
+          "word": "universe,",
+          "start": 13.757,
+          "end": 14.349
+        },
+        {
+          "word": "subscribe",
+          "start": 14.628,
+          "end": 15.162
+        },
+        {
+          "word": "to",
+          "start": 15.197,
+          "end": 15.243
+        },
+        {
+          "word": "Mindwired.",
+          "start": 15.313,
+          "end": 15.998
+        },
+        {
+          "word": "And",
+          "start": 16.323,
+          "end": 16.462
+        },
+        {
+          "word": "we'll",
+          "start": 16.509,
+          "end": 16.683
+        },
+        {
+          "word": "see",
+          "start": 16.753,
+          "end": 16.939
+        },
+        {
+          "word": "you",
+          "start": 16.985,
+          "end": 17.066
+        },
+        {
+          "word": "in",
+          "start": 17.124,
+          "end": 17.182
+        },
+        {
+          "word": "the",
+          "start": 17.206,
+          "end": 17.275
+        },
+        {
+          "word": "next",
+          "start": 17.31,
+          "end": 17.507
+        },
+        {
+          "word": "one.",
+          "start": 17.577,
+          "end": 18.065
+        }
+      ]
+    },
+    "music_open": {
+      "kind": "instrumental",
+      "dur": 75.05
+    },
+    "music_tension": {
+      "kind": "instrumental",
+      "dur": 95.06
+    },
+    "music_awe": {
+      "kind": "instrumental",
+      "dur": 95.007
+    },
+    "music_outro": {
+      "kind": "instrumental",
+      "dur": 45.035
+    }
+  }
+}

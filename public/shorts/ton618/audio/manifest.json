@@ -1,0 +1,541 @@
+{
+ "clips": {
+  "hook": {
+   "dur": 4.272,
+   "text": "This is the biggest black hole we have ever found. And it should not exist.",
+   "words": [
+    {
+     "word": "This",
+     "start": 0.0,
+     "end": 0.221
+    },
+    {
+     "word": "is",
+     "start": 0.267,
+     "end": 0.348
+    },
+    {
+     "word": "the",
+     "start": 0.395,
+     "end": 0.464
+    },
+    {
+     "word": "biggest",
+     "start": 0.511,
+     "end": 0.789
+    },
+    {
+     "word": "black",
+     "start": 0.824,
+     "end": 1.103
+    },
+    {
+     "word": "hole",
+     "start": 1.149,
+     "end": 1.37
+    },
+    {
+     "word": "we",
+     "start": 1.405,
+     "end": 1.486
+    },
+    {
+     "word": "have",
+     "start": 1.521,
+     "end": 1.637
+    },
+    {
+     "word": "ever",
+     "start": 1.672,
+     "end": 1.823
+    },
+    {
+     "word": "found.",
+     "start": 1.892,
+     "end": 2.345
+    },
+    {
+     "word": "And",
+     "start": 2.67,
+     "end": 2.821
+    },
+    {
+     "word": "it",
+     "start": 2.879,
+     "end": 2.961
+    },
+    {
+     "word": "should",
+     "start": 3.019,
+     "end": 3.262
+    },
+    {
+     "word": "not",
+     "start": 3.309,
+     "end": 3.448
+    },
+    {
+     "word": "exist.",
+     "start": 3.495,
+     "end": 4.272
+    }
+   ]
+  },
+  "mass": {
+   "dur": 3.297,
+   "text": "TON six eighteen weighs as much as sixty six billion suns.",
+   "words": [
+    {
+     "word": "TON",
+     "start": 0.0,
+     "end": 0.244
+    },
+    {
+     "word": "six",
+     "start": 0.313,
+     "end": 0.488
+    },
+    {
+     "word": "eighteen",
+     "start": 0.546,
+     "end": 0.906
+    },
+    {
+     "word": "weighs",
+     "start": 0.975,
+     "end": 1.184
+    },
+    {
+     "word": "as",
+     "start": 1.231,
+     "end": 1.3
+    },
+    {
+     "word": "much",
+     "start": 1.37,
+     "end": 1.544
+    },
+    {
+     "word": "as",
+     "start": 1.579,
+     "end": 1.637
+    },
+    {
+     "word": "sixty",
+     "start": 1.683,
+     "end": 1.974
+    },
+    {
+     "word": "six",
+     "start": 2.02,
+     "end": 2.194
+    },
+    {
+     "word": "billion",
+     "start": 2.252,
+     "end": 2.554
+    },
+    {
+     "word": "suns.",
+     "start": 2.612,
+     "end": 3.297
+    }
+   ]
+  },
+  "size": {
+   "dur": 4.69,
+   "text": "Its event horizon is so large, light itself needs weeks just to cross its shadow.",
+   "words": [
+    {
+     "word": "Its",
+     "start": 0.0,
+     "end": 0.197
+    },
+    {
+     "word": "event",
+     "start": 0.244,
+     "end": 0.499
+    },
+    {
+     "word": "horizon",
+     "start": 0.557,
+     "end": 1.01
+    },
+    {
+     "word": "is",
+     "start": 1.068,
+     "end": 1.138
+    },
+    {
+     "word": "so",
+     "start": 1.184,
+     "end": 1.347
+    },
+    {
+     "word": "large,",
+     "start": 1.44,
+     "end": 1.834
+    },
+    {
+     "word": "light",
+     "start": 1.916,
+     "end": 2.125
+    },
+    {
+     "word": "itself",
+     "start": 2.148,
+     "end": 2.461
+    },
+    {
+     "word": "needs",
+     "start": 2.531,
+     "end": 2.752
+    },
+    {
+     "word": "weeks",
+     "start": 2.833,
+     "end": 3.146
+    },
+    {
+     "word": "just",
+     "start": 3.193,
+     "end": 3.379
+    },
+    {
+     "word": "to",
+     "start": 3.413,
+     "end": 3.46
+    },
+    {
+     "word": "cross",
+     "start": 3.529,
+     "end": 3.796
+    },
+    {
+     "word": "its",
+     "start": 3.843,
+     "end": 3.936
+    },
+    {
+     "word": "shadow.",
+     "start": 3.971,
+     "end": 4.69
+    }
+   ]
+  },
+  "compare": {
+   "dur": 4.876,
+   "text": "Our entire solar system, out to Pluto, could fall inside it thousands of times over.",
+   "words": [
+    {
+     "word": "Our",
+     "start": 0.0,
+     "end": 0.197
+    },
+    {
+     "word": "entire",
+     "start": 0.255,
+     "end": 0.627
+    },
+    {
+     "word": "solar",
+     "start": 0.673,
+     "end": 0.964
+    },
+    {
+     "word": "system,",
+     "start": 1.022,
+     "end": 1.393
+    },
+    {
+     "word": "out",
+     "start": 1.428,
+     "end": 1.579
+    },
+    {
+     "word": "to",
+     "start": 1.614,
+     "end": 1.672
+    },
+    {
+     "word": "Pluto,",
+     "start": 1.73,
+     "end": 2.206
+    },
+    {
+     "word": "could",
+     "start": 2.357,
+     "end": 2.531
+    },
+    {
+     "word": "fall",
+     "start": 2.566,
+     "end": 2.752
+    },
+    {
+     "word": "inside",
+     "start": 2.798,
+     "end": 3.17
+    },
+    {
+     "word": "it",
+     "start": 3.204,
+     "end": 3.286
+    },
+    {
+     "word": "thousands",
+     "start": 3.367,
+     "end": 3.808
+    },
+    {
+     "word": "of",
+     "start": 3.843,
+     "end": 3.901
+    },
+    {
+     "word": "times",
+     "start": 3.947,
+     "end": 4.214
+    },
+    {
+     "word": "over.",
+     "start": 4.272,
+     "end": 4.876
+    }
+   ]
+  },
+  "bright": {
+   "dur": 3.947,
+   "text": "And as it feeds, it burns brighter than one hundred trillion stars combined.",
+   "words": [
+    {
+     "word": "And",
+     "start": 0.0,
+     "end": 0.163
+    },
+    {
+     "word": "as",
+     "start": 0.221,
+     "end": 0.313
+    },
+    {
+     "word": "it",
+     "start": 0.383,
+     "end": 0.453
+    },
+    {
+     "word": "feeds,",
+     "start": 0.499,
+     "end": 0.848
+    },
+    {
+     "word": "it",
+     "start": 0.871,
+     "end": 0.94
+    },
+    {
+     "word": "burns",
+     "start": 0.987,
+     "end": 1.254
+    },
+    {
+     "word": "brighter",
+     "start": 1.324,
+     "end": 1.637
+    },
+    {
+     "word": "than",
+     "start": 1.672,
+     "end": 1.8
+    },
+    {
+     "word": "one",
+     "start": 1.881,
+     "end": 2.043
+    },
+    {
+     "word": "hundred",
+     "start": 2.09,
+     "end": 2.345
+    },
+    {
+     "word": "trillion",
+     "start": 2.38,
+     "end": 2.763
+    },
+    {
+     "word": "stars",
+     "start": 2.821,
+     "end": 3.123
+    },
+    {
+     "word": "combined.",
+     "start": 3.17,
+     "end": 3.947
+    }
+   ]
+  },
+  "problem": {
+   "dur": 4.319,
+   "text": "The problem? The universe may not be old enough to grow a black hole this large.",
+   "words": [
+    {
+     "word": "The",
+     "start": 0.0,
+     "end": 0.163
+    },
+    {
+     "word": "problem?",
+     "start": 0.209,
+     "end": 0.72
+    },
+    {
+     "word": "The",
+     "start": 1.103,
+     "end": 1.219
+    },
+    {
+     "word": "universe",
+     "start": 1.312,
+     "end": 1.695
+    },
+    {
+     "word": "may",
+     "start": 1.73,
+     "end": 1.846
+    },
+    {
+     "word": "not",
+     "start": 1.916,
+     "end": 2.055
+    },
+    {
+     "word": "be",
+     "start": 2.101,
+     "end": 2.183
+    },
+    {
+     "word": "old",
+     "start": 2.229,
+     "end": 2.357
+    },
+    {
+     "word": "enough",
+     "start": 2.392,
+     "end": 2.577
+    },
+    {
+     "word": "to",
+     "start": 2.612,
+     "end": 2.659
+    },
+    {
+     "word": "grow",
+     "start": 2.705,
+     "end": 2.844
+    },
+    {
+     "word": "a",
+     "start": 2.891,
+     "end": 2.914
+    },
+    {
+     "word": "black",
+     "start": 2.949,
+     "end": 3.181
+    },
+    {
+     "word": "hole",
+     "start": 3.228,
+     "end": 3.402
+    },
+    {
+     "word": "this",
+     "start": 3.425,
+     "end": 3.553
+    },
+    {
+     "word": "large.",
+     "start": 3.622,
+     "end": 4.319
+    }
+   ]
+  },
+  "cta": {
+   "dur": 5.944,
+   "text": "Somewhere out there, it is still feeding. Follow mindwired for the universe's biggest mysteries.",
+   "words": [
+    {
+     "word": "Somewhere",
+     "start": 0.0,
+     "end": 0.453
+    },
+    {
+     "word": "out",
+     "start": 0.488,
+     "end": 0.639
+    },
+    {
+     "word": "there,",
+     "start": 0.673,
+     "end": 1.033
+    },
+    {
+     "word": "it",
+     "start": 1.091,
+     "end": 1.219
+    },
+    {
+     "word": "is",
+     "start": 1.265,
+     "end": 1.335
+    },
+    {
+     "word": "still",
+     "start": 1.37,
+     "end": 1.614
+    },
+    {
+     "word": "feeding.",
+     "start": 1.683,
+     "end": 2.183
+    },
+    {
+     "word": "Follow",
+     "start": 2.624,
+     "end": 2.961
+    },
+    {
+     "word": "mindwired",
+     "start": 3.053,
+     "end": 3.646
+    },
+    {
+     "word": "for",
+     "start": 3.68,
+     "end": 3.773
+    },
+    {
+     "word": "the",
+     "start": 3.808,
+     "end": 3.878
+    },
+    {
+     "word": "universe's",
+     "start": 3.959,
+     "end": 4.54
+    },
+    {
+     "word": "biggest",
+     "start": 4.69,
+     "end": 5.05
+    },
+    {
+     "word": "mysteries.",
+     "start": 5.108,
+     "end": 5.944
+    }
+   ]
+  }
+ }
+}
