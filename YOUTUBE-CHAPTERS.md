@@ -4,6 +4,44 @@
 > list is in the description, the first line is 0:00, and there are 3+ chapters.
 > Paste the block for each video under its description text.
 
+### apollo11
+0:00 The Broken Switch (Cold Open)
+2:03 Intro
+4:11 NASA Is Born
+5:48 Kennedy's Challenge
+7:17 Building the Impossible
+9:58 Testing the Saturn V
+12:10 The Apollo 1 Fire
+15:30 Apollo 8 and Turning Back
+17:06 Meet the Crew
+19:04 The Saturn V Rocket
+21:21 Launch and Earth Departure
+23:19 Nixon's Contingency Speech
+25:05 Final Descent Begins
+26:47 The 1202 Program Alarm
+28:22 The Fuel Countdown
+30:00 Seconds of Fuel Remaining
+31:47 The Eagle Has Landed
+33:02 Watched by the World
+35:28 The Flag on the Moon
+37:31 A Restless Night on the Moon
+38:42 Discovering the Broken Switch
+40:15 Liftoff from the Moon
+41:41 The Dangerous Journey Home
+43:10 Quarantine and Moon Germs
+44:33 Conspiracy Theories: The Flag
+46:19 Conspiracy Theories: The Shadows
+47:50 Conspiracy Theories: The Cameras
+49:23 The Strongest Evidence: Mirrors on the Moon
+50:50 Yes, It Happened
+52:19 The Critics and the Cost
+53:46 Apollo's Unexpected Legacy
+55:22 The Program Ends
+56:48 Fifty Years of Silence
+58:24 The Return to the Moon
+59:53 A Flag for All Mankind
+1:01:32 Closing Thoughts
+
 ### spacetheories
 0:00 Intro
 0:46 The anthropic shadow
