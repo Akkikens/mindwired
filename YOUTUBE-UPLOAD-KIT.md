@@ -373,8 +373,8 @@ This is the complete story of Apollo 11: the Cold War panic that started the Spa
 
 **Hashtags (15, description-safe):** #apollo11 #moonlanding #nasa #space #neilarmstrong #buzzaldrin #moonlandinghoax #saturnv #spacerace #coldwar #documentary #artemis #history #spacefacts #mindwired
 
-**Tags field (paste, comma-separated, ~490 chars):**
-apollo 11, moon landing, moon landing hoax, moon landing hoax debunked, nasa, neil armstrong, buzz aldrin, michael collins, saturn v rocket, space race, cold war history, apollo 1 fire, 1202 program alarm, eagle has landed, one small step, artemis program, nasa history, space documentary, full documentary, apollo 11 documentary, did we go to the moon, mindwired
+**Tags field (paste, comma-separated, ~480 chars):**
+apollo 11, moon landing, moon landing hoax, moon landing hoax debunked, nasa, neil armstrong, buzz aldrin, michael collins, saturn v rocket, space race, cold war history, apollo 1 fire, 1202 program alarm, eagle has landed, one small step, artemis program, nasa history, space documentary, full documentary, apollo 11 documentary, did we go to the moon, mindwired, lunar module, command module, apollo program, jfk speech, first moon landing, 1969 moon landing, nasa moon mission
 
 **Pinned comment (post right after publishing):**
 > The felt-tip pen part still gets me every time. If you'd never heard the broken-switch story before this video, you're not alone — turns out it's one of the least-known near-disasters of the whole mission. What part surprised you most? 🌕
