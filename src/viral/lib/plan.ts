@@ -33,7 +33,8 @@ export function buildTimeline(plan: VisualPlan, manifest: ShortManifest | null):
   let from = 0;
   return plan.scenes.map((s: PlanScene, i: number) => {
     const clip = manifest?.clips?.[s.id];
-    const dur = clip?.dur ?? Math.max(1.2, s.end - s.start);
+    // floor applies to manifest clips too — a corrupt 0.2s clip must not produce a glitch-flash scene
+    const dur = Math.max(1.2, clip?.dur ?? (s.end - s.start));
     const lead = i === 0 ? LEAD_FIRST : LEAD;
     const durationInFrames = lead + Math.round(dur * FPS) + HOLD;
     const raw = clip?.words?.length ? clip.words : estimateWords(s.voiceover, dur);
@@ -58,12 +59,20 @@ export function textWordFrames(mainText: string, words: TimedWord[], stagger: nu
   const targets = mainText.split(/\s+/).filter(Boolean);
   const clean = (x: string) => x.toLowerCase().replace(/[^a-z0-9]/g, "");
   let cursor = 0;
-  return targets.map((t, i) => {
-    const hit = words.slice(cursor).find((w) => clean(w.word) === clean(t) && clean(t).length > 2);
+  const audioStart = Math.round((words[0]?.start ?? 0) * FPS);
+  let last = audioStart;
+  return targets.map((t) => {
+    // bounded lookahead: a word matching a much-later occurrence must not
+    // fling the cursor forward and desync every subsequent word
+    const hit = words.slice(cursor, cursor + 6).find((w) => clean(w.word) === clean(t) && clean(t).length > 2);
     if (hit) {
       cursor = words.indexOf(hit) + 1;
-      return Math.round(hit.start * FPS);
+      last = Math.round(hit.start * FPS);
+      return last;
     }
-    return 4 + i * stagger;
+    // unmatched words follow the previous word after the stagger — never
+    // before the (lead-shifted) audio begins
+    last = last + stagger;
+    return last;
   });
 }

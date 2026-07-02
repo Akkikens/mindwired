@@ -69,10 +69,12 @@ def main():
     man_path = outdir / "manifest.json"
     manifest = json.loads(man_path.read_text()) if man_path.exists() else {"clips": {}}
 
+    hume_ctx = None  # chain generation ids so every scene keeps ONE voice
     for sc in plan["scenes"]:
         cid, text, tone = sc["id"], sc["voiceover"], sc.get("emotionalTone", "confidence")
         mp3 = outdir / f"{cid}.mp3"
-        if mp3.exists() and cid in manifest["clips"] and not manifest["clips"][cid].get("estimated"):
+        prev = manifest["clips"].get(cid, {})
+        if mp3.exists() and prev and not prev.get("estimated") and prev.get("text") == text:
             print(f"  [skip] {cid}")
             continue
 
@@ -82,7 +84,7 @@ def main():
         if pref == "hume":
             try:
                 import hume
-                audio, _gen = hume.tts(text, description=direction)
+                audio, hume_ctx = hume.tts(text, description=direction, context_gen=hume_ctx)
                 engine = "hume"
             except BaseException as e:  # hume.py sys.exits on HTTP errors (e.g. zero credits)
                 print(f"  [hume failed: {type(e).__name__}: {e}] → trying ElevenLabs")

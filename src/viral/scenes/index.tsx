@@ -118,7 +118,7 @@ const Transformation: React.FC<{ s: TimedScene; tone: ToneStyle }> = ({ s, tone 
 
 const Data: React.FC<{ s: TimedScene; tone: ToneStyle }> = ({ s, tone }) => {
   const frame = useCurrentFrame();
-  const bars = s.stat?.bars;
+  const bars = s.stat?.bars?.length ? s.stat.bars : undefined;
   return (
     <Stage gap={26}>
       {bars ? (

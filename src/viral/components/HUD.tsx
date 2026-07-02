@@ -21,7 +21,9 @@ export const VoicePulse: React.FC<{ words: TimedWord[]; sceneFrame: number; tone
   ({ words, sceneFrame, tone, bottom }) => {
     const { fps } = useVideoConfig();
     const t = sceneFrame / fps;
-    const active = words.some((w) => t >= w.start && t <= w.end);
+    // 0.15s grace over inter-word gaps — real TTS timings have silences that
+    // would strobe the bars at 30fps with a hard interval test
+    const active = words.some((w) => t >= w.start - 0.15 && t <= w.end + 0.15);
     const density = words.filter((w) => Math.abs((w.start + w.end) / 2 - t) < 0.6).length;
     const energy = active ? Math.min(1, 0.35 + density * 0.22) : 0.12;
     const N = 5;

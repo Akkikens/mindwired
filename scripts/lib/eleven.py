@@ -30,7 +30,7 @@ API = "https://api.elevenlabs.io/v1"
 REPO = Path(__file__).resolve().parent.parent.parent  # scripts/lib/ -> repo root
 
 # Deep, resonant documentary narrator for the Mindwired channel
-VOICE_PREFS = ["Brian", "Adam", "Daniel", "George", "Bill"]
+VOICE_PREFS = ["George", "Brian", "Adam", "Daniel", "Bill"]  # George = channel voice (CLAUDE.md)
 TTS_MODEL = "eleven_multilingual_v2"
 # Authoritative + cinematic: higher stability for gravitas, moderate style for drama
 TTS_SETTINGS = {"stability": 0.5, "similarity_boost": 0.85, "style": 0.4, "use_speaker_boost": True}
