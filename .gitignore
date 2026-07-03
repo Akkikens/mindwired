@@ -12,3 +12,5 @@ out
 *.wav
 .env.*
 voice_samples
+.venv-lipsync/
+lipsync/out/

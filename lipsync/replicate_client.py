@@ -4,8 +4,12 @@ Recommended over the raw GCP VM kit (Dockerfile/server.py/client.py) — same
 SadTalker-quality output, but you pay cents per run instead of per VM-hour,
 and there's no idle-billing risk since nothing stays "on" between runs.
 
-Requires: pip install replicate
-Env: REPLICATE_API_TOKEN=... in mindwired/.env (or exported)
+Model: cjwbw/sadtalker — takes a still portrait + audio, outputs a talking
+head video with natural head motion. (sync/lipsync-2 was considered but needs
+an existing video as input, not a still photo, so it doesn't fit this use case.)
+
+Requires: pip install replicate  (repo venv: .venv-lipsync)
+Env: REPLICATE_API_TOKEN=... in mindwired/.env
 
 Usage:
   python3 lipsync/replicate_client.py --image public/host/orion.png \\
@@ -15,16 +19,19 @@ Usage:
 import argparse
 import os
 import sys
+import urllib.request
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 
-# Model to run on Replicate. IMPORTANT: fill this in yourself before first run —
-# go to the model's page on replicate.com (e.g. replicate.com/lucataco/sync-lipsync
-# or replicate.com/cjwbw/sadtalker), click "API", and copy the exact
-# "owner/model:version_hash" string shown there. Do not guess a hash here —
-# Replicate requires the real current version id and it changes over time.
-MODEL = os.environ.get("REPLICATE_LIPSYNC_MODEL", "")
+# Verified live via `client.models.get("cjwbw/sadtalker").latest_version` on
+# 2026-07-03 — Replicate version hashes do change over time; if this run ever
+# 404s, re-fetch the current hash the same way (see lipsync/README.md) rather
+# than guessing.
+MODEL = os.environ.get(
+    "REPLICATE_LIPSYNC_MODEL",
+    "cjwbw/sadtalker:a519cc0cfebaaeade068b23899165a11ec76aaa1d2b313d40d214f204ec957a3",
+)
 
 
 def load_token() -> str:
@@ -39,30 +46,27 @@ def load_token() -> str:
              "and add it to mindwired/.env")
 
 
-def run(image: Path, audio: Path, out: Path):
+def run(image: Path, audio: Path, out: Path, still: bool = True, enhance: bool = False):
     try:
         import replicate
     except ImportError:
-        sys.exit("pip install replicate")
+        sys.exit("pip install replicate  (or: source .venv-lipsync/bin/activate)")
 
     os.environ["REPLICATE_API_TOKEN"] = load_token()
-    if not MODEL:
-        sys.exit("Set REPLICATE_LIPSYNC_MODEL (or edit MODEL in this file) to the exact "
-                 "'owner/model:version' string from the model's page on replicate.com/explore "
-                 "— search 'lipsync' or 'sadtalker' and copy it from the API tab.")
     out.parent.mkdir(parents=True, exist_ok=True)
 
-    print(f"  lip-syncing {audio.name} onto {image.name} via Replicate...")
+    print(f"  lip-syncing {audio.name} onto {image.name} via Replicate ({MODEL.split(':')[0]})...")
     output = replicate.run(
         MODEL,
         input={
-            "face": open(image, "rb"),
-            "audio": open(audio, "rb"),
+            "source_image": open(image, "rb"),
+            "driven_audio": open(audio, "rb"),
+            "preprocess": "full",       # keep the full framing (desk/mic/nebula), not a tight face crop
+            "still_mode": still,        # natural, minimal head motion — calmer documentary-host look
+            "use_enhancer": enhance,    # GFPGAN sharpening — costs more render time, off by default
         },
     )
-    # replicate.run returns a FileOutput or URL depending on model version
     url = output if isinstance(output, str) else getattr(output, "url", None) or str(output)
-    import urllib.request
     urllib.request.urlretrieve(url, out)
     print(f"  -> {out}")
 
@@ -72,5 +76,7 @@ if __name__ == "__main__":
     ap.add_argument("--image", required=True, type=Path)
     ap.add_argument("--audio", required=True, type=Path)
     ap.add_argument("--out", required=True, type=Path)
+    ap.add_argument("--no-still", action="store_true", help="allow more expressive head motion")
+    ap.add_argument("--enhance", action="store_true", help="GFPGAN face enhancer (slower, sharper)")
     args = ap.parse_args()
-    run(args.image, args.audio, args.out)
+    run(args.image, args.audio, args.out, still=not args.no_still, enhance=args.enhance)
