@@ -1,0 +1,85 @@
+{
+  "slug": "neutronstar",
+  "title": "A Teaspoon of This Weighs 4 Billion Tons",
+  "host": "host/orion.png",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "start": 0, "end": 3,
+      "voiceover": "A single teaspoon of this star weighs four billion tons.",
+      "mainText": "A TEASPOON = 4 BILLION TONS",
+      "emphasis": ["4 BILLION"],
+      "kicker": "THIS IS REAL",
+      "visualConcept": "host cold open, shocking number slam",
+      "emotionalTone": "shock",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "what",
+      "kind": "problem",
+      "start": 3, "end": 8,
+      "voiceover": "It's called a neutron star. The crushed core of a dead sun.",
+      "mainText": "it's the core of a DEAD STAR",
+      "emphasis": ["DEAD STAR"],
+      "visualConcept": "host explains",
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "crush",
+      "kind": "shockfact",
+      "start": 8, "end": 14,
+      "voiceover": "Gravity crushed an entire star's mass into a ball the size of a city.",
+      "mainText": "a whole star, squeezed into a CITY",
+      "emphasis": ["CITY"],
+      "visualConcept": "scale shock",
+      "emotionalTone": "awe",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "dense",
+      "kind": "shockfact",
+      "start": 14, "end": 20,
+      "voiceover": "It's so dense that one sugar cube of it would outweigh Mount Everest.",
+      "mainText": "one sugar cube > MOUNT EVEREST",
+      "emphasis": ["MOUNT EVEREST"],
+      "visualConcept": "comparison",
+      "emotionalTone": "shock",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "spin",
+      "kind": "shockfact",
+      "start": 20, "end": 26,
+      "voiceover": "And some of them spin seven hundred times every single second.",
+      "mainText": "it spins 700 times a SECOND",
+      "emphasis": ["700"],
+      "visualConcept": "spin fact",
+      "emotionalTone": "excitement",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "magnet",
+      "kind": "shockfact",
+      "start": 26, "end": 32,
+      "voiceover": "The strongest ones could wipe every hard drive on Earth from the distance of the Moon.",
+      "mainText": "it could erase Earth from the MOON",
+      "emphasis": ["MOON"],
+      "visualConcept": "magnetar threat",
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "start": 32, "end": 36,
+      "voiceover": "The universe is stranger than fiction. Follow mindwired for more.",
+      "mainText": "stranger than FICTION",
+      "emphasis": ["FICTION"],
+      "visualConcept": "host close",
+      "emotionalTone": "confidence",
+      "transitionOut": "none"
+    }
+  ]
+}

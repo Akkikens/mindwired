@@ -25,6 +25,8 @@ import ton618PlanJson from "./viral/plans/ton618.json";
 import ton618ManifestJson from "../public/shorts/ton618/audio/manifest.json";
 import betelgeusePlanJson from "./viral/plans/betelgeuse.json";
 import betelgeuseManifestJson from "../public/shorts/betelgeuse/audio/manifest.json";
+import neutronstarPlanJson from "./viral/plans/neutronstar.json";
+import neutronstarManifestJson from "../public/shorts/neutronstar/audio/manifest.json";
 
 const roguebhPlan = roguebhPlanJson as unknown as VisualPlan;
 const roguebhManifest = roguebhManifestJson as unknown as ShortManifest;
@@ -34,6 +36,7 @@ const SHORTS: Array<{ id: string; plan: VisualPlan; manifest: ShortManifest }> =
   { id: "ShortBootesVoid", plan: bootesvoidPlanJson as unknown as VisualPlan, manifest: bootesvoidManifestJson as unknown as ShortManifest },
   { id: "ShortTon618", plan: ton618PlanJson as unknown as VisualPlan, manifest: ton618ManifestJson as unknown as ShortManifest },
   { id: "ShortBetelgeuse", plan: betelgeusePlanJson as unknown as VisualPlan, manifest: betelgeuseManifestJson as unknown as ShortManifest },
+  { id: "ShortNeutronStar", plan: neutronstarPlanJson as unknown as VisualPlan, manifest: neutronstarManifestJson as unknown as ShortManifest },
 ];
 
 export const RemotionRoot: React.FC = () => {

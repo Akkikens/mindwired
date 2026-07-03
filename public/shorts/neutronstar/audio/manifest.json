@@ -1,0 +1,476 @@
+{
+ "clips": {
+  "hook": {
+   "dur": 3.576,
+   "text": "A single teaspoon of this star weighs four billion tons.",
+   "words": [
+    {
+     "word": "A",
+     "start": 0.15,
+     "end": 0.386
+    },
+    {
+     "word": "single",
+     "start": 0.386,
+     "end": 0.858
+    },
+    {
+     "word": "teaspoon",
+     "start": 0.858,
+     "end": 1.329
+    },
+    {
+     "word": "of",
+     "start": 1.329,
+     "end": 1.565
+    },
+    {
+     "word": "this",
+     "start": 1.565,
+     "end": 1.801
+    },
+    {
+     "word": "star",
+     "start": 1.801,
+     "end": 2.037
+    },
+    {
+     "word": "weighs",
+     "start": 2.037,
+     "end": 2.273
+    },
+    {
+     "word": "four",
+     "start": 2.273,
+     "end": 2.509
+    },
+    {
+     "word": "billion",
+     "start": 2.509,
+     "end": 2.981
+    },
+    {
+     "word": "tons.",
+     "start": 2.981,
+     "end": 3.476
+    }
+   ]
+  },
+  "what": {
+   "dur": 4.344,
+   "text": "It's called a neutron star. The crushed core of a dead sun.",
+   "words": [
+    {
+     "word": "It's",
+     "start": 0.15,
+     "end": 0.375
+    },
+    {
+     "word": "called",
+     "start": 0.375,
+     "end": 0.825
+    },
+    {
+     "word": "a",
+     "start": 0.825,
+     "end": 1.05
+    },
+    {
+     "word": "neutron",
+     "start": 1.05,
+     "end": 1.5
+    },
+    {
+     "word": "star.",
+     "start": 1.5,
+     "end": 1.972
+    },
+    {
+     "word": "The",
+     "start": 1.972,
+     "end": 2.197
+    },
+    {
+     "word": "crushed",
+     "start": 2.197,
+     "end": 2.647
+    },
+    {
+     "word": "core",
+     "start": 2.647,
+     "end": 3.097
+    },
+    {
+     "word": "of",
+     "start": 3.097,
+     "end": 3.322
+    },
+    {
+     "word": "a",
+     "start": 3.322,
+     "end": 3.547
+    },
+    {
+     "word": "dead",
+     "start": 3.547,
+     "end": 3.772
+    },
+    {
+     "word": "sun.",
+     "start": 3.772,
+     "end": 4.244
+    }
+   ]
+  },
+  "crush": {
+   "dur": 5.712,
+   "text": "Gravity crushed an entire star's mass into a ball the size of a city.",
+   "words": [
+    {
+     "word": "Gravity",
+     "start": 0.15,
+     "end": 0.859
+    },
+    {
+     "word": "crushed",
+     "start": 0.859,
+     "end": 1.332
+    },
+    {
+     "word": "an",
+     "start": 1.332,
+     "end": 1.569
+    },
+    {
+     "word": "entire",
+     "start": 1.569,
+     "end": 2.278
+    },
+    {
+     "word": "star's",
+     "start": 2.278,
+     "end": 2.515
+    },
+    {
+     "word": "mass",
+     "start": 2.515,
+     "end": 2.751
+    },
+    {
+     "word": "into",
+     "start": 2.751,
+     "end": 3.224
+    },
+    {
+     "word": "a",
+     "start": 3.224,
+     "end": 3.46
+    },
+    {
+     "word": "ball",
+     "start": 3.46,
+     "end": 3.697
+    },
+    {
+     "word": "the",
+     "start": 3.697,
+     "end": 3.933
+    },
+    {
+     "word": "size",
+     "start": 3.933,
+     "end": 4.406
+    },
+    {
+     "word": "of",
+     "start": 4.406,
+     "end": 4.643
+    },
+    {
+     "word": "a",
+     "start": 4.643,
+     "end": 4.879
+    },
+    {
+     "word": "city.",
+     "start": 4.879,
+     "end": 5.612
+    }
+   ]
+  },
+  "dense": {
+   "dur": 4.704,
+   "text": "It's so dense that one sugar cube of it would outweigh Mount Everest.",
+   "words": [
+    {
+     "word": "It's",
+     "start": 0.15,
+     "end": 0.361
+    },
+    {
+     "word": "so",
+     "start": 0.361,
+     "end": 0.572
+    },
+    {
+     "word": "dense",
+     "start": 0.572,
+     "end": 0.994
+    },
+    {
+     "word": "that",
+     "start": 0.994,
+     "end": 1.205
+    },
+    {
+     "word": "one",
+     "start": 1.205,
+     "end": 1.628
+    },
+    {
+     "word": "sugar",
+     "start": 1.628,
+     "end": 2.05
+    },
+    {
+     "word": "cube",
+     "start": 2.05,
+     "end": 2.472
+    },
+    {
+     "word": "of",
+     "start": 2.472,
+     "end": 2.683
+    },
+    {
+     "word": "it",
+     "start": 2.683,
+     "end": 2.894
+    },
+    {
+     "word": "would",
+     "start": 2.894,
+     "end": 3.105
+    },
+    {
+     "word": "outweigh",
+     "start": 3.105,
+     "end": 3.527
+    },
+    {
+     "word": "Mount",
+     "start": 3.527,
+     "end": 3.739
+    },
+    {
+     "word": "Everest.",
+     "start": 3.739,
+     "end": 4.604
+    }
+   ]
+  },
+  "spin": {
+   "dur": 4.512,
+   "text": "And some of them spin seven hundred times every single second.",
+   "words": [
+    {
+     "word": "And",
+     "start": 0.15,
+     "end": 0.362
+    },
+    {
+     "word": "some",
+     "start": 0.362,
+     "end": 0.786
+    },
+    {
+     "word": "of",
+     "start": 0.786,
+     "end": 0.998
+    },
+    {
+     "word": "them",
+     "start": 0.998,
+     "end": 1.21
+    },
+    {
+     "word": "spin",
+     "start": 1.21,
+     "end": 1.422
+    },
+    {
+     "word": "seven",
+     "start": 1.422,
+     "end": 1.846
+    },
+    {
+     "word": "hundred",
+     "start": 1.846,
+     "end": 2.27
+    },
+    {
+     "word": "times",
+     "start": 2.27,
+     "end": 2.694
+    },
+    {
+     "word": "every",
+     "start": 2.694,
+     "end": 3.331
+    },
+    {
+     "word": "single",
+     "start": 3.331,
+     "end": 3.755
+    },
+    {
+     "word": "second.",
+     "start": 3.755,
+     "end": 4.412
+    }
+   ]
+  },
+  "magnet": {
+   "dur": 5.376,
+   "text": "The strongest ones could wipe every hard drive on Earth from the distance of the Moon.",
+   "words": [
+    {
+     "word": "The",
+     "start": 0.15,
+     "end": 0.354
+    },
+    {
+     "word": "strongest",
+     "start": 0.354,
+     "end": 0.763
+    },
+    {
+     "word": "ones",
+     "start": 0.763,
+     "end": 1.171
+    },
+    {
+     "word": "could",
+     "start": 1.171,
+     "end": 1.375
+    },
+    {
+     "word": "wipe",
+     "start": 1.375,
+     "end": 1.784
+    },
+    {
+     "word": "every",
+     "start": 1.784,
+     "end": 2.396
+    },
+    {
+     "word": "hard",
+     "start": 2.396,
+     "end": 2.601
+    },
+    {
+     "word": "drive",
+     "start": 2.601,
+     "end": 3.009
+    },
+    {
+     "word": "on",
+     "start": 3.009,
+     "end": 3.213
+    },
+    {
+     "word": "Earth",
+     "start": 3.213,
+     "end": 3.418
+    },
+    {
+     "word": "from",
+     "start": 3.418,
+     "end": 3.622
+    },
+    {
+     "word": "the",
+     "start": 3.622,
+     "end": 3.826
+    },
+    {
+     "word": "distance",
+     "start": 3.826,
+     "end": 4.439
+    },
+    {
+     "word": "of",
+     "start": 4.439,
+     "end": 4.643
+    },
+    {
+     "word": "the",
+     "start": 4.643,
+     "end": 4.847
+    },
+    {
+     "word": "Moon.",
+     "start": 4.847,
+     "end": 5.276
+    }
+   ]
+  },
+  "cta": {
+   "dur": 4.104,
+   "text": "The universe is stranger than fiction. Follow mindwired for more.",
+   "words": [
+    {
+     "word": "The",
+     "start": 0.15,
+     "end": 0.332
+    },
+    {
+     "word": "universe",
+     "start": 0.332,
+     "end": 1.059
+    },
+    {
+     "word": "is",
+     "start": 1.059,
+     "end": 1.241
+    },
+    {
+     "word": "stranger",
+     "start": 1.241,
+     "end": 1.604
+    },
+    {
+     "word": "than",
+     "start": 1.604,
+     "end": 1.786
+    },
+    {
+     "word": "fiction.",
+     "start": 1.786,
+     "end": 2.35
+    },
+    {
+     "word": "Follow",
+     "start": 2.35,
+     "end": 2.713
+    },
+    {
+     "word": "mindwired",
+     "start": 2.713,
+     "end": 3.259
+    },
+    {
+     "word": "for",
+     "start": 3.259,
+     "end": 3.44
+    },
+    {
+     "word": "more.",
+     "start": 3.44,
+     "end": 4.004
+    }
+   ]
+  }
+ }
+}

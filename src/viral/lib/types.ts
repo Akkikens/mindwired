@@ -52,6 +52,9 @@ export interface VisualPlan {
   /** optional looping music bed: drop the file in public/ and reference it here.
    *  bpm drives beat-synced camera pulse; volume defaults to 0.14 under the voice */
   music?: { src: string; bpm?: number; volume?: number };
+  /** optional host image (path under public/) — renders a face-fronted Short
+   *  with the host full-frame + Ken Burns instead of the procedural backdrop */
+  host?: string;
   scenes: PlanScene[];
 }
 
