@@ -1,0 +1,45 @@
+{
+  "slug": "haalandbrazil",
+  "title": "Brazil barely survived — now Haaland is coming",
+  "host": "rio",
+  "channel": "kickoffdaily90",
+  "scenes": [
+    {
+      "id": "hook", "kind": "hook", "board": true, "start": 0, "end": 8,
+      "voiceover": "Brazil needed a ninety-fifth minute goal just to survive the Round of 32. Now they face the most in-form striker on the planet.",
+      "mainText": "BRAZIL BARELY SURVIVED. NOW... HAALAND.",
+      "emphasis": ["HAALAND."],
+      "kicker": "SUNDAY — METLIFE STADIUM",
+      "visualConcept": "collision course hook",
+      "emotionalTone": "fear", "transitionOut": "whip"
+    },
+    {
+      "id": "escape", "kind": "comparison", "board": true, "start": 8, "end": 17,
+      "voiceover": "Japan led Brazil for half an hour. Casemiro dragged them level — and Gabriel Martinelli finally won it deep in stoppage time. Two-one. That close.",
+      "mainText": "MARTINELLI 90+5' — THAT CLOSE",
+      "emphasis": ["90+5'"],
+      "kicker": "BRAZIL 2-1 JAPAN",
+      "visualConcept": "late escape slam",
+      "compare": { "left": "BRAZIL 2", "right": "JAPAN 1" },
+      "emotionalTone": "shock", "transitionOut": "cut"
+    },
+    {
+      "id": "haaland", "kind": "shockfact", "board": true, "start": 17, "end": 26,
+      "voiceover": "And Erling Haaland? He scored an eighty-sixth minute winner against the Ivory Coast just to set up this collision. Norway have never had a World Cup moment this big.",
+      "mainText": "HAALAND'S 86' WINNER GOT HIM HERE",
+      "emphasis": ["HAALAND'S"],
+      "kicker": "NORWAY'S BIGGEST GAME EVER",
+      "visualConcept": "haaland stat slam",
+      "emotionalTone": "excitement", "transitionOut": "cut"
+    },
+    {
+      "id": "cta", "kind": "cta", "board": true, "start": 26, "end": 33,
+      "voiceover": "Sunday, four PM Eastern, MetLife Stadium. Haaland against Brazil's back line — someone's tournament ends. Full Round of 16 breakdown on the channel.",
+      "mainText": "SOMEONE'S TOURNAMENT ENDS SUNDAY",
+      "emphasis": ["ENDS"],
+      "kicker": "BRAZIL vs NORWAY — 4PM ET",
+      "visualConcept": "cta",
+      "emotionalTone": "confidence", "transitionOut": "none"
+    }
+  ]
+}

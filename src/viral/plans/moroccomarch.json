@@ -1,0 +1,45 @@
+{
+  "slug": "moroccomarch",
+  "title": "Morocco just ended Canada's fairytale — and their path is WIDE open",
+  "host": "rio",
+  "channel": "kickoffdaily90",
+  "scenes": [
+    {
+      "id": "hook", "kind": "hook", "board": true, "start": 0, "end": 8,
+      "voiceover": "Morocco just destroyed co-hosts Canada three-nil — and suddenly, their path to another World Cup semifinal is wide open.",
+      "mainText": "MOROCCO ENDED THE FAIRYTALE",
+      "emphasis": ["MOROCCO", "FAIRYTALE"],
+      "kicker": "CANADA ARE OUT",
+      "visualConcept": "result slam",
+      "emotionalTone": "shock", "transitionOut": "whip"
+    },
+    {
+      "id": "score", "kind": "comparison", "board": true, "start": 8, "end": 17,
+      "voiceover": "Azzedine Ounahi scored twice, Hakimi set the first one up, and Rahimi added a third in stoppage time. Canada become the first co-host to go home.",
+      "mainText": "OUNAHI x2 — RUTHLESS",
+      "emphasis": ["OUNAHI"],
+      "kicker": "FIRST CO-HOST ELIMINATED",
+      "visualConcept": "score slam",
+      "compare": { "left": "MOROCCO 3", "right": "CANADA 0" },
+      "emotionalTone": "confidence", "transitionOut": "cut"
+    },
+    {
+      "id": "path", "kind": "problem", "board": true, "start": 17, "end": 26,
+      "voiceover": "Now look at the bracket. The 2022 semifinalists face the France-Paraguay winner on July ninth — win that, and Morocco are one game from back-to-back semifinals.",
+      "mainText": "2 WINS FROM ANOTHER SEMIFINAL",
+      "emphasis": ["2 WINS"],
+      "kicker": "THE DARK HORSE PATH IS OPEN",
+      "visualConcept": "bracket path tease",
+      "emotionalTone": "curiosity", "transitionOut": "cut"
+    },
+    {
+      "id": "cta", "kind": "cta", "board": true, "start": 26, "end": 33,
+      "voiceover": "Is Morocco's run the real deal this time? The full bracket breakdown is on the channel — subscribe, the quarterfinals are about to get loud.",
+      "mainText": "THE ATLAS LIONS ARE BACK",
+      "emphasis": ["BACK"],
+      "kicker": "FULL BRACKET ON THE CHANNEL",
+      "visualConcept": "cta",
+      "emotionalTone": "excitement", "transitionOut": "none"
+    }
+  ]
+}

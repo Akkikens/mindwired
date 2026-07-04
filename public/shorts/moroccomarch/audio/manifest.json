@@ -1,0 +1,508 @@
+{
+ "clips": {
+  "hook": {
+   "dur": 8.638,
+   "text": "Morocco just destroyed co-hosts Canada three-nil \u2014 and suddenly, their path to another World Cup semifinal is wide open.",
+   "words": [
+    {
+     "word": "Morocco",
+     "start": 0.0,
+     "end": 0.569
+    },
+    {
+     "word": "just",
+     "start": 0.743,
+     "end": 1.01
+    },
+    {
+     "word": "destroyed",
+     "start": 1.057,
+     "end": 1.544
+    },
+    {
+     "word": "co-hosts",
+     "start": 1.602,
+     "end": 2.09
+    },
+    {
+     "word": "Canada",
+     "start": 2.159,
+     "end": 2.543
+    },
+    {
+     "word": "three-nil",
+     "start": 2.601,
+     "end": 3.135
+    },
+    {
+     "word": "\u2014",
+     "start": 3.344,
+     "end": 3.39
+    },
+    {
+     "word": "and",
+     "start": 3.831,
+     "end": 3.959
+    },
+    {
+     "word": "suddenly,",
+     "start": 4.017,
+     "end": 4.598
+    },
+    {
+     "word": "their",
+     "start": 4.841,
+     "end": 5.027
+    },
+    {
+     "word": "path",
+     "start": 5.074,
+     "end": 5.306
+    },
+    {
+     "word": "to",
+     "start": 5.352,
+     "end": 5.422
+    },
+    {
+     "word": "another",
+     "start": 5.503,
+     "end": 5.759
+    },
+    {
+     "word": "World",
+     "start": 5.805,
+     "end": 6.026
+    },
+    {
+     "word": "Cup",
+     "start": 6.084,
+     "end": 6.281
+    },
+    {
+     "word": "semifinal",
+     "start": 6.374,
+     "end": 7.07
+    },
+    {
+     "word": "is",
+     "start": 7.314,
+     "end": 7.488
+    },
+    {
+     "word": "wide",
+     "start": 7.57,
+     "end": 7.895
+    },
+    {
+     "word": "open.",
+     "start": 7.953,
+     "end": 8.638
+    }
+   ]
+  },
+  "score": {
+   "dur": 12.307,
+   "text": "Azzedine Ounahi scored twice, Hakimi set the first one up, and Rahimi added a third in stoppage time. Canada become the first co-host to go home.",
+   "words": [
+    {
+     "word": "Azzedine",
+     "start": 0.0,
+     "end": 0.499
+    },
+    {
+     "word": "Ounahi",
+     "start": 0.534,
+     "end": 0.998
+    },
+    {
+     "word": "scored",
+     "start": 1.173,
+     "end": 1.591
+    },
+    {
+     "word": "twice,",
+     "start": 1.637,
+     "end": 2.426
+    },
+    {
+     "word": "Hakimi",
+     "start": 2.752,
+     "end": 3.297
+    },
+    {
+     "word": "set",
+     "start": 3.39,
+     "end": 3.622
+    },
+    {
+     "word": "the",
+     "start": 3.68,
+     "end": 3.75
+    },
+    {
+     "word": "first",
+     "start": 3.808,
+     "end": 4.075
+    },
+    {
+     "word": "one",
+     "start": 4.145,
+     "end": 4.307
+    },
+    {
+     "word": "up,",
+     "start": 4.342,
+     "end": 4.714
+    },
+    {
+     "word": "and",
+     "start": 4.923,
+     "end": 5.074
+    },
+    {
+     "word": "Rahimi",
+     "start": 5.143,
+     "end": 5.631
+    },
+    {
+     "word": "added",
+     "start": 5.875,
+     "end": 6.188
+    },
+    {
+     "word": "a",
+     "start": 6.235,
+     "end": 6.269
+    },
+    {
+     "word": "third",
+     "start": 6.351,
+     "end": 6.792
+    },
+    {
+     "word": "in",
+     "start": 6.873,
+     "end": 7.001
+    },
+    {
+     "word": "stoppage",
+     "start": 7.082,
+     "end": 7.5
+    },
+    {
+     "word": "time.",
+     "start": 7.535,
+     "end": 8.069
+    },
+    {
+     "word": "Canada",
+     "start": 8.673,
+     "end": 9.16
+    },
+    {
+     "word": "become",
+     "start": 9.404,
+     "end": 9.799
+    },
+    {
+     "word": "the",
+     "start": 9.834,
+     "end": 9.903
+    },
+    {
+     "word": "first",
+     "start": 9.973,
+     "end": 10.31
+    },
+    {
+     "word": "co-host",
+     "start": 10.391,
+     "end": 11.076
+    },
+    {
+     "word": "to",
+     "start": 11.192,
+     "end": 11.308
+    },
+    {
+     "word": "go",
+     "start": 11.378,
+     "end": 11.552
+    },
+    {
+     "word": "home.",
+     "start": 11.645,
+     "end": 12.307
+    }
+   ]
+  },
+  "path": {
+   "dur": 12.585,
+   "text": "Now look at the bracket. The 2022 semifinalists face the France-Paraguay winner on July ninth \u2014 win that, and Morocco are one game from back-to-back semifinals.",
+   "words": [
+    {
+     "word": "Now",
+     "start": 0.0,
+     "end": 0.186
+    },
+    {
+     "word": "look",
+     "start": 0.232,
+     "end": 0.372
+    },
+    {
+     "word": "at",
+     "start": 0.406,
+     "end": 0.453
+    },
+    {
+     "word": "the",
+     "start": 0.488,
+     "end": 0.557
+    },
+    {
+     "word": "bracket.",
+     "start": 0.592,
+     "end": 1.184
+    },
+    {
+     "word": "The",
+     "start": 1.509,
+     "end": 1.625
+    },
+    {
+     "word": "2022",
+     "start": 1.695,
+     "end": 2.647
+    },
+    {
+     "word": "semifinalists",
+     "start": 2.74,
+     "end": 3.669
+    },
+    {
+     "word": "face",
+     "start": 3.994,
+     "end": 4.365
+    },
+    {
+     "word": "the",
+     "start": 4.412,
+     "end": 4.493
+    },
+    {
+     "word": "France-Paraguay",
+     "start": 4.563,
+     "end": 5.468
+    },
+    {
+     "word": "winner",
+     "start": 5.538,
+     "end": 5.84
+    },
+    {
+     "word": "on",
+     "start": 6.084,
+     "end": 6.246
+    },
+    {
+     "word": "July",
+     "start": 6.316,
+     "end": 6.629
+    },
+    {
+     "word": "ninth",
+     "start": 6.722,
+     "end": 7.082
+    },
+    {
+     "word": "\u2014",
+     "start": 7.291,
+     "end": 7.349
+    },
+    {
+     "word": "win",
+     "start": 7.674,
+     "end": 7.883
+    },
+    {
+     "word": "that,",
+     "start": 7.941,
+     "end": 8.348
+    },
+    {
+     "word": "and",
+     "start": 8.673,
+     "end": 8.812
+    },
+    {
+     "word": "Morocco",
+     "start": 8.87,
+     "end": 9.358
+    },
+    {
+     "word": "are",
+     "start": 9.683,
+     "end": 9.868
+    },
+    {
+     "word": "one",
+     "start": 9.927,
+     "end": 10.112
+    },
+    {
+     "word": "game",
+     "start": 10.17,
+     "end": 10.472
+    },
+    {
+     "word": "from",
+     "start": 10.53,
+     "end": 10.693
+    },
+    {
+     "word": "back-to-back",
+     "start": 10.774,
+     "end": 11.343
+    },
+    {
+     "word": "semifinals.",
+     "start": 11.424,
+     "end": 12.585
+    }
+   ]
+  },
+  "cta": {
+   "dur": 9.381,
+   "text": "Is Morocco's run the real deal this time? The full bracket breakdown is on the channel \u2014 subscribe, the quarterfinals are about to get loud.",
+   "words": [
+    {
+     "word": "Is",
+     "start": 0.0,
+     "end": 0.163
+    },
+    {
+     "word": "Morocco's",
+     "start": 0.221,
+     "end": 0.697
+    },
+    {
+     "word": "run",
+     "start": 0.755,
+     "end": 0.917
+    },
+    {
+     "word": "the",
+     "start": 0.964,
+     "end": 1.033
+    },
+    {
+     "word": "real",
+     "start": 1.091,
+     "end": 1.289
+    },
+    {
+     "word": "deal",
+     "start": 1.347,
+     "end": 1.556
+    },
+    {
+     "word": "this",
+     "start": 1.602,
+     "end": 1.741
+    },
+    {
+     "word": "time?",
+     "start": 1.8,
+     "end": 2.287
+    },
+    {
+     "word": "The",
+     "start": 2.67,
+     "end": 2.798
+    },
+    {
+     "word": "full",
+     "start": 2.844,
+     "end": 3.065
+    },
+    {
+     "word": "bracket",
+     "start": 3.123,
+     "end": 3.437
+    },
+    {
+     "word": "breakdown",
+     "start": 3.483,
+     "end": 4.017
+    },
+    {
+     "word": "is",
+     "start": 4.191,
+     "end": 4.342
+    },
+    {
+     "word": "on",
+     "start": 4.4,
+     "end": 4.47
+    },
+    {
+     "word": "the",
+     "start": 4.516,
+     "end": 4.586
+    },
+    {
+     "word": "channel",
+     "start": 4.632,
+     "end": 4.981
+    },
+    {
+     "word": "\u2014",
+     "start": 5.155,
+     "end": 5.201
+    },
+    {
+     "word": "subscribe,",
+     "start": 5.526,
+     "end": 6.362
+    },
+    {
+     "word": "the",
+     "start": 6.641,
+     "end": 6.734
+    },
+    {
+     "word": "quarterfinals",
+     "start": 6.78,
+     "end": 7.57
+    },
+    {
+     "word": "are",
+     "start": 7.814,
+     "end": 8.011
+    },
+    {
+     "word": "about",
+     "start": 8.046,
+     "end": 8.278
+    },
+    {
+     "word": "to",
+     "start": 8.313,
+     "end": 8.359
+    },
+    {
+     "word": "get",
+     "start": 8.417,
+     "end": 8.568
+    },
+    {
+     "word": "loud.",
+     "start": 8.638,
+     "end": 9.381
+    }
+   ]
+  }
+ }
+}
