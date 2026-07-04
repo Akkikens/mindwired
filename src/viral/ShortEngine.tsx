@@ -6,7 +6,7 @@ import { Brand, ProgressBar, SafeArea, VoicePulse } from "./components/HUD";
 import { KineticText, Kicker } from "./components/KineticText";
 import { SceneRouter } from "./scenes";
 import { buildTimeline, HOLD, timelineFrames } from "./lib/plan";
-import { HOST_REGISTRY, resolveHostImage } from "./lib/hosts";
+import { resolveHostImage } from "./lib/hosts";
 import { TONES } from "./lib/tone";
 import { ShortManifest, TimedScene, VisualPlan } from "./lib/types";
 
@@ -64,6 +64,34 @@ const HostTalkingClip: React.FC<{ src: string; durationInFrames: number; pillarb
     </AbsoluteFill>
   );
 };
+
+/** Circular corner facecam for wide long-forms — the 9:16 Sonic talking clip
+ *  center-cropped on the face, streamer-style. Pops in with the voice, fades
+ *  out before the cut. Muted; the scene's mp3 stays the audio source. */
+const FaceCam: React.FC<{ src: string; durationInFrames: number; accent: string }> =
+  ({ src, durationInFrames, accent }) => {
+    const frame = useCurrentFrame();
+    const enter = interpolate(frame, [0, 8], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+    const exit = interpolate(frame, [durationInFrames - 8, durationInFrames - 1], [1, 0],
+      { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+    const opacity = Math.min(enter, exit);
+    const scale = 0.85 + 0.15 * enter;
+    const SIZE = 320;
+    return (
+      <div style={{
+        position: "absolute", left: 64, bottom: 96, width: SIZE, height: SIZE,
+        borderRadius: "50%", overflow: "hidden", opacity,
+        transform: `scale(${scale})`, transformOrigin: "bottom left",
+        border: `5px solid ${accent}`,
+        boxShadow: `0 18px 60px rgba(0,0,0,0.65), 0 0 40px ${accent}44`,
+      }}>
+        {/* 9:16 source in a square, cover-cropped: face sits in the upper-middle
+            of the vertical clips, so anchor the crop there */}
+        <OffthreadVideo muted src={staticFile(src)}
+          style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 14%", transform: "scale(1.25)", transformOrigin: "50% 20%" }} />
+      </div>
+    );
+  };
 
 /** Scrim + accent vignette above the host layers so captions stay readable. */
 const HostScrim: React.FC<{ accent: string }> = ({ accent }) => (
@@ -123,19 +151,46 @@ export const ViralShort: React.FC<{ plan: VisualPlan; manifest: ShortManifest | 
   const { width, height } = useVideoConfig();
   const wide = width > height;
 
-  // Host mode: one persistent face-fronted host + per-scene captions/audio.
-  // Scenes that have a lip-synced clip play the talking video during the
-  // voiced span; the still covers lead-ins, HOLD beats and any scene that was
-  // never lip-synced. Wide renders use a genuine 16:9 host shoot (hosts.json
-  // imageWide) when one exists — a 9:16 talking clip's mouth timing doesn't
-  // match a 16:9 image, so wide renders need their OWN lip-synced clips
-  // (hostClipExistsWide, from `lipsync/batch.py --wide`), not the 9:16 ones.
+  // WIDE host mode = facecam pattern. A full-screen host still with frozen
+  // lips reads as fake, and full-frame wide lip-sync failed QA with both
+  // engines (see HOSTS.md verdict) — so long-forms render every scene as a
+  // full kinetic scene and overlay a small circular facecam of the SHARP 9:16
+  // talking clip (center-cropped on the face) whenever one exists. Lips move,
+  // no giant static face, and it reuses the Shorts' Sonic clips for free.
+  if (plan.host && wide) {
+    return (
+      <AbsoluteFill style={{ backgroundColor: "#03040A" }}>
+        {scenes.map((s, i) => (
+          <Sequence key={s.id} from={s.from} durationInFrames={s.durationInFrames} name={`${s.kind}:${s.id}`}>
+            <SceneShell s={s} prevOut={i > 0 ? scenes[i - 1].transitionOut : undefined} slug={plan.slug}
+              bpm={plan.music?.bpm} />
+          </Sequence>
+        ))}
+        {scenes.map((s) => {
+          const talkFrames = s.durationInFrames - s.audioDelay - HOLD;
+          return s.hostClipExists && talkFrames > 0 ? (
+            <Sequence key={`cam-${s.id}`} from={s.from + s.audioDelay} durationInFrames={talkFrames} name={`facecam:${s.id}`}>
+              <FaceCam src={`shorts/${plan.slug}/host/${s.id}.mp4`} durationInFrames={talkFrames}
+                accent={TONES[s.emotionalTone].accent} />
+            </Sequence>
+          ) : null;
+        })}
+        {plan.music?.src && <Audio src={staticFile(plan.music.src)} volume={plan.music.volume ?? 0.14} loop />}
+        <ProgressBar totalFrames={total} accent={accent} />
+        <Brand name={plan.channel} />
+      </AbsoluteFill>
+    );
+  }
+
+  // VERTICAL host mode: one persistent face-fronted host + per-scene
+  // captions/audio. Scenes with a lip-synced clip play the talking video
+  // during the voiced span; the still covers lead-ins, HOLD beats and any
+  // scene that was never lip-synced.
   if (plan.host) {
-    const hostImage = resolveHostImage(plan.host, wide);
-    const hasNativeWide = wide && !plan.host.includes("/") && !!HOST_REGISTRY[plan.host]?.imageWide;
-    const pillarbox = wide && !hasNativeWide;
-    const clipExists = (s: TimedScene) => (wide ? s.hostClipExistsWide : s.hostClipExists);
-    const clipDir = wide ? "host-wide" : "host";
+    const hostImage = resolveHostImage(plan.host);
+    const pillarbox = false;
+    const clipExists = (s: TimedScene) => s.hostClipExists;
+    const clipDir = "host";
     const anyTalking = scenes.some(clipExists);
     return (
       <AbsoluteFill style={{ backgroundColor: "#03040A" }}>
