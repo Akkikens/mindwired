@@ -1,0 +1,2232 @@
+{
+ "clips": {
+  "hook": {
+   "dur": 17.369,
+   "text": "A World Cup final decided by a screen. A nation eliminated after a seven-minute review. These are the five most controversial VAR decisions in World Cup history \u2014 and number one still starts arguments today.",
+   "words": [
+    {
+     "word": "A",
+     "start": 0.0,
+     "end": 0.081
+    },
+    {
+     "word": "World",
+     "start": 0.174,
+     "end": 0.499
+    },
+    {
+     "word": "Cup",
+     "start": 0.569,
+     "end": 0.778
+    },
+    {
+     "word": "final",
+     "start": 0.871,
+     "end": 1.277
+    },
+    {
+     "word": "decided",
+     "start": 1.66,
+     "end": 2.171
+    },
+    {
+     "word": "by",
+     "start": 2.241,
+     "end": 2.38
+    },
+    {
+     "word": "a",
+     "start": 2.438,
+     "end": 2.461
+    },
+    {
+     "word": "screen.",
+     "start": 2.531,
+     "end": 3.216
+    },
+    {
+     "word": "A",
+     "start": 3.541,
+     "end": 3.622
+    },
+    {
+     "word": "nation",
+     "start": 3.715,
+     "end": 4.098
+    },
+    {
+     "word": "eliminated",
+     "start": 4.272,
+     "end": 4.957
+    },
+    {
+     "word": "after",
+     "start": 5.201,
+     "end": 5.584
+    },
+    {
+     "word": "a",
+     "start": 5.654,
+     "end": 5.677
+    },
+    {
+     "word": "seven-minute",
+     "start": 5.793,
+     "end": 6.385
+    },
+    {
+     "word": "review.",
+     "start": 6.42,
+     "end": 7.012
+    },
+    {
+     "word": "These",
+     "start": 7.616,
+     "end": 8.034
+    },
+    {
+     "word": "are",
+     "start": 8.15,
+     "end": 8.336
+    },
+    {
+     "word": "the",
+     "start": 8.359,
+     "end": 8.429
+    },
+    {
+     "word": "five",
+     "start": 8.487,
+     "end": 8.882
+    },
+    {
+     "word": "most",
+     "start": 8.963,
+     "end": 9.23
+    },
+    {
+     "word": "controversial",
+     "start": 9.3,
+     "end": 10.112
+    },
+    {
+     "word": "VAR",
+     "start": 10.228,
+     "end": 10.844
+    },
+    {
+     "word": "decisions",
+     "start": 10.902,
+     "end": 11.471
+    },
+    {
+     "word": "in",
+     "start": 11.749,
+     "end": 11.9
+    },
+    {
+     "word": "World",
+     "start": 11.981,
+     "end": 12.249
+    },
+    {
+     "word": "Cup",
+     "start": 12.307,
+     "end": 12.539
+    },
+    {
+     "word": "history",
+     "start": 12.608,
+     "end": 13.084
+    },
+    {
+     "word": "\u2014",
+     "start": 13.259,
+     "end": 13.317
+    },
+    {
+     "word": "and",
+     "start": 14.013,
+     "end": 14.141
+    },
+    {
+     "word": "number",
+     "start": 14.211,
+     "end": 14.454
+    },
+    {
+     "word": "one",
+     "start": 14.524,
+     "end": 14.861
+    },
+    {
+     "word": "still",
+     "start": 15.07,
+     "end": 15.383
+    },
+    {
+     "word": "starts",
+     "start": 15.464,
+     "end": 15.882
+    },
+    {
+     "word": "arguments",
+     "start": 15.952,
+     "end": 16.521
+    },
+    {
+     "word": "today.",
+     "start": 16.567,
+     "end": 17.369
+    }
+   ]
+  },
+  "n5": {
+   "dur": 16.858,
+   "text": "Number five. Kazan, 2018. France versus Australia \u2014 and the first VAR-overturned penalty in World Cup history. The referee waved play on, then walked to a screen and changed his mind.",
+   "words": [
+    {
+     "word": "Number",
+     "start": 0.0,
+     "end": 0.313
+    },
+    {
+     "word": "five.",
+     "start": 0.383,
+     "end": 0.94
+    },
+    {
+     "word": "Kazan,",
+     "start": 1.265,
+     "end": 1.939
+    },
+    {
+     "word": "2018.",
+     "start": 2.148,
+     "end": 3.576
+    },
+    {
+     "word": "France",
+     "start": 3.959,
+     "end": 4.481
+    },
+    {
+     "word": "versus",
+     "start": 4.574,
+     "end": 4.969
+    },
+    {
+     "word": "Australia",
+     "start": 5.039,
+     "end": 5.654
+    },
+    {
+     "word": "\u2014",
+     "start": 5.828,
+     "end": 5.909
+    },
+    {
+     "word": "and",
+     "start": 6.351,
+     "end": 6.49
+    },
+    {
+     "word": "the",
+     "start": 6.548,
+     "end": 6.618
+    },
+    {
+     "word": "first",
+     "start": 6.676,
+     "end": 6.978
+    },
+    {
+     "word": "VAR-overturned",
+     "start": 7.047,
+     "end": 8.301
+    },
+    {
+     "word": "penalty",
+     "start": 8.348,
+     "end": 8.812
+    },
+    {
+     "word": "in",
+     "start": 9.137,
+     "end": 9.288
+    },
+    {
+     "word": "World",
+     "start": 9.358,
+     "end": 9.601
+    },
+    {
+     "word": "Cup",
+     "start": 9.671,
+     "end": 9.903
+    },
+    {
+     "word": "history.",
+     "start": 9.973,
+     "end": 10.577
+    },
+    {
+     "word": "The",
+     "start": 11.18,
+     "end": 11.297
+    },
+    {
+     "word": "referee",
+     "start": 11.355,
+     "end": 11.9
+    },
+    {
+     "word": "waved",
+     "start": 12.016,
+     "end": 12.481
+    },
+    {
+     "word": "play",
+     "start": 12.562,
+     "end": 12.806
+    },
+    {
+     "word": "on,",
+     "start": 12.899,
+     "end": 13.317
+    },
+    {
+     "word": "then",
+     "start": 13.642,
+     "end": 13.816
+    },
+    {
+     "word": "walked",
+     "start": 13.874,
+     "end": 14.129
+    },
+    {
+     "word": "to",
+     "start": 14.176,
+     "end": 14.269
+    },
+    {
+     "word": "a",
+     "start": 14.35,
+     "end": 14.373
+    },
+    {
+     "word": "screen",
+     "start": 14.431,
+     "end": 14.872
+    },
+    {
+     "word": "and",
+     "start": 15.197,
+     "end": 15.395
+    },
+    {
+     "word": "changed",
+     "start": 15.464,
+     "end": 15.882
+    },
+    {
+     "word": "his",
+     "start": 15.929,
+     "end": 16.045
+    },
+    {
+     "word": "mind.",
+     "start": 16.115,
+     "end": 16.858
+    }
+   ]
+  },
+  "n5b": {
+   "dur": 12.307,
+   "text": "Replays showed minimal contact on Griezmann. He converted anyway, France won two-one, Australia went home bottom of the group \u2014 and the soft-penalty era of VAR was born.",
+   "words": [
+    {
+     "word": "Replays",
+     "start": 0.0,
+     "end": 0.731
+    },
+    {
+     "word": "showed",
+     "start": 0.824,
+     "end": 1.138
+    },
+    {
+     "word": "minimal",
+     "start": 1.196,
+     "end": 1.486
+    },
+    {
+     "word": "contact",
+     "start": 1.567,
+     "end": 2.032
+    },
+    {
+     "word": "on",
+     "start": 2.101,
+     "end": 2.218
+    },
+    {
+     "word": "Griezmann.",
+     "start": 2.287,
+     "end": 2.961
+    },
+    {
+     "word": "He",
+     "start": 3.239,
+     "end": 3.367
+    },
+    {
+     "word": "converted",
+     "start": 3.425,
+     "end": 3.855
+    },
+    {
+     "word": "anyway,",
+     "start": 3.901,
+     "end": 4.493
+    },
+    {
+     "word": "France",
+     "start": 4.737,
+     "end": 5.108
+    },
+    {
+     "word": "won",
+     "start": 5.143,
+     "end": 5.317
+    },
+    {
+     "word": "two-one,",
+     "start": 5.387,
+     "end": 6.014
+    },
+    {
+     "word": "Australia",
+     "start": 6.188,
+     "end": 6.769
+    },
+    {
+     "word": "went",
+     "start": 6.827,
+     "end": 7.012
+    },
+    {
+     "word": "home",
+     "start": 7.07,
+     "end": 7.256
+    },
+    {
+     "word": "bottom",
+     "start": 7.314,
+     "end": 7.57
+    },
+    {
+     "word": "of",
+     "start": 7.605,
+     "end": 7.663
+    },
+    {
+     "word": "the",
+     "start": 7.709,
+     "end": 7.779
+    },
+    {
+     "word": "group",
+     "start": 7.814,
+     "end": 8.081
+    },
+    {
+     "word": "\u2014",
+     "start": 8.255,
+     "end": 8.301
+    },
+    {
+     "word": "and",
+     "start": 8.626,
+     "end": 8.766
+    },
+    {
+     "word": "the",
+     "start": 8.8,
+     "end": 8.87
+    },
+    {
+     "word": "soft-penalty",
+     "start": 8.928,
+     "end": 9.636
+    },
+    {
+     "word": "era",
+     "start": 9.718,
+     "end": 10.112
+    },
+    {
+     "word": "of",
+     "start": 10.263,
+     "end": 10.391
+    },
+    {
+     "word": "VAR",
+     "start": 10.484,
+     "end": 11.192
+    },
+    {
+     "word": "was",
+     "start": 11.366,
+     "end": 11.54
+    },
+    {
+     "word": "born.",
+     "start": 11.61,
+     "end": 12.307
+    }
+   ]
+  },
+  "n4": {
+   "dur": 19.226,
+   "text": "Number four. Qatar, 2022. Argentina versus Saudi Arabia. THREE first-half Argentina goals disallowed \u2014 Messi once, Lautaro Mart\u00ednez twice \u2014 by the new semi-automated offside system, some by the width of a shoulder.",
+   "words": [
+    {
+     "word": "Number",
+     "start": 0.0,
+     "end": 0.302
+    },
+    {
+     "word": "four.",
+     "start": 0.383,
+     "end": 0.975
+    },
+    {
+     "word": "Qatar,",
+     "start": 1.579,
+     "end": 2.368
+    },
+    {
+     "word": "2022.",
+     "start": 2.543,
+     "end": 3.889
+    },
+    {
+     "word": "Argentina",
+     "start": 4.4,
+     "end": 5.224
+    },
+    {
+     "word": "versus",
+     "start": 5.55,
+     "end": 6.014
+    },
+    {
+     "word": "Saudi",
+     "start": 6.188,
+     "end": 6.536
+    },
+    {
+     "word": "Arabia.",
+     "start": 6.594,
+     "end": 7.279
+    },
+    {
+     "word": "THREE",
+     "start": 7.883,
+     "end": 8.162
+    },
+    {
+     "word": "first-half",
+     "start": 8.231,
+     "end": 8.858
+    },
+    {
+     "word": "Argentina",
+     "start": 8.94,
+     "end": 9.532
+    },
+    {
+     "word": "goals",
+     "start": 9.601,
+     "end": 9.938
+    },
+    {
+     "word": "disallowed",
+     "start": 9.996,
+     "end": 10.646
+    },
+    {
+     "word": "\u2014",
+     "start": 10.855,
+     "end": 11.064
+    },
+    {
+     "word": "Messi",
+     "start": 11.134,
+     "end": 11.436
+    },
+    {
+     "word": "once,",
+     "start": 11.505,
+     "end": 11.958
+    },
+    {
+     "word": "Lautaro",
+     "start": 12.132,
+     "end": 12.678
+    },
+    {
+     "word": "Mart\u00ednez",
+     "start": 12.748,
+     "end": 13.27
+    },
+    {
+     "word": "twice",
+     "start": 13.328,
+     "end": 13.839
+    },
+    {
+     "word": "\u2014",
+     "start": 13.955,
+     "end": 14.129
+    },
+    {
+     "word": "by",
+     "start": 14.257,
+     "end": 14.396
+    },
+    {
+     "word": "the",
+     "start": 14.443,
+     "end": 14.512
+    },
+    {
+     "word": "new",
+     "start": 14.582,
+     "end": 14.826
+    },
+    {
+     "word": "semi-automated",
+     "start": 14.942,
+     "end": 15.824
+    },
+    {
+     "word": "offside",
+     "start": 15.894,
+     "end": 16.393
+    },
+    {
+     "word": "system,",
+     "start": 16.428,
+     "end": 17.02
+    },
+    {
+     "word": "some",
+     "start": 17.345,
+     "end": 17.659
+    },
+    {
+     "word": "by",
+     "start": 17.717,
+     "end": 17.856
+    },
+    {
+     "word": "the",
+     "start": 17.914,
+     "end": 17.984
+    },
+    {
+     "word": "width",
+     "start": 18.03,
+     "end": 18.251
+    },
+    {
+     "word": "of",
+     "start": 18.297,
+     "end": 18.355
+    },
+    {
+     "word": "a",
+     "start": 18.39,
+     "end": 18.425
+    },
+    {
+     "word": "shoulder.",
+     "start": 18.471,
+     "end": 19.226
+    }
+   ]
+  },
+  "n4b": {
+   "dur": 16.951,
+   "text": "Twenty-nine tracking points per player. A sensor in the ball pinging five hundred times a second. Goals erased by margins no human eye can see \u2014 and Saudi Arabia pulled off one of the biggest upsets ever, two-one.",
+   "words": [
+    {
+     "word": "Twenty-nine",
+     "start": 0.0,
+     "end": 0.848
+    },
+    {
+     "word": "tracking",
+     "start": 0.894,
+     "end": 1.289
+    },
+    {
+     "word": "points",
+     "start": 1.37,
+     "end": 1.66
+    },
+    {
+     "word": "per",
+     "start": 1.707,
+     "end": 1.846
+    },
+    {
+     "word": "player.",
+     "start": 1.904,
+     "end": 2.438
+    },
+    {
+     "word": "A",
+     "start": 2.879,
+     "end": 2.961
+    },
+    {
+     "word": "sensor",
+     "start": 3.077,
+     "end": 3.483
+    },
+    {
+     "word": "in",
+     "start": 3.541,
+     "end": 3.611
+    },
+    {
+     "word": "the",
+     "start": 3.657,
+     "end": 3.727
+    },
+    {
+     "word": "ball",
+     "start": 3.773,
+     "end": 4.075
+    },
+    {
+     "word": "pinging",
+     "start": 4.168,
+     "end": 4.47
+    },
+    {
+     "word": "five",
+     "start": 4.551,
+     "end": 4.865
+    },
+    {
+     "word": "hundred",
+     "start": 4.899,
+     "end": 5.166
+    },
+    {
+     "word": "times",
+     "start": 5.213,
+     "end": 5.584
+    },
+    {
+     "word": "a",
+     "start": 5.631,
+     "end": 5.666
+    },
+    {
+     "word": "second.",
+     "start": 5.735,
+     "end": 6.316
+    },
+    {
+     "word": "Goals",
+     "start": 7.012,
+     "end": 7.523
+    },
+    {
+     "word": "erased",
+     "start": 7.593,
+     "end": 8.022
+    },
+    {
+     "word": "by",
+     "start": 8.081,
+     "end": 8.231
+    },
+    {
+     "word": "margins",
+     "start": 8.324,
+     "end": 8.893
+    },
+    {
+     "word": "no",
+     "start": 9.137,
+     "end": 9.404
+    },
+    {
+     "word": "human",
+     "start": 9.52,
+     "end": 9.903
+    },
+    {
+     "word": "eye",
+     "start": 9.985,
+     "end": 10.263
+    },
+    {
+     "word": "can",
+     "start": 10.31,
+     "end": 10.472
+    },
+    {
+     "word": "see",
+     "start": 10.565,
+     "end": 10.96
+    },
+    {
+     "word": "\u2014",
+     "start": 11.076,
+     "end": 11.134
+    },
+    {
+     "word": "and",
+     "start": 11.413,
+     "end": 11.575
+    },
+    {
+     "word": "Saudi",
+     "start": 11.656,
+     "end": 12.005
+    },
+    {
+     "word": "Arabia",
+     "start": 12.063,
+     "end": 12.574
+    },
+    {
+     "word": "pulled",
+     "start": 12.852,
+     "end": 13.166
+    },
+    {
+     "word": "off",
+     "start": 13.224,
+     "end": 13.456
+    },
+    {
+     "word": "one",
+     "start": 13.7,
+     "end": 13.92
+    },
+    {
+     "word": "of",
+     "start": 13.955,
+     "end": 14.002
+    },
+    {
+     "word": "the",
+     "start": 14.048,
+     "end": 14.118
+    },
+    {
+     "word": "biggest",
+     "start": 14.211,
+     "end": 14.571
+    },
+    {
+     "word": "upsets",
+     "start": 14.629,
+     "end": 15.047
+    },
+    {
+     "word": "ever,",
+     "start": 15.105,
+     "end": 15.592
+    },
+    {
+     "word": "two-one.",
+     "start": 15.917,
+     "end": 16.951
+    }
+   ]
+  },
+  "n3": {
+   "dur": 15.743,
+   "text": "Number three. The Mitoma millimeters. Japan versus Spain, 2022. Every TV angle showed the ball out of play before Japan's winner. You could see grass between the ball and the line.",
+   "words": [
+    {
+     "word": "Number",
+     "start": 0.0,
+     "end": 0.325
+    },
+    {
+     "word": "three.",
+     "start": 0.383,
+     "end": 0.952
+    },
+    {
+     "word": "The",
+     "start": 1.556,
+     "end": 1.672
+    },
+    {
+     "word": "Mitoma",
+     "start": 1.718,
+     "end": 2.148
+    },
+    {
+     "word": "millimeters.",
+     "start": 2.194,
+     "end": 3.007
+    },
+    {
+     "word": "Japan",
+     "start": 3.39,
+     "end": 3.831
+    },
+    {
+     "word": "versus",
+     "start": 3.947,
+     "end": 4.307
+    },
+    {
+     "word": "Spain,",
+     "start": 4.365,
+     "end": 4.946
+    },
+    {
+     "word": "2022.",
+     "start": 5.19,
+     "end": 6.269
+    },
+    {
+     "word": "Every",
+     "start": 6.966,
+     "end": 7.314
+    },
+    {
+     "word": "TV",
+     "start": 7.396,
+     "end": 7.721
+    },
+    {
+     "word": "angle",
+     "start": 7.93,
+     "end": 8.452
+    },
+    {
+     "word": "showed",
+     "start": 8.661,
+     "end": 9.009
+    },
+    {
+     "word": "the",
+     "start": 9.044,
+     "end": 9.114
+    },
+    {
+     "word": "ball",
+     "start": 9.16,
+     "end": 9.416
+    },
+    {
+     "word": "out",
+     "start": 9.485,
+     "end": 9.636
+    },
+    {
+     "word": "of",
+     "start": 9.683,
+     "end": 9.741
+    },
+    {
+     "word": "play",
+     "start": 9.81,
+     "end": 10.228
+    },
+    {
+     "word": "before",
+     "start": 10.553,
+     "end": 10.913
+    },
+    {
+     "word": "Japan's",
+     "start": 10.971,
+     "end": 11.447
+    },
+    {
+     "word": "winner.",
+     "start": 11.494,
+     "end": 11.958
+    },
+    {
+     "word": "You",
+     "start": 12.562,
+     "end": 12.678
+    },
+    {
+     "word": "could",
+     "start": 12.725,
+     "end": 12.864
+    },
+    {
+     "word": "see",
+     "start": 12.899,
+     "end": 13.05
+    },
+    {
+     "word": "grass",
+     "start": 13.096,
+     "end": 13.479
+    },
+    {
+     "word": "between",
+     "start": 13.537,
+     "end": 13.874
+    },
+    {
+     "word": "the",
+     "start": 13.92,
+     "end": 13.99
+    },
+    {
+     "word": "ball",
+     "start": 14.025,
+     "end": 14.35
+    },
+    {
+     "word": "and",
+     "start": 14.675,
+     "end": 14.849
+    },
+    {
+     "word": "the",
+     "start": 14.896,
+     "end": 14.965
+    },
+    {
+     "word": "line.",
+     "start": 15.012,
+     "end": 15.743
+    }
+   ]
+  },
+  "n3b": {
+   "dur": 17.415,
+   "text": "But viewed from directly above, the ball's curve hadn't fully crossed. The goal stood. Japan won the group \u2014 and GERMANY, who won their own game that night, were eliminated. FIFA didn't release the proof photo for eighteen hours.",
+   "words": [
+    {
+     "word": "But",
+     "start": 0.0,
+     "end": 0.197
+    },
+    {
+     "word": "viewed",
+     "start": 0.255,
+     "end": 0.511
+    },
+    {
+     "word": "from",
+     "start": 0.546,
+     "end": 0.685
+    },
+    {
+     "word": "directly",
+     "start": 0.755,
+     "end": 1.138
+    },
+    {
+     "word": "above,",
+     "start": 1.196,
+     "end": 1.788
+    },
+    {
+     "word": "the",
+     "start": 2.113,
+     "end": 2.206
+    },
+    {
+     "word": "ball's",
+     "start": 2.264,
+     "end": 2.589
+    },
+    {
+     "word": "curve",
+     "start": 2.647,
+     "end": 3.181
+    },
+    {
+     "word": "hadn't",
+     "start": 3.39,
+     "end": 3.704
+    },
+    {
+     "word": "fully",
+     "start": 3.762,
+     "end": 4.017
+    },
+    {
+     "word": "crossed.",
+     "start": 4.087,
+     "end": 4.795
+    },
+    {
+     "word": "The",
+     "start": 5.178,
+     "end": 5.294
+    },
+    {
+     "word": "goal",
+     "start": 5.352,
+     "end": 5.631
+    },
+    {
+     "word": "stood.",
+     "start": 5.747,
+     "end": 6.409
+    },
+    {
+     "word": "Japan",
+     "start": 6.92,
+     "end": 7.396
+    },
+    {
+     "word": "won",
+     "start": 7.523,
+     "end": 7.732
+    },
+    {
+     "word": "the",
+     "start": 7.779,
+     "end": 7.848
+    },
+    {
+     "word": "group",
+     "start": 7.895,
+     "end": 8.15
+    },
+    {
+     "word": "\u2014",
+     "start": 8.324,
+     "end": 8.371
+    },
+    {
+     "word": "and",
+     "start": 8.649,
+     "end": 8.8
+    },
+    {
+     "word": "GERMANY,",
+     "start": 8.916,
+     "end": 9.578
+    },
+    {
+     "word": "who",
+     "start": 9.613,
+     "end": 9.776
+    },
+    {
+     "word": "won",
+     "start": 9.834,
+     "end": 9.996
+    },
+    {
+     "word": "their",
+     "start": 10.054,
+     "end": 10.205
+    },
+    {
+     "word": "own",
+     "start": 10.263,
+     "end": 10.461
+    },
+    {
+     "word": "game",
+     "start": 10.53,
+     "end": 10.82
+    },
+    {
+     "word": "that",
+     "start": 10.855,
+     "end": 11.029
+    },
+    {
+     "word": "night,",
+     "start": 11.111,
+     "end": 11.552
+    },
+    {
+     "word": "were",
+     "start": 11.877,
+     "end": 12.063
+    },
+    {
+     "word": "eliminated.",
+     "start": 12.109,
+     "end": 12.98
+    },
+    {
+     "word": "FIFA",
+     "start": 13.677,
+     "end": 14.141
+    },
+    {
+     "word": "didn't",
+     "start": 14.257,
+     "end": 14.571
+    },
+    {
+     "word": "release",
+     "start": 14.617,
+     "end": 14.965
+    },
+    {
+     "word": "the",
+     "start": 15.0,
+     "end": 15.07
+    },
+    {
+     "word": "proof",
+     "start": 15.116,
+     "end": 15.337
+    },
+    {
+     "word": "photo",
+     "start": 15.395,
+     "end": 15.755
+    },
+    {
+     "word": "for",
+     "start": 15.848,
+     "end": 15.964
+    },
+    {
+     "word": "eighteen",
+     "start": 16.033,
+     "end": 16.475
+    },
+    {
+     "word": "hours.",
+     "start": 16.556,
+     "end": 17.415
+    }
+   ]
+  },
+  "n2": {
+   "dur": 13.607,
+   "text": "Number two \u2014 this tournament. Belgium versus Senegal. Two-two, the very end of extra time... and a SEVEN minute VAR review. Seven. Then a penalty.",
+   "words": [
+    {
+     "word": "Number",
+     "start": 0.0,
+     "end": 0.302
+    },
+    {
+     "word": "two",
+     "start": 0.337,
+     "end": 0.557
+    },
+    {
+     "word": "\u2014",
+     "start": 0.801,
+     "end": 0.871
+    },
+    {
+     "word": "this",
+     "start": 1.149,
+     "end": 1.335
+    },
+    {
+     "word": "tournament.",
+     "start": 1.393,
+     "end": 2.067
+    },
+    {
+     "word": "Belgium",
+     "start": 2.345,
+     "end": 2.833
+    },
+    {
+     "word": "versus",
+     "start": 3.042,
+     "end": 3.437
+    },
+    {
+     "word": "Senegal.",
+     "start": 3.495,
+     "end": 4.249
+    },
+    {
+     "word": "Two-two,",
+     "start": 4.76,
+     "end": 5.48
+    },
+    {
+     "word": "the",
+     "start": 5.654,
+     "end": 5.759
+    },
+    {
+     "word": "very",
+     "start": 5.817,
+     "end": 6.049
+    },
+    {
+     "word": "end",
+     "start": 6.13,
+     "end": 6.397
+    },
+    {
+     "word": "of",
+     "start": 6.513,
+     "end": 6.641
+    },
+    {
+     "word": "extra",
+     "start": 6.711,
+     "end": 7.012
+    },
+    {
+     "word": "time...",
+     "start": 7.07,
+     "end": 7.616
+    },
+    {
+     "word": "and",
+     "start": 8.22,
+     "end": 8.371
+    },
+    {
+     "word": "a",
+     "start": 8.417,
+     "end": 8.452
+    },
+    {
+     "word": "SEVEN",
+     "start": 8.568,
+     "end": 8.882
+    },
+    {
+     "word": "minute",
+     "start": 8.928,
+     "end": 9.218
+    },
+    {
+     "word": "VAR",
+     "start": 9.369,
+     "end": 10.043
+    },
+    {
+     "word": "review.",
+     "start": 10.112,
+     "end": 10.693
+    },
+    {
+     "word": "Seven.",
+     "start": 11.204,
+     "end": 11.714
+    },
+    {
+     "word": "Then",
+     "start": 12.156,
+     "end": 12.446
+    },
+    {
+     "word": "a",
+     "start": 12.597,
+     "end": 12.69
+    },
+    {
+     "word": "penalty.",
+     "start": 12.771,
+     "end": 13.607
+    }
+   ]
+  },
+  "n2b": {
+   "dur": 14.907,
+   "text": "Tielemans scored it at one hundred twenty-four minutes, forty-four seconds \u2014 the latest goal in World Cup history. Senegal, eliminated by the last kick of a review analysts said should never have happened.",
+   "words": [
+    {
+     "word": "Tielemans",
+     "start": 0.0,
+     "end": 0.662
+    },
+    {
+     "word": "scored",
+     "start": 0.708,
+     "end": 1.068
+    },
+    {
+     "word": "it",
+     "start": 1.103,
+     "end": 1.219
+    },
+    {
+     "word": "at",
+     "start": 1.498,
+     "end": 1.66
+    },
+    {
+     "word": "one",
+     "start": 1.718,
+     "end": 1.881
+    },
+    {
+     "word": "hundred",
+     "start": 1.916,
+     "end": 2.171
+    },
+    {
+     "word": "twenty-four",
+     "start": 2.206,
+     "end": 2.786
+    },
+    {
+     "word": "minutes,",
+     "start": 2.833,
+     "end": 3.355
+    },
+    {
+     "word": "forty-four",
+     "start": 3.564,
+     "end": 4.168
+    },
+    {
+     "word": "seconds",
+     "start": 4.238,
+     "end": 4.714
+    },
+    {
+     "word": "\u2014",
+     "start": 4.923,
+     "end": 4.969
+    },
+    {
+     "word": "the",
+     "start": 5.294,
+     "end": 5.399
+    },
+    {
+     "word": "latest",
+     "start": 5.48,
+     "end": 5.828
+    },
+    {
+     "word": "goal",
+     "start": 5.886,
+     "end": 6.223
+    },
+    {
+     "word": "in",
+     "start": 6.467,
+     "end": 6.641
+    },
+    {
+     "word": "World",
+     "start": 6.711,
+     "end": 6.989
+    },
+    {
+     "word": "Cup",
+     "start": 7.047,
+     "end": 7.279
+    },
+    {
+     "word": "history.",
+     "start": 7.349,
+     "end": 7.964
+    },
+    {
+     "word": "Senegal,",
+     "start": 8.568,
+     "end": 9.451
+    },
+    {
+     "word": "eliminated",
+     "start": 9.625,
+     "end": 10.333
+    },
+    {
+     "word": "by",
+     "start": 10.426,
+     "end": 10.577
+    },
+    {
+     "word": "the",
+     "start": 10.646,
+     "end": 10.716
+    },
+    {
+     "word": "last",
+     "start": 10.797,
+     "end": 11.111
+    },
+    {
+     "word": "kick",
+     "start": 11.18,
+     "end": 11.366
+    },
+    {
+     "word": "of",
+     "start": 11.413,
+     "end": 11.459
+    },
+    {
+     "word": "a",
+     "start": 11.505,
+     "end": 11.529
+    },
+    {
+     "word": "review",
+     "start": 11.587,
+     "end": 11.97
+    },
+    {
+     "word": "analysts",
+     "start": 12.295,
+     "end": 12.841
+    },
+    {
+     "word": "said",
+     "start": 12.875,
+     "end": 13.189
+    },
+    {
+     "word": "should",
+     "start": 13.363,
+     "end": 13.618
+    },
+    {
+     "word": "never",
+     "start": 13.688,
+     "end": 13.909
+    },
+    {
+     "word": "have",
+     "start": 13.967,
+     "end": 14.106
+    },
+    {
+     "word": "happened.",
+     "start": 14.141,
+     "end": 14.907
+    }
+   ]
+  },
+  "n1": {
+   "dur": 15.325,
+   "text": "And number one. Moscow. The 2018 FINAL. France one, Croatia one \u2014 and Griezmann's corner brushes Perisic's hand. The referee says nothing. Then VAR calls him to the screen.",
+   "words": [
+    {
+     "word": "And",
+     "start": 0.0,
+     "end": 0.163
+    },
+    {
+     "word": "number",
+     "start": 0.209,
+     "end": 0.43
+    },
+    {
+     "word": "one.",
+     "start": 0.499,
+     "end": 0.848
+    },
+    {
+     "word": "Moscow.",
+     "start": 1.358,
+     "end": 2.055
+    },
+    {
+     "word": "The",
+     "start": 2.496,
+     "end": 2.601
+    },
+    {
+     "word": "2018",
+     "start": 2.659,
+     "end": 3.727
+    },
+    {
+     "word": "FINAL.",
+     "start": 3.855,
+     "end": 4.458
+    },
+    {
+     "word": "France",
+     "start": 4.899,
+     "end": 5.294
+    },
+    {
+     "word": "one,",
+     "start": 5.341,
+     "end": 5.712
+    },
+    {
+     "word": "Croatia",
+     "start": 5.886,
+     "end": 6.467
+    },
+    {
+     "word": "one",
+     "start": 6.525,
+     "end": 6.792
+    },
+    {
+     "word": "\u2014",
+     "start": 6.908,
+     "end": 6.954
+    },
+    {
+     "word": "and",
+     "start": 7.279,
+     "end": 7.419
+    },
+    {
+     "word": "Griezmann's",
+     "start": 7.465,
+     "end": 7.93
+    },
+    {
+     "word": "corner",
+     "start": 7.976,
+     "end": 8.371
+    },
+    {
+     "word": "brushes",
+     "start": 8.882,
+     "end": 9.265
+    },
+    {
+     "word": "Perisic's",
+     "start": 9.334,
+     "end": 9.81
+    },
+    {
+     "word": "hand.",
+     "start": 9.857,
+     "end": 10.368
+    },
+    {
+     "word": "The",
+     "start": 10.879,
+     "end": 10.995
+    },
+    {
+     "word": "referee",
+     "start": 11.053,
+     "end": 11.564
+    },
+    {
+     "word": "says",
+     "start": 11.622,
+     "end": 11.854
+    },
+    {
+     "word": "nothing.",
+     "start": 11.923,
+     "end": 12.423
+    },
+    {
+     "word": "Then",
+     "start": 12.864,
+     "end": 13.05
+    },
+    {
+     "word": "VAR",
+     "start": 13.131,
+     "end": 13.793
+    },
+    {
+     "word": "calls",
+     "start": 13.874,
+     "end": 14.141
+    },
+    {
+     "word": "him",
+     "start": 14.187,
+     "end": 14.28
+    },
+    {
+     "word": "to",
+     "start": 14.327,
+     "end": 14.385
+    },
+    {
+     "word": "the",
+     "start": 14.431,
+     "end": 14.501
+    },
+    {
+     "word": "screen.",
+     "start": 14.536,
+     "end": 15.325
+    }
+   ]
+  },
+  "n1b": {
+   "dur": 18.994,
+   "text": "Penalty. Griezmann scores. Croatia never recover, France win four-two. Roy Keane said the decision quote, disgusts me. Modric said you cannot give that in a final. It is still the only World Cup final swung by a VAR call.",
+   "words": [
+    {
+     "word": "Penalty.",
+     "start": 0.0,
+     "end": 0.743
+    },
+    {
+     "word": "Griezmann",
+     "start": 1.126,
+     "end": 1.614
+    },
+    {
+     "word": "scores.",
+     "start": 1.683,
+     "end": 2.334
+    },
+    {
+     "word": "Croatia",
+     "start": 2.775,
+     "end": 3.402
+    },
+    {
+     "word": "never",
+     "start": 3.646,
+     "end": 3.889
+    },
+    {
+     "word": "recover,",
+     "start": 3.947,
+     "end": 4.563
+    },
+    {
+     "word": "France",
+     "start": 4.888,
+     "end": 5.294
+    },
+    {
+     "word": "win",
+     "start": 5.341,
+     "end": 5.561
+    },
+    {
+     "word": "four-two.",
+     "start": 5.654,
+     "end": 6.385
+    },
+    {
+     "word": "Roy",
+     "start": 7.082,
+     "end": 7.338
+    },
+    {
+     "word": "Keane",
+     "start": 7.419,
+     "end": 7.767
+    },
+    {
+     "word": "said",
+     "start": 7.848,
+     "end": 8.057
+    },
+    {
+     "word": "the",
+     "start": 8.092,
+     "end": 8.162
+    },
+    {
+     "word": "decision",
+     "start": 8.197,
+     "end": 8.568
+    },
+    {
+     "word": "quote,",
+     "start": 8.649,
+     "end": 9.056
+    },
+    {
+     "word": "disgusts",
+     "start": 9.381,
+     "end": 10.019
+    },
+    {
+     "word": "me.",
+     "start": 10.089,
+     "end": 10.495
+    },
+    {
+     "word": "Modric",
+     "start": 11.192,
+     "end": 11.61
+    },
+    {
+     "word": "said",
+     "start": 11.656,
+     "end": 11.947
+    },
+    {
+     "word": "you",
+     "start": 12.33,
+     "end": 12.481
+    },
+    {
+     "word": "cannot",
+     "start": 12.574,
+     "end": 12.934
+    },
+    {
+     "word": "give",
+     "start": 12.992,
+     "end": 13.189
+    },
+    {
+     "word": "that",
+     "start": 13.224,
+     "end": 13.386
+    },
+    {
+     "word": "in",
+     "start": 13.456,
+     "end": 13.572
+    },
+    {
+     "word": "a",
+     "start": 13.618,
+     "end": 13.642
+    },
+    {
+     "word": "final.",
+     "start": 13.735,
+     "end": 14.315
+    },
+    {
+     "word": "It",
+     "start": 14.826,
+     "end": 14.965
+    },
+    {
+     "word": "is",
+     "start": 15.012,
+     "end": 15.081
+    },
+    {
+     "word": "still",
+     "start": 15.128,
+     "end": 15.395
+    },
+    {
+     "word": "the",
+     "start": 15.453,
+     "end": 15.534
+    },
+    {
+     "word": "only",
+     "start": 15.604,
+     "end": 15.859
+    },
+    {
+     "word": "World",
+     "start": 15.917,
+     "end": 16.161
+    },
+    {
+     "word": "Cup",
+     "start": 16.208,
+     "end": 16.382
+    },
+    {
+     "word": "final",
+     "start": 16.475,
+     "end": 16.846
+    },
+    {
+     "word": "swung",
+     "start": 16.962,
+     "end": 17.264
+    },
+    {
+     "word": "by",
+     "start": 17.334,
+     "end": 17.485
+    },
+    {
+     "word": "a",
+     "start": 17.543,
+     "end": 17.566
+    },
+    {
+     "word": "VAR",
+     "start": 17.659,
+     "end": 18.216
+    },
+    {
+     "word": "call.",
+     "start": 18.286,
+     "end": 18.994
+    }
+   ]
+  },
+  "through": {
+   "dur": 18.901,
+   "text": "Notice the pattern. 2018 gave VAR its power. 2022 made it forensic \u2014 millimeters and armpits. And 2026 made the process itself the scandal. The technology got more accurate... and the arguments got worse.",
+   "words": [
+    {
+     "word": "Notice",
+     "start": 0.0,
+     "end": 0.488
+    },
+    {
+     "word": "the",
+     "start": 0.534,
+     "end": 0.615
+    },
+    {
+     "word": "pattern.",
+     "start": 0.662,
+     "end": 1.324
+    },
+    {
+     "word": "2018",
+     "start": 1.927,
+     "end": 3.019
+    },
+    {
+     "word": "gave",
+     "start": 3.146,
+     "end": 3.448
+    },
+    {
+     "word": "VAR",
+     "start": 3.483,
+     "end": 4.04
+    },
+    {
+     "word": "its",
+     "start": 4.087,
+     "end": 4.214
+    },
+    {
+     "word": "power.",
+     "start": 4.272,
+     "end": 4.818
+    },
+    {
+     "word": "2022",
+     "start": 5.143,
+     "end": 6.165
+    },
+    {
+     "word": "made",
+     "start": 6.246,
+     "end": 6.42
+    },
+    {
+     "word": "it",
+     "start": 6.455,
+     "end": 6.513
+    },
+    {
+     "word": "forensic",
+     "start": 6.56,
+     "end": 7.059
+    },
+    {
+     "word": "\u2014",
+     "start": 7.268,
+     "end": 7.326
+    },
+    {
+     "word": "millimeters",
+     "start": 7.5,
+     "end": 8.104
+    },
+    {
+     "word": "and",
+     "start": 8.173,
+     "end": 8.324
+    },
+    {
+     "word": "armpits.",
+     "start": 8.406,
+     "end": 9.16
+    },
+    {
+     "word": "And",
+     "start": 9.404,
+     "end": 9.555
+    },
+    {
+     "word": "2026",
+     "start": 9.625,
+     "end": 10.96
+    },
+    {
+     "word": "made",
+     "start": 11.401,
+     "end": 11.656
+    },
+    {
+     "word": "the",
+     "start": 11.691,
+     "end": 11.761
+    },
+    {
+     "word": "process",
+     "start": 11.796,
+     "end": 12.249
+    },
+    {
+     "word": "itself",
+     "start": 12.295,
+     "end": 12.748
+    },
+    {
+     "word": "the",
+     "start": 13.131,
+     "end": 13.259
+    },
+    {
+     "word": "scandal.",
+     "start": 13.317,
+     "end": 14.06
+    },
+    {
+     "word": "The",
+     "start": 14.663,
+     "end": 14.768
+    },
+    {
+     "word": "technology",
+     "start": 14.814,
+     "end": 15.337
+    },
+    {
+     "word": "got",
+     "start": 15.406,
+     "end": 15.557
+    },
+    {
+     "word": "more",
+     "start": 15.615,
+     "end": 15.778
+    },
+    {
+     "word": "accurate...",
+     "start": 15.824,
+     "end": 16.486
+    },
+    {
+     "word": "and",
+     "start": 16.73,
+     "end": 16.881
+    },
+    {
+     "word": "the",
+     "start": 16.927,
+     "end": 16.997
+    },
+    {
+     "word": "arguments",
+     "start": 17.067,
+     "end": 17.647
+    },
+    {
+     "word": "got",
+     "start": 17.856,
+     "end": 18.077
+    },
+    {
+     "word": "worse.",
+     "start": 18.146,
+     "end": 18.901
+    }
+   ]
+  },
+  "cta": {
+   "dur": 14.025,
+   "text": "With the quarterfinals starting July ninth, VAR will decide someone's World Cup again \u2014 probably this week. Subscribe so you get the breakdown when it happens, and tell me which call still makes you angry.",
+   "words": [
+    {
+     "word": "With",
+     "start": 0.0,
+     "end": 0.197
+    },
+    {
+     "word": "the",
+     "start": 0.221,
+     "end": 0.29
+    },
+    {
+     "word": "quarterfinals",
+     "start": 0.325,
+     "end": 1.033
+    },
+    {
+     "word": "starting",
+     "start": 1.08,
+     "end": 1.474
+    },
+    {
+     "word": "July",
+     "start": 1.533,
+     "end": 1.834
+    },
+    {
+     "word": "ninth,",
+     "start": 1.95,
+     "end": 2.508
+    },
+    {
+     "word": "VAR",
+     "start": 2.833,
+     "end": 3.437
+    },
+    {
+     "word": "will",
+     "start": 3.495,
+     "end": 3.634
+    },
+    {
+     "word": "decide",
+     "start": 3.692,
+     "end": 4.145
+    },
+    {
+     "word": "someone's",
+     "start": 4.203,
+     "end": 4.644
+    },
+    {
+     "word": "World",
+     "start": 4.702,
+     "end": 5.004
+    },
+    {
+     "word": "Cup",
+     "start": 5.074,
+     "end": 5.271
+    },
+    {
+     "word": "again",
+     "start": 5.317,
+     "end": 5.619
+    },
+    {
+     "word": "\u2014",
+     "start": 5.863,
+     "end": 5.921
+    },
+    {
+     "word": "probably",
+     "start": 6.246,
+     "end": 6.711
+    },
+    {
+     "word": "this",
+     "start": 6.885,
+     "end": 7.094
+    },
+    {
+     "word": "week.",
+     "start": 7.175,
+     "end": 7.651
+    },
+    {
+     "word": "Subscribe",
+     "start": 8.255,
+     "end": 8.94
+    },
+    {
+     "word": "so",
+     "start": 8.975,
+     "end": 9.091
+    },
+    {
+     "word": "you",
+     "start": 9.16,
+     "end": 9.23
+    },
+    {
+     "word": "get",
+     "start": 9.3,
+     "end": 9.427
+    },
+    {
+     "word": "the",
+     "start": 9.462,
+     "end": 9.532
+    },
+    {
+     "word": "breakdown",
+     "start": 9.567,
+     "end": 10.101
+    },
+    {
+     "word": "when",
+     "start": 10.159,
+     "end": 10.286
+    },
+    {
+     "word": "it",
+     "start": 10.321,
+     "end": 10.391
+    },
+    {
+     "word": "happens,",
+     "start": 10.437,
+     "end": 11.064
+    },
+    {
+     "word": "and",
+     "start": 11.308,
+     "end": 11.447
+    },
+    {
+     "word": "tell",
+     "start": 11.505,
+     "end": 11.68
+    },
+    {
+     "word": "me",
+     "start": 11.726,
+     "end": 11.807
+    },
+    {
+     "word": "which",
+     "start": 11.865,
+     "end": 12.063
+    },
+    {
+     "word": "call",
+     "start": 12.121,
+     "end": 12.411
+    },
+    {
+     "word": "still",
+     "start": 12.527,
+     "end": 12.817
+    },
+    {
+     "word": "makes",
+     "start": 12.887,
+     "end": 13.096
+    },
+    {
+     "word": "you",
+     "start": 13.142,
+     "end": 13.235
+    },
+    {
+     "word": "angry.",
+     "start": 13.317,
+     "end": 14.025
+    }
+   ]
+  }
+ }
+}

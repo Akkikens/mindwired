@@ -1,0 +1,130 @@
+{
+  "slug": "var5",
+  "title": "The 5 Most Controversial VAR Decisions in World Cup History",
+  "host": "rio",
+  "channel": "kickoffdaily90",
+  "scenes": [
+    {
+      "id": "hook", "kind": "hook", "board": true, "start": 0, "end": 8,
+      "voiceover": "A World Cup final decided by a screen. A nation eliminated after a seven-minute review. These are the five most controversial VAR decisions in World Cup history — and number one still starts arguments today.",
+      "mainText": "5 VAR CALLS THAT BROKE FOOTBALL",
+      "emphasis": ["BROKE"],
+      "kicker": "RANKED — WORST LAST",
+      "visualConcept": "countdown tease",
+      "emotionalTone": "shock", "transitionOut": "whip"
+    },
+    {
+      "id": "n5", "kind": "problem", "board": true, "start": 8, "end": 18,
+      "voiceover": "Number five. Kazan, 2018. France versus Australia — and the first VAR-overturned penalty in World Cup history. The referee waved play on, then walked to a screen and changed his mind.",
+      "mainText": "⑤ THE FIRST ONE EVER",
+      "emphasis": ["FIRST"],
+      "kicker": "FRANCE vs AUSTRALIA — 2018",
+      "visualConcept": "countdown card",
+      "emotionalTone": "curiosity", "transitionOut": "cut"
+    },
+    {
+      "id": "n5b", "kind": "comparison", "board": true, "start": 18, "end": 27,
+      "voiceover": "Replays showed minimal contact on Griezmann. He converted anyway, France won two-one, Australia went home bottom of the group — and the soft-penalty era of VAR was born.",
+      "mainText": "THE SOFT-PENALTY ERA WAS BORN",
+      "emphasis": ["SOFT-PENALTY"],
+      "kicker": "GRIEZMANN 58' — FRANCE 2-1",
+      "visualConcept": "fallout board",
+      "compare": { "left": "CONTACT: MINIMAL", "right": "DECISION: PENALTY" },
+      "emotionalTone": "confidence", "transitionOut": "whip"
+    },
+    {
+      "id": "n4", "kind": "problem", "board": true, "start": 27, "end": 37,
+      "voiceover": "Number four. Qatar, 2022. Argentina versus Saudi Arabia. THREE first-half Argentina goals disallowed — Messi once, Lautaro Martínez twice — by the new semi-automated offside system, some by the width of a shoulder.",
+      "mainText": "④ THREE GOALS — ERASED",
+      "emphasis": ["ERASED"],
+      "kicker": "ARGENTINA vs SAUDI — 2022",
+      "visualConcept": "countdown card",
+      "emotionalTone": "shock", "transitionOut": "cut"
+    },
+    {
+      "id": "n4b", "kind": "shockfact", "board": true, "start": 37, "end": 47,
+      "voiceover": "Twenty-nine tracking points per player. A sensor in the ball pinging five hundred times a second. Goals erased by margins no human eye can see — and Saudi Arabia pulled off one of the biggest upsets ever, two-one.",
+      "mainText": "OFFSIDE BY AN ARMPIT",
+      "emphasis": ["ARMPIT"],
+      "kicker": "SAUDI ARABIA 2-1 — THE UPSET",
+      "visualConcept": "forensic tech slam",
+      "emotionalTone": "awe", "transitionOut": "whip"
+    },
+    {
+      "id": "n3", "kind": "problem", "board": true, "start": 47, "end": 57,
+      "voiceover": "Number three. The Mitoma millimeters. Japan versus Spain, 2022. Every TV angle showed the ball out of play before Japan's winner. You could see grass between the ball and the line.",
+      "mainText": "③ THE MITOMA MILLIMETERS",
+      "emphasis": ["MILLIMETERS"],
+      "kicker": "JAPAN vs SPAIN — 2022",
+      "visualConcept": "countdown card",
+      "emotionalTone": "curiosity", "transitionOut": "cut"
+    },
+    {
+      "id": "n3b", "kind": "shockfact", "board": true, "start": 57, "end": 67,
+      "voiceover": "But viewed from directly above, the ball's curve hadn't fully crossed. The goal stood. Japan won the group — and GERMANY, who won their own game that night, were eliminated. FIFA didn't release the proof photo for eighteen hours.",
+      "mainText": "GERMANY WENT HOME OVER A CURVE",
+      "emphasis": ["GERMANY"],
+      "kicker": "PROOF RELEASED 18 HOURS LATER",
+      "visualConcept": "physics slam",
+      "emotionalTone": "shock", "transitionOut": "whip"
+    },
+    {
+      "id": "n2", "kind": "problem", "board": true, "start": 67, "end": 77,
+      "voiceover": "Number two — this tournament. Belgium versus Senegal. Two-two, the very end of extra time... and a SEVEN minute VAR review. Seven. Then a penalty.",
+      "mainText": "② THE 7-MINUTE REVIEW",
+      "emphasis": ["7-MINUTE"],
+      "kicker": "BELGIUM vs SENEGAL — 2026",
+      "visualConcept": "countdown card",
+      "emotionalTone": "fear", "transitionOut": "cut"
+    },
+    {
+      "id": "n2b", "kind": "shockfact", "board": true, "start": 77, "end": 87,
+      "voiceover": "Tielemans scored it at one hundred twenty-four minutes, forty-four seconds — the latest goal in World Cup history. Senegal, eliminated by the last kick of a review analysts said should never have happened.",
+      "mainText": "ELIMINATED AT 124:44",
+      "emphasis": ["124:44"],
+      "kicker": "\"THEY'RE STEALING SENEGAL'S WORLD CUP\"",
+      "visualConcept": "record heartbreak slam",
+      "emotionalTone": "shock", "transitionOut": "whip"
+    },
+    {
+      "id": "n1", "kind": "problem", "board": true, "start": 87, "end": 97,
+      "voiceover": "And number one. Moscow. The 2018 FINAL. France one, Croatia one — and Griezmann's corner brushes Perisic's hand. The referee says nothing. Then VAR calls him to the screen.",
+      "mainText": "① A FINAL DECIDED BY A SCREEN",
+      "emphasis": ["FINAL"],
+      "kicker": "FRANCE vs CROATIA — 2018 FINAL",
+      "visualConcept": "countdown card climax",
+      "emotionalTone": "fear", "transitionOut": "cut"
+    },
+    {
+      "id": "n1b", "kind": "quote", "board": true, "start": 97, "end": 108,
+      "voiceover": "Penalty. Griezmann scores. Croatia never recover, France win four-two. Roy Keane said the decision quote, disgusts me. Modric said you cannot give that in a final. It is still the only World Cup final swung by a VAR call.",
+      "mainText": "\"THAT DECISION DISGUSTS ME\" — KEANE",
+      "emphasis": ["DISGUSTS"],
+      "kicker": "THE ONLY FINAL VAR EVER DECIDED",
+      "visualConcept": "pull-quote climax",
+      "emotionalTone": "shock", "transitionOut": "flash"
+    },
+    {
+      "id": "through", "kind": "problem", "board": true, "start": 108, "end": 118,
+      "voiceover": "Notice the pattern. 2018 gave VAR its power. 2022 made it forensic — millimeters and armpits. And 2026 made the process itself the scandal. The technology got more accurate... and the arguments got worse.",
+      "mainText": "MORE ACCURATE. MORE HATED.",
+      "emphasis": ["HATED."],
+      "kicker": "THE VAR PARADOX",
+      "visualConcept": "throughline board",
+      "emotionalTone": "awe", "transitionOut": "cut"
+    },
+    {
+      "id": "cta", "kind": "cta", "board": true, "start": 118, "end": 126,
+      "voiceover": "With the quarterfinals starting July ninth, VAR will decide someone's World Cup again — probably this week. Subscribe so you get the breakdown when it happens, and tell me which call still makes you angry.",
+      "mainText": "WHICH CALL STILL HAUNTS YOU? 👇",
+      "emphasis": ["HAUNTS"],
+      "kicker": "QF BREAKDOWNS ALL WEEK",
+      "visualConcept": "cta",
+      "emotionalTone": "excitement", "transitionOut": "none"
+    }
+  ],
+  "shortCuts": [
+    { "id": "finalvar", "title": "The only World Cup final decided by VAR", "scenes": ["n1", "n1b", "cta"] },
+    { "id": "saudivar", "title": "Argentina had 3 goals erased by armpit offsides", "scenes": ["n4", "n4b", "cta"] }
+  ]
+}

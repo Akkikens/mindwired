@@ -37,6 +37,12 @@ import moroccomarchPlanJson from "./viral/plans/moroccomarch.json";
 import moroccomarchManifestJson from "../public/shorts/moroccomarch/audio/manifest.json";
 import haalandbrazilPlanJson from "./viral/plans/haalandbrazil.json";
 import haalandbrazilManifestJson from "../public/shorts/haalandbrazil/audio/manifest.json";
+import darkhorsePlanJson from "./viral/plans/darkhorse.json";
+import darkhorseManifestJson from "../public/shorts/darkhorse/audio/manifest.json";
+import darkhorseCutsJson from "./viral/plans/darkhorse.shorts.json";
+import var5PlanJson from "./viral/plans/var5.json";
+import var5ManifestJson from "../public/shorts/var5/audio/manifest.json";
+import var5CutsJson from "./viral/plans/var5.shorts.json";
 
 const roguebhPlan = roguebhPlanJson as unknown as VisualPlan;
 const roguebhManifest = roguebhManifestJson as unknown as ShortManifest;
@@ -49,6 +55,13 @@ const worldcupCuts = worldcupCutsJson as unknown as Array<VisualPlan & { cutId: 
 const spacefactsPlan = spacefactsPlanJson as unknown as VisualPlan;
 const spacefactsManifest = spacefactsManifestJson as unknown as ShortManifest;
 const spacefactsCuts = spacefactsCutsJson as unknown as Array<VisualPlan & { cutId: string }>;
+
+const darkhorsePlan = darkhorsePlanJson as unknown as VisualPlan;
+const darkhorseManifest = darkhorseManifestJson as unknown as ShortManifest;
+const darkhorseCuts = darkhorseCutsJson as unknown as Array<VisualPlan & { cutId: string }>;
+const var5Plan = var5PlanJson as unknown as VisualPlan;
+const var5Manifest = var5ManifestJson as unknown as ShortManifest;
+const var5Cuts = var5CutsJson as unknown as Array<VisualPlan & { cutId: string }>;
 
 // ── kickoffdaily90 hot-topic reaction shorts (standalone, board-only) ──
 const HOT_SHORTS: Array<{ id: string; plan: VisualPlan; manifest: ShortManifest }> = [
@@ -135,6 +148,50 @@ export const RemotionRoot: React.FC = () => {
           component={ViralShort}
           defaultProps={{ plan: cut, manifest: worldcupManifest }}
           durationInFrames={viralShortFrames(cut, worldcupManifest)}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+      ))}
+      {/* ── VAR top-5: 16:9 mid-form + 2 vertical cuts ── */}
+      <Composition
+        id="Var5Wide"
+        component={ViralShort}
+        defaultProps={{ plan: var5Plan, manifest: var5Manifest }}
+        durationInFrames={viralShortFrames(var5Plan, var5Manifest)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      {var5Cuts.map((cut) => (
+        <Composition
+          key={cut.cutId}
+          id={`ShortWC-${cut.cutId}`}
+          component={ViralShort}
+          defaultProps={{ plan: cut, manifest: var5Manifest }}
+          durationInFrames={viralShortFrames(cut, var5Manifest)}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+      ))}
+      {/* ── Dark horse analysis: 16:9 mid-form + 2 vertical cuts ── */}
+      <Composition
+        id="DarkHorseWide"
+        component={ViralShort}
+        defaultProps={{ plan: darkhorsePlan, manifest: darkhorseManifest }}
+        durationInFrames={viralShortFrames(darkhorsePlan, darkhorseManifest)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      {darkhorseCuts.map((cut) => (
+        <Composition
+          key={cut.cutId}
+          id={`ShortWC-${cut.cutId}`}
+          component={ViralShort}
+          defaultProps={{ plan: cut, manifest: darkhorseManifest }}
+          durationInFrames={viralShortFrames(cut, darkhorseManifest)}
           fps={30}
           width={1080}
           height={1920}

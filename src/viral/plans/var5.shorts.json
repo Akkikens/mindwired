@@ -1,0 +1,116 @@
+[
+  {
+    "slug": "var5",
+    "cutId": "finalvar",
+    "title": "The only World Cup final decided by VAR",
+    "host": "rio",
+    "channel": "kickoffdaily90",
+    "scenes": [
+      {
+        "id": "n1",
+        "kind": "hook",
+        "board": true,
+        "start": 87,
+        "end": 97,
+        "voiceover": "And number one. Moscow. The 2018 FINAL. France one, Croatia one — and Griezmann's corner brushes Perisic's hand. The referee says nothing. Then VAR calls him to the screen.",
+        "mainText": "① A FINAL DECIDED BY A SCREEN",
+        "emphasis": [
+          "FINAL"
+        ],
+        "kicker": "FRANCE vs CROATIA — 2018 FINAL",
+        "visualConcept": "countdown card climax",
+        "emotionalTone": "fear",
+        "transitionOut": "cut"
+      },
+      {
+        "id": "n1b",
+        "kind": "quote",
+        "board": true,
+        "start": 97,
+        "end": 108,
+        "voiceover": "Penalty. Griezmann scores. Croatia never recover, France win four-two. Roy Keane said the decision quote, disgusts me. Modric said you cannot give that in a final. It is still the only World Cup final swung by a VAR call.",
+        "mainText": "\"THAT DECISION DISGUSTS ME\" — KEANE",
+        "emphasis": [
+          "DISGUSTS"
+        ],
+        "kicker": "THE ONLY FINAL VAR EVER DECIDED",
+        "visualConcept": "pull-quote climax",
+        "emotionalTone": "shock",
+        "transitionOut": "flash"
+      },
+      {
+        "id": "cta",
+        "kind": "cta",
+        "board": true,
+        "start": 118,
+        "end": 126,
+        "voiceover": "With the quarterfinals starting July ninth, VAR will decide someone's World Cup again — probably this week. Subscribe so you get the breakdown when it happens, and tell me which call still makes you angry.",
+        "mainText": "WHICH CALL STILL HAUNTS YOU? 👇",
+        "emphasis": [
+          "HAUNTS"
+        ],
+        "kicker": "QF BREAKDOWNS ALL WEEK",
+        "visualConcept": "cta",
+        "emotionalTone": "excitement",
+        "transitionOut": "none"
+      }
+    ]
+  },
+  {
+    "slug": "var5",
+    "cutId": "saudivar",
+    "title": "Argentina had 3 goals erased by armpit offsides",
+    "host": "rio",
+    "channel": "kickoffdaily90",
+    "scenes": [
+      {
+        "id": "n4",
+        "kind": "hook",
+        "board": true,
+        "start": 27,
+        "end": 37,
+        "voiceover": "Number four. Qatar, 2022. Argentina versus Saudi Arabia. THREE first-half Argentina goals disallowed — Messi once, Lautaro Martínez twice — by the new semi-automated offside system, some by the width of a shoulder.",
+        "mainText": "④ THREE GOALS — ERASED",
+        "emphasis": [
+          "ERASED"
+        ],
+        "kicker": "ARGENTINA vs SAUDI — 2022",
+        "visualConcept": "countdown card",
+        "emotionalTone": "shock",
+        "transitionOut": "cut"
+      },
+      {
+        "id": "n4b",
+        "kind": "shockfact",
+        "board": true,
+        "start": 37,
+        "end": 47,
+        "voiceover": "Twenty-nine tracking points per player. A sensor in the ball pinging five hundred times a second. Goals erased by margins no human eye can see — and Saudi Arabia pulled off one of the biggest upsets ever, two-one.",
+        "mainText": "OFFSIDE BY AN ARMPIT",
+        "emphasis": [
+          "ARMPIT"
+        ],
+        "kicker": "SAUDI ARABIA 2-1 — THE UPSET",
+        "visualConcept": "forensic tech slam",
+        "emotionalTone": "awe",
+        "transitionOut": "whip"
+      },
+      {
+        "id": "cta",
+        "kind": "cta",
+        "board": true,
+        "start": 118,
+        "end": 126,
+        "voiceover": "With the quarterfinals starting July ninth, VAR will decide someone's World Cup again — probably this week. Subscribe so you get the breakdown when it happens, and tell me which call still makes you angry.",
+        "mainText": "WHICH CALL STILL HAUNTS YOU? 👇",
+        "emphasis": [
+          "HAUNTS"
+        ],
+        "kicker": "QF BREAKDOWNS ALL WEEK",
+        "visualConcept": "cta",
+        "emotionalTone": "excitement",
+        "transitionOut": "none"
+      }
+    ]
+  }
+]

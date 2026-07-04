@@ -1,0 +1,113 @@
+{
+  "slug": "darkhorse",
+  "title": "Which Dark Horse Has the Easiest Path to the Semifinal? (It Just Changed)",
+  "host": "rio",
+  "channel": "kickoffdaily90",
+  "scenes": [
+    {
+      "id": "hook", "kind": "hook", "board": true, "start": 0, "end": 8,
+      "voiceover": "Everyone is staring at Messi and Ronaldo. Meanwhile, one dark horse just got handed a real path to a World Cup semifinal — and tonight's results changed everything.",
+      "mainText": "THE DARK HORSE PATH JUST CHANGED",
+      "emphasis": ["DARK HORSE"],
+      "kicker": "TONIGHT CHANGED EVERYTHING",
+      "visualConcept": "bracket tease",
+      "emotionalTone": "curiosity", "transitionOut": "whip"
+    },
+    {
+      "id": "today", "kind": "comparison", "board": true, "start": 8, "end": 18,
+      "voiceover": "Today: Morocco demolished co-hosts Canada three-nil, and France needed a Mbappé penalty to survive ninety minutes of Paraguay's wall. One-nil. The quarterfinal is set.",
+      "mainText": "MOROCCO CRUISED. FRANCE SURVIVED.",
+      "emphasis": ["SURVIVED."],
+      "kicker": "JULY 4 RESULTS",
+      "visualConcept": "double result board",
+      "compare": { "left": "MOROCCO 3-0", "right": "FRANCE 1-0" },
+      "emotionalTone": "confidence", "transitionOut": "cut"
+    },
+    {
+      "id": "c1", "kind": "problem", "board": true, "start": 18, "end": 27,
+      "voiceover": "Dark horse number one: Morocco. The 2022 semifinalists are doing it again — Ounahi ran the game today, Hakimi is the best right back in the tournament, and they've conceded once in five matches.",
+      "mainText": "① MOROCCO — THE PROVEN ONE",
+      "emphasis": ["MOROCCO"],
+      "kicker": "2022 SEMIFINALISTS",
+      "visualConcept": "contender card",
+      "emotionalTone": "confidence", "transitionOut": "cut"
+    },
+    {
+      "id": "c1path", "kind": "shockfact", "board": true, "start": 27, "end": 37,
+      "voiceover": "But tonight, the wall moved. Their quarterfinal is France — July ninth, Boston. A rematch of the 2022 semifinal France won. Beat them, and Morocco are ONE game from the final four.",
+      "mainText": "MOROCCO vs FRANCE — THE REMATCH",
+      "emphasis": ["FRANCE"],
+      "kicker": "JULY 9 — 2022 SEMI, ROUND 2",
+      "visualConcept": "revenge matchup slam",
+      "emotionalTone": "shock", "transitionOut": "whip"
+    },
+    {
+      "id": "c2", "kind": "problem", "board": true, "start": 37, "end": 46,
+      "voiceover": "Dark horse number two: Colombia. The quietest machine in the bracket. They held Ghana to ZERO shots on target — nobody else has done that to anyone this tournament.",
+      "mainText": "② COLOMBIA — THE MACHINE",
+      "emphasis": ["COLOMBIA"],
+      "kicker": "0 SHOTS ON TARGET ALLOWED",
+      "visualConcept": "contender card",
+      "emotionalTone": "confidence", "transitionOut": "cut"
+    },
+    {
+      "id": "c2path", "kind": "comparison", "board": true, "start": 46, "end": 56,
+      "voiceover": "Their next game is Switzerland — winnable. But win it, and the quarterfinal is almost certainly Messi's Argentina in Kansas City. The machine meets the GOAT.",
+      "mainText": "THE MACHINE MEETS THE GOAT",
+      "emphasis": ["GOAT"],
+      "kicker": "QF: LIKELY ARGENTINA",
+      "visualConcept": "path board",
+      "compare": { "left": "SWITZERLAND ✓?", "right": "THEN... MESSI" },
+      "emotionalTone": "fear", "transitionOut": "cut"
+    },
+    {
+      "id": "c3", "kind": "problem", "board": true, "start": 56, "end": 66,
+      "voiceover": "Dark horse number three: Egypt. They just won their first World Cup knockout game in history — Salah sealed it with a Panenka. But their reward is the cruelest draw in the bracket.",
+      "mainText": "③ EGYPT — THE STORY",
+      "emphasis": ["EGYPT"],
+      "kicker": "FIRST KO WIN EVER + THE PANENKA",
+      "visualConcept": "contender card",
+      "emotionalTone": "excitement", "transitionOut": "cut"
+    },
+    {
+      "id": "c3path", "kind": "shockfact", "board": true, "start": 66, "end": 75,
+      "voiceover": "Because before Egypt can dream of a semifinal, they have to go through Messi. Tuesday. Noon. Atlanta. The hardest single game any dark horse got handed.",
+      "mainText": "EGYPT'S PATH STARTS WITH MESSI",
+      "emphasis": ["MESSI"],
+      "kicker": "TUESDAY 12PM — ATLANTA",
+      "visualConcept": "brutal draw slam",
+      "emotionalTone": "fear", "transitionOut": "whip"
+    },
+    {
+      "id": "twist", "kind": "problem", "board": true, "start": 75, "end": 85,
+      "voiceover": "And here's the pattern nobody's saying out loud: every bottom-half dark horse path runs through Argentina. The top half? It runs through France, then the Portugal-Spain winner. There are no free rides left.",
+      "mainText": "EVERY PATH RUNS THROUGH A GIANT",
+      "emphasis": ["GIANT"],
+      "kicker": "NO FREE RIDES LEFT",
+      "visualConcept": "bracket truth board",
+      "emotionalTone": "awe", "transitionOut": "cut"
+    },
+    {
+      "id": "verdict", "kind": "quote", "board": true, "start": 85, "end": 95,
+      "voiceover": "So who's got the easiest path? Honestly — Morocco. Two wins from the semifinal, the only dark horse who's actually lived this stage before... but one of those two wins has to be France. Easiest path in this bracket just means hardest dream with the fewest steps.",
+      "mainText": "\"EASIEST\" = FEWEST STEPS, NOT EASY",
+      "emphasis": ["FEWEST STEPS"],
+      "kicker": "VERDICT: MOROCCO",
+      "visualConcept": "verdict card",
+      "emotionalTone": "confidence", "transitionOut": "cut"
+    },
+    {
+      "id": "cta", "kind": "cta", "board": true, "start": 95, "end": 103,
+      "voiceover": "Morocco-France, July ninth. If the Atlas Lions do it again, you'll want the full breakdown the second it ends — subscribe, and drop your dark horse in the comments.",
+      "mainText": "WHO'S YOUR DARK HORSE? 👇",
+      "emphasis": ["DARK HORSE?"],
+      "kicker": "QF BREAKDOWNS ALL WEEK",
+      "visualConcept": "cta",
+      "emotionalTone": "excitement", "transitionOut": "none"
+    }
+  ],
+  "shortCuts": [
+    { "id": "moroccofrance", "title": "Morocco vs France QF is SET — the 2022 rematch", "scenes": ["c1", "c1path", "verdict", "cta"] },
+    { "id": "realdarkhorse", "title": "Every dark horse path runs through a giant", "scenes": ["c2", "c2path", "twist", "cta"] }
+  ]
+}

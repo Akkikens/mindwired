@@ -1,0 +1,152 @@
+[
+  {
+    "slug": "darkhorse",
+    "cutId": "moroccofrance",
+    "title": "Morocco vs France QF is SET — the 2022 rematch",
+    "host": "rio",
+    "channel": "kickoffdaily90",
+    "scenes": [
+      {
+        "id": "c1",
+        "kind": "hook",
+        "board": true,
+        "start": 18,
+        "end": 27,
+        "voiceover": "Dark horse number one: Morocco. The 2022 semifinalists are doing it again — Ounahi ran the game today, Hakimi is the best right back in the tournament, and they've conceded once in five matches.",
+        "mainText": "① MOROCCO — THE PROVEN ONE",
+        "emphasis": [
+          "MOROCCO"
+        ],
+        "kicker": "2022 SEMIFINALISTS",
+        "visualConcept": "contender card",
+        "emotionalTone": "confidence",
+        "transitionOut": "cut"
+      },
+      {
+        "id": "c1path",
+        "kind": "shockfact",
+        "board": true,
+        "start": 27,
+        "end": 37,
+        "voiceover": "But tonight, the wall moved. Their quarterfinal is France — July ninth, Boston. A rematch of the 2022 semifinal France won. Beat them, and Morocco are ONE game from the final four.",
+        "mainText": "MOROCCO vs FRANCE — THE REMATCH",
+        "emphasis": [
+          "FRANCE"
+        ],
+        "kicker": "JULY 9 — 2022 SEMI, ROUND 2",
+        "visualConcept": "revenge matchup slam",
+        "emotionalTone": "shock",
+        "transitionOut": "whip"
+      },
+      {
+        "id": "verdict",
+        "kind": "quote",
+        "board": true,
+        "start": 85,
+        "end": 95,
+        "voiceover": "So who's got the easiest path? Honestly — Morocco. Two wins from the semifinal, the only dark horse who's actually lived this stage before... but one of those two wins has to be France. Easiest path in this bracket just means hardest dream with the fewest steps.",
+        "mainText": "\"EASIEST\" = FEWEST STEPS, NOT EASY",
+        "emphasis": [
+          "FEWEST STEPS"
+        ],
+        "kicker": "VERDICT: MOROCCO",
+        "visualConcept": "verdict card",
+        "emotionalTone": "confidence",
+        "transitionOut": "cut"
+      },
+      {
+        "id": "cta",
+        "kind": "cta",
+        "board": true,
+        "start": 95,
+        "end": 103,
+        "voiceover": "Morocco-France, July ninth. If the Atlas Lions do it again, you'll want the full breakdown the second it ends — subscribe, and drop your dark horse in the comments.",
+        "mainText": "WHO'S YOUR DARK HORSE? 👇",
+        "emphasis": [
+          "DARK HORSE?"
+        ],
+        "kicker": "QF BREAKDOWNS ALL WEEK",
+        "visualConcept": "cta",
+        "emotionalTone": "excitement",
+        "transitionOut": "none"
+      }
+    ]
+  },
+  {
+    "slug": "darkhorse",
+    "cutId": "realdarkhorse",
+    "title": "Every dark horse path runs through a giant",
+    "host": "rio",
+    "channel": "kickoffdaily90",
+    "scenes": [
+      {
+        "id": "c2",
+        "kind": "hook",
+        "board": true,
+        "start": 37,
+        "end": 46,
+        "voiceover": "Dark horse number two: Colombia. The quietest machine in the bracket. They held Ghana to ZERO shots on target — nobody else has done that to anyone this tournament.",
+        "mainText": "② COLOMBIA — THE MACHINE",
+        "emphasis": [
+          "COLOMBIA"
+        ],
+        "kicker": "0 SHOTS ON TARGET ALLOWED",
+        "visualConcept": "contender card",
+        "emotionalTone": "confidence",
+        "transitionOut": "cut"
+      },
+      {
+        "id": "c2path",
+        "kind": "comparison",
+        "board": true,
+        "start": 46,
+        "end": 56,
+        "voiceover": "Their next game is Switzerland — winnable. But win it, and the quarterfinal is almost certainly Messi's Argentina in Kansas City. The machine meets the GOAT.",
+        "mainText": "THE MACHINE MEETS THE GOAT",
+        "emphasis": [
+          "GOAT"
+        ],
+        "kicker": "QF: LIKELY ARGENTINA",
+        "visualConcept": "path board",
+        "compare": {
+          "left": "SWITZERLAND ✓?",
+          "right": "THEN... MESSI"
+        },
+        "emotionalTone": "fear",
+        "transitionOut": "cut"
+      },
+      {
+        "id": "twist",
+        "kind": "problem",
+        "board": true,
+        "start": 75,
+        "end": 85,
+        "voiceover": "And here's the pattern nobody's saying out loud: every bottom-half dark horse path runs through Argentina. The top half? It runs through France, then the Portugal-Spain winner. There are no free rides left.",
+        "mainText": "EVERY PATH RUNS THROUGH A GIANT",
+        "emphasis": [
+          "GIANT"
+        ],
+        "kicker": "NO FREE RIDES LEFT",
+        "visualConcept": "bracket truth board",
+        "emotionalTone": "awe",
+        "transitionOut": "cut"
+      },
+      {
+        "id": "cta",
+        "kind": "cta",
+        "board": true,
+        "start": 95,
+        "end": 103,
+        "voiceover": "Morocco-France, July ninth. If the Atlas Lions do it again, you'll want the full breakdown the second it ends — subscribe, and drop your dark horse in the comments.",
+        "mainText": "WHO'S YOUR DARK HORSE? 👇",
+        "emphasis": [
+          "DARK HORSE?"
+        ],
+        "kicker": "QF BREAKDOWNS ALL WEEK",
+        "visualConcept": "cta",
+        "emotionalTone": "excitement",
+        "transitionOut": "none"
+      }
+    ]
+  }
+]
