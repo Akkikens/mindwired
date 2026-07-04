@@ -28,6 +28,16 @@ See `src/viral/README.md` for full docs. Summary: plan JSON in `src/viral/plans/
 `npx remotion render Short<Name> out/<name>.mp4` (no --gl flag). Pacing knobs:
 `HOLD` / `LEAD` in `src/viral/lib/plan.ts`. Tone→motion grammar: `src/viral/lib/tone.ts`.
 
+**AI avatar hosts (all niches):** see `HOSTS.md`. Registry `src/viral/hosts.json`
+(orion=space, sterling=finance, rio=football, vex=gaming; melody=singaloo kids).
+Plan field `"host": "<id>"` → host mode; `"board": true` scenes render kinetic
+graphics instead of the face. Lip-sync: `lipsync/batch.py <slug> --only <ids>`
+(Sonic on Replicate — only lip-sync chapter leads, the still covers the rest).
+Master plans with `"shortCuts"` → `scripts/cut_shorts.py <slug>` derives vertical
+Shorts from the same audio/clips (register `<slug>.shorts.json` comps in Root).
+Host images: Gemini (identity via --ref) → Real-ESRGAN 4x → Sonic. Never Flux,
+never GFPGAN face_enhance.
+
 ### 3. Hand-built episodes — this repo
 One-off cinematic comps (orbit, attractor, gtavi, scariest). Shared primitives in
 `src/components` (kinetic.tsx, Captions.tsx, Camera.tsx, effects.tsx) and `src/lib`

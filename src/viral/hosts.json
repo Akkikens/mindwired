@@ -1,0 +1,38 @@
+{
+  "orion": {
+    "name": "Orion",
+    "niche": "space & science documentaries",
+    "image": "host/orion_v4c_4k.png",
+    "sourceImage": "host/orion_v4c.png",
+    "elevenVoice": "George",
+    "voiceDescription": "A deep, cinematic male documentary narrator for a space channel. Rich, resonant, modern — like a prestige Netflix science doc.",
+    "dynamicScale": 1.0
+  },
+  "sterling": {
+    "name": "Sterling",
+    "niche": "finance & money explainers",
+    "image": "host/sterling_4k.png",
+    "sourceImage": "host/sterling.png",
+    "elevenVoice": "Adam",
+    "voiceDescription": "A sharp, assured male finance analyst. Precise, confident, measured — the calm authority of a prime-time markets desk, never salesy.",
+    "dynamicScale": 1.0
+  },
+  "rio": {
+    "name": "Rio",
+    "niche": "football & World Cup analysis",
+    "image": "host/rio_4k.png",
+    "sourceImage": "host/rio.png",
+    "elevenVoice": "Daniel",
+    "voiceDescription": "A charismatic British football pundit. Warm, quick, passionate — matchday-studio energy with big-moment emphasis.",
+    "dynamicScale": 1.1
+  },
+  "vex": {
+    "name": "Vex",
+    "niche": "gaming, GTA VI & tech",
+    "image": "host/vex_4k.png",
+    "sourceImage": "host/vex.png",
+    "elevenVoice": "Brian",
+    "voiceDescription": "A quick, hyped male gaming commentator. Internet-native, playful, punchy — leans into reveals like a launch-night stream.",
+    "dynamicScale": 1.1
+  }
+}

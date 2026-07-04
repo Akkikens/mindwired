@@ -5,7 +5,7 @@ import { PlanScene, ShortManifest, TimedScene, TimedWord, VisualPlan } from "./t
 
 export const FPS = 30;
 /** breathing room after the voice stops, before the cut (frames) */
-const HOLD = 14;
+export const HOLD = 14;
 /** visual lead-in before the voice starts: longer on scene 1 so the video
  *  opens with a beat of motion instead of a cold slam */
 const LEAD_FIRST = 14;

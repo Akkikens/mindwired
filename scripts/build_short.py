@@ -35,6 +35,18 @@ BASE_VOICE = ("A deep, cinematic male documentary narrator for a space channel. 
               "Rich, resonant, modern — like a prestige Netflix science doc.")
 
 
+def host_voice(plan) -> tuple[str, str | None]:
+    """(hume_voice_description, eleven_voice_name) for the plan's host —
+    each registry host (src/viral/hosts.json) narrates in its own voice."""
+    host = plan.get("host")
+    if host and "/" not in host:
+        reg_path = REPO / "src" / "viral" / "hosts.json"
+        entry = json.loads(reg_path.read_text()).get(host) if reg_path.exists() else None
+        if entry:
+            return entry.get("voiceDescription", BASE_VOICE), entry.get("elevenVoice")
+    return BASE_VOICE, None
+
+
 def ffprobe_dur(p: Path) -> float:
     out = subprocess.run(
         ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(p)],
@@ -69,6 +81,7 @@ def main():
     man_path = outdir / "manifest.json"
     manifest = json.loads(man_path.read_text()) if man_path.exists() else {"clips": {}}
 
+    base_voice, eleven_voice = host_voice(plan)
     hume_ctx = None  # chain generation ids so every scene keeps ONE voice
     for sc in plan["scenes"]:
         cid, text, tone = sc["id"], sc["voiceover"], sc.get("emotionalTone", "confidence")
@@ -79,7 +92,7 @@ def main():
             continue
 
         audio, words, engine = None, None, None
-        direction = f"{BASE_VOICE} {TONE_DIRECTION.get(tone, '')}"
+        direction = f"{base_voice} {TONE_DIRECTION.get(tone, '')}"
 
         if pref == "hume":
             try:
@@ -91,7 +104,7 @@ def main():
         if audio is None:
             try:
                 import eleven
-                audio, words = eleven.tts_aligned(text)
+                audio, words = eleven.tts_aligned(text, voice=eleven_voice)
                 engine = "eleven"
             except Exception as e:
                 print(f"  [eleven failed too: {e}] → silent estimate")

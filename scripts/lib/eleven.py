@@ -116,22 +116,25 @@ def _split_multipart(ct: str, body: bytes):
 
 # ── voices ──────────────────────────────────────────────────────────────────
 
-_voice_cache: tuple[str, str] | None = None
+_voice_cache: dict[str, tuple[str, str]] = {}
 
 
-def pick_voice() -> tuple[str, str]:
-    global _voice_cache
-    if _voice_cache:
-        return _voice_cache
+def pick_voice(preferred: str | None = None) -> tuple[str, str]:
+    """Resolve a voice by name; falls back through VOICE_PREFS. `preferred`
+    lets a host pin its own voice (src/viral/hosts.json elevenVoice)."""
+    cache_key = preferred or ""
+    if cache_key in _voice_cache:
+        return _voice_cache[cache_key]
     _, _, body = _json_req("/voices")
     voices = json.loads(body).get("voices", [])
-    for p in VOICE_PREFS:
+    prefs = ([preferred] if preferred else []) + VOICE_PREFS
+    for p in prefs:
         for v in voices:
             if v["name"].lower().startswith(p.lower()):
-                _voice_cache = (v["voice_id"], v["name"])
-                return _voice_cache
-    _voice_cache = (voices[0]["voice_id"], voices[0]["name"])
-    return _voice_cache
+                _voice_cache[cache_key] = (v["voice_id"], v["name"])
+                return _voice_cache[cache_key]
+    _voice_cache[cache_key] = (voices[0]["voice_id"], voices[0]["name"])
+    return _voice_cache[cache_key]
 
 
 # ── core calls ────────────────────────────────────────────────────────────────
@@ -206,9 +209,9 @@ def _words_from_char_alignment(align):
     return out
 
 
-def tts_aligned(text: str):
+def tts_aligned(text: str, voice: str | None = None):
     """Spoken VO with word timestamps. Returns (mp3_bytes, words[])."""
-    vid, _ = pick_voice()
+    vid, _ = pick_voice(voice)
     st, ct, body = _json_req(f"/text-to-speech/{vid}/with-timestamps",
                              {"text": text, "model_id": TTS_MODEL,
                               "voice_settings": TTS_SETTINGS})

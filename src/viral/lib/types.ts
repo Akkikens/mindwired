@@ -37,6 +37,13 @@ export interface PlanScene {
   backgroundPrompt?: string;
   /** set true by scripts/gen_broll.py once public/shorts/<slug>/broll/<id>.jpg exists */
   brollExists?: boolean;
+  /** set true by lipsync/batch.py once public/shorts/<slug>/host/<id>.mp4 exists —
+   *  the engine then plays the talking-head clip instead of the still */
+  hostClipExists?: boolean;
+  /** host mode only: render this scene as a full kinetic scene (data slams,
+   *  comparisons, quotes — the "board") instead of captions over the host.
+   *  Alternate host ↔ board scenes to keep long host videos visually alive. */
+  board?: boolean;
   emotionalTone: EmotionalTone;
   transitionOut: TransitionKind;
   /** DataScene: value to count to + suffix ("100,000,000" → to=100000000).
@@ -52,8 +59,10 @@ export interface VisualPlan {
   /** optional looping music bed: drop the file in public/ and reference it here.
    *  bpm drives beat-synced camera pulse; volume defaults to 0.14 under the voice */
   music?: { src: string; bpm?: number; volume?: number };
-  /** optional host image (path under public/) — renders a face-fronted Short
-   *  with the host full-frame + Ken Burns instead of the procedural backdrop */
+  /** optional host — a registry id from src/viral/hosts.json ("orion",
+   *  "sterling", "rio", "vex") or a direct image path under public/. Renders a
+   *  face-fronted Short (talking-head clips when lip-synced, still + Ken Burns
+   *  otherwise) instead of the procedural backdrop */
   host?: string;
   scenes: PlanScene[];
 }

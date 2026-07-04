@@ -1,31 +1,57 @@
 import React from "react";
-import { AbsoluteFill, Audio, Img, interpolate, Sequence, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { AbsoluteFill, Audio, Img, interpolate, OffthreadVideo, Sequence, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { Backdrop } from "./components/Backdrop";
 import { CameraRig, FlashIn } from "./components/CameraRig";
 import { Brand, ProgressBar, SafeArea, VoicePulse } from "./components/HUD";
 import { KineticText, Kicker } from "./components/KineticText";
 import { SceneRouter } from "./scenes";
-import { buildTimeline, timelineFrames } from "./lib/plan";
+import { buildTimeline, HOLD, timelineFrames } from "./lib/plan";
+import { resolveHostImage } from "./lib/hosts";
 import { TONES } from "./lib/tone";
 import { ShortManifest, TimedScene, VisualPlan } from "./lib/types";
 
+/** How the host stays framed — shared by the still and the talking clips so the
+ *  overlay lands pixel-aligned on the underlying image. */
+const HOST_FIT: React.CSSProperties = { width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 18%" };
+
 /** Persistent host image with a slow continuous Ken Burns zoom + bottom scrim.
- *  Spans the whole video so it never restarts between scene cuts. */
-const HostLayer: React.FC<{ src: string; totalFrames: number; accent: string }> = ({ src, totalFrames, accent }) => {
-  const frame = useCurrentFrame();
-  const zoom = interpolate(frame, [0, totalFrames], [1.03, 1.13], { extrapolateRight: "clamp" });
-  const drift = interpolate(frame, [0, totalFrames], [0, -3], { extrapolateRight: "clamp" });
-  return (
-    <AbsoluteFill>
-      <AbsoluteFill style={{ transform: `scale(${zoom}) translateY(${drift}%)`, transformOrigin: "center 22%" }}>
-        <Img src={staticFile(src)} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 18%" }} />
+ *  Spans the whole video so it never restarts between scene cuts. When talking
+ *  clips overlay it (`frozen`), the zoom is locked so still/video never drift. */
+const HostLayer: React.FC<{ src: string; totalFrames: number; accent: string; frozen?: boolean }> =
+  ({ src, totalFrames, accent, frozen }) => {
+    const frame = useCurrentFrame();
+    const zoom = frozen ? 1 : interpolate(frame, [0, totalFrames], [1.03, 1.13], { extrapolateRight: "clamp" });
+    const drift = frozen ? 0 : interpolate(frame, [0, totalFrames], [0, -3], { extrapolateRight: "clamp" });
+    return (
+      <AbsoluteFill>
+        <AbsoluteFill style={{ transform: `scale(${zoom}) translateY(${drift}%)`, transformOrigin: "center 22%" }}>
+          <Img src={staticFile(src)} style={HOST_FIT} />
+        </AbsoluteFill>
       </AbsoluteFill>
-      {/* bottom scrim so captions read over the image; subtle top vignette */}
-      <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(3,4,10,0.35) 0%, transparent 22%, transparent 46%, rgba(3,4,10,0.72) 72%, rgba(3,4,10,0.95) 100%)" }} />
-      <AbsoluteFill style={{ boxShadow: `inset 0 0 240px 40px ${accent}18` }} />
+    );
+  };
+
+/** One lip-synced talking clip, muted (the scene's mp3 stays the audio source so
+ *  word-sync captions keep working). Fades out over its last frames so the hand-off
+ *  back to the still during the HOLD beat doesn't pop. */
+const HostTalkingClip: React.FC<{ src: string; durationInFrames: number }> = ({ src, durationInFrames }) => {
+  const frame = useCurrentFrame();
+  const opacity = interpolate(frame, [durationInFrames - 6, durationInFrames - 1], [1, 0],
+    { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  return (
+    <AbsoluteFill style={{ opacity }}>
+      <OffthreadVideo muted src={staticFile(src)} style={HOST_FIT} />
     </AbsoluteFill>
   );
 };
+
+/** Scrim + accent vignette above the host layers so captions stay readable. */
+const HostScrim: React.FC<{ accent: string }> = ({ accent }) => (
+  <>
+    <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(3,4,10,0.35) 0%, transparent 22%, transparent 46%, rgba(3,4,10,0.72) 72%, rgba(3,4,10,0.95) 100%)" }} />
+    <AbsoluteFill style={{ boxShadow: `inset 0 0 240px 40px ${accent}18` }} />
+  </>
+);
 
 /** Host mode: caption + kicker in the lower third + voice pulse, over the host layer. */
 const HostCaption: React.FC<{ s: TimedScene }> = ({ s }) => {
@@ -75,18 +101,40 @@ export const ViralShort: React.FC<{ plan: VisualPlan; manifest: ShortManifest | 
   const total = timelineFrames(scenes);
   const accent = TONES[scenes[0]?.emotionalTone ?? "curiosity"].accent;
 
-  // Host mode: one persistent face-fronted image + per-scene captions/audio.
+  // Host mode: one persistent face-fronted host + per-scene captions/audio.
+  // Scenes that have a lip-synced clip (hostClipExists) play the talking video
+  // during the voiced span; the still covers lead-ins, HOLD beats and any scene
+  // that was never lip-synced.
   if (plan.host) {
+    const hostImage = resolveHostImage(plan.host);
+    const anyTalking = scenes.some((s) => s.hostClipExists);
     return (
       <AbsoluteFill style={{ backgroundColor: "#03040A" }}>
-        <HostLayer src={plan.host} totalFrames={total} accent={accent} />
-        {scenes.map((s) => (
+        <HostLayer src={hostImage} totalFrames={total} accent={accent} frozen={anyTalking} />
+        {scenes.map((s) => {
+          const talkFrames = s.durationInFrames - s.audioDelay - HOLD;
+          return s.hostClipExists && talkFrames > 0 ? (
+            <Sequence key={`talk-${s.id}`} from={s.from + s.audioDelay} durationInFrames={talkFrames} name={`host:${s.id}`}>
+              <HostTalkingClip src={`shorts/${plan.slug}/host/${s.id}.mp4`} durationInFrames={talkFrames} />
+            </Sequence>
+          ) : null;
+        })}
+        <HostScrim accent={accent} />
+        {scenes.map((s, i) => (
           <Sequence key={s.id} from={s.from} durationInFrames={s.durationInFrames} name={`${s.kind}:${s.id}`}>
-            <HostCaption s={s} />
-            {s.audioSrc && (
-              <Sequence from={s.audioDelay}>
-                <Audio src={staticFile(s.audioSrc)} />
-              </Sequence>
+            {s.board ? (
+              // board scene: full kinetic scene (opaque backdrop covers the host)
+              <SceneShell s={s} prevOut={i > 0 ? scenes[i - 1].transitionOut : undefined}
+                slug={plan.slug} bpm={plan.music?.bpm} />
+            ) : (
+              <>
+                <HostCaption s={s} />
+                {s.audioSrc && (
+                  <Sequence from={s.audioDelay}>
+                    <Audio src={staticFile(s.audioSrc)} />
+                  </Sequence>
+                )}
+              </>
             )}
           </Sequence>
         ))}

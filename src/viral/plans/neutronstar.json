@@ -1,7 +1,7 @@
 {
   "slug": "neutronstar",
   "title": "A Teaspoon of This Weighs 4 Billion Tons",
-  "host": "host/orion.png",
+  "host": "orion",
   "scenes": [
     {
       "id": "hook",

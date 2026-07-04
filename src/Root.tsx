@@ -27,9 +27,17 @@ import betelgeusePlanJson from "./viral/plans/betelgeuse.json";
 import betelgeuseManifestJson from "../public/shorts/betelgeuse/audio/manifest.json";
 import neutronstarPlanJson from "./viral/plans/neutronstar.json";
 import neutronstarManifestJson from "../public/shorts/neutronstar/audio/manifest.json";
+import worldcupPlanJson from "./viral/plans/worldcupr16.json";
+import worldcupManifestJson from "../public/shorts/worldcupr16/audio/manifest.json";
+import worldcupCutsJson from "./viral/plans/worldcupr16.shorts.json";
 
 const roguebhPlan = roguebhPlanJson as unknown as VisualPlan;
 const roguebhManifest = roguebhManifestJson as unknown as ShortManifest;
+
+// ── World Cup host video: one master plan → 16:9 long-form + N vertical cuts ──
+const worldcupPlan = worldcupPlanJson as unknown as VisualPlan;
+const worldcupManifest = worldcupManifestJson as unknown as ShortManifest;
+const worldcupCuts = worldcupCutsJson as unknown as Array<VisualPlan & { cutId: string }>;
 
 const SHORTS: Array<{ id: string; plan: VisualPlan; manifest: ShortManifest }> = [
   { id: "ShortDarkForest", plan: darkforestPlanJson as unknown as VisualPlan, manifest: darkforestManifestJson as unknown as ShortManifest },
@@ -74,6 +82,29 @@ export const RemotionRoot: React.FC = () => {
           />
         </React.Fragment>
       ))}
+      {/* ── World Cup Round of 16 — Rio host long-form (16:9) + 10 vertical cuts ── */}
+      <Composition
+        id="WorldCupR16Wide"
+        component={ViralShort}
+        defaultProps={{ plan: worldcupPlan, manifest: worldcupManifest }}
+        durationInFrames={viralShortFrames(worldcupPlan, worldcupManifest)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      {worldcupCuts.map((cut) => (
+        <Composition
+          key={cut.cutId}
+          id={`ShortWC-${cut.cutId}`}
+          component={ViralShort}
+          defaultProps={{ plan: cut, manifest: worldcupManifest }}
+          durationInFrames={viralShortFrames(cut, worldcupManifest)}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+      ))}
+
       <Composition
         id="ShortRogueBHWide"
         component={ViralShort}

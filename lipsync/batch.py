@@ -1,56 +1,111 @@
 #!/usr/bin/env python3
-"""Lip-sync every scene clip of a viral-shorts plan against the host image, then
-stitch the talking clips end-to-end (with the same per-scene durations the
-Remotion timeline uses) into one talking-head mp4 — no Remotion needed for this cut.
+"""Lip-sync scene clips of a viral-shorts plan with the plan's host via Sonic
+(zf-kbot/sonic on Replicate), publish the talking clips where Remotion can see
+them, and flag each scene so the engine plays video instead of the still.
 
-Usage: python3 lipsync/batch.py <slug>   # e.g. neutronstar
-Reads:  src/viral/plans/<slug>.json (must have a "host" field), public/shorts/<slug>/audio/*.mp3
-Writes: lipsync/out/<slug>/<sceneId>.mp4 (per-scene) + lipsync/out/<slug>_full.mp4 (stitched)
+The host field is a registry id from src/viral/hosts.json ("orion", "rio", ...)
+or a legacy direct image path under public/.
+
+Budget control: --only lets you lip-sync just the scenes that earn it (hook,
+analysis moments, CTA) — every other scene falls back to the still host, which
+costs nothing. A 10-min video only needs talking clips where the host carries
+the moment.
+
+Writes:
+  lipsync/out/<slug>/<sceneId>.mp4              (Replicate output, gitignored)
+  public/shorts/<slug>/host/<sceneId>.mp4       (copy for Remotion staticFile)
+  plan JSON: scenes[i].hostClipExists = true    (engine switch)
+
+Usage:
+  .venv-lipsync/bin/python lipsync/batch.py <slug> [--only id1,id2] [--stitch]
+Idempotent per clip: existing outputs are never re-generated (no re-spend).
 """
+import argparse
 import json
+import shutil
 import subprocess
 import sys
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from client import run as lipsync_run, load_url  # noqa: E402
+from sonic_client import run as sonic_run  # noqa: E402
+
+
+def resolve_host(plan: dict) -> tuple[Path, float]:
+    """(host image path, sonic dynamic_scale) from registry id or direct path."""
+    host = plan.get("host")
+    if not host:
+        sys.exit("plan has no \"host\" field — add one (registry id or path)")
+    if "/" in host:
+        return REPO / "public" / host, 1.0
+    registry = json.loads((REPO / "src/viral/hosts.json").read_text())
+    entry = registry.get(host)
+    if not entry:
+        sys.exit(f"host '{host}' not in src/viral/hosts.json (have: {', '.join(registry)})")
+    return REPO / "public" / entry["image"], float(entry.get("dynamicScale", 1.0))
 
 
 def main():
-    if len(sys.argv) < 2:
-        sys.exit("usage: batch.py <slug>")
-    slug = sys.argv[1]
-    plan = json.loads((REPO / "src/viral/plans" / f"{slug}.json").read_text())
-    host = plan.get("host")
-    if not host:
-        sys.exit(f"plan '{slug}' has no \"host\" field — add one (see neutronstar.json)")
-    image = REPO / "public" / host
-    audio_dir = REPO / "public/shorts" / slug / "audio"
-    out_dir = REPO / "lipsync/out" / slug
-    out_dir.mkdir(parents=True, exist_ok=True)
-    url = load_url()
+    ap = argparse.ArgumentParser()
+    ap.add_argument("slug")
+    ap.add_argument("--only", default=None,
+                    help="comma-separated scene ids to lip-sync (default: all voiced scenes)")
+    ap.add_argument("--stitch", action="store_true",
+                    help="also concat the talking clips into lipsync/out/<slug>_full.mp4")
+    args = ap.parse_args()
 
-    clips = []
+    plan_path = REPO / "src/viral/plans" / f"{args.slug}.json"
+    plan = json.loads(plan_path.read_text())
+    image, dynamic_scale = resolve_host(plan)
+    if not image.exists():
+        sys.exit(f"host image missing: {image}")
+
+    audio_dir = REPO / "public/shorts" / args.slug / "audio"
+    manifest = json.loads((audio_dir / "manifest.json").read_text())
+    out_dir = REPO / "lipsync/out" / args.slug
+    pub_dir = REPO / "public/shorts" / args.slug / "host"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    pub_dir.mkdir(parents=True, exist_ok=True)
+    only = set(args.only.split(",")) if args.only else None
+
+    clips, changed = [], False
     for sc in plan["scenes"]:
-        mp3 = audio_dir / f"{sc['id']}.mp3"
-        mp4 = out_dir / f"{sc['id']}.mp4"
+        cid = sc["id"]
+        if only is not None and cid not in only:
+            continue
+        clip_meta = manifest["clips"].get(cid, {})
+        if clip_meta.get("estimated"):
+            print(f"[{cid}] skip — silent/estimated audio (run build_short.py with quota first)")
+            continue
+        mp3 = audio_dir / f"{cid}.mp3"
         if not mp3.exists():
-            sys.exit(f"missing audio {mp3} — run scripts/build_short.py {slug} first")
+            sys.exit(f"missing audio {mp3} — run scripts/build_short.py {args.slug} first")
+        mp4 = out_dir / f"{cid}.mp4"
         if not mp4.exists():
-            print(f"[{sc['id']}] lip-syncing...")
-            lipsync_run(image, mp3, mp4, url)
+            print(f"[{cid}] lip-syncing ({clip_meta.get('dur', '?')}s)...")
+            sonic_run(image, mp3, mp4, dynamic_scale=dynamic_scale)
         else:
-            print(f"[{sc['id']}] skip (exists)")
+            print(f"[{cid}] skip (exists)")
+        pub = pub_dir / f"{cid}.mp4"
+        if not pub.exists() or pub.stat().st_mtime < mp4.stat().st_mtime:
+            shutil.copy2(mp4, pub)
+        if not sc.get("hostClipExists"):
+            sc["hostClipExists"] = True
+            changed = True
         clips.append(mp4)
 
-    # stitch with a concat list (re-encode for safety across variable SadTalker outputs)
-    concat_file = out_dir / "concat.txt"
-    concat_file.write_text("\n".join(f"file '{c.resolve()}'" for c in clips))
-    full = REPO / "lipsync/out" / f"{slug}_full.mp4"
-    subprocess.run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(concat_file),
-                    "-c:v", "libx264", "-c:a", "aac", "-r", "30", str(full)], check=True)
-    print(f"\nStitched -> {full}")
+    if changed:
+        plan_path.write_text(json.dumps(plan, indent=2, ensure_ascii=False) + "\n")
+        print(f"plan updated: hostClipExists set → {plan_path.name}")
+
+    if args.stitch and clips:
+        concat_file = out_dir / "concat.txt"
+        concat_file.write_text("\n".join(f"file '{c.resolve()}'" for c in clips))
+        full = REPO / "lipsync/out" / f"{args.slug}_full.mp4"
+        subprocess.run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(concat_file),
+                        "-c:v", "libx264", "-c:a", "aac", "-r", "30", str(full)], check=True)
+        print(f"stitched -> {full}")
 
 
 if __name__ == "__main__":

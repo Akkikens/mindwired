@@ -1,0 +1,8893 @@
+{
+ "clips": {
+  "h1": {
+   "dur": 8.777,
+   "text": "Messi versus Ronaldo in a World Cup final is now just three wins away from being real. Let me show you the exact math.",
+   "words": [
+    {
+     "word": "Messi",
+     "start": 0.0,
+     "end": 0.372
+    },
+    {
+     "word": "versus",
+     "start": 0.453,
+     "end": 0.801
+    },
+    {
+     "word": "Ronaldo",
+     "start": 0.882,
+     "end": 1.405
+    },
+    {
+     "word": "in",
+     "start": 1.498,
+     "end": 1.591
+    },
+    {
+     "word": "a",
+     "start": 1.637,
+     "end": 1.66
+    },
+    {
+     "word": "World",
+     "start": 1.741,
+     "end": 2.009
+    },
+    {
+     "word": "Cup",
+     "start": 2.067,
+     "end": 2.264
+    },
+    {
+     "word": "final",
+     "start": 2.334,
+     "end": 2.705
+    },
+    {
+     "word": "is",
+     "start": 3.03,
+     "end": 3.193
+    },
+    {
+     "word": "now",
+     "start": 3.262,
+     "end": 3.46
+    },
+    {
+     "word": "just",
+     "start": 3.576,
+     "end": 3.82
+    },
+    {
+     "word": "three",
+     "start": 3.878,
+     "end": 4.168
+    },
+    {
+     "word": "wins",
+     "start": 4.226,
+     "end": 4.493
+    },
+    {
+     "word": "away",
+     "start": 4.54,
+     "end": 4.888
+    },
+    {
+     "word": "from",
+     "start": 5.213,
+     "end": 5.422
+    },
+    {
+     "word": "being",
+     "start": 5.503,
+     "end": 5.77
+    },
+    {
+     "word": "real.",
+     "start": 5.851,
+     "end": 6.293
+    },
+    {
+     "word": "Let",
+     "start": 6.676,
+     "end": 6.838
+    },
+    {
+     "word": "me",
+     "start": 6.896,
+     "end": 6.989
+    },
+    {
+     "word": "show",
+     "start": 7.047,
+     "end": 7.245
+    },
+    {
+     "word": "you",
+     "start": 7.314,
+     "end": 7.396
+    },
+    {
+     "word": "the",
+     "start": 7.465,
+     "end": 7.546
+    },
+    {
+     "word": "exact",
+     "start": 7.628,
+     "end": 7.999
+    },
+    {
+     "word": "math.",
+     "start": 8.081,
+     "end": 8.777
+    }
+   ]
+  },
+  "h2": {
+   "dur": 8.824,
+   "text": "The Round of 32 is done. Sixteen teams are gone \u2014 and two of the biggest names in football went home in disbelief.",
+   "words": [
+    {
+     "word": "The",
+     "start": 0.0,
+     "end": 0.151
+    },
+    {
+     "word": "Round",
+     "start": 0.209,
+     "end": 0.418
+    },
+    {
+     "word": "of",
+     "start": 0.476,
+     "end": 0.522
+    },
+    {
+     "word": "32",
+     "start": 0.58,
+     "end": 1.138
+    },
+    {
+     "word": "is",
+     "start": 1.416,
+     "end": 1.579
+    },
+    {
+     "word": "done.",
+     "start": 1.649,
+     "end": 2.078
+    },
+    {
+     "word": "Sixteen",
+     "start": 2.519,
+     "end": 3.019
+    },
+    {
+     "word": "teams",
+     "start": 3.088,
+     "end": 3.46
+    },
+    {
+     "word": "are",
+     "start": 3.518,
+     "end": 3.646
+    },
+    {
+     "word": "gone",
+     "start": 3.68,
+     "end": 3.982
+    },
+    {
+     "word": "\u2014",
+     "start": 4.075,
+     "end": 4.272
+    },
+    {
+     "word": "and",
+     "start": 4.447,
+     "end": 4.586
+    },
+    {
+     "word": "two",
+     "start": 4.644,
+     "end": 4.795
+    },
+    {
+     "word": "of",
+     "start": 4.865,
+     "end": 4.923
+    },
+    {
+     "word": "the",
+     "start": 4.969,
+     "end": 5.039
+    },
+    {
+     "word": "biggest",
+     "start": 5.074,
+     "end": 5.352
+    },
+    {
+     "word": "names",
+     "start": 5.41,
+     "end": 5.666
+    },
+    {
+     "word": "in",
+     "start": 5.712,
+     "end": 5.782
+    },
+    {
+     "word": "football",
+     "start": 5.84,
+     "end": 6.327
+    },
+    {
+     "word": "went",
+     "start": 6.653,
+     "end": 6.885
+    },
+    {
+     "word": "home",
+     "start": 6.943,
+     "end": 7.326
+    },
+    {
+     "word": "in",
+     "start": 7.535,
+     "end": 7.709
+    },
+    {
+     "word": "disbelief.",
+     "start": 7.779,
+     "end": 8.824
+    }
+   ]
+  },
+  "h3": {
+   "dur": 12.399,
+   "text": "Germany, out. The Netherlands, out. Japan, out. And the favorites? One of them survived the scare of the century by an own goal in extra time.",
+   "words": [
+    {
+     "word": "Germany,",
+     "start": 0.0,
+     "end": 0.72
+    },
+    {
+     "word": "out.",
+     "start": 0.848,
+     "end": 1.393
+    },
+    {
+     "word": "The",
+     "start": 1.718,
+     "end": 1.834
+    },
+    {
+     "word": "Netherlands,",
+     "start": 1.881,
+     "end": 2.531
+    },
+    {
+     "word": "out.",
+     "start": 2.682,
+     "end": 3.193
+    },
+    {
+     "word": "Japan,",
+     "start": 3.518,
+     "end": 4.18
+    },
+    {
+     "word": "out.",
+     "start": 4.354,
+     "end": 4.841
+    },
+    {
+     "word": "And",
+     "start": 5.283,
+     "end": 5.422
+    },
+    {
+     "word": "the",
+     "start": 5.468,
+     "end": 5.538
+    },
+    {
+     "word": "favorites?",
+     "start": 5.573,
+     "end": 6.223
+    },
+    {
+     "word": "One",
+     "start": 6.664,
+     "end": 6.838
+    },
+    {
+     "word": "of",
+     "start": 6.861,
+     "end": 6.92
+    },
+    {
+     "word": "them",
+     "start": 6.966,
+     "end": 7.094
+    },
+    {
+     "word": "survived",
+     "start": 7.163,
+     "end": 7.755
+    },
+    {
+     "word": "the",
+     "start": 7.814,
+     "end": 7.918
+    },
+    {
+     "word": "scare",
+     "start": 7.976,
+     "end": 8.406
+    },
+    {
+     "word": "of",
+     "start": 8.452,
+     "end": 8.51
+    },
+    {
+     "word": "the",
+     "start": 8.557,
+     "end": 8.626
+    },
+    {
+     "word": "century",
+     "start": 8.684,
+     "end": 9.23
+    },
+    {
+     "word": "by",
+     "start": 9.555,
+     "end": 9.718
+    },
+    {
+     "word": "an",
+     "start": 9.776,
+     "end": 9.845
+    },
+    {
+     "word": "own",
+     "start": 9.927,
+     "end": 10.217
+    },
+    {
+     "word": "goal",
+     "start": 10.31,
+     "end": 10.693
+    },
+    {
+     "word": "in",
+     "start": 11.018,
+     "end": 11.169
+    },
+    {
+     "word": "extra",
+     "start": 11.238,
+     "end": 11.587
+    },
+    {
+     "word": "time.",
+     "start": 11.633,
+     "end": 12.399
+    }
+   ]
+  },
+  "h4": {
+   "dur": 11.099,
+   "text": "I'm Rio, and this is the full knockout breakdown \u2014 every Round of 32 score, every storyline, and the one Round of 16 match you cannot afford to miss.",
+   "words": [
+    {
+     "word": "I'm",
+     "start": 0.0,
+     "end": 0.232
+    },
+    {
+     "word": "Rio,",
+     "start": 0.313,
+     "end": 0.824
+    },
+    {
+     "word": "and",
+     "start": 0.998,
+     "end": 1.126
+    },
+    {
+     "word": "this",
+     "start": 1.173,
+     "end": 1.277
+    },
+    {
+     "word": "is",
+     "start": 1.324,
+     "end": 1.393
+    },
+    {
+     "word": "the",
+     "start": 1.44,
+     "end": 1.509
+    },
+    {
+     "word": "full",
+     "start": 1.556,
+     "end": 1.788
+    },
+    {
+     "word": "knockout",
+     "start": 1.881,
+     "end": 2.252
+    },
+    {
+     "word": "breakdown",
+     "start": 2.299,
+     "end": 2.833
+    },
+    {
+     "word": "\u2014",
+     "start": 2.984,
+     "end": 3.042
+    },
+    {
+     "word": "every",
+     "start": 3.367,
+     "end": 3.704
+    },
+    {
+     "word": "Round",
+     "start": 3.796,
+     "end": 4.029
+    },
+    {
+     "word": "of",
+     "start": 4.075,
+     "end": 4.133
+    },
+    {
+     "word": "32",
+     "start": 4.191,
+     "end": 4.621
+    },
+    {
+     "word": "score,",
+     "start": 4.69,
+     "end": 5.236
+    },
+    {
+     "word": "every",
+     "start": 5.48,
+     "end": 5.77
+    },
+    {
+     "word": "storyline,",
+     "start": 5.851,
+     "end": 6.711
+    },
+    {
+     "word": "and",
+     "start": 6.885,
+     "end": 7.024
+    },
+    {
+     "word": "the",
+     "start": 7.082,
+     "end": 7.152
+    },
+    {
+     "word": "one",
+     "start": 7.21,
+     "end": 7.384
+    },
+    {
+     "word": "Round",
+     "start": 7.454,
+     "end": 7.697
+    },
+    {
+     "word": "of",
+     "start": 7.755,
+     "end": 7.814
+    },
+    {
+     "word": "16",
+     "start": 7.86,
+     "end": 8.278
+    },
+    {
+     "word": "match",
+     "start": 8.359,
+     "end": 8.673
+    },
+    {
+     "word": "you",
+     "start": 9.114,
+     "end": 9.253
+    },
+    {
+     "word": "cannot",
+     "start": 9.369,
+     "end": 9.81
+    },
+    {
+     "word": "afford",
+     "start": 9.892,
+     "end": 10.275
+    },
+    {
+     "word": "to",
+     "start": 10.31,
+     "end": 10.368
+    },
+    {
+     "word": "miss.",
+     "start": 10.437,
+     "end": 11.099
+    }
+   ]
+  },
+  "h5": {
+   "dur": 12.585,
+   "text": "This tournament has already given us the latest goal in World Cup history, a Salah Panenka, and Messi leading the Golden Boot at thirty-nine. And the knockouts are just warming up.",
+   "words": [
+    {
+     "word": "This",
+     "start": 0.0,
+     "end": 0.221
+    },
+    {
+     "word": "tournament",
+     "start": 0.279,
+     "end": 0.685
+    },
+    {
+     "word": "has",
+     "start": 0.743,
+     "end": 0.859
+    },
+    {
+     "word": "already",
+     "start": 0.917,
+     "end": 1.196
+    },
+    {
+     "word": "given",
+     "start": 1.254,
+     "end": 1.474
+    },
+    {
+     "word": "us",
+     "start": 1.509,
+     "end": 1.602
+    },
+    {
+     "word": "the",
+     "start": 1.66,
+     "end": 1.73
+    },
+    {
+     "word": "latest",
+     "start": 1.8,
+     "end": 2.113
+    },
+    {
+     "word": "goal",
+     "start": 2.159,
+     "end": 2.45
+    },
+    {
+     "word": "in",
+     "start": 2.531,
+     "end": 2.612
+    },
+    {
+     "word": "World",
+     "start": 2.682,
+     "end": 2.937
+    },
+    {
+     "word": "Cup",
+     "start": 2.995,
+     "end": 3.204
+    },
+    {
+     "word": "history,",
+     "start": 3.274,
+     "end": 3.924
+    },
+    {
+     "word": "a",
+     "start": 4.168,
+     "end": 4.226
+    },
+    {
+     "word": "Salah",
+     "start": 4.319,
+     "end": 4.644
+    },
+    {
+     "word": "Panenka,",
+     "start": 4.69,
+     "end": 5.387
+    },
+    {
+     "word": "and",
+     "start": 5.898,
+     "end": 6.037
+    },
+    {
+     "word": "Messi",
+     "start": 6.118,
+     "end": 6.513
+    },
+    {
+     "word": "leading",
+     "start": 6.896,
+     "end": 7.256
+    },
+    {
+     "word": "the",
+     "start": 7.303,
+     "end": 7.372
+    },
+    {
+     "word": "Golden",
+     "start": 7.43,
+     "end": 7.767
+    },
+    {
+     "word": "Boot",
+     "start": 7.848,
+     "end": 8.162
+    },
+    {
+     "word": "at",
+     "start": 8.336,
+     "end": 8.499
+    },
+    {
+     "word": "thirty-nine.",
+     "start": 8.58,
+     "end": 9.497
+    },
+    {
+     "word": "And",
+     "start": 10.008,
+     "end": 10.147
+    },
+    {
+     "word": "the",
+     "start": 10.194,
+     "end": 10.263
+    },
+    {
+     "word": "knockouts",
+     "start": 10.31,
+     "end": 10.867
+    },
+    {
+     "word": "are",
+     "start": 11.076,
+     "end": 11.262
+    },
+    {
+     "word": "just",
+     "start": 11.308,
+     "end": 11.517
+    },
+    {
+     "word": "warming",
+     "start": 11.587,
+     "end": 11.923
+    },
+    {
+     "word": "up.",
+     "start": 11.993,
+     "end": 12.585
+    }
+   ]
+  },
+  "g1": {
+   "dur": 8.034,
+   "text": "Let's start with the carnage \u2014 because two European giants are already on the plane home, and neither loss was a fluke.",
+   "words": [
+    {
+     "word": "Let's",
+     "start": 0.0,
+     "end": 0.267
+    },
+    {
+     "word": "start",
+     "start": 0.302,
+     "end": 0.685
+    },
+    {
+     "word": "with",
+     "start": 0.894,
+     "end": 1.08
+    },
+    {
+     "word": "the",
+     "start": 1.115,
+     "end": 1.184
+    },
+    {
+     "word": "carnage",
+     "start": 1.231,
+     "end": 1.765
+    },
+    {
+     "word": "\u2014",
+     "start": 1.834,
+     "end": 2.032
+    },
+    {
+     "word": "because",
+     "start": 2.183,
+     "end": 2.485
+    },
+    {
+     "word": "two",
+     "start": 2.519,
+     "end": 2.694
+    },
+    {
+     "word": "European",
+     "start": 2.775,
+     "end": 3.274
+    },
+    {
+     "word": "giants",
+     "start": 3.344,
+     "end": 3.796
+    },
+    {
+     "word": "are",
+     "start": 4.04,
+     "end": 4.238
+    },
+    {
+     "word": "already",
+     "start": 4.272,
+     "end": 4.621
+    },
+    {
+     "word": "on",
+     "start": 4.679,
+     "end": 4.76
+    },
+    {
+     "word": "the",
+     "start": 4.795,
+     "end": 4.865
+    },
+    {
+     "word": "plane",
+     "start": 4.899,
+     "end": 5.19
+    },
+    {
+     "word": "home,",
+     "start": 5.236,
+     "end": 5.677
+    },
+    {
+     "word": "and",
+     "start": 5.886,
+     "end": 6.026
+    },
+    {
+     "word": "neither",
+     "start": 6.107,
+     "end": 6.374
+    },
+    {
+     "word": "loss",
+     "start": 6.432,
+     "end": 6.769
+    },
+    {
+     "word": "was",
+     "start": 7.012,
+     "end": 7.175
+    },
+    {
+     "word": "a",
+     "start": 7.221,
+     "end": 7.245
+    },
+    {
+     "word": "fluke.",
+     "start": 7.314,
+     "end": 8.034
+    }
+   ]
+  },
+  "g2": {
+   "dur": 12.725,
+   "text": "Germany one, Paraguay one \u2014 and in the shootout, Julio Enciso's Paraguay held their nerve, four-three. The four-time champions are out in the Round of 32.",
+   "words": [
+    {
+     "word": "Germany",
+     "start": 0.0,
+     "end": 0.43
+    },
+    {
+     "word": "one,",
+     "start": 0.511,
+     "end": 0.859
+    },
+    {
+     "word": "Paraguay",
+     "start": 0.987,
+     "end": 1.509
+    },
+    {
+     "word": "one",
+     "start": 1.625,
+     "end": 1.904
+    },
+    {
+     "word": "\u2014",
+     "start": 1.985,
+     "end": 2.125
+    },
+    {
+     "word": "and",
+     "start": 2.728,
+     "end": 2.856
+    },
+    {
+     "word": "in",
+     "start": 2.914,
+     "end": 2.972
+    },
+    {
+     "word": "the",
+     "start": 3.019,
+     "end": 3.088
+    },
+    {
+     "word": "shootout,",
+     "start": 3.135,
+     "end": 3.831
+    },
+    {
+     "word": "Julio",
+     "start": 4.075,
+     "end": 4.505
+    },
+    {
+     "word": "Enciso's",
+     "start": 4.586,
+     "end": 5.143
+    },
+    {
+     "word": "Paraguay",
+     "start": 5.19,
+     "end": 5.735
+    },
+    {
+     "word": "held",
+     "start": 5.944,
+     "end": 6.188
+    },
+    {
+     "word": "their",
+     "start": 6.235,
+     "end": 6.385
+    },
+    {
+     "word": "nerve,",
+     "start": 6.455,
+     "end": 6.954
+    },
+    {
+     "word": "four-three.",
+     "start": 7.198,
+     "end": 7.999
+    },
+    {
+     "word": "The",
+     "start": 8.603,
+     "end": 8.707
+    },
+    {
+     "word": "four-time",
+     "start": 8.766,
+     "end": 9.265
+    },
+    {
+     "word": "champions",
+     "start": 9.3,
+     "end": 9.915
+    },
+    {
+     "word": "are",
+     "start": 10.24,
+     "end": 10.437
+    },
+    {
+     "word": "out",
+     "start": 10.484,
+     "end": 10.728
+    },
+    {
+     "word": "in",
+     "start": 10.937,
+     "end": 11.064
+    },
+    {
+     "word": "the",
+     "start": 11.099,
+     "end": 11.169
+    },
+    {
+     "word": "Round",
+     "start": 11.215,
+     "end": 11.459
+    },
+    {
+     "word": "of",
+     "start": 11.517,
+     "end": 11.575
+    },
+    {
+     "word": "32.",
+     "start": 11.645,
+     "end": 12.725
+    }
+   ]
+  },
+  "g3": {
+   "dur": 12.91,
+   "text": "Same story for the Netherlands. Gakpo scored, but Issa Diop equalized in stoppage time and Morocco won the shootout three-two. Morocco march on \u2014 again.",
+   "words": [
+    {
+     "word": "Same",
+     "start": 0.0,
+     "end": 0.337
+    },
+    {
+     "word": "story",
+     "start": 0.383,
+     "end": 0.731
+    },
+    {
+     "word": "for",
+     "start": 0.801,
+     "end": 0.906
+    },
+    {
+     "word": "the",
+     "start": 0.94,
+     "end": 1.01
+    },
+    {
+     "word": "Netherlands.",
+     "start": 1.08,
+     "end": 1.8
+    },
+    {
+     "word": "Gakpo",
+     "start": 2.241,
+     "end": 2.705
+    },
+    {
+     "word": "scored,",
+     "start": 2.798,
+     "end": 3.413
+    },
+    {
+     "word": "but",
+     "start": 3.587,
+     "end": 3.75
+    },
+    {
+     "word": "Issa",
+     "start": 3.808,
+     "end": 4.04
+    },
+    {
+     "word": "Diop",
+     "start": 4.098,
+     "end": 4.47
+    },
+    {
+     "word": "equalized",
+     "start": 4.586,
+     "end": 5.329
+    },
+    {
+     "word": "in",
+     "start": 5.387,
+     "end": 5.48
+    },
+    {
+     "word": "stoppage",
+     "start": 5.573,
+     "end": 6.002
+    },
+    {
+     "word": "time",
+     "start": 6.049,
+     "end": 6.49
+    },
+    {
+     "word": "and",
+     "start": 6.664,
+     "end": 6.954
+    },
+    {
+     "word": "Morocco",
+     "start": 7.024,
+     "end": 7.512
+    },
+    {
+     "word": "won",
+     "start": 7.721,
+     "end": 7.941
+    },
+    {
+     "word": "the",
+     "start": 7.999,
+     "end": 8.069
+    },
+    {
+     "word": "shootout",
+     "start": 8.115,
+     "end": 8.638
+    },
+    {
+     "word": "three-two.",
+     "start": 8.963,
+     "end": 9.822
+    },
+    {
+     "word": "Morocco",
+     "start": 10.426,
+     "end": 10.867
+    },
+    {
+     "word": "march",
+     "start": 10.983,
+     "end": 11.297
+    },
+    {
+     "word": "on",
+     "start": 11.366,
+     "end": 11.575
+    },
+    {
+     "word": "\u2014",
+     "start": 11.749,
+     "end": 11.807
+    },
+    {
+     "word": "again.",
+     "start": 12.086,
+     "end": 12.91
+    }
+   ]
+  },
+  "g4": {
+   "dur": 10.681,
+   "text": "And listen \u2014 Paraguay and Morocco did not get lucky. They defended like their lives depended on it, and they were ice cold from the spot. That's a formula.",
+   "words": [
+    {
+     "word": "And",
+     "start": 0.0,
+     "end": 0.163
+    },
+    {
+     "word": "listen",
+     "start": 0.221,
+     "end": 0.511
+    },
+    {
+     "word": "\u2014",
+     "start": 0.685,
+     "end": 0.998
+    },
+    {
+     "word": "Paraguay",
+     "start": 1.173,
+     "end": 1.776
+    },
+    {
+     "word": "and",
+     "start": 1.858,
+     "end": 1.962
+    },
+    {
+     "word": "Morocco",
+     "start": 2.032,
+     "end": 2.519
+    },
+    {
+     "word": "did",
+     "start": 2.635,
+     "end": 2.798
+    },
+    {
+     "word": "not",
+     "start": 2.856,
+     "end": 3.007
+    },
+    {
+     "word": "get",
+     "start": 3.077,
+     "end": 3.251
+    },
+    {
+     "word": "lucky.",
+     "start": 3.32,
+     "end": 3.855
+    },
+    {
+     "word": "They",
+     "start": 4.238,
+     "end": 4.4
+    },
+    {
+     "word": "defended",
+     "start": 4.458,
+     "end": 4.841
+    },
+    {
+     "word": "like",
+     "start": 4.899,
+     "end": 5.05
+    },
+    {
+     "word": "their",
+     "start": 5.085,
+     "end": 5.236
+    },
+    {
+     "word": "lives",
+     "start": 5.283,
+     "end": 5.608
+    },
+    {
+     "word": "depended",
+     "start": 5.654,
+     "end": 6.072
+    },
+    {
+     "word": "on",
+     "start": 6.13,
+     "end": 6.2
+    },
+    {
+     "word": "it,",
+     "start": 6.246,
+     "end": 6.548
+    },
+    {
+     "word": "and",
+     "start": 6.827,
+     "end": 6.966
+    },
+    {
+     "word": "they",
+     "start": 7.012,
+     "end": 7.117
+    },
+    {
+     "word": "were",
+     "start": 7.152,
+     "end": 7.279
+    },
+    {
+     "word": "ice",
+     "start": 7.349,
+     "end": 7.593
+    },
+    {
+     "word": "cold",
+     "start": 7.651,
+     "end": 8.034
+    },
+    {
+     "word": "from",
+     "start": 8.092,
+     "end": 8.231
+    },
+    {
+     "word": "the",
+     "start": 8.278,
+     "end": 8.348
+    },
+    {
+     "word": "spot.",
+     "start": 8.394,
+     "end": 8.905
+    },
+    {
+     "word": "That's",
+     "start": 9.416,
+     "end": 9.694
+    },
+    {
+     "word": "a",
+     "start": 9.741,
+     "end": 9.764
+    },
+    {
+     "word": "formula.",
+     "start": 9.845,
+     "end": 10.681
+    }
+   ]
+  },
+  "g5": {
+   "dur": 12.957,
+   "text": "Brazil nearly joined them. Japan led through Sano until Casemiro leveled \u2014 and Gabriel Martinelli won it deep in stoppage time. Two-one, and Brazil exhale.",
+   "words": [
+    {
+     "word": "Brazil",
+     "start": 0.0,
+     "end": 0.604
+    },
+    {
+     "word": "nearly",
+     "start": 0.882,
+     "end": 1.219
+    },
+    {
+     "word": "joined",
+     "start": 1.312,
+     "end": 1.625
+    },
+    {
+     "word": "them.",
+     "start": 1.66,
+     "end": 2.009
+    },
+    {
+     "word": "Japan",
+     "start": 2.45,
+     "end": 2.879
+    },
+    {
+     "word": "led",
+     "start": 2.961,
+     "end": 3.135
+    },
+    {
+     "word": "through",
+     "start": 3.193,
+     "end": 3.448
+    },
+    {
+     "word": "Sano",
+     "start": 3.518,
+     "end": 3.994
+    },
+    {
+     "word": "until",
+     "start": 4.319,
+     "end": 4.632
+    },
+    {
+     "word": "Casemiro",
+     "start": 4.69,
+     "end": 5.317
+    },
+    {
+     "word": "leveled",
+     "start": 5.399,
+     "end": 5.782
+    },
+    {
+     "word": "\u2014",
+     "start": 5.991,
+     "end": 6.06
+    },
+    {
+     "word": "and",
+     "start": 6.269,
+     "end": 6.42
+    },
+    {
+     "word": "Gabriel",
+     "start": 6.49,
+     "end": 6.861
+    },
+    {
+     "word": "Martinelli",
+     "start": 6.908,
+     "end": 7.477
+    },
+    {
+     "word": "won",
+     "start": 7.546,
+     "end": 7.686
+    },
+    {
+     "word": "it",
+     "start": 7.732,
+     "end": 7.814
+    },
+    {
+     "word": "deep",
+     "start": 7.906,
+     "end": 8.197
+    },
+    {
+     "word": "in",
+     "start": 8.29,
+     "end": 8.417
+    },
+    {
+     "word": "stoppage",
+     "start": 8.51,
+     "end": 8.94
+    },
+    {
+     "word": "time.",
+     "start": 8.986,
+     "end": 9.497
+    },
+    {
+     "word": "Two-one,",
+     "start": 10.194,
+     "end": 10.971
+    },
+    {
+     "word": "and",
+     "start": 11.215,
+     "end": 11.378
+    },
+    {
+     "word": "Brazil",
+     "start": 11.436,
+     "end": 11.889
+    },
+    {
+     "word": "exhale.",
+     "start": 12.005,
+     "end": 12.957
+    }
+   ]
+  },
+  "g6": {
+   "dur": 10.495,
+   "text": "France had no such drama. Mbapp\u00e9 hit a brace, Barcola added a third \u2014 three-nil over Sweden, and the champions look terrifying.",
+   "words": [
+    {
+     "word": "France",
+     "start": 0.0,
+     "end": 0.499
+    },
+    {
+     "word": "had",
+     "start": 0.546,
+     "end": 0.697
+    },
+    {
+     "word": "no",
+     "start": 0.778,
+     "end": 0.94
+    },
+    {
+     "word": "such",
+     "start": 1.022,
+     "end": 1.254
+    },
+    {
+     "word": "drama.",
+     "start": 1.3,
+     "end": 1.916
+    },
+    {
+     "word": "Mbapp\u00e9",
+     "start": 2.241,
+     "end": 2.763
+    },
+    {
+     "word": "hit",
+     "start": 2.833,
+     "end": 2.972
+    },
+    {
+     "word": "a",
+     "start": 3.019,
+     "end": 3.042
+    },
+    {
+     "word": "brace,",
+     "start": 3.088,
+     "end": 3.715
+    },
+    {
+     "word": "Barcola",
+     "start": 3.924,
+     "end": 4.528
+    },
+    {
+     "word": "added",
+     "start": 4.586,
+     "end": 4.83
+    },
+    {
+     "word": "a",
+     "start": 4.876,
+     "end": 4.899
+    },
+    {
+     "word": "third",
+     "start": 4.969,
+     "end": 5.387
+    },
+    {
+     "word": "\u2014",
+     "start": 5.561,
+     "end": 5.654
+    },
+    {
+     "word": "three-nil",
+     "start": 6.037,
+     "end": 6.757
+    },
+    {
+     "word": "over",
+     "start": 6.931,
+     "end": 7.21
+    },
+    {
+     "word": "Sweden,",
+     "start": 7.279,
+     "end": 7.848
+    },
+    {
+     "word": "and",
+     "start": 8.092,
+     "end": 8.231
+    },
+    {
+     "word": "the",
+     "start": 8.278,
+     "end": 8.348
+    },
+    {
+     "word": "champions",
+     "start": 8.382,
+     "end": 8.975
+    },
+    {
+     "word": "look",
+     "start": 9.183,
+     "end": 9.404
+    },
+    {
+     "word": "terrifying.",
+     "start": 9.451,
+     "end": 10.495
+    }
+   ]
+  },
+  "g7": {
+   "dur": 12.121,
+   "text": "And Mexico ended forty years of knockout heartbreak at the Azteca \u2014 Qui\u00f1ones and Jim\u00e9nez inside thirty-one minutes, two-nil over Ecuador, and the roof nearly came off.",
+   "words": [
+    {
+     "word": "And",
+     "start": 0.0,
+     "end": 0.151
+    },
+    {
+     "word": "Mexico",
+     "start": 0.232,
+     "end": 0.778
+    },
+    {
+     "word": "ended",
+     "start": 0.894,
+     "end": 1.254
+    },
+    {
+     "word": "forty",
+     "start": 1.405,
+     "end": 1.811
+    },
+    {
+     "word": "years",
+     "start": 1.904,
+     "end": 2.276
+    },
+    {
+     "word": "of",
+     "start": 2.334,
+     "end": 2.403
+    },
+    {
+     "word": "knockout",
+     "start": 2.473,
+     "end": 2.856
+    },
+    {
+     "word": "heartbreak",
+     "start": 2.914,
+     "end": 3.413
+    },
+    {
+     "word": "at",
+     "start": 3.471,
+     "end": 3.541
+    },
+    {
+     "word": "the",
+     "start": 3.576,
+     "end": 3.646
+    },
+    {
+     "word": "Azteca",
+     "start": 3.715,
+     "end": 4.284
+    },
+    {
+     "word": "\u2014",
+     "start": 4.458,
+     "end": 4.644
+    },
+    {
+     "word": "Qui\u00f1ones",
+     "start": 4.69,
+     "end": 5.236
+    },
+    {
+     "word": "and",
+     "start": 5.283,
+     "end": 5.375
+    },
+    {
+     "word": "Jim\u00e9nez",
+     "start": 5.433,
+     "end": 5.886
+    },
+    {
+     "word": "inside",
+     "start": 5.956,
+     "end": 6.432
+    },
+    {
+     "word": "thirty-one",
+     "start": 6.49,
+     "end": 7.047
+    },
+    {
+     "word": "minutes,",
+     "start": 7.094,
+     "end": 7.57
+    },
+    {
+     "word": "two-nil",
+     "start": 7.814,
+     "end": 8.475
+    },
+    {
+     "word": "over",
+     "start": 8.568,
+     "end": 8.812
+    },
+    {
+     "word": "Ecuador,",
+     "start": 8.882,
+     "end": 9.567
+    },
+    {
+     "word": "and",
+     "start": 9.845,
+     "end": 9.985
+    },
+    {
+     "word": "the",
+     "start": 10.031,
+     "end": 10.101
+    },
+    {
+     "word": "roof",
+     "start": 10.17,
+     "end": 10.437
+    },
+    {
+     "word": "nearly",
+     "start": 10.762,
+     "end": 11.088
+    },
+    {
+     "word": "came",
+     "start": 11.157,
+     "end": 11.436
+    },
+    {
+     "word": "off.",
+     "start": 11.482,
+     "end": 12.121
+    }
+   ]
+  },
+  "g8": {
+   "dur": 9.799,
+   "text": "So most of the seeds held. But the warning signs are everywhere \u2014 and the next three matches I'm about to show you were absolute cinema.",
+   "words": [
+    {
+     "word": "So",
+     "start": 0.0,
+     "end": 0.372
+    },
+    {
+     "word": "most",
+     "start": 0.755,
+     "end": 1.01
+    },
+    {
+     "word": "of",
+     "start": 1.057,
+     "end": 1.103
+    },
+    {
+     "word": "the",
+     "start": 1.138,
+     "end": 1.207
+    },
+    {
+     "word": "seeds",
+     "start": 1.254,
+     "end": 1.544
+    },
+    {
+     "word": "held.",
+     "start": 1.591,
+     "end": 2.078
+    },
+    {
+     "word": "But",
+     "start": 2.589,
+     "end": 2.752
+    },
+    {
+     "word": "the",
+     "start": 2.786,
+     "end": 2.856
+    },
+    {
+     "word": "warning",
+     "start": 2.914,
+     "end": 3.262
+    },
+    {
+     "word": "signs",
+     "start": 3.332,
+     "end": 3.808
+    },
+    {
+     "word": "are",
+     "start": 3.982,
+     "end": 4.168
+    },
+    {
+     "word": "everywhere",
+     "start": 4.226,
+     "end": 4.795
+    },
+    {
+     "word": "\u2014",
+     "start": 4.969,
+     "end": 5.027
+    },
+    {
+     "word": "and",
+     "start": 5.538,
+     "end": 5.677
+    },
+    {
+     "word": "the",
+     "start": 5.724,
+     "end": 5.793
+    },
+    {
+     "word": "next",
+     "start": 5.84,
+     "end": 6.049
+    },
+    {
+     "word": "three",
+     "start": 6.084,
+     "end": 6.281
+    },
+    {
+     "word": "matches",
+     "start": 6.327,
+     "end": 6.629
+    },
+    {
+     "word": "I'm",
+     "start": 6.676,
+     "end": 6.803
+    },
+    {
+     "word": "about",
+     "start": 6.838,
+     "end": 7.059
+    },
+    {
+     "word": "to",
+     "start": 7.094,
+     "end": 7.152
+    },
+    {
+     "word": "show",
+     "start": 7.21,
+     "end": 7.419
+    },
+    {
+     "word": "you",
+     "start": 7.5,
+     "end": 7.639
+    },
+    {
+     "word": "were",
+     "start": 8.022,
+     "end": 8.231
+    },
+    {
+     "word": "absolute",
+     "start": 8.313,
+     "end": 8.94
+    },
+    {
+     "word": "cinema.",
+     "start": 8.986,
+     "end": 9.799
+    }
+   ]
+  },
+  "d1": {
+   "dur": 10.356,
+   "text": "Belgium versus Senegal in Seattle was the craziest comeback of the tournament so far \u2014 and it ended with a World Cup record that may never be broken.",
+   "words": [
+    {
+     "word": "Belgium",
+     "start": 0.0,
+     "end": 0.476
+    },
+    {
+     "word": "versus",
+     "start": 0.534,
+     "end": 0.871
+    },
+    {
+     "word": "Senegal",
+     "start": 0.929,
+     "end": 1.405
+    },
+    {
+     "word": "in",
+     "start": 1.463,
+     "end": 1.533
+    },
+    {
+     "word": "Seattle",
+     "start": 1.614,
+     "end": 2.218
+    },
+    {
+     "word": "was",
+     "start": 2.392,
+     "end": 2.554
+    },
+    {
+     "word": "the",
+     "start": 2.601,
+     "end": 2.67
+    },
+    {
+     "word": "craziest",
+     "start": 2.74,
+     "end": 3.309
+    },
+    {
+     "word": "comeback",
+     "start": 3.355,
+     "end": 3.82
+    },
+    {
+     "word": "of",
+     "start": 4.098,
+     "end": 4.261
+    },
+    {
+     "word": "the",
+     "start": 4.307,
+     "end": 4.377
+    },
+    {
+     "word": "tournament",
+     "start": 4.423,
+     "end": 4.83
+    },
+    {
+     "word": "so",
+     "start": 4.876,
+     "end": 5.05
+    },
+    {
+     "word": "far",
+     "start": 5.132,
+     "end": 5.433
+    },
+    {
+     "word": "\u2014",
+     "start": 5.677,
+     "end": 5.747
+    },
+    {
+     "word": "and",
+     "start": 6.258,
+     "end": 6.397
+    },
+    {
+     "word": "it",
+     "start": 6.455,
+     "end": 6.513
+    },
+    {
+     "word": "ended",
+     "start": 6.571,
+     "end": 6.85
+    },
+    {
+     "word": "with",
+     "start": 6.908,
+     "end": 7.036
+    },
+    {
+     "word": "a",
+     "start": 7.07,
+     "end": 7.094
+    },
+    {
+     "word": "World",
+     "start": 7.152,
+     "end": 7.407
+    },
+    {
+     "word": "Cup",
+     "start": 7.454,
+     "end": 7.663
+    },
+    {
+     "word": "record",
+     "start": 7.744,
+     "end": 8.185
+    },
+    {
+     "word": "that",
+     "start": 8.464,
+     "end": 8.661
+    },
+    {
+     "word": "may",
+     "start": 8.719,
+     "end": 8.87
+    },
+    {
+     "word": "never",
+     "start": 9.021,
+     "end": 9.288
+    },
+    {
+     "word": "be",
+     "start": 9.346,
+     "end": 9.451
+    },
+    {
+     "word": "broken.",
+     "start": 9.497,
+     "end": 10.356
+    }
+   ]
+  },
+  "d2": {
+   "dur": 9.242,
+   "text": "Senegal led two-nil. Habib Diarra, then Ismaila Sarr \u2014 and with four minutes left, Belgium looked dead and buried.",
+   "words": [
+    {
+     "word": "Senegal",
+     "start": 0.0,
+     "end": 0.546
+    },
+    {
+     "word": "led",
+     "start": 0.615,
+     "end": 0.836
+    },
+    {
+     "word": "two-nil.",
+     "start": 0.894,
+     "end": 1.637
+    },
+    {
+     "word": "Habib",
+     "start": 2.02,
+     "end": 2.415
+    },
+    {
+     "word": "Diarra,",
+     "start": 2.496,
+     "end": 3.146
+    },
+    {
+     "word": "then",
+     "start": 3.355,
+     "end": 3.599
+    },
+    {
+     "word": "Ismaila",
+     "start": 3.68,
+     "end": 4.156
+    },
+    {
+     "word": "Sarr",
+     "start": 4.249,
+     "end": 4.609
+    },
+    {
+     "word": "\u2014",
+     "start": 4.783,
+     "end": 4.83
+    },
+    {
+     "word": "and",
+     "start": 5.039,
+     "end": 5.19
+    },
+    {
+     "word": "with",
+     "start": 5.236,
+     "end": 5.375
+    },
+    {
+     "word": "four",
+     "start": 5.433,
+     "end": 5.631
+    },
+    {
+     "word": "minutes",
+     "start": 5.666,
+     "end": 5.909
+    },
+    {
+     "word": "left,",
+     "start": 5.968,
+     "end": 6.444
+    },
+    {
+     "word": "Belgium",
+     "start": 6.687,
+     "end": 7.152
+    },
+    {
+     "word": "looked",
+     "start": 7.361,
+     "end": 7.616
+    },
+    {
+     "word": "dead",
+     "start": 7.686,
+     "end": 7.976
+    },
+    {
+     "word": "and",
+     "start": 8.15,
+     "end": 8.371
+    },
+    {
+     "word": "buried.",
+     "start": 8.464,
+     "end": 9.242
+    }
+   ]
+  },
+  "d3": {
+   "dur": 13.839,
+   "text": "Then Lukaku in the eighty-sixth. Tielemans header in the eighty-ninth. Extra time. And deep into the second period, a VAR penalty \u2014 Tielemans again. Three-two Belgium.",
+   "words": [
+    {
+     "word": "Then",
+     "start": 0.0,
+     "end": 0.197
+    },
+    {
+     "word": "Lukaku",
+     "start": 0.255,
+     "end": 0.859
+    },
+    {
+     "word": "in",
+     "start": 0.975,
+     "end": 1.103
+    },
+    {
+     "word": "the",
+     "start": 1.138,
+     "end": 1.207
+    },
+    {
+     "word": "eighty-sixth.",
+     "start": 1.277,
+     "end": 2.194
+    },
+    {
+     "word": "Tielemans",
+     "start": 2.635,
+     "end": 3.17
+    },
+    {
+     "word": "header",
+     "start": 3.216,
+     "end": 3.541
+    },
+    {
+     "word": "in",
+     "start": 3.82,
+     "end": 3.947
+    },
+    {
+     "word": "the",
+     "start": 3.982,
+     "end": 4.052
+    },
+    {
+     "word": "eighty-ninth.",
+     "start": 4.11,
+     "end": 4.969
+    },
+    {
+     "word": "Extra",
+     "start": 5.48,
+     "end": 5.875
+    },
+    {
+     "word": "time.",
+     "start": 5.921,
+     "end": 6.432
+    },
+    {
+     "word": "And",
+     "start": 6.757,
+     "end": 6.92
+    },
+    {
+     "word": "deep",
+     "start": 7.012,
+     "end": 7.221
+    },
+    {
+     "word": "into",
+     "start": 7.303,
+     "end": 7.488
+    },
+    {
+     "word": "the",
+     "start": 7.546,
+     "end": 7.616
+    },
+    {
+     "word": "second",
+     "start": 7.663,
+     "end": 7.953
+    },
+    {
+     "word": "period,",
+     "start": 8.011,
+     "end": 8.533
+    },
+    {
+     "word": "a",
+     "start": 8.777,
+     "end": 8.835
+    },
+    {
+     "word": "VAR",
+     "start": 8.916,
+     "end": 9.485
+    },
+    {
+     "word": "penalty",
+     "start": 9.543,
+     "end": 9.996
+    },
+    {
+     "word": "\u2014",
+     "start": 10.24,
+     "end": 10.379
+    },
+    {
+     "word": "Tielemans",
+     "start": 10.426,
+     "end": 10.937
+    },
+    {
+     "word": "again.",
+     "start": 10.971,
+     "end": 11.529
+    },
+    {
+     "word": "Three-two",
+     "start": 11.97,
+     "end": 12.678
+    },
+    {
+     "word": "Belgium.",
+     "start": 13.003,
+     "end": 13.839
+    }
+   ]
+  },
+  "d4": {
+   "dur": 10.449,
+   "text": "That winning penalty went in at one hundred twenty-four minutes and forty-four seconds \u2014 the latest goal in the history of the men's World Cup.",
+   "words": [
+    {
+     "word": "That",
+     "start": 0.0,
+     "end": 0.244
+    },
+    {
+     "word": "winning",
+     "start": 0.325,
+     "end": 0.58
+    },
+    {
+     "word": "penalty",
+     "start": 0.65,
+     "end": 1.138
+    },
+    {
+     "word": "went",
+     "start": 1.521,
+     "end": 1.765
+    },
+    {
+     "word": "in",
+     "start": 1.834,
+     "end": 2.032
+    },
+    {
+     "word": "at",
+     "start": 2.357,
+     "end": 2.519
+    },
+    {
+     "word": "one",
+     "start": 2.589,
+     "end": 2.763
+    },
+    {
+     "word": "hundred",
+     "start": 2.81,
+     "end": 3.065
+    },
+    {
+     "word": "twenty-four",
+     "start": 3.1,
+     "end": 3.611
+    },
+    {
+     "word": "minutes",
+     "start": 3.657,
+     "end": 3.982
+    },
+    {
+     "word": "and",
+     "start": 4.226,
+     "end": 4.4
+    },
+    {
+     "word": "forty-four",
+     "start": 4.516,
+     "end": 5.132
+    },
+    {
+     "word": "seconds",
+     "start": 5.213,
+     "end": 5.747
+    },
+    {
+     "word": "\u2014",
+     "start": 5.921,
+     "end": 5.991
+    },
+    {
+     "word": "the",
+     "start": 6.316,
+     "end": 6.42
+    },
+    {
+     "word": "latest",
+     "start": 6.49,
+     "end": 6.861
+    },
+    {
+     "word": "goal",
+     "start": 6.92,
+     "end": 7.256
+    },
+    {
+     "word": "in",
+     "start": 7.639,
+     "end": 7.779
+    },
+    {
+     "word": "the",
+     "start": 7.825,
+     "end": 7.895
+    },
+    {
+     "word": "history",
+     "start": 7.953,
+     "end": 8.429
+    },
+    {
+     "word": "of",
+     "start": 8.754,
+     "end": 8.882
+    },
+    {
+     "word": "the",
+     "start": 8.94,
+     "end": 9.009
+    },
+    {
+     "word": "men's",
+     "start": 9.067,
+     "end": 9.404
+    },
+    {
+     "word": "World",
+     "start": 9.451,
+     "end": 9.729
+    },
+    {
+     "word": "Cup.",
+     "start": 9.81,
+     "end": 10.449
+    }
+   ]
+  },
+  "d5": {
+   "dur": 11.378,
+   "text": "Canada made history too \u2014 Stephen Eust\u00e1quio's stoppage-time winner against South Africa put them in the Round of 16 for the first time ever. Co-hosts, dreaming.",
+   "words": [
+    {
+     "word": "Canada",
+     "start": 0.0,
+     "end": 0.488
+    },
+    {
+     "word": "made",
+     "start": 0.546,
+     "end": 0.766
+    },
+    {
+     "word": "history",
+     "start": 0.813,
+     "end": 1.219
+    },
+    {
+     "word": "too",
+     "start": 1.289,
+     "end": 1.533
+    },
+    {
+     "word": "\u2014",
+     "start": 1.811,
+     "end": 1.869
+    },
+    {
+     "word": "Stephen",
+     "start": 2.078,
+     "end": 2.45
+    },
+    {
+     "word": "Eust\u00e1quio's",
+     "start": 2.496,
+     "end": 3.17
+    },
+    {
+     "word": "stoppage-time",
+     "start": 3.204,
+     "end": 3.866
+    },
+    {
+     "word": "winner",
+     "start": 3.889,
+     "end": 4.122
+    },
+    {
+     "word": "against",
+     "start": 4.18,
+     "end": 4.435
+    },
+    {
+     "word": "South",
+     "start": 4.47,
+     "end": 4.69
+    },
+    {
+     "word": "Africa",
+     "start": 4.737,
+     "end": 5.143
+    },
+    {
+     "word": "put",
+     "start": 5.468,
+     "end": 5.677
+    },
+    {
+     "word": "them",
+     "start": 5.724,
+     "end": 5.863
+    },
+    {
+     "word": "in",
+     "start": 5.956,
+     "end": 6.072
+    },
+    {
+     "word": "the",
+     "start": 6.107,
+     "end": 6.177
+    },
+    {
+     "word": "Round",
+     "start": 6.223,
+     "end": 6.409
+    },
+    {
+     "word": "of",
+     "start": 6.455,
+     "end": 6.513
+    },
+    {
+     "word": "16",
+     "start": 6.571,
+     "end": 7.094
+    },
+    {
+     "word": "for",
+     "start": 7.419,
+     "end": 7.558
+    },
+    {
+     "word": "the",
+     "start": 7.593,
+     "end": 7.663
+    },
+    {
+     "word": "first",
+     "start": 7.732,
+     "end": 7.999
+    },
+    {
+     "word": "time",
+     "start": 8.034,
+     "end": 8.324
+    },
+    {
+     "word": "ever.",
+     "start": 8.382,
+     "end": 8.87
+    },
+    {
+     "word": "Co-hosts,",
+     "start": 9.381,
+     "end": 10.31
+    },
+    {
+     "word": "dreaming.",
+     "start": 10.519,
+     "end": 11.378
+    }
+   ]
+  },
+  "d6": {
+   "dur": 12.492,
+   "text": "The USA beat Bosnia two-nil for their first knockout win since two thousand two \u2014 but it came at a price. Balogun scored, then saw red. He's suspended for Belgium.",
+   "words": [
+    {
+     "word": "The",
+     "start": 0.0,
+     "end": 0.163
+    },
+    {
+     "word": "USA",
+     "start": 0.255,
+     "end": 0.801
+    },
+    {
+     "word": "beat",
+     "start": 0.894,
+     "end": 1.115
+    },
+    {
+     "word": "Bosnia",
+     "start": 1.184,
+     "end": 1.614
+    },
+    {
+     "word": "two-nil",
+     "start": 1.683,
+     "end": 2.194
+    },
+    {
+     "word": "for",
+     "start": 2.473,
+     "end": 2.624
+    },
+    {
+     "word": "their",
+     "start": 2.659,
+     "end": 2.81
+    },
+    {
+     "word": "first",
+     "start": 2.868,
+     "end": 3.158
+    },
+    {
+     "word": "knockout",
+     "start": 3.204,
+     "end": 3.553
+    },
+    {
+     "word": "win",
+     "start": 3.599,
+     "end": 3.773
+    },
+    {
+     "word": "since",
+     "start": 3.843,
+     "end": 4.087
+    },
+    {
+     "word": "two",
+     "start": 4.122,
+     "end": 4.319
+    },
+    {
+     "word": "thousand",
+     "start": 4.4,
+     "end": 4.818
+    },
+    {
+     "word": "two",
+     "start": 4.865,
+     "end": 5.12
+    },
+    {
+     "word": "\u2014",
+     "start": 5.364,
+     "end": 5.41
+    },
+    {
+     "word": "but",
+     "start": 5.735,
+     "end": 5.886
+    },
+    {
+     "word": "it",
+     "start": 5.933,
+     "end": 5.991
+    },
+    {
+     "word": "came",
+     "start": 6.049,
+     "end": 6.432
+    },
+    {
+     "word": "at",
+     "start": 6.49,
+     "end": 6.653
+    },
+    {
+     "word": "a",
+     "start": 6.699,
+     "end": 6.734
+    },
+    {
+     "word": "price.",
+     "start": 6.792,
+     "end": 7.419
+    },
+    {
+     "word": "Balogun",
+     "start": 7.802,
+     "end": 8.255
+    },
+    {
+     "word": "scored,",
+     "start": 8.324,
+     "end": 8.928
+    },
+    {
+     "word": "then",
+     "start": 9.172,
+     "end": 9.381
+    },
+    {
+     "word": "saw",
+     "start": 9.497,
+     "end": 9.741
+    },
+    {
+     "word": "red.",
+     "start": 9.857,
+     "end": 10.321
+    },
+    {
+     "word": "He's",
+     "start": 10.704,
+     "end": 10.913
+    },
+    {
+     "word": "suspended",
+     "start": 10.937,
+     "end": 11.471
+    },
+    {
+     "word": "for",
+     "start": 11.517,
+     "end": 11.622
+    },
+    {
+     "word": "Belgium.",
+     "start": 11.668,
+     "end": 12.492
+    }
+   ]
+  },
+  "d7": {
+   "dur": 11.935,
+   "text": "Switzerland two, Algeria nil \u2014 Embolo early, Ndoye forty-eight seconds into the second half. Their first World Cup knockout win in eighty-eight years.",
+   "words": [
+    {
+     "word": "Switzerland",
+     "start": 0.0,
+     "end": 0.569
+    },
+    {
+     "word": "two,",
+     "start": 0.627,
+     "end": 1.08
+    },
+    {
+     "word": "Algeria",
+     "start": 1.405,
+     "end": 1.997
+    },
+    {
+     "word": "nil",
+     "start": 2.067,
+     "end": 2.299
+    },
+    {
+     "word": "\u2014",
+     "start": 2.543,
+     "end": 2.891
+    },
+    {
+     "word": "Embolo",
+     "start": 3.1,
+     "end": 3.576
+    },
+    {
+     "word": "early,",
+     "start": 3.669,
+     "end": 4.168
+    },
+    {
+     "word": "Ndoye",
+     "start": 4.412,
+     "end": 4.969
+    },
+    {
+     "word": "forty-eight",
+     "start": 5.085,
+     "end": 5.631
+    },
+    {
+     "word": "seconds",
+     "start": 5.689,
+     "end": 6.153
+    },
+    {
+     "word": "into",
+     "start": 6.478,
+     "end": 6.687
+    },
+    {
+     "word": "the",
+     "start": 6.745,
+     "end": 6.815
+    },
+    {
+     "word": "second",
+     "start": 6.873,
+     "end": 7.187
+    },
+    {
+     "word": "half.",
+     "start": 7.268,
+     "end": 7.755
+    },
+    {
+     "word": "Their",
+     "start": 8.139,
+     "end": 8.336
+    },
+    {
+     "word": "first",
+     "start": 8.394,
+     "end": 8.661
+    },
+    {
+     "word": "World",
+     "start": 8.719,
+     "end": 8.951
+    },
+    {
+     "word": "Cup",
+     "start": 8.998,
+     "end": 9.172
+    },
+    {
+     "word": "knockout",
+     "start": 9.23,
+     "end": 9.567
+    },
+    {
+     "word": "win",
+     "start": 9.625,
+     "end": 9.845
+    },
+    {
+     "word": "in",
+     "start": 10.228,
+     "end": 10.403
+    },
+    {
+     "word": "eighty-eight",
+     "start": 10.519,
+     "end": 11.088
+    },
+    {
+     "word": "years.",
+     "start": 11.157,
+     "end": 11.935
+    }
+   ]
+  },
+  "d8": {
+   "dur": 12.864,
+   "text": "And Harry Kane? Seven minutes in, England were losing to DR Congo. Then Kane scored twice \u2014 thirteen World Cup goals now. He just passed Pel\u00e9.",
+   "words": [
+    {
+     "word": "And",
+     "start": 0.0,
+     "end": 0.209
+    },
+    {
+     "word": "Harry",
+     "start": 0.279,
+     "end": 0.522
+    },
+    {
+     "word": "Kane?",
+     "start": 0.604,
+     "end": 1.149
+    },
+    {
+     "word": "Seven",
+     "start": 1.753,
+     "end": 2.101
+    },
+    {
+     "word": "minutes",
+     "start": 2.148,
+     "end": 2.426
+    },
+    {
+     "word": "in,",
+     "start": 2.485,
+     "end": 2.844
+    },
+    {
+     "word": "England",
+     "start": 3.088,
+     "end": 3.483
+    },
+    {
+     "word": "were",
+     "start": 3.553,
+     "end": 3.704
+    },
+    {
+     "word": "losing",
+     "start": 3.762,
+     "end": 4.156
+    },
+    {
+     "word": "to",
+     "start": 4.226,
+     "end": 4.296
+    },
+    {
+     "word": "DR",
+     "start": 4.365,
+     "end": 4.679
+    },
+    {
+     "word": "Congo.",
+     "start": 4.76,
+     "end": 5.457
+    },
+    {
+     "word": "Then",
+     "start": 5.968,
+     "end": 6.177
+    },
+    {
+     "word": "Kane",
+     "start": 6.269,
+     "end": 6.653
+    },
+    {
+     "word": "scored",
+     "start": 6.711,
+     "end": 7.129
+    },
+    {
+     "word": "twice",
+     "start": 7.175,
+     "end": 7.825
+    },
+    {
+     "word": "\u2014",
+     "start": 7.872,
+     "end": 7.93
+    },
+    {
+     "word": "thirteen",
+     "start": 8.371,
+     "end": 8.905
+    },
+    {
+     "word": "World",
+     "start": 8.963,
+     "end": 9.207
+    },
+    {
+     "word": "Cup",
+     "start": 9.276,
+     "end": 9.474
+    },
+    {
+     "word": "goals",
+     "start": 9.543,
+     "end": 9.868
+    },
+    {
+     "word": "now.",
+     "start": 9.938,
+     "end": 10.379
+    },
+    {
+     "word": "He",
+     "start": 10.89,
+     "end": 11.053
+    },
+    {
+     "word": "just",
+     "start": 11.204,
+     "end": 11.552
+    },
+    {
+     "word": "passed",
+     "start": 11.633,
+     "end": 11.993
+    },
+    {
+     "word": "Pel\u00e9.",
+     "start": 12.063,
+     "end": 12.864
+    }
+   ]
+  },
+  "d9": {
+   "dur": 10.96,
+   "text": "Colombia quietly completed the field \u2014 one-nil over a Ghana side that didn't manage a single shot on target. Sixteen teams became eight storylines.",
+   "words": [
+    {
+     "word": "Colombia",
+     "start": 0.0,
+     "end": 0.569
+    },
+    {
+     "word": "quietly",
+     "start": 0.639,
+     "end": 1.115
+    },
+    {
+     "word": "completed",
+     "start": 1.173,
+     "end": 1.602
+    },
+    {
+     "word": "the",
+     "start": 1.637,
+     "end": 1.707
+    },
+    {
+     "word": "field",
+     "start": 1.753,
+     "end": 2.09
+    },
+    {
+     "word": "\u2014",
+     "start": 2.264,
+     "end": 2.473
+    },
+    {
+     "word": "one-nil",
+     "start": 2.752,
+     "end": 3.274
+    },
+    {
+     "word": "over",
+     "start": 3.355,
+     "end": 3.622
+    },
+    {
+     "word": "a",
+     "start": 3.68,
+     "end": 3.704
+    },
+    {
+     "word": "Ghana",
+     "start": 3.773,
+     "end": 4.075
+    },
+    {
+     "word": "side",
+     "start": 4.145,
+     "end": 4.528
+    },
+    {
+     "word": "that",
+     "start": 4.563,
+     "end": 4.69
+    },
+    {
+     "word": "didn't",
+     "start": 4.737,
+     "end": 4.992
+    },
+    {
+     "word": "manage",
+     "start": 5.05,
+     "end": 5.317
+    },
+    {
+     "word": "a",
+     "start": 5.341,
+     "end": 5.364
+    },
+    {
+     "word": "single",
+     "start": 5.445,
+     "end": 5.782
+    },
+    {
+     "word": "shot",
+     "start": 5.817,
+     "end": 6.037
+    },
+    {
+     "word": "on",
+     "start": 6.095,
+     "end": 6.177
+    },
+    {
+     "word": "target.",
+     "start": 6.258,
+     "end": 6.908
+    },
+    {
+     "word": "Sixteen",
+     "start": 7.605,
+     "end": 8.162
+    },
+    {
+     "word": "teams",
+     "start": 8.243,
+     "end": 8.777
+    },
+    {
+     "word": "became",
+     "start": 8.928,
+     "end": 9.392
+    },
+    {
+     "word": "eight",
+     "start": 9.462,
+     "end": 9.694
+    },
+    {
+     "word": "storylines.",
+     "start": 9.764,
+     "end": 10.96
+    }
+   ]
+  },
+  "a1": {
+   "dur": 11.656,
+   "text": "Now the match that nearly broke the internet. Argentina versus Cape Verde \u2014 a World Cup debutant, ninety minutes from the biggest upset of all time.",
+   "words": [
+    {
+     "word": "Now",
+     "start": 0.0,
+     "end": 0.372
+    },
+    {
+     "word": "the",
+     "start": 0.755,
+     "end": 0.871
+    },
+    {
+     "word": "match",
+     "start": 0.929,
+     "end": 1.231
+    },
+    {
+     "word": "that",
+     "start": 1.405,
+     "end": 1.579
+    },
+    {
+     "word": "nearly",
+     "start": 1.637,
+     "end": 1.881
+    },
+    {
+     "word": "broke",
+     "start": 1.927,
+     "end": 2.194
+    },
+    {
+     "word": "the",
+     "start": 2.229,
+     "end": 2.31
+    },
+    {
+     "word": "internet.",
+     "start": 2.38,
+     "end": 3.077
+    },
+    {
+     "word": "Argentina",
+     "start": 3.46,
+     "end": 4.238
+    },
+    {
+     "word": "versus",
+     "start": 4.563,
+     "end": 4.911
+    },
+    {
+     "word": "Cape",
+     "start": 4.981,
+     "end": 5.224
+    },
+    {
+     "word": "Verde",
+     "start": 5.271,
+     "end": 5.642
+    },
+    {
+     "word": "\u2014",
+     "start": 5.851,
+     "end": 6.002
+    },
+    {
+     "word": "a",
+     "start": 6.177,
+     "end": 6.246
+    },
+    {
+     "word": "World",
+     "start": 6.327,
+     "end": 6.583
+    },
+    {
+     "word": "Cup",
+     "start": 6.641,
+     "end": 6.827
+    },
+    {
+     "word": "debutant,",
+     "start": 6.908,
+     "end": 7.697
+    },
+    {
+     "word": "ninety",
+     "start": 8.081,
+     "end": 8.429
+    },
+    {
+     "word": "minutes",
+     "start": 8.487,
+     "end": 8.858
+    },
+    {
+     "word": "from",
+     "start": 9.102,
+     "end": 9.276
+    },
+    {
+     "word": "the",
+     "start": 9.323,
+     "end": 9.392
+    },
+    {
+     "word": "biggest",
+     "start": 9.439,
+     "end": 9.752
+    },
+    {
+     "word": "upset",
+     "start": 9.81,
+     "end": 10.228
+    },
+    {
+     "word": "of",
+     "start": 10.507,
+     "end": 10.646
+    },
+    {
+     "word": "all",
+     "start": 10.716,
+     "end": 10.855
+    },
+    {
+     "word": "time.",
+     "start": 10.925,
+     "end": 11.656
+    }
+   ]
+  },
+  "a2": {
+   "dur": 9.845,
+   "text": "It started to script. Messi, twenty-ninth minute \u2014 his twentieth World Cup goal, extending a record no one else is close to.",
+   "words": [
+    {
+     "word": "It",
+     "start": 0.0,
+     "end": 0.139
+    },
+    {
+     "word": "started",
+     "start": 0.197,
+     "end": 0.592
+    },
+    {
+     "word": "to",
+     "start": 0.627,
+     "end": 0.697
+    },
+    {
+     "word": "script.",
+     "start": 0.755,
+     "end": 1.335
+    },
+    {
+     "word": "Messi,",
+     "start": 1.776,
+     "end": 2.38
+    },
+    {
+     "word": "twenty-ninth",
+     "start": 2.705,
+     "end": 3.297
+    },
+    {
+     "word": "minute",
+     "start": 3.355,
+     "end": 3.738
+    },
+    {
+     "word": "\u2014",
+     "start": 3.796,
+     "end": 3.843
+    },
+    {
+     "word": "his",
+     "start": 4.168,
+     "end": 4.307
+    },
+    {
+     "word": "twentieth",
+     "start": 4.354,
+     "end": 4.807
+    },
+    {
+     "word": "World",
+     "start": 4.853,
+     "end": 5.097
+    },
+    {
+     "word": "Cup",
+     "start": 5.155,
+     "end": 5.352
+    },
+    {
+     "word": "goal,",
+     "start": 5.433,
+     "end": 5.898
+    },
+    {
+     "word": "extending",
+     "start": 6.281,
+     "end": 6.885
+    },
+    {
+     "word": "a",
+     "start": 6.966,
+     "end": 7.012
+    },
+    {
+     "word": "record",
+     "start": 7.129,
+     "end": 7.628
+    },
+    {
+     "word": "no",
+     "start": 7.872,
+     "end": 8.046
+    },
+    {
+     "word": "one",
+     "start": 8.127,
+     "end": 8.266
+    },
+    {
+     "word": "else",
+     "start": 8.301,
+     "end": 8.591
+    },
+    {
+     "word": "is",
+     "start": 8.649,
+     "end": 8.812
+    },
+    {
+     "word": "close",
+     "start": 8.882,
+     "end": 9.183
+    },
+    {
+     "word": "to.",
+     "start": 9.218,
+     "end": 9.845
+    }
+   ]
+  },
+  "a3": {
+   "dur": 9.52,
+   "text": "But Cape Verde refused to blink. Deroy Duarte equalized just before the hour, and suddenly Miami got very, very nervous.",
+   "words": [
+    {
+     "word": "But",
+     "start": 0.0,
+     "end": 0.174
+    },
+    {
+     "word": "Cape",
+     "start": 0.232,
+     "end": 0.464
+    },
+    {
+     "word": "Verde",
+     "start": 0.488,
+     "end": 0.836
+    },
+    {
+     "word": "refused",
+     "start": 0.952,
+     "end": 1.602
+    },
+    {
+     "word": "to",
+     "start": 1.683,
+     "end": 1.811
+    },
+    {
+     "word": "blink.",
+     "start": 1.881,
+     "end": 2.357
+    },
+    {
+     "word": "Deroy",
+     "start": 2.74,
+     "end": 3.077
+    },
+    {
+     "word": "Duarte",
+     "start": 3.123,
+     "end": 3.611
+    },
+    {
+     "word": "equalized",
+     "start": 3.692,
+     "end": 4.389
+    },
+    {
+     "word": "just",
+     "start": 4.505,
+     "end": 4.76
+    },
+    {
+     "word": "before",
+     "start": 4.818,
+     "end": 5.097
+    },
+    {
+     "word": "the",
+     "start": 5.132,
+     "end": 5.201
+    },
+    {
+     "word": "hour,",
+     "start": 5.259,
+     "end": 5.654
+    },
+    {
+     "word": "and",
+     "start": 5.898,
+     "end": 6.049
+    },
+    {
+     "word": "suddenly",
+     "start": 6.118,
+     "end": 6.594
+    },
+    {
+     "word": "Miami",
+     "start": 6.92,
+     "end": 7.384
+    },
+    {
+     "word": "got",
+     "start": 7.454,
+     "end": 7.639
+    },
+    {
+     "word": "very,",
+     "start": 7.755,
+     "end": 8.162
+    },
+    {
+     "word": "very",
+     "start": 8.231,
+     "end": 8.557
+    },
+    {
+     "word": "nervous.",
+     "start": 8.649,
+     "end": 9.52
+    }
+   ]
+  },
+  "a4": {
+   "dur": 15.557,
+   "text": "Lisandro Mart\u00ednez restored the lead two minutes into extra time \u2014 and Sidny Lopes Cabral equalized AGAIN from the edge of the box. Two-two. Debutants, toe to toe with the champions.",
+   "words": [
+    {
+     "word": "Lisandro",
+     "start": 0.0,
+     "end": 0.569
+    },
+    {
+     "word": "Mart\u00ednez",
+     "start": 0.627,
+     "end": 1.277
+    },
+    {
+     "word": "restored",
+     "start": 1.66,
+     "end": 2.159
+    },
+    {
+     "word": "the",
+     "start": 2.194,
+     "end": 2.264
+    },
+    {
+     "word": "lead",
+     "start": 2.322,
+     "end": 2.624
+    },
+    {
+     "word": "two",
+     "start": 2.705,
+     "end": 3.03
+    },
+    {
+     "word": "minutes",
+     "start": 3.146,
+     "end": 3.448
+    },
+    {
+     "word": "into",
+     "start": 3.518,
+     "end": 3.715
+    },
+    {
+     "word": "extra",
+     "start": 3.796,
+     "end": 4.145
+    },
+    {
+     "word": "time",
+     "start": 4.203,
+     "end": 4.586
+    },
+    {
+     "word": "\u2014",
+     "start": 4.737,
+     "end": 5.085
+    },
+    {
+     "word": "and",
+     "start": 5.236,
+     "end": 5.387
+    },
+    {
+     "word": "Sidny",
+     "start": 5.468,
+     "end": 5.759
+    },
+    {
+     "word": "Lopes",
+     "start": 5.828,
+     "end": 6.084
+    },
+    {
+     "word": "Cabral",
+     "start": 6.153,
+     "end": 6.641
+    },
+    {
+     "word": "equalized",
+     "start": 7.024,
+     "end": 7.744
+    },
+    {
+     "word": "AGAIN",
+     "start": 7.814,
+     "end": 8.371
+    },
+    {
+     "word": "from",
+     "start": 8.696,
+     "end": 8.87
+    },
+    {
+     "word": "the",
+     "start": 8.905,
+     "end": 8.975
+    },
+    {
+     "word": "edge",
+     "start": 9.056,
+     "end": 9.276
+    },
+    {
+     "word": "of",
+     "start": 9.311,
+     "end": 9.369
+    },
+    {
+     "word": "the",
+     "start": 9.416,
+     "end": 9.485
+    },
+    {
+     "word": "box.",
+     "start": 9.532,
+     "end": 10.112
+    },
+    {
+     "word": "Two-two.",
+     "start": 10.553,
+     "end": 11.378
+    },
+    {
+     "word": "Debutants,",
+     "start": 11.981,
+     "end": 12.864
+    },
+    {
+     "word": "toe",
+     "start": 13.038,
+     "end": 13.351
+    },
+    {
+     "word": "to",
+     "start": 13.41,
+     "end": 13.491
+    },
+    {
+     "word": "toe",
+     "start": 13.572,
+     "end": 13.99
+    },
+    {
+     "word": "with",
+     "start": 14.141,
+     "end": 14.327
+    },
+    {
+     "word": "the",
+     "start": 14.373,
+     "end": 14.443
+    },
+    {
+     "word": "champions.",
+     "start": 14.489,
+     "end": 15.557
+    }
+   ]
+  },
+  "a5": {
+   "dur": 13.607,
+   "text": "Then the hundred and eleventh minute. Messi corner, Romero header \u2014 own goal. Three-two Argentina. The champions survive, and Cape Verde leave with the world's respect.",
+   "words": [
+    {
+     "word": "Then",
+     "start": 0.0,
+     "end": 0.36
+    },
+    {
+     "word": "the",
+     "start": 0.534,
+     "end": 0.639
+    },
+    {
+     "word": "hundred",
+     "start": 0.708,
+     "end": 0.964
+    },
+    {
+     "word": "and",
+     "start": 0.987,
+     "end": 1.057
+    },
+    {
+     "word": "eleventh",
+     "start": 1.115,
+     "end": 1.486
+    },
+    {
+     "word": "minute.",
+     "start": 1.544,
+     "end": 2.043
+    },
+    {
+     "word": "Messi",
+     "start": 2.554,
+     "end": 2.856
+    },
+    {
+     "word": "corner,",
+     "start": 2.926,
+     "end": 3.506
+    },
+    {
+     "word": "Romero",
+     "start": 3.68,
+     "end": 4.11
+    },
+    {
+     "word": "header",
+     "start": 4.191,
+     "end": 4.47
+    },
+    {
+     "word": "\u2014",
+     "start": 4.679,
+     "end": 4.818
+    },
+    {
+     "word": "own",
+     "start": 5.027,
+     "end": 5.271
+    },
+    {
+     "word": "goal.",
+     "start": 5.341,
+     "end": 5.886
+    },
+    {
+     "word": "Three-two",
+     "start": 6.397,
+     "end": 6.978
+    },
+    {
+     "word": "Argentina.",
+     "start": 7.152,
+     "end": 8.057
+    },
+    {
+     "word": "The",
+     "start": 8.499,
+     "end": 8.615
+    },
+    {
+     "word": "champions",
+     "start": 8.661,
+     "end": 9.16
+    },
+    {
+     "word": "survive,",
+     "start": 9.207,
+     "end": 9.903
+    },
+    {
+     "word": "and",
+     "start": 10.147,
+     "end": 10.298
+    },
+    {
+     "word": "Cape",
+     "start": 10.368,
+     "end": 10.623
+    },
+    {
+     "word": "Verde",
+     "start": 10.658,
+     "end": 11.122
+    },
+    {
+     "word": "leave",
+     "start": 11.447,
+     "end": 11.958
+    },
+    {
+     "word": "with",
+     "start": 12.016,
+     "end": 12.202
+    },
+    {
+     "word": "the",
+     "start": 12.237,
+     "end": 12.307
+    },
+    {
+     "word": "world's",
+     "start": 12.353,
+     "end": 12.713
+    },
+    {
+     "word": "respect.",
+     "start": 12.748,
+     "end": 13.607
+    }
+   ]
+  },
+  "a6": {
+   "dur": 10.913,
+   "text": "Understand what almost happened: a nation of half a million people, at their first World Cup, two minutes from knocking out the defending champions.",
+   "words": [
+    {
+     "word": "Understand",
+     "start": 0.0,
+     "end": 0.801
+    },
+    {
+     "word": "what",
+     "start": 1.126,
+     "end": 1.358
+    },
+    {
+     "word": "almost",
+     "start": 1.428,
+     "end": 1.869
+    },
+    {
+     "word": "happened:",
+     "start": 1.916,
+     "end": 2.485
+    },
+    {
+     "word": "a",
+     "start": 2.868,
+     "end": 2.926
+    },
+    {
+     "word": "nation",
+     "start": 3.042,
+     "end": 3.495
+    },
+    {
+     "word": "of",
+     "start": 3.611,
+     "end": 3.75
+    },
+    {
+     "word": "half",
+     "start": 3.866,
+     "end": 4.156
+    },
+    {
+     "word": "a",
+     "start": 4.214,
+     "end": 4.238
+    },
+    {
+     "word": "million",
+     "start": 4.296,
+     "end": 4.621
+    },
+    {
+     "word": "people,",
+     "start": 4.702,
+     "end": 5.236
+    },
+    {
+     "word": "at",
+     "start": 5.48,
+     "end": 5.631
+    },
+    {
+     "word": "their",
+     "start": 5.677,
+     "end": 5.84
+    },
+    {
+     "word": "first",
+     "start": 5.898,
+     "end": 6.165
+    },
+    {
+     "word": "World",
+     "start": 6.223,
+     "end": 6.455
+    },
+    {
+     "word": "Cup,",
+     "start": 6.513,
+     "end": 6.943
+    },
+    {
+     "word": "two",
+     "start": 7.326,
+     "end": 7.546
+    },
+    {
+     "word": "minutes",
+     "start": 7.628,
+     "end": 7.988
+    },
+    {
+     "word": "from",
+     "start": 8.313,
+     "end": 8.51
+    },
+    {
+     "word": "knocking",
+     "start": 8.58,
+     "end": 8.882
+    },
+    {
+     "word": "out",
+     "start": 8.951,
+     "end": 9.137
+    },
+    {
+     "word": "the",
+     "start": 9.207,
+     "end": 9.288
+    },
+    {
+     "word": "defending",
+     "start": 9.346,
+     "end": 9.822
+    },
+    {
+     "word": "champions.",
+     "start": 9.892,
+     "end": 10.913
+    }
+   ]
+  },
+  "a7": {
+   "dur": 10.774,
+   "text": "And through all of it, Messi now leads the Golden Boot with seven goals in four matches. At thirty-nine years old. In his final World Cup.",
+   "words": [
+    {
+     "word": "And",
+     "start": 0.0,
+     "end": 0.163
+    },
+    {
+     "word": "through",
+     "start": 0.221,
+     "end": 0.499
+    },
+    {
+     "word": "all",
+     "start": 0.557,
+     "end": 0.778
+    },
+    {
+     "word": "of",
+     "start": 0.836,
+     "end": 0.882
+    },
+    {
+     "word": "it,",
+     "start": 0.94,
+     "end": 1.265
+    },
+    {
+     "word": "Messi",
+     "start": 1.591,
+     "end": 1.927
+    },
+    {
+     "word": "now",
+     "start": 2.009,
+     "end": 2.218
+    },
+    {
+     "word": "leads",
+     "start": 2.299,
+     "end": 2.577
+    },
+    {
+     "word": "the",
+     "start": 2.635,
+     "end": 2.705
+    },
+    {
+     "word": "Golden",
+     "start": 2.752,
+     "end": 3.065
+    },
+    {
+     "word": "Boot",
+     "start": 3.123,
+     "end": 3.379
+    },
+    {
+     "word": "with",
+     "start": 3.704,
+     "end": 3.901
+    },
+    {
+     "word": "seven",
+     "start": 3.971,
+     "end": 4.272
+    },
+    {
+     "word": "goals",
+     "start": 4.342,
+     "end": 4.783
+    },
+    {
+     "word": "in",
+     "start": 4.957,
+     "end": 5.097
+    },
+    {
+     "word": "four",
+     "start": 5.271,
+     "end": 5.561
+    },
+    {
+     "word": "matches.",
+     "start": 5.619,
+     "end": 6.293
+    },
+    {
+     "word": "At",
+     "start": 6.618,
+     "end": 6.78
+    },
+    {
+     "word": "thirty-nine",
+     "start": 6.85,
+     "end": 7.465
+    },
+    {
+     "word": "years",
+     "start": 7.5,
+     "end": 7.709
+    },
+    {
+     "word": "old.",
+     "start": 7.779,
+     "end": 8.208
+    },
+    {
+     "word": "In",
+     "start": 8.591,
+     "end": 8.731
+    },
+    {
+     "word": "his",
+     "start": 8.789,
+     "end": 8.916
+    },
+    {
+     "word": "final",
+     "start": 9.009,
+     "end": 9.451
+    },
+    {
+     "word": "World",
+     "start": 9.694,
+     "end": 10.043
+    },
+    {
+     "word": "Cup.",
+     "start": 10.124,
+     "end": 10.774
+    }
+   ]
+  },
+  "a8": {
+   "dur": 8.313,
+   "text": "But look who's waiting for Argentina in the Round of 16 \u2014 because this next story might be the best one in the whole tournament.",
+   "words": [
+    {
+     "word": "But",
+     "start": 0.0,
+     "end": 0.186
+    },
+    {
+     "word": "look",
+     "start": 0.232,
+     "end": 0.372
+    },
+    {
+     "word": "who's",
+     "start": 0.406,
+     "end": 0.592
+    },
+    {
+     "word": "waiting",
+     "start": 0.639,
+     "end": 0.929
+    },
+    {
+     "word": "for",
+     "start": 0.987,
+     "end": 1.091
+    },
+    {
+     "word": "Argentina",
+     "start": 1.161,
+     "end": 1.858
+    },
+    {
+     "word": "in",
+     "start": 1.927,
+     "end": 2.02
+    },
+    {
+     "word": "the",
+     "start": 2.067,
+     "end": 2.136
+    },
+    {
+     "word": "Round",
+     "start": 2.183,
+     "end": 2.38
+    },
+    {
+     "word": "of",
+     "start": 2.426,
+     "end": 2.485
+    },
+    {
+     "word": "16",
+     "start": 2.543,
+     "end": 3.065
+    },
+    {
+     "word": "\u2014",
+     "start": 3.309,
+     "end": 3.367
+    },
+    {
+     "word": "because",
+     "start": 3.878,
+     "end": 4.18
+    },
+    {
+     "word": "this",
+     "start": 4.214,
+     "end": 4.365
+    },
+    {
+     "word": "next",
+     "start": 4.458,
+     "end": 4.702
+    },
+    {
+     "word": "story",
+     "start": 4.737,
+     "end": 5.19
+    },
+    {
+     "word": "might",
+     "start": 5.573,
+     "end": 5.805
+    },
+    {
+     "word": "be",
+     "start": 5.851,
+     "end": 5.944
+    },
+    {
+     "word": "the",
+     "start": 5.991,
+     "end": 6.06
+    },
+    {
+     "word": "best",
+     "start": 6.118,
+     "end": 6.339
+    },
+    {
+     "word": "one",
+     "start": 6.409,
+     "end": 6.722
+    },
+    {
+     "word": "in",
+     "start": 6.838,
+     "end": 7.001
+    },
+    {
+     "word": "the",
+     "start": 7.047,
+     "end": 7.117
+    },
+    {
+     "word": "whole",
+     "start": 7.163,
+     "end": 7.407
+    },
+    {
+     "word": "tournament.",
+     "start": 7.465,
+     "end": 8.313
+    }
+   ]
+  },
+  "e1": {
+   "dur": 8.22,
+   "text": "Egypt had never won a World Cup knockout match in their entire history. Until Friday night in Dallas.",
+   "words": [
+    {
+     "word": "Egypt",
+     "start": 0.0,
+     "end": 0.488
+    },
+    {
+     "word": "had",
+     "start": 0.697,
+     "end": 0.859
+    },
+    {
+     "word": "never",
+     "start": 0.94,
+     "end": 1.161
+    },
+    {
+     "word": "won",
+     "start": 1.219,
+     "end": 1.486
+    },
+    {
+     "word": "a",
+     "start": 1.579,
+     "end": 1.649
+    },
+    {
+     "word": "World",
+     "start": 1.741,
+     "end": 1.997
+    },
+    {
+     "word": "Cup",
+     "start": 2.043,
+     "end": 2.252
+    },
+    {
+     "word": "knockout",
+     "start": 2.334,
+     "end": 2.74
+    },
+    {
+     "word": "match",
+     "start": 2.81,
+     "end": 3.077
+    },
+    {
+     "word": "in",
+     "start": 3.286,
+     "end": 3.483
+    },
+    {
+     "word": "their",
+     "start": 3.529,
+     "end": 3.692
+    },
+    {
+     "word": "entire",
+     "start": 3.75,
+     "end": 4.296
+    },
+    {
+     "word": "history.",
+     "start": 4.354,
+     "end": 4.969
+    },
+    {
+     "word": "Until",
+     "start": 5.573,
+     "end": 5.956
+    },
+    {
+     "word": "Friday",
+     "start": 6.072,
+     "end": 6.513
+    },
+    {
+     "word": "night",
+     "start": 6.583,
+     "end": 6.861
+    },
+    {
+     "word": "in",
+     "start": 7.187,
+     "end": 7.361
+    },
+    {
+     "word": "Dallas.",
+     "start": 7.442,
+     "end": 8.22
+    }
+   ]
+  },
+  "e2": {
+   "dur": 10.495,
+   "text": "Emam Ashour headed them in front, Australia leveled through an own goal, and after extra time it went to the lottery \u2014 penalties.",
+   "words": [
+    {
+     "word": "Emam",
+     "start": 0.0,
+     "end": 0.395
+    },
+    {
+     "word": "Ashour",
+     "start": 0.488,
+     "end": 0.975
+    },
+    {
+     "word": "headed",
+     "start": 1.3,
+     "end": 1.579
+    },
+    {
+     "word": "them",
+     "start": 1.614,
+     "end": 1.73
+    },
+    {
+     "word": "in",
+     "start": 1.776,
+     "end": 1.846
+    },
+    {
+     "word": "front,",
+     "start": 1.939,
+     "end": 2.496
+    },
+    {
+     "word": "Australia",
+     "start": 2.821,
+     "end": 3.518
+    },
+    {
+     "word": "leveled",
+     "start": 3.692,
+     "end": 4.087
+    },
+    {
+     "word": "through",
+     "start": 4.156,
+     "end": 4.47
+    },
+    {
+     "word": "an",
+     "start": 4.516,
+     "end": 4.598
+    },
+    {
+     "word": "own",
+     "start": 4.679,
+     "end": 4.969
+    },
+    {
+     "word": "goal,",
+     "start": 5.05,
+     "end": 5.631
+    },
+    {
+     "word": "and",
+     "start": 6.142,
+     "end": 6.316
+    },
+    {
+     "word": "after",
+     "start": 6.385,
+     "end": 6.653
+    },
+    {
+     "word": "extra",
+     "start": 6.722,
+     "end": 7.024
+    },
+    {
+     "word": "time",
+     "start": 7.082,
+     "end": 7.535
+    },
+    {
+     "word": "it",
+     "start": 7.814,
+     "end": 7.953
+    },
+    {
+     "word": "went",
+     "start": 7.999,
+     "end": 8.185
+    },
+    {
+     "word": "to",
+     "start": 8.22,
+     "end": 8.278
+    },
+    {
+     "word": "the",
+     "start": 8.324,
+     "end": 8.394
+    },
+    {
+     "word": "lottery",
+     "start": 8.44,
+     "end": 8.87
+    },
+    {
+     "word": "\u2014",
+     "start": 9.044,
+     "end": 9.183
+    },
+    {
+     "word": "penalties.",
+     "start": 9.509,
+     "end": 10.495
+    }
+   ]
+  },
+  "e3": {
+   "dur": 10.31,
+   "text": "Egypt scored all four. And their captain, Mohamed Salah, sealed his nation's first-ever knockout win \u2014 with a Panenka. Ice. Cold.",
+   "words": [
+    {
+     "word": "Egypt",
+     "start": 0.0,
+     "end": 0.406
+    },
+    {
+     "word": "scored",
+     "start": 0.453,
+     "end": 0.848
+    },
+    {
+     "word": "all",
+     "start": 0.906,
+     "end": 1.126
+    },
+    {
+     "word": "four.",
+     "start": 1.207,
+     "end": 1.66
+    },
+    {
+     "word": "And",
+     "start": 1.985,
+     "end": 2.125
+    },
+    {
+     "word": "their",
+     "start": 2.159,
+     "end": 2.299
+    },
+    {
+     "word": "captain,",
+     "start": 2.345,
+     "end": 2.891
+    },
+    {
+     "word": "Mohamed",
+     "start": 2.972,
+     "end": 3.402
+    },
+    {
+     "word": "Salah,",
+     "start": 3.471,
+     "end": 3.971
+    },
+    {
+     "word": "sealed",
+     "start": 4.296,
+     "end": 4.679
+    },
+    {
+     "word": "his",
+     "start": 4.725,
+     "end": 4.841
+    },
+    {
+     "word": "nation's",
+     "start": 4.899,
+     "end": 5.294
+    },
+    {
+     "word": "first-ever",
+     "start": 5.352,
+     "end": 5.979
+    },
+    {
+     "word": "knockout",
+     "start": 6.026,
+     "end": 6.397
+    },
+    {
+     "word": "win",
+     "start": 6.467,
+     "end": 6.687
+    },
+    {
+     "word": "\u2014",
+     "start": 6.896,
+     "end": 7.036
+    },
+    {
+     "word": "with",
+     "start": 7.187,
+     "end": 7.349
+    },
+    {
+     "word": "a",
+     "start": 7.384,
+     "end": 7.407
+    },
+    {
+     "word": "Panenka.",
+     "start": 7.454,
+     "end": 8.092
+    },
+    {
+     "word": "Ice.",
+     "start": 8.533,
+     "end": 9.079
+    },
+    {
+     "word": "Cold.",
+     "start": 9.52,
+     "end": 10.31
+    }
+   ]
+  },
+  "e4": {
+   "dur": 13.607,
+   "text": "And that sets up Tuesday in Atlanta: Argentina versus Egypt. Messi versus Salah. Two legends, one ticket to the quarterfinals \u2014 this is a knockout classic in the making.",
+   "words": [
+    {
+     "word": "And",
+     "start": 0.0,
+     "end": 0.151
+    },
+    {
+     "word": "that",
+     "start": 0.209,
+     "end": 0.36
+    },
+    {
+     "word": "sets",
+     "start": 0.43,
+     "end": 0.697
+    },
+    {
+     "word": "up",
+     "start": 0.743,
+     "end": 0.848
+    },
+    {
+     "word": "Tuesday",
+     "start": 0.906,
+     "end": 1.498
+    },
+    {
+     "word": "in",
+     "start": 1.591,
+     "end": 1.683
+    },
+    {
+     "word": "Atlanta:",
+     "start": 1.741,
+     "end": 2.415
+    },
+    {
+     "word": "Argentina",
+     "start": 2.694,
+     "end": 3.471
+    },
+    {
+     "word": "versus",
+     "start": 3.855,
+     "end": 4.249
+    },
+    {
+     "word": "Egypt.",
+     "start": 4.365,
+     "end": 5.016
+    },
+    {
+     "word": "Messi",
+     "start": 5.341,
+     "end": 5.793
+    },
+    {
+     "word": "versus",
+     "start": 6.177,
+     "end": 6.571
+    },
+    {
+     "word": "Salah.",
+     "start": 6.641,
+     "end": 7.314
+    },
+    {
+     "word": "Two",
+     "start": 7.697,
+     "end": 7.918
+    },
+    {
+     "word": "legends,",
+     "start": 7.999,
+     "end": 8.673
+    },
+    {
+     "word": "one",
+     "start": 8.882,
+     "end": 9.114
+    },
+    {
+     "word": "ticket",
+     "start": 9.16,
+     "end": 9.451
+    },
+    {
+     "word": "to",
+     "start": 9.485,
+     "end": 9.543
+    },
+    {
+     "word": "the",
+     "start": 9.59,
+     "end": 9.66
+    },
+    {
+     "word": "quarterfinals",
+     "start": 9.694,
+     "end": 10.507
+    },
+    {
+     "word": "\u2014",
+     "start": 10.681,
+     "end": 10.739
+    },
+    {
+     "word": "this",
+     "start": 11.064,
+     "end": 11.25
+    },
+    {
+     "word": "is",
+     "start": 11.32,
+     "end": 11.424
+    },
+    {
+     "word": "a",
+     "start": 11.471,
+     "end": 11.505
+    },
+    {
+     "word": "knockout",
+     "start": 11.587,
+     "end": 11.981
+    },
+    {
+     "word": "classic",
+     "start": 12.028,
+     "end": 12.457
+    },
+    {
+     "word": "in",
+     "start": 12.585,
+     "end": 12.713
+    },
+    {
+     "word": "the",
+     "start": 12.759,
+     "end": 12.829
+    },
+    {
+     "word": "making.",
+     "start": 12.864,
+     "end": 13.607
+    }
+   ]
+  },
+  "e5": {
+   "dur": 8.731,
+   "text": "The Golden Boot leader against the man who just carried a nation over its oldest wall. Don't you dare miss the noon kickoff.",
+   "words": [
+    {
+     "word": "The",
+     "start": 0.0,
+     "end": 0.151
+    },
+    {
+     "word": "Golden",
+     "start": 0.209,
+     "end": 0.534
+    },
+    {
+     "word": "Boot",
+     "start": 0.592,
+     "end": 0.813
+    },
+    {
+     "word": "leader",
+     "start": 0.882,
+     "end": 1.207
+    },
+    {
+     "word": "against",
+     "start": 1.416,
+     "end": 1.776
+    },
+    {
+     "word": "the",
+     "start": 1.811,
+     "end": 1.881
+    },
+    {
+     "word": "man",
+     "start": 1.939,
+     "end": 2.218
+    },
+    {
+     "word": "who",
+     "start": 2.368,
+     "end": 2.519
+    },
+    {
+     "word": "just",
+     "start": 2.601,
+     "end": 2.81
+    },
+    {
+     "word": "carried",
+     "start": 2.868,
+     "end": 3.204
+    },
+    {
+     "word": "a",
+     "start": 3.239,
+     "end": 3.262
+    },
+    {
+     "word": "nation",
+     "start": 3.344,
+     "end": 3.773
+    },
+    {
+     "word": "over",
+     "start": 4.052,
+     "end": 4.354
+    },
+    {
+     "word": "its",
+     "start": 4.423,
+     "end": 4.563
+    },
+    {
+     "word": "oldest",
+     "start": 4.632,
+     "end": 5.027
+    },
+    {
+     "word": "wall.",
+     "start": 5.097,
+     "end": 5.631
+    },
+    {
+     "word": "Don't",
+     "start": 6.014,
+     "end": 6.269
+    },
+    {
+     "word": "you",
+     "start": 6.327,
+     "end": 6.432
+    },
+    {
+     "word": "dare",
+     "start": 6.513,
+     "end": 7.012
+    },
+    {
+     "word": "miss",
+     "start": 7.187,
+     "end": 7.419
+    },
+    {
+     "word": "the",
+     "start": 7.465,
+     "end": 7.535
+    },
+    {
+     "word": "noon",
+     "start": 7.581,
+     "end": 7.79
+    },
+    {
+     "word": "kickoff.",
+     "start": 7.86,
+     "end": 8.731
+    }
+   ]
+  },
+  "s1": {
+   "dur": 7.616,
+   "text": "So here is your full Round of 16 \u2014 eight matches, four days, and it starts today. Screenshot this.",
+   "words": [
+    {
+     "word": "So",
+     "start": 0.0,
+     "end": 0.209
+    },
+    {
+     "word": "here",
+     "start": 0.279,
+     "end": 0.476
+    },
+    {
+     "word": "is",
+     "start": 0.546,
+     "end": 0.65
+    },
+    {
+     "word": "your",
+     "start": 0.708,
+     "end": 0.848
+    },
+    {
+     "word": "full",
+     "start": 0.894,
+     "end": 1.08
+    },
+    {
+     "word": "Round",
+     "start": 1.126,
+     "end": 1.335
+    },
+    {
+     "word": "of",
+     "start": 1.393,
+     "end": 1.451
+    },
+    {
+     "word": "16",
+     "start": 1.498,
+     "end": 2.032
+    },
+    {
+     "word": "\u2014",
+     "start": 2.241,
+     "end": 2.287
+    },
+    {
+     "word": "eight",
+     "start": 2.612,
+     "end": 2.833
+    },
+    {
+     "word": "matches,",
+     "start": 2.879,
+     "end": 3.379
+    },
+    {
+     "word": "four",
+     "start": 3.553,
+     "end": 3.785
+    },
+    {
+     "word": "days,",
+     "start": 3.843,
+     "end": 4.307
+    },
+    {
+     "word": "and",
+     "start": 4.516,
+     "end": 4.656
+    },
+    {
+     "word": "it",
+     "start": 4.714,
+     "end": 4.772
+    },
+    {
+     "word": "starts",
+     "start": 4.818,
+     "end": 5.178
+    },
+    {
+     "word": "today.",
+     "start": 5.236,
+     "end": 5.851
+    },
+    {
+     "word": "Screenshot",
+     "start": 6.293,
+     "end": 6.92
+    },
+    {
+     "word": "this.",
+     "start": 6.978,
+     "end": 7.616
+    }
+   ]
+  },
+  "s2": {
+   "dur": 12.121,
+   "text": "Saturday: Canada against Morocco in Houston, then Paraguay get their reward \u2014 France, in Philadelphia. Giant-killers versus the champions.",
+   "words": [
+    {
+     "word": "Saturday:",
+     "start": 0.0,
+     "end": 0.801
+    },
+    {
+     "word": "Canada",
+     "start": 1.126,
+     "end": 1.637
+    },
+    {
+     "word": "against",
+     "start": 1.707,
+     "end": 2.009
+    },
+    {
+     "word": "Morocco",
+     "start": 2.055,
+     "end": 2.554
+    },
+    {
+     "word": "in",
+     "start": 2.67,
+     "end": 2.786
+    },
+    {
+     "word": "Houston,",
+     "start": 2.902,
+     "end": 3.634
+    },
+    {
+     "word": "then",
+     "start": 3.959,
+     "end": 4.145
+    },
+    {
+     "word": "Paraguay",
+     "start": 4.226,
+     "end": 4.841
+    },
+    {
+     "word": "get",
+     "start": 5.166,
+     "end": 5.364
+    },
+    {
+     "word": "their",
+     "start": 5.41,
+     "end": 5.561
+    },
+    {
+     "word": "reward",
+     "start": 5.608,
+     "end": 6.13
+    },
+    {
+     "word": "\u2014",
+     "start": 6.281,
+     "end": 6.385
+    },
+    {
+     "word": "France,",
+     "start": 6.502,
+     "end": 7.187
+    },
+    {
+     "word": "in",
+     "start": 7.465,
+     "end": 7.605
+    },
+    {
+     "word": "Philadelphia.",
+     "start": 7.663,
+     "end": 8.603
+    },
+    {
+     "word": "Giant-killers",
+     "start": 8.986,
+     "end": 9.81
+    },
+    {
+     "word": "versus",
+     "start": 10.194,
+     "end": 10.728
+    },
+    {
+     "word": "the",
+     "start": 10.879,
+     "end": 11.006
+    },
+    {
+     "word": "champions.",
+     "start": 11.053,
+     "end": 12.121
+    }
+   ]
+  },
+  "s3": {
+   "dur": 10.913,
+   "text": "Sunday: Brazil meet Haaland's Norway at MetLife \u2014 then Mexico host England at a heaving Azteca. Kane, in the cathedral of football.",
+   "words": [
+    {
+     "word": "Sunday:",
+     "start": 0.0,
+     "end": 0.743
+    },
+    {
+     "word": "Brazil",
+     "start": 1.126,
+     "end": 1.533
+    },
+    {
+     "word": "meet",
+     "start": 1.614,
+     "end": 1.869
+    },
+    {
+     "word": "Haaland's",
+     "start": 2.043,
+     "end": 2.485
+    },
+    {
+     "word": "Norway",
+     "start": 2.543,
+     "end": 2.995
+    },
+    {
+     "word": "at",
+     "start": 3.146,
+     "end": 3.297
+    },
+    {
+     "word": "MetLife",
+     "start": 3.367,
+     "end": 3.913
+    },
+    {
+     "word": "\u2014",
+     "start": 4.087,
+     "end": 4.156
+    },
+    {
+     "word": "then",
+     "start": 4.481,
+     "end": 4.656
+    },
+    {
+     "word": "Mexico",
+     "start": 4.737,
+     "end": 5.248
+    },
+    {
+     "word": "host",
+     "start": 5.526,
+     "end": 5.805
+    },
+    {
+     "word": "England",
+     "start": 5.875,
+     "end": 6.246
+    },
+    {
+     "word": "at",
+     "start": 6.49,
+     "end": 6.641
+    },
+    {
+     "word": "a",
+     "start": 6.687,
+     "end": 6.711
+    },
+    {
+     "word": "heaving",
+     "start": 6.769,
+     "end": 7.129
+    },
+    {
+     "word": "Azteca.",
+     "start": 7.256,
+     "end": 7.976
+    },
+    {
+     "word": "Kane,",
+     "start": 8.417,
+     "end": 9.009
+    },
+    {
+     "word": "in",
+     "start": 9.16,
+     "end": 9.276
+    },
+    {
+     "word": "the",
+     "start": 9.323,
+     "end": 9.392
+    },
+    {
+     "word": "cathedral",
+     "start": 9.427,
+     "end": 9.88
+    },
+    {
+     "word": "of",
+     "start": 9.927,
+     "end": 9.985
+    },
+    {
+     "word": "football.",
+     "start": 10.031,
+     "end": 10.913
+    }
+   ]
+  },
+  "s4": {
+   "dur": 11.889,
+   "text": "Monday is the monster: Portugal versus Spain in Dallas at three Eastern \u2014 then the USA face Belgium in Seattle, without the suspended Balogun.",
+   "words": [
+    {
+     "word": "Monday",
+     "start": 0.0,
+     "end": 0.534
+    },
+    {
+     "word": "is",
+     "start": 0.743,
+     "end": 0.906
+    },
+    {
+     "word": "the",
+     "start": 0.952,
+     "end": 1.022
+    },
+    {
+     "word": "monster:",
+     "start": 1.057,
+     "end": 1.614
+    },
+    {
+     "word": "Portugal",
+     "start": 2.218,
+     "end": 2.775
+    },
+    {
+     "word": "versus",
+     "start": 2.926,
+     "end": 3.286
+    },
+    {
+     "word": "Spain",
+     "start": 3.344,
+     "end": 3.82
+    },
+    {
+     "word": "in",
+     "start": 4.331,
+     "end": 4.481
+    },
+    {
+     "word": "Dallas",
+     "start": 4.551,
+     "end": 4.946
+    },
+    {
+     "word": "at",
+     "start": 5.12,
+     "end": 5.283
+    },
+    {
+     "word": "three",
+     "start": 5.329,
+     "end": 5.573
+    },
+    {
+     "word": "Eastern",
+     "start": 5.642,
+     "end": 6.06
+    },
+    {
+     "word": "\u2014",
+     "start": 6.269,
+     "end": 6.327
+    },
+    {
+     "word": "then",
+     "start": 6.769,
+     "end": 6.92
+    },
+    {
+     "word": "the",
+     "start": 6.966,
+     "end": 7.036
+    },
+    {
+     "word": "USA",
+     "start": 7.117,
+     "end": 7.663
+    },
+    {
+     "word": "face",
+     "start": 7.779,
+     "end": 8.069
+    },
+    {
+     "word": "Belgium",
+     "start": 8.115,
+     "end": 8.533
+    },
+    {
+     "word": "in",
+     "start": 8.649,
+     "end": 8.777
+    },
+    {
+     "word": "Seattle,",
+     "start": 8.847,
+     "end": 9.485
+    },
+    {
+     "word": "without",
+     "start": 9.81,
+     "end": 10.17
+    },
+    {
+     "word": "the",
+     "start": 10.217,
+     "end": 10.286
+    },
+    {
+     "word": "suspended",
+     "start": 10.333,
+     "end": 10.879
+    },
+    {
+     "word": "Balogun.",
+     "start": 10.96,
+     "end": 11.889
+    }
+   ]
+  },
+  "s5": {
+   "dur": 10.681,
+   "text": "And Tuesday closes it out: Messi's Argentina against Salah's Egypt in Atlanta, then Switzerland versus Colombia in Vancouver completes the eight.",
+   "words": [
+    {
+     "word": "And",
+     "start": 0.0,
+     "end": 0.163
+    },
+    {
+     "word": "Tuesday",
+     "start": 0.221,
+     "end": 0.673
+    },
+    {
+     "word": "closes",
+     "start": 0.743,
+     "end": 1.126
+    },
+    {
+     "word": "it",
+     "start": 1.173,
+     "end": 1.242
+    },
+    {
+     "word": "out:",
+     "start": 1.289,
+     "end": 1.683
+    },
+    {
+     "word": "Messi's",
+     "start": 2.287,
+     "end": 2.67
+    },
+    {
+     "word": "Argentina",
+     "start": 2.752,
+     "end": 3.46
+    },
+    {
+     "word": "against",
+     "start": 3.669,
+     "end": 4.005
+    },
+    {
+     "word": "Salah's",
+     "start": 4.04,
+     "end": 4.493
+    },
+    {
+     "word": "Egypt",
+     "start": 4.609,
+     "end": 4.981
+    },
+    {
+     "word": "in",
+     "start": 5.039,
+     "end": 5.108
+    },
+    {
+     "word": "Atlanta,",
+     "start": 5.166,
+     "end": 5.875
+    },
+    {
+     "word": "then",
+     "start": 6.258,
+     "end": 6.444
+    },
+    {
+     "word": "Switzerland",
+     "start": 6.525,
+     "end": 7.024
+    },
+    {
+     "word": "versus",
+     "start": 7.082,
+     "end": 7.407
+    },
+    {
+     "word": "Colombia",
+     "start": 7.465,
+     "end": 8.022
+    },
+    {
+     "word": "in",
+     "start": 8.231,
+     "end": 8.371
+    },
+    {
+     "word": "Vancouver",
+     "start": 8.429,
+     "end": 9.044
+    },
+    {
+     "word": "completes",
+     "start": 9.369,
+     "end": 9.845
+    },
+    {
+     "word": "the",
+     "start": 9.903,
+     "end": 9.985
+    },
+    {
+     "word": "eight.",
+     "start": 10.066,
+     "end": 10.681
+    }
+   ]
+  },
+  "s6": {
+   "dur": 8.731,
+   "text": "Brazil versus Haaland alone would headline any other round \u2014 the man scored an eighty-sixth minute winner just to get here.",
+   "words": [
+    {
+     "word": "Brazil",
+     "start": 0.0,
+     "end": 0.476
+    },
+    {
+     "word": "versus",
+     "start": 0.557,
+     "end": 0.894
+    },
+    {
+     "word": "Haaland",
+     "start": 0.94,
+     "end": 1.277
+    },
+    {
+     "word": "alone",
+     "start": 1.335,
+     "end": 1.916
+    },
+    {
+     "word": "would",
+     "start": 2.125,
+     "end": 2.334
+    },
+    {
+     "word": "headline",
+     "start": 2.38,
+     "end": 2.798
+    },
+    {
+     "word": "any",
+     "start": 2.856,
+     "end": 3.088
+    },
+    {
+     "word": "other",
+     "start": 3.17,
+     "end": 3.39
+    },
+    {
+     "word": "round",
+     "start": 3.46,
+     "end": 3.831
+    },
+    {
+     "word": "\u2014",
+     "start": 4.005,
+     "end": 4.052
+    },
+    {
+     "word": "the",
+     "start": 4.435,
+     "end": 4.528
+    },
+    {
+     "word": "man",
+     "start": 4.586,
+     "end": 4.772
+    },
+    {
+     "word": "scored",
+     "start": 4.853,
+     "end": 5.271
+    },
+    {
+     "word": "an",
+     "start": 5.352,
+     "end": 5.468
+    },
+    {
+     "word": "eighty-sixth",
+     "start": 5.584,
+     "end": 6.374
+    },
+    {
+     "word": "minute",
+     "start": 6.444,
+     "end": 6.687
+    },
+    {
+     "word": "winner",
+     "start": 6.722,
+     "end": 7.012
+    },
+    {
+     "word": "just",
+     "start": 7.454,
+     "end": 7.744
+    },
+    {
+     "word": "to",
+     "start": 7.79,
+     "end": 7.848
+    },
+    {
+     "word": "get",
+     "start": 7.918,
+     "end": 8.081
+    },
+    {
+     "word": "here.",
+     "start": 8.15,
+     "end": 8.731
+    }
+   ]
+  },
+  "s7": {
+   "dur": 11.006,
+   "text": "Kane walking into the Azteca one goal past Pel\u00e9, against a Mexico side that just ended a forty-year curse there? Goosebumps.",
+   "words": [
+    {
+     "word": "Kane",
+     "start": 0.0,
+     "end": 0.546
+    },
+    {
+     "word": "walking",
+     "start": 0.72,
+     "end": 1.103
+    },
+    {
+     "word": "into",
+     "start": 1.149,
+     "end": 1.324
+    },
+    {
+     "word": "the",
+     "start": 1.382,
+     "end": 1.451
+    },
+    {
+     "word": "Azteca",
+     "start": 1.533,
+     "end": 2.136
+    },
+    {
+     "word": "one",
+     "start": 2.461,
+     "end": 2.775
+    },
+    {
+     "word": "goal",
+     "start": 2.856,
+     "end": 3.17
+    },
+    {
+     "word": "past",
+     "start": 3.262,
+     "end": 3.634
+    },
+    {
+     "word": "Pel\u00e9,",
+     "start": 3.704,
+     "end": 4.331
+    },
+    {
+     "word": "against",
+     "start": 4.54,
+     "end": 4.946
+    },
+    {
+     "word": "a",
+     "start": 5.004,
+     "end": 5.039
+    },
+    {
+     "word": "Mexico",
+     "start": 5.12,
+     "end": 5.584
+    },
+    {
+     "word": "side",
+     "start": 5.666,
+     "end": 6.2
+    },
+    {
+     "word": "that",
+     "start": 6.409,
+     "end": 6.571
+    },
+    {
+     "word": "just",
+     "start": 6.641,
+     "end": 6.885
+    },
+    {
+     "word": "ended",
+     "start": 6.954,
+     "end": 7.291
+    },
+    {
+     "word": "a",
+     "start": 7.5,
+     "end": 7.581
+    },
+    {
+     "word": "forty-year",
+     "start": 7.755,
+     "end": 8.417
+    },
+    {
+     "word": "curse",
+     "start": 8.499,
+     "end": 8.858
+    },
+    {
+     "word": "there?",
+     "start": 8.893,
+     "end": 9.358
+    },
+    {
+     "word": "Goosebumps.",
+     "start": 9.961,
+     "end": 11.006
+    }
+   ]
+  },
+  "s8": {
+   "dur": 9.149,
+   "text": "But let's be honest with each other. One of these eight matches is a final in disguise \u2014 and it kicks off Monday afternoon.",
+   "words": [
+    {
+     "word": "But",
+     "start": 0.0,
+     "end": 0.186
+    },
+    {
+     "word": "let's",
+     "start": 0.221,
+     "end": 0.406
+    },
+    {
+     "word": "be",
+     "start": 0.453,
+     "end": 0.534
+    },
+    {
+     "word": "honest",
+     "start": 0.58,
+     "end": 0.824
+    },
+    {
+     "word": "with",
+     "start": 0.848,
+     "end": 0.975
+    },
+    {
+     "word": "each",
+     "start": 1.022,
+     "end": 1.173
+    },
+    {
+     "word": "other.",
+     "start": 1.231,
+     "end": 1.625
+    },
+    {
+     "word": "One",
+     "start": 2.229,
+     "end": 2.392
+    },
+    {
+     "word": "of",
+     "start": 2.415,
+     "end": 2.461
+    },
+    {
+     "word": "these",
+     "start": 2.508,
+     "end": 2.705
+    },
+    {
+     "word": "eight",
+     "start": 2.775,
+     "end": 2.995
+    },
+    {
+     "word": "matches",
+     "start": 3.065,
+     "end": 3.529
+    },
+    {
+     "word": "is",
+     "start": 3.971,
+     "end": 4.133
+    },
+    {
+     "word": "a",
+     "start": 4.18,
+     "end": 4.214
+    },
+    {
+     "word": "final",
+     "start": 4.365,
+     "end": 4.818
+    },
+    {
+     "word": "in",
+     "start": 4.911,
+     "end": 5.016
+    },
+    {
+     "word": "disguise",
+     "start": 5.074,
+     "end": 5.77
+    },
+    {
+     "word": "\u2014",
+     "start": 5.979,
+     "end": 6.037
+    },
+    {
+     "word": "and",
+     "start": 6.478,
+     "end": 6.606
+    },
+    {
+     "word": "it",
+     "start": 6.653,
+     "end": 6.722
+    },
+    {
+     "word": "kicks",
+     "start": 6.78,
+     "end": 7.059
+    },
+    {
+     "word": "off",
+     "start": 7.129,
+     "end": 7.372
+    },
+    {
+     "word": "Monday",
+     "start": 7.697,
+     "end": 8.069
+    },
+    {
+     "word": "afternoon.",
+     "start": 8.127,
+     "end": 9.149
+    }
+   ]
+  },
+  "p1": {
+   "dur": 12.074,
+   "text": "Portugal versus Spain. Monday, three PM Eastern, AT&T Stadium in Dallas. The match of the round \u2014 and it might be the match of the entire tournament.",
+   "words": [
+    {
+     "word": "Portugal",
+     "start": 0.0,
+     "end": 0.604
+    },
+    {
+     "word": "versus",
+     "start": 0.778,
+     "end": 1.149
+    },
+    {
+     "word": "Spain.",
+     "start": 1.207,
+     "end": 1.834
+    },
+    {
+     "word": "Monday,",
+     "start": 2.345,
+     "end": 2.868
+    },
+    {
+     "word": "three",
+     "start": 2.914,
+     "end": 3.181
+    },
+    {
+     "word": "PM",
+     "start": 3.228,
+     "end": 3.553
+    },
+    {
+     "word": "Eastern,",
+     "start": 3.646,
+     "end": 4.214
+    },
+    {
+     "word": "AT&T",
+     "start": 4.54,
+     "end": 5.155
+    },
+    {
+     "word": "Stadium",
+     "start": 5.283,
+     "end": 5.817
+    },
+    {
+     "word": "in",
+     "start": 5.933,
+     "end": 6.084
+    },
+    {
+     "word": "Dallas.",
+     "start": 6.153,
+     "end": 6.757
+    },
+    {
+     "word": "The",
+     "start": 7.268,
+     "end": 7.384
+    },
+    {
+     "word": "match",
+     "start": 7.43,
+     "end": 7.628
+    },
+    {
+     "word": "of",
+     "start": 7.663,
+     "end": 7.721
+    },
+    {
+     "word": "the",
+     "start": 7.755,
+     "end": 7.825
+    },
+    {
+     "word": "round",
+     "start": 7.883,
+     "end": 8.278
+    },
+    {
+     "word": "\u2014",
+     "start": 8.452,
+     "end": 8.51
+    },
+    {
+     "word": "and",
+     "start": 8.835,
+     "end": 8.975
+    },
+    {
+     "word": "it",
+     "start": 9.021,
+     "end": 9.079
+    },
+    {
+     "word": "might",
+     "start": 9.125,
+     "end": 9.323
+    },
+    {
+     "word": "be",
+     "start": 9.369,
+     "end": 9.462
+    },
+    {
+     "word": "the",
+     "start": 9.509,
+     "end": 9.578
+    },
+    {
+     "word": "match",
+     "start": 9.625,
+     "end": 9.938
+    },
+    {
+     "word": "of",
+     "start": 10.182,
+     "end": 10.321
+    },
+    {
+     "word": "the",
+     "start": 10.379,
+     "end": 10.461
+    },
+    {
+     "word": "entire",
+     "start": 10.542,
+     "end": 11.076
+    },
+    {
+     "word": "tournament.",
+     "start": 11.134,
+     "end": 12.074
+    }
+   ]
+  },
+  "p2": {
+   "dur": 9.149,
+   "text": "An Iberian derby, in the knockout rounds of a World Cup. Neighbors. Rivals. One survives, one goes home.",
+   "words": [
+    {
+     "word": "An",
+     "start": 0.0,
+     "end": 0.139
+    },
+    {
+     "word": "Iberian",
+     "start": 0.209,
+     "end": 0.848
+    },
+    {
+     "word": "derby,",
+     "start": 0.929,
+     "end": 1.486
+    },
+    {
+     "word": "in",
+     "start": 1.66,
+     "end": 1.788
+    },
+    {
+     "word": "the",
+     "start": 1.823,
+     "end": 1.892
+    },
+    {
+     "word": "knockout",
+     "start": 1.939,
+     "end": 2.31
+    },
+    {
+     "word": "rounds",
+     "start": 2.38,
+     "end": 2.74
+    },
+    {
+     "word": "of",
+     "start": 2.786,
+     "end": 2.844
+    },
+    {
+     "word": "a",
+     "start": 2.891,
+     "end": 2.914
+    },
+    {
+     "word": "World",
+     "start": 2.984,
+     "end": 3.344
+    },
+    {
+     "word": "Cup.",
+     "start": 3.413,
+     "end": 3.878
+    },
+    {
+     "word": "Neighbors.",
+     "start": 4.389,
+     "end": 5.004
+    },
+    {
+     "word": "Rivals.",
+     "start": 5.329,
+     "end": 6.06
+    },
+    {
+     "word": "One",
+     "start": 6.385,
+     "end": 6.641
+    },
+    {
+     "word": "survives,",
+     "start": 6.687,
+     "end": 7.512
+    },
+    {
+     "word": "one",
+     "start": 7.837,
+     "end": 8.081
+    },
+    {
+     "word": "goes",
+     "start": 8.139,
+     "end": 8.417
+    },
+    {
+     "word": "home.",
+     "start": 8.487,
+     "end": 9.149
+    }
+   ]
+  },
+  "p3": {
+   "dur": 10.588,
+   "text": "And there's history here \u2014 this is a rematch of last year's Nations League final, which Spain won on penalties. Portugal have not forgotten.",
+   "words": [
+    {
+     "word": "And",
+     "start": 0.0,
+     "end": 0.151
+    },
+    {
+     "word": "there's",
+     "start": 0.197,
+     "end": 0.406
+    },
+    {
+     "word": "history",
+     "start": 0.453,
+     "end": 0.871
+    },
+    {
+     "word": "here",
+     "start": 0.952,
+     "end": 1.277
+    },
+    {
+     "word": "\u2014",
+     "start": 1.486,
+     "end": 1.533
+    },
+    {
+     "word": "this",
+     "start": 1.916,
+     "end": 2.09
+    },
+    {
+     "word": "is",
+     "start": 2.159,
+     "end": 2.252
+    },
+    {
+     "word": "a",
+     "start": 2.31,
+     "end": 2.334
+    },
+    {
+     "word": "rematch",
+     "start": 2.415,
+     "end": 2.937
+    },
+    {
+     "word": "of",
+     "start": 3.111,
+     "end": 3.251
+    },
+    {
+     "word": "last",
+     "start": 3.367,
+     "end": 3.669
+    },
+    {
+     "word": "year's",
+     "start": 3.727,
+     "end": 4.005
+    },
+    {
+     "word": "Nations",
+     "start": 4.075,
+     "end": 4.458
+    },
+    {
+     "word": "League",
+     "start": 4.528,
+     "end": 4.795
+    },
+    {
+     "word": "final,",
+     "start": 4.841,
+     "end": 5.457
+    },
+    {
+     "word": "which",
+     "start": 5.7,
+     "end": 5.909
+    },
+    {
+     "word": "Spain",
+     "start": 5.968,
+     "end": 6.351
+    },
+    {
+     "word": "won",
+     "start": 6.432,
+     "end": 6.687
+    },
+    {
+     "word": "on",
+     "start": 6.861,
+     "end": 7.047
+    },
+    {
+     "word": "penalties.",
+     "start": 7.117,
+     "end": 7.883
+    },
+    {
+     "word": "Portugal",
+     "start": 8.324,
+     "end": 8.963
+    },
+    {
+     "word": "have",
+     "start": 9.242,
+     "end": 9.427
+    },
+    {
+     "word": "not",
+     "start": 9.474,
+     "end": 9.648
+    },
+    {
+     "word": "forgotten.",
+     "start": 9.706,
+     "end": 10.588
+    }
+   ]
+  },
+  "p4": {
+   "dur": 14.257,
+   "text": "The form says Spain. Three-nil over Austria \u2014 an Oyarzabal brace \u2014 their most dominant knockout display, and their first World Cup knockout win since lifting the trophy in twenty-ten.",
+   "words": [
+    {
+     "word": "The",
+     "start": 0.0,
+     "end": 0.139
+    },
+    {
+     "word": "form",
+     "start": 0.209,
+     "end": 0.522
+    },
+    {
+     "word": "says",
+     "start": 0.604,
+     "end": 0.917
+    },
+    {
+     "word": "Spain.",
+     "start": 1.126,
+     "end": 1.858
+    },
+    {
+     "word": "Three-nil",
+     "start": 2.299,
+     "end": 2.949
+    },
+    {
+     "word": "over",
+     "start": 3.077,
+     "end": 3.332
+    },
+    {
+     "word": "Austria",
+     "start": 3.39,
+     "end": 3.855
+    },
+    {
+     "word": "\u2014",
+     "start": 4.029,
+     "end": 4.11
+    },
+    {
+     "word": "an",
+     "start": 4.319,
+     "end": 4.435
+    },
+    {
+     "word": "Oyarzabal",
+     "start": 4.493,
+     "end": 5.166
+    },
+    {
+     "word": "brace",
+     "start": 5.224,
+     "end": 5.608
+    },
+    {
+     "word": "\u2014",
+     "start": 5.759,
+     "end": 5.828
+    },
+    {
+     "word": "their",
+     "start": 6.153,
+     "end": 6.327
+    },
+    {
+     "word": "most",
+     "start": 6.374,
+     "end": 6.583
+    },
+    {
+     "word": "dominant",
+     "start": 6.653,
+     "end": 7.047
+    },
+    {
+     "word": "knockout",
+     "start": 7.094,
+     "end": 7.465
+    },
+    {
+     "word": "display,",
+     "start": 7.523,
+     "end": 8.266
+    },
+    {
+     "word": "and",
+     "start": 8.545,
+     "end": 8.684
+    },
+    {
+     "word": "their",
+     "start": 8.731,
+     "end": 8.882
+    },
+    {
+     "word": "first",
+     "start": 8.94,
+     "end": 9.3
+    },
+    {
+     "word": "World",
+     "start": 9.474,
+     "end": 9.776
+    },
+    {
+     "word": "Cup",
+     "start": 9.834,
+     "end": 10.054
+    },
+    {
+     "word": "knockout",
+     "start": 10.136,
+     "end": 10.553
+    },
+    {
+     "word": "win",
+     "start": 10.612,
+     "end": 10.925
+    },
+    {
+     "word": "since",
+     "start": 11.366,
+     "end": 11.656
+    },
+    {
+     "word": "lifting",
+     "start": 11.703,
+     "end": 12.016
+    },
+    {
+     "word": "the",
+     "start": 12.063,
+     "end": 12.132
+    },
+    {
+     "word": "trophy",
+     "start": 12.179,
+     "end": 12.62
+    },
+    {
+     "word": "in",
+     "start": 12.945,
+     "end": 13.108
+    },
+    {
+     "word": "twenty-ten.",
+     "start": 13.166,
+     "end": 14.257
+    }
+   ]
+  },
+  "p5": {
+   "dur": 10.31,
+   "text": "Portugal? They needed a Gon\u00e7alo Ramos header four minutes into stoppage time to escape Croatia. Brilliant \u2014 but breathless.",
+   "words": [
+    {
+     "word": "Portugal?",
+     "start": 0.0,
+     "end": 0.848
+    },
+    {
+     "word": "They",
+     "start": 1.231,
+     "end": 1.393
+    },
+    {
+     "word": "needed",
+     "start": 1.44,
+     "end": 1.695
+    },
+    {
+     "word": "a",
+     "start": 1.73,
+     "end": 1.753
+    },
+    {
+     "word": "Gon\u00e7alo",
+     "start": 1.8,
+     "end": 2.322
+    },
+    {
+     "word": "Ramos",
+     "start": 2.392,
+     "end": 2.728
+    },
+    {
+     "word": "header",
+     "start": 2.786,
+     "end": 3.088
+    },
+    {
+     "word": "four",
+     "start": 3.529,
+     "end": 3.924
+    },
+    {
+     "word": "minutes",
+     "start": 4.04,
+     "end": 4.447
+    },
+    {
+     "word": "into",
+     "start": 4.54,
+     "end": 4.772
+    },
+    {
+     "word": "stoppage",
+     "start": 4.888,
+     "end": 5.364
+    },
+    {
+     "word": "time",
+     "start": 5.41,
+     "end": 5.863
+    },
+    {
+     "word": "to",
+     "start": 6.072,
+     "end": 6.2
+    },
+    {
+     "word": "escape",
+     "start": 6.293,
+     "end": 6.745
+    },
+    {
+     "word": "Croatia.",
+     "start": 6.792,
+     "end": 7.593
+    },
+    {
+     "word": "Brilliant",
+     "start": 8.034,
+     "end": 8.533
+    },
+    {
+     "word": "\u2014",
+     "start": 8.707,
+     "end": 8.8
+    },
+    {
+     "word": "but",
+     "start": 9.125,
+     "end": 9.3
+    },
+    {
+     "word": "breathless.",
+     "start": 9.369,
+     "end": 10.31
+    }
+   ]
+  },
+  "p6": {
+   "dur": 12.632,
+   "text": "But this match is bigger than form. It's Yamal versus Ronaldo \u2014 the eighteen-year-old heir apparent, against the forty-one-year-old chasing the only trophy he's never touched.",
+   "words": [
+    {
+     "word": "But",
+     "start": 0.0,
+     "end": 0.186
+    },
+    {
+     "word": "this",
+     "start": 0.221,
+     "end": 0.36
+    },
+    {
+     "word": "match",
+     "start": 0.441,
+     "end": 0.72
+    },
+    {
+     "word": "is",
+     "start": 0.894,
+     "end": 1.08
+    },
+    {
+     "word": "bigger",
+     "start": 1.149,
+     "end": 1.37
+    },
+    {
+     "word": "than",
+     "start": 1.405,
+     "end": 1.533
+    },
+    {
+     "word": "form.",
+     "start": 1.614,
+     "end": 2.159
+    },
+    {
+     "word": "It's",
+     "start": 2.67,
+     "end": 2.868
+    },
+    {
+     "word": "Yamal",
+     "start": 2.926,
+     "end": 3.413
+    },
+    {
+     "word": "versus",
+     "start": 3.738,
+     "end": 4.122
+    },
+    {
+     "word": "Ronaldo",
+     "start": 4.191,
+     "end": 4.714
+    },
+    {
+     "word": "\u2014",
+     "start": 4.957,
+     "end": 5.027
+    },
+    {
+     "word": "the",
+     "start": 5.538,
+     "end": 5.642
+    },
+    {
+     "word": "eighteen-year-old",
+     "start": 5.724,
+     "end": 6.49
+    },
+    {
+     "word": "heir",
+     "start": 6.56,
+     "end": 6.734
+    },
+    {
+     "word": "apparent,",
+     "start": 6.78,
+     "end": 7.488
+    },
+    {
+     "word": "against",
+     "start": 7.814,
+     "end": 8.22
+    },
+    {
+     "word": "the",
+     "start": 8.266,
+     "end": 8.336
+    },
+    {
+     "word": "forty-one-year-old",
+     "start": 8.382,
+     "end": 9.311
+    },
+    {
+     "word": "chasing",
+     "start": 9.369,
+     "end": 9.88
+    },
+    {
+     "word": "the",
+     "start": 9.961,
+     "end": 10.054
+    },
+    {
+     "word": "only",
+     "start": 10.147,
+     "end": 10.426
+    },
+    {
+     "word": "trophy",
+     "start": 10.484,
+     "end": 10.948
+    },
+    {
+     "word": "he's",
+     "start": 11.273,
+     "end": 11.494
+    },
+    {
+     "word": "never",
+     "start": 11.552,
+     "end": 11.761
+    },
+    {
+     "word": "touched.",
+     "start": 11.831,
+     "end": 12.632
+    }
+   ]
+  },
+  "p7": {
+   "dur": 10.124,
+   "text": "Ronaldo already made history this tournament \u2014 the first player ever to score at six different World Cups. Six. Nobody has ever done that.",
+   "words": [
+    {
+     "word": "Ronaldo",
+     "start": 0.0,
+     "end": 0.569
+    },
+    {
+     "word": "already",
+     "start": 0.685,
+     "end": 1.08
+    },
+    {
+     "word": "made",
+     "start": 1.161,
+     "end": 1.44
+    },
+    {
+     "word": "history",
+     "start": 1.498,
+     "end": 1.881
+    },
+    {
+     "word": "this",
+     "start": 1.927,
+     "end": 2.067
+    },
+    {
+     "word": "tournament",
+     "start": 2.125,
+     "end": 2.659
+    },
+    {
+     "word": "\u2014",
+     "start": 2.81,
+     "end": 2.868
+    },
+    {
+     "word": "the",
+     "start": 3.193,
+     "end": 3.297
+    },
+    {
+     "word": "first",
+     "start": 3.367,
+     "end": 3.634
+    },
+    {
+     "word": "player",
+     "start": 3.692,
+     "end": 3.994
+    },
+    {
+     "word": "ever",
+     "start": 4.075,
+     "end": 4.307
+    },
+    {
+     "word": "to",
+     "start": 4.365,
+     "end": 4.435
+    },
+    {
+     "word": "score",
+     "start": 4.505,
+     "end": 4.946
+    },
+    {
+     "word": "at",
+     "start": 5.12,
+     "end": 5.283
+    },
+    {
+     "word": "six",
+     "start": 5.375,
+     "end": 5.642
+    },
+    {
+     "word": "different",
+     "start": 5.7,
+     "end": 6.014
+    },
+    {
+     "word": "World",
+     "start": 6.049,
+     "end": 6.293
+    },
+    {
+     "word": "Cups.",
+     "start": 6.362,
+     "end": 6.943
+    },
+    {
+     "word": "Six.",
+     "start": 7.268,
+     "end": 7.883
+    },
+    {
+     "word": "Nobody",
+     "start": 8.208,
+     "end": 8.719
+    },
+    {
+     "word": "has",
+     "start": 8.835,
+     "end": 8.998
+    },
+    {
+     "word": "ever",
+     "start": 9.067,
+     "end": 9.253
+    },
+    {
+     "word": "done",
+     "start": 9.311,
+     "end": 9.532
+    },
+    {
+     "word": "that.",
+     "start": 9.567,
+     "end": 10.124
+    }
+   ]
+  },
+  "p8": {
+   "dur": 13.235,
+   "text": "My honest read? Spain are the best team in this tournament right now. But Portugal have the one thing you cannot game-plan for \u2014 a legend who refuses to let his story end.",
+   "words": [
+    {
+     "word": "My",
+     "start": 0.0,
+     "end": 0.232
+    },
+    {
+     "word": "honest",
+     "start": 0.302,
+     "end": 0.604
+    },
+    {
+     "word": "read?",
+     "start": 0.685,
+     "end": 1.103
+    },
+    {
+     "word": "Spain",
+     "start": 1.428,
+     "end": 1.927
+    },
+    {
+     "word": "are",
+     "start": 2.009,
+     "end": 2.148
+    },
+    {
+     "word": "the",
+     "start": 2.171,
+     "end": 2.241
+    },
+    {
+     "word": "best",
+     "start": 2.299,
+     "end": 2.508
+    },
+    {
+     "word": "team",
+     "start": 2.554,
+     "end": 2.775
+    },
+    {
+     "word": "in",
+     "start": 2.821,
+     "end": 2.879
+    },
+    {
+     "word": "this",
+     "start": 2.902,
+     "end": 3.042
+    },
+    {
+     "word": "tournament",
+     "start": 3.1,
+     "end": 3.553
+    },
+    {
+     "word": "right",
+     "start": 3.611,
+     "end": 3.843
+    },
+    {
+     "word": "now.",
+     "start": 3.913,
+     "end": 4.331
+    },
+    {
+     "word": "But",
+     "start": 4.934,
+     "end": 5.097
+    },
+    {
+     "word": "Portugal",
+     "start": 5.155,
+     "end": 5.7
+    },
+    {
+     "word": "have",
+     "start": 5.909,
+     "end": 6.107
+    },
+    {
+     "word": "the",
+     "start": 6.142,
+     "end": 6.211
+    },
+    {
+     "word": "one",
+     "start": 6.281,
+     "end": 6.502
+    },
+    {
+     "word": "thing",
+     "start": 6.548,
+     "end": 6.78
+    },
+    {
+     "word": "you",
+     "start": 6.873,
+     "end": 6.978
+    },
+    {
+     "word": "cannot",
+     "start": 7.094,
+     "end": 7.488
+    },
+    {
+     "word": "game-plan",
+     "start": 7.57,
+     "end": 8.197
+    },
+    {
+     "word": "for",
+     "start": 8.29,
+     "end": 8.58
+    },
+    {
+     "word": "\u2014",
+     "start": 8.754,
+     "end": 8.824
+    },
+    {
+     "word": "a",
+     "start": 9.265,
+     "end": 9.346
+    },
+    {
+     "word": "legend",
+     "start": 9.497,
+     "end": 9.985
+    },
+    {
+     "word": "who",
+     "start": 10.194,
+     "end": 10.379
+    },
+    {
+     "word": "refuses",
+     "start": 10.449,
+     "end": 11.169
+    },
+    {
+     "word": "to",
+     "start": 11.378,
+     "end": 11.505
+    },
+    {
+     "word": "let",
+     "start": 11.587,
+     "end": 11.738
+    },
+    {
+     "word": "his",
+     "start": 11.784,
+     "end": 11.889
+    },
+    {
+     "word": "story",
+     "start": 11.947,
+     "end": 12.388
+    },
+    {
+     "word": "end.",
+     "start": 12.504,
+     "end": 13.235
+    }
+   ]
+  },
+  "p9": {
+   "dur": 8.081,
+   "text": "And here's the thing everyone's whispering: if Portugal survive Monday\u2026 their half of the bracket opens up. Wide open.",
+   "words": [
+    {
+     "word": "And",
+     "start": 0.0,
+     "end": 0.163
+    },
+    {
+     "word": "here's",
+     "start": 0.244,
+     "end": 0.453
+    },
+    {
+     "word": "the",
+     "start": 0.488,
+     "end": 0.557
+    },
+    {
+     "word": "thing",
+     "start": 0.604,
+     "end": 0.824
+    },
+    {
+     "word": "everyone's",
+     "start": 0.917,
+     "end": 1.382
+    },
+    {
+     "word": "whispering:",
+     "start": 1.428,
+     "end": 2.159
+    },
+    {
+     "word": "if",
+     "start": 2.485,
+     "end": 2.624
+    },
+    {
+     "word": "Portugal",
+     "start": 2.694,
+     "end": 3.158
+    },
+    {
+     "word": "survive",
+     "start": 3.216,
+     "end": 3.634
+    },
+    {
+     "word": "Monday\u2026",
+     "start": 3.692,
+     "end": 4.307
+    },
+    {
+     "word": "their",
+     "start": 4.632,
+     "end": 4.853
+    },
+    {
+     "word": "half",
+     "start": 4.923,
+     "end": 5.132
+    },
+    {
+     "word": "of",
+     "start": 5.19,
+     "end": 5.236
+    },
+    {
+     "word": "the",
+     "start": 5.283,
+     "end": 5.352
+    },
+    {
+     "word": "bracket",
+     "start": 5.387,
+     "end": 5.735
+    },
+    {
+     "word": "opens",
+     "start": 5.805,
+     "end": 6.165
+    },
+    {
+     "word": "up.",
+     "start": 6.235,
+     "end": 6.548
+    },
+    {
+     "word": "Wide",
+     "start": 6.931,
+     "end": 7.303
+    },
+    {
+     "word": "open.",
+     "start": 7.349,
+     "end": 8.081
+    }
+   ]
+  },
+  "p10": {
+   "dur": 8.081,
+   "text": "Spain are the favorites \u2014 but derbies don't read form guides. This one is genuinely fifty-fifty in my heart.",
+   "words": [
+    {
+     "word": "Spain",
+     "start": 0.0,
+     "end": 0.488
+    },
+    {
+     "word": "are",
+     "start": 0.615,
+     "end": 0.766
+    },
+    {
+     "word": "the",
+     "start": 0.789,
+     "end": 0.859
+    },
+    {
+     "word": "favorites",
+     "start": 0.917,
+     "end": 1.405
+    },
+    {
+     "word": "\u2014",
+     "start": 1.579,
+     "end": 1.707
+    },
+    {
+     "word": "but",
+     "start": 1.881,
+     "end": 2.043
+    },
+    {
+     "word": "derbies",
+     "start": 2.101,
+     "end": 2.508
+    },
+    {
+     "word": "don't",
+     "start": 2.566,
+     "end": 2.775
+    },
+    {
+     "word": "read",
+     "start": 2.833,
+     "end": 3.042
+    },
+    {
+     "word": "form",
+     "start": 3.111,
+     "end": 3.379
+    },
+    {
+     "word": "guides.",
+     "start": 3.437,
+     "end": 4.04
+    },
+    {
+     "word": "This",
+     "start": 4.551,
+     "end": 4.748
+    },
+    {
+     "word": "one",
+     "start": 4.83,
+     "end": 5.097
+    },
+    {
+     "word": "is",
+     "start": 5.248,
+     "end": 5.41
+    },
+    {
+     "word": "genuinely",
+     "start": 5.48,
+     "end": 5.991
+    },
+    {
+     "word": "fifty-fifty",
+     "start": 6.072,
+     "end": 6.815
+    },
+    {
+     "word": "in",
+     "start": 6.931,
+     "end": 7.07
+    },
+    {
+     "word": "my",
+     "start": 7.14,
+     "end": 7.291
+    },
+    {
+     "word": "heart.",
+     "start": 7.384,
+     "end": 8.081
+    }
+   ]
+  },
+  "m1": {
+   "dur": 11.238,
+   "text": "Which brings us to the scenario the entire football world wants: Messi versus Ronaldo, one last time, for the World Cup itself. Here is the exact math.",
+   "words": [
+    {
+     "word": "Which",
+     "start": 0.0,
+     "end": 0.232
+    },
+    {
+     "word": "brings",
+     "start": 0.267,
+     "end": 0.499
+    },
+    {
+     "word": "us",
+     "start": 0.546,
+     "end": 0.639
+    },
+    {
+     "word": "to",
+     "start": 0.685,
+     "end": 0.743
+    },
+    {
+     "word": "the",
+     "start": 0.801,
+     "end": 0.871
+    },
+    {
+     "word": "scenario",
+     "start": 0.917,
+     "end": 1.556
+    },
+    {
+     "word": "the",
+     "start": 1.73,
+     "end": 1.858
+    },
+    {
+     "word": "entire",
+     "start": 1.927,
+     "end": 2.368
+    },
+    {
+     "word": "football",
+     "start": 2.415,
+     "end": 2.821
+    },
+    {
+     "word": "world",
+     "start": 2.879,
+     "end": 3.1
+    },
+    {
+     "word": "wants:",
+     "start": 3.17,
+     "end": 3.715
+    },
+    {
+     "word": "Messi",
+     "start": 4.04,
+     "end": 4.354
+    },
+    {
+     "word": "versus",
+     "start": 4.435,
+     "end": 4.748
+    },
+    {
+     "word": "Ronaldo,",
+     "start": 4.818,
+     "end": 5.55
+    },
+    {
+     "word": "one",
+     "start": 5.793,
+     "end": 6.049
+    },
+    {
+     "word": "last",
+     "start": 6.118,
+     "end": 6.409
+    },
+    {
+     "word": "time,",
+     "start": 6.455,
+     "end": 6.931
+    },
+    {
+     "word": "for",
+     "start": 7.105,
+     "end": 7.233
+    },
+    {
+     "word": "the",
+     "start": 7.268,
+     "end": 7.338
+    },
+    {
+     "word": "World",
+     "start": 7.384,
+     "end": 7.651
+    },
+    {
+     "word": "Cup",
+     "start": 7.709,
+     "end": 7.941
+    },
+    {
+     "word": "itself.",
+     "start": 8.057,
+     "end": 8.812
+    },
+    {
+     "word": "Here",
+     "start": 9.195,
+     "end": 9.532
+    },
+    {
+     "word": "is",
+     "start": 9.601,
+     "end": 9.729
+    },
+    {
+     "word": "the",
+     "start": 9.787,
+     "end": 9.868
+    },
+    {
+     "word": "exact",
+     "start": 9.95,
+     "end": 10.391
+    },
+    {
+     "word": "math.",
+     "start": 10.484,
+     "end": 11.238
+    }
+   ]
+  },
+  "m2": {
+   "dur": 12.307,
+   "text": "The bracket splits perfectly. Portugal sit in the top half with Spain, France and the USA. Argentina sit in the bottom half with Brazil, England and Mexico.",
+   "words": [
+    {
+     "word": "The",
+     "start": 0.0,
+     "end": 0.139
+    },
+    {
+     "word": "bracket",
+     "start": 0.186,
+     "end": 0.511
+    },
+    {
+     "word": "splits",
+     "start": 0.569,
+     "end": 0.998
+    },
+    {
+     "word": "perfectly.",
+     "start": 1.207,
+     "end": 1.985
+    },
+    {
+     "word": "Portugal",
+     "start": 2.31,
+     "end": 2.81
+    },
+    {
+     "word": "sit",
+     "start": 2.891,
+     "end": 3.1
+    },
+    {
+     "word": "in",
+     "start": 3.181,
+     "end": 3.274
+    },
+    {
+     "word": "the",
+     "start": 3.32,
+     "end": 3.39
+    },
+    {
+     "word": "top",
+     "start": 3.425,
+     "end": 3.622
+    },
+    {
+     "word": "half",
+     "start": 3.692,
+     "end": 3.936
+    },
+    {
+     "word": "with",
+     "start": 3.994,
+     "end": 4.145
+    },
+    {
+     "word": "Spain,",
+     "start": 4.214,
+     "end": 4.807
+    },
+    {
+     "word": "France",
+     "start": 5.05,
+     "end": 5.561
+    },
+    {
+     "word": "and",
+     "start": 5.619,
+     "end": 5.77
+    },
+    {
+     "word": "the",
+     "start": 5.805,
+     "end": 5.875
+    },
+    {
+     "word": "USA.",
+     "start": 5.944,
+     "end": 6.699
+    },
+    {
+     "word": "Argentina",
+     "start": 7.21,
+     "end": 7.953
+    },
+    {
+     "word": "sit",
+     "start": 8.162,
+     "end": 8.394
+    },
+    {
+     "word": "in",
+     "start": 8.464,
+     "end": 8.545
+    },
+    {
+     "word": "the",
+     "start": 8.591,
+     "end": 8.661
+    },
+    {
+     "word": "bottom",
+     "start": 8.696,
+     "end": 8.963
+    },
+    {
+     "word": "half",
+     "start": 9.033,
+     "end": 9.276
+    },
+    {
+     "word": "with",
+     "start": 9.485,
+     "end": 9.683
+    },
+    {
+     "word": "Brazil,",
+     "start": 9.729,
+     "end": 10.368
+    },
+    {
+     "word": "England",
+     "start": 10.646,
+     "end": 11.076
+    },
+    {
+     "word": "and",
+     "start": 11.227,
+     "end": 11.389
+    },
+    {
+     "word": "Mexico.",
+     "start": 11.459,
+     "end": 12.307
+    }
+   ]
+  },
+  "m3": {
+   "dur": 12.121,
+   "text": "Ronaldo's road: beat Spain on Monday. Then the USA-Belgium winner in the quarters at SoFi. Then a semifinal in Dallas on July fourteenth.",
+   "words": [
+    {
+     "word": "Ronaldo's",
+     "start": 0.0,
+     "end": 0.685
+    },
+    {
+     "word": "road:",
+     "start": 0.743,
+     "end": 1.254
+    },
+    {
+     "word": "beat",
+     "start": 1.695,
+     "end": 1.916
+    },
+    {
+     "word": "Spain",
+     "start": 1.997,
+     "end": 2.473
+    },
+    {
+     "word": "on",
+     "start": 2.624,
+     "end": 2.798
+    },
+    {
+     "word": "Monday.",
+     "start": 2.868,
+     "end": 3.495
+    },
+    {
+     "word": "Then",
+     "start": 3.936,
+     "end": 4.238
+    },
+    {
+     "word": "the",
+     "start": 4.412,
+     "end": 4.528
+    },
+    {
+     "word": "USA-Belgium",
+     "start": 4.621,
+     "end": 5.526
+    },
+    {
+     "word": "winner",
+     "start": 5.584,
+     "end": 5.863
+    },
+    {
+     "word": "in",
+     "start": 6.142,
+     "end": 6.269
+    },
+    {
+     "word": "the",
+     "start": 6.316,
+     "end": 6.385
+    },
+    {
+     "word": "quarters",
+     "start": 6.432,
+     "end": 6.827
+    },
+    {
+     "word": "at",
+     "start": 6.885,
+     "end": 6.966
+    },
+    {
+     "word": "SoFi.",
+     "start": 7.024,
+     "end": 7.883
+    },
+    {
+     "word": "Then",
+     "start": 8.487,
+     "end": 8.661
+    },
+    {
+     "word": "a",
+     "start": 8.707,
+     "end": 8.731
+    },
+    {
+     "word": "semifinal",
+     "start": 8.789,
+     "end": 9.439
+    },
+    {
+     "word": "in",
+     "start": 9.497,
+     "end": 9.567
+    },
+    {
+     "word": "Dallas",
+     "start": 9.648,
+     "end": 10.043
+    },
+    {
+     "word": "on",
+     "start": 10.368,
+     "end": 10.542
+    },
+    {
+     "word": "July",
+     "start": 10.6,
+     "end": 10.96
+    },
+    {
+     "word": "fourteenth.",
+     "start": 11.076,
+     "end": 12.121
+    }
+   ]
+  },
+  "m4": {
+   "dur": 11.61,
+   "text": "Messi's road: past Salah's Egypt on Tuesday. Then the Switzerland-Colombia winner in Kansas City. Then a semifinal in Atlanta \u2014 possibly against Brazil.",
+   "words": [
+    {
+     "word": "Messi's",
+     "start": 0.0,
+     "end": 0.406
+    },
+    {
+     "word": "road:",
+     "start": 0.476,
+     "end": 0.987
+    },
+    {
+     "word": "past",
+     "start": 1.37,
+     "end": 1.66
+    },
+    {
+     "word": "Salah's",
+     "start": 1.718,
+     "end": 2.078
+    },
+    {
+     "word": "Egypt",
+     "start": 2.159,
+     "end": 2.485
+    },
+    {
+     "word": "on",
+     "start": 2.531,
+     "end": 2.635
+    },
+    {
+     "word": "Tuesday.",
+     "start": 2.694,
+     "end": 3.355
+    },
+    {
+     "word": "Then",
+     "start": 3.738,
+     "end": 4.005
+    },
+    {
+     "word": "the",
+     "start": 4.087,
+     "end": 4.156
+    },
+    {
+     "word": "Switzerland-Colombia",
+     "start": 4.203,
+     "end": 5.12
+    },
+    {
+     "word": "winner",
+     "start": 5.178,
+     "end": 5.445
+    },
+    {
+     "word": "in",
+     "start": 5.724,
+     "end": 5.875
+    },
+    {
+     "word": "Kansas",
+     "start": 5.956,
+     "end": 6.351
+    },
+    {
+     "word": "City.",
+     "start": 6.385,
+     "end": 6.861
+    },
+    {
+     "word": "Then",
+     "start": 7.245,
+     "end": 7.465
+    },
+    {
+     "word": "a",
+     "start": 7.512,
+     "end": 7.535
+    },
+    {
+     "word": "semifinal",
+     "start": 7.593,
+     "end": 8.266
+    },
+    {
+     "word": "in",
+     "start": 8.336,
+     "end": 8.417
+    },
+    {
+     "word": "Atlanta",
+     "start": 8.475,
+     "end": 8.986
+    },
+    {
+     "word": "\u2014",
+     "start": 9.16,
+     "end": 9.207
+    },
+    {
+     "word": "possibly",
+     "start": 9.648,
+     "end": 10.136
+    },
+    {
+     "word": "against",
+     "start": 10.31,
+     "end": 10.681
+    },
+    {
+     "word": "Brazil.",
+     "start": 10.728,
+     "end": 11.61
+    }
+   ]
+  },
+  "m5": {
+   "dur": 12.817,
+   "text": "Which means Messi and Ronaldo cannot meet in the quarters. They cannot meet in the semis. The only place their paths cross\u2026 is the final. July nineteenth. MetLife Stadium.",
+   "words": [
+    {
+     "word": "Which",
+     "start": 0.0,
+     "end": 0.232
+    },
+    {
+     "word": "means",
+     "start": 0.279,
+     "end": 0.534
+    },
+    {
+     "word": "Messi",
+     "start": 0.615,
+     "end": 0.906
+    },
+    {
+     "word": "and",
+     "start": 0.964,
+     "end": 1.045
+    },
+    {
+     "word": "Ronaldo",
+     "start": 1.103,
+     "end": 1.602
+    },
+    {
+     "word": "cannot",
+     "start": 1.927,
+     "end": 2.276
+    },
+    {
+     "word": "meet",
+     "start": 2.334,
+     "end": 2.566
+    },
+    {
+     "word": "in",
+     "start": 2.682,
+     "end": 2.821
+    },
+    {
+     "word": "the",
+     "start": 2.868,
+     "end": 2.937
+    },
+    {
+     "word": "quarters.",
+     "start": 2.995,
+     "end": 3.715
+    },
+    {
+     "word": "They",
+     "start": 3.959,
+     "end": 4.122
+    },
+    {
+     "word": "cannot",
+     "start": 4.168,
+     "end": 4.47
+    },
+    {
+     "word": "meet",
+     "start": 4.54,
+     "end": 4.748
+    },
+    {
+     "word": "in",
+     "start": 4.818,
+     "end": 4.923
+    },
+    {
+     "word": "the",
+     "start": 4.957,
+     "end": 5.027
+    },
+    {
+     "word": "semis.",
+     "start": 5.085,
+     "end": 5.793
+    },
+    {
+     "word": "The",
+     "start": 6.177,
+     "end": 6.316
+    },
+    {
+     "word": "only",
+     "start": 6.385,
+     "end": 6.618
+    },
+    {
+     "word": "place",
+     "start": 6.676,
+     "end": 6.978
+    },
+    {
+     "word": "their",
+     "start": 7.012,
+     "end": 7.175
+    },
+    {
+     "word": "paths",
+     "start": 7.221,
+     "end": 7.546
+    },
+    {
+     "word": "cross\u2026",
+     "start": 7.605,
+     "end": 8.208
+    },
+    {
+     "word": "is",
+     "start": 8.487,
+     "end": 8.649
+    },
+    {
+     "word": "the",
+     "start": 8.696,
+     "end": 8.766
+    },
+    {
+     "word": "final.",
+     "start": 8.824,
+     "end": 9.369
+    },
+    {
+     "word": "July",
+     "start": 9.973,
+     "end": 10.275
+    },
+    {
+     "word": "nineteenth.",
+     "start": 10.356,
+     "end": 11.134
+    },
+    {
+     "word": "MetLife",
+     "start": 11.459,
+     "end": 11.912
+    },
+    {
+     "word": "Stadium.",
+     "start": 11.947,
+     "end": 12.817
+    }
+   ]
+  },
+  "m6": {
+   "dur": 16.161,
+   "text": "Messi, thirty-nine, leading the Golden Boot with seven. Ronaldo, forty-one, scoring at his sixth World Cup. Three wins each. That is all that separates us from the greatest final in football history.",
+   "words": [
+    {
+     "word": "Messi,",
+     "start": 0.0,
+     "end": 0.592
+    },
+    {
+     "word": "thirty-nine,",
+     "start": 0.743,
+     "end": 1.567
+    },
+    {
+     "word": "leading",
+     "start": 1.741,
+     "end": 2.043
+    },
+    {
+     "word": "the",
+     "start": 2.101,
+     "end": 2.171
+    },
+    {
+     "word": "Golden",
+     "start": 2.229,
+     "end": 2.554
+    },
+    {
+     "word": "Boot",
+     "start": 2.612,
+     "end": 2.833
+    },
+    {
+     "word": "with",
+     "start": 2.879,
+     "end": 3.042
+    },
+    {
+     "word": "seven.",
+     "start": 3.111,
+     "end": 3.727
+    },
+    {
+     "word": "Ronaldo,",
+     "start": 4.423,
+     "end": 5.166
+    },
+    {
+     "word": "forty-one,",
+     "start": 5.341,
+     "end": 6.153
+    },
+    {
+     "word": "scoring",
+     "start": 6.432,
+     "end": 6.954
+    },
+    {
+     "word": "at",
+     "start": 7.047,
+     "end": 7.175
+    },
+    {
+     "word": "his",
+     "start": 7.221,
+     "end": 7.338
+    },
+    {
+     "word": "sixth",
+     "start": 7.419,
+     "end": 7.732
+    },
+    {
+     "word": "World",
+     "start": 7.814,
+     "end": 8.069
+    },
+    {
+     "word": "Cup.",
+     "start": 8.15,
+     "end": 8.626
+    },
+    {
+     "word": "Three",
+     "start": 9.323,
+     "end": 9.625
+    },
+    {
+     "word": "wins",
+     "start": 9.683,
+     "end": 9.985
+    },
+    {
+     "word": "each.",
+     "start": 10.054,
+     "end": 10.53
+    },
+    {
+     "word": "That",
+     "start": 11.041,
+     "end": 11.366
+    },
+    {
+     "word": "is",
+     "start": 11.61,
+     "end": 11.784
+    },
+    {
+     "word": "all",
+     "start": 11.831,
+     "end": 11.958
+    },
+    {
+     "word": "that",
+     "start": 12.016,
+     "end": 12.132
+    },
+    {
+     "word": "separates",
+     "start": 12.19,
+     "end": 12.713
+    },
+    {
+     "word": "us",
+     "start": 12.759,
+     "end": 12.945
+    },
+    {
+     "word": "from",
+     "start": 13.27,
+     "end": 13.444
+    },
+    {
+     "word": "the",
+     "start": 13.479,
+     "end": 13.549
+    },
+    {
+     "word": "greatest",
+     "start": 13.618,
+     "end": 13.99
+    },
+    {
+     "word": "final",
+     "start": 14.048,
+     "end": 14.42
+    },
+    {
+     "word": "in",
+     "start": 14.594,
+     "end": 14.745
+    },
+    {
+     "word": "football",
+     "start": 14.838,
+     "end": 15.314
+    },
+    {
+     "word": "history.",
+     "start": 15.383,
+     "end": 16.161
+    }
+   ]
+  },
+  "m7": {
+   "dur": 16.393,
+   "text": "And one more wrinkle \u2014 Argentina and Brazil share the bottom half, so the Supercl\u00e1sico of the Americas can only happen in the semifinal in Atlanta. An Argentina-Brazil final is mathematically impossible.",
+   "words": [
+    {
+     "word": "And",
+     "start": 0.0,
+     "end": 0.163
+    },
+    {
+     "word": "one",
+     "start": 0.244,
+     "end": 0.43
+    },
+    {
+     "word": "more",
+     "start": 0.476,
+     "end": 0.697
+    },
+    {
+     "word": "wrinkle",
+     "start": 0.743,
+     "end": 1.173
+    },
+    {
+     "word": "\u2014",
+     "start": 1.382,
+     "end": 1.73
+    },
+    {
+     "word": "Argentina",
+     "start": 1.846,
+     "end": 2.531
+    },
+    {
+     "word": "and",
+     "start": 2.601,
+     "end": 2.717
+    },
+    {
+     "word": "Brazil",
+     "start": 2.775,
+     "end": 3.262
+    },
+    {
+     "word": "share",
+     "start": 3.646,
+     "end": 4.133
+    },
+    {
+     "word": "the",
+     "start": 4.191,
+     "end": 4.261
+    },
+    {
+     "word": "bottom",
+     "start": 4.307,
+     "end": 4.586
+    },
+    {
+     "word": "half,",
+     "start": 4.667,
+     "end": 5.166
+    },
+    {
+     "word": "so",
+     "start": 5.445,
+     "end": 5.619
+    },
+    {
+     "word": "the",
+     "start": 5.689,
+     "end": 5.759
+    },
+    {
+     "word": "Supercl\u00e1sico",
+     "start": 5.851,
+     "end": 6.803
+    },
+    {
+     "word": "of",
+     "start": 6.885,
+     "end": 6.966
+    },
+    {
+     "word": "the",
+     "start": 7.024,
+     "end": 7.094
+    },
+    {
+     "word": "Americas",
+     "start": 7.163,
+     "end": 7.674
+    },
+    {
+     "word": "can",
+     "start": 7.918,
+     "end": 8.104
+    },
+    {
+     "word": "only",
+     "start": 8.173,
+     "end": 8.429
+    },
+    {
+     "word": "happen",
+     "start": 8.499,
+     "end": 8.847
+    },
+    {
+     "word": "in",
+     "start": 9.172,
+     "end": 9.311
+    },
+    {
+     "word": "the",
+     "start": 9.358,
+     "end": 9.427
+    },
+    {
+     "word": "semifinal",
+     "start": 9.497,
+     "end": 10.356
+    },
+    {
+     "word": "in",
+     "start": 10.53,
+     "end": 10.67
+    },
+    {
+     "word": "Atlanta.",
+     "start": 10.728,
+     "end": 11.436
+    },
+    {
+     "word": "An",
+     "start": 12.132,
+     "end": 12.272
+    },
+    {
+     "word": "Argentina-Brazil",
+     "start": 12.353,
+     "end": 13.351
+    },
+    {
+     "word": "final",
+     "start": 13.468,
+     "end": 13.944
+    },
+    {
+     "word": "is",
+     "start": 14.454,
+     "end": 14.617
+    },
+    {
+     "word": "mathematically",
+     "start": 14.698,
+     "end": 15.348
+    },
+    {
+     "word": "impossible.",
+     "start": 15.406,
+     "end": 16.393
+    }
+   ]
+  },
+  "m8": {
+   "dur": 8.777,
+   "text": "One bracket. Two GOATs. Two weeks of football history hanging on every single kick. This is why we watch.",
+   "words": [
+    {
+     "word": "One",
+     "start": 0.0,
+     "end": 0.221
+    },
+    {
+     "word": "bracket.",
+     "start": 0.267,
+     "end": 0.801
+    },
+    {
+     "word": "Two",
+     "start": 1.01,
+     "end": 1.242
+    },
+    {
+     "word": "GOATs.",
+     "start": 1.335,
+     "end": 1.927
+    },
+    {
+     "word": "Two",
+     "start": 2.252,
+     "end": 2.485
+    },
+    {
+     "word": "weeks",
+     "start": 2.554,
+     "end": 2.821
+    },
+    {
+     "word": "of",
+     "start": 2.868,
+     "end": 2.926
+    },
+    {
+     "word": "football",
+     "start": 2.972,
+     "end": 3.39
+    },
+    {
+     "word": "history",
+     "start": 3.448,
+     "end": 3.901
+    },
+    {
+     "word": "hanging",
+     "start": 4.18,
+     "end": 4.493
+    },
+    {
+     "word": "on",
+     "start": 4.54,
+     "end": 4.621
+    },
+    {
+     "word": "every",
+     "start": 4.772,
+     "end": 5.132
+    },
+    {
+     "word": "single",
+     "start": 5.224,
+     "end": 5.619
+    },
+    {
+     "word": "kick.",
+     "start": 5.677,
+     "end": 6.153
+    },
+    {
+     "word": "This",
+     "start": 6.594,
+     "end": 6.78
+    },
+    {
+     "word": "is",
+     "start": 6.838,
+     "end": 6.92
+    },
+    {
+     "word": "why",
+     "start": 6.978,
+     "end": 7.303
+    },
+    {
+     "word": "we",
+     "start": 7.744,
+     "end": 7.918
+    },
+    {
+     "word": "watch.",
+     "start": 7.988,
+     "end": 8.777
+    }
+   ]
+  },
+  "q1": {
+   "dur": 7.059,
+   "text": "Alright \u2014 my Round of 16 calls. Screenshot these and roast me in the comments when they age badly.",
+   "words": [
+    {
+     "word": "Alright",
+     "start": 0.0,
+     "end": 0.488
+    },
+    {
+     "word": "\u2014",
+     "start": 0.639,
+     "end": 0.697
+    },
+    {
+     "word": "my",
+     "start": 0.975,
+     "end": 1.103
+    },
+    {
+     "word": "Round",
+     "start": 1.184,
+     "end": 1.416
+    },
+    {
+     "word": "of",
+     "start": 1.474,
+     "end": 1.533
+    },
+    {
+     "word": "16",
+     "start": 1.591,
+     "end": 2.009
+    },
+    {
+     "word": "calls.",
+     "start": 2.09,
+     "end": 2.624
+    },
+    {
+     "word": "Screenshot",
+     "start": 2.902,
+     "end": 3.529
+    },
+    {
+     "word": "these",
+     "start": 3.587,
+     "end": 3.936
+    },
+    {
+     "word": "and",
+     "start": 4.087,
+     "end": 4.249
+    },
+    {
+     "word": "roast",
+     "start": 4.319,
+     "end": 4.574
+    },
+    {
+     "word": "me",
+     "start": 4.632,
+     "end": 4.702
+    },
+    {
+     "word": "in",
+     "start": 4.737,
+     "end": 4.807
+    },
+    {
+     "word": "the",
+     "start": 4.841,
+     "end": 4.911
+    },
+    {
+     "word": "comments",
+     "start": 4.957,
+     "end": 5.341
+    },
+    {
+     "word": "when",
+     "start": 5.515,
+     "end": 5.712
+    },
+    {
+     "word": "they",
+     "start": 5.747,
+     "end": 5.886
+    },
+    {
+     "word": "age",
+     "start": 5.956,
+     "end": 6.235
+    },
+    {
+     "word": "badly.",
+     "start": 6.293,
+     "end": 7.059
+    }
+   ]
+  },
+  "q2": {
+   "dur": 12.817,
+   "text": "Top half: France handle Paraguay's wall. Morocco's fairytale continues past Canada. Spain edge Portugal \u2014 barely. And Belgium punish that Balogun suspension.",
+   "words": [
+    {
+     "word": "Top",
+     "start": 0.0,
+     "end": 0.29
+    },
+    {
+     "word": "half:",
+     "start": 0.372,
+     "end": 0.882
+    },
+    {
+     "word": "France",
+     "start": 1.207,
+     "end": 1.765
+    },
+    {
+     "word": "handle",
+     "start": 1.892,
+     "end": 2.322
+    },
+    {
+     "word": "Paraguay's",
+     "start": 2.38,
+     "end": 2.949
+    },
+    {
+     "word": "wall.",
+     "start": 3.019,
+     "end": 3.553
+    },
+    {
+     "word": "Morocco's",
+     "start": 3.994,
+     "end": 4.551
+    },
+    {
+     "word": "fairytale",
+     "start": 4.609,
+     "end": 5.248
+    },
+    {
+     "word": "continues",
+     "start": 5.306,
+     "end": 5.828
+    },
+    {
+     "word": "past",
+     "start": 5.875,
+     "end": 6.153
+    },
+    {
+     "word": "Canada.",
+     "start": 6.2,
+     "end": 6.792
+    },
+    {
+     "word": "Spain",
+     "start": 7.303,
+     "end": 7.744
+    },
+    {
+     "word": "edge",
+     "start": 7.86,
+     "end": 8.069
+    },
+    {
+     "word": "Portugal",
+     "start": 8.104,
+     "end": 8.58
+    },
+    {
+     "word": "\u2014",
+     "start": 8.754,
+     "end": 8.812
+    },
+    {
+     "word": "barely.",
+     "start": 8.963,
+     "end": 9.509
+    },
+    {
+     "word": "And",
+     "start": 9.834,
+     "end": 9.996
+    },
+    {
+     "word": "Belgium",
+     "start": 10.054,
+     "end": 10.495
+    },
+    {
+     "word": "punish",
+     "start": 10.646,
+     "end": 11.029
+    },
+    {
+     "word": "that",
+     "start": 11.088,
+     "end": 11.25
+    },
+    {
+     "word": "Balogun",
+     "start": 11.32,
+     "end": 11.784
+    },
+    {
+     "word": "suspension.",
+     "start": 11.865,
+     "end": 12.817
+    }
+   ]
+  },
+  "q3": {
+   "dur": 13.653,
+   "text": "Bottom half: Brazil deal with Haaland. England silence the Azteca \u2014 just. Argentina beat Egypt in a classic. And Colombia continue their quiet, ruthless march.",
+   "words": [
+    {
+     "word": "Bottom",
+     "start": 0.0,
+     "end": 0.348
+    },
+    {
+     "word": "half:",
+     "start": 0.418,
+     "end": 0.824
+    },
+    {
+     "word": "Brazil",
+     "start": 1.068,
+     "end": 1.556
+    },
+    {
+     "word": "deal",
+     "start": 1.8,
+     "end": 2.101
+    },
+    {
+     "word": "with",
+     "start": 2.171,
+     "end": 2.322
+    },
+    {
+     "word": "Haaland.",
+     "start": 2.368,
+     "end": 2.926
+    },
+    {
+     "word": "England",
+     "start": 3.367,
+     "end": 3.773
+    },
+    {
+     "word": "silence",
+     "start": 3.866,
+     "end": 4.342
+    },
+    {
+     "word": "the",
+     "start": 4.365,
+     "end": 4.435
+    },
+    {
+     "word": "Azteca",
+     "start": 4.505,
+     "end": 5.004
+    },
+    {
+     "word": "\u2014",
+     "start": 5.178,
+     "end": 5.248
+    },
+    {
+     "word": "just.",
+     "start": 5.457,
+     "end": 6.037
+    },
+    {
+     "word": "Argentina",
+     "start": 6.548,
+     "end": 7.268
+    },
+    {
+     "word": "beat",
+     "start": 7.361,
+     "end": 7.581
+    },
+    {
+     "word": "Egypt",
+     "start": 7.697,
+     "end": 8.081
+    },
+    {
+     "word": "in",
+     "start": 8.15,
+     "end": 8.266
+    },
+    {
+     "word": "a",
+     "start": 8.301,
+     "end": 8.336
+    },
+    {
+     "word": "classic.",
+     "start": 8.406,
+     "end": 9.009
+    },
+    {
+     "word": "And",
+     "start": 9.52,
+     "end": 9.671
+    },
+    {
+     "word": "Colombia",
+     "start": 9.729,
+     "end": 10.263
+    },
+    {
+     "word": "continue",
+     "start": 10.542,
+     "end": 11.18
+    },
+    {
+     "word": "their",
+     "start": 11.215,
+     "end": 11.378
+    },
+    {
+     "word": "quiet,",
+     "start": 11.447,
+     "end": 12.016
+    },
+    {
+     "word": "ruthless",
+     "start": 12.341,
+     "end": 12.829
+    },
+    {
+     "word": "march.",
+     "start": 12.887,
+     "end": 13.653
+    }
+   ]
+  },
+  "q4": {
+   "dur": 8.499,
+   "text": "Why Colombia? Because a team that holds a knockout opponent to zero shots on target is not a fluke \u2014 that is a machine.",
+   "words": [
+    {
+     "word": "Why",
+     "start": 0.0,
+     "end": 0.302
+    },
+    {
+     "word": "Colombia?",
+     "start": 0.383,
+     "end": 1.091
+    },
+    {
+     "word": "Because",
+     "start": 1.474,
+     "end": 1.776
+    },
+    {
+     "word": "a",
+     "start": 1.811,
+     "end": 1.834
+    },
+    {
+     "word": "team",
+     "start": 1.881,
+     "end": 2.148
+    },
+    {
+     "word": "that",
+     "start": 2.206,
+     "end": 2.334
+    },
+    {
+     "word": "holds",
+     "start": 2.38,
+     "end": 2.635
+    },
+    {
+     "word": "a",
+     "start": 2.67,
+     "end": 2.705
+    },
+    {
+     "word": "knockout",
+     "start": 2.786,
+     "end": 3.135
+    },
+    {
+     "word": "opponent",
+     "start": 3.17,
+     "end": 3.564
+    },
+    {
+     "word": "to",
+     "start": 3.599,
+     "end": 3.657
+    },
+    {
+     "word": "zero",
+     "start": 3.738,
+     "end": 4.04
+    },
+    {
+     "word": "shots",
+     "start": 4.122,
+     "end": 4.412
+    },
+    {
+     "word": "on",
+     "start": 4.47,
+     "end": 4.563
+    },
+    {
+     "word": "target",
+     "start": 4.632,
+     "end": 5.039
+    },
+    {
+     "word": "is",
+     "start": 5.364,
+     "end": 5.538
+    },
+    {
+     "word": "not",
+     "start": 5.608,
+     "end": 5.793
+    },
+    {
+     "word": "a",
+     "start": 5.84,
+     "end": 5.863
+    },
+    {
+     "word": "fluke",
+     "start": 5.921,
+     "end": 6.362
+    },
+    {
+     "word": "\u2014",
+     "start": 6.478,
+     "end": 6.525
+    },
+    {
+     "word": "that",
+     "start": 6.85,
+     "end": 7.14
+    },
+    {
+     "word": "is",
+     "start": 7.384,
+     "end": 7.546
+    },
+    {
+     "word": "a",
+     "start": 7.593,
+     "end": 7.616
+    },
+    {
+     "word": "machine.",
+     "start": 7.663,
+     "end": 8.498
+    }
+   ]
+  },
+  "q5": {
+   "dur": 11.424,
+   "text": "And the coin flip: USA-Belgium. Without Balogun, the hosts lose their edge \u2014 but Seattle will be deafening. I would not bet my phone on that one.",
+   "words": [
+    {
+     "word": "And",
+     "start": 0.0,
+     "end": 0.163
+    },
+    {
+     "word": "the",
+     "start": 0.221,
+     "end": 0.29
+    },
+    {
+     "word": "coin",
+     "start": 0.337,
+     "end": 0.604
+    },
+    {
+     "word": "flip:",
+     "start": 0.673,
+     "end": 1.103
+    },
+    {
+     "word": "USA-Belgium.",
+     "start": 1.486,
+     "end": 2.775
+    },
+    {
+     "word": "Without",
+     "start": 3.158,
+     "end": 3.529
+    },
+    {
+     "word": "Balogun,",
+     "start": 3.587,
+     "end": 4.214
+    },
+    {
+     "word": "the",
+     "start": 4.365,
+     "end": 4.481
+    },
+    {
+     "word": "hosts",
+     "start": 4.54,
+     "end": 5.027
+    },
+    {
+     "word": "lose",
+     "start": 5.178,
+     "end": 5.48
+    },
+    {
+     "word": "their",
+     "start": 5.515,
+     "end": 5.689
+    },
+    {
+     "word": "edge",
+     "start": 5.759,
+     "end": 6.142
+    },
+    {
+     "word": "\u2014",
+     "start": 6.293,
+     "end": 6.339
+    },
+    {
+     "word": "but",
+     "start": 6.722,
+     "end": 6.873
+    },
+    {
+     "word": "Seattle",
+     "start": 6.931,
+     "end": 7.349
+    },
+    {
+     "word": "will",
+     "start": 7.384,
+     "end": 7.512
+    },
+    {
+     "word": "be",
+     "start": 7.558,
+     "end": 7.628
+    },
+    {
+     "word": "deafening.",
+     "start": 7.686,
+     "end": 8.278
+    },
+    {
+     "word": "I",
+     "start": 8.789,
+     "end": 8.847
+    },
+    {
+     "word": "would",
+     "start": 8.916,
+     "end": 9.079
+    },
+    {
+     "word": "not",
+     "start": 9.149,
+     "end": 9.334
+    },
+    {
+     "word": "bet",
+     "start": 9.404,
+     "end": 9.567
+    },
+    {
+     "word": "my",
+     "start": 9.636,
+     "end": 9.741
+    },
+    {
+     "word": "phone",
+     "start": 9.81,
+     "end": 10.228
+    },
+    {
+     "word": "on",
+     "start": 10.379,
+     "end": 10.542
+    },
+    {
+     "word": "that",
+     "start": 10.6,
+     "end": 10.751
+    },
+    {
+     "word": "one.",
+     "start": 10.832,
+     "end": 11.424
+    }
+   ]
+  },
+  "q6": {
+   "dur": 12.492,
+   "text": "Best match: Portugal-Spain, nothing close. Best story: Egypt. Best player so far: Messi \u2014 seven goals, and counting. And the best is yet to come.",
+   "words": [
+    {
+     "word": "Best",
+     "start": 0.0,
+     "end": 0.29
+    },
+    {
+     "word": "match:",
+     "start": 0.348,
+     "end": 0.778
+    },
+    {
+     "word": "Portugal-Spain,",
+     "start": 0.987,
+     "end": 1.997
+    },
+    {
+     "word": "nothing",
+     "start": 2.171,
+     "end": 2.438
+    },
+    {
+     "word": "close.",
+     "start": 2.496,
+     "end": 2.995
+    },
+    {
+     "word": "Best",
+     "start": 3.379,
+     "end": 3.622
+    },
+    {
+     "word": "story:",
+     "start": 3.657,
+     "end": 4.249
+    },
+    {
+     "word": "Egypt.",
+     "start": 4.574,
+     "end": 5.143
+    },
+    {
+     "word": "Best",
+     "start": 5.468,
+     "end": 5.7
+    },
+    {
+     "word": "player",
+     "start": 5.747,
+     "end": 5.991
+    },
+    {
+     "word": "so",
+     "start": 6.049,
+     "end": 6.211
+    },
+    {
+     "word": "far:",
+     "start": 6.293,
+     "end": 6.78
+    },
+    {
+     "word": "Messi",
+     "start": 7.384,
+     "end": 7.767
+    },
+    {
+     "word": "\u2014",
+     "start": 7.976,
+     "end": 8.034
+    },
+    {
+     "word": "seven",
+     "start": 8.243,
+     "end": 8.545
+    },
+    {
+     "word": "goals,",
+     "start": 8.603,
+     "end": 9.079
+    },
+    {
+     "word": "and",
+     "start": 9.253,
+     "end": 9.416
+    },
+    {
+     "word": "counting.",
+     "start": 9.509,
+     "end": 10.066
+    },
+    {
+     "word": "And",
+     "start": 10.449,
+     "end": 10.588
+    },
+    {
+     "word": "the",
+     "start": 10.635,
+     "end": 10.704
+    },
+    {
+     "word": "best",
+     "start": 10.751,
+     "end": 11.041
+    },
+    {
+     "word": "is",
+     "start": 11.285,
+     "end": 11.447
+    },
+    {
+     "word": "yet",
+     "start": 11.505,
+     "end": 11.668
+    },
+    {
+     "word": "to",
+     "start": 11.714,
+     "end": 11.784
+    },
+    {
+     "word": "come.",
+     "start": 11.854,
+     "end": 12.492
+    }
+   ]
+  },
+  "q7": {
+   "dur": 10.728,
+   "text": "And yes \u2014 I'm saying it out loud: my final is Argentina against the winner of Portugal and Spain. Destiny has a sense of drama.",
+   "words": [
+    {
+     "word": "And",
+     "start": 0.0,
+     "end": 0.163
+    },
+    {
+     "word": "yes",
+     "start": 0.221,
+     "end": 0.464
+    },
+    {
+     "word": "\u2014",
+     "start": 0.708,
+     "end": 0.801
+    },
+    {
+     "word": "I'm",
+     "start": 0.871,
+     "end": 1.057
+    },
+    {
+     "word": "saying",
+     "start": 1.115,
+     "end": 1.358
+    },
+    {
+     "word": "it",
+     "start": 1.405,
+     "end": 1.474
+    },
+    {
+     "word": "out",
+     "start": 1.533,
+     "end": 1.707
+    },
+    {
+     "word": "loud:",
+     "start": 1.776,
+     "end": 2.218
+    },
+    {
+     "word": "my",
+     "start": 2.601,
+     "end": 2.74
+    },
+    {
+     "word": "final",
+     "start": 2.856,
+     "end": 3.262
+    },
+    {
+     "word": "is",
+     "start": 3.471,
+     "end": 3.634
+    },
+    {
+     "word": "Argentina",
+     "start": 3.727,
+     "end": 4.458
+    },
+    {
+     "word": "against",
+     "start": 4.667,
+     "end": 5.027
+    },
+    {
+     "word": "the",
+     "start": 5.062,
+     "end": 5.132
+    },
+    {
+     "word": "winner",
+     "start": 5.166,
+     "end": 5.422
+    },
+    {
+     "word": "of",
+     "start": 5.538,
+     "end": 5.666
+    },
+    {
+     "word": "Portugal",
+     "start": 5.735,
+     "end": 6.235
+    },
+    {
+     "word": "and",
+     "start": 6.444,
+     "end": 6.618
+    },
+    {
+     "word": "Spain.",
+     "start": 6.699,
+     "end": 7.279
+    },
+    {
+     "word": "Destiny",
+     "start": 7.976,
+     "end": 8.545
+    },
+    {
+     "word": "has",
+     "start": 8.824,
+     "end": 9.009
+    },
+    {
+     "word": "a",
+     "start": 9.056,
+     "end": 9.091
+    },
+    {
+     "word": "sense",
+     "start": 9.172,
+     "end": 9.613
+    },
+    {
+     "word": "of",
+     "start": 9.671,
+     "end": 9.799
+    },
+    {
+     "word": "drama.",
+     "start": 9.88,
+     "end": 10.728
+    }
+   ]
+  },
+  "cta": {
+   "dur": 10.728,
+   "text": "The Round of 16 breaks down right here the moment it ends \u2014 so subscribe to mindwired, drop your bracket in the comments, and I'll see you after the whistle.",
+   "words": [
+    {
+     "word": "The",
+     "start": 0.0,
+     "end": 0.151
+    },
+    {
+     "word": "Round",
+     "start": 0.209,
+     "end": 0.43
+    },
+    {
+     "word": "of",
+     "start": 0.476,
+     "end": 0.534
+    },
+    {
+     "word": "16",
+     "start": 0.592,
+     "end": 1.115
+    },
+    {
+     "word": "breaks",
+     "start": 1.393,
+     "end": 1.707
+    },
+    {
+     "word": "down",
+     "start": 1.765,
+     "end": 1.985
+    },
+    {
+     "word": "right",
+     "start": 2.101,
+     "end": 2.368
+    },
+    {
+     "word": "here",
+     "start": 2.426,
+     "end": 2.682
+    },
+    {
+     "word": "the",
+     "start": 2.74,
+     "end": 2.821
+    },
+    {
+     "word": "moment",
+     "start": 2.937,
+     "end": 3.32
+    },
+    {
+     "word": "it",
+     "start": 3.367,
+     "end": 3.437
+    },
+    {
+     "word": "ends",
+     "start": 3.506,
+     "end": 3.808
+    },
+    {
+     "word": "\u2014",
+     "start": 4.017,
+     "end": 4.075
+    },
+    {
+     "word": "so",
+     "start": 4.354,
+     "end": 4.54
+    },
+    {
+     "word": "subscribe",
+     "start": 4.621,
+     "end": 5.248
+    },
+    {
+     "word": "to",
+     "start": 5.283,
+     "end": 5.341
+    },
+    {
+     "word": "mindwired,",
+     "start": 5.433,
+     "end": 6.397
+    },
+    {
+     "word": "drop",
+     "start": 6.78,
+     "end": 7.012
+    },
+    {
+     "word": "your",
+     "start": 7.07,
+     "end": 7.187
+    },
+    {
+     "word": "bracket",
+     "start": 7.233,
+     "end": 7.546
+    },
+    {
+     "word": "in",
+     "start": 7.605,
+     "end": 7.663
+    },
+    {
+     "word": "the",
+     "start": 7.709,
+     "end": 7.779
+    },
+    {
+     "word": "comments,",
+     "start": 7.825,
+     "end": 8.429
+    },
+    {
+     "word": "and",
+     "start": 8.638,
+     "end": 8.777
+    },
+    {
+     "word": "I'll",
+     "start": 8.824,
+     "end": 8.975
+    },
+    {
+     "word": "see",
+     "start": 9.033,
+     "end": 9.23
+    },
+    {
+     "word": "you",
+     "start": 9.288,
+     "end": 9.416
+    },
+    {
+     "word": "after",
+     "start": 9.532,
+     "end": 9.845
+    },
+    {
+     "word": "the",
+     "start": 9.892,
+     "end": 9.961
+    },
+    {
+     "word": "whistle.",
+     "start": 10.008,
+     "end": 10.728
+    }
+   ]
+  }
+ }
+}
