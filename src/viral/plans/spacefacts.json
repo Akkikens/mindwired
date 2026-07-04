@@ -388,5 +388,44 @@
       "transitionOut": "none",
       "hostClipExists": true
     }
+  ],
+  "shortCuts": [
+    {
+      "id": "blackholeeats",
+      "title": "A black hole eats a Sun every day",
+      "scenes": [
+        "h1",
+        "b1",
+        "cta"
+      ]
+    },
+    {
+      "id": "frozenfaller",
+      "title": "You'd never see them cross the event horizon",
+      "scenes": [
+        "h3",
+        "b3",
+        "cta"
+      ]
+    },
+    {
+      "id": "unreachable",
+      "title": "94% of the universe is already gone",
+      "scenes": [
+        "h10",
+        "b10",
+        "h11",
+        "cta"
+      ]
+    },
+    {
+      "id": "sunlight170k",
+      "title": "Your sunlight is 170,000 years old",
+      "scenes": [
+        "b4",
+        "b6",
+        "cta"
+      ]
+    }
   ]
 }

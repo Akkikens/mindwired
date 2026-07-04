@@ -32,6 +32,7 @@ import worldcupManifestJson from "../public/shorts/worldcupr16/audio/manifest.js
 import spacefactsPlanJson from "./viral/plans/spacefacts.json";
 import spacefactsManifestJson from "../public/shorts/spacefacts/audio/manifest.json";
 import worldcupCutsJson from "./viral/plans/worldcupr16.shorts.json";
+import spacefactsCutsJson from "./viral/plans/spacefacts.shorts.json";
 
 const roguebhPlan = roguebhPlanJson as unknown as VisualPlan;
 const roguebhManifest = roguebhManifestJson as unknown as ShortManifest;
@@ -43,6 +44,7 @@ const worldcupCuts = worldcupCutsJson as unknown as Array<VisualPlan & { cutId: 
 
 const spacefactsPlan = spacefactsPlanJson as unknown as VisualPlan;
 const spacefactsManifest = spacefactsManifestJson as unknown as ShortManifest;
+const spacefactsCuts = spacefactsCutsJson as unknown as Array<VisualPlan & { cutId: string }>;
 
 const SHORTS: Array<{ id: string; plan: VisualPlan; manifest: ShortManifest }> = [
   { id: "ShortDarkForest", plan: darkforestPlanJson as unknown as VisualPlan, manifest: darkforestManifestJson as unknown as ShortManifest },
@@ -123,6 +125,18 @@ export const RemotionRoot: React.FC = () => {
           component={ViralShort}
           defaultProps={{ plan: cut, manifest: worldcupManifest }}
           durationInFrames={viralShortFrames(cut, worldcupManifest)}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+      ))}
+      {spacefactsCuts.map((cut) => (
+        <Composition
+          key={cut.cutId}
+          id={`ShortSF-${cut.cutId}`}
+          component={ViralShort}
+          defaultProps={{ plan: cut, manifest: spacefactsManifest }}
+          durationInFrames={viralShortFrames(cut, spacefactsManifest)}
           fps={30}
           width={1080}
           height={1920}

@@ -1,0 +1,264 @@
+[
+  {
+    "slug": "spacefacts",
+    "cutId": "blackholeeats",
+    "title": "A black hole eats a Sun every day",
+    "host": "orion",
+    "scenes": [
+      {
+        "id": "h1",
+        "kind": "hook",
+        "start": 0,
+        "end": 9,
+        "voiceover": "Somewhere out there... a black hole is eating an entire Sun every single day. Not metaphorically. Literally. And it's not even the most disturbing thing I'm going to show you tonight.",
+        "mainText": "A BLACK HOLE EATS A SUN A DAY",
+        "emphasis": [
+          "EATS",
+          "A SUN A DAY"
+        ],
+        "kicker": "THIS IS REAL",
+        "visualConcept": "host cold open, dread tone",
+        "emotionalTone": "shock",
+        "transitionOut": "whip",
+        "hostClipExists": true
+      },
+      {
+        "id": "b1",
+        "kind": "data",
+        "board": true,
+        "start": 9,
+        "end": 18,
+        "voiceover": "Its name is J0529 dash 4351. Seventeen billion times the mass of our Sun... and its accretion disc alone is seven light-years wide. Fifteen thousand times the distance from our Sun to Neptune.",
+        "mainText": "1 SUN, EVERY DAY, FOREVER",
+        "emphasis": [
+          "1 SUN"
+        ],
+        "kicker": "QUASAR J0529-4351",
+        "visualConcept": "count-up stat slam",
+        "stat": {
+          "to": 17,
+          "suffix": "B",
+          "label": "SOLAR MASSES — THE BRIGHTEST OBJECT EVER FOUND"
+        },
+        "emotionalTone": "shock",
+        "transitionOut": "flash"
+      },
+      {
+        "id": "cta",
+        "kind": "cta",
+        "start": 197,
+        "end": 207,
+        "voiceover": "Nobody knows how this ends yet. Not really. That's the part that should terrify and delight you in equal measure. Subscribe to mindwired... because I'm not done looking.",
+        "mainText": "SUBSCRIBE — I'M NOT DONE LOOKING",
+        "emphasis": [
+          "SUBSCRIBE"
+        ],
+        "kicker": "@MINDWIREDD",
+        "visualConcept": "host CTA, warm close",
+        "emotionalTone": "confidence",
+        "transitionOut": "none",
+        "hostClipExists": true
+      }
+    ]
+  },
+  {
+    "slug": "spacefacts",
+    "cutId": "frozenfaller",
+    "title": "You'd never see them cross the event horizon",
+    "host": "orion",
+    "scenes": [
+      {
+        "id": "h3",
+        "kind": "hook",
+        "start": 35,
+        "end": 44,
+        "voiceover": "Now here's the one that keeps me up at night. If you watched a friend fall into a black hole... you would never actually see them cross the edge.",
+        "mainText": "YOU WOULD NEVER SEE THEM CROSS",
+        "emphasis": [
+          "NEVER"
+        ],
+        "kicker": "THE FROZEN FALLER PARADOX",
+        "visualConcept": "host dread — direct address",
+        "emotionalTone": "fear",
+        "transitionOut": "cut",
+        "hostClipExists": true
+      },
+      {
+        "id": "b3",
+        "kind": "comparison",
+        "board": true,
+        "start": 44,
+        "end": 54,
+        "voiceover": "To you, watching from outside... they freeze. They dim. They fade to black, forever, never quite disappearing. But to them? They feel nothing. They cross instantly, and keep falling.",
+        "mainText": "THEY FREEZE FOREVER. THEY FEEL NOTHING.",
+        "emphasis": [
+          "FOREVER",
+          "NOTHING"
+        ],
+        "kicker": "TWO PEOPLE, TWO REALITIES, BOTH TRUE",
+        "visualConcept": "split reality comparison",
+        "compare": {
+          "left": "YOU SEE: FROZEN, FOREVER",
+          "right": "THEY FEEL: NOTHING AT ALL"
+        },
+        "emotionalTone": "fear",
+        "transitionOut": "whip"
+      },
+      {
+        "id": "cta",
+        "kind": "cta",
+        "start": 197,
+        "end": 207,
+        "voiceover": "Nobody knows how this ends yet. Not really. That's the part that should terrify and delight you in equal measure. Subscribe to mindwired... because I'm not done looking.",
+        "mainText": "SUBSCRIBE — I'M NOT DONE LOOKING",
+        "emphasis": [
+          "SUBSCRIBE"
+        ],
+        "kicker": "@MINDWIREDD",
+        "visualConcept": "host CTA, warm close",
+        "emotionalTone": "confidence",
+        "transitionOut": "none",
+        "hostClipExists": true
+      }
+    ]
+  },
+  {
+    "slug": "spacefacts",
+    "cutId": "unreachable",
+    "title": "94% of the universe is already gone",
+    "host": "orion",
+    "scenes": [
+      {
+        "id": "h10",
+        "kind": "hook",
+        "start": 167,
+        "end": 176,
+        "voiceover": "And now, the one that actually changed how I see the night sky. Most of what you can see up there... you can never, ever visit.",
+        "mainText": "YOU WILL NEVER REACH MOST OF THE SKY",
+        "emphasis": [
+          "NEVER"
+        ],
+        "kicker": "THE COSMIC EVENT HORIZON",
+        "visualConcept": "host quiet devastation",
+        "emotionalTone": "fear",
+        "transitionOut": "cut",
+        "hostClipExists": true
+      },
+      {
+        "id": "b10",
+        "kind": "shockfact",
+        "board": true,
+        "start": 176,
+        "end": 186,
+        "voiceover": "Ninety-four percent of the galaxies in our observable universe are already permanently unreachable. Space itself is expanding faster than light could ever cross it. Even if you left today, at light speed... you would never, ever arrive.",
+        "mainText": "94% OF THE UNIVERSE — GONE, FOREVER",
+        "emphasis": [
+          "94%",
+          "FOREVER"
+        ],
+        "kicker": "EVEN AT THE SPEED OF LIGHT",
+        "visualConcept": "devastating stat slam",
+        "stat": {
+          "to": 94,
+          "suffix": "%",
+          "label": "OF THE UNIVERSE YOU CAN NEVER REACH"
+        },
+        "emotionalTone": "fear",
+        "transitionOut": "whip"
+      },
+      {
+        "id": "h11",
+        "kind": "quote",
+        "board": true,
+        "start": 186,
+        "end": 197,
+        "voiceover": "And here's the strangest part. The thing pushing all of that away — dark energy — might be weakening. If it is... the universe stops expanding. And starts, instead, to fall back in on itself.",
+        "mainText": "\"IT MIGHT ALL FALL BACK IN ON ITSELF\"",
+        "emphasis": [
+          "FALL BACK"
+        ],
+        "kicker": "DESI 2025 — AN UNRESOLVED DEBATE, NOT A FACT",
+        "visualConcept": "pull-quote card, unresolved",
+        "emotionalTone": "awe",
+        "transitionOut": "flash",
+        "hostClipExists": true
+      },
+      {
+        "id": "cta",
+        "kind": "cta",
+        "start": 197,
+        "end": 207,
+        "voiceover": "Nobody knows how this ends yet. Not really. That's the part that should terrify and delight you in equal measure. Subscribe to mindwired... because I'm not done looking.",
+        "mainText": "SUBSCRIBE — I'M NOT DONE LOOKING",
+        "emphasis": [
+          "SUBSCRIBE"
+        ],
+        "kicker": "@MINDWIREDD",
+        "visualConcept": "host CTA, warm close",
+        "emotionalTone": "confidence",
+        "transitionOut": "none",
+        "hostClipExists": true
+      }
+    ]
+  },
+  {
+    "slug": "spacefacts",
+    "cutId": "sunlight170k",
+    "title": "Your sunlight is 170,000 years old",
+    "host": "orion",
+    "scenes": [
+      {
+        "id": "b4",
+        "kind": "hook",
+        "board": true,
+        "start": 63,
+        "end": 73,
+        "voiceover": "Deep in the Sun's core, a photon is born... and it bounces, and bounces, and bounces off plasma so dense it takes up to one hundred seventy thousand years just to escape. Then eight minutes to reach you.",
+        "mainText": "170,000 YEARS TO ESCAPE THE SUN",
+        "emphasis": [
+          "170,000 YEARS"
+        ],
+        "kicker": "THEN JUST 8 MINUTES TO REACH EARTH",
+        "visualConcept": "count-up stat slam",
+        "stat": {
+          "to": 170000,
+          "label": "YEARS TRAPPED INSIDE THE SUN"
+        },
+        "emotionalTone": "awe",
+        "transitionOut": "flash"
+      },
+      {
+        "id": "b6",
+        "kind": "shockfact",
+        "board": true,
+        "start": 101,
+        "end": 111,
+        "voiceover": "A magnetar, fifty thousand light-years away, released more energy in two-tenths of a second than our Sun produces in over a hundred thousand years. It measurably disturbed our own atmosphere. From fifty thousand light-years.",
+        "mainText": "0.2 SECONDS = 100,000+ YEARS OF OUR SUN",
+        "emphasis": [
+          "0.2 SECONDS"
+        ],
+        "kicker": "FROM 50,000 LIGHT-YEARS AWAY",
+        "visualConcept": "shock stat slam",
+        "emotionalTone": "fear",
+        "transitionOut": "whip"
+      },
+      {
+        "id": "cta",
+        "kind": "cta",
+        "start": 197,
+        "end": 207,
+        "voiceover": "Nobody knows how this ends yet. Not really. That's the part that should terrify and delight you in equal measure. Subscribe to mindwired... because I'm not done looking.",
+        "mainText": "SUBSCRIBE — I'M NOT DONE LOOKING",
+        "emphasis": [
+          "SUBSCRIBE"
+        ],
+        "kicker": "@MINDWIREDD",
+        "visualConcept": "host CTA, warm close",
+        "emotionalTone": "confidence",
+        "transitionOut": "none",
+        "hostClipExists": true
+      }
+    ]
+  }
+]
