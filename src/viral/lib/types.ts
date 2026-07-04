@@ -81,6 +81,9 @@ export interface ShortManifest { clips: Record<string, ManifestClip> }
 
 /** A scene resolved against real audio: absolute frame timeline. */
 export interface TimedScene extends PlanScene {
+  /** plan.channel copied onto every scene so scene components (e.g. the CTA
+   *  follow pill) can brand per-channel without a prop-drilling chain */
+  channel?: string;
   from: number;             // absolute start frame
   durationInFrames: number; // lead-in + voice + hold padding
   words: TimedWord[];       // real or estimated, shifted by the lead-in

@@ -167,7 +167,7 @@ const CTA: React.FC<{ s: TimedScene; tone: ToneStyle }> = ({ s, tone }) => {
         padding: "26px 64px", borderRadius: 60, background: tone.accent, color: "#050810",
         fontFamily: DISPLAY, fontWeight: 900, fontSize: 52, letterSpacing: 1,
         boxShadow: `0 0 54px ${tone.accent}88`,
-      }}>FOLLOW @MINDWIRED</div>
+      }}>FOLLOW @{(s.channel ?? "mindwired").toUpperCase()}</div>
     </Stage>
   );
 };

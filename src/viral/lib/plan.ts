@@ -41,7 +41,7 @@ export function buildTimeline(plan: VisualPlan, manifest: ShortManifest | null):
     // shift word times so text stays locked to the delayed audio
     const words = raw.map((w) => ({ ...w, start: w.start + lead / FPS, end: w.end + lead / FPS }));
     const timed: TimedScene = {
-      ...s, from, durationInFrames, words, audioDelay: lead,
+      ...s, from, durationInFrames, words, audioDelay: lead, channel: plan.channel,
       audioSrc: clip && !clip.estimated ? `shorts/${plan.slug}/audio/${s.id}.mp3` : undefined,
     };
     from += durationInFrames;
