@@ -4,6 +4,7 @@
     "cutId": "messironaldo",
     "title": "Messi vs Ronaldo is 3 wins away — the exact math",
     "host": "rio",
+    "channel": "kickoffdaily90",
     "scenes": [
       {
         "id": "h1",
@@ -19,7 +20,8 @@
         "kicker": "THE FINAL WE ALL WANT",
         "visualConcept": "host cold open, GOAT collision tease",
         "emotionalTone": "shock",
-        "transitionOut": "whip"
+        "transitionOut": "whip",
+        "hostClipExists": true
       },
       {
         "id": "m2",
@@ -86,7 +88,8 @@
         "kicker": "@MINDWIREDD",
         "visualConcept": "host CTA",
         "emotionalTone": "confidence",
-        "transitionOut": "none"
+        "transitionOut": "none",
+        "hostClipExists": true
       }
     ]
   },
@@ -95,6 +98,7 @@
     "cutId": "spainportugal",
     "title": "Portugal vs Spain is a final in disguise",
     "host": "rio",
+    "channel": "kickoffdaily90",
     "scenes": [
       {
         "id": "p1",
@@ -110,7 +114,8 @@
         "kicker": "CHAPTER 6 — THE IBERIAN WAR",
         "visualConcept": "host chapter lead — the big one",
         "emotionalTone": "shock",
-        "transitionOut": "cut"
+        "transitionOut": "cut",
+        "hostClipExists": true
       },
       {
         "id": "p3",
@@ -172,7 +177,8 @@
         "kicker": "@MINDWIREDD",
         "visualConcept": "host CTA",
         "emotionalTone": "confidence",
-        "transitionOut": "none"
+        "transitionOut": "none",
+        "hostClipExists": true
       }
     ]
   },
@@ -181,6 +187,7 @@
     "cutId": "argentinascare",
     "title": "Argentina's near-death experience vs Cape Verde",
     "host": "rio",
+    "channel": "kickoffdaily90",
     "scenes": [
       {
         "id": "a1",
@@ -195,7 +202,8 @@
         "kicker": "CHAPTER 3 — THE SCARE",
         "visualConcept": "host chapter lead",
         "emotionalTone": "fear",
-        "transitionOut": "cut"
+        "transitionOut": "cut",
+        "hostClipExists": true
       },
       {
         "id": "a2",
@@ -275,6 +283,7 @@
     "cutId": "salahpanenka",
     "title": "Salah's Panenka made history for Egypt",
     "host": "rio",
+    "channel": "kickoffdaily90",
     "scenes": [
       {
         "id": "e1",
@@ -289,7 +298,8 @@
         "kicker": "CHAPTER 4 — THE PHARAOHS",
         "visualConcept": "host chapter lead",
         "emotionalTone": "curiosity",
-        "transitionOut": "cut"
+        "transitionOut": "cut",
+        "hostClipExists": true
       },
       {
         "id": "e2",
@@ -356,7 +366,8 @@
         "kicker": "@MINDWIREDD",
         "visualConcept": "host CTA",
         "emotionalTone": "confidence",
-        "transitionOut": "none"
+        "transitionOut": "none",
+        "hostClipExists": true
       }
     ]
   },
@@ -365,6 +376,7 @@
     "cutId": "latestgoalever",
     "title": "The latest goal in World Cup history — 124:44",
     "host": "rio",
+    "channel": "kickoffdaily90",
     "scenes": [
       {
         "id": "d1",
@@ -379,7 +391,8 @@
         "kicker": "CHAPTER 2 — DRAMA NIGHTS",
         "visualConcept": "host chapter lead",
         "emotionalTone": "curiosity",
-        "transitionOut": "cut"
+        "transitionOut": "cut",
+        "hostClipExists": true
       },
       {
         "id": "d2",
@@ -455,7 +468,8 @@
         "kicker": "@MINDWIREDD",
         "visualConcept": "host CTA",
         "emotionalTone": "confidence",
-        "transitionOut": "none"
+        "transitionOut": "none",
+        "hostClipExists": true
       }
     ]
   },
@@ -464,6 +478,7 @@
     "cutId": "giantsfall",
     "title": "Germany AND Netherlands are OUT",
     "host": "rio",
+    "channel": "kickoffdaily90",
     "scenes": [
       {
         "id": "g1",
@@ -547,7 +562,8 @@
         "kicker": "@MINDWIREDD",
         "visualConcept": "host CTA",
         "emotionalTone": "confidence",
-        "transitionOut": "none"
+        "transitionOut": "none",
+        "hostClipExists": true
       }
     ]
   },
@@ -556,6 +572,7 @@
     "cutId": "r16guide",
     "title": "Your complete Round of 16 guide — 8 games, 4 days",
     "host": "rio",
+    "channel": "kickoffdaily90",
     "scenes": [
       {
         "id": "s1",
@@ -571,7 +588,8 @@
         "kicker": "CHAPTER 5 — THE SLATE",
         "visualConcept": "host chapter lead",
         "emotionalTone": "confidence",
-        "transitionOut": "cut"
+        "transitionOut": "cut",
+        "hostClipExists": true
       },
       {
         "id": "s2",
@@ -666,7 +684,8 @@
         "kicker": "@MINDWIREDD",
         "visualConcept": "host CTA",
         "emotionalTone": "confidence",
-        "transitionOut": "none"
+        "transitionOut": "none",
+        "hostClipExists": true
       }
     ]
   },
@@ -675,6 +694,7 @@
     "cutId": "kanepele",
     "title": "Kane just passed Pelé — and records everywhere",
     "host": "rio",
+    "channel": "kickoffdaily90",
     "scenes": [
       {
         "id": "d8",
@@ -766,7 +786,8 @@
         "kicker": "@MINDWIREDD",
         "visualConcept": "host CTA",
         "emotionalTone": "confidence",
-        "transitionOut": "none"
+        "transitionOut": "none",
+        "hostClipExists": true
       }
     ]
   },
@@ -775,6 +796,7 @@
     "cutId": "riopicks",
     "title": "My Round of 16 picks — screenshot and roast me",
     "host": "rio",
+    "channel": "kickoffdaily90",
     "scenes": [
       {
         "id": "q1",
@@ -789,7 +811,8 @@
         "kicker": "CHAPTER 8 — PREDICTIONS",
         "visualConcept": "host chapter lead picks",
         "emotionalTone": "excitement",
-        "transitionOut": "cut"
+        "transitionOut": "cut",
+        "hostClipExists": true
       },
       {
         "id": "q2",
@@ -867,6 +890,7 @@
     "cutId": "messiboot",
     "title": "Messi leads the Golden Boot at 39",
     "host": "rio",
+    "channel": "kickoffdaily90",
     "scenes": [
       {
         "id": "a7",
@@ -951,7 +975,8 @@
         "kicker": "@MINDWIREDD",
         "visualConcept": "host CTA",
         "emotionalTone": "confidence",
-        "transitionOut": "none"
+        "transitionOut": "none",
+        "hostClipExists": true
       }
     ]
   }

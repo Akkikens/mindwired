@@ -4,6 +4,8 @@
     "niche": "space & science documentaries",
     "image": "host/orion_v4c_4k.png",
     "sourceImage": "host/orion_v4c.png",
+    "imageWide": "host/orion_wide.png",
+    "sourceImageWide": "host/orion_wide.png",
     "elevenVoice": "George",
     "cartesiaVoice": "b24f41fd-00a3-4cd8-992a-a0c9f13f3ef1",
     "voiceDescription": "A deep, cinematic male documentary narrator for a space channel. Rich, resonant, modern — like a prestige Netflix science doc, full of quiet dread and human pauses.",
@@ -23,6 +25,8 @@
     "niche": "football & World Cup analysis",
     "image": "host/rio_4k.png",
     "sourceImage": "host/rio.png",
+    "imageWide": "host/rio_wide_4k.png",
+    "sourceImageWide": "host/rio_wide.png",
     "elevenVoice": "Daniel",
     "voiceDescription": "A charismatic British football pundit. Warm, quick, passionate — matchday-studio energy with big-moment emphasis.",
     "dynamicScale": 1.1

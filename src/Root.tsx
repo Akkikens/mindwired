@@ -29,6 +29,8 @@ import neutronstarPlanJson from "./viral/plans/neutronstar.json";
 import neutronstarManifestJson from "../public/shorts/neutronstar/audio/manifest.json";
 import worldcupPlanJson from "./viral/plans/worldcupr16.json";
 import worldcupManifestJson from "../public/shorts/worldcupr16/audio/manifest.json";
+import spacefactsPlanJson from "./viral/plans/spacefacts.json";
+import spacefactsManifestJson from "../public/shorts/spacefacts/audio/manifest.json";
 import worldcupCutsJson from "./viral/plans/worldcupr16.shorts.json";
 
 const roguebhPlan = roguebhPlanJson as unknown as VisualPlan;
@@ -38,6 +40,9 @@ const roguebhManifest = roguebhManifestJson as unknown as ShortManifest;
 const worldcupPlan = worldcupPlanJson as unknown as VisualPlan;
 const worldcupManifest = worldcupManifestJson as unknown as ShortManifest;
 const worldcupCuts = worldcupCutsJson as unknown as Array<VisualPlan & { cutId: string }>;
+
+const spacefactsPlan = spacefactsPlanJson as unknown as VisualPlan;
+const spacefactsManifest = spacefactsManifestJson as unknown as ShortManifest;
 
 const SHORTS: Array<{ id: string; plan: VisualPlan; manifest: ShortManifest }> = [
   { id: "ShortDarkForest", plan: darkforestPlanJson as unknown as VisualPlan, manifest: darkforestManifestJson as unknown as ShortManifest },
@@ -91,6 +96,25 @@ export const RemotionRoot: React.FC = () => {
         fps={30}
         width={1920}
         height={1080}
+      />
+      {/* ── Mindblowing space facts — Orion host, Hume/Cartesia narration ── */}
+      <Composition
+        id="SpaceFactsWide"
+        component={ViralShort}
+        defaultProps={{ plan: spacefactsPlan, manifest: spacefactsManifest }}
+        durationInFrames={viralShortFrames(spacefactsPlan, spacefactsManifest)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="SpaceFacts"
+        component={ViralShort}
+        defaultProps={{ plan: spacefactsPlan, manifest: spacefactsManifest }}
+        durationInFrames={viralShortFrames(spacefactsPlan, spacefactsManifest)}
+        fps={30}
+        width={1080}
+        height={1920}
       />
       {worldcupCuts.map((cut) => (
         <Composition

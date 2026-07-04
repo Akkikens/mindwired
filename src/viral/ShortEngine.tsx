@@ -6,26 +6,45 @@ import { Brand, ProgressBar, SafeArea, VoicePulse } from "./components/HUD";
 import { KineticText, Kicker } from "./components/KineticText";
 import { SceneRouter } from "./scenes";
 import { buildTimeline, HOLD, timelineFrames } from "./lib/plan";
-import { resolveHostImage } from "./lib/hosts";
+import { HOST_REGISTRY, resolveHostImage } from "./lib/hosts";
 import { TONES } from "./lib/tone";
 import { ShortManifest, TimedScene, VisualPlan } from "./lib/types";
 
-/** How the host stays framed — shared by the still and the talking clips so the
- *  overlay lands pixel-aligned on the underlying image. */
-const HOST_FIT: React.CSSProperties = { width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 18%" };
+/** Host source media: normally a plain cover-fill (a 9:16 short with a 9:16
+ *  image, or a 16:9 long-form with a real 16:9 host shoot — see hosts.json
+ *  imageWide). `pillarbox` is only for the fallback case, a host with no
+ *  landscape shoot yet rendered wide: cover-cropping a portrait to fill a
+ *  landscape box would cut the mouth off, so we show the full portrait
+ *  (contain) over a blurred cover copy instead of cropping the face away. */
+const HostMedia: React.FC<{
+  pillarbox: boolean;
+  render: (fit: React.CSSProperties) => React.ReactNode;
+}> = ({ pillarbox, render }) => {
+  const coverFit: React.CSSProperties = { width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 22%" };
+  const containFit: React.CSSProperties = { width: "100%", height: "100%", objectFit: "contain", objectPosition: "50% 0%" };
+  if (!pillarbox) return <>{render(coverFit)}</>;
+  return (
+    <>
+      <AbsoluteFill style={{ filter: "blur(60px) brightness(0.55)", transform: "scale(1.15)" }}>
+        {render(coverFit)}
+      </AbsoluteFill>
+      <AbsoluteFill>{render(containFit)}</AbsoluteFill>
+    </>
+  );
+};
 
 /** Persistent host image with a slow continuous Ken Burns zoom + bottom scrim.
  *  Spans the whole video so it never restarts between scene cuts. When talking
  *  clips overlay it (`frozen`), the zoom is locked so still/video never drift. */
-const HostLayer: React.FC<{ src: string; totalFrames: number; accent: string; frozen?: boolean }> =
-  ({ src, totalFrames, accent, frozen }) => {
+const HostLayer: React.FC<{ src: string; totalFrames: number; accent: string; frozen?: boolean; pillarbox: boolean }> =
+  ({ src, totalFrames, accent, frozen, pillarbox }) => {
     const frame = useCurrentFrame();
     const zoom = frozen ? 1 : interpolate(frame, [0, totalFrames], [1.03, 1.13], { extrapolateRight: "clamp" });
     const drift = frozen ? 0 : interpolate(frame, [0, totalFrames], [0, -3], { extrapolateRight: "clamp" });
     return (
       <AbsoluteFill>
         <AbsoluteFill style={{ transform: `scale(${zoom}) translateY(${drift}%)`, transformOrigin: "center 22%" }}>
-          <Img src={staticFile(src)} style={HOST_FIT} />
+          <HostMedia pillarbox={pillarbox} render={(fit) => <Img src={staticFile(src)} style={fit} />} />
         </AbsoluteFill>
       </AbsoluteFill>
     );
@@ -34,13 +53,14 @@ const HostLayer: React.FC<{ src: string; totalFrames: number; accent: string; fr
 /** One lip-synced talking clip, muted (the scene's mp3 stays the audio source so
  *  word-sync captions keep working). Fades out over its last frames so the hand-off
  *  back to the still during the HOLD beat doesn't pop. */
-const HostTalkingClip: React.FC<{ src: string; durationInFrames: number }> = ({ src, durationInFrames }) => {
+const HostTalkingClip: React.FC<{ src: string; durationInFrames: number; pillarbox: boolean }> =
+  ({ src, durationInFrames, pillarbox }) => {
   const frame = useCurrentFrame();
   const opacity = interpolate(frame, [durationInFrames - 6, durationInFrames - 1], [1, 0],
     { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   return (
     <AbsoluteFill style={{ opacity }}>
-      <OffthreadVideo muted src={staticFile(src)} style={HOST_FIT} />
+      <HostMedia pillarbox={pillarbox} render={(fit) => <OffthreadVideo muted src={staticFile(src)} style={fit} />} />
     </AbsoluteFill>
   );
 };
@@ -100,22 +120,31 @@ export const ViralShort: React.FC<{ plan: VisualPlan; manifest: ShortManifest | 
   const scenes = buildTimeline(plan, manifest);
   const total = timelineFrames(scenes);
   const accent = TONES[scenes[0]?.emotionalTone ?? "curiosity"].accent;
+  const { width, height } = useVideoConfig();
+  const wide = width > height;
 
   // Host mode: one persistent face-fronted host + per-scene captions/audio.
-  // Scenes that have a lip-synced clip (hostClipExists) play the talking video
-  // during the voiced span; the still covers lead-ins, HOLD beats and any scene
-  // that was never lip-synced.
+  // Scenes that have a lip-synced clip play the talking video during the
+  // voiced span; the still covers lead-ins, HOLD beats and any scene that was
+  // never lip-synced. Wide renders use a genuine 16:9 host shoot (hosts.json
+  // imageWide) when one exists — a 9:16 talking clip's mouth timing doesn't
+  // match a 16:9 image, so wide renders need their OWN lip-synced clips
+  // (hostClipExistsWide, from `lipsync/batch.py --wide`), not the 9:16 ones.
   if (plan.host) {
-    const hostImage = resolveHostImage(plan.host);
-    const anyTalking = scenes.some((s) => s.hostClipExists);
+    const hostImage = resolveHostImage(plan.host, wide);
+    const hasNativeWide = wide && !plan.host.includes("/") && !!HOST_REGISTRY[plan.host]?.imageWide;
+    const pillarbox = wide && !hasNativeWide;
+    const clipExists = (s: TimedScene) => (wide ? s.hostClipExistsWide : s.hostClipExists);
+    const clipDir = wide ? "host-wide" : "host";
+    const anyTalking = scenes.some(clipExists);
     return (
       <AbsoluteFill style={{ backgroundColor: "#03040A" }}>
-        <HostLayer src={hostImage} totalFrames={total} accent={accent} frozen={anyTalking} />
+        <HostLayer src={hostImage} totalFrames={total} accent={accent} frozen={anyTalking} pillarbox={pillarbox} />
         {scenes.map((s) => {
           const talkFrames = s.durationInFrames - s.audioDelay - HOLD;
-          return s.hostClipExists && talkFrames > 0 ? (
+          return clipExists(s) && talkFrames > 0 ? (
             <Sequence key={`talk-${s.id}`} from={s.from + s.audioDelay} durationInFrames={talkFrames} name={`host:${s.id}`}>
-              <HostTalkingClip src={`shorts/${plan.slug}/host/${s.id}.mp4`} durationInFrames={talkFrames} />
+              <HostTalkingClip src={`shorts/${plan.slug}/${clipDir}/${s.id}.mp4`} durationInFrames={talkFrames} pillarbox={pillarbox} />
             </Sequence>
           ) : null;
         })}
@@ -140,7 +169,7 @@ export const ViralShort: React.FC<{ plan: VisualPlan; manifest: ShortManifest | 
         ))}
         {plan.music?.src && <Audio src={staticFile(plan.music.src)} volume={plan.music.volume ?? 0.14} loop />}
         <ProgressBar totalFrames={total} accent={accent} />
-        <Brand />
+        <Brand name={plan.channel} />
       </AbsoluteFill>
     );
   }
@@ -157,7 +186,7 @@ export const ViralShort: React.FC<{ plan: VisualPlan; manifest: ShortManifest | 
         <Audio src={staticFile(plan.music.src)} volume={plan.music.volume ?? 0.14} loop />
       )}
       <ProgressBar totalFrames={total} accent={accent} />
-      <Brand />
+      <Brand name={plan.channel} />
     </AbsoluteFill>
   );
 };

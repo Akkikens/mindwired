@@ -54,8 +54,9 @@ export const SafeArea: React.FC<{ children: React.ReactNode }> = ({ children }) 
   );
 };
 
-/** Corner brand chip — small, never an intro. */
-export const Brand: React.FC = () => {
+/** Corner brand chip — small, never an intro. Defaults to mindwired; pass
+ *  `name` for videos published under a different channel (see plan.channel). */
+export const Brand: React.FC<{ name?: string }> = ({ name = "mindwired" }) => {
   const { width, height } = useVideoConfig();
   const portrait = height > width;
   return (
@@ -63,6 +64,6 @@ export const Brand: React.FC = () => {
       position: "absolute", top: portrait ? 84 : 36, right: portrait ? 40 : 48,
       fontFamily: DISPLAY, fontWeight: 700, fontSize: 30, letterSpacing: 2,
       color: "rgba(234,242,255,0.55)",
-    }}>mindwired</div>
+    }}>{name}</div>
   );
 };

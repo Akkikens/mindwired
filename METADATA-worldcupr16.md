@@ -1,6 +1,6 @@
 # METADATA — worldcupr16 (13.5 min, Rio avatar host, 1920×1080)
 
-Render: `mindwired_worldcupr16.mp4` (comp `WorldCupR16Wide`)
+Render: `kickoffdaily90_worldcupr16.mp4` (comp `WorldCupR16Wide`)
 Shorts: 10 cuts, comps `ShortWC-*` (see bottom)
 
 ## Title
@@ -28,7 +28,7 @@ CHAPTERS
 All scores verified as of July 4, 2026.
 
 ## Tags
-world cup 2026, round of 16, messi vs ronaldo, portugal vs spain, world cup bracket, messi, ronaldo, salah panenka, harry kane pele, world cup round of 32 results, argentina cape verde, world cup predictions, fifa world cup, world cup 2026 highlights, mindwired
+world cup 2026, round of 16, messi vs ronaldo, portugal vs spain, world cup bracket, messi, ronaldo, salah panenka, harry kane pele, world cup round of 32 results, argentina cape verde, world cup predictions, fifa world cup, world cup 2026 highlights, kickoffdaily90
 
 ## Pinned comment
 The math is real: Portugal top half, Argentina bottom half — they CANNOT meet before July 19. Drop your Round of 16 bracket below 👇 and subscribe: the recap drops the moment the whistle goes.
@@ -36,16 +36,16 @@ The math is real: Portugal top half, Argentina bottom half — they CANNOT meet 
 ## The 10 Shorts (funnel: pinned comment on each → long-form)
 | comp | hook | file |
 |---|---|---|
-| ShortWC-messironaldo | Messi vs Ronaldo — 3 wins away | mindwired_short_wc_messironaldo.mp4 |
-| ShortWC-spainportugal | Portugal-Spain is a final in disguise | mindwired_short_wc_spainportugal.mp4 |
-| ShortWC-argentinascare | Argentina's near-death experience | mindwired_short_wc_argentinascare.mp4 |
-| ShortWC-salahpanenka | Salah. Panenka. History. | mindwired_short_wc_salahpanenka.mp4 |
-| ShortWC-latestgoalever | 124:44 — latest WC goal ever | mindwired_short_wc_latestgoalever.mp4 |
-| ShortWC-giantsfall | Germany AND Netherlands OUT | mindwired_short_wc_giantsfall.mp4 |
-| ShortWC-r16guide | Your R16 guide — screenshot this | mindwired_short_wc_r16guide.mp4 |
-| ShortWC-kanepele | Kane just passed Pelé | mindwired_short_wc_kanepele.mp4 |
-| ShortWC-riopicks | My R16 picks — roast me | mindwired_short_wc_riopicks.mp4 |
-| ShortWC-messiboot | Messi leads the Golden Boot at 39 | mindwired_short_wc_messiboot.mp4 |
+| ShortWC-messironaldo | Messi vs Ronaldo — 3 wins away | kickoffdaily90_short_messironaldo.mp4 |
+| ShortWC-spainportugal | Portugal-Spain is a final in disguise | kickoffdaily90_short_spainportugal.mp4 |
+| ShortWC-argentinascare | Argentina's near-death experience | kickoffdaily90_short_argentinascare.mp4 |
+| ShortWC-salahpanenka | Salah. Panenka. History. | kickoffdaily90_short_salahpanenka.mp4 |
+| ShortWC-latestgoalever | 124:44 — latest WC goal ever | kickoffdaily90_short_latestgoalever.mp4 |
+| ShortWC-giantsfall | Germany AND Netherlands OUT | kickoffdaily90_short_giantsfall.mp4 |
+| ShortWC-r16guide | Your R16 guide — screenshot this | kickoffdaily90_short_r16guide.mp4 |
+| ShortWC-kanepele | Kane just passed Pelé | kickoffdaily90_short_kanepele.mp4 |
+| ShortWC-riopicks | My R16 picks — roast me | kickoffdaily90_short_riopicks.mp4 |
+| ShortWC-messiboot | Messi leads the Golden Boot at 39 | kickoffdaily90_short_messiboot.mp4 |
 
 Post cadence: master first, then 2-3 shorts/day July 4-7 (front-load messironaldo
 + spainportugal before Monday's match — they expire fastest). kanepele before

@@ -38,8 +38,13 @@ export interface PlanScene {
   /** set true by scripts/gen_broll.py once public/shorts/<slug>/broll/<id>.jpg exists */
   brollExists?: boolean;
   /** set true by lipsync/batch.py once public/shorts/<slug>/host/<id>.mp4 exists —
-   *  the engine then plays the talking-head clip instead of the still */
+   *  the engine then plays the talking-head clip instead of the still (9:16 renders) */
   hostClipExists?: boolean;
+  /** set true by lipsync/batch.py --wide once public/shorts/<slug>/host-wide/<id>.mp4
+   *  exists — a separate clip lip-synced against the host's native 16:9 portrait,
+   *  since a 9:16 talking clip's mouth movement doesn't fit a 16:9 image (16:9
+   *  renders use this instead of hostClipExists) */
+  hostClipExistsWide?: boolean;
   /** host mode only: render this scene as a full kinetic scene (data slams,
    *  comparisons, quotes — the "board") instead of captions over the host.
    *  Alternate host ↔ board scenes to keep long host videos visually alive. */
@@ -64,6 +69,9 @@ export interface VisualPlan {
    *  face-fronted Short (talking-head clips when lip-synced, still + Ken Burns
    *  otherwise) instead of the procedural backdrop */
   host?: string;
+  /** corner watermark text; defaults to "mindwired". Set this when a plan is
+   *  published under a different channel (e.g. kickoffdaily90 for football) */
+  channel?: string;
   scenes: PlanScene[];
 }
 

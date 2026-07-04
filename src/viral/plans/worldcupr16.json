@@ -2,6 +2,7 @@
   "slug": "worldcupr16",
   "title": "Messi vs Ronaldo Is 3 Wins Away — World Cup Round of 16 Breakdown",
   "host": "rio",
+  "channel": "kickoffdaily90",
   "scenes": [
     {
       "id": "h1",
@@ -242,7 +243,8 @@
       "kicker": "CHAPTER 2 — DRAMA NIGHTS",
       "visualConcept": "host chapter lead",
       "emotionalTone": "curiosity",
-      "transitionOut": "cut"
+      "transitionOut": "cut",
+      "hostClipExists": true
     },
     {
       "id": "d2",
@@ -410,7 +412,8 @@
       "kicker": "CHAPTER 3 — THE SCARE",
       "visualConcept": "host chapter lead",
       "emotionalTone": "fear",
-      "transitionOut": "cut"
+      "transitionOut": "cut",
+      "hostClipExists": true
     },
     {
       "id": "a2",
@@ -550,7 +553,8 @@
       "kicker": "CHAPTER 4 — THE PHARAOHS",
       "visualConcept": "host chapter lead",
       "emotionalTone": "curiosity",
-      "transitionOut": "cut"
+      "transitionOut": "cut",
+      "hostClipExists": true
     },
     {
       "id": "e2",
@@ -639,7 +643,8 @@
       "kicker": "CHAPTER 5 — THE SLATE",
       "visualConcept": "host chapter lead",
       "emotionalTone": "confidence",
-      "transitionOut": "cut"
+      "transitionOut": "cut",
+      "hostClipExists": true
     },
     {
       "id": "s2",
@@ -779,7 +784,8 @@
       "kicker": "CHAPTER 6 — THE IBERIAN WAR",
       "visualConcept": "host chapter lead — the big one",
       "emotionalTone": "shock",
-      "transitionOut": "cut"
+      "transitionOut": "cut",
+      "hostClipExists": true
     },
     {
       "id": "p2",
@@ -952,7 +958,8 @@
       "kicker": "CHAPTER 7 — THE MATH",
       "visualConcept": "host chapter lead — the dream",
       "emotionalTone": "awe",
-      "transitionOut": "cut"
+      "transitionOut": "cut",
+      "hostClipExists": true
     },
     {
       "id": "m2",
@@ -1085,7 +1092,8 @@
       "kicker": "CHAPTER 8 — PREDICTIONS",
       "visualConcept": "host chapter lead picks",
       "emotionalTone": "excitement",
-      "transitionOut": "cut"
+      "transitionOut": "cut",
+      "hostClipExists": true
     },
     {
       "id": "q2",
@@ -1198,7 +1206,8 @@
       "kicker": "@MINDWIREDD",
       "visualConcept": "host CTA",
       "emotionalTone": "confidence",
-      "transitionOut": "none"
+      "transitionOut": "none",
+      "hostClipExists": true
     }
   ],
   "shortCuts": [

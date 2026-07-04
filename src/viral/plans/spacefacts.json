@@ -4,210 +4,389 @@
   "host": "orion",
   "scenes": [
     {
-      "id": "h1", "kind": "hook", "start": 0, "end": 9,
+      "id": "h1",
+      "kind": "hook",
+      "start": 0,
+      "end": 9,
       "voiceover": "Somewhere out there... a black hole is eating an entire Sun every single day. Not metaphorically. Literally. And it's not even the most disturbing thing I'm going to show you tonight.",
       "mainText": "A BLACK HOLE EATS A SUN A DAY",
-      "emphasis": ["EATS", "A SUN A DAY"],
+      "emphasis": [
+        "EATS",
+        "A SUN A DAY"
+      ],
       "kicker": "THIS IS REAL",
       "visualConcept": "host cold open, dread tone",
-      "emotionalTone": "shock", "transitionOut": "whip"
+      "emotionalTone": "shock",
+      "transitionOut": "whip",
+      "hostClipExists": true
     },
     {
-      "id": "b1", "kind": "data", "board": true, "start": 9, "end": 18,
+      "id": "b1",
+      "kind": "data",
+      "board": true,
+      "start": 9,
+      "end": 18,
       "voiceover": "Its name is J0529 dash 4351. Seventeen billion times the mass of our Sun... and its accretion disc alone is seven light-years wide. Fifteen thousand times the distance from our Sun to Neptune.",
       "mainText": "1 SUN, EVERY DAY, FOREVER",
-      "emphasis": ["1 SUN"],
+      "emphasis": [
+        "1 SUN"
+      ],
       "kicker": "QUASAR J0529-4351",
       "visualConcept": "count-up stat slam",
-      "stat": { "to": 17, "suffix": "B", "label": "SOLAR MASSES — THE BRIGHTEST OBJECT EVER FOUND" },
-      "emotionalTone": "shock", "transitionOut": "flash"
+      "stat": {
+        "to": 17,
+        "suffix": "B",
+        "label": "SOLAR MASSES — THE BRIGHTEST OBJECT EVER FOUND"
+      },
+      "emotionalTone": "shock",
+      "transitionOut": "flash"
     },
     {
-      "id": "h2", "kind": "problem", "start": 18, "end": 26,
+      "id": "h2",
+      "kind": "problem",
+      "start": 18,
+      "end": 26,
       "voiceover": "But that's just something eating. Let me show you something dying — because in two thousand fifteen, we heard two black holes collide for the first time in human history.",
       "mainText": "THEN TWO OF THEM COLLIDED",
-      "emphasis": ["COLLIDED"],
+      "emphasis": [
+        "COLLIDED"
+      ],
       "kicker": "GW150914",
       "visualConcept": "host bridge, quieter dread",
-      "emotionalTone": "curiosity", "transitionOut": "cut"
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
     },
     {
-      "id": "b2", "kind": "shockfact", "board": true, "start": 26, "end": 35,
+      "id": "b2",
+      "kind": "shockfact",
+      "board": true,
+      "start": 26,
+      "end": 35,
       "voiceover": "In a fraction of a second... they converted three entire Suns' worth of mass directly into pure energy. For that instant, it outshined every single star in the observable universe. Combined.",
       "mainText": "BRIGHTER THAN EVERY STAR COMBINED",
-      "emphasis": ["EVERY STAR", "COMBINED"],
+      "emphasis": [
+        "EVERY STAR",
+        "COMBINED"
+      ],
       "kicker": "3 SUNS → PURE ENERGY, IN 0.2 SECONDS",
       "visualConcept": "record stat slam",
-      "emotionalTone": "shock", "transitionOut": "whip"
+      "emotionalTone": "shock",
+      "transitionOut": "whip"
     },
     {
-      "id": "h3", "kind": "problem", "start": 35, "end": 44,
+      "id": "h3",
+      "kind": "problem",
+      "start": 35,
+      "end": 44,
       "voiceover": "Now here's the one that keeps me up at night. If you watched a friend fall into a black hole... you would never actually see them cross the edge.",
       "mainText": "YOU WOULD NEVER SEE THEM CROSS",
-      "emphasis": ["NEVER"],
+      "emphasis": [
+        "NEVER"
+      ],
       "kicker": "THE FROZEN FALLER PARADOX",
       "visualConcept": "host dread — direct address",
-      "emotionalTone": "fear", "transitionOut": "cut"
+      "emotionalTone": "fear",
+      "transitionOut": "cut",
+      "hostClipExists": true
     },
     {
-      "id": "b3", "kind": "comparison", "board": true, "start": 44, "end": 54,
+      "id": "b3",
+      "kind": "comparison",
+      "board": true,
+      "start": 44,
+      "end": 54,
       "voiceover": "To you, watching from outside... they freeze. They dim. They fade to black, forever, never quite disappearing. But to them? They feel nothing. They cross instantly, and keep falling.",
       "mainText": "THEY FREEZE FOREVER. THEY FEEL NOTHING.",
-      "emphasis": ["FOREVER", "NOTHING"],
+      "emphasis": [
+        "FOREVER",
+        "NOTHING"
+      ],
       "kicker": "TWO PEOPLE, TWO REALITIES, BOTH TRUE",
       "visualConcept": "split reality comparison",
-      "compare": { "left": "YOU SEE: FROZEN, FOREVER", "right": "THEY FEEL: NOTHING AT ALL" },
-      "emotionalTone": "fear", "transitionOut": "whip"
+      "compare": {
+        "left": "YOU SEE: FROZEN, FOREVER",
+        "right": "THEY FEEL: NOTHING AT ALL"
+      },
+      "emotionalTone": "fear",
+      "transitionOut": "whip"
     },
     {
-      "id": "h4", "kind": "problem", "start": 54, "end": 63,
+      "id": "h4",
+      "kind": "problem",
+      "start": 54,
+      "end": 63,
       "voiceover": "Let's come back to something warmer. The sunlight on your skin right now... it did not just arrive. It has been traveling since before humans existed.",
       "mainText": "THIS LIGHT IS OLDER THAN HUMANITY",
-      "emphasis": ["OLDER THAN HUMANITY"],
+      "emphasis": [
+        "OLDER THAN HUMANITY"
+      ],
       "kicker": "THE LONGEST JOURNEY IN THE SOLAR SYSTEM",
       "visualConcept": "host warm awe turn",
-      "emotionalTone": "awe", "transitionOut": "cut"
+      "emotionalTone": "awe",
+      "transitionOut": "cut"
     },
     {
-      "id": "b4", "kind": "data", "board": true, "start": 63, "end": 73,
+      "id": "b4",
+      "kind": "data",
+      "board": true,
+      "start": 63,
+      "end": 73,
       "voiceover": "Deep in the Sun's core, a photon is born... and it bounces, and bounces, and bounces off plasma so dense it takes up to one hundred seventy thousand years just to escape. Then eight minutes to reach you.",
       "mainText": "170,000 YEARS TO ESCAPE THE SUN",
-      "emphasis": ["170,000 YEARS"],
+      "emphasis": [
+        "170,000 YEARS"
+      ],
       "kicker": "THEN JUST 8 MINUTES TO REACH EARTH",
       "visualConcept": "count-up stat slam",
-      "stat": { "to": 170000, "label": "YEARS TRAPPED INSIDE THE SUN" },
-      "emotionalTone": "awe", "transitionOut": "flash"
+      "stat": {
+        "to": 170000,
+        "label": "YEARS TRAPPED INSIDE THE SUN"
+      },
+      "emotionalTone": "awe",
+      "transitionOut": "flash"
     },
     {
-      "id": "h5", "kind": "problem", "start": 73, "end": 82,
+      "id": "h5",
+      "kind": "problem",
+      "start": 73,
+      "end": 82,
       "voiceover": "Now let's talk about the densest objects in the universe. You've heard the teaspoon fact. Forget it. Here's the one nobody tells you.",
       "mainText": "FORGET THE TEASPOON. THIS IS WEIRDER.",
-      "emphasis": ["WEIRDER"],
+      "emphasis": [
+        "WEIRDER"
+      ],
       "kicker": "NEUTRON STARS, RECONSIDERED",
       "visualConcept": "host knowing-tease",
-      "emotionalTone": "curiosity", "transitionOut": "cut"
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
     },
     {
-      "id": "b5", "kind": "comparison", "board": true, "start": 82, "end": 92,
+      "id": "b5",
+      "kind": "comparison",
+      "board": true,
+      "start": 82,
+      "end": 92,
       "voiceover": "A neutron star is more massive than our Sun, crushed into a city-sized sphere. And yet its tallest mountain... is less than one millimeter tall. Gravity there is so extreme, it flattens everything.",
       "mainText": "TALLEST MOUNTAIN: UNDER 1 MILLIMETER",
-      "emphasis": ["1 MILLIMETER"],
+      "emphasis": [
+        "1 MILLIMETER"
+      ],
       "kicker": "ON AN OBJECT HEAVIER THAN THE SUN",
       "visualConcept": "scale comparison board",
-      "compare": { "left": "MOUNT EVEREST: 8,849 M", "right": "NEUTRON STAR PEAK: <0.001 M" },
-      "emotionalTone": "shock", "transitionOut": "cut"
+      "compare": {
+        "left": "MOUNT EVEREST: 8,849 M",
+        "right": "NEUTRON STAR PEAK: <0.001 M"
+      },
+      "emotionalTone": "shock",
+      "transitionOut": "cut"
     },
     {
-      "id": "h6", "kind": "problem", "start": 92, "end": 101,
+      "id": "h6",
+      "kind": "problem",
+      "start": 92,
+      "end": 101,
       "voiceover": "But mountains are the least scary thing about these objects. In two thousand four, one of them screamed — and Earth felt it, from clear across the galaxy.",
       "mainText": "EARTH FELT IT FROM ACROSS THE GALAXY",
-      "emphasis": ["FELT IT"],
+      "emphasis": [
+        "FELT IT"
+      ],
       "kicker": "SGR 1806-20, DECEMBER 27, 2004",
       "visualConcept": "host dread building",
-      "emotionalTone": "fear", "transitionOut": "cut"
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
     },
     {
-      "id": "b6", "kind": "shockfact", "board": true, "start": 101, "end": 111,
+      "id": "b6",
+      "kind": "shockfact",
+      "board": true,
+      "start": 101,
+      "end": 111,
       "voiceover": "A magnetar, fifty thousand light-years away, released more energy in two-tenths of a second than our Sun produces in over a hundred thousand years. It measurably disturbed our own atmosphere. From fifty thousand light-years.",
       "mainText": "0.2 SECONDS = 100,000+ YEARS OF OUR SUN",
-      "emphasis": ["0.2 SECONDS"],
+      "emphasis": [
+        "0.2 SECONDS"
+      ],
       "kicker": "FROM 50,000 LIGHT-YEARS AWAY",
       "visualConcept": "shock stat slam",
-      "emotionalTone": "fear", "transitionOut": "whip"
+      "emotionalTone": "fear",
+      "transitionOut": "whip"
     },
     {
-      "id": "h7", "kind": "problem", "start": 111, "end": 119,
+      "id": "h7",
+      "kind": "problem",
+      "start": 111,
+      "end": 119,
       "voiceover": "Let's move from the terrifying to the impossible. Somewhere in our galaxy, there is a dead star spinning faster than your mind can process.",
       "mainText": "A DEAD STAR, SPINNING IMPOSSIBLY FAST",
-      "emphasis": ["IMPOSSIBLY FAST"],
+      "emphasis": [
+        "IMPOSSIBLY FAST"
+      ],
       "kicker": "THE FASTEST KNOWN PULSAR",
       "visualConcept": "host excitement build",
-      "emotionalTone": "excitement", "transitionOut": "cut"
+      "emotionalTone": "excitement",
+      "transitionOut": "cut"
     },
     {
-      "id": "b7", "kind": "data", "board": true, "start": 119, "end": 129,
+      "id": "b7",
+      "kind": "data",
+      "board": true,
+      "start": 119,
+      "end": 129,
       "voiceover": "PSR J1748, minus 2446 A D, spins seven hundred sixteen times... every single second. Its surface is moving at nearly a quarter of the speed of light. Any faster, and it would tear itself apart.",
       "mainText": "716 ROTATIONS. EVERY SECOND.",
-      "emphasis": ["716"],
+      "emphasis": [
+        "716"
+      ],
       "kicker": "SURFACE SPEED: ~24% THE SPEED OF LIGHT",
       "visualConcept": "count-up stat slam",
-      "stat": { "to": 716, "label": "ROTATIONS PER SECOND — ONE STAR" },
-      "emotionalTone": "excitement", "transitionOut": "flash"
+      "stat": {
+        "to": 716,
+        "label": "ROTATIONS PER SECOND — ONE STAR"
+      },
+      "emotionalTone": "excitement",
+      "transitionOut": "flash"
     },
     {
-      "id": "h8", "kind": "problem", "start": 129, "end": 138,
+      "id": "h8",
+      "kind": "problem",
+      "start": 129,
+      "end": 138,
       "voiceover": "Here's one hiding in your pocket right now. Every GPS satellite above you is deliberately built with a mistake — because Einstein demanded it.",
       "mainText": "YOUR PHONE IS BUILT ON A MISTAKE",
-      "emphasis": ["A MISTAKE"],
+      "emphasis": [
+        "A MISTAKE"
+      ],
       "kicker": "GPS AND GENERAL RELATIVITY",
       "visualConcept": "host confident reveal",
-      "emotionalTone": "confidence", "transitionOut": "cut"
+      "emotionalTone": "confidence",
+      "transitionOut": "cut"
     },
     {
-      "id": "b8", "kind": "comparison", "board": true, "start": 138, "end": 148,
+      "id": "b8",
+      "kind": "comparison",
+      "board": true,
+      "start": 138,
+      "end": 148,
       "voiceover": "Its speed slows its clock by seven microseconds a day. Weaker gravity up there speeds it up by forty-five. Uncorrected, your location would drift by ten kilometers... every single day.",
       "mainText": "UNCORRECTED: 10 KM OF DRIFT, PER DAY",
-      "emphasis": ["10 KM"],
+      "emphasis": [
+        "10 KM"
+      ],
       "kicker": "GRAVITY WINS BY 38 MICROSECONDS A DAY",
       "visualConcept": "physics tug-of-war board",
-      "compare": { "left": "SPEED SLOWS IT: -7 μs/DAY", "right": "GRAVITY SPEEDS IT: +45 μs/DAY" },
-      "emotionalTone": "confidence", "transitionOut": "cut"
+      "compare": {
+        "left": "SPEED SLOWS IT: -7 μs/DAY",
+        "right": "GRAVITY SPEEDS IT: +45 μs/DAY"
+      },
+      "emotionalTone": "confidence",
+      "transitionOut": "cut"
     },
     {
-      "id": "h9", "kind": "problem", "start": 148, "end": 157,
+      "id": "h9",
+      "kind": "problem",
+      "start": 148,
+      "end": 157,
       "voiceover": "You'd think black holes last forever. They don't. But the number for how long they actually take... will break your sense of scale.",
       "mainText": "EVEN BLACK HOLES EVENTUALLY DIE",
-      "emphasis": ["DIE"],
+      "emphasis": [
+        "DIE"
+      ],
       "kicker": "HAWKING RADIATION, REVISITED IN 2025",
       "visualConcept": "host somber reveal",
-      "emotionalTone": "awe", "transitionOut": "cut"
+      "emotionalTone": "awe",
+      "transitionOut": "cut"
     },
     {
-      "id": "b9", "kind": "data", "board": true, "start": 157, "end": 167,
+      "id": "b9",
+      "kind": "data",
+      "board": true,
+      "start": 157,
+      "end": 167,
       "voiceover": "A 2025 recalculation says a stellar black hole fully evaporates in ten, to the power of sixty-seven years. That's a one, followed by sixty-seven zeroes. The universe itself is only thirteen point eight billion years old.",
       "mainText": "10 with 67 ZEROES — IN YEARS",
-      "emphasis": ["67 ZEROES"],
+      "emphasis": [
+        "67 ZEROES"
+      ],
       "kicker": "THE UNIVERSE ISN'T EVEN 1% OF THE WAY THERE",
       "visualConcept": "exponent stat slam",
-      "stat": { "to": 67, "suffix": " zeroes", "label": "YEARS FOR A BLACK HOLE TO FULLY EVAPORATE" },
-      "emotionalTone": "awe", "transitionOut": "whip"
+      "stat": {
+        "to": 67,
+        "suffix": " zeroes",
+        "label": "YEARS FOR A BLACK HOLE TO FULLY EVAPORATE"
+      },
+      "emotionalTone": "awe",
+      "transitionOut": "whip"
     },
     {
-      "id": "h10", "kind": "problem", "start": 167, "end": 176,
+      "id": "h10",
+      "kind": "problem",
+      "start": 167,
+      "end": 176,
       "voiceover": "And now, the one that actually changed how I see the night sky. Most of what you can see up there... you can never, ever visit.",
       "mainText": "YOU WILL NEVER REACH MOST OF THE SKY",
-      "emphasis": ["NEVER"],
+      "emphasis": [
+        "NEVER"
+      ],
       "kicker": "THE COSMIC EVENT HORIZON",
       "visualConcept": "host quiet devastation",
-      "emotionalTone": "fear", "transitionOut": "cut"
+      "emotionalTone": "fear",
+      "transitionOut": "cut",
+      "hostClipExists": true
     },
     {
-      "id": "b10", "kind": "shockfact", "board": true, "start": 176, "end": 186,
+      "id": "b10",
+      "kind": "shockfact",
+      "board": true,
+      "start": 176,
+      "end": 186,
       "voiceover": "Ninety-four percent of the galaxies in our observable universe are already permanently unreachable. Space itself is expanding faster than light could ever cross it. Even if you left today, at light speed... you would never, ever arrive.",
       "mainText": "94% OF THE UNIVERSE — GONE, FOREVER",
-      "emphasis": ["94%", "FOREVER"],
+      "emphasis": [
+        "94%",
+        "FOREVER"
+      ],
       "kicker": "EVEN AT THE SPEED OF LIGHT",
       "visualConcept": "devastating stat slam",
-      "stat": { "to": 94, "suffix": "%", "label": "OF THE UNIVERSE YOU CAN NEVER REACH" },
-      "emotionalTone": "fear", "transitionOut": "whip"
+      "stat": {
+        "to": 94,
+        "suffix": "%",
+        "label": "OF THE UNIVERSE YOU CAN NEVER REACH"
+      },
+      "emotionalTone": "fear",
+      "transitionOut": "whip"
     },
     {
-      "id": "h11", "kind": "quote", "board": true, "start": 186, "end": 197,
+      "id": "h11",
+      "kind": "quote",
+      "board": true,
+      "start": 186,
+      "end": 197,
       "voiceover": "And here's the strangest part. The thing pushing all of that away — dark energy — might be weakening. If it is... the universe stops expanding. And starts, instead, to fall back in on itself.",
       "mainText": "\"IT MIGHT ALL FALL BACK IN ON ITSELF\"",
-      "emphasis": ["FALL BACK"],
+      "emphasis": [
+        "FALL BACK"
+      ],
       "kicker": "DESI 2025 — AN UNRESOLVED DEBATE, NOT A FACT",
       "visualConcept": "pull-quote card, unresolved",
-      "emotionalTone": "awe", "transitionOut": "flash"
+      "emotionalTone": "awe",
+      "transitionOut": "flash",
+      "hostClipExists": true
     },
     {
-      "id": "cta", "kind": "cta", "start": 197, "end": 207,
+      "id": "cta",
+      "kind": "cta",
+      "start": 197,
+      "end": 207,
       "voiceover": "Nobody knows how this ends yet. Not really. That's the part that should terrify and delight you in equal measure. Subscribe to mindwired... because I'm not done looking.",
       "mainText": "SUBSCRIBE — I'M NOT DONE LOOKING",
-      "emphasis": ["SUBSCRIBE"],
+      "emphasis": [
+        "SUBSCRIBE"
+      ],
       "kicker": "@MINDWIREDD",
       "visualConcept": "host CTA, warm close",
-      "emotionalTone": "confidence", "transitionOut": "none"
+      "emotionalTone": "confidence",
+      "transitionOut": "none",
+      "hostClipExists": true
     }
   ]
 }

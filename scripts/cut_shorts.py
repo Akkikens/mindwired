@@ -64,6 +64,7 @@ def main():
             "cutId": cut["id"],
             "title": cut["title"],
             **({"host": plan["host"]} if plan.get("host") else {}),
+            **({"channel": plan["channel"]} if plan.get("channel") else {}),
             **({"music": plan["music"]} if plan.get("music") else {}),
             "scenes": scenes,
         })

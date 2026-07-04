@@ -66,12 +66,46 @@ A master plan with `"shortCuts": [...]` produces both:
   zero extra spend. Each cut = 4-6 scene ids from the master (15-60s), opening
   scene auto-promoted to hook.
 
+## Two shoots per host: 9:16 AND 16:9 (don't skip the wide one)
+
+Every host needs **two** portraits: `image`/`sourceImage` (9:16, for Shorts)
+and `imageWide`/`sourceImageWide` (native 16:9, for long-forms). A 9:16
+portrait force-cropped to fill a 16:9 frame ("cover") only shows a thin band
+near whatever vertical anchor you pick — for a face that means hairline-only,
+mouth cut off entirely, which is fatal for a talking host (learned the hard
+way 2026-07-04). Shoot the wide version for real:
+
+```bash
+.venv-lipsync/bin/python lipsync/gemini_host.py \
+  --out public/host/<id>_wide.png --ref public/host/<id>.png --aspect 16:9 \
+  --prompt "Use the man in the reference photo — exact same face... Wide
+  landscape broadcast shot: positioned left-of-center, chest-up, open negative
+  space to the right for graphics..."
+.venv-lipsync/bin/python lipsync/upscale.py --image public/host/<id>_wide.png \
+  --out public/host/<id>_wide_4k.png --scale 4
+```
+Then set `imageWide`/`sourceImageWide` in hosts.json. `resolveHostImage(host,
+wide)` picks the right one; a host with no `imageWide` yet falls back to a
+pillarboxed 9:16 (full face still visible, just not edge-to-edge) rather than
+the old crop-the-mouth-off behavior.
+
+**Talking clips are 9:16 ONLY (verdict 2026-07-04).** We tried wide talking
+clips with both engines and Akshay rejected both: Wav2Lip freezes everything
+except a small mouth crop (visible chin seam, dead body), and even Sonic
+degrades badly on 16:9 — the face is a smaller region of the frame, so its
+animate-crop-and-paste-back leaves a visible seam down the face edge and soft
+blur. **Policy: 16:9 long-forms use the still `imageWide` host with the Ken
+Burns drift (looks clean and intentional); talking clips only ever ship in
+9:16 Shorts where the face fills the frame.** The `--wide` batch flag and
+`hostClipExistsWide` plumbing still exist if a better model ever changes this,
+but don't burn credit re-testing Sonic/Wav2Lip on wide shots.
+
 ## Engine behavior (src/viral/ShortEngine.tsx)
 
 - `plan.host` set → host mode. Per scene: talking clip if
-  `public/shorts/<slug>/host/<sceneId>.mp4` exists (`hostClipExists`, set by
-  batch.py), else the still 4K master. `board: true` scenes render the full
-  kinetic scene instead (opaque, covers the host).
+  `public/shorts/<slug>/host/<sceneId>.mp4` (or `host-wide/` on a 16:9 render)
+  exists, else the still master for that aspect. `board: true` scenes render
+  the full kinetic scene instead (opaque, covers the host).
 - Talking clips are muted; the scene mp3 stays the audio source (keeps
   word-synced kinetic captions). Clips fade out over their last 6 frames into
   the still for the HOLD beat.
@@ -84,6 +118,39 @@ A master plan with `"shortCuts": [...]` produces both:
 |---|---|---|
 | portrait | gemini-2.5-flash-image (own GEMINI_API_KEY) | ~$0.04/image |
 | upscale | nightmareai/real-esrgan on Replicate | ~$0.01/image |
-| lip-sync | zf-kbot/sonic on Replicate, keep_resolution=True | ~$0.10-0.25/clip |
+| lip-sync (paid) | zf-kbot/sonic on Replicate, keep_resolution=True | ~$0.10-0.25/clip |
+| lip-sync (free) | Wav2Lip, local, `batch.py --engine wav2lip` | $0, CPU, ~1-2x realtime |
 
 SadTalker (cjwbw/sadtalker) is deprecated here — blurry. Sonic replaced it.
+Wav2Lip is the free fallback when Replicate is out of credit — visibly softer
+around the mouth than Sonic, but a real, working local option. Setup:
+
+```bash
+python3 -m venv .venv-wav2lip
+.venv-wav2lip/bin/pip install torch torchvision numpy opencv-python librosa numba tqdm
+git clone --depth 1 https://github.com/Rudrabha/Wav2Lip lipsync/wav2lip/repo
+curl -L -o lipsync/wav2lip/repo/checkpoints/wav2lip_gan.pth \
+  https://huggingface.co/camenduru/Wav2Lip/resolve/main/checkpoints/wav2lip_gan.pth
+curl -L -o lipsync/wav2lip/repo/face_detection/detection/sfd/s3fd.pth \
+  https://huggingface.co/camenduru/Wav2Lip/resolve/main/face_detection/detection/sfd/s3fd.pth
+```
+Then patch `lipsync/wav2lip/repo/audio.py`'s `librosa.filters.mel(...)` call to
+use keyword args (`sr=`, `n_fft=`) — modern librosa made them keyword-only and
+the repo is pinned to a 2019-era librosa API. `lipsync/wav2lip_client.py`
+wraps it with the same `run(image, audio, out)` signature as `sonic_client`,
+so `batch.py --engine wav2lip` is the only thing callers need to know about.
+
+## Reliability notes (learned 2026-07-04)
+
+- **Feed Sonic 1080p, not the 4K master.** batch.py auto-generates a cached
+  `<image>_sonic.png` at ~1080p for the Sonic call — the 4K master is for the
+  still layer/re-poses only. Sending it 4K directly was slow enough to hang a
+  job and once produced a truncated/corrupt mp4 (`moov atom not found`).
+  sonic_client.py now ffprobes every download before publishing it, so a
+  truncated transfer fails loudly instead of silently landing a broken clip.
+- **Low Replicate credit throttles to 6 predictions/min** (HTTP 429, "Request
+  was throttled... while you have less than $5.0 in credit"). batch.py now
+  paces clips 11s apart and sonic_client.py retries 429s/timeouts with backoff.
+  If a whole batch run dies anyway, just rerun the same command — both scripts
+  are idempotent and pick up only the missing clips. Top up credit at
+  replicate.com/account/billing if this keeps happening.

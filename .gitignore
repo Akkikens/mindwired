@@ -13,6 +13,9 @@ out
 .env.*
 voice_samples
 .venv-lipsync/
+.venv-wav2lip/
+lipsync/wav2lip/repo/
 lipsync/out/
 __pycache__/
 *.pyc
+public/host/*_sonic.png

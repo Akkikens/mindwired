@@ -16,6 +16,7 @@ import argparse
 import os
 import subprocess
 import sys
+import time
 import urllib.request
 from pathlib import Path
 
@@ -41,24 +42,47 @@ def load_token() -> str:
 
 
 def run(image: Path, audio: Path, out: Path, dynamic_scale: float = 1.0,
-        keep_resolution: bool = True, inference_steps: int = 25):
+        keep_resolution: bool = True, inference_steps: int = 25, retries: int = 4):
     import replicate
+    from replicate.exceptions import ReplicateError
 
     os.environ["REPLICATE_API_TOKEN"] = load_token()
     out.parent.mkdir(parents=True, exist_ok=True)
 
     print(f"  lip-syncing {audio.name} onto {image.name} via Sonic "
           f"(keep_resolution={keep_resolution}, dynamic_scale={dynamic_scale})...")
-    output = replicate.run(
-        MODEL,
-        input={
-            "image": open(image, "rb"),
-            "audio": open(audio, "rb"),
-            "dynamic_scale": dynamic_scale,
-            "keep_resolution": keep_resolution,
-            "inference_steps": inference_steps,
-        },
-    )
+
+    output = None
+    for attempt in range(1, retries + 1):
+        try:
+            output = replicate.run(
+                MODEL,
+                input={
+                    "image": open(image, "rb"),
+                    "audio": open(audio, "rb"),
+                    "dynamic_scale": dynamic_scale,
+                    "keep_resolution": keep_resolution,
+                    "inference_steps": inference_steps,
+                },
+            )
+            break
+        except ReplicateError as e:
+            # low account credit throttles predictions to 6/min — back off and retry
+            # rather than let one 429 kill an entire batch of otherwise-fine clips
+            if getattr(e, "status", None) == 429 and attempt < retries:
+                wait = 15 * attempt
+                print(f"  [rate limited — low Replicate credit; retrying in {wait}s "
+                      f"({attempt}/{retries})]")
+                time.sleep(wait)
+                continue
+            raise
+        except Exception as e:  # network hiccups (ReadTimeout etc.) — same backoff
+            if attempt < retries:
+                wait = 10 * attempt
+                print(f"  [{type(e).__name__} — retrying in {wait}s ({attempt}/{retries})]")
+                time.sleep(wait)
+                continue
+            raise
     url = output if isinstance(output, str) else getattr(output, "url", None) or str(output)
     tmp = out.with_suffix(out.suffix + ".part")
     urllib.request.urlretrieve(url, tmp)
