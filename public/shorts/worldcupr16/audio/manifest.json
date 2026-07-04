@@ -8734,8 +8734,8 @@
    ]
   },
   "cta": {
-   "dur": 10.728,
-   "text": "The Round of 16 breaks down right here the moment it ends \u2014 so subscribe to mindwired, drop your bracket in the comments, and I'll see you after the whistle.",
+   "dur": 9.567,
+   "text": "The Round of 16 breaks down right here the moment it ends \u2014 so subscribe, drop your bracket in the comments, and I'll see you after the whistle.",
    "words": [
     {
      "word": "The",
@@ -8749,143 +8749,133 @@
     },
     {
      "word": "of",
-     "start": 0.476,
+     "start": 0.488,
      "end": 0.534
     },
     {
      "word": "16",
      "start": 0.592,
-     "end": 1.115
+     "end": 1.091
     },
     {
      "word": "breaks",
-     "start": 1.393,
-     "end": 1.707
+     "start": 1.207,
+     "end": 1.498
     },
     {
      "word": "down",
-     "start": 1.765,
-     "end": 1.985
+     "start": 1.556,
+     "end": 1.858
     },
     {
      "word": "right",
-     "start": 2.101,
-     "end": 2.368
+     "start": 2.032,
+     "end": 2.276
     },
     {
      "word": "here",
-     "start": 2.426,
-     "end": 2.682
+     "start": 2.322,
+     "end": 2.496
     },
     {
      "word": "the",
-     "start": 2.74,
-     "end": 2.821
+     "start": 2.543,
+     "end": 2.612
     },
     {
      "word": "moment",
-     "start": 2.937,
-     "end": 3.32
+     "start": 2.659,
+     "end": 2.891
     },
     {
      "word": "it",
-     "start": 3.367,
-     "end": 3.437
+     "start": 2.937,
+     "end": 2.995
     },
     {
      "word": "ends",
-     "start": 3.506,
-     "end": 3.808
+     "start": 3.065,
+     "end": 3.355
     },
     {
      "word": "\u2014",
-     "start": 4.017,
-     "end": 4.075
+     "start": 3.529,
+     "end": 3.611
     },
     {
      "word": "so",
-     "start": 4.354,
-     "end": 4.54
+     "start": 3.82,
+     "end": 3.994
     },
     {
-     "word": "subscribe",
-     "start": 4.621,
-     "end": 5.248
-    },
-    {
-     "word": "to",
-     "start": 5.283,
-     "end": 5.341
-    },
-    {
-     "word": "mindwired,",
-     "start": 5.433,
-     "end": 6.397
+     "word": "subscribe,",
+     "start": 4.075,
+     "end": 4.957
     },
     {
      "word": "drop",
-     "start": 6.78,
-     "end": 7.012
+     "start": 5.283,
+     "end": 5.526
     },
     {
      "word": "your",
-     "start": 7.07,
-     "end": 7.187
+     "start": 5.584,
+     "end": 5.724
     },
     {
      "word": "bracket",
-     "start": 7.233,
-     "end": 7.546
+     "start": 5.782,
+     "end": 6.107
     },
     {
      "word": "in",
-     "start": 7.605,
-     "end": 7.663
+     "start": 6.153,
+     "end": 6.223
     },
     {
      "word": "the",
-     "start": 7.709,
-     "end": 7.779
+     "start": 6.269,
+     "end": 6.339
     },
     {
      "word": "comments,",
-     "start": 7.825,
-     "end": 8.429
+     "start": 6.374,
+     "end": 7.036
     },
     {
      "word": "and",
-     "start": 8.638,
-     "end": 8.777
+     "start": 7.279,
+     "end": 7.419
     },
     {
      "word": "I'll",
-     "start": 8.824,
-     "end": 8.975
+     "start": 7.488,
+     "end": 7.663
     },
     {
      "word": "see",
-     "start": 9.033,
-     "end": 9.23
+     "start": 7.732,
+     "end": 7.953
     },
     {
      "word": "you",
-     "start": 9.288,
-     "end": 9.416
+     "start": 8.022,
+     "end": 8.197
     },
     {
      "word": "after",
-     "start": 9.532,
-     "end": 9.845
+     "start": 8.371,
+     "end": 8.719
     },
     {
      "word": "the",
-     "start": 9.892,
-     "end": 9.961
+     "start": 8.754,
+     "end": 8.824
     },
     {
      "word": "whistle.",
-     "start": 10.008,
-     "end": 10.728
+     "start": 8.858,
+     "end": 9.567
     }
    ]
   }
