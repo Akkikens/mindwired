@@ -58,14 +58,43 @@ def _hdr() -> dict:
             "User-Agent": _UA, "Accept": "application/json"}
 
 
-def tts(text: str, *, description: str = NARRATOR, context_gen: str | None = None) -> tuple[bytes, str]:
-    """Synthesize one utterance. Returns (mp3_bytes, generation_id).
-    Pass the prior clip's generation_id as context_gen to keep the voice consistent."""
-    utt: dict = {"text": text}
-    # description only seeds a *new* voice; once we have a voice via context, keep it
-    if context_gen is None:
-        utt["description"] = description
-    payload: dict = {"utterances": [utt], "format": {"type": "mp3"}, "num_generations": 1}
+def split_beats(text: str) -> list[str]:
+    """Split narration into human speaking beats at sentence ends, em dashes and
+    ellipses — the same punctuation writers use for dramatic weight. Each beat
+    becomes its own Octave utterance so trailing_silence lands exactly there
+    instead of Octave's own (much smaller, less controllable) sentence pausing."""
+    import re
+    parts = re.split(r"(?<=[.!?])\s+|(?<=—)\s*|(?<=\.\.\.)\s*", text.strip())
+    return [p for p in parts if p]
+
+
+def _trailing_silence_for(beat: str) -> float:
+    """Longer pause after a full sentence or a dramatic dash/ellipsis; a short
+    breath after a comma-less clause. Tuned by ear against Octave's own pacing."""
+    if beat.endswith("...") or beat.endswith("—"):
+        return 0.5
+    if beat.endswith((".", "!", "?")):
+        return 0.35
+    return 0.15
+
+
+def tts(text: str, *, description: str = NARRATOR, context_gen: str | None = None,
+        beats: bool = True) -> tuple[bytes, str]:
+    """Synthesize narration. Returns (mp3_bytes, generation_id).
+    Pass the prior clip's generation_id as context_gen to keep the voice consistent
+    across scenes. When beats=True (default), the text is split into sentence-level
+    utterances each carrying trailing_silence, so the delivery breathes with
+    human-length pauses instead of racing through the whole line in one breath."""
+    chunks = split_beats(text) if beats else [text]
+    utterances = []
+    for i, chunk in enumerate(chunks):
+        utt: dict = {"text": chunk, "trailing_silence": _trailing_silence_for(chunk)}
+        # description only seeds a *new* voice; once we have a voice via context
+        # (either this call's own beat 0, or a prior scene's generation_id), keep it
+        if context_gen is None and i == 0:
+            utt["description"] = description
+        utterances.append(utt)
+    payload: dict = {"utterances": utterances, "format": {"type": "mp3"}, "num_generations": 1}
     if context_gen:
         payload["context"] = {"generation_id": context_gen}
     req = Request(f"{API}/tts", data=json.dumps(payload).encode(), method="POST", headers=_hdr())

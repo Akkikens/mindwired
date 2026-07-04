@@ -4,654 +4,1314 @@
   "host": "rio",
   "scenes": [
     {
-      "id": "h1", "kind": "hook", "start": 0, "end": 8,
+      "id": "h1",
+      "kind": "hook",
+      "start": 0,
+      "end": 8,
       "voiceover": "Messi versus Ronaldo in a World Cup final is now just three wins away from being real. Let me show you the exact math.",
       "mainText": "MESSI vs RONALDO — 3 WINS AWAY",
-      "emphasis": ["MESSI", "RONALDO"],
+      "emphasis": [
+        "MESSI",
+        "RONALDO"
+      ],
       "kicker": "THE FINAL WE ALL WANT",
       "visualConcept": "host cold open, GOAT collision tease",
-      "emotionalTone": "shock", "transitionOut": "whip"
+      "emotionalTone": "shock",
+      "transitionOut": "whip",
+      "hostClipExists": true
     },
     {
-      "id": "h2", "kind": "shockfact", "board": true, "start": 8, "end": 15,
+      "id": "h2",
+      "kind": "shockfact",
+      "board": true,
+      "start": 8,
+      "end": 15,
       "voiceover": "The Round of 32 is done. Sixteen teams are gone — and two of the biggest names in football went home in disbelief.",
       "mainText": "16 TEAMS ELIMINATED",
-      "emphasis": ["16", "ELIMINATED"],
+      "emphasis": [
+        "16",
+        "ELIMINATED"
+      ],
       "kicker": "ROUND OF 32 COMPLETE",
       "visualConcept": "elimination slam board",
-      "stat": { "to": 16, "label": "TEAMS SENT HOME" },
-      "emotionalTone": "shock", "transitionOut": "flash"
+      "stat": {
+        "to": 16,
+        "label": "TEAMS SENT HOME"
+      },
+      "emotionalTone": "shock",
+      "transitionOut": "flash"
     },
     {
-      "id": "h3", "kind": "problem", "start": 15, "end": 23,
+      "id": "h3",
+      "kind": "problem",
+      "start": 15,
+      "end": 23,
       "voiceover": "Germany, out. The Netherlands, out. Japan, out. And the favorites? One of them survived the scare of the century by an own goal in extra time.",
       "mainText": "GERMANY OUT. NETHERLANDS OUT.",
-      "emphasis": ["OUT."],
+      "emphasis": [
+        "OUT."
+      ],
       "kicker": "THE CARNAGE",
       "visualConcept": "host lists the fallen",
-      "emotionalTone": "fear", "transitionOut": "cut"
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
     },
     {
-      "id": "h4", "kind": "problem", "start": 23, "end": 31,
+      "id": "h4",
+      "kind": "problem",
+      "start": 23,
+      "end": 31,
       "voiceover": "I'm Rio, and this is the full knockout breakdown — every Round of 32 score, every storyline, and the one Round of 16 match you cannot afford to miss.",
       "mainText": "EVERY SCORE. EVERY STORYLINE.",
-      "emphasis": ["EVERY"],
+      "emphasis": [
+        "EVERY"
+      ],
       "kicker": "ROUND OF 16 STARTS TODAY",
       "visualConcept": "host mission statement",
-      "emotionalTone": "confidence", "transitionOut": "cut"
+      "emotionalTone": "confidence",
+      "transitionOut": "cut"
     },
     {
-      "id": "h5", "kind": "problem", "start": 31, "end": 40,
+      "id": "h5",
+      "kind": "problem",
+      "start": 31,
+      "end": 40,
       "voiceover": "This tournament has already given us the latest goal in World Cup history, a Salah Panenka, and Messi leading the Golden Boot at thirty-nine. And the knockouts are just warming up.",
       "mainText": "AND IT'S JUST GETTING STARTED",
-      "emphasis": ["JUST", "STARTED"],
+      "emphasis": [
+        "JUST",
+        "STARTED"
+      ],
       "visualConcept": "host stakes stack",
-      "emotionalTone": "awe", "transitionOut": "whip"
+      "emotionalTone": "awe",
+      "transitionOut": "whip"
     },
     {
-      "id": "g1", "kind": "problem", "start": 40, "end": 47,
+      "id": "g1",
+      "kind": "problem",
+      "start": 40,
+      "end": 47,
       "voiceover": "Let's start with the carnage — because two European giants are already on the plane home, and neither loss was a fluke.",
       "mainText": "THE GIANTS FELL FIRST",
-      "emphasis": ["FELL"],
+      "emphasis": [
+        "FELL"
+      ],
       "kicker": "CHAPTER 1 — THE UPSETS",
       "visualConcept": "host chapter lead",
-      "emotionalTone": "fear", "transitionOut": "cut"
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
     },
     {
-      "id": "g2", "kind": "comparison", "board": true, "start": 47, "end": 56,
+      "id": "g2",
+      "kind": "comparison",
+      "board": true,
+      "start": 47,
+      "end": 56,
       "voiceover": "Germany one, Paraguay one — and in the shootout, Julio Enciso's Paraguay held their nerve, four-three. The four-time champions are out in the Round of 32.",
       "mainText": "GERMANY ARE OUT",
-      "emphasis": ["OUT"],
+      "emphasis": [
+        "OUT"
+      ],
       "kicker": "PARAGUAY WIN 4-3 ON PENS",
       "visualConcept": "score slam + shootout drama",
-      "compare": { "left": "GERMANY 1 (3)", "right": "PARAGUAY 1 (4)" },
-      "emotionalTone": "shock", "transitionOut": "whip"
+      "compare": {
+        "left": "GERMANY 1 (3)",
+        "right": "PARAGUAY 1 (4)"
+      },
+      "emotionalTone": "shock",
+      "transitionOut": "whip"
     },
     {
-      "id": "g3", "kind": "comparison", "board": true, "start": 56, "end": 65,
+      "id": "g3",
+      "kind": "comparison",
+      "board": true,
+      "start": 56,
+      "end": 65,
       "voiceover": "Same story for the Netherlands. Gakpo scored, but Issa Diop equalized in stoppage time and Morocco won the shootout three-two. Morocco march on — again.",
       "mainText": "MOROCCO KNOCK OUT THE DUTCH",
-      "emphasis": ["MOROCCO"],
+      "emphasis": [
+        "MOROCCO"
+      ],
       "kicker": "3-2 ON PENALTIES",
       "visualConcept": "score slam",
-      "compare": { "left": "NETHERLANDS 1 (2)", "right": "MOROCCO 1 (3)" },
-      "emotionalTone": "shock", "transitionOut": "cut"
+      "compare": {
+        "left": "NETHERLANDS 1 (2)",
+        "right": "MOROCCO 1 (3)"
+      },
+      "emotionalTone": "shock",
+      "transitionOut": "cut"
     },
     {
-      "id": "g4", "kind": "problem", "start": 65, "end": 73,
+      "id": "g4",
+      "kind": "problem",
+      "start": 65,
+      "end": 73,
       "voiceover": "And listen — Paraguay and Morocco did not get lucky. They defended like their lives depended on it, and they were ice cold from the spot. That's a formula.",
       "mainText": "NOT LUCK. A FORMULA.",
-      "emphasis": ["FORMULA."],
+      "emphasis": [
+        "FORMULA."
+      ],
       "visualConcept": "host tactical read",
-      "emotionalTone": "confidence", "transitionOut": "cut"
+      "emotionalTone": "confidence",
+      "transitionOut": "cut"
     },
     {
-      "id": "g5", "kind": "comparison", "board": true, "start": 73, "end": 82,
+      "id": "g5",
+      "kind": "comparison",
+      "board": true,
+      "start": 73,
+      "end": 82,
       "voiceover": "Brazil nearly joined them. Japan led through Sano until Casemiro leveled — and Gabriel Martinelli won it deep in stoppage time. Two-one, and Brazil exhale.",
       "mainText": "BRAZIL SURVIVE 90+5'",
-      "emphasis": ["SURVIVE"],
+      "emphasis": [
+        "SURVIVE"
+      ],
       "kicker": "MARTINELLI AT THE DEATH",
       "visualConcept": "score slam late winner",
-      "compare": { "left": "BRAZIL 2", "right": "JAPAN 1" },
-      "emotionalTone": "excitement", "transitionOut": "whip"
+      "compare": {
+        "left": "BRAZIL 2",
+        "right": "JAPAN 1"
+      },
+      "emotionalTone": "excitement",
+      "transitionOut": "whip"
     },
     {
-      "id": "g6", "kind": "comparison", "board": true, "start": 82, "end": 90,
+      "id": "g6",
+      "kind": "comparison",
+      "board": true,
+      "start": 82,
+      "end": 90,
       "voiceover": "France had no such drama. Mbappé hit a brace, Barcola added a third — three-nil over Sweden, and the champions look terrifying.",
       "mainText": "MBAPPÉ x2 — FRANCE CRUISE",
-      "emphasis": ["MBAPPÉ"],
+      "emphasis": [
+        "MBAPPÉ"
+      ],
       "kicker": "FRANCE 3-0 SWEDEN",
       "visualConcept": "score slam dominant",
-      "compare": { "left": "FRANCE 3", "right": "SWEDEN 0" },
-      "emotionalTone": "confidence", "transitionOut": "cut"
+      "compare": {
+        "left": "FRANCE 3",
+        "right": "SWEDEN 0"
+      },
+      "emotionalTone": "confidence",
+      "transitionOut": "cut"
     },
     {
-      "id": "g7", "kind": "comparison", "board": true, "start": 90, "end": 99,
+      "id": "g7",
+      "kind": "comparison",
+      "board": true,
+      "start": 90,
+      "end": 99,
       "voiceover": "And Mexico ended forty years of knockout heartbreak at the Azteca — Quiñones and Jiménez inside thirty-one minutes, two-nil over Ecuador, and the roof nearly came off.",
       "mainText": "MEXICO END THE 40-YEAR WAIT",
-      "emphasis": ["40-YEAR"],
+      "emphasis": [
+        "40-YEAR"
+      ],
       "kicker": "AZTECA ERUPTS",
       "visualConcept": "score slam home celebration",
-      "compare": { "left": "MEXICO 2", "right": "ECUADOR 0" },
-      "emotionalTone": "excitement", "transitionOut": "whip"
+      "compare": {
+        "left": "MEXICO 2",
+        "right": "ECUADOR 0"
+      },
+      "emotionalTone": "excitement",
+      "transitionOut": "whip"
     },
     {
-      "id": "g8", "kind": "problem", "start": 99, "end": 106,
+      "id": "g8",
+      "kind": "problem",
+      "start": 99,
+      "end": 106,
       "voiceover": "So most of the seeds held. But the warning signs are everywhere — and the next three matches I'm about to show you were absolute cinema.",
       "mainText": "THEN CAME THE CINEMA",
-      "emphasis": ["CINEMA"],
+      "emphasis": [
+        "CINEMA"
+      ],
       "visualConcept": "host bridge",
-      "emotionalTone": "curiosity", "transitionOut": "flash"
+      "emotionalTone": "curiosity",
+      "transitionOut": "flash"
     },
     {
-      "id": "d1", "kind": "problem", "start": 106, "end": 113,
+      "id": "d1",
+      "kind": "problem",
+      "start": 106,
+      "end": 113,
       "voiceover": "Belgium versus Senegal in Seattle was the craziest comeback of the tournament so far — and it ended with a World Cup record that may never be broken.",
       "mainText": "THE COMEBACK OF THE TOURNAMENT",
-      "emphasis": ["COMEBACK"],
+      "emphasis": [
+        "COMEBACK"
+      ],
       "kicker": "CHAPTER 2 — DRAMA NIGHTS",
       "visualConcept": "host chapter lead",
-      "emotionalTone": "curiosity", "transitionOut": "cut"
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
     },
     {
-      "id": "d2", "kind": "comparison", "board": true, "start": 113, "end": 121,
+      "id": "d2",
+      "kind": "comparison",
+      "board": true,
+      "start": 113,
+      "end": 121,
       "voiceover": "Senegal led two-nil. Habib Diarra, then Ismaila Sarr — and with four minutes left, Belgium looked dead and buried.",
       "mainText": "SENEGAL 2-0 UP — 86 MINUTES",
-      "emphasis": ["2-0"],
+      "emphasis": [
+        "2-0"
+      ],
       "kicker": "BELGIUM ON THE ROPES",
       "visualConcept": "score board tension",
-      "compare": { "left": "SENEGAL 2", "right": "BELGIUM 0" },
-      "emotionalTone": "fear", "transitionOut": "cut"
+      "compare": {
+        "left": "SENEGAL 2",
+        "right": "BELGIUM 0"
+      },
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
     },
     {
-      "id": "d3", "kind": "comparison", "board": true, "start": 121, "end": 130,
+      "id": "d3",
+      "kind": "comparison",
+      "board": true,
+      "start": 121,
+      "end": 130,
       "voiceover": "Then Lukaku in the eighty-sixth. Tielemans header in the eighty-ninth. Extra time. And deep into the second period, a VAR penalty — Tielemans again. Three-two Belgium.",
       "mainText": "LUKAKU 86' — TIELEMANS 89' — 3-2",
-      "emphasis": ["3-2"],
+      "emphasis": [
+        "3-2"
+      ],
       "kicker": "FROM THE DEAD",
       "visualConcept": "comeback timeline slam",
-      "compare": { "left": "BELGIUM 3", "right": "SENEGAL 2" },
-      "emotionalTone": "excitement", "transitionOut": "whip"
+      "compare": {
+        "left": "BELGIUM 3",
+        "right": "SENEGAL 2"
+      },
+      "emotionalTone": "excitement",
+      "transitionOut": "whip"
     },
     {
-      "id": "d4", "kind": "shockfact", "board": true, "start": 130, "end": 139,
+      "id": "d4",
+      "kind": "shockfact",
+      "board": true,
+      "start": 130,
+      "end": 139,
       "voiceover": "That winning penalty went in at one hundred twenty-four minutes and forty-four seconds — the latest goal in the history of the men's World Cup.",
       "mainText": "124:44 — LATEST GOAL EVER",
-      "emphasis": ["124:44"],
+      "emphasis": [
+        "124:44"
+      ],
       "kicker": "WORLD CUP HISTORY",
       "visualConcept": "record stat slam",
-      "stat": { "to": 124, "suffix": ":44", "label": "LATEST WC GOAL IN HISTORY" },
-      "emotionalTone": "shock", "transitionOut": "flash"
+      "stat": {
+        "to": 124,
+        "suffix": ":44",
+        "label": "LATEST WC GOAL IN HISTORY"
+      },
+      "emotionalTone": "shock",
+      "transitionOut": "flash"
     },
     {
-      "id": "d5", "kind": "problem", "start": 139, "end": 147,
+      "id": "d5",
+      "kind": "problem",
+      "start": 139,
+      "end": 147,
       "voiceover": "Canada made history too — Stephen Eustáquio's stoppage-time winner against South Africa put them in the Round of 16 for the first time ever. Co-hosts, dreaming.",
       "mainText": "CANADA — FIRST R16 EVER",
-      "emphasis": ["FIRST", "EVER"],
+      "emphasis": [
+        "FIRST",
+        "EVER"
+      ],
       "kicker": "EUSTÁQUIO 90+2'",
       "visualConcept": "host history moment",
-      "emotionalTone": "awe", "transitionOut": "cut"
+      "emotionalTone": "awe",
+      "transitionOut": "cut"
     },
     {
-      "id": "d6", "kind": "comparison", "board": true, "start": 147, "end": 156,
+      "id": "d6",
+      "kind": "comparison",
+      "board": true,
+      "start": 147,
+      "end": 156,
       "voiceover": "The USA beat Bosnia two-nil for their first knockout win since two thousand two — but it came at a price. Balogun scored, then saw red. He's suspended for Belgium.",
       "mainText": "USA WIN — BUT LOSE BALOGUN",
-      "emphasis": ["BALOGUN"],
+      "emphasis": [
+        "BALOGUN"
+      ],
       "kicker": "FIRST KO WIN SINCE 2002",
       "visualConcept": "score slam + red card sting",
-      "compare": { "left": "USA 2", "right": "BOSNIA 0" },
-      "emotionalTone": "excitement", "transitionOut": "cut"
+      "compare": {
+        "left": "USA 2",
+        "right": "BOSNIA 0"
+      },
+      "emotionalTone": "excitement",
+      "transitionOut": "cut"
     },
     {
-      "id": "d7", "kind": "comparison", "board": true, "start": 156, "end": 164,
+      "id": "d7",
+      "kind": "comparison",
+      "board": true,
+      "start": 156,
+      "end": 164,
       "voiceover": "Switzerland two, Algeria nil — Embolo early, Ndoye forty-eight seconds into the second half. Their first World Cup knockout win in eighty-eight years.",
       "mainText": "SWITZERLAND — FIRST IN 88 YEARS",
-      "emphasis": ["88", "YEARS"],
+      "emphasis": [
+        "88",
+        "YEARS"
+      ],
       "kicker": "EMBOLO + NDOYE",
       "visualConcept": "score slam drought ended",
-      "compare": { "left": "SWITZERLAND 2", "right": "ALGERIA 0" },
-      "emotionalTone": "shock", "transitionOut": "cut"
+      "compare": {
+        "left": "SWITZERLAND 2",
+        "right": "ALGERIA 0"
+      },
+      "emotionalTone": "shock",
+      "transitionOut": "cut"
     },
     {
-      "id": "d8", "kind": "shockfact", "board": true, "start": 164, "end": 173,
+      "id": "d8",
+      "kind": "shockfact",
+      "board": true,
+      "start": 164,
+      "end": 173,
       "voiceover": "And Harry Kane? Seven minutes in, England were losing to DR Congo. Then Kane scored twice — thirteen World Cup goals now. He just passed Pelé.",
       "mainText": "KANE PASSES PELÉ — 13 WC GOALS",
-      "emphasis": ["PELÉ"],
+      "emphasis": [
+        "PELÉ"
+      ],
       "kicker": "ENGLAND 2-1 DR CONGO",
       "visualConcept": "record stat slam",
-      "stat": { "to": 13, "label": "KANE'S WORLD CUP GOALS — MORE THAN PELÉ" },
-      "emotionalTone": "shock", "transitionOut": "whip"
+      "stat": {
+        "to": 13,
+        "label": "KANE'S WORLD CUP GOALS — MORE THAN PELÉ"
+      },
+      "emotionalTone": "shock",
+      "transitionOut": "whip"
     },
     {
-      "id": "d9", "kind": "problem", "start": 173, "end": 181,
+      "id": "d9",
+      "kind": "problem",
+      "start": 173,
+      "end": 181,
       "voiceover": "Colombia quietly completed the field — one-nil over a Ghana side that didn't manage a single shot on target. Sixteen teams became eight storylines.",
       "mainText": "GHANA: 0 SHOTS ON TARGET",
-      "emphasis": ["0"],
+      "emphasis": [
+        "0"
+      ],
       "kicker": "COLOMBIA 1-0",
       "visualConcept": "host quiet-killer read",
-      "emotionalTone": "confidence", "transitionOut": "flash"
+      "emotionalTone": "confidence",
+      "transitionOut": "flash"
     },
     {
-      "id": "a1", "kind": "problem", "start": 181, "end": 188,
+      "id": "a1",
+      "kind": "problem",
+      "start": 181,
+      "end": 188,
       "voiceover": "Now the match that nearly broke the internet. Argentina versus Cape Verde — a World Cup debutant, ninety minutes from the biggest upset of all time.",
       "mainText": "ARGENTINA'S NEAR-DEATH EXPERIENCE",
-      "emphasis": ["NEAR-DEATH"],
+      "emphasis": [
+        "NEAR-DEATH"
+      ],
       "kicker": "CHAPTER 3 — THE SCARE",
       "visualConcept": "host chapter lead",
-      "emotionalTone": "fear", "transitionOut": "cut"
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
     },
     {
-      "id": "a2", "kind": "data", "board": true, "start": 188, "end": 197,
+      "id": "a2",
+      "kind": "data",
+      "board": true,
+      "start": 188,
+      "end": 197,
       "voiceover": "It started to script. Messi, twenty-ninth minute — his twentieth World Cup goal, extending a record no one else is close to.",
       "mainText": "MESSI — 20 WORLD CUP GOALS",
-      "emphasis": ["20"],
+      "emphasis": [
+        "20"
+      ],
       "kicker": "RECORD EXTENDED",
       "visualConcept": "goal count-up",
-      "stat": { "to": 20, "label": "MESSI CAREER WC GOALS — ALL-TIME RECORD" },
-      "emotionalTone": "awe", "transitionOut": "cut"
+      "stat": {
+        "to": 20,
+        "label": "MESSI CAREER WC GOALS — ALL-TIME RECORD"
+      },
+      "emotionalTone": "awe",
+      "transitionOut": "cut"
     },
     {
-      "id": "a3", "kind": "comparison", "board": true, "start": 197, "end": 205,
+      "id": "a3",
+      "kind": "comparison",
+      "board": true,
+      "start": 197,
+      "end": 205,
       "voiceover": "But Cape Verde refused to blink. Deroy Duarte equalized just before the hour, and suddenly Miami got very, very nervous.",
       "mainText": "CAPE VERDE LEVEL — 1-1",
-      "emphasis": ["1-1"],
+      "emphasis": [
+        "1-1"
+      ],
       "kicker": "DUARTE 59'",
       "visualConcept": "upset tension board",
-      "compare": { "left": "ARGENTINA 1", "right": "CAPE VERDE 1" },
-      "emotionalTone": "fear", "transitionOut": "cut"
+      "compare": {
+        "left": "ARGENTINA 1",
+        "right": "CAPE VERDE 1"
+      },
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
     },
     {
-      "id": "a4", "kind": "comparison", "board": true, "start": 205, "end": 214,
+      "id": "a4",
+      "kind": "comparison",
+      "board": true,
+      "start": 205,
+      "end": 214,
       "voiceover": "Lisandro Martínez restored the lead two minutes into extra time — and Sidny Lopes Cabral equalized AGAIN from the edge of the box. Two-two. Debutants, toe to toe with the champions.",
       "mainText": "2-2 IN EXTRA TIME",
-      "emphasis": ["2-2"],
+      "emphasis": [
+        "2-2"
+      ],
       "kicker": "LOPES CABRAL 103'",
       "visualConcept": "seesaw scoreboard",
-      "compare": { "left": "ARGENTINA 2", "right": "CAPE VERDE 2" },
-      "emotionalTone": "shock", "transitionOut": "whip"
+      "compare": {
+        "left": "ARGENTINA 2",
+        "right": "CAPE VERDE 2"
+      },
+      "emotionalTone": "shock",
+      "transitionOut": "whip"
     },
     {
-      "id": "a5", "kind": "problem", "start": 214, "end": 223,
+      "id": "a5",
+      "kind": "problem",
+      "start": 214,
+      "end": 223,
       "voiceover": "Then the hundred and eleventh minute. Messi corner, Romero header — own goal. Three-two Argentina. The champions survive, and Cape Verde leave with the world's respect.",
       "mainText": "111' — ARGENTINA SURVIVE",
-      "emphasis": ["SURVIVE"],
+      "emphasis": [
+        "SURVIVE"
+      ],
       "kicker": "FROM MESSI'S CORNER",
       "visualConcept": "host relief + respect",
-      "emotionalTone": "excitement", "transitionOut": "cut"
+      "emotionalTone": "excitement",
+      "transitionOut": "cut"
     },
     {
-      "id": "a6", "kind": "shockfact", "board": true, "start": 223, "end": 231,
+      "id": "a6",
+      "kind": "shockfact",
+      "board": true,
+      "start": 223,
+      "end": 231,
       "voiceover": "Understand what almost happened: a nation of half a million people, at their first World Cup, two minutes from knocking out the defending champions.",
       "mainText": "THE UPSET THAT ALMOST WAS",
-      "emphasis": ["ALMOST"],
+      "emphasis": [
+        "ALMOST"
+      ],
       "kicker": "CAPE VERDE'S FIRST WORLD CUP",
       "visualConcept": "context slam",
-      "emotionalTone": "awe", "transitionOut": "cut"
+      "emotionalTone": "awe",
+      "transitionOut": "cut"
     },
     {
-      "id": "a7", "kind": "data", "board": true, "start": 231, "end": 240,
+      "id": "a7",
+      "kind": "data",
+      "board": true,
+      "start": 231,
+      "end": 240,
       "voiceover": "And through all of it, Messi now leads the Golden Boot with seven goals in four matches. At thirty-nine years old. In his final World Cup.",
       "mainText": "MESSI: 7 GOALS — GOLDEN BOOT LEADER",
-      "emphasis": ["7"],
+      "emphasis": [
+        "7"
+      ],
       "kicker": "AGE 39. LAST DANCE.",
       "visualConcept": "golden boot count-up",
-      "stat": { "to": 7, "label": "GOALS — TOURNAMENT LEADER" },
-      "emotionalTone": "awe", "transitionOut": "whip"
+      "stat": {
+        "to": 7,
+        "label": "GOALS — TOURNAMENT LEADER"
+      },
+      "emotionalTone": "awe",
+      "transitionOut": "whip"
     },
     {
-      "id": "a8", "kind": "problem", "start": 240, "end": 247,
+      "id": "a8",
+      "kind": "problem",
+      "start": 240,
+      "end": 247,
       "voiceover": "But look who's waiting for Argentina in the Round of 16 — because this next story might be the best one in the whole tournament.",
       "mainText": "LOOK WHO'S WAITING…",
-      "emphasis": ["WAITING…"],
+      "emphasis": [
+        "WAITING…"
+      ],
       "visualConcept": "host bridge tease",
-      "emotionalTone": "curiosity", "transitionOut": "flash"
+      "emotionalTone": "curiosity",
+      "transitionOut": "flash"
     },
     {
-      "id": "e1", "kind": "problem", "start": 247, "end": 254,
+      "id": "e1",
+      "kind": "problem",
+      "start": 247,
+      "end": 254,
       "voiceover": "Egypt had never won a World Cup knockout match in their entire history. Until Friday night in Dallas.",
       "mainText": "EGYPT'S FIRST. EVER.",
-      "emphasis": ["FIRST."],
+      "emphasis": [
+        "FIRST."
+      ],
       "kicker": "CHAPTER 4 — THE PHARAOHS",
       "visualConcept": "host chapter lead",
-      "emotionalTone": "curiosity", "transitionOut": "cut"
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
     },
     {
-      "id": "e2", "kind": "comparison", "board": true, "start": 254, "end": 263,
+      "id": "e2",
+      "kind": "comparison",
+      "board": true,
+      "start": 254,
+      "end": 263,
       "voiceover": "Emam Ashour headed them in front, Australia leveled through an own goal, and after extra time it went to the lottery — penalties.",
       "mainText": "1-1 → PENALTIES",
-      "emphasis": ["PENALTIES"],
+      "emphasis": [
+        "PENALTIES"
+      ],
       "kicker": "AUSTRALIA vs EGYPT",
       "visualConcept": "shootout setup board",
-      "compare": { "left": "AUSTRALIA 1 (2)", "right": "EGYPT 1 (4)" },
-      "emotionalTone": "fear", "transitionOut": "cut"
+      "compare": {
+        "left": "AUSTRALIA 1 (2)",
+        "right": "EGYPT 1 (4)"
+      },
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
     },
     {
-      "id": "e3", "kind": "shockfact", "board": true, "start": 263, "end": 272,
+      "id": "e3",
+      "kind": "shockfact",
+      "board": true,
+      "start": 263,
+      "end": 272,
       "voiceover": "Egypt scored all four. And their captain, Mohamed Salah, sealed his nation's first-ever knockout win — with a Panenka. Ice. Cold.",
       "mainText": "SALAH. PANENKA. HISTORY.",
-      "emphasis": ["PANENKA."],
+      "emphasis": [
+        "PANENKA."
+      ],
       "kicker": "PERFECT 4/4 SHOOTOUT",
       "visualConcept": "panenka moment slam",
-      "emotionalTone": "shock", "transitionOut": "whip"
+      "emotionalTone": "shock",
+      "transitionOut": "whip"
     },
     {
-      "id": "e4", "kind": "problem", "start": 272, "end": 281,
+      "id": "e4",
+      "kind": "problem",
+      "start": 272,
+      "end": 281,
       "voiceover": "And that sets up Tuesday in Atlanta: Argentina versus Egypt. Messi versus Salah. Two legends, one ticket to the quarterfinals — this is a knockout classic in the making.",
       "mainText": "MESSI vs SALAH — TUESDAY",
-      "emphasis": ["MESSI", "SALAH"],
+      "emphasis": [
+        "MESSI",
+        "SALAH"
+      ],
       "kicker": "JULY 7 — ATLANTA",
       "visualConcept": "host star-collision hype",
-      "emotionalTone": "excitement", "transitionOut": "cut"
+      "emotionalTone": "excitement",
+      "transitionOut": "cut"
     },
     {
-      "id": "e5", "kind": "comparison", "board": true, "start": 281, "end": 289,
+      "id": "e5",
+      "kind": "comparison",
+      "board": true,
+      "start": 281,
+      "end": 289,
       "voiceover": "The Golden Boot leader against the man who just carried a nation over its oldest wall. Don't you dare miss the noon kickoff.",
       "mainText": "GOAT vs PHARAOH",
-      "emphasis": ["GOAT", "PHARAOH"],
+      "emphasis": [
+        "GOAT",
+        "PHARAOH"
+      ],
       "kicker": "12PM ET — MERCEDES-BENZ STADIUM",
       "visualConcept": "star versus split",
-      "compare": { "left": "MESSI — 7 GOALS", "right": "SALAH — THE PANENKA" },
-      "emotionalTone": "excitement", "transitionOut": "flash"
+      "compare": {
+        "left": "MESSI — 7 GOALS",
+        "right": "SALAH — THE PANENKA"
+      },
+      "emotionalTone": "excitement",
+      "transitionOut": "flash"
     },
     {
-      "id": "s1", "kind": "problem", "start": 289, "end": 296,
+      "id": "s1",
+      "kind": "problem",
+      "start": 289,
+      "end": 296,
       "voiceover": "So here is your full Round of 16 — eight matches, four days, and it starts today. Screenshot this.",
       "mainText": "YOUR ROUND OF 16 GUIDE",
-      "emphasis": ["ROUND", "16"],
+      "emphasis": [
+        "ROUND",
+        "16"
+      ],
       "kicker": "CHAPTER 5 — THE SLATE",
       "visualConcept": "host chapter lead",
-      "emotionalTone": "confidence", "transitionOut": "cut"
+      "emotionalTone": "confidence",
+      "transitionOut": "cut"
     },
     {
-      "id": "s2", "kind": "comparison", "board": true, "start": 296, "end": 305,
+      "id": "s2",
+      "kind": "comparison",
+      "board": true,
+      "start": 296,
+      "end": 305,
       "voiceover": "Saturday: Canada against Morocco in Houston, then Paraguay get their reward — France, in Philadelphia. Giant-killers versus the champions.",
       "mainText": "SAT: CANADA-MOROCCO • PARAGUAY-FRANCE",
-      "emphasis": ["SAT:"],
+      "emphasis": [
+        "SAT:"
+      ],
       "kicker": "JULY 4 — DAY ONE",
       "visualConcept": "fixture board day 1",
-      "compare": { "left": "CANADA vs MOROCCO", "right": "PARAGUAY vs FRANCE" },
-      "emotionalTone": "confidence", "transitionOut": "cut"
+      "compare": {
+        "left": "CANADA vs MOROCCO",
+        "right": "PARAGUAY vs FRANCE"
+      },
+      "emotionalTone": "confidence",
+      "transitionOut": "cut"
     },
     {
-      "id": "s3", "kind": "comparison", "board": true, "start": 305, "end": 314,
+      "id": "s3",
+      "kind": "comparison",
+      "board": true,
+      "start": 305,
+      "end": 314,
       "voiceover": "Sunday: Brazil meet Haaland's Norway at MetLife — then Mexico host England at a heaving Azteca. Kane, in the cathedral of football.",
       "mainText": "SUN: BRAZIL-NORWAY • MEXICO-ENGLAND",
-      "emphasis": ["SUN:"],
+      "emphasis": [
+        "SUN:"
+      ],
       "kicker": "JULY 5 — DAY TWO",
       "visualConcept": "fixture board day 2",
-      "compare": { "left": "BRAZIL vs NORWAY", "right": "MEXICO vs ENGLAND" },
-      "emotionalTone": "excitement", "transitionOut": "cut"
+      "compare": {
+        "left": "BRAZIL vs NORWAY",
+        "right": "MEXICO vs ENGLAND"
+      },
+      "emotionalTone": "excitement",
+      "transitionOut": "cut"
     },
     {
-      "id": "s4", "kind": "comparison", "board": true, "start": 314, "end": 323,
+      "id": "s4",
+      "kind": "comparison",
+      "board": true,
+      "start": 314,
+      "end": 323,
       "voiceover": "Monday is the monster: Portugal versus Spain in Dallas at three Eastern — then the USA face Belgium in Seattle, without the suspended Balogun.",
       "mainText": "MON: PORTUGAL-SPAIN • USA-BELGIUM",
-      "emphasis": ["PORTUGAL-SPAIN"],
+      "emphasis": [
+        "PORTUGAL-SPAIN"
+      ],
       "kicker": "JULY 6 — DAY THREE",
       "visualConcept": "fixture board day 3",
-      "compare": { "left": "PORTUGAL vs SPAIN", "right": "USA vs BELGIUM" },
-      "emotionalTone": "shock", "transitionOut": "cut"
+      "compare": {
+        "left": "PORTUGAL vs SPAIN",
+        "right": "USA vs BELGIUM"
+      },
+      "emotionalTone": "shock",
+      "transitionOut": "cut"
     },
     {
-      "id": "s5", "kind": "comparison", "board": true, "start": 323, "end": 332,
+      "id": "s5",
+      "kind": "comparison",
+      "board": true,
+      "start": 323,
+      "end": 332,
       "voiceover": "And Tuesday closes it out: Messi's Argentina against Salah's Egypt in Atlanta, then Switzerland versus Colombia in Vancouver completes the eight.",
       "mainText": "TUE: ARGENTINA-EGYPT • SWISS-COLOMBIA",
-      "emphasis": ["TUE:"],
+      "emphasis": [
+        "TUE:"
+      ],
       "kicker": "JULY 7 — DAY FOUR",
       "visualConcept": "fixture board day 4",
-      "compare": { "left": "ARGENTINA vs EGYPT", "right": "SWITZERLAND vs COLOMBIA" },
-      "emotionalTone": "confidence", "transitionOut": "whip"
+      "compare": {
+        "left": "ARGENTINA vs EGYPT",
+        "right": "SWITZERLAND vs COLOMBIA"
+      },
+      "emotionalTone": "confidence",
+      "transitionOut": "whip"
     },
     {
-      "id": "s6", "kind": "problem", "start": 332, "end": 340,
+      "id": "s6",
+      "kind": "problem",
+      "start": 332,
+      "end": 340,
       "voiceover": "Brazil versus Haaland alone would headline any other round — the man scored an eighty-sixth minute winner just to get here.",
       "mainText": "HAALAND vs BRAZIL",
-      "emphasis": ["HAALAND"],
+      "emphasis": [
+        "HAALAND"
+      ],
       "kicker": "SUNDAY — METLIFE",
       "visualConcept": "host matchup hype",
-      "emotionalTone": "excitement", "transitionOut": "cut"
+      "emotionalTone": "excitement",
+      "transitionOut": "cut"
     },
     {
-      "id": "s7", "kind": "problem", "start": 340, "end": 348,
+      "id": "s7",
+      "kind": "problem",
+      "start": 340,
+      "end": 348,
       "voiceover": "Kane walking into the Azteca one goal past Pelé, against a Mexico side that just ended a forty-year curse there? Goosebumps.",
       "mainText": "KANE AT THE AZTECA",
-      "emphasis": ["AZTECA"],
+      "emphasis": [
+        "AZTECA"
+      ],
       "visualConcept": "host matchup hype 2",
-      "emotionalTone": "awe", "transitionOut": "cut"
+      "emotionalTone": "awe",
+      "transitionOut": "cut"
     },
     {
-      "id": "s8", "kind": "problem", "start": 348, "end": 355,
+      "id": "s8",
+      "kind": "problem",
+      "start": 348,
+      "end": 355,
       "voiceover": "But let's be honest with each other. One of these eight matches is a final in disguise — and it kicks off Monday afternoon.",
       "mainText": "ONE OF THESE IS A FINAL IN DISGUISE",
-      "emphasis": ["FINAL", "DISGUISE"],
+      "emphasis": [
+        "FINAL",
+        "DISGUISE"
+      ],
       "visualConcept": "host tease pivot",
-      "emotionalTone": "curiosity", "transitionOut": "flash"
+      "emotionalTone": "curiosity",
+      "transitionOut": "flash"
     },
     {
-      "id": "p1", "kind": "problem", "start": 355, "end": 364,
+      "id": "p1",
+      "kind": "problem",
+      "start": 355,
+      "end": 364,
       "voiceover": "Portugal versus Spain. Monday, three PM Eastern, AT&T Stadium in Dallas. The match of the round — and it might be the match of the entire tournament.",
       "mainText": "PORTUGAL vs SPAIN",
-      "emphasis": ["PORTUGAL", "SPAIN"],
+      "emphasis": [
+        "PORTUGAL",
+        "SPAIN"
+      ],
       "kicker": "CHAPTER 6 — THE IBERIAN WAR",
       "visualConcept": "host chapter lead — the big one",
-      "emotionalTone": "shock", "transitionOut": "cut"
+      "emotionalTone": "shock",
+      "transitionOut": "cut"
     },
     {
-      "id": "p2", "kind": "comparison", "board": true, "start": 364, "end": 372,
+      "id": "p2",
+      "kind": "comparison",
+      "board": true,
+      "start": 364,
+      "end": 372,
       "voiceover": "An Iberian derby, in the knockout rounds of a World Cup. Neighbors. Rivals. One survives, one goes home.",
       "mainText": "ONE SURVIVES. ONE GOES HOME.",
-      "emphasis": ["SURVIVES.", "HOME."],
+      "emphasis": [
+        "SURVIVES.",
+        "HOME."
+      ],
       "kicker": "MONDAY 3PM ET — DALLAS",
       "visualConcept": "flag versus split",
-      "compare": { "left": "PORTUGAL", "right": "SPAIN" },
-      "emotionalTone": "fear", "transitionOut": "cut"
+      "compare": {
+        "left": "PORTUGAL",
+        "right": "SPAIN"
+      },
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
     },
     {
-      "id": "p3", "kind": "problem", "start": 372, "end": 381,
+      "id": "p3",
+      "kind": "problem",
+      "start": 372,
+      "end": 381,
       "voiceover": "And there's history here — this is a rematch of last year's Nations League final, which Spain won on penalties. Portugal have not forgotten.",
       "mainText": "THE REMATCH",
-      "emphasis": ["REMATCH"],
+      "emphasis": [
+        "REMATCH"
+      ],
       "kicker": "2025 NATIONS LEAGUE FINAL",
       "visualConcept": "host revenge narrative",
-      "emotionalTone": "curiosity", "transitionOut": "cut"
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
     },
     {
-      "id": "p4", "kind": "comparison", "board": true, "start": 381, "end": 390,
+      "id": "p4",
+      "kind": "comparison",
+      "board": true,
+      "start": 381,
+      "end": 390,
       "voiceover": "The form says Spain. Three-nil over Austria — an Oyarzabal brace — their most dominant knockout display, and their first World Cup knockout win since lifting the trophy in twenty-ten.",
       "mainText": "SPAIN LOOK TERRIFYING",
-      "emphasis": ["TERRIFYING"],
+      "emphasis": [
+        "TERRIFYING"
+      ],
       "kicker": "3-0 vs AUSTRIA",
       "visualConcept": "form board Spain",
-      "compare": { "left": "SPAIN 3", "right": "AUSTRIA 0" },
-      "emotionalTone": "confidence", "transitionOut": "cut"
+      "compare": {
+        "left": "SPAIN 3",
+        "right": "AUSTRIA 0"
+      },
+      "emotionalTone": "confidence",
+      "transitionOut": "cut"
     },
     {
-      "id": "p5", "kind": "comparison", "board": true, "start": 390, "end": 399,
+      "id": "p5",
+      "kind": "comparison",
+      "board": true,
+      "start": 390,
+      "end": 399,
       "voiceover": "Portugal? They needed a Gonçalo Ramos header four minutes into stoppage time to escape Croatia. Brilliant — but breathless.",
       "mainText": "PORTUGAL ESCAPED AT 90+4'",
-      "emphasis": ["90+4'"],
+      "emphasis": [
+        "90+4'"
+      ],
       "kicker": "RAMOS SAVES PORTUGAL",
       "visualConcept": "form board Portugal",
-      "compare": { "left": "PORTUGAL 2", "right": "CROATIA 1" },
-      "emotionalTone": "fear", "transitionOut": "cut"
+      "compare": {
+        "left": "PORTUGAL 2",
+        "right": "CROATIA 1"
+      },
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
     },
     {
-      "id": "p6", "kind": "problem", "start": 399, "end": 408,
+      "id": "p6",
+      "kind": "problem",
+      "start": 399,
+      "end": 408,
       "voiceover": "But this match is bigger than form. It's Yamal versus Ronaldo — the eighteen-year-old heir apparent, against the forty-one-year-old chasing the only trophy he's never touched.",
       "mainText": "YAMAL vs RONALDO",
-      "emphasis": ["YAMAL", "RONALDO"],
+      "emphasis": [
+        "YAMAL",
+        "RONALDO"
+      ],
       "kicker": "THE HEIR vs THE KING",
       "visualConcept": "host generational duel",
-      "emotionalTone": "awe", "transitionOut": "cut"
+      "emotionalTone": "awe",
+      "transitionOut": "cut"
     },
     {
-      "id": "p7", "kind": "data", "board": true, "start": 408, "end": 417,
+      "id": "p7",
+      "kind": "data",
+      "board": true,
+      "start": 408,
+      "end": 417,
       "voiceover": "Ronaldo already made history this tournament — the first player ever to score at six different World Cups. Six. Nobody has ever done that.",
       "mainText": "RONALDO — 6 WORLD CUPS SCORED",
-      "emphasis": ["6"],
+      "emphasis": [
+        "6"
+      ],
       "kicker": "FIRST EVER",
       "visualConcept": "record count-up",
-      "stat": { "to": 6, "label": "WORLD CUPS SCORED IN — FIRST EVER" },
-      "emotionalTone": "awe", "transitionOut": "whip"
+      "stat": {
+        "to": 6,
+        "label": "WORLD CUPS SCORED IN — FIRST EVER"
+      },
+      "emotionalTone": "awe",
+      "transitionOut": "whip"
     },
     {
-      "id": "p8", "kind": "problem", "start": 417, "end": 426,
+      "id": "p8",
+      "kind": "problem",
+      "start": 417,
+      "end": 426,
       "voiceover": "My honest read? Spain are the best team in this tournament right now. But Portugal have the one thing you cannot game-plan for — a legend who refuses to let his story end.",
       "mainText": "YOU CAN'T GAME-PLAN A LEGEND",
-      "emphasis": ["LEGEND"],
+      "emphasis": [
+        "LEGEND"
+      ],
       "visualConcept": "host honest verdict",
-      "emotionalTone": "confidence", "transitionOut": "cut"
+      "emotionalTone": "confidence",
+      "transitionOut": "cut"
     },
     {
-      "id": "p9", "kind": "problem", "start": 426, "end": 434,
+      "id": "p9",
+      "kind": "problem",
+      "start": 426,
+      "end": 434,
       "voiceover": "And here's the thing everyone's whispering: if Portugal survive Monday… their half of the bracket opens up. Wide open.",
       "mainText": "IF PORTUGAL WIN… IT OPENS UP",
-      "emphasis": ["OPENS", "UP"],
+      "emphasis": [
+        "OPENS",
+        "UP"
+      ],
       "visualConcept": "host bracket whisper",
-      "emotionalTone": "curiosity", "transitionOut": "cut"
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
     },
     {
-      "id": "p10", "kind": "quote", "board": true, "start": 434, "end": 442,
+      "id": "p10",
+      "kind": "quote",
+      "board": true,
+      "start": 434,
+      "end": 442,
       "voiceover": "Spain are the favorites — but derbies don't read form guides. This one is genuinely fifty-fifty in my heart.",
       "mainText": "\"DERBIES DON'T READ FORM GUIDES\"",
-      "emphasis": ["DERBIES"],
+      "emphasis": [
+        "DERBIES"
+      ],
       "kicker": "RIO'S VERDICT",
       "visualConcept": "pull-quote card",
-      "emotionalTone": "confidence", "transitionOut": "flash"
+      "emotionalTone": "confidence",
+      "transitionOut": "flash"
     },
     {
-      "id": "m1", "kind": "problem", "start": 442, "end": 450,
+      "id": "m1",
+      "kind": "problem",
+      "start": 442,
+      "end": 450,
       "voiceover": "Which brings us to the scenario the entire football world wants: Messi versus Ronaldo, one last time, for the World Cup itself. Here is the exact math.",
       "mainText": "THE LAST DANCE SCENARIO",
-      "emphasis": ["LAST", "DANCE"],
+      "emphasis": [
+        "LAST",
+        "DANCE"
+      ],
       "kicker": "CHAPTER 7 — THE MATH",
       "visualConcept": "host chapter lead — the dream",
-      "emotionalTone": "awe", "transitionOut": "cut"
+      "emotionalTone": "awe",
+      "transitionOut": "cut"
     },
     {
-      "id": "m2", "kind": "comparison", "board": true, "start": 450, "end": 459,
+      "id": "m2",
+      "kind": "comparison",
+      "board": true,
+      "start": 450,
+      "end": 459,
       "voiceover": "The bracket splits perfectly. Portugal sit in the top half with Spain, France and the USA. Argentina sit in the bottom half with Brazil, England and Mexico.",
       "mainText": "OPPOSITE HALVES",
-      "emphasis": ["OPPOSITE"],
+      "emphasis": [
+        "OPPOSITE"
+      ],
       "kicker": "THE BRACKET GODS DELIVERED",
       "visualConcept": "bracket halves board",
-      "compare": { "left": "TOP: PORTUGAL", "right": "BOTTOM: ARGENTINA" },
-      "emotionalTone": "curiosity", "transitionOut": "cut"
+      "compare": {
+        "left": "TOP: PORTUGAL",
+        "right": "BOTTOM: ARGENTINA"
+      },
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
     },
     {
-      "id": "m3", "kind": "problem", "start": 459, "end": 468,
+      "id": "m3",
+      "kind": "problem",
+      "start": 459,
+      "end": 468,
       "voiceover": "Ronaldo's road: beat Spain on Monday. Then the USA-Belgium winner in the quarters at SoFi. Then a semifinal in Dallas on July fourteenth.",
       "mainText": "RONALDO'S ROAD: 3 MATCHES",
-      "emphasis": ["3"],
+      "emphasis": [
+        "3"
+      ],
       "kicker": "SPAIN → QF → SEMI",
       "visualConcept": "host path walk top half",
-      "emotionalTone": "confidence", "transitionOut": "cut"
+      "emotionalTone": "confidence",
+      "transitionOut": "cut"
     },
     {
-      "id": "m4", "kind": "problem", "start": 468, "end": 477,
+      "id": "m4",
+      "kind": "problem",
+      "start": 468,
+      "end": 477,
       "voiceover": "Messi's road: past Salah's Egypt on Tuesday. Then the Switzerland-Colombia winner in Kansas City. Then a semifinal in Atlanta — possibly against Brazil.",
       "mainText": "MESSI'S ROAD: 3 MATCHES",
-      "emphasis": ["3"],
+      "emphasis": [
+        "3"
+      ],
       "kicker": "EGYPT → QF → SEMI",
       "visualConcept": "host path walk bottom half",
-      "emotionalTone": "confidence", "transitionOut": "cut"
+      "emotionalTone": "confidence",
+      "transitionOut": "cut"
     },
     {
-      "id": "m5", "kind": "shockfact", "board": true, "start": 477, "end": 486,
+      "id": "m5",
+      "kind": "shockfact",
+      "board": true,
+      "start": 477,
+      "end": 486,
       "voiceover": "Which means Messi and Ronaldo cannot meet in the quarters. They cannot meet in the semis. The only place their paths cross… is the final. July nineteenth. MetLife Stadium.",
       "mainText": "ONLY POSSIBLE IN THE FINAL",
-      "emphasis": ["ONLY", "FINAL"],
+      "emphasis": [
+        "ONLY",
+        "FINAL"
+      ],
       "kicker": "JULY 19 — METLIFE STADIUM",
       "visualConcept": "destiny slam",
-      "emotionalTone": "shock", "transitionOut": "whip"
+      "emotionalTone": "shock",
+      "transitionOut": "whip"
     },
     {
-      "id": "m6", "kind": "problem", "start": 486, "end": 495,
+      "id": "m6",
+      "kind": "problem",
+      "start": 486,
+      "end": 495,
       "voiceover": "Messi, thirty-nine, leading the Golden Boot with seven. Ronaldo, forty-one, scoring at his sixth World Cup. Three wins each. That is all that separates us from the greatest final in football history.",
       "mainText": "3 WINS EACH. THAT'S IT.",
-      "emphasis": ["3", "WINS"],
+      "emphasis": [
+        "3",
+        "WINS"
+      ],
       "visualConcept": "host destiny math",
-      "emotionalTone": "awe", "transitionOut": "cut"
+      "emotionalTone": "awe",
+      "transitionOut": "cut"
     },
     {
-      "id": "m7", "kind": "comparison", "board": true, "start": 495, "end": 504,
+      "id": "m7",
+      "kind": "comparison",
+      "board": true,
+      "start": 495,
+      "end": 504,
       "voiceover": "And one more wrinkle — Argentina and Brazil share the bottom half, so the Superclásico of the Americas can only happen in the semifinal in Atlanta. An Argentina-Brazil final is mathematically impossible.",
       "mainText": "ARGENTINA-BRAZIL: SEMI OR NEVER",
-      "emphasis": ["SEMI", "NEVER"],
+      "emphasis": [
+        "SEMI",
+        "NEVER"
+      ],
       "kicker": "JULY 15 — ATLANTA",
       "visualConcept": "clásico collision board",
-      "compare": { "left": "ARGENTINA", "right": "BRAZIL" },
-      "emotionalTone": "shock", "transitionOut": "cut"
+      "compare": {
+        "left": "ARGENTINA",
+        "right": "BRAZIL"
+      },
+      "emotionalTone": "shock",
+      "transitionOut": "cut"
     },
     {
-      "id": "m8", "kind": "problem", "start": 504, "end": 512,
+      "id": "m8",
+      "kind": "problem",
+      "start": 504,
+      "end": 512,
       "voiceover": "One bracket. Two GOATs. Two weeks of football history hanging on every single kick. This is why we watch.",
       "mainText": "THIS IS WHY WE WATCH",
-      "emphasis": ["WHY", "WATCH"],
+      "emphasis": [
+        "WHY",
+        "WATCH"
+      ],
       "visualConcept": "host emotional peak",
-      "emotionalTone": "awe", "transitionOut": "flash"
+      "emotionalTone": "awe",
+      "transitionOut": "flash"
     },
     {
-      "id": "q1", "kind": "problem", "start": 512, "end": 519,
+      "id": "q1",
+      "kind": "problem",
+      "start": 512,
+      "end": 519,
       "voiceover": "Alright — my Round of 16 calls. Screenshot these and roast me in the comments when they age badly.",
       "mainText": "RIO'S PICKS — SCREENSHOT THIS",
-      "emphasis": ["PICKS"],
+      "emphasis": [
+        "PICKS"
+      ],
       "kicker": "CHAPTER 8 — PREDICTIONS",
       "visualConcept": "host chapter lead picks",
-      "emotionalTone": "excitement", "transitionOut": "cut"
+      "emotionalTone": "excitement",
+      "transitionOut": "cut"
     },
     {
-      "id": "q2", "kind": "comparison", "board": true, "start": 519, "end": 528,
+      "id": "q2",
+      "kind": "comparison",
+      "board": true,
+      "start": 519,
+      "end": 528,
       "voiceover": "Top half: France handle Paraguay's wall. Morocco's fairytale continues past Canada. Spain edge Portugal — barely. And Belgium punish that Balogun suspension.",
       "mainText": "TOP: FRANCE • MOROCCO • SPAIN • BELGIUM",
-      "emphasis": ["SPAIN"],
+      "emphasis": [
+        "SPAIN"
+      ],
       "kicker": "UPSET WATCH: MOROCCO",
       "visualConcept": "picks board top",
-      "compare": { "left": "FRANCE ✓ MOROCCO ✓", "right": "SPAIN ✓ BELGIUM ✓" },
-      "emotionalTone": "confidence", "transitionOut": "cut"
+      "compare": {
+        "left": "FRANCE ✓ MOROCCO ✓",
+        "right": "SPAIN ✓ BELGIUM ✓"
+      },
+      "emotionalTone": "confidence",
+      "transitionOut": "cut"
     },
     {
-      "id": "q3", "kind": "comparison", "board": true, "start": 528, "end": 537,
+      "id": "q3",
+      "kind": "comparison",
+      "board": true,
+      "start": 528,
+      "end": 537,
       "voiceover": "Bottom half: Brazil deal with Haaland. England silence the Azteca — just. Argentina beat Egypt in a classic. And Colombia continue their quiet, ruthless march.",
       "mainText": "BOTTOM: BRAZIL • ENGLAND • ARGENTINA • COLOMBIA",
-      "emphasis": ["ARGENTINA"],
+      "emphasis": [
+        "ARGENTINA"
+      ],
       "kicker": "DARK HORSE: COLOMBIA",
       "visualConcept": "picks board bottom",
-      "compare": { "left": "BRAZIL ✓ ENGLAND ✓", "right": "ARGENTINA ✓ COLOMBIA ✓" },
-      "emotionalTone": "confidence", "transitionOut": "cut"
+      "compare": {
+        "left": "BRAZIL ✓ ENGLAND ✓",
+        "right": "ARGENTINA ✓ COLOMBIA ✓"
+      },
+      "emotionalTone": "confidence",
+      "transitionOut": "cut"
     },
     {
-      "id": "q4", "kind": "problem", "start": 537, "end": 545,
+      "id": "q4",
+      "kind": "problem",
+      "start": 537,
+      "end": 545,
       "voiceover": "Why Colombia? Because a team that holds a knockout opponent to zero shots on target is not a fluke — that is a machine.",
       "mainText": "COLOMBIA IS A MACHINE",
-      "emphasis": ["MACHINE"],
+      "emphasis": [
+        "MACHINE"
+      ],
       "visualConcept": "host dark horse case",
-      "emotionalTone": "confidence", "transitionOut": "cut"
+      "emotionalTone": "confidence",
+      "transitionOut": "cut"
     },
     {
-      "id": "q5", "kind": "problem", "start": 545, "end": 553,
+      "id": "q5",
+      "kind": "problem",
+      "start": 545,
+      "end": 553,
       "voiceover": "And the coin flip: USA-Belgium. Without Balogun, the hosts lose their edge — but Seattle will be deafening. I would not bet my phone on that one.",
       "mainText": "USA-BELGIUM: PURE COIN FLIP",
-      "emphasis": ["COIN", "FLIP"],
+      "emphasis": [
+        "COIN",
+        "FLIP"
+      ],
       "visualConcept": "host coin flip",
-      "emotionalTone": "curiosity", "transitionOut": "cut"
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
     },
     {
-      "id": "q6", "kind": "problem", "start": 553, "end": 562,
+      "id": "q6",
+      "kind": "problem",
+      "start": 553,
+      "end": 562,
       "voiceover": "Best match: Portugal-Spain, nothing close. Best story: Egypt. Best player so far: Messi — seven goals, and counting. And the best is yet to come.",
       "mainText": "BEST MATCH • BEST STORY • BEST PLAYER",
-      "emphasis": ["BEST"],
+      "emphasis": [
+        "BEST"
+      ],
       "kicker": "PORTUGAL-SPAIN • EGYPT • MESSI",
       "visualConcept": "host awards rundown",
-      "emotionalTone": "excitement", "transitionOut": "cut"
+      "emotionalTone": "excitement",
+      "transitionOut": "cut"
     },
     {
-      "id": "q7", "kind": "problem", "start": 562, "end": 571,
+      "id": "q7",
+      "kind": "problem",
+      "start": 562,
+      "end": 571,
       "voiceover": "And yes — I'm saying it out loud: my final is Argentina against the winner of Portugal and Spain. Destiny has a sense of drama.",
       "mainText": "MY FINAL: ARGENTINA vs IBERIA",
-      "emphasis": ["FINAL:"],
+      "emphasis": [
+        "FINAL:"
+      ],
       "visualConcept": "host final call",
-      "emotionalTone": "awe", "transitionOut": "whip"
+      "emotionalTone": "awe",
+      "transitionOut": "whip"
     },
     {
-      "id": "cta", "kind": "cta", "start": 571, "end": 580,
+      "id": "cta",
+      "kind": "cta",
+      "start": 571,
+      "end": 580,
       "voiceover": "The Round of 16 breaks down right here the moment it ends — so subscribe to mindwired, drop your bracket in the comments, and I'll see you after the whistle.",
       "mainText": "SUBSCRIBE — THE BRACKET BREAKS DOWN HERE",
-      "emphasis": ["SUBSCRIBE"],
+      "emphasis": [
+        "SUBSCRIBE"
+      ],
       "kicker": "@MINDWIREDD",
       "visualConcept": "host CTA",
-      "emotionalTone": "confidence", "transitionOut": "none"
+      "emotionalTone": "confidence",
+      "transitionOut": "none"
     }
   ],
   "shortCuts": [
-    { "id": "messironaldo", "title": "Messi vs Ronaldo is 3 wins away — the exact math", "scenes": ["h1", "m2", "m5", "m6", "cta"] },
-    { "id": "spainportugal", "title": "Portugal vs Spain is a final in disguise", "scenes": ["p1", "p3", "p6", "p10", "cta"] },
-    { "id": "argentinascare", "title": "Argentina's near-death experience vs Cape Verde", "scenes": ["a1", "a2", "a4", "a5", "a6"] },
-    { "id": "salahpanenka", "title": "Salah's Panenka made history for Egypt", "scenes": ["e1", "e2", "e3", "e4", "cta"] },
-    { "id": "latestgoalever", "title": "The latest goal in World Cup history — 124:44", "scenes": ["d1", "d2", "d3", "d4", "cta"] },
-    { "id": "giantsfall", "title": "Germany AND Netherlands are OUT", "scenes": ["g1", "g2", "g3", "g4", "cta"] },
-    { "id": "r16guide", "title": "Your complete Round of 16 guide — 8 games, 4 days", "scenes": ["s1", "s2", "s3", "s4", "s5", "cta"] },
-    { "id": "kanepele", "title": "Kane just passed Pelé — and records everywhere", "scenes": ["d8", "d6", "d7", "d5", "cta"] },
-    { "id": "riopicks", "title": "My Round of 16 picks — screenshot and roast me", "scenes": ["q1", "q2", "q3", "q6", "q7"] },
-    { "id": "messiboot", "title": "Messi leads the Golden Boot at 39", "scenes": ["a7", "e5", "m6", "q7", "cta"] }
+    {
+      "id": "messironaldo",
+      "title": "Messi vs Ronaldo is 3 wins away — the exact math",
+      "scenes": [
+        "h1",
+        "m2",
+        "m5",
+        "m6",
+        "cta"
+      ]
+    },
+    {
+      "id": "spainportugal",
+      "title": "Portugal vs Spain is a final in disguise",
+      "scenes": [
+        "p1",
+        "p3",
+        "p6",
+        "p10",
+        "cta"
+      ]
+    },
+    {
+      "id": "argentinascare",
+      "title": "Argentina's near-death experience vs Cape Verde",
+      "scenes": [
+        "a1",
+        "a2",
+        "a4",
+        "a5",
+        "a6"
+      ]
+    },
+    {
+      "id": "salahpanenka",
+      "title": "Salah's Panenka made history for Egypt",
+      "scenes": [
+        "e1",
+        "e2",
+        "e3",
+        "e4",
+        "cta"
+      ]
+    },
+    {
+      "id": "latestgoalever",
+      "title": "The latest goal in World Cup history — 124:44",
+      "scenes": [
+        "d1",
+        "d2",
+        "d3",
+        "d4",
+        "cta"
+      ]
+    },
+    {
+      "id": "giantsfall",
+      "title": "Germany AND Netherlands are OUT",
+      "scenes": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "cta"
+      ]
+    },
+    {
+      "id": "r16guide",
+      "title": "Your complete Round of 16 guide — 8 games, 4 days",
+      "scenes": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "cta"
+      ]
+    },
+    {
+      "id": "kanepele",
+      "title": "Kane just passed Pelé — and records everywhere",
+      "scenes": [
+        "d8",
+        "d6",
+        "d7",
+        "d5",
+        "cta"
+      ]
+    },
+    {
+      "id": "riopicks",
+      "title": "My Round of 16 picks — screenshot and roast me",
+      "scenes": [
+        "q1",
+        "q2",
+        "q3",
+        "q6",
+        "q7"
+      ]
+    },
+    {
+      "id": "messiboot",
+      "title": "Messi leads the Golden Boot at 39",
+      "scenes": [
+        "a7",
+        "e5",
+        "m6",
+        "q7",
+        "cta"
+      ]
+    }
   ]
 }

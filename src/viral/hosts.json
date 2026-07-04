@@ -5,7 +5,8 @@
     "image": "host/orion_v4c_4k.png",
     "sourceImage": "host/orion_v4c.png",
     "elevenVoice": "George",
-    "voiceDescription": "A deep, cinematic male documentary narrator for a space channel. Rich, resonant, modern — like a prestige Netflix science doc.",
+    "cartesiaVoice": "b24f41fd-00a3-4cd8-992a-a0c9f13f3ef1",
+    "voiceDescription": "A deep, cinematic male documentary narrator for a space channel. Rich, resonant, modern — like a prestige Netflix science doc, full of quiet dread and human pauses.",
     "dynamicScale": 1.0
   },
   "sterling": {

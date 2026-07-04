@@ -32,18 +32,37 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from sonic_client import run as sonic_run  # noqa: E402
 
 
+SONIC_MAX_DIM = 1080  # Sonic input: final render is 1080p/1080x1920 — a 4K
+# source only means a slower (and, in practice, flakier — the download of one
+# 4K clip hung/truncated) Replicate job for zero visible quality gain.
+
+
+def sonic_source(image: Path) -> Path:
+    """Downscaled copy of a host master, cached next to it, sized for Sonic
+    input only — the 4K master stays canonical for the still layer/re-poses."""
+    cache = image.with_name(f"{image.stem}_sonic{image.suffix}")
+    if cache.exists() and cache.stat().st_mtime >= image.stat().st_mtime:
+        return cache
+    subprocess.run([
+        "ffmpeg", "-y", "-v", "error", "-i", str(image),
+        "-vf", f"scale='if(gt(iw,ih),-2,{SONIC_MAX_DIM})':'if(gt(iw,ih),{SONIC_MAX_DIM},-2)'",
+        str(cache),
+    ], check=True)
+    return cache
+
+
 def resolve_host(plan: dict) -> tuple[Path, float]:
-    """(host image path, sonic dynamic_scale) from registry id or direct path."""
+    """(sonic-ready image path, sonic dynamic_scale) from registry id or direct path."""
     host = plan.get("host")
     if not host:
         sys.exit("plan has no \"host\" field — add one (registry id or path)")
     if "/" in host:
-        return REPO / "public" / host, 1.0
+        return sonic_source(REPO / "public" / host), 1.0
     registry = json.loads((REPO / "src/viral/hosts.json").read_text())
     entry = registry.get(host)
     if not entry:
         sys.exit(f"host '{host}' not in src/viral/hosts.json (have: {', '.join(registry)})")
-    return REPO / "public" / entry["image"], float(entry.get("dynamicScale", 1.0))
+    return sonic_source(REPO / "public" / entry["image"]), float(entry.get("dynamicScale", 1.0))
 
 
 def main():

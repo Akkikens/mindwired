@@ -10,7 +10,12 @@ Word timings: Hume doesn't return word timestamps, so we estimate them across th
 real clip duration (same syllable model as the renderer's fallback). If ElevenLabs
 is used, its with-timestamps endpoint gives real word timings.
 
-Usage: python3 scripts/build_short.py <slug> [--voice hume|eleven]
+Usage: python3 scripts/build_short.py <slug> [--voice hume|cartesia|eleven|hume-cartesia]
+  hume          Octave, falls back to ElevenLabs then silent estimate (default)
+  cartesia      Sonic-3.5, falls back to ElevenLabs then silent estimate
+  eleven        ElevenLabs only (real word timings, least expressive)
+  hume-cartesia Octave -> Cartesia -> silent estimate — NEVER touches ElevenLabs.
+                Use this when a video must stay on an emotionally-acted engine only.
 Idempotent per clip: existing mp3 + manifest entry are kept.
 """
 import json
@@ -69,11 +74,22 @@ def estimate_words(text: str, dur: float):
     return out
 
 
+ENGINE_CHAINS = {
+    "hume": ["hume", "eleven"],
+    "cartesia": ["cartesia", "eleven"],
+    "eleven": ["eleven"],
+    "hume-cartesia": ["hume", "cartesia"],  # emotionally-acted engines only, no ElevenLabs
+}
+
+
 def main():
     if len(sys.argv) < 2:
-        sys.exit("usage: build_short.py <slug> [--voice hume|eleven]")
+        sys.exit("usage: build_short.py <slug> [--voice hume|cartesia|eleven|hume-cartesia]")
     slug = sys.argv[1]
     pref = sys.argv[sys.argv.index("--voice") + 1] if "--voice" in sys.argv else "hume"
+    chain = ENGINE_CHAINS.get(pref)
+    if not chain:
+        sys.exit(f"unknown --voice '{pref}' — choose from {', '.join(ENGINE_CHAINS)}")
 
     plan = json.loads((REPO / "src" / "viral" / "plans" / f"{slug}.json").read_text())
     outdir = REPO / "public" / "shorts" / slug / "audio"
@@ -82,7 +98,13 @@ def main():
     manifest = json.loads(man_path.read_text()) if man_path.exists() else {"clips": {}}
 
     base_voice, eleven_voice = host_voice(plan)
-    hume_ctx = None  # chain generation ids so every scene keeps ONE voice
+    cartesia_voice = None
+    host = plan.get("host")
+    if host and "/" not in host:
+        reg = json.loads((REPO / "src/viral/hosts.json").read_text()).get(host, {})
+        cartesia_voice = reg.get("cartesiaVoice")
+
+    hume_ctx = None  # chain generation ids so every scene keeps ONE Hume voice
     for sc in plan["scenes"]:
         cid, text, tone = sc["id"], sc["voiceover"], sc.get("emotionalTone", "confidence")
         mp3 = outdir / f"{cid}.mp3"
@@ -94,20 +116,23 @@ def main():
         audio, words, engine = None, None, None
         direction = f"{base_voice} {TONE_DIRECTION.get(tone, '')}"
 
-        if pref == "hume":
+        for step in chain:
+            if audio is not None:
+                break
             try:
-                import hume
-                audio, hume_ctx = hume.tts(text, description=direction, context_gen=hume_ctx)
-                engine = "hume"
+                if step == "hume":
+                    import hume
+                    audio, hume_ctx = hume.tts(text, description=direction, context_gen=hume_ctx)
+                elif step == "cartesia":
+                    import cartesia
+                    audio = cartesia.tts(text, voice=cartesia_voice, tone=tone)
+                elif step == "eleven":
+                    import eleven
+                    audio, words = eleven.tts_aligned(text, voice=eleven_voice)
+                engine = step
             except BaseException as e:  # hume.py sys.exits on HTTP errors (e.g. zero credits)
-                print(f"  [hume failed: {type(e).__name__}: {e}] → trying ElevenLabs")
-        if audio is None:
-            try:
-                import eleven
-                audio, words = eleven.tts_aligned(text, voice=eleven_voice)
-                engine = "eleven"
-            except Exception as e:
-                print(f"  [eleven failed too: {e}] → silent estimate")
+                nxt = " → trying next engine" if step != chain[-1] else " → silent estimate"
+                print(f"  [{step} failed: {type(e).__name__}: {e}]{nxt}")
 
         if audio is not None:
             mp3.write_bytes(audio)

@@ -14,6 +14,7 @@ Usage:
 """
 import argparse
 import os
+import subprocess
 import sys
 import urllib.request
 from pathlib import Path
@@ -59,7 +60,16 @@ def run(image: Path, audio: Path, out: Path, dynamic_scale: float = 1.0,
         },
     )
     url = output if isinstance(output, str) else getattr(output, "url", None) or str(output)
-    urllib.request.urlretrieve(url, out)
+    tmp = out.with_suffix(out.suffix + ".part")
+    urllib.request.urlretrieve(url, tmp)
+    # a truncated/interrupted download still "succeeds" as far as urlretrieve is
+    # concerned — verify the MP4 actually has its moov atom before publishing it
+    probe = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                             "-of", "csv=p=0", str(tmp)], capture_output=True, text=True)
+    if probe.returncode != 0 or not probe.stdout.strip():
+        tmp.unlink(missing_ok=True)
+        sys.exit(f"downloaded clip failed to verify (corrupt/truncated): {probe.stderr.strip()[:300]}")
+    tmp.rename(out)
     print(f"  -> {out}")
 
 
