@@ -1,0 +1,251 @@
+[
+  {
+    "slug": "portugalspain",
+    "cutId": "finaldisguise",
+    "title": "Portugal vs Spain is a final in disguise — Jamie's breakdown",
+    "host": "jamie",
+    "channel": "kickoffdaily90",
+    "scenes": [
+      {
+        "id": "hook",
+        "kind": "hook",
+        "start": 0,
+        "end": 8,
+        "voiceover": "Portugal versus Spain. Monday. If you only watch one match before the final — make it this one. Let me show you why.",
+        "mainText": "IF YOU WATCH ONE MATCH... THIS ONE.",
+        "emphasis": [
+          "THIS ONE."
+        ],
+        "kicker": "PORTUGAL vs SPAIN — MONDAY",
+        "visualConcept": "VEO talking hook",
+        "emotionalTone": "confidence",
+        "transitionOut": "whip",
+        "hostClipExists": true
+      },
+      {
+        "id": "s1",
+        "kind": "shockfact",
+        "board": true,
+        "start": 8,
+        "end": 17,
+        "voiceover": "Monday, three PM Eastern, AT&T Stadium in Dallas. Eighty thousand people. Two neighbours who cannot stand losing to each other. One goes home.",
+        "mainText": "ONE GOES HOME MONDAY",
+        "emphasis": [
+          "ONE"
+        ],
+        "kicker": "3PM ET — AT&T STADIUM, DALLAS",
+        "visualConcept": "stakes slam",
+        "emotionalTone": "fear",
+        "transitionOut": "cut"
+      },
+      {
+        "id": "h1",
+        "kind": "problem",
+        "board": true,
+        "start": 26,
+        "end": 35,
+        "voiceover": "There's fresh blood in this rivalry too. Last year's Nations League final? These exact two teams. Spain lifted the trophy — on penalties. Portugal have not forgotten that night.",
+        "mainText": "THE REMATCH OF THE 2025 FINAL",
+        "emphasis": [
+          "REMATCH"
+        ],
+        "kicker": "SPAIN WON ON PENALTIES",
+        "visualConcept": "history card",
+        "emotionalTone": "shock",
+        "transitionOut": "cut"
+      },
+      {
+        "id": "p2",
+        "kind": "quote",
+        "board": true,
+        "start": 169,
+        "end": 178,
+        "voiceover": "But derbies don't read form guides. And Ronaldo in a last dance, in a knockout, against the one neighbour he'd crawl over glass to beat? I've watched football too long to call that safe.",
+        "mainText": "\"DERBIES DON'T READ FORM GUIDES\"",
+        "emphasis": [
+          "DERBIES"
+        ],
+        "kicker": "JAMIE'S VERDICT",
+        "visualConcept": "verdict quote",
+        "emotionalTone": "awe",
+        "transitionOut": "cut"
+      },
+      {
+        "id": "cta",
+        "kind": "cta",
+        "start": 187,
+        "end": 195,
+        "voiceover": "The full breakdown of the winner's road drops right after the final whistle — so subscribe. Monday. Three PM Eastern. Do not miss this one.",
+        "mainText": "MONDAY 3PM ET — DO NOT MISS IT",
+        "emphasis": [
+          "DO NOT"
+        ],
+        "kicker": "BREAKDOWN AFTER THE WHISTLE",
+        "visualConcept": "VEO talking CTA",
+        "emotionalTone": "confidence",
+        "transitionOut": "none",
+        "hostClipExists": true
+      }
+    ]
+  },
+  {
+    "slug": "portugalspain",
+    "cutId": "yamalronaldo",
+    "title": "Yamal 18, Ronaldo 41 — only one story continues",
+    "host": "jamie",
+    "channel": "kickoffdaily90",
+    "scenes": [
+      {
+        "id": "d1",
+        "kind": "hook",
+        "board": true,
+        "start": 115,
+        "end": 124,
+        "voiceover": "Which brings us to the duel inside the match. Lamine Yamal is eighteen. Cristiano Ronaldo is forty-one. When Ronaldo made his World Cup debut, Yamal hadn't been born.",
+        "mainText": "YAMAL 18 — RONALDO 41",
+        "emphasis": [
+          "18",
+          "41"
+        ],
+        "kicker": "CHAPTER 3 — THE DUEL",
+        "visualConcept": "generational duel card",
+        "emotionalTone": "shock",
+        "transitionOut": "cut"
+      },
+      {
+        "id": "d2",
+        "kind": "comparison",
+        "board": true,
+        "start": 124,
+        "end": 133,
+        "voiceover": "The heir against the king. One is chasing his first World Cup story. The other is chasing his last. Monday, only one of those stories continues.",
+        "mainText": "THE HEIR vs THE KING",
+        "emphasis": [
+          "HEIR",
+          "KING"
+        ],
+        "kicker": "ONLY ONE STORY CONTINUES",
+        "visualConcept": "duel split",
+        "compare": {
+          "left": "YAMAL — THE FIRST",
+          "right": "RONALDO — THE LAST"
+        },
+        "emotionalTone": "awe",
+        "transitionOut": "flash"
+      },
+      {
+        "id": "pt3",
+        "kind": "data",
+        "board": true,
+        "start": 97,
+        "end": 106,
+        "voiceover": "And about Ronaldo. Forty-one years old. This tournament he became the first player in history to score at SIX different World Cups. Nobody else has ever scored at more than five.",
+        "mainText": "RONALDO — 6 WORLD CUPS SCORED",
+        "emphasis": [
+          "6"
+        ],
+        "kicker": "FIRST HUMAN EVER TO DO IT",
+        "visualConcept": "record count-up",
+        "stat": {
+          "to": 6,
+          "label": "WORLD CUPS SCORED IN — FIRST EVER"
+        },
+        "emotionalTone": "awe",
+        "transitionOut": "whip"
+      },
+      {
+        "id": "cta",
+        "kind": "cta",
+        "start": 187,
+        "end": 195,
+        "voiceover": "The full breakdown of the winner's road drops right after the final whistle — so subscribe. Monday. Three PM Eastern. Do not miss this one.",
+        "mainText": "MONDAY 3PM ET — DO NOT MISS IT",
+        "emphasis": [
+          "DO NOT"
+        ],
+        "kicker": "BREAKDOWN AFTER THE WHISTLE",
+        "visualConcept": "VEO talking CTA",
+        "emotionalTone": "confidence",
+        "transitionOut": "none",
+        "hostClipExists": true
+      }
+    ]
+  },
+  {
+    "slug": "portugalspain",
+    "cutId": "spain2010",
+    "title": "Spain's first knockout win since 2010",
+    "host": "jamie",
+    "channel": "kickoffdaily90",
+    "scenes": [
+      {
+        "id": "sp2",
+        "kind": "hook",
+        "board": true,
+        "start": 52,
+        "end": 61,
+        "voiceover": "Three-nil. Oyarzabal scored twice, Pedro Porro added the third, and Austria barely touched the ball in the second half.",
+        "mainText": "OYARZABAL x2 — TOTAL CONTROL",
+        "emphasis": [
+          "OYARZABAL"
+        ],
+        "kicker": "SPAIN 3-0 AUSTRIA",
+        "visualConcept": "score slam",
+        "compare": {
+          "left": "SPAIN 3",
+          "right": "AUSTRIA 0"
+        },
+        "emotionalTone": "confidence",
+        "transitionOut": "cut"
+      },
+      {
+        "id": "sp3",
+        "kind": "shockfact",
+        "board": true,
+        "start": 61,
+        "end": 70,
+        "voiceover": "And here's the stat nobody believes: that was Spain's first World Cup knockout win since they lifted the trophy in 2010. Sixteen years of knockout heartbreak — gone in ninety minutes.",
+        "mainText": "FIRST KO WIN SINCE 2010",
+        "emphasis": [
+          "2010"
+        ],
+        "kicker": "16 YEARS OF HEARTBREAK — OVER",
+        "visualConcept": "drought stat slam",
+        "emotionalTone": "shock",
+        "transitionOut": "whip"
+      },
+      {
+        "id": "b2",
+        "kind": "shockfact",
+        "board": true,
+        "start": 142,
+        "end": 151,
+        "voiceover": "Then a semifinal on July fourteenth. Then the final — where Messi's Argentina could be waiting. Win Monday, and you are two games from playing for everything.",
+        "mainText": "2 WINS FROM PLAYING FOR EVERYTHING",
+        "emphasis": [
+          "EVERYTHING"
+        ],
+        "kicker": "AND MESSI MIGHT BE WAITING",
+        "visualConcept": "path to final slam",
+        "emotionalTone": "shock",
+        "transitionOut": "cut"
+      },
+      {
+        "id": "cta",
+        "kind": "cta",
+        "start": 187,
+        "end": 195,
+        "voiceover": "The full breakdown of the winner's road drops right after the final whistle — so subscribe. Monday. Three PM Eastern. Do not miss this one.",
+        "mainText": "MONDAY 3PM ET — DO NOT MISS IT",
+        "emphasis": [
+          "DO NOT"
+        ],
+        "kicker": "BREAKDOWN AFTER THE WHISTLE",
+        "visualConcept": "VEO talking CTA",
+        "emotionalTone": "confidence",
+        "transitionOut": "none",
+        "hostClipExists": true
+      }
+    ]
+  }
+]

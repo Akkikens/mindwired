@@ -42,6 +42,9 @@ import francewallManifestJson from "../public/shorts/francewall/audio/manifest.j
 import darkhorsePlanJson from "./viral/plans/darkhorse.json";
 import darkhorseManifestJson from "../public/shorts/darkhorse/audio/manifest.json";
 import darkhorseCutsJson from "./viral/plans/darkhorse.shorts.json";
+import portugalspainPlanJson from "./viral/plans/portugalspain.json";
+import portugalspainManifestJson from "../public/shorts/portugalspain/audio/manifest.json";
+import portugalspainCutsJson from "./viral/plans/portugalspain.shorts.json";
 import var5PlanJson from "./viral/plans/var5.json";
 import var5ManifestJson from "../public/shorts/var5/audio/manifest.json";
 import var5CutsJson from "./viral/plans/var5.shorts.json";
@@ -61,6 +64,9 @@ const spacefactsCuts = spacefactsCutsJson as unknown as Array<VisualPlan & { cut
 const darkhorsePlan = darkhorsePlanJson as unknown as VisualPlan;
 const darkhorseManifest = darkhorseManifestJson as unknown as ShortManifest;
 const darkhorseCuts = darkhorseCutsJson as unknown as Array<VisualPlan & { cutId: string }>;
+const portugalspainPlan = portugalspainPlanJson as unknown as VisualPlan;
+const portugalspainManifest = portugalspainManifestJson as unknown as ShortManifest;
+const portugalspainCuts = portugalspainCutsJson as unknown as Array<VisualPlan & { cutId: string }>;
 const var5Plan = var5PlanJson as unknown as VisualPlan;
 const var5Manifest = var5ManifestJson as unknown as ShortManifest;
 const var5Cuts = var5CutsJson as unknown as Array<VisualPlan & { cutId: string }>;
@@ -151,6 +157,28 @@ export const RemotionRoot: React.FC = () => {
           component={ViralShort}
           defaultProps={{ plan: cut, manifest: worldcupManifest }}
           durationInFrames={viralShortFrames(cut, worldcupManifest)}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+      ))}
+      {/* ── Portugal vs Spain preview: 16:9 long-form + 3 vertical cuts ── */}
+      <Composition
+        id="PortugalSpainWide"
+        component={ViralShort}
+        defaultProps={{ plan: portugalspainPlan, manifest: portugalspainManifest }}
+        durationInFrames={viralShortFrames(portugalspainPlan, portugalspainManifest)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      {portugalspainCuts.map((cut) => (
+        <Composition
+          key={cut.cutId}
+          id={`ShortWC-${cut.cutId}`}
+          component={ViralShort}
+          defaultProps={{ plan: cut, manifest: portugalspainManifest }}
+          durationInFrames={viralShortFrames(cut, portugalspainManifest)}
           fps={30}
           width={1080}
           height={1920}
