@@ -37,6 +37,8 @@ import moroccomarchPlanJson from "./viral/plans/moroccomarch.json";
 import moroccomarchManifestJson from "../public/shorts/moroccomarch/audio/manifest.json";
 import haalandbrazilPlanJson from "./viral/plans/haalandbrazil.json";
 import haalandbrazilManifestJson from "../public/shorts/haalandbrazil/audio/manifest.json";
+import francewallPlanJson from "./viral/plans/francewall.json";
+import francewallManifestJson from "../public/shorts/francewall/audio/manifest.json";
 import darkhorsePlanJson from "./viral/plans/darkhorse.json";
 import darkhorseManifestJson from "../public/shorts/darkhorse/audio/manifest.json";
 import darkhorseCutsJson from "./viral/plans/darkhorse.shorts.json";
@@ -67,6 +69,7 @@ const var5Cuts = var5CutsJson as unknown as Array<VisualPlan & { cutId: string }
 const HOT_SHORTS: Array<{ id: string; plan: VisualPlan; manifest: ShortManifest }> = [
   { id: "ShortWC-moroccomarch", plan: moroccomarchPlanJson as unknown as VisualPlan, manifest: moroccomarchManifestJson as unknown as ShortManifest },
   { id: "ShortWC-haalandbrazil", plan: haalandbrazilPlanJson as unknown as VisualPlan, manifest: haalandbrazilManifestJson as unknown as ShortManifest },
+  { id: "ShortWC-francewall", plan: francewallPlanJson as unknown as VisualPlan, manifest: francewallManifestJson as unknown as ShortManifest },
 ];
 
 const SHORTS: Array<{ id: string; plan: VisualPlan; manifest: ShortManifest }> = [
