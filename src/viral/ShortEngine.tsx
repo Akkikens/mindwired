@@ -85,10 +85,12 @@ const FaceCam: React.FC<{ src: string; durationInFrames: number; accent: string 
         border: `5px solid ${accent}`,
         boxShadow: `0 18px 60px rgba(0,0,0,0.65), 0 0 40px ${accent}44`,
       }}>
-        {/* 9:16 source in a square, cover-cropped: face sits in the upper-middle
-            of the vertical clips, so anchor the crop there */}
+        {/* 9:16 source in a square, cover-cropped. No extra zoom: the previous
+            scale(1.25) + top anchor cropped the chin off inside the bubble
+            (user feedback 2026-07-05). Anchor a quarter down so forehead-to-chin
+            stays inside the circle across differently-framed clips. */}
         <OffthreadVideo muted src={staticFile(src)}
-          style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 14%", transform: "scale(1.25)", transformOrigin: "50% 20%" }} />
+          style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 25%" }} />
       </div>
     );
   };

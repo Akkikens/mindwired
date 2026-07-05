@@ -65,12 +65,28 @@ const Hook: React.FC<{ s: TimedScene; tone: ToneStyle }> = ({ s, tone }) => (
   </Stage>
 );
 
-const Problem: React.FC<{ s: TimedScene; tone: ToneStyle }> = ({ s, tone }) => (
-  <Stage>
-    <VoidDisc tone={tone} size={430} />
-    <KineticText text={s.mainText} words={s.words} tone={tone} emphasis={s.emphasis} fontSize={88} />
-  </Stage>
-);
+/** The black VoidDisc is a cosmic-void visual — right for mindwired's space
+ *  aesthetic, wrong for every other channel (on football it reads as a broken
+ *  black ball — user feedback 2026-07-05). Non-mindwired channels get a soft
+ *  accent glow behind the text instead. */
+const Problem: React.FC<{ s: TimedScene; tone: ToneStyle }> = ({ s, tone }) => {
+  const space = !s.channel || s.channel === "mindwired";
+  return (
+    <Stage>
+      {space ? (
+        <VoidDisc tone={tone} size={430} />
+      ) : (
+        <div style={{
+          position: "absolute", width: 900, height: 900, borderRadius: "50%",
+          background: `radial-gradient(circle, ${tone.accent}30 0%, ${tone.accent}10 40%, transparent 70%)`,
+          filter: "blur(30px)",
+        }} />
+      )}
+      {!space && s.kicker && <Kicker text={s.kicker} tone={tone} />}
+      <KineticText text={s.mainText} words={s.words} tone={tone} emphasis={s.emphasis} fontSize={88} />
+    </Stage>
+  );
+};
 
 const ShockFact: React.FC<{ s: TimedScene; tone: ToneStyle }> = ({ s, tone }) => {
   const frame = useCurrentFrame();
