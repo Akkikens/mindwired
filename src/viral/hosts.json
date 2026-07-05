@@ -20,6 +20,17 @@
     "voiceDescription": "A sharp, assured male finance analyst. Precise, confident, measured — the calm authority of a prime-time markets desk, never salesy.",
     "dynamicScale": 1.0
   },
+  "jamie": {
+    "name": "Jamie",
+    "niche": "football & World Cup analysis (primary — most photoreal, built for Veo)",
+    "image": "host/jamie_b.png",
+    "sourceImage": "host/jamie_b.png",
+    "imageWide": "host/jamie_wide.png",
+    "sourceImageWide": "host/jamie_wide.png",
+    "elevenVoice": "Daniel",
+    "voiceDescription": "A gravelly, passionate British ex-footballer turned pundit. Direct, wry, matchday-box energy — talks like he's played the game.",
+    "dynamicScale": 1.1
+  },
   "rio": {
     "name": "Rio",
     "niche": "football & World Cup analysis",

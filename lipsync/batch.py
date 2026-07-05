@@ -42,10 +42,34 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(REPO / "scripts" / "lib"))
 from sonic_client import run as sonic_run  # noqa: E402
 from wav2lip_client import run as wav2lip_run  # noqa: E402
 
-ENGINES = {"sonic": sonic_run, "wav2lip": wav2lip_run}
+ENGINES = {"sonic": sonic_run, "wav2lip": wav2lip_run, "veo": None}  # veo handled specially
+
+
+def veo_scene(image: Path, voiceover: str, mp4: Path, audio_dir: Path, cid: str,
+              manifest: dict) -> None:
+    """Veo doesn't lip-sync to our mp3 — it generates video AND its own voice
+    from the dialogue. To keep the rest of the pipeline unchanged we then make
+    Veo's audio the scene's canonical audio: extract it over the ElevenLabs
+    mp3, forced-align the voiceover text against it for word-synced captions,
+    and update the manifest duration. The engine keeps playing 'the scene mp3'
+    + 'the muted clip', both now from the same Veo generation — always in sync."""
+    from veo_client import generate as veo_generate
+    import eleven
+
+    veo_generate(image, voiceover, mp4, aspect="9:16", model="fast")
+    mp3 = audio_dir / f"{cid}.mp3"
+    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(mp4),
+                    "-vn", "-c:a", "libmp3lame", "-q:a", "2", str(mp3)], check=True)
+    words = eleven.forced_align(mp3.read_bytes(), voiceover)
+    dur = float(subprocess.run(
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(mp4)],
+        capture_output=True, text=True, check=True).stdout.strip())
+    manifest["clips"][cid] = {"dur": round(dur, 3), "text": voiceover, "words": words,
+                               "engine": "veo"}
 
 
 SONIC_MAX_DIM = 1080  # Sonic input: final render is 1080p/1080x1920 — a 4K
@@ -135,9 +159,15 @@ def main():
             sys.exit(f"missing audio {mp3} — run scripts/build_short.py {args.slug} first")
         mp4 = out_dir / f"{clip_prefix}{cid}.mp4"
         if not mp4.exists():
-            print(f"[{cid}] lip-syncing ({clip_meta.get('dur', '?')}s) via {args.engine}...")
+            print(f"[{cid}] generating ({clip_meta.get('dur', '?')}s) via {args.engine}...")
             try:
-                lipsync_run(image, mp3, mp4, dynamic_scale=dynamic_scale)
+                if args.engine == "veo":
+                    if args.wide:
+                        sys.exit("--engine veo is 9:16 hooks only for now (no --wide)")
+                    veo_scene(image, sc["voiceover"], mp4, audio_dir, cid, manifest)
+                    (audio_dir / "manifest.json").write_text(json.dumps(manifest, indent=1))
+                else:
+                    lipsync_run(image, mp3, mp4, dynamic_scale=dynamic_scale)
             except Exception as e:
                 # idempotent by design — skip this scene, keep going, rerun the
                 # command later to pick up just the ones that failed

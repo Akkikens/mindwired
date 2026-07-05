@@ -120,6 +120,20 @@ but don't burn credit re-testing Sonic/Wav2Lip on wide shots.
 | upscale | nightmareai/real-esrgan on Replicate | ~$0.01/image |
 | lip-sync (paid) | zf-kbot/sonic on Replicate, keep_resolution=True | ~$0.10-0.25/clip |
 | lip-sync (free) | Wav2Lip, local, `batch.py --engine wav2lip` | $0, CPU, ~1-2x realtime |
+| talking hook (best) | Veo 3.1 Fast via GEMINI_API_KEY, `batch.py --engine veo` | ~$1-2 per 8s clip |
+
+**Veo (`--engine veo`, lipsync/veo_client.py) is the quality ceiling** —
+image-to-video with full facial acting + its own generated voice (British
+accent per the prompt), not a mouth-paste. Approved by Akshay 2026-07-04 as
+"actually looks like a human speaking." How it integrates: batch.py generates
+the clip from the scene's `voiceover` as spoken dialogue, extracts Veo's audio
+OVER the scene's ElevenLabs mp3, forced-aligns the text against it (ElevenLabs
+forced-alignment, cheap) so kinetic captions stay word-synced, and updates the
+manifest duration. The engine still plays "the mp3" + "the muted clip" — both
+now from the same Veo generation, so they can't drift. Caveats: 8s clips, 9:16
+only for now, voice varies slightly between generations (no voice pinning), so
+use for hook + CTA scenes, not every scene. Scenes must NOT be `board: true`
+(board scenes never show the host).
 
 SadTalker (cjwbw/sadtalker) is deprecated here — blurry. Sonic replaced it.
 Wav2Lip is the free fallback when Replicate is out of credit — visibly softer
