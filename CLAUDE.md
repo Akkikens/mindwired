@@ -5,6 +5,10 @@ gaming/tech lane. Everything is code-generated: Remotion (React → MP4), React 
 Fiber for 3D, TTS narration with word-level timings. This file is the production
 manual — read it before making or editing any video.
 
+> **Before you call any video done: append the subscribe outro.** See
+> "Subscribe outro — MANDATORY on every video" below. Subscriber growth is
+> currently the channel's #1 problem — do not skip this step.
+
 ## The two repos
 
 | Repo | What lives here |
@@ -89,6 +93,48 @@ Run YouTube searches (Videos filter), collect candidates, compute ratios. Curren
 validated niche: **scary/unsettling space compilations**. Research log in memory
 (`icahn-scary-space-niche`); queued winners belong in that file.
 
+## Subscribe outro — MANDATORY on every video (2026-07-05)
+
+**This channel is not getting new subscribers. Fixing that is a top priority.**
+Every finished render — every long-form and every Short, on BOTH mindwired and
+kickoffdaily90 — must have the matching subscribe outro appended at the very
+end before it counts as "done." This is not optional polish; treat a video as
+incomplete without it.
+
+**The 4 permanent assets** (each hosts talking on camera, Veo-generated,
+asking directly and sincerely for the subscribe — do not regenerate/reword
+these casually, they were purpose-built and reviewed):
+
+| File | Duration | Aspect | Use on |
+|---|---|---|---|
+| `assets/subscribe-outro/subscribe_mindwired_long.mp4` | 17.6s | 1920×1080 | every mindwired long-form |
+| `assets/subscribe-outro/subscribe_mindwired_short.mp4` | 8.9s | 1080×1920 | every mindwired Short |
+| `assets/subscribe-outro/subscribe_kickoffdaily90_long.mp4` | 17.6s | 1920×1080 | every kickoffdaily90 long-form |
+| `assets/subscribe-outro/subscribe_kickoffdaily90_short.mp4` | 8.9s | 1080×1920 | every kickoffdaily90 Short |
+
+These live in `assets/`, not `out/` — `out/` gets bulk-cleared for disk space
+periodically, `assets/` does not. **Never delete `assets/subscribe-outro/`.**
+
+**How to append (last step of every render, before declaring a video done):**
+```bash
+ffmpeg -i out/<your_video>.mp4 -i assets/subscribe-outro/<matching_outro>.mp4 \
+  -filter_complex "[0:v]scale=1920:1080,setsar=1[v0];[1:v]scale=1920:1080,setsar=1[v1]; \
+  [v0][0:a][v1][1:a]concat=n=2:v=1:a=1[v][a]" \
+  -map "[v]" -map "[a]" out/<your_video>_final.mp4
+```
+(swap `1920:1080` for `1080:1920` on Shorts). Verify the concatenated file with
+ffprobe + a frame check same as any other render — the outro must play cleanly
+with no black-frame gap or audio pop at the splice point.
+
+**Source (only touch if the outro itself needs to change):** plans in
+`src/viral/plans/subscribe-mindwired-{long,short}.json` and
+`subscribe-kickoffdaily90-{long,short}.json`, registered as `SubscribeMindwiredLong`
+/ `SubscribeMindwiredShort` / `SubscribeKickoffLong` / `SubscribeKickoffShort` in
+`src/Root.tsx`. Built with Veo talking clips (~$8 total across all 4, one-time
+cost) — see memory `subscribe-outro-standing-asset` for the full design
+rationale, including why shorts run ~9s instead of a literal 5s (Veo's talking
+clips have a fixed ~8s floor).
+
 ## Packaging & publishing
 
 - Every video gets a `METADATA-<slug>.md` here: primary title + A/B alternates,
@@ -98,7 +144,10 @@ validated niche: **scary/unsettling space compilations**. Research log in memory
   scene+text posters, or Remotion still + text overlay (Workflow B). House style:
   3-5 word ALL-CAPS yellow/white text, one dramatic scene, dark background.
 - Renders for upload live at repo root as `mindwired_<slug>.mp4`.
-- Loudness target −14 LUFS for YouTube.
+- Loudness target −14 LUFS for YouTube. **Every finished render must be passed
+  through `scripts/master_video.py` (or `scripts/render_and_master.py`, which
+  renders + masters in one step) to hit −14 LUFS before it counts as done** —
+  nothing else enforces the target. Verify the printed before/after LUFS.
 
 ## Gotchas
 
@@ -111,3 +160,8 @@ validated niche: **scary/unsettling space compilations**. Research log in memory
 - Verify renders: ffprobe duration + extract a mid-video frame and *look at it*
   before declaring done. For WebGL comps also render 2-3 stills of new scenes
   before committing to a full render.
+- Composite footage through Remotion, not ffmpeg: this box's ffmpeg has no
+  libass, so burned captions / text overlays must be drawn by the Remotion comp
+  (the subscribe-outro concat in this doc is a bare stream splice, which is
+  fine — but never rely on ffmpeg's `subtitles`/`ass`/`drawtext` for the actual
+  composite).

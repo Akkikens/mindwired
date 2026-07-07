@@ -17,7 +17,11 @@ export const KineticText: React.FC<{
   fontSize?: number;
   maxWidth?: number;
   align?: "center" | "left";
-}> = ({ text, words, tone, emphasis = [], fontSize = 108, maxWidth = 800, align = "center" }) => {
+  /** semi-opaque backing plate behind the words — keeps captions legible over
+   *  bright footage/b-roll where text-shadow alone would smear. Auto-enabled by
+   *  scenes when footage is present. */
+  plate?: boolean;
+}> = ({ text, words, tone, emphasis = [], fontSize = 108, maxWidth = 800, align = "center", plate = false }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const parts = text.split(/\s+/).filter(Boolean);
@@ -30,11 +34,26 @@ export const KineticText: React.FC<{
     return Math.min(base, (maxWidth / Math.max(4, w.length)) / 0.6);
   };
 
+  // fade the plate in with the first word so it never flashes empty
+  const firstAt = starts.length ? Math.min(...starts) : 0;
+  const plateOpacity = plate
+    ? interpolate(frame, [firstAt, firstAt + 6], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })
+    : 0;
+  const plateStyle: React.CSSProperties = plate
+    ? {
+        padding: `${Math.round(fontSize * 0.28)}px ${Math.round(fontSize * 0.42)}px`,
+        borderRadius: Math.round(fontSize * 0.3),
+        background: `rgba(3,6,15,${0.5 * plateOpacity})`,
+        boxShadow: `0 20px 70px rgba(0,0,0,${0.5 * plateOpacity})`,
+        backdropFilter: plateOpacity > 0.02 ? "blur(6px)" : undefined,
+      }
+    : {};
+
   return (
     <div style={{
       display: "flex", flexWrap: "wrap", gap: `${Math.round(fontSize * 0.26)}px`,
       justifyContent: align === "center" ? "center" : "flex-start",
-      maxWidth, textAlign: align, lineHeight: 1.06, fontSize,
+      maxWidth, textAlign: align, lineHeight: 1.06, fontSize, ...plateStyle,
     }}>
       {parts.map((w, i) => {
         const at = starts[i];
@@ -91,7 +110,12 @@ export const KineticText: React.FC<{
 };
 
 /** Small kicker/label above the main line. */
-export const Kicker: React.FC<{ text: string; tone: ToneStyle; delay?: number }> = ({ text, tone, delay = 0 }) => {
+/** Long kickers (e.g. a full scoreline + stat) with no width limit rendered
+ *  past the frame edges instead of wrapping (found 2026-07-05 on a football
+ *  short's stat scene) — cap width and center-wrap so it always stays inside
+ *  the safe area regardless of string length. */
+export const Kicker: React.FC<{ text: string; tone: ToneStyle; delay?: number; maxWidth?: number }> =
+  ({ text, tone, delay = 0, maxWidth = 820 }) => {
   const frame = useCurrentFrame();
   const p = revealProgress(frame, delay, 10);
   return (
@@ -100,6 +124,7 @@ export const Kicker: React.FC<{ text: string; tone: ToneStyle; delay?: number }>
       textTransform: "uppercase", color: tone.accent2, opacity: p,
       transform: `translateY(${(1 - p) * 16}px)`,
       textShadow: "0 2px 14px rgba(0,0,0,0.8)",
+      maxWidth, textAlign: "center", whiteSpace: "normal", overflowWrap: "normal",
     }}>{text}</div>
   );
 };

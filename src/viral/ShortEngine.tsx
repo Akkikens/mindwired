@@ -4,8 +4,8 @@ import { Backdrop } from "./components/Backdrop";
 import { CameraRig, FlashIn } from "./components/CameraRig";
 import { Brand, ProgressBar, SafeArea, VoicePulse } from "./components/HUD";
 import { KineticText, Kicker } from "./components/KineticText";
-import { SceneRouter } from "./scenes";
-import { buildTimeline, HOLD, timelineFrames } from "./lib/plan";
+import { HostMedia, SceneRouter } from "./scenes";
+import { buildTimeline, timelineFrames } from "./lib/plan";
 import { resolveHostImage } from "./lib/hosts";
 import { TONES } from "./lib/tone";
 import { ShortManifest, TimedScene, VisualPlan } from "./lib/types";
@@ -65,11 +65,15 @@ const HostTalkingClip: React.FC<{ src: string; durationInFrames: number; pillarb
   );
 };
 
-/** Circular corner facecam for wide long-forms — the 9:16 Sonic talking clip
- *  center-cropped on the face, streamer-style. Pops in with the voice, fades
- *  out before the cut. Muted; the scene's mp3 stays the audio source. */
-const FaceCam: React.FC<{ src: string; durationInFrames: number; accent: string }> =
-  ({ src, durationInFrames, accent }) => {
+/** Circular corner facecam for wide long-forms — the 9:16 Sonic/Veo talking
+ *  clip center-cropped on the face, streamer-style, when this beat was
+ *  lip-synced; otherwise the host's still portrait, so the host is visibly
+ *  present for every non-board scene instead of vanishing into a bare VoidDisc
+ *  with nobody in frame (Akshay feedback 2026-07-05 — "black holes with no
+ *  images inside, Kelly isn't speaking"). Pops in, fades out before the cut.
+ *  Muted; the scene's mp3 stays the audio source. */
+const FaceCam: React.FC<{ src: string; kind: "video" | "image"; durationInFrames: number; accent: string }> =
+  ({ src, kind, durationInFrames, accent }) => {
     const frame = useCurrentFrame();
     const enter = interpolate(frame, [0, 8], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
     const exit = interpolate(frame, [durationInFrames - 8, durationInFrames - 1], [1, 0],
@@ -89,8 +93,13 @@ const FaceCam: React.FC<{ src: string; durationInFrames: number; accent: string 
             scale(1.25) + top anchor cropped the chin off inside the bubble
             (user feedback 2026-07-05). Anchor a quarter down so forehead-to-chin
             stays inside the circle across differently-framed clips. */}
-        <OffthreadVideo muted src={staticFile(src)}
-          style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 25%" }} />
+        {kind === "video" ? (
+          <OffthreadVideo muted src={staticFile(src)}
+            style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 25%" }} />
+        ) : (
+          <Img src={staticFile(src)}
+            style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 25%" }} />
+        )}
       </div>
     );
   };
@@ -114,7 +123,7 @@ const HostCaption: React.FC<{ s: TimedScene }> = ({ s }) => {
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 24, padding: "0 70px" }}>
           {s.kicker && <Kicker text={s.kicker} tone={tone} />}
           <KineticText text={s.mainText} words={s.words} tone={tone} emphasis={s.emphasis}
-            fontSize={92} maxWidth={width - 140} />
+            fontSize={92} maxWidth={width - 140} plate />
         </div>
       </AbsoluteFill>
       <VoicePulse words={s.words} sceneFrame={frame} tone={tone} bottom={210} />
@@ -122,24 +131,53 @@ const HostCaption: React.FC<{ s: TimedScene }> = ({ s }) => {
   );
 };
 
-/** One scene: backdrop → camera(world) → HUD pulse → audio. */
-const SceneShell: React.FC<{ s: TimedScene; prevOut?: TimedScene["transitionOut"]; slug: string; bpm?: number }> =
-  ({ s, prevOut, slug, bpm }) => {
+/** Scene audio with a short fade in/out — back-to-back scenes are often two
+ *  independently-generated voice takes (different Hume/Veo/ElevenLabs calls),
+ *  so a hard cut between them can sound like the voice "breaking" at the
+ *  splice (Akshay feedback 2026-07-05, subscribe-outro ask→cta transition).
+ *  A ~0.2s fade smooths that without adding a perceptible gap. */
+const SceneAudio: React.FC<{ src: string; audioDelay: number; totalFrames: number }> = ({ src, audioDelay, totalFrames }) => {
+  const frame = useCurrentFrame();
+  const localEnd = totalFrames - audioDelay;
+  const FADE = 6;
+  const volume = Math.min(
+    interpolate(frame, [0, FADE], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }),
+    interpolate(frame, [localEnd - FADE, localEnd], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }),
+  );
+  return <Audio src={staticFile(src)} volume={volume} />;
+};
+
+/** One scene: backdrop → camera(world) → HUD pulse → audio. `hostMedia`
+ *  (wide long-forms only) puts the host's face inside the scene's own void
+ *  disc for "problem"-kind beats — see SceneRouter/Problem. */
+const SceneShell: React.FC<{ s: TimedScene; prevOut?: TimedScene["transitionOut"]; slug: string; bpm?: number; hostMedia?: HostMedia }> =
+  ({ s, prevOut, slug, bpm, hostMedia }) => {
     const frame = useCurrentFrame();
     const tone = TONES[s.emotionalTone];
     const broll = s.backgroundPrompt ? `shorts/${slug}/broll/${s.id}.jpg` : undefined;
+    const brollVideo = s.brollVideo;
+    // Entrance transition. First scene (no prevOut) opens hard with motion —
+    // channel rule "no fade-in on scene 1". whip stays whip; flash/zoomblast are
+    // drawn by the FlashIn overlay below (no camera fade, or it double-dips);
+    // every plain cut now gets a soft dissolve so cuts stop hard-slamming.
+    const transitionIn: TimedScene["transitionOut"] =
+      prevOut === undefined ? "none"
+        : prevOut === "whip" ? "whip"
+        : prevOut === "flash" || prevOut === "zoomblast" ? "none"
+        : "dissolve";
     return (
       <AbsoluteFill>
-        <CameraRig tone={tone} durationInFrames={s.durationInFrames} bpm={bpm}
-          transitionIn={prevOut === "whip" ? "whip" : "none"} transitionOut={s.transitionOut}>
-          <Backdrop tone={tone} seed={s.id.length * 997 + s.from} broll={s.brollExists ? broll : undefined} />
-          <SafeArea><SceneRouter s={s} tone={tone} /></SafeArea>
+        <CameraRig tone={tone} durationInFrames={s.durationInFrames} bpm={bpm} camera={s.camera}
+          transitionIn={transitionIn} transitionOut={s.transitionOut}>
+          <Backdrop tone={tone} seed={s.id.length * 997 + s.from}
+            broll={s.brollExists ? broll : undefined} brollVideo={brollVideo} />
+          <SafeArea><SceneRouter s={s} tone={tone} hostMedia={hostMedia} /></SafeArea>
         </CameraRig>
         {(prevOut === "flash" || prevOut === "zoomblast") && <FlashIn />}
         <VoicePulse words={s.words} sceneFrame={frame} tone={tone} bottom={190} />
         {s.audioSrc && (
           <Sequence from={s.audioDelay}>
-            <Audio src={staticFile(s.audioSrc)} />
+            <SceneAudio src={s.audioSrc} audioDelay={s.audioDelay} totalFrames={s.durationInFrames} />
           </Sequence>
         )}
       </AbsoluteFill>
@@ -160,22 +198,45 @@ export const ViralShort: React.FC<{ plan: VisualPlan; manifest: ShortManifest | 
   // talking clip (center-cropped on the face) whenever one exists. Lips move,
   // no giant static face, and it reuses the Shorts' Sonic clips for free.
   if (plan.host && wide) {
+    // "problem"-kind beats get the host's face INSIDE their own void disc
+    // (see Problem/VoidDisc) instead of a separate corner bubble. Only
+    // scenes with an actual lip-synced clip show the host at all — a still
+    // photo standing in for "talking" read as frozen/broken once it became
+    // the prominent visual (Akshay feedback 2026-07-05); no clip now means
+    // no host, not a static stand-in.
+    const hostMediaFor = (s: TimedScene): HostMedia | undefined =>
+      s.board || !s.hostClipExists ? undefined : {
+        src: `shorts/${plan.slug}/host/${s.id}.mp4`,
+        kind: "video",
+        audioDelay: s.audioDelay,
+      };
     return (
       <AbsoluteFill style={{ backgroundColor: "#03040A" }}>
         {scenes.map((s, i) => (
           <Sequence key={s.id} from={s.from} durationInFrames={s.durationInFrames} name={`${s.kind}:${s.id}`}>
             <SceneShell s={s} prevOut={i > 0 ? scenes[i - 1].transitionOut : undefined} slug={plan.slug}
-              bpm={plan.music?.bpm} />
+              bpm={plan.music?.bpm} hostMedia={s.kind === "problem" ? hostMediaFor(s) : undefined} />
           </Sequence>
         ))}
         {scenes.map((s) => {
-          const talkFrames = s.durationInFrames - s.audioDelay - HOLD;
-          return s.hostClipExists && talkFrames > 0 ? (
+          // board scenes are pure graphics by design (no host); "problem"
+          // scenes now show the host inside their own disc above — every
+          // other non-board scene gets the corner facecam bubble only when
+          // it has a talking clip.
+          if (s.board || s.kind === "problem") return null;
+          const talkFrames = s.durationInFrames - s.audioDelay - s.holdFrames;
+          if (talkFrames <= 0) return null;
+          const media = hostMediaFor(s);
+          if (!media) return null;
+          return (
             <Sequence key={`cam-${s.id}`} from={s.from + s.audioDelay} durationInFrames={talkFrames} name={`facecam:${s.id}`}>
-              <FaceCam src={`shorts/${plan.slug}/host/${s.id}.mp4`} durationInFrames={talkFrames}
+              <FaceCam
+                src={media.src}
+                kind={media.kind}
+                durationInFrames={talkFrames}
                 accent={TONES[s.emotionalTone].accent} />
             </Sequence>
-          ) : null;
+          );
         })}
         {plan.music?.src && <Audio src={staticFile(plan.music.src)} volume={plan.music.volume ?? 0.14} loop />}
         <ProgressBar totalFrames={total} accent={accent} />
@@ -198,7 +259,7 @@ export const ViralShort: React.FC<{ plan: VisualPlan; manifest: ShortManifest | 
       <AbsoluteFill style={{ backgroundColor: "#03040A" }}>
         <HostLayer src={hostImage} totalFrames={total} accent={accent} frozen={anyTalking} pillarbox={pillarbox} />
         {scenes.map((s) => {
-          const talkFrames = s.durationInFrames - s.audioDelay - HOLD;
+          const talkFrames = s.durationInFrames - s.audioDelay - s.holdFrames;
           return clipExists(s) && talkFrames > 0 ? (
             <Sequence key={`talk-${s.id}`} from={s.from + s.audioDelay} durationInFrames={talkFrames} name={`host:${s.id}`}>
               <HostTalkingClip src={`shorts/${plan.slug}/${clipDir}/${s.id}.mp4`} durationInFrames={talkFrames} pillarbox={pillarbox} />
@@ -217,7 +278,7 @@ export const ViralShort: React.FC<{ plan: VisualPlan; manifest: ShortManifest | 
                 <HostCaption s={s} />
                 {s.audioSrc && (
                   <Sequence from={s.audioDelay}>
-                    <Audio src={staticFile(s.audioSrc)} />
+                    <SceneAudio src={s.audioSrc} audioDelay={s.audioDelay} totalFrames={s.durationInFrames} />
                   </Sequence>
                 )}
               </>

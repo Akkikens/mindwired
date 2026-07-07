@@ -15,21 +15,35 @@ export const ProgressBar: React.FC<{ totalFrames: number; accent: string }> = ({
   );
 };
 
-/** Fake waveform pulse: bars driven by whether a word is being spoken now —
- *  intensity rises with word density (the voice "getting intense"). */
-export const VoicePulse: React.FC<{ words: TimedWord[]; sceneFrame: number; tone: ToneStyle; bottom: number }> =
-  ({ words, sceneFrame, tone, bottom }) => {
+/** Waveform pulse: bars driven by the voice. When a real amplitude envelope
+ *  (`amp`, one value per 1/20s, built by scripts/lib/envelope.py) is available,
+ *  the bars track the actual voice loudness; otherwise they fall back to the
+ *  faked word-density heuristic (rising intensity as words cluster). Pinned to
+ *  a bottom corner (not bottom-center) so it never collides with the
+ *  vertically-centered KineticText block when mainText wraps to 3 lines
+ *  (learned the hard way 2026-07-05 — center placement overlapped wrapped
+ *  captions in Problem/Data/etc. scenes). */
+export const VoicePulse: React.FC<{ words: TimedWord[]; sceneFrame: number; tone: ToneStyle; bottom: number; amp?: number[] }> =
+  ({ words, sceneFrame, tone, bottom, amp }) => {
     const { fps } = useVideoConfig();
     const t = sceneFrame / fps;
-    // 0.15s grace over inter-word gaps — real TTS timings have silences that
-    // would strobe the bars at 30fps with a hard interval test
-    const active = words.some((w) => t >= w.start - 0.15 && t <= w.end + 0.15);
-    const density = words.filter((w) => Math.abs((w.start + w.end) / 2 - t) < 0.6).length;
-    const energy = active ? Math.min(1, 0.35 + density * 0.22) : 0.12;
+    let energy: number;
+    if (amp && amp.length) {
+      // envelope is sampled at 20 Hz — map the scene frame onto that index
+      const idx = Math.floor((sceneFrame / fps) * 20);
+      const v = amp[Math.min(idx, amp.length - 1)] ?? 0;
+      energy = Math.max(0.12, v);
+    } else {
+      // 0.15s grace over inter-word gaps — real TTS timings have silences that
+      // would strobe the bars at 30fps with a hard interval test
+      const active = words.some((w) => t >= w.start - 0.15 && t <= w.end + 0.15);
+      const density = words.filter((w) => Math.abs((w.start + w.end) / 2 - t) < 0.6).length;
+      energy = active ? Math.min(1, 0.35 + density * 0.22) : 0.12;
+    }
     const N = 5;
     return (
       <div style={{
-        position: "absolute", bottom, left: "50%", transform: "translateX(-50%)",
+        position: "absolute", bottom, right: 64,
         display: "flex", gap: 7, alignItems: "flex-end", height: 34, opacity: 0.85,
       }}>
         {Array.from({ length: N }).map((_, i) => {

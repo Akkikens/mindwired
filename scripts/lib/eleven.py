@@ -35,6 +35,29 @@ TTS_MODEL = "eleven_multilingual_v2"
 # Authoritative + cinematic: higher stability for gravitas, moderate style for drama
 TTS_SETTINGS = {"stability": 0.5, "similarity_boost": 0.85, "style": 0.4, "use_speaker_boost": True}
 
+# Per-tone voice_settings variants. Shock/excitement drop stability + push style
+# for punchy, dynamic delivery; fear/awe raise stability + calm the style for
+# controlled dread/reverence; confidence/curiosity stay near the base values.
+# similarity_boost + use_speaker_boost are held constant so the voice identity
+# never drifts across tones.
+_TONE_SETTINGS = {
+    "shock":      {"stability": 0.35, "style": 0.6},
+    "excitement": {"stability": 0.35, "style": 0.6},
+    "fear":       {"stability": 0.6,  "style": 0.25},
+    "awe":        {"stability": 0.6,  "style": 0.25},
+    "confidence": {"stability": 0.5,  "style": 0.4},
+    "curiosity":  {"stability": 0.5,  "style": 0.4},
+}
+
+
+def settings_for_tone(tone: str | None) -> dict:
+    """voice_settings for an emotional tone, layered over TTS_SETTINGS. Unknown
+    or missing tones return the base settings unchanged."""
+    base = dict(TTS_SETTINGS)
+    if tone:
+        base.update(_TONE_SETTINGS.get(tone, {}))
+    return base
+
 
 # ── key + http ────────────────────────────────────────────────────────────────
 
@@ -209,12 +232,17 @@ def _words_from_char_alignment(align):
     return out
 
 
-def tts_aligned(text: str, voice: str | None = None):
-    """Spoken VO with word timestamps. Returns (mp3_bytes, words[])."""
+def tts_aligned(text: str, voice: str | None = None, tone: str | None = None):
+    """Spoken VO with word timestamps. Returns (mp3_bytes, words[]).
+
+    `tone` (optional) selects a per-tone voice_settings variant via
+    settings_for_tone(); omit it to use the base TTS_SETTINGS (backward
+    compatible with existing callers)."""
     vid, _ = pick_voice(voice)
+    voice_settings = settings_for_tone(tone) if tone else TTS_SETTINGS
     st, ct, body = _json_req(f"/text-to-speech/{vid}/with-timestamps",
                              {"text": text, "model_id": TTS_MODEL,
-                              "voice_settings": TTS_SETTINGS})
+                              "voice_settings": voice_settings})
     obj = json.loads(body)
     audio = base64.b64decode(obj["audio_base64"])
     words = _words_from_char_alignment(obj["alignment"])
