@@ -1,0 +1,110 @@
+{
+  "slug": "wc-topscorers-teams",
+  "title": "World Cup \u2014 Top Scoring Teams",
+  "host": "jamie",
+  "channel": "kickoffdaily90",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "board": true,
+      "start": 0,
+      "end": 6,
+      "voiceover": "Here are the highest scoring teams at this World Cup \u2014 France with 10, Germany with 10, Netherlands with 10, Argentina with 8 goals.",
+      "mainText": "TOP SCORING TEAMS",
+      "emphasis": [
+        "SCORING"
+      ],
+      "kicker": "WORLD CUP 2026",
+      "visualConcept": "host cold open",
+      "emotionalTone": "excitement",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "ts0",
+      "kind": "data",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "The top four: France, 10 goals; Germany, 10 goals; Netherlands, 10 goals; Argentina, 8 goals.",
+      "mainText": "TOP SCORING TEAMS",
+      "emphasis": [],
+      "kicker": "GOALS SCORED",
+      "visualConcept": "top scoring teams bar chart",
+      "stat": {
+        "to": 0,
+        "bars": [
+          {
+            "label": "France",
+            "value": 10
+          },
+          {
+            "label": "Germany",
+            "value": 10
+          },
+          {
+            "label": "Netherlands",
+            "value": 10
+          },
+          {
+            "label": "Argentina",
+            "value": 8
+          }
+        ]
+      },
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "ts1",
+      "kind": "data",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "Rounding out the top eight: Canada, 8 goals; United States, 8 goals; Senegal, 8 goals; Norway, 8 goals.",
+      "mainText": "TOP SCORING TEAMS, CONTINUED",
+      "emphasis": [],
+      "kicker": "GOALS SCORED (5-8)",
+      "visualConcept": "top scoring teams bar chart",
+      "stat": {
+        "to": 0,
+        "bars": [
+          {
+            "label": "Canada",
+            "value": 8
+          },
+          {
+            "label": "United States",
+            "value": 8
+          },
+          {
+            "label": "Senegal",
+            "value": 8
+          },
+          {
+            "label": "Norway",
+            "value": 8
+          }
+        ]
+      },
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "board": true,
+      "start": 0,
+      "end": 6,
+      "voiceover": "Follow kickoffdaily90 for every result as it happens.",
+      "mainText": "FOLLOW FOR EVERY RESULT",
+      "emphasis": [
+        "EVERY RESULT"
+      ],
+      "kicker": "@KICKOFFDAILY90",
+      "visualConcept": "cta",
+      "emotionalTone": "confidence",
+      "transitionOut": "none"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "subscribe-mindwired-long",
+  "title": "mindwired — Subscribe Outro (20s, 16:9)",
+  "host": "orion",
+  "scenes": [
+    {
+      "id": "ask",
+      "kind": "problem",
+      "start": 0,
+      "end": 8,
+      "voiceover": "If any of this messed with your head a little... that's exactly the point. And it only happens because people like you keep showing up.",
+      "mainText": "PEOPLE LIKE YOU KEEP THIS GOING",
+      "emphasis": ["PEOPLE LIKE YOU"],
+      "kicker": "BEFORE YOU GO",
+      "visualConcept": "host direct address, warm and sincere",
+      "emotionalTone": "confidence",
+      "transitionOut": "cut",
+      "hostClipExists": true
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "start": 8,
+      "end": 20,
+      "voiceover": "Hit subscribe, right now — it costs you nothing, and it's the entire reason mindwired keeps making videos like this. Subscribe.",
+      "mainText": "HIT SUBSCRIBE — IT COSTS NOTHING",
+      "emphasis": ["SUBSCRIBE"],
+      "kicker": "@MINDWIREDD",
+      "visualConcept": "host CTA, warm close, subscribe pill",
+      "emotionalTone": "confidence",
+      "transitionOut": "none",
+      "hostClipExists": true
+    }
+  ]
+}

@@ -7,9 +7,10 @@ fabricated — see the do-not-use list at the bottom). House format: Orion host,
 (+CTA), hume-cartesia narration, board scenes for facts.
 
 ## Ready to make (strong + verifiable)
-1. **Gravity slows time on other planets** — gravitational time dilation; we
-   ALREADY have verified research: GPS ±38μs/day, NIST 33cm experiment, S2 star
-   at Sgr A* (see research/ + spacefacts sourcing). Easiest win.
+1. ~~**Gravity slows time on other planets**~~ — DONE 2026-07-05 as
+   `brokentime` (see METADATA-brokentime.md). GPS ±38μs/day, NIST 33cm/1mm
+   experiments, S2 star at Sgr A*, Earth's core, Kelly twins, Moon/Mars clocks,
+   Interstellar's Miller's planet. Long-form + 4 shorts rendered.
 2. **The Cold Death: after the last star goes out** — heat death timeline;
    verified research exists (10^67-yr black hole evaporation, 2025 Radboud
    recalc, DESI dark-energy caveat). Natural sequel to spacefacts video.

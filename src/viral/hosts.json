@@ -31,17 +31,6 @@
     "voiceDescription": "A gravelly, passionate British ex-footballer turned pundit. Direct, wry, matchday-box energy — talks like he's played the game.",
     "dynamicScale": 1.1
   },
-  "rio": {
-    "name": "Rio",
-    "niche": "football & World Cup analysis",
-    "image": "host/rio_4k.png",
-    "sourceImage": "host/rio.png",
-    "imageWide": "host/rio_wide_4k.png",
-    "sourceImageWide": "host/rio_wide.png",
-    "elevenVoice": "Daniel",
-    "voiceDescription": "A charismatic British football pundit. Warm, quick, passionate — matchday-studio energy with big-moment emphasis.",
-    "dynamicScale": 1.1
-  },
   "vex": {
     "name": "Vex",
     "niche": "gaming, GTA VI & tech",

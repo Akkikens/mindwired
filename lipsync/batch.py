@@ -56,7 +56,15 @@ def veo_scene(image: Path, voiceover: str, mp4: Path, audio_dir: Path, cid: str,
     Veo's audio the scene's canonical audio: extract it over the ElevenLabs
     mp3, forced-align the voiceover text against it for word-synced captions,
     and update the manifest duration. The engine keeps playing 'the scene mp3'
-    + 'the muted clip', both now from the same Veo generation — always in sync."""
+    + 'the muted clip', both now from the same Veo generation — always in sync.
+
+    Veo has a fixed ~8s clip floor — if the line is shorter, the actor just
+    stands there silently for the remainder. Using the FULL clip duration
+    (as this used to) bakes that dead air in as if it were deliberate scene
+    pacing, and it reads as "a static image for ~2s" (Akshay feedback,
+    2026-07-06). Fix: trim to shortly after the last forced-aligned word ends,
+    re-extracting the mp3 from the trimmed clip so audio/video/manifest all
+    agree on the shorter length."""
     from veo_client import generate as veo_generate
     import eleven
 
@@ -65,9 +73,23 @@ def veo_scene(image: Path, voiceover: str, mp4: Path, audio_dir: Path, cid: str,
     subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(mp4),
                     "-vn", "-c:a", "libmp3lame", "-q:a", "2", str(mp3)], check=True)
     words = eleven.forced_align(mp3.read_bytes(), voiceover)
-    dur = float(subprocess.run(
+    full_dur = float(subprocess.run(
         ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(mp4)],
         capture_output=True, text=True, check=True).stdout.strip())
+
+    TRAIL_BUFFER = 0.4  # small natural pause after the last word, not dead air
+    speech_end = (words[-1]["end"] + TRAIL_BUFFER) if words else full_dur
+    dur = min(full_dur, speech_end)
+
+    if dur < full_dur - 0.5:  # only re-cut if there's a meaningful gap to trim
+        trimmed = mp4.with_suffix(".trimmed.mp4")
+        subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(mp4), "-t", f"{dur:.3f}",
+                        "-c:v", "libx264", "-preset", "fast", "-c:a", "aac", str(trimmed)], check=True)
+        trimmed.replace(mp4)
+        subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(mp4),
+                        "-vn", "-c:a", "libmp3lame", "-q:a", "2", str(mp3)], check=True)
+        print(f"  [{cid}] trimmed Veo dead air: {full_dur:.2f}s -> {dur:.2f}s")
+
     manifest["clips"][cid] = {"dur": round(dur, 3), "text": voiceover, "words": words,
                                "engine": "veo"}
 

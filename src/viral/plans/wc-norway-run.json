@@ -1,0 +1,102 @@
+{
+  "slug": "wc-norway-run",
+  "title": "World Cup \u2014 Norway's Giant Slayer Run",
+  "host": "jamie",
+  "channel": "kickoffdaily90",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "board": true,
+      "start": 0,
+      "end": 6,
+      "voiceover": "Norway has slain two giants at this World Cup.",
+      "mainText": "NORWAY HAS SLAIN TWO GIANTS AT THIS WORLD CUP",
+      "emphasis": [
+        "TWO GIANTS"
+      ],
+      "kicker": "THE GIANT SLAYER RUN",
+      "visualConcept": "host cold open",
+      "backgroundPrompt": "A single determined footballer in a red and blue kit standing alone on a massive floodlit stadium pitch, dramatic low camera angle making him look powerful, cinematic painterly illustration, no text, no watermark",
+      "emotionalTone": "excitement",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "ivorycoast",
+      "kind": "comparison",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "Round of 32: Ivory Coast 1, Norway 2.",
+      "mainText": "IVORY COAST 1 - 2 NORWAY",
+      "emphasis": [],
+      "kicker": "ROUND OF 32",
+      "visualConcept": "fixture comparison card",
+      "compare": {
+        "left": "IVORY COAST  1",
+        "right": "2  NORWAY",
+        "rightImg": "shorts/_wc-crests/813.svg"
+      },
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "brazil",
+      "kind": "comparison",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "Round of 16: Brazil 1, Norway 2 \u2014 Haaland scored both goals to knock out the five-time champions.",
+      "mainText": "BRAZIL 1 - 2 NORWAY",
+      "emphasis": [],
+      "kicker": "ROUND OF 16 \u2014 HAALAND x2",
+      "visualConcept": "fixture comparison card",
+      "compare": {
+        "left": "BRAZIL  1",
+        "right": "2  NORWAY",
+        "leftImg": "shorts/_wc-crests/764.svg",
+        "rightImg": "shorts/_wc-crests/813.svg"
+      },
+      "emotionalTone": "shock",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "nextup",
+      "kind": "comparison",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "Next up: England, in the quarterfinals, July 11th.",
+      "mainText": "NEXT UP: ENGLAND \u2014 QUARTERFINALS, JULY 11",
+      "emphasis": [
+        "ENGLAND"
+      ],
+      "kicker": "QUARTERFINALS \u2014 JUL 11",
+      "visualConcept": "upcoming quarterfinal reveal",
+      "compare": {
+        "left": "NORWAY",
+        "right": "ENGLAND",
+        "leftImg": "shorts/_wc-crests/813.svg",
+        "rightImg": "shorts/_wc-crests/770.svg"
+      },
+      "emotionalTone": "excitement",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "board": true,
+      "start": 0,
+      "end": 6,
+      "voiceover": "Follow kickoffdaily90 for every result as it happens.",
+      "mainText": "FOLLOW FOR EVERY RESULT",
+      "emphasis": [
+        "EVERY RESULT"
+      ],
+      "kicker": "@KICKOFFDAILY90",
+      "visualConcept": "cta",
+      "emotionalTone": "confidence",
+      "transitionOut": "none"
+    }
+  ]
+}

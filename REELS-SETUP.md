@@ -22,11 +22,12 @@ Instagram app → Settings → Account type → **Switch to Professional → Cre
    `instagram_business_basic`, `instagram_business_content_publish`.
 3. Copy the **access token** and the **Instagram user ID** shown next to the
    account.
-4. Exchange for a long-lived token (60 days) — run:
-   ```
-   curl -s "https://graph.instagram.com/access_token?grant_type=ig_exchange_token&client_secret=APP_SECRET&access_token=SHORT_TOKEN"
-   ```
-   (APP_SECRET is in App settings → Basic.)
+4. Tokens generated via the dashboard's "Generate token" button are **already
+   long-lived (60 days)** — do NOT run `ig_exchange_token` on them, it'll fail
+   with an "Invalid Access Token" / session-key error (confirmed 2026-07-06).
+   `ig_exchange_token` is only for genuine short-lived tokens from the OAuth
+   redirect flow (`api.instagram.com/oauth/access_token`), which this isn't.
+   Use the token as-is.
 
 ## 4. Add to mindwired/.env
 ```
@@ -45,8 +46,12 @@ Notes:
 - Reels captions: reuse the YouTube Short description, swap "#Shorts" for
   "#Reels", and add "Full breakdown on YouTube → kickoffdaily90" (Reels can't
   link, so the funnel is the channel name).
-- Token expires every 60 days — rerun the exchange in step 3.4 (Claude can
-  remind/refresh if you keep APP_SECRET in .env as IG_APP_SECRET).
+- Token expires every 60 days — renew via the refresh endpoint (NOT
+  ig_exchange_token):
+  ```
+  curl -s "https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=CURRENT_TOKEN"
+  ```
+  (Claude can remind/run this if asked, using IG_ACCESS_TOKEN from .env.)
 - Rate limit: 100 API-published posts per 24h — far above our volume.
 - For mindwired's space Reels later: same setup with the mindwired IG account,
   store as IG_USER_ID_MINDWIRED / IG_ACCESS_TOKEN_MINDWIRED.

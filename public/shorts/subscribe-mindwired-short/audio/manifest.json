@@ -1,0 +1,66 @@
+{
+ "clips": {
+  "cta": {
+   "dur": 8.0,
+   "text": "If this helped, hit subscribe \u2014 it genuinely helps mindwired grow.",
+   "words": [
+    {
+     "word": "If",
+     "start": 0.779,
+     "end": 0.919
+    },
+    {
+     "word": "this",
+     "start": 0.939,
+     "end": 1.12
+    },
+    {
+     "word": "helped,",
+     "start": 1.199,
+     "end": 1.459
+    },
+    {
+     "word": "hit",
+     "start": 1.86,
+     "end": 1.979
+    },
+    {
+     "word": "subscribe",
+     "start": 2.099,
+     "end": 2.679
+    },
+    {
+     "word": "\u2014",
+     "start": 2.7,
+     "end": 2.701
+    },
+    {
+     "word": "it",
+     "start": 2.74,
+     "end": 3.279
+    },
+    {
+     "word": "genuinely",
+     "start": 3.319,
+     "end": 4.839
+    },
+    {
+     "word": "helps",
+     "start": 4.9,
+     "end": 5.259
+    },
+    {
+     "word": "mindwired",
+     "start": 5.299,
+     "end": 5.94
+    },
+    {
+     "word": "grow.",
+     "start": 5.98,
+     "end": 6.199
+    }
+   ],
+   "engine": "veo"
+  }
+ }
+}

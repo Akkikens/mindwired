@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
 """Post a rendered vertical mp4 to Instagram Reels via Meta's official
-Content Publishing API (resumable upload — no public hosting needed).
+Content Publishing API — video_url flow (a public URL, NOT resumable byte
+upload). Confirmed 2026-07-06: the API now rejects container creation with
+"video_url is required" even when upload_type=resumable is set — the
+resumable/direct-byte-upload path this script originally used no longer
+works, at least not for this app/account. Since Instagram's servers need to
+fetch the file over HTTP, this script uploads it to a public GCS bucket
+first (gs://kickoffdaily90-reels-tmp), then passes that URL.
 
 One-time setup (see REELS-SETUP.md): Instagram Professional (Creator/Business)
 account + a Meta app + a long-lived access token with instagram_business_
@@ -8,18 +14,22 @@ content_publish. Put in .env:
   IG_USER_ID=<your instagram user id>
   IG_ACCESS_TOKEN=<long-lived token>
 
+Requires: gcloud CLI authenticated with access to the GCS bucket (created
+one-time via `gsutil mb` + `gsutil iam ch allUsers:objectViewer`).
+
 Usage:
   python3 scripts/post_reel.py --video out/kickoffdaily90_short_x.mp4 \
       --caption "Portugal vs Spain is a FINAL in disguise 😤 #WorldCup2026 ..." \
       [--share-to-feed] [--thumb-offset-ms 1500]
 
-Flow per Meta docs: (1) create a REELS media container in resumable-upload
-mode, (2) POST the raw bytes to rupload.facebook.com, (3) poll the container
-status until FINISHED, (4) publish. Reels specs: 9:16, ≤15 min, mp4/mov.
+Flow: (1) upload the file to the public GCS bucket, (2) create a REELS media
+container with video_url pointing at it, (3) poll the container status until
+FINISHED, (4) publish. Reels specs: 9:16, ≤15 min, mp4/mov.
 """
 import argparse
 import json
 import os
+import subprocess
 import sys
 import time
 from pathlib import Path
@@ -28,7 +38,7 @@ import httpx
 
 REPO = Path(__file__).resolve().parent.parent
 GRAPH = "https://graph.instagram.com/v21.0"
-RUPLOAD = "https://rupload.facebook.com/ig-api-upload/v21.0"
+GCS_BUCKET = "kickoffdaily90-reels-tmp"
 
 
 def load_env(key: str) -> str:
@@ -42,13 +52,26 @@ def load_env(key: str) -> str:
     sys.exit(f"{key} not set — see REELS-SETUP.md for the one-time setup")
 
 
+def upload_to_gcs(video: Path) -> str:
+    dest = f"gs://{GCS_BUCKET}/{video.name}"
+    subprocess.run(["gsutil", "cp", str(video), dest], check=True)
+    url = f"https://storage.googleapis.com/{GCS_BUCKET}/{video.name}"
+    r = httpx.head(url, timeout=30)
+    if r.status_code != 200:
+        sys.exit(f"uploaded but not publicly fetchable ({r.status_code}) — "
+                  f"check bucket IAM: gsutil iam ch allUsers:objectViewer gs://{GCS_BUCKET}")
+    print(f"  uploaded -> {url}")
+    return url
+
+
 def post_reel(video: Path, caption: str, share_to_feed: bool = True,
               thumb_offset_ms: int | None = None):
     user_id = load_env("IG_USER_ID")
     token = load_env("IG_ACCESS_TOKEN")
 
-    # 1) create container (resumable upload mode)
-    params = {"media_type": "REELS", "upload_type": "resumable",
+    # 1) public-host the file, then create container pointing at it
+    video_url = upload_to_gcs(video)
+    params = {"media_type": "REELS", "video_url": video_url,
               "caption": caption, "share_to_feed": str(share_to_feed).lower(),
               "access_token": token}
     if thumb_offset_ms is not None:
@@ -59,17 +82,7 @@ def post_reel(video: Path, caption: str, share_to_feed: bool = True,
     container_id = r.json()["id"]
     print(f"  container {container_id}")
 
-    # 2) upload bytes
-    data = video.read_bytes()
-    r = httpx.post(f"{RUPLOAD}/{container_id}",
-                   headers={"Authorization": f"OAuth {token}",
-                            "offset": "0", "file_size": str(len(data))},
-                   content=data, timeout=600)
-    if r.status_code != 200 or not r.json().get("success", True):
-        sys.exit(f"upload failed {r.status_code}: {r.text[:400]}")
-    print(f"  uploaded {len(data)//1024//1024}MB")
-
-    # 3) poll processing
+    # 2) poll processing
     for _ in range(60):
         time.sleep(5)
         s = httpx.get(f"{GRAPH}/{container_id}",

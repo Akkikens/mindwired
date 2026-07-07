@@ -1,0 +1,36 @@
+{
+  "slug": "subscribe-kickoffdaily90-long",
+  "title": "kickoffdaily90 — Subscribe Outro (20s, 16:9)",
+  "host": "rio",
+  "channel": "kickoffdaily90",
+  "scenes": [
+    {
+      "id": "ask",
+      "kind": "problem",
+      "start": 0,
+      "end": 8,
+      "voiceover": "If breaking down these games together is worth your time... that actually means everything to a channel like this.",
+      "mainText": "YOU WATCHING MEANS EVERYTHING",
+      "emphasis": ["EVERYTHING"],
+      "kicker": "BEFORE YOU GO",
+      "visualConcept": "host direct address, warm and sincere",
+      "emotionalTone": "confidence",
+      "transitionOut": "cut",
+      "hostClipExists": true
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "start": 8,
+      "end": 20,
+      "voiceover": "Hit subscribe, right now — it costs you nothing, and it's the entire reason kickoffdaily90 keeps covering every match. Subscribe.",
+      "mainText": "HIT SUBSCRIBE — IT COSTS NOTHING",
+      "emphasis": ["SUBSCRIBE"],
+      "kicker": "@KICKOFFDAILY90",
+      "visualConcept": "host CTA, warm close, subscribe pill",
+      "emotionalTone": "confidence",
+      "transitionOut": "none",
+      "hostClipExists": true
+    }
+  ]
+}

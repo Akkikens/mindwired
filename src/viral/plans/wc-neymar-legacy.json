@@ -1,0 +1,230 @@
+{
+  "slug": "wc-neymar-legacy",
+  "title": "Neymar's Last Game Ended in Tears \u2014 Brazil's Earliest Exit Since 1990",
+  "host": "rio",
+  "channel": "kickoffdaily90",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "start": 0,
+      "end": 8,
+      "voiceover": "Brazil's World Cup dream just died \u2014 and their biggest star just played his very last game for the national team.",
+      "mainText": "BRAZIL'S WORLD CUP DREAM JUST DIED",
+      "emphasis": [
+        "JUST DIED"
+      ],
+      "kicker": "NEYMAR'S LAST MATCH",
+      "visualConcept": "cold open",
+      "backgroundPrompt": "A lone footballer walking off a dark stadium pitch under fading floodlights, back turned to camera, somber and final, cinematic painterly illustration, no text, no watermark",
+      "emotionalTone": "shock",
+      "transitionOut": "whip",
+      "hostClipExists": true,
+      "brollExists": true
+    },
+    {
+      "id": "favorites",
+      "kind": "shockfact",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "Brazil came into this tournament as five-time champions and heavy favorites \u2014 a draw with Morocco, then routs of Haiti and Scotland, three goals each.",
+      "mainText": "BRAZIL LOOKED UNSTOPPABLE IN THE GROUP STAGE",
+      "emphasis": [
+        "UNSTOPPABLE"
+      ],
+      "kicker": "5-TIME CHAMPIONS",
+      "visualConcept": "context setup",
+      "backgroundPrompt": "A football team celebrating together on the pitch after a win, yellow and green kits, confident and joyful, cinematic painterly illustration, no text, no watermark",
+      "emotionalTone": "confidence",
+      "transitionOut": "cut",
+      "brollExists": true
+    },
+    {
+      "id": "japan",
+      "kind": "comparison",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "Round of 32: Brazil 2, Japan 1. Still rolling.",
+      "mainText": "BRAZIL 2 - 1 JAPAN",
+      "emphasis": [],
+      "kicker": "ROUND OF 32",
+      "visualConcept": "fixture comparison card",
+      "compare": {
+        "left": "BRAZIL  2",
+        "right": "1  JAPAN",
+        "leftImg": "shorts/_wc-crests/764.svg",
+        "rightImg": "shorts/_wc-crests/766.svg"
+      },
+      "emotionalTone": "confidence",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "score",
+      "kind": "comparison",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "Then, the Round of 16: Brazil 1, Norway 2.",
+      "mainText": "BRAZIL 1 - 2 NORWAY",
+      "emphasis": [],
+      "kicker": "ROUND OF 16 \u2014 JUL 5",
+      "visualConcept": "fixture comparison card",
+      "compare": {
+        "left": "BRAZIL  1",
+        "right": "2  NORWAY",
+        "leftImg": "shorts/_wc-crests/764.svg",
+        "rightImg": "shorts/_wc-crests/813.svg"
+      },
+      "emotionalTone": "shock",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "haaland",
+      "kind": "shockfact",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "Erling Haaland scored both Norway goals \u2014 the 79th minute, then the 90th-minute winner.",
+      "mainText": "HAALAND SCORED TWICE \u2014 INCLUDING THE 90TH MINUTE WINNER",
+      "emphasis": [
+        "TWICE",
+        "90TH MINUTE WINNER"
+      ],
+      "kicker": "79' & 90' \u2014 HAALAND",
+      "visualConcept": "decisive goal moment",
+      "backgroundPrompt": "A footballer in a white and blue kit sprinting in wild celebration after scoring a late winning goal, stadium floodlights, roaring crowd, cinematic painterly illustration, no text, no watermark",
+      "emotionalTone": "excitement",
+      "transitionOut": "cut",
+      "brollExists": true
+    },
+    {
+      "id": "neymar",
+      "kind": "shockfact",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "Neymar pulled one back with a stoppage-time penalty, in the tenth minute of added time \u2014 too little, too late. Then, right after the final whistle, he announced his international retirement.",
+      "mainText": "NEYMAR'S PENALTY CAME TOO LATE \u2014 THEN HE RETIRED",
+      "emphasis": [
+        "TOO LATE",
+        "RETIRED"
+      ],
+      "kicker": "90+10' PEN. \u2014 NEYMAR'S FINAL MATCH",
+      "visualConcept": "emotional final moment",
+      "backgroundPrompt": "A lone footballer in a yellow kit standing on the pitch looking down, head bowed, stadium lights dimming around him, quiet emotional moment after a loss, cinematic painterly illustration, no text, no watermark",
+      "emotionalTone": "awe",
+      "transitionOut": "cut",
+      "brollExists": true
+    },
+    {
+      "id": "history",
+      "kind": "shockfact",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "This is Brazil's earliest World Cup exit since 1990 \u2014 thirty-six years ago.",
+      "mainText": "BRAZIL'S EARLIEST WORLD CUP EXIT SINCE 1990",
+      "emphasis": [
+        "EARLIEST",
+        "1990"
+      ],
+      "kicker": "36 YEARS",
+      "visualConcept": "historical stat card",
+      "emotionalTone": "shock",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "goldenboot",
+      "kind": "data",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "That brace also pulled Haaland level with Messi and Mbapp\u00e9 at the top of the Golden Boot race \u2014 seven goals each.",
+      "mainText": "HAALAND'S BRACE PULLED HIM LEVEL FOR THE GOLDEN BOOT",
+      "emphasis": [
+        "LEVEL"
+      ],
+      "kicker": "GOLDEN BOOT RACE",
+      "visualConcept": "top scorers bar chart",
+      "stat": {
+        "to": 0,
+        "bars": [
+          {
+            "label": "Lionel Messi (ARG)",
+            "value": 7
+          },
+          {
+            "label": "Kylian Mbapp\u00e9 (FRA)",
+            "value": 7
+          },
+          {
+            "label": "Erling Haaland (NOR)",
+            "value": 7
+          }
+        ]
+      },
+      "emotionalTone": "excitement",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "england",
+      "kind": "comparison",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "On the same day, England also advanced \u2014 beating Mexico 3-2 in the Round of 16.",
+      "mainText": "ENGLAND ALSO ADVANCED TODAY",
+      "emphasis": [],
+      "kicker": "ROUND OF 16 \u2014 JUL 6",
+      "visualConcept": "fixture comparison card",
+      "compare": {
+        "left": "MEXICO  2",
+        "right": "3  ENGLAND",
+        "leftImg": "shorts/_wc-crests/769.svg",
+        "rightImg": "shorts/_wc-crests/770.svg"
+      },
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "nextup",
+      "kind": "comparison",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "Which sets up the Quarterfinals: Norway versus England, July 11th.",
+      "mainText": "NORWAY NOW FACES ENGLAND \u2014 QUARTERFINALS, JULY 11",
+      "emphasis": [
+        "ENGLAND"
+      ],
+      "kicker": "QUARTERFINALS \u2014 JUL 11",
+      "visualConcept": "sequel tease",
+      "compare": {
+        "left": "NORWAY",
+        "right": "ENGLAND",
+        "leftImg": "shorts/_wc-crests/813.svg",
+        "rightImg": "shorts/_wc-crests/770.svg"
+      },
+      "emotionalTone": "excitement",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "board": true,
+      "start": 0,
+      "end": 6,
+      "voiceover": "Follow kickoffdaily90 for every World Cup shock as it happens.",
+      "mainText": "FOLLOW FOR EVERY WORLD CUP SHOCK",
+      "emphasis": [
+        "EVERY WORLD CUP SHOCK"
+      ],
+      "kicker": "@KICKOFFDAILY90",
+      "visualConcept": "cta",
+      "emotionalTone": "confidence",
+      "transitionOut": "none"
+    }
+  ]
+}

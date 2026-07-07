@@ -9,11 +9,15 @@ Photoreal recurring presenters for every content lane, lip-synced from a single
 |---|---|---|---|
 | `orion` | space & science docs | `public/host/orion_v4c_4k.png` | George |
 | `sterling` | finance & money | `public/host/sterling_4k.png` | Adam |
-| `rio` | football / World Cup | `public/host/rio_4k.png` | Daniel |
+| `jamie` | football / World Cup (primary, most photoreal, built for Veo) | `public/host/jamie_b.png` | Daniel |
 | `vex` | gaming / GTA VI / tech | `public/host/vex_4k.png` | Brian |
 | `melody` | singaloo kids (animated, lives in ../singaloo/public/host/) | — | (kids voice, TBD) |
 
-A plan JSON activates a host with one field: `"host": "rio"`. The registry
+`rio` (an earlier football host) was retired and fully deleted 2026-07-06 —
+Akshay found Jamie more visually realistic. Use `jamie` for all football
+content going forward.
+
+A plan JSON activates a host with one field: `"host": "jamie"`. The registry
 resolves the image, the TTS voice (Hume description + ElevenLabs name), and the
 Sonic movement intensity (`dynamicScale`).
 
@@ -34,10 +38,10 @@ Sonic movement intensity (`dynamicScale`).
 ```bash
 # new pose for an existing host
 .venv-lipsync/bin/python lipsync/gemini_host.py \
-  --out public/host/rio_celebrating.png --ref public/host/rio.png --aspect 9:16 \
+  --out public/host/jamie_celebrating.png --ref public/host/jamie_b.png --aspect 9:16 \
   --prompt "Use the man in the reference photo — exact same face... now arms raised celebrating"
-.venv-lipsync/bin/python lipsync/upscale.py --image public/host/rio_celebrating.png \
-  --out public/host/rio_celebrating_4k.png --scale 4
+.venv-lipsync/bin/python lipsync/upscale.py --image public/host/jamie_celebrating.png \
+  --out public/host/jamie_celebrating_4k.png --scale 4
 ```
 
 ## Producing a host video (any lane)

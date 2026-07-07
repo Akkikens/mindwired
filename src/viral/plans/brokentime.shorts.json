@@ -1,0 +1,316 @@
+[
+  {
+    "slug": "brokentime",
+    "cutId": "headfeet",
+    "title": "Your head is older than your feet",
+    "host": "orion",
+    "scenes": [
+      {
+        "id": "hook",
+        "kind": "hook",
+        "start": 0,
+        "end": 8,
+        "voiceover": "Your head is aging faster than your feet. Right now. Measured, in a lab. And that is the smallest example of something much darker.",
+        "mainText": "YOUR HEAD IS OLDER THAN YOUR FEET",
+        "emphasis": [
+          "OLDER"
+        ],
+        "kicker": "THIS IS MEASURED, NOT PHILOSOPHY",
+        "visualConcept": "host cold open, quiet dread",
+        "emotionalTone": "shock",
+        "transitionOut": "whip",
+        "hostClipExists": true
+      },
+      {
+        "id": "b-nist",
+        "kind": "data",
+        "board": true,
+        "start": 8,
+        "end": 19,
+        "voiceover": "In twenty ten, physicists at NIST raised one atomic clock just thirty-three centimeters above another. The higher clock ticked faster. Over a seventy-nine year lifetime, your head ages about ninety billionths of a second more than your feet.",
+        "mainText": "33 CM WAS ENOUGH TO BREAK TIME",
+        "emphasis": [
+          "33 CM"
+        ],
+        "kicker": "NIST 2010 — CHOU ET AL., SCIENCE",
+        "visualConcept": "count-up stat slam",
+        "stat": {
+          "to": 90,
+          "suffix": " ns",
+          "label": "YOUR HEAD GAINS THIS OVER A 79-YEAR LIFE"
+        },
+        "emotionalTone": "shock",
+        "transitionOut": "flash"
+      },
+      {
+        "id": "b-jila",
+        "kind": "data",
+        "board": true,
+        "start": 27,
+        "end": 37,
+        "voiceover": "Inside a single cloud of strontium atoms, a clock resolved time running faster across just one millimeter of height. The top of the cloud... aged faster than the bottom.",
+        "mainText": "TIME BENDS ACROSS 1 MILLIMETER",
+        "emphasis": [
+          "1 MILLIMETER"
+        ],
+        "kicker": "BOTHWELL ET AL., NATURE 2022",
+        "visualConcept": "count-up stat slam",
+        "stat": {
+          "to": 1,
+          "suffix": " mm",
+          "label": "SMALLEST DISTANCE TIME DILATION EVER MEASURED"
+        },
+        "emotionalTone": "awe",
+        "transitionOut": "whip"
+      },
+      {
+        "id": "cta",
+        "kind": "cta",
+        "start": 276,
+        "end": 284,
+        "voiceover": "Time isn't one river — it's billions of them, all flowing at different speeds. Subscribe to mindwired... yours is running out.",
+        "mainText": "SUBSCRIBE — YOUR CLOCK IS RUNNING",
+        "emphasis": [
+          "SUBSCRIBE"
+        ],
+        "kicker": "@MINDWIREDD",
+        "visualConcept": "host CTA, warm close",
+        "emotionalTone": "confidence",
+        "transitionOut": "none",
+        "hostClipExists": true
+      }
+    ]
+  },
+  {
+    "slug": "brokentime",
+    "cutId": "earthcore",
+    "title": "Earth's core is 2.5 years younger than the surface",
+    "host": "orion",
+    "scenes": [
+      {
+        "id": "h-core",
+        "kind": "hook",
+        "start": 66,
+        "end": 75,
+        "voiceover": "Now aim that same physics straight down. Because the deeper you go into the Earth... the slower your clock runs.",
+        "mainText": "THE EARTH AGES UNEVENLY",
+        "emphasis": [
+          "UNEVENLY"
+        ],
+        "kicker": "GRAVITY WELLS SLOW CLOCKS",
+        "visualConcept": "host dread building",
+        "emotionalTone": "curiosity",
+        "transitionOut": "cut"
+      },
+      {
+        "id": "b-core",
+        "kind": "data",
+        "board": true,
+        "start": 75,
+        "end": 85,
+        "voiceover": "Over four and a half billion years, gravitational time dilation has made the center of the Earth about two and a half years younger than the ground you are standing on.",
+        "mainText": "THE CORE IS 2.5 YEARS YOUNGER",
+        "emphasis": [
+          "2.5 YEARS"
+        ],
+        "kicker": "UGGERHØJ ET AL., 2016",
+        "visualConcept": "count-up stat slam",
+        "stat": {
+          "to": 2.5,
+          "suffix": " yrs",
+          "label": "YOUNGER THAN THE SURFACE — SAME PLANET"
+        },
+        "emotionalTone": "awe",
+        "transitionOut": "flash"
+      },
+      {
+        "id": "b-feynman",
+        "kind": "quote",
+        "board": true,
+        "start": 85,
+        "end": 95,
+        "voiceover": "Richard Feynman famously guessed the difference was a day or two. He was wrong by a factor of a thousand — and nobody checked the math for over fifty years.",
+        "mainText": "\"A DAY OR TWO\" — WRONG BY 1,000X",
+        "emphasis": [
+          "WRONG BY 1,000X"
+        ],
+        "kicker": "TEXTBOOKS REPEATED IT FOR DECADES",
+        "visualConcept": "pull-quote card, correction",
+        "emotionalTone": "curiosity",
+        "transitionOut": "cut"
+      },
+      {
+        "id": "cta",
+        "kind": "cta",
+        "start": 276,
+        "end": 284,
+        "voiceover": "Time isn't one river — it's billions of them, all flowing at different speeds. Subscribe to mindwired... yours is running out.",
+        "mainText": "SUBSCRIBE — YOUR CLOCK IS RUNNING",
+        "emphasis": [
+          "SUBSCRIBE"
+        ],
+        "kicker": "@MINDWIREDD",
+        "visualConcept": "host CTA, warm close",
+        "emotionalTone": "confidence",
+        "transitionOut": "none",
+        "hostClipExists": true
+      }
+    ]
+  },
+  {
+    "slug": "brokentime",
+    "cutId": "kellytwins",
+    "title": "The astronaut who time-traveled into the future",
+    "host": "orion",
+    "scenes": [
+      {
+        "id": "h-iss",
+        "kind": "hook",
+        "start": 95,
+        "end": 104,
+        "voiceover": "So what happens to an actual human being who leaves the planet? We ran that experiment. With identical twins.",
+        "mainText": "WE TESTED THIS ON TWINS",
+        "emphasis": [
+          "TWINS"
+        ],
+        "kicker": "ONE FLEW. ONE STAYED.",
+        "visualConcept": "host direct address",
+        "emotionalTone": "curiosity",
+        "transitionOut": "cut"
+      },
+      {
+        "id": "b-iss",
+        "kind": "comparison",
+        "board": true,
+        "start": 104,
+        "end": 115,
+        "voiceover": "On the space station, gravity is still nearly full strength — so speed dominates. Orbiting at twenty-eight thousand kilometers per hour slows an astronaut's clock far more than the altitude speeds it up.",
+        "mainText": "IN LOW ORBIT, SPEED BEATS GRAVITY",
+        "emphasis": [
+          "SPEED"
+        ],
+        "kicker": "ASTRONAUTS AGE SLOWER — NOT FASTER",
+        "visualConcept": "physics tug-of-war board",
+        "compare": {
+          "left": "SPEED SLOWS: ~−26 μs/DAY",
+          "right": "ALTITUDE SPEEDS: ~+4 μs/DAY"
+        },
+        "emotionalTone": "confidence",
+        "transitionOut": "cut"
+      },
+      {
+        "id": "b-kelly",
+        "kind": "data",
+        "board": true,
+        "start": 115,
+        "end": 126,
+        "voiceover": "After three hundred forty days in orbit, astronaut Scott Kelly returned about five milliseconds younger than his identical twin brother Mark. He time-traveled. Into the future.",
+        "mainText": "HE CAME BACK 5 MS YOUNGER",
+        "emphasis": [
+          "5 MS YOUNGER"
+        ],
+        "kicker": "SCOTT vs MARK KELLY — 340 DAYS IN ORBIT",
+        "visualConcept": "count-up stat slam",
+        "stat": {
+          "to": 5,
+          "suffix": " ms",
+          "label": "A REAL HUMAN, MEASURABLY TIME-SHIFTED"
+        },
+        "emotionalTone": "shock",
+        "transitionOut": "whip"
+      },
+      {
+        "id": "cta",
+        "kind": "cta",
+        "start": 276,
+        "end": 284,
+        "voiceover": "Time isn't one river — it's billions of them, all flowing at different speeds. Subscribe to mindwired... yours is running out.",
+        "mainText": "SUBSCRIBE — YOUR CLOCK IS RUNNING",
+        "emphasis": [
+          "SUBSCRIBE"
+        ],
+        "kicker": "@MINDWIREDD",
+        "visualConcept": "host CTA, warm close",
+        "emotionalTone": "confidence",
+        "transitionOut": "none",
+        "hostClipExists": true
+      }
+    ]
+  },
+  {
+    "slug": "brokentime",
+    "cutId": "millerplanet",
+    "title": "Could Interstellar's time planet be real?",
+    "host": "orion",
+    "scenes": [
+      {
+        "id": "h-miller",
+        "kind": "hook",
+        "start": 227,
+        "end": 234,
+        "voiceover": "So could Interstellar really happen? One hour on that planet... seven years on Earth. Here's what the physics says.",
+        "mainText": "COULD INTERSTELLAR BE REAL?",
+        "emphasis": [
+          "REAL?"
+        ],
+        "kicker": "MILLER'S PLANET — 1 HOUR = 7 YEARS",
+        "visualConcept": "host knowing-tease",
+        "emotionalTone": "curiosity",
+        "transitionOut": "cut",
+        "hostClipExists": true
+      },
+      {
+        "id": "b-miller",
+        "kind": "comparison",
+        "board": true,
+        "start": 234,
+        "end": 245,
+        "voiceover": "Kip Thorne did the math. It works — but only around a black hole spinning within one part in one hundred trillion of the maximum the universe allows.",
+        "mainText": "1 HOUR THERE = 7 YEARS ON EARTH",
+        "emphasis": [
+          "7 YEARS"
+        ],
+        "kicker": "REQUIRES SPIN WITHIN 1 PART IN 10¹⁴ OF MAXIMAL",
+        "visualConcept": "split reality comparison",
+        "compare": {
+          "left": "MILLER'S PLANET: 1 HOUR",
+          "right": "EARTH: 7 YEARS"
+        },
+        "emotionalTone": "shock",
+        "transitionOut": "whip"
+      },
+      {
+        "id": "b-quote",
+        "kind": "quote",
+        "board": true,
+        "start": 245,
+        "end": 255,
+        "voiceover": "Thorne's own verdict: possible in principle... implausible in nature. The universe allows it. It just probably never built one.",
+        "mainText": "\"POSSIBLE IN PRINCIPLE, IMPLAUSIBLE IN NATURE\"",
+        "emphasis": [
+          "IMPLAUSIBLE"
+        ],
+        "kicker": "KIP THORNE — THE SCIENCE OF INTERSTELLAR",
+        "visualConcept": "pull-quote card",
+        "emotionalTone": "awe",
+        "transitionOut": "flash"
+      },
+      {
+        "id": "cta",
+        "kind": "cta",
+        "start": 276,
+        "end": 284,
+        "voiceover": "Time isn't one river — it's billions of them, all flowing at different speeds. Subscribe to mindwired... yours is running out.",
+        "mainText": "SUBSCRIBE — YOUR CLOCK IS RUNNING",
+        "emphasis": [
+          "SUBSCRIBE"
+        ],
+        "kicker": "@MINDWIREDD",
+        "visualConcept": "host CTA, warm close",
+        "emotionalTone": "confidence",
+        "transitionOut": "none",
+        "hostClipExists": true
+      }
+    ]
+  }
+]

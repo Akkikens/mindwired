@@ -1,0 +1,118 @@
+{
+  "slug": "wc-nextup",
+  "title": "World Cup \u2014 Every Game Still To Come",
+  "host": "jamie",
+  "channel": "kickoffdaily90",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "board": true,
+      "start": 0,
+      "end": 6,
+      "voiceover": "Here's every confirmed World Cup match still to come \u2014 4 games, starting with Argentina versus Egypt.",
+      "mainText": "EVERY GAME STILL TO COME",
+      "emphasis": [
+        "STILL TO COME"
+      ],
+      "kicker": "WORLD CUP 2026",
+      "visualConcept": "host cold open",
+      "emotionalTone": "excitement",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "fx0",
+      "kind": "comparison",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "ROUND OF 16: Argentina against Egypt, Jul 7.",
+      "mainText": "ARGENTINA vs EGYPT",
+      "emphasis": [],
+      "kicker": "ROUND OF 16 \u2014 Jul 7",
+      "visualConcept": "fixture comparison card",
+      "compare": {
+        "left": "ARGENTINA",
+        "right": "EGYPT",
+        "leftImg": "shorts/_wc-crests/762.svg",
+        "rightImg": "shorts/_wc-crests/825.svg"
+      },
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "fx1",
+      "kind": "comparison",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "ROUND OF 16: Switzerland against Colombia, Jul 7.",
+      "mainText": "SWITZERLAND vs COLOMBIA",
+      "emphasis": [],
+      "kicker": "ROUND OF 16 \u2014 Jul 7",
+      "visualConcept": "fixture comparison card",
+      "compare": {
+        "left": "SWITZERLAND",
+        "right": "COLOMBIA",
+        "leftImg": "shorts/_wc-crests/788.svg",
+        "rightImg": "shorts/_wc-crests/818.svg"
+      },
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "fx2",
+      "kind": "comparison",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "QUARTERFINAL: France against Morocco, Jul 9.",
+      "mainText": "FRANCE vs MOROCCO",
+      "emphasis": [],
+      "kicker": "QUARTERFINAL \u2014 Jul 9",
+      "visualConcept": "fixture comparison card",
+      "compare": {
+        "left": "FRANCE",
+        "right": "MOROCCO",
+        "leftImg": "shorts/_wc-crests/773.svg"
+      },
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "fx3",
+      "kind": "comparison",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "QUARTERFINAL: Norway against England, Jul 11.",
+      "mainText": "NORWAY vs ENGLAND",
+      "emphasis": [],
+      "kicker": "QUARTERFINAL \u2014 Jul 11",
+      "visualConcept": "fixture comparison card",
+      "compare": {
+        "left": "NORWAY",
+        "right": "ENGLAND",
+        "rightImg": "shorts/_wc-crests/770.svg"
+      },
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "board": true,
+      "start": 0,
+      "end": 6,
+      "voiceover": "Follow kickoffdaily90 for every result as it happens.",
+      "mainText": "FOLLOW FOR EVERY RESULT",
+      "emphasis": [
+        "EVERY RESULT"
+      ],
+      "kicker": "@KICKOFFDAILY90",
+      "visualConcept": "cta",
+      "emotionalTone": "confidence",
+      "transitionOut": "none"
+    }
+  ]
+}

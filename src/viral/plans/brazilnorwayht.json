@@ -1,0 +1,74 @@
+{
+  "slug": "brazilnorwayht",
+  "title": "Brazil just missed a penalty — still 0-0 vs Norway",
+  "host": "rio",
+  "channel": "kickoffdaily90",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "start": 0,
+      "end": 8,
+      "voiceover": "Brazil just missed a penalty against Norway... and somehow, it's still nil-nil at halftime. Let me walk you through it.",
+      "mainText": "BRAZIL MISSED A PENALTY. STILL 0-0.",
+      "emphasis": ["MISSED A PENALTY."],
+      "kicker": "HALFTIME — METLIFE STADIUM",
+      "visualConcept": "host cold open, disbelief",
+      "emotionalTone": "shock",
+      "transitionOut": "whip",
+      "hostClipExists": true,
+      "backgroundPrompt": "photorealistic wide-angle photo of a packed World Cup football stadium at dusk, stadium lights on, giant crowd in the stands, green pitch below, no visible logos or jerseys with real team crests, cinematic sports broadcast photography, telephoto lens compression, dramatic atmosphere",
+      "brollExists": true
+    },
+    {
+      "id": "penalty",
+      "kind": "shockfact",
+      "board": true,
+      "start": 8,
+      "end": 19,
+      "voiceover": "Early in the first half, VAR overturned the referee's call and awarded Brazil a penalty for a foul in the box. Bruno Guimarães stepped up — his first ever penalty for the national team. Norway's goalkeeper guessed right, and saved it.",
+      "mainText": "GUIMARÃES'S FIRST PENALTY — SAVED",
+      "emphasis": ["SAVED"],
+      "kicker": "VAR-AWARDED — ØRJAN NYLAND GUESSED RIGHT",
+      "visualConcept": "penalty save stat slam",
+      "emotionalTone": "shock",
+      "transitionOut": "cut",
+      "backgroundPrompt": "photorealistic photo of a football goalkeeper in a dramatic diving save to his right during a penalty kick, World Cup stadium background, motion blur on the ball, generic dark goalkeeper kit with no real team logos, cinematic sports photography, low angle, night match lighting",
+      "brollExists": true
+    },
+    {
+      "id": "stillzero",
+      "kind": "data",
+      "board": true,
+      "start": 19,
+      "end": 28,
+      "voiceover": "Erling Haaland has barely touched the ball. Alisson hasn't been seriously tested either. No cards, no injuries — just two teams cancelling each other out, nil-nil at the break.",
+      "mainText": "STILL 0-0 AT THE BREAK",
+      "emphasis": ["0-0"],
+      "kicker": "HAALAND QUIET — ALISSON UNTESTED",
+      "visualConcept": "scoreboard stat slam",
+      "stat": {
+        "to": 0,
+        "label": "GOALS — EITHER SIDE, FIRST HALF"
+      },
+      "emotionalTone": "curiosity",
+      "transitionOut": "whip",
+      "backgroundPrompt": "photorealistic photo of a football stadium scoreboard showing 0-0 at halftime, World Cup atmosphere, floodlights, generic scoreboard with no real team names or logos, cinematic sports broadcast photography",
+      "brollExists": true
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "start": 28,
+      "end": 36,
+      "voiceover": "One missed penalty down. Ninety more minutes to go, and someone's tournament ends today. Follow for the second-half breakdown.",
+      "mainText": "SOMEONE'S TOURNAMENT ENDS TODAY",
+      "emphasis": ["ENDS TODAY"],
+      "kicker": "SECOND HALF — FOLLOW FOR THE UPDATE",
+      "visualConcept": "cta",
+      "emotionalTone": "confidence",
+      "transitionOut": "none",
+      "hostClipExists": true
+    }
+  ]
+}

@@ -1,0 +1,3398 @@
+{
+ "clips": {
+  "hook": {
+   "dur": 8.0,
+   "text": "England are about to walk into the one stadium that beats you before kickoff. Let me introduce you to the invisible opponent of this World Cup.",
+   "words": [
+    {
+     "word": "England",
+     "start": 0.119,
+     "end": 0.439
+    },
+    {
+     "word": "are",
+     "start": 0.459,
+     "end": 0.539
+    },
+    {
+     "word": "about",
+     "start": 0.599,
+     "end": 0.819
+    },
+    {
+     "word": "to",
+     "start": 0.839,
+     "end": 0.979
+    },
+    {
+     "word": "walk",
+     "start": 1.079,
+     "end": 1.199
+    },
+    {
+     "word": "into",
+     "start": 1.279,
+     "end": 1.459
+    },
+    {
+     "word": "the",
+     "start": 1.5,
+     "end": 1.639
+    },
+    {
+     "word": "one",
+     "start": 1.719,
+     "end": 1.899
+    },
+    {
+     "word": "stadium",
+     "start": 1.919,
+     "end": 2.399
+    },
+    {
+     "word": "that",
+     "start": 2.419,
+     "end": 2.659
+    },
+    {
+     "word": "beats",
+     "start": 2.7,
+     "end": 3.0
+    },
+    {
+     "word": "you",
+     "start": 3.001,
+     "end": 3.159
+    },
+    {
+     "word": "before",
+     "start": 3.199,
+     "end": 3.579
+    },
+    {
+     "word": "kickoff.",
+     "start": 3.639,
+     "end": 4.019
+    },
+    {
+     "word": "Let",
+     "start": 4.38,
+     "end": 4.48
+    },
+    {
+     "word": "me",
+     "start": 4.5,
+     "end": 4.579
+    },
+    {
+     "word": "introduce",
+     "start": 4.599,
+     "end": 5.119
+    },
+    {
+     "word": "you",
+     "start": 5.219,
+     "end": 5.279
+    },
+    {
+     "word": "to",
+     "start": 5.28,
+     "end": 5.379
+    },
+    {
+     "word": "the",
+     "start": 5.4,
+     "end": 5.48
+    },
+    {
+     "word": "invisible",
+     "start": 5.519,
+     "end": 6.079
+    },
+    {
+     "word": "opponent",
+     "start": 6.099,
+     "end": 6.599
+    },
+    {
+     "word": "of",
+     "start": 6.639,
+     "end": 6.759
+    },
+    {
+     "word": "this",
+     "start": 6.779,
+     "end": 6.98
+    },
+    {
+     "word": "World",
+     "start": 7.0,
+     "end": 7.259
+    },
+    {
+     "word": "Cup.",
+     "start": 7.279,
+     "end": 7.879
+    }
+   ],
+   "engine": "veo"
+  },
+  "s1": {
+   "dur": 13.44,
+   "text": "Sunday night, eight PM Eastern: Mexico versus England at the Estadio Azteca. And here's the detail that changes everything \u2014 England have not played at the Azteca in forty years.",
+   "words": [
+    {
+     "word": "Sunday",
+     "start": 0.15,
+     "end": 0.636
+    },
+    {
+     "word": "night,",
+     "start": 0.636,
+     "end": 1.146
+    },
+    {
+     "word": "eight",
+     "start": 1.146,
+     "end": 1.389
+    },
+    {
+     "word": "PM",
+     "start": 1.389,
+     "end": 1.632
+    },
+    {
+     "word": "Eastern:",
+     "start": 1.632,
+     "end": 2.118
+    },
+    {
+     "word": "Mexico",
+     "start": 2.118,
+     "end": 2.846
+    },
+    {
+     "word": "versus",
+     "start": 2.846,
+     "end": 3.332
+    },
+    {
+     "word": "England",
+     "start": 3.332,
+     "end": 3.818
+    },
+    {
+     "word": "at",
+     "start": 3.818,
+     "end": 4.061
+    },
+    {
+     "word": "the",
+     "start": 4.061,
+     "end": 4.304
+    },
+    {
+     "word": "Estadio",
+     "start": 4.304,
+     "end": 5.032
+    },
+    {
+     "word": "Azteca.",
+     "start": 5.032,
+     "end": 6.028
+    },
+    {
+     "word": "And",
+     "start": 6.028,
+     "end": 6.271
+    },
+    {
+     "word": "here's",
+     "start": 6.271,
+     "end": 6.757
+    },
+    {
+     "word": "the",
+     "start": 6.757,
+     "end": 7.0
+    },
+    {
+     "word": "detail",
+     "start": 7.0,
+     "end": 7.486
+    },
+    {
+     "word": "that",
+     "start": 7.486,
+     "end": 7.729
+    },
+    {
+     "word": "changes",
+     "start": 7.729,
+     "end": 8.215
+    },
+    {
+     "word": "everything",
+     "start": 8.215,
+     "end": 9.186
+    },
+    {
+     "word": "\u2014",
+     "start": 9.186,
+     "end": 9.429
+    },
+    {
+     "word": "England",
+     "start": 9.429,
+     "end": 9.915
+    },
+    {
+     "word": "have",
+     "start": 9.915,
+     "end": 10.401
+    },
+    {
+     "word": "not",
+     "start": 10.401,
+     "end": 10.644
+    },
+    {
+     "word": "played",
+     "start": 10.644,
+     "end": 10.887
+    },
+    {
+     "word": "at",
+     "start": 10.887,
+     "end": 11.13
+    },
+    {
+     "word": "the",
+     "start": 11.13,
+     "end": 11.372
+    },
+    {
+     "word": "Azteca",
+     "start": 11.372,
+     "end": 12.101
+    },
+    {
+     "word": "in",
+     "start": 12.101,
+     "end": 12.344
+    },
+    {
+     "word": "forty",
+     "start": 12.344,
+     "end": 12.83
+    },
+    {
+     "word": "years.",
+     "start": 12.83,
+     "end": 13.34
+    }
+   ]
+  },
+  "s2": {
+   "dur": 15.24,
+   "text": "The last time they did? June 1986. A quarterfinal against Argentina. A little hand went up above Peter Shilton... and football changed forever.",
+   "words": [
+    {
+     "word": "The",
+     "start": 0.15,
+     "end": 0.472
+    },
+    {
+     "word": "last",
+     "start": 0.472,
+     "end": 0.795
+    },
+    {
+     "word": "time",
+     "start": 0.795,
+     "end": 1.439
+    },
+    {
+     "word": "they",
+     "start": 1.439,
+     "end": 1.762
+    },
+    {
+     "word": "did?",
+     "start": 1.762,
+     "end": 2.439
+    },
+    {
+     "word": "June",
+     "start": 2.439,
+     "end": 3.084
+    },
+    {
+     "word": "1986.",
+     "start": 3.084,
+     "end": 3.76
+    },
+    {
+     "word": "A",
+     "start": 3.76,
+     "end": 4.083
+    },
+    {
+     "word": "quarterfinal",
+     "start": 4.083,
+     "end": 5.372
+    },
+    {
+     "word": "against",
+     "start": 5.372,
+     "end": 6.017
+    },
+    {
+     "word": "Argentina.",
+     "start": 6.017,
+     "end": 7.661
+    },
+    {
+     "word": "A",
+     "start": 7.661,
+     "end": 7.983
+    },
+    {
+     "word": "little",
+     "start": 7.983,
+     "end": 8.628
+    },
+    {
+     "word": "hand",
+     "start": 8.628,
+     "end": 8.951
+    },
+    {
+     "word": "went",
+     "start": 8.951,
+     "end": 9.273
+    },
+    {
+     "word": "up",
+     "start": 9.273,
+     "end": 9.595
+    },
+    {
+     "word": "above",
+     "start": 9.595,
+     "end": 10.562
+    },
+    {
+     "word": "Peter",
+     "start": 10.562,
+     "end": 11.207
+    },
+    {
+     "word": "Shilton...",
+     "start": 11.207,
+     "end": 12.206
+    },
+    {
+     "word": "and",
+     "start": 12.206,
+     "end": 12.529
+    },
+    {
+     "word": "football",
+     "start": 12.529,
+     "end": 13.174
+    },
+    {
+     "word": "changed",
+     "start": 13.174,
+     "end": 13.818
+    },
+    {
+     "word": "forever.",
+     "start": 13.818,
+     "end": 15.14
+    }
+   ]
+  },
+  "s3": {
+   "dur": 13.032,
+   "text": "A little with the head of Maradona... and a little with the hand of God. Forty years later, England finally walk back into that building.",
+   "words": [
+    {
+     "word": "A",
+     "start": 0.15,
+     "end": 0.459
+    },
+    {
+     "word": "little",
+     "start": 0.459,
+     "end": 1.076
+    },
+    {
+     "word": "with",
+     "start": 1.076,
+     "end": 1.385
+    },
+    {
+     "word": "the",
+     "start": 1.385,
+     "end": 1.694
+    },
+    {
+     "word": "head",
+     "start": 1.694,
+     "end": 2.002
+    },
+    {
+     "word": "of",
+     "start": 2.002,
+     "end": 2.311
+    },
+    {
+     "word": "Maradona...",
+     "start": 2.311,
+     "end": 3.886
+    },
+    {
+     "word": "and",
+     "start": 3.886,
+     "end": 4.195
+    },
+    {
+     "word": "a",
+     "start": 4.195,
+     "end": 4.503
+    },
+    {
+     "word": "little",
+     "start": 4.503,
+     "end": 5.121
+    },
+    {
+     "word": "with",
+     "start": 5.121,
+     "end": 5.43
+    },
+    {
+     "word": "the",
+     "start": 5.43,
+     "end": 5.738
+    },
+    {
+     "word": "hand",
+     "start": 5.738,
+     "end": 6.047
+    },
+    {
+     "word": "of",
+     "start": 6.047,
+     "end": 6.356
+    },
+    {
+     "word": "God.",
+     "start": 6.356,
+     "end": 7.004
+    },
+    {
+     "word": "Forty",
+     "start": 7.004,
+     "end": 7.622
+    },
+    {
+     "word": "years",
+     "start": 7.622,
+     "end": 7.93
+    },
+    {
+     "word": "later,",
+     "start": 7.93,
+     "end": 8.887
+    },
+    {
+     "word": "England",
+     "start": 8.887,
+     "end": 9.505
+    },
+    {
+     "word": "finally",
+     "start": 9.505,
+     "end": 10.431
+    },
+    {
+     "word": "walk",
+     "start": 10.431,
+     "end": 10.74
+    },
+    {
+     "word": "back",
+     "start": 10.74,
+     "end": 11.049
+    },
+    {
+     "word": "into",
+     "start": 11.049,
+     "end": 11.666
+    },
+    {
+     "word": "that",
+     "start": 11.666,
+     "end": 11.975
+    },
+    {
+     "word": "building.",
+     "start": 11.975,
+     "end": 12.932
+    }
+   ]
+  },
+  "a1": {
+   "dur": 17.64,
+   "text": "So what makes the Azteca different from every other stadium at this World Cup? Start with this number: two thousand two hundred and forty metres above sea level. The highest venue of the tournament.",
+   "words": [
+    {
+     "word": "So",
+     "start": 0.15,
+     "end": 0.448
+    },
+    {
+     "word": "what",
+     "start": 0.448,
+     "end": 0.747
+    },
+    {
+     "word": "makes",
+     "start": 0.747,
+     "end": 1.343
+    },
+    {
+     "word": "the",
+     "start": 1.343,
+     "end": 1.641
+    },
+    {
+     "word": "Azteca",
+     "start": 1.641,
+     "end": 2.536
+    },
+    {
+     "word": "different",
+     "start": 2.536,
+     "end": 3.431
+    },
+    {
+     "word": "from",
+     "start": 3.431,
+     "end": 3.729
+    },
+    {
+     "word": "every",
+     "start": 3.729,
+     "end": 4.624
+    },
+    {
+     "word": "other",
+     "start": 4.624,
+     "end": 5.221
+    },
+    {
+     "word": "stadium",
+     "start": 5.221,
+     "end": 5.817
+    },
+    {
+     "word": "at",
+     "start": 5.817,
+     "end": 6.116
+    },
+    {
+     "word": "this",
+     "start": 6.116,
+     "end": 6.414
+    },
+    {
+     "word": "World",
+     "start": 6.414,
+     "end": 6.712
+    },
+    {
+     "word": "Cup?",
+     "start": 6.712,
+     "end": 7.339
+    },
+    {
+     "word": "Start",
+     "start": 7.339,
+     "end": 7.637
+    },
+    {
+     "word": "with",
+     "start": 7.637,
+     "end": 7.935
+    },
+    {
+     "word": "this",
+     "start": 7.935,
+     "end": 8.234
+    },
+    {
+     "word": "number:",
+     "start": 8.234,
+     "end": 8.83
+    },
+    {
+     "word": "two",
+     "start": 8.83,
+     "end": 9.128
+    },
+    {
+     "word": "thousand",
+     "start": 9.128,
+     "end": 9.725
+    },
+    {
+     "word": "two",
+     "start": 9.725,
+     "end": 10.023
+    },
+    {
+     "word": "hundred",
+     "start": 10.023,
+     "end": 10.62
+    },
+    {
+     "word": "and",
+     "start": 10.62,
+     "end": 10.918
+    },
+    {
+     "word": "forty",
+     "start": 10.918,
+     "end": 11.515
+    },
+    {
+     "word": "metres",
+     "start": 11.515,
+     "end": 12.111
+    },
+    {
+     "word": "above",
+     "start": 12.111,
+     "end": 13.006
+    },
+    {
+     "word": "sea",
+     "start": 13.006,
+     "end": 13.304
+    },
+    {
+     "word": "level.",
+     "start": 13.304,
+     "end": 14.229
+    },
+    {
+     "word": "The",
+     "start": 14.229,
+     "end": 14.527
+    },
+    {
+     "word": "highest",
+     "start": 14.527,
+     "end": 15.124
+    },
+    {
+     "word": "venue",
+     "start": 15.124,
+     "end": 15.72
+    },
+    {
+     "word": "of",
+     "start": 15.72,
+     "end": 16.019
+    },
+    {
+     "word": "the",
+     "start": 16.019,
+     "end": 16.317
+    },
+    {
+     "word": "tournament.",
+     "start": 16.317,
+     "end": 17.54
+    }
+   ]
+  },
+  "a2": {
+   "dur": 17.472,
+   "text": "Up there, every breath delivers about a fifth less oxygen than at sea level. Your heart races. You fatigue faster. You recover slower. And there is nothing you can do about it in real time.",
+   "words": [
+    {
+     "word": "Up",
+     "start": 0.15,
+     "end": 0.43
+    },
+    {
+     "word": "there,",
+     "start": 0.43,
+     "end": 1.296
+    },
+    {
+     "word": "every",
+     "start": 1.296,
+     "end": 2.135
+    },
+    {
+     "word": "breath",
+     "start": 2.135,
+     "end": 2.415
+    },
+    {
+     "word": "delivers",
+     "start": 2.415,
+     "end": 3.253
+    },
+    {
+     "word": "about",
+     "start": 3.253,
+     "end": 3.812
+    },
+    {
+     "word": "a",
+     "start": 3.812,
+     "end": 4.092
+    },
+    {
+     "word": "fifth",
+     "start": 4.092,
+     "end": 4.372
+    },
+    {
+     "word": "less",
+     "start": 4.372,
+     "end": 4.651
+    },
+    {
+     "word": "oxygen",
+     "start": 4.651,
+     "end": 5.49
+    },
+    {
+     "word": "than",
+     "start": 5.49,
+     "end": 5.77
+    },
+    {
+     "word": "at",
+     "start": 5.77,
+     "end": 6.049
+    },
+    {
+     "word": "sea",
+     "start": 6.049,
+     "end": 6.329
+    },
+    {
+     "word": "level.",
+     "start": 6.329,
+     "end": 7.195
+    },
+    {
+     "word": "Your",
+     "start": 7.195,
+     "end": 7.475
+    },
+    {
+     "word": "heart",
+     "start": 7.475,
+     "end": 7.755
+    },
+    {
+     "word": "races.",
+     "start": 7.755,
+     "end": 8.621
+    },
+    {
+     "word": "You",
+     "start": 8.621,
+     "end": 8.901
+    },
+    {
+     "word": "fatigue",
+     "start": 8.901,
+     "end": 9.74
+    },
+    {
+     "word": "faster.",
+     "start": 9.74,
+     "end": 10.606
+    },
+    {
+     "word": "You",
+     "start": 10.606,
+     "end": 10.886
+    },
+    {
+     "word": "recover",
+     "start": 10.886,
+     "end": 11.725
+    },
+    {
+     "word": "slower.",
+     "start": 11.725,
+     "end": 12.591
+    },
+    {
+     "word": "And",
+     "start": 12.591,
+     "end": 12.871
+    },
+    {
+     "word": "there",
+     "start": 12.871,
+     "end": 13.43
+    },
+    {
+     "word": "is",
+     "start": 13.43,
+     "end": 13.71
+    },
+    {
+     "word": "nothing",
+     "start": 13.71,
+     "end": 14.269
+    },
+    {
+     "word": "you",
+     "start": 14.269,
+     "end": 14.548
+    },
+    {
+     "word": "can",
+     "start": 14.548,
+     "end": 14.828
+    },
+    {
+     "word": "do",
+     "start": 14.828,
+     "end": 15.107
+    },
+    {
+     "word": "about",
+     "start": 15.107,
+     "end": 15.667
+    },
+    {
+     "word": "it",
+     "start": 15.667,
+     "end": 15.946
+    },
+    {
+     "word": "in",
+     "start": 15.946,
+     "end": 16.226
+    },
+    {
+     "word": "real",
+     "start": 16.226,
+     "end": 16.505
+    },
+    {
+     "word": "time.",
+     "start": 16.505,
+     "end": 17.372
+    }
+   ]
+  },
+  "a3": {
+   "dur": 18.816,
+   "text": "The ball changes too. In thinner air it flies faster, swerves less \u2014 analysts estimate long passes travel around five yards further than players' instincts expect. Goalkeepers hate this place.",
+   "words": [
+    {
+     "word": "The",
+     "start": 0.15,
+     "end": 0.491
+    },
+    {
+     "word": "ball",
+     "start": 0.491,
+     "end": 0.833
+    },
+    {
+     "word": "changes",
+     "start": 0.833,
+     "end": 1.515
+    },
+    {
+     "word": "too.",
+     "start": 1.515,
+     "end": 2.232
+    },
+    {
+     "word": "In",
+     "start": 2.232,
+     "end": 2.573
+    },
+    {
+     "word": "thinner",
+     "start": 2.573,
+     "end": 3.256
+    },
+    {
+     "word": "air",
+     "start": 3.256,
+     "end": 3.597
+    },
+    {
+     "word": "it",
+     "start": 3.597,
+     "end": 3.938
+    },
+    {
+     "word": "flies",
+     "start": 3.938,
+     "end": 4.28
+    },
+    {
+     "word": "faster,",
+     "start": 4.28,
+     "end": 5.338
+    },
+    {
+     "word": "swerves",
+     "start": 5.338,
+     "end": 6.02
+    },
+    {
+     "word": "less",
+     "start": 6.02,
+     "end": 6.361
+    },
+    {
+     "word": "\u2014",
+     "start": 6.361,
+     "end": 6.703
+    },
+    {
+     "word": "analysts",
+     "start": 6.703,
+     "end": 7.727
+    },
+    {
+     "word": "estimate",
+     "start": 7.727,
+     "end": 9.092
+    },
+    {
+     "word": "long",
+     "start": 9.092,
+     "end": 9.433
+    },
+    {
+     "word": "passes",
+     "start": 9.433,
+     "end": 10.116
+    },
+    {
+     "word": "travel",
+     "start": 10.116,
+     "end": 10.798
+    },
+    {
+     "word": "around",
+     "start": 10.798,
+     "end": 11.481
+    },
+    {
+     "word": "five",
+     "start": 11.481,
+     "end": 12.163
+    },
+    {
+     "word": "yards",
+     "start": 12.163,
+     "end": 12.505
+    },
+    {
+     "word": "further",
+     "start": 12.505,
+     "end": 13.187
+    },
+    {
+     "word": "than",
+     "start": 13.187,
+     "end": 13.528
+    },
+    {
+     "word": "players'",
+     "start": 13.528,
+     "end": 13.87
+    },
+    {
+     "word": "instincts",
+     "start": 13.87,
+     "end": 14.552
+    },
+    {
+     "word": "expect.",
+     "start": 14.552,
+     "end": 15.61
+    },
+    {
+     "word": "Goalkeepers",
+     "start": 15.61,
+     "end": 16.634
+    },
+    {
+     "word": "hate",
+     "start": 16.634,
+     "end": 17.317
+    },
+    {
+     "word": "this",
+     "start": 17.317,
+     "end": 17.658
+    },
+    {
+     "word": "place.",
+     "start": 17.658,
+     "end": 18.716
+    }
+   ]
+  },
+  "a4": {
+   "dur": 12.576,
+   "text": "Here's the brutal maths: full altitude acclimatisation takes about ten days. England landed in Mexico City with roughly two. You cannot cheat physiology.",
+   "words": [
+    {
+     "word": "Here's",
+     "start": 0.15,
+     "end": 0.66
+    },
+    {
+     "word": "the",
+     "start": 0.66,
+     "end": 0.916
+    },
+    {
+     "word": "brutal",
+     "start": 0.916,
+     "end": 1.426
+    },
+    {
+     "word": "maths:",
+     "start": 1.426,
+     "end": 1.681
+    },
+    {
+     "word": "full",
+     "start": 1.681,
+     "end": 1.936
+    },
+    {
+     "word": "altitude",
+     "start": 1.936,
+     "end": 2.957
+    },
+    {
+     "word": "acclimatisation",
+     "start": 2.957,
+     "end": 4.488
+    },
+    {
+     "word": "takes",
+     "start": 4.488,
+     "end": 4.999
+    },
+    {
+     "word": "about",
+     "start": 4.999,
+     "end": 5.509
+    },
+    {
+     "word": "ten",
+     "start": 5.509,
+     "end": 5.764
+    },
+    {
+     "word": "days.",
+     "start": 5.764,
+     "end": 6.3
+    },
+    {
+     "word": "England",
+     "start": 6.3,
+     "end": 6.811
+    },
+    {
+     "word": "landed",
+     "start": 6.811,
+     "end": 7.321
+    },
+    {
+     "word": "in",
+     "start": 7.321,
+     "end": 7.576
+    },
+    {
+     "word": "Mexico",
+     "start": 7.576,
+     "end": 8.342
+    },
+    {
+     "word": "City",
+     "start": 8.342,
+     "end": 8.852
+    },
+    {
+     "word": "with",
+     "start": 8.852,
+     "end": 9.107
+    },
+    {
+     "word": "roughly",
+     "start": 9.107,
+     "end": 9.618
+    },
+    {
+     "word": "two.",
+     "start": 9.618,
+     "end": 10.154
+    },
+    {
+     "word": "You",
+     "start": 10.154,
+     "end": 10.409
+    },
+    {
+     "word": "cannot",
+     "start": 10.409,
+     "end": 10.919
+    },
+    {
+     "word": "cheat",
+     "start": 10.919,
+     "end": 11.174
+    },
+    {
+     "word": "physiology.",
+     "start": 11.174,
+     "end": 12.476
+    }
+   ]
+  },
+  "a5": {
+   "dur": 14.976,
+   "text": "Don't take my word for it. Thomas Tuchel said it himself: we cannot physically adapt to it in four days \u2014 it's just impossible. He called the altitude a huge advantage for Mexico.",
+   "words": [
+    {
+     "word": "Don't",
+     "start": 0.15,
+     "end": 0.403
+    },
+    {
+     "word": "take",
+     "start": 0.403,
+     "end": 0.908
+    },
+    {
+     "word": "my",
+     "start": 0.908,
+     "end": 1.16
+    },
+    {
+     "word": "word",
+     "start": 1.16,
+     "end": 1.413
+    },
+    {
+     "word": "for",
+     "start": 1.413,
+     "end": 1.666
+    },
+    {
+     "word": "it.",
+     "start": 1.666,
+     "end": 2.196
+    },
+    {
+     "word": "Thomas",
+     "start": 2.196,
+     "end": 2.701
+    },
+    {
+     "word": "Tuchel",
+     "start": 2.701,
+     "end": 3.206
+    },
+    {
+     "word": "said",
+     "start": 3.206,
+     "end": 3.459
+    },
+    {
+     "word": "it",
+     "start": 3.459,
+     "end": 3.712
+    },
+    {
+     "word": "himself:",
+     "start": 3.712,
+     "end": 4.217
+    },
+    {
+     "word": "we",
+     "start": 4.217,
+     "end": 4.469
+    },
+    {
+     "word": "cannot",
+     "start": 4.469,
+     "end": 4.974
+    },
+    {
+     "word": "physically",
+     "start": 4.974,
+     "end": 5.985
+    },
+    {
+     "word": "adapt",
+     "start": 5.985,
+     "end": 6.49
+    },
+    {
+     "word": "to",
+     "start": 6.49,
+     "end": 6.743
+    },
+    {
+     "word": "it",
+     "start": 6.743,
+     "end": 6.995
+    },
+    {
+     "word": "in",
+     "start": 6.995,
+     "end": 7.248
+    },
+    {
+     "word": "four",
+     "start": 7.248,
+     "end": 7.5
+    },
+    {
+     "word": "days",
+     "start": 7.5,
+     "end": 7.753
+    },
+    {
+     "word": "\u2014",
+     "start": 7.753,
+     "end": 8.006
+    },
+    {
+     "word": "it's",
+     "start": 8.006,
+     "end": 8.258
+    },
+    {
+     "word": "just",
+     "start": 8.258,
+     "end": 8.511
+    },
+    {
+     "word": "impossible.",
+     "start": 8.511,
+     "end": 9.799
+    },
+    {
+     "word": "He",
+     "start": 9.799,
+     "end": 10.052
+    },
+    {
+     "word": "called",
+     "start": 10.052,
+     "end": 10.557
+    },
+    {
+     "word": "the",
+     "start": 10.557,
+     "end": 10.809
+    },
+    {
+     "word": "altitude",
+     "start": 10.809,
+     "end": 11.82
+    },
+    {
+     "word": "a",
+     "start": 11.82,
+     "end": 12.072
+    },
+    {
+     "word": "huge",
+     "start": 12.072,
+     "end": 12.577
+    },
+    {
+     "word": "advantage",
+     "start": 12.577,
+     "end": 13.588
+    },
+    {
+     "word": "for",
+     "start": 13.588,
+     "end": 13.84
+    },
+    {
+     "word": "Mexico.",
+     "start": 13.84,
+     "end": 14.876
+    }
+   ]
+  },
+  "a6": {
+   "dur": 15.048,
+   "text": "And Mexico's boss Javier Aguirre? Asked about his altitude edge, he shrugged: I really do not focus on that. Of course he doesn't. His squad plays up here every single week.",
+   "words": [
+    {
+     "word": "And",
+     "start": 0.15,
+     "end": 0.417
+    },
+    {
+     "word": "Mexico's",
+     "start": 0.417,
+     "end": 1.217
+    },
+    {
+     "word": "boss",
+     "start": 1.217,
+     "end": 1.483
+    },
+    {
+     "word": "Javier",
+     "start": 1.483,
+     "end": 2.016
+    },
+    {
+     "word": "Aguirre?",
+     "start": 2.016,
+     "end": 3.11
+    },
+    {
+     "word": "Asked",
+     "start": 3.11,
+     "end": 3.643
+    },
+    {
+     "word": "about",
+     "start": 3.643,
+     "end": 4.176
+    },
+    {
+     "word": "his",
+     "start": 4.176,
+     "end": 4.443
+    },
+    {
+     "word": "altitude",
+     "start": 4.443,
+     "end": 5.509
+    },
+    {
+     "word": "edge,",
+     "start": 5.509,
+     "end": 6.336
+    },
+    {
+     "word": "he",
+     "start": 6.336,
+     "end": 6.602
+    },
+    {
+     "word": "shrugged:",
+     "start": 6.602,
+     "end": 7.136
+    },
+    {
+     "word": "I",
+     "start": 7.136,
+     "end": 7.402
+    },
+    {
+     "word": "really",
+     "start": 7.402,
+     "end": 7.936
+    },
+    {
+     "word": "do",
+     "start": 7.936,
+     "end": 8.202
+    },
+    {
+     "word": "not",
+     "start": 8.202,
+     "end": 8.469
+    },
+    {
+     "word": "focus",
+     "start": 8.469,
+     "end": 9.002
+    },
+    {
+     "word": "on",
+     "start": 9.002,
+     "end": 9.269
+    },
+    {
+     "word": "that.",
+     "start": 9.269,
+     "end": 9.829
+    },
+    {
+     "word": "Of",
+     "start": 9.829,
+     "end": 10.095
+    },
+    {
+     "word": "course",
+     "start": 10.095,
+     "end": 10.629
+    },
+    {
+     "word": "he",
+     "start": 10.629,
+     "end": 10.895
+    },
+    {
+     "word": "doesn't.",
+     "start": 10.895,
+     "end": 11.455
+    },
+    {
+     "word": "His",
+     "start": 11.455,
+     "end": 11.722
+    },
+    {
+     "word": "squad",
+     "start": 11.722,
+     "end": 11.988
+    },
+    {
+     "word": "plays",
+     "start": 11.988,
+     "end": 12.255
+    },
+    {
+     "word": "up",
+     "start": 12.255,
+     "end": 12.522
+    },
+    {
+     "word": "here",
+     "start": 12.522,
+     "end": 13.055
+    },
+    {
+     "word": "every",
+     "start": 13.055,
+     "end": 13.855
+    },
+    {
+     "word": "single",
+     "start": 13.855,
+     "end": 14.388
+    },
+    {
+     "word": "week.",
+     "start": 14.388,
+     "end": 14.948
+    }
+   ]
+  },
+  "f1": {
+   "dur": 14.4,
+   "text": "Now add the fortress on top of the physics. Mexico are unbeaten in their last twenty-two competitive matches at the Azteca. Sixteen wins, six draws.",
+   "words": [
+    {
+     "word": "Now",
+     "start": 0.15,
+     "end": 0.455
+    },
+    {
+     "word": "add",
+     "start": 0.455,
+     "end": 0.76
+    },
+    {
+     "word": "the",
+     "start": 0.76,
+     "end": 1.065
+    },
+    {
+     "word": "fortress",
+     "start": 1.065,
+     "end": 1.675
+    },
+    {
+     "word": "on",
+     "start": 1.675,
+     "end": 1.98
+    },
+    {
+     "word": "top",
+     "start": 1.98,
+     "end": 2.285
+    },
+    {
+     "word": "of",
+     "start": 2.285,
+     "end": 2.59
+    },
+    {
+     "word": "the",
+     "start": 2.59,
+     "end": 2.895
+    },
+    {
+     "word": "physics.",
+     "start": 2.895,
+     "end": 3.84
+    },
+    {
+     "word": "Mexico",
+     "start": 3.84,
+     "end": 4.755
+    },
+    {
+     "word": "are",
+     "start": 4.755,
+     "end": 5.365
+    },
+    {
+     "word": "unbeaten",
+     "start": 5.365,
+     "end": 6.28
+    },
+    {
+     "word": "in",
+     "start": 6.28,
+     "end": 6.585
+    },
+    {
+     "word": "their",
+     "start": 6.585,
+     "end": 6.89
+    },
+    {
+     "word": "last",
+     "start": 6.89,
+     "end": 7.195
+    },
+    {
+     "word": "twenty-two",
+     "start": 7.195,
+     "end": 8.109
+    },
+    {
+     "word": "competitive",
+     "start": 8.109,
+     "end": 9.634
+    },
+    {
+     "word": "matches",
+     "start": 9.634,
+     "end": 10.244
+    },
+    {
+     "word": "at",
+     "start": 10.244,
+     "end": 10.549
+    },
+    {
+     "word": "the",
+     "start": 10.549,
+     "end": 10.854
+    },
+    {
+     "word": "Azteca.",
+     "start": 10.854,
+     "end": 12.104
+    },
+    {
+     "word": "Sixteen",
+     "start": 12.104,
+     "end": 12.714
+    },
+    {
+     "word": "wins,",
+     "start": 12.714,
+     "end": 13.355
+    },
+    {
+     "word": "six",
+     "start": 13.355,
+     "end": 13.66
+    },
+    {
+     "word": "draws.",
+     "start": 13.66,
+     "end": 14.3
+    }
+   ]
+  },
+  "f2": {
+   "dur": 12.408,
+   "text": "And in World Cup matches at this stadium \u2014 across every tournament ever hosted here \u2014 Mexico have never lost. Not once.",
+   "words": [
+    {
+     "word": "And",
+     "start": 0.15,
+     "end": 0.46
+    },
+    {
+     "word": "in",
+     "start": 0.46,
+     "end": 0.77
+    },
+    {
+     "word": "World",
+     "start": 0.77,
+     "end": 1.08
+    },
+    {
+     "word": "Cup",
+     "start": 1.08,
+     "end": 1.391
+    },
+    {
+     "word": "matches",
+     "start": 1.391,
+     "end": 2.011
+    },
+    {
+     "word": "at",
+     "start": 2.011,
+     "end": 2.321
+    },
+    {
+     "word": "this",
+     "start": 2.321,
+     "end": 2.631
+    },
+    {
+     "word": "stadium",
+     "start": 2.631,
+     "end": 3.252
+    },
+    {
+     "word": "\u2014",
+     "start": 3.252,
+     "end": 3.562
+    },
+    {
+     "word": "across",
+     "start": 3.562,
+     "end": 4.182
+    },
+    {
+     "word": "every",
+     "start": 4.182,
+     "end": 5.112
+    },
+    {
+     "word": "tournament",
+     "start": 5.112,
+     "end": 6.043
+    },
+    {
+     "word": "ever",
+     "start": 6.043,
+     "end": 6.663
+    },
+    {
+     "word": "hosted",
+     "start": 6.663,
+     "end": 7.284
+    },
+    {
+     "word": "here",
+     "start": 7.284,
+     "end": 7.904
+    },
+    {
+     "word": "\u2014",
+     "start": 7.904,
+     "end": 8.214
+    },
+    {
+     "word": "Mexico",
+     "start": 8.214,
+     "end": 9.144
+    },
+    {
+     "word": "have",
+     "start": 9.144,
+     "end": 9.765
+    },
+    {
+     "word": "never",
+     "start": 9.765,
+     "end": 10.385
+    },
+    {
+     "word": "lost.",
+     "start": 10.385,
+     "end": 11.036
+    },
+    {
+     "word": "Not",
+     "start": 11.036,
+     "end": 11.347
+    },
+    {
+     "word": "once.",
+     "start": 11.347,
+     "end": 12.308
+    }
+   ]
+  },
+  "f3": {
+   "dur": 16.656,
+   "text": "This tournament? Four matches at the Azteca, four wins, zero goals conceded. South Africa, South Korea, Czechia, and Ecuador in the knockouts \u2014 nobody has scored on Mexico in this building.",
+   "words": [
+    {
+     "word": "This",
+     "start": 0.15,
+     "end": 0.42
+    },
+    {
+     "word": "tournament?",
+     "start": 0.42,
+     "end": 1.526
+    },
+    {
+     "word": "Four",
+     "start": 1.526,
+     "end": 1.796
+    },
+    {
+     "word": "matches",
+     "start": 1.796,
+     "end": 2.336
+    },
+    {
+     "word": "at",
+     "start": 2.336,
+     "end": 2.606
+    },
+    {
+     "word": "the",
+     "start": 2.606,
+     "end": 2.875
+    },
+    {
+     "word": "Azteca,",
+     "start": 2.875,
+     "end": 3.982
+    },
+    {
+     "word": "four",
+     "start": 3.982,
+     "end": 4.252
+    },
+    {
+     "word": "wins,",
+     "start": 4.252,
+     "end": 4.818
+    },
+    {
+     "word": "zero",
+     "start": 4.818,
+     "end": 5.358
+    },
+    {
+     "word": "goals",
+     "start": 5.358,
+     "end": 5.628
+    },
+    {
+     "word": "conceded.",
+     "start": 5.628,
+     "end": 6.734
+    },
+    {
+     "word": "South",
+     "start": 6.734,
+     "end": 7.004
+    },
+    {
+     "word": "Africa,",
+     "start": 7.004,
+     "end": 8.11
+    },
+    {
+     "word": "South",
+     "start": 8.11,
+     "end": 8.38
+    },
+    {
+     "word": "Korea,",
+     "start": 8.38,
+     "end": 9.216
+    },
+    {
+     "word": "Czechia,",
+     "start": 9.216,
+     "end": 10.053
+    },
+    {
+     "word": "and",
+     "start": 10.053,
+     "end": 10.323
+    },
+    {
+     "word": "Ecuador",
+     "start": 10.323,
+     "end": 11.132
+    },
+    {
+     "word": "in",
+     "start": 11.132,
+     "end": 11.402
+    },
+    {
+     "word": "the",
+     "start": 11.402,
+     "end": 11.672
+    },
+    {
+     "word": "knockouts",
+     "start": 11.672,
+     "end": 12.212
+    },
+    {
+     "word": "\u2014",
+     "start": 12.212,
+     "end": 12.481
+    },
+    {
+     "word": "nobody",
+     "start": 12.481,
+     "end": 13.291
+    },
+    {
+     "word": "has",
+     "start": 13.291,
+     "end": 13.561
+    },
+    {
+     "word": "scored",
+     "start": 13.561,
+     "end": 14.1
+    },
+    {
+     "word": "on",
+     "start": 14.1,
+     "end": 14.37
+    },
+    {
+     "word": "Mexico",
+     "start": 14.37,
+     "end": 15.18
+    },
+    {
+     "word": "in",
+     "start": 15.18,
+     "end": 15.45
+    },
+    {
+     "word": "this",
+     "start": 15.45,
+     "end": 15.72
+    },
+    {
+     "word": "building.",
+     "start": 15.72,
+     "end": 16.556
+    }
+   ]
+  },
+  "f4": {
+   "dur": 11.712,
+   "text": "That Ecuador win ended a forty-year wait for a World Cup knockout victory \u2014 and it detonated the loudest party this tournament has seen. Sunday will be louder.",
+   "words": [
+    {
+     "word": "That",
+     "start": 0.15,
+     "end": 0.393
+    },
+    {
+     "word": "Ecuador",
+     "start": 0.393,
+     "end": 1.121
+    },
+    {
+     "word": "win",
+     "start": 1.121,
+     "end": 1.364
+    },
+    {
+     "word": "ended",
+     "start": 1.364,
+     "end": 1.85
+    },
+    {
+     "word": "a",
+     "start": 1.85,
+     "end": 2.093
+    },
+    {
+     "word": "forty-year",
+     "start": 2.093,
+     "end": 2.821
+    },
+    {
+     "word": "wait",
+     "start": 2.821,
+     "end": 3.064
+    },
+    {
+     "word": "for",
+     "start": 3.064,
+     "end": 3.307
+    },
+    {
+     "word": "a",
+     "start": 3.307,
+     "end": 3.55
+    },
+    {
+     "word": "World",
+     "start": 3.55,
+     "end": 3.793
+    },
+    {
+     "word": "Cup",
+     "start": 3.793,
+     "end": 4.035
+    },
+    {
+     "word": "knockout",
+     "start": 4.035,
+     "end": 4.521
+    },
+    {
+     "word": "victory",
+     "start": 4.521,
+     "end": 5.25
+    },
+    {
+     "word": "\u2014",
+     "start": 5.25,
+     "end": 5.492
+    },
+    {
+     "word": "and",
+     "start": 5.492,
+     "end": 5.735
+    },
+    {
+     "word": "it",
+     "start": 5.735,
+     "end": 5.978
+    },
+    {
+     "word": "detonated",
+     "start": 5.978,
+     "end": 6.949
+    },
+    {
+     "word": "the",
+     "start": 6.949,
+     "end": 7.192
+    },
+    {
+     "word": "loudest",
+     "start": 7.192,
+     "end": 7.678
+    },
+    {
+     "word": "party",
+     "start": 7.678,
+     "end": 8.164
+    },
+    {
+     "word": "this",
+     "start": 8.164,
+     "end": 8.407
+    },
+    {
+     "word": "tournament",
+     "start": 8.407,
+     "end": 9.135
+    },
+    {
+     "word": "has",
+     "start": 9.135,
+     "end": 9.378
+    },
+    {
+     "word": "seen.",
+     "start": 9.378,
+     "end": 9.888
+    },
+    {
+     "word": "Sunday",
+     "start": 9.888,
+     "end": 10.374
+    },
+    {
+     "word": "will",
+     "start": 10.374,
+     "end": 10.616
+    },
+    {
+     "word": "be",
+     "start": 10.616,
+     "end": 10.859
+    },
+    {
+     "word": "louder.",
+     "start": 10.859,
+     "end": 11.612
+    }
+   ]
+  },
+  "f5": {
+   "dur": 15.888,
+   "text": "So understand the collision: Sunday is Mexico's FIFTH straight match in this stadium... and England's first in forty years. One team is home. The other is at altitude, in history, and in trouble.",
+   "words": [
+    {
+     "word": "So",
+     "start": 0.15,
+     "end": 0.417
+    },
+    {
+     "word": "understand",
+     "start": 0.417,
+     "end": 1.217
+    },
+    {
+     "word": "the",
+     "start": 1.217,
+     "end": 1.484
+    },
+    {
+     "word": "collision:",
+     "start": 1.484,
+     "end": 2.285
+    },
+    {
+     "word": "Sunday",
+     "start": 2.285,
+     "end": 2.819
+    },
+    {
+     "word": "is",
+     "start": 2.819,
+     "end": 3.085
+    },
+    {
+     "word": "Mexico's",
+     "start": 3.085,
+     "end": 3.886
+    },
+    {
+     "word": "FIFTH",
+     "start": 3.886,
+     "end": 4.153
+    },
+    {
+     "word": "straight",
+     "start": 4.153,
+     "end": 4.42
+    },
+    {
+     "word": "match",
+     "start": 4.42,
+     "end": 4.687
+    },
+    {
+     "word": "in",
+     "start": 4.687,
+     "end": 4.953
+    },
+    {
+     "word": "this",
+     "start": 4.953,
+     "end": 5.22
+    },
+    {
+     "word": "stadium...",
+     "start": 5.22,
+     "end": 6.048
+    },
+    {
+     "word": "and",
+     "start": 6.048,
+     "end": 6.314
+    },
+    {
+     "word": "England's",
+     "start": 6.314,
+     "end": 6.848
+    },
+    {
+     "word": "first",
+     "start": 6.848,
+     "end": 7.115
+    },
+    {
+     "word": "in",
+     "start": 7.115,
+     "end": 7.382
+    },
+    {
+     "word": "forty",
+     "start": 7.382,
+     "end": 7.916
+    },
+    {
+     "word": "years.",
+     "start": 7.916,
+     "end": 8.476
+    },
+    {
+     "word": "One",
+     "start": 8.476,
+     "end": 9.01
+    },
+    {
+     "word": "team",
+     "start": 9.01,
+     "end": 9.277
+    },
+    {
+     "word": "is",
+     "start": 9.277,
+     "end": 9.543
+    },
+    {
+     "word": "home.",
+     "start": 9.543,
+     "end": 10.371
+    },
+    {
+     "word": "The",
+     "start": 10.371,
+     "end": 10.638
+    },
+    {
+     "word": "other",
+     "start": 10.638,
+     "end": 11.171
+    },
+    {
+     "word": "is",
+     "start": 11.171,
+     "end": 11.438
+    },
+    {
+     "word": "at",
+     "start": 11.438,
+     "end": 11.705
+    },
+    {
+     "word": "altitude,",
+     "start": 11.705,
+     "end": 13.066
+    },
+    {
+     "word": "in",
+     "start": 13.066,
+     "end": 13.333
+    },
+    {
+     "word": "history,",
+     "start": 13.333,
+     "end": 14.427
+    },
+    {
+     "word": "and",
+     "start": 14.427,
+     "end": 14.694
+    },
+    {
+     "word": "in",
+     "start": 14.694,
+     "end": 14.961
+    },
+    {
+     "word": "trouble.",
+     "start": 14.961,
+     "end": 15.788
+    }
+   ]
+  },
+  "h1": {
+   "dur": 11.568,
+   "text": "And the Azteca is just one front in this tournament's war with the elements \u2014 because scientists warned this was on course to be the hottest World Cup ever played.",
+   "words": [
+    {
+     "word": "And",
+     "start": 0.15,
+     "end": 0.401
+    },
+    {
+     "word": "the",
+     "start": 0.401,
+     "end": 0.652
+    },
+    {
+     "word": "Azteca",
+     "start": 0.652,
+     "end": 1.405
+    },
+    {
+     "word": "is",
+     "start": 1.405,
+     "end": 1.656
+    },
+    {
+     "word": "just",
+     "start": 1.656,
+     "end": 1.907
+    },
+    {
+     "word": "one",
+     "start": 1.907,
+     "end": 2.409
+    },
+    {
+     "word": "front",
+     "start": 2.409,
+     "end": 2.66
+    },
+    {
+     "word": "in",
+     "start": 2.66,
+     "end": 2.91
+    },
+    {
+     "word": "this",
+     "start": 2.91,
+     "end": 3.161
+    },
+    {
+     "word": "tournament's",
+     "start": 3.161,
+     "end": 3.914
+    },
+    {
+     "word": "war",
+     "start": 3.914,
+     "end": 4.165
+    },
+    {
+     "word": "with",
+     "start": 4.165,
+     "end": 4.416
+    },
+    {
+     "word": "the",
+     "start": 4.416,
+     "end": 4.667
+    },
+    {
+     "word": "elements",
+     "start": 4.667,
+     "end": 5.42
+    },
+    {
+     "word": "\u2014",
+     "start": 5.42,
+     "end": 5.671
+    },
+    {
+     "word": "because",
+     "start": 5.671,
+     "end": 6.424
+    },
+    {
+     "word": "scientists",
+     "start": 6.424,
+     "end": 6.926
+    },
+    {
+     "word": "warned",
+     "start": 6.926,
+     "end": 7.428
+    },
+    {
+     "word": "this",
+     "start": 7.428,
+     "end": 7.679
+    },
+    {
+     "word": "was",
+     "start": 7.679,
+     "end": 7.93
+    },
+    {
+     "word": "on",
+     "start": 7.93,
+     "end": 8.181
+    },
+    {
+     "word": "course",
+     "start": 8.181,
+     "end": 8.682
+    },
+    {
+     "word": "to",
+     "start": 8.682,
+     "end": 8.933
+    },
+    {
+     "word": "be",
+     "start": 8.933,
+     "end": 9.184
+    },
+    {
+     "word": "the",
+     "start": 9.184,
+     "end": 9.435
+    },
+    {
+     "word": "hottest",
+     "start": 9.435,
+     "end": 9.937
+    },
+    {
+     "word": "World",
+     "start": 9.937,
+     "end": 10.188
+    },
+    {
+     "word": "Cup",
+     "start": 10.188,
+     "end": 10.439
+    },
+    {
+     "word": "ever",
+     "start": 10.439,
+     "end": 10.941
+    },
+    {
+     "word": "played.",
+     "start": 10.941,
+     "end": 11.468
+    }
+   ]
+  },
+  "h2": {
+   "dur": 16.992,
+   "text": "For the first time in World Cup history, every match has mandatory three-minute cooling breaks \u2014 one per half, even indoors. Yesterday's France-Paraguay game in Philadelphia was forecast to hit one hundred degrees.",
+   "words": [
+    {
+     "word": "For",
+     "start": 0.15,
+     "end": 0.398
+    },
+    {
+     "word": "the",
+     "start": 0.398,
+     "end": 0.647
+    },
+    {
+     "word": "first",
+     "start": 0.647,
+     "end": 0.895
+    },
+    {
+     "word": "time",
+     "start": 0.895,
+     "end": 1.392
+    },
+    {
+     "word": "in",
+     "start": 1.392,
+     "end": 1.64
+    },
+    {
+     "word": "World",
+     "start": 1.64,
+     "end": 1.889
+    },
+    {
+     "word": "Cup",
+     "start": 1.889,
+     "end": 2.137
+    },
+    {
+     "word": "history,",
+     "start": 2.137,
+     "end": 3.156
+    },
+    {
+     "word": "every",
+     "start": 3.156,
+     "end": 3.901
+    },
+    {
+     "word": "match",
+     "start": 3.901,
+     "end": 4.149
+    },
+    {
+     "word": "has",
+     "start": 4.149,
+     "end": 4.398
+    },
+    {
+     "word": "mandatory",
+     "start": 4.398,
+     "end": 5.391
+    },
+    {
+     "word": "three-minute",
+     "start": 5.391,
+     "end": 6.385
+    },
+    {
+     "word": "cooling",
+     "start": 6.385,
+     "end": 6.882
+    },
+    {
+     "word": "breaks",
+     "start": 6.882,
+     "end": 7.13
+    },
+    {
+     "word": "\u2014",
+     "start": 7.13,
+     "end": 7.378
+    },
+    {
+     "word": "one",
+     "start": 7.378,
+     "end": 7.875
+    },
+    {
+     "word": "per",
+     "start": 7.875,
+     "end": 8.124
+    },
+    {
+     "word": "half,",
+     "start": 8.124,
+     "end": 8.645
+    },
+    {
+     "word": "even",
+     "start": 8.645,
+     "end": 9.142
+    },
+    {
+     "word": "indoors.",
+     "start": 9.142,
+     "end": 9.912
+    },
+    {
+     "word": "Yesterday's",
+     "start": 9.912,
+     "end": 10.657
+    },
+    {
+     "word": "France-Paraguay",
+     "start": 10.657,
+     "end": 11.899
+    },
+    {
+     "word": "game",
+     "start": 11.899,
+     "end": 12.396
+    },
+    {
+     "word": "in",
+     "start": 12.396,
+     "end": 12.644
+    },
+    {
+     "word": "Philadelphia",
+     "start": 12.644,
+     "end": 13.638
+    },
+    {
+     "word": "was",
+     "start": 13.638,
+     "end": 13.886
+    },
+    {
+     "word": "forecast",
+     "start": 13.886,
+     "end": 14.632
+    },
+    {
+     "word": "to",
+     "start": 14.632,
+     "end": 14.88
+    },
+    {
+     "word": "hit",
+     "start": 14.88,
+     "end": 15.128
+    },
+    {
+     "word": "one",
+     "start": 15.128,
+     "end": 15.625
+    },
+    {
+     "word": "hundred",
+     "start": 15.625,
+     "end": 16.122
+    },
+    {
+     "word": "degrees.",
+     "start": 16.122,
+     "end": 16.892
+    }
+   ]
+  },
+  "h3": {
+   "dur": 16.128,
+   "text": "Not everyone's happy. Pochettino called the breaks unnecessary when conditions are good. Meanwhile twenty-one scientists wrote to FIFA saying three minutes is too SHORT to matter \u2014 and should be doubled.",
+   "words": [
+    {
+     "word": "Not",
+     "start": 0.15,
+     "end": 0.409
+    },
+    {
+     "word": "everyone's",
+     "start": 0.409,
+     "end": 1.445
+    },
+    {
+     "word": "happy.",
+     "start": 1.445,
+     "end": 2.248
+    },
+    {
+     "word": "Pochettino",
+     "start": 2.248,
+     "end": 3.284
+    },
+    {
+     "word": "called",
+     "start": 3.284,
+     "end": 3.802
+    },
+    {
+     "word": "the",
+     "start": 3.802,
+     "end": 4.061
+    },
+    {
+     "word": "breaks",
+     "start": 4.061,
+     "end": 4.32
+    },
+    {
+     "word": "unnecessary",
+     "start": 4.32,
+     "end": 5.615
+    },
+    {
+     "word": "when",
+     "start": 5.615,
+     "end": 5.874
+    },
+    {
+     "word": "conditions",
+     "start": 5.874,
+     "end": 6.651
+    },
+    {
+     "word": "are",
+     "start": 6.651,
+     "end": 7.169
+    },
+    {
+     "word": "good.",
+     "start": 7.169,
+     "end": 7.713
+    },
+    {
+     "word": "Meanwhile",
+     "start": 7.713,
+     "end": 8.49
+    },
+    {
+     "word": "twenty-one",
+     "start": 8.49,
+     "end": 9.527
+    },
+    {
+     "word": "scientists",
+     "start": 9.527,
+     "end": 10.045
+    },
+    {
+     "word": "wrote",
+     "start": 10.045,
+     "end": 10.563
+    },
+    {
+     "word": "to",
+     "start": 10.563,
+     "end": 10.822
+    },
+    {
+     "word": "FIFA",
+     "start": 10.822,
+     "end": 11.34
+    },
+    {
+     "word": "saying",
+     "start": 11.34,
+     "end": 11.599
+    },
+    {
+     "word": "three",
+     "start": 11.599,
+     "end": 11.858
+    },
+    {
+     "word": "minutes",
+     "start": 11.858,
+     "end": 12.635
+    },
+    {
+     "word": "is",
+     "start": 12.635,
+     "end": 12.894
+    },
+    {
+     "word": "too",
+     "start": 12.894,
+     "end": 13.153
+    },
+    {
+     "word": "SHORT",
+     "start": 13.153,
+     "end": 13.412
+    },
+    {
+     "word": "to",
+     "start": 13.412,
+     "end": 13.671
+    },
+    {
+     "word": "matter",
+     "start": 13.671,
+     "end": 14.189
+    },
+    {
+     "word": "\u2014",
+     "start": 14.189,
+     "end": 14.448
+    },
+    {
+     "word": "and",
+     "start": 14.448,
+     "end": 14.707
+    },
+    {
+     "word": "should",
+     "start": 14.707,
+     "end": 14.966
+    },
+    {
+     "word": "be",
+     "start": 14.966,
+     "end": 15.225
+    },
+    {
+     "word": "doubled.",
+     "start": 15.225,
+     "end": 16.028
+    }
+   ]
+  },
+  "h4": {
+   "dur": 14.736,
+   "text": "The pattern is everywhere: tracking data reported from the hottest afternoon venues shows sprinting falling off a cliff late in games. The environment isn't background at this World Cup. It's a player.",
+   "words": [
+    {
+     "word": "The",
+     "start": 0.15,
+     "end": 0.407
+    },
+    {
+     "word": "pattern",
+     "start": 0.407,
+     "end": 0.922
+    },
+    {
+     "word": "is",
+     "start": 0.922,
+     "end": 1.179
+    },
+    {
+     "word": "everywhere:",
+     "start": 1.179,
+     "end": 2.466
+    },
+    {
+     "word": "tracking",
+     "start": 2.466,
+     "end": 2.98
+    },
+    {
+     "word": "data",
+     "start": 2.98,
+     "end": 3.495
+    },
+    {
+     "word": "reported",
+     "start": 3.495,
+     "end": 4.267
+    },
+    {
+     "word": "from",
+     "start": 4.267,
+     "end": 4.524
+    },
+    {
+     "word": "the",
+     "start": 4.524,
+     "end": 4.781
+    },
+    {
+     "word": "hottest",
+     "start": 4.781,
+     "end": 5.296
+    },
+    {
+     "word": "afternoon",
+     "start": 5.296,
+     "end": 6.068
+    },
+    {
+     "word": "venues",
+     "start": 6.068,
+     "end": 6.583
+    },
+    {
+     "word": "shows",
+     "start": 6.583,
+     "end": 6.84
+    },
+    {
+     "word": "sprinting",
+     "start": 6.84,
+     "end": 7.354
+    },
+    {
+     "word": "falling",
+     "start": 7.354,
+     "end": 7.869
+    },
+    {
+     "word": "off",
+     "start": 7.869,
+     "end": 8.126
+    },
+    {
+     "word": "a",
+     "start": 8.126,
+     "end": 8.384
+    },
+    {
+     "word": "cliff",
+     "start": 8.384,
+     "end": 8.641
+    },
+    {
+     "word": "late",
+     "start": 8.641,
+     "end": 9.156
+    },
+    {
+     "word": "in",
+     "start": 9.156,
+     "end": 9.413
+    },
+    {
+     "word": "games.",
+     "start": 9.413,
+     "end": 10.21
+    },
+    {
+     "word": "The",
+     "start": 10.21,
+     "end": 10.468
+    },
+    {
+     "word": "environment",
+     "start": 10.468,
+     "end": 11.497
+    },
+    {
+     "word": "isn't",
+     "start": 11.497,
+     "end": 11.754
+    },
+    {
+     "word": "background",
+     "start": 11.754,
+     "end": 12.269
+    },
+    {
+     "word": "at",
+     "start": 12.269,
+     "end": 12.526
+    },
+    {
+     "word": "this",
+     "start": 12.526,
+     "end": 12.783
+    },
+    {
+     "word": "World",
+     "start": 12.783,
+     "end": 13.041
+    },
+    {
+     "word": "Cup.",
+     "start": 13.041,
+     "end": 13.581
+    },
+    {
+     "word": "It's",
+     "start": 13.581,
+     "end": 13.838
+    },
+    {
+     "word": "a",
+     "start": 13.838,
+     "end": 14.096
+    },
+    {
+     "word": "player.",
+     "start": 14.096,
+     "end": 14.636
+    }
+   ]
+  },
+  "v1": {
+   "dur": 16.872,
+   "text": "So can England survive it? They banked heat training in Florida before the tournament \u2014 and Tuchel insists heat won't be the problem. The altitude is the problem. And Kane arrives having just passed Pel\u00e9.",
+   "words": [
+    {
+     "word": "So",
+     "start": 0.15,
+     "end": 0.416
+    },
+    {
+     "word": "can",
+     "start": 0.416,
+     "end": 0.683
+    },
+    {
+     "word": "England",
+     "start": 0.683,
+     "end": 1.216
+    },
+    {
+     "word": "survive",
+     "start": 1.216,
+     "end": 2.015
+    },
+    {
+     "word": "it?",
+     "start": 2.015,
+     "end": 2.574
+    },
+    {
+     "word": "They",
+     "start": 2.574,
+     "end": 2.84
+    },
+    {
+     "word": "banked",
+     "start": 2.84,
+     "end": 3.373
+    },
+    {
+     "word": "heat",
+     "start": 3.373,
+     "end": 3.64
+    },
+    {
+     "word": "training",
+     "start": 3.64,
+     "end": 4.172
+    },
+    {
+     "word": "in",
+     "start": 4.172,
+     "end": 4.439
+    },
+    {
+     "word": "Florida",
+     "start": 4.439,
+     "end": 5.238
+    },
+    {
+     "word": "before",
+     "start": 5.238,
+     "end": 6.037
+    },
+    {
+     "word": "the",
+     "start": 6.037,
+     "end": 6.303
+    },
+    {
+     "word": "tournament",
+     "start": 6.303,
+     "end": 7.102
+    },
+    {
+     "word": "\u2014",
+     "start": 7.102,
+     "end": 7.369
+    },
+    {
+     "word": "and",
+     "start": 7.369,
+     "end": 7.635
+    },
+    {
+     "word": "Tuchel",
+     "start": 7.635,
+     "end": 8.168
+    },
+    {
+     "word": "insists",
+     "start": 8.168,
+     "end": 8.701
+    },
+    {
+     "word": "heat",
+     "start": 8.701,
+     "end": 8.967
+    },
+    {
+     "word": "won't",
+     "start": 8.967,
+     "end": 9.233
+    },
+    {
+     "word": "be",
+     "start": 9.233,
+     "end": 9.5
+    },
+    {
+     "word": "the",
+     "start": 9.5,
+     "end": 9.766
+    },
+    {
+     "word": "problem.",
+     "start": 9.766,
+     "end": 10.592
+    },
+    {
+     "word": "The",
+     "start": 10.592,
+     "end": 10.858
+    },
+    {
+     "word": "altitude",
+     "start": 10.858,
+     "end": 11.924
+    },
+    {
+     "word": "is",
+     "start": 11.924,
+     "end": 12.19
+    },
+    {
+     "word": "the",
+     "start": 12.19,
+     "end": 12.457
+    },
+    {
+     "word": "problem.",
+     "start": 12.457,
+     "end": 13.282
+    },
+    {
+     "word": "And",
+     "start": 13.282,
+     "end": 13.549
+    },
+    {
+     "word": "Kane",
+     "start": 13.549,
+     "end": 14.082
+    },
+    {
+     "word": "arrives",
+     "start": 14.082,
+     "end": 14.881
+    },
+    {
+     "word": "having",
+     "start": 14.881,
+     "end": 15.413
+    },
+    {
+     "word": "just",
+     "start": 15.413,
+     "end": 15.68
+    },
+    {
+     "word": "passed",
+     "start": 15.68,
+     "end": 16.213
+    },
+    {
+     "word": "Pel\u00e9.",
+     "start": 16.213,
+     "end": 16.772
+    }
+   ]
+  },
+  "v2": {
+   "dur": 19.92,
+   "text": "The fortress, the physics and one hundred thousand voices say Mexico. The squad depth and the best striker on paper say England. I said England \u2014 just. And honestly? I'm sweating on it.",
+   "words": [
+    {
+     "word": "The",
+     "start": 0.15,
+     "end": 0.51
+    },
+    {
+     "word": "fortress,",
+     "start": 0.51,
+     "end": 1.627
+    },
+    {
+     "word": "the",
+     "start": 1.627,
+     "end": 1.987
+    },
+    {
+     "word": "physics",
+     "start": 1.987,
+     "end": 2.708
+    },
+    {
+     "word": "and",
+     "start": 2.708,
+     "end": 3.068
+    },
+    {
+     "word": "one",
+     "start": 3.068,
+     "end": 3.789
+    },
+    {
+     "word": "hundred",
+     "start": 3.789,
+     "end": 4.509
+    },
+    {
+     "word": "thousand",
+     "start": 4.509,
+     "end": 5.23
+    },
+    {
+     "word": "voices",
+     "start": 5.23,
+     "end": 5.95
+    },
+    {
+     "word": "say",
+     "start": 5.95,
+     "end": 6.31
+    },
+    {
+     "word": "Mexico.",
+     "start": 6.31,
+     "end": 7.787
+    },
+    {
+     "word": "The",
+     "start": 7.787,
+     "end": 8.148
+    },
+    {
+     "word": "squad",
+     "start": 8.148,
+     "end": 8.508
+    },
+    {
+     "word": "depth",
+     "start": 8.508,
+     "end": 8.868
+    },
+    {
+     "word": "and",
+     "start": 8.868,
+     "end": 9.228
+    },
+    {
+     "word": "the",
+     "start": 9.228,
+     "end": 9.589
+    },
+    {
+     "word": "best",
+     "start": 9.589,
+     "end": 9.949
+    },
+    {
+     "word": "striker",
+     "start": 9.949,
+     "end": 10.669
+    },
+    {
+     "word": "on",
+     "start": 10.669,
+     "end": 11.03
+    },
+    {
+     "word": "paper",
+     "start": 11.03,
+     "end": 11.75
+    },
+    {
+     "word": "say",
+     "start": 11.75,
+     "end": 12.111
+    },
+    {
+     "word": "England.",
+     "start": 12.111,
+     "end": 13.227
+    },
+    {
+     "word": "I",
+     "start": 13.227,
+     "end": 13.588
+    },
+    {
+     "word": "said",
+     "start": 13.588,
+     "end": 13.948
+    },
+    {
+     "word": "England",
+     "start": 13.948,
+     "end": 14.668
+    },
+    {
+     "word": "\u2014",
+     "start": 14.668,
+     "end": 15.029
+    },
+    {
+     "word": "just.",
+     "start": 15.029,
+     "end": 15.785
+    },
+    {
+     "word": "And",
+     "start": 15.785,
+     "end": 16.145
+    },
+    {
+     "word": "honestly?",
+     "start": 16.145,
+     "end": 17.622
+    },
+    {
+     "word": "I'm",
+     "start": 17.622,
+     "end": 17.983
+    },
+    {
+     "word": "sweating",
+     "start": 17.983,
+     "end": 18.703
+    },
+    {
+     "word": "on",
+     "start": 18.703,
+     "end": 19.063
+    },
+    {
+     "word": "it.",
+     "start": 19.063,
+     "end": 19.82
+    }
+   ]
+  },
+  "cta": {
+   "dur": 8.0,
+   "text": "Mexico, England, thin air and forty years of ghosts \u2014 Sunday, eight PM Eastern. The breakdown drops right after the whistle. Subscribe, and tell me who survives the Azteca.",
+   "words": [
+    {
+     "word": "Mexico,",
+     "start": 0.159,
+     "end": 0.5
+    },
+    {
+     "word": "England,",
+     "start": 0.599,
+     "end": 0.819
+    },
+    {
+     "word": "thin",
+     "start": 0.959,
+     "end": 1.079
+    },
+    {
+     "word": "air",
+     "start": 1.139,
+     "end": 1.279
+    },
+    {
+     "word": "and",
+     "start": 1.319,
+     "end": 1.399
+    },
+    {
+     "word": "forty",
+     "start": 1.48,
+     "end": 1.739
+    },
+    {
+     "word": "years",
+     "start": 1.799,
+     "end": 1.959
+    },
+    {
+     "word": "of",
+     "start": 1.979,
+     "end": 2.039
+    },
+    {
+     "word": "ghosts",
+     "start": 2.119,
+     "end": 2.339
+    },
+    {
+     "word": "\u2014",
+     "start": 2.359,
+     "end": 2.36
+    },
+    {
+     "word": "Sunday,",
+     "start": 2.659,
+     "end": 2.919
+    },
+    {
+     "word": "eight",
+     "start": 3.079,
+     "end": 3.159
+    },
+    {
+     "word": "PM",
+     "start": 3.299,
+     "end": 3.46
+    },
+    {
+     "word": "Eastern.",
+     "start": 3.519,
+     "end": 3.779
+    },
+    {
+     "word": "The",
+     "start": 3.839,
+     "end": 3.879
+    },
+    {
+     "word": "breakdown",
+     "start": 3.919,
+     "end": 4.279
+    },
+    {
+     "word": "drops",
+     "start": 4.319,
+     "end": 4.579
+    },
+    {
+     "word": "right",
+     "start": 4.639,
+     "end": 4.779
+    },
+    {
+     "word": "after",
+     "start": 4.819,
+     "end": 5.0
+    },
+    {
+     "word": "the",
+     "start": 5.019,
+     "end": 5.079
+    },
+    {
+     "word": "whistle.",
+     "start": 5.119,
+     "end": 5.359
+    },
+    {
+     "word": "Subscribe,",
+     "start": 5.44,
+     "end": 5.92
+    },
+    {
+     "word": "and",
+     "start": 6.239,
+     "end": 6.319
+    },
+    {
+     "word": "tell",
+     "start": 6.359,
+     "end": 6.519
+    },
+    {
+     "word": "me",
+     "start": 6.539,
+     "end": 6.619
+    },
+    {
+     "word": "who",
+     "start": 6.739,
+     "end": 6.799
+    },
+    {
+     "word": "survives",
+     "start": 6.899,
+     "end": 7.239
+    },
+    {
+     "word": "the",
+     "start": 7.259,
+     "end": 7.319
+    },
+    {
+     "word": "Azteca.",
+     "start": 7.339,
+     "end": 7.779
+    }
+   ],
+   "engine": "veo"
+  }
+ }
+}
