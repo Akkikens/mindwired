@@ -6,6 +6,15 @@ it" moment). Handle @dimaagbatti (taken by Akshay 2026-07-07). Watermark/brand =
 on dark; use a "batti on" bulb-glow flourish as the signature transition when a point
 lands. Tagline: "हर मुद्दा, आसान भाषा में".
 
+**POSITIONING = EDUCATION channel (Akshay, 2026-07-07).** YouTube Category = Education.
+Problem we solve: making complex news / economy / current affairs simple enough for anyone
+to understand, in Hindi. Frame EVERY video as teaching/explaining — neutral, factual, no
+opinion or political commentary (this reinforces the safety guardrails AND is better for
+monetization). Always include "education / explainer / samjhaen / aasan bhasha" style
+keywords in title/tags. NEVER use `<` or `>` angle brackets in any YouTube description
+(YouTube treats them as markup and rejects/strips them). Front-load keywords in the first
+2 lines of every description.
+
 Copy everything below the line into a new Claude Code chat in the `mindwired` repo.
 
 ---
