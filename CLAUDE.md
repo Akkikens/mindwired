@@ -5,6 +5,17 @@ gaming/tech lane. Everything is code-generated: Remotion (React → MP4), React 
 Fiber for 3D, TTS narration with word-level timings. This file is the production
 manual — read it before making or editing any video.
 
+## The 4 channels (2026-07)
+
+| Channel | Lane | Where | Voice / host |
+|---|---|---|---|
+| **mindwired** | faceless space/science + gaming/tech | this repo | Orion host; narrator = cloned Cartesia voice `00d3c951-…` (was George/Hume) |
+| **DimaagBatti** | Hindi explainers (Dhruv-Rathee style: economy/geopolitics/how-it-works) | this repo (`src/dimaagbatti`) | Rohan, Cartesia Hindi `4877b818-…`; whiteboard + Devanagari overlays; see `HINDI-CHANNEL-BRIEF.md` |
+| **KickOffDaily90** | football / World Cup (separate YT+IG brand) | this repo, viral engine, `channel:"kickoffdaily90"` | host Jamie |
+| **Singaloo.kids** | kids singalongs + animated | **singaloo repo** (`../singaloo`) | host Melody |
+
+Each finished video gets its channel's subscribe outro appended (see "Subscribe outro").
+
 > **Before you call any video done: append the subscribe outro.** See
 > "Subscribe outro — MANDATORY on every video" below. Subscriber growth is
 > currently the channel's #1 problem — do not skip this step.
