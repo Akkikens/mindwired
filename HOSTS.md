@@ -3,15 +3,28 @@
 Photoreal recurring presenters for every content lane, lip-synced from a single
 4K master image each. One face per niche, consistent forever.
 
-## The roster (src/viral/hosts.json)
+## One host per CHANNEL (the 4 channels — see CLAUDE.md)
 
-| id | lane | image (4K master) | voice (ElevenLabs) |
+| Channel | Host | Face / format | Voice |
 |---|---|---|---|
-| `orion` | space & science docs | `public/host/orion_v4c_4k.png` | George |
-| `sterling` | finance & money | `public/host/sterling_4k.png` | Adam |
-| `jamie` | football / World Cup (primary, most photoreal, built for Veo) | `public/host/jamie_b.png` | Daniel |
-| `vex` | gaming / GTA VI / tech | `public/host/vex_4k.png` | Brian |
-| `melody` | singaloo kids (animated, lives in ../singaloo/public/host/) | — | (kids voice, TBD) |
+| **mindwired** (space/science) | **Orion** | photoreal talking-head | cloned Cartesia `00d3c951-…` (host lip-sync via Higgsfield Wan/Seedance audio-driven) |
+| **DimaagBatti** (Hindi) | **Rohan** | voice-only narrator + whiteboard hand (no face avatar) | Cartesia Hindi `4877b818-…` |
+| **KickOffDaily90** (football) | **Jamie** | photoreal talking-head (built for Veo) | Daniel / Cartesia |
+| **Singaloo.kids** (kids) | **Melody** | animated (lives in `../singaloo`) | kids voice |
+
+mindwired's other lane hosts (`sterling` finance, `vex` gaming/tech) are sub-lane
+faces within mindwired, not separate channels.
+
+## The registry (src/viral/hosts.json)
+
+| id | lane | image (4K master) | voice |
+|---|---|---|---|
+| `orion` | mindwired — space & science docs | `public/host/orion_v4c_4k.png` | cloned Cartesia `00d3c951-…` |
+| `sterling` | mindwired — finance & money lane | `public/host/sterling_4k.png` | Adam |
+| `jamie` | KickOffDaily90 — football / World Cup (primary, built for Veo) | `public/host/jamie_b.png` | Daniel |
+| `vex` | mindwired — gaming / GTA VI / tech lane | `public/host/vex_4k.png` | Brian |
+| `melody` | Singaloo.kids (animated, lives in ../singaloo/public/host/) | — | (kids voice, TBD) |
+| `Rohan` (Cartesia voice, not an avatar) | DimaagBatti — Hindi explainers | whiteboard hand, no face | Cartesia Hindi `4877b818-…` |
 
 `rio` (an earlier football host) was retired and fully deleted 2026-07-06 —
 Akshay found Jamie more visually realistic. Use `jamie` for all football
