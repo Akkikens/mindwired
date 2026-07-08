@@ -113,6 +113,40 @@ recharge loop. Workflow:
 Start by picking the topic (e.g. रुपया deep-dive, UPI, India–China), writing the full
 Hindi script broken into ~5s scene beats, then generating chunk 1's whiteboard clips.
 
+## FIRST TOPIC (fact-checked 2026-07-07): NEET leak → Telegram ban → protests
+A timely current-affairs explainer. **Every fact below is verified — use these, and do
+NOT add unverified claims.**
+
+FACT SHEET:
+- NEET-UG 2026 (exam May 3, 2M+ aspirants): ~120 questions circulated on **Telegram
+  (Rajasthan)** matched guess papers → NTA cancelled the exam → **Re-NEET on June 21, 2026**.
+- 2024 precedent that fed distrust: 80+ students scored a perfect 720/720 (only 7 total had
+  ever done so 2016–2024).
+- **13 reported student suicides** across India after the leak/cancellation (police records +
+  media). Treat with care — not sensationalized.
+- **Telegram banned June 16–22, 2026** (NTA/govt): cheating rackets sold "leaked" papers
+  (₹thousands–lakhs) and backdated fake leaks via message-editing. Temporary + exam-specific.
+- **Pavel Durov (Telegram CEO)** — VERBATIM only: "This punishes 150 million ordinary
+  Telegram users in India — not the insiders who leaked the exam materials"; "the leaks just
+  moved to other apps." Telegram removed hundreds of channels, made the "edited" label
+  prominent, and **challenged the ban in a Delhi court.** (Do NOT use the paraphrase "fix
+  your board" — he didn't say that.)
+- **Sonam Wangchuk**: indefinite hunger strike from **June 28, Jantar Mantar**, with the
+  **Cockroach Janta Party (CJP)** + student groups; demands Education Minister **Dharmendra
+  Pradhan's resignation** + Ladakh's Sixth Schedule; "six weeks or death." CJP demanded
+  ₹1 crore compensation for suicide victims' families.
+
+SAFETY GUARDRAILS (non-negotiable — real people/deaths involved):
+- NEUTRAL & ATTRIBUTED. DimaagBatti REPORTS ("CJP and Wangchuk demanded the minister
+  resign", "Durov said…") — it never itself accuses/defames anyone.
+- Verbatim quotes only; never fabricate/paraphrase a quote attributed to a named person.
+- Suicides handled respectfully; end with a mental-health helpline card (e.g. Tele-MANAS
+  14416). No graphic content, no blame of victims.
+- Numbers exactly as sourced (13 suicides; 150M users; June 16–22; June 21 re-test).
+- Overlay all these facts/numbers/Hindi as Remotion text (accuracy rule), never AI-drawn.
+Sources: Al Jazeera, Outlook India (13 suicides + CJP), Gulf News + The Record (Durov),
+The Quint (Wangchuk), troopmessenger/itxperts (Telegram-NEET ban).
+
 ## Style/quality rules
 - Prompts for any paid clip must be RICH (lens, motion, lighting, palette) — basic
   prompts → basic videos.
