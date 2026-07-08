@@ -22,10 +22,13 @@ API = "https://api.cartesia.ai/tts/bytes"
 VERSION = "2024-11-13"
 REPO = Path(__file__).resolve().parent.parent.parent
 
-# "Clive - Measured Expert": composed, articulate — Cartesia's own description
-# calls it "perfect for delivering educational content", which is exactly a
-# facts documentary. Swap per-host via src/viral/hosts.json.
-DEFAULT_VOICE = "b24f41fd-00a3-4cd8-992a-a0c9f13f3ef1"
+# Channel narrator = "orion_veo_clone": a Cartesia voice CLONED from the mindwired
+# Veo talking-host outro (Akshay approved the sound 2026-07-07). This captures the
+# nice Veo documentary voice as a pinned, consistent, ~free TTS voice — no Veo
+# per-clip cost, no cross-clip drift. This is the default for all mindwired
+# narration now. (Prev default "Clive - Measured Expert" b24f41fd-… kept below.)
+DEFAULT_VOICE = "00d3c951-0474-4b48-814e-ef815f533e63"
+CLIVE_VOICE = "b24f41fd-00a3-4cd8-992a-a0c9f13f3ef1"  # previous default, kept as fallback
 # break tags + generation_config.emotion require sonic-3/3.5 (sonic-2 ignores them)
 MODEL = "sonic-3.5"
 

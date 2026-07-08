@@ -1,0 +1,133 @@
+{
+  "slug": "biggeststar",
+  "title": "The Biggest Star In The Universe Makes Our Sun Disappear",
+  "channel": "mindwired",
+  "host": "host/orion_beststar.png",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "start": 0,
+      "end": 5,
+      "voiceover": "You think the Sun is big. But next to the largest star we have ever found, our Sun is a single, invisible pixel.",
+      "mainText": "OUR SUN DISAPPEARS",
+      "emphasis": [
+        "DISAPPEARS"
+      ],
+      "visualConcept": "Host delivers the shock claim straight to camera.",
+      "emotionalTone": "shock",
+      "transitionOut": "whip",
+      "board": true,
+      "brollVideo": "shorts/biggeststar/broll-video/hook.mp4",
+      "camera": [
+        "push"
+      ]
+    },
+    {
+      "id": "reveal",
+      "kind": "shockfact",
+      "start": 5,
+      "end": 10,
+      "voiceover": "It is called Stephenson two eighteen. A red hypergiant so vast it barely fits inside your imagination.",
+      "mainText": "STEPHENSON 2-18",
+      "emphasis": [
+        "2-18"
+      ],
+      "kicker": "a red hypergiant",
+      "visualConcept": "A colossal roiling red hypergiant fills the frame.",
+      "emotionalTone": "awe",
+      "transitionOut": "whip",
+      "hostClipExists": true
+    },
+    {
+      "id": "scale",
+      "kind": "shockfact",
+      "start": 10,
+      "end": 16,
+      "voiceover": "Drop it where our Sun is, and it would swallow Mercury, Venus, Earth, Mars, Jupiter, and reach almost all the way to Saturn.",
+      "mainText": "IT REACHES SATURN",
+      "emphasis": [
+        "SATURN"
+      ],
+      "visualConcept": "The giant star engulfing the inner solar system's orbits.",
+      "camera": [
+        "pull"
+      ],
+      "brollVideo": "shorts/biggeststar/broll-video/scale.mp4",
+      "board": true,
+      "emotionalTone": "awe",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "volume",
+      "kind": "data",
+      "start": 16,
+      "end": 21,
+      "voiceover": "You could fit about ten billion Suns inside it.",
+      "mainText": "10 BILLION SUNS FIT INSIDE",
+      "emphasis": [
+        "10 BILLION"
+      ],
+      "visualConcept": "A tiny Sun dot beside the giant, count-up to 10 billion.",
+      "brollVideo": "shorts/biggeststar/broll-video/volume.mp4",
+      "board": true,
+      "emotionalTone": "shock",
+      "transitionOut": "flash",
+      "stat": {
+        "to": 10000000000,
+        "suffix": " SUNS",
+        "label": "fit inside it"
+      }
+    },
+    {
+      "id": "light",
+      "kind": "shockfact",
+      "start": 21,
+      "end": 27,
+      "voiceover": "It is so enormous that light itself, the fastest thing in existence, needs almost a full day just to travel around it once.",
+      "mainText": "LIGHT TAKES A DAY",
+      "emphasis": [
+        "A DAY"
+      ],
+      "visualConcept": "Host reacts to the light-speed fact.",
+      "emotionalTone": "shock",
+      "transitionOut": "whip",
+      "hostClipExists": true
+    },
+    {
+      "id": "death",
+      "kind": "shockfact",
+      "start": 27,
+      "end": 33,
+      "voiceover": "And stars this massive do not fade away quietly. They end as a supernova, one of the most violent explosions in the entire universe.",
+      "mainText": "IT WILL DETONATE",
+      "emphasis": [
+        "DETONATE"
+      ],
+      "visualConcept": "A star exploding into a brilliant supernova shockwave.",
+      "camera": [
+        "crash-zoom"
+      ],
+      "brollVideo": "shorts/biggeststar/broll-video/death.mp4",
+      "board": true,
+      "emotionalTone": "shock",
+      "transitionOut": "flash"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "start": 33,
+      "end": 38,
+      "voiceover": "Follow Mindwired for the universe that makes you feel small.",
+      "mainText": "FOLLOW MINDWIRED",
+      "emphasis": [
+        "FOLLOW"
+      ],
+      "visualConcept": "Host signs off to camera.",
+      "emotionalTone": "confidence",
+      "transitionOut": "none",
+      "hostClipExists": true
+    }
+  ],
+  "hostClipFull": true
+}

@@ -259,7 +259,10 @@ export const ViralShort: React.FC<{ plan: VisualPlan; manifest: ShortManifest | 
       <AbsoluteFill style={{ backgroundColor: "#03040A" }}>
         <HostLayer src={hostImage} totalFrames={total} accent={accent} frozen={anyTalking} pillarbox={pillarbox} />
         {scenes.map((s) => {
-          const talkFrames = s.durationInFrames - s.audioDelay - s.holdFrames;
+          // full-length clips (Wan 720p) play through the HOLD beat too, so the
+          // host never cuts to the frozen still after speaking; short clips stop
+          // at the voiced span and let the still cover the HOLD.
+          const talkFrames = s.durationInFrames - s.audioDelay - (plan.hostClipFull ? 0 : s.holdFrames);
           return clipExists(s) && talkFrames > 0 ? (
             <Sequence key={`talk-${s.id}`} from={s.from + s.audioDelay} durationInFrames={talkFrames} name={`host:${s.id}`}>
               <HostTalkingClip src={`shorts/${plan.slug}/${clipDir}/${s.id}.mp4`} durationInFrames={talkFrames} pillarbox={pillarbox} />

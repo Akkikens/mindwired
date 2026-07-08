@@ -13,12 +13,21 @@ import { MotionEnergyDemo, MOTION_DEMO_FRAMES } from "./demo/MotionEnergyDemo";
 import { ClipSceneDemo, CLIP_DEMO_FRAMES } from "./demo/ClipSceneDemo";
 import { ScariestPlaces, scariestTotalFrames } from "./scariest/Video";
 import { ScariestThumbnail } from "./scariest/Thumbnail";
+import { RoguePlanetVideo, rogueTotalFrames } from "./rogueplanet/Video";
+import { RoguePlanetThumbnail } from "./rogueplanet/Thumbnail";
+import { RupeeShort, rupeeTotalFrames } from "./dimaagbatti/RupeeShort";
 import { ViralShort, viralShortFrames } from "./viral/ShortEngine";
 import { HookProbe, HookProbeProps, hookProbeFrames, HOOK_PROBE_DEFAULT_FRAMES } from "./viral/HookProbe";
 import { BrandIntro, BRAND_INTRO_FRAMES } from "./components/BrandIntro";
 import { ShortManifest, VisualPlan } from "./viral/lib/types";
 import roguebhPlanJson from "./viral/plans/roguebh.json";
 import roguebhManifestJson from "../public/shorts/roguebh/audio/manifest.json";
+import cosmicspeedPlanJson from "./viral/plans/cosmicspeed.json";
+import cosmicspeedManifestJson from "../public/shorts/cosmicspeed/audio/manifest.json";
+import biggeststarPlanJson from "./viral/plans/biggeststar.json";
+import biggeststarManifestJson from "../public/shorts/biggeststar/audio/manifest.json";
+import cosmicthreatsPlanJson from "./viral/plans/cosmicthreats.json";
+import cosmicthreatsManifestJson from "../public/shorts/cosmicthreats/audio/manifest.json";
 import darkforestPlanJson from "./viral/plans/darkforest.json";
 import darkforestManifestJson from "../public/shorts/darkforest/audio/manifest.json";
 import bootesvoidPlanJson from "./viral/plans/bootesvoid.json";
@@ -65,6 +74,8 @@ import wcTournamentStatusPlanJson from "./viral/plans/wc-tournament-status.json"
 import wcTournamentStatusManifestJson from "../public/shorts/wc-tournament-status/audio/manifest.json";
 import wcRonaldoFreesePlanJson from "./viral/plans/wc-ronaldo-freese-analysis.json";
 import wcRonaldoFreeseManifestJson from "../public/shorts/wc-ronaldo-freese-analysis/audio/manifest.json";
+import wcArgEgyptPlanJson from "./viral/plans/wc-arg-egypt.json";
+import wcArgEgyptManifestJson from "../public/shorts/wc-arg-egypt/audio/manifest.json";
 import wcNeymarLegacyPlanJson from "./viral/plans/wc-neymar-legacy.json";
 import wcNeymarLegacyManifestJson from "../public/shorts/wc-neymar-legacy/audio/manifest.json";
 import darkhorsePlanJson from "./viral/plans/darkhorse.json";
@@ -95,6 +106,18 @@ import subKoShortManifestJson from "../public/shorts/subscribe-kickoffdaily90-sh
 
 const roguebhPlan = roguebhPlanJson as unknown as VisualPlan;
 const roguebhManifest = roguebhManifestJson as unknown as ShortManifest;
+
+// ── Cosmic-speed Short (AstroKobi-style): Hume VO + Veo/Higgsfield b-roll ──
+const cosmicspeedPlan = cosmicspeedPlanJson as unknown as VisualPlan;
+const cosmicspeedManifest = cosmicspeedManifestJson as unknown as ShortManifest;
+
+// ── Biggest-star Short: Orion host (Veo talking-head + wav2lip) + Veo b-roll ──
+const biggeststarPlan = biggeststarPlanJson as unknown as VisualPlan;
+const biggeststarManifest = biggeststarManifestJson as unknown as ShortManifest;
+
+// ── Cosmic-threats Short: scary-space compilation reusing paid clips, cloned voice ──
+const cosmicthreatsPlan = cosmicthreatsPlanJson as unknown as VisualPlan;
+const cosmicthreatsManifest = cosmicthreatsManifestJson as unknown as ShortManifest;
 
 // ── World Cup host video: one master plan → 16:9 long-form + N vertical cuts ──
 const worldcupPlan = worldcupPlanJson as unknown as VisualPlan;
@@ -150,6 +173,7 @@ const HOT_SHORTS: Array<{ id: string; plan: VisualPlan; manifest: ShortManifest 
   { id: "ShortWC-wc-goldenboot-ticker", plan: wcGoldenbootTickerPlanJson as unknown as VisualPlan, manifest: wcGoldenbootTickerManifestJson as unknown as ShortManifest },
   { id: "ShortWC-wc-tournament-status", plan: wcTournamentStatusPlanJson as unknown as VisualPlan, manifest: wcTournamentStatusManifestJson as unknown as ShortManifest },
   { id: "ShortWC-wc-ronaldo-freese-analysis", plan: wcRonaldoFreesePlanJson as unknown as VisualPlan, manifest: wcRonaldoFreeseManifestJson as unknown as ShortManifest },
+  { id: "ShortWC-wc-arg-egypt", plan: wcArgEgyptPlanJson as unknown as VisualPlan, manifest: wcArgEgyptManifestJson as unknown as ShortManifest },
 ];
 
 // The 5 videos in the 24/7 live-loop stream, re-rendered at 1920x1080 for
@@ -222,6 +246,33 @@ export const RemotionRoot: React.FC = () => {
       <Composition id="BrandIntroSingaloo" component={BrandIntro} defaultProps={{ brand: "singaloo" }} durationInFrames={BRAND_INTRO_FRAMES} fps={30} width={1920} height={1080} />
 
       {/* ── Viral shorts engine (src/viral) — data-driven, plan JSON per video ── */}
+      <Composition
+        id="ShortCosmicSpeed"
+        component={ViralShort}
+        defaultProps={{ plan: cosmicspeedPlan, manifest: cosmicspeedManifest }}
+        durationInFrames={viralShortFrames(cosmicspeedPlan, cosmicspeedManifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ShortBiggestStar"
+        component={ViralShort}
+        defaultProps={{ plan: biggeststarPlan, manifest: biggeststarManifest }}
+        durationInFrames={viralShortFrames(biggeststarPlan, biggeststarManifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ShortCosmicThreats"
+        component={ViralShort}
+        defaultProps={{ plan: cosmicthreatsPlan, manifest: cosmicthreatsManifest }}
+        durationInFrames={viralShortFrames(cosmicthreatsPlan, cosmicthreatsManifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
       <Composition
         id="ShortRogueBH"
         component={ViralShort}
@@ -513,6 +564,32 @@ export const RemotionRoot: React.FC = () => {
         fps={30}
         width={1920}
         height={1080}
+      />
+
+      {/* ── DimaagBatti (Hindi explainer) — रुपया क्यों गिर रहा है ── */}
+      <Composition
+        id="DimaagBattiRupee"
+        component={RupeeShort}
+        durationInFrames={rupeeTotalFrames()}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+
+      {/* ── Mindwired #5 — A Rogue Planet Enters Our Solar System ── */}
+      <Composition
+        id="RoguePlanet"
+        component={RoguePlanetVideo}
+        durationInFrames={rogueTotalFrames()}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Still
+        id="RoguePlanetThumbnail"
+        component={RoguePlanetThumbnail}
+        width={1280}
+        height={720}
       />
 
       {/* ── Mindwired #4 — The Scariest Places In The Universe ── */}

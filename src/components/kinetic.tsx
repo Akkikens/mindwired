@@ -12,19 +12,26 @@ export const fmt = (n: number) => Math.round(n).toLocaleString("en-US");
 /** A number that races up to its target with deceleration, while the glyphs pop. */
 export const CountUp: React.FC<{
   to: number; dur?: number; suffix?: string; size?: number; color?: string;
-}> = ({ to, dur = 32, suffix = "", size = 160, color = C.white }) => {
+  /** max on-screen width for the number+suffix (keeps big values like
+   *  "10,000,000,000 SUNS" inside the 1080px frame instead of overflowing). */
+  maxWidth?: number;
+}> = ({ to, dur = 32, suffix = "", size = 160, color = C.white, maxWidth = 940 }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   const p = interpolate(f, [0, dur], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: easeOutCubic });
   const pop = spring({ frame: f, fps, config: { damping: 11, stiffness: 95, mass: 0.7 } });
   const scale = interpolate(pop, [0, 1], [0.55, 1]);
+  // auto-shrink so the widest state (the final value + suffix) fits maxWidth.
+  // ~0.6·fontSize per display-bold glyph; suffix rendered at 0.46·size counts ~half.
+  const estChars = fmt(to).length + suffix.length * 0.55;
+  const fitSize = Math.min(size, Math.floor(maxWidth / Math.max(1, estChars * 0.6)));
   return (
     <span style={{
-      fontFamily: DISPLAY, fontWeight: 700, fontSize: size, lineHeight: 0.9,
-      color, letterSpacing: 1, display: "inline-block", transform: `scale(${scale})`,
+      fontFamily: DISPLAY, fontWeight: 700, fontSize: fitSize, lineHeight: 0.9,
+      color, letterSpacing: 1, display: "inline-block", transform: `scale(${scale})`, whiteSpace: "nowrap",
       textShadow: `0 0 ${interpolate(pop, [0, 1], [60, 26])}px ${color}66, 0 6px 24px rgba(0,0,0,0.6)`,
     }}>
-      {fmt(to * p)}<span style={{ fontSize: size * 0.46, marginLeft: 10 }}>{suffix}</span>
+      {fmt(to * p)}<span style={{ fontSize: fitSize * 0.46, marginLeft: 10 }}>{suffix}</span>
     </span>
   );
 };

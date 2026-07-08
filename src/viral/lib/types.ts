@@ -118,6 +118,12 @@ export interface VisualPlan {
   /** corner watermark text; defaults to "mindwired". Set this when a plan is
    *  published under a different channel (e.g. kickoffdaily90 for football) */
   channel?: string;
+  /** set true when the host talking clips are FULL-LENGTH (longer than each
+   *  scene, e.g. Higgsfield Wan 720p generated at audio+buffer). The engine then
+   *  plays the clip through the HOLD beat instead of cutting to the frozen still
+   *  portrait after speech (which reads as "the host got stuck"). Leave false for
+   *  short clips (Sonic/Veo trimmed to speech) so their HOLD still-fallback stays. */
+  hostClipFull?: boolean;
   scenes: PlanScene[];
 }
 

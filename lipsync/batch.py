@@ -43,10 +43,10 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 sys.path.insert(0, str(REPO / "scripts" / "lib"))
-from sonic_client import run as sonic_run  # noqa: E402
-from wav2lip_client import run as wav2lip_run  # noqa: E402
-
-ENGINES = {"sonic": sonic_run, "wav2lip": wav2lip_run, "veo": None}  # veo handled specially
+# Lip-sync engine: Veo 3.1 talking-head only (generates video AND its own voice,
+# natively in sync). The old wav2lip (local) and Sonic/Replicate engines were
+# removed 2026-07-07 — Veo is the single supported lip-sync path.
+ENGINES = {"veo": None}
 
 
 def veo_scene(image: Path, voiceover: str, mp4: Path, audio_dir: Path, cid: str,
@@ -145,9 +145,8 @@ def main():
     ap.add_argument("--wide", action="store_true",
                     help="lip-sync against the host's native 16:9 shoot (hosts.json imageWide) "
                          "for the long-form 16:9 render, instead of the 9:16 short clips")
-    ap.add_argument("--engine", choices=list(ENGINES), default="sonic",
-                    help="sonic (Replicate, paid, sharper) or wav2lip (free, local, softer) — "
-                         "default sonic")
+    ap.add_argument("--engine", choices=list(ENGINES), default="veo",
+                    help="lip-sync engine — only 'veo' (Veo 3.1 talking-head) is supported")
     args = ap.parse_args()
     lipsync_run = ENGINES[args.engine]
 
