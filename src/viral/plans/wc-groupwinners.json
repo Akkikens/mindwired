@@ -1,0 +1,126 @@
+{
+  "slug": "wc-groupwinners",
+  "title": "World Cup \u2014 Every Group Winner",
+  "host": "jamie",
+  "channel": "kickoffdaily90",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "board": true,
+      "start": 0,
+      "end": 6,
+      "voiceover": "Twelve groups, twelve winners. Here's who topped every single one \u2014 starting with Mexico, Switzerland, Brazil, United States.",
+      "mainText": "12 GROUPS. 12 WINNERS.",
+      "emphasis": [
+        "12 WINNERS."
+      ],
+      "kicker": "FINAL GROUP STAGE STANDINGS",
+      "visualConcept": "host cold open",
+      "emotionalTone": "excitement",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "gw0",
+      "kind": "data",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "Groups A through F: Group A, Mexico, 9 points; Group B, Switzerland, 7 points; Group C, Brazil, 7 points; Group D, United States, 6 points; Group E, Germany, 6 points; Group F, Netherlands, 7 points.",
+      "mainText": "GROUP WINNERS",
+      "emphasis": [],
+      "kicker": "GROUPS A-F",
+      "visualConcept": "group winners bar chart",
+      "stat": {
+        "to": 0,
+        "bars": [
+          {
+            "label": "Group A: Mexico",
+            "value": 9
+          },
+          {
+            "label": "Group B: Switzerland",
+            "value": 7
+          },
+          {
+            "label": "Group C: Brazil",
+            "value": 7
+          },
+          {
+            "label": "Group D: United States",
+            "value": 6
+          },
+          {
+            "label": "Group E: Germany",
+            "value": 6
+          },
+          {
+            "label": "Group F: Netherlands",
+            "value": 7
+          }
+        ]
+      },
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "gw1",
+      "kind": "data",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "Groups G through L: Group G, Belgium, 5 points; Group H, Spain, 7 points; Group I, France, 9 points; Group J, Argentina, 9 points; Group K, Colombia, 7 points; Group L, England, 7 points.",
+      "mainText": "GROUP WINNERS, CONTINUED",
+      "emphasis": [],
+      "kicker": "GROUPS G-L",
+      "visualConcept": "group winners bar chart",
+      "stat": {
+        "to": 0,
+        "bars": [
+          {
+            "label": "Group G: Belgium",
+            "value": 5
+          },
+          {
+            "label": "Group H: Spain",
+            "value": 7
+          },
+          {
+            "label": "Group I: France",
+            "value": 9
+          },
+          {
+            "label": "Group J: Argentina",
+            "value": 9
+          },
+          {
+            "label": "Group K: Colombia",
+            "value": 7
+          },
+          {
+            "label": "Group L: England",
+            "value": 7
+          }
+        ]
+      },
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "board": true,
+      "start": 0,
+      "end": 6,
+      "voiceover": "Follow kickoffdaily90 for every result as it happens.",
+      "mainText": "FOLLOW FOR EVERY RESULT",
+      "emphasis": [
+        "EVERY RESULT"
+      ],
+      "kicker": "@KICKOFFDAILY90",
+      "visualConcept": "cta",
+      "emotionalTone": "confidence",
+      "transitionOut": "none"
+    }
+  ]
+}

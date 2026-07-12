@@ -1,0 +1,156 @@
+{
+  "slug": "wc-results",
+  "title": "World Cup \u2014 The Latest Results",
+  "host": "jamie",
+  "channel": "kickoffdaily90",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "board": true,
+      "start": 0,
+      "end": 6,
+      "voiceover": "Here are the latest World Cup results \u2014 starting with United States 1, Belgium 4.",
+      "mainText": "THE LATEST RESULTS",
+      "emphasis": [
+        "LATEST"
+      ],
+      "kicker": "WORLD CUP 2026",
+      "visualConcept": "host cold open",
+      "emotionalTone": "excitement",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "res0",
+      "kind": "comparison",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "ROUND OF 16: United States 1, Belgium 4, Jul 7.",
+      "mainText": "UNITED STATES 1 - 4 BELGIUM",
+      "emphasis": [],
+      "kicker": "ROUND OF 16 \u2014 Jul 7",
+      "visualConcept": "result comparison card",
+      "compare": {
+        "left": "UNITED STATES  1",
+        "right": "4  BELGIUM",
+        "rightImg": "shorts/_wc-crests/805.svg"
+      },
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "res1",
+      "kind": "comparison",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "ROUND OF 16: Portugal 0, Spain 1, Jul 6.",
+      "mainText": "PORTUGAL 0 - 1 SPAIN",
+      "emphasis": [],
+      "kicker": "ROUND OF 16 \u2014 Jul 6",
+      "visualConcept": "result comparison card",
+      "compare": {
+        "left": "PORTUGAL  0",
+        "right": "1  SPAIN",
+        "leftImg": "shorts/_wc-crests/765.svg",
+        "rightImg": "shorts/_wc-crests/760.svg"
+      },
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "res2",
+      "kind": "comparison",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "ROUND OF 16: Mexico 2, England 3, Jul 6.",
+      "mainText": "MEXICO 2 - 3 ENGLAND",
+      "emphasis": [],
+      "kicker": "ROUND OF 16 \u2014 Jul 6",
+      "visualConcept": "result comparison card",
+      "compare": {
+        "left": "MEXICO  2",
+        "right": "3  ENGLAND",
+        "leftImg": "shorts/_wc-crests/769.svg",
+        "rightImg": "shorts/_wc-crests/770.svg"
+      },
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "res3",
+      "kind": "comparison",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "ROUND OF 16: Brazil 1, Norway 2, Jul 5.",
+      "mainText": "BRAZIL 1 - 2 NORWAY",
+      "emphasis": [],
+      "kicker": "ROUND OF 16 \u2014 Jul 5",
+      "visualConcept": "result comparison card",
+      "compare": {
+        "left": "BRAZIL  1",
+        "right": "2  NORWAY",
+        "leftImg": "shorts/_wc-crests/764.svg"
+      },
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "res4",
+      "kind": "comparison",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "ROUND OF 16: Paraguay 0, France 1, Jul 4.",
+      "mainText": "PARAGUAY 0 - 1 FRANCE",
+      "emphasis": [],
+      "kicker": "ROUND OF 16 \u2014 Jul 4",
+      "visualConcept": "result comparison card",
+      "compare": {
+        "left": "PARAGUAY  0",
+        "right": "1  FRANCE",
+        "leftImg": "shorts/_wc-crests/761.svg",
+        "rightImg": "shorts/_wc-crests/773.svg"
+      },
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "res5",
+      "kind": "comparison",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "ROUND OF 16: Canada 0, Morocco 3, Jul 4.",
+      "mainText": "CANADA 0 - 3 MOROCCO",
+      "emphasis": [],
+      "kicker": "ROUND OF 16 \u2014 Jul 4",
+      "visualConcept": "result comparison card",
+      "compare": {
+        "left": "CANADA  0",
+        "right": "3  MOROCCO"
+      },
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "board": true,
+      "start": 0,
+      "end": 6,
+      "voiceover": "Follow kickoffdaily90 for every result as it happens.",
+      "mainText": "FOLLOW FOR EVERY RESULT",
+      "emphasis": [
+        "EVERY RESULT"
+      ],
+      "kicker": "@KICKOFFDAILY90",
+      "visualConcept": "cta",
+      "emotionalTone": "confidence",
+      "transitionOut": "none"
+    }
+  ]
+}

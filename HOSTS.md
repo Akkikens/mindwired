@@ -3,17 +3,34 @@
 Photoreal recurring presenters for every content lane, lip-synced from a single
 4K master image each. One face per niche, consistent forever.
 
-## The roster (src/viral/hosts.json)
+## One host per CHANNEL (the 4 channels — see CLAUDE.md)
 
-| id | lane | image (4K master) | voice (ElevenLabs) |
+| Channel | Host | Face / format | Voice |
 |---|---|---|---|
-| `orion` | space & science docs | `public/host/orion_v4c_4k.png` | George |
-| `sterling` | finance & money | `public/host/sterling_4k.png` | Adam |
-| `rio` | football / World Cup | `public/host/rio_4k.png` | Daniel |
-| `vex` | gaming / GTA VI / tech | `public/host/vex_4k.png` | Brian |
-| `melody` | singaloo kids (animated, lives in ../singaloo/public/host/) | — | (kids voice, TBD) |
+| **mindwired** (space/science) | **Orion** | photoreal talking-head | cloned Cartesia `00d3c951-…` (host lip-sync via Higgsfield Wan/Seedance audio-driven) |
+| **DimaagBatti** (Hindi) | **Rohan** | voice-only narrator + whiteboard hand (no face avatar) | Cartesia Hindi `4877b818-…` |
+| **KickOffDaily90** (football) | **Jamie** | photoreal talking-head (built for Veo) | Daniel / Cartesia |
+| **Singaloo.kids** (kids) | **Melody** | animated (lives in `../singaloo`) | kids voice |
 
-A plan JSON activates a host with one field: `"host": "rio"`. The registry
+mindwired's other lane hosts (`sterling` finance, `vex` gaming/tech) are sub-lane
+faces within mindwired, not separate channels.
+
+## The registry (src/viral/hosts.json)
+
+| id | lane | image (4K master) | voice |
+|---|---|---|---|
+| `orion` | mindwired — space & science docs | `public/host/orion_v4c_4k.png` | cloned Cartesia `00d3c951-…` |
+| `sterling` | mindwired — finance & money lane | `public/host/sterling_4k.png` | Adam |
+| `jamie` | KickOffDaily90 — football / World Cup (primary, built for Veo) | `public/host/jamie_b.png` | Daniel |
+| `vex` | mindwired — gaming / GTA VI / tech lane | `public/host/vex_4k.png` | Brian |
+| `melody` | Singaloo.kids (animated, lives in ../singaloo/public/host/) | — | (kids voice, TBD) |
+| `Rohan` (Cartesia voice, not an avatar) | DimaagBatti — Hindi explainers | whiteboard hand, no face | Cartesia Hindi `4877b818-…` |
+
+`rio` (an earlier football host) was retired and fully deleted 2026-07-06 —
+Akshay found Jamie more visually realistic. Use `jamie` for all football
+content going forward.
+
+A plan JSON activates a host with one field: `"host": "jamie"`. The registry
 resolves the image, the TTS voice (Hume description + ElevenLabs name), and the
 Sonic movement intensity (`dynamicScale`).
 
@@ -34,10 +51,10 @@ Sonic movement intensity (`dynamicScale`).
 ```bash
 # new pose for an existing host
 .venv-lipsync/bin/python lipsync/gemini_host.py \
-  --out public/host/rio_celebrating.png --ref public/host/rio.png --aspect 9:16 \
+  --out public/host/jamie_celebrating.png --ref public/host/jamie_b.png --aspect 9:16 \
   --prompt "Use the man in the reference photo — exact same face... now arms raised celebrating"
-.venv-lipsync/bin/python lipsync/upscale.py --image public/host/rio_celebrating.png \
-  --out public/host/rio_celebrating_4k.png --scale 4
+.venv-lipsync/bin/python lipsync/upscale.py --image public/host/jamie_celebrating.png \
+  --out public/host/jamie_celebrating_4k.png --scale 4
 ```
 
 ## Producing a host video (any lane)
@@ -120,6 +137,20 @@ but don't burn credit re-testing Sonic/Wav2Lip on wide shots.
 | upscale | nightmareai/real-esrgan on Replicate | ~$0.01/image |
 | lip-sync (paid) | zf-kbot/sonic on Replicate, keep_resolution=True | ~$0.10-0.25/clip |
 | lip-sync (free) | Wav2Lip, local, `batch.py --engine wav2lip` | $0, CPU, ~1-2x realtime |
+| talking hook (best) | Veo 3.1 Fast via GEMINI_API_KEY, `batch.py --engine veo` | ~$1-2 per 8s clip |
+
+**Veo (`--engine veo`, lipsync/veo_client.py) is the quality ceiling** —
+image-to-video with full facial acting + its own generated voice (British
+accent per the prompt), not a mouth-paste. Approved by Akshay 2026-07-04 as
+"actually looks like a human speaking." How it integrates: batch.py generates
+the clip from the scene's `voiceover` as spoken dialogue, extracts Veo's audio
+OVER the scene's ElevenLabs mp3, forced-aligns the text against it (ElevenLabs
+forced-alignment, cheap) so kinetic captions stay word-synced, and updates the
+manifest duration. The engine still plays "the mp3" + "the muted clip" — both
+now from the same Veo generation, so they can't drift. Caveats: 8s clips, 9:16
+only for now, voice varies slightly between generations (no voice pinning), so
+use for hook + CTA scenes, not every scene. Scenes must NOT be `board: true`
+(board scenes never show the host).
 
 SadTalker (cjwbw/sadtalker) is deprecated here — blurry. Sonic replaced it.
 Wav2Lip is the free fallback when Replicate is out of credit — visibly softer

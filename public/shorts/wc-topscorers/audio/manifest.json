@@ -1,0 +1,403 @@
+{
+ "clips": {
+  "hook": {
+   "dur": 12.26,
+   "text": "Here are the top scorers at this World Cup \u2014 Lionel Messi with 7, Kylian Mbapp\u00e9 with 7, Erling Haaland with 7, Harry Kane with 6 goals.",
+   "words": [
+    {
+     "word": "Here",
+     "start": 0.0,
+     "end": 0.383
+    },
+    {
+     "word": "are",
+     "start": 0.441,
+     "end": 0.557
+    },
+    {
+     "word": "the",
+     "start": 0.592,
+     "end": 0.662
+    },
+    {
+     "word": "top",
+     "start": 0.708,
+     "end": 0.929
+    },
+    {
+     "word": "scorers",
+     "start": 0.987,
+     "end": 1.451
+    },
+    {
+     "word": "at",
+     "start": 1.498,
+     "end": 1.579
+    },
+    {
+     "word": "this",
+     "start": 1.614,
+     "end": 1.753
+    },
+    {
+     "word": "World",
+     "start": 1.811,
+     "end": 2.078
+    },
+    {
+     "word": "Cup",
+     "start": 2.136,
+     "end": 2.403
+    },
+    {
+     "word": "\u2014",
+     "start": 2.647,
+     "end": 2.984
+    },
+    {
+     "word": "Lionel",
+     "start": 3.135,
+     "end": 3.529
+    },
+    {
+     "word": "Messi",
+     "start": 3.587,
+     "end": 3.866
+    },
+    {
+     "word": "with",
+     "start": 3.924,
+     "end": 4.075
+    },
+    {
+     "word": "7,",
+     "start": 4.168,
+     "end": 4.737
+    },
+    {
+     "word": "Kylian",
+     "start": 5.248,
+     "end": 5.642
+    },
+    {
+     "word": "Mbapp\u00e9",
+     "start": 5.689,
+     "end": 6.188
+    },
+    {
+     "word": "with",
+     "start": 6.246,
+     "end": 6.409
+    },
+    {
+     "word": "7,",
+     "start": 6.49,
+     "end": 7.012
+    },
+    {
+     "word": "Erling",
+     "start": 7.616,
+     "end": 7.964
+    },
+    {
+     "word": "Haaland",
+     "start": 8.034,
+     "end": 8.417
+    },
+    {
+     "word": "with",
+     "start": 8.464,
+     "end": 8.615
+    },
+    {
+     "word": "7,",
+     "start": 8.696,
+     "end": 9.218
+    },
+    {
+     "word": "Harry",
+     "start": 9.659,
+     "end": 9.985
+    },
+    {
+     "word": "Kane",
+     "start": 10.066,
+     "end": 10.53
+    },
+    {
+     "word": "with",
+     "start": 10.704,
+     "end": 10.902
+    },
+    {
+     "word": "6",
+     "start": 11.018,
+     "end": 11.297
+    },
+    {
+     "word": "goals.",
+     "start": 11.389,
+     "end": 12.26
+    }
+   ]
+  },
+  "gs0": {
+   "dur": 11.285,
+   "text": "The top four: Lionel Messi, 7 goals; Kylian Mbapp\u00e9, 7 goals; Erling Haaland, 7 goals; Harry Kane, 6 goals.",
+   "words": [
+    {
+     "word": "The",
+     "start": 0.0,
+     "end": 0.151
+    },
+    {
+     "word": "top",
+     "start": 0.197,
+     "end": 0.418
+    },
+    {
+     "word": "four:",
+     "start": 0.488,
+     "end": 0.917
+    },
+    {
+     "word": "Lionel",
+     "start": 1.242,
+     "end": 1.602
+    },
+    {
+     "word": "Messi,",
+     "start": 1.66,
+     "end": 2.148
+    },
+    {
+     "word": "7",
+     "start": 2.473,
+     "end": 2.717
+    },
+    {
+     "word": "goals;",
+     "start": 2.798,
+     "end": 3.355
+    },
+    {
+     "word": "Kylian",
+     "start": 3.738,
+     "end": 4.122
+    },
+    {
+     "word": "Mbapp\u00e9,",
+     "start": 4.18,
+     "end": 4.853
+    },
+    {
+     "word": "7",
+     "start": 5.178,
+     "end": 5.422
+    },
+    {
+     "word": "goals;",
+     "start": 5.503,
+     "end": 6.014
+    },
+    {
+     "word": "Erling",
+     "start": 6.293,
+     "end": 6.641
+    },
+    {
+     "word": "Haaland,",
+     "start": 6.711,
+     "end": 7.221
+    },
+    {
+     "word": "7",
+     "start": 7.546,
+     "end": 7.825
+    },
+    {
+     "word": "goals;",
+     "start": 7.918,
+     "end": 8.44
+    },
+    {
+     "word": "Harry",
+     "start": 8.766,
+     "end": 9.079
+    },
+    {
+     "word": "Kane,",
+     "start": 9.149,
+     "end": 9.66
+    },
+    {
+     "word": "6",
+     "start": 9.985,
+     "end": 10.31
+    },
+    {
+     "word": "goals.",
+     "start": 10.426,
+     "end": 11.285
+    }
+   ]
+  },
+  "gs1": {
+   "dur": 12.492,
+   "text": "Rounding out the top eight: Vin\u00edcius J\u00fanior, 4 goals; Jude Bellingham, 4 goals; Ousmane Demb\u00e9l\u00e9, 4 goals; Juli\u00e1n Qui\u00f1ones, 4 goals.",
+   "words": [
+    {
+     "word": "Rounding",
+     "start": 0.0,
+     "end": 0.418
+    },
+    {
+     "word": "out",
+     "start": 0.464,
+     "end": 0.58
+    },
+    {
+     "word": "the",
+     "start": 0.615,
+     "end": 0.685
+    },
+    {
+     "word": "top",
+     "start": 0.731,
+     "end": 0.94
+    },
+    {
+     "word": "eight:",
+     "start": 0.998,
+     "end": 1.382
+    },
+    {
+     "word": "Vin\u00edcius",
+     "start": 1.823,
+     "end": 2.31
+    },
+    {
+     "word": "J\u00fanior,",
+     "start": 2.38,
+     "end": 2.902
+    },
+    {
+     "word": "4",
+     "start": 3.286,
+     "end": 3.529
+    },
+    {
+     "word": "goals;",
+     "start": 3.611,
+     "end": 4.203
+    },
+    {
+     "word": "Jude",
+     "start": 4.586,
+     "end": 4.876
+    },
+    {
+     "word": "Bellingham,",
+     "start": 4.911,
+     "end": 5.457
+    },
+    {
+     "word": "4",
+     "start": 5.7,
+     "end": 5.944
+    },
+    {
+     "word": "goals;",
+     "start": 6.037,
+     "end": 6.606
+    },
+    {
+     "word": "Ousmane",
+     "start": 6.931,
+     "end": 7.477
+    },
+    {
+     "word": "Demb\u00e9l\u00e9,",
+     "start": 7.535,
+     "end": 8.266
+    },
+    {
+     "word": "4",
+     "start": 8.591,
+     "end": 8.835
+    },
+    {
+     "word": "goals;",
+     "start": 8.916,
+     "end": 9.555
+    },
+    {
+     "word": "Juli\u00e1n",
+     "start": 9.88,
+     "end": 10.275
+    },
+    {
+     "word": "Qui\u00f1ones,",
+     "start": 10.344,
+     "end": 11.053
+    },
+    {
+     "word": "4",
+     "start": 11.378,
+     "end": 11.622
+    },
+    {
+     "word": "goals.",
+     "start": 11.703,
+     "end": 12.492
+    }
+   ]
+  },
+  "cta": {
+   "dur": 4.319,
+   "text": "Follow kickoffdaily90 for every result as it happens.",
+   "words": [
+    {
+     "word": "Follow",
+     "start": 0.0,
+     "end": 0.36
+    },
+    {
+     "word": "kickoffdaily90",
+     "start": 0.441,
+     "end": 1.567
+    },
+    {
+     "word": "for",
+     "start": 1.95,
+     "end": 2.101
+    },
+    {
+     "word": "every",
+     "start": 2.183,
+     "end": 2.485
+    },
+    {
+     "word": "result",
+     "start": 2.554,
+     "end": 2.984
+    },
+    {
+     "word": "as",
+     "start": 3.1,
+     "end": 3.262
+    },
+    {
+     "word": "it",
+     "start": 3.32,
+     "end": 3.39
+    },
+    {
+     "word": "happens.",
+     "start": 3.448,
+     "end": 4.319
+    }
+   ]
+  }
+ }
+}

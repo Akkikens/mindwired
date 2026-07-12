@@ -1,0 +1,590 @@
+{
+  "slug": "brokentime",
+  "title": "Time Is Broken: Proof That Clocks Disagree Everywhere in the Universe",
+  "host": "orion",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "start": 0,
+      "end": 8,
+      "voiceover": "Your head is aging faster than your feet. Right now. Measured, in a lab. And that is the smallest example of something much darker.",
+      "mainText": "YOUR HEAD IS OLDER THAN YOUR FEET",
+      "emphasis": [
+        "OLDER"
+      ],
+      "kicker": "THIS IS MEASURED, NOT PHILOSOPHY",
+      "visualConcept": "host cold open, quiet dread",
+      "emotionalTone": "shock",
+      "transitionOut": "whip",
+      "hostClipExists": true
+    },
+    {
+      "id": "b-nist",
+      "kind": "data",
+      "board": true,
+      "start": 8,
+      "end": 19,
+      "voiceover": "In twenty ten, physicists at NIST raised one atomic clock just thirty-three centimeters above another. The higher clock ticked faster. Over a seventy-nine year lifetime, your head ages about ninety billionths of a second more than your feet.",
+      "mainText": "33 CM WAS ENOUGH TO BREAK TIME",
+      "emphasis": [
+        "33 CM"
+      ],
+      "kicker": "NIST 2010 — CHOU ET AL., SCIENCE",
+      "visualConcept": "count-up stat slam",
+      "stat": {
+        "to": 90,
+        "suffix": " ns",
+        "label": "YOUR HEAD GAINS THIS OVER A 79-YEAR LIFE"
+      },
+      "emotionalTone": "shock",
+      "transitionOut": "flash"
+    },
+    {
+      "id": "h-jila",
+      "kind": "comparison",
+      "board": true,
+      "start": 19,
+      "end": 27,
+      "voiceover": "And thirty-three centimeters is nothing. Twelve years later, physicists shrank that experiment down to a distance you can barely see.",
+      "mainText": "THEN THEY SHRANK IT 300X",
+      "emphasis": [
+        "300X"
+      ],
+      "kicker": "JILA, BOULDER, COLORADO",
+      "visualConcept": "scale-down comparison board",
+      "compare": {
+        "left": "NIST 2010: 33 CM",
+        "right": "JILA 2022: 1 MM"
+      },
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "b-jila",
+      "kind": "data",
+      "board": true,
+      "start": 27,
+      "end": 37,
+      "voiceover": "Inside a single cloud of strontium atoms, a clock resolved time running faster across just one millimeter of height. The top of the cloud... aged faster than the bottom.",
+      "mainText": "TIME BENDS ACROSS 1 MILLIMETER",
+      "emphasis": [
+        "1 MILLIMETER"
+      ],
+      "kicker": "BOTHWELL ET AL., NATURE 2022",
+      "visualConcept": "count-up stat slam",
+      "stat": {
+        "to": 1,
+        "suffix": " mm",
+        "label": "SMALLEST DISTANCE TIME DILATION EVER MEASURED"
+      },
+      "emotionalTone": "awe",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "h-gps",
+      "kind": "problem",
+      "start": 37,
+      "end": 44,
+      "voiceover": "This isn't a lab curiosity. Your phone corrects for broken time... every single day. Let me show you.",
+      "mainText": "YOUR PHONE FIGHTS EINSTEIN DAILY",
+      "emphasis": [
+        "EINSTEIN"
+      ],
+      "kicker": "GPS AND GENERAL RELATIVITY",
+      "visualConcept": "host confident reveal",
+      "emotionalTone": "confidence",
+      "transitionOut": "cut",
+      "hostClipExists": true
+    },
+    {
+      "id": "b-gps1",
+      "kind": "comparison",
+      "board": true,
+      "start": 44,
+      "end": 55,
+      "voiceover": "Twenty thousand kilometers up, a GPS satellite's speed slows its clock by seven microseconds a day. But weaker gravity speeds it up by forty-five. Gravity wins — by thirty-eight microseconds, every day.",
+      "mainText": "GRAVITY WINS BY 38 μs A DAY",
+      "emphasis": [
+        "GRAVITY WINS"
+      ],
+      "kicker": "TWO EFFECTS, FIGHTING INSIDE EVERY SATELLITE",
+      "visualConcept": "physics tug-of-war board",
+      "compare": {
+        "left": "SPEED SLOWS IT: −7 μs/DAY",
+        "right": "GRAVITY SPEEDS IT: +45 μs/DAY"
+      },
+      "emotionalTone": "confidence",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "b-gps2",
+      "kind": "shockfact",
+      "board": true,
+      "start": 55,
+      "end": 66,
+      "voiceover": "So engineers detune every GPS clock before launch. It is built deliberately wrong on Earth... so that it becomes right in orbit. Uncorrected, the error would equal about ten kilometers of ranging drift, every single day.",
+      "mainText": "BUILT WRONG ON PURPOSE",
+      "emphasis": [
+        "WRONG ON PURPOSE"
+      ],
+      "kicker": "≈10 KM OF RANGING ERROR PER DAY, UNCORRECTED",
+      "visualConcept": "shock stat slam",
+      "emotionalTone": "shock",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "h-core",
+      "kind": "problem",
+      "start": 66,
+      "end": 75,
+      "voiceover": "Now aim that same physics straight down. Because the deeper you go into the Earth... the slower your clock runs.",
+      "mainText": "THE EARTH AGES UNEVENLY",
+      "emphasis": [
+        "UNEVENLY"
+      ],
+      "kicker": "GRAVITY WELLS SLOW CLOCKS",
+      "visualConcept": "host dread building",
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut",
+      "hostClipExists": true
+    },
+    {
+      "id": "b-core",
+      "kind": "data",
+      "board": true,
+      "start": 75,
+      "end": 85,
+      "voiceover": "Over four and a half billion years, gravitational time dilation has made the center of the Earth about two and a half years younger than the ground you are standing on.",
+      "mainText": "THE CORE IS 2.5 YEARS YOUNGER",
+      "emphasis": [
+        "2.5 YEARS"
+      ],
+      "kicker": "UGGERHØJ ET AL., 2016",
+      "visualConcept": "count-up stat slam",
+      "stat": {
+        "to": 2.5,
+        "suffix": " yrs",
+        "label": "YOUNGER THAN THE SURFACE — SAME PLANET"
+      },
+      "emotionalTone": "awe",
+      "transitionOut": "flash"
+    },
+    {
+      "id": "b-feynman",
+      "kind": "quote",
+      "board": true,
+      "start": 85,
+      "end": 95,
+      "voiceover": "Richard Feynman famously guessed the difference was a day or two. He was wrong by a factor of a thousand — and nobody checked the math for over fifty years.",
+      "mainText": "\"A DAY OR TWO\" — WRONG BY 1,000X",
+      "emphasis": [
+        "WRONG BY 1,000X"
+      ],
+      "kicker": "TEXTBOOKS REPEATED IT FOR DECADES",
+      "visualConcept": "pull-quote card, correction",
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "h-iss",
+      "kind": "problem",
+      "start": 95,
+      "end": 104,
+      "voiceover": "So what happens to an actual human being who leaves the planet? We ran that experiment. With identical twins.",
+      "mainText": "WE TESTED THIS ON TWINS",
+      "emphasis": [
+        "TWINS"
+      ],
+      "kicker": "ONE FLEW. ONE STAYED.",
+      "visualConcept": "host direct address",
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut",
+      "hostClipExists": true
+    },
+    {
+      "id": "b-iss",
+      "kind": "comparison",
+      "board": true,
+      "start": 104,
+      "end": 115,
+      "voiceover": "On the space station, gravity is still nearly full strength — so speed dominates. Orbiting at twenty-eight thousand kilometers per hour slows an astronaut's clock far more than the altitude speeds it up.",
+      "mainText": "IN LOW ORBIT, SPEED BEATS GRAVITY",
+      "emphasis": [
+        "SPEED"
+      ],
+      "kicker": "ASTRONAUTS AGE SLOWER — NOT FASTER",
+      "visualConcept": "physics tug-of-war board",
+      "compare": {
+        "left": "SPEED SLOWS: ~−26 μs/DAY",
+        "right": "ALTITUDE SPEEDS: ~+4 μs/DAY"
+      },
+      "emotionalTone": "confidence",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "b-kelly",
+      "kind": "data",
+      "board": true,
+      "start": 115,
+      "end": 126,
+      "voiceover": "After three hundred forty days in orbit, astronaut Scott Kelly returned about five milliseconds younger than his identical twin brother Mark. He time-traveled. Into the future.",
+      "mainText": "HE CAME BACK 5 MS YOUNGER",
+      "emphasis": [
+        "5 MS YOUNGER"
+      ],
+      "kicker": "SCOTT vs MARK KELLY — 340 DAYS IN ORBIT",
+      "visualConcept": "count-up stat slam",
+      "stat": {
+        "to": 5,
+        "suffix": " ms",
+        "label": "A REAL HUMAN, MEASURABLY TIME-SHIFTED"
+      },
+      "emotionalTone": "shock",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "h-moon",
+      "kind": "problem",
+      "start": 126,
+      "end": 135,
+      "voiceover": "And this is about to become a real engineering crisis. Because we are going back to the Moon... and the Moon runs on different time.",
+      "mainText": "THE MOON RUNS ON DIFFERENT TIME",
+      "emphasis": [
+        "DIFFERENT TIME"
+      ],
+      "kicker": "A TIME ZONE FOR ANOTHER WORLD",
+      "visualConcept": "host excitement build",
+      "emotionalTone": "excitement",
+      "transitionOut": "cut",
+      "hostClipExists": true
+    },
+    {
+      "id": "b-moon",
+      "kind": "data",
+      "board": true,
+      "start": 135,
+      "end": 145,
+      "voiceover": "Lunar clocks gain fifty-six microseconds every single day. That is why NASA is building Coordinated Lunar Time right now — an official clock for another world.",
+      "mainText": "THE MOON GAINS 56 μs EVERY DAY",
+      "emphasis": [
+        "56 μs"
+      ],
+      "kicker": "NASA + NIST — COORDINATED LUNAR TIME",
+      "visualConcept": "count-up stat slam",
+      "stat": {
+        "to": 56,
+        "suffix": " μs",
+        "label": "GAINED PER DAY BY EVERY CLOCK ON THE MOON"
+      },
+      "emotionalTone": "excitement",
+      "transitionOut": "flash"
+    },
+    {
+      "id": "b-mars",
+      "kind": "data",
+      "board": true,
+      "start": 145,
+      "end": 156,
+      "voiceover": "Mars is worse. A Martian clock runs four hundred seventy-seven microseconds a day faster than Earth's. And the rate itself wobbles, as Mars swings closer to and farther from the Sun.",
+      "mainText": "MARS: +477 μs A DAY — AND IT WOBBLES",
+      "emphasis": [
+        "477 μs"
+      ],
+      "kicker": "NIST, THE ASTRONOMICAL JOURNAL",
+      "visualConcept": "count-up stat slam",
+      "stat": {
+        "to": 477,
+        "suffix": " μs",
+        "label": "HOW FAR A MARS CLOCK DRIFTS AHEAD, DAILY"
+      },
+      "emotionalTone": "excitement",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "h-sun",
+      "kind": "comparison",
+      "board": true,
+      "start": 156,
+      "end": 165,
+      "voiceover": "Everything so far has been microseconds. Now let's step into a real gravity well... and watch time visibly bend.",
+      "mainText": "NOW WE LEAVE THE SHALLOW END",
+      "emphasis": [
+        "SHALLOW END"
+      ],
+      "kicker": "INTO A REAL GRAVITY WELL",
+      "visualConcept": "escalation comparison board",
+      "compare": {
+        "left": "SO FAR: MICROSECONDS",
+        "right": "NOW: FULL SECONDS"
+      },
+      "emotionalTone": "awe",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "b-sun",
+      "kind": "data",
+      "board": true,
+      "start": 165,
+      "end": 176,
+      "voiceover": "On the surface of the Sun, clocks fall behind Earth's by about sixty-six seconds every year. Stand there for a lifetime... and you would return more than an hour into the future.",
+      "mainText": "THE SUN LOSES 66 SECONDS A YEAR",
+      "emphasis": [
+        "66 SECONDS"
+      ],
+      "kicker": "A LIFETIME THERE = OVER AN HOUR OF TIME TRAVEL",
+      "visualConcept": "count-up stat slam",
+      "stat": {
+        "to": 66,
+        "suffix": " s",
+        "label": "LOST PER YEAR ON THE SUN'S SURFACE"
+      },
+      "emotionalTone": "awe",
+      "transitionOut": "flash"
+    },
+    {
+      "id": "h-wd",
+      "kind": "comparison",
+      "board": true,
+      "start": 176,
+      "end": 184,
+      "voiceover": "Then we pointed Hubble at the corpse of a dead star... and watched time genuinely crawl. Sirius B packs the mass of our Sun into a ball the size of Earth.",
+      "mainText": "THEN WE FOUND A DEAD STAR",
+      "emphasis": [
+        "DEAD STAR"
+      ],
+      "kicker": "SIRIUS B — A WHITE DWARF",
+      "visualConcept": "mass-vs-size comparison board",
+      "compare": {
+        "left": "MASS OF OUR SUN",
+        "right": "SIZE OF EARTH"
+      },
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "b-wd",
+      "kind": "data",
+      "board": true,
+      "start": 184,
+      "end": 195,
+      "voiceover": "Hubble measured its light, stretched by gravity — clocks there lose about two point four hours every year.",
+      "mainText": "2.4 HOURS LOST — EVERY YEAR",
+      "emphasis": [
+        "2.4 HOURS"
+      ],
+      "kicker": "HUBBLE REDSHIFT: 80.65 KM/S — MEASURED, NOT THEORY",
+      "visualConcept": "count-up stat slam",
+      "stat": {
+        "to": 2.4,
+        "suffix": " hrs",
+        "label": "LOST PER YEAR ON SIRIUS B'S SURFACE"
+      },
+      "emotionalTone": "fear",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "b-ns",
+      "kind": "comparison",
+      "board": true,
+      "start": 195,
+      "end": 206,
+      "voiceover": "On the surface of a neutron star, general relativity predicts time itself runs roughly twenty-five to thirty percent slower. Live one year there... and about sixteen months pass everywhere else.",
+      "mainText": "1 YEAR THERE = ~16 MONTHS OUTSIDE",
+      "emphasis": [
+        "16 MONTHS"
+      ],
+      "kicker": "GR PREDICTION — ROUGHLY 25-30% SLOWER",
+      "visualConcept": "split reality comparison",
+      "compare": {
+        "left": "YOUR CLOCK: 1 YEAR",
+        "right": "THE UNIVERSE: ~16 MONTHS"
+      },
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "h-s2",
+      "kind": "data",
+      "board": true,
+      "start": 206,
+      "end": 215,
+      "voiceover": "But the deepest clock experiment in history didn't use a clock at all. It used an entire star... falling toward a supermassive black hole, at a distance of just 120 astronomical units.",
+      "mainText": "THEY USED A STAR AS THE CLOCK",
+      "emphasis": [
+        "A STAR"
+      ],
+      "kicker": "SAGITTARIUS A* — OUR GALAXY'S CENTER",
+      "visualConcept": "count-up stat slam",
+      "stat": {
+        "to": 120,
+        "suffix": " AU",
+        "label": "S2's CLOSEST APPROACH TO SAGITTARIUS A*"
+      },
+      "emotionalTone": "awe",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "b-s2",
+      "kind": "data",
+      "board": true,
+      "start": 215,
+      "end": 227,
+      "voiceover": "In twenty eighteen, the star S2 swung past Sagittarius A star at nearly three percent of the speed of light. Its light stretched exactly as Einstein predicted — a century after he wrote it down.",
+      "mainText": "EINSTEIN WAS RIGHT — AGAIN",
+      "emphasis": [
+        "RIGHT"
+      ],
+      "kicker": "GRAVITY COLLABORATION, 2018",
+      "visualConcept": "count-up stat slam",
+      "stat": {
+        "to": 7650,
+        "suffix": " km/s",
+        "label": "S2 AT CLOSEST APPROACH — 2.55% OF LIGHT SPEED"
+      },
+      "emotionalTone": "awe",
+      "transitionOut": "flash"
+    },
+    {
+      "id": "h-miller",
+      "kind": "problem",
+      "start": 227,
+      "end": 234,
+      "voiceover": "So could Interstellar really happen? One hour on that planet... seven years on Earth. Here's what the physics says.",
+      "mainText": "COULD INTERSTELLAR BE REAL?",
+      "emphasis": [
+        "REAL?"
+      ],
+      "kicker": "MILLER'S PLANET — 1 HOUR = 7 YEARS",
+      "visualConcept": "host knowing-tease",
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut",
+      "hostClipExists": true
+    },
+    {
+      "id": "b-miller",
+      "kind": "comparison",
+      "board": true,
+      "start": 234,
+      "end": 245,
+      "voiceover": "Kip Thorne did the math. It works — but only around a black hole spinning within one part in one hundred trillion of the maximum the universe allows.",
+      "mainText": "1 HOUR THERE = 7 YEARS ON EARTH",
+      "emphasis": [
+        "7 YEARS"
+      ],
+      "kicker": "REQUIRES SPIN WITHIN 1 PART IN 10¹⁴ OF MAXIMAL",
+      "visualConcept": "split reality comparison",
+      "compare": {
+        "left": "MILLER'S PLANET: 1 HOUR",
+        "right": "EARTH: 7 YEARS"
+      },
+      "emotionalTone": "shock",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "b-quote",
+      "kind": "quote",
+      "board": true,
+      "start": 245,
+      "end": 255,
+      "voiceover": "Thorne's own verdict: possible in principle... implausible in nature. The universe allows it. It just probably never built one.",
+      "mainText": "\"POSSIBLE IN PRINCIPLE, IMPLAUSIBLE IN NATURE\"",
+      "emphasis": [
+        "IMPLAUSIBLE"
+      ],
+      "kicker": "KIP THORNE — THE SCIENCE OF INTERSTELLAR",
+      "visualConcept": "pull-quote card",
+      "emotionalTone": "awe",
+      "transitionOut": "flash"
+    },
+    {
+      "id": "h-twist",
+      "kind": "shockfact",
+      "start": 255,
+      "end": 265,
+      "voiceover": "And here's the part that should genuinely unsettle you. You would never feel any of this. Your clock always ticks normally... it's everyone else's that drifts.",
+      "mainText": "YOU'D NEVER FEEL IT HAPPENING",
+      "emphasis": [
+        "NEVER FEEL IT"
+      ],
+      "kicker": "TIME ONLY BREAKS WHEN YOU COMPARE",
+      "visualConcept": "host quiet devastation",
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "b-now",
+      "kind": "shockfact",
+      "board": true,
+      "start": 265,
+      "end": 276,
+      "voiceover": "GPS satellites. The Moon. Mars. The Sun. Every star in the sky. No two clocks in the universe agree. There is no master clock. Now... only exists where you are standing.",
+      "mainText": "THERE IS NO UNIVERSAL \"NOW\"",
+      "emphasis": [
+        "NO UNIVERSAL"
+      ],
+      "kicker": "EVERY CLOCK IN THE UNIVERSE DISAGREES",
+      "visualConcept": "devastating stat slam",
+      "emotionalTone": "fear",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "start": 276,
+      "end": 284,
+      "voiceover": "Time isn't one river — it's billions of them, all flowing at different speeds. Subscribe to mindwired... yours is running out.",
+      "mainText": "SUBSCRIBE — YOUR CLOCK IS RUNNING",
+      "emphasis": [
+        "SUBSCRIBE"
+      ],
+      "kicker": "@MINDWIREDD",
+      "visualConcept": "host CTA, warm close",
+      "emotionalTone": "confidence",
+      "transitionOut": "none",
+      "hostClipExists": true
+    }
+  ],
+  "shortCuts": [
+    {
+      "id": "headfeet",
+      "title": "Your head is older than your feet",
+      "scenes": [
+        "hook",
+        "b-nist",
+        "b-jila",
+        "cta"
+      ]
+    },
+    {
+      "id": "earthcore",
+      "title": "Earth's core is 2.5 years younger than the surface",
+      "scenes": [
+        "h-core",
+        "b-core",
+        "b-feynman",
+        "cta"
+      ]
+    },
+    {
+      "id": "kellytwins",
+      "title": "The astronaut who time-traveled into the future",
+      "scenes": [
+        "h-iss",
+        "b-iss",
+        "b-kelly",
+        "cta"
+      ]
+    },
+    {
+      "id": "millerplanet",
+      "title": "Could Interstellar's time planet be real?",
+      "scenes": [
+        "h-miller",
+        "b-miller",
+        "b-quote",
+        "cta"
+      ]
+    }
+  ]
+}

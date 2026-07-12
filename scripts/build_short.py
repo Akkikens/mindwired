@@ -6,16 +6,19 @@ tone-matched acting direction, and writes:
   public/shorts/<slug>/audio/<sceneId>.mp3
   public/shorts/<slug>/audio/manifest.json   {clips: {id: {dur, text, words[], estimated?}}}
 
-Word timings: Hume doesn't return word timestamps, so we estimate them across the
-real clip duration (same syllable model as the renderer's fallback). If ElevenLabs
-is used, its with-timestamps endpoint gives real word timings.
+Word timings: ElevenLabs' with-timestamps endpoint returns real timings; Hume
+and Cartesia don't, so by default we force-align their generated mp3 against the
+known text (a cheap, non-generative ElevenLabs /forced-alignment call) to get
+frame-accurate captions on the primary engine too. If alignment is unavailable
+(no key / quota / --no-align) we fall back to the syllable estimator.
 
-Usage: python3 scripts/build_short.py <slug> [--voice hume|cartesia|eleven|hume-cartesia]
+Usage: python3 scripts/build_short.py <slug> [--voice hume|cartesia|eleven|hume-cartesia] [--align|--no-align]
   hume          Octave, falls back to ElevenLabs then silent estimate (default)
   cartesia      Sonic-3.5, falls back to ElevenLabs then silent estimate
   eleven        ElevenLabs only (real word timings, least expressive)
-  hume-cartesia Octave -> Cartesia -> silent estimate — NEVER touches ElevenLabs.
-                Use this when a video must stay on an emotionally-acted engine only.
+  hume-cartesia Octave -> Cartesia -> silent estimate — NEVER touches ElevenLabs
+                (alignment off by default here too; --align to force it on).
+  --align/--no-align  force forced-alignment on/off (default: on except hume-cartesia)
 Idempotent per clip: existing mp3 + manifest entry are kept.
 """
 import json
@@ -91,6 +94,15 @@ def main():
     if not chain:
         sys.exit(f"unknown --voice '{pref}' — choose from {', '.join(ENGINE_CHAINS)}")
 
+    # Force-align non-ElevenLabs audio for real caption timings. Default on,
+    # except in the deliberately ElevenLabs-free "hume-cartesia" mode (its whole
+    # point is to touch no ElevenLabs endpoint). --align / --no-align override.
+    do_align = pref != "hume-cartesia"
+    if "--align" in sys.argv:
+        do_align = True
+    if "--no-align" in sys.argv:
+        do_align = False
+
     plan = json.loads((REPO / "src" / "viral" / "plans" / f"{slug}.json").read_text())
     outdir = REPO / "public" / "shorts" / slug / "audio"
     outdir.mkdir(parents=True, exist_ok=True)
@@ -128,11 +140,26 @@ def main():
                     audio = cartesia.tts(text, voice=cartesia_voice, tone=tone)
                 elif step == "eleven":
                     import eleven
-                    audio, words = eleven.tts_aligned(text, voice=eleven_voice)
+                    audio, words = eleven.tts_aligned(text, voice=eleven_voice, tone=tone)
                 engine = step
             except BaseException as e:  # hume.py sys.exits on HTTP errors (e.g. zero credits)
                 nxt = " → trying next engine" if step != chain[-1] else " → silent estimate"
                 print(f"  [{step} failed: {type(e).__name__}: {e}]{nxt}")
+
+        # Real word timings: ElevenLabs' with-timestamps path already returns
+        # them, but Hume/Cartesia don't — so their captions used to run on the
+        # syllable estimator and drift off the voice. Force-align the generated
+        # mp3 against the known text (a cheap, non-generative ElevenLabs call)
+        # to get frame-accurate timings on our PRIMARY (Hume) engine too.
+        if audio is not None and not words and do_align:
+            try:
+                import eleven
+                aligned = eleven.forced_align(audio, text)
+                if aligned:
+                    words = aligned
+                    print(f"    [aligned {cid}: {len(words)} words via forced-alignment]")
+            except BaseException as e:
+                print(f"    [align skipped: {type(e).__name__} → estimated timings]")
 
         if audio is not None:
             mp3.write_bytes(audio)
@@ -141,13 +168,26 @@ def main():
                 "dur": round(dur, 3), "text": text,
                 "words": words if words else estimate_words(text, dur),
             }
-            print(f"  [{engine}] {cid}: {dur:.2f}s ({tone})")
+            # Real amplitude envelope so VoicePulse tracks the actual voice
+            # (best-effort — never crash the build). See scripts/lib/envelope.py.
+            import envelope
+            amp = envelope.envelope_from_mp3(mp3)
+            if amp:
+                manifest["clips"][cid]["amp"] = amp
+            timing = "real" if words else "estimated"
+            print(f"  [{engine}] {cid}: {dur:.2f}s ({tone}, {timing} timings)")
         else:
             dur = max(1.2, sc["end"] - sc["start"])
             subprocess.run(["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=mono",
                             "-t", f"{dur:.2f}", "-q:a", "9", str(mp3)], capture_output=True)
             manifest["clips"][cid] = {"dur": dur, "text": text,
                                       "words": estimate_words(text, dur), "estimated": True}
+            # Silent clip has no real amplitude; best-effort envelope stays empty
+            # so VoicePulse falls back to its word-density behavior.
+            import envelope
+            amp = envelope.envelope_from_mp3(mp3)
+            if amp:
+                manifest["clips"][cid]["amp"] = amp
             print(f"  [estimated] {cid}: {dur:.2f}s")
 
         man_path.write_text(json.dumps(manifest, indent=1))

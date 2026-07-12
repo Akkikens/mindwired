@@ -1,0 +1,96 @@
+{
+  "slug": "wc-portugal-spain",
+  "title": "World Cup \u2014 Spain's Last-Minute Winner Ends Portugal's Run",
+  "host": "jamie",
+  "channel": "kickoffdaily90",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "board": true,
+      "start": 0,
+      "end": 6,
+      "voiceover": "Portugal's World Cup ended in the very last minute.",
+      "mainText": "PORTUGAL'S WORLD CUP ENDED IN THE LAST MINUTE",
+      "emphasis": [
+        "LAST MINUTE"
+      ],
+      "kicker": "ROUND OF 16 HEARTBREAK",
+      "visualConcept": "host cold open",
+      "backgroundPrompt": "A footballer on his knees on the pitch in despair after a last-minute loss, stadium lights above, dramatic and somber, cinematic painterly illustration, no text, no watermark",
+      "emotionalTone": "shock",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "score",
+      "kind": "comparison",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "Round of 16: Portugal 0, Spain 1.",
+      "mainText": "PORTUGAL 0 - 1 SPAIN",
+      "emphasis": [],
+      "kicker": "ROUND OF 16 \u2014 JUL 6",
+      "visualConcept": "fixture comparison card",
+      "compare": {
+        "left": "PORTUGAL  0",
+        "right": "1  SPAIN",
+        "leftImg": "shorts/_wc-crests/765.svg",
+        "rightImg": "shorts/_wc-crests/760.svg"
+      },
+      "emotionalTone": "shock",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "merino",
+      "kind": "shockfact",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "Mikel Merino scored the winner in the first minute of stoppage time \u2014 the ninetieth-plus-first minute.",
+      "mainText": "MERINO SCORED IN STOPPAGE TIME \u2014 90+1'",
+      "emphasis": [
+        "90+1'"
+      ],
+      "kicker": "90+1' \u2014 MERINO",
+      "visualConcept": "decisive late goal moment",
+      "backgroundPrompt": "A footballer in a red kit sprinting in explosive celebration after scoring a last-second winning goal, stadium floodlights, roaring crowd, cinematic painterly illustration, no text, no watermark",
+      "emotionalTone": "excitement",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "resignation",
+      "kind": "shockfact",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "Minutes later, Portugal's head coach announced his resignation, effective immediately.",
+      "mainText": "PORTUGAL'S COACH RESIGNED \u2014 EFFECTIVE IMMEDIATELY",
+      "emphasis": [
+        "RESIGNED",
+        "IMMEDIATELY"
+      ],
+      "kicker": "IMMEDIATE FALLOUT",
+      "visualConcept": "emotional aftermath",
+      "backgroundPrompt": "A football manager in a suit standing alone in an empty stadium tunnel, head down, walking away, somber and final, cinematic painterly illustration, no text, no watermark",
+      "emotionalTone": "awe",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "board": true,
+      "start": 0,
+      "end": 6,
+      "voiceover": "Follow kickoffdaily90 for every World Cup shock as it happens.",
+      "mainText": "FOLLOW FOR EVERY WORLD CUP SHOCK",
+      "emphasis": [
+        "EVERY WORLD CUP SHOCK"
+      ],
+      "kicker": "@KICKOFFDAILY90",
+      "visualConcept": "cta",
+      "emotionalTone": "confidence",
+      "transitionOut": "none"
+    }
+  ]
+}

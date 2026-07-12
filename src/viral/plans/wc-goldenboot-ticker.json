@@ -1,0 +1,215 @@
+{
+  "slug": "wc-goldenboot-ticker",
+  "title": "World Cup \u2014 Golden Boot Race (Top 20)",
+  "host": "rio",
+  "channel": "kickoffdaily90",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "board": true,
+      "start": 0,
+      "end": 6,
+      "voiceover": "The Golden Boot race at this World Cup \u2014 Lionel Messi with 7, Kylian Mbapp\u00e9 with 7, Erling Haaland with 7, Harry Kane with 6 goals.",
+      "mainText": "THE GOLDEN BOOT RACE",
+      "emphasis": [
+        "GOLDEN BOOT"
+      ],
+      "kicker": "WORLD CUP 2026 \u2014 TOP 20",
+      "visualConcept": "host cold open",
+      "emotionalTone": "excitement",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "gb0",
+      "kind": "data",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "Ranked 1 through 4: Lionel Messi, 7 goals; Kylian Mbapp\u00e9, 7 goals; Erling Haaland, 7 goals; Harry Kane, 6 goals.",
+      "mainText": "GOLDEN BOOT RACE",
+      "emphasis": [],
+      "kicker": "RANKED 1-4",
+      "visualConcept": "top scorers bar chart",
+      "stat": {
+        "to": 0,
+        "bars": [
+          {
+            "label": "Lionel Messi (ARG)",
+            "value": 7
+          },
+          {
+            "label": "Kylian Mbapp\u00e9 (FRA)",
+            "value": 7
+          },
+          {
+            "label": "Erling Haaland (NOR)",
+            "value": 7
+          },
+          {
+            "label": "Harry Kane (ENG)",
+            "value": 6
+          }
+        ]
+      },
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "gb1",
+      "kind": "data",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "Ranked 5 through 8: Vin\u00edcius J\u00fanior, 4 goals; Jude Bellingham, 4 goals; Ousmane Demb\u00e9l\u00e9, 4 goals; Juli\u00e1n Qui\u00f1ones, 4 goals.",
+      "mainText": "GOLDEN BOOT RACE, 5-8",
+      "emphasis": [],
+      "kicker": "RANKED 5-8",
+      "visualConcept": "top scorers bar chart",
+      "stat": {
+        "to": 0,
+        "bars": [
+          {
+            "label": "Vin\u00edcius J\u00fanior (BRA)",
+            "value": 4
+          },
+          {
+            "label": "Jude Bellingham (ENG)",
+            "value": 4
+          },
+          {
+            "label": "Ousmane Demb\u00e9l\u00e9 (FRA)",
+            "value": 4
+          },
+          {
+            "label": "Juli\u00e1n Qui\u00f1ones (MEX)",
+            "value": 4
+          }
+        ]
+      },
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "gb2",
+      "kind": "data",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "Ranked 9 through 12: Isma\u00efla Sarr, 4 goals; Mikel Oyarzabal, 4 goals; Matheus Cunha, 3 goals; Jonathan David, 3 goals.",
+      "mainText": "GOLDEN BOOT RACE, 9-12",
+      "emphasis": [],
+      "kicker": "RANKED 9-12",
+      "visualConcept": "top scorers bar chart",
+      "stat": {
+        "to": 0,
+        "bars": [
+          {
+            "label": "Isma\u00efla Sarr (SEN)",
+            "value": 4
+          },
+          {
+            "label": "Mikel Oyarzabal (ESP)",
+            "value": 4
+          },
+          {
+            "label": "Matheus Cunha (BRA)",
+            "value": 3
+          },
+          {
+            "label": "Jonathan David (CAN)",
+            "value": 3
+          }
+        ]
+      },
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "gb3",
+      "kind": "data",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "Ranked 13 through 16: Yoane Wissa, 3 goals; Kai Havertz, 3 goals; Deniz Undav, 3 goals; Ra\u00fal Jim\u00e9nez, 3 goals.",
+      "mainText": "GOLDEN BOOT RACE, 13-16",
+      "emphasis": [],
+      "kicker": "RANKED 13-16",
+      "visualConcept": "top scorers bar chart",
+      "stat": {
+        "to": 0,
+        "bars": [
+          {
+            "label": "Yoane Wissa (COD)",
+            "value": 3
+          },
+          {
+            "label": "Kai Havertz (GER)",
+            "value": 3
+          },
+          {
+            "label": "Deniz Undav (GER)",
+            "value": 3
+          },
+          {
+            "label": "Ra\u00fal Jim\u00e9nez (MEX)",
+            "value": 3
+          }
+        ]
+      },
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "gb4",
+      "kind": "data",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "Ranked 17 through 20: Ismael Saibari, 3 goals; Brian Brobbey, 3 goals; Cody Gakpo, 3 goals; Elijah Just, 3 goals.",
+      "mainText": "GOLDEN BOOT RACE, 17-20",
+      "emphasis": [],
+      "kicker": "RANKED 17-20",
+      "visualConcept": "top scorers bar chart",
+      "stat": {
+        "to": 0,
+        "bars": [
+          {
+            "label": "Ismael Saibari (MAR)",
+            "value": 3
+          },
+          {
+            "label": "Brian Brobbey (NED)",
+            "value": 3
+          },
+          {
+            "label": "Cody Gakpo (NED)",
+            "value": 3
+          },
+          {
+            "label": "Elijah Just (NZL)",
+            "value": 3
+          }
+        ]
+      },
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "board": true,
+      "start": 0,
+      "end": 6,
+      "voiceover": "Follow kickoffdaily90 for every result as it happens.",
+      "mainText": "FOLLOW FOR EVERY RESULT",
+      "emphasis": [
+        "EVERY RESULT"
+      ],
+      "kicker": "@KICKOFFDAILY90",
+      "visualConcept": "cta",
+      "emotionalTone": "confidence",
+      "transitionOut": "none"
+    }
+  ]
+}

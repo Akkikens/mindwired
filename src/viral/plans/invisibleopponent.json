@@ -1,0 +1,416 @@
+{
+  "slug": "invisibleopponent",
+  "title": "The Invisible Opponent — How Altitude & Heat Are Deciding This World Cup",
+  "host": "jamie",
+  "channel": "kickoffdaily90",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "start": 0,
+      "end": 8,
+      "voiceover": "England are about to walk into the one stadium that beats you before kickoff. Let me introduce you to the invisible opponent of this World Cup.",
+      "mainText": "THE INVISIBLE OPPONENT",
+      "emphasis": [
+        "INVISIBLE"
+      ],
+      "kicker": "MEXICO vs ENGLAND — THE AZTECA",
+      "visualConcept": "VEO talking hook",
+      "emotionalTone": "curiosity",
+      "transitionOut": "whip",
+      "hostClipExists": true
+    },
+    {
+      "id": "s1",
+      "kind": "shockfact",
+      "board": true,
+      "start": 8,
+      "end": 17,
+      "voiceover": "Sunday night, eight PM Eastern: Mexico versus England at the Estadio Azteca. And here's the detail that changes everything — England have not played at the Azteca in forty years.",
+      "mainText": "ENGLAND'S FIRST AZTECA GAME IN 40 YEARS",
+      "emphasis": [
+        "40 YEARS"
+      ],
+      "kicker": "SUNDAY 8PM ET — MEXICO CITY",
+      "visualConcept": "stakes slam",
+      "emotionalTone": "shock",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "s2",
+      "kind": "problem",
+      "board": true,
+      "start": 17,
+      "end": 26,
+      "voiceover": "The last time they did? June 1986. A quarterfinal against Argentina. A little hand went up above Peter Shilton... and football changed forever.",
+      "mainText": "LAST VISIT: THE HAND OF GOD",
+      "emphasis": [
+        "HAND OF GOD"
+      ],
+      "kicker": "ARGENTINA 2-1 ENGLAND — 1986",
+      "visualConcept": "history card",
+      "emotionalTone": "awe",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "s3",
+      "kind": "quote",
+      "board": true,
+      "start": 26,
+      "end": 34,
+      "voiceover": "A little with the head of Maradona... and a little with the hand of God. Forty years later, England finally walk back into that building.",
+      "mainText": "\"A LITTLE WITH THE HAND OF GOD\"",
+      "emphasis": [
+        "HAND OF GOD"
+      ],
+      "kicker": "— DIEGO MARADONA",
+      "visualConcept": "pull quote",
+      "emotionalTone": "awe",
+      "transitionOut": "flash"
+    },
+    {
+      "id": "a1",
+      "kind": "data",
+      "board": true,
+      "start": 34,
+      "end": 43,
+      "voiceover": "So what makes the Azteca different from every other stadium at this World Cup? Start with this number: two thousand two hundred and forty metres above sea level. The highest venue of the tournament.",
+      "mainText": "2,240M ABOVE THE SEA",
+      "emphasis": [
+        "2,240M"
+      ],
+      "kicker": "CHAPTER 1 — THIN AIR",
+      "visualConcept": "altitude count-up",
+      "stat": {
+        "to": 2240,
+        "suffix": "m",
+        "label": "THE HIGHEST VENUE OF THE WORLD CUP"
+      },
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "a2",
+      "kind": "shockfact",
+      "board": true,
+      "start": 43,
+      "end": 52,
+      "voiceover": "Up there, every breath delivers about a fifth less oxygen than at sea level. Your heart races. You fatigue faster. You recover slower. And there is nothing you can do about it in real time.",
+      "mainText": "A FIFTH LESS OXYGEN. EVERY BREATH.",
+      "emphasis": [
+        "FIFTH LESS"
+      ],
+      "kicker": "THE SCIENCE OF THIN AIR",
+      "visualConcept": "oxygen slam",
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "a3",
+      "kind": "problem",
+      "board": true,
+      "start": 52,
+      "end": 61,
+      "voiceover": "The ball changes too. In thinner air it flies faster, swerves less — analysts estimate long passes travel around five yards further than players' instincts expect. Goalkeepers hate this place.",
+      "mainText": "THE BALL FLIES ~5 YARDS FURTHER",
+      "emphasis": [
+        "5 YARDS"
+      ],
+      "kicker": "GOALKEEPERS HATE IT HERE",
+      "visualConcept": "ball physics board",
+      "emotionalTone": "shock",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "a4",
+      "kind": "comparison",
+      "board": true,
+      "start": 61,
+      "end": 70,
+      "voiceover": "Here's the brutal maths: full altitude acclimatisation takes about ten days. England landed in Mexico City with roughly two. You cannot cheat physiology.",
+      "mainText": "NEEDED: 10 DAYS. ENGLAND HAVE: 2.",
+      "emphasis": [
+        "2."
+      ],
+      "kicker": "YOU CAN'T CHEAT PHYSIOLOGY",
+      "visualConcept": "acclimatisation gap",
+      "compare": {
+        "left": "NEEDED: ~10 DAYS",
+        "right": "ENGLAND: ~2 DAYS"
+      },
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "a5",
+      "kind": "quote",
+      "board": true,
+      "start": 70,
+      "end": 79,
+      "voiceover": "Don't take my word for it. Thomas Tuchel said it himself: we cannot physically adapt to it in four days — it's just impossible. He called the altitude a huge advantage for Mexico.",
+      "mainText": "\"IT'S JUST IMPOSSIBLE\" — TUCHEL",
+      "emphasis": [
+        "IMPOSSIBLE"
+      ],
+      "kicker": "ENGLAND'S OWN MANAGER",
+      "visualConcept": "tuchel quote card",
+      "emotionalTone": "shock",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "a6",
+      "kind": "problem",
+      "board": true,
+      "start": 79,
+      "end": 88,
+      "voiceover": "And Mexico's boss Javier Aguirre? Asked about his altitude edge, he shrugged: I really do not focus on that. Of course he doesn't. His squad plays up here every single week.",
+      "mainText": "AGUIRRE: \"I DO NOT FOCUS ON THAT\" 😏",
+      "emphasis": [
+        "😏"
+      ],
+      "kicker": "MIND GAMES — HIS SQUAD LIVES UP HERE",
+      "visualConcept": "aguirre counterpoint",
+      "emotionalTone": "confidence",
+      "transitionOut": "flash"
+    },
+    {
+      "id": "f1",
+      "kind": "data",
+      "board": true,
+      "start": 88,
+      "end": 97,
+      "voiceover": "Now add the fortress on top of the physics. Mexico are unbeaten in their last twenty-two competitive matches at the Azteca. Sixteen wins, six draws.",
+      "mainText": "UNBEATEN IN 22 STRAIGHT AT THE AZTECA",
+      "emphasis": [
+        "22"
+      ],
+      "kicker": "CHAPTER 2 — THE FORTRESS",
+      "visualConcept": "fortress count-up",
+      "stat": {
+        "to": 22,
+        "label": "COMPETITIVE MATCHES UNBEATEN AT THE AZTECA"
+      },
+      "emotionalTone": "confidence",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "f2",
+      "kind": "shockfact",
+      "board": true,
+      "start": 97,
+      "end": 105,
+      "voiceover": "And in World Cup matches at this stadium — across every tournament ever hosted here — Mexico have never lost. Not once.",
+      "mainText": "NEVER LOST A WC GAME HERE. EVER.",
+      "emphasis": [
+        "NEVER"
+      ],
+      "kicker": "THE AZTECA RECORD",
+      "visualConcept": "record slam",
+      "emotionalTone": "shock",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "f3",
+      "kind": "comparison",
+      "board": true,
+      "start": 105,
+      "end": 114,
+      "voiceover": "This tournament? Four matches at the Azteca, four wins, zero goals conceded. South Africa, South Korea, Czechia, and Ecuador in the knockouts — nobody has scored on Mexico in this building.",
+      "mainText": "4 GAMES. 4 WINS. 0 CONCEDED.",
+      "emphasis": [
+        "0"
+      ],
+      "kicker": "MEXICO AT THE AZTECA, 2026",
+      "visualConcept": "clean sheet board",
+      "compare": {
+        "left": "MEXICO: 8 SCORED",
+        "right": "OPPONENTS: 0"
+      },
+      "emotionalTone": "confidence",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "f4",
+      "kind": "problem",
+      "board": true,
+      "start": 114,
+      "end": 123,
+      "voiceover": "That Ecuador win ended a forty-year wait for a World Cup knockout victory — and it detonated the loudest party this tournament has seen. Sunday will be louder.",
+      "mainText": "THE 40-YEAR CURSE IS ALREADY BROKEN",
+      "emphasis": [
+        "BROKEN"
+      ],
+      "kicker": "MEXICO 2-0 ECUADOR — R32",
+      "visualConcept": "curse broken card",
+      "emotionalTone": "excitement",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "f5",
+      "kind": "shockfact",
+      "board": true,
+      "start": 123,
+      "end": 132,
+      "voiceover": "So understand the collision: Sunday is Mexico's FIFTH straight match in this stadium... and England's first in forty years. One team is home. The other is at altitude, in history, and in trouble.",
+      "mainText": "MEXICO'S 5TH GAME HERE. ENGLAND'S 1ST IN 40 YEARS.",
+      "emphasis": [
+        "5TH",
+        "1ST"
+      ],
+      "kicker": "THE WHOLE VIDEO IN ONE STAT",
+      "visualConcept": "spine slam",
+      "emotionalTone": "awe",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "h1",
+      "kind": "problem",
+      "board": true,
+      "start": 132,
+      "end": 141,
+      "voiceover": "And the Azteca is just one front in this tournament's war with the elements — because scientists warned this was on course to be the hottest World Cup ever played.",
+      "mainText": "THE HOTTEST WORLD CUP EVER PLAYED",
+      "emphasis": [
+        "HOTTEST"
+      ],
+      "kicker": "CHAPTER 3 — THE HEAT WAR",
+      "visualConcept": "heat chapter card",
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "h2",
+      "kind": "shockfact",
+      "board": true,
+      "start": 141,
+      "end": 150,
+      "voiceover": "For the first time in World Cup history, every match has mandatory three-minute cooling breaks — one per half, even indoors. Yesterday's France-Paraguay game in Philadelphia was forecast to hit one hundred degrees.",
+      "mainText": "FIRST WC EVER WITH MANDATORY COOLING BREAKS",
+      "emphasis": [
+        "FIRST"
+      ],
+      "kicker": "PHILLY FORECAST: 100°F FOR FRANCE-PARAGUAY",
+      "visualConcept": "heat rules board",
+      "emotionalTone": "shock",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "h3",
+      "kind": "quote",
+      "board": true,
+      "start": 150,
+      "end": 159,
+      "voiceover": "Not everyone's happy. Pochettino called the breaks unnecessary when conditions are good. Meanwhile twenty-one scientists wrote to FIFA saying three minutes is too SHORT to matter — and should be doubled.",
+      "mainText": "COACHES: TOO MUCH. SCIENTISTS: NOT ENOUGH.",
+      "emphasis": [
+        "TOO MUCH.",
+        "NOT ENOUGH."
+      ],
+      "kicker": "NOBODY AGREES ON THE HEAT",
+      "visualConcept": "controversy split",
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "h4",
+      "kind": "problem",
+      "board": true,
+      "start": 159,
+      "end": 168,
+      "voiceover": "The pattern is everywhere: tracking data reported from the hottest afternoon venues shows sprinting falling off a cliff late in games. The environment isn't background at this World Cup. It's a player.",
+      "mainText": "THE ENVIRONMENT IS A PLAYER NOW",
+      "emphasis": [
+        "PLAYER"
+      ],
+      "visualConcept": "environment punditry",
+      "emotionalTone": "awe",
+      "transitionOut": "flash"
+    },
+    {
+      "id": "v1",
+      "kind": "problem",
+      "board": true,
+      "start": 168,
+      "end": 177,
+      "voiceover": "So can England survive it? They banked heat training in Florida before the tournament — and Tuchel insists heat won't be the problem. The altitude is the problem. And Kane arrives having just passed Pelé.",
+      "mainText": "CAN KANE SILENCE THE AZTECA?",
+      "emphasis": [
+        "KANE"
+      ],
+      "kicker": "CHAPTER 4 — THE VERDICT",
+      "visualConcept": "england case",
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "v2",
+      "kind": "comparison",
+      "board": true,
+      "start": 177,
+      "end": 186,
+      "voiceover": "The fortress, the physics and one hundred thousand voices say Mexico. The squad depth and the best striker on paper say England. I said England — just. And honestly? I'm sweating on it.",
+      "mainText": "FORTRESS vs FIREPOWER",
+      "emphasis": [
+        "FORTRESS",
+        "FIREPOWER"
+      ],
+      "kicker": "MY CALL: ENGLAND — JUST",
+      "visualConcept": "verdict split",
+      "compare": {
+        "left": "MEXICO — THE AZTECA",
+        "right": "ENGLAND — KANE"
+      },
+      "emotionalTone": "excitement",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "start": 186,
+      "end": 194,
+      "voiceover": "Mexico, England, thin air and forty years of ghosts — Sunday, eight PM Eastern. The breakdown drops right after the whistle. Subscribe, and tell me who survives the Azteca.",
+      "mainText": "WHO SURVIVES THE AZTECA? 👇",
+      "emphasis": [
+        "SURVIVES"
+      ],
+      "kicker": "SUNDAY 8PM ET",
+      "visualConcept": "VEO talking CTA",
+      "emotionalTone": "confidence",
+      "transitionOut": "none",
+      "hostClipExists": true
+    }
+  ],
+  "shortCuts": [
+    {
+      "id": "azteca40",
+      "title": "England's first Azteca game since the Hand of God",
+      "scenes": [
+        "hook",
+        "s2",
+        "f5",
+        "cta"
+      ]
+    },
+    {
+      "id": "thinair",
+      "title": "The Azteca beats you before kickoff — the science",
+      "scenes": [
+        "a1",
+        "a2",
+        "a4",
+        "a5",
+        "cta"
+      ]
+    },
+    {
+      "id": "fortress",
+      "title": "Nobody has scored on Mexico in this stadium",
+      "scenes": [
+        "f1",
+        "f3",
+        "f4",
+        "cta"
+      ]
+    }
+  ]
+}

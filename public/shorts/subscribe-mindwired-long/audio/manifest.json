@@ -1,0 +1,248 @@
+{
+ "clips": {
+  "ask": {
+   "dur": 8.0,
+   "text": "If any of this messed with your head a little... that's exactly the point. And it only happens because people like you keep showing up.",
+   "words": [
+    {
+     "word": "If",
+     "start": 0.439,
+     "end": 0.56
+    },
+    {
+     "word": "any",
+     "start": 0.579,
+     "end": 0.759
+    },
+    {
+     "word": "of",
+     "start": 0.779,
+     "end": 0.859
+    },
+    {
+     "word": "this",
+     "start": 0.899,
+     "end": 1.079
+    },
+    {
+     "word": "messed",
+     "start": 1.1,
+     "end": 1.259
+    },
+    {
+     "word": "with",
+     "start": 1.299,
+     "end": 1.399
+    },
+    {
+     "word": "your",
+     "start": 1.419,
+     "end": 1.48
+    },
+    {
+     "word": "head",
+     "start": 1.539,
+     "end": 1.659
+    },
+    {
+     "word": "a",
+     "start": 1.719,
+     "end": 1.739
+    },
+    {
+     "word": "little...",
+     "start": 1.779,
+     "end": 1.979
+    },
+    {
+     "word": "that's",
+     "start": 2.039,
+     "end": 3.299
+    },
+    {
+     "word": "exactly",
+     "start": 3.439,
+     "end": 3.779
+    },
+    {
+     "word": "the",
+     "start": 3.799,
+     "end": 3.899
+    },
+    {
+     "word": "point.",
+     "start": 3.939,
+     "end": 4.539
+    },
+    {
+     "word": "And",
+     "start": 4.579,
+     "end": 4.659
+    },
+    {
+     "word": "it",
+     "start": 4.679,
+     "end": 4.779
+    },
+    {
+     "word": "only",
+     "start": 4.819,
+     "end": 5.079
+    },
+    {
+     "word": "happens",
+     "start": 5.139,
+     "end": 5.599
+    },
+    {
+     "word": "because",
+     "start": 5.6,
+     "end": 5.879
+    },
+    {
+     "word": "people",
+     "start": 5.9,
+     "end": 6.199
+    },
+    {
+     "word": "like",
+     "start": 6.239,
+     "end": 6.44
+    },
+    {
+     "word": "you",
+     "start": 6.48,
+     "end": 6.699
+    },
+    {
+     "word": "keep",
+     "start": 6.779,
+     "end": 6.98
+    },
+    {
+     "word": "showing",
+     "start": 7.019,
+     "end": 7.279
+    },
+    {
+     "word": "up.",
+     "start": 7.339,
+     "end": 7.519
+    }
+   ],
+   "engine": "veo"
+  },
+  "cta": {
+   "dur": 8.0,
+   "text": "Hit subscribe, right now \u2014 it costs you nothing, and it's the entire reason mindwired keeps making videos like this. Subscribe.",
+   "words": [
+    {
+     "word": "Hit",
+     "start": 0.199,
+     "end": 0.299
+    },
+    {
+     "word": "subscribe,",
+     "start": 0.399,
+     "end": 0.979
+    },
+    {
+     "word": "right",
+     "start": 1.339,
+     "end": 1.539
+    },
+    {
+     "word": "now",
+     "start": 1.579,
+     "end": 1.679
+    },
+    {
+     "word": "\u2014",
+     "start": 1.74,
+     "end": 1.741
+    },
+    {
+     "word": "it",
+     "start": 2.119,
+     "end": 2.24
+    },
+    {
+     "word": "costs",
+     "start": 2.259,
+     "end": 2.519
+    },
+    {
+     "word": "you",
+     "start": 2.559,
+     "end": 2.679
+    },
+    {
+     "word": "nothing,",
+     "start": 2.72,
+     "end": 3.019
+    },
+    {
+     "word": "and",
+     "start": 3.279,
+     "end": 3.359
+    },
+    {
+     "word": "it's",
+     "start": 3.379,
+     "end": 3.519
+    },
+    {
+     "word": "the",
+     "start": 3.539,
+     "end": 3.599
+    },
+    {
+     "word": "entire",
+     "start": 3.639,
+     "end": 4.139
+    },
+    {
+     "word": "reason",
+     "start": 4.199,
+     "end": 4.539
+    },
+    {
+     "word": "mindwired",
+     "start": 4.579,
+     "end": 5.119
+    },
+    {
+     "word": "keeps",
+     "start": 5.199,
+     "end": 5.42
+    },
+    {
+     "word": "making",
+     "start": 5.5,
+     "end": 5.759
+    },
+    {
+     "word": "videos",
+     "start": 5.76,
+     "end": 6.079
+    },
+    {
+     "word": "like",
+     "start": 6.099,
+     "end": 6.259
+    },
+    {
+     "word": "this.",
+     "start": 6.299,
+     "end": 6.559
+    },
+    {
+     "word": "Subscribe.",
+     "start": 6.899,
+     "end": 7.419
+    }
+   ],
+   "engine": "veo"
+  }
+ }
+}

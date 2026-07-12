@@ -1,0 +1,97 @@
+{
+  "slug": "wc-haaland",
+  "title": "World Cup \u2014 The Haaland Effect: Norway Ends Brazil's Dream",
+  "host": "jamie",
+  "channel": "kickoffdaily90",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "board": true,
+      "start": 0,
+      "end": 6,
+      "voiceover": "Erling Haaland just ended Brazil's World Cup dream.",
+      "mainText": "NORWAY JUST ENDED BRAZIL'S WORLD CUP",
+      "emphasis": [
+        "ENDED"
+      ],
+      "kicker": "THE HAALAND EFFECT",
+      "visualConcept": "host cold open",
+      "backgroundPrompt": "Dramatic wide shot of a packed night football stadium, floodlights blazing, tense atmosphere, World Cup knockout match energy, cinematic painterly illustration",
+      "emotionalTone": "shock",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "score",
+      "kind": "comparison",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "Round of 16: Brazil 1, Norway 2.",
+      "mainText": "BRAZIL 1 - 2 NORWAY",
+      "emphasis": [],
+      "kicker": "ROUND OF 16 \u2014 JUL 5",
+      "visualConcept": "fixture comparison card",
+      "compare": {
+        "left": "BRAZIL  1",
+        "right": "2  NORWAY",
+        "leftImg": "shorts/_wc-crests/764.svg",
+        "rightImg": "shorts/_wc-crests/813.svg"
+      },
+      "emotionalTone": "shock",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "haaland",
+      "kind": "shockfact",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "Haaland scored twice \u2014 in the 79th minute, and again in the 90th, to seal it.",
+      "mainText": "HAALAND SCORED TWICE \u2014 INCLUDING THE 90TH MINUTE WINNER",
+      "emphasis": [
+        "TWICE",
+        "90TH MINUTE WINNER"
+      ],
+      "kicker": "79' & 90' \u2014 HAALAND",
+      "visualConcept": "striker celebrating a decisive late goal",
+      "backgroundPrompt": "A footballer in a white and blue kit sprinting in wild celebration after scoring a late winning goal, stadium floodlights, roaring crowd in the background, cinematic painterly illustration, no text, no watermark",
+      "emotionalTone": "excitement",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "neymar",
+      "kind": "shockfact",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "Neymar pulled one back with a stoppage-time penalty \u2014 too little, too late. Then he announced his international retirement.",
+      "mainText": "NEYMAR'S PENALTY CAME TOO LATE \u2014 THEN HE RETIRED",
+      "emphasis": [
+        "TOO LATE",
+        "RETIRED"
+      ],
+      "kicker": "90+10' PEN. \u2014 NEYMAR'S FINAL MATCH",
+      "visualConcept": "a player's emotional final moment",
+      "backgroundPrompt": "A lone footballer in a yellow kit standing on the pitch looking down, head bowed, stadium lights dimming around him, quiet emotional moment after a loss, cinematic painterly illustration, no text, no watermark",
+      "emotionalTone": "awe",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "board": true,
+      "start": 0,
+      "end": 6,
+      "voiceover": "Follow kickoffdaily90 for every result as it happens.",
+      "mainText": "FOLLOW FOR EVERY RESULT",
+      "emphasis": [
+        "EVERY RESULT"
+      ],
+      "kicker": "@KICKOFFDAILY90",
+      "visualConcept": "cta",
+      "emotionalTone": "confidence",
+      "transitionOut": "none"
+    }
+  ]
+}

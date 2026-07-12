@@ -1,0 +1,575 @@
+{
+ "clips": {
+  "hook": {
+   "dur": 8.0,
+   "text": "Brazil just missed a penalty against Norway... and somehow, it's still nil-nil at halftime. Let me walk you through it.",
+   "words": [
+    {
+     "word": "Brazil",
+     "start": 0.179,
+     "end": 0.539
+    },
+    {
+     "word": "just",
+     "start": 0.74,
+     "end": 0.959
+    },
+    {
+     "word": "missed",
+     "start": 1.039,
+     "end": 1.259
+    },
+    {
+     "word": "a",
+     "start": 1.299,
+     "end": 1.399
+    },
+    {
+     "word": "penalty",
+     "start": 1.439,
+     "end": 1.819
+    },
+    {
+     "word": "against",
+     "start": 1.899,
+     "end": 2.119
+    },
+    {
+     "word": "Norway...",
+     "start": 2.22,
+     "end": 2.579
+    },
+    {
+     "word": "and",
+     "start": 2.779,
+     "end": 2.859
+    },
+    {
+     "word": "somehow,",
+     "start": 2.98,
+     "end": 3.399
+    },
+    {
+     "word": "it's",
+     "start": 3.859,
+     "end": 4.039
+    },
+    {
+     "word": "still",
+     "start": 4.079,
+     "end": 4.5
+    },
+    {
+     "word": "nil-nil",
+     "start": 4.619,
+     "end": 5.179
+    },
+    {
+     "word": "at",
+     "start": 5.239,
+     "end": 5.38
+    },
+    {
+     "word": "halftime.",
+     "start": 5.42,
+     "end": 5.96
+    },
+    {
+     "word": "Let",
+     "start": 6.48,
+     "end": 6.539
+    },
+    {
+     "word": "me",
+     "start": 6.579,
+     "end": 6.659
+    },
+    {
+     "word": "walk",
+     "start": 6.679,
+     "end": 6.819
+    },
+    {
+     "word": "you",
+     "start": 6.859,
+     "end": 6.92
+    },
+    {
+     "word": "through",
+     "start": 6.96,
+     "end": 7.099
+    },
+    {
+     "word": "it.",
+     "start": 7.119,
+     "end": 7.239
+    }
+   ],
+   "engine": "veo"
+  },
+  "penalty": {
+   "dur": 18.762,
+   "text": "Early in the first half, VAR overturned the referee's call and awarded Brazil a penalty for a foul in the box. Bruno Guimar\u00e3es stepped up \u2014 his first ever penalty for the national team. Norway's goalkeeper guessed right, and saved it.",
+   "words": [
+    {
+     "word": "Early",
+     "start": 0.0,
+     "end": 0.302
+    },
+    {
+     "word": "in",
+     "start": 0.348,
+     "end": 0.418
+    },
+    {
+     "word": "the",
+     "start": 0.453,
+     "end": 0.522
+    },
+    {
+     "word": "first",
+     "start": 0.58,
+     "end": 0.882
+    },
+    {
+     "word": "half,",
+     "start": 0.952,
+     "end": 1.486
+    },
+    {
+     "word": "VAR",
+     "start": 1.927,
+     "end": 2.577
+    },
+    {
+     "word": "overturned",
+     "start": 2.659,
+     "end": 3.32
+    },
+    {
+     "word": "the",
+     "start": 3.379,
+     "end": 3.448
+    },
+    {
+     "word": "referee's",
+     "start": 3.506,
+     "end": 3.959
+    },
+    {
+     "word": "call",
+     "start": 4.017,
+     "end": 4.354
+    },
+    {
+     "word": "and",
+     "start": 4.679,
+     "end": 4.876
+    },
+    {
+     "word": "awarded",
+     "start": 4.934,
+     "end": 5.306
+    },
+    {
+     "word": "Brazil",
+     "start": 5.352,
+     "end": 5.817
+    },
+    {
+     "word": "a",
+     "start": 6.2,
+     "end": 6.293
+    },
+    {
+     "word": "penalty",
+     "start": 6.444,
+     "end": 7.059
+    },
+    {
+     "word": "for",
+     "start": 7.384,
+     "end": 7.558
+    },
+    {
+     "word": "a",
+     "start": 7.605,
+     "end": 7.639
+    },
+    {
+     "word": "foul",
+     "start": 7.814,
+     "end": 8.29
+    },
+    {
+     "word": "in",
+     "start": 8.464,
+     "end": 8.603
+    },
+    {
+     "word": "the",
+     "start": 8.649,
+     "end": 8.719
+    },
+    {
+     "word": "box.",
+     "start": 8.766,
+     "end": 9.311
+    },
+    {
+     "word": "Bruno",
+     "start": 10.008,
+     "end": 10.356
+    },
+    {
+     "word": "Guimar\u00e3es",
+     "start": 10.437,
+     "end": 11.018
+    },
+    {
+     "word": "stepped",
+     "start": 11.262,
+     "end": 11.622
+    },
+    {
+     "word": "up",
+     "start": 11.68,
+     "end": 11.819
+    },
+    {
+     "word": "\u2014",
+     "start": 11.993,
+     "end": 12.109
+    },
+    {
+     "word": "his",
+     "start": 12.26,
+     "end": 12.423
+    },
+    {
+     "word": "first",
+     "start": 12.492,
+     "end": 12.794
+    },
+    {
+     "word": "ever",
+     "start": 12.852,
+     "end": 13.026
+    },
+    {
+     "word": "penalty",
+     "start": 13.084,
+     "end": 13.456
+    },
+    {
+     "word": "for",
+     "start": 13.514,
+     "end": 13.607
+    },
+    {
+     "word": "the",
+     "start": 13.642,
+     "end": 13.711
+    },
+    {
+     "word": "national",
+     "start": 13.758,
+     "end": 14.141
+    },
+    {
+     "word": "team.",
+     "start": 14.211,
+     "end": 14.791
+    },
+    {
+     "word": "Norway's",
+     "start": 15.488,
+     "end": 15.975
+    },
+    {
+     "word": "goalkeeper",
+     "start": 16.022,
+     "end": 16.533
+    },
+    {
+     "word": "guessed",
+     "start": 16.591,
+     "end": 16.846
+    },
+    {
+     "word": "right,",
+     "start": 16.904,
+     "end": 17.345
+    },
+    {
+     "word": "and",
+     "start": 17.554,
+     "end": 17.728
+    },
+    {
+     "word": "saved",
+     "start": 17.845,
+     "end": 18.239
+    },
+    {
+     "word": "it.",
+     "start": 18.286,
+     "end": 18.762
+    }
+   ]
+  },
+  "stillzero": {
+   "dur": 13.282,
+   "text": "Erling Haaland has barely touched the ball. Alisson hasn't been seriously tested either. No cards, no injuries \u2014 just two teams cancelling each other out, nil-nil at the break.",
+   "words": [
+    {
+     "word": "Erling",
+     "start": 0.0,
+     "end": 0.383
+    },
+    {
+     "word": "Haaland",
+     "start": 0.464,
+     "end": 0.964
+    },
+    {
+     "word": "has",
+     "start": 1.091,
+     "end": 1.265
+    },
+    {
+     "word": "barely",
+     "start": 1.382,
+     "end": 1.776
+    },
+    {
+     "word": "touched",
+     "start": 1.846,
+     "end": 2.194
+    },
+    {
+     "word": "the",
+     "start": 2.229,
+     "end": 2.299
+    },
+    {
+     "word": "ball.",
+     "start": 2.345,
+     "end": 2.833
+    },
+    {
+     "word": "Alisson",
+     "start": 3.344,
+     "end": 3.796
+    },
+    {
+     "word": "hasn't",
+     "start": 3.878,
+     "end": 4.145
+    },
+    {
+     "word": "been",
+     "start": 4.191,
+     "end": 4.365
+    },
+    {
+     "word": "seriously",
+     "start": 4.458,
+     "end": 4.992
+    },
+    {
+     "word": "tested",
+     "start": 5.05,
+     "end": 5.422
+    },
+    {
+     "word": "either.",
+     "start": 5.48,
+     "end": 5.968
+    },
+    {
+     "word": "No",
+     "start": 6.409,
+     "end": 6.618
+    },
+    {
+     "word": "cards,",
+     "start": 6.699,
+     "end": 7.326
+    },
+    {
+     "word": "no",
+     "start": 7.57,
+     "end": 7.767
+    },
+    {
+     "word": "injuries",
+     "start": 7.86,
+     "end": 8.417
+    },
+    {
+     "word": "\u2014",
+     "start": 8.626,
+     "end": 8.673
+    },
+    {
+     "word": "just",
+     "start": 8.951,
+     "end": 9.183
+    },
+    {
+     "word": "two",
+     "start": 9.242,
+     "end": 9.462
+    },
+    {
+     "word": "teams",
+     "start": 9.543,
+     "end": 9.938
+    },
+    {
+     "word": "cancelling",
+     "start": 9.996,
+     "end": 10.472
+    },
+    {
+     "word": "each",
+     "start": 10.519,
+     "end": 10.658
+    },
+    {
+     "word": "other",
+     "start": 10.704,
+     "end": 10.879
+    },
+    {
+     "word": "out,",
+     "start": 10.937,
+     "end": 11.285
+    },
+    {
+     "word": "nil-nil",
+     "start": 11.61,
+     "end": 12.098
+    },
+    {
+     "word": "at",
+     "start": 12.214,
+     "end": 12.376
+    },
+    {
+     "word": "the",
+     "start": 12.411,
+     "end": 12.481
+    },
+    {
+     "word": "break.",
+     "start": 12.539,
+     "end": 13.282
+    }
+   ]
+  },
+  "cta": {
+   "dur": 8.0,
+   "text": "One missed penalty down. Ninety more minutes to go, and someone's tournament ends today. Follow for the second-half breakdown.",
+   "words": [
+    {
+     "word": "One",
+     "start": 0.239,
+     "end": 0.34
+    },
+    {
+     "word": "missed",
+     "start": 0.439,
+     "end": 0.62
+    },
+    {
+     "word": "penalty",
+     "start": 0.639,
+     "end": 0.999
+    },
+    {
+     "word": "down.",
+     "start": 1.019,
+     "end": 1.279
+    },
+    {
+     "word": "Ninety",
+     "start": 1.479,
+     "end": 1.839
+    },
+    {
+     "word": "more",
+     "start": 1.879,
+     "end": 1.999
+    },
+    {
+     "word": "minutes",
+     "start": 2.019,
+     "end": 2.24
+    },
+    {
+     "word": "to",
+     "start": 2.259,
+     "end": 2.339
+    },
+    {
+     "word": "go,",
+     "start": 2.399,
+     "end": 2.579
+    },
+    {
+     "word": "and",
+     "start": 2.859,
+     "end": 3.079
+    },
+    {
+     "word": "someone's",
+     "start": 3.08,
+     "end": 3.519
+    },
+    {
+     "word": "tournament",
+     "start": 3.559,
+     "end": 4.139
+    },
+    {
+     "word": "ends",
+     "start": 4.219,
+     "end": 4.5
+    },
+    {
+     "word": "today.",
+     "start": 4.539,
+     "end": 4.94
+    },
+    {
+     "word": "Follow",
+     "start": 5.44,
+     "end": 5.679
+    },
+    {
+     "word": "for",
+     "start": 5.719,
+     "end": 5.779
+    },
+    {
+     "word": "the",
+     "start": 5.799,
+     "end": 5.92
+    },
+    {
+     "word": "second-half",
+     "start": 5.96,
+     "end": 6.42
+    },
+    {
+     "word": "breakdown.",
+     "start": 6.46,
+     "end": 7.079
+    }
+   ],
+   "engine": "veo"
+  }
+ }
+}

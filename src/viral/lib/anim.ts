@@ -87,3 +87,11 @@ export const whipIn = (frame: number, dur = 7, dir: 1 | -1 = -1) => {
   const p = interpolate(frame, [0, dur], [1, 0], { ...clamp, easing: easeExpo });
   return { x: -dir * p * 400, blur: p * 26, opacity: 1 - p * 0.35 };
 };
+
+/** soft-cut entrance: a quick opacity + scale settle so a plain cut doesn't
+ *  hard-slam. Materializes from 0.5 opacity (never full black, so adjacent
+ *  non-overlapping scenes show no gap) over the first `dur` frames. */
+export const dissolveIn = (frame: number, dur = 7) => {
+  const p = interpolate(frame, [0, dur], [0, 1], { ...clamp, easing: easeOut });
+  return { opacity: interpolate(p, [0, 1], [0.5, 1]), scale: interpolate(p, [0, 1], [1.035, 1]) };
+};

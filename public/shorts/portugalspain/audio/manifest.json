@@ -1,0 +1,3293 @@
+{
+ "clips": {
+  "hook": {
+   "dur": 8.0,
+   "text": "Portugal versus Spain. Monday. If you only watch one match before the final \u2014 make it this one. Let me show you why.",
+   "words": [
+    {
+     "word": "Portugal",
+     "start": 0.099,
+     "end": 0.699
+    },
+    {
+     "word": "versus",
+     "start": 0.74,
+     "end": 1.179
+    },
+    {
+     "word": "Spain.",
+     "start": 1.22,
+     "end": 1.599
+    },
+    {
+     "word": "Monday.",
+     "start": 2.019,
+     "end": 2.759
+    },
+    {
+     "word": "If",
+     "start": 2.819,
+     "end": 2.899
+    },
+    {
+     "word": "you",
+     "start": 2.939,
+     "end": 2.98
+    },
+    {
+     "word": "only",
+     "start": 3.039,
+     "end": 3.259
+    },
+    {
+     "word": "watch",
+     "start": 3.299,
+     "end": 3.619
+    },
+    {
+     "word": "one",
+     "start": 3.72,
+     "end": 3.919
+    },
+    {
+     "word": "match",
+     "start": 3.939,
+     "end": 4.259
+    },
+    {
+     "word": "before",
+     "start": 4.299,
+     "end": 4.619
+    },
+    {
+     "word": "the",
+     "start": 4.639,
+     "end": 4.739
+    },
+    {
+     "word": "final",
+     "start": 4.779,
+     "end": 5.119
+    },
+    {
+     "word": "\u2014",
+     "start": 5.579,
+     "end": 5.58
+    },
+    {
+     "word": "make",
+     "start": 5.639,
+     "end": 5.819
+    },
+    {
+     "word": "it",
+     "start": 5.859,
+     "end": 6.0
+    },
+    {
+     "word": "this",
+     "start": 6.019,
+     "end": 6.219
+    },
+    {
+     "word": "one.",
+     "start": 6.239,
+     "end": 6.399
+    },
+    {
+     "word": "Let",
+     "start": 6.639,
+     "end": 6.719
+    },
+    {
+     "word": "me",
+     "start": 6.72,
+     "end": 6.859
+    },
+    {
+     "word": "show",
+     "start": 6.879,
+     "end": 7.039
+    },
+    {
+     "word": "you",
+     "start": 7.04,
+     "end": 7.139
+    },
+    {
+     "word": "why.",
+     "start": 7.199,
+     "end": 7.399
+    }
+   ],
+   "engine": "veo"
+  },
+  "s1": {
+   "dur": 12.096,
+   "text": "Monday, three PM Eastern, AT&T Stadium in Dallas. Eighty thousand people. Two neighbours who cannot stand losing to each other. One goes home.",
+   "words": [
+    {
+     "word": "Monday,",
+     "start": 0.15,
+     "end": 1.012
+    },
+    {
+     "word": "three",
+     "start": 1.012,
+     "end": 1.29
+    },
+    {
+     "word": "PM",
+     "start": 1.29,
+     "end": 1.568
+    },
+    {
+     "word": "Eastern,",
+     "start": 1.568,
+     "end": 2.43
+    },
+    {
+     "word": "AT&T",
+     "start": 2.43,
+     "end": 2.708
+    },
+    {
+     "word": "Stadium",
+     "start": 2.708,
+     "end": 3.264
+    },
+    {
+     "word": "in",
+     "start": 3.264,
+     "end": 3.543
+    },
+    {
+     "word": "Dallas.",
+     "start": 3.543,
+     "end": 4.405
+    },
+    {
+     "word": "Eighty",
+     "start": 4.405,
+     "end": 4.961
+    },
+    {
+     "word": "thousand",
+     "start": 4.961,
+     "end": 5.517
+    },
+    {
+     "word": "people.",
+     "start": 5.517,
+     "end": 6.379
+    },
+    {
+     "word": "Two",
+     "start": 6.379,
+     "end": 6.657
+    },
+    {
+     "word": "neighbours",
+     "start": 6.657,
+     "end": 7.213
+    },
+    {
+     "word": "who",
+     "start": 7.213,
+     "end": 7.491
+    },
+    {
+     "word": "cannot",
+     "start": 7.491,
+     "end": 8.047
+    },
+    {
+     "word": "stand",
+     "start": 8.047,
+     "end": 8.325
+    },
+    {
+     "word": "losing",
+     "start": 8.325,
+     "end": 8.882
+    },
+    {
+     "word": "to",
+     "start": 8.882,
+     "end": 9.16
+    },
+    {
+     "word": "each",
+     "start": 9.16,
+     "end": 9.438
+    },
+    {
+     "word": "other.",
+     "start": 9.438,
+     "end": 10.3
+    },
+    {
+     "word": "One",
+     "start": 10.3,
+     "end": 10.856
+    },
+    {
+     "word": "goes",
+     "start": 10.856,
+     "end": 11.134
+    },
+    {
+     "word": "home.",
+     "start": 11.134,
+     "end": 11.996
+    }
+   ]
+  },
+  "s2": {
+   "dur": 10.752,
+   "text": "And this isn't just a Round of 16 tie. On paper, these are two of the three best teams left in the tournament \u2014 meeting nine days before the final.",
+   "words": [
+    {
+     "word": "And",
+     "start": 0.15,
+     "end": 0.393
+    },
+    {
+     "word": "this",
+     "start": 0.393,
+     "end": 0.635
+    },
+    {
+     "word": "isn't",
+     "start": 0.635,
+     "end": 0.878
+    },
+    {
+     "word": "just",
+     "start": 0.878,
+     "end": 1.12
+    },
+    {
+     "word": "a",
+     "start": 1.12,
+     "end": 1.363
+    },
+    {
+     "word": "Round",
+     "start": 1.363,
+     "end": 1.605
+    },
+    {
+     "word": "of",
+     "start": 1.605,
+     "end": 1.848
+    },
+    {
+     "word": "16",
+     "start": 1.848,
+     "end": 2.09
+    },
+    {
+     "word": "tie.",
+     "start": 2.09,
+     "end": 2.6
+    },
+    {
+     "word": "On",
+     "start": 2.6,
+     "end": 2.842
+    },
+    {
+     "word": "paper,",
+     "start": 2.842,
+     "end": 3.594
+    },
+    {
+     "word": "these",
+     "start": 3.594,
+     "end": 4.079
+    },
+    {
+     "word": "are",
+     "start": 4.079,
+     "end": 4.564
+    },
+    {
+     "word": "two",
+     "start": 4.564,
+     "end": 4.807
+    },
+    {
+     "word": "of",
+     "start": 4.807,
+     "end": 5.049
+    },
+    {
+     "word": "the",
+     "start": 5.049,
+     "end": 5.292
+    },
+    {
+     "word": "three",
+     "start": 5.292,
+     "end": 5.534
+    },
+    {
+     "word": "best",
+     "start": 5.534,
+     "end": 5.777
+    },
+    {
+     "word": "teams",
+     "start": 5.777,
+     "end": 6.019
+    },
+    {
+     "word": "left",
+     "start": 6.019,
+     "end": 6.262
+    },
+    {
+     "word": "in",
+     "start": 6.262,
+     "end": 6.505
+    },
+    {
+     "word": "the",
+     "start": 6.505,
+     "end": 6.747
+    },
+    {
+     "word": "tournament",
+     "start": 6.747,
+     "end": 7.475
+    },
+    {
+     "word": "\u2014",
+     "start": 7.475,
+     "end": 7.717
+    },
+    {
+     "word": "meeting",
+     "start": 7.717,
+     "end": 8.202
+    },
+    {
+     "word": "nine",
+     "start": 8.202,
+     "end": 8.687
+    },
+    {
+     "word": "days",
+     "start": 8.687,
+     "end": 8.93
+    },
+    {
+     "word": "before",
+     "start": 8.93,
+     "end": 9.658
+    },
+    {
+     "word": "the",
+     "start": 9.658,
+     "end": 9.9
+    },
+    {
+     "word": "final.",
+     "start": 9.9,
+     "end": 10.652
+    }
+   ]
+  },
+  "h1": {
+   "dur": 16.2,
+   "text": "There's fresh blood in this rivalry too. Last year's Nations League final? These exact two teams. Spain lifted the trophy \u2014 on penalties. Portugal have not forgotten that night.",
+   "words": [
+    {
+     "word": "There's",
+     "start": 0.15,
+     "end": 0.769
+    },
+    {
+     "word": "fresh",
+     "start": 0.769,
+     "end": 1.079
+    },
+    {
+     "word": "blood",
+     "start": 1.079,
+     "end": 1.389
+    },
+    {
+     "word": "in",
+     "start": 1.389,
+     "end": 1.699
+    },
+    {
+     "word": "this",
+     "start": 1.699,
+     "end": 2.008
+    },
+    {
+     "word": "rivalry",
+     "start": 2.008,
+     "end": 2.937
+    },
+    {
+     "word": "too.",
+     "start": 2.937,
+     "end": 3.588
+    },
+    {
+     "word": "Last",
+     "start": 3.588,
+     "end": 3.897
+    },
+    {
+     "word": "year's",
+     "start": 3.897,
+     "end": 4.207
+    },
+    {
+     "word": "Nations",
+     "start": 4.207,
+     "end": 4.827
+    },
+    {
+     "word": "League",
+     "start": 4.827,
+     "end": 5.446
+    },
+    {
+     "word": "final?",
+     "start": 5.446,
+     "end": 6.406
+    },
+    {
+     "word": "These",
+     "start": 6.406,
+     "end": 7.026
+    },
+    {
+     "word": "exact",
+     "start": 7.026,
+     "end": 7.645
+    },
+    {
+     "word": "two",
+     "start": 7.645,
+     "end": 7.955
+    },
+    {
+     "word": "teams.",
+     "start": 7.955,
+     "end": 8.605
+    },
+    {
+     "word": "Spain",
+     "start": 8.605,
+     "end": 8.915
+    },
+    {
+     "word": "lifted",
+     "start": 8.915,
+     "end": 9.534
+    },
+    {
+     "word": "the",
+     "start": 9.534,
+     "end": 9.844
+    },
+    {
+     "word": "trophy",
+     "start": 9.844,
+     "end": 10.463
+    },
+    {
+     "word": "\u2014",
+     "start": 10.463,
+     "end": 10.773
+    },
+    {
+     "word": "on",
+     "start": 10.773,
+     "end": 11.083
+    },
+    {
+     "word": "penalties.",
+     "start": 11.083,
+     "end": 12.353
+    },
+    {
+     "word": "Portugal",
+     "start": 12.353,
+     "end": 13.282
+    },
+    {
+     "word": "have",
+     "start": 13.282,
+     "end": 13.901
+    },
+    {
+     "word": "not",
+     "start": 13.901,
+     "end": 14.211
+    },
+    {
+     "word": "forgotten",
+     "start": 14.211,
+     "end": 15.14
+    },
+    {
+     "word": "that",
+     "start": 15.14,
+     "end": 15.45
+    },
+    {
+     "word": "night.",
+     "start": 15.45,
+     "end": 16.1
+    }
+   ]
+  },
+  "h2": {
+   "dur": 12.672,
+   "text": "So before a ball is kicked, this match already has a script: revenge, or repeat. Everything else \u2014 the records, the kids, the legends \u2014 sits on top of that.",
+   "words": [
+    {
+     "word": "So",
+     "start": 0.15,
+     "end": 0.395
+    },
+    {
+     "word": "before",
+     "start": 0.395,
+     "end": 1.132
+    },
+    {
+     "word": "a",
+     "start": 1.132,
+     "end": 1.377
+    },
+    {
+     "word": "ball",
+     "start": 1.377,
+     "end": 1.623
+    },
+    {
+     "word": "is",
+     "start": 1.623,
+     "end": 1.868
+    },
+    {
+     "word": "kicked,",
+     "start": 1.868,
+     "end": 2.629
+    },
+    {
+     "word": "this",
+     "start": 2.629,
+     "end": 2.875
+    },
+    {
+     "word": "match",
+     "start": 2.875,
+     "end": 3.12
+    },
+    {
+     "word": "already",
+     "start": 3.12,
+     "end": 3.857
+    },
+    {
+     "word": "has",
+     "start": 3.857,
+     "end": 4.102
+    },
+    {
+     "word": "a",
+     "start": 4.102,
+     "end": 4.348
+    },
+    {
+     "word": "script:",
+     "start": 4.348,
+     "end": 4.593
+    },
+    {
+     "word": "revenge,",
+     "start": 4.593,
+     "end": 5.6
+    },
+    {
+     "word": "or",
+     "start": 5.6,
+     "end": 5.845
+    },
+    {
+     "word": "repeat.",
+     "start": 5.845,
+     "end": 6.606
+    },
+    {
+     "word": "Everything",
+     "start": 6.606,
+     "end": 7.588
+    },
+    {
+     "word": "else",
+     "start": 7.588,
+     "end": 8.079
+    },
+    {
+     "word": "\u2014",
+     "start": 8.079,
+     "end": 8.325
+    },
+    {
+     "word": "the",
+     "start": 8.325,
+     "end": 8.57
+    },
+    {
+     "word": "records,",
+     "start": 8.57,
+     "end": 9.331
+    },
+    {
+     "word": "the",
+     "start": 9.331,
+     "end": 9.577
+    },
+    {
+     "word": "kids,",
+     "start": 9.577,
+     "end": 10.093
+    },
+    {
+     "word": "the",
+     "start": 10.093,
+     "end": 10.338
+    },
+    {
+     "word": "legends",
+     "start": 10.338,
+     "end": 10.829
+    },
+    {
+     "word": "\u2014",
+     "start": 10.829,
+     "end": 11.074
+    },
+    {
+     "word": "sits",
+     "start": 11.074,
+     "end": 11.32
+    },
+    {
+     "word": "on",
+     "start": 11.32,
+     "end": 11.565
+    },
+    {
+     "word": "top",
+     "start": 11.565,
+     "end": 11.811
+    },
+    {
+     "word": "of",
+     "start": 11.811,
+     "end": 12.056
+    },
+    {
+     "word": "that.",
+     "start": 12.056,
+     "end": 12.572
+    }
+   ]
+  },
+  "sp1": {
+   "dur": 10.68,
+   "text": "Now, the case for Spain \u2014 and honestly, it's frightening. Against Austria in the Round of 32, they produced the most complete performance of the whole tournament.",
+   "words": [
+    {
+     "word": "Now,",
+     "start": 0.15,
+     "end": 0.592
+    },
+    {
+     "word": "the",
+     "start": 0.592,
+     "end": 0.803
+    },
+    {
+     "word": "case",
+     "start": 0.803,
+     "end": 1.225
+    },
+    {
+     "word": "for",
+     "start": 1.225,
+     "end": 1.435
+    },
+    {
+     "word": "Spain",
+     "start": 1.435,
+     "end": 1.646
+    },
+    {
+     "word": "\u2014",
+     "start": 1.646,
+     "end": 1.857
+    },
+    {
+     "word": "and",
+     "start": 1.857,
+     "end": 2.067
+    },
+    {
+     "word": "honestly,",
+     "start": 2.067,
+     "end": 2.931
+    },
+    {
+     "word": "it's",
+     "start": 2.931,
+     "end": 3.142
+    },
+    {
+     "word": "frightening.",
+     "start": 3.142,
+     "end": 4.006
+    },
+    {
+     "word": "Against",
+     "start": 4.006,
+     "end": 4.427
+    },
+    {
+     "word": "Austria",
+     "start": 4.427,
+     "end": 4.849
+    },
+    {
+     "word": "in",
+     "start": 4.849,
+     "end": 5.059
+    },
+    {
+     "word": "the",
+     "start": 5.059,
+     "end": 5.27
+    },
+    {
+     "word": "Round",
+     "start": 5.27,
+     "end": 5.481
+    },
+    {
+     "word": "of",
+     "start": 5.481,
+     "end": 5.692
+    },
+    {
+     "word": "32,",
+     "start": 5.692,
+     "end": 6.134
+    },
+    {
+     "word": "they",
+     "start": 6.134,
+     "end": 6.345
+    },
+    {
+     "word": "produced",
+     "start": 6.345,
+     "end": 6.977
+    },
+    {
+     "word": "the",
+     "start": 6.977,
+     "end": 7.188
+    },
+    {
+     "word": "most",
+     "start": 7.188,
+     "end": 7.398
+    },
+    {
+     "word": "complete",
+     "start": 7.398,
+     "end": 8.03
+    },
+    {
+     "word": "performance",
+     "start": 8.03,
+     "end": 8.873
+    },
+    {
+     "word": "of",
+     "start": 8.873,
+     "end": 9.084
+    },
+    {
+     "word": "the",
+     "start": 9.084,
+     "end": 9.295
+    },
+    {
+     "word": "whole",
+     "start": 9.295,
+     "end": 9.716
+    },
+    {
+     "word": "tournament.",
+     "start": 9.716,
+     "end": 10.58
+    }
+   ]
+  },
+  "sp2": {
+   "dur": 8.592,
+   "text": "Three-nil. Oyarzabal scored twice, Pedro Porro added the third, and Austria barely touched the ball in the second half.",
+   "words": [
+    {
+     "word": "Three-nil.",
+     "start": 0.15,
+     "end": 0.86
+    },
+    {
+     "word": "Oyarzabal",
+     "start": 0.86,
+     "end": 1.548
+    },
+    {
+     "word": "scored",
+     "start": 1.548,
+     "end": 2.006
+    },
+    {
+     "word": "twice,",
+     "start": 2.006,
+     "end": 2.717
+    },
+    {
+     "word": "Pedro",
+     "start": 2.717,
+     "end": 3.175
+    },
+    {
+     "word": "Porro",
+     "start": 3.175,
+     "end": 3.633
+    },
+    {
+     "word": "added",
+     "start": 3.633,
+     "end": 4.092
+    },
+    {
+     "word": "the",
+     "start": 4.092,
+     "end": 4.321
+    },
+    {
+     "word": "third,",
+     "start": 4.321,
+     "end": 4.802
+    },
+    {
+     "word": "and",
+     "start": 4.802,
+     "end": 5.031
+    },
+    {
+     "word": "Austria",
+     "start": 5.031,
+     "end": 5.49
+    },
+    {
+     "word": "barely",
+     "start": 5.49,
+     "end": 6.177
+    },
+    {
+     "word": "touched",
+     "start": 6.177,
+     "end": 6.636
+    },
+    {
+     "word": "the",
+     "start": 6.636,
+     "end": 6.865
+    },
+    {
+     "word": "ball",
+     "start": 6.865,
+     "end": 7.094
+    },
+    {
+     "word": "in",
+     "start": 7.094,
+     "end": 7.323
+    },
+    {
+     "word": "the",
+     "start": 7.323,
+     "end": 7.552
+    },
+    {
+     "word": "second",
+     "start": 7.552,
+     "end": 8.011
+    },
+    {
+     "word": "half.",
+     "start": 8.011,
+     "end": 8.492
+    }
+   ]
+  },
+  "sp3": {
+   "dur": 12.96,
+   "text": "And here's the stat nobody believes: that was Spain's first World Cup knockout win since they lifted the trophy in 2010. Sixteen years of knockout heartbreak \u2014 gone in ninety minutes.",
+   "words": [
+    {
+     "word": "And",
+     "start": 0.15,
+     "end": 0.403
+    },
+    {
+     "word": "here's",
+     "start": 0.403,
+     "end": 0.91
+    },
+    {
+     "word": "the",
+     "start": 0.91,
+     "end": 1.163
+    },
+    {
+     "word": "stat",
+     "start": 1.163,
+     "end": 1.416
+    },
+    {
+     "word": "nobody",
+     "start": 1.416,
+     "end": 2.175
+    },
+    {
+     "word": "believes:",
+     "start": 2.175,
+     "end": 2.935
+    },
+    {
+     "word": "that",
+     "start": 2.935,
+     "end": 3.188
+    },
+    {
+     "word": "was",
+     "start": 3.188,
+     "end": 3.441
+    },
+    {
+     "word": "Spain's",
+     "start": 3.441,
+     "end": 3.695
+    },
+    {
+     "word": "first",
+     "start": 3.695,
+     "end": 3.948
+    },
+    {
+     "word": "World",
+     "start": 3.948,
+     "end": 4.201
+    },
+    {
+     "word": "Cup",
+     "start": 4.201,
+     "end": 4.454
+    },
+    {
+     "word": "knockout",
+     "start": 4.454,
+     "end": 4.961
+    },
+    {
+     "word": "win",
+     "start": 4.961,
+     "end": 5.214
+    },
+    {
+     "word": "since",
+     "start": 5.214,
+     "end": 5.72
+    },
+    {
+     "word": "they",
+     "start": 5.72,
+     "end": 5.973
+    },
+    {
+     "word": "lifted",
+     "start": 5.973,
+     "end": 6.48
+    },
+    {
+     "word": "the",
+     "start": 6.48,
+     "end": 6.733
+    },
+    {
+     "word": "trophy",
+     "start": 6.733,
+     "end": 7.239
+    },
+    {
+     "word": "in",
+     "start": 7.239,
+     "end": 7.492
+    },
+    {
+     "word": "2010.",
+     "start": 7.492,
+     "end": 8.024
+    },
+    {
+     "word": "Sixteen",
+     "start": 8.024,
+     "end": 8.53
+    },
+    {
+     "word": "years",
+     "start": 8.53,
+     "end": 8.784
+    },
+    {
+     "word": "of",
+     "start": 8.784,
+     "end": 9.037
+    },
+    {
+     "word": "knockout",
+     "start": 9.037,
+     "end": 9.543
+    },
+    {
+     "word": "heartbreak",
+     "start": 9.543,
+     "end": 10.05
+    },
+    {
+     "word": "\u2014",
+     "start": 10.05,
+     "end": 10.303
+    },
+    {
+     "word": "gone",
+     "start": 10.303,
+     "end": 10.809
+    },
+    {
+     "word": "in",
+     "start": 10.809,
+     "end": 11.062
+    },
+    {
+     "word": "ninety",
+     "start": 11.062,
+     "end": 11.822
+    },
+    {
+     "word": "minutes.",
+     "start": 11.822,
+     "end": 12.86
+    }
+   ]
+  },
+  "sp4": {
+   "dur": 10.152,
+   "text": "This Spain side suffocates you. They pass you to sleep, press you awake, and their front line is led by a teenager who plays like he's been doing it for a decade.",
+   "words": [
+    {
+     "word": "This",
+     "start": 0.15,
+     "end": 0.355
+    },
+    {
+     "word": "Spain",
+     "start": 0.355,
+     "end": 0.559
+    },
+    {
+     "word": "side",
+     "start": 0.559,
+     "end": 0.968
+    },
+    {
+     "word": "suffocates",
+     "start": 0.968,
+     "end": 1.787
+    },
+    {
+     "word": "you.",
+     "start": 1.787,
+     "end": 2.216
+    },
+    {
+     "word": "They",
+     "start": 2.216,
+     "end": 2.421
+    },
+    {
+     "word": "pass",
+     "start": 2.421,
+     "end": 2.626
+    },
+    {
+     "word": "you",
+     "start": 2.626,
+     "end": 2.83
+    },
+    {
+     "word": "to",
+     "start": 2.83,
+     "end": 3.035
+    },
+    {
+     "word": "sleep,",
+     "start": 3.035,
+     "end": 3.464
+    },
+    {
+     "word": "press",
+     "start": 3.464,
+     "end": 3.669
+    },
+    {
+     "word": "you",
+     "start": 3.669,
+     "end": 3.873
+    },
+    {
+     "word": "awake,",
+     "start": 3.873,
+     "end": 4.712
+    },
+    {
+     "word": "and",
+     "start": 4.712,
+     "end": 4.917
+    },
+    {
+     "word": "their",
+     "start": 4.917,
+     "end": 5.121
+    },
+    {
+     "word": "front",
+     "start": 5.121,
+     "end": 5.326
+    },
+    {
+     "word": "line",
+     "start": 5.326,
+     "end": 5.735
+    },
+    {
+     "word": "is",
+     "start": 5.735,
+     "end": 5.94
+    },
+    {
+     "word": "led",
+     "start": 5.94,
+     "end": 6.144
+    },
+    {
+     "word": "by",
+     "start": 6.144,
+     "end": 6.349
+    },
+    {
+     "word": "a",
+     "start": 6.349,
+     "end": 6.554
+    },
+    {
+     "word": "teenager",
+     "start": 6.554,
+     "end": 7.167
+    },
+    {
+     "word": "who",
+     "start": 7.167,
+     "end": 7.372
+    },
+    {
+     "word": "plays",
+     "start": 7.372,
+     "end": 7.576
+    },
+    {
+     "word": "like",
+     "start": 7.576,
+     "end": 7.986
+    },
+    {
+     "word": "he's",
+     "start": 7.986,
+     "end": 8.19
+    },
+    {
+     "word": "been",
+     "start": 8.19,
+     "end": 8.395
+    },
+    {
+     "word": "doing",
+     "start": 8.395,
+     "end": 8.599
+    },
+    {
+     "word": "it",
+     "start": 8.599,
+     "end": 8.804
+    },
+    {
+     "word": "for",
+     "start": 8.804,
+     "end": 9.009
+    },
+    {
+     "word": "a",
+     "start": 9.009,
+     "end": 9.213
+    },
+    {
+     "word": "decade.",
+     "start": 9.213,
+     "end": 10.052
+    }
+   ]
+  },
+  "pt1": {
+   "dur": 12.144,
+   "text": "But now the case for Portugal \u2014 because their Round of 32 told you everything about who they are. It was ugly. It was desperate. And they found a way.",
+   "words": [
+    {
+     "word": "But",
+     "start": 0.15,
+     "end": 0.396
+    },
+    {
+     "word": "now",
+     "start": 0.396,
+     "end": 0.641
+    },
+    {
+     "word": "the",
+     "start": 0.641,
+     "end": 0.887
+    },
+    {
+     "word": "case",
+     "start": 0.887,
+     "end": 1.379
+    },
+    {
+     "word": "for",
+     "start": 1.379,
+     "end": 1.624
+    },
+    {
+     "word": "Portugal",
+     "start": 1.624,
+     "end": 2.362
+    },
+    {
+     "word": "\u2014",
+     "start": 2.362,
+     "end": 2.607
+    },
+    {
+     "word": "because",
+     "start": 2.607,
+     "end": 3.345
+    },
+    {
+     "word": "their",
+     "start": 3.345,
+     "end": 3.59
+    },
+    {
+     "word": "Round",
+     "start": 3.59,
+     "end": 3.836
+    },
+    {
+     "word": "of",
+     "start": 3.836,
+     "end": 4.082
+    },
+    {
+     "word": "32",
+     "start": 4.082,
+     "end": 4.328
+    },
+    {
+     "word": "told",
+     "start": 4.328,
+     "end": 4.573
+    },
+    {
+     "word": "you",
+     "start": 4.573,
+     "end": 4.819
+    },
+    {
+     "word": "everything",
+     "start": 4.819,
+     "end": 5.802
+    },
+    {
+     "word": "about",
+     "start": 5.802,
+     "end": 6.294
+    },
+    {
+     "word": "who",
+     "start": 6.294,
+     "end": 6.539
+    },
+    {
+     "word": "they",
+     "start": 6.539,
+     "end": 6.785
+    },
+    {
+     "word": "are.",
+     "start": 6.785,
+     "end": 7.547
+    },
+    {
+     "word": "It",
+     "start": 7.547,
+     "end": 7.793
+    },
+    {
+     "word": "was",
+     "start": 7.793,
+     "end": 8.038
+    },
+    {
+     "word": "ugly.",
+     "start": 8.038,
+     "end": 8.8
+    },
+    {
+     "word": "It",
+     "start": 8.8,
+     "end": 9.046
+    },
+    {
+     "word": "was",
+     "start": 9.046,
+     "end": 9.292
+    },
+    {
+     "word": "desperate.",
+     "start": 9.292,
+     "end": 10.545
+    },
+    {
+     "word": "And",
+     "start": 10.545,
+     "end": 10.791
+    },
+    {
+     "word": "they",
+     "start": 10.791,
+     "end": 11.036
+    },
+    {
+     "word": "found",
+     "start": 11.036,
+     "end": 11.282
+    },
+    {
+     "word": "a",
+     "start": 11.282,
+     "end": 11.528
+    },
+    {
+     "word": "way.",
+     "start": 11.528,
+     "end": 12.044
+    }
+   ]
+  },
+  "pt2": {
+   "dur": 14.256,
+   "text": "Croatia led them with forty minutes to go. Ronaldo dragged them level from the penalty spot. And in the ninety-fourth minute, substitute Gon\u00e7alo Ramos rose to a Le\u00e3o cross and headed Portugal into this tie.",
+   "words": [
+    {
+     "word": "Croatia",
+     "start": 0.15,
+     "end": 0.572
+    },
+    {
+     "word": "led",
+     "start": 0.572,
+     "end": 0.783
+    },
+    {
+     "word": "them",
+     "start": 0.783,
+     "end": 0.994
+    },
+    {
+     "word": "with",
+     "start": 0.994,
+     "end": 1.205
+    },
+    {
+     "word": "forty",
+     "start": 1.205,
+     "end": 1.627
+    },
+    {
+     "word": "minutes",
+     "start": 1.627,
+     "end": 2.259
+    },
+    {
+     "word": "to",
+     "start": 2.259,
+     "end": 2.47
+    },
+    {
+     "word": "go.",
+     "start": 2.47,
+     "end": 2.913
+    },
+    {
+     "word": "Ronaldo",
+     "start": 2.913,
+     "end": 3.546
+    },
+    {
+     "word": "dragged",
+     "start": 3.546,
+     "end": 3.968
+    },
+    {
+     "word": "them",
+     "start": 3.968,
+     "end": 4.179
+    },
+    {
+     "word": "level",
+     "start": 4.179,
+     "end": 4.601
+    },
+    {
+     "word": "from",
+     "start": 4.601,
+     "end": 4.812
+    },
+    {
+     "word": "the",
+     "start": 4.812,
+     "end": 5.023
+    },
+    {
+     "word": "penalty",
+     "start": 5.023,
+     "end": 5.655
+    },
+    {
+     "word": "spot.",
+     "start": 5.655,
+     "end": 6.098
+    },
+    {
+     "word": "And",
+     "start": 6.098,
+     "end": 6.309
+    },
+    {
+     "word": "in",
+     "start": 6.309,
+     "end": 6.52
+    },
+    {
+     "word": "the",
+     "start": 6.52,
+     "end": 6.731
+    },
+    {
+     "word": "ninety-fourth",
+     "start": 6.731,
+     "end": 7.575
+    },
+    {
+     "word": "minute,",
+     "start": 7.575,
+     "end": 8.44
+    },
+    {
+     "word": "substitute",
+     "start": 8.44,
+     "end": 9.283
+    },
+    {
+     "word": "Gon\u00e7alo",
+     "start": 9.283,
+     "end": 9.916
+    },
+    {
+     "word": "Ramos",
+     "start": 9.916,
+     "end": 10.338
+    },
+    {
+     "word": "rose",
+     "start": 10.338,
+     "end": 10.76
+    },
+    {
+     "word": "to",
+     "start": 10.76,
+     "end": 10.971
+    },
+    {
+     "word": "a",
+     "start": 10.971,
+     "end": 11.182
+    },
+    {
+     "word": "Le\u00e3o",
+     "start": 11.182,
+     "end": 11.604
+    },
+    {
+     "word": "cross",
+     "start": 11.604,
+     "end": 11.815
+    },
+    {
+     "word": "and",
+     "start": 11.815,
+     "end": 12.026
+    },
+    {
+     "word": "headed",
+     "start": 12.026,
+     "end": 12.447
+    },
+    {
+     "word": "Portugal",
+     "start": 12.447,
+     "end": 13.08
+    },
+    {
+     "word": "into",
+     "start": 13.08,
+     "end": 13.502
+    },
+    {
+     "word": "this",
+     "start": 13.502,
+     "end": 13.713
+    },
+    {
+     "word": "tie.",
+     "start": 13.713,
+     "end": 14.156
+    }
+   ]
+  },
+  "pt3": {
+   "dur": 13.584,
+   "text": "And about Ronaldo. Forty-one years old. This tournament he became the first player in history to score at SIX different World Cups. Nobody else has ever scored at more than five.",
+   "words": [
+    {
+     "word": "And",
+     "start": 0.15,
+     "end": 0.382
+    },
+    {
+     "word": "about",
+     "start": 0.382,
+     "end": 0.847
+    },
+    {
+     "word": "Ronaldo.",
+     "start": 0.847,
+     "end": 1.799
+    },
+    {
+     "word": "Forty-one",
+     "start": 1.799,
+     "end": 2.729
+    },
+    {
+     "word": "years",
+     "start": 2.729,
+     "end": 2.961
+    },
+    {
+     "word": "old.",
+     "start": 2.961,
+     "end": 3.449
+    },
+    {
+     "word": "This",
+     "start": 3.449,
+     "end": 3.681
+    },
+    {
+     "word": "tournament",
+     "start": 3.681,
+     "end": 4.378
+    },
+    {
+     "word": "he",
+     "start": 4.378,
+     "end": 4.61
+    },
+    {
+     "word": "became",
+     "start": 4.61,
+     "end": 5.307
+    },
+    {
+     "word": "the",
+     "start": 5.307,
+     "end": 5.539
+    },
+    {
+     "word": "first",
+     "start": 5.539,
+     "end": 5.772
+    },
+    {
+     "word": "player",
+     "start": 5.772,
+     "end": 6.004
+    },
+    {
+     "word": "in",
+     "start": 6.004,
+     "end": 6.236
+    },
+    {
+     "word": "history",
+     "start": 6.236,
+     "end": 6.933
+    },
+    {
+     "word": "to",
+     "start": 6.933,
+     "end": 7.165
+    },
+    {
+     "word": "score",
+     "start": 7.165,
+     "end": 7.63
+    },
+    {
+     "word": "at",
+     "start": 7.63,
+     "end": 7.862
+    },
+    {
+     "word": "SIX",
+     "start": 7.862,
+     "end": 8.095
+    },
+    {
+     "word": "different",
+     "start": 8.095,
+     "end": 8.792
+    },
+    {
+     "word": "World",
+     "start": 8.792,
+     "end": 9.024
+    },
+    {
+     "word": "Cups.",
+     "start": 9.024,
+     "end": 9.512
+    },
+    {
+     "word": "Nobody",
+     "start": 9.512,
+     "end": 10.209
+    },
+    {
+     "word": "else",
+     "start": 10.209,
+     "end": 10.673
+    },
+    {
+     "word": "has",
+     "start": 10.673,
+     "end": 10.905
+    },
+    {
+     "word": "ever",
+     "start": 10.905,
+     "end": 11.37
+    },
+    {
+     "word": "scored",
+     "start": 11.37,
+     "end": 11.835
+    },
+    {
+     "word": "at",
+     "start": 11.835,
+     "end": 12.067
+    },
+    {
+     "word": "more",
+     "start": 12.067,
+     "end": 12.532
+    },
+    {
+     "word": "than",
+     "start": 12.532,
+     "end": 12.764
+    },
+    {
+     "word": "five.",
+     "start": 12.764,
+     "end": 13.484
+    }
+   ]
+  },
+  "pt4": {
+   "dur": 11.52,
+   "text": "The World Cup is the only trophy he has never touched. He knows this is the last dance. And a wounded legend with nothing to lose is the most dangerous thing in football.",
+   "words": [
+    {
+     "word": "The",
+     "start": 0.15,
+     "end": 0.383
+    },
+    {
+     "word": "World",
+     "start": 0.383,
+     "end": 0.617
+    },
+    {
+     "word": "Cup",
+     "start": 0.617,
+     "end": 0.85
+    },
+    {
+     "word": "is",
+     "start": 0.85,
+     "end": 1.083
+    },
+    {
+     "word": "the",
+     "start": 1.083,
+     "end": 1.317
+    },
+    {
+     "word": "only",
+     "start": 1.317,
+     "end": 1.783
+    },
+    {
+     "word": "trophy",
+     "start": 1.783,
+     "end": 2.25
+    },
+    {
+     "word": "he",
+     "start": 2.25,
+     "end": 2.483
+    },
+    {
+     "word": "has",
+     "start": 2.483,
+     "end": 2.717
+    },
+    {
+     "word": "never",
+     "start": 2.717,
+     "end": 3.183
+    },
+    {
+     "word": "touched.",
+     "start": 3.183,
+     "end": 3.907
+    },
+    {
+     "word": "He",
+     "start": 3.907,
+     "end": 4.14
+    },
+    {
+     "word": "knows",
+     "start": 4.14,
+     "end": 4.373
+    },
+    {
+     "word": "this",
+     "start": 4.373,
+     "end": 4.607
+    },
+    {
+     "word": "is",
+     "start": 4.607,
+     "end": 4.84
+    },
+    {
+     "word": "the",
+     "start": 4.84,
+     "end": 5.073
+    },
+    {
+     "word": "last",
+     "start": 5.073,
+     "end": 5.307
+    },
+    {
+     "word": "dance.",
+     "start": 5.307,
+     "end": 6.03
+    },
+    {
+     "word": "And",
+     "start": 6.03,
+     "end": 6.263
+    },
+    {
+     "word": "a",
+     "start": 6.263,
+     "end": 6.497
+    },
+    {
+     "word": "wounded",
+     "start": 6.497,
+     "end": 6.963
+    },
+    {
+     "word": "legend",
+     "start": 6.963,
+     "end": 7.43
+    },
+    {
+     "word": "with",
+     "start": 7.43,
+     "end": 7.663
+    },
+    {
+     "word": "nothing",
+     "start": 7.663,
+     "end": 8.13
+    },
+    {
+     "word": "to",
+     "start": 8.13,
+     "end": 8.363
+    },
+    {
+     "word": "lose",
+     "start": 8.363,
+     "end": 8.83
+    },
+    {
+     "word": "is",
+     "start": 8.83,
+     "end": 9.063
+    },
+    {
+     "word": "the",
+     "start": 9.063,
+     "end": 9.297
+    },
+    {
+     "word": "most",
+     "start": 9.297,
+     "end": 9.53
+    },
+    {
+     "word": "dangerous",
+     "start": 9.53,
+     "end": 10.23
+    },
+    {
+     "word": "thing",
+     "start": 10.23,
+     "end": 10.463
+    },
+    {
+     "word": "in",
+     "start": 10.463,
+     "end": 10.697
+    },
+    {
+     "word": "football.",
+     "start": 10.697,
+     "end": 11.42
+    }
+   ]
+  },
+  "d1": {
+   "dur": 13.032,
+   "text": "Which brings us to the duel inside the match. Lamine Yamal is eighteen. Cristiano Ronaldo is forty-one. When Ronaldo made his World Cup debut, Yamal hadn't been born.",
+   "words": [
+    {
+     "word": "Which",
+     "start": 0.15,
+     "end": 0.398
+    },
+    {
+     "word": "brings",
+     "start": 0.398,
+     "end": 0.646
+    },
+    {
+     "word": "us",
+     "start": 0.646,
+     "end": 0.895
+    },
+    {
+     "word": "to",
+     "start": 0.895,
+     "end": 1.143
+    },
+    {
+     "word": "the",
+     "start": 1.143,
+     "end": 1.391
+    },
+    {
+     "word": "duel",
+     "start": 1.391,
+     "end": 1.639
+    },
+    {
+     "word": "inside",
+     "start": 1.639,
+     "end": 2.384
+    },
+    {
+     "word": "the",
+     "start": 2.384,
+     "end": 2.632
+    },
+    {
+     "word": "match.",
+     "start": 2.632,
+     "end": 3.153
+    },
+    {
+     "word": "Lamine",
+     "start": 3.153,
+     "end": 3.898
+    },
+    {
+     "word": "Yamal",
+     "start": 3.898,
+     "end": 4.394
+    },
+    {
+     "word": "is",
+     "start": 4.394,
+     "end": 4.642
+    },
+    {
+     "word": "eighteen.",
+     "start": 4.642,
+     "end": 5.412
+    },
+    {
+     "word": "Cristiano",
+     "start": 5.412,
+     "end": 6.156
+    },
+    {
+     "word": "Ronaldo",
+     "start": 6.156,
+     "end": 6.901
+    },
+    {
+     "word": "is",
+     "start": 6.901,
+     "end": 7.149
+    },
+    {
+     "word": "forty-one.",
+     "start": 7.149,
+     "end": 8.415
+    },
+    {
+     "word": "When",
+     "start": 8.415,
+     "end": 8.663
+    },
+    {
+     "word": "Ronaldo",
+     "start": 8.663,
+     "end": 9.408
+    },
+    {
+     "word": "made",
+     "start": 9.408,
+     "end": 9.904
+    },
+    {
+     "word": "his",
+     "start": 9.904,
+     "end": 10.152
+    },
+    {
+     "word": "World",
+     "start": 10.152,
+     "end": 10.4
+    },
+    {
+     "word": "Cup",
+     "start": 10.4,
+     "end": 10.649
+    },
+    {
+     "word": "debut,",
+     "start": 10.649,
+     "end": 11.418
+    },
+    {
+     "word": "Yamal",
+     "start": 11.418,
+     "end": 11.914
+    },
+    {
+     "word": "hadn't",
+     "start": 11.914,
+     "end": 12.163
+    },
+    {
+     "word": "been",
+     "start": 12.163,
+     "end": 12.411
+    },
+    {
+     "word": "born.",
+     "start": 12.411,
+     "end": 12.932
+    }
+   ]
+  },
+  "d2": {
+   "dur": 11.832,
+   "text": "The heir against the king. One is chasing his first World Cup story. The other is chasing his last. Monday, only one of those stories continues.",
+   "words": [
+    {
+     "word": "The",
+     "start": 0.15,
+     "end": 0.41
+    },
+    {
+     "word": "heir",
+     "start": 0.41,
+     "end": 0.671
+    },
+    {
+     "word": "against",
+     "start": 0.671,
+     "end": 1.191
+    },
+    {
+     "word": "the",
+     "start": 1.191,
+     "end": 1.451
+    },
+    {
+     "word": "king.",
+     "start": 1.451,
+     "end": 1.998
+    },
+    {
+     "word": "One",
+     "start": 1.998,
+     "end": 2.518
+    },
+    {
+     "word": "is",
+     "start": 2.518,
+     "end": 2.779
+    },
+    {
+     "word": "chasing",
+     "start": 2.779,
+     "end": 3.299
+    },
+    {
+     "word": "his",
+     "start": 3.299,
+     "end": 3.56
+    },
+    {
+     "word": "first",
+     "start": 3.56,
+     "end": 3.82
+    },
+    {
+     "word": "World",
+     "start": 3.82,
+     "end": 4.08
+    },
+    {
+     "word": "Cup",
+     "start": 4.08,
+     "end": 4.34
+    },
+    {
+     "word": "story.",
+     "start": 4.34,
+     "end": 5.147
+    },
+    {
+     "word": "The",
+     "start": 5.147,
+     "end": 5.407
+    },
+    {
+     "word": "other",
+     "start": 5.407,
+     "end": 5.928
+    },
+    {
+     "word": "is",
+     "start": 5.928,
+     "end": 6.188
+    },
+    {
+     "word": "chasing",
+     "start": 6.188,
+     "end": 6.709
+    },
+    {
+     "word": "his",
+     "start": 6.709,
+     "end": 6.969
+    },
+    {
+     "word": "last.",
+     "start": 6.969,
+     "end": 7.516
+    },
+    {
+     "word": "Monday,",
+     "start": 7.516,
+     "end": 8.322
+    },
+    {
+     "word": "only",
+     "start": 8.322,
+     "end": 8.843
+    },
+    {
+     "word": "one",
+     "start": 8.843,
+     "end": 9.364
+    },
+    {
+     "word": "of",
+     "start": 9.364,
+     "end": 9.624
+    },
+    {
+     "word": "those",
+     "start": 9.624,
+     "end": 10.144
+    },
+    {
+     "word": "stories",
+     "start": 10.144,
+     "end": 10.665
+    },
+    {
+     "word": "continues.",
+     "start": 10.665,
+     "end": 11.732
+    }
+   ]
+  },
+  "b1": {
+   "dur": 11.88,
+   "text": "Now zoom out to the bracket, because the stakes get bigger. The winner of this match gets the USA-Belgium winner in the quarterfinal at SoFi \u2014 a genuinely winnable game.",
+   "words": [
+    {
+     "word": "Now",
+     "start": 0.15,
+     "end": 0.368
+    },
+    {
+     "word": "zoom",
+     "start": 0.368,
+     "end": 0.586
+    },
+    {
+     "word": "out",
+     "start": 0.586,
+     "end": 0.805
+    },
+    {
+     "word": "to",
+     "start": 0.805,
+     "end": 1.023
+    },
+    {
+     "word": "the",
+     "start": 1.023,
+     "end": 1.241
+    },
+    {
+     "word": "bracket,",
+     "start": 1.241,
+     "end": 1.917
+    },
+    {
+     "word": "because",
+     "start": 1.917,
+     "end": 2.572
+    },
+    {
+     "word": "the",
+     "start": 2.572,
+     "end": 2.79
+    },
+    {
+     "word": "stakes",
+     "start": 2.79,
+     "end": 3.227
+    },
+    {
+     "word": "get",
+     "start": 3.227,
+     "end": 3.445
+    },
+    {
+     "word": "bigger.",
+     "start": 3.445,
+     "end": 4.121
+    },
+    {
+     "word": "The",
+     "start": 4.121,
+     "end": 4.339
+    },
+    {
+     "word": "winner",
+     "start": 4.339,
+     "end": 4.776
+    },
+    {
+     "word": "of",
+     "start": 4.776,
+     "end": 4.994
+    },
+    {
+     "word": "this",
+     "start": 4.994,
+     "end": 5.212
+    },
+    {
+     "word": "match",
+     "start": 5.212,
+     "end": 5.43
+    },
+    {
+     "word": "gets",
+     "start": 5.43,
+     "end": 5.649
+    },
+    {
+     "word": "the",
+     "start": 5.649,
+     "end": 5.867
+    },
+    {
+     "word": "USA-Belgium",
+     "start": 5.867,
+     "end": 6.74
+    },
+    {
+     "word": "winner",
+     "start": 6.74,
+     "end": 7.176
+    },
+    {
+     "word": "in",
+     "start": 7.176,
+     "end": 7.394
+    },
+    {
+     "word": "the",
+     "start": 7.394,
+     "end": 7.612
+    },
+    {
+     "word": "quarterfinal",
+     "start": 7.612,
+     "end": 8.485
+    },
+    {
+     "word": "at",
+     "start": 8.485,
+     "end": 8.703
+    },
+    {
+     "word": "SoFi",
+     "start": 8.703,
+     "end": 9.14
+    },
+    {
+     "word": "\u2014",
+     "start": 9.14,
+     "end": 9.358
+    },
+    {
+     "word": "a",
+     "start": 9.358,
+     "end": 9.576
+    },
+    {
+     "word": "genuinely",
+     "start": 9.576,
+     "end": 10.449
+    },
+    {
+     "word": "winnable",
+     "start": 10.449,
+     "end": 11.104
+    },
+    {
+     "word": "game.",
+     "start": 11.104,
+     "end": 11.78
+    }
+   ]
+  },
+  "b2": {
+   "dur": 11.544,
+   "text": "Then a semifinal on July fourteenth. Then the final \u2014 where Messi's Argentina could be waiting. Win Monday, and you are two games from playing for everything.",
+   "words": [
+    {
+     "word": "Then",
+     "start": 0.15,
+     "end": 0.379
+    },
+    {
+     "word": "a",
+     "start": 0.379,
+     "end": 0.607
+    },
+    {
+     "word": "semifinal",
+     "start": 0.607,
+     "end": 1.522
+    },
+    {
+     "word": "on",
+     "start": 1.522,
+     "end": 1.75
+    },
+    {
+     "word": "July",
+     "start": 1.75,
+     "end": 2.208
+    },
+    {
+     "word": "fourteenth.",
+     "start": 2.208,
+     "end": 2.916
+    },
+    {
+     "word": "Then",
+     "start": 2.916,
+     "end": 3.145
+    },
+    {
+     "word": "the",
+     "start": 3.145,
+     "end": 3.374
+    },
+    {
+     "word": "final",
+     "start": 3.374,
+     "end": 3.831
+    },
+    {
+     "word": "\u2014",
+     "start": 3.831,
+     "end": 4.059
+    },
+    {
+     "word": "where",
+     "start": 4.059,
+     "end": 4.517
+    },
+    {
+     "word": "Messi's",
+     "start": 4.517,
+     "end": 4.974
+    },
+    {
+     "word": "Argentina",
+     "start": 4.974,
+     "end": 5.888
+    },
+    {
+     "word": "could",
+     "start": 5.888,
+     "end": 6.117
+    },
+    {
+     "word": "be",
+     "start": 6.117,
+     "end": 6.346
+    },
+    {
+     "word": "waiting.",
+     "start": 6.346,
+     "end": 7.054
+    },
+    {
+     "word": "Win",
+     "start": 7.054,
+     "end": 7.283
+    },
+    {
+     "word": "Monday,",
+     "start": 7.283,
+     "end": 7.992
+    },
+    {
+     "word": "and",
+     "start": 7.992,
+     "end": 8.22
+    },
+    {
+     "word": "you",
+     "start": 8.22,
+     "end": 8.449
+    },
+    {
+     "word": "are",
+     "start": 8.449,
+     "end": 8.906
+    },
+    {
+     "word": "two",
+     "start": 8.906,
+     "end": 9.135
+    },
+    {
+     "word": "games",
+     "start": 9.135,
+     "end": 9.592
+    },
+    {
+     "word": "from",
+     "start": 9.592,
+     "end": 9.821
+    },
+    {
+     "word": "playing",
+     "start": 9.821,
+     "end": 10.049
+    },
+    {
+     "word": "for",
+     "start": 10.049,
+     "end": 10.278
+    },
+    {
+     "word": "everything.",
+     "start": 10.278,
+     "end": 11.444
+    }
+   ]
+  },
+  "b3": {
+   "dur": 11.016,
+   "text": "That's why this is a final in disguise. Whoever survives Monday becomes the favourite from the top half of the bracket. The loser gets a long summer of what-ifs.",
+   "words": [
+    {
+     "word": "That's",
+     "start": 0.15,
+     "end": 0.373
+    },
+    {
+     "word": "why",
+     "start": 0.373,
+     "end": 0.596
+    },
+    {
+     "word": "this",
+     "start": 0.596,
+     "end": 0.819
+    },
+    {
+     "word": "is",
+     "start": 0.819,
+     "end": 1.042
+    },
+    {
+     "word": "a",
+     "start": 1.042,
+     "end": 1.264
+    },
+    {
+     "word": "final",
+     "start": 1.264,
+     "end": 1.71
+    },
+    {
+     "word": "in",
+     "start": 1.71,
+     "end": 1.933
+    },
+    {
+     "word": "disguise.",
+     "start": 1.933,
+     "end": 2.847
+    },
+    {
+     "word": "Whoever",
+     "start": 2.847,
+     "end": 3.293
+    },
+    {
+     "word": "survives",
+     "start": 3.293,
+     "end": 3.962
+    },
+    {
+     "word": "Monday",
+     "start": 3.962,
+     "end": 4.407
+    },
+    {
+     "word": "becomes",
+     "start": 4.407,
+     "end": 5.076
+    },
+    {
+     "word": "the",
+     "start": 5.076,
+     "end": 5.299
+    },
+    {
+     "word": "favourite",
+     "start": 5.299,
+     "end": 6.191
+    },
+    {
+     "word": "from",
+     "start": 6.191,
+     "end": 6.413
+    },
+    {
+     "word": "the",
+     "start": 6.413,
+     "end": 6.636
+    },
+    {
+     "word": "top",
+     "start": 6.636,
+     "end": 6.859
+    },
+    {
+     "word": "half",
+     "start": 6.859,
+     "end": 7.082
+    },
+    {
+     "word": "of",
+     "start": 7.082,
+     "end": 7.305
+    },
+    {
+     "word": "the",
+     "start": 7.305,
+     "end": 7.528
+    },
+    {
+     "word": "bracket.",
+     "start": 7.528,
+     "end": 8.219
+    },
+    {
+     "word": "The",
+     "start": 8.219,
+     "end": 8.442
+    },
+    {
+     "word": "loser",
+     "start": 8.442,
+     "end": 8.888
+    },
+    {
+     "word": "gets",
+     "start": 8.888,
+     "end": 9.111
+    },
+    {
+     "word": "a",
+     "start": 9.111,
+     "end": 9.333
+    },
+    {
+     "word": "long",
+     "start": 9.333,
+     "end": 9.556
+    },
+    {
+     "word": "summer",
+     "start": 9.556,
+     "end": 10.002
+    },
+    {
+     "word": "of",
+     "start": 10.002,
+     "end": 10.225
+    },
+    {
+     "word": "what-ifs.",
+     "start": 10.225,
+     "end": 10.916
+    }
+   ]
+  },
+  "p1": {
+   "dur": 12.024,
+   "text": "So, my prediction. The form says Spain \u2014 they're the best team in this tournament right now, and it isn't particularly close. The football brain says Spain too.",
+   "words": [
+    {
+     "word": "So,",
+     "start": 0.15,
+     "end": 0.706
+    },
+    {
+     "word": "my",
+     "start": 0.706,
+     "end": 0.97
+    },
+    {
+     "word": "prediction.",
+     "start": 0.97,
+     "end": 2.055
+    },
+    {
+     "word": "The",
+     "start": 2.055,
+     "end": 2.32
+    },
+    {
+     "word": "form",
+     "start": 2.32,
+     "end": 2.584
+    },
+    {
+     "word": "says",
+     "start": 2.584,
+     "end": 2.849
+    },
+    {
+     "word": "Spain",
+     "start": 2.849,
+     "end": 3.113
+    },
+    {
+     "word": "\u2014",
+     "start": 3.113,
+     "end": 3.378
+    },
+    {
+     "word": "they're",
+     "start": 3.378,
+     "end": 3.907
+    },
+    {
+     "word": "the",
+     "start": 3.907,
+     "end": 4.172
+    },
+    {
+     "word": "best",
+     "start": 4.172,
+     "end": 4.436
+    },
+    {
+     "word": "team",
+     "start": 4.436,
+     "end": 4.701
+    },
+    {
+     "word": "in",
+     "start": 4.701,
+     "end": 4.965
+    },
+    {
+     "word": "this",
+     "start": 4.965,
+     "end": 5.23
+    },
+    {
+     "word": "tournament",
+     "start": 5.23,
+     "end": 6.024
+    },
+    {
+     "word": "right",
+     "start": 6.024,
+     "end": 6.288
+    },
+    {
+     "word": "now,",
+     "start": 6.288,
+     "end": 6.844
+    },
+    {
+     "word": "and",
+     "start": 6.844,
+     "end": 7.109
+    },
+    {
+     "word": "it",
+     "start": 7.109,
+     "end": 7.373
+    },
+    {
+     "word": "isn't",
+     "start": 7.373,
+     "end": 7.638
+    },
+    {
+     "word": "particularly",
+     "start": 7.638,
+     "end": 8.961
+    },
+    {
+     "word": "close.",
+     "start": 8.961,
+     "end": 9.781
+    },
+    {
+     "word": "The",
+     "start": 9.781,
+     "end": 10.045
+    },
+    {
+     "word": "football",
+     "start": 10.045,
+     "end": 10.575
+    },
+    {
+     "word": "brain",
+     "start": 10.575,
+     "end": 10.839
+    },
+    {
+     "word": "says",
+     "start": 10.839,
+     "end": 11.104
+    },
+    {
+     "word": "Spain",
+     "start": 11.104,
+     "end": 11.368
+    },
+    {
+     "word": "too.",
+     "start": 11.368,
+     "end": 11.924
+    }
+   ]
+  },
+  "p2": {
+   "dur": 12.36,
+   "text": "But derbies don't read form guides. And Ronaldo in a last dance, in a knockout, against the one neighbour he'd crawl over glass to beat? I've watched football too long to call that safe.",
+   "words": [
+    {
+     "word": "But",
+     "start": 0.15,
+     "end": 0.376
+    },
+    {
+     "word": "derbies",
+     "start": 0.376,
+     "end": 0.829
+    },
+    {
+     "word": "don't",
+     "start": 0.829,
+     "end": 1.055
+    },
+    {
+     "word": "read",
+     "start": 1.055,
+     "end": 1.282
+    },
+    {
+     "word": "form",
+     "start": 1.282,
+     "end": 1.508
+    },
+    {
+     "word": "guides.",
+     "start": 1.508,
+     "end": 2.21
+    },
+    {
+     "word": "And",
+     "start": 2.21,
+     "end": 2.436
+    },
+    {
+     "word": "Ronaldo",
+     "start": 2.436,
+     "end": 3.115
+    },
+    {
+     "word": "in",
+     "start": 3.115,
+     "end": 3.342
+    },
+    {
+     "word": "a",
+     "start": 3.342,
+     "end": 3.568
+    },
+    {
+     "word": "last",
+     "start": 3.568,
+     "end": 3.794
+    },
+    {
+     "word": "dance,",
+     "start": 3.794,
+     "end": 4.496
+    },
+    {
+     "word": "in",
+     "start": 4.496,
+     "end": 4.722
+    },
+    {
+     "word": "a",
+     "start": 4.722,
+     "end": 4.949
+    },
+    {
+     "word": "knockout,",
+     "start": 4.949,
+     "end": 5.65
+    },
+    {
+     "word": "against",
+     "start": 5.65,
+     "end": 6.103
+    },
+    {
+     "word": "the",
+     "start": 6.103,
+     "end": 6.329
+    },
+    {
+     "word": "one",
+     "start": 6.329,
+     "end": 6.782
+    },
+    {
+     "word": "neighbour",
+     "start": 6.782,
+     "end": 7.235
+    },
+    {
+     "word": "he'd",
+     "start": 7.235,
+     "end": 7.461
+    },
+    {
+     "word": "crawl",
+     "start": 7.461,
+     "end": 7.688
+    },
+    {
+     "word": "over",
+     "start": 7.688,
+     "end": 8.14
+    },
+    {
+     "word": "glass",
+     "start": 8.14,
+     "end": 8.367
+    },
+    {
+     "word": "to",
+     "start": 8.367,
+     "end": 8.593
+    },
+    {
+     "word": "beat?",
+     "start": 8.593,
+     "end": 9.068
+    },
+    {
+     "word": "I've",
+     "start": 9.068,
+     "end": 9.521
+    },
+    {
+     "word": "watched",
+     "start": 9.521,
+     "end": 9.974
+    },
+    {
+     "word": "football",
+     "start": 9.974,
+     "end": 10.427
+    },
+    {
+     "word": "too",
+     "start": 10.427,
+     "end": 10.653
+    },
+    {
+     "word": "long",
+     "start": 10.653,
+     "end": 10.879
+    },
+    {
+     "word": "to",
+     "start": 10.879,
+     "end": 11.106
+    },
+    {
+     "word": "call",
+     "start": 11.106,
+     "end": 11.332
+    },
+    {
+     "word": "that",
+     "start": 11.332,
+     "end": 11.558
+    },
+    {
+     "word": "safe.",
+     "start": 11.558,
+     "end": 12.26
+    }
+   ]
+  },
+  "p3": {
+   "dur": 11.352,
+   "text": "My call: Spain win \u2014 but it goes deep, it gets nasty, and if it reaches penalties, all bets are off. Drop your score prediction in the comments and roast mine.",
+   "words": [
+    {
+     "word": "My",
+     "start": 0.15,
+     "end": 0.389
+    },
+    {
+     "word": "call:",
+     "start": 0.389,
+     "end": 0.628
+    },
+    {
+     "word": "Spain",
+     "start": 0.628,
+     "end": 0.866
+    },
+    {
+     "word": "win",
+     "start": 0.866,
+     "end": 1.105
+    },
+    {
+     "word": "\u2014",
+     "start": 1.105,
+     "end": 1.344
+    },
+    {
+     "word": "but",
+     "start": 1.344,
+     "end": 1.583
+    },
+    {
+     "word": "it",
+     "start": 1.583,
+     "end": 1.821
+    },
+    {
+     "word": "goes",
+     "start": 1.821,
+     "end": 2.06
+    },
+    {
+     "word": "deep,",
+     "start": 2.06,
+     "end": 2.561
+    },
+    {
+     "word": "it",
+     "start": 2.561,
+     "end": 2.8
+    },
+    {
+     "word": "gets",
+     "start": 2.8,
+     "end": 3.039
+    },
+    {
+     "word": "nasty,",
+     "start": 3.039,
+     "end": 3.779
+    },
+    {
+     "word": "and",
+     "start": 3.779,
+     "end": 4.018
+    },
+    {
+     "word": "if",
+     "start": 4.018,
+     "end": 4.257
+    },
+    {
+     "word": "it",
+     "start": 4.257,
+     "end": 4.495
+    },
+    {
+     "word": "reaches",
+     "start": 4.495,
+     "end": 4.973
+    },
+    {
+     "word": "penalties,",
+     "start": 4.973,
+     "end": 5.952
+    },
+    {
+     "word": "all",
+     "start": 5.952,
+     "end": 6.19
+    },
+    {
+     "word": "bets",
+     "start": 6.19,
+     "end": 6.429
+    },
+    {
+     "word": "are",
+     "start": 6.429,
+     "end": 6.907
+    },
+    {
+     "word": "off.",
+     "start": 6.907,
+     "end": 7.408
+    },
+    {
+     "word": "Drop",
+     "start": 7.408,
+     "end": 7.647
+    },
+    {
+     "word": "your",
+     "start": 7.647,
+     "end": 7.886
+    },
+    {
+     "word": "score",
+     "start": 7.886,
+     "end": 8.363
+    },
+    {
+     "word": "prediction",
+     "start": 8.363,
+     "end": 9.079
+    },
+    {
+     "word": "in",
+     "start": 9.079,
+     "end": 9.318
+    },
+    {
+     "word": "the",
+     "start": 9.318,
+     "end": 9.557
+    },
+    {
+     "word": "comments",
+     "start": 9.557,
+     "end": 10.034
+    },
+    {
+     "word": "and",
+     "start": 10.034,
+     "end": 10.273
+    },
+    {
+     "word": "roast",
+     "start": 10.273,
+     "end": 10.512
+    },
+    {
+     "word": "mine.",
+     "start": 10.512,
+     "end": 11.252
+    }
+   ]
+  },
+  "cta": {
+   "dur": 8.0,
+   "text": "The full breakdown of the winner's road drops right after the final whistle \u2014 so subscribe. Monday. Three PM Eastern. Do not miss this one.",
+   "words": [
+    {
+     "word": "The",
+     "start": 0.159,
+     "end": 0.28
+    },
+    {
+     "word": "full",
+     "start": 0.299,
+     "end": 0.439
+    },
+    {
+     "word": "breakdown",
+     "start": 0.519,
+     "end": 0.919
+    },
+    {
+     "word": "of",
+     "start": 0.939,
+     "end": 1.019
+    },
+    {
+     "word": "the",
+     "start": 1.039,
+     "end": 1.079
+    },
+    {
+     "word": "winner's",
+     "start": 1.12,
+     "end": 1.379
+    },
+    {
+     "word": "road",
+     "start": 1.419,
+     "end": 1.599
+    },
+    {
+     "word": "drops",
+     "start": 1.639,
+     "end": 1.879
+    },
+    {
+     "word": "right",
+     "start": 2.019,
+     "end": 2.2
+    },
+    {
+     "word": "after",
+     "start": 2.279,
+     "end": 2.46
+    },
+    {
+     "word": "the",
+     "start": 2.5,
+     "end": 2.599
+    },
+    {
+     "word": "final",
+     "start": 2.639,
+     "end": 2.839
+    },
+    {
+     "word": "whistle",
+     "start": 2.919,
+     "end": 3.179
+    },
+    {
+     "word": "\u2014",
+     "start": 3.22,
+     "end": 3.221
+    },
+    {
+     "word": "so",
+     "start": 3.74,
+     "end": 3.899
+    },
+    {
+     "word": "subscribe.",
+     "start": 3.959,
+     "end": 4.539
+    },
+    {
+     "word": "Monday.",
+     "start": 4.819,
+     "end": 5.139
+    },
+    {
+     "word": "Three",
+     "start": 5.599,
+     "end": 5.759
+    },
+    {
+     "word": "PM",
+     "start": 5.9,
+     "end": 6.099
+    },
+    {
+     "word": "Eastern.",
+     "start": 6.139,
+     "end": 6.46
+    },
+    {
+     "word": "Do",
+     "start": 6.779,
+     "end": 6.839
+    },
+    {
+     "word": "not",
+     "start": 6.92,
+     "end": 7.059
+    },
+    {
+     "word": "miss",
+     "start": 7.079,
+     "end": 7.239
+    },
+    {
+     "word": "this",
+     "start": 7.279,
+     "end": 7.44
+    },
+    {
+     "word": "one.",
+     "start": 7.519,
+     "end": 7.619
+    }
+   ],
+   "engine": "veo"
+  }
+ }
+}

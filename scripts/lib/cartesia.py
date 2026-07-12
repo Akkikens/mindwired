@@ -22,10 +22,13 @@ API = "https://api.cartesia.ai/tts/bytes"
 VERSION = "2024-11-13"
 REPO = Path(__file__).resolve().parent.parent.parent
 
-# "Clive - Measured Expert": composed, articulate — Cartesia's own description
-# calls it "perfect for delivering educational content", which is exactly a
-# facts documentary. Swap per-host via src/viral/hosts.json.
-DEFAULT_VOICE = "b24f41fd-00a3-4cd8-992a-a0c9f13f3ef1"
+# Channel narrator = "orion_veo_clone": a Cartesia voice CLONED from the mindwired
+# Veo talking-host outro (Akshay approved the sound 2026-07-07). This captures the
+# nice Veo documentary voice as a pinned, consistent, ~free TTS voice — no Veo
+# per-clip cost, no cross-clip drift. This is the default for all mindwired
+# narration now. (Prev default "Clive - Measured Expert" b24f41fd-… kept below.)
+DEFAULT_VOICE = "00d3c951-0474-4b48-814e-ef815f533e63"
+CLIVE_VOICE = "b24f41fd-00a3-4cd8-992a-a0c9f13f3ef1"  # previous default, kept as fallback
 # break tags + generation_config.emotion require sonic-3/3.5 (sonic-2 ignores them)
 MODEL = "sonic-3.5"
 
@@ -65,9 +68,12 @@ def with_pauses(text: str, beat_ms: int = 260, sentence_ms: int = 480) -> str:
 
 
 def tts(text: str, voice: str | None = None, tone: str | None = None,
-        pauses: bool = True, speed: float = 0.92) -> bytes:
+        pauses: bool = True, speed: float = 0.92, language: str = "en") -> bytes:
     """Synthesize one clip. Returns mp3 bytes. speed 0.6-1.5 (1.0 = normal);
-    slightly under 1.0 reads as a more deliberate, human documentary pace."""
+    slightly under 1.0 reads as a more deliberate, human documentary pace.
+    language: BCP-47 code ("en" default; "hi" for DimaagBatti/Rohan). Pass it
+    explicitly per non-English channel — do NOT change the default, the mindwired
+    English clone relies on "en"."""
     key = load_key()
     transcript = with_pauses(text) if pauses else text
     body: dict = {
@@ -75,7 +81,7 @@ def tts(text: str, voice: str | None = None, tone: str | None = None,
         "transcript": transcript,
         "voice": {"mode": "id", "id": voice or DEFAULT_VOICE},
         "output_format": {"container": "mp3", "bit_rate": 128000, "sample_rate": 44100},
-        "language": "en",
+        "language": language,
         "generation_config": {"speed": speed},
     }
     emotion = EMOTION_FOR_TONE.get(tone or "")
@@ -96,6 +102,7 @@ if __name__ == "__main__":
     ap.add_argument("--out", required=True, type=Path)
     ap.add_argument("--voice", default=None)
     ap.add_argument("--tone", default=None)
+    ap.add_argument("--language", default="en")
     args = ap.parse_args()
-    args.out.write_bytes(tts(args.text, voice=args.voice, tone=args.tone))
+    args.out.write_bytes(tts(args.text, voice=args.voice, tone=args.tone, language=args.language))
     print(f"-> {args.out}")

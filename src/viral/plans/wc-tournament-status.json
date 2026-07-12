@@ -1,0 +1,96 @@
+{
+  "slug": "wc-tournament-status",
+  "title": "World Cup \u2014 Live Tournament Status",
+  "host": "jamie",
+  "channel": "kickoffdaily90",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "board": true,
+      "start": 0,
+      "end": 6,
+      "voiceover": "Here's exactly where the World Cup stands right now.",
+      "mainText": "WORLD CUP \u2014 LIVE TOURNAMENT STATUS",
+      "emphasis": [
+        "LIVE"
+      ],
+      "kicker": "WORLD CUP 2026",
+      "visualConcept": "host cold open",
+      "emotionalTone": "excitement",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "qf0",
+      "kind": "comparison",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "Quarterfinal: France versus Morocco, 07/09.",
+      "mainText": "FRANCE vs MOROCCO",
+      "emphasis": [],
+      "kicker": "QUARTERFINAL \u2014 07/09",
+      "visualConcept": "quarterfinal matchup card",
+      "compare": {
+        "left": "FRANCE",
+        "right": "MOROCCO",
+        "leftImg": "shorts/_wc-crests/773.svg",
+        "rightImg": null
+      },
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "qf1",
+      "kind": "comparison",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "Quarterfinal: Norway versus England, 07/11.",
+      "mainText": "NORWAY vs ENGLAND",
+      "emphasis": [],
+      "kicker": "QUARTERFINAL \u2014 07/11",
+      "visualConcept": "quarterfinal matchup card",
+      "compare": {
+        "left": "NORWAY",
+        "right": "ENGLAND",
+        "leftImg": "shorts/_wc-crests/813.svg",
+        "rightImg": "shorts/_wc-crests/770.svg"
+      },
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "pending",
+      "kind": "shockfact",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "2 more Quarterfinal spots are still up for grabs.",
+      "mainText": "2 QUARTERFINAL SPOTS STILL UP FOR GRABS",
+      "emphasis": [
+        "2"
+      ],
+      "kicker": "STILL TO BE DECIDED",
+      "visualConcept": "pending slots",
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "board": true,
+      "start": 0,
+      "end": 6,
+      "voiceover": "Follow kickoffdaily90 for every result as it happens.",
+      "mainText": "FOLLOW FOR EVERY RESULT",
+      "emphasis": [
+        "EVERY RESULT"
+      ],
+      "kicker": "@KICKOFFDAILY90",
+      "visualConcept": "cta",
+      "emotionalTone": "confidence",
+      "transitionOut": "none"
+    }
+  ]
+}

@@ -2,14 +2,16 @@
  *  Audio-first: real clip duration wins; the plan's start/end are the fallback.
  *  Word timings: real (from TTS alignment) or estimated by syllable weight. */
 import { PlanScene, ShortManifest, TimedScene, TimedWord, VisualPlan } from "./types";
+import { TONES } from "./tone";
+import { applyRecipe } from "./recipes";
 
 export const FPS = 30;
-/** breathing room after the voice stops, before the cut (frames) */
+/** generic fallback hold (frames). Real hold is now tone-derived (tone.hold):
+ *  shock cuts fast, awe lingers — kept exported for any external caller. */
 export const HOLD = 14;
-/** visual lead-in before the voice starts: longer on scene 1 so the video
- *  opens with a beat of motion instead of a cold slam */
-const LEAD_FIRST = 14;
-const LEAD = 5;
+/** scene 1 always opens with at least this much motion lead-in, even if its
+ *  tone's lead is shorter, so the video never starts on a cold slam */
+const LEAD_FIRST_MIN = 12;
 
 const syllables = (w: string) =>
   Math.max(1, (w.toLowerCase().match(/[aeiouy]+/g) ?? []).length);
@@ -31,17 +33,22 @@ export function estimateWords(text: string, dur: number): TimedWord[] {
 
 export function buildTimeline(plan: VisualPlan, manifest: ShortManifest | null): TimedScene[] {
   let from = 0;
-  return plan.scenes.map((s: PlanScene, i: number) => {
+  return plan.scenes.map((raw0: PlanScene, i: number) => {
+    // expand a scene's shot recipe (fills camera move etc.) before timing
+    const s = applyRecipe(raw0);
     const clip = manifest?.clips?.[s.id];
     // floor applies to manifest clips too — a corrupt 0.2s clip must not produce a glitch-flash scene
     const dur = Math.max(1.2, clip?.dur ?? (s.end - s.start));
-    const lead = i === 0 ? LEAD_FIRST : LEAD;
-    const durationInFrames = lead + Math.round(dur * FPS) + HOLD;
+    // tone-derived pacing: fast cut for shock, long hold for awe
+    const tone = TONES[s.emotionalTone];
+    const lead = i === 0 ? Math.max(LEAD_FIRST_MIN, tone.lead) : tone.lead;
+    const hold = tone.hold;
+    const durationInFrames = lead + Math.round(dur * FPS) + hold;
     const raw = clip?.words?.length ? clip.words : estimateWords(s.voiceover, dur);
     // shift word times so text stays locked to the delayed audio
     const words = raw.map((w) => ({ ...w, start: w.start + lead / FPS, end: w.end + lead / FPS }));
     const timed: TimedScene = {
-      ...s, from, durationInFrames, words, audioDelay: lead, channel: plan.channel,
+      ...s, from, durationInFrames, words, audioDelay: lead, holdFrames: hold, channel: plan.channel,
       audioSrc: clip && !clip.estimated ? `shorts/${plan.slug}/audio/${s.id}.mp3` : undefined,
     };
     from += durationInFrames;

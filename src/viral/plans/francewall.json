@@ -1,0 +1,45 @@
+{
+  "slug": "francewall",
+  "title": "Paraguay gave France 90 minutes of hell — then Mbappé broke the wall",
+  "host": "rio",
+  "channel": "kickoffdaily90",
+  "scenes": [
+    {
+      "id": "hook", "kind": "hook", "board": true, "start": 0, "end": 8,
+      "voiceover": "Paraguay just gave France ninety minutes of absolute hell — and it took one moment from one man to break the wall.",
+      "mainText": "PARAGUAY GAVE FRANCE HELL",
+      "emphasis": ["HELL"],
+      "kicker": "FRANCE 1-0 — BARELY",
+      "visualConcept": "result slam",
+      "emotionalTone": "shock", "transitionOut": "whip"
+    },
+    {
+      "id": "wall", "kind": "comparison", "board": true, "start": 8, "end": 18,
+      "voiceover": "Seventy-six percent possession for France. A five-four-one wall from Paraguay. And keeper Orlando Gill made save after save — even denying Mbappé twice in stoppage time.",
+      "mainText": "THE WALL: 5-4-1 + ORLANDO GILL",
+      "emphasis": ["GILL"],
+      "kicker": "FRANCE 76% POSSESSION, 1 GOAL",
+      "visualConcept": "siege stats board",
+      "compare": { "left": "FRANCE 76% BALL", "right": "PARAGUAY 4 SAVES" },
+      "emotionalTone": "fear", "transitionOut": "cut"
+    },
+    {
+      "id": "mbappe", "kind": "shockfact", "board": true, "start": 18, "end": 28,
+      "voiceover": "Then the seventieth minute: Gómez brings down Doué, and Mbappé buries the penalty. His seventh goal of the tournament — level with Messi in the Golden Boot race — and his nineteenth World Cup goal.",
+      "mainText": "MBAPPÉ 70' — LEVEL WITH MESSI",
+      "emphasis": ["MBAPPÉ"],
+      "kicker": "7 GOALS EACH — BOOT RACE ON",
+      "visualConcept": "penalty slam",
+      "emotionalTone": "excitement", "transitionOut": "whip"
+    },
+    {
+      "id": "cta", "kind": "cta", "board": true, "start": 28, "end": 36,
+      "voiceover": "So the quarterfinal is set: France against Morocco, July ninth — a rematch of the 2022 semifinal. Full bracket breakdown on the channel, and tell me: can the Atlas Lions get revenge?",
+      "mainText": "NEXT: FRANCE vs MOROCCO — REVENGE?",
+      "emphasis": ["REVENGE?"],
+      "kicker": "JULY 9 — THE 2022 REMATCH",
+      "visualConcept": "cta",
+      "emotionalTone": "curiosity", "transitionOut": "none"
+    }
+  ]
+}

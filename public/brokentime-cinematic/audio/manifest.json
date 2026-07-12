@@ -1,0 +1,2024 @@
+{
+  "clips": {
+    "hook": {
+      "kind": "spoken",
+      "dur": 16.2,
+      "words": [
+        {
+          "word": "Your",
+          "start": 0.14,
+          "end": 0.28
+        },
+        {
+          "word": "head",
+          "start": 0.299,
+          "end": 0.459
+        },
+        {
+          "word": "is",
+          "start": 0.519,
+          "end": 0.679
+        },
+        {
+          "word": "aging",
+          "start": 0.74,
+          "end": 1.099
+        },
+        {
+          "word": "faster",
+          "start": 1.139,
+          "end": 1.439
+        },
+        {
+          "word": "than",
+          "start": 1.48,
+          "end": 1.599
+        },
+        {
+          "word": "your",
+          "start": 1.639,
+          "end": 1.779
+        },
+        {
+          "word": "feet.",
+          "start": 1.819,
+          "end": 2.039
+        },
+        {
+          "word": "Right",
+          "start": 2.639,
+          "end": 2.839
+        },
+        {
+          "word": "now.",
+          "start": 2.919,
+          "end": 3.74
+        },
+        {
+          "word": "It",
+          "start": 3.819,
+          "end": 3.859
+        },
+        {
+          "word": "is",
+          "start": 3.919,
+          "end": 4.079
+        },
+        {
+          "word": "not",
+          "start": 4.099,
+          "end": 4.259
+        },
+        {
+          "word": "a",
+          "start": 4.279,
+          "end": 4.299
+        },
+        {
+          "word": "thought",
+          "start": 4.42,
+          "end": 4.559
+        },
+        {
+          "word": "experiment",
+          "start": 4.699,
+          "end": 5.199
+        },
+        {
+          "word": "\u2014",
+          "start": 5.94,
+          "end": 5.941
+        },
+        {
+          "word": "it",
+          "start": 6.019,
+          "end": 6.099
+        },
+        {
+          "word": "has",
+          "start": 6.139,
+          "end": 6.299
+        },
+        {
+          "word": "been",
+          "start": 6.319,
+          "end": 6.48
+        },
+        {
+          "word": "measured,",
+          "start": 6.519,
+          "end": 6.879
+        },
+        {
+          "word": "in",
+          "start": 7.299,
+          "end": 7.379
+        },
+        {
+          "word": "a",
+          "start": 7.48,
+          "end": 7.5
+        },
+        {
+          "word": "lab.",
+          "start": 7.519,
+          "end": 7.859
+        },
+        {
+          "word": "And",
+          "start": 9.039,
+          "end": 9.119
+        },
+        {
+          "word": "it",
+          "start": 9.139,
+          "end": 9.24
+        },
+        {
+          "word": "is",
+          "start": 9.279,
+          "end": 9.4
+        },
+        {
+          "word": "the",
+          "start": 9.439,
+          "end": 9.539
+        },
+        {
+          "word": "smallest",
+          "start": 9.579,
+          "end": 10.02
+        },
+        {
+          "word": "example",
+          "start": 10.099,
+          "end": 10.519
+        },
+        {
+          "word": "of",
+          "start": 10.559,
+          "end": 10.699
+        },
+        {
+          "word": "something",
+          "start": 10.739,
+          "end": 11.48
+        },
+        {
+          "word": "far",
+          "start": 11.559,
+          "end": 11.699
+        },
+        {
+          "word": "stranger:",
+          "start": 11.8,
+          "end": 12.259
+        },
+        {
+          "word": "nowhere",
+          "start": 13.019,
+          "end": 13.48
+        },
+        {
+          "word": "in",
+          "start": 13.519,
+          "end": 13.6
+        },
+        {
+          "word": "this",
+          "start": 13.639,
+          "end": 13.8
+        },
+        {
+          "word": "universe",
+          "start": 13.859,
+          "end": 14.34
+        },
+        {
+          "word": "do",
+          "start": 14.599,
+          "end": 14.719
+        },
+        {
+          "word": "two",
+          "start": 14.759,
+          "end": 14.859
+        },
+        {
+          "word": "clocks",
+          "start": 15.0,
+          "end": 15.279
+        },
+        {
+          "word": "agree.",
+          "start": 15.339,
+          "end": 15.639
+        }
+      ],
+      "voice": "hume-octave-orion",
+      "higgsfield": "HOOK [Crash Zoom In]"
+    },
+    "wordmark": {
+      "kind": "spoken",
+      "dur": 8.64,
+      "words": [
+        {
+          "word": "This",
+          "start": 0.219,
+          "end": 0.559
+        },
+        {
+          "word": "is",
+          "start": 1.679,
+          "end": 1.86
+        },
+        {
+          "word": "Mindwired.",
+          "start": 1.899,
+          "end": 2.619
+        },
+        {
+          "word": "And",
+          "start": 3.299,
+          "end": 3.519
+        },
+        {
+          "word": "this",
+          "start": 3.559,
+          "end": 4.579
+        },
+        {
+          "word": "is",
+          "start": 4.659,
+          "end": 4.839
+        },
+        {
+          "word": "proof",
+          "start": 4.9,
+          "end": 5.759
+        },
+        {
+          "word": "that",
+          "start": 5.799,
+          "end": 6.0
+        },
+        {
+          "word": "time",
+          "start": 6.019,
+          "end": 6.519
+        },
+        {
+          "word": "itself",
+          "start": 6.579,
+          "end": 7.559
+        },
+        {
+          "word": "is",
+          "start": 7.579,
+          "end": 7.759
+        },
+        {
+          "word": "broken.",
+          "start": 7.779,
+          "end": 8.159
+        }
+      ],
+      "voice": "hume-octave-orion",
+      "higgsfield": null
+    },
+    "labclock": {
+      "kind": "spoken",
+      "dur": 19.968,
+      "words": [
+        {
+          "word": "Two",
+          "start": 0.14,
+          "end": 0.399
+        },
+        {
+          "word": "atomic",
+          "start": 0.599,
+          "end": 1.079
+        },
+        {
+          "word": "clocks,",
+          "start": 1.159,
+          "end": 1.62
+        },
+        {
+          "word": "thirty-three",
+          "start": 2.319,
+          "end": 2.779
+        },
+        {
+          "word": "centimeters",
+          "start": 2.919,
+          "end": 3.399
+        },
+        {
+          "word": "apart.",
+          "start": 3.539,
+          "end": 3.839
+        },
+        {
+          "word": "Raise",
+          "start": 5.38,
+          "end": 5.659
+        },
+        {
+          "word": "one",
+          "start": 5.799,
+          "end": 6.059
+        },
+        {
+          "word": "just",
+          "start": 6.42,
+          "end": 6.599
+        },
+        {
+          "word": "that",
+          "start": 6.659,
+          "end": 6.839
+        },
+        {
+          "word": "little,",
+          "start": 6.879,
+          "end": 7.159
+        },
+        {
+          "word": "and",
+          "start": 7.46,
+          "end": 7.539
+        },
+        {
+          "word": "it",
+          "start": 7.559,
+          "end": 7.699
+        },
+        {
+          "word": "starts",
+          "start": 7.759,
+          "end": 8.1
+        },
+        {
+          "word": "ticking",
+          "start": 8.139,
+          "end": 8.42
+        },
+        {
+          "word": "faster",
+          "start": 8.579,
+          "end": 8.979
+        },
+        {
+          "word": "than",
+          "start": 9.019,
+          "end": 9.14
+        },
+        {
+          "word": "the",
+          "start": 9.179,
+          "end": 9.239
+        },
+        {
+          "word": "other.",
+          "start": 9.319,
+          "end": 9.559
+        },
+        {
+          "word": "Over",
+          "start": 10.979,
+          "end": 11.18
+        },
+        {
+          "word": "a",
+          "start": 11.219,
+          "end": 11.239
+        },
+        {
+          "word": "lifetime,",
+          "start": 11.34,
+          "end": 12.279
+        },
+        {
+          "word": "the",
+          "start": 12.34,
+          "end": 12.46
+        },
+        {
+          "word": "gap",
+          "start": 12.519,
+          "end": 12.92
+        },
+        {
+          "word": "is",
+          "start": 12.979,
+          "end": 13.159
+        },
+        {
+          "word": "measurable",
+          "start": 13.199,
+          "end": 13.739
+        },
+        {
+          "word": "\u2014",
+          "start": 14.759,
+          "end": 14.76
+        },
+        {
+          "word": "your",
+          "start": 14.839,
+          "end": 15.0
+        },
+        {
+          "word": "head",
+          "start": 15.019,
+          "end": 15.359
+        },
+        {
+          "word": "outpaces",
+          "start": 15.439,
+          "end": 16.1
+        },
+        {
+          "word": "your",
+          "start": 16.139,
+          "end": 16.36
+        },
+        {
+          "word": "feet",
+          "start": 16.379,
+          "end": 16.859
+        },
+        {
+          "word": "by",
+          "start": 16.92,
+          "end": 17.04
+        },
+        {
+          "word": "about",
+          "start": 17.1,
+          "end": 17.34
+        },
+        {
+          "word": "ninety",
+          "start": 17.44,
+          "end": 17.739
+        },
+        {
+          "word": "billionths",
+          "start": 17.899,
+          "end": 18.34
+        },
+        {
+          "word": "of",
+          "start": 18.399,
+          "end": 18.479
+        },
+        {
+          "word": "a",
+          "start": 18.52,
+          "end": 18.54
+        },
+        {
+          "word": "second.",
+          "start": 18.659,
+          "end": 18.959
+        }
+      ],
+      "voice": "hume-octave-orion",
+      "higgsfield": "[Dolly In]"
+    },
+    "gps": {
+      "kind": "spoken",
+      "dur": 26.04,
+      "words": [
+        {
+          "word": "Twenty",
+          "start": 0.099,
+          "end": 0.319
+        },
+        {
+          "word": "thousand",
+          "start": 0.459,
+          "end": 0.799
+        },
+        {
+          "word": "kilometers",
+          "start": 0.859,
+          "end": 1.379
+        },
+        {
+          "word": "above",
+          "start": 1.5,
+          "end": 1.719
+        },
+        {
+          "word": "you,",
+          "start": 1.779,
+          "end": 1.939
+        },
+        {
+          "word": "a",
+          "start": 2.5,
+          "end": 2.579
+        },
+        {
+          "word": "GPS",
+          "start": 2.659,
+          "end": 3.199
+        },
+        {
+          "word": "satellite",
+          "start": 3.259,
+          "end": 3.899
+        },
+        {
+          "word": "is",
+          "start": 3.98,
+          "end": 4.159
+        },
+        {
+          "word": "quietly",
+          "start": 4.239,
+          "end": 4.819
+        },
+        {
+          "word": "disagreeing",
+          "start": 4.859,
+          "end": 5.5
+        },
+        {
+          "word": "with",
+          "start": 5.539,
+          "end": 5.659
+        },
+        {
+          "word": "the",
+          "start": 5.699,
+          "end": 5.779
+        },
+        {
+          "word": "ground.",
+          "start": 5.839,
+          "end": 6.239
+        },
+        {
+          "word": "Its",
+          "start": 7.359,
+          "end": 7.539
+        },
+        {
+          "word": "speed",
+          "start": 7.639,
+          "end": 8.079
+        },
+        {
+          "word": "slows",
+          "start": 8.139,
+          "end": 8.479
+        },
+        {
+          "word": "its",
+          "start": 8.539,
+          "end": 8.699
+        },
+        {
+          "word": "clock.",
+          "start": 8.739,
+          "end": 9.119
+        },
+        {
+          "word": "Weaker",
+          "start": 10.279,
+          "end": 10.599
+        },
+        {
+          "word": "gravity",
+          "start": 10.679,
+          "end": 11.119
+        },
+        {
+          "word": "speeds",
+          "start": 11.279,
+          "end": 11.619
+        },
+        {
+          "word": "it",
+          "start": 11.659,
+          "end": 11.779
+        },
+        {
+          "word": "back",
+          "start": 11.8,
+          "end": 12.039
+        },
+        {
+          "word": "up.",
+          "start": 12.119,
+          "end": 12.299
+        },
+        {
+          "word": "Left",
+          "start": 13.539,
+          "end": 13.779
+        },
+        {
+          "word": "uncorrected,",
+          "start": 13.92,
+          "end": 14.619
+        },
+        {
+          "word": "that",
+          "start": 15.019,
+          "end": 15.199
+        },
+        {
+          "word": "mismatch",
+          "start": 15.299,
+          "end": 15.819
+        },
+        {
+          "word": "would",
+          "start": 15.88,
+          "end": 16.059
+        },
+        {
+          "word": "throw",
+          "start": 16.1,
+          "end": 16.319
+        },
+        {
+          "word": "your",
+          "start": 16.42,
+          "end": 16.54
+        },
+        {
+          "word": "location",
+          "start": 16.579,
+          "end": 17.12
+        },
+        {
+          "word": "off",
+          "start": 17.199,
+          "end": 17.379
+        },
+        {
+          "word": "by",
+          "start": 17.44,
+          "end": 17.619
+        },
+        {
+          "word": "ten",
+          "start": 17.68,
+          "end": 17.78
+        },
+        {
+          "word": "kilometers",
+          "start": 17.94,
+          "end": 18.44
+        },
+        {
+          "word": "a",
+          "start": 18.479,
+          "end": 18.559
+        },
+        {
+          "word": "day",
+          "start": 18.619,
+          "end": 18.86
+        },
+        {
+          "word": "\u2014",
+          "start": 18.88,
+          "end": 18.881
+        },
+        {
+          "word": "so",
+          "start": 20.0,
+          "end": 20.18
+        },
+        {
+          "word": "engineers",
+          "start": 20.26,
+          "end": 20.76
+        },
+        {
+          "word": "built",
+          "start": 20.859,
+          "end": 21.059
+        },
+        {
+          "word": "the",
+          "start": 21.1,
+          "end": 21.199
+        },
+        {
+          "word": "clock",
+          "start": 21.239,
+          "end": 21.579
+        },
+        {
+          "word": "deliberately",
+          "start": 21.639,
+          "end": 22.18
+        },
+        {
+          "word": "wrong,",
+          "start": 22.279,
+          "end": 22.639
+        },
+        {
+          "word": "just",
+          "start": 23.1,
+          "end": 23.319
+        },
+        {
+          "word": "so",
+          "start": 23.42,
+          "end": 23.539
+        },
+        {
+          "word": "it",
+          "start": 23.6,
+          "end": 23.739
+        },
+        {
+          "word": "would",
+          "start": 23.76,
+          "end": 23.899
+        },
+        {
+          "word": "become",
+          "start": 23.92,
+          "end": 24.219
+        },
+        {
+          "word": "right",
+          "start": 24.319,
+          "end": 24.639
+        },
+        {
+          "word": "in",
+          "start": 24.68,
+          "end": 24.799
+        },
+        {
+          "word": "orbit.",
+          "start": 24.859,
+          "end": 25.159
+        }
+      ],
+      "voice": "hume-octave-orion",
+      "higgsfield": "[FPV Drone]"
+    },
+    "core": {
+      "kind": "spoken",
+      "dur": 16.272,
+      "words": [
+        {
+          "word": "Point",
+          "start": 0.079,
+          "end": 0.359
+        },
+        {
+          "word": "that",
+          "start": 0.379,
+          "end": 0.56
+        },
+        {
+          "word": "same",
+          "start": 0.659,
+          "end": 0.899
+        },
+        {
+          "word": "physics",
+          "start": 0.979,
+          "end": 1.399
+        },
+        {
+          "word": "straight",
+          "start": 1.419,
+          "end": 1.799
+        },
+        {
+          "word": "down.",
+          "start": 1.86,
+          "end": 2.24
+        },
+        {
+          "word": "The",
+          "start": 3.179,
+          "end": 3.299
+        },
+        {
+          "word": "deeper",
+          "start": 3.339,
+          "end": 3.619
+        },
+        {
+          "word": "you",
+          "start": 3.679,
+          "end": 3.779
+        },
+        {
+          "word": "go,",
+          "start": 3.839,
+          "end": 4.339
+        },
+        {
+          "word": "the",
+          "start": 4.4,
+          "end": 4.539
+        },
+        {
+          "word": "slower",
+          "start": 4.599,
+          "end": 4.96
+        },
+        {
+          "word": "time",
+          "start": 5.0,
+          "end": 5.259
+        },
+        {
+          "word": "runs.",
+          "start": 5.38,
+          "end": 5.839
+        },
+        {
+          "word": "Over",
+          "start": 7.059,
+          "end": 7.359
+        },
+        {
+          "word": "four",
+          "start": 7.399,
+          "end": 7.519
+        },
+        {
+          "word": "and",
+          "start": 7.579,
+          "end": 7.639
+        },
+        {
+          "word": "a",
+          "start": 7.679,
+          "end": 7.739
+        },
+        {
+          "word": "half",
+          "start": 7.759,
+          "end": 7.96
+        },
+        {
+          "word": "billion",
+          "start": 8.099,
+          "end": 8.439
+        },
+        {
+          "word": "years,",
+          "start": 8.539,
+          "end": 8.88
+        },
+        {
+          "word": "gravity",
+          "start": 9.479,
+          "end": 9.9
+        },
+        {
+          "word": "has",
+          "start": 9.92,
+          "end": 10.079
+        },
+        {
+          "word": "made",
+          "start": 10.099,
+          "end": 10.28
+        },
+        {
+          "word": "the",
+          "start": 10.319,
+          "end": 10.439
+        },
+        {
+          "word": "center",
+          "start": 10.479,
+          "end": 10.76
+        },
+        {
+          "word": "of",
+          "start": 10.761,
+          "end": 10.88
+        },
+        {
+          "word": "the",
+          "start": 10.899,
+          "end": 10.979
+        },
+        {
+          "word": "Earth",
+          "start": 11.039,
+          "end": 11.779
+        },
+        {
+          "word": "about",
+          "start": 11.859,
+          "end": 12.14
+        },
+        {
+          "word": "two",
+          "start": 12.159,
+          "end": 12.259
+        },
+        {
+          "word": "and",
+          "start": 12.279,
+          "end": 12.36
+        },
+        {
+          "word": "a",
+          "start": 12.42,
+          "end": 12.44
+        },
+        {
+          "word": "half",
+          "start": 12.519,
+          "end": 12.659
+        },
+        {
+          "word": "years",
+          "start": 12.739,
+          "end": 13.0
+        },
+        {
+          "word": "younger",
+          "start": 13.059,
+          "end": 13.679
+        },
+        {
+          "word": "than",
+          "start": 13.719,
+          "end": 13.84
+        },
+        {
+          "word": "the",
+          "start": 13.859,
+          "end": 13.96
+        },
+        {
+          "word": "ground",
+          "start": 14.0,
+          "end": 14.34
+        },
+        {
+          "word": "beneath",
+          "start": 14.38,
+          "end": 14.679
+        },
+        {
+          "word": "your",
+          "start": 14.739,
+          "end": 14.9
+        },
+        {
+          "word": "feet.",
+          "start": 14.92,
+          "end": 15.199
+        }
+      ],
+      "voice": "hume-octave-orion",
+      "higgsfield": "[Pull Back]"
+    },
+    "iss": {
+      "kind": "spoken",
+      "dur": 13.152,
+      "words": [
+        {
+          "word": "Two",
+          "start": 0.14,
+          "end": 0.239
+        },
+        {
+          "word": "hundred",
+          "start": 0.28,
+          "end": 0.579
+        },
+        {
+          "word": "fifty",
+          "start": 0.599,
+          "end": 0.879
+        },
+        {
+          "word": "miles",
+          "start": 0.919,
+          "end": 1.24
+        },
+        {
+          "word": "up,",
+          "start": 1.319,
+          "end": 1.479
+        },
+        {
+          "word": "the",
+          "start": 1.959,
+          "end": 2.099
+        },
+        {
+          "word": "same",
+          "start": 2.139,
+          "end": 2.359
+        },
+        {
+          "word": "rules",
+          "start": 2.419,
+          "end": 2.699
+        },
+        {
+          "word": "apply",
+          "start": 2.799,
+          "end": 3.099
+        },
+        {
+          "word": "to",
+          "start": 3.139,
+          "end": 3.219
+        },
+        {
+          "word": "a",
+          "start": 3.259,
+          "end": 3.319
+        },
+        {
+          "word": "human",
+          "start": 3.359,
+          "end": 3.679
+        },
+        {
+          "word": "being.",
+          "start": 3.74,
+          "end": 4.98
+        },
+        {
+          "word": "Orbiting",
+          "start": 5.019,
+          "end": 5.4
+        },
+        {
+          "word": "at",
+          "start": 5.44,
+          "end": 5.619
+        },
+        {
+          "word": "seventeen",
+          "start": 5.639,
+          "end": 6.059
+        },
+        {
+          "word": "thousand",
+          "start": 6.239,
+          "end": 6.559
+        },
+        {
+          "word": "miles",
+          "start": 6.599,
+          "end": 6.859
+        },
+        {
+          "word": "an",
+          "start": 6.879,
+          "end": 6.96
+        },
+        {
+          "word": "hour",
+          "start": 7.059,
+          "end": 7.239
+        },
+        {
+          "word": "bends",
+          "start": 7.359,
+          "end": 7.619
+        },
+        {
+          "word": "an",
+          "start": 7.659,
+          "end": 7.719
+        },
+        {
+          "word": "astronaut's",
+          "start": 7.799,
+          "end": 8.359
+        },
+        {
+          "word": "clock",
+          "start": 8.42,
+          "end": 8.779
+        },
+        {
+          "word": "far",
+          "start": 8.819,
+          "end": 9.079
+        },
+        {
+          "word": "more",
+          "start": 9.099,
+          "end": 9.28
+        },
+        {
+          "word": "than",
+          "start": 9.34,
+          "end": 9.46
+        },
+        {
+          "word": "the",
+          "start": 9.479,
+          "end": 9.579
+        },
+        {
+          "word": "weaker",
+          "start": 9.599,
+          "end": 9.94
+        },
+        {
+          "word": "gravity",
+          "start": 9.979,
+          "end": 10.36
+        },
+        {
+          "word": "up",
+          "start": 10.38,
+          "end": 10.56
+        },
+        {
+          "word": "there",
+          "start": 10.599,
+          "end": 10.859
+        },
+        {
+          "word": "speeds",
+          "start": 10.88,
+          "end": 11.26
+        },
+        {
+          "word": "it",
+          "start": 11.279,
+          "end": 11.44
+        },
+        {
+          "word": "back",
+          "start": 11.46,
+          "end": 11.699
+        },
+        {
+          "word": "up.",
+          "start": 11.759,
+          "end": 12.659
+        }
+      ],
+      "voice": "hume-octave-orion",
+      "higgsfield": "[Orbit]"
+    },
+    "kelly": {
+      "kind": "spoken",
+      "dur": 14.616,
+      "words": [
+        {
+          "word": "After",
+          "start": 0.099,
+          "end": 0.399
+        },
+        {
+          "word": "three",
+          "start": 0.439,
+          "end": 0.62
+        },
+        {
+          "word": "hundred",
+          "start": 0.659,
+          "end": 0.959
+        },
+        {
+          "word": "forty",
+          "start": 0.979,
+          "end": 1.24
+        },
+        {
+          "word": "days",
+          "start": 1.259,
+          "end": 1.5
+        },
+        {
+          "word": "in",
+          "start": 1.519,
+          "end": 1.659
+        },
+        {
+          "word": "space,",
+          "start": 1.679,
+          "end": 2.099
+        },
+        {
+          "word": "astronaut",
+          "start": 2.2,
+          "end": 2.659
+        },
+        {
+          "word": "Scott",
+          "start": 2.679,
+          "end": 3.0
+        },
+        {
+          "word": "Kelly",
+          "start": 3.039,
+          "end": 3.339
+        },
+        {
+          "word": "came",
+          "start": 3.399,
+          "end": 3.639
+        },
+        {
+          "word": "home",
+          "start": 3.74,
+          "end": 3.879
+        },
+        {
+          "word": "about",
+          "start": 3.939,
+          "end": 4.259
+        },
+        {
+          "word": "five",
+          "start": 4.299,
+          "end": 4.539
+        },
+        {
+          "word": "milliseconds",
+          "start": 4.599,
+          "end": 5.219
+        },
+        {
+          "word": "younger",
+          "start": 5.319,
+          "end": 5.579
+        },
+        {
+          "word": "than",
+          "start": 5.659,
+          "end": 5.799
+        },
+        {
+          "word": "his",
+          "start": 5.819,
+          "end": 5.96
+        },
+        {
+          "word": "identical",
+          "start": 6.119,
+          "end": 6.539
+        },
+        {
+          "word": "twin,",
+          "start": 6.579,
+          "end": 7.079
+        },
+        {
+          "word": "still",
+          "start": 7.159,
+          "end": 7.399
+        },
+        {
+          "word": "standing",
+          "start": 7.44,
+          "end": 7.819
+        },
+        {
+          "word": "on",
+          "start": 7.879,
+          "end": 8.0
+        },
+        {
+          "word": "Earth.",
+          "start": 8.039,
+          "end": 9.579
+        },
+        {
+          "word": "He",
+          "start": 9.619,
+          "end": 9.719
+        },
+        {
+          "word": "did",
+          "start": 9.739,
+          "end": 9.88
+        },
+        {
+          "word": "not",
+          "start": 9.899,
+          "end": 10.06
+        },
+        {
+          "word": "imagine",
+          "start": 10.119,
+          "end": 10.439
+        },
+        {
+          "word": "the",
+          "start": 10.479,
+          "end": 10.579
+        },
+        {
+          "word": "future.",
+          "start": 10.619,
+          "end": 12.059
+        },
+        {
+          "word": "He",
+          "start": 12.099,
+          "end": 12.239
+        },
+        {
+          "word": "traveled",
+          "start": 12.279,
+          "end": 12.659
+        },
+        {
+          "word": "into",
+          "start": 12.679,
+          "end": 12.96
+        },
+        {
+          "word": "it.",
+          "start": 13.0,
+          "end": 13.119
+        }
+      ],
+      "voice": "hume-octave-orion",
+      "higgsfield": "[Bullet Time]"
+    },
+    "s2": {
+      "kind": "spoken",
+      "dur": 16.824,
+      "words": [
+        {
+          "word": "Push",
+          "start": 0.079,
+          "end": 0.359
+        },
+        {
+          "word": "the",
+          "start": 0.399,
+          "end": 0.459
+        },
+        {
+          "word": "effect",
+          "start": 0.519,
+          "end": 0.879
+        },
+        {
+          "word": "to",
+          "start": 0.899,
+          "end": 1.019
+        },
+        {
+          "word": "its",
+          "start": 1.039,
+          "end": 1.22
+        },
+        {
+          "word": "limit,",
+          "start": 1.259,
+          "end": 1.5
+        },
+        {
+          "word": "and",
+          "start": 1.899,
+          "end": 2.019
+        },
+        {
+          "word": "you",
+          "start": 2.039,
+          "end": 2.159
+        },
+        {
+          "word": "get",
+          "start": 2.2,
+          "end": 2.419
+        },
+        {
+          "word": "this:",
+          "start": 2.46,
+          "end": 2.819
+        },
+        {
+          "word": "a",
+          "start": 3.319,
+          "end": 3.339
+        },
+        {
+          "word": "star,",
+          "start": 3.46,
+          "end": 4.279
+        },
+        {
+          "word": "swinging",
+          "start": 4.42,
+          "end": 4.96
+        },
+        {
+          "word": "past",
+          "start": 5.0,
+          "end": 5.999
+        },
+        {
+          "word": "a",
+          "start": 6.019,
+          "end": 6.02
+        },
+        {
+          "word": "black",
+          "start": 6.019,
+          "end": 6.02
+        },
+        {
+          "word": "hole",
+          "start": 6.019,
+          "end": 6.02
+        },
+        {
+          "word": "four",
+          "start": 6.039,
+          "end": 6.04
+        },
+        {
+          "word": "million",
+          "start": 6.039,
+          "end": 6.04
+        },
+        {
+          "word": "times",
+          "start": 6.039,
+          "end": 6.04
+        },
+        {
+          "word": "the",
+          "start": 6.039,
+          "end": 6.04
+        },
+        {
+          "word": "mass",
+          "start": 6.039,
+          "end": 6.04
+        },
+        {
+          "word": "of",
+          "start": 6.039,
+          "end": 6.04
+        },
+        {
+          "word": "our",
+          "start": 6.039,
+          "end": 6.04
+        },
+        {
+          "word": "Sun,",
+          "start": 6.039,
+          "end": 6.04
+        },
+        {
+          "word": "at",
+          "start": 6.059,
+          "end": 6.199
+        },
+        {
+          "word": "nearly",
+          "start": 6.339,
+          "end": 6.739
+        },
+        {
+          "word": "three",
+          "start": 6.779,
+          "end": 6.919
+        },
+        {
+          "word": "percent",
+          "start": 7.039,
+          "end": 7.379
+        },
+        {
+          "word": "of",
+          "start": 7.419,
+          "end": 7.5
+        },
+        {
+          "word": "the",
+          "start": 7.519,
+          "end": 7.559
+        },
+        {
+          "word": "speed",
+          "start": 7.639,
+          "end": 7.879
+        },
+        {
+          "word": "of",
+          "start": 7.899,
+          "end": 8.0
+        },
+        {
+          "word": "light.",
+          "start": 8.059,
+          "end": 9.319
+        },
+        {
+          "word": "Its",
+          "start": 9.479,
+          "end": 9.68
+        },
+        {
+          "word": "light",
+          "start": 9.76,
+          "end": 10.079
+        },
+        {
+          "word": "stretched",
+          "start": 10.119,
+          "end": 10.859
+        },
+        {
+          "word": "exactly",
+          "start": 11.0,
+          "end": 11.52
+        },
+        {
+          "word": "the",
+          "start": 11.539,
+          "end": 11.619
+        },
+        {
+          "word": "way",
+          "start": 11.659,
+          "end": 11.8
+        },
+        {
+          "word": "Einstein",
+          "start": 11.859,
+          "end": 12.359
+        },
+        {
+          "word": "predicted",
+          "start": 12.38,
+          "end": 12.9
+        },
+        {
+          "word": "\u2014",
+          "start": 13.899,
+          "end": 13.9
+        },
+        {
+          "word": "a",
+          "start": 13.979,
+          "end": 14.059
+        },
+        {
+          "word": "century",
+          "start": 14.099,
+          "end": 14.56
+        },
+        {
+          "word": "before",
+          "start": 14.579,
+          "end": 14.94
+        },
+        {
+          "word": "anyone",
+          "start": 14.979,
+          "end": 15.279
+        },
+        {
+          "word": "could",
+          "start": 15.38,
+          "end": 15.539
+        },
+        {
+          "word": "prove",
+          "start": 15.559,
+          "end": 15.799
+        },
+        {
+          "word": "it.",
+          "start": 15.859,
+          "end": 16.039
+        }
+      ],
+      "voice": "hume-octave-orion",
+      "higgsfield": "[Crane Down]"
+    },
+    "clockwall": {
+      "kind": "spoken",
+      "dur": 18.816,
+      "words": [
+        {
+          "word": "GPS",
+          "start": 0.179,
+          "end": 0.68
+        },
+        {
+          "word": "satellites.",
+          "start": 0.759,
+          "end": 1.48
+        },
+        {
+          "word": "The",
+          "start": 2.139,
+          "end": 2.24
+        },
+        {
+          "word": "Moon.",
+          "start": 2.279,
+          "end": 2.779
+        },
+        {
+          "word": "Mars.",
+          "start": 3.419,
+          "end": 4.019
+        },
+        {
+          "word": "The",
+          "start": 4.819,
+          "end": 4.9
+        },
+        {
+          "word": "surface",
+          "start": 5.039,
+          "end": 5.379
+        },
+        {
+          "word": "of",
+          "start": 5.4,
+          "end": 5.5
+        },
+        {
+          "word": "the",
+          "start": 5.519,
+          "end": 5.559
+        },
+        {
+          "word": "Sun.",
+          "start": 5.699,
+          "end": 6.019
+        },
+        {
+          "word": "Every",
+          "start": 6.899,
+          "end": 7.139
+        },
+        {
+          "word": "clock",
+          "start": 7.219,
+          "end": 7.519
+        },
+        {
+          "word": "in",
+          "start": 7.579,
+          "end": 7.659
+        },
+        {
+          "word": "this",
+          "start": 7.679,
+          "end": 7.879
+        },
+        {
+          "word": "universe",
+          "start": 7.96,
+          "end": 8.76
+        },
+        {
+          "word": "is",
+          "start": 8.819,
+          "end": 8.979
+        },
+        {
+          "word": "running",
+          "start": 9.039,
+          "end": 9.32
+        },
+        {
+          "word": "at",
+          "start": 9.34,
+          "end": 9.42
+        },
+        {
+          "word": "its",
+          "start": 9.439,
+          "end": 9.619
+        },
+        {
+          "word": "own",
+          "start": 9.679,
+          "end": 9.92
+        },
+        {
+          "word": "private",
+          "start": 9.939,
+          "end": 10.359
+        },
+        {
+          "word": "speed.",
+          "start": 10.42,
+          "end": 10.859
+        },
+        {
+          "word": "There",
+          "start": 11.679,
+          "end": 11.779
+        },
+        {
+          "word": "is",
+          "start": 11.819,
+          "end": 11.939
+        },
+        {
+          "word": "no",
+          "start": 12.019,
+          "end": 12.179
+        },
+        {
+          "word": "master",
+          "start": 12.219,
+          "end": 12.659
+        },
+        {
+          "word": "clock,",
+          "start": 12.719,
+          "end": 13.18
+        },
+        {
+          "word": "anywhere.",
+          "start": 13.599,
+          "end": 14.179
+        },
+        {
+          "word": "Now",
+          "start": 15.079,
+          "end": 15.259
+        },
+        {
+          "word": "only",
+          "start": 15.319,
+          "end": 15.579
+        },
+        {
+          "word": "exists",
+          "start": 15.679,
+          "end": 16.219
+        },
+        {
+          "word": "exactly",
+          "start": 16.34,
+          "end": 16.84
+        },
+        {
+          "word": "where",
+          "start": 16.94,
+          "end": 17.12
+        },
+        {
+          "word": "you",
+          "start": 17.18,
+          "end": 17.279
+        },
+        {
+          "word": "are",
+          "start": 17.319,
+          "end": 17.44
+        },
+        {
+          "word": "standing.",
+          "start": 17.6,
+          "end": 18.059
+        }
+      ],
+      "voice": "hume-octave-orion",
+      "higgsfield": "[Static + Slow Push]"
+    },
+    "cta": {
+      "kind": "spoken",
+      "dur": 22.056,
+      "words": [
+        {
+          "word": "You",
+          "start": 0.14,
+          "end": 0.239
+        },
+        {
+          "word": "will",
+          "start": 0.28,
+          "end": 0.459
+        },
+        {
+          "word": "never",
+          "start": 0.5,
+          "end": 0.719
+        },
+        {
+          "word": "feel",
+          "start": 0.919,
+          "end": 1.159
+        },
+        {
+          "word": "any",
+          "start": 1.24,
+          "end": 1.459
+        },
+        {
+          "word": "of",
+          "start": 1.48,
+          "end": 1.619
+        },
+        {
+          "word": "this.",
+          "start": 1.679,
+          "end": 2.0
+        },
+        {
+          "word": "Your",
+          "start": 2.679,
+          "end": 2.839
+        },
+        {
+          "word": "own",
+          "start": 2.899,
+          "end": 3.039
+        },
+        {
+          "word": "clock",
+          "start": 3.22,
+          "end": 3.699
+        },
+        {
+          "word": "always",
+          "start": 3.839,
+          "end": 4.219
+        },
+        {
+          "word": "ticks",
+          "start": 4.279,
+          "end": 4.579
+        },
+        {
+          "word": "normally",
+          "start": 4.639,
+          "end": 5.179
+        },
+        {
+          "word": "\u2014",
+          "start": 6.039,
+          "end": 6.04
+        },
+        {
+          "word": "it",
+          "start": 6.119,
+          "end": 6.199
+        },
+        {
+          "word": "is",
+          "start": 6.239,
+          "end": 6.44
+        },
+        {
+          "word": "everyone",
+          "start": 6.519,
+          "end": 6.98
+        },
+        {
+          "word": "else's",
+          "start": 7.059,
+          "end": 7.779
+        },
+        {
+          "word": "that",
+          "start": 7.839,
+          "end": 8.039
+        },
+        {
+          "word": "drifts.",
+          "start": 8.099,
+          "end": 8.679
+        },
+        {
+          "word": "Time",
+          "start": 9.699,
+          "end": 10.099
+        },
+        {
+          "word": "is",
+          "start": 10.159,
+          "end": 10.3
+        },
+        {
+          "word": "not",
+          "start": 10.34,
+          "end": 10.559
+        },
+        {
+          "word": "one",
+          "start": 10.619,
+          "end": 10.76
+        },
+        {
+          "word": "river.",
+          "start": 10.859,
+          "end": 11.239
+        },
+        {
+          "word": "It",
+          "start": 12.659,
+          "end": 12.719
+        },
+        {
+          "word": "is",
+          "start": 12.779,
+          "end": 12.96
+        },
+        {
+          "word": "billions",
+          "start": 13.019,
+          "end": 13.42
+        },
+        {
+          "word": "of",
+          "start": 13.479,
+          "end": 13.6
+        },
+        {
+          "word": "them,",
+          "start": 13.639,
+          "end": 13.84
+        },
+        {
+          "word": "all",
+          "start": 14.439,
+          "end": 14.659
+        },
+        {
+          "word": "flowing",
+          "start": 14.719,
+          "end": 15.06
+        },
+        {
+          "word": "at",
+          "start": 15.099,
+          "end": 15.239
+        },
+        {
+          "word": "different",
+          "start": 15.259,
+          "end": 15.56
+        },
+        {
+          "word": "speeds.",
+          "start": 15.679,
+          "end": 16.26
+        },
+        {
+          "word": "Subscribe",
+          "start": 17.379,
+          "end": 17.92
+        },
+        {
+          "word": "to",
+          "start": 17.959,
+          "end": 18.02
+        },
+        {
+          "word": "Mindwired.",
+          "start": 18.1,
+          "end": 18.859
+        },
+        {
+          "word": "Yours",
+          "start": 19.68,
+          "end": 20.079
+        },
+        {
+          "word": "is",
+          "start": 20.159,
+          "end": 20.34
+        },
+        {
+          "word": "running",
+          "start": 20.399,
+          "end": 20.699
+        },
+        {
+          "word": "out.",
+          "start": 20.959,
+          "end": 21.239
+        }
+      ],
+      "voice": "hume-octave-orion",
+      "higgsfield": "CTA [Dolly Out]"
+    }
+  }
+}

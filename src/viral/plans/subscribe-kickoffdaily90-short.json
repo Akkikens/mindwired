@@ -1,0 +1,22 @@
+{
+  "slug": "subscribe-kickoffdaily90-short",
+  "title": "kickoffdaily90 — Subscribe Outro (5s, 9:16)",
+  "host": "rio",
+  "channel": "kickoffdaily90",
+  "scenes": [
+    {
+      "id": "cta",
+      "kind": "cta",
+      "start": 0,
+      "end": 5,
+      "voiceover": "If you enjoyed this, hit subscribe — it genuinely helps kickoffdaily90 grow.",
+      "mainText": "HIT SUBSCRIBE — IT HELPS US GROW",
+      "emphasis": ["SUBSCRIBE"],
+      "kicker": "@KICKOFFDAILY90",
+      "visualConcept": "host CTA, quick and warm",
+      "emotionalTone": "confidence",
+      "transitionOut": "none",
+      "hostClipExists": true
+    }
+  ]
+}

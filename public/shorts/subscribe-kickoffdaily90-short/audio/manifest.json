@@ -1,0 +1,71 @@
+{
+ "clips": {
+  "cta": {
+   "dur": 8.0,
+   "text": "If you enjoyed this, hit subscribe \u2014 it genuinely helps kickoffdaily90 grow.",
+   "words": [
+    {
+     "word": "If",
+     "start": 0.62,
+     "end": 0.779
+    },
+    {
+     "word": "you",
+     "start": 0.819,
+     "end": 0.879
+    },
+    {
+     "word": "enjoyed",
+     "start": 0.939,
+     "end": 1.339
+    },
+    {
+     "word": "this,",
+     "start": 1.399,
+     "end": 1.639
+    },
+    {
+     "word": "hit",
+     "start": 1.979,
+     "end": 2.119
+    },
+    {
+     "word": "subscribe",
+     "start": 2.24,
+     "end": 2.859
+    },
+    {
+     "word": "\u2014",
+     "start": 3.039,
+     "end": 3.04
+    },
+    {
+     "word": "it",
+     "start": 4.039,
+     "end": 4.299
+    },
+    {
+     "word": "genuinely",
+     "start": 4.339,
+     "end": 4.92
+    },
+    {
+     "word": "helps",
+     "start": 5.0,
+     "end": 5.359
+    },
+    {
+     "word": "kickoffdaily90",
+     "start": 5.42,
+     "end": 6.899
+    },
+    {
+     "word": "grow.",
+     "start": 6.96,
+     "end": 7.219
+    }
+   ],
+   "engine": "veo"
+  }
+ }
+}

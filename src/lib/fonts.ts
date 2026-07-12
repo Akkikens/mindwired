@@ -18,3 +18,11 @@ loadFont({
   weight: "100 900",
   display: "block",
 }).catch(() => undefined);
+
+// Noto Sans Devanagari — crisp Hindi (Devanagari) text for the DimaagBatti channel.
+loadFont({
+  family: "Noto Sans Devanagari",
+  url: staticFile("fonts/NotoSansDevanagari.ttf"),
+  weight: "100 900",
+  display: "block",
+}).catch(() => undefined);

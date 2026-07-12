@@ -1,0 +1,21 @@
+{
+  "slug": "subscribe-mindwired-short",
+  "title": "mindwired — Subscribe Outro (5s, 9:16)",
+  "host": "orion",
+  "scenes": [
+    {
+      "id": "cta",
+      "kind": "cta",
+      "start": 0,
+      "end": 5,
+      "voiceover": "If this helped, hit subscribe — it genuinely helps mindwired grow.",
+      "mainText": "HIT SUBSCRIBE — IT HELPS US GROW",
+      "emphasis": ["SUBSCRIBE"],
+      "kicker": "@MINDWIREDD",
+      "visualConcept": "host CTA, quick and warm",
+      "emotionalTone": "confidence",
+      "transitionOut": "none",
+      "hostClipExists": true
+    }
+  ]
+}

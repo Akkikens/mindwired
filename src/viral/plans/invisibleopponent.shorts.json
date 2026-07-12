@@ -1,0 +1,255 @@
+[
+  {
+    "slug": "invisibleopponent",
+    "cutId": "azteca40",
+    "title": "England's first Azteca game since the Hand of God",
+    "host": "jamie",
+    "channel": "kickoffdaily90",
+    "scenes": [
+      {
+        "id": "hook",
+        "kind": "hook",
+        "start": 0,
+        "end": 8,
+        "voiceover": "England are about to walk into the one stadium that beats you before kickoff. Let me introduce you to the invisible opponent of this World Cup.",
+        "mainText": "THE INVISIBLE OPPONENT",
+        "emphasis": [
+          "INVISIBLE"
+        ],
+        "kicker": "MEXICO vs ENGLAND — THE AZTECA",
+        "visualConcept": "VEO talking hook",
+        "emotionalTone": "curiosity",
+        "transitionOut": "whip",
+        "hostClipExists": true
+      },
+      {
+        "id": "s2",
+        "kind": "problem",
+        "board": true,
+        "start": 17,
+        "end": 26,
+        "voiceover": "The last time they did? June 1986. A quarterfinal against Argentina. A little hand went up above Peter Shilton... and football changed forever.",
+        "mainText": "LAST VISIT: THE HAND OF GOD",
+        "emphasis": [
+          "HAND OF GOD"
+        ],
+        "kicker": "ARGENTINA 2-1 ENGLAND — 1986",
+        "visualConcept": "history card",
+        "emotionalTone": "awe",
+        "transitionOut": "cut"
+      },
+      {
+        "id": "f5",
+        "kind": "shockfact",
+        "board": true,
+        "start": 123,
+        "end": 132,
+        "voiceover": "So understand the collision: Sunday is Mexico's FIFTH straight match in this stadium... and England's first in forty years. One team is home. The other is at altitude, in history, and in trouble.",
+        "mainText": "MEXICO'S 5TH GAME HERE. ENGLAND'S 1ST IN 40 YEARS.",
+        "emphasis": [
+          "5TH",
+          "1ST"
+        ],
+        "kicker": "THE WHOLE VIDEO IN ONE STAT",
+        "visualConcept": "spine slam",
+        "emotionalTone": "awe",
+        "transitionOut": "whip"
+      },
+      {
+        "id": "cta",
+        "kind": "cta",
+        "start": 186,
+        "end": 194,
+        "voiceover": "Mexico, England, thin air and forty years of ghosts — Sunday, eight PM Eastern. The breakdown drops right after the whistle. Subscribe, and tell me who survives the Azteca.",
+        "mainText": "WHO SURVIVES THE AZTECA? 👇",
+        "emphasis": [
+          "SURVIVES"
+        ],
+        "kicker": "SUNDAY 8PM ET",
+        "visualConcept": "VEO talking CTA",
+        "emotionalTone": "confidence",
+        "transitionOut": "none",
+        "hostClipExists": true
+      }
+    ]
+  },
+  {
+    "slug": "invisibleopponent",
+    "cutId": "thinair",
+    "title": "The Azteca beats you before kickoff — the science",
+    "host": "jamie",
+    "channel": "kickoffdaily90",
+    "scenes": [
+      {
+        "id": "a1",
+        "kind": "hook",
+        "board": true,
+        "start": 34,
+        "end": 43,
+        "voiceover": "So what makes the Azteca different from every other stadium at this World Cup? Start with this number: two thousand two hundred and forty metres above sea level. The highest venue of the tournament.",
+        "mainText": "2,240M ABOVE THE SEA",
+        "emphasis": [
+          "2,240M"
+        ],
+        "kicker": "CHAPTER 1 — THIN AIR",
+        "visualConcept": "altitude count-up",
+        "stat": {
+          "to": 2240,
+          "suffix": "m",
+          "label": "THE HIGHEST VENUE OF THE WORLD CUP"
+        },
+        "emotionalTone": "curiosity",
+        "transitionOut": "cut"
+      },
+      {
+        "id": "a2",
+        "kind": "shockfact",
+        "board": true,
+        "start": 43,
+        "end": 52,
+        "voiceover": "Up there, every breath delivers about a fifth less oxygen than at sea level. Your heart races. You fatigue faster. You recover slower. And there is nothing you can do about it in real time.",
+        "mainText": "A FIFTH LESS OXYGEN. EVERY BREATH.",
+        "emphasis": [
+          "FIFTH LESS"
+        ],
+        "kicker": "THE SCIENCE OF THIN AIR",
+        "visualConcept": "oxygen slam",
+        "emotionalTone": "fear",
+        "transitionOut": "cut"
+      },
+      {
+        "id": "a4",
+        "kind": "comparison",
+        "board": true,
+        "start": 61,
+        "end": 70,
+        "voiceover": "Here's the brutal maths: full altitude acclimatisation takes about ten days. England landed in Mexico City with roughly two. You cannot cheat physiology.",
+        "mainText": "NEEDED: 10 DAYS. ENGLAND HAVE: 2.",
+        "emphasis": [
+          "2."
+        ],
+        "kicker": "YOU CAN'T CHEAT PHYSIOLOGY",
+        "visualConcept": "acclimatisation gap",
+        "compare": {
+          "left": "NEEDED: ~10 DAYS",
+          "right": "ENGLAND: ~2 DAYS"
+        },
+        "emotionalTone": "fear",
+        "transitionOut": "cut"
+      },
+      {
+        "id": "a5",
+        "kind": "quote",
+        "board": true,
+        "start": 70,
+        "end": 79,
+        "voiceover": "Don't take my word for it. Thomas Tuchel said it himself: we cannot physically adapt to it in four days — it's just impossible. He called the altitude a huge advantage for Mexico.",
+        "mainText": "\"IT'S JUST IMPOSSIBLE\" — TUCHEL",
+        "emphasis": [
+          "IMPOSSIBLE"
+        ],
+        "kicker": "ENGLAND'S OWN MANAGER",
+        "visualConcept": "tuchel quote card",
+        "emotionalTone": "shock",
+        "transitionOut": "cut"
+      },
+      {
+        "id": "cta",
+        "kind": "cta",
+        "start": 186,
+        "end": 194,
+        "voiceover": "Mexico, England, thin air and forty years of ghosts — Sunday, eight PM Eastern. The breakdown drops right after the whistle. Subscribe, and tell me who survives the Azteca.",
+        "mainText": "WHO SURVIVES THE AZTECA? 👇",
+        "emphasis": [
+          "SURVIVES"
+        ],
+        "kicker": "SUNDAY 8PM ET",
+        "visualConcept": "VEO talking CTA",
+        "emotionalTone": "confidence",
+        "transitionOut": "none",
+        "hostClipExists": true
+      }
+    ]
+  },
+  {
+    "slug": "invisibleopponent",
+    "cutId": "fortress",
+    "title": "Nobody has scored on Mexico in this stadium",
+    "host": "jamie",
+    "channel": "kickoffdaily90",
+    "scenes": [
+      {
+        "id": "f1",
+        "kind": "hook",
+        "board": true,
+        "start": 88,
+        "end": 97,
+        "voiceover": "Now add the fortress on top of the physics. Mexico are unbeaten in their last twenty-two competitive matches at the Azteca. Sixteen wins, six draws.",
+        "mainText": "UNBEATEN IN 22 STRAIGHT AT THE AZTECA",
+        "emphasis": [
+          "22"
+        ],
+        "kicker": "CHAPTER 2 — THE FORTRESS",
+        "visualConcept": "fortress count-up",
+        "stat": {
+          "to": 22,
+          "label": "COMPETITIVE MATCHES UNBEATEN AT THE AZTECA"
+        },
+        "emotionalTone": "confidence",
+        "transitionOut": "cut"
+      },
+      {
+        "id": "f3",
+        "kind": "comparison",
+        "board": true,
+        "start": 105,
+        "end": 114,
+        "voiceover": "This tournament? Four matches at the Azteca, four wins, zero goals conceded. South Africa, South Korea, Czechia, and Ecuador in the knockouts — nobody has scored on Mexico in this building.",
+        "mainText": "4 GAMES. 4 WINS. 0 CONCEDED.",
+        "emphasis": [
+          "0"
+        ],
+        "kicker": "MEXICO AT THE AZTECA, 2026",
+        "visualConcept": "clean sheet board",
+        "compare": {
+          "left": "MEXICO: 8 SCORED",
+          "right": "OPPONENTS: 0"
+        },
+        "emotionalTone": "confidence",
+        "transitionOut": "cut"
+      },
+      {
+        "id": "f4",
+        "kind": "problem",
+        "board": true,
+        "start": 114,
+        "end": 123,
+        "voiceover": "That Ecuador win ended a forty-year wait for a World Cup knockout victory — and it detonated the loudest party this tournament has seen. Sunday will be louder.",
+        "mainText": "THE 40-YEAR CURSE IS ALREADY BROKEN",
+        "emphasis": [
+          "BROKEN"
+        ],
+        "kicker": "MEXICO 2-0 ECUADOR — R32",
+        "visualConcept": "curse broken card",
+        "emotionalTone": "excitement",
+        "transitionOut": "cut"
+      },
+      {
+        "id": "cta",
+        "kind": "cta",
+        "start": 186,
+        "end": 194,
+        "voiceover": "Mexico, England, thin air and forty years of ghosts — Sunday, eight PM Eastern. The breakdown drops right after the whistle. Subscribe, and tell me who survives the Azteca.",
+        "mainText": "WHO SURVIVES THE AZTECA? 👇",
+        "emphasis": [
+          "SURVIVES"
+        ],
+        "kicker": "SUNDAY 8PM ET",
+        "visualConcept": "VEO talking CTA",
+        "emotionalTone": "confidence",
+        "transitionOut": "none",
+        "hostClipExists": true
+      }
+    ]
+  }
+]

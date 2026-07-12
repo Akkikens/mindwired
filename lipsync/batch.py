@@ -42,10 +42,56 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from sonic_client import run as sonic_run  # noqa: E402
-from wav2lip_client import run as wav2lip_run  # noqa: E402
+sys.path.insert(0, str(REPO / "scripts" / "lib"))
+# Lip-sync engine: Veo 3.1 talking-head only (generates video AND its own voice,
+# natively in sync). The old wav2lip (local) and Sonic/Replicate engines were
+# removed 2026-07-07 — Veo is the single supported lip-sync path.
+ENGINES = {"veo": None}
 
-ENGINES = {"sonic": sonic_run, "wav2lip": wav2lip_run}
+
+def veo_scene(image: Path, voiceover: str, mp4: Path, audio_dir: Path, cid: str,
+              manifest: dict) -> None:
+    """Veo doesn't lip-sync to our mp3 — it generates video AND its own voice
+    from the dialogue. To keep the rest of the pipeline unchanged we then make
+    Veo's audio the scene's canonical audio: extract it over the ElevenLabs
+    mp3, forced-align the voiceover text against it for word-synced captions,
+    and update the manifest duration. The engine keeps playing 'the scene mp3'
+    + 'the muted clip', both now from the same Veo generation — always in sync.
+
+    Veo has a fixed ~8s clip floor — if the line is shorter, the actor just
+    stands there silently for the remainder. Using the FULL clip duration
+    (as this used to) bakes that dead air in as if it were deliberate scene
+    pacing, and it reads as "a static image for ~2s" (Akshay feedback,
+    2026-07-06). Fix: trim to shortly after the last forced-aligned word ends,
+    re-extracting the mp3 from the trimmed clip so audio/video/manifest all
+    agree on the shorter length."""
+    from veo_client import generate as veo_generate
+    import eleven
+
+    veo_generate(image, voiceover, mp4, aspect="9:16", model="fast")
+    mp3 = audio_dir / f"{cid}.mp3"
+    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(mp4),
+                    "-vn", "-c:a", "libmp3lame", "-q:a", "2", str(mp3)], check=True)
+    words = eleven.forced_align(mp3.read_bytes(), voiceover)
+    full_dur = float(subprocess.run(
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(mp4)],
+        capture_output=True, text=True, check=True).stdout.strip())
+
+    TRAIL_BUFFER = 0.4  # small natural pause after the last word, not dead air
+    speech_end = (words[-1]["end"] + TRAIL_BUFFER) if words else full_dur
+    dur = min(full_dur, speech_end)
+
+    if dur < full_dur - 0.5:  # only re-cut if there's a meaningful gap to trim
+        trimmed = mp4.with_suffix(".trimmed.mp4")
+        subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(mp4), "-t", f"{dur:.3f}",
+                        "-c:v", "libx264", "-preset", "fast", "-c:a", "aac", str(trimmed)], check=True)
+        trimmed.replace(mp4)
+        subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(mp4),
+                        "-vn", "-c:a", "libmp3lame", "-q:a", "2", str(mp3)], check=True)
+        print(f"  [{cid}] trimmed Veo dead air: {full_dur:.2f}s -> {dur:.2f}s")
+
+    manifest["clips"][cid] = {"dur": round(dur, 3), "text": voiceover, "words": words,
+                               "engine": "veo"}
 
 
 SONIC_MAX_DIM = 1080  # Sonic input: final render is 1080p/1080x1920 — a 4K
@@ -99,9 +145,8 @@ def main():
     ap.add_argument("--wide", action="store_true",
                     help="lip-sync against the host's native 16:9 shoot (hosts.json imageWide) "
                          "for the long-form 16:9 render, instead of the 9:16 short clips")
-    ap.add_argument("--engine", choices=list(ENGINES), default="sonic",
-                    help="sonic (Replicate, paid, sharper) or wav2lip (free, local, softer) — "
-                         "default sonic")
+    ap.add_argument("--engine", choices=list(ENGINES), default="veo",
+                    help="lip-sync engine — only 'veo' (Veo 3.1 talking-head) is supported")
     args = ap.parse_args()
     lipsync_run = ENGINES[args.engine]
 
@@ -135,9 +180,15 @@ def main():
             sys.exit(f"missing audio {mp3} — run scripts/build_short.py {args.slug} first")
         mp4 = out_dir / f"{clip_prefix}{cid}.mp4"
         if not mp4.exists():
-            print(f"[{cid}] lip-syncing ({clip_meta.get('dur', '?')}s) via {args.engine}...")
+            print(f"[{cid}] generating ({clip_meta.get('dur', '?')}s) via {args.engine}...")
             try:
-                lipsync_run(image, mp3, mp4, dynamic_scale=dynamic_scale)
+                if args.engine == "veo":
+                    if args.wide:
+                        sys.exit("--engine veo is 9:16 hooks only for now (no --wide)")
+                    veo_scene(image, sc["voiceover"], mp4, audio_dir, cid, manifest)
+                    (audio_dir / "manifest.json").write_text(json.dumps(manifest, indent=1))
+                else:
+                    lipsync_run(image, mp3, mp4, dynamic_scale=dynamic_scale)
             except Exception as e:
                 # idempotent by design — skip this scene, keep going, rerun the
                 # command later to pick up just the ones that failed

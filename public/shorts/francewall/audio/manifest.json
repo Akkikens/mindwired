@@ -1,0 +1,603 @@
+{
+ "clips": {
+  "hook": {
+   "dur": 7.616,
+   "text": "Paraguay just gave France ninety minutes of absolute hell \u2014 and it took one moment from one man to break the wall.",
+   "words": [
+    {
+     "word": "Paraguay",
+     "start": 0.0,
+     "end": 0.534
+    },
+    {
+     "word": "just",
+     "start": 0.615,
+     "end": 0.801
+    },
+    {
+     "word": "gave",
+     "start": 0.848,
+     "end": 1.08
+    },
+    {
+     "word": "France",
+     "start": 1.126,
+     "end": 1.591
+    },
+    {
+     "word": "ninety",
+     "start": 1.8,
+     "end": 2.194
+    },
+    {
+     "word": "minutes",
+     "start": 2.252,
+     "end": 2.531
+    },
+    {
+     "word": "of",
+     "start": 2.566,
+     "end": 2.624
+    },
+    {
+     "word": "absolute",
+     "start": 2.74,
+     "end": 3.286
+    },
+    {
+     "word": "hell",
+     "start": 3.332,
+     "end": 3.599
+    },
+    {
+     "word": "\u2014",
+     "start": 3.808,
+     "end": 3.866
+    },
+    {
+     "word": "and",
+     "start": 4.377,
+     "end": 4.505
+    },
+    {
+     "word": "it",
+     "start": 4.563,
+     "end": 4.621
+    },
+    {
+     "word": "took",
+     "start": 4.656,
+     "end": 4.865
+    },
+    {
+     "word": "one",
+     "start": 4.934,
+     "end": 5.178
+    },
+    {
+     "word": "moment",
+     "start": 5.236,
+     "end": 5.573
+    },
+    {
+     "word": "from",
+     "start": 5.608,
+     "end": 5.759
+    },
+    {
+     "word": "one",
+     "start": 5.84,
+     "end": 6.026
+    },
+    {
+     "word": "man",
+     "start": 6.072,
+     "end": 6.293
+    },
+    {
+     "word": "to",
+     "start": 6.351,
+     "end": 6.42
+    },
+    {
+     "word": "break",
+     "start": 6.49,
+     "end": 6.711
+    },
+    {
+     "word": "the",
+     "start": 6.769,
+     "end": 6.838
+    },
+    {
+     "word": "wall.",
+     "start": 6.896,
+     "end": 7.616
+    }
+   ]
+  },
+  "wall": {
+   "dur": 12.771,
+   "text": "Seventy-six percent possession for France. A five-four-one wall from Paraguay. And keeper Orlando Gill made save after save \u2014 even denying Mbapp\u00e9 twice in stoppage time.",
+   "words": [
+    {
+     "word": "Seventy-six",
+     "start": 0.0,
+     "end": 0.639
+    },
+    {
+     "word": "percent",
+     "start": 0.685,
+     "end": 0.952
+    },
+    {
+     "word": "possession",
+     "start": 0.998,
+     "end": 1.393
+    },
+    {
+     "word": "for",
+     "start": 1.463,
+     "end": 1.567
+    },
+    {
+     "word": "France.",
+     "start": 1.625,
+     "end": 2.229
+    },
+    {
+     "word": "A",
+     "start": 2.473,
+     "end": 2.543
+    },
+    {
+     "word": "five-four-one",
+     "start": 2.659,
+     "end": 3.495
+    },
+    {
+     "word": "wall",
+     "start": 3.541,
+     "end": 3.796
+    },
+    {
+     "word": "from",
+     "start": 3.855,
+     "end": 3.994
+    },
+    {
+     "word": "Paraguay.",
+     "start": 4.063,
+     "end": 4.853
+    },
+    {
+     "word": "And",
+     "start": 5.236,
+     "end": 5.387
+    },
+    {
+     "word": "keeper",
+     "start": 5.48,
+     "end": 5.77
+    },
+    {
+     "word": "Orlando",
+     "start": 5.84,
+     "end": 6.304
+    },
+    {
+     "word": "Gill",
+     "start": 6.385,
+     "end": 6.687
+    },
+    {
+     "word": "made",
+     "start": 7.012,
+     "end": 7.268
+    },
+    {
+     "word": "save",
+     "start": 7.338,
+     "end": 7.79
+    },
+    {
+     "word": "after",
+     "start": 7.848,
+     "end": 8.15
+    },
+    {
+     "word": "save",
+     "start": 8.208,
+     "end": 8.649
+    },
+    {
+     "word": "\u2014",
+     "start": 8.8,
+     "end": 8.882
+    },
+    {
+     "word": "even",
+     "start": 9.16,
+     "end": 9.427
+    },
+    {
+     "word": "denying",
+     "start": 9.485,
+     "end": 9.927
+    },
+    {
+     "word": "Mbapp\u00e9",
+     "start": 9.973,
+     "end": 10.565
+    },
+    {
+     "word": "twice",
+     "start": 10.844,
+     "end": 11.355
+    },
+    {
+     "word": "in",
+     "start": 11.401,
+     "end": 11.54
+    },
+    {
+     "word": "stoppage",
+     "start": 11.622,
+     "end": 12.016
+    },
+    {
+     "word": "time.",
+     "start": 12.063,
+     "end": 12.771
+    }
+   ]
+  },
+  "mbappe": {
+   "dur": 14.211,
+   "text": "Then the seventieth minute: G\u00f3mez brings down Dou\u00e9, and Mbapp\u00e9 buries the penalty. His seventh goal of the tournament \u2014 level with Messi in the Golden Boot race \u2014 and his nineteenth World Cup goal.",
+   "words": [
+    {
+     "word": "Then",
+     "start": 0.0,
+     "end": 0.325
+    },
+    {
+     "word": "the",
+     "start": 0.569,
+     "end": 0.685
+    },
+    {
+     "word": "seventieth",
+     "start": 0.743,
+     "end": 1.219
+    },
+    {
+     "word": "minute:",
+     "start": 1.265,
+     "end": 1.683
+    },
+    {
+     "word": "G\u00f3mez",
+     "start": 2.067,
+     "end": 2.438
+    },
+    {
+     "word": "brings",
+     "start": 2.508,
+     "end": 2.775
+    },
+    {
+     "word": "down",
+     "start": 2.821,
+     "end": 3.03
+    },
+    {
+     "word": "Dou\u00e9,",
+     "start": 3.077,
+     "end": 3.611
+    },
+    {
+     "word": "and",
+     "start": 3.889,
+     "end": 4.029
+    },
+    {
+     "word": "Mbapp\u00e9",
+     "start": 4.087,
+     "end": 4.621
+    },
+    {
+     "word": "buries",
+     "start": 5.004,
+     "end": 5.457
+    },
+    {
+     "word": "the",
+     "start": 5.515,
+     "end": 5.584
+    },
+    {
+     "word": "penalty.",
+     "start": 5.619,
+     "end": 6.223
+    },
+    {
+     "word": "His",
+     "start": 6.734,
+     "end": 6.908
+    },
+    {
+     "word": "seventh",
+     "start": 6.978,
+     "end": 7.326
+    },
+    {
+     "word": "goal",
+     "start": 7.384,
+     "end": 7.663
+    },
+    {
+     "word": "of",
+     "start": 7.721,
+     "end": 7.779
+    },
+    {
+     "word": "the",
+     "start": 7.825,
+     "end": 7.895
+    },
+    {
+     "word": "tournament",
+     "start": 7.93,
+     "end": 8.406
+    },
+    {
+     "word": "\u2014",
+     "start": 8.58,
+     "end": 8.626
+    },
+    {
+     "word": "level",
+     "start": 8.777,
+     "end": 9.033
+    },
+    {
+     "word": "with",
+     "start": 9.079,
+     "end": 9.218
+    },
+    {
+     "word": "Messi",
+     "start": 9.288,
+     "end": 9.694
+    },
+    {
+     "word": "in",
+     "start": 9.787,
+     "end": 9.903
+    },
+    {
+     "word": "the",
+     "start": 9.95,
+     "end": 10.019
+    },
+    {
+     "word": "Golden",
+     "start": 10.066,
+     "end": 10.403
+    },
+    {
+     "word": "Boot",
+     "start": 10.461,
+     "end": 10.67
+    },
+    {
+     "word": "race",
+     "start": 10.751,
+     "end": 11.157
+    },
+    {
+     "word": "\u2014",
+     "start": 11.238,
+     "end": 11.285
+    },
+    {
+     "word": "and",
+     "start": 11.494,
+     "end": 11.668
+    },
+    {
+     "word": "his",
+     "start": 11.738,
+     "end": 11.865
+    },
+    {
+     "word": "nineteenth",
+     "start": 11.958,
+     "end": 12.55
+    },
+    {
+     "word": "World",
+     "start": 12.794,
+     "end": 13.119
+    },
+    {
+     "word": "Cup",
+     "start": 13.177,
+     "end": 13.398
+    },
+    {
+     "word": "goal.",
+     "start": 13.491,
+     "end": 14.211
+    }
+   ]
+  },
+  "cta": {
+   "dur": 15.418,
+   "text": "So the quarterfinal is set: France against Morocco, July ninth \u2014 a rematch of the 2022 semifinal. Full bracket breakdown on the channel, and tell me: can the Atlas Lions get revenge?",
+   "words": [
+    {
+     "word": "So",
+     "start": 0.0,
+     "end": 0.186
+    },
+    {
+     "word": "the",
+     "start": 0.244,
+     "end": 0.313
+    },
+    {
+     "word": "quarterfinal",
+     "start": 0.36,
+     "end": 1.057
+    },
+    {
+     "word": "is",
+     "start": 1.231,
+     "end": 1.405
+    },
+    {
+     "word": "set:",
+     "start": 1.463,
+     "end": 1.974
+    },
+    {
+     "word": "France",
+     "start": 2.357,
+     "end": 2.833
+    },
+    {
+     "word": "against",
+     "start": 2.868,
+     "end": 3.204
+    },
+    {
+     "word": "Morocco,",
+     "start": 3.262,
+     "end": 3.901
+    },
+    {
+     "word": "July",
+     "start": 4.075,
+     "end": 4.412
+    },
+    {
+     "word": "ninth",
+     "start": 4.505,
+     "end": 4.83
+    },
+    {
+     "word": "\u2014",
+     "start": 5.039,
+     "end": 5.085
+    },
+    {
+     "word": "a",
+     "start": 5.41,
+     "end": 5.468
+    },
+    {
+     "word": "rematch",
+     "start": 5.584,
+     "end": 6.153
+    },
+    {
+     "word": "of",
+     "start": 6.327,
+     "end": 6.455
+    },
+    {
+     "word": "the",
+     "start": 6.502,
+     "end": 6.571
+    },
+    {
+     "word": "2022",
+     "start": 6.618,
+     "end": 7.825
+    },
+    {
+     "word": "semifinal.",
+     "start": 7.918,
+     "end": 8.824
+    },
+    {
+     "word": "Full",
+     "start": 9.52,
+     "end": 9.787
+    },
+    {
+     "word": "bracket",
+     "start": 9.845,
+     "end": 10.159
+    },
+    {
+     "word": "breakdown",
+     "start": 10.205,
+     "end": 10.658
+    },
+    {
+     "word": "on",
+     "start": 10.704,
+     "end": 10.774
+    },
+    {
+     "word": "the",
+     "start": 10.809,
+     "end": 10.879
+    },
+    {
+     "word": "channel,",
+     "start": 10.925,
+     "end": 11.494
+    },
+    {
+     "word": "and",
+     "start": 11.738,
+     "end": 11.923
+    },
+    {
+     "word": "tell",
+     "start": 11.981,
+     "end": 12.202
+    },
+    {
+     "word": "me:",
+     "start": 12.272,
+     "end": 12.597
+    },
+    {
+     "word": "can",
+     "start": 12.98,
+     "end": 13.142
+    },
+    {
+     "word": "the",
+     "start": 13.189,
+     "end": 13.259
+    },
+    {
+     "word": "Atlas",
+     "start": 13.328,
+     "end": 13.653
+    },
+    {
+     "word": "Lions",
+     "start": 13.746,
+     "end": 14.187
+    },
+    {
+     "word": "get",
+     "start": 14.257,
+     "end": 14.431
+    },
+    {
+     "word": "revenge?",
+     "start": 14.489,
+     "end": 15.418
+    }
+   ]
+  }
+ }
+}

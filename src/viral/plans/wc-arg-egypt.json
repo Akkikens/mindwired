@@ -1,0 +1,220 @@
+{
+  "slug": "wc-arg-egypt",
+  "title": "Messi Was 11 Minutes From Elimination… Then Argentina Became Argentina",
+  "host": "jamie",
+  "channel": "kickoffdaily90",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "board": true,
+      "brollVideo": "shorts/wc-arg-egypt/broll-video/hook.mp4",
+      "start": 0,
+      "end": 6,
+      "voiceover": "Argentina were not supposed to survive this. Not like this.",
+      "mainText": "ARGENTINA WERE DEAD",
+      "emphasis": [
+        "DEAD"
+      ],
+      "kicker": "WORLD CUP — ROUND OF 16",
+      "visualConcept": "cold open: dark packed stadium, blue and red lights, slow push toward the pitch, rain particles — Argentina on the edge of elimination",
+      "camera": "crash-zoom",
+      "emotionalTone": "shock",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "penmiss",
+      "kind": "shockfact",
+      "board": true,
+      "brollVideo": "shorts/wc-arg-egypt/broll-video/penmiss.mp4",
+      "start": 6,
+      "end": 12,
+      "voiceover": "Messi had already missed from the spot. Egypt had already scored first.",
+      "mainText": "MESSI MISSED",
+      "emphasis": [
+        "MISSED"
+      ],
+      "kicker": "FROM THE PENALTY SPOT",
+      "visualConcept": "Argentine number 10 figure over the penalty spot, head down, stadium lights blasting from behind, shallow DOF",
+      "camera": "push",
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "twogoal",
+      "kind": "shockfact",
+      "board": true,
+      "brollVideo": "shorts/wc-arg-egypt/broll-video/twogoal.mp4",
+      "start": 12,
+      "end": 19,
+      "voiceover": "The world champions were two nil down. Egypt were defending the biggest night in their history.",
+      "mainText": "2–0 DOWN",
+      "emphasis": [
+        "2–0"
+      ],
+      "kicker": "EGYPT SHOCKED THE WORLD",
+      "visualConcept": "Egypt players in red celebrating a shocking goal, golden stadium lights, roaring crowd, knee slide, underdog energy",
+      "camera": "handheld",
+      "emotionalTone": "shock",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "clock",
+      "kind": "shockfact",
+      "board": true,
+      "brollVideo": "shorts/wc-arg-egypt/broll-video/clock.mp4",
+      "start": 19,
+      "end": 26,
+      "voiceover": "Eleven minutes left. And every second that vanished made the impossible feel more real.",
+      "mainText": "11 MINUTES LEFT",
+      "emphasis": [
+        "11"
+      ],
+      "kicker": "HISTORY WAS WAITING",
+      "visualConcept": "dark-stadium scoreboard ARG 0 - 2 EGY, clock near 79:00, dramatic red glow, stunned Argentina fans",
+      "camera": "dutch",
+      "emotionalTone": "fear",
+      "transitionOut": "flash"
+    },
+    {
+      "id": "jamie1",
+      "kind": "problem",
+      "start": 26,
+      "end": 34,
+      "voiceover": "This was supposed to be the night the greatest ever finally looked human.",
+      "mainText": "THE GOAT LOOKED HUMAN",
+      "emphasis": [
+        "HUMAN"
+      ],
+      "kicker": "80 MINUTES GONE",
+      "visualConcept": "Jamie on camera, grave, matchday intensity — setting the emotional stakes before the turn",
+      "emotionalTone": "awe",
+      "transitionOut": "cut",
+      "hostClipExists": true
+    },
+    {
+      "id": "romero",
+      "kind": "shockfact",
+      "board": true,
+      "brollVideo": "shorts/wc-arg-egypt/broll-video/romero.mp4",
+      "start": 34,
+      "end": 40,
+      "voiceover": "Then minute seventy nine happened. Cristian Romero dragged Argentina back from the edge.",
+      "mainText": "79' ROMERO",
+      "emphasis": [
+        "ROMERO"
+      ],
+      "kicker": "THE LIFELINE",
+      "visualConcept": "Argentine defender rises above defenders, ball flying into the net, explosive stadium lights, motion blur, comeback energy",
+      "camera": "crash-zoom",
+      "emotionalTone": "excitement",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "messi",
+      "kind": "shockfact",
+      "board": true,
+      "brollVideo": "shorts/wc-arg-egypt/broll-video/messi.mp4",
+      "start": 40,
+      "end": 47,
+      "voiceover": "Four minutes later… Messi. The man who had missed. Made it two two.",
+      "mainText": "83' MESSI",
+      "emphasis": [
+        "MESSI"
+      ],
+      "kicker": "2–2 — THE STORM BEGINS",
+      "visualConcept": "Argentine number 10 strikes with the left foot, stadium erupts, blue-white light explosion, low angle, slow motion",
+      "camera": "crash-zoom",
+      "emotionalTone": "shock",
+      "transitionOut": "flash"
+    },
+    {
+      "id": "storm",
+      "kind": "problem",
+      "board": true,
+      "brollVideo": "shorts/wc-arg-egypt/broll-video/storm.mp4",
+      "start": 47,
+      "end": 53,
+      "voiceover": "Egypt spent eighty minutes building history. Argentina tore it down in ten.",
+      "mainText": "TORN DOWN IN TEN",
+      "emphasis": [
+        "TEN"
+      ],
+      "kicker": "THE COMEBACK TURNED VIOLENT",
+      "visualConcept": "chaos — Argentina players sprinting forward, camera shake, stadium lights, crowd delirium, high stakes",
+      "camera": "handheld",
+      "emotionalTone": "excitement",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "enzo",
+      "kind": "shockfact",
+      "board": true,
+      "brollVideo": "shorts/wc-arg-egypt/broll-video/enzo.mp4",
+      "start": 53,
+      "end": 60,
+      "voiceover": "Stoppage time. Enzo Fernández rises. Three two.",
+      "mainText": "90+' ENZO",
+      "emphasis": [
+        "ENZO"
+      ],
+      "kicker": "THE WINNER",
+      "visualConcept": "stoppage-time header into the net, keeper diving, crowd exploding, confetti-like light particles, blue-white grade, slow motion",
+      "camera": "crash-zoom",
+      "emotionalTone": "shock",
+      "transitionOut": "flash"
+    },
+    {
+      "id": "scoreline",
+      "kind": "comparison",
+      "board": true,
+      "start": 60,
+      "end": 66,
+      "voiceover": "Argentina complete the comeback. Egypt collapse. And Messi survives another chapter.",
+      "mainText": "THE COMEBACK IS COMPLETE",
+      "emphasis": [
+        "COMPLETE"
+      ],
+      "kicker": "FULL TIME — ATLANTA",
+      "visualConcept": "clean kinetic scorebug slam, Argentina sky-blue overtaking Egypt red",
+      "compare": {
+        "left": "ARGENTINA 3",
+        "right": "EGYPT 2"
+      },
+      "emotionalTone": "excitement",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "jamie2",
+      "kind": "quote",
+      "start": 66,
+      "end": 75,
+      "voiceover": "This is why Argentina terrify you. They make you believe they're finished, then remind you why legends are different.",
+      "mainText": "LEGENDS DON'T DIE",
+      "emphasis": [
+        "DON'T DIE"
+      ],
+      "kicker": "WHY ARGENTINA TERRIFY YOU",
+      "visualConcept": "Jamie on camera, verdict delivery — the legacy line",
+      "emotionalTone": "awe",
+      "transitionOut": "cut",
+      "hostClipExists": true
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "start": 75,
+      "end": 83,
+      "voiceover": "Argentina are moving on. Follow KickOffDaily90 for every World Cup night like this one.",
+      "mainText": "ARGENTINA MOVE ON",
+      "emphasis": [
+        "MOVE ON"
+      ],
+      "kicker": "FOLLOW FOR EVERY WC NIGHT",
+      "visualConcept": "Jamie on camera, direct-to-lens payoff and follow ask",
+      "emotionalTone": "confidence",
+      "transitionOut": "none",
+      "hostClipExists": true
+    }
+  ]
+}

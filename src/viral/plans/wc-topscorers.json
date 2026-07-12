@@ -1,0 +1,110 @@
+{
+  "slug": "wc-topscorers",
+  "title": "World Cup \u2014 Top Scorers",
+  "host": "jamie",
+  "channel": "kickoffdaily90",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "board": true,
+      "start": 0,
+      "end": 6,
+      "voiceover": "Here are the top scorers at this World Cup \u2014 Lionel Messi with 7, Kylian Mbapp\u00e9 with 7, Erling Haaland with 7, Harry Kane with 6 goals.",
+      "mainText": "TOP SCORERS",
+      "emphasis": [
+        "SCORERS"
+      ],
+      "kicker": "WORLD CUP 2026",
+      "visualConcept": "host cold open",
+      "emotionalTone": "excitement",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "gs0",
+      "kind": "data",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "The top four: Lionel Messi, 7 goals; Kylian Mbapp\u00e9, 7 goals; Erling Haaland, 7 goals; Harry Kane, 6 goals.",
+      "mainText": "TOP SCORERS",
+      "emphasis": [],
+      "kicker": "GOLDEN BOOT RACE",
+      "visualConcept": "top scorers bar chart",
+      "stat": {
+        "to": 0,
+        "bars": [
+          {
+            "label": "Lionel Messi (ARG)",
+            "value": 7
+          },
+          {
+            "label": "Kylian Mbapp\u00e9 (FRA)",
+            "value": 7
+          },
+          {
+            "label": "Erling Haaland (NOR)",
+            "value": 7
+          },
+          {
+            "label": "Harry Kane (ENG)",
+            "value": 6
+          }
+        ]
+      },
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "gs1",
+      "kind": "data",
+      "board": true,
+      "start": 0,
+      "end": 0,
+      "voiceover": "Rounding out the top eight: Vin\u00edcius J\u00fanior, 4 goals; Jude Bellingham, 4 goals; Ousmane Demb\u00e9l\u00e9, 4 goals; Juli\u00e1n Qui\u00f1ones, 4 goals.",
+      "mainText": "TOP SCORERS, CONTINUED",
+      "emphasis": [],
+      "kicker": "GOLDEN BOOT RACE (5-8)",
+      "visualConcept": "top scorers bar chart",
+      "stat": {
+        "to": 0,
+        "bars": [
+          {
+            "label": "Vin\u00edcius J\u00fanior (BRA)",
+            "value": 4
+          },
+          {
+            "label": "Jude Bellingham (ENG)",
+            "value": 4
+          },
+          {
+            "label": "Ousmane Demb\u00e9l\u00e9 (FRA)",
+            "value": 4
+          },
+          {
+            "label": "Juli\u00e1n Qui\u00f1ones (MEX)",
+            "value": 4
+          }
+        ]
+      },
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "board": true,
+      "start": 0,
+      "end": 6,
+      "voiceover": "Follow kickoffdaily90 for every result as it happens.",
+      "mainText": "FOLLOW FOR EVERY RESULT",
+      "emphasis": [
+        "EVERY RESULT"
+      ],
+      "kicker": "@KICKOFFDAILY90",
+      "visualConcept": "cta",
+      "emotionalTone": "confidence",
+      "transitionOut": "none"
+    }
+  ]
+}
