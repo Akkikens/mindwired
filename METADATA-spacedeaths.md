@@ -13,13 +13,43 @@ McCandless untethered-spacewalk photo (public/shorts/spacedeaths/images/mccandle
 PD-NASA) — lone astronaut against pure black. Text: "EVERYONE IN THIS VIDEO DIED"
 (alt: "21 NEVER CAME HOME") — 3-5 word ALL-CAPS yellow/white, dark background.
 
-## Description
+## Description (SEO long-form)
 This is the most terrifying photograph ever taken in space — and nothing went
 wrong that day. But behind every other photo in this documentary, somebody died.
 
-The complete, fact-checked story of every fatal disaster in the history of
-spaceflight — the fires, the cover-ups, the erased cosmonauts, and the warnings
-that were ignored — told through the real archival photographs that survived.
+Every Way Space Has Killed a Human is a complete, fact-checked, feature-length
+space documentary about every fatal disaster in the history of spaceflight —
+told through the real archival photographs that survived. From the Apollo 1
+fire and the Challenger and Columbia space shuttle disasters, to Soyuz 1 and
+Soyuz 11 (the only humans ever to die in space itself), the Nedelin catastrophe
+the Soviet Union hid for 29 years, the erased cosmonaut Valentin Bondarenko,
+the mysterious death of Yuri Gagarin, the X-15 crash at the edge of space, the
+"Lost Cosmonauts" conspiracy (and what the evidence really says), and the
+first commercial spaceflight death aboard SpaceShipTwo in 2014.
+
+In this full documentary you'll learn: what really happened to the Soyuz 11
+crew and why they weren't wearing pressure suits; why engineers begged NASA
+not to launch Challenger the night before; how a briefcase-sized piece of foam
+doomed Columbia sixteen days before it broke apart; why the deadliest rocket
+disaster in history officially "never happened"; how Laika the space dog
+really died (the truth was hidden for 45 years); and the near-misses — Apollo
+13, Gemini 8, Leonov's first spacewalk, and the astronaut who nearly drowned
+inside his own helmet on the ISS.
+
+Every event in this video is documented historical fact. Sources include the
+NASA History Office, the Rogers Commission Report, the Columbia Accident
+Investigation Board (CAIB), the NTSB SpaceShipTwo investigation, and
+declassified Soviet-era records. No dramatization, no AI imagery for real
+events — only authentic archival photographs, public domain and Creative
+Commons.
+
+If you're interested in space disasters explained, astronaut deaths, NASA
+history, the Soviet space program, the space race, scary space videos, or
+unsettling true stories from space exploration — this hour is for you.
+
+Subscribe to mindwired for a new deep-dive space documentary every week:
+the scariest places in the universe, the biggest black holes ever found, and
+the questions science still can't answer.
 
 CHAPTERS
 00:00 The most terrifying photo ever taken
@@ -47,10 +77,16 @@ Board, and declassified Soviet records.
 Archival imagery: public domain / Creative Commons — full attribution:
 (paste public/shorts/spacedeaths/images/ATTRIBUTION.md here before upload)
 
-## Tags
-space disasters, astronaut deaths, apollo 1, challenger disaster, columbia disaster,
-soyuz 11, vladimir komarov, nedelin catastrophe, lost cosmonauts, space documentary,
-scary space, space history, nasa disasters, soviet space program, full documentary
+## Tags (≤500 chars — paste as-is)
+space disasters,astronaut deaths,apollo 1,challenger disaster,columbia disaster,soyuz 11,vladimir komarov,nedelin catastrophe,lost cosmonauts,space documentary,scary space,space history,nasa disasters,soviet space program,full documentary,space shuttle disaster,laika,yuri gagarin death,valentin bondarenko,x-15 crash,spaceshiptwo,apollo 13,gemini 8,astronauts who died in space,space accidents,space race,nasa history,dark space,space facts,space mysteries,died in space,space explained
+
+## Hashtags (15 — first 3 show above the title)
+#space #spacedocumentary #nasa #astronaut #spacehistory #spacedisaster #challenger #columbia #apollo #soyuz #cosmonaut #spacerace #documentary #spacefacts #mindwired
+
+## Subtitles
+mindwired_spacedeaths.srt at repo root (577 cues, generated from the narration
+script + real clip timings — upload as English captions; accurate captions are
+an SEO/retention signal).
 
 ## Audience
 Not made for kids. May not be suitable for younger viewers (documentary
