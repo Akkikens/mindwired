@@ -171,6 +171,14 @@ clips have a fixed ~8s floor).
 - Verify renders: ffprobe duration + extract a mid-video frame and *look at it*
   before declaring done. For WebGL comps also render 2-3 stills of new scenes
   before committing to a full render.
+- **ONE full render per long video (Akshay, 2026-07-12 — don't waste CPU).** When
+  building a long comp chapter-by-chapter, verify each new chapter with
+  `npx remotion still <Comp> --frame=N` and (if motion/audio needs checking) a tiny
+  `--frames=A-B` range render of JUST the new chapter — NEVER re-render the whole
+  growing comp as a checkpoint. Remotion re-encodes from frame 0 every time, so
+  cumulative checkpoint renders burn hours of CPU for footage nobody reviews. The
+  only full render+master happens once, at the end. Exception: an explicit user
+  review checkpoint — and even then render only the frame range they'll watch.
 - Composite footage through Remotion, not ffmpeg: this box's ffmpeg has no
   libass, so burned captions / text overlays must be drawn by the Remotion comp
   (the subscribe-outro concat in this doc is a bare stream splice, which is
