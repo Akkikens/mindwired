@@ -22,9 +22,16 @@ import { WW2Wide, ww2TotalFrames } from "./dimaagbatti/WW2Wide";
 import { makeDocComp, docTotalFrames } from "./mindwired-doc/DocWide";
 import spaceDeathsDoc from "./mindwired-doc/docs/spacedeaths.json";
 import spaceDeathsManifest from "./mindwired-doc/docs/spacedeaths.manifest.json";
+import ww2EpicEnDoc from "./mindwired-doc/docs/ww2epic-en.json";
+import ww2EpicEnManifest from "./mindwired-doc/docs/ww2epic-en.manifest.json";
+import spaceDeathsHiDoc from "./mindwired-doc/docs/spacedeaths-hi.json";
+import spaceDeathsHiManifest from "./mindwired-doc/docs/spacedeaths-hi.manifest.json";
+import moonStrandedDoc from "./mindwired-doc/docs/moonstranded.json";
+import moonStrandedManifest from "./mindwired-doc/docs/moonstranded.manifest.json";
 import { WW2Thumb } from "./dimaagbatti/WW2Thumb";
 import { WW2Epic, ww2EpicTotalFrames } from "./dimaagbatti/WW2Epic";
 import { WW2EpicThumb } from "./dimaagbatti/WW2EpicThumb";
+import { WW2EpicEnThumb, SpaceDeathsHiThumb } from "./mindwired-doc/RemakeThumbs";
 import { HowAIVideo, aiVideoTotalFrames } from "./aivideo/HowAIVideo";
 import { AnimeClash, animeClashFrames } from "./messivssalah/AnimeClash";
 import { AnimeClashV, animeClashVFrames } from "./messivssalah/AnimeClashV";
@@ -616,6 +623,36 @@ export const RemotionRoot: React.FC = () => {
         height={1080}
       />
 
+      {/* ── mindwired — archival documentary: Apollo 11 stranding contingency ── */}
+      <Composition
+        id="MoonStrandedDoc"
+        component={makeDocComp(moonStrandedDoc, moonStrandedManifest)}
+        durationInFrames={docTotalFrames(moonStrandedDoc, moonStrandedManifest)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── DimaagBatti — archival documentary: spacedeaths Hindi remake ── */}
+      <Composition
+        id="SpaceDeathsHiDoc"
+        component={makeDocComp(spaceDeathsHiDoc, spaceDeathsHiManifest)}
+        durationInFrames={docTotalFrames(spaceDeathsHiDoc, spaceDeathsHiManifest)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── mindwired — archival documentary: World War II — The Whole Story (EN remake) ── */}
+      <Composition
+        id="WW2EpicEnDoc"
+        component={makeDocComp(ww2EpicEnDoc, ww2EpicEnManifest)}
+        durationInFrames={docTotalFrames(ww2EpicEnDoc, ww2EpicEnManifest)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
       {/* ── DimaagBatti — दूसरा विश्वयुद्ध कैसे शुरू हुआ (deep-dive, maps+illustrations) ── */}
       <Composition
         id="DimaagBattiWW2"
@@ -639,6 +676,8 @@ export const RemotionRoot: React.FC = () => {
       {/* ── DimaagBatti WW2 Epic — thumbnails ── */}
       <Still id="DimaagBattiWW2EpicThumbHi" component={WW2EpicThumb} defaultProps={{ lang: "hi" as const }} width={1280} height={720} />
       <Still id="DimaagBattiWW2EpicThumbEn" component={WW2EpicThumb} defaultProps={{ lang: "en" as const }} width={1280} height={720} />
+      <Still id="WW2EpicEnThumbMW" component={WW2EpicEnThumb} width={1280} height={720} />
+      <Still id="SpaceDeathsHiThumbDB" component={SpaceDeathsHiThumb} width={1280} height={720} />
 
       {/* ── DimaagBatti WW2 — thumbnails ── */}
       <Still id="DimaagBattiWW2ThumbHi" component={WW2Thumb} defaultProps={{ lang: "hi" as const }} width={1280} height={720} />

@@ -1,0 +1,279 @@
+{
+ "durations": {
+  "h1": 9.326,
+  "h2": 10.919,
+  "h3": 9.326,
+  "h4": 10.449,
+  "h5": 11.076,
+  "h6": 10.762,
+  "c1_t": 2.847,
+  "o1": 11.546,
+  "o2": 9.169,
+  "o3": 9.639,
+  "o4": 8.908,
+  "o5": 9.169,
+  "o6": 10.762,
+  "o7": 9.091,
+  "o8": 11.389,
+  "o9": 9.247,
+  "c2_t": 3.709,
+  "e1": 11.154,
+  "e2": 10.527,
+  "e3": 10.919,
+  "e4": 12.513,
+  "e5": 10.031,
+  "e6": 10.266,
+  "e7": 10.606,
+  "e8": 7.628,
+  "e9": 9.639,
+  "e10": 10.527,
+  "c3_t": 3.082,
+  "m1": 10.188,
+  "m2": 9.404,
+  "m3": 10.684,
+  "m4": 10.841,
+  "m5": 9.169,
+  "m6": 10.449,
+  "m7": 10.998,
+  "m8": 9.091,
+  "m9": 5.068,
+  "m10": 12.121,
+  "m11": 10.057,
+  "m12": 7.628,
+  "m13": 8.594,
+  "m14": 10.684,
+  "m15": 9.169,
+  "c4_t": 3.082,
+  "l1": 10.109,
+  "l2": 10.762,
+  "l3": 7.889,
+  "l4": 7.079,
+  "l5": 10.919,
+  "l6": 12.748,
+  "l7": 11.546,
+  "l8": 14.211,
+  "l9": 12.931,
+  "l10": 5.251,
+  "cr_t": 3.317,
+  "p1": 11.389,
+  "p2": 12.356,
+  "p3": 11.729,
+  "p4": 7.393,
+  "p5": 10.841,
+  "p6": 11.572,
+  "p7": 10.867,
+  "p8": 11.807,
+  "p9": 8.281,
+  "p10": 10.188,
+  "c5_t": 5.146,
+  "d1": 10.266,
+  "d2": 10.527,
+  "d3": 8.046,
+  "d4": 9.796,
+  "d5": 10.449,
+  "d6": 8.124,
+  "d7": 11.389,
+  "d8": 11.233,
+  "d9": 7.967,
+  "d10": 9.874,
+  "d11": 8.594,
+  "c6_t": 3.161,
+  "s1": 9.326,
+  "s2": 11.076,
+  "s3": 11.154,
+  "s4": 5.642,
+  "s5": 8.359,
+  "s6": 7.967,
+  "s7": 10.841,
+  "s8": 6.191,
+  "c7_t": 2.847,
+  "b1": 9.169,
+  "b2": 8.124,
+  "b3": 10.527,
+  "b4": 8.986,
+  "b5": 9.326,
+  "b6": 9.874,
+  "b7": 11.807,
+  "b8": 13.009,
+  "b9": 10.606,
+  "b10": 9.953,
+  "b11": 7.706,
+  "b12": 10.527,
+  "c8_t": 2.691,
+  "f1": 9.169,
+  "f2": 10.684,
+  "f3": 10.762,
+  "f4": 11.18,
+  "f5": 10.371,
+  "f6": 10.606,
+  "f7": 10.449,
+  "f8": 10.762,
+  "f9": 14.289,
+  "f10": 9.247,
+  "c9_t": 2.351,
+  "r1": 12.382,
+  "r2": 10.684,
+  "r3": 9.091,
+  "r4": 10.266,
+  "r5": 11.18,
+  "r6": 10.109,
+  "c10_t": 2.847,
+  "w1": 11.964,
+  "w2": 12.121,
+  "w3": 11.468,
+  "w4": 10.606,
+  "w5": 10.031,
+  "w6": 11.311,
+  "w7": 11.807,
+  "w8": 6.844,
+  "w9": 11.18
+ },
+ "images": {
+  "agc": [
+   "agc_1.jpg",
+   "agc_2.jpg",
+   "agc_4.jpg"
+  ],
+  "aldrinmoon": [
+   "aldrinmoon_1.jpg",
+   "aldrinmoon_2.jpg",
+   "aldrinmoon_3.jpg",
+   "aldrinmoon_4.jpg",
+   "aldrinmoon_5.jpg",
+   "aldrinmoon_6.jpg"
+  ],
+  "apollo10": [
+   "apollo10_2.jpg",
+   "apollo10_3.jpg",
+   "apollo10_4.jpg"
+  ],
+  "apollo13ctl": [
+   "apollo13ctl_1.jpg",
+   "apollo13ctl_2.jpg",
+   "apollo13ctl_3.jpg"
+  ],
+  "apollo8": [
+   "apollo8_1.jpg",
+   "apollo8_2.jpg",
+   "apollo8_3.jpg",
+   "apollo8_4.jpg"
+  ],
+  "armstrong": [
+   "armstrong_1.jpg",
+   "armstrong_2.jpg",
+   "armstrong_3.jpg",
+   "armstrong_4.jpg",
+   "armstrong_5.jpg"
+  ],
+  "ascent": [
+   "ascent_1.jpg",
+   "ascent_2.jpg",
+   "ascent_3.jpg",
+   "ascent_4.jpg"
+  ],
+  "collins": [
+   "collins_1.jpg",
+   "collins_2.jpg",
+   "collins_3.jpg",
+   "collins_4.jpg",
+   "collins_5.jpg"
+  ],
+  "columbia": [
+   "columbia_1.jpg",
+   "columbia_2.jpg",
+   "columbia_3.jpg",
+   "columbia_4.jpg",
+   "columbia_5.jpg"
+  ],
+  "crew": [
+   "crew_1.jpg",
+   "crew_2.jpg",
+   "crew_3.jpg",
+   "crew_4.jpg",
+   "crew_5.jpg",
+   "crew_6.jpg"
+  ],
+  "crowd": [
+   "crowd_1.jpg"
+  ],
+  "eagle": [
+   "eagle_1.png",
+   "eagle_2.png",
+   "eagle_3.jpg",
+   "eagle_4.jpg",
+   "eagle_5.jpg",
+   "eagle_6.jpg"
+  ],
+  "earthrise": [
+   "earthrise_1.jpg",
+   "earthrise_2.png",
+   "earthrise_3.jpg"
+  ],
+  "flag": [
+   "flag_1.jpg",
+   "flag_2.jpg",
+   "flag_3.jpg",
+   "flag_4.jpg"
+  ],
+  "lmcockpit": [
+   "lmcockpit_1.jpg",
+   "lmcockpit_2.jpg"
+  ],
+  "memo": [
+   "memo_1.jpg"
+  ],
+  "missionctl": [
+   "missionctl_1.jpg",
+   "missionctl_2.jpg",
+   "missionctl_3.jpg",
+   "missionctl_4.jpg",
+   "missionctl_5.jpg"
+  ],
+  "moonfull": [
+   "moonfull_1.jpg",
+   "moonfull_3.jpg"
+  ],
+  "nixon": [
+   "nixon_1.jpg",
+   "nixon_3.jpg",
+   "nixon_4.jpg",
+   "nixon_5.jpg"
+  ],
+  "quarantine": [
+   "quarantine_1.jpg",
+   "quarantine_2.jpg",
+   "quarantine_3.jpg",
+   "quarantine_4.jpg"
+  ],
+  "safire": [
+   "safire_1.jpg",
+   "safire_2.jpg",
+   "safire_3.jpg"
+  ],
+  "saturnv": [
+   "saturnv_1.jpg",
+   "saturnv_2.jpg",
+   "saturnv_3.jpg",
+   "saturnv_4.jpg",
+   "saturnv_5.jpg",
+   "saturnv_6.jpg"
+  ],
+  "splashdown": [
+   "splashdown_1.jpg",
+   "splashdown_2.jpg",
+   "splashdown_3.jpg",
+   "splashdown_4.jpg",
+   "splashdown_5.jpg"
+  ],
+  "surface": [
+   "surface_1.jpg",
+   "surface_2.jpg"
+  ],
+  "tranquility": [
+   "tranquility_1.jpg",
+   "tranquility_3.jpg",
+   "tranquility_4.jpg"
+  ]
+ },
+ "missing": []
+}

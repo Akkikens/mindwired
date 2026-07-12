@@ -1,0 +1,1012 @@
+1
+00:00:00,333 --> 00:00:09,659
+On July 18th, 1969, two days before Neil Armstrong and Buzz Aldrin landed on the Moon, a speech was typed in the White House announcing their deaths.
+
+2
+00:00:10,800 --> 00:00:15,895
+Not as a precaution buried in a filing cabinet. It came with a protocol.
+
+3
+00:00:15,895 --> 00:00:21,719
+Who the President would call. When NASA would cut the radio. What the priest would say.
+
+4
+00:00:22,866 --> 00:00:26,224
+Because everyone involved knew something the public celebration hid.
+
+5
+00:00:26,224 --> 00:00:32,192
+If the single engine on the lunar lander failed to light, there was no rescue. None.
+
+6
+00:00:33,333 --> 00:00:41,692
+Armstrong and Aldrin would be left on the surface, alive and perfectly healthy, waiting for their oxygen to run out.
+
+7
+00:00:41,692 --> 00:00:43,782
+On live television's greatest triumph.
+
+8
+00:00:44,899 --> 00:00:51,010
+And here is the part almost nobody knows. On the Moon, that nightmare very nearly began.
+
+9
+00:00:51,010 --> 00:00:55,975
+Because of a broken plastic switch, and a backpack that bumped a wall.
+
+10
+00:00:57,100 --> 00:01:01,135
+This is the full story of the plan for losing Apollo 11.
+
+11
+00:01:01,135 --> 00:01:07,861
+The odds they hid, the memo they wrote, the switch that snapped, and the felt-tip pen that saved the mission.
+
+12
+00:01:09,000 --> 00:01:11,846
+Chapter one. The odds they never told you.
+
+13
+00:01:12,966 --> 00:01:19,627
+In public, Apollo 11 was confidence itself. Half a million people lined the Florida coast.
+
+14
+00:01:19,627 --> 00:01:24,512
+The crew smiled and waved. America was going to the Moon.
+
+15
+00:01:25,633 --> 00:01:29,562
+In private, the men in the capsule were running very different numbers.
+
+16
+00:01:29,562 --> 00:01:34,802
+Neil Armstrong later said he believed they had a ninety percent chance of coming home alive.
+
+17
+00:01:35,933 --> 00:01:40,064
+But only a fifty percent chance of actually landing. A coin flip.
+
+18
+00:01:40,064 --> 00:01:45,572
+That was the commander's own estimate of the thing the whole world had gathered to watch.
+
+19
+00:01:46,700 --> 00:01:48,679
+The insurance industry agreed with him.
+
+20
+00:01:48,679 --> 00:01:55,607
+No company would write a sane life insurance policy on a man about to ride a Saturn V to another world.
+
+21
+00:01:56,733 --> 00:02:00,226
+So the crew invented their own life insurance.
+
+22
+00:02:00,226 --> 00:02:05,902
+In quarantine before launch, they sat and signed hundreds of postal envelopes. Autographs.
+
+23
+00:02:07,033 --> 00:02:09,823
+The plan was simple and quietly heartbreaking.
+
+24
+00:02:09,823 --> 00:02:14,606
+If they died on the Moon, their families would sell the signatures.
+
+25
+00:02:14,606 --> 00:02:17,795
+A dead moonwalker's autograph would pay for college.
+
+26
+00:02:18,933 --> 00:02:22,652
+Those envelopes exist today. Collectors call them insurance covers.
+
+27
+00:02:22,652 --> 00:02:28,024
+They are the physical proof of how the crew really rated their chances.
+
+28
+00:02:29,166 --> 00:02:34,101
+NASA's own engineers had spent years studying the ways the mission could fail.
+
+29
+00:02:34,101 --> 00:02:37,138
+One failure mode stood above all the others.
+
+30
+00:02:37,138 --> 00:02:40,555
+It had no backup, no workaround, and no survivors.
+
+31
+00:02:41,699 --> 00:02:46,983
+It lived in the spidery machine bolted to the top of the rocket. The lunar module.
+
+32
+00:02:46,983 --> 00:02:50,946
+And to understand the death speech, you have to understand this machine.
+
+33
+00:02:52,066 --> 00:02:55,775
+Chapter two. One engine, no second chances.
+
+34
+00:02:56,900 --> 00:03:00,485
+The lunar module Eagle was two spacecraft stacked together.
+
+35
+00:03:00,485 --> 00:03:03,672
+A descent stage with legs, for going down.
+
+36
+00:03:03,672 --> 00:03:08,054
+And an ascent stage, the crew cabin, for coming back up.
+
+37
+00:03:09,200 --> 00:03:13,410
+Getting off the Moon depended on exactly one thing. The ascent engine.
+
+38
+00:03:13,410 --> 00:03:19,727
+A single rocket motor about the size of a washing machine, with thirty five hundred pounds of thrust.
+
+39
+00:03:20,866 --> 00:03:24,910
+There was no backup engine. There was no rescue ship.
+
+40
+00:03:24,910 --> 00:03:28,550
+There was no second lunar module waiting in orbit.
+
+41
+00:03:28,550 --> 00:03:31,785
+The engineering philosophy was brutal in its simplicity.
+
+42
+00:03:32,933 --> 00:03:36,687
+Make the one engine so simple it cannot fail.
+
+43
+00:03:36,687 --> 00:03:41,692
+No ignition system, because the fuels explode on contact with each other.
+
+44
+00:03:41,692 --> 00:03:45,446
+No fuel pumps, because pressurized helium pushes the propellant.
+
+45
+00:03:46,566 --> 00:03:51,196
+Open two valves, and physics does the rest. That was the theory.
+
+46
+00:03:51,196 --> 00:03:56,597
+But this engine, in this configuration, had never been fired on the Moon before.
+
+47
+00:03:57,733 --> 00:04:07,999
+It would get exactly one attempt, in temperatures swinging hundreds of degrees, in a vacuum, covered in abrasive lunar dust, after days of vibration and violence.
+
+48
+00:04:09,133 --> 00:04:16,596
+If it lit, the ascent stage would climb to lunar orbit and meet Michael Collins in the command module.
+
+49
+00:04:16,596 --> 00:04:19,739
+Eighteen minutes of flight. Routine, if everything worked.
+
+50
+00:04:20,866 --> 00:04:28,494
+If it did not light, Armstrong and Aldrin were dead men in perfect health, standing in the Sea of Tranquility with the Earth hanging above them.
+
+51
+00:04:29,633 --> 00:04:34,854
+Mission control could talk to them. Their families could, in principle, say goodbye.
+
+52
+00:04:34,854 --> 00:04:39,272
+And roughly six hundred million people would be watching it happen.
+
+53
+00:04:40,399 --> 00:04:44,865
+Somebody in the White House realized the government had no words prepared for that.
+
+54
+00:04:44,865 --> 00:04:46,460
+His name was William Safire.
+
+55
+00:04:46,460 --> 00:04:50,926
+And what he wrote is one of the most haunting documents in American history.
+
+56
+00:04:52,066 --> 00:04:55,148
+Chapter three. In event of moon disaster.
+
+57
+00:04:56,266 --> 00:04:58,481
+William Safire was Nixon's speechwriter.
+
+58
+00:04:58,481 --> 00:05:06,454
+In July 1969, astronaut Frank Borman, NASA's liaison to the White House, called him with a quiet request.
+
+59
+00:05:07,599 --> 00:05:15,294
+Borman told him to think about, quote, some alternative posture for the President in the event of mishaps.
+
+60
+00:05:15,294 --> 00:05:17,003
+Safire didn't immediately understand.
+
+61
+00:05:18,133 --> 00:05:24,068
+So Borman said it plainly. Like what to do for the widows. Safire understood then.
+
+62
+00:05:24,068 --> 00:05:28,817
+The most likely disaster was not an explosion. It was a stranding.
+
+63
+00:05:29,966 --> 00:05:37,817
+On July 18th, while Apollo 11 coasted toward the Moon, Safire sent a two page memo to Nixon's chief of staff.
+
+64
+00:05:37,817 --> 00:05:40,807
+The subject line: In event of moon disaster.
+
+65
+00:05:41,933 --> 00:05:44,003
+The speech it contained begins like this.
+
+66
+00:05:44,003 --> 00:05:51,102
+Fate has ordained that the men who went to the moon to explore in peace will stay on the moon to rest in peace.
+
+67
+00:05:52,233 --> 00:05:58,154
+These brave men, Neil Armstrong and Edwin Aldrin, know that there is no hope for their recovery.
+
+68
+00:05:58,154 --> 00:06:02,682
+But they also know that there is hope for mankind in their sacrifice.
+
+69
+00:06:03,799 --> 00:06:06,404
+And it ends with a line writers still study.
+
+70
+00:06:06,404 --> 00:06:14,797
+For every human being who looks up at the moon in the nights to come will know that there is some corner of another world that is forever mankind.
+
+71
+00:06:15,933 --> 00:06:17,500
+Notice what the speech does.
+
+72
+00:06:17,500 --> 00:06:23,456
+It is written in the present tense, for men who would still be alive when the President read it.
+
+73
+00:06:23,456 --> 00:06:25,024
+A eulogy for the living.
+
+74
+00:06:26,166 --> 00:06:31,234
+The memo also laid out the protocol around the speech, and this is the part that stays with you.
+
+75
+00:06:32,366 --> 00:06:38,218
+First. Before the statement, the President would telephone each of the widows to be.
+
+76
+00:06:38,218 --> 00:06:44,487
+That is the memo's actual phrase. Widows to be. Their husbands would still be breathing.
+
+77
+00:06:45,633 --> 00:06:45,968
+Second.
+
+78
+00:06:45,968 --> 00:06:55,690
+After the speech, at the point when NASA ends communication with the men — the space agency would deliberately cut the radio link, and leave them to the silence.
+
+79
+00:06:56,833 --> 00:06:57,164
+Third.
+
+80
+00:06:57,164 --> 00:07:04,461
+A clergyman would then commend their souls to the deepest of the deep, following the same procedure as a burial at sea.
+
+81
+00:07:05,599 --> 00:07:09,381
+The Moon would become a grave, and the ceremony already existed.
+
+82
+00:07:09,381 --> 00:07:14,193
+The memo went into a folder, and everyone hoped it would never come out.
+
+83
+00:07:15,333 --> 00:07:22,455
+The document stayed unknown for thirty years, until an archivist found it in the National Archives in 1999.
+
+84
+00:07:22,455 --> 00:07:26,017
+When it was published, it stunned even Apollo veterans.
+
+85
+00:07:27,166 --> 00:07:29,696
+But in July 1969 it was live policy.
+
+86
+00:07:29,696 --> 00:07:36,335
+And there was one man whose entire role in history would be defined by that memo if it were ever used.
+
+87
+00:07:37,466 --> 00:07:40,548
+Chapter four. The man who would come home alone.
+
+88
+00:07:41,666 --> 00:07:45,410
+Michael Collins flew to the Moon and never touched it.
+
+89
+00:07:45,410 --> 00:07:51,775
+While Armstrong and Aldrin descended, he stayed alone in the command module Columbia, circling sixty miles up.
+
+90
+00:07:52,899 --> 00:07:56,599
+Every orbit took him behind the Moon, where the radio died.
+
+91
+00:07:56,599 --> 00:08:03,661
+For forty eight minutes at a time, he was cut off from Earth, from his crewmates, from every human being alive.
+
+92
+00:08:04,799 --> 00:08:07,758
+Mission control called him the loneliest man since Adam.
+
+93
+00:08:07,758 --> 00:08:12,688
+Collins said the loneliness wasn't what scared him. What scared him was the other thing.
+
+94
+00:08:13,833 --> 00:08:15,249
+He wrote it down later.
+
+95
+00:08:15,249 --> 00:08:20,912
+My secret terror for the last six months has been leaving them on the Moon and returning to Earth alone.
+
+96
+00:08:22,033 --> 00:08:28,147
+If the ascent engine failed, Collins had strict orders. He could not rescue them.
+
+97
+00:08:28,147 --> 00:08:32,952
+Columbia could not land. There was nothing to do but leave.
+
+98
+00:08:34,099 --> 00:08:36,831
+He was blunt about what that would make him.
+
+99
+00:08:36,831 --> 00:08:41,384
+If they fail to rise from the surface, I am not going to commit suicide.
+
+100
+00:08:41,384 --> 00:08:46,847
+I am coming home, forthwith. But I will be a marked man for life, and I know it.
+
+101
+00:08:47,966 --> 00:08:53,540
+Imagine that return. Three weeks of flight, alone, in a ship built for three.
+
+102
+00:08:53,540 --> 00:08:59,512
+A parade nobody would hold. The one man who came back from mankind's greatest tragedy.
+
+103
+00:09:00,633 --> 00:09:03,791
+Collins kept a small card of emergency procedures.
+
+104
+00:09:03,791 --> 00:09:08,923
+Eighteen different contingency plans for rescuing the lunar module from a bad orbit.
+
+105
+00:09:08,923 --> 00:09:14,844
+For a dead engine on the surface, there was no card. There was no page.
+
+106
+00:09:15,966 --> 00:09:21,139
+That was the machinery of disaster, fully assembled. A speech. A protocol.
+
+107
+00:09:21,139 --> 00:09:28,897
+A man in orbit rehearsing the worst trip home in history. All of it waiting on one engine.
+
+108
+00:09:30,033 --> 00:09:35,284
+And before that engine even got its chance, the landing itself almost ended everything.
+
+109
+00:09:36,433 --> 00:09:39,750
+Chapter five. The rehearsals for disaster.
+
+110
+00:09:40,899 --> 00:09:44,041
+Apollo 11 didn't walk into that risk blind.
+
+111
+00:09:44,041 --> 00:09:48,754
+In the eight months before it, NASA flew three full dress rehearsals.
+
+112
+00:09:48,754 --> 00:09:52,288
+Each one came with its own brush with catastrophe.
+
+113
+00:09:53,433 --> 00:09:58,787
+December 1968. Apollo 8 carries the first humans ever to leave Earth orbit.
+
+114
+00:09:58,787 --> 00:10:05,789
+Before launch, commander Frank Borman's own family privately rated his odds of coming home at fifty fifty.
+
+115
+00:10:06,933 --> 00:10:13,330
+Their engine burn to leave lunar orbit happened behind the Moon, out of radio contact, on Christmas morning.
+
+116
+00:10:13,330 --> 00:10:18,662
+If it failed, three men would orbit the Moon until their air ran out. Silently.
+
+117
+00:10:19,799 --> 00:10:27,192
+When the ship emerged from behind the Moon on time, Jim Lovell radioed the words: please be informed, there is a Santa Claus.
+
+118
+00:10:28,333 --> 00:10:33,031
+It was Borman, remember, who later asked Safire to prepare the disaster speech.
+
+119
+00:10:33,031 --> 00:10:39,174
+He had done the math on his own mission. He knew exactly what he was asking for.
+
+120
+00:10:40,299 --> 00:10:42,080
+May 1969. Apollo 10.
+
+121
+00:10:42,080 --> 00:10:51,871
+Tom Stafford and Gene Cernan fly the lunar module Snoopy to within fifteen kilometers of the surface — everything except the landing.
+
+122
+00:10:53,000 --> 00:11:03,866
+During staging, a switch set in the wrong position sends the lunar module into violent tumbling — flipping end over end above the Moon, gyrating toward gimbal lock.
+
+123
+00:11:05,000 --> 00:11:11,093
+Cernan's exclamation went out on a hot mike to the whole world. Son of a... well.
+
+124
+00:11:11,093 --> 00:11:16,807
+You can look up the rest. Stafford wrestled the ship back under control in seconds.
+
+125
+00:11:17,933 --> 00:11:24,489
+Analysts later estimated that a few more seconds of tumbling could have ended with Snoopy in the lunar surface.
+
+126
+00:11:24,489 --> 00:11:26,214
+Two months before Armstrong's landing.
+
+127
+00:11:27,333 --> 00:11:32,631
+So when Eagle undocked in July, nobody involved believed the danger was theoretical.
+
+128
+00:11:32,631 --> 00:11:37,521
+The rehearsals had made one thing clear. The Moon punishes small mistakes.
+
+129
+00:11:38,666 --> 00:11:43,812
+Chapter six. Twelve minutes, five alarms, twenty five seconds.
+
+130
+00:11:44,933 --> 00:11:52,266
+July 20th, 1969. Eagle undocks and begins the twelve minute fall to the lunar surface.
+
+131
+00:11:52,266 --> 00:11:55,199
+Almost immediately, things start going wrong.
+
+132
+00:11:56,333 --> 00:12:01,825
+Five minutes in, a shrill alarm fills the cabin. Program alarm twelve-oh-two.
+
+133
+00:12:01,825 --> 00:12:06,860
+Neither astronaut knows what it means. Armstrong's heartbeat starts to climb.
+
+134
+00:12:07,999 --> 00:12:16,045
+In Houston, a twenty six year old guidance officer named Steve Bales has seconds to decide whether to abort the landing of the century.
+
+135
+00:12:17,166 --> 00:12:19,804
+Bales remembers a simulation from weeks earlier.
+
+136
+00:12:19,804 --> 00:12:25,078
+The alarm means the computer is overloaded but still flying. He makes the call.
+
+137
+00:12:25,078 --> 00:12:26,962
+We're go on that alarm.
+
+138
+00:12:28,099 --> 00:12:30,825
+The alarms keep coming. Twelve-oh-two. Twelve-oh-one.
+
+139
+00:12:30,825 --> 00:12:36,731
+Five of them in four minutes, each one a heartbeat from an abort.
+
+140
+00:12:36,731 --> 00:12:38,548
+The computer keeps flying.
+
+141
+00:12:39,666 --> 00:12:43,103
+Then Armstrong looks out the window and sees the next problem.
+
+142
+00:12:43,103 --> 00:12:47,790
+The computer is flying them into a crater full of boulders the size of cars.
+
+143
+00:12:48,933 --> 00:12:57,664
+He takes manual control, levels off, and starts flying the lunar module like a helicopter, skimming the surface, hunting for a clear patch.
+
+144
+00:12:57,664 --> 00:13:00,322
+And burning fuel he does not have.
+
+145
+00:13:01,466 --> 00:13:09,329
+In Houston, the fuel callouts start. Sixty seconds. The room goes silent. Thirty seconds.
+
+146
+00:13:09,329 --> 00:13:12,699
+Nobody in mission control is breathing.
+
+147
+00:13:13,833 --> 00:13:15,426
+Contact light. Engine stop.
+
+148
+00:13:15,426 --> 00:13:21,800
+The Eagle has landed, with roughly twenty five seconds of landing fuel left in the tanks.
+
+149
+00:13:22,933 --> 00:13:25,657
+Charlie Duke's answer from Houston says it all.
+
+150
+00:13:25,657 --> 00:13:31,785
+Roger, Tranquility, we copy you on the ground. You got a bunch of guys about to turn blue.
+
+151
+00:13:31,785 --> 00:13:32,807
+We're breathing again.
+
+152
+00:13:33,933 --> 00:13:34,854
+They were down.
+
+153
+00:13:34,854 --> 00:13:40,685
+And the moment the engine stopped, every mind in the program shifted to the only question that now mattered.
+
+154
+00:13:40,685 --> 00:13:42,527
+Can we get them back up?
+
+155
+00:13:43,666 --> 00:13:46,827
+Chapter seven. Magnificent desolation.
+
+156
+00:13:47,966 --> 00:13:51,630
+Before the famous steps, there was a quiet moment nobody saw.
+
+157
+00:13:51,630 --> 00:13:57,292
+Buzz Aldrin pulled out a small kit from his personal allowance, and took communion on the Moon.
+
+158
+00:13:58,433 --> 00:14:04,139
+Bread and wine, in one sixth gravity, the wine curling slowly up the side of the cup.
+
+159
+00:14:04,139 --> 00:14:06,152
+NASA kept it off the broadcast.
+
+160
+00:14:06,152 --> 00:14:09,509
+They were being sued over religious broadcasts from Apollo 8.
+
+161
+00:14:10,633 --> 00:14:19,479
+Then the hatch opened, and for two and a half hours the two men did what six hundred million people will never forget.
+
+162
+00:14:19,479 --> 00:14:21,787
+The steps. The words. The flag.
+
+163
+00:14:22,933 --> 00:14:28,575
+Aldrin described the landscape in two words that became immortal. Magnificent desolation.
+
+164
+00:14:29,699 --> 00:14:36,721
+Nixon called them from the Oval Office, live, calling it the most historic telephone call ever made from the White House.
+
+165
+00:14:36,721 --> 00:14:38,058
+He kept it short.
+
+166
+00:14:39,199 --> 00:14:44,843
+What almost nobody watching knew: the man on the phone had the other speech in a folder.
+
+167
+00:14:44,843 --> 00:14:47,166
+The one that began, fate has ordained.
+
+168
+00:14:48,299 --> 00:14:51,010
+The moonwalk ended. The samples were sealed.
+
+169
+00:14:51,010 --> 00:14:59,140
+The two men climbed back into the Eagle, repressurized the cabin, and started preparing for the one moment everything depended on.
+
+170
+00:15:00,266 --> 00:15:06,457
+And that is when Buzz Aldrin looked down at the floor, and saw something lying in the dust that should not have been there.
+
+171
+00:15:07,599 --> 00:15:10,446
+Chapter eight. The broken switch.
+
+172
+00:15:11,566 --> 00:15:13,779
+It was a small black plastic knob.
+
+173
+00:15:13,779 --> 00:15:20,735
+Aldrin picked it up and started scanning the instrument panels, row by row, looking for the socket it had snapped off from.
+
+174
+00:15:21,866 --> 00:15:24,339
+He found it. And his heart sank.
+
+175
+00:15:24,339 --> 00:15:29,990
+Of all the hundreds of breakers in the cabin, the broken one was labeled ENGINE ARM.
+
+176
+00:15:31,133 --> 00:15:37,832
+The engine arm circuit breaker closed the electrical path that armed the ascent engine.
+
+177
+00:15:37,832 --> 00:15:41,660
+The one engine. The no-backup, one-attempt, get-off-the-Moon engine.
+
+178
+00:15:42,799 --> 00:15:48,675
+In the cramped cabin, one of their bulky life support backpacks had almost certainly knocked it off.
+
+179
+00:15:48,675 --> 00:15:51,785
+The cabin was barely bigger than two phone booths.
+
+180
+00:15:52,933 --> 00:15:56,597
+Without that circuit closed, the ascent engine could not be armed.
+
+181
+00:15:56,597 --> 00:16:02,259
+Right there, lying on the floor in the moon dust, was the beginning of the Safire memo.
+
+182
+00:16:03,399 --> 00:16:08,177
+They told Houston, and Houston told them to sleep while the ground worked the problem.
+
+183
+00:16:08,177 --> 00:16:13,273
+Imagine that night. Trying to sleep in a machine that may have just become your tomb.
+
+184
+00:16:14,399 --> 00:16:20,124
+Aldrin later wrote that he slept on the floor, cold, with the broken breaker above him.
+
+185
+00:16:20,124 --> 00:16:26,206
+Armstrong slept on the engine cover, under a rigged hammock, staring at the Earth through the window.
+
+186
+00:16:27,333 --> 00:16:31,542
+On the ground, engineers debated fixes. Could they route around it?
+
+187
+00:16:31,542 --> 00:16:34,220
+Could a metal pen bridge the contact?
+
+188
+00:16:34,220 --> 00:16:40,342
+Metal risked a short circuit, and a short circuit risked far worse than a dead engine.
+
+189
+00:16:41,466 --> 00:16:47,123
+Aldrin looked at what he had. And in his kit was a felt-tip marker. Plastic body.
+
+190
+00:16:47,123 --> 00:16:52,072
+No exposed metal. The tip was just about the width of the breaker slot.
+
+191
+00:16:53,199 --> 00:17:01,162
+In his own words: I inserted the pen into the small opening where the circuit breaker switch should have been, and pushed it in.
+
+192
+00:17:01,162 --> 00:17:03,152
+Sure enough, the circuit breaker held.
+
+193
+00:17:04,299 --> 00:17:07,235
+The ascent engine was armed by a pen.
+
+194
+00:17:07,235 --> 00:17:12,005
+Mankind's return ticket from another world, held closed by a piece of stationery.
+
+195
+00:17:13,133 --> 00:17:17,887
+Aldrin kept that pen, and the broken breaker, for the rest of his life.
+
+196
+00:17:17,887 --> 00:17:23,660
+He said, I use prosaic tools all the time, but none of them ever meant as much.
+
+197
+00:17:24,799 --> 00:17:27,490
+Chapter nine. If the pen had failed.
+
+198
+00:17:28,633 --> 00:17:33,981
+Play the other timeline for a moment, because NASA had played it many times.
+
+199
+00:17:33,981 --> 00:17:37,802
+The countdown reaches zero, the valves open... and nothing happens.
+
+200
+00:17:38,933 --> 00:17:42,850
+The lunar module's remaining consumables gave the crew roughly a day.
+
+201
+00:17:42,850 --> 00:17:49,617
+Battery power and oxygen, ticking down in a cabin the size of a closet, with the whole world listening.
+
+202
+00:17:50,766 --> 00:17:53,364
+There was no version where help arrived.
+
+203
+00:17:53,364 --> 00:17:56,704
+The next lunar module was months from flight readiness.
+
+204
+00:17:56,704 --> 00:18:01,528
+Collins was sixty miles up with no way down. The physics was final.
+
+205
+00:18:02,666 --> 00:18:10,269
+Houston would have tried everything anyway — every reroute, every jumper, every procedure, until the last hour.
+
+206
+00:18:10,269 --> 00:18:13,846
+That was mission control's religion. Work the problem.
+
+207
+00:18:14,966 --> 00:18:19,753
+And when the options ran out, the Safire protocol would have begun.
+
+208
+00:18:19,753 --> 00:18:25,337
+The phone calls to Janet Armstrong and Joan Aldrin. The speech. Fate has ordained.
+
+209
+00:18:26,466 --> 00:18:31,557
+Then the strangest mercy in the whole plan. NASA closing down communications.
+
+210
+00:18:31,557 --> 00:18:37,072
+Not because the radios failed. So the world would not hear the end.
+
+211
+00:18:38,199 --> 00:18:44,267
+What the two men would have done with their final hours is something Aldrin was once asked directly.
+
+212
+00:18:44,267 --> 00:18:48,648
+His answer was unsentimental. We weren't going to spend it moaning about it.
+
+213
+00:18:49,766 --> 00:18:57,267
+Some historians believe the crew might have chosen to end things on their own terms rather than wait for the air to thicken.
+
+214
+00:18:57,267 --> 00:19:00,528
+The astronauts themselves rarely discussed it. Some doors stay closed.
+
+215
+00:19:01,666 --> 00:19:10,240
+The Moon would carry two bodies in Sea of Tranquility, visible to every future mission, preserved unchanged for millions of years.
+
+216
+00:19:10,240 --> 00:19:15,955
+The memo's final line would be literal. Some corner of another world, forever mankind.
+
+217
+00:19:17,099 --> 00:19:21,723
+That timeline died the moment a felt-tip pen clicked into a breaker slot.
+
+218
+00:19:21,723 --> 00:19:26,346
+What happened instead was eighteen of the most relieving minutes in human history.
+
+219
+00:19:27,466 --> 00:19:29,817
+Chapter ten. The ride home.
+
+220
+00:19:30,966 --> 00:19:34,876
+July 21st. The countdown reaches zero.
+
+221
+00:19:34,876 --> 00:19:43,348
+Aldrin says the words: nine, eight, seven, six, five... engine arm, ascent. Proceed.
+
+222
+00:19:44,466 --> 00:19:46,189
+The engine lights. First try.
+
+223
+00:19:46,189 --> 00:19:55,150
+The ascent stage leaps off the descent platform in a spray of gold foil and dust, and Aldrin watches the flag whip over in the exhaust.
+
+224
+00:19:56,299 --> 00:19:58,807
+Eighteen minutes later they are in lunar orbit.
+
+225
+00:19:58,807 --> 00:20:05,390
+A few hours after that, Collins watches the Eagle rise toward him and snaps a photograph of it against the Earth.
+
+226
+00:20:06,533 --> 00:20:08,733
+That photo has a famous caption.
+
+227
+00:20:08,733 --> 00:20:14,232
+Every human being alive or who had ever lived is in this picture, except one.
+
+228
+00:20:14,232 --> 00:20:16,799
+Michael Collins, the man holding the camera.
+
+229
+00:20:17,933 --> 00:20:23,124
+Three days later, Columbia hit the Pacific. The carrier Hornet pulled them out.
+
+230
+00:20:23,124 --> 00:20:29,113
+Nixon stood grinning at the quarantine window — reading the speech history got to keep.
+
+231
+00:20:30,233 --> 00:20:34,472
+In a filing cabinet in Washington, the other speech stayed in its folder.
+
+232
+00:20:34,472 --> 00:20:40,342
+Two pages that came within one plastic switch of being the most famous words of the twentieth century.
+
+233
+00:20:41,466 --> 00:20:44,313
+Chapter eleven. The speech that waits.
+
+234
+00:20:45,433 --> 00:20:52,536
+The memo surfaced in the National Archives in 1999, thirty years late, and it changed how people saw Apollo.
+
+235
+00:20:52,536 --> 00:20:57,397
+The triumph had been real. So had the coffin built next to it.
+
+236
+00:20:58,533 --> 00:21:01,104
+Safire himself said it plainly, years later.
+
+237
+00:21:01,104 --> 00:21:06,246
+If the mission had failed, the President would have had to console the nation.
+
+238
+00:21:06,246 --> 00:21:10,654
+We had to be ready. Nobody wanted to be ready. We were.
+
+239
+00:21:11,799 --> 00:21:15,754
+In 2020, MIT researchers used the memo for something unsettling.
+
+240
+00:21:15,754 --> 00:21:23,267
+They built a deepfake of Nixon actually delivering the moon disaster speech, to teach people how synthetic media lies.
+
+241
+00:21:24,399 --> 00:21:30,586
+Watching it is vertigo. The alternate timeline, staring back at you in broadcast gray.
+
+242
+00:21:30,586 --> 00:21:35,005
+The saddest speech never given, given anyway, by a machine.
+
+243
+00:21:36,133 --> 00:21:39,219
+Here is what this story is really about.
+
+244
+00:21:39,219 --> 00:21:46,164
+Apollo 11 succeeded not because failure was impossible, but because failure was planned for in exact, unflinching detail.
+
+245
+00:21:47,299 --> 00:21:54,015
+The people who wrote death protocols and the people who armed engines with felt-tip pens were the same organization.
+
+246
+00:21:54,015 --> 00:21:58,610
+Hope for everything. Prepare for the worst thing you can say out loud.
+
+247
+00:21:59,733 --> 00:22:02,018
+Every mission since carries that lesson.
+
+248
+00:22:02,018 --> 00:22:08,493
+And somewhere in a drawer, there is always a version of the speech. For Artemis. For Mars.
+
+249
+00:22:08,493 --> 00:22:11,540
+Written in advance, hoped never to be read.
+
+250
+00:22:12,666 --> 00:22:15,273
+Because that is the honest price of exploration.
+
+251
+00:22:15,273 --> 00:22:19,510
+Somebody has to write the words for the day the engine doesn't light.
+
+252
+00:22:20,633 --> 00:22:28,525
+If this story gripped you, watch our full documentary on every disaster in spaceflight history — the missions where the speech did get read.
+
+253
+00:22:28,525 --> 00:22:31,813
+And subscribe to mindwired for a new story every week.
+

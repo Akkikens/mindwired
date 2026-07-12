@@ -1,0 +1,820 @@
+{
+  "slug": "moonstranded",
+  "title": "The Secret Plan For When Apollo 11 Got Stranded on the Moon",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "On July 18th, 1969, two days before Neil Armstrong and Buzz Aldrin landed on the Moon, a speech was typed in the White House announcing their deaths.",
+      "img": "memo",
+      "stat": "JULY 18, 1969",
+      "cap": "A speech announcing their deaths — written in advance."
+    },
+    {
+      "id": "h2",
+      "text": "Not as a precaution buried in a filing cabinet. It came with a protocol. Who the President would call. When NASA would cut the radio. What the priest would say.",
+      "img": "nixon",
+      "cap": "Who to call. When to cut the radio. What the priest would say."
+    },
+    {
+      "id": "h3",
+      "text": "Because everyone involved knew something the public celebration hid. If the single engine on the lunar lander failed to light, there was no rescue. None.",
+      "img": "eagle",
+      "stat": "NO RESCUE POSSIBLE",
+      "statColor": "#FF4D4D",
+      "cap": "If one engine failed to light: no rescue."
+    },
+    {
+      "id": "h4",
+      "text": "Armstrong and Aldrin would be left on the surface, alive and perfectly healthy, waiting for their oxygen to run out. On live television's greatest triumph.",
+      "img": "aldrinmoon",
+      "cap": "Alive, healthy — and waiting."
+    },
+    {
+      "id": "h5",
+      "text": "And here is the part almost nobody knows. On the Moon, that nightmare very nearly began. Because of a broken plastic switch, and a backpack that bumped a wall.",
+      "img": "lmcockpit",
+      "statColor": "#FF4D4D",
+      "cap": "And it almost happened. Because of a broken switch."
+    },
+    {
+      "id": "h6",
+      "text": "This is the full story of the plan for losing Apollo 11. The odds they hid, the memo they wrote, the switch that snapped, and the felt-tip pen that saved the mission.",
+      "img": "crew",
+      "cap": "The plan for losing Apollo 11."
+    },
+    {
+      "id": "c1_t",
+      "text": "Chapter one. The odds they never told you.",
+      "chapter": "CHAPTER 1\nThe Odds They Never Told You"
+    },
+    {
+      "id": "o1",
+      "text": "In public, Apollo 11 was confidence itself. Half a million people lined the Florida coast. The crew smiled and waved. America was going to the Moon.",
+      "img": "crowd",
+      "stat": "JULY 16, 1969",
+      "cap": "In public: pure confidence."
+    },
+    {
+      "id": "o2",
+      "text": "In private, the men in the capsule were running very different numbers. Neil Armstrong later said he believed they had a ninety percent chance of coming home alive.",
+      "img": "armstrong",
+      "stat": "90% — COMING HOME",
+      "cap": "Armstrong's private math."
+    },
+    {
+      "id": "o3",
+      "text": "But only a fifty percent chance of actually landing. A coin flip. That was the commander's own estimate of the thing the whole world had gathered to watch.",
+      "img": "armstrong",
+      "stat": "50% — THE LANDING",
+      "statColor": "#FF4D4D",
+      "cap": "The landing itself? A coin flip."
+    },
+    {
+      "id": "o4",
+      "text": "The insurance industry agreed with him. No company would write a sane life insurance policy on a man about to ride a Saturn V to another world.",
+      "img": "saturnv",
+      "cap": "No insurer would touch them."
+    },
+    {
+      "id": "o5",
+      "text": "So the crew invented their own life insurance. In quarantine before launch, they sat and signed hundreds of postal envelopes. Autographs.",
+      "img": "crew",
+      "stat": "INSURANCE COVERS",
+      "cap": "Their life insurance: autographs."
+    },
+    {
+      "id": "o6",
+      "text": "The plan was simple and quietly heartbreaking. If they died on the Moon, their families would sell the signatures. A dead moonwalker's autograph would pay for college.",
+      "img": "families",
+      "cap": "If they died, the families would sell them."
+    },
+    {
+      "id": "o7",
+      "text": "Those envelopes exist today. Collectors call them insurance covers. They are the physical proof of how the crew really rated their chances.",
+      "img": "crew",
+      "cap": "The proof still exists. Collectors own it."
+    },
+    {
+      "id": "o8",
+      "text": "NASA's own engineers had spent years studying the ways the mission could fail. One failure mode stood above all the others. It had no backup, no workaround, and no survivors.",
+      "img": "eagle",
+      "statColor": "#FF4D4D",
+      "cap": "One failure mode had no survivors."
+    },
+    {
+      "id": "o9",
+      "text": "It lived in the spidery machine bolted to the top of the rocket. The lunar module. And to understand the death speech, you have to understand this machine.",
+      "img": "eagle",
+      "cap": "It lived inside the lunar module."
+    },
+    {
+      "id": "c2_t",
+      "text": "Chapter two. One engine, no second chances.",
+      "chapter": "CHAPTER 2\nOne Engine, No Second Chances"
+    },
+    {
+      "id": "e1",
+      "text": "The lunar module Eagle was two spacecraft stacked together. A descent stage with legs, for going down. And an ascent stage, the crew cabin, for coming back up.",
+      "img": "eagle",
+      "stat": "TWO STAGES",
+      "cap": "One stage down. One stage up."
+    },
+    {
+      "id": "e2",
+      "text": "Getting off the Moon depended on exactly one thing. The ascent engine. A single rocket motor about the size of a washing machine, with thirty five hundred pounds of thrust.",
+      "img": "ascent",
+      "stat": "ONE ENGINE",
+      "statColor": "#FF4D4D",
+      "cap": "Getting home depended on one motor."
+    },
+    {
+      "id": "e3",
+      "text": "There was no backup engine. There was no rescue ship. There was no second lunar module waiting in orbit. The engineering philosophy was brutal in its simplicity.",
+      "img": "ascent",
+      "cap": "No backup. No rescue ship. Nothing."
+    },
+    {
+      "id": "e4",
+      "text": "Make the one engine so simple it cannot fail. No ignition system, because the fuels explode on contact with each other. No fuel pumps, because pressurized helium pushes the propellant.",
+      "img": "ascent",
+      "stat": "HYPERGOLIC — NO IGNITION NEEDED",
+      "cap": "So simple it 'cannot' fail."
+    },
+    {
+      "id": "e5",
+      "text": "Open two valves, and physics does the rest. That was the theory. But this engine, in this configuration, had never been fired on the Moon before.",
+      "img": "tranquility",
+      "cap": "Open two valves. Physics does the rest. In theory."
+    },
+    {
+      "id": "e6",
+      "text": "It would get exactly one attempt, in temperatures swinging hundreds of degrees, in a vacuum, covered in abrasive lunar dust, after days of vibration and violence.",
+      "img": "surface",
+      "statColor": "#FF4D4D",
+      "cap": "Exactly one attempt."
+    },
+    {
+      "id": "e7",
+      "text": "If it lit, the ascent stage would climb to lunar orbit and meet Michael Collins in the command module. Eighteen minutes of flight. Routine, if everything worked.",
+      "img": "columbia",
+      "cap": "If it lit: an 18-minute ride to safety."
+    },
+    {
+      "id": "e8",
+      "text": "If it did not light, Armstrong and Aldrin were dead men in perfect health, standing in the Sea of Tranquility with the Earth hanging above them.",
+      "img": "aldrinmoon",
+      "cap": "If it didn't: dead men in perfect health."
+    },
+    {
+      "id": "e9",
+      "text": "Mission control could talk to them. Their families could, in principle, say goodbye. And roughly six hundred million people would be watching it happen.",
+      "img": "missionctl",
+      "stat": "600 MILLION WATCHING",
+      "cap": "The world would watch them die. Live."
+    },
+    {
+      "id": "e10",
+      "text": "Somebody in the White House realized the government had no words prepared for that. His name was William Safire. And what he wrote is one of the most haunting documents in American history.",
+      "img": "safire",
+      "cap": "Someone realized: there were no words ready."
+    },
+    {
+      "id": "c3_t",
+      "text": "Chapter three. In event of moon disaster.",
+      "chapter": "CHAPTER 3\nIn Event of Moon Disaster"
+    },
+    {
+      "id": "m1",
+      "text": "William Safire was Nixon's speechwriter. In July 1969, astronaut Frank Borman, NASA's liaison to the White House, called him with a quiet request.",
+      "img": "safire",
+      "stat": "WILLIAM SAFIRE",
+      "cap": "The request came quietly, from an astronaut."
+    },
+    {
+      "id": "m2",
+      "text": "Borman told him to think about, quote, some alternative posture for the President in the event of mishaps. Safire didn't immediately understand.",
+      "img": "nixon",
+      "cap": "'Some alternative posture... in the event of mishaps.'"
+    },
+    {
+      "id": "m3",
+      "text": "So Borman said it plainly. Like what to do for the widows. Safire understood then. The most likely disaster was not an explosion. It was a stranding.",
+      "img": "families",
+      "statColor": "#FF4D4D",
+      "cap": "'Like what to do for the widows.'"
+    },
+    {
+      "id": "m4",
+      "text": "On July 18th, while Apollo 11 coasted toward the Moon, Safire sent a two page memo to Nixon's chief of staff. The subject line: In event of moon disaster.",
+      "img": "memo",
+      "stat": "JULY 18, 1969",
+      "cap": "Subject: IN EVENT OF MOON DISASTER."
+    },
+    {
+      "id": "m5",
+      "text": "The speech it contained begins like this. Fate has ordained that the men who went to the moon to explore in peace will stay on the moon to rest in peace.",
+      "img": "memo",
+      "cap": "'...will stay on the moon to rest in peace.'"
+    },
+    {
+      "id": "m6",
+      "text": "These brave men, Neil Armstrong and Edwin Aldrin, know that there is no hope for their recovery. But they also know that there is hope for mankind in their sacrifice.",
+      "img": "crew",
+      "cap": "'...know that there is no hope for their recovery.'"
+    },
+    {
+      "id": "m7",
+      "text": "And it ends with a line writers still study. For every human being who looks up at the moon in the nights to come will know that there is some corner of another world that is forever mankind.",
+      "img": "moonfull",
+      "cap": "'...some corner of another world that is forever mankind.'"
+    },
+    {
+      "id": "m8",
+      "text": "Notice what the speech does. It is written in the present tense, for men who would still be alive when the President read it. A eulogy for the living.",
+      "img": "aldrinmoon",
+      "statColor": "#FF4D4D",
+      "cap": "A eulogy written for living men."
+    },
+    {
+      "id": "m9",
+      "text": "The memo also laid out the protocol around the speech, and this is the part that stays with you.",
+      "img": "memo",
+      "cap": "Then came the protocol."
+    },
+    {
+      "id": "m10",
+      "text": "First. Before the statement, the President would telephone each of the widows to be. That is the memo's actual phrase. Widows to be. Their husbands would still be breathing.",
+      "img": "families",
+      "stat": "\"WIDOWS-TO-BE\"",
+      "statColor": "#FF4D4D",
+      "cap": "He would call the widows-to-be. Before."
+    },
+    {
+      "id": "m11",
+      "text": "Second. After the speech, at the point when NASA ends communication with the men — the space agency would deliberately cut the radio link, and leave them to the silence.",
+      "img": "missionctl",
+      "cap": "NASA would deliberately cut the radio."
+    },
+    {
+      "id": "m12",
+      "text": "Third. A clergyman would then commend their souls to the deepest of the deep, following the same procedure as a burial at sea.",
+      "img": "moonfull",
+      "stat": "A BURIAL AT SEA",
+      "cap": "The rite of a burial at sea."
+    },
+    {
+      "id": "m13",
+      "text": "The Moon would become a grave, and the ceremony already existed. The memo went into a folder, and everyone hoped it would never come out.",
+      "img": "memo",
+      "cap": "The ceremony was ready. They hoped never to use it."
+    },
+    {
+      "id": "m14",
+      "text": "The document stayed unknown for thirty years, until an archivist found it in the National Archives in 1999. When it was published, it stunned even Apollo veterans.",
+      "img": "memo",
+      "stat": "SECRET UNTIL 1999",
+      "cap": "It surfaced 30 years later."
+    },
+    {
+      "id": "m15",
+      "text": "But in July 1969 it was live policy. And there was one man whose entire role in history would be defined by that memo if it were ever used.",
+      "img": "collins",
+      "cap": "One man's life would be defined by it."
+    },
+    {
+      "id": "c4_t",
+      "text": "Chapter four. The man who would come home alone.",
+      "chapter": "CHAPTER 4\nThe Man Who Would Come Home Alone"
+    },
+    {
+      "id": "l1",
+      "text": "Michael Collins flew to the Moon and never touched it. While Armstrong and Aldrin descended, he stayed alone in the command module Columbia, circling sixty miles up.",
+      "img": "collins",
+      "stat": "MICHAEL COLLINS",
+      "cap": "He flew to the Moon and never touched it."
+    },
+    {
+      "id": "l2",
+      "text": "Every orbit took him behind the Moon, where the radio died. For forty eight minutes at a time, he was cut off from Earth, from his crewmates, from every human being alive.",
+      "img": "columbia",
+      "stat": "48 MIN OF SILENCE",
+      "cap": "Regularly the most isolated human ever."
+    },
+    {
+      "id": "l3",
+      "text": "Mission control called him the loneliest man since Adam. Collins said the loneliness wasn't what scared him. What scared him was the other thing.",
+      "img": "collins",
+      "cap": "Loneliness wasn't what scared him."
+    },
+    {
+      "id": "l4",
+      "text": "He wrote it down later. My secret terror for the last six months has been leaving them on the Moon and returning to Earth alone.",
+      "img": "collins",
+      "statColor": "#FF4D4D",
+      "cap": "'My secret terror... returning to Earth alone.'"
+    },
+    {
+      "id": "l5",
+      "text": "If the ascent engine failed, Collins had strict orders. He could not rescue them. Columbia could not land. There was nothing to do but leave.",
+      "img": "columbia",
+      "cap": "His orders: leave them."
+    },
+    {
+      "id": "l6",
+      "text": "He was blunt about what that would make him. If they fail to rise from the surface, I am not going to commit suicide. I am coming home, forthwith. But I will be a marked man for life, and I know it.",
+      "img": "collins",
+      "cap": "'I will be a marked man for life, and I know it.'"
+    },
+    {
+      "id": "l7",
+      "text": "Imagine that return. Three weeks of flight, alone, in a ship built for three. A parade nobody would hold. The one man who came back from mankind's greatest tragedy.",
+      "img": "columbia",
+      "cap": "A ship built for three, coming home with one."
+    },
+    {
+      "id": "l8",
+      "text": "Collins kept a small card of emergency procedures. Eighteen different contingency plans for rescuing the lunar module from a bad orbit. For a dead engine on the surface, there was no card. There was no page.",
+      "img": "lmcockpit",
+      "stat": "18 RESCUE PLANS — 0 FOR THE SURFACE",
+      "cap": "18 rescue plans. None for the surface."
+    },
+    {
+      "id": "l9",
+      "text": "That was the machinery of disaster, fully assembled. A speech. A protocol. A man in orbit rehearsing the worst trip home in history. All of it waiting on one engine.",
+      "img": "moonfull",
+      "cap": "All of it waiting on one engine."
+    },
+    {
+      "id": "l10",
+      "text": "And before that engine even got its chance, the landing itself almost ended everything.",
+      "img": "eagle",
+      "cap": "First, they had to survive the landing."
+    },
+    {
+      "id": "cr_t",
+      "text": "Chapter five. The rehearsals for disaster.",
+      "chapter": "CHAPTER 5\nThe Rehearsals for Disaster"
+    },
+    {
+      "id": "p1",
+      "text": "Apollo 11 didn't walk into that risk blind. In the eight months before it, NASA flew three full dress rehearsals. Each one came with its own brush with catastrophe.",
+      "img": "apollo8",
+      "cap": "Three rehearsals. Three brushes with disaster."
+    },
+    {
+      "id": "p2",
+      "text": "December 1968. Apollo 8 carries the first humans ever to leave Earth orbit. Before launch, commander Frank Borman's own family privately rated his odds of coming home at fifty fifty.",
+      "img": "apollo8",
+      "stat": "APOLLO 8 · 50/50",
+      "cap": "Borman's family gave him a coin flip."
+    },
+    {
+      "id": "p3",
+      "text": "Their engine burn to leave lunar orbit happened behind the Moon, out of radio contact, on Christmas morning. If it failed, three men would orbit the Moon until their air ran out. Silently.",
+      "img": "earthrise",
+      "statColor": "#FF4D4D",
+      "cap": "One burn, behind the Moon, on Christmas."
+    },
+    {
+      "id": "p4",
+      "text": "When the ship emerged from behind the Moon on time, Jim Lovell radioed the words: please be informed, there is a Santa Claus.",
+      "img": "apollo8",
+      "cap": "'Please be informed — there is a Santa Claus.'"
+    },
+    {
+      "id": "p5",
+      "text": "It was Borman, remember, who later asked Safire to prepare the disaster speech. He had done the math on his own mission. He knew exactly what he was asking for.",
+      "img": "safire",
+      "cap": "The memo was requested by a man who'd done the math."
+    },
+    {
+      "id": "p6",
+      "text": "May 1969. Apollo 10. Tom Stafford and Gene Cernan fly the lunar module Snoopy to within fifteen kilometers of the surface — everything except the landing.",
+      "img": "apollo10",
+      "stat": "APOLLO 10 · 15 KM UP",
+      "cap": "The full dress rehearsal."
+    },
+    {
+      "id": "p7",
+      "text": "During staging, a switch set in the wrong position sends the lunar module into violent tumbling — flipping end over end above the Moon, gyrating toward gimbal lock.",
+      "img": "apollo10",
+      "statColor": "#FF4D4D",
+      "cap": "Then Snoopy started tumbling."
+    },
+    {
+      "id": "p8",
+      "text": "Cernan's exclamation went out on a hot mike to the whole world. Son of a... well. You can look up the rest. Stafford wrestled the ship back under control in seconds.",
+      "img": "apollo10",
+      "cap": "The hot-mike moment heard round the world."
+    },
+    {
+      "id": "p9",
+      "text": "Analysts later estimated that a few more seconds of tumbling could have ended with Snoopy in the lunar surface. Two months before Armstrong's landing.",
+      "img": "apollo10",
+      "cap": "Seconds from crashing into the Moon."
+    },
+    {
+      "id": "p10",
+      "text": "So when Eagle undocked in July, nobody involved believed the danger was theoretical. The rehearsals had made one thing clear. The Moon punishes small mistakes.",
+      "img": "eagle",
+      "cap": "The Moon punishes small mistakes."
+    },
+    {
+      "id": "c5_t",
+      "text": "Chapter six. Twelve minutes, five alarms, twenty five seconds.",
+      "chapter": "CHAPTER 6\nTwelve Minutes, Five Alarms, 25 Seconds"
+    },
+    {
+      "id": "d1",
+      "text": "July 20th, 1969. Eagle undocks and begins the twelve minute fall to the lunar surface. Almost immediately, things start going wrong.",
+      "img": "eagle",
+      "stat": "JULY 20, 1969",
+      "cap": "Twelve minutes to the surface."
+    },
+    {
+      "id": "d2",
+      "text": "Five minutes in, a shrill alarm fills the cabin. Program alarm twelve-oh-two. Neither astronaut knows what it means. Armstrong's heartbeat starts to climb.",
+      "img": "agc",
+      "stat": "ALARM 1202",
+      "statColor": "#FF4D4D",
+      "cap": "An alarm no one in the cabin recognized."
+    },
+    {
+      "id": "d3",
+      "text": "In Houston, a twenty six year old guidance officer named Steve Bales has seconds to decide whether to abort the landing of the century.",
+      "img": "missionctl",
+      "stat": "AGE 26",
+      "cap": "A 26-year-old had seconds to decide."
+    },
+    {
+      "id": "d4",
+      "text": "Bales remembers a simulation from weeks earlier. The alarm means the computer is overloaded but still flying. He makes the call. We're go on that alarm.",
+      "img": "missionctl",
+      "cap": "'We're GO on that alarm.'"
+    },
+    {
+      "id": "d5",
+      "text": "The alarms keep coming. Twelve-oh-two. Twelve-oh-one. Five of them in four minutes, each one a heartbeat from an abort. The computer keeps flying.",
+      "img": "agc",
+      "stat": "5 ALARMS",
+      "cap": "Five alarms in four minutes."
+    },
+    {
+      "id": "d6",
+      "text": "Then Armstrong looks out the window and sees the next problem. The computer is flying them into a crater full of boulders the size of cars.",
+      "img": "tranquility",
+      "statColor": "#FF4D4D",
+      "cap": "The autopilot was aiming at a boulder field."
+    },
+    {
+      "id": "d7",
+      "text": "He takes manual control, levels off, and starts flying the lunar module like a helicopter, skimming the surface, hunting for a clear patch. And burning fuel he does not have.",
+      "img": "eagle",
+      "cap": "So he flew past it — burning fuel he didn't have."
+    },
+    {
+      "id": "d8",
+      "text": "In Houston, the fuel callouts start. Sixty seconds. The room goes silent. Thirty seconds. Nobody in mission control is breathing.",
+      "img": "missionctl",
+      "stat": "\"30 SECONDS\"",
+      "statColor": "#FF4D4D",
+      "cap": "'Thirty seconds.' Nobody breathed."
+    },
+    {
+      "id": "d9",
+      "text": "Contact light. Engine stop. The Eagle has landed, with roughly twenty five seconds of landing fuel left in the tanks.",
+      "img": "tranquility",
+      "stat": "~25 SECONDS LEFT",
+      "cap": "They landed on the last sips of fuel."
+    },
+    {
+      "id": "d10",
+      "text": "Charlie Duke's answer from Houston says it all. Roger, Tranquility, we copy you on the ground. You got a bunch of guys about to turn blue. We're breathing again.",
+      "img": "missionctl",
+      "cap": "'You got a bunch of guys about to turn blue.'"
+    },
+    {
+      "id": "d11",
+      "text": "They were down. And the moment the engine stopped, every mind in the program shifted to the only question that now mattered. Can we get them back up?",
+      "img": "surface",
+      "cap": "Down safely. Now: can they get back UP?"
+    },
+    {
+      "id": "c6_t",
+      "text": "Chapter seven. Magnificent desolation.",
+      "chapter": "CHAPTER 7\nMagnificent Desolation"
+    },
+    {
+      "id": "s1",
+      "text": "Before the famous steps, there was a quiet moment nobody saw. Buzz Aldrin pulled out a small kit from his personal allowance, and took communion on the Moon.",
+      "img": "aldrinmoon",
+      "stat": "THE FIRST MEAL ON THE MOON",
+      "cap": "The first food on the Moon: communion."
+    },
+    {
+      "id": "s2",
+      "text": "Bread and wine, in one sixth gravity, the wine curling slowly up the side of the cup. NASA kept it off the broadcast. They were being sued over religious broadcasts from Apollo 8.",
+      "img": "aldrinmoon",
+      "cap": "NASA kept it off the air."
+    },
+    {
+      "id": "s3",
+      "text": "Then the hatch opened, and for two and a half hours the two men did what six hundred million people will never forget. The steps. The words. The flag.",
+      "img": "flag",
+      "stat": "2.5 HOURS",
+      "cap": "The steps. The words. The flag."
+    },
+    {
+      "id": "s4",
+      "text": "Aldrin described the landscape in two words that became immortal. Magnificent desolation.",
+      "img": "surface",
+      "cap": "'Magnificent desolation.'"
+    },
+    {
+      "id": "s5",
+      "text": "Nixon called them from the Oval Office, live, calling it the most historic telephone call ever made from the White House. He kept it short.",
+      "img": "nixon",
+      "cap": "Nixon called — and kept it short."
+    },
+    {
+      "id": "s6",
+      "text": "What almost nobody watching knew: the man on the phone had the other speech in a folder. The one that began, fate has ordained.",
+      "img": "nixon",
+      "statColor": "#FF4D4D",
+      "cap": "The man on the phone had the other speech ready."
+    },
+    {
+      "id": "s7",
+      "text": "The moonwalk ended. The samples were sealed. The two men climbed back into the Eagle, repressurized the cabin, and started preparing for the one moment everything depended on.",
+      "img": "lmcockpit",
+      "cap": "Back inside. One moment left."
+    },
+    {
+      "id": "s8",
+      "text": "And that is when Buzz Aldrin looked down at the floor, and saw something lying in the dust that should not have been there.",
+      "img": "lmcockpit",
+      "statColor": "#FF4D4D",
+      "cap": "Then Aldrin saw something on the floor."
+    },
+    {
+      "id": "c7_t",
+      "text": "Chapter eight. The broken switch.",
+      "chapter": "CHAPTER 8\nThe Broken Switch"
+    },
+    {
+      "id": "b1",
+      "text": "It was a small black plastic knob. Aldrin picked it up and started scanning the instrument panels, row by row, looking for the socket it had snapped off from.",
+      "img": "lmcockpit",
+      "cap": "A small black knob, lying in the dust."
+    },
+    {
+      "id": "b2",
+      "text": "He found it. And his heart sank. Of all the hundreds of breakers in the cabin, the broken one was labeled ENGINE ARM.",
+      "img": "lmcockpit",
+      "stat": "ENGINE ARM",
+      "statColor": "#FF4D4D",
+      "cap": "Of all the breakers... ENGINE ARM."
+    },
+    {
+      "id": "b3",
+      "text": "The engine arm circuit breaker closed the electrical path that armed the ascent engine. The one engine. The no-backup, one-attempt, get-off-the-Moon engine.",
+      "img": "ascent",
+      "cap": "The breaker that armed THE engine."
+    },
+    {
+      "id": "b4",
+      "text": "In the cramped cabin, one of their bulky life support backpacks had almost certainly knocked it off. The cabin was barely bigger than two phone booths.",
+      "img": "lmcockpit",
+      "cap": "A backpack had snapped it off."
+    },
+    {
+      "id": "b5",
+      "text": "Without that circuit closed, the ascent engine could not be armed. Right there, lying on the floor in the moon dust, was the beginning of the Safire memo.",
+      "img": "memo",
+      "statColor": "#FF4D4D",
+      "cap": "On the floor lay the start of the death memo."
+    },
+    {
+      "id": "b6",
+      "text": "They told Houston, and Houston told them to sleep while the ground worked the problem. Imagine that night. Trying to sleep in a machine that may have just become your tomb.",
+      "img": "eagle",
+      "cap": "They were told to sleep on it. Imagine that night."
+    },
+    {
+      "id": "b7",
+      "text": "Aldrin later wrote that he slept on the floor, cold, with the broken breaker above him. Armstrong slept on the engine cover, under a rigged hammock, staring at the Earth through the window.",
+      "img": "surface",
+      "cap": "Armstrong slept staring at the Earth."
+    },
+    {
+      "id": "b8",
+      "text": "On the ground, engineers debated fixes. Could they route around it? Could a metal pen bridge the contact? Metal risked a short circuit, and a short circuit risked far worse than a dead engine.",
+      "img": "missionctl",
+      "cap": "A metal fix risked a short circuit."
+    },
+    {
+      "id": "b9",
+      "text": "Aldrin looked at what he had. And in his kit was a felt-tip marker. Plastic body. No exposed metal. The tip was just about the width of the breaker slot.",
+      "img": "lmcockpit",
+      "stat": "A FELT-TIP PEN",
+      "cap": "His solution: a felt-tip pen."
+    },
+    {
+      "id": "b10",
+      "text": "In his own words: I inserted the pen into the small opening where the circuit breaker switch should have been, and pushed it in. Sure enough, the circuit breaker held.",
+      "img": "lmcockpit",
+      "cap": "'Sure enough, the circuit breaker held.'"
+    },
+    {
+      "id": "b11",
+      "text": "The ascent engine was armed by a pen. Mankind's return ticket from another world, held closed by a piece of stationery.",
+      "img": "ascent",
+      "stat": "ARMED — BY A PEN",
+      "cap": "The return ticket, held shut by stationery."
+    },
+    {
+      "id": "b12",
+      "text": "Aldrin kept that pen, and the broken breaker, for the rest of his life. He said, I use prosaic tools all the time, but none of them ever meant as much.",
+      "img": "lmcockpit",
+      "cap": "He kept the pen forever."
+    },
+    {
+      "id": "c8_t",
+      "text": "Chapter nine. If the pen had failed.",
+      "chapter": "CHAPTER 9\nIf the Pen Had Failed"
+    },
+    {
+      "id": "f1",
+      "text": "Play the other timeline for a moment, because NASA had played it many times. The countdown reaches zero, the valves open... and nothing happens.",
+      "img": "eagle",
+      "statColor": "#FF4D4D",
+      "cap": "The other timeline: valves open... nothing."
+    },
+    {
+      "id": "f2",
+      "text": "The lunar module's remaining consumables gave the crew roughly a day. Battery power and oxygen, ticking down in a cabin the size of a closet, with the whole world listening.",
+      "img": "lmcockpit",
+      "stat": "~24 HOURS",
+      "statColor": "#FF4D4D",
+      "cap": "They'd have had roughly a day."
+    },
+    {
+      "id": "f3",
+      "text": "There was no version where help arrived. The next lunar module was months from flight readiness. Collins was sixty miles up with no way down. The physics was final.",
+      "img": "columbia",
+      "cap": "No version of this had help arriving."
+    },
+    {
+      "id": "f4",
+      "text": "Houston would have tried everything anyway — every reroute, every jumper, every procedure, until the last hour. That was mission control's religion. Work the problem.",
+      "img": "missionctl",
+      "cap": "Houston would have worked it to the last hour."
+    },
+    {
+      "id": "f5",
+      "text": "And when the options ran out, the Safire protocol would have begun. The phone calls to Janet Armstrong and Joan Aldrin. The speech. Fate has ordained.",
+      "img": "families",
+      "statColor": "#FF4D4D",
+      "cap": "Then: the phone calls. Then: the speech."
+    },
+    {
+      "id": "f6",
+      "text": "Then the strangest mercy in the whole plan. NASA closing down communications. Not because the radios failed. So the world would not hear the end.",
+      "img": "missionctl",
+      "stat": "\"CLOSE DOWN COMMUNICATIONS\"",
+      "cap": "The radio cut — so the world wouldn't hear."
+    },
+    {
+      "id": "f7",
+      "text": "What the two men would have done with their final hours is something Aldrin was once asked directly. His answer was unsentimental. We weren't going to spend it moaning about it.",
+      "img": "aldrinmoon",
+      "cap": "Aldrin, asked about those hours: no moaning."
+    },
+    {
+      "id": "f8",
+      "text": "Some historians believe the crew might have chosen to end things on their own terms rather than wait for the air to thicken. The astronauts themselves rarely discussed it. Some doors stay closed.",
+      "img": "moonfull",
+      "cap": "Some doors stay closed."
+    },
+    {
+      "id": "f9",
+      "text": "The Moon would carry two bodies in Sea of Tranquility, visible to every future mission, preserved unchanged for millions of years. The memo's final line would be literal. Some corner of another world, forever mankind.",
+      "img": "moonfull",
+      "statColor": "#FF4D4D",
+      "cap": "Preserved unchanged for millions of years."
+    },
+    {
+      "id": "f10",
+      "text": "That timeline died the moment a felt-tip pen clicked into a breaker slot. What happened instead was eighteen of the most relieving minutes in human history.",
+      "img": "ascent",
+      "cap": "Instead: the 18 best minutes in history."
+    },
+    {
+      "id": "c9_t",
+      "text": "Chapter ten. The ride home.",
+      "chapter": "CHAPTER 10\nThe Ride Home"
+    },
+    {
+      "id": "r1",
+      "text": "July 21st. The countdown reaches zero. Aldrin says the words: nine, eight, seven, six, five... engine arm, ascent. Proceed.",
+      "img": "ascent",
+      "stat": "JULY 21, 1969",
+      "cap": "'Engine arm — ascent. Proceed.'"
+    },
+    {
+      "id": "r2",
+      "text": "The engine lights. First try. The ascent stage leaps off the descent platform in a spray of gold foil and dust, and Aldrin watches the flag whip over in the exhaust.",
+      "img": "ascent",
+      "cap": "It lit. First try."
+    },
+    {
+      "id": "r3",
+      "text": "Eighteen minutes later they are in lunar orbit. A few hours after that, Collins watches the Eagle rise toward him and snaps a photograph of it against the Earth.",
+      "img": "earthrise",
+      "cap": "Collins photographed them coming up."
+    },
+    {
+      "id": "r4",
+      "text": "That photo has a famous caption. Every human being alive or who had ever lived is in this picture, except one. Michael Collins, the man holding the camera.",
+      "img": "earthrise",
+      "stat": "ALL OF HUMANITY, MINUS ONE",
+      "cap": "Everyone who ever lived is in it — except him."
+    },
+    {
+      "id": "r5",
+      "text": "Three days later, Columbia hit the Pacific. The carrier Hornet pulled them out. Nixon stood grinning at the quarantine window — reading the speech history got to keep.",
+      "img": "splashdown",
+      "cap": "Splashdown. The good speech got read."
+    },
+    {
+      "id": "r6",
+      "text": "In a filing cabinet in Washington, the other speech stayed in its folder. Two pages that came within one plastic switch of being the most famous words of the twentieth century.",
+      "img": "memo",
+      "cap": "The other speech stayed in its folder."
+    },
+    {
+      "id": "c10_t",
+      "text": "Chapter eleven. The speech that waits.",
+      "chapter": "CHAPTER 11\nThe Speech That Waits"
+    },
+    {
+      "id": "w1",
+      "text": "The memo surfaced in the National Archives in 1999, thirty years late, and it changed how people saw Apollo. The triumph had been real. So had the coffin built next to it.",
+      "img": "memo",
+      "stat": "DECLASSIFIED BY TIME",
+      "cap": "The triumph was real. So was the coffin beside it."
+    },
+    {
+      "id": "w2",
+      "text": "Safire himself said it plainly, years later. If the mission had failed, the President would have had to console the nation. We had to be ready. Nobody wanted to be ready. We were.",
+      "img": "safire",
+      "cap": "'Nobody wanted to be ready. We were.'"
+    },
+    {
+      "id": "w3",
+      "text": "In 2020, MIT researchers used the memo for something unsettling. They built a deepfake of Nixon actually delivering the moon disaster speech, to teach people how synthetic media lies.",
+      "img": "nixon",
+      "stat": "MIT · 2020",
+      "cap": "A deepfake Nixon finally 'delivered' it."
+    },
+    {
+      "id": "w4",
+      "text": "Watching it is vertigo. The alternate timeline, staring back at you in broadcast gray. The saddest speech never given, given anyway, by a machine.",
+      "img": "nixon",
+      "cap": "The alternate timeline, staring back."
+    },
+    {
+      "id": "w5",
+      "text": "Here is what this story is really about. Apollo 11 succeeded not because failure was impossible, but because failure was planned for in exact, unflinching detail.",
+      "img": "missionctl",
+      "cap": "Failure wasn't impossible. It was planned for."
+    },
+    {
+      "id": "w6",
+      "text": "The people who wrote death protocols and the people who armed engines with felt-tip pens were the same organization. Hope for everything. Prepare for the worst thing you can say out loud.",
+      "img": "crew",
+      "cap": "Hope for everything. Prepare out loud."
+    },
+    {
+      "id": "w7",
+      "text": "Every mission since carries that lesson. And somewhere in a drawer, there is always a version of the speech. For Artemis. For Mars. Written in advance, hoped never to be read.",
+      "img": "moonfull",
+      "stat": "THERE IS ALWAYS A SPEECH",
+      "cap": "There is always a speech in a drawer."
+    },
+    {
+      "id": "w8",
+      "text": "Because that is the honest price of exploration. Somebody has to write the words for the day the engine doesn't light.",
+      "img": "moonfull",
+      "cap": "Someone writes the words. Just in case."
+    },
+    {
+      "id": "w9",
+      "text": "If this story gripped you, watch our full documentary on every disaster in spaceflight history — the missions where the speech did get read. And subscribe to mindwired for a new story every week.",
+      "img": "earthrise",
+      "cap": "Subscribe to mindwired."
+    }
+  ]
+}
