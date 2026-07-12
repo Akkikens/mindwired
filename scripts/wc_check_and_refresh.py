@@ -77,34 +77,55 @@ def run(cmd: list[str]) -> None:
 def main() -> None:
     state = load_state()
     changed = []
+    failed = []
 
     for slug, target in TARGETS.items():
-        data = target["fetch"]()
-        fp = fingerprint(data)
-        if state.get(slug) == fp:
-            print(f"[{slug}] unchanged, skipping")
+        try:
+            data = target["fetch"]()
+            fp = fingerprint(data)
+            if state.get(slug) == fp:
+                print(f"[{slug}] unchanged, skipping")
+                continue
+            print(f"[{slug}] CHANGED — rebuilding")
+            run([".venv-lipsync/bin/python3", target["build"]])
+            # cartesia first — ElevenLabs quota exhausted 2026-07 (build_short
+            # falls back cartesia -> eleven -> silent estimate on its own)
+            run(["python3", "scripts/build_short.py", slug, "--voice", "cartesia"])
+            run(["npx", "remotion", "render", target["comp"], target["out"]])
+            # verify twice — a prior render silently corrupted despite exit 0
+            for _ in range(2):
+                probe = subprocess.run(
+                    ["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                     "-of", "default=noprint_wrappers=1", target["out"]],
+                    cwd=REPO, capture_output=True, text=True)
+                if probe.returncode != 0 or probe.stderr.strip():
+                    raise RuntimeError(f"ffprobe reported a problem: {probe.stderr}")
+        except BaseException as e:  # noqa: BLE001 — one dead slug must not kill the pass
+            print(f"[{slug}] FAILED ({e.__class__.__name__}: {e}) — keeping old video, retrying next cycle")
+            failed.append(slug)
             continue
-        print(f"[{slug}] CHANGED — rebuilding")
-        run([".venv-lipsync/bin/python3", target["build"]])
-        run(["python3", "scripts/build_short.py", slug, "--voice", "eleven"])
-        run(["npx", "remotion", "render", target["comp"], target["out"]])
-        # verify twice — a prior render silently corrupted despite exit 0
-        for _ in range(2):
-            probe = subprocess.run(
-                ["ffprobe", "-v", "error", "-show_entries", "format=duration",
-                 "-of", "default=noprint_wrappers=1", target["out"]],
-                cwd=REPO, capture_output=True, text=True)
-            if probe.returncode != 0 or probe.stderr.strip():
-                sys.exit(f"[{slug}] ffprobe reported a problem — not marking as refreshed: {probe.stderr}")
+        # persist progress per slug — the old end-of-pass save meant one OOM or
+        # API hiccup late in the pass forgot EVERY completed render, re-queued
+        # everything, and the live loop never got reassembled (5-day-stale loop,
+        # 2026-07-12)
         state[slug] = fp
         changed.append(slug)
+        STATE_PATH.write_text(json.dumps(state, indent=2))
 
-    STATE_PATH.write_text(json.dumps(state, indent=2))
-    if changed:
-        print(f"\nRefreshed: {', '.join(changed)}")
+    # rebuild the loop when anything changed this pass, OR when a previous
+    # crashed pass left part files newer than the assembled loop
+    loop = REPO / "out" / "wc_live_loop.mp4"
+    parts_newer = any(
+        (REPO / t["out"]).exists()
+        and (not loop.exists() or (REPO / t["out"]).stat().st_mtime > loop.stat().st_mtime)
+        for t in TARGETS.values())
+    if changed or parts_newer:
+        print(f"\nRefreshed: {', '.join(changed) or '(stale loop catch-up)'}")
         run(["python3", "scripts/wc_build_live_loop.py"])
     else:
         print("\nNo changes — nothing rebuilt this cycle.")
+    if failed:
+        sys.exit(f"failed slugs (will retry next cycle): {', '.join(failed)}")
 
 
 if __name__ == "__main__":
