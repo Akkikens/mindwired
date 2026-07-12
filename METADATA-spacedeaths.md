@@ -23,23 +23,22 @@ that were ignored — told through the real archival photographs that survived.
 
 CHAPTERS
 00:00 The most terrifying photo ever taken
-(fill from final render: chapter-card timestamps via `grep -n chapter` + frame math —
-see METADATA note in src/mindwired-doc/README.md)
-1. The First Passenger (Laika)
-2. The Erased Cosmonaut (Valentin Bondarenko)
-3. Death Before Launch (Freeman, See & Bassett)
-4. The Fire on Pad 34 (Apollo 1)
-5. The Man Who Fell From Space (Soyuz 1)
-6. The Death of Gagarin
-7. The Plane That Flew Too High (X-15)
-8. The Only Humans to Die in Space (Soyuz 11)
-9. The Disaster That "Never Happened" (Nedelin)
-10. The Disasters You've Never Heard Of (Plesetsk · Xichang · Alcântara)
-11. The Lost Cosmonauts
-12. 73 Seconds (Challenger)
-13. Sixteen Days, One Hole (Columbia)
-14. The Near Misses (Leonov · Gemini 8 · Apollo 13 · Parmitano)
-15. What the Photographs Mean
+01:19 The First Passenger (Laika)
+02:53 The Erased Cosmonaut (Valentin Bondarenko)
+05:38 Death Before Launch (Freeman, See & Bassett)
+08:00 The Fire on Pad 34 (Apollo 1)
+12:03 The Man Who Fell From Space (Soyuz 1)
+15:35 The Death of Gagarin
+18:04 The Plane That Flew Too High (X-15)
+20:25 The Only Humans to Die in Space (Soyuz 11)
+24:10 The Disaster That "Never Happened" (Nedelin)
+27:09 The Disasters You've Never Heard Of (Plesetsk · Xichang · Alcântara)
+29:59 The Lost Cosmonauts
+32:47 73 Seconds (Challenger)
+36:28 Sixteen Days, One Hole (Columbia)
+40:34 The Near Misses (Leonov · Gemini 8 · Apollo 13 · Parmitano)
+44:02 The New Age (SpaceShipTwo)
+47:01 What the Photographs Mean
 
 All events depicted are documented historical fact. Sources include NASA history
 archives, the Rogers Commission Report, the Columbia Accident Investigation

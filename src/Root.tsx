@@ -31,6 +31,7 @@ import { ChangingGuard, changingGuardFrames } from "./guard/ChangingGuard";
 import { ChangingGuardV, changingGuardVFrames } from "./guard/ChangingGuardV";
 import { WhatIfArgentina, whatIfArgentinaFrames } from "./argentinawc/WhatIfArgentina";
 import { WhatIfArgentinaShort, whatIfArgShortFrames } from "./argentinawc/WhatIfArgentinaShort";
+import { QFReview, qfReviewFrames } from "./qfreview/QFReview";
 import { ViralShort, viralShortFrames } from "./viral/ShortEngine";
 import { HookProbe, HookProbeProps, hookProbeFrames, HOOK_PROBE_DEFAULT_FRAMES } from "./viral/HookProbe";
 import { BrandIntro, BRAND_INTRO_FRAMES } from "./components/BrandIntro";
@@ -684,6 +685,16 @@ export const RemotionRoot: React.FC = () => {
         id="WhatIfArgentina"
         component={WhatIfArgentina}
         durationInFrames={whatIfArgentinaFrames()}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── kickoffdaily90 — QF Review (Jamie hybrid host show) ── */}
+      <Composition
+        id="QFReview"
+        component={QFReview}
+        durationInFrames={qfReviewFrames()}
         fps={30}
         width={1920}
         height={1080}
