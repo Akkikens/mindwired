@@ -1,0 +1,1790 @@
+{
+  "slug": "spacedeaths",
+  "title": "Every Way Space Has Killed a Human",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "This photograph is called the most terrifying picture ever taken in space. A man, completely alone, a hundred meters from his ship, with nothing but blackness behind him.",
+      "img": "mccandless",
+      "stat": "FEBRUARY 7, 1984",
+      "cap": "The most terrifying photo ever taken."
+    },
+    {
+      "id": "h2",
+      "text": "His name was Bruce McCandless. And here is the strange part. Nothing went wrong that day. He flew back. He lived.",
+      "img": "mccandless",
+      "cap": "Nothing went wrong. He lived."
+    },
+    {
+      "id": "h3",
+      "text": "But the photographs you are about to see are different. Behind each one of them, somebody died.",
+      "img": "evavoid",
+      "stat": "21 PEOPLE",
+      "statColor": "#FF4D4D",
+      "cap": "Behind each of these... somebody died."
+    },
+    {
+      "id": "h4",
+      "text": "Twenty one astronauts and cosmonauts have been killed flying spaceflight missions. Hundreds more died on the ground, getting the machines ready.",
+      "img": "evavoid",
+      "cap": "21 killed in flight. Hundreds on the ground."
+    },
+    {
+      "id": "h5",
+      "text": "Some burned. Some froze in the dark. Three of them died in space itself, and their bodies came home without a single mark on them.",
+      "img": "soyuz11rec",
+      "cap": "Three died in space itself."
+    },
+    {
+      "id": "h6",
+      "text": "For decades, some of these deaths were state secrets. Faces were erased from photographs. Files stayed sealed for thirty years.",
+      "img": "bondarenko",
+      "cap": "Some of these deaths were state secrets."
+    },
+    {
+      "id": "h7",
+      "text": "This is the complete story. Every disaster, every cover up, every warning that was ignored. Told through the real photographs that survived.",
+      "img": "missioncontrol",
+      "cap": "Every disaster. Every cover-up."
+    },
+    {
+      "id": "h8",
+      "text": "By the end, you will understand why astronauts call their job riding the bullet. And why they keep climbing in anyway.",
+      "img": "challengercrew",
+      "cap": "Why they keep climbing in anyway."
+    },
+    {
+      "id": "c0_t",
+      "text": "Chapter one. The first passenger.",
+      "chapter": "CHAPTER 1\nThe First Passenger"
+    },
+    {
+      "id": "d1",
+      "text": "Before space killed a single human being, it claimed its first passenger. And she never had a choice about going.",
+      "img": "laika",
+      "cap": "The first passenger never had a choice."
+    },
+    {
+      "id": "d2",
+      "text": "Moscow, 1957. A three year old stray dog is picked off the streets. Small, calm, even tempered. The scientists name her Laika. Barker.",
+      "img": "laika",
+      "stat": "LAIKA · 1957",
+      "cap": "A stray from the streets of Moscow."
+    },
+    {
+      "id": "d3",
+      "text": "Sputnik 1 has just shocked the world, and Khrushchev demands a follow-up spectacular within a month. A month is not enough time to design a capsule that can come back.",
+      "img": "laika",
+      "cap": "Moscow demanded a spectacle in one month."
+    },
+    {
+      "id": "d4",
+      "text": "Everyone involved knows what that means. Sputnik 2 will be a one way trip. Laika is sent to orbit with no plan, and no possibility, of return.",
+      "img": "laika",
+      "stat": "NO RETURN — BY DESIGN",
+      "statColor": "#FF4D4D",
+      "cap": "A one-way trip. By design."
+    },
+    {
+      "id": "d5",
+      "text": "For decades, the official story said she survived nearly a week in orbit. The truth came out only in 2002.",
+      "img": "laika",
+      "cap": "The official story held for 45 years."
+    },
+    {
+      "id": "d6",
+      "text": "A thermal control failure. The cabin overheated, and Laika died within hours of launch, on her fourth orbit. Frightened, and alone, in a machine she could not understand.",
+      "img": "laika",
+      "statColor": "#FF4D4D",
+      "cap": "She died within hours. The truth waited 45 years."
+    },
+    {
+      "id": "d7",
+      "text": "One of the scientists who trained her, Oleg Gazenko, said decades later. We did not learn enough from the mission to justify the death of the dog.",
+      "img": "laika",
+      "cap": "\"We did not learn enough to justify her death.\""
+    },
+    {
+      "id": "d8",
+      "text": "Remember the shape of this story. A deadline set by politics. A known, fatal risk. And the truth, hidden for decades. You will see this shape again and again tonight. With people.",
+      "img": "laika",
+      "cap": "Remember this shape. You'll see it again."
+    },
+    {
+      "id": "c1_t",
+      "text": "Chapter two. The erased cosmonaut.",
+      "chapter": "CHAPTER 2\nThe Erased Cosmonaut"
+    },
+    {
+      "id": "b1",
+      "text": "March 1961. The Soviet Union is three weeks away from making Yuri Gagarin the first human in space. The whole program is a state secret.",
+      "img": "vostoktrain",
+      "stat": "MARCH 1961",
+      "cap": "Three weeks before Gagarin."
+    },
+    {
+      "id": "b2",
+      "text": "In a Moscow facility, twenty cosmonaut candidates are being tested to destruction. Centrifuges. Isolation. Days alone in sealed steel chambers.",
+      "img": "vostoktrain",
+      "cap": "Twenty candidates. Tested to destruction."
+    },
+    {
+      "id": "b3",
+      "text": "The youngest of them is Valentin Bondarenko. He is twenty four years old, a fighter pilot, and by every account the kindest man in the group.",
+      "img": "bondarenko",
+      "stat": "VALENTIN BONDARENKO · 24",
+      "cap": "The youngest cosmonaut candidate."
+    },
+    {
+      "id": "b4",
+      "text": "On March 23rd he is finishing day ten inside an isolation chamber. A small sealed room, pumped full of pure oxygen at low pressure.",
+      "img": "vostoktrain",
+      "cap": "Day 10. A sealed room of pure oxygen."
+    },
+    {
+      "id": "b5",
+      "text": "Pure oxygen changes the rules of fire. Things that will not burn in normal air ignite instantly. Flames spread like liquid.",
+      "img": "vostoktrain",
+      "stat": "100% OXYGEN",
+      "statColor": "#FF4D4D",
+      "cap": "Pure oxygen changes the rules of fire."
+    },
+    {
+      "id": "b6",
+      "text": "Bondarenko removes his medical sensors and wipes his skin with an alcohol soaked cotton pad. Then he tosses the pad aside.",
+      "img": "vostoktrain",
+      "cap": "One cotton pad, soaked in alcohol."
+    },
+    {
+      "id": "b7",
+      "text": "It lands on the coil of a hot plate. In pure oxygen, the flash is instantaneous. Within seconds the entire chamber is on fire.",
+      "img": "vostoktrain",
+      "cap": "It landed on a hot plate.",
+      "statColor": "#FF4D4D"
+    },
+    {
+      "id": "b8",
+      "text": "The chamber cannot be opened quickly. The pressure difference seals the door shut. It takes almost half an hour to get him out.",
+      "img": "vostoktrain",
+      "stat": "~30 MINUTES",
+      "statColor": "#FF4D4D",
+      "cap": "The door could not be opened."
+    },
+    {
+      "id": "b9",
+      "text": "When they finally do, Bondarenko is still conscious. He keeps whispering the same words. It was my fault. It was my fault.",
+      "img": "bondarenko",
+      "cap": "\"It was my fault. It was my fault.\""
+    },
+    {
+      "id": "b10",
+      "text": "Doctors fight for him for hours, but he has burns over almost his entire body. Valentin Bondarenko dies sixteen hours later.",
+      "img": "bondarenko",
+      "cap": "He died 16 hours later."
+    },
+    {
+      "id": "b11",
+      "text": "And then, he disappears. The Soviet Union simply erases him. His death is classified. His face is airbrushed out of group photographs.",
+      "img": "bondarenko",
+      "stat": "CLASSIFIED",
+      "statColor": "#FF4D4D",
+      "cap": "Then the Soviet Union erased him."
+    },
+    {
+      "id": "b12",
+      "text": "For twenty five years, the West does not know he existed. The truth is only published in 1986, during the Soviet policy of openness.",
+      "img": "gagarinfuneral",
+      "stat": "SECRET UNTIL 1986",
+      "cap": "25 years as a state secret."
+    },
+    {
+      "id": "b13",
+      "text": "Here is what makes this more than a tragedy. A sealed chamber. Pure oxygen. A spark. Rescuers who cannot open the door in time.",
+      "img": "apollo1fire",
+      "cap": "A sealed chamber. Pure oxygen. A spark."
+    },
+    {
+      "id": "b14",
+      "text": "Six years later, the exact same fire will happen again. Not in Moscow. In Florida. And it will kill three of America's finest.",
+      "img": "apollo1crew",
+      "cap": "Six years later, it happened again."
+    },
+    {
+      "id": "b15",
+      "text": "Some historians believe that if Bondarenko's death had been public, NASA might have seen the danger. The secret may have cost three more lives.",
+      "img": "apollo1crew",
+      "cap": "The secret may have cost 3 more lives."
+    },
+    {
+      "id": "b16",
+      "text": "But before we get to that fire, we need to talk about the machine that killed more astronauts than any rocket ever did.",
+      "img": "t38",
+      "cap": "First: the machine deadlier than rockets."
+    },
+    {
+      "id": "c2_t",
+      "text": "Chapter three. Death before launch.",
+      "chapter": "CHAPTER 3\nDeath Before Launch"
+    },
+    {
+      "id": "t1",
+      "text": "This is the T-38 Talon. A supersonic training jet. Every NASA astronaut of the 1960s flew one, to keep their piloting skills razor sharp.",
+      "img": "t38",
+      "stat": "T-38 TALON",
+      "cap": "Every astronaut flew one."
+    },
+    {
+      "id": "t2",
+      "text": "It is small, fast, and unforgiving. And in the space of sixteen months, it killed four astronauts before they ever reached space.",
+      "img": "t38",
+      "stat": "4 ASTRONAUTS · 16 MONTHS",
+      "statColor": "#FF4D4D",
+      "cap": "It killed 4 astronauts in 16 months."
+    },
+    {
+      "id": "t3",
+      "text": "October 1964. Theodore Freeman, one of the newest astronauts, is on approach to Ellington Air Force Base near Houston.",
+      "img": "freeman",
+      "stat": "OCTOBER 31, 1964",
+      "cap": "Theodore Freeman. On approach to Ellington."
+    },
+    {
+      "id": "t4",
+      "text": "A snow goose smashes through his canopy. Fragments of shattered plexiglass are sucked into both engines, and they flame out.",
+      "img": "t38",
+      "cap": "A goose through the canopy. Both engines dead."
+    },
+    {
+      "id": "t5",
+      "text": "Freeman does everything right. He steers the dying jet away from the buildings below, and ejects at the last possible moment.",
+      "img": "t38",
+      "cap": "He steered it away from the buildings."
+    },
+    {
+      "id": "t6",
+      "text": "It is too late. He is too low. His parachute never fully opens. Theodore Freeman becomes the first American astronaut to die.",
+      "img": "freeman",
+      "stat": "THE FIRST",
+      "statColor": "#FF4D4D",
+      "cap": "The first American astronaut to die."
+    },
+    {
+      "id": "t7",
+      "text": "Sixteen months later, February 1966. Elliot See and Charles Bassett are the prime crew of Gemini 9, flying to Saint Louis for training.",
+      "img": "seebassett",
+      "stat": "FEBRUARY 28, 1966",
+      "cap": "The prime crew of Gemini 9."
+    },
+    {
+      "id": "t8",
+      "text": "Their destination is the McDonnell plant, where their own spacecraft is being built. The weather is terrible. Rain, fog, low cloud.",
+      "img": "seebassett",
+      "cap": "Flying to see their own spacecraft."
+    },
+    {
+      "id": "t9",
+      "text": "See comes in low, loses sight of the runway, and circles for another attempt. His wingtip clips the roof of a building.",
+      "img": "t38",
+      "cap": "His wingtip clipped a roof."
+    },
+    {
+      "id": "t10",
+      "text": "Not just any building. Building 101. The jet crashes into the very factory where the Gemini 9 capsule is being assembled.",
+      "img": "seebassett",
+      "stat": "BUILDING 101",
+      "statColor": "#FF4D4D",
+      "cap": "They crashed into their own spacecraft's factory."
+    },
+    {
+      "id": "t11",
+      "text": "See and Bassett die instantly, a few hundred feet from the spacecraft that was supposed to carry them into orbit.",
+      "img": "seebassett",
+      "cap": "A few hundred feet from their own capsule."
+    },
+    {
+      "id": "t12",
+      "text": "Inside the building, workers are injured by falling debris, but the capsule itself is untouched. The backup crew flies the mission.",
+      "img": "gemini8",
+      "cap": "The backup crew flew the mission."
+    },
+    {
+      "id": "t13",
+      "text": "Four dead astronauts, and not one of them ever left the atmosphere. The lesson was brutal. The most dangerous part of spaceflight is everything around it.",
+      "img": "t38",
+      "cap": "None of them ever left the atmosphere."
+    },
+    {
+      "id": "t14",
+      "text": "NASA absorbed the losses and kept moving. The Moon deadline was everything. But the corners being cut were about to catch fire. Literally.",
+      "img": "pad34",
+      "cap": "The cut corners were about to catch fire."
+    },
+    {
+      "id": "c3_t",
+      "text": "Chapter four. The fire on pad 34.",
+      "chapter": "CHAPTER 4\nThe Fire on Pad 34"
+    },
+    {
+      "id": "a1",
+      "text": "January 27, 1967. Cape Kennedy, Florida. Three men climb into the first Apollo spacecraft for a routine test. The rocket is not even fueled.",
+      "img": "pad34",
+      "stat": "JANUARY 27, 1967",
+      "cap": "A routine test. The rocket wasn't even fueled."
+    },
+    {
+      "id": "a2",
+      "text": "Gus Grissom, one of the original Mercury astronauts, and a favorite to be first on the Moon. Ed White, the first American to walk in space. And Roger Chaffee, the rookie.",
+      "img": "apollo1crew",
+      "stat": "GRISSOM · WHITE · CHAFFEE",
+      "cap": "Grissom. White. Chaffee."
+    },
+    {
+      "id": "a3",
+      "text": "The test is called a plugs out test. The spacecraft runs on internal power, sealed, as if it were really flying. Nobody considers it dangerous.",
+      "img": "apollo1crew",
+      "cap": "Nobody considered it dangerous."
+    },
+    {
+      "id": "a4",
+      "text": "But the capsule is a mess. Miles of wiring, much of it poorly insulated. Flammable nylon netting everywhere. Velcro on every wall.",
+      "img": "apollo1fire",
+      "cap": "Poor wiring. Flammable netting. Velcro everywhere."
+    },
+    {
+      "id": "a5",
+      "text": "And it is filled with pure oxygen, at higher than sea level pressure. The same silent killer that took Bondarenko, waiting quietly in Florida.",
+      "img": "apollo1fire",
+      "stat": "100% O₂ · 16.7 PSI",
+      "statColor": "#FF4D4D",
+      "cap": "Pure oxygen — at even higher pressure."
+    },
+    {
+      "id": "a6",
+      "text": "Grissom knows the spacecraft has problems. He has already hung a lemon on the simulator in protest. The communications keep failing.",
+      "img": "apollo1crew",
+      "cap": "Grissom hung a lemon on the simulator."
+    },
+    {
+      "id": "a7",
+      "text": "His last recorded complaint, minutes before the end, is chilling. How are we going to get to the Moon if we can't talk between two or three buildings?",
+      "img": "apollo1crew",
+      "cap": "\"How are we going to get to the Moon...\""
+    },
+    {
+      "id": "a8",
+      "text": "At 6:31 PM, somewhere under Grissom's seat, a damaged wire arcs. In that atmosphere, it is like striking a match inside a bomb.",
+      "img": "apollo1fire",
+      "stat": "6:31 PM",
+      "statColor": "#FF4D4D",
+      "cap": "A single damaged wire arced."
+    },
+    {
+      "id": "a9",
+      "text": "The first words from the capsule are calm. Fire. I smell fire. Two seconds later, Chaffee's voice. We've got a fire in the cockpit.",
+      "img": "apollo1fire",
+      "cap": "\"We've got a fire in the cockpit.\""
+    },
+    {
+      "id": "a10",
+      "text": "In pure oxygen the fire does not spread. It detonates. Within seconds the temperature soars past a thousand degrees. The hull splits open.",
+      "img": "apollo1fire",
+      "cap": "The fire didn't spread. It detonated."
+    },
+    {
+      "id": "a11",
+      "text": "The last transmission is a scream, cut off after eighteen seconds. From first spark to silence, the entire fire lasts less than half a minute.",
+      "img": "apollo1fire",
+      "stat": "18 SECONDS",
+      "statColor": "#FF4D4D",
+      "cap": "18 seconds from spark to silence."
+    },
+    {
+      "id": "a12",
+      "text": "The hatch is the final cruelty. It opens inward, held shut by the cabin pressure, and needs at least ninety seconds to open. They had none.",
+      "img": "apollo1fire",
+      "cap": "The hatch opened inward. 90 seconds minimum."
+    },
+    {
+      "id": "a13",
+      "text": "Pad workers fight through smoke and heat to reach them, some fearing the whole rocket will explode. It takes five minutes to get the hatch open.",
+      "img": "pad34",
+      "cap": "5 minutes to open the hatch."
+    },
+    {
+      "id": "a14",
+      "text": "Gus Grissom, Ed White, and Roger Chaffee are gone. The autopsy finds they died of asphyxiation from toxic smoke, in seconds, before the worst of the burns.",
+      "img": "apollo1crew",
+      "cap": "They were gone in seconds."
+    },
+    {
+      "id": "a15",
+      "text": "America is stunned. Three astronauts, dead on the ground, in a test nobody thought was dangerous, in a rocket that never left the pad.",
+      "img": "pad34",
+      "cap": "Dead on the ground, in a 'safe' test."
+    },
+    {
+      "id": "a16",
+      "text": "The investigation is merciless. It finds shoddy workmanship, ignored hazards, and a culture that had normalized risk in the race to the Moon.",
+      "img": "missioncontrol",
+      "cap": "The investigation was merciless."
+    },
+    {
+      "id": "a17",
+      "text": "Flight director Gene Kranz gathers his team and delivers a speech that still defines NASA. From this day forward, mission control will be known by two words. Tough and competent.",
+      "img": "missioncontrol",
+      "stat": "TOUGH AND COMPETENT",
+      "cap": "\"Tough and competent.\""
+    },
+    {
+      "id": "a18",
+      "text": "The Apollo spacecraft is rebuilt from scratch. A hatch that opens outward in seconds. Fireproof materials. Mixed gas on the pad instead of pure oxygen.",
+      "img": "apollo13",
+      "cap": "Apollo was rebuilt from scratch."
+    },
+    {
+      "id": "a19",
+      "text": "Many at NASA later said the same thing. Without the fire, we would never have reached the Moon. The lessons were written in those three lives.",
+      "img": "apollo1crew",
+      "cap": "\"Without the fire, we'd never have made it.\""
+    },
+    {
+      "id": "a20",
+      "text": "Pad 34 still stands at Cape Canaveral, abandoned. On its base, a plaque reads. They gave their lives in service to their country. Ad astra per aspera. A rough road leads to the stars.",
+      "img": "pad34",
+      "stat": "AD ASTRA PER ASPERA",
+      "cap": "A rough road leads to the stars."
+    },
+    {
+      "id": "a21",
+      "text": "Exactly three months after the fire, on the other side of the world, the Soviet Union was about to make an even darker choice. Launch a man in a ship they knew was broken.",
+      "img": "komarov",
+      "cap": "The Soviets launched a ship they knew was broken."
+    },
+    {
+      "id": "c4_t",
+      "text": "Chapter five. The man who fell from space.",
+      "chapter": "CHAPTER 5\nThe Man Who Fell From Space"
+    },
+    {
+      "id": "k1",
+      "text": "April 1967. The Soviet leadership wants a spectacular space triumph for the fiftieth anniversary of the revolution. The new Soyuz spacecraft will deliver it.",
+      "img": "komarov",
+      "stat": "APRIL 1967",
+      "cap": "A triumph was demanded."
+    },
+    {
+      "id": "k2",
+      "text": "There is one problem. The Soyuz is not ready. Its three unmanned test flights have all failed. Engineers have logged hundreds of design faults.",
+      "img": "soyuzchute",
+      "stat": "0 FOR 3 TEST FLIGHTS",
+      "statColor": "#FF4D4D",
+      "cap": "Every unmanned test had failed."
+    },
+    {
+      "id": "k3",
+      "text": "The man assigned to fly it is Vladimir Komarov. Veteran cosmonaut, brilliant engineer, and one of the most respected men in the program.",
+      "img": "komarov",
+      "stat": "VLADIMIR KOMAROV",
+      "cap": "The most respected man in the program."
+    },
+    {
+      "id": "k4",
+      "text": "His backup is his best friend. The most famous man on Earth. Yuri Gagarin.",
+      "img": "gagarinfuneral",
+      "cap": "His backup: Yuri Gagarin."
+    },
+    {
+      "id": "k5",
+      "text": "By some accounts, Komarov told friends he knew the flight was likely to kill him. Asked why he did not refuse, his answer was simple. If I don't fly, they'll send Yura.",
+      "img": "komarov",
+      "cap": "\"If I don't fly, they'll send Yura.\""
+    },
+    {
+      "id": "k6",
+      "text": "Whether or not every detail of that story is true, this much is documented. The engineers knew the ship had faults, and the launch went ahead anyway.",
+      "img": "baikonur",
+      "cap": "They knew. It launched anyway."
+    },
+    {
+      "id": "k7",
+      "text": "April 23rd. Soyuz 1 lifts off with Komarov alone on board. The problems begin within minutes of reaching orbit.",
+      "img": "baikonur",
+      "stat": "SOYUZ 1",
+      "cap": "The problems began within minutes."
+    },
+    {
+      "id": "k8",
+      "text": "One of the two solar panels fails to unfold. The ship is starved of power, dragging a dead wing. The navigation sensors fail one by one.",
+      "img": "soyuzchute",
+      "cap": "Half the power. Sensors failing one by one."
+    },
+    {
+      "id": "k9",
+      "text": "For a day, Komarov wrestles the crippled ship, manually orienting it while spinning between day and night. Mission control decides to bring him home early.",
+      "img": "missioncontrol",
+      "cap": "He fought the dying ship for a day."
+    },
+    {
+      "id": "k10",
+      "text": "Getting home requires a precise engine burn, then a descent through the atmosphere, then parachutes. Komarov, flying half blind, nails the burn on his second attempt.",
+      "img": "soyuzchute",
+      "cap": "Half-blind, he nailed the reentry burn."
+    },
+    {
+      "id": "k11",
+      "text": "He survives reentry. The capsule streaks over the steppe, slowing, glowing. At seven kilometers up, the drogue parachute deploys. And then, the failure that kills him.",
+      "img": "soyuzchute",
+      "stat": "7 KM",
+      "cap": "He survived reentry. Then..."
+    },
+    {
+      "id": "k12",
+      "text": "The main parachute never leaves its container. A pressure sensor fault, and a container that was likely deformed and rough inside. The chute is stuck.",
+      "img": "soyuzchute",
+      "statColor": "#FF4D4D",
+      "cap": "The main parachute never came out."
+    },
+    {
+      "id": "k13",
+      "text": "Komarov triggers the reserve chute. It tangles instantly in the still spinning drogue of the failed main. Nothing is slowing the capsule now.",
+      "img": "soyuzchute",
+      "cap": "The reserve tangled in the drogue."
+    },
+    {
+      "id": "k14",
+      "text": "Soyuz 1 hits the ground at roughly one hundred and forty kilometers per hour. The impact flattens the capsule. Then the retro rockets ignite the wreck.",
+      "img": "soyuz1crash",
+      "stat": "~140 KM/H",
+      "statColor": "#FF4D4D",
+      "cap": "It hit the steppe at ~140 km/h."
+    },
+    {
+      "id": "k15",
+      "text": "Recovery crews arrive to find burning metal half buried in the soil. Vladimir Komarov becomes the first human being to die on a spaceflight.",
+      "img": "soyuz1crash",
+      "stat": "THE FIRST TO DIE FLYING",
+      "statColor": "#FF4D4D",
+      "cap": "The first human to die on a spaceflight."
+    },
+    {
+      "id": "k16",
+      "text": "All that could be recovered was buried in the Kremlin wall with full honors. Gagarin was reportedly furious, convinced the political pressure had killed his friend.",
+      "img": "gagarinfuneral",
+      "cap": "Gagarin never forgave the pressure."
+    },
+    {
+      "id": "k17",
+      "text": "Gagarin himself would be dead within a year, killed in a jet crash still argued about today. The program lost its two brightest stars back to back.",
+      "img": "gagarinfuneral",
+      "stat": "GAGARIN · 1968",
+      "cap": "Within a year, Gagarin was dead too."
+    },
+    {
+      "id": "k18",
+      "text": "The Soyuz was grounded for eighteen months and redesigned. Today, its descendants are among the most reliable spacecraft ever built. That reliability was bought at Komarov's price.",
+      "img": "soyuzchute",
+      "cap": "Soyuz reliability was bought at his price."
+    },
+    {
+      "id": "k19",
+      "text": "And the friend Komarov flew to protect. The first human in space. The most protected man in the Soviet Union. He had less than a year left himself.",
+      "img": "gagarin",
+      "cap": "Gagarin had less than a year left."
+    },
+    {
+      "id": "cg_t",
+      "text": "Chapter six. The death of the first man in space.",
+      "chapter": "CHAPTER 6\nThe Death of Gagarin"
+    },
+    {
+      "id": "g1",
+      "text": "After Komarov's death, Yuri Gagarin was a national treasure the state could not afford to lose. He was banned from spaceflight. Wrapped in cotton wool.",
+      "img": "gagarin",
+      "stat": "YURI GAGARIN",
+      "cap": "Too valuable to be allowed to fly."
+    },
+    {
+      "id": "g2",
+      "text": "But Gagarin was a fighter pilot before he was a symbol, and he fought his way back to the one thing they would still allow. Flying jets.",
+      "img": "gagarin",
+      "cap": "They let him keep one thing: jets."
+    },
+    {
+      "id": "g3",
+      "text": "March 27, 1968. Gagarin takes off in a MiG-15 trainer with instructor Vladimir Seryogin for a routine flight. The weather is poor. Cloud layers stacked to the ground.",
+      "img": "mig15",
+      "stat": "MARCH 27, 1968",
+      "cap": "A routine training flight. Bad weather."
+    },
+    {
+      "id": "g4",
+      "text": "Minutes after entering the exercise zone, Gagarin radios that he is finished and returning to base. His voice is calm. It is the last anyone ever hears from him.",
+      "img": "mig15",
+      "cap": "His last transmission was perfectly calm."
+    },
+    {
+      "id": "g5",
+      "text": "The MiG dives out of the clouds at extreme speed and hits the forest floor. Both men are killed instantly. The first man in space is dead at thirty four.",
+      "img": "mig15",
+      "stat": "DEAD AT 34",
+      "statColor": "#FF4D4D",
+      "cap": "The first man in space. Dead at 34."
+    },
+    {
+      "id": "g6",
+      "text": "The Soviet Union goes into shock. And then it does the thing it always does. It classifies the investigation.",
+      "img": "gagarinfuneral",
+      "cap": "The investigation was classified. Of course."
+    },
+    {
+      "id": "g7",
+      "text": "Into that silence pour fifty years of theories. He was drunk. He was murdered. He faked his death. He was punished for falling out of favor. None of it has evidence. All of it filled the vacuum the secrecy created.",
+      "img": "gagarinfuneral",
+      "cap": "Secrecy bred 50 years of theories."
+    },
+    {
+      "id": "g8",
+      "text": "The most credible account came out in 2013, from Alexei Leonov, who had access to the declassified file. Another aircraft, a supersonic Su-15, was flying in the area, far below its permitted altitude.",
+      "img": "leonov",
+      "stat": "LEONOV'S ACCOUNT · 2013",
+      "cap": "The most credible account: another jet."
+    },
+    {
+      "id": "g9",
+      "text": "Leonov believed it passed within meters of Gagarin's MiG at supersonic speed, and its wake flipped the trainer into an unrecoverable spin in the clouds. The other pilot was never publicly named.",
+      "img": "mig15",
+      "cap": "A supersonic near-miss, meters away."
+    },
+    {
+      "id": "g10",
+      "text": "Whatever the final truth, the pattern held even for the most famous man in the country. In the Soviet space program, even Gagarin's death was a secret.",
+      "img": "gagarinfuneral",
+      "cap": "Even Gagarin's death was a secret."
+    },
+    {
+      "id": "g11",
+      "text": "His ashes were placed in the Kremlin wall, beside his friend Komarov. The two men who had each tried to save the other, together in the same bricks.",
+      "img": "gagarinfuneral",
+      "cap": "Beside Komarov. In the same wall."
+    },
+    {
+      "id": "g12",
+      "text": "Meanwhile, in the same deadly years, one more American had died at the edge of space. Not in a capsule. In something far stranger. A rocket with wings.",
+      "img": "x15",
+      "cap": "1967 wasn't done killing."
+    },
+    {
+      "id": "c5_t",
+      "text": "Chapter seven. The plane that flew too high.",
+      "chapter": "CHAPTER 7\nThe Plane That Flew Too High"
+    },
+    {
+      "id": "x1",
+      "text": "This is the X-15. Half aircraft, half rocket. Dropped from under the wing of a B-52, it could fly to the edge of space and land like a plane.",
+      "img": "x15",
+      "stat": "X-15",
+      "cap": "Half aircraft. Half rocket."
+    },
+    {
+      "id": "x2",
+      "text": "It still holds the record for the fastest crewed aircraft flight in history. Mach 6.7. Almost seven times the speed of sound.",
+      "img": "x15",
+      "stat": "MACH 6.7",
+      "cap": "Still the fastest crewed aircraft ever."
+    },
+    {
+      "id": "x3",
+      "text": "Its pilots flew so high that several of them earned astronaut wings without ever riding a rocket from a launch pad. Among them, Michael Adams.",
+      "img": "x15",
+      "stat": "MICHAEL ADAMS",
+      "cap": "Pilots earned astronaut wings in it."
+    },
+    {
+      "id": "x4",
+      "text": "November 15, 1967. Adams drops away from the B-52 and lights the engine. He climbs to eighty one kilometers. The sky turns black. He is, by American definition, in space.",
+      "img": "x15",
+      "stat": "NOVEMBER 15, 1967 · 81 KM",
+      "cap": "81 kilometers. The sky turns black."
+    },
+    {
+      "id": "x5",
+      "text": "But something is wrong in the cockpit. An electrical disturbance is feeding his instruments bad information. And Adams is suffering from vertigo, a known issue on these flights.",
+      "img": "x15",
+      "cap": "His instruments were lying to him."
+    },
+    {
+      "id": "x6",
+      "text": "At the top of the arc, where the air is too thin for wings to matter, the plane slowly yaws sideways. Adams may believe he is only rolling.",
+      "img": "x15",
+      "cap": "The plane drifted sideways. He couldn't feel it."
+    },
+    {
+      "id": "x7",
+      "text": "The X-15 reenters the atmosphere at Mach 5, flying sideways. It is like hitting a wall of air. The plane whips into a hypersonic spin.",
+      "img": "x15",
+      "stat": "MACH 5 · SIDEWAYS",
+      "statColor": "#FF4D4D",
+      "cap": "Reentry at Mach 5 — sideways."
+    },
+    {
+      "id": "x8",
+      "text": "Incredibly, Adams fights it and recovers from the spin. But the recovery drops him into a dive, and the flight control system begins to oscillate, pitching harder and harder.",
+      "img": "x15",
+      "cap": "He recovered from the spin. It wasn't enough."
+    },
+    {
+      "id": "x9",
+      "text": "The forces climb past anything the airframe can survive. At eighteen kilometers, moving at nearly four thousand kilometers per hour, the X-15 breaks apart.",
+      "img": "x15crash",
+      "statColor": "#FF4D4D",
+      "cap": "The aircraft broke apart around him."
+    },
+    {
+      "id": "x10",
+      "text": "Michael Adams is killed. He is awarded astronaut wings posthumously. The only fatality, in a hundred and ninety nine flights of the fastest aircraft ever built.",
+      "img": "x15crash",
+      "stat": "1 DEATH · 199 FLIGHTS",
+      "cap": "The X-15's only fatality."
+    },
+    {
+      "id": "x11",
+      "text": "The X-15 program quietly ended a year later. But its data shaped everything that came after, including a vehicle we will meet later in this story. The Space Shuttle.",
+      "img": "x15",
+      "cap": "Its data shaped the Space Shuttle."
+    },
+    {
+      "id": "x12",
+      "text": "Four years after Adams fell, the Soviet Union achieved something magnificent, and then suffered the most haunting disaster in the history of spaceflight.",
+      "img": "salyut1",
+      "cap": "Next: the only deaths IN space."
+    },
+    {
+      "id": "c6_t",
+      "text": "Chapter eight. The only humans to die in space.",
+      "chapter": "CHAPTER 8\nThe Only Humans to Die in Space"
+    },
+    {
+      "id": "s1",
+      "text": "June 1971. The Soviet Union has just done something extraordinary. Three cosmonauts are living aboard Salyut 1, the first space station in human history.",
+      "img": "salyut1",
+      "stat": "SALYUT 1 · JUNE 1971",
+      "cap": "The first space station in history."
+    },
+    {
+      "id": "s2",
+      "text": "Georgy Dobrovolsky, the commander. Vladislav Volkov, the flight engineer. Viktor Patsayev, the researcher. For twenty three days, they are the most famous men in the Soviet Union.",
+      "img": "soyuz11crew",
+      "stat": "23 DAYS IN ORBIT",
+      "cap": "Dobrovolsky. Volkov. Patsayev."
+    },
+    {
+      "id": "s3",
+      "text": "Nightly television broadcasts show them floating, joking, working. A world record for the longest spaceflight. The mission is a total triumph.",
+      "img": "soyuz11crew",
+      "cap": "A total triumph — broadcast nightly."
+    },
+    {
+      "id": "s4",
+      "text": "There is one detail that will matter. The Soyuz ferry is cramped, so the crew does not wear pressure suits. There is no room for them.",
+      "img": "soyuz11crew",
+      "stat": "NO PRESSURE SUITS",
+      "statColor": "#FF4D4D",
+      "cap": "No room for pressure suits."
+    },
+    {
+      "id": "s5",
+      "text": "June 29th. The crew undocks and heads home. Everything is normal. The deorbit burn is perfect. The modules separate on schedule.",
+      "img": "soyuzchute",
+      "stat": "JUNE 29, 1971",
+      "cap": "Everything was normal."
+    },
+    {
+      "id": "s6",
+      "text": "Except the explosive bolts joining the modules fire all at once, instead of in sequence. The jolt shakes the whole ship. And deep in the hull, a small valve is knocked open.",
+      "img": "soyuzchute",
+      "cap": "One jolt. One valve knocked open."
+    },
+    {
+      "id": "s7",
+      "text": "The valve is sixteen millimeters across. The size of a coin. It is meant to open near the ground, to equalize the cabin with fresh air.",
+      "img": "soyuzchute",
+      "stat": "16 MM",
+      "statColor": "#FF4D4D",
+      "cap": "A hole the size of a coin."
+    },
+    {
+      "id": "s8",
+      "text": "Instead it opens at one hundred and sixty eight kilometers. On the other side of that coin sized hole, there is nothing. The vacuum of space.",
+      "img": "evavoid",
+      "stat": "168 KM",
+      "cap": "On the other side: vacuum."
+    },
+    {
+      "id": "s9",
+      "text": "The cabin air screams out through the valve. The crew hears the hiss and feels the pressure dropping. They have seconds to find the leak.",
+      "img": "soyuz11crew",
+      "cap": "They could hear their air leaving."
+    },
+    {
+      "id": "s10",
+      "text": "Patsayev locates it and starts cranking the manual valve shut. It is designed to take almost a minute to close. He has perhaps fifteen seconds of useful consciousness.",
+      "img": "soyuz11crew",
+      "statColor": "#FF4D4D",
+      "cap": "Closing it took a minute. He had 15 seconds."
+    },
+    {
+      "id": "s11",
+      "text": "The cabin pressure hits zero in under two minutes. In vacuum, the gases in their blood bubble out of solution. All three men are gone, quickly and quietly.",
+      "img": "soyuz11crew",
+      "cap": "The cabin hit zero in under 2 minutes."
+    },
+    {
+      "id": "s12",
+      "text": "And here is the haunting part. The spacecraft does not care. The automatic systems fly the entire reentry perfectly.",
+      "img": "soyuzchute",
+      "cap": "The spacecraft flew home perfectly."
+    },
+    {
+      "id": "s13",
+      "text": "The parachute opens on time. The soft landing rockets fire. The capsule settles gently onto the Kazakh steppe, right on target. A flawless landing.",
+      "img": "soyuz11rec",
+      "cap": "A flawless, gentle, on-target landing."
+    },
+    {
+      "id": "s14",
+      "text": "Recovery helicopters land beside it. The crews knock on the hull, smiling. There is no answer. They open the hatch and find all three cosmonauts still strapped in their couches.",
+      "img": "soyuz11rec",
+      "cap": "They knocked on the hull. No answer."
+    },
+    {
+      "id": "s15",
+      "text": "They look asleep. There is not a mark on them. The rescuers attempt resuscitation for a long time. It is far, far too late.",
+      "img": "soyuz11rec",
+      "statColor": "#FF4D4D",
+      "cap": "Not a mark on them."
+    },
+    {
+      "id": "s16",
+      "text": "The autopsies find brain hemorrhages and nitrogen bubbles in their blood. The evidence of vacuum. Dobrovolsky, Volkov and Patsayev had been dead since orbit.",
+      "img": "soyuz11crew",
+      "cap": "They had been dead since orbit."
+    },
+    {
+      "id": "s17",
+      "text": "They remain, to this day, the only human beings who have died in space itself. Above the line. In the black.",
+      "img": "evavoid",
+      "stat": "THE ONLY DEATHS IN SPACE",
+      "statColor": "#FF4D4D",
+      "cap": "The only humans to die in space."
+    },
+    {
+      "id": "s18",
+      "text": "The Soviet Union gave them a state funeral, and then grounded Soyuz for two years. When it flew again, every crew wore pressure suits for launch and landing.",
+      "img": "gagarinfuneral",
+      "cap": "Since then: suits on, every landing."
+    },
+    {
+      "id": "s19",
+      "text": "That rule has never been broken since. It is written, as engineers say, in blood. Every rule in spaceflight is.",
+      "img": "soyuz11crew",
+      "cap": "The rule has never been broken since."
+    },
+    {
+      "id": "s20",
+      "text": "But the deadliest day in the history of the space race was not a flight at all. It happened on a launch pad, eleven years earlier, and it was hidden for three decades.",
+      "img": "baikonur",
+      "cap": "The deadliest day was hidden for 30 years."
+    },
+    {
+      "id": "c7_t",
+      "text": "Chapter nine. The disaster that never happened.",
+      "chapter": "CHAPTER 9\nThe Disaster That 'Never Happened'"
+    },
+    {
+      "id": "n1",
+      "text": "October 1960. Baikonur, Soviet Kazakhstan. On the pad stands the R-16, a new intercontinental ballistic missile, fully loaded with toxic hypergolic fuel.",
+      "img": "baikonur",
+      "stat": "OCTOBER 24, 1960",
+      "cap": "A fully-fueled ICBM on the pad."
+    },
+    {
+      "id": "n2",
+      "text": "Hypergolic propellants do not need a spark. The fuel and oxidizer explode on contact with each other. The engineers call the stuff devil's venom.",
+      "img": "baikonur",
+      "stat": "DEVIL'S VENOM",
+      "statColor": "#FF4D4D",
+      "cap": "Fuel that explodes on contact."
+    },
+    {
+      "id": "n3",
+      "text": "The missile is riddled with electrical problems. The safe procedure is obvious. Drain the fuel, fix the faults, start again. That would take days.",
+      "img": "baikonur",
+      "cap": "The safe move: drain it and start over."
+    },
+    {
+      "id": "n4",
+      "text": "But Marshal Mitrofan Nedelin, commander of the strategic rocket forces, is under pressure from Moscow to deliver before the anniversary of the revolution.",
+      "img": "nedelin",
+      "stat": "MARSHAL NEDELIN",
+      "cap": "Moscow wanted it before the anniversary."
+    },
+    {
+      "id": "n5",
+      "text": "So the order is given. Fix the missile on the pad. Fueled. And to show his confidence, Nedelin has a chair placed beside the rocket, and sits down to watch.",
+      "img": "nedelin",
+      "cap": "He put his chair beside the rocket."
+    },
+    {
+      "id": "n6",
+      "text": "Dozens of engineers and soldiers swarm the fully loaded missile. Safety protocols dissolve. At one point there are more than a hundred people on the pad.",
+      "img": "baikonur",
+      "stat": "100+ ON THE PAD",
+      "statColor": "#FF4D4D",
+      "cap": "100+ people around a loaded missile."
+    },
+    {
+      "id": "n7",
+      "text": "During testing, a sequencer in the second stage is left in the wrong position. When power is applied, the second stage engine simply... starts.",
+      "img": "baikonur",
+      "cap": "The second-stage engine simply started."
+    },
+    {
+      "id": "n8",
+      "text": "Its exhaust torches straight down into the fully loaded first stage beneath it. The tanks rupture. Hundreds of tons of devil's venom meet each other.",
+      "img": "baikonur",
+      "statColor": "#FF4D4D",
+      "cap": "Straight down into the full fuel tanks."
+    },
+    {
+      "id": "n9",
+      "text": "The fireball consumes the pad in seconds. It is over three thousand degrees. People closest to the rocket simply cease to exist.",
+      "img": "baikonur",
+      "stat": "3,000°C",
+      "statColor": "#FF4D4D",
+      "cap": "The fireball consumed the pad in seconds."
+    },
+    {
+      "id": "n10",
+      "text": "Those further away run, but the burning fuel spreads faster than a man can sprint, and the security fence traps them. Automatic cameras film all of it.",
+      "img": "baikonur",
+      "cap": "The fence trapped the runners."
+    },
+    {
+      "id": "n11",
+      "text": "The officially acknowledged death toll, decades later, was seventy eight. Other credible estimates run past one hundred and twenty. Among the dead, Marshal Nedelin, in his chair.",
+      "img": "nedelin",
+      "stat": "78–126+ DEAD",
+      "statColor": "#FF4D4D",
+      "cap": "The deadliest rocket disaster in history."
+    },
+    {
+      "id": "n12",
+      "text": "It remains the deadliest launch pad disaster in history. And the Soviet response was to make it disappear.",
+      "img": "baikonur",
+      "cap": "The Soviet response: make it disappear."
+    },
+    {
+      "id": "n13",
+      "text": "The dead were buried quietly, some in a mass grave. Families were told of accidents. Pravda announced that Marshal Nedelin had died in a plane crash.",
+      "img": "nedelin",
+      "stat": "COVER STORY: PLANE CRASH",
+      "cap": "The Marshal 'died in a plane crash.'"
+    },
+    {
+      "id": "n14",
+      "text": "For twenty nine years, the disaster officially never happened. The Soviet Union only admitted the truth in 1989, when a magazine finally published the story.",
+      "img": "baikonur",
+      "stat": "ADMITTED IN 1989",
+      "cap": "For 29 years, it 'never happened.'"
+    },
+    {
+      "id": "n15",
+      "text": "Think about what that means. The worst disaster of the space age was erased so completely that the world mourned a man who died in a fireball... for a plane crash.",
+      "img": "nedelin",
+      "cap": "Erased so completely the world mourned a lie."
+    },
+    {
+      "id": "n16",
+      "text": "And Nedelin was not the last. Rockets kept killing people on the ground, all over the world, in disasters most people have never heard of.",
+      "img": "baikonur",
+      "cap": "It kept happening. Quietly."
+    },
+    {
+      "id": "c8f_t",
+      "text": "Chapter ten. The disasters you've never heard of.",
+      "chapter": "CHAPTER 10\nThe Disasters You've Never Heard Of"
+    },
+    {
+      "id": "f1",
+      "text": "March 1980. Plesetsk cosmodrome, in the forests of northern Russia. A Vostok rocket is being fueled for a routine satellite launch. Dozens of soldiers are working on the pad.",
+      "img": "plesetsk",
+      "stat": "PLESETSK · MARCH 18, 1980",
+      "cap": "A routine satellite launch."
+    },
+    {
+      "id": "f2",
+      "text": "During fueling, the rocket explodes. Three hundred tons of propellant. Forty four men die on the pad, four more later of their burns. Forty eight dead.",
+      "img": "plesetsk",
+      "stat": "48 DEAD",
+      "statColor": "#FF4D4D",
+      "cap": "The rocket exploded during fueling."
+    },
+    {
+      "id": "f3",
+      "text": "The Soviet Union does exactly what it did after Nedelin. Silence. The disaster stays secret for nine years. The investigation quietly blames the soldiers.",
+      "img": "plesetsk",
+      "cap": "Secret for 9 years. The soldiers were blamed."
+    },
+    {
+      "id": "f4",
+      "text": "Only in the 1990s does a new investigation clear the dead. The real cause was a manufacturing change in the fuel filters. The men were innocent all along.",
+      "img": "plesetsk",
+      "stat": "CLEARED — DECADES LATE",
+      "cap": "The dead were innocent all along."
+    },
+    {
+      "id": "f5",
+      "text": "February 1996. Xichang, China. A Long March 3B rocket, the most powerful China has ever built, lifts off carrying an American-built satellite. Cameras are rolling.",
+      "img": "longmarch",
+      "stat": "XICHANG · FEBRUARY 15, 1996",
+      "cap": "China's most powerful rocket. Cameras rolling."
+    },
+    {
+      "id": "f6",
+      "text": "Two seconds after liftoff, the rocket tips sideways. It flies almost horizontally for twenty two seconds, clears the pad... and dives into the hillside village next to the launch center.",
+      "img": "longmarch",
+      "statColor": "#FF4D4D",
+      "cap": "It flew sideways — into a village."
+    },
+    {
+      "id": "f7",
+      "text": "The explosion levels dozens of buildings. The official toll is six dead. Western witnesses who saw the aftermath believe the real number may be far higher. It has never been independently verified.",
+      "img": "longmarch",
+      "stat": "OFFICIAL: 6 · DISPUTED",
+      "statColor": "#FF4D4D",
+      "cap": "The real toll has never been verified."
+    },
+    {
+      "id": "f8",
+      "text": "Foreign guests were kept in a bunker, then driven out past the ruins. The footage that leaked out is still some of the most chilling rocket video ever recorded.",
+      "img": "longmarch",
+      "cap": "The leaked footage is still chilling."
+    },
+    {
+      "id": "f9",
+      "text": "August 2003. Alcântara, Brazil. The country is days from its dream of becoming a space power, with its own satellite launcher, the VLS-1.",
+      "img": "alcantara",
+      "stat": "BRAZIL · AUGUST 22, 2003",
+      "cap": "Brazil, days from its space dream."
+    },
+    {
+      "id": "f10",
+      "text": "With a hundred people working on and around the pad, one of the four boosters ignites by itself. There is no warning at all.",
+      "img": "alcantara",
+      "statColor": "#FF4D4D",
+      "cap": "A booster ignited by itself."
+    },
+    {
+      "id": "f11",
+      "text": "The rocket and tower are destroyed in seconds. Twenty one people die, most of them senior engineers and technicians. A generation of Brazilian rocket expertise, gone in one afternoon.",
+      "img": "alcantara",
+      "stat": "21 DEAD",
+      "statColor": "#FF4D4D",
+      "cap": "A generation of expertise, gone in seconds."
+    },
+    {
+      "id": "f12",
+      "text": "Brazil's satellite launcher program never recovered. To this day, the country has not orbited a satellite on its own rocket.",
+      "img": "alcantara",
+      "cap": "The program never recovered."
+    },
+    {
+      "id": "f13",
+      "text": "Add them up. The people who died making spaceflight possible without ever wearing a spacesuit. They outnumber the astronauts many times over. History barely remembers their names.",
+      "img": "baikonur",
+      "cap": "They outnumber the astronauts many times over."
+    },
+    {
+      "id": "f14",
+      "text": "But there is one group of space deaths stranger than all of these. Deaths that may never have happened at all.",
+      "img": "radio",
+      "cap": "Now: the deaths that may never have happened."
+    },
+    {
+      "id": "c9l_t",
+      "text": "Chapter eleven. The lost cosmonauts.",
+      "chapter": "CHAPTER 11\nThe Lost Cosmonauts"
+    },
+    {
+      "id": "l1",
+      "text": "Turin, Italy. The late 1950s. Two teenage brothers, Achille and Giovanni Judica-Cordiglia, build a homemade radio listening station in an old German bunker.",
+      "img": "radio",
+      "stat": "TURIN, ITALY",
+      "cap": "Two brothers. A homemade listening station."
+    },
+    {
+      "id": "l2",
+      "text": "They are good. Astonishingly good. They intercept Sputnik's beeps, the heartbeat of the dog Laika, signals the Soviets never meant anyone to hear.",
+      "img": "radio",
+      "cap": "They heard things no one was meant to hear."
+    },
+    {
+      "id": "l3",
+      "text": "And then, they claim, they start hearing something else. Human voices. In Russian. From space. On missions that officially do not exist.",
+      "img": "radio",
+      "statColor": "#FF4D4D",
+      "cap": "Voices. From missions that didn't exist."
+    },
+    {
+      "id": "l4",
+      "text": "A garbled S O S, fading away as if drifting into deep space. Labored breathing and a failing heartbeat. And in May 1961, the one that made them famous.",
+      "img": "radio",
+      "cap": "An SOS, fading into deep space."
+    },
+    {
+      "id": "l5",
+      "text": "A woman's voice, distressed, saying in Russian that she can see flames, asking, am I going to crash? Then silence. If real, a female cosmonaut died two years before the first one flew.",
+      "img": "radio",
+      "stat": "MAY 1961",
+      "statColor": "#FF4D4D",
+      "cap": "\"I can see flames... am I going to crash?\""
+    },
+    {
+      "id": "l6",
+      "text": "The theory spread across the world. That Gagarin was not the first, just the first to survive. That the Soviet Union simply erased the failures.",
+      "img": "gagarinfuneral",
+      "cap": "Was Gagarin just the first to SURVIVE?"
+    },
+    {
+      "id": "l7",
+      "text": "And you can see why people believed it. This very video is full of things the Soviet Union really did erase. Bondarenko. Nedelin. Plesetsk. The pattern was real.",
+      "img": "bondarenko",
+      "cap": "After all — they DID erase people."
+    },
+    {
+      "id": "l8",
+      "text": "But here is what the evidence actually says. When historians and audio analysts examined the recordings, the details fall apart.",
+      "img": "radio",
+      "stat": "THE EVIDENCE",
+      "cap": "Then the details fall apart."
+    },
+    {
+      "id": "l9",
+      "text": "The Russian in the tapes contains errors no trained Soviet pilot would make. Cosmonauts followed strict radio procedure. The transmissions follow none of it.",
+      "img": "radio",
+      "cap": "The Russian is wrong. The procedure is wrong."
+    },
+    {
+      "id": "l10",
+      "text": "The orbits do not work either. Several signals could not physically have come from a spacecraft passing over Italy at the claimed times.",
+      "img": "radio",
+      "cap": "The physics doesn't work either."
+    },
+    {
+      "id": "l11",
+      "text": "And when Soviet archives finally opened in the 1990s, researchers who documented every real cover-up in this video found no trace of any dead cosmonaut before Gagarin. The secret rosters are accounted for.",
+      "img": "vostoktrain",
+      "stat": "ARCHIVES: NO TRACE",
+      "cap": "The opened archives show no trace."
+    },
+    {
+      "id": "l12",
+      "text": "The lost cosmonauts are almost certainly a myth. But the myth survived for one very good reason. The truth beside it was worse than the fiction.",
+      "img": "bondarenko",
+      "cap": "The myth survived because the truth was worse."
+    },
+    {
+      "id": "l13",
+      "text": "You did not need phantom cosmonauts. The real ones, the ones with names and graves, were being erased in broad daylight.",
+      "img": "gagarinfuneral",
+      "cap": "Real cosmonauts were erased in broad daylight."
+    },
+    {
+      "id": "l14",
+      "text": "Now we come to the two disasters everyone remembers. Because these were not hidden. They happened on live television, in front of the whole world. And children were watching.",
+      "img": "challengercrew",
+      "cap": "The next one happened on live TV."
+    },
+    {
+      "id": "c8_t",
+      "text": "Chapter twelve. Seventy three seconds.",
+      "chapter": "CHAPTER 12\n73 Seconds"
+    },
+    {
+      "id": "ch1",
+      "text": "January 28, 1986. Cape Canaveral is freezing. Icicles hang from the launch tower. The Space Shuttle Challenger stands ready for its tenth flight.",
+      "img": "challengercrew",
+      "stat": "JANUARY 28, 1986",
+      "cap": "Icicles hung from the launch tower."
+    },
+    {
+      "id": "ch2",
+      "text": "On board are seven crew. Among them, Christa McAuliffe, a high school teacher from New Hampshire, chosen from eleven thousand applicants to be the first teacher in space.",
+      "img": "challengercrew",
+      "stat": "CHRISTA McAULIFFE",
+      "cap": "The first teacher in space."
+    },
+    {
+      "id": "ch3",
+      "text": "Because of her, classrooms across America are watching live. Millions of children, waiting for their teacher to fly.",
+      "img": "challengercrew",
+      "cap": "Millions of children watched live."
+    },
+    {
+      "id": "ch4",
+      "text": "What the children do not know is that the night before, engineers at the booster manufacturer begged NASA not to launch.",
+      "img": "oring",
+      "statColor": "#FF4D4D",
+      "cap": "Engineers begged NASA not to launch."
+    },
+    {
+      "id": "ch5",
+      "text": "The shuttle's solid rocket boosters are sealed with rubber O-rings. In cold weather, the rubber stiffens and seals slowly. It has never been tested this cold.",
+      "img": "oring",
+      "stat": "O-RINGS + COLD",
+      "cap": "The rubber seals stiffen in cold."
+    },
+    {
+      "id": "ch6",
+      "text": "Engineer Bob Ebeling tells his wife that night, it's going to blow up. His colleague Roger Boisjoly has been warning about the O-rings for months, in writing.",
+      "img": "oring",
+      "cap": "\"It's going to blow up.\" — the night before"
+    },
+    {
+      "id": "ch7",
+      "text": "Managers overrule them. The launch has already been delayed. The pressure to fly is enormous. The overnight temperature falls far below any previous launch.",
+      "img": "challengercrew",
+      "cap": "Managers overruled the engineers."
+    },
+    {
+      "id": "ch8",
+      "text": "At liftoff, a camera catches what no one sees in real time. Puffs of black smoke from the right booster's lowest joint. The O-rings have failed at ignition.",
+      "img": "oring",
+      "stat": "T+0 · BLACK SMOKE",
+      "statColor": "#FF4D4D",
+      "cap": "The seal failed at ignition."
+    },
+    {
+      "id": "ch9",
+      "text": "By pure chance, molten fuel byproduct temporarily plugs the leak. For almost a minute, Challenger flies normally. The crew feels nothing wrong.",
+      "img": "challengerexp",
+      "cap": "For a minute, luck held the leak shut."
+    },
+    {
+      "id": "ch10",
+      "text": "Then Challenger flies into the strongest wind shear ever recorded on a shuttle flight. The stack flexes. The fragile plug shatters loose.",
+      "img": "challengerexp",
+      "cap": "Then came the worst wind shear ever recorded."
+    },
+    {
+      "id": "ch11",
+      "text": "A jet of flame cuts sideways out of the booster like a blowtorch, straight onto the giant external fuel tank.",
+      "img": "challengerexp",
+      "statColor": "#FF4D4D",
+      "cap": "A blowtorch aimed at the fuel tank."
+    },
+    {
+      "id": "ch12",
+      "text": "Seventy three seconds after liftoff, the tank collapses and the vehicle is torn apart at twice the speed of sound, in a fireball broadcast into classrooms across the country.",
+      "img": "challengerexp",
+      "stat": "T+73 SECONDS",
+      "statColor": "#FF4D4D",
+      "cap": "73 seconds after liftoff."
+    },
+    {
+      "id": "ch13",
+      "text": "The last words on the crew recorder come from pilot Michael Smith. Uh oh.",
+      "img": "challengercrew",
+      "cap": "The last recorded words: \"Uh oh.\""
+    },
+    {
+      "id": "ch14",
+      "text": "Here is what most people do not know. Challenger did not explode like a bomb. The crew cabin tore free of the fireball, intact.",
+      "img": "challengerexp",
+      "cap": "The crew cabin came out intact."
+    },
+    {
+      "id": "ch15",
+      "text": "It continued upward for another five kilometers before arcing over into a two and a half minute fall to the ocean.",
+      "img": "challengerexp",
+      "stat": "2 MIN 45 SEC FALL",
+      "statColor": "#FF4D4D",
+      "cap": "A two-and-a-half-minute fall."
+    },
+    {
+      "id": "ch16",
+      "text": "Investigators later found that at least some of the crew's emergency air packs had been manually activated. Somebody was alive, and working the problem, on the way down.",
+      "img": "challengercrew",
+      "cap": "Air packs had been switched on by hand."
+    },
+    {
+      "id": "ch17",
+      "text": "The cabin hit the Atlantic at over three hundred kilometers per hour. No one could have survived the impact. All seven were lost.",
+      "img": "challengerexp",
+      "stat": "7 LOST",
+      "statColor": "#FF4D4D",
+      "cap": "All seven were lost."
+    },
+    {
+      "id": "ch18",
+      "text": "The investigation that followed exposed everything. The years of O-ring warnings. The memos. The meeting where engineers were told to take off their engineering hats and put on management hats.",
+      "img": "oring",
+      "cap": "\"Take off your engineering hat.\""
+    },
+    {
+      "id": "ch19",
+      "text": "Physicist Richard Feynman ended the argument on live television, by dropping a piece of O-ring rubber into a glass of ice water and showing it lost its resilience.",
+      "img": "feynman",
+      "stat": "FEYNMAN'S GLASS OF ICE WATER",
+      "cap": "Feynman proved it with ice water."
+    },
+    {
+      "id": "ch20",
+      "text": "His written conclusion is the most quoted sentence in engineering ethics. For a successful technology, reality must take precedence over public relations, for nature cannot be fooled.",
+      "img": "feynman",
+      "cap": "\"Nature cannot be fooled.\""
+    },
+    {
+      "id": "ch21",
+      "text": "The shuttle was grounded for almost three years. NASA promised the culture had changed. Seventeen years later, the same culture killed seven more people.",
+      "img": "columbiacrew",
+      "cap": "17 years later, it happened again."
+    },
+    {
+      "id": "c9_t",
+      "text": "Chapter thirteen. Sixteen days, one hole.",
+      "chapter": "CHAPTER 13\nSixteen Days, One Hole"
+    },
+    {
+      "id": "co1",
+      "text": "January 16, 2003. Space Shuttle Columbia, the oldest orbiter in the fleet, lifts off on a sixteen day science mission. Flight STS-107.",
+      "img": "columbiacrew",
+      "stat": "STS-107 · JAN 16, 2003",
+      "cap": "A 16-day science mission."
+    },
+    {
+      "id": "co2",
+      "text": "Eighty two seconds in, a piece of insulating foam the size of a briefcase breaks off the external tank and strikes the left wing at hundreds of kilometers per hour.",
+      "img": "foamstrike",
+      "stat": "T+82 SECONDS",
+      "cap": "A briefcase of foam hit the wing."
+    },
+    {
+      "id": "co3",
+      "text": "Foam had been falling off tanks for years. It had never destroyed a shuttle. So it had been reclassified from a safety hazard... to a maintenance issue.",
+      "img": "foamstrike",
+      "statColor": "#FF4D4D",
+      "cap": "Reclassified from hazard to maintenance."
+    },
+    {
+      "id": "co4",
+      "text": "That is a pattern with a name. Normalization of deviance. When you get away with something dangerous long enough, it stops feeling dangerous. Challenger, all over again.",
+      "img": "foamstrike",
+      "stat": "NORMALIZATION OF DEVIANCE",
+      "cap": "Get away with it long enough, it feels safe."
+    },
+    {
+      "id": "co5",
+      "text": "Engineers who reviewed the launch film were alarmed and requested spy satellite images of the wing. Managers turned the requests down. Three times.",
+      "img": "missioncontrol",
+      "statColor": "#FF4D4D",
+      "cap": "Requests for wing photos: denied, 3 times."
+    },
+    {
+      "id": "co6",
+      "text": "The crew was told about the strike, in an email that reassured them it was nothing to worry about. There is, quote, absolutely no concern for entry.",
+      "img": "columbiacrew",
+      "cap": "\"Absolutely no concern for entry.\""
+    },
+    {
+      "id": "co7",
+      "text": "In truth, the foam had punched a hole in the wing's carbon leading edge. A hole the size of a dinner plate, in the one place that takes the most heat coming home.",
+      "img": "foamstrike",
+      "stat": "A HOLE IN THE WING",
+      "statColor": "#FF4D4D",
+      "cap": "A dinner-plate hole in the leading edge."
+    },
+    {
+      "id": "co8",
+      "text": "For sixteen days, Columbia orbited with a mortal wound no one could see. The crew ran their experiments. They called their families. They took photographs of the Earth.",
+      "img": "columbiacrew",
+      "cap": "16 days in orbit with a mortal wound."
+    },
+    {
+      "id": "co9",
+      "text": "February 1st. Columbia begins reentry over the Pacific, heading for Florida. Plasma at over fifteen hundred degrees streams over the wings. And into the hole.",
+      "img": "columbiadebris",
+      "stat": "FEBRUARY 1, 2003",
+      "cap": "Superheated plasma poured into the hole."
+    },
+    {
+      "id": "co10",
+      "text": "Inside the left wing, the superheated gas melts the aluminum skeleton, strut by strut. Sensors begin dropping offline, one by one. In mission control, a controller notices.",
+      "img": "missioncontrol",
+      "cap": "Sensors died one by one."
+    },
+    {
+      "id": "co11",
+      "text": "Over Texas, at Mach 18, the wing fails. Columbia tumbles and breaks apart in a shower of fire that thousands of people see and film from the ground.",
+      "img": "columbiadebris",
+      "stat": "MACH 18 · OVER TEXAS",
+      "statColor": "#FF4D4D",
+      "cap": "It broke apart over Texas at Mach 18."
+    },
+    {
+      "id": "co12",
+      "text": "The last transmission from commander Rick Husband is cut off mid word. Roger, uh...",
+      "img": "columbiacrew",
+      "cap": "The last word was cut off mid-sentence."
+    },
+    {
+      "id": "co13",
+      "text": "All seven crew are lost. Rick Husband. Willie McCool. Michael Anderson. Kalpana Chawla. David Brown. Laurel Clark. And Ilan Ramon, the first Israeli astronaut.",
+      "img": "columbiacrew",
+      "stat": "7 LOST",
+      "statColor": "#FF4D4D",
+      "cap": "All seven were lost."
+    },
+    {
+      "id": "co14",
+      "text": "Kalpana Chawla had grown up in a small town in Haryana, India, dreaming of flight. She remains a national hero to hundreds of millions of people.",
+      "img": "columbiacrew",
+      "stat": "KALPANA CHAWLA",
+      "cap": "A small-town girl who reached the stars."
+    },
+    {
+      "id": "co15",
+      "text": "Debris rained over two thousand locations across Texas and Louisiana. Twenty five thousand people walked the fields for months, recovering the shuttle piece by piece.",
+      "img": "columbiadebris",
+      "cap": "25,000 people searched the fields."
+    },
+    {
+      "id": "co16",
+      "text": "The investigation board did not mince words. NASA's culture, it wrote, had as much to do with this accident as the foam. The echo of 1986 was deafening.",
+      "img": "columbiadebris",
+      "cap": "\"The culture had as much to do with it as the foam.\""
+    },
+    {
+      "id": "co17",
+      "text": "The most chilling part of the report is a study NASA ran afterward. Could the crew have been saved, if everyone had acted on day two?",
+      "img": "missioncontrol",
+      "cap": "Could they have been saved?"
+    },
+    {
+      "id": "co18",
+      "text": "The answer was a desperate maybe. Shuttle Atlantis could conceivably have been rushed to launch for a rescue. It would have been the riskiest mission ever flown. But it existed.",
+      "img": "missioncontrol",
+      "stat": "A RESCUE WAS CONCEIVABLE",
+      "cap": "A rescue mission was conceivable."
+    },
+    {
+      "id": "co19",
+      "text": "Nobody tried, because nobody looked, because nobody in charge believed there was a problem. Seven people died of institutional certainty.",
+      "img": "columbiacrew",
+      "statColor": "#FF4D4D",
+      "cap": "They died of institutional certainty."
+    },
+    {
+      "id": "co20",
+      "text": "Columbia ended the shuttle era. The fleet flew again to finish the space station, then retired in 2011. Fourteen of the seventeen American spaceflight deaths happened on the shuttle.",
+      "img": "columbiadebris",
+      "stat": "14 OF 17",
+      "cap": "The shuttle: 14 of America's 17 flight deaths."
+    },
+    {
+      "id": "co21",
+      "text": "Those are the catastrophes. But space has also come within seconds of killing many more. And the survival stories are almost as terrifying as the losses.",
+      "img": "leonov",
+      "cap": "Now: the ones who almost joined them."
+    },
+    {
+      "id": "c10_t",
+      "text": "Chapter fourteen. The near misses.",
+      "chapter": "CHAPTER 14\nThe Near Misses"
+    },
+    {
+      "id": "m1",
+      "text": "March 1965. Alexei Leonov floats out of Voskhod 2 and becomes the first human to walk in space. Twelve minutes of glory. Then he tries to come back inside.",
+      "img": "leonov",
+      "stat": "THE FIRST SPACEWALK",
+      "cap": "12 minutes of glory. Then..."
+    },
+    {
+      "id": "m2",
+      "text": "In vacuum, his suit has ballooned like a football. His fingers have pulled out of his gloves. He physically cannot fit back through the airlock.",
+      "img": "leonov",
+      "statColor": "#FF4D4D",
+      "cap": "His suit ballooned. He couldn't fit back in."
+    },
+    {
+      "id": "m3",
+      "text": "Leonov does the unthinkable. He opens a valve and bleeds air out of his own suit, risking the bends, until it deflates enough to squeeze inside. He barely makes it.",
+      "img": "leonov",
+      "cap": "He bled the air out of his own suit."
+    },
+    {
+      "id": "m4",
+      "text": "Then the capsule's automatic reentry fails, the crew lands four hundred kilometers off course in the Ural forest, and spends two nights in deep snow surrounded by wolves and bears.",
+      "img": "leonov",
+      "stat": "2 NIGHTS · WOLVES",
+      "cap": "Then they landed in wolf country."
+    },
+    {
+      "id": "m5",
+      "text": "One year later, March 1966. Gemini 8, with Neil Armstrong in command, docks with an uncrewed target vehicle. Minutes later, the joined spacecraft begin to spin.",
+      "img": "gemini8",
+      "stat": "GEMINI 8 · 1966",
+      "cap": "Then the spacecraft began to spin."
+    },
+    {
+      "id": "m6",
+      "text": "A thruster is stuck firing. After undocking, the spin accelerates to one full revolution per second. The astronauts' vision starts to blur. Blackout is seconds away.",
+      "img": "gemini8",
+      "stat": "1 REV / SECOND",
+      "statColor": "#FF4D4D",
+      "cap": "Spinning once per second. Vision blurring."
+    },
+    {
+      "id": "m7",
+      "text": "On the edge of consciousness, Armstrong kills the main thrusters and regains control using the reentry system alone. Three years later, the same calm would land him on the Moon.",
+      "img": "gemini8",
+      "cap": "The same calm later landed on the Moon."
+    },
+    {
+      "id": "m8",
+      "text": "April 1970. Apollo 13, two hundred and five thousand miles from Earth. A damaged oxygen tank explodes, and the words become legend. Houston, we've had a problem.",
+      "img": "apollo13",
+      "stat": "APOLLO 13 · 1970",
+      "cap": "\"Houston, we've had a problem.\""
+    },
+    {
+      "id": "m9",
+      "text": "The explosion guts the service module. Oxygen venting into space, power dying, the Moon landing gone. Three men, in a dying ship, a quarter million miles from home.",
+      "img": "apollo13",
+      "cap": "A dying ship, 205,000 miles out."
+    },
+    {
+      "id": "m10",
+      "text": "They survive by moving into the lunar lander and using it as a lifeboat, looping around the Moon in freezing darkness while the world holds its breath.",
+      "img": "apollo13",
+      "stat": "THE LIFEBOAT",
+      "cap": "The lunar lander became a lifeboat."
+    },
+    {
+      "id": "m11",
+      "text": "When the carbon dioxide starts to poison them, mission control invents a filter adapter out of plastic bags, cardboard and tape, and reads the instructions up by voice.",
+      "img": "missioncontrol",
+      "cap": "Saved by cardboard, bags and tape."
+    },
+    {
+      "id": "m12",
+      "text": "Apollo 13 splashes down safely with all three crew. NASA calls it the successful failure. It remains the greatest rescue in the history of spaceflight.",
+      "img": "apollo13",
+      "stat": "ALL 3 SURVIVED",
+      "cap": "The greatest rescue in spaceflight history."
+    },
+    {
+      "id": "m13",
+      "text": "And if you think the danger belongs to history, meet Luca Parmitano. July 2013. International Space Station. A routine spacewalk.",
+      "img": "parmitano",
+      "stat": "JULY 16, 2013",
+      "cap": "This one happened in the 2010s."
+    },
+    {
+      "id": "m14",
+      "text": "Forty four minutes in, water begins pooling inside his helmet. A failed pump is pushing his cooling water into his air supply. In zero gravity, water does not drip. It clings.",
+      "img": "parmitano",
+      "cap": "Water began pooling inside his helmet."
+    },
+    {
+      "id": "m15",
+      "text": "The blob crawls over the back of his head, into his ears, then over his eyes. Then it starts creeping toward his nose. He is beginning to drown. In space.",
+      "img": "parmitano",
+      "statColor": "#FF4D4D",
+      "cap": "An astronaut, drowning — in space."
+    },
+    {
+      "id": "m16",
+      "text": "Blinded, with his radio garbling, Parmitano navigates back to the airlock from memory, by feeling the safety cable with his gloves. He makes it with more than a liter of water in his helmet.",
+      "img": "parmitano",
+      "stat": "1.5 LITERS IN THE HELMET",
+      "cap": "He found the airlock by touch, blind."
+    },
+    {
+      "id": "m17",
+      "text": "Every one of these people came within seconds or centimeters of joining this video's list. The line between legend and memorial, in space, is that thin.",
+      "img": "evavoid",
+      "cap": "The line between legend and memorial is that thin.",
+      "statColor": "#FF4D4D"
+    },
+    {
+      "id": "cs_t",
+      "text": "Chapter fifteen. The new age.",
+      "chapter": "CHAPTER 15\nThe New Age"
+    },
+    {
+      "id": "v1",
+      "text": "You might think this list belongs to the Cold War. To capsules and shuttles and dead empires. It does not. The most recent chapter was written in 2014.",
+      "img": "spaceshiptwo",
+      "stat": "OCTOBER 31, 2014",
+      "cap": "The newest chapter: 2014."
+    },
+    {
+      "id": "v2",
+      "text": "Mojave desert, California. SpaceShipTwo, the VSS Enterprise, is the future. A privately built rocket plane designed to carry tourists to the edge of space.",
+      "img": "spaceshiptwo",
+      "stat": "VSS ENTERPRISE",
+      "cap": "A spaceship built to carry tourists."
+    },
+    {
+      "id": "v3",
+      "text": "In the cockpit, two test pilots. Peter Siebold in command. Michael Alsbury, flying as co-pilot, one of the most experienced engineers on the program. It is his ninth flight on the ship.",
+      "img": "spaceshiptwo",
+      "stat": "SIEBOLD · ALSBURY",
+      "cap": "Two test pilots. His ninth flight."
+    },
+    {
+      "id": "v4",
+      "text": "The carrier aircraft releases them at fourteen kilometers. The rocket motor lights. SpaceShipTwo accelerates through the speed of sound, climbing hard. Everything is nominal.",
+      "img": "spaceshiptwo",
+      "cap": "Motor lit. Accelerating through Mach 1."
+    },
+    {
+      "id": "v5",
+      "text": "SpaceShipTwo has a unique reentry system called the feather. The twin tails fold upward to slow the ship, like a shuttlecock. It is only ever supposed to unlock high above the atmosphere.",
+      "img": "spaceshiptwo",
+      "stat": "THE FEATHER",
+      "cap": "The tails fold up — but only in space."
+    },
+    {
+      "id": "v6",
+      "text": "Eleven seconds after ignition, at Mach zero point nine two, Alsbury unlocks the feather early. The checklist says Mach one point four. No one will ever know exactly why.",
+      "img": "spaceshiptwo",
+      "statColor": "#FF4D4D",
+      "cap": "The feather was unlocked too early."
+    },
+    {
+      "id": "v7",
+      "text": "At that speed, in thick air, the aerodynamic loads slam the unlocked tails upward on their own. No one commands it. The ship pitches violently and tears itself apart in about a second.",
+      "img": "spaceshiptwo",
+      "stat": "BREAKUP IN ~1 SECOND",
+      "statColor": "#FF4D4D",
+      "cap": "It tore itself apart in a second."
+    },
+    {
+      "id": "v8",
+      "text": "Michael Alsbury is killed instantly. He is the first person to die on a commercial spaceflight. He was thirty nine, a husband, and a father of two.",
+      "img": "spaceshiptwo",
+      "stat": "MICHAEL ALSBURY · 39",
+      "statColor": "#FF4D4D",
+      "cap": "The first commercial spaceflight death."
+    },
+    {
+      "id": "v9",
+      "text": "And then, one of the strangest survival stories in aviation history. Peter Siebold wakes up in the sky.",
+      "img": "evavoid",
+      "cap": "Then: one of the strangest survivals ever."
+    },
+    {
+      "id": "v10",
+      "text": "The breakup has thrown him clear, still strapped to his seat, unconscious, at over fifteen kilometers, where there is barely any oxygen. He is not wearing a pressure suit.",
+      "img": "spaceshiptwo",
+      "stat": "THROWN CLEAR AT 15 KM",
+      "cap": "Unconscious. 15 km up. No pressure suit."
+    },
+    {
+      "id": "v11",
+      "text": "Somewhere in the fall he comes to, unbuckles from the seat, and his parachute deploys automatically. He hits the desert alive. Broken, but alive.",
+      "img": "spaceshiptwo",
+      "cap": "He woke up mid-fall. And lived."
+    },
+    {
+      "id": "v12",
+      "text": "The investigation found the deeper cause was not one pilot's hand. The system had no guard against a single human error made under crushing workload. One switch, thrown four seconds early, could destroy the ship. So it did.",
+      "img": "spaceshiptwo",
+      "cap": "One switch. No guard against one mistake."
+    },
+    {
+      "id": "v13",
+      "text": "Sound familiar? A known weakness. A schedule. A single point of failure. The new space age inherited the old one's disease, on its very first fatal flight.",
+      "img": "spaceshiptwo",
+      "cap": "The new age inherited the old disease."
+    },
+    {
+      "id": "v14",
+      "text": "As private crews multiply and moon programs return, the lesson of this entire hour is about to be tested again, at a scale spaceflight has never seen.",
+      "img": "earthnight",
+      "cap": "The lesson is about to be tested again."
+    },
+    {
+      "id": "c11_t",
+      "text": "Chapter sixteen. What the photographs mean.",
+      "chapter": "CHAPTER 16\nWhat the Photographs Mean"
+    },
+    {
+      "id": "e1",
+      "text": "Twenty one people killed flying missions. Hundreds more on launch pads and in training. Every one of them knew the risk, and strapped in anyway.",
+      "img": "earthnight",
+      "stat": "IN MEMORIAM",
+      "cap": "They knew. They strapped in anyway."
+    },
+    {
+      "id": "e2",
+      "text": "And here is the pattern this hour has shown you. Almost none of them were killed by space. They were killed by decisions.",
+      "img": "missioncontrol",
+      "cap": "Almost none were killed by space itself."
+    },
+    {
+      "id": "e3",
+      "text": "A hatch that opened the wrong way. A launch approved against the engineers. A warning reclassified as paperwork. A schedule that mattered more than a life.",
+      "img": "oring",
+      "cap": "They were killed by decisions."
+    },
+    {
+      "id": "e4",
+      "text": "The vacuum is not malicious. It is just utterly indifferent. As Feynman said, nature cannot be fooled. It only forgives you when you respect it.",
+      "img": "evavoid",
+      "stat": "NATURE CANNOT BE FOOLED",
+      "cap": "The vacuum is not evil. Just indifferent."
+    },
+    {
+      "id": "e5",
+      "text": "Every rule that keeps today's astronauts alive is written in the blood of the people in these photographs. The suits. The escape systems. The launch abort towers. All of it.",
+      "img": "soyuz11crew",
+      "cap": "Every safety rule is written in blood."
+    },
+    {
+      "id": "e6",
+      "text": "Since Columbia, no astronaut has been lost on a spaceflight. Twenty three years and counting. That streak is their monument.",
+      "img": "earthnight",
+      "stat": "23 YEARS · 0 LOST",
+      "cap": "23 years without a loss. That's their monument."
+    },
+    {
+      "id": "e7",
+      "text": "Look one last time at Bruce McCandless, alone in the black. The most terrifying photo ever taken. Now you know why it is really just the most honest one.",
+      "img": "mccandless",
+      "cap": "Not the most terrifying photo. The most honest."
+    },
+    {
+      "id": "e8",
+      "text": "It shows exactly where we choose to go. A place with no air, no warmth, no mercy, and no second chances. And it shows that we go anyway.",
+      "img": "mccandless",
+      "cap": "No mercy. No second chances. We go anyway."
+    },
+    {
+      "id": "e9",
+      "text": "Because the people in this video did not die telling us to stop. Every one of them, to the last, was trying to go further.",
+      "img": "earthnight",
+      "cap": "None of them died telling us to stop."
+    },
+    {
+      "id": "e10",
+      "text": "If this story moved you, the next one is already waiting. The scariest places in the known universe. And if you want more stories like this every week, subscribe to mindwired.",
+      "img": "earthnight",
+      "cap": "Subscribe to mindwired."
+    }
+  ]
+}

@@ -19,7 +19,11 @@ import { RupeeShort, rupeeTotalFrames } from "./dimaagbatti/RupeeShort";
 import { NeetWide, neetTotalFrames } from "./dimaagbatti/NeetWide";
 import { NeetThumb } from "./dimaagbatti/NeetThumb";
 import { WW2Wide, ww2TotalFrames } from "./dimaagbatti/WW2Wide";
+import { makeDocComp, docTotalFrames } from "./mindwired-doc/DocWide";
+import spaceDeathsDoc from "./mindwired-doc/docs/spacedeaths.json";
+import spaceDeathsManifest from "./mindwired-doc/docs/spacedeaths.manifest.json";
 import { WW2Thumb } from "./dimaagbatti/WW2Thumb";
+import { WW2Epic, ww2EpicTotalFrames } from "./dimaagbatti/WW2Epic";
 import { HowAIVideo, aiVideoTotalFrames } from "./aivideo/HowAIVideo";
 import { AnimeClash, animeClashFrames } from "./messivssalah/AnimeClash";
 import { AnimeClashV, animeClashVFrames } from "./messivssalah/AnimeClashV";
@@ -597,11 +601,31 @@ export const RemotionRoot: React.FC = () => {
         height={1080}
       />
 
+      {/* ── mindwired — archival documentary: Every Way Space Has Killed a Human ── */}
+      <Composition
+        id="SpaceDeathsDoc"
+        component={makeDocComp(spaceDeathsDoc, spaceDeathsManifest)}
+        durationInFrames={docTotalFrames(spaceDeathsDoc, spaceDeathsManifest)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
       {/* ── DimaagBatti — दूसरा विश्वयुद्ध कैसे शुरू हुआ (deep-dive, maps+illustrations) ── */}
       <Composition
         id="DimaagBattiWW2"
         component={WW2Wide}
         durationInFrames={ww2TotalFrames()}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── DimaagBatti — WW2 EPIC (1-hour, chapters ship incrementally) ── */}
+      <Composition
+        id="DimaagBattiWW2Epic"
+        component={WW2Epic}
+        durationInFrames={ww2EpicTotalFrames()}
         fps={30}
         width={1920}
         height={1080}

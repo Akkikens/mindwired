@@ -132,6 +132,10 @@ def main() -> None:
     items: list[dict] = []
     if args.source in ("commons", "both"):
         items += fetch_commons(args.query, args.count, args.min_width)
+        if not items:  # rare subjects often only exist as smaller scans
+            items += fetch_commons(args.query, args.count, max(400, args.min_width // 2))
+            if items:
+                print(f"  (commons fallback: relaxed min-width to {max(400, args.min_width // 2)})")
     if args.source in ("openverse", "both"):
         items += fetch_openverse(args.query, args.count, licenses)
     items = [i for i in items if i["lic_key"] in licenses and i["url"]]
