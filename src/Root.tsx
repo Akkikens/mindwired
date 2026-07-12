@@ -24,6 +24,7 @@ import spaceDeathsDoc from "./mindwired-doc/docs/spacedeaths.json";
 import spaceDeathsManifest from "./mindwired-doc/docs/spacedeaths.manifest.json";
 import { WW2Thumb } from "./dimaagbatti/WW2Thumb";
 import { WW2Epic, ww2EpicTotalFrames } from "./dimaagbatti/WW2Epic";
+import { WW2EpicThumb } from "./dimaagbatti/WW2EpicThumb";
 import { HowAIVideo, aiVideoTotalFrames } from "./aivideo/HowAIVideo";
 import { AnimeClash, animeClashFrames } from "./messivssalah/AnimeClash";
 import { AnimeClashV, animeClashVFrames } from "./messivssalah/AnimeClashV";
@@ -631,6 +632,10 @@ export const RemotionRoot: React.FC = () => {
         width={1920}
         height={1080}
       />
+
+      {/* ── DimaagBatti WW2 Epic — thumbnails ── */}
+      <Still id="DimaagBattiWW2EpicThumbHi" component={WW2EpicThumb} defaultProps={{ lang: "hi" as const }} width={1280} height={720} />
+      <Still id="DimaagBattiWW2EpicThumbEn" component={WW2EpicThumb} defaultProps={{ lang: "en" as const }} width={1280} height={720} />
 
       {/* ── DimaagBatti WW2 — thumbnails ── */}
       <Still id="DimaagBattiWW2ThumbHi" component={WW2Thumb} defaultProps={{ lang: "hi" as const }} width={1280} height={720} />
