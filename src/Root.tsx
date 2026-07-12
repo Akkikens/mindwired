@@ -16,6 +16,17 @@ import { ScariestThumbnail } from "./scariest/Thumbnail";
 import { RoguePlanetVideo, rogueTotalFrames } from "./rogueplanet/Video";
 import { RoguePlanetThumbnail } from "./rogueplanet/Thumbnail";
 import { RupeeShort, rupeeTotalFrames } from "./dimaagbatti/RupeeShort";
+import { NeetWide, neetTotalFrames } from "./dimaagbatti/NeetWide";
+import { NeetThumb } from "./dimaagbatti/NeetThumb";
+import { WW2Wide, ww2TotalFrames } from "./dimaagbatti/WW2Wide";
+import { WW2Thumb } from "./dimaagbatti/WW2Thumb";
+import { HowAIVideo, aiVideoTotalFrames } from "./aivideo/HowAIVideo";
+import { AnimeClash, animeClashFrames } from "./messivssalah/AnimeClash";
+import { AnimeClashV, animeClashVFrames } from "./messivssalah/AnimeClashV";
+import { ChangingGuard, changingGuardFrames } from "./guard/ChangingGuard";
+import { ChangingGuardV, changingGuardVFrames } from "./guard/ChangingGuardV";
+import { WhatIfArgentina, whatIfArgentinaFrames } from "./argentinawc/WhatIfArgentina";
+import { WhatIfArgentinaShort, whatIfArgShortFrames } from "./argentinawc/WhatIfArgentinaShort";
 import { ViralShort, viralShortFrames } from "./viral/ShortEngine";
 import { HookProbe, HookProbeProps, hookProbeFrames, HOOK_PROBE_DEFAULT_FRAMES } from "./viral/HookProbe";
 import { BrandIntro, BRAND_INTRO_FRAMES } from "./components/BrandIntro";
@@ -571,6 +582,104 @@ export const RemotionRoot: React.FC = () => {
         id="DimaagBattiRupee"
         component={RupeeShort}
         durationInFrames={rupeeTotalFrames()}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+
+      {/* ── DimaagBatti — NEET लीक → Telegram बैन → विरोध (16:9 long-form) ── */}
+      <Composition
+        id="DimaagBattiNeet"
+        component={NeetWide}
+        durationInFrames={neetTotalFrames()}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── DimaagBatti — दूसरा विश्वयुद्ध कैसे शुरू हुआ (deep-dive, maps+illustrations) ── */}
+      <Composition
+        id="DimaagBattiWW2"
+        component={WW2Wide}
+        durationInFrames={ww2TotalFrames()}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── DimaagBatti WW2 — thumbnails ── */}
+      <Still id="DimaagBattiWW2ThumbHi" component={WW2Thumb} defaultProps={{ lang: "hi" as const }} width={1280} height={720} />
+      <Still id="DimaagBattiWW2ThumbEn" component={WW2Thumb} defaultProps={{ lang: "en" as const }} width={1280} height={720} />
+
+      {/* ── DimaagBatti NEET — thumbnails (Gemini scene + Remotion text) ── */}
+      <Still id="DimaagBattiNeetThumbHi" component={NeetThumb} defaultProps={{ lang: "hi" as const }} width={1280} height={720} />
+      <Still id="DimaagBattiNeetThumbEn" component={NeetThumb} defaultProps={{ lang: "en" as const }} width={1280} height={720} />
+
+      {/* ── mindwired — How AI Video Generation Works (pop-science explainer) ── */}
+      <Composition
+        id="HowAIVideo"
+        component={HowAIVideo}
+        durationInFrames={aiVideoTotalFrames()}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── kickoffdaily90 — Messi vs Mo Salah: World Cup ANIME Edition ── */}
+      <Composition
+        id="AnimeClash"
+        component={AnimeClash}
+        durationInFrames={animeClashFrames()}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── kickoffdaily90 — Messi vs Salah ANIME (vertical / IG Reels) ── */}
+      <Composition
+        id="AnimeClashV"
+        component={AnimeClashV}
+        durationInFrames={animeClashVFrames()}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+
+      {/* ── kickoffdaily90 — Changing of the Guard (16:9) ── */}
+      <Composition
+        id="ChangingGuard"
+        component={ChangingGuard}
+        durationInFrames={changingGuardFrames()}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── kickoffdaily90 — What If Argentina Wins the World Cup (~8 min epic) ── */}
+      <Composition
+        id="WhatIfArgentina"
+        component={WhatIfArgentina}
+        durationInFrames={whatIfArgentinaFrames()}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── kickoffdaily90 — What If Argentina (Shorts funnel cut) ── */}
+      <Composition
+        id="WhatIfArgentinaShort"
+        component={WhatIfArgentinaShort}
+        durationInFrames={whatIfArgShortFrames()}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+
+      {/* ── kickoffdaily90 — Changing of the Guard (vertical / Shorts) ── */}
+      <Composition
+        id="ChangingGuardV"
+        component={ChangingGuardV}
+        durationInFrames={changingGuardVFrames()}
         fps={30}
         width={1080}
         height={1920}
