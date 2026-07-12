@@ -33,6 +33,9 @@ import { ChangingGuardV, changingGuardVFrames } from "./guard/ChangingGuardV";
 import { WhatIfArgentina, whatIfArgentinaFrames } from "./argentinawc/WhatIfArgentina";
 import { WhatIfArgentinaShort, whatIfArgShortFrames } from "./argentinawc/WhatIfArgentinaShort";
 import { QFReview, qfReviewFrames } from "./qfreview/QFReview";
+import { Sixty3, sixty3Frames } from "./bvb63/Sixty3";
+import { Sixty3Short, sixty3ShortFrames } from "./bvb63/Sixty3Short";
+import { QFReviewShort, qfShortFrames } from "./qfreview/QFReviewShort";
 import { ViralShort, viralShortFrames } from "./viral/ShortEngine";
 import { HookProbe, HookProbeProps, hookProbeFrames, HOOK_PROBE_DEFAULT_FRAMES } from "./viral/HookProbe";
 import { BrandIntro, BRAND_INTRO_FRAMES } from "./components/BrandIntro";
@@ -690,6 +693,20 @@ export const RemotionRoot: React.FC = () => {
         id="WhatIfArgentina"
         component={WhatIfArgentina}
         durationInFrames={whatIfArgentinaFrames()}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── kickoffdaily90 — "63" + QF Review Shorts cuts ── */}
+      <Composition id="Sixty3Short" component={Sixty3Short} durationInFrames={sixty3ShortFrames()} fps={30} width={1080} height={1920} />
+      <Composition id="QFReviewShort" component={QFReviewShort} durationInFrames={qfShortFrames()} fps={30} width={1080} height={1920} />
+
+      {/* ── kickoffdaily90 — "63" (Bellingham/Haaland Nolan-style short) ── */}
+      <Composition
+        id="Sixty3"
+        component={Sixty3}
+        durationInFrames={sixty3Frames()}
         fps={30}
         width={1920}
         height={1080}
