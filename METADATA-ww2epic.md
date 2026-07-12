@@ -21,7 +21,11 @@ Alt B: **दूसरा विश्वयुद्ध A to Z: वो कहा
 
 ---
 
-## DESCRIPTION (paste as-is)
+## DESCRIPTION (paste as-is — English first, then Hindi: standing rule)
+
+The complete story of World War 2 in Hindi — from the Treaty of Versailles to Hiroshima, told simply, chapter by chapter. 60–80 million dead, every continent at war — and 2.5 million Indian soldiers, the largest volunteer army in history, whose story our textbooks gave just one page. This documentary covers every turning point: Dunkirk, the Battle of Britain, Barbarossa, Pearl Harbor, the Holocaust (handled respectfully), El Alamein, Kohima-Imphal, the Bengal famine, Netaji Bose and the INA, Stalingrad, Midway, D-Day, the fall of Berlin, the atomic bomb — and how this war opened the road to India's independence in 1947. 💡
+
+—
 
 छह से आठ करोड़ मौतें। हर महाद्वीप। और 25 लाख भारतीय सैनिक — इतिहास की सबसे बड़ी स्वयंसेवी सेना — जिनकी कहानी हमें कभी पूरी नहीं बताई गई। ये है दूसरे विश्वयुद्ध की पूरी कहानी — शुरुआत से अंत तक, आसान भाषा में। 💡
 

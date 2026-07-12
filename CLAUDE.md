@@ -151,6 +151,8 @@ clips have a fixed ~8s floor).
 - Every video gets a `METADATA-<slug>.md` here: primary title + A/B alternates,
   SEO description with CHAPTERS timestamps, tags, pinned comment. Follow the
   existing files' format (e.g. METADATA-attractor.md).
+- **Descriptions: English block FIRST, then the Hindi block** (Akshay standing
+  rule, 2026-07-12) — applies to every upload on every channel.
 - Thumbnails: follow `THUMBNAILS.md` — image-model generation (Workflow A) for
   scene+text posters, or Remotion still + text overlay (Workflow B). House style:
   3-5 word ALL-CAPS yellow/white text, one dramatic scene, dark background.
