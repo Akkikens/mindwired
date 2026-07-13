@@ -1,0 +1,1878 @@
+{
+ "slug": "ww2epic-en",
+ "title": "World War II — The Whole Story",
+ "language": "en",
+ "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+ "scenes": [
+  {
+   "id": "h1",
+   "text": "60 to 80 million people. Dead in just 6 years. History had never counted losses like this before. It has never counted them since.",
+   "img": "warhook",
+   "stat": "60–80 MILLION DEAD",
+   "statColor": "#FF4D4D",
+   "cap": "In just six years."
+  },
+  {
+   "id": "h2",
+   "text": "Every continent. Every ocean. Every sky. This war was fought everywhere humans could reach.",
+   "img": "sides",
+   "cap": "Every continent. Every ocean. Every sky."
+  },
+  {
+   "id": "h3",
+   "text": "And 2.5 million Indian soldiers fought in it — the largest volunteer army in history. A story most documentaries skip.",
+   "img": "indianarmy",
+   "stat": "2.5 MILLION INDIAN SOLDIERS",
+   "statColor": "#FFC53D",
+   "cap": "The largest volunteer army in history."
+  },
+  {
+   "id": "h4",
+   "text": "And yet, most of us were never told this story whole.",
+   "img": "reflect",
+   "cap": "We were never told the whole story."
+  },
+  {
+   "id": "h5",
+   "text": "Tonight, in one sitting — the complete story of the Second World War. From the first shot to the last surrender.",
+   "img": "warhook",
+   "stat": "1939–1945 · THE WHOLE STORY",
+   "cap": "From the first shot to the last."
+  },
+  {
+   "id": "h6",
+   "text": "Who fought. Why they fought. How it was won. And what India gave — and what it got back.",
+   "img": "map_expand",
+   "cap": "Who, why, how — and India's price."
+  },
+  {
+   "id": "h7",
+   "text": "Because this is not just history. It is a warning.",
+   "img": "reflect",
+   "cap": "Not just history. A warning."
+  },
+  {
+   "id": "h8",
+   "text": "This is the whole story of the Second World War. From the first shot to the last.",
+   "chapter": "WORLD WAR II\nTHE WHOLE STORY"
+  },
+  {
+   "id": "r_t",
+   "text": "Chapter one. The powder keg.",
+   "chapter": "CHAPTER 1\nThe Powder Keg"
+  },
+  {
+   "id": "r1",
+   "text": "After the First World War, the Treaty of Versailles crushed Germany. Blame. Debt. Humiliation. All of it, in writing.",
+   "img": "treaty",
+   "stat": "TREATY OF VERSAILLES · 1919",
+   "cap": "Blame, debt, and humiliation."
+  },
+  {
+   "id": "r2",
+   "text": "Then came economic ruin. The hyperinflation of 1923. The Great Depression of 1929. Money and hope collapsed together.",
+   "img": "depression",
+   "stat": "1923 HYPERINFLATION · 1929 DEPRESSION",
+   "statColor": "#FF4D4D",
+   "cap": "Money and hope collapsed together."
+  },
+  {
+   "id": "r3",
+   "text": "A broken, angry people wanted a savior. What they got was Adolf Hitler.",
+   "img": "rally",
+   "stat": "ADOLF HITLER",
+   "cap": "Broken people found a savior."
+  },
+  {
+   "id": "r4",
+   "text": "In 1933 he became chancellor. Within months, German democracy was dead.",
+   "img": "podium",
+   "stat": "CHANCELLOR · JANUARY 1933",
+   "cap": "Democracy died within months."
+  },
+  {
+   "id": "r5",
+   "text": "He rebuilt the army in secret. Then he started swallowing land, one piece at a time.",
+   "img": "rearm",
+   "cap": "A secret army. Then the land grabs."
+  },
+  {
+   "id": "r6",
+   "text": "The Rhineland. Austria. Czechoslovakia.",
+   "img": "map_expand",
+   "stat": "RHINELAND · AUSTRIA · CZECHOSLOVAKIA",
+   "cap": "One piece at a time."
+  },
+  {
+   "id": "r7",
+   "text": "Britain and France watched. To avoid a war, they negotiated with Hitler. They never stopped him.",
+   "img": "munich",
+   "cap": "They negotiated. They never stopped him."
+  },
+  {
+   "id": "r8",
+   "text": "History calls it appeasement. And it failed completely.",
+   "img": "munich",
+   "stat": "APPEASEMENT — FAILED",
+   "statColor": "#FF4D4D",
+   "cap": "It only made him bolder."
+  },
+  {
+   "id": "r9",
+   "text": "August 1939. Hitler and Stalin signed a secret pact — a deal to carve up Poland between them.",
+   "img": "pact",
+   "stat": "NAZI–SOVIET PACT · AUGUST 1939",
+   "cap": "A secret deal to carve up Poland."
+  },
+  {
+   "id": "r10",
+   "text": "Now all it needed was a spark.",
+   "img": "map_poland",
+   "cap": "All it needed was a spark."
+  },
+  {
+   "id": "b_t",
+   "text": "Chapter two. Blitzkrieg.",
+   "chapter": "CHAPTER 2\nBlitzkrieg"
+  },
+  {
+   "id": "b1",
+   "text": "September 1, 1939. Before dawn. German tanks rolled across the Polish border.",
+   "img": "tanks",
+   "stat": "SEPTEMBER 1, 1939",
+   "statColor": "#FF4D4D",
+   "cap": "German tanks cross into Poland."
+  },
+  {
+   "id": "b2",
+   "text": "This was an entirely new kind of war. Blitzkrieg. Lightning war.",
+   "img": "blitz",
+   "stat": "BLITZKRIEG",
+   "cap": "Lightning war."
+  },
+  {
+   "id": "b3",
+   "text": "First the bombers cleared the way. Then the tanks punched through at speed. The infantry followed, and held what fell.",
+   "img": "blitz",
+   "cap": "Bombers, then tanks, then infantry."
+  },
+  {
+   "id": "b4",
+   "text": "Poland fought bravely. But horses and old artillery do not stop tanks.",
+   "img": "map_poland",
+   "cap": "Horses do not stop tanks."
+  },
+  {
+   "id": "b5",
+   "text": "On September 3, Britain and France declared war on Germany.",
+   "img": "wardeclare",
+   "stat": "SEPTEMBER 3 · WAR DECLARED",
+   "cap": "Britain and France enter the war."
+  },
+  {
+   "id": "b6",
+   "text": "But no help ever arrived. In 5 weeks, Poland was gone — Germany from the west, the Soviets from the east.",
+   "img": "map_poland",
+   "stat": "5 WEEKS · POLAND FALLS",
+   "statColor": "#FF4D4D",
+   "cap": "Crushed from both sides."
+  },
+  {
+   "id": "b7",
+   "text": "Then came 8 strange months. War was declared, but nobody was fighting. They called it the Phoney War.",
+   "img": "wardeclare",
+   "stat": "PHONEY WAR · 8 MONTHS",
+   "cap": "A war with no fighting."
+  },
+  {
+   "id": "b8",
+   "text": "In April 1940, the storm returned. Denmark and Norway fell within days.",
+   "img": "map_expand",
+   "stat": "APRIL 1940",
+   "cap": "Denmark and Norway — gone in days."
+  },
+  {
+   "id": "b9",
+   "text": "In May, Hitler struck west. Holland. Belgium. And then the real target — France.",
+   "img": "map_expand",
+   "stat": "MAY 1940 · TARGET: FRANCE",
+   "statColor": "#FF4D4D",
+   "cap": "Holland, Belgium... then France."
+  },
+  {
+   "id": "b10",
+   "text": "France had the largest army in Europe, and the Maginot Line — a wall of fortresses considered impossible to break.",
+   "img": "maginot",
+   "stat": "MAGINOT LINE",
+   "cap": "The 'impenetrable' wall of fortresses."
+  },
+  {
+   "id": "b11",
+   "text": "The German tanks never fought that wall. They swung through the dense Ardennes forest, and came out behind it.",
+   "img": "tanks",
+   "stat": "THROUGH THE ARDENNES",
+   "cap": "They didn't fight the wall. They went around it."
+  },
+  {
+   "id": "b12",
+   "text": "The British and French armies were trapped against the sea — on the beach at Dunkirk.",
+   "img": "dunkirk",
+   "stat": "DUNKIRK · MAY 1940",
+   "statColor": "#FF4D4D",
+   "cap": "Trapped against the sea."
+  },
+  {
+   "id": "b13",
+   "text": "And then, something like a miracle. Alongside the navy came ordinary civilians, in their own small boats, sailing into a war zone to bring the soldiers home.",
+   "img": "dunkirk",
+   "cap": "Ordinary people, in little boats."
+  },
+  {
+   "id": "b14",
+   "text": "In 9 days, 338,000 soldiers were rescued.",
+   "img": "dunkirk",
+   "stat": "338,000 SOLDIERS SAVED",
+   "statColor": "#FFC53D",
+   "cap": "The miracle of nine days."
+  },
+  {
+   "id": "b15",
+   "text": "But France could not be saved. June 22, 1940 — France surrendered.",
+   "img": "carriage",
+   "stat": "JUNE 22, 1940",
+   "statColor": "#FF4D4D",
+   "cap": "France surrenders."
+  },
+  {
+   "id": "b16",
+   "text": "And Hitler staged the signing in the same railway carriage where Germany had surrendered in 1918. Revenge — complete.",
+   "img": "carriage",
+   "cap": "The same railway carriage as 1918."
+  },
+  {
+   "id": "b17",
+   "text": "10 months. And nearly all of Western Europe lay at Hitler's feet.",
+   "img": "map_expand",
+   "stat": "10 MONTHS · WESTERN EUROPE FALLS",
+   "statColor": "#FF4D4D",
+   "cap": "Western Europe at his feet."
+  },
+  {
+   "id": "b18",
+   "text": "Now only one country stood against him. Alone.",
+   "img": "warhook",
+   "cap": "One country left. Alone."
+  },
+  {
+   "id": "g_t",
+   "text": "Chapter three. Britain alone.",
+   "chapter": "CHAPTER 3\nBritain Alone"
+  },
+  {
+   "id": "g1",
+   "text": "June 1940. France had fallen. America was neutral. The Soviet Union was still in its pact with Hitler.",
+   "img": "map_expand",
+   "stat": "JUNE 1940",
+   "cap": "France fallen. America neutral. Soviets allied."
+  },
+  {
+   "id": "g2",
+   "text": "On the map, one enemy remained — Britain. And Hitler was certain it would come to terms.",
+   "img": "map_expand",
+   "cap": "One enemy left on the map."
+  },
+  {
+   "id": "g3",
+   "text": "But there was a new prime minister in London now. Winston Churchill.",
+   "img": "churchill",
+   "stat": "WINSTON CHURCHILL",
+   "cap": "A new prime minister in London."
+  },
+  {
+   "id": "g4",
+   "text": "Churchill made it plain. There would be no deal. No matter what came.",
+   "img": "churchill",
+   "cap": "No deal. No matter what."
+  },
+  {
+   "id": "g5",
+   "text": "In his own words — we shall fight on the beaches. We shall never surrender.",
+   "img": "churchill",
+   "stat": "\"We shall never surrender\"",
+   "statColor": "#FFC53D",
+   "cap": "We shall never surrender."
+  },
+  {
+   "id": "g6",
+   "text": "Hitler had one option left: cross the English Channel and invade. The plan was called Operation Sea Lion.",
+   "img": "map_expand",
+   "stat": "OPERATION SEA LION",
+   "cap": "The plan to cross the Channel."
+  },
+  {
+   "id": "g7",
+   "text": "But to cross the sea, he first had to win the sky.",
+   "img": "blitz",
+   "cap": "First, win the sky."
+  },
+  {
+   "id": "g8",
+   "text": "And so began the first battle in history fought entirely in the air. The Battle of Britain.",
+   "img": "spitfire",
+   "stat": "BATTLE OF BRITAIN · 1940",
+   "cap": "The first battle fought entirely in the air."
+  },
+  {
+   "id": "g9",
+   "text": "On one side, Germany's Luftwaffe — vastly superior in numbers.",
+   "img": "blitz",
+   "cap": "The Luftwaffe — far larger."
+  },
+  {
+   "id": "g10",
+   "text": "On the other, the Royal Air Force. Fewer pilots, fewer planes. But two weapons Germany did not have.",
+   "img": "spitfire",
+   "cap": "The RAF had two secret weapons."
+  },
+  {
+   "id": "g11",
+   "text": "The first: the Spitfire and the Hurricane. Agile, lethal fighter aircraft.",
+   "img": "spitfire",
+   "stat": "SPITFIRE · HURRICANE",
+   "cap": "Agile. Lethal."
+  },
+  {
+   "id": "g12",
+   "text": "The second: a new secret technology called radar. German planes were spotted the moment they took off.",
+   "img": "blitz",
+   "stat": "RADAR",
+   "cap": "Spotted the moment they took off."
+  },
+  {
+   "id": "g13",
+   "text": "All summer, the battle raged overhead. Hundreds of aircraft, every single day.",
+   "img": "blitz",
+   "cap": "Hundreds of aircraft, every day."
+  },
+  {
+   "id": "g14",
+   "text": "British pilots flew 4 sorties a day. Many of them were only 19 or 20 years old.",
+   "img": "spitfire",
+   "cap": "Many pilots were 19 or 20."
+  },
+  {
+   "id": "g15",
+   "text": "Then Hitler changed strategy. The targets became cities. London was bombed for 57 consecutive nights. They called it the Blitz.",
+   "img": "blitzlondon",
+   "stat": "THE BLITZ · 57 NIGHTS",
+   "statColor": "#FF4D4D",
+   "cap": "The targets became cities."
+  },
+  {
+   "id": "g16",
+   "text": "Thousands died. But Britain did not break. People slept in Underground stations at night, and went to work in the morning.",
+   "img": "blitzlondon",
+   "cap": "Thousands died. Britain did not break."
+  },
+  {
+   "id": "g17",
+   "text": "September 1940. Hitler postponed the invasion of Britain. It never came.",
+   "img": "churchill",
+   "stat": "SEPTEMBER 1940 · INVASION CANCELLED",
+   "statColor": "#FFC53D",
+   "cap": "The invasion never came."
+  },
+  {
+   "id": "g18",
+   "text": "For the first time, the world saw it. Hitler could be stopped.",
+   "img": "churchill",
+   "cap": "Hitler could be stopped."
+  },
+  {
+   "id": "g19",
+   "text": "Churchill made those pilots immortal. Never was so much owed by so many to so few.",
+   "img": "spitfire",
+   "stat": "\"…owed by so many to so few\"",
+   "statColor": "#FFC53D",
+   "cap": "So much, owed to so few."
+  },
+  {
+   "id": "s_t",
+   "text": "Chapter four. The greatest mistake.",
+   "chapter": "CHAPTER 4\nThe Greatest Mistake"
+  },
+  {
+   "id": "s1",
+   "text": "Blocked at Britain, Hitler turned the map around — and looked east.",
+   "img": "dictator",
+   "cap": "Hitler looked east."
+  },
+  {
+   "id": "s2",
+   "text": "The Soviet Union. The same country he had signed a friendship pact with.",
+   "img": "pact",
+   "stat": "A PACT OF FRIENDSHIP?",
+   "cap": "The same Soviet Union."
+  },
+  {
+   "id": "s3",
+   "text": "For Hitler, that pact was only ever a trick. A way to buy time.",
+   "img": "pact",
+   "cap": "The pact was only a trick."
+  },
+  {
+   "id": "s4",
+   "text": "What he wanted was Soviet land, Ukraine's grain, and the oil of the Caucasus.",
+   "img": "map_expand",
+   "stat": "LAND · GRAIN · OIL",
+   "cap": "The real hunger."
+  },
+  {
+   "id": "s5",
+   "text": "June 22, 1941. Operation Barbarossa. The largest invasion in human history.",
+   "img": "barbarossa",
+   "stat": "OPERATION BARBAROSSA · JUNE 22, 1941",
+   "statColor": "#FF4D4D",
+   "cap": "The largest invasion in history."
+  },
+  {
+   "id": "s6",
+   "text": "3.8 million soldiers. Thousands of tanks and aircraft. Across the border in a single morning.",
+   "img": "barbarossa",
+   "stat": "3.8 MILLION SOLDIERS",
+   "statColor": "#FF4D4D",
+   "cap": "Across the border in one morning."
+  },
+  {
+   "id": "s7",
+   "text": "Stalin refused to believe it. The warnings kept coming, and he kept dismissing them as lies.",
+   "img": "dictator",
+   "cap": "Stalin refused to believe it."
+  },
+  {
+   "id": "s8",
+   "text": "At first, Germany looked unstoppable. Within weeks, millions of Soviet soldiers were prisoners.",
+   "img": "tanks",
+   "cap": "Millions taken prisoner in weeks."
+  },
+  {
+   "id": "s9",
+   "text": "But this war was different. It was not a war to conquer. It was a war to erase.",
+   "img": "warhook",
+   "cap": "A war of annihilation."
+  },
+  {
+   "id": "s10",
+   "text": "As the Soviets retreated, they burned everything behind them. Fields. Bridges. Factories. Nothing would be left for the enemy.",
+   "img": "warhook",
+   "stat": "SCORCHED EARTH",
+   "cap": "Retreat — and burn everything."
+  },
+  {
+   "id": "s11",
+   "text": "Even so, the German army reached within a few kilometers of Moscow.",
+   "img": "barbarossa",
+   "cap": "Kilometers from Moscow."
+  },
+  {
+   "id": "s12",
+   "text": "And then Russia's oldest weapon took the field. Winter.",
+   "img": "winter",
+   "stat": "THE RUSSIAN WINTER",
+   "cap": "Russia's oldest weapon."
+  },
+  {
+   "id": "s13",
+   "text": "Minus 30. Minus 40 degrees. The German soldiers did not even have winter clothing.",
+   "img": "winter",
+   "stat": "−30° · −40°",
+   "statColor": "#FF4D4D",
+   "cap": "No winter clothing. None."
+  },
+  {
+   "id": "s14",
+   "text": "Tank oil froze solid. Rifles stopped firing. Thousands of soldiers died of the cold itself.",
+   "img": "winter",
+   "cap": "Tanks froze. Rifles jammed."
+  },
+  {
+   "id": "s15",
+   "text": "December 1941. The Soviet counterattack outside Moscow. For the first time in the war, Germany was pushed back.",
+   "img": "winter",
+   "stat": "DECEMBER 1941 · SOVIET COUNTERATTACK",
+   "statColor": "#FFC53D",
+   "cap": "Germany pushed back — for the first time."
+  },
+  {
+   "id": "s16",
+   "text": "Hitler was now trapped in a two-front war. The exact mistake that had drowned Germany in the First World War.",
+   "img": "map_expand",
+   "stat": "A TWO-FRONT WAR",
+   "statColor": "#FF4D4D",
+   "cap": "The same mistake as the last war."
+  },
+  {
+   "id": "s17",
+   "text": "And that very week, on the other side of the planet, another storm broke.",
+   "img": "pearl",
+   "cap": "That same week — another storm."
+  },
+  {
+   "id": "j_t",
+   "text": "Chapter five. The sleeping giant.",
+   "chapter": "CHAPTER 5\nThe Sleeping Giant"
+  },
+  {
+   "id": "j1",
+   "text": "In Asia, another empire was spreading. Japan.",
+   "img": "map_asia",
+   "stat": "JAPAN",
+   "cap": "Another empire, spreading."
+  },
+  {
+   "id": "j2",
+   "text": "First the invasion of China. Then its eyes turned to the entire Asia-Pacific.",
+   "img": "map_asia",
+   "cap": "First China. Then everything."
+  },
+  {
+   "id": "j3",
+   "text": "In response, America cut Japan's lifeline. Oil.",
+   "img": "map_asia",
+   "stat": "THE OIL EMBARGO",
+   "statColor": "#FF4D4D",
+   "cap": "America cut the lifeline."
+  },
+  {
+   "id": "j4",
+   "text": "Japan had two options. Back down — or strike America itself.",
+   "img": "sides",
+   "cap": "Back down — or strike."
+  },
+  {
+   "id": "j5",
+   "text": "It chose to strike. The plan: destroy the American fleet in a single blow.",
+   "img": "pearl",
+   "cap": "Destroy the fleet in one blow."
+  },
+  {
+   "id": "j6",
+   "text": "December 7, 1941. A quiet Sunday morning. Pearl Harbor, Hawaii.",
+   "img": "pearl",
+   "stat": "PEARL HARBOR · DECEMBER 7, 1941",
+   "statColor": "#FF4D4D",
+   "cap": "A quiet Sunday morning."
+  },
+  {
+   "id": "j7",
+   "text": "More than 350 Japanese aircraft. No warning at all.",
+   "img": "pearl",
+   "cap": "350+ aircraft. No warning."
+  },
+  {
+   "id": "j8",
+   "text": "In 2 hours, 8 battleships were sunk or crippled. 2,400 Americans were dead.",
+   "img": "pearl",
+   "stat": "8 BATTLESHIPS · 2,400 DEAD",
+   "statColor": "#FF4D4D",
+   "cap": "Two hours. That's all it took."
+  },
+  {
+   "id": "j9",
+   "text": "President Roosevelt called it a date which will live in infamy.",
+   "img": "pearl",
+   "stat": "\"a date which will live in infamy\"",
+   "statColor": "#FFC53D",
+   "cap": "— President Roosevelt"
+  },
+  {
+   "id": "j10",
+   "text": "The very next day, America entered the war.",
+   "img": "wardeclare",
+   "cap": "The next day, America was in."
+  },
+  {
+   "id": "j11",
+   "text": "And Hitler declared war on America himself. His second greatest mistake.",
+   "img": "dictator",
+   "cap": "Hitler's second greatest mistake."
+  },
+  {
+   "id": "j12",
+   "text": "Because now the largest factory on Earth — the United States — was on the Allied side.",
+   "img": "factory",
+   "stat": "THE WORLD'S LARGEST FACTORY",
+   "cap": "Now on the Allied side."
+  },
+  {
+   "id": "j13",
+   "text": "The war was now truly global. The Axis against the Allies.",
+   "img": "sides",
+   "stat": "AXIS vs ALLIES",
+   "cap": "Now, truly, a world war."
+  },
+  {
+   "id": "o_t",
+   "text": "Chapter six. The darkest chapter.",
+   "chapter": "CHAPTER 6\nThe Darkest Chapter"
+  },
+  {
+   "id": "o1",
+   "text": "Behind this war, another crime was underway. Quiet, deliberate, and planned to the last detail.",
+   "img": "suppress",
+   "cap": "Behind the war — another crime."
+  },
+  {
+   "id": "o2",
+   "text": "Nazi ideology was built on a foundation of hatred. Above all, hatred of the Jews.",
+   "img": "suppress",
+   "cap": "An ideology built on hatred."
+  },
+  {
+   "id": "o3",
+   "text": "First came the laws. Citizenship revoked. Jobs taken. A yellow star stitched onto every identity.",
+   "img": "ghetto",
+   "stat": "THE YELLOW STAR",
+   "cap": "Citizenship revoked. Identity branded."
+  },
+  {
+   "id": "o4",
+   "text": "Then came the ghettos. Walled-off districts inside the cities. Sealed.",
+   "img": "ghetto",
+   "stat": "THE GHETTOS",
+   "cap": "Walled off. Sealed in."
+  },
+  {
+   "id": "o5",
+   "text": "And then, in 1942, the Nazi leadership approved what they called the Final Solution.",
+   "img": "dictator",
+   "stat": "1942 · THE 'FINAL SOLUTION'",
+   "cap": "Approved by the Nazi leadership."
+  },
+  {
+   "id": "o6",
+   "text": "Trains began running from every corner of Europe. Destination — the death camps. Auschwitz. Treblinka.",
+   "img": "auschwitz",
+   "stat": "AUSCHWITZ · TREBLINKA",
+   "cap": "Trains from all across Europe."
+  },
+  {
+   "id": "o7",
+   "text": "What happened there was the most organized crime in human history.",
+   "img": "auschwitz",
+   "cap": "The most organized crime in history."
+  },
+  {
+   "id": "o8",
+   "text": "6 million Jews were murdered.",
+   "img": "auschwitz",
+   "stat": "6 MILLION",
+   "cap": "Six million Jewish lives."
+  },
+  {
+   "id": "o9",
+   "text": "And millions more alongside them. Roma. The disabled. Prisoners of war. Every voice that was different.",
+   "img": "reflect",
+   "cap": "And millions more — every voice that was different."
+  },
+  {
+   "id": "o10",
+   "text": "History gave it a name. The Holocaust.",
+   "img": "auschwitz",
+   "stat": "THE HOLOCAUST",
+   "cap": "History gave it a name."
+  },
+  {
+   "id": "o11",
+   "text": "These are not just numbers. Every number was a name. A face. A family.",
+   "img": "reflect",
+   "cap": "Every number was a name. A face. A family."
+  },
+  {
+   "id": "o12",
+   "text": "Afterward, the world made a vow. Never again.",
+   "img": "reflect",
+   "stat": "NEVER AGAIN",
+   "cap": "Never again."
+  },
+  {
+   "id": "o13",
+   "text": "Remembering is the first duty. Because those who forget, repeat.",
+   "img": "reflect",
+   "cap": "Those who forget, repeat."
+  },
+  {
+   "id": "n_t",
+   "text": "Chapter seven. War in the desert.",
+   "chapter": "CHAPTER 7\nWar in the Desert"
+  },
+  {
+   "id": "n1",
+   "text": "Thousands of kilometers from Europe, another front was burning. The North African desert.",
+   "img": "afrikakorps",
+   "stat": "NORTH AFRICA",
+   "cap": "Another front was burning."
+  },
+  {
+   "id": "n2",
+   "text": "At stake: the Suez Canal — the lifeline of the British Empire — and the oil of the Middle East.",
+   "img": "map_expand",
+   "stat": "SUEZ CANAL · OIL",
+   "cap": "The empire's lifeline."
+  },
+  {
+   "id": "n3",
+   "text": "Italy went in first. And was beaten badly.",
+   "img": "afrikakorps",
+   "cap": "Italy went first — and was beaten."
+  },
+  {
+   "id": "n4",
+   "text": "So Hitler sent his most cunning general. Erwin Rommel. They called him the Desert Fox.",
+   "img": "rommel",
+   "stat": "ERWIN ROMMEL · 'THE DESERT FOX'",
+   "cap": "Hitler's most cunning general."
+  },
+  {
+   "id": "n5",
+   "text": "Rommel's Afrika Korps drove the British army all the way back toward the sea.",
+   "img": "afrikakorps",
+   "cap": "Driven back toward the sea."
+  },
+  {
+   "id": "n6",
+   "text": "And here, in this desert, India's story joined the war.",
+   "img": "indianarmy",
+   "stat": "INDIA ENTERS THE WAR",
+   "statColor": "#FFC53D",
+   "cap": "Here, India's story joined the war."
+  },
+  {
+   "id": "n7",
+   "text": "The 4th and 5th Indian Divisions. Men from Punjab, Maharashtra, Madras, Nepal — holding the line in the sand.",
+   "img": "indianarmy",
+   "stat": "4TH · 5TH INDIAN DIVISION",
+   "cap": "From Punjab to Madras — holding the line."
+  },
+  {
+   "id": "n8",
+   "text": "The siege of Tobruk. Sidi Barrani. In every major battle, Indian regiments were at the front.",
+   "img": "indianarmy",
+   "cap": "Tobruk. Sidi Barrani. Every front."
+  },
+  {
+   "id": "n9",
+   "text": "Then came the deciding ground. El Alamein. The last gateway into Egypt.",
+   "img": "alamein",
+   "stat": "EL ALAMEIN",
+   "statColor": "#FF4D4D",
+   "cap": "The last gateway into Egypt."
+  },
+  {
+   "id": "n10",
+   "text": "October 1942. General Montgomery's counterattack. 12 days of brutal fighting.",
+   "img": "alamein",
+   "stat": "OCTOBER 1942 · 12 DAYS",
+   "cap": "Montgomery strikes back."
+  },
+  {
+   "id": "n11",
+   "text": "Rommel broke. The Afrika Korps fell back — and never returned.",
+   "img": "afrikakorps",
+   "cap": "Rommel never came back."
+  },
+  {
+   "id": "n12",
+   "text": "Churchill said: this is not the end. But it is, perhaps, the end of the beginning.",
+   "img": "churchill",
+   "stat": "\"the end of the beginning\"",
+   "statColor": "#FFC53D",
+   "cap": "Perhaps, the end of the beginning."
+  },
+  {
+   "id": "n13",
+   "text": "And among the men who paid for that victory, thousands of the names were Indian.",
+   "img": "indianarmy",
+   "cap": "Thousands of those names were Indian."
+  },
+  {
+   "id": "i_t",
+   "text": "Chapter eight. India and the war.",
+   "chapter": "CHAPTER 8\nIndia and the War"
+  },
+  {
+   "id": "i1",
+   "text": "Now the story that most history books give a single page. Most documentaries skip it entirely.",
+   "img": "indianarmy",
+   "cap": "The story most documentaries skip."
+  },
+  {
+   "id": "i2",
+   "text": "In 1939, Viceroy Linlithgow made an announcement: India is at war.",
+   "stat": "1939 · THE VICEROY'S DECLARATION",
+   "cap": "India is at war."
+  },
+  {
+   "id": "i3",
+   "text": "Not a single Indian leader was consulted. The fate of 300 million people, decided with one signature.",
+   "cap": "300 million people. One signature."
+  },
+  {
+   "id": "i4",
+   "text": "Congress resigned in protest. The country seethed.",
+   "img": "angrycrowd",
+   "cap": "Resignations. Fury. Protest."
+  },
+  {
+   "id": "i5",
+   "text": "And yet — 2.5 million Indians put on the uniform. No conscription. No force. Every one of them chose to go.",
+   "img": "indianarmy",
+   "stat": "2.5 MILLION VOLUNTEERS",
+   "statColor": "#FFC53D",
+   "cap": "No conscription. Every one chose."
+  },
+  {
+   "id": "i6",
+   "text": "The largest volunteer army in history.",
+   "img": "indianarmy",
+   "cap": "The largest volunteer army in history."
+  },
+  {
+   "id": "i7",
+   "text": "They fought everywhere. The deserts of Africa. The mountains of Italy. The jungles of Burma.",
+   "img": "indianarmy",
+   "cap": "Africa. Italy. Burma."
+  },
+  {
+   "id": "i8",
+   "text": "Indians on the heights of Monte Cassino. Indians in the streets of Singapore. Iraq, Iran, Egypt — on every front of this war.",
+   "img": "alamein",
+   "cap": "From Monte Cassino to Singapore."
+  },
+  {
+   "id": "i9",
+   "text": "More than 30 Victoria Crosses — the highest award for valor — were pinned on Indian chests.",
+   "img": "indianarmy",
+   "stat": "30+ VICTORIA CROSSES",
+   "statColor": "#FFC53D",
+   "cap": "The highest award for valor."
+  },
+  {
+   "id": "i10",
+   "text": "But back home, the story was dark.",
+   "cap": "Back home, the story was dark."
+  },
+  {
+   "id": "i11",
+   "text": "1943. Bengal. The harvests existed — but the rice was leaving, requisitioned for the war.",
+   "stat": "BENGAL · 1943",
+   "cap": "The rice was leaving for the war."
+  },
+  {
+   "id": "i12",
+   "text": "Prices exploded. The granaries stood empty. And the help came far, far too late.",
+   "cap": "Prices exploded. Granaries stood empty."
+  },
+  {
+   "id": "i13",
+   "text": "The estimates say 2 to 3 million people starved to death. The Bengal famine.",
+   "stat": "2–3 MILLION DEAD",
+   "cap": "The Bengal famine."
+  },
+  {
+   "id": "i14",
+   "text": "Historians still argue whether it was negligence or policy. The dead do not argue.",
+   "img": "reflect",
+   "cap": "The dead do not argue."
+  },
+  {
+   "id": "i15",
+   "text": "And in these same years, another path was chosen. The path of Subhas Chandra Bose.",
+   "img": "bose",
+   "stat": "SUBHAS CHANDRA BOSE",
+   "cap": "Another path."
+  },
+  {
+   "id": "i16",
+   "text": "Bose believed the enemy of the British could be a friend of India.",
+   "img": "bose",
+   "cap": "The enemy of the British — India's friend?"
+  },
+  {
+   "id": "i17",
+   "text": "With Japan's backing, he raised the Indian National Army. Around 40,000 soldiers.",
+   "img": "bose",
+   "stat": "INDIAN NATIONAL ARMY · ~40,000",
+   "cap": "An army raised in exile."
+  },
+  {
+   "id": "i18",
+   "text": "His call echoed across Asia: give me blood, and I will give you freedom.",
+   "img": "bose",
+   "stat": "\"Give me blood…\"",
+   "statColor": "#FFC53D",
+   "cap": "…and I will give you freedom."
+  },
+  {
+   "id": "i19",
+   "text": "1944. The Japanese army and the Indian National Army reached the border of India itself.",
+   "img": "map_asia",
+   "cap": "The war reached India's border."
+  },
+  {
+   "id": "i20",
+   "text": "Kohima and Imphal. The hills of Nagaland and Manipur. History calls it the Stalingrad of the East.",
+   "img": "kohima",
+   "stat": "KOHIMA · IMPHAL · 1944",
+   "statColor": "#FF4D4D",
+   "cap": "The Stalingrad of the East."
+  },
+  {
+   "id": "i21",
+   "text": "Trenches faced each other across the width of a tennis court. Weeks of hand-to-hand fighting.",
+   "img": "kohima",
+   "cap": "Trenches a tennis court apart."
+  },
+  {
+   "id": "i22",
+   "text": "And who stopped Japan there? In huge numbers — Indian soldiers.",
+   "img": "kohima",
+   "cap": "Who stopped Japan? Indian soldiers."
+  },
+  {
+   "id": "i23",
+   "text": "Indians, on both sides of the same battle. One of the strangest tragedies in history.",
+   "img": "kohima",
+   "cap": "Indians — on both sides."
+  },
+  {
+   "id": "i24",
+   "text": "That defeat was Japan's largest on land, anywhere in the war. It happened on Indian soil.",
+   "img": "kohima",
+   "stat": "JAPAN'S LARGEST LAND DEFEAT",
+   "statColor": "#FFC53D",
+   "cap": "It happened on Indian soil."
+  },
+  {
+   "id": "i25",
+   "text": "When the war ended, India had changed.",
+   "img": "indianarmy",
+   "cap": "The war ended. India had changed."
+  },
+  {
+   "id": "i26",
+   "text": "Hands that had learned to fight across the world would not accept chains again.",
+   "img": "indianarmy",
+   "cap": "These hands would not accept chains."
+  },
+  {
+   "id": "i27",
+   "text": "The Indian National Army trials united the country. Then the navy itself mutinied.",
+   "img": "angrycrowd",
+   "stat": "INA TRIALS · NAVAL MUTINY",
+   "cap": "The country united. The navy rose."
+  },
+  {
+   "id": "i28",
+   "text": "The British understood. The army was no longer theirs. And without the army, there is no empire.",
+   "cap": "Without the army, there is no empire."
+  },
+  {
+   "id": "i29",
+   "text": "Just two years later — August 15, 1947.",
+   "stat": "AUGUST 15, 1947",
+   "statColor": "#FFC53D",
+   "cap": "Just two years later."
+  },
+  {
+   "id": "i30",
+   "text": "This war is the hidden chapter of India's freedom story.",
+   "img": "reflect",
+   "cap": "The hidden chapter of a freedom story."
+  },
+  {
+   "id": "t_t",
+   "text": "Chapter nine. Stalingrad.",
+   "chapter": "CHAPTER 9\nStalingrad"
+  },
+  {
+   "id": "t1",
+   "text": "Summer, 1942. Hitler had learned nothing from the defeat at Moscow.",
+   "img": "dictator",
+   "cap": "He learned nothing from Moscow."
+  },
+  {
+   "id": "t2",
+   "text": "This time the target was the south — the oil of the Caucasus. And on the way, there was a city.",
+   "img": "map_expand",
+   "stat": "THE CAUCASUS OIL",
+   "cap": "And on the way — a city."
+  },
+  {
+   "id": "t3",
+   "text": "Stalingrad. The city that carried Stalin's name.",
+   "img": "stalingrad",
+   "stat": "STALINGRAD",
+   "statColor": "#FF4D4D",
+   "cap": "The city with Stalin's name."
+  },
+  {
+   "id": "t4",
+   "text": "For Hitler, this was no longer strategy. It was obsession. A war between the egos of two dictators.",
+   "img": "dictator",
+   "cap": "A war of two egos."
+  },
+  {
+   "id": "t5",
+   "text": "Stalin's Order Number 227: not one step back.",
+   "img": "stalingrad",
+   "stat": "ORDER No. 227",
+   "cap": "Not one step back."
+  },
+  {
+   "id": "t6",
+   "text": "August 1942. German bombing reduced the entire city to rubble.",
+   "img": "warhook",
+   "stat": "AUGUST 1942",
+   "cap": "A whole city, reduced to rubble."
+  },
+  {
+   "id": "t7",
+   "text": "But that same rubble became a fortress for the Soviet defenders.",
+   "img": "stalingrad",
+   "cap": "The rubble became a fortress."
+  },
+  {
+   "id": "t8",
+   "text": "Now the war was in the streets. House by house. Room by room. Staircase by staircase.",
+   "img": "stalingrad",
+   "cap": "House by house. Room by room."
+  },
+  {
+   "id": "t9",
+   "text": "The German soldiers had a name for it. Rattenkrieg. The war of the rats.",
+   "img": "stalingrad",
+   "stat": "RATTENKRIEG",
+   "statColor": "#FF4D4D",
+   "cap": "The war of the rats."
+  },
+  {
+   "id": "t10",
+   "text": "Weeks of fighting for a single building. The railway station changed hands 14 times.",
+   "img": "stalingrad",
+   "stat": "RAILWAY STATION · 14 TIMES",
+   "cap": "It changed hands fourteen times."
+  },
+  {
+   "id": "t11",
+   "text": "Pavlov's House. One sergeant and a handful of soldiers held a single building for 58 days.",
+   "img": "stalingrad",
+   "stat": "PAVLOV'S HOUSE · 58 DAYS",
+   "statColor": "#FFC53D",
+   "cap": "A handful of men. One building."
+  },
+  {
+   "id": "t12",
+   "text": "The snipers ruled the ruins. Every window was death.",
+   "img": "stalingrad",
+   "cap": "Every window was death."
+  },
+  {
+   "id": "t13",
+   "text": "Vasily Zaitsev — a shepherd's son — 225 German soldiers.",
+   "img": "stalingrad",
+   "stat": "VASILY ZAITSEV · 225",
+   "cap": "A shepherd's son."
+  },
+  {
+   "id": "t14",
+   "text": "Then winter returned. The Volga began to freeze. And the German supply lines began to snap.",
+   "img": "winter",
+   "cap": "The Volga froze. Supplies snapped."
+  },
+  {
+   "id": "t15",
+   "text": "And Soviet general Zhukov sprang his trap. Operation Uranus.",
+   "img": "map_expand",
+   "stat": "OPERATION URANUS · ZHUKOV",
+   "cap": "The trap opens."
+  },
+  {
+   "id": "t16",
+   "text": "November 1942. Two Soviet armies swung wide around both sides of the city...",
+   "img": "map_expand",
+   "cap": "Two armies, swinging around the city…"
+  },
+  {
+   "id": "t17",
+   "text": "And sealed the German Sixth Army inside. More than 250,000 soldiers. Surrounded.",
+   "img": "map_expand",
+   "stat": "6TH ARMY ENCIRCLED · 250,000+",
+   "statColor": "#FF4D4D",
+   "cap": "Sealed inside."
+  },
+  {
+   "id": "t18",
+   "text": "Hitler's order: retreat is forbidden. Keep fighting.",
+   "img": "dictator",
+   "cap": "Retreat is forbidden."
+  },
+  {
+   "id": "t19",
+   "text": "Göring promised to supply them from the air. The promise was a lie.",
+   "img": "blitz",
+   "cap": "Supplies by air — a promise, and a lie."
+  },
+  {
+   "id": "t20",
+   "text": "The encircled men began to starve. At minus 30. Eating rats. Horses. Whatever there was.",
+   "img": "winter",
+   "cap": "Starving. At minus 30."
+  },
+  {
+   "id": "t21",
+   "text": "January 31, 1943. Field Marshal Paulus surrendered.",
+   "img": "paulus",
+   "stat": "JANUARY 31, 1943 · SURRENDER",
+   "statColor": "#FFC53D",
+   "cap": "Field Marshal Paulus surrenders."
+  },
+  {
+   "id": "t22",
+   "text": "Hitler had promoted him to field marshal only the day before. Because no German field marshal had ever been taken alive.",
+   "img": "paulus",
+   "cap": "Promoted just one day before."
+  },
+  {
+   "id": "t23",
+   "text": "The message was clear: take your own life. Paulus refused.",
+   "img": "paulus",
+   "cap": "The message was suicide. He refused."
+  },
+  {
+   "id": "t24",
+   "text": "The cost? Around 2 million people, both sides combined. For one city.",
+   "img": "warhook",
+   "stat": "~2 MILLION DEAD",
+   "statColor": "#FF4D4D",
+   "cap": "For a single city."
+  },
+  {
+   "id": "t25",
+   "text": "The bloodiest battlefield in human history.",
+   "img": "stalingrad",
+   "cap": "The bloodiest battlefield in history."
+  },
+  {
+   "id": "t26",
+   "text": "And here, the war turned. From this point on, the German army would only move backward.",
+   "img": "stalingrad",
+   "stat": "THE TIDE TURNS",
+   "statColor": "#FFC53D",
+   "cap": "From here, Germany only retreats."
+  },
+  {
+   "id": "t27",
+   "text": "All the way to Berlin.",
+   "img": "map_expand",
+   "cap": "All the way to Berlin."
+  },
+  {
+   "id": "m_t",
+   "text": "Chapter ten. The Pacific strikes back.",
+   "chapter": "CHAPTER 10\nThe Pacific Strikes Back"
+  },
+  {
+   "id": "m1",
+   "text": "Out in the Pacific, Japan looked unbeatable.",
+   "img": "map_asia",
+   "cap": "In the Pacific, Japan looked unbeatable."
+  },
+  {
+   "id": "m2",
+   "text": "In the 6 months after Pearl Harbor — the Philippines, Malaya, Singapore, Burma. All of it fell.",
+   "img": "map_asia",
+   "stat": "6 MONTHS · EVERYTHING FALLS",
+   "statColor": "#FF4D4D",
+   "cap": "Philippines. Malaya. Singapore. Burma."
+  },
+  {
+   "id": "m3",
+   "text": "Churchill called the fall of Singapore the worst disaster in British history.",
+   "img": "map_asia",
+   "cap": "'The worst disaster in British history.'"
+  },
+  {
+   "id": "m4",
+   "text": "But America had a weapon Japan knew nothing about.",
+   "img": "factory",
+   "cap": "A weapon Japan knew nothing about."
+  },
+  {
+   "id": "m5",
+   "text": "Codebreakers. Japan's secret messages were no longer secret.",
+   "img": "factory",
+   "stat": "THE CODEBREAKERS",
+   "statColor": "#FFC53D",
+   "cap": "The secrets were no longer secret."
+  },
+  {
+   "id": "m6",
+   "text": "June 1942. Japan's plan was an ambush at Midway Island.",
+   "img": "akagi",
+   "stat": "MIDWAY · JUNE 1942",
+   "cap": "Japan planned an ambush."
+  },
+  {
+   "id": "m7",
+   "text": "But America was already waiting in the ambush.",
+   "img": "akagi",
+   "cap": "America was already waiting."
+  },
+  {
+   "id": "m8",
+   "text": "June 4. Just 5 minutes. In 5 minutes, American dive bombers set 3 Japanese aircraft carriers ablaze.",
+   "img": "midway",
+   "stat": "5 MINUTES · 3 CARRIERS",
+   "statColor": "#FF4D4D",
+   "cap": "The five most expensive minutes in history."
+  },
+  {
+   "id": "m9",
+   "text": "The fourth carrier sank by evening.",
+   "img": "midway",
+   "cap": "The fourth sank by evening."
+  },
+  {
+   "id": "m10",
+   "text": "The backbone of the Japanese navy — broken in a single day.",
+   "img": "akagi",
+   "cap": "The navy's backbone — broken in a day."
+  },
+  {
+   "id": "m11",
+   "text": "An empire won in 6 months began to shrink.",
+   "img": "map_asia",
+   "cap": "The empire began to shrink."
+  },
+  {
+   "id": "m12",
+   "text": "And so began island hopping. One island, one step at a time — toward Japan.",
+   "img": "map_asia",
+   "stat": "ISLAND HOPPING",
+   "cap": "Island by island, toward Japan."
+  },
+  {
+   "id": "m13",
+   "text": "By the end of 1942: El Alamein. Stalingrad. Midway.",
+   "img": "alamein",
+   "cap": "El Alamein. Stalingrad. Midway."
+  },
+  {
+   "id": "m14",
+   "text": "3 continents. 3 defeats. The Axis advance was over.",
+   "img": "sides",
+   "stat": "3 CONTINENTS · 3 DEFEATS",
+   "statColor": "#FFC53D",
+   "cap": "The Axis advance was over."
+  },
+  {
+   "id": "m15",
+   "text": "Now the story changes. From defense — to attack.",
+   "img": "warhook",
+   "cap": "From defense — to attack."
+  },
+  {
+   "id": "k_t",
+   "text": "Chapter eleven. The last gamble.",
+   "chapter": "CHAPTER 11\nThe Last Gamble"
+  },
+  {
+   "id": "k1",
+   "text": "After Stalingrad, Hitler needed a great victory. At any cost.",
+   "img": "dictator",
+   "cap": "He needed a victory. At any cost."
+  },
+  {
+   "id": "k2",
+   "text": "The place he chose was Kursk. A bulge in the Soviet line.",
+   "img": "map_expand",
+   "stat": "KURSK",
+   "cap": "A bulge in the line."
+  },
+  {
+   "id": "k3",
+   "text": "July 1943. The largest tank battle in history.",
+   "img": "kursk",
+   "stat": "JULY 1943",
+   "statColor": "#FF4D4D",
+   "cap": "The largest tank battle in history."
+  },
+  {
+   "id": "k4",
+   "text": "Nearly 6,000 tanks. 2 million soldiers.",
+   "img": "kursk",
+   "stat": "~6,000 TANKS · 2 MILLION MEN",
+   "cap": "Face to face."
+  },
+  {
+   "id": "k5",
+   "text": "But Soviet spies already knew the entire plan.",
+   "img": "kursk",
+   "cap": "The plan had already leaked."
+  },
+  {
+   "id": "k6",
+   "text": "They built a fortress of defenses — minefields, trenches, walls of artillery.",
+   "img": "kursk",
+   "cap": "Minefields. Trenches. Walls of guns."
+  },
+  {
+   "id": "k7",
+   "text": "The German attack hit that wall — and shattered.",
+   "img": "kursk",
+   "cap": "The attack hit the wall — and shattered."
+  },
+  {
+   "id": "k8",
+   "text": "After Kursk, Germany never attacked in the east again. Not once.",
+   "img": "kursk",
+   "stat": "GERMANY'S LAST EASTERN OFFENSIVE",
+   "statColor": "#FFC53D",
+   "cap": "Never again. Not once."
+  },
+  {
+   "id": "k9",
+   "text": "That same month, the Allies landed in Sicily.",
+   "img": "map_expand",
+   "cap": "That same month — Sicily."
+  },
+  {
+   "id": "k10",
+   "text": "Italy shook. Mussolini — dictator for 20 years — was arrested by his own people.",
+   "img": "podium",
+   "stat": "MUSSOLINI ARRESTED",
+   "statColor": "#FF4D4D",
+   "cap": "Arrested by his own people."
+  },
+  {
+   "id": "k11",
+   "text": "Italy switched sides.",
+   "img": "sides",
+   "cap": "Italy switched sides."
+  },
+  {
+   "id": "k12",
+   "text": "The Axis of 3 — now down to 2.",
+   "img": "sides",
+   "stat": "AXIS: 3 → 2",
+   "cap": "The alliance was cracking."
+  },
+  {
+   "id": "k13",
+   "text": "Hitler was retreating on every front. But the biggest blow was still to come.",
+   "img": "warhook",
+   "cap": "The biggest blow was still coming."
+  },
+  {
+   "id": "k14",
+   "text": "On the beaches of France.",
+   "img": "dunkirk",
+   "cap": "On the beaches of France."
+  },
+  {
+   "id": "q_t",
+   "text": "Chapter twelve. D-Day.",
+   "chapter": "CHAPTER 12\nD-Day"
+  },
+  {
+   "id": "q1",
+   "text": "By 1944, the question was no longer whether the Allies would land in France. The question was where — and when.",
+   "img": "map_expand",
+   "cap": "The question was where — and when."
+  },
+  {
+   "id": "q2",
+   "text": "Hitler had turned the entire coast into a fortress. The Atlantic Wall.",
+   "img": "maginot",
+   "stat": "THE ATLANTIC WALL",
+   "cap": "An entire coastline, fortified."
+  },
+  {
+   "id": "q3",
+   "text": "But the Allies had a weapon of their own. A lie.",
+   "img": "pact",
+   "cap": "The Allied weapon — a lie."
+  },
+  {
+   "id": "q4",
+   "text": "Operation Fortitude. An entire fake army. Rubber tanks. Phantom radio traffic.",
+   "img": "pact",
+   "stat": "OPERATION FORTITUDE",
+   "statColor": "#FFC53D",
+   "cap": "A fake army. Rubber tanks."
+  },
+  {
+   "id": "q5",
+   "text": "Germany was convinced the invasion would come at Calais. Not Normandy.",
+   "img": "map_expand",
+   "cap": "Germany stared at Calais."
+  },
+  {
+   "id": "q6",
+   "text": "June 6, 1944. The darkness before dawn.",
+   "img": "dday",
+   "stat": "JUNE 6, 1944",
+   "statColor": "#FF4D4D",
+   "cap": "The darkness before dawn."
+  },
+  {
+   "id": "q7",
+   "text": "The largest seaborne invasion in history. 7,000 ships. 156,000 soldiers. In a single day.",
+   "img": "dday",
+   "stat": "7,000 SHIPS · 156,000 MEN",
+   "cap": "The largest seaborne invasion ever."
+  },
+  {
+   "id": "q8",
+   "text": "Americans, British, Canadians — across 5 beaches at once.",
+   "img": "dday",
+   "cap": "Five beaches. All at once."
+  },
+  {
+   "id": "q9",
+   "text": "Utah. Omaha. Gold. Juno. Sword.",
+   "img": "dday",
+   "stat": "UTAH · OMAHA · GOLD · JUNO · SWORD",
+   "cap": "Five names, one morning."
+  },
+  {
+   "id": "q10",
+   "text": "Omaha was a slaughterhouse. Open sand, straight into the machine guns.",
+   "img": "dday",
+   "cap": "Omaha was a slaughterhouse."
+  },
+  {
+   "id": "q11",
+   "text": "In some first-wave companies, more than half the men went down.",
+   "img": "dday",
+   "cap": "More than half the first wave fell."
+  },
+  {
+   "id": "q12",
+   "text": "But by nightfall, all 5 beaches were in Allied hands.",
+   "img": "dday",
+   "stat": "BY NIGHTFALL — ALL 5 BEACHES",
+   "statColor": "#FFC53D",
+   "cap": "The foothold held."
+  },
+  {
+   "id": "q13",
+   "text": "And Hitler? He slept for hours. His generals begged for permission to send the tanks.",
+   "img": "dictator",
+   "cap": "And Hitler? He slept."
+  },
+  {
+   "id": "q14",
+   "text": "The lie kept working. For weeks, Germany waited for the real invasion at Calais.",
+   "img": "map_expand",
+   "cap": "For weeks, they still watched Calais."
+  },
+  {
+   "id": "q15",
+   "text": "The Allied armies broke out of Normandy.",
+   "img": "tanks",
+   "cap": "The breakout from Normandy."
+  },
+  {
+   "id": "q16",
+   "text": "August 25 — Paris liberated.",
+   "img": "paris",
+   "stat": "AUGUST 25, 1944 · PARIS LIBERATED",
+   "statColor": "#FFC53D",
+   "cap": "After four years."
+  },
+  {
+   "id": "q17",
+   "text": "4 years of occupation, over. Celebration, tears, and flags in the streets.",
+   "img": "paris",
+   "cap": "Celebration, tears, and flags."
+  },
+  {
+   "id": "q18",
+   "text": "Now Germany was caught between two millstones. The Allies from the west. The Soviet army from the east.",
+   "img": "map_expand",
+   "stat": "CAUGHT BETWEEN TWO FRONTS",
+   "statColor": "#FF4D4D",
+   "cap": "Allies to the west. Soviets to the east."
+  },
+  {
+   "id": "q19",
+   "text": "And both were headed for the same destination. Berlin.",
+   "img": "warhook",
+   "cap": "Both roads led to Berlin."
+  },
+  {
+   "id": "u_t",
+   "text": "Chapter thirteen. The collapse.",
+   "chapter": "CHAPTER 13\nThe Collapse"
+  },
+  {
+   "id": "u1",
+   "text": "In the east, Soviet vengeance rolled toward Germany. Operation Bagration. An entire German army group was wiped from the map.",
+   "img": "map_expand",
+   "stat": "OPERATION BAGRATION",
+   "statColor": "#FF4D4D",
+   "cap": "An entire army group — erased."
+  },
+  {
+   "id": "u2",
+   "text": "In the west, the Allied armies pushed toward the Rhine.",
+   "img": "map_expand",
+   "cap": "From the west — toward the Rhine."
+  },
+  {
+   "id": "u3",
+   "text": "December 1944. Hitler's last gamble. A surprise counterattack through the frozen Ardennes.",
+   "img": "winter",
+   "stat": "DECEMBER 1944 · THE ARDENNES",
+   "cap": "Hitler's last gamble."
+  },
+  {
+   "id": "u4",
+   "text": "The Battle of the Bulge. The bloodiest American battle of the war.",
+   "img": "winter",
+   "stat": "BATTLE OF THE BULGE",
+   "statColor": "#FF4D4D",
+   "cap": "The bloodiest American battle."
+  },
+  {
+   "id": "u5",
+   "text": "After the first shock, the gamble collapsed. There was no fuel left for the tanks.",
+   "img": "tanks",
+   "cap": "The tanks simply ran out of fuel."
+  },
+  {
+   "id": "u6",
+   "text": "Germany had nothing left. No soldiers. No oil. No time.",
+   "img": "warhook",
+   "cap": "No soldiers. No oil. No time."
+  },
+  {
+   "id": "u7",
+   "text": "Old men and children were sent to the front.",
+   "img": "angrycrowd",
+   "cap": "Old men and children, sent to the front."
+  },
+  {
+   "id": "u8",
+   "text": "City after city was ground into rubble.",
+   "img": "warhook",
+   "cap": "City after city — rubble."
+  },
+  {
+   "id": "u9",
+   "text": "April 1945. The Soviet army stood at the gates of Berlin. 2.5 million soldiers.",
+   "img": "map_expand",
+   "stat": "AT THE GATES OF BERLIN · 2.5 MILLION",
+   "statColor": "#FF4D4D",
+   "cap": "April 1945."
+  },
+  {
+   "id": "v_t",
+   "text": "Chapter fourteen. The bunker.",
+   "chapter": "CHAPTER 14\nThe Bunker"
+  },
+  {
+   "id": "v1",
+   "text": "Hitler was underground now. In the Führerbunker.",
+   "img": "dictator",
+   "cap": "Hitler was underground now."
+  },
+  {
+   "id": "v2",
+   "text": "On his maps, he was issuing orders to armies that no longer existed.",
+   "img": "dictator",
+   "cap": "Orders to armies that no longer existed."
+  },
+  {
+   "id": "v3",
+   "text": "April 20 — his 56th birthday. Above him, shells were falling on Berlin.",
+   "img": "warhook",
+   "stat": "APRIL 20 · HIS 56TH BIRTHDAY",
+   "cap": "Above him, the shells were falling."
+  },
+  {
+   "id": "v4",
+   "text": "April 30, 1945. With Soviet soldiers a few hundred meters away...",
+   "img": "warhook",
+   "stat": "APRIL 30, 1945",
+   "statColor": "#FF4D4D",
+   "cap": "Soviet soldiers, a few hundred meters away…"
+  },
+  {
+   "id": "v5",
+   "text": "Hitler shot himself.",
+   "cap": "Hitler shot himself."
+  },
+  {
+   "id": "v6",
+   "text": "The man who started a war of tens of millions of deaths — gone. No trial. No answers.",
+   "img": "reflect",
+   "cap": "No trial. No answers."
+  },
+  {
+   "id": "v7",
+   "text": "Two days later, the red flag flew over the roof of the Reichstag.",
+   "img": "warhook",
+   "stat": "THE RED FLAG OVER THE REICHSTAG",
+   "cap": "Two days later."
+  },
+  {
+   "id": "v8",
+   "text": "May 8, 1945. Germany's unconditional surrender. The war in Europe was over.",
+   "img": "veday",
+   "stat": "MAY 8, 1945 · VE DAY",
+   "statColor": "#FFC53D",
+   "cap": "The war in Europe was over."
+  },
+  {
+   "id": "v9",
+   "text": "London, Paris, Moscow, New York — the streets erupted.",
+   "img": "veday",
+   "cap": "From London to Moscow — the streets erupted."
+  },
+  {
+   "id": "v10",
+   "text": "But out in the Pacific, the war was still alive.",
+   "img": "map_asia",
+   "cap": "In the Pacific, the war was still alive."
+  },
+  {
+   "id": "x_t",
+   "text": "Chapter fifteen. A light brighter than the sun.",
+   "chapter": "CHAPTER 15\nA Light Brighter Than the Sun"
+  },
+  {
+   "id": "x1",
+   "text": "Japan was losing. But it was not surrendering.",
+   "img": "map_asia",
+   "cap": "Losing — but not surrendering."
+  },
+  {
+   "id": "x2",
+   "text": "Iwo Jima. Okinawa. On every island, the fighting went to the last man.",
+   "img": "midway",
+   "cap": "Iwo Jima. Okinawa. To the last man."
+  },
+  {
+   "id": "x3",
+   "text": "American planners estimated an invasion of Japan itself would cost hundreds of thousands more lives.",
+   "img": "map_asia",
+   "cap": "An invasion would cost hundreds of thousands more."
+  },
+  {
+   "id": "x4",
+   "text": "And just then, in the American desert, a secret test lit the sky. The Manhattan Project.",
+   "stat": "THE MANHATTAN PROJECT",
+   "cap": "A secret test in the desert."
+  },
+  {
+   "id": "x5",
+   "text": "Mankind had learned to split the atom.",
+   "img": "mushroom",
+   "cap": "Mankind had learned to split the atom."
+  },
+  {
+   "id": "x6",
+   "text": "August 6, 1945, 8:15 in the morning. Hiroshima.",
+   "img": "mushroom",
+   "stat": "HIROSHIMA · AUGUST 6, 1945",
+   "statColor": "#FF4D4D",
+   "cap": "8:15 in the morning."
+  },
+  {
+   "id": "x7",
+   "text": "One bomb. One city. By the end of the year — around 140,000 dead.",
+   "img": "mushroom",
+   "stat": "~140,000 DEAD",
+   "cap": "One bomb. One city."
+  },
+  {
+   "id": "x8",
+   "text": "Three days later — Nagasaki.",
+   "img": "mushroom",
+   "stat": "NAGASAKI · AUGUST 9",
+   "cap": "Three days later."
+  },
+  {
+   "id": "x9",
+   "text": "August 15. For the first time ever, the Emperor's voice was heard on the radio. The war was over.",
+   "cap": "The Emperor's voice — heard for the first time."
+  },
+  {
+   "id": "x10",
+   "text": "September 2, 1945. Signatures on the deck of the USS Missouri. The Second World War was officially over.",
+   "img": "missouri",
+   "stat": "SEPTEMBER 2, 1945",
+   "statColor": "#FFC53D",
+   "cap": "The Second World War was over."
+  },
+  {
+   "id": "x11",
+   "text": "6 years. 60 to 80 million dead.",
+   "img": "reflect",
+   "stat": "60–80 MILLION",
+   "cap": "The price of six years."
+  },
+  {
+   "id": "x12",
+   "text": "And one question, argued over to this day. Did the bombs have to fall?",
+   "img": "mushroom",
+   "cap": "Did the bombs have to fall?"
+  },
+  {
+   "id": "x13",
+   "text": "History gives no answer. Only a warning.",
+   "img": "reflect",
+   "cap": "History only gives a warning."
+  },
+  {
+   "id": "y_t",
+   "text": "Chapter sixteen. A new world from the ashes.",
+   "chapter": "CHAPTER 16\nA New World From the Ashes"
+  },
+  {
+   "id": "y1",
+   "text": "This war did not just redraw the map. It rebuilt the structure of the world.",
+   "img": "sides",
+   "cap": "Not the map — the structure."
+  },
+  {
+   "id": "y2",
+   "text": "Europe's old great powers were bankrupt.",
+   "img": "warhook",
+   "cap": "The old powers were bankrupt."
+  },
+  {
+   "id": "y3",
+   "text": "Two new superpowers now stood over everything. The United States. And the Soviet Union.",
+   "img": "sides",
+   "stat": "USA · USSR",
+   "cap": "Two new superpowers."
+  },
+  {
+   "id": "y4",
+   "text": "The friendship soured fast. The Cold War had begun.",
+   "img": "sides",
+   "stat": "THE COLD WAR",
+   "statColor": "#FF4D4D",
+   "cap": "The friendship soured fast."
+  },
+  {
+   "id": "y5",
+   "text": "Never again — in that hope, the United Nations was born.",
+   "stat": "UNITED NATIONS · 1945",
+   "cap": "Born of the words: never again."
+  },
+  {
+   "id": "y6",
+   "text": "At Nuremberg, for the first time, leaders stood trial for crimes against humanity.",
+   "img": "treaty",
+   "stat": "THE NUREMBERG TRIALS",
+   "cap": "Leaders on trial — for the first time."
+  },
+  {
+   "id": "y7",
+   "text": "And the empires? Their grip was broken forever.",
+   "img": "map_expand",
+   "cap": "The empires' grip was broken."
+  },
+  {
+   "id": "y8",
+   "text": "The colonies that had fought this war now demanded the bill be paid.",
+   "img": "indianarmy",
+   "cap": "The colonies demanded the bill."
+  },
+  {
+   "id": "y9",
+   "text": "1947 — India. Then, one by one, all of Asia and Africa.",
+   "img": "indianarmy",
+   "stat": "1947 · INDIA FREE",
+   "statColor": "#FFC53D",
+   "cap": "Then all of Asia and Africa."
+  },
+  {
+   "id": "y10",
+   "text": "A war fought to save empires — ended up destroying them.",
+   "img": "reflect",
+   "cap": "The war to save empires destroyed them."
+  },
+  {
+   "id": "z_t",
+   "text": "Final chapter. The lessons.",
+   "chapter": "FINAL CHAPTER\nThe Lessons"
+  },
+  {
+   "id": "z1",
+   "text": "So what does the Second World War teach us?",
+   "img": "reflect",
+   "cap": "What does this war teach us?"
+  },
+  {
+   "id": "z2",
+   "text": "That hatred grows in the soil of humiliation and poverty.",
+   "img": "angrycrowd",
+   "cap": "Hatred grows in humiliation and poverty."
+  },
+  {
+   "id": "z3",
+   "text": "That when hatred finds a leader, it becomes policy.",
+   "img": "rally",
+   "cap": "When hatred finds a leader, it becomes policy."
+  },
+  {
+   "id": "z4",
+   "text": "That ignoring a danger only makes it grow.",
+   "img": "munich",
+   "cap": "Ignoring a danger makes it grow."
+  },
+  {
+   "id": "z5",
+   "text": "And this — that starting a war is easy. Stopping one is not.",
+   "img": "warhook",
+   "cap": "Starting a war is easy. Stopping one is not."
+  },
+  {
+   "id": "z6",
+   "text": "60 million people. Every number was a name. A family.",
+   "img": "reflect",
+   "stat": "60 MILLION",
+   "cap": "Every number was a name."
+  },
+  {
+   "id": "z7",
+   "text": "They say history does not repeat itself. But it rhymes.",
+   "img": "reflect",
+   "cap": "History doesn't repeat. It rhymes."
+  },
+  {
+   "id": "z8",
+   "text": "That was the whole story. Six years that rewrote the world — and a warning that never expires.",
+   "chapter": "1939–1945\nNEVER AGAIN"
+  },
+  {
+   "id": "z9",
+   "text": "If this story stayed with you, remember why it was told. Not to relive the war — but to recognize the road that leads to one.",
+   "img": "reflect",
+   "cap": "Recognize the road that leads to war."
+  },
+  {
+   "id": "z10",
+   "text": "There are more stories like this — complete, from the first moment to the last. To hear them all, subscribe to mindwired.",
+   "stat": "MINDWIRED",
+   "statColor": "#FFC53D",
+   "cap": "The whole story. Every time."
+  }
+ ]
+}

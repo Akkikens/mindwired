@@ -152,7 +152,10 @@ clips have a fixed ~8s floor).
   SEO description with CHAPTERS timestamps, tags, pinned comment. Follow the
   existing files' format (e.g. METADATA-attractor.md).
 - **Descriptions: English block FIRST, then the Hindi block** (Akshay standing
-  rule, 2026-07-12) — applies to every upload on every channel.
+  rule, 2026-07-12) — every channel EXCEPT DimaagBatti, whose descriptions are
+  **Hindi only** (no English block). Tags: maximize toward YouTube's 500-char
+  limit (~25-35 tags: broad + niche + long-tail), don't stop at ~15. Every
+  upload also gets **15 hashtags** (first 3 display above the title).
 - Thumbnails: follow `THUMBNAILS.md` — image-model generation (Workflow A) for
   scene+text posters, or Remotion still + text overlay (Workflow B). House style:
   3-5 word ALL-CAPS yellow/white text, one dramatic scene, dark background.

@@ -1,0 +1,1672 @@
+{
+ "slug": "atomdeaths",
+ "title": "Every Way the Atom Has Killed a Human",
+ "language": "en",
+ "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+ "scenes": [
+  {
+   "id": "h1",
+   "text": "This photograph shows a young woman at a factory bench, painting numbers onto a watch dial. She is smiling. Nothing in this picture looks dangerous.",
+   "img": "radiumgirls",
+   "stat": "ORANGE, NEW JERSEY · 1922",
+   "cap": "Nothing in this picture looks dangerous."
+  },
+  {
+   "id": "h2",
+   "text": "The paint on her brush glows in the dark. Her bosses told her it was harmless. Some of the girls painted their teeth with it, for fun.",
+   "img": "radiumdial",
+   "cap": "They painted their teeth with it. For fun."
+  },
+  {
+   "id": "h3",
+   "text": "Within 10 years, her jaw would crumble in a doctor's hands. Behind almost every photograph you are about to see, somebody died.",
+   "img": "radiumgirls",
+   "stat": "SOMEBODY DIED",
+   "statColor": "#FF4D4D",
+   "cap": "Behind each of these... somebody died."
+  },
+  {
+   "id": "h4",
+   "text": "The atom has killed with fire and with silence. It has killed scientists, soldiers, firefighters, scrap dealers, and a 6 year old girl who touched something beautiful.",
+   "img": "radsymbol",
+   "cap": "Scientists. Soldiers. A 6-year-old girl."
+  },
+  {
+   "id": "h5",
+   "text": "Unlike almost any other killer, it leaves no mark at the moment it strikes. The victims walk away feeling fine. The dying starts later.",
+   "img": "geiger",
+   "cap": "The victims walk away feeling fine."
+  },
+  {
+   "id": "h6",
+   "text": "Some of these deaths were state secrets for 30 years. Entire poisoned villages were erased from maps. Doctors were forbidden to write the true cause on death certificates.",
+   "img": "mayak",
+   "cap": "Poisoned villages erased from maps."
+  },
+  {
+   "id": "h7",
+   "text": "This is the complete story. Every accident, every cover up, every invisible dose. Told through the real photographs that survived.",
+   "img": "radiumdial",
+   "cap": "Every accident. Every cover-up."
+  },
+  {
+   "id": "h8",
+   "text": "By the end, you will understand why physicists speak about radiation the way sailors speak about the sea. With respect. And with fear.",
+   "img": "reactorlab",
+   "cap": "With respect. And with fear."
+  },
+  {
+   "id": "c1_t",
+   "text": "Chapter 1. The girls who glowed.",
+   "chapter": "CHAPTER 1\nThe Girls Who Glowed"
+  },
+  {
+   "id": "a1",
+   "text": "New Jersey, 1917. The United States Radium Corporation hires hundreds of young women to paint watch dials with a miracle product called Undark.",
+   "img": "radiumgirls",
+   "stat": "1917",
+   "cap": "A miracle paint called Undark."
+  },
+  {
+   "id": "a2",
+   "text": "The secret ingredient is radium, the glowing element discovered by Marie Curie. In 1917, radium is a wonder drug. It is sold in tonics, face creams, even toothpaste.",
+   "img": "radiumdial",
+   "cap": "Radium tonics. Radium face cream. Radium toothpaste."
+  },
+  {
+   "id": "a3",
+   "text": "To paint the tiny numbers, the girls need a fine point on their brushes. Their supervisors teach them a technique. Lip, dip, paint.",
+   "img": "radiumdial",
+   "cap": "Lip. Dip. Paint."
+  },
+  {
+   "id": "a4",
+   "text": "Put the brush between your lips to shape the point. Dip it in the radium. Paint the dial. Then lip the brush again. Hundreds of times a day.",
+   "img": "radiumgirls",
+   "cap": "Hundreds of times a day."
+  },
+  {
+   "id": "a5",
+   "text": "With every stroke, they swallow a little radium. And radium has a terrible property. The body mistakes it for calcium, and builds it into the bones.",
+   "img": "radiumgirls",
+   "cap": "The body builds it into the bones."
+  },
+  {
+   "id": "a6",
+   "text": "Inside the bone, the radium keeps radiating. Day and night. Year after year. Drilling the skeleton from within, atom by atom.",
+   "img": "hospitalrad",
+   "cap": "Drilling the skeleton from within."
+  },
+  {
+   "id": "a7",
+   "text": "In 1922, a dial painter named Amelia Maggia goes to the dentist with a toothache. The tooth comes out. The hole never heals.",
+   "img": "radiumgirls",
+   "stat": "1922",
+   "cap": "The hole never heals."
+  },
+  {
+   "id": "a8",
+   "text": "Within months, her entire lower jaw has become so brittle that her dentist lifts it out of her mouth with his fingers. She dies that September.",
+   "img": "hospitalrad",
+   "statColor": "#FF4D4D",
+   "stat": "SEPTEMBER 1922",
+   "cap": "Her jaw came out in the dentist's hands."
+  },
+  {
+   "id": "a9",
+   "text": "The company blames syphilis, and writes it on her death certificate. A lie that smears a dead woman, and buys the corporation 5 more years.",
+   "img": "radiumgirls",
+   "cap": "They wrote a lie on her death certificate."
+  },
+  {
+   "id": "a10",
+   "text": "But the girls keep sickening. Aching hips, loose teeth, anemia. One by one, the dial painters begin to die, and they begin to compare notes.",
+   "img": "radiumgirls",
+   "cap": "One by one, they compare notes."
+  },
+  {
+   "id": "a11",
+   "text": "In 1927, a dying painter named Grace Fryer finds a lawyer willing to take the case. She has lost her teeth. Her spine is collapsing. She sues.",
+   "img": "radiumgirls",
+   "stat": "GRACE FRYER · 1927",
+   "cap": "Her spine was collapsing. She sued."
+  },
+  {
+   "id": "a12",
+   "text": "In court, the women are so weak they cannot raise their arms to take the oath. The newspapers call them the Radium Girls. The company settles.",
+   "img": "radiumgirls",
+   "cap": "Too weak to raise their arms for the oath."
+  },
+  {
+   "id": "a13",
+   "text": "Dozens of dial painters die of radium poisoning, and their case creates something new. The idea that a company is responsible for what its work does to your body.",
+   "img": "radiumdial",
+   "cap": "Their deaths created workers' rights."
+  },
+  {
+   "id": "a14",
+   "text": "Decades later, scientists open some of their graves for research. The bones, after all those years in the ground, still register on the instruments. Still radiating.",
+   "img": "geiger",
+   "cap": "Their bones still register on instruments."
+  },
+  {
+   "id": "a15",
+   "text": "The Radium Girls swallowed the atom slowly, over years. The next men to die would meet it all at once. In a fraction of a second.",
+   "img": "losalamos",
+   "cap": "The next men met it in a fraction of a second."
+  },
+  {
+   "id": "c2_t",
+   "text": "Chapter 2. The demon core.",
+   "chapter": "CHAPTER 2\nThe Demon Core"
+  },
+  {
+   "id": "b1",
+   "text": "Los Alamos, New Mexico. 1945. In a secret laboratory sits a sphere of plutonium the size of a grapefruit. 6.2 kilograms. Warm to the touch.",
+   "img": "democore",
+   "stat": "6.2 KG OF PLUTONIUM",
+   "cap": "A grapefruit-sized sphere. Warm to the touch."
+  },
+  {
+   "id": "b2",
+   "text": "It was built to be the heart of a third atomic bomb, ready if Japan did not surrender. Japan surrendered. The core stayed at Los Alamos.",
+   "img": "losalamos",
+   "cap": "Built for a third bomb that never flew."
+  },
+  {
+   "id": "b3",
+   "text": "So the physicists used it for experiments. They would nudge the sphere toward criticality, the edge of a chain reaction, and measure how close they could get.",
+   "img": "reactorlab",
+   "cap": "How close to the edge can you get?"
+  },
+  {
+   "id": "b4",
+   "text": "The great physicist Richard Feynman had a name for this game. He called it tickling the tail of a sleeping dragon.",
+   "img": "democore",
+   "cap": "Tickling the dragon's tail."
+  },
+  {
+   "id": "b4b",
+   "text": "There are no interlocks. No remote handling. Just steady hands, good judgment, and a wartime culture that treated caution as something you could ration.",
+   "img": "losalamos",
+   "cap": "Caution was treated as something to ration."
+  },
+  {
+   "id": "b5",
+   "text": "August 21, 1945. Physicist Harry Daghlian is working alone at night, against the rules. He is stacking tungsten carbide bricks around the core, reflecting neutrons back in.",
+   "img": "democore",
+   "stat": "AUGUST 21, 1945",
+   "cap": "Working alone at night. Against the rules."
+  },
+  {
+   "id": "b6",
+   "text": "One more brick and the assembly will go critical. His instruments tell him so. He moves to pull his hand back. The brick slips.",
+   "img": "democore",
+   "cap": "The brick slips."
+  },
+  {
+   "id": "b7",
+   "text": "It lands directly on the core. There is a flash of blue light, a wave of heat. In that instant, Harry Daghlian is a dead man. He just doesn't know the date yet.",
+   "img": "bluelash",
+   "cap": "A flash of blue. A wave of heat."
+  },
+  {
+   "id": "b8",
+   "text": "He calmly disassembles the pile with his bare hand to stop the reaction, then walks himself to the hospital. He dies 25 days later.",
+   "img": "hospitalrad",
+   "stat": "25 DAYS",
+   "statColor": "#FF4D4D",
+   "cap": "He walked himself to the hospital."
+  },
+  {
+   "id": "b9",
+   "text": "You would think the experiments would stop. They did not. 9 months later, an even more brilliant physicist stood over the same sphere.",
+   "img": "slotin",
+   "cap": "9 months later. The same sphere."
+  },
+  {
+   "id": "b10",
+   "text": "Louis Slotin was the lab's daredevil. His safety equipment for the experiment was a flathead screwdriver, holding two halves of a beryllium shell apart above the core.",
+   "img": "slotin",
+   "cap": "His safety equipment: one screwdriver."
+  },
+  {
+   "id": "b11",
+   "text": "Lower the shell, the reaction builds. Lift it, the reaction dies. The screwdriver blade was the only thing keeping the dragon asleep. Enrico Fermi warned him he would be dead within a year.",
+   "img": "slotin",
+   "cap": "Fermi told him: dead within a year."
+  },
+  {
+   "id": "b12",
+   "text": "May 21, 1946. Slotin is demonstrating the technique to 7 colleagues. At 3:20 in the afternoon, the screwdriver slips.",
+   "img": "slotin",
+   "stat": "MAY 21, 1946",
+   "cap": "The screwdriver slips."
+  },
+  {
+   "id": "b13",
+   "text": "The shell drops. Blue flash. A wave of heat on every face in the room. Slotin flips the shell off with his bare hand, ending the reaction in under a second.",
+   "img": "bluelash",
+   "cap": "Blue flash. Heat on every face."
+  },
+  {
+   "id": "b14",
+   "text": "Then he does something extraordinary. He has everyone mark their exact positions on the floor in chalk, so doctors can calculate each man's dose. His own body was the shield that saved them.",
+   "img": "slotin",
+   "cap": "His body was the shield that saved them."
+  },
+  {
+   "id": "b15",
+   "text": "Louis Slotin dies 9 days later, his organs failing one by one. After that, no human hand at Los Alamos ever touched a criticality experiment again. Only machines.",
+   "img": "hospitalrad",
+   "stat": "9 DAYS",
+   "statColor": "#FF4D4D",
+   "cap": "After him: only machines."
+  },
+  {
+   "id": "b16",
+   "text": "The physicists gave the sphere a new name. The demon core. It was melted down in 1946. But the thing it was built for had already been tested, in the desert.",
+   "img": "democore",
+   "cap": "They named it the demon core."
+  },
+  {
+   "id": "c3_t",
+   "text": "Chapter 3. The light before dawn.",
+   "chapter": "CHAPTER 3\nThe Light Before Dawn"
+  },
+  {
+   "id": "t1",
+   "text": "July 16, 1945. 5:29 in the morning. In the New Mexico desert, a light appears that no human being has ever seen before.",
+   "img": "trinity",
+   "stat": "JULY 16, 1945 · 5:29 AM",
+   "cap": "A light no human had ever seen."
+  },
+  {
+   "id": "t2",
+   "text": "The Trinity test. The world's first nuclear explosion. It turns the night desert brighter than noon, and the flash is seen 280 kilometers away.",
+   "img": "trinity",
+   "cap": "Brighter than noon. Seen 280 km away."
+  },
+  {
+   "id": "t3",
+   "text": "Robert Oppenheimer would later say the moment brought a line of Hindu scripture to his mind. Others simply say he looked relieved. And very, very quiet.",
+   "img": "losalamos",
+   "cap": "He looked relieved. And very quiet."
+  },
+  {
+   "id": "t4",
+   "text": "But here is what the famous photographs do not show. People lived near that desert. Ranch families. Small villages. Nearly half a million people within 240 kilometers.",
+   "img": "downwinders",
+   "cap": "What the famous photos don't show: neighbors."
+  },
+  {
+   "id": "t5",
+   "text": "Nobody warned them. Nobody evacuated them. The test was secret, so the Army told local papers an ammunition dump had exploded.",
+   "img": "downwinders",
+   "cap": "The cover story: an ammunition dump."
+  },
+  {
+   "id": "t6",
+   "text": "For days after the blast, a white ash fell from the sky onto the Tularosa Basin. Children played in it. It settled on gardens, on cattle, on the open rain barrels people drank from.",
+   "img": "downwinders",
+   "cap": "Children played in the falling ash."
+  },
+  {
+   "id": "t7",
+   "text": "The ash was fallout. Irradiated dust from the tower, the ground, and the bomb itself, sucked into the sky and scattered downwind.",
+   "img": "mushroom",
+   "cap": "The ash was the bomb itself."
+  },
+  {
+   "id": "t8",
+   "text": "In the years that followed, families in the basin began keeping lists. Cancers, in houses that had never known cancer. Infant deaths in the months right after the test.",
+   "img": "downwinders",
+   "cap": "Families began keeping lists."
+  },
+  {
+   "id": "t9",
+   "text": "How many people did Trinity kill? The honest answer is that nobody knows. No one was counting, because officially, nothing had happened.",
+   "img": "downwinders",
+   "stat": "TOLL: UNKNOWN",
+   "statColor": "#FF4D4D",
+   "cap": "Nobody was counting."
+  },
+  {
+   "id": "t9b",
+   "text": "Rain came days later and washed hot spots into strange patterns. One ranch family, the Ratliffs, lived under one of the heaviest fallout zones ever measured in America.",
+   "img": "downwinders",
+   "cap": "A ranch under the heaviest fallout in America."
+  },
+  {
+   "id": "t10",
+   "text": "The downwinders of New Mexico were not included in the compensation law America later wrote for atomic test victims. They spent nearly 80 years asking to be counted.",
+   "img": "downwinders",
+   "cap": "80 years asking to be counted."
+  },
+  {
+   "id": "t11",
+   "text": "Trinity set the pattern for the atomic age. The blast gets the photograph. The fallout gets the silence.",
+   "img": "mushroom",
+   "cap": "The blast gets the photo. The fallout gets silence."
+  },
+  {
+   "id": "t12",
+   "text": "Over the next decades, hundreds of tests would repeat that pattern in Nevada, in Kazakhstan, in the Pacific. Downwind, the lists kept growing.",
+   "img": "mushroom",
+   "cap": "Downwind, the lists kept growing."
+  },
+  {
+   "id": "t12b",
+   "text": "In Nevada alone, around 100 atmospheric tests would send clouds drifting over towns whose residents were told to watch the flashes as free entertainment.",
+   "img": "mushroom",
+   "cap": "They were told to enjoy the flashes."
+  },
+  {
+   "id": "t13",
+   "text": "But the deadliest atomic secret of the 1950s was not a bomb test at all. It was a storage tank, in a Soviet city that did not officially exist.",
+   "img": "mayak",
+   "cap": "A city that did not officially exist."
+  },
+  {
+   "id": "c4_t",
+   "text": "Chapter 4. The disaster that didn't exist.",
+   "chapter": "CHAPTER 4\nThe Disaster That Didn't Exist"
+  },
+  {
+   "id": "k1",
+   "text": "In the Ural mountains stands a city you will not find on any Soviet map. Chelyabinsk 40. Its factory, called Mayak, makes plutonium for Stalin's bombs.",
+   "img": "mayak",
+   "stat": "CHELYABINSK-40",
+   "cap": "A city missing from every map."
+  },
+  {
+   "id": "k2",
+   "text": "Mayak is built in a desperate hurry, to catch up with America. Safety is not a priority. For years, it pumps raw radioactive waste straight into the river Techa.",
+   "img": "mayak",
+   "cap": "Raw waste, straight into the river."
+  },
+  {
+   "id": "k3",
+   "text": "Villagers downstream drink that river. Bathe in it. Water their crops with it. Some of the most contaminated villages on Earth, and no one tells them anything.",
+   "img": "kyshtym",
+   "cap": "They drank the river. Nobody told them."
+  },
+  {
+   "id": "k4",
+   "text": "The worst waste, too hot to dump, goes into steel tanks buried in concrete. The tanks generate their own heat. They must be cooled. Forever.",
+   "img": "mayak",
+   "cap": "Tanks that must be cooled. Forever."
+  },
+  {
+   "id": "k5",
+   "text": "In 1956, the cooling system on tank number 14 begins to fail. The repairs are postponed. The tank quietly heats, month after month, like a kettle no one is watching.",
+   "img": "mayak",
+   "cap": "A kettle no one was watching."
+  },
+  {
+   "id": "k6",
+   "text": "September 29, 1957. 4:20 in the afternoon. The dried-out waste in tank 14 explodes with the force of up to 100 tons of TNT.",
+   "img": "kyshtym",
+   "stat": "SEPTEMBER 29, 1957",
+   "cap": "The tank exploded like 100 tons of TNT."
+  },
+  {
+   "id": "k7",
+   "text": "The 160 ton concrete lid is thrown into the air. A column of radioactive dust rises a kilometer high and drifts northeast on the wind.",
+   "img": "kyshtym",
+   "cap": "A 160-ton lid, thrown into the sky."
+  },
+  {
+   "id": "k8",
+   "text": "The plume settles over 20,000 square kilometers of farmland and forest. An invisible scar that scientists would later call the East Ural Radioactive Trace.",
+   "img": "kyshtym",
+   "stat": "20,000 KM²",
+   "cap": "An invisible scar across the Urals."
+  },
+  {
+   "id": "k9",
+   "text": "In the nearest villages, people see a strange glow in the sky that night. The newspapers explain it as a rare display of polar lights. Over the southern Urals.",
+   "img": "kyshtym",
+   "cap": "The official story: polar lights."
+  },
+  {
+   "id": "k10",
+   "text": "Then the soldiers come. Around 10,000 people are evacuated, some not for nearly 2 years. They are ordered to leave everything. Crops are buried. Cattle are shot.",
+   "img": "kyshtym",
+   "cap": "Leave everything. The cattle are shot."
+  },
+  {
+   "id": "k11",
+   "text": "23 villages are emptied and bulldozed. Their names are removed from the maps, as if the atom had eaten them whole.",
+   "img": "kyshtym",
+   "stat": "23 VILLAGES ERASED",
+   "statColor": "#FF4D4D",
+   "cap": "23 villages, eaten whole."
+  },
+  {
+   "id": "k12",
+   "text": "How many died? Officially, zero. Independent researchers estimate hundreds of eventual cancer deaths, some say more. The records that could settle it were sealed, or never kept.",
+   "img": "mayak",
+   "cap": "Officially: zero. The records were sealed."
+  },
+  {
+   "id": "k13",
+   "text": "The Soviet Union kept Kyshtym secret for over 30 years. It only admitted the explosion in 1989. The third worst nuclear accident in history, and the world simply did not know.",
+   "img": "mayak",
+   "stat": "SECRET FOR 30+ YEARS",
+   "cap": "The world simply did not know."
+  },
+  {
+   "id": "k14",
+   "text": "And here is the strangest part. That very same month, October 1957, the West had its own reactor burning. And it was keeping its own secrets.",
+   "img": "windscale",
+   "cap": "That same month, the West was burning too."
+  },
+  {
+   "id": "c5_t",
+   "text": "Chapter 5. The fire at Windscale.",
+   "chapter": "CHAPTER 5\nThe Fire at Windscale"
+  },
+  {
+   "id": "w1",
+   "text": "On the coast of Cumbria, England, two towers rise over the Windscale plant. Inside Pile Number 1, tons of graphite and uranium make plutonium for Britain's bomb.",
+   "img": "windscale",
+   "stat": "OCTOBER 1957",
+   "cap": "Britain's bomb factory on the Irish Sea."
+  },
+  {
+   "id": "w2",
+   "text": "The pile is cooled by open air. Giant fans blow outside air through the hot core, and out through a chimney. A design one physicist compared to a chimney with a furnace inside.",
+   "img": "windscale",
+   "cap": "A furnace cooled by open air."
+  },
+  {
+   "id": "w3",
+   "text": "Graphite bombarded by neutrons stores hidden energy, and it must be released with careful controlled heating. On October 8, 1957, the operators run that heating procedure. Something goes wrong.",
+   "img": "reactorlab",
+   "cap": "A routine procedure. Something goes wrong."
+  },
+  {
+   "id": "w4",
+   "text": "Deep in the core, fuel begins to burn. For 2 days, nobody realizes. The instruments were never designed to see a fire in that part of the pile.",
+   "img": "windscale",
+   "cap": "It burned for 2 days before anyone knew."
+  },
+  {
+   "id": "w5",
+   "text": "October 10. A worker checks the core through an inspection hole and sees it directly. Fuel channels glowing red hot. Britain's plutonium factory is on fire.",
+   "img": "windscale",
+   "stat": "OCTOBER 10, 1957",
+   "cap": "He looked in and saw it glowing red."
+  },
+  {
+   "id": "w6",
+   "text": "Deputy manager Tom Tuohy climbs to the top of the reactor again and again, and looks straight down into the burning core to judge the flames. Practically no shielding. Somebody had to.",
+   "img": "windscale",
+   "cap": "He looked straight into the burning core."
+  },
+  {
+   "id": "w6b",
+   "text": "Below him, volunteers with scaffolding poles push burning fuel cartridges out of the channels by brute force. Some rods glow so hot they jam in place.",
+   "img": "windscale",
+   "cap": "Pushing burning fuel out with steel poles."
+  },
+  {
+   "id": "w7",
+   "text": "They try carbon dioxide. The fire eats it. Eleven tons of uranium are burning at over 1,000 degrees, and the temperature is still rising.",
+   "img": "windscale",
+   "cap": "The fire ate their carbon dioxide."
+  },
+  {
+   "id": "w8",
+   "text": "Tuohy is left with one option, and it terrifies everyone. Water. Water on burning metal can generate hydrogen. The pile could explode and tear the building open.",
+   "img": "windscale",
+   "cap": "The last option could blow the building open."
+  },
+  {
+   "id": "w9",
+   "text": "On the morning of October 11, they turn on the hoses and shut off the cooling fans, starving the fire of air. Slowly, the glow dies. Windscale has come within a step of catastrophe.",
+   "img": "windscale",
+   "cap": "One step from catastrophe."
+  },
+  {
+   "id": "w10",
+   "text": "But for 2 days, the chimney has been breathing smoke across England. Radioactive iodine, drifting over farms, settling on grass, passing through cows into milk.",
+   "img": "windscale",
+   "cap": "The chimney breathed over England for 2 days."
+  },
+  {
+   "id": "w11",
+   "text": "The government bans milk from 500 square kilometers of countryside and quietly pours 2 million liters into the sea. The public is told there is no danger.",
+   "img": "windscale",
+   "stat": "2,000,000 LITERS DUMPED",
+   "cap": "2 million liters of milk, into the sea."
+  },
+  {
+   "id": "w12",
+   "text": "No one died at Windscale that week. That is what makes it so unsettling. The dying was statistical. Later studies estimate the release eventually caused on the order of 100 to 240 cancer deaths.",
+   "img": "hospitalrad",
+   "stat": "~100-240 EVENTUAL DEATHS",
+   "statColor": "#FF4D4D",
+   "cap": "The dying was statistical."
+  },
+  {
+   "id": "w13",
+   "text": "You cannot point to the victims. They are scattered through decades of ordinary death records, invisible. The atom's favorite way to kill.",
+   "img": "geiger",
+   "cap": "Victims scattered invisibly through the records."
+  },
+  {
+   "id": "w14",
+   "text": "The full report on the fire was suppressed for 30 years, by the Prime Minister personally. And 4 years later, in an American desert, the atom stopped being statistical. It got direct.",
+   "img": "sl1",
+   "cap": "4 years later, it got direct."
+  },
+  {
+   "id": "c6_t",
+   "text": "Chapter 6. Nine feet from the ceiling.",
+   "chapter": "CHAPTER 6\nNine Feet From the Ceiling"
+  },
+  {
+   "id": "s1",
+   "text": "Idaho, January 3, 1961. In the frozen desert outside Idaho Falls stands a small experimental Army reactor called SL-1. Tonight, 3 young men are restarting it after the holidays.",
+   "img": "sl1",
+   "stat": "JANUARY 3, 1961",
+   "cap": "3 young men. A frozen desert. A small reactor."
+  },
+  {
+   "id": "s2",
+   "text": "Jack Byrnes, 27. Richard Legg, 26. Richard McKinley, 22. Army and Navy technicians, trained to run a reactor designed to power radar stations at the top of the world.",
+   "img": "idahofalls",
+   "cap": "27. 26. 22."
+  },
+  {
+   "id": "s3",
+   "text": "SL-1 has a design flaw that reads like a dare. It is so small that pulling out just one control rod, the central one, can take the reactor from dead cold to supercritical.",
+   "img": "sl1",
+   "cap": "One rod stood between cold and supercritical."
+  },
+  {
+   "id": "s4",
+   "text": "The procedure that night requires lifting that central rod by hand. 10 centimeters, no more, to reconnect it to its drive motor.",
+   "img": "sl1",
+   "cap": "Lift it 10 centimeters. No more."
+  },
+  {
+   "id": "s5",
+   "text": "At 9:01 pm, the rod comes up roughly 50 centimeters in under a second. To this day, no one knows exactly why.",
+   "img": "sl1",
+   "stat": "9:01 PM",
+   "cap": "It came up 50 centimeters. No one knows why."
+  },
+  {
+   "id": "s6",
+   "text": "The reactor goes from essentially zero to nearly 20,000 megawatts in about 4 milliseconds. The water above the core flashes to steam and slams upward like a piston.",
+   "img": "sl1",
+   "cap": "4 milliseconds."
+  },
+  {
+   "id": "s7",
+   "text": "The entire 13 ton reactor vessel jumps 3 meters into the air, shearing its pipes, before crashing back down. Everyone in the building is killed almost instantly.",
+   "img": "sl1",
+   "statColor": "#FF4D4D",
+   "stat": "3 DEAD",
+   "cap": "The whole reactor jumped 3 meters."
+  },
+  {
+   "id": "s8",
+   "text": "When the alarm sounds, firefighters arrive to a silent building. Their radiation meters climb to the top of the scale at the door, and keep trying to climb.",
+   "img": "idahofalls",
+   "cap": "The meters maxed out at the door."
+  },
+  {
+   "id": "s9",
+   "text": "Inside, rescuers working in shifts of seconds find 2 of the men. Then someone looks up. The third man is above them.",
+   "img": "sl1",
+   "cap": "Then someone looked up."
+  },
+  {
+   "id": "s10",
+   "text": "Richard Legg had been standing on top of the reactor. A shield plug shot from the vessel like a cannon and pinned him to the ceiling of the reactor room. He stayed there for 6 days.",
+   "img": "sl1",
+   "stat": "PINNED TO THE CEILING",
+   "cap": "He stayed there for 6 days."
+  },
+  {
+   "id": "s11",
+   "text": "Recovering him took a team with a crane and a net, rehearsed on a mannequin, with each man allowed only 65 seconds of exposure inside.",
+   "img": "idahofalls",
+   "cap": "65 seconds per man. A crane. A net."
+  },
+  {
+   "id": "s12",
+   "text": "The bodies themselves were so radioactive they were buried in lead-lined coffins under concrete. The most exposed body parts were removed and buried separately, as radioactive waste.",
+   "img": "idahofalls",
+   "cap": "Buried in lead, under concrete."
+  },
+  {
+   "id": "s13",
+   "text": "SL-1 remains the only reactor accident in American history to cause immediate deaths. 3 men, killed by a machine built to keep soldiers warm.",
+   "img": "sl1",
+   "cap": "America's only fatal reactor accident."
+  },
+  {
+   "id": "s14",
+   "text": "Rumors of sabotage and a love triangle followed the case for decades. The official cause remains a rod pulled too far, too fast, for reasons unknown.",
+   "img": "sl1",
+   "cap": "Too far. Too fast. Reasons unknown."
+  },
+  {
+   "id": "s15",
+   "text": "That same year, on the far side of the world, another crew of young men was learning what a broken reactor demands. Theirs was underwater.",
+   "img": "k19",
+   "cap": "Another broken reactor. This one underwater."
+  },
+  {
+   "id": "c7_t",
+   "text": "Chapter 7. Into the compartment.",
+   "chapter": "CHAPTER 7\nInto the Compartment"
+  },
+  {
+   "id": "n1",
+   "text": "July 4, 1961. The North Atlantic. K-19, the Soviet Union's first ballistic missile submarine, is running exercises when a gauge needle drops to zero.",
+   "img": "k19",
+   "stat": "JULY 4, 1961",
+   "cap": "A needle drops to zero."
+  },
+  {
+   "id": "n2",
+   "text": "Pressure lost in the reactor's primary cooling circuit. A pipe has burst. Coolant is draining away, and the reactor core has begun to heat itself toward destruction.",
+   "img": "submarine",
+   "cap": "The core begins heating toward destruction."
+  },
+  {
+   "id": "n3",
+   "text": "The boat was cursed from birth. Workers died building her. The champagne bottle failed to break at her launch. Her crews called her Hiroshima.",
+   "img": "k19",
+   "cap": "Her own crew called her Hiroshima."
+  },
+  {
+   "id": "n4",
+   "text": "There is no backup cooling system. The designers never installed one. If the core melts, the Soviet Navy loses a submarine, 139 men, and possibly much more, off the coast of NATO.",
+   "img": "k19",
+   "cap": "There was no backup system. At all."
+  },
+  {
+   "id": "n5",
+   "text": "The engineers improvise a solution. Weld a new water line onto the reactor. But that means men going into the reactor compartment. Everyone on board understands what that means.",
+   "img": "submarine",
+   "cap": "Someone has to go in."
+  },
+  {
+   "id": "n6",
+   "text": "Lieutenant Boris Korchilov leads the first team in. Their protection is chemical suits and gas masks, gear designed for other dangers entirely. Against gamma radiation, it is costume.",
+   "img": "k19",
+   "cap": "Against gamma rays, their suits were costume."
+  },
+  {
+   "id": "n7",
+   "text": "They work in the steam and heat, welding, while the compartment fills with radiation beyond anything their instruments can honestly measure.",
+   "img": "submarine",
+   "cap": "Beyond what the instruments could measure."
+  },
+  {
+   "id": "n8",
+   "text": "The men come out changed. Faces swelling, skin reddening. Within hours some cannot speak. The jury-rigged line works. The core is saved. The price is being paid in bodies.",
+   "img": "k19",
+   "cap": "The line held. The price was in bodies."
+  },
+  {
+   "id": "n9",
+   "text": "8 men, including Korchilov, die within weeks. Around 14 more of the crew die in the following years. The survivors are sworn to secrecy.",
+   "img": "k19",
+   "stat": "8 DEAD IN WEEKS",
+   "statColor": "#FF4D4D",
+   "cap": "Sworn to secrecy about their own dying."
+  },
+  {
+   "id": "n10",
+   "text": "For decades, Soviet doctors are forbidden to write radiation sickness on such records. The files say things like asthenic vegetative syndrome. A diagnosis invented to hide a cause of death.",
+   "img": "hospitalrad",
+   "cap": "A diagnosis invented to hide the truth."
+  },
+  {
+   "id": "n11",
+   "text": "In 1968, it happens again, on another submarine. K-27, with an experimental liquid metal reactor, suffers a power failure at sea. Radiation floods the boat.",
+   "img": "submarine",
+   "stat": "MAY 24, 1968",
+   "cap": "1968. It happens again."
+  },
+  {
+   "id": "n12",
+   "text": "Again, sailors go into the reactor compartment. Again, they come out to die. 9 crewmen are killed by their doses. The youngest are barely 20.",
+   "img": "submarine",
+   "stat": "9 DEAD",
+   "statColor": "#FF4D4D",
+   "cap": "Again, sailors go in. Again, they die."
+  },
+  {
+   "id": "n13",
+   "text": "The Soviet Navy could not repair K-27, so in 1982 it solved the problem another way. It scuttled the submarine, reactor and all, in the shallow waters of the Kara Sea. It is still there.",
+   "img": "submarine",
+   "cap": "They sank the problem. It's still down there."
+  },
+  {
+   "id": "n14",
+   "text": "The submariners met the atom in disasters. But through those same decades, it was quietly killing men one at a time, in ordinary rooms, on ordinary afternoons.",
+   "img": "reactorlab",
+   "cap": "It also killed one man at a time."
+  },
+  {
+   "id": "c8_t",
+   "text": "Chapter 8. The blue flash.",
+   "chapter": "CHAPTER 8\nThe Blue Flash"
+  },
+  {
+   "id": "f1",
+   "text": "There is a category of nuclear accident with its own grim signature. The criticality accident. Too much fissile material, too close together, for a fraction of a second.",
+   "img": "bluelash",
+   "cap": "Too much. Too close. Too fast."
+  },
+  {
+   "id": "f2",
+   "text": "The survivors' accounts agree on the details. A flash of blue light. A wave of heat on the skin. Sometimes a metallic taste, flooding the mouth from nowhere.",
+   "img": "bluelash",
+   "cap": "Blue light. Heat. A metallic taste."
+  },
+  {
+   "id": "f3",
+   "text": "The blue is the air itself, ionized by radiation. If you are close enough to see it clearly, you have very likely already received a lethal dose.",
+   "img": "bluelash",
+   "cap": "If you see it clearly, it's already too late."
+  },
+  {
+   "id": "f4",
+   "text": "There have been around 60 criticality accidents worldwide. They happen in the most mundane way imaginable. Usually, someone is just pouring a liquid.",
+   "img": "reactorlab",
+   "stat": "~60 ACCIDENTS",
+   "cap": "Usually, someone is just pouring a liquid."
+  },
+  {
+   "id": "f5",
+   "text": "Los Alamos, 1958. Chemist Cecil Kelley switches on a mixing tank that, unknown to him, contains far too much plutonium. The blue flash lights the room.",
+   "img": "losalamos",
+   "stat": "DECEMBER 30, 1958",
+   "cap": "He just switched on a mixer."
+  },
+  {
+   "id": "f6",
+   "text": "Kelley receives one of the largest radiation doses ever recorded. He dies 35 hours later. His case becomes a foundational study in what massive doses do to a human body.",
+   "img": "hospitalrad",
+   "stat": "35 HOURS",
+   "statColor": "#FF4D4D",
+   "cap": "35 hours."
+  },
+  {
+   "id": "f7",
+   "text": "Vinca, Yugoslavia, that same year. 6 young researchers are dosed when an unshielded research reactor runs out of control. Nobody sees a flash. They only smell ozone.",
+   "img": "reactorlab",
+   "stat": "VINCA · 1958",
+   "cap": "No flash. Just the smell of ozone."
+  },
+  {
+   "id": "f8",
+   "text": "They are flown to Paris, where doctors attempt something nearly unprecedented. Bone marrow transplants, from volunteer French donors, to rebuild the blood the radiation destroyed.",
+   "img": "hospitalrad",
+   "cap": "Strangers in Paris gave them their marrow."
+  },
+  {
+   "id": "f9",
+   "text": "5 of the 6 survive. One, the youngest, does not. The Vinca accident helps invent modern bone marrow transplantation, a treatment that has since saved hundreds of thousands of lives.",
+   "img": "hospitalrad",
+   "cap": "His death helped invent a cure for others."
+  },
+  {
+   "id": "f10",
+   "text": "Wood River Junction, Rhode Island, 1964. Robert Peabody, a 37 year old plant worker, pours what he believes is a low-grade solution into a tank of stirring liquid.",
+   "img": "reactorlab",
+   "stat": "JULY 24, 1964",
+   "cap": "He thought it was the low-grade solution."
+  },
+  {
+   "id": "f11",
+   "text": "The bottle actually holds concentrated uranium. The tank flashes critical in his hands. He is thrown backward, drenched, and receives roughly twice the dose that killed Cecil Kelley.",
+   "img": "bluelash",
+   "cap": "It flashed critical in his hands."
+  },
+  {
+   "id": "f12",
+   "text": "Robert Peabody dies 49 hours later. A husband, a father of 9, killed by 2 identical-looking bottles and a labeling system that let them be confused.",
+   "img": "hospitalrad",
+   "stat": "49 HOURS",
+   "statColor": "#FF4D4D",
+   "cap": "A father of 9. Two identical bottles."
+  },
+  {
+   "id": "f13",
+   "text": "That is the pattern of the blue flash. Not villains, not recklessness. A slipped brick. A mislabeled bottle. Geometry and gravity doing the rest, faster than thought.",
+   "img": "geiger",
+   "cap": "Geometry and gravity, faster than thought."
+  },
+  {
+   "id": "f14",
+   "text": "Every one of these accidents killed men in ones and twos. The atom's worst night would kill differently. It would take a whole map with it.",
+   "img": "chernobylplant",
+   "cap": "Its worst night would take a whole map."
+  },
+  {
+   "id": "c9_t",
+   "text": "Chapter 9. 1:23 in the morning.",
+   "chapter": "CHAPTER 9\n1:23 in the Morning"
+  },
+  {
+   "id": "ch1",
+   "text": "April 26, 1986. Soviet Ukraine. At the Chernobyl nuclear power plant, the night shift of reactor number 4 is running a safety test that is 3 years overdue.",
+   "img": "chernobylplant",
+   "stat": "APRIL 26, 1986",
+   "cap": "A safety test, 3 years overdue."
+  },
+  {
+   "id": "ch2",
+   "text": "The test has been delayed all day, so it lands on the least experienced shift, after midnight. The reactor has been held in an unstable, poisoned state for hours.",
+   "img": "chernobylplant",
+   "cap": "It landed on the least experienced shift."
+  },
+  {
+   "id": "ch3",
+   "text": "The RBMK reactor has a flaw its operators were never told about. At low power, it becomes treacherous. And its emergency shutdown button has a defect that reads like a cruel joke.",
+   "img": "reactorlab",
+   "cap": "A flaw the operators were never told about."
+  },
+  {
+   "id": "ch4",
+   "text": "For the first fraction of a second, pressing the shutdown button can make the reaction speed up. On this night, in this state, that is exactly what it does.",
+   "img": "chernobylplant",
+   "cap": "The off switch, briefly, was an accelerator."
+  },
+  {
+   "id": "ch5",
+   "text": "At 1:23 and 40 seconds, shift supervisor Alexander Akimov orders the shutdown. Power surges to perhaps 100 times normal. The fuel shatters. The water flashes to steam.",
+   "img": "chernobylplant",
+   "stat": "1:23:40 AM",
+   "cap": "The shutdown order made it explode."
+  },
+  {
+   "id": "ch6",
+   "text": "Two explosions tear the reactor apart and throw its 1,000 ton lid aside like a coin. The core, the burning graphite, the fuel, all of it is suddenly open to the night sky.",
+   "img": "chernobylfire",
+   "cap": "A 1,000-ton lid, flipped like a coin."
+  },
+  {
+   "id": "ch7",
+   "text": "One man dies in the blast itself. Valery Khodemchuk, a circulation pump operator. His body is never recovered. The sarcophagus is his tomb to this day.",
+   "img": "chernobylplant",
+   "statColor": "#FF4D4D",
+   "stat": "NEVER RECOVERED",
+   "cap": "The sarcophagus is his tomb."
+  },
+  {
+   "id": "ch8",
+   "text": "In the control room, the instruments make no sense. Akimov and young engineer Leonid Toptunov cannot believe the core is gone. They spend the night pumping water into a reactor that no longer exists.",
+   "img": "chernobylplant",
+   "cap": "Pumping water into a reactor that wasn't there."
+  },
+  {
+   "id": "ch9",
+   "text": "Both will die of radiation sickness within weeks, still insisting they did everything right. The terrible truth is, they mostly had.",
+   "img": "hospitalrad",
+   "cap": "They mostly had done everything right."
+  },
+  {
+   "id": "ch10",
+   "text": "The first firefighters arrive within minutes, led by 23 year old Lieutenant Vladimir Pravik. They climb onto the roof of the turbine hall to fight the flames. Nobody tells them what is burning.",
+   "img": "chernobylfire",
+   "stat": "FIRST CREWS · 23 YEARS OLD",
+   "cap": "Nobody told them what was burning."
+  },
+  {
+   "id": "ch10b",
+   "text": "Their dosimeters are not built for this. The scale of the plant's best instruments ends far below the truth. The men on the roof are fighting blind.",
+   "img": "chernobylfire",
+   "cap": "The instruments could not say how bad it was."
+  },
+  {
+   "id": "ch11",
+   "text": "Chunks of the reactor core lie scattered around them. Graphite from inside the reactor, on the ground, radiating. Some firefighters kick the blocks aside. One reportedly picks a piece up.",
+   "img": "chernobylfire",
+   "cap": "Pieces of the core lay at their feet."
+  },
+  {
+   "id": "ch12",
+   "text": "Among them is Vasily Ignatenko, 25 years old, married 3 years. His wife Lyudmilla watches from their apartment as the men work under the strange glowing column of light.",
+   "img": "chernobylfire",
+   "cap": "His wife watched from their window."
+  },
+  {
+   "id": "ch13",
+   "text": "By morning, the firefighters are vomiting, their faces darkening. They are flown to a special hospital in Moscow. Lyudmilla follows Vasily, hides her pregnancy, and refuses to leave his side.",
+   "img": "hospitalrad",
+   "cap": "She hid her pregnancy to stay with him."
+  },
+  {
+   "id": "ch14",
+   "text": "The nurses warn her that her husband is no longer a person she can safely touch. He is, in their words, a radioactive object. She stays anyway, for 14 days, until the end.",
+   "img": "hospitalrad",
+   "stat": "14 DAYS",
+   "statColor": "#FF4D4D",
+   "cap": "She stayed anyway. 14 days."
+  },
+  {
+   "id": "ch15",
+   "text": "28 plant workers and firefighters die of acute radiation sickness in the weeks after the explosion. They are buried in Moscow, in soldered zinc coffins, under concrete slabs.",
+   "img": "liquidators",
+   "stat": "28 DEAD IN WEEKS",
+   "statColor": "#FF4D4D",
+   "cap": "Zinc coffins, under concrete."
+  },
+  {
+   "id": "ch16",
+   "text": "36 hours after the blast, the city of Pripyat, 50,000 people, is finally evacuated. They are told it is temporary. Three days at most. Their plates are still on the tables.",
+   "img": "pripyat",
+   "cap": "Their plates are still on the tables."
+  },
+  {
+   "id": "ch17",
+   "text": "The fire is out. The city is empty. And the real war, the one fought by half a million ordinary people, is only beginning.",
+   "img": "pripyat",
+   "cap": "The real war was only beginning."
+  },
+  {
+   "id": "c10_t",
+   "text": "Chapter 10. The liquidators.",
+   "chapter": "CHAPTER 10\nThe Liquidators"
+  },
+  {
+   "id": "l1",
+   "text": "The Soviet Union mobilizes for Chernobyl like a world war. Around 600,000 people, soldiers, miners, pilots, drivers, are sent into the zone. History calls them the liquidators.",
+   "img": "liquidators",
+   "stat": "~600,000 LIQUIDATORS",
+   "cap": "They mobilized like it was a world war."
+  },
+  {
+   "id": "l2",
+   "text": "First problem: the burning core is open to the sky. Helicopter crews fly directly over the glowing crater, dropping sand, lead, and boron into the reactor's throat.",
+   "img": "chernobylfire",
+   "cap": "Flying over the reactor's open throat."
+  },
+  {
+   "id": "l3",
+   "text": "Pilots take doses in minutes that workers should not take in years. In October 1986, one helicopter's blades clip a crane cable near the reactor. It falls out of the sky. All 4 crew die.",
+   "img": "chernobylfire",
+   "statColor": "#FF4D4D",
+   "stat": "4 CREW",
+   "cap": "One crew fell out of the sky."
+  },
+  {
+   "id": "l4",
+   "text": "Second problem: melted fuel may burn down toward water beneath the reactor, risking a second, far worse steam explosion. The water has to be drained. By hand.",
+   "img": "chernobylplant",
+   "cap": "Someone had to open the valves. By hand."
+  },
+  {
+   "id": "l5",
+   "text": "Three men, Ananenko, Bezpalov, and Baranov, wade through flooded, radioactive corridors in the dark to find the valves. The world would later tell their story as a suicide mission.",
+   "img": "chernobylplant",
+   "stat": "THE 3 DIVERS",
+   "cap": "They waded into the dark below the core."
+  },
+  {
+   "id": "l6",
+   "text": "They found the valves. They opened them. And, contrary to the legend that they died within days, all 3 came out alive. The dread was real. The martyrdom was myth.",
+   "img": "chernobylplant",
+   "cap": "The legend says they died. They lived."
+  },
+  {
+   "id": "l7",
+   "text": "Third problem: the roof. Chunks of reactor core lie on the rooftops next to the crater, too radioactive for any machine. The robots sent up fail, their circuits scrambled.",
+   "img": "liquidators",
+   "cap": "Even the robots died up there."
+  },
+  {
+   "id": "l8",
+   "text": "So the Soviet Union sends what the officers grimly call biorobots. Men, in lead aprons, running onto the roof to shovel reactor graphite over the edge.",
+   "img": "liquidators",
+   "stat": "THE BIOROBOTS",
+   "cap": "Men, where machines failed."
+  },
+  {
+   "id": "l9",
+   "text": "Each man is allowed one run of roughly 40 to 90 seconds. A siren, a sprint, a few shovel loads, and out. That is his entire war. Roughly 3,000 men take their turn on the roof.",
+   "img": "liquidators",
+   "stat": "90 SECONDS",
+   "cap": "One sprint. A few shovel loads. That was the war."
+  },
+  {
+   "id": "l10",
+   "text": "Miners tunnel under the reactor in brutal heat to install cooling. Reservists shovel contaminated topsoil. Hunters shoot the abandoned pets of Pripyat so they cannot spread contamination.",
+   "img": "liquidators",
+   "cap": "Every job in the zone was a strange new job."
+  },
+  {
+   "id": "l10b",
+   "text": "Many liquidators later received medals, and pensions that inflation ate. Their registered death and illness counts remain among the most bitterly disputed numbers of the 20th century.",
+   "img": "liquidators",
+   "cap": "Medals, then disputed numbers."
+  },
+  {
+   "id": "l11",
+   "text": "By November, the liquidators have buried reactor 4 inside a vast grey shell of steel and concrete. The sarcophagus. Built in 206 days, by men working in doses no meter fully recorded.",
+   "img": "sarcophagus",
+   "stat": "206 DAYS",
+   "cap": "They buried the reactor in 206 days."
+  },
+  {
+   "id": "l12",
+   "text": "So how many people did Chernobyl kill? Choose your source, and the answer changes by orders of magnitude.",
+   "img": "sarcophagus",
+   "cap": "Choose your source. The number changes."
+  },
+  {
+   "id": "l13",
+   "text": "The confirmed count is around 31 immediate deaths, plus dozens more among the acute survivors. The World Health Organization projected roughly 4,000 eventual cancer deaths among the most exposed.",
+   "img": "liquidators",
+   "stat": "31 CONFIRMED · ~4,000 PROJECTED",
+   "statColor": "#FF4D4D",
+   "cap": "31 confirmed. Thousands projected."
+  },
+  {
+   "id": "l14",
+   "text": "Other studies argue for tens of thousands across Europe over decades. The honest truth is that the full toll is genuinely unknowable, hidden inside ordinary cancer statistics forever.",
+   "img": "pripyat",
+   "cap": "The full toll is hidden forever."
+  },
+  {
+   "id": "l15",
+   "text": "Chernobyl was the atom at its most enormous. The next disaster on our list is the opposite. It fit inside a steel capsule the size of a coffee tin.",
+   "img": "cesiumsource",
+   "cap": "The next killer fit in a coffee tin."
+  },
+  {
+   "id": "c11_t",
+   "text": "Chapter 11. The glowing powder.",
+   "chapter": "CHAPTER 11\nThe Glowing Powder"
+  },
+  {
+   "id": "g1",
+   "text": "Goiania, Brazil. September 1987. In the ruins of an abandoned cancer clinic, a machine has been left behind. Inside it, sealed in steel and lead, sits a capsule of cesium-137.",
+   "img": "goiania",
+   "stat": "SEPTEMBER 1987",
+   "cap": "Left behind in an abandoned clinic."
+  },
+  {
+   "id": "g2",
+   "text": "For 2 years, the source sits in the derelict building while owners and courts argue about the property. A city of a million people, and a radiotherapy source with no guard.",
+   "img": "goiania",
+   "cap": "2 years, unguarded, in a dead building."
+  },
+  {
+   "id": "g3",
+   "text": "On September 13, two scavengers looking for scrap metal wheel the machine's rotating head home in a wheelbarrow. To them it is just steel and lead. Money.",
+   "img": "goiania",
+   "cap": "To them it was just scrap metal."
+  },
+  {
+   "id": "g4",
+   "text": "They spend days breaking it open, both growing strangely ill, vomiting, one's hand beginning to burn and swell where he works on the capsule.",
+   "img": "goiania",
+   "cap": "The capsule fought back."
+  },
+  {
+   "id": "g5",
+   "text": "Eventually they puncture the capsule window, and find something wonderful inside. A powder that glows deep blue in the dark, like carnival glitter, like something enchanted.",
+   "img": "cesiumsource",
+   "stat": "CESIUM-137",
+   "cap": "A powder that glowed deep blue."
+  },
+  {
+   "id": "g6",
+   "text": "The remains are sold to a scrapyard owner, Devair Ferreira. He is mesmerized. He brings the glowing material into his house and shows it off to family, friends, neighbors.",
+   "img": "goiania",
+   "cap": "He brought the glow home to show everyone."
+  },
+  {
+   "id": "g7",
+   "text": "People take pinches of it. They rub it on their skin to shine at parties. Fragments travel across the city in pockets, on bus seats, on hands that then prepare food.",
+   "img": "cesiumsource",
+   "cap": "They rubbed it on their skin to shine."
+  },
+  {
+   "id": "g8",
+   "text": "Devair's 6 year old niece, Leide das Neves, plays with the powder on the floor while eating a sandwich. Some of the glow is on her hands. Some of it goes down with the bread.",
+   "img": "goiania",
+   "stat": "LEIDE · AGE 6",
+   "cap": "Some of the glow went down with the bread."
+  },
+  {
+   "id": "g9",
+   "text": "Within days, an invisible epidemic spreads. Vomiting, burns, hair falling out. Doctors diagnose everything from allergies to tropical disease. Nobody thinks of radiation. Why would they?",
+   "img": "hospitalrad",
+   "cap": "An epidemic with no germ."
+  },
+  {
+   "id": "g10",
+   "text": "It is Devair's wife, Gabriela, already gravely ill, who ends it. She hauls the remains of the source in a plastic bag, by bus, to a public health clinic, and says: this is killing my family.",
+   "img": "goiania",
+   "cap": "She carried the source to the clinic by bus."
+  },
+  {
+   "id": "g11",
+   "text": "A visiting physicist with a borrowed detector traces the contamination and raises the alarm, reportedly stopping first responders from dumping the bag in a river.",
+   "img": "geiger",
+   "cap": "One borrowed detector ended the epidemic."
+  },
+  {
+   "id": "g12",
+   "text": "112,000 people line up at the Olympic stadium to be scanned. 249 are contaminated. Houses are demolished. Topsoil is stripped. The cleanup fills thousands of drums with radioactive waste.",
+   "img": "goiania",
+   "stat": "112,000 SCREENED",
+   "cap": "A stadium full of frightened people."
+  },
+  {
+   "id": "g12b",
+   "text": "For years afterward, some of Goiania's people were shunned. Taxis refused them, hotels turned them away, as if the invisible thing could be caught like flu.",
+   "img": "goiania",
+   "cap": "Shunned, as if radiation were contagious."
+  },
+  {
+   "id": "g13",
+   "text": "4 people die within weeks, including Gabriela, who saved the city, and little Leide. The girl is buried in a lead coffin, under concrete, while frightened crowds protest at the cemetery.",
+   "img": "goiania",
+   "stat": "4 DEAD",
+   "statColor": "#FF4D4D",
+   "cap": "The girl who touched something beautiful."
+  },
+  {
+   "id": "g14",
+   "text": "Goiania remains the textbook warning about what one lost source can do to a city. 12 years later, another routine workplace would produce the atomic age's most haunting medical case.",
+   "img": "tokaimura",
+   "cap": "12 years later: the most haunting case of all."
+  },
+  {
+   "id": "c12_t",
+   "text": "Chapter 12. 83 days.",
+   "chapter": "CHAPTER 12\n83 Days"
+  },
+  {
+   "id": "o1",
+   "text": "Tokaimura, Japan. September 30, 1999. At a small fuel processing plant, 3 workers are preparing uranium solution for an experimental reactor. They are badly behind schedule.",
+   "img": "tokaimura",
+   "stat": "SEPTEMBER 30, 1999",
+   "cap": "Badly behind schedule."
+  },
+  {
+   "id": "o2",
+   "text": "The approved procedure is slow, so the plant has developed shortcuts. Instead of controlled equipment, the workers mix uranium in steel buckets, by hand.",
+   "img": "tokaimura",
+   "cap": "Uranium. In steel buckets. By hand."
+  },
+  {
+   "id": "o3",
+   "text": "Hisashi Ouchi, 35, holds a funnel over a precipitation tank while a colleague pours in bucket after bucket. The tank was never meant to hold this much enriched uranium in this shape.",
+   "img": "tokaimura",
+   "cap": "Bucket after bucket into the wrong tank."
+  },
+  {
+   "id": "o4",
+   "text": "At the seventh bucket, the solution reaches critical mass. There is a blue flash. Ouchi is standing directly over the tank, closer than almost any accident victim in history.",
+   "img": "bluelash",
+   "stat": "10:35 AM",
+   "cap": "He was standing directly over it."
+  },
+  {
+   "id": "o5",
+   "text": "He receives an estimated 17 sieverts. The dose considered fatal is around 8. His colleague Masato Shinohara receives around 10. Their supervisor, further away, around 3.",
+   "img": "tokaimura",
+   "stat": "17 SIEVERTS",
+   "statColor": "#FF4D4D",
+   "cap": "Twice the dose considered unsurvivable."
+  },
+  {
+   "id": "o6",
+   "text": "At first, Ouchi seems almost fine. He is conscious, talking, with little more than reddened skin and nausea. This is the atom's cruelest trick. The walking ghost phase.",
+   "img": "hospitalrad",
+   "cap": "At first, he seemed almost fine."
+  },
+  {
+   "id": "o7",
+   "text": "The damage is already total, written into him at the level of DNA. The radiation has destroyed his body's ability to make new cells. Everything that must renew itself, cannot.",
+   "img": "hospitalrad",
+   "cap": "The damage was written in at the level of DNA."
+  },
+  {
+   "id": "o8",
+   "text": "Japan's finest doctors fight for him with everything medicine has. Transfusions, skin grafts, pioneering stem cell transplants from his sister. For a moment, the new cells even take hold.",
+   "img": "tokaimura",
+   "cap": "Medicine threw everything it had at the atom."
+  },
+  {
+   "id": "o9",
+   "text": "Then the radiation still lodged in his body damages the transplanted cells too. The doctors are trying to rebuild a house while the fire is still inside the walls.",
+   "img": "hospitalrad",
+   "cap": "The fire was still inside the walls."
+  },
+  {
+   "id": "o10",
+   "text": "His heart stops 3 times in one hour on day 59. Each time, he is revived, at his family's request, while the medical team quietly begins to question what they are fighting for.",
+   "img": "hospitalrad",
+   "stat": "DAY 59",
+   "cap": "His heart stopped 3 times in one hour."
+  },
+  {
+   "id": "o11",
+   "text": "Hisashi Ouchi dies on December 21, 1999. He had survived 83 days. His case is studied worldwide, and it hardened a consensus: beyond a certain dose, medicine can prolong, but not save.",
+   "img": "tokaimura",
+   "stat": "83 DAYS",
+   "statColor": "#FF4D4D",
+   "cap": "83 days."
+  },
+  {
+   "id": "o12",
+   "text": "Masato Shinohara fights for 7 months before he too dies. The supervisor survives. The company, JCO, is found to have rewritten safety procedures for speed, with regulators asleep.",
+   "img": "tokaimura",
+   "cap": "The shortcut was written into the manual."
+  },
+  {
+   "id": "o13",
+   "text": "Tokaimura happened inside a nuclear facility, with experts and hospitals minutes away. Now imagine the same physics loose in the world, with no experts anywhere in sight.",
+   "img": "lostsource",
+   "cap": "Now imagine it loose in the world."
+  },
+  {
+   "id": "c13_t",
+   "text": "Chapter 13. The lost sources.",
+   "chapter": "CHAPTER 13\nThe Lost Sources"
+  },
+  {
+   "id": "x1",
+   "text": "Scattered across the world are thousands of small, sealed radioactive sources. In hospitals, factories, construction sites. Every year, some of them simply go missing.",
+   "img": "lostsource",
+   "stat": "ORPHAN SOURCES",
+   "cap": "Every year, some simply go missing."
+  },
+  {
+   "id": "x2",
+   "text": "The safety community has a name for them. Orphan sources. And the orphans have a long record of finding their way to people who cannot know what they hold.",
+   "img": "lostsource",
+   "cap": "The orphans always find someone."
+  },
+  {
+   "id": "x2b",
+   "text": "The International Atomic Energy Agency has logged thousands of incidents of radioactive material lost, stolen, or found where it should never be. These are only the ones reported.",
+   "img": "lostsource",
+   "cap": "And these are only the reported ones."
+  },
+  {
+   "id": "x3",
+   "text": "Ciudad Juarez, Mexico, 1983. A hospital's disused cobalt-60 therapy unit is sold for scrap. The capsule breaks open in a junkyard, spilling thousands of tiny radioactive pellets.",
+   "img": "cesiumsource",
+   "stat": "JUAREZ · 1983",
+   "cap": "6,000 pellets, loose in a junkyard."
+  },
+  {
+   "id": "x4",
+   "text": "The pellets are melted down with the scrap. The contaminated steel becomes rebar and table legs, shipped to buildings across Mexico and the United States.",
+   "img": "cesiumsource",
+   "cap": "The radiation was melted into the steel."
+  },
+  {
+   "id": "x5",
+   "text": "It is only discovered when a delivery truck takes a wrong turn near the Los Alamos laboratory, and drives past a radiation sensor. The alarm goes off for a truckload of rebar.",
+   "img": "geiger",
+   "cap": "Discovered by a wrong turn at Los Alamos."
+  },
+  {
+   "id": "x6",
+   "text": "Hundreds of buildings are demolished or stripped. Several junkyard workers take serious doses. Estimates of eventual deaths from Juarez range from none to a handful. Once again, nobody can truly count.",
+   "img": "cesiumsource",
+   "cap": "Nobody can truly count."
+  },
+  {
+   "id": "x7",
+   "text": "Sometimes the atom kills through the very machines built to heal. Zaragoza, Spain, 1990. A hospital's radiotherapy machine is repaired, and left miscalibrated.",
+   "img": "hospitalrad",
+   "stat": "ZARAGOZA · 1990",
+   "cap": "The healing machine was left miscalibrated."
+  },
+  {
+   "id": "x8",
+   "text": "For 10 days, cancer patients receive massive overdoses with every treatment. At least 11 of them die from the radiation that was supposed to save them.",
+   "img": "hospitalrad",
+   "stat": "11+ PATIENTS",
+   "statColor": "#FF4D4D",
+   "cap": "Killed by their own cure."
+  },
+  {
+   "id": "x9",
+   "text": "Costa Rica, 1996. Same story, different arithmetic. A therapy source is replaced, the machine is miscalibrated, and 115 patients are overdosed. More than a dozen deaths are attributed to it.",
+   "img": "hospitalrad",
+   "stat": "SAN JOSE · 1996",
+   "cap": "115 patients. One wrong number."
+  },
+  {
+   "id": "x10",
+   "text": "But the most intimate lost-source story of all comes from a Soviet apartment block, in the city of Kramatorsk, Ukraine.",
+   "img": "kramatorsk",
+   "cap": "The most intimate story of all."
+  },
+  {
+   "id": "x11",
+   "text": "In around 1980, a tiny cesium-137 capsule, lost years earlier at a quarry, ends up mixed into gravel. The gravel becomes a concrete wall panel. The panel becomes apartment 85.",
+   "img": "kramatorsk",
+   "stat": "APARTMENT 85",
+   "cap": "The capsule became part of the wall."
+  },
+  {
+   "id": "x12",
+   "text": "The capsule sits inside the wall of a children's bedroom, silently dosing whoever sleeps against it. In 1981, a teenage girl living there dies of leukemia.",
+   "img": "kramatorsk",
+   "cap": "It sat inside a children's bedroom wall."
+  },
+  {
+   "id": "x13",
+   "text": "Then her younger brother dies. Then their mother. A new family moves in. Their son dies too. Doctors blame heredity, then coincidence. The wall keeps radiating.",
+   "img": "kramatorsk",
+   "statColor": "#FF4D4D",
+   "stat": "4 DEAD · 2 FAMILIES",
+   "cap": "Two families. One bedroom wall."
+  },
+  {
+   "id": "x14",
+   "text": "It takes until 1989 for a determined father to demand a radiation survey. The meter screams against one wall. The capsule is cut out of the concrete. It had been killing for 9 years.",
+   "img": "kramatorsk",
+   "stat": "9 YEARS",
+   "cap": "The wall had been killing for 9 years."
+  },
+  {
+   "id": "x15",
+   "text": "Every lost-source disaster is the same story. The atom does not announce itself. It waits, patiently, inside whatever we make of it, until someone finally thinks to measure.",
+   "img": "geiger",
+   "cap": "It waits until someone thinks to measure."
+  },
+  {
+   "id": "x16",
+   "text": "By the 21st century, humanity believed it had learned these lessons. Then, on an ordinary Friday afternoon in Japan, the ocean itself put them to the test.",
+   "img": "tsunami2011",
+   "cap": "Then the ocean tested everything."
+  },
+  {
+   "id": "c14_t",
+   "text": "Chapter 14. The wave and the meltdown.",
+   "chapter": "CHAPTER 14\nThe Wave and the Meltdown"
+  },
+  {
+   "id": "u1",
+   "text": "March 11, 2011. 2:46 in the afternoon. Off the coast of Japan, the seafloor lurches. A magnitude 9.0 earthquake, among the largest ever recorded.",
+   "img": "tsunami2011",
+   "stat": "MARCH 11, 2011",
+   "cap": "The seafloor lurches."
+  },
+  {
+   "id": "u2",
+   "text": "The quake triggers a tsunami up to 40 meters high in places. It erases whole towns from the coastline. Around 18,500 people are dead or missing by nightfall.",
+   "img": "tsunami2011",
+   "stat": "~18,500 DEAD",
+   "statColor": "#FF4D4D",
+   "cap": "Whole towns erased by nightfall."
+  },
+  {
+   "id": "u3",
+   "text": "On that coastline stands the Fukushima Daiichi nuclear plant. Its reactors survive the earthquake and shut down exactly as designed. Then the wave arrives.",
+   "img": "fukushima",
+   "cap": "The reactors survived the quake. Then the wave."
+  },
+  {
+   "id": "u4",
+   "text": "The tsunami overtops the seawall and drowns the emergency generators, which were installed in basements. The plant goes dark. No power means no cooling.",
+   "img": "fukushima",
+   "cap": "The generators were in the basements."
+  },
+  {
+   "id": "u5",
+   "text": "Over the next days, 3 reactor cores melt down. Hydrogen explosions blow the tops off the reactor buildings on live television, while workers fight in the dark with car batteries and fire trucks.",
+   "img": "fukushima",
+   "stat": "3 MELTDOWNS",
+   "cap": "Fighting a meltdown with car batteries."
+  },
+  {
+   "id": "u5b",
+   "text": "A skeleton crew stays behind as the site becomes a labyrinth of rubble and radiation. The press names them the Fukushima 50. None of them dies of their doses.",
+   "img": "fukushima",
+   "stat": "THE FUKUSHIMA 50",
+   "cap": "The 50 who stayed behind."
+  },
+  {
+   "id": "u6",
+   "text": "More than 150,000 people are evacuated from the surrounding countryside. And here, the story becomes uncomfortable, because the numbers refuse to behave the way you expect.",
+   "img": "evacuationjp",
+   "cap": "Here the numbers stop behaving."
+  },
+  {
+   "id": "u7",
+   "text": "How many people did Fukushima's radiation kill? Directly, in the disaster itself, none. Not one worker, not one resident, died of acute radiation sickness.",
+   "img": "fukushima",
+   "stat": "ACUTE RADIATION DEATHS: 0",
+   "cap": "Acute radiation deaths: zero."
+  },
+  {
+   "id": "u8",
+   "text": "In 2018, Japan attributed 1 death to the radiation. A plant worker who had spent the crisis measuring doses, and died of lung cancer 7 years later.",
+   "img": "fukushima",
+   "stat": "1 ATTRIBUTED DEATH",
+   "cap": "One name, 7 years later."
+  },
+  {
+   "id": "u9",
+   "text": "But the evacuation itself killed. Hospital patients and elderly residents moved in freezing buses, nursing home evacuees without care, years of displacement, stress, and suicide.",
+   "img": "evacuationjp",
+   "cap": "The escape route had its own toll."
+  },
+  {
+   "id": "u10",
+   "text": "Japanese authorities have certified over 2,000 disaster-related deaths in Fukushima prefecture, deaths from the evacuation and its aftermath rather than from radiation itself.",
+   "img": "evacuationjp",
+   "stat": "2,000+ EVACUATION-RELATED",
+   "statColor": "#FF4D4D",
+   "cap": "The fear was deadlier than the dose."
+  },
+  {
+   "id": "u11",
+   "text": "That is Fukushima's unsettling lesson. The atom killed almost no one. Our terror of the atom, and the wave that started it all, killed thousands.",
+   "img": "fukushima",
+   "cap": "The terror outkilled the atom."
+  },
+  {
+   "id": "u12",
+   "text": "It is a strange entry on this list. And it forces the strangest question of all. What about the disasters that never happened, but very nearly did?",
+   "img": "titan2silo",
+   "cap": "What about the ones that almost happened?"
+  },
+  {
+   "id": "c15_t",
+   "text": "Chapter 15. The ones that almost happened.",
+   "chapter": "CHAPTER 15\nThe Ones That Almost Happened"
+  },
+  {
+   "id": "m1",
+   "text": "Everything you have seen so far, every accident on this list, is small print compared to what the atom was actually built to do. And several times, it very nearly did it.",
+   "img": "mushroom",
+   "cap": "Everything so far was the small print."
+  },
+  {
+   "id": "m2",
+   "text": "Damascus, Arkansas. September 18, 1980. Inside a silo sleeps a Titan 2 missile carrying a 9 megaton warhead. About 600 times Hiroshima.",
+   "img": "titan2silo",
+   "stat": "9 MEGATONS",
+   "cap": "600 Hiroshimas, asleep in Arkansas."
+  },
+  {
+   "id": "m3",
+   "text": "During routine maintenance, a technician's socket wrench slips. The socket falls roughly 20 meters, bounces, and punctures the missile's fuel tank. The silo begins filling with explosive vapor.",
+   "img": "titan2silo",
+   "cap": "A dropped socket. A punctured missile."
+  },
+  {
+   "id": "m4",
+   "text": "Just after 3 in the morning, the fuel detonates. The blast throws the silo's 700 ton door aside and hurls the warhead itself into the night.",
+   "img": "titan2silo",
+   "stat": "3:00 AM",
+   "cap": "The warhead was thrown into the night."
+  },
+  {
+   "id": "m5",
+   "text": "Airman David Livingston, 22 years old, part of the team sent in to vent the silo, dies of his injuries. The warhead is found in a ditch, intact. Its safeties held.",
+   "img": "titan2silo",
+   "statColor": "#FF4D4D",
+   "stat": "1 DEAD · WARHEAD IN A DITCH",
+   "cap": "The warhead landed in a ditch. Intact."
+  },
+  {
+   "id": "m6",
+   "text": "Goldsboro, North Carolina, 1961. A B-52 breaks apart in midair, and its two hydrogen bombs fall on the countryside. On one of them, the arming sequence begins as it falls.",
+   "img": "goldsboro",
+   "stat": "JANUARY 24, 1961",
+   "cap": "Two hydrogen bombs, falling on farmland."
+  },
+  {
+   "id": "m7",
+   "text": "By some accounts, 3 of the 4 stages toward detonation completed on the way down. What stood between North Carolina and a multi-megaton explosion was, in essence, one switch.",
+   "img": "goldsboro",
+   "cap": "One switch did its job."
+  },
+  {
+   "id": "m8",
+   "text": "A declassified assessment later put it in one sentence. One simple, dynamo-technology, low voltage switch stood between the United States and a major catastrophe.",
+   "img": "goldsboro",
+   "stat": "1 SWITCH",
+   "cap": "The official words: one simple switch."
+  },
+  {
+   "id": "m9",
+   "text": "And then there is October 27, 1962. The Cuban missile crisis. Deep in the Caribbean, American ships are dropping practice depth charges to force a Soviet submarine, B-59, to surface.",
+   "img": "b59sub",
+   "stat": "OCTOBER 27, 1962",
+   "cap": "Depth charges, falling in the dark."
+  },
+  {
+   "id": "m10",
+   "text": "What the Americans do not know: B-59 carries a nuclear torpedo. The boat has been out of contact for days. The air is failing, the heat unbearable, and the crew believes war may already have begun.",
+   "img": "b59sub",
+   "cap": "The crew believed the war had started."
+  },
+  {
+   "id": "m11",
+   "text": "The captain wants to fire the nuclear torpedo. Accounts differ on the details, but launching reportedly required agreement from the senior officers aboard. One of them says no.",
+   "img": "b59sub",
+   "cap": "One officer said no."
+  },
+  {
+   "id": "m12",
+   "text": "His name is Vasili Arkhipov. He argues for surfacing instead. The submarine rises, the torpedo stays in its tube, and the world continues, unaware of how close the vote had been.",
+   "img": "b59sub",
+   "stat": "VASILI ARKHIPOV",
+   "cap": "The world never knew about the vote."
+  },
+  {
+   "id": "m13",
+   "text": "There have been dozens of documented close calls. False alarms from training tapes, from moonrise, from a flock of geese, from a 46 cent computer chip.",
+   "img": "radiumdial",
+   "cap": "Moonrise. Geese. A 46-cent chip."
+  },
+  {
+   "id": "m13b",
+   "text": "In 1983, a Soviet early-warning system reported 5 incoming American missiles. Duty officer Stanislav Petrov judged it a false alarm, and waited. He was right. It was sunlight on clouds.",
+   "img": "radiumdial",
+   "stat": "SEPTEMBER 26, 1983",
+   "cap": "It was sunlight on clouds."
+  },
+  {
+   "id": "m14",
+   "text": "The atom's greatest kill count is the one that never happened. It exists only as a shadow, held back, so far, by luck, by safeties, and by a handful of individual human beings saying no.",
+   "img": "mushroom",
+   "cap": "Held back by luck, and by people saying no."
+  },
+  {
+   "id": "c16_t",
+   "text": "Chapter 16. What the photographs mean.",
+   "chapter": "CHAPTER 16\nWhat the Photographs Mean"
+  },
+  {
+   "id": "e1",
+   "text": "Look back at the photographs one more time. The factory girls. The physicists. The firefighters. The scrapyard family. Almost no one in them looks like they are in danger.",
+   "img": "radiumgirls",
+   "cap": "No one in the photos looks in danger."
+  },
+  {
+   "id": "e2",
+   "text": "That is the signature of this killer. Fire announces itself. The sea announces itself. The atom kills invisibly, patiently, and often politely, letting its victims feel fine as they begin to die.",
+   "img": "geiger",
+   "cap": "It lets its victims feel fine."
+  },
+  {
+   "id": "e3",
+   "text": "It has killed through greed, at the dial factories. Through hurry, at Mayak and Tokaimura. Through secrecy, at Kyshtym. Through a slipped screwdriver, and a bucket, and a wall.",
+   "img": "radsymbol",
+   "cap": "Greed. Hurry. Secrecy. A screwdriver."
+  },
+  {
+   "id": "e4",
+   "text": "Count the confirmed dead of every accident in this story, and the number lands in the hundreds. Add the disputed statistical deaths, and it may climb into the tens of thousands. Nobody will ever know exactly.",
+   "img": "sarcophagus",
+   "cap": "Nobody will ever know exactly."
+  },
+  {
+   "id": "e5",
+   "text": "And yet, here is the uncomfortable twist. Measured per unit of energy, nuclear power has killed far fewer people than the coal and oil we burned instead, whose air pollution kills millions, quietly, every year.",
+   "img": "radiumdial",
+   "cap": "The uncomfortable twist in the ledger."
+  },
+  {
+   "id": "e6",
+   "text": "The same physics that hollowed a dial painter's jaw lights entire cities. It sterilizes medical equipment. It treats the cancers it can also cause. It is not a demon. It is a force, and it keeps our terms exactly.",
+   "img": "radiumdial",
+   "cap": "Not a demon. A force that keeps exact terms."
+  },
+  {
+   "id": "e7",
+   "text": "Every death in this story happened where respect ran out. A rule skipped, a warning buried, a source forgotten. The atom never cheats. It only collects.",
+   "img": "radsymbol",
+   "cap": "The atom never cheats. It only collects."
+  },
+  {
+   "id": "e8",
+   "text": "The people in these photographs paid for the knowledge we now take for granted. Every dosimeter badge, every interlock, every lead apron is a rule written in someone's name.",
+   "img": "liquidators",
+   "cap": "Every safety rule is written in someone's name."
+  },
+  {
+   "id": "e9",
+   "text": "So the next time you see that trefoil symbol on a door, understand what it really says. People died to learn what is behind this. Do not make them teach it again.",
+   "img": "radsymbol",
+   "stat": "☢ REMEMBER",
+   "cap": "Do not make them teach it again."
+  },
+  {
+   "id": "e10",
+   "text": "If this story stayed with you, subscribe to mindwired. It genuinely decides whether we can keep making documentaries like this one.",
+   "img": "radiumdial",
+   "cap": "Subscribe. It decides what we can make next."
+  },
+  {
+   "id": "e11",
+   "text": "Because the atom is only one chapter in a larger book. The ocean has its own list. Crushed submarines, saturation divers, vanished vessels. Photographs with somebody missing from them.",
+   "img": "submarine",
+   "cap": "The ocean has its own list."
+  },
+  {
+   "id": "e12",
+   "text": "That story is next. Until then, remember the girls who glowed, the men on the roof, and the child with the shining hands. The light was real. So was the price.",
+   "img": "goiania",
+   "cap": "The light was real. So was the price."
+  }
+ ]
+}

@@ -21,17 +21,27 @@ import {
 import "../lib/fonts";
 
 const FPS = 30;
-const DISPLAY = "'Space Grotesk', sans-serif";
-const BODY = "'Inter', sans-serif";
-const ACCENT = "#4DD8FF"; // mindwired cyan
 const BASE = "#05070C";
+
+type Theme = { display: string; body: string; accent: string; brand: string };
+const THEMES: Record<string, Theme> = {
+  mindwired: {
+    display: "'Space Grotesk', sans-serif", body: "'Inter', sans-serif",
+    accent: "#4DD8FF", brand: "mindwired",
+  },
+  dimaagbatti: {
+    display: "'Noto Sans Devanagari', 'Space Grotesk', sans-serif",
+    body: "'Noto Sans Devanagari', 'Inter', sans-serif",
+    accent: "#FFC53D", brand: "दिमाग़बत्ती",
+  },
+};
 
 export type DocScene = {
   id: string; text: string; cap?: string;
   img?: string; stat?: string; statColor?: string;
   chapter?: string;
 };
-export type DocSpec = { slug: string; title: string; scenes: DocScene[] };
+export type DocSpec = { slug: string; title: string; channel?: string; scenes: DocScene[] };
 export type DocManifest = {
   durations: Record<string, number>;
   images: Record<string, string[]>;
@@ -46,14 +56,14 @@ const sceneFrames = (s: DocScene, m: DocManifest) =>
 export const docTotalFrames = (doc: DocSpec, m: DocManifest) =>
   doc.scenes.reduce((a, s) => a + sceneFrames(s, m), 0);
 
-const Brand: React.FC = () => (
+const Brand: React.FC<{ th: Theme }> = ({ th }) => (
   <div style={{ position: "absolute", top: 42, right: 54, display: "flex", alignItems: "center", gap: 10, opacity: 0.85 }}>
-    <div style={{ width: 14, height: 14, borderRadius: "50%", background: ACCENT, boxShadow: `0 0 14px ${ACCENT}` }} />
-    <span style={{ fontFamily: DISPLAY, fontWeight: 700, fontSize: 28, color: "#fff", letterSpacing: 1 }}>mindwired</span>
+    <div style={{ width: 14, height: 14, borderRadius: "50%", background: th.accent, boxShadow: `0 0 14px ${th.accent}` }} />
+    <span style={{ fontFamily: th.display, fontWeight: 700, fontSize: 28, color: "#fff", letterSpacing: 1 }}>{th.brand}</span>
   </div>
 );
 
-const ChapterCard: React.FC<{ s: DocScene; slug: string; m: DocManifest }> = ({ s, slug, m }) => {
+const ChapterCard: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Theme }> = ({ s, slug, m, th }) => {
   const frame = useCurrentFrame();
   const hasAudio = m.durations[s.id] !== undefined;
   const sp = spring({ frame, fps: FPS, config: { damping: 16 } });
@@ -61,22 +71,22 @@ const ChapterCard: React.FC<{ s: DocScene; slug: string; m: DocManifest }> = ({ 
   return (
     <AbsoluteFill style={{ backgroundColor: BASE, justifyContent: "center", alignItems: "center" }}>
       <div style={{ position: "absolute", width: 760, height: 760, borderRadius: "50%",
-        background: `radial-gradient(circle, ${ACCENT}14 0%, transparent 62%)` }} />
+        background: `radial-gradient(circle, ${th.accent}14 0%, transparent 62%)` }} />
       <div style={{ textAlign: "center", transform: `translateY(${interpolate(sp, [0, 1], [26, 0])}px)`, opacity: sp }}>
-        <div style={{ fontFamily: DISPLAY, fontWeight: 700, fontSize: 34, color: ACCENT, letterSpacing: 6, marginBottom: 16 }}>
+        <div style={{ fontFamily: th.display, fontWeight: 700, fontSize: 34, color: th.accent, letterSpacing: 6, marginBottom: 16 }}>
           {lines[0]}
         </div>
-        <div style={{ fontFamily: DISPLAY, fontWeight: 700, fontSize: 88, color: "#fff", lineHeight: 1.12, maxWidth: 1500 }}>
+        <div style={{ fontFamily: th.display, fontWeight: 700, fontSize: 88, color: "#fff", lineHeight: 1.12, maxWidth: 1500 }}>
           {lines[1]}
         </div>
-        <div style={{ width: 120, height: 7, background: ACCENT, borderRadius: 5, margin: "30px auto 0" }} />
+        <div style={{ width: 120, height: 7, background: th.accent, borderRadius: 5, margin: "30px auto 0" }} />
       </div>
       {hasAudio && <Sequence from={LEAD}><Audio src={staticFile(`shorts/${slug}/audio/${s.id}.mp3`)} /></Sequence>}
     </AbsoluteFill>
   );
 };
 
-const IllusScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: number }> = ({ s, slug, m, idx }) => {
+const IllusScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: number; th: Theme }> = ({ s, slug, m, idx, th }) => {
   const frame = useCurrentFrame();
   const dur = sceneFrames(s, m);
   const t = frame / dur;
@@ -108,21 +118,21 @@ const IllusScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: num
         <div style={{ position: "absolute", top: 118, left: 96,
           transform: `translateY(${interpolate(statSp, [0, 1], [22, 0])}px) scale(${interpolate(statSp, [0, 1], [0.92, 1])})`,
           opacity: interpolate(frame - statAt, [0, 8], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) }}>
-          <span style={{ fontFamily: DISPLAY, fontWeight: 700, fontSize: 54, letterSpacing: 2,
+          <span style={{ fontFamily: th.display, fontWeight: 700, fontSize: 54, letterSpacing: 2,
             color: s.statColor ?? "#fff", background: "rgba(5,7,12,0.68)", padding: "12px 28px",
-            borderRadius: 12, borderLeft: `6px solid ${ACCENT}`,
+            borderRadius: 12, borderLeft: `6px solid ${th.accent}`,
             boxShadow: "0 8px 28px rgba(0,0,0,0.55)" }}>{s.stat}</span>
         </div>
       )}
 
-      <Brand />
+      <Brand th={th} />
 
       {s.cap && (
         <div style={{ position: "absolute", bottom: 84, left: 96, right: 96,
           transform: `translateY(${interpolate(capIn, [0, 1], [30, 0])}px)`, opacity: capIn }}>
-          <div style={{ fontFamily: BODY, fontWeight: 600, fontSize: 46, color: "#fff", lineHeight: 1.34,
+          <div style={{ fontFamily: th.body, fontWeight: 600, fontSize: 46, color: "#fff", lineHeight: 1.34,
             textShadow: "0 3px 20px rgba(0,0,0,0.9)" }}>
-            <span style={{ borderBottom: `4px solid ${ACCENT}`, paddingBottom: 5 }}>{s.cap}</span>
+            <span style={{ borderBottom: `4px solid ${th.accent}`, paddingBottom: 5 }}>{s.cap}</span>
           </div>
         </div>
       )}
@@ -133,6 +143,7 @@ const IllusScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: num
 };
 
 export const makeDocComp = (doc: DocSpec, manifest: DocManifest): React.FC => {
+  const th = THEMES[doc.channel ?? "mindwired"] ?? THEMES.mindwired;
   const Comp: React.FC = () => {
     let cursor = 0;
     return (
@@ -142,8 +153,8 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest): React.FC => {
           return (
             <Sequence key={s.id} from={from} durationInFrames={dur} name={s.id}>
               {s.chapter
-                ? <ChapterCard s={s} slug={doc.slug} m={manifest} />
-                : <IllusScene s={s} slug={doc.slug} m={manifest} idx={i} />}
+                ? <ChapterCard s={s} slug={doc.slug} m={manifest} th={th} />
+                : <IllusScene s={s} slug={doc.slug} m={manifest} idx={i} th={th} />}
             </Sequence>
           );
         })}

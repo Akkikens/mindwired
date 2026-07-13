@@ -26,12 +26,16 @@ import ww2EpicEnDoc from "./mindwired-doc/docs/ww2epic-en.json";
 import ww2EpicEnManifest from "./mindwired-doc/docs/ww2epic-en.manifest.json";
 import spaceDeathsHiDoc from "./mindwired-doc/docs/spacedeaths-hi.json";
 import spaceDeathsHiManifest from "./mindwired-doc/docs/spacedeaths-hi.manifest.json";
+import eastIndiaDoc from "./mindwired-doc/docs/eastindia.json";
+import eastIndiaManifest from "./mindwired-doc/docs/eastindia.manifest.json";
+import atomDeathsDoc from "./mindwired-doc/docs/atomdeaths.json";
+import atomDeathsManifest from "./mindwired-doc/docs/atomdeaths.manifest.json";
 import moonStrandedDoc from "./mindwired-doc/docs/moonstranded.json";
 import moonStrandedManifest from "./mindwired-doc/docs/moonstranded.manifest.json";
 import { WW2Thumb } from "./dimaagbatti/WW2Thumb";
 import { WW2Epic, ww2EpicTotalFrames } from "./dimaagbatti/WW2Epic";
 import { WW2EpicThumb } from "./dimaagbatti/WW2EpicThumb";
-import { WW2EpicEnThumb, SpaceDeathsHiThumb } from "./mindwired-doc/RemakeThumbs";
+import { WW2EpicEnThumb, SpaceDeathsHiThumb, EastIndiaThumb, AtomDeathsThumb } from "./mindwired-doc/RemakeThumbs";
 import { HowAIVideo, aiVideoTotalFrames } from "./aivideo/HowAIVideo";
 import { AnimeClash, animeClashFrames } from "./messivssalah/AnimeClash";
 import { AnimeClashV, animeClashVFrames } from "./messivssalah/AnimeClashV";
@@ -43,6 +47,9 @@ import { QFReview, qfReviewFrames } from "./qfreview/QFReview";
 import { Sixty3, sixty3Frames } from "./bvb63/Sixty3";
 import { Sixty3Short, sixty3ShortFrames } from "./bvb63/Sixty3Short";
 import { QFReviewShort, qfShortFrames } from "./qfreview/QFReviewShort";
+import { MvB, mvbFrames } from "./mvb/MvB";
+import { MvBShort, mvbShortFrames } from "./mvb/MvBShort";
+import { MvBThumb } from "./mvb/MvBThumb";
 import { ViralShort, viralShortFrames } from "./viral/ShortEngine";
 import { HookProbe, HookProbeProps, hookProbeFrames, HOOK_PROBE_DEFAULT_FRAMES } from "./viral/HookProbe";
 import { BrandIntro, BRAND_INTRO_FRAMES } from "./components/BrandIntro";
@@ -633,6 +640,26 @@ export const RemotionRoot: React.FC = () => {
         height={1080}
       />
 
+      {/* ── mindwired — archival documentary: Every Way the Atom Has Killed a Human ── */}
+      <Composition
+        id="AtomDeathsDoc"
+        component={makeDocComp(atomDeathsDoc, atomDeathsManifest)}
+        durationInFrames={docTotalFrames(atomDeathsDoc, atomDeathsManifest)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── DimaagBatti — archival documentary: East India Company ── */}
+      <Composition
+        id="EastIndiaDoc"
+        component={makeDocComp(eastIndiaDoc, eastIndiaManifest)}
+        durationInFrames={docTotalFrames(eastIndiaDoc, eastIndiaManifest)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
       {/* ── DimaagBatti — archival documentary: spacedeaths Hindi remake ── */}
       <Composition
         id="SpaceDeathsHiDoc"
@@ -678,6 +705,8 @@ export const RemotionRoot: React.FC = () => {
       <Still id="DimaagBattiWW2EpicThumbEn" component={WW2EpicThumb} defaultProps={{ lang: "en" as const }} width={1280} height={720} />
       <Still id="WW2EpicEnThumbMW" component={WW2EpicEnThumb} width={1280} height={720} />
       <Still id="SpaceDeathsHiThumbDB" component={SpaceDeathsHiThumb} width={1280} height={720} />
+      <Still id="EastIndiaThumbDB" component={EastIndiaThumb} width={1280} height={720} />
+      <Still id="AtomDeathsThumbMW" component={AtomDeathsThumb} width={1280} height={720} />
 
       {/* ── DimaagBatti WW2 — thumbnails ── */}
       <Still id="DimaagBattiWW2ThumbHi" component={WW2Thumb} defaultProps={{ lang: "hi" as const }} width={1280} height={720} />
@@ -760,6 +789,18 @@ export const RemotionRoot: React.FC = () => {
         width={1920}
         height={1080}
       />
+
+      {/* ── kickoffdaily90 — Messi vs Bellingham semifinal preview ── */}
+      <Composition
+        id="MvB"
+        component={MvB}
+        durationInFrames={mvbFrames()}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition id="MvBShort" component={MvBShort} durationInFrames={mvbShortFrames()} fps={30} width={1080} height={1920} />
+      <Composition id="MvBThumb" component={MvBThumb} durationInFrames={1} fps={30} width={1280} height={720} />
 
       {/* ── kickoffdaily90 — What If Argentina (Shorts funnel cut) ── */}
       <Composition

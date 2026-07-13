@@ -26,11 +26,12 @@ THE SEMIFINALS: 🇪🇸 Spain vs France 🇫🇷 — a European final come earl
 
 ⏱️ CHAPTERS
 0:00 The Quarterfinals in One Breath
-0:08 Argentina 3-1 Switzerland (AET)
-0:37 France 2-0 Morocco
-1:03 Spain 2-1 Belgium
-1:33 England 2-1 Norway (AET)
-2:03 The Semifinal Draw
+0:08 Argentina 3-1 Switzerland (AET) + Full Stats
+0:48 France 2-0 Morocco + Full Stats
+1:25 Spain 2-1 Belgium + Full Stats
+2:07 England 2-1 Norway (AET) + Full Stats
+2:55 The Golden Boot Race — Messi 8, Mbappé 8
+3:06 The Semifinal Draw
 
 🔔 Subscribe — every semifinal reviewed the night it happens, right here.
 
@@ -57,4 +58,45 @@ world cup 2026 quarterfinals, world cup quarter final review, argentina vs switz
 - Thumbnail `thumb_qf_1280x720.png` · Sports · Not made for kids · World Cup 2026 playlist
 - Cards: What If Argentina (at the ARG segment), Changing of the Guard (at the semis segment)
 - End screen on outro. Publish with title A; add B/C in Test & Compare.
+```
+
+---
+
+## SHORTS (9:16) — `kickoffdaily90_qf_review_short.mp4` (1:18)
+Jamie hook (left-biased crop, host centred) → 1 beat per match w/ scoreboards → vertical
+Golden Boot card → Jamie verdict → outro.
+
+### Title
+`All 4 World Cup Quarterfinals in 60 Seconds 🤯 #Shorts`
+
+### Description
+```
+Every 2026 World Cup quarterfinal in one minute 🤯 Argentina survive Switzerland in extra time, Mbappé sinks Morocco, Merino breaks Belgian hearts, and Bellingham goes NUCLEAR vs Norway. Full review with all the stats on the channel.
+
+#Shorts #WorldCup2026 #Quarterfinals #Argentina #Bellingham #Mbappe #Messi #Spain #England #France #FIFAWorldCup #Football #Haaland #GoldenBoot #kickoffdaily90
+```
+
+### Tags
+Same 447-char block as the long-form (above).
+
+### Settings
+- Related video: link the FULL QF Review (this is the funnel).
+- Upload 2-4 hours AFTER the long-form so it feeds, not cannibalizes.
+- Works as-is for IG Reels / TikTok (caption: first 2 lines + hashtags).
+
+### Instagram caption (Short) — 15 STAR @-tags + 15 hashtags, maxed
+```
+Every World Cup quarterfinal in 60 seconds 🤯⚽
+
+Messi's Argentina SURVIVE in extra time. Mbappé sinks Morocco. Spain break Belgian hearts. And Bellingham went NUCLEAR on Haaland's Norway — twice.
+
+Golden Boot: Messi 8 · Mbappé 8 · Haaland 7 and OUT 👟
+
+Semis: Spain-France 🇪🇸🇫🇷 · Argentina-England 🇦🇷🏴󠁧󠁢󠁥󠁮󠁧󠁿 — who wins it ALL? 👇
+
+@leomessi @cristiano @ishowspeed @k.mbappe @erling.haaland @judebellingham @neymarjr @vinijr @lamineyamal @harrykane @pedri @dembouz @mosalah @philfoden @bukayosaka87
+
+Follow @kickoffdaily90 — every round reviewed the night it happens.
+
+#worldcup2026 #fifaworldcup #quarterfinals #messi #ronaldo #mbappe #bellingham #haaland #ishowspeed #argentina #england #football #soccer #futbol #kickoffdaily90
 ```

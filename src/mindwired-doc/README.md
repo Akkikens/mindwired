@@ -11,7 +11,12 @@ First production: `docs/spacedeaths.json` → comp `SpaceDeathsDoc`
 ## Recipe for a new documentary
 
 1. **Doc spec** — `docs/<slug>.json`:
-   `{slug, title, language, voice, scenes:[{id, text, cap?, img?, stat?, statColor?, chapter?}]}`
+   `{slug, title, language, voice, channel?, scenes:[{id, text, cap?, img?, stat?, statColor?, chapter?}]}`
+   - `channel`: `"mindwired"` (default) or `"dimaagbatti"` — switches wordmark,
+     accent color, and Devanagari fonts (THEMES in DocWide.tsx).
+   - Cross-channel remakes reuse an existing image library for free: symlink
+     `public/shorts/<new-slug>/images -> ../<orig-slug>/images` (see
+     ww2epic-en / spacedeaths-hi).
    - `text` = narration (one beat, 20-35 words). `cap` = short on-screen caption
      (NOT the transcript). `stat` = top-left chip (dates/numbers). `chapter` =
      `"CHAPTER N\nTitle"` full-screen card.
