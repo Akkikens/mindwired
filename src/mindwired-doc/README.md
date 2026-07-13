@@ -32,15 +32,22 @@ First production: `docs/spacedeaths.json` → comp `SpaceDeathsDoc`
    - **Always eyeball a contact sheet before rendering** — bad queries return
      tractors. (PIL thumbnail montage; prune junk files, refetch.)
    - ATTRIBUTION.md is generated — paste into the video description (CC-BY needs it).
-3. **VO + manifest** — `.venv-lipsync/bin/python scripts/build_doc_vo.py <slug>`.
+3. **Scene↔image audit (MANDATORY)** — `.venv-lipsync/bin/python
+   scripts/audit_doc_images.py <slug>` renders sheets pairingeach scene's text
+   with the EXACT file the comp shows (per-prefix rotation). Eyeball all
+   sheets: narration describing a specific visual ("she is smiling") must
+   match the actual photo; prune junk, deepen pools for heavy prefixes
+   (target ≥1 file per 2 uses — repetition reads as cheap), refetch, re-run.
+   Script rule: narration may only describe what a VERIFIED photo shows.
+4. **VO + manifest** — `.venv-lipsync/bin/python scripts/build_doc_vo.py <slug>`.
    Idempotent per clip. Writes `docs/<slug>.manifest.json` (real durations +
    image scan). Must run before typecheck/render (Root imports it statically).
-4. **Register** — in `src/Root.tsx`:
+5. **Register** — in `src/Root.tsx`:
    `makeDocComp(doc, manifest)` + `docTotalFrames(doc, manifest)`, 1920×1080.
-5. **Render** — `npx remotion render <CompId> out/<slug>.mp4` (DOM comp, no --gl)
+6. **Render** — `npx remotion render <CompId> out/<slug>.mp4` (DOM comp, no --gl)
    → `scripts/master_video.py` (−14 LUFS) → **append the channel subscribe outro**
    (assets/subscribe-outro/, see CLAUDE.md — mandatory) → ffprobe + frame check.
-6. **Chapters for the description**: scene start-frame = cumulative
+7. **Chapters for the description**: scene start-frame = cumulative
    `LEAD + round(aud*30) + HOLD`; print per-chapter timestamps with a 5-line
    python loop over the manifest (see METADATA-spacedeaths.md).
 

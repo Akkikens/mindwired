@@ -1,6 +1,6 @@
 {
  "durations": {
-  "h1": 9.091,
+  "h1": 12.826,
   "h2": 8.673,
   "h3": 8.673,
   "h4": 11.729,
@@ -306,9 +306,7 @@
    "fukushima_4.jpg"
   ],
   "geiger": [
-   "geiger_1.jpg",
-   "geiger_2.jpg",
-   "geiger_3.jpg"
+   "geiger_10.jpg"
   ],
   "goiania": [
    "goiania_1.jpg",
@@ -321,7 +319,8 @@
   ],
   "hospitalrad": [
    "hospitalrad_1.jpg",
-   "hospitalrad_2.jpg"
+   "hospitalrad_2.jpg",
+   "hospitalrad_4.jpg"
   ],
   "idahofalls": [
    "idahofalls_1.jpg",
@@ -372,12 +371,13 @@
    "pripyat_4.jpg"
   ],
   "radiumdial": [
-   "radiumdial_1.jpg",
-   "radiumdial_2.jpg"
+   "radiumdial_1.jpg"
   ],
   "radiumgirls": [
-   "radiumgirls_1.jpg",
-   "radiumgirls_2.jpg"
+   "radiumgirls_10.jpg",
+   "radiumgirls_2.jpg",
+   "radiumgirls_3.jpg",
+   "radiumgirls_4.jpg"
   ],
   "radsymbol": [
    "radsymbol_1.jpg",
@@ -432,7 +432,8 @@
   "windscale": [
    "windscale_1.jpg",
    "windscale_2.jpg",
-   "windscale_3.jpg"
+   "windscale_3.jpg",
+   "windscale_4.jpg"
   ]
  },
  "missing": []

@@ -96,7 +96,7 @@ const IllusScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: num
   const fadeIn = interpolate(frame, [0, 12], [0, 1], { extrapolateRight: "clamp" });
   const fadeOut = interpolate(frame, [dur - 10, dur], [1, 0], { extrapolateLeft: "clamp" });
   const files = (s.img && m.images[s.img]) || [];
-  const file = files.length ? files[idx % files.length] : null;
+  const file = files.length ? files[idx % files.length] : null; // idx = per-prefix occurrence (even rotation)
   const capIn = spring({ frame: frame - LEAD, fps: FPS, config: { damping: 18 } });
   const statAt = LEAD + Math.round(sceneAud(s, m) * 0.35 * FPS);
   const statSp = spring({ frame: frame - statAt, fps: FPS, config: { damping: 12, stiffness: 130 } });
@@ -144,6 +144,16 @@ const IllusScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: num
 
 export const makeDocComp = (doc: DocSpec, manifest: DocManifest): React.FC => {
   const th = THEMES[doc.channel ?? "mindwired"] ?? THEMES.mindwired;
+  // Per-prefix rotation: the k-th scene using a prefix shows that prefix's k-th
+  // file (mod pool size) — spreads small pools evenly instead of hashing on the
+  // global scene index (which repeated files back-to-back).
+  const rotation: Record<string, number> = {};
+  const sceneFileIdx: Record<string, number> = {};
+  for (const s of doc.scenes) {
+    if (!s.img) continue;
+    sceneFileIdx[s.id] = rotation[s.img] ?? 0;
+    rotation[s.img] = (rotation[s.img] ?? 0) + 1;
+  }
   const Comp: React.FC = () => {
     let cursor = 0;
     return (
@@ -154,7 +164,7 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest): React.FC => {
             <Sequence key={s.id} from={from} durationInFrames={dur} name={s.id}>
               {s.chapter
                 ? <ChapterCard s={s} slug={doc.slug} m={manifest} th={th} />
-                : <IllusScene s={s} slug={doc.slug} m={manifest} idx={i} th={th} />}
+                : <IllusScene s={s} slug={doc.slug} m={manifest} idx={sceneFileIdx[s.id] ?? i} th={th} />}
             </Sequence>
           );
         })}

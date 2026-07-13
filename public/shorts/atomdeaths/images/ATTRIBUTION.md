@@ -190,3 +190,70 @@ American College of Radiology and Physiotherapy — No restrictions — https://
 - `goiania_1.jpg` — "Panorama Goiânia 2023.jpg" by Boaventuravinicius — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Panorama_Goi%C3%A2nia_2023.jpg (commons)
 - `goiania_2.jpg` — "Farmácia Artesanal (Rua 4 n. 562, Goiânia, Brasil).jpg" by Eugenio Hansen, OFS — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Farm%C3%A1cia_Artesanal_(Rua_4_n._562,_Goi%C3%A2nia,_Brasil).jpg (commons)
 - `goiania_3.jpg` — "Goiânia (Brasil) 2019-06-23 .jpg" by Eugenio Hansen, OFS — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Goi%C3%A2nia_(Brasil)_2019-06-23_.jpg (commons)
+- `hospitalrad_1.jpg` — "Scots Mission Hospital, Tiberias. Arab" by libraryofcongress — CC0 — https://www.rawpixel.com/image/6842225/photo-image-hospital-people-art (openverse)
+- `hospitalrad_2.jpg` — "Scots Mission Hospital, Tiberias. patient" by libraryofcongress — CC0 — https://www.rawpixel.com/image/6842220/photo-image-hospital-people-art (openverse)
+- `hospitalrad_3.jpg` — "Hospital at Blackwell&#39;s Island. Original from Library of Congress. Digitally enhanced by rawpixel." by Free Public Domain Illustrations by rawpixel — BY — https://www.flickr.com/photos/153584064@N07/50635841038 (openverse)
+- `hospitalrad_4.jpg` — "Ward in French barrack hospital (1917). Original from Library of Congress. Digitally enhanced by rawpixel." by Free Public Domain Illustrations by rawpixel — BY — https://www.flickr.com/photos/153584064@N07/50636591331 (openverse)
+- `sl1_1.jpg` — "ARA-II. Interior view of SL-1 reactor building, camera looking upward after top of building had been completed and put in place. January 24, 1958. Ineel photo no. 58-876. Photographer- HAER ID-33-D-60.tif" by Related names:
+
+Louter, David, transmitter
+Reynolds, Larry, photographer — Public domain — https://commons.wikimedia.org/wiki/File:ARA-II._Interior_view_of_SL-1_reactor_building,_camera_looking_upward_after_top_of_building_had_been_completed_and_put_in_place._January_24,_1958._Ineel_photo_no._58-876._Photographer-_HAER_ID-33-D-60.tif (commons)
+- `sl1_2.jpg` — "ARA-II. Interior view of SL-1 reactor building with reactor head in place in center foreground. March 21, 1958. Ineel photo no. 58-1360. Photographer- Jack L. Anderson. - Idaho HAER ID-33-D-64.tif" by Related names:
+
+Louter, David, transmitter
+Reynolds, Larry, photographer — Public domain — https://commons.wikimedia.org/wiki/File:ARA-II._Interior_view_of_SL-1_reactor_building_with_reactor_head_in_place_in_center_foreground._March_21,_1958._Ineel_photo_no._58-1360._Photographer-_Jack_L._Anderson._-_Idaho_HAER_ID-33-D-64.tif (commons)
+- `sl1_3.jpg` — "ARA-II. Interior view in ARA-602 support building showing oil-fired hot air furnace and hot water boiler in foreground; hot water tank and diesel generator in background. December 12, HAER ID-33-D-72.tif" by Related names:
+
+Louter, David, transmitter
+Reynolds, Larry, photographer — Public domain — https://commons.wikimedia.org/wiki/File:ARA-II._Interior_view_in_ARA-602_support_building_showing_oil-fired_hot_air_furnace_and_hot_water_boiler_in_foreground;_hot_water_tank_and_diesel_generator_in_background._December_12,_HAER_ID-33-D-72.tif (commons)
+- `chernobylplant_1.jpg` — "IAEA 02790036 (5613126700).jpg" by IAEA Imagebank — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:IAEA_02790036_(5613126700).jpg (commons)
+- `chernobylplant_2.jpg` — "Chernobyl 04710017 (8134337381).jpg" by IAEA Imagebank — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Chernobyl_04710017_(8134337381).jpg (commons)
+- `chernobylplant_3.jpg` — "IAEA 02790015 (5613115146) (cropped).jpg" by IAEA Imagebank — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:IAEA_02790015_(5613115146)_(cropped).jpg (commons)
+- `geiger_1.jpg` — "20180221-OSEC-LSC-0056 (39518126925).jpg" by U.S. Department of Agriculture — Public domain — https://commons.wikimedia.org/wiki/File:20180221-OSEC-LSC-0056_(39518126925).jpg (commons)
+- `geiger_2.jpg` — "Radiation and the International Atomic Energy Agency (ISEA) - Gamma Filter (02910378) (53640003764).jpg" by IAEA Imagebank — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Radiation_and_the_International_Atomic_Energy_Agency_(ISEA)_-_Gamma_Filter_(02910378)_(53640003764).jpg (commons)
+- `geiger_3.jpg` — "Radiation and the International Atomic Energy Agency (ISEA) - Lutetium test adaptor (02910374) (53640003769).jpg" by IAEA Imagebank — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Radiation_and_the_International_Atomic_Energy_Agency_(ISEA)_-_Lutetium_test_adaptor_(02910374)_(53640003769).jpg (commons)
+- `mayak_1.jpg` — "Отмеченные доской почёта - panoramio.jpg" by Alkhimov Maxim — CC BY 3.0 — https://commons.wikimedia.org/wiki/File:%D0%9E%D1%82%D0%BC%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5_%D0%B4%D0%BE%D1%81%D0%BA%D0%BE%D0%B9_%D0%BF%D0%BE%D1%87%D1%91%D1%82%D0%B0_-_panoramio.jpg (commons)
+- `mayak_2.jpg` — "Здание профсоюза ПО Маяк.JPG" by ScriptMaster — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:%D0%97%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BF%D1%80%D0%BE%D1%84%D1%81%D0%BE%D1%8E%D0%B7%D0%B0_%D0%9F%D0%9E_%D0%9C%D0%B0%D1%8F%D0%BA.JPG (commons)
+- `mayak_3.jpg` — "Заводоуправление ФГУП "ПО "Маяк" (ранее - Госхимзавод им.Менделеева). Проспект Ленина, 31, Озерск, Челябинская область.jpg" by A graf — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:%D0%97%D0%B0%D0%B2%D0%BE%D0%B4%D0%BE%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%A4%D0%93%D0%A3%D0%9F_%22%D0%9F%D0%9E_%22%D0%9C%D0%B0%D1%8F%D0%BA%22_(%D1%80%D0%B0%D0%BD%D0%B5%D0%B5_-_%D0%93%D0%BE%D1%81%D1%85%D0%B8%D0%BC%D0%B7%D0%B0%D0%B2%D0%BE%D0%B4_%D0%B8%D0%BC.%D0%9C%D0%B5%D0%BD%D0%B4%D0%B5%D0%BB%D0%B5%D0%B5%D0%B2%D0%B0)._%D0%9F%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82_%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD%D0%B0,_31,_%D0%9E%D0%B7%D0%B5%D1%80%D1%81%D0%BA,_%D0%A7%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C.jpg (commons)
+- `tokaimura_1.jpg` — "Tokai Daini Nuclear Power Plant (02810451).jpg" by IAEA Imagebank — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Tokai_Daini_Nuclear_Power_Plant_(02810451).jpg (commons)
+- `tokaimura_2.jpg` — "Tokai Daini Nuclear Power Plant (02810452).jpg" by IAEA Imagebank — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Tokai_Daini_Nuclear_Power_Plant_(02810452).jpg (commons)
+- `tokaimura_3.jpg` — "Tokai Daini Nuclear Power Plant (02810451)" by IAEA Imagebank — BY-SA — https://commons.wikimedia.org/w/index.php?curid=88092830 (openverse)
+- `radiumgirls_1.jpg` — "Production-206 (21014014749).jpg" by Flat Earth Theatre — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Production-206_(21014014749).jpg (commons)
+- `radiumgirls_2.jpg` — "DETAIL INTERIOR VIEW TO SOUTHWEST OF REAR ORIGINAL SECOND FLOOR, WITH PASSAGEWAY LEADING TO c1944-1950 POST-U.S. RADIUM ADDITION - United States Radium Corporation, Paint HAER NJ,7-ORA,3A-7.tif" by Related names:
+
+Alfson, Mary, transmitter
+Flagg, Thomas R, photographer
+Weinstein, Gerald, photographer
+Raber, Michael S, delineator
+Boesch, Eugene J, historian
+Raber, Michael S, historian — Public domain — https://commons.wikimedia.org/wiki/File:DETAIL_INTERIOR_VIEW_TO_SOUTHWEST_OF_REAR_ORIGINAL_SECOND_FLOOR,_WITH_PASSAGEWAY_LEADING_TO_c1944-1950_POST-U.S._RADIUM_ADDITION_-_United_States_Radium_Corporation,_Paint_HAER_NJ,7-ORA,3A-7.tif (commons)
+- `radiumgirls_3.jpg` — "DETAIL VIEW TO SOUTHWEST OF POST-U.S. RADIUM PERIOD MIXING APPARATUS - United States Radium Corporation, Paint Application Building, 422 Alden Street, Orange, Essex County, NJ HAER NJ,7-ORA,3A-8.tif" by Flagg, Thomas R.
+Related names:
+
+Alfson, Mary, transmitter
+Weinstein, Gerald, photographer
+Raber, Michael S, delineator
+Boesch, Eugene J, historian
+Raber, Michael S, historian — Public domain — https://commons.wikimedia.org/wiki/File:DETAIL_VIEW_TO_SOUTHWEST_OF_POST-U.S._RADIUM_PERIOD_MIXING_APPARATUS_-_United_States_Radium_Corporation,_Paint_Application_Building,_422_Alden_Street,_Orange,_Essex_County,_NJ_HAER_NJ,7-ORA,3A-8.tif (commons)
+- `radiumgirls_4.jpg` — "Production-362 (21208786161).jpg" by Flat Earth Theatre — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Production-362_(21208786161).jpg (commons)
+- `radiumgirls_5.jpg` — "Production-092 (21012870228).jpg" by Flat Earth Theatre — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Production-092_(21012870228).jpg (commons)
+- `radiumdial_1.jpg` — "Undark luminous paint.jpg" by TheBeSphereOfCourse — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Undark_luminous_paint.jpg (commons)
+- `radiumdial_2.jpg` — "Undark luminous paint" by TheBeSphereOfCourse — BY-SA — https://commons.wikimedia.org/w/index.php?curid=94936080 (openverse)
+- `radiumgirls_1.jpg` — "Undark luminous paint.jpg" by TheBeSphereOfCourse — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Undark_luminous_paint.jpg (commons)
+- `radiumgirls_2.jpg` — "The American journal of roentgenology, radium therapy and nuclear medicine (1906) (14777529963).jpg" by Internet Archive Book Images — No restrictions — https://commons.wikimedia.org/wiki/File:The_American_journal_of_roentgenology,_radium_therapy_and_nuclear_medicine_(1906)_(14777529963).jpg (commons)
+- `radiumgirls_3.jpg` — "The American journal of roentgenology, radium therapy and nuclear medicine (1906) (14777377803).jpg" by Internet Archive Book Images — No restrictions — https://commons.wikimedia.org/wiki/File:The_American_journal_of_roentgenology,_radium_therapy_and_nuclear_medicine_(1906)_(14777377803).jpg (commons)
+- `radiumgirls_4.jpg` — "The American journal of roentgenology, radium therapy and nuclear medicine (1906) (14570937830).jpg" by Internet Archive Book Images — No restrictions — https://commons.wikimedia.org/wiki/File:The_American_journal_of_roentgenology,_radium_therapy_and_nuclear_medicine_(1906)_(14570937830).jpg (commons)
+- `hospitalrad_1.jpg` — ""Surgical ward treatment at the 268th Station Hospital, Base A, Milne Bay, New Guinea. Left to right, Sgt. Lawrence McKr - NARA - 530771.jpg" by Unknown authorUnknown author or not provided — Public domain — https://commons.wikimedia.org/wiki/File:%22Surgical_ward_treatment_at_the_268th_Station_Hospital,_Base_A,_Milne_Bay,_New_Guinea._Left_to_right,_Sgt._Lawrence_McKr_-_NARA_-_530771.jpg (commons)
+- `hospitalrad_2.jpg` — "Poston, Arizona. Cheiko Neeno, nurse's aid student at the Poston Hospital, attending a baby patient . . . - NARA - 537103.jpg" by Francis Stewart — Public domain — https://commons.wikimedia.org/wiki/File:Poston,_Arizona._Cheiko_Neeno,_nurse%27s_aid_student_at_the_Poston_Hospital,_attending_a_baby_patient_._._._-_NARA_-_537103.jpg (commons)
+- `hospitalrad_3.jpg` — "Dress, short sleeve - working (AM 1986.194).jpg" by not researched — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Dress,_short_sleeve_-_working_(AM_1986.194).jpg (commons)
+- `hospitalrad_4.png` — "Queensland State Archives 1404 Eventide Home Sandgate October 1949.png" by Agriculture And Stock Department, Publicity Branch — Public domain — https://commons.wikimedia.org/wiki/File:Queensland_State_Archives_1404_Eventide_Home_Sandgate_October_1949.png (commons)
+- `windscale_1.jpg` — "Sellafield.jpg" by Reading Tom — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Sellafield.jpg (commons)
+- `windscale_2.jpg` — "Sellafield" by Reading Tom — BY — https://commons.wikimedia.org/w/index.php?curid=92180493 (openverse)
+- `windscale_3.jpg` — "Sellafield aerial.jpg" by Lieven Smits — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Sellafield_aerial.jpg (commons)
+- `windscale_4.jpg` — "Sellafield aerial detail.jpg" by Lieven Smits — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Sellafield_aerial_detail.jpg (commons)
+- `sl1_1.jpg` — "INEEL 58-1360 HAER ID-33-D-64 195650pu.jpg" by Jack L. Anderson. - Idaho National Engineering Laboratory, Army Reactors Experimental Area, Scoville, Butte County, ID — Public domain — https://commons.wikimedia.org/wiki/File:INEEL_58-1360_HAER_ID-33-D-64_195650pu.jpg (commons)
+- `sl1_2.jpg` — "Scabiosa canescens sl 1" by Stefan.lefnaer — BY-SA — https://commons.wikimedia.org/w/index.php?curid=21032694 (openverse)
+- `sl1_3.jpg` — "File:Linum flavum sl 1.jpg" by Stefan.lefnaer — BY-SA — https://commons.wikimedia.org/w/index.php?curid=20019375 (openverse)
+- `sl1_4.jpg` — "HD.6B.007 (10578937954).jpg" by ENERGY.GOV — Public domain — https://commons.wikimedia.org/wiki/File:HD.6B.007_(10578937954).jpg (commons)
+- radiumgirls_10.jpg — "USRadiumGirls-Argonne1,ca1922-23-150dpi.jpg", Wikimedia Commons, public domain (US Radium Corporation / Argonne National Laboratory)
+- geiger_10.jpg — "Geiger counter usage.jpg", Wikimedia Commons (see file page for license)

@@ -50,22 +50,22 @@ documented ऐतिहासिक तथ्य है।
 
 CHAPTERS
 00:00 Nothing in this picture looks dangerous
-01:26 Chapter 1 - The Girls Who Glowed
-04:19 Chapter 2 - The Demon Core
-07:41 Chapter 3 - The Light Before Dawn
-10:34 Chapter 4 - The Disaster That Didn't Exist
-13:29 Chapter 5 - The Fire at Windscale
-16:39 Chapter 6 - Nine Feet From the Ceiling
-19:32 Chapter 7 - Into the Compartment
-22:33 Chapter 8 - The Blue Flash
-25:27 Chapter 9 - 1:23 in the Morning
-29:19 Chapter 10 - The Liquidators
-32:51 Chapter 11 - The Glowing Powder
-36:06 Chapter 12 - 83 Days
-39:04 Chapter 13 - The Lost Sources
-42:45 Chapter 14 - The Wave and the Meltdown
-45:25 Chapter 15 - The Ones That Almost Happened
-48:48 Chapter 16 - What the Photographs Mean
+01:30 Chapter 1 - The Girls Who Glowed
+04:23 Chapter 2 - The Demon Core
+07:45 Chapter 3 - The Light Before Dawn
+10:38 Chapter 4 - The Disaster That Didn't Exist
+13:33 Chapter 5 - The Fire at Windscale
+16:42 Chapter 6 - Nine Feet From the Ceiling
+19:36 Chapter 7 - Into the Compartment
+22:37 Chapter 8 - The Blue Flash
+25:31 Chapter 9 - 1:23 in the Morning
+29:23 Chapter 10 - The Liquidators
+32:55 Chapter 11 - The Glowing Powder
+36:10 Chapter 12 - 83 Days
+39:08 Chapter 13 - The Lost Sources
+42:48 Chapter 14 - The Wave and the Meltdown
+45:29 Chapter 15 - The Ones That Almost Happened
+48:51 Chapter 16 - What the Photographs Mean
 
 (Attribution: paste public/shorts/atomdeaths/images/ATTRIBUTION.md)
 
