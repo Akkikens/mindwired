@@ -1,0 +1,15 @@
+{
+ "slug": "radiotest",
+ "title": "Evidence engine test",
+ "language": "en",
+ "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+ "channel": "blackbox",
+ "scenes": [
+  {"id": "r1", "speaker": "CAPT", "timestamp": "15:27:32", "radioLabel": "CVR RECREATION",
+   "text": "Mayday mayday mayday. This is Cactus fifteen thirty nine. Hit birds. We've lost thrust on both engines. We're turning back towards LaGuardia."},
+  {"id": "r2", "speaker": "ATC", "timestamp": "15:28:11", "radioLabel": "CVR RECREATION",
+   "text": "Cactus fifteen forty nine, it's gonna be left traffic for runway three one."},
+  {"id": "r3", "speaker": "CAPT", "timestamp": "15:29:28", "radioLabel": "CVR RECREATION",
+   "text": "We can't do it. We're gonna be in the Hudson."}
+ ]
+}

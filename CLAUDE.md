@@ -162,9 +162,10 @@ clips have a fixed ~8s floor).
 - Every video gets a `METADATA-<slug>.md` here: primary title + A/B alternates,
   SEO description with CHAPTERS timestamps, tags, pinned comment. Follow the
   existing files' format (e.g. METADATA-attractor.md).
-- **Descriptions: English block FIRST, then the Hindi block** (Akshay standing
-  rule, 2026-07-12) — every channel EXCEPT DimaagBatti, whose descriptions are
-  **Hindi only** (no English block). Tags: maximize toward YouTube's 500-char
+- **Descriptions: English ONLY** for every channel (mindwired, Black Box Breakdown,
+  KickOffDaily90) EXCEPT **DimaagBatti**, whose descriptions are **Hindi only**
+  (Akshay, 2026-07-13 — do NOT add a Hindi block to the English channels; this
+  supersedes the earlier "English + Hindi block" rule). Tags: maximize toward YouTube's 500-char
   limit (~25-35 tags: broad + niche + long-tail), don't stop at ~15. Every
   upload also gets **15 hashtags** (first 3 display above the title).
 - Thumbnails: follow `THUMBNAILS.md` — image-model generation (Workflow A) for

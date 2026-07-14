@@ -40,6 +40,9 @@ import { WW2Thumb } from "./dimaagbatti/WW2Thumb";
 import { WW2Epic, ww2EpicTotalFrames } from "./dimaagbatti/WW2Epic";
 import { WW2EpicThumb } from "./dimaagbatti/WW2EpicThumb";
 import { WW2EpicEnThumb, SpaceDeathsHiThumb, EastIndiaThumb, AtomDeathsThumb, EndOfTimeThumb } from "./mindwired-doc/RemakeThumbs";
+import { BlackBoxShort, blackBoxShortFrames } from "./blackbox/BlackBoxShort";
+import radioTestDoc from "./mindwired-doc/docs/radiotest.json";
+import radioTestManifest from "./mindwired-doc/docs/radiotest.manifest.json";
 import { HowAIVideo, aiVideoTotalFrames } from "./aivideo/HowAIVideo";
 import { AnimeClash, animeClashFrames } from "./messivssalah/AnimeClash";
 import { AnimeClashV, animeClashVFrames } from "./messivssalah/AnimeClashV";
@@ -742,6 +745,43 @@ export const RemotionRoot: React.FC = () => {
       <Still id="EastIndiaThumbDB" component={EastIndiaThumb} width={1280} height={720} />
       <Still id="AtomDeathsThumbMW" component={AtomDeathsThumb} width={1280} height={720} />
       <Still id="EndOfTimeThumbMW" component={EndOfTimeThumb} width={1280} height={720} />
+      <Composition
+        id="RadioTest"
+        component={makeDocComp(radioTestDoc, radioTestManifest)}
+        durationInFrames={docTotalFrames(radioTestDoc, radioTestManifest)}
+        fps={30} width={1920} height={1080}
+      />
+      <Composition
+        id="BoeingShort1"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "h1", endId: "h4", hook: "189 people.\n13 minutes.\nTwice." })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "h1", endId: "h4", hook: "189 people.\n13 minutes.\nTwice.", cta: "How Boeing killed\n346 people" }}
+      />
+      <Composition
+        id="BoeingShort2"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "b1", endId: "b5", hook: "Why the 737 MAX\nsecretly wanted\nto crash" })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "b1", endId: "b5", hook: "Why the 737 MAX\nsecretly wanted\nto crash", cta: "The full breakdown\nof the MAX disaster" }}
+      />
+      <Composition
+        id="BoeingShort3"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "e3", endId: "e6", hook: "Boeing DELETED it\nfrom the manual" })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "e3", endId: "e6", hook: "Boeing DELETED it\nfrom the manual", cta: "How Boeing hid MCAS\nfrom its own pilots" }}
+      />
+      <Composition
+        id="BoeingShort4"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "m10", endId: "m13", hook: "Nobody went to\nprison for\n346 deaths" })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "m10", endId: "m13", hook: "Nobody went to\nprison for\n346 deaths", cta: "The full 737 MAX\nscandal, explained" }}
+      />
+
+
+
 
       {/* ── DimaagBatti WW2 — thumbnails ── */}
       <Still id="DimaagBattiWW2ThumbHi" component={WW2Thumb} defaultProps={{ lang: "hi" as const }} width={1280} height={720} />

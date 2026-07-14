@@ -22,7 +22,7 @@ ALL-CAPS "346 DEAD / ONE HIDDEN SYSTEM" (or "THEY WERE NEVER TOLD"), small red
 MCAS nose-down arrow motif. Build via Remotion still (Workflow B) or the
 sensor-diagram frame as a poster. Follow THUMBNAILS.md house style.
 
-## Description (English first, then Hindi)
+## Description (English ONLY — Black Box is not a Hindi channel)
 On the 29th of October 2018, a brand-new Boeing 737 MAX fought its own pilots for
 thirteen minutes and dived into the Java Sea. Five months later, a second
 identical jet did almost exactly the same thing over Ethiopia. 346 people died —
@@ -51,16 +51,6 @@ and Creative Commons archival photographs, plus original diagrams. Note: Boeing
 technical pilot Mark Forkner, the only individual ever charged, was acquitted.
 
 Subscribe to Black Box Breakdown (@Watch-BlackBox) for a new deep-dive documentary every week.
-
----
-
-एयरबस A320neo को टक्कर देने के लिए बोइंग ने 1960 के पुराने 737 पर बड़े इंजन लगाए
-और वादा किया कि यह बिलकुल पुराने विमान जैसा उड़ेगा — ताकि पायलटों को सिम्युलेटर
-ट्रेनिंग न लेनी पड़े। इसे छिपाने के लिए एक गुप्त सॉफ़्टवेयर MCAS जोड़ा गया, जो एक ही
-सेंसर पर चलता था और नाक को ज़मीन की ओर धकेलता था। दो हादसों — लायन एयर 610 और
-इथियोपियन 302 — में 346 लोग मारे गए। यह पूरी कहानी है: आधिकारिक रिपोर्टों पर
-आधारित, असली तस्वीरों के साथ। हर हफ़्ते नई डॉक्यूमेंट्री के लिए Black Box
-Breakdown (@Watch-BlackBox) सब्सक्राइब करें।
 
 CHAPTERS
 00:00 The plane with six weeks to live

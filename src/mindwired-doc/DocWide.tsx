@@ -46,6 +46,11 @@ export type DocScene = {
   img?: string; stat?: string; statColor?: string;
   chapter?: string;
   diagram?: string; arg?: string;
+  /** Evidence-engine radio beat: speaker tag renders the RadioScene
+   *  (waveform + transcript). radioLabel MUST be honest:
+   *  "ACTUAL ATC RECORDING" for real docket audio dropped into audio/<id>.mp3,
+   *  "CVR RECREATION" for radio_recreate.py synthesis. */
+  speaker?: string; radioLabel?: string; timestamp?: string;
 };
 export type DocSpec = { slug: string; title: string; channel?: string; scenes: DocScene[] };
 export type DocManifest = {
@@ -68,6 +73,58 @@ const Brand: React.FC<{ th: Theme }> = ({ th }) => (
     <span style={{ fontFamily: th.display, fontWeight: 700, fontSize: 28, color: "#fff", letterSpacing: 1 }}>{th.brand}</span>
   </div>
 );
+
+/* Evidence-engine radio beat: dark screen, animated waveform, speaker tag,
+   transcript line, honesty label (ACTUAL ATC RECORDING vs CVR RECREATION). */
+const RadioScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Theme }> = ({ s, slug, m, th }) => {
+  const frame = useCurrentFrame();
+  const hasAudio = m.durations[s.id] !== undefined;
+  const capIn = spring({ frame: frame - LEAD, fps: FPS, config: { damping: 18 } });
+  // deterministic pseudo-waveform: 48 bars driven by frame + bar index
+  const bars = Array.from({ length: 48 }, (_, i) => {
+    const ph = frame * 0.31 + i * 1.7;
+    const env = 0.35 + 0.65 * Math.abs(Math.sin(ph * 0.23) * Math.cos(ph * 0.11 + i));
+    return 8 + env * 110;
+  });
+  return (
+    <AbsoluteFill style={{ backgroundColor: "#07090D", justifyContent: "center", alignItems: "center" }}>
+      {/* honesty label */}
+      <div style={{ position: "absolute", top: 110, left: 0, right: 0, textAlign: "center" }}>
+        <span style={{ fontFamily: th.display, fontWeight: 700, fontSize: 26, letterSpacing: 6,
+          color: s.radioLabel?.includes("ACTUAL") ? "#7CFC9B" : th.accent,
+          border: `2px solid ${s.radioLabel?.includes("ACTUAL") ? "#7CFC9B" : th.accent}`,
+          padding: "10px 26px", borderRadius: 8, opacity: 0.92 }}>
+          {s.radioLabel ?? "CVR RECREATION"}
+        </span>
+      </div>
+      {/* waveform */}
+      <div style={{ display: "flex", alignItems: "center", gap: 7, height: 140, marginTop: -40 }}>
+        {bars.map((h, i) => (
+          <div key={i} style={{ width: 9, height: h, borderRadius: 4,
+            background: i % 7 === 3 ? th.accent : "rgba(255,255,255,0.55)" }} />
+        ))}
+      </div>
+      {/* speaker + timestamp */}
+      <div style={{ marginTop: 54, display: "flex", alignItems: "center", gap: 22 }}>
+        <span style={{ fontFamily: th.display, fontWeight: 700, fontSize: 40, color: "#0A0C10",
+          background: th.accent, padding: "6px 22px", borderRadius: 10 }}>{s.speaker}</span>
+        {s.timestamp && (
+          <span style={{ fontFamily: "'Courier New', monospace", fontWeight: 700, fontSize: 38,
+            color: "rgba(255,255,255,0.6)" }}>{s.timestamp}</span>
+        )}
+      </div>
+      {/* transcript line */}
+      <div style={{ marginTop: 34, maxWidth: 1420, textAlign: "center",
+        transform: `translateY(${interpolate(capIn, [0, 1], [22, 0])}px)`, opacity: capIn }}>
+        <span style={{ fontFamily: th.body, fontWeight: 600, fontSize: 52, lineHeight: 1.4, color: "#fff" }}>
+          “{s.cap ?? s.text}”
+        </span>
+      </div>
+      <Brand th={th} />
+      {hasAudio && <Sequence from={LEAD}><Audio src={staticFile(`shorts/${slug}/audio/${s.id}.mp3`)} /></Sequence>}
+    </AbsoluteFill>
+  );
+};
 
 const ChapterCard: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Theme }> = ({ s, slug, m, th }) => {
   const frame = useCurrentFrame();
@@ -216,6 +273,8 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest): React.FC => {
             <Sequence key={s.id} from={from} durationInFrames={dur} name={s.id}>
               {s.chapter
                 ? <ChapterCard s={s} slug={doc.slug} m={manifest} th={th} />
+                : s.speaker
+                ? <RadioScene s={s} slug={doc.slug} m={manifest} th={th} />
                 : s.diagram
                 ? <DiagramScene s={s} slug={doc.slug} m={manifest} th={th} />
                 : <IllusScene s={s} slug={doc.slug} m={manifest} idx={sceneFileIdx[s.id] ?? i} th={th} />}
