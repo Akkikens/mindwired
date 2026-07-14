@@ -19,6 +19,7 @@ import {
   staticFile, useCurrentFrame,
 } from "remotion";
 import "../lib/fonts";
+import { DIAGRAMS } from "./Diagrams";
 
 const FPS = 30;
 const BASE = "#05070C";
@@ -34,12 +35,17 @@ const THEMES: Record<string, Theme> = {
     body: "'Noto Sans Devanagari', 'Inter', sans-serif",
     accent: "#FFC53D", brand: "दिमाग़बत्ती",
   },
+  blackbox: {
+    display: "'Space Grotesk', sans-serif", body: "'Inter', sans-serif",
+    accent: "#FF9500", brand: "Black Box",
+  },
 };
 
 export type DocScene = {
   id: string; text: string; cap?: string;
   img?: string; stat?: string; statColor?: string;
   chapter?: string;
+  diagram?: string; arg?: string;
 };
 export type DocSpec = { slug: string; title: string; channel?: string; scenes: DocScene[] };
 export type DocManifest = {
@@ -142,6 +148,52 @@ const IllusScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: num
   );
 };
 
+const DiagramScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Theme }> = ({ s, slug, m, th }) => {
+  const frame = useCurrentFrame();
+  const dur = sceneFrames(s, m);
+  const fadeIn = interpolate(frame, [0, 12], [0, 1], { extrapolateRight: "clamp" });
+  const fadeOut = interpolate(frame, [dur - 10, dur], [1, 0], { extrapolateLeft: "clamp" });
+  const capIn = spring({ frame: frame - LEAD, fps: FPS, config: { damping: 18 } });
+  const statAt = LEAD + Math.round(sceneAud(s, m) * 0.35 * FPS);
+  const statSp = spring({ frame: frame - statAt, fps: FPS, config: { damping: 12, stiffness: 130 } });
+  const hasAudio = m.durations[s.id] !== undefined;
+  const Diagram = (s.diagram && DIAGRAMS[s.diagram]) || null;
+
+  return (
+    <AbsoluteFill style={{ backgroundColor: BASE, opacity: fadeOut }}>
+      <AbsoluteFill style={{ opacity: fadeIn }}>
+        {Diagram ? <Diagram dur={dur} arg={s.arg} accent={th.accent} /> : <AbsoluteFill style={{ backgroundColor: BASE }} />}
+      </AbsoluteFill>
+      <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(5,7,12,0.55) 0%, transparent 22%, transparent 60%, rgba(5,7,12,0.92) 100%)", pointerEvents: "none" }} />
+
+      {s.stat && (
+        <div style={{ position: "absolute", top: 118, left: 96,
+          transform: `translateY(${interpolate(statSp, [0, 1], [22, 0])}px) scale(${interpolate(statSp, [0, 1], [0.92, 1])})`,
+          opacity: interpolate(frame - statAt, [0, 8], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) }}>
+          <span style={{ fontFamily: th.display, fontWeight: 700, fontSize: 54, letterSpacing: 2,
+            color: s.statColor ?? "#fff", background: "rgba(5,7,12,0.68)", padding: "12px 28px",
+            borderRadius: 12, borderLeft: `6px solid ${th.accent}`,
+            boxShadow: "0 8px 28px rgba(0,0,0,0.55)" }}>{s.stat}</span>
+        </div>
+      )}
+
+      <Brand th={th} />
+
+      {s.cap && (
+        <div style={{ position: "absolute", bottom: 84, left: 96, right: 96,
+          transform: `translateY(${interpolate(capIn, [0, 1], [30, 0])}px)`, opacity: capIn }}>
+          <div style={{ fontFamily: th.body, fontWeight: 600, fontSize: 46, color: "#fff", lineHeight: 1.34,
+            textShadow: "0 3px 20px rgba(0,0,0,0.9)" }}>
+            <span style={{ borderBottom: `4px solid ${th.accent}`, paddingBottom: 5 }}>{s.cap}</span>
+          </div>
+        </div>
+      )}
+
+      {hasAudio && <Sequence from={LEAD}><Audio src={staticFile(`shorts/${slug}/audio/${s.id}.mp3`)} /></Sequence>}
+    </AbsoluteFill>
+  );
+};
+
 export const makeDocComp = (doc: DocSpec, manifest: DocManifest): React.FC => {
   const th = THEMES[doc.channel ?? "mindwired"] ?? THEMES.mindwired;
   // Per-prefix rotation: the k-th scene using a prefix shows that prefix's k-th
@@ -164,6 +216,8 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest): React.FC => {
             <Sequence key={s.id} from={from} durationInFrames={dur} name={s.id}>
               {s.chapter
                 ? <ChapterCard s={s} slug={doc.slug} m={manifest} th={th} />
+                : s.diagram
+                ? <DiagramScene s={s} slug={doc.slug} m={manifest} th={th} />
                 : <IllusScene s={s} slug={doc.slug} m={manifest} idx={sceneFileIdx[s.id] ?? i} th={th} />}
             </Sequence>
           );

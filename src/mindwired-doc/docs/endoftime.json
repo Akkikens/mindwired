@@ -1,0 +1,1609 @@
+{
+ "id": "endoftime",
+ "title": "TIMELAPSE OF THE END OF THE UNIVERSE",
+ "subtitle": "a journey to the last moment",
+ "lines": [
+  {
+   "id": "s001",
+   "text": "In the next thirty minutes, you will watch the sun swallow the Earth, the last star flicker out, and the final black hole in existence evaporate into nothing.",
+   "scene": "supernova"
+  },
+  {
+   "id": "s002",
+   "text": "And at the very end, in the dark after everything, you will see why scientists think this story might begin again.",
+   "scene": "bigbang"
+  },
+  {
+   "id": "s003",
+   "text": "This is mindwired.",
+   "scene": "intro"
+  },
+  {
+   "id": "s004",
+   "text": "Timelapse of the end of the universe. A journey to the last moment.",
+   "scene": "title"
+  },
+  {
+   "id": "s005",
+   "text": "Here is how this works. We are going to run the clock forward, and never stop.",
+   "scene": "earth"
+  },
+  {
+   "id": "s006",
+   "text": "Watch the counter. Every few seconds, the speed of time doubles.",
+   "scene": "timescale"
+  },
+  {
+   "id": "s007",
+   "text": "At first, centuries will crawl past. Then millennia. Then the ages of stars.",
+   "scene": "galaxy"
+  },
+  {
+   "id": "s008",
+   "text": "By the end, a trillion years will pass in the space of a single breath.",
+   "scene": "timescale"
+  },
+  {
+   "id": "s009",
+   "text": "Everything you are about to see is real physics, projected forward by working cosmologists.",
+   "scene": "cmb"
+  },
+  {
+   "id": "s010",
+   "text": "Some of it was only discovered in the last two years, and it changes the ending. We will get there.",
+   "scene": "signal"
+  },
+  {
+   "id": "s011",
+   "text": "Where the science is still a hypothesis, we will say so. The rest is settled arithmetic.",
+   "scene": "star"
+  },
+  {
+   "id": "s012",
+   "text": "Take one last look at the universe as it is now. Bright, warm, and crowded with stars.",
+   "scene": "galaxy"
+  },
+  {
+   "id": "s013",
+   "text": "You will not see it like this again.",
+   "scene": "void"
+  },
+  {
+   "id": "s014",
+   "text": "Ten thousand years from now.",
+   "scene": "word",
+   "arg": "10,000 YEARS"
+  },
+  {
+   "id": "s015",
+   "text": "Ten thousand years is longer than every written word, every city, every recorded human civilization combined.",
+   "scene": "earth"
+  },
+  {
+   "id": "s016",
+   "text": "And yet, look up. The night sky has barely changed at all.",
+   "scene": "star"
+  },
+  {
+   "id": "s017",
+   "text": "The constellations have drifted slightly out of shape, like a photograph left in the sun.",
+   "scene": "void"
+  },
+  {
+   "id": "s018",
+   "text": "Orion's shoulders have shifted. The Big Dipper's handle has bent into a new curve.",
+   "scene": "star"
+  },
+  {
+   "id": "s019",
+   "text": "Down on Earth, Niagara Falls has eroded itself out of existence, cutting all the way back to its lake.",
+   "scene": "earth"
+  },
+  {
+   "id": "s020",
+   "text": "Every satellite we ever launched into low orbit has long since fallen and burned.",
+   "scene": "flash"
+  },
+  {
+   "id": "s021",
+   "text": "The pyramids, if anything remains of them, are now twice as old as they were.",
+   "scene": "earth"
+  },
+  {
+   "id": "s022",
+   "text": "Voyager 1, still coasting outward, has traveled less than half a light year from home.",
+   "scene": "probe"
+  },
+  {
+   "id": "s023",
+   "text": "On this timescale, humanity's entire story so far is the first frame of the film.",
+   "scene": "earthdark"
+  },
+  {
+   "id": "s024",
+   "text": "The North Star has changed, too. Earth's axis wobbles like a spinning top, tracing a slow circle.",
+   "scene": "earth"
+  },
+  {
+   "id": "s025",
+   "text": "Polaris has handed the job to another star, the way it inherited it from one before.",
+   "scene": "star"
+  },
+  {
+   "id": "s026",
+   "text": "The stars have not noticed us yet. Ten thousand years means nothing to a star.",
+   "scene": "sun"
+  },
+  {
+   "id": "s027",
+   "text": "A red dwarf like Proxima Centauri will burn for trillions more years without blinking.",
+   "scene": "star"
+  },
+  {
+   "id": "s028",
+   "text": "Small things drift. Big things wait. That is the rhythm of the universe at this scale.",
+   "scene": "void"
+  },
+  {
+   "id": "s029",
+   "text": "But what happens when we stop counting in thousands, and start counting in millions?",
+   "scene": "timescale"
+  },
+  {
+   "id": "s030",
+   "text": "One million years from now.",
+   "scene": "word",
+   "arg": "1 MILLION YEARS"
+  },
+  {
+   "id": "s031",
+   "text": "Betelgeuse is long gone. The red supergiant in Orion detonated hundreds of thousands of years ago.",
+   "scene": "redgiant"
+  },
+  {
+   "id": "s032",
+   "text": "For weeks, its supernova burned in Earth's sky brighter than the full moon.",
+   "scene": "supernova"
+  },
+  {
+   "id": "s033",
+   "text": "It was visible in broad daylight, a second sun hanging on the shoulder of a broken constellation.",
+   "scene": "flash"
+  },
+  {
+   "id": "s034",
+   "text": "Now only a spinning corpse remains, a neutron star flickering where a giant once stood.",
+   "scene": "pulsar"
+  },
+  {
+   "id": "s035",
+   "text": "The constellations you learned as a child no longer exist in any recognizable form.",
+   "scene": "void"
+  },
+  {
+   "id": "s036",
+   "text": "Every star has wandered. The sky is a stranger now.",
+   "scene": "star"
+  },
+  {
+   "id": "s037",
+   "text": "On Earth, Meteor Crater in Arizona has eroded away completely. The planet erases its own scars.",
+   "scene": "earthdark"
+  },
+  {
+   "id": "s038",
+   "text": "No structure built by human hands survives one million years of rain, ice, and plate tectonics.",
+   "scene": "earthdark"
+  },
+  {
+   "id": "s039",
+   "text": "Except two. The Voyager probes still drift between the stars, dead and perfectly preserved.",
+   "scene": "probe"
+  },
+  {
+   "id": "s040",
+   "text": "Their golden records, built to last a billion years, may now be the oldest human-made objects in existence.",
+   "scene": "probe"
+  },
+  {
+   "id": "s041",
+   "text": "Two whispers in an ocean of night, outlasting everything ever built on Earth.",
+   "scene": "signal"
+  },
+  {
+   "id": "s042",
+   "text": "The moon has drifted about thirty meters farther away. It leaves us slowly, four centimeters a year.",
+   "scene": "moon"
+  },
+  {
+   "id": "s043",
+   "text": "If our descendants are still out there, they live under a sky we would not recognize.",
+   "scene": "galaxy"
+  },
+  {
+   "id": "s044",
+   "text": "And this is still the very beginning. What does one hundred times longer look like?",
+   "scene": "timescale"
+  },
+  {
+   "id": "s045",
+   "text": "One hundred million years from now.",
+   "scene": "word",
+   "arg": "100 MILLION YEARS"
+  },
+  {
+   "id": "s046",
+   "text": "Saturn is losing its crown.",
+   "scene": "saturn"
+  },
+  {
+   "id": "s047",
+   "text": "The rings are not permanent. They are younger than the dinosaurs, and they are raining down onto the planet.",
+   "scene": "saturn"
+  },
+  {
+   "id": "s048",
+   "text": "Ring particles, tugged by gravity and charged by sunlight, spiral inward as a steady icy rain.",
+   "scene": "comet"
+  },
+  {
+   "id": "s049",
+   "text": "Within a few hundred million years, the most beautiful structure in the solar system simply dissolves.",
+   "scene": "saturn"
+  },
+  {
+   "id": "s050",
+   "text": "We were lucky. We existed in the brief window when Saturn had rings at all.",
+   "scene": "earth"
+  },
+  {
+   "id": "s051",
+   "text": "Earth, meanwhile, has been playing cosmic roulette.",
+   "scene": "earthdark"
+  },
+  {
+   "id": "s052",
+   "text": "Over one hundred million years, there is roughly a coin-flip chance of another impact like the one that killed the dinosaurs.",
+   "scene": "flash"
+  },
+  {
+   "id": "s053",
+   "text": "The continents have wandered. The Atlantic is wider, the Pacific narrower, and new mountains rise where seas used to be.",
+   "scene": "earth"
+  },
+  {
+   "id": "s054",
+   "text": "Whatever maps of Earth ever existed, they now describe a planet that no longer exists.",
+   "scene": "earthdark"
+  },
+  {
+   "id": "s055",
+   "text": "Out in the galaxy, our solar system has drifted through entire spiral arms.",
+   "scene": "galaxy"
+  },
+  {
+   "id": "s056",
+   "text": "Dinosaurs to now, that was one hundred million years. Run that whole story again, and we arrive here.",
+   "scene": "earthdark"
+  },
+  {
+   "id": "s057",
+   "text": "The sun burns on, but it is quietly getting hotter. And that changes everything.",
+   "scene": "sun"
+  },
+  {
+   "id": "s058",
+   "text": "Because the next stop is where Earth's story starts to end.",
+   "scene": "timescale"
+  },
+  {
+   "id": "s059",
+   "text": "One billion years from now.",
+   "scene": "word",
+   "arg": "1 BILLION YEARS"
+  },
+  {
+   "id": "s060",
+   "text": "The sun is now about ten percent brighter than it was in your lifetime. That is enough.",
+   "scene": "sun"
+  },
+  {
+   "id": "s061",
+   "text": "Enough to break the Earth.",
+   "scene": "earthdark"
+  },
+  {
+   "id": "s062",
+   "text": "The oceans are evaporating. Water vapor floods the upper atmosphere, trapping heat in a runaway spiral.",
+   "scene": "earthdark"
+  },
+  {
+   "id": "s063",
+   "text": "Sunlight splits the vapor apart, and the hydrogen leaks away into space, atom by atom.",
+   "scene": "flash"
+  },
+  {
+   "id": "s064",
+   "text": "The seas that birthed every living thing are boiling off into the dark.",
+   "scene": "earthdark"
+  },
+  {
+   "id": "s065",
+   "text": "Earth is becoming a desert world, its ocean basins cracked open like dried mud under a furious sky.",
+   "scene": "earthfrozen"
+  },
+  {
+   "id": "s066",
+   "text": "By 1.3 billion years, complex life is finished. Only single-celled microbes remain, hiding underground.",
+   "scene": "earthdark"
+  },
+  {
+   "id": "s067",
+   "text": "Life on Earth ends the way it began. Alone, microscopic, and in the dark.",
+   "scene": "word",
+   "arg": "THE OCEANS ARE GONE"
+  },
+  {
+   "id": "s068",
+   "text": "Here is the cruel accounting. Earth was habitable for roughly five and a half billion years, total.",
+   "scene": "earth"
+  },
+  {
+   "id": "s069",
+   "text": "Life used almost all of it just getting to brains. We arrived minutes before closing time.",
+   "scene": "word",
+   "arg": "MINUTES BEFORE CLOSING"
+  },
+  {
+   "id": "s070",
+   "text": "Meanwhile, the outer solar system is warming.",
+   "scene": "jupiter"
+  },
+  {
+   "id": "s071",
+   "text": "The icy moons of Jupiter and Saturn, frozen for eons, begin to soften.",
+   "scene": "jupiter"
+  },
+  {
+   "id": "s072",
+   "text": "For a brief window, moons like Europa may hold liquid water on their surfaces.",
+   "scene": "planet",
+   "arg": "#a8d8ff,#3a6ea5"
+  },
+  {
+   "id": "s073",
+   "text": "The habitable zone is migrating outward, like a campfire's warmth reaching the back rows.",
+   "scene": "sun"
+  },
+  {
+   "id": "s074",
+   "text": "Life's last refuge in this solar system may not be a planet at all, but a moon.",
+   "scene": "moon"
+  },
+  {
+   "id": "s075",
+   "text": "But refuges only last as long as the campfire. And the campfire is about to explode in size.",
+   "scene": "timescale"
+  },
+  {
+   "id": "s076",
+   "text": "Four billion years from now.",
+   "scene": "word",
+   "arg": "4 BILLION YEARS"
+  },
+  {
+   "id": "s077",
+   "text": "For decades, every documentary told you the same story about this moment.",
+   "scene": "galaxy"
+  },
+  {
+   "id": "s078",
+   "text": "That the Andromeda galaxy, a trillion stars strong, would collide with the Milky Way. Guaranteed.",
+   "scene": "galaxycollision"
+  },
+  {
+   "id": "s079",
+   "text": "The textbooks said it was certain. Then, in 2025, we re-ran the numbers.",
+   "scene": "word",
+   "arg": "IT WAS NEVER CERTAIN"
+  },
+  {
+   "id": "s080",
+   "text": "A study in Nature Astronomy, using better data on our neighboring galaxies, found the odds are only about fifty-fifty within ten billion years.",
+   "scene": "signal"
+  },
+  {
+   "id": "s081",
+   "text": "The most famous collision in astronomy is a coin flip. The universe kept that secret through a century of textbooks.",
+   "scene": "galaxycollision"
+  },
+  {
+   "id": "s082",
+   "text": "So flip the coin. Heads, and this happens.",
+   "scene": "galaxycollision"
+  },
+  {
+   "id": "s083",
+   "text": "Two spiral galaxies, hundreds of billions of suns each, falling through one another.",
+   "scene": "galaxycollision"
+  },
+  {
+   "id": "s084",
+   "text": "Almost no stars actually hit. Space is too empty. The stars pass like ships in a harbor at night.",
+   "scene": "star"
+  },
+  {
+   "id": "s085",
+   "text": "But gravity rewrites everything. Spiral arms are torn loose and flung across a hundred thousand light years.",
+   "scene": "galaxycollision"
+  },
+  {
+   "id": "s086",
+   "text": "Gas clouds slam together and ignite. A firestorm of newborn stars lights up the wreckage.",
+   "scene": "nebula"
+  },
+  {
+   "id": "s087",
+   "text": "The two galaxies swing apart, fall back, and merge into one enormous elliptical blur.",
+   "scene": "galaxycollision"
+  },
+  {
+   "id": "s088",
+   "text": "Astronomers named the child Milkdromeda. One galaxy, made of two ghosts.",
+   "scene": "word",
+   "arg": "MILKDROMEDA"
+  },
+  {
+   "id": "s089",
+   "text": "Tails, and the giants waltz past each other, still bound, saving the merger for a later eon.",
+   "scene": "galaxy"
+  },
+  {
+   "id": "s090",
+   "text": "Either way, they likely end up as one. The coin only decides when.",
+   "scene": "void"
+  },
+  {
+   "id": "s091",
+   "text": "But while the galaxies dance, something much closer to home is running out of time.",
+   "scene": "timescale"
+  },
+  {
+   "id": "s092",
+   "text": "Eight billion years from now.",
+   "scene": "word",
+   "arg": "8 BILLION YEARS"
+  },
+  {
+   "id": "s093",
+   "text": "The sun's core has exhausted the last of its hydrogen. And the sun begins to die.",
+   "scene": "sun"
+  },
+  {
+   "id": "s094",
+   "text": "It does not go quietly. It swells.",
+   "scene": "redgiant"
+  },
+  {
+   "id": "s095",
+   "text": "At its peak, about 7.9 billion years from now, the sun is 256 times wider than the star you were born under.",
+   "scene": "redgiant"
+  },
+  {
+   "id": "s096",
+   "text": "Mercury is swallowed. Venus is swallowed. The sun's boiling surface climbs toward Earth's orbit.",
+   "scene": "redgiant"
+  },
+  {
+   "id": "s097",
+   "text": "And around 7.6 billion years from now, most models agree, it reaches us.",
+   "scene": "redgiant"
+  },
+  {
+   "id": "s098",
+   "text": "Earth's thin escape routes fail. Tidal drag pulls the planet down into the fire.",
+   "scene": "earthdark"
+  },
+  {
+   "id": "s099",
+   "text": "The world where everything you have ever loved happened, ends here. Dissolved into the outer layers of its own star.",
+   "scene": "word",
+   "arg": "THE SUN SWALLOWS THE EARTH"
+  },
+  {
+   "id": "s100",
+   "text": "The dying sun exhales those layers into space, a glowing shroud of gas.",
+   "scene": "nebula"
+  },
+  {
+   "id": "s101",
+   "text": "For a few thousand years, our star becomes a planetary nebula, one of the most beautiful objects in the galaxy.",
+   "scene": "nebula"
+  },
+  {
+   "id": "s102",
+   "text": "Then the light fades, and only the core remains. A white dwarf.",
+   "scene": "whitedwarf"
+  },
+  {
+   "id": "s103",
+   "text": "An Earth-sized ember holding 54 percent of the sun's mass, a million times denser than water.",
+   "scene": "whitedwarf"
+  },
+  {
+   "id": "s104",
+   "text": "Somewhere in its ash are the atoms that used to be Mercury, Venus, and Earth.",
+   "scene": "whitedwarf"
+  },
+  {
+   "id": "s105",
+   "text": "Everything the inner solar system ever was, filed away in a stellar ash heap.",
+   "scene": "void"
+  },
+  {
+   "id": "s106",
+   "text": "The outer planets remain. Jupiter, Saturn, Neptune, loyal and dark, orbiting a corpse.",
+   "scene": "neptune"
+  },
+  {
+   "id": "s107",
+   "text": "A visitor arriving now would never guess this system once hosted a civilization.",
+   "scene": "probe"
+  },
+  {
+   "id": "s108",
+   "text": "Unless they found the probes. Two golden records, still waiting to be played.",
+   "scene": "signal"
+  },
+  {
+   "id": "s109",
+   "text": "The sun does not explode. It is not massive enough for that. It simply retires, and starts to cool.",
+   "scene": "whitedwarf"
+  },
+  {
+   "id": "s110",
+   "text": "It will spend longer as this fading ember than it ever spent as a star.",
+   "scene": "whitedwarf"
+  },
+  {
+   "id": "s111",
+   "text": "Our main character is dead, and the story is not even one percent finished.",
+   "scene": "void"
+  },
+  {
+   "id": "s112",
+   "text": "So what happens to a universe that keeps expanding after its stars start dying?",
+   "scene": "timescale"
+  },
+  {
+   "id": "s113",
+   "text": "One hundred billion years from now.",
+   "scene": "word",
+   "arg": "100 BILLION YEARS"
+  },
+  {
+   "id": "s114",
+   "text": "The universe is now seven times older than it was when humans existed.",
+   "scene": "cmb"
+  },
+  {
+   "id": "s115",
+   "text": "And something terrible has happened to the sky. It is emptying.",
+   "scene": "void"
+  },
+  {
+   "id": "s116",
+   "text": "Dark energy has been stretching space faster and faster, and distant galaxies are losing the race.",
+   "scene": "cmb"
+  },
+  {
+   "id": "s117",
+   "text": "One by one, they cross the cosmic horizon, the point beyond which their light can never reach us again.",
+   "scene": "horizon"
+  },
+  {
+   "id": "s118",
+   "text": "They are not destroyed. They are simply cut off. Forever.",
+   "scene": "horizon"
+  },
+  {
+   "id": "s119",
+   "text": "Watch a distant galaxy approach the horizon and its light stretches, reddens, and freezes.",
+   "scene": "horizon"
+  },
+  {
+   "id": "s120",
+   "text": "Its final image hangs in the sky like a photograph, fading slowly to black.",
+   "scene": "void"
+  },
+  {
+   "id": "s121",
+   "text": "Trillions of galaxies exit the universe this way. Politely. Without a sound.",
+   "scene": "cmb"
+  },
+  {
+   "id": "s122",
+   "text": "Every galaxy beyond our local group has now vanished past the edge of the observable universe.",
+   "scene": "void"
+  },
+  {
+   "id": "s123",
+   "text": "Milkdromeda has swallowed its remaining neighbors and floats alone in the dark.",
+   "scene": "galaxy"
+  },
+  {
+   "id": "s124",
+   "text": "An astronomer born in this era, with perfect telescopes, would see one galaxy and then nothing.",
+   "scene": "word",
+   "arg": "AN EMPTY SKY"
+  },
+  {
+   "id": "s125",
+   "text": "They could never discover the Big Bang. The evidence has physically left their sky.",
+   "scene": "cmb"
+  },
+  {
+   "id": "s126",
+   "text": "They would be geniuses, and they would be wrong, because the truth abandoned them.",
+   "scene": "horizon"
+  },
+  {
+   "id": "s127",
+   "text": "Think about what that means for us. What evidence has already left ours?",
+   "scene": "word",
+   "arg": "WHAT HAVE WE ALREADY LOST?"
+  },
+  {
+   "id": "s128",
+   "text": "Knowledge in this universe has an expiration date. We are reading the library while it burns.",
+   "scene": "void"
+  },
+  {
+   "id": "s129",
+   "text": "And the stars themselves are now on their final generation. Who lights the lamps after the last one?",
+   "scene": "timescale"
+  },
+  {
+   "id": "s130",
+   "text": "One trillion years from now.",
+   "scene": "word",
+   "arg": "1 TRILLION YEARS"
+  },
+  {
+   "id": "s131",
+   "text": "The galaxy is running out of fuel.",
+   "scene": "nebula"
+  },
+  {
+   "id": "s132",
+   "text": "Here is a secret about our own time. The universe's star-birth rate peaked ten billion years ago.",
+   "scene": "nebula"
+  },
+  {
+   "id": "s133",
+   "text": "You were not born at the dawn of the universe. You were born in its epilogue, while the credits were already rolling.",
+   "scene": "word",
+   "arg": "WE LIVE IN THE EPILOGUE"
+  },
+  {
+   "id": "s134",
+   "text": "Now even the epilogue is ending. Star formation needs cold gas, and the cold gas is nearly gone.",
+   "scene": "nebula"
+  },
+  {
+   "id": "s135",
+   "text": "Somewhere in Milkdromeda, one of the last star-forming clouds collapses and ignites.",
+   "scene": "star"
+  },
+  {
+   "id": "s136",
+   "text": "A handful of final newborn stars, small and red, lighting up in a galaxy of retirees.",
+   "scene": "star"
+  },
+  {
+   "id": "s137",
+   "text": "These late children are red dwarfs, tiny misers that sip their fuel for trillions of years.",
+   "scene": "star"
+  },
+  {
+   "id": "s138",
+   "text": "The universe's strategy has changed. No more bonfires. Only candles, rationed to last.",
+   "scene": "word",
+   "arg": "THE LAST STARS ARE BORN"
+  },
+  {
+   "id": "s139",
+   "text": "Strange collisions still light the darkness now and then. Two dead white dwarfs spiral together and reignite.",
+   "scene": "whitedwarf"
+  },
+  {
+   "id": "s140",
+   "text": "For a moment, a new star burns where no star should exist, assembled from corpses.",
+   "scene": "flash"
+  },
+  {
+   "id": "s141",
+   "text": "These resurrection stars will be the only new lights for trillions of years to come.",
+   "scene": "star"
+  },
+  {
+   "id": "s142",
+   "text": "The age of abundant starlight, the Stelliferous Era, is entering its long final act.",
+   "scene": "word",
+   "arg": "THE STELLIFEROUS ERA"
+  },
+  {
+   "id": "s143",
+   "text": "Every star that will ever be born now exists. From here, the count only goes down.",
+   "scene": "void"
+  },
+  {
+   "id": "s144",
+   "text": "Down, and down, until one night there is exactly one star left. What does that night look like?",
+   "scene": "timescale"
+  },
+  {
+   "id": "s145",
+   "text": "One hundred trillion years from now.",
+   "scene": "word",
+   "arg": "100 TRILLION YEARS"
+  },
+  {
+   "id": "s146",
+   "text": "This is the night the last star dies.",
+   "scene": "star"
+  },
+  {
+   "id": "s147",
+   "text": "Somewhere in the darkness, a final red dwarf has been burning for trillions of years.",
+   "scene": "star"
+  },
+  {
+   "id": "s148",
+   "text": "Red dwarfs do not explode. They do not even swell into red giants. They are too small, too careful for that.",
+   "scene": "star"
+  },
+  {
+   "id": "s149",
+   "text": "This one has stirred every last atom of its hydrogen into the fire, grown hotter, bluer, and simply run dry.",
+   "scene": "whitedwarf"
+  },
+  {
+   "id": "s150",
+   "text": "Its light flickers, dims, and goes out.",
+   "scene": "void"
+  },
+  {
+   "id": "s151",
+   "text": "And with it ends the era of stars. Ten thousand times longer than all of cosmic history before it.",
+   "scene": "word",
+   "arg": "THE LAST STAR DIES"
+  },
+  {
+   "id": "s152",
+   "text": "Nothing shines anymore. Anywhere.",
+   "scene": "void"
+  },
+  {
+   "id": "s153",
+   "text": "The universe now contains only remnants. White dwarfs, neutron stars, black holes, and frozen wandering planets.",
+   "scene": "whitedwarf"
+  },
+  {
+   "id": "s154",
+   "text": "Cosmologists call what comes next the Degenerate Era, named for the exhausted matter that remains.",
+   "scene": "word",
+   "arg": "THE DEGENERATE ERA"
+  },
+  {
+   "id": "s155",
+   "text": "If you were standing on one of the surviving planets now, this is what you would see.",
+   "scene": "earthfrozen"
+  },
+  {
+   "id": "s156",
+   "text": "Nothing. A sky of perfect black, no stars, no glow, no horizon. Your own hand invisible in front of your face.",
+   "scene": "earthfrozen"
+  },
+  {
+   "id": "s157",
+   "text": "Under your feet, a world frozen within a whisper of absolute zero, holding the fossils of an atmosphere.",
+   "scene": "earthfrozen"
+  },
+  {
+   "id": "s158",
+   "text": "The neutron stars persist. City-sized spheres of pure nuclear matter, spinning in the dark.",
+   "scene": "pulsar"
+  },
+  {
+   "id": "s159",
+   "text": "Some still pulse their lighthouse beams across a universe with no ships left to warn.",
+   "scene": "pulsar"
+  },
+  {
+   "id": "s160",
+   "text": "Even the magnetars, the most violent magnets nature ever built, have gone quiet.",
+   "scene": "magnetar"
+  },
+  {
+   "id": "s161",
+   "text": "If life still exists, it huddles around white dwarfs, harvesting the last warmth in the cosmos.",
+   "scene": "whitedwarf"
+  },
+  {
+   "id": "s162",
+   "text": "But even embers cool. And the darkness is patient.",
+   "scene": "void"
+  },
+  {
+   "id": "s163",
+   "text": "What does gravity do with a universe full of corpses and infinite time to play with?",
+   "scene": "timescale"
+  },
+  {
+   "id": "s164",
+   "text": "Ten to the power twenty years from now. One hundred billion billion years.",
+   "scene": "word",
+   "arg": "10^20 YEARS"
+  },
+  {
+   "id": "s165",
+   "text": "The galaxies themselves are dissolving.",
+   "scene": "galaxy"
+  },
+  {
+   "id": "s166",
+   "text": "Over these absurd timescales, close encounters between dead stars slowly fling them out of the galaxy.",
+   "scene": "roguebh"
+  },
+  {
+   "id": "s167",
+   "text": "First the planets are stripped from their dead suns, detached by passing stars and set adrift.",
+   "scene": "earthfrozen"
+  },
+  {
+   "id": "s168",
+   "text": "Then the stars themselves. Somewhere between ninety and ninety-nine percent of all remnants are ejected into the void.",
+   "scene": "void"
+  },
+  {
+   "id": "s169",
+   "text": "Star by star, Milkdromeda is evaporating into intergalactic space.",
+   "scene": "roguebh"
+  },
+  {
+   "id": "s170",
+   "text": "The rest spiral inward, and fall into the supermassive black hole at the center.",
+   "scene": "blackhole"
+  },
+  {
+   "id": "s171",
+   "text": "The black hole grows fat on the wreckage of a hundred billion dead suns.",
+   "scene": "blackhole"
+  },
+  {
+   "id": "s172",
+   "text": "Rogue black holes cruise the darkness, invisible, swallowing anything unlucky enough to cross them.",
+   "scene": "roguebh"
+  },
+  {
+   "id": "s173",
+   "text": "The white dwarfs have finished cooling. They no longer emit visible light at all.",
+   "scene": "blackdwarf"
+  },
+  {
+   "id": "s174",
+   "text": "They are black dwarfs now. Objects so far in our future that not one exists yet, anywhere in the universe.",
+   "scene": "word",
+   "arg": "BLACK DWARFS"
+  },
+  {
+   "id": "s175",
+   "text": "Each one has cooled to about five degrees above absolute zero. Colder than your freezer, with the mass of a star.",
+   "scene": "blackdwarf"
+  },
+  {
+   "id": "s176",
+   "text": "Put yourself in orbit around one. You would never see it. You would only feel it, a blind weight in the dark, swinging you around an invisible point forever.",
+   "scene": "blackdwarf"
+  },
+  {
+   "id": "s177",
+   "text": "If Earth's cinder escaped the sun, it drifts out here somewhere. A silent stone circling a silent ember, going nowhere, forever.",
+   "scene": "earthfrozen"
+  },
+  {
+   "id": "s178",
+   "text": "The universe has become a museum with the lights off, and gravity is quietly stealing the exhibits.",
+   "scene": "void"
+  },
+  {
+   "id": "s179",
+   "text": "But the exhibits themselves may not be safe. Because matter itself might have an expiration date.",
+   "scene": "timescale"
+  },
+  {
+   "id": "s180",
+   "text": "Ten to the power thirty-four years and beyond.",
+   "scene": "word",
+   "arg": "10^34 YEARS"
+  },
+  {
+   "id": "s181",
+   "text": "Now we reach the deepest question in this entire journey. Does matter last forever?",
+   "scene": "cmb"
+  },
+  {
+   "id": "s182",
+   "text": "Many physicists suspect it does not. They suspect the proton, the heart of every atom, eventually decays.",
+   "scene": "word",
+   "arg": "PROTONS MAY NOT LAST FOREVER"
+  },
+  {
+   "id": "s183",
+   "text": "Be clear. This is a hypothesis. Proton decay has never been observed, despite decades of watching.",
+   "scene": "signal"
+  },
+  {
+   "id": "s184",
+   "text": "In Japan, fifty thousand tons of ultra-pure water sit in darkness, ringed by thousands of golden light sensors.",
+   "scene": "signal"
+  },
+  {
+   "id": "s185",
+   "text": "Scientists have watched that tank for decades, waiting for a single proton to flash goodbye.",
+   "scene": "flash"
+  },
+  {
+   "id": "s186",
+   "text": "Not one ever has. We now know protons live at least ten to the power thirty-four years, and an even bigger detector is listening right now.",
+   "scene": "signal"
+  },
+  {
+   "id": "s187",
+   "text": "But most grand unified theories of physics insist that eventually, every proton must fall apart.",
+   "scene": "cmb"
+  },
+  {
+   "id": "s188",
+   "text": "If they are right, then out here in deep time, the end of matter begins.",
+   "scene": "void"
+  },
+  {
+   "id": "s189",
+   "text": "Inside every black dwarf, every frozen planet, every drifting rock, protons quietly wink out of existence.",
+   "scene": "blackdwarf"
+  },
+  {
+   "id": "s190",
+   "text": "Each decay releases a tiny flash of energy. The dead stars gain a final, impossible warmth.",
+   "scene": "blackdwarf"
+  },
+  {
+   "id": "s191",
+   "text": "Proton decay keeps each black dwarf a few degrees above absolute zero. That trickle is the last heat source in the universe.",
+   "scene": "blackdwarf"
+  },
+  {
+   "id": "s192",
+   "text": "It is less power than a household light bulb, spread across an entire dead star. And it is everything.",
+   "scene": "void"
+  },
+  {
+   "id": "s193",
+   "text": "Slowly, atom by atom, every solid object in existence evaporates into positrons and radiation.",
+   "scene": "nebula"
+  },
+  {
+   "id": "s194",
+   "text": "The planets dissolve. The black dwarfs dissolve. Every monument, every fossil, every atom that was ever you.",
+   "scene": "earthfrozen"
+  },
+  {
+   "id": "s195",
+   "text": "By ten to the power forty years, if the theories are right, matter as we know it is over.",
+   "scene": "word",
+   "arg": "THE END OF MATTER"
+  },
+  {
+   "id": "s196",
+   "text": "And a strange footnote. If protons never decay, physics has an even slower ending on file.",
+   "scene": "signal"
+  },
+  {
+   "id": "s197",
+   "text": "Over ten to the power fifteen hundred years, quantum tunneling would slowly transmute all matter into iron.",
+   "scene": "whitedwarf"
+  },
+  {
+   "id": "s198",
+   "text": "Dead stars would become iron stars, the most stable objects arithmetic allows.",
+   "scene": "word",
+   "arg": "IRON STARS"
+  },
+  {
+   "id": "s199",
+   "text": "Either way, the destination is the same. Matter simplifies, settles, and surrenders.",
+   "scene": "void"
+  },
+  {
+   "id": "s200",
+   "text": "Nothing made of atoms remains. So what is left, when matter itself is gone?",
+   "scene": "timescale"
+  },
+  {
+   "id": "s201",
+   "text": "Ten to the power forty years from now.",
+   "scene": "word",
+   "arg": "10^40 YEARS"
+  },
+  {
+   "id": "s202",
+   "text": "The black holes. Only the things that were never made of atoms survive the death of atoms.",
+   "scene": "blackhole"
+  },
+  {
+   "id": "s203",
+   "text": "Welcome to the Black Hole Era. The universe now belongs entirely to them.",
+   "scene": "word",
+   "arg": "THE BLACK HOLE ERA"
+  },
+  {
+   "id": "s204",
+   "text": "Every galaxy that ever existed is now, at most, a single black hole and a thin fog of particles.",
+   "scene": "blackhole"
+  },
+  {
+   "id": "s205",
+   "text": "The monsters have inherited everything. And the largest of them are beyond imagining.",
+   "scene": "ton618"
+  },
+  {
+   "id": "s206",
+   "text": "Remember TON 618, the sixty-six billion solar mass giant we could see from Earth?",
+   "scene": "ton618"
+  },
+  {
+   "id": "s207",
+   "text": "Holes like that now drift through the darkness, horizons wider than entire ancient solar systems.",
+   "scene": "horizon"
+  },
+  {
+   "id": "s208",
+   "text": "Nothing orbits them anymore. There is nothing left to orbit.",
+   "scene": "void"
+  },
+  {
+   "id": "s209",
+   "text": "They do not feed. They do not grow. They simply exist, holding everything they ever swallowed.",
+   "scene": "blackhole"
+  },
+  {
+   "id": "s210",
+   "text": "An event horizon is the universe's most patient archive. Whatever fell in is still accounted for.",
+   "scene": "horizon"
+  },
+  {
+   "id": "s211",
+   "text": "Somewhere inside them, in whatever form information takes past a horizon, is the ledger of everything that ever fell.",
+   "scene": "blackhole"
+  },
+  {
+   "id": "s212",
+   "text": "Stars, planets, oceans. Possibly the atoms of everyone who ever lived.",
+   "scene": "void"
+  },
+  {
+   "id": "s213",
+   "text": "The black holes are the universe's last libraries.",
+   "scene": "word",
+   "arg": "THE LAST LIBRARIES"
+  },
+  {
+   "id": "s214",
+   "text": "For a span of time that dwarfs everything that came before, nothing happens at all.",
+   "scene": "void"
+  },
+  {
+   "id": "s215",
+   "text": "No collisions. No light. No change. Just black spheres in black space, outnumbered by nothing.",
+   "scene": "blackhole"
+  },
+  {
+   "id": "s216",
+   "text": "If you think this is the end, you are wrong. Because black holes have a secret.",
+   "scene": "horizon"
+  },
+  {
+   "id": "s217",
+   "text": "Stephen Hawking found it. They are not eternal.",
+   "scene": "word",
+   "arg": "EVEN BLACK HOLES DIE"
+  },
+  {
+   "id": "s218",
+   "text": "They leak.",
+   "scene": "blackhole"
+  },
+  {
+   "id": "s219",
+   "text": "And the fire that burns the last libraries has already been lit. How long can they hold out?",
+   "scene": "timescale"
+  },
+  {
+   "id": "s220",
+   "text": "Ten to the power sixty-seven years from now.",
+   "scene": "word",
+   "arg": "10^67 YEARS"
+  },
+  {
+   "id": "s221",
+   "text": "Quantum physics does not allow even a black hole to keep everything forever.",
+   "scene": "blackhole"
+  },
+  {
+   "id": "s222",
+   "text": "At the edge of every event horizon, space itself simmers with particles flickering in and out of existence.",
+   "scene": "horizon"
+  },
+  {
+   "id": "s223",
+   "text": "Occasionally one escapes, stealing a whisper of the black hole's mass as it goes.",
+   "scene": "evaporation"
+  },
+  {
+   "id": "s224",
+   "text": "This is Hawking radiation. A black hole the mass of our sun glows at sixty billionths of a degree. And it is utterly relentless.",
+   "scene": "word",
+   "arg": "HAWKING RADIATION"
+  },
+  {
+   "id": "s225",
+   "text": "A solar-mass black hole takes ten to the power sixty-seven years to evaporate. Every year since the Big Bang is a rounding error against that number.",
+   "scene": "blackhole"
+  },
+  {
+   "id": "s226",
+   "text": "But this timelapse does not stop. So watch.",
+   "scene": "evaporation"
+  },
+  {
+   "id": "s227",
+   "text": "The black hole shrinks. And shrinking makes it hotter, which makes it shrink faster.",
+   "scene": "evaporation"
+  },
+  {
+   "id": "s228",
+   "text": "Slowly at first. Over eons, the glow sharpens.",
+   "scene": "evaporation"
+  },
+  {
+   "id": "s229",
+   "text": "The stellar black holes go first, each ending in a burst of gamma rays.",
+   "scene": "evaporation"
+  },
+  {
+   "id": "s230",
+   "text": "One by one, across an eternity, the archives of the universe burn their contents and close.",
+   "scene": "evaporation"
+  },
+  {
+   "id": "s231",
+   "text": "The supermassive monsters hold out the longest. A giant like TON 618 lasts nearly ten to the power one hundred years.",
+   "scene": "ton618"
+  },
+  {
+   "id": "s232",
+   "text": "A one followed by one hundred zeros. A googol. There are not a googol atoms in the observable universe. There are not a googol anythings. Except years.",
+   "scene": "word",
+   "arg": "A GOOGOL YEARS"
+  },
+  {
+   "id": "s233",
+   "text": "And now, somewhere in the darkness, the last black hole in the universe is dying.",
+   "scene": "evaporation"
+  },
+  {
+   "id": "s234",
+   "text": "It has outlived everything. Stars, galaxies, matter itself. It is the final object in existence.",
+   "scene": "evaporation"
+  },
+  {
+   "id": "s235",
+   "text": "Its horizon tightens. Its glow climbs from billionths of a degree toward a final fever.",
+   "scene": "evaporation"
+  },
+  {
+   "id": "s236",
+   "text": "If you could stand witness, you would see the only light in the universe. A single point, brightening in an infinite black, like the last coal of a fire that once filled everything.",
+   "scene": "evaporation"
+  },
+  {
+   "id": "s237",
+   "text": "In its final second, it releases the energy of a million hydrogen bombs.",
+   "scene": "evaporation"
+  },
+  {
+   "id": "s238",
+   "text": "A flash.",
+   "scene": "flash"
+  },
+  {
+   "id": "s239",
+   "text": "The last event horizon evaporates, and the last thing that could ever be called a thing, is gone.",
+   "scene": "flash"
+  },
+  {
+   "id": "s240",
+   "text": "The universe's final firework, with no one and nothing left to see it.",
+   "scene": "word",
+   "arg": "THE LAST LIGHT"
+  },
+  {
+   "id": "s241",
+   "text": "Silence.",
+   "scene": "void"
+  },
+  {
+   "id": "s242",
+   "text": "Beyond ten to the power one hundred years.",
+   "scene": "word",
+   "arg": "THE DARK ERA"
+  },
+  {
+   "id": "s243",
+   "text": "This is the Dark Era. It is the universe's final state, and it lasts, as far as we know, forever.",
+   "scene": "void"
+  },
+  {
+   "id": "s244",
+   "text": "Nothing remains but stray photons, neutrinos, electrons, and positrons, drifting through expanding emptiness.",
+   "scene": "cmb"
+  },
+  {
+   "id": "s245",
+   "text": "The average distance between particles is now larger than the entire observable universe of our time.",
+   "scene": "void"
+  },
+  {
+   "id": "s246",
+   "text": "Occasionally, an electron and a positron find each other and fall into orbit. An atom of positronium, larger than a galaxy.",
+   "scene": "cmb"
+  },
+  {
+   "id": "s247",
+   "text": "A single orbit takes longer than the entire age of stars. It is the last slow dance in existence.",
+   "scene": "void"
+  },
+  {
+   "id": "s248",
+   "text": "Nothing has a temperature anymore. Nothing has a location worth naming. Nothing happens.",
+   "scene": "cmb"
+  },
+  {
+   "id": "s249",
+   "text": "This is heat death. Not fire, not collapse. Just perfect, uniform, eternal stillness.",
+   "scene": "word",
+   "arg": "HEAT DEATH"
+  },
+  {
+   "id": "s250",
+   "text": "Time still passes, technically. But time only means anything when things change, and nothing changes.",
+   "scene": "void"
+  },
+  {
+   "id": "s251",
+   "text": "Past ten to the power twenty-five hundred years, physics simply runs out of predictions. The map ends here.",
+   "scene": "cmb"
+  },
+  {
+   "id": "s252",
+   "text": "The story that began with the Big Bang, that built galaxies and oceans and minds, ends in a place with no story at all.",
+   "scene": "void"
+  },
+  {
+   "id": "s253",
+   "text": "At least, that is the ending we believed in. Until a few years ago.",
+   "scene": "signal"
+  },
+  {
+   "id": "s254",
+   "text": "Because the end of the universe was rewritten while you were alive.",
+   "scene": "word",
+   "arg": "THE ENDING WAS REWRITTEN"
+  },
+  {
+   "id": "s255",
+   "text": "In the mid-2020s, an instrument called DESI mapped tens of millions of galaxies to measure dark energy across cosmic history.",
+   "scene": "signal"
+  },
+  {
+   "id": "s256",
+   "text": "And it found hints, growing toward four sigma, that dark energy is not constant. It may be weakening.",
+   "scene": "cmb"
+  },
+  {
+   "id": "s257",
+   "text": "Every ending you just watched assumes dark energy stays fixed forever. If it evolves, all bets are off.",
+   "scene": "horizon"
+  },
+  {
+   "id": "s258",
+   "text": "A weakening push could slow the expansion. Change it enough, and the universe could even recollapse, ending in fire instead of ice.",
+   "scene": "attractor"
+  },
+  {
+   "id": "s259",
+   "text": "Melodysheep could not have known this. The textbooks are being rewritten right now, in your lifetime, and the final chapter is genuinely open.",
+   "scene": "word",
+   "arg": "THE FINAL CHAPTER IS OPEN"
+  },
+  {
+   "id": "s260",
+   "text": "The old rivals have weakened, too. The Big Rip, dark energy tearing space apart, is now disfavored by that same data.",
+   "scene": "cmb"
+  },
+  {
+   "id": "s261",
+   "text": "Vacuum decay, a bubble of new physics erasing everything at light speed, stays possible but is expected to wait past ten to the power one hundred years.",
+   "scene": "flash"
+  },
+  {
+   "id": "s262",
+   "text": "The apocalypse you would never see coming is, mercifully, in no hurry.",
+   "scene": "void"
+  },
+  {
+   "id": "s263",
+   "text": "So the quiet ending remains the default. Expansion, dilution, darkness.",
+   "scene": "cmb"
+  },
+  {
+   "id": "s264",
+   "text": "Not with a bang. With an endless, dimming whisper.",
+   "scene": "void"
+  },
+  {
+   "id": "s265",
+   "text": "But even that whisper may not be the last word.",
+   "scene": "cmb"
+  },
+  {
+   "id": "s266",
+   "text": "Because even perfect emptiness is not truly empty.",
+   "scene": "cmb"
+  },
+  {
+   "id": "s267",
+   "text": "Quantum mechanics forbids absolute stillness. The vacuum itself always trembles, everywhere, forever.",
+   "scene": "signal"
+  },
+  {
+   "id": "s268",
+   "text": "And given infinite time, even the most absurdly improbable tremble eventually happens.",
+   "scene": "word",
+   "arg": "GIVEN INFINITE TIME"
+  },
+  {
+   "id": "s269",
+   "text": "Some physicists speculate that a large enough quantum fluctuation could seed something extraordinary.",
+   "scene": "cmb"
+  },
+  {
+   "id": "s270",
+   "text": "A new inflation event. A new bubble of spacetime, inflating out of the ashes of ours.",
+   "scene": "bigbang"
+  },
+  {
+   "id": "s271",
+   "text": "This is speculation stacked on speculation. Be honest about that. No one knows.",
+   "scene": "signal"
+  },
+  {
+   "id": "s272",
+   "text": "But if it is possible, then somewhere in that infinite quiet, it is inevitable.",
+   "scene": "void"
+  },
+  {
+   "id": "s273",
+   "text": "There are other doors out of the dark. Some cosmologists propose cyclic universes, endlessly renewing, with our eon just one heartbeat.",
+   "scene": "wormhole"
+  },
+  {
+   "id": "s274",
+   "text": "Roger Penrose has argued that a totally empty universe forgets its own scale, and becomes a new beginning.",
+   "scene": "cmb"
+  },
+  {
+   "id": "s275",
+   "text": "In his picture, the infinitely far future and a new Big Bang are literally the same thing.",
+   "scene": "bigbang"
+  },
+  {
+   "id": "s276",
+   "text": "And mathematics offers one last door. Wait ten to the power ten to the power ten to the power fifty-six years, and physics suggests arrangements of matter could recur.",
+   "scene": "wormhole"
+  },
+  {
+   "id": "s277",
+   "text": "That is the largest number with a physical meaning ever written down. And infinity dwarfs it.",
+   "scene": "word",
+   "arg": "THE LARGEST NUMBER"
+  },
+  {
+   "id": "s278",
+   "text": "None of this is proven. All of it is honest physics, published, argued, and unresolved.",
+   "scene": "signal"
+  },
+  {
+   "id": "s279",
+   "text": "A flicker in the dark. A point of impossible heat. And then, expansion.",
+   "scene": "bigbang"
+  },
+  {
+   "id": "s280",
+   "text": "A newborn universe, igniting with its own Big Bang, growing its own galaxies, its own stars.",
+   "scene": "bigbang"
+  },
+  {
+   "id": "s281",
+   "text": "Perhaps its own oceans. Perhaps its own minds, looking up and asking how it all began.",
+   "scene": "galaxy"
+  },
+  {
+   "id": "s282",
+   "text": "Perhaps this has already happened. Perhaps our own Big Bang was exactly this.",
+   "scene": "word",
+   "arg": "A NEW BEGINNING"
+  },
+  {
+   "id": "s283",
+   "text": "The last moment of one universe, and the first moment of the next, might be the same moment.",
+   "scene": "bigbang"
+  },
+  {
+   "id": "s284",
+   "text": "The end of time might just be time, clearing its throat.",
+   "scene": "bigbang"
+  },
+  {
+   "id": "s285",
+   "text": "Now come back.",
+   "scene": "timescale"
+  },
+  {
+   "id": "s286",
+   "text": "Back past the dark era, the dying black holes, the dissolving atoms, the last star.",
+   "scene": "warp"
+  },
+  {
+   "id": "s287",
+   "text": "Back past the frozen Earth, the swollen sun, the waltzing galaxies.",
+   "scene": "galaxycollision"
+  },
+  {
+   "id": "s288",
+   "text": "Back to a small blue planet, in a bright young galaxy, 13.8 billion years after the beginning.",
+   "scene": "earth"
+  },
+  {
+   "id": "s289",
+   "text": "Back to now. Back to you.",
+   "scene": "earth"
+  },
+  {
+   "id": "s290",
+   "text": "Here is the thing this entire journey was building to.",
+   "scene": "earth"
+  },
+  {
+   "id": "s291",
+   "text": "Run the numbers on everything you just watched. Compare the age of stars to the eternity that follows.",
+   "scene": "timescale"
+  },
+  {
+   "id": "s292",
+   "text": "Life like ours is possible for only the thinnest sliver at the very start of the universe's story.",
+   "scene": "cmb"
+  },
+  {
+   "id": "s293",
+   "text": "Physicist Brian Cox put it this way. The arrow of time creates a brief window in which life can exist. This is that window.",
+   "scene": "word",
+   "arg": "THIS IS THE WINDOW"
+  },
+  {
+   "id": "s294",
+   "text": "You are not living at some random point in eternity. You are living in the flash at the very beginning.",
+   "scene": "word",
+   "arg": "YOU ARE EARLY"
+  },
+  {
+   "id": "s295",
+   "text": "The universe is not ancient. Compared to what is coming, it has barely opened its eyes.",
+   "scene": "star"
+  },
+  {
+   "id": "s296",
+   "text": "You live in the era of light. The brief, dazzling age when stars burn and skies are full.",
+   "scene": "galaxy"
+  },
+  {
+   "id": "s297",
+   "text": "The age when the universe can still be seen, still be read, still be understood.",
+   "scene": "cmb"
+  },
+  {
+   "id": "s298",
+   "text": "Beings in the far future, if any exist, would trade anything to see what you see tonight.",
+   "scene": "void"
+  },
+  {
+   "id": "s299",
+   "text": "A sky full of stars is not normal. It is a temporary miracle, and you were born inside it.",
+   "scene": "star"
+  },
+  {
+   "id": "s300",
+   "text": "Every sunrise you have ever ignored is a spectacle the last nine-tenths of eternity will never get.",
+   "scene": "sun"
+  },
+  {
+   "id": "s301",
+   "text": "And here is the strangest comfort of all. Nothing that happens in this video erases you.",
+   "scene": "earth"
+  },
+  {
+   "id": "s302",
+   "text": "The future does not delete the past. It only comes after it.",
+   "scene": "wormhole"
+  },
+  {
+   "id": "s303",
+   "text": "Ten to the power one hundred years from now, it will still be true that you existed.",
+   "scene": "word",
+   "arg": "IT WILL STILL BE TRUE"
+  },
+  {
+   "id": "s304",
+   "text": "That you lived on a blue world, under a young sun, in the era when the universe was awake.",
+   "scene": "earth"
+  },
+  {
+   "id": "s305",
+   "text": "The heat death cannot touch that. Nothing can.",
+   "scene": "void"
+  },
+  {
+   "id": "s306",
+   "text": "The universe spent 13.8 billion years arranging atoms into something that could watch its own ending and feel awe.",
+   "scene": "earth"
+  },
+  {
+   "id": "s307",
+   "text": "You are not small. You are the part of the universe that noticed.",
+   "scene": "word",
+   "arg": "YOU ARE THE PART THAT NOTICED"
+  },
+  {
+   "id": "s308",
+   "text": "So look up. While there is still everything to see.",
+   "scene": "earth"
+  },
+  {
+   "id": "s309",
+   "text": "This has been a journey of ten to the power one hundred years, and it fit inside your evening.",
+   "scene": "outro"
+  },
+  {
+   "id": "s310",
+   "text": "If it changed the way tonight's sky looks to you, subscribe to mindwired.",
+   "scene": "outro"
+  },
+  {
+   "id": "s311",
+   "text": "We will be here until the last star goes out. See you in the next one.",
+   "scene": "outro"
+  }
+ ]
+}

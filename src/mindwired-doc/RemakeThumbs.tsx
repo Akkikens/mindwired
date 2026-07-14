@@ -80,6 +80,26 @@ export const AtomDeathsThumb: React.FC = () => (
   </AbsoluteFill>
 );
 
+export const EndOfTimeThumb: React.FC = () => (
+  <AbsoluteFill style={{ backgroundColor: "#000" }}>
+    <Img src={staticFile("shorts/endoftime/images/thumb_bh.png")}
+      style={{ width: "100%", height: "100%", objectFit: "cover", transform: "scale(1.15)" }} />
+    <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(0,0,0,0.5) 0%, transparent 30%, transparent 55%, rgba(0,0,0,0.85) 100%)" }} />
+    <div style={{ position: "absolute", top: 46, left: 0, right: 0, textAlign: "center" }}>
+      <span style={{ fontFamily: EN, fontWeight: 800, fontSize: 66, letterSpacing: 3, color: "#fff",
+        textShadow: "0 4px 30px rgba(0,0,0,0.95)" }}>THE END OF TIME</span>
+    </div>
+    <div style={{ position: "absolute", bottom: 70, left: 0, right: 0, textAlign: "center" }}>
+      <span style={{ fontFamily: EN, fontWeight: 800, fontSize: 100, letterSpacing: 1, color: "#FFB65C",
+        textShadow: "0 4px 40px rgba(0,0,0,1)" }}>10^100 YEARS</span>
+    </div>
+    <div style={{ position: "absolute", bottom: 30, right: 34, display: "flex", alignItems: "center", gap: 10 }}>
+      <div style={{ width: 16, height: 16, borderRadius: "50%", background: CYAN, boxShadow: `0 0 16px ${CYAN}` }} />
+      <span style={{ fontFamily: EN, fontWeight: 700, fontSize: 30, color: "#fff" }}>mindwired</span>
+    </div>
+  </AbsoluteFill>
+);
+
 export const SpaceDeathsHiThumb: React.FC = () => (
   <AbsoluteFill style={{ backgroundColor: "#000" }}>
     <Img src={staticFile("shorts/spacedeaths/images/mccandless_1.jpg")}

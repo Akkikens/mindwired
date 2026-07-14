@@ -5,11 +5,17 @@ gaming/tech lane. Everything is code-generated: Remotion (React → MP4), React 
 Fiber for 3D, TTS narration with word-level timings. This file is the production
 manual — read it before making or editing any video.
 
-## The 4 channels (2026-07)
+## The 5 channels (2026-07)
+
+> **ALWAYS confirm which channel a video is for BEFORE the first render** (Akshay,
+> 2026-07-13). Branding (theme/wordmark) + the subscribe outro are per-channel and
+> bake into the render — deciding mid-render forces a full re-render. Ask up front,
+> set the comp's `channel` theme, plan the matching outro. One render, fully branded.
 
 | Channel | Lane | Where | Voice / host |
 |---|---|---|---|
 | **mindwired** | faceless space/science + gaming/tech | this repo | Orion host; narrator = cloned Cartesia voice `00d3c951-…` (was George/Hume) |
+| **Black Box Breakdown** | disaster & corporate-catastrophe forensics (aviation/maritime/industrial/corporate; 40+ high-RPM). @Watch-BlackBox | this repo, doc engine, `channel:"blackbox"` (theme accent `#FF9500`, wordmark "Black Box") | host **Reid** (`public/host/reid_wide.png`); narrator = cloned Cartesia `00d3c951-…` |
 | **DimaagBatti** | Hindi explainers (Dhruv-Rathee style: economy/geopolitics/how-it-works) | this repo (`src/dimaagbatti`) | Rohan, Cartesia Hindi `4877b818-…`; whiteboard + Devanagari overlays; see `HINDI-CHANNEL-BRIEF.md` |
 | **KickOffDaily90** | football / World Cup (separate YT+IG brand) | this repo, viral engine, `channel:"kickoffdaily90"` | host Jamie |
 | **Singaloo.kids** | kids singalongs + animated | **singaloo repo** (`../singaloo`) | host Melody |
@@ -18,7 +24,9 @@ Each finished video gets its channel's subscribe outro appended (see "Subscribe 
 
 > **Before you call any video done: append the subscribe outro.** See
 > "Subscribe outro — MANDATORY on every video" below. Subscriber growth is
-> currently the channel's #1 problem — do not skip this step.
+> currently the channel's #1 problem — do not skip this step. **Always ASK which
+> channel (Black Box Breakdown / mindwired / KickOffDaily90 / DimaagBatti) before
+> rendering** so the right branding + outro are baked in on the first render.
 
 ## The two repos
 
@@ -112,9 +120,10 @@ kickoffdaily90 — must have the matching subscribe outro appended at the very
 end before it counts as "done." This is not optional polish; treat a video as
 incomplete without it.
 
-**The 4 permanent assets** (each hosts talking on camera, Veo-generated,
+**The permanent assets** (each hosts talking on camera, Veo-generated,
 asking directly and sincerely for the subscribe — do not regenerate/reword
-these casually, they were purpose-built and reviewed):
+these casually, they were purpose-built and reviewed). **Confirm the video's
+channel FIRST, then append that channel's matching outro:**
 
 | File | Duration | Aspect | Use on |
 |---|---|---|---|
@@ -122,6 +131,8 @@ these casually, they were purpose-built and reviewed):
 | `assets/subscribe-outro/subscribe_mindwired_short.mp4` | 8.9s | 1080×1920 | every mindwired Short |
 | `assets/subscribe-outro/subscribe_kickoffdaily90_long.mp4` | 17.6s | 1920×1080 | every kickoffdaily90 long-form |
 | `assets/subscribe-outro/subscribe_kickoffdaily90_short.mp4` | 8.9s | 1080×1920 | every kickoffdaily90 Short |
+| `assets/subscribe-outro/subscribe_blackbox_long.mp4` | 16.1s | 1920×1080 | every Black Box Breakdown long-form (host Reid; comp `SubscribeBlackBoxLong`) |
+| _blackbox short — TBD_ | — | 1080×1920 | Black Box Shorts (build when first Short ships) |
 
 These live in `assets/`, not `out/` — `out/` gets bulk-cleared for disk space
 periodically, `assets/` does not. **Never delete `assets/subscribe-outro/`.**
@@ -176,6 +187,10 @@ clips have a fixed ~8s floor).
 - Verify renders: ffprobe duration + extract a mid-video frame and *look at it*
   before declaring done. For WebGL comps also render 2-3 stills of new scenes
   before committing to a full render.
+- **Confirm the target channel BEFORE the first render (Akshay, 2026-07-13).**
+  Theme/wordmark + subscribe outro are per-channel and bake into the render; picking
+  the channel mid-render = a wasted full re-render (this happened once on the
+  Black Box 737 MAX doc). Ask which channel, set `channel` in the doc/plan, render once.
 - **ONE full render per long video (Akshay, 2026-07-12 — don't waste CPU).** When
   building a long comp chapter-by-chapter, verify each new chapter with
   `npx remotion still <Comp> --frame=N` and (if motion/audio needs checking) a tiny

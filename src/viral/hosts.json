@@ -39,5 +39,16 @@
     "elevenVoice": "Brian",
     "voiceDescription": "A quick, hyped male gaming commentator. Internet-native, playful, punchy — leans into reveals like a launch-night stream.",
     "dynamicScale": 1.1
+  },
+  "reid": {
+    "name": "Reid",
+    "niche": "Black Box Breakdown — disaster & catastrophe forensics",
+    "image": "host/reid_wide.png",
+    "sourceImage": "host/reid_wide.png",
+    "imageWide": "host/reid_wide.png",
+    "sourceImageWide": "host/reid_wide.png",
+    "cartesiaVoice": "00d3c951-0474-4b48-814e-ef815f533e63",
+    "voiceDescription": "A calm, credible male documentary presenter and former air-accident investigator. Measured, sincere, authoritative but human — the voice of someone who has read the reports.",
+    "dynamicScale": 1.0
   }
 }

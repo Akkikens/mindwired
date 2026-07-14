@@ -30,12 +30,16 @@ import eastIndiaDoc from "./mindwired-doc/docs/eastindia.json";
 import eastIndiaManifest from "./mindwired-doc/docs/eastindia.manifest.json";
 import atomDeathsDoc from "./mindwired-doc/docs/atomdeaths.json";
 import atomDeathsManifest from "./mindwired-doc/docs/atomdeaths.manifest.json";
+import boeing737maxDoc from "./mindwired-doc/docs/boeing737max.json";
+import boeing737maxManifest from "./mindwired-doc/docs/boeing737max.manifest.json";
+import { SubscribeBlackBoxLong, subscribeBlackBoxFrames } from "./blackbox/SubscribeOutro";
+import { EndOfTimeEpic, endOfTimeTotalFrames } from "./endoftime/EndOfTimeEpic";
 import moonStrandedDoc from "./mindwired-doc/docs/moonstranded.json";
 import moonStrandedManifest from "./mindwired-doc/docs/moonstranded.manifest.json";
 import { WW2Thumb } from "./dimaagbatti/WW2Thumb";
 import { WW2Epic, ww2EpicTotalFrames } from "./dimaagbatti/WW2Epic";
 import { WW2EpicThumb } from "./dimaagbatti/WW2EpicThumb";
-import { WW2EpicEnThumb, SpaceDeathsHiThumb, EastIndiaThumb, AtomDeathsThumb } from "./mindwired-doc/RemakeThumbs";
+import { WW2EpicEnThumb, SpaceDeathsHiThumb, EastIndiaThumb, AtomDeathsThumb, EndOfTimeThumb } from "./mindwired-doc/RemakeThumbs";
 import { HowAIVideo, aiVideoTotalFrames } from "./aivideo/HowAIVideo";
 import { AnimeClash, animeClashFrames } from "./messivssalah/AnimeClash";
 import { AnimeClashV, animeClashVFrames } from "./messivssalah/AnimeClashV";
@@ -640,11 +644,41 @@ export const RemotionRoot: React.FC = () => {
         height={1080}
       />
 
+      {/* ── mindwired — FLAGSHIP: Timelapse of the End of the Universe ── */}
+      <Composition
+        id="EndOfTimeEpic"
+        component={EndOfTimeEpic}
+        durationInFrames={endOfTimeTotalFrames()}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
       {/* ── mindwired — archival documentary: Every Way the Atom Has Killed a Human ── */}
       <Composition
         id="AtomDeathsDoc"
         component={makeDocComp(atomDeathsDoc, atomDeathsManifest)}
         durationInFrames={docTotalFrames(atomDeathsDoc, atomDeathsManifest)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── mindwired — archival documentary: How Boeing Killed 346 People (737 MAX) ── */}
+      <Composition
+        id="Boeing737MaxDoc"
+        component={makeDocComp(boeing737maxDoc, boeing737maxManifest)}
+        durationInFrames={docTotalFrames(boeing737maxDoc, boeing737maxManifest)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Black Box Breakdown — subscribe outro ── */}
+      <Composition
+        id="SubscribeBlackBoxLong"
+        component={SubscribeBlackBoxLong}
+        durationInFrames={subscribeBlackBoxFrames}
         fps={30}
         width={1920}
         height={1080}
@@ -707,6 +741,7 @@ export const RemotionRoot: React.FC = () => {
       <Still id="SpaceDeathsHiThumbDB" component={SpaceDeathsHiThumb} width={1280} height={720} />
       <Still id="EastIndiaThumbDB" component={EastIndiaThumb} width={1280} height={720} />
       <Still id="AtomDeathsThumbMW" component={AtomDeathsThumb} width={1280} height={720} />
+      <Still id="EndOfTimeThumbMW" component={EndOfTimeThumb} width={1280} height={720} />
 
       {/* ── DimaagBatti WW2 — thumbnails ── */}
       <Still id="DimaagBattiWW2ThumbHi" component={WW2Thumb} defaultProps={{ lang: "hi" as const }} width={1280} height={720} />

@@ -1,0 +1,768 @@
+{
+ "slug": "boeing737max",
+ "title": "How Boeing Killed 346 People: The 737 MAX Disaster",
+ "language": "en",
+ "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+ "channel": "blackbox",
+ "scenes": [
+  {
+   "id": "h1",
+   "text": "This is a brand new Boeing 737 MAX. The most advanced version of the best selling airliner in history. This exact aircraft has six weeks left to exist.",
+   "img": "lionair",
+   "stat": "REGISTRATION PK-LQP",
+   "cap": "This exact aircraft has six weeks left."
+  },
+  {
+   "id": "h2",
+   "text": "On the 29th of October, 2018, it will take off from Jakarta, fight its own pilots for 13 minutes, and dive into the Java Sea at nearly 800 kilometers an hour. 189 people.",
+   "img": "lionair",
+   "stat": "189 DEAD",
+   "statColor": "#FF4D4D",
+   "cap": "189 people. Thirteen minutes."
+  },
+  {
+   "id": "h3",
+   "text": "Five months later, a second identical jet will do almost exactly the same thing over Ethiopia. Six minutes after takeoff. 157 more.",
+   "img": "ethiopian",
+   "stat": "157 DEAD",
+   "statColor": "#FF4D4D",
+   "cap": "Five months later. 157 more."
+  },
+  {
+   "id": "h4",
+   "text": "346 people, killed by the same aircraft, in the same way, twice. And here is the part that should frighten you. It was not a freak accident. It was a decision.",
+   "diagram": "counter",
+   "stat": "346 TOTAL",
+   "statColor": "#FF4D4D",
+   "cap": "Not an accident. A decision."
+  },
+  {
+   "id": "h5",
+   "text": "Both planes were brought down by a piece of software the pilots had never heard of. Because Boeing had it deleted from the manuals. Most 737 MAX pilots did not know it existed.",
+   "diagram": "sensor",
+   "cap": "A system the pilots were never told about."
+  },
+  {
+   "id": "h6",
+   "text": "It read the world through a single sensor the size of a small blade. When that one sensor lied, the software pushed the nose of the plane toward the ground. Again, and again, and again.",
+   "diagram": "trimfight",
+   "cap": "One bad sensor. And the nose went down."
+  },
+  {
+   "id": "h7",
+   "text": "This is not a story about a broken machine. It is a story about a company that chose speed over safety, hid what it had done from its own regulator, and got caught only after 346 funerals.",
+   "img": "factory",
+   "cap": "Speed over safety. Then a cover-up."
+  },
+  {
+   "id": "h8",
+   "text": "Boeing's own engineers, in their own messages, described the plane as designed by clowns, who were in turn supervised by monkeys. They were right. This is how it happened.",
+   "diagram": "quote",
+   "arg": "designed by clowns ... supervised by monkeys",
+   "cap": "Their own words. “Designed by clowns.”"
+  },
+  {
+   "id": "t0",
+   "text": "How Boeing killed 346 people.",
+   "chapter": "BLACK BOX\nThe 737 MAX Disaster"
+  },
+  {
+   "id": "c1_t",
+   "text": "Chapter 1. The plane Boeing didn't want to build.",
+   "chapter": "CHAPTER 1\nThe Plane Boeing Didn't Want to Build"
+  },
+  {
+   "id": "a1",
+   "text": "To understand why 346 people died, you have to go back to a boardroom in 2011. And to a threat coming from the other side of the Atlantic.",
+   "img": "boeinghq",
+   "stat": "2011",
+   "cap": "It starts in a boardroom."
+  },
+  {
+   "id": "a2",
+   "text": "For decades, the single aisle passenger jet market was a two horse race. Boeing's 737, and its European rival, the Airbus A320. Boeing had always kept its nose in front.",
+   "img": "airbus",
+   "cap": "A two-horse race: the 737 and the A320."
+  },
+  {
+   "id": "a3",
+   "text": "Then, in December 2010, Airbus played a card Boeing wasn't ready for. The A320neo. Same trusted airframe, but with new, bigger, far more fuel efficient engines bolted on.",
+   "img": "airbus",
+   "stat": "A320neo · DEC 2010",
+   "cap": "Airbus bolted on bigger, greener engines."
+  },
+  {
+   "id": "a4",
+   "text": "For an airline, fuel is the single biggest cost after the aircraft itself. A jet that burns 15 percent less fuel is not a luxury. It is millions of dollars a year, per plane.",
+   "img": "airbus",
+   "cap": "Fuel is an airline's biggest running cost."
+  },
+  {
+   "id": "a5",
+   "text": "Orders poured in for the neo. And then came the blow that changed everything. In July 2011, American Airlines, a loyal Boeing customer for decades, threatened to defect.",
+   "img": "boeinghq",
+   "stat": "JULY 2011",
+   "cap": "Then American Airlines threatened to defect."
+  },
+  {
+   "id": "a6",
+   "text": "American placed a huge order for narrow body jets, and for the first time in a generation, a big chunk of it went to Airbus. Boeing was about to lose one of its biggest customers.",
+   "img": "airbus",
+   "cap": "For the first time, American bought Airbus."
+  },
+  {
+   "id": "a7",
+   "text": "Boeing had been quietly studying a brand new, clean sheet aircraft to replace the aging 737 entirely. The right answer. The expensive answer. It would take a decade.",
+   "img": "factory",
+   "cap": "The right answer would have taken a decade."
+  },
+  {
+   "id": "a8",
+   "text": "Boeing did not have a decade. So on the 30th of August, 2011, the board made the fateful call. No new plane. They would strap bigger engines onto the same 737 they had been flying since the 1960s.",
+   "img": "factory",
+   "stat": "AUGUST 30, 2011",
+   "cap": "Instead: bigger engines on a 1960s airframe."
+  },
+  {
+   "id": "a9",
+   "text": "It would be called the 737 MAX. And it came with a promise to the airlines that would become its original sin. This plane would fly exactly like the old one.",
+   "img": "max8",
+   "cap": "The promise: it flies just like the old one."
+  },
+  {
+   "id": "a10",
+   "text": "Same type rating. That meant an airline's pilots could switch to the MAX with a couple of hours on an iPad. No expensive simulator training. No planes sitting idle. That promise sold jets.",
+   "img": "cockpit",
+   "cap": "Same type rating. No simulator required."
+  },
+  {
+   "id": "a11",
+   "text": "Boeing believed in it so completely that, according to congressional testimony, it promised Southwest Airlines a rebate of one million dollars per aircraft if the MAX ever required simulator training.",
+   "img": "max8",
+   "stat": "$1,000,000 PER PLANE",
+   "cap": "Boeing bet $1 million a plane on “no sim.”"
+  },
+  {
+   "id": "a12",
+   "text": "Hold onto that promise. Because everything Boeing did next, every shortcut, every silence, flows from one commercial commitment. Whatever happens, do not make this plane feel new.",
+   "img": "factory",
+   "cap": "The rule: never let it feel like a new plane."
+  },
+  {
+   "id": "c2_t",
+   "text": "Chapter 2. A bigger engine, and a hidden problem.",
+   "chapter": "CHAPTER 2\nA Bigger Engine, a Hidden Problem"
+  },
+  {
+   "id": "b1",
+   "text": "The whole point of the MAX was its new engines. Bigger, more efficient fans that sip fuel. But bigger engines create a very physical problem. They need somewhere to go.",
+   "img": "max8",
+   "cap": "The new engines needed somewhere to go."
+  },
+  {
+   "id": "b2",
+   "text": "The original 737 was designed to sit low to the ground, back when airports loaded bags by hand. There simply wasn't room under the wing for these fat new engines.",
+   "diagram": "engines",
+   "cap": "The 737 sits famously low to the ground."
+  },
+  {
+   "id": "b3",
+   "text": "So Boeing's engineers moved the engines forward, and mounted them higher up on the wing. It solved the clearance problem. It also quietly changed how the aircraft flew.",
+   "diagram": "engines",
+   "cap": "So they moved the engines forward and up."
+  },
+  {
+   "id": "b4",
+   "text": "At high angles of attack, when the nose is pointed steeply upward, those large nacelles up front generate extra lift of their own. And that lift pushes the nose up even further.",
+   "diagram": "engines",
+   "cap": "At a steep climb, the nose wanted to rise more."
+  },
+  {
+   "id": "b5",
+   "text": "It was a subtle handling quirk, not a design that wanted to crash. But it meant the MAX, in one corner of the flight envelope, did not behave quite like every 737 before it.",
+   "img": "max8",
+   "cap": "A subtle quirk. But it flew a little differently."
+  },
+  {
+   "id": "b6",
+   "text": "And remember the sacred promise. The MAX must feel identical to the old 737, or the whole no simulator deal collapses, and Boeing owes the airlines a fortune.",
+   "img": "cockpit",
+   "cap": "But it had to feel identical. Or else."
+  },
+  {
+   "id": "b7",
+   "text": "So Boeing did not fix the handling with hardware. It papered over it with software. A quiet little program that would sense that nose up tendency and automatically push the nose back down.",
+   "diagram": "trimfight",
+   "cap": "The fix wasn't metal. It was code."
+  },
+  {
+   "id": "b8",
+   "text": "They called it MCAS. The Maneuvering Characteristics Augmentation System. On paper, a minor tweak. In reality, the most dangerous piece of software ever put on a passenger jet.",
+   "diagram": "trimfight",
+   "stat": "MCAS",
+   "cap": "They called it MCAS."
+  },
+  {
+   "id": "c3_t",
+   "text": "Chapter 3. One sensor.",
+   "chapter": "CHAPTER 3\nOne Sensor"
+  },
+  {
+   "id": "d1",
+   "text": "Here is what MCAS actually did. When it thought the nose was too high, it reached into the tail of the aircraft and moved the horizontal stabilizer, forcing the whole nose down.",
+   "diagram": "trimfight",
+   "cap": "MCAS moved the tail to force the nose down."
+  },
+  {
+   "id": "d2",
+   "text": "That is an enormous amount of control authority to hand to an automatic system. And to decide when to fire, MCAS needed to know the plane's angle of attack. How steeply the nose was pointed.",
+   "diagram": "sensor",
+   "cap": "To fire, it needed the plane's angle of attack."
+  },
+  {
+   "id": "d3",
+   "text": "A 737 has two angle of attack sensors, one on each side of the nose. Two, so that if one fails, the other can catch the lie. Basic, life saving redundancy.",
+   "diagram": "sensor",
+   "stat": "2 SENSORS AVAILABLE",
+   "cap": "The plane has two sensors. For a reason."
+  },
+  {
+   "id": "d4",
+   "text": "MCAS, as Boeing designed it, listened to only one of them at a time. Not both. Not a comparison. One vane. One point of failure, feeding a system that could push the nose at the ground.",
+   "diagram": "sensor",
+   "stat": "MCAS USED ONLY 1",
+   "statColor": "#FF4D4D",
+   "cap": "MCAS listened to just one."
+  },
+  {
+   "id": "d5",
+   "text": "A former Boeing engineer would later say that relying on a single sensor for a hazard like this should never have passed. If that one blade froze, or was knocked out of alignment, MCAS would be acting on a lie.",
+   "diagram": "sensor",
+   "cap": "One frozen blade, and MCAS believes a lie."
+  },
+  {
+   "id": "d6",
+   "text": "It got worse. In the original safety analysis, MCAS could nudge the stabilizer by about zero point six degrees at a time. A gentle correction. That is what regulators reviewed.",
+   "diagram": "authority",
+   "stat": "0.6°",
+   "cap": "On paper, a gentle 0.6 degrees."
+  },
+  {
+   "id": "d7",
+   "text": "But during flight testing, Boeing found the plane needed more. So it increased MCAS's power to 2.5 degrees per activation. More than four times stronger. And that change was not put back through the full safety review.",
+   "diagram": "authority",
+   "stat": "2.5° — 4× STRONGER",
+   "statColor": "#FF4D4D",
+   "cap": "In the real plane: four times stronger."
+  },
+  {
+   "id": "d8",
+   "text": "And it could do it over and over. Every time a pilot corrected the trim, MCAS, still fed by that one bad sensor, would wait a few seconds and fire again. Stacking nose down commands toward the limit.",
+   "diagram": "trimfight",
+   "cap": "And it re-fired. Every few seconds."
+  },
+  {
+   "id": "d9",
+   "text": "So picture the trap Boeing had built. A single wrong reading, from a single unguarded sensor, could trigger a hidden system, at four times its reviewed strength, that shoves the nose down relentlessly.",
+   "diagram": "trimfight",
+   "cap": "A trap. Built one shortcut at a time."
+  },
+  {
+   "id": "d10",
+   "text": "Any pilot could beat it, in theory, if they knew it was there. Flip two switches, cut the power to the trim, and MCAS dies. But that only works if you know MCAS exists at all.",
+   "img": "cockpit",
+   "cap": "You could beat it. If you knew it was there."
+  },
+  {
+   "id": "c4_t",
+   "text": "Chapter 4. Deleted from the manual.",
+   "chapter": "CHAPTER 4\nDeleted From the Manual"
+  },
+  {
+   "id": "e1",
+   "text": "This is where the engineering failure becomes something uglier. Because Boeing made a choice about what to tell the people who would fly the plane. And the people who had to approve it.",
+   "img": "housereport",
+   "cap": "Now the story stops being about engineering."
+  },
+  {
+   "id": "e2",
+   "text": "If pilots had to learn a whole new automatic system, regulators might demand simulator training. That would break the sacred promise, and cost Boeing that million dollars a plane. So MCAS had to stay invisible.",
+   "img": "cockpit",
+   "cap": "Teaching MCAS meant sim training. Unacceptable."
+  },
+  {
+   "id": "e3",
+   "text": "At Boeing's request, according to the U.S. House investigation, references to MCAS were removed from the flight crew manuals. The one system that could kill them, edited out of the pilots' own books.",
+   "img": "housereport",
+   "stat": "MCAS DELETED FROM MANUALS",
+   "statColor": "#FF4D4D",
+   "cap": "It was edited out of the pilots' manuals."
+  },
+  {
+   "id": "e4",
+   "text": "The man managing Boeing's dealings with the regulator on pilot training was chief technical pilot Mark Forkner. In 2016, testing MCAS in a simulator, he wrote to a colleague that it was, quote, running rampant.",
+   "diagram": "quote",
+   "arg": "It's running rampant in the sim on me",
+   "cap": "“Running rampant in the sim on me.”"
+  },
+  {
+   "id": "e5",
+   "text": "Granted, he added, I suck at flying. But even this was egregious. Messages that would, years later, be read aloud to the world as evidence of how much Boeing knew, and how early.",
+   "diagram": "quote",
+   "arg": "even this was egregious",
+   "cap": "“But even this was egregious.”"
+  },
+  {
+   "id": "e6",
+   "text": "In the same exchange, Forkner talked about having, in effect, jedi mind tricked the regulators into accepting less pilot training. It is one of the most damning sentences in modern corporate history.",
+   "diagram": "quote",
+   "arg": "so I basically lied to the regulators (unknowingly)",
+   "cap": "He bragged about “jedi mind tricking” regulators."
+  },
+  {
+   "id": "e7",
+   "text": "One crucial caveat, and we will hold Boeing to the truth here. Forkner's defense was that he was describing a glitchy simulator, not the real plane, and that Boeing's own engineers had kept him in the dark about MCAS's expanded power.",
+   "img": "cockpit",
+   "cap": "His defense: he too was kept in the dark."
+  },
+  {
+   "id": "e8",
+   "text": "A jury would later agree, and acquit him. Which raises a darker question. If the man handling the regulator didn't fully understand MCAS either, then who, exactly, was in control of this airplane?",
+   "img": "cockpit",
+   "cap": "A jury acquitted him. So who was in control?"
+  },
+  {
+   "id": "e9",
+   "text": "And how did this get approved at all? Because of an arrangement between Boeing and the FAA. Under a program called ODA, Boeing employees were deputized to certify Boeing's own aircraft on the regulator's behalf.",
+   "img": "faa",
+   "stat": "SELF-CERTIFICATION",
+   "cap": "Boeing was allowed to certify itself."
+  },
+  {
+   "id": "e10",
+   "text": "The House committee found this created inherent conflicts of interest, and that Boeing repeatedly failed to pass critical information about MCAS up to the FAA. The watchdog was, in part, the company it was watching.",
+   "img": "housereport",
+   "cap": "The watchdog was partly the company itself."
+  },
+  {
+   "id": "e11",
+   "text": "So the plane went into service. Hidden system. Single sensor. Quadrupled power. No mention in the manual. Pilots who had never heard its name. Every safety net, quietly cut, to protect a promise.",
+   "img": "max8",
+   "cap": "Every safety net, cut to protect a promise."
+  },
+  {
+   "id": "e12",
+   "text": "By 2018, more than 200 of these aircraft were in the sky, carrying tens of thousands of people a day. The trap was set, and boarding passengers. All it needed was one bad sensor.",
+   "img": "max8",
+   "cap": "The trap was set. And selling tickets."
+  },
+  {
+   "id": "c5_t",
+   "text": "Chapter 5. Lion Air 610.",
+   "chapter": "CHAPTER 5\nLion Air 610"
+  },
+  {
+   "id": "f1",
+   "text": "Jakarta, Indonesia. The aircraft is the one we met at the start. A nearly new 737 MAX 8, registration PK-LQP, flown by the low cost carrier Lion Air.",
+   "img": "lionair",
+   "stat": "LION AIR · PK-LQP",
+   "cap": "A nearly new MAX 8, flown by Lion Air."
+  },
+  {
+   "id": "f2",
+   "text": "Its left angle of attack sensor had recently been replaced. The replacement, later traced to a repair shop in Florida, was miscalibrated. It read about 21 degrees too high. Permanently.",
+   "diagram": "sensor",
+   "stat": "SENSOR OFF BY ~21°",
+   "statColor": "#FF4D4D",
+   "cap": "The new sensor read 21 degrees too high."
+  },
+  {
+   "id": "f3",
+   "text": "Here is the fact that should have grounded the plane. The day before the crash, the very same aircraft, with the very same fault, nearly went down on a flight to Jakarta.",
+   "img": "lionair",
+   "stat": "THE DAY BEFORE",
+   "cap": "The day before, it nearly crashed already."
+  },
+  {
+   "id": "f4",
+   "text": "MCAS activated on that flight too, shoving the nose down over and over. That crew was baffled. They were saved by luck, in the form of a third pilot.",
+   "diagram": "trimfight",
+   "cap": "MCAS attacked that flight too."
+  },
+  {
+   "id": "f5",
+   "text": "An off duty pilot happened to be riding in the jump seat, watching. He recognized the runaway trim, and told the crew to cut the power to the stabilizer. The exact switches that kill MCAS. The plane landed safely.",
+   "img": "cockpit",
+   "cap": "An off-duty pilot in the jump seat saved them."
+  },
+  {
+   "id": "f6",
+   "text": "A plane had nearly killed a full load of passengers. It was written up, cleared, and sent back out to fly again the next morning. The trap reset itself overnight.",
+   "img": "lionair",
+   "cap": "It was cleared and sent back out the next morning."
+  },
+  {
+   "id": "f7",
+   "text": "October 29, 2018. 6:20 in the morning. Flight 610 lifts off from Jakarta, bound for the island of Bangka. 189 people on board. Two pilots who have never heard the word MCAS.",
+   "img": "lionair",
+   "stat": "OCTOBER 29, 2018 · 6:20 AM",
+   "cap": "189 aboard. Neither pilot knew MCAS existed."
+  },
+  {
+   "id": "f8",
+   "text": "The moment the flaps come up, MCAS wakes. Fed by that one broken sensor, it believes the nose is dangerously high. It is not. And it begins to push the nose down.",
+   "diagram": "trimfight",
+   "cap": "Flaps up. MCAS wakes. And pushes."
+  },
+  {
+   "id": "f9",
+   "text": "The captain pulls back. MCAS pushes. He trims up. MCAS waits five seconds, and pushes again. A tug of war between a confused man and a hidden machine that will not stop, and will not explain itself.",
+   "diagram": "trimfight",
+   "cap": "A tug-of-war he didn't know he was fighting."
+  },
+  {
+   "id": "f10",
+   "text": "The flight data recorder captured the whole silent battle. More than 20 times, MCAS commanded the nose down. More than 20 times, the crew hauled it back. For over ten minutes.",
+   "diagram": "porpoise",
+   "stat": "MCAS FIRED 20+ TIMES",
+   "statColor": "#FF4D4D",
+   "cap": "More than 20 times. For ten minutes."
+  },
+  {
+   "id": "f11",
+   "text": "They radioed for the plane's altitude and speed to be confirmed. They flipped through manuals that did not contain the one word that would have saved them. They were fighting a ghost.",
+   "img": "cockpit",
+   "cap": "They searched manuals for a word that wasn't there."
+  },
+  {
+   "id": "f12",
+   "text": "The captain, at one point, handed control to the first officer while he searched the handbook. The first officer's corrections were weaker. The nose won more ground with each cycle.",
+   "diagram": "porpoise",
+   "cap": "Each cycle, the nose won a little more."
+  },
+  {
+   "id": "f13",
+   "text": "Thirteen minutes after takeoff, on the twenty somethingth push, the aircraft rolled into a dive it could not recover from. It hit the Java Sea at around 800 kilometers an hour.",
+   "img": "lionair",
+   "cap": "Thirteen minutes. Then the dive."
+  },
+  {
+   "id": "f14",
+   "text": "There were no survivors. 189 men, women and children, killed by a system they were never told existed, reading a sensor no one had checked. Boeing's response would decide whether it happened again.",
+   "img": "lionair",
+   "stat": "189 DEAD",
+   "statColor": "#FF4D4D",
+   "cap": "No survivors. 189 gone."
+  },
+  {
+   "id": "c6_t",
+   "text": "Chapter 6. Five months.",
+   "chapter": "CHAPTER 6\nFive Months"
+  },
+  {
+   "id": "g1",
+   "text": "In the days after Lion Air, investigators pulled the flight data and found MCAS, fighting the crew. For most of the world's pilots, this was the first time they had ever heard the name.",
+   "img": "housereport",
+   "cap": "The world's pilots met MCAS from a crash report."
+  },
+  {
+   "id": "g2",
+   "text": "Pilots were furious. American Airlines' pilot union confronted Boeing directly, demanding to know why they had never been told about a system that could override them. The answers did not reassure them.",
+   "img": "cockpit",
+   "cap": "Pilots demanded to know why they weren't told."
+  },
+  {
+   "id": "g3",
+   "text": "Boeing issued a bulletin. It did not name MCAS as the villain. It reminded pilots of the existing procedure for runaway trim. Cut the switches. In effect, cope with our hidden system, using a checklist for a different problem.",
+   "img": "housereport",
+   "cap": "The fix: a checklist for a different problem."
+  },
+  {
+   "id": "g4",
+   "text": "Crucially, the MAX kept flying. Regulators around the world, led by the FAA, did not ground it. Boeing's public message was steady and confident. The airplane is safe.",
+   "img": "faa",
+   "cap": "The FAA didn't ground it. “The plane is safe.”"
+  },
+  {
+   "id": "g5",
+   "text": "But behind the confidence, Boeing's own internal analysis after Lion Air reportedly showed the risk was not a one off. Without a fix, another MCAS accident was a mathematical near certainty over the fleet's life.",
+   "img": "housereport",
+   "stat": "ANOTHER CRASH WAS LIKELY",
+   "statColor": "#FF4D4D",
+   "cap": "Internally, they knew another was likely."
+  },
+  {
+   "id": "g6",
+   "text": "A software fix was coming. Boeing said so. But it slipped. Weeks became months. The update to make MCAS read both sensors, and lose its relentless power, was still not on the planes.",
+   "diagram": "sensor",
+   "cap": "The fix was coming. It kept slipping."
+  },
+  {
+   "id": "g7",
+   "text": "Every day of that delay, hundreds of MAX aircraft took off with the same single sensor, the same hidden system, and now, crews who at least had a bulletin. It would not be enough.",
+   "img": "max8",
+   "cap": "Every day of delay, the fleet kept flying."
+  },
+  {
+   "id": "g8",
+   "text": "Five months and ten days after Lion Air, on the other side of the Indian Ocean, a second brand new MAX pushed its throttles forward with a full load of passengers. And a sensor about to fail.",
+   "img": "ethiopian",
+   "cap": "Five months later. A second full flight."
+  },
+  {
+   "id": "c7_t",
+   "text": "Chapter 7. Ethiopian 302.",
+   "chapter": "CHAPTER 7\nEthiopian 302"
+  },
+  {
+   "id": "k1",
+   "text": "Addis Ababa, Ethiopia. March 10, 2019. This is the aircraft, registration ET-AVJ, photographed a month earlier taking off. Ethiopian Airlines Flight 302, bound for Nairobi. 157 people aboard.",
+   "img": "ethiopian",
+   "stat": "MARCH 10, 2019",
+   "cap": "Ethiopian 302. Bound for Nairobi. 157 aboard."
+  },
+  {
+   "id": "k2",
+   "text": "This crew knew more than the Lion Air pilots ever did. They had read about MCAS. They knew the bulletin. The captain was experienced. They had, in theory, everything they needed.",
+   "img": "cockpit",
+   "cap": "This crew knew about MCAS. In theory."
+  },
+  {
+   "id": "k3",
+   "text": "Seconds after takeoff, the left angle of attack sensor failed. Investigators believe it may have been struck by a bird. Whatever the cause, it began feeding the same lethal lie. The nose is too high.",
+   "diagram": "sensor",
+   "cap": "Seconds up, the left sensor failed."
+  },
+  {
+   "id": "k4",
+   "text": "MCAS activated, exactly as it had over Java. It drove the stabilizer, forcing the nose down, into the ground the aircraft had just left. The crew recognized it, and did what Boeing told them to do.",
+   "diagram": "trimfight",
+   "cap": "MCAS fired. The crew ran the procedure."
+  },
+  {
+   "id": "k5",
+   "text": "They cut the electrical power to the stabilizer trim. The switches. The move that had saved that other flight. MCAS went silent. For a moment, it looked like the bulletin had worked.",
+   "img": "cockpit",
+   "cap": "They hit the cutout switches. MCAS went quiet."
+  },
+  {
+   "id": "k6",
+   "text": "But they were trapped by physics Boeing's bulletin never explained. In the chaos, they had left the engines near full takeoff power. The plane was accelerating, faster and faster, low to the ground.",
+   "diagram": "porpoise",
+   "cap": "But they were flying dangerously fast."
+  },
+  {
+   "id": "k7",
+   "text": "By cutting the electric trim, they had also lost the easy way to correct the nose down MCAS had already dialed in. Their only option was the manual trim wheel. Turned by hand.",
+   "img": "cockpit",
+   "cap": "Now the only fix was a hand-cranked wheel."
+  },
+  {
+   "id": "k8",
+   "text": "And here the trap closed. At that speed, the aerodynamic forces on the tail were so violent that the manual wheel would barely move. The two pilots could not physically turn it. The plane was pointed down.",
+   "diagram": "porpoise",
+   "stat": "THE WHEEL WOULDN'T TURN",
+   "statColor": "#FF4D4D",
+   "cap": "At that speed, the wheel would not move."
+  },
+  {
+   "id": "k9",
+   "text": "This manual trim problem had been known about for decades. The technique for it had quietly been dropped from 737 training long ago. These pilots had never been taught the one thing that might have saved them.",
+   "img": "housereport",
+   "cap": "The technique had been cut from training years before."
+  },
+  {
+   "id": "k10",
+   "text": "Desperate, running out of altitude, the crew made a terrible, understandable choice. To regain any control of the trim, they switched the electric power back on. Which woke MCAS one final time.",
+   "diagram": "trimfight",
+   "cap": "To regain control, they switched the power back on."
+  },
+  {
+   "id": "k11",
+   "text": "It fired again, and drove the nose down for the last time. Six minutes after takeoff, Flight 302 hit a field near the town of Bishoftu at enormous speed, leaving a crater in the earth.",
+   "img": "ethiopian",
+   "stat": "6 MINUTES",
+   "statColor": "#FF4D4D",
+   "cap": "Six minutes from takeoff to the crater."
+  },
+  {
+   "id": "k12",
+   "text": "157 people from 35 different countries died. Among them were students, aid workers, and 19 people traveling to a United Nations environmental conference. A second full aircraft, gone the same way.",
+   "img": "ethiopian",
+   "stat": "157 DEAD · 35 COUNTRIES",
+   "statColor": "#FF4D4D",
+   "cap": "157 people. 35 nations."
+  },
+  {
+   "id": "k13",
+   "text": "The two crashes were not identical. Investigators noted differences in how each crew responded, and the reports listed many contributing factors. But the spine of both was the same. One sensor. One hidden system. One relentless push.",
+   "diagram": "trimfight",
+   "cap": "Different crews. The same trap."
+  },
+  {
+   "id": "k14",
+   "text": "This time, the world did not wait for Boeing. Within days, one country after another slammed its airspace shut to the 737 MAX. And the country that had built it was, humiliatingly, one of the last to act.",
+   "img": "grounded",
+   "cap": "This time, the world grounded it. Fast."
+  },
+  {
+   "id": "c8_t",
+   "text": "Chapter 8. The reckoning.",
+   "chapter": "CHAPTER 8\nThe Reckoning"
+  },
+  {
+   "id": "m1",
+   "text": "On March 13, 2019, the FAA finally grounded the 737 MAX. Every one of them, worldwide. It would be the longest grounding of an airliner in the history of American aviation.",
+   "img": "grounded",
+   "stat": "GROUNDED · MARCH 13, 2019",
+   "cap": "The longest airliner grounding in U.S. history."
+  },
+  {
+   "id": "m2",
+   "text": "For 20 months, the world's best selling jet sat still. Rows of them parked in deserts and on employee car parks, wings gathering dust, worth hundreds of millions of dollars, going nowhere.",
+   "img": "grounded",
+   "stat": "20 MONTHS",
+   "cap": "20 months. Parked in deserts and car parks."
+  },
+  {
+   "id": "m3",
+   "text": "The financial damage to Boeing was staggering. By the company's own accounting, the disaster cost around 20 billion dollars directly. Broader estimates of the total damage run to 60 billion and beyond.",
+   "img": "boeinghq",
+   "stat": "~$20 BILLION DIRECT",
+   "cap": "Around $20 billion, directly. Far more indirectly."
+  },
+  {
+   "id": "m4",
+   "text": "Then came the reckoning in public. In October 2019, Boeing's chief executive, Dennis Muilenburg, was hauled before the United States Congress to answer for the dead, on the anniversary of Lion Air.",
+   "img": "housereport",
+   "stat": "OCTOBER 2019",
+   "cap": "The CEO was hauled before Congress."
+  },
+  {
+   "id": "m5",
+   "text": "Behind him sat the families, holding photographs of the people they had lost. He was forced to confirm, out loud, the internal messages. Including engineers calling their own aircraft designed by clowns.",
+   "diagram": "quote",
+   "arg": "This airplane is designed by clowns, who are in turn supervised by monkeys",
+   "cap": "Families held photos as the messages were read."
+  },
+  {
+   "id": "m6",
+   "text": "In December 2019, Muilenburg was fired. He received no severance payout, and forfeited tens of millions in bonuses and unvested stock. A real financial penalty. But hold that word, penalty, for a second.",
+   "img": "boeinghq",
+   "stat": "FIRED · DEC 2019",
+   "cap": "The CEO was fired. No severance."
+  },
+  {
+   "id": "m7",
+   "text": "Because even with no severance, Dennis Muilenburg walked away from Boeing with roughly 62 million dollars in stock and pension benefits he had already earned. 62 million dollars. 346 dead.",
+   "img": "boeinghq",
+   "stat": "~$62 MILLION",
+   "statColor": "#FF4D4D",
+   "cap": "He still left with about $62 million."
+  },
+  {
+   "id": "m8",
+   "text": "In January 2021, the United States Department of Justice settled with Boeing. The company was charged with one count of conspiracy to defraud the United States. Specifically, deceiving the FAA about MCAS.",
+   "img": "housereport",
+   "stat": "DOJ · JANUARY 2021",
+   "cap": "Boeing: charged with defrauding the FAA."
+  },
+  {
+   "id": "m9",
+   "text": "The total came to 2.5 billion dollars. But look at how it broke down. 1.77 billion to compensate airline customers. 244 million as the actual criminal fine. And 500 million for the families of all 346 victims.",
+   "img": "boeinghq",
+   "stat": "$2.5 BILLION SETTLEMENT",
+   "cap": "$2.5 billion. Most of it to airlines."
+  },
+  {
+   "id": "m10",
+   "text": "Do that division. 500 million dollars, split among 346 lost lives. The families themselves pointed out what the numbers said. That a customer's inconvenience was priced higher than their child.",
+   "diagram": "counter",
+   "stat": "$500M ÷ 346",
+   "statColor": "#FF4D4D",
+   "cap": "The victims' fund was the smallest slice."
+  },
+  {
+   "id": "m11",
+   "text": "And the question everyone asks. Did anyone go to prison? Not a single Boeing executive was criminally charged. The company paid. No leader of it was jailed.",
+   "img": "faa",
+   "stat": "0 EXECUTIVES CHARGED",
+   "statColor": "#FF4D4D",
+   "cap": "Not one executive was charged."
+  },
+  {
+   "id": "m12",
+   "text": "The only individual ever criminally charged was Mark Forkner, the technical pilot. And in 2022, a jury acquitted him in under two hours, accepting that he too had been left in the dark by the company.",
+   "img": "housereport",
+   "cap": "The only man charged was acquitted in two hours."
+  },
+  {
+   "id": "m13",
+   "text": "So the tally of individual human accountability for 346 deaths, in a court of law, came to exactly zero people. The corporation absorbed the blame, wrote a check, and moved on.",
+   "img": "housereport",
+   "cap": "Human accountability, in court: zero."
+  },
+  {
+   "id": "m14",
+   "text": "And here is the epilogue that tells you whether the lesson was learned. In January 2024, a door plug blew off a 737 MAX 9 in mid air over Oregon. Bolts had been left out at the factory.",
+   "img": "grounded",
+   "stat": "JANUARY 2024",
+   "cap": "Then, in 2024, a door blew off a MAX in flight."
+  },
+  {
+   "id": "m15",
+   "text": "By sheer luck, no one was sitting next to the hole, and no one died. But the Justice Department found the incident meant Boeing had violated the very settlement meant to reform it. The problem was never just MCAS.",
+   "img": "boeinghq",
+   "cap": "It had broken the deal meant to reform it."
+  },
+  {
+   "id": "c9_t",
+   "text": "Chapter 9. The real cause.",
+   "chapter": "CHAPTER 9\nThe Real Cause"
+  },
+  {
+   "id": "z1",
+   "text": "It is tempting to blame MCAS. A bad piece of software. A cheap sensor. But software does not have ambition. Sensors do not cut corners. Every fatal decision in this story was made by people, under pressure to protect a promise.",
+   "diagram": "trimfight",
+   "cap": "The software didn't have ambition. People did."
+  },
+  {
+   "id": "z2",
+   "text": "The pressure not to trigger simulator training. The choice to hide MCAS from pilots. The decision to trust a single sensor. The quadrupling of its power without review. The five month delay while the fleet flew.",
+   "diagram": "sensor",
+   "cap": "Every link in the chain was a human choice."
+  },
+  {
+   "id": "z3",
+   "text": "None of those, on their own, feels like a decision to kill 346 people. That is exactly how these disasters work. No villain twirling a moustache. Just a hundred small choices, each one putting a schedule ahead of a stranger's life.",
+   "img": "factory",
+   "cap": "No single villain. A hundred small choices."
+  },
+  {
+   "id": "z4",
+   "text": "Boeing was once an engineering company run by engineers, famous for a culture where anyone could stop the line for safety. Critics say that by 2018, it had become something else. A finance company that happened to build planes.",
+   "img": "factory",
+   "cap": "An engineering firm that became a finance firm."
+  },
+  {
+   "id": "z5",
+   "text": "The 737 MAX flies again today. It has been fixed. MCAS now reads both sensors, has limited power, and cannot fire relentlessly. The plane is, by the numbers, safe. The people it killed are still gone.",
+   "img": "max8",
+   "cap": "The plane flies again. Fixed. The dead don't."
+  },
+  {
+   "id": "z6",
+   "text": "346 empty seats. Two craters. A single sensor, and a company that chose speed. Remember their names the next time someone tells you that a corporation would never cut a corner that could cost a life.",
+   "diagram": "counter",
+   "stat": "346 NAMES",
+   "statColor": "#FF4D4D",
+   "cap": "346 empty seats. Remember why."
+  },
+  {
+   "id": "z7",
+   "text": "If this story got its hooks into you, subscribe to Black Box. We take the biggest disasters in history apart, piece by piece, to show you the decisions hiding inside them. Because the truth is always in the details.",
+   "img": "max8",
+   "cap": "Subscribe to Black Box."
+  }
+ ]
+}
