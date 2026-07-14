@@ -100,3 +100,23 @@ All animated engineering diagrams original to mindwired.
 - KNKT (Indonesia) Lion Air 610 final report; Ethiopian AIB ET302 final report
 - DOT Office of Inspector General; U.S. DOJ Deferred Prosecution Agreement (Jan 2021)
 - Seattle Times / Dominic Gates reporting on MCAS
+
+## Shorts (4 — files blackbox_737max_short1-4.mp4, post 1/day in order 1→3→4→2)
+S1 (55s) TITLE: 189 people. 13 minutes. And it happened twice. #boeing #737max
+  DESC: A brand new Boeing 737 MAX fought its own pilots for 13 minutes — then
+  it happened again 5 months later. The full 26-minute breakdown of how Boeing
+  killed 346 people is on the channel. #aviation #planecrash #documentary
+S2 (61s) TITLE: The 737 MAX had a hidden problem Boeing papered over with software #boeing
+  DESC: Bigger engines, mounted higher and further forward — and a plane that
+  pitched up when it shouldn't. Boeing's fix wasn't hardware. It was a line of
+  code called MCAS. Full breakdown on the channel. #737max #mcas #aviation #engineering
+S3 (58s) TITLE: Boeing deleted MCAS from the pilot manuals. On purpose. #boeing #737max
+  DESC: "I basically lied to the regulators (unknowingly)." — actual internal
+  Boeing message. The system that would kill 346 people wasn't in the manual,
+  and pilots never knew it existed. Full story on the channel.
+  #aviation #corporategreed #documentary
+S4 (57s) TITLE: 346 people died. Nobody went to prison. #boeing #737max
+  DESC: $500 million split among 346 families. $1.7 billion back to Boeing's
+  own customers. One acquitted test pilot. Do the math on what a life cost.
+  The full reckoning is on the channel. #aviation #justice #truestory #documentary
+Pinned comment on each: link to the full video. First 3 hashtags display.
