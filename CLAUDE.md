@@ -67,6 +67,34 @@ One-off cinematic comps (orbit, attractor, gtavi, scariest). Shared primitives i
 (theme.ts palette + fonts, manifest.ts word-timing helpers). Only build one of these
 when the topic needs bespoke visuals the engines can't produce; prefer the engines.
 
+## Black Box Breakdown — Evidence Engine (LIVE 2026-07-13)
+
+Full episode runbook: **BLACKBOX-PIPELINE-SPEC.md** (read it before any Black
+Box episode). The channel's signature capability:
+
+- `scripts/fetch_ntsb_docket.py "<accident>" --types audio,pdf,image [--faa-audio]`
+  — real ATC audio, CVR transcripts, photos from NTSB/FAA dockets (US-gov
+  public domain) → `public/shorts/_evidence/<slug>/` + SOURCES.md. Source
+  ranking in `scripts/SOURCES-GUIDE.md` (NTSB→FAA→archive.org; LiveATC only
+  with permission).
+- `scripts/radio_recreate.py <slug>` — scenes with a `speaker` field become
+  radio-EQ'd Cartesia recreations (run BEFORE build_doc_vo.py).
+- DocWide `RadioScene` (scene has speaker/timestamp/radioLabel): waveform +
+  transcript beat. **HONESTY RULE: "ACTUAL ATC RECORDING" only for real docket
+  audio; recreations are labeled "CVR RECREATION". Never mislabel; never use
+  leaked CVR audio.** Reference comp: `RadioTest` (US1549).
+- The gov-docket evidence pattern also serves the other channels: NTSB covers
+  maritime/rail/pipeline too; NASA mishap reports/mission audio (PD) for
+  mindwired space docs; IAEA/NRC for nuclear; congressional/court records for
+  DimaagBatti. Same labeling rule everywhere.
+- US1549 ("Miracle on the Hudson") evidence is already fetched and is a
+  validated future episode.
+
+**Packaging standard (every title/description request):** full-SEO package by
+default — title+A/B, big searchable description, parser-safe chapters, ~495-char
+tags, 15 hashtags, pinned comment, category/license lines; Shorts sets get one
+search-query cluster each. Reference: METADATA-boeing737max.md.
+
 ## Voice / TTS (shared rules)
 
 - Priority: **Hume Octave** (expressive, per-tone acting directions) → **ElevenLabs**
