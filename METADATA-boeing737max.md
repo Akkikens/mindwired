@@ -101,22 +101,95 @@ All animated engineering diagrams original to mindwired.
 - DOT Office of Inspector General; U.S. DOJ Deferred Prosecution Agreement (Jan 2021)
 - Seattle Times / Dominic Gates reporting on MCAS
 
-## Shorts (4 — files blackbox_737max_short1-4.mp4, post 1/day in order 1→3→4→2)
-S1 (55s) TITLE: 189 people. 13 minutes. And it happened twice. #boeing #737max
-  DESC: A brand new Boeing 737 MAX fought its own pilots for 13 minutes — then
-  it happened again 5 months later. The full 26-minute breakdown of how Boeing
-  killed 346 people is on the channel. #aviation #planecrash #documentary
-S2 (61s) TITLE: The 737 MAX had a hidden problem Boeing papered over with software #boeing
-  DESC: Bigger engines, mounted higher and further forward — and a plane that
-  pitched up when it shouldn't. Boeing's fix wasn't hardware. It was a line of
-  code called MCAS. Full breakdown on the channel. #737max #mcas #aviation #engineering
-S3 (58s) TITLE: Boeing deleted MCAS from the pilot manuals. On purpose. #boeing #737max
-  DESC: "I basically lied to the regulators (unknowingly)." — actual internal
-  Boeing message. The system that would kill 346 people wasn't in the manual,
-  and pilots never knew it existed. Full story on the channel.
-  #aviation #corporategreed #documentary
-S4 (57s) TITLE: 346 people died. Nobody went to prison. #boeing #737max
-  DESC: $500 million split among 346 families. $1.7 billion back to Boeing's
-  own customers. One acquitted test pilot. Do the math on what a life cost.
-  The full reckoning is on the channel. #aviation #justice #truestory #documentary
-Pinned comment on each: link to the full video. First 3 hashtags display.
+## Shorts (4 — files blackbox_737max_short1-4.mp4, post 1/day, order 1→3→4→2)
+(First 3 hashtags display above title. Pinned comment on each links the full video.
+Tags go in Studio's tag field. Descriptions are search-targeted — Shorts DO rank
+in search for these queries.)
+
+### SHORT 1 (55s) — the cold open
+TITLE: 189 people. 13 minutes. And it happened twice. #boeing #737max #planecrash
+DESCRIPTION:
+The Boeing 737 MAX crash explained in under a minute. On October 29, 2018,
+Lion Air Flight 610 took off from Jakarta — a brand new Boeing 737 MAX 8. For
+13 minutes the pilots fought their own aircraft as an automated system called
+MCAS forced the nose down more than 20 times, before the plane hit the Java
+Sea at nearly 800 km/h. 189 people died. Five months later, Ethiopian Airlines
+Flight 302 crashed the same way — 157 more. Two identical crashes, 346 deaths,
+one hidden software system, and a single faulty angle of attack sensor.
+
+Watch the full 26-minute Black Box Breakdown documentary on the channel: how
+Boeing built the MAX, why MCAS existed, what Boeing knew, and why nobody went
+to prison.
+
+New disaster breakdown every week. Subscribe so you don't miss the next one.
+#aviationdisaster #lionair #ethiopianairlines #mcas #aviation #documentary
+#planecrashexplained #boeing737max #aircrashinvestigation #truestory #shorts #avgeek
+TAGS: boeing 737 max,737 max crash,lion air 610,lion air crash,ethiopian airlines 302,boeing 737 max crash explained,mcas,mcas explained,plane crash shorts,aviation disaster,air crash investigation,boeing scandal,737 max grounding,angle of attack sensor,plane crash explained,why did the 737 max crash,jakarta plane crash,boeing documentary,aviation shorts,black box breakdown,plane crash story,346 people,boeing crash,flight 610,flight 302
+PINNED: The full 26-minute breakdown — how Boeing built a plane that fought its
+own pilots — is on the channel. Which detail shocked you most?
+
+### SHORT 2 (61s) — the engineering flaw
+TITLE: The 737 MAX had a hidden problem. Boeing fixed it with a lie. #boeing #mcas #737max
+DESCRIPTION:
+Why did the Boeing 737 MAX crash? It starts with engines. To compete with the
+Airbus A320neo, Boeing strapped bigger, more efficient engines onto a 50-year-old
+airframe that sat low to the ground. The engines had to move forward and up —
+and that changed how the plane flew. At high angles of attack the MAX pitched
+up when it shouldn't. Instead of fixing the aerodynamics with hardware, Boeing
+papered over it with software: MCAS, the Maneuvering Characteristics
+Augmentation System — a hidden system with the authority to push the nose down,
+again and again, listening to a single sensor.
+
+The full 26-minute documentary on the channel covers what happened when that
+sensor failed — twice.
+
+New disaster breakdown every week. Subscribe.
+#aviationdisaster #engineering #boeing737max #aviation #documentary #avgeek
+#planecrashexplained #airbus #aerospace #truestory #corporategreed #shorts
+TAGS: boeing 737 max,mcas explained,mcas system,why did the 737 max crash,boeing 737 max problem,737 max engines,boeing vs airbus,a320neo,aircraft design,aviation engineering,boeing 737 history,angle of attack,plane crash explained,aviation disaster,air crash investigation,boeing scandal,737 max flaw,aerodynamics explained,black box breakdown,boeing documentary,hidden system,flight software,aviation shorts,engineering disaster
+PINNED: Boeing's own engineers flagged the single-sensor design. The full story
+of what happened next is on the channel.
+
+### SHORT 3 (58s) — the cover-up
+TITLE: Boeing deleted this system from the pilot manuals. On purpose. #boeing #737max #aviation
+DESCRIPTION:
+Boeing removed almost every mention of MCAS — the system that would kill 346
+people — from the 737 MAX pilot manuals. Why? Money. If pilots needed simulator
+training for the new system, the MAX would lose its biggest selling point: that
+any 737 pilot could fly it after a short iPad course. Boeing's chief technical
+pilot wrote in internal messages about "jedi mind tricking" regulators, and
+later: "I basically lied to the regulators (unknowingly)." Pilots flying the
+MAX had no idea MCAS existed — until it activated on a faulty sensor over the
+Java Sea.
+
+The full Black Box Breakdown documentary covers the internal messages, the FAA
+delegation system that let Boeing certify itself, and the two crashes that
+followed. Watch it on the channel.
+
+New disaster breakdown every week. Subscribe.
+#corporategreed #aviationdisaster #boeingscandal #documentary #truestory
+#planecrashexplained #mcas #faa #aviation #darkhistory #shorts #avgeek
+TAGS: boeing 737 max,mcas,deleted from the manual,boeing cover up,mark forkner,jedi mind tricks boeing,boeing internal messages,faa boeing,boeing self certification,pilot training 737 max,boeing scandal,corporate greed,aviation disaster,air crash investigation,737 max crash explained,boeing lied,plane crash documentary,boeing 737 max manual,aviation safety,black box breakdown,boeing whistleblower,congressional investigation,simulator training,type rating
+PINNED: "I basically lied to the regulators (unknowingly)" — real internal
+Boeing message, shown in the full breakdown on the channel.
+
+### SHORT 4 (57s) — the injustice
+TITLE: 346 people died. Nobody went to prison. #boeing #737max #justice
+DESCRIPTION:
+After two Boeing 737 MAX crashes killed 346 people, the US Department of
+Justice settled with Boeing for 2.5 billion dollars. Sounds huge — until you
+do the math. 1.7 billion went back to Boeing's own airline customers. Most of
+the rest was a fine. The families of the dead split 500 million — about 1.4
+million dollars per life. The only individual ever criminally charged was a
+test pilot, Mark Forkner — and a jury acquitted him in under two hours. The
+CEO was fired... with 62 million dollars on the way out.
+
+Who actually pays when a corporation kills? The full 26-minute Black Box
+Breakdown documentary answers that — watch it on the channel.
+
+New disaster breakdown every week. Subscribe.
+#corporategreed #justice #boeingscandal #documentary #truestory #aviation
+#aviationdisaster #darkhistory #planecrash #accountability #shorts #law
+TAGS: boeing 737 max,boeing settlement,boeing 2.5 billion,department of justice boeing,dennis muilenburg,boeing ceo fired,mark forkner trial,boeing families,346 victims,corporate accountability,white collar crime,boeing scandal,nobody went to prison,corporate greed documentary,aviation disaster,737 max victims,boeing fine,deferred prosecution,air crash investigation,black box breakdown,boeing justice,crash victims compensation,boeing crash families,plane crash documentary
+PINNED: $62 million exit package for the CEO. $1.4 million per victim. The full
+reckoning — chapter 8 of the documentary on the channel.
