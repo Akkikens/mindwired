@@ -1,0 +1,836 @@
+{
+ "slug": "colgan3407",
+ "title": "Too Tired to Fly: The Colgan Air 3407 Disaster",
+ "language": "en",
+ "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+ "channel": "blackbox",
+ "scenes": [
+  {
+   "id": "h1",
+   "text": "This is a 53 minute flight. A short, routine hop from Newark to Buffalo, on a snowy Thursday night in February 2009. 49 people are on board. None of them will see the runway.",
+   "img": "q400",
+   "stat": "CONTINENTAL CONNECTION 3407",
+   "cap": "A routine 53-minute hop to Buffalo."
+  },
+  {
+   "id": "h2",
+   "text": "The entire disaster happens in the last 27 seconds. This is the actual reconstruction the investigators built from the black boxes. Watch the instruments. The plane is about to stop flying.",
+   "video": "ntsb_anim.mp4",
+   "videoFrom": 118,
+   "stat": "NTSB RECONSTRUCTION",
+   "cap": "The real NTSB reconstruction."
+  },
+  {
+   "id": "h3",
+   "text": "It falls out of the sky and lands on a house. 49 people on board, and one man asleep in his home below. 50 dead.",
+   "diagram": "counter",
+   "arg": "50|49 + 1|LIVES LOST",
+   "stat": "50 DEAD",
+   "statColor": "#FF4D4D",
+   "cap": "50 people. One of them on the ground."
+  },
+  {
+   "id": "h4",
+   "text": "But this is not really a story about one bad night in a cockpit. It is a story about how two exhausted, underpaid, poorly trained pilots ended up flying you through a snowstorm in the first place.",
+   "img": "cockpit",
+   "cap": "How did these two end up in that cockpit?"
+  },
+  {
+   "id": "h5cvr",
+   "text": "I only made 15,800 dollars last year. I'm just lucky I have a husband that's working.",
+   "speaker": "FIRST OFFICER",
+   "radioLabel": "CVR RECREATION",
+   "timestamp": "PRE-FLIGHT",
+   "cap": "I only made $15,800 last year."
+  },
+  {
+   "id": "h6",
+   "text": "When it was over, everyone blamed the ice. It was winter, the wings were icing up, it seemed obvious. The investigators found something far more uncomfortable.",
+   "img": "winter",
+   "cap": "Everyone blamed the ice. They were wrong."
+  },
+  {
+   "id": "t0",
+   "text": "Too tired to fly. The crash of Colgan Air 3407.",
+   "chapter": "BLACK BOX\nColgan Air 3407"
+  },
+  {
+   "id": "c1_t",
+   "text": "Chapter 1. Continental Connection 3407.",
+   "chapter": "CHAPTER 1\nContinental Connection 3407"
+  },
+  {
+   "id": "a1",
+   "text": "February 12, 2009. Newark airport. Passengers board a Bombardier Dash 8 Q400, a modern 74 seat turboprop, painted in the colors of Continental Airlines. Their ticket says Continental Connection.",
+   "img": "q400",
+   "stat": "FEBRUARY 12, 2009",
+   "cap": "The ticket says Continental."
+  },
+  {
+   "id": "a2",
+   "text": "But Continental did not own this plane, employ these pilots, or train them. The flight was operated by a smaller, cheaper regional airline called Colgan Air, flying under the big airline's brand.",
+   "img": "q400",
+   "stat": "OPERATED BY COLGAN AIR",
+   "cap": "But Continental didn't fly it. Colgan did."
+  },
+  {
+   "id": "a3",
+   "text": "This is how a huge part of American flying works. You buy a ticket from a famous airline, and you are quietly handed to a low cost contractor you have never heard of. Same paint. Different world.",
+   "img": "q400",
+   "cap": "Same paint. A very different world."
+  },
+  {
+   "id": "a4",
+   "text": "On board are 45 passengers, 2 flight attendants, and 2 pilots. Among them is a woman who lost her husband on September 11th, flying to Buffalo to honor him. Ordinary people, going home.",
+   "img": "buffalo",
+   "cap": "45 passengers. Ordinary people going home."
+  },
+  {
+   "id": "a5",
+   "text": "The weather into Buffalo is poor but ordinary for a northern winter. Snow, wind, and light icing. Nothing a modern airliner and a competent crew cannot handle. The trap was never the weather.",
+   "img": "winter",
+   "cap": "The weather was ordinary. The trap wasn't."
+  },
+  {
+   "id": "a6",
+   "text": "The airplane itself is not the problem. The Q400 is modern, fast, and barely a year old. In the story that follows, the machine does almost everything right. It is the people, and the system behind them, that fail.",
+   "img": "q400",
+   "cap": "The airplane was not the problem."
+  },
+  {
+   "id": "a7",
+   "text": "Here is the economics that matters. Continental sells the ticket, then pays Colgan a fixed fee to fly the route. Colgan makes its money by keeping costs below that fee. And the biggest cost it can squeeze is the crew.",
+   "img": "q400",
+   "cap": "The incentive was built in: squeeze the crew."
+  },
+  {
+   "id": "a8",
+   "text": "Among the 49 aboard is a woman who lost her husband in the World Trade Center, flying to Buffalo to fund a scholarship in his name. A newlywed. A musician. Ordinary people, an hour from home.",
+   "img": "buffalo",
+   "cap": "Real people, an hour from home."
+  },
+  {
+   "id": "c2_t",
+   "text": "Chapter 2. Two tired pilots.",
+   "chapter": "CHAPTER 2\nTwo Tired Pilots"
+  },
+  {
+   "id": "b1",
+   "text": "The captain is 47 years old. He lives in Florida but is based in Newark, over a thousand miles away. He is a commuting pilot, and the night before, he slept in the airline's crew room.",
+   "img": "cockpit",
+   "stat": "THE CAPTAIN · 47",
+   "cap": "He slept in the crew room the night before."
+  },
+  {
+   "id": "b2",
+   "text": "The crew room is a lounge with couches, not a place to rest before flying. Colgan's own chief pilot admitted it was not adequate for sleep. Pilots used it anyway, because a real crash pad cost money they did not have.",
+   "img": "cockpit",
+   "cap": "A lounge with couches. Not a place to sleep."
+  },
+  {
+   "id": "b3",
+   "text": "The first officer is 24 years old. Sharp, well liked, a trained flight instructor. She had just moved to Seattle to be near family. Her base was Newark. She commuted across the entire country to fly.",
+   "img": "seattle",
+   "stat": "FIRST OFFICER · 24",
+   "cap": "Her base was Newark. She lived in Seattle."
+  },
+  {
+   "id": "b4",
+   "text": "The night before the crash, she caught a red eye cargo flight from Seattle, riding in a spare seat, then a second flight, arriving in Newark at 6:23 in the morning. She grabbed maybe 90 minutes of sleep on the way.",
+   "img": "seattle",
+   "stat": "OVERNIGHT · SEATTLE TO NEWARK",
+   "cap": "She flew all night, for free, to reach work."
+  },
+  {
+   "id": "b5",
+   "text": "Why not just rest in a hotel? Because of what she earned. On the cockpit recording, she says it herself.",
+   "img": "cockpit",
+   "cap": "Why not rest? Listen to what she earned."
+  },
+  {
+   "id": "b5cvr",
+   "text": "I only made 15,800 dollars last year. I'm just lucky I have a husband that's working.",
+   "speaker": "FIRST OFFICER",
+   "radioLabel": "CVR RECREATION",
+   "timestamp": "20:30 EST",
+   "cap": "$15,800 a year — less than a fast-food manager."
+  },
+  {
+   "id": "b6",
+   "text": "The captain earned around 60,000, and even he commuted to save money. At those wages, junior pilots did not stay in hotels. They flew standby through the night and started their duty day already exhausted.",
+   "img": "cockpit",
+   "cap": "At those wages, nobody rested properly."
+  },
+  {
+   "id": "b7",
+   "text": "And she was sick. She had a cold, and can be heard sniffling on the recording. Earlier that trip, she weighed calling in sick, and talked herself out of it.",
+   "img": "cockpit",
+   "cap": "She was sick. She should have called in."
+  },
+  {
+   "id": "b7cvr",
+   "text": "If I call in sick now, I've got to put myself in a hotel until I feel better. I'm pretty tough.",
+   "speaker": "FIRST OFFICER",
+   "radioLabel": "CVR RECREATION",
+   "timestamp": "20:41 EST",
+   "cap": "“I'm pretty tough.”"
+  },
+  {
+   "id": "b8",
+   "text": "So here is the crew the passengers were trusting that night. A captain who slept on a couch. A first officer who crossed the country without sleep, sick, because rest was a luxury she could not afford.",
+   "img": "seattle",
+   "cap": "This was the crew you were trusting."
+  },
+  {
+   "id": "b9",
+   "text": "The captain's road to that cockpit was long and troubled. He earned his private licence in 1990. But over the years, he failed FAA check ride after check ride. Instrument. Commercial. Multi-engine. His airline transport licence.",
+   "img": "cockpit",
+   "cap": "His career was a trail of failed checkrides."
+  },
+  {
+   "id": "b10",
+   "text": "To build the hours airlines wanted, he paid a company for the privilege of flying as a first officer. The pay to fly pipeline that feeds cheap regional carriers with pilots who look qualified on paper.",
+   "img": "q400",
+   "cap": "He paid to build his hours. Pay-to-fly."
+  },
+  {
+   "id": "b11",
+   "text": "When Colgan's application asked if he had ever failed a check ride, he did not disclose them all. The airline hired him without ever seeing his full record. There was no law then that forced them to look.",
+   "img": "ntsb",
+   "cap": "Colgan hired him without his full record."
+  },
+  {
+   "id": "b12",
+   "text": "He had moved to this airplane only months before. Ground school in October. His check ride in November. On the night of the crash, he had just 111 hours flying the Q400. He was still learning it.",
+   "img": "q400",
+   "stat": "111 HOURS ON THE Q400",
+   "cap": "Months on the aircraft. Still learning it."
+  },
+  {
+   "id": "b13",
+   "text": "The first officer's problem was never skill. Colleagues described her as sharp and thorough. Her problem was the life the job forced on her, and the poverty wage that made rest a luxury.",
+   "img": "seattle",
+   "cap": "Her problem wasn't skill. It was the life."
+  },
+  {
+   "id": "b15",
+   "text": "This was not two unlucky individuals. It was the ordinary condition of a junior regional pilot in 2009. Underpaid, over-commuting, chronically tired, and quietly terrified of losing the job by calling in sick.",
+   "img": "cockpit",
+   "cap": "This was normal. That's the horror of it."
+  },
+  {
+   "id": "b16",
+   "text": "In the three days before the crash, the captain bounced between hotels and that crew room, his sleep chopped up by the schedule. On the morning of the accident, another pilot saw him asleep on a crew-room couch.",
+   "img": "cockpit",
+   "cap": "Seen asleep on the crew-room couch that morning."
+  },
+  {
+   "id": "b17",
+   "text": "The captain was proud of how fast he had reached the airlines through the pay to fly pipeline. He said so on the recording, unaware it would ever be heard.",
+   "img": "cockpit",
+   "cap": "He was proud of how fast he'd got there."
+  },
+  {
+   "id": "b17cvr",
+   "text": "I wanted to get into the one twenty one world as fast as I could. And it really worked out well for me.",
+   "speaker": "CAPTAIN",
+   "radioLabel": "CVR RECREATION",
+   "timestamp": "20:50 EST",
+   "cap": "He rushed to the airlines as fast as he could."
+  },
+  {
+   "id": "b18",
+   "text": "Neither pilot did anything malicious. They were, by every account, decent, capable people. That is what makes this so unsettling. The system did not need bad people to kill 50. It just needed tired, cheap, under-trained ones.",
+   "img": "cockpit",
+   "cap": "The system didn't need bad people. Just tired ones."
+  },
+  {
+   "id": "c3_t",
+   "text": "Chapter 3. A conversation, instead of a checklist.",
+   "chapter": "CHAPTER 3\nA Conversation, Instead of a Checklist"
+  },
+  {
+   "id": "d1",
+   "text": "The flight itself is uneventful. They climb to 16,000 feet. The autopilot flies. And for almost the entire flight, the two pilots talk. About their careers, their pay, the industry, the weather.",
+   "img": "cockpit",
+   "cap": "For almost the whole flight, they talk."
+  },
+  {
+   "id": "atc1",
+   "text": "Buffalo approach control takes over and clears the flight to descend. Routine radio calls on a routine night. This is the actual recording.",
+   "speaker": "BUFFALO APPROACH",
+   "radioLabel": "ACTUAL ATC RECORDING",
+   "timestamp": "22:04 EST",
+   "cap": "Real audio · Buffalo Approach, Feb 12 2009"
+  },
+  {
+   "id": "d2",
+   "text": "There is a federal rule for this. Below 10,000 feet, the cockpit must be sterile. No chatter, no distractions, only the business of flying. It exists because the last minutes of a flight are where people die.",
+   "img": "cockpit",
+   "stat": "THE STERILE COCKPIT RULE",
+   "cap": "Below 10,000 feet: no chatter. By law."
+  },
+  {
+   "id": "d3",
+   "text": "But as the plane descends through 10,000 feet, the conversation does not stop. It keeps going, all the way down, into exactly the phase of flight the rule was written to protect.",
+   "img": "cockpit",
+   "cap": "Below 10,000 feet — and still talking."
+  },
+  {
+   "id": "d4",
+   "text": "The first officer yawns. She mentions, more than once, that she does not feel well. The captain is relaxed and chatty. Nothing in the mood suggests danger. That is the quiet trap of fatigue. It never feels like an emergency.",
+   "img": "cockpit",
+   "cap": "Fatigue never feels like an emergency."
+  },
+  {
+   "id": "d5",
+   "text": "The sterile cockpit rule exists for exactly this. Not because chatter is rude, but because comfortable, capable crews stop cross checking each other. The two people who should be guarding the airspeed are guarding the conversation.",
+   "img": "cockpit",
+   "cap": "The rule guards against exactly this comfort."
+  },
+  {
+   "id": "c4_t",
+   "text": "Chapter 4. Lots of ice.",
+   "chapter": "CHAPTER 4\nLots of Ice"
+  },
+  {
+   "id": "e1",
+   "text": "As they descend into the clouds, ice begins to form on the airframe. The crew notice it, and it clearly unsettles them.",
+   "img": "winter",
+   "cap": "Ice forms on the wings."
+  },
+  {
+   "id": "e1cvr",
+   "text": "That's the most ice I've seen on the leading edges in a long time.",
+   "speaker": "CAPTAIN",
+   "radioLabel": "CVR RECREATION",
+   "timestamp": "22:10 EST",
+   "cap": "“The most ice I've seen in a long time.”"
+  },
+  {
+   "id": "e2",
+   "text": "The deicing systems are on and working. Ice on a Q400 in these amounts is a normal, manageable nuisance. But the ice does something more dangerous than weigh on the wings. It captures the crew's attention.",
+   "img": "winter",
+   "cap": "The ice wasn't the danger. It was the distraction."
+  },
+  {
+   "id": "e3",
+   "text": "The first officer, it turns out, is deeply uneasy about ice. She admits she had barely seen it before joining Colgan and being thrown into a northeastern winter.",
+   "img": "winter",
+   "cap": "She'd barely trained for real ice."
+  },
+  {
+   "id": "e3cvr",
+   "text": "I'd never seen icing conditions. I'd never deiced. I'd never experienced any of that.",
+   "speaker": "FIRST OFFICER",
+   "radioLabel": "CVR RECREATION",
+   "timestamp": "22:11 EST",
+   "cap": "“I'd never experienced any of that.”"
+  },
+  {
+   "id": "e4",
+   "text": "So both pilots are now primed to fear the ice. And while they watch the ice, the one number that will actually kill them, their airspeed, is quietly falling.",
+   "img": "cockpit",
+   "cap": "While they watched the ice, the speed bled away."
+  },
+  {
+   "id": "e5",
+   "text": "There is a switch on the Q400 for flying in ice. Set for icing, it tells the airplane to sound its stall warning earlier, at a higher speed, because ice makes a wing give up sooner. The crew, correctly, had set it.",
+   "img": "winter",
+   "stat": "THE REF SPEEDS SWITCH",
+   "cap": "A switch that warns of a stall earlier."
+  },
+  {
+   "id": "e6",
+   "text": "That was the right choice for the ice. But it had a hidden edge. It meant the stick shaker would fire earlier than the pilots might instinctively feel it should. Their margin was even thinner than it looked.",
+   "img": "cockpit",
+   "cap": "So the warning would come even sooner."
+  },
+  {
+   "id": "c5_t",
+   "text": "Chapter 5. The approach.",
+   "chapter": "CHAPTER 5\nThe Approach"
+  },
+  {
+   "id": "atc2",
+   "text": "Approach control turns the flight onto its final course and clears it down toward the airport. Again, this is the real recording from that night.",
+   "speaker": "BUFFALO APPROACH",
+   "radioLabel": "ACTUAL ATC RECORDING",
+   "timestamp": "22:14 EST",
+   "cap": "Real audio · turning onto final."
+  },
+  {
+   "id": "f1",
+   "text": "The captain calls for the landing gear and the flaps. Standard steps for landing. To slow down, he pulls the engines back toward idle. The plane is heavy, dirty, and bleeding off speed fast.",
+   "video": "ntsb_anim.mp4",
+   "videoFrom": 92,
+   "cap": "Gear down, flaps out, power to idle."
+  },
+  {
+   "id": "f2",
+   "text": "Watch the airspeed on the reconstruction. It is sliding down through 145 knots, and still dropping. On the captain's display, a red and black warning band is climbing up toward the needle.",
+   "video": "ntsb_anim.mp4",
+   "videoFrom": 100,
+   "stat": "SPEED FALLING",
+   "cap": "The airspeed is sliding. Nobody calls it."
+  },
+  {
+   "id": "f3",
+   "text": "That band is the low speed cue. It is the airplane, quietly warning that it is getting dangerously slow. Neither pilot calls it out. Neither adds power. The conversation is still going.",
+   "video": "ntsb_anim.mp4",
+   "videoFrom": 110,
+   "statColor": "#FF4D4D",
+   "stat": "THE LOW-SPEED CUE",
+   "cap": "The plane was warning them. Nobody looked."
+  },
+  {
+   "id": "f4",
+   "text": "The autopilot is still flying the airplane, and it is quietly doing something dangerous. As the plane slows, it trims the nose higher and higher to hold altitude, hiding how much effort that takes. The pilots feel nothing wrong.",
+   "video": "ntsb_anim.mp4",
+   "videoFrom": 84,
+   "cap": "The autopilot hid the effort. They felt nothing."
+  },
+  {
+   "id": "f5",
+   "text": "This is the hidden knife in modern stalls. The automation absorbs the problem, until it runs out of authority. Then it clicks off and hands two humans a fully developed emergency, with almost no time to understand it.",
+   "video": "ntsb_anim.mp4",
+   "videoFrom": 106,
+   "cap": "Automation masks the problem — then hands it over."
+  },
+  {
+   "id": "c6_t",
+   "text": "Chapter 6. Twenty-seven seconds.",
+   "chapter": "CHAPTER 6\nTwenty-Seven Seconds"
+  },
+  {
+   "id": "f6",
+   "text": "The captain begins slowing the airplane less than three miles from the final approach fix. He pulls the power almost to idle. On a night with ice, heavy and dirty, this is where the margins get dangerously thin.",
+   "video": "ntsb_anim.mp4",
+   "videoFrom": 116,
+   "cap": "Power to idle, three miles out."
+  },
+  {
+   "id": "f7cvr",
+   "text": "Gear down.",
+   "speaker": "FIRST OFFICER",
+   "radioLabel": "CVR RECREATION",
+   "timestamp": "22:16:21 EST",
+   "cap": "The last routine words. “Gear down.”"
+  },
+  {
+   "id": "f7",
+   "text": "The airspeed is about 145 knots, and still falling. The low speed cue keeps climbing toward the needle. Not one word is said about the speed. Fifteen seconds of silence, and then the airplane runs out of patience.",
+   "video": "ntsb_anim.mp4",
+   "videoFrom": 120,
+   "statColor": "#FF4D4D",
+   "stat": "145 KNOTS · FALLING",
+   "cap": "15 seconds of silence. Then the wing quits."
+  },
+  {
+   "id": "g1",
+   "text": "At 22:16 and 27 seconds, the control column begins to shake violently in the captain's hands. The stick shaker. The airplane's last, loud warning that the wing is seconds from an aerodynamic stall.",
+   "video": "ntsb_anim.mp4",
+   "videoFrom": 122,
+   "stat": "22:16:27 · STICK SHAKER",
+   "statColor": "#FF4D4D",
+   "cap": "The stick shaker fires. Seconds from a stall."
+  },
+  {
+   "id": "g2",
+   "text": "Every pilot is drilled on the recovery from their first lessons. Push the nose down. Add power. Let the wing fly again. It is simple, and it is universal.",
+   "video": "ntsb_anim.mp4",
+   "videoFrom": 128,
+   "cap": "The fix every pilot knows: nose down, power up."
+  },
+  {
+   "id": "g3",
+   "text": "The captain does the opposite. He pulls the control column back, toward himself, pitching the nose up. It is the single worst possible input. He is pulling the dying wing deeper into the stall.",
+   "video": "ntsb_anim.mp4",
+   "videoFrom": 132,
+   "statColor": "#FF4D4D",
+   "stat": "HE PULLED BACK",
+   "cap": "He pulled back — the exact wrong move."
+  },
+  {
+   "id": "g4",
+   "text": "The airplane fights to save itself. A second system, the stick pusher, physically shoves the nose down to break the stall. The captain pulls back against it, overriding the one thing trying to save them.",
+   "video": "ntsb_anim.mp4",
+   "videoFrom": 136,
+   "cap": "He fought the system trying to save him."
+  },
+  {
+   "id": "g5cvr",
+   "text": "I put the flaps up.",
+   "speaker": "FIRST OFFICER",
+   "radioLabel": "CVR RECREATION",
+   "timestamp": "22:16:37 EST",
+   "cap": "The first officer raises the flaps — uncommanded."
+  },
+  {
+   "id": "g6",
+   "text": "In the chaos, the first officer retracts the flaps, no one asked for it, removing lift at the worst possible moment. The Q400 rolls violently, past 100 degrees, wings nearly vertical.",
+   "video": "ntsb_anim.mp4",
+   "videoFrom": 140,
+   "cap": "Rolling past vertical. Out of control."
+  },
+  {
+   "id": "g7cvr",
+   "text": "Gear up.",
+   "speaker": "CAPTAIN",
+   "radioLabel": "CVR RECREATION",
+   "timestamp": "22:16:46 EST",
+   "cap": "“Gear up.”"
+  },
+  {
+   "id": "g10",
+   "text": "The flight data recorder captured every input. The column moved aft, hard. The engines were slammed toward full power. But pulling back while powering up only drove the nose higher, into the stall.",
+   "video": "ntsb_anim.mp4",
+   "videoFrom": 138,
+   "cap": "Pulled back, power up — the nose went higher."
+  },
+  {
+   "id": "g11",
+   "text": "A stalled wing does not fly. It drops. The Q400 rolled hard left, then snapped past vertical to the right. On a normal night the controls would lift it. On a stalled wing, they barely bite. Everything the plane did was the opposite of instinct.",
+   "video": "ntsb_anim.mp4",
+   "videoFrom": 144,
+   "cap": "The stalled wing rolled past vertical."
+  },
+  {
+   "id": "g8",
+   "text": "From the first shake of that control column to this moment is about 25 seconds. There was time. The recovery was simple. But at 2,000 feet on a dark night, confused and afraid, the training was not there.",
+   "video": "ntsb_anim.mp4",
+   "videoFrom": 145,
+   "cap": "There was time. The training wasn't there."
+  },
+  {
+   "id": "g9cvr",
+   "text": "We're down.",
+   "speaker": "CAPTAIN",
+   "radioLabel": "CVR RECREATION",
+   "timestamp": "22:16:54 EST",
+   "statColor": "#FF4D4D",
+   "cap": "The captain's last words."
+  },
+  {
+   "id": "c7_t",
+   "text": "Chapter 7. Clarence Center.",
+   "chapter": "CHAPTER 7\nClarence Center"
+  },
+  {
+   "id": "k1",
+   "text": "The airplane falls onto a single family home in the quiet suburb of Clarence Center, five miles from the runway. It is 10:17 at night. Most of the town is asleep.",
+   "img": "crashsite",
+   "stat": "CLARENCE CENTER, NEW YORK",
+   "cap": "It fell on a house. 10:17 at night."
+  },
+  {
+   "id": "k2",
+   "text": "Neighbors run into the street to a wall of fire, fed by a ruptured natural gas line. There is nothing anyone can do. In the home, a 61 year old man is killed. His wife and daughter escape.",
+   "img": "crashsite",
+   "statColor": "#FF4D4D",
+   "stat": "1 KILLED ON THE GROUND",
+   "cap": "A severed gas line fed the fire."
+  },
+  {
+   "id": "k3",
+   "text": "All 49 people on the airplane die. With the man on the ground, the toll is 50. It is the deadliest crash on American soil since the September 11th attacks.",
+   "diagram": "counter",
+   "arg": "50|49 + 1|LIVES LOST",
+   "statColor": "#FF4D4D",
+   "stat": "50 DEAD",
+   "cap": "All 49 aboard, and one below. 50 gone."
+  },
+  {
+   "id": "k4",
+   "text": "And it happened not in a storm, not with a broken plane, but on a routine approach, in a working aircraft, with two qualified pilots at the controls.",
+   "img": "crashsite",
+   "cap": "A working plane. Qualified pilots. Routine night."
+  },
+  {
+   "id": "k5",
+   "text": "Within hours, the quiet suburb of Clarence Center becomes the center of the aviation world. A team from the NTSB arrives to a debris field the size of a single house, and a question that seems, at first, to have an obvious answer. Ice.",
+   "img": "ntsb",
+   "cap": "The NTSB arrives. The obvious suspect: ice."
+  },
+  {
+   "id": "k6",
+   "text": "There were no survivors on the airplane. Whole families. A newlywed couple. A widow of September 11th. Fifty futures ended five miles short of a runway, on a routine Thursday night.",
+   "img": "crashsite",
+   "cap": "Fifty futures, five miles short of the runway."
+  },
+  {
+   "id": "c8_t",
+   "text": "Chapter 8. The red herring.",
+   "chapter": "CHAPTER 8\nThe Red Herring"
+  },
+  {
+   "id": "m1",
+   "text": "In the first days, the story writes itself. Winter storm. Icing. A regional turboprop goes down on approach to Buffalo. The early headlines all point at the ice. It is the obvious answer.",
+   "img": "winter",
+   "cap": "The obvious answer: the ice did it."
+  },
+  {
+   "id": "m2",
+   "text": "The crew themselves believed it. When the plane began to shake, the captain almost certainly thought the ice had stalled his wing. But when the investigators examined the data, the ice story fell apart.",
+   "img": "ntsb",
+   "cap": "Even the crew thought it was the ice."
+  },
+  {
+   "id": "m3",
+   "text": "The National Transportation Safety Board found the icing was light, and the airplane was fully controllable. The ice did not bring this plane down. The wing stalled because the crew let it get far too slow.",
+   "img": "ntsb",
+   "stat": "ICE: NOT THE CAUSE",
+   "cap": "The NTSB: the ice was not the cause."
+  },
+  {
+   "id": "m4",
+   "text": "They even put other pilots in simulators, facing the same night, the same warning. Trained, rested crews recovered without drama. The difference was never the airplane. It was the state of the two people flying this one.",
+   "img": "ntsb",
+   "cap": "Rested crews recovered easily. The difference was human."
+  },
+  {
+   "id": "m5",
+   "text": "The flight data recorder settled it. The wing stalled at an angle and speed consistent with an ordinary stall, one caused by flying too slowly. Had ice brought it down, the numbers would have looked different. They did not.",
+   "img": "ntsb",
+   "cap": "The data: an ordinary stall, from low speed."
+  },
+  {
+   "id": "m6",
+   "text": "There was even a dangerous idea among some pilots at the time, that a Q400 could suffer a tail stall, where the correct response is to pull back. That was not what happened here. This was a normal wing stall, and it was mishandled.",
+   "img": "ntsb",
+   "cap": "Not a tail stall. A normal one, mishandled."
+  },
+  {
+   "id": "k7",
+   "text": "The recorders are pulled from the wreckage, scorched but readable. Within days, the Safety Board has the full picture the crew never had. The speed, the inputs, the 27 seconds, laid out second by second on a graph.",
+   "img": "ntsb",
+   "cap": "The recorders gave investigators what the crew lacked."
+  },
+  {
+   "id": "m7",
+   "text": "They ran it through simulators and a dedicated study of the stick shaker. Every test pointed the same way. The wing was flying fine until it was starved of speed. And the recovery was right there, for the taking.",
+   "img": "ntsb",
+   "cap": "Every test: the recovery was there for the taking."
+  },
+  {
+   "id": "m8",
+   "text": "The ice was real. The fear of it was real. But the data was merciless. This was not weather. It was a working airplane, flown too slow, and a warning answered with the one response guaranteed to kill everyone aboard.",
+   "img": "winter",
+   "cap": "Not weather. A working plane, flown too slow."
+  },
+  {
+   "id": "c9_t",
+   "text": "Chapter 9. The real cause.",
+   "chapter": "CHAPTER 9\nThe Real Cause"
+  },
+  {
+   "id": "n1",
+   "text": "The Safety Board's conclusion is blunt. The probable cause was the captain's inappropriate response to the stick shaker, which led to an aerodynamic stall from which the airplane did not recover.",
+   "img": "ntsb",
+   "stat": "NTSB PROBABLE CAUSE",
+   "cap": "The official cause, in the NTSB's words."
+  },
+  {
+   "id": "n2",
+   "text": "The contributing factors read like a list of everything quietly broken. The crew failed to monitor their airspeed. They broke the sterile cockpit rule. And Colgan's own procedures were inadequate.",
+   "img": "ntsb",
+   "cap": "A list of everything quietly broken."
+  },
+  {
+   "id": "n3",
+   "text": "But the deeper you dig, the less this looks like two bad pilots, and the more it looks like a system that set them up. Start with the captain's training record.",
+   "img": "cockpit",
+   "cap": "This wasn't just two bad pilots."
+  },
+  {
+   "id": "n4",
+   "text": "Over his career, the captain had failed five FAA check rides. Five. And on his application to Colgan, he did not disclose several of them. The airline hired him without ever knowing his full record.",
+   "img": "cockpit",
+   "statColor": "#FF4D4D",
+   "stat": "5 FAILED CHECKRIDES",
+   "cap": "He'd failed 5 checkrides. Colgan never knew."
+  },
+  {
+   "id": "n5",
+   "text": "He had just 111 hours flying this specific aircraft, and had never felt the stick pusher fire in real training. When it shoved the controls forward that night, it may have frightened him into fighting it.",
+   "img": "cockpit",
+   "stat": "111 HOURS ON TYPE",
+   "cap": "111 hours on type. Never trained on the pusher."
+  },
+  {
+   "id": "n6",
+   "text": "And both pilots were exhausted. A captain who slept on a couch. A first officer who crossed the country overnight, sick, on a poverty wage. Fatigue does to the brain what alcohol does. It was in that cockpit with them.",
+   "img": "seattle",
+   "cap": "Exhaustion was in that cockpit with them."
+  },
+  {
+   "id": "n7",
+   "text": "None of these, alone, is the reason 50 people died. Together, they are. Every layer that should have caught this, hiring, training, rest, procedures, had been quietly worn thin. To save money.",
+   "img": "ntsb",
+   "cap": "Every safety layer worn thin — to save money."
+  },
+  {
+   "id": "n8",
+   "text": "Return to how they got there. The first officer had crossed three time zones overnight, slept perhaps 90 minutes, and was fighting a cold. The captain had slept in a crew room chair. Neither was rested enough to safely drive a car.",
+   "img": "seattle",
+   "cap": "Neither was rested enough to drive a car."
+  },
+  {
+   "id": "n9",
+   "text": "Fatigue does to the brain roughly what alcohol does. It slows recognition, narrows attention to a single fixation, and destroys judgment, in precisely the seconds when judgment is everything. The Board could not measure it. It named it anyway.",
+   "img": "ntsb",
+   "cap": "Fatigue works on the brain like alcohol."
+  },
+  {
+   "id": "n10",
+   "text": "Then the training gap. The captain had never actually felt a stick pusher fire on the Q400 in training. So when it shoved the controls forward that night, it may not have felt like salvation. It may have felt like the airplane breaking.",
+   "img": "cockpit",
+   "cap": "He'd never felt the pusher fire. So he fought it."
+  },
+  {
+   "id": "n11",
+   "text": "And the airline shared the blame. The Board found Colgan's own procedures for managing speed on an icing approach were inadequate. The company had not given its crews the tools to get this right.",
+   "img": "ntsb",
+   "cap": "Colgan's own procedures were found inadequate."
+  },
+  {
+   "id": "n12",
+   "text": "Stack it all up. A pilot hired without his full record, barely trained on the type, exhausted, is handed a sudden emergency by the automation, and does the one thing that guarantees a crash. It is not one mistake. It is a stack of them.",
+   "img": "cockpit",
+   "cap": "Not one mistake. A whole stack of them."
+  },
+  {
+   "id": "n13",
+   "text": "The Board debated it for hours in a public meeting. Their language was careful and clinical. But the conclusion was not soft. This was a survivable situation, turned fatal by the people flying, and the company that put them there.",
+   "img": "ntsb",
+   "cap": "A survivable situation, turned fatal."
+  },
+  {
+   "id": "n14",
+   "text": "And here is the quiet horror of it. There was no villain. No sabotage, no malice, no single catastrophic failure. Just a chain of ordinary, money saving decisions that lined up, one night, into 50 deaths.",
+   "img": "ntsb",
+   "cap": "No villain. Just money-saving decisions, lined up."
+  },
+  {
+   "id": "c10_t",
+   "text": "Chapter 10. Flying cheap.",
+   "chapter": "CHAPTER 10\nFlying Cheap"
+  },
+  {
+   "id": "p1",
+   "text": "This is where the story stops being about one crew, and becomes about an industry. A regional airline wins its contract from a major carrier by being the lowest bidder. And you bid lowest by paying pilots less, and training them for less.",
+   "img": "q400",
+   "cap": "You win the contract by being the cheapest."
+  },
+  {
+   "id": "p2",
+   "text": "In 2009, a first officer at a regional could earn less than the manager of a fast food restaurant. The talented burned out or left. The ones who stayed were often the most desperate, and the least able to say no.",
+   "img": "cockpit",
+   "cap": "Paid less than a fast-food manager."
+  },
+  {
+   "id": "p3",
+   "text": "The public believed they were flying Continental, United, Delta. Often they were flying a contractor competing to be the cheapest, on the backs of exhausted, underpaid crews. A documentary at the time called it flying cheap.",
+   "img": "q400",
+   "cap": "You thought you flew Continental. You didn't."
+  },
+  {
+   "id": "p4",
+   "text": "The families of the 50 refused to accept it as just another tragedy. For years, they traveled to Washington. They testified. They lobbied. They came back again and again, carrying the photographs of the people they had lost.",
+   "img": "families",
+   "stat": "THE FAMILIES OF FLIGHT 3407",
+   "cap": "For years, they carried the photos to Congress."
+  },
+  {
+   "id": "p5",
+   "text": "And they won reforms no crash before them had achieved. New rest rules to fight fatigue. Mandatory stall training. A database so no airline could ever hire a pilot blind again.",
+   "img": "hearing",
+   "stat": "AIRLINE SAFETY ACT · 2010",
+   "cap": "They forced a new safety law through Congress."
+  },
+  {
+   "id": "p6",
+   "text": "And the headline change. To fly passengers for a US airline, a first officer would now need 1,500 hours of flight time, six times the old minimum. The rule that exists every time you board a plane today.",
+   "img": "hearing",
+   "stat": "THE 1,500-HOUR RULE",
+   "cap": "The 1,500-hour rule was born here."
+  },
+  {
+   "id": "p7",
+   "text": "It is one of the only times in modern aviation that grieving families, with no power and no money, forced the entire industry to change. Every safe landing you have taken since is partly their doing.",
+   "img": "families",
+   "cap": "Powerless families changed the whole industry."
+  },
+  {
+   "id": "p8",
+   "text": "In 2009, a first officer at a regional airline could earn less than the manager of a fast food restaurant. The talented burned out or left. The ones who stayed were often the most desperate to keep the job, and the least able to ever say no.",
+   "img": "cockpit",
+   "cap": "Paid less than a fast-food manager."
+  },
+  {
+   "id": "p9",
+   "text": "A public television documentary at the time laid it bare, and called it flying cheap. The travelling public had no idea that the famous name on their ticket had almost nothing to do with the tired crew up front.",
+   "img": "q400",
+   "cap": "You thought you flew Continental. You didn't."
+  },
+  {
+   "id": "p10",
+   "text": "The centerpiece reform was the 1,500 hour rule. Before Colgan, a US airline first officer needed as little as 250 hours of flight time. After, six times that. The industry fought it hard, and argues about it to this day.",
+   "img": "hearing",
+   "stat": "250 → 1,500 HOURS",
+   "cap": "250 hours before. 1,500 after."
+  },
+  {
+   "id": "p11",
+   "text": "Critics say the rule worsened a pilot shortage, and that hours alone do not teach the judgment that was missing that night. Supporters point to the record since. And the record is hard to argue with.",
+   "img": "q400",
+   "cap": "The industry still argues. But the record…"
+  },
+  {
+   "id": "p12",
+   "text": "Colgan 3407 was the last crash of a US passenger airline to kill this many people for well over a decade. Whatever those grieving families forced through the halls of Congress, it held. The skies got safer.",
+   "img": "buffalo",
+   "stat": "THE LAST OF ITS KIND FOR 10+ YEARS",
+   "cap": "It held. The skies got safer."
+  },
+  {
+   "id": "p13",
+   "text": "The reforms went further than flight hours. New rules capped how long pilots could be on duty and mandated real rest between trips. The exact fatigue that sat in that cockpit, finally written into federal law.",
+   "img": "hearing",
+   "cap": "Real rest rules — the fatigue, written into law."
+  },
+  {
+   "id": "p14",
+   "text": "And a national pilot records database, so that never again could an airline hire a captain without seeing every failed check ride in his past. The precise gap that had put this captain in this seat.",
+   "img": "families",
+   "cap": "A records database — so no airline hires blind again."
+  },
+  {
+   "id": "p15",
+   "text": "Aviation safety is often called a tombstone industry. The rules are written in the aftermath, paid for in the dead. What is almost unheard of is for the families of the dead to pick up the pen themselves. The 3407 families did exactly that.",
+   "img": "families",
+   "cap": "The families picked up the pen themselves."
+  },
+  {
+   "id": "z1",
+   "text": "50 people died on a routine 53 minute flight, because the system that put them in the air had cut every corner it could. Tired pilots. Cheap training. A warning ignored, and a warning fought.",
+   "diagram": "counter",
+   "arg": "50|49 + 1|LIVES LOST",
+   "stat": "50 NAMES",
+   "statColor": "#FF4D4D",
+   "cap": "50 people. Every corner cut."
+  },
+  {
+   "id": "z2",
+   "text": "The ice was never the villain. The cold arithmetic of flying cheap was. Remember that the next time an airline tells you your safety is their highest priority.",
+   "img": "q400",
+   "cap": "The ice wasn't the villain. Flying cheap was."
+  },
+  {
+   "id": "z3",
+   "text": "If this story got its hooks into you, subscribe to Black Box. We take the biggest disasters in history apart, piece by piece, to show you the decisions hiding inside them. Because the truth is always in the details.",
+   "img": "q400",
+   "cap": "Subscribe to Black Box."
+  }
+ ]
+}

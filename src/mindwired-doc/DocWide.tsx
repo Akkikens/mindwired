@@ -15,7 +15,7 @@
  */
 import React from "react";
 import {
-  AbsoluteFill, Audio, Img, Sequence, interpolate, spring,
+  AbsoluteFill, Audio, Img, OffthreadVideo, Sequence, interpolate, spring,
   staticFile, useCurrentFrame,
 } from "remotion";
 import "../lib/fonts";
@@ -51,12 +51,19 @@ export type DocScene = {
    *  "ACTUAL ATC RECORDING" for real docket audio dropped into audio/<id>.mp3,
    *  "CVR RECREATION" for radio_recreate.py synthesis. */
   speaker?: string; radioLabel?: string; timestamp?: string;
+  /** Real footage (e.g. NTSB animation): plays public/shorts/<slug>/video/<video>,
+   *  muted, letterboxed, with narration audio over it. videoFrom = start seconds
+   *  (window into a long clip so consecutive scenes progress through it). */
+  video?: string; videoFrom?: number;
 };
 export type DocSpec = { slug: string; title: string; channel?: string; scenes: DocScene[] };
 export type DocManifest = {
   durations: Record<string, number>;
   images: Record<string, string[]>;
 };
+// Subscribe outro baked INTO the render (one render, no separate ffmpeg concat).
+// file = REAL copy under public/ (NOT a symlink — Remotion doesn't bundle symlinks); frames @30fps.
+export type OutroSpec = { file: string; frames: number };
 
 const LEAD = 10, HOLD = 24;
 
@@ -64,8 +71,8 @@ const sceneAud = (s: DocScene, m: DocManifest) =>
   m.durations[s.id] ?? s.text.split(/\s+/).length / 2.3; // estimate fallback
 const sceneFrames = (s: DocScene, m: DocManifest) =>
   LEAD + Math.round(sceneAud(s, m) * FPS) + HOLD;
-export const docTotalFrames = (doc: DocSpec, m: DocManifest) =>
-  doc.scenes.reduce((a, s) => a + sceneFrames(s, m), 0);
+export const docTotalFrames = (doc: DocSpec, m: DocManifest, outro?: OutroSpec) =>
+  doc.scenes.reduce((a, s) => a + sceneFrames(s, m), 0) + (outro?.frames ?? 0);
 
 const Brand: React.FC<{ th: Theme }> = ({ th }) => (
   <div style={{ position: "absolute", top: 42, right: 54, display: "flex", alignItems: "center", gap: 10, opacity: 0.85 }}>
@@ -251,7 +258,48 @@ const DiagramScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Th
   );
 };
 
-export const makeDocComp = (doc: DocSpec, manifest: DocManifest): React.FC => {
+/* Real footage scene (NTSB animation etc.): muted video, narration over it. */
+const VideoScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Theme }> = ({ s, slug, m, th }) => {
+  const frame = useCurrentFrame();
+  const dur = sceneFrames(s, m);
+  const fadeIn = interpolate(frame, [0, 12], [0, 1], { extrapolateRight: "clamp" });
+  const fadeOut = interpolate(frame, [dur - 10, dur], [1, 0], { extrapolateLeft: "clamp" });
+  const capIn = spring({ frame: frame - LEAD, fps: FPS, config: { damping: 18 } });
+  const statAt = LEAD + Math.round(sceneAud(s, m) * 0.35 * FPS);
+  const statSp = spring({ frame: frame - statAt, fps: FPS, config: { damping: 12, stiffness: 130 } });
+  const hasAudio = m.durations[s.id] !== undefined;
+  return (
+    <AbsoluteFill style={{ backgroundColor: "#05070C", opacity: fadeOut }}>
+      <AbsoluteFill style={{ opacity: fadeIn, justifyContent: "center", alignItems: "center" }}>
+        <OffthreadVideo src={staticFile(`shorts/${slug}/video/${s.video}`)} muted
+          startFrom={Math.round((s.videoFrom ?? 0) * FPS)}
+          style={{ width: "100%", height: "100%", objectFit: "contain" }} />
+      </AbsoluteFill>
+      <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(5,7,12,0.55) 0%, transparent 22%, transparent 60%, rgba(5,7,12,0.92) 100%)", pointerEvents: "none" }} />
+      {s.stat && (
+        <div style={{ position: "absolute", top: 118, left: 96,
+          transform: `translateY(${interpolate(statSp, [0, 1], [22, 0])}px) scale(${interpolate(statSp, [0, 1], [0.92, 1])})`,
+          opacity: interpolate(frame - statAt, [0, 8], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) }}>
+          <span style={{ fontFamily: th.display, fontWeight: 700, fontSize: 54, letterSpacing: 2,
+            color: s.statColor ?? "#fff", background: "rgba(5,7,12,0.68)", padding: "12px 28px",
+            borderRadius: 12, borderLeft: `6px solid ${th.accent}`, boxShadow: "0 8px 28px rgba(0,0,0,0.55)" }}>{s.stat}</span>
+        </div>
+      )}
+      <Brand th={th} />
+      {s.cap && (
+        <div style={{ position: "absolute", bottom: 84, left: 96, right: 96,
+          transform: `translateY(${interpolate(capIn, [0, 1], [30, 0])}px)`, opacity: capIn }}>
+          <div style={{ fontFamily: th.body, fontWeight: 600, fontSize: 46, color: "#fff", lineHeight: 1.34, textShadow: "0 3px 20px rgba(0,0,0,0.9)" }}>
+            <span style={{ borderBottom: `4px solid ${th.accent}`, paddingBottom: 5 }}>{s.cap}</span>
+          </div>
+        </div>
+      )}
+      {hasAudio && <Sequence from={LEAD}><Audio src={staticFile(`shorts/${slug}/audio/${s.id}.mp3`)} /></Sequence>}
+    </AbsoluteFill>
+  );
+};
+
+export const makeDocComp = (doc: DocSpec, manifest: DocManifest, outro?: OutroSpec): React.FC => {
   const th = THEMES[doc.channel ?? "mindwired"] ?? THEMES.mindwired;
   // Per-prefix rotation: the k-th scene using a prefix shows that prefix's k-th
   // file (mod pool size) — spreads small pools evenly instead of hashing on the
@@ -275,12 +323,21 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest): React.FC => {
                 ? <ChapterCard s={s} slug={doc.slug} m={manifest} th={th} />
                 : s.speaker
                 ? <RadioScene s={s} slug={doc.slug} m={manifest} th={th} />
+                : s.video
+                ? <VideoScene s={s} slug={doc.slug} m={manifest} th={th} />
                 : s.diagram
                 ? <DiagramScene s={s} slug={doc.slug} m={manifest} th={th} />
                 : <IllusScene s={s} slug={doc.slug} m={manifest} idx={sceneFileIdx[s.id] ?? i} th={th} />}
             </Sequence>
           );
         })}
+        {outro && (
+          <Sequence from={docTotalFrames(doc, manifest)} durationInFrames={outro.frames} name="subscribe-outro">
+            <AbsoluteFill style={{ backgroundColor: "#000" }}>
+              <OffthreadVideo src={staticFile(outro.file)} />
+            </AbsoluteFill>
+          </Sequence>
+        )}
       </AbsoluteFill>
     );
   };

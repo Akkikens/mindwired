@@ -1,0 +1,795 @@
+{
+ "slug": "af447",
+ "title": "Titanic of the Skies: The Fall of Air France 447",
+ "language": "en",
+ "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+ "channel": "blackbox",
+ "scenes": [
+  {
+   "id": "h1",
+   "text": "For three and a half minutes, a perfectly working airliner fell out of the night sky toward the Atlantic Ocean. Its engines ran flawlessly all the way down. And the two pilots at the controls never understood they were falling.",
+   "img": "a330",
+   "stat": "AIR FRANCE 447",
+   "cap": "It fell for 3.5 minutes. Engines running perfectly."
+  },
+  {
+   "id": "h2",
+   "text": "228 people took off from Rio de Janeiro, bound for Paris. Somewhere over the middle of the ocean, beyond all radar, their aircraft simply vanished.",
+   "img": "fgzcp",
+   "stat": "228 ABOARD",
+   "cap": "Somewhere over the ocean, it simply vanished."
+  },
+  {
+   "id": "h3",
+   "text": "For almost two years, the only witnesses were 24 automated maintenance messages, sent by the dying aircraft itself, to a computer in Paris that nobody was watching at 2 in the morning.",
+   "diagram": "quote",
+   "arg": "02:10 AUTO FLT AP OFF ... 02:14 ADVISORY CABIN VERTICAL SPEED||REAL ACARS TRANSMISSIONS · AF447",
+   "cap": "For 2 years, the only witnesses: 24 messages."
+  },
+  {
+   "id": "h4",
+   "text": "The wreck lay deeper than the Titanic. It took four search expeditions and robots from the team that found the Titanic to bring the black boxes back. What was on them stunned the aviation world.",
+   "img": "remus",
+   "stat": "3,900 METERS DOWN",
+   "cap": "Deeper than the Titanic."
+  },
+  {
+   "id": "h5cvr",
+   "text": "I don't have control of the airplane any more now. I don't have control of the airplane at all.",
+   "speaker": "PILOT FLYING",
+   "radioLabel": "CVR RECREATION",
+   "timestamp": "02:11:33 UTC",
+   "cap": "I don't have control of the airplane at all."
+  },
+  {
+   "id": "h6",
+   "text": "But he did have control. The airplane did everything he asked of it, all the way to the water. That is what makes this the most haunting crash in modern aviation. This is the full story.",
+   "img": "ocean",
+   "cap": "But he DID have control. That's the haunting part."
+  },
+  {
+   "id": "t0",
+   "text": "Titanic of the skies. The fall of Air France 447.",
+   "chapter": "BLACK BOX\nAir France 447"
+  },
+  {
+   "id": "c1_t",
+   "text": "Chapter 1. The last flight out of Rio.",
+   "chapter": "CHAPTER 1\nThe Last Flight Out of Rio"
+  },
+  {
+   "id": "a1",
+   "text": "May 31st, 2009. Rio de Janeiro, Galeão airport. Air France flight 447 boards for the overnight run to Paris. 216 passengers from 32 countries. Honeymooners. Doctors. Three children under 12.",
+   "img": "rio",
+   "stat": "MAY 31, 2009 · RIO",
+   "cap": "The overnight run to Paris. 216 passengers."
+  },
+  {
+   "id": "a2",
+   "text": "The aircraft is this one. F-GZCP, an Airbus A330, four years old, one of the most advanced and safest airliners ever built. This photograph was taken at Charles de Gaulle, the airport it will never reach.",
+   "img": "fgzcp",
+   "stat": "F-GZCP · AIRBUS A330",
+   "cap": "The actual aircraft — at the airport it never reached."
+  },
+  {
+   "id": "a3",
+   "text": "The A330 is a fly by wire machine. Computers sit between the pilots and the wings, quietly smoothing every input, and making it almost impossible to stall. Almost.",
+   "img": "a330",
+   "cap": "A plane computers made almost impossible to stall."
+  },
+  {
+   "id": "a4",
+   "text": "In the cockpit are three pilots. The captain, 58 years old, nearly 11,000 flight hours. And two co-pilots, because a 10 hour overnight crossing requires the crew to sleep in shifts.",
+   "img": "cockpit",
+   "stat": "3 PILOTS · 11,000 HOURS",
+   "cap": "Three pilots, sleeping in shifts."
+  },
+  {
+   "id": "a5",
+   "text": "The junior of them is 32 years old, with 2,900 hours. He is fully qualified, and he loves flying. Tonight, for the crossing of the Atlantic, he will be the one with his hands on the controls.",
+   "img": "cockpit",
+   "stat": "PILOT FLYING · 32",
+   "cap": "The junior co-pilot would fly the crossing."
+  },
+  {
+   "id": "a6",
+   "text": "Hold on to one number about him. In his entire career, almost all of his flying had been done with the autopilot engaged. Hand flying a jet at high altitude was something he had almost never done. Almost no airline pilot had.",
+   "img": "cockpit",
+   "cap": "Hand-flying at high altitude: almost never done."
+  },
+  {
+   "id": "a7",
+   "text": "At 22:29 universal time, flight 447 lifts off into the night and turns north east, out over the Atlantic. For the first three and a half hours, everything is perfectly, completely routine.",
+   "img": "rio",
+   "stat": "22:29 UTC · AIRBORNE",
+   "cap": "Wheels up. Three routine hours follow."
+  },
+  {
+   "id": "c2_t",
+   "text": "Chapter 2. The dead zone.",
+   "chapter": "CHAPTER 2\nThe Dead Zone"
+  },
+  {
+   "id": "b1",
+   "text": "There is a stretch of the South Atlantic where aircraft are truly alone. Beyond the reach of radar. Beyond normal radio. Controllers cannot see you. For hours, nobody on Earth knows exactly where you are.",
+   "img": "ocean",
+   "stat": "NO RADAR · NO RADIO",
+   "cap": "A stretch of ocean where planes are truly alone."
+  },
+  {
+   "id": "b2",
+   "text": "And across that stretch lies a permanent wall of weather. The intertropical convergence zone, where the trade winds of two hemispheres collide and pile thunderstorms miles high, every single night.",
+   "img": "itcz",
+   "stat": "THE ITCZ",
+   "cap": "A permanent wall of thunderstorms."
+  },
+  {
+   "id": "b3",
+   "text": "Towering cells like these stack up along the zone night after night. Investigators would later conclude the weather that night was not exceptional. Crews cross it constantly. Flight 447 was flying into something ordinary.",
+   "img": "itcz",
+   "stat": "TOWERING STORM CELLS",
+   "cap": "The kind of storms that build here every night."
+  },
+  {
+   "id": "b4",
+   "text": "At 1:35 in the morning, the crew makes a routine radio call to the Brazilian controllers at Atlantico. Position, altitude, estimates. It is the last time anyone on the ground will ever hear from them.",
+   "img": "ocean",
+   "stat": "01:35 UTC · LAST CONTACT",
+   "cap": "The last time anyone heard from them."
+  },
+  {
+   "id": "b5",
+   "text": "At 2:01, the captain does something completely normal. He leaves for his scheduled rest break, and hands the airplane to the two co-pilots. On an overnight crossing, this is standard on every airline in the world.",
+   "img": "cockpit",
+   "stat": "02:01 UTC",
+   "cap": "The captain leaves for his scheduled rest."
+  },
+  {
+   "id": "b6",
+   "text": "The junior co-pilot has the controls, in the right seat. Ahead of them, painted in green and yellow on the weather radar, the storms of the convergence zone are waiting. It is 8 minutes before the emergency.",
+   "img": "cockpit",
+   "cap": "8 minutes to the emergency."
+  },
+  {
+   "id": "b7",
+   "text": "High in those clouds live ice crystals unlike anything at ground level. Swarms of them, too small for weather radar to see clearly, at temperatures far below freezing. And they have a taste for one particular part of an airplane.",
+   "img": "itcz",
+   "cap": "Ice crystals radar can barely see."
+  },
+  {
+   "id": "b8",
+   "text": "The pitot tubes. Three small forward facing probes on the nose, that measure the speed of the air. Everything the computers know about how fast the plane is flying comes through these three little tubes.",
+   "img": "pitot",
+   "stat": "THE PITOT TUBES",
+   "cap": "Three small tubes tell the plane its speed."
+  },
+  {
+   "id": "b9",
+   "text": "And here is the part the passengers never knew. These exact probes, on this exact model, had a known problem with ice. It had happened before. The airline was already replacing them, fleet by fleet.",
+   "img": "pitot",
+   "statColor": "#FF4D4D",
+   "stat": "A KNOWN PROBLEM",
+   "cap": "A known icing problem. A fix already ordered."
+  },
+  {
+   "id": "b10",
+   "text": "The new probes were on their way. They arrived for this aircraft weeks too late. Flight 447 flew into the storm with the old ones.",
+   "img": "fgzcp",
+   "cap": "The new probes arrived weeks too late."
+  },
+  {
+   "id": "c3_t",
+   "text": "Chapter 3. Four minutes and twenty-three seconds.",
+   "chapter": "CHAPTER 3\nFour Minutes and Twenty-Three Seconds"
+  },
+  {
+   "id": "d1",
+   "text": "2:10 and 5 seconds, universal time. Inside the storm, ice crystals flood all three pitot tubes at once. The speed readings collapse. And the autopilot, suddenly blind, does exactly what it is designed to do. It quits.",
+   "img": "itcz",
+   "stat": "02:10:05 · AUTOPILOT OFF",
+   "statColor": "#FF4D4D",
+   "cap": "Ice floods the tubes. The autopilot quits."
+  },
+  {
+   "id": "d2",
+   "text": "A warning chime fills the cockpit. The flight controls degrade to what Airbus calls alternate law. In plain language, the computer protections that normally make this plane impossible to stall have just switched off.",
+   "img": "cockpit",
+   "stat": "ALTERNATE LAW",
+   "cap": "The stall protections just switched off."
+  },
+  {
+   "id": "d3",
+   "text": "The junior co-pilot takes the controls, exactly as he should. Listen to how calm it starts. These cockpit exchanges are recreations, using the official words from the flight's voice recorder, published by the French investigators.",
+   "img": "cockpit",
+   "cap": "It starts calm. These are the official words."
+  },
+  {
+   "id": "d4cvr",
+   "text": "I have the controls.",
+   "speaker": "PILOT FLYING",
+   "radioLabel": "CVR RECREATION",
+   "timestamp": "02:10:06 UTC",
+   "cap": "I have the controls."
+  },
+  {
+   "id": "d5",
+   "text": "Two seconds later, he makes the input that will define the rest of his life. Startled, in turbulence, in the dark, he pulls back on his side stick. The nose rises. The airplane begins to climb.",
+   "img": "cockpit",
+   "statColor": "#FF4D4D",
+   "stat": "HE PULLS BACK",
+   "cap": "Startled, in the dark — he pulls back."
+  },
+  {
+   "id": "d6",
+   "text": "Understand what has actually gone wrong here. Nothing. The engines are perfect. The wings are perfect. The plane is flying beautifully. Only the speed display is lying, and only for a few moments.",
+   "img": "a330",
+   "cap": "Nothing is actually broken. Only the speed display."
+  },
+  {
+   "id": "d7cvr",
+   "text": "We've lost the... the speeds.",
+   "speaker": "PILOT MONITORING",
+   "radioLabel": "CVR RECREATION",
+   "timestamp": "02:10:16 UTC",
+   "cap": "We've lost the speeds."
+  },
+  {
+   "id": "d8",
+   "text": "The other co-pilot sees the problem. There is a written procedure for exactly this failure. Hold the wings level, set a known pitch and power, and wait. The plane will fly on happily. Nobody reaches for that procedure.",
+   "img": "cockpit",
+   "cap": "There was a procedure for this. Nobody used it."
+  },
+  {
+   "id": "d9",
+   "text": "Instead, the aircraft is now climbing hard, trading its speed for altitude it does not need. From 35,000 feet, it soars toward 38,000, its nose reaching upward, the air growing thinner around its wings.",
+   "img": "itcz",
+   "stat": "CLIMBING · 7,000 FT/MIN",
+   "cap": "Climbing hard, on no one's orders."
+  },
+  {
+   "id": "d10cvr",
+   "text": "According to all three, you're going up. So go back down.",
+   "speaker": "PILOT MONITORING",
+   "radioLabel": "CVR RECREATION",
+   "timestamp": "02:10:33 UTC",
+   "cap": "You're going up. So go back down."
+  },
+  {
+   "id": "d11",
+   "text": "He sees it. He says it. The airplane is climbing and it must come down. For a moment the nose lowers, the situation almost stabilizes. Within about a minute, the ice melts. The speed displays come back. True readings.",
+   "img": "cockpit",
+   "cap": "The ice melts. The speeds come back. It's almost over."
+  },
+  {
+   "id": "d12",
+   "text": "Understand that. Barely a minute in, the original failure is over. The airplane is whole again. Every instrument is telling the truth. All they have to do now is nothing at all.",
+   "img": "a330",
+   "stat": "THE FAILURE IS ALREADY OVER",
+   "cap": "One minute in, the plane is whole again."
+  },
+  {
+   "id": "d13",
+   "text": "But in the right seat, the pulling continues. Small pulls, nervous pulls, in turbulence, in darkness, with alarms chattering. The nose stays high. The speed bleeds away. And then the airplane says the word.",
+   "img": "cockpit",
+   "statColor": "#FF4D4D",
+   "stat": "THE NOSE STAYS HIGH",
+   "cap": "The pulling continues. The speed bleeds away."
+  },
+  {
+   "id": "c4_t",
+   "text": "Chapter 4. The word nobody said.",
+   "chapter": "CHAPTER 4\nThe Word Nobody Said"
+  },
+  {
+   "id": "e1",
+   "text": "STALL. STALL. STALL. A synthetic voice, engineered to be impossible to ignore, fills the cockpit. It means one thing. The wings are about to stop flying. Push the nose down.",
+   "img": "cockpit",
+   "statColor": "#FF4D4D",
+   "stat": "STALL · STALL · STALL",
+   "cap": "The plane says the word: STALL."
+  },
+  {
+   "id": "e2",
+   "text": "Over the next four minutes, that warning will sound 75 separate times. At one point it blares continuously for 54 seconds straight. It is the loudest, clearest voice in the cockpit.",
+   "img": "cockpit",
+   "stat": "75 TIMES",
+   "statColor": "#FF4D4D",
+   "cap": "The stall warning sounded 75 times."
+  },
+  {
+   "id": "e3",
+   "text": "And in everything the three pilots say to each other, on the entire recording, not one of them ever says the word stall. Not once. They can hear it. They never believe it.",
+   "img": "ocean",
+   "cap": "Not one pilot ever says the word 'stall'."
+  },
+  {
+   "id": "e4",
+   "text": "Why? Partly because they had been taught, correctly, that this airplane cannot stall. That was true, under normal law, with the protections on. The protections had been off for a minute and a half.",
+   "img": "a330",
+   "cap": "They were taught this plane cannot stall."
+  },
+  {
+   "id": "e5",
+   "text": "At 38,000 feet, the wings finally give up. The angle of attack passes the point of no return, the smooth air over the wings tears away, and the Airbus, still nose high, begins to fall.",
+   "img": "itcz",
+   "statColor": "#FF4D4D",
+   "stat": "02:11:10 · THE STALL",
+   "cap": "At 38,000 feet, the wings give up."
+  },
+  {
+   "id": "e6cvr",
+   "text": "I'm in TOGA, eh.",
+   "speaker": "PILOT FLYING",
+   "radioLabel": "CVR RECREATION",
+   "timestamp": "02:11:03 UTC",
+   "cap": "Full takeoff power — the wrong answer up here."
+  },
+  {
+   "id": "e7",
+   "text": "He slams the thrust levers to takeoff power, the reflex every pilot learns for a stall near the ground. But up here, in air this thin, the engines cannot save a wing this deeply stalled. Only the nose going down can.",
+   "img": "a330",
+   "cap": "Up here, power can't save you. Only nose-down."
+  },
+  {
+   "id": "e8cvr",
+   "text": "But we've got the engines. What's happening? Do you understand what's happening, or not?",
+   "speaker": "PILOT MONITORING",
+   "radioLabel": "CVR RECREATION",
+   "timestamp": "02:11:21 UTC",
+   "cap": "Do you understand what's happening or not?"
+  },
+  {
+   "id": "e9",
+   "text": "The aircraft is now falling like nothing either man has ever experienced. Ten thousand feet per minute, nose held high, wings rocking, alarms layered on alarms. Their instruments show readings so extreme they refuse to believe them.",
+   "img": "ocean",
+   "stat": "FALLING 10,000 FT/MIN",
+   "statColor": "#FF4D4D",
+   "cap": "Falling faster than either man could imagine."
+  },
+  {
+   "id": "e10cvr",
+   "text": "I don't have control of the airplane any more now. I don't have control of the airplane at all.",
+   "speaker": "PILOT FLYING",
+   "radioLabel": "CVR RECREATION",
+   "timestamp": "02:11:33 UTC",
+   "cap": "I don't have control of the airplane at all."
+  },
+  {
+   "id": "e11",
+   "text": "In those two sentences lives the whole tragedy. Because the recorder shows the airplane obeying him, faithfully, to the very end. He has control. What he has lost is understanding.",
+   "img": "cockpit",
+   "cap": "He had control. He'd lost understanding."
+  },
+  {
+   "id": "c5_t",
+   "text": "Chapter 5. The captain returns.",
+   "chapter": "CHAPTER 5\nThe Captain Returns"
+  },
+  {
+   "id": "f1",
+   "text": "One minute and 38 seconds into the emergency, the cockpit door opens. The captain is back, dragged from his rest by the alarms. He stands behind the two seats, looking at an airplane falling out of the sky.",
+   "img": "cockpit",
+   "stat": "02:11:42 · THE CAPTAIN RETURNS",
+   "cap": "The captain returns to a falling airplane."
+  },
+  {
+   "id": "f2cvr",
+   "text": "Er... what are you doing?",
+   "speaker": "CAPTAIN",
+   "radioLabel": "CVR RECREATION",
+   "timestamp": "02:11:42 UTC",
+   "cap": "What are you doing?"
+  },
+  {
+   "id": "f3cvr",
+   "text": "We've lost all control of the aeroplane. We don't understand anything. We've tried everything.",
+   "speaker": "PILOT MONITORING",
+   "radioLabel": "CVR RECREATION",
+   "timestamp": "02:11:47 UTC",
+   "cap": "We don't understand anything. We've tried everything."
+  },
+  {
+   "id": "f4",
+   "text": "Put yourself in the captain's place. He has been out of the cockpit for the entire emergency. He arrives to a wall of alarms, two frightened co-pilots, instruments showing the impossible, and 30 seconds to diagnose it.",
+   "img": "cockpit",
+   "cap": "He has 30 seconds to diagnose the impossible."
+  },
+  {
+   "id": "f5",
+   "text": "And the airplane itself is lying to him in the cruelest way possible. Because of how the warning logic works, at the speeds they have now reached, the stall warning has fallen silent. The computers consider the data invalid.",
+   "img": "a330",
+   "statColor": "#FF4D4D",
+   "stat": "THE WARNING GOES SILENT",
+   "cap": "So deep in the stall, the warning gave up."
+  },
+  {
+   "id": "f6",
+   "text": "Worse. When the flying pilot briefly pushes the nose down, the correct action, the speed readings become valid again, and the stall warning comes BACK ON. Doing the right thing sounds like doing the wrong thing.",
+   "img": "cockpit",
+   "statColor": "#FF4D4D",
+   "stat": "THE WARNING INVERTED",
+   "cap": "The right move made the alarm come BACK."
+  },
+  {
+   "id": "f7",
+   "text": "The investigators would call this out directly. The one instrument that could have told them the truth in one glance, an angle of attack display, was not installed in this cockpit. It existed. It simply was not there.",
+   "img": "cockpit",
+   "cap": "The one gauge that would have told the truth wasn't installed."
+  },
+  {
+   "id": "f8cvr",
+   "text": "I have the impression we have some crazy speed. No? What do you think?",
+   "speaker": "PILOT FLYING",
+   "radioLabel": "CVR RECREATION",
+   "timestamp": "02:12:04 UTC",
+   "cap": "He thinks they're going too FAST."
+  },
+  {
+   "id": "f9",
+   "text": "He believes the opposite of the truth. He thinks the aircraft is overspeeding, diving too fast, when it is actually falling in a deep stall, mushing through the air at barely 100 knots of forward speed.",
+   "img": "ocean",
+   "cap": "He believed the exact opposite of the truth."
+  },
+  {
+   "id": "f10",
+   "text": "For two more minutes, three intelligent, trained men stand inside a paradox. Every instinct contradicts every instrument. The ocean is coming up at them through the dark at 180 feet every second.",
+   "img": "ocean",
+   "stat": "10,000 FT · FALLING",
+   "cap": "Three trained men, trapped inside a paradox."
+  },
+  {
+   "id": "f11cvr",
+   "text": "But I've been at maxi nose-up for a while!",
+   "speaker": "PILOT FLYING",
+   "radioLabel": "CVR RECREATION",
+   "timestamp": "02:13:41 UTC",
+   "cap": "The confession: maxi nose-up, the whole time."
+  },
+  {
+   "id": "f12",
+   "text": "There it is. The sentence that finally explains everything, spoken 2 minutes and 35 seconds into the fall. He has been holding the stick back almost the entire time. The captain understands instantly.",
+   "img": "cockpit",
+   "stat": "THE REVELATION",
+   "cap": "Finally — the sentence that explains everything."
+  },
+  {
+   "id": "f13cvr",
+   "text": "No, no, no... don't climb.",
+   "speaker": "CAPTAIN",
+   "radioLabel": "CVR RECREATION",
+   "timestamp": "02:13:43 UTC",
+   "cap": "No no no — don't climb."
+  },
+  {
+   "id": "f14",
+   "text": "The other co-pilot takes the controls and pushes the nose down. The wings begin, slowly, to find the air again. But they are passing through 9,000 feet, falling at 180 feet per second. The mathematics are already written.",
+   "img": "ocean",
+   "statColor": "#FF4D4D",
+   "stat": "TOO LOW · TOO LATE",
+   "cap": "The right inputs, at last — too late."
+  },
+  {
+   "id": "f15cvr",
+   "text": "We're going to crash. This can't be true. But what's happening?",
+   "speaker": "PILOT FLYING",
+   "radioLabel": "CVR RECREATION",
+   "timestamp": "02:14:24 UTC",
+   "cap": "This can't be true."
+  },
+  {
+   "id": "f16",
+   "text": "The last words on the recording belong to the captain. Calm, professional, still flying to the final second. Ten degrees, pitch attitude. At 2 hours, 14 minutes and 28 seconds, the recording ends.",
+   "img": "ocean",
+   "statColor": "#FF4D4D",
+   "stat": "02:14:28 · END OF RECORDING",
+   "cap": "Ten degrees pitch attitude. Then silence."
+  },
+  {
+   "id": "f17",
+   "text": "Air France 447 hit the ocean flat, belly first, at more than 10,000 feet per minute. It had fallen 38,000 feet in under 4 minutes, engines running perfectly, in an aircraft that was never broken. Nobody survived.",
+   "diagram": "counter",
+   "arg": "228|216 + 12|LIVES LOST",
+   "statColor": "#FF4D4D",
+   "stat": "228 DEAD",
+   "cap": "228 people. In a plane that was never broken."
+  },
+  {
+   "id": "c6_t",
+   "text": "Chapter 6. Twenty-four messages.",
+   "chapter": "CHAPTER 6\nTwenty-Four Messages"
+  },
+  {
+   "id": "g1",
+   "text": "Here is the part few people know. When flight 447 hit the water, nobody noticed. No radar saw it fall. No radio heard a mayday. The ocean closed over it, and the night simply continued.",
+   "img": "ocean",
+   "cap": "Nobody noticed. The night simply continued."
+  },
+  {
+   "id": "g2",
+   "text": "But the aircraft had left a trail. As it fell, its maintenance computer did what it was built to do. It phoned home. 24 automated fault messages, fired by satellite to Air France operations in Paris.",
+   "diagram": "quote",
+   "arg": "02:10 AUTO FLT AP OFF · 02:10 F/CTL ALTN LAW · 02:11 ADIRU FAULT · 02:14 CABIN VERTICAL SPEED||REAL ACARS TRANSMISSIONS · AF447",
+   "cap": "As it fell, the plane phoned home. 24 times."
+  },
+  {
+   "id": "g3",
+   "text": "Fourteen messages in the first minute alone. Autopilot off. Flight controls in alternate law. Air data faults. And then the last one, at 2:14. Cabin vertical speed advisory. The cabin was descending too fast.",
+   "img": "recorder",
+   "cap": "The final message: the cabin was falling."
+  },
+  {
+   "id": "g4",
+   "text": "Think about what that last message is. The airplane, reporting its own fall, in its final second of life. For the next two years, these 24 lines of text would be the only testimony that existed.",
+   "diagram": "quote",
+   "arg": "02:14 — ADVISORY: CABIN VERTICAL SPEED||THE FINAL ACARS MESSAGE · AF447",
+   "cap": "The plane reported its own fall."
+  },
+  {
+   "id": "g5",
+   "text": "In Paris, it is the middle of the night. The messages land in a maintenance queue, waiting for morning. When the flight fails to check in with air traffic control, confusion spreads slowly between control centers.",
+   "img": "cdg",
+   "cap": "The messages waited in a queue for morning."
+  },
+  {
+   "id": "g6",
+   "text": "The official distress phase was not declared until 6 and a half hours after the aircraft hit the water. For all that time, the world assumed flight 447 was simply flying, silent and unseen, across the dead zone.",
+   "img": "ocean",
+   "statColor": "#FF4D4D",
+   "stat": "6.5 HOURS OF SILENCE",
+   "cap": "For 6.5 hours, nobody declared an emergency."
+  },
+  {
+   "id": "g7",
+   "text": "Brazilian Air Force planes swept the ocean for days and found nothing but water. An Airbus A330 is 60 meters long. The search area was the size of a country. It had vanished into it.",
+   "img": "recovery",
+   "stat": "THE SEARCH BEGINS",
+   "cap": "The search area was the size of a country."
+  },
+  {
+   "id": "g8",
+   "text": "On the fifth day, they found it. Seat cushions. Luggage. And then, lifted dripping from the swell by the Brazilian Navy, the aircraft's vertical stabilizer, painted in the red and blue of Air France.",
+   "img": "recovery",
+   "stat": "DAY 5 · THE TAIL FIN",
+   "cap": "Day 5: the tail fin, lifted from the swell."
+  },
+  {
+   "id": "g9",
+   "text": "This is the actual photograph. That piece of the tail became the image of the disaster, printed on every front page on Earth. 50 victims were recovered from the surface in those first weeks.",
+   "img": "recovery",
+   "stat": "THE REAL PHOTOGRAPH",
+   "cap": "The image printed on every front page on Earth."
+  },
+  {
+   "id": "g10",
+   "text": "In Rio and Paris, families waited at the Air France counters as the airline confirmed the impossible. 228 names. Now the question that would consume France. Why does a perfect airliner fall out of the sky?",
+   "img": "families",
+   "cap": "228 names. And one impossible question: why?"
+  },
+  {
+   "id": "c7_t",
+   "text": "Chapter 7. The abyss.",
+   "chapter": "CHAPTER 7\nThe Abyss"
+  },
+  {
+   "id": "k1",
+   "text": "The answer lay in two orange boxes, somewhere at the bottom of the Atlantic. The flight data recorder and the cockpit voice recorder. Without them, the 24 messages were clues. With them, there would be truth.",
+   "img": "recorder",
+   "stat": "TWO ORANGE BOXES",
+   "cap": "The truth lay in two boxes at the bottom of the sea."
+  },
+  {
+   "id": "k2",
+   "text": "But the seabed here is not flat. It is a mountain range. Peaks and canyons, 4 kilometers down, in blackness no light has ever touched. The boxes' locator beacons pinged for 30 days, into water too deep to hear them.",
+   "img": "ocean",
+   "stat": "4,000 METERS DOWN",
+   "cap": "A mountain range, 4km down, in total blackness."
+  },
+  {
+   "id": "k3",
+   "text": "France sent a nuclear submarine. Ships dragged sonar for months. A first search found nothing. A second found nothing. A third, guided by drift calculations, found nothing. Two years passed.",
+   "img": "recovery",
+   "stat": "3 SEARCHES · NOTHING",
+   "cap": "A nuclear submarine. Months of sonar. Nothing."
+  },
+  {
+   "id": "k4",
+   "text": "The families began to fear the truth would never surface. Conspiracy theories bloomed in the vacuum. Terrorism. Lightning. A cover up. Without the boxes, every theory was as good as any other.",
+   "img": "families",
+   "cap": "In the vacuum, conspiracy theories bloomed."
+  },
+  {
+   "id": "k5",
+   "text": "For the fourth attempt, in 2011, the investigators hired the deep ocean group at Woods Hole, the American institution whose people had found the Titanic. They brought three of these. REMUS 6000 robots.",
+   "img": "remus",
+   "stat": "SEARCH #4 · WHOI",
+   "cap": "They hired the team that found the Titanic."
+  },
+  {
+   "id": "k6",
+   "text": "Torpedo shaped, autonomous, diving 20 hours at a time, flying search patterns over the abyssal plain like tireless bloodhounds. And in the first week of April 2011, on a flat plain between the mountains, there it was.",
+   "img": "remus",
+   "stat": "APRIL 2011",
+   "cap": "In week one, the robots found it."
+  },
+  {
+   "id": "k7",
+   "text": "A debris field, 3,900 meters down. Engines. Landing gear. Wing sections. The aircraft had come down largely intact and shattered on the water, and its pieces had rained down onto the seabed, nearly on top of its last known position.",
+   "img": "recovery",
+   "stat": "3,900 METERS",
+   "cap": "The debris field — almost exactly where it vanished."
+  },
+  {
+   "id": "k8",
+   "text": "On May 1st, 2011, a robotic arm lifted the flight data recorder from the silt. Two days later, the voice recorder. Twenty-three months after the crash, hauled up from a depth greater than the Titanic's grave.",
+   "img": "recorder",
+   "stat": "MAY 2011 · RECOVERED",
+   "cap": "23 months later, the boxes came up."
+  },
+  {
+   "id": "k9",
+   "text": "104 more victims were brought home from the wreck that spring. 74 remain in the Atlantic, at the site, to this day. Their families asked that the sea be left as their grave.",
+   "img": "recovery",
+   "statColor": "#FF4D4D",
+   "stat": "74 REMAIN",
+   "cap": "74 remain in the Atlantic to this day."
+  },
+  {
+   "id": "k10",
+   "text": "In a laboratory outside Paris, engineers dried the memory boards, connected them, and pressed play. Both recorders had survived. Every parameter, every word. For the first time, the investigators heard the night of June 1st, 2009.",
+   "img": "recorder",
+   "cap": "Both boxes had survived. Every word."
+  },
+  {
+   "id": "c8_t",
+   "text": "Chapter 8. What the boxes said.",
+   "chapter": "CHAPTER 8\nWhat the Boxes Said"
+  },
+  {
+   "id": "m1",
+   "text": "The French investigation bureau, the BEA, published its final report in July 2012. It is one of the most consequential documents in aviation history. And it refuses to tell the simple story.",
+   "img": "recorder",
+   "stat": "BEA FINAL REPORT · 2012",
+   "cap": "The report refused to tell the simple story."
+  },
+  {
+   "id": "m2",
+   "text": "The simple story is: the pilot pulled up when he should have pushed down. It is true, and it explains nothing. The report instead asks the only question that matters. Why did trained pilots do that?",
+   "img": "cockpit",
+   "cap": "'Pilot error' is true — and explains nothing."
+  },
+  {
+   "id": "m3",
+   "text": "The chain begins with the pitot probes. In the report's words, blockage by ice crystals was a known phenomenon, but misunderstood by the aviation community. Known. Already being fixed. Not fixed fast enough.",
+   "diagram": "quote",
+   "arg": "a phenomenon that was known but misunderstood by the aviation community||BEA FINAL REPORT · 5 JULY 2012",
+   "cap": "The icing was a KNOWN phenomenon."
+  },
+  {
+   "id": "m4",
+   "text": "Then the startle. The report describes a crew completely surprised, at night, in weather, by an alarm cascade they had never faced outside a classroom. The emergency began with fear, and fear never left the cockpit.",
+   "img": "cockpit",
+   "cap": "It began with startle. Fear never left the cockpit."
+  },
+  {
+   "id": "m5",
+   "text": "Then the training gap. The flying pilot had almost no experience hand flying at high altitude, because the industry had decided automation made that skill obsolete. When the automation left, it took his world with it.",
+   "img": "cockpit",
+   "stat": "THE TRAINING GAP",
+   "cap": "The industry had let hand-flying skills fade."
+  },
+  {
+   "id": "m6",
+   "text": "Then the machine's own psychology. A stall warning that fell silent in the deepest stall, and returned when he did the right thing. No angle of attack gauge. Two side sticks that move independently, so neither pilot feels what the other commands.",
+   "img": "a330",
+   "cap": "The machine's own logic worked against them."
+  },
+  {
+   "id": "m7",
+   "text": "That last one deserves a moment. Through much of the fall, the two pilots were making OPPOSITE inputs, one pushing, one pulling, and the sticks never told them. In an older aircraft with linked controls, each would have felt the other's hands.",
+   "img": "cockpit",
+   "statColor": "#FF4D4D",
+   "stat": "DUAL INPUT",
+   "cap": "One pushed. One pulled. Neither could feel it."
+  },
+  {
+   "id": "m8",
+   "text": "The report's conclusion, in its own words. The crew never understood they were in a stall situation, and therefore never undertook any recovery manoeuvres. They did not fail to save the plane. They never knew it needed saving.",
+   "diagram": "quote",
+   "arg": "the crew never understood they were in a stall situation||BEA FINAL REPORT · 5 JULY 2012",
+   "cap": "They never knew the plane needed saving."
+  },
+  {
+   "id": "m9",
+   "text": "And so the deaths of 228 people trace back, link by link, to three iced tubes, one startled pull, a warning system that lied by design, and an industry that had quietly stopped teaching pilots to fly.",
+   "img": "ocean",
+   "cap": "Three iced tubes — and a chain the industry built."
+  },
+  {
+   "id": "c9_t",
+   "text": "Chapter 9. The longest verdict.",
+   "chapter": "CHAPTER 9\nThe Longest Verdict"
+  },
+  {
+   "id": "p1",
+   "text": "The report changed flying. Pitot probes were replaced across the world fleet. Stall recovery training was rewritten from scratch. High altitude manual flying returned to the simulator. Every airline pilot today trains differently because of 447.",
+   "img": "a330",
+   "stat": "AVIATION CHANGED",
+   "cap": "Every pilot today trains differently because of 447."
+  },
+  {
+   "id": "p2",
+   "text": "But for the families, one question stayed open. Not what happened. Who answers for it. The probes were a known problem. The training gap was known. Somebody, somewhere, had accepted those risks on their behalf.",
+   "img": "families",
+   "cap": "The families' question: who ANSWERS for it?"
+  },
+  {
+   "id": "p3",
+   "text": "It took 13 years to bring Air France and Airbus into a criminal courtroom. In October 2022, in Paris, both companies stood trial for involuntary manslaughter. The first trial of its kind in French aviation history.",
+   "img": "court",
+   "stat": "PARIS · 2022",
+   "cap": "13 years to reach a criminal courtroom."
+  },
+  {
+   "id": "p4",
+   "text": "In April 2023, the verdict. Acquitted. Both companies. The court found negligence, but said it could not prove, to the criminal standard, that those failures directly caused the crash. Families wept in the courtroom.",
+   "img": "court",
+   "statColor": "#FF4D4D",
+   "stat": "2023 · ACQUITTED",
+   "cap": "Acquitted. Families wept in the courtroom."
+  },
+  {
+   "id": "p5",
+   "text": "That is where this story stood for years. It is where most tellings of it end. But it is not where it ends now.",
+   "img": "court",
+   "cap": "Most tellings end there. This one doesn't."
+  },
+  {
+   "id": "p6",
+   "text": "In May 2026, the Paris Court of Appeal overturned the acquittal. Air France, convicted, for failures in training its crews. Airbus, convicted, for failing to act on the known danger of its speed probes. Corporate manslaughter, both.",
+   "img": "court",
+   "stat": "MAY 2026 · CONVICTED",
+   "cap": "On appeal: CONVICTED. Both companies."
+  },
+  {
+   "id": "p7",
+   "text": "The fine, the maximum French law allows a company for this crime, was 225,000 euros each. Less than the price of one business class cabin. The families called the number an insult, and the verdict a victory.",
+   "img": "court",
+   "statColor": "#FF4D4D",
+   "stat": "€225,000 EACH",
+   "cap": "The maximum fine: less than one business cabin."
+  },
+  {
+   "id": "p8",
+   "text": "Airbus is appealing to France's highest court. Seventeen years after the tail fin was lifted from the Atlantic, the case of Air France 447 is, legally, still falling.",
+   "img": "recovery",
+   "cap": "17 years on, the case is still falling."
+  },
+  {
+   "id": "z1",
+   "text": "228 people died in an unbroken airplane, because three small tubes iced over for less than a minute, and everything human that surrounded that moment failed at once. The machine was fine. The system around it was not.",
+   "diagram": "counter",
+   "arg": "228|216 + 12|LIVES LOST",
+   "statColor": "#FF4D4D",
+   "stat": "228 NAMES",
+   "cap": "The machine was fine. The system was not."
+  },
+  {
+   "id": "z2",
+   "text": "Since that night, no passenger has died in a crash caused by the same chain. The probes, the training, the warnings, all rebuilt. That is the grim arithmetic of aviation. Safety rules are written in exactly this ink.",
+   "img": "a330",
+   "cap": "No one has died the same way since."
+  },
+  {
+   "id": "z3",
+   "text": "If this story gripped you, watch our breakdown of Colgan Air 3407 next, the crash where two exhausted pilots made the same fatal pull, at 2,000 feet instead of 38,000, and changed American law forever.",
+   "img": "q400ref",
+   "cap": "Next: the SAME fatal pull — at 2,000 feet."
+  },
+  {
+   "id": "z4",
+   "text": "And subscribe to Black Box. We take the biggest disasters in history apart, piece by piece, to show you the decisions hiding inside them. Because the truth is always in the details.",
+   "img": "fgzcp",
+   "cap": "Subscribe to Black Box."
+  }
+ ]
+}

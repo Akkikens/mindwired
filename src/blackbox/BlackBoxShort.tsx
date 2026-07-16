@@ -1,46 +1,50 @@
-/** Black Box Breakdown — vertical Short (1080×1920) cut from the boeing737max doc.
+/** Black Box Breakdown — vertical Short (1080×1920) cut from any Black Box doc.
  *
- *  Reuses the long-form's own narration audio + archival images for a chosen
- *  scene-id range, reframed vertical with big kinetic captions, a 2.5s hook card,
- *  and a closing CTA card. Funnels Shorts traffic → the full doc.
+ *  Reuses a doc's own audio (narration / real ATC / CVR recreations) + its
+ *  images/NTSB video for a chosen scene-id range, reframed vertical with big
+ *  captions, a 2.5s hook card, and the vertical Reid subscribe outro baked on
+ *  the end (public/outro/subscribe_blackbox_short.mp4 — reused, never regenerated).
  *
- *  One comp per Short via defaultProps {startId, endId, hook, cta}. Register in
- *  Root as a 1080×1920 Composition; duration = sum of clip audio + hook + cta.
+ *  Generic: pass {slug, doc, manifest, startId, endId, hook}. Defaults to the
+ *  boeing737max doc for back-compat with the existing 737 MAX Shorts.
+ *  One render per Short (outro baked in — no ffmpeg concat).
  */
 import React from "react";
 import {
-  AbsoluteFill, Audio, Img, Sequence, interpolate, spring,
+  AbsoluteFill, Audio, Img, OffthreadVideo, Sequence, interpolate, spring,
   staticFile, useCurrentFrame,
 } from "remotion";
 import "../lib/fonts";
-import doc from "../mindwired-doc/docs/boeing737max.json";
-import manifest from "../mindwired-doc/docs/boeing737max.manifest.json";
+import doc737 from "../mindwired-doc/docs/boeing737max.json";
+import manifest737 from "../mindwired-doc/docs/boeing737max.manifest.json";
 
 const FPS = 30;
-const ACCENT = "#FF9500"; // Black Box orange
+const ACCENT = "#FF9500";
 const DISPLAY = "'Space Grotesk', sans-serif";
 const BODY = "'Inter', sans-serif";
-const HOOK_S = 2.5, CTA_S = 3.0, PAD = 0.15;
+const HOOK_S = 2.5, PAD = 0.15;
+const OUTRO_F = 240; // vertical Reid outro (8s), baked on the end
 
-type Scene = { id: string; text?: string; img?: string; cap?: string; stat?: string };
-const DUR: Record<string, number> = (manifest as any).durations;
-const IMG: Record<string, string[]> = (manifest as any).images;
+type Scene = { id: string; text?: string; img?: string; cap?: string; stat?: string;
+  video?: string; videoFrom?: number; speaker?: string; radioLabel?: string };
+type Doc = { scenes: Scene[] };
+type Manifest = { durations: Record<string, number>; images: Record<string, string[]> };
+type Props = { startId: string; endId: string; hook: string;
+  slug?: string; doc?: Doc; manifest?: Manifest; cta?: string };
 
-type Props = { startId: string; endId: string; hook: string; cta?: string };
-
-const range = (startId: string, endId: string): Scene[] => {
-  const ids = (doc.scenes as Scene[]).map(s => s.id);
-  const a = ids.indexOf(startId), b = ids.indexOf(endId);
-  return (doc.scenes as Scene[]).slice(a, b + 1);
+const range = (doc: Doc, startId: string, endId: string): Scene[] => {
+  const ids = doc.scenes.map(s => s.id);
+  return doc.scenes.slice(ids.indexOf(startId), ids.indexOf(endId) + 1);
 };
-const clipF = (s: Scene) => Math.round(((DUR[s.id] ?? 3) + PAD) * FPS);
+const clipF = (m: Manifest, s: Scene) => Math.round(((m.durations[s.id] ?? 3) + PAD) * FPS);
 
-export const blackBoxShortFrames = ({ startId, endId }: Props) =>
-  Math.round(HOOK_S * FPS) + range(startId, endId).reduce((a, s) => a + clipF(s), 0) + Math.round(CTA_S * FPS);
+export const blackBoxShortFrames = ({ startId, endId, doc = doc737 as Doc, manifest = manifest737 as Manifest }:
+  { startId: string; endId: string; doc?: Doc; manifest?: Manifest }) =>
+  Math.round(HOOK_S * FPS) + range(doc, startId, endId).reduce((a, s) => a + clipF(manifest, s), 0) + OUTRO_F;
 
 const Brand: React.FC = () => (
-  <div style={{ position: "absolute", top: 70, left: 0, right: 0, textAlign: "center" }}>
-    <span style={{ fontFamily: DISPLAY, fontWeight: 800, fontSize: 40, letterSpacing: 2, color: "#fff" }}>
+  <div style={{ position: "absolute", top: 66, left: 0, right: 0, textAlign: "center" }}>
+    <span style={{ fontFamily: DISPLAY, fontWeight: 800, fontSize: 38, letterSpacing: 2, color: "#fff" }}>
       BLACK BOX <span style={{ color: ACCENT }}>▪</span> BREAKDOWN
     </span>
   </div>
@@ -53,76 +57,76 @@ const HookCard: React.FC<{ hook: string }> = ({ hook }) => {
     <AbsoluteFill style={{ backgroundColor: "#0A0C10", justifyContent: "center", alignItems: "center", padding: 90 }}>
       <div style={{ opacity: sp, transform: `translateY(${interpolate(sp, [0, 1], [40, 0])}px)`, textAlign: "center" }}>
         <div style={{ width: 90, height: 8, background: ACCENT, margin: "0 auto 40px", borderRadius: 4 }} />
-        <div style={{ fontFamily: DISPLAY, fontWeight: 800, fontSize: 96, lineHeight: 1.1, color: "#fff", whiteSpace: "pre-line" }}>{hook}</div>
+        <div style={{ fontFamily: DISPLAY, fontWeight: 800, fontSize: 104, lineHeight: 1.08, color: "#fff", whiteSpace: "pre-line" }}>{hook}</div>
       </div>
     </AbsoluteFill>
   );
 };
 
-const ClipScene: React.FC<{ s: Scene; idx: number; dur: number }> = ({ s, idx, dur }) => {
+const ClipScene: React.FC<{ s: Scene; idx: number; dur: number; slug: string; m: Manifest }> = ({ s, idx, dur, slug, m }) => {
   const f = useCurrentFrame();
-  const files = (s.img && IMG[s.img]) || [];
-  const file = files.length ? files[idx % files.length] : null;
   const t = f / dur;
+  const files = (s.img && m.images[s.img]) || [];
+  const file = files.length ? files[idx % files.length] : null;
   const scale = interpolate(t, [0, 1], [1.12, 1.24]);
   const dx = interpolate(t, [0, 1], [0, (idx % 2 ? -1 : 1) * 24]);
   const capIn = spring({ frame: f - 2, fps: FPS, config: { damping: 18 } });
+  const isRadio = !!s.speaker;
   return (
-    <AbsoluteFill style={{ backgroundColor: "#000" }}>
-      {file && (
-        <Img src={staticFile(`shorts/boeing737max/images/${file}`)}
+    <AbsoluteFill style={{ backgroundColor: "#05070C" }}>
+      {s.video ? (
+        <AbsoluteFill style={{ justifyContent: "center", alignItems: "center" }}>
+          <OffthreadVideo src={staticFile(`shorts/${slug}/video/${s.video}`)} muted
+            startFrom={Math.round((s.videoFrom ?? 0) * FPS)}
+            style={{ width: "100%", height: "100%", objectFit: "contain" }} />
+        </AbsoluteFill>
+      ) : file ? (
+        <Img src={staticFile(`shorts/${slug}/images/${file}`)}
           style={{ width: "100%", height: "100%", objectFit: "cover",
             transform: `scale(${scale}) translateX(${dx}px)`, filter: "saturate(0.9) contrast(1.08)" }} />
-      )}
-      <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(10,12,16,0.85) 0%, transparent 22%, transparent 46%, rgba(10,12,16,0.92) 78%)" }} />
+      ) : null}
+      <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(5,7,12,0.85) 0%, transparent 24%, transparent 44%, rgba(5,7,12,0.94) 76%)" }} />
       <Brand />
-      <div style={{ position: "absolute", bottom: 300, left: 60, right: 60,
+      {isRadio && (
+        <div style={{ position: "absolute", top: 150, left: 0, right: 0, textAlign: "center" }}>
+          <span style={{ fontFamily: DISPLAY, fontWeight: 700, fontSize: 30, letterSpacing: 5,
+            color: s.radioLabel?.includes("ACTUAL") ? "#7CFC9B" : ACCENT,
+            border: `2px solid ${s.radioLabel?.includes("ACTUAL") ? "#7CFC9B" : ACCENT}`, padding: "8px 22px", borderRadius: 8 }}>
+            {s.radioLabel ?? "CVR RECREATION"} · {s.speaker}
+          </span>
+        </div>
+      )}
+      <div style={{ position: "absolute", bottom: 320, left: 60, right: 60,
         transform: `translateY(${interpolate(capIn, [0, 1], [30, 0])}px)`, opacity: capIn }}>
-        <span style={{ fontFamily: BODY, fontWeight: 700, fontSize: 62, lineHeight: 1.28, color: "#fff",
+        <span style={{ fontFamily: BODY, fontWeight: 800, fontSize: 68, lineHeight: 1.26, color: "#fff",
           textShadow: "0 3px 22px rgba(0,0,0,0.95)" }}>
-          {s.cap || s.text}
+          {isRadio ? `“${s.cap || s.text}”` : (s.cap || s.text)}
         </span>
       </div>
     </AbsoluteFill>
   );
 };
 
-const CtaCard: React.FC<{ cta: string }> = ({ cta }) => {
-  const f = useCurrentFrame();
-  const sp = spring({ frame: f, fps: FPS, config: { damping: 14 } });
-  return (
-    <AbsoluteFill style={{ backgroundColor: "#0A0C10", justifyContent: "center", alignItems: "center", padding: 90 }}>
-      <div style={{ opacity: sp, textAlign: "center" }}>
-        <div style={{ fontFamily: DISPLAY, fontWeight: 800, fontSize: 78, color: "#fff", lineHeight: 1.15, whiteSpace: "pre-line" }}>{cta}</div>
-        <div style={{ marginTop: 50, fontFamily: DISPLAY, fontWeight: 800, fontSize: 46, letterSpacing: 2,
-          color: "#0A0C10", background: ACCENT, padding: "20px 46px", borderRadius: 16, display: "inline-block" }}>
-          ▶ FULL BREAKDOWN
-        </div>
-        <div style={{ marginTop: 40, fontFamily: DISPLAY, fontWeight: 800, fontSize: 40, letterSpacing: 2, color: "#fff" }}>
-          BLACK BOX <span style={{ color: ACCENT }}>▪</span> BREAKDOWN
-        </div>
-      </div>
-    </AbsoluteFill>
-  );
-};
-
-export const BlackBoxShort: React.FC<Props> = ({ startId, endId, hook, cta = "The full story of how\nBoeing killed 346 people" }) => {
-  const scenes = range(startId, endId);
+export const BlackBoxShort: React.FC<Props> = ({ startId, endId, hook, slug = "boeing737max", doc = doc737 as Doc, manifest = manifest737 as Manifest }) => {
+  const scenes = range(doc, startId, endId);
   let cursor = Math.round(HOOK_S * FPS);
+  const clipsEnd = cursor + scenes.reduce((a, s) => a + clipF(manifest, s), 0);
   return (
     <AbsoluteFill style={{ backgroundColor: "#000" }}>
       <Sequence durationInFrames={Math.round(HOOK_S * FPS)} name="hook"><HookCard hook={hook} /></Sequence>
       {scenes.map((s, i) => {
-        const from = cursor; const dur = clipF(s); cursor += dur;
+        const from = cursor; const dur = clipF(manifest, s); cursor += dur;
         return (
           <Sequence key={s.id} from={from} durationInFrames={dur} name={s.id}>
-            <ClipScene s={s} idx={i} dur={dur} />
-            <Audio src={staticFile(`shorts/boeing737max/audio/${s.id}.mp3`)} />
+            <ClipScene s={s} idx={i} dur={dur} slug={slug} m={manifest} />
+            <Audio src={staticFile(`shorts/${slug}/audio/${s.id}.mp3`)} />
           </Sequence>
         );
       })}
-      <Sequence from={cursor} durationInFrames={Math.round(CTA_S * FPS)} name="cta">
-        <CtaCard cta={cta} />
+      {/* vertical Reid subscribe outro baked on the end (reused asset) */}
+      <Sequence from={clipsEnd} durationInFrames={OUTRO_F} name="outro">
+        <OffthreadVideo src={staticFile("outro/subscribe_blackbox_short.mp4")}
+          style={{ width: "100%", height: "100%", objectFit: "cover" }} />
       </Sequence>
     </AbsoluteFill>
   );

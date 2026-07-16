@@ -9,6 +9,8 @@ import { GreatAttractor, attractorTotalFrames } from "./attractor/Video";
 import { AttractorThumbnail } from "./attractor/Thumbnail";
 import { GTAVIWeather, gtaviTotalFrames } from "./gtavi/Video";
 import { GTAVIThumbnail } from "./gtavi/Thumbnail";
+import { FraSpaThumbnail } from "./fra-spa/Thumbnail";
+import { ArgEngThumbnail } from "./fra-spa/ArgEngThumbnail";
 import { MotionEnergyDemo, MOTION_DEMO_FRAMES } from "./demo/MotionEnergyDemo";
 import { ClipSceneDemo, CLIP_DEMO_FRAMES } from "./demo/ClipSceneDemo";
 import { ScariestPlaces, scariestTotalFrames } from "./scariest/Video";
@@ -32,7 +34,16 @@ import atomDeathsDoc from "./mindwired-doc/docs/atomdeaths.json";
 import atomDeathsManifest from "./mindwired-doc/docs/atomdeaths.manifest.json";
 import boeing737maxDoc from "./mindwired-doc/docs/boeing737max.json";
 import boeing737maxManifest from "./mindwired-doc/docs/boeing737max.manifest.json";
-import { SubscribeBlackBoxLong, subscribeBlackBoxFrames } from "./blackbox/SubscribeOutro";
+import { SubscribeBlackBoxLong, subscribeBlackBoxFrames, SubscribeBlackBoxShort, subscribeBlackBoxShortFrames } from "./blackbox/SubscribeOutro";
+import colgan3407Doc from "./mindwired-doc/docs/colgan3407.json";
+import colgan3407Manifest from "./mindwired-doc/docs/colgan3407.manifest.json";
+import af447Doc from "./mindwired-doc/docs/af447.json";
+import af447Manifest from "./mindwired-doc/docs/af447.manifest.json";
+// Subscribe outro baked into the render (ONE render, no ffmpeg concat). frames @30fps.
+const BB_OUTRO = { file: "outro/subscribe_blackbox_long.mp4", frames: 483 };
+const MW_OUTRO = { file: "outro/subscribe_mindwired_long.mp4", frames: 527 };
+import lostCosmonautsDoc from "./mindwired-doc/docs/lostcosmonauts.json";
+import lostCosmonautsManifest from "./mindwired-doc/docs/lostcosmonauts.manifest.json";
 import { EndOfTimeEpic, endOfTimeTotalFrames } from "./endoftime/EndOfTimeEpic";
 import moonStrandedDoc from "./mindwired-doc/docs/moonstranded.json";
 import moonStrandedManifest from "./mindwired-doc/docs/moonstranded.manifest.json";
@@ -63,6 +74,14 @@ import { BrandIntro, BRAND_INTRO_FRAMES } from "./components/BrandIntro";
 import { ShortManifest, VisualPlan } from "./viral/lib/types";
 import roguebhPlanJson from "./viral/plans/roguebh.json";
 import roguebhManifestJson from "../public/shorts/roguebh/audio/manifest.json";
+import erasedmanPlanJson from "./viral/plans/erasedman.json";
+import erasedmanManifestJson from "../public/shorts/erasedman/audio/manifest.json";
+import womantapePlanJson from "./viral/plans/womantape.json";
+import womantapeManifestJson from "../public/shorts/womantape/audio/manifest.json";
+import marshalchairPlanJson from "./viral/plans/marshalchair.json";
+import marshalchairManifestJson from "../public/shorts/marshalchair/audio/manifest.json";
+import landeddeadPlanJson from "./viral/plans/landeddead.json";
+import landeddeadManifestJson from "../public/shorts/landeddead/audio/manifest.json";
 import cosmicspeedPlanJson from "./viral/plans/cosmicspeed.json";
 import cosmicspeedManifestJson from "../public/shorts/cosmicspeed/audio/manifest.json";
 import biggeststarPlanJson from "./viral/plans/biggeststar.json";
@@ -128,6 +147,14 @@ import invisibleopponentCutsJson from "./viral/plans/invisibleopponent.shorts.js
 import portugalspainPlanJson from "./viral/plans/portugalspain.json";
 import portugalspainManifestJson from "../public/shorts/portugalspain/audio/manifest.json";
 import portugalspainCutsJson from "./viral/plans/portugalspain.shorts.json";
+import fraSpaSemiPlanJson from "./viral/plans/fra-spa-semi.json";
+import fraSpaSemiManifestJson from "../public/shorts/fra-spa-semi/audio/manifest.json";
+import fraSpaFinalPlanJson from "./viral/plans/fra-spa-final.json";
+import fraSpaFinalManifestJson from "../public/shorts/fra-spa-final/audio/manifest.json";
+import argEngSemiPlanJson from "./viral/plans/arg-eng-semi.json";
+import argEngSemiManifestJson from "../public/shorts/arg-eng-semi/audio/manifest.json";
+import argEngFinalPlanJson from "./viral/plans/arg-eng-final.json";
+import argEngFinalManifestJson from "../public/shorts/arg-eng-final/audio/manifest.json";
 import var5PlanJson from "./viral/plans/var5.json";
 import var5ManifestJson from "../public/shorts/var5/audio/manifest.json";
 import var5CutsJson from "./viral/plans/var5.shorts.json";
@@ -147,6 +174,14 @@ import subKoShortManifestJson from "../public/shorts/subscribe-kickoffdaily90-sh
 
 const roguebhPlan = roguebhPlanJson as unknown as VisualPlan;
 const roguebhManifest = roguebhManifestJson as unknown as ShortManifest;
+const erasedmanPlan = erasedmanPlanJson as unknown as VisualPlan;
+const erasedmanManifest = erasedmanManifestJson as unknown as ShortManifest;
+const womantapePlan = womantapePlanJson as unknown as VisualPlan;
+const womantapeManifest = womantapeManifestJson as unknown as ShortManifest;
+const marshalchairPlan = marshalchairPlanJson as unknown as VisualPlan;
+const marshalchairManifest = marshalchairManifestJson as unknown as ShortManifest;
+const landeddeadPlan = landeddeadPlanJson as unknown as VisualPlan;
+const landeddeadManifest = landeddeadManifestJson as unknown as ShortManifest;
 
 // ── Cosmic-speed Short (AstroKobi-style): Hume VO + Veo/Higgsfield b-roll ──
 const cosmicspeedPlan = cosmicspeedPlanJson as unknown as VisualPlan;
@@ -187,6 +222,14 @@ const invisibleopponentCuts = invisibleopponentCutsJson as unknown as Array<Visu
 const portugalspainPlan = portugalspainPlanJson as unknown as VisualPlan;
 const portugalspainManifest = portugalspainManifestJson as unknown as ShortManifest;
 const portugalspainCuts = portugalspainCutsJson as unknown as Array<VisualPlan & { cutId: string }>;
+const fraSpaSemiPlan = fraSpaSemiPlanJson as unknown as VisualPlan;
+const fraSpaSemiManifest = fraSpaSemiManifestJson as unknown as ShortManifest;
+const fraSpaFinalPlan = fraSpaFinalPlanJson as unknown as VisualPlan;
+const fraSpaFinalManifest = fraSpaFinalManifestJson as unknown as ShortManifest;
+const argEngSemiPlan = argEngSemiPlanJson as unknown as VisualPlan;
+const argEngSemiManifest = argEngSemiManifestJson as unknown as ShortManifest;
+const argEngFinalPlan = argEngFinalPlanJson as unknown as VisualPlan;
+const argEngFinalManifest = argEngFinalManifestJson as unknown as ShortManifest;
 const var5Plan = var5PlanJson as unknown as VisualPlan;
 const var5Manifest = var5ManifestJson as unknown as ShortManifest;
 const wcNeymarLegacyPlan = wcNeymarLegacyPlanJson as unknown as VisualPlan;
@@ -319,6 +362,43 @@ export const RemotionRoot: React.FC = () => {
         component={ViralShort}
         defaultProps={{ plan: roguebhPlan, manifest: roguebhManifest }}
         durationInFrames={viralShortFrames(roguebhPlan, roguebhManifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      {/* ── Lost Cosmonauts Shorts funnel (archival broll, cloned channel voice) ── */}
+      <Composition
+        id="ShortErasedMan"
+        component={ViralShort}
+        defaultProps={{ plan: erasedmanPlan, manifest: erasedmanManifest }}
+        durationInFrames={viralShortFrames(erasedmanPlan, erasedmanManifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ShortWomanTape"
+        component={ViralShort}
+        defaultProps={{ plan: womantapePlan, manifest: womantapeManifest }}
+        durationInFrames={viralShortFrames(womantapePlan, womantapeManifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ShortMarshalChair"
+        component={ViralShort}
+        defaultProps={{ plan: marshalchairPlan, manifest: marshalchairManifest }}
+        durationInFrames={viralShortFrames(marshalchairPlan, marshalchairManifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ShortLandedDead"
+        component={ViralShort}
+        defaultProps={{ plan: landeddeadPlan, manifest: landeddeadManifest }}
+        durationInFrames={viralShortFrames(landeddeadPlan, landeddeadManifest)}
         fps={30}
         width={1080}
         height={1920}
@@ -551,6 +631,47 @@ export const RemotionRoot: React.FC = () => {
           height={1920}
         />
       ))}
+      {/* ── France 0-2 Spain WC semi-final (2026-07-14). Real-photo stat videos:
+          the 9:16 "silent superstars" Short + the 16:9 "Spain in the final"
+          landscape (Fable script). kickoffdaily90; append short/long outro. ── */}
+      <Composition
+        id="ShortFraSpaSemi"
+        component={ViralShort}
+        defaultProps={{ plan: fraSpaSemiPlan, manifest: fraSpaSemiManifest }}
+        durationInFrames={viralShortFrames(fraSpaSemiPlan, fraSpaSemiManifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="FraSpaFinalWide"
+        component={ViralShort}
+        defaultProps={{ plan: fraSpaFinalPlan, manifest: fraSpaFinalManifest }}
+        durationInFrames={viralShortFrames(fraSpaFinalPlan, fraSpaFinalManifest)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      {/* ── Argentina 2-1 England WC semi-final (2026-07-15). Messi's late-show
+          comeback: 16:9 landscape + 9:16 Short, real CC/PD photos. ── */}
+      <Composition
+        id="ShortArgEngSemi"
+        component={ViralShort}
+        defaultProps={{ plan: argEngSemiPlan, manifest: argEngSemiManifest }}
+        durationInFrames={viralShortFrames(argEngSemiPlan, argEngSemiManifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ArgEngFinalWide"
+        component={ViralShort}
+        defaultProps={{ plan: argEngFinalPlan, manifest: argEngFinalManifest }}
+        durationInFrames={viralShortFrames(argEngFinalPlan, argEngFinalManifest)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
       {/* ── 16:9 widescreen re-renders of the 5 kickoffdaily90 live-loop stat
           videos, for the second live stream. Same plan/manifest as the
           vertical versions — board:true scenes render identically at any
@@ -627,6 +748,16 @@ export const RemotionRoot: React.FC = () => {
         height={1080}
       />
 
+      {/* ── mindwired — archival documentary: The Cosmonauts the Soviets Erased ── */}
+      <Composition
+        id="LostCosmonautsDoc"
+        component={makeDocComp(lostCosmonautsDoc, lostCosmonautsManifest, MW_OUTRO)}
+        durationInFrames={docTotalFrames(lostCosmonautsDoc, lostCosmonautsManifest, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
       {/* ── mindwired — archival documentary: Every Way Space Has Killed a Human ── */}
       <Composition
         id="SpaceDeathsDoc"
@@ -670,8 +801,28 @@ export const RemotionRoot: React.FC = () => {
       {/* ── mindwired — archival documentary: How Boeing Killed 346 People (737 MAX) ── */}
       <Composition
         id="Boeing737MaxDoc"
-        component={makeDocComp(boeing737maxDoc, boeing737maxManifest)}
-        durationInFrames={docTotalFrames(boeing737maxDoc, boeing737maxManifest)}
+        component={makeDocComp(boeing737maxDoc, boeing737maxManifest, BB_OUTRO)}
+        durationInFrames={docTotalFrames(boeing737maxDoc, boeing737maxManifest, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Black Box Breakdown — archival documentary: Colgan Air 3407 ── */}
+      <Composition
+        id="Colgan3407Doc"
+        component={makeDocComp(colgan3407Doc, colgan3407Manifest, BB_OUTRO)}
+        durationInFrames={docTotalFrames(colgan3407Doc, colgan3407Manifest, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Black Box Breakdown — archival documentary: Air France 447 ── */}
+      <Composition
+        id="AF447Doc"
+        component={makeDocComp(af447Doc, af447Manifest, BB_OUTRO)}
+        durationInFrames={docTotalFrames(af447Doc, af447Manifest, BB_OUTRO)}
         fps={30}
         width={1920}
         height={1080}
@@ -685,6 +836,14 @@ export const RemotionRoot: React.FC = () => {
         fps={30}
         width={1920}
         height={1080}
+      />
+      <Composition
+        id="SubscribeBlackBoxShort"
+        component={SubscribeBlackBoxShort}
+        durationInFrames={subscribeBlackBoxShortFrames}
+        fps={30}
+        width={1080}
+        height={1920}
       />
 
       {/* ── DimaagBatti — archival documentary: East India Company ── */}
@@ -741,6 +900,8 @@ export const RemotionRoot: React.FC = () => {
       <Still id="DimaagBattiWW2EpicThumbHi" component={WW2EpicThumb} defaultProps={{ lang: "hi" as const }} width={1280} height={720} />
       <Still id="DimaagBattiWW2EpicThumbEn" component={WW2EpicThumb} defaultProps={{ lang: "en" as const }} width={1280} height={720} />
       <Still id="WW2EpicEnThumbMW" component={WW2EpicEnThumb} width={1280} height={720} />
+      <Still id="FraSpaThumbnail" component={FraSpaThumbnail} width={1280} height={720} />
+      <Still id="ArgEngThumbnail" component={ArgEngThumbnail} width={1280} height={720} />
       <Still id="SpaceDeathsHiThumbDB" component={SpaceDeathsHiThumb} width={1280} height={720} />
       <Still id="EastIndiaThumbDB" component={EastIndiaThumb} width={1280} height={720} />
       <Still id="AtomDeathsThumbMW" component={AtomDeathsThumb} width={1280} height={720} />
@@ -771,6 +932,27 @@ export const RemotionRoot: React.FC = () => {
         durationInFrames={blackBoxShortFrames({ startId: "e3", endId: "e6", hook: "Boeing DELETED it\nfrom the manual" })}
         fps={30} width={1080} height={1920}
         defaultProps={{ startId: "e3", endId: "e6", hook: "Boeing DELETED it\nfrom the manual", cta: "How Boeing hid MCAS\nfrom its own pilots" }}
+      />
+      <Composition
+        id="ColganShort1"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "h4", endId: "h6", doc: colgan3407Doc as any, manifest: colgan3407Manifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "h4", endId: "h6", hook: "$16,000\nA YEAR\nto fly you", slug: "colgan3407", doc: colgan3407Doc as any, manifest: colgan3407Manifest as any }}
+      />
+      <Composition
+        id="ColganShort2"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "g1", endId: "g4", doc: colgan3407Doc as any, manifest: colgan3407Manifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "g1", endId: "g4", hook: "The last\n27 seconds", slug: "colgan3407", doc: colgan3407Doc as any, manifest: colgan3407Manifest as any }}
+      />
+      <Composition
+        id="ColganShort3"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "m1", endId: "m4", doc: colgan3407Doc as any, manifest: colgan3407Manifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "m1", endId: "m4", hook: "They blamed\nthe ice.\nThe NTSB didn't.", slug: "colgan3407", doc: colgan3407Doc as any, manifest: colgan3407Manifest as any }}
       />
       <Composition
         id="BoeingShort4"

@@ -1,0 +1,1152 @@
+1
+00:00:00,333 --> 00:00:06,707
+For three and a half minutes, a perfectly working airliner fell out of the night sky toward the Atlantic Ocean.
+
+2
+00:00:06,707 --> 00:00:09,256
+Its engines ran flawlessly all the way down.
+
+3
+00:00:09,256 --> 00:00:13,081
+And the two pilots at the controls never understood they were falling.
+
+4
+00:00:14,200 --> 00:00:18,763
+228 people took off from Rio de Janeiro, bound for Paris.
+
+5
+00:00:18,763 --> 00:00:24,571
+Somewhere over the middle of the ocean, beyond all radar, their aircraft simply vanished.
+
+6
+00:00:25,699 --> 00:00:37,350
+For almost two years, the only witnesses were 24 automated maintenance messages, sent by the dying aircraft itself, to a computer in Paris that nobody was watching at 2 in the morning.
+
+7
+00:00:38,500 --> 00:00:40,939
+The wreck lay deeper than the Titanic.
+
+8
+00:00:40,939 --> 00:00:47,910
+It took four search expeditions and robots from the team that found the Titanic to bring the black boxes back.
+
+9
+00:00:47,910 --> 00:00:50,699
+What was on them stunned the aviation world.
+
+10
+00:00:51,833 --> 00:00:54,535
+I don't have control of the airplane any more now.
+
+11
+00:00:54,535 --> 00:00:56,967
+I don't have control of the airplane at all.
+
+12
+00:00:58,100 --> 00:00:59,772
+But he did have control.
+
+13
+00:00:59,772 --> 00:01:04,455
+The airplane did everything he asked of it, all the way to the water.
+
+14
+00:01:04,455 --> 00:01:08,469
+That is what makes this the most haunting crash in modern aviation.
+
+15
+00:01:08,469 --> 00:01:10,141
+This is the full story.
+
+16
+00:01:11,266 --> 00:01:16,099
+Titanic of the skies. The fall of Air France 447.
+
+17
+00:01:17,233 --> 00:01:20,080
+Chapter 1. The last flight out of Rio.
+
+18
+00:01:21,200 --> 00:01:26,159
+May 31st, 2009. Rio de Janeiro, Galeão airport.
+
+19
+00:01:26,159 --> 00:01:32,979
+Air France flight 447 boards for the overnight run to Paris.
+
+20
+00:01:32,979 --> 00:01:39,798
+216 passengers from 32 countries. Honeymooners. Doctors. Three children under 12.
+
+21
+00:01:40,933 --> 00:01:43,026
+The aircraft is this one.
+
+22
+00:01:43,026 --> 00:01:50,144
+F-GZCP, an Airbus A330, four years old, one of the most advanced and safest airliners ever built.
+
+23
+00:01:50,144 --> 00:01:56,006
+This photograph was taken at Charles de Gaulle, the airport it will never reach.
+
+24
+00:01:57,133 --> 00:02:00,618
+The A330 is a fly by wire machine.
+
+25
+00:02:00,618 --> 00:02:08,896
+Computers sit between the pilots and the wings, quietly smoothing every input, and making it almost impossible to stall.
+
+26
+00:02:08,896 --> 00:02:09,332
+Almost.
+
+27
+00:02:10,466 --> 00:02:16,799
+In the cockpit are three pilots. The captain, 58 years old, nearly 11,000 flight hours.
+
+28
+00:02:16,799 --> 00:02:23,553
+And two co-pilots, because a 10 hour overnight crossing requires the crew to sleep in shifts.
+
+29
+00:02:24,700 --> 00:02:28,823
+The junior of them is 32 years old, with 2,900 hours.
+
+30
+00:02:28,823 --> 00:02:31,822
+He is fully qualified, and he loves flying.
+
+31
+00:02:31,822 --> 00:02:38,571
+Tonight, for the crossing of the Atlantic, he will be the one with his hands on the controls.
+
+32
+00:02:39,700 --> 00:02:42,081
+Hold on to one number about him.
+
+33
+00:02:42,081 --> 00:02:47,524
+In his entire career, almost all of his flying had been done with the autopilot engaged.
+
+34
+00:02:47,524 --> 00:02:52,287
+Hand flying a jet at high altitude was something he had almost never done.
+
+35
+00:02:52,287 --> 00:02:53,989
+Almost no airline pilot had.
+
+36
+00:02:55,133 --> 00:03:03,571
+At 22:29 universal time, flight 447 lifts off into the night and turns north east, out over the Atlantic.
+
+37
+00:03:03,571 --> 00:03:09,344
+For the first three and a half hours, everything is perfectly, completely routine.
+
+38
+00:03:10,466 --> 00:03:12,817
+Chapter 2. The dead zone.
+
+39
+00:03:13,966 --> 00:03:19,332
+There is a stretch of the South Atlantic where aircraft are truly alone.
+
+40
+00:03:19,332 --> 00:03:24,285
+Beyond the reach of radar. Beyond normal radio. Controllers cannot see you.
+
+41
+00:03:24,285 --> 00:03:28,412
+For hours, nobody on Earth knows exactly where you are.
+
+42
+00:03:29,533 --> 00:03:33,782
+And across that stretch lies a permanent wall of weather.
+
+43
+00:03:33,782 --> 00:03:42,281
+The intertropical convergence zone, where the trade winds of two hemispheres collide and pile thunderstorms miles high, every single night.
+
+44
+00:03:43,400 --> 00:03:48,581
+Towering cells like these stack up along the zone night after night.
+
+45
+00:03:48,581 --> 00:03:53,331
+Investigators would later conclude the weather that night was not exceptional.
+
+46
+00:03:53,331 --> 00:03:58,081
+Crews cross it constantly. Flight 447 was flying into something ordinary.
+
+47
+00:03:59,200 --> 00:04:05,890
+At 1:35 in the morning, the crew makes a routine radio call to the Brazilian controllers at Atlantico.
+
+48
+00:04:05,890 --> 00:04:07,005
+Position, altitude, estimates.
+
+49
+00:04:07,005 --> 00:04:12,209
+It is the last time anyone on the ground will ever hear from them.
+
+50
+00:04:13,333 --> 00:04:16,380
+At 2:01, the captain does something completely normal.
+
+51
+00:04:16,380 --> 00:04:22,095
+He leaves for his scheduled rest break, and hands the airplane to the two co-pilots.
+
+52
+00:04:22,095 --> 00:04:27,047
+On an overnight crossing, this is standard on every airline in the world.
+
+53
+00:04:28,166 --> 00:04:31,830
+The junior co-pilot has the controls, in the right seat.
+
+54
+00:04:31,830 --> 00:04:39,158
+Ahead of them, painted in green and yellow on the weather radar, the storms of the convergence zone are waiting.
+
+55
+00:04:39,158 --> 00:04:41,723
+It is 8 minutes before the emergency.
+
+56
+00:04:42,866 --> 00:04:46,886
+High in those clouds live ice crystals unlike anything at ground level.
+
+57
+00:04:46,886 --> 00:04:52,247
+Swarms of them, too small for weather radar to see clearly, at temperatures far below freezing.
+
+58
+00:04:52,247 --> 00:04:56,267
+And they have a taste for one particular part of an airplane.
+
+59
+00:04:57,400 --> 00:04:58,418
+The pitot tubes.
+
+60
+00:04:58,418 --> 00:05:03,512
+Three small forward facing probes on the nose, that measure the speed of the air.
+
+61
+00:05:03,512 --> 00:05:09,286
+Everything the computers know about how fast the plane is flying comes through these three little tubes.
+
+62
+00:05:10,433 --> 00:05:13,919
+And here is the part the passengers never knew.
+
+63
+00:05:13,919 --> 00:05:18,954
+These exact probes, on this exact model, had a known problem with ice.
+
+64
+00:05:18,954 --> 00:05:23,990
+It had happened before. The airline was already replacing them, fleet by fleet.
+
+65
+00:05:25,133 --> 00:05:30,430
+The new probes were on their way. They arrived for this aircraft weeks too late.
+
+66
+00:05:30,430 --> 00:05:33,962
+Flight 447 flew into the storm with the old ones.
+
+67
+00:05:35,100 --> 00:05:38,653
+Chapter 3. Four minutes and twenty-three seconds.
+
+68
+00:05:39,800 --> 00:05:42,502
+2:10 and 5 seconds, universal time.
+
+69
+00:05:42,502 --> 00:05:47,907
+Inside the storm, ice crystals flood all three pitot tubes at once.
+
+70
+00:05:47,907 --> 00:05:49,709
+The speed readings collapse.
+
+71
+00:05:49,709 --> 00:05:56,466
+And the autopilot, suddenly blind, does exactly what it is designed to do. It quits.
+
+72
+00:05:57,600 --> 00:05:59,849
+A warning chime fills the cockpit.
+
+73
+00:05:59,849 --> 00:06:03,599
+The flight controls degrade to what Airbus calls alternate law.
+
+74
+00:06:03,599 --> 00:06:10,348
+In plain language, the computer protections that normally make this plane impossible to stall have just switched off.
+
+75
+00:06:11,466 --> 00:06:15,496
+The junior co-pilot takes the controls, exactly as he should.
+
+76
+00:06:15,496 --> 00:06:17,915
+Listen to how calm it starts.
+
+77
+00:06:17,915 --> 00:06:25,572
+These cockpit exchanges are recreations, using the official words from the flight's voice recorder, published by the French investigators.
+
+78
+00:06:26,700 --> 00:06:28,096
+I have the controls.
+
+79
+00:06:29,233 --> 00:06:35,154
+Two seconds later, he makes the input that will define the rest of his life.
+
+80
+00:06:35,154 --> 00:06:41,470
+Startled, in turbulence, in the dark, he pulls back on his side stick. The nose rises.
+
+81
+00:06:41,470 --> 00:06:43,444
+The airplane begins to climb.
+
+82
+00:06:44,566 --> 00:06:49,962
+Understand what has actually gone wrong here. Nothing. The engines are perfect.
+
+83
+00:06:49,962 --> 00:06:54,009
+The wings are perfect. The plane is flying beautifully.
+
+84
+00:06:54,009 --> 00:06:59,404
+Only the speed display is lying, and only for a few moments.
+
+85
+00:07:00,533 --> 00:07:03,278
+We've lost the... the speeds.
+
+86
+00:07:04,400 --> 00:07:06,870
+The other co-pilot sees the problem.
+
+87
+00:07:06,870 --> 00:07:10,576
+There is a written procedure for exactly this failure.
+
+88
+00:07:10,576 --> 00:07:15,517
+Hold the wings level, set a known pitch and power, and wait.
+
+89
+00:07:15,517 --> 00:07:20,047
+The plane will fly on happily. Nobody reaches for that procedure.
+
+90
+00:07:21,166 --> 00:07:28,149
+Instead, the aircraft is now climbing hard, trading its speed for altitude it does not need.
+
+91
+00:07:28,149 --> 00:07:36,004
+From 35,000 feet, it soars toward 38,000, its nose reaching upward, the air growing thinner around its wings.
+
+92
+00:07:37,133 --> 00:07:40,904
+According to all three, you're going up. So go back down.
+
+93
+00:07:42,033 --> 00:07:48,513
+He sees it. He says it. The airplane is climbing and it must come down.
+
+94
+00:07:48,513 --> 00:07:52,833
+For a moment the nose lowers, the situation almost stabilizes.
+
+95
+00:07:52,833 --> 00:07:58,882
+Within about a minute, the ice melts. The speed displays come back. True readings.
+
+96
+00:07:59,999 --> 00:08:04,247
+Understand that. Barely a minute in, the original failure is over.
+
+97
+00:08:04,247 --> 00:08:08,494
+The airplane is whole again. Every instrument is telling the truth.
+
+98
+00:08:08,494 --> 00:08:12,355
+All they have to do now is nothing at all.
+
+99
+00:08:13,499 --> 00:08:17,421
+But in the right seat, the pulling continues.
+
+100
+00:08:17,421 --> 00:08:22,813
+Small pulls, nervous pulls, in turbulence, in darkness, with alarms chattering.
+
+101
+00:08:22,813 --> 00:08:30,165
+The nose stays high. The speed bleeds away. And then the airplane says the word.
+
+102
+00:08:31,299 --> 00:08:33,990
+Chapter 4. The word nobody said.
+
+103
+00:08:35,133 --> 00:08:36,648
+STALL. STALL. STALL.
+
+104
+00:08:36,648 --> 00:08:42,708
+A synthetic voice, engineered to be impossible to ignore, fills the cockpit.
+
+105
+00:08:42,708 --> 00:08:50,284
+It means one thing. The wings are about to stop flying. Push the nose down.
+
+106
+00:08:51,433 --> 00:08:56,711
+Over the next four minutes, that warning will sound 75 separate times.
+
+107
+00:08:56,711 --> 00:09:01,110
+At one point it blares continuously for 54 seconds straight.
+
+108
+00:09:01,110 --> 00:09:05,069
+It is the loudest, clearest voice in the cockpit.
+
+109
+00:09:06,199 --> 00:09:14,538
+And in everything the three pilots say to each other, on the entire recording, not one of them ever says the word stall.
+
+110
+00:09:14,538 --> 00:09:18,163
+Not once. They can hear it. They never believe it.
+
+111
+00:09:19,299 --> 00:09:24,363
+Why? Partly because they had been taught, correctly, that this airplane cannot stall.
+
+112
+00:09:24,363 --> 00:09:28,259
+That was true, under normal law, with the protections on.
+
+113
+00:09:28,259 --> 00:09:32,543
+The protections had been off for a minute and a half.
+
+114
+00:09:33,666 --> 00:09:36,711
+At 38,000 feet, the wings finally give up.
+
+115
+00:09:36,711 --> 00:09:46,988
+The angle of attack passes the point of no return, the smooth air over the wings tears away, and the Airbus, still nose high, begins to fall.
+
+116
+00:09:48,133 --> 00:09:49,527
+I'm in TOGA, eh.
+
+117
+00:09:50,666 --> 00:09:57,760
+He slams the thrust levers to takeoff power, the reflex every pilot learns for a stall near the ground.
+
+118
+00:09:57,760 --> 00:10:03,734
+But up here, in air this thin, the engines cannot save a wing this deeply stalled.
+
+119
+00:10:03,734 --> 00:10:05,974
+Only the nose going down can.
+
+120
+00:10:07,099 --> 00:10:12,649
+But we've got the engines. What's happening? Do you understand what's happening, or not?
+
+121
+00:10:13,766 --> 00:10:18,841
+The aircraft is now falling like nothing either man has ever experienced.
+
+122
+00:10:18,841 --> 00:10:24,761
+Ten thousand feet per minute, nose held high, wings rocking, alarms layered on alarms.
+
+123
+00:10:24,761 --> 00:10:29,413
+Their instruments show readings so extreme they refuse to believe them.
+
+124
+00:10:30,533 --> 00:10:33,152
+I don't have control of the airplane any more now.
+
+125
+00:10:33,152 --> 00:10:35,509
+I don't have control of the airplane at all.
+
+126
+00:10:36,633 --> 00:10:40,185
+In those two sentences lives the whole tragedy.
+
+127
+00:10:40,185 --> 00:10:45,958
+Because the recorder shows the airplane obeying him, faithfully, to the very end.
+
+128
+00:10:45,958 --> 00:10:49,955
+He has control. What he has lost is understanding.
+
+129
+00:10:51,099 --> 00:10:54,025
+Chapter 5. The captain returns.
+
+130
+00:10:55,166 --> 00:10:59,546
+One minute and 38 seconds into the emergency, the cockpit door opens.
+
+131
+00:10:59,546 --> 00:11:03,562
+The captain is back, dragged from his rest by the alarms.
+
+132
+00:11:03,562 --> 00:11:09,037
+He stands behind the two seats, looking at an airplane falling out of the sky.
+
+133
+00:11:10,166 --> 00:11:11,647
+Er... what are you doing?
+
+134
+00:11:12,766 --> 00:11:17,693
+We've lost all control of the aeroplane. We don't understand anything.
+
+135
+00:11:17,693 --> 00:11:19,037
+We've tried everything.
+
+136
+00:11:20,166 --> 00:11:22,509
+Put yourself in the captain's place.
+
+137
+00:11:22,509 --> 00:11:26,804
+He has been out of the cockpit for the entire emergency.
+
+138
+00:11:26,804 --> 00:11:34,612
+He arrives to a wall of alarms, two frightened co-pilots, instruments showing the impossible, and 30 seconds to diagnose it.
+
+139
+00:11:35,733 --> 00:11:40,522
+And the airplane itself is lying to him in the cruelest way possible.
+
+140
+00:11:40,522 --> 00:11:47,890
+Because of how the warning logic works, at the speeds they have now reached, the stall warning has fallen silent.
+
+141
+00:11:47,890 --> 00:11:50,100
+The computers consider the data invalid.
+
+142
+00:11:51,233 --> 00:11:51,603
+Worse.
+
+143
+00:11:51,603 --> 00:12:00,854
+When the flying pilot briefly pushes the nose down, the correct action, the speed readings become valid again, and the stall warning comes BACK ON.
+
+144
+00:12:00,854 --> 00:12:04,555
+Doing the right thing sounds like doing the wrong thing.
+
+145
+00:12:05,700 --> 00:12:08,211
+The investigators would call this out directly.
+
+146
+00:12:08,211 --> 00:12:16,824
+The one instrument that could have told them the truth in one glance, an angle of attack display, was not installed in this cockpit.
+
+147
+00:12:16,824 --> 00:12:19,336
+It existed. It simply was not there.
+
+148
+00:12:20,466 --> 00:12:26,013
+I have the impression we have some crazy speed. No? What do you think?
+
+149
+00:12:27,133 --> 00:12:29,784
+He believes the opposite of the truth.
+
+150
+00:12:29,784 --> 00:12:40,769
+He thinks the aircraft is overspeeding, diving too fast, when it is actually falling in a deep stall, mushing through the air at barely 100 knots of forward speed.
+
+151
+00:12:41,899 --> 00:12:47,160
+For two more minutes, three intelligent, trained men stand inside a paradox.
+
+152
+00:12:47,160 --> 00:12:49,352
+Every instinct contradicts every instrument.
+
+153
+00:12:49,352 --> 00:12:55,927
+The ocean is coming up at them through the dark at 180 feet every second.
+
+154
+00:12:57,066 --> 00:12:59,247
+But I've been at maxi nose-up for a while!
+
+155
+00:13:00,366 --> 00:13:01,592
+There it is.
+
+156
+00:13:01,592 --> 00:13:07,718
+The sentence that finally explains everything, spoken 2 minutes and 35 seconds into the fall.
+
+157
+00:13:07,718 --> 00:13:12,211
+He has been holding the stick back almost the entire time.
+
+158
+00:13:12,211 --> 00:13:13,845
+The captain understands instantly.
+
+159
+00:13:14,966 --> 00:13:17,262
+No, no, no... don't climb.
+
+160
+00:13:18,399 --> 00:13:23,088
+The other co-pilot takes the controls and pushes the nose down.
+
+161
+00:13:23,088 --> 00:13:26,924
+The wings begin, slowly, to find the air again.
+
+162
+00:13:26,924 --> 00:13:32,464
+But they are passing through 9,000 feet, falling at 180 feet per second.
+
+163
+00:13:32,464 --> 00:13:34,595
+The mathematics are already written.
+
+164
+00:13:35,733 --> 00:13:40,384
+We're going to crash. This can't be true. But what's happening?
+
+165
+00:13:41,533 --> 00:13:46,124
+The last words on the recording belong to the captain.
+
+166
+00:13:46,124 --> 00:13:51,633
+Calm, professional, still flying to the final second. Ten degrees, pitch attitude.
+
+167
+00:13:51,633 --> 00:13:56,684
+At 2 hours, 14 minutes and 28 seconds, the recording ends.
+
+168
+00:13:57,833 --> 00:14:04,735
+Air France 447 hit the ocean flat, belly first, at more than 10,000 feet per minute.
+
+169
+00:14:04,735 --> 00:14:12,931
+It had fallen 38,000 feet in under 4 minutes, engines running perfectly, in an aircraft that was never broken.
+
+170
+00:14:12,931 --> 00:14:13,794
+Nobody survived.
+
+171
+00:14:14,933 --> 00:14:17,859
+Chapter 6. Twenty-four messages.
+
+172
+00:14:18,999 --> 00:14:25,325
+Here is the part few people know. When flight 447 hit the water, nobody noticed.
+
+173
+00:14:25,325 --> 00:14:29,542
+No radar saw it fall. No radio heard a mayday.
+
+174
+00:14:29,542 --> 00:14:33,759
+The ocean closed over it, and the night simply continued.
+
+175
+00:14:34,899 --> 00:14:37,566
+But the aircraft had left a trail.
+
+176
+00:14:37,566 --> 00:14:43,661
+As it fell, its maintenance computer did what it was built to do. It phoned home.
+
+177
+00:14:43,661 --> 00:14:48,613
+24 automated fault messages, fired by satellite to Air France operations in Paris.
+
+178
+00:14:49,733 --> 00:14:54,020
+Fourteen messages in the first minute alone. Autopilot off.
+
+179
+00:14:54,020 --> 00:15:01,165
+Flight controls in alternate law. Air data faults. And then the last one, at 2:14.
+
+180
+00:15:01,165 --> 00:15:05,929
+Cabin vertical speed advisory. The cabin was descending too fast.
+
+181
+00:15:07,066 --> 00:15:09,596
+Think about what that last message is.
+
+182
+00:15:09,596 --> 00:15:13,932
+The airplane, reporting its own fall, in its final second of life.
+
+183
+00:15:13,932 --> 00:15:20,075
+For the next two years, these 24 lines of text would be the only testimony that existed.
+
+184
+00:15:21,199 --> 00:15:24,471
+In Paris, it is the middle of the night.
+
+185
+00:15:24,471 --> 00:15:28,107
+The messages land in a maintenance queue, waiting for morning.
+
+186
+00:15:28,107 --> 00:15:34,286
+When the flight fails to check in with air traffic control, confusion spreads slowly between control centers.
+
+187
+00:15:35,433 --> 00:15:42,447
+The official distress phase was not declared until 6 and a half hours after the aircraft hit the water.
+
+188
+00:15:42,447 --> 00:15:49,461
+For all that time, the world assumed flight 447 was simply flying, silent and unseen, across the dead zone.
+
+189
+00:15:50,599 --> 00:15:56,148
+Brazilian Air Force planes swept the ocean for days and found nothing but water.
+
+190
+00:15:56,148 --> 00:16:02,489
+An Airbus A330 is 60 meters long. The search area was the size of a country.
+
+191
+00:16:02,489 --> 00:16:04,470
+It had vanished into it.
+
+192
+00:16:05,599 --> 00:16:10,056
+On the fifth day, they found it. Seat cushions. Luggage.
+
+193
+00:16:10,056 --> 00:16:20,750
+And then, lifted dripping from the swell by the Brazilian Navy, the aircraft's vertical stabilizer, painted in the red and blue of Air France.
+
+194
+00:16:21,899 --> 00:16:23,540
+This is the actual photograph.
+
+195
+00:16:23,540 --> 00:16:29,445
+That piece of the tail became the image of the disaster, printed on every front page on Earth.
+
+196
+00:16:29,445 --> 00:16:33,053
+50 victims were recovered from the surface in those first weeks.
+
+197
+00:16:34,199 --> 00:16:40,984
+In Rio and Paris, families waited at the Air France counters as the airline confirmed the impossible.
+
+198
+00:16:40,984 --> 00:16:44,576
+228 names. Now the question that would consume France.
+
+199
+00:16:44,576 --> 00:16:48,566
+Why does a perfect airliner fall out of the sky?
+
+200
+00:16:49,699 --> 00:16:51,972
+Chapter 7. The abyss.
+
+201
+00:16:53,099 --> 00:16:58,372
+The answer lay in two orange boxes, somewhere at the bottom of the Atlantic.
+
+202
+00:16:58,372 --> 00:17:01,761
+The flight data recorder and the cockpit voice recorder.
+
+203
+00:17:01,761 --> 00:17:06,656
+Without them, the 24 messages were clues. With them, there would be truth.
+
+204
+00:17:07,799 --> 00:17:12,995
+But the seabed here is not flat. It is a mountain range.
+
+205
+00:17:12,995 --> 00:17:18,624
+Peaks and canyons, 4 kilometers down, in blackness no light has ever touched.
+
+206
+00:17:18,624 --> 00:17:25,118
+The boxes' locator beacons pinged for 30 days, into water too deep to hear them.
+
+207
+00:17:26,266 --> 00:17:31,342
+France sent a nuclear submarine. Ships dragged sonar for months.
+
+208
+00:17:31,342 --> 00:17:35,911
+A first search found nothing. A second found nothing.
+
+209
+00:17:35,911 --> 00:17:41,495
+A third, guided by drift calculations, found nothing. Two years passed.
+
+210
+00:17:42,633 --> 00:17:47,098
+The families began to fear the truth would never surface.
+
+211
+00:17:47,098 --> 00:17:52,010
+Conspiracy theories bloomed in the vacuum. Terrorism. Lightning. A cover up.
+
+212
+00:17:52,010 --> 00:17:56,922
+Without the boxes, every theory was as good as any other.
+
+213
+00:17:58,066 --> 00:18:08,456
+For the fourth attempt, in 2011, the investigators hired the deep ocean group at Woods Hole, the American institution whose people had found the Titanic.
+
+214
+00:18:08,456 --> 00:18:11,780
+They brought three of these. REMUS 6000 robots.
+
+215
+00:18:12,899 --> 00:18:20,800
+Torpedo shaped, autonomous, diving 20 hours at a time, flying search patterns over the abyssal plain like tireless bloodhounds.
+
+216
+00:18:20,800 --> 00:18:28,285
+And in the first week of April 2011, on a flat plain between the mountains, there it was.
+
+217
+00:18:29,433 --> 00:18:34,239
+A debris field, 3,900 meters down. Engines. Landing gear. Wing sections.
+
+218
+00:18:34,239 --> 00:18:46,909
+The aircraft had come down largely intact and shattered on the water, and its pieces had rained down onto the seabed, nearly on top of its last known position.
+
+219
+00:18:48,033 --> 00:18:53,780
+On May 1st, 2011, a robotic arm lifted the flight data recorder from the silt.
+
+220
+00:18:53,780 --> 00:18:56,079
+Two days later, the voice recorder.
+
+221
+00:18:56,079 --> 00:19:01,826
+Twenty-three months after the crash, hauled up from a depth greater than the Titanic's grave.
+
+222
+00:19:02,966 --> 00:19:06,876
+104 more victims were brought home from the wreck that spring.
+
+223
+00:19:06,876 --> 00:19:10,785
+74 remain in the Atlantic, at the site, to this day.
+
+224
+00:19:10,785 --> 00:19:14,695
+Their families asked that the sea be left as their grave.
+
+225
+00:19:15,833 --> 00:19:23,049
+In a laboratory outside Paris, engineers dried the memory boards, connected them, and pressed play.
+
+226
+00:19:23,049 --> 00:19:26,898
+Both recorders had survived. Every parameter, every word.
+
+227
+00:19:26,898 --> 00:19:33,152
+For the first time, the investigators heard the night of June 1st, 2009.
+
+228
+00:19:34,299 --> 00:19:36,990
+Chapter 8. What the boxes said.
+
+229
+00:19:38,133 --> 00:19:43,184
+The French investigation bureau, the BEA, published its final report in July 2012.
+
+230
+00:19:43,184 --> 00:19:47,458
+It is one of the most consequential documents in aviation history.
+
+231
+00:19:47,458 --> 00:19:50,567
+And it refuses to tell the simple story.
+
+232
+00:19:51,699 --> 00:19:56,759
+The simple story is: the pilot pulled up when he should have pushed down.
+
+233
+00:19:56,759 --> 00:19:59,288
+It is true, and it explains nothing.
+
+234
+00:19:59,288 --> 00:20:04,708
+The report instead asks the only question that matters. Why did trained pilots do that?
+
+235
+00:20:05,833 --> 00:20:09,013
+The chain begins with the pitot probes.
+
+236
+00:20:09,013 --> 00:20:17,192
+In the report's words, blockage by ice crystals was a known phenomenon, but misunderstood by the aviation community.
+
+237
+00:20:17,192 --> 00:20:20,827
+Known. Already being fixed. Not fixed fast enough.
+
+238
+00:20:21,966 --> 00:20:23,135
+Then the startle.
+
+239
+00:20:23,135 --> 00:20:31,708
+The report describes a crew completely surprised, at night, in weather, by an alarm cascade they had never faced outside a classroom.
+
+240
+00:20:31,708 --> 00:20:35,994
+The emergency began with fear, and fear never left the cockpit.
+
+241
+00:20:37,133 --> 00:20:38,755
+Then the training gap.
+
+242
+00:20:38,755 --> 00:20:47,679
+The flying pilot had almost no experience hand flying at high altitude, because the industry had decided automation made that skill obsolete.
+
+243
+00:20:47,679 --> 00:20:51,735
+When the automation left, it took his world with it.
+
+244
+00:20:52,866 --> 00:20:54,642
+Then the machine's own psychology.
+
+245
+00:20:54,642 --> 00:21:01,034
+A stall warning that fell silent in the deepest stall, and returned when he did the right thing.
+
+246
+00:21:01,034 --> 00:21:02,810
+No angle of attack gauge.
+
+247
+00:21:02,810 --> 00:21:07,782
+Two side sticks that move independently, so neither pilot feels what the other commands.
+
+248
+00:21:08,899 --> 00:21:10,985
+That last one deserves a moment.
+
+249
+00:21:10,985 --> 00:21:18,634
+Through much of the fall, the two pilots were making OPPOSITE inputs, one pushing, one pulling, and the sticks never told them.
+
+250
+00:21:18,634 --> 00:21:23,501
+In an older aircraft with linked controls, each would have felt the other's hands.
+
+251
+00:21:24,633 --> 00:21:27,265
+The report's conclusion, in its own words.
+
+252
+00:21:27,265 --> 00:21:33,657
+The crew never understood they were in a stall situation, and therefore never undertook any recovery manoeuvres.
+
+253
+00:21:33,657 --> 00:21:38,922
+They did not fail to save the plane. They never knew it needed saving.
+
+254
+00:21:40,066 --> 00:21:53,232
+And so the deaths of 228 people trace back, link by link, to three iced tubes, one startled pull, a warning system that lied by design, and an industry that had quietly stopped teaching pilots to fly.
+
+255
+00:21:54,366 --> 00:21:57,213
+Chapter 9. The longest verdict.
+
+256
+00:21:58,333 --> 00:22:03,836
+The report changed flying. Pitot probes were replaced across the world fleet.
+
+257
+00:22:03,836 --> 00:22:07,046
+Stall recovery training was rewritten from scratch.
+
+258
+00:22:07,046 --> 00:22:10,715
+High altitude manual flying returned to the simulator.
+
+259
+00:22:10,715 --> 00:22:14,842
+Every airline pilot today trains differently because of 447.
+
+260
+00:22:15,966 --> 00:22:22,605
+But for the families, one question stayed open. Not what happened. Who answers for it.
+
+261
+00:22:22,605 --> 00:22:27,474
+The probes were a known problem. The training gap was known.
+
+262
+00:22:27,474 --> 00:22:31,457
+Somebody, somewhere, had accepted those risks on their behalf.
+
+263
+00:22:32,599 --> 00:22:38,370
+It took 13 years to bring Air France and Airbus into a criminal courtroom.
+
+264
+00:22:38,370 --> 00:22:43,316
+In October 2022, in Paris, both companies stood trial for involuntary manslaughter.
+
+265
+00:22:43,316 --> 00:22:47,437
+The first trial of its kind in French aviation history.
+
+266
+00:22:48,566 --> 00:22:52,432
+In April 2023, the verdict. Acquitted. Both companies.
+
+267
+00:22:52,432 --> 00:23:02,581
+The court found negligence, but said it could not prove, to the criminal standard, that those failures directly caused the crash.
+
+268
+00:23:02,581 --> 00:23:04,997
+Families wept in the courtroom.
+
+269
+00:23:06,133 --> 00:23:11,061
+That is where this story stood for years. It is where most tellings of it end.
+
+270
+00:23:11,061 --> 00:23:13,526
+But it is not where it ends now.
+
+271
+00:23:14,666 --> 00:23:19,815
+In May 2026, the Paris Court of Appeal overturned the acquittal.
+
+272
+00:23:19,815 --> 00:23:24,028
+Air France, convicted, for failures in training its crews.
+
+273
+00:23:24,028 --> 00:23:30,581
+Airbus, convicted, for failing to act on the known danger of its speed probes.
+
+274
+00:23:30,581 --> 00:23:31,985
+Corporate manslaughter, both.
+
+275
+00:23:33,133 --> 00:23:39,413
+The fine, the maximum French law allows a company for this crime, was 225,000 euros each.
+
+276
+00:23:39,413 --> 00:23:42,946
+Less than the price of one business class cabin.
+
+277
+00:23:42,946 --> 00:23:47,657
+The families called the number an insult, and the verdict a victory.
+
+278
+00:23:48,799 --> 00:23:51,588
+Airbus is appealing to France's highest court.
+
+279
+00:23:51,588 --> 00:23:59,954
+Seventeen years after the tail fin was lifted from the Atlantic, the case of Air France 447 is, legally, still falling.
+
+280
+00:24:01,099 --> 00:24:11,436
+228 people died in an unbroken airplane, because three small tubes iced over for less than a minute, and everything human that surrounded that moment failed at once.
+
+281
+00:24:11,436 --> 00:24:15,127
+The machine was fine. The system around it was not.
+
+282
+00:24:16,266 --> 00:24:22,381
+Since that night, no passenger has died in a crash caused by the same chain.
+
+283
+00:24:22,381 --> 00:24:25,642
+The probes, the training, the warnings, all rebuilt.
+
+284
+00:24:25,642 --> 00:24:31,757
+That is the grim arithmetic of aviation. Safety rules are written in exactly this ink.
+
+285
+00:24:32,900 --> 00:24:47,189
+If this story gripped you, watch our breakdown of Colgan Air 3407 next, the crash where two exhausted pilots made the same fatal pull, at 2,000 feet instead of 38,000, and changed American law forever.
+
+286
+00:24:48,333 --> 00:24:50,088
+And subscribe to Black Box.
+
+287
+00:24:50,088 --> 00:24:56,758
+We take the biggest disasters in history apart, piece by piece, to show you the decisions hiding inside them.
+
+288
+00:24:56,758 --> 00:24:59,566
+Because the truth is always in the details.
+

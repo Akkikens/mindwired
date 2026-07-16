@@ -86,6 +86,16 @@ FAA_AUDIO = {
         ],
         "base": "https://www.faa.gov/sites/faa.gov/files/data_research/accident_incident/2009-01-15/",
     },
+    # Colgan Air 3407 (Buffalo, 2009-02-12): FAA released the ATC tapes (PD).
+    "DCA09MA027": {
+        "page": "https://www.faa.gov/data_research/accident_incident/2009-02-12",
+        "files": [
+            "CO_CERTIFIED_EAST_RADAR.mp3",          # Buffalo approach — the flight's final control sector
+            "CO_CERTIFIED_GROUND_CONTROL.mp3",
+            "CO_CLEARANCE_DELIVERY_CERTIFIED.mp3",
+        ],
+        "base": "https://www.faa.gov/sites/faa.gov/files/data_research/accident_incident/2009-02-12/",
+    },
 }
 
 

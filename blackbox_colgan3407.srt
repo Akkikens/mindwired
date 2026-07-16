@@ -1,0 +1,1252 @@
+1
+00:00:00,333 --> 00:00:02,486
+This is a 53 minute flight.
+
+2
+00:00:02,486 --> 00:00:08,226
+A short, routine hop from Newark to Buffalo, on a snowy Thursday night in February 2009.
+
+3
+00:00:08,226 --> 00:00:12,532
+49 people are on board. None of them will see the runway.
+
+4
+00:00:13,666 --> 00:00:17,534
+The entire disaster happens in the last 27 seconds.
+
+5
+00:00:17,534 --> 00:00:22,691
+This is the actual reconstruction the investigators built from the black boxes.
+
+6
+00:00:22,691 --> 00:00:26,988
+Watch the instruments. The plane is about to stop flying.
+
+7
+00:00:28,133 --> 00:00:31,983
+It falls out of the sky and lands on a house.
+
+8
+00:00:31,983 --> 00:00:36,884
+49 people on board, and one man asleep in his home below. 50 dead.
+
+9
+00:00:38,033 --> 00:00:42,530
+But this is not really a story about one bad night in a cockpit.
+
+10
+00:00:42,530 --> 00:00:49,919
+It is a story about how two exhausted, underpaid, poorly trained pilots ended up flying you through a snowstorm in the first place.
+
+11
+00:00:51,066 --> 00:00:56,934
+I only made 15,800 dollars last year. I'm just lucky I have a husband that's working.
+
+12
+00:00:58,066 --> 00:01:01,177
+When it was over, everyone blamed the ice.
+
+13
+00:01:01,177 --> 00:01:05,454
+It was winter, the wings were icing up, it seemed obvious.
+
+14
+00:01:05,454 --> 00:01:08,175
+The investigators found something far more uncomfortable.
+
+15
+00:01:09,299 --> 00:01:14,210
+Too tired to fly. The crash of Colgan Air 3407.
+
+16
+00:01:15,333 --> 00:01:19,695
+Chapter 1. Continental Connection 3407.
+
+17
+00:01:20,833 --> 00:01:23,544
+February 12, 2009. Newark airport.
+
+18
+00:01:23,544 --> 00:01:33,847
+Passengers board a Bombardier Dash 8 Q400, a modern 74 seat turboprop, painted in the colors of Continental Airlines.
+
+19
+00:01:33,847 --> 00:01:36,559
+Their ticket says Continental Connection.
+
+20
+00:01:37,700 --> 00:01:42,953
+But Continental did not own this plane, employ these pilots, or train them.
+
+21
+00:01:42,953 --> 00:01:50,631
+The flight was operated by a smaller, cheaper regional airline called Colgan Air, flying under the big airline's brand.
+
+22
+00:01:51,766 --> 00:01:55,325
+This is how a huge part of American flying works.
+
+23
+00:01:55,325 --> 00:02:03,509
+You buy a ticket from a famous airline, and you are quietly handed to a low cost contractor you have never heard of.
+
+24
+00:02:03,509 --> 00:02:04,932
+Same paint. Different world.
+
+25
+00:02:06,066 --> 00:02:10,585
+On board are 45 passengers, 2 flight attendants, and 2 pilots.
+
+26
+00:02:10,585 --> 00:02:17,980
+Among them is a woman who lost her husband on September 11th, flying to Buffalo to honor him.
+
+27
+00:02:17,980 --> 00:02:19,623
+Ordinary people, going home.
+
+28
+00:02:20,766 --> 00:02:25,525
+The weather into Buffalo is poor but ordinary for a northern winter.
+
+29
+00:02:25,525 --> 00:02:31,474
+Snow, wind, and light icing. Nothing a modern airliner and a competent crew cannot handle.
+
+30
+00:02:31,474 --> 00:02:33,853
+The trap was never the weather.
+
+31
+00:02:35,000 --> 00:02:41,991
+The airplane itself is not the problem. The Q400 is modern, fast, and barely a year old.
+
+32
+00:02:41,991 --> 00:02:46,515
+In the story that follows, the machine does almost everything right.
+
+33
+00:02:46,515 --> 00:02:51,039
+It is the people, and the system behind them, that fail.
+
+34
+00:02:52,166 --> 00:02:54,270
+Here is the economics that matters.
+
+35
+00:02:54,270 --> 00:02:59,180
+Continental sells the ticket, then pays Colgan a fixed fee to fly the route.
+
+36
+00:02:59,180 --> 00:03:02,687
+Colgan makes its money by keeping costs below that fee.
+
+37
+00:03:02,687 --> 00:03:06,194
+And the biggest cost it can squeeze is the crew.
+
+38
+00:03:07,333 --> 00:03:16,785
+Among the 49 aboard is a woman who lost her husband in the World Trade Center, flying to Buffalo to fund a scholarship in his name.
+
+39
+00:03:16,785 --> 00:03:20,420
+A newlywed. A musician. Ordinary people, an hour from home.
+
+40
+00:03:21,566 --> 00:03:24,570
+Chapter 2. Two tired pilots.
+
+41
+00:03:25,699 --> 00:03:27,733
+The captain is 47 years old.
+
+42
+00:03:27,733 --> 00:03:32,477
+He lives in Florida but is based in Newark, over a thousand miles away.
+
+43
+00:03:32,477 --> 00:03:37,898
+He is a commuting pilot, and the night before, he slept in the airline's crew room.
+
+44
+00:03:39,033 --> 00:03:44,022
+The crew room is a lounge with couches, not a place to rest before flying.
+
+45
+00:03:44,022 --> 00:03:47,680
+Colgan's own chief pilot admitted it was not adequate for sleep.
+
+46
+00:03:47,680 --> 00:03:52,669
+Pilots used it anyway, because a real crash pad cost money they did not have.
+
+47
+00:03:53,799 --> 00:03:59,387
+The first officer is 24 years old. Sharp, well liked, a trained flight instructor.
+
+48
+00:03:59,387 --> 00:04:04,974
+She had just moved to Seattle to be near family. Her base was Newark.
+
+49
+00:04:04,974 --> 00:04:08,166
+She commuted across the entire country to fly.
+
+50
+00:04:09,299 --> 00:04:18,878
+The night before the crash, she caught a red eye cargo flight from Seattle, riding in a spare seat, then a second flight, arriving in Newark at 6:23 in the morning.
+
+51
+00:04:18,878 --> 00:04:21,968
+She grabbed maybe 90 minutes of sleep on the way.
+
+52
+00:04:23,099 --> 00:04:27,253
+Why not just rest in a hotel? Because of what she earned.
+
+53
+00:04:27,253 --> 00:04:30,021
+On the cockpit recording, she says it herself.
+
+54
+00:04:31,166 --> 00:04:37,265
+I only made 15,800 dollars last year. I'm just lucky I have a husband that's working.
+
+55
+00:04:38,399 --> 00:04:43,460
+The captain earned around 60,000, and even he commuted to save money.
+
+56
+00:04:43,460 --> 00:04:47,677
+At those wages, junior pilots did not stay in hotels.
+
+57
+00:04:47,677 --> 00:04:53,158
+They flew standby through the night and started their duty day already exhausted.
+
+58
+00:04:54,299 --> 00:04:59,524
+And she was sick. She had a cold, and can be heard sniffling on the recording.
+
+59
+00:04:59,524 --> 00:05:04,095
+Earlier that trip, she weighed calling in sick, and talked herself out of it.
+
+60
+00:05:05,233 --> 00:05:10,053
+If I call in sick now, I've got to put myself in a hotel until I feel better.
+
+61
+00:05:10,053 --> 00:05:10,857
+I'm pretty tough.
+
+62
+00:05:11,999 --> 00:05:15,626
+So here is the crew the passengers were trusting that night.
+
+63
+00:05:15,626 --> 00:05:17,934
+A captain who slept on a couch.
+
+64
+00:05:17,934 --> 00:05:24,198
+A first officer who crossed the country without sleep, sick, because rest was a luxury she could not afford.
+
+65
+00:05:25,333 --> 00:05:30,434
+The captain's road to that cockpit was long and troubled.
+
+66
+00:05:30,434 --> 00:05:34,005
+He earned his private licence in 1990.
+
+67
+00:05:34,005 --> 00:05:41,146
+But over the years, he failed FAA check ride after check ride. Instrument. Commercial.
+
+68
+00:05:41,146 --> 00:05:43,697
+Multi-engine. His airline transport licence.
+
+69
+00:05:44,833 --> 00:05:50,885
+To build the hours airlines wanted, he paid a company for the privilege of flying as a first officer.
+
+70
+00:05:50,885 --> 00:05:56,301
+The pay to fly pipeline that feeds cheap regional carriers with pilots who look qualified on paper.
+
+71
+00:05:57,433 --> 00:06:03,508
+When Colgan's application asked if he had ever failed a check ride, he did not disclose them all.
+
+72
+00:06:03,508 --> 00:06:06,884
+The airline hired him without ever seeing his full record.
+
+73
+00:06:06,884 --> 00:06:10,259
+There was no law then that forced them to look.
+
+74
+00:06:11,399 --> 00:06:16,393
+He had moved to this airplane only months before. Ground school in October.
+
+75
+00:06:16,393 --> 00:06:18,313
+His check ride in November.
+
+76
+00:06:18,313 --> 00:06:23,690
+On the night of the crash, he had just 111 hours flying the Q400.
+
+77
+00:06:23,690 --> 00:06:25,610
+He was still learning it.
+
+78
+00:06:26,733 --> 00:06:29,304
+The first officer's problem was never skill.
+
+79
+00:06:29,304 --> 00:06:31,875
+Colleagues described her as sharp and thorough.
+
+80
+00:06:31,875 --> 00:06:38,854
+Her problem was the life the job forced on her, and the poverty wage that made rest a luxury.
+
+81
+00:06:39,999 --> 00:06:42,597
+This was not two unlucky individuals.
+
+82
+00:06:42,597 --> 00:06:47,793
+It was the ordinary condition of a junior regional pilot in 2009.
+
+83
+00:06:47,793 --> 00:06:54,288
+Underpaid, over-commuting, chronically tired, and quietly terrified of losing the job by calling in sick.
+
+84
+00:06:55,433 --> 00:07:02,627
+In the three days before the crash, the captain bounced between hotels and that crew room, his sleep chopped up by the schedule.
+
+85
+00:07:02,627 --> 00:07:07,319
+On the morning of the accident, another pilot saw him asleep on a crew-room couch.
+
+86
+00:07:08,466 --> 00:07:14,203
+The captain was proud of how fast he had reached the airlines through the pay to fly pipeline.
+
+87
+00:07:14,203 --> 00:07:18,027
+He said so on the recording, unaware it would ever be heard.
+
+88
+00:07:19,166 --> 00:07:23,106
+I wanted to get into the one twenty one world as fast as I could.
+
+89
+00:07:23,106 --> 00:07:25,207
+And it really worked out well for me.
+
+90
+00:07:26,333 --> 00:07:32,500
+Neither pilot did anything malicious. They were, by every account, decent, capable people.
+
+91
+00:07:32,500 --> 00:07:40,566
+That is what makes this so unsettling. The system did not need bad people to kill 50.
+
+92
+00:07:40,566 --> 00:07:43,887
+It just needed tired, cheap, under-trained ones.
+
+93
+00:07:45,033 --> 00:07:48,899
+Chapter 3. A conversation, instead of a checklist.
+
+94
+00:07:50,033 --> 00:07:56,252
+The flight itself is uneventful. They climb to 16,000 feet. The autopilot flies.
+
+95
+00:07:56,252 --> 00:08:01,035
+And for almost the entire flight, the two pilots talk.
+
+96
+00:08:01,035 --> 00:08:05,341
+About their careers, their pay, the industry, the weather.
+
+97
+00:08:06,466 --> 00:08:23,205
+Buffalo approach control takes over and clears the flight to descend.
+
+98
+00:08:23,205 --> 00:08:41,466
+Routine radio calls on a routine night. This is the actual recording.
+
+99
+00:08:42,600 --> 00:08:48,710
+There is a federal rule for this. Below 10,000 feet, the cockpit must be sterile.
+
+100
+00:08:48,710 --> 00:08:52,377
+No chatter, no distractions, only the business of flying.
+
+101
+00:08:52,377 --> 00:08:57,673
+It exists because the last minutes of a flight are where people die.
+
+102
+00:08:58,800 --> 00:09:03,628
+But as the plane descends through 10,000 feet, the conversation does not stop.
+
+103
+00:09:03,628 --> 00:09:10,686
+It keeps going, all the way down, into exactly the phase of flight the rule was written to protect.
+
+104
+00:09:11,833 --> 00:09:18,357
+The first officer yawns. She mentions, more than once, that she does not feel well.
+
+105
+00:09:18,357 --> 00:09:23,576
+The captain is relaxed and chatty. Nothing in the mood suggests danger.
+
+106
+00:09:23,576 --> 00:09:29,231
+That is the quiet trap of fatigue. It never feels like an emergency.
+
+107
+00:09:30,366 --> 00:09:33,576
+The sterile cockpit rule exists for exactly this.
+
+108
+00:09:33,576 --> 00:09:39,596
+Not because chatter is rude, but because comfortable, capable crews stop cross checking each other.
+
+109
+00:09:39,596 --> 00:09:44,812
+The two people who should be guarding the airspeed are guarding the conversation.
+
+110
+00:09:45,933 --> 00:09:48,441
+Chapter 4. Lots of ice.
+
+111
+00:09:49,566 --> 00:09:54,228
+As they descend into the clouds, ice begins to form on the airframe.
+
+112
+00:09:54,228 --> 00:09:57,455
+The crew notice it, and it clearly unsettles them.
+
+113
+00:09:58,600 --> 00:10:01,754
+That's the most ice I've seen on the leading edges in a long time.
+
+114
+00:10:02,899 --> 00:10:05,566
+The deicing systems are on and working.
+
+115
+00:10:05,566 --> 00:10:10,137
+Ice on a Q400 in these amounts is a normal, manageable nuisance.
+
+116
+00:10:10,137 --> 00:10:14,709
+But the ice does something more dangerous than weigh on the wings.
+
+117
+00:10:14,709 --> 00:10:16,613
+It captures the crew's attention.
+
+118
+00:10:17,733 --> 00:10:21,735
+The first officer, it turns out, is deeply uneasy about ice.
+
+119
+00:10:21,735 --> 00:10:27,921
+She admits she had barely seen it before joining Colgan and being thrown into a northeastern winter.
+
+120
+00:10:29,066 --> 00:10:35,477
+I'd never seen icing conditions. I'd never deiced. I'd never experienced any of that.
+
+121
+00:10:36,600 --> 00:10:39,977
+So both pilots are now primed to fear the ice.
+
+122
+00:10:39,977 --> 00:10:46,396
+And while they watch the ice, the one number that will actually kill them, their airspeed, is quietly falling.
+
+123
+00:10:47,533 --> 00:10:51,166
+There is a switch on the Q400 for flying in ice.
+
+124
+00:10:51,166 --> 00:10:59,422
+Set for icing, it tells the airplane to sound its stall warning earlier, at a higher speed, because ice makes a wing give up sooner.
+
+125
+00:10:59,422 --> 00:11:01,404
+The crew, correctly, had set it.
+
+126
+00:11:02,533 --> 00:11:06,912
+That was the right choice for the ice. But it had a hidden edge.
+
+127
+00:11:06,912 --> 00:11:11,917
+It meant the stick shaker would fire earlier than the pilots might instinctively feel it should.
+
+128
+00:11:11,917 --> 00:11:14,419
+Their margin was even thinner than it looked.
+
+129
+00:11:15,566 --> 00:11:18,152
+Chapter 5. The approach.
+
+130
+00:11:19,299 --> 00:11:41,699
+Approach control turns the flight onto its final course and clears it down toward the airport.
+
+131
+00:11:41,699 --> 00:11:54,299
+Again, this is the real recording from that night.
+
+132
+00:11:55,433 --> 00:12:01,478
+The captain calls for the landing gear and the flaps. Standard steps for landing.
+
+133
+00:12:01,478 --> 00:12:05,796
+To slow down, he pulls the engines back toward idle.
+
+134
+00:12:05,796 --> 00:12:10,114
+The plane is heavy, dirty, and bleeding off speed fast.
+
+135
+00:12:11,233 --> 00:12:13,506
+Watch the airspeed on the reconstruction.
+
+136
+00:12:13,506 --> 00:12:17,293
+It is sliding down through 145 knots, and still dropping.
+
+137
+00:12:17,293 --> 00:12:23,354
+On the captain's display, a red and black warning band is climbing up toward the needle.
+
+138
+00:12:24,499 --> 00:12:27,305
+That band is the low speed cue.
+
+139
+00:12:27,305 --> 00:12:32,115
+It is the airplane, quietly warning that it is getting dangerously slow.
+
+140
+00:12:32,115 --> 00:12:37,325
+Neither pilot calls it out. Neither adds power. The conversation is still going.
+
+141
+00:12:38,466 --> 00:12:43,473
+The autopilot is still flying the airplane, and it is quietly doing something dangerous.
+
+142
+00:12:43,473 --> 00:12:50,627
+As the plane slows, it trims the nose higher and higher to hold altitude, hiding how much effort that takes.
+
+143
+00:12:50,627 --> 00:12:52,415
+The pilots feel nothing wrong.
+
+144
+00:12:53,533 --> 00:12:56,420
+This is the hidden knife in modern stalls.
+
+145
+00:12:56,420 --> 00:13:00,390
+The automation absorbs the problem, until it runs out of authority.
+
+146
+00:13:00,390 --> 00:13:07,247
+Then it clicks off and hands two humans a fully developed emergency, with almost no time to understand it.
+
+147
+00:13:08,366 --> 00:13:11,292
+Chapter 6. Twenty-seven seconds.
+
+148
+00:13:12,433 --> 00:13:17,784
+The captain begins slowing the airplane less than three miles from the final approach fix.
+
+149
+00:13:17,784 --> 00:13:20,282
+He pulls the power almost to idle.
+
+150
+00:13:20,282 --> 00:13:25,990
+On a night with ice, heavy and dirty, this is where the margins get dangerously thin.
+
+151
+00:13:27,133 --> 00:13:27,951
+Gear down.
+
+152
+00:13:29,100 --> 00:13:32,669
+The airspeed is about 145 knots, and still falling.
+
+153
+00:13:32,669 --> 00:13:39,413
+The low speed cue keeps climbing toward the needle. Not one word is said about the speed.
+
+154
+00:13:39,413 --> 00:13:44,173
+Fifteen seconds of silence, and then the airplane runs out of patience.
+
+155
+00:13:45,300 --> 00:13:52,101
+At 22:16 and 27 seconds, the control column begins to shake violently in the captain's hands.
+
+156
+00:13:52,101 --> 00:13:53,376
+The stick shaker.
+
+157
+00:13:53,376 --> 00:13:59,328
+The airplane's last, loud warning that the wing is seconds from an aerodynamic stall.
+
+158
+00:14:00,466 --> 00:14:06,317
+Every pilot is drilled on the recovery from their first lessons. Push the nose down.
+
+159
+00:14:06,317 --> 00:14:11,777
+Add power. Let the wing fly again. It is simple, and it is universal.
+
+160
+00:14:12,900 --> 00:14:14,801
+The captain does the opposite.
+
+161
+00:14:14,801 --> 00:14:19,365
+He pulls the control column back, toward himself, pitching the nose up.
+
+162
+00:14:19,365 --> 00:14:25,831
+It is the single worst possible input. He is pulling the dying wing deeper into the stall.
+
+163
+00:14:26,966 --> 00:14:29,111
+The airplane fights to save itself.
+
+164
+00:14:29,111 --> 00:14:34,474
+A second system, the stick pusher, physically shoves the nose down to break the stall.
+
+165
+00:14:34,474 --> 00:14:39,479
+The captain pulls back against it, overriding the one thing trying to save them.
+
+166
+00:14:40,600 --> 00:14:41,735
+I put the flaps up.
+
+167
+00:14:42,866 --> 00:14:51,944
+In the chaos, the first officer retracts the flaps, no one asked for it, removing lift at the worst possible moment.
+
+168
+00:14:51,944 --> 00:14:56,267
+The Q400 rolls violently, past 100 degrees, wings nearly vertical.
+
+169
+00:14:57,400 --> 00:14:58,230
+Gear up.
+
+170
+00:14:59,366 --> 00:15:04,439
+The flight data recorder captured every input. The column moved aft, hard.
+
+171
+00:15:04,439 --> 00:15:07,397
+The engines were slammed toward full power.
+
+172
+00:15:07,397 --> 00:15:13,315
+But pulling back while powering up only drove the nose higher, into the stall.
+
+173
+00:15:14,433 --> 00:15:17,656
+A stalled wing does not fly. It drops.
+
+174
+00:15:17,656 --> 00:15:22,490
+The Q400 rolled hard left, then snapped past vertical to the right.
+
+175
+00:15:22,490 --> 00:15:28,936
+On a normal night the controls would lift it. On a stalled wing, they barely bite.
+
+176
+00:15:28,936 --> 00:15:32,562
+Everything the plane did was the opposite of instinct.
+
+177
+00:15:33,700 --> 00:15:39,433
+From the first shake of that control column to this moment is about 25 seconds.
+
+178
+00:15:39,433 --> 00:15:42,108
+There was time. The recovery was simple.
+
+179
+00:15:42,108 --> 00:15:48,224
+But at 2,000 feet on a dark night, confused and afraid, the training was not there.
+
+180
+00:15:49,366 --> 00:15:50,122
+We're down.
+
+181
+00:15:51,266 --> 00:15:53,539
+Chapter 7. Clarence Center.
+
+182
+00:15:54,666 --> 00:16:01,509
+The airplane falls onto a single family home in the quiet suburb of Clarence Center, five miles from the runway.
+
+183
+00:16:01,509 --> 00:16:05,272
+It is 10:17 at night. Most of the town is asleep.
+
+184
+00:16:06,400 --> 00:16:12,032
+Neighbors run into the street to a wall of fire, fed by a ruptured natural gas line.
+
+185
+00:16:12,032 --> 00:16:17,334
+There is nothing anyone can do. In the home, a 61 year old man is killed.
+
+186
+00:16:17,334 --> 00:16:18,991
+His wife and daughter escape.
+
+187
+00:16:20,133 --> 00:16:26,187
+All 49 people on the airplane die. With the man on the ground, the toll is 50.
+
+188
+00:16:26,187 --> 00:16:30,817
+It is the deadliest crash on American soil since the September 11th attacks.
+
+189
+00:16:31,966 --> 00:16:41,213
+And it happened not in a storm, not with a broken plane, but on a routine approach, in a working aircraft, with two qualified pilots at the controls.
+
+190
+00:16:42,333 --> 00:16:47,801
+Within hours, the quiet suburb of Clarence Center becomes the center of the aviation world.
+
+191
+00:16:47,801 --> 00:16:58,007
+A team from the NTSB arrives to a debris field the size of a single house, and a question that seems, at first, to have an obvious answer.
+
+192
+00:16:58,007 --> 00:16:58,372
+Ice.
+
+193
+00:16:59,500 --> 00:17:04,596
+There were no survivors on the airplane. Whole families. A newlywed couple.
+
+194
+00:17:04,596 --> 00:17:06,720
+A widow of September 11th.
+
+195
+00:17:06,720 --> 00:17:12,665
+Fifty futures ended five miles short of a runway, on a routine Thursday night.
+
+196
+00:17:13,799 --> 00:17:16,229
+Chapter 8. The red herring.
+
+197
+00:17:17,366 --> 00:17:22,312
+In the first days, the story writes itself. Winter storm. Icing.
+
+198
+00:17:22,312 --> 00:17:26,359
+A regional turboprop goes down on approach to Buffalo.
+
+199
+00:17:26,359 --> 00:17:32,204
+The early headlines all point at the ice. It is the obvious answer.
+
+200
+00:17:33,333 --> 00:17:35,196
+The crew themselves believed it.
+
+201
+00:17:35,196 --> 00:17:41,530
+When the plane began to shake, the captain almost certainly thought the ice had stalled his wing.
+
+202
+00:17:41,530 --> 00:17:46,002
+But when the investigators examined the data, the ice story fell apart.
+
+203
+00:17:47,133 --> 00:17:52,763
+The National Transportation Safety Board found the icing was light, and the airplane was fully controllable.
+
+204
+00:17:52,763 --> 00:17:55,579
+The ice did not bring this plane down.
+
+205
+00:17:55,579 --> 00:17:59,802
+The wing stalled because the crew let it get far too slow.
+
+206
+00:18:00,933 --> 00:18:06,636
+They even put other pilots in simulators, facing the same night, the same warning.
+
+207
+00:18:06,636 --> 00:18:11,525
+Trained, rested crews recovered without drama. The difference was never the airplane.
+
+208
+00:18:11,525 --> 00:18:16,006
+It was the state of the two people flying this one.
+
+209
+00:18:17,133 --> 00:18:19,355
+The flight data recorder settled it.
+
+210
+00:18:19,355 --> 00:18:26,393
+The wing stalled at an angle and speed consistent with an ordinary stall, one caused by flying too slowly.
+
+211
+00:18:26,393 --> 00:18:31,579
+Had ice brought it down, the numbers would have looked different. They did not.
+
+212
+00:18:32,699 --> 00:18:42,142
+There was even a dangerous idea among some pilots at the time, that a Q400 could suffer a tail stall, where the correct response is to pull back.
+
+213
+00:18:42,142 --> 00:18:47,537
+That was not what happened here. This was a normal wing stall, and it was mishandled.
+
+214
+00:18:48,666 --> 00:18:52,695
+The recorders are pulled from the wreckage, scorched but readable.
+
+215
+00:18:52,695 --> 00:18:57,932
+Within days, the Safety Board has the full picture the crew never had.
+
+216
+00:18:57,932 --> 00:19:03,974
+The speed, the inputs, the 27 seconds, laid out second by second on a graph.
+
+217
+00:19:05,099 --> 00:19:09,592
+They ran it through simulators and a dedicated study of the stick shaker.
+
+218
+00:19:09,592 --> 00:19:15,468
+Every test pointed the same way. The wing was flying fine until it was starved of speed.
+
+219
+00:19:15,468 --> 00:19:18,578
+And the recovery was right there, for the taking.
+
+220
+00:19:19,699 --> 00:19:25,205
+The ice was real. The fear of it was real. But the data was merciless.
+
+221
+00:19:25,205 --> 00:19:26,673
+This was not weather.
+
+222
+00:19:26,673 --> 00:19:34,380
+It was a working airplane, flown too slow, and a warning answered with the one response guaranteed to kill everyone aboard.
+
+223
+00:19:35,499 --> 00:19:38,190
+Chapter 9. The real cause.
+
+224
+00:19:39,333 --> 00:19:41,492
+The Safety Board's conclusion is blunt.
+
+225
+00:19:41,492 --> 00:19:50,487
+The probable cause was the captain's inappropriate response to the stick shaker, which led to an aerodynamic stall from which the airplane did not recover.
+
+226
+00:19:51,633 --> 00:19:56,192
+The contributing factors read like a list of everything quietly broken.
+
+227
+00:19:56,192 --> 00:20:01,580
+The crew failed to monitor their airspeed. They broke the sterile cockpit rule.
+
+228
+00:20:01,580 --> 00:20:04,067
+And Colgan's own procedures were inadequate.
+
+229
+00:20:05,199 --> 00:20:12,194
+But the deeper you dig, the less this looks like two bad pilots, and the more it looks like a system that set them up.
+
+230
+00:20:12,194 --> 00:20:13,872
+Start with the captain's training record.
+
+231
+00:20:14,999 --> 00:20:19,460
+Over his career, the captain had failed five FAA check rides. Five.
+
+232
+00:20:19,460 --> 00:20:24,292
+And on his application to Colgan, he did not disclose several of them.
+
+233
+00:20:24,292 --> 00:20:28,008
+The airline hired him without ever knowing his full record.
+
+234
+00:20:29,133 --> 00:20:35,953
+He had just 111 hours flying this specific aircraft, and had never felt the stick pusher fire in real training.
+
+235
+00:20:35,953 --> 00:20:41,410
+When it shoved the controls forward that night, it may have frightened him into fighting it.
+
+236
+00:20:42,533 --> 00:20:46,937
+And both pilots were exhausted. A captain who slept on a couch.
+
+237
+00:20:46,937 --> 00:20:51,708
+A first officer who crossed the country overnight, sick, on a poverty wage.
+
+238
+00:20:51,708 --> 00:20:57,214
+Fatigue does to the brain what alcohol does. It was in that cockpit with them.
+
+239
+00:20:58,333 --> 00:21:04,817
+None of these, alone, is the reason 50 people died. Together, they are.
+
+240
+00:21:04,817 --> 00:21:12,797
+Every layer that should have caught this, hiring, training, rest, procedures, had been quietly worn thin.
+
+241
+00:21:12,797 --> 00:21:14,294
+To save money.
+
+242
+00:21:15,433 --> 00:21:17,497
+Return to how they got there.
+
+243
+00:21:17,497 --> 00:21:23,688
+The first officer had crossed three time zones overnight, slept perhaps 90 minutes, and was fighting a cold.
+
+244
+00:21:23,688 --> 00:21:26,783
+The captain had slept in a crew room chair.
+
+245
+00:21:26,783 --> 00:21:29,879
+Neither was rested enough to safely drive a car.
+
+246
+00:21:30,999 --> 00:21:34,827
+Fatigue does to the brain roughly what alcohol does.
+
+247
+00:21:34,827 --> 00:21:43,334
+It slows recognition, narrows attention to a single fixation, and destroys judgment, in precisely the seconds when judgment is everything.
+
+248
+00:21:43,334 --> 00:21:47,587
+The Board could not measure it. It named it anyway.
+
+249
+00:21:48,733 --> 00:21:50,055
+Then the training gap.
+
+250
+00:21:50,055 --> 00:21:55,012
+The captain had never actually felt a stick pusher fire on the Q400 in training.
+
+251
+00:21:55,012 --> 00:22:00,300
+So when it shoved the controls forward that night, it may not have felt like salvation.
+
+252
+00:22:00,300 --> 00:22:02,944
+It may have felt like the airplane breaking.
+
+253
+00:22:04,066 --> 00:22:06,090
+And the airline shared the blame.
+
+254
+00:22:06,090 --> 00:22:11,149
+The Board found Colgan's own procedures for managing speed on an icing approach were inadequate.
+
+255
+00:22:11,149 --> 00:22:15,534
+The company had not given its crews the tools to get this right.
+
+256
+00:22:16,666 --> 00:22:18,099
+Stack it all up.
+
+257
+00:22:18,099 --> 00:22:28,843
+A pilot hired without his full record, barely trained on the type, exhausted, is handed a sudden emergency by the automation, and does the one thing that guarantees a crash.
+
+258
+00:22:28,843 --> 00:22:32,783
+It is not one mistake. It is a stack of them.
+
+259
+00:22:33,933 --> 00:22:37,486
+The Board debated it for hours in a public meeting.
+
+260
+00:22:37,486 --> 00:22:41,749
+Their language was careful and clinical. But the conclusion was not soft.
+
+261
+00:22:41,749 --> 00:22:48,144
+This was a survivable situation, turned fatal by the people flying, and the company that put them there.
+
+262
+00:22:49,266 --> 00:22:54,717
+And here is the quiet horror of it. There was no villain.
+
+263
+00:22:54,717 --> 00:22:58,351
+No sabotage, no malice, no single catastrophic failure.
+
+264
+00:22:58,351 --> 00:23:05,619
+Just a chain of ordinary, money saving decisions that lined up, one night, into 50 deaths.
+
+265
+00:23:06,766 --> 00:23:09,352
+Chapter 10. Flying cheap.
+
+266
+00:23:10,499 --> 00:23:15,539
+This is where the story stops being about one crew, and becomes about an industry.
+
+267
+00:23:15,539 --> 00:23:20,578
+A regional airline wins its contract from a major carrier by being the lowest bidder.
+
+268
+00:23:20,578 --> 00:23:24,945
+And you bid lowest by paying pilots less, and training them for less.
+
+269
+00:23:26,066 --> 00:23:32,530
+In 2009, a first officer at a regional could earn less than the manager of a fast food restaurant.
+
+270
+00:23:32,530 --> 00:23:34,572
+The talented burned out or left.
+
+271
+00:23:34,572 --> 00:23:40,015
+The ones who stayed were often the most desperate, and the least able to say no.
+
+272
+00:23:41,133 --> 00:23:44,842
+The public believed they were flying Continental, United, Delta.
+
+273
+00:23:44,842 --> 00:23:52,261
+Often they were flying a contractor competing to be the cheapest, on the backs of exhausted, underpaid crews.
+
+274
+00:23:52,261 --> 00:23:55,971
+A documentary at the time called it flying cheap.
+
+275
+00:23:57,099 --> 00:24:02,015
+The families of the 50 refused to accept it as just another tragedy.
+
+276
+00:24:02,015 --> 00:24:05,795
+For years, they traveled to Washington. They testified. They lobbied.
+
+277
+00:24:05,795 --> 00:24:11,466
+They came back again and again, carrying the photographs of the people they had lost.
+
+278
+00:24:12,599 --> 00:24:19,058
+And they won reforms no crash before them had achieved. New rest rules to fight fatigue.
+
+279
+00:24:19,058 --> 00:24:25,112
+Mandatory stall training. A database so no airline could ever hire a pilot blind again.
+
+280
+00:24:26,233 --> 00:24:27,643
+And the headline change.
+
+281
+00:24:27,643 --> 00:24:35,755
+To fly passengers for a US airline, a first officer would now need 1,500 hours of flight time, six times the old minimum.
+
+282
+00:24:35,755 --> 00:24:39,634
+The rule that exists every time you board a plane today.
+
+283
+00:24:40,766 --> 00:24:49,800
+It is one of the only times in modern aviation that grieving families, with no power and no money, forced the entire industry to change.
+
+284
+00:24:49,800 --> 00:24:53,775
+Every safe landing you have taken since is partly their doing.
+
+285
+00:24:54,899 --> 00:25:01,247
+In 2009, a first officer at a regional airline could earn less than the manager of a fast food restaurant.
+
+286
+00:25:01,247 --> 00:25:03,151
+The talented burned out or left.
+
+287
+00:25:03,151 --> 00:25:09,815
+The ones who stayed were often the most desperate to keep the job, and the least able to ever say no.
+
+288
+00:25:10,933 --> 00:25:15,414
+A public television documentary at the time laid it bare, and called it flying cheap.
+
+289
+00:25:15,414 --> 00:25:22,584
+The travelling public had no idea that the famous name on their ticket had almost nothing to do with the tired crew up front.
+
+290
+00:25:23,733 --> 00:25:27,150
+The centerpiece reform was the 1,500 hour rule.
+
+291
+00:25:27,150 --> 00:25:33,983
+Before Colgan, a US airline first officer needed as little as 250 hours of flight time.
+
+292
+00:25:33,983 --> 00:25:40,817
+After, six times that. The industry fought it hard, and argues about it to this day.
+
+293
+00:25:41,966 --> 00:25:49,373
+Critics say the rule worsened a pilot shortage, and that hours alone do not teach the judgment that was missing that night.
+
+294
+00:25:49,373 --> 00:25:54,087
+Supporters point to the record since. And the record is hard to argue with.
+
+295
+00:25:55,233 --> 00:26:02,883
+Colgan 3407 was the last crash of a US passenger airline to kill this many people for well over a decade.
+
+296
+00:26:02,883 --> 00:26:07,255
+Whatever those grieving families forced through the halls of Congress, it held.
+
+297
+00:26:07,255 --> 00:26:08,712
+The skies got safer.
+
+298
+00:26:09,833 --> 00:26:12,454
+The reforms went further than flight hours.
+
+299
+00:26:12,454 --> 00:26:18,444
+New rules capped how long pilots could be on duty and mandated real rest between trips.
+
+300
+00:26:18,444 --> 00:26:23,312
+The exact fatigue that sat in that cockpit, finally written into federal law.
+
+301
+00:26:24,433 --> 00:26:32,451
+And a national pilot records database, so that never again could an airline hire a captain without seeing every failed check ride in his past.
+
+302
+00:26:32,451 --> 00:26:35,979
+The precise gap that had put this captain in this seat.
+
+303
+00:26:37,099 --> 00:26:40,248
+Aviation safety is often called a tombstone industry.
+
+304
+00:26:40,248 --> 00:26:44,972
+The rules are written in the aftermath, paid for in the dead.
+
+305
+00:26:44,972 --> 00:26:52,057
+What is almost unheard of is for the families of the dead to pick up the pen themselves.
+
+306
+00:26:52,057 --> 00:26:54,418
+The 3407 families did exactly that.
+
+307
+00:26:55,566 --> 00:27:04,809
+50 people died on a routine 53 minute flight, because the system that put them in the air had cut every corner it could.
+
+308
+00:27:04,809 --> 00:27:09,045
+Tired pilots. Cheap training. A warning ignored, and a warning fought.
+
+309
+00:27:10,166 --> 00:27:14,641
+The ice was never the villain. The cold arithmetic of flying cheap was.
+
+310
+00:27:14,641 --> 00:27:19,805
+Remember that the next time an airline tells you your safety is their highest priority.
+
+311
+00:27:20,933 --> 00:27:24,831
+If this story got its hooks into you, subscribe to Black Box.
+
+312
+00:27:24,831 --> 00:27:31,003
+We take the biggest disasters in history apart, piece by piece, to show you the decisions hiding inside them.
+
+313
+00:27:31,003 --> 00:27:33,602
+Because the truth is always in the details.
+

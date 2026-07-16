@@ -16,7 +16,7 @@ manual — read it before making or editing any video.
 |---|---|---|---|
 | **mindwired** | faceless space/science + gaming/tech | this repo | Orion host; narrator = cloned Cartesia voice `00d3c951-…` (was George/Hume) |
 | **Black Box Breakdown** | disaster & corporate-catastrophe forensics (aviation/maritime/industrial/corporate; 40+ high-RPM). @Watch-BlackBox | this repo, doc engine, `channel:"blackbox"` (theme accent `#FF9500`, wordmark "Black Box") | host **Reid** (`public/host/reid_wide.png`); narrator = cloned Cartesia `00d3c951-…` |
-| **DimaagBatti** | Hindi explainers (Dhruv-Rathee style: economy/geopolitics/how-it-works) | this repo (`src/dimaagbatti`) | Rohan, Cartesia Hindi `4877b818-…`; whiteboard + Devanagari overlays; see `HINDI-CHANNEL-BRIEF.md` |
+| **DimaagBatti** | Hindi explainers (Dhruv-Rathee style: economy/geopolitics/how-it-works) | this repo (`src/dimaagbatti`) | Rohan, Cartesia Hindi `4877b818-…`; whiteboard + Devanagari overlays; see `docs/guides/HINDI-CHANNEL-BRIEF.md` |
 | **KickOffDaily90** | football / World Cup (separate YT+IG brand) | this repo, viral engine, `channel:"kickoffdaily90"` | host Jamie |
 | **Singaloo.kids** | kids singalongs + animated | **singaloo repo** (`../singaloo`) | host Melody |
 
@@ -32,8 +32,19 @@ Each finished video gets its channel's subscribe outro appended (see "Subscribe 
 
 | Repo | What lives here |
 |---|---|
-| **mindwired** (this repo) | Custom long-form episodes (`src/orbit-style` comps, `src/attractor`, `src/scariest`, `src/gtavi`), the **viral shorts engine** (`src/viral`), packaging docs (`METADATA-*.md`, `THUMBNAILS.md`), finished uploads at repo root / `out/` |
+| **mindwired** (this repo) | Custom long-form episodes (`src/orbit-style` comps, `src/attractor`, `src/scariest`, `src/gtavi`), the **viral shorts engine** (`src/viral`), packaging docs (`docs/metadata/`, `docs/guides/THUMBNAILS.md`), finished uploads at repo root / `out/` |
 | **singaloo** (`../singaloo`) | The **cosmic explainer engine** (`src/videos/cosmic`) that mass-produces mindwired long-forms, plus the kids-channel content. Cosmic videos are authored there and the mp4 copied here for publishing |
+
+## Repo docs layout (2026-07-13 — keep the root clean)
+
+All human-facing docs live under `docs/`. **Only `CLAUDE.md` + `README.md` stay at
+the repo root.** New docs go in the matching subfolder, never loose at root:
+- `docs/metadata/` — per-video packaging, one `METADATA-<slug>.md` per upload
+- `docs/guides/` — how-to / specs: HOSTS, THUMBNAILS, BLACKBOX-PIPELINE-SPEC,
+  HINDI-CHANNEL-BRIEF, HOOK-LAB, CLIPS, SHORTS-SCRIPTS, REELS-SETUP
+- `docs/publishing/` — YOUTUBE-UPLOAD-KIT, YOUTUBE-CHAPTERS, PUBLISH-PROMPT-*
+- `docs/planning/` — ROADMAP, IDEAS-MINDWIRED, TOPIC-QUEUE, HANDOFF
+(Subdir READMEs like `src/viral/README.md` stay where they are.)
 
 ## The three video systems
 
@@ -51,7 +62,7 @@ See `src/viral/README.md` for full docs. Summary: plan JSON in `src/viral/plans/
 `npx remotion render Short<Name> out/<name>.mp4` (no --gl flag). Pacing knobs:
 `HOLD` / `LEAD` in `src/viral/lib/plan.ts`. Tone→motion grammar: `src/viral/lib/tone.ts`.
 
-**AI avatar hosts (all niches):** see `HOSTS.md`. Registry `src/viral/hosts.json`
+**AI avatar hosts (all niches):** see `docs/guides/HOSTS.md`. Registry `src/viral/hosts.json`
 (orion=space, sterling=finance, rio=football, vex=gaming; melody=singaloo kids).
 Plan field `"host": "<id>"` → host mode; `"board": true` scenes render kinetic
 graphics instead of the face. Lip-sync: `lipsync/batch.py <slug> --only <ids>`
@@ -69,7 +80,7 @@ when the topic needs bespoke visuals the engines can't produce; prefer the engin
 
 ## Black Box Breakdown — Evidence Engine (LIVE 2026-07-13)
 
-Full episode runbook: **BLACKBOX-PIPELINE-SPEC.md** (read it before any Black
+Full episode runbook: **docs/guides/BLACKBOX-PIPELINE-SPEC.md** (read it before any Black
 Box episode). The channel's signature capability:
 
 - `scripts/fetch_ntsb_docket.py "<accident>" --types audio,pdf,image [--faa-audio]`
@@ -93,7 +104,15 @@ Box episode). The channel's signature capability:
 **Packaging standard (every title/description request):** full-SEO package by
 default — title+A/B, big searchable description, parser-safe chapters, ~495-char
 tags, 15 hashtags, pinned comment, category/license lines; Shorts sets get one
-search-query cluster each. Reference: METADATA-boeing737max.md.
+search-query cluster each. Reference: docs/metadata/METADATA-boeing737max.md.
+
+**Published Black Box URLs (use in every "▶ MORE FROM" block — NO more `[paste URL]`
+placeholders; full copy in memory `blackbox-published-urls`):**
+- Playlist (Air Crash Investigations): https://www.youtube.com/playlist?list=PLGVCiFZm8sRw
+- Colgan Air 3407 ("Too Tired to Fly"): https://youtu.be/Oh8YpgbudHQ
+- Boeing 737 MAX ("How Boeing Killed 346 People"): https://youtu.be/d4_Rk50GkBg
+- Air France 447 ("Titanic of the Skies"): https://youtu.be/ZvD4n8uNnuk
+- Subscribe deep-link: https://www.youtube.com/@Watch-BlackBox?sub_confirmation=1
 
 ## Voice / TTS (shared rules)
 
@@ -123,6 +142,19 @@ search-query cluster each. Reference: METADATA-boeing737max.md.
 - Short declarative sentences, one idea per line (each line is one scene cut).
 - Numbers numeric ("66 billion suns"), no year-stamping the narration ("right now"),
   spell numbers phonetically only when TTS mangles them ("TON six eighteen").
+- **TTS pronunciation lint — MANDATORY before every VO build (2026-07-14):** run
+  `python3 scripts/lint_tts_text.py` (or pass specific files). Born from viewer
+  complaints on the 737 MAX doc — TTS read "737" as "seven hundred and thirty seven".
+  Spoken `text`/`voiceover` fields spell things the way a narrator SAYS them
+  ("seven three seven MAX", "A three twenty", "Flight six ten"); on-screen
+  cap/stat/mainText keep written forms ("737 MAX"). Clock times ("3:20") and
+  decades ("1960s") usually read fine — verify by ear.
+- **Music bed on every documentary (2026-07-14, viewer feedback: VO-only feels
+  flat/"aloof"):** master with `--music public/beds/doc_awe.mp3` (cosmic/melancholy),
+  `doc_tension.mp3` (disaster/dread), or `doc_open.mp3` — sidechain-ducked under the
+  voice at −18 dB by `master_video.py` / `render_and_master.py`, so it swells in
+  gaps and drops under narration. Beds are ElevenLabs-generated (owned). Add
+  `--music` to the ONE render+master pass, not as an extra encode.
 - Long-forms: listicle/ranked structure ("8 theories… each more unsettling") — this
   is the proven format for the niche (see memory: icahn-scary-space-niche).
   Use `word` scenes as chapter cards; vary the scene every 1-2 lines; give each
@@ -131,6 +163,40 @@ search-query cluster each. Reference: METADATA-boeing737max.md.
 - Shorts: hook (0-3s) → curiosity gap → story → twist → CTA. mainText is NOT the
   transcript — shorter and punchier, with 1-2 emphasis words.
 - End every video with the standard outro line ("…subscribe to mindwired").
+- **Verbal bridge in the final line (2026-07-14):** before the subscribe line, the
+  narration names a SPECIFIC next video with a curiosity tease — "If X shocked you,
+  wait until you see Y…" — a spoken narrative handoff, not just an end-screen card.
+  (Session watch-time is a core ranking signal; a spoken bridge converts far better
+  than a silent link. Ref: lostcosmonauts scene e8.)
+
+## How the YouTube algorithm actually distributes (2026 — apply to every strategy call)
+
+The recommender **pulls** videos per-viewer (predicted long-term satisfaction); it never
+"pushes" content. Two-stage pipeline: candidate generation (broad recall from watch
+history/search/subs embeddings) → ranking (heavy model scoring ~hundreds of features;
+core objective ≈ expected watch time per impression + satisfaction). Consequences:
+
+- **Quality CTR, not raw CTR:** high CTR + instant bounce = flagged deceptive; ~5% CTR
+  with ~70% retention beats 12% CTR that craters. Packaging must promise EXACTLY what
+  the video delivers — the honesty rules in this file are algorithm strategy, not just
+  ethics.
+- **Valued watch time:** minutes watched × retention. Long videos with early cliffs
+  lose to shorter videos that hold. The first 30s is monitored hardest → teaser-first
+  cold opens (see "Writing scripts"), never slow intros.
+- **Cold start = subscribers first.** A new upload is tested on subs + similar-creator
+  audiences; their engagement decides wider rollout. So (a) never upload off-lane
+  content on a niche channel — sub apathy kills distribution; (b) Shorts bypass channel
+  authority (judged on own first-3s) → the Shorts funnel is how small channels break out.
+- **Recency dominates:** recent viewer history outweighs old. Drip related Shorts ~24h
+  apart while the audience the algorithm just learned is still warm; long-form first,
+  Shorts funnel starting next day with pinned links to the live video.
+- **Satisfaction signals:** rewatches, session length, likes, surveys, "don't
+  recommend". Session watch-time is why every description ends with the MORE FROM
+  block; loops/replays are why Shorts end where they began.
+- Optimize for the viewer, not the algorithm — the model just imitates viewer behavior.
+- **Reinvestment loop (Akshay's policy call, noted 2026-07-14):** channel revenue goes
+  back into production capability (TTS/API tiers, archival tooling, animation) rather
+  than being pocketed — compounding quality is the growth engine at this stage.
 
 ## Picking topics (don't skip this)
 
@@ -165,16 +231,34 @@ channel FIRST, then append that channel's matching outro:**
 These live in `assets/`, not `out/` — `out/` gets bulk-cleared for disk space
 periodically, `assets/` does not. **Never delete `assets/subscribe-outro/`.**
 
-**How to append (last step of every render, before declaring a video done):**
+> **HARD RULE — NEVER generate a new outro (Akshay, 2026-07-14).** The set above is
+> complete and permanent; the one-time Veo cost is already paid. For EVERY video,
+> just append the channel's existing standing outro (Black Box → `subscribe_blackbox_long.mp4`).
+> Do NOT build per-video or new per-channel outros — "do not spend unnecessarily."
+
+**PREFERRED — bake the outro INTO the render (ONE render, no second encode).**
+Akshay hates the render-then-ffmpeg-append double-encode (2026-07-14: "why 2-2
+render everytime"). For DocWide doc-engine videos, pass the outro to the comp so it
+renders in a single pass — the outro is the final Sequence inside the composition:
+```
+const BB_OUTRO = { file: "outro/subscribe_blackbox_long.mp4", frames: 483 }; // dur*30
+makeDocComp(doc, manifest, BB_OUTRO)      // in Root.tsx
+docTotalFrames(doc, manifest, BB_OUTRO)
+```
+Outros are **copied (real files, NOT symlinks — Remotion does not bundle symlinks,
+they 404 at render)** into `public/outro/`. One
+`scripts/render_and_master.py <Comp> out/<slug>.mp4` call = the fully-branded,
+−14 LUFS final with the outro already on it. **No ffmpeg concat step.** Verify with
+ffprobe duration + a frame at the splice. Frame counts: blackbox 483, mindwired 527,
+kickoffdaily90 527 (@30fps).
+
+**Fallback ONLY for non-DocWide videos** (bare stream splice, still one extra encode):
 ```bash
 ffmpeg -i out/<your_video>.mp4 -i assets/subscribe-outro/<matching_outro>.mp4 \
-  -filter_complex "[0:v]scale=1920:1080,setsar=1[v0];[1:v]scale=1920:1080,setsar=1[v1]; \
-  [v0][0:a][v1][1:a]concat=n=2:v=1:a=1[v][a]" \
-  -map "[v]" -map "[a]" out/<your_video>_final.mp4
+  -filter_complex "[0:v]scale=1920:1080,setsar=1,fps=30[v0];[1:v]scale=1920:1080,setsar=1,fps=30[v1]; \
+  [v0][0:a][v1][1:a]concat=n=2:v=1:a=1[v][a]" -map "[v]" -map "[a]" out/<your_video>_final.mp4
 ```
-(swap `1920:1080` for `1080:1920` on Shorts). Verify the concatenated file with
-ffprobe + a frame check same as any other render — the outro must play cleanly
-with no black-frame gap or audio pop at the splice point.
+(swap `1920:1080` for `1080:1920` on Shorts).
 
 **Source (only touch if the outro itself needs to change):** plans in
 `src/viral/plans/subscribe-mindwired-{long,short}.json` and
@@ -187,16 +271,21 @@ clips have a fixed ~8s floor).
 
 ## Packaging & publishing
 
-- Every video gets a `METADATA-<slug>.md` here: primary title + A/B alternates,
+- Every video gets a `docs/metadata/METADATA-<slug>.md`: primary title + A/B alternates,
   SEO description with CHAPTERS timestamps, tags, pinned comment. Follow the
-  existing files' format (e.g. METADATA-attractor.md).
+  existing files' format (e.g. docs/metadata/METADATA-attractor.md).
+- **Every description ends with a "▶ MORE FROM <CHANNEL>" block** (Akshay, 2026-07-14):
+  2-4 related-video links + the channel's playlist URL + the subscribe deep-link
+  `https://www.youtube.com/@<handle>?sub_confirmation=1` — funnels viewers to more
+  videos (session watch-time), like Mayday: Air Disaster. Use `[paste URL]` placeholders
+  when real upload URLs aren't known; never fabricate URLs. See memory `channel-description-playbook`.
 - **Descriptions: English ONLY** for every channel (mindwired, Black Box Breakdown,
   KickOffDaily90) EXCEPT **DimaagBatti**, whose descriptions are **Hindi only**
   (Akshay, 2026-07-13 — do NOT add a Hindi block to the English channels; this
   supersedes the earlier "English + Hindi block" rule). Tags: maximize toward YouTube's 500-char
   limit (~25-35 tags: broad + niche + long-tail), don't stop at ~15. Every
   upload also gets **15 hashtags** (first 3 display above the title).
-- Thumbnails: follow `THUMBNAILS.md` — image-model generation (Workflow A) for
+- Thumbnails: follow `docs/guides/THUMBNAILS.md` — image-model generation (Workflow A) for
   scene+text posters, or Remotion still + text overlay (Workflow B). House style:
   3-5 word ALL-CAPS yellow/white text, one dramatic scene, dark background.
 - Renders for upload live at repo root as `mindwired_<slug>.mp4`.

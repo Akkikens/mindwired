@@ -35,7 +35,9 @@ DOCS = REPO / "src" / "mindwired-doc" / "docs"
 # per-speaker differentiation: (pitch cents via asetrate factor, extra gain dB)
 # one base voice → three distinct-sounding radio voices; drop in real stock
 # Cartesia voice ids per speaker later via the doc's optional "voices" map.
-SPEAKER_SHIFT = {"CAPT": 0.94, "FO": 1.00, "ATC": 1.07, "CVR": 0.97}
+SPEAKER_SHIFT = {"CAPT": 0.94, "FO": 1.00, "ATC": 1.07, "CVR": 0.97,
+                 "CAPTAIN": 0.92, "FIRST OFFICER": 1.10, "BUFFALO APPROACH": 1.0,
+                 "PILOT FLYING": 1.06, "PILOT MONITORING": 0.98}
 
 
 def radio_chain(src: Path, dst: Path, factor: float) -> None:

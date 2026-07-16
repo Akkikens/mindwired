@@ -34,6 +34,38 @@ const Brand: React.FC = () => (
   </div>
 );
 
+// 9:16 short outro — reuses the SAME Reid clip (reid_outro_2), reframed vertical.
+// NOT a new generation. ~8s. → assets/subscribe-outro/subscribe_blackbox_short.mp4
+export const subscribeBlackBoxShortFrames = 240;
+export const SubscribeBlackBoxShort: React.FC = () => {
+  const frame = useCurrentFrame();
+  const kicker = interpolate(frame, [4, 20], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const pillIn = spring({ frame: frame - 30, fps: FPS, config: { damping: 15 } });
+  const pulse = 1 + 0.04 * Math.sin(frame / 7);
+  return (
+    <AbsoluteFill style={{ backgroundColor: "#05070C" }}>
+      <OffthreadVideo src={staticFile("outro/reid_outro_2.mp4")}
+        style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+      <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(5,7,12,0.35) 0%, transparent 30%, transparent 46%, rgba(5,7,12,0.95) 78%)", pointerEvents: "none" }} />
+      <div style={{ position: "absolute", top: 70, left: 0, right: 0, textAlign: "center", opacity: kicker }}>
+        <span style={{ fontFamily: DISPLAY, fontWeight: 700, fontSize: 44, letterSpacing: 8, color: ACCENT }}>BEFORE YOU GO</span>
+      </div>
+      <div style={{ position: "absolute", top: 128, left: 0, right: 0, textAlign: "center", opacity: 0.92, display: "flex", justifyContent: "center", alignItems: "center", gap: 14 }}>
+        <div style={{ width: 18, height: 18, borderRadius: "50%", background: ACCENT, boxShadow: `0 0 18px ${ACCENT}` }} />
+        <span style={{ fontFamily: DISPLAY, fontWeight: 700, fontSize: 40, color: "#fff", letterSpacing: 1 }}>Black Box</span>
+      </div>
+      <div style={{ position: "absolute", bottom: 300, left: 0, right: 0, display: "flex", flexDirection: "column", alignItems: "center", gap: 30,
+        opacity: pillIn, transform: `translateY(${interpolate(pillIn, [0, 1], [50, 0])}px)` }}>
+        <div style={{ transform: `scale(${pulse})`, background: ACCENT, color: "#0A0A0A", fontFamily: DISPLAY, fontWeight: 700, fontSize: 82,
+          letterSpacing: 2, padding: "24px 70px", borderRadius: 22, boxShadow: `0 12px 50px ${ACCENT}66`, display: "flex", alignItems: "center", gap: 26 }}>
+          <span style={{ fontSize: 72 }}>▶</span> SUBSCRIBE
+        </div>
+        <span style={{ fontFamily: BODY, fontWeight: 700, fontSize: 56, color: "#fff", textShadow: "0 3px 20px rgba(0,0,0,0.9)" }}>@Watch-BlackBox</span>
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 export const SubscribeBlackBoxLong: React.FC = () => {
   const frame = useCurrentFrame();
   const kicker = interpolate(frame, [6, 24], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });

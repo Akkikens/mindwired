@@ -245,9 +245,12 @@ const Porpoise: React.FC<DiagProps> = ({ dur, accent }) => {
 };
 
 /* ---- 6. counter: 189 + 157 = 346, counting up ---- */
-const Counter: React.FC<DiagProps> = ({ dur, accent }) => {
+const Counter: React.FC<DiagProps> = ({ dur, arg, accent }) => {
   const f = useCurrentFrame();
-  const n = Math.round(interpolate(f, [15, 90], [0, 346], clamp));
+  // arg = "TOTAL|BREAKDOWN|LABEL" (e.g. "50|49 + 1|LIVES LOST"). Default = 737 MAX.
+  const [totalStr, breakdown, label] = (arg ?? "346|189 + 157|LIVES LOST").split("|");
+  const total = parseInt(totalStr, 10) || 346;
+  const n = Math.round(interpolate(f, [15, 90], [0, total], clamp));
   const showSum = interpolate(f, [95, 120], [0, 1], clamp);
   const pop = spring({ frame: f - 15, fps: FPS, config: { damping: 14 } });
   return (
@@ -258,10 +261,10 @@ const Counter: React.FC<DiagProps> = ({ dur, accent }) => {
           {n}
         </div>
         <div style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, fontSize: 44, color: "#fff", letterSpacing: 6, opacity: showSum }}>
-          189 &nbsp;+&nbsp; 157
+          {breakdown}
         </div>
         <div style={{ fontFamily: "'Inter', sans-serif", fontWeight: 600, fontSize: 30, color: INK, letterSpacing: 4, marginTop: 10, opacity: showSum }}>
-          LIVES LOST
+          {label ?? "LIVES LOST"}
         </div>
       </div>
     </AbsoluteFill>
@@ -271,7 +274,9 @@ const Counter: React.FC<DiagProps> = ({ dur, accent }) => {
 /* ---- 7. quote: a damning line, revealed word by word ---- */
 const Quote: React.FC<DiagProps> = ({ dur, arg, accent }) => {
   const f = useCurrentFrame();
-  const words = (arg ?? "").split(" ");
+  // arg = "quote text||ATTRIBUTION" (attribution optional; legacy default below)
+  const [qText, qAttr] = (arg ?? "").split("||");
+  const words = (qText ?? "").split(" ");
   const shown = interpolate(f, [12, Math.max(30, dur - 30)], [0, words.length], clamp);
   return (
     <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", padding: "0 220px" }}>
@@ -285,9 +290,253 @@ const Quote: React.FC<DiagProps> = ({ dur, arg, accent }) => {
         </div>
         <div style={{ width: 140, height: 6, background: accent, borderRadius: 4, margin: "44px auto 0", opacity: interpolate(f, [20, 44], [0, 1], clamp) }} />
         <div style={{ fontFamily: "'Inter', sans-serif", fontWeight: 600, fontSize: 28, color: INK, letterSpacing: 3, marginTop: 22, opacity: interpolate(f, [30, 54], [0, 1], clamp) }}>
-          — BOEING INTERNAL MESSAGES
+          — {qAttr || "BOEING INTERNAL MESSAGES"}
         </div>
       </div>
+    </AbsoluteFill>
+  );
+};
+
+/* ---- atcwaves: real-ATC audio waveform (for ACTUAL ATC RECORDING beats) ---- */
+const AtcWaves: React.FC<DiagProps> = ({ dur, accent }) => {
+  const f = useCurrentFrame();
+  const N = 68;
+  const bars = Array.from({ length: N }, (_, i) => {
+    const seed = Math.sin(i * 12.9898) * 43758.5453;
+    const base = 0.25 + 0.75 * Math.abs(Math.sin(i * 0.7 + (seed - Math.floor(seed))));
+    const env = 0.4 + 0.6 * Math.abs(Math.sin(f / 6 + i * 0.5)); // "talking" envelope
+    return base * env;
+  });
+  return (
+    <AbsoluteFill>
+      <Grid accent={accent} />
+      <svg width="100%" height="100%" viewBox="0 0 1920 1080" style={{ position: "absolute", inset: 0 }}>
+        <line x1="160" y1="540" x2="1760" y2="540" stroke={INK} strokeWidth="2" opacity={0.3} />
+        {bars.map((h, i) => {
+          const x = 160 + (i + 0.5) * (1600 / N);
+          const bh = h * 300;
+          return <rect key={i} x={x - 8} y={540 - bh / 2} width="16" height={bh} rx="6" fill={accent} opacity={0.5 + 0.5 * h} />;
+        })}
+        <circle cx="960" cy="230" r="30" fill="none" stroke={accent} strokeWidth="4" />
+        <path d="M948 230 a12 12 0 0 1 24 0" fill="none" stroke={accent} strokeWidth="4" />
+        <line x1="960" y1="230" x2="960" y2="250" stroke={accent} strokeWidth="4" />
+        <text x="960" y="320" textAnchor="middle" style={label(INK, 26)}>BUFFALO APPROACH · 118.4</text>
+      </svg>
+    </AbsoluteFill>
+  );
+};
+
+/* ---- lowspeed: airspeed tape, needle dropping, low-speed cue band rising ---- */
+const LowSpeed: React.FC<DiagProps> = ({ dur, accent }) => {
+  const f = useCurrentFrame();
+  const spd = interpolate(f, [0, dur], [180, 128], clamp);
+  const cy = interpolate(spd, [100, 200], [900, 180], clamp); // needle y (fast=top)
+  const cueTop = interpolate(f, [10, dur], [980, 640], clamp); // red band rises
+  const danger = spd < 140;
+  return (
+    <AbsoluteFill>
+      <Grid accent={accent} />
+      <svg width="100%" height="100%" viewBox="0 0 1920 1080" style={{ position: "absolute", inset: 0 }}>
+        {/* tape */}
+        <rect x="760" y="140" width="220" height="800" rx="10" fill="rgba(159,180,199,0.06)" stroke={INK} strokeWidth="3" />
+        {[200, 180, 160, 140, 120, 100].map((v, i) => (
+          <g key={v}>
+            <line x1="760" y1={180 + i * 144} x2="800" y2={180 + i * 144} stroke={INK} strokeWidth="2" />
+            <text x="745" y={186 + i * 144} textAnchor="end" style={label(INK, 30)}>{v}</text>
+          </g>
+        ))}
+        {/* low-speed cue band (red/black, rising) */}
+        <rect x="760" y={cueTop} width="220" height={980 - cueTop} fill="rgba(255,77,77,0.28)" stroke={RED} strokeWidth="3" />
+        <text x="870" y={cueTop - 14} textAnchor="middle" style={label(RED, 26)}>LOW-SPEED CUE</text>
+        {/* needle */}
+        <g>
+          <polygon points={`980,${cy} 1030,${cy - 26} 1180,${cy - 26} 1180,${cy + 26} 1030,${cy + 26}`}
+            fill={danger ? RED : accent} />
+          <text x="1080" y={cy + 12} textAnchor="middle" style={{ ...label("#0A0A0A", 46) }}>{Math.round(spd)}</text>
+        </g>
+        <text x="870" y="110" textAnchor="middle" style={label(accent, 30)}>AIRSPEED · KNOTS</text>
+        {danger && <text x="1300" y={cy + 12} style={label(RED, 40)} opacity={Math.sin(f / 4) > 0 ? 1 : 0.3}>◀ TOO SLOW</text>}
+      </svg>
+    </AbsoluteFill>
+  );
+};
+
+/* ---- stallseq: airfoil AoA rising past critical → airflow separates → STALL ---- */
+const StallSeq: React.FC<DiagProps> = ({ dur, accent }) => {
+  const f = useCurrentFrame();
+  const aoa = interpolate(f, [10, dur - 20], [4, 22], clamp); // degrees
+  const stalled = aoa > 15;
+  return (
+    <AbsoluteFill>
+      <Grid accent={accent} />
+      <svg width="100%" height="100%" viewBox="0 0 1920 1080" style={{ position: "absolute", inset: 0 }}>
+        <g transform={`translate(860 560) rotate(${-aoa})`}>
+          {/* airfoil */}
+          <path d="M-360 0 Q -120 -70 260 -14 Q 300 -6 300 0 Q 300 6 200 14 Q -120 40 -360 0 Z"
+            fill="rgba(255,149,0,0.10)" stroke={accent} strokeWidth="4" />
+          {/* airflow streamlines */}
+          {[-70, -40, -10].map((off, i) => (
+            <path key={i}
+              d={stalled
+                ? `M-520 ${off} Q -360 ${off} -200 ${off - 6} Q -80 ${off - 4} -20 ${off - 30 - i * 10} Q 40 ${off - 50} 120 ${off + (i % 2 ? 30 : -20)}`
+                : `M-520 ${off} Q -200 ${off} 40 ${off - 8} Q 200 ${off - 6} 340 ${off}`}
+              fill="none" stroke={stalled ? RED : "#7FE3FF"} strokeWidth="3" opacity={0.85}
+              strokeDasharray={stalled ? "10 8" : "none"} />
+          ))}
+        </g>
+        {/* AoA arc */}
+        <line x1="500" y1="560" x2="900" y2="560" stroke={INK} strokeWidth="2" strokeDasharray="8 8" opacity={0.5} />
+        <text x="520" y="620" style={label(stalled ? RED : accent, 40)}>AoA {Math.round(aoa)}°</text>
+        <text x="520" y="180" style={label(INK, 28)}>CRITICAL ANGLE ≈ 15°</text>
+        {stalled && <text x="960" y="240" textAnchor="middle" style={label(RED, 90)} opacity={Math.sin(f / 4) > -0.3 ? 1 : 0.4}>STALL</text>}
+      </svg>
+    </AbsoluteFill>
+  );
+};
+
+/* ---- pusher: pilot pulls back (wrong) vs stick pusher pushing nose-down (right) ---- */
+const Pusher: React.FC<DiagProps> = ({ dur, accent }) => {
+  const f = useCurrentFrame();
+  const pull = interpolate(f, [20, 70], [0, 1], clamp); // column moves aft
+  const colX = interpolate(pull, [0, 1], [960, 900]);
+  const beat = Math.sin(f / 8) > 0;
+  return (
+    <AbsoluteFill>
+      <Grid accent={accent} />
+      <svg width="100%" height="100%" viewBox="0 0 1920 1080" style={{ position: "absolute", inset: 0 }}>
+        {/* control column */}
+        <g transform={`translate(${colX} 720) rotate(${pull * -14})`}>
+          <rect x="-16" y="-260" width="32" height="260" rx="12" fill="rgba(159,180,199,0.15)" stroke={INK} strokeWidth="4" />
+          <rect x="-70" y="-300" width="140" height="46" rx="18" fill="rgba(159,180,199,0.15)" stroke={INK} strokeWidth="4" />
+        </g>
+        {/* pilot pulls back (red, wrong) */}
+        <g opacity={0.5 + 0.5 * pull}>
+          <path d="M1120 520 q 120 40 120 200" fill="none" stroke={RED} strokeWidth="7" />
+          <path d="M1240 720 l -26 -18 l 6 34 z" fill={RED} />
+          <text x="1160" y="480" style={label(RED, 34)}>PILOT PULLS BACK</text>
+          <text x="1160" y="520" style={label(RED, 26)}>(deepens the stall)</text>
+        </g>
+        {/* stick pusher: correct nose-down */}
+        <g opacity={beat ? 1 : 0.25}>
+          <path d="M700 460 L 700 640" stroke={accent} strokeWidth="9" />
+          <path d="M700 640 l -22 -30 l 44 0 z" fill={accent} />
+          <text x="430" y="440" style={label(accent, 34)}>STICK PUSHER</text>
+          <text x="430" y="480" style={label(accent, 26)}>nose DOWN — the fix</text>
+        </g>
+      </svg>
+    </AbsoluteFill>
+  );
+};
+
+/* ---- approach: descent profile to runway, speed bleeding, config points ---- */
+const Approach: React.FC<DiagProps> = ({ dur, accent }) => {
+  const f = useCurrentFrame();
+  const prog = interpolate(f, [10, dur - 10], [0, 1], clamp);
+  const px = interpolate(prog, [0, 1], [300, 1500]);
+  const py = interpolate(prog, [0, 1], [320, 760]);
+  return (
+    <AbsoluteFill>
+      <Grid accent={accent} />
+      <svg width="100%" height="100%" viewBox="0 0 1920 1080" style={{ position: "absolute", inset: 0 }}>
+        {/* ground + runway */}
+        <line x1="200" y1="820" x2="1720" y2="820" stroke={INK} strokeWidth="3" />
+        <rect x="1500" y="812" width="220" height="16" fill={accent} opacity={0.7} />
+        <text x="1610" y="870" textAnchor="middle" style={label(accent, 26)}>RWY 23 · BUFFALO</text>
+        {/* glide path */}
+        <path d="M300 320 L 1500 760" stroke={INK} strokeWidth="2" strokeDasharray="10 10" opacity={0.5} />
+        {/* config callouts */}
+        <text x="520" y="430" style={label(INK, 24)}>GEAR DOWN · 145 kt</text>
+        <text x="820" y="560" style={label(INK, 24)}>FLAPS · slowing</text>
+        <text x="1120" y="690" style={label(RED, 26)}>130 kt · TOO SLOW</text>
+        {/* moving aircraft dot */}
+        <g transform={`translate(${px} ${py})`}>
+          <path d="M-26 0 L 16 0 L 30 -8 L 30 8 Z" fill={accent} />
+          <circle cx="0" cy="0" r="7" fill="#fff" />
+        </g>
+      </svg>
+    </AbsoluteFill>
+  );
+};
+
+/* ---- icing: ice on the leading edge, stamped NOT THE CAUSE ---- */
+const Icing: React.FC<DiagProps> = ({ dur, accent }) => {
+  const f = useCurrentFrame();
+  const ice = interpolate(f, [10, 60], [0, 1], clamp);
+  const stamp = spring({ frame: f - 80, fps: FPS, config: { damping: 11, stiffness: 120 } });
+  return (
+    <AbsoluteFill>
+      <Grid accent={accent} />
+      <svg width="100%" height="100%" viewBox="0 0 1920 1080" style={{ position: "absolute", inset: 0 }}>
+        {/* wing leading edge cross-section */}
+        <path d="M420 560 Q 640 420 1400 500 Q 1480 508 1480 540 Q 1480 572 1360 588 Q 640 660 420 560 Z"
+          fill="rgba(159,180,199,0.08)" stroke={INK} strokeWidth="4" />
+        {/* ice accretion on the leading edge (left) */}
+        <path d="M420 560 Q 470 500 560 484 Q 520 470 470 500 Q 430 470 460 452 Q 500 470 560 466"
+          fill="rgba(127,227,255,0.5)" stroke="#BFEFFF" strokeWidth="3" opacity={ice} />
+        {Array.from({ length: 7 }, (_, i) => (
+          <path key={i} d={`M${430 + i * 26} 560 l -8 -${18 + (i % 3) * 8}`} stroke="#BFEFFF" strokeWidth="4" opacity={ice} />
+        ))}
+        <text x="540" y="700" style={label("#BFEFFF", 30)}>ICE ON THE WING</text>
+        {/* stamp */}
+        <g transform={`translate(1120 360) rotate(-12) scale(${interpolate(stamp, [0, 1], [0.4, 1])})`} opacity={stamp}>
+          <rect x="-260" y="-56" width="520" height="112" rx="12" fill="none" stroke={RED} strokeWidth="8" />
+          <text x="0" y="20" textAnchor="middle" style={label(RED, 56)}>NOT THE CAUSE</text>
+        </g>
+      </svg>
+    </AbsoluteFill>
+  );
+};
+
+/* ---- fatigue: overnight commute legs + a tired clock ---- */
+const Fatigue: React.FC<DiagProps> = ({ dur, accent }) => {
+  const f = useCurrentFrame();
+  const draw = interpolate(f, [10, dur - 20], [0, 3], clamp);
+  const legs = [
+    { x: 360, label: "SEATTLE", t: "eve" },
+    { x: 820, label: "MEMPHIS", t: "night" },
+    { x: 1280, label: "NEWARK", t: "6:23 AM" },
+  ];
+  return (
+    <AbsoluteFill>
+      <Grid accent={accent} />
+      <svg width="100%" height="100%" viewBox="0 0 1920 1080" style={{ position: "absolute", inset: 0 }}>
+        <line x1="360" y1="480" x2="1280" y2="480" stroke={INK} strokeWidth="2" strokeDasharray="8 10" opacity={0.4} />
+        {legs.map((l, i) => (
+          <g key={i} opacity={draw > i ? 1 : 0.15}>
+            <circle cx={l.x} cy="480" r="12" fill={i === 2 ? RED : accent} />
+            <text x={l.x} y="440" textAnchor="middle" style={label(i === 2 ? RED : accent, 30)}>{l.label}</text>
+            <text x={l.x} y="540" textAnchor="middle" style={label(INK, 24)}>{l.t}</text>
+            {i < 2 && draw > i + 0.5 && (
+              <path d={`M${l.x + 24} 480 L ${legs[i + 1].x - 24} 480`} stroke={accent} strokeWidth="4" markerEnd="" />
+            )}
+          </g>
+        ))}
+        <text x="820" y="300" textAnchor="middle" style={label(RED, 40)} opacity={interpolate(f, [70, 95], [0, 1], clamp)}>~90 MIN SLEEP · OVERNIGHT</text>
+        <text x="820" y="720" textAnchor="middle" style={label(INK, 28)}>She flew all night — for free — to reach work.</text>
+      </svg>
+    </AbsoluteFill>
+  );
+};
+
+/* ---- reform: 250 → 1,500 flight-hour minimum ---- */
+const Reform: React.FC<DiagProps> = ({ dur, accent }) => {
+  const f = useCurrentFrame();
+  const h1 = interpolate(f, [10, 40], [0, 90], clamp);
+  const h2 = interpolate(f, [55, 115], [0, 520], clamp);
+  const baseY = 800;
+  return (
+    <AbsoluteFill>
+      <Grid accent={accent} />
+      <svg width="100%" height="100%" viewBox="0 0 1920 1080" style={{ position: "absolute", inset: 0 }}>
+        <line x1="360" y1={baseY} x2="1560" y2={baseY} stroke={INK} strokeWidth="3" />
+        <rect x="600" y={baseY - h1} width="220" height={h1} fill="rgba(159,180,199,0.25)" stroke={INK} strokeWidth="3" />
+        <text x="710" y={baseY + 50} textAnchor="middle" style={label(INK, 30)}>OLD MINIMUM</text>
+        <text x="710" y={baseY - h1 - 22} textAnchor="middle" style={label(INK, 46)}>250 hrs</text>
+        <rect x="1100" y={baseY - h2} width="220" height={h2} fill="rgba(255,149,0,0.18)" stroke={accent} strokeWidth="4" />
+        <text x="1210" y={baseY + 50} textAnchor="middle" style={label(accent, 30)}>AFTER 3407</text>
+        <text x="1210" y={baseY - h2 - 22} textAnchor="middle" style={label(accent, 64)} opacity={interpolate(f, [95, 115], [0, 1], clamp)}>1,500 hrs</text>
+        <text x="960" y="180" textAnchor="middle" style={label(accent, 60)} opacity={interpolate(f, [115, 140], [0, 1], clamp)}>6× THE REQUIREMENT</text>
+      </svg>
     </AbsoluteFill>
   );
 };
@@ -295,4 +544,6 @@ const Quote: React.FC<DiagProps> = ({ dur, arg, accent }) => {
 export const DIAGRAMS: Record<string, React.FC<DiagProps>> = {
   engines: Engines, sensor: Sensor, authority: Authority,
   trimfight: TrimFight, porpoise: Porpoise, counter: Counter, quote: Quote,
+  atcwaves: AtcWaves, lowspeed: LowSpeed, stallseq: StallSeq, pusher: Pusher,
+  approach: Approach, icing: Icing, fatigue: Fatigue, reform: Reform,
 };
