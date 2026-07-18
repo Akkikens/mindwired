@@ -1,0 +1,85 @@
+{
+  "slug": "spacesounds",
+  "title": "The Scariest Real Sounds Ever Recorded in Space",
+  "language": "en",
+  "channel": "mindwired",
+  "scenes": [
+    { "id": "h1", "text": "[Recording: Perseus black hole — NASA Chandra sonification]", "speaker": "PERSEUS BLACK HOLE", "radioLabel": "NASA SONIFICATION", "timestamp": "2022", "cap": "This is not a sound effect.", "noAutoSfx": true },
+    { "id": "h2", "text": "That is a black hole. A real one, at the center of the Perseus galaxy cluster, two hundred fifty million light years from Earth. What you just heard is real data from NASA's Chandra observatory.", "img": "perseus", "stat": "250,000,000 light years away", "statColor": "#FF4D4D" },
+    { "id": "h3", "text": "For seventy years we have been recording space. Most of it is silence. But every now and then, our machines pick up something that makes scientists stop.", "img": "deepspace" },
+    { "id": "h4", "text": "These are the fifteen scariest real sounds ever recorded in space, ranked. Every single clip is genuine, sourced, and labeled. And the sound at number one made NASA's own team call it spooky.", "img": "saturn", "cap": "15 sounds. All real. All sourced." },
+    { "id": "t1", "text": "Before we start, one honest rule. Space is a vacuum. Sound cannot travel through it.", "chapter": "MINDWIRED\nThe Scariest Sounds in Space" },
+    { "id": "t2", "text": "So when a spacecraft hears something, it is recording radio waves, plasma waves, or vibrations — real physical signals, converted into audio. On this channel, every clip gets a label telling you exactly what it is. No fakes. No sound effects. If a famous space sound could not be verified, it is not in this video.", "img": "voyager", "cap": "Every clip labeled: what it really is" },
+
+    { "id": "c15", "text": "Number fifteen. The beep that terrified a superpower.", "chapter": "#15\nThe Beep Over Your Head" },
+    { "id": "n15", "text": "October fourth, nineteen fifty seven. The Soviet Union puts the first machine into orbit. Anyone on Earth with a ham radio can hear it passing over their house. Twice a second. For twenty two days. America does not find it cute. It finds it terrifying — because if a radio can fly over your country, so can a warhead.", "img": "sputnik", "stat": "Oct 4, 1957" },
+    { "id": "l15", "text": "[Recording: Sputnik 1 radio transmission, received 1957]", "speaker": "SPUTNIK 1", "radioLabel": "ACTUAL RECORDING", "timestamp": "1957", "cap": "The actual received transmission", "noAutoSfx": true },
+
+    { "id": "c14", "text": "Number fourteen. The sound of stars dying.", "chapter": "#14\nDying Stars Ring Like Bells" },
+    { "id": "n14", "text": "The Kepler telescope watched stars flicker as they swell into red giants near the end of their lives. Convert those flickers into audio, and dying stars sound like this — slow organ notes, each one the resonant frequency of a star running out of fuel. One day, the Sun will sing this same note.", "img": "kepler", "stat": "Sonification of starlight" },
+    { "id": "l14", "text": "[Sonification: Kepler starquakes of a dying red giant]", "speaker": "KEPLER", "radioLabel": "NASA SONIFICATION", "timestamp": "2011", "cap": "A red giant's resonant tone", "noAutoSfx": true },
+
+    { "id": "c13", "text": "Number thirteen. The first sound ever recorded on another planet.", "chapter": "#13\nWind on a Dead World" },
+    { "id": "n13", "text": "February twenty twenty one. The Perseverance rover switches on its microphone — the first working mic on the surface of another planet. And Mars speaks. Thin, cold wind, in an atmosphere one percent as thick as ours. This is not data converted to sound. This is a real microphone, really recording, on a world where nothing has ever been alive to hear it.", "img": "marsrover", "stat": "First mic on another planet" },
+    { "id": "l13", "text": "[Recording: Martian wind — Perseverance SuperCam microphone, Sol 1]", "speaker": "PERSEVERANCE", "radioLabel": "ACTUAL RECORDING", "timestamp": "SOL 1 · 2021", "cap": "Real Martian wind. A real microphone.", "noAutoSfx": true },
+
+    { "id": "c12", "text": "Number twelve. A robot, alone, shooting rocks with a laser.", "chapter": "#12\nLasers on Mars" },
+    { "id": "n12", "text": "That same rover carries a laser that vaporizes rock to study what Mars is made of. On Sol twelve, the microphone caught it firing thirty times. Each snap you hear is stone turning to plasma, on a planet with no one around for two hundred million kilometers.", "img": "laser", "stat": "30 laser shots" },
+    { "id": "l12", "text": "[Recording: SuperCam laser zapping Martian rock, Sol 12]", "speaker": "PERSEVERANCE", "radioLabel": "ACTUAL RECORDING", "timestamp": "SOL 12 · 2021", "cap": "Rock vaporizing, shot by shot", "noAutoSfx": true },
+
+    { "id": "c11", "text": "Number eleven. The loneliest drive in the universe.", "chapter": "#11\nThe Haunted Machine" },
+    { "id": "n11", "text": "When Perseverance drives, its metal wheels grind over rock in the Martian cold, and the whole frame groans. NASA engineers admitted they would take the car to the shop if it made these sounds on Earth. Listen to a one ton machine, crawling across an empty planet, creaking like a haunted house.", "img": "marsdrive", "stat": "Sol 16 — first drive audio" },
+    { "id": "l11", "text": "[Recording: Perseverance driving across Jezero Crater, Sol 16]", "speaker": "PERSEVERANCE", "radioLabel": "ACTUAL RECORDING", "timestamp": "SOL 16 · 2021", "cap": "\"We'd take it to the shop\" — NASA", "noAutoSfx": true },
+
+    { "id": "c10", "text": "Number ten. The moon that whispers to its planet.", "chapter": "#10\nThe Whispering Moon" },
+    { "id": "n10", "text": "Enceladus is a tiny ice moon that vents its hidden ocean into space. Those particles ride Saturn's magnetic field lines — and as they do, they hiss. Cassini flew through it and recorded an ocean world, electrically whispering to the planet it orbits.", "img": "enceladus", "stat": "A hidden ocean, venting" },
+    { "id": "l10", "text": "[Spacecraft data: Enceladus plasma hiss — Cassini]", "speaker": "CASSINI", "radioLabel": "SPACECRAFT DATA AS SOUND", "timestamp": "2008", "cap": "Plasma waves, played as audio", "noAutoSfx": true },
+
+    { "id": "c9", "text": "Number nine. Alien lightning.", "chapter": "#9\nLightning on Jupiter" },
+    { "id": "n9", "text": "Nineteen seventy nine. Voyager one reaches Jupiter and proves, for the first time, that lightning exists on another world. The storm's radio waves spiral down Jupiter's magnetic field and arrive as falling whistles — like something calling down from clouds big enough to swallow the Earth.", "img": "jupiter", "stat": "First alien lightning ever detected" },
+    { "id": "l9", "text": "[Spacecraft data: Jupiter lightning whistlers — Voyager 1]", "speaker": "VOYAGER 1", "radioLabel": "SPACECRAFT DATA AS SOUND", "timestamp": "1979", "cap": "Whistlers from Jovian storms", "noAutoSfx": true },
+
+    { "id": "c8", "text": "Number eight. Crashing into a monster's territory.", "chapter": "#8\nThe Bow Shock" },
+    { "id": "n8", "text": "Jupiter's magnetic field is the largest structure in the solar system. In twenty sixteen, the Juno spacecraft slammed through its outer boundary — the bow shock — where the solar wind piles up against the planet's magnetosphere like water against the bow of a ship. Juno crossed it in two hours. This is what the crossing sounded like.", "img": "juno", "stat": "Largest structure in the solar system" },
+    { "id": "l8", "text": "[Spacecraft data: Juno crossing Jupiter's bow shock]", "speaker": "JUNO", "radioLabel": "SPACECRAFT DATA AS SOUND", "timestamp": "JUN 24, 2016", "cap": "Breaking into Jupiter's domain", "noAutoSfx": true },
+
+    { "id": "c7", "text": "Number seven. The moon that screamed back.", "chapter": "#7\nGanymede Answers" },
+    { "id": "n7", "text": "June seventh, twenty twenty one. Juno skims one thousand kilometers over Ganymede, the biggest moon in the solar system. Its instruments pick up the moon's electric environment — and halfway through the recording, the pitch suddenly jumps. That jump is the exact moment the spacecraft crossed into a different region of Ganymede's magnetosphere. It sounds like the moon noticed.", "img": "ganymede", "stat": "1,038 km flyby altitude" },
+    { "id": "l7", "text": "[Spacecraft data: Juno's Ganymede flyby — listen for the jump]", "speaker": "JUNO", "radioLabel": "SPACECRAFT DATA AS SOUND", "timestamp": "JUN 7, 2021", "cap": "The pitch jump is a real boundary", "noAutoSfx": true },
+
+    { "id": "c6", "text": "Number six. The planet that shook — with nobody on it.", "chapter": "#6\nMarsquake" },
+    { "id": "n6", "text": "April twenty nineteen. The InSight lander's seismometer, sitting on a planet we thought was geologically dead, feels the ground tremble. The first confirmed marsquake. NASA processed the seismic data into audio so we could hear a dead planet... groan in its sleep.", "img": "insight", "stat": "First marsquake — Sol 128" },
+    { "id": "l6", "text": "[Sonification: the first marsquake — InSight seismometer data]", "speaker": "INSIGHT", "radioLabel": "NASA SONIFICATION", "timestamp": "SOL 128 · 2019", "cap": "Seismic data, made audible", "noAutoSfx": true },
+
+    { "id": "c5", "text": "Number five. Falling through the sky of an alien moon.", "chapter": "#5\nDescent Into Titan" },
+    { "id": "n5", "text": "January fourteenth, two thousand five. The Huygens probe parachutes for two and a half hours through the orange haze of Titan — the most distant landing in human history. Its sensors captured the wind of that descent; the European Space Agency reconstructed it from the probe's real atmospheric data. A parachute, an alien sky, and a machine falling alone toward a methane world.", "img": "titan", "stat": "Most distant landing ever" },
+    { "id": "l5", "text": "[Reconstruction from real Huygens descent data — Titan's wind]", "speaker": "HUYGENS", "radioLabel": "DATA RECONSTRUCTION", "timestamp": "JAN 14, 2005", "cap": "Reconstructed from real descent data", "noAutoSfx": true },
+    { "id": "n5b", "text": "And as the ground rose to meet it, Huygens' radar pinged faster... and faster. This is the sonified radar echo of the surface of Titan, rushing up.", "img": "huygens", "cap": "The ground, rushing up" },
+    { "id": "l5b", "text": "[Sonification: Huygens radar altimeter — surface approaching]", "speaker": "HUYGENS", "radioLabel": "NASA/ESA SONIFICATION", "timestamp": "JAN 14, 2005", "cap": "Radar echoes of the approaching ground", "noAutoSfx": true },
+
+    { "id": "w1", "text": "Before the top four — the scariest space signal ever detected is NOT in this ranking. And the reason why should bother you.", "chapter": "INTERLUDE\nThe Signal With No Recording" },
+    { "id": "w2", "text": "August fifteenth, nineteen seventy seven. The Big Ear telescope in Ohio catches a narrowband radio burst from the direction of Sagittarius — seventy two seconds, thirty times louder than the background. The astronomer on duty circles the printout and writes one word. Wow.", "img": "wowsignal", "stat": "72 seconds · 30x background", "statColor": "#FF4D4D" },
+    { "id": "w3", "text": "Here is the part nobody tells you. There is no recording. The Wow signal existed only as intensity numbers on a printout. Every Wow signal audio you have ever heard on the internet is fabricated. It never repeated, and it has never been fully explained. The scariest sound in space... is one we never got to hear.", "img": "wowsignal", "cap": "Every 'Wow! audio' online is fake" },
+
+    { "id": "c4", "text": "Number four. Your own planet is singing. You just cannot hear it.", "chapter": "#4\nEarth's Chorus" },
+    { "id": "n4", "text": "This one is not from deep space. It is from here. Electrons trapped in Earth's radiation belts generate radio waves every dawn — and played as audio, our planet sounds like a flock of alien birds. Ham radio operators have picked this up for a century. You have lived inside this sound your whole life.", "img": "earth", "stat": "Recorded around YOUR planet" },
+    { "id": "l4", "text": "[Spacecraft data: Earth's dawn chorus — Van Allen Probes]", "speaker": "VAN ALLEN PROBES", "radioLabel": "SPACECRAFT DATA AS SOUND", "timestamp": "2012", "cap": "Earth, singing at dawn", "noAutoSfx": true },
+
+    { "id": "c3", "text": "Number three. The deepest note in the universe.", "chapter": "#3\nThe Black Hole's Voice" },
+    { "id": "n3", "text": "The sound that opened this video deserves its full story. The black hole at the heart of the Perseus cluster drives pressure waves through the hot gas around it — actual sound waves, in space gas, at B flat, fifty seven octaves below middle C. One vibration every ten million years. NASA raised the real waves fifty seven octaves so human ears could stand in front of a black hole. Listen again — and remember it is real.", "img": "perseus", "stat": "57 octaves below middle C", "statColor": "#FF4D4D" },
+    { "id": "l3", "text": "[Sonification: Perseus black hole pressure waves, pitched up 57 octaves]", "speaker": "PERSEUS BLACK HOLE", "radioLabel": "NASA SONIFICATION", "timestamp": "2022", "cap": "Real pressure waves in cluster gas", "noAutoSfx": true },
+
+    { "id": "c2", "text": "Number two. The loneliest sound ever recorded.", "chapter": "#2\nOutside the Solar System" },
+    { "id": "n2", "text": "Voyager one is the farthest human object in existence. In twenty twelve, its instruments heard the plasma around it ring at a new, higher tone — and that tone was the proof it had left the Sun's bubble entirely. This is the sound of interstellar space itself, recorded by a machine that will drift among the stars long after everyone watching this is gone.", "img": "voyager", "stat": "24,000,000,000 km from home" },
+    { "id": "l2", "text": "[Spacecraft data: interstellar plasma ringing — Voyager 1]", "speaker": "VOYAGER 1", "radioLabel": "SPACECRAFT DATA AS SOUND", "timestamp": "2012–2013", "cap": "The sound of interstellar space", "noAutoSfx": true },
+    { "id": "n2b", "text": "Years earlier, at the edge of the Sun's domain, Voyager heard something bigger: the heliopause booming as shockwaves from solar storms slammed into interstellar gas — among the most powerful radio emissions in the whole solar system, coming from its outermost wall.", "img": "heliosphere", "cap": "The wall of the solar system, booming" },
+    { "id": "l2b", "text": "[Spacecraft data: heliospheric radio emissions — Voyager]", "speaker": "VOYAGER", "radioLabel": "SPACECRAFT DATA AS SOUND", "timestamp": "1992–1994", "cap": "The Sun's border, under impact", "noAutoSfx": true },
+
+    { "id": "c1", "text": "Number one. The sound NASA itself called eerie.", "chapter": "#1\nThe Screams of Saturn" },
+    { "id": "n1", "text": "As Cassini approached Saturn in two thousand three, it recorded the planet's auroral radio emissions — and when NASA released the audio, their own caption called it eerie. Rising and falling shrieks, sweeping tones, sounds that trade places like voices. These emissions are generated by Saturn's auroras — but their fine structure was so complex that scientists spent years decoding it. Twenty seven minutes of Saturn, compressed into seventy three seconds. This is the reigning scariest sound in space.", "img": "saturncassini", "stat": "NASA's own word: \"eerie\"", "statColor": "#FF4D4D" },
+    { "id": "l1", "text": "[Spacecraft data: Saturn kilometric radiation — Cassini, uncut]", "speaker": "CASSINI", "radioLabel": "SPACECRAFT DATA AS SOUND", "timestamp": "2003–2004", "cap": "Saturn's radio screams — uncut", "noAutoSfx": true },
+
+    { "id": "o1", "text": "Every sound you just heard is real, and every source is linked in the description — the missions, the data, the labels. That is the deal on this channel: the universe is scary enough without making anything up.", "img": "deepspace", "cap": "All sources in the description" },
+    { "id": "o2", "text": "And if hearing a black hole unsettled you, wait until you see what happened to the bodies of every astronaut who died up there — that story is on your screen now. Subscribe to mindwired, so you do not miss what space sounds like next.", "img": "voyager", "cap": "Next: what happened to their bodies" }
+  ]
+}

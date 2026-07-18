@@ -69,7 +69,9 @@ def main() -> int:
 
     # manifest freshness vs images dir
     img_dir = REPO / "public" / "shorts" / slug / "images"
-    disk = sorted(f.name for f in img_dir.glob("*") if f.is_file()) if img_dir.exists() else []
+    IMG_EXT = {".jpg", ".jpeg", ".png", ".webp"}  # mirror build_doc_vo.scan_images
+    disk = sorted(f.name for f in img_dir.glob("*")
+                  if f.is_file() and f.suffix.lower() in IMG_EXT) if img_dir.exists() else []
     man_files = sorted(f for files in man.get("images", {}).values() for f in files)
     if disk != man_files:
         added = set(disk) - set(man_files); removed = set(man_files) - set(disk)

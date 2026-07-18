@@ -1,0 +1,151 @@
+{
+ "durations": {
+  "h1": 10.0,
+  "h2": 12.121,
+  "h3": 9.796,
+  "h4": 13.401,
+  "t1": 6.426,
+  "t2": 22.7,
+  "c15": 3.631,
+  "n15": 20.872,
+  "l15": 4.392,
+  "c14": 3.709,
+  "n14": 19.252,
+  "l14": 15.0,
+  "c13": 4.676,
+  "n13": 23.902,
+  "l13": 20.062,
+  "c12": 4.519,
+  "n12": 15.882,
+  "l12": 11.076,
+  "c11": 3.866,
+  "n11": 17.711,
+  "l11": 30.0,
+  "c10": 3.161,
+  "n10": 15.987,
+  "l10": 10.681,
+  "c9": 2.691,
+  "n9": 17.894,
+  "l9": 7.82,
+  "c8": 3.553,
+  "n8": 20.088,
+  "l8": 16.484,
+  "c7": 3.239,
+  "n7": 22.622,
+  "l7": 40.0,
+  "c6": 4.232,
+  "n6": 17.58,
+  "l6": 30.0,
+  "c5": 3.709,
+  "n5": 23.171,
+  "l5": 30.0,
+  "n5b": 11.337,
+  "l5b": 25.0,
+  "w1": 7.34,
+  "w2": 17.502,
+  "w3": 20.872,
+  "c4": 4.911,
+  "n4": 19.592,
+  "l4": 29.884,
+  "c3": 3.474,
+  "n3": 28.552,
+  "l3": 34.004,
+  "c2": 3.317,
+  "n2": 21.264,
+  "l2": 24.613,
+  "n2b": 14.289,
+  "l2b": 25.0,
+  "c1": 3.971,
+  "n1": 30.563,
+  "l1": 73.493,
+  "o1": 12.852,
+  "o2": 13.897
+ },
+ "images": {
+  "deepspace": [
+   "deepspace_1.jpg",
+   "deepspace_2.png",
+   "deepspace_3.jpg"
+  ],
+  "earth": [
+   "earth_1.jpg",
+   "earth_2.jpg"
+  ],
+  "enceladus": [
+   "enceladus_1.png",
+   "enceladus_2.jpg"
+  ],
+  "ganymede": [
+   "ganymede_1.jpg",
+   "ganymede_2.jpg"
+  ],
+  "heliosphere": [
+   "heliosphere_1.jpg"
+  ],
+  "huygens": [
+   "huygens_1.jpg",
+   "huygens_2.jpg"
+  ],
+  "insight": [
+   "insight_1.jpg",
+   "insight_2.jpg"
+  ],
+  "juno": [
+   "juno_1.jpg",
+   "juno_2.jpg"
+  ],
+  "jupiter": [
+   "jupiter_1.jpg",
+   "jupiter_2.png",
+   "jupiter_3.png"
+  ],
+  "kepler": [
+   "kepler_1.jpg",
+   "kepler_2.jpg"
+  ],
+  "laser": [
+   "laser_1.jpg",
+   "laser_2.png"
+  ],
+  "marsdrive": [
+   "marsdrive_1.jpg",
+   "marsdrive_2.jpg"
+  ],
+  "marsrover": [
+   "marsrover_1.png",
+   "marsrover_2.png",
+   "marsrover_3.png"
+  ],
+  "perseus": [
+   "perseus_1.jpg"
+  ],
+  "saturn": [
+   "saturn_1.jpg",
+   "saturn_2.jpg",
+   "saturn_3.jpg"
+  ],
+  "saturncassini": [
+   "saturncassini_1.jpg",
+   "saturncassini_2.jpg"
+  ],
+  "sputnik": [
+   "sputnik_1.jpg",
+   "sputnik_2.png",
+   "sputnik_3.jpg"
+  ],
+  "titan": [
+   "titan_1.jpg",
+   "titan_2.jpg"
+  ],
+  "voyager": [
+   "voyager_1.jpg",
+   "voyager_2.jpg",
+   "voyager_3.jpg",
+   "voyager_4.jpg"
+  ],
+  "wowsignal": [
+   "wowsignal_1.jpg"
+  ]
+ },
+ "missing": []
+}

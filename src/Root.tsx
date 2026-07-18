@@ -39,11 +39,21 @@ import colgan3407Doc from "./mindwired-doc/docs/colgan3407.json";
 import colgan3407Manifest from "./mindwired-doc/docs/colgan3407.manifest.json";
 import af447Doc from "./mindwired-doc/docs/af447.json";
 import af447Manifest from "./mindwired-doc/docs/af447.manifest.json";
+import mh370Doc from "./mindwired-doc/docs/mh370.json";
+import mh370Manifest from "./mindwired-doc/docs/mh370.manifest.json";
 // Subscribe outro baked into the render (ONE render, no ffmpeg concat). frames @30fps.
 const BB_OUTRO = { file: "outro/subscribe_blackbox_long.mp4", frames: 483 };
 const MW_OUTRO = { file: "outro/subscribe_mindwired_long.mp4", frames: 527 };
 import lostCosmonautsDoc from "./mindwired-doc/docs/lostcosmonauts.json";
 import lostCosmonautsManifest from "./mindwired-doc/docs/lostcosmonauts.manifest.json";
+import spaceAnimalsDoc from "./mindwired-doc/docs/spaceanimals.json";
+import spaceAnimalsManifest from "./mindwired-doc/docs/spaceanimals.manifest.json";
+import blackHolesDoc from "./mindwired-doc/docs/blackholes.json";
+import blackHolesManifest from "./mindwired-doc/docs/blackholes.manifest.json";
+import spaceSoundsDoc from "./mindwired-doc/docs/spacesounds.json";
+import spaceSoundsManifest from "./mindwired-doc/docs/spacesounds.manifest.json";
+import astronautBodiesDoc from "./mindwired-doc/docs/astronautbodies.json";
+import astronautBodiesManifest from "./mindwired-doc/docs/astronautbodies.manifest.json";
 import { EndOfTimeEpic, endOfTimeTotalFrames } from "./endoftime/EndOfTimeEpic";
 import moonStrandedDoc from "./mindwired-doc/docs/moonstranded.json";
 import moonStrandedManifest from "./mindwired-doc/docs/moonstranded.manifest.json";
@@ -67,6 +77,7 @@ import { Sixty3Short, sixty3ShortFrames } from "./bvb63/Sixty3Short";
 import { QFReviewShort, qfShortFrames } from "./qfreview/QFReviewShort";
 import { MvB, mvbFrames } from "./mvb/MvB";
 import { MvBShort, mvbShortFrames } from "./mvb/MvBShort";
+import { MessiYamal19, messiYamal19Frames } from "./messiyamal19/MessiYamal19";
 import { MvBThumb } from "./mvb/MvBThumb";
 import { ViralShort, viralShortFrames } from "./viral/ShortEngine";
 import { HookProbe, HookProbeProps, hookProbeFrames, HOOK_PROBE_DEFAULT_FRAMES } from "./viral/HookProbe";
@@ -82,6 +93,22 @@ import marshalchairPlanJson from "./viral/plans/marshalchair.json";
 import marshalchairManifestJson from "../public/shorts/marshalchair/audio/manifest.json";
 import landeddeadPlanJson from "./viral/plans/landeddead.json";
 import landeddeadManifestJson from "../public/shorts/landeddead/audio/manifest.json";
+import saLaikaPlanJson from "./viral/plans/sa-laika.json";
+import saLaikaManifestJson from "../public/shorts/sa-laika/audio/manifest.json";
+import saFelicettePlanJson from "./viral/plans/sa-felicette.json";
+import saFelicetteManifestJson from "../public/shorts/sa-felicette/audio/manifest.json";
+import saEnosPlanJson from "./viral/plans/sa-enos.json";
+import saEnosManifestJson from "../public/shorts/sa-enos/audio/manifest.json";
+import saTortoisesPlanJson from "./viral/plans/sa-tortoises.json";
+import saTortoisesManifestJson from "../public/shorts/sa-tortoises/audio/manifest.json";
+import abKomarovPlanJson from "./viral/plans/ab-komarov.json";
+import abKomarovManifestJson from "../public/shorts/ab-komarov/audio/manifest.json";
+import abSoyuz11PlanJson from "./viral/plans/ab-soyuz11.json";
+import abSoyuz11ManifestJson from "../public/shorts/ab-soyuz11/audio/manifest.json";
+import abChallengerPlanJson from "./viral/plans/ab-challenger.json";
+import abChallengerManifestJson from "../public/shorts/ab-challenger/audio/manifest.json";
+import abApollo1PlanJson from "./viral/plans/ab-apollo1.json";
+import abApollo1ManifestJson from "../public/shorts/ab-apollo1/audio/manifest.json";
 import cosmicspeedPlanJson from "./viral/plans/cosmicspeed.json";
 import cosmicspeedManifestJson from "../public/shorts/cosmicspeed/audio/manifest.json";
 import biggeststarPlanJson from "./viral/plans/biggeststar.json";
@@ -171,6 +198,12 @@ import subKoLongPlanJson from "./viral/plans/subscribe-kickoffdaily90-long.json"
 import subKoLongManifestJson from "../public/shorts/subscribe-kickoffdaily90-long/audio/manifest.json";
 import subKoShortPlanJson from "./viral/plans/subscribe-kickoffdaily90-short.json";
 import subKoShortManifestJson from "../public/shorts/subscribe-kickoffdaily90-short/audio/manifest.json";
+import { CodewiredAvatar, CodewiredBanner } from "./codewired/Brand";
+import { CodewiredSubagentsVideo, codewiredTotalFrames } from "./codewired/Video";
+import { CodewiredSubagentsThumb, CodewiredMcpThumb, CodewiredSkillsThumb, CodewiredFlagshipThumb } from "./codewired/Thumbnail";
+import { CodewiredMcpVideo, mcpTotalFrames } from "./codewired/mcp/Video";
+import { CodewiredSkillsVideo, skillsTotalFrames } from "./codewired/skills/Video";
+import { CodewiredFlagshipVideo, flagshipTotalFrames } from "./codewired/flagship/Video";
 
 const roguebhPlan = roguebhPlanJson as unknown as VisualPlan;
 const roguebhManifest = roguebhManifestJson as unknown as ShortManifest;
@@ -182,6 +215,22 @@ const marshalchairPlan = marshalchairPlanJson as unknown as VisualPlan;
 const marshalchairManifest = marshalchairManifestJson as unknown as ShortManifest;
 const landeddeadPlan = landeddeadPlanJson as unknown as VisualPlan;
 const landeddeadManifest = landeddeadManifestJson as unknown as ShortManifest;
+const saLaikaPlan = saLaikaPlanJson as unknown as VisualPlan;
+const saLaikaManifest = saLaikaManifestJson as unknown as ShortManifest;
+const saFelicettePlan = saFelicettePlanJson as unknown as VisualPlan;
+const saFelicetteManifest = saFelicetteManifestJson as unknown as ShortManifest;
+const saEnosPlan = saEnosPlanJson as unknown as VisualPlan;
+const saEnosManifest = saEnosManifestJson as unknown as ShortManifest;
+const saTortoisesPlan = saTortoisesPlanJson as unknown as VisualPlan;
+const saTortoisesManifest = saTortoisesManifestJson as unknown as ShortManifest;
+const abKomarovPlan = abKomarovPlanJson as unknown as VisualPlan;
+const abKomarovManifest = abKomarovManifestJson as unknown as ShortManifest;
+const abSoyuz11Plan = abSoyuz11PlanJson as unknown as VisualPlan;
+const abSoyuz11Manifest = abSoyuz11ManifestJson as unknown as ShortManifest;
+const abChallengerPlan = abChallengerPlanJson as unknown as VisualPlan;
+const abChallengerManifest = abChallengerManifestJson as unknown as ShortManifest;
+const abApollo1Plan = abApollo1PlanJson as unknown as VisualPlan;
+const abApollo1Manifest = abApollo1ManifestJson as unknown as ShortManifest;
 
 // ── Cosmic-speed Short (AstroKobi-style): Hume VO + Veo/Higgsfield b-roll ──
 const cosmicspeedPlan = cosmicspeedPlanJson as unknown as VisualPlan;
@@ -399,6 +448,80 @@ export const RemotionRoot: React.FC = () => {
         component={ViralShort}
         defaultProps={{ plan: landeddeadPlan, manifest: landeddeadManifest }}
         durationInFrames={viralShortFrames(landeddeadPlan, landeddeadManifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      {/* ── Space Animals Shorts funnel ── */}
+      <Composition
+        id="ShortSaLaika"
+        component={ViralShort}
+        defaultProps={{ plan: saLaikaPlan, manifest: saLaikaManifest }}
+        durationInFrames={viralShortFrames(saLaikaPlan, saLaikaManifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ShortSaFelicette"
+        component={ViralShort}
+        defaultProps={{ plan: saFelicettePlan, manifest: saFelicetteManifest }}
+        durationInFrames={viralShortFrames(saFelicettePlan, saFelicetteManifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ShortSaEnos"
+        component={ViralShort}
+        defaultProps={{ plan: saEnosPlan, manifest: saEnosManifest }}
+        durationInFrames={viralShortFrames(saEnosPlan, saEnosManifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ShortSaTortoises"
+        component={ViralShort}
+        defaultProps={{ plan: saTortoisesPlan, manifest: saTortoisesManifest }}
+        durationInFrames={viralShortFrames(saTortoisesPlan, saTortoisesManifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      {/* ── Astronaut Bodies Shorts funnel ── */}
+      <Composition
+        id="ShortAbKomarov"
+        component={ViralShort}
+        defaultProps={{ plan: abKomarovPlan, manifest: abKomarovManifest }}
+        durationInFrames={viralShortFrames(abKomarovPlan, abKomarovManifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ShortAbSoyuz11"
+        component={ViralShort}
+        defaultProps={{ plan: abSoyuz11Plan, manifest: abSoyuz11Manifest }}
+        durationInFrames={viralShortFrames(abSoyuz11Plan, abSoyuz11Manifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ShortAbChallenger"
+        component={ViralShort}
+        defaultProps={{ plan: abChallengerPlan, manifest: abChallengerManifest }}
+        durationInFrames={viralShortFrames(abChallengerPlan, abChallengerManifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ShortAbApollo1"
+        component={ViralShort}
+        defaultProps={{ plan: abApollo1Plan, manifest: abApollo1Manifest }}
+        durationInFrames={viralShortFrames(abApollo1Plan, abApollo1Manifest)}
         fps={30}
         width={1080}
         height={1920}
@@ -748,6 +871,46 @@ export const RemotionRoot: React.FC = () => {
         height={1080}
       />
 
+      {/* ── mindwired — evidence doc: The Scariest Real Sounds Ever Recorded in Space ── */}
+      <Composition
+        id="SpaceSoundsDoc"
+        component={makeDocComp(spaceSoundsDoc, spaceSoundsManifest, MW_OUTRO)}
+        durationInFrames={docTotalFrames(spaceSoundsDoc, spaceSoundsManifest, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── mindwired — archival documentary: What Happened to the Bodies ── */}
+      <Composition
+        id="AstronautBodiesDoc"
+        component={makeDocComp(astronautBodiesDoc, astronautBodiesManifest, MW_OUTRO)}
+        durationInFrames={docTotalFrames(astronautBodiesDoc, astronautBodiesManifest, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── mindwired — archival documentary: Every Animal We Sent to Space ── */}
+      <Composition
+        id="SpaceAnimalsDoc"
+        component={makeDocComp(spaceAnimalsDoc, spaceAnimalsManifest, MW_OUTRO)}
+        durationInFrames={docTotalFrames(spaceAnimalsDoc, spaceAnimalsManifest, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── mindwired — flat 2D icon-grid doc: Every Type of Black Hole, Explained ── */}
+      <Composition
+        id="BlackHolesDoc"
+        component={makeDocComp(blackHolesDoc, blackHolesManifest, MW_OUTRO)}
+        durationInFrames={docTotalFrames(blackHolesDoc, blackHolesManifest, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
       {/* ── mindwired — archival documentary: The Cosmonauts the Soviets Erased ── */}
       <Composition
         id="LostCosmonautsDoc"
@@ -823,6 +986,16 @@ export const RemotionRoot: React.FC = () => {
         id="AF447Doc"
         component={makeDocComp(af447Doc, af447Manifest, BB_OUTRO)}
         durationInFrames={docTotalFrames(af447Doc, af447Manifest, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Black Box Breakdown — flagship documentary: MH370 ── */}
+      <Composition
+        id="MH370Doc"
+        component={makeDocComp(mh370Doc, mh370Manifest, BB_OUTRO)}
+        durationInFrames={docTotalFrames(mh370Doc, mh370Manifest, BB_OUTRO)}
         fps={30}
         width={1920}
         height={1080}
@@ -906,6 +1079,38 @@ export const RemotionRoot: React.FC = () => {
       <Still id="EastIndiaThumbDB" component={EastIndiaThumb} width={1280} height={720} />
       <Still id="AtomDeathsThumbMW" component={AtomDeathsThumb} width={1280} height={720} />
       <Still id="EndOfTimeThumbMW" component={EndOfTimeThumb} width={1280} height={720} />
+
+      {/* ── codewired channel brand assets ── */}
+      <Still id="CodewiredAvatar" component={CodewiredAvatar} width={800} height={800} />
+      <Still id="CodewiredBanner" component={CodewiredBanner} width={2048} height={1152} />
+      <Composition
+        id="CodewiredSubagents"
+        component={CodewiredSubagentsVideo}
+        durationInFrames={codewiredTotalFrames()}
+        fps={30} width={1920} height={1080}
+      />
+      <Still id="CodewiredSubagentsThumb" component={CodewiredSubagentsThumb} width={1280} height={720} />
+      <Still id="CodewiredMcpThumb" component={CodewiredMcpThumb} width={1280} height={720} />
+      <Still id="CodewiredSkillsThumb" component={CodewiredSkillsThumb} width={1280} height={720} />
+      <Still id="CodewiredFlagshipThumb" component={CodewiredFlagshipThumb} width={1280} height={720} />
+      <Composition
+        id="CodewiredFlagship"
+        component={CodewiredFlagshipVideo}
+        durationInFrames={flagshipTotalFrames()}
+        fps={30} width={1920} height={1080}
+      />
+      <Composition
+        id="CodewiredSkills"
+        component={CodewiredSkillsVideo}
+        durationInFrames={skillsTotalFrames()}
+        fps={30} width={1920} height={1080}
+      />
+      <Composition
+        id="CodewiredMcp"
+        component={CodewiredMcpVideo}
+        durationInFrames={mcpTotalFrames()}
+        fps={30} width={1920} height={1080}
+      />
       <Composition
         id="RadioTest"
         component={makeDocComp(radioTestDoc, radioTestManifest)}
@@ -960,6 +1165,27 @@ export const RemotionRoot: React.FC = () => {
         durationInFrames={blackBoxShortFrames({ startId: "m10", endId: "m13", hook: "Nobody went to\nprison for\n346 deaths" })}
         fps={30} width={1080} height={1920}
         defaultProps={{ startId: "m10", endId: "m13", hook: "Nobody went to\nprison for\n346 deaths", cta: "The full 737 MAX\nscandal, explained" }}
+      />
+      <Composition
+        id="AF447Short1"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "h1", endId: "h3", doc: af447Doc as any, manifest: af447Manifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "h1", endId: "h3", hook: "This plane was\nworking perfectly.\n228 people died.", slug: "af447", doc: af447Doc as any, manifest: af447Manifest as any, cta: "The full fall of\nAir France 447" }}
+      />
+      <Composition
+        id="AF447Short2"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "e1", endId: "e3", doc: af447Doc as any, manifest: af447Manifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "e1", endId: "e3", hook: "This alarm rang\n75 times.\nNobody said the word.", slug: "af447", doc: af447Doc as any, manifest: af447Manifest as any, cta: "The full fall of\nAir France 447" }}
+      />
+      <Composition
+        id="AF447Short3"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "b8", endId: "b10", doc: af447Doc as any, manifest: af447Manifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "b8", endId: "b10", hook: "3 frozen tubes\nkilled 228 people.", slug: "af447", doc: af447Doc as any, manifest: af447Manifest as any, cta: "The full fall of\nAir France 447" }}
       />
 
 
@@ -1057,6 +1283,7 @@ export const RemotionRoot: React.FC = () => {
         height={1080}
       />
       <Composition id="MvBShort" component={MvBShort} durationInFrames={mvbShortFrames()} fps={30} width={1080} height={1920} />
+      <Composition id="MessiYamal19" component={MessiYamal19} durationInFrames={messiYamal19Frames()} fps={30} width={1080} height={1920} />
       <Composition id="MvBThumb" component={MvBThumb} durationInFrames={1} fps={30} width={1280} height={720} />
 
       {/* ── kickoffdaily90 — What If Argentina (Shorts funnel cut) ── */}
