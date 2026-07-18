@@ -134,6 +134,54 @@ def mix_music_ducked(video: Path, music: Path, out: Path, *,
         return master_video(premix, out)
 
 
+def mix_music_windowed(video: Path, music: Path, out: Path,
+                        windows: list[tuple[float, float]], *,
+                        music_gain_db: float = -18.0,
+                        duck_ratio: float = 8.0,
+                        duck_threshold: float = 0.04,
+                        attack_ms: int = 15,
+                        release_ms: int = 400,
+                        fade_s: float = 1.5) -> Path:
+    """Like mix_music_ducked, but the bed only plays inside the given
+    (start_sec, end_sec) windows — silent everywhere else — instead of looping
+    under the entire runtime. Use when continuous music under long factual
+    narration feels oppressive (Akshay feedback, 2026-07-17): reserve music for
+    the cold open, chapter transitions, and the closing, not the whole doc.
+    Each window fades in/out over `fade_s` seconds (clamped so short windows
+    like chapter cards don't overlap their own fade)."""
+    if not windows:
+        raise ValueError("mix_music_windowed requires at least one window")
+    if not _has_audio(video):
+        raise RuntimeError("mix_music_windowed requires a video with existing voice audio")
+
+    terms = []
+    for (s, e) in windows:
+        f = max(0.05, min(fade_s, (e - s) / 2 - 0.05))
+        terms.append(
+            f"if(between(t,{s},{s+f}),(t-{s})/{f},"
+            f"if(between(t,{e-f},{e}),({e}-t)/{f},"
+            f"if(between(t,{s},{e}),1,0)))"
+        )
+    gate_expr = "+".join(terms)
+
+    graph = (
+        f"[0:a]asplit=2[vkey][vmix];"
+        f"[1:a]volume={music_gain_db}dB[mus0];"
+        f"[mus0]volume='{gate_expr}':eval=frame[mus];"
+        f"[mus][vkey]sidechaincompress="
+        f"threshold={duck_threshold}:ratio={duck_ratio}:attack={attack_ms}:release={release_ms}[ducked];"
+        f"[vmix][ducked]amix=inputs=2:duration=first:dropout_transition=0:normalize=0[mix]"
+    )
+    with tempfile.TemporaryDirectory() as td:
+        premix = Path(td) / "premix.mp4"
+        r = _run(["ffmpeg", "-y", "-i", str(video), "-stream_loop", "-1", "-i", str(music),
+                  "-filter_complex", graph, "-map", "0:v", "-map", "[mix]",
+                  "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", str(premix)])
+        if r.returncode != 0:
+            raise RuntimeError(f"windowed music mix failed:\n{r.stderr[-500:]}")
+        return master_video(premix, out)
+
+
 def probe_loudness(path: Path) -> float | None:
     """Report a file's integrated loudness (LUFS) for verification. None if no audio."""
     if not _has_audio(path):

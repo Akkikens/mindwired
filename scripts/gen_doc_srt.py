@@ -7,12 +7,11 @@ the transcript). Cue timing matches DocWide.tsx (LEAD/HOLD must stay in sync).
 Prints the CHAPTERS block for the METADATA description as a side effect.
 """
 from __future__ import annotations
-import argparse, json, re
+import argparse, json, re, sys
 from pathlib import Path
 
-REPO = Path(__file__).resolve().parent.parent
-DOCS = REPO / "src" / "mindwired-doc" / "docs"
-LEAD, HOLD, FPS = 10, 24, 30
+sys.path.insert(0, str(Path(__file__).resolve().parent / "lib"))
+from doctiming import DOCS, FPS, HOLD, LEAD, REPO  # noqa: E402,F401 — single source of timing truth
 
 
 def ts(t: float) -> str:

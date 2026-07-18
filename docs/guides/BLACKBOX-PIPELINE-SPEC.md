@@ -69,9 +69,16 @@ channel:"blackbox", scenes:[…]}`. House voice = the 737max register:
 3. `npx remotion still` ×4 spread across the comp — look at them.
 
 ### Phase V→P — Build & publish
-1. `build_doc_vo.py <slug>` (speed 0.94) → register `makeDocComp` in Root →
-   typecheck → stills → **ONE** `render_and_master.py` run (crash-restart ≠
-   checkpoint; never re-render for review).
+1. **Preferred: `python3 scripts/ship_doc.py <slug> <CompId> --music
+   public/beds/doc_tension.mp3 --windowed`** — runs lint → radio_recreate →
+   build_doc_vo → image audit → `preflight_doc.py` (hard gate) → stills →
+   the ONE render+master (windowed bed per the long-doc music rule) → SRT,
+   with checkpoints at the sheets and stills. Register `makeDocComp` in Root
+   + typecheck before running it. Manual fallback: `build_doc_vo.py <slug>`
+   (speed 0.94) → stills → **ONE** `render_and_master.py` run (crash-restart ≠
+   checkpoint; never re-render for review). SFX (radio squelch/static, chapter
+   booms, stat hits) are automatic in DocWide — see CLAUDE.md "Doc-engine
+   studio layer".
 2. Append `assets/subscribe-outro/subscribe_blackbox_long.mp4` (16.1s) via the
    CLAUDE.md concat command → ffprobe + splice frame + LUFS verify.
 3. Package (`METADATA-<slug>.md`): title (ownable, not "Air Crash

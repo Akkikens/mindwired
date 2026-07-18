@@ -41,10 +41,20 @@ const THEMES: Record<string, Theme> = {
   },
 };
 
+/** One SFX cue: name = file stem in public/sfx/ (see scripts/gen_sfx_kit.py).
+ *  at: frame offset, or "in" (scene start) / "out" (scene end minus the clip).
+ *  loop: repeat until the scene ends (ambience/static beds). */
+export type SfxCue = { name: string; at?: number | "in" | "out"; volume?: number; loop?: boolean };
+
 export type DocScene = {
   id: string; text: string; cap?: string;
   img?: string; stat?: string; statColor?: string;
   chapter?: string;
+  /** Explicit SFX cues; ADDED to the automatic ones (radio squelch/static,
+   *  chapter boom, stat hit). noAutoSfx silences the automatic cues. */
+  sfx?: SfxCue[]; noAutoSfx?: boolean;
+  /** Camera move for photo scenes: push (default, alternates with pull), pull, drift. */
+  camera?: "push" | "pull" | "drift";
   diagram?: string; arg?: string;
   /** Evidence-engine radio beat: speaker tag renders the RadioScene
    *  (waveform + transcript). radioLabel MUST be honest:
@@ -66,6 +76,64 @@ export type DocManifest = {
 export type OutroSpec = { file: string; frames: number };
 
 const LEAD = 10, HOLD = 24;
+
+/* ---------- SFX layer (files from scripts/gen_sfx_kit.py → public/sfx/) ----------
+   Every clip is synthesized + owned. Default volumes sit WELL under the VO
+   (which plays at 1.0); the post-render loudnorm only normalizes the total. */
+const SFX: Record<string, { file: string; vol: number; frames: number }> = {
+  radio_key_up:    { file: "sfx/radio_key_up.wav",    vol: 0.30, frames: 5 },
+  radio_key_down:  { file: "sfx/radio_key_down.wav",  vol: 0.25, frames: 3 },
+  radio_static_bed:{ file: "sfx/radio_static_bed.wav",vol: 0.07, frames: 360 },
+  cockpit_hum:     { file: "sfx/cockpit_hum.wav",     vol: 0.10, frames: 360 },
+  stat_hit:        { file: "sfx/stat_hit.wav",        vol: 0.32, frames: 24 },
+  chapter_boom:    { file: "sfx/chapter_boom.wav",    vol: 0.35, frames: 54 },
+  whoosh:          { file: "sfx/whoosh.wav",          vol: 0.22, frames: 21 },
+  riser:           { file: "sfx/riser.wav",           vol: 0.28, frames: 75 },
+  heartbeat:       { file: "sfx/heartbeat.wav",       vol: 0.30, frames: 25 },
+  alarm:           { file: "sfx/alarm.wav",           vol: 0.25, frames: 60 },
+  ambience_wind:   { file: "sfx/ambience_wind.wav",   vol: 0.10, frames: 450 },
+  ambience_ocean:  { file: "sfx/ambience_ocean.wav",  vol: 0.10, frames: 450 },
+};
+export const SFX_NAMES = Object.keys(SFX);
+
+/** Renders a scene's SFX cues (auto + explicit) as Audio Sequences. */
+const SceneSfx: React.FC<{ cues: SfxCue[]; sceneDur: number }> = ({ cues, sceneDur }) => (
+  <>
+    {cues.map((c, i) => {
+      const def = SFX[c.name];
+      if (!def) return null;
+      const from = c.at === "out" ? Math.max(0, sceneDur - def.frames - 6)
+        : c.at === "in" || c.at === undefined ? 0 : c.at;
+      const dur = c.loop ? Math.max(1, sceneDur - from) : Math.min(def.frames, sceneDur - from);
+      if (dur <= 0) return null;
+      return (
+        <Sequence key={`${c.name}-${i}`} from={from} durationInFrames={dur} name={`sfx:${c.name}`}>
+          <Audio src={staticFile(def.file)} volume={c.volume ?? def.vol} loop={c.loop} />
+        </Sequence>
+      );
+    })}
+  </>
+);
+
+const sceneCues = (s: DocScene, auto: SfxCue[]): SfxCue[] =>
+  [...(s.noAutoSfx ? [] : auto), ...(s.sfx ?? [])];
+
+/* Film grain + vignette grade over the whole body (not the outro).
+   Static noise tile (SVG turbulence data-URI) jittered per frame. */
+const NOISE_URI = `url("data:image/svg+xml,${encodeURIComponent(
+  `<svg xmlns='http://www.w3.org/2000/svg' width='512' height='512'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='512' height='512' filter='url(%23n)'/></svg>`
+)}")`;
+const GrainVignette: React.FC = () => {
+  const frame = useCurrentFrame();
+  const jx = (frame * 97) % 512, jy = (frame * 61) % 512;
+  return (
+    <AbsoluteFill style={{ pointerEvents: "none" }}>
+      <AbsoluteFill style={{ backgroundImage: NOISE_URI, backgroundRepeat: "repeat",
+        backgroundPosition: `${jx}px ${jy}px`, opacity: 0.05, mixBlendMode: "overlay" }} />
+      <AbsoluteFill style={{ background: "radial-gradient(ellipse at center, transparent 58%, rgba(0,0,0,0.34) 100%)" }} />
+    </AbsoluteFill>
+  );
+};
 
 const sceneAud = (s: DocScene, m: DocManifest) =>
   m.durations[s.id] ?? s.text.split(/\s+/).length / 2.3; // estimate fallback
@@ -129,6 +197,12 @@ const RadioScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Them
       </div>
       <Brand th={th} />
       {hasAudio && <Sequence from={LEAD}><Audio src={staticFile(`shorts/${slug}/audio/${s.id}.mp3`)} /></Sequence>}
+      {/* diegetic radio: key-up squelch, static bed under the line, mic-cut at the end */}
+      <SceneSfx sceneDur={sceneFrames(s, m)} cues={sceneCues(s, [
+        { name: "radio_key_up" },
+        { name: "radio_static_bed", loop: true },
+        { name: "radio_key_down", at: "out" },
+      ])} />
     </AbsoluteFill>
   );
 };
@@ -152,6 +226,7 @@ const ChapterCard: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: The
         <div style={{ width: 120, height: 7, background: th.accent, borderRadius: 5, margin: "30px auto 0" }} />
       </div>
       {hasAudio && <Sequence from={LEAD}><Audio src={staticFile(`shorts/${slug}/audio/${s.id}.mp3`)} /></Sequence>}
+      <SceneSfx sceneDur={sceneFrames(s, m)} cues={sceneCues(s, [{ name: "chapter_boom" }])} />
     </AbsoluteFill>
   );
 };
@@ -161,8 +236,13 @@ const IllusScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: num
   const dur = sceneFrames(s, m);
   const t = frame / dur;
   const pan = idx % 2 === 0 ? 1 : -1;
-  const scale = interpolate(t, [0, 1], [1.06, 1.16]);
-  const driftX = interpolate(t, [0, 1], [0, pan * 26]);
+  // camera move: explicit s.camera wins; otherwise alternate push/pull by idx
+  const move = s.camera ?? (idx % 3 === 2 ? "pull" : "push");
+  const ease = t * t * (3 - 2 * t); // smoothstep — decelerating, less linear-slideshow
+  const scale = move === "pull" ? interpolate(ease, [0, 1], [1.2, 1.07])
+    : move === "drift" ? 1.1
+    : interpolate(ease, [0, 1], [1.05, 1.2]);
+  const driftX = interpolate(ease, [0, 1], [0, pan * (move === "drift" ? 44 : 26)]);
   const fadeIn = interpolate(frame, [0, 12], [0, 1], { extrapolateRight: "clamp" });
   const fadeOut = interpolate(frame, [dur - 10, dur], [1, 0], { extrapolateLeft: "clamp" });
   const files = (s.img && m.images[s.img]) || [];
@@ -208,6 +288,7 @@ const IllusScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: num
       )}
 
       {hasAudio && <Sequence from={LEAD}><Audio src={staticFile(`shorts/${slug}/audio/${s.id}.mp3`)} /></Sequence>}
+      <SceneSfx sceneDur={dur} cues={sceneCues(s, s.stat ? [{ name: "stat_hit", at: statAt }] : [])} />
     </AbsoluteFill>
   );
 };
@@ -254,6 +335,7 @@ const DiagramScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Th
       )}
 
       {hasAudio && <Sequence from={LEAD}><Audio src={staticFile(`shorts/${slug}/audio/${s.id}.mp3`)} /></Sequence>}
+      <SceneSfx sceneDur={dur} cues={sceneCues(s, s.stat ? [{ name: "stat_hit", at: statAt }] : [])} />
     </AbsoluteFill>
   );
 };
@@ -273,7 +355,9 @@ const VideoScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Them
       <AbsoluteFill style={{ opacity: fadeIn, justifyContent: "center", alignItems: "center" }}>
         <OffthreadVideo src={staticFile(`shorts/${slug}/video/${s.video}`)} muted
           startFrom={Math.round((s.videoFrom ?? 0) * FPS)}
-          style={{ width: "100%", height: "100%", objectFit: "contain" }} />
+          style={{ width: "100%", height: "100%", objectFit: "contain",
+            transform: `scale(${interpolate(frame, [0, dur], [1.0, 1.05])})`,
+            filter: "saturate(0.92) contrast(1.06)" }} />
       </AbsoluteFill>
       <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(5,7,12,0.55) 0%, transparent 22%, transparent 60%, rgba(5,7,12,0.92) 100%)", pointerEvents: "none" }} />
       {s.stat && (
@@ -295,6 +379,7 @@ const VideoScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Them
         </div>
       )}
       {hasAudio && <Sequence from={LEAD}><Audio src={staticFile(`shorts/${slug}/audio/${s.id}.mp3`)} /></Sequence>}
+      <SceneSfx sceneDur={dur} cues={sceneCues(s, s.stat ? [{ name: "stat_hit", at: statAt }] : [])} />
     </AbsoluteFill>
   );
 };
@@ -331,6 +416,9 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest, outro?: OutroSp
             </Sequence>
           );
         })}
+        <Sequence from={0} durationInFrames={docTotalFrames(doc, manifest)} name="grain-grade">
+          <GrainVignette />
+        </Sequence>
         {outro && (
           <Sequence from={docTotalFrames(doc, manifest)} durationInFrames={outro.frames} name="subscribe-outro">
             <AbsoluteFill style={{ backgroundColor: "#000" }}>

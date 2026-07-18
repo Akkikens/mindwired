@@ -37,6 +37,11 @@ def main():
     ap.add_argument("--music", type=Path, help="optional music bed to duck under the voice")
     ap.add_argument("--music-gain-db", type=float, default=-18.0,
                     help="base attenuation of the music bed (default -18 dB)")
+    ap.add_argument("--windows", metavar="SLUG",
+                    help="doc slug: score the bed in windows (cold open, chapter "
+                         "transitions, closing) computed from the doc manifest, "
+                         "instead of looping the whole runtime — the standing rule "
+                         "for docs over ~8 min. Requires --music.")
     ap.add_argument("--props", help="JSON string or @path.json passed to remotion --props")
     ap.add_argument("--gl", help="Remotion --gl backend (use 'angle' for WebGL/R3F comps)")
     args = ap.parse_args()
@@ -45,6 +50,8 @@ def main():
     out.parent.mkdir(parents=True, exist_ok=True)
     if args.music and not args.music.exists():
         sys.exit(f"music not found: {args.music}")
+    if args.windows and not args.music:
+        sys.exit("--windows requires --music")
 
     with tempfile.TemporaryDirectory() as td:
         tmp = Path(td) / f"{out.stem}_raw.mp4"
@@ -62,7 +69,15 @@ def main():
         before = master.probe_loudness(tmp)
         print(f"[master] {tmp.name}: {before if before is None else f'{before:.1f}'} LUFS in")
 
-        if args.music:
+        if args.music and args.windows:
+            import doctiming
+            doc, man = doctiming.load(args.windows)
+            wins = doctiming.music_windows(doc, man["durations"])
+            print(f"[master] windowed bed {args.music.name}: " +
+                  ", ".join(f"{a:.0f}-{b:.0f}s" for a, b in wins))
+            master.mix_music_windowed(tmp, args.music, out, wins,
+                                      music_gain_db=args.music_gain_db)
+        elif args.music:
             print(f"[master] ducking {args.music.name} under the voice + normalizing …")
             master.mix_music_ducked(tmp, args.music, out, music_gain_db=args.music_gain_db)
         else:

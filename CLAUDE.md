@@ -101,6 +101,37 @@ Box episode). The channel's signature capability:
 - US1549 ("Miracle on the Hudson") evidence is already fetched and is a
   validated future episode.
 
+## Doc-engine studio layer (SFX / music scoring / motion / gates — 2026-07-18)
+
+Backlog + rationale: docs/planning/STUDIO-UPGRADE.md.
+
+- **One command per episode:** `python3 scripts/ship_doc.py <slug> <CompId>
+  [--music public/beds/<bed>.mp3] [--windowed] [--yes]` runs every gate in the
+  mandatory order (lint → radio_recreate → build_doc_vo → image audit →
+  preflight → 4 stills → ONE render_and_master → SRT) with human checkpoints
+  at the contact sheets and stills. Prefer it over running the steps by hand.
+- **Preflight is a hard gate:** `scripts/preflight_doc.py <slug>` BLOCKS the
+  render on stale manifests, missing img/video/diagram refs, empty Cartesia
+  clips, unlabeled radio scenes, unknown sfx names, and TTS-lint hits; warns on
+  hook-checklist violations (docs/guides/HOOK-CHECKLIST.md). Never render a doc
+  that hasn't passed it.
+- **SFX layer (baked into the ONE render):** `public/sfx/` holds the owned,
+  ffmpeg-synthesized kit (`scripts/gen_sfx_kit.py`; license log in
+  public/sfx/LICENSES.md). DocWide plays automatic cues — radio key-up squelch
+  + low static bed + mic-cut around every RadioScene (label stays honest),
+  `chapter_boom` on chapter cards, `stat_hit` at each stat reveal — and scenes
+  can add explicit cues: `"sfx":[{"name":"alarm","at":"in","volume":0.2}]`
+  (`noAutoSfx: true` silences the automatic ones). Levels sit well under VO.
+- **Windowed music without a one-off script:**
+  `render_and_master.py <Comp> out/x.mp4 --music <bed> --windows <slug>`
+  computes the windows (cold open, each chapter transition, closing) from the
+  doc manifest via `scripts/lib/doctiming.py` — the ONE Python mirror of
+  DocWide's LEAD/HOLD; gen_doc_srt uses it too, so timing constants live in
+  exactly two places (DocWide.tsx + doctiming.py) that must match.
+- **Motion:** photo scenes take `"camera": "push"|"pull"|"drift"` (default
+  alternates push/pull, smoothstep-eased); footage scenes get slow scale drift
+  + grade; a film-grain + vignette layer covers the body (never the outro).
+
 **Packaging standard (every title/description request):** full-SEO package by
 default — title+A/B, big searchable description, parser-safe chapters, ~495-char
 tags, 15 hashtags, pinned comment, category/license lines; Shorts sets get one
@@ -155,6 +186,17 @@ placeholders; full copy in memory `blackbox-published-urls`):**
   voice at −18 dB by `master_video.py` / `render_and_master.py`, so it swells in
   gaps and drops under narration. Beds are ElevenLabs-generated (owned). Add
   `--music` to the ONE render+master pass, not as an extra encode.
+- **But music should NOT loop the whole runtime on long/serious docs (Akshay
+  feedback, 2026-07-17 — continuous music under an 11-min disaster doc "ruined
+  the whole video experience").** For docs over ~8-10 min or heavy subject
+  matter, use `scripts/lib/master.py:mix_music_windowed()` instead of the plain
+  `--music` flag: pass explicit `(start_sec, end_sec)` windows (compute from the
+  manifest, same LEAD/HOLD math as chapter timestamps) so the bed only plays at
+  the cold open, chapter transitions, and the closing — leave the dense factual
+  narration in between dry. Never let the bed bleed into the baked-in subscribe
+  outro's own audio (stop the last window at body-end, before the outro
+  Sequence). Short-form docs (~5 min or less, like spaceanimals) can keep the
+  plain continuous `--music` flag — this only bites on longer/heavier docs.
 - Long-forms: listicle/ranked structure ("8 theories… each more unsettling") — this
   is the proven format for the niche (see memory: icahn-scary-space-niche).
   Use `word` scenes as chapter cards; vary the scene every 1-2 lines; give each

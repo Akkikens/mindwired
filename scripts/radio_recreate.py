@@ -37,11 +37,15 @@ DOCS = REPO / "src" / "mindwired-doc" / "docs"
 # Cartesia voice ids per speaker later via the doc's optional "voices" map.
 SPEAKER_SHIFT = {"CAPT": 0.94, "FO": 1.00, "ATC": 1.07, "CVR": 0.97,
                  "CAPTAIN": 0.92, "FIRST OFFICER": 1.10, "BUFFALO APPROACH": 1.0,
-                 "PILOT FLYING": 1.06, "PILOT MONITORING": 0.98}
+                 "PILOT FLYING": 1.06, "PILOT MONITORING": 0.98,
+                 "LUMPUR RADAR": 1.05, "MH370": 0.93}
 
 
 def radio_chain(src: Path, dst: Path, factor: float) -> None:
-    """Bandpass 250–3200 Hz, hard compression, pitch offset, pink-noise bed."""
+    """Bandpass 250–3200 Hz, hard compression, pitch offset, and a REAL static
+    floor: pink noise through the same radio bandpass (so it sounds received,
+    not layered) + a faint white-noise crackle — a transmission always has
+    audible static riding under the voice, never a clean studio take."""
     dur = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration",
         "-of", "default=noprint_wrappers=1:nokey=1", str(src)], capture_output=True, text=True).stdout.strip()
     f = (
@@ -49,8 +53,11 @@ def radio_chain(src: Path, dst: Path, factor: float) -> None:
         f"highpass=f=250,lowpass=f=3200,"
         f"acompressor=threshold=-18dB:ratio=6:attack=4:release=90,"
         f"volume=1.5,alimiter=limit=0.92,aformat=channel_layouts=mono[v];"
-        f"anoisesrc=color=pink:amplitude=0.012:duration={dur}[n];"
-        f"[v][n]amix=inputs=2:duration=first:normalize=0"
+        f"anoisesrc=color=pink:amplitude=0.035:duration={dur}:seed=42,"
+        f"highpass=f=300,lowpass=f=3000[n];"
+        f"anoisesrc=color=white:amplitude=0.008:duration={dur}:seed=43,"
+        f"highpass=f=1500,lowpass=f=3200[c];"
+        f"[v][n][c]amix=inputs=3:duration=first:normalize=0"
     )
     subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(src),
         "-filter_complex", f, "-c:a", "libmp3lame", "-q:a", "2", str(dst)], check=True)
