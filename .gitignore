@@ -19,3 +19,4 @@ lipsync/out/
 __pycache__/
 *.pyc
 public/host/*_sonic.png
+!public/sfx/*.wav
