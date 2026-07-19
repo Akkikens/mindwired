@@ -2,23 +2,33 @@
 
 Both are Hindi (channel `dimaagbatti`, Rohan voice, Devanagari overlays) remakes
 of the mindwired evidence docs. Same real audio + images, Hindi narration +
-labels. **Descriptions Hindi-ONLY (per rule); NO `<` `>` angle brackets.**
-Category: Education. AI-disclosure: No. No subscribe outro (none exists for
-DimaagBatti yet — see note at bottom).
+labels. **Packaging (Akshay, 2026-07-18): ENGLISH title; description = English
+block first, then Hindi block. NO `<` `>` angle brackets.** Category: Education.
+AI-disclosure: No. No subscribe outro (none exists for DimaagBatti yet — see
+note at bottom).
 
 ═══════════════════════════════════════════════════════════════
 ## 1. spacesounds-hi — "अंतरिक्ष में रिकॉर्ड हुई सबसे डरावनी असली आवाज़ें"
 Comp `SpaceSoundsHiDoc` · ~17.7 min
 
-### Title (primary)
-अंतरिक्ष की सबसे डरावनी असली आवाज़ें — 15 रिकॉर्डिंग, रैंक के साथ
+### Title (primary — English)
+The Scariest Real Sounds Ever Recorded in Space (Hindi) | अंतरिक्ष की सबसे डरावनी आवाज़ें
 
 ### A/B
-- नासा ने जिस आवाज़ को "डरावना" कहा — अंतरिक्ष की 15 असली आवाज़ें
-- क्या अंतरिक्ष में सन्नाटा है? ये 15 असली रिकॉर्डिंग बताती हैं कि नहीं
+- 15 Real Space Sounds Ranked (Hindi) — NASA Called #1 "Eerie"
+- अंतरिक्ष की सबसे डरावनी असली आवाज़ें — 15 रिकॉर्डिंग, रैंक के साथ (Hindi)
 
-### Description (Hindi only)
+### Description (English first, then Hindi)
 ```
+15 real, verified sounds recorded in space, ranked — narrated in Hindi. Every clip
+is genuine and sourced: real NASA and ESA mission recordings, real spacecraft data
+turned into sound, and honestly labelled sonifications. Hear a black hole, the first
+microphone ever switched on on another planet, a marsquake, the sound of interstellar
+space from Voyager 1 — and the Saturn recording NASA itself called "eerie." No sound
+effects, no AI, no fakes. An education / explainer video in simple Hindi. Use headphones.
+
+—
+
 अंतरिक्ष की 15 सबसे डरावनी असली आवाज़ें, रैंक के साथ — और हर एक असली, स्रोत के साथ
 प्रमाणित है। कोई साउंड इफ़ेक्ट नहीं, कोई नकली ऑडियो नहीं: नासा और ईएसए के असली मिशन
 रिकॉर्डिंग, असली अंतरिक्ष यान डेटा को आवाज़ में बदला हुआ, और ईमानदारी से लेबल किए गए
@@ -76,15 +86,26 @@ Comp `SpaceSoundsHiDoc` · ~17.7 min
 ## 2. mariana-hi — "धरती की वो जगह जो अंतरिक्ष से भी डरावनी है"
 Comp `MarianaHiDoc` · ~7.7 min · descent + depth gauge
 
-### Title (primary)
-धरती की वो जगह जो अंतरिक्ष से भी डरावनी है — मारियाना ट्रेंच
+### Title (primary — English)
+The Place on Earth Scarier Than Space (Hindi) | मारियाना ट्रेंच
 
 ### A/B
-- मारियाना ट्रेंच: धरती की सबसे गहरी जगह में क्या है?
-- चाँद पर ज़्यादा लोग गए हैं जितने इस जगह के तल तक — मारियाना ट्रेंच
+- The Mariana Trench, Explained in Hindi — What's at the Bottom
+- धरती की वो जगह जो अंतरिक्ष से भी डरावनी है — मारियाना ट्रेंच (Hindi)
 
-### Description (Hindi only)
+### Description (English first, then Hindi)
 ```
+A descent to the bottom of the Mariana Trench — the deepest place on Earth —
+narrated in Hindi. Fewer than 30 humans have ever reached the bottom; more people
+have walked on the Moon. We fall almost 11 kilometres, past every creature and
+machine that ever tried to survive there, and watch a real depth gauge count down
+to 10,935 metres. Every sound is real NOAA hydrophone audio recorded at Challenger
+Deep — a ship passing seven miles above, earthquakes felt at the bottom. No fake
+effects, no AI. And we correct the myth everyone repeats about the pressure down
+there. An education / explainer video in simple Hindi.
+
+—
+
 चाँद पर जितने इंसान खड़े हो चुके हैं, उससे कम इंसान मारियाना ट्रेंच के तल तक पहुँचे हैं।
 यह एक उतराई है — बिलकुल तल तक, लगभग ग्यारह किलोमीटर नीचे, हर जीव और हर मशीन के पास से
 जिसने वहाँ ज़िंदा रहने की कोशिश की। गहराई का नंबर देखते रहिए — यह तल तक रुकता नहीं।
