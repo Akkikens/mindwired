@@ -42,9 +42,9 @@ The Scariest Real Sounds Ever Recorded in Space — https://www.youtube.com/watc
 What Happened to the Bodies of Every Astronaut Who Ever Died — https://youtu.be/MPWChE1uanQ
 21 Astronauts Never Came Home. Here's Every Story. — https://youtu.be/maxZwNGqIDU
 Space Documentaries — Full Length: https://www.youtube.com/playlist?list=PLSGw_l2_Tsdo
-Subscribe: https://www.youtube.com/@mindwired?sub_confirmation=1
+Subscribe: https://www.youtube.com/@MINDWIREDD?sub_confirmation=1
 ```
-(Subscribe handle unconfirmed — verify in Studio. Add spacesounds URL when live.)
+(Handle @MINDWIREDD confirmed from the baked outro; verify in Studio if unsure.)
 
 ## Hashtags (15, first 3 display)
 #marianatrench #deepsea #ocean #challengerdeep #thalassophobia #titanic
