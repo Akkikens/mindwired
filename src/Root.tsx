@@ -52,6 +52,8 @@ import blackHolesDoc from "./mindwired-doc/docs/blackholes.json";
 import blackHolesManifest from "./mindwired-doc/docs/blackholes.manifest.json";
 import spaceSoundsDoc from "./mindwired-doc/docs/spacesounds.json";
 import spaceSoundsManifest from "./mindwired-doc/docs/spacesounds.manifest.json";
+import marianaDoc from "./mindwired-doc/docs/mariana.json";
+import marianaManifest from "./mindwired-doc/docs/mariana.manifest.json";
 import astronautBodiesDoc from "./mindwired-doc/docs/astronautbodies.json";
 import astronautBodiesManifest from "./mindwired-doc/docs/astronautbodies.manifest.json";
 import { EndOfTimeEpic, endOfTimeTotalFrames } from "./endoftime/EndOfTimeEpic";
@@ -866,6 +868,16 @@ export const RemotionRoot: React.FC = () => {
         id="DimaagBattiNeet"
         component={NeetWide}
         durationInFrames={neetTotalFrames()}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── mindwired — evidence doc: The Place on Earth Scarier Than Space (Mariana) ── */}
+      <Composition
+        id="MarianaDoc"
+        component={makeDocComp(marianaDoc, marianaManifest, MW_OUTRO)}
+        durationInFrames={docTotalFrames(marianaDoc, marianaManifest, MW_OUTRO)}
         fps={30}
         width={1920}
         height={1080}

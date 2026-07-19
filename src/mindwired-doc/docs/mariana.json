@@ -1,0 +1,53 @@
+{
+  "slug": "mariana",
+  "title": "The Place on Earth Scarier Than Space",
+  "language": "en",
+  "channel": "mindwired",
+  "scenes": [
+    { "id": "h1", "text": "More people have stood on the Moon than have reached the bottom of this place. And it is on our own planet.", "img": "trench", "stat": "Fewer than 30 humans. Ever.", "statColor": "#FF4D4D" },
+    { "id": "h2", "text": "In twenty nineteen, a man reached the deepest point on Earth. Seven miles down, in total darkness, he looked outside — and saw a plastic bag.", "img": "plastic", "cap": "The deepest point on Earth" },
+    { "id": "h3", "text": "This is a descent to the bottom of the Mariana Trench. We are going to fall almost eleven kilometers, and at every depth, something is waiting. Watch the number on the left. It does not stop until we hit the floor.", "img": "ocean", "depth": 0, "cap": "Watch the depth. It only goes down." },
+    { "id": "t1", "text": "The deepest place on Earth is scarier than space — because space is empty, and this is not.", "chapter": "MINDWIRED\nThe Deepest Place on Earth" },
+
+    { "id": "c1", "text": "Zero meters. The surface. The last time you will see sunlight.", "chapter": "0 m\nThe Surface" },
+    { "id": "d200", "text": "Two hundred meters down, the sunlight begins to die. Below this line, there is not enough light for anything to grow. Every living thing beneath us survives on darkness, or makes its own light.", "img": "sunlight", "depth": 200, "stat": "Sunlight ends here" },
+    { "id": "d1000", "text": "One thousand meters. The midnight zone. From here to the bottom, the sun has never reached. It is permanently, completely black — colder than your refrigerator, and crushing harder every second we fall.", "img": "sunlight", "depth": 1000, "cap": "The sun has never touched this water" },
+
+    { "id": "myth1", "text": "You have heard that this pressure would crush you like a soda can. That is actually wrong — and the truth is stranger.", "img": "trench", "depth": 1100, "cap": "The myth everyone repeats" },
+    { "id": "myth2", "text": "Pressure only crushes what holds air against it. The animals down here have no air pockets — their bodies are flooded, in balance with the sea, so the weight passes straight through them. They are not armored against the deep. They ARE the deep. A human, full of air, is what the ocean would fold shut.", "img": "floor", "depth": 1100, "stat": "~1,071× surface pressure" },
+
+    { "id": "c2", "text": "One thousand meters. Something the size of a bus is hunting here.", "chapter": "1,000 m\nThe Hunters" },
+    { "id": "dsquid", "text": "The giant squid. For centuries it was a sailor's myth — until we finally filmed one alive in two thousand twelve. Eyes the size of dinner plates, the largest in the animal kingdom, evolved to gather the faintest glow in a world with no light.", "img": "squid", "depth": 1000, "stat": "Eyes the size of your head" },
+    { "id": "dwhale", "text": "Two thousand nine hundred ninety two meters. A Cuvier's beaked whale was tracked to this depth on a single breath — the deepest dive by any mammal ever recorded. It held that breath for over two hours. Below this point, no air-breathing animal can follow.", "img": "whale", "depth": 2992, "stat": "137 minutes on one breath" },
+
+    { "id": "dtitanic", "text": "Three thousand eight hundred meters. This is where the Titanic lies — a wreck we think of as impossibly deep. Remember it. Because we are not even a third of the way down.", "img": "titanic", "depth": 3800, "stat": "The Titanic. Not even 1/3 down.", "statColor": "#FF4D4D" },
+
+    { "id": "sound1", "text": "In twenty sixteen, scientists lowered a titanium hydrophone all the way to the bottom, expecting silence. Instead, the deepest place on Earth was full of sound. This is real audio recorded down there — a ship, passing on the surface almost seven miles above.", "img": "hydrophone", "depth": 4000, "cap": "They expected silence. They were wrong." },
+    { "id": "l_ship", "text": "[Hydrophone at Challenger Deep — a ship passing seven miles above]", "speaker": "CHALLENGER DEEP", "radioLabel": "ACTUAL HYDROPHONE", "timestamp": "NOAA · ~10,970 m", "cap": "Real sound from the bottom of the ocean", "noAutoSfx": true },
+
+    { "id": "c3", "text": "Six thousand meters. We now enter a place with its own name for hell.", "chapter": "6,000 m\nThe Hadal Zone" },
+    { "id": "dhadal", "text": "Six thousand meters down, we cross into the hadal zone — named for Hades, the Greek underworld. Only a handful of trenches on Earth reach this deep. Almost nothing that lives up here has ever been seen alive.", "img": "vent", "depth": 6000, "stat": "Named after the underworld" },
+    { "id": "damphi", "text": "And it is not empty. Down here lives a crustacean that should be the size of your fingernail — but in the crushing dark it grows to thirty four centimeters. Scientists call it the supergiant. No one fully understands why the deep makes its animals enormous.", "img": "amphipod", "depth": 6500, "stat": "34 cm — 'the supergiant'" },
+
+    { "id": "sound2", "text": "The hydrophone at the bottom heard something else, too — the groan of the planet itself. Earthquakes, thousands of them, felt as sound at the deepest point on Earth. This is a real recording of the seafloor shaking.", "img": "hydrophone", "depth": 7000, "cap": "The planet, groaning" },
+    { "id": "l_quake", "text": "[Hydrophone — an earthquake, recorded on the ocean floor]", "speaker": "OCEAN FLOOR", "radioLabel": "NOAA HYDROPHONE", "timestamp": "REAL RECORDING", "cap": "An earthquake, heard from below", "noAutoSfx": true },
+
+    { "id": "c4", "text": "Eight thousand meters. We reach the last fish in the world.", "chapter": "8,000 m\nThe Last Fish" },
+    { "id": "dsnail", "text": "Eight thousand meters. The Mariana snailfish — the deepest fish ever caught. It has no scales, no swim bladder; it is nearly translucent, and it rules the trench as its top predator. It looks fragile. It is the most successful thing down here.", "img": "snailfish", "depth": 8000, "stat": "The deepest fish alive" },
+    { "id": "dlimit", "text": "Eight thousand two hundred meters. And here, fish simply stop. Below this depth, the chemistry that keeps a fish's cells intact fails — they cannot exist any deeper. For the final two and a half kilometers of our descent, there are no fish at all. We are going somewhere even they cannot survive.", "img": "floor", "depth": 8200, "stat": "No fish can live below this", "statColor": "#FF4D4D" },
+
+    { "id": "c5", "text": "Ten thousand meters. The machines start to die.", "chapter": "10,000 m\nWhere Machines Die" },
+    { "id": "drov", "text": "At these depths, the ocean kills our machines. In two thousand fourteen, a deep-sea robot descending under sixteen thousand pounds of pressure per square inch simply imploded — crushed out of existence in an instant, seven hours into its dive.", "img": "rov", "depth": 9990, "stat": "Imploded at 9,990 m" },
+    { "id": "dxeno", "text": "Ten thousand six hundred meters. Almost the floor. And clinging to it — giant single cells, each one the size of your hand. Not animals. Single living cells, among the largest on Earth, alive under a weight that would flatten a tank.", "img": "xeno", "depth": 10600, "stat": "Single cells, the size of a hand" },
+
+    { "id": "dispute1", "text": "In nineteen sixty, the first two men ever to reach the bottom claimed they saw a flatfish lying on the floor. For decades it was famous. Then scientists proved a fish cannot survive that deep — one of the men later admitted, we were engineers, not biologists. What they really saw is still argued about today.", "img": "trieste", "depth": 10900, "cap": "A claim still argued about" },
+
+    { "id": "c6", "text": "Ten thousand nine hundred thirty five meters. The bottom of the world.", "chapter": "10,935 m\nThe Bottom" },
+    { "id": "bottom1", "text": "Ten thousand nine hundred thirty five meters. Challenger Deep. The deepest point on the surface of the Earth. The pressure here is eight tons pressing on every square inch — the weight of a hundred adults, balanced on your thumbnail.", "img": "floor", "depth": 10935, "stat": "8 tons per square inch", "statColor": "#FF4D4D" },
+    { "id": "bottom2", "text": "Fewer than thirty human beings have ever been here. And when they arrived, at the deepest, most remote point on our entire planet, they found something already waiting for them.", "img": "floor", "depth": 10935, "cap": "Something was already there" },
+    { "id": "bottom3", "text": "Plastic. A bag, and a sweet wrapper, on the floor of the deepest place on Earth. We found chemicals banned in the nineteen seventies inside creatures at the very bottom — poison that reached the deepest point on the planet before most humans ever did.", "img": "plastic", "depth": 10935, "stat": "Our garbage got here first", "statColor": "#FF4D4D" },
+
+    { "id": "o1", "text": "We have better maps of the surface of Mars than of our own ocean floor. The scariest place in the universe is not in the sky. It is under the water, on the planet you were born on — and we have barely begun to look.", "img": "ocean", "cap": "We've barely begun to look" },
+    { "id": "o2", "text": "Every sound in this video was real, recorded at the bottom of the sea, and every source is in the description. If this trench unsettled you, wait until you hear what deep space sounds like — that video is on your screen now. Subscribe to mindwired, and keep going down.", "img": "trench", "cap": "Next: the sounds of deep space" }
+  ]
+}

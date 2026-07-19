@@ -1,0 +1,110 @@
+{
+ "durations": {
+  "h1": 5.721,
+  "h2": 10.867,
+  "h3": 14.106,
+  "t1": 6.06,
+  "c1": 5.251,
+  "d200": 12.042,
+  "d1000": 14.55,
+  "myth1": 7.497,
+  "myth2": 19.331,
+  "c2": 4.362,
+  "dsquid": 16.379,
+  "dwhale": 16.771,
+  "dtitanic": 11.18,
+  "sound1": 17.11,
+  "l_ship": 14.0,
+  "c3": 4.598,
+  "dhadal": 13.087,
+  "damphi": 15.987,
+  "sound2": 13.662,
+  "l_quake": 22.0,
+  "c4": 3.553,
+  "dsnail": 17.58,
+  "dlimit": 19.487,
+  "c5": 3.709,
+  "drov": 15.177,
+  "dxeno": 17.032,
+  "dispute1": 20.062,
+  "c6": 5.146,
+  "bottom1": 14.472,
+  "bottom2": 10.527,
+  "bottom3": 14.942,
+  "o1": 13.087,
+  "o2": 17.032
+ },
+ "images": {
+  "amphipod": [
+   "amphipod_1.jpg",
+   "amphipod_2.jpg",
+   "amphipod_3.jpg"
+  ],
+  "floor": [
+   "floor_1.jpg",
+   "floor_2.jpg"
+  ],
+  "hydrophone": [
+   "hydrophone_1.jpg",
+   "hydrophone_2.jpg"
+  ],
+  "jelly": [
+   "jelly_1.jpg",
+   "jelly_2.jpg",
+   "jelly_3.jpg"
+  ],
+  "ocean": [
+   "ocean_1.jpg",
+   "ocean_2.jpg"
+  ],
+  "octopus": [
+   "octopus_1.png",
+   "octopus_2.png",
+   "octopus_3.jpg"
+  ],
+  "plastic": [
+   "plastic_1.jpg"
+  ],
+  "rov": [
+   "rov_1.jpg",
+   "rov_2.jpg",
+   "rov_3.jpg"
+  ],
+  "snailfish": [
+   "snailfish_1.png"
+  ],
+  "squid": [
+   "squid_1.jpg",
+   "squid_2.jpg"
+  ],
+  "sunlight": [
+   "sunlight_3.jpg"
+  ],
+  "titanic": [
+   "titanic_1.jpg"
+  ],
+  "trench": [
+   "trench_1.png",
+   "trench_2.jpg"
+  ],
+  "trieste": [
+   "trieste_1.jpg",
+   "trieste_2.jpg"
+  ],
+  "vent": [
+   "vent_1.jpg",
+   "vent_2.jpg",
+   "vent_3.jpg"
+  ],
+  "whale": [
+   "whale_1.jpg",
+   "whale_2.jpg"
+  ],
+  "xeno": [
+   "xeno_1.jpg",
+   "xeno_2.jpg",
+   "xeno_3.jpg"
+  ]
+ },
+ "missing": []
+}

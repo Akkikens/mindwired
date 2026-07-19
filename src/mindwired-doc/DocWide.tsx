@@ -55,6 +55,10 @@ export type DocScene = {
   sfx?: SfxCue[]; noAutoSfx?: boolean;
   /** Camera move for photo scenes: push (default, alternates with pull), pull, drift. */
   camera?: "push" | "pull" | "drift";
+  /** Depth-gauge device (descent-structured docs): meters below surface.
+   *  Once any scene sets it, a persistent gauge overlays every following scene,
+   *  animating down from the previous scene's depth. */
+  depth?: number;
   diagram?: string; arg?: string;
   /** Evidence-engine radio beat: speaker tag renders the RadioScene
    *  (waveform + transcript). radioLabel MUST be honest:
@@ -123,6 +127,35 @@ const sceneCues = (s: DocScene, auto: SfxCue[]): SfxCue[] =>
 const NOISE_URI = `url("data:image/svg+xml,${encodeURIComponent(
   `<svg xmlns='http://www.w3.org/2000/svg' width='512' height='512'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='512' height='512' filter='url(%23n)'/></svg>`
 )}")`;
+/* Persistent descent device: animated meters counter + tick ruler, left edge.
+   Counts down from the previous scene's depth over the scene's first second. */
+const DepthGauge: React.FC<{ from: number; to: number; th: Theme }> = ({ from, to, th }) => {
+  const frame = useCurrentFrame();
+  const t = interpolate(frame, [0, 36], [0, 1], { extrapolateRight: "clamp" });
+  const d = Math.round(interpolate(t * t * (3 - 2 * t), [0, 1], [from, to]));
+  const settle = spring({ frame: frame - 30, fps: FPS, config: { damping: 14 } });
+  return (
+    <div style={{ position: "absolute", left: 54, top: "42%", display: "flex", alignItems: "center", gap: 18 }}>
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 6 }}>
+        {Array.from({ length: 7 }, (_, i) => (
+          <div key={i} style={{ width: i === 3 ? 26 : 14, height: 3, borderRadius: 2,
+            background: i === 3 ? th.accent : "rgba(255,255,255,0.45)" }} />
+        ))}
+      </div>
+      <div style={{ background: "rgba(5,7,12,0.72)", border: `1px solid ${th.accent}55`,
+        borderLeft: `5px solid ${th.accent}`, borderRadius: 12, padding: "12px 22px",
+        transform: `scale(${1 + 0.06 * (1 - Math.min(1, Math.abs(1 - settle)))})` }}>
+        <div style={{ fontFamily: "'Courier New', monospace", fontWeight: 700, fontSize: 20,
+          letterSpacing: 3, color: "rgba(255,255,255,0.55)" }}>DEPTH</div>
+        <div style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, fontSize: 52,
+          color: "#fff", textShadow: `0 0 18px ${th.accent}66` }}>
+          {d.toLocaleString("en-US")}<span style={{ fontSize: 30, color: th.accent }}> m</span>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 const GrainVignette: React.FC = () => {
   const frame = useCurrentFrame();
   const jx = (frame * 97) % 512, jy = (frame * 61) % 512;
@@ -396,6 +429,12 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest, outro?: OutroSp
     sceneFileIdx[s.id] = rotation[s.img] ?? 0;
     rotation[s.img] = (rotation[s.img] ?? 0) + 1;
   }
+  // depth-gauge carry-forward: each scene knows the previous scene's depth
+  const depthPrev: Record<string, number> = {};
+  let lastDepth: number | undefined;
+  for (const s of doc.scenes) {
+    if (s.depth !== undefined) { depthPrev[s.id] = lastDepth ?? 0; lastDepth = s.depth; }
+  }
   const Comp: React.FC = () => {
     let cursor = 0;
     return (
@@ -413,6 +452,7 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest, outro?: OutroSp
                 : s.diagram
                 ? <DiagramScene s={s} slug={doc.slug} m={manifest} th={th} />
                 : <IllusScene s={s} slug={doc.slug} m={manifest} idx={sceneFileIdx[s.id] ?? i} th={th} />}
+              {s.depth !== undefined && <DepthGauge from={depthPrev[s.id]} to={s.depth} th={th} />}
             </Sequence>
           );
         })}
