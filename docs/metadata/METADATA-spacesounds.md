@@ -1,5 +1,7 @@
 # METADATA — spacesounds (mindwired long-form, 17:19 + outro)
 
+**LIVE: https://www.youtube.com/watch?v=0SY4p2lS0EI** (2026-07-18)
+
 Comp `SpaceSoundsDoc` · channel mindwired · all audio REAL (see
 public/shorts/_evidence/spacesounds/SOURCES.md) · Icahn evidence: 134:1 outlier
 (docs/planning/TOPIC-QUEUE.md #1).

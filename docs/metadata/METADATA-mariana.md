@@ -38,7 +38,7 @@ Challenger Deep ship pass + ocean-floor earthquake, pmel.noaa.gov/acoustics.
 Images: NOAA Ocean Exploration, US Navy, NASA, Wikimedia Commons (credits pinned).
 
 ▶ MORE FROM MINDWIRED
-The Scariest Real Sounds Ever Recorded in Space — [paste URL once live]
+The Scariest Real Sounds Ever Recorded in Space — https://www.youtube.com/watch?v=0SY4p2lS0EI
 What Happened to the Bodies of Every Astronaut Who Ever Died — https://youtu.be/MPWChE1uanQ
 21 Astronauts Never Came Home. Here's Every Story. — https://youtu.be/maxZwNGqIDU
 Space Documentaries — Full Length: https://www.youtube.com/playlist?list=PLSGw_l2_Tsdo
