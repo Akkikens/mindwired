@@ -54,6 +54,23 @@ import spaceSoundsDoc from "./mindwired-doc/docs/spacesounds.json";
 import spaceSoundsManifest from "./mindwired-doc/docs/spacesounds.manifest.json";
 import marianaDoc from "./mindwired-doc/docs/mariana.json";
 import marianaManifest from "./mindwired-doc/docs/mariana.manifest.json";
+import { MindwiredShort, mindwiredShortFrames } from "./mindwired-doc/MindwiredShort";
+
+// Vertical Shorts cut from the two evidence docs (windows per docs/metadata/*).
+const MW_SHORTS = [
+  { id: "SpaceSoundsShort1", slug: "spacesounds", doc: spaceSoundsDoc, manifest: spaceSoundsManifest,
+    startId: "h1", endId: "h4", hook: "A real black hole\nsounds like THIS" },
+  { id: "SpaceSoundsShort2", slug: "spacesounds", doc: spaceSoundsDoc, manifest: spaceSoundsManifest,
+    startId: "c1", endId: "l1", hook: "NASA called this\nsound \"eerie\"" },
+  { id: "SpaceSoundsShort3", slug: "spacesounds", doc: spaceSoundsDoc, manifest: spaceSoundsManifest,
+    startId: "w1", endId: "w3", hook: "Every \"Wow! Signal\"\naudio online is FAKE" },
+  { id: "MarianaShort1", slug: "mariana", doc: marianaDoc, manifest: marianaManifest,
+    startId: "myth1", endId: "myth2", hook: "You've been lied to\nabout the deep ocean" },
+  { id: "MarianaShort2", slug: "mariana", doc: marianaDoc, manifest: marianaManifest,
+    startId: "sound1", endId: "l_ship", hook: "This is the sound of\nthe bottom of the ocean" },
+  { id: "MarianaShort3", slug: "mariana", doc: marianaDoc, manifest: marianaManifest,
+    startId: "bottom1", endId: "bottom3", hook: "The deepest place on Earth.\nWe got there second." },
+] as const;
 import astronautBodiesDoc from "./mindwired-doc/docs/astronautbodies.json";
 import astronautBodiesManifest from "./mindwired-doc/docs/astronautbodies.manifest.json";
 import { EndOfTimeEpic, endOfTimeTotalFrames } from "./endoftime/EndOfTimeEpic";
@@ -1404,6 +1421,20 @@ export const RemotionRoot: React.FC = () => {
         width={1280}
         height={720}
       />
+
+      {/* ── mindwired evidence-doc Shorts (vertical 1080×1920, outro baked) ── */}
+      {MW_SHORTS.map(s => (
+        <Composition
+          key={s.id}
+          id={s.id}
+          component={MindwiredShort}
+          durationInFrames={mindwiredShortFrames({ startId: s.startId, endId: s.endId, doc: s.doc as never, manifest: s.manifest as never })}
+          fps={30}
+          width={1080}
+          height={1920}
+          defaultProps={{ slug: s.slug, doc: s.doc as never, manifest: s.manifest as never, startId: s.startId, endId: s.endId, hook: s.hook }}
+        />
+      ))}
     </>
   );
 };
