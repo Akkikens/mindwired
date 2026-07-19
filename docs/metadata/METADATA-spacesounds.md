@@ -58,13 +58,15 @@ ESA/HASI (CC BY-SA 3.0 IGO): Huygens Titan descent + radar
 Images: NASA/ESA/Hubble + Wikimedia Commons (full credits in pinned comment)
 
 ▶ MORE FROM MINDWIRED
-What Happened to the Bodies of Every Astronaut Who Ever Died: [paste URL]
-The Lost Cosmonauts — The Men the Space Race Erased: [paste URL]
-Every Animal We Sent to Space (And Never Brought Back): [paste URL]
-All videos: [playlist URL]
+What Happened to the Bodies of Every Astronaut Who Ever Died — https://youtu.be/MPWChE1uanQ
+21 Astronauts Never Came Home. Here's Every Story. — https://youtu.be/maxZwNGqIDU
+The Lost Cosmonauts the USSR Pretended Never Existed — https://youtu.be/Hs6ZzZAQ7ms
+The Death Speech NASA Hoped You'd Never Hear (Apollo 11) — https://youtu.be/OGrVytHjZ9w
+Space Documentaries — Full Length: https://www.youtube.com/playlist?list=PLSGw_l2_Tsdo
 Subscribe: https://www.youtube.com/@mindwired?sub_confirmation=1
 ```
-(Replace `[paste URL]`s from memory `mindwired-published-urls` at upload time.)
+(Handle in the subscribe link NOT yet confirmed — verify the channel's real
+handle in Studio before upload; outro art shows "@MINDWIREDD".)
 
 ## Hashtags (15, first 3 display)
 #space #nasa #sounds #blackhole #voyager #mars #saturn #universe #astronomy
@@ -87,8 +89,9 @@ Category: Education · License: Standard · AI-disclosure: No (all audio archiva
 narration is the channel's standard voice)
 
 ## Thumbnail (house style)
-Perseus/NGC 1275 or Saturn dark frame + waveform motif; text: "IT'S REAL" or
-"RECORDED IN SPACE" (3-5 words, yellow/white caps).
+MADE: `out/thumb_spacesounds.png` — real NGC 1275 (Hubble) + waveform motif,
+"A BLACK HOLE / SOUNDS LIKE THIS" (matches the cold open exactly).
+A/B alternate if CTR sags: Saturn true-color frame + "NASA CALLED IT EERIE".
 
 ## Shorts funnel (cut after upload)
 1. Perseus black hole (h1-n3+l3 window) — "A real black hole sounds like this"
