@@ -54,6 +54,10 @@ import spaceSoundsDoc from "./mindwired-doc/docs/spacesounds.json";
 import spaceSoundsManifest from "./mindwired-doc/docs/spacesounds.manifest.json";
 import marianaDoc from "./mindwired-doc/docs/mariana.json";
 import marianaManifest from "./mindwired-doc/docs/mariana.manifest.json";
+import spaceSoundsHiDoc from "./mindwired-doc/docs/spacesounds-hi.json";
+import spaceSoundsHiManifest from "./mindwired-doc/docs/spacesounds-hi.manifest.json";
+import marianaHiDoc from "./mindwired-doc/docs/mariana-hi.json";
+import marianaHiManifest from "./mindwired-doc/docs/mariana-hi.manifest.json";
 import { MindwiredShort, mindwiredShortFrames } from "./mindwired-doc/MindwiredShort";
 
 // Vertical Shorts cut from the two evidence docs (windows per docs/metadata/*).
@@ -885,6 +889,24 @@ export const RemotionRoot: React.FC = () => {
         id="DimaagBattiNeet"
         component={NeetWide}
         durationInFrames={neetTotalFrames()}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── DimaagBatti (Hindi) — spacesounds + mariana (no outro; none exists yet) ── */}
+      <Composition
+        id="SpaceSoundsHiDoc"
+        component={makeDocComp(spaceSoundsHiDoc, spaceSoundsHiManifest)}
+        durationInFrames={docTotalFrames(spaceSoundsHiDoc, spaceSoundsHiManifest)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="MarianaHiDoc"
+        component={makeDocComp(marianaHiDoc, marianaHiManifest)}
+        durationInFrames={docTotalFrames(marianaHiDoc, marianaHiManifest)}
         fps={30}
         width={1920}
         height={1080}
