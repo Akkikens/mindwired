@@ -1,0 +1,25 @@
+{
+ "durations": {
+  "d1": 8.777,
+  "d2": 6.113,
+  "d3": 10.031,
+  "d4": 11.389,
+  "d5": 6.426
+ },
+ "images": {
+  "barometer": [
+   "barometer_1.png"
+  ],
+  "krakatoa": [
+   "krakatoa_1.png"
+  ],
+  "map": [
+   "map_1.png"
+  ],
+  "sailors": [
+   "sailors_1.png"
+  ]
+ },
+ "missing": [],
+ "speed": 0.97
+}

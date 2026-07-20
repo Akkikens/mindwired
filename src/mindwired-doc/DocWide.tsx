@@ -20,6 +20,7 @@ import {
 } from "remotion";
 import "../lib/fonts";
 import { DIAGRAMS } from "./Diagrams";
+import { MascotReact, SketchScene } from "./Sketch";
 
 const FPS = 30;
 const BASE = "#05070C";
@@ -69,6 +70,11 @@ export type DocScene = {
    *  muted, letterboxed, with narration audio over it. videoFrom = start seconds
    *  (window into a long clip so consecutive scenes progress through it). */
   video?: string; videoFrom?: number;
+  /** Hand-drawn brand layer (Sketch.tsx): sketch:true renders the img prefix as
+   *  an ink illustration on paper (draw-on reveal, line boil, Caveat captions);
+   *  react:<pose> pops the mascot (public/mascot/<pose>.png, gen_mascot.py)
+   *  into the corner of ANY scene type; note = handwritten margin annotation. */
+  sketch?: boolean; react?: string; note?: string;
 };
 export type DocSpec = { slug: string; title: string; channel?: string; scenes: DocScene[] };
 export type DocManifest = {
@@ -91,6 +97,10 @@ const SFX: Record<string, { file: string; vol: number; frames: number }> = {
   cockpit_hum:     { file: "sfx/cockpit_hum.wav",     vol: 0.10, frames: 360 },
   stat_hit:        { file: "sfx/stat_hit.wav",        vol: 0.32, frames: 24 },
   chapter_boom:    { file: "sfx/chapter_boom.wav",    vol: 0.35, frames: 54 },
+  // sketch-brand kit (CC0 via scripts/fetch_sfx.py — public/sfx/LICENSES.md)
+  sketch_scribble: { file: "sfx/sketch_scribble.wav", vol: 0.20, frames: 75 },
+  page_turn:       { file: "sfx/page_turn.wav",       vol: 0.25, frames: 21 },
+  sketch_pop:      { file: "sfx/sketch_pop.wav",      vol: 0.35, frames: 2 },
   whoosh:          { file: "sfx/whoosh.wav",          vol: 0.22, frames: 21 },
   riser:           { file: "sfx/riser.wav",           vol: 0.28, frames: 75 },
   heartbeat:       { file: "sfx/heartbeat.wav",       vol: 0.30, frames: 25 },
@@ -449,9 +459,27 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest, outro?: OutroSp
                 ? <RadioScene s={s} slug={doc.slug} m={manifest} th={th} />
                 : s.video
                 ? <VideoScene s={s} slug={doc.slug} m={manifest} th={th} />
+                : s.sketch
+                ? <SketchScene
+                    file={(() => {
+                      const fs = (s.img && manifest.images[s.img]) || [];
+                      return fs.length ? fs[(sceneFileIdx[s.id] ?? i) % fs.length] : null;
+                    })()}
+                    slug={doc.slug} cap={s.cap} stat={s.stat} note={s.note}
+                    accent={th.accent} sceneDur={dur} />
                 : s.diagram
                 ? <DiagramScene s={s} slug={doc.slug} m={manifest} th={th} />
                 : <IllusScene s={s} slug={doc.slug} m={manifest} idx={sceneFileIdx[s.id] ?? i} th={th} />}
+              {s.react && <MascotReact pose={s.react} sceneDur={dur} />}
+              {s.sketch && (
+                // sketch auto-cues: marker scribble under the draw-on, a pop as
+                // the mascot lands, stat hit as usual (noAutoSfx silences)
+                <SceneSfx sceneDur={dur} cues={sceneCues(s, [
+                  { name: "sketch_scribble", at: "in" },
+                  ...(s.react ? [{ name: "sketch_pop", at: 6 } as SfxCue] : []),
+                  ...(s.stat ? [{ name: "stat_hit", at: 24 } as SfxCue] : []),
+                ])} />
+              )}
               {s.depth !== undefined && <DepthGauge from={depthPrev[s.id]} to={s.depth} th={th} />}
             </Sequence>
           );

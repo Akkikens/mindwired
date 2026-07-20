@@ -52,6 +52,8 @@ import spaceAnimalsDoc from "./mindwired-doc/docs/spaceanimals.json";
 import spaceAnimalsManifest from "./mindwired-doc/docs/spaceanimals.manifest.json";
 import blackHolesDoc from "./mindwired-doc/docs/blackholes.json";
 import blackHolesManifest from "./mindwired-doc/docs/blackholes.manifest.json";
+import sketchDemoDoc from "./mindwired-doc/docs/sketchdemo.json";
+import sketchDemoManifest from "./mindwired-doc/docs/sketchdemo.manifest.json";
 import spaceSoundsDoc from "./mindwired-doc/docs/spacesounds.json";
 import spaceSoundsManifest from "./mindwired-doc/docs/spacesounds.manifest.json";
 import marianaDoc from "./mindwired-doc/docs/mariana.json";
@@ -909,6 +911,17 @@ export const RemotionRoot: React.FC = () => {
         id="MarianaHiDoc"
         component={makeDocComp(marianaHiDoc, marianaHiManifest)}
         durationInFrames={docTotalFrames(marianaHiDoc, marianaHiManifest)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── STYLE TEST — hand-drawn sketch brand look (Sketch.tsx); not a
+             publishable video: no outro, internal review only ── */}
+      <Composition
+        id="SketchDemo"
+        component={makeDocComp(sketchDemoDoc, sketchDemoManifest)}
+        durationInFrames={docTotalFrames(sketchDemoDoc, sketchDemoManifest)}
         fps={30}
         width={1920}
         height={1080}

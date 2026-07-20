@@ -26,3 +26,29 @@ loadFont({
   weight: "100 900",
   display: "block",
 }).catch(() => undefined);
+
+// Caveat — expressive handwritten script for the sketch/illustrated brand look
+// (marker captions, annotations). OFL-licensed, self-hosted. Static woff2
+// instances — the variable [wght] TTF failed to resolve at render (serif
+// fallback in stills), the instantiated cuts load reliably.
+loadFont({
+  family: "Caveat",
+  url: staticFile("fonts/Caveat400.woff2"),
+  weight: "400",
+  display: "block",
+}).catch(() => undefined);
+loadFont({
+  family: "Caveat",
+  url: staticFile("fonts/Caveat700.woff2"),
+  weight: "700",
+  display: "block",
+}).catch(() => undefined);
+
+// Patrick Hand — legible handwriting for longer sketch-scene labels. OFL.
+// (latin-subset woff2 — see the Caveat note above)
+loadFont({
+  family: "Patrick Hand",
+  url: staticFile("fonts/PatrickHand.woff2"),
+  weight: "400",
+  display: "block",
+}).catch(() => undefined);

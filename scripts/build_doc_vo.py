@@ -83,6 +83,7 @@ def main() -> None:
                 slow = "chapter" in s  # chapter cards land heavier
                 audio = cartesia.tts(s["text"], voice=doc.get("voice"),
                                      language=doc.get("language", "en"),
+                                     tone=s.get("tone"),  # scene emotion (EMOTION_FOR_TONE)
                                      speed=(args.speed - 0.02) if slow else args.speed)
                 dst.write_bytes(audio)
                 print(f"->  {bid}.mp3 ({len(audio)}b)")

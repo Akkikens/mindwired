@@ -1,0 +1,59 @@
+{
+ "slug": "sketchdemo",
+ "title": "SKETCH DEMO — The Sound That Circled Earth Four Times",
+ "language": "en",
+ "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+ "channel": "mindwired",
+ "scenes": [
+  {
+   "id": "d1",
+   "text": "In 1883, a volcano in Indonesia made a sound so loud, it circled the entire planet. [pause] Four times.",
+   "img": "krakatoa",
+   "sketch": true,
+   "react": "shocked",
+   "tone": "shock",
+   "stat": "1883",
+   "cap": "The loudest sound in recorded history",
+   "sfx": [{"name": "chapter_boom", "at": "in", "volume": 0.22}]
+  },
+  {
+   "id": "d2",
+   "text": "Sailors on a ship forty miles away had their eardrums ruptured. Half the crew never heard properly again.",
+   "img": "sailors",
+   "sketch": true,
+   "react": "terrified",
+   "tone": "fear",
+   "cap": "40 miles away: burst eardrums",
+   "note": "the ship was the Norham Castle"
+  },
+  {
+   "id": "d3",
+   "text": "Three thousand miles away, on an island near Africa, a police chief heard it and reported the roar of heavy guns. There were no guns. There was nothing but ocean.",
+   "img": "map",
+   "sketch": true,
+   "react": "thinking",
+   "tone": "curiosity",
+   "stat": "3,000 MILES",
+   "cap": "Heard across an entire ocean"
+  },
+  {
+   "id": "d4",
+   "text": "And after the sound faded, the pressure wave kept going. For five days, barometers all over the world twitched, every thirty four hours, as the wave lapped the planet again and again.",
+   "img": "barometer",
+   "sketch": true,
+   "react": "mindblown",
+   "tone": "awe",
+   "cap": "5 days. Every barometer on Earth.",
+   "sfx": [{"name": "stat_hit", "at": 30, "volume": 0.25}]
+  },
+  {
+   "id": "d5",
+   "text": "If a sound this big shocked you, wait until you hear what the ocean recorded in 1997. Subscribe to mindwired.",
+   "img": "krakatoa",
+   "sketch": true,
+   "react": "excited",
+   "tone": "excitement",
+   "cap": "subscribe to mindwired"
+  }
+ ]
+}
