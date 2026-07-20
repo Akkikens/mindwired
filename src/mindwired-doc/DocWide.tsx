@@ -84,6 +84,9 @@ export type DocScene = {
   /** full-screen mascot cutaway: the character fills the frame at face scale
    *  and speaks the scene (requires speak:true for the mouth track) */
   mascotFull?: boolean;
+  /** talking-rig prefix in public/mascot/ ("host" default = mindwired astro,
+   *  "bb_host" = blackbox recorder robot) */
+  rig?: string;
 };
 export type DocSpec = { slug: string; title: string; channel?: string; scenes: DocScene[] };
 export type DocManifest = {
@@ -473,7 +476,7 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest, outro?: OutroSp
                 : s.mascotFull
                 ? <MascotZoom
                     sceneDur={dur} mouthOffset={LEAD} cap={s.cap} accent={th.accent}
-                    mouth={s.speak ? manifest.mouth?.[s.id] : undefined} />
+                    rig={s.rig} mouth={s.speak ? manifest.mouth?.[s.id] : undefined} />
                 : s.sketch
                 ? <SketchScene
                     file={(() => {
@@ -487,8 +490,8 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest, outro?: OutroSp
                 : <IllusScene s={s} slug={doc.slug} m={manifest} idx={sceneFileIdx[s.id] ?? i} th={th} />}
               {(s.react || s.speak) && !s.mascotFull && (
                 <MascotReact
-                  pose={s.react ?? "host_m0"} sceneDur={dur} mouthOffset={LEAD}
-                  mouth={s.speak ? manifest.mouth?.[s.id] : undefined} />
+                  pose={s.react ?? `${s.rig ?? "host"}_m0`} sceneDur={dur} mouthOffset={LEAD}
+                  rig={s.rig} mouth={s.speak ? manifest.mouth?.[s.id] : undefined} />
               )}
               {s.mascotFull && (
                 <>

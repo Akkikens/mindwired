@@ -1,0 +1,446 @@
+{
+ "slug": "tenerife",
+ "title": "The Deadliest Plane Crash in History Happened on the Ground",
+ "language": "en",
+ "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+ "channel": "blackbox",
+ "niche": "aviation",
+ "scenes": [
+  {
+   "id": "h1",
+   "text": "The deadliest plane crash in history killed 583 people. [pause] And neither aircraft ever left the ground.",
+   "img": "klmwreck",
+   "query": "Het verongelukte KLM toestel Rijn Tenerife",
+   "stat": "583 DEAD",
+   "cap": "Neither plane ever left the ground.",
+   "tone": "shock",
+   "sfx": [
+    {
+     "name": "chapter_boom",
+     "at": "in",
+     "volume": 0.22
+    }
+   ]
+  },
+  {
+   "id": "h2",
+   "text": "Two Boeing seven forty-sevens. A fog bank moving at six metres a second. And one radio call that arrived, at the worst possible moment, as a three point seven second electronic squeal.",
+   "img": "fog",
+   "query": "airport runway thick fog low visibility",
+   "stock": true,
+   "stat": "3.7 SECONDS",
+   "cap": "One blocked radio call.",
+   "tone": "fear"
+  },
+  {
+   "id": "h3",
+   "text": "The captain who caused it was his airline's symbol of safety — his face was in the ad in the in-flight magazine, on board the plane he crashed. When the airline heard the news, they tried to call him. To lead the investigation.",
+   "img": "phbuf",
+   "cap": "They called him to investigate his own crash.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "h4",
+   "text": "This is the full story of Tenerife — the bomb that put both planes there, the thirteen seconds that killed 583 people, the myths everyone repeats, and what the truth actually was.",
+   "img": "losrodeos",
+   "query": "Los Rodeos Tenerife North airport runway",
+   "stat": "MARCH 27, 1977",
+   "cap": "The full story. And the myths, tested.",
+   "tone": "confidence"
+  },
+  {
+   "id": "t0",
+   "text": "Tenerife. The deadliest crash in aviation history.",
+   "chapter": "BLACK BOX\nTENERIFE"
+  },
+  {
+   "id": "c1t",
+   "text": "Chapter one. The bomb.",
+   "chapter": "CHAPTER 1\nTHE BOMB"
+  },
+  {
+   "id": "c1a",
+   "text": "March 27th, 1977. A small bomb planted by Canary Islands separatists explodes in a florist shop inside Las Palmas airport on Gran Canaria. Eight people are injured. Nobody dies. Then a phone call warns of a second bomb.",
+   "img": "laspalmas",
+   "query": "Las Palmas Gran Canaria airport terminal 1970s",
+   "stat": "13:15 — THE BOMB",
+   "cap": "A florist-shop bomb. Then a phone warning.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "c1b",
+   "text": "Las Palmas closes to search for a bomb that does not exist. Every inbound flight diverts to the only other runway in the islands: Los Rodeos, a small regional airport on Tenerife. Among them, two Boeing seven forty-sevens that were never supposed to meet.",
+   "img": "losrodeos",
+   "cap": "Every flight diverted to one small airport.",
+   "tone": "fear"
+  },
+  {
+   "id": "c1c",
+   "text": "K L M Flight four eight zero five from Amsterdam. Pan Am Flight one seven three six from Los Angeles. The Pan Am crew asked to circle and wait — they had the fuel. Spanish control said no. [pause] Land at Los Rodeos.",
+   "img": "phbuf",
+   "query": "KLM Boeing 747-200 PH-BUF",
+   "cap": "Pan Am asked NOT to land there.",
+   "tone": "fear"
+  },
+  {
+   "id": "c2t",
+   "text": "Chapter two. The airport that couldn't see.",
+   "chapter": "CHAPTER 2\nBLIND"
+  },
+  {
+   "id": "c2a",
+   "text": "Los Rodeos sits at 633 metres of elevation — high enough that clouds don't hover above the runway. They roll across it. Visibility that afternoon swung from 900 metres to under 100 in minutes.",
+   "img": "fog",
+   "stat": "633 M ELEVATION",
+   "cap": "Clouds don't form here. They arrive.",
+   "tone": "fear"
+  },
+  {
+   "id": "c2b",
+   "text": "One runway. One taxiway — now a parking lot for diverted airliners. Which meant both seven forty-sevens had to taxi ON the active runway itself. The airport had no ground radar. The centerline lights were broken. Two controllers were working a day the airport was never built for.",
+   "img": "losrodeos",
+   "cap": "Both 747s taxied on the active runway.",
+   "tone": "fear"
+  },
+  {
+   "id": "c2c",
+   "text": "By the final minutes, the tower could not see either aircraft. The two aircraft could not see each other. Three groups of professionals, all blind, connected by one congested radio frequency.",
+   "img": "fog",
+   "stat": "VISIBILITY < 100 M",
+   "cap": "Three parties. All blind. One frequency.",
+   "tone": "fear",
+   "sfx": [
+    {
+     "name": "riser",
+     "at": "in",
+     "volume": 0.2
+    }
+   ]
+  },
+  {
+   "id": "c3t",
+   "text": "Chapter three. The captain from the advertisement.",
+   "chapter": "CHAPTER 3\nMR. KLM"
+  },
+  {
+   "id": "c3a",
+   "text": "The K L M captain was Jacob van Zanten — the airline's chief seven forty-seven instructor, the man who trained and certified their other pilots. His face ran in K L M's magazine ads. The copy of that magazine sitting in his passengers' seat pockets carried his photo, over the words: from the people who made punctuality possible.",
+   "img": "phbuf",
+   "cap": "His face was in the seat-pocket magazine.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "c3b",
+   "text": "Punctuality was the trap. A new Dutch law made crew duty-time limits rigid — and criminally enforceable. Overrun the clock, and a captain could face prosecution. Van Zanten's window to fly home was closing, and hotels on Tenerife were full. 250 passengers, nowhere to sleep, and a career-threatening deadline.",
+   "img": "klmcrew",
+   "query": "KLM crew 1970s airline pilots",
+   "stat": "DUTY CLOCK TICKING",
+   "cap": "Missing the deadline was a crime.",
+   "tone": "fear"
+  },
+  {
+   "id": "c3c",
+   "text": "So he made a decision that looked efficient: refuel now, at Los Rodeos, and skip the stop at Las Palmas. Fifty-five thousand five hundred litres — about 45 tonnes. It cost 35 extra minutes on the ground. The fog arrived in exactly that window. And every litre would soon be fuel for a fire.",
+   "img": "refuel",
+   "query": "Boeing 747 refueling ground operations 1970s",
+   "stat": "55,500 LITRES",
+   "cap": "The fuel that cost 35 minutes — and fed the fire.",
+   "tone": "fear"
+  },
+  {
+   "id": "c3d",
+   "text": "While the K L M tanked, the Pan Am crew walked over with a tape measure. Could they taxi around the parked jumbo and just leave? [pause] They measured the gap. Three point seven metres short.",
+   "img": "clipper",
+   "query": "Pan Am Boeing 747 N736PA Clipper Victor",
+   "cap": "They measured it. 3.7 metres short.",
+   "tone": "fear"
+  },
+  {
+   "id": "cutA",
+   "text": "The man in the safety advertisement. About to cause the deadliest crash in history. Because being late was illegal. Remember that next time your boss says the deadline is the priority.",
+   "mascotFull": true,
+   "speak": true,
+   "rig": "bb_host",
+   "tone": "confidence",
+   "cap": "the deadline was the danger"
+  },
+  {
+   "id": "c4t",
+   "text": "Chapter four. Clipper Victor.",
+   "chapter": "CHAPTER 4\nCLIPPER VICTOR"
+  },
+  {
+   "id": "c4a",
+   "text": "The Pan Am jet deserves a moment. Registration November seven three six Papa Alpha. In January 1970, this exact aircraft flew the first Boeing seven forty-seven passenger flight in history, New York to London.",
+   "img": "clipperhistory",
+   "query": "Pan Am first Boeing 747 flight 1970",
+   "stat": "THE FIRST 747 FLIGHT EVER",
+   "cap": "This exact plane opened the jumbo age.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "c4b",
+   "text": "Seven months later it was hijacked to Havana — where Fidel Castro personally came out to the runway to look the giant over. The most famous seven forty-seven in the world. It had one more appointment with history.",
+   "img": "clipper",
+   "cap": "Castro personally inspected it. It had one more date with history.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "c5t",
+   "text": "Chapter five. Thirteen seconds.",
+   "chapter": "CHAPTER 5\nTHIRTEEN SECONDS"
+  },
+  {
+   "id": "c5a",
+   "text": "Here is the geometry of the next four minutes. The K L M taxis all the way down the runway and turns 180 degrees, ready for takeoff. The Pan Am follows behind it on the same runway, told to exit at the third taxiway and let the K L M go. In fog, with unreadable signs, past turns a jumbo can barely make.",
+   "img": "diagram747",
+   "query": "Tenerife disaster runway collision diagram map",
+   "cap": "Two jumbos. One runway. Zero visibility.",
+   "tone": "fear"
+  },
+  {
+   "id": "c5b",
+   "text": "The exit they were given required a 148 degree double turn — a manoeuvre the pilots' association later called practically impossible for a seven forty-seven. So the Pan Am crew did the reasonable thing: they rolled on toward the next, gentler exit. Still on the runway.",
+   "img": "losrodeos",
+   "stat": "A 148° TURN",
+   "cap": "The assigned exit was near-impossible.",
+   "tone": "fear"
+  },
+  {
+   "id": "c5c",
+   "text": "At the far end, van Zanten pushes the throttles up. His first officer — a man he personally trained and certified — stops him.",
+   "img": "klmcockpit",
+   "query": "Boeing 747 classic cockpit flight deck",
+   "cap": "His own student stopped him. Once.",
+   "tone": "fear"
+  },
+  {
+   "id": "c5d",
+   "text": "Wait a minute. We do not have an A T C clearance.",
+   "speaker": "KLM FIRST OFFICER MEURS",
+   "radioLabel": "CVR RECREATION",
+   "timestamp": "17:05:41",
+   "statColor": "#FF9500",
+   "cap": "“Wait a minute. We do not have an ATC clearance.”",
+   "tone": "fear"
+  },
+  {
+   "id": "c5e",
+   "text": "The tower reads back a route clearance — the flight path to fly after departure. It is not a takeoff clearance. But van Zanten is already releasing the brakes. His first officer, rushing the readback, ends it with four ambiguous words.",
+   "img": "tower",
+   "query": "airport control tower 1970s controllers",
+   "cap": "A route clearance. Not a takeoff clearance.",
+   "tone": "fear"
+  },
+  {
+   "id": "c5f",
+   "text": "We are now at takeoff.",
+   "speaker": "KLM 4805",
+   "radioLabel": "CVR RECREATION",
+   "timestamp": "17:06:09",
+   "statColor": "#FF9500",
+   "cap": "“We are now at takeoff.”",
+   "tone": "fear"
+  },
+  {
+   "id": "c5g",
+   "text": "At takeoff. Taking off. Waiting at the takeoff point. The phrase means everything and nothing. The tower answers: okay. [pause] Stand by for takeoff. I will call you. And at that exact moment, the Pan Am crew, hearing the K L M's readback, keys their microphone in alarm.",
+   "img": "tower",
+   "cap": "Two transmissions. Same instant.",
+   "tone": "fear",
+   "sfx": [
+    {
+     "name": "riser",
+     "at": "in",
+     "volume": 0.22
+    }
+   ]
+  },
+  {
+   "id": "c5h",
+   "text": "Two radios transmitting at once do not take turns. They collide. In the K L M cockpit, the tower's warning and the Pan Am's we're still taxiing down the runway arrived as one thing: a three point seven four second electronic squeal. The only word that survived was okay.",
+   "img": "radiostatic",
+   "query": "vintage radio equipment aviation transmitter",
+   "stat": "3.74 SECONDS OF SQUEAL",
+   "cap": "The warning became noise. 'OK' survived.",
+   "tone": "shock"
+  },
+  {
+   "id": "c5i",
+   "text": "One man on the K L M flight deck still felt it. The flight engineer, Willem Schreuder, asked the question that could have saved 583 lives.",
+   "img": "klmcockpit",
+   "cap": "One last chance. One question.",
+   "tone": "fear"
+  },
+  {
+   "id": "c5j",
+   "text": "Is he not clear, then? That Pan American?",
+   "speaker": "KLM FLIGHT ENGINEER",
+   "radioLabel": "CVR RECREATION",
+   "timestamp": "17:06:32",
+   "statColor": "#FF9500",
+   "cap": "“Is he not clear, that Pan American?”",
+   "tone": "fear"
+  },
+  {
+   "id": "c5k",
+   "text": "Van Zanten — the chief instructor, the man from the advertisement — answered with two words: oh, yes. [pause] The engineer did not press. You did not press Mr. K L M. The jumbo was already accelerating through the fog at 140 knots.",
+   "img": "klmcockpit",
+   "cap": "“Oh, yes.” Nobody pressed him.",
+   "tone": "fear"
+  },
+  {
+   "id": "c6t",
+   "text": "Chapter six. The collision.",
+   "chapter": "CHAPTER 6\nCOLLISION"
+  },
+  {
+   "id": "c6a",
+   "text": "In the Pan Am cockpit, Captain Victor Grubbs saw landing lights emerge from the fog — coming at him. The C V R recorded him shouting: there he is — look at him. Goddamn, that son of a bitch is coming. He firewalled the throttles and swung the jumbo toward the grass.",
+   "img": "clipper",
+   "cap": "“Look at him — he's coming.”",
+   "tone": "shock",
+   "sfx": [
+    {
+     "name": "heartbeat",
+     "at": "in",
+     "volume": 0.22
+    }
+   ]
+  },
+  {
+   "id": "c6b",
+   "text": "Van Zanten saw the Pan Am too late and hauled his aircraft into the air early — so hard the tail dragged 22 metres along the concrete in a shower of sparks. It almost worked. The nose gear cleared the Pan Am. The main gear and two engines did not.",
+   "img": "diagram747",
+   "stat": "22 M TAIL DRAG",
+   "cap": "He almost cleared it. Almost.",
+   "tone": "shock"
+  },
+  {
+   "id": "c6c",
+   "text": "The K L M tore through the Pan Am's upper deck at 260 kilometres per hour, stayed airborne for 150 metres, stalled, and came down — 45 tonnes of fresh fuel igniting on impact. Everyone aboard the K L M died. All 248 of them. The fire burned so hot the aircraft was not fully identifiable until the next day.",
+   "img": "klmwreck",
+   "stat": "ALL 248 ABOARD KLM",
+   "cap": "The extra fuel became the fire.",
+   "tone": "fear"
+  },
+  {
+   "id": "c6d",
+   "text": "And in the fog, the fire crews fought that burning wreck believing they were fighting the whole disaster. They could not see that a second Boeing seven forty-seven was burning 300 metres away.",
+   "img": "klmwreck",
+   "cap": "They couldn't see the second fire.",
+   "tone": "fear"
+  },
+  {
+   "id": "c7t",
+   "text": "Chapter seven. Sixty-one.",
+   "chapter": "CHAPTER 7\nTHE SURVIVORS"
+  },
+  {
+   "id": "c7a",
+   "text": "On the Pan Am, 61 of 396 lived — every one of them from the forward left section, and every one of them saved themselves. First Officer Robert Bragg looked up for the fire handles and realized the entire top of the aeroplane was gone.",
+   "img": "bragg",
+   "query": "Pan Am 747 crew pilots 1970s",
+   "stat": "61 OF 396",
+   "cap": "“The top of the aeroplane was gone.”",
+   "tone": "fear"
+  },
+  {
+   "id": "c7b",
+   "text": "Survivors jumped six metres from the wing onto grass and concrete. Purser Dorothy Kelly, thrown clear in the impact, went back — dragging passengers away, then finding Captain Grubbs dazed on the ground, pulling him clear moments before an engine exploded. She was later decorated for it.",
+   "img": "clipper",
+   "cap": "Dorothy Kelly went back for the captain.",
+   "tone": "awe"
+  },
+  {
+   "id": "c7c",
+   "text": "The rescue services never reached them in time to matter — everyone who escaped was already out before help found the second aircraft. And on the K L M side, exactly one name on the manifest survived: Robina van Lanschot, a tour guide who lived on Tenerife and simply chose not to reboard. She carried the guilt for decades.",
+   "img": "memorial",
+   "query": "Tenerife disaster memorial",
+   "stat": "1 NAME OFF THE MANIFEST",
+   "cap": "She survived by never reboarding.",
+   "tone": "awe"
+  },
+  {
+   "id": "c8t",
+   "text": "Chapter eight. The myths, tested.",
+   "chapter": "CHAPTER 8\nTHE MYTHS, TESTED"
+  },
+  {
+   "id": "c8a",
+   "text": "Myth one. The controllers were distracted, listening to a football match. Tested: sounds on the tower tape were interpreted by some listeners as a broadcast — but the claim was never substantiated, and even the Dutch investigators, who had every incentive to spread the blame, concluded it likely had no effect. Unproven. Repeat it as fact, and you're the misinformation.",
+   "img": "tower",
+   "cap": "The football story: never proven.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "cutB",
+   "text": "Verdict: unproven. And honestly — it wouldn't change a thing. No radar, no visibility, one radio. The system was blind long before anyone allegedly turned on a match.",
+   "mascotFull": true,
+   "speak": true,
+   "rig": "bb_host",
+   "tone": "confidence",
+   "cap": "verdict: unproven — and irrelevant"
+  },
+  {
+   "id": "c8b",
+   "text": "Myth two. The Pan Am crew caused it by missing their exit. Tested: the exit they were assigned required a 148 degree double turn that the pilots' association called practically impossible for a seven forty-seven — in fog, past broken lights and unreadable signs. Rolling to the next exit was the professional choice. False.",
+   "img": "diagram747",
+   "cap": "The 'missed exit' was near-impossible geometry.",
+   "tone": "confidence"
+  },
+  {
+   "id": "c8c",
+   "text": "Myth three. A rogue cowboy captain took off without permission. Tested: van Zanten had a clearance — the wrong one — and twelve weeks of simulator instruction where the instructor grants his own clearances had primed him to hear what he expected. Add a criminal deadline and a closing fog window. Not a cowboy. A careful man inside a perfect trap. And that distinction is exactly why the fix worked.",
+   "img": "phbuf",
+   "cap": "Not a cowboy. A trap that could catch anyone.",
+   "tone": "confidence"
+  },
+  {
+   "id": "cutC",
+   "text": "That's the real horror. Remove the villain, and what's left is a system that could do this to the best pilot the airline had. Fix the villain, you fix one man. Fix the system — you fix every flight after it.",
+   "mascotFull": true,
+   "speak": true,
+   "rig": "bb_host",
+   "tone": "confidence",
+   "cap": "fix the system, not the villain"
+  },
+  {
+   "id": "c9t",
+   "text": "Chapter nine. What 583 lives bought.",
+   "chapter": "CHAPTER 9\nWHAT IT CHANGED"
+  },
+  {
+   "id": "c9a",
+   "text": "After Tenerife, the word takeoff was banned from radio except in the actual clearance itself. Ambiguity became a violation. Readbacks became mandatory. The phrase line up and wait exists because we are now at takeoff meant two things at once.",
+   "img": "moderncockpit",
+   "query": "modern airliner cockpit radio communication",
+   "stat": "THE WORD 'TAKEOFF' — RESTRICTED",
+   "cap": "One sentence rewrote radio forever.",
+   "tone": "confidence"
+  },
+  {
+   "id": "c9b",
+   "text": "And the deeper fix: crew resource management. Meurs challenged his captain once and folded. Schreuder asked once and accepted oh yes. Today, every airline crew on Earth is trained — and required — to challenge the captain until the doubt is resolved. The most junior voice in the cockpit now carries veto power over the most senior.",
+   "img": "crewtraining",
+   "query": "airline crew training simulator pilots",
+   "cap": "The junior voice now has veto power.",
+   "tone": "confidence"
+  },
+  {
+   "id": "c9c",
+   "text": "583 people died on a runway in the fog without ever leaving the ground. In the 48 years since, runway collisions of that scale have killed exactly zero. That is what they bought.",
+   "img": "memorial",
+   "stat": "SINCE 1977: ZERO",
+   "cap": "583 lives. Zero repeats.",
+   "tone": "awe"
+  },
+  {
+   "id": "e1",
+   "text": "Tenerife happened because a warning turned into noise for less than four seconds. If that margin terrifies you, the story of the airliner that vanished for twelve years with 239 people aboard will keep you up tonight — it's on your screen now. Subscribe to Black Box Breakdown.",
+   "img": "klmwreck",
+   "cap": "239 people. Vanished 12 years. On screen now.",
+   "tone": "confidence"
+  }
+ ]
+}

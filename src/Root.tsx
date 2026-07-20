@@ -52,6 +52,8 @@ import spaceAnimalsDoc from "./mindwired-doc/docs/spaceanimals.json";
 import spaceAnimalsManifest from "./mindwired-doc/docs/spaceanimals.manifest.json";
 import blackHolesDoc from "./mindwired-doc/docs/blackholes.json";
 import blackHolesManifest from "./mindwired-doc/docs/blackholes.manifest.json";
+import tenerifeDoc from "./mindwired-doc/docs/tenerife.json";
+import tenerifeManifest from "./mindwired-doc/docs/tenerife.manifest.json";
 import almostDiedDoc from "./mindwired-doc/docs/almostdied.json";
 import almostDiedManifest from "./mindwired-doc/docs/almostdied.manifest.json";
 import { FinalReview, finalReviewFrames } from "./finalreview/FinalReview";
@@ -914,6 +916,17 @@ export const RemotionRoot: React.FC = () => {
         id="MarianaHiDoc"
         component={makeDocComp(marianaHiDoc, marianaHiManifest)}
         durationInFrames={docTotalFrames(marianaHiDoc, marianaHiManifest)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Black Box — Tenerife: deadliest crash in history (4K, robot host
+             debut, GCE-rendered; BB outro baked) ── */}
+      <Composition
+        id="TenerifeDoc"
+        component={makeDocComp(tenerifeDoc, tenerifeManifest, BB_OUTRO)}
+        durationInFrames={docTotalFrames(tenerifeDoc, tenerifeManifest, BB_OUTRO)}
         fps={30}
         width={1920}
         height={1080}

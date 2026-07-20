@@ -30,15 +30,17 @@ from gemini_host import generate  # noqa: E402
 from PIL import Image  # noqa: E402
 
 # The locked art style — every mascot + every SketchScene illustration uses this
-# prefix so the whole video reads as ONE illustrator's hand.
-STYLE = (
+# prefix so the whole video reads as ONE illustrator's hand. The accent color is
+# per-channel (mindwired cyan #4DD8FF, blackbox orange #FF9500) via --accent.
+STYLE_TEMPLATE = (
     "hand-drawn cartoon illustration, confident thick black ink outlines with "
     "slightly wobbly hand-inked line quality, flat colors, minimal cross-hatch "
-    "shading, single cyan accent color #4DD8FF, clean white paper background, "
+    "shading, single {accent_name} accent color {accent}, clean white paper background, "
     "charming and expressive, in the style of a webcomic artist's character art. "
     "NOT 3D, NOT airbrushed, NOT gradient-shaded, no photorealism, no text, "
     "no watermark, no signature"
 )
+STYLE = STYLE_TEMPLATE.format(accent_name="cyan", accent="#4DD8FF")
 
 DEFAULT_CONCEPT = (
     "a small curious astronaut character with an oversized round helmet, "
@@ -181,10 +183,18 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--name", default="astro")
     ap.add_argument("--concept", default=DEFAULT_CONCEPT)
+    ap.add_argument("--accent", default="#4DD8FF",
+                    help="channel accent hex (mindwired #4DD8FF, blackbox #FF9500)")
+    ap.add_argument("--accent-name", default=None,
+                    help="color word for the prompt (auto: cyan/orange)")
     ap.add_argument("--only", default="", help="comma list of pose ids (default: all)")
     ap.add_argument("--force", action="store_true")
     args = ap.parse_args()
 
+    global STYLE
+    accent_name = args.accent_name or {"#4DD8FF": "cyan", "#FF9500": "orange"}.get(
+        args.accent.upper(), "bright")
+    STYLE = STYLE_TEMPLATE.format(accent_name=accent_name, accent=args.accent)
     out_dir = REPO / "assets" / "mascot" / args.name
     out_dir.mkdir(parents=True, exist_ok=True)
     only = {p.strip() for p in args.only.split(",") if p.strip()}

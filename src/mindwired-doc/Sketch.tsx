@@ -80,7 +80,10 @@ export const Paper: React.FC = () => (
  *  is the digital tell. */
 export const MascotReact: React.FC<{
   pose: string; sceneDur: number; mouth?: string; mouthOffset?: number;
-}> = ({ pose, sceneDur, mouth, mouthOffset = 10 }) => {
+  /** talking-rig file-stem prefix under public/mascot/ (default "host" =
+   *  mindwired astro; blackbox robot = "bb_host") */
+  rig?: string;
+}> = ({ pose, sceneDur, mouth, mouthOffset = 10, rig = "host" }) => {
   const frame = useCurrentFrame();
   const pop = spring({ frame: frame - 4, fps: FPS, config: { damping: 11, stiffness: 140 } });
   const out = interpolate(frame, [sceneDur - 8, sceneDur - 2], [1, 0],
@@ -99,7 +102,7 @@ export const MascotReact: React.FC<{
   if (mouth && mouth.length > 0) {
     const i = Math.min(Math.max(frame - mouthOffset, 0), mouth.length - 1);
     state = Math.min(3, Math.max(0, Number(mouth[i]) || 0));
-    file = `host_m${state}`;
+    file = `${rig}_m${state}`;
   }
   // acting: loud syllables push the whole character a touch (head-bob energy,
   // not just a mouth hole) — quantized with the flaps
@@ -138,8 +141,8 @@ export const MascotReact: React.FC<{
  *  included) — the paper takeover reads as the brand's voice interrupting. */
 export const MascotZoom: React.FC<{
   sceneDur: number; mouth?: string; mouthOffset?: number;
-  cap?: string; accent: string;
-}> = ({ sceneDur, mouth, mouthOffset = 10, cap, accent }) => {
+  cap?: string; accent: string; rig?: string;
+}> = ({ sceneDur, mouth, mouthOffset = 10, cap, accent, rig = "host" }) => {
   const frame = useCurrentFrame();
   const pop = spring({ frame: frame - 2, fps: FPS, config: { damping: 13, stiffness: 120 } });
   const out = interpolate(frame, [sceneDur - 7, sceneDur - 1], [1, 0],
@@ -181,7 +184,7 @@ export const MascotZoom: React.FC<{
         transformOrigin: "50% 30%",
       }}>
         <Img
-          src={staticFile(`mascot/host_m${state}.png`)}
+          src={staticFile(`mascot/${rig}_m${state}.png`)}
           style={{
             width: "100%", height: "100%", objectFit: "contain",
             filter: "url(#zoomboil) drop-shadow(0px 10px 0px rgba(28,26,23,0.12))",
