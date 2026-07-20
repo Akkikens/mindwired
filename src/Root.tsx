@@ -41,6 +41,8 @@ import af447Doc from "./mindwired-doc/docs/af447.json";
 import af447Manifest from "./mindwired-doc/docs/af447.manifest.json";
 import mh370Doc from "./mindwired-doc/docs/mh370.json";
 import mh370Manifest from "./mindwired-doc/docs/mh370.manifest.json";
+import mh370thDoc from "./mindwired-doc/docs/mh370theories.json";
+import mh370thManifest from "./mindwired-doc/docs/mh370theories.manifest.json";
 // Subscribe outro baked into the render (ONE render, no ffmpeg concat). frames @30fps.
 const BB_OUTRO = { file: "outro/subscribe_blackbox_long.mp4", frames: 483 };
 const MW_OUTRO = { file: "outro/subscribe_mindwired_long.mp4", frames: 527 };
@@ -1047,6 +1049,16 @@ export const RemotionRoot: React.FC = () => {
         id="MH370Doc"
         component={makeDocComp(mh370Doc, mh370Manifest, BB_OUTRO)}
         durationInFrames={docTotalFrames(mh370Doc, mh370Manifest, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Black Box Breakdown — MH370: Every Theory (follow-up) ── */}
+      <Composition
+        id="MH370TheoriesDoc"
+        component={makeDocComp(mh370thDoc, mh370thManifest, BB_OUTRO)}
+        durationInFrames={docTotalFrames(mh370thDoc, mh370thManifest, BB_OUTRO)}
         fps={30}
         width={1920}
         height={1080}

@@ -1,0 +1,651 @@
+{
+ "slug": "mh370theories",
+ "title": "MH370: Every Theory, Explained",
+ "language": "en",
+ "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+ "channel": "blackbox",
+ "scenes": [
+  {
+   "id": "h1",
+   "text": "A Boeing triple-seven with two hundred and thirty-nine people on board does not just vanish. And yet, twelve years later, that is exactly what M-H three seven zero did.",
+   "video": "b777night.mp4",
+   "stat": "MH370",
+   "cap": "A 777 with 239 people. Gone."
+  },
+  {
+   "id": "h2",
+   "text": "So what actually happened to it? Everyone has a theory. A fire. A hijacking. The captain. A government cover-up. Even aliens.",
+   "video": "earthnight.mp4",
+   "videoFrom": 4,
+   "cap": "Everyone has a theory."
+  },
+  {
+   "id": "h3",
+   "text": "Tonight, we test every serious theory, and the wildest ones, against the only thing that never lies. The evidence.",
+   "video": "cockpitnight.mp4",
+   "videoFrom": 4,
+   "cap": "Every theory, tested against the evidence."
+  },
+  {
+   "id": "h4",
+   "text": "Because the real story of M-H three seven zero is not that we have no answers. It is that the evidence rules almost all of them out, and quietly points at one.",
+   "video": "flaperonbeach.mp4",
+   "statColor": "#FF9500",
+   "stat": "ONE FITS",
+   "cap": "The evidence rules out almost all of them."
+  },
+  {
+   "id": "t0",
+   "text": "M-H three seven zero. Every theory, explained.",
+   "chapter": "BLACK BOX\nMH370 · Every Theory"
+  },
+  {
+   "id": "cR",
+   "text": "First, the rules.",
+   "chapter": "THE RULES\nWhat every theory must explain"
+  },
+  {
+   "id": "q1",
+   "text": "Any theory has to survive five hard facts. One: the transponder went dark at one twenty-one in the morning, at the exact blind spot between Malaysian and Vietnamese airspace.",
+   "video": "arcvid_takeoff_1.mp4",
+   "statColor": "#FF9500",
+   "stat": "1 · THE BLIND SPOT",
+   "cap": "It went dark at the perfect blind spot."
+  },
+  {
+   "id": "q2",
+   "text": "Two: the aircraft then turned around and flew a deliberate, waypoint-by-waypoint path back across the country and up the Strait of Malacca.",
+   "img": "malacca",
+   "stat": "2 · THE DELIBERATE TURN",
+   "cap": "A deliberate, precise turn-back."
+  },
+  {
+   "id": "q3",
+   "text": "Three: at two twenty-five, its satellite unit rebooted. Powered off, then deliberately back on, for reasons no one has fully explained.",
+   "video": "earthnight.mp4",
+   "videoFrom": 12,
+   "stat": "3 · THE REBOOT",
+   "cap": "The satellite unit rebooted. Why?"
+  },
+  {
+   "id": "q4",
+   "text": "Four: for six more hours it kept answering hourly satellite handshakes, tracing seven arcs deep into the empty southern Indian Ocean.",
+   "video": "earthaurora.mp4",
+   "videoFrom": 3,
+   "stat": "4 · SEVEN HOURS SOUTH",
+   "cap": "6 more hours. Seven arcs. Heading south."
+  },
+  {
+   "id": "q5",
+   "text": "Five: a year later, real wreckage washed up on the shores of Africa. And a recovered wing flap was not set for a landing.",
+   "video": "flaperonbeach.mp4",
+   "stat": "5 · THE DEBRIS",
+   "cap": "Real debris. Flaps not set to land."
+  },
+  {
+   "id": "q6",
+   "text": "Hold those five facts in your head. Every theory you are about to hear lives or dies on how many of them it can explain.",
+   "video": "cockpitnight.mp4",
+   "videoFrom": 6,
+   "cap": "Every theory lives or dies on these five."
+  },
+  {
+   "id": "q7",
+   "text": "And here is why this case bred so many theories. When a disaster leaves a clear trail, the wrong explanations die fast. M-H three seven zero left almost none. Into that vacuum rushed every idea imaginable, from the sober to the insane.",
+   "video": "vigil.mp4",
+   "videoFrom": 2,
+   "cap": "A vacuum of evidence bred a hundred theories."
+  },
+  {
+   "id": "cT1",
+   "text": "Theory one. The ghost flight.",
+   "chapter": "THEORY 1\nThe Ghost Flight"
+  },
+  {
+   "id": "o1",
+   "text": "Theory one, and the gentlest. Nobody was in control. A sudden loss of cabin pressure knocked out everyone on board, and the jet flew on, on autopilot, like a ghost, until the fuel ran dry.",
+   "video": "cockpitnight.mp4",
+   "cap": "A ghost flight — nobody conscious."
+  },
+  {
+   "id": "o1b",
+   "text": "For this to be the answer, the timing has to be brutal. The crew must lose the ability to act before they can descend to breathable air or turn back to land.",
+   "video": "cockpitnight.mp4",
+   "videoFrom": 1,
+   "cap": "They'd have to be overcome almost instantly."
+  },
+  {
+   "id": "o2",
+   "text": "One version, raised by pilots and by many of you in the comments, is chillingly specific. A crew oxygen cylinder ruptures. The cabin decompresses in seconds, and the crew black out from hypoxia before they can save themselves.",
+   "img": "oxygen",
+   "statColor": "#FF9500",
+   "stat": "HYPOXIA",
+   "cap": "An oxygen-bottle rupture, then hypoxia."
+  },
+  {
+   "id": "o2b",
+   "text": "At thirty-five thousand feet, a person has less than a minute of useful consciousness after a sudden decompression. It is fast, and it is silent. No struggle. No radio call. Just quiet.",
+   "video": "cockpitnight.mp4",
+   "videoFrom": 6,
+   "statColor": "#FF9500",
+   "stat": "SECONDS TO ACT",
+   "cap": "Under a minute of useful consciousness."
+  },
+  {
+   "id": "o3",
+   "text": "The case for it is strong. It explains the silence, the missing mayday, and that long, straight, final flight into nowhere. It needs no villain at all.",
+   "video": "earthnight.mp4",
+   "videoFrom": 20,
+   "statColor": "#5EC26A",
+   "stat": "CASE FOR",
+   "cap": "Explains the silence. No villain needed."
+  },
+  {
+   "id": "o4",
+   "text": "But here is what it cannot explain. A ghost flight does not carefully turn around, follow navigation waypoints, and thread the blind spot between two countries. And it does not reboot its own satellite unit. Those look like choices.",
+   "img": "malacca",
+   "statColor": "#FF9500",
+   "stat": "CASE AGAINST",
+   "cap": "But it can't explain the deliberate turn."
+  },
+  {
+   "id": "o4b",
+   "text": "And crucially, an unconscious crew cannot reboot a satellite unit at two twenty-five in the morning. That single event is very hard for any pure-accident theory to swallow.",
+   "video": "earthnight.mp4",
+   "videoFrom": 12,
+   "cap": "An unconscious crew can't reboot electronics."
+  },
+  {
+   "id": "o5",
+   "text": "Verdict: hypoxia may genuinely explain the last six hours. It struggles badly to explain the first twenty minutes.",
+   "video": "cockpitnight.mp4",
+   "videoFrom": 2,
+   "statColor": "#FF9500",
+   "stat": "VERDICT: PARTIAL",
+   "cap": "Verdict: fits the end, not the start."
+  },
+  {
+   "id": "cT2",
+   "text": "Theory two. The fire.",
+   "chapter": "THEORY 2\nThe Fire"
+  },
+  {
+   "id": "f1",
+   "text": "Theory two. Fire. A veteran pilot named Chris Goodfellow argued the turn-back was not sinister at all. It was a crew doing exactly the right thing.",
+   "video": "b777night.mp4",
+   "videoFrom": 3,
+   "cap": "What if the turn was a crew reacting?"
+  },
+  {
+   "id": "f2",
+   "text": "In his theory, a fire breaks out, maybe an overheating tyre or an electrical fault. The crew turn immediately toward the nearest airport with a long runway, the island of Langkawi, and are overcome by smoke before they can land.",
+   "img": "malacca",
+   "stat": "THE LANGKAWI TURN",
+   "cap": "A turn toward the nearest safe runway."
+  },
+  {
+   "id": "f2b",
+   "text": "Aviation has seen this before. Real fires have forced real crews to turn and race for the nearest runway, and sometimes lose that race. So the idea is not absurd on its face.",
+   "video": "b777night.mp4",
+   "videoFrom": 5,
+   "cap": "Fire-driven diversions have happened before."
+  },
+  {
+   "id": "f3",
+   "text": "It is an elegant idea. That first turn really does point roughly toward a real emergency airport. The case for it makes the pilots heroes, not killers.",
+   "video": "arcvid_takeoff_1.mp4",
+   "videoFrom": 2,
+   "statColor": "#5EC26A",
+   "stat": "CASE FOR",
+   "cap": "It makes the pilots heroes."
+  },
+  {
+   "id": "f3b",
+   "text": "But the timing betrays it. The transponder and the reporting system went silent minutes apart, in a clean, ordered sequence. A fire tearing through an aircraft rarely switches systems off so tidily.",
+   "video": "cockpitnight.mp4",
+   "videoFrom": 2,
+   "statColor": "#FF9500",
+   "stat": "TOO TIDY FOR A FIRE",
+   "cap": "Systems died in sequence — not like a fire."
+  },
+  {
+   "id": "f4",
+   "text": "The case against is heavy. A fire bad enough to kill the crew almost never lets an aircraft fly on, controlled, for six more hours. The recovered debris showed no fire. And the systems went dark selectively, not like a spreading blaze. Verdict: unlikely.",
+   "video": "flaperonbeach.mp4",
+   "videoFrom": 4,
+   "statColor": "#FF4D4D",
+   "stat": "VERDICT: UNLIKELY",
+   "cap": "No fire on the debris. Verdict: unlikely."
+  },
+  {
+   "id": "cT3",
+   "text": "Theory three. The cargo.",
+   "chapter": "THEORY 3\nThe Cargo"
+  },
+  {
+   "id": "l1",
+   "text": "Theory three. The cargo hold. M-H three seven zero was carrying around two hundred kilograms of lithium-ion batteries, the same kind that have brought down cargo jets before.",
+   "img": "mro",
+   "stat": "LITHIUM BATTERIES",
+   "cap": "200 kg of lithium batteries aboard."
+  },
+  {
+   "id": "l1b",
+   "text": "The danger is real. Lithium fires have destroyed cargo jets, and investigators took this cargo seriously, examining how it was packed and stowed.",
+   "img": "mro",
+   "cap": "A real danger — taken seriously."
+  },
+  {
+   "id": "l2",
+   "text": "The case for: a lithium fire burns intensely, resists extinguishing, and can flood a cabin with toxic smoke in minutes.",
+   "video": "earthnight.mp4",
+   "videoFrom": 30,
+   "statColor": "#5EC26A",
+   "stat": "CASE FOR",
+   "cap": "Lithium fires are fierce and fast."
+  },
+  {
+   "id": "l3",
+   "text": "The case against: investigators found the batteries were packed to regulation, no fire signature appeared on any recovered debris, and once again, a hold fire does not fly a plane for seven silent hours. Verdict: unlikely.",
+   "video": "flaperonbeach.mp4",
+   "videoFrom": 2,
+   "statColor": "#FF4D4D",
+   "stat": "VERDICT: UNLIKELY",
+   "cap": "No fire signature anywhere. Unlikely."
+  },
+  {
+   "id": "cT4",
+   "text": "Theory four. The hijacking.",
+   "chapter": "THEORY 4\nThe Hijacking"
+  },
+  {
+   "id": "hj1",
+   "text": "Theory four. Hijacking. Someone other than the pilots seizes the cockpit and diverts the jet to a destination of their own.",
+   "img": "beijing",
+   "cap": "A takeover of the cockpit."
+  },
+  {
+   "id": "hj2",
+   "text": "The case for: two passengers had boarded using stolen passports, and for a few days the entire world braced for terrorism.",
+   "img": "beijing",
+   "statColor": "#FF9500",
+   "stat": "2 STOLEN PASSPORTS",
+   "cap": "Two stolen passports raised alarms."
+  },
+  {
+   "id": "hj2b",
+   "text": "But after the September eleventh attacks, cockpit doors are reinforced and locked. A hijacking would mean defeating that door, subduing a trained crew, and doing it all without a single alarm reaching the ground.",
+   "video": "cockpitnight.mp4",
+   "videoFrom": 3,
+   "cap": "Hardened doors. No alarm ever reached the ground."
+  },
+  {
+   "id": "hj3",
+   "text": "The case against: those two were quickly identified as Iranian asylum seekers, with no link to the flight. And a hijacking makes no sense with no claim, no demands, no cause, and an ending in the emptiest ocean on Earth instead of at any destination.",
+   "video": "earthnight.mp4",
+   "videoFrom": 8,
+   "cap": "No claim. No demand. No destination."
+  },
+  {
+   "id": "hj4",
+   "text": "Hijackers want something. This flight asked for nothing, and went nowhere anyone could use. Verdict: unlikely.",
+   "video": "cockpitnight.mp4",
+   "videoFrom": 3,
+   "statColor": "#FF4D4D",
+   "stat": "VERDICT: UNLIKELY",
+   "cap": "Hijackers want something. This wanted nothing."
+  },
+  {
+   "id": "cT5",
+   "text": "Theory five. The captain.",
+   "chapter": "THEORY 5\nThe Pilot"
+  },
+  {
+   "id": "d1",
+   "text": "Theory five. The one investigators keep returning to, and the hardest to talk about. That the diversion was deliberate, carried out by someone who understood this aircraft intimately.",
+   "video": "cockpitnight.mp4",
+   "videoFrom": 4,
+   "cap": "The theory investigators keep returning to."
+  },
+  {
+   "id": "d1b",
+   "text": "Be clear about what this theory actually claims. Not a fault. Not an accident. A conscious human decision to make an airliner, and every soul on it, disappear.",
+   "video": "cockpitnight.mp4",
+   "videoFrom": 4,
+   "cap": "A conscious decision to make it disappear."
+  },
+  {
+   "id": "d2",
+   "text": "It fits the evidence uncomfortably well. The turn was flown, not drifted. Systems went dark in a sequence that looks chosen. The satellite rebooted. And the jet was steered toward the one place on Earth it would be almost impossible to find.",
+   "img": "malacca",
+   "statColor": "#FF9500",
+   "stat": "IT ALL FITS",
+   "cap": "Flown. Sequenced. Steered into the void."
+  },
+  {
+   "id": "d2b",
+   "text": "There is a darker detail investigators examined. Whoever was flying could have deliberately depressurized the cabin, while breathing from their own oxygen supply, quietly incapacitating everyone else on board.",
+   "video": "cockpitnight.mp4",
+   "videoFrom": 2,
+   "statColor": "#FF9500",
+   "stat": "A DELIBERATE DECOMPRESSION",
+   "cap": "The cabin could have been depressurized on purpose."
+  },
+  {
+   "id": "d2c",
+   "text": "The radar also showed the aircraft skirting the boundaries between national airspaces, and changing altitude near Penang, almost as if someone were threading the gaps between different countries' radar coverage.",
+   "img": "malacca",
+   "stat": "THREADING THE RADAR",
+   "cap": "Skirting the edges of each nation's radar."
+  },
+  {
+   "id": "d3",
+   "text": "Investigators also recovered, from the captain's home flight simulator, fragments of a saved route running deep into the southern Indian Ocean. Broadly the direction the real aircraft went.",
+   "video": "cockpitnight.mp4",
+   "videoFrom": 5,
+   "cap": "His home simulator held a route south."
+  },
+  {
+   "id": "d4",
+   "text": "And here is where we choose our words with care, because a real man's name is attached to this. That simulator held thousands of data points from years of use. The official investigation stated the route could not be conclusively linked to the flight. It is a chilling coincidence. It is not proof.",
+   "video": "cockpitnight.mp4",
+   "videoFrom": 5,
+   "statColor": "#FF4D4D",
+   "stat": "COINCIDENCE, NOT PROOF",
+   "cap": "A chilling coincidence — not proof."
+  },
+  {
+   "id": "d4b",
+   "text": "After the simulator data emerged, some reached for details of the captain's personal life as a motive. But investigators found no clear evidence of intent, and we will not smear a man the evidence never convicted. The route is a red flag. It is not a confession.",
+   "video": "vigil.mp4",
+   "videoFrom": 4,
+   "cap": "A red flag is not a confession."
+  },
+  {
+   "id": "d5",
+   "text": "No investigation has ever proven that the captain, the first officer, or anyone else deliberately did this. To declare his guilt would be to claim something the evidence has never established, about a man who cannot answer back.",
+   "video": "vigil.mp4",
+   "videoFrom": 4,
+   "cap": "No one has ever been proven responsible."
+  },
+  {
+   "id": "d6",
+   "text": "The official Malaysian report, after everything, reached only one honest conclusion.",
+   "diagram": "quote",
+   "arg": "The team is unable to determine the real cause for the disappearance of MH370.||MALAYSIAN SAFETY INVESTIGATION REPORT · 2018",
+   "cap": "The official verdict: cause undetermined."
+  },
+  {
+   "id": "d7",
+   "text": "Verdict: the strongest fit to the evidence we have. And still, officially, unproven.",
+   "video": "earthnight.mp4",
+   "videoFrom": 40,
+   "statColor": "#FF9500",
+   "stat": "VERDICT: LEANS HERE · UNPROVEN",
+   "cap": "The strongest fit — and still unproven."
+  },
+  {
+   "id": "cT6",
+   "text": "Theory six. Shot down.",
+   "chapter": "THEORY 6\nShot Down"
+  },
+  {
+   "id": "s1",
+   "text": "Now the conspiracies. Theory six. The aircraft was shot down, in a military exercise gone wrong or mistaken for a threat, and the truth was quietly buried.",
+   "video": "arcvid_takeoff_1.mp4",
+   "cap": "Shot down, then covered up?"
+  },
+  {
+   "id": "s2",
+   "text": "The case for: militaries across the region were watching that night. And, as so many of you pointed out, no fighter jets were scrambled to intercept an unidentified aircraft crossing an entire nation.",
+   "img": "malacca",
+   "statColor": "#FF9500",
+   "stat": "NO INTERCEPT",
+   "cap": "No fighters were ever scrambled."
+  },
+  {
+   "id": "s2b",
+   "text": "For a while, investigators could not even rule out that the aircraft had flown NORTH instead, over land, toward central Asia. But the same Doppler analysis that pointed south ruled the northern path out. There was no secret landing in Kazakhstan.",
+   "img": "arcmap",
+   "statColor": "#FF4D4D",
+   "stat": "THE NORTHERN ARC · RULED OUT",
+   "cap": "North, toward Asia? The math ruled it out."
+  },
+  {
+   "id": "s3",
+   "text": "The case against is decisive. A shoot-down over the Strait leaves wreckage there, that night. But the satellite shows the aircraft flying on for six more hours, and the debris drifted ashore years later from the far southern ocean, thousands of kilometres away.",
+   "video": "arcvid_indian_2.mp4",
+   "cap": "The debris came from the south, years later."
+  },
+  {
+   "id": "s3b",
+   "text": "And for a cover-up to hold, dozens of countries, independent investigators, and Inmarsat's own engineers would all have to lie in perfect concert for over a decade, while planting real wreckage on real beaches. The simpler answer is almost always the true one.",
+   "video": "arcvid_indian_2.mp4",
+   "videoFrom": 2,
+   "stat": "OCCAM'S RAZOR",
+   "cap": "A cover-up needs everyone to lie, for a decade."
+  },
+  {
+   "id": "s4",
+   "text": "The timeline and the physical evidence both refuse to fit a shoot-down. Verdict: contradicted by the evidence.",
+   "video": "earthnight.mp4",
+   "videoFrom": 25,
+   "statColor": "#FF4D4D",
+   "stat": "VERDICT: CONTRADICTED",
+   "cap": "Verdict: contradicted by the evidence."
+  },
+  {
+   "id": "cT7",
+   "text": "Theory seven. Diego Garcia.",
+   "chapter": "THEORY 7\nDiego Garcia"
+  },
+  {
+   "id": "dg1",
+   "text": "Theory seven, a favourite of the internet. The jet was secretly flown to Diego Garcia, the remote American military base in the middle of the Indian Ocean, and hidden away.",
+   "img": "diego",
+   "stat": "DIEGO GARCIA",
+   "cap": "Secretly landed at a US island base?"
+  },
+  {
+   "id": "dg2",
+   "text": "The case for: it is a real, secretive base, sitting in roughly the right ocean.",
+   "img": "diego",
+   "statColor": "#FF9500",
+   "stat": "A REAL BASE",
+   "cap": "A real, remote base — in the right ocean."
+  },
+  {
+   "id": "dg2b",
+   "text": "The theory feeds on a real distrust of secrecy. If a government wanted to hide something, the logic goes, where better than a base the public is not even allowed to visit.",
+   "img": "diego",
+   "cap": "It feeds on distrust of the secret base."
+  },
+  {
+   "id": "dg3",
+   "text": "The case against: the satellite arcs and Doppler analysis put the aircraft thousands of kilometres SOUTH of Diego Garcia. And a jet that landed intact cannot also shed a barnacle-covered flaperon onto a beach in Réunion.",
+   "img": "arcmap",
+   "cap": "The math puts it far south of the base."
+  },
+  {
+   "id": "dg4",
+   "text": "The wreckage is real. It came from the sea, not from a runway. Verdict: debunked.",
+   "video": "flaperonbeach.mp4",
+   "videoFrom": 3,
+   "statColor": "#FF4D4D",
+   "stat": "VERDICT: DEBUNKED",
+   "cap": "The wreckage came from the sea. Debunked."
+  },
+  {
+   "id": "cT8",
+   "text": "Theory eight. The wild file.",
+   "chapter": "THEORY 8\nThe Wild File"
+  },
+  {
+   "id": "w1",
+   "text": "And then there is the wild file. That M-H three seven zero was used to stage another disaster. That it was abducted. That glowing orbs teleported it out of the sky.",
+   "video": "earthspace2.mp4",
+   "cap": "Staged, abducted, teleported by orbs."
+  },
+  {
+   "id": "w2",
+   "text": "Those famous orb videos, showing the jet vanishing in a flash of light? They were analysed frame by frame and confirmed to be computer-generated hoaxes. They are not real footage of anything.",
+   "video": "earthnight.mp4",
+   "videoFrom": 35,
+   "statColor": "#FF4D4D",
+   "stat": "THE ORBS: A CGI HOAX",
+   "cap": "The 'orb' videos are proven CGI fakes."
+  },
+  {
+   "id": "w2b",
+   "text": "And it is worth being kind here. People reach for orbs and abductions because twelve years of total silence is genuinely unbearable. The mystery is painfully real. The hoaxes built on top of it are not.",
+   "video": "earthnight.mp4",
+   "videoFrom": 35,
+   "cap": "The mystery is real. The hoaxes are not."
+  },
+  {
+   "id": "w3",
+   "text": "The geopolitical swap theories, the alien abductions, the staged disappearances. They are seductive precisely because the truth is so incomplete. Where there are no answers, anyone can sell you one.",
+   "video": "earthspace.mp4",
+   "cap": "Where truth is missing, anyone sells you one."
+  },
+  {
+   "id": "w4",
+   "text": "But every one of them crashes into the same rock. Real, confirmed wreckage from this exact aircraft, washed up by a real ocean, exactly where independent satellite math said to look. No hoax survives that. Verdict: debunked.",
+   "video": "flaperonbeach.mp4",
+   "statColor": "#FF4D4D",
+   "stat": "VERDICT: DEBUNKED",
+   "cap": "No hoax survives the real wreckage."
+  },
+  {
+   "id": "cV",
+   "text": "The verdict.",
+   "chapter": "THE VERDICT\nWhat survives the evidence"
+  },
+  {
+   "id": "v1",
+   "text": "So line them all up against our five hard facts. The conspiracies fall immediately. The debris and the satellite data simply erase them.",
+   "img": "arcmap",
+   "cap": "The conspiracies fall first."
+  },
+  {
+   "id": "v2",
+   "text": "The accident theories, fire, batteries, hypoxia, explain the quiet ending, but not the deliberate, precise beginning. They cover the last six hours, and break on the first twenty minutes.",
+   "video": "cockpitnight.mp4",
+   "cap": "The accidents can't explain the start."
+  },
+  {
+   "id": "v2b",
+   "text": "Only the deliberate-diversion theory explains the turn, the silent sequence, the reboot, and the destination, all together. That is why investigators keep returning to it, however much they wish they did not have to.",
+   "img": "arcmap",
+   "statColor": "#FF9500",
+   "stat": "THE RECURRING ANSWER",
+   "cap": "Only one theory explains all of it at once."
+  },
+  {
+   "id": "v3",
+   "text": "Only one thing fits all five facts at once. A controlled diversion, by a human hand or a very specific chain of failure, that flew this aircraft into the southern Indian Ocean and ended in a steep, high-speed impact.",
+   "video": "arcvid_indian_2.mp4",
+   "videoFrom": 4,
+   "statColor": "#FF9500",
+   "stat": "ONE FITS ALL FIVE",
+   "cap": "Only a controlled diversion fits all five."
+  },
+  {
+   "id": "v3b",
+   "text": "One honest disagreement survives, even among those who accept the southern ocean. Did someone glide it down in a controlled ditching, at the controls to the very end? Or did it dive, steep and unpiloted, the moment the fuel ran out?",
+   "video": "arcvid_ocean_3.mp4",
+   "videoFrom": 3,
+   "statColor": "#FF9500",
+   "stat": "GLIDE, OR DIVE?",
+   "cap": "A gentle ditch, or a steep unpiloted dive?"
+  },
+  {
+   "id": "v3c",
+   "text": "The recovered flap, not set for landing, and the steep final satellite signal both point to a fast, uncontrolled impact. But even this is argued, and it changes where along the arc the wreckage might rest. It is part of why the search has been so brutally hard.",
+   "video": "flaperonbeach.mp4",
+   "videoFrom": 2,
+   "cap": "The evidence leans steep dive — but even that's argued."
+  },
+  {
+   "id": "v4",
+   "text": "That is where the evidence points. And it is also, still, where the evidence stops. Because after twelve years, no one has been able to prove the final step. Who. And why.",
+   "video": "earthnight.mp4",
+   "videoFrom": 45,
+   "statColor": "#FF9500",
+   "stat": "LEANS ONE WAY · UNPROVEN",
+   "cap": "Where the evidence points — and stops."
+  },
+  {
+   "id": "v4b",
+   "text": "So we are left with a strange kind of answer. We can tell you, with real confidence, what did NOT happen to M-H three seven zero. We still cannot tell you, with certainty, what did.",
+   "video": "earthnight.mp4",
+   "videoFrom": 48,
+   "cap": "We know what didn't happen. Not what did."
+  },
+  {
+   "id": "cN",
+   "text": "The newest lead.",
+   "chapter": "THE NEWEST LEAD\n2026"
+  },
+  {
+   "id": "n1",
+   "text": "But the case is not closed. In the deep ocean, sound travels for thousands of kilometres, and underwater microphones are always listening.",
+   "video": "arcvid_rov_1.mp4",
+   "cap": "Underwater microphones are always listening."
+  },
+  {
+   "id": "n1b",
+   "text": "For years the search leaned on the satellite arcs alone. Now, an entirely new kind of evidence is in play.",
+   "video": "arcvid_rov_2.mp4",
+   "videoFrom": 2,
+   "cap": "A whole new kind of evidence."
+  },
+  {
+   "id": "n2",
+   "text": "Scientists went back to the recordings from that night and found a faint, low-frequency signal at a listening station in Australia, arriving from the direction of the seventh arc. In 2026, they are re-examining it.",
+   "video": "arcvid_indian_2.mp4",
+   "videoFrom": 7,
+   "statColor": "#FF9500",
+   "stat": "A NEW ACOUSTIC CLUE · 2026",
+   "cap": "A faint signal, from the 7th arc. Re-examined in 2026."
+  },
+  {
+   "id": "n2b",
+   "text": "It is not the only unofficial lead. One aerospace engineer claims that faint disturbances in worldwide amateur radio signals can trace the flight path to a specific point. Official investigators are unconvinced, and it is unproven. But it shows how many people still refuse to give up.",
+   "video": "arcvid_sat_1.mp4",
+   "videoFrom": 3,
+   "statColor": "#FF9500",
+   "stat": "AMATEUR RADIO LEADS · UNPROVEN",
+   "cap": "Amateurs are still hunting, with radio signals."
+  },
+  {
+   "id": "n3",
+   "text": "It is a single, faint signal. A lead, not a location. But with the search now extended into 2027, it could be the thread that finally pulls M-H three seven zero out of the dark.",
+   "video": "searchship.mp4",
+   "cap": "A lead, not a location. But the hunt goes on."
+  },
+  {
+   "id": "z1",
+   "text": "Until then, every theory remains just that. And for two hundred and thirty-nine families, the cruelest part is not that there are too few answers. It is that there are too many, and not one of them is certain.",
+   "video": "vigil.mp4",
+   "videoFrom": 2,
+   "statColor": "#FF4D4D",
+   "stat": "239 · STILL WAITING",
+   "cap": "Too many theories. Not one certainty."
+  },
+  {
+   "id": "z2",
+   "text": "If you haven't seen it yet, our full breakdown of exactly how M-H three seven zero vanished, minute by minute, is on the channel now.",
+   "video": "b777night.mp4",
+   "videoFrom": 4,
+   "cap": "Watch the full MH370 breakdown next."
+  },
+  {
+   "id": "z3",
+   "text": "And subscribe to Black Box. We take the biggest mysteries in history apart, piece by piece, and we tell you the truth, including when the truth is that no one knows yet. Because the truth is always in the details.",
+   "video": "earthnight.mp4",
+   "videoFrom": 50,
+   "cap": "Subscribe to Black Box."
+  }
+ ]
+}

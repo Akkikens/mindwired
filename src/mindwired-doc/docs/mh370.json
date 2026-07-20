@@ -1,0 +1,819 @@
+{
+ "slug": "mh370",
+ "title": "MH370: The Plane That Vanished From Earth",
+ "language": "en",
+ "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+ "channel": "blackbox",
+ "scenes": [
+  {
+   "id": "h1",
+   "text": "Thirty-nine minutes after takeoff, this Boeing triple-seven vanished from every radar on Earth. Two hundred and thirty-nine people were on board. It has never been found.",
+   "video": "b777night.mp4",
+   "stat": "8 MARCH 2014",
+   "cap": "39 minutes after takeoff, it vanished."
+  },
+  {
+   "id": "h2",
+   "text": "The last thing anyone on the ground ever heard was utterly routine. A final handoff to Vietnam, and one calm reply from the cockpit.",
+   "video": "cockpitnight.mp4",
+   "videoFrom": 4,
+   "cap": "The last thing anyone heard was routine."
+  },
+  {
+   "id": "h3",
+   "text": "Good night. Malaysian three seven zero.",
+   "speaker": "MH370",
+   "radioLabel": "ATC — RECREATION",
+   "timestamp": "01:19 MYT",
+   "statColor": "#FF9500",
+   "stat": "THE LAST WORDS",
+   "cap": "The last words. 1:19 in the morning."
+  },
+  {
+   "id": "h4",
+   "text": "Two minutes later, the transponder switched off. No mayday. No wreckage on the water. No bodies. A wide-body airliner and everyone on it, simply gone.",
+   "video": "earthnight.mp4",
+   "videoFrom": 4,
+   "cap": "No mayday. No wreckage. Nothing."
+  },
+  {
+   "id": "h5",
+   "text": "What followed became the largest and most expensive search in the history of aviation. More than two hundred thousand square kilometres of deep ocean floor, mapped and scanned. And to this day, it has found almost nothing.",
+   "video": "arcvid_plane_1.mp4",
+   "stat": "200,000+ KM² SEARCHED",
+   "cap": "The largest search in aviation history."
+  },
+  {
+   "id": "h6",
+   "text": "This is the true story of M-H three seven zero. Not the conspiracy theories. Everything the evidence actually proves, every serious theory that tries to fill the gaps, and the exact line where what we know runs out.",
+   "video": "flaperonbeach.mp4",
+   "cap": "Everything we know — and where it stops."
+  },
+  {
+   "id": "t0",
+   "text": "M-H three seven zero. The plane that vanished from Earth.",
+   "chapter": "BLACK BOX\nMH370"
+  },
+  {
+   "id": "c1t",
+   "text": "Chapter 1. The last flight out of Kuala Lumpur.",
+   "chapter": "CHAPTER 1\nThe Last Flight"
+  },
+  {
+   "id": "a1",
+   "text": "Just after midnight on the 8th of March, 2014, passengers filed onto Malaysia Airlines Flight three seven zero at Kuala Lumpur International Airport. An ordinary overnight flight to Beijing, due to land at half past six that morning.",
+   "img": "klia",
+   "stat": "KUALA LUMPUR → BEIJING",
+   "cap": "A routine red-eye to Beijing."
+  },
+  {
+   "id": "a2",
+   "text": "The aircraft was a Boeing triple-seven-two-hundred. Registration nine-M-M-R-O. Twelve years old, with a clean maintenance record and more than fifty-three thousand hours in the air. It was one of the safest airliners ever built, operated by an airline with a solid safety history.",
+   "img": "mro",
+   "stat": "BOEING 777-200ER · 9M-MRO",
+   "cap": "A 12-year-old 777. Spotless record."
+  },
+  {
+   "id": "a3",
+   "text": "In the left seat was the captain, Zaharie Ahmad Shah, fifty-three years old. A veteran with over eighteen thousand flying hours, a Malaysia Airlines instructor, and a man so passionate about aviation that he had built a flight simulator at home. Remember that detail. We will come back to it.",
+   "video": "cockpitnight.mp4",
+   "cap": "The captain: 53, 18,000 hours, an instructor."
+  },
+  {
+   "id": "a4",
+   "text": "Beside him, First Officer Fariq Abdul Hamid, twenty-seven. A young pilot with around two thousand seven hundred hours, still completing his conversion training onto the triple-seven. This was one of his final training flights before qualifying.",
+   "video": "cockpitnight.mp4",
+   "videoFrom": 2,
+   "cap": "The first officer: 27, still in training."
+  },
+  {
+   "id": "a5",
+   "text": "Behind them, two hundred and twenty-seven passengers from fourteen nations. The largest group by far was Chinese. There were engineers, a delegation of calligraphers, parents flying home to their children, and a flight attendant said to be weeks from her wedding.",
+   "img": "beijing",
+   "stat": "239 SOULS · 14 NATIONS",
+   "cap": "227 passengers. Most were going home."
+  },
+  {
+   "id": "a6",
+   "text": "In the cargo hold sat something that would later fuel a hundred theories. More than four tonnes of mangosteens, a tropical fruit. And around two hundred kilograms of lithium-ion batteries. Both perfectly legal. Both, later, examined closely.",
+   "img": "mro",
+   "videoFrom": 0,
+   "cap": "In the hold: fruit, and lithium batteries."
+  },
+  {
+   "id": "a7",
+   "text": "At forty-one minutes past midnight, Flight three seven zero lifted off and turned north-east, climbing to its cruising altitude of thirty-five thousand feet over the South China Sea. A calm, clear night. Nothing about it was unusual.",
+   "video": "b777night.mp4",
+   "videoFrom": 2,
+   "cap": "Airborne, climbing over the South China Sea."
+  },
+  {
+   "id": "a8",
+   "text": "For thirty-eight minutes, everything was normal. The crew made routine radio calls. Then the aircraft approached a waypoint called IGARI, the invisible line where Malaysian airspace ends and Vietnam's begins. A standard handover point.",
+   "img": "malacca",
+   "stat": "WAYPOINT IGARI",
+   "cap": "Approaching the border with Vietnam."
+  },
+  {
+   "id": "a9",
+   "text": "At nineteen minutes past one in the morning, Kuala Lumpur radar passed the flight along.",
+   "video": "cockpitnight.mp4",
+   "videoFrom": 5,
+   "cap": "Kuala Lumpur hands the flight over."
+  },
+  {
+   "id": "a10",
+   "text": "Malaysian three seven zero, contact Ho Chi Minh one two zero decimal niner. Good night.",
+   "speaker": "LUMPUR RADAR",
+   "radioLabel": "ATC — RECREATION",
+   "timestamp": "01:19 MYT",
+   "cap": "\"Contact Ho Chi Minh. Good night.\""
+  },
+  {
+   "id": "a11",
+   "text": "Good night. Malaysian three seven zero.",
+   "speaker": "MH370",
+   "radioLabel": "ATC — RECREATION",
+   "timestamp": "01:19 MYT",
+   "cap": "The calm reply from the cockpit."
+  },
+  {
+   "id": "a12",
+   "text": "It was a perfectly normal sign-off. But Flight three seven zero never called Ho Chi Minh. It never checked in with Vietnam. It never called anyone, anywhere, again.",
+   "video": "earthnight.mp4",
+   "cap": "It never called Vietnam. Or anyone."
+  },
+  {
+   "id": "a13",
+   "text": "At one twenty-one, the transponder — the box that broadcasts the aircraft's identity, altitude and position to the whole aviation world — went dark. On every civilian screen from Malaysia to Vietnam, Flight three seven zero simply disappeared.",
+   "video": "arcvid_takeoff_1.mp4",
+   "statColor": "#FF4D4D",
+   "stat": "01:21 · TRANSPONDER OFF",
+   "cap": "The transponder goes dark."
+  },
+  {
+   "id": "a14",
+   "text": "For four hours, air traffic controllers in two countries would argue about whose airspace it was in, each assuming the other had it. By the time anyone raised the alarm, the aircraft had been missing, and unwatched, for most of the night.",
+   "img": "malacca",
+   "cap": "For hours, nobody realised it was gone."
+  },
+  {
+   "id": "c2t",
+   "text": "Chapter 2. The turn.",
+   "chapter": "CHAPTER 2\nThe Turn"
+  },
+  {
+   "id": "r1",
+   "text": "For hours, everyone believed M-H three seven zero had crashed into the South China Sea, somewhere on its planned route north. Ships and aircraft rushed to that stretch of water. They were searching the wrong ocean, on the wrong side of the country.",
+   "video": "arcvid_ship_1.mp4",
+   "cap": "The world searched the wrong sea."
+  },
+  {
+   "id": "r2",
+   "text": "Because the Malaysian military had been watching something the civilian world could not see. Military primary radar does not need a transponder. It bounces a signal off raw metal in the sky. And that night, it had recorded something that made no sense.",
+   "img": "malacca",
+   "cap": "Military radar sees raw metal."
+  },
+  {
+   "id": "r3",
+   "text": "Seconds after it vanished from civilian screens, Flight three seven zero turned. Not a slow drift. A hard, deliberate turn to the left, almost doubling back on itself, heading straight back across the Malay Peninsula it had just left.",
+   "img": "malacca",
+   "statColor": "#FF9500",
+   "stat": "THE TURN-BACK",
+   "cap": "A hard, deliberate turn back."
+  },
+  {
+   "id": "r4",
+   "text": "It flew back over the country. The radar tracked it passing close to the island of Penang. Then it turned again, up the Strait of Malacca, out towards the open Indian Ocean, away from every airport it could have reached.",
+   "video": "arcvid_ocean_3.mp4",
+   "cap": "Across the country, up the Strait of Malacca."
+  },
+  {
+   "id": "r5",
+   "text": "The military radar even suggested wild changes in altitude, climbs and descents of thousands of feet. Investigators later treated those altitude readings with caution, because primary radar is unreliable for height. But the path itself was clear, and chilling.",
+   "img": "malacca",
+   "videoFrom": 0,
+   "cap": "Wild altitude swings — but the path was clear."
+  },
+  {
+   "id": "r6",
+   "text": "Because this was not a plane drifting helplessly. The turns lined up with real navigation waypoints, the kind a pilot enters into a flight computer. Someone, in that cockpit, was flying a deliberate route. Away from land. Away from help.",
+   "video": "cockpitnight.mp4",
+   "videoFrom": 3,
+   "statColor": "#FF9500",
+   "stat": "FLOWN, NOT DRIFTED",
+   "cap": "A deliberate route — away from help."
+  },
+  {
+   "id": "r7",
+   "text": "A Malaysian military radar operator watched the unidentified blip cross the country in the middle of the night. No fighters were scrambled. In the confusion, an airliner flew across an entire nation's airspace, and no one stopped it.",
+   "img": "malacca",
+   "cap": "It crossed a nation. No one intervened."
+  },
+  {
+   "id": "r8",
+   "text": "At two twenty-two in the morning, a military radar station caught the aircraft one final time, roughly two hundred nautical miles north-west of Penang, out over the Andaman Sea. Then it flew beyond the reach of any radar on Earth.",
+   "img": "malacca",
+   "stat": "02:22 · LAST RADAR",
+   "cap": "02:22 — the last radar contact."
+  },
+  {
+   "id": "r9",
+   "text": "And there, for the world, the trail went cold. A Boeing triple-seven had turned itself around, crossed a country, and slipped off the last screen that could see it. Flying into the dark, towards nothing.",
+   "video": "earthnight.mp4",
+   "videoFrom": 8,
+   "cap": "Off the last screen. Flying into the dark."
+  },
+  {
+   "id": "c3t",
+   "text": "Chapter 3. The only witness left.",
+   "chapter": "CHAPTER 3\nThe Only Witness"
+  },
+  {
+   "id": "s1",
+   "text": "With the transponder off and the radar behind it, Flight three seven zero should have been truly invisible. Untrackable. Lost the instant it left the coast. In almost any other year, that would have been the end of the story.",
+   "video": "earthspace.mp4",
+   "cap": "It should have been untrackable."
+  },
+  {
+   "id": "s2",
+   "text": "But something nobody had planned for was still switched on. High above the Indian Ocean, a single British communications satellite, operated by a company called Inmarsat, was quietly connected to the aircraft.",
+   "img": "inmarsat",
+   "stat": "INMARSAT · 3F1",
+   "cap": "One satellite was quietly connected."
+  },
+  {
+   "id": "s3",
+   "text": "The aircraft's satellite terminal was still powered. And roughly once an hour, the ground station sent out an automatic electronic ping, a handshake, asking, in effect: are you still logged on? Each hour, in the dark, Flight three seven zero answered. Yes.",
+   "video": "earthaurora.mp4",
+   "cap": "Once an hour, a silent handshake. Yes."
+  },
+  {
+   "id": "s4",
+   "text": "These handshakes carried no GPS, no coordinates, no position at all. Just a machine confirming it was there. To almost anyone, they were meaningless. But Inmarsat's engineers realised the raw signals held a hidden fingerprint.",
+   "img": "inmarsat",
+   "videoFrom": 0,
+   "cap": "No coordinates. But a hidden fingerprint."
+  },
+  {
+   "id": "s5",
+   "text": "The time each ping took to travel to the aircraft and back gave its distance from the satellite. Plotted on a globe, each handshake became an arc. A vast curved line, thousands of kilometres long, that the aircraft had to be sitting somewhere along.",
+   "video": "earthspace2.mp4",
+   "stat": "THE HANDSHAKE ARCS",
+   "cap": "Each ping = a giant arc across the Earth."
+  },
+  {
+   "id": "s6",
+   "text": "There were seven of them. And the last, the seventh arc, is where this entire story would come to rest. But there was a problem. The arc curved both to the north and to the south. The aircraft could be on either half.",
+   "stat": "THE 7TH ARC",
+   "cap": "Seven arcs. But north, or south?",
+   "img": "arcmap"
+  },
+  {
+   "id": "s7",
+   "text": "North led back over land, over Asia, towards places with radar and people. South led into the empty bottom of the world. To choose between them, the engineers reached for something almost never used this way. A tiny shift in the frequency of each signal, caused by the satellite's own slight motion. The Doppler effect.",
+   "video": "earthspace.mp4",
+   "videoFrom": 6,
+   "cap": "The answer hid in the signal's frequency."
+  },
+  {
+   "id": "s8",
+   "text": "The pattern of those frequency shifts fit only one path. Not north, towards land and rescue. South. Straight into the emptiest, deepest, most remote stretch of ocean on the entire planet.",
+   "video": "arcvid_indian_2.mp4",
+   "statColor": "#FF4D4D",
+   "stat": "SOUTH · INDIAN OCEAN",
+   "cap": "The math pointed one way. South."
+  },
+  {
+   "id": "s9",
+   "text": "It was a staggering piece of detective work. Boeing, the American and British investigators, and Inmarsat had turned a communications satellite that was never designed to track anything into the only witness to a vanished airliner. It had never been done before.",
+   "img": "inmarsat",
+   "cap": "A comms satellite became the only witness."
+  },
+  {
+   "id": "s10",
+   "text": "But the same analysis delivered a devastating catch. An arc is not a dot. The relevant stretch of the seventh arc ran for well over a thousand kilometres, above water up to six thousand metres deep. It told them roughly where the aircraft had run out of sky. Not where it lay.",
+   "video": "arcvid_plane_1.mp4",
+   "videoFrom": 2,
+   "cap": "It knew the arc. Not the spot."
+  },
+  {
+   "id": "s11",
+   "text": "And there was one more clue, buried in the data, that still gives investigators chills. At two twenty-five in the morning, three minutes after it left radar, the satellite terminal did something strange. It logged back on. As if its power had been cut, and then deliberately restored.",
+   "video": "earthnight.mp4",
+   "videoFrom": 12,
+   "statColor": "#FF9500",
+   "stat": "02:25 · A REBOOT",
+   "cap": "The satellite unit rebooted. Why?"
+  },
+  {
+   "id": "s12",
+   "text": "Something on that aircraft turned a system off, and then, minutes later, back on. Machines do not do that on their own for no reason. It is one of the small, unexplained facts that make M-H three seven zero so hard to let go of.",
+   "video": "cockpitnight.mp4",
+   "videoFrom": 6,
+   "cap": "Machines don't do that on their own."
+  },
+  {
+   "id": "c4t",
+   "text": "Chapter 4. Seven hours into nowhere.",
+   "chapter": "CHAPTER 4\nSeven Hours"
+  },
+  {
+   "id": "g1",
+   "text": "Piece the timeline together and a chilling picture forms. After that last radar contact, the aircraft made a final major turn to the south, and then flew on. In a long, straight, steady line. Deep into the southern Indian Ocean. For nearly six more hours.",
+   "video": "earthnight.mp4",
+   "videoFrom": 20,
+   "cap": "It turned south — and flew straight for hours."
+  },
+  {
+   "id": "g2",
+   "text": "Six hours of a fully functioning aircraft, tracking steadily away from any coastline, any airport, any ship, any hope of rescue. And here the great debate of M-H three seven zero begins. Who, or what, was flying it?",
+   "video": "cockpitnight.mp4",
+   "videoFrom": 1,
+   "cap": "Six hours. But flown by whom?"
+  },
+  {
+   "id": "g3",
+   "text": "One possibility: no one was flying it at all. A cabin starved of oxygen. A slow decompression, or a fire that consumed the air, leaving everyone on board unconscious. The aircraft flying on autopilot like a ghost, carrying the sleeping and the dead, until its fuel ran dry.",
+   "video": "earthspace2.mp4",
+   "videoFrom": 8,
+   "cap": "A ghost flight? A sleeping cabin?"
+  },
+  {
+   "id": "g4",
+   "text": "The other possibility is darker. A conscious hand on the controls the entire way, holding a heading chosen for one purpose. To fly the aircraft to the one part of the ocean where it would be almost impossible to ever find.",
+   "video": "cockpitnight.mp4",
+   "videoFrom": 5,
+   "statColor": "#FF9500",
+   "stat": "GHOST — OR CONTROLLED?",
+   "cap": "Or a hand on the controls the whole way?"
+  },
+  {
+   "id": "g5",
+   "text": "The evidence cannot yet settle which it was. But it can tell us, almost to the minute, how it ended. At eight eleven that morning, the aircraft answered its seventh and second-to-last handshake, far out over the southern ocean.",
+   "video": "earthaurora.mp4",
+   "videoFrom": 3,
+   "cap": "08:11 — one of the final handshakes."
+  },
+  {
+   "id": "g6",
+   "text": "Then, silence where the eighth should have been. The engines had almost certainly flamed out, one after another, as the tanks finally emptied. The aircraft was gliding now, powerless, above the sea.",
+   "video": "earthnight.mp4",
+   "videoFrom": 25,
+   "cap": "The engines flamed out. It was gliding."
+  },
+  {
+   "id": "g7",
+   "text": "Eight minutes later, at eight nineteen, there was one last, partial signal. The kind a system sends when its power has just been restored, most likely by a backup generator kicking in as the aircraft descended. A dying machine, sending one final word.",
+   "video": "earthnight.mp4",
+   "videoFrom": 30,
+   "stat": "08:19 · FINAL SIGNAL",
+   "cap": "08:19 — a final, dying signal."
+  },
+  {
+   "id": "g8",
+   "text": "And the frequency of that very last transmission told investigators something terrible. The aircraft was descending. Fast. And getting faster. A rate of descent, in the final moments, far steeper than any normal flight.",
+   "video": "arcvid_indian_2.mp4",
+   "videoFrom": 4,
+   "statColor": "#FF4D4D",
+   "stat": "A STEEP, FAST DESCENT",
+   "cap": "Descending fast. And getting faster."
+  },
+  {
+   "id": "g9",
+   "text": "Then the seventh arc went quiet forever. Somewhere below it, in the dark, M-H three seven zero met the surface of one of the most violent oceans on Earth. And the sea closed over it.",
+   "video": "arcvid_ocean_3.mp4",
+   "videoFrom": 5,
+   "cap": "The arc went quiet. The sea closed over it."
+  },
+  {
+   "id": "c5t",
+   "text": "Chapter 5. The ocean gives back pieces.",
+   "chapter": "CHAPTER 5\nThe Ocean Answers"
+  },
+  {
+   "id": "d1",
+   "text": "For sixteen months, the ocean gave nothing back. Not a seat cushion. Not a life vest. Not a single confirmed fragment. The search moved to the deep seabed beneath the arc, and much of the world quietly began to believe M-H three seven zero would never be seen again.",
+   "video": "arcvid_ocean_3.mp4",
+   "videoFrom": 3,
+   "cap": "For 16 months, nothing washed ashore."
+  },
+  {
+   "id": "d2",
+   "text": "Then, in July 2015, more than three thousand kilometres from the search zone, a man cleaning a beach on the French island of Réunion, off the coast of Africa, waded into the surf. Tangled in the tide was a barnacle-covered slab of an aircraft wing.",
+   "video": "flaperonbeach.mp4",
+   "stat": "JULY 2015 · RÉUNION",
+   "cap": "A wing part, washed up on Réunion."
+  },
+  {
+   "id": "d3",
+   "text": "It was a flaperon. A control surface from the trailing edge of a wing. A part number, stamped into the metal, traced it beyond any doubt to a Boeing triple-seven. And only one triple-seven on the entire planet was unaccounted for.",
+   "statColor": "#FF9500",
+   "stat": "CONFIRMED · 9M-MRO",
+   "cap": "Confirmed: it was from MH370.",
+   "video": "flaperonbeach.mp4",
+   "videoFrom": 3
+  },
+  {
+   "id": "d4",
+   "text": "It was the first physical proof of what the satellite data had argued for a year. M-H three seven zero had come down in the Indian Ocean. And its wreckage had spent a year drifting, on the great ocean currents, all the way to Africa.",
+   "video": "arcvid_indian_2.mp4",
+   "videoFrom": 7,
+   "cap": "Physical proof. It ended in that ocean."
+  },
+  {
+   "id": "d5",
+   "text": "The barnacles told their own story. Marine biologists studied the species growing on the flaperon, and the chemistry of their shells, to estimate how long it had been at sea and the temperatures of the water it had drifted through. The ocean itself had kept a record.",
+   "img": "ocean",
+   "cap": "Even the barnacles kept a record."
+  },
+  {
+   "id": "d6",
+   "text": "And then more pieces came. In Mozambique. In South Africa. In Mauritius. In Tanzania. In Madagascar. A scattered trail of debris washing up along the entire western edge of the Indian Ocean, over the following two years.",
+   "img": "ocean",
+   "cap": "More debris — all across the western ocean."
+  },
+  {
+   "id": "d7",
+   "text": "Many were found not by officials, but by one man. An American named Blaine Gibson, who became obsessed with the mystery, travelled the beaches of Africa himself, and personally recovered piece after piece, handing them to investigators. An ordinary man, doing what governments could not.",
+   "video": "arcvid_ocean_3.mp4",
+   "videoFrom": 7,
+   "cap": "One man walked the beaches, and found them."
+  },
+  {
+   "id": "d8",
+   "text": "Oceanographers ran the currents backwards, modelling years of drift in reverse. The pieces were consistent with an origin near the seventh arc, in the southern Indian Ocean. Exactly where the satellite had said to look.",
+   "video": "arcvid_plane_1.mp4",
+   "videoFrom": 5,
+   "cap": "Drift models pointed back to the 7th arc."
+  },
+  {
+   "id": "d9",
+   "text": "Some of the debris was worse than sad. Investigators identified pieces from the cabin interior, from inside the aircraft. For interior panels to be torn out and scattered into the sea, the aircraft had almost certainly broken apart on impact. Violently.",
+   "cap": "Cabin pieces. The plane broke apart.",
+   "video": "arcvid_ocean_3.mp4",
+   "videoFrom": 2
+  },
+  {
+   "id": "d10",
+   "text": "And a study of a wing flap delivered the most unsettling technical clue of all. Investigators concluded it had not been extended for a landing. Nobody had set the aircraft up to touch down gently on the water.",
+   "img": "ocean",
+   "statColor": "#FF4D4D",
+   "stat": "FLAPS NOT EXTENDED",
+   "cap": "The flaps weren't set for a landing."
+  },
+  {
+   "id": "d11",
+   "text": "In plain terms: at the very end, no one was trying to save it. M-H three seven zero most likely hit the ocean fast, and steep, and hard. Which points away from a gentle, piloted ditching, and towards a high-speed dive into the sea.",
+   "video": "arcvid_ocean_3.mp4",
+   "videoFrom": 8,
+   "cap": "No one tried to land it gently."
+  },
+  {
+   "id": "c6t",
+   "text": "Chapter 6. Two hundred and thirty-nine.",
+   "chapter": "CHAPTER 6\n239 People"
+  },
+  {
+   "id": "p1",
+   "text": "It is easy, in a mystery this vast, to lose the number at the centre of it. Two hundred and thirty-nine people. Twelve crew, and two hundred and twenty-seven passengers, from fourteen countries.",
+   "video": "vigil.mp4",
+   "stat": "239 ABOARD",
+   "cap": "239 people. From 14 countries."
+  },
+  {
+   "id": "p2",
+   "text": "The largest group, by far, was Chinese. One hundred and fifty-three of them. There were also Malaysians, Indonesians, Australians, Indians, and citizens of nine other nations. A cross-section of the world, on an ordinary night flight.",
+   "img": "beijing",
+   "cap": "153 were Chinese nationals."
+  },
+  {
+   "id": "p3",
+   "text": "Among them were artists and engineers, a couple flying home to their two young children, workers returning from contracts abroad, and a stewardess who colleagues said was counting down to her wedding. Whole lives, and whole families, boarded that aircraft.",
+   "video": "vigil.mp4",
+   "videoFrom": 3,
+   "cap": "Whole lives boarded that plane."
+  },
+  {
+   "id": "p4",
+   "text": "Early on, one detail set off global alarm. Two passengers had boarded using stolen passports. One Austrian, one Italian, both reported missing in Thailand. For a few days, the world braced for terrorism.",
+   "img": "beijing",
+   "videoFrom": 0,
+   "statColor": "#FF9500",
+   "stat": "2 STOLEN PASSPORTS",
+   "cap": "Two passengers used stolen passports."
+  },
+  {
+   "id": "p5",
+   "text": "But investigators quickly identified them. Two young Iranian men. The evidence pointed not to a plot, but to migrants using false documents to try to reach a new life in Europe. No link to the disappearance was ever found. It was a heartbreaking coincidence, nothing more.",
+   "img": "beijing",
+   "cap": "Two Iranian asylum seekers. Not terrorism."
+  },
+  {
+   "id": "p6",
+   "text": "For the families, the horror took a specific, cruel shape. There was no crash site to visit. No remains to bury. No coffin to lower. Just a phone that stopped being answered, and an airline counter with no answers to give.",
+   "video": "vigil.mp4",
+   "videoFrom": 5,
+   "cap": "No crash site. No remains. No answers."
+  },
+  {
+   "id": "p7",
+   "text": "In Beijing, relatives gathered in a hotel and waited for news that never came. Some grew so desperate, and so angry at the lack of answers, that the grief spilled into protest. They had lost their families twice. Once to the ocean, and again to the silence.",
+   "video": "vigil.mp4",
+   "videoFrom": 1,
+   "cap": "In Beijing, grief turned to protest."
+  },
+  {
+   "id": "p8",
+   "text": "In 2015, with no wreckage found, Malaysia formally declared the disappearance an accident, and all aboard presumed lost. It was a legal necessity, so families could begin to claim compensation. To the relatives, it felt like being asked to bury people who had simply vanished.",
+   "video": "vigil.mp4",
+   "videoFrom": 6,
+   "cap": "Declared an accident. All presumed lost."
+  },
+  {
+   "id": "p9",
+   "text": "Twelve years later, many of those families are still waiting. Not for a body. For a fact. For someone to finally tell them, with certainty, what happened to the people they loved.",
+   "video": "vigil.mp4",
+   "videoFrom": 4,
+   "cap": "12 years on, still waiting for one fact."
+  },
+  {
+   "id": "c7t",
+   "text": "Chapter 7. The theories, weighed by evidence.",
+   "chapter": "CHAPTER 7\nThe Theories"
+  },
+  {
+   "id": "y1",
+   "text": "When the facts run out, theories rush in. M-H three seven zero has attracted more of them than almost any event in modern history. So let's do what the internet almost never does. Take the serious ones, one by one, and weigh them honestly against the evidence.",
+   "video": "cockpitnight.mp4",
+   "videoFrom": 2,
+   "cap": "Let's weigh the theories — honestly."
+  },
+  {
+   "id": "y2",
+   "text": "Theory one. A catastrophic accident. A fire, perhaps sparked by those lithium batteries in the hold, or a sudden loss of cabin pressure, that overwhelmed and disabled the crew. The aircraft then flew on as a ghost until the fuel ran out.",
+   "video": "b777night.mp4",
+   "videoFrom": 4,
+   "stat": "THEORY 1 · ACCIDENT",
+   "cap": "Theory 1: fire or decompression."
+  },
+  {
+   "id": "y3",
+   "text": "The case for it is simple. It needs no villain. A crippling emergency could explain the silence and the long, straight, final flight. The case against it is just as strong. It struggles to explain the careful turn-back, the navigation along real waypoints, and the transponder switching off at the one perfect blind spot between two countries.",
+   "video": "cockpitnight.mp4",
+   "videoFrom": 6,
+   "cap": "But a fire can't fly a precise turn-back."
+  },
+  {
+   "id": "y4",
+   "text": "A fire also tends to leave a trail. Frantic radio calls. Erratic, dying flight. What the radar showed instead was controlled, purposeful flying, for a long time after the aircraft went silent. That is very hard to square with a burning, crippled jet.",
+   "video": "arcvid_takeoff_1.mp4",
+   "videoFrom": 2,
+   "cap": "The flying was controlled, not dying."
+  },
+  {
+   "id": "y5",
+   "text": "Theory two. Hijacking, by someone other than the pilots. A takeover of the cockpit, a diversion, a plan that somehow went wrong out over the ocean. It cannot be completely ruled out.",
+   "video": "cockpitnight.mp4",
+   "videoFrom": 3,
+   "stat": "THEORY 2 · HIJACKING",
+   "cap": "Theory 2: a hijacking."
+  },
+  {
+   "id": "y6",
+   "text": "But the case against it is heavy. No group ever claimed responsibility. No demands were ever made. No ransom, no manifesto, no cause. And no trace of a struggle, or of any hijacker, has ever surfaced in the wreckage or the investigation. A hijacking with no hijacker, and no reason, is hard to sustain.",
+   "img": "beijing",
+   "cap": "No claim. No demand. No hijacker."
+  },
+  {
+   "id": "y7",
+   "text": "Theory three. And this is the one investigators keep circling back to. That the diversion was deliberate. Carried out by someone who understood that aircraft intimately, and who wanted it to disappear.",
+   "video": "cockpitnight.mp4",
+   "videoFrom": 4,
+   "statColor": "#FF9500",
+   "stat": "THEORY 3 · DELIBERATE",
+   "cap": "Theory 3: a deliberate diversion."
+  },
+  {
+   "id": "y8",
+   "text": "The case for it is deeply uncomfortable. The turn-back was flown, not drifted. The systems that made the aircraft visible went dark in a sequence that looks chosen. The satellite unit rebooted. And the plane was steered towards the most remote ocean on the planet, as if by someone who did not want it found.",
+   "img": "malacca",
+   "videoFrom": 0,
+   "cap": "Flown. Sequenced. Steered into the void."
+  },
+  {
+   "id": "y9",
+   "text": "And then there is the simulator. Investigators examined the flight simulator the captain kept at home. On its hard drive, they recovered fragments of a saved route. A path that ran out over the southern Indian Ocean, ending in the sea. Broadly, the direction the real aircraft went.",
+   "video": "cockpitnight.mp4",
+   "videoFrom": 5,
+   "cap": "His home simulator held a route south."
+  },
+  {
+   "id": "y10",
+   "text": "This is exactly where honesty matters most, because a real man's name is attached to it. That simulator held thousands of data points from years of use. The official investigation stated the recovered route could not be conclusively linked to the flight. It is a chilling coincidence. It is not, on its own, proof of what he did.",
+   "video": "cockpitnight.mp4",
+   "videoFrom": 5,
+   "statColor": "#FF4D4D",
+   "stat": "COINCIDENCE — NOT PROOF",
+   "cap": "A chilling coincidence — not proof."
+  },
+  {
+   "id": "y11",
+   "text": "Captain Zaharie was, by the accounts of those who knew him, an experienced and respected pilot. No official investigation has ever proven that he, or the first officer, or anyone else, deliberately downed this aircraft. To declare his guilt, about a man who cannot defend himself, would be to claim something the evidence does not support.",
+   "video": "vigil.mp4",
+   "videoFrom": 4,
+   "cap": "No one has ever been proven responsible."
+  },
+  {
+   "id": "y12",
+   "text": "And what about the wild theories? That it was shot down and covered up. That it was secretly landed at a military base like Diego Garcia. That it was stolen, or spirited away.",
+   "video": "earthnight.mp4",
+   "videoFrom": 35,
+   "stat": "THE WILD THEORIES",
+   "cap": "Shot down? Hidden? Stolen?"
+  },
+  {
+   "id": "y13",
+   "text": "The problem is the evidence. The Inmarsat handshakes and the debris drifting onto African beaches both point, independently, to the same lonely patch of the southern Indian Ocean. A landing at a secret base, or a cover-up, has to explain away real wreckage from the real aircraft, washed up by the real sea. None of them can.",
+   "img": "ocean",
+   "cap": "The debris and data kill the cover-ups."
+  },
+  {
+   "id": "y14",
+   "text": "So here is the honest verdict, the one the official investigation itself reached. Malaysia's final report, released in 2018, was blunt. It could not determine the cause. It could not rule out that the aircraft had been turned by a third party. And it could neither convict nor exonerate the men in that cockpit.",
+   "diagram": "quote",
+   "arg": "The team is unable to determine the real cause for the disappearance of MH370.||MALAYSIAN SAFETY INVESTIGATION REPORT · 2018",
+   "cap": "The official verdict: cause undetermined."
+  },
+  {
+   "id": "y15",
+   "text": "That is the truth of M-H three seven zero. Not that we have no idea what happened. The evidence leans, uncomfortably, in one direction. But the one thing no one has ever been able to do is prove it.",
+   "video": "earthnight.mp4",
+   "videoFrom": 40,
+   "cap": "We have a leaning. We cannot prove it."
+  },
+  {
+   "id": "c8t",
+   "text": "Chapter 8. The greatest search on Earth.",
+   "chapter": "CHAPTER 8\nThe Search"
+  },
+  {
+   "id": "k1",
+   "text": "Finding M-H three seven zero became an obsession, and an engineering campaign unlike anything ever attempted. The target: a strip of seabed the size of a country, up to six kilometres beneath the surface of one of the roughest oceans on the planet.",
+   "video": "arcvid_ship_1.mp4",
+   "videoFrom": 1,
+   "cap": "A target the size of a country, km deep."
+  },
+  {
+   "id": "k2",
+   "text": "First, they had to map a seafloor no human had ever seen. And what they found down there was a hidden world. A landscape of underwater mountains, sheer cliffs, and volcanoes, some taller than anything on dry land, buried in total, crushing darkness.",
+   "video": "arcvid_plane_1.mp4",
+   "videoFrom": 3,
+   "stat": "MAPPING THE ABYSS",
+   "cap": "An unmapped mountain range, in the dark."
+  },
+  {
+   "id": "k3",
+   "text": "Then they lowered their machines into it. Ships dragging sonar sleds on cables kilometres long. Autonomous submarines, flying just above the seabed for hours at a time, listening for the shape of wreckage in the black.",
+   "video": "searchship.mp4",
+   "cap": "Ships, sonar, and autonomous submarines."
+  },
+  {
+   "id": "k4",
+   "text": "The vessels had names that became familiar to the families. Fugro Equator. Discovery. GO Phoenix. They worked the Southern Ocean through brutal weather, in a search coordinated by Australia, on behalf of the world.",
+   "video": "arcvid_ship_1.mp4",
+   "videoFrom": 3,
+   "cap": "A global search, led from Australia."
+  },
+  {
+   "id": "k5",
+   "text": "That first great effort scanned around one hundred and twenty thousand square kilometres over nearly three years. It cost close to two hundred million dollars. And in early 2017, it was suspended. It had found shipwrecks, and a stunning map of the deep. It had not found the plane.",
+   "video": "arcvid_rov_2.mp4",
+   "statColor": "#FF9500",
+   "stat": "120,000 KM² · ~$200M",
+   "cap": "The first search: 3 years, nothing."
+  },
+  {
+   "id": "k6",
+   "text": "Scientists went back to the drift data. A study by Australian researchers refined the most likely resting place to a specific stretch of the arc, around thirty-five degrees south. An area that the first search had not fully covered. The plane, they argued, might have been just beyond the edge of where they had looked.",
+   "cap": "The drift pointed to a spot they'd missed.",
+   "img": "arcmap"
+  },
+  {
+   "id": "k7",
+   "text": "Then a private company entered the story. Ocean Infinity, a firm with a fleet of robotic submarines, made an extraordinary offer to Malaysia. They would search at their own expense. If they failed, Malaysia would owe them nothing. No find, no fee.",
+   "video": "arcvid_ship_1.mp4",
+   "videoFrom": 4,
+   "stat": "OCEAN INFINITY · NO FIND, NO FEE",
+   "cap": "A private firm: \"No find, no fee.\""
+  },
+  {
+   "id": "k8",
+   "text": "In 2018, they swept tens of thousands more square kilometres, faster than anyone had ever searched the deep ocean before. Their robots found centuries-old shipwrecks on the seabed. They did not find M-H three seven zero.",
+   "video": "arcvid_rov_1.mp4",
+   "cap": "2018: they found old shipwrecks. Not this."
+  },
+  {
+   "id": "k9",
+   "text": "For years after, the search went quiet. Amateur investigators kept working the data from their bedrooms, some proposing new locations using experimental radio techniques. None have been confirmed. The official hunt seemed to be over.",
+   "video": "arcvid_rov_2.mp4",
+   "videoFrom": 2,
+   "cap": "For years, only amateurs kept looking."
+  },
+  {
+   "id": "k10",
+   "text": "And then, in 2025, Ocean Infinity came back. Better technology, a refined target zone, and the same deal. Malaysia agreed to pay a reward of seventy million dollars, but only if they actually found it.",
+   "video": "searchship.mp4",
+   "videoFrom": 3,
+   "stat": "2025 · $70M REWARD",
+   "cap": "2025: they returned. $70M if they find it."
+  },
+  {
+   "id": "k11",
+   "text": "They searched through the southern summer, the only window when that ocean is calm enough to work. And on the twenty-third of January, 2026, they stopped again. After more than a hundred and forty thousand square kilometres, the result was the same word the world had heard for twelve years. Nothing.",
+   "video": "arcvid_rov_2.mp4",
+   "videoFrom": 2,
+   "statColor": "#FF4D4D",
+   "stat": "JAN 2026 · STILL NOTHING",
+   "cap": "Jan 2026: 140,000+ km². Still nothing."
+  },
+  {
+   "id": "k12",
+   "text": "A private company had spent its own money hunting the loneliest ocean on Earth, and come home empty. And yet, they refused to quit. In 2026, Malaysia extended the agreement, out to the middle of 2027, to search the ground that remains.",
+   "video": "arcvid_ship_1.mp4",
+   "videoFrom": 6,
+   "cap": "Extended to 2027. The hunt goes on."
+  },
+  {
+   "id": "k13",
+   "text": "So understand this. As you are watching, the search for M-H three seven zero is not history. It is happening. Right now, somewhere in the southern Indian Ocean, robotic submarines are still flying through the dark, listening for a plane that has hidden itself for over a decade.",
+   "video": "arcvid_rov_1.mp4",
+   "videoFrom": 3,
+   "cap": "Right now, the search continues."
+  },
+  {
+   "id": "c9t",
+   "text": "Chapter 9. What it changed. What it left behind.",
+   "chapter": "CHAPTER 9\nThe Legacy"
+  },
+  {
+   "id": "z1",
+   "text": "It seems impossible, in a world where a phone can be tracked across the planet in seconds, that a passenger jet could still simply vanish. M-H three seven zero exposed exactly how it happened. And it forced the world to make sure it could never happen the same way again.",
+   "video": "earthspace.mp4",
+   "videoFrom": 3,
+   "cap": "How could a plane still vanish?"
+  },
+  {
+   "id": "z2",
+   "text": "Because of this flight, the rules of global aviation changed. Airliners are now required to report their position far more often. And new aircraft must carry systems that track themselves automatically in a crisis. So that no airliner can ever again fly for seven silent hours, completely unseen.",
+   "video": "earthaurora.mp4",
+   "videoFrom": 4,
+   "stat": "GLOBAL TRACKING RULES",
+   "cap": "The rules that MH370 forced into being."
+  },
+  {
+   "id": "z3",
+   "text": "But rules are cold comfort to the families. For them, M-H three seven zero is not a case study, or a change to a regulation. It is a father who left for Beijing and never arrived. A daughter whose seat stayed empty. A question that twelve years, and hundreds of millions of dollars, have still not answered.",
+   "video": "vigil.mp4",
+   "videoFrom": 2,
+   "cap": "For the families, it's not a case. It's a person."
+  },
+  {
+   "id": "z4",
+   "text": "They formed groups. They pushed governments. They refused to let the world move on and forget. And because of them, the search has never been allowed to truly die.",
+   "video": "vigil.mp4",
+   "videoFrom": 3,
+   "cap": "The families refused to let it be forgotten."
+  },
+  {
+   "id": "z5",
+   "text": "M-H three seven zero remains the rarest thing in modern aviation. A disaster with no ending. A plane that took two hundred and thirty-nine people and, so far, has kept them.",
+   "video": "earthnight.mp4",
+   "videoFrom": 45,
+   "statColor": "#FF4D4D",
+   "stat": "239 · STILL MISSING",
+   "cap": "A disaster with no ending."
+  },
+  {
+   "id": "z6",
+   "text": "The ocean still holds the answer. And every day, in the dark, machines are still out there, listening for it. One day, a robot flying over a ridge four kilometres down may light up a shape that has waited over a decade to be found. Until then, the story stays open.",
+   "video": "arcvid_rov_1.mp4",
+   "videoFrom": 4,
+   "cap": "The ocean still holds the answer."
+  },
+  {
+   "id": "z7",
+   "text": "M-H three seven zero is the plane we could not find. But even the crashes we do find can hide answers just as disturbing. Air France four four seven fell for three and a half minutes into the Atlantic, with its pilots awake the entire way down. And what its recorders revealed will stay with you.",
+   "video": "flaperonbeach.mp4",
+   "videoFrom": 4,
+   "cap": "Next: the plane we DID find — AF447."
+  },
+  {
+   "id": "z8",
+   "text": "That breakdown is on the channel now. And if unsolved mysteries like this one grip you, subscribe to Black Box. We take the biggest catastrophes in history apart, piece by piece, to find the truth hiding in the details. Because the truth is always in the details.",
+   "video": "earthnight.mp4",
+   "videoFrom": 50,
+   "cap": "Subscribe to Black Box."
+  }
+ ]
+}
