@@ -1,0 +1,932 @@
+1
+00:00:00,333 --> 00:00:05,010
+Spaceflight has killed 21 people. It came within seconds of killing 32 more.
+
+2
+00:00:05,010 --> 00:00:08,248
+And every single one of them made it home.
+
+3
+00:00:09,366 --> 00:00:14,002
+An astronaut who watched flaming chunks of his own ship fly past the window.
+
+4
+00:00:14,002 --> 00:00:18,307
+A commander who decided he would spend his final seconds insulting mission control.
+
+5
+00:00:18,307 --> 00:00:20,625
+A man who nearly drowned. In space.
+
+6
+00:00:21,766 --> 00:00:24,014
+These are not the disasters you know.
+
+7
+00:00:24,014 --> 00:00:31,719
+These are the twelve missions that should have been disasters — and the seconds, the switches, and the bent metal pins that decided otherwise.
+
+8
+00:00:32,866 --> 00:00:34,200
+Twelve stories. In order.
+
+9
+00:00:34,200 --> 00:00:38,537
+Each one closer to death than the last time you held your breath.
+
+10
+00:00:38,537 --> 00:00:41,539
+This is every astronaut who almost died in space.
+
+11
+00:00:42,666 --> 00:00:45,748
+Every astronaut who almost died in space.
+
+12
+00:00:46,866 --> 00:00:49,295
+1962. The fireball.
+
+13
+00:00:50,433 --> 00:00:55,557
+February 20th, 1962. John Glenn becomes the first American to orbit the Earth.
+
+14
+00:00:55,557 --> 00:00:59,892
+Three orbits, four hours and fifty-five minutes. That was the plan.
+
+15
+00:00:59,892 --> 00:01:03,834
+Then a single telemetry channel on the ground lit up.
+
+16
+00:01:04,966 --> 00:01:09,933
+Segment 51. A signal saying Glenn's heat shield was no longer locked in place.
+
+17
+00:01:09,933 --> 00:01:15,964
+If that was true, the only thing between him and 3,000 degrees of reentry plasma was loose.
+
+18
+00:01:17,100 --> 00:01:20,900
+Mission control never told him directly. They just started asking strange questions.
+
+19
+00:01:20,900 --> 00:01:25,018
+Is the landing bag switch off? Leave the retro pack on through reentry.
+
+20
+00:01:25,018 --> 00:01:29,769
+Glenn was a test pilot. He did the math on what they were not saying.
+
+21
+00:01:30,900 --> 00:01:35,649
+The straps of the retro pack would hold a loose shield in place. That was the theory.
+
+22
+00:01:35,649 --> 00:01:42,635
+During reentry, Glenn watched flaming chunks stream past his window — and had no way to know if it was the retro pack burning away.
+
+23
+00:01:42,635 --> 00:01:46,547
+Or his heat shield. He said, quote, I think the pack just let go.
+
+24
+00:01:47,666 --> 00:01:50,442
+Four minutes and twenty seconds of radio blackout.
+
+25
+00:01:50,442 --> 00:01:53,565
+Then Glenn's voice: that was a real fireball, boy.
+
+26
+00:01:53,565 --> 00:01:59,116
+The signal had been false all along — a loose switch stem on the ground equipment.
+
+27
+00:01:59,116 --> 00:02:03,627
+The shield was never loose. The terror was real. The danger never was.
+
+28
+00:02:04,766 --> 00:02:07,770
+1965. The man outside.
+
+29
+00:02:08,900 --> 00:02:10,009
+March 18th, 1965.
+
+30
+00:02:10,009 --> 00:02:16,298
+Alexei Leonov floats out of an airlock and becomes the first human being to walk in space.
+
+31
+00:02:16,298 --> 00:02:20,368
+Twelve minutes of history. Then he tried to come back inside.
+
+32
+00:02:21,500 --> 00:02:23,175
+In vacuum, his suit had ballooned.
+
+33
+00:02:23,175 --> 00:02:28,200
+It stiffened and swelled until his fingers pulled out of his gloves and his feet left his boots.
+
+34
+00:02:28,200 --> 00:02:31,271
+He could not bend enough to fit back through the airlock.
+
+35
+00:02:31,271 --> 00:02:34,901
+He was locked out of the only shelter within 200 kilometres straight down.
+
+36
+00:02:36,033 --> 00:02:38,258
+So Leonov did the only thing left.
+
+37
+00:02:38,258 --> 00:02:48,428
+He opened a valve and bled his own suit pressure down — from around 0.4 atmospheres toward 0.27 — trading the risk of the bends for a suit soft enough to bend.
+
+38
+00:02:48,428 --> 00:02:53,195
+His core temperature spiked. He later said sweat sloshed inside the suit to his knees.
+
+39
+00:02:54,333 --> 00:02:59,934
+He squeezed in head-first, against procedure, and got stuck sideways turning around to close the hatch.
+
+40
+00:02:59,934 --> 00:03:04,484
+On live radio, the Soviet feed quietly went silent. He made it in.
+
+41
+00:03:04,484 --> 00:03:08,335
+And Voskhod 2 was not done trying to kill its crew.
+
+42
+00:03:09,466 --> 00:03:11,434
+The automatic reentry system failed.
+
+43
+00:03:11,434 --> 00:03:24,817
+Commander Pavel Belyayev flew the retrofire by hand — the first manual reentry in Soviet history — and a 46 second delay getting back into their seats pushed the landing 386 kilometres off target.
+
+44
+00:03:24,817 --> 00:03:26,785
+Into the taiga. In March.
+
+45
+00:03:27,933 --> 00:03:37,762
+Two cosmonauts spent two nights in a forest at minus 30 degrees Celsius, in a capsule with a blown hatch, with a pistol between them because the taiga has bears and wolves in mating season.
+
+46
+00:03:37,762 --> 00:03:39,447
+The rescue team arrived on skis.
+
+47
+00:03:39,447 --> 00:03:43,659
+The first men to walk in space had to ski nine kilometres to go home.
+
+48
+00:03:44,800 --> 00:03:48,117
+1966. One revolution per second.
+
+49
+00:03:49,266 --> 00:03:51,122
+March 16th, 1966. Gemini 8.
+
+50
+00:03:51,122 --> 00:03:57,062
+Neil Armstrong and David Scott have just performed the first docking of two spacecraft in history.
+
+51
+00:03:57,062 --> 00:04:03,372
+Twenty-seven minutes later, out of contact with the ground, the stack begins to roll on its own.
+
+52
+00:04:04,500 --> 00:04:08,667
+They undocked from the Agena, assuming the fault was on the target vehicle.
+
+53
+00:04:08,667 --> 00:04:10,591
+It was the worst possible move.
+
+54
+00:04:10,591 --> 00:04:18,605
+The problem was their own thruster — number 8, stuck firing — and without the Agena's mass, the little Gemini spun up like a flywheel.
+
+55
+00:04:19,733 --> 00:04:23,339
+296 degrees per second. Nearly a full revolution every second.
+
+56
+00:04:23,339 --> 00:04:26,945
+Their vision blurred and began to gray at the edges.
+
+57
+00:04:26,945 --> 00:04:32,715
+Armstrong later said they were approaching the point where they could no longer read the instruments.
+
+58
+00:04:32,715 --> 00:04:36,321
+After that comes blackout. After blackout, nobody flies the ship.
+
+59
+00:04:37,466 --> 00:04:42,631
+Scott radioed a tracking ship: we have serious problems here. We're tumbling end over end.
+
+60
+00:04:42,631 --> 00:04:48,141
+And Armstrong, half blind, reached above his head and found the reentry control switches by feel.
+
+61
+00:04:48,141 --> 00:04:52,617
+The landing thrusters. The ones you are never supposed to touch in orbit.
+
+62
+00:04:53,766 --> 00:04:59,435
+It worked. But the rule was absolute: touch the reentry system, and the mission ends now.
+
+63
+00:04:59,435 --> 00:05:10,772
+Ten hours after launch, a three-day mission splashed down in the Pacific, 800 kilometres east of Okinawa, and two seasick astronauts bobbed in the swells for three hours waiting for a destroyer.
+
+64
+00:05:11,899 --> 00:05:15,142
+Post-flight analysis found an electrical short. A single wire.
+
+65
+00:05:15,142 --> 00:05:22,348
+Three years later, the man who out-flew it by feel, seconds from blackout, was the first human on the Moon.
+
+66
+00:05:23,466 --> 00:05:27,437
+1969. Struck by lightning. Twice.
+
+67
+00:05:28,566 --> 00:05:32,695
+November 14th, 1969. Apollo 12 lifts off into rain clouds.
+
+68
+00:05:32,695 --> 00:05:43,429
+At 36 and a half seconds, the entire vehicle — the largest rocket ever flown, trailing a plume of ionized exhaust — becomes a lightning rod.
+
+69
+00:05:43,429 --> 00:05:45,493
+And the sky uses it.
+
+70
+00:05:46,633 --> 00:05:52,074
+Every warning light on the panel lit at once. All three fuel cells dropped offline.
+
+71
+00:05:52,074 --> 00:05:56,790
+The guidance platform tumbled. Pete Conrad radioed: we just lost the platform, gang.
+
+72
+00:05:56,790 --> 00:05:59,692
+We had everything in the world drop out.
+
+73
+00:05:59,692 --> 00:06:02,594
+Sixteen seconds later, the lightning hit them again.
+
+74
+00:06:03,733 --> 00:06:07,354
+In mission control, the telemetry screens turned to static garbage.
+
+75
+00:06:07,354 --> 00:06:10,250
+Nobody knew what was happening inside the spacecraft.
+
+76
+00:06:10,250 --> 00:06:19,302
+Nobody — except a 26-year-old controller named John Aaron, who had seen this exact garbage pattern once before, in an obscure test a year earlier.
+
+77
+00:06:20,433 --> 00:06:26,696
+Flight, Eecom. Try S C E to auxiliary. The flight director had to ask him to repeat it.
+
+78
+00:06:26,696 --> 00:06:32,263
+The capcom asked what it even was. In the capsule, Conrad didn't know the switch existed.
+
+79
+00:06:32,263 --> 00:06:37,831
+Alan Bean found it, flipped it — and every screen in Houston came back to life.
+
+80
+00:06:38,966 --> 00:06:41,145
+Here is the part they kept quiet.
+
+81
+00:06:41,145 --> 00:06:44,569
+The lightning may have damaged the pyrotechnics that fire the parachutes.
+
+82
+00:06:44,569 --> 00:06:48,615
+There was no way to check from orbit, and nothing anyone could do.
+
+83
+00:06:48,615 --> 00:06:57,330
+So mission control said nothing — and let three men fly to the Moon, land on it, and fly home, possibly toward a 300-mile-per-hour impact with the ocean.
+
+84
+00:06:58,466 --> 00:07:00,927
+On November 24th, all three parachutes opened.
+
+85
+00:07:00,927 --> 00:07:06,904
+Conrad's verdict on the whole affair: I think we need to do a little more all-weather testing.
+
+86
+00:07:08,033 --> 00:07:10,541
+1970. The explosion.
+
+87
+00:07:11,666 --> 00:07:15,818
+You know Apollo 13. You know the explosion, 320,000 kilometres from Earth.
+
+88
+00:07:15,818 --> 00:07:30,004
+What you may not know is that the bomb was installed before launch — an oxygen tank dropped five centimetres in 1968, then cooked in a ground test until the safety switches welded themselves shut and the wiring insulation burned away.
+
+89
+00:07:30,004 --> 00:07:31,388
+It flew like that.
+
+90
+00:07:32,533 --> 00:07:37,344
+Jack Swigert said it first: Okay Houston, we've had a problem here. Not we have.
+
+91
+00:07:37,344 --> 00:07:42,797
+We've had. The side of the service module was already gone. Two of three fuel cells dead.
+
+92
+00:07:42,797 --> 00:07:46,326
+Oxygen venting into space as a visible cloud around the ship.
+
+93
+00:07:47,466 --> 00:07:55,327
+Three men moved into a lunar lander built to keep two men alive for two days — and asked it to keep three alive for four.
+
+94
+00:07:55,327 --> 00:07:57,443
+The temperature fell to 3 degrees Celsius.
+
+95
+00:07:57,443 --> 00:08:01,676
+Water was rationed to about 200 millilitres a day. Condensation ran down the walls.
+
+96
+00:08:01,676 --> 00:08:05,908
+Fred Haise developed a fever from an infection his dehydrated body could not fight.
+
+97
+00:08:07,033 --> 00:08:09,688
+Their own exhaled breath began to poison them.
+
+98
+00:08:09,688 --> 00:08:16,324
+Carbon dioxide climbed toward the alarm line, and the lander's round filters could not take the command module's square cartridges.
+
+99
+00:08:16,324 --> 00:08:28,271
+The fix that saved three lives was built from a flight-plan cover, plastic bags, a hose from a suit, and duct tape — designed on a table in Houston, read up by radio, line by line.
+
+100
+00:08:29,400 --> 00:08:41,265
+With the guidance computer powered down, they aimed a 14 second engine burn by eye — Lovell holding the Earth's day-night line in the window crosshairs, Haise handling roll, Swigert counting the seconds on his wristwatch.
+
+101
+00:08:41,265 --> 00:08:44,891
+A hand-flown course correction on the way home from the Moon.
+
+102
+00:08:46,033 --> 00:08:50,182
+Reentry blackout was supposed to last four minutes. It lasted almost six.
+
+103
+00:08:50,182 --> 00:09:03,666
+For 87 extra seconds, mission control sat in silence, knowing the heat shield lived inches from the tank that exploded — genuinely unsure whether they were waiting for a spacecraft or listening for three men who were already gone.
+
+104
+00:09:04,800 --> 00:09:12,457
+Then three parachutes on the screens of Houston, and one of the most accurate splashdowns of the entire Apollo program.
+
+105
+00:09:12,457 --> 00:09:17,435
+The cold had degraded one parachute pyro and a battery. Everything fired anyway.
+
+106
+00:09:17,435 --> 00:09:19,350
+Barely counts as luck. Barely.
+
+107
+00:09:20,466 --> 00:09:23,783
+1975. Twenty-one g.
+
+108
+00:09:24,933 --> 00:09:26,010
+April 5th, 1975.
+
+109
+00:09:26,010 --> 00:09:36,786
+Vasily Lazarev and Oleg Makarov are riding a Soyuz toward the Salyut 4 station when the staging fails — the third stage lights while still bolted to the stage below.
+
+110
+00:09:36,786 --> 00:09:40,377
+The rocket pitches off course at the edge of space.
+
+111
+00:09:40,377 --> 00:09:43,610
+The abort system fires at roughly 150 kilometres up.
+
+112
+00:09:44,733 --> 00:09:48,779
+What followed was the steepest ride home in the history of spaceflight.
+
+113
+00:09:48,779 --> 00:09:54,848
+The capsule fell into a ballistic dive and the deceleration climbed past anything the vehicle was designed for.
+
+114
+00:09:54,848 --> 00:09:56,871
+Twenty-one times the force of gravity.
+
+115
+00:09:56,871 --> 00:10:00,917
+Their vision drained to black and white, then closed to a tunnel.
+
+116
+00:10:00,917 --> 00:10:02,940
+Lazarev said breathing became nearly impossible.
+
+117
+00:10:04,066 --> 00:10:08,852
+They came down on a snow-covered mountainside in the Altai — and started rolling.
+
+118
+00:10:08,852 --> 00:10:09,194
+Downhill.
+
+119
+00:10:09,194 --> 00:10:13,980
+The parachute snagged on vegetation and held, arresting the capsule short of a drop.
+
+120
+00:10:13,980 --> 00:10:17,057
+The two men inside had just survived 21 g.
+
+121
+00:10:17,057 --> 00:10:19,792
+The mountain almost finished what the rocket started.
+
+122
+00:10:20,933 --> 00:10:29,131
+Convinced they might have crossed into China — a hostile border in 1975 — Lazarev burned classified documents in the snow.
+
+123
+00:10:29,131 --> 00:10:32,645
+They were actually hundreds of kilometres inside Soviet territory.
+
+124
+00:10:32,645 --> 00:10:35,377
+They spent the night on the mountain.
+
+125
+00:10:35,377 --> 00:10:38,891
+Lazarev's injuries from the g-load ended his flying career.
+
+126
+00:10:38,891 --> 00:10:42,014
+The Soviet Union acknowledged only an unnamed anomaly.
+
+127
+00:10:43,133 --> 00:10:46,842
+1983. The only pad abort in history.
+
+128
+00:10:47,966 --> 00:10:49,103
+September 26th, 1983.
+
+129
+00:10:49,103 --> 00:11:01,981
+Vladimir Titov and Gennady Strekalov are strapped on top of a fully fueled Soyuz at Baikonur, 90 seconds from launch, when a valve fails and kerosene begins pouring across the base of the rocket.
+
+130
+00:11:01,981 --> 00:11:06,905
+It ignites. The rocket is on fire. And the crew has no idea.
+
+131
+00:11:08,033 --> 00:11:12,120
+Their portholes faced away from the flames. They felt vibrations, nothing more.
+
+132
+00:11:12,120 --> 00:11:18,251
+And the abort could not fire — because the fire had already burned through the abort control cables.
+
+133
+00:11:18,251 --> 00:11:25,744
+The escape command had to travel by radio, from two operators, in two separate rooms, transmitting within five seconds of each other.
+
+134
+00:11:26,866 --> 00:11:33,579
+For roughly ten seconds, two human beings sat on 300 tonnes of burning propellant while ground crews raced the fire.
+
+135
+00:11:33,579 --> 00:11:38,278
+Then the escape tower fired: 14 to 17 g, straight up, for five seconds.
+
+136
+00:11:38,278 --> 00:11:44,655
+Six seconds after they left, the rocket collapsed into a fireball that burned on the pad for 20 hours.
+
+137
+00:11:45,800 --> 00:11:47,675
+The capsule landed four kilometres away.
+
+138
+00:11:47,675 --> 00:11:52,676
+The crew recorder caught them swearing the entire way up — Titov admitted that much himself.
+
+139
+00:11:52,676 --> 00:11:57,365
+On the ground, shaken and bruised, the two men asked the rescue crews for cigarettes.
+
+140
+00:11:57,365 --> 00:11:58,927
+Then someone handed them vodka.
+
+141
+00:11:58,927 --> 00:12:03,929
+It remains the only time in history a crew has escaped a rocket on the pad.
+
+142
+00:12:05,066 --> 00:12:07,495
+1988. We are going to die.
+
+143
+00:12:08,633 --> 00:12:10,367
+December 2nd, 1988. Atlantis.
+
+144
+00:12:10,367 --> 00:12:17,303
+The second flight after Challenger, and a mission so classified its cargo is still officially unconfirmed.
+
+145
+00:12:17,303 --> 00:12:24,672
+Eighty-five seconds up, insulation from a booster nose cap breaks free and sandblasts the orbiter's right side.
+
+146
+00:12:25,800 --> 00:12:31,394
+In orbit, commander Hoot Gibson steered the robot arm's camera under the belly and went quiet.
+
+147
+00:12:31,394 --> 00:12:35,591
+Seven hundred and seven damage sites. Whole gouges through the heat tiles.
+
+148
+00:12:35,591 --> 00:12:41,186
+One tile missing entirely. Gibson looked at the image and thought: we are going to die.
+
+149
+00:12:42,333 --> 00:12:47,482
+Because the mission was classified, the video went to Houston encrypted, in degraded slow-scan frames.
+
+150
+00:12:47,482 --> 00:12:51,944
+Engineers looked at the mush and called the damage lights and shadows. Acceptable.
+
+151
+00:12:51,944 --> 00:12:57,093
+The crew, looking at the real thing out the window, was told it was fine.
+
+152
+00:12:57,093 --> 00:13:01,899
+There was no rescue option. There was no repair kit. There was only reentry.
+
+153
+00:13:03,033 --> 00:13:06,381
+Gibson told his crew there was no use dying all tensed up.
+
+154
+00:13:06,381 --> 00:13:15,310
+And he made himself a private promise: if the wing began to burn through, in his last seconds, he was going to tell mission control exactly what he thought of their analysis.
+
+155
+00:13:16,433 --> 00:13:21,584
+Atlantis came home with the worst tile damage of any shuttle that ever landed.
+
+156
+00:13:21,584 --> 00:13:32,621
+The missing tile — the one gap that mattered — happened to sit over a thick metal antenna mounting plate, which took the heat and half-melted instead of the airframe.
+
+157
+00:13:32,621 --> 00:13:39,612
+Fifteen years later, the same institutional blindness — damage dismissed from degraded imagery — killed the crew of Columbia.
+
+158
+00:13:39,612 --> 00:13:42,555
+In 1988, one metal plate held the line.
+
+159
+00:13:43,700 --> 00:13:46,129
+1997. Fire on Mir.
+
+160
+00:13:47,266 --> 00:13:48,505
+February 23rd, 1997.
+
+161
+00:13:48,505 --> 00:13:56,351
+The station Mir is overcrowded — six people aboard during a crew handover, and only two three-seat Soyuz lifeboats.
+
+162
+00:13:56,351 --> 00:14:01,307
+To make enough air for six, the crew burns solid-fuel oxygen canisters.
+
+163
+00:14:01,307 --> 00:14:06,675
+Aleksandr Lazutkin ignites one in the Kvant module. It does not burn normally.
+
+164
+00:14:07,800 --> 00:14:17,825
+A blowtorch flame nearly a metre long erupts from the canister, spraying sparks and droplets of molten metal at the opposite wall — the wall between the crew and vacuum.
+
+165
+00:14:17,825 --> 00:14:20,164
+Smoke fills the entire station in seconds.
+
+166
+00:14:20,164 --> 00:14:25,511
+Jerry Linenger, NASA's doctor aboard, said he could not see his own fingers at arm's length.
+
+167
+00:14:26,633 --> 00:14:32,102
+Linenger grabbed a respirator, pulled it on, inhaled — and the mask collapsed against his face.
+
+168
+00:14:32,102 --> 00:14:35,520
+Empty. A dead unit, in a station full of smoke.
+
+169
+00:14:35,520 --> 00:14:38,596
+He found a second one before he lost consciousness.
+
+170
+00:14:38,596 --> 00:14:45,774
+And here is the geometry that mattered: the fire sat directly across the passage to one of the two escape craft.
+
+171
+00:14:45,774 --> 00:14:50,901
+If the order came to abandon Mir, three of the six had no way home.
+
+172
+00:14:52,033 --> 00:14:55,706
+You cannot smother a fire that manufactures its own oxygen.
+
+173
+00:14:55,706 --> 00:15:04,154
+Commander Valery Korzun sprayed foam while Linenger physically braced him against the recoil, and the crew waited for the canister to exhaust itself.
+
+174
+00:15:04,154 --> 00:15:08,562
+Then the argument started. Moscow's official report: the fire lasted 90 seconds.
+
+175
+00:15:08,562 --> 00:15:15,909
+Linenger, the American who fought it, timed it at 14 minutes — and says he was told to keep quiet.
+
+176
+00:15:17,033 --> 00:15:20,394
+No one died. No one was even seriously hurt.
+
+177
+00:15:20,394 --> 00:15:28,237
+And four months later, the same station, with some of the same crew, would come within minutes of killing everyone aboard.
+
+178
+00:15:28,237 --> 00:15:30,852
+Because 1997 on Mir was not done.
+
+179
+00:15:32,000 --> 00:15:34,586
+1997. The collision.
+
+180
+00:15:35,733 --> 00:15:36,800
+June 25th, 1997.
+
+181
+00:15:36,800 --> 00:15:47,472
+To save money, Moscow wants to prove it can dock a Progress cargo ship without the expensive automatic radar — so the test is flown with the radar switched off.
+
+182
+00:15:47,472 --> 00:15:59,922
+Commander Vasily Tsibliyev is hand-flying seven tonnes of spacecraft by joystick, watching a TV screen, with no range data, no speed data, and a laser rangefinder that can't find the target against the Earth below.
+
+183
+00:16:01,066 --> 00:16:07,701
+By the time the crew sees the Progress clearly, it is too close, too fast, and it does not stop.
+
+184
+00:16:07,701 --> 00:16:12,678
+It clips a solar array and slams into the Spektr module at roughly walking pace.
+
+185
+00:16:12,678 --> 00:16:17,654
+Seven tonnes at walking pace is enough. The hull cracks. And the crew's ears pop.
+
+186
+00:16:18,800 --> 00:16:24,452
+That pressure drop in their ears was the station bleeding air into space, with a hiss they could hear.
+
+187
+00:16:24,452 --> 00:16:28,023
+The crew did the arithmetic: under half an hour of breathable margin.
+
+188
+00:16:28,023 --> 00:16:36,354
+And they could not seal the leaking module — because 18 power and data cables ran through the open hatchway, and the hatch could not close across them.
+
+189
+00:16:37,500 --> 00:16:44,296
+So Lazutkin and Michael Foale ripped them out one by one — and cut the last two with a knife — while the hiss continued.
+
+190
+00:16:44,296 --> 00:16:50,822
+They wrestled a hatch cover into the opening with minutes of margin left, and the escaping pressure sucked it shut and held it there.
+
+191
+00:16:51,966 --> 00:17:02,111
+Sealing Spektr cost them its solar power, and the impact had set the whole station tumbling — arrays off the sun, systems dying, Mir going dark and silent.
+
+192
+00:17:02,111 --> 00:17:13,704
+Foale then estimated the station's spin by holding his thumb against a window and timing the stars drifting past it, and radioed the numbers so the Soyuz thrusters could stop the tumble.
+
+193
+00:17:13,704 --> 00:17:16,965
+Celestial navigation, by thumb, to save a space station.
+
+194
+00:17:18,100 --> 00:17:21,261
+2013. Drowning in a spacesuit.
+
+195
+00:17:22,400 --> 00:17:23,539
+July 16th, 2013.
+
+196
+00:17:23,539 --> 00:17:32,277
+Luca Parmitano is 44 minutes into a spacewalk outside the International Space Station when he feels water on the back of his head.
+
+197
+00:17:32,277 --> 00:17:37,976
+Inside a sealed helmet, in vacuum, there is exactly one direction water can go: nowhere.
+
+198
+00:17:37,976 --> 00:17:39,876
+It clings, and it crawls.
+
+199
+00:17:41,000 --> 00:17:45,248
+A clogged filter is quietly pumping his suit's cooling water into his air vent.
+
+200
+00:17:45,248 --> 00:17:51,620
+In zero gravity the blob wraps his head like a living thing — over his ears, so the radio goes muffled.
+
+201
+00:17:51,620 --> 00:17:52,834
+Then over his eyes.
+
+202
+00:17:52,834 --> 00:17:58,296
+A week earlier, drops of water in the same suit had been dismissed as a leaking drink bag.
+
+203
+00:17:58,296 --> 00:17:59,207
+Nobody had investigated.
+
+204
+00:18:00,333 --> 00:18:01,711
+Houston aborts the spacewalk.
+
+205
+00:18:01,711 --> 00:18:06,877
+As Parmitano turns back, the station crosses into orbital night and the sun goes out.
+
+206
+00:18:06,877 --> 00:18:18,932
+He is now blind, half deaf, water creeping toward his nose — calculating, by his own account, whether he could open his helmet's purge valve and survive the escaping air if he started to drown.
+
+207
+00:18:20,066 --> 00:18:28,110
+He navigated back by memory and by the feel of his safety tether reeling in — hand over hand along a station he could not see.
+
+208
+00:18:28,110 --> 00:18:32,751
+Chris Cassidy followed him in; the crew tore his helmet off the moment pressure allowed.
+
+209
+00:18:32,751 --> 00:18:36,154
+A litre and a half of water came out with it.
+
+210
+00:18:36,154 --> 00:18:39,867
+NASA's own report used the words: a condition that was life threatening.
+
+211
+00:18:41,000 --> 00:18:48,158
+Every spacesuit that has gone outside since carries an absorbent pad behind the head and a snorkel running down to the chest.
+
+212
+00:18:48,158 --> 00:18:52,389
+Because one man nearly became the first human being to drown in space.
+
+213
+00:18:53,533 --> 00:18:55,806
+2018. A short flight.
+
+214
+00:18:56,933 --> 00:19:01,319
+October 11th, 2018. Nick Hague's first launch. Alexey Ovchinin's second.
+
+215
+00:19:01,319 --> 00:19:09,213
+Two minutes up, a strap-on booster fails to separate cleanly, swings back, and strikes the rocket's core stage.
+
+216
+00:19:09,213 --> 00:19:13,599
+Fifty kilometres above Kazakhstan, the vehicle begins to break apart.
+
+217
+00:19:14,733 --> 00:19:18,664
+The abort system fires and rips the capsule free.
+
+218
+00:19:18,664 --> 00:19:24,779
+Inside: violent side-to-side shaking, the master alarm, and sudden weightlessness where thrust should be.
+
+219
+00:19:24,779 --> 00:19:30,457
+Ovchinin's entire commentary to the ground, flat calm: an accident with the booster.
+
+220
+00:19:30,457 --> 00:19:33,515
+And then: that was a short flight.
+
+221
+00:19:34,633 --> 00:19:44,484
+They fell back to Earth on a ballistic arc, pulling nearly 7 g, and landed 400 kilometres from the pad — 19 minutes and 41 seconds after liftoff.
+
+222
+00:19:44,484 --> 00:19:47,299
+Rescue crews found them upright, bruised, and smiling.
+
+223
+00:19:47,299 --> 00:19:52,928
+The cause: a sensor pin, bent by a few degrees during assembly on the pad floor.
+
+224
+00:19:52,928 --> 00:19:57,150
+A technician's hands nearly killed two men at the edge of space.
+
+225
+00:19:58,300 --> 00:20:06,370
+Five months later, both men strapped into another Soyuz on the same launch pad, and flew to the station like nothing had happened.
+
+226
+00:20:06,370 --> 00:20:08,827
+Because that is the actual job description.
+
+227
+00:20:09,966 --> 00:20:10,642
+Twelve missions.
+
+228
+00:20:10,642 --> 00:20:25,848
+Thirty-two people who by every reasonable calculation should be names on a memorial — saved by a retro pack strap, a metal plate, a knife, a wristwatch, a thumb against a window, and controllers who recognized one pattern of static in a wall of noise.
+
+229
+00:20:26,966 --> 00:20:36,492
+Every fix on this list — the snorkel in the suit, the lightning rules, the launch escape tests — exists because someone almost died and lived to file the report.
+
+230
+00:20:36,492 --> 00:20:41,255
+Spaceflight is not safe. It is merely paid for, one near miss at a time.
+
+231
+00:20:42,400 --> 00:20:45,093
+But 21 people never got to file that report.
+
+232
+00:20:45,093 --> 00:20:54,668
+If these twelve survivals held your breath, the stories of the ones who never came home will stay with you far longer — that full documentary is on your screen right now.
+
+233
+00:20:54,668 --> 00:20:55,566
+Subscribe to mindwired.
+

@@ -52,6 +52,8 @@ import spaceAnimalsDoc from "./mindwired-doc/docs/spaceanimals.json";
 import spaceAnimalsManifest from "./mindwired-doc/docs/spaceanimals.manifest.json";
 import blackHolesDoc from "./mindwired-doc/docs/blackholes.json";
 import blackHolesManifest from "./mindwired-doc/docs/blackholes.manifest.json";
+import almostDiedDoc from "./mindwired-doc/docs/almostdied.json";
+import almostDiedManifest from "./mindwired-doc/docs/almostdied.manifest.json";
 import sketchDemoDoc from "./mindwired-doc/docs/sketchdemo.json";
 import sketchDemoManifest from "./mindwired-doc/docs/sketchdemo.manifest.json";
 import spaceSoundsDoc from "./mindwired-doc/docs/spacesounds.json";
@@ -916,6 +918,17 @@ export const RemotionRoot: React.FC = () => {
         height={1080}
       />
 
+      {/* ── mindwired — Every Astronaut Who Almost Died in Space (4K, sequel
+             to the 21-astronauts winner; outro baked) ── */}
+      <Composition
+        id="AlmostDiedDoc"
+        component={makeDocComp(almostDiedDoc, almostDiedManifest, MW_OUTRO)}
+        durationInFrames={docTotalFrames(almostDiedDoc, almostDiedManifest, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
       {/* ── STYLE TEST — hand-drawn sketch brand look (Sketch.tsx); not a
              publishable video: no outro, internal review only ── */}
       <Composition
@@ -926,6 +939,7 @@ export const RemotionRoot: React.FC = () => {
         width={1920}
         height={1080}
       />
+
 
       {/* ── mindwired — evidence doc: The Place on Earth Scarier Than Space (Mariana) ── */}
       <Composition

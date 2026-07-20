@@ -1,0 +1,729 @@
+{
+ "slug": "almostdied",
+ "title": "Every Astronaut Who Almost Died in Space",
+ "language": "en",
+ "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+ "channel": "mindwired",
+ "niche": "space",
+ "scenes": [
+  {
+   "id": "h1",
+   "text": "Spaceflight has killed 21 people. [pause] It came within seconds of killing 32 more. And every single one of them made it home.",
+   "video": "hookvid_1.mp4",
+   "videoQuery": "Earth from space station orbit sunrise",
+   "stat": "21 DEAD · 32 SURVIVED",
+   "cap": "The ones who almost joined them.",
+   "tone": "shock",
+   "sfx": [
+    {
+     "name": "chapter_boom",
+     "at": "in",
+     "volume": 0.2
+    }
+   ]
+  },
+  {
+   "id": "h2",
+   "text": "An astronaut who watched flaming chunks of his own ship fly past the window. A commander who decided he would spend his final seconds insulting mission control. A man who nearly drowned. [pause] In space.",
+   "img": "a13",
+   "cap": "Burned. Frozen. Drowning. In orbit.",
+   "tone": "fear"
+  },
+  {
+   "id": "h3",
+   "text": "These are not the disasters you know. These are the twelve missions that should have been disasters — and the seconds, the switches, and the bent metal pins that decided otherwise.",
+   "img": "mocr",
+   "query": "Apollo mission control room flight controllers consoles",
+   "stat": "12 MISSIONS",
+   "cap": "The margin was seconds.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "h4",
+   "text": "Twelve stories. In order. Each one closer to death than the last time you held your breath. This is every astronaut who almost died in space.",
+   "img": "earthorbit",
+   "query": "Earth horizon from orbit black space",
+   "cap": "Every story. In order.",
+   "tone": "confidence"
+  },
+  {
+   "id": "t0",
+   "text": "Every astronaut who almost died in space.",
+   "chapter": "EVERY ASTRONAUT WHO\nALMOST DIED IN SPACE"
+  },
+  {
+   "id": "c1t",
+   "text": "1962. The fireball.",
+   "chapter": "1962\nTHE FIREBALL"
+  },
+  {
+   "id": "c1a",
+   "text": "February 20th, 1962. John Glenn becomes the first American to orbit the Earth. Three orbits, four hours and fifty-five minutes. That was the plan. Then a single telemetry channel on the ground lit up.",
+   "img": "glennlaunch",
+   "query": "Mercury Atlas 6 rocket launch 1962 Friendship 7",
+   "stat": "FEBRUARY 20, 1962",
+   "cap": "The first American in orbit.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "c1b",
+   "text": "Segment 51. A signal saying Glenn's heat shield was no longer locked in place. If that was true, the only thing between him and 3,000 degrees of reentry plasma was loose.",
+   "img": "glenn",
+   "query": "John Glenn Friendship 7 Mercury capsule astronaut",
+   "stat": "SEGMENT 51",
+   "cap": "The heat shield read: UNLOCKED.",
+   "tone": "fear"
+  },
+  {
+   "id": "c1c",
+   "text": "Mission control never told him directly. They just started asking strange questions. Is the landing bag switch off? Leave the retro pack on through reentry. Glenn was a test pilot. He did the math on what they were not saying.",
+   "img": "mercuryctrl",
+   "query": "Mercury mission control 1962 flight controllers",
+   "cap": "He figured it out from the questions.",
+   "tone": "fear"
+  },
+  {
+   "id": "c1d",
+   "text": "The straps of the retro pack would hold a loose shield in place. That was the theory. During reentry, Glenn watched flaming chunks stream past his window — and had no way to know if it was the retro pack burning away. Or his heat shield. He said, quote, I think the pack just let go.",
+   "img": "glenn",
+   "cap": "“I think the pack just let go.”",
+   "tone": "fear",
+   "sfx": [
+    {
+     "name": "riser",
+     "at": "in",
+     "volume": 0.2
+    }
+   ]
+  },
+  {
+   "id": "c1e",
+   "text": "Four minutes and twenty seconds of radio blackout. Then Glenn's voice: that was a real fireball, boy. The signal had been false all along — a loose switch stem on the ground equipment. The shield was never loose. The terror was real. The danger never was.",
+   "img": "glennrecovery",
+   "query": "Friendship 7 recovery USS Noa Glenn capsule",
+   "stat": "4:20 OF SILENCE",
+   "cap": "The sensor lied. Nobody knew that yet.",
+   "tone": "awe"
+  },
+  {
+   "id": "c2t",
+   "text": "1965. The man outside.",
+   "chapter": "1965\nTHE MAN OUTSIDE"
+  },
+  {
+   "id": "c2a",
+   "text": "March 18th, 1965. Alexei Leonov floats out of an airlock and becomes the first human being to walk in space. Twelve minutes of history. Then he tried to come back inside.",
+   "img": "leonov",
+   "query": "Alexei Leonov cosmonaut Voskhod 2 portrait",
+   "stat": "MARCH 18, 1965",
+   "cap": "The first spacewalk in history.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "c2b",
+   "text": "In vacuum, his suit had ballooned. It stiffened and swelled until his fingers pulled out of his gloves and his feet left his boots. He could not bend enough to fit back through the airlock. He was locked out of the only shelter within 200 kilometres straight down.",
+   "img": "leonov",
+   "cap": "His suit swelled until he couldn't fit.",
+   "tone": "fear"
+  },
+  {
+   "id": "c2c",
+   "text": "So Leonov did the only thing left. He opened a valve and bled his own suit pressure down — from around 0.4 atmospheres toward 0.27 — trading the risk of the bends for a suit soft enough to bend. His core temperature spiked. He later said sweat sloshed inside the suit to his knees.",
+   "img": "leonovsuit",
+   "query": "Berkut spacesuit Voskhod Leonov museum",
+   "stat": "0.40 → 0.27 ATM",
+   "cap": "He vented his own life support to survive.",
+   "tone": "fear"
+  },
+  {
+   "id": "c2d",
+   "text": "He squeezed in head-first, against procedure, and got stuck sideways turning around to close the hatch. On live radio, the Soviet feed quietly went silent. [pause] He made it in. And Voskhod 2 was not done trying to kill its crew.",
+   "img": "leonov",
+   "cap": "Stuck sideways in a fabric tube.",
+   "tone": "fear"
+  },
+  {
+   "id": "c2e",
+   "text": "The automatic reentry system failed. Commander Pavel Belyayev flew the retrofire by hand — the first manual reentry in Soviet history — and a 46 second delay getting back into their seats pushed the landing 386 kilometres off target. Into the taiga. In March.",
+   "img": "taiga",
+   "query": "winter taiga forest snow aerial",
+   "stock": true,
+   "stat": "386 KM OFF TARGET",
+   "cap": "They landed in the wrong wilderness.",
+   "tone": "fear"
+  },
+  {
+   "id": "c2f",
+   "text": "Two cosmonauts spent two nights in a forest at minus 30 degrees Celsius, in a capsule with a blown hatch, with a pistol between them because the taiga has bears and wolves in mating season. The rescue team arrived on skis. The first men to walk in space had to ski nine kilometres to go home.",
+   "img": "taiga",
+   "cap": "Two nights. Minus 30. A pistol. Skis.",
+   "tone": "awe"
+  },
+  {
+   "id": "c3t",
+   "text": "1966. One revolution per second.",
+   "chapter": "1966\nTHE SPIN"
+  },
+  {
+   "id": "c3a",
+   "text": "March 16th, 1966. Gemini 8. Neil Armstrong and David Scott have just performed the first docking of two spacecraft in history. Twenty-seven minutes later, out of contact with the ground, the stack begins to roll on its own.",
+   "video": "gemini8vid_1.mp4",
+   "videoQuery": "Gemini 8 Agena docking film NASA",
+   "stat": "MARCH 16, 1966",
+   "cap": "First docking in history. Then it moved.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "c3b",
+   "text": "They undocked from the Agena, assuming the fault was on the target vehicle. It was the worst possible move. The problem was their own thruster — number 8, stuck firing — and without the Agena's mass, the little Gemini spun up like a flywheel.",
+   "img": "gemini8",
+   "query": "Gemini 8 Agena target vehicle orbit",
+   "cap": "Undocking made it worse.",
+   "tone": "fear"
+  },
+  {
+   "id": "c3c",
+   "text": "296 degrees per second. Nearly a full revolution every second. Their vision blurred and began to gray at the edges. Armstrong later said they were approaching the point where they could no longer read the instruments. After that comes blackout. After blackout, nobody flies the ship.",
+   "img": "gemini8cockpit",
+   "query": "Gemini spacecraft cockpit interior instrument panel",
+   "stat": "296° PER SECOND",
+   "cap": "Vision graying. Seconds of sight left.",
+   "tone": "fear",
+   "sfx": [
+    {
+     "name": "heartbeat",
+     "at": "in",
+     "volume": 0.22
+    }
+   ]
+  },
+  {
+   "id": "c3d",
+   "text": "Scott radioed a tracking ship: we have serious problems here. We're tumbling end over end. And Armstrong, half blind, reached above his head and found the reentry control switches by feel. The landing thrusters. The ones you are never supposed to touch in orbit.",
+   "img": "gemini8crew",
+   "query": "Gemini 8 Armstrong Scott crew portrait NASA",
+   "cap": "“We're tumbling end over end.”",
+   "tone": "fear"
+  },
+  {
+   "id": "c3e",
+   "text": "It worked. But the rule was absolute: touch the reentry system, and the mission ends now. Ten hours after launch, a three-day mission splashed down in the Pacific, 800 kilometres east of Okinawa, and two seasick astronauts bobbed in the swells for three hours waiting for a destroyer.",
+   "img": "gemini8rec",
+   "query": "Gemini 8 recovery splashdown raft frogmen Pacific",
+   "stat": "75% OF LANDING FUEL — GONE",
+   "cap": "Saved by the thrusters meant for landing.",
+   "tone": "awe"
+  },
+  {
+   "id": "c3f",
+   "text": "Post-flight analysis found an electrical short. A single wire. Three years later, the man who out-flew it by feel, seconds from blackout, was the first human on the Moon.",
+   "img": "gemini8crew",
+   "cap": "The pilot was Neil Armstrong.",
+   "tone": "awe"
+  },
+  {
+   "id": "c4t",
+   "text": "1969. Struck by lightning. Twice.",
+   "chapter": "1969\nSTRUCK BY LIGHTNING"
+  },
+  {
+   "id": "c4a",
+   "text": "November 14th, 1969. Apollo 12 lifts off into rain clouds. At 36 and a half seconds, the entire vehicle — the largest rocket ever flown, trailing a plume of ionized exhaust — becomes a lightning rod. And the sky uses it.",
+   "video": "a12vid_1.mp4",
+   "videoQuery": "Apollo 12 Saturn V launch film 1969",
+   "stat": "T+36.5 SECONDS",
+   "cap": "The rocket became a lightning rod.",
+   "tone": "shock",
+   "sfx": [
+    {
+     "name": "chapter_boom",
+     "at": 20,
+     "volume": 0.25
+    }
+   ]
+  },
+  {
+   "id": "c4b",
+   "text": "Every warning light on the panel lit at once. All three fuel cells dropped offline. The guidance platform tumbled. Pete Conrad radioed: we just lost the platform, gang. We had everything in the world drop out. Sixteen seconds later, the lightning hit them again.",
+   "img": "a12ctrl",
+   "stat": "STRUCK TWICE",
+   "cap": "Every alarm at once. Then again.",
+   "tone": "fear"
+  },
+  {
+   "id": "c4c",
+   "text": "In mission control, the telemetry screens turned to static garbage. Nobody knew what was happening inside the spacecraft. Nobody — except a 26-year-old controller named John Aaron, who had seen this exact garbage pattern once before, in an obscure test a year earlier.",
+   "img": "a12ctrl",
+   "query": "Apollo mission control room 1969 flight controllers consoles",
+   "stat": "AGE 26",
+   "cap": "One man recognized the static.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "c4d",
+   "text": "Flight, Eecom. Try S C E to auxiliary. The flight director had to ask him to repeat it. The capcom asked what it even was. In the capsule, Conrad didn't know the switch existed. Alan Bean found it, flipped it — and every screen in Houston came back to life.",
+   "img": "a12ctrl",
+   "cap": "“Try SCE to AUX.”",
+   "tone": "confidence",
+   "sfx": [
+    {
+     "name": "stat_hit",
+     "at": 30,
+     "volume": 0.28
+    }
+   ]
+  },
+  {
+   "id": "c4e",
+   "text": "Here is the part they kept quiet. The lightning may have damaged the pyrotechnics that fire the parachutes. There was no way to check from orbit, and nothing anyone could do. So mission control said nothing — and let three men fly to the Moon, land on it, and fly home, possibly toward a 300-mile-per-hour impact with the ocean.",
+   "img": "a12moon",
+   "query": "Apollo 12 Conrad Surveyor 3 moon surface",
+   "stat": "10 DAYS OF SILENCE",
+   "cap": "The chutes might already be dead. Nobody told them.",
+   "tone": "fear"
+  },
+  {
+   "id": "c4f",
+   "text": "On November 24th, all three parachutes opened. Conrad's verdict on the whole affair: I think we need to do a little more all-weather testing.",
+   "img": "a12rec",
+   "query": "Apollo 12 recovery splashdown parachutes ocean",
+   "cap": "All three chutes opened.",
+   "tone": "awe"
+  },
+  {
+   "id": "c5t",
+   "text": "1970. The explosion.",
+   "chapter": "1970\nHOUSTON, WE'VE HAD A PROBLEM"
+  },
+  {
+   "id": "c5a",
+   "text": "You know Apollo 13. You know the explosion, 320,000 kilometres from Earth. What you may not know is that the bomb was installed before launch — an oxygen tank dropped five centimetres in 1968, then cooked in a ground test until the safety switches welded themselves shut and the wiring insulation burned away. It flew like that.",
+   "img": "a13",
+   "query": "Apollo 13 damaged service module photograph",
+   "stat": "APRIL 13, 1970",
+   "cap": "The bomb was installed before launch.",
+   "tone": "shock"
+  },
+  {
+   "id": "c5b",
+   "text": "Jack Swigert said it first: Okay Houston, we've had a problem here. Not we have. We've had. The side of the service module was already gone. Two of three fuel cells dead. Oxygen venting into space as a visible cloud around the ship.",
+   "img": "a13crew",
+   "query": "Apollo 13 crew Lovell Swigert Haise portrait",
+   "cap": "“Okay, Houston, we've had a problem here.”",
+   "tone": "fear"
+  },
+  {
+   "id": "c5c",
+   "text": "Three men moved into a lunar lander built to keep two men alive for two days — and asked it to keep three alive for four. The temperature fell to 3 degrees Celsius. Water was rationed to about 200 millilitres a day. Condensation ran down the walls. Fred Haise developed a fever from an infection his dehydrated body could not fight.",
+   "img": "a13lm",
+   "query": "Apollo 13 lunar module Aquarius interior lifeboat",
+   "stat": "3°C · 200 ML A DAY",
+   "cap": "A two-man lifeboat. Three men. Four days.",
+   "tone": "fear"
+  },
+  {
+   "id": "c5d",
+   "text": "Their own exhaled breath began to poison them. Carbon dioxide climbed toward the alarm line, and the lander's round filters could not take the command module's square cartridges. The fix that saved three lives was built from a flight-plan cover, plastic bags, a hose from a suit, and duct tape — designed on a table in Houston, read up by radio, line by line.",
+   "img": "a13ctrl",
+   "cap": "Square peg. Round hole. Duct tape.",
+   "tone": "confidence"
+  },
+  {
+   "id": "c5e",
+   "text": "With the guidance computer powered down, they aimed a 14 second engine burn by eye — Lovell holding the Earth's day-night line in the window crosshairs, Haise handling roll, Swigert counting the seconds on his wristwatch. A hand-flown course correction on the way home from the Moon.",
+   "img": "a13ctrl",
+   "query": "Apollo 13 mission control Houston Kranz consoles",
+   "stat": "AIMED BY WRISTWATCH",
+   "cap": "They steered home by the terminator line.",
+   "tone": "awe"
+  },
+  {
+   "id": "c5f",
+   "text": "Reentry blackout was supposed to last four minutes. It lasted almost six. For 87 extra seconds, mission control sat in silence, knowing the heat shield lived inches from the tank that exploded — genuinely unsure whether they were waiting for a spacecraft or listening for three men who were already gone.",
+   "img": "a13reentry",
+   "query": "Apollo command module reentry parachutes recovery",
+   "stat": "87 SECONDS TOO LONG",
+   "cap": "The silence ran 87 seconds over.",
+   "tone": "fear",
+   "sfx": [
+    {
+     "name": "riser",
+     "at": "in",
+     "volume": 0.2
+    }
+   ]
+  },
+  {
+   "id": "c5g",
+   "text": "Then three parachutes on the screens of Houston, and one of the most accurate splashdowns of the entire Apollo program. The cold had degraded one parachute pyro and a battery. Everything fired anyway. [pause] Barely counts as luck. Barely.",
+   "img": "a13rec",
+   "query": "Apollo 13 recovery Iwo Jima crew aboard",
+   "cap": "Everything fired anyway.",
+   "tone": "awe"
+  },
+  {
+   "id": "c6t",
+   "text": "1975. Twenty-one g.",
+   "chapter": "1975\n21.3 g"
+  },
+  {
+   "id": "c6a",
+   "text": "April 5th, 1975. Vasily Lazarev and Oleg Makarov are riding a Soyuz toward the Salyut 4 station when the staging fails — the third stage lights while still bolted to the stage below. The rocket pitches off course at the edge of space. The abort system fires at roughly 150 kilometres up.",
+   "img": "soyuzrocket",
+   "query": "Soyuz rocket launch Baikonur staging",
+   "stat": "APRIL 5, 1975",
+   "cap": "The stage lit while still bolted on.",
+   "tone": "shock"
+  },
+  {
+   "id": "c6b",
+   "text": "What followed was the steepest ride home in the history of spaceflight. The capsule fell into a ballistic dive and the deceleration climbed past anything the vehicle was designed for. Twenty-one times the force of gravity. Their vision drained to black and white, then closed to a tunnel. Lazarev said breathing became nearly impossible.",
+   "img": "soyuzrocket",
+   "stat": "21.3 g",
+   "cap": "Vision went grayscale, then tunnel, then almost nothing.",
+   "tone": "fear",
+   "sfx": [
+    {
+     "name": "heartbeat",
+     "at": "in",
+     "volume": 0.22
+    }
+   ]
+  },
+  {
+   "id": "c6c",
+   "text": "They came down on a snow-covered mountainside in the Altai — and started rolling. Downhill. The parachute snagged on vegetation and held, arresting the capsule short of a drop. The two men inside had just survived 21 g. The mountain almost finished what the rocket started.",
+   "img": "altai",
+   "query": "Altai mountains snow slope winter",
+   "stock": true,
+   "cap": "Then the capsule started rolling downhill.",
+   "tone": "fear"
+  },
+  {
+   "id": "c6d",
+   "text": "Convinced they might have crossed into China — a hostile border in 1975 — Lazarev burned classified documents in the snow. They were actually hundreds of kilometres inside Soviet territory. They spent the night on the mountain. Lazarev's injuries from the g-load ended his flying career. The Soviet Union acknowledged only an unnamed anomaly.",
+   "img": "altai",
+   "stat": "21 MINUTES OF FLIGHT",
+   "cap": "He burned the documents in the snow.",
+   "tone": "awe"
+  },
+  {
+   "id": "c7t",
+   "text": "1983. The only pad abort in history.",
+   "chapter": "1983\nTHE PAD ABORT"
+  },
+  {
+   "id": "c7a",
+   "text": "September 26th, 1983. Vladimir Titov and Gennady Strekalov are strapped on top of a fully fueled Soyuz at Baikonur, 90 seconds from launch, when a valve fails and kerosene begins pouring across the base of the rocket. It ignites. The rocket is on fire. [pause] And the crew has no idea.",
+   "img": "baikonur",
+   "query": "Baikonur cosmodrome Soyuz launch pad night",
+   "stat": "T−90 SECONDS",
+   "cap": "The rocket was burning. They didn't know.",
+   "tone": "fear"
+  },
+  {
+   "id": "c7b",
+   "text": "Their portholes faced away from the flames. They felt vibrations, nothing more. And the abort could not fire — because the fire had already burned through the abort control cables. The escape command had to travel by radio, from two operators, in two separate rooms, transmitting within five seconds of each other.",
+   "img": "t10a",
+   "query": "Soyuz launch escape system tower diagram",
+   "cap": "The abort wires had already burned through.",
+   "tone": "fear",
+   "sfx": [
+    {
+     "name": "riser",
+     "at": "in",
+     "volume": 0.2
+    }
+   ]
+  },
+  {
+   "id": "c7c",
+   "text": "For roughly ten seconds, two human beings sat on 300 tonnes of burning propellant while ground crews raced the fire. Then the escape tower fired: 14 to 17 g, straight up, for five seconds. Six seconds after they left, the rocket collapsed into a fireball that burned on the pad for 20 hours.",
+   "img": "soyuzrocket",
+   "stat": "17 g · 5 SECONDS",
+   "cap": "Six seconds later, the rocket was a fireball.",
+   "tone": "shock"
+  },
+  {
+   "id": "c7d",
+   "text": "The capsule landed four kilometres away. The crew recorder caught them swearing the entire way up — Titov admitted that much himself. On the ground, shaken and bruised, the two men asked the rescue crews for cigarettes. Then someone handed them vodka. It remains the only time in history a crew has escaped a rocket on the pad.",
+   "img": "titov",
+   "query": "Vladimir Titov Gennady Strekalov cosmonaut",
+   "cap": "Cigarettes first. Then vodka.",
+   "tone": "awe"
+  },
+  {
+   "id": "c8t",
+   "text": "1988. We are going to die.",
+   "chapter": "1988\nLIGHTS AND SHADOWS"
+  },
+  {
+   "id": "c8a",
+   "text": "December 2nd, 1988. Atlantis. The second flight after Challenger, and a mission so classified its cargo is still officially unconfirmed. Eighty-five seconds up, insulation from a booster nose cap breaks free and sandblasts the orbiter's right side.",
+   "video": "shuttlevid_1.mp4",
+   "videoQuery": "space shuttle Atlantis launch 1988 film",
+   "stat": "DECEMBER 2, 1988",
+   "cap": "A classified mission. A shredded wing.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "c8b",
+   "text": "In orbit, commander Hoot Gibson steered the robot arm's camera under the belly and went quiet. Seven hundred and seven damage sites. Whole gouges through the heat tiles. One tile missing entirely. Gibson looked at the image and thought: we are going to die.",
+   "img": "sts27",
+   "query": "STS-27 Atlantis tile damage survey",
+   "stat": "707 DAMAGE SITES",
+   "cap": "“We are going to die.” — the commander, silently.",
+   "tone": "fear"
+  },
+  {
+   "id": "c8c",
+   "text": "Because the mission was classified, the video went to Houston encrypted, in degraded slow-scan frames. Engineers looked at the mush and called the damage lights and shadows. Acceptable. The crew, looking at the real thing out the window, was told it was fine. There was no rescue option. There was no repair kit. There was only reentry.",
+   "img": "shuttletiles",
+   "cap": "Houston saw static. They saw holes.",
+   "tone": "fear"
+  },
+  {
+   "id": "c8d",
+   "text": "Gibson told his crew there was no use dying all tensed up. And he made himself a private promise: if the wing began to burn through, in his last seconds, he was going to tell mission control exactly what he thought of their analysis.",
+   "img": "gibson",
+   "query": "Robert Hoot Gibson astronaut portrait NASA",
+   "cap": "“No use dying all tensed up.”",
+   "tone": "fear"
+  },
+  {
+   "id": "c8e",
+   "text": "Atlantis came home with the worst tile damage of any shuttle that ever landed. The missing tile — the one gap that mattered — happened to sit over a thick metal antenna mounting plate, which took the heat and half-melted instead of the airframe. Fifteen years later, the same institutional blindness — damage dismissed from degraded imagery — killed the crew of Columbia. In 1988, one metal plate held the line.",
+   "img": "sts27",
+   "stat": "1 MISSING TILE · 1 METAL PLATE",
+   "cap": "Columbia's failure mode, dry-run in 1988.",
+   "tone": "awe"
+  },
+  {
+   "id": "c9t",
+   "text": "1997. Fire on Mir.",
+   "chapter": "1997\nFIRE"
+  },
+  {
+   "id": "c9a",
+   "text": "February 23rd, 1997. The station Mir is overcrowded — six people aboard during a crew handover, and only two three-seat Soyuz lifeboats. To make enough air for six, the crew burns solid-fuel oxygen canisters. Aleksandr Lazutkin ignites one in the Kvant module. It does not burn normally.",
+   "img": "mir",
+   "query": "Mir space station orbit Earth",
+   "stat": "6 CREW · 6 SEATS HOME",
+   "cap": "Six people. Two lifeboats.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "c9b",
+   "text": "A blowtorch flame nearly a metre long erupts from the canister, spraying sparks and droplets of molten metal at the opposite wall — the wall between the crew and vacuum. Smoke fills the entire station in seconds. Jerry Linenger, NASA's doctor aboard, said he could not see his own fingers at arm's length.",
+   "img": "mirinside",
+   "query": "Mir space station interior module equipment",
+   "cap": "Molten metal, a metre from the hull.",
+   "tone": "shock",
+   "sfx": [
+    {
+     "name": "alarm",
+     "at": "in",
+     "volume": 0.18
+    }
+   ]
+  },
+  {
+   "id": "c9c",
+   "text": "Linenger grabbed a respirator, pulled it on, inhaled — and the mask collapsed against his face. Empty. A dead unit, in a station full of smoke. He found a second one before he lost consciousness. And here is the geometry that mattered: the fire sat directly across the passage to one of the two escape craft. If the order came to abandon Mir, three of the six had no way home.",
+   "img": "linenger",
+   "query": "Jerry Linenger astronaut Mir NASA",
+   "stat": "FIRST MASK: EMPTY",
+   "cap": "The fire blocked the road to one lifeboat.",
+   "tone": "fear"
+  },
+  {
+   "id": "c9d",
+   "text": "You cannot smother a fire that manufactures its own oxygen. Commander Valery Korzun sprayed foam while Linenger physically braced him against the recoil, and the crew waited for the canister to exhaust itself. Then the argument started. Moscow's official report: the fire lasted 90 seconds. Linenger, the American who fought it, timed it at 14 minutes — and says he was told to keep quiet.",
+   "img": "mirfirepanel",
+   "query": "Mir Kvant module oxygen generator scorched panel",
+   "stat": "90 SECONDS vs 14 MINUTES",
+   "cap": "Moscow said 90 seconds. He timed 14 minutes.",
+   "tone": "fear"
+  },
+  {
+   "id": "c9e",
+   "text": "No one died. No one was even seriously hurt. And four months later, the same station, with some of the same crew, would come within minutes of killing everyone aboard. [pause] Because 1997 on Mir was not done.",
+   "img": "mir",
+   "cap": "Mir wasn't finished with 1997.",
+   "tone": "fear"
+  },
+  {
+   "id": "c10t",
+   "text": "1997. The collision.",
+   "chapter": "1997\nCOLLISION"
+  },
+  {
+   "id": "c10a",
+   "text": "June 25th, 1997. To save money, Moscow wants to prove it can dock a Progress cargo ship without the expensive automatic radar — so the test is flown with the radar switched off. Commander Vasily Tsibliyev is hand-flying seven tonnes of spacecraft by joystick, watching a TV screen, with no range data, no speed data, and a laser rangefinder that can't find the target against the Earth below.",
+   "img": "progress",
+   "query": "Progress cargo spacecraft approach docking station",
+   "stat": "RADAR: OFF",
+   "cap": "Seven tonnes, hand-flown, no radar.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "c10b",
+   "text": "By the time the crew sees the Progress clearly, it is too close, too fast, and it does not stop. It clips a solar array and slams into the Spektr module at roughly walking pace. Seven tonnes at walking pace is enough. The hull cracks. And the crew's ears pop.",
+   "img": "spektr",
+   "query": "Spektr module damaged solar array Mir",
+   "cap": "Their ears felt it before any instrument.",
+   "tone": "shock",
+   "sfx": [
+    {
+     "name": "alarm",
+     "at": 10,
+     "volume": 0.18
+    }
+   ]
+  },
+  {
+   "id": "c10c",
+   "text": "That pressure drop in their ears was the station bleeding air into space, with a hiss they could hear. The crew did the arithmetic: under half an hour of breathable margin. And they could not seal the leaking module — because 18 power and data cables ran through the open hatchway, and the hatch could not close across them.",
+   "img": "foale",
+   "query": "Michael Foale astronaut Mir NASA",
+   "stat": "~23 MINUTES OF AIR",
+   "cap": "18 cables held the hatch open.",
+   "tone": "fear",
+   "sfx": [
+    {
+     "name": "heartbeat",
+     "at": "in",
+     "volume": 0.2
+    }
+   ]
+  },
+  {
+   "id": "c10d",
+   "text": "So Lazutkin and Michael Foale ripped them out one by one — and cut the last two with a knife — while the hiss continued. They wrestled a hatch cover into the opening with minutes of margin left, and the escaping pressure sucked it shut and held it there.",
+   "img": "mirinside",
+   "cap": "The last two cables were cut with a knife.",
+   "tone": "fear"
+  },
+  {
+   "id": "c10e",
+   "text": "Sealing Spektr cost them its solar power, and the impact had set the whole station tumbling — arrays off the sun, systems dying, Mir going dark and silent. Foale then estimated the station's spin by holding his thumb against a window and timing the stars drifting past it, and radioed the numbers so the Soyuz thrusters could stop the tumble. Celestial navigation, by thumb, to save a space station.",
+   "img": "mir",
+   "stat": "SPIN, MEASURED BY THUMB",
+   "cap": "He measured the tumble against the stars.",
+   "tone": "awe"
+  },
+  {
+   "id": "c11t",
+   "text": "2013. Drowning in a spacesuit.",
+   "chapter": "2013\nDROWNING IN SPACE"
+  },
+  {
+   "id": "c11a",
+   "text": "July 16th, 2013. Luca Parmitano is 44 minutes into a spacewalk outside the International Space Station when he feels water on the back of his head. Inside a sealed helmet, in vacuum, there is exactly one direction water can go: nowhere. It clings, and it crawls.",
+   "stat": "JULY 16, 2013",
+   "cap": "Water. Inside the helmet. In vacuum.",
+   "tone": "curiosity",
+   "img": "parmitano"
+  },
+  {
+   "id": "c11b",
+   "text": "A clogged filter is quietly pumping his suit's cooling water into his air vent. In zero gravity the blob wraps his head like a living thing — over his ears, so the radio goes muffled. Then over his eyes. A week earlier, drops of water in the same suit had been dismissed as a leaking drink bag. Nobody had investigated.",
+   "img": "eva23",
+   "query": "Parmitano EVA spacesuit helmet water NASA",
+   "stat": "1.5 LITRES",
+   "cap": "It crawled over his ears, then his eyes.",
+   "tone": "fear"
+  },
+  {
+   "id": "c11c",
+   "text": "Houston aborts the spacewalk. As Parmitano turns back, the station crosses into orbital night and the sun goes out. He is now blind, half deaf, water creeping toward his nose — calculating, by his own account, whether he could open his helmet's purge valve and survive the escaping air if he started to drown.",
+   "img": "parmitano",
+   "query": "Luca Parmitano astronaut spacewalk ISS",
+   "cap": "Blind, in the dark, doing drowning math.",
+   "tone": "fear",
+   "sfx": [
+    {
+     "name": "heartbeat",
+     "at": "in",
+     "volume": 0.22
+    }
+   ]
+  },
+  {
+   "id": "c11d",
+   "text": "He navigated back by memory and by the feel of his safety tether reeling in — hand over hand along a station he could not see. Chris Cassidy followed him in; the crew tore his helmet off the moment pressure allowed. A litre and a half of water came out with it. NASA's own report used the words: a condition that was life threatening.",
+   "img": "cassidy",
+   "query": "Chris Cassidy astronaut EVA ISS 2013",
+   "cap": "He followed the tether home, blind.",
+   "tone": "awe"
+  },
+  {
+   "id": "c11e",
+   "text": "Every spacesuit that has gone outside since carries an absorbent pad behind the head and a snorkel running down to the chest. Because one man nearly became the first human being to drown in space.",
+   "img": "eva23",
+   "stat": "EVERY SUIT NOW HAS A SNORKEL",
+   "cap": "The snorkel in every suit is his legacy.",
+   "tone": "confidence"
+  },
+  {
+   "id": "c12t",
+   "text": "2018. A short flight.",
+   "chapter": "2018\nA SHORT FLIGHT"
+  },
+  {
+   "id": "c12a",
+   "text": "October 11th, 2018. Nick Hague's first launch. Alexey Ovchinin's second. Two minutes up, a strap-on booster fails to separate cleanly, swings back, and strikes the rocket's core stage. Fifty kilometres above Kazakhstan, the vehicle begins to break apart.",
+   "stat": "OCTOBER 11, 2018",
+   "cap": "The booster swung back into the rocket.",
+   "tone": "shock",
+   "img": "ms10"
+  },
+  {
+   "id": "c12b",
+   "text": "The abort system fires and rips the capsule free. Inside: violent side-to-side shaking, the master alarm, and sudden weightlessness where thrust should be. Ovchinin's entire commentary to the ground, flat calm: an accident with the booster. [pause] And then: that was a short flight.",
+   "img": "ms10",
+   "query": "Soyuz MS-10 crew Hague Ovchinin launch",
+   "cap": "“That was a short flight.”",
+   "tone": "fear"
+  },
+  {
+   "id": "c12c",
+   "text": "They fell back to Earth on a ballistic arc, pulling nearly 7 g, and landed 400 kilometres from the pad — 19 minutes and 41 seconds after liftoff. Rescue crews found them upright, bruised, and smiling. The cause: a sensor pin, bent by a few degrees during assembly on the pad floor. A technician's hands nearly killed two men at the edge of space.",
+   "img": "ms10rescue",
+   "query": "Soyuz MS-10 landing rescue Kazakhstan steppe",
+   "stat": "19 MIN 41 SEC",
+   "cap": "Cause: one pin, bent during assembly.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "c12d",
+   "text": "Five months later, both men strapped into another Soyuz on the same launch pad, and flew to the station like nothing had happened. Because that is the actual job description.",
+   "img": "ms12",
+   "query": "Soyuz MS-12 launch Hague Ovchinin Koch",
+   "cap": "Five months later: same pad, same men.",
+   "tone": "awe"
+  },
+  {
+   "id": "w1",
+   "text": "Twelve missions. Thirty-two people who by every reasonable calculation should be names on a memorial — saved by a retro pack strap, a metal plate, a knife, a wristwatch, a thumb against a window, and controllers who recognized one pattern of static in a wall of noise.",
+   "img": "earthorbit",
+   "stat": "32 SURVIVORS",
+   "cap": "Saved by straps, plates, knives, and thumbs.",
+   "tone": "awe"
+  },
+  {
+   "id": "w2",
+   "text": "Every fix on this list — the snorkel in the suit, the lightning rules, the launch escape tests — exists because someone almost died and lived to file the report. Spaceflight is not safe. It is merely paid for, one near miss at a time.",
+   "img": "mocr",
+   "cap": "Safety is written in near misses.",
+   "tone": "confidence"
+  },
+  {
+   "id": "e1",
+   "text": "But 21 people never got to file that report. If these twelve survivals held your breath, the stories of the ones who never came home will stay with you far longer — that full documentary is on your screen right now. Subscribe to mindwired.",
+   "img": "earthorbit",
+   "cap": "21 never came home. That story is next.",
+   "tone": "confidence"
+  }
+ ]
+}

@@ -1,0 +1,312 @@
+{
+ "durations": {
+  "h1": 7.915,
+  "h2": 11.259,
+  "h3": 9.953,
+  "h4": 8.673,
+  "t0": 3.082,
+  "c1t": 2.429,
+  "c1a": 13.401,
+  "c1b": 10.998,
+  "c1c": 12.669,
+  "c1d": 15.647,
+  "c1e": 15.961,
+  "c2t": 3.004,
+  "c2a": 11.468,
+  "c2b": 13.401,
+  "c2c": 17.162,
+  "c2d": 14.002,
+  "c2e": 17.319,
+  "c2f": 15.726,
+  "c3t": 3.317,
+  "c3a": 14.106,
+  "c3b": 14.106,
+  "c3c": 16.588,
+  "c3d": 15.151,
+  "c3e": 17.006,
+  "c3f": 10.449,
+  "c4t": 3.971,
+  "c4a": 16.927,
+  "c4b": 15.961,
+  "c4c": 15.569,
+  "c4d": 17.398,
+  "c4e": 18.364,
+  "c4f": 8.438,
+  "c5t": 2.508,
+  "c5a": 19.722,
+  "c5b": 13.793,
+  "c5c": 18.442,
+  "c5d": 21.238,
+  "c5e": 15.491,
+  "c5f": 17.633,
+  "c5g": 14.55,
+  "c6t": 3.317,
+  "c6a": 18.677,
+  "c6b": 18.207,
+  "c6c": 15.726,
+  "c6d": 21.081,
+  "c7t": 3.709,
+  "c7a": 18.939,
+  "c7b": 17.711,
+  "c7c": 17.789,
+  "c7d": 18.129,
+  "c8t": 2.429,
+  "c8a": 16.039,
+  "c8b": 15.386,
+  "c8c": 19.566,
+  "c8d": 12.277,
+  "c8e": 26.122,
+  "c9t": 2.429,
+  "c9a": 19.409,
+  "c9b": 17.711,
+  "c9c": 24.268,
+  "c9d": 23.876,
+  "c9e": 13.819,
+  "c10t": 2.586,
+  "c10a": 24.189,
+  "c10b": 16.588,
+  "c10c": 17.554,
+  "c10d": 13.322,
+  "c10e": 24.999,
+  "c11t": 3.161,
+  "c11a": 17.476,
+  "c11b": 18.207,
+  "c11c": 18.599,
+  "c11d": 19.801,
+  "c11e": 11.389,
+  "c12t": 2.273,
+  "c12a": 16.666,
+  "c12b": 18.782,
+  "c12c": 22.517,
+  "c12d": 10.527,
+  "w1": 15.882,
+  "w2": 14.289,
+  "e1": 13.166
+ },
+ "images": {
+  "a12ctrl": [
+   "a12ctrl_1.jpg",
+   "a12ctrl_2.jpg",
+   "a12ctrl_3.jpg"
+  ],
+  "a12launch": [
+   "a12launch_1.jpg",
+   "a12launch_2.jpg",
+   "a12launch_3.jpg"
+  ],
+  "a12moon": [
+   "a12moon_1.jpg",
+   "a12moon_2.jpg",
+   "a12moon_3.jpg"
+  ],
+  "a12rec": [
+   "a12rec_1.jpg",
+   "a12rec_2.jpg",
+   "a12rec_3.jpg"
+  ],
+  "a13": [
+   "a13_1.jpg",
+   "a13_2.jpg",
+   "a13_3.jpg"
+  ],
+  "a13crew": [
+   "a13crew_1.jpg",
+   "a13crew_2.jpg",
+   "a13crew_3.jpg"
+  ],
+  "a13ctrl": [
+   "a13ctrl_1.jpg",
+   "a13ctrl_2.jpg",
+   "a13ctrl_3.jpg"
+  ],
+  "a13lm": [
+   "a13lm_1.jpg",
+   "a13lm_2.jpg",
+   "a13lm_3.jpg"
+  ],
+  "a13rec": [
+   "a13rec_1.jpg",
+   "a13rec_2.jpg",
+   "a13rec_3.jpg"
+  ],
+  "a13reentry": [
+   "a13reentry_1.jpg",
+   "a13reentry_2.jpg",
+   "a13reentry_3.jpg"
+  ],
+  "altai": [
+   "altai_1.jpeg",
+   "altai_2.jpeg",
+   "altai_3.jpeg"
+  ],
+  "baikonur": [
+   "baikonur_1.jpg",
+   "baikonur_2.jpg",
+   "baikonur_3.jpg"
+  ],
+  "cassidy": [
+   "cassidy_1.jpg",
+   "cassidy_2.jpg",
+   "cassidy_3.jpg"
+  ],
+  "earthorbit": [
+   "earthorbit_1.jpg",
+   "earthorbit_2.jpg",
+   "earthorbit_3.jpg"
+  ],
+  "eva23": [
+   "eva23_1.jpg",
+   "eva23_2.jpg",
+   "eva23_3.jpg"
+  ],
+  "foale": [
+   "foale_1.jpg",
+   "foale_2.jpg",
+   "foale_3.jpg"
+  ],
+  "gemini8": [
+   "gemini8_1.jpg",
+   "gemini8_2.jpg",
+   "gemini8_3.jpg"
+  ],
+  "gemini8cockpit": [
+   "gemini8cockpit_1.jpg",
+   "gemini8cockpit_2.jpg",
+   "gemini8cockpit_3.jpg"
+  ],
+  "gemini8crew": [
+   "gemini8crew_1.jpg",
+   "gemini8crew_2.jpg"
+  ],
+  "gemini8rec": [
+   "gemini8rec_1.jpg",
+   "gemini8rec_2.jpg",
+   "gemini8rec_3.jpg"
+  ],
+  "gibson": [
+   "gibson_1.jpg",
+   "gibson_2.jpg"
+  ],
+  "glenn": [
+   "glenn_1.jpg",
+   "glenn_2.jpg",
+   "glenn_3.jpg"
+  ],
+  "glennlaunch": [
+   "glennlaunch_1.jpg",
+   "glennlaunch_2.jpg",
+   "glennlaunch_3.jpg"
+  ],
+  "glennrecovery": [
+   "glennrecovery_1.jpg",
+   "glennrecovery_2.jpg",
+   "glennrecovery_3.jpg"
+  ],
+  "glennreentry": [
+   "glennreentry_1.jpg",
+   "glennreentry_2.jpg",
+   "glennreentry_3.jpg"
+  ],
+  "leonov": [
+   "leonov_1.jpg",
+   "leonov_2.jpg",
+   "leonov_3.jpg"
+  ],
+  "leonovsuit": [
+   "leonovsuit_1.jpg"
+  ],
+  "linenger": [
+   "linenger_1.jpg",
+   "linenger_2.jpg",
+   "linenger_3.jpg"
+  ],
+  "mercuryctrl": [
+   "mercuryctrl_1.jpg",
+   "mercuryctrl_2.jpg",
+   "mercuryctrl_3.jpg"
+  ],
+  "mir": [
+   "mir_1.jpg",
+   "mir_2.jpg",
+   "mir_3.jpg"
+  ],
+  "mirfirepanel": [
+   "mirfirepanel_1.jpg",
+   "mirfirepanel_2.jpg",
+   "mirfirepanel_3.jpg"
+  ],
+  "mirinside": [
+   "mirinside_1.jpg",
+   "mirinside_2.jpg",
+   "mirinside_3.jpg"
+  ],
+  "mocr": [
+   "mocr_1.jpg",
+   "mocr_2.jpg",
+   "mocr_3.jpg"
+  ],
+  "ms10": [
+   "ms10_1.jpg",
+   "ms10_2.jpg",
+   "ms10_3.jpg"
+  ],
+  "ms10rescue": [
+   "ms10rescue_1.jpg",
+   "ms10rescue_2.jpg",
+   "ms10rescue_3.jpg"
+  ],
+  "ms12": [
+   "ms12_1.jpg",
+   "ms12_2.jpg",
+   "ms12_3.jpg"
+  ],
+  "parmitano": [
+   "parmitano_1.jpg",
+   "parmitano_2.jpg",
+   "parmitano_3.jpg"
+  ],
+  "progress": [
+   "progress_1.jpg",
+   "progress_2.jpg",
+   "progress_3.jpg"
+  ],
+  "shuttletiles": [
+   "shuttletiles_1.jpg",
+   "shuttletiles_2.jpg",
+   "shuttletiles_3.jpg"
+  ],
+  "soyuzrocket": [
+   "soyuzrocket_1.jpg",
+   "soyuzrocket_2.jpg",
+   "soyuzrocket_3.jpg"
+  ],
+  "spektr": [
+   "spektr_1.jpg",
+   "spektr_2.jpg",
+   "spektr_3.jpg"
+  ],
+  "sts27": [
+   "sts27_1.jpg",
+   "sts27_2.jpg",
+   "sts27_3.jpg"
+  ],
+  "t10a": [
+   "t10a_1.jpg",
+   "t10a_2.jpg",
+   "t10a_3.jpg"
+  ],
+  "taiga": [
+   "taiga_1.jpeg",
+   "taiga_2.jpeg",
+   "taiga_3.jpeg"
+  ],
+  "titov": [
+   "titov_1.jpg",
+   "titov_2.jpg",
+   "titov_3.jpg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.97,
+ "mouth": {}
+}
