@@ -20,7 +20,7 @@ import {
 } from "remotion";
 import "../lib/fonts";
 import { DIAGRAMS } from "./Diagrams";
-import { MascotReact, SketchScene } from "./Sketch";
+import { MascotReact, MascotZoom, SketchScene } from "./Sketch";
 
 const FPS = 30;
 const BASE = "#05070C";
@@ -81,6 +81,9 @@ export type DocScene = {
    *  circle:[cx,cy,r] = ink-circle highlight drawn on the illustration. */
   sketch?: boolean; react?: string; note?: string; speak?: boolean;
   circle?: number[];  // [cx, cy, r] — plain array so JSON imports typecheck
+  /** full-screen mascot cutaway: the character fills the frame at face scale
+   *  and speaks the scene (requires speak:true for the mouth track) */
+  mascotFull?: boolean;
 };
 export type DocSpec = { slug: string; title: string; channel?: string; scenes: DocScene[] };
 export type DocManifest = {
@@ -467,6 +470,10 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest, outro?: OutroSp
                 ? <RadioScene s={s} slug={doc.slug} m={manifest} th={th} />
                 : s.video
                 ? <VideoScene s={s} slug={doc.slug} m={manifest} th={th} />
+                : s.mascotFull
+                ? <MascotZoom
+                    sceneDur={dur} mouthOffset={LEAD} cap={s.cap} accent={th.accent}
+                    mouth={s.speak ? manifest.mouth?.[s.id] : undefined} />
                 : s.sketch
                 ? <SketchScene
                     file={(() => {
@@ -478,10 +485,23 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest, outro?: OutroSp
                 : s.diagram
                 ? <DiagramScene s={s} slug={doc.slug} m={manifest} th={th} />
                 : <IllusScene s={s} slug={doc.slug} m={manifest} idx={sceneFileIdx[s.id] ?? i} th={th} />}
-              {(s.react || s.speak) && (
+              {(s.react || s.speak) && !s.mascotFull && (
                 <MascotReact
                   pose={s.react ?? "host_m0"} sceneDur={dur} mouthOffset={LEAD}
                   mouth={s.speak ? manifest.mouth?.[s.id] : undefined} />
+              )}
+              {s.mascotFull && (
+                <>
+                  {manifest.durations[s.id] !== undefined && (
+                    <Sequence from={LEAD}>
+                      <Audio src={staticFile(`shorts/${doc.slug}/audio/${s.id}.mp3`)} />
+                    </Sequence>
+                  )}
+                  <SceneSfx sceneDur={dur} cues={sceneCues(s, [
+                    { name: "page_turn", at: 0, volume: 0.22 },
+                    { name: "sketch_pop", at: 4 },
+                  ])} />
+                </>
               )}
               {s.sketch && (
                 <>

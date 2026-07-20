@@ -131,6 +131,82 @@ export const MascotReact: React.FC<{
   );
 };
 
+/** Full-screen mascot cutaway ("mascotFull": true) — the character takes over
+ *  the frame, zoomed to face scale, and SPEAKS the scene's narration (mouth
+ *  track from the manifest). The comedic-aside beat between heavy chapters:
+ *  page-turn in, punchy line, gone. Works inside any doc (real-footage docs
+ *  included) — the paper takeover reads as the brand's voice interrupting. */
+export const MascotZoom: React.FC<{
+  sceneDur: number; mouth?: string; mouthOffset?: number;
+  cap?: string; accent: string;
+}> = ({ sceneDur, mouth, mouthOffset = 10, cap, accent }) => {
+  const frame = useCurrentFrame();
+  const pop = spring({ frame: frame - 2, fps: FPS, config: { damping: 13, stiffness: 120 } });
+  const out = interpolate(frame, [sceneDur - 7, sceneDur - 1], [1, 0],
+    { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const step = Math.floor(frame / 3);
+  const jit = mulberry32(9091 + step);
+  const bob = Math.sin(step / 3.2) * 10 + (jit() - 0.5) * 3;
+  const tilt = Math.sin(step / 5.1) * 1.4 + (jit() - 0.5) * 0.9;
+
+  let state = 0;
+  if (mouth && mouth.length > 0) {
+    const i = Math.min(Math.max(frame - mouthOffset, 0), mouth.length - 1);
+    state = Math.min(3, Math.max(0, Number(mouth[i]) || 0));
+  }
+  const emph = 1 + state * 0.006;
+  const capIn = interpolate(frame, [8, 22], [0, 1],
+    { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+
+  // face-scale zoom: the rig PNGs are full-body with the head in the top ~38%;
+  // blowing the image up to ~2.3x screen height and pulling it down centres
+  // the face and fills the frame
+  const IMG_H = 2450;
+  return (
+    <AbsoluteFill style={{ overflow: "hidden" }}>
+      <style>{SKETCH_FONT_CSS}</style>
+      <Paper />
+      <svg width={0} height={0} style={{ position: "absolute" }}>
+        <filter id="zoomboil" x="-4%" y="-4%" width="108%" height="108%">
+          <feTurbulence type="turbulence" baseFrequency="0.016" numOctaves={2}
+            seed={40 + (step % 3)} result="t" />
+          <feDisplacementMap in="SourceGraphic" in2="t" scale={5}
+            xChannelSelector="R" yChannelSelector="G" />
+        </filter>
+      </svg>
+      <div style={{
+        position: "absolute", left: "50%", top: -175 + bob,
+        width: IMG_H, height: IMG_H,
+        transform: `translateX(-50%) scale(${(0.82 + 0.18 * pop) * out * emph}) rotate(${tilt}deg)`,
+        transformOrigin: "50% 30%",
+      }}>
+        <Img
+          src={staticFile(`mascot/host_m${state}.png`)}
+          style={{
+            width: "100%", height: "100%", objectFit: "contain",
+            filter: "url(#zoomboil) drop-shadow(0px 10px 0px rgba(28,26,23,0.12))",
+          }}
+        />
+      </div>
+      {cap && (
+        <div style={{
+          position: "absolute", left: 0, right: 0, bottom: 44, textAlign: "center",
+          opacity: capIn, transform: `translateY(${(1 - capIn) * 16}px) rotate(-0.8deg)`,
+          fontFamily: "'Caveat', cursive", fontWeight: 700, fontSize: 84,
+          color: INK,
+        }}>
+          <span style={{
+            background: "rgba(244,240,230,0.85)", padding: "0 28px",
+            borderRadius: 14, boxShadow: `0 4px 0 ${accent}`,
+          }}>
+            {cap}
+          </span>
+        </div>
+      )}
+    </AbsoluteFill>
+  );
+};
+
 /** Point on the boustrophedon scribble at progress p — drives the pencil
  *  cursor that "draws" the reveal (the classic whiteboard retention trick). */
 const scribblePoint = (p: number, w: number, h: number, bands: number) => {

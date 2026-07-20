@@ -106,6 +106,14 @@
    "tone": "awe"
   },
   {
+   "id": "m1",
+   "text": "Quick reality check. His instruments said the shield was loose. His window was full of fire. And his pulse barely moved. [pause] Test pilots are built different.",
+   "mascotFull": true,
+   "speak": true,
+   "tone": "confidence",
+   "cap": "test pilots are built different"
+  },
+  {
    "id": "c2t",
    "text": "1965. The man outside.",
    "chapter": "1965\nTHE MAN OUTSIDE"
@@ -220,6 +228,14 @@
    "img": "gemini8crew",
    "cap": "The pilot was Neil Armstrong.",
    "tone": "awe"
+  },
+  {
+   "id": "m2",
+   "text": "One revolution per second. Your ceiling fan does that. Now imagine reading tiny gauges taped to it, while your eyes shut down. [pause] And he fixed it blind.",
+   "mascotFull": true,
+   "speak": true,
+   "tone": "shock",
+   "cap": "your ceiling fan does that"
   },
   {
    "id": "c4t",
@@ -360,6 +376,14 @@
    "query": "Apollo 13 recovery Iwo Jima crew aboard",
    "cap": "Everything fired anyway.",
    "tone": "awe"
+  },
+  {
+   "id": "m3",
+   "text": "So the score so far: cardboard, plastic bags, and duct tape — 300,000 kilometres from the nearest hardware store. Never let an engineer tell you they need a bigger budget.",
+   "mascotFull": true,
+   "speak": true,
+   "tone": "excitement",
+   "cap": "duct tape: 1 — space: 0"
   },
   {
    "id": "c6t",
@@ -664,6 +688,14 @@
    "stat": "EVERY SUIT NOW HAS A SNORKEL",
    "cap": "The snorkel in every suit is his legacy.",
    "tone": "confidence"
+  },
+  {
+   "id": "m4",
+   "text": "He almost drowned. In space. The universe really needs to pick a lane. And that is why every spacesuit now ships with a snorkel. An actual snorkel.",
+   "mascotFull": true,
+   "speak": true,
+   "tone": "curiosity",
+   "cap": "an actual snorkel"
   },
   {
    "id": "c12t",
