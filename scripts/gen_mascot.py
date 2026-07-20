@@ -74,19 +74,49 @@ MOUTHS = {
 }
 
 
-def white_to_alpha(src: Path, dst: Path, thresh: int = 242) -> None:
+def white_to_alpha(src: Path, dst: Path, thresh: int = 242,
+                   fill_holes: bool = True) -> None:
     """Paper-white background -> transparency, with a soft ramp so ink
-    anti-aliasing keeps its edge (sketch art on white converts cleanly)."""
+    anti-aliasing keeps its edge (sketch art on white converts cleanly).
+
+    fill_holes: near-white regions ENCLOSED by ink (helmet visors, eye
+    whites, teeth) are restored to opaque — only transparency connected to
+    the image border is real background. Without this the mascot's visor
+    was a see-through hole over dark scenes (found on the 2026-07-20
+    upgrade smoke still)."""
     im = Image.open(src).convert("RGBA")
     px = im.load()
     w, h = im.size
+    whiteish = [[False] * w for _ in range(h)]
     for y in range(h):
         for x in range(w):
             r, g, b, a = px[x, y]
             lum = (r + g + b) // 3
-            if lum >= thresh and abs(r - g) < 14 and abs(g - b) < 14:
+            whiteish[y][x] = (lum >= thresh - 22 and abs(r - g) < 14
+                              and abs(g - b) < 14)
+    outside = [[False] * w for _ in range(h)]
+    if fill_holes:
+        # flood the whiteish region reachable from the border — that is the
+        # true background; enclosed whiteish pockets stay opaque
+        stack = [(x, y) for x in range(w) for y in (0, h - 1) if whiteish[y][x]]
+        stack += [(x, y) for y in range(h) for x in (0, w - 1) if whiteish[y][x]]
+        for x, y in stack:
+            outside[y][x] = True
+        while stack:
+            x, y = stack.pop()
+            for nx, ny in ((x - 1, y), (x + 1, y), (x, y - 1), (x, y + 1)):
+                if 0 <= nx < w and 0 <= ny < h and whiteish[ny][nx] and not outside[ny][nx]:
+                    outside[ny][nx] = True
+                    stack.append((nx, ny))
+    for y in range(h):
+        for x in range(w):
+            if not whiteish[y][x] or (fill_holes and not outside[y][x]):
+                continue
+            r, g, b, a = px[x, y]
+            lum = (r + g + b) // 3
+            if lum >= thresh:
                 px[x, y] = (r, g, b, 0)
-            elif lum >= thresh - 22 and abs(r - g) < 14 and abs(g - b) < 14:
+            else:
                 fade = int(255 * (thresh - lum) / 22)
                 px[x, y] = (r, g, b, min(a, fade))
     im.save(dst)
