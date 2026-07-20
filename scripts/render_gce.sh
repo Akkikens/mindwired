@@ -24,8 +24,11 @@ SLUG="${2:?usage: render_gce.sh <CompId> <slug> [render args...]}"
 shift 2
 EXTRA_ARGS=("$@")
 
-ZONE="${GCE_ZONE:-us-central1-a}"
-MACHINE="${GCE_MACHINE:-c2d-standard-32}"
+ZONE="${GCE_ZONE:-us-central1-f}"
+# highcpu: same 32 cores, half the RAM (64GB, plenty for ~28 Chrome tabs),
+# ~15% cheaper than -standard
+MACHINE="${GCE_MACHINE:-c2d-highcpu-32}"
+BASE_IMAGE="mindwired-render-base"
 NAME="render-${SLUG}-$(date +%s | tail -c 5)"
 REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 REMOTE=mindwired
@@ -36,12 +39,43 @@ cleanup() {
 }
 trap cleanup EXIT
 
-echo "[gce] creating spot VM ${NAME} (${MACHINE}, ${ZONE})…"
-gcloud compute instances create "$NAME" \
-  --zone "$ZONE" --machine-type "$MACHINE" \
-  --provisioning-model=SPOT --instance-termination-action=DELETE \
-  --image-family=ubuntu-2404-lts-amd64 --image-project=ubuntu-os-cloud \
-  --boot-disk-size=120GB --boot-disk-type=pd-ssd
+# reuse the baked base image when it exists — skips ~6 min of apt/npm/chrome
+# setup per render (that idle setup time is pure spot-$ waste)
+if gcloud compute images describe "$BASE_IMAGE" >/dev/null 2>&1; then
+  IMAGE_ARGS=(--image "$BASE_IMAGE")
+  HAVE_BASE=1
+else
+  IMAGE_ARGS=(--image-family=ubuntu-2404-lts-amd64 --image-project=ubuntu-os-cloud)
+  HAVE_BASE=0
+fi
+
+# spot capacity is fickle — walk a ladder of equivalent 32-core machines and
+# zones until one sticks (all AMD/Intel 32 vCPU, spot $0.3-0.7/hr)
+CANDIDATES=(
+  "${MACHINE}:${ZONE}"
+  "c2d-highcpu-32:us-central1-b" "c2d-highcpu-32:us-east1-c"
+  "n2d-highcpu-32:us-central1-a" "n2d-highcpu-32:us-east1-b"
+  "n2d-standard-32:us-central1-f" "e2-highcpu-32:us-east1-d"
+  "e2-highcpu-32:us-central1-c" "n2-highcpu-32:us-east4-a"
+)
+CREATED=0
+for cand in "${CANDIDATES[@]}"; do
+  M="${cand%%:*}"; Z="${cand##*:}"
+  echo "[gce] trying spot ${M} in ${Z} (base=${HAVE_BASE})…"
+  if gcloud compute instances create "$NAME" \
+      --zone "$Z" --machine-type "$M" \
+      --provisioning-model=SPOT --instance-termination-action=DELETE \
+      "${IMAGE_ARGS[@]}" \
+      --boot-disk-size=60GB --boot-disk-type=pd-balanced 2>&1 | tail -2; then
+    MACHINE="$M"; ZONE="$Z"; CREATED=1
+    break
+  fi
+done
+if [ "$CREATED" != "1" ]; then
+  echo "[gce] NO SPOT CAPACITY anywhere on the ladder — rerun later or set GCE_ONDEMAND=1"
+  exit 1
+fi
+echo "[gce] created ${NAME} (${MACHINE}, ${ZONE})"
 
 echo "[gce] waiting for SSH…"
 for i in $(seq 1 30); do
@@ -49,6 +83,9 @@ for i in $(seq 1 30); do
   sleep 10
 done
 
+if [ "$HAVE_BASE" = "1" ]; then
+  echo "[gce] base image — skipping toolchain install"
+else
 echo "[gce] installing node/ffmpeg/chrome deps…"
 gcloud compute ssh "$NAME" --zone "$ZONE" --command "
   set -e
@@ -61,6 +98,7 @@ gcloud compute ssh "$NAME" --zone "$ZONE" --command "
   sudo apt-get install -y -qq nodejs > /dev/null
   node --version && ffmpeg -version | head -1
 "
+fi
 
 echo "[gce] syncing project (selective)…"
 RSYNC_RSH="$(gcloud compute ssh "$NAME" --zone "$ZONE" --dry-run 2>/dev/null | sed 's/ [^ ]*$//')"
@@ -87,7 +125,7 @@ gcloud compute ssh "$NAME" --zone "$ZONE" --command "
   ls node_modules/.bin/remotion || { echo INSTALL_BROKEN; exit 1; }
   npx remotion browser ensure 2>&1 | tail -2
   mkdir -p out
-  nohup python3 scripts/render_and_master.py '$COMP' out/${SLUG}.mp4 --scale 2 ${EXTRA_ARGS[*]} \
+  nohup python3 scripts/render_and_master.py '$COMP' out/${SLUG}.mp4 --scale 2 --concurrency 28 ${EXTRA_ARGS[*]} \
     > out/render.log 2>&1 &
   echo started
 "
@@ -114,4 +152,13 @@ done
 echo "[gce] fetching master…"
 gcloud compute scp "$NAME":~/$REMOTE/out/${SLUG}.mp4 "$REPO_DIR/out/${SLUG}_gce.mp4" --zone "$ZONE"
 gcloud compute ssh "$NAME" --zone "$ZONE" --command "tail -4 $REMOTE/out/render.log"
+
+if [ "$HAVE_BASE" = "0" ]; then
+  echo "[gce] baking base image for future renders (skips setup next time)…"
+  gcloud compute ssh "$NAME" --zone "$ZONE" --command \
+    "cd $REMOTE && rm -rf out public/shorts && sync" || true
+  gcloud compute instances stop "$NAME" --zone "$ZONE" --quiet
+  gcloud compute images create "$BASE_IMAGE" \
+    --source-disk "$NAME" --source-disk-zone "$ZONE" || true
+fi
 echo "[gce] done -> out/${SLUG}_gce.mp4 (VM auto-deletes now)"

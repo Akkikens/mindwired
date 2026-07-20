@@ -47,6 +47,9 @@ def main():
     ap.add_argument("--scale", type=float,
                     help="Remotion --scale (2 = 4K from a 1080p comp; text/SVG stay "
                          "lossless, expect ~2-4x render time)")
+    ap.add_argument("--concurrency", type=int,
+                    help="Remotion render concurrency (default ~cores/2; on a "
+                         "32-core render VM pass ~28 to actually use the cores)")
     args = ap.parse_args()
 
     out: Path = args.out
@@ -66,6 +69,8 @@ def main():
             cmd += [f"--gl={args.gl}"]
         if args.scale:
             cmd += [f"--scale={args.scale}"]
+        if args.concurrency:
+            cmd += [f"--concurrency={args.concurrency}"]
         print(f"[render] {' '.join(cmd)}")
         r = subprocess.run(cmd)
         if r.returncode != 0:
