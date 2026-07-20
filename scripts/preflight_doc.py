@@ -93,6 +93,9 @@ def main() -> int:
             block(f"{sid}: diagram '{s['diagram']}' not in DIAGRAMS (blank scene)")
         if s.get("speaker") and not s.get("radioLabel"):
             block(f"{sid}: radio scene without radioLabel — label ACTUAL vs RECREATION")
+        if s.get("speaker") and "[pause]" in s.get("text", ""):
+            block(f"{sid}: [pause] marker in a RADIO scene — RadioScene renders text "
+                  f"verbatim on screen; the marker is for narration-only scenes")
         for cue in s.get("sfx", []):
             if cue.get("name") not in sfx_names:
                 block(f"{sid}: sfx '{cue.get('name')}' not in public/sfx/ "
@@ -110,6 +113,26 @@ def main() -> int:
                        capture_output=True, text=True)
     if r.returncode != 0:
         block("lint_tts_text hits:\n" + (r.stdout or r.stderr).strip())
+
+    # scene<->visual relevance + cross-video reuse (audit_scene_relevance.py):
+    # hook footage recycled from another slug BLOCKS (new video = new hook,
+    # 2026-07-19); mismatched/generic/overused visuals warn.
+    r = subprocess.run([sys.executable, str(REPO / "scripts/audit_scene_relevance.py"), slug],
+                       capture_output=True, text=True)
+    rel_lines = [l for l in (r.stdout or "").splitlines() if l.strip()]
+    if r.returncode == 2:
+        block("relevance audit — hook reuses another video's footage:\n" +
+              "\n".join(l for l in rel_lines if l.startswith("BLOCK")))
+    elif r.returncode != 0:
+        # the audit CRASHED — never let the anti-slop gate vanish silently
+        warn(f"relevance audit crashed (exit {r.returncode}) — gate did NOT run; "
+             f"fix and rerun: {(r.stderr or r.stdout or '').strip()[-300:]}")
+    rel_warns = [l for l in rel_lines if l.startswith("warn")]
+    if rel_warns:
+        warn(f"relevance audit: {len(rel_warns)} scene<->visual issues — run "
+             f"`python3 scripts/audit_scene_relevance.py {slug}` for the full list; top hits:")
+        for l in rel_warns[:8]:
+            warn("  " + l[6:].strip())
 
     # ---- hook checklist (warnings) ----
     first = scenes[0]

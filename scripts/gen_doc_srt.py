@@ -35,7 +35,10 @@ def main() -> None:
             stamp = f"{hh}:{mm:02d}:{ss:02d}" if hh else f"{mm:02d}:{ss:02d}"
             chapters.append(f"{stamp} {sc['chapter'].splitlines()[1]}")
         start = cursor + LEAD / FPS
-        sents = [x.strip() for x in re.split(r"(?<=[.!?])\s+", sc["text"]) if x.strip()]
+        # strip the [pause] dramatic-beat marker (TTS-only, see cartesia.with_pauses)
+        # so it never ships in subtitles or skews the per-word cue timing
+        spoken = re.sub(r"\s*\[pause\]\s*", " ", sc["text"]).strip()
+        sents = [x.strip() for x in re.split(r"(?<=[.!?])\s+", spoken) if x.strip()]
         groups, cur = [], ""
         for x in sents:
             if cur and len(cur) + len(x) + 1 > 90:

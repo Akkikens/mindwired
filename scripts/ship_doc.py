@@ -62,6 +62,30 @@ def main() -> None:
                          str(doctiming.DOCS / f"{slug}.json")])
     run("2/8 radio recreations", [PY, "scripts/radio_recreate.py", slug])
     run("3/8 VO build + manifest", [PY, "scripts/build_doc_vo.py", slug])
+
+    # run-BY-EAR check (2026-07-19, "AI voice" complaints): splice 3 clips
+    # (hook / middle / last) into one sample and actually listen to it.
+    import json
+    doc_scenes = json.loads((doctiming.DOCS / f"{slug}.json").read_text())["scenes"]
+    audio = REPO / "public" / "shorts" / slug / "audio"
+    picks = list(dict.fromkeys(
+        doc_scenes[i]["id"] for i in (0, len(doc_scenes) // 2, -1))) if doc_scenes else []
+    clips = [audio / f"{sid}.mp3" for sid in picks if (audio / f"{sid}.mp3").exists()]
+    if clips:
+        sample = REPO / "out" / "qa" / f"{slug}_vo_sample.mp3"
+        sample.parent.mkdir(parents=True, exist_ok=True)
+        lst = sample.with_suffix(".txt")
+        lst.write_text("".join(f"file '{c}'\n" for c in clips))
+        rc = subprocess.run(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0",
+                             "-i", str(lst), "-c", "copy", str(sample)], cwd=REPO).returncode
+        lst.unlink(missing_ok=True)
+        if rc == 0 and sample.exists() and sample.stat().st_size > 0:
+            checkpoint(f"LISTEN to {sample.relative_to(REPO)} (scenes {'+'.join(picks)}) — "
+                       f"pacing/emotion/pronunciation OK?", args.yes)
+        else:
+            checkpoint(f"VO sample concat FAILED (ffmpeg rc={rc}) — listen to 2-3 clips "
+                       f"under {audio.relative_to(REPO)} by hand.", args.yes)
+
     run("4/8 image audit (contact sheets -> out/qa/)",
         [PY, "scripts/audit_doc_images.py", slug])
     checkpoint(f"eyeball the contact sheets in out/qa/ for {slug}.", args.yes)

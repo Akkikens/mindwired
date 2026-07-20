@@ -48,10 +48,26 @@ def main() -> None:
     ap.add_argument("--only", default="")
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--manifest-only", action="store_true")
-    ap.add_argument("--speed", type=float, default=0.94)
+    # 0.97 (was 0.94, 2026-07-19): global slowdown reads robotic per Cartesia's
+    # own docs — keep the pace near-natural, let punctuation do the breathing.
+    # A/B evidence: out/qa/vo_ab/ (scripts/vo_ab_test.py).
+    ap.add_argument("--speed", type=float, default=None,
+                    help="default: the speed this episode was built with (manifest), "
+                         "else 0.97 — so --only re-synths can't splice a different "
+                         "cadence between existing clips")
     args = ap.parse_args()
 
     doc = json.loads((DOCS / f"{args.slug}.json").read_text())
+    mpath_prev = DOCS / f"{args.slug}.manifest.json"
+    prev_speed = None
+    if mpath_prev.exists():
+        prev_speed = json.loads(mpath_prev.read_text()).get("speed")
+    if args.speed is None:
+        args.speed = prev_speed or 0.97
+    elif prev_speed and abs(args.speed - prev_speed) > 0.001:
+        print(f"NOTE: episode was built at speed {prev_speed}; you passed "
+              f"{args.speed} — mixed clips will have an audible cadence jump. "
+              f"Use --force to re-synth ALL clips at the new speed.")
     out = REPO / "public" / "shorts" / args.slug
     audio_dir = out / "audio"; audio_dir.mkdir(parents=True, exist_ok=True)
     only = {s.strip() for s in args.only.split(",") if s.strip()}
@@ -74,7 +90,8 @@ def main() -> None:
             durs[bid] = round(duration(dst), 3)
 
     missing = [s["id"] for s in doc["scenes"] if s["id"] not in durs]
-    manifest = {"durations": durs, "images": scan_images(out / "images"), "missing": missing}
+    manifest = {"durations": durs, "images": scan_images(out / "images"),
+                "missing": missing, "speed": args.speed}
     mpath = DOCS / f"{args.slug}.manifest.json"
     mpath.write_text(json.dumps(manifest, indent=1))
     total = sum(durs.values())

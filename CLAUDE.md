@@ -101,20 +101,68 @@ Box episode). The channel's signature capability:
 - US1549 ("Miracle on the Hudson") evidence is already fetched and is a
   validated future episode.
 
+## Real-footage-first pipeline (anti-"AI slop" — 2026-07-19)
+
+Born from real viewer comments ("Bloody AI slop!", "Poorly visuals") and two MH370
+videos shipping the same takeoff clip. Research + verification log:
+docs/planning/FOOTAGE-UPGRADE.md; per-niche source rankings: scripts/SOURCES-GUIDE.md.
+
+- **ONE fetcher for real footage+photos:** `scripts/fetch_footage.py "<query>"
+  --niche aviation|space|ocean|history|football|tech|generic --kind video|image
+  --out <dir> --prefix <p> --count N` — tries 12 free sources in ranked order
+  (NARA/archive.org/NASA/SVS/ESO/LoC/NOAA/Commons/DVIDS/Pexels/Pixabay/Openverse),
+  PD/CC0/CC-BY/CC-BY-SA only, transcodes to 1080p H.264, logs ATTRIBUTION.md,
+  drops a contact sheet in out/qa/. **EYEBALL every contact sheet** — search APIs
+  return junk confidently. Optional free keys unlock more: PEXELS_API_KEY,
+  PIXABAY_API_KEY, DVIDS_API_KEY in .env.
+- **Real thing > real category > stock > AI.** Every concrete noun the narration
+  dwells on (a plane, a ship, a place, a person) gets REAL footage of that thing
+  when it exists. AI/stylized shots only for abstractions or unfilmable moments —
+  never for real people/events with archival coverage. Pexels/Pixabay are generic
+  modern b-roll only, never presented as archival.
+- **NEW VIDEO = NEW FOOTAGE (Akshay, 2026-07-19).** Never copy another slug's
+  media dir; research every episode fresh. The first ~30s hook using ANY file
+  another video already used is a render-BLOCKING preflight failure.
+- **Relevance gate:** `python3 scripts/audit_scene_relevance.py <slug>` checks
+  every scene's narration against what its assigned file actually IS (source
+  title from ATTRIBUTION.md): MISMATCH/WEAK/UNSOURCED/REUSE warnings + the
+  HOOK-REUSE block. Runs inside preflight_doc.py automatically — fix flags by
+  refetching real footage, not by hoping.
+
+## VO quality (the "AI voice" complaint — 2026-07-19)
+
+Verified against docs.cartesia.ai; A/B evidence in out/qa/vo_ab/ (listen!).
+- **No blanket `<break>` tags** — Cartesia's docs warn they degrade naturalness
+  (the old per-sentence breaks = ~19% injected dead air, measured). Punctuation
+  drives prosody; the writer marker `[pause]` in scene text = one deliberate
+  750ms beat before a reveal. Use sparingly.
+- Speed near-natural: cartesia.tts default 1.0, build_doc_vo default 0.97
+  (chapter cards −0.02). A global slowdown reads robotic.
+- Model pinned to the dated snapshot (`sonic-3.5-2026-05-04`) so idempotent
+  per-clip rebuilds can't drift timbre mid-episode; auto-fallback to `sonic-3.5`.
+- **Never ALL-CAPS in spoken text** (TTS spells it letter-by-letter — "ERASED"
+  → E-R-A-S-E-D); emphasis caps belong in cap/stat/mainText only. Lint enforces.
+- ship_doc.py now has a run-by-EAR gate: it splices hook+middle+last VO clips
+  into out/qa/<slug>_vo_sample.mp3 — LISTEN before continuing.
+- Scene-level paragraph requests are correct (per-sentence = prosody seams);
+  keep scenes multi-sentence.
+
 ## Doc-engine studio layer (SFX / music scoring / motion / gates — 2026-07-18)
 
 Backlog + rationale: docs/planning/STUDIO-UPGRADE.md.
 
 - **One command per episode:** `python3 scripts/ship_doc.py <slug> <CompId>
   [--music public/beds/<bed>.mp3] [--windowed] [--yes]` runs every gate in the
-  mandatory order (lint → radio_recreate → build_doc_vo → image audit →
-  preflight → 4 stills → ONE render_and_master → SRT) with human checkpoints
-  at the contact sheets and stills. Prefer it over running the steps by hand.
+  mandatory order (lint → radio_recreate → build_doc_vo → VO ear-check →
+  image audit → preflight → 4 stills → ONE render_and_master → SRT) with human
+  checkpoints at the VO sample, contact sheets and stills. Prefer it over
+  running the steps by hand.
 - **Preflight is a hard gate:** `scripts/preflight_doc.py <slug>` BLOCKS the
   render on stale manifests, missing img/video/diagram refs, empty Cartesia
-  clips, unlabeled radio scenes, unknown sfx names, and TTS-lint hits; warns on
-  hook-checklist violations (docs/guides/HOOK-CHECKLIST.md). Never render a doc
-  that hasn't passed it.
+  clips, unlabeled radio scenes, unknown sfx names, TTS-lint hits, and
+  hook-footage reused from another video (audit_scene_relevance.py); warns on
+  scene<->visual mismatches and hook-checklist violations
+  (docs/guides/HOOK-CHECKLIST.md). Never render a doc that hasn't passed it.
 - **SFX layer (baked into the ONE render):** `public/sfx/` holds the owned,
   ffmpeg-synthesized kit (`scripts/gen_sfx_kit.py`; license log in
   public/sfx/LICENSES.md). DocWide plays automatic cues — radio key-up squelch
