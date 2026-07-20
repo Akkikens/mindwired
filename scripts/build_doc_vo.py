@@ -21,6 +21,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent / "lib"))
 import cartesia  # noqa: E402
+import mouthtrack  # noqa: E402
 
 REPO = Path(__file__).resolve().parent.parent
 DOCS = REPO / "src" / "mindwired-doc" / "docs"
@@ -90,9 +91,17 @@ def main() -> None:
         if dst.exists():
             durs[bid] = round(duration(dst), 3)
 
+    # cartoon lip-sync tracks for scenes where the mascot speaks the narration
+    # ("speak": true) — cheap enough to compute for every clip (see mouthtrack.py)
+    mouths: dict[str, str] = {}
+    for s in doc["scenes"]:
+        clip = audio_dir / f"{s['id']}.mp3"
+        if s.get("speak") and clip.exists():
+            mouths[s["id"]] = mouthtrack.mouth_track(clip)
+
     missing = [s["id"] for s in doc["scenes"] if s["id"] not in durs]
     manifest = {"durations": durs, "images": scan_images(out / "images"),
-                "missing": missing, "speed": args.speed}
+                "missing": missing, "speed": args.speed, "mouth": mouths}
     mpath = DOCS / f"{args.slug}.manifest.json"
     mpath.write_text(json.dumps(manifest, indent=1))
     total = sum(durs.values())

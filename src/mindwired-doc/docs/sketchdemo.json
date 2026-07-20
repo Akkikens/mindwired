@@ -1,6 +1,6 @@
 {
  "slug": "sketchdemo",
- "title": "SKETCH DEMO — The Sound That Circled Earth Four Times",
+ "title": "SKETCH DEMO \u2014 The Sound That Circled Earth Four Times",
  "language": "en",
  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
  "channel": "mindwired",
@@ -10,11 +10,17 @@
    "text": "In 1883, a volcano in Indonesia made a sound so loud, it circled the entire planet. [pause] Four times.",
    "img": "krakatoa",
    "sketch": true,
-   "react": "shocked",
    "tone": "shock",
    "stat": "1883",
    "cap": "The loudest sound in recorded history",
-   "sfx": [{"name": "chapter_boom", "at": "in", "volume": 0.22}]
+   "sfx": [
+    {
+     "name": "chapter_boom",
+     "at": "in",
+     "volume": 0.22
+    }
+   ],
+   "speak": true
   },
   {
    "id": "d2",
@@ -31,10 +37,15 @@
    "text": "Three thousand miles away, on an island near Africa, a police chief heard it and reported the roar of heavy guns. There were no guns. There was nothing but ocean.",
    "img": "map",
    "sketch": true,
-   "react": "thinking",
    "tone": "curiosity",
    "stat": "3,000 MILES",
-   "cap": "Heard across an entire ocean"
+   "cap": "Heard across an entire ocean",
+   "speak": true,
+   "circle": [
+    980,
+    380,
+    130
+   ]
   },
   {
    "id": "d4",
@@ -44,16 +55,22 @@
    "react": "mindblown",
    "tone": "awe",
    "cap": "5 days. Every barometer on Earth.",
-   "sfx": [{"name": "stat_hit", "at": 30, "volume": 0.25}]
+   "sfx": [
+    {
+     "name": "stat_hit",
+     "at": 30,
+     "volume": 0.25
+    }
+   ]
   },
   {
    "id": "d5",
    "text": "If a sound this big shocked you, wait until you hear what the ocean recorded in 1997. Subscribe to mindwired.",
    "img": "krakatoa",
    "sketch": true,
-   "react": "excited",
    "tone": "excitement",
-   "cap": "subscribe to mindwired"
+   "cap": "subscribe to mindwired",
+   "speak": true
   }
  ]
 }

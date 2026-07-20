@@ -96,6 +96,21 @@ def main() -> int:
         if s.get("speaker") and "[pause]" in s.get("text", ""):
             block(f"{sid}: [pause] marker in a RADIO scene — RadioScene renders text "
                   f"verbatim on screen; the marker is for narration-only scenes")
+        # sketch-brand fields (Sketch.tsx): a typo'd pose or missing mouth
+        # track renders a blank corner / frozen mouth — block before the render
+        mascot_dir = REPO / "public" / "mascot"
+        if s.get("react") and not (mascot_dir / f"{s['react']}.png").exists():
+            block(f"{sid}: react pose '{s['react']}' not in public/mascot/ "
+                  f"(run gen_mascot.py + copy, or fix the pose name)")
+        if s.get("speak"):
+            missing_rig = [f"host_m{k}" for k in range(4)
+                           if not (mascot_dir / f"host_m{k}.png").exists()]
+            if missing_rig:
+                block(f"{sid}: speak:true but talking rig missing "
+                      f"({', '.join(missing_rig)}) — gen_mascot.py --only host")
+            if not man.get("mouth", {}).get(sid):
+                block(f"{sid}: speak:true but no mouth track in manifest — "
+                      f"rerun build_doc_vo.py {slug} --manifest-only")
         for cue in s.get("sfx", []):
             if cue.get("name") not in sfx_names:
                 block(f"{sid}: sfx '{cue.get('name')}' not in public/sfx/ "

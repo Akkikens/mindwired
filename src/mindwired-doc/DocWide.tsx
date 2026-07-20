@@ -45,7 +45,9 @@ const THEMES: Record<string, Theme> = {
 /** One SFX cue: name = file stem in public/sfx/ (see scripts/gen_sfx_kit.py).
  *  at: frame offset, or "in" (scene start) / "out" (scene end minus the clip).
  *  loop: repeat until the scene ends (ambience/static beds). */
-export type SfxCue = { name: string; at?: number | "in" | "out"; volume?: number; loop?: boolean };
+// `at` accepts plain string because JSON imports widen "in"/"out" literals;
+// unknown strings behave like "in" (scene start).
+export type SfxCue = { name: string; at?: number | string; volume?: number; loop?: boolean };
 
 export type DocScene = {
   id: string; text: string; cap?: string;
@@ -73,13 +75,19 @@ export type DocScene = {
   /** Hand-drawn brand layer (Sketch.tsx): sketch:true renders the img prefix as
    *  an ink illustration on paper (draw-on reveal, line boil, Caveat captions);
    *  react:<pose> pops the mascot (public/mascot/<pose>.png, gen_mascot.py)
-   *  into the corner of ANY scene type; note = handwritten margin annotation. */
-  sketch?: boolean; react?: string; note?: string;
+   *  into the corner of ANY scene type; note = handwritten margin annotation;
+   *  speak:true = the mascot SPEAKS the narration (cartoon mouth-flaps from the
+   *  manifest's per-frame loudness track — scripts/lib/mouthtrack.py);
+   *  circle:[cx,cy,r] = ink-circle highlight drawn on the illustration. */
+  sketch?: boolean; react?: string; note?: string; speak?: boolean;
+  circle?: number[];  // [cx, cy, r] — plain array so JSON imports typecheck
 };
 export type DocSpec = { slug: string; title: string; channel?: string; scenes: DocScene[] };
 export type DocManifest = {
   durations: Record<string, number>;
   images: Record<string, string[]>;
+  /** per-scene mouth-flap tracks ("0"-"3" per frame) for speak:true scenes */
+  mouth?: Record<string, string>;
 };
 // Subscribe outro baked INTO the render (one render, no separate ffmpeg concat).
 // file = REAL copy under public/ (NOT a symlink — Remotion doesn't bundle symlinks); frames @30fps.
@@ -117,7 +125,7 @@ const SceneSfx: React.FC<{ cues: SfxCue[]; sceneDur: number }> = ({ cues, sceneD
       const def = SFX[c.name];
       if (!def) return null;
       const from = c.at === "out" ? Math.max(0, sceneDur - def.frames - 6)
-        : c.at === "in" || c.at === undefined ? 0 : c.at;
+        : typeof c.at === "number" ? c.at : 0;  // "in"/undefined/unknown -> start
       const dur = c.loop ? Math.max(1, sceneDur - from) : Math.min(def.frames, sceneDur - from);
       if (dur <= 0) return null;
       return (
@@ -466,19 +474,35 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest, outro?: OutroSp
                       return fs.length ? fs[(sceneFileIdx[s.id] ?? i) % fs.length] : null;
                     })()}
                     slug={doc.slug} cap={s.cap} stat={s.stat} note={s.note}
-                    accent={th.accent} sceneDur={dur} />
+                    accent={th.accent} sceneDur={dur} circle={s.circle} />
                 : s.diagram
                 ? <DiagramScene s={s} slug={doc.slug} m={manifest} th={th} />
                 : <IllusScene s={s} slug={doc.slug} m={manifest} idx={sceneFileIdx[s.id] ?? i} th={th} />}
-              {s.react && <MascotReact pose={s.react} sceneDur={dur} />}
+              {(s.react || s.speak) && (
+                <MascotReact
+                  pose={s.react ?? "host_m0"} sceneDur={dur} mouthOffset={LEAD}
+                  mouth={s.speak ? manifest.mouth?.[s.id] : undefined} />
+              )}
               {s.sketch && (
-                // sketch auto-cues: marker scribble under the draw-on, a pop as
-                // the mascot lands, stat hit as usual (noAutoSfx silences)
-                <SceneSfx sceneDur={dur} cues={sceneCues(s, [
-                  { name: "sketch_scribble", at: "in" },
-                  ...(s.react ? [{ name: "sketch_pop", at: 6 } as SfxCue] : []),
-                  ...(s.stat ? [{ name: "stat_hit", at: 24 } as SfxCue] : []),
-                ])} />
+                <>
+                  {/* narration — scene components normally emit this; the
+                      sketch branch bypasses them (shipped silent once, 2026-07-20) */}
+                  {manifest.durations[s.id] !== undefined && (
+                    <Sequence from={LEAD}>
+                      <Audio src={staticFile(`shorts/${doc.slug}/audio/${s.id}.mp3`)} />
+                    </Sequence>
+                  )}
+                  {/* sketch auto-cues: marker scribble under the draw-on, a pop
+                      as the mascot lands, a page turn when the previous scene
+                      was also a sketch, stat hit as usual (noAutoSfx silences) */}
+                  <SceneSfx sceneDur={dur} cues={sceneCues(s, [
+                    { name: "sketch_scribble", at: 2 },
+                    ...(doc.scenes[i - 1]?.sketch
+                      ? [{ name: "page_turn", at: 0, volume: 0.18 } as SfxCue] : []),
+                    ...((s.react || s.speak) ? [{ name: "sketch_pop", at: 6 } as SfxCue] : []),
+                    ...(s.stat ? [{ name: "stat_hit", at: 24 } as SfxCue] : []),
+                  ])} />
+                </>
               )}
               {s.depth !== undefined && <DepthGauge from={depthPrev[s.id]} to={s.depth} th={th} />}
             </Sequence>

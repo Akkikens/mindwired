@@ -71,9 +71,16 @@ export const Paper: React.FC = () => (
   </AbsoluteFill>
 );
 
-/** The mascot popping into a corner and idling — the brand's face reacting.
- *  pose = file stem under public/mascot/. Works over ANY scene type. */
-export const MascotReact: React.FC<{ pose: string; sceneDur: number }> = ({ pose, sceneDur }) => {
+/** The mascot in the corner — the brand's face. Two modes:
+ *  - react: a held pose (pose = file stem under public/mascot/)
+ *  - speak: cartoon mouth-flaps — `mouth` is the per-frame loudness track
+ *    ("0"-"3" per video frame, scripts/lib/mouthtrack.py via the manifest);
+ *    the character swaps host_m0..m3 drawings and "acts" louder syllables.
+ *  The character BOILS while held (feTurbulence on threes) — a frozen drawing
+ *  is the digital tell. */
+export const MascotReact: React.FC<{
+  pose: string; sceneDur: number; mouth?: string; mouthOffset?: number;
+}> = ({ pose, sceneDur, mouth, mouthOffset = 10 }) => {
   const frame = useCurrentFrame();
   const pop = spring({ frame: frame - 4, fps: FPS, config: { damping: 11, stiffness: 140 } });
   const out = interpolate(frame, [sceneDur - 8, sceneDur - 2], [1, 0],
@@ -84,21 +91,55 @@ export const MascotReact: React.FC<{ pose: string; sceneDur: number }> = ({ pose
   const jit = mulberry32(seedOf(pose) + step);
   const bob = Math.sin(step / 3.6) * 6 + (jit() - 0.5) * 2;
   const tilt = Math.sin(step / 5.6) * 1.6 + (jit() - 0.5) * 0.8;
+
+  // speaking: sample the mouth track (one char per frame; narration starts at
+  // LEAD, passed as mouthOffset)
+  let file = pose;
+  let state = 0;
+  if (mouth && mouth.length > 0) {
+    const i = Math.min(Math.max(frame - mouthOffset, 0), mouth.length - 1);
+    state = Math.min(3, Math.max(0, Number(mouth[i]) || 0));
+    file = `host_m${state}`;
+  }
+  // acting: loud syllables push the whole character a touch (head-bob energy,
+  // not just a mouth hole) — quantized with the flaps
+  const emph = mouth ? 1 + state * 0.008 : 1;
+  const uid = `mboil-${seedOf(pose) % 997}`;
+
   return (
     <div style={{
-      position: "absolute", right: 44, bottom: 30, width: 320, height: 340,
-      transform: `scale(${pop * out}) translateY(${bob}px) rotate(${-3 + tilt}deg)`,
+      position: "absolute", right: 36, bottom: 12, width: 500, height: 530,
+      transform: `scale(${pop * out * emph}) translateY(${bob}px) rotate(${-3 + tilt}deg)`,
       transformOrigin: "bottom right",
     }}>
+      <svg width={0} height={0} style={{ position: "absolute" }}>
+        <filter id={uid} x="-4%" y="-4%" width="108%" height="108%">
+          <feTurbulence type="turbulence" baseFrequency="0.021" numOctaves={2}
+            seed={(seedOf(file) % 90) + (step % 3)} result="t" />
+          <feDisplacementMap in="SourceGraphic" in2="t" scale={4}
+            xChannelSelector="R" yChannelSelector="G" />
+        </filter>
+      </svg>
       <Img
-        src={staticFile(`mascot/${pose}.png`)}
+        src={staticFile(`mascot/${file}.png`)}
         style={{
           width: "100%", height: "100%", objectFit: "contain",
-          filter: "drop-shadow(3px 5px 0px rgba(28,26,23,0.18))",
+          filter: `url(#${uid}) drop-shadow(4px 7px 0px rgba(28,26,23,0.18))`,
         }}
       />
     </div>
   );
+};
+
+/** Point on the boustrophedon scribble at progress p — drives the pencil
+ *  cursor that "draws" the reveal (the classic whiteboard retention trick). */
+const scribblePoint = (p: number, w: number, h: number, bands: number) => {
+  const t = Math.min(Math.max(p, 0), 1) * bands;
+  const band = Math.min(bands - 1, Math.floor(t));
+  const u = t - band;
+  const y = (h / bands) * band + h / bands / 2;
+  const x = band % 2 === 0 ? u * w : (1 - u) * w;
+  return { x, y };
 };
 
 type SketchProps = {
@@ -109,10 +150,13 @@ type SketchProps = {
   note?: string;            // small handwritten margin annotation
   accent: string;           // channel accent color
   sceneDur: number;
+  /** ink-circle highlight drawn at ~55% through the scene: [cx, cy, r] in
+   *  illustration coords (0..1180 x 0..760) — direct the viewer's eye. */
+  circle?: number[];
 };
 
 export const SketchScene: React.FC<SketchProps> = ({
-  file, slug, cap, stat, note, accent, sceneDur,
+  file, slug, cap, stat, note, accent, sceneDur, circle,
 }) => {
   const frame = useCurrentFrame();
   const seed = seedOf(`${slug}:${file ?? "none"}`);
@@ -124,18 +168,28 @@ export const SketchScene: React.FC<SketchProps> = ({
   const W = 1180, H = 760;
   const bands = 9;
   const path = scribblePath(W, H, bands, seed);
-  // draw-on: marker covers the art in ~0.9s, eased like a real hand (fast
-  // middle, settling end)
-  const reveal = interpolate(frame, [2, 30], [0, 1],
+  // draw-on: the marker covers the art in ~1.5s — slow enough to read as a
+  // hand actually drawing (the anticipation is the retention hook)
+  const REVEAL_END = 46;
+  const reveal = interpolate(frame, [2, REVEAL_END], [0, 1],
     { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const dashLen = W * bands * 1.35;
+  const pen = scribblePoint(reveal, W, H, bands);
 
   const capIn = interpolate(frame, [16, 34], [0, 1],
     { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const underline = interpolate(frame, [30, 48], [0, 1],
     { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const statPop = spring({ frame: frame - 24, fps: FPS, config: { damping: 10, stiffness: 130 } });
+  // directed camera: slow push INTO the drawing (smooth 30fps against the
+  // 10fps boil = the mixed cadence of hand-made animation)
+  const push = interpolate(frame, [0, Math.max(sceneDur, 1)], [1.0, 1.045]);
   const drift = interpolate(frame, [0, Math.max(sceneDur, 1)], [0, -10]);
+
+  // ink-circle highlight: draws on at ~55% through the scene
+  const circleStart = Math.round(Math.max(sceneDur * 0.55, REVEAL_END + 8));
+  const circleT = circle ? interpolate(frame, [circleStart, circleStart + 14], [0, 1],
+    { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) : 0;
 
   return (
     <AbsoluteFill>
@@ -144,9 +198,10 @@ export const SketchScene: React.FC<SketchProps> = ({
       {file && (
         <div style={{
           position: "absolute", left: "50%", top: 78,
-          transform: `translateX(-50%) translateY(${-drift}px) rotate(-0.6deg)`,
+          transform: `translateX(-50%) translateY(${-drift}px) rotate(-0.6deg) scale(${push})`,
+          transformOrigin: "center 45%",
         }}>
-          <svg width={W} height={H}>
+          <svg width={W} height={H} style={{ overflow: "visible" }}>
             <defs>
               <filter id="boil" x="-4%" y="-4%" width="108%" height="108%">
                 <feTurbulence type="turbulence" baseFrequency="0.022" numOctaves={2}
@@ -170,6 +225,35 @@ export const SketchScene: React.FC<SketchProps> = ({
                 filter="url(#boil)"
               />
             </g>
+            {/* the drawing hand: a small ink pencil rides the reveal path */}
+            {reveal > 0 && reveal < 1 && (
+              <g transform={`translate(${pen.x} ${pen.y}) rotate(-38)`}>
+                <line x1={4} y1={-6} x2={30} y2={-46} stroke={INK} strokeWidth={7}
+                  strokeLinecap="round" />
+                <line x1={9} y1={-14} x2={26} y2={-40} stroke={accent} strokeWidth={3}
+                  strokeLinecap="round" />
+                <path d="M 4 -6 L -3 4 L 8 1 Z" fill={INK} />
+              </g>
+            )}
+            {/* ink-circle highlight (scene field "circle": [cx,cy,r]) */}
+            {circle && circle.length >= 3 && circleT > 0 && (() => {
+              const [cx, cy, r] = circle;
+              const rng = mulberry32(seed + 77);
+              const pts: string[] = [];
+              const N = 26;
+              for (let i = 0; i <= N; i++) {
+                const a = (i / N) * Math.PI * 2 - Math.PI / 3;
+                const rr = r * (1 + (rng() - 0.5) * 0.09) * (i === N ? 1.04 : 1);
+                pts.push(`${i === 0 ? "M" : "L"} ${cx + Math.cos(a) * rr * 1.15} ${cy + Math.sin(a) * rr}`);
+              }
+              const d = pts.join(" ");
+              const len = 2 * Math.PI * r * 1.2;
+              return (
+                <path d={d} stroke={accent} strokeWidth={7} fill="none"
+                  strokeLinecap="round" opacity={0.9}
+                  strokeDasharray={len} strokeDashoffset={len * (1 - circleT)} />
+              );
+            })()}
           </svg>
         </div>
       )}

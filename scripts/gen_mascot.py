@@ -60,6 +60,19 @@ POSES = {
     "explaining":"gesturing openly with both hands like a lecturer mid-sentence, warm expression",
 }
 
+# The talking rig (2026-07-20, "make it feel like the mascot speaks our videos"):
+# a presenter pose + 4 MOUTH STATES, swapped per-frame from the narration's
+# loudness envelope (classic cartoon mouth-flaps — build_doc_vo computes the
+# track, MascotReact plays it). m0..m3 map to silence -> loud.
+HOST_POSE = ("standing waist-up facing the viewer like a friendly presenter, "
+             "one hand slightly raised mid-gesture, engaged eyes looking at the camera")
+MOUTHS = {
+    "host_m0": "mouth fully CLOSED in a relaxed friendly line",
+    "host_m1": "mouth slightly open, small relaxed oval, mid-quiet-syllable",
+    "host_m2": "mouth clearly open mid-word, rounded 'ah' shape, teeth hinted as a simple ink line",
+    "host_m3": "mouth WIDE open on a loud syllable, big expressive oval, tongue hinted with one ink stroke",
+}
+
 
 def white_to_alpha(src: Path, dst: Path, thresh: int = 242) -> None:
     """Paper-white background -> transparency, with a soft ramp so ink
@@ -77,6 +90,32 @@ def white_to_alpha(src: Path, dst: Path, thresh: int = 242) -> None:
                 fade = int(255 * (thresh - lum) / 22)
                 px[x, y] = (r, g, b, min(a, fade))
     im.save(dst)
+
+
+def normalize_rig(files: list[Path], pad: float = 0.06) -> None:
+    """Align a mouth-state rig IN PLACE so per-frame swaps don't jump: every
+    frame is scaled so its ink bounding-box height matches the set's median,
+    then anchored bottom-center on a shared square canvas. Gemini's same-image
+    edits drift a few percent in framing — enough to wreck flaps without this."""
+    imgs = [(f, Image.open(f).convert("RGBA")) for f in files if f.exists()]
+    boxes = [(f, im, im.getbbox()) for f, im in imgs]
+    boxes = [(f, im, b) for f, im, b in boxes if b]
+    if len(boxes) < 2:
+        return
+    heights = sorted(b[3] - b[1] for _, _, b in boxes)
+    target_h = heights[len(heights) // 2]
+    canvas = max(im.size[0] for _, im, _ in boxes)
+    for f, im, b in boxes:
+        crop = im.crop(b)
+        s = target_h / crop.height
+        crop = crop.resize((max(1, round(crop.width * s)),
+                            max(1, round(crop.height * s))), Image.LANCZOS)
+        out = Image.new("RGBA", (canvas, canvas), (0, 0, 0, 0))
+        x = (canvas - crop.width) // 2
+        y = canvas - crop.height - int(canvas * pad)
+        out.paste(crop, (x, y), crop)
+        out.save(f)
+        print(f"  aligned {f.name}: box {crop.width}x{crop.height} @ bottom-center")
 
 
 def contact_sheet(files: list[Path], out_png: Path, label: str) -> None:
@@ -155,6 +194,47 @@ def main() -> None:
             print(f"  -> {png.relative_to(REPO)}")
         except Exception as e:  # noqa: BLE001 — one bad pose shouldn't kill the pack
             print(f"  !! {pose} failed: {e}")
+
+    # ---- talking rig: host pose, then mouth states edited from it ----
+    # anchor first (mouth CLOSED = m0), then each state as a same-image edit so
+    # only the mouth changes — tiny frame-to-frame drift reads as line boil
+    host_raw = out_dir / "host_m0_raw.png"
+    if (not only or "host" in only) or args.force:
+        if not host_raw.exists() or args.force:
+            print("host rig: anchor (mouth closed)…")
+            generate(
+                f"The EXACT SAME character as the reference image — identical face, "
+                f"helmet, suit, proportions, line style and colors — now {HOST_POSE}, "
+                f"{MOUTHS['host_m0']}. Waist-up, centered, with margin. {STYLE}",
+                host_raw, refs=[hero_raw], aspect="1:1")
+        m0 = out_dir / "host_m0.png"
+        if not m0.exists() or args.force:
+            white_to_alpha(host_raw, m0)
+        made.append(m0)
+        for mid, mouth in list(MOUTHS.items())[1:]:
+            raw = out_dir / f"{mid}_raw.png"
+            png = out_dir / f"{mid}.png"
+            if png.exists() and not args.force:
+                made.append(png)
+                continue
+            print(f"host rig: {mid}…")
+            try:
+                generate(
+                    f"Reproduce the reference illustration EXACTLY — same character, "
+                    f"same pose, same framing, same line work, same colors, same "
+                    f"composition. Change ONLY the mouth: {mouth}. Nothing else moves. "
+                    f"{STYLE}",
+                    raw, refs=[host_raw], aspect="1:1")
+                white_to_alpha(raw, png)
+                made.append(png)
+                print(f"  -> {png.relative_to(REPO)}")
+            except Exception as e:  # noqa: BLE001
+                print(f"  !! {mid} failed: {e}")
+
+    rig = sorted(out_dir.glob("host_m[0-9].png"))
+    if len(rig) >= 2:
+        print("aligning talking rig…")
+        normalize_rig(rig)
 
     contact_sheet(made, REPO / "out" / "qa" / f"mascot_{args.name}_sheet.png",
                   f"mascot '{args.name}' — review identity consistency before adopting")

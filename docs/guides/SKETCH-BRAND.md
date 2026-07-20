@@ -74,14 +74,57 @@ attach that sheet as the reference for every production pose with
   intended: they're self-evidently illustrations (never presented as real
   footage), the flag is just provenance bookkeeping.
 
+## The talking host (2026-07-20 — "make it feel like the mascot speaks")
+
+Cartoon mouth-flaps, NOT AI face lip-sync (which is the #1 slop tell): 4 drawn
+mouth states swapped per frame from the narration's real loudness envelope —
+the exact grammar animated-storytime channels use.
+
+- Rig: `gen_mascot.py --only host` generates host_m0..m3 (closed/small/open/
+  wide), identity-locked same-image edits, then `normalize_rig()` aligns every
+  frame by ink bounding-box so flaps don't jump. Copies live in public/mascot/.
+- Track: `scripts/lib/mouthtrack.py` — per-frame RMS -> "0"-"3" string,
+  quantized on twos, mouth closed at scene end. build_doc_vo writes it into
+  the manifest (`mouth`) for scenes with `"speak": true`.
+- Comp: MascotReact swaps host_m<state> per frame, adds an emphasis pulse on
+  loud syllables, and BOILS the drawing (feTurbulence on threes) so it never
+  freezes. `speak` and `react` are both scene fields; speak wins.
+
+## Scene direction toolkit (same sprint)
+
+- Pencil cursor rides the draw-on reveal (now ~1.5s — anticipation holds).
+- Slow push-in per scene (smooth camera vs 10fps boil = mixed cadence).
+- `"circle": [cx, cy, r]` — wobbly ink circle draws on at ~55% of the scene to
+  direct the eye (coords in the 1180x760 illustration space).
+- Auto SFX: scribble under reveal, pop on mascot land, page_turn between
+  consecutive sketch scenes, stat_hit on stats.
+- Preflight now BLOCKS on: unknown `react` pose, `speak` without the host rig,
+  `speak` without a mouth track in the manifest.
+
+## Thumbnails (the CTR lever)
+
+`scripts/gen_sketch_thumb.py --slug x --illustration <png> --mascot shocked
+--text "THE LOUDEST|SOUND EVER" [--accent-line 1] [--paper light]` — 1280x720,
+handwritten title + ink illustration + mascot, dark-paper default. Generate
+2-3 variants per video and A/B. House rules from docs/guides/THUMBNAILS.md
+still apply (3-5 words).
+
+## Render checklist (tomorrow)
+
+1. `python3 scripts/preflight_doc.py sketchdemo` (must be 0 blocking)
+2. `.venv-lipsync/bin/python scripts/render_and_master.py SketchDemo
+   out/sketchdemo_4k.mp4 --scale 2 --music public/beds/doc_awe.mp3`
+3. Listen for: mascot speaking d1/d3/d5, page turns between scenes, scribble
+   under reveals; watch for mouth-flap jumpiness (if jumpy: regenerate rig
+   with gen_mascot.py --only host --force, normalize_rig runs automatically).
+
 ## Still to build (next sessions)
 
-- Pose swaps timed to word-level narration beats (needs per-scene word timings;
-  currently one pose per scene).
-- Draw-on synced to the exact word that names the diagram element.
-- "Placard" gag pattern (character holds a hand-lettered sign — History Matters
-  trick, replaces lip-sync entirely).
-- Separate brow/eye layers for micro-expressions on held poses.
-- Full illustrated episode end-to-end (this session shipped the 48s style demo).
+- Word-level pose swaps + draw-on synced to the naming word (needs word
+  timings; Cartesia bytes endpoint doesn't return them).
+- Blink states + brow layers for held poses; "placard" gag pattern.
+- A quirky sketch-brand music bed (doc_awe is cosmic — wrong flavor here).
+- Multi-take VO with a Gemini-audio judge picking the most human read.
 - WHICH CHANNEL gets this identity + final mascot design — Akshay's call
-  (the astro character is a feasibility POC, not a locked brand decision).
+  (the astro character is a feasibility POC, not a locked brand decision;
+  also still owed: the reference channel name to match its style exactly).
