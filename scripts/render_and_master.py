@@ -44,6 +44,9 @@ def main():
                          "for docs over ~8 min. Requires --music.")
     ap.add_argument("--props", help="JSON string or @path.json passed to remotion --props")
     ap.add_argument("--gl", help="Remotion --gl backend (use 'angle' for WebGL/R3F comps)")
+    ap.add_argument("--scale", type=float,
+                    help="Remotion --scale (2 = 4K from a 1080p comp; text/SVG stay "
+                         "lossless, expect ~2-4x render time)")
     args = ap.parse_args()
 
     out: Path = args.out
@@ -61,6 +64,8 @@ def main():
             cmd += ["--props", args.props]
         if args.gl:
             cmd += [f"--gl={args.gl}"]
+        if args.scale:
+            cmd += [f"--scale={args.scale}"]
         print(f"[render] {' '.join(cmd)}")
         r = subprocess.run(cmd)
         if r.returncode != 0:

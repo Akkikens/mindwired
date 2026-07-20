@@ -91,6 +91,8 @@ def main() -> None:
     ap.add_argument("--max-seconds", type=int, default=20)
     ap.add_argument("--min-width", type=int, default=800)
     ap.add_argument("--no-sheet", action="store_true")
+    ap.add_argument("--uhd", action="store_true",
+                    help="keep footage up to 2160p (4K episodes; default caps at 1080p)")
     args = ap.parse_args()
 
     ranking = ([s.strip() for s in args.sources.split(",") if s.strip()]
@@ -125,7 +127,8 @@ def main() -> None:
         # full target keeps the run incremental across sources
         saved = footage.download_assets(
             found, args.out, args.prefix, args.count,
-            max_seconds=args.max_seconds, min_width=args.min_width)
+            max_seconds=args.max_seconds, min_width=args.min_width,
+            max_h=2160 if args.uhd else 1080)
         for p, a in saved:
             got.append(p)
             tally[src] = tally.get(src, 0) + 1

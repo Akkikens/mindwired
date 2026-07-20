@@ -379,6 +379,16 @@ clips have a fixed ~8s floor).
   scene+text posters, or Remotion still + text overlay (Workflow B). House style:
   3-5 word ALL-CAPS yellow/white text, one dramatic scene, dark background.
 - Renders for upload live at repo root as `mindwired_<slug>.mp4`.
+- **4K uploads (2026-07-20):** any DOM/SVG comp renders 4K with ZERO code
+  changes — `scripts/render_and_master.py <Comp> out.mp4 --scale 2` (still ONE
+  render). Text/SVG/paper layers scale losslessly (verified: sketch demo still
+  at 3840×2160, razor sharp). Best for sketch-brand + doc-engine episodes;
+  expect ~2-4× render time + ~4× file size. Raster b-roll gets Lanczos-upscaled
+  unless fetched 4K: `fetch_footage.py --uhd` keeps 2160p sources (Pixabay
+  `large` is often real 4K). YouTube gives 4K uploads the higher-bitrate VP9
+  ladder, which visibly improves quality even for upscaled sources. WebGL
+  comps: test cost first (GPU time ~4×). The subscribe outros are 1080p — they
+  upscale at the splice, acceptable.
 - Loudness target −14 LUFS for YouTube. **Every finished render must be passed
   through `scripts/master_video.py` (or `scripts/render_and_master.py`, which
   renders + masters in one step) to hit −14 LUFS before it counts as done** —

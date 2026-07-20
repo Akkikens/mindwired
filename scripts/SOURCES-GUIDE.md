@@ -48,13 +48,19 @@ events/people/places.
   issue in the render.
 - **noaa_ocean** — oceanexplorer.noaa.gov WP REST media API. US-gov PD; credit
   line ("NOAA Ocean Exploration") requested — log it.
-- **dvids** — api.dvidshub.net, needs free key (`DVIDS_API_KEY` in .env; sign up
-  at api.dvidshub.net/accounts). US-military PD; no implication of DoD endorsement.
-- **pexels / pixabay** — free keys (`PEXELS_API_KEY` 200 req/hr / 20K/mo;
-  `PIXABAY_API_KEY` 100 req/60s). Bespoke free-commercial licenses (NOT CC0 —
-  both left CC0 years ago): composited b-roll fine, standalone redistribution
-  prohibited; skip clips with recognizable brands/logos. Modern stock — never
-  pass off as archival, never use for real events/people.
+- **dvids** — api.dvidshub.net, key CONFIGURED in .env (2026-07-20,
+  `DVIDS_API_KEY`; private key stored as `DVIDS_PRIVATE_KEY`). US-military PD;
+  no implication of DoD endorsement.
+- **pexels / pixabay** — keys CONFIGURED in .env (2026-07-20; `PEXELS_API_KEY`
+  200 req/hr / 20K/mo; `PIXABAY_API_KEY` 100 req/60s). Bespoke free-commercial
+  licenses (NOT CC0 — both left CC0 years ago): composited b-roll fine,
+  standalone redistribution prohibited; skip clips with recognizable
+  brands/logos. Modern stock — never pass off as archival, never use for real
+  events/people. Pixabay terms we must honor: credit the source when results
+  are shown (our ATTRIBUTION.md → description block covers it), download to
+  our storage (we do — no hotlinking), no systematic mass downloads (per-episode
+  fetches only), responses cached 24h. Pixabay `videos.large` is often REAL
+  3840×2160 — use `fetch_footage.py --uhd` on 4K episodes.
 - **Skipped after legal audit** (do not add): Videezy (license conflicts),
   Mazwai + Life of Vids (dead sites), Schmidt Ocean/MBARI/WHOI/Nautilus (NC or
   permission-only), ISRO/JAXA (no commercial grant), British Pathé/AP/Reuters

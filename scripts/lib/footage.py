@@ -728,20 +728,22 @@ def ffprobe_duration(p: Path) -> float:
         return 0.0
 
 
-def transcode(src: Path, dst: Path, max_seconds: int) -> bool:
-    """-> 1080p H.264 mp4, silent. Long archival reels start ~10% in (skip
-    slates/titles) instead of always taking the first seconds."""
+def transcode(src: Path, dst: Path, max_seconds: int, max_h: int = 1080) -> bool:
+    """-> H.264 mp4 (1080p default; max_h=2160 for 4K episodes), silent. Long
+    archival reels start ~10% in (skip slates/titles) instead of always taking
+    the first seconds."""
     dur = ffprobe_duration(src)
     start = 0.0
     if dur > max_seconds * 3:
         start = min(dur * 0.10, 45.0)
+    max_w = max_h * 16 // 9
     cmd = ["ffmpeg", "-y", "-v", "error"]
     if start:
         cmd += ["-ss", f"{start:.1f}"]
     cmd += ["-i", str(src), "-t", str(max_seconds),
             # force_divisible_by=2: libx264+yuv420p rejects odd dimensions
             # (853x480 archival derivatives are common and would all fail)
-            "-vf", "scale='min(1920,iw)':'min(1080,ih)':force_original_aspect_ratio=decrease"
+            "-vf", f"scale='min({max_w},iw)':'min({max_h},ih)':force_original_aspect_ratio=decrease"
                    ":force_divisible_by=2,fps=30",
             "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "20", "-preset", "medium",
             "-movflags", "+faststart", "-an", str(dst)]
@@ -764,7 +766,7 @@ def log_attribution(out_dir: Path, dst_name: str, a: Asset) -> None:
 
 
 def download_assets(assets: list[Asset], out_dir: Path, prefix: str, count: int,
-                    max_seconds: int = 20, min_width: int = 800,
+                    max_seconds: int = 20, min_width: int = 800, max_h: int = 1080,
                     ) -> list[tuple[Path, Asset]]:
     """Download up to `count` assets as <prefix>_N.<ext>, resuming numbering after
     existing files (idempotent). Videos are transcoded; images saved as-is.
@@ -804,7 +806,7 @@ def download_assets(assets: list[Asset], out_dir: Path, prefix: str, count: int,
                             for chunk in rd.iter_bytes():
                                 tf.write(chunk)
                         tmp = Path(tf.name)
-                    ok = transcode(tmp, dst, max_seconds)
+                    ok = transcode(tmp, dst, max_seconds, max_h=max_h)
                     tmp.unlink(missing_ok=True)
                     if not ok:
                         dst.unlink(missing_ok=True)
