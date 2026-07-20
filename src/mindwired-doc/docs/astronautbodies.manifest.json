@@ -1,0 +1,217 @@
+{
+ "durations": {
+  "h1": 10.266,
+  "h2": 12.669,
+  "h3": 11.389,
+  "h4": 6.191,
+  "c1_t": 3.631,
+  "a1": 13.949,
+  "a2": 10.188,
+  "a3": 11.468,
+  "a4": 8.046,
+  "a5": 10.449,
+  "a6": 13.871,
+  "a7": 12.199,
+  "a8": 8.751,
+  "a9": 10.109,
+  "c2_t": 3.317,
+  "k1": 11.964,
+  "k2": 11.076,
+  "k3": 9.874,
+  "k4": 14.367,
+  "k5": 11.381,
+  "k6": 10.527,
+  "k7": 6.687,
+  "c3_t": 4.206,
+  "s1": 13.401,
+  "s2": 10.998,
+  "s3": 10.527,
+  "s4": 11.389,
+  "s5": 10.606,
+  "s6": 9.639,
+  "s7": 13.401,
+  "s8": 10.841,
+  "s9": 11.651,
+  "s10": 8.438,
+  "s11": 8.516,
+  "c4_t": 3.971,
+  "ch1": 12.826,
+  "ch2": 10.606,
+  "ch3": 8.124,
+  "ch4": 14.446,
+  "ch5": 13.087,
+  "ch6": 10.762,
+  "ch7": 12.931,
+  "ch8": 16.509,
+  "ch9": 17.319,
+  "ch10": 8.986,
+  "c5_t": 2.769,
+  "co1": 10.109,
+  "co2": 10.527,
+  "co3": 7.471,
+  "co4": 15.882,
+  "co5": 10.762,
+  "e1": 7.706,
+  "e2": 10.527,
+  "e3": 18.834,
+  "e4": 9.169,
+  "e5": 15.386,
+  "e6": 11.807
+ },
+ "images": {
+  "apollo1crew": [
+   "apollo1crew_1.jpg",
+   "apollo1crew_2.jpg",
+   "apollo1crew_3.jpg",
+   "apollo1crew_4.jpg",
+   "apollo1crew_5.jpg",
+   "apollo1crew_6.jpg"
+  ],
+  "apollo1fire": [
+   "apollo1fire_1.jpg",
+   "apollo1fire_2.jpg",
+   "apollo1fire_3.png",
+   "apollo1fire_4.jpg",
+   "apollo1fire_5.jpg",
+   "apollo1fire_6.jpg"
+  ],
+  "arlington2": [
+   "arlington2_1.jpg",
+   "arlington2_2.jpg",
+   "arlington2_3.jpg"
+  ],
+  "arlington": [
+   "arlington_1.jpg",
+   "arlington_2.jpg",
+   "arlington_3.jpg",
+   "arlington_4.jpg"
+  ],
+  "baikonur": [
+   "baikonur_1.jpg",
+   "baikonur_2.jpg",
+   "baikonur_3.jpg"
+  ],
+  "challengercrew": [
+   "challengercrew_2.jpg",
+   "challengercrew_6.jpg"
+  ],
+  "challengerexp": [
+   "challengerexp_1.jpg",
+   "challengerexp_2.jpg",
+   "challengerexp_3.jpg",
+   "challengerexp_4.jpg"
+  ],
+  "columbiacrew": [
+   "columbiacrew_1.jpg",
+   "columbiacrew_2.jpg",
+   "columbiacrew_3.jpg",
+   "columbiacrew_4.jpg",
+   "columbiacrew_5.jpg",
+   "columbiacrew_6.jpg"
+  ],
+  "columbiadebris": [
+   "columbiadebris_1.jpg",
+   "columbiadebris_2.jpg",
+   "columbiadebris_3.jpg",
+   "columbiadebris_4.jpg"
+  ],
+  "earthnight": [
+   "earthnight_1.jpg",
+   "earthnight_2.jpg",
+   "earthnight_3.jpg",
+   "earthnight_4.jpg"
+  ],
+  "gagarinfuneral": [
+   "gagarinfuneral_1.jpg"
+  ],
+  "komarov": [
+   "komarov_1.jpg",
+   "komarov_2.jpg",
+   "komarov_3.jpg",
+   "komarov_4.png",
+   "komarov_5.jpg"
+  ],
+  "kremlinwall": [
+   "kremlinwall_1.jpg",
+   "kremlinwall_2.jpg",
+   "kremlinwall_3.jpg",
+   "kremlinwall_4.jpg"
+  ],
+  "missioncontrol": [
+   "missioncontrol_1.jpg",
+   "missioncontrol_2.jpg",
+   "missioncontrol_3.jpg",
+   "missioncontrol_4.jpg"
+  ],
+  "nedelin": [
+   "nedelin_1.jpg",
+   "nedelin_2.jpg",
+   "nedelin_3.jpg"
+  ],
+  "oring": [
+   "oring_1.jpg",
+   "oring_2.jpg",
+   "oring_3.jpg"
+  ],
+  "redsquare": [
+   "redsquare_1.jpg",
+   "redsquare_2.jpg",
+   "redsquare_3.jpg"
+  ],
+  "salyut1": [
+   "salyut1_1.jpeg",
+   "salyut1_2.jpg",
+   "salyut1_3.jpg",
+   "salyut1_4.jpg"
+  ],
+  "sochisix": [
+   "sochisix_1.jpg",
+   "sochisix_2.jpg",
+   "sochisix_3.jpg"
+  ],
+  "soyuz11crew": [
+   "soyuz11crew_1.jpg",
+   "soyuz11crew_2.jpg",
+   "soyuz11crew_3.png",
+   "soyuz11crew_4.jpg"
+  ],
+  "soyuz11rec": [
+   "soyuz11rec_1.jpg",
+   "soyuz11rec_2.jpg",
+   "soyuz11rec_3.jpg",
+   "soyuz11rec_4.jpg"
+  ],
+  "soyuz1crash": [
+   "soyuz1crash_1.jpg",
+   "soyuz1crash_2.jpg",
+   "soyuz1crash_3.jpg"
+  ],
+  "soyuzchute": [
+   "soyuzchute_1.jpg",
+   "soyuzchute_2.jpg",
+   "soyuzchute_3.jpg",
+   "soyuzchute_4.jpg"
+  ],
+  "spacemirror": [
+   "spacemirror_1.jpg",
+   "spacemirror_2.jpg",
+   "spacemirror_3.jpg",
+   "spacemirror_4.jpg"
+  ],
+  "thegroup": [
+   "thegroup_1.jpg"
+  ],
+  "x15": [
+   "x15_1.jpg",
+   "x15_2.jpg",
+   "x15_3.jpg",
+   "x15_4.jpg",
+   "x15_5.jpg"
+  ],
+  "x15crash": [
+   "x15crash_1.jpg",
+   "x15crash_2.webp"
+  ]
+ },
+ "missing": []
+}

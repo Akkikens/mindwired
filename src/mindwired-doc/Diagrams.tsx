@@ -9,6 +9,7 @@
  */
 import React from "react";
 import { AbsoluteFill, interpolate, spring, useCurrentFrame } from "remotion";
+import { BlackHoleIcon } from "./BlackHoleIcons";
 
 const FPS = 30;
 const BASE = "#05070C";
@@ -541,9 +542,100 @@ const Reform: React.FC<DiagProps> = ({ dur, accent }) => {
   );
 };
 
+/* ---- karmanline: vertical altitude ladder — ground, cruise, X-15 (81km),
+   the 100km Karman line, Soyuz 11 depressurization (168km). arg = altitude
+   in km to highlight as the current scene's marker (e.g. "168"). ---- */
+const KarmanLine: React.FC<DiagProps> = ({ dur, arg, accent }) => {
+  const f = useCurrentFrame();
+  const highlightKm = arg ? parseFloat(arg) : 100;
+  // log-ish vertical scale: 0km at y=920, 220km at y=140
+  const yOf = (km: number) => interpolate(km, [0, 220], [920, 140], clamp);
+  const rise = interpolate(f, [10, 90], [0, 1], clamp);
+  const markers = [
+    { km: 0, label: "SEA LEVEL", sub: "0 KM" },
+    { km: 12, label: "AIRLINER CRUISE", sub: "~12 KM" },
+    { km: 81, label: "X-15 · MICHAEL ADAMS 1967", sub: "81 KM — never crossed the line" },
+    { km: 100, label: "THE KÁRMÁN LINE", sub: "100 KM — internationally recognized edge of space" },
+    { km: 168, label: "SOYUZ 11 · VALVE OPENED", sub: "168 KM" },
+  ];
+  const lineTopY = interpolate(rise, [0, 1], [920, 140]);
+  return (
+    <AbsoluteFill>
+      <Grid accent={accent} />
+      <svg width="100%" height="100%" viewBox="0 0 1920 1080" style={{ position: "absolute", inset: 0 }}>
+        <line x1="480" y1="920" x2="480" y2={lineTopY} stroke={INK} strokeWidth="4" />
+        <line x1="380" y1="920" x2="580" y2="920" stroke={INK} strokeWidth="3" />
+        {markers.map((m, i) => {
+          const y = yOf(m.km);
+          const on = lineTopY <= y + 2;
+          const isHi = Math.abs(m.km - highlightKm) < 1;
+          const pop = spring({ frame: f - (20 + i * 14), fps: FPS, config: { damping: 14 } });
+          const col = m.km >= 100 ? (isHi ? RED : accent) : INK;
+          return (
+            <g key={m.km} opacity={on ? interpolate(pop, [0, 1], [0, 1]) : 0}>
+              <line x1="440" y1={y} x2="520" y2={y} stroke={col} strokeWidth={isHi ? 5 : 3} />
+              <circle cx="480" cy={y} r={isHi ? 10 : 6} fill={col} />
+              <text x="545" y={y + 8} style={label(col, isHi ? 34 : 24)}>{m.label}</text>
+              <text x="545" y={y + (isHi ? 40 : 28)} style={{ ...label(INK, 18), fontWeight: 500 }}>{m.sub}</text>
+            </g>
+          );
+        })}
+      </svg>
+    </AbsoluteFill>
+  );
+};
+
+/* ---- decompression: cabin cross-section, valve pops open, pressure
+   gauge falls to zero. Technical, not graphic — no figures shown. ---- */
+const Decompression: React.FC<DiagProps> = ({ dur, accent }) => {
+  const f = useCurrentFrame();
+  const valveOpen = interpolate(f, [30, 42], [0, 1], clamp);
+  const pressure = interpolate(f, [42, 100], [100, 0], clamp);
+  const needleAngle = interpolate(pressure, [0, 100], [130, -40]);
+  const escapeOpacity = interpolate(f, [42, 60], [0, 1], clamp);
+  return (
+    <AbsoluteFill>
+      <Grid accent={accent} />
+      <svg width="100%" height="100%" viewBox="0 0 1920 1080" style={{ position: "absolute", inset: 0 }}>
+        {/* capsule cross-section */}
+        <g stroke={INK} strokeWidth="3" fill="none" opacity={0.9}>
+          <path d="M760 280 Q 960 220 1160 280 L 1200 700 Q 960 780 720 700 Z" />
+        </g>
+        {/* pressure-equalization valve, top-right of hull */}
+        <g transform="translate(1160,340)">
+          <rect x={-26} y={-14} width={52} height={28} rx={6} fill="rgba(159,180,199,0.15)" stroke={INK} strokeWidth="3" />
+          <rect x={-20} y={-9} width={40 * (1 - valveOpen)} height={18} fill={RED} opacity={0.5} />
+          <text x="0" y="-30" textAnchor="middle" style={label(INK, 20)}>PRESSURE VALVE</text>
+        </g>
+        {/* escaping air streaks once valve opens */}
+        <g opacity={escapeOpacity}>
+          {[0, 1, 2, 3].map((i) => (
+            <line key={i} x1={1186 + i * 6} y1={340 - i * 4} x2={1186 + i * 6 + 90 + i * 20} y2={340 - i * 4 - 40 - i * 10}
+              stroke={accent} strokeWidth="2" opacity={0.7 - i * 0.12} />
+          ))}
+        </g>
+        {/* pressure gauge, bottom-left */}
+        <g transform="translate(420,780)">
+          <circle r="90" fill="rgba(5,7,12,0.7)" stroke={INK} strokeWidth="3" />
+          <text y="-104" textAnchor="middle" style={label(INK, 22)}>CABIN PRESSURE</text>
+          <line x1="0" y1="0" x2={Math.cos((needleAngle * Math.PI) / 180) * 70} y2={Math.sin((needleAngle * Math.PI) / 180) * 70}
+            stroke={pressure < 20 ? RED : accent} strokeWidth="4" />
+          <circle r="6" fill={INK} />
+          <text y="40" textAnchor="middle" style={label(pressure < 20 ? RED : accent, 30)}>{Math.round(pressure)}%</text>
+        </g>
+        <text x="960" y="980" textAnchor="middle" style={label(RED, 30)} opacity={interpolate(f, [80, 100], [0, 1], clamp)}>
+          CABIN FULLY DEPRESSURIZED — UNDER 60 SECONDS
+        </text>
+      </svg>
+    </AbsoluteFill>
+  );
+};
+
 export const DIAGRAMS: Record<string, React.FC<DiagProps>> = {
   engines: Engines, sensor: Sensor, authority: Authority,
   trimfight: TrimFight, porpoise: Porpoise, counter: Counter, quote: Quote,
   atcwaves: AtcWaves, lowspeed: LowSpeed, stallseq: StallSeq, pusher: Pusher,
   approach: Approach, icing: Icing, fatigue: Fatigue, reform: Reform,
+  karmanline: KarmanLine, decompression: Decompression,
+  bhicon: BlackHoleIcon,
 };

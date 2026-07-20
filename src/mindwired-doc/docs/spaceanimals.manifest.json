@@ -1,0 +1,152 @@
+{
+ "durations": {
+  "h1": 6.766,
+  "h2": 10.188,
+  "h3": 9.482,
+  "h4": 10.919,
+  "h5": 7.079,
+  "c1_t": 1.411,
+  "a1": 9.796,
+  "a2": 9.639,
+  "a3": 11.311,
+  "a4": 9.561,
+  "c2_t": 1.567,
+  "b1": 12.277,
+  "b2": 10.606,
+  "b3": 14.211,
+  "b4": 11.546,
+  "b5": 13.793,
+  "b6": 10.606,
+  "b7": 9.874,
+  "b8": 14.289,
+  "b9": 8.908,
+  "c3_t": 1.411,
+  "g1": 13.009,
+  "g2": 11.076,
+  "g3": 12.513,
+  "g4": 6.609,
+  "c4_t": 1.228,
+  "d1": 11.233,
+  "d2": 12.277,
+  "d3": 10.762,
+  "d4": 12.199,
+  "c5_t": 2.586,
+  "e1": 11.154,
+  "e2": 13.009,
+  "e3": 7.001,
+  "e4": 13.322,
+  "e5": 12.277,
+  "c6_t": 2.116,
+  "f1": 13.793,
+  "f2": 13.166,
+  "f3": 13.166,
+  "f4": 7.549,
+  "f5": 12.669,
+  "f6": 10.841,
+  "c7_t": 1.149,
+  "k1": 8.281,
+  "k2": 10.762,
+  "k3": 11.729,
+  "k4": 12.277,
+  "k5": 12.434,
+  "c8_t": 1.802,
+  "m1": 11.729,
+  "m2": 10.841,
+  "m3": 13.714,
+  "e_end1": 12.356,
+  "e_end2": 11.807,
+  "e_end3": 9.404,
+  "e_end4": 16.666
+ },
+ "images": {
+  "ablebaker": [
+   "ablebaker_1.jpg",
+   "ablebaker_2.jpg",
+   "ablebaker_3.jpg",
+   "ablebaker_4.jpg"
+  ],
+  "baikonur": [
+   "baikonur_1.jpg",
+   "baikonur_2.jpg",
+   "baikonur_3.jpg"
+  ],
+  "belkastrelka": [
+   "belkastrelka_1.jpg",
+   "belkastrelka_3.jpg",
+   "belkastrelka_4.jpg"
+  ],
+  "earthnight": [
+   "earthnight_1.jpg",
+   "earthnight_2.jpg",
+   "earthnight_3.jpg",
+   "earthnight_4.jpg"
+  ],
+  "enos": [
+   "enos_2.jpg",
+   "enos_3.jpg",
+   "enos_4.jpg"
+  ],
+  "gagarin": [
+   "gagarin_1.jpg",
+   "gagarin_2.jpg",
+   "gagarin_3.jpg",
+   "gagarin_4.jpg"
+  ],
+  "ham": [
+   "ham_1.jpg",
+   "ham_2.jpg",
+   "ham_3.jpg",
+   "ham_4.jpg"
+  ],
+  "laika": [
+   "laika_1.jpg",
+   "laika_2.jpg",
+   "laika_3.jpg"
+  ],
+  "missioncontrol": [
+   "missioncontrol_1.jpg",
+   "missioncontrol_2.jpg",
+   "missioncontrol_3.jpg",
+   "missioncontrol_4.jpg"
+  ],
+  "monkeynaut": [
+   "monkeynaut_1.jpg",
+   "monkeynaut_2.jpg",
+   "monkeynaut_3.jpg",
+   "monkeynaut_4.jpg"
+  ],
+  "pad34": [
+   "pad34_1.jpg",
+   "pad34_2.jpg",
+   "pad34_3.jpg",
+   "pad34_4.jpg"
+  ],
+  "plesetsk": [
+   "plesetsk_1.jpg",
+   "plesetsk_2.jpg",
+   "plesetsk_3.jpg",
+   "plesetsk_4.jpg"
+  ],
+  "redsquare": [
+   "redsquare_1.jpg",
+   "redsquare_2.jpg",
+   "redsquare_3.jpg"
+  ],
+  "sputnik2": [
+   "sputnik2_1.jpg",
+   "sputnik2_2.png",
+   "sputnik2_3.jpg",
+   "sputnik2_4.jpg"
+  ],
+  "tortoise": [
+   "tortoise_1.jpg",
+   "tortoise_2.jpg",
+   "tortoise_3.jpg"
+  ],
+  "vtwo": [
+   "vtwo_1.jpg",
+   "vtwo_2.jpg"
+  ]
+ },
+ "missing": []
+}

@@ -1,0 +1,356 @@
+1
+00:00:01,550 --> 00:00:05,193
+Your AI agent is a genius locked in
+an empty room.
+
+2
+00:00:05,226 --> 00:00:06,864
+It can't read your email.
+
+3
+00:00:06,897 --> 00:00:08,535
+It can't touch your database.
+
+4
+00:00:08,568 --> 00:00:10,540
+It can't even check the weather.
+
+5
+00:00:10,574 --> 00:00:14,551
+Everything impressive you've ever watched it do
+came through one small hole
+
+6
+00:00:14,584 --> 00:00:15,553
+in the wall.
+
+7
+00:00:15,587 --> 00:00:19,564
+In late twenty twenty-four, that hole got a
+universal standard.It's called MCP.
+
+8
+00:00:19,597 --> 00:00:24,911
+And by the end of this video, you'll know how
+to plug your AI into almost
+
+9
+00:00:24,945 --> 00:00:25,246
+anything.
+
+10
+00:00:36,279 --> 00:00:38,495
+First, the mess it replaced.
+
+11
+00:00:38,540 --> 00:00:43,922
+Say you have four AI apps, and five
+tools you want them
+
+12
+00:00:43,967 --> 00:00:44,826
+to use.
+
+13
+00:00:44,872 --> 00:00:45,279
+Email.
+
+14
+00:00:45,324 --> 00:00:45,731
+Slack.
+
+15
+00:00:45,776 --> 00:00:46,183
+GitHub.
+
+16
+00:00:46,228 --> 00:00:47,088
+A database.
+
+17
+00:00:47,133 --> 00:00:47,992
+A browser.
+
+18
+00:00:48,037 --> 00:00:51,158
+Before MCP, every connection was
+custom code.
+
+19
+00:00:51,203 --> 00:00:53,419
+Four apps times five tools.
+
+20
+00:00:53,464 --> 00:00:58,846
+Twenty integrations, written by hand, each one
+breaking in its own special
+
+21
+00:00:58,891 --> 00:00:59,298
+way.
+
+22
+00:00:59,343 --> 00:01:04,273
+Every new tool meant rebuilding the same
+bridge, again and again.
+
+23
+00:01:09,518 --> 00:01:11,045
+MCP kills that multiplication.
+
+24
+00:01:11,084 --> 00:01:12,611
+It's one standard port.
+
+25
+00:01:12,650 --> 00:01:14,960
+The tool builds one MCP server.
+
+26
+00:01:14,999 --> 00:01:17,701
+The AI app builds one MCP client.
+
+27
+00:01:17,740 --> 00:01:20,441
+And now anything can talk to anything.
+
+28
+00:01:20,480 --> 00:01:23,573
+Four plus five instead of four times five.
+
+29
+00:01:23,612 --> 00:01:28,663
+People call it the USB port for AI, and
+for once, the nickname
+
+30
+00:01:28,702 --> 00:01:29,446
+is accurate.
+
+31
+00:01:34,685 --> 00:01:38,093
+Here's the actual architecture, and it's
+simpler than it sounds.
+
+32
+00:01:38,128 --> 00:01:41,536
+Your AI app, like Claude Code, is
+called the host.
+
+33
+00:01:41,570 --> 00:01:46,011
+For every outside system it wants to reach,
+the host opens a client.
+
+34
+00:01:46,046 --> 00:01:49,109
+Each client holds one connection to
+one MCP server.
+
+35
+00:01:49,144 --> 00:01:54,273
+And the server is just a small program sitting
+in front of a real system,
+
+36
+00:01:54,308 --> 00:01:54,618
+translating.
+
+37
+00:01:57,852 --> 00:01:59,841
+And this is the beautiful part.
+
+38
+00:01:59,875 --> 00:02:03,212
+When the agent connects, the server
+hands over a menu.
+
+39
+00:02:03,246 --> 00:02:04,560
+Here are my tools.
+
+40
+00:02:04,594 --> 00:02:06,246
+Here's what each one does.
+
+41
+00:02:06,280 --> 00:02:07,931
+Here's what each one needs.
+
+42
+00:02:07,965 --> 00:02:10,291
+The agent reads that menu at runtime.
+
+43
+00:02:10,325 --> 00:02:15,348
+Which means you can hand your AI a brand new
+ability, and nobody rewrites the
+
+44
+00:02:15,381 --> 00:02:15,685
+app.
+
+45
+00:02:15,718 --> 00:02:17,707
+You just plug in another server.
+
+46
+00:02:22,941 --> 00:02:25,483
+Watch one real call, end to end.
+
+47
+00:02:25,520 --> 00:02:28,430
+You ask your agent to check open issues.
+
+48
+00:02:28,467 --> 00:02:31,745
+The model picks the right tool
+from the menu.
+
+49
+00:02:31,782 --> 00:02:34,324
+The client wraps it in a message.
+
+50
+00:02:34,361 --> 00:02:36,903
+The server calls the actual GitHub API.
+
+51
+00:02:36,940 --> 00:02:41,324
+And the result flows all the way back into
+the model's context.
+
+52
+00:02:41,360 --> 00:02:45,744
+To you, it just looks like your AI can
+suddenly see GitHub.
+
+53
+00:02:45,781 --> 00:02:49,428
+Under the hood, it's this exact relay,
+every single time.
+
+54
+00:02:52,665 --> 00:02:58,015
+And because the port is standard, an entire
+ecosystem exploded around it.
+
+55
+00:02:58,060 --> 00:02:59,364
+Thousands of servers.
+
+56
+00:02:59,409 --> 00:02:59,814
+Databases.
+
+57
+00:02:59,859 --> 00:03:00,263
+Browsers.
+
+58
+00:03:00,308 --> 00:03:01,163
+Payment systems.
+
+59
+00:03:01,208 --> 00:03:02,062
+Design tools.
+
+60
+00:03:02,107 --> 00:03:05,659
+Even other AI companies adopted the
+same standard.
+
+61
+00:03:05,704 --> 00:03:11,054
+Build one server for your product, and
+every AI app on earth
+
+62
+00:03:11,099 --> 00:03:12,853
+can suddenly use it.
+
+63
+00:03:12,898 --> 00:03:14,651
+That's why MCP won.
+
+64
+00:03:19,896 --> 00:03:21,999
+But one warning, and it's serious.
+
+65
+00:03:22,034 --> 00:03:24,137
+That menu the server hands over?
+
+66
+00:03:24,173 --> 00:03:25,563
+The model trusts it.
+
+67
+00:03:25,598 --> 00:03:29,483
+A malicious server can hide instructions inside
+tool descriptions, poison your
+
+68
+00:03:29,519 --> 00:03:33,047
+agent's behavior, or quietly walk your
+data out the door.
+
+69
+00:03:33,082 --> 00:03:35,542
+So treat MCP servers like browser
+extensions.
+
+70
+00:03:35,577 --> 00:03:37,680
+Only plug in what you trust.
+
+71
+00:03:37,716 --> 00:03:43,026
+Never point your agent at a random server just
+because a list on the internet
+
+72
+00:03:43,061 --> 00:03:44,451
+said it was cool.
+
+73
+00:03:47,487 --> 00:03:48,189
+One port.
+
+74
+00:03:48,226 --> 00:03:49,668
+A menu of tools.
+
+75
+00:03:49,705 --> 00:03:50,777
+Plug in anything.
+
+76
+00:03:50,814 --> 00:03:55,952
+That's MCP, and now you understand the wiring
+behind every AI agent demo you've
+
+77
+00:03:55,989 --> 00:03:56,692
+ever seen.
+
+78
+00:03:56,729 --> 00:03:58,910
+Subagents gave your AI more brains.
+
+79
+00:03:58,946 --> 00:04:01,867
+MCP gave it hands on the real world.
+
+80
+00:04:01,904 --> 00:04:07,042
+Next time, we go further: we teach an agent
+brand new skills it wasn't
+
+81
+00:04:07,079 --> 00:04:07,781
+born with.
+
+82
+00:04:07,818 --> 00:04:10,369
+Subscribe to codewired, and get wired in.

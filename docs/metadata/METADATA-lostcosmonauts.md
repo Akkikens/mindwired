@@ -1,4 +1,4 @@
-# METADATA — The Cosmonauts the Soviets Erased From History (lostcosmonauts)
+# METADATA — The Lost Cosmonauts the USSR Pretended Never Existed (lostcosmonauts)
 
 **Channel:** mindwired · **File:** `mindwired_lostcosmonauts.mp4` · **Comp:** `LostCosmonautsDoc`
 **Icahn validation:** see memory `icahn-lost-cosmonauts` (RetroGamingNow 1.5M off-niche, Joe Scott 2.1M, BE AMAZED 6.4M adjacent; differentiation = ranked "erased men" + honest radio recreations).
@@ -25,13 +25,25 @@ about men removed from photographs like this one.
 ## Description
 
 ```
-Six men the Soviet space program erased — and one woman who may never have existed at all.
+Six men the Soviet space program erased from history — and one woman who may never have existed at all. This is the complete story of the Lost Cosmonauts: what is proven, what was deliberately buried, and what is still argued over more than sixty years later.
 
-A Marshal vaporized beside his own missile — reported as a plane crash. A 24-year-old cosmonaut who burned alive in a training chamber, 20 days before Gagarin flew — his file sealed for 25 years. Gagarin's own second backup, airbrushed out of the photographs so completely that when he told the truth, nobody believed him. And two disasters so public the USSR couldn't hide the bodies — so it hid the reasons instead.
+For decades, the "Lost Cosmonauts" have lived on the border between history and legend — a rumour that the Soviet Union sent men and women into space before Yuri Gagarin, watched them die, and erased every trace. Most people who tell that story get one thing badly wrong: they treat it as pure conspiracy. But the truth is stranger. The phantom cosmonauts of the Judica-Cordiglia tapes are almost certainly a myth — and yet, at the exact moment the world was told the USSR would never hide a dead spaceman, the USSR was hiding dead spacemen. This documentary walks through six real erasures, in order, and then returns to the tapes to ask the honest question the legend deserves.
 
-Then there are the tapes. In 1961, two brothers in Turin, Italy — the Judica-Cordiglia brothers — claimed their homemade listening station "Torre Bert" intercepted transmissions from Soviet missions that officially never existed: an SOS in Morse code, a dying heartbeat, and a woman's voice reporting flames on re-entry, two years before Valentina Tereshkova became the first woman in space. The radio segments in this video are RECREATIONS of what the brothers logged — clearly labeled on screen — because unlike the missions, the controversy is real, and it has never fully died.
+THE SIX ERASURES:
 
-This is the complete story of the erased men of the Soviet space program: what is proven, what was buried, and what is still argued over 60 years later.
+• NEDELIN (1960) — A Soviet Marshal ordered a leaking, fully-fueled R-16 missile repaired live on the launch pad, and sat down beside it to prove it was safe. The second stage ignited straight down into the first. Seventy-eight dead by the official count, more than one hundred and twenty by others. Moscow announced the Marshal had died in a plane crash. Secret for twenty-nine years.
+
+• BONDARENKO (1961) — The youngest cosmonaut, 24, burned alive in an oxygen-rich isolation chamber twenty days before Gagarin's flight. His file was sealed, his face removed from group photographs, his death hidden for twenty-five years. His fate quietly foreshadowed the Apollo 1 fire.
+
+• NELYUBOV — Gagarin's own second backup for Vostok 1, airbrushed out of the official photographs so completely that when he told fellow pilots he had nearly been first in space, nobody believed him. The proof no longer existed.
+
+• KOMAROV (Soyuz 1, 1967) — The first human being to die on a spaceflight, when a doomed capsule's parachutes failed on re-entry. This time the death was too public to hide — so the state hid the cause instead.
+
+• SOYUZ 11 (1971) — Dobrovolsky, Volkov and Patsayev remain the only humans ever to die in space itself, killed by a valve that vented their cabin to vacuum during re-entry. They landed in a perfect, silent capsule.
+
+• THE TORRE BERT TAPES — In 1961, brothers Achille and Giovanni Judica-Cordiglia claimed their homemade listening station outside Turin intercepted transmissions from missions that officially never happened: an SOS in Morse, a dying heartbeat, and a woman's voice reporting flames on re-entry — two years before Valentina Tereshkova officially became the first woman in space.
+
+A NOTE ON HONESTY: the radio segments in this video are clearly-labelled RECREATIONS of what the brothers logged — voice-acted, based on the published intercept records — because the original tapes are their private recordings. Every photograph is genuine archival material from public collections. Nothing here is leaked or misattributed audio. The point of the film is not to sell the conspiracy, but to show why a nation that really did erase its dead made a myth like this impossible to kill.
 
 CHAPTERS
 0:00 — The voice from the static
@@ -43,9 +55,7 @@ CHAPTERS
 15:46 — Erasure No. 6: The voices on the tapes (Torre Bert)
 18:50 — What came back with glasnost
 
-All photographs are archival, from public collections (Wikimedia Commons / NASA / museum archives); full attribution below. Radio audio is voice-acted recreation based on published intercept logs — labeled as such on screen. No leaked or misattributed audio is used.
-
-Sources include: declassified Soviet-era records reported after 1989, NASA history archives, RussianSpaceWeb, and published histories of the Soviet space program.
+SOURCES include declassified Soviet-era records reported after 1989, NASA history archives, RussianSpaceWeb, and published histories of the Soviet space program (image attribution in the pinned comment).
 
 ▶ MORE FROM MINDWIRED
 Every Way Space Has Killed a Human — [paste URL]
@@ -54,11 +64,12 @@ Stranded on the Moon: the speech Nixon never gave — [paste URL]
 Full playlist: [paste playlist URL]
 Subscribe: https://www.youtube.com/@mindwired?sub_confirmation=1
 
-#LostCosmonauts #SpaceHistory #SovietUnion
+#LostCosmonauts #SpaceHistory #SovietUnion #SpaceRace #Cosmonaut #ColdWar #Gagarin #SpaceDocumentary #Komarov #Soyuz11 #Nedelin #SpaceMystery #Declassified #USSR #Mindwired
 ```
 
 (Timestamps computed from the final manifest — video runs 20:37 + 17.6s outro ≈ 20:55.
-First three hashtags display above the title.)
+First three hashtags display above the title. Description is ~3.4K chars — well inside
+the 5000 limit, front-loaded with the hook + keyword "Lost Cosmonauts" in line 1.)
 
 ## Chapters timestamp script
 
@@ -104,34 +115,64 @@ the 5000-char description limit.
 
 ---
 
-# SHORTS FUNNEL (4 Shorts — drip 1/day, each pins a comment linking the long-form)
+# SHORTS — FULL-SEO, drip 1/day (long-form = https://youtu.be/Hs6ZzZAQ7ms)
+Files at `out/<title>.mp4`. −14 LUFS, mindwired vertical outro baked. Strongest first.
 
-All four end with a soft CTA to the channel; pin the long-form link on each the moment
-it's live. Files: `out/mindwired_short_<slug>.mp4`. Drop order below = strongest first.
+### DAY 1 — `The USSR Deleted This Man While He Was Still Alive.mp4`
+Title: The USSR Deleted This Man While He Was Still Alive #shorts
+Desc:
+```
+He was third in line to become the first human being in space — and the Soviet Union erased him from history while he was still alive to watch it happen. His name was Grigori Nelyubov. In 1961 he was one of three cosmonauts shortlisted for Vostok 1, the flight that made Yuri Gagarin immortal. Gagarin flew. Nelyubov waited. Then a single drunken argument got him expelled — and the retouchers went to work, scrubbing him from the official group photographs. When he told fellow pilots he'd nearly been first in space, nobody believed him. The proof no longer existed. He was only one of six cosmonauts the USSR erased.
 
-## Short 1 — erasedman (drop day 1)
-**Title:** The USSR Deleted This Man While He Was Still Alive
-**Search cluster:** grigori nelyubov / airbrushed cosmonaut / soviet photo erased / gagarin backup
-**Description:** He was 3rd in line to be the first human in space. Then the USSR erased him from every photograph — while he was alive to watch it happen. Full story of all 6 erased cosmonauts on the channel. #LostCosmonauts #SpaceHistory #Shorts
-**Pinned:** The full documentary — "The Cosmonauts the Soviets Erased From History" (all 6 erasures, including the tape at the end) → [long-form URL]
+Full documentary — all six erased cosmonauts: https://youtu.be/Hs6ZzZAQ7ms
+Subscribe: https://www.youtube.com/@Mindwired?sub_confirmation=1
 
-## Short 2 — womantape (drop day 2)
-**Title:** The Woman Who Burned Up in Space — Who Never Existed
-**Search cluster:** lost female cosmonaut / judica cordiglia recording / torre bert / woman lost in space 1961
-**Description:** In 1961 two Italian brothers recorded a woman dying in orbit — two years before the first woman officially flew. Moscow said she never existed. The problem: the USSR really was hiding dead spacemen. Full story on the channel. #LostCosmonauts #SpaceMystery #Shorts
-**Pinned:** Was she real? Honest answer in the full video (chapter 6) — "The Cosmonauts the Soviets Erased From History" → [long-form URL]
+#LostCosmonauts #SpaceHistory #SovietUnion #Cosmonaut #Gagarin #ColdWar #SpaceRace #Nelyubov #Declassified #USSR #SpaceDocumentary #History #SpaceFacts #Mindwired #Shorts
+```
+Tags: `lost cosmonauts,grigori nelyubov,nelyubov,airbrushed cosmonaut,soviet photo manipulation,erased from history,gagarin backup,vostok 1 backup,first man in space,yuri gagarin,soviet space program,cosmonaut erased,soviet cover up,cold war secrets,ussr space secrets,space race,forgotten cosmonaut,soviet propaganda,declassified soviet,cosmonaut deleted,soviet union history,space history shorts,stalin airbrush,mindwired,space shorts,space facts,history shorts,space documentary,soviet secrets`
+Pinned: `He was 3rd in line to be the first human in space — then the state pretended he never existed. He's just one of six. Full story: https://youtu.be/Hs6ZzZAQ7ms`
 
-## Short 3 — marshalchair (drop day 3)
-**Title:** He Sat in a Chair Next to a Fueled ICBM
-**Search cluster:** nedelin catastrophe / r-16 disaster / worst rocket disaster / soviet missile explosion 1960
-**Description:** A Soviet Marshal brought a CHAIR to a leaking, fully-fueled ICBM to prove it was safe. 78+ men never came home, and Moscow called it a plane crash — for 29 years. Full story on the channel. #SpaceHistory #ColdWar #Shorts
-**Pinned:** This was only Erasure No.1. All six → "The Cosmonauts the Soviets Erased From History" → [long-form URL]
+### DAY 2 — `The Woman Who Burned Up in Space - Who Never Existed.mp4`
+Title: The Woman Who Burned Up in Space #shorts
+Desc:
+```
+In 1961, two Italian brothers recorded the sound of a woman dying in orbit — two years before the first woman officially went to space. According to the Soviet Union, she never existed. Achille and Giovanni Judica-Cordiglia had tracked real Soviet spacecraft for years from their homemade listening station outside Turin. Then they caught a female voice, in Russian, growing desperate: "I am hot… am I going to crash?" Moscow's answer was total silence. Experts say the tape doesn't hold up — but that exact year, the USSR really WAS hiding dead spacemen. That's what keeps the story alive.
+(The audio here is a labelled recreation of what the brothers logged.)
 
-## Short 4 — landeddead (drop day 4)
-**Title:** The Only 3 Humans Who Died in Space Landed Perfectly
-**Search cluster:** soyuz 11 / only people who died in space / cosmonauts found dead / salyut 1 crew
-**Description:** Retrofire clean. Chute open. Textbook landing. Rescue crews opened the hatch and found all three cosmonauts calm, composed, and dead. One valve, 168 km up. Full story on the channel. #Soyuz11 #SpaceHistory #Shorts
-**Pinned:** Why no cosmonaut has flown without a pressure suit since 1971 — full video → [long-form URL]
+Full documentary — the six real erasures behind the myth: https://youtu.be/Hs6ZzZAQ7ms
+Subscribe: https://www.youtube.com/@Mindwired?sub_confirmation=1
 
-**Loop note:** each Short's last frame returns to its hook image (erasedman: group photo ↔ portrait; womantape: same tape machine) — built for replay.
-**Track:** subs gained + long-form CTR from each Short, not raw views. Whichever beat pops, that's the next long-form topic signal (Icahn loop).
+#LostCosmonauts #SpaceMystery #SovietUnion #SpaceHistory #ColdWar #TorreBert #Unexplained #Cosmonaut #SpaceRace #USSR #Declassified #Creepy #SpaceFacts #Mindwired #Shorts
+```
+Tags: `lost cosmonauts,phantom cosmonauts,lost female cosmonaut,judica cordiglia,torre bert,dying cosmonaut recording,woman lost in space,female cosmonaut 1961,soviet space secrets,valentina tereshkova,first woman in space,intercepted radio,cold war mystery,space mystery,unexplained recording,soviet cover up,ussr space program,eerie space audio,creepy space,declassified,dead cosmonauts,turin brothers,mindwired,space shorts,space facts,history shorts,space documentary,unsolved mystery`
+Pinned: `Was she real? Almost certainly not — but the reason the myth survives is that the USSR really was hiding dead spacemen at the time. Full story: https://youtu.be/Hs6ZzZAQ7ms`
+
+### DAY 3 — `He Sat in a Chair Next to a Fueled ICBM.mp4`
+Title: He Sat in a Chair Next to a Fueled ICBM #shorts
+Desc:
+```
+A Soviet Marshal had a chair carried out to the launch pad and sat down next to a leaking, fully-fueled intercontinental missile — to prove he wasn't afraid of it. Minutes later, it killed him and dozens of others. October 1960, Baikonur. The R-16 was leaking on the pad; doing it safely meant weeks of delay, so Marshal Nedelin ordered the fault fixed live, on the fueled rocket. The second stage ignited straight down into the first. The officially admitted death toll, released decades later, was 78; other counts pass 120. And then the Soviet Union announced Nedelin had died in a plane crash. The largest launch-pad disaster in history stayed secret for 29 years — and it was only the first of six erasures.
+
+Full documentary — all six: https://youtu.be/Hs6ZzZAQ7ms
+Subscribe: https://www.youtube.com/@Mindwired?sub_confirmation=1
+
+#Nedelin #SpaceHistory #ColdWar #SovietUnion #RocketDisaster #Baikonur #SpaceRace #Declassified #USSR #LostCosmonauts #SpaceDocumentary #History #SpaceFacts #Mindwired #Shorts
+```
+Tags: `nedelin catastrophe,nedelin disaster,r-16 disaster,worst rocket disaster,soviet missile explosion,baikonur disaster,launch pad explosion,marshal nedelin,1960 rocket explosion,soviet space secrets,cold war disaster,ussr cover up,space race disaster,devil venom,soviet missile program,hidden disaster,declassified,cosmonaut deaths,plane crash cover story,lost cosmonauts,mindwired,space shorts,space facts,history shorts,space documentary,soviet secrets,rocket failure`
+Pinned: `78+ dead, called a "plane crash," secret for 29 years — and this was only Erasure No.1. All six: https://youtu.be/Hs6ZzZAQ7ms`
+
+### DAY 4 — `The Only 3 Humans Who Died in Space Landed Perfectly.mp4`
+Title: The Only 3 Humans Who Died in Space Landed Perfectly #shorts
+Desc:
+```
+The only three human beings who have ever died in space itself came home in a picture-perfect landing. Rescue crews opened the hatch and found all three men in their seats — calm, composed, and dead. June 1971. Cosmonauts Dobrovolsky, Volkov and Patsayev were returning from a record three weeks aboard Salyut 1, the first space station in history. Retrofire: clean. Re-entry: clean. Parachute: open. A textbook touchdown. But a pressure valve had been jolted open 168 kilometres up, and their air hissed into vacuum in under a minute. They wore no pressure suits — there was no room. To this day they remain the only humans to die in space above the Kármán line.
+
+Full documentary — the erased Soviet space secrets: https://youtu.be/Hs6ZzZAQ7ms
+Subscribe: https://www.youtube.com/@Mindwired?sub_confirmation=1
+
+#Soyuz11 #SpaceHistory #SovietUnion #Cosmonaut #ColdWar #Salyut1 #SpaceRace #SpaceDisaster #Declassified #USSR #LostCosmonauts #SpaceDocumentary #History #SpaceFacts #Mindwired #Shorts
+```
+Tags: `soyuz 11,soyuz 11 disaster,only deaths in space,cosmonauts died in space,salyut 1,dobrovolsky volkov patsayev,decompression death,space disaster,soviet space program,cosmonaut deaths,1971 space disaster,pressure suit,cold war space,reentry disaster,ussr space secrets,vacuum death,found dead in capsule,space race,worst space disasters,creepy space facts,lost cosmonauts,declassified,space history shorts,mindwired,space shorts,space facts,history shorts,space documentary,soviet secrets`
+Pinned: `The only humans who've ever died in space — and their ship landed perfectly. Why no cosmonaut flies without a suit since 1971: https://youtu.be/Hs6ZzZAQ7ms`
+
+**Track:** subs gained + long-form CTR from each Short, not raw views. Whichever beat pops = next long-form topic signal (Icahn loop).

@@ -1,0 +1,646 @@
+{
+  "slug": "lostcosmonauts",
+  "title": "The Cosmonauts the Soviets Erased From History",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "voices": {
+    "UNIDENTIFIED FEMALE VOICE": "273f9ef7-9fc2-4def-88bb-ab108c6249ca"
+  },
+  "channel": "mindwired",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "I am hot. I am hot. Forty one. Forty one. Am I going to crash? Yes. Yes. I am hot. I will re-enter.",
+      "speaker": "UNIDENTIFIED FEMALE VOICE",
+      "radioLabel": "RECREATION — TORRE BERT INTERCEPT LOG",
+      "timestamp": "MAY 1961 — TURIN, ITALY"
+    },
+    {
+      "id": "h2",
+      "text": "In 1961, two brothers in a listening station outside Turin pulled a voice like that out of the static. A woman, they said. In orbit. Burning.",
+      "img": "torrebert",
+      "stat": "MAY 1961",
+      "cap": "A voice, pulled out of the static."
+    },
+    {
+      "id": "h3",
+      "text": "What you just heard is a recreation of what they logged, because the Soviet Union said that woman never existed. No launch. No cosmonaut. No voice.",
+      "img": "reeltoreel",
+      "cap": "\"She never existed.\""
+    },
+    {
+      "id": "h4",
+      "text": "Here is the problem. The Soviet Union said the same thing about men who provably did exist. A man who burned alive in a training chamber, hidden for twenty five years.",
+      "img": "vostoktrain",
+      "cap": "They said the same about real men."
+    },
+    {
+      "id": "h5",
+      "text": "A man cut out of official photographs so cleanly that for decades, historians did not know he had ever been there.",
+      "img": "sochisix",
+      "cap": "Cut out of the photographs."
+    },
+    {
+      "id": "h6",
+      "text": "This is the story of six erasures. Six times the Soviet space program made men disappear. Number four is the one they could not hide.",
+      "img": "earthnight",
+      "cap": "Six erasures. Number 4 broke the pattern."
+    },
+    {
+      "id": "h7",
+      "text": "By the end, you will know what is proven, what was buried, and what is still sitting on nine recordings from Italy, argued over for sixty years.",
+      "img": "reeltoreel",
+      "cap": "Nine recordings. Still argued over."
+    },
+    {
+      "id": "c1_t",
+      "text": "Erasure number one. The day the steppe burned.",
+      "chapter": "ERASURE No. 1\nTHE DAY THE STEPPE BURNED"
+    },
+    {
+      "id": "n1",
+      "text": "October 1960. The Cold War is a scoreboard, and the Soviet Union is winning it. Sputnik. Laika. The far side of the Moon. Every first belongs to Moscow.",
+      "img": "redsquare",
+      "stat": "OCTOBER 1960",
+      "cap": "The USSR is winning every first."
+    },
+    {
+      "id": "n2",
+      "text": "Behind the propaganda, the pressure is crushing. Premier Khrushchev wants a new intercontinental missile, the R-16, ready for the anniversary of the revolution. The deadline is impossible.",
+      "img": "khrushchev",
+      "cap": "An impossible deadline."
+    },
+    {
+      "id": "n3",
+      "text": "On October 24th, the R-16 stands fueled on the pad at Baikonur, loaded with hypergolic propellants so vicious the engineers call them devil's venom.",
+      "img": "nedelin",
+      "stat": "OCTOBER 24, 1960",
+      "cap": "Devil's venom."
+    },
+    {
+      "id": "n4",
+      "text": "The missile is leaking. Safe procedure says drain it and start over, a delay of weeks. Marshal Mitrofan Nedelin, commander of the strategic rocket forces, refuses.",
+      "img": "nedelin",
+      "cap": "The Marshal refuses to wait."
+    },
+    {
+      "id": "n5",
+      "text": "He orders the fault fixed on the pad. On a live, fueled missile. And to prove how safe he thinks it is, he has a chair carried out and sits down beside it.",
+      "img": "nedelin",
+      "cap": "He sits down next to a fueled ICBM."
+    },
+    {
+      "id": "n6",
+      "text": "Around him, dozens of engineers and soldiers are working on the rocket like mechanics under a car. Nobody wants to look slower than the Marshal is patient.",
+      "img": "baikonur",
+      "cap": "Dozens working on a live missile."
+    },
+    {
+      "id": "n7",
+      "text": "At a quarter to seven in the evening, a botched reset of the missile's flight programmer fires the second stage engine. Straight down. Into the fully fueled first stage below it.",
+      "img": "plesetsk",
+      "stat": "18:45 LOCAL",
+      "cap": "The second stage ignites. Straight down."
+    },
+    {
+      "id": "n8",
+      "text": "The fireball swallows the pad in seconds. Men in fuel soaked overalls simply cease to exist. Others run burning across the concrete until the wire perimeter fence stops them.",
+      "img": "plesetsk",
+      "cap": "The fireball swallows the pad."
+    },
+    {
+      "id": "n9",
+      "text": "Automatic cameras, set up to film a triumph, film all of it. The footage is seized and classified the same night.",
+      "img": "plesetsk",
+      "cap": "Cameras filmed everything. Classified by midnight."
+    },
+    {
+      "id": "n10",
+      "text": "Marshal Nedelin, in his chair, is identified afterward by a medal that survived the fire. The official death toll, admitted decades later, is seventy eight. Other counts go past one hundred and twenty.",
+      "img": "nedelin",
+      "stat": "78—126+ DEAD",
+      "cap": "Identified by a melted medal."
+    },
+    {
+      "id": "n11",
+      "text": "And then comes the part that defines everything you will see in this video. The Soviet Union does not announce a disaster. It announces a plane crash.",
+      "img": "redsquare",
+      "cap": "The lie begins."
+    },
+    {
+      "id": "n12",
+      "text": "Soviet newspapers report that Marshal Nedelin has died in an aviation accident. One man. One obituary. The other victims are buried quietly, some in a mass grave at Baikonur.",
+      "img": "redsquare",
+      "cap": "One obituary. A mass grave."
+    },
+    {
+      "id": "n13",
+      "text": "Families are told their sons died in accidents that never happened. The largest launch pad disaster in history officially does not exist until 1989. Twenty nine years of silence.",
+      "img": "baikonur",
+      "stat": "SECRET UNTIL 1989",
+      "cap": "29 years of silence."
+    },
+    {
+      "id": "n14",
+      "text": "Remember that reflex. When something dies at Baikonur, the truth dies with it. Because five months later, the machine that erased a hundred men gets a much smaller job.",
+      "img": "earthnight",
+      "cap": "Five months later, it erases one man."
+    },
+    {
+      "id": "c2_t",
+      "text": "Erasure number two. The fire nobody was told about.",
+      "chapter": "ERASURE No. 2\nTHE FIRE NOBODY WAS TOLD ABOUT"
+    },
+    {
+      "id": "b1",
+      "text": "March 1961. Twenty young pilots are training in secret outside Moscow for something no human has ever done. One of them will be first in space. The world knows none of their names.",
+      "img": "sochisix",
+      "stat": "MARCH 1961",
+      "cap": "20 secret names."
+    },
+    {
+      "id": "b2",
+      "text": "The youngest is Valentin Bondarenko. Twenty four years old, a fighter pilot, by every account the kindest man in the group. They call him Zvonochek. Little bell.",
+      "img": "bondarenko",
+      "cap": "The youngest. \"Little bell.\""
+    },
+    {
+      "id": "b3",
+      "text": "On March 23rd he is finishing day ten of a fifteen day isolation test, sealed in a low pressure chamber where much of the air has been replaced with oxygen.",
+      "img": "vostoktrain",
+      "stat": "MARCH 23, 1961",
+      "cap": "Day 10 in an oxygen-rich chamber."
+    },
+    {
+      "id": "b4",
+      "text": "At the end of a medical session, he peels the sensors off his skin and wipes the adhesive away with a piece of cotton soaked in alcohol. Then he tosses it aside.",
+      "img": "vostoktrain",
+      "cap": "One piece of cotton."
+    },
+    {
+      "id": "b5",
+      "text": "It lands on the coil of an electric hotplate. In oxygen that rich, there is no such thing as a small flame. The chamber ignites around him.",
+      "img": "vostoktrain",
+      "cap": "In pure oxygen, nothing burns small."
+    },
+    {
+      "id": "b6",
+      "text": "The chamber is pressurized. The door cannot simply be pulled open. It takes agonizing minutes to equalize and unseal it while he burns inside, in a wool training suit, on camera.",
+      "img": "vostoktrain",
+      "cap": "The door cannot be opened."
+    },
+    {
+      "id": "b7",
+      "text": "When they finally reach him, Bondarenko is still conscious. Still on his feet. He keeps whispering the same thing to the doctors. It's my fault. It's my fault.",
+      "img": "bondarenko",
+      "cap": "\"It's my fault.\""
+    },
+    {
+      "id": "b8",
+      "text": "He dies hours later with burns over almost his entire body. Twenty days before the flight that will make one of his friends the most famous man alive.",
+      "img": "gagarin",
+      "stat": "20 DAYS BEFORE GAGARIN",
+      "cap": "He never saw his friend fly."
+    },
+    {
+      "id": "b9",
+      "text": "And then, nothing. No announcement. No obituary. His file is sealed, his face is removed from group photographs, and his death is filed away as if it had never happened.",
+      "img": "sochisix",
+      "cap": "No obituary. No face. No name."
+    },
+    {
+      "id": "b10",
+      "text": "The first man to die in the space race officially does not exist. Not for a year. Not for a decade. For twenty five years.",
+      "img": "earthnight",
+      "stat": "SECRET UNTIL 1986",
+      "cap": "25 years of nothing."
+    },
+    {
+      "id": "b11",
+      "text": "Here is what that secret cost. Six years later, NASA seals three astronauts into a capsule full of pure oxygen for a routine test. Apollo 1. A spark. A fire. Three men dead before anyone could open the hatch.",
+      "img": "apollo1fire",
+      "stat": "JANUARY 27, 1967",
+      "cap": "The secret had a price: Apollo 1."
+    },
+    {
+      "id": "b12",
+      "text": "Some historians believe that if Bondarenko's death had been public, American engineers might have treated pure oxygen differently. The cover up did not just erase a man. It may have helped kill three more.",
+      "img": "apollo1crew",
+      "cap": "A secret that crossed the ocean."
+    },
+    {
+      "id": "c3_t",
+      "text": "Erasure number three. The man scratched out of the picture.",
+      "chapter": "ERASURE No. 3\nTHE MAN SCRATCHED OUT OF THE PICTURE"
+    },
+    {
+      "id": "g1",
+      "text": "Look at this photograph. The first cosmonaut group with Sergei Korolev, the chief designer himself. Gagarin sits at the center of history. Everyone in this frame is about to become immortal.",
+      "img": "thegroup",
+      "cap": "Everyone here becomes immortal."
+    },
+    {
+      "id": "g2",
+      "text": "Almost everyone. Because the official versions of photos like this were retouched. Faces painted over with bushes, with staircases, with sky. And one face was removed more often than any other.",
+      "img": "sochisix",
+      "cap": "One face kept disappearing."
+    },
+    {
+      "id": "g3",
+      "text": "Grigori Nelyubov. Fighter pilot. Brilliant, fast, and arrogant, with test scores among the best in the entire group. This is him, training for a flight he would never get.",
+      "img": "nelyubov",
+      "cap": "Grigori Nelyubov."
+    },
+    {
+      "id": "g4",
+      "text": "In April 1961, when Gagarin is strapped into Vostok 1, the state has prepared for every outcome. There are three pre-recorded announcements of the first man in space.",
+      "img": "gagarin",
+      "stat": "APRIL 12, 1961",
+      "cap": "Three announcements were ready that morning."
+    },
+    {
+      "id": "g5",
+      "text": "Gagarin flies. Titov is backup number one. And backup number two, the third name on that shortlist of all mankind, is Grigori Nelyubov.",
+      "img": "nelyubov",
+      "cap": "Third in line for all of history."
+    },
+    {
+      "id": "g6",
+      "text": "He stands meters from the launch pad as his friend rides fire into the sky. Then he waits for his own turn. And waits. The flights go to other men.",
+      "img": "baikonur",
+      "cap": "He watched. And waited."
+    },
+    {
+      "id": "g7",
+      "text": "In March 1963, a drunken argument with a military patrol at a train station changes everything. The patrol demands an apology. Nelyubov, proud to the bone, refuses.",
+      "img": "mig15",
+      "stat": "MARCH 1963",
+      "cap": "One refusal to apologize."
+    },
+    {
+      "id": "g8",
+      "text": "For that, he is expelled from the cosmonaut corps and posted to a fighter regiment at the far eastern edge of the country. As far from Moscow as the Soviet Union goes.",
+      "img": "mig15",
+      "cap": "Exiled to the edge of the map."
+    },
+    {
+      "id": "g9",
+      "text": "But exile is not enough. The retouchers go to work. In the official record, in the published photographs, in the history of the space program, Nelyubov simply stops having existed.",
+      "img": "sochisix",
+      "cap": "Then they erased the past."
+    },
+    {
+      "id": "g10",
+      "text": "Imagine what happens next. A man at a remote airbase tells his fellow pilots the truth. I was Gagarin's second backup. I nearly opened the space age. And nobody believes him.",
+      "img": "nelyubov",
+      "cap": "He told the truth. Nobody believed it."
+    },
+    {
+      "id": "g11",
+      "text": "Why would they? He is not in any photograph. He is not in any book. The state has made his greatest achievement look like a drunk man's fantasy.",
+      "img": "mig15",
+      "cap": "The proof of his life was gone."
+    },
+    {
+      "id": "g12",
+      "text": "On February 18th, 1966, Grigori Nelyubov is struck and killed by a train on a snowbound bridge in the far east. The military investigation notes he had spoken of taking his own life.",
+      "img": "mig15",
+      "stat": "FEBRUARY 18, 1966",
+      "cap": "A bridge. A train. A verdict of despair."
+    },
+    {
+      "id": "g13",
+      "text": "He was thirty one. His name did not appear in print again for twenty years. The man third in line to open the space age was, for two decades, no one at all.",
+      "img": "nelyubov",
+      "cap": "31 years old. Then: no one."
+    },
+    {
+      "id": "g14",
+      "text": "An accident erased. A death erased. A living man erased. The machine works perfectly. And then, in 1967, it meets a disaster too public to disappear.",
+      "img": "earthnight",
+      "cap": "Then came the one they couldn't hide."
+    },
+    {
+      "id": "c4_t",
+      "text": "Erasure number four. The one they could not hide.",
+      "chapter": "ERASURE No. 4\nTHE ONE THEY COULD NOT HIDE"
+    },
+    {
+      "id": "k1",
+      "text": "This is the payoff of everything you have watched so far. Because in April 1967, the Soviet cover up machine finally collides with a catastrophe in full view of the world.",
+      "img": "komarov",
+      "stat": "APRIL 1967",
+      "cap": "The machine meets its match."
+    },
+    {
+      "id": "k2",
+      "text": "The fiftieth anniversary of the revolution is coming, and the leadership wants a triumph. Two ships docking in orbit. Cosmonauts crossing between them. A spectacle.",
+      "img": "redsquare",
+      "cap": "The Kremlin wants a spectacle."
+    },
+    {
+      "id": "k3",
+      "text": "The ship for the job is the brand new Soyuz. There is one problem. It is not ready. Its unmanned test flights have failed, one after another.",
+      "img": "soyuzchute",
+      "cap": "The ship is not ready."
+    },
+    {
+      "id": "k4",
+      "text": "The man assigned to fly it is Vladimir Komarov. Veteran cosmonaut, superb engineer, and one of the most respected men in the program. He knows exactly what the Soyuz is.",
+      "img": "komarov",
+      "cap": "Komarov knew the ship."
+    },
+    {
+      "id": "k5",
+      "text": "By some accounts he told friends the flight would probably kill him. Asked why he did not refuse, he reportedly gave one reason. His backup would fly instead. His backup was Yuri Gagarin.",
+      "img": "gagarin",
+      "cap": "His backup was Gagarin."
+    },
+    {
+      "id": "k6",
+      "text": "Treat that story with care. It comes from disputed sources, and historians argue about it to this day. What is not disputed is what the ship did to him.",
+      "img": "komarov",
+      "cap": "The legend is disputed. The flight is not."
+    },
+    {
+      "id": "k7",
+      "text": "April 23rd. Soyuz 1 launches with Komarov alone aboard. Within hours the ship is crippled. One solar panel never opens. Power is failing. The ship will not hold its orientation.",
+      "img": "baikonur",
+      "stat": "APRIL 23, 1967",
+      "cap": "Crippled within hours."
+    },
+    {
+      "id": "k8",
+      "text": "For a full day, Komarov flies a dying spacecraft by hand, spinning between Earth and sun, working every backup procedure in the book while the ground scrambles beneath him.",
+      "img": "soyuzchute",
+      "cap": "One man flying a dying ship by hand."
+    },
+    {
+      "id": "k9",
+      "text": "The docking mission is abandoned. Now there is only one goal. Get him home. Reentry burn. Atmosphere. Parachute. Three steps between Komarov and the rest of his life.",
+      "img": "soyuzchute",
+      "cap": "Three steps home."
+    },
+    {
+      "id": "k10",
+      "text": "He survives the burn. He survives the plunge. And then the main parachute jams in its container, deformed, engineers later conclude, by faults nobody had time to find.",
+      "img": "soyuzchute",
+      "cap": "The main chute never comes out."
+    },
+    {
+      "id": "k11",
+      "text": "Komarov fires the reserve. It tangles instantly in the drogue of the failed main chute, and the capsule falls the last kilometers with nothing above it but knotted fabric.",
+      "img": "soyuzchute",
+      "cap": "The reserve tangles. Nothing above him."
+    },
+    {
+      "id": "k12",
+      "text": "Soyuz 1 hits the steppe near Orsk at roughly one hundred and forty kilometers per hour and bursts into flame. Vladimir Komarov becomes the first human being to die on a spaceflight.",
+      "img": "soyuz1crash",
+      "stat": "APRIL 24, 1967",
+      "cap": "The first man to die flying to space."
+    },
+    {
+      "id": "k13",
+      "text": "Now watch the pattern break. A hundred dead soldiers can be a plane crash. A burned trainee can be a sealed file. But the whole world watched Soyuz 1 launch.",
+      "img": "baikonur",
+      "cap": "This time, the world was watching."
+    },
+    {
+      "id": "k14",
+      "text": "So for the first time in this story, the Soviet Union announces the death of a cosmonaut, hours after it happens. State funeral. Ashes in the Kremlin wall. National mourning.",
+      "img": "komarov",
+      "cap": "The first admitted death."
+    },
+    {
+      "id": "k15",
+      "text": "They could not erase the man. So they erased the reasons. The design flaws, the ignored warnings, the political deadline that put an unready ship on the pad. All of it stayed secret for decades.",
+      "img": "komarov",
+      "cap": "They erased the reasons instead."
+    },
+    {
+      "id": "k16",
+      "text": "That is what erasure number four teaches. When hiding the body becomes impossible, you hide the cause. Remember that, because it happens again in four years, to three men at once.",
+      "img": "earthnight",
+      "cap": "Hide the body — or hide the cause."
+    },
+    {
+      "id": "c5_t",
+      "text": "Erasure number five. Three men who never woke up.",
+      "chapter": "ERASURE No. 5\nTHREE MEN WHO NEVER WOKE UP"
+    },
+    {
+      "id": "s1",
+      "text": "June 1971. The Soviet Union has lost the Moon, so it plants its flag in a different frontier. Salyut 1. The first space station in human history.",
+      "img": "salyut1",
+      "stat": "JUNE 1971",
+      "cap": "The first space station."
+    },
+    {
+      "id": "s2",
+      "text": "Aboard it, Georgi Dobrovolsky, Vladislav Volkov and Viktor Patsayev live for twenty three days, a world record. They give television tours. They are heroes broadcast into every Soviet home.",
+      "img": "soyuz11crew",
+      "cap": "23 days. Live on television."
+    },
+    {
+      "id": "s3",
+      "text": "There is one detail that will matter. The Soyuz ferry is so cramped that the crew does not wear pressure suits. Three men, in shirtsleeves, in a machine full of valves.",
+      "img": "soyuz11crew",
+      "cap": "No pressure suits. Remember that."
+    },
+    {
+      "id": "s4",
+      "text": "On June 29th they undock and head home. Retrofire is clean. Reentry is clean. The parachute opens. The capsule settles onto the Kazakh steppe like a textbook landing.",
+      "img": "vostokcapsule",
+      "stat": "JUNE 29–30, 1971",
+      "cap": "A perfect landing."
+    },
+    {
+      "id": "s5",
+      "text": "The recovery crews run to the capsule, open the hatch, and find all three men in their couches, calm, composed, and dead.",
+      "img": "vostokcapsule",
+      "cap": "All three. Still in their couches."
+    },
+    {
+      "id": "s6",
+      "text": "When the modules separated above the atmosphere, a pressure equalization valve was jolted open a hundred and sixty eight kilometers up. Their air hissed out into vacuum in less than a minute.",
+      "img": "soyuz11rec",
+      "stat": "168 KM ALTITUDE",
+      "cap": "Their air left through one valve."
+    },
+    {
+      "id": "s7",
+      "text": "Dobrovolsky, Volkov and Patsayev remain, to this day, the only human beings who have ever died in space itself. Above the line. In the black.",
+      "img": "evavoid",
+      "cap": "The only deaths IN space. Ever."
+    },
+    {
+      "id": "s8",
+      "text": "Once again the deaths cannot be hidden. The world had watched these men on television for three weeks. So once again, the state hides what it can. The cause.",
+      "img": "soyuz11crew",
+      "cap": "The pattern, again."
+    },
+    {
+      "id": "s9",
+      "text": "The valve, the vacuum, the shirtsleeves, the redesign that followed. Sealed. NASA, about to fly its own long duration crews, has to plead for details, and waits years for the full story.",
+      "img": "salyut1",
+      "cap": "Even NASA couldn't get answers."
+    },
+    {
+      "id": "s10",
+      "text": "Since that day, no Soviet or Russian crew has ever flown reentry without a sealed pressure suit. The lesson was written in three lives, and then locked in a drawer.",
+      "img": "soyuz11crew",
+      "cap": "Every suit since 1971 is their memorial."
+    },
+    {
+      "id": "s11",
+      "text": "Five erasures. All of them, provably real. Which brings us, finally, back to the voice you heard at the beginning of this video. Erasure number six is the one that may never have happened at all.",
+      "img": "reeltoreel",
+      "cap": "Now — back to the voice."
+    },
+    {
+      "id": "c6_t",
+      "text": "Erasure number six. The voices on the tapes.",
+      "chapter": "ERASURE No. 6\nTHE VOICES ON THE TAPES"
+    },
+    {
+      "id": "l1",
+      "text": "Turin, Italy. The late 1950s. Two brothers, Achille and Giovanni Judica-Cordiglia, build a listening station they call Torre Bert out of war surplus radio gear.",
+      "img": "torrebert",
+      "stat": "TURIN, ITALY",
+      "cap": "Two brothers. A homemade listening post."
+    },
+    {
+      "id": "l2",
+      "text": "They are amateurs, but they are not amateurs at listening. They pull down Sputnik's beep. They record American satellites. When Gagarin flies, they capture transmissions from that too.",
+      "img": "reeltoreel",
+      "cap": "Their antennas caught real spacecraft."
+    },
+    {
+      "id": "l3",
+      "text": "Which is exactly why what happens next is so hard to wave away. Because scattered among the real signals, the brothers begin logging things that match no announced mission.",
+      "img": "torrebert",
+      "cap": "Then came signals that matched nothing."
+    },
+    {
+      "id": "l4",
+      "text": "November 1960. They report what sounds like a distress code, tapped out from something moving overhead. A ship in trouble, where no ship is supposed to be.",
+      "img": "torrebert",
+      "stat": "NOVEMBER 1960",
+      "cap": "A distress code from nowhere."
+    },
+    {
+      "id": "l5",
+      "text": "February 1961. They record what they describe as the sound of a human being suffocating in orbit. A heartbeat, and failing breath, drifting across the sky. No mission is announced that day.",
+      "img": "reeltoreel",
+      "stat": "FEBRUARY 1961",
+      "cap": "A heartbeat where no mission existed."
+    },
+    {
+      "id": "l6",
+      "text": "And in May 1961, the recording that made Torre Bert famous. A woman's voice, in Russian, growing more desperate by the second.",
+      "img": "torrebert",
+      "stat": "MAY 1961",
+      "cap": "Then: the woman."
+    },
+    {
+      "id": "l7",
+      "text": "I am hot. I am hot. Am I going to crash? Yes. Yes. I am hot. I will re-enter. I will re-enter.",
+      "speaker": "UNIDENTIFIED FEMALE VOICE",
+      "radioLabel": "RECREATION — TORRE BERT INTERCEPT LOG",
+      "timestamp": "MAY 1961 — AS LOGGED AT TORRE BERT"
+    },
+    {
+      "id": "l8",
+      "text": "If that recording is what it claims to be, a woman died in the sky two years before Valentina Tereshkova officially became the first woman in space. And history is a lie.",
+      "img": "earthnight",
+      "cap": "If real — history is a lie."
+    },
+    {
+      "id": "l9",
+      "text": "So. Is it real? Here is the honest answer, and you deserve to hear it straight, because this video has shown you exactly why people believed it.",
+      "img": "torrebert",
+      "cap": "The honest answer."
+    },
+    {
+      "id": "l10",
+      "text": "The case against the tapes is strong. The voices break Soviet radio procedure. The orbital physics does not line up. Language experts hear mistakes no native Russian speaker would make.",
+      "img": "reeltoreel",
+      "cap": "The case against: procedure, physics, accent."
+    },
+    {
+      "id": "l11",
+      "text": "Decades of declassified Soviet records, opened after 1991, contain no dead cosmonauts before Komarov, no missing Vostoks, no erased orbital flights. Most historians consider the tapes a myth.",
+      "img": "vostokcapsule",
+      "cap": "The archives show no missing flights."
+    },
+    {
+      "id": "l12",
+      "text": "But the myth refused to die, for one very good reason. Every time someone said the Soviet Union would never hide a dead spaceman, the Soviet Union was, at that exact moment, hiding dead spacemen.",
+      "img": "nedelin",
+      "cap": "Because the USSR WAS hiding bodies."
+    },
+    {
+      "id": "l13",
+      "text": "A hundred men at Baikonur. A plane crash that never happened. Bondarenko's sealed file. Nelyubov's scratched out face. The truth about Soyuz 1 and Soyuz 11, locked away for a generation.",
+      "img": "nelyubov",
+      "cap": "Five real erasures fed one legend."
+    },
+    {
+      "id": "l14",
+      "text": "The lost cosmonauts are almost certainly not real. But the Soviet Union built the exact machine that would have hidden them if they were. That is not a conspiracy theory. That is this video.",
+      "img": "earthnight",
+      "cap": "The machine to hide them existed. Provably."
+    },
+    {
+      "id": "e1",
+      "text": "In the late 1980s, glasnost cracked the archives open, and the erased men came back one by one. Bondarenko got his obituary, twenty five years late.",
+      "img": "bondarenko",
+      "stat": "1986",
+      "cap": "25 years late, he got his obituary."
+    },
+    {
+      "id": "e2",
+      "text": "Nelyubov came back into the photographs and the history books. A crater on the far side of the Moon now quietly carries Komarov's name. Elsewhere on that same hidden hemisphere, three craters carry the names of the Apollo 1 crew.",
+      "img": "nelyubov",
+      "cap": "The erased names came back."
+    },
+    {
+      "id": "e3",
+      "text": "The men who fixed the R-16 on that launch pad have a memorial at Baikonur. Three years later, to the day, a second fire in a missile silo killed again. Since then, October 24th is Baikonur's black day. Nothing launches.",
+      "img": "nedelin",
+      "stat": "OCTOBER 24 — NO LAUNCHES",
+      "cap": "Baikonur still refuses to launch that day."
+    },
+    {
+      "id": "e4",
+      "text": "And in Italy, the nine recordings still exist. Whatever they captured, a hoax, a mistake, or a voice, they remain the space race's strangest loose end.",
+      "img": "reeltoreel",
+      "cap": "Nine recordings. Never resolved."
+    },
+    {
+      "id": "e5",
+      "text": "Here is the thought to leave with. Every space program is built on names we celebrate. This one was also built on names that had to be recovered, one by one, from deliberate silence.",
+      "img": "gagarinfuneral",
+      "cap": "Some names had to be rescued from silence."
+    },
+    {
+      "id": "e6",
+      "text": "Gagarin's smile was real. The triumph was real. But behind the most famous photograph of the twentieth century stood men whose faces were sanded away so the picture would stay clean.",
+      "img": "gagarin",
+      "cap": "The triumph was real. So was the airbrush."
+    },
+    {
+      "id": "e7",
+      "text": "History is not just what happened. It is what survived the retouching. And sometimes, the most important men in the picture are the ones who are no longer in it.",
+      "img": "sochisix",
+      "cap": "The most important men aren't in the picture."
+    },
+    {
+      "id": "e8",
+      "text": "If this story gripped you, the next one is already waiting. Every way space has actually killed a human, the full story, is on screen now. And subscribe to mindwired, so the next erased story finds you.",
+      "img": "earthnight",
+      "cap": "Subscribe — the next story is waiting."
+    }
+  ]
+}

@@ -16,7 +16,7 @@ events/people/places.
 
 | Niche | Video order | Why |
 |---|---|---|
-| **aviation** | nara → archive_org → commons → dvids → loc → pexels/pixabay | NARA = 3,969 PD "Moving Images" for 'apollo' alone incl. military aviation; Universal Newsreels (archive.org) = cleanest PD claim on the site; DVIDS for modern military jets (free key) |
+| **aviation** | dvids → nara → archive_org → commons → loc → pexels/pixabay | NARA = 3,969 PD "Moving Images" for 'apollo' alone incl. military aviation; Universal Newsreels (archive.org) = cleanest PD claim on the site; DVIDS for modern military jets (free key) |
 | **space** | nasa → nasa_svs → eso → commons → archive_org | images-api.nasa.gov (PD) + SVS cinematic visualizations (PD) + ESO/Hubble/Webb (CC BY 4.0, credit in description) |
 | **ocean** | noaa_ocean → commons → nasa → archive_org | NOAA Ocean Exploration WP media API = deep-sea ROV footage, US-gov PD. Schmidt/MBARI/WHOI/Nautilus are all NC or permission-only — **never scrape them** |
 | **history** | archive_org → nara → loc → commons | Prelinger + Universal Newsreels + FedFlix; LoC National Screening Room ("no known restrictions" filter ON) |
@@ -68,6 +68,17 @@ events/people/places.
   FAA.gov media pages, Getty Open Content, Flickr Commons (incl. San Diego Air &
   Space Museum), Coverr (API exists but library now mixes in AI-generated clips —
   against the whole point).
+
+## Doc-driven fetching (the default path per episode, 2026-07-20)
+
+`scripts/fetch_doc_footage.py <slug> [--uhd]` — reads the doc spec and sources
+the whole episode in one command. Scene fields: `"img": "klia", "query": "kuala
+lumpur airport night"` (image pool per prefix), `"video": "b777_1.mp4",
+"videoQuery": "boeing 777 takeoff night"` (exact clips), `"stock": true`
+(generic atmosphere b-roll -> Pexels/Pixabay first; specific/real things stay
+archival-first), doc-level `"niche"`. Write SPECIFIC queries — the aircraft,
+the ship name, the place — never just "ocean". Then eyeball the contact sheet,
+`build_doc_vo.py --manifest-only`, `audit_scene_relevance.py`.
 
 ## The anti-slop rules (enforced by the pipeline)
 

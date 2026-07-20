@@ -39,7 +39,7 @@ REPO = footage.REPO
 # Ranked per niche: archival/real first, generic stock last. Mirrors
 # scripts/SOURCES-GUIDE.md — update both together.
 NICHE_RANK: dict[str, dict[str, list[str]]] = {
-    "aviation": {"video": ["nara", "archive_org", "commons", "dvids", "loc", "pexels", "pixabay"],
+    "aviation": {"video": ["dvids", "nara", "archive_org", "commons", "loc", "pexels", "pixabay"],
                  "image": ["commons", "openverse", "pexels", "pixabay"]},
     "space":    {"video": ["nasa", "nasa_svs", "eso", "commons", "archive_org", "pexels"],
                  "image": ["nasa", "commons", "openverse"]},
@@ -95,6 +95,7 @@ def main() -> None:
                     help="keep footage up to 2160p (4K episodes; default caps at 1080p)")
     args = ap.parse_args()
 
+    footage.TARGET_H = 2160 if args.uhd else 1080
     ranking = ([s.strip() for s in args.sources.split(",") if s.strip()]
                if args.sources else NICHE_RANK[args.niche][args.kind])
     bad = [s for s in ranking if s not in footage.SOURCES]

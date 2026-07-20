@@ -1,0 +1,127 @@
+{
+  "slug": "arg-eng-final",
+  "title": "Two Touches. One Header. Messi's Argentina Break England's Hearts.",
+  "channel": "kickoffdaily90",
+  "scenes": [
+    {
+      "id": "two-touches", "kind": "hook", "start": 0, "end": 5,
+      "voiceover": "Lautaro Martínez touched the ball twice tonight. The second touch put Argentina in the World Cup final.",
+      "mainText": "2 TOUCHES. 1 FINAL.", "emphasis": ["2", "FINAL"],
+      "kicker": "World Cup Semi-Final · Atlanta",
+      "visualConcept": "Lautaro pointing — the super-sub who needed one moment.",
+      "camera": ["push"], "backgroundPrompt": "Lautaro pointing", "brollExists": true,
+      "emotionalTone": "shock", "transitionOut": "whip"
+    },
+    {
+      "id": "england-lead", "kind": "shockfact", "start": 5, "end": 11,
+      "voiceover": "For thirty minutes, England were in the final. Anthony Gordon finished Morgan Rogers' cross on fifty-five, and Atlanta went quiet.",
+      "mainText": "GORDON 55' · ENGLAND 1–0", "emphasis": ["1–0"],
+      "kicker": "England ahead — and holding on",
+      "visualConcept": "Gordon in white — England's moment of belief.",
+      "camera": ["dolly-in"], "backgroundPrompt": "Gordon England", "brollExists": true,
+      "emotionalTone": "confidence", "transitionOut": "cut"
+    },
+    {
+      "id": "pickford-wall", "kind": "shockfact", "start": 11, "end": 17,
+      "voiceover": "Jordan Pickford was a wall — denying Julián Álvarez twice, clawing out Nico González's header. Three saves. It still wasn't enough.",
+      "mainText": "PICKFORD: 3 SAVES · NOT ENOUGH", "emphasis": ["NOT ENOUGH"],
+      "kicker": "the wall that finally cracked",
+      "visualConcept": "Pickford roaring — heroic and doomed.",
+      "camera": ["crash-zoom"], "backgroundPrompt": "Pickford England", "brollExists": true,
+      "emotionalTone": "fear", "transitionOut": "flash"
+    },
+    {
+      "id": "kane-silent", "kind": "shockfact", "start": 17, "end": 24,
+      "voiceover": "And Harry Kane? Twenty-six touches. Zero shots. In ninety minutes. One night after Spain silenced Mbappé, Argentina did the same to England's captain.",
+      "mainText": "KANE: 26 TOUCHES · 0 SHOTS", "emphasis": ["0", "SHOTS"],
+      "kicker": "the semis are eating superstars",
+      "visualConcept": "Kane's clean portrait — a captain erased.",
+      "camera": ["push"], "backgroundPrompt": "Kane England portrait", "brollExists": true,
+      "emotionalTone": "shock", "transitionOut": "whip"
+    },
+    {
+      "id": "street-brawl", "kind": "shockfact", "start": 24, "end": 30,
+      "voiceover": "This was no chess match. Nineteen fouls in the first half alone — a street brawl in Atlanta, and Argentina kept dragging England into it.",
+      "mainText": "19 FIRST-HALF FOULS", "emphasis": ["STREET BRAWL"],
+      "kicker": "ugly, physical, deliberate",
+      "visualConcept": "Bodies flying — the acrobatic chaos of the night.",
+      "camera": ["handheld"], "backgroundPrompt": "Argentina acrobatic clearance", "brollExists": true,
+      "emotionalTone": "fear", "transitionOut": "cut"
+    },
+    {
+      "id": "clock-ticking", "kind": "shockfact", "start": 30, "end": 36,
+      "voiceover": "England retreated. For the last twenty minutes they couldn't get out of their own half. And then the eighty-fifth minute happened.",
+      "mainText": "ENGLAND: PINNED BACK", "emphasis": ["85TH MINUTE"],
+      "kicker": "you could feel it coming",
+      "visualConcept": "The cauldron of Mercedes-Benz Stadium.",
+      "camera": ["dutch"], "backgroundPrompt": "Atlanta stadium interior", "brollExists": true,
+      "emotionalTone": "fear", "transitionOut": "flash"
+    },
+    {
+      "id": "enzo-thunder", "kind": "data", "start": 36, "end": 42,
+      "voiceover": "Enzo Fernández — one hundred and four touches, more than anyone on the pitch — picked his moment and hammered it past Pickford from distance. One-one.",
+      "mainText": "ENZO 85' · 1–1", "emphasis": ["1–1"],
+      "kicker": "104 touches · the equalizer",
+      "visualConcept": "Enzo #24 — the engine who never stopped.",
+      "camera": ["crash-zoom"], "backgroundPrompt": "Enzo Fernandez 24", "brollExists": true,
+      "emotionalTone": "excitement", "transitionOut": "zoomblast",
+      "stat": { "to": 1, "suffix": "–1", "label": "85' ENZO FERNÁNDEZ" }
+    },
+    {
+      "id": "messi-moment", "kind": "shockfact", "start": 42, "end": 49,
+      "voiceover": "Stoppage time. Mac Allister hits the post. The rebound falls to a thirty-nine-year-old Lionel Messi... and time stops.",
+      "mainText": "90+2' · MESSI ON THE BALL", "emphasis": ["MESSI"],
+      "kicker": "the rebound of destiny",
+      "visualConcept": "Messi glancing over his shoulder — the calm before.",
+      "camera": ["push"], "backgroundPrompt": "Messi over shoulder", "brollExists": true,
+      "emotionalTone": "awe", "transitionOut": "cut"
+    },
+    {
+      "id": "lautaro-winner", "kind": "data", "start": 49, "end": 55,
+      "voiceover": "The cross is perfect. Lautaro Martínez rises. Header. Two-one. His second touch of the entire game wins it.",
+      "mainText": "LAUTARO 90+2' · 2–1", "emphasis": ["2–1"],
+      "kicker": "assist: Lionel Messi",
+      "visualConcept": "Messi and Lautaro embracing — the goal in one image.",
+      "camera": ["crash-zoom"], "backgroundPrompt": "Messi Lautaro embrace", "brollExists": true,
+      "emotionalTone": "excitement", "transitionOut": "flash",
+      "stat": { "to": 2, "suffix": "–1", "label": "90+2' LAUTARO MARTÍNEZ" }
+    },
+    {
+      "id": "messi-39", "kind": "shockfact", "start": 55, "end": 62,
+      "voiceover": "Messi's night at thirty-nine: ninety-four touches. Twelve duels won. Both assists. He didn't score — he just decided the game anyway.",
+      "mainText": "MESSI: 94 TOUCHES · 2 ASSISTS", "emphasis": ["2 ASSISTS"],
+      "kicker": "39 years old",
+      "visualConcept": "Messi sitting on the turf — the weary king.",
+      "camera": ["pull"], "backgroundPrompt": "Messi sitting turf", "brollExists": true,
+      "emotionalTone": "awe", "transitionOut": "cut"
+    },
+    {
+      "id": "comeback-kings", "kind": "data", "start": 62, "end": 68,
+      "voiceover": "Eleven of Argentina's goals at this World Cup have come after the seventy-fifth minute. Eleven. They don't chase games. They hunt them.",
+      "mainText": "11 GOALS AFTER THE 75TH", "emphasis": ["11"],
+      "kicker": "comeback kings",
+      "visualConcept": "Lautaro in full sprint — the late-game predator.",
+      "camera": ["dolly-in"], "backgroundPrompt": "Lautaro sprinting", "brollExists": true,
+      "emotionalTone": "confidence", "transitionOut": "whip",
+      "stat": { "to": 11, "label": "ARGENTINA GOALS AFTER 75'" }
+    },
+    {
+      "id": "the-final", "kind": "shockfact", "start": 68, "end": 75,
+      "voiceover": "So it's Spain versus Argentina. The team that never concedes... against the team that never dies. Messi's last World Cup dance — Sunday.",
+      "mainText": "SPAIN vs ARGENTINA", "emphasis": ["SUNDAY"],
+      "kicker": "the final · July 19",
+      "visualConcept": "The World Cup trophy — the prize.",
+      "camera": ["push"], "backgroundPrompt": "World Cup trophy", "brollExists": true,
+      "emotionalTone": "awe", "transitionOut": "flash"
+    },
+    {
+      "id": "cta", "kind": "cta", "start": 75, "end": 82,
+      "voiceover": "Does Messi finally get his second star — or does Spain's machine shut him down too? Comment your pick, and follow — we'll be live for the final.",
+      "mainText": "MESSI OR THE MACHINE?", "emphasis": ["FOLLOW"],
+      "kicker": "KICKOFFDAILY90",
+      "visualConcept": "Mercedes-Benz Stadium — where it ended.",
+      "camera": ["pull"], "backgroundPrompt": "Atlanta stadium exterior", "brollExists": true,
+      "emotionalTone": "excitement", "transitionOut": "none"
+    }
+  ]
+}

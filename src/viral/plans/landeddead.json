@@ -1,0 +1,148 @@
+{
+  "slug": "landeddead",
+  "title": "The Only 3 Humans Who Died in Space Landed Perfectly",
+  "channel": "mindwired",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "start": 0,
+      "end": 5,
+      "voiceover": "The only three humans who have ever died in space came home in a perfect landing.",
+      "mainText": "THEY DIED IN SPACE. THE LANDING WAS PERFECT.",
+      "emphasis": [
+        "DIED",
+        "PERFECT."
+      ],
+      "visualConcept": "Soyuz 11 crew stamp — three faces, instantly human.",
+      "camera": [
+        "crash-zoom"
+      ],
+      "brollExists": true,
+      "emotionalTone": "shock",
+      "transitionOut": "whip",
+      "backgroundPrompt": "Soyuz 11 crew stamp — three faces, instantly human."
+    },
+    {
+      "id": "record",
+      "kind": "problem",
+      "start": 5,
+      "end": 10,
+      "voiceover": "June 1971. Three cosmonauts head home after a record three weeks aboard the first space station in history.",
+      "mainText": "3 WEEKS ON THE FIRST SPACE STATION",
+      "emphasis": [
+        "FIRST"
+      ],
+      "visualConcept": "Salyut 1 — the station itself.",
+      "camera": [
+        "slow-push"
+      ],
+      "brollExists": true,
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut",
+      "backgroundPrompt": "Salyut 1 — the station itself."
+    },
+    {
+      "id": "textbook",
+      "kind": "shockfact",
+      "start": 10,
+      "end": 14,
+      "voiceover": "Retrofire, clean. Reentry, clean. Parachute open. A textbook touchdown on the steppe.",
+      "mainText": "EVERYTHING. WENT. RIGHT.",
+      "emphasis": [
+        "RIGHT."
+      ],
+      "visualConcept": "Reentry capsule on display — scorched, intact.",
+      "camera": [
+        "handheld"
+      ],
+      "brollExists": true,
+      "emotionalTone": "curiosity",
+      "transitionOut": "flash",
+      "backgroundPrompt": "Reentry capsule on display — scorched, intact."
+    },
+    {
+      "id": "hatch",
+      "kind": "shockfact",
+      "start": 14,
+      "end": 19,
+      "voiceover": "Recovery crews opened the hatch and found all three men in their couches. Calm. Composed. Dead.",
+      "mainText": "CALM. COMPOSED. DEAD.",
+      "emphasis": [
+        "DEAD."
+      ],
+      "visualConcept": "Recovery vehicles on the steppe — the moment of discovery.",
+      "camera": [
+        "crash-zoom"
+      ],
+      "brollExists": true,
+      "emotionalTone": "fear",
+      "transitionOut": "flash",
+      "backgroundPrompt": "Recovery vehicles on the steppe — the moment of discovery."
+    },
+    {
+      "id": "valve",
+      "kind": "data",
+      "start": 19,
+      "end": 25,
+      "voiceover": "A valve had been jolted open one hundred sixty eight kilometers up. Their air hissed into vacuum in under a minute.",
+      "mainText": "ONE VALVE. 168 KM UP. AIR GONE IN <60s",
+      "emphasis": [
+        "168",
+        "<60s"
+      ],
+      "stat": {
+        "value": 168,
+        "suffix": " KM",
+        "label": "WHERE THEIR AIR ESCAPED"
+      },
+      "visualConcept": "Stat slam over dark orbital Earth.",
+      "camera": [
+        "static"
+      ],
+      "brollExists": true,
+      "emotionalTone": "fear",
+      "transitionOut": "cut",
+      "backgroundPrompt": "Stat slam over dark orbital Earth."
+    },
+    {
+      "id": "suits",
+      "kind": "transformation",
+      "start": 25,
+      "end": 30,
+      "voiceover": "They wore no pressure suits. There was no room. Not one cosmonaut has flown reentry without one since.",
+      "mainText": "NO ONE FLIES WITHOUT A SUIT SINCE",
+      "emphasis": [
+        "NO",
+        "ONE"
+      ],
+      "visualConcept": "The crew's three faces again — the rule written in their names.",
+      "camera": [
+        "slow-push"
+      ],
+      "brollExists": true,
+      "emotionalTone": "awe",
+      "transitionOut": "flash",
+      "backgroundPrompt": "The crew's three faces again — the rule written in their names."
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "start": 30,
+      "end": 34,
+      "voiceover": "The Soviet Union hid the cause for years. What else they buried is on the channel.",
+      "mainText": "WHAT ELSE THEY BURIED → ON THE CHANNEL",
+      "emphasis": [
+        "BURIED"
+      ],
+      "visualConcept": "Capsule fading to black.",
+      "camera": [
+        "static"
+      ],
+      "brollExists": true,
+      "emotionalTone": "confidence",
+      "transitionOut": "none",
+      "backgroundPrompt": "Capsule fading to black."
+    }
+  ]
+}

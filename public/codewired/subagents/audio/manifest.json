@@ -1,0 +1,2816 @@
+{
+  "clips": {
+    "hook": {
+      "kind": "spoken",
+      "dur": 20.428,
+      "words": [
+        {
+          "word": "Right",
+          "start": 0.35,
+          "end": 0.64
+        },
+        {
+          "word": "now,",
+          "start": 0.672,
+          "end": 0.961
+        },
+        {
+          "word": "the",
+          "start": 0.994,
+          "end": 1.283
+        },
+        {
+          "word": "AI",
+          "start": 1.315,
+          "end": 1.605
+        },
+        {
+          "word": "agent",
+          "start": 1.637,
+          "end": 1.927
+        },
+        {
+          "word": "in",
+          "start": 1.959,
+          "end": 2.248
+        },
+        {
+          "word": "your",
+          "start": 2.281,
+          "end": 2.57
+        },
+        {
+          "word": "terminal",
+          "start": 2.602,
+          "end": 2.892
+        },
+        {
+          "word": "can",
+          "start": 2.924,
+          "end": 3.214
+        },
+        {
+          "word": "clone",
+          "start": 3.246,
+          "end": 3.536
+        },
+        {
+          "word": "itself,",
+          "start": 3.568,
+          "end": 3.857
+        },
+        {
+          "word": "hand",
+          "start": 3.889,
+          "end": 4.179
+        },
+        {
+          "word": "every",
+          "start": 4.211,
+          "end": 4.501
+        },
+        {
+          "word": "clone",
+          "start": 4.533,
+          "end": 4.823
+        },
+        {
+          "word": "a",
+          "start": 4.855,
+          "end": 5.144
+        },
+        {
+          "word": "different",
+          "start": 5.177,
+          "end": 5.466
+        },
+        {
+          "word": "job,",
+          "start": 5.498,
+          "end": 5.788
+        },
+        {
+          "word": "and",
+          "start": 5.82,
+          "end": 6.11
+        },
+        {
+          "word": "merge",
+          "start": 6.142,
+          "end": 6.431
+        },
+        {
+          "word": "their",
+          "start": 6.464,
+          "end": 6.753
+        },
+        {
+          "word": "work",
+          "start": 6.785,
+          "end": 7.075
+        },
+        {
+          "word": "while",
+          "start": 7.107,
+          "end": 7.397
+        },
+        {
+          "word": "you",
+          "start": 7.429,
+          "end": 7.719
+        },
+        {
+          "word": "get",
+          "start": 7.751,
+          "end": 8.04
+        },
+        {
+          "word": "coffee.",
+          "start": 8.072,
+          "end": 8.362
+        },
+        {
+          "word": "Most",
+          "start": 8.394,
+          "end": 8.684
+        },
+        {
+          "word": "developers",
+          "start": 8.716,
+          "end": 9.006
+        },
+        {
+          "word": "using",
+          "start": 9.038,
+          "end": 9.327
+        },
+        {
+          "word": "it",
+          "start": 9.36,
+          "end": 9.649
+        },
+        {
+          "word": "every",
+          "start": 9.681,
+          "end": 9.971
+        },
+        {
+          "word": "single",
+          "start": 10.003,
+          "end": 10.293
+        },
+        {
+          "word": "day",
+          "start": 10.325,
+          "end": 10.614
+        },
+        {
+          "word": "have",
+          "start": 10.647,
+          "end": 10.936
+        },
+        {
+          "word": "no",
+          "start": 10.968,
+          "end": 11.258
+        },
+        {
+          "word": "idea",
+          "start": 11.29,
+          "end": 11.58
+        },
+        {
+          "word": "this",
+          "start": 11.612,
+          "end": 11.902
+        },
+        {
+          "word": "exists.",
+          "start": 11.934,
+          "end": 12.223
+        },
+        {
+          "word": "And",
+          "start": 12.256,
+          "end": 12.545
+        },
+        {
+          "word": "the",
+          "start": 12.577,
+          "end": 12.867
+        },
+        {
+          "word": "ones",
+          "start": 12.899,
+          "end": 13.189
+        },
+        {
+          "word": "who",
+          "start": 13.221,
+          "end": 13.51
+        },
+        {
+          "word": "do",
+          "start": 13.543,
+          "end": 13.832
+        },
+        {
+          "word": "keep",
+          "start": 13.864,
+          "end": 14.154
+        },
+        {
+          "word": "making",
+          "start": 14.186,
+          "end": 14.476
+        },
+        {
+          "word": "one",
+          "start": 14.508,
+          "end": 14.797
+        },
+        {
+          "word": "mistake",
+          "start": 14.83,
+          "end": 15.119
+        },
+        {
+          "word": "that",
+          "start": 15.151,
+          "end": 15.441
+        },
+        {
+          "word": "makes",
+          "start": 15.473,
+          "end": 15.763
+        },
+        {
+          "word": "it",
+          "start": 15.795,
+          "end": 16.085
+        },
+        {
+          "word": "worse",
+          "start": 16.117,
+          "end": 16.406
+        },
+        {
+          "word": "than",
+          "start": 16.439,
+          "end": 16.728
+        },
+        {
+          "word": "useless.",
+          "start": 16.76,
+          "end": 17.05
+        },
+        {
+          "word": "That",
+          "start": 17.082,
+          "end": 17.372
+        },
+        {
+          "word": "mistake",
+          "start": 17.404,
+          "end": 17.693
+        },
+        {
+          "word": "is",
+          "start": 17.726,
+          "end": 18.015
+        },
+        {
+          "word": "the",
+          "start": 18.047,
+          "end": 18.337
+        },
+        {
+          "word": "last",
+          "start": 18.369,
+          "end": 18.659
+        },
+        {
+          "word": "thing",
+          "start": 18.691,
+          "end": 18.981
+        },
+        {
+          "word": "I'll",
+          "start": 19.013,
+          "end": 19.302
+        },
+        {
+          "word": "show",
+          "start": 19.334,
+          "end": 19.624
+        },
+        {
+          "word": "you.",
+          "start": 19.656,
+          "end": 19.946
+        }
+      ],
+      "provider": "cartesia"
+    },
+    "problem": {
+      "kind": "spoken",
+      "dur": 22.596,
+      "words": [
+        {
+          "word": "First,",
+          "start": 0.35,
+          "end": 0.688
+        },
+        {
+          "word": "the",
+          "start": 0.726,
+          "end": 1.064
+        },
+        {
+          "word": "problem.",
+          "start": 1.102,
+          "end": 1.44
+        },
+        {
+          "word": "A",
+          "start": 1.477,
+          "end": 1.816
+        },
+        {
+          "word": "single",
+          "start": 1.853,
+          "end": 2.191
+        },
+        {
+          "word": "agent",
+          "start": 2.229,
+          "end": 2.567
+        },
+        {
+          "word": "has",
+          "start": 2.605,
+          "end": 2.943
+        },
+        {
+          "word": "one",
+          "start": 2.981,
+          "end": 3.319
+        },
+        {
+          "word": "context",
+          "start": 3.356,
+          "end": 3.695
+        },
+        {
+          "word": "window.",
+          "start": 3.732,
+          "end": 4.07
+        },
+        {
+          "word": "Think",
+          "start": 4.108,
+          "end": 4.446
+        },
+        {
+          "word": "of",
+          "start": 4.484,
+          "end": 4.822
+        },
+        {
+          "word": "it",
+          "start": 4.86,
+          "end": 5.198
+        },
+        {
+          "word": "as",
+          "start": 5.235,
+          "end": 5.574
+        },
+        {
+          "word": "a",
+          "start": 5.611,
+          "end": 5.949
+        },
+        {
+          "word": "ring",
+          "start": 5.987,
+          "end": 6.325
+        },
+        {
+          "word": "of",
+          "start": 6.363,
+          "end": 6.701
+        },
+        {
+          "word": "memory",
+          "start": 6.738,
+          "end": 7.077
+        },
+        {
+          "word": "around",
+          "start": 7.114,
+          "end": 7.452
+        },
+        {
+          "word": "its",
+          "start": 7.49,
+          "end": 7.828
+        },
+        {
+          "word": "brain.",
+          "start": 7.866,
+          "end": 8.204
+        },
+        {
+          "word": "Every",
+          "start": 8.242,
+          "end": 8.58
+        },
+        {
+          "word": "file",
+          "start": 8.617,
+          "end": 8.956
+        },
+        {
+          "word": "it",
+          "start": 8.993,
+          "end": 9.331
+        },
+        {
+          "word": "reads,",
+          "start": 9.369,
+          "end": 9.707
+        },
+        {
+          "word": "every",
+          "start": 9.745,
+          "end": 10.083
+        },
+        {
+          "word": "command",
+          "start": 10.121,
+          "end": 10.459
+        },
+        {
+          "word": "it",
+          "start": 10.496,
+          "end": 10.835
+        },
+        {
+          "word": "runs,",
+          "start": 10.872,
+          "end": 11.21
+        },
+        {
+          "word": "every",
+          "start": 11.248,
+          "end": 11.586
+        },
+        {
+          "word": "error",
+          "start": 11.624,
+          "end": 11.962
+        },
+        {
+          "word": "it",
+          "start": 12.0,
+          "end": 12.338
+        },
+        {
+          "word": "hits,",
+          "start": 12.375,
+          "end": 12.714
+        },
+        {
+          "word": "fills",
+          "start": 12.751,
+          "end": 13.089
+        },
+        {
+          "word": "that",
+          "start": 13.127,
+          "end": 13.465
+        },
+        {
+          "word": "ring.",
+          "start": 13.503,
+          "end": 13.841
+        },
+        {
+          "word": "And",
+          "start": 13.879,
+          "end": 14.217
+        },
+        {
+          "word": "when",
+          "start": 14.254,
+          "end": 14.593
+        },
+        {
+          "word": "the",
+          "start": 14.63,
+          "end": 14.968
+        },
+        {
+          "word": "ring",
+          "start": 15.006,
+          "end": 15.344
+        },
+        {
+          "word": "fills",
+          "start": 15.382,
+          "end": 15.72
+        },
+        {
+          "word": "up,",
+          "start": 15.758,
+          "end": 16.096
+        },
+        {
+          "word": "the",
+          "start": 16.133,
+          "end": 16.472
+        },
+        {
+          "word": "agent",
+          "start": 16.509,
+          "end": 16.847
+        },
+        {
+          "word": "starts",
+          "start": 16.885,
+          "end": 17.223
+        },
+        {
+          "word": "forgetting.",
+          "start": 17.261,
+          "end": 17.599
+        },
+        {
+          "word": "Your",
+          "start": 17.636,
+          "end": 17.975
+        },
+        {
+          "word": "instructions",
+          "start": 18.012,
+          "end": 18.35
+        },
+        {
+          "word": "from",
+          "start": 18.388,
+          "end": 18.726
+        },
+        {
+          "word": "ten",
+          "start": 18.764,
+          "end": 19.102
+        },
+        {
+          "word": "minutes",
+          "start": 19.14,
+          "end": 19.478
+        },
+        {
+          "word": "ago",
+          "start": 19.515,
+          "end": 19.854
+        },
+        {
+          "word": "don't",
+          "start": 19.891,
+          "end": 20.229
+        },
+        {
+          "word": "just",
+          "start": 20.267,
+          "end": 20.605
+        },
+        {
+          "word": "fade.",
+          "start": 20.643,
+          "end": 20.981
+        },
+        {
+          "word": "They",
+          "start": 21.019,
+          "end": 21.357
+        },
+        {
+          "word": "fall",
+          "start": 21.394,
+          "end": 21.733
+        },
+        {
+          "word": "out.",
+          "start": 21.77,
+          "end": 22.108
+        }
+      ],
+      "provider": "cartesia"
+    },
+    "delegate": {
+      "kind": "spoken",
+      "dur": 17.006,
+      "words": [
+        {
+          "word": "So",
+          "start": 0.35,
+          "end": 0.724
+        },
+        {
+          "word": "instead",
+          "start": 0.766,
+          "end": 1.14
+        },
+        {
+          "word": "of",
+          "start": 1.181,
+          "end": 1.555
+        },
+        {
+          "word": "one",
+          "start": 1.597,
+          "end": 1.971
+        },
+        {
+          "word": "agent",
+          "start": 2.012,
+          "end": 2.386
+        },
+        {
+          "word": "grinding",
+          "start": 2.428,
+          "end": 2.802
+        },
+        {
+          "word": "until",
+          "start": 2.843,
+          "end": 3.217
+        },
+        {
+          "word": "its",
+          "start": 3.259,
+          "end": 3.633
+        },
+        {
+          "word": "memory",
+          "start": 3.674,
+          "end": 4.048
+        },
+        {
+          "word": "chokes,",
+          "start": 4.09,
+          "end": 4.464
+        },
+        {
+          "word": "Claude",
+          "start": 4.505,
+          "end": 4.879
+        },
+        {
+          "word": "Code",
+          "start": 4.921,
+          "end": 5.295
+        },
+        {
+          "word": "does",
+          "start": 5.336,
+          "end": 5.71
+        },
+        {
+          "word": "something",
+          "start": 5.752,
+          "end": 6.126
+        },
+        {
+          "word": "stranger.",
+          "start": 6.168,
+          "end": 6.542
+        },
+        {
+          "word": "It",
+          "start": 6.583,
+          "end": 6.957
+        },
+        {
+          "word": "delegates.",
+          "start": 6.999,
+          "end": 7.373
+        },
+        {
+          "word": "It",
+          "start": 7.414,
+          "end": 7.788
+        },
+        {
+          "word": "spawns",
+          "start": 7.83,
+          "end": 8.204
+        },
+        {
+          "word": "a",
+          "start": 8.245,
+          "end": 8.619
+        },
+        {
+          "word": "subagent.",
+          "start": 8.661,
+          "end": 9.035
+        },
+        {
+          "word": "A",
+          "start": 9.076,
+          "end": 9.45
+        },
+        {
+          "word": "second,",
+          "start": 9.492,
+          "end": 9.866
+        },
+        {
+          "word": "fresh",
+          "start": 9.907,
+          "end": 10.281
+        },
+        {
+          "word": "copy",
+          "start": 10.323,
+          "end": 10.697
+        },
+        {
+          "word": "of",
+          "start": 10.738,
+          "end": 11.112
+        },
+        {
+          "word": "itself,",
+          "start": 11.154,
+          "end": 11.528
+        },
+        {
+          "word": "with",
+          "start": 11.57,
+          "end": 11.944
+        },
+        {
+          "word": "its",
+          "start": 11.985,
+          "end": 12.359
+        },
+        {
+          "word": "own",
+          "start": 12.401,
+          "end": 12.775
+        },
+        {
+          "word": "empty",
+          "start": 12.816,
+          "end": 13.19
+        },
+        {
+          "word": "context",
+          "start": 13.232,
+          "end": 13.606
+        },
+        {
+          "word": "window,",
+          "start": 13.647,
+          "end": 14.021
+        },
+        {
+          "word": "and",
+          "start": 14.063,
+          "end": 14.437
+        },
+        {
+          "word": "hands",
+          "start": 14.478,
+          "end": 14.852
+        },
+        {
+          "word": "it",
+          "start": 14.894,
+          "end": 15.268
+        },
+        {
+          "word": "exactly",
+          "start": 15.309,
+          "end": 15.683
+        },
+        {
+          "word": "one",
+          "start": 15.725,
+          "end": 16.099
+        },
+        {
+          "word": "job.",
+          "start": 16.14,
+          "end": 16.514
+        }
+      ],
+      "provider": "cartesia"
+    },
+    "work": {
+      "kind": "spoken",
+      "dur": 17.084,
+      "words": [
+        {
+          "word": "The",
+          "start": 0.35,
+          "end": 0.716
+        },
+        {
+          "word": "clone",
+          "start": 0.757,
+          "end": 1.123
+        },
+        {
+          "word": "goes",
+          "start": 1.164,
+          "end": 1.531
+        },
+        {
+          "word": "away",
+          "start": 1.571,
+          "end": 1.938
+        },
+        {
+          "word": "and",
+          "start": 1.978,
+          "end": 2.345
+        },
+        {
+          "word": "does",
+          "start": 2.385,
+          "end": 2.752
+        },
+        {
+          "word": "the",
+          "start": 2.793,
+          "end": 3.159
+        },
+        {
+          "word": "dirty",
+          "start": 3.2,
+          "end": 3.566
+        },
+        {
+          "word": "work.",
+          "start": 3.607,
+          "end": 3.973
+        },
+        {
+          "word": "It",
+          "start": 4.014,
+          "end": 4.38
+        },
+        {
+          "word": "reads",
+          "start": 4.421,
+          "end": 4.787
+        },
+        {
+          "word": "twenty",
+          "start": 4.828,
+          "end": 5.194
+        },
+        {
+          "word": "files.",
+          "start": 5.235,
+          "end": 5.602
+        },
+        {
+          "word": "It",
+          "start": 5.642,
+          "end": 6.009
+        },
+        {
+          "word": "runs",
+          "start": 6.049,
+          "end": 6.416
+        },
+        {
+          "word": "the",
+          "start": 6.456,
+          "end": 6.823
+        },
+        {
+          "word": "tests.",
+          "start": 6.864,
+          "end": 7.23
+        },
+        {
+          "word": "It",
+          "start": 7.271,
+          "end": 7.637
+        },
+        {
+          "word": "hits",
+          "start": 7.678,
+          "end": 8.044
+        },
+        {
+          "word": "the",
+          "start": 8.085,
+          "end": 8.451
+        },
+        {
+          "word": "dead",
+          "start": 8.492,
+          "end": 8.858
+        },
+        {
+          "word": "ends.",
+          "start": 8.899,
+          "end": 9.265
+        },
+        {
+          "word": "And",
+          "start": 9.306,
+          "end": 9.673
+        },
+        {
+          "word": "then",
+          "start": 9.713,
+          "end": 10.08
+        },
+        {
+          "word": "it",
+          "start": 10.12,
+          "end": 10.487
+        },
+        {
+          "word": "returns",
+          "start": 10.527,
+          "end": 10.894
+        },
+        {
+          "word": "one",
+          "start": 10.935,
+          "end": 11.301
+        },
+        {
+          "word": "thing.",
+          "start": 11.342,
+          "end": 11.708
+        },
+        {
+          "word": "The",
+          "start": 11.749,
+          "end": 12.115
+        },
+        {
+          "word": "conclusion.",
+          "start": 12.156,
+          "end": 12.522
+        },
+        {
+          "word": "Not",
+          "start": 12.563,
+          "end": 12.929
+        },
+        {
+          "word": "the",
+          "start": 12.97,
+          "end": 13.336
+        },
+        {
+          "word": "twenty",
+          "start": 13.377,
+          "end": 13.744
+        },
+        {
+          "word": "files.",
+          "start": 13.784,
+          "end": 14.151
+        },
+        {
+          "word": "Not",
+          "start": 14.191,
+          "end": 14.558
+        },
+        {
+          "word": "the",
+          "start": 14.598,
+          "end": 14.965
+        },
+        {
+          "word": "noise.",
+          "start": 15.006,
+          "end": 15.372
+        },
+        {
+          "word": "One",
+          "start": 15.413,
+          "end": 15.779
+        },
+        {
+          "word": "clean",
+          "start": 15.82,
+          "end": 16.186
+        },
+        {
+          "word": "report.",
+          "start": 16.227,
+          "end": 16.593
+        }
+      ],
+      "provider": "cartesia"
+    },
+    "memory": {
+      "kind": "spoken",
+      "dur": 12.042,
+      "words": [
+        {
+          "word": "Which",
+          "start": 0.35,
+          "end": 0.711
+        },
+        {
+          "word": "means",
+          "start": 0.752,
+          "end": 1.113
+        },
+        {
+          "word": "the",
+          "start": 1.153,
+          "end": 1.514
+        },
+        {
+          "word": "parent's",
+          "start": 1.554,
+          "end": 1.916
+        },
+        {
+          "word": "memory",
+          "start": 1.956,
+          "end": 2.317
+        },
+        {
+          "word": "stays",
+          "start": 2.358,
+          "end": 2.719
+        },
+        {
+          "word": "clean.",
+          "start": 2.759,
+          "end": 3.12
+        },
+        {
+          "word": "And",
+          "start": 3.161,
+          "end": 3.522
+        },
+        {
+          "word": "that's",
+          "start": 3.562,
+          "end": 3.923
+        },
+        {
+          "word": "the",
+          "start": 3.964,
+          "end": 4.325
+        },
+        {
+          "word": "real",
+          "start": 4.365,
+          "end": 4.726
+        },
+        {
+          "word": "trick.",
+          "start": 4.766,
+          "end": 5.128
+        },
+        {
+          "word": "Subagents",
+          "start": 5.168,
+          "end": 5.529
+        },
+        {
+          "word": "aren't",
+          "start": 5.569,
+          "end": 5.931
+        },
+        {
+          "word": "about",
+          "start": 5.971,
+          "end": 6.332
+        },
+        {
+          "word": "speed",
+          "start": 6.372,
+          "end": 6.734
+        },
+        {
+          "word": "first.",
+          "start": 6.774,
+          "end": 7.135
+        },
+        {
+          "word": "They're",
+          "start": 7.176,
+          "end": 7.537
+        },
+        {
+          "word": "about",
+          "start": 7.577,
+          "end": 7.938
+        },
+        {
+          "word": "memory.",
+          "start": 7.979,
+          "end": 8.34
+        },
+        {
+          "word": "Every",
+          "start": 8.38,
+          "end": 8.741
+        },
+        {
+          "word": "messy",
+          "start": 8.781,
+          "end": 9.143
+        },
+        {
+          "word": "job",
+          "start": 9.183,
+          "end": 9.544
+        },
+        {
+          "word": "happens",
+          "start": 9.585,
+          "end": 9.946
+        },
+        {
+          "word": "in",
+          "start": 9.986,
+          "end": 10.347
+        },
+        {
+          "word": "someone",
+          "start": 10.388,
+          "end": 10.749
+        },
+        {
+          "word": "else's",
+          "start": 10.789,
+          "end": 11.15
+        },
+        {
+          "word": "head.",
+          "start": 11.191,
+          "end": 11.552
+        }
+      ],
+      "provider": "cartesia"
+    },
+    "anatomy": {
+      "kind": "spoken",
+      "dur": 23.171,
+      "words": [
+        {
+          "word": "And",
+          "start": 0.35,
+          "end": 0.703
+        },
+        {
+          "word": "here's",
+          "start": 0.742,
+          "end": 1.096
+        },
+        {
+          "word": "the",
+          "start": 1.135,
+          "end": 1.488
+        },
+        {
+          "word": "part",
+          "start": 1.527,
+          "end": 1.881
+        },
+        {
+          "word": "nobody",
+          "start": 1.92,
+          "end": 2.273
+        },
+        {
+          "word": "tells",
+          "start": 2.312,
+          "end": 2.666
+        },
+        {
+          "word": "you.",
+          "start": 2.705,
+          "end": 3.058
+        },
+        {
+          "word": "A",
+          "start": 3.097,
+          "end": 3.451
+        },
+        {
+          "word": "subagent",
+          "start": 3.49,
+          "end": 3.843
+        },
+        {
+          "word": "is",
+          "start": 3.882,
+          "end": 4.235
+        },
+        {
+          "word": "just",
+          "start": 4.275,
+          "end": 4.628
+        },
+        {
+          "word": "a",
+          "start": 4.667,
+          "end": 5.02
+        },
+        {
+          "word": "markdown",
+          "start": 5.06,
+          "end": 5.413
+        },
+        {
+          "word": "file.",
+          "start": 5.452,
+          "end": 5.805
+        },
+        {
+          "word": "A",
+          "start": 5.845,
+          "end": 6.198
+        },
+        {
+          "word": "name.",
+          "start": 6.237,
+          "end": 6.59
+        },
+        {
+          "word": "A",
+          "start": 6.63,
+          "end": 6.983
+        },
+        {
+          "word": "description.",
+          "start": 7.022,
+          "end": 7.375
+        },
+        {
+          "word": "And",
+          "start": 7.415,
+          "end": 7.768
+        },
+        {
+          "word": "a",
+          "start": 7.807,
+          "end": 8.16
+        },
+        {
+          "word": "list",
+          "start": 8.199,
+          "end": 8.553
+        },
+        {
+          "word": "of",
+          "start": 8.592,
+          "end": 8.945
+        },
+        {
+          "word": "tools",
+          "start": 8.984,
+          "end": 9.338
+        },
+        {
+          "word": "it's",
+          "start": 9.377,
+          "end": 9.73
+        },
+        {
+          "word": "allowed",
+          "start": 9.769,
+          "end": 10.123
+        },
+        {
+          "word": "to",
+          "start": 10.162,
+          "end": 10.515
+        },
+        {
+          "word": "touch.",
+          "start": 10.554,
+          "end": 10.908
+        },
+        {
+          "word": "Tools",
+          "start": 10.947,
+          "end": 11.3
+        },
+        {
+          "word": "are",
+          "start": 11.339,
+          "end": 11.692
+        },
+        {
+          "word": "the",
+          "start": 11.732,
+          "end": 12.085
+        },
+        {
+          "word": "agent's",
+          "start": 12.124,
+          "end": 12.477
+        },
+        {
+          "word": "hands.",
+          "start": 12.517,
+          "end": 12.87
+        },
+        {
+          "word": "Reading",
+          "start": 12.909,
+          "end": 13.262
+        },
+        {
+          "word": "files.",
+          "start": 13.302,
+          "end": 13.655
+        },
+        {
+          "word": "Editing",
+          "start": 13.694,
+          "end": 14.047
+        },
+        {
+          "word": "code.",
+          "start": 14.087,
+          "end": 14.44
+        },
+        {
+          "word": "Running",
+          "start": 14.479,
+          "end": 14.832
+        },
+        {
+          "word": "commands.",
+          "start": 14.872,
+          "end": 15.225
+        },
+        {
+          "word": "Take",
+          "start": 15.264,
+          "end": 15.617
+        },
+        {
+          "word": "the",
+          "start": 15.656,
+          "end": 16.01
+        },
+        {
+          "word": "editing",
+          "start": 16.049,
+          "end": 16.402
+        },
+        {
+          "word": "hand",
+          "start": 16.441,
+          "end": 16.795
+        },
+        {
+          "word": "away,",
+          "start": 16.834,
+          "end": 17.187
+        },
+        {
+          "word": "and",
+          "start": 17.226,
+          "end": 17.58
+        },
+        {
+          "word": "you've",
+          "start": 17.619,
+          "end": 17.972
+        },
+        {
+          "word": "built",
+          "start": 18.011,
+          "end": 18.365
+        },
+        {
+          "word": "a",
+          "start": 18.404,
+          "end": 18.757
+        },
+        {
+          "word": "reviewer",
+          "start": 18.796,
+          "end": 19.149
+        },
+        {
+          "word": "that",
+          "start": 19.189,
+          "end": 19.542
+        },
+        {
+          "word": "can",
+          "start": 19.581,
+          "end": 19.934
+        },
+        {
+          "word": "look",
+          "start": 19.974,
+          "end": 20.327
+        },
+        {
+          "word": "at",
+          "start": 20.366,
+          "end": 20.719
+        },
+        {
+          "word": "everything,",
+          "start": 20.759,
+          "end": 21.112
+        },
+        {
+          "word": "but",
+          "start": 21.151,
+          "end": 21.504
+        },
+        {
+          "word": "never",
+          "start": 21.544,
+          "end": 21.897
+        },
+        {
+          "word": "break",
+          "start": 21.936,
+          "end": 22.289
+        },
+        {
+          "word": "anything.",
+          "start": 22.329,
+          "end": 22.682
+        }
+      ],
+      "provider": "cartesia"
+    },
+    "team": {
+      "kind": "spoken",
+      "dur": 21.551,
+      "words": [
+        {
+          "word": "Now",
+          "start": 0.35,
+          "end": 0.702
+        },
+        {
+          "word": "scale",
+          "start": 0.742,
+          "end": 1.094
+        },
+        {
+          "word": "it.",
+          "start": 1.133,
+          "end": 1.485
+        },
+        {
+          "word": "A",
+          "start": 1.525,
+          "end": 1.877
+        },
+        {
+          "word": "researcher.",
+          "start": 1.916,
+          "end": 2.268
+        },
+        {
+          "word": "A",
+          "start": 2.308,
+          "end": 2.66
+        },
+        {
+          "word": "coder.",
+          "start": 2.699,
+          "end": 3.052
+        },
+        {
+          "word": "A",
+          "start": 3.091,
+          "end": 3.443
+        },
+        {
+          "word": "reviewer.",
+          "start": 3.482,
+          "end": 3.835
+        },
+        {
+          "word": "A",
+          "start": 3.874,
+          "end": 4.226
+        },
+        {
+          "word": "tester.",
+          "start": 4.265,
+          "end": 4.618
+        },
+        {
+          "word": "Each",
+          "start": 4.657,
+          "end": 5.009
+        },
+        {
+          "word": "one",
+          "start": 5.048,
+          "end": 5.401
+        },
+        {
+          "word": "a",
+          "start": 5.44,
+          "end": 5.792
+        },
+        {
+          "word": "separate",
+          "start": 5.831,
+          "end": 6.184
+        },
+        {
+          "word": "clone,",
+          "start": 6.223,
+          "end": 6.575
+        },
+        {
+          "word": "with",
+          "start": 6.614,
+          "end": 6.967
+        },
+        {
+          "word": "its",
+          "start": 7.006,
+          "end": 7.358
+        },
+        {
+          "word": "own",
+          "start": 7.398,
+          "end": 7.75
+        },
+        {
+          "word": "memory,",
+          "start": 7.789,
+          "end": 8.141
+        },
+        {
+          "word": "its",
+          "start": 8.181,
+          "end": 8.533
+        },
+        {
+          "word": "own",
+          "start": 8.572,
+          "end": 8.924
+        },
+        {
+          "word": "permissions,",
+          "start": 8.964,
+          "end": 9.316
+        },
+        {
+          "word": "its",
+          "start": 9.355,
+          "end": 9.708
+        },
+        {
+          "word": "own",
+          "start": 9.747,
+          "end": 10.099
+        },
+        {
+          "word": "job.",
+          "start": 10.138,
+          "end": 10.491
+        },
+        {
+          "word": "Kick",
+          "start": 10.53,
+          "end": 10.882
+        },
+        {
+          "word": "off",
+          "start": 10.921,
+          "end": 11.274
+        },
+        {
+          "word": "a",
+          "start": 11.313,
+          "end": 11.665
+        },
+        {
+          "word": "refactor",
+          "start": 11.704,
+          "end": 12.057
+        },
+        {
+          "word": "across",
+          "start": 12.096,
+          "end": 12.448
+        },
+        {
+          "word": "your",
+          "start": 12.487,
+          "end": 12.84
+        },
+        {
+          "word": "codebase,",
+          "start": 12.879,
+          "end": 13.231
+        },
+        {
+          "word": "one",
+          "start": 13.27,
+          "end": 13.623
+        },
+        {
+          "word": "clone",
+          "start": 13.662,
+          "end": 14.014
+        },
+        {
+          "word": "per",
+          "start": 14.053,
+          "end": 14.406
+        },
+        {
+          "word": "module,",
+          "start": 14.445,
+          "end": 14.797
+        },
+        {
+          "word": "and",
+          "start": 14.837,
+          "end": 15.189
+        },
+        {
+          "word": "they",
+          "start": 15.228,
+          "end": 15.58
+        },
+        {
+          "word": "all",
+          "start": 15.62,
+          "end": 15.972
+        },
+        {
+          "word": "run",
+          "start": 16.011,
+          "end": 16.364
+        },
+        {
+          "word": "at",
+          "start": 16.403,
+          "end": 16.755
+        },
+        {
+          "word": "the",
+          "start": 16.794,
+          "end": 17.147
+        },
+        {
+          "word": "same",
+          "start": 17.186,
+          "end": 17.538
+        },
+        {
+          "word": "time.",
+          "start": 17.577,
+          "end": 17.93
+        },
+        {
+          "word": "What",
+          "start": 17.969,
+          "end": 18.321
+        },
+        {
+          "word": "used",
+          "start": 18.36,
+          "end": 18.713
+        },
+        {
+          "word": "to",
+          "start": 18.752,
+          "end": 19.104
+        },
+        {
+          "word": "take",
+          "start": 19.143,
+          "end": 19.496
+        },
+        {
+          "word": "an",
+          "start": 19.535,
+          "end": 19.887
+        },
+        {
+          "word": "afternoon",
+          "start": 19.926,
+          "end": 20.279
+        },
+        {
+          "word": "takes",
+          "start": 20.318,
+          "end": 20.67
+        },
+        {
+          "word": "minutes.",
+          "start": 20.709,
+          "end": 21.062
+        }
+      ],
+      "provider": "cartesia"
+    },
+    "cost": {
+      "kind": "spoken",
+      "dur": 12.042,
+      "words": [
+        {
+          "word": "One",
+          "start": 0.35,
+          "end": 0.648
+        },
+        {
+          "word": "honest",
+          "start": 0.681,
+          "end": 0.978
+        },
+        {
+          "word": "warning.",
+          "start": 1.011,
+          "end": 1.309
+        },
+        {
+          "word": "Every",
+          "start": 1.342,
+          "end": 1.64
+        },
+        {
+          "word": "clone",
+          "start": 1.673,
+          "end": 1.97
+        },
+        {
+          "word": "burns",
+          "start": 2.003,
+          "end": 2.301
+        },
+        {
+          "word": "its",
+          "start": 2.334,
+          "end": 2.631
+        },
+        {
+          "word": "own",
+          "start": 2.665,
+          "end": 2.962
+        },
+        {
+          "word": "tokens",
+          "start": 2.995,
+          "end": 3.293
+        },
+        {
+          "word": "doing",
+          "start": 3.326,
+          "end": 3.623
+        },
+        {
+          "word": "its",
+          "start": 3.656,
+          "end": 3.954
+        },
+        {
+          "word": "own",
+          "start": 3.987,
+          "end": 4.285
+        },
+        {
+          "word": "work,",
+          "start": 4.318,
+          "end": 4.615
+        },
+        {
+          "word": "so",
+          "start": 4.648,
+          "end": 4.946
+        },
+        {
+          "word": "a",
+          "start": 4.979,
+          "end": 5.277
+        },
+        {
+          "word": "swarm",
+          "start": 5.31,
+          "end": 5.607
+        },
+        {
+          "word": "is",
+          "start": 5.64,
+          "end": 5.938
+        },
+        {
+          "word": "not",
+          "start": 5.971,
+          "end": 6.269
+        },
+        {
+          "word": "free.",
+          "start": 6.302,
+          "end": 6.599
+        },
+        {
+          "word": "Fan",
+          "start": 6.632,
+          "end": 6.93
+        },
+        {
+          "word": "out",
+          "start": 6.963,
+          "end": 7.261
+        },
+        {
+          "word": "when",
+          "start": 7.294,
+          "end": 7.591
+        },
+        {
+          "word": "the",
+          "start": 7.624,
+          "end": 7.922
+        },
+        {
+          "word": "parallel",
+          "start": 7.955,
+          "end": 8.252
+        },
+        {
+          "word": "work",
+          "start": 8.286,
+          "end": 8.583
+        },
+        {
+          "word": "pays",
+          "start": 8.616,
+          "end": 8.914
+        },
+        {
+          "word": "for",
+          "start": 8.947,
+          "end": 9.244
+        },
+        {
+          "word": "itself.",
+          "start": 9.277,
+          "end": 9.575
+        },
+        {
+          "word": "Not",
+          "start": 9.608,
+          "end": 9.906
+        },
+        {
+          "word": "for",
+          "start": 9.939,
+          "end": 10.236
+        },
+        {
+          "word": "a",
+          "start": 10.269,
+          "end": 10.567
+        },
+        {
+          "word": "one",
+          "start": 10.6,
+          "end": 10.898
+        },
+        {
+          "word": "line",
+          "start": 10.931,
+          "end": 11.228
+        },
+        {
+          "word": "fix.",
+          "start": 11.261,
+          "end": 11.559
+        }
+      ],
+      "provider": "cartesia"
+    },
+    "mistake": {
+      "kind": "spoken",
+      "dur": 25.731,
+      "words": [
+        {
+          "word": "Now.",
+          "start": 0.35,
+          "end": 0.68
+        },
+        {
+          "word": "The",
+          "start": 0.717,
+          "end": 1.047
+        },
+        {
+          "word": "mistake.",
+          "start": 1.083,
+          "end": 1.413
+        },
+        {
+          "word": "The",
+          "start": 1.45,
+          "end": 1.78
+        },
+        {
+          "word": "clones",
+          "start": 1.817,
+          "end": 2.146
+        },
+        {
+          "word": "are",
+          "start": 2.183,
+          "end": 2.513
+        },
+        {
+          "word": "blind",
+          "start": 2.55,
+          "end": 2.88
+        },
+        {
+          "word": "to",
+          "start": 2.916,
+          "end": 3.246
+        },
+        {
+          "word": "each",
+          "start": 3.283,
+          "end": 3.613
+        },
+        {
+          "word": "other.",
+          "start": 3.65,
+          "end": 3.98
+        },
+        {
+          "word": "Send",
+          "start": 4.016,
+          "end": 4.346
+        },
+        {
+          "word": "two",
+          "start": 4.383,
+          "end": 4.713
+        },
+        {
+          "word": "of",
+          "start": 4.75,
+          "end": 5.08
+        },
+        {
+          "word": "them",
+          "start": 5.116,
+          "end": 5.446
+        },
+        {
+          "word": "into",
+          "start": 5.483,
+          "end": 5.813
+        },
+        {
+          "word": "the",
+          "start": 5.849,
+          "end": 6.179
+        },
+        {
+          "word": "same",
+          "start": 6.216,
+          "end": 6.546
+        },
+        {
+          "word": "file,",
+          "start": 6.583,
+          "end": 6.913
+        },
+        {
+          "word": "and",
+          "start": 6.949,
+          "end": 7.279
+        },
+        {
+          "word": "they",
+          "start": 7.316,
+          "end": 7.646
+        },
+        {
+          "word": "will",
+          "start": 7.683,
+          "end": 8.013
+        },
+        {
+          "word": "happily",
+          "start": 8.049,
+          "end": 8.379
+        },
+        {
+          "word": "overwrite",
+          "start": 8.416,
+          "end": 8.746
+        },
+        {
+          "word": "each",
+          "start": 8.783,
+          "end": 9.113
+        },
+        {
+          "word": "other's",
+          "start": 9.149,
+          "end": 9.479
+        },
+        {
+          "word": "work.",
+          "start": 9.516,
+          "end": 9.846
+        },
+        {
+          "word": "And",
+          "start": 9.882,
+          "end": 10.212
+        },
+        {
+          "word": "they're",
+          "start": 10.249,
+          "end": 10.579
+        },
+        {
+          "word": "blind",
+          "start": 10.616,
+          "end": 10.946
+        },
+        {
+          "word": "to",
+          "start": 10.982,
+          "end": 11.312
+        },
+        {
+          "word": "you,",
+          "start": 11.349,
+          "end": 11.679
+        },
+        {
+          "word": "too.",
+          "start": 11.716,
+          "end": 12.046
+        },
+        {
+          "word": "A",
+          "start": 12.082,
+          "end": 12.412
+        },
+        {
+          "word": "clone",
+          "start": 12.449,
+          "end": 12.779
+        },
+        {
+          "word": "never",
+          "start": 12.816,
+          "end": 13.145
+        },
+        {
+          "word": "sees",
+          "start": 13.182,
+          "end": 13.512
+        },
+        {
+          "word": "your",
+          "start": 13.549,
+          "end": 13.879
+        },
+        {
+          "word": "conversation.",
+          "start": 13.915,
+          "end": 14.245
+        },
+        {
+          "word": "It",
+          "start": 14.282,
+          "end": 14.612
+        },
+        {
+          "word": "knows",
+          "start": 14.649,
+          "end": 14.979
+        },
+        {
+          "word": "exactly",
+          "start": 15.015,
+          "end": 15.345
+        },
+        {
+          "word": "one",
+          "start": 15.382,
+          "end": 15.712
+        },
+        {
+          "word": "thing.",
+          "start": 15.749,
+          "end": 16.079
+        },
+        {
+          "word": "The",
+          "start": 16.115,
+          "end": 16.445
+        },
+        {
+          "word": "prompt",
+          "start": 16.482,
+          "end": 16.812
+        },
+        {
+          "word": "it",
+          "start": 16.848,
+          "end": 17.178
+        },
+        {
+          "word": "was",
+          "start": 17.215,
+          "end": 17.545
+        },
+        {
+          "word": "handed.",
+          "start": 17.582,
+          "end": 17.912
+        },
+        {
+          "word": "Hand",
+          "start": 17.948,
+          "end": 18.278
+        },
+        {
+          "word": "it",
+          "start": 18.315,
+          "end": 18.645
+        },
+        {
+          "word": "a",
+          "start": 18.682,
+          "end": 19.012
+        },
+        {
+          "word": "vague",
+          "start": 19.048,
+          "end": 19.378
+        },
+        {
+          "word": "prompt,",
+          "start": 19.415,
+          "end": 19.745
+        },
+        {
+          "word": "and",
+          "start": 19.782,
+          "end": 20.111
+        },
+        {
+          "word": "it",
+          "start": 20.148,
+          "end": 20.478
+        },
+        {
+          "word": "returns",
+          "start": 20.515,
+          "end": 20.845
+        },
+        {
+          "word": "confident",
+          "start": 20.881,
+          "end": 21.211
+        },
+        {
+          "word": "garbage.",
+          "start": 21.248,
+          "end": 21.578
+        },
+        {
+          "word": "And",
+          "start": 21.615,
+          "end": 21.945
+        },
+        {
+          "word": "the",
+          "start": 21.981,
+          "end": 22.311
+        },
+        {
+          "word": "parent",
+          "start": 22.348,
+          "end": 22.678
+        },
+        {
+          "word": "merges",
+          "start": 22.715,
+          "end": 23.045
+        },
+        {
+          "word": "that",
+          "start": 23.081,
+          "end": 23.411
+        },
+        {
+          "word": "garbage",
+          "start": 23.448,
+          "end": 23.778
+        },
+        {
+          "word": "straight",
+          "start": 23.814,
+          "end": 24.144
+        },
+        {
+          "word": "into",
+          "start": 24.181,
+          "end": 24.511
+        },
+        {
+          "word": "your",
+          "start": 24.548,
+          "end": 24.878
+        },
+        {
+          "word": "code.",
+          "start": 24.914,
+          "end": 25.244
+        }
+      ],
+      "provider": "cartesia"
+    },
+    "rule": {
+      "kind": "spoken",
+      "dur": 16.274,
+      "words": [
+        {
+          "word": "So",
+          "start": 0.35,
+          "end": 0.634
+        },
+        {
+          "word": "here's",
+          "start": 0.666,
+          "end": 0.95
+        },
+        {
+          "word": "the",
+          "start": 0.982,
+          "end": 1.266
+        },
+        {
+          "word": "rule.",
+          "start": 1.297,
+          "end": 1.582
+        },
+        {
+          "word": "Fan",
+          "start": 1.613,
+          "end": 1.897
+        },
+        {
+          "word": "out",
+          "start": 1.929,
+          "end": 2.213
+        },
+        {
+          "word": "on",
+          "start": 2.245,
+          "end": 2.529
+        },
+        {
+          "word": "isolated",
+          "start": 2.561,
+          "end": 2.845
+        },
+        {
+          "word": "work,",
+          "start": 2.876,
+          "end": 3.161
+        },
+        {
+          "word": "with",
+          "start": 3.192,
+          "end": 3.476
+        },
+        {
+          "word": "self",
+          "start": 3.508,
+          "end": 3.792
+        },
+        {
+          "word": "contained",
+          "start": 3.824,
+          "end": 4.108
+        },
+        {
+          "word": "instructions.",
+          "start": 4.14,
+          "end": 4.424
+        },
+        {
+          "word": "Keep",
+          "start": 4.455,
+          "end": 4.74
+        },
+        {
+          "word": "anything",
+          "start": 4.771,
+          "end": 5.055
+        },
+        {
+          "word": "shared",
+          "start": 5.087,
+          "end": 5.371
+        },
+        {
+          "word": "in",
+          "start": 5.403,
+          "end": 5.687
+        },
+        {
+          "word": "one",
+          "start": 5.719,
+          "end": 6.003
+        },
+        {
+          "word": "pair",
+          "start": 6.034,
+          "end": 6.319
+        },
+        {
+          "word": "of",
+          "start": 6.35,
+          "end": 6.634
+        },
+        {
+          "word": "hands.",
+          "start": 6.666,
+          "end": 6.95
+        },
+        {
+          "word": "That",
+          "start": 6.982,
+          "end": 7.266
+        },
+        {
+          "word": "is",
+          "start": 7.298,
+          "end": 7.582
+        },
+        {
+          "word": "the",
+          "start": 7.613,
+          "end": 7.898
+        },
+        {
+          "word": "entire",
+          "start": 7.929,
+          "end": 8.213
+        },
+        {
+          "word": "difference",
+          "start": 8.245,
+          "end": 8.529
+        },
+        {
+          "word": "between",
+          "start": 8.561,
+          "end": 8.845
+        },
+        {
+          "word": "developers",
+          "start": 8.876,
+          "end": 9.161
+        },
+        {
+          "word": "who",
+          "start": 9.192,
+          "end": 9.477
+        },
+        {
+          "word": "ship",
+          "start": 9.508,
+          "end": 9.792
+        },
+        {
+          "word": "a",
+          "start": 9.824,
+          "end": 10.108
+        },
+        {
+          "word": "week",
+          "start": 10.14,
+          "end": 10.424
+        },
+        {
+          "word": "of",
+          "start": 10.455,
+          "end": 10.74
+        },
+        {
+          "word": "work",
+          "start": 10.771,
+          "end": 11.055
+        },
+        {
+          "word": "in",
+          "start": 11.087,
+          "end": 11.371
+        },
+        {
+          "word": "a",
+          "start": 11.403,
+          "end": 11.687
+        },
+        {
+          "word": "day,",
+          "start": 11.719,
+          "end": 12.003
+        },
+        {
+          "word": "and",
+          "start": 12.034,
+          "end": 12.319
+        },
+        {
+          "word": "the",
+          "start": 12.35,
+          "end": 12.634
+        },
+        {
+          "word": "ones",
+          "start": 12.666,
+          "end": 12.95
+        },
+        {
+          "word": "who",
+          "start": 12.982,
+          "end": 13.266
+        },
+        {
+          "word": "let",
+          "start": 13.298,
+          "end": 13.582
+        },
+        {
+          "word": "a",
+          "start": 13.613,
+          "end": 13.898
+        },
+        {
+          "word": "swarm",
+          "start": 13.929,
+          "end": 14.213
+        },
+        {
+          "word": "of",
+          "start": 14.245,
+          "end": 14.529
+        },
+        {
+          "word": "clones",
+          "start": 14.561,
+          "end": 14.845
+        },
+        {
+          "word": "wreck",
+          "start": 14.877,
+          "end": 15.161
+        },
+        {
+          "word": "their",
+          "start": 15.192,
+          "end": 15.477
+        },
+        {
+          "word": "codebase.",
+          "start": 15.508,
+          "end": 15.792
+        }
+      ],
+      "provider": "cartesia"
+    },
+    "outro": {
+      "kind": "spoken",
+      "dur": 26.828,
+      "words": [
+        {
+          "word": "Delegation.",
+          "start": 0.35,
+          "end": 0.74
+        },
+        {
+          "word": "Fresh",
+          "start": 0.784,
+          "end": 1.174
+        },
+        {
+          "word": "memory.",
+          "start": 1.218,
+          "end": 1.608
+        },
+        {
+          "word": "Tools",
+          "start": 1.651,
+          "end": 2.042
+        },
+        {
+          "word": "as",
+          "start": 2.085,
+          "end": 2.476
+        },
+        {
+          "word": "hands.",
+          "start": 2.519,
+          "end": 2.909
+        },
+        {
+          "word": "Permissions",
+          "start": 2.953,
+          "end": 3.343
+        },
+        {
+          "word": "as",
+          "start": 3.387,
+          "end": 3.777
+        },
+        {
+          "word": "trust.",
+          "start": 3.82,
+          "end": 4.211
+        },
+        {
+          "word": "You",
+          "start": 4.254,
+          "end": 4.645
+        },
+        {
+          "word": "now",
+          "start": 4.688,
+          "end": 5.078
+        },
+        {
+          "word": "understand",
+          "start": 5.122,
+          "end": 5.512
+        },
+        {
+          "word": "AI",
+          "start": 5.556,
+          "end": 5.946
+        },
+        {
+          "word": "agents",
+          "start": 5.989,
+          "end": 6.38
+        },
+        {
+          "word": "better",
+          "start": 6.423,
+          "end": 6.814
+        },
+        {
+          "word": "than",
+          "start": 6.857,
+          "end": 7.247
+        },
+        {
+          "word": "most",
+          "start": 7.291,
+          "end": 7.681
+        },
+        {
+          "word": "people",
+          "start": 7.725,
+          "end": 8.115
+        },
+        {
+          "word": "building",
+          "start": 8.158,
+          "end": 8.549
+        },
+        {
+          "word": "with",
+          "start": 8.592,
+          "end": 8.983
+        },
+        {
+          "word": "them.",
+          "start": 9.026,
+          "end": 9.416
+        },
+        {
+          "word": "But",
+          "start": 9.46,
+          "end": 9.85
+        },
+        {
+          "word": "clones",
+          "start": 9.894,
+          "end": 10.284
+        },
+        {
+          "word": "sharing",
+          "start": 10.327,
+          "end": 10.718
+        },
+        {
+          "word": "one",
+          "start": 10.761,
+          "end": 11.152
+        },
+        {
+          "word": "brain",
+          "start": 11.195,
+          "end": 11.585
+        },
+        {
+          "word": "is",
+          "start": 11.629,
+          "end": 12.019
+        },
+        {
+          "word": "only",
+          "start": 12.063,
+          "end": 12.453
+        },
+        {
+          "word": "half",
+          "start": 12.496,
+          "end": 12.887
+        },
+        {
+          "word": "the",
+          "start": 12.93,
+          "end": 13.321
+        },
+        {
+          "word": "story.",
+          "start": 13.364,
+          "end": 13.754
+        },
+        {
+          "word": "Because",
+          "start": 13.798,
+          "end": 14.188
+        },
+        {
+          "word": "next,",
+          "start": 14.232,
+          "end": 14.622
+        },
+        {
+          "word": "your",
+          "start": 14.665,
+          "end": 15.056
+        },
+        {
+          "word": "agent",
+          "start": 15.099,
+          "end": 15.49
+        },
+        {
+          "word": "needs",
+          "start": 15.533,
+          "end": 15.923
+        },
+        {
+          "word": "to",
+          "start": 15.967,
+          "end": 16.357
+        },
+        {
+          "word": "talk",
+          "start": 16.401,
+          "end": 16.791
+        },
+        {
+          "word": "to",
+          "start": 16.834,
+          "end": 17.225
+        },
+        {
+          "word": "the",
+          "start": 17.268,
+          "end": 17.659
+        },
+        {
+          "word": "outside",
+          "start": 17.702,
+          "end": 18.092
+        },
+        {
+          "word": "world.",
+          "start": 18.136,
+          "end": 18.526
+        },
+        {
+          "word": "That's",
+          "start": 18.57,
+          "end": 18.96
+        },
+        {
+          "word": "a",
+          "start": 19.003,
+          "end": 19.394
+        },
+        {
+          "word": "protocol",
+          "start": 19.437,
+          "end": 19.828
+        },
+        {
+          "word": "called",
+          "start": 19.871,
+          "end": 20.261
+        },
+        {
+          "word": "MCP,",
+          "start": 20.305,
+          "end": 20.695
+        },
+        {
+          "word": "and",
+          "start": 20.739,
+          "end": 21.129
+        },
+        {
+          "word": "it's",
+          "start": 21.172,
+          "end": 21.563
+        },
+        {
+          "word": "stranger",
+          "start": 21.606,
+          "end": 21.997
+        },
+        {
+          "word": "than",
+          "start": 22.04,
+          "end": 22.43
+        },
+        {
+          "word": "it",
+          "start": 22.474,
+          "end": 22.864
+        },
+        {
+          "word": "sounds.",
+          "start": 22.908,
+          "end": 23.298
+        },
+        {
+          "word": "Subscribe",
+          "start": 23.341,
+          "end": 23.732
+        },
+        {
+          "word": "to",
+          "start": 23.775,
+          "end": 24.166
+        },
+        {
+          "word": "codewired,",
+          "start": 24.209,
+          "end": 24.599
+        },
+        {
+          "word": "and",
+          "start": 24.643,
+          "end": 25.033
+        },
+        {
+          "word": "get",
+          "start": 25.077,
+          "end": 25.467
+        },
+        {
+          "word": "wired",
+          "start": 25.51,
+          "end": 25.901
+        },
+        {
+          "word": "in.",
+          "start": 25.944,
+          "end": 26.335
+        }
+      ],
+      "provider": "cartesia"
+    }
+  }
+}

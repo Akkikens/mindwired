@@ -1,0 +1,82 @@
+{
+  "slug": "sa-tortoises",
+  "title": "Two Tortoises Beat Every Human to the Moon",
+  "channel": "mindwired",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "start": 0,
+      "end": 5,
+      "voiceover": "The first living things to travel around the Moon were not astronauts. They were two tortoises. And they beat us there by three months.",
+      "mainText": "TWO TORTOISES BEAT US TO THE MOON",
+      "emphasis": ["TORTOISES", "MOON"],
+      "visualConcept": "Tortoise, then the Moon.",
+      "camera": ["crash-zoom"],
+      "brollExists": true,
+      "backgroundPrompt": "Tortoise close-up.",
+      "emotionalTone": "shock",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "setup",
+      "kind": "problem",
+      "start": 5,
+      "end": 11,
+      "voiceover": "September 1968. Three months before Apollo 8 carried humans around the Moon, the Soviet Union quietly sent a spacecraft on a loop around it first. On board were two steppe tortoises.",
+      "mainText": "3 MONTHS BEFORE APOLLO 8",
+      "emphasis": ["BEFORE"],
+      "visualConcept": "Dark Earth, spacecraft.",
+      "camera": ["slow-push"],
+      "brollExists": true,
+      "backgroundPrompt": "Dark Earth from orbit.",
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "trip",
+      "kind": "shockfact",
+      "start": 11,
+      "end": 17,
+      "voiceover": "They flew around the far side of the Moon, farther from Earth than any living thing had ever been, and swung back. Their capsule splashed into the Indian Ocean and was recovered.",
+      "mainText": "FARTHER THAN ANY LIFE HAD EVER GONE",
+      "emphasis": ["FARTHER"],
+      "visualConcept": "Earth and Moon, vast distance.",
+      "camera": ["slow-push"],
+      "brollExists": true,
+      "backgroundPrompt": "Earth from deep space.",
+      "emotionalTone": "awe",
+      "transitionOut": "flash"
+    },
+    {
+      "id": "hungry",
+      "kind": "shockfact",
+      "start": 17,
+      "end": 23,
+      "voiceover": "They were alive. They had lost a tenth of their body weight, but they were active, and according to the report, they had not lost their appetite. The first Earthlings around the Moon were two tortoises, and they were hungry.",
+      "mainText": "ALIVE. ACTIVE. AND STILL HUNGRY.",
+      "emphasis": ["ALIVE"],
+      "visualConcept": "Tortoise, close-up.",
+      "camera": ["handheld"],
+      "brollExists": true,
+      "backgroundPrompt": "Tortoise close-up.",
+      "emotionalTone": "excitement",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "start": 23,
+      "end": 28,
+      "voiceover": "Tortoises, dogs, a cat, and more. Every animal we sent to space is on the channel.",
+      "mainText": "EVERY ANIMAL WE SENT UP → ON THE CHANNEL",
+      "emphasis": ["EVERY"],
+      "visualConcept": "Moon, loop back.",
+      "camera": ["static"],
+      "brollExists": true,
+      "backgroundPrompt": "Earth from orbit.",
+      "emotionalTone": "confidence",
+      "transitionOut": "none"
+    }
+  ]
+}

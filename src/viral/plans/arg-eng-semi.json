@@ -1,0 +1,81 @@
+{
+  "slug": "arg-eng-semi",
+  "title": "Lautaro: 2 Touches, 1 Final",
+  "channel": "kickoffdaily90",
+  "scenes": [
+    {
+      "id": "hook", "kind": "hook", "start": 0, "end": 4,
+      "voiceover": "Lautaro Martínez touched the ball twice. The second touch put Argentina in the World Cup final.",
+      "mainText": "2 TOUCHES. 1 FINAL.", "emphasis": ["2", "FINAL"],
+      "kicker": "Argentina 2 · England 1",
+      "visualConcept": "Lautaro pointing — one moment was enough.",
+      "camera": ["push"], "backgroundPrompt": "Lautaro pointing", "brollExists": true,
+      "emotionalTone": "shock", "transitionOut": "whip"
+    },
+    {
+      "id": "kane", "kind": "shockfact", "start": 4, "end": 11,
+      "voiceover": "England led through Gordon and Harry Kane still finished with twenty-six touches and zero shots. One night after Mbappé, another captain silenced.",
+      "mainText": "KANE: 26 TOUCHES · 0 SHOTS", "emphasis": ["0", "SHOTS"],
+      "kicker": "Gordon 55' had England ahead",
+      "visualConcept": "Kane portrait — a captain erased.",
+      "camera": ["crash-zoom"], "backgroundPrompt": "Kane portrait", "brollExists": true,
+      "emotionalTone": "shock", "transitionOut": "flash"
+    },
+    {
+      "id": "enzo", "kind": "data", "start": 11, "end": 17,
+      "voiceover": "Then the eighty-fifth minute. Enzo Fernández — a hundred and four touches, most on the pitch — hammers one past Pickford. One-one.",
+      "mainText": "ENZO 85' · 1–1", "emphasis": ["1–1"],
+      "kicker": "104 touches · the equalizer",
+      "visualConcept": "Enzo #24 — the engine.",
+      "camera": ["crash-zoom"], "backgroundPrompt": "Enzo Fernandez", "brollExists": true,
+      "emotionalTone": "excitement", "transitionOut": "zoomblast",
+      "stat": { "to": 1, "suffix": "–1", "label": "85' ENZO FERNÁNDEZ" }
+    },
+    {
+      "id": "messi", "kind": "shockfact", "start": 17, "end": 23,
+      "voiceover": "Stoppage time. Mac Allister hits the post — the rebound falls to Messi. Thirty-nine years old. Time stops.",
+      "mainText": "90+2' · MESSI ON THE BALL", "emphasis": ["MESSI"],
+      "kicker": "the rebound of destiny",
+      "visualConcept": "Messi glancing over his shoulder.",
+      "camera": ["push"], "backgroundPrompt": "Messi over shoulder", "brollExists": true,
+      "emotionalTone": "awe", "transitionOut": "cut"
+    },
+    {
+      "id": "winner", "kind": "data", "start": 23, "end": 29,
+      "voiceover": "Perfect cross. Lautaro rises. Header. Two-one. Argentina break England's hearts — again.",
+      "mainText": "LAUTARO 90+2' · 2–1", "emphasis": ["2–1"],
+      "kicker": "assist: Lionel Messi",
+      "visualConcept": "Messi and Lautaro embrace.",
+      "camera": ["crash-zoom"], "backgroundPrompt": "Messi Lautaro embrace", "brollExists": true,
+      "emotionalTone": "excitement", "transitionOut": "flash",
+      "stat": { "to": 2, "suffix": "–1", "label": "90+2' LAUTARO" }
+    },
+    {
+      "id": "messi39", "kind": "shockfact", "start": 29, "end": 36,
+      "voiceover": "Messi at thirty-nine: ninety-four touches, twelve duels won, both assists. And eleven of Argentina's goals this World Cup have come after the seventy-fifth minute.",
+      "mainText": "94 TOUCHES · 2 ASSISTS · AGE 39", "emphasis": ["39"],
+      "kicker": "11 Argentina goals after the 75th",
+      "visualConcept": "Messi sitting on the turf — the weary king.",
+      "camera": ["pull"], "backgroundPrompt": "Messi sitting", "brollExists": true,
+      "emotionalTone": "awe", "transitionOut": "cut"
+    },
+    {
+      "id": "final", "kind": "shockfact", "start": 36, "end": 42,
+      "voiceover": "So it's Spain versus Argentina — the team that never concedes against the team that never dies. Messi's last dance. Sunday.",
+      "mainText": "SPAIN vs ARGENTINA", "emphasis": ["SUNDAY"],
+      "kicker": "the final · July 19",
+      "visualConcept": "The World Cup trophy.",
+      "camera": ["push"], "backgroundPrompt": "World Cup trophy", "brollExists": true,
+      "emotionalTone": "awe", "transitionOut": "flash"
+    },
+    {
+      "id": "cta", "kind": "cta", "start": 42, "end": 47,
+      "voiceover": "Messi or the machine? Comment your pick — and follow for the final.",
+      "mainText": "MESSI OR THE MACHINE?", "emphasis": ["FOLLOW"],
+      "kicker": "KICKOFFDAILY90",
+      "visualConcept": "The Atlanta cauldron.",
+      "camera": ["pull"], "backgroundPrompt": "Atlanta stadium", "brollExists": true,
+      "emotionalTone": "excitement", "transitionOut": "none"
+    }
+  ]
+}

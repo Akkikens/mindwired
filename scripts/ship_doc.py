@@ -54,6 +54,8 @@ def main() -> None:
     ap.add_argument("--windowed", action="store_true",
                     help="windowed bed (docs over ~8 min / heavy subject matter)")
     ap.add_argument("--music-gain-db", type=float, default=-20.0)
+    ap.add_argument("--hd", action="store_true",
+                    help="render at 1080p (default is 4K --scale 2, Akshay 2026-07-20)")
     ap.add_argument("--yes", action="store_true", help="skip interactive checkpoints")
     args = ap.parse_args()
     slug = args.slug
@@ -103,6 +105,8 @@ def main() -> None:
 
     out = REPO / "out" / f"{slug}.mp4"
     cmd = [PY, "scripts/render_and_master.py", args.comp, str(out)]
+    if not args.hd:  # default 4K: DOM/SVG comps scale losslessly (CLAUDE.md)
+        cmd += ["--scale", "2"]
     if args.music:
         cmd += ["--music", str(args.music), "--music-gain-db", str(args.music_gain_db)]
         if args.windowed:

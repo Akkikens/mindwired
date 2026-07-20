@@ -1,0 +1,357 @@
+{
+  "slug": "spaceanimals",
+  "title": "Every Animal We Sent to Space (And Never Brought Back)",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "channel": "mindwired",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "For five months, a dead dog kept circling the Earth, sealed alone inside a metal ball. Her name was Laika, and she was never meant to come home.",
+      "img": "laika",
+      "stat": "1947 — 1968",
+      "cap": "For 5 months, a dead dog orbited Earth."
+    },
+    {
+      "id": "h2",
+      "text": "She was the first living thing ever to reach orbit, and the first to die there. The Soviet Union called her a hero, then lied about how she really died for the next forty five years.",
+      "img": "laika",
+      "cap": "First in orbit. First to die. Then the lie."
+    },
+    {
+      "id": "h3",
+      "text": "But Laika was only the beginning. To find out whether space would kill a human, we sent the animals up first. Fruit flies. Monkeys. Chimpanzees. A cat. And two tortoises.",
+      "img": "sputnik2",
+      "cap": "Flies. Monkeys. Chimps. A cat. Tortoises."
+    },
+    {
+      "id": "h4",
+      "text": "Some came home to live for decades. Some were lost at sea, or left in orbit on purpose. Every one of them paid for a piece of what we know.",
+      "img": "monkeynaut",
+      "cap": "Every one paid for what we know."
+    },
+    {
+      "id": "h5",
+      "text": "This is every animal we sent into space, in order, from the very first passengers, to the two that beat every human being to the Moon.",
+      "img": "vtwo",
+      "cap": "In order — to the two that beat us to the Moon."
+    },
+    {
+      "id": "c1_t",
+      "text": "The first passengers.",
+      "chapter": "1947\nTHE FIRST PASSENGERS"
+    },
+    {
+      "id": "a1",
+      "text": "February 1947. A captured German V-2 rocket lifts off from the New Mexico desert. Tucked inside is a small container of fruit flies.",
+      "img": "vtwo",
+      "stat": "FEBRUARY 20, 1947",
+      "cap": "The first animals in space were fruit flies."
+    },
+    {
+      "id": "a2",
+      "text": "They cross the hundred kilometer line into space, and their capsule parachutes back down. The flies are recovered alive. The first animals in space survived.",
+      "img": "vtwo",
+      "cap": "Crossed the line. Came back alive."
+    },
+    {
+      "id": "a3",
+      "text": "The good luck did not last. Two years later, a rhesus monkey named Albert the Second becomes the first mammal in space, riding another V-2 above a hundred kilometers.",
+      "img": "monkeynaut",
+      "stat": "JUNE 14, 1949",
+      "cap": "Albert II — first mammal in space."
+    },
+    {
+      "id": "a4",
+      "text": "His heartbeat is recorded all the way up, and all the way down. Then his parachute fails. Albert the Second is killed on impact with the desert floor.",
+      "img": "monkeynaut",
+      "cap": "The parachute failed."
+    },
+    {
+      "id": "c2_t",
+      "text": "The dog they left in orbit.",
+      "chapter": "1957\nTHE DOG THEY LEFT IN ORBIT"
+    },
+    {
+      "id": "b1",
+      "text": "November 1957. The Soviet Union has already shocked the world with Sputnik. Now, to celebrate the revolution's anniversary, they rush a second satellite. This one will carry a passenger.",
+      "img": "sputnik2",
+      "stat": "NOVEMBER 3, 1957",
+      "cap": "Sputnik 2 — with a passenger."
+    },
+    {
+      "id": "b2",
+      "text": "She is a stray, plucked off the streets of Moscow days earlier, chosen because a stray had already survived hunger and cold. They name her Laika. Little Barker.",
+      "img": "laika",
+      "cap": "A Moscow stray named Laika."
+    },
+    {
+      "id": "b3",
+      "text": "Here is the part that still unsettles people. Sputnik 2 has no way to come back. There is no reentry capsule, no parachute, no plan. From the moment she is sealed in, Laika's flight is one way.",
+      "img": "sputnik2",
+      "cap": "There was no way home. By design."
+    },
+    {
+      "id": "b4",
+      "text": "The engineers know it. One of them, years later, admits he took her home to play with his children before the launch, because he wanted to do something kind for her. There was so little time left.",
+      "img": "laika",
+      "cap": "\"I wanted to do something kind for her.\""
+    },
+    {
+      "id": "b5",
+      "text": "She launches strapped in a padded cabin, wired with sensors. Her heart races to triple its normal rate during the climb, then slowly settles as she reaches orbit. Laika becomes the first living being to circle the Earth.",
+      "img": "sputnik2",
+      "cap": "The first living thing to orbit Earth."
+    },
+    {
+      "id": "b6",
+      "text": "And then the cabin begins to overheat. A stage failed to separate cleanly, and the thermal control breaks down. The temperature climbs past forty degrees.",
+      "img": "earthnight",
+      "cap": "The cabin began to overheat."
+    },
+    {
+      "id": "b7",
+      "text": "Laika died within about five to seven hours of launch, from overheating and stress. Not the peaceful several days the Soviet Union would describe for decades.",
+      "img": "laika",
+      "stat": "DIED WITHIN ~7 HOURS",
+      "cap": "Dead within hours. Not days."
+    },
+    {
+      "id": "b8",
+      "text": "Her satellite kept circling for five more months with her body inside, before burning up on reentry in April 1958. The world was told she had been humanely put to sleep. The real story stayed secret until 2002.",
+      "img": "earthnight",
+      "cap": "The real story: hidden until 2002."
+    },
+    {
+      "id": "b9",
+      "text": "One of the scientists who prepared her later said the quiet part out loud. We did not learn enough from this mission to justify the death of the dog.",
+      "img": "laika",
+      "cap": "\"We did not learn enough to justify it.\""
+    },
+    {
+      "id": "c3_t",
+      "text": "The one lost at sea.",
+      "chapter": "1958\nTHE ONE LOST AT SEA"
+    },
+    {
+      "id": "g1",
+      "text": "December 1958. The Americans are racing to catch up. They load a one pound squirrel monkey named Gordo into the nose cone of a Jupiter rocket. His handlers call him Old Reliable.",
+      "img": "monkeynaut",
+      "stat": "DECEMBER 13, 1958",
+      "cap": "Gordo. \"Old Reliable.\""
+    },
+    {
+      "id": "g2",
+      "text": "The flight goes almost perfectly. Gordo endures the launch, the weightlessness, the fall back to Earth. His heartbeat and breathing come through clean the entire way down.",
+      "img": "monkeynaut",
+      "cap": "He survived the flight itself."
+    },
+    {
+      "id": "g3",
+      "text": "Then the nose cone hits the Atlantic, and the flotation device fails. The capsule, with Gordo inside, sinks into the ocean. Navy ships search for six hours. It is never found.",
+      "img": "earthnight",
+      "cap": "The flotation failed. Never recovered."
+    },
+    {
+      "id": "g4",
+      "text": "He had done everything asked of him. He died because of a part the size of a fist that did not inflate.",
+      "img": "monkeynaut",
+      "cap": "Killed by a part that didn't inflate."
+    },
+    {
+      "id": "c4_t",
+      "text": "The two who came back.",
+      "chapter": "1959\nTHE TWO WHO CAME BACK"
+    },
+    {
+      "id": "d1",
+      "text": "Six months later, the Americans try again with two monkeys. Able, a rhesus, and Baker, a squirrel monkey small enough to fit in a capsule the size of a thermos.",
+      "img": "ablebaker",
+      "stat": "MAY 28, 1959",
+      "cap": "Able and Baker."
+    },
+    {
+      "id": "d2",
+      "text": "They fly, they endure the g forces, and they splash down. Both are recovered alive. The first American animals brought home from space. Their photos run in newspapers around the world.",
+      "img": "ablebaker",
+      "cap": "The first Americans brought home alive."
+    },
+    {
+      "id": "d3",
+      "text": "Four days later, Able dies, not from space, but on an operating table. During a routine surgery to remove an electrode, her heart fails in reaction to the anesthesia.",
+      "img": "ablebaker",
+      "stat": "ABLE DIED 4 DAYS LATER",
+      "cap": "Able died on an operating table."
+    },
+    {
+      "id": "d4",
+      "text": "Baker, the tiny one, lived another twenty five years. She died in 1984 at Alabama's space museum, where children visited her by the thousands. She is buried on the grounds.",
+      "img": "ablebaker",
+      "cap": "Baker lived 25 more years."
+    },
+    {
+      "id": "c5_t",
+      "text": "The two who orbited, and the puppies.",
+      "chapter": "1960\nTHE TWO WHO ORBITED"
+    },
+    {
+      "id": "e1",
+      "text": "August 1960. The Soviets are ready to prove an animal can orbit the Earth and survive. They send up two dogs, Belka and Strelka. Squirrel and Little Arrow.",
+      "img": "belkastrelka",
+      "stat": "AUGUST 19, 1960",
+      "cap": "Belka and Strelka."
+    },
+    {
+      "id": "e2",
+      "text": "They orbit the planet seventeen times, riding with a rabbit, mice, flies and plants. After a full day in space, their capsule lands, and every creature aboard is recovered alive.",
+      "img": "belkastrelka",
+      "cap": "17 orbits. Everyone came home."
+    },
+    {
+      "id": "e3",
+      "text": "It is the moment that proves a human could survive the same trip. Yuri Gagarin will fly less than a year later.",
+      "img": "gagarin",
+      "cap": "This is what cleared the way for Gagarin."
+    },
+    {
+      "id": "e4",
+      "text": "And there is a strange, warm footnote. Strelka later had six puppies. One of them, a fluffy dog named Pushinka, was given as a gift to the family of President John F. Kennedy.",
+      "img": "belkastrelka",
+      "cap": "Strelka's puppy went to the Kennedys."
+    },
+    {
+      "id": "e5",
+      "text": "Pushinka went on to have puppies of her own with the Kennedys' dog. The President jokingly called them the pupniks. At the coldest point of the Cold War, two space dogs quietly linked Moscow and the White House.",
+      "img": "gagarin",
+      "cap": "The Cold War's strangest peace."
+    },
+    {
+      "id": "c6_t",
+      "text": "The chimps who did the job under fire.",
+      "chapter": "1961\nTHE CHIMPS WHO DID THE JOB"
+    },
+    {
+      "id": "f1",
+      "text": "January 1961. Weeks before America dares to launch a person, they send a chimpanzee named Ham. He has been trained to pull levers when he sees a light, to prove an astronaut could still work in space.",
+      "img": "ham",
+      "stat": "JANUARY 31, 1961",
+      "cap": "Ham. Trained to work in space."
+    },
+    {
+      "id": "f2",
+      "text": "The flight goes wrong in the air. The rocket pushes too hard, the cabin loses pressure, and Ham is thrown through far higher g forces than planned. And through all of it, he keeps pulling his levers, correctly.",
+      "img": "ham",
+      "cap": "It went wrong. He kept working."
+    },
+    {
+      "id": "f3",
+      "text": "He splashes down, is hauled aboard a recovery ship, and is famously photographed being offered an apple. Ham survived, and cleared the way for Alan Shepard weeks later. He lived to 1983.",
+      "img": "ham",
+      "cap": "Ham survived. Lived to 1983."
+    },
+    {
+      "id": "f4",
+      "text": "Later that year comes Enos, the only chimp to orbit the Earth. And his flight carried a cruelty no one intended.",
+      "img": "enos",
+      "stat": "NOVEMBER 29, 1961",
+      "cap": "Enos. The only chimp to orbit."
+    },
+    {
+      "id": "f5",
+      "text": "A malfunction reversed his training panel. Now, every time Enos pulled the correct lever, the machine gave him an electric shock instead of a reward. Seventy six times, he was punished for being right.",
+      "img": "enos",
+      "stat": "76 SHOCKS FOR CORRECT ANSWERS",
+      "cap": "Punished 76 times for being right."
+    },
+    {
+      "id": "f6",
+      "text": "And seventy six times, Enos kept pulling the correct lever anyway. He orbited twice, came home safely, and died of an unrelated illness the following year.",
+      "img": "enos",
+      "cap": "He kept getting it right anyway."
+    },
+    {
+      "id": "c7_t",
+      "text": "The only cat.",
+      "chapter": "1963\nTHE ONLY CAT"
+    },
+    {
+      "id": "k1",
+      "text": "October 1963. France enters the story with the one animal no other space program ever flew. A cat.",
+      "img": "vtwo",
+      "stat": "OCTOBER 18, 1963",
+      "cap": "France sent the only cat in space."
+    },
+    {
+      "id": "k2",
+      "text": "She was a former Paris street cat, chosen from fourteen trained candidates, with electrodes implanted in her skull to send back signals from her brain. Her name was Félicette.",
+      "img": "earthnight",
+      "cap": "Félicette. A former Paris stray."
+    },
+    {
+      "id": "k3",
+      "text": "A French rocket carried her past a hundred and fifty kilometers and back. Thirteen minutes after launch, she was on the ground again, alive. The only cat ever to go to space, and she survived it.",
+      "img": "earthnight",
+      "cap": "The only cat in space. She survived."
+    },
+    {
+      "id": "k4",
+      "text": "And here the story turns cold again. Two to three months later, Félicette was put down so scientists could study her brain. The autopsy, by most accounts, revealed almost nothing useful.",
+      "img": "earthnight",
+      "cap": "Then they euthanized her to study her."
+    },
+    {
+      "id": "k5",
+      "text": "For decades she was almost forgotten, and often misremembered as a male cat named Félix. Only in recent years did she finally get a statue, a small bronze cat perched on top of the Earth, looking up.",
+      "img": "earthnight",
+      "cap": "Forgotten for decades. Now, a statue."
+    },
+    {
+      "id": "c8_t",
+      "text": "The two who beat us to the Moon.",
+      "chapter": "1968\nTHE TWO WHO BEAT US TO THE MOON"
+    },
+    {
+      "id": "m1",
+      "text": "September 1968. Three months before Apollo 8 carries humans around the Moon, the Soviet Union quietly sends a spacecraft on a loop around it first. On board are two tortoises.",
+      "img": "tortoise",
+      "stat": "SEPTEMBER 1968",
+      "cap": "Two tortoises. Around the Moon."
+    },
+    {
+      "id": "m2",
+      "text": "They fly around the far side of the Moon, further from Earth than any living thing has ever been, and swing back. Their capsule splashes into the Indian Ocean and is recovered.",
+      "img": "tortoise",
+      "cap": "Farther than any life had ever gone."
+    },
+    {
+      "id": "m3",
+      "text": "The tortoises are alive. They have lost about a tenth of their body weight, but they are active, and according to the report, they had not lost their appetite. The first Earthlings to circle the Moon were two tortoises, and they were hungry.",
+      "img": "tortoise",
+      "cap": "First to circle the Moon. Still hungry."
+    },
+    {
+      "id": "e_end1",
+      "text": "Add them up. Fruit flies and dogs and monkeys and chimps, a cat, and two tortoises. Most of the story of getting humans safely into space was written first in the bodies of animals who had no say in it.",
+      "img": "laika",
+      "cap": "The story was written in them first."
+    },
+    {
+      "id": "e_end2",
+      "text": "Some, like Baker and Ham, lived long lives and were mourned by thousands. Others, like Laika and Gordo and Félicette, were never meant to survive the experiment at all.",
+      "img": "ham",
+      "cap": "Some were mourned. Some were spent."
+    },
+    {
+      "id": "e_end3",
+      "text": "Today there is a monument in Moscow with Laika standing on a rocket, and a bronze cat in France looking up at the sky. Small apologies, decades late.",
+      "img": "laika",
+      "cap": "Small apologies, decades late."
+    },
+    {
+      "id": "e_end4",
+      "text": "Every astronaut who ever came home safely owes a piece of that safety to an animal who went up first to find out what would happen. If this story stayed with you, the deaths of the humans who followed them is on screen now. And subscribe to mindwired, so the next story finds you.",
+      "img": "gagarin",
+      "cap": "Subscribe — the next story is waiting."
+    }
+  ]
+}

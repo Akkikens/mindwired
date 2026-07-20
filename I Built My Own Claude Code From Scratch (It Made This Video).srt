@@ -1,0 +1,718 @@
+1
+00:00:01,550 --> 00:00:06,161
+The machine at the heart of Claude Code, the
+agent that's quietly eating the
+
+2
+00:00:06,194 --> 00:00:09,146
+software industry, is about one
+hundred lines of code.
+
+3
+00:00:09,180 --> 00:00:10,141
+Not the model.
+
+4
+00:00:10,175 --> 00:00:11,800
+The model is a giant.
+
+5
+00:00:11,833 --> 00:00:14,122
+I mean the machine wrapped around it.
+
+6
+00:00:14,155 --> 00:00:14,786
+The loop.
+
+7
+00:00:14,819 --> 00:00:19,761
+And today, we build that machine from an empty
+file, into a real agent that
+
+8
+00:00:19,794 --> 00:00:23,410
+hunts down a bug and fixes it, live,
+while we watch.
+
+9
+00:00:23,443 --> 00:00:28,386
+Stay to the end, because I'll tell you a secret
+about this exact video that
+
+10
+00:00:28,419 --> 00:00:29,713
+proves the machine works.
+
+11
+00:00:41,146 --> 00:00:42,793
+Here's the build plan.
+
+12
+00:00:42,836 --> 00:00:44,906
+On the table, a skeleton.
+
+13
+00:00:44,948 --> 00:00:47,018
+An agent with no parts.
+
+14
+00:00:47,060 --> 00:00:49,552
+On the wall, everything it needs.
+
+15
+00:00:49,594 --> 00:00:51,664
+A heartbeat, called the loop.
+
+16
+00:00:51,706 --> 00:00:52,931
+Hands, called tools.
+
+17
+00:00:52,974 --> 00:00:54,621
+A gate, called permissions.
+
+18
+00:00:54,663 --> 00:00:56,311
+A memory, called context.
+
+19
+00:00:56,353 --> 00:00:58,845
+We install them one by one.
+
+20
+00:00:58,888 --> 00:01:03,914
+Then we bolt on the upgrades from this
+series, and switch it
+
+21
+00:01:03,957 --> 00:01:04,337
+on.
+
+22
+00:01:09,579 --> 00:01:11,130
+Start with the heartbeat.
+
+23
+00:01:11,170 --> 00:01:13,517
+You send the model two things.
+
+24
+00:01:13,557 --> 00:01:18,290
+Your request, and a list of tools it's
+allowed to ask for.
+
+25
+00:01:18,330 --> 00:01:21,473
+The model replies with one of two things.
+
+26
+00:01:21,512 --> 00:01:23,461
+An answer, or a request.
+
+27
+00:01:23,501 --> 00:01:26,246
+Please run this tool, with these inputs.
+
+28
+00:01:26,286 --> 00:01:31,417
+Your code runs the tool, appends the result to
+the conversation, and sends
+
+29
+00:01:31,457 --> 00:01:33,008
+the whole thing back.
+
+30
+00:01:33,048 --> 00:01:34,201
+Answer, or request.
+
+31
+00:01:34,241 --> 00:01:34,599
+Again.
+
+32
+00:01:34,639 --> 00:01:35,395
+And again.
+
+33
+00:01:35,434 --> 00:01:37,384
+Until the model stops asking.
+
+34
+00:01:37,423 --> 00:01:39,770
+That loop is the entire secret.
+
+35
+00:01:39,810 --> 00:01:44,941
+Every AI agent on earth, including the ones
+that feel like magic, is
+
+36
+00:01:44,981 --> 00:01:46,930
+this loop wearing different clothes.
+
+37
+00:01:50,170 --> 00:01:53,659
+And in real code, the heartbeat is
+embarrassingly small.
+
+38
+00:01:53,698 --> 00:01:54,835
+One while loop.
+
+39
+00:01:54,874 --> 00:01:56,011
+Call the model.
+
+40
+00:01:56,050 --> 00:02:01,107
+If it asked for a tool, run it, append
+the result, and go
+
+41
+00:02:01,147 --> 00:02:01,891
+around again.
+
+42
+00:02:01,931 --> 00:02:03,851
+If it didn't, you're done.
+
+43
+00:02:03,891 --> 00:02:08,556
+Anthropic's own tutorial builds this complete
+working loop in about eighty lines.
+
+44
+00:02:08,595 --> 00:02:11,692
+You could read the whole thing
+over coffee.
+
+45
+00:02:16,931 --> 00:02:18,092
+Now the hands.
+
+46
+00:02:18,132 --> 00:02:20,895
+A tool is three pieces of text.
+
+47
+00:02:20,935 --> 00:02:21,695
+A name.
+
+48
+00:02:21,735 --> 00:02:26,900
+A description, which is how the model
+decides when to reach for it.
+
+49
+00:02:26,940 --> 00:02:30,503
+And a schema, describing exactly what
+inputs it takes.
+
+50
+00:02:30,543 --> 00:02:31,704
+Notice what's missing.
+
+51
+00:02:31,745 --> 00:02:33,706
+The model never executes anything.
+
+52
+00:02:33,746 --> 00:02:34,107
+Ever.
+
+53
+00:02:34,147 --> 00:02:39,311
+It writes a request, your harness does the
+deed, and hands back the
+
+54
+00:02:39,351 --> 00:02:39,712
+result.
+
+55
+00:02:39,752 --> 00:02:42,915
+The AI is the brain in the jar.
+
+56
+00:02:42,955 --> 00:02:47,319
+You built its hands, so you decide
+what they can hold.
+
+57
+00:02:47,359 --> 00:02:52,524
+Give it read file, list files, edit file, and run
+command, and congratulations.
+
+58
+00:02:52,564 --> 00:02:54,125
+That's a coding agent.
+
+59
+00:02:59,365 --> 00:03:02,855
+But before you switch it on, the gate.
+
+60
+00:03:02,899 --> 00:03:06,831
+Every tool request passes through a
+checkpoint you control.
+
+61
+00:03:06,875 --> 00:03:08,156
+Reading a file?
+
+62
+00:03:08,201 --> 00:03:09,482
+Fine, allowed automatically.
+
+63
+00:03:09,526 --> 00:03:09,924
+Editing?
+
+64
+00:03:09,968 --> 00:03:13,016
+Maybe auto approve inside the
+project folder.
+
+65
+00:03:13,060 --> 00:03:16,109
+Deleting files, touching the network,
+installing software?
+
+66
+00:03:16,153 --> 00:03:17,876
+Ask the human first.
+
+67
+00:03:17,920 --> 00:03:19,201
+The model requests.
+
+68
+00:03:19,245 --> 00:03:20,526
+The harness decides.
+
+69
+00:03:20,571 --> 00:03:25,828
+That one sentence is the entire security model
+of every serious agent,
+
+70
+00:03:25,872 --> 00:03:27,595
+and now it's yours.
+
+71
+00:03:32,839 --> 00:03:33,959
+One more organ.
+
+72
+00:03:33,997 --> 00:03:34,345
+Memory.
+
+73
+00:03:34,383 --> 00:03:38,977
+Every tool result gets appended to the
+conversation, which means the context
+
+74
+00:03:39,016 --> 00:03:44,382
+window, that ring from episode one, is filling the
+whole time the agent works.
+
+75
+00:03:44,420 --> 00:03:49,786
+A real harness watches the ring, and when it
+gets close to full, it
+
+76
+00:03:49,825 --> 00:03:50,172
+compacts.
+
+77
+00:03:50,211 --> 00:03:53,647
+Summarizes the old, keeps the essentials,
+and keeps working.
+
+78
+00:03:53,685 --> 00:03:58,279
+Install that, and your agent can grind for
+hours instead of minutes.
+
+79
+00:04:01,518 --> 00:04:03,002
+Look at the table.
+
+80
+00:04:03,040 --> 00:04:03,764
+A loop.
+
+81
+00:04:03,802 --> 00:04:04,144
+Tools.
+
+82
+00:04:04,182 --> 00:04:04,905
+A gate.
+
+83
+00:04:04,943 --> 00:04:05,667
+A memory.
+
+84
+00:04:05,705 --> 00:04:10,995
+Under two hundred lines, most of it plain
+text, and you have a genuine
+
+85
+00:04:11,033 --> 00:04:11,756
+coding agent.
+
+86
+00:04:11,794 --> 00:04:14,420
+This is the moment most tutorials end.
+
+87
+00:04:14,459 --> 00:04:17,465
+But you didn't come here for a toy.
+
+88
+00:04:17,503 --> 00:04:19,749
+So here's the professional's cheat code.
+
+89
+00:04:25,187 --> 00:04:30,240
+It's called the Claude Agent SDK, and it is
+literally Claude Code as a
+
+90
+00:04:30,276 --> 00:04:30,603
+library.
+
+91
+00:04:30,640 --> 00:04:35,329
+The same loop, the same tools, the same permission
+gate and context management
+
+92
+00:04:35,366 --> 00:04:38,964
+that power the real product, programmable
+from Python or TypeScript.
+
+93
+00:04:39,001 --> 00:04:43,690
+Everything we just built by hand, production grade,
+battle tested, in one import.
+
+94
+00:04:43,727 --> 00:04:45,871
+You bring the part that matters.
+
+95
+00:04:45,908 --> 00:04:49,507
+Who your agent is, and what it's
+allowed to do.
+
+96
+00:04:54,743 --> 00:04:57,422
+So let's build ours, for real.
+
+97
+00:04:57,467 --> 00:04:58,330
+Meet wired.
+
+98
+00:04:58,376 --> 00:04:59,238
+Our agent.
+
+99
+00:04:59,284 --> 00:05:01,963
+Here is every line we wrote.
+
+100
+00:05:02,008 --> 00:05:04,233
+A system prompt, ten lines.
+
+101
+00:05:04,279 --> 00:05:07,866
+You are wired, a small, careful
+coding agent.
+
+102
+00:05:07,911 --> 00:05:09,682
+Read before you edit.
+
+103
+00:05:09,727 --> 00:05:11,498
+Verify after you change.
+
+104
+00:05:11,544 --> 00:05:14,677
+Four allowed tools, and not one more.
+
+105
+00:05:14,722 --> 00:05:16,493
+Read, edit, run, search.
+
+106
+00:05:16,539 --> 00:05:19,218
+Auto approve edits, gate everything else.
+
+107
+00:05:19,263 --> 00:05:24,666
+And its entire world is one demo folder,
+running on Claude Sonnet
+
+108
+00:05:24,712 --> 00:05:25,120
+five.
+
+109
+00:05:25,166 --> 00:05:30,569
+About fifty lines of our code, on top
+of the machine you
+
+110
+00:05:30,615 --> 00:05:31,932
+now understand completely.
+
+111
+00:05:35,177 --> 00:05:37,052
+Time to switch it on.
+
+112
+00:05:37,090 --> 00:05:42,410
+The task: run temps dot p y, find the bug,
+fix it, and verify.
+
+113
+00:05:42,448 --> 00:05:43,940
+Watch the loop breathe.
+
+114
+00:05:43,979 --> 00:05:46,619
+First heartbeat, it searches for the file.
+
+115
+00:05:46,658 --> 00:05:48,150
+Second, it reads it.
+
+116
+00:05:48,188 --> 00:05:51,977
+Third, it runs it, and sees the
+output is wrong.
+
+117
+00:05:52,015 --> 00:05:56,952
+Thirty seven Celsius should be ninety eight point
+six Fahrenheit, and it's not.
+
+118
+00:05:56,990 --> 00:05:58,865
+Then it spots the crime.
+
+119
+00:05:58,903 --> 00:06:01,161
+The conversion formula is upside down.
+
+120
+00:06:01,200 --> 00:06:04,223
+Five ninths, where it should be
+nine fifths.
+
+121
+00:06:07,061 --> 00:06:09,924
+So it asks for the edit tool.
+
+122
+00:06:09,966 --> 00:06:11,169
+The gate approves.
+
+123
+00:06:11,211 --> 00:06:12,414
+One line changes.
+
+124
+00:06:12,456 --> 00:06:16,149
+It runs the file again, and there it is.
+
+125
+00:06:16,191 --> 00:06:16,979
+Thirty two.
+
+126
+00:06:17,021 --> 00:06:17,809
+Two twelve.
+
+127
+00:06:17,851 --> 00:06:19,469
+Ninety eight point six.
+
+128
+00:06:19,511 --> 00:06:24,864
+Then it reports back in one sentence, exactly as
+its system prompt demands.
+
+129
+00:06:24,905 --> 00:06:27,769
+And I want to be completely clear.
+
+130
+00:06:27,810 --> 00:06:29,429
+Nothing here was staged.
+
+131
+00:06:29,470 --> 00:06:34,824
+That was the actual transcript of our fifty
+line agent, doing real work.
+
+132
+00:06:40,265 --> 00:06:42,957
+Now bolt on everything this
+series gave you.
+
+133
+00:06:42,991 --> 00:06:46,024
+Let it spawn subagents, and it has
+more brains.
+
+134
+00:06:46,058 --> 00:06:51,136
+Plug in M C P servers, and it has hands on
+GitHub, your database, the
+
+135
+00:06:51,170 --> 00:06:51,476
+web.
+
+136
+00:06:51,511 --> 00:06:55,566
+Drop skill folders on its shelf, and it
+carries your team's crafts.
+
+137
+00:06:55,600 --> 00:06:57,951
+Look at the table one more time.
+
+138
+00:06:57,985 --> 00:07:00,337
+You're not looking at a demo anymore.
+
+139
+00:07:00,371 --> 00:07:05,448
+You're looking at Claude Code, and for the first
+time, you can see every moving
+
+140
+00:07:05,482 --> 00:07:05,789
+part.
+
+141
+00:07:09,423 --> 00:07:12,491
+Which brings me to the secret I promised.
+
+142
+00:07:12,529 --> 00:07:17,539
+Every video on this channel, the research, the
+script, the animations, the voice
+
+143
+00:07:17,577 --> 00:07:22,586
+you are hearing right now, was produced
+end to end by an AI
+
+144
+00:07:22,625 --> 00:07:22,975
+agent.
+
+145
+00:07:23,014 --> 00:07:24,140
+A real one.
+
+146
+00:07:24,178 --> 00:07:26,858
+With a loop, tools, permissions,
+subagents, skills.
+
+147
+00:07:26,897 --> 00:07:29,964
+The same machine you just
+learned to build.
+
+148
+00:07:30,003 --> 00:07:31,129
+Read that again.
+
+149
+00:07:31,168 --> 00:07:34,236
+The machine made the video, about
+the machine.
+
+150
+00:07:34,274 --> 00:07:35,789
+That's not a gimmick.
+
+151
+00:07:35,828 --> 00:07:36,954
+That's the proof.
+
+152
+00:07:36,992 --> 00:07:42,002
+This stuff works, today, and now you know
+how it works, all the
+
+153
+00:07:42,040 --> 00:07:42,778
+way down.
+
+154
+00:07:46,217 --> 00:07:46,976
+A loop.
+
+155
+00:07:47,016 --> 00:07:47,375
+Hands.
+
+156
+00:07:47,415 --> 00:07:48,174
+A gate.
+
+157
+00:07:48,214 --> 00:07:48,973
+A memory.
+
+158
+00:07:49,013 --> 00:07:52,168
+And about fifty lines that make it yours.
+
+159
+00:07:52,208 --> 00:07:54,564
+You didn't just watch this one.
+
+160
+00:07:54,604 --> 00:07:55,762
+You crossed over.
+
+161
+00:07:55,802 --> 00:08:00,555
+From someone who uses AI tools, to someone
+who can build them.
+
+162
+00:08:00,595 --> 00:08:03,351
+Next time, the dark art nobody teaches.
+
+163
+00:08:03,391 --> 00:08:04,150
+Context engineering.
+
+164
+00:08:04,189 --> 00:08:09,342
+Why agents get dumber the longer they work,
+and how the pros keep
+
+165
+00:08:09,382 --> 00:08:10,140
+them sharp.
+
+166
+00:08:10,180 --> 00:08:12,936
+Subscribe to codewired, and get wired in.

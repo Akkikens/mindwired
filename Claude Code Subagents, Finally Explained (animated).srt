@@ -1,0 +1,361 @@
+1
+00:00:01,550 --> 00:00:06,023
+Right now, the AI agent in your terminal can
+clone itself, hand every clone
+
+2
+00:00:06,055 --> 00:00:09,562
+a different job, and merge their work
+while you get coffee.
+
+3
+00:00:09,594 --> 00:00:13,423
+Most developers using it every single day
+have no idea this exists.
+
+4
+00:00:13,456 --> 00:00:18,250
+And the ones who do keep making one mistake that
+makes it worse than useless.
+
+5
+00:00:18,282 --> 00:00:21,146
+That mistake is the last thing
+I'll show you.
+
+6
+00:00:32,178 --> 00:00:33,268
+First, the problem.
+
+7
+00:00:33,305 --> 00:00:35,898
+A single agent has one context window.
+
+8
+00:00:35,936 --> 00:00:40,032
+Think of it as a ring of memory
+around its brain.
+
+9
+00:00:40,070 --> 00:00:45,293
+Every file it reads, every command it runs,
+every error it hits, fills that
+
+10
+00:00:45,331 --> 00:00:45,669
+ring.
+
+11
+00:00:45,707 --> 00:00:49,427
+And when the ring fills up, the agent
+starts forgetting.
+
+12
+00:00:49,464 --> 00:00:52,809
+Your instructions from ten minutes ago
+don't just fade.
+
+13
+00:00:52,847 --> 00:00:53,936
+They fall out.
+
+14
+00:00:59,174 --> 00:01:04,534
+So instead of one agent grinding until its
+memory chokes, Claude Code does
+
+15
+00:01:04,576 --> 00:01:05,366
+something stranger.
+
+16
+00:01:05,407 --> 00:01:06,197
+It delegates.
+
+17
+00:01:06,238 --> 00:01:07,859
+It spawns a subagent.
+
+18
+00:01:07,900 --> 00:01:13,261
+A second, fresh copy of itself, with its own
+empty context window, and
+
+19
+00:01:13,302 --> 00:01:15,338
+hands it exactly one job.
+
+20
+00:01:18,180 --> 00:01:21,803
+The clone goes away and does the
+dirty work.
+
+21
+00:01:21,844 --> 00:01:23,432
+It reads twenty files.
+
+22
+00:01:23,472 --> 00:01:25,060
+It runs the tests.
+
+23
+00:01:25,101 --> 00:01:27,095
+It hits the dead ends.
+
+24
+00:01:27,136 --> 00:01:29,538
+And then it returns one thing.
+
+25
+00:01:29,579 --> 00:01:30,352
+The conclusion.
+
+26
+00:01:30,393 --> 00:01:31,981
+Not the twenty files.
+
+27
+00:01:32,021 --> 00:01:33,202
+Not the noise.
+
+28
+00:01:33,243 --> 00:01:34,423
+One clean report.
+
+29
+00:01:37,264 --> 00:01:40,034
+Which means the parent's memory
+stays clean.
+
+30
+00:01:40,075 --> 00:01:42,042
+And that's the real trick.
+
+31
+00:01:42,082 --> 00:01:44,049
+Subagents aren't about speed first.
+
+32
+00:01:44,090 --> 00:01:45,254
+They're about memory.
+
+33
+00:01:45,294 --> 00:01:48,466
+Every messy job happens in someone
+else's head.
+
+34
+00:01:53,706 --> 00:01:56,414
+And here's the part nobody tells you.
+
+35
+00:01:56,453 --> 00:01:59,161
+A subagent is just a markdown file.
+
+36
+00:01:59,201 --> 00:01:59,946
+A name.
+
+37
+00:01:59,986 --> 00:02:00,731
+A description.
+
+38
+00:02:00,771 --> 00:02:04,264
+And a list of tools it's allowed to touch.
+
+39
+00:02:04,303 --> 00:02:06,226
+Tools are the agent's hands.
+
+40
+00:02:06,265 --> 00:02:07,011
+Reading files.
+
+41
+00:02:07,050 --> 00:02:07,796
+Editing code.
+
+42
+00:02:07,835 --> 00:02:08,581
+Running commands.
+
+43
+00:02:08,620 --> 00:02:13,683
+Take the editing hand away, and you've built
+a reviewer that can look
+
+44
+00:02:13,722 --> 00:02:16,038
+at everything, but never break anything.
+
+45
+00:02:21,277 --> 00:02:22,412
+Now scale it.
+
+46
+00:02:22,452 --> 00:02:23,195
+A researcher.
+
+47
+00:02:23,235 --> 00:02:23,979
+A coder.
+
+48
+00:02:24,018 --> 00:02:24,762
+A reviewer.
+
+49
+00:02:24,801 --> 00:02:25,545
+A tester.
+
+50
+00:02:25,584 --> 00:02:30,635
+Each one a separate clone, with its own memory,
+its own permissions, its
+
+51
+00:02:30,674 --> 00:02:31,418
+own job.
+
+52
+00:02:31,457 --> 00:02:36,507
+Kick off a refactor across your codebase, one
+clone per module, and they
+
+53
+00:02:36,547 --> 00:02:38,857
+all run at the same time.
+
+54
+00:02:38,896 --> 00:02:41,989
+What used to take an afternoon
+takes minutes.
+
+55
+00:02:44,828 --> 00:02:45,787
+One honest warning.
+
+56
+00:02:45,820 --> 00:02:51,077
+Every clone burns its own tokens doing its own
+work, so a swarm is not free.
+
+57
+00:02:51,110 --> 00:02:54,053
+Fan out when the parallel work
+pays for itself.
+
+58
+00:02:54,086 --> 00:02:56,037
+Not for a one line fix.
+
+59
+00:03:01,070 --> 00:03:01,400
+Now.
+
+60
+00:03:01,437 --> 00:03:02,133
+The mistake.
+
+61
+00:03:02,170 --> 00:03:04,700
+The clones are blind to each other.
+
+62
+00:03:04,736 --> 00:03:09,833
+Send two of them into the same file, and they
+will happily overwrite each
+
+63
+00:03:09,869 --> 00:03:10,566
+other's work.
+
+64
+00:03:10,602 --> 00:03:12,766
+And they're blind to you, too.
+
+65
+00:03:12,802 --> 00:03:14,965
+A clone never sees your conversation.
+
+66
+00:03:15,002 --> 00:03:16,799
+It knows exactly one thing.
+
+67
+00:03:16,835 --> 00:03:18,632
+The prompt it was handed.
+
+68
+00:03:18,668 --> 00:03:22,298
+Hand it a vague prompt, and it returns
+confident garbage.
+
+69
+00:03:22,335 --> 00:03:25,964
+And the parent merges that garbage
+straight into your code.
+
+70
+00:03:29,201 --> 00:03:30,433
+So here's the rule.
+
+71
+00:03:30,464 --> 00:03:33,275
+Fan out on isolated work, with self
+contained instructions.
+
+72
+00:03:33,306 --> 00:03:35,801
+Keep anything shared in one pair of hands.
+
+73
+00:03:35,833 --> 00:03:40,222
+That is the entire difference between developers
+who ship a week of work in
+
+74
+00:03:40,254 --> 00:03:44,643
+a day, and the ones who let a swarm of
+clones wreck their codebase.
+
+75
+00:03:47,875 --> 00:03:48,265
+Delegation.
+
+76
+00:03:48,309 --> 00:03:49,133
+Fresh memory.
+
+77
+00:03:49,176 --> 00:03:50,434
+Tools as hands.
+
+78
+00:03:50,478 --> 00:03:51,736
+Permissions as trust.
+
+79
+00:03:51,779 --> 00:03:56,941
+You now understand AI agents better than most
+people building with them.
+
+80
+00:03:56,985 --> 00:04:01,279
+But clones sharing one brain is only
+half the story.
+
+81
+00:04:01,323 --> 00:04:06,051
+Because next, your agent needs to talk to
+the outside world.
+
+82
+00:04:06,095 --> 00:04:10,823
+That's a protocol called MCP, and it's
+stranger than it sounds.
+
+83
+00:04:10,866 --> 00:04:13,860
+Subscribe to codewired, and get wired in.

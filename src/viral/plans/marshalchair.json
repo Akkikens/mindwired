@@ -1,0 +1,149 @@
+{
+  "slug": "marshalchair",
+  "title": "He Sat in a Chair Next to a Fueled ICBM",
+  "channel": "mindwired",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "start": 0,
+      "end": 5,
+      "voiceover": "A Soviet Marshal had a chair carried out and sat down next to a fueled ICBM, to prove he wasn't afraid of it.",
+      "mainText": "HE BROUGHT A CHAIR TO A FUELED ICBM",
+      "emphasis": [
+        "CHAIR",
+        "ICBM"
+      ],
+      "visualConcept": "Nedelin memorial bust hard-lit, doom energy from frame one.",
+      "camera": [
+        "crash-zoom"
+      ],
+      "brollExists": true,
+      "emotionalTone": "shock",
+      "transitionOut": "whip",
+      "backgroundPrompt": "Nedelin memorial bust hard-lit, doom energy from frame one."
+    },
+    {
+      "id": "leak",
+      "kind": "problem",
+      "start": 5,
+      "end": 10,
+      "voiceover": "October 1960. The missile was leaking. Draining it meant weeks of delay. Marshal Nedelin ordered it fixed. Live.",
+      "mainText": "FIX IT. LIVE.",
+      "emphasis": [
+        "LIVE."
+      ],
+      "visualConcept": "Baikonur launch pad, industrial menace.",
+      "camera": [
+        "slow-push"
+      ],
+      "brollExists": true,
+      "emotionalTone": "fear",
+      "transitionOut": "cut",
+      "backgroundPrompt": "Baikonur launch pad, industrial menace."
+    },
+    {
+      "id": "mechanics",
+      "kind": "shockfact",
+      "start": 10,
+      "end": 14,
+      "voiceover": "Dozens of engineers crawled over the loaded rocket like mechanics under a car.",
+      "mainText": "DOZENS — ON A LOADED ROCKET",
+      "emphasis": [
+        "LOADED"
+      ],
+      "visualConcept": "Pad structure detail, workers-scale dread.",
+      "camera": [
+        "handheld"
+      ],
+      "brollExists": true,
+      "emotionalTone": "fear",
+      "transitionOut": "flash",
+      "backgroundPrompt": "Pad structure detail, workers-scale dread."
+    },
+    {
+      "id": "ignite",
+      "kind": "shockfact",
+      "start": 14,
+      "end": 19,
+      "voiceover": "Then the second stage ignited. Straight down. Into a fully fueled first stage.",
+      "mainText": "IGNITION. STRAIGHT DOWN.",
+      "emphasis": [
+        "STRAIGHT",
+        "DOWN."
+      ],
+      "visualConcept": "Memorial obelisk against grey sky — the aftermath stands where the fire was.",
+      "camera": [
+        "crash-zoom"
+      ],
+      "brollExists": true,
+      "emotionalTone": "shock",
+      "transitionOut": "flash",
+      "backgroundPrompt": "Memorial obelisk against grey sky — the aftermath stands where the fire was."
+    },
+    {
+      "id": "toll",
+      "kind": "data",
+      "start": 19,
+      "end": 24,
+      "voiceover": "The official toll, admitted decades later: seventy eight dead. Other counts pass one hundred and twenty.",
+      "mainText": "OFFICIAL: 78. REAL: 120+",
+      "emphasis": [
+        "78",
+        "120+"
+      ],
+      "stat": {
+        "value": 78,
+        "suffix": "+",
+        "label": "OFFICIAL DEATH TOLL"
+      },
+      "visualConcept": "Count-up stat slam over memorial wall of names.",
+      "camera": [
+        "static"
+      ],
+      "brollExists": true,
+      "emotionalTone": "fear",
+      "transitionOut": "cut",
+      "backgroundPrompt": "Count-up stat slam over memorial wall of names."
+    },
+    {
+      "id": "medal",
+      "kind": "transformation",
+      "start": 24,
+      "end": 30,
+      "voiceover": "The Marshal was identified by his melted medal. And Moscow told the world he died in a plane crash.",
+      "mainText": "IDENTIFIED BY A MELTED MEDAL. \"PLANE CRASH.\"",
+      "emphasis": [
+        "MELTED",
+        "\"PLANE"
+      ],
+      "visualConcept": "Nedelin bust again — the lie carved in granite.",
+      "camera": [
+        "slow-push"
+      ],
+      "brollExists": true,
+      "emotionalTone": "awe",
+      "transitionOut": "flash",
+      "backgroundPrompt": "Nedelin bust again — the lie carved in granite."
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "start": 30,
+      "end": 34,
+      "voiceover": "It stayed secret for twenty nine years. And it was only erasure number one. The full story is on the channel.",
+      "mainText": "THAT WAS ONLY No.1 → FULL STORY ON THE CHANNEL",
+      "emphasis": [
+        "No.1"
+      ],
+      "visualConcept": "Slow drift on the memorial, receding into dark.",
+      "camera": [
+        "static"
+      ],
+      "brollExists": true,
+      "emotionalTone": "confidence",
+      "transitionOut": "none",
+      "backgroundPrompt": "Slow drift on the memorial, receding into dark."
+    }
+  ]
+}

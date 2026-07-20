@@ -1,0 +1,18 @@
+⚡ wired starting: run temps.py, find the bug, fix it, and verify the fix
+
+  → Bash  cd /Users/akshay/Documents/GitHub/mindwired && find . -name temps.py -not -path '*/node_modules/*' 2>/dev/null
+  → Read  /Users/akshay/Documents/GitHub/mindwired/scripts/codewired/wired_agent/demo/temps.py
+
+Found it. Running first:
+
+  → Bash  python3 temps.py
+
+Wrong output (expected `[32.0, 212.0, 98.6]`). The bug is the conversion formula on line 6 — it uses `c * 5 / 9` instead of `c * 9 / 5`.
+
+  → Edit  /Users/akshay/Documents/GitHub/mindwired/scripts/codewired/wired_agent/demo/temps.py
+  → Bash  python3 temps.py
+
+Verified: output is now `[32.0, 212.0, 98.6]` as expected.
+
+I fixed the Celsius-to-Fahrenheit conversion in `temps.py` by changing the formula from `c * 5 / 9 + 32` to the correct `c * 9 / 5 + 32`.
+

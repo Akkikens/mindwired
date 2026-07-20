@@ -1,0 +1,148 @@
+{
+  "slug": "fra-spa-final",
+  "title": "10 Shots. Zero On Target. Spain Send France Home.",
+  "channel": "kickoffdaily90",
+  "scenes": [
+    {
+      "id": "fifteen-touches", "kind": "hook", "start": 0, "end": 5,
+      "voiceover": "Kylian Mbappé had ten shots against Spain. Not one of them hit the target.",
+      "mainText": "10 SHOTS. 0 ON TARGET.", "emphasis": ["10", "0"],
+      "kicker": "World Cup Semi-Final · Dallas",
+      "visualConcept": "Mbappé alone on the pitch — a superstar switched off.",
+      "camera": ["push"], "backgroundPrompt": "Mbappe isolated", "brollExists": true,
+      "emotionalTone": "shock", "transitionOut": "whip"
+    },
+    {
+      "id": "fewest-on-pitch", "kind": "shockfact", "start": 5, "end": 10,
+      "voiceover": "In the first half he touched the ball just fifteen times — the fewest of any player on the pitch. His expected goals for the night? Zero point zero eight.",
+      "mainText": "FEWEST TOUCHES ON THE PITCH", "emphasis": ["FEWEST", "0.08"],
+      "kicker": "15 touches in the first half · 0.08 xG",
+      "visualConcept": "Mbappé chasing a header he never reaches.",
+      "camera": ["crash-zoom"], "backgroundPrompt": "Mbappe heading", "brollExists": true,
+      "emotionalTone": "shock", "transitionOut": "flash"
+    },
+    {
+      "id": "unplugged", "kind": "data", "start": 10, "end": 15,
+      "voiceover": "Spain didn't just beat France two-nil in Dallas. They unplugged them.",
+      "mainText": "SPAIN 2–0 FRANCE", "emphasis": ["2–0"],
+      "kicker": "AT&T Stadium",
+      "visualConcept": "AT&T Stadium — the stage.",
+      "camera": ["dolly-in"], "backgroundPrompt": "AT&T stadium", "brollExists": true,
+      "emotionalTone": "confidence", "transitionOut": "cut",
+      "stat": { "to": 2, "suffix": "–0", "label": "FULL TIME" }
+    },
+    {
+      "id": "zero-saves", "kind": "shockfact", "start": 15, "end": 21,
+      "voiceover": "France threw ten shots at Spain. Unai Simón made just three saves — and never once looked like conceding.",
+      "mainText": "10 SHOTS → CLEAN SHEET", "emphasis": ["CLEAN SHEET"],
+      "kicker": "Simón: 3 saves, shutout",
+      "visualConcept": "Spain's keeper, calm and untroubled.",
+      "camera": ["push"], "backgroundPrompt": "Unai Simon portrait", "brollExists": true,
+      "emotionalTone": "awe", "transitionOut": "flash"
+    },
+    {
+      "id": "dembele-vanished", "kind": "shockfact", "start": 21, "end": 27,
+      "voiceover": "Ousmane Dembélé — five goals coming in — was smothered by Cucurella all night. Plenty of huffing. Nothing clear-cut.",
+      "mainText": "DEMBÉLÉ: SMOTHERED", "emphasis": ["SMOTHERED"],
+      "kicker": "locked down by Cucurella",
+      "visualConcept": "Dembélé brushed off the ball.",
+      "camera": ["handheld"], "backgroundPrompt": "Dembele duel", "brollExists": true,
+      "emotionalTone": "shock", "transitionOut": "whip"
+    },
+    {
+      "id": "xg-massacre", "kind": "data", "start": 27, "end": 34,
+      "voiceover": "Here's the whole story in one number. Spain's expected goals: one point six three. France, from ten shots — zero point three oh.",
+      "mainText": "xG · 1.63 vs 0.30", "emphasis": ["1.63", "0.30"],
+      "kicker": "expected goals · full match",
+      "visualConcept": "A brutal xG bar — one towering, one flat.",
+      "camera": ["static"], "backgroundPrompt": "Rodri Spain", "brollExists": true,
+      "emotionalTone": "shock", "transitionOut": "cut",
+      "stat": { "to": 163, "label": "EXPECTED GOALS ×100 (FULL MATCH)", "bars": [
+        { "label": "SPAIN", "value": 163 }, { "label": "FRANCE", "value": 30 }
+      ] }
+    },
+    {
+      "id": "yamal-terror", "kind": "data", "start": 34, "end": 38,
+      "voiceover": "Lamine Yamal terrorised Digne and won the penalty on twenty-two minutes —",
+      "mainText": "YAMAL WINS IT", "emphasis": ["YAMAL"],
+      "kicker": "22' — penalty won",
+      "visualConcept": "Yamal driving at the fullback.",
+      "camera": ["dolly-in"], "backgroundPrompt": "Yamal dribbling", "brollExists": true,
+      "emotionalTone": "excitement", "transitionOut": "cut"
+    },
+    {
+      "id": "oyarzabal-buries", "kind": "data", "start": 38, "end": 42,
+      "voiceover": "And Oyarzabal buried it. One-nil.",
+      "mainText": "OYARZABAL 22' · 1–0", "emphasis": ["1–0"],
+      "kicker": "cold, clinical",
+      "visualConcept": "Oyarzabal, the opener.",
+      "camera": ["crash-zoom"], "backgroundPrompt": "Oyarzabal Spain", "brollExists": true,
+      "emotionalTone": "excitement", "transitionOut": "flash",
+      "stat": { "to": 1, "suffix": "–0", "label": "22' OYARZABAL (P)" }
+    },
+    {
+      "id": "disallowed", "kind": "shockfact", "start": 42, "end": 47,
+      "voiceover": "Yamal even had a goal ruled out for offside. It didn't matter.",
+      "mainText": "GOAL DISALLOWED. DIDN'T MATTER.", "emphasis": ["DIDN'T MATTER"],
+      "kicker": "51' — offside",
+      "visualConcept": "Spain so dominant a chalked-off goal is a footnote.",
+      "camera": ["handheld"], "backgroundPrompt": "Yamal dribbling", "brollExists": true,
+      "emotionalTone": "confidence", "transitionOut": "cut"
+    },
+    {
+      "id": "porro-dagger", "kind": "data", "start": 47, "end": 52,
+      "voiceover": "Fifty-eight minutes: Porro traded passes with Olmo and made it two. Game over.",
+      "mainText": "PORRO 58' · 2–0", "emphasis": ["GAME OVER"],
+      "kicker": "the dagger",
+      "visualConcept": "Spain's XI — the machine.",
+      "camera": ["dolly-in"], "backgroundPrompt": "Spain lineup", "brollExists": true,
+      "emotionalTone": "excitement", "transitionOut": "zoomblast",
+      "stat": { "to": 2, "suffix": "–0", "label": "58' PORRO" }
+    },
+    {
+      "id": "france-crumbles", "kind": "shockfact", "start": 52, "end": 58,
+      "voiceover": "France were unravelling. Saliba injured on the half hour. Rabiot, on a yellow, hooked at half-time.",
+      "mainText": "FRANCE: UNRAVELLING", "emphasis": ["UNRAVELLING"],
+      "kicker": "Saliba injured · Rabiot hooked",
+      "visualConcept": "The French bench — a night falling apart.",
+      "camera": ["dutch"], "backgroundPrompt": "Mbappe tunnel", "brollExists": true,
+      "emotionalTone": "fear", "transitionOut": "whip"
+    },
+    {
+      "id": "golden-boot-silenced", "kind": "shockfact", "start": 58, "end": 65,
+      "voiceover": "And Mbappé? The Golden Boot leader — eight goals in the tournament — ended his night with ten shots, none on target, and a booking.",
+      "mainText": "GOLDEN BOOT · 0 ON TARGET", "emphasis": ["0 ON TARGET"],
+      "kicker": "8 tournament goals — silenced",
+      "visualConcept": "Back to Mbappé alone — the story bookends.",
+      "camera": ["push"], "backgroundPrompt": "Mbappe isolated", "brollExists": true,
+      "emotionalTone": "shock", "transitionOut": "cut"
+    },
+    {
+      "id": "total-control", "kind": "data", "start": 65, "end": 71,
+      "voiceover": "Possession was almost even — fifty-one, forty-nine. But Spain turned control into goals, and France's ten shots never tested the net.",
+      "mainText": "51–49 BALL · ONE-WAY GAME", "emphasis": ["ONE-WAY"],
+      "kicker": "even possession, one-sided danger",
+      "visualConcept": "Cucurella — Spain's relentless grip on the flanks.",
+      "camera": ["static"], "backgroundPrompt": "Cucurella Spain", "brollExists": true,
+      "emotionalTone": "confidence", "transitionOut": "cut"
+    },
+    {
+      "id": "spain-final", "kind": "shockfact", "start": 71, "end": 77,
+      "voiceover": "Spain are in the World Cup final — their first since twenty-ten. France go home in the semis, again.",
+      "mainText": "SPAIN ARE IN THE FINAL", "emphasis": ["FINAL", "AGAIN"],
+      "kicker": "first final since 2010 · Sunday July 19",
+      "visualConcept": "Confetti — Spain roar into the final.",
+      "camera": ["pull"], "backgroundPrompt": "Spain confetti celebration", "brollExists": true,
+      "emotionalTone": "awe", "transitionOut": "flash"
+    },
+    {
+      "id": "final-debate", "kind": "cta", "start": 77, "end": 84,
+      "voiceover": "England or Argentina awaits. Who lifts it Sunday? Comment your winner — and follow, because we'll be live for the final.",
+      "mainText": "WHO WINS SUNDAY?", "emphasis": ["FOLLOW"],
+      "kicker": "KICKOFFDAILY90",
+      "visualConcept": "Spain fans erupt — the noise that drowned the silence.",
+      "camera": ["pull"], "backgroundPrompt": "Spain fans flags", "brollExists": true,
+      "emotionalTone": "excitement", "transitionOut": "none"
+    }
+  ]
+}

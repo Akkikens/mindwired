@@ -1,0 +1,66 @@
+{
+  "slug": "blackholes",
+  "title": "Every Type of Black Hole, Explained",
+  "channel": "mindwired",
+  "scenes": [
+    { "id": "h1", "text": "Somewhere out there is a black hole so small it could pass through your body and you would never notice. And somewhere else, one so large it outweighs four billion suns.", "diagram": "bhicon", "arg": "supermassive", "stat": "4 BILLION SUNS", "cap": "Somewhere, one small enough to miss entirely." },
+    { "id": "h2", "text": "Black holes are not one object. They are a whole family, sorted by size, by birth, by how violently they feed. And by the math, one of them should not exist at all.", "diagram": "bhicon", "arg": "quasar", "cap": "One of them, by the math, shouldn't exist." },
+    { "id": "h3", "text": "This is every known type of black hole in the universe, ranked from the smallest to the ones vast enough to swallow galaxies.", "diagram": "bhicon", "arg": "rogue", "cap": "Smallest to galaxy-swallowing. Every type." },
+    { "id": "t0", "text": "Every type of black hole, explained.", "chapter": "MINDWIRED\nEvery Type of Black Hole, Explained" },
+
+    { "id": "c1", "text": "Chapter 1. The Planck black hole.", "chapter": "CHAPTER 1\nThe Planck Black Hole" },
+    { "id": "p1", "text": "The Planck black hole is the smallest object physics allows to exist. Shrink a black hole down far enough and you hit a wall called the Planck length, a distance so small that gravity and quantum mechanics both stop making sense.", "diagram": "bhicon", "arg": "planck", "stat": "SMALLEST POSSIBLE SIZE", "cap": "The smallest object physics allows." },
+    { "id": "p2", "text": "No one has ever detected one. It exists only in equations, at the exact point where Einstein's gravity and quantum physics stop agreeing with each other.", "diagram": "bhicon", "arg": "planck", "cap": "Pure math. Never observed." },
+
+    { "id": "c2", "text": "Chapter 2. Primordial black holes.", "chapter": "CHAPTER 2\nPrimordial Black Holes" },
+    { "id": "pr1", "text": "Primordial black holes may have formed less than a second after the Big Bang, when the early universe was so dense that ordinary regions of space collapsed in on themselves, no dying star required.", "diagram": "bhicon", "arg": "primordial", "stat": "BORN BEFORE THE FIRST STAR", "cap": "Older than every star in the sky." },
+    { "id": "pr2", "text": "If they exist, some physicists think they could explain dark matter itself, the invisible mass holding entire galaxies together. Nobody has confirmed a single one.", "diagram": "bhicon", "arg": "primordial", "cap": "A leading suspect for dark matter." },
+
+    { "id": "c3", "text": "Chapter 3. Micro black holes.", "chapter": "CHAPTER 3\nMicro Black Holes" },
+    { "id": "mi1", "text": "Micro black holes are lighter than a mountain, packed into a space smaller than a proton. Theory says they evaporate almost instantly, leaking away as Hawking radiation before they can consume anything at all.", "diagram": "bhicon", "arg": "micro", "stat": "EVAPORATES IN AN INSTANT", "cap": "Gone before it can consume anything." },
+    { "id": "mi2", "text": "Some physicists once worried a particle collider could create one. It would not matter. A black hole this small would blink out of existence before it could threaten a single atom.", "diagram": "bhicon", "arg": "micro", "cap": "Too small to survive its own birth." },
+
+    { "id": "c4", "text": "Chapter 4. Stellar mass black holes.", "chapter": "CHAPTER 4\nStellar Mass Black Holes" },
+    { "id": "st1", "text": "Stellar mass black holes are the ordinary kind, born when a star many times heavier than our sun runs out of fuel and collapses under its own weight in seconds.", "diagram": "bhicon", "arg": "stellar", "stat": "BORN FROM A DYING STAR", "cap": "A star's entire mass, in seconds." },
+    { "id": "st2", "text": "The Milky Way alone is thought to hold a hundred million of them, drifting in the dark, most completely invisible until something gets too close.", "diagram": "bhicon", "arg": "stellar", "stat": "100 MILLION IN OUR GALAXY", "cap": "A hundred million, hidden near us." },
+
+    { "id": "c5", "text": "Chapter 5. X-ray binary black holes.", "chapter": "CHAPTER 5\nX-Ray Binary Black Holes" },
+    { "id": "xb1", "text": "Pair a black hole with a living star, and gravity starts stripping gas directly off its surface. That gas does not fall in quietly. It spirals inward and heats to millions of degrees, screaming out X-rays we can detect from Earth.", "diagram": "bhicon", "arg": "xraybinary", "cap": "This is how we find invisible black holes." },
+    { "id": "xb2", "text": "Cygnus X-one was one of the first black holes ever confirmed this way, a stellar corpse slowly cannibalizing the star still orbiting beside it.", "diagram": "bhicon", "arg": "xraybinary", "stat": "CYGNUS X-1", "cap": "A corpse, cannibalizing its neighbor." },
+
+    { "id": "c6", "text": "Chapter 6. Rogue black holes.", "chapter": "CHAPTER 6\nRogue Black Holes" },
+    { "id": "ro1", "text": "Rogue black holes have been kicked out of their home galaxies entirely, flung into the emptiness of intergalactic space by a violent collision or a lopsided supernova.", "diagram": "bhicon", "arg": "rogue", "cap": "Ejected. Alone. Untraceable." },
+    { "id": "ro2", "text": "With nothing left to feed on and no light to betray them, a rogue black hole could drift within a few light years of Earth, and we would likely never see it coming.", "diagram": "bhicon", "arg": "rogue", "stat": "INVISIBLE UNTIL TOO CLOSE", "cap": "It could already be close. We wouldn't know." },
+
+    { "id": "c7", "text": "Chapter 7. Binary black holes.", "chapter": "CHAPTER 7\nBinary Black Holes" },
+    { "id": "bi1", "text": "Binary black holes orbit each other directly, two collapsed stars locked in a death spiral that can last millions of years, bleeding energy away as gravitational waves.", "diagram": "bhicon", "arg": "binary", "cap": "Two black holes, one long fall together." },
+    { "id": "bi2", "text": "When they finally collide, the merger releases more energy in a fraction of a second than every star in the observable universe combined. We have now detected dozens of these collisions directly.", "diagram": "bhicon", "arg": "binary", "stat": "MORE ENERGY THAN ALL STARS COMBINED", "cap": "A fraction of a second. Unimaginable energy." },
+
+    { "id": "c8", "text": "Chapter 8. Intermediate-mass black holes.", "chapter": "CHAPTER 8\nIntermediate-Mass Black Holes" },
+    { "id": "im1", "text": "Intermediate mass black holes sit in an awkward gap, thousands of times heavier than a stellar black hole but far lighter than the monsters at galactic centers.", "diagram": "bhicon", "arg": "intermediate", "stat": "THE MISSING-LINK BLACK HOLE", "cap": "Too big for one category. Too small for the next." },
+    { "id": "im2", "text": "For decades they were almost too rare to find, the missing link nobody could confirm. Only in the last few years have astronomers caught solid evidence they are real.", "diagram": "bhicon", "arg": "intermediate", "cap": "The missing link, finally caught." },
+
+    { "id": "c9", "text": "Chapter 9. Supermassive black holes.", "chapter": "CHAPTER 9\nSupermassive Black Holes" },
+    { "id": "sm1", "text": "Supermassive black holes anchor the center of nearly every large galaxy, including our own, weighing millions to billions of times the mass of the sun.", "diagram": "bhicon", "arg": "supermassive", "stat": "4 MILLION SUNS, JUST IN OURS", "cap": "The anchor at the center of almost every galaxy." },
+    { "id": "sm2", "text": "Ours is called Sagittarius A star. It has sat quietly at the heart of the galaxy for billions of years, and every star you can see, including our sun, orbits around it.", "diagram": "bhicon", "arg": "supermassive", "cap": "Everything you see orbits one of these." },
+
+    { "id": "c10", "text": "Chapter 10. Quasars.", "chapter": "CHAPTER 10\nQuasars" },
+    { "id": "qs1", "text": "A quasar is a supermassive black hole caught in the act of feeding, dragging in gas so fast the material superheats and outshines every star in its host galaxy combined.", "diagram": "bhicon", "arg": "quasar", "stat": "OUTSHINES ENTIRE GALAXIES", "cap": "A black hole, feeding, outshining its own galaxy." },
+    { "id": "qs2", "text": "Some quasars burn bright enough to be seen from over ten billion light years away. That light left before the Earth even existed.", "diagram": "bhicon", "arg": "quasar", "cap": "Light older than our own planet." },
+
+    { "id": "c11", "text": "Chapter 11. Blazars.", "chapter": "CHAPTER 11\nBlazars" },
+    { "id": "bz1", "text": "A blazar is that same feeding black hole, except one of its two particle jets happens to be aimed almost directly at Earth, like staring straight down the barrel of a cosmic beam.", "diagram": "bhicon", "arg": "blazar", "cap": "Aimed almost directly at us." },
+    { "id": "bz2", "text": "Nothing is actually different about a blazar except our line of sight. But from here, it looks like the single most violent object in the sky.", "diagram": "bhicon", "arg": "blazar", "stat": "A JET POINTED AT EARTH", "cap": "The only difference is where we're standing." },
+
+    { "id": "c12", "text": "Chapter 12. Ultramassive black holes.", "chapter": "CHAPTER 12\nUltramassive Black Holes" },
+    { "id": "um1", "text": "Ultramassive black holes are the true giants, tens of billions of times the mass of the sun, found at the center of the largest galaxies in the universe.", "diagram": "bhicon", "arg": "ultramassive", "stat": "10+ BILLION SUNS", "cap": "The true giants of the universe." },
+    { "id": "um2", "text": "The black hole at the center of TON six eighteen is estimated at over sixty billion solar masses, an object so large its event horizon alone is bigger than our entire solar system.", "diagram": "bhicon", "arg": "ultramassive", "stat": "EVENT HORIZON BIGGER THAN OUR SOLAR SYSTEM", "cap": "Bigger than our entire solar system." },
+
+    { "id": "c13", "text": "Chapter 13. Naked singularities.", "chapter": "CHAPTER 13\nNaked Singularities" },
+    { "id": "ns1", "text": "Every black hole so far hides its singularity behind an event horizon, a boundary that shields the universe from a point of infinite density. A naked singularity would have no such shield.", "diagram": "bhicon", "arg": "nakedsingularity", "cap": "No horizon. No hiding." },
+    { "id": "ns2", "text": "Physicists call this a violation of cosmic censorship, and most suspect nature simply forbids it. But nobody has proven it is impossible. It remains the one black hole that, by the rules we know, should not exist.", "diagram": "bhicon", "arg": "nakedsingularity", "stat": "SHOULDN'T EXIST", "cap": "The one type that breaks the rules." },
+
+    { "id": "z1", "text": "Thirteen kinds of black hole, from smaller than an atom to bigger than our entire solar system, and gravity still has tricks physics cannot fully explain.", "diagram": "bhicon", "arg": "supermassive", "cap": "Thirteen types. Still more we don't understand." },
+    { "id": "z2", "text": "If a naked singularity unsettles you, wait until you see how the entire universe itself is expected to end. That video is live on this channel right now, and it goes further than this one does. If this got its hooks into you, subscribe to mindwired.", "diagram": "bhicon", "arg": "nakedsingularity", "cap": "Subscribe to mindwired." }
+  ]
+}

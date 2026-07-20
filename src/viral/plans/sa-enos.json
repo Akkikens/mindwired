@@ -1,0 +1,82 @@
+{
+  "slug": "sa-enos",
+  "title": "This Chimp Was Shocked 76 Times for Being Right",
+  "channel": "mindwired",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "start": 0,
+      "end": 5,
+      "voiceover": "This chimpanzee was shocked seventy six times in orbit for giving the correct answers. And he kept giving them anyway.",
+      "mainText": "SHOCKED 76 TIMES FOR BEING RIGHT",
+      "emphasis": ["76 TIMES", "RIGHT"],
+      "visualConcept": "Enos the chimp, real photo, punch in.",
+      "camera": ["crash-zoom"],
+      "brollExists": true,
+      "backgroundPrompt": "Chimpanzee Enos portrait.",
+      "emotionalTone": "shock",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "job",
+      "kind": "problem",
+      "start": 5,
+      "end": 11,
+      "voiceover": "November 1961. Enos became the only chimp ever to orbit the Earth. He had been trained to pull levers when a light flashed, to prove an astronaut could still work up there.",
+      "mainText": "THE ONLY CHIMP TO ORBIT EARTH",
+      "emphasis": ["ONLY CHIMP"],
+      "visualConcept": "Enos in his flight couch.",
+      "camera": ["slow-push"],
+      "brollExists": true,
+      "backgroundPrompt": "Enos in biopack couch.",
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "malfunction",
+      "kind": "shockfact",
+      "start": 11,
+      "end": 17,
+      "voiceover": "Then a wire crossed. His panel reversed. Now every time Enos pulled the correct lever, the machine punished him with an electric shock instead of a reward.",
+      "mainText": "A MALFUNCTION REVERSED HIS REWARDS",
+      "emphasis": ["REVERSED"],
+      "visualConcept": "Chimp at the panel, tension.",
+      "camera": ["handheld"],
+      "brollExists": true,
+      "backgroundPrompt": "Chimpanzee at test panel.",
+      "emotionalTone": "fear",
+      "transitionOut": "flash"
+    },
+    {
+      "id": "kept",
+      "kind": "shockfact",
+      "start": 17,
+      "end": 23,
+      "voiceover": "Seventy six times, he was shocked for being right. And seventy six times, Enos kept pulling the correct lever anyway. He orbited twice and came home alive.",
+      "mainText": "76 SHOCKS. HE NEVER GAVE A WRONG ANSWER.",
+      "emphasis": ["NEVER"],
+      "visualConcept": "Enos, respectful close-up.",
+      "camera": ["slow-push"],
+      "brollExists": true,
+      "backgroundPrompt": "Enos portrait.",
+      "emotionalTone": "awe",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "start": 23,
+      "end": 28,
+      "voiceover": "Enos was one of many animals who did our most dangerous work first. Every one of them is on the channel.",
+      "mainText": "EVERY ANIMAL WE SENT UP → ON THE CHANNEL",
+      "emphasis": ["EVERY"],
+      "visualConcept": "Enos, fade.",
+      "camera": ["static"],
+      "brollExists": true,
+      "backgroundPrompt": "Enos portrait fade.",
+      "emotionalTone": "confidence",
+      "transitionOut": "none"
+    }
+  ]
+}

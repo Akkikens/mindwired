@@ -54,6 +54,7 @@ import blackHolesDoc from "./mindwired-doc/docs/blackholes.json";
 import blackHolesManifest from "./mindwired-doc/docs/blackholes.manifest.json";
 import almostDiedDoc from "./mindwired-doc/docs/almostdied.json";
 import almostDiedManifest from "./mindwired-doc/docs/almostdied.manifest.json";
+import { FinalReview, finalReviewFrames } from "./finalreview/FinalReview";
 import sketchDemoDoc from "./mindwired-doc/docs/sketchdemo.json";
 import sketchDemoManifest from "./mindwired-doc/docs/sketchdemo.manifest.json";
 import spaceSoundsDoc from "./mindwired-doc/docs/spacesounds.json";
@@ -935,6 +936,17 @@ export const RemotionRoot: React.FC = () => {
         id="SketchDemo"
         component={makeDocComp(sketchDemoDoc, sketchDemoManifest)}
         durationInFrames={docTotalFrames(sketchDemoDoc, sketchDemoManifest)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+
+      {/* ── kickoffdaily90 — World Cup FINAL review (Jamie host-still + stat show) ── */}
+      <Composition
+        id="FinalReview"
+        component={FinalReview}
+        durationInFrames={finalReviewFrames()}
         fps={30}
         width={1920}
         height={1080}

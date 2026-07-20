@@ -107,6 +107,10 @@ Born from real viewer comments ("Bloody AI slop!", "Poorly visuals") and two MH3
 videos shipping the same takeoff clip. Research + verification log:
 docs/planning/FOOTAGE-UPGRADE.md; per-niche source rankings: scripts/SOURCES-GUIDE.md.
 
+- **Doc-driven sourcing (default): `scripts/fetch_doc_footage.py <slug> [--uhd]`**
+  reads the doc spec (scene `query`/`videoQuery`/`stock` fields + doc `niche`)
+  and fetches the whole episode's real visuals in one command through the
+  ranked sources below.
 - **ONE fetcher for real footage+photos:** `scripts/fetch_footage.py "<query>"
   --niche aviation|space|ocean|history|football|tech|generic --kind video|image
   --out <dir> --prefix <p> --count N` — tries 12 free sources in ranked order
@@ -379,9 +383,10 @@ clips have a fixed ~8s floor).
   scene+text posters, or Remotion still + text overlay (Workflow B). House style:
   3-5 word ALL-CAPS yellow/white text, one dramatic scene, dark background.
 - Renders for upload live at repo root as `mindwired_<slug>.mp4`.
-- **4K uploads (2026-07-20):** any DOM/SVG comp renders 4K with ZERO code
-  changes — `scripts/render_and_master.py <Comp> out.mp4 --scale 2` (still ONE
-  render). Text/SVG/paper layers scale losslessly (verified: sketch demo still
+- **4K is the DEFAULT (Akshay, 2026-07-20):** ship_doc.py renders --scale 2
+  automatically (--hd opts out); for manual renders use
+  `scripts/render_and_master.py <Comp> out.mp4 --scale 2` (still ONE render).
+  Pair with `fetch_doc_footage.py --uhd` so b-roll sources stay 2160p. Text/SVG/paper layers scale losslessly (verified: sketch demo still
   at 3840×2160, razor sharp). Best for sketch-brand + doc-engine episodes;
   expect ~2-4× render time + ~4× file size. Raster b-roll gets Lanczos-upscaled
   unless fetched 4K: `fetch_footage.py --uhd` keeps 2160p sources (Pixabay

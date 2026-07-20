@@ -1,0 +1,146 @@
+{
+  "slug": "erasedman",
+  "title": "The USSR Deleted This Man While He Was Still Alive",
+  "channel": "mindwired",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "start": 0,
+      "end": 4,
+      "voiceover": "The Soviet Union deleted this man from history while he was still alive.",
+      "mainText": "DELETED — WHILE STILL ALIVE",
+      "emphasis": [
+        "DELETED",
+        "ALIVE"
+      ],
+      "visualConcept": "Real archival portrait of Nelyubov, hard punch-in, scratch-out energy.",
+      "camera": [
+        "crash-zoom"
+      ],
+      "brollExists": true,
+      "emotionalTone": "shock",
+      "transitionOut": "whip",
+      "backgroundPrompt": "Real archival portrait of Nelyubov, hard punch-in, scratch-out energy."
+    },
+    {
+      "id": "shortlist",
+      "kind": "problem",
+      "start": 4,
+      "end": 9,
+      "voiceover": "In 1961, Grigori Nelyubov was one of three men shortlisted to become the first human in space.",
+      "mainText": "3 MEN. ONE SEAT. FIRST IN SPACE.",
+      "emphasis": [
+        "3",
+        "FIRST"
+      ],
+      "visualConcept": "The real first-cosmonaut-group photo, slow push toward the faces.",
+      "camera": [
+        "slow-push"
+      ],
+      "brollExists": true,
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut",
+      "backgroundPrompt": "The real first-cosmonaut-group photo, slow push toward the faces."
+    },
+    {
+      "id": "argument",
+      "kind": "shockfact",
+      "start": 9,
+      "end": 13,
+      "voiceover": "Gagarin flew. Nelyubov waited for his turn. Then one drunken argument with a military patrol ended everything.",
+      "mainText": "ONE ARGUMENT ENDED EVERYTHING",
+      "emphasis": [
+        "ONE",
+        "EVERYTHING"
+      ],
+      "visualConcept": "MiG cockpit, cold military hardware, tension.",
+      "camera": [
+        "handheld"
+      ],
+      "brollExists": true,
+      "emotionalTone": "fear",
+      "transitionOut": "flash",
+      "backgroundPrompt": "MiG cockpit, cold military hardware, tension."
+    },
+    {
+      "id": "airbrush",
+      "kind": "shockfact",
+      "start": 13,
+      "end": 18,
+      "voiceover": "He was expelled, exiled to the far east, and airbrushed out of every official photograph.",
+      "mainText": "AIRBRUSHED OUT OF EVERY PHOTO",
+      "emphasis": [
+        "AIRBRUSHED",
+        "EVERY"
+      ],
+      "visualConcept": "Group photo again — the erasure context the thumbnail promises.",
+      "camera": [
+        "slow-push"
+      ],
+      "brollExists": true,
+      "emotionalTone": "fear",
+      "transitionOut": "cut",
+      "backgroundPrompt": "Group photo again — the erasure context the thumbnail promises."
+    },
+    {
+      "id": "believed",
+      "kind": "quote",
+      "start": 18,
+      "end": 23,
+      "voiceover": "At a remote airbase he told his fellow pilots the truth. I was Gagarin's backup. Nobody believed him. The proof was gone.",
+      "mainText": "\"I WAS GAGARIN'S BACKUP\" — NOBODY BELIEVED HIM",
+      "emphasis": [
+        "NOBODY"
+      ],
+      "visualConcept": "His real training photo — the man mid-air on the trampoline, full of life.",
+      "camera": [
+        "slow-push"
+      ],
+      "brollExists": true,
+      "emotionalTone": "fear",
+      "transitionOut": "cut",
+      "backgroundPrompt": "His real training photo — the man mid-air on the trampoline, full of life."
+    },
+    {
+      "id": "train",
+      "kind": "shockfact",
+      "start": 23,
+      "end": 28,
+      "voiceover": "In 1966, he was struck and killed by a train. His name stayed erased for twenty more years.",
+      "mainText": "ERASED FOR 20 MORE YEARS",
+      "emphasis": [
+        "20",
+        "YEARS"
+      ],
+      "visualConcept": "Dark Earth-at-night frame, a life swallowed by black.",
+      "camera": [
+        "static"
+      ],
+      "brollExists": true,
+      "emotionalTone": "fear",
+      "transitionOut": "flash",
+      "backgroundPrompt": "Dark Earth-at-night frame, a life swallowed by black."
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "start": 28,
+      "end": 32,
+      "voiceover": "He was not the only one. Six men were erased. The full story is on the channel.",
+      "mainText": "6 MEN WERE ERASED → FULL STORY ON THE CHANNEL",
+      "emphasis": [
+        "6",
+        "ERASED"
+      ],
+      "visualConcept": "The group photo one last time — how many are missing?",
+      "camera": [
+        "static"
+      ],
+      "brollExists": true,
+      "emotionalTone": "confidence",
+      "transitionOut": "none",
+      "backgroundPrompt": "The group photo one last time — how many are missing?"
+    }
+  ]
+}

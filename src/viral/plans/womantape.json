@@ -1,0 +1,126 @@
+{
+  "slug": "womantape",
+  "title": "The Woman Who Burned Up in Space — Who Never Existed",
+  "channel": "mindwired",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "start": 0,
+      "end": 5,
+      "voiceover": "In 1961, two Italian brothers recorded a woman dying in space. Officially, she never existed.",
+      "mainText": "SHE NEVER EXISTED",
+      "emphasis": [
+        "NEVER",
+        "EXISTED"
+      ],
+      "visualConcept": "Reel-to-reel tape machine in the dark, VU-meter menace.",
+      "camera": [
+        "crash-zoom"
+      ],
+      "brollExists": true,
+      "emotionalTone": "shock",
+      "transitionOut": "whip",
+      "backgroundPrompt": "Reel-to-reel tape machine in the dark, VU-meter menace."
+    },
+    {
+      "id": "brothers",
+      "kind": "problem",
+      "start": 5,
+      "end": 10,
+      "voiceover": "Their homemade listening station outside Turin had tracked real Soviet spacecraft for years. They knew what a mission sounded like.",
+      "mainText": "THEY TRACKED REAL SPACECRAFT FOR YEARS",
+      "emphasis": [
+        "REAL"
+      ],
+      "visualConcept": "Vintage shortwave radio gear — the credibility beat.",
+      "camera": [
+        "slow-push"
+      ],
+      "brollExists": true,
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut",
+      "backgroundPrompt": "Vintage shortwave radio gear — the credibility beat."
+    },
+    {
+      "id": "voice",
+      "kind": "quote",
+      "start": 10,
+      "end": 16,
+      "voiceover": "Then they caught a female voice, in Russian, growing desperate. I am hot. I am hot. Am I going to crash?",
+      "mainText": "\"I AM HOT. AM I GOING TO CRASH?\"",
+      "emphasis": [
+        "HOT",
+        "CRASH"
+      ],
+      "visualConcept": "Tape reels spinning — the words land one by one like a transmission.",
+      "camera": [
+        "handheld"
+      ],
+      "brollExists": true,
+      "emotionalTone": "fear",
+      "transitionOut": "flash",
+      "backgroundPrompt": "Tape reels spinning — the words land one by one like a transmission."
+    },
+    {
+      "id": "tereshkova",
+      "kind": "shockfact",
+      "start": 16,
+      "end": 21,
+      "voiceover": "That was two years before the first woman officially flew to space. Moscow's answer: no launch, no cosmonaut, no voice.",
+      "mainText": "2 YEARS TOO EARLY. \"NO LAUNCH. NO VOICE.\"",
+      "emphasis": [
+        "2",
+        "NO"
+      ],
+      "visualConcept": "Dark Earth from orbit — an empty sky where a ship should be.",
+      "camera": [
+        "slow-push"
+      ],
+      "brollExists": true,
+      "emotionalTone": "fear",
+      "transitionOut": "cut",
+      "backgroundPrompt": "Dark Earth from orbit — an empty sky where a ship should be."
+    },
+    {
+      "id": "twist",
+      "kind": "transformation",
+      "start": 21,
+      "end": 27,
+      "voiceover": "Experts say the tape doesn't hold up. But here's the problem. That exact year, the Soviet Union really was hiding dead spacemen.",
+      "mainText": "THE USSR REALLY WAS HIDING DEAD SPACEMEN",
+      "emphasis": [
+        "REALLY",
+        "HIDING"
+      ],
+      "visualConcept": "The real cosmonaut group photo — the proven erasures behind the myth.",
+      "camera": [
+        "slow-push"
+      ],
+      "brollExists": true,
+      "emotionalTone": "awe",
+      "transitionOut": "flash",
+      "backgroundPrompt": "The real cosmonaut group photo — the proven erasures behind the myth."
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "start": 27,
+      "end": 31,
+      "voiceover": "Six real men, erased from history. That full story is on the channel.",
+      "mainText": "THE 6 REAL ERASURES → ON THE CHANNEL",
+      "emphasis": [
+        "6",
+        "REAL"
+      ],
+      "visualConcept": "Tape machine, reels still turning — the loop back to the hook.",
+      "camera": [
+        "static"
+      ],
+      "brollExists": true,
+      "emotionalTone": "confidence",
+      "transitionOut": "none",
+      "backgroundPrompt": "Tape machine, reels still turning — the loop back to the hook."
+    }
+  ]
+}

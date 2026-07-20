@@ -28,6 +28,9 @@ from pathlib import Path
 import httpx
 
 REPO = Path(__file__).resolve().parent.parent.parent
+# target render height — fetch_footage sets 2160 for --uhd; source pickers use
+# it to choose the smallest file that still covers the render resolution
+TARGET_H = 1080
 UA = {"User-Agent": "mindwired-footage/1.0 (archival fetcher; akshay@climbtogether.co)"}
 REJECT = ("nc", "nd", "noncommercial", "noderiv")
 IMG_EXT = {".jpg", ".jpeg", ".png", ".webp"}
@@ -177,7 +180,11 @@ def search_archive_org(query: str, count: int, media: str,
         if len(words) > 1:  # RELEVANCE sort (downloads-sort buries the on-topic
             extra = _search(" OR ".join(words), by_downloads=False)  # tail)
             seen = {d.get("identifier") for d in docs}
-            docs += [d for d in extra if d.get("identifier") not in seen]
+            # OR-recall is loose — a title must hit >=2 query tokens to qualify
+            # ('Progress 71 Launch' matching only 'launch' polluted a jet query)
+            docs += [d for d in extra
+                     if d.get("identifier") not in seen
+                     and query_score(query, str(d.get("title") or "")) >= 2]
 
     def pick_file(files: list[dict]) -> tuple[str | None, int]:
         """Prefer the h.264 mp4 derivative, then 512Kb MPEG4 — never the
@@ -494,8 +501,13 @@ def search_dvids(query: str, count: int, media: str) -> list[Asset]:
     data = _get_json("https://api.dvidshub.net/search",
                      {"q": query, "type": kind, "hd": 1,
                       "max_results": min(50, count * 4), "api_key": key})
+    results = (data or {}).get("results", [])
+    # produced DVIDS packages carry burned-in captions/graphics; raw "b-roll"
+    # tagged items cut cleanly — try those first
+    results.sort(key=lambda r: 0 if "b-roll" in
+                 f"{r.get('title','')} {r.get('keywords','')}".lower() else 1)
     out: list[Asset] = []
-    for res in (data or {}).get("results", []):
+    for res in results:
         aid = res.get("id", "")
         if not aid:
             continue
@@ -569,9 +581,10 @@ def search_pexels(query: str, count: int, media: str) -> list[Asset]:
                          headers={"Authorization": key})
         out = []
         for v in (data or {}).get("videos", []):
-            files = sorted((f for f in v.get("video_files", [])
-                            if (f.get("width") or 0) <= 1920 and f.get("link")),
-                           key=lambda f: -(f.get("width") or 0))
+            fs = [f for f in v.get("video_files", []) if f.get("link")]
+            covering = sorted((f for f in fs if (f.get("height") or 0) >= TARGET_H),
+                              key=lambda f: f.get("height") or 0)
+            files = covering or sorted(fs, key=lambda f: -(f.get("height") or 0))
             if not files:
                 continue
             out.append(Asset(
@@ -605,7 +618,10 @@ def search_pixabay(query: str, count: int, media: str) -> list[Asset]:
         out = []
         for h in (data or {}).get("hits", []):
             v = (h.get("videos") or {})
-            best = v.get("large") or v.get("medium") or v.get("small") or {}
+            tiers = [v.get(k) or {} for k in ("small", "medium", "large")]
+            covering = [x for x in tiers if (x.get("height") or 0) >= TARGET_H and x.get("url")]
+            best = covering[0] if covering else next(
+                (x for x in reversed(tiers) if x.get("url")), {})
             if not best.get("url"):
                 continue
             out.append(Asset(

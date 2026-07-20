@@ -1,0 +1,365 @@
+{
+  "slug": "astronautbodies",
+  "title": "What Happened to the Bodies of Every Astronaut Who Ever Died",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "channel": "mindwired",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "Eighteen human beings have died flying toward space. Every single one of them was brought home. This is the story of exactly how, and what it actually took.",
+      "img": "apollo1crew",
+      "stat": "18 DIED FLYING TO SPACE",
+      "cap": "Every one of them was brought home."
+    },
+    {
+      "id": "h2",
+      "text": "Some were burned before they ever left the launch pad. Some were found still strapped into their seats, exactly where they had been sitting. And one famous story about how a man died turns out to be completely invented.",
+      "img": "challengerexp",
+      "cap": "One famous story is completely invented."
+    },
+    {
+      "id": "h3",
+      "text": "Five disasters, spanning almost forty years. Twenty one people. Eighteen of them died in the vacuum of space itself, three never even left the ground. This is the honestly sourced story of their recovery, their myths, and where they rest today. Chapter four is the one Hollywood got the most wrong.",
+      "img": "columbiadebris",
+      "cap": "Chapter 4 is the one Hollywood got wrong."
+    },
+    {
+      "id": "h4",
+      "text": "We start at the very beginning, before a single rocket carrying this program's astronauts had even left the ground.",
+      "img": "apollo1fire",
+      "cap": "Before a single rocket had even launched."
+    },
+    {
+      "id": "c1_t",
+      "text": "Chapter one. The tragedy before the first launch.",
+      "chapter": "CHAPTER 1\nTHE TRAGEDY BEFORE THE FIRST LAUNCH"
+    },
+    {
+      "id": "a1",
+      "text": "January 27th, 1967. Astronauts Gus Grissom, Ed White and Roger Chaffee are sealed inside their Apollo capsule at Cape Kennedy, running a routine countdown rehearsal. The rocket underneath them isn't even fueled.",
+      "img": "apollo1crew",
+      "stat": "JANUARY 27, 1967",
+      "cap": "A routine rehearsal. An unfueled rocket."
+    },
+    {
+      "id": "a2",
+      "text": "The cabin is pressurized with almost pure oxygen. A spark somewhere in the wiring starts a fire, and in that atmosphere, it spreads almost instantly.",
+      "img": "apollo1fire",
+      "cap": "Pure oxygen. A spark. Instant fire."
+    },
+    {
+      "id": "a3",
+      "text": "The capsule's hatch opens inward, in three sealed layers, designed to be held shut by internal pressure. Once the fire raised that pressure, no one alive could have pulled it open.",
+      "img": "apollo1fire",
+      "cap": "A hatch no one could open from inside."
+    },
+    {
+      "id": "a4",
+      "text": "The pad crew worked for over five minutes to get the last hatch layer off. By the time they succeeded, the three astronauts were already gone.",
+      "img": "apollo1fire",
+      "stat": "OVER 5 MINUTES TO THE HATCH",
+      "cap": "By the time the hatch opened, they were gone."
+    },
+    {
+      "id": "a5",
+      "text": "The official finding was death by asphyxiation, from breathing in toxic gases. The burns came after. Investigators said unconsciousness would have come on rapidly.",
+      "img": "apollo1fire",
+      "cap": "Official cause: toxic gases, not the fire itself."
+    },
+    {
+      "id": "a6",
+      "text": "It took nearly six hours before their bodies could be recovered, since the heat had fused parts of their suits directly to the cabin. Air Force pathologists conducted the autopsies. The full reports have never been made public.",
+      "img": "apollo1fire",
+      "stat": "~6 HOURS TO RECOVERY",
+      "cap": "The autopsy reports have never been released."
+    },
+    {
+      "id": "a7",
+      "text": "Investigators traced the fire to a general area near a damaged wire bundle, but they could never conclusively identify the exact spark. Officially, the true ignition point may never be known.",
+      "img": "apollo1fire",
+      "cap": "The exact spark was never confirmed."
+    },
+    {
+      "id": "a8",
+      "text": "Grissom and Chaffee are buried at Arlington National Cemetery. White is buried at West Point, the academy he loved, at his own family's request.",
+      "img": "arlington",
+      "cap": "Arlington. And West Point, by his own wish."
+    },
+    {
+      "id": "a9",
+      "text": "That was the cost of testing on the ground, before a single astronaut in this program had even reached orbit. The next disaster came from the country racing hardest to beat it there.",
+      "img": "baikonur",
+      "cap": "The next disaster came from the other side."
+    },
+    {
+      "id": "c2_t",
+      "text": "Chapter two. The flight that never had a chance.",
+      "chapter": "CHAPTER 2\nTHE FLIGHT THAT NEVER HAD A CHANCE"
+    },
+    {
+      "id": "k1",
+      "text": "April 23rd, 1967. Cosmonaut Vladimir Komarov launches alone aboard Soyuz 1, a brand new, rushed spacecraft that had failed its last unmanned tests.",
+      "img": "komarov",
+      "stat": "APRIL 23, 1967",
+      "cap": "A brand new ship that had already failed."
+    },
+    {
+      "id": "k2",
+      "text": "After a day fighting a crippled spacecraft, Komarov brings it down for reentry. The main parachute fails to deploy properly, and when the reserve chute deploys, its lines tangle in the drogue chute still trailing above it.",
+      "img": "soyuzchute",
+      "cap": "Main chute failed. Reserve chute tangled."
+    },
+    {
+      "id": "k3",
+      "text": "The descent module hits the ground at roughly ninety miles an hour and catches fire on impact. Komarov becomes the first human being to die during an actual spaceflight.",
+      "img": "soyuz1crash",
+      "stat": "~90 MPH IMPACT",
+      "cap": "The first human to die on a spaceflight."
+    },
+    {
+      "id": "k4",
+      "text": "You may have heard that a listening post overseas caught him screaming and cursing in his final minutes. That story comes from a single, unconfirmed source in one book, and named historians have since debunked it using the real archived transcripts.",
+      "img": "missioncontrol",
+      "cap": "The \"screaming\" story? Debunked by real transcripts."
+    },
+    {
+      "id": "k5",
+      "text": "What those transcripts actually show is a calm, professional cosmonaut, working the problem until the very end, and signing off with something close to, I feel excellent, everything's in order.",
+      "speaker": "VLADIMIR KOMAROV",
+      "radioLabel": "RECREATION — GROUND-TO-AIR TRANSCRIPT",
+      "timestamp": "APRIL 24, 1967 — FINAL DESCENT"
+    },
+    {
+      "id": "k6",
+      "text": "By the accounts of Soviet officials at the scene, Komarov's remains were badly damaged in the crash and fire. He was given a state funeral in Moscow, cremated, and his ashes were placed in the Kremlin Wall, in Red Square.",
+      "img": "kremlinwall",
+      "cap": "Cremated. Ashes in the Kremlin Wall."
+    },
+    {
+      "id": "k7",
+      "text": "One man had died coming home. Four years later, three more would die before they ever made it back to Earth's surface.",
+      "img": "salyut1",
+      "cap": "Next: three deaths that never left orbit."
+    },
+    {
+      "id": "c3_t",
+      "text": "Chapter three. The only humans to die in space itself.",
+      "chapter": "CHAPTER 3\nTHE ONLY HUMANS TO DIE IN SPACE ITSELF"
+    },
+    {
+      "id": "s1",
+      "text": "June 30th, 1971. Cosmonauts Georgi Dobrovolsky, Vladislav Volkov and Viktor Patsayev are heading home after a record breaking twenty three days aboard Salyut 1, the first space station in history.",
+      "img": "soyuz11crew",
+      "stat": "JUNE 30, 1971",
+      "cap": "23 days aboard the first space station."
+    },
+    {
+      "id": "s2",
+      "text": "During separation, twelve small explosive devices are supposed to fire in sequence. Instead they fire all at once, and the shock jars open a pressure valve that should have stayed shut.",
+      "img": "soyuzchute",
+      "cap": "12 explosive devices fired at the same instant."
+    },
+    {
+      "id": "s3",
+      "diagram": "karmanline",
+      "arg": "168",
+      "text": "That valve opens at an altitude of one hundred sixty eight kilometers, well above the internationally recognized edge of space. The cabin is now open to the vacuum outside it.",
+      "stat": "168 KM ALTITUDE",
+      "cap": "168 km up. Open to the vacuum of space."
+    },
+    {
+      "id": "s4",
+      "diagram": "decompression",
+      "text": "The three men are not wearing pressure suits. There simply wasn't room, after engineers squeezed a third seat into a capsule built for two. Their cabin fully depressurizes in under a minute.",
+      "cap": "No suits. No room. Depressurized in under a minute."
+    },
+    {
+      "id": "s5",
+      "text": "Evidence suggests Patsayev tried to manually seal the valve by hand. Even done perfectly, that fix would have taken closer to a minute. It was already far too slow.",
+      "img": "soyuz11crew",
+      "cap": "He tried to close it by hand. Too slow."
+    },
+    {
+      "id": "s6",
+      "text": "The capsule itself came down completely undamaged, right on target. When recovery crews opened the hatch, they found all three men still strapped into their seats. Recovery accounts describe visible discoloration and signs of bleeding, real evidence of what the decompression had done, even though the capsule itself was untouched.",
+      "img": "soyuz11rec",
+      "cap": "The capsule landed perfectly undamaged."
+    },
+    {
+      "id": "s7",
+      "text": "The cause of death was asphyxiation from the sudden loss of pressure. Investigators found bleeding in the brain and inner ear, caused by dissolved gases boiling out of the blood, the same mechanism that gives divers the bends.",
+      "img": "soyuz11rec",
+      "cap": "Same mechanism that causes the diver's bends."
+    },
+    {
+      "id": "s8",
+      "text": "Useful consciousness would have been lost within about thirty seconds. All three men were given a state funeral, and their ashes were placed in the Kremlin Wall, near Yuri Gagarin.",
+      "img": "kremlinwall",
+      "cap": "Ashes in the Kremlin Wall, beside Gagarin."
+    },
+    {
+      "id": "s9",
+      "text": "American astronaut Tom Stafford served as a pallbearer, representing President Nixon. And to this day, these three remain the only human beings confirmed to have died above the edge of space itself.",
+      "img": "gagarinfuneral",
+      "stat": "STILL TRUE TODAY",
+      "cap": "The only confirmed deaths above the edge of space."
+    },
+    {
+      "id": "s10",
+      "text": "After this, Soyuz permanently reverted to carrying only two cosmonauts at a time, specifically so there would always be room for pressure suits again.",
+      "img": "salyut1",
+      "cap": "Soyuz went back to 2 seats. For the suits."
+    },
+    {
+      "id": "s11",
+      "text": "It would be fifteen years before another spacecraft failure killed its crew. This time, the entire world would be watching it happen live.",
+      "img": "challengerexp",
+      "cap": "Next time, the world was watching live."
+    },
+    {
+      "id": "c4_t",
+      "text": "Chapter four. The disaster the whole world watched.",
+      "chapter": "CHAPTER 4\nTHE DISASTER THE WHOLE WORLD WATCHED"
+    },
+    {
+      "id": "ch1",
+      "text": "January 28th, 1986. Seventy three seconds after launch, a failed rubber seal lets flame burn through the side of the Space Shuttle Challenger's external fuel tank, and the vehicle tears itself apart.",
+      "img": "oring",
+      "stat": "JANUARY 28, 1986",
+      "cap": "A failed seal. 73 seconds after launch."
+    },
+    {
+      "id": "ch2",
+      "text": "But the crew cabin itself does not explode. It separates from the wreckage largely intact, and its own momentum carries it thousands of feet higher before it finally starts to fall.",
+      "img": "challengerexp",
+      "cap": "The crew cabin survived the breakup intact."
+    },
+    {
+      "id": "ch3",
+      "text": "It falls for close to three minutes before hitting the ocean at more than two hundred miles an hour. That impact alone was completely unsurvivable.",
+      "img": "challengerexp",
+      "stat": "~2 MIN 45 SEC FALL",
+      "cap": "Nearly 3 minutes. Then an unsurvivable impact."
+    },
+    {
+      "id": "ch4",
+      "text": "Here is the part almost every other video about this gets wrong. NASA's own official finding was that the exact cause of death could not be positively determined, and whether the crew lost consciousness during that fall is possible, but not certain, either way.",
+      "img": "challengercrew",
+      "cap": "NASA: cause of death could not be determined."
+    },
+    {
+      "id": "ch5",
+      "text": "Some emergency air packs had been manually switched on, and some cockpit switches had been thrown by hand. That is real physical evidence of crew action after the breakup. It still does not settle the question either way.",
+      "img": "challengercrew",
+      "cap": "Evidence of action. Not proof of awareness."
+    },
+    {
+      "id": "ch6",
+      "text": "What follows is one of the largest search operations in Navy history, covering hundreds of square miles of ocean. The crew cabin is finally located on the seafloor in early March.",
+      "img": "missioncontrol",
+      "cap": "One of the largest Navy searches in history."
+    },
+    {
+      "id": "ch7",
+      "text": "Recovery continues for weeks. Remains are identified through dental records, using the forensic methods available in 1986. Some remains could never be attributed to one specific person.",
+      "img": "arlington",
+      "cap": "Identified by dental records. Some, never fully."
+    },
+    {
+      "id": "ch8",
+      "text": "That unidentifiable portion was cremated and buried together at Arlington National Cemetery, beneath a memorial dedicated the following year. Some crew members are buried there individually. Others rest at their own family's chosen cemeteries, from New Hampshire to Hawaii.",
+      "img": "arlington",
+      "stat": "ARLINGTON, SECTION 46",
+      "cap": "A shared memorial. And individual resting places."
+    },
+    {
+      "id": "ch9",
+      "text": "And here is the myth we have to correct. A widely shared \"final transcript\" of the crew talking calmly as they fell first appeared in a tabloid years later, and it is fabricated. The real last words, from the actual flight recorder, were just two: uh oh.",
+      "img": "missioncontrol",
+      "cap": "The famous \"transcript\"? A tabloid invention."
+    },
+    {
+      "id": "ch10",
+      "text": "Seventeen years after Challenger, on the very same kind of vehicle, the story would repeat itself, this time on the way back down instead of the way up.",
+      "img": "columbiacrew",
+      "cap": "17 years later. The same story, in reverse."
+    },
+    {
+      "id": "c5_t",
+      "text": "Chapter five. When it happened again.",
+      "chapter": "CHAPTER 5\nWHEN IT HAPPENED AGAIN"
+    },
+    {
+      "id": "co1",
+      "text": "February 1st, 2003. The Space Shuttle Columbia breaks apart during reentry, high over Texas, traveling eighteen times the speed of sound.",
+      "img": "columbiadebris",
+      "stat": "FEBRUARY 1, 2003",
+      "cap": "18 times the speed of sound. Breaking apart."
+    },
+    {
+      "id": "co2",
+      "text": "Wreckage falls across a corridor stretching more than two hundred miles, from eastern Texas into Louisiana. Search teams recover more than eighty thousand individual pieces of debris.",
+      "img": "columbiadebris",
+      "stat": "80,000+ PIECES RECOVERED",
+      "cap": "A 200+ mile debris corridor. 80,000+ pieces."
+    },
+    {
+      "id": "co3",
+      "text": "All seven crew members are positively identified within two weeks, through DNA testing cross checked against dental and medical records.",
+      "img": "columbiacrew",
+      "stat": "IDENTIFIED WITHIN 2 WEEKS",
+      "cap": "All 7, identified within two weeks."
+    },
+    {
+      "id": "co4",
+      "diagram": "decompression",
+      "text": "A later NASA investigation concluded the accident was not survivable. The first lethal event was a rapid loss of cabin pressure, completed in about forty seconds, and the crew lost consciousness within seconds of that, before the more violent structural breakup even began.",
+      "cap": "Unconscious within seconds. Before the worst of it."
+    },
+    {
+      "id": "co5",
+      "text": "The crew of Columbia is memorialized at the Space Mirror Memorial at Kennedy Space Center, their names added later that same year, alongside every other astronaut the American program has lost.",
+      "img": "spacemirror",
+      "cap": "Their names, added to the Space Mirror Memorial."
+    },
+    {
+      "id": "e1",
+      "text": "Eighteen died flying in space itself. Three more never left the ground at all. Twenty one people, five disasters, spanning almost forty years, and every single one of them made it back to Earth.",
+      "img": "apollo1crew",
+      "stat": "21 PEOPLE. ALL BROUGHT HOME.",
+      "cap": "Every one of them made it back to Earth."
+    },
+    {
+      "id": "e2",
+      "text": "Today they rest at the Kremlin Wall, at Arlington, at West Point, at the National Memorial Cemetery of the Pacific, and in hometowns from New Hampshire to South Carolina.",
+      "img": "kremlinwall",
+      "cap": "Kremlin Wall. Arlington. West Point. Home."
+    },
+    {
+      "id": "e3",
+      "diagram": "karmanline",
+      "arg": "81",
+      "text": "One honest footnote. In 1967, test pilot Michael Adams died when his X-15 rocket plane broke apart at over eighty kilometers. Under the strict definition, he never quite crossed the internationally recognized edge of space, so historians count him separately from the eighteen.",
+      "cap": "One footnote: he came close, but not quite."
+    },
+    {
+      "id": "e4",
+      "text": "And no, there are no human remains still floating in space. Every person who has ever died flying toward it has, eventually, been brought home.",
+      "img": "earthnight",
+      "cap": "No bodies remain in space. Not one."
+    },
+    {
+      "id": "e5",
+      "text": "You may have also heard theories about Soviet cosmonauts who supposedly died and were erased before Gagarin ever flew. Serious historians consider that an unverified myth, not real history, and we've told that entire story, honestly, in another video on this channel.",
+      "img": "sochisix",
+      "cap": "The \"lost cosmonauts\" myth? Full story on the channel."
+    },
+    {
+      "id": "e6",
+      "text": "If that lost cosmonauts myth got under your skin, wait until you see where the legend actually came from, and why most historians don't buy it. And subscribe to mindwired, so the next story finds you.",
+      "img": "thegroup",
+      "cap": "Subscribe — the next story is waiting."
+    }
+  ]
+}

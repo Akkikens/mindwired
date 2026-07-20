@@ -1,0 +1,272 @@
+{
+ "durations": {
+  "h1": 13.632,
+  "h2": 10.998,
+  "h3": 10.919,
+  "h4": 11.154,
+  "h5": 7.079,
+  "h6": 9.091,
+  "h7": 9.091,
+  "c1_t": 3.161,
+  "n1": 13.793,
+  "n2": 12.748,
+  "n3": 9.796,
+  "n4": 11.546,
+  "n5": 11.468,
+  "n6": 8.908,
+  "n7": 11.233,
+  "n8": 11.729,
+  "n9": 7.549,
+  "n10": 12.931,
+  "n11": 8.908,
+  "n12": 11.651,
+  "n13": 12.277,
+  "n14": 10.841,
+  "c2_t": 3.788,
+  "b1": 11.729,
+  "b2": 11.964,
+  "b3": 9.561,
+  "b4": 10.188,
+  "b5": 9.404,
+  "b6": 11.729,
+  "b7": 11.807,
+  "b8": 9.169,
+  "b9": 13.714,
+  "b10": 9.639,
+  "b11": 16.117,
+  "b12": 12.434,
+  "c3_t": 3.971,
+  "g1": 11.651,
+  "g2": 13.401,
+  "g3": 12.513,
+  "g4": 10.841,
+  "g5": 9.874,
+  "g6": 10.527,
+  "g7": 11.964,
+  "g8": 10.188,
+  "g9": 13.166,
+  "g10": 13.479,
+  "g11": 10.266,
+  "g12": 12.513,
+  "g13": 10.919,
+  "g14": 13.322,
+  "c4_t": 3.396,
+  "k1": 10.841,
+  "k2": 10.762,
+  "k3": 9.953,
+  "k4": 11.468,
+  "k5": 12.669,
+  "k6": 9.561,
+  "k7": 14.602,
+  "k8": 10.031,
+  "k9": 12.931,
+  "k10": 12.434,
+  "k11": 11.076,
+  "k12": 10.841,
+  "k13": 10.371,
+  "k14": 11.807,
+  "k15": 13.636,
+  "k16": 12.042,
+  "c5_t": 3.631,
+  "s1": 10.919,
+  "s2": 13.009,
+  "s3": 11.233,
+  "s4": 11.964,
+  "s5": 8.046,
+  "s6": 10.527,
+  "s7": 10.762,
+  "s8": 11.233,
+  "s9": 14.028,
+  "s10": 10.266,
+  "s11": 12.434,
+  "c6_t": 3.631,
+  "l1": 11.546,
+  "l2": 11.807,
+  "l3": 10.266,
+  "l4": 10.527,
+  "l5": 13.871,
+  "l6": 9.247,
+  "l7": 12.267,
+  "l8": 10.266,
+  "l9": 9.091,
+  "l10": 11.964,
+  "l11": 13.087,
+  "l12": 13.949,
+  "l13": 13.949,
+  "l14": 11.729,
+  "e1": 10.919,
+  "e2": 13.714,
+  "e3": 15.804,
+  "e4": 11.076,
+  "e5": 11.964,
+  "e6": 10.841,
+  "e7": 9.953,
+  "e8": 13.871
+ },
+ "images": {
+  "apollo1crew": [
+   "apollo1crew_1.jpg",
+   "apollo1crew_2.jpg",
+   "apollo1crew_3.jpg",
+   "apollo1crew_4.jpg",
+   "apollo1crew_5.jpg",
+   "apollo1crew_6.jpg"
+  ],
+  "apollo1fire": [
+   "apollo1fire_1.jpg",
+   "apollo1fire_2.jpg",
+   "apollo1fire_3.png",
+   "apollo1fire_4.jpg",
+   "apollo1fire_5.jpg",
+   "apollo1fire_6.jpg"
+  ],
+  "baikonur": [
+   "baikonur_1.jpg",
+   "baikonur_2.jpg",
+   "baikonur_3.jpg"
+  ],
+  "bondarenko": [
+   "bondarenko_1.jpg",
+   "bondarenko_2.jpg",
+   "bondarenko_3.jpg"
+  ],
+  "earthnight": [
+   "earthnight_1.jpg",
+   "earthnight_2.jpg",
+   "earthnight_3.jpg",
+   "earthnight_4.jpg"
+  ],
+  "evavoid": [
+   "evavoid_1.jpg",
+   "evavoid_3.jpg",
+   "evavoid_4.jpg",
+   "evavoid_5.jpg"
+  ],
+  "gagarin": [
+   "gagarin_1.jpg",
+   "gagarin_3.jpg",
+   "gagarin_4.jpg"
+  ],
+  "gagarinfuneral": [
+   "gagarinfuneral_1.jpg"
+  ],
+  "khrushchev": [
+   "khrushchev_2.jpg",
+   "khrushchev_3.jpg",
+   "khrushchev_4.jpg"
+  ],
+  "komarov": [
+   "komarov_1.jpg",
+   "komarov_2.jpg",
+   "komarov_3.jpg",
+   "komarov_4.png",
+   "komarov_5.jpg"
+  ],
+  "korolev": [
+   "korolev_1.jpg",
+   "korolev_2.jpg"
+  ],
+  "laika": [
+   "laika_2.jpg",
+   "laika_3.jpg",
+   "laika_4.jpg"
+  ],
+  "leonov": [
+   "leonov_1.jpg",
+   "leonov_2.jpg",
+   "leonov_3.jpg"
+  ],
+  "mig15": [
+   "mig15_2.jpg",
+   "mig15_3.jpg"
+  ],
+  "missioncontrol": [
+   "missioncontrol_1.jpg",
+   "missioncontrol_2.jpg",
+   "missioncontrol_3.jpg",
+   "missioncontrol_4.jpg"
+  ],
+  "nedelin": [
+   "nedelin_1.jpg",
+   "nedelin_2.jpg",
+   "nedelin_3.jpg"
+  ],
+  "nelyubov": [
+   "nelyubov_1.jpg",
+   "nelyubov_2.jpg",
+   "nelyubov_3.jpg"
+  ],
+  "plesetsk": [
+   "plesetsk_1.jpg",
+   "plesetsk_2.jpg",
+   "plesetsk_3.jpg",
+   "plesetsk_4.jpg"
+  ],
+  "redsquare": [
+   "redsquare_1.jpg",
+   "redsquare_2.jpg",
+   "redsquare_3.jpg"
+  ],
+  "reeltoreel": [
+   "reeltoreel_1.jpg",
+   "reeltoreel_2.jpg",
+   "reeltoreel_3.jpg",
+   "reeltoreel_4.jpg",
+   "reeltoreel_5.jpg"
+  ],
+  "salyut1": [
+   "salyut1_1.jpeg",
+   "salyut1_2.jpg",
+   "salyut1_3.jpg",
+   "salyut1_4.jpg"
+  ],
+  "sochisix": [
+   "sochisix_1.jpg",
+   "sochisix_2.jpg",
+   "sochisix_3.jpg"
+  ],
+  "soyuz11crew": [
+   "soyuz11crew_1.jpg",
+   "soyuz11crew_2.jpg",
+   "soyuz11crew_3.png",
+   "soyuz11crew_4.jpg"
+  ],
+  "soyuz11rec": [
+   "soyuz11rec_2.jpg"
+  ],
+  "soyuz1crash": [
+   "soyuz1crash_1.jpg",
+   "soyuz1crash_2.jpg",
+   "soyuz1crash_3.jpg"
+  ],
+  "soyuzchute": [
+   "soyuzchute_1.jpg",
+   "soyuzchute_2.jpg",
+   "soyuzchute_3.jpg",
+   "soyuzchute_4.jpg"
+  ],
+  "thegroup": [
+   "thegroup_1.jpg"
+  ],
+  "torrebert": [
+   "torrebert_1.jpg",
+   "torrebert_2.jpg",
+   "torrebert_3.jpg",
+   "torrebert_4.jpg",
+   "torrebert_5.jpg"
+  ],
+  "vostokcapsule": [
+   "vostokcapsule_1.jpg",
+   "vostokcapsule_2.jpg",
+   "vostokcapsule_3.jpg",
+   "vostokcapsule_4.jpg"
+  ],
+  "vostoktrain": [
+   "vostoktrain_1.jpg",
+   "vostoktrain_2.jpg",
+   "vostoktrain_3.jpg",
+   "vostoktrain_4.jpg"
+  ]
+ },
+ "missing": []
+}
