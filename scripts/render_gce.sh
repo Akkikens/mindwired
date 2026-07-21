@@ -33,7 +33,15 @@ NAME="render-${SLUG}-$(date +%s | tail -c 5)"
 REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 REMOTE=mindwired
 
+FETCHED=0
+RENDER_DONE=0
 cleanup() {
+  if [ "$RENDER_DONE" = "1" ] && [ "$FETCHED" != "1" ]; then
+    echo "[gce] RENDER DONE BUT NOT FETCHED — stopping (NOT deleting) ${NAME} so the master survives."
+    echo "[gce] recover with: gcloud compute instances start ${NAME} --zone ${ZONE} && gcloud compute scp ${NAME}:~/${REMOTE}/out/${SLUG}.mp4 out/${SLUG}_gce.mp4 --zone ${ZONE}; then delete the VM."
+    gcloud compute instances stop "$NAME" --zone "$ZONE" --quiet 2>/dev/null || true
+    return
+  fi
   echo "[gce] deleting VM ${NAME}…"
   gcloud compute instances delete "$NAME" --zone "$ZONE" --quiet 2>/dev/null || true
 }
@@ -51,6 +59,11 @@ fi
 
 # spot capacity is fickle — walk a ladder of equivalent 32-core machines and
 # zones until one sticks (all AMD/Intel 32 vCPU, spot $0.3-0.7/hr)
+if [ "${GCE_ONDEMAND:-0}" = "1" ]; then
+  PROVISION=(--provisioning-model=STANDARD)
+else
+  PROVISION=(--provisioning-model=SPOT --instance-termination-action=DELETE)
+fi
 CANDIDATES=(
   "${MACHINE}:${ZONE}"
   "c2d-highcpu-32:us-central1-b" "c2d-highcpu-32:us-east1-c"
@@ -64,7 +77,7 @@ for cand in "${CANDIDATES[@]}"; do
   echo "[gce] trying spot ${M} in ${Z} (base=${HAVE_BASE})…"
   if gcloud compute instances create "$NAME" \
       --zone "$Z" --machine-type "$M" \
-      --provisioning-model=SPOT --instance-termination-action=DELETE \
+      "${PROVISION[@]}" \
       "${IMAGE_ARGS[@]}" \
       --boot-disk-size=60GB --boot-disk-type=pd-balanced 2>&1 | tail -2; then
     MACHINE="$M"; ZONE="$Z"; CREATED=1
@@ -139,12 +152,16 @@ gcloud compute ssh "$NAME" --zone "$ZONE" --command "
 echo "[gce] render running — polling every 2 min…"
 while true; do
   sleep 120
+  if ! gcloud compute instances describe "$NAME" --zone "$ZONE" --format="value(status)" >/dev/null 2>&1; then
+    echo "[gce] VM GONE — spot instance was preempted mid-render. Re-run (or GCE_ONDEMAND=1 for a guaranteed machine)."
+    exit 2
+  fi
   STATUS=$(gcloud compute ssh "$NAME" --zone "$ZONE" --command "
     if grep -q -- '-> out/${SLUG}.mp4' $REMOTE/out/render.log 2>/dev/null; then echo DONE;
     elif grep -qiE 'Traceback|render failed|GATE FAILED' $REMOTE/out/render.log 2>/dev/null; then echo FAILED;
     else grep -oE 'Rendered [0-9]+/[0-9]+' $REMOTE/out/render.log | tail -1; fi" 2>/dev/null || echo "ssh-retry")
   echo "[gce] $(date +%H:%M) ${STATUS}"
-  [ "$STATUS" = "DONE" ] && break
+  if [ "$STATUS" = "DONE" ]; then RENDER_DONE=1; break; fi
   if [ "$STATUS" = "FAILED" ]; then
     echo "[gce] FAILURE DIAGNOSTICS:"
     gcloud compute ssh "$NAME" --zone "$ZONE" --command "
@@ -156,8 +173,17 @@ while true; do
 done
 
 echo "[gce] fetching master…"
-gcloud compute scp "$NAME":~/$REMOTE/out/${SLUG}.mp4 "$REPO_DIR/out/${SLUG}_gce.mp4" --zone "$ZONE"
-gcloud compute ssh "$NAME" --zone "$ZONE" --command "tail -4 $REMOTE/out/render.log"
+for i in 1 2 3; do
+  if gcloud compute scp "$NAME":~/$REMOTE/out/${SLUG}.mp4 "$REPO_DIR/out/${SLUG}_gce.mp4" --zone "$ZONE"; then
+    if [ -s "$REPO_DIR/out/${SLUG}_gce.mp4" ]; then FETCHED=1; break; fi
+  fi
+  echo "[gce] fetch attempt $i failed — retrying in 20s…"; sleep 20
+done
+if [ "$FETCHED" != "1" ]; then
+  echo "[gce] ALL FETCH ATTEMPTS FAILED — VM will be stopped, not deleted (see recovery command)."
+  exit 3
+fi
+gcloud compute ssh "$NAME" --zone "$ZONE" --command "tail -4 $REMOTE/out/render.log" || true
 
 if [ "$HAVE_BASE" = "0" ]; then
   echo "[gce] baking base image for future renders (skips setup next time)…"
