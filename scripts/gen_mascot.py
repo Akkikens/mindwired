@@ -89,13 +89,18 @@ def white_to_alpha(src: Path, dst: Path, thresh: int = 242,
     im = Image.open(src).convert("RGBA")
     px = im.load()
     w, h = im.size
+    # auto-detect the backdrop from the corners: Gemini sometimes returns a
+    # gray studio bg instead of paper-white — remove whatever neutral tone the
+    # corners agree on (2026-07-20, batti rig came back gray)
+    corners = [px[2, 2], px[w - 3, 2], px[2, h - 3], px[w - 3, h - 3]]
+    bg_lum = sum((c[0] + c[1] + c[2]) // 3 for c in corners) // 4
+    lo = min(thresh - 22, bg_lum - 26)
     whiteish = [[False] * w for _ in range(h)]
     for y in range(h):
         for x in range(w):
             r, g, b, a = px[x, y]
             lum = (r + g + b) // 3
-            whiteish[y][x] = (lum >= thresh - 22 and abs(r - g) < 14
-                              and abs(g - b) < 14)
+            whiteish[y][x] = (lum >= lo and abs(r - g) < 16 and abs(g - b) < 16)
     outside = [[False] * w for _ in range(h)]
     if fill_holes:
         # flood the whiteish region reachable from the border — that is the
@@ -116,11 +121,11 @@ def white_to_alpha(src: Path, dst: Path, thresh: int = 242,
                 continue
             r, g, b, a = px[x, y]
             lum = (r + g + b) // 3
-            if lum >= thresh:
+            if lum >= lo + 14:
                 px[x, y] = (r, g, b, 0)
             else:
-                fade = int(255 * (thresh - lum) / 22)
-                px[x, y] = (r, g, b, min(a, fade))
+                fade = int(255 * (lo + 14 - lum) / 14)
+                px[x, y] = (r, g, b, min(a, max(0, fade)))
     im.save(dst)
 
 
@@ -148,6 +153,96 @@ def normalize_rig(files: list[Path], pad: float = 0.06) -> None:
         out.paste(crop, (x, y), crop)
         out.save(f)
         print(f"  aligned {f.name}: box {crop.width}x{crop.height} @ bottom-center")
+
+
+def head_align(files: list[Path], ref: Path, head_frac: float = 0.45) -> None:
+    """Align gesture frames to `ref` BY THE HEAD (not the full ink bbox): scale
+    so head heights match, translate so head centers coincide. Arms/legs may
+    move — that's the point of a gesture — but the face must sit pixel-stable
+    so mouth patches land correctly and eyes never 'glitch'."""
+    def head_box(im):
+        b = im.getbbox()
+        if not b:
+            return None
+        return (b[0], b[1], b[2], b[1] + int((b[3] - b[1]) * head_frac))
+    R = Image.open(ref).convert("RGBA")
+    rb = head_box(R)
+    rcx, rcy = (rb[0] + rb[2]) / 2, (rb[1] + rb[3]) / 2
+    rh = rb[3] - rb[1]
+    for f in files:
+        im = Image.open(f).convert("RGBA")
+        hb = head_box(im)
+        if not hb:
+            continue
+        s = rh / (hb[3] - hb[1])
+        im2 = im.resize((max(1, round(im.width * s)), max(1, round(im.height * s))),
+                        Image.LANCZOS)
+        hb2 = head_box(im2)
+        cx, cy = (hb2[0] + hb2[2]) / 2, (hb2[1] + hb2[3]) / 2
+        out = Image.new("RGBA", R.size, (0, 0, 0, 0))
+        out.paste(im2, (round(rcx - cx), round(rcy - cy)), im2)
+        out.save(f)
+        print(f"  head-aligned {f.name} (scale {s:.3f})")
+
+
+def mouth_region(base: Path, opens: list[Path], margin: int = 26) -> tuple[int, int, int, int]:
+    """Find the mouth: the union bbox of significant pixel differences between
+    the closed-mouth base and the open-mouth frames, searched in the lower half
+    of the head zone. Everything OUTSIDE this box stays literally identical
+    across mouth states — the fix for drifting eyes/hair between flaps."""
+    B = Image.open(base).convert("RGBA")
+    bb = B.getbbox()
+    # search ONLY the lower-face band (28-52%% of body height): the differ must
+    # not see the eye region, otherwise inter-frame eye drift inflates the box
+    # and the patch would carry the glitch back in
+    face_top = bb[1] + int((bb[3] - bb[1]) * 0.28)
+    head_bottom = bb[1] + int((bb[3] - bb[1]) * 0.52)
+    x0 = y0 = 10**9
+    x1 = y1 = -1
+    for o in opens:
+        O = Image.open(o).convert("RGBA")
+        w, h = min(B.width, O.width), min(B.height, O.height)
+        bp, op = B.load(), O.load()
+        for y in range(face_top, min(head_bottom, h), 2):
+            for x in range(bb[0], min(bb[2], w), 2):
+                p1, p2 = bp[x, y], op[x, y]
+                if abs(p1[3] - p2[3]) > 60 or (p1[3] > 100 and p2[3] > 100 and
+                        abs(p1[0] - p2[0]) + abs(p1[1] - p2[1]) + abs(p1[2] - p2[2]) > 140):
+                    x0, y0 = min(x0, x), min(y0, y)
+                    x1, y1 = max(x1, x), max(y1, y)
+    if x1 < 0:
+        raise RuntimeError("no mouth diff found between base and open frames")
+    return (max(0, x0 - margin), max(0, y0 - margin),
+            min(B.width, x1 + margin), min(B.height, y1 + margin))
+
+
+def build_rig_v2(out_dir: Path, rig: str = "host", gestures: int = 3) -> list[Path]:
+    """Compose the glitch-free talking rig: <rig>_g{G}_m{M}.png where every
+    gesture body is a LOCKED image and only the mouth-box pixels differ between
+    mouth states. Requires <rig>_m0..3 (aligned) and optional <rig>_gest1/2."""
+    base = out_dir / f"{rig}_m0.png"
+    opens = [out_dir / f"{rig}_m{i}.png" for i in (1, 2, 3)]
+    box = mouth_region(base, opens)
+    print(f"  mouth box: {box}")
+    bodies = [Image.open(base).convert("RGBA")]
+    for g in range(1, gestures):
+        gp = out_dir / f"{rig}_gest{g}.png"
+        if gp.exists():
+            bodies.append(Image.open(gp).convert("RGBA"))
+    made = []
+    patches = [None] + [Image.open(o).convert("RGBA").crop(box) for o in opens]
+    for gi, body in enumerate(bodies):
+        for mi in range(4):
+            frame = body.copy()
+            if mi > 0:
+                # clear the mouth box then paste the open-mouth patch — the rest
+                # of the body is byte-identical across mouth states
+                frame.paste(patches[mi], (box[0], box[1]))
+            dst = out_dir / f"{rig}_g{gi}_m{mi}.png"
+            frame.save(dst)
+            made.append(dst)
+    print(f"  rig v2: {len(made)} frames ({len(bodies)} gestures x 4 mouths)")
+    return made
 
 
 def contact_sheet(files: list[Path], out_png: Path, label: str) -> None:

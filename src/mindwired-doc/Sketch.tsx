@@ -92,17 +92,20 @@ export const MascotReact: React.FC<{
   // character "boils" in place — smooth sinusoid glide reads as digital
   const step = Math.floor(frame / 3);
   const jit = mulberry32(seedOf(pose) + step);
-  const bob = Math.sin(step / 3.6) * 6 + (jit() - 0.5) * 2;
-  const tilt = Math.sin(step / 5.6) * 1.6 + (jit() - 0.5) * 0.8;
+  // calm idle (Akshay 2026-07-20: wobble was distracting); machines idle
+  // calmer than characters
+  const calm = rig.startsWith("bb") ? 0.4 : 0.8;
+  const bob = (Math.sin(step / 3.6) * 3 + (jit() - 0.5) * 1) * calm;
+  const tilt = (Math.sin(step / 5.6) * 0.8 + (jit() - 0.5) * 0.4) * calm;
 
   // speaking: sample the mouth track (one char per frame; narration starts at
-  // LEAD, passed as mouthOffset)
+  // LEAD, passed as mouthOffset); hands cycle per phrase (rig v2 gestures)
   let file = pose;
   let state = 0;
   if (mouth && mouth.length > 0) {
     const i = Math.min(Math.max(frame - mouthOffset, 0), mouth.length - 1);
     state = Math.min(3, Math.max(0, Number(mouth[i]) || 0));
-    file = `${rig}_m${state}`;
+    file = `${rig}_g${gestureAt(mouth, i)}_m${state}`;
   }
   // acting: loud syllables push the whole character a touch (head-bob energy,
   // not just a mouth hole) — quantized with the flaps
@@ -149,13 +152,16 @@ export const MascotZoom: React.FC<{
     { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const step = Math.floor(frame / 3);
   const jit = mulberry32(9091 + step);
-  const bob = Math.sin(step / 3.2) * 10 + (jit() - 0.5) * 3;
-  const tilt = Math.sin(step / 5.1) * 1.4 + (jit() - 0.5) * 0.9;
+  const calm = rig.startsWith("bb") ? 0.35 : 0.7;
+  const bob = (Math.sin(step / 3.2) * 5 + (jit() - 0.5) * 1.5) * calm;
+  const tilt = (Math.sin(step / 5.1) * 0.7 + (jit() - 0.5) * 0.4) * calm;
 
   let state = 0;
+  let gesture = 0;
   if (mouth && mouth.length > 0) {
     const i = Math.min(Math.max(frame - mouthOffset, 0), mouth.length - 1);
     state = Math.min(3, Math.max(0, Number(mouth[i]) || 0));
+    gesture = gestureAt(mouth, i);
   }
   const emph = 1 + state * 0.006;
   const capIn = interpolate(frame, [8, 22], [0, 1],
@@ -184,7 +190,7 @@ export const MascotZoom: React.FC<{
         transformOrigin: "50% 30%",
       }}>
         <Img
-          src={staticFile(`mascot/${rig}_m${state}.png`)}
+          src={staticFile(`mascot/${rig}_g${gesture}_m${state}.png`)}
           style={{
             width: "100%", height: "100%", objectFit: "contain",
             filter: "url(#zoomboil) drop-shadow(0px 10px 0px rgba(28,26,23,0.12))",
@@ -208,6 +214,17 @@ export const MascotZoom: React.FC<{
       )}
     </AbsoluteFill>
   );
+};
+
+/** Gesture index while speaking: the hands change on each new phrase (a
+ *  silence -> speech onset in the mouth track), cycling the rig's 3 gesture
+ *  bodies — mouth flaps alone read robotic, hands are the acting. */
+const gestureAt = (mouth: string, i: number, gestures = 3) => {
+  let g = 0;
+  for (let k = 1; k <= Math.min(i, mouth.length - 1); k++) {
+    if (mouth[k] !== "0" && mouth[k - 1] === "0") g++;
+  }
+  return g % gestures;
 };
 
 /** Point on the boustrophedon scribble at progress p — drives the pencil

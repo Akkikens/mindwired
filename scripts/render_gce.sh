@@ -116,7 +116,7 @@ MANIFEST=/tmp/render_files.txt
   done
   find public -name "*.json" -not -path "public/shorts/${SLUG}/*"
 ) > "$MANIFEST"
-tar czf /tmp/render_src.tgz -C "$REPO_DIR" -T "$MANIFEST"
+tar czhf /tmp/render_src.tgz -C "$REPO_DIR" -T "$MANIFEST"  # -h: dereference -hi twin symlinks
 gcloud compute scp /tmp/render_src.tgz "$NAME":~/render_src.tgz --zone "$ZONE"
 rm -f /tmp/render_src.tgz
 

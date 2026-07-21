@@ -82,7 +82,11 @@ def main() -> None:
                 pass
             else:
                 slow = "chapter" in s  # chapter cards land heavier
-                audio = cartesia.tts(s["text"], voice=doc.get("voice"),
+                # mascot cutaways can carry their OWN playful voice
+                # (doc-level "mascotVoice"), distinct from the narrator
+                voice = (doc.get("mascotVoice") or doc.get("voice")) \
+                    if s.get("mascotFull") else doc.get("voice")
+                audio = cartesia.tts(s["text"], voice=voice,
                                      language=doc.get("language", "en"),
                                      tone=s.get("tone"),  # scene emotion (EMOTION_FOR_TONE)
                                      speed=(args.speed - 0.02) if slow else args.speed)
