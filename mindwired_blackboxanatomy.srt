@@ -1,0 +1,636 @@
+1
+00:00:00,333 --> 00:00:05,087
+Every plane that has ever crashed left one survivor. It is not a person.
+
+2
+00:00:06,233 --> 00:00:08,650
+That survivor is me. I am the flight recorder.
+
+3
+00:00:08,650 --> 00:00:14,827
+I sit in the tail, I listen to everything, and I am built to walk out of the one moment nobody else does.
+
+4
+00:00:15,966 --> 00:00:19,414
+People call me a black box. I have never been black.
+
+5
+00:00:19,414 --> 00:00:21,922
+I am, and always have been, bright orange.
+
+6
+00:00:23,066 --> 00:00:29,077
+I can survive being slammed into the ground at three thousand four hundred times the force of gravity.
+
+7
+00:00:29,077 --> 00:00:32,083
+Then set on fire at eleven hundred degrees Celsius.
+
+8
+00:00:32,083 --> 00:00:35,422
+Then sunk under three kilometres of ocean for two years.
+
+9
+00:00:36,566 --> 00:00:44,194
+And when investigators finally open me up, the tiny board inside will tell them exactly how hundreds of people died — down to the last second.
+
+10
+00:00:45,333 --> 00:00:48,579
+So what is actually inside me? Who built the first one?
+
+11
+00:00:48,579 --> 00:00:53,300
+And why can a fist-sized box survive a crash that a two hundred tonne aircraft cannot?
+
+12
+00:00:54,433 --> 00:00:57,907
+This is the story of the machine that outlives the disaster.
+
+13
+00:00:59,033 --> 00:01:01,149
+What's actually inside a black box.
+
+14
+00:01:02,266 --> 00:01:05,035
+Chapter one. The man they told to stop.
+
+15
+00:01:06,166 --> 00:01:13,750
+In nineteen thirty-four, a de Havilland airliner called the Miss Hobart fell into Bass Strait, off the coast of Australia.
+
+16
+00:01:13,750 --> 00:01:18,679
+Eleven people died. The wreck was never found. The cause was never determined.
+
+17
+00:01:19,799 --> 00:01:22,769
+On board was a minister named Hubert Warren.
+
+18
+00:01:22,769 --> 00:01:28,707
+He left behind a nine-year-old son, and one last gift — a small crystal radio set.
+
+19
+00:01:29,833 --> 00:01:33,449
+That boy, David Warren, grew up to become a fuel scientist.
+
+20
+00:01:33,449 --> 00:01:43,312
+And decades later he sat on the panel investigating the world's first jetliner, the de Havilland Comet, as it fell out of the sky again and again with no explanation.
+
+21
+00:01:44,433 --> 00:01:46,513
+Warren had a simple, radical thought.
+
+22
+00:01:46,513 --> 00:01:52,061
+What if the cockpit could remember its own final minutes? What if the plane could testify?
+
+23
+00:01:53,199 --> 00:01:57,754
+By nineteen fifty-six he had built it — the A R L Flight Memory Unit.
+
+24
+00:01:57,754 --> 00:02:02,916
+It stored four hours of cockpit voices and instrument readings on a loop of fine steel wire.
+
+25
+00:02:04,066 --> 00:02:04,785
+Australia's response?
+
+26
+00:02:04,785 --> 00:02:09,095
+The air force said it would yield, quote, more expletives than explanations.
+
+27
+00:02:09,095 --> 00:02:13,764
+Civil aviation said it had little immediate use. Pilots feared being spied on.
+
+28
+00:02:13,764 --> 00:02:16,997
+He was told to get back to fuel research.
+
+29
+00:02:18,133 --> 00:02:21,396
+It took a visitor from Britain to see it.
+
+30
+00:02:21,396 --> 00:02:28,647
+In nineteen fifty-eight a British official watched a demonstration, understood instantly, and flew Warren to London to show it off.
+
+31
+00:02:28,647 --> 00:02:30,097
+The idea finally caught.
+
+32
+00:02:31,233 --> 00:02:36,901
+Ironically, Australia became the first country on Earth to make cockpit voice recorders mandatory, in nineteen sixty.
+
+33
+00:02:36,901 --> 00:02:41,901
+The United States followed with data recorders, then voice recorders through the mid nineteen sixties.
+
+34
+00:02:41,901 --> 00:02:43,902
+The witness was now the law.
+
+35
+00:02:45,033 --> 00:02:54,768
+He lost his father to a crash with no answers, and spent his life making sure no family ever had to hear those words again — cause, unknown.
+
+36
+00:02:54,768 --> 00:02:59,635
+When David Warren died, his coffin was labelled: flight recorder inventor. Do not open.
+
+37
+00:03:00,766 --> 00:03:03,613
+Chapter two. Why orange is called black.
+
+38
+00:03:04,733 --> 00:03:08,113
+Here is the first myth, and it's about my own name.
+
+39
+00:03:08,113 --> 00:03:15,182
+I am painted in a colour officially called international orange, so searchers can spot me in wreckage, in mud, on the sea floor.
+
+40
+00:03:16,299 --> 00:03:21,155
+So why black box? Nobody can prove it. The best-documented answer is the least dramatic.
+
+41
+00:03:21,155 --> 00:03:26,334
+In World War Two, British crews called the secret electronic units in their aircraft black boxes.
+
+42
+00:03:26,334 --> 00:03:32,808
+The phrase was already slang for a mysterious device you judge only by what goes in and what comes out.
+
+43
+00:03:33,933 --> 00:03:38,368
+You'll hear it was named because fire turns it black. That one is folklore.
+
+44
+00:03:38,368 --> 00:03:42,487
+The name existed long before anyone filmed a charred recorder. Orange came first.
+
+45
+00:03:42,487 --> 00:03:46,289
+Black was just what engineers called a box they couldn't see inside.
+
+46
+00:03:47,433 --> 00:03:49,392
+Chapter three. Open me up.
+
+47
+00:03:50,533 --> 00:03:54,033
+Now the part you came for. What is actually inside.
+
+48
+00:03:54,033 --> 00:03:57,534
+And the surprise is how little of me actually matters.
+
+49
+00:03:58,666 --> 00:04:02,784
+Most of my body is just electronics that do the recording in flight.
+
+50
+00:04:02,784 --> 00:04:08,485
+In a crash, all of that is allowed to die. Only one part has to survive — this.
+
+51
+00:04:08,485 --> 00:04:11,335
+The crash survivable memory unit. Everything else is packaging.
+
+52
+00:04:12,466 --> 00:04:17,294
+The outer wall is stainless steel or titanium, about a quarter of an inch thick.
+
+53
+00:04:17,294 --> 00:04:20,512
+That's the skin that takes the impact and the crush.
+
+54
+00:04:21,633 --> 00:04:25,929
+Inside that is a block of dry silica thermal insulation — a full inch of it.
+
+55
+00:04:25,929 --> 00:04:33,179
+That's the layer that lets me sit in an eleven hundred degree fire for an hour while the memory in the middle stays cool enough to survive.
+
+56
+00:04:34,299 --> 00:04:39,581
+And at the very centre, wrapped in all that armour, is the only thing that actually matters.
+
+57
+00:04:39,581 --> 00:04:43,931
+A small stack of solid-state memory chips. No moving parts. Smaller than your hand.
+
+58
+00:04:43,931 --> 00:04:48,901
+That is the real black box. The rest is a suit of armour built around it.
+
+59
+00:04:50,033 --> 00:04:51,773
+How tough is that armour, exactly?
+
+60
+00:04:51,773 --> 00:04:55,832
+These are the certified numbers I have to pass before I'm allowed to fly.
+
+61
+00:04:56,966 --> 00:04:57,280
+Impact.
+
+62
+00:04:57,280 --> 00:05:04,508
+Fired into a target at three thousand four hundred times the force of gravity, for six and a half thousandths of a second.
+
+63
+00:05:04,508 --> 00:05:07,964
+That's like hitting a wall at hundreds of miles an hour.
+
+64
+00:05:09,099 --> 00:05:11,944
+Fire. Eleven hundred degrees Celsius for a full hour.
+
+65
+00:05:11,944 --> 00:05:18,581
+Then a slow burn — two hundred and sixty degrees for ten hours — in case I'm buried in smouldering wreckage.
+
+66
+00:05:19,699 --> 00:05:23,986
+Crush. Five thousand pounds of static force on every axis. Puncture.
+
+67
+00:05:23,986 --> 00:05:29,831
+A five hundred pound weight dropped onto a steel spike aimed straight at my heart.
+
+68
+00:05:29,831 --> 00:05:33,728
+Pressure. Held at the equivalent of twenty thousand feet underwater.
+
+69
+00:05:34,866 --> 00:05:43,333
+And then, after all of that, I have to be soaked in seawater for thirty days and still give up every byte.
+
+70
+00:05:43,333 --> 00:05:46,412
+That is what survivable means. Not indestructible. Survivable.
+
+71
+00:05:47,533 --> 00:05:49,700
+So here's the obvious question everyone asks.
+
+72
+00:05:49,700 --> 00:05:54,654
+If this little box survives anything — why not build the whole plane out of it?
+
+73
+00:05:54,654 --> 00:05:58,060
+Hold that thought. It's coming up, and the answer is beautiful.
+
+74
+00:05:59,200 --> 00:06:01,551
+Chapter four. What I actually hear.
+
+75
+00:06:02,700 --> 00:06:07,924
+There are really two of me on every airliner. The first is the cockpit voice recorder.
+
+76
+00:06:07,924 --> 00:06:08,578
+It listens.
+
+77
+00:06:09,700 --> 00:06:18,874
+A microphone in the cockpit ceiling picks up everything — the pilots' words, the switches, the alarms, the engines, even the tone of a voice starting to break.
+
+78
+00:06:18,874 --> 00:06:21,168
+Plus a channel for each crew member.
+
+79
+00:06:22,300 --> 00:06:26,017
+Older recorders kept only the last thirty minutes. Then two hours.
+
+80
+00:06:26,017 --> 00:06:32,437
+New aircraft in Europe now keep a full twenty-five hours, and the United States is finally adopting the same.
+
+81
+00:06:32,437 --> 00:06:38,182
+It runs on a loop, always erasing the oldest audio — which matters more than you'd think.
+
+82
+00:06:39,300 --> 00:06:43,662
+The second recorder is the flight data recorder. It doesn't listen. It knows.
+
+83
+00:06:44,800 --> 00:06:47,990
+The earliest ones tracked five things. Then eleven.
+
+84
+00:06:47,990 --> 00:07:01,153
+Today I'm required to record at least eighty-eight parameters — and modern jets log well over a thousand: altitude, airspeed, every control input, every engine reading, many times a second, for twenty-five hours.
+
+85
+00:07:02,300 --> 00:07:07,085
+And here's a detail most people miss. Both of us live back here — in the tail.
+
+86
+00:07:07,085 --> 00:07:08,211
+Not because it's convenient.
+
+87
+00:07:08,211 --> 00:07:14,122
+Because in most crashes the tail is the last part to hit, and the furthest from the fuel and the fire.
+
+88
+00:07:14,122 --> 00:07:16,093
+Where I sit is a survival decision.
+
+89
+00:07:17,233 --> 00:07:20,394
+Chapter five. How to find a box on the sea floor.
+
+90
+00:07:21,533 --> 00:07:27,097
+But surviving is useless if nobody can find me. So when I touch water, something wakes up.
+
+91
+00:07:28,233 --> 00:07:34,910
+A beacon on my side starts to ping — a sound pulse at thirty-seven point five kilohertz, once every second.
+
+92
+00:07:34,910 --> 00:07:38,917
+It's a heartbeat, calling out from the dark, saying: I'm down here.
+
+93
+00:07:40,066 --> 00:07:42,882
+For decades that heartbeat lasted just thirty days.
+
+94
+00:07:42,882 --> 00:07:46,753
+And that number nearly cost the world its most famous mystery.
+
+95
+00:07:47,900 --> 00:07:54,711
+In two thousand fourteen, a Boeing seven seven seven — Malaysia Airlines flight M H three seventy — vanished.
+
+96
+00:07:54,711 --> 00:07:59,730
+Search teams didn't know where to look until the days were already burning down.
+
+97
+00:07:59,730 --> 00:08:04,749
+My beacons likely fell silent before anyone arrived. The recorders have never been found.
+
+98
+00:08:05,866 --> 00:08:10,977
+So the rules changed. Now that beacon has to last ninety days, not thirty.
+
+99
+00:08:10,977 --> 00:08:17,182
+And large aircraft carry a second, low-frequency beacon that can be heard from far, far further away.
+
+100
+00:08:17,182 --> 00:08:19,737
+M H three seventy rewrote my design.
+
+101
+00:08:20,866 --> 00:08:23,295
+Chapter six. The two-year recovery.
+
+102
+00:08:24,433 --> 00:08:29,280
+Let me show you what it looks like when it works. Air France four forty-seven.
+
+103
+00:08:29,280 --> 00:08:33,805
+Twenty oh nine. An Airbus stalled into the Atlantic in the dead of night.
+
+104
+00:08:33,805 --> 00:08:35,744
+Two hundred and twenty-eight people lost.
+
+105
+00:08:36,866 --> 00:08:39,291
+My beacons died in thirty days.
+
+106
+00:08:39,291 --> 00:08:47,373
+It took nearly two years, deep-tow sonar and robot submarines, to find the debris field — thirteen thousand feet down.
+
+107
+00:08:47,373 --> 00:08:49,797
+Almost four kilometres of black water.
+
+108
+00:08:50,933 --> 00:08:55,403
+In twenty eleven they lifted the memory modules from the sea bed.
+
+109
+00:08:55,403 --> 00:09:00,247
+Two years of pressure and salt water — and every byte was intact.
+
+110
+00:09:00,247 --> 00:09:05,090
+Over a single weekend, investigators read the entire final two hours. The stall.
+
+111
+00:09:05,090 --> 00:09:06,580
+The confusion. The truth.
+
+112
+00:09:07,700 --> 00:09:10,824
+That is the whole point of me. Not to prevent the crash.
+
+113
+00:09:10,824 --> 00:09:15,511
+To make sure it is never a mystery. To make sure it never happens the same way twice.
+
+114
+00:09:16,633 --> 00:09:20,218
+But what happens when I come back burned, shattered, or soaked?
+
+115
+00:09:20,218 --> 00:09:23,477
+That's where the real magic is — in the lab.
+
+116
+00:09:24,600 --> 00:09:27,541
+A sea-recovered board is never allowed to dry out.
+
+117
+00:09:27,541 --> 00:09:30,156
+Drying crystallises the salt and eats the circuits.
+
+118
+00:09:30,156 --> 00:09:37,348
+So technicians keep it wet, then rinse it in pure, clean water to wash the salt away before they dare apply power.
+
+119
+00:09:38,466 --> 00:09:44,435
+And if my own electronics are destroyed but the memory chips are alive, they use a trick called the golden chassis.
+
+120
+00:09:44,435 --> 00:09:52,677
+They lift the surviving chips out of the wreck and drop them into a pristine, identical recorder in the lab — and read them as if nothing ever happened.
+
+121
+00:09:53,800 --> 00:09:56,491
+Chapter seven. Everything you think you know.
+
+122
+00:09:57,633 --> 00:10:00,927
+Time to open the ones you've heard a hundred times, and grade them.
+
+123
+00:10:00,927 --> 00:10:02,701
+And I get to be the judge.
+
+124
+00:10:03,833 --> 00:10:07,930
+Myth one. Why not build the whole plane out of black box material?
+
+125
+00:10:07,930 --> 00:10:10,767
+Here's the beautiful answer. I survive because I'm small.
+
+126
+00:10:10,767 --> 00:10:15,179
+My armour weighs a few kilos on a two hundred tonne aircraft — nothing.
+
+127
+00:10:15,179 --> 00:10:21,168
+Scale that armour up to an entire fuselage and the plane is too heavy to ever leave the ground.
+
+128
+00:10:21,168 --> 00:10:26,526
+A plane has to be light enough to fly. I get to be heavy because I'm tiny.
+
+129
+00:10:26,526 --> 00:10:27,787
+Verdict: physics says no.
+
+130
+00:10:28,933 --> 00:10:34,073
+Myth two. Black boxes are indestructible. False — and I'd never claim otherwise.
+
+131
+00:10:34,073 --> 00:10:38,818
+On September eleventh, the two recorders in the towers were never recovered.
+
+132
+00:10:38,818 --> 00:10:45,540
+Some crashes exceed even my limits. I am crash survivable. That is a promise, not a boast.
+
+133
+00:10:45,540 --> 00:10:46,331
+Verdict: false.
+
+134
+00:10:47,466 --> 00:10:53,667
+Myth three. They record video of the cockpit. Today — no. I capture audio and data only.
+
+135
+00:10:53,667 --> 00:11:01,326
+Investigators have pushed for cockpit cameras for over a decade, and pilots' unions have fought it just as hard, over privacy.
+
+136
+00:11:01,326 --> 00:11:06,797
+So for now, I listen. I don't watch. Verdict: false, but the fight isn't over.
+
+137
+00:11:07,933 --> 00:11:11,898
+Myth four. Someone is listening to you the whole flight. No one is.
+
+138
+00:11:11,898 --> 00:11:17,694
+I record onto a loop that erases itself, and no human ever hears it — unless there's an accident.
+
+139
+00:11:17,694 --> 00:11:24,100
+In many countries the law forbids that audio from being used to punish a crew, or from ever being made public.
+
+140
+00:11:24,100 --> 00:11:26,846
+I am a witness, not a spy. Verdict: false.
+
+141
+00:11:27,966 --> 00:11:30,552
+Chapter eight. The recorder that ejects itself.
+
+142
+00:11:31,700 --> 00:11:33,755
+So what happens to me next?
+
+143
+00:11:33,755 --> 00:11:37,867
+Because M H three seventy proved that sometimes, being tough isn't enough.
+
+144
+00:11:37,867 --> 00:11:40,608
+Sometimes you have to be found — fast.
+
+145
+00:11:41,733 --> 00:11:47,636
+The first answer already flies on military jets and now on some airliners, like the Airbus A three fifty.
+
+146
+00:11:47,636 --> 00:11:48,568
+A deployable recorder.
+
+147
+00:11:48,568 --> 00:11:56,335
+In a crash it's fired clear of the tail — and because it floats, it rides on the surface instead of sinking four kilometres down.
+
+148
+00:11:57,466 --> 00:12:04,291
+The second answer is to never lose the data at all — stream it live to the ground, a black box in the cloud.
+
+149
+00:12:04,291 --> 00:12:09,979
+The problem is brutal volume and cost, so for now it's used only in bursts, triggered when something goes wrong.
+
+150
+00:12:11,100 --> 00:12:15,913
+And after M H three seventy, the world built a global tracking rule called GADSS.
+
+151
+00:12:15,913 --> 00:12:24,579
+An aircraft in distress must now report its position at least once a minute — automatically, with no way for anyone on board to switch it off.
+
+152
+00:12:25,700 --> 00:12:26,618
+So that's me.
+
+153
+00:12:26,618 --> 00:12:33,660
+A fist of memory, wrapped in armour, sitting in the tail — waiting for the worst day, so that day is never wasted.
+
+154
+00:12:33,660 --> 00:12:37,640
+I am the promise that the truth survives, even when nothing else does.
+
+155
+00:12:37,640 --> 00:12:41,008
+I am the only witness that walks out of every crash.
+
+156
+00:12:42,133 --> 00:12:50,859
+If you want to see everything I remember put to the test — watch the deadliest crash in history, where two of us on the ground held the answer.
+
+157
+00:12:50,859 --> 00:12:57,780
+Or the one flight that beat me: M H three seventy, the Boeing seven seven seven that vanished from every radar on Earth.
+
+158
+00:12:58,900 --> 00:13:00,109
+I'm the black box.
+
+159
+00:13:00,109 --> 00:13:05,248
+Subscribe to Black Box Breakdown — and next time, we'll open the ones that solved the impossible.
+

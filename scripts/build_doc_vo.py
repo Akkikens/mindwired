@@ -86,10 +86,17 @@ def main() -> None:
                 # (doc-level "mascotVoice"), distinct from the narrator
                 voice = (doc.get("mascotVoice") or doc.get("voice")) \
                     if s.get("mascotFull") else doc.get("voice")
+                # per-scene speed override (2026-07-21): a scene can set
+                # "speed": 0.92 so the mascot lands his lines more deliberately
+                # (mascotFull scenes read better slower). Falls back to the
+                # chapter-card slowdown, then the episode default. Watch for a
+                # cadence jump at the cut boundary — keep the delta small (~0.05).
+                scene_speed = s.get("speed",
+                    (args.speed - 0.02) if slow else args.speed)
                 audio = cartesia.tts(s["text"], voice=voice,
                                      language=doc.get("language", "en"),
                                      tone=s.get("tone"),  # scene emotion (EMOTION_FOR_TONE)
-                                     speed=(args.speed - 0.02) if slow else args.speed)
+                                     speed=scene_speed)
                 dst.write_bytes(audio)
                 print(f"->  {bid}.mp3 ({len(audio)}b)")
         if dst.exists():

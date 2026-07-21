@@ -85,6 +85,11 @@ export type DocScene = {
   /** full-screen mascot cutaway: the character fills the frame at face scale
    *  and speaks the scene (requires speak:true for the mouth track) */
   mascotFull?: boolean;
+  /** aside mode: the mascot stands at the left edge (half size) presenting the
+   *  scene's `img` illustration (drawn on with the SketchScene engine, optional
+   *  `circle` highlight) while speaking — built for the anatomy chapters
+   *  ("this layer is the armor, this chip is me"). Implies speak. */
+  mascotAside?: boolean;
   /** talking-rig prefix in public/mascot/ ("host" default = mindwired astro,
    *  "bb_host" = blackbox recorder robot) */
   rig?: string;
@@ -481,19 +486,24 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest, outro?: OutroSp
                 ? <MascotZoom
                     sceneDur={dur} mouthOffset={LEAD} cap={s.cap} accent={th.accent}
                     rig={s.rig} mouth={s.speak ? manifest.mouth?.[s.id] : undefined} />
-                : s.sketch
+                : (s.sketch || s.mascotAside)
                 ? <SketchScene
                     file={(() => {
                       const fs = (s.img && manifest.images[s.img]) || [];
                       return fs.length ? fs[(sceneFileIdx[s.id] ?? i) % fs.length] : null;
                     })()}
-                    slug={doc.slug} cap={s.cap} stat={s.stat} note={s.note}
+                    slug={doc.slug} cap={s.mascotAside ? undefined : s.cap} stat={s.stat} note={s.note}
                     accent={th.accent} sceneDur={dur} circle={s.circle} />
                 : s.diagram
                 ? <DiagramScene s={s} slug={doc.slug} m={manifest} th={th} />
                 : <IllusScene s={s} slug={doc.slug} m={manifest} idx={sceneFileIdx[s.id] ?? i} th={th} />}
-              {(s.react || s.speak) && !s.mascotFull && (
+              {(s.react || s.speak) && !s.mascotFull && !s.mascotAside && (
                 <MascotReact
+                  pose={s.react ?? `${s.rig ?? "host"}_m0`} sceneDur={dur} mouthOffset={LEAD}
+                  rig={s.rig} mouth={s.speak ? manifest.mouth?.[s.id] : undefined} />
+              )}
+              {s.mascotAside && (
+                <MascotReact aside
                   pose={s.react ?? `${s.rig ?? "host"}_m0`} sceneDur={dur} mouthOffset={LEAD}
                   rig={s.rig} mouth={s.speak ? manifest.mouth?.[s.id] : undefined} />
               )}
@@ -510,7 +520,7 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest, outro?: OutroSp
                   ])} />
                 </>
               )}
-              {s.sketch && (
+              {(s.sketch || s.mascotAside) && (
                 <>
                   {/* narration — scene components normally emit this; the
                       sketch branch bypasses them (shipped silent once, 2026-07-20) */}

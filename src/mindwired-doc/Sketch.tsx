@@ -83,11 +83,28 @@ export const MascotReact: React.FC<{
   /** talking-rig file-stem prefix under public/mascot/ (default "host" =
    *  mindwired astro; blackbox robot = "bb_host") */
   rig?: string;
-}> = ({ pose, sceneDur, mouth, mouthOffset = 10, rig = "host" }) => {
+  /** aside mode: stand at the LEFT frame edge at ~half size, presenting a
+   *  diagram/photo that fills the rest of the frame (MascotAside scenes — the
+   *  anatomy chapters). Same talking/blink/gesture rig, different placement. */
+  aside?: boolean;
+}> = ({ pose, sceneDur, mouth, mouthOffset = 10, rig = "host", aside = false }) => {
   const frame = useCurrentFrame();
-  const pop = spring({ frame: frame - 4, fps: FPS, config: { damping: 11, stiffness: 140 } });
-  const out = interpolate(frame, [sceneDur - 8, sceneDur - 2], [1, 0],
+  // --- entrance: slide up into place + squash-and-stretch landing (2026-07-21,
+  //     "animations way better") — deterministic, on the spring primitive.
+  const entIn = spring({ frame: frame - 2, fps: FPS, config: { damping: 12, stiffness: 130 } });
+  const enterY = (1 - entIn) * 96;              // slides up from below
+  const si = frame - 9;                         // frames since the landing beat
+  // before impact (si<0) the body is stretched as it drops; after, it bounces
+  // (a decaying oscillation) — classic squash-and-stretch settle.
+  const squash = si >= 0 ? Math.exp(-si / 4.2) * Math.sin(si / 2.1) * 0.17 : 0.20;
+  const sqX = 1 - squash, sqY = 1 + squash;
+  // --- exit: an anticipation dip, then spring OUT (anticipation sells the pop).
+  const exitStart = sceneDur - 13;
+  const ant = interpolate(frame, [exitStart, exitStart + 4], [0, 1],
     { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const leave = spring({ frame: frame - (exitStart + 4), fps: FPS, config: { damping: 13, stiffness: 170 } });
+  const exitScale = (1 - 0.09 * ant) * (1 - leave);
+  const exitY = 14 * ant + leave * 64;
   // idle quantized ON THREES (~10fps) + seeded per-step jitter: a hand-drawn
   // character "boils" in place — smooth sinusoid glide reads as digital
   const step = Math.floor(frame / 3);
@@ -105,7 +122,11 @@ export const MascotReact: React.FC<{
   if (mouth && mouth.length > 0) {
     const i = Math.min(Math.max(frame - mouthOffset, 0), mouth.length - 1);
     state = Math.min(3, Math.max(0, Number(mouth[i]) || 0));
-    file = `${rig}_g${gestureAt(mouth, i)}_m${state}`;
+    const g = gestureAt(mouth, i, RIG_GESTURES[rig] ?? 3);
+    // a blink briefly overrides the mouth frame (~4f) — eyes shut between words
+    // reads perfectly natural and needs only one extra asset per gesture body
+    file = (RIG_BLINK[rig] && isBlinking(frame, seedOf(pose)))
+      ? `${rig}_g${g}_blink` : `${rig}_g${g}_m${state}`;
   }
   // acting: loud syllables push the whole character a touch (head-bob energy,
   // not just a mouth hole) — quantized with the flaps
@@ -114,9 +135,14 @@ export const MascotReact: React.FC<{
 
   return (
     <div style={{
-      position: "absolute", right: 36, bottom: 12, width: 500, height: 530,
-      transform: `scale(${pop * out * emph}) translateY(${bob}px) rotate(${-3 + tilt}deg)`,
-      transformOrigin: "bottom right",
+      position: "absolute",
+      ...(aside
+        ? { left: 24, bottom: 8, width: 430, height: 470 }
+        : { right: 36, bottom: 12, width: 500, height: 530 }),
+      transform: `translateY(${enterY + bob + exitY}px) `
+        + `scale(${entIn * exitScale * emph}) scaleX(${sqX}) scaleY(${sqY}) `
+        + `rotate(${(aside ? -1.5 : -3) + tilt}deg)`,
+      transformOrigin: aside ? "bottom left" : "bottom right",
     }}>
       <svg width={0} height={0} style={{ position: "absolute" }}>
         <filter id={uid} x="-4%" y="-4%" width="108%" height="108%">
@@ -147,9 +173,17 @@ export const MascotZoom: React.FC<{
   cap?: string; accent: string; rig?: string;
 }> = ({ sceneDur, mouth, mouthOffset = 10, cap, accent, rig = "host" }) => {
   const frame = useCurrentFrame();
-  const pop = spring({ frame: frame - 2, fps: FPS, config: { damping: 13, stiffness: 120 } });
-  const out = interpolate(frame, [sceneDur - 7, sceneDur - 1], [1, 0],
+  // entrance: pop in + a gentle squash-settle (subtler than the corner react —
+  // this fills the frame). anticipation-dip exit springs him back out.
+  const entIn = spring({ frame: frame - 2, fps: FPS, config: { damping: 13, stiffness: 120 } });
+  const si = frame - 8;
+  const squash = si >= 0 ? Math.exp(-si / 4.5) * Math.sin(si / 2.2) * 0.10 : 0.12;
+  const sqX = 1 - squash, sqY = 1 + squash;
+  const exitStart = sceneDur - 12;
+  const ant = interpolate(frame, [exitStart, exitStart + 4], [0, 1],
     { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const leave = spring({ frame: frame - (exitStart + 4), fps: FPS, config: { damping: 13, stiffness: 160 } });
+  const out = (1 - 0.06 * ant) * (1 - leave);
   const step = Math.floor(frame / 3);
   const jit = mulberry32(9091 + step);
   const calm = rig.startsWith("bb") ? 0.35 : 0.7;
@@ -161,7 +195,7 @@ export const MascotZoom: React.FC<{
   if (mouth && mouth.length > 0) {
     const i = Math.min(Math.max(frame - mouthOffset, 0), mouth.length - 1);
     state = Math.min(3, Math.max(0, Number(mouth[i]) || 0));
-    gesture = gestureAt(mouth, i);
+    gesture = gestureAt(mouth, i, RIG_GESTURES[rig] ?? 3);
   }
   const emph = 1 + state * 0.006;
   const capIn = interpolate(frame, [8, 22], [0, 1],
@@ -190,11 +224,15 @@ export const MascotZoom: React.FC<{
       <div style={{
         position: "absolute", left: "50%", top: top + bob,
         width: IMG_H, height: IMG_H,
-        transform: `translateX(-50%) scale(${(0.82 + 0.18 * pop) * out * emph}) rotate(${tilt}deg)`,
+        transform: `translateX(-50%) scale(${(0.82 + 0.18 * entIn) * out * emph}) `
+          + `scaleX(${sqX}) scaleY(${sqY}) rotate(${tilt}deg)`,
         transformOrigin: "50% 30%",
       }}>
         <Img
-          src={staticFile(`mascot/${rig}_g${gesture}_m${state}.png`)}
+          src={staticFile(`mascot/${
+            RIG_BLINK[rig] && isBlinking(frame, 9091)
+              ? `${rig}_g${gesture}_blink` : `${rig}_g${gesture}_m${state}`
+          }.png`)}
           style={{
             width: "100%", height: "100%", objectFit: "contain",
             filter: "url(#zoomboil) drop-shadow(0px 10px 0px rgba(28,26,23,0.12))",
@@ -220,8 +258,31 @@ export const MascotZoom: React.FC<{
   );
 };
 
+/** Which rigs ship eyes-closed blink frames (public/mascot/<rig>_g{G}_blink.png,
+ *  composited by gen_mascot.build_rig_v2). Gated so rigs without the asset never
+ *  request a 404 frame. */
+export const RIG_BLINK: Record<string, boolean> = { bb_host: true };
+
+/** Deterministic blink schedule: a ~4-frame blink every 2-4s, first blink and
+ *  cadence seeded per character so two mascots never blink in lockstep. A face
+ *  that never blinks is the last remaining "digital" tell. */
+const isBlinking = (frame: number, seed: number): boolean => {
+  const rnd = mulberry32(seed + 1);
+  let t = 24 + (seed % 34);                 // first blink, staggered per rig
+  while (t <= frame) {
+    if (frame >= t && frame < t + 4) return true;
+    t += 60 + Math.floor(rnd() * 60) + 4;   // 2-4s gap, then the 4f blink
+  }
+  return frame >= t && frame < t + 4;
+};
+
+/** How many gesture bodies each rig ships (public/mascot/<rig>_g{0..N-1}_m*).
+ *  bb_host got 2 extra (shrug, arms-crossed thinking) in the 2026-07-21
+ *  anatomy-episode upgrade → 5; the astro host stays at 3. */
+export const RIG_GESTURES: Record<string, number> = { host: 3, bb_host: 5 };
+
 /** Gesture index while speaking: the hands change on each new phrase (a
- *  silence -> speech onset in the mouth track), cycling the rig's 3 gesture
+ *  silence -> speech onset in the mouth track), cycling the rig's gesture
  *  bodies — mouth flaps alone read robotic, hands are the acting. */
 const gestureAt = (mouth: string, i: number, gestures = 3) => {
   let g = 0;

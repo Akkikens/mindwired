@@ -1,0 +1,618 @@
+{
+  "slug": "blackboxanatomy",
+  "title": "What's Actually Inside a Black Box?",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "mascotVoice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "channel": "blackbox",
+  "niche": "aviation",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "Every plane that has ever crashed left one survivor. It is not a person.",
+      "img": "recoveredorange",
+      "query": "recovered flight recorder crash orange",
+      "stat": "ONE SURVIVOR",
+      "cap": "It's never a person.",
+      "tone": "shock",
+      "sfx": [
+        {
+          "name": "chapter_boom",
+          "at": "in",
+          "volume": 0.22
+        }
+      ]
+    },
+    {
+      "id": "h2",
+      "mascotFull": true,
+      "speak": true,
+      "rig": "bb_host",
+      "speed": 0.92,
+      "text": "That survivor is me. I am the flight recorder. I sit in the tail, I listen to everything, and I am built to walk out of the one moment nobody else does.",
+      "cap": "I'm the one who walks out.",
+      "tone": "confidence"
+    },
+    {
+      "id": "h3",
+      "text": "People call me a black box. I have never been black. I am, and always have been, bright orange.",
+      "img": "orangebox",
+      "query": "flight recorder international orange",
+      "stat": "NOT BLACK",
+      "cap": "I have never been black.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h4",
+      "text": "I can survive being slammed into the ground at three thousand four hundred times the force of gravity. Then set on fire at eleven hundred degrees Celsius. Then sunk under three kilometres of ocean for two years.",
+      "img": "csmutest",
+      "query": "crash survivable memory unit test",
+      "stat": "3,400 g \u00b7 1,100\u00b0C",
+      "statColor": "#FF9500",
+      "cap": "Crushed. Burned. Drowned.",
+      "tone": "awe"
+    },
+    {
+      "id": "h5",
+      "text": "And when investigators finally open me up, the tiny board inside will tell them exactly how hundreds of people died \u2014 down to the last second.",
+      "img": "labreadout",
+      "query": "NTSB recorder laboratory readout",
+      "cap": "The last second, recovered.",
+      "tone": "fear"
+    },
+    {
+      "id": "h6",
+      "text": "So what is actually inside me? Who built the first one? And why can a fist-sized box survive a crash that a two hundred tonne aircraft cannot?",
+      "img": "csmuopen",
+      "query": "flight recorder memory board inside",
+      "cap": "What's actually inside?",
+      "tone": "curiosity"
+    },
+    {
+      "id": "intro",
+      "text": "This is the story of the machine that outlives the disaster.",
+      "chapter": "BLACK BOX\nBREAKDOWN"
+    },
+    {
+      "id": "t0",
+      "text": "What's actually inside a black box.",
+      "chapter": "WHAT'S INSIDE\nA BLACK BOX?"
+    },
+    {
+      "id": "c1",
+      "text": "Chapter one. The man they told to stop.",
+      "chapter": "1 \u2014 THE MAN\nTHEY IGNORED"
+    },
+    {
+      "id": "w1",
+      "text": "In nineteen thirty-four, a de Havilland airliner called the Miss Hobart fell into Bass Strait, off the coast of Australia. Eleven people died. The wreck was never found. The cause was never determined.",
+      "img": "misshobart",
+      "query": "de Havilland DH.86 airliner 1930s Australia",
+      "stat": "1934 \u00b7 11 DEAD",
+      "cap": "Cause: never determined.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "w2",
+      "text": "On board was a minister named Hubert Warren. He left behind a nine-year-old son, and one last gift \u2014 a small crystal radio set.",
+      "img": "warrenfamily",
+      "query": "David Warren inventor portrait",
+      "cap": "A radio set, and a question.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "w3",
+      "text": "That boy, David Warren, grew up to become a fuel scientist. And decades later he sat on the panel investigating the world's first jetliner, the de Havilland Comet, as it fell out of the sky again and again with no explanation.",
+      "img": "comet",
+      "query": "de Havilland Comet jetliner 1950s",
+      "cap": "No survivors. No answers.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "w4",
+      "text": "Warren had a simple, radical thought. What if the cockpit could remember its own final minutes? What if the plane could testify?",
+      "img": "warrenidea",
+      "query": "David Warren flight memory unit prototype",
+      "cap": "What if the plane could testify?",
+      "tone": "awe"
+    },
+    {
+      "id": "w5",
+      "text": "By nineteen fifty-six he had built it \u2014 the A R L Flight Memory Unit. It stored four hours of cockpit voices and instrument readings on a loop of fine steel wire.",
+      "img": "arlunit",
+      "query": "ARL flight memory unit prototype Australia",
+      "stat": "1956 \u00b7 4 HOURS",
+      "cap": "The first black box.",
+      "tone": "confidence"
+    },
+    {
+      "id": "w6",
+      "text": "Australia's response? The air force said it would yield, quote, more expletives than explanations. Civil aviation said it had little immediate use. Pilots feared being spied on. He was told to get back to fuel research.",
+      "img": "rejection",
+      "cap": "\u201cMore expletives than explanations.\u201d",
+      "tone": "fear",
+      "sketch": true
+    },
+    {
+      "id": "w7",
+      "text": "It took a visitor from Britain to see it. In nineteen fifty-eight a British official watched a demonstration, understood instantly, and flew Warren to London to show it off. The idea finally caught.",
+      "img": "london1958",
+      "query": "1950s aviation laboratory demonstration",
+      "cap": "Britain saw it first.",
+      "tone": "hope"
+    },
+    {
+      "id": "w8",
+      "text": "Ironically, Australia became the first country on Earth to make cockpit voice recorders mandatory, in nineteen sixty. The United States followed with data recorders, then voice recorders through the mid nineteen sixties. The witness was now the law.",
+      "img": "regulation",
+      "query": "aviation regulation cockpit voice recorder history",
+      "stat": "1960 \u00b7 MANDATORY",
+      "cap": "The witness became law.",
+      "tone": "confidence"
+    },
+    {
+      "id": "cutWarren",
+      "mascotFull": true,
+      "speak": true,
+      "rig": "bb_host",
+      "speed": 0.92,
+      "text": "He lost his father to a crash with no answers, and spent his life making sure no family ever had to hear those words again \u2014 cause, unknown. When David Warren died, his coffin was labelled: flight recorder inventor. Do not open.",
+      "cap": "Do not open.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c2",
+      "text": "Chapter two. Why orange is called black.",
+      "chapter": "2 \u2014 ORANGE,\nCALLED BLACK"
+    },
+    {
+      "id": "n1",
+      "text": "Here is the first myth, and it's about my own name. I am painted in a colour officially called international orange, so searchers can spot me in wreckage, in mud, on the sea floor.",
+      "img": "orangeground",
+      "query": "orange flight recorder in wreckage debris",
+      "cap": "Built to be found.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "n2",
+      "text": "So why black box? Nobody can prove it. The best-documented answer is the least dramatic. In World War Two, British crews called the secret electronic units in their aircraft black boxes. The phrase was already slang for a mysterious device you judge only by what goes in and what comes out.",
+      "img": "wwiiradio",
+      "query": "World War 2 aircraft radio radar equipment",
+      "cap": "WWII slang, not soot.",
+      "tone": "confidence"
+    },
+    {
+      "id": "n3",
+      "text": "You'll hear it was named because fire turns it black. That one is folklore. The name existed long before anyone filmed a charred recorder. Orange came first. Black was just what engineers called a box they couldn't see inside.",
+      "img": "charredbox",
+      "query": "burned charred flight recorder fire damage",
+      "cap": "The soot story is a myth.",
+      "tone": "curiosity",
+      "note": "orange, not black"
+    },
+    {
+      "id": "c3",
+      "text": "Chapter three. Open me up.",
+      "chapter": "3 \u2014 INSIDE\nTHE ARMOR"
+    },
+    {
+      "id": "a1",
+      "text": "Now the part you came for. What is actually inside. And the surprise is how little of me actually matters.",
+      "img": "csmu",
+      "cap": "Most of me is disposable.",
+      "tone": "curiosity",
+      "sketch": true
+    },
+    {
+      "id": "a2",
+      "mascotAside": true,
+      "speak": true,
+      "rig": "bb_host",
+      "img": "csmu",
+      "circle": [
+        590,
+        380,
+        300
+      ],
+      "text": "Most of my body is just electronics that do the recording in flight. In a crash, all of that is allowed to die. Only one part has to survive \u2014 this. The crash survivable memory unit. Everything else is packaging.",
+      "cap": "The armored core.",
+      "tone": "confidence"
+    },
+    {
+      "id": "a3",
+      "mascotAside": true,
+      "speak": true,
+      "rig": "bb_host",
+      "img": "csmu",
+      "circle": [
+        590,
+        380,
+        290
+      ],
+      "text": "The outer wall is stainless steel or titanium, about a quarter of an inch thick. That's the skin that takes the impact and the crush.",
+      "cap": "Titanium skin.",
+      "tone": "confidence"
+    },
+    {
+      "id": "a4",
+      "mascotAside": true,
+      "speak": true,
+      "rig": "bb_host",
+      "img": "csmu",
+      "circle": [
+        590,
+        380,
+        200
+      ],
+      "text": "Inside that is a block of dry silica thermal insulation \u2014 a full inch of it. That's the layer that lets me sit in an eleven hundred degree fire for an hour while the memory in the middle stays cool enough to survive.",
+      "cap": "An inch of heat shield.",
+      "tone": "awe"
+    },
+    {
+      "id": "a5",
+      "mascotAside": true,
+      "speak": true,
+      "rig": "bb_host",
+      "img": "csmu",
+      "circle": [
+        590,
+        380,
+        95
+      ],
+      "text": "And at the very centre, wrapped in all that armour, is the only thing that actually matters. A small stack of solid-state memory chips. No moving parts. Smaller than your hand. That is the real black box. The rest is a suit of armour built around it.",
+      "cap": "This chip is me.",
+      "tone": "confidence"
+    },
+    {
+      "id": "a6",
+      "text": "How tough is that armour, exactly? These are the certified numbers I have to pass before I'm allowed to fly.",
+      "img": "labtest",
+      "query": "flight recorder crash test laboratory",
+      "cap": "The certification gauntlet.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a7",
+      "text": "Impact. Fired into a target at three thousand four hundred times the force of gravity, for six and a half thousandths of a second. That's like hitting a wall at hundreds of miles an hour.",
+      "img": "impacttest",
+      "query": "flight recorder impact shock test",
+      "stat": "3,400 g",
+      "statColor": "#FF9500",
+      "cap": "3,400 g impact.",
+      "tone": "awe"
+    },
+    {
+      "id": "a8",
+      "text": "Fire. Eleven hundred degrees Celsius for a full hour. Then a slow burn \u2014 two hundred and sixty degrees for ten hours \u2014 in case I'm buried in smouldering wreckage.",
+      "img": "firetest",
+      "query": "flight recorder fire furnace test flames",
+      "stat": "1,100\u00b0C \u00b7 60 MIN",
+      "statColor": "#FF4D4D",
+      "cap": "An hour in the furnace.",
+      "tone": "fear"
+    },
+    {
+      "id": "a9",
+      "text": "Crush. Five thousand pounds of static force on every axis. Puncture. A five hundred pound weight dropped onto a steel spike aimed straight at my heart. Pressure. Held at the equivalent of twenty thousand feet underwater.",
+      "img": "crushtest",
+      "query": "hydraulic crush test metal industrial",
+      "stat": "20,000 FT DEEP",
+      "cap": "Crushed, speared, drowned.",
+      "tone": "awe"
+    },
+    {
+      "id": "a10",
+      "text": "And then, after all of that, I have to be soaked in seawater for thirty days and still give up every byte. That is what survivable means. Not indestructible. Survivable.",
+      "img": "seawatersoak",
+      "query": "flight recorder saltwater immersion test",
+      "cap": "Survivable, not invincible.",
+      "tone": "confidence"
+    },
+    {
+      "id": "cutArmor",
+      "mascotFull": true,
+      "speak": true,
+      "rig": "bb_host",
+      "speed": 0.92,
+      "text": "So here's the obvious question everyone asks. If this little box survives anything \u2014 why not build the whole plane out of it? Hold that thought. It's coming up, and the answer is beautiful.",
+      "cap": "Why not the whole plane?",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c4",
+      "text": "Chapter four. What I actually hear.",
+      "chapter": "4 \u2014 WHAT I\nHEAR & KNOW"
+    },
+    {
+      "id": "r1",
+      "text": "There are really two of me on every airliner. The first is the cockpit voice recorder. It listens.",
+      "img": "cvrunit",
+      "query": "cockpit voice recorder unit orange",
+      "cap": "The one that listens.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "r2",
+      "text": "A microphone in the cockpit ceiling picks up everything \u2014 the pilots' words, the switches, the alarms, the engines, even the tone of a voice starting to break. Plus a channel for each crew member.",
+      "img": "cockpitmic",
+      "query": "airliner cockpit interior instruments",
+      "cap": "Every word. Every alarm.",
+      "tone": "fear"
+    },
+    {
+      "id": "r3",
+      "text": "Older recorders kept only the last thirty minutes. Then two hours. New aircraft in Europe now keep a full twenty-five hours, and the United States is finally adopting the same. It runs on a loop, always erasing the oldest audio \u2014 which matters more than you'd think.",
+      "img": "cvrloop",
+      "query": "magnetic tape loop recorder mechanism",
+      "stat": "25 HOURS",
+      "cap": "A 25-hour loop.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "r4",
+      "text": "The second recorder is the flight data recorder. It doesn't listen. It knows.",
+      "img": "fdrunit",
+      "query": "flight data recorder unit orange",
+      "cap": "The one that knows.",
+      "tone": "confidence"
+    },
+    {
+      "id": "r5",
+      "text": "The earliest ones tracked five things. Then eleven. Today I'm required to record at least eighty-eight parameters \u2014 and modern jets log well over a thousand: altitude, airspeed, every control input, every engine reading, many times a second, for twenty-five hours.",
+      "img": "fdrparams",
+      "query": "flight data recorder parameters graph readout",
+      "stat": "1,000+ PARAMETERS",
+      "cap": "A thousand truths a second.",
+      "tone": "awe"
+    },
+    {
+      "id": "r6",
+      "mascotAside": true,
+      "speak": true,
+      "rig": "bb_host",
+      "img": "tailcut",
+      "circle": [
+        660,
+        440,
+        160
+      ],
+      "text": "And here's a detail most people miss. Both of us live back here \u2014 in the tail. Not because it's convenient. Because in most crashes the tail is the last part to hit, and the furthest from the fuel and the fire. Where I sit is a survival decision.",
+      "cap": "The tail hits last.",
+      "tone": "confidence"
+    },
+    {
+      "id": "c5",
+      "text": "Chapter five. How to find a box on the sea floor.",
+      "chapter": "5 \u2014 THE\nPINGER"
+    },
+    {
+      "id": "p1",
+      "text": "But surviving is useless if nobody can find me. So when I touch water, something wakes up.",
+      "img": "ulbbeacon",
+      "query": "underwater locator beacon pinger cylinder",
+      "cap": "Water wakes me.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "p2",
+      "text": "A beacon on my side starts to ping \u2014 a sound pulse at thirty-seven point five kilohertz, once every second. It's a heartbeat, calling out from the dark, saying: I'm down here.",
+      "img": "sonarsearch",
+      "query": "sonar underwater search ocean navy",
+      "stat": "37.5 kHz",
+      "cap": "A heartbeat in the dark.",
+      "tone": "fear"
+    },
+    {
+      "id": "p3",
+      "text": "For decades that heartbeat lasted just thirty days. And that number nearly cost the world its most famous mystery.",
+      "img": "oceandeep",
+      "stat": "30 DAYS",
+      "statColor": "#FF4D4D",
+      "cap": "Only thirty days.",
+      "tone": "fear",
+      "sketch": true
+    },
+    {
+      "id": "p4",
+      "text": "In two thousand fourteen, a Boeing seven seven seven \u2014 Malaysia Airlines flight M H three seventy \u2014 vanished. Search teams didn't know where to look until the days were already burning down. My beacons likely fell silent before anyone arrived. The recorders have never been found.",
+      "img": "mh370search",
+      "query": "MH370 ocean search aircraft Indian Ocean",
+      "stat": "NEVER FOUND",
+      "statColor": "#FF4D4D",
+      "cap": "The beacons went quiet.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "p5",
+      "text": "So the rules changed. Now that beacon has to last ninety days, not thirty. And large aircraft carry a second, low-frequency beacon that can be heard from far, far further away. M H three seventy rewrote my design.",
+      "img": "newbeacon",
+      "query": "underwater locator beacon aviation",
+      "stat": "30 \u2192 90 DAYS",
+      "cap": "MH370 rewrote me.",
+      "tone": "confidence"
+    },
+    {
+      "id": "c6",
+      "text": "Chapter six. The two-year recovery.",
+      "chapter": "6 \u2014 BROUGHT\nBACK UP"
+    },
+    {
+      "id": "e1",
+      "text": "Let me show you what it looks like when it works. Air France four forty-seven. Twenty oh nine. An Airbus stalled into the Atlantic in the dead of night. Two hundred and twenty-eight people lost.",
+      "img": "af447",
+      "query": "Air France 447 Airbus A330",
+      "stat": "2009 \u00b7 228 LOST",
+      "statColor": "#FF4D4D",
+      "cap": "Gone into the Atlantic.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e2",
+      "text": "My beacons died in thirty days. It took nearly two years, deep-tow sonar and robot submarines, to find the debris field \u2014 thirteen thousand feet down. Almost four kilometres of black water.",
+      "img": "af447search",
+      "query": "deep sea ROV submarine wreck search",
+      "stat": "3,900 M DEEP",
+      "cap": "Two years. Four kilometres down.",
+      "tone": "fear"
+    },
+    {
+      "id": "e3",
+      "text": "In twenty eleven they lifted the memory modules from the sea bed. Two years of pressure and salt water \u2014 and every byte was intact. Over a single weekend, investigators read the entire final two hours. The stall. The confusion. The truth.",
+      "img": "af447recovery",
+      "query": "recovered flight recorder ship deck recovery",
+      "cap": "Every byte, intact.",
+      "tone": "awe"
+    },
+    {
+      "id": "e4",
+      "text": "That is the whole point of me. Not to prevent the crash. To make sure it is never a mystery. To make sure it never happens the same way twice.",
+      "img": "labclean",
+      "query": "NTSB recorder laboratory technician",
+      "cap": "Never a mystery twice.",
+      "tone": "confidence"
+    },
+    {
+      "id": "e5",
+      "text": "But what happens when I come back burned, shattered, or soaked? That's where the real magic is \u2014 in the lab.",
+      "img": "ntsblab",
+      "query": "NTSB vehicle recorder laboratory",
+      "cap": "Into the lab.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e6",
+      "text": "A sea-recovered board is never allowed to dry out. Drying crystallises the salt and eats the circuits. So technicians keep it wet, then rinse it in pure, clean water to wash the salt away before they dare apply power.",
+      "img": "wetboard",
+      "query": "electronics circuit board cleaning laboratory",
+      "cap": "Kept wet on purpose.",
+      "tone": "curiosity",
+      "note": "per standard lab practice"
+    },
+    {
+      "id": "e7",
+      "text": "And if my own electronics are destroyed but the memory chips are alive, they use a trick called the golden chassis. They lift the surviving chips out of the wreck and drop them into a pristine, identical recorder in the lab \u2014 and read them as if nothing ever happened.",
+      "img": "goldenchassis",
+      "query": "circuit board chip memory extraction laboratory",
+      "cap": "The golden chassis.",
+      "tone": "awe"
+    },
+    {
+      "id": "c7",
+      "text": "Chapter seven. Everything you think you know.",
+      "chapter": "7 \u2014 MYTHS,\nTESTED"
+    },
+    {
+      "id": "m1a",
+      "text": "Time to open the ones you've heard a hundred times, and grade them. And I get to be the judge.",
+      "img": "questionmarks",
+      "cap": "The verdicts.",
+      "tone": "curiosity",
+      "sketch": true
+    },
+    {
+      "id": "cutMyth1",
+      "mascotFull": true,
+      "speak": true,
+      "rig": "bb_host",
+      "speed": 0.92,
+      "text": "Myth one. Why not build the whole plane out of black box material? Here's the beautiful answer. I survive because I'm small. My armour weighs a few kilos on a two hundred tonne aircraft \u2014 nothing. Scale that armour up to an entire fuselage and the plane is too heavy to ever leave the ground. A plane has to be light enough to fly. I get to be heavy because I'm tiny. Verdict: physics says no.",
+      "cap": "VERDICT: physics says no",
+      "tone": "confidence"
+    },
+    {
+      "id": "cutMyth2",
+      "mascotFull": true,
+      "speak": true,
+      "rig": "bb_host",
+      "speed": 0.92,
+      "text": "Myth two. Black boxes are indestructible. False \u2014 and I'd never claim otherwise. On September eleventh, the two recorders in the towers were never recovered. Some crashes exceed even my limits. I am crash survivable. That is a promise, not a boast. Verdict: false.",
+      "cap": "VERDICT: false",
+      "tone": "fear"
+    },
+    {
+      "id": "cutMyth3",
+      "mascotFull": true,
+      "speak": true,
+      "rig": "bb_host",
+      "speed": 0.92,
+      "text": "Myth three. They record video of the cockpit. Today \u2014 no. I capture audio and data only. Investigators have pushed for cockpit cameras for over a decade, and pilots' unions have fought it just as hard, over privacy. So for now, I listen. I don't watch. Verdict: false, but the fight isn't over.",
+      "cap": "VERDICT: false (for now)",
+      "tone": "curiosity"
+    },
+    {
+      "id": "cutMyth4",
+      "mascotFull": true,
+      "speak": true,
+      "rig": "bb_host",
+      "speed": 0.92,
+      "text": "Myth four. Someone is listening to you the whole flight. No one is. I record onto a loop that erases itself, and no human ever hears it \u2014 unless there's an accident. In many countries the law forbids that audio from being used to punish a crew, or from ever being made public. I am a witness, not a spy. Verdict: false.",
+      "cap": "VERDICT: false",
+      "tone": "confidence"
+    },
+    {
+      "id": "c8",
+      "text": "Chapter eight. The recorder that ejects itself.",
+      "chapter": "8 \u2014 WHAT\nCOMES NEXT"
+    },
+    {
+      "id": "f1",
+      "text": "So what happens to me next? Because M H three seventy proved that sometimes, being tough isn't enough. Sometimes you have to be found \u2014 fast.",
+      "img": "future",
+      "cap": "Tough isn't enough.",
+      "tone": "curiosity",
+      "sketch": true
+    },
+    {
+      "id": "f2",
+      "text": "The first answer already flies on military jets and now on some airliners, like the Airbus A three fifty. A deployable recorder. In a crash it's fired clear of the tail \u2014 and because it floats, it rides on the surface instead of sinking four kilometres down.",
+      "img": "ejectable",
+      "stat": "IT FLOATS",
+      "cap": "It ejects. It floats.",
+      "tone": "awe",
+      "sketch": true
+    },
+    {
+      "id": "f3",
+      "text": "The second answer is to never lose the data at all \u2014 stream it live to the ground, a black box in the cloud. The problem is brutal volume and cost, so for now it's used only in bursts, triggered when something goes wrong.",
+      "img": "streaming",
+      "query": "satellite data streaming network earth",
+      "cap": "A black box in the cloud.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f4",
+      "text": "And after M H three seventy, the world built a global tracking rule called GADSS. An aircraft in distress must now report its position at least once a minute \u2014 automatically, with no way for anyone on board to switch it off.",
+      "img": "gadss",
+      "query": "global aircraft tracking satellite map",
+      "stat": "ONCE A MINUTE",
+      "cap": "It can't be switched off.",
+      "tone": "confidence"
+    },
+    {
+      "id": "cutClose",
+      "mascotFull": true,
+      "speak": true,
+      "rig": "bb_host",
+      "speed": 0.9,
+      "text": "So that's me. A fist of memory, wrapped in armour, sitting in the tail \u2014 waiting for the worst day, so that day is never wasted. I am the promise that the truth survives, even when nothing else does. I am the only witness that walks out of every crash.",
+      "cap": "The witness that walks out.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "bridge",
+      "text": "If you want to see everything I remember put to the test \u2014 watch the deadliest crash in history, where two of us on the ground held the answer. Or the one flight that beat me: M H three seventy, the Boeing seven seven seven that vanished from every radar on Earth.",
+      "img": "morefrom",
+      "query": "airliner dramatic sky",
+      "cap": "Watch what the boxes revealed.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "end",
+      "text": "I'm the black box. Subscribe to Black Box Breakdown \u2014 and next time, we'll open the ones that solved the impossible.",
+      "img": "endcard",
+      "query": "dramatic aircraft silhouette",
+      "cap": "Subscribe to Black Box Breakdown.",
+      "tone": "confidence"
+    }
+  ]
+}

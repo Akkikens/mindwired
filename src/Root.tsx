@@ -55,10 +55,14 @@ import blackHolesDoc from "./mindwired-doc/docs/blackholes.json";
 import blackHolesManifest from "./mindwired-doc/docs/blackholes.manifest.json";
 import tenerifeDoc from "./mindwired-doc/docs/tenerife.json";
 import tenerifeManifest from "./mindwired-doc/docs/tenerife.manifest.json";
+import blackboxAnatomyDoc from "./mindwired-doc/docs/blackboxanatomy.json";
+import blackboxAnatomyManifest from "./mindwired-doc/docs/blackboxanatomy.manifest.json";
 import almostDiedHiDoc from "./mindwired-doc/docs/almostdied-hi.json";
 import almostDiedHiManifest from "./mindwired-doc/docs/almostdied-hi.manifest.json";
 import sansadchaloDoc from "./mindwired-doc/docs/sansadchalo.json";
 import sansadchaloManifest from "./mindwired-doc/docs/sansadchalo.manifest.json";
+import oppositiondetainedDoc from "./mindwired-doc/docs/oppositiondetained.json";
+import oppositiondetainedManifest from "./mindwired-doc/docs/oppositiondetained.manifest.json";
 import almostDiedDoc from "./mindwired-doc/docs/almostdied.json";
 import almostDiedManifest from "./mindwired-doc/docs/almostdied.manifest.json";
 import { FinalReview, finalReviewFrames } from "./finalreview/FinalReview";
@@ -958,12 +962,34 @@ export const RemotionRoot: React.FC = () => {
         height={1080}
       />
 
+      {/* ── DimaagBatti — 21 जुलाई 2026: राहुल गांधी और विपक्ष हिरासत में
+             (neutral news explainer, 2-day arc; no outro) ── */}
+      <Composition
+        id="OppositionDetainedDoc"
+        component={makeDocComp(oppositiondetainedDoc, oppositiondetainedManifest)}
+        durationInFrames={docTotalFrames(oppositiondetainedDoc, oppositiondetainedManifest)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
       {/* ── Black Box — Tenerife: deadliest crash in history (4K, robot host
              debut, GCE-rendered; BB outro baked) ── */}
       <Composition
         id="TenerifeDoc"
         component={makeDocComp(tenerifeDoc, tenerifeManifest, BB_OUTRO)}
         durationInFrames={docTotalFrames(tenerifeDoc, tenerifeManifest, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Black Box — What's Actually Inside a Black Box? (4K, robot-as-FDR
+             origin story, rig 2.0 blinks/gestures/aside; BB outro baked) ── */}
+      <Composition
+        id="BlackBoxAnatomyDoc"
+        component={makeDocComp(blackboxAnatomyDoc, blackboxAnatomyManifest, BB_OUTRO)}
+        durationInFrames={docTotalFrames(blackboxAnatomyDoc, blackboxAnatomyManifest, BB_OUTRO)}
         fps={30}
         width={1920}
         height={1080}
@@ -1289,6 +1315,35 @@ export const RemotionRoot: React.FC = () => {
         durationInFrames={blackBoxShortFrames({ startId: "e3", endId: "e6", hook: "Boeing DELETED it\nfrom the manual" })}
         fps={30} width={1080} height={1920}
         defaultProps={{ startId: "e3", endId: "e6", hook: "Boeing DELETED it\nfrom the manual", cta: "How Boeing hid MCAS\nfrom its own pilots" }}
+      />
+      {/* ── Black Box Anatomy Shorts (contiguous self-contained windows) ── */}
+      <Composition
+        id="BbAnatomyShort1"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "a1", endId: "a5", doc: blackboxAnatomyDoc as any, manifest: blackboxAnatomyManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "a1", endId: "a5", hook: "What's actually\nINSIDE a\nblack box?", cta: "The full anatomy\nof a black box", slug: "blackboxanatomy", doc: blackboxAnatomyDoc as any, manifest: blackboxAnatomyManifest as any }}
+      />
+      <Composition
+        id="BbAnatomyShort2"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "a6", endId: "a10", doc: blackboxAnatomyDoc as any, manifest: blackboxAnatomyManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "a6", endId: "a10", hook: "Crushed. Burned.\nDrowned.\nStill works.", cta: "How a black box\nsurvives anything", slug: "blackboxanatomy", doc: blackboxAnatomyDoc as any, manifest: blackboxAnatomyManifest as any }}
+      />
+      <Composition
+        id="BbAnatomyShort3"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "p1", endId: "p5", doc: blackboxAnatomyDoc as any, manifest: blackboxAnatomyManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "p1", endId: "p5", hook: "Why MH370 changed\nevery black box\non Earth", cta: "What's inside a\nblack box", slug: "blackboxanatomy", doc: blackboxAnatomyDoc as any, manifest: blackboxAnatomyManifest as any }}
+      />
+      <Composition
+        id="BbAnatomyShort4"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "e1", endId: "e4", doc: blackboxAnatomyDoc as any, manifest: blackboxAnatomyManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "e1", endId: "e4", hook: "2 years underwater.\nEvery byte\nsurvived.", cta: "The full black box\nbreakdown", slug: "blackboxanatomy", doc: blackboxAnatomyDoc as any, manifest: blackboxAnatomyManifest as any }}
       />
       <Composition
         id="ColganShort1"

@@ -75,6 +75,23 @@ MOUTHS = {
     "host_m3": "mouth WIDE open on a loud syllable, big expressive oval, tongue hinted with one ink stroke",
 }
 
+# Extra per-phrase gesture BODIES (2026-07-21 rig upgrade — "animations way
+# better"). With the base host pose + gest1/gest2 this makes 5 gesture bodies.
+# Same-image edits from the host anchor: only the arms/stance change; the HEAD
+# stays put so head_align + build_rig_v2 keep the face pixel-stable across flaps.
+EXTRA_GESTURES = {
+    "gest3": ("shrugging — both shoulders raised, both hands turned palm-up out "
+              "to the sides, a slightly unsure 'who knows?' expression"),
+    "gest4": ("arms crossed over the chest, one hand lifted to the chin in a "
+              "thoughtful considering pose, a small knowing look"),
+}
+# One eyes-CLOSED frame, edited from the closed-mouth anchor: build_rig_v2 lifts
+# the eye-region patch from this and composites it onto every gesture body to
+# make the _blink frames. A character that never blinks is the last digital tell.
+BLINK = ("eyes fully CLOSED — relaxed closed eyelids drawn as simple downward "
+         "ink curves, mid-blink; mouth relaxed and closed; every other detail "
+         "of the character, pose and framing EXACTLY identical")
+
 
 def white_to_alpha(src: Path, dst: Path, thresh: int = 242,
                    fill_holes: bool = True) -> None:
@@ -185,18 +202,17 @@ def head_align(files: list[Path], ref: Path, head_frac: float = 0.45) -> None:
         print(f"  head-aligned {f.name} (scale {s:.3f})")
 
 
-def mouth_region(base: Path, opens: list[Path], margin: int = 26) -> tuple[int, int, int, int]:
-    """Find the mouth: the union bbox of significant pixel differences between
-    the closed-mouth base and the open-mouth frames, searched in the lower half
-    of the head zone. Everything OUTSIDE this box stays literally identical
-    across mouth states — the fix for drifting eyes/hair between flaps."""
+def feature_region(base: Path, opens: list[Path], band: tuple[float, float],
+                   margin: int = 26) -> tuple[int, int, int, int]:
+    """Union bbox of significant pixel differences between the base frame and the
+    variant frames, searched ONLY within a vertical band of the ink bbox (given
+    as fractions of body height). Everything OUTSIDE this box stays byte-identical
+    across variants — the fix for drifting features between swapped frames. Used
+    for both the mouth band (0.28-0.52) and the eye band (0.08-0.30)."""
     B = Image.open(base).convert("RGBA")
     bb = B.getbbox()
-    # search ONLY the lower-face band (28-52%% of body height): the differ must
-    # not see the eye region, otherwise inter-frame eye drift inflates the box
-    # and the patch would carry the glitch back in
-    face_top = bb[1] + int((bb[3] - bb[1]) * 0.28)
-    head_bottom = bb[1] + int((bb[3] - bb[1]) * 0.52)
+    face_top = bb[1] + int((bb[3] - bb[1]) * band[0])
+    head_bottom = bb[1] + int((bb[3] - bb[1]) * band[1])
     x0 = y0 = 10**9
     x1 = y1 = -1
     for o in opens:
@@ -211,27 +227,47 @@ def mouth_region(base: Path, opens: list[Path], margin: int = 26) -> tuple[int, 
                     x0, y0 = min(x0, x), min(y0, y)
                     x1, y1 = max(x1, x), max(y1, y)
     if x1 < 0:
-        raise RuntimeError("no mouth diff found between base and open frames")
+        raise RuntimeError("no pixel diff found between base and variant frames")
     return (max(0, x0 - margin), max(0, y0 - margin),
             min(B.width, x1 + margin), min(B.height, y1 + margin))
+
+
+def mouth_region(base: Path, opens: list[Path], margin: int = 26):
+    """The lower-face band (28-52%) where the mouth differs across states."""
+    return feature_region(base, opens, band=(0.28, 0.52), margin=margin)
+
+
+def eye_region(base: Path, blink: Path, margin: int = 22):
+    """The upper-face band (8-30%) where the eyes differ open vs. closed."""
+    return feature_region(base, [blink], band=(0.08, 0.30), margin=margin)
 
 
 def build_rig_v2(out_dir: Path, rig: str = "host", gestures: int = 3) -> list[Path]:
     """Compose the glitch-free talking rig: <rig>_g{G}_m{M}.png where every
     gesture body is a LOCKED image and only the mouth-box pixels differ between
-    mouth states. Requires <rig>_m0..3 (aligned) and optional <rig>_gest1/2."""
+    mouth states. Requires <rig>_m0..3 (aligned) and optional <rig>_gest1..N.
+
+    If a PER-BODY eyes-closed frame exists (<rig>_m0_blink.png for the base,
+    <rig>_gest{G}_blink.png for each gesture), also emit <rig>_g{G}_blink.png:
+    that body's OWN eye-region patch composited back onto the body, so the body
+    stays byte-identical and only the eyes close — a ~4-frame blink the comp
+    plays every 2-4s (MascotReact.isBlinking). Per-body (not one shared patch)
+    because each body draws its face at a slightly different internal spot."""
     base = out_dir / f"{rig}_m0.png"
     opens = [out_dir / f"{rig}_m{i}.png" for i in (1, 2, 3)]
     box = mouth_region(base, opens)
     print(f"  mouth box: {box}")
-    bodies = [Image.open(base).convert("RGBA")]
-    for g in range(1, gestures):
-        gp = out_dir / f"{rig}_gest{g}.png"
-        if gp.exists():
-            bodies.append(Image.open(gp).convert("RGBA"))
+    # (body path, its eyes-closed source or None) per gesture index
+    body_paths = [base] + [out_dir / f"{rig}_gest{g}.png" for g in range(1, gestures)]
+    body_paths = [p for p in body_paths if p.exists()]
+    blink_srcs = [(base, out_dir / f"{rig}_m0_blink.png")] + \
+        [(out_dir / f"{rig}_gest{g}.png", out_dir / f"{rig}_gest{g}_blink.png")
+         for g in range(1, gestures)]
     made = []
     patches = [None] + [Image.open(o).convert("RGBA").crop(box) for o in opens]
-    for gi, body in enumerate(bodies):
+    nblink = 0
+    for gi, bpath in enumerate(body_paths):
+        body = Image.open(bpath).convert("RGBA")
         for mi in range(4):
             frame = body.copy()
             if mi > 0:
@@ -241,7 +277,20 @@ def build_rig_v2(out_dir: Path, rig: str = "host", gestures: int = 3) -> list[Pa
             dst = out_dir / f"{rig}_g{gi}_m{mi}.png"
             frame.save(dst)
             made.append(dst)
-    print(f"  rig v2: {len(made)} frames ({len(bodies)} gestures x 4 mouths)")
+        # blink = this body's OWN eyes-closed frame, used WHOLE (not an eye-patch
+        # composite — bodies draw their eyes at different heights, so a patch band
+        # ghosts a second face; the full frame is a clean same-image edit and a
+        # tiny arm drift over a 4-frame blink is invisible under the boil).
+        _, blink_src = blink_srcs[gi]
+        if blink_src.exists():
+            bframe = Image.open(blink_src).convert("RGBA")
+            if bframe.size != body.size:
+                bframe = bframe.resize(body.size, Image.LANCZOS)
+            bdst = out_dir / f"{rig}_g{gi}_blink.png"
+            bframe.save(bdst)
+            made.append(bdst); nblink += 1
+    print(f"  rig v2: {len(made)} frames ({len(body_paths)} gestures x 4 mouths"
+          f" + {nblink} blink)")
     return made
 
 
@@ -370,6 +419,64 @@ def main() -> None:
     if len(rig) >= 2:
         print("aligning talking rig…")
         normalize_rig(rig)
+
+    # ---- 2026-07-21 rig upgrade: 2 extra gesture bodies + a blink frame ----
+    # (only runs when the host rig exists; idempotent — skips existing files)
+    host_m0 = out_dir / "host_m0.png"
+    if host_m0.exists() and ((not only) or "host" in only or "rig" in only):
+        new_frames: list[Path] = []
+        for gid, direction in EXTRA_GESTURES.items():   # gest3, gest4 (shrug, arms-crossed)
+            png = out_dir / f"host_{gid}.png"
+            if png.exists() and not args.force:
+                continue
+            raw = out_dir / f"host_{gid}_raw.png"
+            print(f"host rig: {gid}…")
+            try:
+                generate(
+                    f"The EXACT SAME character as the reference — identical face, "
+                    f"head, helmet/body, line style and colors, same waist-up framing "
+                    f"— now {direction}. Only the arms and stance change; the head and "
+                    f"face stay in the same place. {STYLE}",
+                    raw, refs=[host_m0], aspect="1:1")
+                white_to_alpha(raw, png)
+                # align a NEW gesture body to host_m0 once, right after it's made
+                # (idempotent — existing bodies are never re-aligned, so re-runs
+                # can't compound the rescale, 2026-07-21)
+                head_align([png], ref=host_m0)
+                new_frames.append(png); made.append(png)
+                print(f"  -> {png.relative_to(REPO)}")
+            except Exception as e:  # noqa: BLE001
+                print(f"  !! {gid} failed: {e}")
+        # PER-BODY eyes-closed frame: each gesture body draws its face at a
+        # slightly different internal position, so ONE shared eye patch doubles
+        # the face on the others (found on the 2026-07-21 blink still: g1/g2
+        # ghosted a second face). Instead, close the eyes of EACH body with its
+        # own same-image edit — the whole body stays put, only the eyes change,
+        # and each blink is aligned to ITS OWN body so the eye patch lands right.
+        bodies = [host_m0] + sorted(out_dir.glob("host_gest[0-9].png"))
+        for body in bodies:
+            stem = body.stem  # host_m0 / host_gest1 ...
+            bl = out_dir / f"{stem}_blink.png"
+            if bl.exists() and not args.force:
+                continue
+            raw = out_dir / f"{stem}_blink_raw.png"
+            print(f"host rig: blink for {stem} (eyes closed)…")
+            try:
+                generate(
+                    f"Reproduce the reference illustration EXACTLY — same character, "
+                    f"pose, arms, framing, line work, colors, composition. Change "
+                    f"ONLY the eyes: {BLINK}. {STYLE}",
+                    raw, refs=[body], aspect="1:1")
+                white_to_alpha(raw, bl)
+                head_align([bl], ref=body)   # align to its OWN body, not host_m0
+                made.append(bl)
+                print(f"  -> {bl.relative_to(REPO)}")
+            except Exception as e:  # noqa: BLE001
+                print(f"  !! blink for {stem} failed: {e}")
+        # rebuild the composited talking rig across ALL gesture bodies + blink
+        gcount = 1 + len(sorted(out_dir.glob("host_gest[0-9].png")))
+        print(f"building rig v2 ({gcount} gesture bodies)…")
+        made += build_rig_v2(out_dir, rig="host", gestures=gcount)
 
     contact_sheet(made, REPO / "out" / "qa" / f"mascot_{args.name}_sheet.png",
                   f"mascot '{args.name}' — review identity consistency before adopting")
