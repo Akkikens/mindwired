@@ -80,6 +80,13 @@ MOUTHS = {
 # Same-image edits from the host anchor: only the arms/stance change; the HEAD
 # stays put so head_align + build_rig_v2 keep the face pixel-stable across flaps.
 EXTRA_GESTURES = {
+    # gest1/gest2 regenerated clean 2026-07-21 (the originals had raised hands
+    # running off-frame -> detached ink fragments + bad head-align). Keep BOTH
+    # ARMS FULLY IN FRAME so head_align stays stable and no bits float loose.
+    "gest1": ("gesturing with both hands open near chest height, palms turned up, "
+              "explaining warmly — both arms fully in frame, elbows bent"),
+    "gest2": ("one hand raised with the index finger pointing up making a point, "
+              "the other hand resting on the hip — both arms fully in frame"),
     "gest3": ("shrugging — both shoulders raised, both hands turned palm-up out "
               "to the sides, a slightly unsure 'who knows?' expression"),
     "gest4": ("arms crossed over the chest, one hand lifted to the chin in a "
@@ -232,9 +239,28 @@ def feature_region(base: Path, opens: list[Path], band: tuple[float, float],
             min(B.width, x1 + margin), min(B.height, y1 + margin))
 
 
-def mouth_region(base: Path, opens: list[Path], margin: int = 26):
-    """The lower-face band (28-52%) where the mouth differs across states."""
-    return feature_region(base, opens, band=(0.28, 0.52), margin=margin)
+def mouth_region(base: Path, opens: list[Path], margin: int = 18):
+    """Tight box around the MOUTH only. The raw diff between same-image mouth
+    edits also picks up chest/rivet/arm noise (Gemini redraws the whole body a
+    little each time), which ballooned the box to the full torso and made
+    build_rig_v2 paste a base-pose slab over the gesture bodies — the visible
+    'torn while speaking' seam (2026-07-21). Fix: search a tight upper-face band
+    and HARD-CLAMP the result to a central, small rectangle so it can never grab
+    the chest ECG line or the arms."""
+    box = feature_region(base, opens, band=(0.18, 0.42), margin=margin)
+    B = Image.open(base).convert("RGBA")
+    bb = B.getbbox()
+    w, h = bb[2] - bb[0], bb[3] - bb[1]
+    # central-x clamp (mouth sits mid-face; arms are at the sides)
+    x0 = max(box[0], bb[0] + int(0.30 * w))
+    x1 = min(box[2], bb[0] + int(0.70 * w))
+    # upper-face-y clamp (mouth is above the chest; ECG line sits ~0.45+)
+    y0 = max(box[1], bb[1] + int(0.16 * h))
+    y1 = min(box[3], bb[1] + int(0.42 * h))
+    if x1 <= x0 or y1 <= y0:      # degenerate → fall back to a nominal mouth box
+        x0, x1 = bb[0] + int(0.34 * w), bb[0] + int(0.66 * w)
+        y0, y1 = bb[1] + int(0.24 * h), bb[1] + int(0.40 * h)
+    return (x0, y0, x1, y1)
 
 
 def eye_region(base: Path, blink: Path, margin: int = 22):
