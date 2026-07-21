@@ -1,0 +1,188 @@
+{
+ "durations": {
+  "hook1": 14.237,
+  "hook2": 12.121,
+  "hook3": 7.549,
+  "t0": 1.959,
+  "c1t": 2.429,
+  "c1a": 9.482,
+  "c1b": 7.811,
+  "c1c": 7.001,
+  "c1d": 14.759,
+  "c1e": 9.822,
+  "c1f": 17.554,
+  "c1g": 11.546,
+  "c1h": 8.124,
+  "c2t": 2.273,
+  "c2a": 10.998,
+  "c2b": 13.087,
+  "c2c": 7.236,
+  "c3t": 2.847,
+  "c3a": 5.146,
+  "c3b": 8.281,
+  "c3c": 9.796,
+  "c3d": 10.684,
+  "c3e": 11.233,
+  "c4t": 2.116,
+  "c4a": 10.031,
+  "c4b": 9.874,
+  "c4c": 17.868,
+  "c4d": 10.606,
+  "c4e": 11.311,
+  "c5t": 4.284,
+  "c5a": 10.371,
+  "c5b": 9.796,
+  "c5c": 6.191,
+  "c5d": 14.106,
+  "c5e": 5.486,
+  "c5f": 15.386,
+  "c6t": 2.194,
+  "c6a": 15.961,
+  "c6b": 6.766,
+  "c6c": 6.609,
+  "c6d": 11.076,
+  "c7t": 2.586,
+  "c7a": 17.92,
+  "c7b": 13.479,
+  "c8t": 4.833,
+  "c8a": 12.121,
+  "c8b": 12.121,
+  "c8c": 9.326,
+  "c8d": 11.076,
+  "c8e": 6.034,
+  "c9t": 2.116,
+  "c9a": 11.389,
+  "c9b": 10.449,
+  "c9c": 17.946,
+  "c9d": 7.34,
+  "close1": 9.953,
+  "close2": 7.157
+ },
+ "images": {
+  "article19": [
+   "article19_1.png"
+  ],
+  "assembly": [
+   "assembly_1.png"
+  ],
+  "court": [
+   "court_1.png"
+  ],
+  "crowdscale": [
+   "crowdscale_1.png"
+  ],
+  "demands5": [
+   "demands5_1.png"
+  ],
+  "demands": [
+   "demands_1.png"
+  ],
+  "detention": [
+   "detention_1.png"
+  ],
+  "disputed": [
+   "disputed_1.png"
+  ],
+  "examleak": [
+   "examleak_1.png"
+  ],
+  "fast": [
+   "fast_1.png"
+  ],
+  "government": [
+   "government_1.png"
+  ],
+  "hospital": [
+   "hospital_1.png"
+  ],
+  "hunger": [
+   "hunger_1.png"
+  ],
+  "icestupa": [
+   "icestupa_1.jpg"
+  ],
+  "internet": [
+   "internet_1.png"
+  ],
+  "jantarmantar": [
+   "jantarmantar_1.jpg"
+  ],
+  "ladakhmap": [
+   "ladakhmap_1.png"
+  ],
+  "leh2025": [
+   "leh2025_1.png"
+  ],
+  "leh2025b": [
+   "leh2025b_1.png"
+  ],
+  "lehpalace": [
+   "lehpalace_1.jpg",
+   "lehpalace_2.jpg"
+  ],
+  "lehstreet": [
+   "lehstreet_1.png"
+  ],
+  "march": [
+   "march_1.png"
+  ],
+  "movement": [
+   "movement_1.png"
+  ],
+  "note": [
+   "note_1.png"
+  ],
+  "numbers": [
+   "numbers_1.png"
+  ],
+  "opposition": [
+   "opposition_1.png"
+  ],
+  "padyatra": [
+   "padyatra_1.png"
+  ],
+  "pangong": [
+   "pangong_1.jpg"
+  ],
+  "police": [
+   "police_1.png"
+  ],
+  "prohibitory": [
+   "prohibitory_1.png"
+  ],
+  "quotecard": [
+   "quotecard_1.png"
+  ],
+  "restrictions": [
+   "restrictions_1.png"
+  ],
+  "sansad": [
+   "sansad_1.jpg"
+  ],
+  "sixthschedule": [
+   "sixthschedule_1.png"
+  ],
+  "supremecourt": [
+   "supremecourt_1.png"
+  ],
+  "teargas": [
+   "teargas_1.png"
+  ],
+  "thiksey": [
+   "thiksey_1.jpg"
+  ],
+  "verify": [
+   "verify_1.png"
+  ],
+  "wangchuk": [
+   "wangchuk_1.jpg",
+   "wangchuk_2.jpg"
+  ],
+  "wordmark": [
+   "wordmark_1.png"
+  ]
+ },
+ "missing": [],
+ "speed": 0.95,
+ "mouth": {}
+}

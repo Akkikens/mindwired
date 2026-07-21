@@ -50,6 +50,9 @@ def main():
     ap.add_argument("--concurrency", type=int,
                     help="Remotion render concurrency (default ~cores/2; on a "
                          "32-core render VM pass ~28 to actually use the cores)")
+    ap.add_argument("--remotion-timeout", type=int,
+                    help="Remotion --timeout ms (raise for OffthreadVideo-heavy "
+                         "4K comps — frame seeks can exceed the 30s default)")
     args = ap.parse_args()
 
     out: Path = args.out
@@ -71,6 +74,8 @@ def main():
             cmd += [f"--scale={args.scale}"]
         if args.concurrency:
             cmd += [f"--concurrency={args.concurrency}"]
+        if args.remotion_timeout:
+            cmd += [f"--timeout={args.remotion_timeout}"]
         print(f"[render] {' '.join(cmd)}")
         r = subprocess.run(cmd)
         if r.returncode != 0:

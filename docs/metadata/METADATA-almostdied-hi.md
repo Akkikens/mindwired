@@ -29,8 +29,19 @@ cosmonaut। इतिहास का इकलौता pad abort। Mir stati
 अपने बयानों से verify की गई है। कोई recreation असली footage बताकर नहीं दिखाई गई।
 
 CHAPTERS
-[gen_doc_srt almostdied-hi से भरें — 0:00 शुरुआत ज़रूरी, हर chapter 10 सेकंड+,
-plain hyphen]
+0:00 - 21 मौतें। 32 बचे।
+0:53 - 1962: आग का गोला (John Glenn)
+2:26 - 1965: बाहर वाला आदमी (Leonov)
+4:12 - 1966: एक सेकंड में एक चक्कर (Gemini 8)
+6:10 - 1969: दो बार बिजली (Apollo 12)
+7:52 - 1970: Houston, we've had a problem (Apollo 13)
+10:22 - 1975: 21 गुना gravity (Soyuz 18a)
+11:46 - 1983: इकलौता pad abort
+13:09 - 1988: Lights and Shadows (STS-27)
+14:54 - 1997: Mir पर आग
+16:49 - 1997: टक्कर
+18:39 - 2013: Spacesuit में डूबता आदमी
+20:29 - 2018: एक छोटी सी उड़ान
 
 DimaagBatti को subscribe करें — हर मुद्दा, आसान भाषा में:
 https://www.youtube.com/@dimaagbatti?sub_confirmation=1

@@ -18,6 +18,7 @@ import { ScariestThumbnail } from "./scariest/Thumbnail";
 import { RoguePlanetVideo, rogueTotalFrames } from "./rogueplanet/Video";
 import { RoguePlanetThumbnail } from "./rogueplanet/Thumbnail";
 import { RupeeShort, rupeeTotalFrames } from "./dimaagbatti/RupeeShort";
+import { SansadchaloShort, sansadchaloShortTotalFrames } from "./dimaagbatti/SansadchaloShort";
 import { NeetWide, neetTotalFrames } from "./dimaagbatti/NeetWide";
 import { NeetThumb } from "./dimaagbatti/NeetThumb";
 import { WW2Wide, ww2TotalFrames } from "./dimaagbatti/WW2Wide";
@@ -56,6 +57,8 @@ import tenerifeDoc from "./mindwired-doc/docs/tenerife.json";
 import tenerifeManifest from "./mindwired-doc/docs/tenerife.manifest.json";
 import almostDiedHiDoc from "./mindwired-doc/docs/almostdied-hi.json";
 import almostDiedHiManifest from "./mindwired-doc/docs/almostdied-hi.manifest.json";
+import sansadchaloDoc from "./mindwired-doc/docs/sansadchalo.json";
+import sansadchaloManifest from "./mindwired-doc/docs/sansadchalo.manifest.json";
 import almostDiedDoc from "./mindwired-doc/docs/almostdied.json";
 import almostDiedManifest from "./mindwired-doc/docs/almostdied.manifest.json";
 import { FinalReview, finalReviewFrames } from "./finalreview/FinalReview";
@@ -895,6 +898,16 @@ export const RemotionRoot: React.FC = () => {
         height={1920}
       />
 
+      {/* ── DimaagBatti Short — 20 जुलाई: दिल्ली में क्या हुआ? (funnels to SansadchaloDoc) ── */}
+      <Composition
+        id="SansadchaloShort"
+        component={SansadchaloShort}
+        durationInFrames={sansadchaloShortTotalFrames()}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+
       {/* ── DimaagBatti — NEET लीक → Telegram बैन → विरोध (16:9 long-form) ── */}
       <Composition
         id="DimaagBattiNeet"
@@ -929,6 +942,17 @@ export const RemotionRoot: React.FC = () => {
         id="AlmostDiedHiDoc"
         component={makeDocComp(almostDiedHiDoc, almostDiedHiManifest)}
         durationInFrames={docTotalFrames(almostDiedHiDoc, almostDiedHiManifest)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── DimaagBatti — 20 जुलाई 2026: दिल्ली, वांगचुक और शांतिपूर्ण प्रदर्शन
+             का सवाल (neutral news explainer; no outro — none exists for channel) ── */}
+      <Composition
+        id="SansadchaloDoc"
+        component={makeDocComp(sansadchaloDoc, sansadchaloManifest)}
+        durationInFrames={docTotalFrames(sansadchaloDoc, sansadchaloManifest)}
         fps={30}
         width={1920}
         height={1080}

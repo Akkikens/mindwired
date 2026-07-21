@@ -7,7 +7,8 @@
 #          --music public/beds/doc_tension.mp3 --windows tenerife --music-gain-db -20
 #
 # What it does:
-#   1. creates a c2d-standard-32 SPOT VM (32 AMD cores, ~$0.4-0.7/hr spot)
+#   1. creates a 32-core VM — ON-DEMAND by default (can't be preempted mid-render;
+#      set GCE_SPOT=1 for cheaper spot at the risk of mid-render preemption)
 #   2. rsyncs ONLY what the render needs (src/, scripts/, package files,
 #      public/{fonts,sfx,mascot,outro,beds,shorts/<slug>})
 #   3. installs node22 + pnpm + ffmpeg + chrome deps, pnpm install
@@ -57,12 +58,15 @@ else
   HAVE_BASE=0
 fi
 
-# spot capacity is fickle — walk a ladder of equivalent 32-core machines and
-# zones until one sticks (all AMD/Intel 32 vCPU, spot $0.3-0.7/hr)
-if [ "${GCE_ONDEMAND:-0}" = "1" ]; then
-  PROVISION=(--provisioning-model=STANDARD)
-else
+# DEFAULT = on-demand (STANDARD) so renders can't be preempted mid-run (Akshay,
+# 2026-07-20 — spot preemption killed a render at 97%). Opt into cheaper spot with
+# GCE_SPOT=1. We still walk a ladder of equivalent 32-core machines/zones for capacity.
+if [ "${GCE_SPOT:-0}" = "1" ]; then
   PROVISION=(--provisioning-model=SPOT --instance-termination-action=DELETE)
+  MODE=spot
+else
+  PROVISION=(--provisioning-model=STANDARD)
+  MODE=on-demand
 fi
 CANDIDATES=(
   "${MACHINE}:${ZONE}"
@@ -74,7 +78,7 @@ CANDIDATES=(
 CREATED=0
 for cand in "${CANDIDATES[@]}"; do
   M="${cand%%:*}"; Z="${cand##*:}"
-  echo "[gce] trying spot ${M} in ${Z} (base=${HAVE_BASE})…"
+  echo "[gce] trying ${MODE} ${M} in ${Z} (base=${HAVE_BASE})…"
   if gcloud compute instances create "$NAME" \
       --zone "$Z" --machine-type "$M" \
       "${PROVISION[@]}" \
@@ -85,7 +89,7 @@ for cand in "${CANDIDATES[@]}"; do
   fi
 done
 if [ "$CREATED" != "1" ]; then
-  echo "[gce] NO SPOT CAPACITY anywhere on the ladder — rerun later or set GCE_ONDEMAND=1"
+  echo "[gce] NO CAPACITY (${MODE}) anywhere on the ladder — rerun later"
   exit 1
 fi
 echo "[gce] created ${NAME} (${MACHINE}, ${ZONE})"
@@ -144,7 +148,8 @@ gcloud compute ssh "$NAME" --zone "$ZONE" --command "
   ls node_modules/.bin/remotion || { echo INSTALL_BROKEN; exit 1; }
   npx remotion browser ensure 2>&1 | tail -2
   mkdir -p out
-  nohup python3 scripts/render_and_master.py '$COMP' out/${SLUG}.mp4 --scale 2 --concurrency 28 ${EXTRA_ARGS[*]} \
+  nohup python3 scripts/render_and_master.py '$COMP' out/${SLUG}.mp4 --scale 2 \
+    --concurrency ${GCE_CONCURRENCY:-16} --remotion-timeout 120000 ${EXTRA_ARGS[*]} \
     > out/render.log 2>&1 &
   echo started
 "
@@ -153,7 +158,7 @@ echo "[gce] render running — polling every 2 min…"
 while true; do
   sleep 120
   if ! gcloud compute instances describe "$NAME" --zone "$ZONE" --format="value(status)" >/dev/null 2>&1; then
-    echo "[gce] VM GONE — spot instance was preempted mid-render. Re-run (or GCE_ONDEMAND=1 for a guaranteed machine)."
+    echo "[gce] VM GONE — spot instance was preempted mid-render. Just re-run (default is now on-demand; you had GCE_SPOT=1)."
     exit 2
   fi
   STATUS=$(gcloud compute ssh "$NAME" --zone "$ZONE" --command "

@@ -14,6 +14,7 @@
  *  New doc = new JSON + fetch queries + one makeDocComp() registration in Root.
  */
 import React from "react";
+import { DEVANAGARI_FONT_CSS } from "./devanagariFont";
 import {
   AbsoluteFill, Audio, Img, OffthreadVideo, Sequence, interpolate, spring,
   staticFile, useCurrentFrame,
@@ -463,6 +464,9 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest, outro?: OutroSp
     let cursor = 0;
     return (
       <AbsoluteFill style={{ backgroundColor: BASE }}>
+        {/* Embedded Devanagari @font-face — root-level so ALL scene types get it
+            (loadFont tofu'd on the GCE headless render). See devanagariFont.ts. */}
+        <style>{DEVANAGARI_FONT_CSS}</style>
         {doc.scenes.map((s, i) => {
           const from = cursor; const dur = sceneFrames(s, manifest); cursor += dur;
           return (
