@@ -269,54 +269,47 @@ def eye_region(base: Path, blink: Path, margin: int = 22):
 
 
 def build_rig_v2(out_dir: Path, rig: str = "host", gestures: int = 3) -> list[Path]:
-    """Compose the glitch-free talking rig: <rig>_g{G}_m{M}.png where every
-    gesture body is a LOCKED image and only the mouth-box pixels differ between
-    mouth states. Requires <rig>_m0..3 (aligned) and optional <rig>_gest1..N.
-
-    If a PER-BODY eyes-closed frame exists (<rig>_m0_blink.png for the base,
-    <rig>_gest{G}_blink.png for each gesture), also emit <rig>_g{G}_blink.png:
-    that body's OWN eye-region patch composited back onto the body, so the body
-    stays byte-identical and only the eyes close — a ~4-frame blink the comp
-    plays every 2-4s (MascotReact.isBlinking). Per-body (not one shared patch)
-    because each body draws its face at a slightly different internal spot."""
-    base = out_dir / f"{rig}_m0.png"
-    opens = [out_dir / f"{rig}_m{i}.png" for i in (1, 2, 3)]
-    box = mouth_region(base, opens)
-    print(f"  mouth box: {box}")
-    # (body path, its eyes-closed source or None) per gesture index
-    body_paths = [base] + [out_dir / f"{rig}_gest{g}.png" for g in range(1, gestures)]
-    body_paths = [p for p in body_paths if p.exists()]
-    blink_srcs = [(base, out_dir / f"{rig}_m0_blink.png")] + \
-        [(out_dir / f"{rig}_gest{g}.png", out_dir / f"{rig}_gest{g}_blink.png")
-         for g in range(1, gestures)]
-    made = []
-    patches = [None] + [Image.open(o).convert("RGBA").crop(box) for o in opens]
-    nblink = 0
-    for gi, bpath in enumerate(body_paths):
-        body = Image.open(bpath).convert("RGBA")
+    """Assemble the talking rig from NATIVE full-frame drawings — NO mouth-patch
+    compositing (2026-07-21 rewrite). The old approach pasted the base pose's
+    mouth rectangle onto every gesture body; the mouths never lined up pixel-for-
+    pixel, so at the 2.3x cutaway zoom you got an offset rectangle 'tearing' the
+    face. Every g{G}_m{M} frame is now its OWN complete Gemini drawing (mouth in
+    the right place by construction — a rectangle can't offset when there is no
+    rectangle). Sources, all head-aligned to <rig>_m0 beforehand:
+      g0: <rig>_m0..m3            g{i}: <rig>_gest{i}(=m0), <rig>_gest{i}_m1..m3
+      blink: <rig>_m0_blink (g0), <rig>_gest{i}_blink (g{i})
+    Missing open-mouth states fall back to that gesture's closed mouth."""
+    def src_for(gi: int, mi: int) -> Path:
+        if gi == 0:
+            return out_dir / f"{rig}_m{mi}.png"
+        return out_dir / (f"{rig}_gest{gi}.png" if mi == 0
+                          else f"{rig}_gest{gi}_m{mi}.png")
+    def blink_for(gi: int) -> Path:
+        return out_dir / (f"{rig}_m0_blink.png" if gi == 0
+                          else f"{rig}_gest{gi}_blink.png")
+    ngest = min(gestures, 1 + len(sorted(out_dir.glob(f"{rig}_gest[0-9].png"))))
+    canvas = Image.open(out_dir / f"{rig}_m0.png").size
+    made, nblink = [], 0
+    for gi in range(ngest):
+        closed = src_for(gi, 0)
         for mi in range(4):
-            frame = body.copy()
-            if mi > 0:
-                # clear the mouth box then paste the open-mouth patch — the rest
-                # of the body is byte-identical across mouth states
-                frame.paste(patches[mi], (box[0], box[1]))
+            s = src_for(gi, mi)
+            if not s.exists():
+                s = closed          # fall back to the closed mouth
+            im = Image.open(s).convert("RGBA")
+            if im.size != canvas:
+                im = im.resize(canvas, Image.LANCZOS)
             dst = out_dir / f"{rig}_g{gi}_m{mi}.png"
-            frame.save(dst)
-            made.append(dst)
-        # blink = this body's OWN eyes-closed frame, used WHOLE (not an eye-patch
-        # composite — bodies draw their eyes at different heights, so a patch band
-        # ghosts a second face; the full frame is a clean same-image edit and a
-        # tiny arm drift over a 4-frame blink is invisible under the boil).
-        _, blink_src = blink_srcs[gi]
-        if blink_src.exists():
-            bframe = Image.open(blink_src).convert("RGBA")
-            if bframe.size != body.size:
-                bframe = bframe.resize(body.size, Image.LANCZOS)
-            bdst = out_dir / f"{rig}_g{gi}_blink.png"
-            bframe.save(bdst)
-            made.append(bdst); nblink += 1
-    print(f"  rig v2: {len(made)} frames ({len(body_paths)} gestures x 4 mouths"
-          f" + {nblink} blink)")
+            im.save(dst); made.append(dst)
+        bl = blink_for(gi)
+        if bl.exists():
+            im = Image.open(bl).convert("RGBA")
+            if im.size != canvas:
+                im = im.resize(canvas, Image.LANCZOS)
+            dst = out_dir / f"{rig}_g{gi}_blink.png"
+            im.save(dst); made.append(dst); nblink += 1
+    print(f"  rig v2 (native, no compositing): {len(made)} frames "
+          f"({ngest} gestures x 4 mouths + {nblink} blink)")
     return made
 
 
@@ -499,7 +492,33 @@ def main() -> None:
                 print(f"  -> {bl.relative_to(REPO)}")
             except Exception as e:  # noqa: BLE001
                 print(f"  !! blink for {stem} failed: {e}")
-        # rebuild the composited talking rig across ALL gesture bodies + blink
+        # NATIVE per-gesture MOUTH STATES (2026-07-21): each gesture body gets
+        # its OWN m1/m2/m3 as a same-image edit (only the mouth moves), so no
+        # mouth-patch compositing is ever needed — that compositing was tearing
+        # the face at the cutaway zoom. Aligned to host_m0 for stable placement.
+        for gest in sorted(out_dir.glob("host_gest[0-9].png")):
+            g = gest.stem  # host_gest1 ...
+            for mid, mouth in list(MOUTHS.items())[1:]:  # m1,m2,m3
+                mi = mid.split("_")[-1]                   # "m1"
+                png = out_dir / f"{g}_{mi}.png"
+                if png.exists() and not args.force:
+                    continue
+                raw = out_dir / f"{g}_{mi}_raw.png"
+                print(f"host rig: {g}_{mi} (mouth {mi})…")
+                try:
+                    generate(
+                        f"Reproduce the reference illustration EXACTLY — same "
+                        f"character, same pose, same arms, same framing, line work, "
+                        f"colors, composition. Change ONLY the mouth: {mouth}. "
+                        f"Nothing else moves. {STYLE}",
+                        raw, refs=[gest], aspect="1:1")
+                    white_to_alpha(raw, png)
+                    head_align([png], ref=host_m0)
+                    made.append(png)
+                    print(f"  -> {png.relative_to(REPO)}")
+                except Exception as e:  # noqa: BLE001
+                    print(f"  !! {g}_{mi} failed: {e}")
+        # assemble the talking rig from the native frames (no compositing)
         gcount = 1 + len(sorted(out_dir.glob("host_gest[0-9].png")))
         print(f"building rig v2 ({gcount} gesture bodies)…")
         made += build_rig_v2(out_dir, rig="host", gestures=gcount)
