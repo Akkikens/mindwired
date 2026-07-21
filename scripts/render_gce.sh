@@ -101,16 +101,22 @@ gcloud compute ssh "$NAME" --zone "$ZONE" --command "
 fi
 
 echo "[gce] syncing project (selective)…"
-RSYNC_RSH="$(gcloud compute ssh "$NAME" --zone "$ZONE" --dry-run 2>/dev/null | sed 's/ [^ ]*$//')"
-# use gcloud's own ssh wrapper for rsync transport
-tar czf /tmp/render_src.tgz -C "$REPO_DIR" \
-  package.json pnpm-lock.yaml tsconfig.json remotion.config.ts src scripts \
-  public/fonts public/sfx public/mascot public/outro public/beds \
-  "public/shorts/${SLUG}" 2>/dev/null || \
-tar czf /tmp/render_src.tgz -C "$REPO_DIR" \
-  package.json pnpm-lock.yaml tsconfig.json src scripts \
-  public/fonts public/sfx public/mascot public/outro public/beds \
-  "public/shorts/${SLUG}"
+# webpack resolves STATIC imports across every comp in Root.tsx — other slugs'
+# manifest JSONs included — so ship all public/**.json (a few MB) plus the
+# render slug's actual media. Runtime staticFile() assets of other comps are
+# never loaded because only $COMP renders.
+MANIFEST=/tmp/render_files.txt
+( cd "$REPO_DIR"
+  for f in package.json pnpm-lock.yaml tsconfig.json remotion.config.ts; do
+    [ -e "$f" ] && echo "$f"
+  done
+  echo src; echo scripts
+  for d in public/fonts public/sfx public/mascot public/outro public/beds "public/shorts/${SLUG}" public/host; do
+    [ -e "$d" ] && echo "$d"
+  done
+  find public -name "*.json" -not -path "public/shorts/${SLUG}/*"
+) > "$MANIFEST"
+tar czf /tmp/render_src.tgz -C "$REPO_DIR" -T "$MANIFEST"
 gcloud compute scp /tmp/render_src.tgz "$NAME":~/render_src.tgz --zone "$ZONE"
 rm -f /tmp/render_src.tgz
 

@@ -37,9 +37,16 @@ audio has ever been publicly released. Archival photographs: Dutch Nationaal
 Archief (CC0), Wikimedia Commons contributors, FAA/NASA (public domain).
 
 CHAPTERS
-[fill from gen_doc_srt after VO build: 0:00 hook / The Bomb / Blind /
-Mr. KLM / Clipper Victor / Thirteen Seconds / Collision / The Survivors /
-The Myths, Tested / What It Changed]
+0:00 - 583 dead. Neither plane flew.
+0:50 - The Bomb
+1:40 - Blind
+2:27 - Mr. KLM
+3:55 - Clipper Victor
+4:24 - Thirteen Seconds
+6:42 - The Collision
+7:53 - The Survivors
+8:51 - The Myths, Tested
+10:27 - What It Changed
 
 ▶ MORE FROM BLACK BOX BREAKDOWN
 MH370: The Only Plane the World Couldn't Find: [paste MH370 URL — channel's top video]
