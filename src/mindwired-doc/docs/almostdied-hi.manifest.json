@@ -1,0 +1,321 @@
+{
+ "durations": {
+  "h1": 10.867,
+  "h2": 13.584,
+  "h3": 11.651,
+  "h4": 8.516,
+  "t0": 3.004,
+  "c1t": 3.082,
+  "c1a": 12.748,
+  "c1b": 13.009,
+  "c1c": 12.826,
+  "c1d": 16.196,
+  "c1e": 15.151,
+  "m1": 11.755,
+  "c2t": 3.004,
+  "c2a": 12.669,
+  "c2b": 13.871,
+  "c2c": 19.566,
+  "c2d": 15.36,
+  "c2e": 17.398,
+  "c2f": 16.927,
+  "c3t": 3.317,
+  "c3a": 15.386,
+  "c3b": 14.289,
+  "c3c": 17.319,
+  "c3d": 17.162,
+  "c3e": 17.006,
+  "c3f": 11.964,
+  "m2": 12.617,
+  "c4t": 3.631,
+  "c4a": 14.838,
+  "c4b": 15.308,
+  "c4c": 15.386,
+  "c4d": 14.681,
+  "c4e": 21.629,
+  "c4f": 7.706,
+  "c5t": 2.691,
+  "c5a": 19.957,
+  "c5b": 17.006,
+  "c5c": 17.398,
+  "c5d": 22.517,
+  "c5e": 16.771,
+  "c5f": 17.711,
+  "c5g": 14.158,
+  "m3": 11.729,
+  "c6t": 3.239,
+  "c6a": 19.226,
+  "c6b": 19.148,
+  "c6c": 17.241,
+  "c6d": 20.193,
+  "c7t": 3.866,
+  "c7a": 18.077,
+  "c7b": 17.711,
+  "c7c": 19.069,
+  "c7d": 18.286,
+  "c8t": 2.847,
+  "c8a": 17.398,
+  "c8b": 14.211,
+  "c8c": 21.891,
+  "c8d": 14.446,
+  "c8e": 26.906,
+  "c9t": 2.769,
+  "c9a": 19.226,
+  "c9b": 18.677,
+  "c9c": 23.249,
+  "c9d": 28.369,
+  "c9e": 16.065,
+  "c10t": 3.239,
+  "c10a": 23.876,
+  "c10b": 17.084,
+  "c10c": 18.051,
+  "c10d": 13.636,
+  "c10e": 27.167,
+  "c11t": 3.161,
+  "c11a": 17.476,
+  "c11b": 20.428,
+  "c11c": 18.913,
+  "c11d": 18.521,
+  "c11e": 11.076,
+  "m4": 13.322,
+  "c12t": 2.508,
+  "c12a": 17.946,
+  "c12b": 18.782,
+  "c12c": 23.327,
+  "c12d": 9.874,
+  "w1": 18.129,
+  "w2": 13.636,
+  "e1": 14.106
+ },
+ "images": {
+  "a12ctrl": [
+   "a12ctrl_1.jpg",
+   "a12ctrl_2.jpg",
+   "a12ctrl_3.jpg"
+  ],
+  "a12launch": [
+   "a12launch_1.jpg",
+   "a12launch_2.jpg",
+   "a12launch_3.jpg"
+  ],
+  "a12moon": [
+   "a12moon_1.jpg",
+   "a12moon_2.jpg",
+   "a12moon_3.jpg"
+  ],
+  "a12rec": [
+   "a12rec_1.jpg",
+   "a12rec_2.jpg",
+   "a12rec_3.jpg"
+  ],
+  "a13": [
+   "a13_1.jpg",
+   "a13_2.jpg",
+   "a13_3.jpg"
+  ],
+  "a13crew": [
+   "a13crew_1.jpg",
+   "a13crew_2.jpg",
+   "a13crew_3.jpg"
+  ],
+  "a13ctrl": [
+   "a13ctrl_1.jpg",
+   "a13ctrl_2.jpg",
+   "a13ctrl_3.jpg"
+  ],
+  "a13lm": [
+   "a13lm_1.jpg",
+   "a13lm_2.jpg",
+   "a13lm_3.jpg"
+  ],
+  "a13rec": [
+   "a13rec_1.jpg",
+   "a13rec_2.jpg",
+   "a13rec_3.jpg"
+  ],
+  "a13reentry": [
+   "a13reentry_1.jpg",
+   "a13reentry_2.jpg",
+   "a13reentry_3.jpg"
+  ],
+  "altai": [
+   "altai_1.jpeg",
+   "altai_2.jpeg",
+   "altai_3.jpeg"
+  ],
+  "baikonur": [
+   "baikonur_1.jpg",
+   "baikonur_2.jpg",
+   "baikonur_3.jpg"
+  ],
+  "cassidy": [
+   "cassidy_1.jpg",
+   "cassidy_2.jpg",
+   "cassidy_3.jpg"
+  ],
+  "earthorbit": [
+   "earthorbit_1.jpg",
+   "earthorbit_2.jpg",
+   "earthorbit_3.jpg"
+  ],
+  "eva23": [
+   "eva23_1.jpg",
+   "eva23_2.jpg",
+   "eva23_3.jpg"
+  ],
+  "foale": [
+   "foale_1.jpg",
+   "foale_2.jpg",
+   "foale_3.jpg"
+  ],
+  "gemini8": [
+   "gemini8_1.jpg",
+   "gemini8_2.jpg",
+   "gemini8_3.jpg"
+  ],
+  "gemini8cockpit": [
+   "gemini8cockpit_1.jpg",
+   "gemini8cockpit_2.jpg",
+   "gemini8cockpit_3.jpg"
+  ],
+  "gemini8crew": [
+   "gemini8crew_1.jpg",
+   "gemini8crew_2.jpg"
+  ],
+  "gemini8rec": [
+   "gemini8rec_1.jpg",
+   "gemini8rec_2.jpg",
+   "gemini8rec_3.jpg"
+  ],
+  "gibson": [
+   "gibson_1.jpg",
+   "gibson_2.jpg"
+  ],
+  "glenn": [
+   "glenn_1.jpg",
+   "glenn_2.jpg",
+   "glenn_3.jpg"
+  ],
+  "glennlaunch": [
+   "glennlaunch_1.jpg",
+   "glennlaunch_2.jpg",
+   "glennlaunch_3.jpg"
+  ],
+  "glennrecovery": [
+   "glennrecovery_1.jpg",
+   "glennrecovery_2.jpg",
+   "glennrecovery_3.jpg"
+  ],
+  "glennreentry": [
+   "glennreentry_1.jpg",
+   "glennreentry_2.jpg",
+   "glennreentry_3.jpg"
+  ],
+  "leonov": [
+   "leonov_1.jpg",
+   "leonov_2.jpg",
+   "leonov_3.jpg"
+  ],
+  "leonovsuit": [
+   "leonovsuit_1.jpg"
+  ],
+  "linenger": [
+   "linenger_1.jpg",
+   "linenger_2.jpg",
+   "linenger_3.jpg"
+  ],
+  "mercuryctrl": [
+   "mercuryctrl_1.jpg",
+   "mercuryctrl_2.jpg",
+   "mercuryctrl_3.jpg"
+  ],
+  "mir": [
+   "mir_1.jpg",
+   "mir_2.jpg",
+   "mir_3.jpg"
+  ],
+  "mirfirepanel": [
+   "mirfirepanel_1.jpg",
+   "mirfirepanel_2.jpg",
+   "mirfirepanel_3.jpg"
+  ],
+  "mirinside": [
+   "mirinside_1.jpg",
+   "mirinside_2.jpg",
+   "mirinside_3.jpg"
+  ],
+  "mocr": [
+   "mocr_1.jpg",
+   "mocr_2.jpg",
+   "mocr_3.jpg"
+  ],
+  "ms10": [
+   "ms10_1.jpg",
+   "ms10_2.jpg",
+   "ms10_3.jpg"
+  ],
+  "ms10rescue": [
+   "ms10rescue_1.jpg",
+   "ms10rescue_2.jpg",
+   "ms10rescue_3.jpg"
+  ],
+  "ms12": [
+   "ms12_1.jpg",
+   "ms12_2.jpg",
+   "ms12_3.jpg"
+  ],
+  "parmitano": [
+   "parmitano_1.jpg",
+   "parmitano_2.jpg",
+   "parmitano_3.jpg"
+  ],
+  "progress": [
+   "progress_1.jpg",
+   "progress_2.jpg",
+   "progress_3.jpg"
+  ],
+  "shuttletiles": [
+   "shuttletiles_1.jpg",
+   "shuttletiles_2.jpg",
+   "shuttletiles_3.jpg"
+  ],
+  "soyuzrocket": [
+   "soyuzrocket_1.jpg",
+   "soyuzrocket_2.jpg",
+   "soyuzrocket_3.jpg"
+  ],
+  "spektr": [
+   "spektr_1.jpg",
+   "spektr_2.jpg",
+   "spektr_3.jpg"
+  ],
+  "sts27": [
+   "sts27_1.jpg",
+   "sts27_2.jpg",
+   "sts27_3.jpg"
+  ],
+  "t10a": [
+   "t10a_1.jpg",
+   "t10a_2.jpg",
+   "t10a_3.jpg"
+  ],
+  "taiga": [
+   "taiga_1.jpeg",
+   "taiga_2.jpeg",
+   "taiga_3.jpeg"
+  ],
+  "titov": [
+   "titov_1.jpg",
+   "titov_2.jpg",
+   "titov_3.jpg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.97,
+ "mouth": {
+  "m1": "0000330000333300222222221111111111000000000000000000003333112233332200222222222222221111222222112222221111110000000000000000332200333333111122222211111111001111000000000000000011221111223333003322112211001111000000000000000022221111222200221122111100000000000000000000000000000000000022222200002222223311002233332233332200222222112222222211111111110000",
+  "m2": "000022333300003300333333000033333322111100110000000000000000000000222211220022221122223322222211220011111100000000000000000022111133331133332222002222221133223300220011331111221133113322333322223311002211222211110000000000000000000022332222112233112222112211221122222211221111110000000000000000000000000000000000223333333333332233333322333333333300113333222233112211221111000000",
+  "m3": "0033331122002233003322002233221122221100000000000011222200112211000000002222110022220022001122112222110000000000112222222211000011110000000000000000002233003333112222220022333311222211222211222222221122220000113333333322221100222222221122111111110000000000000000223333333300333333223333332222222222002222221122112233002211222222110022111111111111000000",
+  "m4": "000022332233332233332222111100111100000000112222002222111111111100000000000000000000112222112222110011001111000000000000000000000000000000113333333322111111000000000000000022333333332222223333112222222211000000000000000000000000002233222233003333333333112222221100223311003333111122112222331100222211222211001111111100000000000000000011110000000000000011001100110000000000002222110000111100110000000"
+ }
+}

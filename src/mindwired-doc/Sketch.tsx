@@ -167,10 +167,14 @@ export const MascotZoom: React.FC<{
   const capIn = interpolate(frame, [8, 22], [0, 1],
     { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
 
-  // face-scale zoom: the rig PNGs are full-body with the head in the top ~38%;
-  // blowing the image up to ~2.3x screen height and pulling it down centres
-  // the face and fills the frame
+  // face-scale zoom: blow the full-body PNG up to ~2.3x screen height and
+  // pull it down so the FACE fills the frame. Face height differs per
+  // character — the astronauts' faces sit high, the batti bulb's face sits
+  // mid-body — so the vertical anchor is per-rig.
   const IMG_H = 2450;
+  const FACE_Y: Record<string, number> = { host: 0.29, bb_host: 0.31, db_host: 0.50 };
+  const faceY = FACE_Y[rig] ?? 0.30;
+  const top = 540 - faceY * IMG_H;
   return (
     <AbsoluteFill style={{ overflow: "hidden" }}>
       <style>{SKETCH_FONT_CSS}</style>
@@ -184,7 +188,7 @@ export const MascotZoom: React.FC<{
         </filter>
       </svg>
       <div style={{
-        position: "absolute", left: "50%", top: -175 + bob,
+        position: "absolute", left: "50%", top: top + bob,
         width: IMG_H, height: IMG_H,
         transform: `translateX(-50%) scale(${(0.82 + 0.18 * pop) * out * emph}) rotate(${tilt}deg)`,
         transformOrigin: "50% 30%",

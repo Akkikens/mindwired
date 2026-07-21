@@ -54,6 +54,8 @@ import blackHolesDoc from "./mindwired-doc/docs/blackholes.json";
 import blackHolesManifest from "./mindwired-doc/docs/blackholes.manifest.json";
 import tenerifeDoc from "./mindwired-doc/docs/tenerife.json";
 import tenerifeManifest from "./mindwired-doc/docs/tenerife.manifest.json";
+import almostDiedHiDoc from "./mindwired-doc/docs/almostdied-hi.json";
+import almostDiedHiManifest from "./mindwired-doc/docs/almostdied-hi.manifest.json";
 import almostDiedDoc from "./mindwired-doc/docs/almostdied.json";
 import almostDiedManifest from "./mindwired-doc/docs/almostdied.manifest.json";
 import { FinalReview, finalReviewFrames } from "./finalreview/FinalReview";
@@ -916,6 +918,17 @@ export const RemotionRoot: React.FC = () => {
         id="MarianaHiDoc"
         component={makeDocComp(marianaHiDoc, marianaHiManifest)}
         durationInFrames={docTotalFrames(marianaHiDoc, marianaHiManifest)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── DimaagBatti — अंतरिक्ष में मरते-मरते बचे (Hindi twin of almostdied;
+             batti mascot debut; no outro — none exists for the channel) ── */}
+      <Composition
+        id="AlmostDiedHiDoc"
+        component={makeDocComp(almostDiedHiDoc, almostDiedHiManifest)}
+        durationInFrames={docTotalFrames(almostDiedHiDoc, almostDiedHiManifest)}
         fps={30}
         width={1920}
         height={1080}
