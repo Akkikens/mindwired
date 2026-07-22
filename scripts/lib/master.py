@@ -182,6 +182,74 @@ def mix_music_windowed(video: Path, music: Path, out: Path,
         return master_video(premix, out)
 
 
+def _gate_expr(windows: list[tuple[float, float]], fade_s: float) -> str:
+    """A frame-eval volume expression that is 1 inside each window (with fade_s
+    ramps) and 0 elsewhere. Shared by the windowed mixers."""
+    terms = []
+    for (s, e) in windows:
+        f = max(0.05, min(fade_s, (e - s) / 2 - 0.05))
+        terms.append(
+            f"if(between(t,{s},{s+f}),(t-{s})/{f},"
+            f"if(between(t,{e-f},{e}),({e}-t)/{f},"
+            f"if(between(t,{s},{e}),1,0)))"
+        )
+    return "+".join(terms)
+
+
+def mix_music_multi_windowed(video: Path, groups: list[tuple[Path, list[tuple[float, float]]]],
+                             out: Path, *,
+                             music_gain_db: float = -18.0,
+                             duck_ratio: float = 8.0,
+                             duck_threshold: float = 0.04,
+                             attack_ms: int = 15,
+                             release_ms: int = 400,
+                             fade_s: float = 1.5) -> Path:
+    """Per-act windowed scoring: each (bed, windows) group plays its OWN bed only
+    inside its windows — so Act 1 can be awe, Act 2 tension, Act 3 somber — and
+    all gated beds are summed, ducked once under the voice, and mastered to
+    -14 LUFS. The mood-leads-the-story upgrade over the single-bed
+    mix_music_windowed. Windows across groups should be disjoint (they are, when
+    built from consecutive act ranges); overlaps just sum (kept low by the bed
+    gain). Empty-window groups are dropped."""
+    groups = [(b, w) for (b, w) in groups if w]
+    if not groups:
+        raise ValueError("mix_music_multi_windowed requires at least one non-empty group")
+    if len(groups) == 1:
+        return mix_music_windowed(video, groups[0][0], out, groups[0][1],
+                                  music_gain_db=music_gain_db, duck_ratio=duck_ratio,
+                                  duck_threshold=duck_threshold, attack_ms=attack_ms,
+                                  release_ms=release_ms, fade_s=fade_s)
+    if not _has_audio(video):
+        raise RuntimeError("mix_music_multi_windowed requires a video with existing voice audio")
+
+    # inputs: 0 = video; 1..N = each bed, stream-looped
+    inputs: list[str] = ["-i", str(video)]
+    for (bed, _w) in groups:
+        inputs += ["-stream_loop", "-1", "-i", str(bed)]
+
+    parts = ["[0:a]asplit=2[vkey][vmix]"]
+    bed_labels = []
+    for i, (_bed, windows) in enumerate(groups, start=1):
+        lbl = f"b{i}"
+        parts.append(f"[{i}:a]volume={music_gain_db}dB,"
+                     f"volume='{_gate_expr(windows, fade_s)}':eval=frame[{lbl}]")
+        bed_labels.append(f"[{lbl}]")
+    parts.append(f"{''.join(bed_labels)}amix=inputs={len(bed_labels)}:duration=longest:normalize=0[bedsum]")
+    parts.append(f"[bedsum][vkey]sidechaincompress="
+                 f"threshold={duck_threshold}:ratio={duck_ratio}:attack={attack_ms}:release={release_ms}[ducked]")
+    parts.append("[vmix][ducked]amix=inputs=2:duration=first:dropout_transition=0:normalize=0[mix]")
+    graph = ";".join(parts)
+
+    with tempfile.TemporaryDirectory() as td:
+        premix = Path(td) / "premix.mp4"
+        r = _run(["ffmpeg", "-y", *inputs, "-filter_complex", graph,
+                  "-map", "0:v", "-map", "[mix]", "-c:v", "copy", "-c:a", "aac",
+                  "-b:a", "192k", "-shortest", str(premix)])
+        if r.returncode != 0:
+            raise RuntimeError(f"multi-bed windowed mix failed:\n{r.stderr[-600:]}")
+        return master_video(premix, out)
+
+
 def probe_loudness(path: Path) -> float | None:
     """Report a file's integrated loudness (LUFS) for verification. None if no audio."""
     if not _has_audio(path):

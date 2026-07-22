@@ -27,7 +27,8 @@ def scene_aud(scene: dict, durations: dict) -> float:
 
 
 def scene_frames(scene: dict, durations: dict) -> int:
-    return LEAD + round(scene_aud(scene, durations) * FPS) + HOLD
+    # extraHold mirrors DocWide.tsx (documentary-pivot pacing beat)
+    return LEAD + round(scene_aud(scene, durations) * FPS) + HOLD + int(scene.get("extraHold", 0) or 0)
 
 
 def scene_spans(doc: dict, durations: dict) -> list[tuple[dict, float, float]]:

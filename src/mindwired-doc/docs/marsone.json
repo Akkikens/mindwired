@@ -1,0 +1,1051 @@
+{
+  "slug": "marsone",
+  "title": "Mars One: The One-Way Ticket That Ended in a Quiet Bankruptcy",
+  "channel": "mindwired",
+  "niche": "space",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "It is February, twenty fifteen. In Dublin, an astrophysicist opens an email. It tells him he is one of a hundred people shortlisted to leave Earth forever.",
+      "img": "dublin",
+      "query": "Dublin city night lights aerial",
+      "stat": "FEB 2015",
+      "cap": "One of the last hundred.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h2",
+      "text": "The destination is Mars. The trip is one way. There is no plan to ever bring him home.",
+      "img": "mars_orbit",
+      "query": "Mars planet full disk from space",
+      "cap": "A trip with no way back.",
+      "motion": "slow",
+      "tone": "awe"
+    },
+    {
+      "id": "h3",
+      "text": "More than two hundred thousand people, he is told, wanted this seat. He is one of the chosen few. It is the proudest moment of his life.",
+      "img": "stars_dream",
+      "query": "person silhouette looking at starry night sky",
+      "stock": true,
+      "stat": "200,000 APPLIED",
+      "cap": "The proudest moment of his life.",
+      "tone": "hope"
+    },
+    {
+      "id": "h4",
+      "text": "Within weeks, that same man will do something no other finalist dares to do. He will start pulling the whole thing apart from the inside.",
+      "img": "mars_dust",
+      "query": "Mars dust storm surface",
+      "cap": "Then he started asking questions.",
+      "tone": "fear"
+    },
+    {
+      "id": "h5",
+      "text": "Because almost nothing he had been told was true. Not the science. Not the money. And, it turns out, not even the two hundred thousand.",
+      "kinetic": { "words": ["Not", "even", "the", "number."] },
+      "extraHold": 20,
+      "tone": "fear"
+    },
+    {
+      "id": "h6",
+      "text": "This is the story of Mars One. The mission that sold the whole world a one-way ticket to another planet, and then quietly went bankrupt, for less than the price of a house.",
+      "img": "mars_sunset",
+      "query": "Mars sunset horizon Curiosity",
+      "cap": "How the dream collapsed.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "sting",
+      "sting": true,
+      "text": "You're watching mindwired.",
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "text": "Mars One.",
+      "chapter": "MARS ONE"
+    },
+    {
+      "id": "c1",
+      "text": "Chapter one. The man who sold Mars.",
+      "chapter": "1 — THE MAN\nWHO SOLD MARS"
+    },
+    {
+      "id": "a1",
+      "text": "To understand how so many smart people believed this, you have to start with the man selling it. And he was not a crank.",
+      "img": "lansdorp",
+      "cap": "Bas Lansdorp.",
+      "note": "Campus Party Brasil, CC BY-SA 2.0",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2",
+      "text": "His name is Bas Lansdorp. A Dutch engineer, trained at Twente and Delft, who spent years chasing a wild idea in wind power, generating electricity from kites on a tether.",
+      "img": "windkite",
+      "query": "airborne wind energy kite turbine sky",
+      "stock": true,
+      "cap": "An engineer, not a dreamer.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a3",
+      "text": "It worked well enough to build a real company, Ampyx Power. And in twenty eleven, Lansdorp sold his stake in it to fund something far bigger.",
+      "img": "windfarm",
+      "query": "wind turbine farm sunset",
+      "stock": true,
+      "stat": "2011",
+      "cap": "He sold his company to fund it.",
+      "tone": "confidence"
+    },
+    {
+      "id": "a4",
+      "text": "He was not alone. His co-founder was Arno Wielders, a physicist who had actually worked on spacecraft for the European Space Agency. This was not two kids with a website.",
+      "img": "esa_space",
+      "query": "spacecraft satellite assembly clean room engineers",
+      "cap": "A real scientist signed on too.",
+      "tone": "confidence"
+    },
+    {
+      "id": "a4a",
+      "text": "And the vision was intoxicating. Not a flag and a footprint. Not a short visit. A permanent, growing human settlement on another world, in our own lifetime. Science fiction, finally with a launch date.",
+      "img": "mars_colony",
+      "cap": "Not a visit. A home.",
+      "tone": "awe"
+    },
+    {
+      "id": "a5",
+      "text": "In twenty twelve, they announced it to the world. A permanent human colony on Mars. The first crew of four would land in twenty twenty three.",
+      "img": "mars_colony",
+      "query": "Mars base habitat concept art NASA",
+      "stat": "2012 · LAND BY 2023",
+      "cap": "A permanent colony on Mars.",
+      "tone": "awe"
+    },
+    {
+      "id": "a5a",
+      "text": "And the plan was staged and specific. A robotic scout first. Then supplies and habitats, waiting on the surface. And only then, four humans. On paper, it read like a real space program, with a real schedule.",
+      "img": "mars_colony",
+      "cap": "A real schedule. On paper.",
+      "tone": "confidence"
+    },
+    {
+      "id": "a6",
+      "text": "And here was the idea that made it sound possible. The reason no one had colonized Mars, Lansdorp argued, was the trip home.",
+      "img": "rocket_launch",
+      "query": "rocket launch flames night",
+      "cap": "The problem was always the return.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a7",
+      "text": "Building a rocket that can lift off from the surface of Mars is brutally hard and brutally expensive. So Lansdorp's answer was simple, and chilling. Don't come back.",
+      "img": "mars_lonely",
+      "query": "Mars barren landscape rover tracks",
+      "cap": "So don't come back.",
+      "motion": "slow",
+      "tone": "fear"
+    },
+    {
+      "id": "a8",
+      "text": "Cut the return trip, and suddenly the mission fits inside technology that already exists. Or so the pitch went.",
+      "kinetic": { "words": ["One", "way", "makes", "it", "possible."] },
+      "tone": "curiosity"
+    },
+    {
+      "id": "a9",
+      "text": "Mars One, Lansdorp said, would not even build the hardware. It would be an integrator, buying proven parts from the giants, from SpaceX, from Lockheed Martin, from Paragon.",
+      "img": "rocket_factory",
+      "query": "rocket assembly factory aerospace",
+      "stock": true,
+      "cap": "\"We just buy proven parts.\"",
+      "tone": "confidence"
+    },
+    {
+      "id": "a9a",
+      "text": "And the timing felt perfect. This was the dawn of the private space age. If a company like SpaceX could land its rockets upright, why couldn't a bold enough startup land people? The impossible suddenly felt overdue.",
+      "img": "rocket_launch",
+      "cap": "The private space age had begun.",
+      "tone": "hope"
+    },
+    {
+      "id": "a10",
+      "text": "It even paid real aerospace firms for real concept studies. On paper, it looked less like a fantasy and more like a startup.",
+      "img": "blueprint",
+      "query": "engineering blueprint spacecraft schematic",
+      "stock": true,
+      "cap": "It hired real firms.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a11",
+      "text": "Mars One was suddenly everywhere. CNN, the BBC, TED stages, magazine covers. For a while, it genuinely felt like watching the future being born, live, in front of us.",
+      "img": "media_frenzy",
+      "query": "press conference journalists cameras crowd",
+      "stock": true,
+      "cap": "It felt like the future.",
+      "motion": "fast",
+      "tone": "hope"
+    },
+    {
+      "id": "c2",
+      "text": "Chapter two. A ticket to the stars.",
+      "chapter": "2 — A TICKET\nTO THE STARS"
+    },
+    {
+      "id": "b1",
+      "text": "But a Mars colony costs billions. Lansdorp estimated six billion dollars just for the first crew. So where does a small Dutch foundation find six billion dollars?",
+      "img": "money_space",
+      "query": "Mars planet dramatic lighting space",
+      "stat": "$6 BILLION",
+      "cap": "Where do you find $6 billion?",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b1a",
+      "text": "Lansdorp had two answers. The first was ordinary. Investors. The second was radical, and it was the one that made headlines around the world.",
+      "img": "money_space",
+      "cap": "Two ways to pay for Mars.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b2",
+      "text": "The answer was the most audacious part of the whole plan. They would televise it. The selection, the training, the landing, a global reality show about the first humans on another world.",
+      "img": "tv_broadcast",
+      "query": "television broadcast studio cameras lights",
+      "stock": true,
+      "cap": "Fund it like the Olympics.",
+      "tone": "awe"
+    },
+    {
+      "id": "b3",
+      "text": "Think of the Olympics, Lansdorp said. Billions of people watch. The broadcast rights alone could pay for the mission. It was the single most-watched event in human history, waiting to happen.",
+      "img": "earth_night",
+      "query": "Earth at night city lights from space",
+      "cap": "The most-watched event in history.",
+      "tone": "hope"
+    },
+    {
+      "id": "b3a",
+      "text": "Lansdorp put numbers on it that were almost hard to say out loud. Broadcasting the mission, he claimed, could eventually bring in as much as forty five billion dollars. Enough, on paper, to pay for everything, many times over.",
+      "img": "earth_night",
+      "stat": "$45B, HE CLAIMED",
+      "cap": "$45 billion in TV rights.",
+      "tone": "awe"
+    },
+    {
+      "id": "b3b",
+      "text": "To prove it was real, in December twenty thirteen, Mars One asked the public directly. A crowdfunding campaign for a robotic scout mission by twenty eighteen. It raised about four hundred thousand dollars. That scout never flew.",
+      "img": "payment",
+      "stat": "RAISED ~$400K",
+      "cap": "Crowdfunded a probe that never launched.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b3c",
+      "text": "It hired real names, too. Lockheed Martin, paid to study a Mars lander. Paragon, to study life support. They were only paper studies. But they bought Mars One something priceless. Credibility.",
+      "img": "blueprint",
+      "cap": "It hired Lockheed. It hired Paragon.",
+      "tone": "confidence"
+    },
+    {
+      "id": "b4",
+      "text": "And to get the cast, in April twenty thirteen, Mars One did something extraordinary. It opened applications to the entire human race. Anyone could apply to leave Earth forever.",
+      "img": "crowd_world",
+      "query": "diverse crowd of people faces",
+      "stock": true,
+      "stat": "APR 2013",
+      "cap": "Anyone could apply.",
+      "tone": "awe"
+    },
+    {
+      "id": "b5",
+      "text": "The response was staggering. In the first two weeks alone, Mars One said seventy eight thousand people had applied, from more than a hundred and twenty countries.",
+      "img": "world_map",
+      "query": "world map connections network glowing",
+      "stock": true,
+      "stat": "78,000 IN 2 WEEKS",
+      "cap": "78,000 in two weeks.",
+      "tone": "awe"
+    },
+    {
+      "id": "b6",
+      "text": "By the time it was over, the number Mars One gave the press was the one that went around the world. More than two hundred thousand people, it said, wanted a one-way ticket to Mars.",
+      "img": "stars_dream",
+      "stat": "202,586",
+      "cap": "\"Over 200,000 applied.\"",
+      "tone": "awe"
+    },
+    {
+      "id": "b6a",
+      "text": "And the media loved it. A one-way ticket to Mars was an irresistible story, and almost no one paused to check the arithmetic behind it. The number became a fact simply by being repeated.",
+      "img": "headlines",
+      "cap": "Repeated until it became a fact.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b7",
+      "text": "And these were not all thrill seekers. They were doctors, teachers, engineers. People who told their husbands and wives and children that they were training to leave the planet, and never come back.",
+      "img": "family_window",
+      "query": "person looking out window contemplative",
+      "stock": true,
+      "cap": "They told their families goodbye.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "b7a",
+      "text": "Take Sonia Van Meter, a political consultant in Texas, married, with two young stepsons. She applied for a one-way seat, and she meant it. Her family began, slowly, to prepare for a goodbye with no return.",
+      "img": "family_window",
+      "cap": "Sonia Van Meter meant it.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "b7b",
+      "text": "Others wrote open essays with titles like, why I am volunteering to die on Mars. These were not gullible fools. They were sincere, credentialed people, rebuilding their whole identities around a single promise.",
+      "img": "believer",
+      "query": "person portrait looking up hopeful sky",
+      "stock": true,
+      "cap": "Sincere. Credentialed. All in.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "b8",
+      "text": "In February twenty fifteen, Mars One narrowed the field to its final hundred. Fifty men, fifty women, from around the world. They called them the Mars One Hundred.",
+      "img": "hundred_faces",
+      "query": "grid of diverse portrait photographs",
+      "stock": true,
+      "stat": "THE MARS 100",
+      "cap": "50 men. 50 women.",
+      "tone": "hope"
+    },
+    {
+      "id": "b8a",
+      "text": "Among the hundred were a British astrophysicist, an Australian sustainability researcher, a physics PhD student. Ordinary, brilliant people who had quietly decided that Mars was worth dying for.",
+      "img": "believer",
+      "cap": "Brilliant people. All in.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "b9",
+      "text": "One of them was the astrophysicist in Dublin. His name is Joseph Roche. And unlike almost everyone else, he had the training to actually check the claims he was being sold.",
+      "img": "trinity_dublin",
+      "query": "Trinity College Dublin university building",
+      "stock": true,
+      "cap": "Dr. Joseph Roche.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b10",
+      "text": "What he found would take the whole dream apart. It started with a single, simple question. How many people had really applied?",
+      "img": "mars_orbit",
+      "cap": "It started with one question.",
+      "extraHold": 24,
+      "tone": "fear"
+    },
+    {
+      "id": "c3",
+      "text": "Chapter three. The number.",
+      "chapter": "3 — THE\nNUMBER"
+    },
+    {
+      "id": "n1",
+      "text": "Two hundred thousand applicants. It was in every headline. Time magazine, CNN, the BBC. Nobody stopped to ask what the word applicant actually meant.",
+      "img": "headlines",
+      "query": "newspaper headlines montage press",
+      "stock": true,
+      "cap": "Nobody asked what it meant.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "n2",
+      "text": "Because the two hundred thousand were not applicants. They were people who had left an email address on a website. That was it.",
+      "img": "email_screen",
+      "query": "email inbox screen close up",
+      "stock": true,
+      "cap": "It counted email sign-ups.",
+      "tone": "fear"
+    },
+    {
+      "id": "n2a",
+      "text": "Mars One's own chief medical officer explained the gap this way. There were hurdles, he said. And the very first hurdle was a payment. A small administration fee.",
+      "img": "email_screen",
+      "cap": "\"The first hurdle was a payment.\"",
+      "tone": "curiosity"
+    },
+    {
+      "id": "n3",
+      "text": "A real application meant something completely different. You had to pay a fee, film a video, submit a medical statement, and answer a questionnaire. Almost nobody did.",
+      "img": "webcam_video",
+      "query": "person recording webcam video laptop",
+      "stock": true,
+      "cap": "Almost nobody finished.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "n4",
+      "text": "By the close of applications, the number who had actually paid and submitted a video was not two hundred thousand. According to NBC News, it was two thousand seven hundred and eighty two.",
+      "kinetic": { "count": 200000, "countLabel": "\"applicants\"", "strike": 2782, "strikeLabel": "actually completed (NBC News, 2013)" },
+      "extraHold": 30,
+      "tone": "shock"
+    },
+    {
+      "id": "n5",
+      "text": "That is not a rounding error. That is the difference between a global phenomenon and a crowd that would not fill a small theatre. The headline was off by ninety nine percent.",
+      "img": "empty_theatre",
+      "query": "empty theatre auditorium seats",
+      "stock": true,
+      "stat": "OFF BY 99%",
+      "cap": "A crowd, not a phenomenon.",
+      "tone": "fear"
+    },
+    {
+      "id": "n5a",
+      "text": "And inside Mars One, even the numbers disagreed with each other. Its own chief medical officer told the Guardian he had seen around eighty thousand applications. Two hundred thousand. Eighty thousand. A few thousand. Not one figure matched the next.",
+      "img": "headlines",
+      "stat": "200,000? 80,000? 2,782?",
+      "cap": "None of the numbers matched.",
+      "tone": "fear"
+    },
+    {
+      "id": "n6",
+      "text": "When the criticism grew, Mars One quietly updated its own website. The true number of completed applications, it now admitted, was four thousand two hundred and twenty seven. Still barely two percent of the number it had sold to the world.",
+      "img": "website_edit",
+      "query": "website screen statistics data",
+      "stock": true,
+      "stat": "ADMITTED: 4,227",
+      "cap": "Its own number: 4,227.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "n6a",
+      "text": "And even four thousand was only Mars One's own count. As the journalist Elmo Keep put it, we do not know that four thousand is any more real than two hundred thousand. It is simply what they are telling us.",
+      "img": "website_edit",
+      "cap": "Still just self-reported.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "n7",
+      "text": "And why did so few people finish? Because of the very first hurdle. To apply, you had to pay.",
+      "img": "payment",
+      "query": "credit card online payment hand",
+      "stock": true,
+      "cap": "First, you had to pay.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "ex_fee",
+      "img": "globe_money",
+      "query": "world map currency money global finance",
+      "stock": true,
+      "stat": "$5 – $73 BY COUNTRY",
+      "cap": "A fee scaled to your country.",
+      "text": "The application fee was not flat. It was tiered by the wealth of your country. As little as five dollars in the poorest nations. Thirty eight dollars in the United States. Up to seventy three in the richest.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "n8",
+      "text": "Mars One framed this as fairness, making the dream affordable everywhere. Its critics saw something else. A dream that turned every hopeful into a paying customer.",
+      "img": "money_hand",
+      "query": "hand holding cash money",
+      "stock": true,
+      "cap": "Every hopeful, a customer.",
+      "tone": "fear"
+    },
+    {
+      "id": "n9",
+      "text": "How much did the fees raise? We do not know. Lansdorp never disclosed it, and no audited accounts were ever published. But the strangest part was not the money coming in. It was how you climbed the list once you were in.",
+      "img": "mars_dust",
+      "cap": "But the money wasn't the strangest part.",
+      "extraHold": 24,
+      "tone": "fear"
+    },
+    {
+      "id": "c4",
+      "text": "Chapter four. Points.",
+      "chapter": "4 — POINTS"
+    },
+    {
+      "id": "p1",
+      "text": "This is where Joseph Roche stopped being a finalist, and started being a whistleblower. Because the deeper he got, the less the selection looked like a space program.",
+      "img": "roche_words",
+      "query": "person thinking serious portrait shadow",
+      "stock": true,
+      "cap": "The insider who spoke up.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "p2",
+      "text": "In March twenty fifteen, Roche went on the record with the journalist Elmo Keep, in an investigation for Medium. What he described was not a rigorous astronaut search.",
+      "img": "journalism",
+      "query": "investigative journalist writing notes laptop dim",
+      "stock": true,
+      "cap": "Reporting by Elmo Keep · Medium, 2015.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "p3",
+      "text": "By Roche's account, his entire vetting to become one of the first humans on Mars came down to this. A questionnaire. A video. A medical exam he arranged with his own doctor. And a single ten minute call over Skype.",
+      "kinetic": { "words": ["A", "ten-minute", "Skype", "call."] },
+      "extraHold": 20,
+      "tone": "shock"
+    },
+    {
+      "id": "p3a",
+      "text": "The selection was supposed to have far more. Group challenges. Isolation tests. A real, televised astronaut trial. But round after round was quietly postponed, or cancelled, or simply never arranged.",
+      "img": "empty_office",
+      "cap": "The real tests never came.",
+      "tone": "fear"
+    },
+    {
+      "id": "p4",
+      "text": "There was no in-person interview. The multi-day regional round he had been promised was quietly cancelled. In his words, it was, quote, just not enough information to make a judgment on someone about anything.",
+      "img": "laptop_call",
+      "query": "video call laptop screen webcam",
+      "stock": true,
+      "cap": "\"Not enough to judge anyone.\"",
+      "tone": "fear"
+    },
+    {
+      "id": "p5",
+      "text": "Then came the part that alarmed him most. Every candidate sat on a public leaderboard, ranked by points. And Roche said there was really only one way to earn more of them.",
+      "img": "leaderboard",
+      "query": "ranking chart leaderboard graphic screen",
+      "stock": true,
+      "cap": "Ranked by points.",
+      "tone": "fear"
+    },
+    {
+      "id": "p6",
+      "text": "You could buy Mars One merchandise. You could donate money. According to Roche, the more you gave, the higher you climbed. The list of the most likely people to go to Mars looked, to him, a lot like a list of the biggest donors.",
+      "img": "merch_store",
+      "query": "online store shopping cart merchandise",
+      "stock": true,
+      "cap": "Buy merch. Donate. Climb.",
+      "tone": "fear"
+    },
+    {
+      "id": "p6a",
+      "text": "When the Guardian published a list of the top ten most likely Mars One hopefuls, Roche said the ranking was, in large part, a ranking of who had donated the most. The public faces of the mission were, quietly, its biggest givers.",
+      "img": "leaderboard",
+      "cap": "The 'top 10' were the top donors.",
+      "tone": "fear"
+    },
+    {
+      "id": "p6b",
+      "text": "Watching all of this, some writers reached for a very different comparison. Not a space agency at all. Something closer to a multi-level marketing scheme, wearing the costume of exploration.",
+      "img": "merch_store",
+      "cap": "Critics saw an MLM in a spacesuit.",
+      "tone": "fear"
+    },
+    {
+      "id": "p7",
+      "text": "And Roche said that when reporters paid finalists for interviews, Mars One asked the candidates to donate seventy five percent of that fee straight back to the organization.",
+      "img": "interview_lights",
+      "query": "television interview studio lights microphone",
+      "stock": true,
+      "stat": "75% BACK TO MARS ONE",
+      "cap": "Even the interview money flowed back.",
+      "tone": "fear"
+    },
+    {
+      "id": "p7a",
+      "text": "And everyone who applied had been automatically enrolled in what Mars One called its community, and handed points. The entire hopeful crowd had quietly become an audience. One that could be sold to, and sold things.",
+      "img": "merch_store",
+      "cap": "Applicants became an audience.",
+      "tone": "fear"
+    },
+    {
+      "id": "p8",
+      "text": "This is the moment to be careful, and fair. These are Roche's allegations, reported by one journalist. They are not a court's findings. And Bas Lansdorp rejected them, flatly.",
+      "img": "mars_dust",
+      "cap": "Lansdorp rejected it.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "p9",
+      "text": "Donations, Lansdorp said, had nothing to do with who was selected. Many candidates who gave money did not advance. Many who gave nothing did. To suggest otherwise, he said, was, quote, simply a lie.",
+      "kinetic": { "words": ["\"Simply", "a", "lie.\"", "— Lansdorp"] },
+      "tone": "confidence"
+    },
+    {
+      "id": "p9a",
+      "text": "Mars One also insisted its screening was serious, with checks it said were similar to NASA's own. But when Elmo Keep pressed for specifics, who sat on the committee, where the tests happened, how long they took, she reported that the answers simply never came.",
+      "img": "empty_office",
+      "cap": "\"Similar to NASA,\" they said.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "p10",
+      "text": "So we are left with a dispute, not a verdict. A respected scientist on one side. A sincere founder on the other. But Roche was about to be joined by five engineers who did not deal in opinions. They dealt in numbers.",
+      "img": "mit_campus",
+      "query": "MIT university campus building dome",
+      "stock": true,
+      "cap": "Then MIT ran the numbers.",
+      "extraHold": 24,
+      "tone": "curiosity"
+    },
+    {
+      "id": "c5",
+      "text": "Chapter five. Sixty eight days.",
+      "chapter": "5 — SIXTY-\nEIGHT DAYS"
+    },
+    {
+      "id": "m1",
+      "text": "In twenty fourteen, a team of engineers at MIT did something no journalist could. They took Mars One's own plan, fed it into a life support simulation, and asked a single question. Would the colonists survive?",
+      "img": "mit_lab",
+      "query": "engineering laboratory computer simulation screens",
+      "stock": true,
+      "stat": "MIT, 2014",
+      "cap": "They ran the plan through a simulation.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "m1a",
+      "text": "They did not guess. They built their simulation on the only closed habitat humans have ever actually run for real. The International Space Station. And even with that as the starting point, the colony died.",
+      "img": "esa_space",
+      "cap": "Modeled on the real space station.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "ex_mit",
+      "exhibit": true,
+      "img": "ex_mit",
+      "source": "Do, Ho, Schreiner, Owens, de Weck · MIT · 2014",
+      "highlight": [0.04, 0.09, 0.6, 0.22],
+      "cap": "The verdict: as designed, it kills the crew.",
+      "text": "This is that study. An independent assessment, by five MIT engineers, of whether human beings could actually survive Mars One's colony. Its verdict was brutal. As designed, the mission would kill its own crew.",
+      "extraHold": 20,
+      "tone": "fear"
+    },
+    {
+      "id": "m2",
+      "text": "But here is the cruel twist. The first settler would not die from running out of oxygen. They would die from too much of it.",
+      "img": "mars_habitat_in",
+      "query": "greenhouse plants growing indoor artificial light",
+      "stock": true,
+      "cap": "Not too little oxygen. Too much.",
+      "tone": "fear"
+    },
+    {
+      "id": "m3",
+      "text": "To feed the crew, Mars One planned to grow crops inside the habitat. But those plants breathe out oxygen. In a sealed base, oxygen would build and build, until the air itself became a fire hazard.",
+      "img": "greenhouse_mars",
+      "query": "hydroponic farm plants rows indoor",
+      "stock": true,
+      "cap": "The crops flood the air with oxygen.",
+      "tone": "fear"
+    },
+    {
+      "id": "m3a",
+      "text": "It began with food. Mars One planned about fifty square metres of crops. MIT calculated you would need closer to two hundred just to keep the crew alive. And more plants meant more oxygen, and a far bigger problem.",
+      "img": "greenhouse_mars",
+      "stat": "50 m² vs 200 m²",
+      "cap": "Four times the crops. Four times the oxygen.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "m4",
+      "text": "There was no technology in the plan to pull that extra oxygen out. So the only fix was to vent the air, and replace it with nitrogen. Except the nitrogen would run out.",
+      "img": "valve_pressure",
+      "query": "industrial pressure valve gauge pipes",
+      "stock": true,
+      "cap": "Vent the air. Add nitrogen. Repeat.",
+      "tone": "fear"
+    },
+    {
+      "id": "m5",
+      "text": "And once it did, every attempt to control the oxygen would bleed away the atmosphere itself. The pressure would fall. And around day sixty eight, the crew would suffocate. Not in a disaster. On schedule.",
+      "kinetic": { "count": 68, "countLabel": "days to the first death", "sub": "MIT feasibility study, 2014" },
+      "extraHold": 30,
+      "tone": "melancholy"
+    },
+    {
+      "id": "m5a",
+      "exhibit": true,
+      "img": "ex_promise",
+      "source": "Mars One design claim, quoted in the MIT study, slide 12",
+      "highlight": [0.01, 0.62, 0.46, 0.34],
+      "text": "Because Mars One's central promise had always been this. No new major developments or inventions are needed, its plan said. Only existing, validated, available technology. MIT checked that claim, system by system, and found several of those technologies did not yet exist at the level required.",
+      "cap": "\"No new inventions are needed.\"",
+      "tone": "fear"
+    },
+    {
+      "id": "m6",
+      "exhibit": true,
+      "img": "ex_launch",
+      "source": "MIT feasibility study · Summary and Conclusions",
+      "highlight": [0.04, 0.4, 0.84, 0.11],
+      "text": "And suffocation was only the beginning. The logistics were just as impossible. To land the gear for the first crews, MIT calculated you would need ten to fourteen of the largest rockets on Earth, for the setup alone. Mars One had planned for six.",
+      "cap": "10–14 launches, not 6.",
+      "tone": "fear"
+    },
+    {
+      "id": "m7",
+      "exhibit": true,
+      "img": "ex_spares",
+      "source": "MIT feasibility study · Logistics Demands for First 10 Crews",
+      "highlight": [0.58, 0.16, 0.37, 0.52],
+      "text": "And because nothing ever comes back, the spare parts pile up, mission after mission. MIT projected that after a couple of decades on the surface, spare parts alone would make up more than half of everything shipped from Earth. The colony would spend itself just staying alive.",
+      "cap": "Spares swallow the mission.",
+      "tone": "fear"
+    },
+    {
+      "id": "m7a",
+      "text": "And the bill only grew. By the time you were resupplying just the third crew, MIT estimated you would need up to twenty four heavy launches, at a cost of over seven billion dollars. For a single resupply run. And then it would climb again.",
+      "img": "rocket_launch",
+      "stat": "3RD CREW: OVER $7 BILLION",
+      "cap": "And it never stops climbing.",
+      "tone": "fear"
+    },
+    {
+      "id": "m8",
+      "text": "Lansdorp fought back hard. The study, he said, made wrong assumptions and had, quote, nothing to do with our mission. Oxygen removal, he insisted, already existed in hospitals. It just needed testing in space.",
+      "img": "mars_lonely",
+      "cap": "Lansdorp fought back.",
+      "motion": "slow",
+      "tone": "confidence"
+    },
+    {
+      "id": "m8a",
+      "text": "He offered his own competing numbers. He could do it, he said, for one point six billion dollars, using thirteen launches, not fifteen. But on one point, even he gave ground. His six billion dollar price tag, he admitted, was probably too low.",
+      "img": "coins_stack",
+      "stat": "HE ADMITTED: $6B TOO LOW",
+      "cap": "Even he conceded the price.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "m9",
+      "text": "But then came a public debate, in August twenty fifteen, where the two sides finally met. And something remarkable happened. They agreed.",
+      "img": "debate_stage",
+      "query": "panel debate stage audience conference",
+      "stock": true,
+      "stat": "AUG 2015",
+      "cap": "Then they debated in public.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "m9a",
+      "text": "And at that debate, Mars One's own technical partner, from the very company it had hired to study its life support, sat across from the MIT team and conceded. Their analysis, he agreed, was essentially correct.",
+      "img": "debate_stage",
+      "cap": "Even his own expert agreed.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "m10",
+      "text": "Mars One's own technical partner conceded the MIT analysis was largely correct. And Lansdorp himself admitted that the specific plan to land humans by twenty twenty seven was, in his words, mostly fiction.",
+      "kinetic": { "words": ["\"Mostly", "fiction.\"", "— Lansdorp,", "2015"] },
+      "extraHold": 24,
+      "tone": "melancholy"
+    },
+    {
+      "id": "m10a",
+      "text": "And then he did something stranger still. He reframed the study that predicted his colonists suffocating as support for his plan. I actually consider it, he said, a confirmation of Mars One. The goal, he insisted, had always been sincere, even when the plan was fiction.",
+      "img": "lansdorp",
+      "cap": "\"A confirmation.\" — Lansdorp",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "m11",
+      "text": "The founder was still sincere. He still wanted humans on Mars. But he had just admitted, out loud, that the timeline millions of people believed in was not real. The science was finished. The money was next.",
+      "img": "mars_lonely",
+      "cap": "The science was finished.",
+      "extraHold": 20,
+      "tone": "melancholy"
+    },
+    {
+      "id": "c6",
+      "text": "Chapter six. The show that never aired.",
+      "chapter": "6 — THE SHOW\nTHAT NEVER AIRED"
+    },
+    {
+      "id": "f1",
+      "text": "Remember, the entire plan to pay for Mars rested on one thing. The greatest reality show ever made. And in June twenty fourteen, it looked real.",
+      "img": "reality_tv",
+      "query": "television production set cameras crew studio",
+      "stock": true,
+      "cap": "A deal with the Big Brother producers (2014).",
+      "tone": "hope"
+    },
+    {
+      "id": "f2",
+      "text": "Mars One signed a production company owned by Endemol, the studio behind Big Brother, to film the astronaut selection and training. The most-watched event in history finally had a broadcaster.",
+      "img": "tv_broadcast",
+      "cap": "Endemol was in.",
+      "tone": "hope"
+    },
+    {
+      "id": "f3",
+      "text": "And then, in February twenty fifteen, it collapsed. The two sides could never agree on a contract. Not a single frame was ever filmed. The funding model walked out the door.",
+      "img": "tv_dark",
+      "query": "empty television studio dark",
+      "stock": true,
+      "stat": "DEAL COLLAPSED",
+      "cap": "Not one frame was shot.",
+      "tone": "fear"
+    },
+    {
+      "id": "f3a",
+      "text": "Mars One tried to salvage it. Instead of a live global show, it would make its own short films. But a handful of web videos is not the Olympics. The money engine was gone, and it never came back.",
+      "img": "tv_dark",
+      "cap": "Web videos, not the Olympics.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "f4",
+      "text": "With the reality show gone, Mars One needed a new way to look like a real business. So in twenty sixteen, it did something clever, and hollow. It went public on a stock exchange.",
+      "img": "stock_exchange",
+      "query": "stock exchange trading floor screens",
+      "stock": true,
+      "stat": "2016 · FRANKFURT",
+      "cap": "It went public.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f5",
+      "text": "Not through a normal listing. Through a reverse takeover of a dormant Swiss shell company called InFin, a former mobile payments firm that had gone quiet. On paper, the deal valued Mars One at eighty seven million euros.",
+      "img": "shell_company",
+      "query": "empty office building corporate glass",
+      "stock": true,
+      "stat": "PAPER VALUE: €87M",
+      "cap": "A reverse merger with a shell.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f5a",
+      "text": "InFin was a dormant former mobile-payments firm. After the merger, the old Mars One owners kept ninety seven percent of the new stock. They had not really raised money. They had merged a dream into an empty shell, and called it public.",
+      "img": "shell_company",
+      "cap": "A dream, merged into a shell.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f6",
+      "text": "But paper is not cash. When the shares actually started trading, in Frankfurt, they opened at sixteen euro cents. The real market value of the company that promised to colonize Mars was under three million euros.",
+      "kinetic": { "count": 87000000, "prefix": "€", "countLabel": "on paper", "strike": 3000000, "strikeLabel": "real market value (under)" },
+      "extraHold": 24,
+      "tone": "fear"
+    },
+    {
+      "id": "f7",
+      "text": "Follow the actual money and it was tiny. Donations and merchandise, by Mars One's own count, came to under a million dollars. A crowdfunding campaign raised about three hundred thousand more. Against a mission that needed six billion.",
+      "img": "coins_stack",
+      "query": "small stack of coins on table",
+      "stock": true,
+      "cap": "Under $1 million raised.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "f7a",
+      "text": "And the structure underneath was stranger than it looked. There were two Mars Ones. A Dutch non-profit that owned the mission. And a for-profit that owned the money. The for-profit promised the mission just five cents of every dollar it earned.",
+      "img": "shell_company",
+      "stat": "5% TO THE MISSION",
+      "cap": "Two companies. One dream.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f7b",
+      "text": "Follow that math to the end. To fund a six billion euro mission on a five percent cut, the company would have had to earn a hundred and twenty billion euros. More than almost any media franchise in history. The business model was, quietly, impossible from the start.",
+      "kinetic": { "count": 120000000000, "prefix": "€", "countLabel": "revenue needed to fund the mission", "sub": "on a 5% cut of a €6B mission" },
+      "extraHold": 24,
+      "tone": "fear"
+    },
+    {
+      "id": "f7c",
+      "text": "By independent accounts, the company was running on almost nothing, and had been in debt for years, according to Dutch filings. Its own chief medical officer said, plainly, that he had no clue what the finances at all were.",
+      "img": "court_files",
+      "cap": "\"No clue,\" said its own doctor.",
+      "tone": "fear"
+    },
+    {
+      "id": "f7d",
+      "text": "And the money that did come in? By Mars One's own accounting, most of it went to concept studies, travel, and marketing. Its critics had a blunter version. It went into videos, not a spaceship.",
+      "img": "money_hand",
+      "cap": "Videos, not a spaceship.",
+      "tone": "fear"
+    },
+    {
+      "id": "f8",
+      "text": "And the deadlines kept sliding. The first landing moved from twenty twenty three, to twenty twenty five, to twenty twenty seven, and finally to twenty thirty one. Always just far enough away to keep believing.",
+      "kinetic": { "words": ["2023.", "2025.", "2027.", "2031."] },
+      "extraHold": 20,
+      "tone": "melancholy"
+    },
+    {
+      "id": "f9",
+      "text": "No rocket was ever built. No robotic probe ever flew. The colony existed only in press releases and beautifully rendered concept art. And then, very quietly, it ended.",
+      "img": "mars_colony",
+      "cap": "It only ever existed on paper.",
+      "extraHold": 24,
+      "tone": "melancholy"
+    },
+    {
+      "id": "c7",
+      "text": "Chapter seven. A quiet bankruptcy.",
+      "chapter": "7 — A QUIET\nBANKRUPTCY"
+    },
+    {
+      "id": "e1",
+      "text": "There was no press conference. No apology to the two hundred thousand. No message to the hundred finalists who had told their families they were leaving Earth.",
+      "img": "empty_office",
+      "query": "empty abandoned office chairs",
+      "stock": true,
+      "cap": "No announcement. No apology.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "ex_bank",
+      "img": "legal_doc",
+      "query": "official court legal document stamp signature",
+      "stock": true,
+      "stat": "15 JAN 2019 · 3:37 PM",
+      "cap": "The dream had a time of death.",
+      "text": "On the fifteenth of January, twenty nineteen, at three thirty seven in the afternoon, a civil court in Basel, Switzerland, declared the company bankrupt. The dream had a time of death.",
+      "extraHold": 24,
+      "tone": "melancholy"
+    },
+    {
+      "id": "e2",
+      "text": "The for-profit arm that was supposed to raise billions had debts of roughly one million euros. And in its accounts, according to reporting, less than twenty five thousand dollars. Less than the price of a car.",
+      "img": "empty_wallet",
+      "query": "empty bank vault door",
+      "stock": true,
+      "stat": "DEBT ~€1M · <$25,000 LEFT",
+      "cap": "Less than the price of a car.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e2a",
+      "text": "Sit with the size of that gap. A company that once said it would spend six billion dollars, and earn tens of billions more, had ended with about a million euros in debt and almost nothing in the bank. The distance between the promise and the reality was the entire story.",
+      "img": "empty_wallet",
+      "cap": "$6 billion promised. Almost nothing left.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e3",
+      "text": "And the strangest detail of all. Almost nobody noticed. For nearly a month, the death of Mars One sat unread in a Swiss court register.",
+      "img": "court_files",
+      "query": "legal documents files archive shelves",
+      "stock": true,
+      "cap": "Nobody noticed for weeks.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e4",
+      "text": "The world only found out in February, when an anonymous user on Reddit stumbled across the filing and posted a link. That is how the mission to colonize Mars ended. As a link on a message board.",
+      "img": "reddit_screen",
+      "query": "computer screen online forum dark room",
+      "stock": true,
+      "stat": "FOUND ON REDDIT",
+      "cap": "The end was a Reddit post.",
+      "extraHold": 20,
+      "tone": "melancholy"
+    },
+    {
+      "id": "e4a",
+      "text": "For the hundred finalists, there was no letter. Many of them learned that the mission they had rebuilt their whole lives around was dead the same way the rest of the world did. From a news story.",
+      "img": "family_window",
+      "cap": "The finalists found out from the news.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e5",
+      "text": "Bas Lansdorp says the non-profit foundation still legally exists, that it is only stalled, that he is still looking for an investor. As of today, no one has ever gone to Mars with Mars One. No one ever will.",
+      "img": "lansdorp",
+      "cap": "\"Stalled, not dead.\" — Lansdorp",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e6",
+      "text": "And let us be precise about what this was, and what it was not. Mars One went bankrupt. That is insolvency. It is not a court finding of fraud. Bas Lansdorp was never charged with a crime.",
+      "img": "mars_dust",
+      "cap": "Bankruptcy is not fraud.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e7",
+      "text": "Critics called it a scam. A money grab. The fake mission that fooled the world. But those are their words, not a verdict. The truth sits in a harder, greyer place.",
+      "kinetic": { "words": ["Not", "a", "verdict.", "A", "warning."] },
+      "extraHold": 20,
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda1",
+      "text": "So what do we do with a story like this? Because here is what stays with me. It is not the missing money. It is not even the physics.",
+      "img": "mars_sunset",
+      "cap": "What stays with me isn't the money.",
+      "motion": "slow",
+      "speed": 0.94,
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda2",
+      "text": "It is how badly people wanted to go. Two hundred thousand of them raised their hands to leave everything they had ever known, forever, to stand on red dirt under a small, cold sun.",
+      "img": "mars_lonely",
+      "cap": "It's how badly they wanted to go.",
+      "motion": "slow",
+      "speed": 0.94,
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda2a",
+      "text": "Some of them had already begun to let go. Sonia Van Meter's family had started, gently, to picture a life without her. That is what a ticket like this really costs. Not just money. Years of a real person's hope.",
+      "img": "family_window",
+      "cap": "Years of real hope.",
+      "speed": 0.94,
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda3",
+      "text": "Joseph Roche never wanted revenge. He said his nightmare was simply that people would keep giving their money and their hope to something that would, in his words, inevitably fall on its face. In twenty nineteen, it did.",
+      "img": "stars_dream",
+      "cap": "Roche just wanted to warn them.",
+      "speed": 0.94,
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda3a",
+      "text": "Most of the hundred quietly moved on. Some kept working toward Mars, on real missions, with real agencies. The longing did not die with the company. It just needed an honest vehicle.",
+      "img": "stars_dream",
+      "cap": "The longing didn't die.",
+      "speed": 0.94,
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda4",
+      "text": "The dream of Mars was real. The longing was real. It was only the ticket that was fake. And maybe the most human thing in this whole story is how many of us wanted to believe the ticket was real anyway.",
+      "img": "earth_space",
+      "query": "Earth from space blue marble",
+      "cap": "The dream was real. The ticket wasn't.",
+      "motion": "slow",
+      "speed": 0.94,
+      "extraHold": 20,
+      "tone": "melancholy"
+    },
+    {
+      "id": "bridge",
+      "text": "If a mission that never left the ground can pull in two hundred thousand people, wait until you see what happened to the astronauts who actually flew, and never came home. Watch our film on the twenty one astronauts who died reaching for space.",
+      "img": "astronaut_memorial",
+      "query": "astronaut spacesuit helmet reflection dramatic",
+      "cap": "Watch next: the 21 who never came home.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "end",
+      "text": "If this story moved you, subscribe to mindwired. We tell the true stories of how far people will go to touch the stars, and what it costs them. This has been Mars One.",
+      "img": "mars_orbit",
+      "cap": "Subscribe to mindwired.",
+      "motion": "slow",
+      "tone": "confidence"
+    }
+  ]
+}

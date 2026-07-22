@@ -88,6 +88,20 @@ KIT: dict[str, tuple[str, float]] = {
         "anoisesrc=color=brown:d=15:seed=80[n];"
         "[n]lowpass=f=850,tremolo=f=0.11:d=0.65,volume=0.6[out]",
         15.0),
+    # brand-sting ident motif: a rising A-major triad bloom that resolves to a
+    # sustained chord with a shimmer tail — the mindwired audio ident (plays
+    # under the wordmark bloom + spoken line in DocWide's StingScene).
+    "sting_motif": (
+        "sine=f=220:d=4.6[n1];sine=f=277.18:d=4.6[n2];"
+        "sine=f=329.63:d=4.6[n3];sine=f=440:d=4.6[n4];"
+        "[n1]afade=t=in:st=0:d=0.3,afade=t=out:st=2.6:d=1.9,volume=0.5[a1];"
+        "[n2]adelay=340|340,afade=t=in:st=0.34:d=0.3,afade=t=out:st=2.7:d=1.8,volume=0.42[a2];"
+        "[n3]adelay=700|700,afade=t=in:st=0.70:d=0.3,afade=t=out:st=2.8:d=1.7,volume=0.4[a3];"
+        "[n4]adelay=700|700,afade=t=in:st=0.70:d=0.5,afade=t=out:st=2.8:d=1.7,volume=0.16[a4];"
+        "[a1][a2][a3][a4]amix=inputs=4:normalize=0,"
+        "aecho=0.8:0.9:360|620:0.24|0.15,highpass=f=80,lowpass=f=9500,"
+        "volume=1.35,atrim=end=4.6[out]",
+        4.6),
 }
 
 LICENSE_NOTE = """# public/sfx/ — license log

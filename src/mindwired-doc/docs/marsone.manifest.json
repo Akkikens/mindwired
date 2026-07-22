@@ -1,0 +1,423 @@
+{
+ "durations": {
+  "h1": 9.796,
+  "h2": 5.486,
+  "h3": 8.359,
+  "h4": 7.628,
+  "h5": 8.594,
+  "h6": 9.561,
+  "sting": 1.567,
+  "title": 0.757,
+  "c1": 2.508,
+  "a1": 6.922,
+  "a2": 9.953,
+  "a3": 7.967,
+  "a4": 9.717,
+  "a4a": 12.277,
+  "a5": 8.046,
+  "a5a": 14.838,
+  "a6": 6.922,
+  "a7": 9.639,
+  "a8": 5.721,
+  "a9": 11.389,
+  "a9a": 13.401,
+  "a10": 7.393,
+  "a11": 12.199,
+  "c2": 2.508,
+  "b1": 9.561,
+  "b1a": 8.281,
+  "b2": 11.729,
+  "b3": 10.762,
+  "b3a": 13.557,
+  "b3b": 13.244,
+  "b3c": 13.401,
+  "b4": 11.154,
+  "b5": 9.717,
+  "b6": 10.606,
+  "b6a": 10.684,
+  "b7": 11.076,
+  "b7a": 12.669,
+  "b7b": 12.748,
+  "b8": 10.109,
+  "b8a": 11.389,
+  "b9": 9.404,
+  "b10": 8.908,
+  "c3": 2.038,
+  "n1": 10.031,
+  "n2": 6.426,
+  "n2a": 10.031,
+  "n3": 9.561,
+  "n4": 9.796,
+  "n5": 9.639,
+  "n5a": 15.229,
+  "n6": 13.557,
+  "n6a": 11.233,
+  "n7": 5.799,
+  "ex_fee": 11.964,
+  "n8": 9.169,
+  "n9": 11.468,
+  "c4": 1.802,
+  "p1": 8.516,
+  "p2": 9.247,
+  "p3": 13.871,
+  "p3a": 13.479,
+  "p4": 11.546,
+  "p5": 9.796,
+  "p6": 13.322,
+  "p6a": 13.087,
+  "p6b": 10.606,
+  "p7": 8.829,
+  "p7a": 12.434,
+  "p8": 10.919,
+  "p9": 13.479,
+  "p9a": 14.289,
+  "p10": 12.277,
+  "c5": 2.508,
+  "m1": 12.434,
+  "m1a": 11.729,
+  "ex_mit": 13.479,
+  "m2": 6.844,
+  "m3": 11.807,
+  "m3a": 12.199,
+  "m4": 8.908,
+  "m5": 12.121,
+  "m5a": 18.364,
+  "m6": 14.289,
+  "m7": 15.151,
+  "m7a": 13.636,
+  "m8": 13.557,
+  "m8a": 15.491,
+  "m9": 9.404,
+  "m9a": 13.009,
+  "m10": 12.669,
+  "m10a": 16.196,
+  "m11": 12.826,
+  "c6": 2.508,
+  "f1": 9.091,
+  "f2": 10.606,
+  "f3": 10.449,
+  "f3a": 12.042,
+  "f4": 10.266,
+  "f5": 12.748,
+  "f5a": 12.513,
+  "f6": 13.557,
+  "f7": 12.591,
+  "f7a": 14.106,
+  "f7b": 15.569,
+  "f7c": 13.009,
+  "f7d": 12.434,
+  "f8": 11.546,
+  "f9": 12.121,
+  "c7": 2.508,
+  "e1": 8.202,
+  "ex_bank": 11.964,
+  "e2": 12.931,
+  "e2a": 15.491,
+  "e3": 8.673,
+  "e4": 11.154,
+  "e4a": 10.188,
+  "e5": 12.042,
+  "e6": 11.886,
+  "e7": 10.266,
+  "coda1": 8.359,
+  "coda2": 11.311,
+  "coda2a": 14.028,
+  "coda3": 13.479,
+  "coda3a": 10.919,
+  "coda4": 11.389,
+  "bridge": 12.434,
+  "end": 10.266
+ },
+ "images": {
+  "astronaut_memorial": [
+   "astronaut_memorial_1.jpg",
+   "astronaut_memorial_2.jpg",
+   "astronaut_memorial_3.jpg"
+  ],
+  "believer": [
+   "believer_1.jpeg",
+   "believer_2.jpeg",
+   "believer_3.jpeg"
+  ],
+  "blueprint": [
+   "blueprint_1.jpeg",
+   "blueprint_2.jpeg",
+   "blueprint_3.jpg"
+  ],
+  "coins_stack": [
+   "coins_stack_1.jpeg",
+   "coins_stack_2.jpeg",
+   "coins_stack_3.jpeg"
+  ],
+  "court_files": [
+   "court_files_1.jpeg",
+   "court_files_2.jpeg",
+   "court_files_3.jpeg"
+  ],
+  "crowd_world": [
+   "crowd_world_1.jpeg",
+   "crowd_world_2.jpeg",
+   "crowd_world_3.jpeg"
+  ],
+  "debate_stage": [
+   "debate_stage_1.jpeg",
+   "debate_stage_2.jpeg",
+   "debate_stage_3.jpeg"
+  ],
+  "dublin": [
+   "dublin_1.jpg",
+   "dublin_2.jpg",
+   "dublin_3.jpg"
+  ],
+  "earth_night": [
+   "earth_night_1.jpg",
+   "earth_night_2.jpg",
+   "earth_night_3.jpg"
+  ],
+  "earth_space": [
+   "earth_space_1.jpg",
+   "earth_space_2.jpg",
+   "earth_space_3.jpg"
+  ],
+  "email_screen": [
+   "email_screen_1.jpeg",
+   "email_screen_2.jpeg",
+   "email_screen_3.jpeg"
+  ],
+  "empty_office": [
+   "empty_office_1.jpeg",
+   "empty_office_2.jpeg",
+   "empty_office_3.jpeg"
+  ],
+  "empty_theatre": [
+   "empty_theatre_1.jpeg",
+   "empty_theatre_2.jpeg",
+   "empty_theatre_3.jpeg"
+  ],
+  "empty_wallet": [
+   "empty_wallet_1.jpeg",
+   "empty_wallet_2.jpeg",
+   "empty_wallet_3.jpeg"
+  ],
+  "esa_space": [
+   "esa_space_1.jpg",
+   "esa_space_2.jpg",
+   "esa_space_3.jpg"
+  ],
+  "ex_launch": [
+   "ex_launch_1.png"
+  ],
+  "ex_mit": [
+   "ex_mit_1.png"
+  ],
+  "ex_promise": [
+   "ex_promise_1.png"
+  ],
+  "ex_spares": [
+   "ex_spares_1.png"
+  ],
+  "family_window": [
+   "family_window_1.jpeg",
+   "family_window_2.jpeg",
+   "family_window_3.jpeg"
+  ],
+  "globe_money": [
+   "globe_money_1.jpeg",
+   "globe_money_2.jpeg",
+   "globe_money_3.jpeg"
+  ],
+  "greenhouse_mars": [
+   "greenhouse_mars_1.jpeg",
+   "greenhouse_mars_2.jpeg",
+   "greenhouse_mars_3.jpeg"
+  ],
+  "headlines": [
+   "headlines_1.jpeg",
+   "headlines_2.jpeg",
+   "headlines_3.jpeg"
+  ],
+  "hundred_faces": [
+   "hundred_faces_1.jpeg",
+   "hundred_faces_2.jpeg",
+   "hundred_faces_3.jpeg"
+  ],
+  "interview_lights": [
+   "interview_lights_1.jpeg",
+   "interview_lights_2.jpeg",
+   "interview_lights_3.jpeg"
+  ],
+  "journalism": [
+   "journalism_1.jpeg",
+   "journalism_2.jpeg",
+   "journalism_3.jpeg"
+  ],
+  "lansdorp": [
+   "lansdorp_1.jpg"
+  ],
+  "laptop_call": [
+   "laptop_call_1.jpeg",
+   "laptop_call_2.jpeg",
+   "laptop_call_3.jpeg"
+  ],
+  "leaderboard": [
+   "leaderboard_2.jpeg"
+  ],
+  "legal_doc": [
+   "legal_doc_1.jpeg",
+   "legal_doc_2.jpeg",
+   "legal_doc_3.jpeg"
+  ],
+  "mars_colony": [
+   "mars_colony_1.jpg",
+   "mars_colony_2.jpg",
+   "mars_colony_3.jpg"
+  ],
+  "mars_dust": [
+   "mars_dust_1.jpg",
+   "mars_dust_2.jpg",
+   "mars_dust_3.jpg"
+  ],
+  "mars_habitat_in": [
+   "mars_habitat_in_1.jpeg",
+   "mars_habitat_in_2.jpeg",
+   "mars_habitat_in_3.jpeg"
+  ],
+  "mars_lonely": [
+   "mars_lonely_1.jpg",
+   "mars_lonely_2.jpg",
+   "mars_lonely_3.jpg"
+  ],
+  "mars_orbit": [
+   "mars_orbit_1.jpg",
+   "mars_orbit_2.jpg",
+   "mars_orbit_3.jpg"
+  ],
+  "mars_sunset": [
+   "mars_sunset_1.jpg",
+   "mars_sunset_2.jpg",
+   "mars_sunset_3.jpg"
+  ],
+  "media_frenzy": [
+   "media_frenzy_1.jpeg",
+   "media_frenzy_2.jpeg",
+   "media_frenzy_3.jpeg"
+  ],
+  "merch_store": [
+   "merch_store_1.jpeg",
+   "merch_store_2.jpeg",
+   "merch_store_3.jpeg"
+  ],
+  "mit_campus": [
+   "mit_campus_1.jpeg",
+   "mit_campus_2.jpeg",
+   "mit_campus_3.jpeg"
+  ],
+  "mit_lab": [
+   "mit_lab_1.jpeg",
+   "mit_lab_2.jpeg",
+   "mit_lab_3.jpeg"
+  ],
+  "money_hand": [
+   "money_hand_1.jpeg",
+   "money_hand_2.jpeg",
+   "money_hand_3.jpeg"
+  ],
+  "money_space": [
+   "money_space_1.jpg",
+   "money_space_2.jpg",
+   "money_space_3.jpg"
+  ],
+  "payment": [
+   "payment_1.jpeg",
+   "payment_2.jpeg",
+   "payment_3.jpeg"
+  ],
+  "reality_tv": [
+   "reality_tv_1.jpeg",
+   "reality_tv_2.jpeg",
+   "reality_tv_3.jpeg"
+  ],
+  "reddit_screen": [
+   "reddit_screen_1.jpeg",
+   "reddit_screen_2.jpeg",
+   "reddit_screen_3.jpeg"
+  ],
+  "roche_words": [
+   "roche_words_1.jpeg",
+   "roche_words_2.jpeg",
+   "roche_words_3.jpeg"
+  ],
+  "rocket_factory": [
+   "rocket_factory_1.jpeg",
+   "rocket_factory_2.jpeg",
+   "rocket_factory_3.jpeg"
+  ],
+  "rocket_launch": [
+   "rocket_launch_1.jpg",
+   "rocket_launch_2.jpg",
+   "rocket_launch_3.jpg"
+  ],
+  "shell_company": [
+   "shell_company_1.jpeg",
+   "shell_company_2.jpeg",
+   "shell_company_3.jpeg"
+  ],
+  "stars_dream": [
+   "stars_dream_1.jpeg",
+   "stars_dream_2.jpeg",
+   "stars_dream_3.jpeg"
+  ],
+  "stock_exchange": [
+   "stock_exchange_1.jpeg",
+   "stock_exchange_2.jpeg",
+   "stock_exchange_3.jpeg"
+  ],
+  "trinity_dublin": [
+   "trinity_dublin_1.jpeg",
+   "trinity_dublin_2.jpeg",
+   "trinity_dublin_3.jpeg"
+  ],
+  "tv_broadcast": [
+   "tv_broadcast_1.jpeg",
+   "tv_broadcast_2.jpeg",
+   "tv_broadcast_3.jpeg"
+  ],
+  "tv_dark": [
+   "tv_dark_1.jpeg",
+   "tv_dark_2.jpeg",
+   "tv_dark_3.jpeg"
+  ],
+  "valve_pressure": [
+   "valve_pressure_1.jpeg",
+   "valve_pressure_2.jpeg",
+   "valve_pressure_3.jpeg"
+  ],
+  "webcam_video": [
+   "webcam_video_1.jpeg",
+   "webcam_video_2.jpeg",
+   "webcam_video_3.jpeg"
+  ],
+  "website_edit": [
+   "website_edit_1.jpeg",
+   "website_edit_2.jpg"
+  ],
+  "windfarm": [
+   "windfarm_1.jpeg",
+   "windfarm_2.jpeg",
+   "windfarm_3.jpeg"
+  ],
+  "windkite": [
+   "windkite_1.jpeg",
+   "windkite_2.jpeg",
+   "windkite_3.jpeg"
+  ],
+  "world_map": [
+   "world_map_1.jpeg",
+   "world_map_2.jpeg",
+   "world_map_3.jpeg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.96,
+ "mouth": {}
+}

@@ -28,37 +28,57 @@ All four channels, different niches, same physics:
 
 ## Craft rules to bake into the doc engine (implementation backlog)
 
+> **BUILT 2026-07-21 (Mars One pivot episode #1)** — the code capabilities below
+> are now standing parts of the doc engine (`src/mindwired-doc/DocWide.tsx`,
+> `scripts/lib/doctiming.py`, `scripts/gen_sfx_kit.py`). Verified via stills in
+> `out/qa/craftdemo/`. The remaining unchecked items are *scripting techniques*
+> applied per-episode, not code.
+
 - [ ] COLD OPEN 2.0: a dated scene with a person in tension — never a stat.
       "It's 2:07 AM, March 8, 2014. A controller keys his mic for the sixth
       time…" 45-90s before any wordmark. (Upgrade HOOK-CHECKLIST.md.)
-- [ ] DELAYED BRAND STING: 6-10s audio-led ident AFTER the cold open — one
-      recurring musical motif + spoken "you're watching mindwired." Build the
-      standing asset once; identical every episode.
-- [ ] VARIABLE TIME-DENSITY: compress context into 20-30s montages, then slow
-      to near-real-time for the pivotal 90 seconds. Ken Burns gets SLOWER and
-      tighter at turning points (scene-level camera speed field).
-- [ ] MUSIC LEADS BY ~10s + SILENCE BEFORE REVEALS: per-chapter tracks whose
-      mood pre-figures the outcome; hard cut to 2-3s of silence before the
-      biggest line. (Windowed-music system extension: per-chapter beds + a
-      "silence" cue.)
-- [ ] EXHIBIT SCENE TYPE (the Jani move): new DocWide scene rendering a real
-      document page — scanned PDF, highlighted line, slow zoom, dark blur
-      surround, source lower-third ("NTSB Docket DCA14MA067, Exhibit 12").
-      One exhibit beat per 2-3 min. Our dockets make this nearly free.
-- [ ] KINETIC TYPOGRAPHY AS SECOND NARRATOR: numbers counting up on black,
-      lies struck through, victim counts materializing word-by-word in
-      silence. New scene type "kinetic".
+      *(scripting technique — applied in each episode's opening scenes.)*
+- [x] **DELAYED BRAND STING** — `sting:true` DocWide scene: wordmark bloom +
+      expanding accent ring + the owned `sfx/sting_motif.wav` musical motif under
+      the spoken line ("You're watching mindwired."). One standing beat, every
+      episode. Plays AFTER the cold open. *(DocWide `StingScene`; motif in
+      `gen_sfx_kit.py`.)*
+- [x] **VARIABLE TIME-DENSITY** — scene field `motion:"fast"|"slow"` scales the
+      Ken Burns amplitude (fast = montage sweep, slow = near-static push for the
+      pivots); scene field `extraHold` adds controllable dead-air frames (mirrored
+      in doctiming.py). *(DocWide `IllusScene` + `sceneFrames`.)*
+- [~] MUSIC LEADS BY ~10s + SILENCE BEFORE REVEALS: windowed-music system
+      (`master.mix_music_windowed` + `doctiming.music_windows`) already scores to
+      the cold open / chapter transitions / close, leaving dry narration between —
+      that IS the "silence" between beats. A hard silence before a reveal =
+      `extraHold` on the pre-reveal scene inside a music gap. Per-chapter distinct
+      beds still optional (generate if ElevenLabs Music quota allows). *(existing
+      system + extraHold; new beds conditional.)*
+- [x] **EXHIBIT SCENE TYPE (the Jani move)** — `exhibit:true` DocWide scene renders
+      the scene's `img` (a real document page → PNG) as evidence: dark blurred
+      surround, slow push toward `highlight:[x,y,w,h]` (the damning line), an accent
+      highlight box, and an "EXHIBIT · <source>" lower-third from `source`. One beat
+      per 2-3 min. *(DocWide `ExhibitScene`.)*
+- [x] **KINETIC TYPOGRAPHY AS SECOND NARRATOR** — `kinetic:{...}` DocWide scene:
+      a number counting up (`count`), optionally struck through to a second real
+      number (`strike`, e.g. 200,000 → 2,761), and/or words materializing
+      one-by-one (`words`), silence-synced to the narration. *(DocWide
+      `KineticScene`.)*
 - [ ] FIRST-PERSON CODA: 30-45s authored reflection before the bridge ("what
       stays with me about this one…"). Converts compilation → film; builds
       narrator parasociality (a faceless channel's substitute for a face).
+      *(scripting technique — the Act 3 coda.)*
 - [ ] STEELMAN ACT ONE: make the doomed thing look invincible before it
-      falls. The fall lands as hard as the rise you built.
+      falls. The fall lands as hard as the rise you built. *(scripting — Act 1.)*
 - [ ] OPEN LOOPS ACROSS CHAPTERS: plant chapter N+1 before resolving N.
+      *(scripting — chapter-end teases.)*
 - [ ] POSTER THUMBNAILS: one lit archival photo, near-black, 2-4 serif words
       that are NOT the title. Commit to the film-grain/vignette grade as
-      permanent identity.
-- [ ] SOURCE LOWER-THIRDS everywhere + occasional on-screen line: "every
-      image in this video is from the actual investigation record."
+      permanent identity. *(thumbnail step; grain/vignette already baked in
+      DocWide's `GrainVignette`.)*
+- [x] **SOURCE LOWER-THIRDS** — delivered by the EXHIBIT scene's "EXHIBIT ·
+      <source>" lower-third; the occasional on-screen "every document is from the
+      record" line remains a scripting choice.
 
 ## Franchises (name the format in the title — Crayon Capital's #1 lesson)
 

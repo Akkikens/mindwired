@@ -1,0 +1,1284 @@
+1
+00:00:00,333 --> 00:00:04,687
+It is February, twenty fifteen. In Dublin, an astrophysicist opens an email.
+
+2
+00:00:04,687 --> 00:00:10,129
+It tells him he is one of a hundred people shortlisted to leave Earth forever.
+
+3
+00:00:11,266 --> 00:00:16,752
+The destination is Mars. The trip is one way. There is no plan to ever bring him home.
+
+4
+00:00:17,899 --> 00:00:21,615
+More than two hundred thousand people, he is told, wanted this seat.
+
+5
+00:00:21,615 --> 00:00:26,258
+He is one of the chosen few. It is the proudest moment of his life.
+
+6
+00:00:27,399 --> 00:00:31,671
+Within weeks, that same man will do something no other finalist dares to do.
+
+7
+00:00:31,671 --> 00:00:35,027
+He will start pulling the whole thing apart from the inside.
+
+8
+00:00:36,166 --> 00:00:41,323
+Because almost nothing he had been told was true. Not the science. Not the money.
+
+9
+00:00:41,323 --> 00:00:44,760
+And, it turns out, not even the two hundred thousand.
+
+10
+00:00:45,900 --> 00:00:47,928
+This is the story of Mars One.
+
+11
+00:00:47,928 --> 00:00:55,461
+The mission that sold the whole world a one-way ticket to another planet, and then quietly went bankrupt, for less than the price of a house.
+
+12
+00:00:56,600 --> 00:00:58,167
+You're watching mindwired.
+
+13
+00:00:59,300 --> 00:01:00,057
+Mars One.
+
+14
+00:01:01,200 --> 00:01:03,708
+Chapter one. The man who sold Mars.
+
+15
+00:01:04,833 --> 00:01:10,024
+To understand how so many smart people believed this, you have to start with the man selling it.
+
+16
+00:01:10,024 --> 00:01:11,755
+And he was not a crank.
+
+17
+00:01:12,899 --> 00:01:14,558
+His name is Bas Lansdorp.
+
+18
+00:01:14,558 --> 00:01:22,852
+A Dutch engineer, trained at Twente and Delft, who spent years chasing a wild idea in wind power, generating electricity from kites on a tether.
+
+19
+00:01:23,999 --> 00:01:27,370
+It worked well enough to build a real company, Ampyx Power.
+
+20
+00:01:27,370 --> 00:01:31,966
+And in twenty eleven, Lansdorp sold his stake in it to fund something far bigger.
+
+21
+00:01:33,099 --> 00:01:34,395
+He was not alone.
+
+22
+00:01:34,395 --> 00:01:40,225
+His co-founder was Arno Wielders, a physicist who had actually worked on spacecraft for the European Space Agency.
+
+23
+00:01:40,225 --> 00:01:42,816
+This was not two kids with a website.
+
+24
+00:01:43,966 --> 00:01:49,382
+And the vision was intoxicating. Not a flag and a footprint. Not a short visit.
+
+25
+00:01:49,382 --> 00:01:53,716
+A permanent, growing human settlement on another world, in our own lifetime.
+
+26
+00:01:53,716 --> 00:01:56,243
+Science fiction, finally with a launch date.
+
+27
+00:01:57,366 --> 00:02:02,008
+In twenty twelve, they announced it to the world. A permanent human colony on Mars.
+
+28
+00:02:02,008 --> 00:02:05,412
+The first crew of four would land in twenty twenty three.
+
+29
+00:02:06,533 --> 00:02:10,944
+And the plan was staged and specific. A robotic scout first.
+
+30
+00:02:10,944 --> 00:02:16,157
+Then supplies and habitats, waiting on the surface. And only then, four humans.
+
+31
+00:02:16,157 --> 00:02:21,371
+On paper, it read like a real space program, with a real schedule.
+
+32
+00:02:22,500 --> 00:02:25,509
+And here was the idea that made it sound possible.
+
+33
+00:02:25,509 --> 00:02:29,421
+The reason no one had colonized Mars, Lansdorp argued, was the trip home.
+
+34
+00:02:30,566 --> 00:02:36,763
+Building a rocket that can lift off from the surface of Mars is brutally hard and brutally expensive.
+
+35
+00:02:36,763 --> 00:02:40,205
+So Lansdorp's answer was simple, and chilling. Don't come back.
+
+36
+00:02:41,333 --> 00:02:45,548
+Cut the return trip, and suddenly the mission fits inside technology that already exists.
+
+37
+00:02:45,548 --> 00:02:47,054
+Or so the pitch went.
+
+38
+00:02:48,200 --> 00:02:52,267
+Mars One, Lansdorp said, would not even build the hardware.
+
+39
+00:02:52,267 --> 00:02:59,588
+It would be an integrator, buying proven parts from the giants, from SpaceX, from Lockheed Martin, from Paragon.
+
+40
+00:03:00,733 --> 00:03:05,803
+And the timing felt perfect. This was the dawn of the private space age.
+
+41
+00:03:05,803 --> 00:03:12,323
+If a company like SpaceX could land its rockets upright, why couldn't a bold enough startup land people?
+
+42
+00:03:12,323 --> 00:03:14,134
+The impossible suddenly felt overdue.
+
+43
+00:03:15,266 --> 00:03:18,481
+It even paid real aerospace firms for real concept studies.
+
+44
+00:03:18,481 --> 00:03:22,659
+On paper, it looked less like a fantasy and more like a startup.
+
+45
+00:03:23,800 --> 00:03:28,847
+Mars One was suddenly everywhere. CNN, the BBC, TED stages, magazine covers.
+
+46
+00:03:28,847 --> 00:03:35,998
+For a while, it genuinely felt like watching the future being born, live, in front of us.
+
+47
+00:03:37,133 --> 00:03:39,641
+Chapter two. A ticket to the stars.
+
+48
+00:03:40,766 --> 00:03:42,891
+But a Mars colony costs billions.
+
+49
+00:03:42,891 --> 00:03:46,432
+Lansdorp estimated six billion dollars just for the first crew.
+
+50
+00:03:46,432 --> 00:03:50,327
+So where does a small Dutch foundation find six billion dollars?
+
+51
+00:03:51,466 --> 00:03:54,572
+Lansdorp had two answers. The first was ordinary. Investors.
+
+52
+00:03:54,572 --> 00:03:59,747
+The second was radical, and it was the one that made headlines around the world.
+
+53
+00:04:00,866 --> 00:04:06,364
+The answer was the most audacious part of the whole plan. They would televise it.
+
+54
+00:04:06,364 --> 00:04:12,595
+The selection, the training, the landing, a global reality show about the first humans on another world.
+
+55
+00:04:13,733 --> 00:04:17,204
+Think of the Olympics, Lansdorp said. Billions of people watch.
+
+56
+00:04:17,204 --> 00:04:20,329
+The broadcast rights alone could pay for the mission.
+
+57
+00:04:20,329 --> 00:04:24,495
+It was the single most-watched event in human history, waiting to happen.
+
+58
+00:04:25,633 --> 00:04:30,152
+Lansdorp put numbers on it that were almost hard to say out loud.
+
+59
+00:04:30,152 --> 00:04:35,714
+Broadcasting the mission, he claimed, could eventually bring in as much as forty five billion dollars.
+
+60
+00:04:35,714 --> 00:04:39,190
+Enough, on paper, to pay for everything, many times over.
+
+61
+00:04:40,333 --> 00:04:45,702
+To prove it was real, in December twenty thirteen, Mars One asked the public directly.
+
+62
+00:04:45,702 --> 00:04:49,639
+A crowdfunding campaign for a robotic scout mission by twenty eighteen.
+
+63
+00:04:49,639 --> 00:04:53,577
+It raised about four hundred thousand dollars. That scout never flew.
+
+64
+00:04:54,699 --> 00:05:00,319
+It hired real names, too. Lockheed Martin, paid to study a Mars lander.
+
+65
+00:05:00,319 --> 00:05:04,642
+Paragon, to study life support. They were only paper studies.
+
+66
+00:05:04,642 --> 00:05:08,100
+But they bought Mars One something priceless. Credibility.
+
+67
+00:05:09,233 --> 00:05:14,618
+And to get the cast, in April twenty thirteen, Mars One did something extraordinary.
+
+68
+00:05:14,618 --> 00:05:17,694
+It opened applications to the entire human race.
+
+69
+00:05:17,694 --> 00:05:20,387
+Anyone could apply to leave Earth forever.
+
+70
+00:05:21,533 --> 00:05:22,972
+The response was staggering.
+
+71
+00:05:22,972 --> 00:05:31,250
+In the first two weeks alone, Mars One said seventy eight thousand people had applied, from more than a hundred and twenty countries.
+
+72
+00:05:32,400 --> 00:05:38,763
+By the time it was over, the number Mars One gave the press was the one that went around the world.
+
+73
+00:05:38,763 --> 00:05:43,006
+More than two hundred thousand people, it said, wanted a one-way ticket to Mars.
+
+74
+00:05:44,133 --> 00:05:45,704
+And the media loved it.
+
+75
+00:05:45,704 --> 00:05:51,989
+A one-way ticket to Mars was an irresistible story, and almost no one paused to check the arithmetic behind it.
+
+76
+00:05:51,989 --> 00:05:54,817
+The number became a fact simply by being repeated.
+
+77
+00:05:55,966 --> 00:05:59,994
+And these were not all thrill seekers. They were doctors, teachers, engineers.
+
+78
+00:05:59,994 --> 00:06:07,042
+People who told their husbands and wives and children that they were training to leave the planet, and never come back.
+
+79
+00:06:08,166 --> 00:06:13,093
+Take Sonia Van Meter, a political consultant in Texas, married, with two young stepsons.
+
+80
+00:06:13,093 --> 00:06:16,612
+She applied for a one-way seat, and she meant it.
+
+81
+00:06:16,612 --> 00:06:20,835
+Her family began, slowly, to prepare for a goodbye with no return.
+
+82
+00:06:21,966 --> 00:06:27,761
+Others wrote open essays with titles like, why I am volunteering to die on Mars.
+
+83
+00:06:27,761 --> 00:06:29,692
+These were not gullible fools.
+
+84
+00:06:29,692 --> 00:06:34,714
+They were sincere, credentialed people, rebuilding their whole identities around a single promise.
+
+85
+00:06:35,833 --> 00:06:40,526
+In February twenty fifteen, Mars One narrowed the field to its final hundred.
+
+86
+00:06:40,526 --> 00:06:45,942
+Fifty men, fifty women, from around the world. They called them the Mars One Hundred.
+
+87
+00:06:47,066 --> 00:06:53,167
+Among the hundred were a British astrophysicist, an Australian sustainability researcher, a physics PhD student.
+
+88
+00:06:53,167 --> 00:06:58,455
+Ordinary, brilliant people who had quietly decided that Mars was worth dying for.
+
+89
+00:06:59,600 --> 00:07:03,543
+One of them was the astrophysicist in Dublin. His name is Joseph Roche.
+
+90
+00:07:03,543 --> 00:07:09,004
+And unlike almost everyone else, he had the training to actually check the claims he was being sold.
+
+91
+00:07:10,133 --> 00:07:16,611
+What he found would take the whole dream apart. It started with a single, simple question.
+
+92
+00:07:16,611 --> 00:07:19,041
+How many people had really applied?
+
+93
+00:07:20,166 --> 00:07:22,204
+Chapter three. The number.
+
+94
+00:07:23,333 --> 00:07:29,184
+Two hundred thousand applicants. It was in every headline. Time magazine, CNN, the BBC.
+
+95
+00:07:29,184 --> 00:07:33,364
+Nobody stopped to ask what the word applicant actually meant.
+
+96
+00:07:34,500 --> 00:07:36,735
+Because the two hundred thousand were not applicants.
+
+97
+00:07:36,735 --> 00:07:40,926
+They were people who had left an email address on a website. That was it.
+
+98
+00:07:42,066 --> 00:07:46,007
+Mars One's own chief medical officer explained the gap this way.
+
+99
+00:07:46,007 --> 00:07:50,664
+There were hurdles, he said. And the very first hurdle was a payment.
+
+100
+00:07:50,664 --> 00:07:52,097
+A small administration fee.
+
+101
+00:07:53,233 --> 00:07:55,712
+A real application meant something completely different.
+
+102
+00:07:55,712 --> 00:08:01,732
+You had to pay a fee, film a video, submit a medical statement, and answer a questionnaire.
+
+103
+00:08:01,732 --> 00:08:02,794
+Almost nobody did.
+
+104
+00:08:03,933 --> 00:08:09,870
+By the close of applications, the number who had actually paid and submitted a video was not two hundred thousand.
+
+105
+00:08:09,870 --> 00:08:13,729
+According to NBC News, it was two thousand seven hundred and eighty two.
+
+106
+00:08:14,866 --> 00:08:16,673
+That is not a rounding error.
+
+107
+00:08:16,673 --> 00:08:22,095
+That is the difference between a global phenomenon and a crowd that would not fill a small theatre.
+
+108
+00:08:22,095 --> 00:08:24,505
+The headline was off by ninety nine percent.
+
+109
+00:08:25,633 --> 00:08:29,821
+And inside Mars One, even the numbers disagreed with each other.
+
+110
+00:08:29,821 --> 00:08:35,532
+Its own chief medical officer told the Guardian he had seen around eighty thousand applications.
+
+111
+00:08:35,532 --> 00:08:40,862
+Two hundred thousand. Eighty thousand. A few thousand. Not one figure matched the next.
+
+112
+00:08:42,000 --> 00:08:45,637
+When the criticism grew, Mars One quietly updated its own website.
+
+113
+00:08:45,637 --> 00:08:51,258
+The true number of completed applications, it now admitted, was four thousand two hundred and twenty seven.
+
+114
+00:08:51,258 --> 00:08:55,557
+Still barely two percent of the number it had sold to the world.
+
+115
+00:08:56,700 --> 00:08:59,508
+And even four thousand was only Mars One's own count.
+
+116
+00:08:59,508 --> 00:09:05,686
+As the journalist Elmo Keep put it, we do not know that four thousand is any more real than two hundred thousand.
+
+117
+00:09:05,686 --> 00:09:07,933
+It is simply what they are telling us.
+
+118
+00:09:09,066 --> 00:09:13,034
+And why did so few people finish? Because of the very first hurdle.
+
+119
+00:09:13,034 --> 00:09:14,865
+To apply, you had to pay.
+
+120
+00:09:16,000 --> 00:09:20,722
+The application fee was not flat. It was tiered by the wealth of your country.
+
+121
+00:09:20,722 --> 00:09:23,556
+As little as five dollars in the poorest nations.
+
+122
+00:09:23,556 --> 00:09:27,964
+Thirty eight dollars in the United States. Up to seventy three in the richest.
+
+123
+00:09:29,100 --> 00:09:32,979
+Mars One framed this as fairness, making the dream affordable everywhere.
+
+124
+00:09:32,979 --> 00:09:38,269
+Its critics saw something else. A dream that turned every hopeful into a paying customer.
+
+125
+00:09:39,400 --> 00:09:42,130
+How much did the fees raise? We do not know.
+
+126
+00:09:42,130 --> 00:09:45,134
+Lansdorp never disclosed it, and no audited accounts were ever published.
+
+127
+00:09:45,134 --> 00:09:47,864
+But the strangest part was not the money coming in.
+
+128
+00:09:47,864 --> 00:09:50,868
+It was how you climbed the list once you were in.
+
+129
+00:09:52,000 --> 00:09:53,802
+Chapter four. Points.
+
+130
+00:09:54,933 --> 00:09:59,191
+This is where Joseph Roche stopped being a finalist, and started being a whistleblower.
+
+131
+00:09:59,191 --> 00:10:03,449
+Because the deeper he got, the less the selection looked like a space program.
+
+132
+00:10:04,566 --> 00:10:10,841
+In March twenty fifteen, Roche went on the record with the journalist Elmo Keep, in an investigation for Medium.
+
+133
+00:10:10,841 --> 00:10:13,813
+What he described was not a rigorous astronaut search.
+
+134
+00:10:14,933 --> 00:10:21,522
+By Roche's account, his entire vetting to become one of the first humans on Mars came down to this.
+
+135
+00:10:21,522 --> 00:10:26,030
+A questionnaire. A video. A medical exam he arranged with his own doctor.
+
+136
+00:10:26,030 --> 00:10:28,804
+And a single ten minute call over Skype.
+
+137
+00:10:29,933 --> 00:10:35,324
+The selection was supposed to have far more. Group challenges. Isolation tests.
+
+138
+00:10:35,324 --> 00:10:37,571
+A real, televised astronaut trial.
+
+139
+00:10:37,571 --> 00:10:43,412
+But round after round was quietly postponed, or cancelled, or simply never arranged.
+
+140
+00:10:44,533 --> 00:10:46,231
+There was no in-person interview.
+
+141
+00:10:46,231 --> 00:10:49,966
+The multi-day regional round he had been promised was quietly cancelled.
+
+142
+00:10:49,966 --> 00:10:56,079
+In his words, it was, quote, just not enough information to make a judgment on someone about anything.
+
+143
+00:10:57,200 --> 00:10:59,649
+Then came the part that alarmed him most.
+
+144
+00:10:59,649 --> 00:11:02,710
+Every candidate sat on a public leaderboard, ranked by points.
+
+145
+00:11:02,710 --> 00:11:06,996
+And Roche said there was really only one way to earn more of them.
+
+146
+00:11:08,133 --> 00:11:11,161
+You could buy Mars One merchandise. You could donate money.
+
+147
+00:11:11,161 --> 00:11:14,491
+According to Roche, the more you gave, the higher you climbed.
+
+148
+00:11:14,491 --> 00:11:21,455
+The list of the most likely people to go to Mars looked, to him, a lot like a list of the biggest donors.
+
+149
+00:11:22,600 --> 00:11:32,259
+When the Guardian published a list of the top ten most likely Mars One hopefuls, Roche said the ranking was, in large part, a ranking of who had donated the most.
+
+150
+00:11:32,259 --> 00:11:35,687
+The public faces of the mission were, quietly, its biggest givers.
+
+151
+00:11:36,833 --> 00:11:41,075
+Watching all of this, some writers reached for a very different comparison.
+
+152
+00:11:41,075 --> 00:11:43,196
+Not a space agency at all.
+
+153
+00:11:43,196 --> 00:11:47,439
+Something closer to a multi-level marketing scheme, wearing the costume of exploration.
+
+154
+00:11:48,566 --> 00:11:57,395
+And Roche said that when reporters paid finalists for interviews, Mars One asked the candidates to donate seventy five percent of that fee straight back to the organization.
+
+155
+00:11:58,533 --> 00:12:04,750
+And everyone who applied had been automatically enrolled in what Mars One called its community, and handed points.
+
+156
+00:12:04,750 --> 00:12:07,858
+The entire hopeful crowd had quietly become an audience.
+
+157
+00:12:07,858 --> 00:12:10,967
+One that could be sold to, and sold things.
+
+158
+00:12:12,100 --> 00:12:15,488
+This is the moment to be careful, and fair.
+
+159
+00:12:15,488 --> 00:12:18,500
+These are Roche's allegations, reported by one journalist.
+
+160
+00:12:18,500 --> 00:12:23,019
+They are not a court's findings. And Bas Lansdorp rejected them, flatly.
+
+161
+00:12:24,166 --> 00:12:28,527
+Donations, Lansdorp said, had nothing to do with who was selected.
+
+162
+00:12:28,527 --> 00:12:33,681
+Many candidates who gave money did not advance. Many who gave nothing did.
+
+163
+00:12:33,681 --> 00:12:37,645
+To suggest otherwise, he said, was, quote, simply a lie.
+
+164
+00:12:38,766 --> 00:12:44,164
+Mars One also insisted its screening was serious, with checks it said were similar to NASA's own.
+
+165
+00:12:44,164 --> 00:12:53,055
+But when Elmo Keep pressed for specifics, who sat on the committee, where the tests happened, how long they took, she reported that the answers simply never came.
+
+166
+00:12:54,200 --> 00:12:58,876
+So we are left with a dispute, not a verdict. A respected scientist on one side.
+
+167
+00:12:58,876 --> 00:13:00,630
+A sincere founder on the other.
+
+168
+00:13:00,630 --> 00:13:05,307
+But Roche was about to be joined by five engineers who did not deal in opinions.
+
+169
+00:13:05,307 --> 00:13:06,477
+They dealt in numbers.
+
+170
+00:13:07,600 --> 00:13:10,108
+Chapter five. Sixty eight days.
+
+171
+00:13:11,233 --> 00:13:16,068
+In twenty fourteen, a team of engineers at MIT did something no journalist could.
+
+172
+00:13:16,068 --> 00:13:22,285
+They took Mars One's own plan, fed it into a life support simulation, and asked a single question.
+
+173
+00:13:22,285 --> 00:13:23,667
+Would the colonists survive?
+
+174
+00:13:24,800 --> 00:13:26,140
+They did not guess.
+
+175
+00:13:26,140 --> 00:13:31,502
+They built their simulation on the only closed habitat humans have ever actually run for real.
+
+176
+00:13:31,502 --> 00:13:32,842
+The International Space Station.
+
+177
+00:13:32,842 --> 00:13:36,529
+And even with that as the starting point, the colony died.
+
+178
+00:13:37,666 --> 00:13:39,252
+This is that study.
+
+179
+00:13:39,252 --> 00:13:45,991
+An independent assessment, by five MIT engineers, of whether human beings could actually survive Mars One's colony.
+
+180
+00:13:45,991 --> 00:13:51,145
+Its verdict was brutal. As designed, the mission would kill its own crew.
+
+181
+00:13:52,266 --> 00:13:56,920
+But here is the cruel twist. The first settler would not die from running out of oxygen.
+
+182
+00:13:56,920 --> 00:13:59,110
+They would die from too much of it.
+
+183
+00:14:00,233 --> 00:14:04,496
+To feed the crew, Mars One planned to grow crops inside the habitat.
+
+184
+00:14:04,496 --> 00:14:06,464
+But those plants breathe out oxygen.
+
+185
+00:14:06,464 --> 00:14:12,040
+In a sealed base, oxygen would build and build, until the air itself became a fire hazard.
+
+186
+00:14:13,166 --> 00:14:17,233
+It began with food. Mars One planned about fifty square metres of crops.
+
+187
+00:14:17,233 --> 00:14:21,924
+MIT calculated you would need closer to two hundred just to keep the crew alive.
+
+188
+00:14:21,924 --> 00:14:25,365
+And more plants meant more oxygen, and a far bigger problem.
+
+189
+00:14:26,500 --> 00:14:30,009
+There was no technology in the plan to pull that extra oxygen out.
+
+190
+00:14:30,009 --> 00:14:33,788
+So the only fix was to vent the air, and replace it with nitrogen.
+
+191
+00:14:33,788 --> 00:14:35,408
+Except the nitrogen would run out.
+
+192
+00:14:36,533 --> 00:14:42,074
+And once it did, every attempt to control the oxygen would bleed away the atmosphere itself.
+
+193
+00:14:42,074 --> 00:14:46,576
+The pressure would fall. And around day sixty eight, the crew would suffocate.
+
+194
+00:14:46,576 --> 00:14:48,654
+Not in a disaster. On schedule.
+
+195
+00:14:49,800 --> 00:14:53,392
+Because Mars One's central promise had always been this.
+
+196
+00:14:53,392 --> 00:14:57,784
+No new major developments or inventions are needed, its plan said.
+
+197
+00:14:57,784 --> 00:14:59,780
+Only existing, validated, available technology.
+
+198
+00:14:59,780 --> 00:15:08,164
+MIT checked that claim, system by system, and found several of those technologies did not yet exist at the level required.
+
+199
+00:15:09,300 --> 00:15:13,197
+And suffocation was only the beginning. The logistics were just as impossible.
+
+200
+00:15:13,197 --> 00:15:21,640
+To land the gear for the first crews, MIT calculated you would need ten to fourteen of the largest rockets on Earth, for the setup alone.
+
+201
+00:15:21,640 --> 00:15:23,589
+Mars One had planned for six.
+
+202
+00:15:24,733 --> 00:15:29,246
+And because nothing ever comes back, the spare parts pile up, mission after mission.
+
+203
+00:15:29,246 --> 00:15:37,305
+MIT projected that after a couple of decades on the surface, spare parts alone would make up more than half of everything shipped from Earth.
+
+204
+00:15:37,305 --> 00:15:39,884
+The colony would spend itself just staying alive.
+
+205
+00:15:41,033 --> 00:15:42,548
+And the bill only grew.
+
+206
+00:15:42,548 --> 00:15:51,336
+By the time you were resupplying just the third crew, MIT estimated you would need up to twenty four heavy launches, at a cost of over seven billion dollars.
+
+207
+00:15:51,336 --> 00:15:54,669
+For a single resupply run. And then it would climb again.
+
+208
+00:15:55,800 --> 00:15:57,394
+Lansdorp fought back hard.
+
+209
+00:15:57,394 --> 00:16:03,774
+The study, he said, made wrong assumptions and had, quote, nothing to do with our mission.
+
+210
+00:16:03,774 --> 00:16:06,964
+Oxygen removal, he insisted, already existed in hospitals.
+
+211
+00:16:06,964 --> 00:16:09,357
+It just needed testing in space.
+
+212
+00:16:10,500 --> 00:16:12,661
+He offered his own competing numbers.
+
+213
+00:16:12,661 --> 00:16:18,785
+He could do it, he said, for one point six billion dollars, using thirteen launches, not fifteen.
+
+214
+00:16:18,785 --> 00:16:21,667
+But on one point, even he gave ground.
+
+215
+00:16:21,667 --> 00:16:25,991
+His six billion dollar price tag, he admitted, was probably too low.
+
+216
+00:16:27,133 --> 00:16:33,972
+But then came a public debate, in August twenty fifteen, where the two sides finally met.
+
+217
+00:16:33,972 --> 00:16:36,537
+And something remarkable happened. They agreed.
+
+218
+00:16:37,666 --> 00:16:48,146
+And at that debate, Mars One's own technical partner, from the very company it had hired to study its life support, sat across from the MIT team and conceded.
+
+219
+00:16:48,146 --> 00:16:50,675
+Their analysis, he agreed, was essentially correct.
+
+220
+00:16:51,800 --> 00:16:56,406
+Mars One's own technical partner conceded the MIT analysis was largely correct.
+
+221
+00:16:56,406 --> 00:17:04,469
+And Lansdorp himself admitted that the specific plan to land humans by twenty twenty seven was, in his words, mostly fiction.
+
+222
+00:17:05,600 --> 00:17:08,064
+And then he did something stranger still.
+
+223
+00:17:08,064 --> 00:17:12,993
+He reframed the study that predicted his colonists suffocating as support for his plan.
+
+224
+00:17:12,993 --> 00:17:16,866
+I actually consider it, he said, a confirmation of Mars One.
+
+225
+00:17:16,866 --> 00:17:21,796
+The goal, he insisted, had always been sincere, even when the plan was fiction.
+
+226
+00:17:22,933 --> 00:17:26,746
+The founder was still sincere. He still wanted humans on Mars.
+
+227
+00:17:26,746 --> 00:17:32,986
+But he had just admitted, out loud, that the timeline millions of people believed in was not real.
+
+228
+00:17:32,986 --> 00:17:35,759
+The science was finished. The money was next.
+
+229
+00:17:36,900 --> 00:17:39,408
+Chapter six. The show that never aired.
+
+230
+00:17:40,533 --> 00:17:44,729
+Remember, the entire plan to pay for Mars rested on one thing.
+
+231
+00:17:44,729 --> 00:17:49,624
+The greatest reality show ever made. And in June twenty fourteen, it looked real.
+
+232
+00:17:50,766 --> 00:17:58,190
+Mars One signed a production company owned by Endemol, the studio behind Big Brother, to film the astronaut selection and training.
+
+233
+00:17:58,190 --> 00:18:01,372
+The most-watched event in history finally had a broadcaster.
+
+234
+00:18:02,500 --> 00:18:05,196
+And then, in February twenty fifteen, it collapsed.
+
+235
+00:18:05,196 --> 00:18:10,589
+The two sides could never agree on a contract. Not a single frame was ever filmed.
+
+236
+00:18:10,589 --> 00:18:12,949
+The funding model walked out the door.
+
+237
+00:18:14,066 --> 00:18:15,919
+Mars One tried to salvage it.
+
+238
+00:18:15,919 --> 00:18:19,933
+Instead of a live global show, it would make its own short films.
+
+239
+00:18:19,933 --> 00:18:23,020
+But a handful of web videos is not the Olympics.
+
+240
+00:18:23,020 --> 00:18:26,108
+The money engine was gone, and it never came back.
+
+241
+00:18:27,233 --> 00:18:32,366
+With the reality show gone, Mars One needed a new way to look like a real business.
+
+242
+00:18:32,366 --> 00:18:35,385
+So in twenty sixteen, it did something clever, and hollow.
+
+243
+00:18:35,385 --> 00:18:37,499
+It went public on a stock exchange.
+
+244
+00:18:38,633 --> 00:18:40,310
+Not through a normal listing.
+
+245
+00:18:40,310 --> 00:18:47,355
+Through a reverse takeover of a dormant Swiss shell company called InFin, a former mobile payments firm that had gone quiet.
+
+246
+00:18:47,355 --> 00:18:51,381
+On paper, the deal valued Mars One at eighty seven million euros.
+
+247
+00:18:52,500 --> 00:18:54,585
+InFin was a dormant former mobile-payments firm.
+
+248
+00:18:54,585 --> 00:18:59,352
+After the merger, the old Mars One owners kept ninety seven percent of the new stock.
+
+249
+00:18:59,352 --> 00:19:01,139
+They had not really raised money.
+
+250
+00:19:01,139 --> 00:19:05,013
+They had merged a dream into an empty shell, and called it public.
+
+251
+00:19:06,133 --> 00:19:08,016
+But paper is not cash.
+
+252
+00:19:08,016 --> 00:19:13,288
+When the shares actually started trading, in Frankfurt, they opened at sixteen euro cents.
+
+253
+00:19:13,288 --> 00:19:19,690
+The real market value of the company that promised to colonize Mars was under three million euros.
+
+254
+00:19:20,833 --> 00:19:23,484
+Follow the actual money and it was tiny.
+
+255
+00:19:23,484 --> 00:19:28,122
+Donations and merchandise, by Mars One's own count, came to under a million dollars.
+
+256
+00:19:28,122 --> 00:19:31,104
+A crowdfunding campaign raised about three hundred thousand more.
+
+257
+00:19:31,104 --> 00:19:33,424
+Against a mission that needed six billion.
+
+258
+00:19:34,566 --> 00:19:39,383
+And the structure underneath was stranger than it looked. There were two Mars Ones.
+
+259
+00:19:39,383 --> 00:19:44,200
+A Dutch non-profit that owned the mission. And a for-profit that owned the money.
+
+260
+00:19:44,200 --> 00:19:48,672
+The for-profit promised the mission just five cents of every dollar it earned.
+
+261
+00:19:49,800 --> 00:19:51,746
+Follow that math to the end.
+
+262
+00:19:51,746 --> 00:19:59,854
+To fund a six billion euro mission on a five percent cut, the company would have had to earn a hundred and twenty billion euros.
+
+263
+00:19:59,854 --> 00:20:02,449
+More than almost any media franchise in history.
+
+264
+00:20:02,449 --> 00:20:05,369
+The business model was, quietly, impossible from the start.
+
+265
+00:20:06,500 --> 00:20:13,504
+By independent accounts, the company was running on almost nothing, and had been in debt for years, according to Dutch filings.
+
+266
+00:20:13,504 --> 00:20:19,509
+Its own chief medical officer said, plainly, that he had no clue what the finances at all were.
+
+267
+00:20:20,633 --> 00:20:23,120
+And the money that did come in?
+
+268
+00:20:23,120 --> 00:20:28,448
+By Mars One's own accounting, most of it went to concept studies, travel, and marketing.
+
+269
+00:20:28,448 --> 00:20:33,067
+Its critics had a blunter version. It went into videos, not a spaceship.
+
+270
+00:20:34,200 --> 00:20:35,849
+And the deadlines kept sliding.
+
+271
+00:20:35,849 --> 00:20:43,106
+The first landing moved from twenty twenty three, to twenty twenty five, to twenty twenty seven, and finally to twenty thirty one.
+
+272
+00:20:43,106 --> 00:20:45,746
+Always just far enough away to keep believing.
+
+273
+00:20:46,866 --> 00:20:51,195
+No rocket was ever built. No robotic probe ever flew.
+
+274
+00:20:51,195 --> 00:20:56,390
+The colony existed only in press releases and beautifully rendered concept art.
+
+275
+00:20:56,390 --> 00:20:58,987
+And then, very quietly, it ended.
+
+276
+00:21:00,133 --> 00:21:02,641
+Chapter seven. A quiet bankruptcy.
+
+277
+00:21:03,766 --> 00:21:07,412
+There was no press conference. No apology to the two hundred thousand.
+
+278
+00:21:07,412 --> 00:21:11,968
+No message to the hundred finalists who had told their families they were leaving Earth.
+
+279
+00:21:13,100 --> 00:21:22,362
+On the fifteenth of January, twenty nineteen, at three thirty seven in the afternoon, a civil court in Basel, Switzerland, declared the company bankrupt.
+
+280
+00:21:22,362 --> 00:21:25,064
+The dream had a time of death.
+
+281
+00:21:26,200 --> 00:21:31,947
+The for-profit arm that was supposed to raise billions had debts of roughly one million euros.
+
+282
+00:21:31,947 --> 00:21:36,616
+And in its accounts, according to reporting, less than twenty five thousand dollars.
+
+283
+00:21:36,616 --> 00:21:39,131
+Less than the price of a car.
+
+284
+00:21:40,266 --> 00:21:42,392
+Sit with the size of that gap.
+
+285
+00:21:42,392 --> 00:21:52,112
+A company that once said it would spend six billion dollars, and earn tens of billions more, had ended with about a million euros in debt and almost nothing in the bank.
+
+286
+00:21:52,112 --> 00:21:55,757
+The distance between the promise and the reality was the entire story.
+
+287
+00:21:56,900 --> 00:22:00,022
+And the strangest detail of all. Almost nobody noticed.
+
+288
+00:22:00,022 --> 00:22:05,573
+For nearly a month, the death of Mars One sat unread in a Swiss court register.
+
+289
+00:22:06,700 --> 00:22:13,030
+The world only found out in February, when an anonymous user on Reddit stumbled across the filing and posted a link.
+
+290
+00:22:13,030 --> 00:22:17,854
+That is how the mission to colonize Mars ended. As a link on a message board.
+
+291
+00:22:19,000 --> 00:22:21,202
+For the hundred finalists, there was no letter.
+
+292
+00:22:21,202 --> 00:22:28,086
+Many of them learned that the mission they had rebuilt their whole lives around was dead the same way the rest of the world did.
+
+293
+00:22:28,086 --> 00:22:29,188
+From a news story.
+
+294
+00:22:30,333 --> 00:22:37,126
+Bas Lansdorp says the non-profit foundation still legally exists, that it is only stalled, that he is still looking for an investor.
+
+295
+00:22:37,126 --> 00:22:42,375
+As of today, no one has ever gone to Mars with Mars One. No one ever will.
+
+296
+00:22:43,500 --> 00:22:49,282
+And let us be precise about what this was, and what it was not. Mars One went bankrupt.
+
+297
+00:22:49,282 --> 00:22:52,816
+That is insolvency. It is not a court finding of fraud.
+
+298
+00:22:52,816 --> 00:22:55,386
+Bas Lansdorp was never charged with a crime.
+
+299
+00:22:56,533 --> 00:23:01,500
+Critics called it a scam. A money grab. The fake mission that fooled the world.
+
+300
+00:23:01,500 --> 00:23:06,799
+But those are their words, not a verdict. The truth sits in a harder, greyer place.
+
+301
+00:23:07,933 --> 00:23:12,833
+So what do we do with a story like this? Because here is what stays with me.
+
+302
+00:23:12,833 --> 00:23:16,292
+It is not the missing money. It is not even the physics.
+
+303
+00:23:17,433 --> 00:23:20,094
+It is how badly people wanted to go.
+
+304
+00:23:20,094 --> 00:23:28,744
+Two hundred thousand of them raised their hands to leave everything they had ever known, forever, to stand on red dirt under a small, cold sun.
+
+305
+00:23:29,866 --> 00:23:33,022
+Some of them had already begun to let go.
+
+306
+00:23:33,022 --> 00:23:37,582
+Sonia Van Meter's family had started, gently, to picture a life without her.
+
+307
+00:23:37,582 --> 00:23:41,790
+That is what a ticket like this really costs. Not just money.
+
+308
+00:23:41,790 --> 00:23:43,894
+Years of a real person's hope.
+
+309
+00:23:45,033 --> 00:23:46,806
+Joseph Roche never wanted revenge.
+
+310
+00:23:46,806 --> 00:23:56,738
+He said his nightmare was simply that people would keep giving their money and their hope to something that would, in his words, inevitably fall on its face.
+
+311
+00:23:56,738 --> 00:23:58,512
+In twenty nineteen, it did.
+
+312
+00:23:59,633 --> 00:24:02,021
+Most of the hundred quietly moved on.
+
+313
+00:24:02,021 --> 00:24:05,775
+Some kept working toward Mars, on real missions, with real agencies.
+
+314
+00:24:05,775 --> 00:24:10,552
+The longing did not die with the company. It just needed an honest vehicle.
+
+315
+00:24:11,700 --> 00:24:16,700
+The dream of Mars was real. The longing was real. It was only the ticket that was fake.
+
+316
+00:24:16,700 --> 00:24:23,089
+And maybe the most human thing in this whole story is how many of us wanted to believe the ticket was real anyway.
+
+317
+00:24:24,233 --> 00:24:32,993
+If a mission that never left the ground can pull in two hundred thousand people, wait until you see what happened to the astronauts who actually flew, and never came home.
+
+318
+00:24:32,993 --> 00:24:36,667
+Watch our film on the twenty one astronauts who died reaching for space.
+
+319
+00:24:37,800 --> 00:24:40,288
+If this story moved you, subscribe to mindwired.
+
+320
+00:24:40,288 --> 00:24:46,510
+We tell the true stories of how far people will go to touch the stars, and what it costs them.
+
+321
+00:24:46,510 --> 00:24:48,066
+This has been Mars One.
+

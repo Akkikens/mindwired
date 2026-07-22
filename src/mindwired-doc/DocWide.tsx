@@ -93,6 +93,36 @@ export type DocScene = {
   /** talking-rig prefix in public/mascot/ ("host" default = mindwired astro,
    *  "bb_host" = blackbox recorder robot) */
   rig?: string;
+  /* ---------- documentary-pivot craft layer (2026-07-21) ---------- */
+  /** EXHIBIT beat (the Jani "receipts on screen" move): renders the scene's
+   *  `img` (a real document page — PDF page → PNG placed in images/) as an
+   *  evidence exhibit — dark blurred surround, slow push, an accent highlight
+   *  box, and a source lower-third from `source`. `highlight` = [x,y,w,h] in
+   *  0–1 page fractions; the push zooms toward it (the damning line). */
+  exhibit?: boolean;
+  source?: string;          // exhibit citation lower-third ("MIT Study, 2014 · p.14")
+  highlight?: number[];     // [x,y,w,h] fractional highlight/zoom target
+  /** KINETIC typography-on-black beat (the "second narrator"): a number
+   *  counting up (count → optional strike to a second number), and/or words
+   *  materializing one-by-one, silence-synced to the narration. */
+  kinetic?: {
+    count?: number; countLabel?: string; prefix?: string; suffix?: string;
+    strike?: number; strikeLabel?: string;   // struck-through reveal (200,000 → 2,761)
+    words?: string[];                         // materialize word-by-word
+    sub?: string;                             // small subtitle under the figure
+  };
+  /** DELAYED BRAND STING: the audio-led mindwired ident that plays AFTER the
+   *  cold open — wordmark bloom + a musical motif + the spoken line. One
+   *  standing beat, identical every episode. Text = "You're watching mindwired." */
+  sting?: boolean;
+  /** Variable time-density: Ken Burns intensity on photo scenes.
+   *  "fast" = a bigger, quicker move (montage); "slow" = near-static (pivots). */
+  motion?: "fast" | "slow";
+  /** Extra hold frames appended to the scene — a controllable beat of dead air
+   *  (e.g. before a reveal). Mirrored in scripts/lib/doctiming.py. */
+  extraHold?: number;
+  tone?: string;            // Cartesia emotion (VO-only; ignored by the renderer)
+  speed?: number;           // per-scene VO speed (VO-only; ignored by the renderer)
 };
 export type DocSpec = { slug: string; title: string; channel?: string; scenes: DocScene[] };
 export type DocManifest = {
@@ -127,6 +157,8 @@ const SFX: Record<string, { file: string; vol: number; frames: number }> = {
   alarm:           { file: "sfx/alarm.wav",           vol: 0.25, frames: 60 },
   ambience_wind:   { file: "sfx/ambience_wind.wav",   vol: 0.10, frames: 450 },
   ambience_ocean:  { file: "sfx/ambience_ocean.wav",  vol: 0.10, frames: 450 },
+  // brand-sting ident motif (owned, ffmpeg-synth via gen_sfx_kit.py)
+  sting_motif:     { file: "sfx/sting_motif.wav",     vol: 0.5,  frames: 138 },
 };
 export const SFX_NAMES = Object.keys(SFX);
 
@@ -201,7 +233,7 @@ const GrainVignette: React.FC = () => {
 const sceneAud = (s: DocScene, m: DocManifest) =>
   m.durations[s.id] ?? s.text.split(/\s+/).length / 2.3; // estimate fallback
 const sceneFrames = (s: DocScene, m: DocManifest) =>
-  LEAD + Math.round(sceneAud(s, m) * FPS) + HOLD;
+  LEAD + Math.round(sceneAud(s, m) * FPS) + HOLD + (s.extraHold ?? 0);
 export const docTotalFrames = (doc: DocSpec, m: DocManifest, outro?: OutroSpec) =>
   doc.scenes.reduce((a, s) => a + sceneFrames(s, m), 0) + (outro?.frames ?? 0);
 
@@ -302,10 +334,13 @@ const IllusScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: num
   // camera move: explicit s.camera wins; otherwise alternate push/pull by idx
   const move = s.camera ?? (idx % 3 === 2 ? "pull" : "push");
   const ease = t * t * (3 - 2 * t); // smoothstep — decelerating, less linear-slideshow
-  const scale = move === "pull" ? interpolate(ease, [0, 1], [1.2, 1.07])
-    : move === "drift" ? 1.1
-    : interpolate(ease, [0, 1], [1.05, 1.2]);
-  const driftX = interpolate(ease, [0, 1], [0, pan * (move === "drift" ? 44 : 26)]);
+  // variable time-density: motion "fast" enlarges the move (montage), "slow"
+  // shrinks it to a near-static push (the pivotal beats)
+  const amp = s.motion === "fast" ? 1.7 : s.motion === "slow" ? 0.4 : 1;
+  const scale = move === "pull" ? interpolate(ease, [0, 1], [1.05 + 0.15 * amp, 1.05])
+    : move === "drift" ? 1.05 + 0.05 * amp
+    : interpolate(ease, [0, 1], [1.05, 1.05 + 0.15 * amp]);
+  const driftX = interpolate(ease, [0, 1], [0, pan * (move === "drift" ? 44 : 26) * amp]);
   const fadeIn = interpolate(frame, [0, 12], [0, 1], { extrapolateRight: "clamp" });
   const fadeOut = interpolate(frame, [dur - 10, dur], [1, 0], { extrapolateLeft: "clamp" });
   const files = (s.img && m.images[s.img]) || [];
@@ -447,6 +482,191 @@ const VideoScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Them
   );
 };
 
+/* DELAYED BRAND STING (documentary-pivot): audio-led mindwired ident that plays
+   AFTER the cold open — wordmark bloom + expanding accent ring + a musical motif
+   (sfx/sting_motif) under the spoken line. One standing beat, every episode. */
+const StingScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Theme }> = ({ s, slug, m, th }) => {
+  const frame = useCurrentFrame();
+  const dur = sceneFrames(s, m);
+  const hasAudio = m.durations[s.id] !== undefined;
+  const bloom = spring({ frame: frame - 6, fps: FPS, config: { damping: 14, stiffness: 90 } });
+  const ringT = interpolate(frame, [6, 48], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const glow = interpolate(frame, [6, 30, dur - 20, dur], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const under = interpolate(frame, [22, 50], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const fadeOut = interpolate(frame, [dur - 12, dur], [1, 0], { extrapolateLeft: "clamp" });
+  return (
+    <AbsoluteFill style={{ backgroundColor: "#04060A", justifyContent: "center", alignItems: "center", opacity: fadeOut }}>
+      <div style={{ position: "absolute", width: 40 + ringT * 940, height: 40 + ringT * 940, borderRadius: "50%",
+        border: `2px solid ${th.accent}`, opacity: (1 - ringT) * 0.5 }} />
+      <div style={{ position: "absolute", width: 640, height: 640, borderRadius: "50%",
+        background: `radial-gradient(circle, ${th.accent}22 0%, transparent 62%)`, opacity: glow }} />
+      <div style={{ textAlign: "center", transform: `scale(${interpolate(bloom, [0, 1], [0.86, 1])})`, opacity: bloom }}>
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 20 }}>
+          <div style={{ width: 28, height: 28, borderRadius: "50%", background: th.accent,
+            boxShadow: `0 0 ${18 + glow * 28}px ${th.accent}` }} />
+          <span style={{ fontFamily: th.display, fontWeight: 700, fontSize: 132, color: "#fff", letterSpacing: 1,
+            textShadow: `0 0 ${glow * 44}px ${th.accent}77` }}>{th.brand}</span>
+        </div>
+        <div style={{ height: 5, background: th.accent, borderRadius: 4, margin: "28px auto 0",
+          width: under * 440, boxShadow: `0 0 16px ${th.accent}` }} />
+      </div>
+      {hasAudio && <Sequence from={LEAD}><Audio src={staticFile(`shorts/${slug}/audio/${s.id}.mp3`)} /></Sequence>}
+      <SceneSfx sceneDur={dur} cues={sceneCues(s, [{ name: "sting_motif", at: 0 }])} />
+    </AbsoluteFill>
+  );
+};
+
+/* EXHIBIT beat (the Jani "receipts" move): the scene's img is a real document
+   page — dark blurred surround, slow push (toward the highlight = the damning
+   line), an accent highlight box, and a source lower-third. */
+const ExhibitScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: number; th: Theme }> = ({ s, slug, m, idx, th }) => {
+  const frame = useCurrentFrame();
+  const dur = sceneFrames(s, m);
+  const t = interpolate(frame, [0, dur], [0, 1]);
+  const ease = t * t * (3 - 2 * t);
+  const files = (s.img && m.images[s.img]) || [];
+  const file = files.length ? files[idx % files.length] : null;
+  const fadeIn = interpolate(frame, [0, 14], [0, 1], { extrapolateRight: "clamp" });
+  const fadeOut = interpolate(frame, [dur - 12, dur], [1, 0], { extrapolateLeft: "clamp" });
+  const hasAudio = m.durations[s.id] !== undefined;
+  const hl = s.highlight && s.highlight.length === 4 ? s.highlight : null;
+  const targetX = hl ? hl[0] + hl[2] / 2 : 0.5;
+  const targetY = hl ? hl[1] + hl[3] / 2 : 0.5;
+  const zoom = interpolate(ease, [0, 1], [1.0, hl ? 1.5 : 1.12]);
+  const shiftX = interpolate(ease, [0, 1], [0, (0.5 - targetX) * 820]);
+  const shiftY = interpolate(ease, [0, 1], [0, (0.5 - targetY) * 560]);
+  const boxIn = spring({ frame: frame - LEAD - 6, fps: FPS, config: { damping: 16 } });
+  const srcIn = spring({ frame: frame - LEAD, fps: FPS, config: { damping: 18 } });
+  const capIn = spring({ frame: frame - LEAD - 12, fps: FPS, config: { damping: 18 } });
+  return (
+    <AbsoluteFill style={{ backgroundColor: "#030407", opacity: fadeOut }}>
+      {file && (
+        <AbsoluteFill style={{ opacity: fadeIn * 0.5 }}>
+          <Img src={staticFile(`shorts/${slug}/images/${file}`)}
+            style={{ width: "100%", height: "100%", objectFit: "cover",
+              filter: "blur(34px) brightness(0.35) saturate(0.7)", transform: "scale(1.25)" }} />
+        </AbsoluteFill>
+      )}
+      <AbsoluteFill style={{ background: "rgba(3,4,7,0.55)" }} />
+      {file && (
+        <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", opacity: fadeIn }}>
+          <div style={{ position: "relative", height: "78%",
+            transform: `translate(${shiftX}px, ${shiftY}px) scale(${zoom})` }}>
+            <Img src={staticFile(`shorts/${slug}/images/${file}`)}
+              style={{ height: "100%", width: "auto", objectFit: "contain", display: "block",
+                boxShadow: "0 24px 80px rgba(0,0,0,0.8)", border: "1px solid rgba(255,255,255,0.12)",
+                filter: "contrast(1.05) brightness(1.03)" }} />
+            {hl && (
+              <div style={{ position: "absolute", left: `${hl[0] * 100}%`, top: `${hl[1] * 100}%`,
+                width: `${hl[2] * 100}%`, height: `${hl[3] * 100}%`,
+                background: `${th.accent}22`, border: `3px solid ${th.accent}`,
+                boxShadow: `0 0 24px ${th.accent}88`, borderRadius: 4,
+                opacity: boxIn, transform: `scaleX(${boxIn})`, transformOrigin: "left" }} />
+            )}
+          </div>
+        </AbsoluteFill>
+      )}
+      {s.source && (
+        <div style={{ position: "absolute", bottom: 96, left: 96, opacity: srcIn,
+          transform: `translateY(${interpolate(srcIn, [0, 1], [18, 0])}px)` }}>
+          <div style={{ fontFamily: "'Courier New', monospace", fontWeight: 700, fontSize: 22,
+            letterSpacing: 4, color: th.accent, marginBottom: 6 }}>EXHIBIT</div>
+          <div style={{ fontFamily: th.body, fontWeight: 600, fontSize: 34, color: "#fff",
+            background: "rgba(3,4,7,0.8)", padding: "10px 22px", borderLeft: `5px solid ${th.accent}`,
+            borderRadius: 8 }}>{s.source}</div>
+        </div>
+      )}
+      {s.cap && (
+        <div style={{ position: "absolute", bottom: 104, right: 96, maxWidth: 720, textAlign: "right",
+          opacity: capIn, transform: `translateY(${interpolate(capIn, [0, 1], [20, 0])}px)` }}>
+          <span style={{ fontFamily: th.body, fontWeight: 700, fontSize: 40, color: "#fff", lineHeight: 1.3,
+            textShadow: "0 3px 20px rgba(0,0,0,0.9)" }}>{s.cap}</span>
+        </div>
+      )}
+      <Brand th={th} />
+      {hasAudio && <Sequence from={LEAD}><Audio src={staticFile(`shorts/${slug}/audio/${s.id}.mp3`)} /></Sequence>}
+      <SceneSfx sceneDur={dur} cues={sceneCues(s, [{ name: "page_turn", at: 0, volume: 0.2 }])} />
+    </AbsoluteFill>
+  );
+};
+
+/* KINETIC typography-on-black beat (the "second narrator"): a number counting
+   up (optionally struck through to a second, real number) and/or words
+   materializing one-by-one — silence-synced to the narration. */
+const KineticScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Theme }> = ({ s, slug, m, th }) => {
+  const frame = useCurrentFrame();
+  const dur = sceneFrames(s, m);
+  const aud = sceneAud(s, m) * FPS;
+  const k = s.kinetic ?? {};
+  const fadeOut = interpolate(frame, [dur - 12, dur], [1, 0], { extrapolateLeft: "clamp" });
+  const hasAudio = m.durations[s.id] !== undefined;
+  const countProg = interpolate(frame - LEAD, [0, aud * 0.55], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const eased = countProg * countProg * (3 - 2 * countProg);
+  const shown = k.count !== undefined ? Math.round(eased * k.count) : null;
+  const strikeAt = LEAD + aud * 0.68;
+  const strikeT = interpolate(frame, [strikeAt, strikeAt + 12], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const revealSp = spring({ frame: frame - strikeAt - 6, fps: FPS, config: { damping: 13, stiffness: 120 } });
+  const fmt = (n: number) => n.toLocaleString("en-US");
+  const words = k.words ?? [];
+  const perWord = words.length ? (aud * 0.78) / words.length : 0;
+  return (
+    <AbsoluteFill style={{ backgroundColor: "#04060A", justifyContent: "center", alignItems: "center", opacity: fadeOut }}>
+      <div style={{ position: "absolute", width: 780, height: 780, borderRadius: "50%",
+        background: `radial-gradient(circle, ${th.accent}0F 0%, transparent 60%)` }} />
+      {shown !== null && (
+        <div style={{ textAlign: "center" }}>
+          <div style={{ position: "relative", display: "inline-block" }}>
+            <span style={{ fontFamily: th.display, fontWeight: 700, fontSize: 200, color: "#fff", letterSpacing: 1,
+              lineHeight: 1, opacity: k.strike !== undefined ? interpolate(strikeT, [0, 1], [1, 0.45]) : 1 }}>
+              {k.prefix ?? ""}{fmt(shown)}{k.suffix ?? ""}
+            </span>
+            {k.strike !== undefined && (
+              <div style={{ position: "absolute", top: "52%", left: -12, right: -12, height: 10,
+                background: "#FF4D4D", borderRadius: 6, transform: `scaleX(${strikeT})`, transformOrigin: "left",
+                boxShadow: "0 0 18px #FF4D4Daa" }} />
+            )}
+          </div>
+          {k.countLabel && (
+            <div style={{ fontFamily: th.body, fontWeight: 600, fontSize: 52, color: "rgba(255,255,255,0.7)", marginTop: 6 }}>
+              {k.countLabel}
+            </div>
+          )}
+          {k.strike !== undefined && (
+            <div style={{ marginTop: 26, opacity: revealSp, transform: `scale(${interpolate(revealSp, [0, 1], [0.8, 1])})` }}>
+              <span style={{ fontFamily: th.display, fontWeight: 700, fontSize: 150, color: th.accent,
+                textShadow: `0 0 40px ${th.accent}66` }}>{k.prefix ?? ""}{fmt(k.strike)}{k.suffix ?? ""}</span>
+              {k.strikeLabel && (
+                <div style={{ fontFamily: th.body, fontWeight: 600, fontSize: 46, color: "#fff", marginTop: 4 }}>{k.strikeLabel}</div>
+              )}
+            </div>
+          )}
+        </div>
+      )}
+      {words.length > 0 && (
+        <div style={{ maxWidth: 1500, textAlign: "center", padding: "0 80px" }}>
+          {words.map((w, i) => {
+            const wIn = spring({ frame: frame - LEAD - i * perWord, fps: FPS, config: { damping: 16 } });
+            return (
+              <span key={i} style={{ display: "inline-block", margin: "0 14px",
+                fontFamily: th.display, fontWeight: 700, fontSize: 92, lineHeight: 1.3,
+                color: i === words.length - 1 ? th.accent : "#fff",
+                opacity: wIn, transform: `translateY(${interpolate(wIn, [0, 1], [26, 0])}px)` }}>{w}</span>
+            );
+          })}
+        </div>
+      )}
+      {k.sub && (
+        <div style={{ position: "absolute", bottom: 150, left: 0, right: 0, textAlign: "center" }}>
+          <span style={{ fontFamily: th.body, fontWeight: 500, fontSize: 40, color: "rgba(255,255,255,0.6)" }}>{k.sub}</span>
+        </div>
+      )}
+      <Brand th={th} />
+      {hasAudio && <Sequence from={LEAD}><Audio src={staticFile(`shorts/${slug}/audio/${s.id}.mp3`)} /></Sequence>}
+      <SceneSfx sceneDur={dur} cues={sceneCues(s, k.strike !== undefined ? [{ name: "stat_hit", at: Math.round(strikeAt) }] : [])} />
+    </AbsoluteFill>
+  );
+};
+
 export const makeDocComp = (doc: DocSpec, manifest: DocManifest, outro?: OutroSpec): React.FC => {
   const th = THEMES[doc.channel ?? "mindwired"] ?? THEMES.mindwired;
   // Per-prefix rotation: the k-th scene using a prefix shows that prefix's k-th
@@ -478,6 +698,8 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest, outro?: OutroSp
             <Sequence key={s.id} from={from} durationInFrames={dur} name={s.id}>
               {s.chapter
                 ? <ChapterCard s={s} slug={doc.slug} m={manifest} th={th} />
+                : s.sting
+                ? <StingScene s={s} slug={doc.slug} m={manifest} th={th} />
                 : s.speaker
                 ? <RadioScene s={s} slug={doc.slug} m={manifest} th={th} />
                 : s.video
@@ -494,6 +716,10 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest, outro?: OutroSp
                     })()}
                     slug={doc.slug} cap={s.mascotAside ? undefined : s.cap} stat={s.stat} note={s.note}
                     accent={th.accent} sceneDur={dur} circle={s.circle} />
+                : s.exhibit
+                ? <ExhibitScene s={s} slug={doc.slug} m={manifest} idx={sceneFileIdx[s.id] ?? i} th={th} />
+                : s.kinetic
+                ? <KineticScene s={s} slug={doc.slug} m={manifest} th={th} />
                 : s.diagram
                 ? <DiagramScene s={s} slug={doc.slug} m={manifest} th={th} />
                 : <IllusScene s={s} slug={doc.slug} m={manifest} idx={sceneFileIdx[s.id] ?? i} th={th} />}

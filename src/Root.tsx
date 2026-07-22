@@ -44,6 +44,8 @@ import mh370Doc from "./mindwired-doc/docs/mh370.json";
 import mh370Manifest from "./mindwired-doc/docs/mh370.manifest.json";
 import mh370thDoc from "./mindwired-doc/docs/mh370theories.json";
 import mh370thManifest from "./mindwired-doc/docs/mh370theories.manifest.json";
+import marsOneDoc from "./mindwired-doc/docs/marsone.json";
+import marsOneManifest from "./mindwired-doc/docs/marsone.manifest.json";
 // Subscribe outro baked into the render (ONE render, no ffmpeg concat). frames @30fps.
 const BB_OUTRO = { file: "outro/subscribe_blackbox_long.mp4", frames: 483 };
 const MW_OUTRO = { file: "outro/subscribe_mindwired_long.mp4", frames: 527 };
@@ -150,6 +152,8 @@ import abChallengerPlanJson from "./viral/plans/ab-challenger.json";
 import abChallengerManifestJson from "../public/shorts/ab-challenger/audio/manifest.json";
 import abApollo1PlanJson from "./viral/plans/ab-apollo1.json";
 import abApollo1ManifestJson from "../public/shorts/ab-apollo1/audio/manifest.json";
+import mwDoomtimePlanJson from "./viral/plans/mw-doomtime.json";
+import mwDoomtimeManifestJson from "../public/shorts/mw-doomtime/audio/manifest.json";
 import cosmicspeedPlanJson from "./viral/plans/cosmicspeed.json";
 import cosmicspeedManifestJson from "../public/shorts/cosmicspeed/audio/manifest.json";
 import biggeststarPlanJson from "./viral/plans/biggeststar.json";
@@ -272,6 +276,8 @@ const abChallengerPlan = abChallengerPlanJson as unknown as VisualPlan;
 const abChallengerManifest = abChallengerManifestJson as unknown as ShortManifest;
 const abApollo1Plan = abApollo1PlanJson as unknown as VisualPlan;
 const abApollo1Manifest = abApollo1ManifestJson as unknown as ShortManifest;
+const mwDoomtimePlan = mwDoomtimePlanJson as unknown as VisualPlan;
+const mwDoomtimeManifest = mwDoomtimeManifestJson as unknown as ShortManifest;
 
 // ── Cosmic-speed Short (AstroKobi-style): Hume VO + Veo/Higgsfield b-roll ──
 const cosmicspeedPlan = cosmicspeedPlanJson as unknown as VisualPlan;
@@ -563,6 +569,15 @@ export const RemotionRoot: React.FC = () => {
         component={ViralShort}
         defaultProps={{ plan: abApollo1Plan, manifest: abApollo1Manifest }}
         durationInFrames={viralShortFrames(abApollo1Plan, abApollo1Manifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ShortMwDoomtime"
+        component={ViralShort}
+        defaultProps={{ plan: mwDoomtimePlan, manifest: mwDoomtimeManifest }}
+        durationInFrames={viralShortFrames(mwDoomtimePlan, mwDoomtimeManifest)}
         fps={30}
         width={1080}
         height={1920}
@@ -946,6 +961,16 @@ export const RemotionRoot: React.FC = () => {
         id="AlmostDiedHiDoc"
         component={makeDocComp(almostDiedHiDoc, almostDiedHiManifest)}
         durationInFrames={docTotalFrames(almostDiedHiDoc, almostDiedHiManifest)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── mindwired — Mars One (documentary pivot #1; MW subscribe outro baked) ── */}
+      <Composition
+        id="MarsOneDoc"
+        component={makeDocComp(marsOneDoc, marsOneManifest, MW_OUTRO)}
+        durationInFrames={docTotalFrames(marsOneDoc, marsOneManifest, MW_OUTRO)}
         fps={30}
         width={1920}
         height={1080}

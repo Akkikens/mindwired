@@ -33,7 +33,8 @@ def main() -> None:
         if "chapter" in sc:
             mm, ss = divmod(int(cursor), 60); hh, mm = divmod(mm, 60)
             stamp = f"{hh}:{mm:02d}:{ss:02d}" if hh else f"{mm:02d}:{ss:02d}"
-            chapters.append(f"{stamp} {sc['chapter'].splitlines()[1]}")
+            _cl = sc["chapter"].splitlines()
+            chapters.append(f"{stamp} {_cl[1] if len(_cl) > 1 else _cl[0]}")
         start = cursor + LEAD / FPS
         # strip the [pause] dramatic-beat marker (TTS-only, see cartesia.with_pauses)
         # so it never ships in subtitles or skews the per-word cue timing
