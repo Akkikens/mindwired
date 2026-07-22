@@ -1,0 +1,79 @@
+{
+  "slug": "almostdied-short3",
+  "title": "3 Years Before the Moon, Neil Armstrong Was Spinning to Death",
+  "channel": "mindwired",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "start": 0,
+      "end": 5,
+      "voiceover": "Three years before he walked on the Moon, Neil Armstrong was spinning to death in orbit.",
+      "mainText": "ARMSTRONG WAS SPINNING TO DEATH",
+      "emphasis": ["SPINNING"],
+      "kicker": "Gemini 8, 1966",
+      "visualConcept": "Gemini capsule tumbling",
+      "backgroundPrompt": "Gemini spacecraft in orbit",
+      "brollExists": true,
+      "emotionalTone": "shock",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "dock",
+      "kind": "problem",
+      "start": 5,
+      "end": 11,
+      "voiceover": "March nineteen sixty six. Armstrong and David Scott pull off the first ever docking of two spacecraft. Twenty seven minutes later, out of contact with the ground, the stack starts to roll on its own.",
+      "mainText": "the first docking ever — then it rolled",
+      "emphasis": ["rolled"],
+      "visualConcept": "docking then spin",
+      "backgroundPrompt": "Gemini spacecraft docking in orbit",
+      "brollExists": true,
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "spin",
+      "kind": "shockfact",
+      "start": 11,
+      "end": 17,
+      "voiceover": "A thruster was stuck firing. The little Gemini spun up to two hundred ninety six degrees per second. Nearly a full turn every second. Their vision blurred, and grayed at the edges.",
+      "mainText": "296° EVERY SECOND",
+      "emphasis": ["296°"],
+      "visualConcept": "cockpit graying out",
+      "backgroundPrompt": "Gemini cockpit interior instruments",
+      "brollExists": true,
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "blind",
+      "kind": "transformation",
+      "start": 17,
+      "end": 23,
+      "voiceover": "After the blur comes blackout. After blackout, nobody flies the ship. Half blind, Armstrong reached overhead and found the reentry thrusters by feel. The switches you are never supposed to touch in orbit.",
+      "mainText": "he fixed it BLIND",
+      "emphasis": ["BLIND"],
+      "visualConcept": "hand finds switch",
+      "backgroundPrompt": "Gemini astronauts crew",
+      "brollExists": true,
+      "emotionalTone": "fear",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "start": 23,
+      "end": 29,
+      "voiceover": "It worked. Three years later, that same man was the first human on the Moon. This is one of twelve near-death stories. The full documentary is on the channel. Subscribe to mindwired.",
+      "mainText": "3 years later: THE MOON",
+      "emphasis": ["THE MOON"],
+      "kicker": "12 stories — full film on the channel",
+      "visualConcept": "recovery at sea",
+      "backgroundPrompt": "Gemini capsule ocean recovery",
+      "brollExists": true,
+      "emotionalTone": "confidence",
+      "transitionOut": "none"
+    }
+  ]
+}

@@ -130,6 +130,22 @@ import roguebhPlanJson from "./viral/plans/roguebh.json";
 import roguebhManifestJson from "../public/shorts/roguebh/audio/manifest.json";
 import erasedmanPlanJson from "./viral/plans/erasedman.json";
 import erasedmanManifestJson from "../public/shorts/erasedman/audio/manifest.json";
+import marsOneS1PlanJson from "./viral/plans/marsone-short1.json";
+import marsOneS1ManifestJson from "../public/shorts/marsone-short1/audio/manifest.json";
+import marsOneS2PlanJson from "./viral/plans/marsone-short2.json";
+import marsOneS2ManifestJson from "../public/shorts/marsone-short2/audio/manifest.json";
+import marsOneS3PlanJson from "./viral/plans/marsone-short3.json";
+import marsOneS3ManifestJson from "../public/shorts/marsone-short3/audio/manifest.json";
+import marsOneS4PlanJson from "./viral/plans/marsone-short4.json";
+import marsOneS4ManifestJson from "../public/shorts/marsone-short4/audio/manifest.json";
+import almostS1PlanJson from "./viral/plans/almostdied-short1.json";
+import almostS1ManifestJson from "../public/shorts/almostdied-short1/audio/manifest.json";
+import almostS2PlanJson from "./viral/plans/almostdied-short2.json";
+import almostS2ManifestJson from "../public/shorts/almostdied-short2/audio/manifest.json";
+import almostS3PlanJson from "./viral/plans/almostdied-short3.json";
+import almostS3ManifestJson from "../public/shorts/almostdied-short3/audio/manifest.json";
+import almostS4PlanJson from "./viral/plans/almostdied-short4.json";
+import almostS4ManifestJson from "../public/shorts/almostdied-short4/audio/manifest.json";
 import womantapePlanJson from "./viral/plans/womantape.json";
 import womantapeManifestJson from "../public/shorts/womantape/audio/manifest.json";
 import marshalchairPlanJson from "./viral/plans/marshalchair.json";
@@ -254,6 +270,22 @@ const roguebhPlan = roguebhPlanJson as unknown as VisualPlan;
 const roguebhManifest = roguebhManifestJson as unknown as ShortManifest;
 const erasedmanPlan = erasedmanPlanJson as unknown as VisualPlan;
 const erasedmanManifest = erasedmanManifestJson as unknown as ShortManifest;
+const marsOneS1Plan = marsOneS1PlanJson as unknown as VisualPlan;
+const marsOneS1Manifest = marsOneS1ManifestJson as unknown as ShortManifest;
+const marsOneS2Plan = marsOneS2PlanJson as unknown as VisualPlan;
+const marsOneS2Manifest = marsOneS2ManifestJson as unknown as ShortManifest;
+const marsOneS3Plan = marsOneS3PlanJson as unknown as VisualPlan;
+const marsOneS3Manifest = marsOneS3ManifestJson as unknown as ShortManifest;
+const marsOneS4Plan = marsOneS4PlanJson as unknown as VisualPlan;
+const marsOneS4Manifest = marsOneS4ManifestJson as unknown as ShortManifest;
+const almostS1Plan = almostS1PlanJson as unknown as VisualPlan;
+const almostS1Manifest = almostS1ManifestJson as unknown as ShortManifest;
+const almostS2Plan = almostS2PlanJson as unknown as VisualPlan;
+const almostS2Manifest = almostS2ManifestJson as unknown as ShortManifest;
+const almostS3Plan = almostS3PlanJson as unknown as VisualPlan;
+const almostS3Manifest = almostS3ManifestJson as unknown as ShortManifest;
+const almostS4Plan = almostS4PlanJson as unknown as VisualPlan;
+const almostS4Manifest = almostS4ManifestJson as unknown as ShortManifest;
 const womantapePlan = womantapePlanJson as unknown as VisualPlan;
 const womantapeManifest = womantapeManifestJson as unknown as ShortManifest;
 const marshalchairPlan = marshalchairPlanJson as unknown as VisualPlan;
@@ -458,6 +490,80 @@ export const RemotionRoot: React.FC = () => {
         component={ViralShort}
         defaultProps={{ plan: roguebhPlan, manifest: roguebhManifest }}
         durationInFrames={viralShortFrames(roguebhPlan, roguebhManifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      {/* ── Mars One Shorts funnel (real archival broll, cloned channel voice) ── */}
+      <Composition
+        id="ShortMarsOne1"
+        component={ViralShort}
+        defaultProps={{ plan: marsOneS1Plan, manifest: marsOneS1Manifest }}
+        durationInFrames={viralShortFrames(marsOneS1Plan, marsOneS1Manifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ShortMarsOne2"
+        component={ViralShort}
+        defaultProps={{ plan: marsOneS2Plan, manifest: marsOneS2Manifest }}
+        durationInFrames={viralShortFrames(marsOneS2Plan, marsOneS2Manifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ShortMarsOne3"
+        component={ViralShort}
+        defaultProps={{ plan: marsOneS3Plan, manifest: marsOneS3Manifest }}
+        durationInFrames={viralShortFrames(marsOneS3Plan, marsOneS3Manifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ShortMarsOne4"
+        component={ViralShort}
+        defaultProps={{ plan: marsOneS4Plan, manifest: marsOneS4Manifest }}
+        durationInFrames={viralShortFrames(marsOneS4Plan, marsOneS4Manifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      {/* ── "Almost Died in Space" Shorts funnel → rescue the low-traction long-form ── */}
+      <Composition
+        id="ShortAlmostDied1"
+        component={ViralShort}
+        defaultProps={{ plan: almostS1Plan, manifest: almostS1Manifest }}
+        durationInFrames={viralShortFrames(almostS1Plan, almostS1Manifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ShortAlmostDied2"
+        component={ViralShort}
+        defaultProps={{ plan: almostS2Plan, manifest: almostS2Manifest }}
+        durationInFrames={viralShortFrames(almostS2Plan, almostS2Manifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ShortAlmostDied3"
+        component={ViralShort}
+        defaultProps={{ plan: almostS3Plan, manifest: almostS3Manifest }}
+        durationInFrames={viralShortFrames(almostS3Plan, almostS3Manifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ShortAlmostDied4"
+        component={ViralShort}
+        defaultProps={{ plan: almostS4Plan, manifest: almostS4Manifest }}
+        durationInFrames={viralShortFrames(almostS4Plan, almostS4Manifest)}
         fps={30}
         width={1080}
         height={1920}

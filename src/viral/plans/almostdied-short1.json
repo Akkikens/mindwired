@@ -1,0 +1,79 @@
+{
+  "slug": "almostdied-short1",
+  "title": "Spaceflight Killed 21 People. It Nearly Killed 32 More.",
+  "channel": "mindwired",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "start": 0,
+      "end": 5,
+      "voiceover": "Spaceflight has killed twenty one people. It came within seconds of killing thirty two more. And every single one of them made it home.",
+      "mainText": "21 DIED IN SPACE. 32 ALMOST DID.",
+      "emphasis": ["32"],
+      "kicker": "and all 32 made it home",
+      "visualConcept": "Earth from orbit, slam",
+      "backgroundPrompt": "Earth from space station orbit",
+      "brollExists": true,
+      "emotionalTone": "shock",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "setup",
+      "kind": "problem",
+      "start": 5,
+      "end": 10,
+      "voiceover": "These aren't the disasters you know. They're the twelve missions that should have been catastrophes, and the seconds that decided otherwise.",
+      "mainText": "12 missions that should've been disasters",
+      "emphasis": ["disasters"],
+      "visualConcept": "mission control room",
+      "backgroundPrompt": "Apollo mission control room consoles",
+      "brollExists": true,
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "list1",
+      "kind": "shockfact",
+      "start": 10,
+      "end": 16,
+      "voiceover": "An astronaut who watched flaming chunks of his own ship fly past the window. A commander spinning end over end, seconds from blackout. A man who nearly drowned, in space.",
+      "mainText": "one of them nearly DROWNED",
+      "emphasis": ["DROWNED"],
+      "visualConcept": "flashes of near-disaster",
+      "backgroundPrompt": "astronaut spacewalk emergency",
+      "brollExists": true,
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "list2",
+      "kind": "shockfact",
+      "start": 16,
+      "end": 22,
+      "voiceover": "Struck by lightning. Locked out of the airlock. Falling at twenty one times the force of gravity. Every one of them, seconds from death.",
+      "mainText": "seconds from death — every time",
+      "emphasis": ["seconds"],
+      "visualConcept": "rapid montage",
+      "backgroundPrompt": "spacecraft reentry fireball",
+      "brollExists": true,
+      "emotionalTone": "fear",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "start": 22,
+      "end": 29,
+      "voiceover": "Twelve stories, in order, from nineteen sixty two to twenty eighteen. Every astronaut who almost died in space. The full documentary is on the channel. Subscribe to mindwired.",
+      "mainText": "EVERY ONE MADE IT HOME",
+      "emphasis": ["HOME"],
+      "kicker": "full documentary on the channel",
+      "visualConcept": "Earth horizon, hopeful",
+      "backgroundPrompt": "Earth horizon from orbit black space",
+      "brollExists": true,
+      "emotionalTone": "confidence",
+      "transitionOut": "none"
+    }
+  ]
+}

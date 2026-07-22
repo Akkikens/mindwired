@@ -10,6 +10,13 @@ critics — never asserted in the narrator's voice (Mars One's insolvency was no
 court finding of fraud; Bas Lansdorp was never charged). Fact base:
 docs/planning/CLAIMS-marsone.md.
 
+## Upload settings
+**Category:** Science & Technology · **License:** Standard YouTube License ·
+**Language:** English · **AI disclosure:** YES — tick "Altered or synthetic content"
+(contains a synthetic/cloned narration voice; all visuals are real PD/CC footage,
+the open-access MIT study, and one CC-licensed photo — no AI recreations of real
+people/events, but the synthetic voiceover alone requires the disclosure).
+
 ## Title (primary)
 200,000 People Signed Up to Die on Mars. Then It All Fell Apart.
 
@@ -114,10 +121,52 @@ or events. All kinetic-typography and exhibit graphics original to mindwired.
   reverse merger, bankruptcy
 - Civil Court of Basel-Stadt bankruptcy record (15 Jan 2019); IBTimes (4,227 admission)
 
-## Shorts (funnel — cut with scripts/cut_shorts.py or as standalone vertical builds)
-Plan 3–4 vertical Shorts, drip ~24h apart after the long-form, each pinned-linking the
-full video (see docs/guides/SHORTS-SCRIPTS.md). Candidate cold opens:
-1. "200,000 people applied to die on Mars. Only ~2,700 actually did." (the number reveal)
-2. "An MIT study said the first Mars One colonist would die in 68 days — from too MUCH oxygen."
-3. "This Mars colony went bankrupt for less than the price of a car. The world found out on Reddit."
-4. "A finalist for the one-way Mars mission blew the whistle: points for donations, a 10-minute Skype."
+## Shorts (4 built — 4K vertical 2160×3840, viral engine, cloned voice + real broll + short outro)
+Files at repo root: `*(Short).mp4`. Comps: `ShortMarsOne1..4`. Plans:
+`src/viral/plans/marsone-short1..4.json`. Drip 1/day AFTER the long-form (order
+1→2→4→3), each pinned-linking the full video. First 3 hashtags show above the title.
+All keep the honesty line (scam attributed, never asserted; Roche's points claim +
+the founder's denial both shown in Short 4).
+
+### SHORT 1 (~50s) — the number reveal
+TITLE: 200,000 people signed up to die on Mars. Almost none actually did. #marsone #space #mars
+DESC: Mars One told the world 200,000 people applied for a one-way trip to Mars. But those
+were just email sign-ups — the number who actually paid and submitted a video was about 2,782
+(NBC News). The headline was off by ~99%, and the mission never left the ground. Full
+documentary on the channel. Subscribe to mindwired.
+#marsone #mars #space #onewaytomars #spacedocumentary #shorts #didyouknow #spacefacts #nasa #redplanet #documentary #viral
+SEARCH CLUSTER: mars one, mars one applicants, 200000 apply mars, one way trip to mars, mars one scam
+PINNED: The real number of completed applications was in the low thousands — full story on the channel.
+
+### SHORT 2 (~50s) — 68 days
+TITLE: MIT said the first Mars One colonist would die in 68 days #marsone #space #mars
+DESC: A 2014 MIT study ran Mars One's own plan through a life-support simulation. The first
+colonist would die in about 68 days — not from too little oxygen, but too much: the crops
+would flood the sealed habitat with O2 until the fix drained the nitrogen and the pressure
+collapsed. The founder called the study "a confirmation" of his plan. Full breakdown on the
+channel. Subscribe to mindwired.
+#marsone #mars #space #mit #spacescience #shorts #spacefacts #engineering #nasa #redplanet #documentary #didyouknow
+SEARCH CLUSTER: mars one mit study, why mars one impossible, mars colony oxygen, 68 days mars, living on mars
+PINNED: Death by too much oxygen — the mechanism explained in full on the channel.
+
+### SHORT 3 (~50s) — bankrupt for the price of a car
+TITLE: This Mars colony went bankrupt for less than the price of a car #marsone #space
+DESC: Mars One promised to spend $6 billion putting humans on Mars, funded by the biggest
+reality show ever made. The TV deal collapsed without a single frame filmed, the launch dates
+slid to 2031, and in January 2019 a Swiss court declared it bankrupt — with, by one account,
+under $25,000 left. The world found out weeks later from a Reddit post. Full documentary on
+the channel. Subscribe to mindwired.
+#marsone #mars #space #bankruptcy #spacenews #shorts #startup #documentary #nasa #redplanet #didyouknow #viral
+SEARCH CLUSTER: mars one bankruptcy, what happened to mars one, mars one 2019, mars one collapse, mars one reality show
+PINNED: A project that once claimed 200,000 applicants ended for the price of a used car.
+
+### SHORT 4 (~50s) — the whistleblower
+TITLE: A finalist chosen to die on Mars blew the whistle #marsone #space #mars
+DESC: Joseph Roche, an astrophysicist and one of Mars One's 100 finalists, said his entire
+vetting to leave Earth forever was a questionnaire, a video, and a 10-minute Skype call — and
+that candidates climbed the leaderboard by buying merch and donating money. Mars One's founder
+denied it, calling the claim "simply a lie." Allegation or not, the venture collapsed in 2019.
+Full investigation on the channel. Subscribe to mindwired.
+#marsone #mars #space #whistleblower #josephroche #shorts #spacefacts #documentary #nasa #redplanet #didyouknow #truestory
+SEARCH CLUSTER: mars one finalist, joseph roche mars one, mars one selection scam, mars 100, mars one truth
+PINNED: These are Roche's allegations, with the founder's denial — the full, fair story is on the channel.

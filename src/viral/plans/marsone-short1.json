@@ -1,0 +1,92 @@
+{
+  "slug": "marsone-short1",
+  "title": "200,000 People Signed Up to Die on Mars. Almost None Actually Did.",
+  "channel": "mindwired",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "start": 0,
+      "end": 4,
+      "voiceover": "Two hundred thousand people signed up for a one-way trip to Mars. The problem is, almost none of them actually did.",
+      "mainText": "200,000 SIGNED UP TO DIE ON MARS",
+      "emphasis": ["200,000"],
+      "kicker": "one way. no return.",
+      "visualConcept": "huge applicant crowd, slam",
+      "backgroundPrompt": "huge diverse crowd of people",
+      "brollExists": true,
+      "emotionalTone": "shock",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "headline",
+      "kind": "problem",
+      "start": 4,
+      "end": 9,
+      "voiceover": "It was in every headline. Time magazine, CNN, the BBC. Over two hundred thousand people wanted a ticket to the red planet.",
+      "mainText": "every headline ran the number",
+      "emphasis": ["number"],
+      "visualConcept": "newspaper montage",
+      "backgroundPrompt": "newspaper headlines montage",
+      "brollExists": true,
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "truth",
+      "kind": "shockfact",
+      "start": 9,
+      "end": 15,
+      "voiceover": "But those weren't applicants. They were people who left an email address on a website. A real application meant paying a fee and filming a video.",
+      "mainText": "they just left an EMAIL",
+      "emphasis": ["EMAIL"],
+      "visualConcept": "email field, cold reveal",
+      "backgroundPrompt": "email inbox on a screen",
+      "brollExists": true,
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "real",
+      "kind": "data",
+      "start": 15,
+      "end": 21,
+      "voiceover": "The number who actually paid and submitted a video? According to NBC News, two thousand seven hundred and eighty two.",
+      "mainText": "the real number:",
+      "stat": { "to": 2782, "label": "ACTUALLY COMPLETED APPLICATIONS" },
+      "visualConcept": "count-up lands tiny",
+      "emotionalTone": "shock",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "off",
+      "kind": "transformation",
+      "start": 21,
+      "end": 27,
+      "voiceover": "The most famous number in the whole story was off by ninety nine percent. And the mission never left the ground.",
+      "mainText": "OFF BY 99%",
+      "emphasis": ["99%"],
+      "kicker": "the mission never launched",
+      "visualConcept": "200,000 struck to 2,782",
+      "backgroundPrompt": "official court bankruptcy document",
+      "brollExists": true,
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "start": 27,
+      "end": 33,
+      "voiceover": "The full story of how Mars One sold the world a one-way ticket that never left Earth is on the channel. Subscribe to mindwired.",
+      "mainText": "IT NEVER LEFT EARTH",
+      "emphasis": ["EARTH"],
+      "kicker": "full documentary on the channel",
+      "visualConcept": "desolate Mars vista",
+      "backgroundPrompt": "desolate empty Mars surface panorama",
+      "brollExists": true,
+      "emotionalTone": "confidence",
+      "transitionOut": "none"
+    }
+  ]
+}

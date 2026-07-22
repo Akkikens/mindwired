@@ -1,0 +1,91 @@
+{
+  "slug": "marsone-short2",
+  "title": "MIT Said the First Mars One Colonist Would Die in 68 Days",
+  "channel": "mindwired",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "start": 0,
+      "end": 4,
+      "voiceover": "Five MIT engineers ran Mars One's own plan through a simulation. The first colonist died in sixty eight days.",
+      "mainText": "FIRST COLONIST DIES IN 68 DAYS",
+      "emphasis": ["68 DAYS"],
+      "kicker": "MIT ran the numbers",
+      "visualConcept": "desolate Mars, countdown",
+      "backgroundPrompt": "desolate empty Mars surface panorama",
+      "brollExists": true,
+      "emotionalTone": "shock",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "twist",
+      "kind": "problem",
+      "start": 4,
+      "end": 9,
+      "voiceover": "And not the way you'd expect. They didn't run out of oxygen. They drowned in it.",
+      "mainText": "not too little oxygen — TOO MUCH",
+      "emphasis": ["TOO MUCH"],
+      "visualConcept": "oxygen overload",
+      "backgroundPrompt": "indoor hydroponic plants under grow lights",
+      "brollExists": true,
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "crops",
+      "kind": "shockfact",
+      "start": 9,
+      "end": 15,
+      "voiceover": "To grow food, the crew would farm crops inside the sealed habitat. Those plants flood the air with oxygen, until it becomes a fire hazard.",
+      "mainText": "the crops POISON the air",
+      "emphasis": ["POISON"],
+      "visualConcept": "greenhouse turns hostile",
+      "backgroundPrompt": "rows of plants growing indoors under LED light",
+      "brollExists": true,
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "day68",
+      "kind": "data",
+      "start": 15,
+      "end": 21,
+      "voiceover": "With no way to remove the excess, the fix drains the nitrogen, the pressure collapses, and around day sixty eight, the crew suffocates. On schedule.",
+      "mainText": "the colony dies on schedule:",
+      "stat": { "to": 68, "label": "DAYS TO THE FIRST DEATH (MIT, 2014)" },
+      "visualConcept": "count to 68",
+      "emotionalTone": "fear",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "response",
+      "kind": "quote",
+      "start": 21,
+      "end": 27,
+      "voiceover": "The founder's response? He called the study that predicted his crew suffocating a confirmation of his plan.",
+      "mainText": "“a confirmation of our plan”",
+      "kicker": "— Mars One's founder",
+      "visualConcept": "denial over Mars dust",
+      "backgroundPrompt": "Mars dust storm surface",
+      "brollExists": true,
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "start": 27,
+      "end": 33,
+      "voiceover": "The full breakdown of why Mars One was impossible by design is on the channel. Subscribe to mindwired.",
+      "mainText": "IMPOSSIBLE BY DESIGN",
+      "emphasis": ["IMPOSSIBLE"],
+      "kicker": "full documentary on the channel",
+      "visualConcept": "desolate Mars vista",
+      "backgroundPrompt": "desolate empty Mars surface panorama",
+      "brollExists": true,
+      "emotionalTone": "confidence",
+      "transitionOut": "none"
+    }
+  ]
+}

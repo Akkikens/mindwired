@@ -1,0 +1,79 @@
+{
+  "slug": "almostdied-short4",
+  "title": "The First Man to Walk in Space Couldn't Get Back Inside",
+  "channel": "mindwired",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "start": 0,
+      "end": 4,
+      "voiceover": "The first man to ever walk in space couldn't get back inside his ship.",
+      "mainText": "HE COULDN'T GET BACK INSIDE",
+      "emphasis": ["BACK INSIDE"],
+      "kicker": "the first spacewalk, 1965",
+      "visualConcept": "cosmonaut floating outside",
+      "backgroundPrompt": "cosmonaut spacewalk 1965 Leonov",
+      "brollExists": true,
+      "emotionalTone": "shock",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "out",
+      "kind": "problem",
+      "start": 4,
+      "end": 10,
+      "voiceover": "March nineteen sixty five. Alexei Leonov floats out and makes history. Twelve minutes. Then he tries to come back in, and finds his suit has ballooned stiff in the vacuum.",
+      "mainText": "his suit BALLOONED in the vacuum",
+      "emphasis": ["BALLOONED"],
+      "visualConcept": "stiff suit",
+      "backgroundPrompt": "cosmonaut spacesuit vintage",
+      "brollExists": true,
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "locked",
+      "kind": "shockfact",
+      "start": 10,
+      "end": 16,
+      "voiceover": "His fingers pulled out of his gloves. His feet left his boots. He could not bend enough to fit through the airlock. Locked out, two hundred kilometres straight up.",
+      "mainText": "locked out. 200 km straight up.",
+      "emphasis": ["locked out"],
+      "visualConcept": "airlock too small",
+      "backgroundPrompt": "cosmonaut spacewalk Leonov",
+      "brollExists": true,
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "bleed",
+      "kind": "transformation",
+      "start": 16,
+      "end": 22,
+      "voiceover": "So he opened a valve and bled out his own air, risking the bends, until the suit was soft enough to bend. Sweat sloshed to his knees. He squeezed in head first, against every rule.",
+      "mainText": "he bled out his own AIR to fit",
+      "emphasis": ["AIR"],
+      "visualConcept": "valve, desperation",
+      "backgroundPrompt": "cosmonaut spacesuit vintage detail",
+      "brollExists": true,
+      "emotionalTone": "fear",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "start": 22,
+      "end": 29,
+      "voiceover": "Then the reentry failed, and he landed in a Siberian forest full of wolves, and had to ski out. That's one of twelve. The full documentary is on the channel. Subscribe to mindwired.",
+      "mainText": "then it got WORSE",
+      "emphasis": ["WORSE"],
+      "kicker": "12 near-death stories — full film on the channel",
+      "visualConcept": "snowy taiga forest",
+      "backgroundPrompt": "snowy Siberian taiga forest winter",
+      "brollExists": true,
+      "emotionalTone": "confidence",
+      "transitionOut": "none"
+    }
+  ]
+}

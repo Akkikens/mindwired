@@ -1,0 +1,79 @@
+{
+  "slug": "almostdied-short2",
+  "title": "The Astronaut Who Nearly Drowned in Space",
+  "channel": "mindwired",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "start": 0,
+      "end": 4,
+      "voiceover": "In twenty thirteen, an astronaut nearly became the first human being to drown. In space.",
+      "mainText": "HE ALMOST DROWNED IN SPACE",
+      "emphasis": ["DROWNED"],
+      "kicker": "on a spacewalk, 2013",
+      "visualConcept": "helmet, water rising",
+      "backgroundPrompt": "astronaut helmet spacewalk close up",
+      "brollExists": true,
+      "emotionalTone": "shock",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "start",
+      "kind": "problem",
+      "start": 4,
+      "end": 10,
+      "voiceover": "Forty four minutes into a spacewalk, Luca Parmitano feels water on the back of his head. Inside a sealed helmet, in vacuum, it has nowhere to go. It clings, and it crawls.",
+      "mainText": "water. inside a sealed helmet.",
+      "emphasis": ["water"],
+      "visualConcept": "spacewalk outside ISS",
+      "backgroundPrompt": "astronaut spacewalk outside space station",
+      "brollExists": true,
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "spread",
+      "kind": "shockfact",
+      "start": 10,
+      "end": 16,
+      "voiceover": "A clogged filter is pumping his cooling water into his air. In zero gravity the blob wraps his head. Over his ears, and the radio goes muffled. Then over his eyes.",
+      "mainText": "over his ears — then his EYES",
+      "emphasis": ["EYES"],
+      "visualConcept": "water enveloping face",
+      "backgroundPrompt": "astronaut helmet visor reflection",
+      "brollExists": true,
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "dark",
+      "kind": "transformation",
+      "start": 16,
+      "end": 22,
+      "voiceover": "Then the station crosses into orbital night, and the sun goes out. Blind, half deaf, water creeping toward his nose, he finds his way back by feeling his tether, hand over hand.",
+      "mainText": "blind, deaf, feeling for the tether",
+      "emphasis": ["blind"],
+      "visualConcept": "dark orbit, tether",
+      "backgroundPrompt": "space station dark orbit night",
+      "brollExists": true,
+      "emotionalTone": "fear",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "start": 22,
+      "end": 29,
+      "voiceover": "A litre and a half of water came out of his helmet. It is why every spacesuit now carries a snorkel. And it's just one of twelve. The full documentary is on the channel. Subscribe to mindwired.",
+      "mainText": "that's why suits now have a SNORKEL",
+      "emphasis": ["SNORKEL"],
+      "kicker": "12 near-death stories — full film on the channel",
+      "visualConcept": "suit detail",
+      "backgroundPrompt": "astronaut spacewalk outside space station",
+      "brollExists": true,
+      "emotionalTone": "confidence",
+      "transitionOut": "none"
+    }
+  ]
+}

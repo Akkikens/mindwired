@@ -1,0 +1,92 @@
+{
+  "slug": "marsone-short3",
+  "title": "The Mars Colony That Went Bankrupt for Less Than the Price of a Car",
+  "channel": "mindwired",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "start": 0,
+      "end": 4,
+      "voiceover": "A company that promised to colonize Mars went bankrupt for less than the price of a car.",
+      "mainText": "BANKRUPT FOR LESS THAN A CAR",
+      "emphasis": ["A CAR"],
+      "kicker": "the Mars One collapse",
+      "visualConcept": "empty vault",
+      "backgroundPrompt": "empty bank vault door",
+      "brollExists": true,
+      "emotionalTone": "shock",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "promise",
+      "kind": "problem",
+      "start": 4,
+      "end": 10,
+      "voiceover": "Mars One said it would spend six billion dollars putting humans on Mars, funded by the biggest reality show ever made.",
+      "mainText": "$6 BILLION. paid for by a TV show.",
+      "emphasis": ["$6 BILLION"],
+      "visualConcept": "broadcast dream",
+      "backgroundPrompt": "television broadcast studio cameras",
+      "brollExists": true,
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "collapse",
+      "kind": "shockfact",
+      "start": 10,
+      "end": 16,
+      "voiceover": "The TV deal collapsed without filming a single frame. The launch dates slid from twenty twenty three, all the way to twenty thirty one.",
+      "mainText": "the show never aired",
+      "emphasis": ["never"],
+      "visualConcept": "dark empty studio",
+      "backgroundPrompt": "empty dark television studio",
+      "brollExists": true,
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "money",
+      "kind": "data",
+      "start": 16,
+      "end": 22,
+      "voiceover": "In January twenty nineteen, a Swiss court declared it bankrupt. Debts of about a million euros. And in the bank, by one account, less than twenty five thousand dollars.",
+      "mainText": "left in the bank:",
+      "stat": { "to": 25000, "label": "DOLLARS LEFT — LESS THAN A CAR" },
+      "visualConcept": "count to a tiny number",
+      "emotionalTone": "shock",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "reddit",
+      "kind": "transformation",
+      "start": 22,
+      "end": 28,
+      "voiceover": "And almost nobody noticed. The world found out weeks later, from a post on Reddit.",
+      "mainText": "the world found out on REDDIT",
+      "emphasis": ["REDDIT"],
+      "kicker": "no press release. no apology.",
+      "visualConcept": "lone screen in the dark",
+      "backgroundPrompt": "person at a computer screen in a dark room",
+      "brollExists": true,
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "start": 28,
+      "end": 34,
+      "voiceover": "How the dream quietly collapsed — the full documentary is on the channel. Subscribe to mindwired.",
+      "mainText": "IT NEVER LEFT EARTH",
+      "emphasis": ["EARTH"],
+      "kicker": "full documentary on the channel",
+      "visualConcept": "desolate Mars vista",
+      "backgroundPrompt": "desolate empty Mars surface panorama",
+      "brollExists": true,
+      "emotionalTone": "confidence",
+      "transitionOut": "none"
+    }
+  ]
+}
