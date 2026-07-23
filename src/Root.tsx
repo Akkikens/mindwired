@@ -44,8 +44,14 @@ import mh370Doc from "./mindwired-doc/docs/mh370.json";
 import mh370Manifest from "./mindwired-doc/docs/mh370.manifest.json";
 import mh370thDoc from "./mindwired-doc/docs/mh370theories.json";
 import mh370thManifest from "./mindwired-doc/docs/mh370theories.manifest.json";
+import moonSellerDoc from "./mindwired-doc/docs/moonseller.json";
+import moonSellerManifest from "./mindwired-doc/docs/moonseller.manifest.json";
 import marsOneDoc from "./mindwired-doc/docs/marsone.json";
 import marsOneManifest from "./mindwired-doc/docs/marsone.manifest.json";
+import oceanGateDoc from "./mindwired-doc/docs/oceangate.json";
+import oceanGateManifest from "./mindwired-doc/docs/oceangate.manifest.json";
+import concordeDoc from "./mindwired-doc/docs/concorde.json";
+import concordeManifest from "./mindwired-doc/docs/concorde.manifest.json";
 // Subscribe outro baked into the render (ONE render, no ffmpeg concat). frames @30fps.
 const BB_OUTRO = { file: "outro/subscribe_blackbox_long.mp4", frames: 483 };
 const MW_OUTRO = { file: "outro/subscribe_mindwired_long.mp4", frames: 527 };
@@ -138,6 +144,14 @@ import marsOneS3PlanJson from "./viral/plans/marsone-short3.json";
 import marsOneS3ManifestJson from "../public/shorts/marsone-short3/audio/manifest.json";
 import marsOneS4PlanJson from "./viral/plans/marsone-short4.json";
 import marsOneS4ManifestJson from "../public/shorts/marsone-short4/audio/manifest.json";
+import oceanGateS1PlanJson from "./viral/plans/oceangate-short1.json";
+import oceanGateS1ManifestJson from "../public/shorts/oceangate-short1/audio/manifest.json";
+import oceanGateS2PlanJson from "./viral/plans/oceangate-short2.json";
+import oceanGateS2ManifestJson from "../public/shorts/oceangate-short2/audio/manifest.json";
+import oceanGateS3PlanJson from "./viral/plans/oceangate-short3.json";
+import oceanGateS3ManifestJson from "../public/shorts/oceangate-short3/audio/manifest.json";
+import oceanGateS4PlanJson from "./viral/plans/oceangate-short4.json";
+import oceanGateS4ManifestJson from "../public/shorts/oceangate-short4/audio/manifest.json";
 import almostS1PlanJson from "./viral/plans/almostdied-short1.json";
 import almostS1ManifestJson from "../public/shorts/almostdied-short1/audio/manifest.json";
 import almostS2PlanJson from "./viral/plans/almostdied-short2.json";
@@ -278,6 +292,14 @@ const marsOneS3Plan = marsOneS3PlanJson as unknown as VisualPlan;
 const marsOneS3Manifest = marsOneS3ManifestJson as unknown as ShortManifest;
 const marsOneS4Plan = marsOneS4PlanJson as unknown as VisualPlan;
 const marsOneS4Manifest = marsOneS4ManifestJson as unknown as ShortManifest;
+const oceanGateS1Plan = oceanGateS1PlanJson as unknown as VisualPlan;
+const oceanGateS1Manifest = oceanGateS1ManifestJson as unknown as ShortManifest;
+const oceanGateS2Plan = oceanGateS2PlanJson as unknown as VisualPlan;
+const oceanGateS2Manifest = oceanGateS2ManifestJson as unknown as ShortManifest;
+const oceanGateS3Plan = oceanGateS3PlanJson as unknown as VisualPlan;
+const oceanGateS3Manifest = oceanGateS3ManifestJson as unknown as ShortManifest;
+const oceanGateS4Plan = oceanGateS4PlanJson as unknown as VisualPlan;
+const oceanGateS4Manifest = oceanGateS4ManifestJson as unknown as ShortManifest;
 const almostS1Plan = almostS1PlanJson as unknown as VisualPlan;
 const almostS1Manifest = almostS1ManifestJson as unknown as ShortManifest;
 const almostS2Plan = almostS2PlanJson as unknown as VisualPlan;
@@ -527,6 +549,43 @@ export const RemotionRoot: React.FC = () => {
         component={ViralShort}
         defaultProps={{ plan: marsOneS4Plan, manifest: marsOneS4Manifest }}
         durationInFrames={viralShortFrames(marsOneS4Plan, marsOneS4Manifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      {/* ── OceanGate Shorts funnel (documentary pivot #2) ── */}
+      <Composition
+        id="ShortOceanGate1"
+        component={ViralShort}
+        defaultProps={{ plan: oceanGateS1Plan, manifest: oceanGateS1Manifest }}
+        durationInFrames={viralShortFrames(oceanGateS1Plan, oceanGateS1Manifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ShortOceanGate2"
+        component={ViralShort}
+        defaultProps={{ plan: oceanGateS2Plan, manifest: oceanGateS2Manifest }}
+        durationInFrames={viralShortFrames(oceanGateS2Plan, oceanGateS2Manifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ShortOceanGate3"
+        component={ViralShort}
+        defaultProps={{ plan: oceanGateS3Plan, manifest: oceanGateS3Manifest }}
+        durationInFrames={viralShortFrames(oceanGateS3Plan, oceanGateS3Manifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ShortOceanGate4"
+        component={ViralShort}
+        defaultProps={{ plan: oceanGateS4Plan, manifest: oceanGateS4Manifest }}
+        durationInFrames={viralShortFrames(oceanGateS4Plan, oceanGateS4Manifest)}
         fps={30}
         width={1080}
         height={1920}
@@ -1077,6 +1136,36 @@ export const RemotionRoot: React.FC = () => {
         id="MarsOneDoc"
         component={makeDocComp(marsOneDoc, marsOneManifest, MW_OUTRO)}
         durationInFrames={docTotalFrames(marsOneDoc, marsOneManifest, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── mindwired — OceanGate (documentary pivot #2; MW subscribe outro baked) ── */}
+      <Composition
+        id="OceanGateDoc"
+        component={makeDocComp(oceanGateDoc, oceanGateManifest, MW_OUTRO)}
+        durationInFrames={docTotalFrames(oceanGateDoc, oceanGateManifest, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── mindwired — Concorde (documentary pivot #3; MW subscribe outro baked) ── */}
+      <Composition
+        id="ConcordeDoc"
+        component={makeDocComp(concordeDoc, concordeManifest, MW_OUTRO)}
+        durationInFrames={docTotalFrames(concordeDoc, concordeManifest, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── mindwired — The Man Who Sold the Moon (documentary pivot #4; MW subscribe outro baked) ── */}
+      <Composition
+        id="MoonSellerDoc"
+        component={makeDocComp(moonSellerDoc, moonSellerManifest, MW_OUTRO)}
+        durationInFrames={docTotalFrames(moonSellerDoc, moonSellerManifest, MW_OUTRO)}
         fps={30}
         width={1920}
         height={1080}

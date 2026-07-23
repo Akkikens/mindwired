@@ -1,0 +1,676 @@
+{
+  "slug": "moonseller",
+  "title": "The Man Who Sold the Moon",
+  "channel": "mindwired",
+  "niche": "space",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "One man has sold more than six hundred million acres of the Moon. To more than six million people. In one hundred and eighty countries.",
+      "img": "moonfull",
+      "query": "full Moon close up high resolution",
+      "stat": "611,000,000+ ACRES SOLD",
+      "cap": "One man. Six million buyers.",
+      "motion": "slow",
+      "tone": "shock"
+    },
+    {
+      "id": "h2",
+      "text": "He has never owned a rocket. Never worked for a space agency. And he started the whole thing broke, divorced, and unemployed, in 1980.",
+      "img": "moonfull",
+      "cap": "He never even worked in space.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h3",
+      "text": "His argument, in his own words: I filed my claim of ownership as an individual. And forty five years later, nobody has ever proven him wrong in court.",
+      "kinetic": { "words": ["\"I", "filed", "my", "claim", "as", "an", "individual.\""] },
+      "extraHold": 16,
+      "tone": "curiosity"
+    },
+    {
+      "id": "h4",
+      "text": "So is Dennis Hope a con man? A visionary? Or did he really find a hole in international law big enough to fly the whole Moon through?",
+      "img": "earthmoon",
+      "query": "Earth and Moon together from space",
+      "cap": "A hole in the law. Or a hole in the story.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h4a",
+      "text": "This is the true story of the most successful real estate deal that has never actually delivered a single square foot of real estate.",
+      "img": "moonfull",
+      "cap": "Not one square foot ever delivered.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "sting",
+      "sting": true,
+      "text": "You're watching mindwired.",
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "text": "The Man Who Sold the Moon.",
+      "chapter": "THE MAN WHO\nSOLD THE MOON"
+    },
+    {
+      "id": "c1",
+      "text": "Chapter one. A broke man looks at the sky.",
+      "chapter": "1 — A BROKE MAN\nLOOKS AT THE SKY"
+    },
+    {
+      "id": "a1",
+      "text": "Nineteen eighty. Dennis Hope is a small-time American salesman. Some accounts say a car lot. Some say he did ventriloquism. What everyone agrees on is this: he was broke.",
+      "img": "salesman",
+      "query": "vintage 1980s office desk salesman",
+      "stock": true,
+      "stat": "1980",
+      "cap": "A small-time salesman. Broke.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2",
+      "text": "He was going through a divorce. By his own account, unemployed for almost a year. And one night, looking out his window, he looked up at the Moon.",
+      "img": "windownight",
+      "query": "person looking out window at night moon",
+      "stock": true,
+      "cap": "Broke. Divorced. Looking at the Moon.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a3",
+      "text": "And he had a thought that sounds almost too simple to be real. Hey. There's a load of property up there. And nobody owns it.",
+      "kinetic": { "words": ["\"There's", "a", "load", "of", "property", "up", "there.\""] },
+      "tone": "curiosity"
+    },
+    {
+      "id": "a3a",
+      "text": "It is worth pausing here. This was not a stupid man. He was a salesman, and like every good salesman, he had just found the one gap in the rulebook nobody else had bothered to read closely.",
+      "img": "salesman",
+      "cap": "A salesman who read the fine print.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a4",
+      "text": "He wasn't wrong about one thing. There is a real treaty that governs who can own the Moon. And Hope believed he had found a gap in it.",
+      "img": "moonfull",
+      "cap": "A real treaty. A claimed gap.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "ex_treaty",
+      "exhibit": true,
+      "img": "ex_treaty",
+      "source": "Outer Space Treaty, Article II · 1967, in force 1967",
+      "highlight": [0.08, 0.42, 0.84, 0.16],
+      "cap": "\"Not subject to national appropriation.\"",
+      "text": "In 1967, the world's spacefaring nations signed the Outer Space Treaty. Article Two says the Moon is, quote, not subject to national appropriation by claim of sovereignty, by means of use or occupation, or by any other means.",
+      "extraHold": 20,
+      "tone": "curiosity"
+    },
+    {
+      "id": "ex_treaty_b",
+      "text": "That treaty did not come from nowhere. It came from fear. In the nineteen sixties, both the United States and the Soviet Union were racing to the Moon, and neither wanted the other to plant a flag and call it a colony.",
+      "img": "coldwar_rocket",
+      "query": "1960s Cold War rocket launch",
+      "stock": true,
+      "cap": "Born from Cold War fear.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "ex_treaty_c",
+      "text": "So the world's major powers agreed, in advance, that nobody would be allowed to claim it. Two years later, in nineteen sixty nine, Apollo eleven landed, and planted an American flag on ground that, by treaty, no nation could own.",
+      "img": "apollo_flag",
+      "query": "Apollo 11 astronaut American flag Moon surface",
+      "cap": "1969: a flag on ground no one could own.",
+      "tone": "awe"
+    },
+    {
+      "id": "a5",
+      "text": "Read that closely. It says nations cannot own the Moon. Dennis Hope noticed something else. It never says the word individual.",
+      "kinetic": { "words": ["It", "never", "says", "\"individual.\""] },
+      "extraHold": 16,
+      "tone": "shock"
+    },
+    {
+      "id": "a6",
+      "text": "So in 1980, Hope filed a written declaration claiming ownership of the Moon, and every other planet in the solar system except Earth, and its moons, in his own name.",
+      "img": "paperclaim",
+      "query": "vintage typewriter legal document",
+      "stock": true,
+      "stat": "CLAIMED: THE MOON + 8 PLANETS",
+      "cap": "He claimed the whole solar system.",
+      "tone": "awe"
+    },
+    {
+      "id": "a7",
+      "text": "He mailed notice of his claim to the United Nations. And, by his account, to the American and Soviet governments. Then he waited for someone to tell him no.",
+      "img": "un_building",
+      "query": "United Nations building exterior",
+      "stock": true,
+      "cap": "He waited for someone to object.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a8",
+      "text": "Nobody ever did. No government has ever formally challenged his claim. Not once, in forty five years. Hope calls that silent consent. It is not. Silence does not create a title. It just means nobody bothered to answer a letter.",
+      "kinetic": { "count": 45, "countLabel": "years of silence", "sub": "silence is not the same as consent" },
+      "extraHold": 20,
+      "tone": "curiosity"
+    },
+    {
+      "id": "a9",
+      "text": "There was actually a second treaty, in 1979, that tried to close this exact gap for good. It said no state, no organization, and no, quote, natural person could own the Moon either.",
+      "img": "moonfull",
+      "stat": "1979 · THE MOON AGREEMENT",
+      "cap": "A second treaty, aimed right at him.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a10",
+      "text": "But almost no spacefaring nation ever signed it. Not the United States. Not Russia. Not China. Without the major powers on board, the treaty that would have definitively stopped Hope never really had any teeth.",
+      "img": "moonfull",
+      "stat": "NOT SIGNED BY: US, RUSSIA, CHINA",
+      "cap": "The nations that mattered never signed.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c2",
+      "text": "Chapter two. Twenty dollars an acre.",
+      "chapter": "2 — TWENTY DOLLARS\nAN ACRE"
+    },
+    {
+      "id": "b1",
+      "text": "Hope founded something called the Lunar Embassy. And started selling the Moon. One acre at a time. For about twenty dollars.",
+      "img": "moonfull",
+      "stat": "~$20 / ACRE",
+      "cap": "Twenty dollars a piece.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b1a",
+      "text": "That twenty dollar price held for decades. Today, on his own website, the same acre costs closer to thirty five dollars. Prime real estate costs more. A plot with a view of where a spacecraft actually landed runs about fifty.",
+      "img": "moonfull",
+      "stat": "TODAY: ~$35 / ACRE",
+      "cap": "Even Moon real estate has inflation.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b2",
+      "text": "What do you actually get? A parchment deed with gold trim. A map with your acre circled. A little booklet. And, later, a copy of his own written lunar constitution.",
+      "img": "deed",
+      "query": "ornate gold seal certificate parchment",
+      "stock": true,
+      "cap": "A deed. A map. A booklet.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b3",
+      "text": "By his own count, Hope says he has sold more than six hundred and eleven million acres. To more than six million customers. In more than one hundred and eighty countries. For around eleven million dollars over four decades.",
+      "kinetic": { "count": 611000000, "countLabel": "acres sold, he says", "sub": "~6 million customers · ~$11M lifetime revenue (self-reported)" },
+      "extraHold": 20,
+      "tone": "awe"
+    },
+    {
+      "id": "b3a",
+      "text": "Do the math on that acreage. The Moon has about nine point four billion acres total. Hope's own claimed sales add up to something like six or seven percent of the entire lunar surface.",
+      "img": "moonfull",
+      "stat": "~6-7% OF THE ENTIRE MOON",
+      "cap": "By his own count, most of a continent's worth.",
+      "tone": "awe"
+    },
+    {
+      "id": "b4",
+      "text": "None of those numbers are audited. There are no independent financial records. Every figure in this chapter is Hope's own count, not a verified fact.",
+      "img": "moonfull",
+      "cap": "Self-reported. Never audited.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b5",
+      "text": "And the marketing gets bigger from there. Hope has claimed, over the years, that three former US presidents own lunar deeds, bought as gifts by aides. And that Hollywood stars are customers too.",
+      "img": "whitehouse",
+      "query": "White House exterior Washington",
+      "stock": true,
+      "cap": "Claimed presidents. Claimed celebrities.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b6",
+      "text": "Not one of those names has ever confirmed it. Not one president's office. Not one celebrity. The most careful reporting on this story has never named a single verified buyer.",
+      "img": "moonfull",
+      "cap": "Nobody has ever confirmed a name.",
+      "tone": "fear"
+    },
+    {
+      "id": "b6a",
+      "text": "For an extra fee, buyers can also purchase the mineral rights beneath their acre. Whatever gold, whatever rare metal, whatever ice sits under that patch of lunar dust, technically, on paper, it's now yours too.",
+      "img": "moonfull",
+      "cap": "Mineral rights, sold as an add-on.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b6b",
+      "text": "Nobody has ever mined a single gram of it. Nobody has any way to. It is one more layer of paper, wrapped around a piece of paper, describing a place none of the buyers will ever visit.",
+      "img": "moonfull",
+      "cap": "A layer of paper, around a layer of paper.",
+      "tone": "fear"
+    },
+    {
+      "id": "b7",
+      "text": "In 2004, Hope went further. He founded something he calls the Galactic Government. With a congress. A patent office. And its own currency, called the Delta.",
+      "img": "moonfull",
+      "stat": "2004 · THE GALACTIC GOVERNMENT",
+      "cap": "His own currency. His own congress.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b8",
+      "text": "He has said the Delta is backed by lunar helium three, worth an estimated six quadrillion dollars. No nation recognizes this government. No bank recognizes this currency. It exists entirely on paper, and on his website.",
+      "img": "moonfull",
+      "stat": "RECOGNIZED BY: NOBODY",
+      "cap": "A government nobody recognizes.",
+      "tone": "fear"
+    },
+    {
+      "id": "b8a",
+      "text": "He has even asked the International Monetary Fund to formally recognize the Delta as real currency. So far, it hasn't. A currency backed by a metal nobody has ever mined, issued by a government no country accepts, spent nowhere on Earth.",
+      "img": "moonfull",
+      "cap": "A currency nobody can spend.",
+      "tone": "fear"
+    },
+    {
+      "id": "b9",
+      "text": "And here is the strangest part of the whole business. Hope has never really hidden. He has spent over four decades giving interviews, to major newspapers, to television crews, to anyone who asks. He is not running from this story. He is telling it, over and over, to anyone who will listen.",
+      "img": "interview",
+      "query": "person being interviewed television camera",
+      "stock": true,
+      "cap": "He never hid. He gave interviews for 40 years.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c3",
+      "text": "Chapter three. The scholars disagree.",
+      "chapter": "3 — THE SCHOLARS\nDISAGREE"
+    },
+    {
+      "id": "d1",
+      "text": "So does the loophole actually work? We asked the people who study space law for a living. And the answer, overwhelmingly, is no.",
+      "img": "lawbooks",
+      "query": "law library books shelves",
+      "stock": true,
+      "cap": "The experts weigh in.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d2",
+      "text": "Ram Jakhu, of the McGill Institute of Air and Space Law, put it plainly. The Outer Space Treaty is public law, and as such, private citizens are subject to it. I don't see a loophole.",
+      "img": "mcgill",
+      "query": "university law school building",
+      "stock": true,
+      "cap": "\"I don't see a loophole.\" — Ram Jakhu",
+      "tone": "confidence"
+    },
+    {
+      "id": "d3",
+      "text": "The president of the International Institute of Space Law, Tanja Masson-Zwaan, said the treaty applies to governments and their private citizens alike. Which invalidates Hope's claim to the Moon.",
+      "kinetic": { "words": ["\"Invalidates", "Hope's", "claim.\"", "— Masson-Zwaan"] },
+      "extraHold": 16,
+      "tone": "confidence"
+    },
+    {
+      "id": "d4",
+      "text": "Their reasoning is simple. A government cannot grant a right that it itself is forbidden to hold. If a nation cannot own the Moon, it cannot hand that ownership to one of its own citizens either.",
+      "img": "moonfull",
+      "cap": "A right no government can give away.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d5",
+      "text": "To be fair, it is not unanimous. A minority of legal scholars have argued the treaty's text really does only bind nations, leaving a genuine gray area for private claims. This is a real, ongoing legal debate. It is not settled.",
+      "img": "moonfull",
+      "cap": "A real, unsettled debate.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d5a",
+      "text": "There have reportedly been fraud complaints filed against Lunar Embassy operations in Germany, in Sweden, and in the Netherlands. Every single one was reportedly dismissed, for the same strange reason.",
+      "img": "moonfull",
+      "cap": "Complaints filed. All reportedly dismissed.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d5b",
+      "text": "No court in Europe would rule the Moon fell inside its own jurisdiction. If you cannot even agree the Moon is somewhere a court can reach, you cannot rule on who owns it.",
+      "img": "moonfull",
+      "cap": "No court could even claim jurisdiction.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d4a",
+      "text": "There is a specific mechanism behind that reasoning, and it has a name. Article Six of the same treaty. It says every government is responsible for authorizing and supervising the space activities of its own private citizens.",
+      "img": "moonfull",
+      "stat": "ARTICLE VI",
+      "cap": "The clause that closes the gap.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d4b",
+      "text": "In plain language, a citizen doesn't get to do in space what their own government is banned from doing. The United States cannot own the Moon. So, this argument goes, neither can one of its citizens acting alone.",
+      "img": "moonfull",
+      "cap": "You can't do what your government can't.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d6",
+      "text": "So has anyone ever actually taken Hope to court over this? Almost. And the one time it happened, it did not go well for the company selling the Moon.",
+      "img": "courtroom",
+      "query": "courtroom gavel bench",
+      "stock": true,
+      "cap": "It went to court once.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c4",
+      "text": "Chapter four. The one time a court ruled.",
+      "chapter": "4 — THE ONE TIME\nA COURT RULED"
+    },
+    {
+      "id": "e1",
+      "text": "Two thousand five. Beijing. A company calling itself Hope's official partner in China had sold forty nine acres of the Moon, to thirty four customers, in three days.",
+      "img": "beijing",
+      "query": "Beijing city street China",
+      "stock": true,
+      "stat": "2005 · BEIJING",
+      "cap": "49 acres. 34 buyers. 3 days.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e2",
+      "text": "Chinese regulators suspended the company's business license within days, for what they called speculation and profiteering. The certificates were seized.",
+      "img": "courtroom",
+      "cap": "Its license was suspended in days.",
+      "tone": "fear"
+    },
+    {
+      "id": "e3",
+      "text": "The company appealed. And lost. A Beijing court ruled that no individual, and no state, can own the Moon — citing the same nineteen sixty seven treaty, directly.",
+      "img": "beijing",
+      "stat": "BEIJING NO. 1 INTERMEDIATE COURT, 2005",
+      "cap": "\"No individual can own the Moon.\"",
+      "extraHold": 16,
+      "tone": "confidence"
+    },
+    {
+      "id": "e3a",
+      "text": "It is the single, clearest piece of case law that exists anywhere on this entire industry. A real court, actually applying the real treaty, to a real company selling the Moon.",
+      "img": "courtroom",
+      "cap": "A real court applied the real treaty.",
+      "tone": "confidence"
+    },
+    {
+      "id": "e4",
+      "text": "That is the single clearest court ruling anywhere on this entire industry. But be precise about what it was. It was against a Chinese affiliate. Not against Dennis Hope, personally, in the United States.",
+      "img": "moonfull",
+      "cap": "Against an affiliate. Not against Hope himself.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e5",
+      "text": "In fact, no court, anywhere in the world, has ever ruled directly on whether Dennis Hope personally owns the Moon. And no court has ever found him guilty of fraud. He has never been criminally charged with anything.",
+      "img": "moonfull",
+      "stat": "NEVER CHARGED. NEVER CONVICTED.",
+      "cap": "Never charged. Not once.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e6",
+      "text": "Critics have called his business a hollow claim. A fraud. Even a joke. Those are their words. Not a verdict. Hope has spent forty five years selling the exact same story, and no legal system on Earth has ever stopped him.",
+      "img": "moonfull",
+      "cap": "Their words. Not a verdict.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e7",
+      "text": "You may have heard a different version of this story. That an American court finally ruled Dennis Hope doesn't own the Moon. That version is wrong, and it's worth correcting.",
+      "img": "courtroom",
+      "cap": "That popular version is wrong.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e8",
+      "text": "In 2020, there was a real US federal case with Hope's name on it. But he wasn't the one being sued. He was the one suing. A rival called Lunarlandowner dot com, over who had the right to use the name Lunar Embassy.",
+      "img": "moonfull",
+      "stat": "2020 · A TRADEMARK CASE",
+      "cap": "He was the plaintiff, not the defendant.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e9",
+      "text": "It was a fight over a brand name. Nobody in that courtroom ever ruled on whether the Moon itself could legally be owned. Get the story right: the only real court ruling on ownership came from Beijing, not America.",
+      "img": "moonfull",
+      "cap": "Get the story right.",
+      "tone": "confidence"
+    },
+    {
+      "id": "cbuy",
+      "text": "So who actually buys a piece of the Moon?",
+      "chapter": "5 — WHO ACTUALLY\nBUYS THE MOON"
+    },
+    {
+      "id": "buy1",
+      "text": "Six million transactions is a lot of people to generalize about. But the pattern in how these deeds actually get used is remarkably consistent, once you look past the marketing.",
+      "img": "moonfull",
+      "cap": "A very consistent pattern.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "buy2",
+      "text": "It's a wedding present for a couple who love astronomy. A birthday gift for a father who watched the Moon landing live, as a kid, and never stopped looking up. A gag gift, wrapped and handed over with a laugh.",
+      "img": "wedding",
+      "query": "wedding gift wrapped present",
+      "stock": true,
+      "cap": "Weddings. Birthdays. In-jokes.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "buy3",
+      "text": "Almost nobody frames it as an investment. Nobody expects to sell their acre for a profit one day. The twenty dollar price point is not an accident. It is deliberately cheap enough that losing the bet costs you nothing.",
+      "img": "moonfull",
+      "cap": "Cheap enough that losing costs nothing.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "buy4",
+      "text": "And that, more than any legal argument, may be the real secret of why this business has survived forty five years. It was never really selling land. It was selling a feeling, at a price low enough that nobody ever felt cheated enough to fight back hard.",
+      "img": "moonfull",
+      "cap": "Selling a feeling, not land.",
+      "extraHold": 16,
+      "tone": "melancholy"
+    },
+    {
+      "id": "c5",
+      "text": "Chapter six. The man himself.",
+      "chapter": "6 — THE MAN\nHIMSELF"
+    },
+    {
+      "id": "f0",
+      "text": "Every treaty, every court case, every scholar we've quoted, points the same direction. So why hasn't this ever actually been shut down?",
+      "img": "moonfull",
+      "cap": "So why hasn't it been shut down?",
+      "extraHold": 14,
+      "tone": "curiosity"
+    },
+    {
+      "id": "f1",
+      "text": "So who is Dennis Hope, really? Because he is still out there. Still running the Lunar Embassy. Still, by every account, completely sincere.",
+      "img": "moonfull",
+      "cap": "Still running it. Still sincere.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f2",
+      "text": "When scholars dismiss his claim, Hope's response is simple. That has no credence, he has said. We don't need the recognition of the world.",
+      "kinetic": { "words": ["\"We", "don't", "need", "the", "world's", "recognition.\"", "— Hope"] },
+      "tone": "confidence"
+    },
+    {
+      "id": "f3",
+      "text": "He points to history. The American frontier was claimed the same way, he argues, one homestead at a time, long before any government formally recognized the border.",
+      "img": "frontier",
+      "cap": "\"Just like the frontier.\" — his argument.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f3a",
+      "text": "He is thinking of the Homestead Act of eighteen sixty two. A settler could claim empty land, live on it, work it, and after five years, it was legally theirs. No spaceship required. Just paperwork, and nobody stopping you.",
+      "img": "frontier",
+      "query": "old west homestead cabin prairie",
+      "stock": true,
+      "stat": "HOMESTEAD ACT, 1862",
+      "cap": "Claim it. Work it. Keep it.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f3b",
+      "text": "It is a clever comparison. It is also not the same thing. Homesteaders lived on their land. Hope has never set foot on a single acre he claims to own. Nobody ever will, at twenty dollars an acre, any time soon.",
+      "img": "moonfull",
+      "cap": "Nobody has ever set foot on a single acre.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f4",
+      "text": "And he points to his customers. By his own count, in thirty two years, only six people ever asked him for a refund. Out of more than six million buyers.",
+      "kinetic": { "count": 6, "countLabel": "refund requests, in 32 years", "sub": "out of 6,000,000+ customers, he says" },
+      "extraHold": 16,
+      "tone": "curiosity"
+    },
+    {
+      "id": "f5",
+      "text": "Here is the honest, unresolved question at the center of this whole story. Is Dennis Hope a sincere believer who genuinely thinks he owns the Moon? Or a showman who has spent forty five years selling a piece of paper he always knew was worthless?",
+      "img": "moonfull",
+      "cap": "Believer, or showman?",
+      "motion": "slow",
+      "extraHold": 20,
+      "tone": "melancholy"
+    },
+    {
+      "id": "f5a",
+      "text": "Because here is the part almost nobody talks about. Most of his customers never thought they were buying real estate at all.",
+      "img": "moonfull",
+      "cap": "Most buyers never thought it was real.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f5b",
+      "text": "A wedding gift. A birthday joke for the uncle obsessed with space. A stocking stuffer nobody expected to hold up in a courtroom. For twenty dollars, almost nobody actually believed they owned a piece of the Moon.",
+      "img": "moonfull",
+      "cap": "A gag gift. Not an investment.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f6",
+      "text": "No court has answered that. No government has answered it. Millions of people have simply decided they don't need an answer to enjoy owning a tiny, imaginary piece of the sky.",
+      "img": "moonfull",
+      "cap": "Millions decided they didn't need an answer.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "g1",
+      "text": "Chapter seven. Not the only one.",
+      "chapter": "7 — NOT THE\nONLY ONE"
+    },
+    {
+      "id": "g1a",
+      "text": "There are competing lunar registries today, some older than the internet itself, each claiming to be the real deal, each selling certificates that look almost identical to Hope's.",
+      "img": "moonfull",
+      "cap": "Competing registries. Nearly identical paper.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "g2",
+      "text": "Here is the part that should really give you pause. Dennis Hope did not stay the only person selling the Moon. Because it turns out, once you show the world a business model works, other people copy it.",
+      "img": "moonfull",
+      "cap": "Once it worked, others copied it.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "g3",
+      "text": "Rival lunar-land companies have popped up selling the same acres, using the same treaty argument, sometimes even claiming to be his official partner, the way the Chinese company did before its license was pulled.",
+      "img": "moonfull",
+      "cap": "Rival sellers. Same argument.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "g4",
+      "text": "There is no registry that can settle any of these disputes. No government office keeps track of who supposedly owns which crater. Multiple people can, and do, sell the exact same acre to different buyers, and nothing on Earth stops them.",
+      "img": "moonfull",
+      "cap": "The same acre, sold twice. Nothing stops it.",
+      "tone": "fear"
+    },
+    {
+      "id": "g5",
+      "text": "That, more than any court ruling, might be the clearest proof of what these deeds actually are. Not property. Just a story, printed on nice paper, that as many people as want to can tell at the same time.",
+      "img": "moonfull",
+      "cap": "A story anyone can print.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda1",
+      "text": "So what stays with me about this story isn't the legal argument. It's not even the six hundred million acres.",
+      "img": "moonfull",
+      "cap": "What stays with me isn't the legal argument.",
+      "motion": "slow",
+      "speed": 0.94,
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda2",
+      "text": "It's that a man who owned nothing, in 1980, looked up at the one thing every human being on Earth can see at once, and decided it was his. And forty five years later, millions of people still want to believe he might be right.",
+      "img": "earthmoon",
+      "cap": "He looked up, and decided it was his.",
+      "motion": "slow",
+      "speed": 0.94,
+      "extraHold": 20,
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda3",
+      "text": "There is something almost sweet buried inside a story this absurd. Every single night, for all of human history, people have looked up at that same Moon and felt something. Wonder. Loneliness. Hope, in the ordinary sense of that word.",
+      "img": "moonfull",
+      "cap": "People have always felt something looking up.",
+      "speed": 0.94,
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda4",
+      "text": "Dennis Hope just found a way to sell that feeling back to people, on a piece of paper, for twenty dollars. That may be the most honest way to describe his entire business. Not real estate. A receipt for a feeling everybody already had for free.",
+      "img": "moonfull",
+      "cap": "A receipt for a feeling that was already free.",
+      "speed": 0.94,
+      "extraHold": 20,
+      "tone": "melancholy"
+    },
+    {
+      "id": "bridge",
+      "text": "If one man claiming the Moon sounds strange, wait until you see a company that convinced two hundred thousand people to sign up for a one way trip there. Watch our film on the Mars One scam.",
+      "img": "moonfull",
+      "cap": "Watch next: the Mars One scam.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "end",
+      "text": "This has been the true story of the man who sold the Moon. If a claim this strange could sell to millions, wait until you see the one that sold two hundred thousand people a ticket to actually die there. Subscribe to mindwired.",
+      "img": "moonfull",
+      "cap": "Subscribe to mindwired.",
+      "motion": "slow",
+      "tone": "confidence"
+    }
+  ]
+}

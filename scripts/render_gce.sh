@@ -122,7 +122,11 @@ echo "[gce] syncing project (selective)…"
 # manifest JSONs included — so ship all public/**.json (a few MB) plus the
 # render slug's actual media. Runtime staticFile() assets of other comps are
 # never loaded because only $COMP renders.
-MANIFEST=/tmp/render_files.txt
+# Unique per-invocation temp paths (not /tmp/render_files.txt / /tmp/render_src.tgz):
+# multiple render_gce.sh runs on this machine at once (parallel slugs/sessions)
+# would otherwise stomp each other's manifest/tarball mid-write.
+MANIFEST="/tmp/render_files_${NAME}.txt"
+TARBALL="/tmp/render_src_${NAME}.tgz"
 ( cd "$REPO_DIR"
   for f in package.json pnpm-lock.yaml tsconfig.json remotion.config.ts; do
     [ -e "$f" ] && echo "$f"
@@ -133,9 +137,9 @@ MANIFEST=/tmp/render_files.txt
   done
   find public -name "*.json" -not -path "public/shorts/${SLUG}/*"
 ) > "$MANIFEST"
-tar czhf /tmp/render_src.tgz -C "$REPO_DIR" -T "$MANIFEST"  # -h: dereference -hi twin symlinks
-gcloud compute scp /tmp/render_src.tgz "$NAME":~/render_src.tgz --zone "$ZONE"
-rm -f /tmp/render_src.tgz
+tar czhf "$TARBALL" -C "$REPO_DIR" -T "$MANIFEST"  # -h: dereference -hi twin symlinks
+gcloud compute scp "$TARBALL" "$NAME":~/render_src.tgz --zone "$ZONE"
+rm -f "$TARBALL" "$MANIFEST"
 
 echo "[gce] installing deps + starting render…"
 gcloud compute ssh "$NAME" --zone "$ZONE" --command "
@@ -147,6 +151,10 @@ gcloud compute ssh "$NAME" --zone "$ZONE" --command "
   npm install --no-audit --no-fund 2>&1 | tail -4
   ls node_modules/.bin/remotion || { echo INSTALL_BROKEN; exit 1; }
   npx remotion browser ensure 2>&1 | tail -2
+  # Indic system fonts — headless Chrome ships none, so Devanagari (Hindi) text
+  # rendered as tofu boxes. Belt to the embedded-woff2 suspenders. Idempotent.
+  dpkg -s fonts-noto-core >/dev/null 2>&1 || sudo apt-get install -y -qq fonts-noto-core fonts-indic 2>&1 | tail -1
+  fc-cache -f >/dev/null 2>&1 || true
   mkdir -p out
   nohup python3 scripts/render_and_master.py '$COMP' out/${SLUG}.mp4 --scale 2 \
     --concurrency ${GCE_CONCURRENCY:-16} --remotion-timeout 120000 ${EXTRA_ARGS[*]} \

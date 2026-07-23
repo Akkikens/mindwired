@@ -1,0 +1,186 @@
+{
+ "durations": {
+  "h1": 7.967,
+  "h2": 9.326,
+  "h3": 9.169,
+  "h4": 7.001,
+  "h4a": 6.687,
+  "sting": 1.489,
+  "title": 1.567,
+  "c1": 3.082,
+  "a1": 9.796,
+  "a2": 8.124,
+  "a3": 7.157,
+  "a3a": 10.684,
+  "a4": 7.549,
+  "ex_treaty": 15.229,
+  "ex_treaty_b": 12.199,
+  "ex_treaty_c": 14.367,
+  "a5": 7.157,
+  "a6": 9.953,
+  "a7": 9.639,
+  "a8": 15.491,
+  "a9": 13.166,
+  "a10": 11.964,
+  "c2": 2.429,
+  "b1": 6.922,
+  "b1a": 13.636,
+  "b2": 10.188,
+  "b3": 12.513,
+  "b3a": 10.527,
+  "b4": 8.673,
+  "b5": 11.651,
+  "b6": 11.154,
+  "b6a": 12.199,
+  "b6b": 10.266,
+  "b7": 11.076,
+  "b8": 13.793,
+  "b8a": 14.367,
+  "b9": 17.554,
+  "c3": 2.586,
+  "d1": 8.046,
+  "d2": 10.919,
+  "d3": 10.919,
+  "d4": 11.076,
+  "d5": 15.073,
+  "d5a": 12.199,
+  "d5b": 8.751,
+  "d4a": 13.087,
+  "d4b": 12.199,
+  "d6": 8.281,
+  "c4": 2.926,
+  "e1": 10.266,
+  "e2": 8.594,
+  "e3": 10.762,
+  "e3a": 11.886,
+  "e4": 11.389,
+  "e5": 12.121,
+  "e6": 13.636,
+  "e7": 8.986,
+  "e8": 13.949,
+  "e9": 12.513,
+  "cbuy": 1.959,
+  "buy1": 9.326,
+  "buy2": 11.729,
+  "buy3": 12.042,
+  "buy4": 14.681,
+  "c5": 2.429,
+  "f0": 7.967,
+  "f1": 8.673,
+  "f2": 8.046,
+  "f3": 9.482,
+  "f3a": 13.322,
+  "f3b": 14.106,
+  "f4": 9.796,
+  "f5": 13.557,
+  "f5a": 5.956,
+  "f5b": 11.807,
+  "f6": 9.404,
+  "g1": 1.959,
+  "g1a": 9.717,
+  "g2": 10.684,
+  "g3": 11.389,
+  "g4": 13.871,
+  "g5": 12.277,
+  "coda1": 5.878,
+  "coda2": 13.714,
+  "coda3": 16.353,
+  "coda4": 14.106,
+  "bridge": 10.109,
+  "end": 6.531
+ },
+ "images": {
+  "apollo_flag": [
+   "apollo_flag_1.jpg",
+   "apollo_flag_2.jpg",
+   "apollo_flag_3.jpg"
+  ],
+  "beijing": [
+   "beijing_1.jpeg",
+   "beijing_2.jpeg",
+   "beijing_3.jpeg"
+  ],
+  "coldwar_rocket": [
+   "coldwar_rocket_1.jpeg",
+   "coldwar_rocket_2.jpeg",
+   "coldwar_rocket_3.jpeg"
+  ],
+  "courtroom": [
+   "courtroom_1.jpeg",
+   "courtroom_2.jpeg",
+   "courtroom_3.jpeg"
+  ],
+  "deed": [
+   "deed_1.jpeg",
+   "deed_2.jpeg",
+   "deed_3.jpeg"
+  ],
+  "earthmoon": [
+   "earthmoon_1.jpg",
+   "earthmoon_2.jpg",
+   "earthmoon_3.jpg"
+  ],
+  "ex_treaty": [
+   "ex_treaty_1.png"
+  ],
+  "frontier": [
+   "frontier_1.jpeg",
+   "frontier_2.jpeg",
+   "frontier_3.jpeg"
+  ],
+  "interview": [
+   "interview_1.jpeg",
+   "interview_2.jpeg",
+   "interview_3.jpeg"
+  ],
+  "lawbooks": [
+   "lawbooks_1.jpeg",
+   "lawbooks_2.jpeg",
+   "lawbooks_3.jpeg"
+  ],
+  "mcgill": [
+   "mcgill_1.jpeg",
+   "mcgill_2.jpeg",
+   "mcgill_3.jpeg"
+  ],
+  "moonfull": [
+   "moonfull_1.jpg",
+   "moonfull_2.jpg",
+   "moonfull_3.jpg",
+   "moonfull_4.jpg"
+  ],
+  "paperclaim": [
+   "paperclaim_1.jpeg",
+   "paperclaim_2.jpeg",
+   "paperclaim_3.jpeg"
+  ],
+  "salesman": [
+   "salesman_1.jpeg",
+   "salesman_2.jpeg",
+   "salesman_3.jpeg"
+  ],
+  "un_building": [
+   "un_building_1.jpeg",
+   "un_building_2.jpeg",
+   "un_building_3.png"
+  ],
+  "wedding": [
+   "wedding_1.jpeg",
+   "wedding_2.jpeg",
+   "wedding_3.jpeg"
+  ],
+  "whitehouse": [
+   "whitehouse_1.jpeg",
+   "whitehouse_2.jpeg",
+   "whitehouse_3.jpeg"
+  ],
+  "windownight": [
+   "windownight_1.jpeg",
+   "windownight_2.jpeg",
+   "windownight_3.jpeg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.96,
+ "mouth": {}
+}
