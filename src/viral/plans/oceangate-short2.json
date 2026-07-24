@@ -1,0 +1,91 @@
+{
+  "slug": "oceangate-short2",
+  "title": "He warned them. They fired him in 10 minutes.",
+  "channel": "mindwired",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "start": 0,
+      "end": 5,
+      "voiceover": "His job was keeping the crew alive. In January 2018, he filed a report warning the sub wasn't safe. He was fired within days.",
+      "mainText": "FIRED FOR WARNING THEM",
+      "emphasis": ["FIRED"],
+      "kicker": "David Lochridge, OceanGate's safety director",
+      "visualConcept": "submersible pilot silhouette",
+      "backgroundPrompt": "submersible pilot control room instruments",
+      "brollExists": false,
+      "emotionalTone": "fear",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "setup",
+      "kind": "problem",
+      "start": 5,
+      "end": 13,
+      "voiceover": "David Lochridge was OceanGate's Director of Marine Operations. His quality inspection report warned the Titan's viewport was only certified to 1,300 meters. OceanGate wanted to dive to 4,000.",
+      "mainText": "CERTIFIED TO 1,300M. THEY WANTED 4,000.",
+      "stat": { "to": 1300, "label": "METERS — THE VIEWPORT'S ACTUAL LIMIT" },
+      "visualConcept": "inspection report document",
+      "backgroundPrompt": "engineering inspection report document clipboard",
+      "brollExists": false,
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "detail",
+      "kind": "shockfact",
+      "start": 13,
+      "end": 20,
+      "voiceover": "His report also alleged the carbon-fiber hull never received the testing that could catch a hidden flaw. He was fired that same month — given about 10 minutes to clear his desk.",
+      "mainText": "10 MINUTES TO CLEAR HIS DESK",
+      "emphasis": ["10", "MINUTES"],
+      "visualConcept": "empty office desk",
+      "backgroundPrompt": "empty office desk box belongings",
+      "brollExists": false,
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "reveal",
+      "kind": "data",
+      "start": 20,
+      "end": 28,
+      "voiceover": "OceanGate sued him for breach of contract. He counter-sued as a whistleblower. They settled quietly — the terms were never made public.",
+      "mainText": "THEY SUED HIM. HE COUNTER-SUED.",
+      "visualConcept": "courthouse, legal documents",
+      "backgroundPrompt": "federal courthouse building exterior",
+      "brollExists": false,
+      "emotionalTone": "fear",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "twist",
+      "kind": "shockfact",
+      "start": 28,
+      "end": 35,
+      "voiceover": "Years later, testifying under oath about how the company answered every warning he raised, his verdict was blunt: quote, it was a disgrace.",
+      "mainText": "\"IT WAS A DISGRACE.\"",
+      "emphasis": ["DISGRACE"],
+      "visualConcept": "testimony hearing microphone",
+      "backgroundPrompt": "testimony hearing microphone speaking panel",
+      "brollExists": false,
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "start": 35,
+      "end": 41,
+      "voiceover": "The full story of every warning OceanGate ignored is on the channel. Subscribe to mindwired.",
+      "mainText": "THE FULL STORY, ON THE CHANNEL",
+      "kicker": "full documentary on the channel",
+      "visualConcept": "Titan on deck, dusk",
+      "backgroundPrompt": "submersible on ship deck dusk cinematic",
+      "brollExists": false,
+      "emotionalTone": "confidence",
+      "transitionOut": "none"
+    }
+  ]
+}

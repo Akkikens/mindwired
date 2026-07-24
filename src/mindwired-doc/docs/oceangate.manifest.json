@@ -1,0 +1,572 @@
+{
+ "durations": {
+  "h1": 10.449,
+  "h2": 9.717,
+  "h3": 10.109,
+  "h4": 8.673,
+  "h5": 11.389,
+  "sting": 1.567,
+  "title": 0.836,
+  "c1": 2.769,
+  "a1": 10.449,
+  "a1a": 10.371,
+  "a2": 9.796,
+  "a2a": 8.751,
+  "a2b": 11.729,
+  "a3": 11.468,
+  "a4": 11.807,
+  "a5": 10.449,
+  "a6": 10.371,
+  "a7": 10.841,
+  "a8": 12.042,
+  "a9": 9.091,
+  "a9a": 14.838,
+  "a9b": 13.166,
+  "a10": 10.762,
+  "a11": 9.561,
+  "a12": 12.826,
+  "a13": 12.356,
+  "a14": 11.076,
+  "a15": 11.468,
+  "a16": 12.748,
+  "a17": 10.684,
+  "a17a": 13.793,
+  "a18": 12.277,
+  "a19": 13.714,
+  "a20": 9.953,
+  "c2": 3.004,
+  "b1": 10.606,
+  "b2": 7.236,
+  "ex_lochridge": 13.009,
+  "b3": 8.829,
+  "b4": 10.762,
+  "b5": 6.766,
+  "b6": 14.028,
+  "b7": 9.404,
+  "b8": 13.244,
+  "b9": 13.087,
+  "b10": 10.266,
+  "b11": 12.826,
+  "b12": 10.762,
+  "c3": 3.239,
+  "d1": 6.426,
+  "ex_mts": 14.028,
+  "d2": 12.748,
+  "d2a": 12.356,
+  "d3": 10.919,
+  "d4": 11.886,
+  "d5": 12.434,
+  "d6": 10.449,
+  "d7": 11.076,
+  "d8": 12.931,
+  "d8a": 12.434,
+  "d9": 13.009,
+  "d10": 11.807,
+  "d11": 13.401,
+  "d12": 15.229,
+  "d13": 11.807,
+  "c4": 2.273,
+  "e1": 9.953,
+  "e2": 9.169,
+  "e3": 9.091,
+  "e4": 7.706,
+  "e5": 8.046,
+  "e6": 11.311,
+  "e7": 3.317,
+  "e8": 9.404,
+  "e9": 11.964,
+  "e9a": 9.404,
+  "e9b": 11.311,
+  "e10": 10.109,
+  "e11": 11.233,
+  "e12": 9.169,
+  "e13": 12.121,
+  "e14": 13.401,
+  "e15": 9.482,
+  "e16": 9.953,
+  "c5": 2.769,
+  "f1": 8.986,
+  "f1a": 13.714,
+  "f2": 12.669,
+  "f3": 9.561,
+  "f4": 11.389,
+  "f5": 12.931,
+  "f6": 12.513,
+  "f6a": 14.367,
+  "f6b": 11.311,
+  "f7": 14.916,
+  "ex_uscg": 15.647,
+  "f8": 14.681,
+  "f9": 7.706,
+  "f10": 15.647,
+  "f11": 10.188,
+  "f11a": 13.557,
+  "f12": 12.042,
+  "f16": 13.087,
+  "f17": 13.949,
+  "c6": 1.959,
+  "f13": 13.479,
+  "f14": 10.188,
+  "f15": 15.804,
+  "f18": 14.211,
+  "f19": 15.726,
+  "g1": 13.401,
+  "g2": 9.796,
+  "g3": 11.807,
+  "g4": 12.121,
+  "g5": 10.188,
+  "g6": 13.793,
+  "g7": 14.289,
+  "bridge": 13.244,
+  "end": 11.389
+ },
+ "images": {
+  "archive_documents": [
+   "archive_documents_1.jpeg",
+   "archive_documents_2.jpeg",
+   "archive_documents_3.jpeg"
+  ],
+  "astronaut_helmet": [
+   "astronaut_helmet_1.jpeg",
+   "astronaut_helmet_2.jpeg",
+   "astronaut_helmet_3.jpeg"
+  ],
+  "bahamas_dive": [
+   "bahamas_dive_1.jpeg",
+   "bahamas_dive_2.jpeg",
+   "bahamas_dive_3.jpeg"
+  ],
+  "black_screen_static": [
+   "black_screen_static_1.jpeg",
+   "black_screen_static_2.jpeg",
+   "black_screen_static_3.jpeg"
+  ],
+  "blog_post_writing": [
+   "blog_post_writing_1.jpeg",
+   "blog_post_writing_2.jpeg"
+  ],
+  "boardroom_tension": [
+   "boardroom_tension_1.jpeg",
+   "boardroom_tension_2.jpeg"
+  ],
+  "boeing_logo_context": [
+   "boeing_logo_context_2.jpeg",
+   "boeing_logo_context_3.jpeg"
+  ],
+  "bureaucracy_papers": [
+   "bureaucracy_papers_1.jpeg",
+   "bureaucracy_papers_2.jpeg",
+   "bureaucracy_papers_3.jpeg"
+  ],
+  "cameron_titanic": [
+   "cameron_titanic_1.jpeg",
+   "cameron_titanic_2.jpg",
+   "cameron_titanic_3.jpg"
+  ],
+  "carbonfiber_layers": [
+   "carbonfiber_layers_1.jpeg",
+   "carbonfiber_layers_2.jpeg",
+   "carbonfiber_layers_3.jpg"
+  ],
+  "carbonfiber_weave": [
+   "carbonfiber_weave_1.jpeg",
+   "carbonfiber_weave_2.jpeg",
+   "carbonfiber_weave_3.jpg"
+  ],
+  "classification_stamp": [
+   "classification_stamp_1.jpeg",
+   "classification_stamp_2.jpeg",
+   "classification_stamp_3.jpeg"
+  ],
+  "coastguard_helicopter": [
+   "coastguard_helicopter_1.jpeg",
+   "coastguard_helicopter_2.jpeg",
+   "coastguard_helicopter_3.jpeg"
+  ],
+  "committee_signatures": [
+   "committee_signatures_1.jpeg",
+   "committee_signatures_2.jpeg",
+   "committee_signatures_3.jpeg"
+  ],
+  "corporate_culture": [
+   "corporate_culture_1.jpeg",
+   "corporate_culture_2.jpeg",
+   "corporate_culture_3.jpeg"
+  ],
+  "courthouse": [
+   "courthouse_2.jpeg",
+   "courthouse_3.jpeg"
+  ],
+  "data_review": [
+   "data_review_1.jpeg",
+   "data_review_2.jpeg"
+  ],
+  "debris_field_discovery": [
+   "debris_field_discovery_1.jpeg",
+   "debris_field_discovery_2.jpeg",
+   "debris_field_discovery_3.jpeg"
+  ],
+  "declaration": [
+   "declaration_2.jpeg"
+  ],
+  "descent_dark": [
+   "descent_dark_1.jpeg",
+   "descent_dark_2.jpeg",
+   "descent_dark_3.jpeg"
+  ],
+  "distress_call": [
+   "distress_call_1.jpeg",
+   "distress_call_2.jpeg",
+   "distress_call_3.jpeg"
+  ],
+  "diving_community": [
+   "diving_community_1.jpg",
+   "diving_community_2.jpg"
+  ],
+  "email_warning": [
+   "email_warning_1.jpeg",
+   "email_warning_2.jpeg",
+   "email_warning_3.jpeg"
+  ],
+  "empty_lab": [
+   "empty_lab_1.jpeg",
+   "empty_lab_2.jpeg",
+   "empty_lab_3.jpeg"
+  ],
+  "engineer_workshop": [
+   "engineer_workshop_1.jpeg",
+   "engineer_workshop_2.jpeg",
+   "engineer_workshop_3.jpeg"
+  ],
+  "engineers_group": [
+   "engineers_group_1.jpeg",
+   "engineers_group_2.jpeg",
+   "engineers_group_3.jpeg"
+  ],
+  "everett_wa": [
+   "everett_wa_1.jpeg",
+   "everett_wa_2.jpeg",
+   "everett_wa_3.jpeg"
+  ],
+  "ex_lochridge": [
+   "ex_lochridge_1.png"
+  ],
+  "ex_mts": [
+   "ex_mts_1.png"
+  ],
+  "ex_uscg": [
+   "ex_uscg_1.png"
+  ],
+  "family_photo_frame": [
+   "family_photo_frame_1.jpeg",
+   "family_photo_frame_2.png",
+   "family_photo_frame_3.jpeg"
+  ],
+  "future_expansion": [
+   "future_expansion_1.jpg",
+   "future_expansion_2.jpg"
+  ],
+  "game_controller": [
+   "game_controller_1.jpeg",
+   "game_controller_2.jpeg",
+   "game_controller_3.jpeg"
+  ],
+  "handshake_ocean": [
+   "handshake_ocean_1.jpeg",
+   "handshake_ocean_2.jpeg",
+   "handshake_ocean_3.jpeg"
+  ],
+  "hearing_room": [
+   "hearing_room_2.jpeg",
+   "hearing_room_3.jpeg"
+  ],
+  "hull_closeup_inspection": [
+   "hull_closeup_inspection_1.jpeg",
+   "hull_closeup_inspection_2.jpeg",
+   "hull_closeup_inspection_3.jpeg"
+  ],
+  "hull_defect_closeup": [
+   "hull_defect_closeup_1.jpeg",
+   "hull_defect_closeup_2.jpeg",
+   "hull_defect_closeup_3.jpeg"
+  ],
+  "hull_defect_closeup_real": [
+   "hull_defect_closeup_real.jpg"
+  ],
+  "hull_testing": [
+   "hull_testing_1.jpeg",
+   "hull_testing_2.jpeg",
+   "hull_testing_3.jpeg"
+  ],
+  "inspection_report": [
+   "inspection_report_1.jpeg",
+   "inspection_report_2.jpeg",
+   "inspection_report_3.jpeg"
+  ],
+  "jet_cockpit": [
+   "jet_cockpit_1.jpeg",
+   "jet_cockpit_2.jpeg",
+   "jet_cockpit_3.jpeg"
+  ],
+  "lawsuit_filing": [
+   "lawsuit_filing_1.jpeg",
+   "lawsuit_filing_2.jpeg",
+   "lawsuit_filing_3.jpeg"
+  ],
+  "legal_documents": [
+   "legal_documents_1.jpeg",
+   "legal_documents_2.jpeg",
+   "legal_documents_3.jpeg"
+  ],
+  "letter_closeup": [
+   "letter_closeup_1.jpeg",
+   "letter_closeup_2.jpeg",
+   "letter_closeup_3.jpeg"
+  ],
+  "lochridge_testimony": [
+   "lochridge_testimony_1.jpeg",
+   "lochridge_testimony_2.jpeg",
+   "lochridge_testimony_3.jpeg"
+  ],
+  "mars_orbit": [
+   "mars_orbit_1.jpeg",
+   "mars_orbit_2.jpeg",
+   "mars_orbit_3.jpg"
+  ],
+  "media_coverage": [
+   "media_coverage_1.jpg",
+   "media_coverage_2.jpg"
+  ],
+  "nasa_lab": [
+   "nasa_lab_1.jpeg",
+   "nasa_lab_2.jpeg",
+   "nasa_lab_3.jpeg"
+  ],
+  "navy_listening": [
+   "navy_listening_1.jpeg",
+   "navy_listening_2.jpeg",
+   "navy_listening_3.jpeg"
+  ],
+  "news_broadcast": [
+   "news_broadcast_1.jpeg",
+   "news_broadcast_2.jpeg",
+   "news_broadcast_3.jpeg"
+  ],
+  "ntsb_engineer": [
+   "ntsb_engineer_1.jpeg",
+   "ntsb_engineer_2.jpeg",
+   "ntsb_engineer_3.jpeg"
+  ],
+  "ocean_abyss_wide": [
+   "ocean_abyss_wide_2.jpg",
+   "ocean_abyss_wide_3.jpeg"
+  ],
+  "ocean_calm_sunset": [
+   "ocean_calm_sunset_2.jpg",
+   "ocean_calm_sunset_3.jpg"
+  ],
+  "ocean_dark": [
+   "ocean_dark_2.jpg",
+   "ocean_dark_3.jpeg"
+  ],
+  "ocean_deep_dark": [
+   "ocean_deep_dark_1.jpg",
+   "ocean_deep_dark_2.jpg",
+   "ocean_deep_dark_3.jpg"
+  ],
+  "ocean_experts_meeting": [
+   "ocean_experts_meeting_1.jpeg",
+   "ocean_experts_meeting_2.jpeg",
+   "ocean_experts_meeting_3.jpeg"
+  ],
+  "ocean_frontier": [
+   "ocean_frontier_1.jpeg",
+   "ocean_frontier_2.jpeg",
+   "ocean_frontier_3.jpeg"
+  ],
+  "ocean_storm": [
+   "ocean_storm_2.jpg",
+   "ocean_storm_3.jpg"
+  ],
+  "oceangate_office_closed": [
+   "oceangate_office_closed_1.jpeg",
+   "oceangate_office_closed_2.jpeg",
+   "oceangate_office_closed_3.jpeg"
+  ],
+  "office_empty": [
+   "office_empty_1.jpeg",
+   "office_empty_2.jpeg",
+   "office_empty_3.jpeg"
+  ],
+  "polar_prince": [
+   "polar_prince_1.jpeg",
+   "polar_prince_2.jpeg",
+   "polar_prince_3.jpeg"
+  ],
+  "project_engineer": [
+   "project_engineer_1.jpg",
+   "project_engineer_2.jpg"
+  ],
+  "quiet_investigation": [
+   "quiet_investigation_1.jpeg",
+   "quiet_investigation_2.jpeg",
+   "quiet_investigation_3.jpeg"
+  ],
+  "recovery_vessel": [
+   "recovery_vessel_1.jpeg",
+   "recovery_vessel_2.jpeg",
+   "recovery_vessel_3.jpeg"
+  ],
+  "regulation_gap": [
+   "regulation_gap_2.jpeg",
+   "regulation_gap_3.jpeg"
+  ],
+  "regulatory_question": [
+   "regulatory_question_1.jpg",
+   "regulatory_question_2.jpg"
+  ],
+  "rov_deployment": [
+   "rov_deployment_1.jpeg",
+   "rov_deployment_2.jpeg",
+   "rov_deployment_3.jpg"
+  ],
+  "rubiks_cube": [
+   "rubiks_cube_1.jpeg",
+   "rubiks_cube_2.jpg",
+   "rubiks_cube_3.jpeg"
+  ],
+  "rush_confident": [
+   "rush_confident_1.png"
+  ],
+  "rush_dismissive": [
+   "rush_dismissive_1.png"
+  ],
+  "rush_interview": [
+   "rush_interview_1.png"
+  ],
+  "rush_portrait": [
+   "rush_portrait_1.png"
+  ],
+  "rush_princeton": [
+   "rush_princeton_1.jpg"
+  ],
+  "safety_standards": [
+   "safety_standards_1.jpeg",
+   "safety_standards_2.jpeg",
+   "safety_standards_3.jpeg"
+  ],
+  "search_ships": [
+   "search_ships_1.jpg",
+   "search_ships_2.jpg",
+   "search_ships_3.jpeg"
+  ],
+  "sensor_array": [
+   "sensor_array_1.jpeg",
+   "sensor_array_2.jpeg",
+   "sensor_array_3.jpeg"
+  ],
+  "sensor_history_log": [
+   "sensor_history_log_1.jpeg",
+   "sensor_history_log_2.jpeg"
+  ],
+  "sensor_readout": [
+   "sensor_readout_1.jpeg",
+   "sensor_readout_2.jpeg",
+   "sensor_readout_3.jpeg"
+  ],
+  "shipyard_inspection": [
+   "shipyard_inspection_2.jpeg",
+   "shipyard_inspection_3.jpeg"
+  ],
+  "shipyard_repair": [
+   "shipyard_repair_1.jpeg",
+   "shipyard_repair_2.jpeg",
+   "shipyard_repair_3.jpeg"
+  ],
+  "sonar_screen": [
+   "sonar_screen_1.jpeg",
+   "sonar_screen_2.jpeg",
+   "sonar_screen_3.jpeg"
+  ],
+  "submarine_pilot": [
+   "submarine_pilot_1.jpeg",
+   "submarine_pilot_2.jpeg",
+   "submarine_pilot_3.jpeg"
+  ],
+  "submersible_deploy": [
+   "submersible_deploy_1.jpeg",
+   "submersible_deploy_2.jpeg",
+   "submersible_deploy_3.jpeg"
+  ],
+  "titan_deck": [
+   "titan_deck_1.jpeg",
+   "titan_deck_2.jpeg",
+   "titan_deck_3.jpg"
+  ],
+  "titan_hull": [
+   "titan_hull_1.jpeg",
+   "titan_hull_2.jpeg",
+   "titan_hull_3.jpg"
+  ],
+  "titan_hull_real": [
+   "titan_hull_real.jpg"
+  ],
+  "titan_launch": [
+   "titan_launch_1.jpeg",
+   "titan_launch_2.jpeg",
+   "titan_launch_3.jpeg"
+  ],
+  "titan_prep": [
+   "titan_prep_1.jpeg",
+   "titan_prep_2.jpeg",
+   "titan_prep_3.jpeg"
+  ],
+  "titan_success": [
+   "titan_success_1.jpeg",
+   "titan_success_2.jpeg",
+   "titan_success_3.jpg"
+  ],
+  "titan_titanic_dive": [
+   "titan_titanic_dive_1.jpeg",
+   "titan_titanic_dive_2.jpeg",
+   "titan_titanic_dive_3.jpg"
+  ],
+  "titanic_debris_field": [
+   "titanic_debris_field_2.jpg",
+   "titanic_debris_field_3.jpg"
+  ],
+  "titanic_wreck": [
+   "titanic_wreck_1.jpeg",
+   "titanic_wreck_2.jpeg",
+   "titanic_wreck_3.jpeg"
+  ],
+  "titanium_sphere": [
+   "titanium_sphere_1.jpeg",
+   "titanium_sphere_2.jpg",
+   "titanium_sphere_3.jpg"
+  ],
+  "two_paths_converge": [
+   "two_paths_converge_1.jpeg",
+   "two_paths_converge_2.jpeg",
+   "two_paths_converge_3.jpeg"
+  ],
+  "veteran_diver": [
+   "veteran_diver_1.jpeg",
+   "veteran_diver_2.jpeg",
+   "veteran_diver_3.jpeg"
+  ],
+  "waiver_signing": [
+   "waiver_signing_1.jpeg",
+   "waiver_signing_2.jpeg",
+   "waiver_signing_3.jpeg"
+  ],
+  "witness_stand": [
+   "witness_stand_1.jpeg",
+   "witness_stand_2.jpeg",
+   "witness_stand_3.jpeg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.96,
+ "mouth": {}
+}

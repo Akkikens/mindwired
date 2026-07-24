@@ -1,0 +1,89 @@
+{
+  "slug": "oceangate-short3",
+  "title": "20+ experts warned him in writing. He called it a \"baseless cry.\"",
+  "channel": "mindwired",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "start": 0,
+      "end": 5,
+      "voiceover": "More than twenty of the world's leading submersible experts sent him a letter warning his sub could be catastrophic. He ignored it.",
+      "mainText": "20+ EXPERTS WARNED HIM",
+      "emphasis": ["20+"],
+      "kicker": "March 2018, Marine Technology Society",
+      "visualConcept": "signed letter document",
+      "backgroundPrompt": "signed letter document signatures formal",
+      "brollExists": false,
+      "emotionalTone": "fear",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "setup",
+      "kind": "problem",
+      "start": 5,
+      "end": 13,
+      "voiceover": "In March 2018, the Marine Technology Society sent Stockton Rush a letter, warning his experimental approach could lead to outcomes from minor to catastrophic.",
+      "mainText": "\"FROM MINOR TO CATASTROPHIC\"",
+      "visualConcept": "letter closeup",
+      "backgroundPrompt": "handwritten letter document closeup paper",
+      "brollExists": false,
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "detail",
+      "kind": "shockfact",
+      "start": 13,
+      "end": 20,
+      "voiceover": "This wasn't a rival trying to steal business. This was the exact community he claimed to be serving — people who loved deep-sea exploration, and wanted it to survive its own ambitions.",
+      "mainText": "NOT RIVALS. HIS OWN COMMUNITY.",
+      "emphasis": ["COMMUNITY"],
+      "visualConcept": "deep sea engineers",
+      "backgroundPrompt": "engineers group discussion blueprint collaboration",
+      "brollExists": false,
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "reveal",
+      "kind": "data",
+      "start": 20,
+      "end": 28,
+      "voiceover": "His answer never changed. He called warnings like this baseless cries of, quote, you are going to kill someone.",
+      "mainText": "\"BASELESS CRIES\" — HIS ANSWER, EVERY TIME",
+      "visualConcept": "dismissive gesture",
+      "backgroundPrompt": "businessman dismissive gesture office meeting",
+      "brollExists": false,
+      "emotionalTone": "fear",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "twist",
+      "kind": "shockfact",
+      "start": 28,
+      "end": 35,
+      "voiceover": "Five years later, the U.S. Coast Guard's own investigation would quote this exact letter, verbatim, as one of the clearest warnings ever ignored.",
+      "mainText": "QUOTED, VERBATIM, IN THE FINAL REPORT",
+      "visualConcept": "government report document",
+      "backgroundPrompt": "government investigation report document",
+      "brollExists": false,
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "start": 35,
+      "end": 41,
+      "voiceover": "The real letter is shown in full in the mindwired documentary. Subscribe to mindwired.",
+      "mainText": "THE REAL LETTER, ON THE CHANNEL",
+      "kicker": "full documentary on the channel",
+      "visualConcept": "Titan on deck, dusk",
+      "backgroundPrompt": "submersible on ship deck dusk cinematic",
+      "brollExists": false,
+      "emotionalTone": "confidence",
+      "transitionOut": "none"
+    }
+  ]
+}

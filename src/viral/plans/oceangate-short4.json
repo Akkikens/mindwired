@@ -1,0 +1,90 @@
+{
+  "slug": "oceangate-short4",
+  "title": "The Coast Guard's verdict: \"This was preventable.\"",
+  "channel": "mindwired",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "start": 0,
+      "end": 5,
+      "voiceover": "Two years after the implosion, the Coast Guard released its final verdict on OceanGate. It was blunt.",
+      "mainText": "\"THIS WAS PREVENTABLE\"",
+      "emphasis": ["PREVENTABLE"],
+      "kicker": "U.S. Coast Guard, August 2025",
+      "visualConcept": "government report",
+      "backgroundPrompt": "government investigation report document official",
+      "brollExists": false,
+      "emotionalTone": "fear",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "setup",
+      "kind": "problem",
+      "start": 5,
+      "end": 13,
+      "voiceover": "In August 2025, the Coast Guard released its final 335-page report. In the words of the board's chair: this marine casualty and the loss of five lives was preventable.",
+      "mainText": "335 PAGES. ONE VERDICT.",
+      "stat": { "to": 335, "label": "PAGES IN THE FINAL REPORT" },
+      "visualConcept": "hearing room",
+      "backgroundPrompt": "congressional hearing room witnesses testimony",
+      "brollExists": false,
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "detail",
+      "kind": "shockfact",
+      "start": 13,
+      "end": 20,
+      "voiceover": "Investigators found OceanGate's own inadequate engineering, a toxic workplace culture, and regulatory gaps wide enough to drive a submarine through.",
+      "mainText": "\"TOXIC WORKPLACE CULTURE\"",
+      "emphasis": ["TOXIC"],
+      "visualConcept": "tense office culture",
+      "backgroundPrompt": "tense boardroom meeting disagreement executive",
+      "brollExists": false,
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "reveal",
+      "kind": "data",
+      "start": 20,
+      "end": 28,
+      "voiceover": "The report went further. Had Stockton Rush survived, the Coast Guard says it would have referred him to the Justice Department for criminal investigation.",
+      "mainText": "REFERRED FOR CRIMINAL INVESTIGATION",
+      "visualConcept": "government building",
+      "backgroundPrompt": "government building columns official",
+      "brollExists": false,
+      "emotionalTone": "fear",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "twist",
+      "kind": "shockfact",
+      "start": 28,
+      "end": 35,
+      "voiceover": "Two months later, the NTSB's own report found the hull had been silently failing since a 2022 dive — and that OceanGate never truly knew how weak it had become.",
+      "mainText": "THEY NEVER KNEW HOW WEAK IT WAS",
+      "visualConcept": "engineer examining hull",
+      "backgroundPrompt": "engineer analysis laboratory examining material sample",
+      "brollExists": false,
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "start": 35,
+      "end": 41,
+      "voiceover": "Both reports, in full, on the mindwired documentary. Subscribe to mindwired.",
+      "mainText": "BOTH REPORTS, ON THE CHANNEL",
+      "kicker": "full documentary on the channel",
+      "visualConcept": "Titan on deck, dusk",
+      "backgroundPrompt": "submersible on ship deck dusk cinematic",
+      "brollExists": false,
+      "emotionalTone": "confidence",
+      "transitionOut": "none"
+    }
+  ]
+}

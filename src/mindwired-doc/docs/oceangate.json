@@ -1,0 +1,1146 @@
+{
+  "slug": "oceangate",
+  "title": "OceanGate: The Billionaire Sub That Ignored Every Warning",
+  "channel": "mindwired",
+  "niche": "ocean",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "It is nine thirty-one in the morning, June eighteenth, twenty twenty-three. A submersible the size of a minivan slips beneath the North Atlantic, carrying five people toward the Titanic.",
+      "img": "titan_launch",
+      "query": "submersible launch ocean deck crane",
+      "stat": "JUNE 18, 2023",
+      "cap": "9:31 AM. The last time anyone saw them.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h2",
+      "text": "For an hour and forty-five minutes, it checks in with the surface every fifteen minutes, exactly as planned. Then, at ten forty-seven, it stops.",
+      "img": "ocean_dark",
+      "query": "deep ocean dark water descent",
+      "cap": "10:47 AM. Then, silence.",
+      "tone": "fear"
+    },
+    {
+      "id": "h3",
+      "text": "For four days, the world will watch a countdown clock. Ninety-six hours of oxygen. Banging sounds on sonar. A search across thousands of square miles of open ocean.",
+      "img": "search_ships",
+      "query": "coast guard ship search ocean aerial",
+      "stat": "96 HOURS",
+      "cap": "The whole world was watching.",
+      "tone": "fear"
+    },
+    {
+      "id": "h4",
+      "text": "But a secret Navy listening system had already heard the truth, on day one. They were gone within milliseconds of losing contact. The world just didn't know it yet.",
+      "kinetic": {
+        "words": [
+          "Gone.",
+          "Day",
+          "one."
+        ]
+      },
+      "extraHold": 20,
+      "tone": "fear"
+    },
+    {
+      "id": "h5",
+      "text": "This was not a mystery. For five years, engineers, employees, and experts had warned Stockton Rush, in writing, that his submarine could kill someone. He ignored every one of them.",
+      "img": "titan_deck",
+      "query": "Titan submersible deck exterior",
+      "cap": "They warned him. In writing. For years.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "sting",
+      "sting": true,
+      "text": "You're watching mindwired.",
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "text": "OceanGate.",
+      "chapter": "OCEANGATE"
+    },
+    {
+      "id": "c1",
+      "text": "Chapter one. The man who broke the rules.",
+      "chapter": "1 — THE MAN\nWHO BROKE THE RULES"
+    },
+    {
+      "id": "a1",
+      "text": "To understand how this happened, you have to start with the man behind it. And he was not a con artist chasing a quick payday. He genuinely believed he was the future of ocean exploration.",
+      "img": "rush_portrait",
+      "cap": "Stockton Rush.",
+      "note": "OceanGate, CC BY 3.0 / Wikimedia Commons",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a1a",
+      "text": "As a teenager, he became one of the youngest people in the world to earn a jet transport rating, qualifying to fly a DC-eight airliner before most kids his age had a driver's license.",
+      "img": "jet_cockpit",
+      "query": "airliner cockpit instruments pilot view",
+      "stock": true,
+      "cap": "A teenager, rated to fly an airliner.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2",
+      "text": "Richard Stockton Rush the Third studied aerospace engineering at Princeton, then became a flight-test engineer on the F-fifteen fighter program. He came from money, and from history.",
+      "img": "rush_princeton",
+      "query": "Princeton University aerospace engineering campus",
+      "stock": true,
+      "cap": "Aerospace engineer. Not a dreamer.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2a",
+      "text": "By his own account, he had always wanted to be an astronaut, but by the time he was old enough, the golden age of piloted space exploration had already passed him by.",
+      "img": "astronaut_helmet",
+      "query": "astronaut helmet reflection space suit",
+      "stock": true,
+      "cap": "He wanted to be an astronaut. He was born too late.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a2b",
+      "text": "So he looked for the next frontier, and found it in the one place on Earth as unexplored, and as unforgiving, as outer space. The deep ocean. Ninety-five percent of it, still unseen by human eyes.",
+      "img": "ocean_frontier",
+      "query": "ocean horizon vast blue frontier",
+      "stock": true,
+      "stat": "95% OF THE OCEAN, UNEXPLORED",
+      "cap": "The next frontier. Right here on Earth.",
+      "motion": "slow",
+      "tone": "awe"
+    },
+    {
+      "id": "a3",
+      "text": "He carried the bloodline of men who signed the Declaration of Independence. His wife Wendy descended from a couple who died aboard the original Titanic. A coincidence that would come to feel, later, like a warning.",
+      "img": "declaration",
+      "query": "Declaration of Independence document historic",
+      "stock": true,
+      "stat": "A STRANGE COINCIDENCE",
+      "cap": "History has a dark sense of humor.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a4",
+      "text": "In two thousand nine, Rush and a partner named Guillermo Söhnlein founded OceanGate out of Everett, Washington. The pitch was simple: manned submersibles for science, industry, and paying explorers.",
+      "img": "everett_wa",
+      "query": "Everett Washington waterfront industrial",
+      "stock": true,
+      "stat": "2009",
+      "cap": "A real company. A real mission.",
+      "tone": "confidence"
+    },
+    {
+      "id": "a5",
+      "text": "Their earlier submersibles, Antipodes and then Cyclops One, proved the company could actually put people underwater and bring them back. This was not two guys with a website. It worked.",
+      "img": "submersible_deploy",
+      "query": "small submersible deployment ship crane ocean",
+      "stock": true,
+      "cap": "It actually worked.",
+      "tone": "confidence"
+    },
+    {
+      "id": "a6",
+      "text": "So Rush set his sights on the ultimate prize. Not a shallow research dive. The Titanic herself, resting two and a half miles down, in one of the most hostile environments on Earth.",
+      "img": "titanic_wreck",
+      "query": "RMS Titanic wreck bow underwater photograph",
+      "stock": true,
+      "stat": "12,500 FEET DOWN",
+      "cap": "The ultimate prize.",
+      "motion": "slow",
+      "tone": "awe"
+    },
+    {
+      "id": "a7",
+      "text": "To get there, he needed a hull that could survive crushing pressure, six thousand pounds per square inch, while staying light enough to be affordable and repeatable. His answer: carbon fiber.",
+      "img": "carbonfiber_weave",
+      "query": "carbon fiber weave material closeup manufacturing",
+      "stock": true,
+      "cap": "His answer: carbon fiber.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a8",
+      "text": "Titan's pressure hull was a carbon-fiber cylinder about five inches thick, capped with titanium on both ends. Lighter than steel. Cheaper to build. And, Rush argued, just as strong.",
+      "img": "titan_hull",
+      "query": "Titan submersible carbon fiber hull construction",
+      "cap": "Lighter. Cheaper. Untested at this depth.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a9",
+      "text": "No one had ever built a crewed submersible with a carbon-fiber pressure hull rated for the Titanic's depth. Rush wasn't troubled by that. He saw it as exactly the point.",
+      "img": "engineer_workshop",
+      "query": "engineering workshop submarine hull construction workers",
+      "stock": true,
+      "cap": "No one had ever done it. That was the appeal.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a9a",
+      "text": "The traditional path for a vessel like this is called classing. An independent marine society, like DNV or the American Bureau of Shipping, inspects every weld, every material, every system, before a single paying customer ever climbs aboard.",
+      "img": "shipyard_inspection",
+      "query": "shipyard inspection welding steel hull",
+      "stock": true,
+      "cap": "The traditional path: independent inspection, first.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a9b",
+      "text": "Rush called that process slow, bureaucratic, and hostile to genuine innovation. He believed his own engineering judgment, and his sensors, were a faster, better substitute. He would spend the rest of his life defending that bet.",
+      "img": "rush_confident",
+      "query": "confident businessman engineer speaking presentation",
+      "stock": true,
+      "cap": "He bet his own judgment could replace it.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a10",
+      "text": "His signature safety claim was a real-time hull-health monitoring system: acoustic sensors and strain gauges built into the hull, listening for the carbon fiber beginning to fail, before it was too late.",
+      "img": "sensor_array",
+      "query": "acoustic sensor monitoring equipment engineering",
+      "stock": true,
+      "cap": "\"An early-warning system no one else had.\"",
+      "tone": "confidence"
+    },
+    {
+      "id": "a11",
+      "text": "And he steered it with something almost comically ordinary. A store-bought video-game controller. A detail he showed off, on camera, with obvious pride.",
+      "img": "game_controller",
+      "query": "game controller wireless gamepad closeup",
+      "stock": true,
+      "cap": "Piloted with a fourty-dollar controller.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a12",
+      "text": "Rush did not hide his philosophy. He said it, on camera, again and again. \"At some point, safety just is pure waste.\" He called the entire commercial submarine industry, quote, \"obscenely safe.\"",
+      "img": "rush_interview",
+      "cap": "\"Safety just is pure waste.\" — Stockton Rush, CBS, 2022",
+      "note": "attributed quote, CBS News",
+      "extraHold": 16,
+      "tone": "fear"
+    },
+    {
+      "id": "a13",
+      "text": "His motto, more than once: \"You're remembered for the rules you break.\" On combining carbon fiber and titanium in a single hull, he put it even more bluntly. \"There's a rule you don't do that. Well, I did.\"",
+      "kinetic": {
+        "words": [
+          "\"You're",
+          "remembered",
+          "for",
+          "the",
+          "rules",
+          "you",
+          "break.\""
+        ]
+      },
+      "extraHold": 18,
+      "tone": "fear"
+    },
+    {
+      "id": "a14",
+      "text": "To lend the project weight, OceanGate publicly named Boeing, NASA, and the University of Washington as partners in Titan's design. It sounded like the pedigree of a serious aerospace program.",
+      "img": "nasa_lab",
+      "query": "NASA engineering laboratory clean room",
+      "stock": true,
+      "cap": "The pedigree looked serious.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a15",
+      "text": "After the disaster, all three pushed back. Boeing said it never designed or built the sub. NASA said it only consulted, and approved nothing. The university said its lab was not involved in Titan's design.",
+      "img": "boeing_logo_context",
+      "query": "aerospace engineering office building corporate",
+      "stock": true,
+      "stat": "ALL THREE DENIED IT",
+      "cap": "The pedigree wasn't real.",
+      "tone": "fear"
+    },
+    {
+      "id": "a16",
+      "text": "And here is the part that made all of this believable. It worked. In twenty twenty-one and twenty twenty-two, Titan actually reached the Titanic, and came back. Again, and again.",
+      "video": "titan_real_footage_1.mp4",
+      "stat": "10+ SUCCESSFUL DIVES",
+      "cap": "It worked. That's what made it believable.",
+      "motion": "slow",
+      "tone": "awe"
+    },
+    {
+      "id": "a17",
+      "text": "Passengers paid around two hundred fifty thousand dollars a seat. They came away calling it the experience of a lifetime. Stockton Rush looked, for a moment, like a genuine pioneer.",
+      "img": "titanic_debris_field",
+      "query": "Titanic debris field ocean floor artifacts",
+      "stock": true,
+      "stat": "$250,000 PER SEAT",
+      "cap": "For a moment, he looked like a pioneer.",
+      "tone": "confidence"
+    },
+    {
+      "id": "a17a",
+      "text": "For a brief moment, OceanGate had beaten the odds that a hundred years of maritime skeptics said it couldn't beat. A carbon-fiber submarine, ferrying tourists past the most famous wreck in human history, and bringing every one of them home.",
+      "img": "titan_success",
+      "query": "submersible successful mission crew celebration",
+      "stock": true,
+      "cap": "It beat odds a century of skeptics said it couldn't.",
+      "tone": "confidence"
+    },
+    {
+      "id": "a18",
+      "text": "But even in those successful years, the cracks were already showing. Of roughly ninety total dives, only thirteen ever reached the Titanic's full depth. And the warnings had never actually stopped.",
+      "img": "ocean_storm",
+      "query": "ocean storm waves dark clouds",
+      "cap": "Only 13 of 90 dives reached full depth.",
+      "motion": "slow",
+      "tone": "fear"
+    },
+    {
+      "id": "a19",
+      "text": "By late twenty twenty-two, Rush was a minor celebrity. CBS Sunday Morning profiled him. Journalists lined up for a seat. He appeared, again and again, as the face of a new golden age of ocean exploration.",
+      "img": "media_coverage",
+      "query": "television news studio camera interview setup",
+      "stock": true,
+      "cap": "A minor celebrity. The face of a new era.",
+      "tone": "confidence"
+    },
+    {
+      "id": "a20",
+      "text": "He talked openly about expanding the fleet, about eventually offering trips to other deep wrecks, other frontiers entirely. In his own mind, Titan was only the beginning.",
+      "img": "future_expansion",
+      "query": "business expansion growth chart planning office",
+      "stock": true,
+      "cap": "In his mind, this was only the beginning.",
+      "tone": "confidence"
+    },
+    {
+      "id": "c2",
+      "text": "Chapter two. The man who tried to stop him.",
+      "chapter": "2 — THE MAN\nWHO TRIED TO STOP HIM"
+    },
+    {
+      "id": "b1",
+      "text": "His name was David Lochridge. OceanGate's Director of Marine Operations, a veteran submersible pilot whose entire job was making sure the crew and the paying passengers came home alive.",
+      "img": "submarine_pilot",
+      "query": "submersible pilot control room instruments",
+      "stock": true,
+      "cap": "David Lochridge. His job: keep them alive.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b2",
+      "text": "In January twenty eighteen, Lochridge delivered a quality inspection report to OceanGate's leadership. What he found terrified him.",
+      "img": "inspection_report",
+      "query": "engineering inspection report document clipboard",
+      "stock": true,
+      "stat": "JANUARY 2018",
+      "cap": "What he found terrified him.",
+      "tone": "fear"
+    },
+    {
+      "id": "ex_lochridge",
+      "exhibit": true,
+      "img": "ex_lochridge",
+      "source": "Lochridge v. OceanGate counterclaim · W.D. Wash. · 2018",
+      "highlight": [
+        0.05,
+        0.1,
+        0.55,
+        0.2
+      ],
+      "cap": "The viewport was rated to 1,300 meters. They wanted to dive to 4,000.",
+      "text": "This is his report. It warned that the forward viewport, the porthole the passengers would look through, was certified by its own manufacturer to just one thousand three hundred meters. OceanGate intended to dive to four thousand.",
+      "extraHold": 20,
+      "tone": "fear"
+    },
+    {
+      "id": "b3",
+      "text": "His report went further. He alleged the carbon-fiber hull had never received the non-destructive testing that could catch a hidden flaw before it became a catastrophe.",
+      "img": "hull_testing",
+      "query": "carbon fiber composite material testing laboratory",
+      "stock": true,
+      "cap": "No non-destructive testing, his report alleged.",
+      "tone": "fear"
+    },
+    {
+      "id": "b4",
+      "text": "And the acoustic monitoring system Rush was so proud of? Lochridge's report warned it would only detect a failure once it had already begun, in his words, often milliseconds before an implosion.",
+      "kinetic": {
+        "words": [
+          "\"Milliseconds",
+          "before",
+          "an",
+          "implosion.\""
+        ]
+      },
+      "extraHold": 22,
+      "tone": "fear"
+    },
+    {
+      "id": "b5",
+      "text": "He was fired that same month. His counterclaim later said he was given about ten minutes to clear his desk and leave the building.",
+      "img": "office_empty",
+      "query": "empty office desk box belongings",
+      "stock": true,
+      "stat": "FIRED WITHIN DAYS",
+      "cap": "Ten minutes to clear his desk.",
+      "tone": "fear"
+    },
+    {
+      "id": "b6",
+      "text": "Then OceanGate sued him. For breach of contract. For disclosing trade secrets, including, they alleged, to federal workplace safety regulators. Lochridge counter-sued, saying he had been fired for being a whistleblower.",
+      "img": "courthouse",
+      "query": "federal courthouse building exterior",
+      "stock": true,
+      "cap": "OceanGate sued him. He counter-sued.",
+      "tone": "fear"
+    },
+    {
+      "id": "b7",
+      "text": "The case settled quietly, out of court, in late twenty eighteen. The terms were never made public. And inside OceanGate, everyone understood the lesson.",
+      "img": "legal_documents",
+      "query": "legal documents settlement paperwork desk",
+      "stock": true,
+      "stat": "SETTLED. TERMS SEALED.",
+      "cap": "The lesson was clear: don't question him.",
+      "tone": "fear"
+    },
+    {
+      "id": "b8",
+      "text": "OceanGate's own position, in writing, was that submitting Titan to independent certification was, quote, anathema to rapid innovation. Every marine classification society in the world, they said, was simply too slow.",
+      "img": "classification_stamp",
+      "query": "engineering certification stamp approval document",
+      "stock": true,
+      "cap": "\"Anathema to rapid innovation.\" — OceanGate, 2019",
+      "tone": "fear"
+    },
+    {
+      "id": "b9",
+      "text": "It is worth sitting with that argument for a moment, because it is not entirely crazy. Classification can genuinely be slow. Regulation can genuinely calcify. Rush was not wrong that innovation sometimes needs room to move.",
+      "img": "bureaucracy_papers",
+      "query": "bureaucratic paperwork stacks office desk",
+      "cap": "The argument wasn't crazy. That's what made it dangerous.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b10",
+      "text": "But there is a difference between moving fast and refusing to look. And every person who actually inspected Titan's hull up close came away asking Rush to slow down, not to speed up.",
+      "img": "hull_closeup_inspection",
+      "query": "engineer examining material hull surface closeup",
+      "cap": "Everyone who looked closely asked him to slow down.",
+      "extraHold": 14,
+      "tone": "fear"
+    },
+    {
+      "id": "b11",
+      "text": "OceanGate's blog post laid out its philosophy in full. Bringing outside engineers up to speed on every innovation before real-world testing, it argued, would smother the entire project in bureaucracy before it ever left the dock.",
+      "img": "blog_post_writing",
+      "query": "writing blog post laptop desk typing",
+      "stock": true,
+      "cap": "Their argument: certification would smother it before it launched.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b12",
+      "text": "It is a seductive argument, especially to an engineer who believes his own data. But data from one team, checked only by that same team, is not the same thing as an independent verdict.",
+      "img": "data_review",
+      "query": "engineer reviewing data charts screen analysis",
+      "stock": true,
+      "cap": "One team, checking its own homework.",
+      "tone": "fear"
+    },
+    {
+      "id": "c3",
+      "text": "Chapter three. The industry that begged him to stop.",
+      "chapter": "3 — THE INDUSTRY\nTHAT BEGGED HIM TO STOP"
+    },
+    {
+      "id": "d1",
+      "text": "Lochridge was not alone. In March of twenty eighteen, an entire industry organization put its warning in writing.",
+      "img": "ocean_experts_meeting",
+      "query": "marine engineers conference meeting room",
+      "stock": true,
+      "stat": "MARCH 27, 2018",
+      "cap": "An entire industry, in writing.",
+      "motion": "slow",
+      "tone": "fear"
+    },
+    {
+      "id": "ex_mts",
+      "exhibit": true,
+      "img": "ex_mts",
+      "source": "Marine Technology Society · letter to OceanGate · March 27, 2018",
+      "highlight": [
+        0.06,
+        0.35,
+        0.6,
+        0.18
+      ],
+      "cap": "\"Could result in negative outcomes from minor to catastrophic.\"",
+      "text": "The Marine Technology Society sent Stockton Rush this letter, signed by dozens of the world's leading submersible experts. It warned that his experimental approach could lead to outcomes, in their words, from minor to catastrophic.",
+      "extraHold": 22,
+      "tone": "fear"
+    },
+    {
+      "id": "d2",
+      "text": "The letter called OceanGate's marketing misleading to the public, for advertising Titan as meeting or exceeding safety standards it never actually intended to follow. It begged him, one more time, to let an outside body certify the sub.",
+      "img": "safety_standards",
+      "query": "safety regulation certification standards document",
+      "stock": true,
+      "cap": "\"Misleading to the public.\"",
+      "tone": "fear"
+    },
+    {
+      "id": "d2a",
+      "text": "The letter was written by Will Kohnen, who chaired the society's committee on manned submersibles. This was not a rival company trying to slow him down. This was the closest thing the industry had to a unanimous consensus.",
+      "img": "committee_signatures",
+      "query": "signed letter document signatures formal",
+      "stock": true,
+      "cap": "Not a rival. The industry itself, speaking as one.",
+      "tone": "fear"
+    },
+    {
+      "id": "d3",
+      "text": "Rush's answer never changed. He called warnings like this baseless cries of, quote, you are going to kill someone. He said he'd heard them, in his words, way too often.",
+      "img": "rush_dismissive",
+      "query": "businessman dismissive gesture office meeting",
+      "stock": true,
+      "cap": "\"Baseless cries.\" — his answer, every time.",
+      "tone": "fear"
+    },
+    {
+      "id": "d4",
+      "text": "Expedition specialist Rob McCallum warned him directly, by email, that same year. You are potentially putting an entire industry at risk, he wrote. Rush's lawyers reportedly threatened him into silence.",
+      "img": "email_warning",
+      "query": "email inbox warning message laptop screen",
+      "stock": true,
+      "cap": "\"Putting an entire industry at risk.\"",
+      "tone": "fear"
+    },
+    {
+      "id": "d5",
+      "text": "Here is why the engineers were so afraid. Carbon fiber is superb in tension. It holds up a jet's fuselage. But under crushing pressure, dive after dive, it behaves completely differently.",
+      "img": "carbonfiber_layers",
+      "query": "carbon fiber composite layers cross section",
+      "stock": true,
+      "cap": "Great in tension. Different in compression.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d6",
+      "text": "Each descent is a compression cycle. Microscopic layers begin to separate, a process called delamination, and the damage builds silently, invisibly, dive after dive.",
+      "kinetic": {
+        "words": [
+          "Silently.",
+          "Invisibly.",
+          "Dive",
+          "after",
+          "dive."
+        ]
+      },
+      "extraHold": 16,
+      "tone": "fear"
+    },
+    {
+      "id": "d7",
+      "text": "A steel or titanium sphere deforms before it fails. It warns you. A carbon-fiber hull can hold, and hold, and hold, and then fail all at once, with no warning at all.",
+      "img": "titanium_sphere",
+      "query": "titanium metal sphere pressure vessel",
+      "stock": true,
+      "cap": "It can fail all at once. With no warning.",
+      "motion": "slow",
+      "tone": "fear"
+    },
+    {
+      "id": "d8",
+      "text": "In twenty nineteen, submersible expert Karl Stanley rode Titan on a deep test dive off the Bahamas. He heard a loud cracking sound. He emailed Rush that it sounded like an area of the hull breaking down, getting spongy.",
+      "img": "bahamas_dive",
+      "query": "submersible test dive tropical ocean",
+      "stock": true,
+      "stat": "2019 — LOUD CRACKING HEARD",
+      "cap": "\"Breaking down. Getting spongy.\"",
+      "tone": "fear"
+    },
+    {
+      "id": "d8a",
+      "text": "OceanGate did cancel the rest of that season's dives, and rebuilt part of the hull. For a while, it looked like the warning had finally landed. It hadn't. It was a pause, not a change of course.",
+      "img": "shipyard_repair",
+      "query": "shipyard repair maintenance dock vessel",
+      "stock": true,
+      "cap": "A pause. Not a change of course.",
+      "tone": "fear"
+    },
+    {
+      "id": "d9",
+      "text": "He kept emailing warnings for over a year. Titan operated in international waters, beyond any nation's inspection rules, and every passenger who boarded was labeled, on paper, a mission specialist, not a passenger.",
+      "img": "waiver_signing",
+      "query": "signing legal waiver document pen paper",
+      "stock": true,
+      "cap": "\"Mission specialists,\" not passengers.",
+      "tone": "fear"
+    },
+    {
+      "id": "d10",
+      "text": "That label was exactly what kept Titan outside the inspections meant to protect paying customers. James Cameron, who has dived to the Titanic dozens of times, would later call the whole thing a terrible irony.",
+      "img": "cameron_titanic",
+      "query": "deep sea submersible expedition explorer",
+      "stock": true,
+      "cap": "\"It's about warnings that were ignored.\" — James Cameron",
+      "tone": "melancholy"
+    },
+    {
+      "id": "d11",
+      "text": "Cameron said the deep-sea engineering community had been very concerned, and had written letters saying plainly that Titan was too experimental to carry passengers. These were not internet critics. These were the people who had actually built submersibles that worked.",
+      "img": "engineers_group",
+      "query": "engineers group discussion blueprint collaboration",
+      "stock": true,
+      "cap": "The people who'd actually built subs that worked.",
+      "tone": "fear"
+    },
+    {
+      "id": "d12",
+      "text": "And then Cameron drew the parallel that would haunt this entire story. The original Titanic's captain was warned about ice, again and again, and steamed ahead anyway. A century later, at the very same wreck, warnings were ignored all over again.",
+      "kinetic": {
+        "words": [
+          "A",
+          "century",
+          "later.",
+          "Same",
+          "wreck.",
+          "Same",
+          "mistake."
+        ]
+      },
+      "extraHold": 20,
+      "tone": "melancholy"
+    },
+    {
+      "id": "d13",
+      "text": "None of these warnings came from a rival trying to steal business. They came from the exact community Rush claimed to be serving: people who loved deep-sea exploration, and wanted it to survive its own ambitions.",
+      "img": "diving_community",
+      "query": "deep sea diving team collaboration expedition",
+      "stock": true,
+      "cap": "Not rivals. His own community.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c4",
+      "text": "Chapter four. The final dive.",
+      "chapter": "4 — THE FINAL DIVE"
+    },
+    {
+      "id": "e1",
+      "text": "By twenty twenty-three, Titan had already completed dozens of dives. Nobody outside the company knew how many times the hull had been quietly pushed past what it could safely bear.",
+      "img": "titan_prep",
+      "query": "submersible preparation ship deck crew",
+      "stock": true,
+      "cap": "No one outside the company knew.",
+      "motion": "slow",
+      "tone": "fear"
+    },
+    {
+      "id": "e2",
+      "text": "On the morning of June eighteenth, Titan was launched from its support ship, the Polar Prince, some three hundred seventy miles off Newfoundland, directly above the Titanic.",
+      "img": "polar_prince",
+      "query": "research support ship ocean vessel deck",
+      "stock": true,
+      "stat": "370 MILES OFF NEWFOUNDLAND",
+      "cap": "Launched over the wreck itself.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e3",
+      "text": "Aboard were five people. Stockton Rush, sixty-one, at the controls. Hamish Harding, fifty-eight, a British adventurer and aviation businessman.",
+      "cap": "Hamish Harding, 58.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e4",
+      "text": "Paul-Henri Nargeolet, seventy-seven, the French explorer known as Mister Titanic, who had spent more time at the wreck than anyone alive.",
+      "cap": "Paul-Henri Nargeolet, 77. \"Mister Titanic.\"",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e5",
+      "text": "And Shahzada Dawood, forty-eight, a British-Pakistani businessman, seated beside his son. Suleman Dawood. Just nineteen years old.",
+      "cap": "Shahzada Dawood, 48, and his son Suleman, 19.",
+      "extraHold": 14,
+      "tone": "melancholy"
+    },
+    {
+      "id": "e6",
+      "text": "The dive began just after nine-thirty. For the first hour and forty-five minutes, everything went exactly according to plan. Titan checked in with the surface every fifteen minutes, as always.",
+      "img": "descent_dark",
+      "query": "submersible descent dark water bubbles",
+      "cap": "Everything was going according to plan.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e7",
+      "text": "Then, at ten forty-seven, the messages stopped.",
+      "img": "black_screen_static",
+      "query": "static noise television screen dark",
+      "cap": "10:47 AM.",
+      "extraHold": 24,
+      "tone": "fear"
+    },
+    {
+      "id": "e8",
+      "text": "Titan never came back up. After hours of silence, the crew of the Polar Prince alerted the authorities that evening. The submersible was overdue, and missing.",
+      "img": "distress_call",
+      "query": "ship radio distress call communication equipment",
+      "stock": true,
+      "cap": "Overdue. Missing.",
+      "tone": "fear"
+    },
+    {
+      "id": "e9",
+      "text": "What followed was a frantic, four-day international search. The U.S. Coast Guard, Canadian ships and aircraft, and deep-sea robots, scouring thousands of square miles of the North Atlantic.",
+      "img": "coastguard_helicopter",
+      "query": "coast guard helicopter ocean rescue search",
+      "stock": true,
+      "stat": "4-DAY SEARCH",
+      "cap": "A frantic, four-day search.",
+      "tone": "fear"
+    },
+    {
+      "id": "e9a",
+      "text": "News networks around the world cut to live coverage. Ordinary people who had never heard of OceanGate found themselves refreshing their phones, hoping for an update, hoping for a miracle.",
+      "img": "news_broadcast",
+      "query": "television news broadcast studio live coverage",
+      "stock": true,
+      "cap": "The whole world, hoping for a miracle.",
+      "tone": "fear"
+    },
+    {
+      "id": "e9b",
+      "text": "Remotely operated vehicles were flown in from as far away as Europe. Military aircraft dropped sonar buoys across an area larger than the state of Connecticut. It was, by any measure, an extraordinary response.",
+      "img": "rov_deployment",
+      "query": "remotely operated underwater vehicle ROV deployment",
+      "stock": true,
+      "cap": "An area larger than Connecticut, searched.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e10",
+      "text": "Then came a flicker of hope. Sonar buoys picked up banging sounds, roughly every thirty minutes. A later Navy analysis found the noises had nothing to do with Titan at all.",
+      "img": "sonar_screen",
+      "query": "sonar radar screen ocean search technology",
+      "stock": true,
+      "cap": "A flicker of hope. It wasn't real.",
+      "tone": "fear"
+    },
+    {
+      "id": "e11",
+      "text": "And a clock hung over everything. Officials estimated Titan carried about ninety-six hours of breathable oxygen. A countdown the entire world watched, together, in real time.",
+      "kinetic": {
+        "count": 96,
+        "countLabel": "hours of oxygen"
+      },
+      "extraHold": 20,
+      "tone": "fear"
+    },
+    {
+      "id": "e12",
+      "text": "On June twenty-second, a robot on the ocean floor found what searchers had feared most. A debris field, about sixteen hundred feet from the Titanic's own bow.",
+      "img": "debris_field_discovery",
+      "query": "ocean floor debris underwater discovery",
+      "stock": true,
+      "stat": "JUNE 22, 2023",
+      "cap": "The debris field, 1,600 feet from the Titanic.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e13",
+      "text": "The Coast Guard said it was consistent with a catastrophic implosion of the pressure hull. All five were presumed dead. At that depth, an implosion happens in milliseconds, faster than the human brain can register.",
+      "img": "ocean_deep_dark",
+      "query": "deep ocean darkness underwater abyss",
+      "cap": "Milliseconds. Faster than a thought.",
+      "extraHold": 24,
+      "tone": "melancholy"
+    },
+    {
+      "id": "e14",
+      "text": "And then came the hardest part. Officials later revealed that on June eighteenth, right around the moment contact was lost, a secret U.S. Navy listening system had already detected an anomaly it called consistent with an implosion.",
+      "img": "navy_listening",
+      "query": "military sonar listening station equipment",
+      "stock": true,
+      "cap": "The Navy heard it. On day one.",
+      "tone": "fear"
+    },
+    {
+      "id": "e15",
+      "text": "It wasn't considered definitive, so the search went on. But it meant the five men had most likely died within the first two hours, while the world spent four more days hoping.",
+      "kinetic": {
+        "words": [
+          "Day",
+          "one.",
+          "The",
+          "world",
+          "hoped",
+          "for",
+          "four",
+          "more."
+        ]
+      },
+      "extraHold": 22,
+      "tone": "melancholy"
+    },
+    {
+      "id": "e16",
+      "text": "In the weeks that followed, the Coast Guard recovered debris from the sea floor, and, it said, presumed human remains, carefully brought up for analysis.",
+      "img": "recovery_vessel",
+      "query": "salvage recovery ship ocean crane deck",
+      "stock": true,
+      "cap": "Presumed human remains, recovered.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c5",
+      "text": "Chapter five. What the investigators found.",
+      "chapter": "5 — WHAT THE\nINVESTIGATORS FOUND"
+    },
+    {
+      "id": "f1",
+      "text": "By July sixth, twenty twenty-three, OceanGate had suspended all exploration and commercial operations. The real reckoning would take two more years.",
+      "img": "oceangate_office_closed",
+      "query": "office building closed sign empty",
+      "stock": true,
+      "stat": "JULY 6, 2023 — OPERATIONS SUSPENDED",
+      "cap": "The reckoning would take two more years.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "f1a",
+      "text": "For over a year, the story went quiet. No hearings, no headlines, just a slow, careful reconstruction of a hull that no longer existed in one piece, and a company that had stopped talking to the press entirely.",
+      "img": "quiet_investigation",
+      "query": "investigation evidence table quiet room",
+      "stock": true,
+      "cap": "A year of silence. And a slow reconstruction.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "f2",
+      "text": "The Coast Guard convened a Marine Board of Investigation, its highest level of inquiry. For two weeks in September twenty twenty-four, in North Charleston, South Carolina, it heard sworn testimony in public.",
+      "img": "hearing_room",
+      "query": "congressional hearing room witnesses testimony",
+      "stock": true,
+      "stat": "SEPTEMBER 2024",
+      "cap": "Two weeks of sworn public testimony.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f3",
+      "text": "OceanGate's own former engineering director testified first. He said he felt pressured to make the sub dive-ready, and that he told Stockton Rush plainly, I'm not getting in it.",
+      "img": "witness_stand",
+      "query": "witness testimony microphone hearing panel",
+      "stock": true,
+      "cap": "\"I'm not getting in it.\" — former engineering director",
+      "tone": "fear"
+    },
+    {
+      "id": "f4",
+      "text": "David Lochridge testified too. Asked how the company had responded to every warning he'd raised, his answer was blunt. Everything I raised in that report, they had an excuse. It was a disgrace.",
+      "img": "lochridge_testimony",
+      "query": "testimony hearing microphone speaking panel",
+      "stock": true,
+      "cap": "\"It was a disgrace.\" — David Lochridge",
+      "extraHold": 16,
+      "tone": "fear"
+    },
+    {
+      "id": "f5",
+      "text": "One former technician told investigators he'd quit over the mission-specialist label. He said when he raised it, Rush's answer was that if the Coast Guard became a problem, he'd, quote, buy himself a congressman and make it go away.",
+      "kinetic": {
+        "words": [
+          "\"Buy",
+          "himself",
+          "a",
+          "congressman."
+        ]
+      },
+      "extraHold": 20,
+      "tone": "fear"
+    },
+    {
+      "id": "f6",
+      "text": "The hearings surfaced the moment investigators now believe was the beginning of the end. Dive eighty, in July twenty twenty-two. The people aboard heard a loud bang. Two separate sensor systems recorded it.",
+      "img": "sensor_readout",
+      "query": "engineering sensor data readout screen graph",
+      "stock": true,
+      "stat": "DIVE 80 — JULY 2022",
+      "cap": "A loud bang. Two sensors recorded it.",
+      "tone": "fear"
+    },
+    {
+      "id": "f6a",
+      "text": "The Coast Guard's own report is blunt about what that acoustic monitoring system actually was. Not a real-time safety alert, capable of stopping a dive mid-descent. A historical record, reviewed afterward, to decide whether the next dive was worth the risk.",
+      "img": "sensor_history_log",
+      "query": "data log history record screen timeline",
+      "stock": true,
+      "cap": "Not an alarm. A history book, read after the fact.",
+      "tone": "fear"
+    },
+    {
+      "id": "f6b",
+      "text": "One of OceanGate's own project engineers put it plainly to investigators: the monitoring system should only ever have been used as a planning tool, never marketed as a real-time safety net for the people inside.",
+      "img": "project_engineer",
+      "query": "engineer discussing project plans meeting",
+      "stock": true,
+      "cap": "\"Never marketed as a real-time safety net.\" — a company engineer",
+      "tone": "fear"
+    },
+    {
+      "id": "f7",
+      "text": "Investigators now believe that was the sound of the hull's carbon fiber coming apart. An NTSB engineer told the panel the recovered hull was riddled with manufacturing defects. Wrinkles. Porosity. Voids, baked into the carbon fiber itself.",
+      "img": "hull_defect_closeup",
+      "query": "material defect closeup composite manufacturing flaw",
+      "stock": true,
+      "cap": "Wrinkles. Porosity. Voids.",
+      "tone": "fear"
+    },
+    {
+      "id": "ex_uscg",
+      "exhibit": true,
+      "img": "ex_uscg",
+      "source": "U.S. Coast Guard · Report of Investigation · August 5, 2025",
+      "highlight": [
+        0.08,
+        0.42,
+        0.5,
+        0.14
+      ],
+      "cap": "\"This marine casualty and the loss of five lives was preventable.\"",
+      "text": "In August twenty twenty-five, two years after the implosion, the Coast Guard released its final report. Three hundred thirty-five pages. Its conclusion, in the words of the board's chair, was blunt. This marine casualty and the loss of five lives was preventable.",
+      "extraHold": 24,
+      "tone": "melancholy"
+    },
+    {
+      "id": "f8",
+      "text": "The report found OceanGate's own inadequate design, certification, and maintenance process was the primary cause, wrapped around what investigators called a toxic workplace culture, and a regulatory framework with gaps wide enough to drive a submarine through.",
+      "img": "corporate_culture",
+      "query": "office culture workplace corporate meeting tense",
+      "stock": true,
+      "stat": "\"TOXIC WORKPLACE CULTURE\"",
+      "cap": "Their own process. Their own culture.",
+      "tone": "fear"
+    },
+    {
+      "id": "f9",
+      "text": "The report went further still. Had Stockton Rush survived, the Coast Guard says it would have referred him to the Justice Department for criminal investigation.",
+      "kinetic": {
+        "words": [
+          "Referred",
+          "for",
+          "criminal",
+          "investigation."
+        ]
+      },
+      "extraHold": 20,
+      "tone": "fear"
+    },
+    {
+      "id": "f10",
+      "text": "Two months later, in October twenty twenty-five, the NTSB released its own report, this one on exactly how the hull failed. It concluded the hull was damaged after dive eighty, and got progressively worse until, on its final dive, it buckled, and imploded.",
+      "img": "ntsb_engineer",
+      "query": "engineer analysis laboratory examining material sample",
+      "stock": true,
+      "stat": "OCTOBER 2025 — THE NTSB REPORT",
+      "cap": "Dive 80. Then it just got worse.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "f11",
+      "text": "And the company, the NTSB found, never properly tested Titan's hull. It never actually knew how weak the submersible really was, until the moment it wasn't strong enough anymore.",
+      "img": "empty_lab",
+      "query": "empty laboratory equipment desk quiet",
+      "stock": true,
+      "cap": "They never knew how weak it really was.",
+      "extraHold": 16,
+      "tone": "melancholy"
+    },
+    {
+      "id": "f11a",
+      "text": "It is a strange kind of justice. Two federal investigations, each running for over a year, each combing through emails, testimony, and wreckage, arriving at nearly the same verdict from two completely different directions.",
+      "img": "two_paths_converge",
+      "query": "investigation evidence board strings connections",
+      "stock": true,
+      "cap": "Two investigations. The same verdict.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "f12",
+      "text": "In twenty twenty-four, the family of Paul-Henri Nargeolet sued for more than fifty million dollars, accusing the company of gross negligence, and of hiding the sub's flaws from the man they had talked into boarding it.",
+      "img": "lawsuit_filing",
+      "query": "legal lawsuit filing courthouse documents",
+      "stock": true,
+      "stat": "$50M WRONGFUL DEATH SUIT",
+      "cap": "\"They hid the sub's flaws.\"",
+      "tone": "melancholy"
+    },
+    {
+      "id": "f16",
+      "text": "There is a strange detail that surfaces again and again in the testimony. Multiple employees said Rush treated concerns not as engineering problems to be solved, but as personal challenges to his own competence and vision.",
+      "img": "boardroom_tension",
+      "query": "tense boardroom meeting disagreement executive",
+      "stock": true,
+      "cap": "Concerns weren't problems to solve. They were insults.",
+      "tone": "fear"
+    },
+    {
+      "id": "f17",
+      "text": "That is, in the end, the simplest explanation for why so many warnings changed so little. Not because the warnings were unclear. Because the man receiving them had built his entire identity around being the exception to every rule.",
+      "kinetic": { "words": ["The", "exception.", "To", "every", "rule."] },
+      "extraHold": 18,
+      "tone": "fear"
+    },
+    {
+      "id": "c6",
+      "text": "Chapter six. What it cost.",
+      "chapter": "6 — WHAT IT COST"
+    },
+    {
+      "id": "f13",
+      "text": "The Dawoods were, by every account, not thrill-seekers chasing a stunt. Suleman had reportedly been nervous about the dive, and had brought along a Rubik's Cube, hoping to solve it at the bottom of the ocean, and set a small personal record.",
+      "img": "rubiks_cube",
+      "query": "puzzle cube colorful closeup",
+      "stock": true,
+      "cap": "He brought a puzzle cube. He wanted to solve it, down there.",
+      "extraHold": 18,
+      "tone": "melancholy"
+    },
+    {
+      "id": "f14",
+      "text": "Paul-Henri Nargeolet had dived to the Titanic more than thirty times across three decades. If anyone alive understood the risks of that wreck site, it was him. He trusted the sub anyway.",
+      "img": "veteran_diver",
+      "query": "deep sea diver veteran expedition portrait",
+      "stock": true,
+      "cap": "He understood the risk better than anyone alive.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "f15",
+      "text": "Both investigations reached the same underlying warning. The rules governing experimental submersibles like Titan were simply not built for a vehicle like this. The NTSB said existing regulations had, in effect, enabled OceanGate to operate the way it did.",
+      "img": "regulation_gap",
+      "query": "legal regulation document gap magnifying glass",
+      "stock": true,
+      "cap": "The rulebook had a hole shaped exactly like Titan.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "f18",
+      "text": "There is a broader question sitting underneath all of this, one both reports raised without fully answering. Who, exactly, is supposed to say no to a wealthy, confident founder, when the entire regulatory system assumes good faith?",
+      "img": "regulatory_question",
+      "query": "government regulation building columns official",
+      "stock": true,
+      "cap": "Who is supposed to say no?",
+      "tone": "melancholy"
+    },
+    {
+      "id": "f19",
+      "text": "International waters have no single police force. Marine classification societies are voluntary. Passenger-vessel rules only apply to passengers, and OceanGate simply stopped calling them that. Every gap here was legal. That is what made it so dangerous.",
+      "kinetic": { "words": ["Every", "gap", "was", "legal.", "That's", "the", "danger."] },
+      "extraHold": 18,
+      "tone": "fear"
+    },
+    {
+      "id": "g1",
+      "text": "It is tempting to make this a story about one reckless man. But every warning came from someone who wanted OceanGate to succeed. Lochridge wanted it to succeed safely. So did the Marine Technology Society. So did Karl Stanley.",
+      "img": "ocean_calm_sunset",
+      "query": "ocean sunset calm horizon peaceful",
+      "cap": "They wanted it to succeed. Safely.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "g2",
+      "text": "The tragedy is not that no one saw this coming. The tragedy is that everyone did, and said so, in writing, for five straight years, and it changed nothing.",
+      "kinetic": {
+        "words": [
+          "Everyone",
+          "saw",
+          "it",
+          "coming."
+        ]
+      },
+      "extraHold": 20,
+      "tone": "melancholy"
+    },
+    {
+      "id": "g3",
+      "text": "Five people trusted a system that had already failed them long before June eighteenth. Not the ocean. Not bad luck. A company that mistook every warning for an insult, and every rule for an obstacle.",
+      "img": "family_photo_frame",
+      "query": "photo frame memory quiet room window light",
+      "stock": true,
+      "cap": "Not bad luck. A choice, made again and again.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "g4",
+      "text": "What stays with me about this one is the letter. Thirty-some experts, in writing, five years before the implosion, using the word catastrophic. Not as a guess. As a documented, professional warning.",
+      "img": "letter_closeup",
+      "query": "handwritten letter document closeup paper",
+      "stock": true,
+      "cap": "They used the word \"catastrophic.\" In writing.",
+      "extraHold": 18,
+      "tone": "melancholy"
+    },
+    {
+      "id": "g5",
+      "text": "The deep ocean does not care how confident you are. It does not negotiate. It simply enforces its own laws, exactly as it always has, and exactly as it always will.",
+      "img": "ocean_abyss_wide",
+      "query": "vast ocean deep water wide shot",
+      "cap": "The ocean does not negotiate.",
+      "motion": "slow",
+      "tone": "awe"
+    },
+    {
+      "id": "g6",
+      "text": "Somewhere in this story is a real, human tension worth sitting with. We need people willing to break rules to push exploration forward. But we also need the people who beg them to slow down, and this time, we need them to actually listen.",
+      "img": "handshake_ocean",
+      "query": "two people silhouette conversation sunset",
+      "stock": true,
+      "cap": "We need the rule-breakers. We also need them to listen.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "g7",
+      "text": "Every single warning in this story exists in writing. A report. A letter. An email. A hearing transcript. Nothing here is a guess made after the fact. It was all said, clearly, while there was still time to change course.",
+      "img": "archive_documents",
+      "query": "archive documents stacked papers records",
+      "stock": true,
+      "cap": "All of it, said while there was still time.",
+      "extraHold": 16,
+      "tone": "melancholy"
+    },
+    {
+      "id": "bridge",
+      "text": "If a single ignored letter could end five lives at the bottom of the ocean, wait until you see how far people were willing to go to sell two hundred thousand people a one-way ticket to Mars. Watch our film on the Mars One scam.",
+      "img": "mars_orbit",
+      "query": "Mars planet full disk from space",
+      "cap": "Watch next: The Mars One Scam.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "end",
+      "text": "If this story moved you, subscribe to mindwired. We tell the true stories of how far people will go chasing the edge of what's possible, and what it costs the people who trust them. This has been OceanGate.",
+      "img": "ocean_deep_dark",
+      "query": "deep ocean darkness underwater abyss",
+      "cap": "Subscribe to mindwired.",
+      "tone": "confidence"
+    }
+  ]
+}

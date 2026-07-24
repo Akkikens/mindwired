@@ -1,0 +1,92 @@
+{
+  "slug": "oceangate-short1",
+  "title": "They imploded on day one. The world searched for 4 more days.",
+  "channel": "mindwired",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "start": 0,
+      "end": 5,
+      "voiceover": "A submersible went missing near the Titanic. For four days, the world watched a countdown clock. It turns out, they were already gone.",
+      "mainText": "THEY WERE ALREADY GONE",
+      "emphasis": ["ALREADY", "GONE"],
+      "kicker": "the Titan submersible, June 2023",
+      "visualConcept": "dark ocean, submersible silhouette",
+      "backgroundPrompt": "dark ocean deep water submersible descending",
+      "brollExists": false,
+      "emotionalTone": "fear",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "setup",
+      "kind": "problem",
+      "start": 5,
+      "end": 12,
+      "voiceover": "On June 18, 2023, the Titan submersible launched toward the Titanic with five people aboard. An hour and 45 minutes into the dive, it stopped checking in.",
+      "mainText": "1h 45m in. Then, silence.",
+      "emphasis": ["silence"],
+      "visualConcept": "descent into darkness",
+      "backgroundPrompt": "deep ocean darkness bubbles descending",
+      "brollExists": false,
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "search",
+      "kind": "shockfact",
+      "start": 12,
+      "end": 19,
+      "voiceover": "What followed was a four-day international search. Sonar picked up banging sounds. Officials estimated 96 hours of oxygen. The whole world was watching.",
+      "mainText": "96 HOURS OF OXYGEN",
+      "stat": { "to": 96, "label": "HOURS, THE WORLD WAS TOLD" },
+      "visualConcept": "search ships, sonar",
+      "backgroundPrompt": "coast guard ship search ocean aerial",
+      "brollExists": false,
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "reveal",
+      "kind": "data",
+      "start": 19,
+      "end": 27,
+      "voiceover": "But officials later revealed a secret US Navy listening system had detected an implosion signature on day one. They had most likely died within hours — while the world spent four more days hoping.",
+      "mainText": "DAY ONE. NOT DAY FOUR.",
+      "emphasis": ["DAY", "ONE"],
+      "visualConcept": "sonar waveform, cold reveal",
+      "backgroundPrompt": "sonar waveform data screen dark",
+      "brollExists": false,
+      "emotionalTone": "fear",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "twist",
+      "kind": "shockfact",
+      "start": 27,
+      "end": 34,
+      "voiceover": "And this wasn't bad luck. For five years, engineers and experts had warned the CEO, in writing, that the sub could kill someone. He ignored every one of them.",
+      "mainText": "THEY WARNED HIM. FOR 5 YEARS.",
+      "emphasis": ["5", "YEARS"],
+      "visualConcept": "documents, warnings",
+      "backgroundPrompt": "warning letter document closeup",
+      "brollExists": false,
+      "emotionalTone": "fear",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "start": 34,
+      "end": 40,
+      "voiceover": "The full story of every warning OceanGate ignored is on the channel. Subscribe to mindwired.",
+      "mainText": "EVERY WARNING IGNORED",
+      "kicker": "full documentary on the channel",
+      "visualConcept": "Titan on deck, dusk",
+      "backgroundPrompt": "submersible on ship deck dusk cinematic",
+      "brollExists": false,
+      "emotionalTone": "confidence",
+      "transitionOut": "none"
+    }
+  ]
+}
