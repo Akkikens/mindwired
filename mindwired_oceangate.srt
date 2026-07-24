@@ -1,0 +1,1064 @@
+1
+00:00:00,333 --> 00:00:04,296
+It is nine thirty-one in the morning, June eighteenth, twenty twenty-three.
+
+2
+00:00:04,296 --> 00:00:10,782
+A submersible the size of a minivan slips beneath the North Atlantic, carrying five people toward the Titanic.
+
+3
+00:00:11,900 --> 00:00:19,187
+For an hour and forty-five minutes, it checks in with the surface every fifteen minutes, exactly as planned.
+
+4
+00:00:19,187 --> 00:00:21,617
+Then, at ten forty-seven, it stops.
+
+5
+00:00:22,766 --> 00:00:27,821
+For four days, the world will watch a countdown clock. Ninety-six hours of oxygen.
+
+6
+00:00:27,821 --> 00:00:32,875
+Banging sounds on sonar. A search across thousands of square miles of open ocean.
+
+7
+00:00:34,000 --> 00:00:38,186
+But a secret Navy listening system had already heard the truth, on day one.
+
+8
+00:00:38,186 --> 00:00:42,672
+They were gone within milliseconds of losing contact. The world just didn't know it yet.
+
+9
+00:00:43,800 --> 00:00:45,698
+This was not a mystery.
+
+10
+00:00:45,698 --> 00:00:52,911
+For five years, engineers, employees, and experts had warned Stockton Rush, in writing, that his submarine could kill someone.
+
+11
+00:00:52,911 --> 00:00:55,189
+He ignored every one of them.
+
+12
+00:00:56,333 --> 00:00:57,900
+You're watching mindwired.
+
+13
+00:00:59,033 --> 00:00:59,869
+OceanGate.
+
+14
+00:01:01,000 --> 00:01:03,769
+Chapter one. The man who broke the rules.
+
+15
+00:01:04,900 --> 00:01:09,079
+To understand how this happened, you have to start with the man behind it.
+
+16
+00:01:09,079 --> 00:01:12,363
+And he was not a con artist chasing a quick payday.
+
+17
+00:01:12,363 --> 00:01:15,349
+He genuinely believed he was the future of ocean exploration.
+
+18
+00:01:16,466 --> 00:01:26,837
+As a teenager, he became one of the youngest people in the world to earn a jet transport rating, qualifying to fly a DC-eight airliner before most kids his age had a driver's license.
+
+19
+00:01:27,966 --> 00:01:35,222
+Richard Stockton Rush the Third studied aerospace engineering at Princeton, then became a flight-test engineer on the F-fifteen fighter program.
+
+20
+00:01:35,222 --> 00:01:37,762
+He came from money, and from history.
+
+21
+00:01:38,900 --> 00:01:47,651
+By his own account, he had always wanted to be an astronaut, but by the time he was old enough, the golden age of piloted space exploration had already passed him by.
+
+22
+00:01:48,800 --> 00:01:56,619
+So he looked for the next frontier, and found it in the one place on Earth as unexplored, and as unforgiving, as outer space.
+
+23
+00:01:56,619 --> 00:02:00,529
+The deep ocean. Ninety-five percent of it, still unseen by human eyes.
+
+24
+00:02:01,666 --> 00:02:05,489
+He carried the bloodline of men who signed the Declaration of Independence.
+
+25
+00:02:05,489 --> 00:02:09,630
+His wife Wendy descended from a couple who died aboard the original Titanic.
+
+26
+00:02:09,630 --> 00:02:13,134
+A coincidence that would come to feel, later, like a warning.
+
+27
+00:02:14,266 --> 00:02:21,188
+In two thousand nine, Rush and a partner named Guillermo Söhnlein founded OceanGate out of Everett, Washington.
+
+28
+00:02:21,188 --> 00:02:26,073
+The pitch was simple: manned submersibles for science, industry, and paying explorers.
+
+29
+00:02:27,200 --> 00:02:34,166
+Their earlier submersibles, Antipodes and then Cyclops One, proved the company could actually put people underwater and bring them back.
+
+30
+00:02:34,166 --> 00:02:37,649
+This was not two guys with a website. It worked.
+
+31
+00:02:38,766 --> 00:02:43,166
+So Rush set his sights on the ultimate prize. Not a shallow research dive.
+
+32
+00:02:43,166 --> 00:02:49,137
+The Titanic herself, resting two and a half miles down, in one of the most hostile environments on Earth.
+
+33
+00:02:50,266 --> 00:02:59,708
+To get there, he needed a hull that could survive crushing pressure, six thousand pounds per square inch, while staying light enough to be affordable and repeatable.
+
+34
+00:02:59,708 --> 00:03:01,107
+His answer: carbon fiber.
+
+35
+00:03:02,233 --> 00:03:09,292
+Titan's pressure hull was a carbon-fiber cylinder about five inches thick, capped with titanium on both ends.
+
+36
+00:03:09,292 --> 00:03:14,275
+Lighter than steel. Cheaper to build. And, Rush argued, just as strong.
+
+37
+00:03:15,400 --> 00:03:20,854
+No one had ever built a crewed submersible with a carbon-fiber pressure hull rated for the Titanic's depth.
+
+38
+00:03:20,854 --> 00:03:24,491
+Rush wasn't troubled by that. He saw it as exactly the point.
+
+39
+00:03:25,633 --> 00:03:29,928
+The traditional path for a vessel like this is called classing.
+
+40
+00:03:29,928 --> 00:03:40,471
+An independent marine society, like DNV or the American Bureau of Shipping, inspects every weld, every material, every system, before a single paying customer ever climbs aboard.
+
+41
+00:03:41,599 --> 00:03:45,622
+Rush called that process slow, bureaucratic, and hostile to genuine innovation.
+
+42
+00:03:45,622 --> 00:03:50,743
+He believed his own engineering judgment, and his sensors, were a faster, better substitute.
+
+43
+00:03:50,743 --> 00:03:54,765
+He would spend the rest of his life defending that bet.
+
+44
+00:03:55,900 --> 00:04:06,662
+His signature safety claim was a real-time hull-health monitoring system: acoustic sensors and strain gauges built into the hull, listening for the carbon fiber beginning to fail, before it was too late.
+
+45
+00:04:07,800 --> 00:04:11,541
+And he steered it with something almost comically ordinary.
+
+46
+00:04:11,541 --> 00:04:13,204
+A store-bought video-game controller.
+
+47
+00:04:13,204 --> 00:04:17,361
+A detail he showed off, on camera, with obvious pride.
+
+48
+00:04:18,500 --> 00:04:24,111
+Rush did not hide his philosophy. He said it, on camera, again and again.
+
+49
+00:04:24,111 --> 00:04:31,326
+"At some point, safety just is pure waste." He called the entire commercial submarine industry, quote, "obscenely safe."
+
+50
+00:04:32,466 --> 00:04:41,571
+His motto, more than once: "You're remembered for the rules you break." On combining carbon fiber and titanium in a single hull, he put it even more bluntly.
+
+51
+00:04:41,571 --> 00:04:44,822
+"There's a rule you don't do that. Well, I did."
+
+52
+00:04:45,966 --> 00:04:53,350
+To lend the project weight, OceanGate publicly named Boeing, NASA, and the University of Washington as partners in Titan's design.
+
+53
+00:04:53,350 --> 00:04:57,042
+It sounded like the pedigree of a serious aerospace program.
+
+54
+00:04:58,166 --> 00:05:03,409
+After the disaster, all three pushed back. Boeing said it never designed or built the sub.
+
+55
+00:05:03,409 --> 00:05:06,030
+NASA said it only consulted, and approved nothing.
+
+56
+00:05:06,030 --> 00:05:09,634
+The university said its lab was not involved in Titan's design.
+
+57
+00:05:10,766 --> 00:05:16,290
+And here is the part that made all of this believable. It worked.
+
+58
+00:05:16,290 --> 00:05:22,239
+In twenty twenty-one and twenty twenty-two, Titan actually reached the Titanic, and came back.
+
+59
+00:05:22,239 --> 00:05:23,514
+Again, and again.
+
+60
+00:05:24,633 --> 00:05:28,194
+Passengers paid around two hundred fifty thousand dollars a seat.
+
+61
+00:05:28,194 --> 00:05:31,755
+They came away calling it the experience of a lifetime.
+
+62
+00:05:31,755 --> 00:05:35,317
+Stockton Rush looked, for a moment, like a genuine pioneer.
+
+63
+00:05:36,466 --> 00:05:43,363
+For a brief moment, OceanGate had beaten the odds that a hundred years of maritime skeptics said it couldn't beat.
+
+64
+00:05:43,363 --> 00:05:50,259
+A carbon-fiber submarine, ferrying tourists past the most famous wreck in human history, and bringing every one of them home.
+
+65
+00:05:51,399 --> 00:05:55,756
+But even in those successful years, the cracks were already showing.
+
+66
+00:05:55,756 --> 00:06:00,904
+Of roughly ninety total dives, only thirteen ever reached the Titanic's full depth.
+
+67
+00:06:00,904 --> 00:06:03,676
+And the warnings had never actually stopped.
+
+68
+00:06:04,799 --> 00:06:10,133
+By late twenty twenty-two, Rush was a minor celebrity. CBS Sunday Morning profiled him.
+
+69
+00:06:10,133 --> 00:06:12,418
+Journalists lined up for a seat.
+
+70
+00:06:12,418 --> 00:06:18,513
+He appeared, again and again, as the face of a new golden age of ocean exploration.
+
+71
+00:06:19,633 --> 00:06:26,268
+He talked openly about expanding the fleet, about eventually offering trips to other deep wrecks, other frontiers entirely.
+
+72
+00:06:26,268 --> 00:06:29,586
+In his own mind, Titan was only the beginning.
+
+73
+00:06:30,733 --> 00:06:33,737
+Chapter two. The man who tried to stop him.
+
+74
+00:06:34,866 --> 00:06:36,695
+His name was David Lochridge.
+
+75
+00:06:36,695 --> 00:06:45,472
+OceanGate's Director of Marine Operations, a veteran submersible pilot whose entire job was making sure the crew and the paying passengers came home alive.
+
+76
+00:06:46,599 --> 00:06:51,825
+In January twenty eighteen, Lochridge delivered a quality inspection report to OceanGate's leadership.
+
+77
+00:06:51,825 --> 00:06:53,835
+What he found terrified him.
+
+78
+00:06:54,966 --> 00:06:56,373
+This is his report.
+
+79
+00:06:56,373 --> 00:07:05,514
+It warned that the forward viewport, the porthole the passengers would look through, was certified by its own manufacturer to just one thousand three hundred meters.
+
+80
+00:07:05,514 --> 00:07:07,975
+OceanGate intended to dive to four thousand.
+
+81
+00:07:09,099 --> 00:07:10,458
+His report went further.
+
+82
+00:07:10,458 --> 00:07:17,928
+He alleged the carbon-fiber hull had never received the non-destructive testing that could catch a hidden flaw before it became a catastrophe.
+
+83
+00:07:19,066 --> 00:07:22,429
+And the acoustic monitoring system Rush was so proud of?
+
+84
+00:07:22,429 --> 00:07:29,828
+Lochridge's report warned it would only detect a failure once it had already begun, in his words, often milliseconds before an implosion.
+
+85
+00:07:30,966 --> 00:07:32,658
+He was fired that same month.
+
+86
+00:07:32,658 --> 00:07:37,732
+His counterclaim later said he was given about ten minutes to clear his desk and leave the building.
+
+87
+00:07:38,866 --> 00:07:42,486
+Then OceanGate sued him. For breach of contract.
+
+88
+00:07:42,486 --> 00:07:47,916
+For disclosing trade secrets, including, they alleged, to federal workplace safety regulators.
+
+89
+00:07:47,916 --> 00:07:52,894
+Lochridge counter-sued, saying he had been fired for being a whistleblower.
+
+90
+00:07:54,033 --> 00:07:58,343
+The case settled quietly, out of court, in late twenty eighteen.
+
+91
+00:07:58,343 --> 00:08:03,437
+The terms were never made public. And inside OceanGate, everyone understood the lesson.
+
+92
+00:08:04,566 --> 00:08:12,256
+OceanGate's own position, in writing, was that submitting Titan to independent certification was, quote, anathema to rapid innovation.
+
+93
+00:08:12,256 --> 00:08:17,810
+Every marine classification society in the world, they said, was simply too slow.
+
+94
+00:08:18,933 --> 00:08:24,749
+It is worth sitting with that argument for a moment, because it is not entirely crazy.
+
+95
+00:08:24,749 --> 00:08:28,021
+Classification can genuinely be slow. Regulation can genuinely calcify.
+
+96
+00:08:28,021 --> 00:08:32,020
+Rush was not wrong that innovation sometimes needs room to move.
+
+97
+00:08:33,166 --> 00:08:36,899
+But there is a difference between moving fast and refusing to look.
+
+98
+00:08:36,899 --> 00:08:43,432
+And every person who actually inspected Titan's hull up close came away asking Rush to slow down, not to speed up.
+
+99
+00:08:44,566 --> 00:08:47,773
+OceanGate's blog post laid out its philosophy in full.
+
+100
+00:08:47,773 --> 00:08:57,392
+Bringing outside engineers up to speed on every innovation before real-world testing, it argued, would smother the entire project in bureaucracy before it ever left the dock.
+
+101
+00:08:58,533 --> 00:09:02,964
+It is a seductive argument, especially to an engineer who believes his own data.
+
+102
+00:09:02,964 --> 00:09:09,295
+But data from one team, checked only by that same team, is not the same thing as an independent verdict.
+
+103
+00:09:10,433 --> 00:09:13,672
+Chapter three. The industry that begged him to stop.
+
+104
+00:09:14,799 --> 00:09:16,227
+Lochridge was not alone.
+
+105
+00:09:16,227 --> 00:09:21,225
+In March of twenty eighteen, an entire industry organization put its warning in writing.
+
+106
+00:09:22,366 --> 00:09:29,581
+The Marine Technology Society sent Stockton Rush this letter, signed by dozens of the world's leading submersible experts.
+
+107
+00:09:29,581 --> 00:09:36,394
+It warned that his experimental approach could lead to outcomes, in their words, from minor to catastrophic.
+
+108
+00:09:37,533 --> 00:09:45,584
+The letter called OceanGate's marketing misleading to the public, for advertising Titan as meeting or exceeding safety standards it never actually intended to follow.
+
+109
+00:09:45,584 --> 00:09:50,281
+It begged him, one more time, to let an outside body certify the sub.
+
+110
+00:09:51,399 --> 00:09:56,277
+The letter was written by Will Kohnen, who chaired the society's committee on manned submersibles.
+
+111
+00:09:56,277 --> 00:09:59,854
+This was not a rival company trying to slow him down.
+
+112
+00:09:59,854 --> 00:10:03,755
+This was the closest thing the industry had to a unanimous consensus.
+
+113
+00:10:04,899 --> 00:10:06,355
+Rush's answer never changed.
+
+114
+00:10:06,355 --> 00:10:11,815
+He called warnings like this baseless cries of, quote, you are going to kill someone.
+
+115
+00:10:11,815 --> 00:10:15,819
+He said he'd heard them, in his words, way too often.
+
+116
+00:10:16,966 --> 00:10:21,721
+Expedition specialist Rob McCallum warned him directly, by email, that same year.
+
+117
+00:10:21,721 --> 00:10:26,079
+You are potentially putting an entire industry at risk, he wrote.
+
+118
+00:10:26,079 --> 00:10:28,852
+Rush's lawyers reportedly threatened him into silence.
+
+119
+00:10:30,000 --> 00:10:35,615
+Here is why the engineers were so afraid. Carbon fiber is superb in tension.
+
+120
+00:10:35,615 --> 00:10:38,021
+It holds up a jet's fuselage.
+
+121
+00:10:38,021 --> 00:10:42,433
+But under crushing pressure, dive after dive, it behaves completely differently.
+
+122
+00:10:43,566 --> 00:10:46,178
+Each descent is a compression cycle.
+
+123
+00:10:46,178 --> 00:10:54,015
+Microscopic layers begin to separate, a process called delamination, and the damage builds silently, invisibly, dive after dive.
+
+124
+00:10:55,133 --> 00:10:59,286
+A steel or titanium sphere deforms before it fails. It warns you.
+
+125
+00:10:59,286 --> 00:11:06,209
+A carbon-fiber hull can hold, and hold, and hold, and then fail all at once, with no warning at all.
+
+126
+00:11:07,333 --> 00:11:12,969
+In twenty nineteen, submersible expert Karl Stanley rode Titan on a deep test dive off the Bahamas.
+
+127
+00:11:12,969 --> 00:11:14,959
+He heard a loud cracking sound.
+
+128
+00:11:14,959 --> 00:11:20,264
+He emailed Rush that it sounded like an area of the hull breaking down, getting spongy.
+
+129
+00:11:21,400 --> 00:11:26,440
+OceanGate did cancel the rest of that season's dives, and rebuilt part of the hull.
+
+130
+00:11:26,440 --> 00:11:30,809
+For a while, it looked like the warning had finally landed. It hadn't.
+
+131
+00:11:30,809 --> 00:11:33,834
+It was a pause, not a change of course.
+
+132
+00:11:34,966 --> 00:11:38,120
+He kept emailing warnings for over a year.
+
+133
+00:11:38,120 --> 00:11:47,975
+Titan operated in international waters, beyond any nation's inspection rules, and every passenger who boarded was labeled, on paper, a mission specialist, not a passenger.
+
+134
+00:11:49,100 --> 00:11:54,160
+That label was exactly what kept Titan outside the inspections meant to protect paying customers.
+
+135
+00:11:54,160 --> 00:12:00,907
+James Cameron, who has dived to the Titanic dozens of times, would later call the whole thing a terrible irony.
+
+136
+00:12:02,033 --> 00:12:10,073
+Cameron said the deep-sea engineering community had been very concerned, and had written letters saying plainly that Titan was too experimental to carry passengers.
+
+137
+00:12:10,073 --> 00:12:11,749
+These were not internet critics.
+
+138
+00:12:11,749 --> 00:12:15,434
+These were the people who had actually built submersibles that worked.
+
+139
+00:12:16,566 --> 00:12:21,023
+And then Cameron drew the parallel that would haunt this entire story.
+
+140
+00:12:21,023 --> 00:12:26,595
+The original Titanic's captain was warned about ice, again and again, and steamed ahead anyway.
+
+141
+00:12:26,595 --> 00:12:31,795
+A century later, at the very same wreck, warnings were ignored all over again.
+
+142
+00:12:32,933 --> 00:12:36,869
+None of these warnings came from a rival trying to steal business.
+
+143
+00:12:36,869 --> 00:12:44,740
+They came from the exact community Rush claimed to be serving: people who loved deep-sea exploration, and wanted it to survive its own ambitions.
+
+144
+00:12:45,866 --> 00:12:48,139
+Chapter four. The final dive.
+
+145
+00:12:49,266 --> 00:12:52,584
+By twenty twenty-three, Titan had already completed dozens of dives.
+
+146
+00:12:52,584 --> 00:12:59,219
+Nobody outside the company knew how many times the hull had been quietly pushed past what it could safely bear.
+
+147
+00:13:00,366 --> 00:13:09,535
+On the morning of June eighteenth, Titan was launched from its support ship, the Polar Prince, some three hundred seventy miles off Newfoundland, directly above the Titanic.
+
+148
+00:13:10,666 --> 00:13:15,451
+Aboard were five people. Stockton Rush, sixty-one, at the controls.
+
+149
+00:13:15,451 --> 00:13:19,757
+Hamish Harding, fifty-eight, a British adventurer and aviation businessman.
+
+150
+00:13:20,900 --> 00:13:28,606
+Paul-Henri Nargeolet, seventy-seven, the French explorer known as Mister Titanic, who had spent more time at the wreck than anyone alive.
+
+151
+00:13:29,733 --> 00:13:34,939
+And Shahzada Dawood, forty-eight, a British-Pakistani businessman, seated beside his son.
+
+152
+00:13:34,939 --> 00:13:37,779
+Suleman Dawood. Just nineteen years old.
+
+153
+00:13:38,900 --> 00:13:41,162
+The dive began just after nine-thirty.
+
+154
+00:13:41,162 --> 00:13:46,063
+For the first hour and forty-five minutes, everything went exactly according to plan.
+
+155
+00:13:46,063 --> 00:13:50,211
+Titan checked in with the surface every fifteen minutes, as always.
+
+156
+00:13:51,333 --> 00:13:54,650
+Then, at ten forty-seven, the messages stopped.
+
+157
+00:13:55,800 --> 00:13:57,608
+Titan never came back up.
+
+158
+00:13:57,608 --> 00:14:03,033
+After hours of silence, the crew of the Polar Prince alerted the authorities that evening.
+
+159
+00:14:03,033 --> 00:14:05,204
+The submersible was overdue, and missing.
+
+160
+00:14:06,333 --> 00:14:10,606
+What followed was a frantic, four-day international search. The U.S.
+
+161
+00:14:10,606 --> 00:14:18,297
+Coast Guard, Canadian ships and aircraft, and deep-sea robots, scouring thousands of square miles of the North Atlantic.
+
+162
+00:14:19,433 --> 00:14:22,254
+News networks around the world cut to live coverage.
+
+163
+00:14:22,254 --> 00:14:28,837
+Ordinary people who had never heard of OceanGate found themselves refreshing their phones, hoping for an update, hoping for a miracle.
+
+164
+00:14:29,966 --> 00:14:33,958
+Remotely operated vehicles were flown in from as far away as Europe.
+
+165
+00:14:33,958 --> 00:14:38,616
+Military aircraft dropped sonar buoys across an area larger than the state of Connecticut.
+
+166
+00:14:38,616 --> 00:14:41,277
+It was, by any measure, an extraordinary response.
+
+167
+00:14:42,399 --> 00:14:44,356
+Then came a flicker of hope.
+
+168
+00:14:44,356 --> 00:14:47,617
+Sonar buoys picked up banging sounds, roughly every thirty minutes.
+
+169
+00:14:47,617 --> 00:14:52,508
+A later Navy analysis found the noises had nothing to do with Titan at all.
+
+170
+00:14:53,633 --> 00:14:56,225
+And a clock hung over everything.
+
+171
+00:14:56,225 --> 00:15:00,545
+Officials estimated Titan carried about ninety-six hours of breathable oxygen.
+
+172
+00:15:00,545 --> 00:15:04,866
+A countdown the entire world watched, together, in real time.
+
+173
+00:15:06,000 --> 00:15:11,093
+On June twenty-second, a robot on the ocean floor found what searchers had feared most.
+
+174
+00:15:11,093 --> 00:15:15,168
+A debris field, about sixteen hundred feet from the Titanic's own bow.
+
+175
+00:15:16,299 --> 00:15:21,494
+The Coast Guard said it was consistent with a catastrophic implosion of the pressure hull.
+
+176
+00:15:21,494 --> 00:15:23,226
+All five were presumed dead.
+
+177
+00:15:23,226 --> 00:15:28,421
+At that depth, an implosion happens in milliseconds, faster than the human brain can register.
+
+178
+00:15:29,566 --> 00:15:31,739
+And then came the hardest part.
+
+179
+00:15:31,739 --> 00:15:37,897
+Officials later revealed that on June eighteenth, right around the moment contact was lost, a secret U.S.
+
+180
+00:15:37,897 --> 00:15:42,967
+Navy listening system had already detected an anomaly it called consistent with an implosion.
+
+181
+00:15:44,099 --> 00:15:46,766
+It wasn't considered definitive, so the search went on.
+
+182
+00:15:46,766 --> 00:15:53,581
+But it meant the five men had most likely died within the first two hours, while the world spent four more days hoping.
+
+183
+00:15:54,699 --> 00:16:04,652
+In the weeks that followed, the Coast Guard recovered debris from the sea floor, and, it said, presumed human remains, carefully brought up for analysis.
+
+184
+00:16:05,799 --> 00:16:08,568
+Chapter five. What the investigators found.
+
+185
+00:16:09,699 --> 00:16:15,262
+By July sixth, twenty twenty-three, OceanGate had suspended all exploration and commercial operations.
+
+186
+00:16:15,262 --> 00:16:18,685
+The real reckoning would take two more years.
+
+187
+00:16:19,833 --> 00:16:22,720
+For over a year, the story went quiet.
+
+188
+00:16:22,720 --> 00:16:33,547
+No hearings, no headlines, just a slow, careful reconstruction of a hull that no longer existed in one piece, and a company that had stopped talking to the press entirely.
+
+189
+00:16:34,666 --> 00:16:40,209
+The Coast Guard convened a Marine Board of Investigation, its highest level of inquiry.
+
+190
+00:16:40,209 --> 00:16:47,335
+For two weeks in September twenty twenty-four, in North Charleston, South Carolina, it heard sworn testimony in public.
+
+191
+00:16:48,466 --> 00:16:50,774
+OceanGate's own former engineering director testified first.
+
+192
+00:16:50,774 --> 00:16:58,027
+He said he felt pressured to make the sub dive-ready, and that he told Stockton Rush plainly, I'm not getting in it.
+
+193
+00:16:59,166 --> 00:17:00,547
+David Lochridge testified too.
+
+194
+00:17:00,547 --> 00:17:05,723
+Asked how the company had responded to every warning he'd raised, his answer was blunt.
+
+195
+00:17:05,723 --> 00:17:10,555
+Everything I raised in that report, they had an excuse. It was a disgrace.
+
+196
+00:17:11,699 --> 00:17:15,347
+One former technician told investigators he'd quit over the mission-specialist label.
+
+197
+00:17:15,347 --> 00:17:24,630
+He said when he raised it, Rush's answer was that if the Coast Guard became a problem, he'd, quote, buy himself a congressman and make it go away.
+
+198
+00:17:25,766 --> 00:17:31,075
+The hearings surfaced the moment investigators now believe was the beginning of the end.
+
+199
+00:17:31,075 --> 00:17:36,004
+Dive eighty, in July twenty twenty-two. The people aboard heard a loud bang.
+
+200
+00:17:36,004 --> 00:17:38,279
+Two separate sensor systems recorded it.
+
+201
+00:17:39,399 --> 00:17:44,656
+The Coast Guard's own report is blunt about what that acoustic monitoring system actually was.
+
+202
+00:17:44,656 --> 00:17:48,510
+Not a real-time safety alert, capable of stopping a dive mid-descent.
+
+203
+00:17:48,510 --> 00:17:53,767
+A historical record, reviewed afterward, to decide whether the next dive was worth the risk.
+
+204
+00:17:54,899 --> 00:18:06,210
+One of OceanGate's own project engineers put it plainly to investigators: the monitoring system should only ever have been used as a planning tool, never marketed as a real-time safety net for the people inside.
+
+205
+00:18:07,333 --> 00:18:12,977
+Investigators now believe that was the sound of the hull's carbon fiber coming apart.
+
+206
+00:18:12,977 --> 00:18:18,621
+An NTSB engineer told the panel the recovered hull was riddled with manufacturing defects.
+
+207
+00:18:18,621 --> 00:18:22,249
+Wrinkles. Porosity. Voids, baked into the carbon fiber itself.
+
+208
+00:18:23,366 --> 00:18:29,327
+In August twenty twenty-five, two years after the implosion, the Coast Guard released its final report.
+
+209
+00:18:29,327 --> 00:18:30,817
+Three hundred thirty-five pages.
+
+210
+00:18:30,817 --> 00:18:34,915
+Its conclusion, in the words of the board's chair, was blunt.
+
+211
+00:18:34,915 --> 00:18:39,013
+This marine casualty and the loss of five lives was preventable.
+
+212
+00:18:40,133 --> 00:18:54,814
+The report found OceanGate's own inadequate design, certification, and maintenance process was the primary cause, wrapped around what investigators called a toxic workplace culture, and a regulatory framework with gaps wide enough to drive a submarine through.
+
+213
+00:18:55,933 --> 00:18:57,474
+The report went further still.
+
+214
+00:18:57,474 --> 00:19:03,639
+Had Stockton Rush survived, the Coast Guard says it would have referred him to the Justice Department for criminal investigation.
+
+215
+00:19:04,766 --> 00:19:12,408
+Two months later, in October twenty twenty-five, the NTSB released its own report, this one on exactly how the hull failed.
+
+216
+00:19:12,408 --> 00:19:20,413
+It concluded the hull was damaged after dive eighty, and got progressively worse until, on its final dive, it buckled, and imploded.
+
+217
+00:19:21,533 --> 00:19:25,397
+And the company, the NTSB found, never properly tested Titan's hull.
+
+218
+00:19:25,397 --> 00:19:31,721
+It never actually knew how weak the submersible really was, until the moment it wasn't strong enough anymore.
+
+219
+00:19:32,866 --> 00:19:35,657
+It is a strange kind of justice.
+
+220
+00:19:35,657 --> 00:19:46,423
+Two federal investigations, each running for over a year, each combing through emails, testimony, and wreckage, arriving at nearly the same verdict from two completely different directions.
+
+221
+00:19:47,566 --> 00:19:59,608
+In twenty twenty-four, the family of Paul-Henri Nargeolet sued for more than fifty million dollars, accusing the company of gross negligence, and of hiding the sub's flaws from the man they had talked into boarding it.
+
+222
+00:20:00,733 --> 00:20:05,459
+There is a strange detail that surfaces again and again in the testimony.
+
+223
+00:20:05,459 --> 00:20:13,820
+Multiple employees said Rush treated concerns not as engineering problems to be solved, but as personal challenges to his own competence and vision.
+
+224
+00:20:14,966 --> 00:20:20,689
+That is, in the end, the simplest explanation for why so many warnings changed so little.
+
+225
+00:20:20,689 --> 00:20:22,835
+Not because the warnings were unclear.
+
+226
+00:20:22,835 --> 00:20:28,915
+Because the man receiving them had built his entire identity around being the exception to every rule.
+
+227
+00:20:30,033 --> 00:20:31,992
+Chapter six. What it cost.
+
+228
+00:20:33,133 --> 00:20:36,663
+The Dawoods were, by every account, not thrill-seekers chasing a stunt.
+
+229
+00:20:36,663 --> 00:20:46,612
+Suleman had reportedly been nervous about the dive, and had brought along a Rubik's Cube, hoping to solve it at the bottom of the ocean, and set a small personal record.
+
+230
+00:20:47,733 --> 00:20:52,190
+Paul-Henri Nargeolet had dived to the Titanic more than thirty times across three decades.
+
+231
+00:20:52,190 --> 00:20:56,329
+If anyone alive understood the risks of that wreck site, it was him.
+
+232
+00:20:56,329 --> 00:20:57,921
+He trusted the sub anyway.
+
+233
+00:20:59,066 --> 00:21:01,903
+Both investigations reached the same underlying warning.
+
+234
+00:21:01,903 --> 00:21:08,386
+The rules governing experimental submersibles like Titan were simply not built for a vehicle like this.
+
+235
+00:21:08,386 --> 00:21:14,870
+The NTSB said existing regulations had, in effect, enabled OceanGate to operate the way it did.
+
+236
+00:21:15,999 --> 00:21:22,529
+There is a broader question sitting underneath all of this, one both reports raised without fully answering.
+
+237
+00:21:22,529 --> 00:21:30,210
+Who, exactly, is supposed to say no to a wealthy, confident founder, when the entire regulatory system assumes good faith?
+
+238
+00:21:31,333 --> 00:21:34,308
+International waters have no single police force.
+
+239
+00:21:34,308 --> 00:21:36,433
+Marine classification societies are voluntary.
+
+240
+00:21:36,433 --> 00:21:41,959
+Passenger-vessel rules only apply to passengers, and OceanGate simply stopped calling them that.
+
+241
+00:21:41,959 --> 00:21:47,059
+Every gap here was legal. That is what made it so dangerous.
+
+242
+00:21:48,199 --> 00:21:52,323
+It is tempting to make this a story about one reckless man.
+
+243
+00:21:52,323 --> 00:21:56,103
+But every warning came from someone who wanted OceanGate to succeed.
+
+244
+00:21:56,103 --> 00:22:00,226
+Lochridge wanted it to succeed safely. So did the Marine Technology Society.
+
+245
+00:22:00,226 --> 00:22:01,600
+So did Karl Stanley.
+
+246
+00:22:02,733 --> 00:22:06,111
+The tragedy is not that no one saw this coming.
+
+247
+00:22:06,111 --> 00:22:12,529
+The tragedy is that everyone did, and said so, in writing, for five straight years, and it changed nothing.
+
+248
+00:22:13,666 --> 00:22:18,389
+Five people trusted a system that had already failed them long before June eighteenth.
+
+249
+00:22:18,389 --> 00:22:20,413
+Not the ocean. Not bad luck.
+
+250
+00:22:20,413 --> 00:22:25,473
+A company that mistook every warning for an insult, and every rule for an obstacle.
+
+251
+00:22:26,599 --> 00:22:30,387
+What stays with me about this one is the letter.
+
+252
+00:22:30,387 --> 00:22:35,311
+Thirty-some experts, in writing, five years before the implosion, using the word catastrophic.
+
+253
+00:22:35,311 --> 00:22:38,720
+Not as a guess. As a documented, professional warning.
+
+254
+00:22:39,866 --> 00:22:44,467
+The deep ocean does not care how confident you are. It does not negotiate.
+
+255
+00:22:44,467 --> 00:22:50,054
+It simply enforces its own laws, exactly as it always has, and exactly as it always will.
+
+256
+00:22:51,199 --> 00:22:54,961
+Somewhere in this story is a real, human tension worth sitting with.
+
+257
+00:22:54,961 --> 00:22:58,409
+We need people willing to break rules to push exploration forward.
+
+258
+00:22:58,409 --> 00:23:04,992
+But we also need the people who beg them to slow down, and this time, we need them to actually listen.
+
+259
+00:23:06,133 --> 00:23:11,491
+Every single warning in this story exists in writing. A report. A letter. An email.
+
+260
+00:23:11,491 --> 00:23:15,778
+A hearing transcript. Nothing here is a guess made after the fact.
+
+261
+00:23:15,778 --> 00:23:20,422
+It was all said, clearly, while there was still time to change course.
+
+262
+00:23:21,566 --> 00:23:32,456
+If a single ignored letter could end five lives at the bottom of the ocean, wait until you see how far people were willing to go to sell two hundred thousand people a one-way ticket to Mars.
+
+263
+00:23:32,456 --> 00:23:34,810
+Watch our film on the Mars One scam.
+
+264
+00:23:35,933 --> 00:23:38,331
+If this story moved you, subscribe to mindwired.
+
+265
+00:23:38,331 --> 00:23:46,123
+We tell the true stories of how far people will go chasing the edge of what's possible, and what it costs the people who trust them.
+
+266
+00:23:46,123 --> 00:23:47,322
+This has been OceanGate.
+
