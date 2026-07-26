@@ -1,0 +1,33 @@
+- **coldmorning_1.mp4** — KSC-05-S-00150 — Public domain (NASA) — KSC — https://images.nasa.gov/details/ksc_052705_rollback
+- **coldmorning_2.mp4** — KSC-05-S-00151 — Public domain (NASA) — KSC — https://images.nasa.gov/details/ksc_052705_sssr
+- **launchtrail_1.mp4** — TROPICS Rocket Launch — Public domain (NASA) — KSC — https://images.nasa.gov/details/KSC-20230507-MH-RLS01-TROPICS_Rocket_Launch-Rocket_Lab-WON_3330130
+- **shuttlewide_1.mp4** — Ascent - Landing Space Shuttle Orbiter Imagery — Public domain (NASA) — GRC — https://images.nasa.gov/details/GRC-2023-CM-0249
+- **shuttlewide_2.mp4** — Guy Bluford, First African American in Space: 40 Years of Inspiration — Public domain (NASA) — HQ — https://images.nasa.gov/details/Guy Bluford, First African American in Space 40 Years of Inspiration
+- **nixon_1.mp4** — The Helix Nebula (Webb, Hubble and Spitzer views) — CC BY 4.0 — NASA, ESA, CSA, STScI, NASA-JPL, SCC, A. Pagan (STScI) — https://esawebb.org/videos/weic2601a/
+- **boosters_1.mp4** — Northrop Grumman VP Applauds Next-Generation SLS Solid Rocket Booster — Public domain (NASA) — MSFC — https://images.nasa.gov/details/Charlie Precourt _FSB1
+- **sts1_launch_1.mp4** — First Space Shuttle Flight - Astronaut Bob Crippen on the legacy of STS-1 & Columbia – Rocket Ranch — Public domain (NASA) — KSC — https://images.nasa.gov/details/KSC-20210407-VP-CDC001-001-ROCKETRAUNCH-CRIPPEN-3269056
+- **orbit_1.mp4** — Shuttle Atlantis with HST From Out of the Sun — Public domain (NASA) — GSFC — https://images.nasa.gov/details/GSFC_20080519_HST_m10211_Predator_Atlantis
+- **hubble_deploy_1.mp4** — A Week of Deployments for the James Webb Space Telescope on This Week @NASA – January 7, 2022 — Public domain (NASA) — HQ — https://images.nasa.gov/details/A Week of Deployments for the James Webb Space Telescope on This Week @NASA – January 7, 2022
+- **spacewalk_1.mp4** — astronaut overlooking earth from space station 29780760 — Pexels License (free commercial use) — Adis Resic — https://www.pexels.com/video/astronaut-overlooking-earth-from-space-station-29780760/
+- **iss_assembly_1.mp4** — KSC-07-S-00074 — Public domain (NASA) — KSC — https://images.nasa.gov/details/ksc_080807_sts118_launch
+- **challenger_liftoff_1.mp4** — Shuttle Close Out Crew Honored At National Air and Space Museum — Public domain (NASA) — HQ — https://images.nasa.gov/details/Shuttle Close Out Crew Honored At National Air and Space Museum
+- **challenger_breakup_1.mp4** — Using Precipitation Data to Assess Risk of Cholera Outbreaks — Public domain (NASA) — GSFC — https://images.nasa.gov/details/GSFC_20180518_GPM_m12958_Cholera
+- **reagan_speech_1.mp4** — Commercial Space Transportation Conference Panel Discussion — Public domain (NASA) — GSFC — https://images.nasa.gov/details/Commercial Space Transportation Conference
+- **sts107_launch_1.mp4** — STS-1 Columbia 40th Anniversary — Public domain (NASA) — AFRC — https://images.nasa.gov/details/AFRC-2021-13558-1-STS-1_40th
+- **foamstrike_1.mp4** — KSC-05-S-00060 — Public domain (NASA) — KSC — https://images.nasa.gov/details/ksc_031005_f15_foam
+- **reentry_1.mp4** — NASA's Final Space Shuttle Launch 10th Anniversary Replay — Public domain (NASA) — HQ — https://images.nasa.gov/details/NHQ_2021_0708_NASA's Final Space Shuttle Launch 10th Anniversary Replay
+- **bushspeech_1.mp4** — KSC-05-S-00296 — Public domain (NASA) — KSC — https://images.nasa.gov/details/ksc_082905_rtf_overview
+- **landing_1.mp4** — KSC-05-S-00299 — Public domain (NASA) — KSC — https://images.nasa.gov/details/ksc_091605_relief
+- **crewdragon_1.mp4** — NASA Astronauts Launch from America in Historic Test Flight of SpaceX Crew Dragon — Public domain (NASA) — HQ — https://images.nasa.gov/details/NASA Astronauts Launch from America in Historic Test Flight of SpaceX Crew Dragon
+- **ferryflight_1.mp4** — Shuttle Endeavour’s Last Flight Was 10 Years Ago — Public domain (NASA) — AFRC — https://images.nasa.gov/details/AFRC-2022-13856-4-SCA-Endeavour LAX Anniversary - FINAL-40mbs
+- **nixonfix_1.mp4** — Apollo 12 Mission Summary and Highlights - featuring Splashdown with President Nixon — Public domain (NASA) — KSC — https://images.nasa.gov/details/KSC-1969-MH-NAS01-0001-Apollo_12_Mission_Summary_Highlights_Splashdown_with_President_Nixon-HM_3599
+- **nixonfix_2.mp4** — New 'exomoon' detection challenges cosmic labels | ESO News — CC BY 4.0 — ESO
+Music: Stellardrone - To The Great Beyond. Written by: M. Lopes. Edited by: V. González. Footage and photos: ESO, L. Calçada, M. Kornmesser, C. Malin, B. T — https://www.eso.org/public/videos/eso2610a/
+- **breakupfix_1.mp4** — NASA Astronauts Discuss Life In Space With Challenger Learning Center – Friday, March 20, 2026 — Public domain (NASA) — JSC — https://images.nasa.gov/details/iss074m260791523_NASA_Astronauts_Discuss_Life_In_Space_With_Challenger_Learning_Center_260320
+- **reaganfix_1.mp4** — a powered television with no reception 6976086 — Pexels License (free commercial use) — KoolShooters — https://www.pexels.com/video/a-powered-television-with-no-reception-6976086/
+- **reaganfix_2.mp4** — meeting, planning, marketing, business, team, people, office, teamwork, group, discussion, business meeting, group meeting, office meeting, team meeting, communication, corporate, talking, plan — Pixabay Content License (free commercial use) — Life-Of-Vids — https://pixabay.com/videos/id-2340/
+- **breakupfix_2.mp4** — iss063m261711709_Expedition_63_In-flight_with_Challenger_Center_Students_200619 — Public domain (NASA) — JSC — https://images.nasa.gov/details/iss063m261711709_Expedition_63_In-flight_with_Challenger_Center_Students_200619
+- **reentryfix_1.mp4** — Expedition 69 Northrop Grumman Cygnus Cargo Craft Arrives at Space Station - Aug. 4, 2022  — Public domain (NASA) — JSC — https://images.nasa.gov/details/iss069m262160829_Expedition_69_Northrup_Grumman_NG-19_Cygnus_Capture_230804
+- **reentryfix_2.mp4** — Pan of Interacting galaxies Arp 142 (NIRCam and MIRI image) — CC BY 4.0 — NASA, ESA, CSA, STScI, N. Bartmann (ESA/Webb) Music: Noizefield - Expect the Unexpected — https://esawebb.org/videos/weic2420a/
+- **hubblefix_1.mp4** — HST SM4 Hubble Deploy Released from Arm — Public domain (NASA) — GSFC — https://images.nasa.gov/details/GSFC_20080822_HST_m10235_Release_Fire_006
+- **hubblefix_2.mp4** — HST SM4 Hubble Deploy On Robotic Arm — Public domain (NASA) — GSFC — https://images.nasa.gov/details/GSFC_20080822_HST_m10235_Release_Revers_007

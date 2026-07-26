@@ -1,0 +1,609 @@
+{
+  "slug": "spaceshuttle",
+  "title": "The Rise and Fall of the Space Shuttle",
+  "channel": "mindwired",
+  "niche": "space",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "It is January twenty eighth, nineteen eighty six. The morning is unusually cold at Kennedy Space Center. Icicles hang from the launch tower.",
+      "video": "coldmorning_1.mp4",
+      "videoQuery": "space shuttle launch pad frost ice morning",
+      "stat": "JAN 28, 1986",
+      "cap": "An unusually cold morning.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h2",
+      "text": "Inside, seven people are strapped into their seats. One of them is a schoolteacher. Millions of children are about to watch her live, from their classrooms.",
+      "img": "mcauliffe_1",
+      "query": "Christa McAuliffe astronaut training NASA",
+      "cap": "A teacher, going to space.",
+      "tone": "hope"
+    },
+    {
+      "id": "h3",
+      "text": "The engineers who built the rocket underneath them had begged, the night before, not to launch. They were overruled.",
+      "img": "engineers_meeting_fresh",
+      "query": "engineers looking at blueprints serious discussion",
+      "stock": true,
+      "cap": "They said not today.",
+      "tone": "fear"
+    },
+    {
+      "id": "h4",
+      "text": "Seventy three seconds after liftoff, it would not matter what anyone had promised the world about how safe, how routine, how ordinary this had all become.",
+      "video": "launchtrail_1.mp4",
+      "videoQuery": "rocket launch smoke trail sky",
+      "stat": "73 SECONDS",
+      "cap": "Seventy three seconds.",
+      "extraHold": 20,
+      "tone": "fear"
+    },
+    {
+      "id": "h5",
+      "text": "This was supposed to be the machine that made space routine. Flights every week, for the price of an airline ticket. Instead, it would fly a tenth as often as promised, and it would kill fourteen people in two separate disasters, seventeen years apart.",
+      "kinetic": { "words": ["A", "tenth", "as", "often", "as", "promised."] },
+      "extraHold": 24,
+      "tone": "melancholy"
+    },
+    {
+      "id": "h6",
+      "text": "This is the story of the Space Shuttle. Thirty years, one hundred and thirty five missions, two disasters the country never quite recovered from, and a decision, in the end, to walk away.",
+      "video": "shuttlewide_1.mp4",
+      "videoQuery": "space shuttle orbiter flight wide shot",
+      "cap": "Thirty years. Two disasters.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    { "id": "sting", "sting": true, "text": "You're watching mindwired.", "tone": "confidence" },
+    { "id": "title", "text": "The rise and fall of the Space Shuttle.", "chapter": "THE RISE AND FALL\nOF THE SPACE SHUTTLE" },
+
+    { "id": "c1", "text": "Chapter one. The promise.", "chapter": "1 — THE\nPROMISE" },
+    {
+      "id": "a1",
+      "text": "By the early nineteen seventies, the Apollo program was ending, and NASA's budget was collapsing with it. Money that had once been thirty six percent of the agency's spending had fallen to almost nothing.",
+      "img": "nasa_budget",
+      "query": "NASA control room 1970s vintage",
+      "stock": true,
+      "stat": "36% → 3%",
+      "cap": "The money was disappearing.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2",
+      "text": "So on January fifth, nineteen seventy two, President Richard Nixon approved something new. Not a mission. A machine. A spacecraft designed to fly again, and again, and again.",
+      "img": "nixon_still",
+      "query": "Richard Nixon 1972 press conference podium",
+      "note": "White House Photo Office, Public Domain",
+      "stat": "JAN 5, 1972",
+      "cap": "\"Recovered and used again.\"",
+      "tone": "confidence"
+    },
+    {
+      "id": "a3",
+      "text": "Nixon promised it would take, in his words, the astronomical costs out of astronautics. Each orbiter, he said, could fly up to a hundred times.",
+      "img": "nixon_portrait",
+      "query": "president speaking podium 1970s",
+      "stock": true,
+      "cap": "\"Up to a hundred times.\"",
+      "tone": "confidence"
+    },
+    {
+      "id": "a4",
+      "text": "The original design was even bolder. A fully reusable spacecraft riding on a giant reusable rocket plane, both landing like aircraft, nothing thrown away.",
+      "img": "flyback_concept",
+      "query": "spacecraft concept art rocket design blueprint",
+      "stock": true,
+      "cap": "The original idea: nothing thrown away.",
+      "tone": "awe"
+    },
+    {
+      "id": "a5",
+      "text": "It never got built. The budget office would not pay for it. So NASA compromised. Two solid rocket boosters, recovered from the ocean. And one giant fuel tank, that would simply be thrown away, every single flight.",
+      "img": "et_diagram",
+      "query": "space shuttle external tank diagram schematic",
+      "cap": "The compromise that stuck.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6",
+      "text": "It was cheaper to build. It would turn out to be far more expensive, and far more dangerous, to fly.",
+      "img": "et_diagram",
+      "cap": "Cheaper to build. Costlier to fly.",
+      "extraHold": 16,
+      "tone": "fear"
+    },
+    {
+      "id": "a7",
+      "text": "NASA's own administrator, James Fletcher, told Congress the whole program would cost about five billion dollars to develop, and about ten million dollars per flight to operate.",
+      "img": "fletcher_congress",
+      "query": "congressional hearing room 1970s testimony",
+      "stock": true,
+      "stat": "$5.15B PROMISED",
+      "cap": "The 1972 promise.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a8",
+      "text": "Internal planning documents were even more ambitious. Some projected over seven hundred flights across twelve years. Something like once a week.",
+      "img": "planning_docs",
+      "query": "engineering blueprints planning documents desk",
+      "stock": true,
+      "stat": "~57 FLIGHTS/YEAR PLANNED",
+      "cap": "Once a week, they said.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a9",
+      "text": "The machine itself was extraordinary. A winged orbiter, the size of an airliner. Two solid rocket boosters generating over three million pounds of thrust. Three main engines burning liquid hydrogen and oxygen.",
+      "video": "boosters_1.mp4",
+      "videoQuery": "space shuttle solid rocket booster ignition",
+      "cap": "Extraordinary machinery.",
+      "tone": "awe"
+    },
+    {
+      "id": "a10",
+      "text": "And a skin built to survive falling through the atmosphere at seventeen times the speed of sound. Black silica tiles across the belly. Carbon panels, tougher still, on the nose and the wings' leading edges, where the heat was worst.",
+      "img": "tiles_closeup",
+      "query": "space shuttle heat shield tiles closeup",
+      "cap": "Built to survive re-entry.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a11",
+      "text": "On April twelfth, nineteen eighty one, it flew for the first time. Columbia, commanded by moonwalker John Young, with rookie pilot Robert Crippen.",
+      "video": "sts1_launch_1.mp4",
+      "videoQuery": "STS-1 space shuttle Columbia launch 1981",
+      "stat": "APR 12, 1981",
+      "cap": "The first flight.",
+      "motion": "slow",
+      "tone": "awe"
+    },
+    {
+      "id": "a12",
+      "text": "It was, and remains, the only time in American history that a brand new crewed spacecraft flew its very first test with people already strapped inside it. Every capsule before it, Mercury, Gemini, Apollo, had flown unmanned first.",
+      "img": "young_crippen",
+      "query": "astronauts suiting up before launch",
+      "stock": true,
+      "cap": "No unmanned test flight. Ever.",
+      "tone": "fear"
+    },
+    {
+      "id": "a13",
+      "text": "It worked. Over the next decade, four more orbiters joined the fleet: Challenger, Discovery, Atlantis, and Endeavour, built after Challenger was lost, to replace her.",
+      "img": "five_orbiters",
+      "query": "space shuttle orbiter fleet lineup",
+      "stock": true,
+      "cap": "Five orbiters, in the end.",
+      "tone": "confidence"
+    },
+
+    { "id": "c2", "text": "Chapter two. The golden years.", "chapter": "2 — THE\nGOLDEN YEARS" },
+    {
+      "id": "b1",
+      "text": "For a while, it delivered on the dream. In nineteen eighty five alone, the shuttle fleet flew nine missions. It was, and remains, the busiest year the program ever had.",
+      "video": "orbit_1.mp4",
+      "videoQuery": "space shuttle orbit earth view",
+      "stat": "1985: 9 FLIGHTS",
+      "cap": "The busiest year, ever.",
+      "tone": "confidence"
+    },
+    {
+      "id": "b2",
+      "text": "In nineteen ninety, Discovery carried something extraordinary into orbit. The Hubble Space Telescope.",
+      "video": "hubblefix_1.mp4",
+      "videoQuery": "Hubble Space Telescope deployed shuttle cargo bay",
+      "stat": "APR 1990",
+      "cap": "Hubble, deployed.",
+      "tone": "awe"
+    },
+    {
+      "id": "b3",
+      "text": "When Hubble's mirror turned out to be flawed, only the shuttle could fix it. Astronauts flew up five separate times across nineteen years to repair and upgrade it by hand, in orbit.",
+      "video": "spacewalk_1.mp4",
+      "videoQuery": "astronaut spacewalk EVA repair orbit",
+      "stat": "5 SERVICING MISSIONS",
+      "cap": "Fixed, by hand, in space.",
+      "tone": "confidence"
+    },
+    {
+      "id": "b4",
+      "text": "It rescued stranded satellites, too. In one 1984 mission, crews retrieved two communications satellites whose rockets had failed, earning the nickname 'The Ace Repo Company.'",
+      "img": "satellite_retrieve",
+      "query": "astronaut satellite retrieval space",
+      "stock": true,
+      "cap": "\"The Ace Repo Company.\"",
+      "tone": "hope"
+    },
+    {
+      "id": "b5",
+      "text": "And starting in 1998, it built something no single nation could have built alone. Piece by piece, across nearly forty flights, the shuttle assembled the International Space Station.",
+      "video": "iss_assembly_1.mp4",
+      "videoQuery": "International Space Station assembly shuttle",
+      "stat": "~37 ISS FLIGHTS",
+      "cap": "It built the space station.",
+      "motion": "fast",
+      "tone": "confidence"
+    },
+    {
+      "id": "b6",
+      "text": "This was the machine at its best. What almost nobody outside NASA fully understood yet was how thin the margin for error really was.",
+      "img": "mission_control",
+      "query": "NASA mission control room monitors",
+      "stock": true,
+      "cap": "The margin was thinner than anyone knew.",
+      "extraHold": 20,
+      "tone": "fear"
+    },
+
+    { "id": "c3", "text": "Chapter three. Seventy three seconds.", "chapter": "3 — SEVENTY\nTHREE SECONDS" },
+    {
+      "id": "d1",
+      "text": "The night before that January launch, engineers at Morton Thiokol, the company that built the solid rocket boosters, were deeply worried.",
+      "img": "thiokol_engineers",
+      "query": "engineers factory meeting 1980s serious",
+      "stock": true,
+      "cap": "The engineers were worried.",
+      "tone": "fear"
+    },
+    {
+      "id": "d2",
+      "text": "Two of them, Roger Boisjoly and Robert Ebeling, argued the rubber O-ring seals in the boosters had never been tested in cold this severe, and that launching could be catastrophic.",
+      "img": "coldpad_1",
+      "query": "rocket launch pad ice cold morning",
+      "cap": "Roger Boisjoly. Robert Ebeling.",
+      "tone": "fear"
+    },
+    {
+      "id": "d3",
+      "text": "On a conference call that night, NASA officials pushed back hard, worried about yet another delay. Under that pressure, Thiokol's own management overruled their engineers, and gave the go-ahead.",
+      "img": "phoneconference",
+      "query": "office conference call phone meeting 1980s",
+      "stock": true,
+      "cap": "Overruled.",
+      "tone": "fear"
+    },
+    {
+      "id": "d4",
+      "text": "The next morning, January twenty eighth, nineteen eighty six, temperatures at the pad were around thirty six degrees Fahrenheit. Colder than any previous shuttle launch.",
+      "video": "coldmorning_2.mp4",
+      "videoQuery": "space shuttle launch pad frost sunrise",
+      "stat": "~36°F AT LAUNCH",
+      "cap": "The coldest launch ever attempted.",
+      "tone": "fear"
+    },
+    {
+      "id": "d5",
+      "text": "At eleven thirty eight AM, Challenger lifted off, carrying seven astronauts, including Christa McAuliffe, a New Hampshire schoolteacher, selected to be the first ordinary citizen in space.",
+      "video": "challengerliftoff_real_1.mp4",
+      "videoQuery": "Challenger STS-51-L liftoff",
+      "note": "NASA public domain, via Wikimedia Commons",
+      "stat": "11:38 AM EST",
+      "cap": "Liftoff.",
+      "tone": "hope"
+    },
+    {
+      "id": "d6",
+      "text": "Seventy three seconds later, a stiffened, cold O-ring in the right booster failed to seal properly. Hot gas burned through the joint like a blowtorch.",
+      "kinetic": { "count": 73, "countLabel": "SECONDS AFTER LIFTOFF" },
+      "extraHold": 20,
+      "tone": "shock"
+    },
+    {
+      "id": "d7",
+      "text": "That flame reached the external fuel tank, and it failed structurally. What followed was not a bomb going off. It was a spacecraft torn apart by the sheer aerodynamic forces of its own breakup, at nearly twice the speed of sound.",
+      "video": "challengerbreakup_real_1.mp4",
+      "videoQuery": "Challenger launch and breakup",
+      "note": "NASA public domain, via Wikimedia Commons",
+      "cap": "Torn apart, not detonated.",
+      "tone": "fear"
+    },
+    {
+      "id": "d8",
+      "text": "All seven aboard were killed. It was broadcast live into classrooms across the country. Christa McAuliffe's own students watched it happen.",
+      "img": "classroom_watch",
+      "query": "children classroom watching television 1980s",
+      "stock": true,
+      "cap": "Her own students were watching.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "d9",
+      "text": "That evening, President Reagan postponed his State of the Union address, and instead spoke to the nation directly. He closed by saying the crew had, quote, slipped the surly bonds of earth to touch the face of God.",
+      "video": "reaganspeech_1.mp4",
+      "videoQuery": "Ronald Reagan Oval Office address Challenger 1986",
+      "note": "Ronald Reagan Presidential Library, CC BY 3.0",
+      "cap": "\"Touch the face of God.\"",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+
+    { "id": "c4", "text": "Chapter four. The verdict.", "chapter": "4 — THE\nVERDICT" },
+    {
+      "id": "e1",
+      "text": "A presidential commission was formed to find out what happened, chaired by former Secretary of State William Rogers. Its members included Neil Armstrong, astronaut Sally Ride, and physicist Richard Feynman.",
+      "img": "rogers_commission",
+      "query": "government commission hearing room panel 1980s",
+      "stock": true,
+      "cap": "The Rogers Commission.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e2",
+      "text": "Feynman gave the investigation its single most famous moment. On live television, he took a piece of the O-ring material, clamped it, dropped it into a glass of ice water, then released the clamp.",
+      "img": "feynman_demo",
+      "query": "scientist demonstration ice water experiment",
+      "stock": true,
+      "cap": "Richard Feynman's demonstration.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e3",
+      "text": "It did not spring back. In front of the cameras, he had just shown the entire country, in seconds, exactly why the seal had failed in the cold.",
+      "img": "feynman_demo",
+      "cap": "It didn't spring back.",
+      "extraHold": 16,
+      "tone": "shock"
+    },
+    {
+      "id": "ex_rogers",
+      "img": "ex_rogers_report",
+      "query": "government report document pages",
+      "stock": true,
+      "exhibit": true,
+      "source": "Report of the Presidential Commission on the Space Shuttle Challenger Accident · June 6, 1986",
+      "highlight": [0.05, 0.1, 0.7, 0.2],
+      "cap": "The official finding.",
+      "text": "The Commission's final report, published in June nineteen eighty six, found the technical cause was that O-ring failure. But it also found something more troubling. NASA had known about the flaw for years, and had gradually treated a known danger as an acceptable risk.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e5",
+      "text": "A decade later, a sociologist named Diane Vaughan gave that pattern a name: the normalization of deviance. Each time a warning sign didn't cause a disaster, it quietly became the new normal.",
+      "img": "warning_signs",
+      "query": "caution warning sign faded old",
+      "stock": true,
+      "cap": "\"Normalization of deviance.\"",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e6",
+      "text": "It would be a phrase NASA would hear again, seventeen years later, for almost exactly the same reason.",
+      "img": "warning_signs",
+      "cap": "It would happen again.",
+      "extraHold": 20,
+      "tone": "fear"
+    },
+
+    { "id": "c5", "text": "Chapter five. Eighty one seconds.", "chapter": "5 — EIGHTY\nONE SECONDS" },
+    {
+      "id": "f1",
+      "text": "The shuttle flew again, after nearly three years of redesign. For seventeen more years, it flew without losing another crew.",
+      "video": "shuttlewide_2.mp4",
+      "videoQuery": "space shuttle flight orbit earth",
+      "cap": "Seventeen years without a loss.",
+      "tone": "confidence"
+    },
+    {
+      "id": "f2",
+      "text": "On January sixteenth, two thousand three, Columbia launched on a sixteen-day science mission, crewed by seven astronauts, including Ilan Ramon, Israel's first astronaut.",
+      "video": "sts107_launch_1.mp4",
+      "videoQuery": "Columbia space shuttle launch 2003",
+      "stat": "JAN 16, 2003",
+      "cap": "STS-107.",
+      "tone": "hope"
+    },
+    {
+      "id": "f3",
+      "text": "Eighty one seconds after liftoff, a briefcase-sized piece of foam broke off the fuel tank, and struck the leading edge of the left wing.",
+      "video": "foamstrike_1.mp4",
+      "videoQuery": "space shuttle external tank launch foam debris",
+      "stat": "81.7 SECONDS",
+      "cap": "The foam strike.",
+      "extraHold": 16,
+      "tone": "fear"
+    },
+    {
+      "id": "f4",
+      "text": "It punched a hole in the wing's protective carbon panel. Engineers on the ground saw it happen, on video, and grew alarmed.",
+      "img": "wing_damage_diagram",
+      "query": "aircraft wing damage diagram technical",
+      "cap": "Engineers saw it. And worried.",
+      "tone": "fear"
+    },
+    {
+      "id": "f5",
+      "text": "They asked NASA management for satellite images of the wing, to check the damage before re-entry. The request was declined. It hadn't come through the official channel.",
+      "img": "mission_control2",
+      "query": "NASA mission control managers meeting",
+      "stock": true,
+      "cap": "The request was declined.",
+      "tone": "fear"
+    },
+    {
+      "id": "f6",
+      "text": "Foam had come off that same spot on earlier flights before, without ever causing a disaster. It had quietly become just another normal part of flying the shuttle.",
+      "img": "wing_damage_diagram",
+      "cap": "It had happened before. And nothing happened.",
+      "extraHold": 20,
+      "tone": "fear"
+    },
+    {
+      "id": "f7",
+      "text": "On February first, two thousand three, Columbia began its descent home. Sixteen minutes from landing, superheated gas, hotter than five thousand degrees, tore through the breach in the wing.",
+      "img": "reentry_still",
+      "query": "space shuttle atmospheric entry heat glow",
+      "stat": "16 MIN FROM LANDING",
+      "cap": "Sixteen minutes from home.",
+      "tone": "shock"
+    },
+    {
+      "id": "f8",
+      "text": "It melted the wing's structure from the inside. The orbiter broke apart over Texas and Louisiana. All seven aboard were killed.",
+      "img": "debris_field",
+      "query": "aircraft debris field forest search",
+      "stock": true,
+      "cap": "All seven aboard were lost.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "f9",
+      "text": "What followed was the largest ground search in American history. Over twenty five thousand people searched two point three million acres of Texas and Louisiana, to recover every piece they could.",
+      "img": "search_teams",
+      "query": "search and rescue team forest field",
+      "stock": true,
+      "stat": "25,000+ SEARCHERS",
+      "cap": "The largest search in US history.",
+      "tone": "melancholy"
+    },
+
+    { "id": "c6", "text": "Chapter six. The same mistake.", "chapter": "6 — THE SAME\nMISTAKE" },
+    {
+      "id": "g1",
+      "text": "The Columbia Accident Investigation Board, led by retired Admiral Harold Gehman, published its findings that August.",
+      "img": "gehman_hearing",
+      "query": "military official testimony hearing room",
+      "stock": true,
+      "cap": "The Columbia Accident Investigation Board.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "ex_caib",
+      "img": "ex_caib_report",
+      "query": "government investigation report document",
+      "stock": true,
+      "exhibit": true,
+      "source": "Columbia Accident Investigation Board Report, Volume 1 · August 26, 2003",
+      "highlight": [0.06, 0.15, 0.75, 0.18],
+      "cap": "The findings.",
+      "text": "The Board found the technical cause, that foam strike. But it went further, explicitly, and directly compared what happened to Challenger seventeen years earlier. The same schedule pressure. The same eroded safety culture. The same warning signs, quietly normalized, until they weren't.",
+      "tone": "fear"
+    },
+    {
+      "id": "g3",
+      "text": "The Board was careful to frame this as an organizational failure, not one person's fault. Still, the decision to deny that imagery request would be studied for years.",
+      "img": "mission_control2",
+      "cap": "A systemic failure, the report said.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "g4",
+      "text": "Two disasters. Seventeen years apart. Different components, an O-ring and a piece of foam. The same root cause both times: a warning that was heard, and explained away.",
+      "kinetic": { "words": ["Different", "part.", "Same", "root", "cause."] },
+      "extraHold": 24,
+      "tone": "fear"
+    },
+
+    { "id": "c7", "text": "Chapter seven. The decision.", "chapter": "7 — THE\nDECISION" },
+    {
+      "id": "h7",
+      "text": "In January two thousand four, President George W. Bush announced the shuttle would retire, once it had finished building the space station and honoring commitments to America's international partners.",
+      "video": "bushspeech_1.mp4",
+      "videoQuery": "George W Bush speech NASA 2004",
+      "stat": "JAN 14, 2004",
+      "cap": "The retirement announced.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h8",
+      "text": "The target date slipped from twenty ten to twenty eleven. On July twenty first, twenty eleven, Atlantis touched down at Kennedy Space Center, ending the program's one hundred and thirty fifth, and final, mission.",
+      "video": "landing_1.mp4",
+      "videoQuery": "space shuttle landing runway touchdown",
+      "stat": "135TH AND FINAL MISSION",
+      "cap": "The last landing.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "h9",
+      "text": "Over thirty years, the fleet had flown one hundred and thirty five missions. Fourteen astronauts had been killed, across two disasters. It had never once come close to the weekly flights it was sold on.",
+      "kinetic": { "count": 135, "countLabel": "MISSIONS, 1981-2011", "strike": 14, "strikeLabel": "ASTRONAUTS LOST" },
+      "extraHold": 24,
+      "tone": "melancholy"
+    },
+    {
+      "id": "h10",
+      "text": "Total program cost, depending on how you count it, ran somewhere between one hundred and ninety six, and over two hundred and fifty billion dollars. That works out to something like three quarters of a billion to a billion and a half dollars, for every single flight.",
+      "img": "money_space",
+      "query": "space program budget finance chart",
+      "stock": true,
+      "stat": "~$750M–$1.5B PER FLIGHT",
+      "cap": "Nowhere near the promise.",
+      "tone": "curiosity"
+    },
+
+    { "id": "c8", "text": "Chapter eight. The silence, and the gap.", "chapter": "8 — THE SILENCE,\nAND THE GAP" },
+    {
+      "id": "i1",
+      "text": "For the next nine years, the United States could not launch its own astronauts into space at all. It paid Russia for seats aboard Soyuz rockets instead.",
+      "img": "soyuz_launch",
+      "query": "Soyuz rocket launch Kazakhstan",
+      "stock": true,
+      "stat": "2011–2020: NO US LAUNCH CAPABILITY",
+      "cap": "Nine years, with no ride of its own.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "i2",
+      "text": "The price per seat climbed as high as eighty six million dollars. By 2020, a single seat cost over ninety million.",
+      "img": "money_space",
+      "stat": "UP TO $90M PER SEAT",
+      "cap": "Ninety million dollars, per seat.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "i3",
+      "text": "That ended on May thirtieth, twenty twenty, when a SpaceX Crew Dragon capsule launched two NASA astronauts, Bob Behnken and Doug Hurley, from American soil for the first time since the shuttle's retirement.",
+      "video": "crewdragon_1.mp4",
+      "videoQuery": "SpaceX Crew Dragon launch astronauts",
+      "stat": "MAY 30, 2020",
+      "cap": "American soil, again.",
+      "tone": "hope"
+    },
+    {
+      "id": "i4",
+      "text": "Doug Hurley had flown the shuttle's very last mission, in twenty eleven. Nine years later, he was aboard the flight that finally ended the gap he'd watched begin.",
+      "img": "hurley_portrait",
+      "query": "astronaut portrait spacesuit smiling",
+      "stock": true,
+      "cap": "The bridge between two eras.",
+      "tone": "hope"
+    },
+    {
+      "id": "i5",
+      "text": "The surviving orbiters went to museums. Discovery to the Smithsonian. Endeavour towed through the streets of Los Angeles to the California Science Center. Atlantis stayed at Kennedy Space Center itself.",
+      "video": "ferryflight_1.mp4",
+      "videoQuery": "space shuttle ferry flight 747 piggyback",
+      "cap": "Museum pieces, now.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "i6",
+      "text": "It had deployed and repaired the Hubble Space Telescope. It had built the International Space Station, piece by piece, in orbit. And it had cost fourteen lives, and never once flown as often, or as cheaply, as anyone had promised.",
+      "img": "hubble_wide",
+      "query": "Hubble telescope space wide shot stars",
+      "cap": "Real achievement. Real cost.",
+      "tone": "melancholy"
+    },
+
+    { "id": "coda1", "text": "What stays with me about this one isn't the technical failure. Every complex machine has a flaw somewhere.", "cap": "What stays with me.", "tone": "melancholy" },
+    { "id": "coda2", "text": "It's that both times, someone in the room already knew. And said so. And was overruled anyway.", "cap": "Someone already knew.", "tone": "fear" },
+    { "id": "coda3", "text": "Seventeen years apart, the same institution heard the same kind of warning, and made the same kind of choice.", "cap": "The same choice, twice.", "tone": "fear" },
+    { "id": "coda4", "text": "The machine was real. The dream of routine, cheap spaceflight never quite was. Maybe that gap is the real story here.", "cap": "The dream never quite arrived.", "extraHold": 20, "tone": "melancholy" },
+    {
+      "id": "bridge",
+      "text": "If a warning that got overruled twice unsettles you, wait until you see how close Mars One came to selling two hundred thousand people a one-way ticket off this planet.",
+      "cap": "Watch next: the Mars One scam.",
+      "tone": "curiosity"
+    },
+    { "id": "end", "text": "If that unsettles you, wait until you see the next one. Subscribe to mindwired.", "chapter": "SUBSCRIBE" }
+  ]
+}

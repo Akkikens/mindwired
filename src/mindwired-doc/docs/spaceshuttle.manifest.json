@@ -1,0 +1,260 @@
+{
+ "durations": {
+  "h1": 8.594,
+  "h2": 8.438,
+  "h3": 6.531,
+  "h4": 8.202,
+  "h5": 14.211,
+  "h6": 10.371,
+  "sting": 1.489,
+  "title": 2.194,
+  "c1": 1.802,
+  "a1": 11.233,
+  "a2": 12.277,
+  "a3": 9.091,
+  "a4": 9.874,
+  "a5": 13.166,
+  "a6": 6.113,
+  "a7": 9.404,
+  "a8": 7.549,
+  "a9": 13.009,
+  "a10": 12.669,
+  "a11": 8.908,
+  "a12": 15.804,
+  "a13": 10.841,
+  "c2": 2.429,
+  "b1": 10.762,
+  "b2": 6.191,
+  "b3": 10.449,
+  "b4": 11.233,
+  "b5": 10.031,
+  "b6": 8.359,
+  "c3": 2.351,
+  "d1": 7.471,
+  "d2": 9.874,
+  "d3": 11.076,
+  "d4": 10.031,
+  "d5": 10.684,
+  "d6": 8.829,
+  "d7": 13.244,
+  "d8": 7.236,
+  "d9": 12.513,
+  "c4": 2.116,
+  "e1": 10.998,
+  "e2": 10.841,
+  "e3": 8.751,
+  "ex_rogers": 15.308,
+  "e5": 12.356,
+  "e6": 5.878,
+  "c5": 2.429,
+  "f1": 7.314,
+  "f2": 10.031,
+  "f3": 7.236,
+  "f4": 7.393,
+  "f5": 8.673,
+  "f6": 8.986,
+  "f7": 11.389,
+  "f8": 7.628,
+  "f9": 11.807,
+  "c6": 2.586,
+  "g1": 6.531,
+  "ex_caib": 18.286,
+  "g3": 9.091,
+  "g4": 10.606,
+  "c7": 1.802,
+  "h7": 10.606,
+  "h8": 12.591,
+  "h9": 11.651,
+  "h10": 13.871,
+  "c8": 2.926,
+  "i1": 8.594,
+  "i2": 7.471,
+  "i3": 11.651,
+  "i4": 8.673,
+  "i5": 10.684,
+  "i6": 14.289,
+  "coda1": 5.642,
+  "coda2": 6.269,
+  "coda3": 6.113,
+  "coda4": 7.549,
+  "bridge": 8.751,
+  "end": 1.724
+ },
+ "images": {
+  "classroom_watch": [
+   "classroom_watch_1.jpeg",
+   "classroom_watch_2.jpeg",
+   "classroom_watch_3.jpeg"
+  ],
+  "coldpad_1": [
+   "coldpad_1_1.jpg",
+   "coldpad_1_2.jpg",
+   "coldpad_1_3.jpg"
+  ],
+  "debris_field": [
+   "debris_field_1.jpeg",
+   "debris_field_2.jpeg",
+   "debris_field_3.jpeg"
+  ],
+  "engineers_meeting": [
+   "engineers_meeting_1.jpeg",
+   "engineers_meeting_2.jpeg",
+   "engineers_meeting_3.jpeg"
+  ],
+  "engineers_meeting_fresh": [
+   "engineers_meeting_fresh_1.jpeg",
+   "engineers_meeting_fresh_2.jpeg",
+   "engineers_meeting_fresh_3.jpeg"
+  ],
+  "et_diagram": [
+   "et_diagram_1.jpg",
+   "et_diagram_2.jpg"
+  ],
+  "ex_caib_report": [
+   "ex_caib_report_1.jpeg",
+   "ex_caib_report_2.jpeg",
+   "ex_caib_report_3.jpg"
+  ],
+  "ex_rogers_report": [
+   "ex_rogers_report_1.jpeg",
+   "ex_rogers_report_2.jpg",
+   "ex_rogers_report_3.jpg"
+  ],
+  "feynman_demo": [
+   "feynman_demo_1.jpeg",
+   "feynman_demo_2.jpeg",
+   "feynman_demo_3.jpeg"
+  ],
+  "five_orbiters": [
+   "five_orbiters_1.jpeg",
+   "five_orbiters_2.jpeg",
+   "five_orbiters_3.jpeg"
+  ],
+  "fletcher_congress": [
+   "fletcher_congress_1.jpeg",
+   "fletcher_congress_2.jpg",
+   "fletcher_congress_3.jpg"
+  ],
+  "flyback_concept": [
+   "flyback_concept_1.jpeg",
+   "flyback_concept_2.jpeg",
+   "flyback_concept_3.jpeg"
+  ],
+  "gehman_hearing": [
+   "gehman_hearing_1.jpeg",
+   "gehman_hearing_2.jpg",
+   "gehman_hearing_3.jpg"
+  ],
+  "hubble_wide": [
+   "hubble_wide_1.jpg",
+   "hubble_wide_2.jpg",
+   "hubble_wide_3.jpg"
+  ],
+  "hurley_portrait": [
+   "hurley_portrait_1.jpeg",
+   "hurley_portrait_2.jpeg",
+   "hurley_portrait_3.jpeg"
+  ],
+  "mcauliffe_1": [
+   "mcauliffe_1_1.jpg",
+   "mcauliffe_1_2.jpg",
+   "mcauliffe_1_3.jpg"
+  ],
+  "mission_control2": [
+   "mission_control2_1.jpeg",
+   "mission_control2_2.jpeg",
+   "mission_control2_3.jpeg"
+  ],
+  "mission_control": [
+   "mission_control_1.jpeg",
+   "mission_control_2.jpeg",
+   "mission_control_3.jpeg"
+  ],
+  "money_space": [
+   "money_space_1.jpeg",
+   "money_space_2.jpeg",
+   "money_space_3.jpg"
+  ],
+  "nasa_budget": [
+   "nasa_budget_1.jpeg",
+   "nasa_budget_2.jpeg",
+   "nasa_budget_3.jpeg"
+  ],
+  "nixon_portrait": [
+   "nixon_portrait_1.jpeg",
+   "nixon_portrait_2.jpeg",
+   "nixon_portrait_3.jpeg"
+  ],
+  "nixon_still": [
+   "nixon_still_1.jpg",
+   "nixon_still_2.jpeg",
+   "nixon_still_3.jpeg"
+  ],
+  "phoneconference": [
+   "phoneconference_1.jpeg",
+   "phoneconference_2.jpeg",
+   "phoneconference_3.jpeg"
+  ],
+  "planning_docs": [
+   "planning_docs_1.jpeg",
+   "planning_docs_2.jpeg",
+   "planning_docs_3.jpeg"
+  ],
+  "reagan_still": [
+   "reagan_still_1.jpeg",
+   "reagan_still_2.jpeg",
+   "reagan_still_3.jpeg"
+  ],
+  "reentry_still": [
+   "reentry_still_1.jpg",
+   "reentry_still_2.jpg",
+   "reentry_still_3.jpg"
+  ],
+  "rogers_commission": [
+   "rogers_commission_1.jpeg",
+   "rogers_commission_2.jpeg",
+   "rogers_commission_3.jpg"
+  ],
+  "satellite_retrieve": [
+   "satellite_retrieve_1.jpeg",
+   "satellite_retrieve_2.jpg",
+   "satellite_retrieve_3.jpg"
+  ],
+  "search_teams": [
+   "search_teams_1.jpeg",
+   "search_teams_2.jpeg",
+   "search_teams_3.jpeg"
+  ],
+  "soyuz_launch": [
+   "soyuz_launch_1.jpeg",
+   "soyuz_launch_2.jpeg",
+   "soyuz_launch_3.jpeg"
+  ],
+  "thiokol_engineers": [
+   "thiokol_engineers_1.jpeg",
+   "thiokol_engineers_2.jpeg",
+   "thiokol_engineers_3.jpeg"
+  ],
+  "tiles_closeup": [
+   "tiles_closeup_1.jpg"
+  ],
+  "warning_signs": [
+   "warning_signs_1.jpeg",
+   "warning_signs_2.jpeg",
+   "warning_signs_3.jpeg"
+  ],
+  "wing_damage_diagram": [
+   "wing_damage_diagram_1.jpg",
+   "wing_damage_diagram_2.jpg",
+   "wing_damage_diagram_3.jpg"
+  ],
+  "young_crippen": [
+   "young_crippen_1.jpeg",
+   "young_crippen_2.jpeg",
+   "young_crippen_3.jpeg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.96,
+ "mouth": {}
+}
