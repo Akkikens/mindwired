@@ -1,0 +1,392 @@
+{
+  "slug": "ai171",
+  "title": "Air India 171: The Question Nobody Can Answer Yet",
+  "channel": "blackbox",
+  "niche": "aviation",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "It is June twelfth, twenty twenty five. In Ahmedabad, India, two hundred and forty two people board a Boeing seven eighty seven, bound for London.",
+      "img": "ahmedabad_airport",
+      "query": "Indian airport terminal departure",
+      "stock": true,
+      "stat": "JUN 12, 2025",
+      "cap": "An ordinary flight to London.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h2",
+      "text": "Thirty two seconds after liftoff, it will crash into a hostel full of medical students. Two hundred and sixty people will die.",
+      "video": "boeing787_1.mp4",
+      "videoQuery": "Boeing 787 Dreamliner takeoff climb",
+      "stat": "32 SECONDS",
+      "cap": "Thirty two seconds.",
+      "extraHold": 20,
+      "tone": "fear"
+    },
+    {
+      "id": "h3",
+      "text": "One man, in seat eleven A, will walk out of the wreckage alive.",
+      "img": "survivor_seat",
+      "query": "airplane emergency exit row seat",
+      "stock": true,
+      "cap": "One survivor.",
+      "tone": "shock"
+    },
+    {
+      "id": "h4",
+      "text": "And investigators will find something almost impossible to explain. In the last seconds of the flight, the switches that feed fuel to both engines moved from run, to cutoff, one second apart.",
+      "kinetic": { "words": ["Both", "engines.", "One", "second", "apart."] },
+      "extraHold": 24,
+      "tone": "fear"
+    },
+    {
+      "id": "h5",
+      "text": "More than a year later, nobody outside the investigation knows for certain why. Not us. Not the airline. Not, it seems, even the dead captain's own family, who are still fighting to understand what really happened.",
+      "img": "family_grief",
+      "query": "person sitting alone window contemplative grief",
+      "stock": true,
+      "cap": "Even his family doesn't know.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "h6",
+      "text": "This is not a video that tells you who is to blame. Nobody in an official capacity has said, yet. This is everything that is actually confirmed, and everything that honestly isn't.",
+      "video": "clouds_1.mp4",
+      "videoQuery": "clouds sky aircraft window view",
+      "cap": "What's confirmed. What isn't.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    { "id": "sting", "sting": true, "text": "You're watching Black Box Breakdown.", "tone": "confidence" },
+    { "id": "title", "text": "Air India 171.", "chapter": "AIR INDIA 171:\nTHE QUESTION NOBODY\nCAN ANSWER YET" },
+
+    { "id": "c1", "text": "Chapter one. The flight.", "chapter": "1 — THE\nFLIGHT" },
+    {
+      "id": "a1",
+      "text": "Air India Flight one seventy one was a scheduled service from Ahmedabad to London Gatwick. The aircraft, registration V T A N B, was a Boeing seven eighty seven dash eight, about twelve years old, powered by two General Electric engines.",
+      "video": "boeing787_2.mp4",
+      "videoQuery": "Boeing 787 Dreamliner exterior parked gate",
+      "cap": "A twelve-year-old 787.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2",
+      "text": "In the cockpit: Captain Sumeet Sabharwal, fifty six years old, with over fifteen thousand flight hours, monitoring the systems. First Officer Clive Kunder, thirty two, with around three thousand four hundred hours, flying the aircraft.",
+      "img": "cockpit_generic",
+      "query": "airplane cockpit instrument panel",
+      "stock": true,
+      "cap": "Two experienced pilots.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a3",
+      "text": "Two hundred and thirty passengers were aboard, alongside twelve crew. One hundred and sixty nine were Indian nationals. Fifty three were British. Seven were Portuguese. One was Canadian.",
+      "img": "boarding_fresh",
+      "query": "passengers boarding airplane jet bridge",
+      "stock": true,
+      "stat": "242 ON BOARD",
+      "cap": "242 souls aboard.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a4",
+      "text": "At one thirty eight PM local time, the flight departed Ahmedabad's Sardar Vallabhbhai Patel International Airport.",
+      "video": "departure_1.mp4",
+      "videoQuery": "airplane takeoff runway departure",
+      "stat": "1:38 PM IST",
+      "cap": "Departure.",
+      "tone": "curiosity"
+    },
+
+    { "id": "c2", "text": "Chapter two. Thirty two seconds.", "chapter": "2 — THIRTY\nTWO SECONDS" },
+    {
+      "id": "b1",
+      "text": "The aircraft climbed normally at first. Airport security cameras captured what happened next.",
+      "video": "climb_1.mp4",
+      "videoQuery": "aircraft climb after takeoff",
+      "cap": "Then something went wrong.",
+      "tone": "fear"
+    },
+    {
+      "id": "b2",
+      "text": "According to India's Aircraft Accident Investigation Bureau, about three seconds after liftoff, both engine fuel control switches moved from the run position to cutoff. One second apart from each other.",
+      "kinetic": { "count": 1, "countLabel": "SECOND APART, PER THE AAIB REPORT" },
+      "extraHold": 20,
+      "tone": "shock"
+    },
+    {
+      "id": "b3",
+      "text": "Cutting fuel to a running jet engine in flight does exactly what you'd expect. Both engines began losing thrust, almost immediately, seconds after leaving the runway.",
+      "img": "engine_closeup",
+      "query": "jet engine closeup turbine",
+      "stock": true,
+      "cap": "Both engines, losing power.",
+      "tone": "fear"
+    },
+    {
+      "id": "b4",
+      "text": "A Ram Air Turbine, a small emergency propeller that deploys automatically when an aircraft loses primary power, dropped from the fuselage. It is exactly the kind of thing that only happens when almost everything else has already failed.",
+      "img": "rat_turbine",
+      "query": "aircraft emergency deployment mechanism",
+      "cap": "The emergency turbine deployed.",
+      "tone": "fear"
+    },
+    {
+      "id": "b5",
+      "text": "The cockpit voice recorder captured an exchange between the two pilots. One asks the other why he cut off the fuel. The other says he did not do it.",
+      "img": "cvr_generic",
+      "query": "cockpit voice recorder black box device",
+      "stock": true,
+      "cap": "\"Why did you cut it off?\" \"I didn't.\"",
+      "extraHold": 20,
+      "tone": "shock"
+    },
+    {
+      "id": "b6",
+      "text": "About ten seconds after the cutoff, the switches were moved back to run. The engines tried to relight. It was already too late for them to recover in time.",
+      "img": "engine_closeup",
+      "cap": "Moved back. Too late.",
+      "tone": "fear"
+    },
+    {
+      "id": "b7",
+      "text": "Twenty nine seconds after the fuel was cut, the aircraft came down onto the hostel buildings of B J Medical College, in the Meghaninagar area of Ahmedabad.",
+      "img": "medical_college",
+      "query": "college campus building exterior India",
+      "stock": true,
+      "stat": "29 SECONDS LATER",
+      "cap": "It came down on a medical college.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "b8",
+      "text": "Two hundred and forty one of the two hundred and forty two people aboard were killed. Nineteen more died on the ground, among them students in the hostel. Two hundred and sixty people, in total.",
+      "kinetic": { "count": 260, "countLabel": "TOTAL LIVES LOST" },
+      "extraHold": 24,
+      "tone": "melancholy"
+    },
+    {
+      "id": "b9",
+      "text": "It remains, to this day, the deadliest crash in Air India's own history, and the worst aviation disaster anywhere in the world in a decade.",
+      "img": "memorial_candles",
+      "query": "memorial candles vigil night",
+      "stock": true,
+      "cap": "The worst in a decade.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "b10",
+      "text": "It is also believed to be the first fatal crash, and the first total loss, of a Boeing seven eighty seven, anywhere, since the aircraft entered service in twenty eleven.",
+      "video": "boeing787_3.mp4",
+      "videoQuery": "Boeing 787 Dreamliner flying wide shot",
+      "stat": "FIRST 787 HULL LOSS",
+      "cap": "Fourteen years without one.",
+      "tone": "curiosity"
+    },
+
+    { "id": "c3", "text": "Chapter three. Seat eleven A.", "chapter": "3 — SEAT\n11A" },
+    {
+      "id": "s1",
+      "text": "One passenger survived. A British citizen named Vishwash Kumar Ramesh, seated at eleven A, next to an emergency exit.",
+      "img": "survivor_seat",
+      "cap": "Vishwash Kumar Ramesh.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "s2",
+      "text": "In his own words, to the BBC, he said he regained consciousness, unfastened his seatbelt, and forced himself out through a gap in the wreckage. \"It is a miracle,\" he said. \"Isn't it?\"",
+      "img": "hospital_recovery",
+      "query": "hospital patient recovery bed",
+      "stock": true,
+      "cap": "\"It is a miracle, isn't it?\"",
+      "motion": "slow",
+      "tone": "hope"
+    },
+    {
+      "id": "s3",
+      "text": "His younger brother, Ajay, was seated a few rows away on the same flight. He did not survive.",
+      "img": "seat_fresh",
+      "query": "empty airplane seat window",
+      "stock": true,
+      "cap": "His brother did not survive.",
+      "extraHold": 16,
+      "tone": "melancholy"
+    },
+    {
+      "id": "s4",
+      "text": "In later interviews, Ramesh has spoken about ongoing trauma. \"I am the luckiest man alive,\" he has said. \"But also, I lost everything.\"",
+      "img": "hospital_recovery",
+      "cap": "\"I lost everything.\"",
+      "tone": "melancholy"
+    },
+
+    { "id": "c4", "text": "Chapter four. The report.", "chapter": "4 — THE\nREPORT" },
+    {
+      "id": "d1",
+      "text": "India's Aircraft Accident Investigation Bureau published its preliminary report on July twelfth, twenty twenty five, exactly one month after the crash.",
+      "img": "aaib_building",
+      "query": "government office building India",
+      "stock": true,
+      "stat": "JUL 12, 2025",
+      "cap": "The preliminary report.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "ex_aaib",
+      "img": "ex_aaib_report",
+      "query": "AAIB preliminary report VT-ANB fuel cutoff switch",
+      "exhibit": true,
+      "source": "AAIB Preliminary Report · VT-ANB · page 14 · July 12, 2025",
+      "highlight": [0.06, 0.32, 0.88, 0.13],
+      "cap": "What it actually says.",
+      "text": "By international rules, a preliminary report is required within thirty days. It is meant to state facts, from the flight recorders. Not conclusions. Not blame. Not, yet, a cause.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d3",
+      "text": "That is exactly what this one did. It confirmed the timeline of the fuel switches, and the recorded cockpit exchange, in careful, neutral language. It did not say why.",
+      "img": "aaib_building",
+      "cap": "Facts. Not a verdict.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d4",
+      "text": "As of this recording, the full final report, the one meant to state a probable cause, is not expected until October twenty twenty six, over a year after the crash.",
+      "img": "calendar_generic",
+      "query": "calendar pages time passing",
+      "stock": true,
+      "stat": "FINAL REPORT: OCT 2026",
+      "cap": "Still not out.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d5",
+      "text": "India's Supreme Court has also declined, so far, to order the release of the full cockpit voice recorder transcript. Almost everything you have heard repeated online is a fragment, filtered through secondhand reporting.",
+      "img": "supreme_court",
+      "query": "courthouse justice building columns",
+      "stock": true,
+      "cap": "The full transcript is still sealed.",
+      "extraHold": 20,
+      "tone": "curiosity"
+    },
+
+    { "id": "c5", "text": "Chapter five. The question.", "chapter": "5 — THE\nQUESTION" },
+    {
+      "id": "e1",
+      "text": "Here is the honest state of the debate. Some reporting has read that cockpit exchange as consistent with deliberate action by one of the pilots. That is not an official finding. It is an interpretation.",
+      "img": "debate_generic",
+      "query": "two paths diverging choice concept",
+      "stock": true,
+      "cap": "One reading. Not a finding.",
+      "tone": "fear"
+    },
+    {
+      "id": "e2",
+      "text": "A different theory, put forward by the Federation of Indian Pilots, argues an electrical fault could have caused the switches to trip on their own, as a symptom, not a cause. That, too, is not an official finding.",
+      "img": "electrical_panel",
+      "query": "electrical wiring panel technical",
+      "stock": true,
+      "cap": "Another reading. Also not a finding.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e3",
+      "text": "Both readings exist because the actual answer isn't public yet. Presenting either one as settled fact would simply be wrong.",
+      "img": "debate_generic",
+      "cap": "Neither is settled. Yet.",
+      "extraHold": 20,
+      "tone": "curiosity"
+    },
+    {
+      "id": "e4",
+      "text": "Captain Sabharwal's father, ninety one years old, has publicly disputed how investigators have described his son, and has taken his concerns to the Supreme Court.",
+      "img": "elderly_man",
+      "query": "elderly man portrait serious contemplative",
+      "stock": true,
+      "cap": "His own father is still fighting this.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e5",
+      "text": "Two pilots' associations in India have publicly called any narrative of deliberate pilot action \"reckless and unfounded,\" and said the crew deserve, in their words, respect, not unfounded character judgement.",
+      "img": "union_fresh",
+      "query": "pilots uniform professional group",
+      "stock": true,
+      "cap": "\"Respect, not character judgement.\"",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e6",
+      "text": "There is one more thread worth knowing. In twenty eighteen, seven years before this crash, America's FAA issued an advisory about some Boeing fuel switches being found with a locking feature disengaged. It was not mandatory. Air India never inspected for it.",
+      "img": "faa_document",
+      "query": "aviation safety bulletin document",
+      "stock": true,
+      "stat": "2018 FAA ADVISORY",
+      "cap": "An advisory. Never inspected.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e7",
+      "text": "Whether that specific issue applied to this specific aircraft is one of the things the final report is still meant to determine.",
+      "img": "faa_document",
+      "cap": "Still being determined.",
+      "extraHold": 16,
+      "tone": "curiosity"
+    },
+
+    { "id": "c6", "text": "Chapter six. The aftermath.", "chapter": "6 — THE\nAFTERMATH" },
+    {
+      "id": "f1",
+      "text": "Air India paid interim compensation of about thirty thousand dollars to each affected family. Tata Group, the airline's owner, separately pledged about one hundred twenty thousand dollars per family, and set up a long-term trust for survivors and the affected community.",
+      "img": "money_generic",
+      "query": "compensation payment finance",
+      "stock": true,
+      "stat": "~$30K–$120K PER FAMILY",
+      "cap": "Compensation, but no verdict.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f2",
+      "text": "No regulator, anywhere in the world, grounded the Boeing seven eighty seven fleet. India's aviation regulator ordered extra inspections on Air India's own aircraft, and later reviewed, but ultimately cleared, the fuel switch design itself.",
+      "video": "boeing787_4.mp4",
+      "videoQuery": "Boeing 787 airport tarmac",
+      "cap": "No grounding. Anywhere.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f3",
+      "text": "In September twenty twenty five, families of four passengers filed a lawsuit in Delaware against Boeing and Honeywell, the maker of the fuel switch, alleging negligence in its design. It remains ongoing.",
+      "img": "courthouse_generic",
+      "query": "courthouse legal building",
+      "stock": true,
+      "cap": "A lawsuit, still ongoing.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f4",
+      "text": "One year later, on the anniversary of the crash, families and officials gathered at the medical college. Two hundred and sixty trees were planted. One for every life lost.",
+      "img": "trees_memorial",
+      "query": "tree planting memorial ceremony",
+      "stock": true,
+      "cap": "260 trees. One for each life.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+
+    { "id": "coda1", "text": "What stays with me about this one is how unfinished it still is.", "cap": "Still unfinished.", "tone": "melancholy" },
+    { "id": "coda2", "text": "We are used to air disaster stories with an ending. A verdict. A named cause. This one doesn't have that yet, and honestly, might not for a while longer.", "cap": "No ending yet.", "tone": "curiosity" },
+    { "id": "coda3", "text": "In the meantime, a father is still fighting for his son's name. A survivor is still living with what he saw. And two hundred and fifty nine other families are simply waiting, like the rest of us, for an actual answer.", "cap": "Waiting for an answer.", "extraHold": 20, "tone": "melancholy" },
+    {
+      "id": "end",
+      "text": "If a confirmed cause changes this story, we'll cover it. Until then, wait until you see how an earlier generation of investigators cracked an equally impossible case, in our video on the Boeing seven three seven MAX. Subscribe to Black Box Breakdown.",
+      "chapter": "SUBSCRIBE"
+    }
+  ]
+}

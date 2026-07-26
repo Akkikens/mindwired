@@ -1,0 +1,192 @@
+{
+ "durations": {
+  "h1": 9.247,
+  "h2": 7.001,
+  "h3": 3.631,
+  "h4": 11.154,
+  "h5": 14.028,
+  "h6": 10.762,
+  "sting": 1.881,
+  "title": 1.959,
+  "c1": 2.116,
+  "a1": 15.308,
+  "a2": 13.949,
+  "a3": 11.076,
+  "a4": 6.426,
+  "c2": 2.429,
+  "b1": 5.251,
+  "b2": 10.998,
+  "b3": 9.404,
+  "b4": 12.826,
+  "b5": 8.124,
+  "b6": 9.091,
+  "b7": 8.438,
+  "b8": 10.371,
+  "b9": 8.594,
+  "b10": 9.561,
+  "c3": 2.116,
+  "s1": 7.157,
+  "s2": 11.233,
+  "s3": 6.766,
+  "s4": 9.404,
+  "c4": 2.038,
+  "d1": 8.594,
+  "ex_aaib": 12.826,
+  "d3": 10.449,
+  "d4": 10.031,
+  "d5": 11.886,
+  "c5": 2.038,
+  "e1": 11.154,
+  "e2": 12.826,
+  "e3": 6.269,
+  "e4": 9.091,
+  "e5": 11.651,
+  "e6": 15.804,
+  "e7": 7.236,
+  "c6": 2.429,
+  "f1": 14.838,
+  "f2": 13.479,
+  "f3": 11.311,
+  "f4": 9.953,
+  "coda1": 3.474,
+  "coda2": 9.561,
+  "coda3": 12.669,
+  "end": 14.367
+ },
+ "images": {
+  "aaib_building": [
+   "aaib_building_1.jpeg",
+   "aaib_building_2.jpeg",
+   "aaib_building_3.jpeg"
+  ],
+  "ahmedabad_airport": [
+   "ahmedabad_airport_1.jpeg",
+   "ahmedabad_airport_2.jpeg",
+   "ahmedabad_airport_3.jpg"
+  ],
+  "boarding_fresh": [
+   "boarding_fresh_3.jpeg"
+  ],
+  "calendar_generic": [
+   "calendar_generic_1.jpeg",
+   "calendar_generic_2.jpeg",
+   "calendar_generic_3.jpeg"
+  ],
+  "cockpit_generic": [
+   "cockpit_generic_1.jpeg",
+   "cockpit_generic_2.jpeg",
+   "cockpit_generic_3.jpeg"
+  ],
+  "courthouse_generic": [
+   "courthouse_generic_1.jpeg",
+   "courthouse_generic_2.jpeg",
+   "courthouse_generic_3.jpeg"
+  ],
+  "cvr_generic": [
+   "cvr_generic_1.png",
+   "cvr_generic_2.jpeg",
+   "cvr_generic_3.jpeg"
+  ],
+  "debate_generic": [
+   "debate_generic_1.jpeg",
+   "debate_generic_2.jpeg",
+   "debate_generic_3.jpg"
+  ],
+  "elderly_man": [
+   "elderly_man_1.jpeg",
+   "elderly_man_2.jpeg",
+   "elderly_man_3.png"
+  ],
+  "electrical_panel": [
+   "electrical_panel_1.jpeg",
+   "electrical_panel_2.jpeg",
+   "electrical_panel_3.jpeg"
+  ],
+  "empty_seat": [
+   "empty_seat_1.jpeg",
+   "empty_seat_2.jpeg",
+   "empty_seat_3.jpeg"
+  ],
+  "engine_closeup": [
+   "engine_closeup_1.jpeg",
+   "engine_closeup_2.jpeg",
+   "engine_closeup_3.jpeg"
+  ],
+  "ex_aaib_report": [
+   "ex_aaib_report_1.png"
+  ],
+  "faa_document": [
+   "faa_document_1.jpeg",
+   "faa_document_2.jpeg",
+   "faa_document_3.jpg"
+  ],
+  "family_grief": [
+   "family_grief_1.jpeg",
+   "family_grief_2.jpeg",
+   "family_grief_3.jpeg"
+  ],
+  "hospital_recovery": [
+   "hospital_recovery_1.jpeg",
+   "hospital_recovery_2.jpeg",
+   "hospital_recovery_3.jpeg"
+  ],
+  "medical_college": [
+   "medical_college_1.jpeg",
+   "medical_college_2.jpeg",
+   "medical_college_3.jpeg"
+  ],
+  "memorial_candles": [
+   "memorial_candles_1.jpeg",
+   "memorial_candles_2.jpeg",
+   "memorial_candles_3.jpeg"
+  ],
+  "money_generic": [
+   "money_generic_1.jpeg",
+   "money_generic_2.jpeg",
+   "money_generic_3.jpg"
+  ],
+  "passengers_boarding": [
+   "passengers_boarding_1.jpeg",
+   "passengers_boarding_2.jpeg",
+   "passengers_boarding_3.jpeg"
+  ],
+  "pilots_union": [
+   "pilots_union_1.jpeg",
+   "pilots_union_2.jpeg",
+   "pilots_union_3.jpeg"
+  ],
+  "rat_turbine": [
+   "rat_turbine_1.jpg",
+   "rat_turbine_2.jpeg",
+   "rat_turbine_3.jpeg"
+  ],
+  "seat_fresh": [
+   "seat_fresh_1.jpeg",
+   "seat_fresh_2.jpeg",
+   "seat_fresh_3.jpeg"
+  ],
+  "supreme_court": [
+   "supreme_court_1.jpeg",
+   "supreme_court_2.jpeg",
+   "supreme_court_3.jpeg"
+  ],
+  "survivor_seat": [
+   "survivor_seat_1.jpeg",
+   "survivor_seat_2.jpeg",
+   "survivor_seat_3.jpeg"
+  ],
+  "trees_memorial": [
+   "trees_memorial_1.jpeg",
+   "trees_memorial_2.jpeg",
+   "trees_memorial_3.jpg"
+  ],
+  "union_fresh": [
+   "union_fresh_1.jpeg",
+   "union_fresh_2.jpeg",
+   "union_fresh_3.jpeg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.96,
+ "mouth": {}
+}

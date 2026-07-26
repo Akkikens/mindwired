@@ -1,0 +1,7 @@
+- **boeing787_1.mp4** — ana boeing 787 dreamliner on airport runway 37848961 — Pexels License (free commercial use) — Tuan Vy  Spotter — https://www.pexels.com/video/ana-boeing-787-dreamliner-on-airport-runway-37848961/
+- **boeing787_2.mp4** — turkish airlines boeing 787 dreamliner on runway 37723640 — Pexels License (free commercial use) — Tuan Vy  Spotter — https://www.pexels.com/video/turkish-airlines-boeing-787-dreamliner-on-runway-37723640/
+- **boeing787_3.mp4** — vietnam airlines boeing 787 takeoff at airport 37152651 — Pexels License (free commercial use) — Tuan Vy  Spotter — https://www.pexels.com/video/vietnam-airlines-boeing-787-takeoff-at-airport-37152651/
+- **boeing787_4.mp4** — vietnam airlines boeing 787 preparing for takeoff 37723656 — Pexels License (free commercial use) — Tuan Vy  Spotter — https://www.pexels.com/video/vietnam-airlines-boeing-787-preparing-for-takeoff-37723656/
+- **clouds_1.mp4** — American Look (Part I) — Public domain — prelinger, fav-100_artificialgarcia — https://archive.org/details/American1958
+- **departure_1.mp4** — footage of the airplane taking off the runway 4396425 — Pexels License (free commercial use) — Asko — https://www.pexels.com/video/footage-of-the-airplane-taking-off-the-runway-4396425/
+- **climb_1.mp4** — Funchal Airport - Norwegian D83615 (FNC - CPH) takeoff and climb out in good weather conditions.webm — CC BY 3.0 — Michael Stilborg — https://commons.wikimedia.org/wiki/File:Funchal_Airport_-_Norwegian_D83615_(FNC_-_CPH)_takeoff_and_climb_out_in_good_weather_conditions.webm

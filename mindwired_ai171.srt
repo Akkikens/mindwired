@@ -1,0 +1,380 @@
+1
+00:00:00,333 --> 00:00:02,922
+It is June twelfth, twenty twenty five.
+
+2
+00:00:02,922 --> 00:00:09,580
+In Ahmedabad, India, two hundred and forty two people board a Boeing seven eighty seven, bound for London.
+
+3
+00:00:10,700 --> 00:00:15,473
+Thirty two seconds after liftoff, it will crash into a hostel full of medical students.
+
+4
+00:00:15,473 --> 00:00:17,701
+Two hundred and sixty people will die.
+
+5
+00:00:18,833 --> 00:00:22,464
+One man, in seat eleven A, will walk out of the wreckage alive.
+
+6
+00:00:23,599 --> 00:00:26,737
+And investigators will find something almost impossible to explain.
+
+7
+00:00:26,737 --> 00:00:34,753
+In the last seconds of the flight, the switches that feed fuel to both engines moved from run, to cutoff, one second apart.
+
+8
+00:00:35,899 --> 00:00:41,744
+More than a year later, nobody outside the investigation knows for certain why. Not us.
+
+9
+00:00:41,744 --> 00:00:42,913
+Not the airline.
+
+10
+00:00:42,913 --> 00:00:49,927
+Not, it seems, even the dead captain's own family, who are still fighting to understand what really happened.
+
+11
+00:00:51,066 --> 00:00:55,102
+This is not a video that tells you who is to blame.
+
+12
+00:00:55,102 --> 00:00:57,792
+Nobody in an official capacity has said, yet.
+
+13
+00:00:57,792 --> 00:01:01,828
+This is everything that is actually confirmed, and everything that honestly isn't.
+
+14
+00:01:02,966 --> 00:01:04,847
+You're watching Black Box Breakdown.
+
+15
+00:01:05,966 --> 00:01:07,925
+Air India 171.
+
+16
+00:01:09,066 --> 00:01:11,182
+Chapter one. The flight.
+
+17
+00:01:12,299 --> 00:01:17,900
+Air India Flight one seventy one was a scheduled service from Ahmedabad to London Gatwick.
+
+18
+00:01:17,900 --> 00:01:27,607
+The aircraft, registration V T A N B, was a Boeing seven eighty seven dash eight, about twelve years old, powered by two General Electric engines.
+
+19
+00:01:28,733 --> 00:01:36,305
+In the cockpit: Captain Sumeet Sabharwal, fifty six years old, with over fifteen thousand flight hours, monitoring the systems.
+
+20
+00:01:36,305 --> 00:01:42,682
+First Officer Clive Kunder, thirty two, with around three thousand four hundred hours, flying the aircraft.
+
+21
+00:01:43,799 --> 00:01:47,755
+Two hundred and thirty passengers were aboard, alongside twelve crew.
+
+22
+00:01:47,755 --> 00:01:52,502
+One hundred and sixty nine were Indian nationals. Fifty three were British.
+
+23
+00:01:52,502 --> 00:01:54,875
+Seven were Portuguese. One was Canadian.
+
+24
+00:01:55,999 --> 00:02:02,425
+At one thirty eight PM local time, the flight departed Ahmedabad's Sardar Vallabhbhai Patel International Airport.
+
+25
+00:02:03,566 --> 00:02:05,995
+Chapter two. Thirty two seconds.
+
+26
+00:02:07,133 --> 00:02:09,556
+The aircraft climbed normally at first.
+
+27
+00:02:09,556 --> 00:02:12,384
+Airport security cameras captured what happened next.
+
+28
+00:02:13,533 --> 00:02:22,331
+According to India's Aircraft Accident Investigation Bureau, about three seconds after liftoff, both engine fuel control switches moved from the run position to cutoff.
+
+29
+00:02:22,331 --> 00:02:24,531
+One second apart from each other.
+
+30
+00:02:25,666 --> 00:02:30,730
+Cutting fuel to a running jet engine in flight does exactly what you'd expect.
+
+31
+00:02:30,730 --> 00:02:35,070
+Both engines began losing thrust, almost immediately, seconds after leaving the runway.
+
+32
+00:02:36,199 --> 00:02:43,288
+A Ram Air Turbine, a small emergency propeller that deploys automatically when an aircraft loses primary power, dropped from the fuselage.
+
+33
+00:02:43,288 --> 00:02:49,026
+It is exactly the kind of thing that only happens when almost everything else has already failed.
+
+34
+00:02:50,166 --> 00:02:53,248
+The cockpit voice recorder captured an exchange between the two pilots.
+
+35
+00:02:53,248 --> 00:02:58,290
+One asks the other why he cut off the fuel. The other says he did not do it.
+
+36
+00:02:59,433 --> 00:03:03,508
+About ten seconds after the cutoff, the switches were moved back to run.
+
+37
+00:03:03,508 --> 00:03:08,524
+The engines tried to relight. It was already too late for them to recover in time.
+
+38
+00:03:09,666 --> 00:03:18,104
+Twenty nine seconds after the fuel was cut, the aircraft came down onto the hostel buildings of B J Medical College, in the Meghaninagar area of Ahmedabad.
+
+39
+00:03:19,233 --> 00:03:23,974
+Two hundred and forty one of the two hundred and forty two people aboard were killed.
+
+40
+00:03:23,974 --> 00:03:27,530
+Nineteen more died on the ground, among them students in the hostel.
+
+41
+00:03:27,530 --> 00:03:29,604
+Two hundred and sixty people, in total.
+
+42
+00:03:30,733 --> 00:03:39,327
+It remains, to this day, the deadliest crash in Air India's own history, and the worst aviation disaster anywhere in the world in a decade.
+
+43
+00:03:40,466 --> 00:03:50,027
+It is also believed to be the first fatal crash, and the first total loss, of a Boeing seven eighty seven, anywhere, since the aircraft entered service in twenty eleven.
+
+44
+00:03:51,166 --> 00:03:53,282
+Chapter three. Seat eleven A.
+
+45
+00:03:54,399 --> 00:03:55,530
+One passenger survived.
+
+46
+00:03:55,530 --> 00:04:01,556
+A British citizen named Vishwash Kumar Ramesh, seated at eleven A, next to an emergency exit.
+
+47
+00:04:02,699 --> 00:04:11,209
+In his own words, to the BBC, he said he regained consciousness, unfastened his seatbelt, and forced himself out through a gap in the wreckage.
+
+48
+00:04:11,209 --> 00:04:13,932
+"It is a miracle," he said. "Isn't it?"
+
+49
+00:04:15,066 --> 00:04:20,329
+His younger brother, Ajay, was seated a few rows away on the same flight.
+
+50
+00:04:20,329 --> 00:04:21,832
+He did not survive.
+
+51
+00:04:22,966 --> 00:04:26,646
+In later interviews, Ramesh has spoken about ongoing trauma.
+
+52
+00:04:26,646 --> 00:04:32,370
+"I am the luckiest man alive," he has said. "But also, I lost everything."
+
+53
+00:04:33,499 --> 00:04:35,537
+Chapter four. The report.
+
+54
+00:04:36,666 --> 00:04:45,260
+India's Aircraft Accident Investigation Bureau published its preliminary report on July twelfth, twenty twenty five, exactly one month after the crash.
+
+55
+00:04:46,399 --> 00:04:51,265
+By international rules, a preliminary report is required within thirty days.
+
+56
+00:04:51,265 --> 00:04:57,456
+It is meant to state facts, from the flight recorders. Not conclusions. Not blame.
+
+57
+00:04:57,456 --> 00:04:59,225
+Not, yet, a cause.
+
+58
+00:05:00,366 --> 00:05:02,888
+That is exactly what this one did.
+
+59
+00:05:02,888 --> 00:05:09,014
+It confirmed the timeline of the fuel switches, and the recorded cockpit exchange, in careful, neutral language.
+
+60
+00:05:09,014 --> 00:05:10,815
+It did not say why.
+
+61
+00:05:11,933 --> 00:05:21,964
+As of this recording, the full final report, the one meant to state a probable cause, is not expected until October twenty twenty six, over a year after the crash.
+
+62
+00:05:23,099 --> 00:05:29,943
+India's Supreme Court has also declined, so far, to order the release of the full cockpit voice recorder transcript.
+
+63
+00:05:29,943 --> 00:05:34,985
+Almost everything you have heard repeated online is a fragment, filtered through secondhand reporting.
+
+64
+00:05:36,133 --> 00:05:38,171
+Chapter five. The question.
+
+65
+00:05:39,300 --> 00:05:41,849
+Here is the honest state of the debate.
+
+66
+00:05:41,849 --> 00:05:47,267
+Some reporting has read that cockpit exchange as consistent with deliberate action by one of the pilots.
+
+67
+00:05:47,267 --> 00:05:50,454
+That is not an official finding. It is an interpretation.
+
+68
+00:05:51,600 --> 00:06:02,063
+A different theory, put forward by the Federation of Indian Pilots, argues an electrical fault could have caused the switches to trip on their own, as a symptom, not a cause.
+
+69
+00:06:02,063 --> 00:06:04,426
+That, too, is not an official finding.
+
+70
+00:06:05,566 --> 00:06:08,701
+Both readings exist because the actual answer isn't public yet.
+
+71
+00:06:08,701 --> 00:06:11,835
+Presenting either one as settled fact would simply be wrong.
+
+72
+00:06:12,966 --> 00:06:22,057
+Captain Sabharwal's father, ninety one years old, has publicly disputed how investigators have described his son, and has taken his concerns to the Supreme Court.
+
+73
+00:06:23,199 --> 00:06:34,850
+Two pilots' associations in India have publicly called any narrative of deliberate pilot action "reckless and unfounded," and said the crew deserve, in their words, respect, not unfounded character judgement.
+
+74
+00:06:36,000 --> 00:06:38,634
+There is one more thread worth knowing.
+
+75
+00:06:38,634 --> 00:06:48,041
+In twenty eighteen, seven years before this crash, America's FAA issued an advisory about some Boeing fuel switches being found with a locking feature disengaged.
+
+76
+00:06:48,041 --> 00:06:51,803
+It was not mandatory. Air India never inspected for it.
+
+77
+00:06:52,933 --> 00:07:00,169
+Whether that specific issue applied to this specific aircraft is one of the things the final report is still meant to determine.
+
+78
+00:07:01,300 --> 00:07:03,728
+Chapter six. The aftermath.
+
+79
+00:07:04,866 --> 00:07:09,933
+Air India paid interim compensation of about thirty thousand dollars to each affected family.
+
+80
+00:07:09,933 --> 00:07:19,704
+Tata Group, the airline's owner, separately pledged about one hundred twenty thousand dollars per family, and set up a long-term trust for survivors and the affected community.
+
+81
+00:07:20,833 --> 00:07:25,839
+No regulator, anywhere in the world, grounded the Boeing seven eighty seven fleet.
+
+82
+00:07:25,839 --> 00:07:34,312
+India's aviation regulator ordered extra inspections on Air India's own aircraft, and later reviewed, but ultimately cleared, the fuel switch design itself.
+
+83
+00:07:35,433 --> 00:07:45,683
+In September twenty twenty five, families of four passengers filed a lawsuit in Delaware against Boeing and Honeywell, the maker of the fuel switch, alleging negligence in its design.
+
+84
+00:07:45,683 --> 00:07:46,744
+It remains ongoing.
+
+85
+00:07:47,866 --> 00:07:53,701
+One year later, on the anniversary of the crash, families and officials gathered at the medical college.
+
+86
+00:07:53,701 --> 00:07:57,819
+Two hundred and sixty trees were planted. One for every life lost.
+
+87
+00:07:58,966 --> 00:08:02,440
+What stays with me about this one is how unfinished it still is.
+
+88
+00:08:03,566 --> 00:08:08,512
+We are used to air disaster stories with an ending. A verdict. A named cause.
+
+89
+00:08:08,512 --> 00:08:13,127
+This one doesn't have that yet, and honestly, might not for a while longer.
+
+90
+00:08:14,266 --> 00:08:17,974
+In the meantime, a father is still fighting for his son's name.
+
+91
+00:08:17,974 --> 00:08:20,755
+A survivor is still living with what he saw.
+
+92
+00:08:20,755 --> 00:08:26,935
+And two hundred and fifty nine other families are simply waiting, like the rest of us, for an actual answer.
+
+93
+00:08:28,066 --> 00:08:31,487
+If a confirmed cause changes this story, we'll cover it.
+
+94
+00:08:31,487 --> 00:08:40,723
+Until then, wait until you see how an earlier generation of investigators cracked an equally impossible case, in our video on the Boeing seven three seven MAX.
+
+95
+00:08:40,723 --> 00:08:42,433
+Subscribe to Black Box Breakdown.
+

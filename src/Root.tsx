@@ -46,6 +46,8 @@ import mh370thDoc from "./mindwired-doc/docs/mh370theories.json";
 import mh370thManifest from "./mindwired-doc/docs/mh370theories.manifest.json";
 import moonSellerDoc from "./mindwired-doc/docs/moonseller.json";
 import moonSellerManifest from "./mindwired-doc/docs/moonseller.manifest.json";
+import hostilePlanetsDoc from "./mindwired-doc/docs/hostileplanets.json";
+import hostilePlanetsManifest from "./mindwired-doc/docs/hostileplanets.manifest.json";
 import marsOneDoc from "./mindwired-doc/docs/marsone.json";
 import marsOneManifest from "./mindwired-doc/docs/marsone.manifest.json";
 import oceanGateDoc from "./mindwired-doc/docs/oceangate.json";
@@ -1182,6 +1184,16 @@ export const RemotionRoot: React.FC = () => {
         id="MoonSellerDoc"
         component={makeDocComp(moonSellerDoc, moonSellerManifest, MW_OUTRO)}
         durationInFrames={docTotalFrames(moonSellerDoc, moonSellerManifest, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── mindwired — 8 Real Planets So Hostile They Shouldn't Exist (MW subscribe outro baked) ── */}
+      <Composition
+        id="HostilePlanetsDoc"
+        component={makeDocComp(hostilePlanetsDoc, hostilePlanetsManifest, MW_OUTRO)}
+        durationInFrames={docTotalFrames(hostilePlanetsDoc, hostilePlanetsManifest, MW_OUTRO)}
         fps={30}
         width={1920}
         height={1080}
