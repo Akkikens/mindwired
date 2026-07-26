@@ -1,6 +1,6 @@
 ---
 name: ctr-engine
-description: Generate and score high-CTR titles and thumbnail concepts for a Mindwired video. Use when packaging any video for upload, when a video underperformed, or when the user asks for titles, thumbnails, or "why no views". CTR is the #1 lever gating a young channel's reach — this skill treats packaging as the product, not an afterthought.
+description: Generate and score high-CTR titles and thumbnail concepts for a Mindwired video. Use when packaging any video for upload, or when the user asks for titles or thumbnails. For "why no views" or a video that underperformed, run launch-diagnosis first — it hands confirmed packaging failures here. CTR is the number-one lever gating a young channel's reach — this skill treats packaging as the product, not an afterthought.
 ---
 
 # CTR Engine — packaging that actually earns the click
@@ -64,5 +64,5 @@ The thumbnail is seen at phone size first. Non-negotiable checks:
 ## What this skill will NOT do
 Promise virality, invent fake numbers, or approve packaging that overpromises what the
 video delivers (that tanks retention and long-term trust). If the topic itself has no
-proven demand, say so and point to the Icahn method (lite-cge-video-idea-finder) first —
+proven demand, say so and point to the icahn-validate skill first —
 no packaging saves a topic nobody searches for.
