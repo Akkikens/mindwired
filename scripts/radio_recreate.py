@@ -38,7 +38,11 @@ DOCS = REPO / "src" / "mindwired-doc" / "docs"
 SPEAKER_SHIFT = {"CAPT": 0.94, "FO": 1.00, "ATC": 1.07, "CVR": 0.97,
                  "CAPTAIN": 0.92, "FIRST OFFICER": 1.10, "BUFFALO APPROACH": 1.0,
                  "PILOT FLYING": 1.06, "PILOT MONITORING": 0.98,
-                 "LUMPUR RADAR": 1.05, "MH370": 0.93}
+                 "LUMPUR RADAR": 1.05, "MH370": 0.93,
+                 # flight93: two CVR hijacker voices differentiated even when
+                 # sharing one base Cartesia voice id (2nd speaker's identity
+                 # is only "likely" per the Commission, not fully confirmed)
+                 "JARRAH": 0.95, "HIJACKER2": 1.06}
 
 
 def radio_chain(src: Path, dst: Path, factor: float) -> None:

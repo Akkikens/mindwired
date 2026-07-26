@@ -1,0 +1,275 @@
+{
+ "durations": {
+  "h1": 11.964,
+  "h2": 7.471,
+  "h3": 10.109,
+  "h4": 12.199,
+  "h5": 10.684,
+  "sting": 1.646,
+  "title": 3.317,
+  "c1": 2.586,
+  "a1": 10.031,
+  "a2": 10.527,
+  "a3": 8.516,
+  "a4": 15.073,
+  "a5": 14.524,
+  "a6": 13.087,
+  "a7": 11.154,
+  "c2": 2.351,
+  "b1": 13.166,
+  "b2": 13.401,
+  "b3": 12.356,
+  "b4": 12.434,
+  "c3": 2.586,
+  "d1": 11.233,
+  "d2": 10.998,
+  "d3": 11.311,
+  "c4": 2.769,
+  "e1": 18.677,
+  "e2": 12.434,
+  "r_beamer": 3.159,
+  "e3": 12.931,
+  "e4": 9.874,
+  "r_burnett": 9.864,
+  "e5": 12.121,
+  "e6": 6.844,
+  "r_bingham": 10.523,
+  "e7": 14.367,
+  "r_bradshaw": 4.121,
+  "e8": 5.486,
+  "r_lyles": 15.641,
+  "e9": 9.953,
+  "e10": 13.322,
+  "e11": 16.117,
+  "c5": 1.802,
+  "f1": 13.401,
+  "f2": 8.986,
+  "ex_assault": 11.389,
+  "c6": 2.273,
+  "g1": 10.266,
+  "g2": 16.196,
+  "r_p1": 2.834,
+  "r_jarrah1": 2.211,
+  "r_hijacker2": 3.62,
+  "r_p2": 0.831,
+  "g3": 13.009,
+  "g4": 8.986,
+  "r_hijacker3": 2.681,
+  "r_jarrah2": 1.808,
+  "g5": 11.651,
+  "g6": 12.434,
+  "c7": 1.802,
+  "i1": 10.606,
+  "i2": 12.434,
+  "i3": 9.796,
+  "i4": 12.669,
+  "c8": 2.847,
+  "j1": 13.479,
+  "j2": 14.681,
+  "j3": 16.771,
+  "j4": 11.154,
+  "j5": 8.829,
+  "j6": 18.991,
+  "j7": 18.599,
+  "j8": 6.609,
+  "j9": 21.551,
+  "c9": 2.691,
+  "k1": 11.546,
+  "k2": 8.281,
+  "k3": 15.647,
+  "ex_norad": 10.449,
+  "k4": 16.927,
+  "k5": 16.431,
+  "k6": 12.199,
+  "coda1": 6.113,
+  "coda2": 10.684,
+  "coda3": 13.087,
+  "end": 20.193
+ },
+ "images": {
+  "airfone_generic": [
+   "airfone_generic_1.jpeg",
+   "airfone_generic_2.jpeg",
+   "airfone_generic_3.jpeg"
+  ],
+  "airport_immigration": [
+   "airport_immigration_1.jpeg",
+   "airport_immigration_2.jpeg",
+   "airport_immigration_3.jpeg"
+  ],
+  "beamer_generic": [
+   "beamer_generic_1.jpeg",
+   "beamer_generic_2.jpeg",
+   "beamer_generic_3.jpeg"
+  ],
+  "bingham_generic": [
+   "bingham_generic_1.jpeg",
+   "bingham_generic_2.jpeg",
+   "bingham_generic_3.jpeg"
+  ],
+  "boarding_generic": [
+   "boarding_generic_1.jpeg",
+   "boarding_generic_2.jpeg",
+   "boarding_generic_3.jpeg"
+  ],
+  "boeing757": [
+   "boeing757_1.jpeg",
+   "boeing757_2.jpeg",
+   "boeing757_3.jpeg"
+  ],
+  "burnett_generic": [
+   "burnett_generic_1.jpeg",
+   "burnett_generic_2.jpeg",
+   "burnett_generic_3.jpeg"
+  ],
+  "cabin_generic": [
+   "cabin_generic_1.jpeg",
+   "cabin_generic_2.jpeg",
+   "cabin_generic_3.jpeg"
+  ],
+  "capitol_generic": [
+   "capitol_generic_1.jpeg",
+   "capitol_generic_2.jpeg",
+   "capitol_generic_3.jpeg"
+  ],
+  "cleveland_atc": [
+   "cleveland_atc_1.jpeg",
+   "cleveland_atc_2.jpeg",
+   "cleveland_atc_3.jpeg"
+  ],
+  "cockpit_generic": [
+   "cockpit_generic_1.jpeg",
+   "cockpit_generic_2.jpeg",
+   "cockpit_generic_3.jpeg"
+  ],
+  "coroner_generic": [
+   "coroner_generic_1.jpeg",
+   "coroner_generic_2.jpeg",
+   "coroner_generic_3.jpeg"
+  ],
+  "courtroom_generic": [
+   "courtroom_generic_1.jpeg",
+   "courtroom_generic_2.jpeg",
+   "courtroom_generic_3.jpeg"
+  ],
+  "dispatch_generic": [
+   "dispatch_generic_1.jpeg",
+   "dispatch_generic_2.jpeg",
+   "dispatch_generic_3.jpeg"
+  ],
+  "email_generic": [
+   "email_generic_1.jpeg",
+   "email_generic_2.jpeg",
+   "email_generic_3.jpeg"
+  ],
+  "ex_assault": [
+   "ex_assault_1.png"
+  ],
+  "ex_norad": [
+   "ex_norad_1.png"
+  ],
+  "f16_generic": [
+   "f16_generic_1.jpeg",
+   "f16_generic_2.jpeg",
+   "f16_generic_3.jpeg"
+  ],
+  "field_impact": [
+   "field_impact_1.jpeg",
+   "field_impact_2.jpeg",
+   "field_impact_3.jpeg"
+  ],
+  "flightattendant_generic": [
+   "flightattendant_generic_1.jpeg",
+   "flightattendant_generic_2.jpeg",
+   "flightattendant_generic_3.jpeg"
+  ],
+  "flightrecorder": [
+   "flightrecorder_1.jpeg",
+   "flightrecorder_2.jpeg",
+   "flightrecorder_3.jpeg"
+  ],
+  "flightschool_generic": [
+   "flightschool_generic_1.jpeg",
+   "flightschool_generic_2.jpeg",
+   "flightschool_generic_3.jpeg"
+  ],
+  "investigation_generic": [
+   "investigation_generic_1.jpeg",
+   "investigation_generic_2.jpeg",
+   "investigation_generic_3.jpeg"
+  ],
+  "memorial_generic": [
+   "memorial_generic_1.jpeg",
+   "memorial_generic_2.jpeg",
+   "memorial_generic_3.jpeg"
+  ],
+  "newark_airport": [
+   "newark_airport_1.jpeg",
+   "newark_airport_2.jpeg",
+   "newark_airport_3.jpeg"
+  ],
+  "norad_generic": [
+   "norad_generic_1.jpeg",
+   "norad_generic_2.jpeg",
+   "norad_generic_3.jpeg"
+  ],
+  "ocean_generic": [
+   "ocean_generic_1.jpeg",
+   "ocean_generic_2.jpeg",
+   "ocean_generic_3.jpeg"
+  ],
+  "phone_generic": [
+   "phone_generic_1.jpeg",
+   "phone_generic_2.jpeg",
+   "phone_generic_3.jpeg"
+  ],
+  "radar_generic": [
+   "radar_generic_1.jpeg",
+   "radar_generic_2.jpeg",
+   "radar_generic_3.jpg"
+  ],
+  "runway_generic": [
+   "runway_generic_1.jpg",
+   "runway_generic_2.jpeg",
+   "runway_generic_3.jpeg"
+  ],
+  "shanksville_field": [
+   "shanksville_field_1.jpeg",
+   "shanksville_field_2.jpeg",
+   "shanksville_field_3.jpeg"
+  ],
+  "sky_generic": [
+   "sky_generic_1.jpeg",
+   "sky_generic_2.jpeg",
+   "sky_generic_3.jpeg"
+  ],
+  "skyline_generic": [
+   "skyline_generic_1.jpg",
+   "skyline_generic_2.jpeg",
+   "skyline_generic_3.jpeg"
+  ],
+  "tapes_generic": [
+   "tapes_generic_1.jpg",
+   "tapes_generic_2.jpeg",
+   "tapes_generic_3.jpeg"
+  ],
+  "training_camp_generic": [
+   "training_camp_generic_1.jpeg",
+   "training_camp_generic_2.jpeg",
+   "training_camp_generic_3.jpeg"
+  ],
+  "whitehouse_generic": [
+   "whitehouse_generic_1.jpeg",
+   "whitehouse_generic_2.jpeg",
+   "whitehouse_generic_3.jpeg"
+  ],
+  "wtc_smoke_generic": [
+   "wtc_smoke_generic_1.jpeg",
+   "wtc_smoke_generic_2.jpeg",
+   "wtc_smoke_generic_3.jpeg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.95,
+ "mouth": {}
+}

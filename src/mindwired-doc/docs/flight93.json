@@ -1,0 +1,730 @@
+{
+  "slug": "flight93",
+  "title": "United 93: The Passengers Who Fought Back",
+  "channel": "blackbox",
+  "niche": "aviation",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "voices": {
+    "BEAMER": "dbfa416f-d5c3-4006-854b-235ef6bdf4fd",
+    "BURNETT": "49808e4c-998a-40a8-b2ea-8ac8e8ce779e",
+    "BINGHAM": "926e0766-f380-4d77-aeb0-9aa4ebb16b38",
+    "BRADSHAW": "6d14ac2a-4dda-46f8-bd6f-0722db08ec00",
+    "LYLES": "829ccd10-f8b3-43cd-b8a0-4aeaa81f3b30",
+    "JARRAH": "f227bc18-3704-47fe-b759-8c78a450fdfa",
+    "HIJACKER2": "f227bc18-3704-47fe-b759-8c78a450fdfa",
+    "PASSENGER": "42f14755-88c3-4124-aae3-5cc3a9618e8f"
+  },
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "September 11th, 2001. Nine thirty in the morning. Thirty five thousand feet over Ohio, Tom Burnett's phone rings in the cabin. It's his wife. She has something to tell him.",
+      "img": "boeing757",
+      "query": "Boeing 757 airliner in flight sky",
+      "stock": true,
+      "stat": "9:30 AM · SEPT 11, 2001",
+      "cap": "His wife had something to tell him.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h2",
+      "text": "Planes have hit the World Trade Center, she says. He already knows something she doesn't. His own flight has just been hijacked too.",
+      "img": "cockpit_generic",
+      "query": "airliner cockpit interior instruments",
+      "stock": true,
+      "cap": "He already knew something worse.",
+      "tone": "fear"
+    },
+    {
+      "id": "h3",
+      "text": "In the next thirty minutes, forty four people will decide, together, to do something no hijacked passengers had ever done before. Rush the men holding the plane.",
+      "img": "cabin_generic",
+      "query": "airplane cabin interior seats empty",
+      "stock": true,
+      "stat": "44 PEOPLE ABOARD",
+      "cap": "They decided to rush the hijackers.",
+      "tone": "awe"
+    },
+    {
+      "id": "h4",
+      "text": "This is not a story about a bomb that went off, or a mechanical failure, or pilot error. This is a black box that recorded something almost nobody expects to hear. Ordinary people, choosing what happens next.",
+      "img": "flightrecorder",
+      "query": "flight data recorder black box orange",
+      "stock": true,
+      "cap": "Ordinary people, choosing what happens next.",
+      "tone": "confidence"
+    },
+    {
+      "id": "h5",
+      "text": "Here is the true story of United Airlines Flight 93, built entirely from the official investigation, the declassified cockpit transcript, and the words the people on board left behind.",
+      "img": "shanksville_field",
+      "query": "rural Pennsylvania countryside field",
+      "stock": true,
+      "cap": "Built entirely from the official record.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "sting",
+      "sting": true,
+      "text": "You're watching Black Box Breakdown.",
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "text": "United 93. The passengers who fought back.",
+      "chapter": "UNITED 93"
+    },
+    {
+      "id": "c1",
+      "text": "Chapter one. A forty-two minute delay.",
+      "chapter": "1 — A 42-MINUTE\nDELAY"
+    },
+    {
+      "id": "a1",
+      "text": "United Airlines Flight 93 was scheduled to leave Newark, New Jersey for San Francisco at 8 o'clock that morning. A Boeing seven fifty-seven. Thirty-seven passengers, seven crew.",
+      "img": "newark_airport",
+      "query": "Newark airport terminal gate",
+      "stock": true,
+      "stat": "NEWARK → SAN FRANCISCO",
+      "cap": "A routine Tuesday morning flight.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2",
+      "text": "Routine ground congestion held it at the gate. It did not actually take off until eight forty-two, forty-two minutes late. That delay would matter more than anyone on board could know.",
+      "img": "runway_generic",
+      "query": "airport runway taxiway aircraft",
+      "stock": true,
+      "stat": "TAKEOFF: 8:42 AM (42 MIN LATE)",
+      "cap": "A delay that would matter later.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a3",
+      "text": "Among the passengers were four men traveling together, though they did not sit together. Seats 1B, 3C, 3D, and 6B.",
+      "img": "boarding_generic",
+      "query": "airport passengers boarding gate",
+      "stock": true,
+      "cap": "Four men, seated apart.",
+      "tone": "fear"
+    },
+    {
+      "id": "a4",
+      "text": "The man in 1B, nearest the cockpit, was Ziad Jarrah. According to the FBI and the nine eleven Commission, he had trained as a pilot at flight schools in Venice, Florida, after being radicalized in Germany and meeting Osama bin Laden in Afghanistan.",
+      "img": "flightschool_generic",
+      "query": "small aircraft flight training school",
+      "stock": true,
+      "stat": "ZIAD JARRAH · SEAT 1B",
+      "cap": "Trained to fly, in Florida.",
+      "tone": "fear"
+    },
+    {
+      "id": "a5",
+      "text": "The other three, Ahmed al-Haznawi, Ahmed al-Nami, and Saeed al-Ghamdi, were recruited through mosque networks in Saudi Arabia and trained at Al-Qaeda camps in Afghanistan. Their job was to subdue the crew and passengers, not fly the plane.",
+      "img": "training_camp_generic",
+      "query": "desert mountains Afghanistan landscape",
+      "stock": true,
+      "cap": "Recruited, trained, and assigned a role.",
+      "tone": "fear"
+    },
+    {
+      "id": "a6",
+      "text": "This was supposed to be a five-man team, like the other three flights hijacked that morning. A fifth man never made it aboard. An immigration inspector in Orlando turned him away in August, suspicious of his cash and his one-way ticket.",
+      "img": "airport_immigration",
+      "query": "airport security immigration checkpoint",
+      "stock": true,
+      "stat": "1 TURNED AWAY, AUGUST 2001",
+      "cap": "One of the five never made it in.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a7",
+      "text": "The nine eleven Commission's assessment is that Flight 93 was headed for the U.S. Capitol, or the White House. It could not determine which with certainty, because the flight never got close enough to either.",
+      "img": "capitol_generic",
+      "query": "United States Capitol building Washington",
+      "stock": true,
+      "cap": "The Capitol, or the White House.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c2",
+      "text": "Chapter two. Nine twenty-eight in the morning.",
+      "chapter": "2 — 9:28\nIN THE MORNING"
+    },
+    {
+      "id": "b1",
+      "text": "By the time Flight 93 took off, two other hijacked planes had already struck the World Trade Center. United's own dispatcher sent a warning to the cockpit at nine twenty-four. The captain didn't yet understand it was about his own flight.",
+      "img": "wtc_smoke_generic",
+      "query": "New York City skyline morning",
+      "stock": true,
+      "stat": "9:24 AM · WARNING SENT",
+      "cap": "A warning he didn't yet understand.",
+      "tone": "fear"
+    },
+    {
+      "id": "b2",
+      "text": "At nine twenty-eight, over eastern Ohio, at thirty-five thousand feet, it happened. Cleveland air traffic control heard a Mayday call, then a struggle. Then: get out of here, get out of here, get out of here.",
+      "img": "cleveland_atc",
+      "query": "air traffic control tower radar room",
+      "stock": true,
+      "stat": "9:28 AM · HIJACKING BEGINS",
+      "cap": "\"Get out of here.\"",
+      "tone": "shock"
+    },
+    {
+      "id": "b3",
+      "text": "Four minutes later, a hijacker keyed the cabin intercom, thinking he was speaking to the passengers. Instead, it went out over the radio, to every controller listening. We have a bomb on board. So, sit.",
+      "img": "cabin_generic",
+      "cap": "\"We have a bomb on board.\"",
+      "tone": "fear"
+    },
+    {
+      "id": "b4",
+      "text": "The FBI later found no trace of explosives at the crash site. The cockpit recorder never captured a gun being fired or mentioned. The investigation's conclusion: the bomb, almost certainly, was a bluff.",
+      "img": "investigation_generic",
+      "query": "FBI investigation evidence documents",
+      "stock": true,
+      "cap": "Almost certainly, a bluff.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c3",
+      "text": "Chapter three. Thirty-seven phone calls.",
+      "chapter": "3 — THIRTY-SEVEN\nPHONE CALLS"
+    },
+    {
+      "id": "d1",
+      "text": "What happened next is why we know this story in such detail. Between about nine thirty-two and nine fifty-seven, at least ten passengers and two crew members placed thirty-seven phone calls from the cabin.",
+      "img": "airfone_generic",
+      "query": "airplane seatback phone armrest",
+      "stock": true,
+      "stat": "37 CALLS FROM THE CABIN",
+      "cap": "37 calls. From a hijacked plane.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d2",
+      "text": "And because those calls happened after the World Trade Center was already burning, the people on this plane learned something the hijackers never expected them to know. What a hijacking like this was actually going to end with.",
+      "img": "skyline_generic",
+      "query": "New York City skyline daytime",
+      "stock": true,
+      "cap": "They knew how this was going to end.",
+      "tone": "fear"
+    },
+    {
+      "id": "d3",
+      "text": "According to the Commission Report's own text, at least five of those calls described something else. Not fear. Intent. The passengers and surviving crew were already talking about fighting back.",
+      "img": "cabin_generic",
+      "cap": "They were already talking about fighting back.",
+      "extraHold": 16,
+      "tone": "awe"
+    },
+    {
+      "id": "c4",
+      "text": "Chapter four. Voices from the cabin.",
+      "chapter": "4 — VOICES FROM\nTHE CABIN"
+    },
+    {
+      "id": "e1",
+      "text": "We know some of their names now. And thanks to the people who answered their calls, we know some of their words. What you are about to hear is not a recording. Nothing from these calls was ever recorded. These are voice recreations of documented, sourced accounts, so their words can be heard, not just read.",
+      "img": "phone_generic",
+      "query": "telephone handset close up",
+      "stock": true,
+      "cap": "Recreated from documented accounts — never recorded.",
+      "extraHold": 20,
+      "tone": "curiosity"
+    },
+    {
+      "id": "e2",
+      "text": "Todd Beamer, in row 32, tried to call his family. The call never reached them. It was answered instead by a GTE Airfone supervisor named Lisa Jefferson, who stayed on the line with him for thirteen minutes.",
+      "img": "beamer_generic",
+      "query": "businessman portrait professional",
+      "stock": true,
+      "stat": "TODD BEAMER · ROW 32",
+      "cap": "His call reached a stranger instead.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "r_beamer",
+      "speaker": "BEAMER",
+      "radioLabel": "PHONE CALL RECREATION — per Lisa Jefferson's account",
+      "timestamp": "~9:44 AM",
+      "text": "Are you guys ready? Okay. Let's roll.",
+      "cap": "Turning from the phone to the passengers beside him.",
+      "tone": "confidence"
+    },
+    {
+      "id": "e3",
+      "text": "By Jefferson's own account, that is the last thing she heard him say, turning away from the phone toward the passengers seated near him. No recording exists. It is her memory of him, given to the FBI and repeated ever since.",
+      "img": "phone_generic",
+      "cap": "Her memory of him. Nothing more, nothing less.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e4",
+      "text": "Tom Burnett called his wife, Deena, four times that morning. In an earlier call, he told her a passenger had been stabbed. In a later one, he told her something else.",
+      "img": "burnett_generic",
+      "query": "man on phone call serious",
+      "stock": true,
+      "stat": "TOM BURNETT",
+      "cap": "He called his wife four times.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "r_burnett",
+      "speaker": "BURNETT",
+      "radioLabel": "PHONE CALL RECREATION — per Deena Burnett's account",
+      "timestamp": "~9:44–9:54 AM",
+      "text": "We can't wait for the authorities. I don't know what they could do anyway. It's up to us. I think we can do it. Don't worry, we're going to do something.",
+      "cap": "\"We're going to do something.\"",
+      "tone": "confidence"
+    },
+    {
+      "id": "e5",
+      "text": "That wording comes from Deena Burnett's own account: her FBI interview, her book, and more than twenty years of consistent public retelling. It is the one version of his words that this documentary will use.",
+      "img": "phone_generic",
+      "cap": "Her account. Consistent for over 20 years.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e6",
+      "text": "Mark Bingham's call reached his aunt's house in California. His mother, Alice Hoagland, happened to pick up the second time he called.",
+      "img": "bingham_generic",
+      "query": "young man portrait smiling",
+      "stock": true,
+      "stat": "MARK BINGHAM",
+      "cap": "His mother answered the second call.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "r_bingham",
+      "speaker": "BINGHAM",
+      "radioLabel": "PHONE CALL RECREATION — per FBI interview / NPS records",
+      "timestamp": "~9:37 AM",
+      "text": "This is Mark Bingham. I want to let you know I love you. I love you all. I'm on a flight from Newark to San Francisco and there are three guys who have taken over the plane, and they say they have a bomb.",
+      "cap": "\"I want to let you know I love you.\"",
+      "tone": "confidence"
+    },
+    {
+      "id": "e7",
+      "text": "Sandy Bradshaw was a flight attendant. She called her husband, Phil, and described boiling water in the galley to throw at the hijackers. Her closing line is the one verbatim passenger or crew quote written directly into the Commission Report's own main text.",
+      "img": "flightattendant_generic",
+      "query": "flight attendant airline crew portrait",
+      "stock": true,
+      "stat": "SANDY BRADSHAW · FLIGHT ATTENDANT",
+      "cap": "Boiling water, as a weapon.",
+      "tone": "fear"
+    },
+    {
+      "id": "r_bradshaw",
+      "speaker": "BRADSHAW",
+      "radioLabel": "PHONE CALL RECREATION — per Phil Bradshaw's account, quoted in the 9/11 Commission Report",
+      "timestamp": "~9:49–9:50 AM",
+      "text": "Everyone's running to first class. I've got to go. Bye.",
+      "cap": "The only verbatim line in the Commission's own text.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e8",
+      "text": "CeeCee Lyles was also a flight attendant. Her first call went to her husband Lorne's answering machine.",
+      "img": "flightattendant_generic",
+      "stat": "CEECEE LYLES · FLIGHT ATTENDANT",
+      "cap": "A voicemail, not a conversation.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "r_lyles",
+      "speaker": "LYLES",
+      "radioLabel": "PHONE CALL RECREATION — per Lorne Lyles's account",
+      "timestamp": "~9:47 AM",
+      "text": "Baby, you have to listen to me carefully. I'm on a plane that's been hijacked. I want to tell you I love you. Please tell my children that I love them very much and I'm so sorry, babe. I hope to be able to see your face again, baby. I love you. Goodbye.",
+      "cap": "\"I hope to see your face again.\"",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e9",
+      "text": "She called him again eleven minutes later. This time he answered. By his account, they prayed together, and she told him: we're getting ready to do it now.",
+      "img": "phone_generic",
+      "cap": "They prayed together, one last time.",
+      "extraHold": 20,
+      "tone": "melancholy"
+    },
+    {
+      "id": "e10",
+      "text": "Others made calls too. Lauren Grandcolas, calm, to her husband. Linda Gronlund, to her sister. Jeremy Glick, who asked his wife Lyzbeth if it was okay with her if he and the others rushed the hijackers.",
+      "img": "cabin_generic",
+      "cap": "The whole cabin was making the same choice.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e11",
+      "text": "Edward Felt didn't call a loved one. He dialed 911 from an onboard bathroom, and reached a real emergency dispatcher in Westmoreland County, Pennsylvania. One of the only calls independently logged by a government agency, not a family's memory.",
+      "img": "dispatch_generic",
+      "query": "911 emergency dispatch call center",
+      "stock": true,
+      "cap": "A government log, not just a memory.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c5",
+      "text": "Chapter five. The vote.",
+      "chapter": "5 — THE\nVOTE"
+    },
+    {
+      "id": "f1",
+      "text": "At some point before nine fifty-seven, according to one of the phone calls, the passengers voted. Whether to rush the hijackers and try to retake the plane. The Commission's own words: they decided, and acted.",
+      "kinetic": { "words": ["\"They", "decided,", "and", "acted.\""] },
+      "extraHold": 20,
+      "tone": "awe"
+    },
+    {
+      "id": "f2",
+      "text": "We don't know exactly what that vote looked like. A show of hands, a shouted agreement. The Commission doesn't say, and this documentary won't invent it.",
+      "img": "cabin_generic",
+      "cap": "We won't invent what we don't know.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "ex_assault",
+      "exhibit": true,
+      "img": "ex_assault",
+      "source": "The 9/11 Commission Report, Chapter 1, p. 13",
+      "highlight": [0.08, 0.72, 0.84, 0.1],
+      "cap": "9:57 AM. The assault begins.",
+      "text": "At nine fifty-seven in the morning, the passenger assault began. The Commission Report states it plainly. Several passengers had ended phone calls with the people they loved, in order to join the fight.",
+      "extraHold": 20,
+      "tone": "shock"
+    },
+    {
+      "id": "c6",
+      "text": "Chapter six. Ninety seconds.",
+      "chapter": "6 — NINETY\nSECONDS"
+    },
+    {
+      "id": "g1",
+      "text": "What happened in the cockpit over the next six minutes comes from one source only. The cockpit voice recorder. And here is what you need to understand about it, before you hear a word.",
+      "img": "flightrecorder",
+      "cap": "One source. One rule.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "g2",
+      "text": "That recording has been played publicly exactly once, for a jury, in 2006. It has never been released to the public. What follows is a transcript recreation — not the actual audio, which does not exist anywhere outside a federal courtroom.",
+      "img": "courtroom_generic",
+      "query": "federal courthouse building exterior",
+      "stock": true,
+      "stat": "TRANSCRIPT ONLY — AUDIO NEVER RELEASED",
+      "cap": "A transcript. Never the actual recording.",
+      "extraHold": 16,
+      "tone": "curiosity"
+    },
+    {
+      "id": "r_p1",
+      "speaker": "PASSENGER",
+      "radioLabel": "CVR TRANSCRIPT RECREATION — 9/11 Commission Report",
+      "timestamp": "~10:00:26 AM",
+      "text": "In the cockpit. If we don't we'll die!",
+      "cap": "An unidentified passenger's voice.",
+      "tone": "fear"
+    },
+    {
+      "id": "r_jarrah1",
+      "speaker": "JARRAH",
+      "radioLabel": "CVR TRANSCRIPT RECREATION — 9/11 Commission Report",
+      "timestamp": "~10:00:08 AM",
+      "text": "Is that it? Shall we finish it off?",
+      "cap": "Ziad Jarrah, at the controls.",
+      "tone": "fear"
+    },
+    {
+      "id": "r_hijacker2",
+      "speaker": "HIJACKER2",
+      "radioLabel": "CVR TRANSCRIPT RECREATION — 9/11 Commission Report",
+      "timestamp": "~10:00 AM",
+      "text": "No. Not yet. When they all come, we finish it off.",
+      "cap": "A second hijacker in the cockpit.",
+      "tone": "fear"
+    },
+    {
+      "id": "r_p2",
+      "speaker": "PASSENGER",
+      "radioLabel": "CVR TRANSCRIPT RECREATION — 9/11 Commission Report",
+      "timestamp": "~10:00:42 AM",
+      "text": "Roll it!",
+      "cap": "The passenger assault, still going.",
+      "tone": "fear"
+    },
+    {
+      "id": "g3",
+      "text": "That's a different line from Beamer's Let's roll. This one comes from the cockpit recorder itself, during the struggle, from a passenger the Commission was never able to identify. Two separate moments. Do not confuse them.",
+      "img": "cabin_generic",
+      "cap": "Two different moments. Not the same line.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "g4",
+      "text": "Jarrah rolled the plane sharply, side to side, then pitched the nose up and down, trying to throw the passengers off their feet. The assault did not stop.",
+      "img": "sky_generic",
+      "query": "aircraft banking turn sky dramatic",
+      "stock": true,
+      "cap": "He tried to throw them off their feet.",
+      "tone": "fear"
+    },
+    {
+      "id": "r_hijacker3",
+      "speaker": "HIJACKER2",
+      "radioLabel": "CVR TRANSCRIPT RECREATION — 9/11 Commission Report",
+      "timestamp": "10:01:00 AM",
+      "text": "Allah is the greatest! Allah is the greatest!",
+      "cap": "10:01 AM.",
+      "tone": "fear"
+    },
+    {
+      "id": "r_jarrah2",
+      "speaker": "JARRAH",
+      "radioLabel": "CVR TRANSCRIPT RECREATION — 9/11 Commission Report",
+      "timestamp": "10:02:23 AM",
+      "text": "Pull it down! Pull it down!",
+      "cap": "10:02 AM. One minute left.",
+      "tone": "shock"
+    },
+    {
+      "id": "g5",
+      "text": "The recording ends at ten-oh-three and eleven seconds. The aircraft rolled onto its back and dove into a reclaimed strip mine field near Shanksville, Pennsylvania, at more than five hundred miles an hour.",
+      "img": "field_impact",
+      "query": "empty field countryside aerial",
+      "stock": true,
+      "stat": "10:03:11 AM · SHANKSVILLE, PA",
+      "cap": "10:03 and 11 seconds.",
+      "extraHold": 20,
+      "tone": "melancholy"
+    },
+    {
+      "id": "g6",
+      "text": "All forty-four people aboard died. Thirty-three passengers. Seven crew. Four hijackers. No one on the ground was hurt. It is the only one of the four hijacked flights that morning where nobody outside the plane was killed.",
+      "kinetic": { "count": 44, "countLabel": "people aboard — all died", "sub": "the only one of the four flights with zero deaths on the ground" },
+      "extraHold": 20,
+      "tone": "melancholy"
+    },
+    {
+      "id": "c7",
+      "text": "Chapter seven. Shanksville.",
+      "chapter": "7 — SHANKS-\nVILLE"
+    },
+    {
+      "id": "i1",
+      "text": "The plane hit the ground at such speed and such an angle that there was no survivable wreckage. This was now a federal crime scene, led by the FBI, in a quiet corner of Somerset County.",
+      "img": "shanksville_field",
+      "cap": "A federal crime scene, in a quiet field.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "i2",
+      "text": "Identifying who had been aboard fell to the county coroner, Wallace Miller. The first sixteen victims were identified within two weeks, through fingerprints and dental records. The rest required DNA analysis.",
+      "img": "coroner_generic",
+      "query": "forensic laboratory scientific analysis",
+      "stock": true,
+      "cap": "Fingerprints, dental records, then DNA.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "i3",
+      "text": "All forty-four people aboard, including all four hijackers, were eventually identified. Jarrah's remains were matched using a sample submitted by his girlfriend in Germany.",
+      "img": "shanksville_field",
+      "cap": "All 44. Confirmed.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "i4",
+      "text": "Today, that field is the Flight 93 National Memorial, run by the National Park Service. It sits about twenty minutes' flying time from a Capitol building that, that morning, had no idea how close it had come.",
+      "img": "memorial_generic",
+      "query": "memorial park visitors monument peaceful",
+      "stock": true,
+      "cap": "Twenty minutes' flying time from the Capitol.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c8",
+      "text": "Chapter eight. The story Norad told.",
+      "chapter": "8 — THE STORY\nNORAD TOLD"
+    },
+    {
+      "id": "j1",
+      "text": "For years afterward, the U.S. military's own version of this story was simple. We were tracking Flight 93. We were ready to shoot it down if we had to. Here is what the nine eleven Commission's investigators actually found when they pulled the tapes.",
+      "img": "norad_generic",
+      "query": "military radar control room command center",
+      "stock": true,
+      "stat": "THE OFFICIAL STORY, VS. THE TAPES",
+      "cap": "The military's own story didn't match its own tapes.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "j2",
+      "text": "Three F-16s from a North Dakota Air National Guard unit stationed at Langley Air Force Base were scrambled at nine twenty-three, airborne by nine thirty. In 2003, Norad testified this was in response to Flight 93, or to American 77.",
+      "img": "f16_generic",
+      "query": "F-16 fighter jet military aircraft",
+      "stock": true,
+      "stat": "SCRAMBLED 9:23 · AIRBORNE 9:30",
+      "cap": "Scrambled for Flight 93, NORAD said.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "j3",
+      "text": "The Commission's investigators subpoenaed the actual tapes. What they found was that those jets were scrambled because of a mistaken report that the first hijacked plane, American 11, which had already hit the World Trade Center thirty-eight minutes earlier, was somehow still in the air, headed for Washington.",
+      "img": "tapes_generic",
+      "query": "military radio communication headset",
+      "stock": true,
+      "cap": "Scrambled for a plane that had already crashed.",
+      "tone": "shock"
+    },
+    {
+      "id": "j4",
+      "text": "The fighters were never told the real threat was hijacked airliners. Their own lead pilot later said: I'm thinking cruise missile threat from the sea. Nobody told us anything.",
+      "kinetic": { "words": ["\"Nobody", "told", "us", "anything.\""] },
+      "extraHold": 16,
+      "tone": "fear"
+    },
+    {
+      "id": "j5",
+      "text": "A miscommunication then sent those same fighters flying the wrong way entirely, out over the Atlantic Ocean, away from Washington, before they were redirected.",
+      "img": "ocean_generic",
+      "query": "ocean horizon aerial view",
+      "stock": true,
+      "cap": "Sent the wrong way, over the ocean.",
+      "tone": "fear"
+    },
+    {
+      "id": "j6",
+      "text": "Investigators found a subpoenaed email from the officer in charge that morning, explaining, years later, why the false version had been told to Congress in the first place. It's easiest to explain the scramble against American 77, he wrote. It takes a lot of time to explain you're scrambling fighters against a plane heading away from the target.",
+      "img": "email_generic",
+      "query": "computer screen document reading",
+      "stock": true,
+      "cap": "\"Easiest to explain,\" he wrote, years later.",
+      "extraHold": 16,
+      "tone": "shock"
+    },
+    {
+      "id": "j7",
+      "text": "One more claim didn't survive scrutiny either. A pilot from a separate Air National Guard squadron gave a detailed, dramatic account of personally locating Flight 93 and preparing to ram it. Commission investigators found his own squadron was not airborne until ten thirty-eight. Thirty-five minutes after the plane had already crashed.",
+      "img": "f16_generic",
+      "stat": "AIRBORNE: 10:38 AM (35 MIN AFTER IMPACT)",
+      "cap": "His squadron wasn't airborne until 35 minutes later.",
+      "tone": "shock"
+    },
+    {
+      "id": "j8",
+      "text": "When investigators confronted him with the timeline, he didn't explain the discrepancy. He left the meeting.",
+      "img": "investigation_generic",
+      "cap": "He didn't explain. He left.",
+      "extraHold": 16,
+      "tone": "curiosity"
+    },
+    {
+      "id": "j9",
+      "text": "To be precise about what this is, and is not. This is a real, documented case of an institution's public account not matching its own tapes. It is not evidence that anyone allowed the attacks to happen, or intentionally let Flight 93 through. The people at the radar screens that morning were improvising, in good faith, against something nobody had trained for.",
+      "img": "norad_generic",
+      "cap": "Confusion, not conspiracy.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c9",
+      "text": "Chapter nine. What actually could have stopped it.",
+      "chapter": "9 — WHAT COULD\nHAVE STOPPED IT"
+    },
+    {
+      "id": "k1",
+      "text": "So could any fighter, anywhere, actually have reached Flight 93 in time? The military's own radar center, Neads, first heard the flight had even been hijacked at ten-oh-seven in the morning.",
+      "img": "radar_generic",
+      "query": "radar screen aviation tracking",
+      "stock": true,
+      "stat": "NOTIFIED: 10:07 AM",
+      "cap": "They learned about the flight at 10:07.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "k2",
+      "text": "Flight 93 crashed at ten-oh-three. Four minutes earlier. The military learned Flight 93 existed after it was already on the ground.",
+      "kinetic": { "words": ["They", "learned", "of", "it", "4", "minutes", "TOO", "LATE."] },
+      "extraHold": 20,
+      "tone": "shock"
+    },
+    {
+      "id": "k3",
+      "text": "The order authorizing a shootdown, worked out between Vice President Cheney and President Bush in the White House shelter, wasn't even communicated to the military's command center until ten thirty-one. Twenty-eight minutes after the crash. And it never reached the fighter pilots over Washington at all.",
+      "img": "whitehouse_generic",
+      "query": "White House exterior Washington DC",
+      "stock": true,
+      "stat": "ORDER REACHED COMMAND: 10:31 AM",
+      "cap": "The order came 28 minutes too late.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "ex_norad",
+      "exhibit": true,
+      "img": "ex_norad",
+      "source": "The 9/11 Commission Report, Chapter 1, p. 45",
+      "highlight": [0.08, 0.68, 0.84, 0.1],
+      "cap": "\"We are not so sure.\"",
+      "text": "The Commission's own report addresses the military's claim directly. Norad officials have maintained that they would have intercepted and shot down United 93. The Commission's answer: we are not so sure.",
+      "extraHold": 24,
+      "tone": "curiosity"
+    },
+    {
+      "id": "k4",
+      "text": "And that is also why a persistent rumor, that a military jet shot Flight 93 down, or that no real plane crashed there at all, does not hold up. No missile fragments were ever found in the wreckage. No fighter was ever close enough, briefed enough, or authorized in time.",
+      "img": "shanksville_field",
+      "cap": "No missile fragments. No fighter close enough.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "k5",
+      "text": "The debris pattern matches a high speed crash, not an explosive strike. The flight recorder data matches an uncontrolled dive after a struggle, not an intercept. And all forty-four people aboard were positively identified through DNA. Every piece of physical evidence points the same direction.",
+      "img": "shanksville_field",
+      "cap": "Every piece of evidence agrees.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "k6",
+      "text": "The Commission closes with this. We are sure that the nation owes a debt to the passengers of United 93. Their actions saved the lives of countless others, and may have saved either the Capitol or the White House from destruction.",
+      "kinetic": { "words": ["\"The", "nation", "owes", "a", "debt.\""] },
+      "extraHold": 20,
+      "tone": "confidence"
+    },
+    {
+      "id": "coda1",
+      "text": "So what stays with me about this one isn't the hijackers, or even the confusion in the sky above Washington that morning.",
+      "img": "shanksville_field",
+      "cap": "What stays with me isn't the hijackers.",
+      "motion": "slow",
+      "speed": 0.94,
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda2",
+      "text": "It's that the only reason we know any of this, the only reason there's a black box worth breaking down at all, is that forty people picked up a phone, learned the worst, and decided anyway.",
+      "img": "phone_generic",
+      "cap": "They learned the worst, and decided anyway.",
+      "motion": "slow",
+      "speed": 0.94,
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda3",
+      "text": "No fighter jet saved that flight. No general, no order, no chain of command got there in time. The passengers of United 93 saved it, with a vote, a rush down a narrow aisle, and about ninety seconds.",
+      "img": "shanksville_field",
+      "cap": "A vote. A rush down an aisle. 90 seconds.",
+      "speed": 0.94,
+      "extraHold": 20,
+      "tone": "confidence"
+    },
+    {
+      "id": "end",
+      "text": "This has been United 93. If a black box capturing an institution's own confusion is the kind of story you came here for, wait until you see how one hidden piece of software doomed two more airliners full of people who never knew it existed. Subscribe to Black Box Breakdown, for the true story behind every disaster, told from the black box out.",
+      "img": "flightrecorder",
+      "cap": "Watch next: how Boeing killed 346 people. Subscribe to Black Box Breakdown.",
+      "motion": "slow",
+      "tone": "confidence"
+    }
+  ]
+}

@@ -52,6 +52,10 @@ import oceanGateDoc from "./mindwired-doc/docs/oceangate.json";
 import oceanGateManifest from "./mindwired-doc/docs/oceangate.manifest.json";
 import concordeDoc from "./mindwired-doc/docs/concorde.json";
 import concordeManifest from "./mindwired-doc/docs/concorde.manifest.json";
+import spaceShuttleDoc from "./mindwired-doc/docs/spaceshuttle.json";
+import spaceShuttleManifest from "./mindwired-doc/docs/spaceshuttle.manifest.json";
+import flight93Doc from "./mindwired-doc/docs/flight93.json";
+import flight93Manifest from "./mindwired-doc/docs/flight93.manifest.json";
 // Subscribe outro baked into the render (ONE render, no ffmpeg concat). frames @30fps.
 const BB_OUTRO = { file: "outro/subscribe_blackbox_long.mp4", frames: 483 };
 const MW_OUTRO = { file: "outro/subscribe_mindwired_long.mp4", frames: 527 };
@@ -65,6 +69,8 @@ import tenerifeDoc from "./mindwired-doc/docs/tenerife.json";
 import tenerifeManifest from "./mindwired-doc/docs/tenerife.manifest.json";
 import blackboxAnatomyDoc from "./mindwired-doc/docs/blackboxanatomy.json";
 import blackboxAnatomyManifest from "./mindwired-doc/docs/blackboxanatomy.manifest.json";
+import ai171Doc from "./mindwired-doc/docs/ai171.json";
+import ai171Manifest from "./mindwired-doc/docs/ai171.manifest.json";
 import almostDiedHiDoc from "./mindwired-doc/docs/almostdied-hi.json";
 import almostDiedHiManifest from "./mindwired-doc/docs/almostdied-hi.manifest.json";
 import sansadchaloDoc from "./mindwired-doc/docs/sansadchalo.json";
@@ -1161,11 +1167,33 @@ export const RemotionRoot: React.FC = () => {
         height={1080}
       />
 
+      {/* ── mindwired — Space Shuttle (documentary pivot #5; MW subscribe outro baked) ── */}
+      <Composition
+        id="SpaceShuttleDoc"
+        component={makeDocComp(spaceShuttleDoc, spaceShuttleManifest, MW_OUTRO)}
+        durationInFrames={docTotalFrames(spaceShuttleDoc, spaceShuttleManifest, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
       {/* ── mindwired — The Man Who Sold the Moon (documentary pivot #4; MW subscribe outro baked) ── */}
       <Composition
         id="MoonSellerDoc"
         component={makeDocComp(moonSellerDoc, moonSellerManifest, MW_OUTRO)}
         durationInFrames={docTotalFrames(moonSellerDoc, moonSellerManifest, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Black Box Breakdown — United 93 (Evidence Engine: real Commission-Report
+             exhibits + gender-matched phone-call/CVR voice recreations; BB subscribe
+             outro baked) ── */}
+      <Composition
+        id="Flight93Doc"
+        component={makeDocComp(flight93Doc, flight93Manifest, BB_OUTRO)}
+        durationInFrames={docTotalFrames(flight93Doc, flight93Manifest, BB_OUTRO)}
         fps={30}
         width={1920}
         height={1080}
@@ -1210,6 +1238,16 @@ export const RemotionRoot: React.FC = () => {
         id="BlackBoxAnatomyDoc"
         component={makeDocComp(blackboxAnatomyDoc, blackboxAnatomyManifest, BB_OUTRO)}
         durationInFrames={docTotalFrames(blackboxAnatomyDoc, blackboxAnatomyManifest, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Black Box Breakdown — Air India 171 (BB subscribe outro baked) ── */}
+      <Composition
+        id="Ai171Doc"
+        component={makeDocComp(ai171Doc, ai171Manifest, BB_OUTRO)}
+        durationInFrames={docTotalFrames(ai171Doc, ai171Manifest, BB_OUTRO)}
         fps={30}
         width={1920}
         height={1080}

@@ -1,0 +1,748 @@
+1
+00:00:00,333 --> 00:00:03,523
+September 11th, 2001. Nine thirty in the morning.
+
+2
+00:00:03,523 --> 00:00:08,708
+Thirty five thousand feet over Ohio, Tom Burnett's phone rings in the cabin.
+
+3
+00:00:08,708 --> 00:00:12,297
+It's his wife. She has something to tell him.
+
+4
+00:00:13,433 --> 00:00:18,305
+Planes have hit the World Trade Center, she says. He already knows something she doesn't.
+
+5
+00:00:18,305 --> 00:00:20,904
+His own flight has just been hijacked too.
+
+6
+00:00:22,033 --> 00:00:29,895
+In the next thirty minutes, forty four people will decide, together, to do something no hijacked passengers had ever done before.
+
+7
+00:00:29,895 --> 00:00:32,142
+Rush the men holding the plane.
+
+8
+00:00:33,266 --> 00:00:39,201
+This is not a story about a bomb that went off, or a mechanical failure, or pilot error.
+
+9
+00:00:39,201 --> 00:00:43,487
+This is a black box that recorded something almost nobody expects to hear.
+
+10
+00:00:43,487 --> 00:00:45,465
+Ordinary people, choosing what happens next.
+
+11
+00:00:46,600 --> 00:00:57,283
+Here is the true story of United Airlines Flight 93, built entirely from the official investigation, the declassified cockpit transcript, and the words the people on board left behind.
+
+12
+00:00:58,433 --> 00:01:00,079
+You're watching Black Box Breakdown.
+
+13
+00:01:01,200 --> 00:01:04,516
+United 93. The passengers who fought back.
+
+14
+00:01:05,666 --> 00:01:08,252
+Chapter one. A forty-two minute delay.
+
+15
+00:01:09,399 --> 00:01:16,458
+United Airlines Flight 93 was scheduled to leave Newark, New Jersey for San Francisco at 8 o'clock that morning.
+
+16
+00:01:16,458 --> 00:01:19,430
+A Boeing seven fifty-seven. Thirty-seven passengers, seven crew.
+
+17
+00:01:20,566 --> 00:01:23,283
+Routine ground congestion held it at the gate.
+
+18
+00:01:23,283 --> 00:01:27,358
+It did not actually take off until eight forty-two, forty-two minutes late.
+
+19
+00:01:27,358 --> 00:01:31,093
+That delay would matter more than anyone on board could know.
+
+20
+00:01:32,233 --> 00:01:38,194
+Among the passengers were four men traveling together, though they did not sit together.
+
+21
+00:01:38,194 --> 00:01:40,749
+Seats 1B, 3C, 3D, and 6B.
+
+22
+00:01:41,866 --> 00:01:45,372
+The man in 1B, nearest the cockpit, was Ziad Jarrah.
+
+23
+00:01:45,372 --> 00:01:56,939
+According to the FBI and the nine eleven Commission, he had trained as a pilot at flight schools in Venice, Florida, after being radicalized in Germany and meeting Osama bin Laden in Afghanistan.
+
+24
+00:01:58,066 --> 00:02:07,621
+The other three, Ahmed al-Haznawi, Ahmed al-Nami, and Saeed al-Ghamdi, were recruited through mosque networks in Saudi Arabia and trained at Al-Qaeda camps in Afghanistan.
+
+25
+00:02:07,621 --> 00:02:12,590
+Their job was to subdue the crew and passengers, not fly the plane.
+
+26
+00:02:13,733 --> 00:02:18,840
+This was supposed to be a five-man team, like the other three flights hijacked that morning.
+
+27
+00:02:18,840 --> 00:02:21,074
+A fifth man never made it aboard.
+
+28
+00:02:21,074 --> 00:02:26,820
+An immigration inspector in Orlando turned him away in August, suspicious of his cash and his one-way ticket.
+
+29
+00:02:27,966 --> 00:02:32,428
+The nine eleven Commission's assessment is that Flight 93 was headed for the U.S.
+
+30
+00:02:32,428 --> 00:02:34,021
+Capitol, or the White House.
+
+31
+00:02:34,021 --> 00:02:39,120
+It could not determine which with certainty, because the flight never got close enough to either.
+
+32
+00:02:40,266 --> 00:02:42,617
+Chapter two. Nine twenty-eight in the morning.
+
+33
+00:02:43,766 --> 00:02:49,546
+By the time Flight 93 took off, two other hijacked planes had already struck the World Trade Center.
+
+34
+00:02:49,546 --> 00:02:53,400
+United's own dispatcher sent a warning to the cockpit at nine twenty-four.
+
+35
+00:02:53,400 --> 00:02:56,932
+The captain didn't yet understand it was about his own flight.
+
+36
+00:02:58,066 --> 00:03:02,533
+At nine twenty-eight, over eastern Ohio, at thirty-five thousand feet, it happened.
+
+37
+00:03:02,533 --> 00:03:06,628
+Cleveland air traffic control heard a Mayday call, then a struggle.
+
+38
+00:03:06,628 --> 00:03:11,467
+Then: get out of here, get out of here, get out of here.
+
+39
+00:03:12,600 --> 00:03:18,248
+Four minutes later, a hijacker keyed the cabin intercom, thinking he was speaking to the passengers.
+
+40
+00:03:18,248 --> 00:03:22,131
+Instead, it went out over the radio, to every controller listening.
+
+41
+00:03:22,131 --> 00:03:24,956
+We have a bomb on board. So, sit.
+
+42
+00:03:26,100 --> 00:03:30,621
+The FBI later found no trace of explosives at the crash site.
+
+43
+00:03:30,621 --> 00:03:34,766
+The cockpit recorder never captured a gun being fired or mentioned.
+
+44
+00:03:34,766 --> 00:03:38,534
+The investigation's conclusion: the bomb, almost certainly, was a bluff.
+
+45
+00:03:39,666 --> 00:03:42,252
+Chapter three. Thirty-seven phone calls.
+
+46
+00:03:43,400 --> 00:03:47,364
+What happened next is why we know this story in such detail.
+
+47
+00:03:47,364 --> 00:03:54,633
+Between about nine thirty-two and nine fifty-seven, at least ten passengers and two crew members placed thirty-seven phone calls from the cabin.
+
+48
+00:03:55,766 --> 00:04:03,581
+And because those calls happened after the World Trade Center was already burning, the people on this plane learned something the hijackers never expected them to know.
+
+49
+00:04:03,581 --> 00:04:06,764
+What a hijacking like this was actually going to end with.
+
+50
+00:04:07,900 --> 00:04:13,932
+According to the Commission Report's own text, at least five of those calls described something else.
+
+51
+00:04:13,932 --> 00:04:15,063
+Not fear. Intent.
+
+52
+00:04:15,063 --> 00:04:19,211
+The passengers and surviving crew were already talking about fighting back.
+
+53
+00:04:20,333 --> 00:04:23,102
+Chapter four. Voices from the cabin.
+
+54
+00:04:24,233 --> 00:04:26,567
+We know some of their names now.
+
+55
+00:04:26,567 --> 00:04:31,570
+And thanks to the people who answered their calls, we know some of their words.
+
+56
+00:04:31,570 --> 00:04:37,240
+What you are about to hear is not a recording. Nothing from these calls was ever recorded.
+
+57
+00:04:37,240 --> 00:04:42,910
+These are voice recreations of documented, sourced accounts, so their words can be heard, not just read.
+
+58
+00:04:44,033 --> 00:04:49,074
+Todd Beamer, in row 32, tried to call his family. The call never reached them.
+
+59
+00:04:49,074 --> 00:04:56,467
+It was answered instead by a GTE Airfone supervisor named Lisa Jefferson, who stayed on the line with him for thirteen minutes.
+
+60
+00:04:57,599 --> 00:05:00,758
+Are you guys ready? Okay. Let's roll.
+
+61
+00:05:01,899 --> 00:05:09,469
+By Jefferson's own account, that is the last thing she heard him say, turning away from the phone toward the passengers seated near him.
+
+62
+00:05:09,469 --> 00:05:14,831
+No recording exists. It is her memory of him, given to the FBI and repeated ever since.
+
+63
+00:05:15,966 --> 00:05:19,151
+Tom Burnett called his wife, Deena, four times that morning.
+
+64
+00:05:19,151 --> 00:05:22,974
+In an earlier call, he told her a passenger had been stabbed.
+
+65
+00:05:22,974 --> 00:05:25,840
+In a later one, he told her something else.
+
+66
+00:05:26,966 --> 00:05:32,694
+We can't wait for the authorities. I don't know what they could do anyway. It's up to us.
+
+67
+00:05:32,694 --> 00:05:36,830
+I think we can do it. Don't worry, we're going to do something.
+
+68
+00:05:37,966 --> 00:05:45,585
+That wording comes from Deena Burnett's own account: her FBI interview, her book, and more than twenty years of consistent public retelling.
+
+69
+00:05:45,585 --> 00:05:50,087
+It is the one version of his words that this documentary will use.
+
+70
+00:05:51,233 --> 00:05:54,033
+Mark Bingham's call reached his aunt's house in California.
+
+71
+00:05:54,033 --> 00:05:58,077
+His mother, Alice Hoagland, happened to pick up the second time he called.
+
+72
+00:05:59,199 --> 00:06:03,265
+This is Mark Bingham. I want to let you know I love you. I love you all.
+
+73
+00:06:03,265 --> 00:06:09,722
+I'm on a flight from Newark to San Francisco and there are three guys who have taken over the plane, and they say they have a bomb.
+
+74
+00:06:10,866 --> 00:06:12,871
+Sandy Bradshaw was a flight attendant.
+
+75
+00:06:12,871 --> 00:06:18,551
+She called her husband, Phil, and described boiling water in the galley to throw at the hijackers.
+
+76
+00:06:18,551 --> 00:06:25,233
+Her closing line is the one verbatim passenger or crew quote written directly into the Commission Report's own main text.
+
+77
+00:06:26,366 --> 00:06:30,487
+Everyone's running to first class. I've got to go. Bye.
+
+78
+00:06:31,633 --> 00:06:33,892
+CeeCee Lyles was also a flight attendant.
+
+79
+00:06:33,892 --> 00:06:37,119
+Her first call went to her husband Lorne's answering machine.
+
+80
+00:06:38,266 --> 00:06:42,693
+Baby, you have to listen to me carefully. I'm on a plane that's been hijacked.
+
+81
+00:06:42,693 --> 00:06:45,054
+I want to tell you I love you.
+
+82
+00:06:45,054 --> 00:06:49,480
+Please tell my children that I love them very much and I'm so sorry, babe.
+
+83
+00:06:49,480 --> 00:06:53,907
+I hope to be able to see your face again, baby. I love you. Goodbye.
+
+84
+00:06:55,033 --> 00:06:58,943
+She called him again eleven minutes later. This time he answered.
+
+85
+00:06:58,943 --> 00:07:04,986
+By his account, they prayed together, and she told him: we're getting ready to do it now.
+
+86
+00:07:06,133 --> 00:07:09,833
+Others made calls too. Lauren Grandcolas, calm, to her husband.
+
+87
+00:07:09,833 --> 00:07:11,684
+Linda Gronlund, to her sister.
+
+88
+00:07:11,684 --> 00:07:19,455
+Jeremy Glick, who asked his wife Lyzbeth if it was okay with her if he and the others rushed the hijackers.
+
+89
+00:07:20,599 --> 00:07:23,492
+Edward Felt didn't call a loved one.
+
+90
+00:07:23,492 --> 00:07:30,518
+He dialed 911 from an onboard bathroom, and reached a real emergency dispatcher in Westmoreland County, Pennsylvania.
+
+91
+00:07:30,518 --> 00:07:36,716
+One of the only calls independently logged by a government agency, not a family's memory.
+
+92
+00:07:37,866 --> 00:07:39,668
+Chapter five. The vote.
+
+93
+00:07:40,799 --> 00:07:46,926
+At some point before nine fifty-seven, according to one of the phone calls, the passengers voted.
+
+94
+00:07:46,926 --> 00:07:51,137
+Whether to rush the hijackers and try to retake the plane.
+
+95
+00:07:51,137 --> 00:07:54,200
+The Commission's own words: they decided, and acted.
+
+96
+00:07:55,333 --> 00:08:00,863
+We don't know exactly what that vote looked like. A show of hands, a shouted agreement.
+
+97
+00:08:00,863 --> 00:08:04,319
+The Commission doesn't say, and this documentary won't invent it.
+
+98
+00:08:05,466 --> 00:08:08,917
+At nine fifty-seven in the morning, the passenger assault began.
+
+99
+00:08:08,917 --> 00:08:10,988
+The Commission Report states it plainly.
+
+100
+00:08:10,988 --> 00:08:16,855
+Several passengers had ended phone calls with the people they loved, in order to join the fight.
+
+101
+00:08:17,999 --> 00:08:20,272
+Chapter six. Ninety seconds.
+
+102
+00:08:21,399 --> 00:08:25,929
+What happened in the cockpit over the next six minutes comes from one source only.
+
+103
+00:08:25,929 --> 00:08:27,136
+The cockpit voice recorder.
+
+104
+00:08:27,136 --> 00:08:31,665
+And here is what you need to understand about it, before you hear a word.
+
+105
+00:08:32,799 --> 00:08:37,935
+That recording has been played publicly exactly once, for a jury, in 2006.
+
+106
+00:08:37,935 --> 00:08:41,095
+It has never been released to the public.
+
+107
+00:08:41,095 --> 00:08:48,995
+What follows is a transcript recreation — not the actual audio, which does not exist anywhere outside a federal courtroom.
+
+108
+00:08:50,133 --> 00:08:52,967
+In the cockpit. If we don't we'll die!
+
+109
+00:08:54,100 --> 00:08:56,311
+Is that it? Shall we finish it off?
+
+110
+00:08:57,433 --> 00:09:01,053
+No. Not yet. When they all come, we finish it off.
+
+111
+00:09:02,200 --> 00:09:03,031
+Roll it!
+
+112
+00:09:04,166 --> 00:09:07,057
+That's a different line from Beamer's Let's roll.
+
+113
+00:09:07,057 --> 00:09:14,646
+This one comes from the cockpit recorder itself, during the struggle, from a passenger the Commission was never able to identify.
+
+114
+00:09:14,646 --> 00:09:17,175
+Two separate moments. Do not confuse them.
+
+115
+00:09:18,300 --> 00:09:25,681
+Jarrah rolled the plane sharply, side to side, then pitched the nose up and down, trying to throw the passengers off their feet.
+
+116
+00:09:25,681 --> 00:09:27,286
+The assault did not stop.
+
+117
+00:09:28,433 --> 00:09:31,114
+Allah is the greatest! Allah is the greatest!
+
+118
+00:09:32,233 --> 00:09:34,041
+Pull it down! Pull it down!
+
+119
+00:09:35,166 --> 00:09:37,991
+The recording ends at ten-oh-three and eleven seconds.
+
+120
+00:09:37,991 --> 00:09:46,817
+The aircraft rolled onto its back and dove into a reclaimed strip mine field near Shanksville, Pennsylvania, at more than five hundred miles an hour.
+
+121
+00:09:47,966 --> 00:09:51,663
+All forty-four people aboard died. Thirty-three passengers. Seven crew. Four hijackers.
+
+122
+00:09:51,663 --> 00:09:54,015
+No one on the ground was hurt.
+
+123
+00:09:54,015 --> 00:10:00,400
+It is the only one of the four hijacked flights that morning where nobody outside the plane was killed.
+
+124
+00:10:01,533 --> 00:10:03,335
+Chapter seven. Shanksville.
+
+125
+00:10:04,466 --> 00:10:09,769
+The plane hit the ground at such speed and such an angle that there was no survivable wreckage.
+
+126
+00:10:09,769 --> 00:10:15,072
+This was now a federal crime scene, led by the FBI, in a quiet corner of Somerset County.
+
+127
+00:10:16,199 --> 00:10:21,013
+Identifying who had been aboard fell to the county coroner, Wallace Miller.
+
+128
+00:10:21,013 --> 00:10:26,628
+The first sixteen victims were identified within two weeks, through fingerprints and dental records.
+
+129
+00:10:26,628 --> 00:10:28,633
+The rest required DNA analysis.
+
+130
+00:10:29,766 --> 00:10:34,256
+All forty-four people aboard, including all four hijackers, were eventually identified.
+
+131
+00:10:34,256 --> 00:10:39,562
+Jarrah's remains were matched using a sample submitted by his girlfriend in Germany.
+
+132
+00:10:40,699 --> 00:10:45,836
+Today, that field is the Flight 93 National Memorial, run by the National Park Service.
+
+133
+00:10:45,836 --> 00:10:53,368
+It sits about twenty minutes' flying time from a Capitol building that, that morning, had no idea how close it had come.
+
+134
+00:10:54,499 --> 00:10:57,346
+Chapter eight. The story Norad told.
+
+135
+00:10:58,466 --> 00:11:02,449
+For years afterward, the U.S. military's own version of this story was simple.
+
+136
+00:11:02,449 --> 00:11:07,350
+We were tracking Flight 93. We were ready to shoot it down if we had to.
+
+137
+00:11:07,350 --> 00:11:11,945
+Here is what the nine eleven Commission's investigators actually found when they pulled the tapes.
+
+138
+00:11:13,066 --> 00:11:22,242
+Three F-16s from a North Dakota Air National Guard unit stationed at Langley Air Force Base were scrambled at nine twenty-three, airborne by nine thirty.
+
+139
+00:11:22,242 --> 00:11:27,747
+In 2003, Norad testified this was in response to Flight 93, or to American 77.
+
+140
+00:11:28,866 --> 00:11:31,312
+The Commission's investigators subpoenaed the actual tapes.
+
+141
+00:11:31,312 --> 00:11:45,637
+What they found was that those jets were scrambled because of a mistaken report that the first hijacked plane, American 11, which had already hit the World Trade Center thirty-eight minutes earlier, was somehow still in the air, headed for Washington.
+
+142
+00:11:46,766 --> 00:11:50,997
+The fighters were never told the real threat was hijacked airliners.
+
+143
+00:11:50,997 --> 00:11:56,382
+Their own lead pilot later said: I'm thinking cruise missile threat from the sea.
+
+144
+00:11:56,382 --> 00:11:57,920
+Nobody told us anything.
+
+145
+00:11:59,066 --> 00:12:07,895
+A miscommunication then sent those same fighters flying the wrong way entirely, out over the Atlantic Ocean, away from Washington, before they were redirected.
+
+146
+00:12:09,033 --> 00:12:18,201
+Investigators found a subpoenaed email from the officer in charge that morning, explaining, years later, why the false version had been told to Congress in the first place.
+
+147
+00:12:18,201 --> 00:12:21,803
+It's easiest to explain the scramble against American 77, he wrote.
+
+148
+00:12:21,803 --> 00:12:28,024
+It takes a lot of time to explain you're scrambling fighters against a plane heading away from the target.
+
+149
+00:12:29,166 --> 00:12:31,719
+One more claim didn't survive scrutiny either.
+
+150
+00:12:31,719 --> 00:12:40,471
+A pilot from a separate Air National Guard squadron gave a detailed, dramatic account of personally locating Flight 93 and preparing to ram it.
+
+151
+00:12:40,471 --> 00:12:44,848
+Commission investigators found his own squadron was not airborne until ten thirty-eight.
+
+152
+00:12:44,848 --> 00:12:47,765
+Thirty-five minutes after the plane had already crashed.
+
+153
+00:12:48,899 --> 00:12:53,856
+When investigators confronted him with the timeline, he didn't explain the discrepancy.
+
+154
+00:12:53,856 --> 00:12:55,508
+He left the meeting.
+
+155
+00:12:56,633 --> 00:13:00,109
+To be precise about what this is, and is not.
+
+156
+00:13:00,109 --> 00:13:05,670
+This is a real, documented case of an institution's public account not matching its own tapes.
+
+157
+00:13:05,670 --> 00:13:11,579
+It is not evidence that anyone allowed the attacks to happen, or intentionally let Flight 93 through.
+
+158
+00:13:11,579 --> 00:13:18,184
+The people at the radar screens that morning were improvising, in good faith, against something nobody had trained for.
+
+159
+00:13:19,333 --> 00:13:22,024
+Chapter nine. What actually could have stopped it.
+
+160
+00:13:23,166 --> 00:13:27,636
+So could any fighter, anywhere, actually have reached Flight 93 in time?
+
+161
+00:13:27,636 --> 00:13:34,712
+The military's own radar center, Neads, first heard the flight had even been hijacked at ten-oh-seven in the morning.
+
+162
+00:13:35,833 --> 00:13:38,987
+Flight 93 crashed at ten-oh-three. Four minutes earlier.
+
+163
+00:13:38,987 --> 00:13:44,114
+The military learned Flight 93 existed after it was already on the ground.
+
+164
+00:13:45,233 --> 00:13:55,437
+The order authorizing a shootdown, worked out between Vice President Cheney and President Bush in the White House shelter, wasn't even communicated to the military's command center until ten thirty-one.
+
+165
+00:13:55,437 --> 00:13:57,138
+Twenty-eight minutes after the crash.
+
+166
+00:13:57,138 --> 00:14:00,880
+And it never reached the fighter pilots over Washington at all.
+
+167
+00:14:01,999 --> 00:14:05,033
+The Commission's own report addresses the military's claim directly.
+
+168
+00:14:05,033 --> 00:14:09,752
+Norad officials have maintained that they would have intercepted and shot down United 93.
+
+169
+00:14:09,752 --> 00:14:12,448
+The Commission's answer: we are not so sure.
+
+170
+00:14:13,566 --> 00:14:23,384
+And that is also why a persistent rumor, that a military jet shot Flight 93 down, or that no real plane crashed there at all, does not hold up.
+
+171
+00:14:23,384 --> 00:14:26,431
+No missile fragments were ever found in the wreckage.
+
+172
+00:14:26,431 --> 00:14:30,493
+No fighter was ever close enough, briefed enough, or authorized in time.
+
+173
+00:14:31,633 --> 00:14:36,014
+The debris pattern matches a high speed crash, not an explosive strike.
+
+174
+00:14:36,014 --> 00:14:41,126
+The flight recorder data matches an uncontrolled dive after a struggle, not an intercept.
+
+175
+00:14:41,126 --> 00:14:44,778
+And all forty-four people aboard were positively identified through DNA.
+
+176
+00:14:44,778 --> 00:14:48,064
+Every piece of physical evidence points the same direction.
+
+177
+00:14:49,200 --> 00:14:50,687
+The Commission closes with this.
+
+178
+00:14:50,687 --> 00:14:55,150
+We are sure that the nation owes a debt to the passengers of United 93.
+
+179
+00:14:55,150 --> 00:15:01,399
+Their actions saved the lives of countless others, and may have saved either the Capitol or the White House from destruction.
+
+180
+00:15:02,533 --> 00:15:08,646
+So what stays with me about this one isn't the hijackers, or even the confusion in the sky above Washington that morning.
+
+181
+00:15:09,766 --> 00:15:20,450
+It's that the only reason we know any of this, the only reason there's a black box worth breaking down at all, is that forty people picked up a phone, learned the worst, and decided anyway.
+
+182
+00:15:21,600 --> 00:15:23,666
+No fighter jet saved that flight.
+
+183
+00:15:23,666 --> 00:15:27,799
+No general, no order, no chain of command got there in time.
+
+184
+00:15:27,799 --> 00:15:34,687
+The passengers of United 93 saved it, with a vote, a rush down a narrow aisle, and about ninety seconds.
+
+185
+00:15:35,833 --> 00:15:37,435
+This has been United 93.
+
+186
+00:15:37,435 --> 00:15:50,256
+If a black box capturing an institution's own confusion is the kind of story you came here for, wait until you see how one hidden piece of software doomed two more airliners full of people who never knew it existed.
+
+187
+00:15:50,256 --> 00:15:56,026
+Subscribe to Black Box Breakdown, for the true story behind every disaster, told from the black box out.
+
