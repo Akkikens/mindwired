@@ -1,0 +1,980 @@
+1
+00:00:00,333 --> 00:00:04,070
+It is the morning of July twenty fifth, two thousand.
+
+2
+00:00:04,070 --> 00:00:10,050
+At an airport outside Paris, a hundred holidaymakers are boarding the most beautiful aircraft ever built.
+
+3
+00:00:11,200 --> 00:00:19,402
+It is a machine that flies faster than a rifle bullet, on the edge of space, in a shape so perfect that grown engineers still call it a work of art.
+
+4
+00:00:20,533 --> 00:00:25,924
+In the cockpit sits Captain Christian Marty, a veteran pilot who once windsurfed across the Atlantic.
+
+5
+00:00:25,924 --> 00:00:30,642
+In ninety seconds, he will be fighting for the lives of everyone on board.
+
+6
+00:00:31,766 --> 00:00:37,914
+Because lying on the runway ahead, invisible to the crew, is a thin strip of metal no longer than a ruler.
+
+7
+00:00:37,914 --> 00:00:41,719
+And it is about to bring down the fastest airliner in the world.
+
+8
+00:00:42,866 --> 00:00:45,301
+One hundred and thirteen people will die.
+
+9
+00:00:45,301 --> 00:00:49,475
+And within three years, every Concorde on Earth will be grounded forever.
+
+10
+00:00:50,600 --> 00:00:54,934
+This is the story of a machine two nations built to touch the future.
+
+11
+00:00:54,934 --> 00:00:58,030
+How it became the most glamorous object in the sky.
+
+12
+00:00:58,030 --> 00:01:01,127
+And how a single, freak accident ended the supersonic age.
+
+13
+00:01:02,266 --> 00:01:03,755
+You're watching mindwired.
+
+14
+00:01:04,900 --> 00:01:06,781
+The rise and fall of Concorde.
+
+15
+00:01:07,900 --> 00:01:11,688
+Chapter one. Two nations, one impossible idea.
+
+16
+00:01:12,833 --> 00:01:19,599
+To understand Concorde, you have to go back to a time when the future felt like something you could build.
+
+17
+00:01:19,599 --> 00:01:23,321
+The nineteen fifties. The jet age. And a simple, intoxicating idea.
+
+18
+00:01:23,321 --> 00:01:26,704
+What if a passenger plane could fly faster than sound?
+
+19
+00:01:27,833 --> 00:01:31,188
+It was not a crazy idea. Fighter jets already flew supersonic.
+
+20
+00:01:31,188 --> 00:01:33,322
+The dream was to shrink the world.
+
+21
+00:01:33,322 --> 00:01:40,032
+To cross the Atlantic in the time it takes to watch a film, and land before you took off, by the clock.
+
+22
+00:01:41,166 --> 00:01:44,925
+But building it was almost impossibly hard, and almost impossibly expensive.
+
+23
+00:01:44,925 --> 00:01:49,368
+So hard that no single country could afford to fail at it alone.
+
+24
+00:01:50,500 --> 00:01:54,294
+Britain and France had each been quietly working on the same dream.
+
+25
+00:01:54,294 --> 00:01:57,139
+And in nineteen sixty two, they did something extraordinary.
+
+26
+00:01:57,139 --> 00:01:59,668
+They signed a treaty to build it together.
+
+27
+00:02:00,799 --> 00:02:04,118
+And that word matters. It was not a business contract.
+
+28
+00:02:04,118 --> 00:02:10,424
+It was a binding treaty between two governments, written so that pulling out would cost a fortune in penalties.
+
+29
+00:02:10,424 --> 00:02:15,401
+That single clause is the reason Concorde was never cancelled, even when everyone wanted to.
+
+30
+00:02:16,533 --> 00:02:21,444
+The British firm was the British Aircraft Corporation. The French, Sud Aviation.
+
+31
+00:02:21,444 --> 00:02:28,810
+Between them, hundreds of companies, tens of thousands of workers, two languages, two systems of measurement, one machine.
+
+32
+00:02:29,933 --> 00:02:32,302
+Even the name was a negotiation.
+
+33
+00:02:32,302 --> 00:02:36,250
+The French president, Charles de Gaulle, chose Concorde, meaning harmony.
+
+34
+00:02:36,250 --> 00:02:40,199
+Britain, prickly, dropped the French e and spelled it Concord.
+
+35
+00:02:41,333 --> 00:02:48,445
+For years it was a diplomatic sore point, until a British minister named Tony Benn quietly gave the e back.
+
+36
+00:02:48,445 --> 00:02:52,001
+It stood, he said, for excellence, England, Europe, and entente.
+
+37
+00:02:52,001 --> 00:02:56,980
+When a Scot complained, he added that the e was also for Écosse. Scotland.
+
+38
+00:02:58,099 --> 00:03:00,385
+But Britain and France were not alone.
+
+39
+00:03:00,385 --> 00:03:04,957
+This was the Cold War, and supersonic flight was a matter of national pride.
+
+40
+00:03:04,957 --> 00:03:07,895
+Two other giants were racing for the same prize.
+
+41
+00:03:09,033 --> 00:03:13,905
+In America, Boeing was designing a monster. The two seven oh seven.
+
+42
+00:03:13,905 --> 00:03:20,808
+Bigger, faster, meant to carry nearly three hundred people at almost three times the speed of sound.
+
+43
+00:03:20,808 --> 00:03:23,244
+On paper, it would crush Concorde.
+
+44
+00:03:24,366 --> 00:03:29,126
+But the American plane grew too heavy, too complex, and too expensive.
+
+45
+00:03:29,126 --> 00:03:35,076
+In nineteen seventy one, before a single prototype ever flew, Congress cut off its funding.
+
+46
+00:03:35,076 --> 00:03:39,439
+The American dream of supersonic travel was dead in the workshop.
+
+47
+00:03:40,566 --> 00:03:45,564
+The other rival was the Soviet Union. And they did something Concorde could not.
+
+48
+00:03:45,564 --> 00:03:46,992
+They got there first.
+
+49
+00:03:48,133 --> 00:03:53,517
+The Tupolev Tu one forty four looked so much like Concorde that the West nicknamed it Concordski.
+
+50
+00:03:53,517 --> 00:03:57,951
+It flew two months before Concorde, at the very end of nineteen sixty eight.
+
+51
+00:03:57,951 --> 00:04:00,802
+For a moment, the Soviets had won the race.
+
+52
+00:04:01,933 --> 00:04:10,858
+But in June nineteen seventy three, in front of a huge crowd at the Paris Air Show, a Tu one forty four broke apart in the sky and fell onto a village below.
+
+53
+00:04:10,858 --> 00:04:13,562
+Six crew and eight people on the ground were killed.
+
+54
+00:04:13,562 --> 00:04:15,726
+To this day, no one knows exactly why.
+
+55
+00:04:16,866 --> 00:04:21,637
+The Soviet supersonic dream never really recovered. Which left just one machine standing.
+
+56
+00:04:21,637 --> 00:04:24,572
+The one Britain and France had built together.
+
+57
+00:04:25,699 --> 00:04:27,501
+Chapter two. The machine.
+
+58
+00:04:28,633 --> 00:04:34,829
+On the second of March, nineteen sixty nine, in Toulouse, a slim white prototype rolled onto the runway.
+
+59
+00:04:34,829 --> 00:04:38,272
+At the controls was the French test pilot André Turcat.
+
+60
+00:04:39,399 --> 00:04:43,010
+For twenty eight minutes, Concorde flew for the first time.
+
+61
+00:04:43,010 --> 00:04:48,064
+A month later, the British prototype took off from Filton, flown by Brian Trubshaw.
+
+62
+00:04:48,064 --> 00:04:49,508
+The dream was airborne.
+
+63
+00:04:50,633 --> 00:04:55,689
+By late nineteen seventy, it had done what it was built to do. Mach two.
+
+64
+00:04:55,689 --> 00:04:57,374
+Twice the speed of sound.
+
+65
+00:04:57,374 --> 00:05:01,082
+And everything about how it got there was strange, and brilliant.
+
+66
+00:05:02,199 --> 00:05:03,367
+Start with the wing.
+
+67
+00:05:03,367 --> 00:05:08,327
+Not the long, straight wing of a normal jet, but a great sweeping triangle, an ogival delta.
+
+68
+00:05:08,327 --> 00:05:14,163
+It let Concorde slice through the air at twice the speed of sound, and still float gently down to land.
+
+69
+00:05:15,299 --> 00:05:16,402
+Then the engines.
+
+70
+00:05:16,402 --> 00:05:24,123
+Four Rolls-Royce Olympus turbojets, with afterburners, called reheat, that dumped raw fuel into the exhaust for a brutal kick of thrust.
+
+71
+00:05:24,123 --> 00:05:30,372
+Concorde is the only passenger plane ever to fly for decades with afterburners, like a fighter jet.
+
+72
+00:05:31,499 --> 00:05:36,254
+And the nose. To fly fast, Concorde needed a long, sharp, pointed nose.
+
+73
+00:05:36,254 --> 00:05:41,740
+But that nose blocked the pilots' view on landing. So the engineers made it move.
+
+74
+00:05:41,740 --> 00:05:47,225
+The famous droop nose, that tilted down for takeoff and landing, then raised for flight.
+
+75
+00:05:48,366 --> 00:05:50,293
+It cruised at sixty thousand feet.
+
+76
+00:05:50,293 --> 00:05:57,679
+So high that passengers could see the curve of the Earth, and the sky above them turning a deep, dark blue toward black.
+
+77
+00:05:57,679 --> 00:06:01,532
+You were, in every way that mattered, on the edge of space.
+
+78
+00:06:02,666 --> 00:06:07,693
+It flew so fast that friction heated its skin to over one hundred degrees Celsius.
+
+79
+00:06:07,693 --> 00:06:14,395
+The whole aircraft physically stretched, growing several inches longer in flight, then shrinking again as it cooled on the ground.
+
+80
+00:06:15,533 --> 00:06:21,395
+But all that magic came at a price. The afterburners drank fuel. The routes were limited.
+
+81
+00:06:21,395 --> 00:06:29,090
+And the whole programme cost a staggering amount, around one point three billion pounds, many times what anyone had first estimated.
+
+82
+00:06:30,233 --> 00:06:34,080
+There was one more limit, and it would quietly shape everything.
+
+83
+00:06:34,080 --> 00:06:41,074
+When Concorde went supersonic, it dragged a sonic boom across the ground below, a thunderclap that rattled windows for miles.
+
+84
+00:06:42,199 --> 00:06:46,075
+So country after country banned it from flying supersonic over land.
+
+85
+00:06:46,075 --> 00:06:51,360
+And that single fact meant Concorde could only truly stretch its legs over the ocean.
+
+86
+00:06:51,360 --> 00:06:56,645
+Its future, it turned out, would live and die on one route. Across the Atlantic.
+
+87
+00:06:57,766 --> 00:06:59,960
+Chapter three. The golden age.
+
+88
+00:07:01,099 --> 00:07:08,091
+On the twenty first of January, nineteen seventy six, at exactly the same moment, two Concordes took off.
+
+89
+00:07:08,091 --> 00:07:10,421
+One from London, one from Paris.
+
+90
+00:07:10,421 --> 00:07:15,858
+After all the years and all the billions, Concorde was finally carrying paying passengers.
+
+91
+00:07:16,999 --> 00:07:20,685
+Only two airlines ever flew it. British Airways, and Air France.
+
+92
+00:07:20,685 --> 00:07:24,705
+The national carriers of the two nations that had dreamed it up.
+
+93
+00:07:25,833 --> 00:07:29,418
+The prize was New York. But New York did not want it.
+
+94
+00:07:29,418 --> 00:07:32,106
+The airport authority banned Concorde, terrified of the noise.
+
+95
+00:07:32,106 --> 00:07:37,484
+It took a fight all the way to the United States Supreme Court to force the doors open.
+
+96
+00:07:38,633 --> 00:07:43,084
+In nineteen seventy seven, Concorde won. And the route that defined it began.
+
+97
+00:07:43,084 --> 00:07:47,535
+London and Paris, to New York, in around three and a half hours.
+
+98
+00:07:47,535 --> 00:07:51,302
+Less than half the time of any other airliner on Earth.
+
+99
+00:07:52,433 --> 00:07:57,874
+And Concorde became something no aircraft had ever been. Not just transport. A symbol.
+
+100
+00:07:57,874 --> 00:08:02,150
+Of glamour, of money, of a future that had actually arrived.
+
+101
+00:08:03,299 --> 00:08:08,863
+A ticket cost a fortune, well over ten thousand dollars round trip in its later years.
+
+102
+00:08:08,863 --> 00:08:13,035
+The cabin was small and narrow, but the passengers did not care.
+
+103
+00:08:13,035 --> 00:08:18,946
+Kings, presidents, film stars, rock stars, and bankers who simply had to be in Manhattan by lunchtime.
+
+104
+00:08:20,066 --> 00:08:27,361
+They drank champagne at the edge of space and watched the sky turn black, while the little display at the front of the cabin ticked past Mach two.
+
+105
+00:08:27,361 --> 00:08:29,705
+There has never been anything else quite like it.
+
+106
+00:08:30,833 --> 00:08:32,220
+And it was fast.
+
+107
+00:08:32,220 --> 00:08:42,280
+On the seventh of February, nineteen ninety six, a British Airways Concorde crossed the Atlantic, New York to London, in two hours, fifty two minutes, and fifty nine seconds.
+
+108
+00:08:42,280 --> 00:08:45,749
+A record for a passenger aircraft that still stands today.
+
+109
+00:08:46,866 --> 00:08:49,467
+For twenty four years, this was the picture.
+
+110
+00:08:49,467 --> 00:08:55,320
+The most beautiful machine in the sky, doing the impossible, every single day, as if it were nothing.
+
+111
+00:08:55,320 --> 00:08:59,222
+It felt permanent. It felt like the future was here to stay.
+
+112
+00:09:00,366 --> 00:09:04,365
+But there was a flaw. Hidden in the wing. In the tyres.
+
+113
+00:09:04,365 --> 00:09:07,032
+In physics no one had fully reckoned with.
+
+114
+00:09:07,032 --> 00:09:11,364
+And on one ordinary summer afternoon, it would all come due at once.
+
+115
+00:09:12,499 --> 00:09:14,772
+Chapter four. Ninety seconds.
+
+116
+00:09:15,899 --> 00:09:17,910
+July twenty fifth, two thousand. Paris.
+
+117
+00:09:17,910 --> 00:09:22,935
+A Concorde is being readied not for a scheduled airline flight, but for a charter.
+
+118
+00:09:22,935 --> 00:09:29,300
+A hundred passengers, most of them German tourists, on their way to New York to board a luxury cruise.
+
+119
+00:09:30,433 --> 00:09:33,366
+It is a happy flight. A holiday flight.
+
+120
+00:09:33,366 --> 00:09:40,699
+Families, couples, retirees, all of them about to ride the fastest airliner in the world for the very first time.
+
+121
+00:09:41,833 --> 00:09:45,380
+But minutes earlier, another aircraft had used the same runway.
+
+122
+00:09:45,380 --> 00:09:48,927
+A Continental Airlines DC ten, bound for the United States.
+
+123
+00:09:48,927 --> 00:09:57,794
+And as it took off, according to investigators, a thin strip of titanium metal fell from one of its engines, and lay on the tarmac.
+
+124
+00:09:58,933 --> 00:10:01,548
+Nobody saw it. Nobody swept it up.
+
+125
+00:10:01,548 --> 00:10:07,527
+It was just there, waiting, as Concorde lined up and the engines spooled to full power.
+
+126
+00:10:08,666 --> 00:10:10,704
+Concorde begins its take off roll.
+
+127
+00:10:10,704 --> 00:10:20,552
+It accelerates down the runway, faster and faster, past the point of no return, the speed pilots call V one, where you are committed to fly no matter what.
+
+128
+00:10:21,699 --> 00:10:27,182
+And then, at high speed, the left main tyre runs over the strip of metal. The tyre bursts.
+
+129
+00:10:27,182 --> 00:10:29,009
+Not a slow leak, an explosion.
+
+130
+00:10:29,009 --> 00:10:35,100
+A chunk of rubber weighing about four and a half kilograms is hurled up into the underside of the wing.
+
+131
+00:10:36,233 --> 00:10:41,175
+Here is the part that still astonishes engineers. The rubber did not pierce the fuel tank.
+
+132
+00:10:41,175 --> 00:10:42,720
+It did not have to.
+
+133
+00:10:42,720 --> 00:10:48,589
+The impact sent a violent shockwave through the fuel inside, and that pressure wave ruptured the tank from within.
+
+134
+00:10:49,733 --> 00:10:51,855
+Fuel pours out in a sheet.
+
+135
+00:10:51,855 --> 00:10:57,513
+And somewhere in the landing gear, investigators believe, an electric spark most likely set it alight.
+
+136
+00:10:57,513 --> 00:11:03,526
+In an instant, a trail of fire is streaming from the wing, longer than the aircraft itself.
+
+137
+00:11:04,666 --> 00:11:08,148
+In the cockpit, alarms. Two of the four engines lose power.
+
+138
+00:11:08,148 --> 00:11:11,313
+But Concorde is already past V one. It cannot stop.
+
+139
+00:11:11,313 --> 00:11:15,428
+It has no choice but to fly, on a wing that is burning.
+
+140
+00:11:16,566 --> 00:11:21,715
+Captain Marty and his crew do everything they can. They coax it into the air.
+
+141
+00:11:21,715 --> 00:11:24,117
+But the landing gear will not retract.
+
+142
+00:11:24,117 --> 00:11:28,579
+The drag is too great, the thrust too little, the fire too fierce.
+
+143
+00:11:28,579 --> 00:11:31,325
+The aircraft cannot climb, and it cannot accelerate.
+
+144
+00:11:32,466 --> 00:11:34,484
+For about ninety seconds, they fight.
+
+145
+00:11:34,484 --> 00:11:43,228
+And then, unable to stay in the air, Concorde rolls, and comes down onto a small hotel in the town of Gonesse, just outside the airport.
+
+146
+00:11:44,366 --> 00:11:47,631
+All one hundred passengers and nine crew on board are killed.
+
+147
+00:11:47,631 --> 00:11:50,600
+Four more people die on the ground, in the hotel.
+
+148
+00:11:50,600 --> 00:11:54,162
+One hundred and thirteen lives, gone, in a minute and a half.
+
+149
+00:11:55,299 --> 00:11:59,498
+It was the first fatal crash in Concorde's twenty four year history.
+
+150
+00:11:59,498 --> 00:12:06,845
+And the image of the world's safest-seeming, most glamorous aircraft trailing fire into the ground went around the world in hours.
+
+151
+00:12:07,966 --> 00:12:10,160
+Chapter five. The verdict.
+
+152
+00:12:11,299 --> 00:12:16,003
+The investigation fell to the BEA, France's official air accident bureau.
+
+153
+00:12:16,003 --> 00:12:22,418
+Their job was to reconstruct those ninety seconds, second by second, and answer one question.
+
+154
+00:12:22,418 --> 00:12:22,845
+Why?
+
+155
+00:12:23,966 --> 00:12:29,739
+The investigating body, the BEA, published an interim report within months, and its full findings soon after.
+
+156
+00:12:29,739 --> 00:12:32,795
+Its conclusion was precise, and devastating in its simplicity.
+
+157
+00:12:33,933 --> 00:12:38,854
+The chain began, the report found, with the metal strip from the Continental DC ten.
+
+158
+00:12:38,854 --> 00:12:43,118
+It burst the tyre. The tyre debris ruptured the tank. The fuel ignited.
+
+159
+00:12:43,118 --> 00:12:48,039
+And a routine take off became a catastrophe from which the crew could not recover.
+
+160
+00:12:49,166 --> 00:12:52,418
+It was, in the language of engineers, a freak accident.
+
+161
+00:12:52,418 --> 00:13:02,175
+A one in millions sequence, where a small piece of debris found the one vulnerability in an otherwise superb machine, at the one moment it could do the most harm.
+
+162
+00:13:03,299 --> 00:13:07,470
+The report also noted things that may have made a bad day worse.
+
+163
+00:13:07,470 --> 00:13:15,810
+The aircraft was reportedly a little over its maximum weight, with a tailwind, and questions were later raised about a missing spacer in the landing gear.
+
+164
+00:13:15,810 --> 00:13:19,338
+These remain debated. The core chain, the BEA was clear on.
+
+165
+00:13:20,466 --> 00:13:25,775
+The finding pointed at the Continental strip, and years later, a French court agreed.
+
+166
+00:13:25,775 --> 00:13:32,979
+In two thousand and ten, it convicted Continental Airlines and one of its mechanics, John Taylor, of involuntary manslaughter.
+
+167
+00:13:34,099 --> 00:13:36,313
+But that was not the end of it.
+
+168
+00:13:36,313 --> 00:13:39,633
+In two thousand and twelve, an appeals court overturned the criminal conviction.
+
+169
+00:13:39,633 --> 00:13:47,656
+It found that Taylor could not possibly have foreseen that so small a part could cause such a disaster, and that his mistake did not amount to a crime.
+
+170
+00:13:48,799 --> 00:13:54,957
+Continental was still held partly responsible in civil terms, and made to pay a share of the compensation.
+
+171
+00:13:54,957 --> 00:13:59,746
+But no one, in the end, was found criminally guilty of causing the crash.
+
+172
+00:13:59,746 --> 00:14:03,166
+It really was, as the engineers had said, an accident.
+
+173
+00:14:04,299 --> 00:14:07,785
+And here is the cruel irony at the heart of this story.
+
+174
+00:14:07,785 --> 00:14:09,818
+The crash was not really Concorde's fault.
+
+175
+00:14:09,818 --> 00:14:13,013
+The machine had flown flawlessly for a quarter of a century.
+
+176
+00:14:13,013 --> 00:14:16,498
+But the world would never quite see it the same way again.
+
+177
+00:14:17,633 --> 00:14:20,402
+Chapter six. The comeback that couldn't.
+
+178
+00:14:21,533 --> 00:14:26,002
+Weeks after the crash, regulators withdrew Concorde's certificate of airworthiness.
+
+179
+00:14:26,002 --> 00:14:32,258
+For the first time in twenty four years, every Concorde on Earth was grounded.
+
+180
+00:14:32,258 --> 00:14:34,046
+Not retired. Just, silent.
+
+181
+00:14:35,166 --> 00:14:38,701
+But British Airways and Air France were not ready to let it die.
+
+182
+00:14:38,701 --> 00:14:45,772
+They poured money and engineering into a fix, to make sure the one weakness that killed flight four five nine oh could never do it again.
+
+183
+00:14:46,899 --> 00:14:55,643
+The fuel tanks were lined with flexible Kevlar, the material used in bulletproof vests, so a burst tyre could never rupture them again.
+
+184
+00:14:55,643 --> 00:14:59,065
+Michelin built special burst-resistant tyres. The wiring was armoured.
+
+185
+00:14:59,065 --> 00:15:01,345
+It cost around seventeen million pounds.
+
+186
+00:15:02,466 --> 00:15:03,549
+And it worked.
+
+187
+00:15:03,549 --> 00:15:10,770
+On the seventh of November, two thousand and one, Concorde flew paying passengers again, across the Atlantic to New York.
+
+188
+00:15:10,770 --> 00:15:12,575
+The supersonic age was back.
+
+189
+00:15:13,699 --> 00:15:16,988
+But look at that date again. November two thousand and one.
+
+190
+00:15:16,988 --> 00:15:20,276
+Less than two months earlier, the eleventh of September had happened.
+
+191
+00:15:20,276 --> 00:15:24,461
+And the world Concorde was returning to was not the world it had left.
+
+192
+00:15:25,599 --> 00:15:27,457
+Concorde lived on one thing.
+
+193
+00:15:27,457 --> 00:15:34,885
+The willingness of the world's richest, busiest people to pay a fortune to save a few hours crossing the Atlantic.
+
+194
+00:15:34,885 --> 00:15:38,600
+After September eleventh, that trade collapsed. Premium travellers stayed home.
+
+195
+00:15:38,600 --> 00:15:40,828
+The famous cabin flew half empty.
+
+196
+00:15:41,966 --> 00:15:43,925
+Chapter seven. The decision.
+
+197
+00:15:45,066 --> 00:15:50,662
+There was a deeper problem too, one that had been growing for years. Concorde was old.
+
+198
+00:15:50,662 --> 00:15:57,657
+The fleet was built in the nineteen seventies, and keeping such a rare, extreme machine flying was becoming ruinously expensive.
+
+199
+00:15:58,799 --> 00:16:02,995
+And then came the blow that no amount of money could fix.
+
+200
+00:16:02,995 --> 00:16:07,889
+Airbus, the company that had inherited responsibility for supporting Concorde, announced it would stop.
+
+201
+00:16:07,889 --> 00:16:10,685
+No more spare parts. No more official support.
+
+202
+00:16:11,833 --> 00:16:18,976
+Without the manufacturer standing behind it, no airline could legally, or safely, keep Concorde in the air for long.
+
+203
+00:16:18,976 --> 00:16:22,360
+The decision, in truth, had been made for them.
+
+204
+00:16:23,499 --> 00:16:30,190
+On the tenth of April, two thousand and three, British Airways and Air France announced it together.
+
+205
+00:16:30,190 --> 00:16:33,339
+After twenty seven years, Concorde would be retired.
+
+206
+00:16:33,339 --> 00:16:38,455
+The chief executive of British Airways, Rod Eddington, called it a commercial decision.
+
+207
+00:16:38,455 --> 00:16:41,210
+Falling revenue, rising costs. A sad day.
+
+208
+00:16:42,333 --> 00:16:43,643
+Air France went first.
+
+209
+00:16:43,643 --> 00:16:48,885
+Its final commercial Concorde flight landed on the thirty first of May, two thousand and three.
+
+210
+00:16:48,885 --> 00:16:54,454
+In June, one last Air France Concorde flew home to Toulouse, where the whole story had begun.
+
+211
+00:16:55,599 --> 00:16:57,619
+British Airways held on until autumn.
+
+212
+00:16:57,619 --> 00:17:04,350
+And on the twenty fourth of October, two thousand and three, it staged a goodbye the world would never forget.
+
+213
+00:17:05,499 --> 00:17:09,230
+Three Concordes came home to London Heathrow within minutes of each other.
+
+214
+00:17:09,230 --> 00:17:17,933
+One from Edinburgh, one from a final supersonic loop over the Bay of Biscay, and the very last one carrying passengers, home from New York, one final time.
+
+215
+00:17:19,066 --> 00:17:23,412
+Tens of thousands of people lined the fences to watch. Grown men and women wept.
+
+216
+00:17:23,412 --> 00:17:26,309
+They knew they were not just watching a plane land.
+
+217
+00:17:26,309 --> 00:17:28,627
+They were watching the future being switched off.
+
+218
+00:17:29,766 --> 00:17:30,753
+One flight remained.
+
+219
+00:17:30,753 --> 00:17:42,594
+On the twenty sixth of November, two thousand and three, the last Concorde ever built made the last Concorde flight there would ever be, from Heathrow to Filton, the field where its British half was born.
+
+220
+00:17:42,594 --> 00:17:45,883
+Its wheels touched down, and the supersonic age was over.
+
+221
+00:17:47,033 --> 00:17:49,306
+Chapter eight. The silence since.
+
+222
+00:17:50,433 --> 00:17:52,941
+It has now been more than twenty years.
+
+223
+00:17:52,941 --> 00:17:58,583
+And in all that time, not a single passenger has flown faster than sound on a scheduled airline.
+
+224
+00:17:58,583 --> 00:18:03,599
+We went to the Moon, and came back. We built supersonic travel, and gave it up.
+
+225
+00:18:04,733 --> 00:18:08,694
+Why has nothing replaced it? The same reasons that always haunted Concorde.
+
+226
+00:18:08,694 --> 00:18:13,315
+It burned far too much fuel. It could only go supersonic over the sea.
+
+227
+00:18:13,315 --> 00:18:19,257
+And the market of people willing to pay for pure speed was always, in the end, too small.
+
+228
+00:18:20,399 --> 00:18:25,953
+Today the survivors sit still, in museums around the world. New York and Seattle.
+
+229
+00:18:25,953 --> 00:18:29,919
+Bristol and Manchester. Paris and Barbados. Beautiful, silent, going nowhere.
+
+230
+00:18:29,919 --> 00:18:35,472
+Children press their hands against the glass and cannot believe it was ever real.
+
+231
+00:18:36,599 --> 00:18:37,968
+There are new attempts.
+
+232
+00:18:37,968 --> 00:18:48,230
+A company called Boom is building a supersonic airliner, and in twenty twenty five its small test jet became the first civilian aircraft to break the sound barrier since Concorde.
+
+233
+00:18:48,230 --> 00:18:50,966
+Maybe the dream is not dead. Only sleeping.
+
+234
+00:18:52,099 --> 00:18:56,132
+What stays with me about Concorde is not the crash. Crashes happen.
+
+235
+00:18:56,132 --> 00:18:59,492
+What stays with me is the choice we made afterward.
+
+236
+00:19:00,633 --> 00:19:05,797
+For twenty seven years, ordinary people could look up and see the future flying overhead.
+
+237
+00:19:05,797 --> 00:19:10,272
+Twice the speed of sound. On the edge of space. Real, and routine.
+
+238
+00:19:11,399 --> 00:19:17,350
+And then, quietly, we decided it cost too much. We had the technology to fly like that.
+
+239
+00:19:17,350 --> 00:19:20,150
+We still do. We simply chose to stop.
+
+240
+00:19:21,299 --> 00:19:25,124
+Concorde is the only time in history that human travel got slower.
+
+241
+00:19:25,124 --> 00:19:32,453
+A reminder that progress is not a straight line, and that some futures, once switched off, are very hard to switch back on.
+
+242
+00:19:33,599 --> 00:19:38,124
+If the story of Concorde moved you, there is another mindwired film you should see next.
+
+243
+00:19:38,124 --> 00:19:41,801
+The story of twenty one astronauts who left Earth, and never came home.
+
+244
+00:19:41,801 --> 00:19:46,608
+It is on screen now. And if you want more stories like this one, subscribe to mindwired.
+
+245
+00:19:47,733 --> 00:19:49,535
+Subscribe to mindwired.
+

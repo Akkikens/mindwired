@@ -1,0 +1,894 @@
+{
+  "slug": "concorde",
+  "title": "The Rise and Fall of Concorde",
+  "channel": "mindwired",
+  "niche": "aviation",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "It is the morning of July twenty fifth, two thousand. At an airport outside Paris, a hundred holidaymakers are boarding the most beautiful aircraft ever built.",
+      "img": "cdg_morning",
+      "query": "Paris Charles de Gaulle airport terminal exterior morning",
+      "stock": true,
+      "stat": "25 JULY 2000",
+      "cap": "A dream flight to New York.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h2",
+      "text": "It is a machine that flies faster than a rifle bullet, on the edge of space, in a shape so perfect that grown engineers still call it a work of art.",
+      "img": "concorde_flight",
+      "query": "Concorde aircraft in flight side profile",
+      "cap": "Faster than a rifle bullet.",
+      "motion": "slow",
+      "tone": "awe"
+    },
+    {
+      "id": "h3",
+      "text": "In the cockpit sits Captain Christian Marty, a veteran pilot who once windsurfed across the Atlantic. In ninety seconds, he will be fighting for the lives of everyone on board.",
+      "img": "concorde_cockpit",
+      "query": "Concorde cockpit instruments analog",
+      "cap": "Captain Christian Marty.",
+      "tone": "fear"
+    },
+    {
+      "id": "h4",
+      "text": "Because lying on the runway ahead, invisible to the crew, is a thin strip of metal no longer than a ruler. And it is about to bring down the fastest airliner in the world.",
+      "img": "runway_strip",
+      "query": "airport runway tarmac close up asphalt",
+      "stock": true,
+      "cap": "A strip of metal on the runway.",
+      "motion": "slow",
+      "tone": "dread"
+    },
+    {
+      "id": "h5",
+      "text": "One hundred and thirteen people will die. And within three years, every Concorde on Earth will be grounded forever.",
+      "kinetic": {
+        "count": 113,
+        "countLabel": "lives lost",
+        "words": [
+          "Grounded.",
+          "Forever."
+        ]
+      },
+      "extraHold": 24,
+      "tone": "shock"
+    },
+    {
+      "id": "h6",
+      "text": "This is the story of a machine two nations built to touch the future. How it became the most glamorous object in the sky. And how a single, freak accident ended the supersonic age.",
+      "img": "concorde_sunset",
+      "query": "Concorde aircraft silhouette sunset sky",
+      "cap": "The rise, and the fall.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "sting",
+      "sting": true,
+      "text": "You're watching mindwired.",
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "text": "The rise and fall of Concorde.",
+      "chapter": "THE RISE AND FALL\nOF CONCORDE"
+    },
+    {
+      "id": "c1",
+      "text": "Chapter one. Two nations, one impossible idea.",
+      "chapter": "1 \u2014 TWO NATIONS,\nONE IMPOSSIBLE IDEA"
+    },
+    {
+      "id": "a1",
+      "text": "To understand Concorde, you have to go back to a time when the future felt like something you could build. The nineteen fifties. The jet age. And a simple, intoxicating idea. What if a passenger plane could fly faster than sound?",
+      "img": "jet_age",
+      "query": "1950s airliner vintage aviation propeller jet",
+      "stock": true,
+      "cap": "The jet age.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2",
+      "text": "It was not a crazy idea. Fighter jets already flew supersonic. The dream was to shrink the world. To cross the Atlantic in the time it takes to watch a film, and land before you took off, by the clock.",
+      "img": "world_shrink",
+      "query": "vintage world map atlantic ocean airline route",
+      "stock": true,
+      "cap": "Shrink the world.",
+      "tone": "awe"
+    },
+    {
+      "id": "a3",
+      "text": "But building it was almost impossibly hard, and almost impossibly expensive. So hard that no single country could afford to fail at it alone.",
+      "img": "engineers_desk",
+      "query": "vintage engineers drafting blueprints 1960s",
+      "stock": true,
+      "cap": "Too big for one country.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a4",
+      "text": "Britain and France had each been quietly working on the same dream. And in nineteen sixty two, they did something extraordinary. They signed a treaty to build it together.",
+      "img": "treaty_signing",
+      "query": "men signing document 1960s formal ceremony",
+      "stock": true,
+      "stat": "TREATY \u00b7 29 NOV 1962",
+      "cap": "Not a contract. A treaty.",
+      "tone": "confidence"
+    },
+    {
+      "id": "a5",
+      "text": "And that word matters. It was not a business contract. It was a binding treaty between two governments, written so that pulling out would cost a fortune in penalties. That single clause is the reason Concorde was never cancelled, even when everyone wanted to.",
+      "img": "treaty_doc",
+      "query": "official government treaty document paper 1960s",
+      "stock": true,
+      "cap": "Too expensive to cancel.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6",
+      "text": "The British firm was the British Aircraft Corporation. The French, Sud Aviation. Between them, hundreds of companies, tens of thousands of workers, two languages, two systems of measurement, one machine.",
+      "img": "factory_1960s",
+      "query": "1960s aircraft factory assembly line workers",
+      "stock": true,
+      "cap": "Two nations. One machine.",
+      "tone": "confidence"
+    },
+    {
+      "id": "a7",
+      "text": "Even the name was a negotiation. The French president, Charles de Gaulle, chose Concorde, meaning harmony. Britain, prickly, dropped the French e and spelled it Concord.",
+      "img": "degaulle",
+      "query": "Charles de Gaulle 1960s portrait french president",
+      "stock": true,
+      "cap": "Concorde, or Concord?",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a8",
+      "text": "For years it was a diplomatic sore point, until a British minister named Tony Benn quietly gave the e back. It stood, he said, for excellence, England, Europe, and entente. When a Scot complained, he added that the e was also for \u00c9cosse. Scotland.",
+      "img": "tony_benn",
+      "query": "1960s British government minister press conference",
+      "stock": true,
+      "cap": "The e came back.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a9",
+      "text": "But Britain and France were not alone. This was the Cold War, and supersonic flight was a matter of national pride. Two other giants were racing for the same prize.",
+      "img": "coldwar_sky",
+      "query": "cold war era jets flight formation vintage",
+      "stock": true,
+      "cap": "It was a race.",
+      "tone": "tension"
+    },
+    {
+      "id": "a10",
+      "text": "In America, Boeing was designing a monster. The two seven oh seven. Bigger, faster, meant to carry nearly three hundred people at almost three times the speed of sound. On paper, it would crush Concorde.",
+      "img": "boeing_sst",
+      "query": "Boeing 2707 supersonic transport model prototype",
+      "stock": true,
+      "cap": "Boeing's supersonic giant.",
+      "tone": "tension"
+    },
+    {
+      "id": "a11",
+      "text": "But the American plane grew too heavy, too complex, and too expensive. In nineteen seventy one, before a single prototype ever flew, Congress cut off its funding. The American dream of supersonic travel was dead in the workshop.",
+      "img": "boeing_cancel",
+      "query": "1970s US congress capitol building vintage",
+      "stock": true,
+      "stat": "BOEING SST CANCELLED \u00b7 1971",
+      "cap": "Dead before it flew.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a12",
+      "text": "The other rival was the Soviet Union. And they did something Concorde could not. They got there first.",
+      "img": "tu144",
+      "query": "Tupolev Tu-144 supersonic aircraft soviet",
+      "cap": "The Soviets got there first.",
+      "tone": "tension"
+    },
+    {
+      "id": "a13",
+      "text": "The Tupolev Tu one forty four looked so much like Concorde that the West nicknamed it Concordski. It flew two months before Concorde, at the very end of nineteen sixty eight. For a moment, the Soviets had won the race.",
+      "img": "tu144_flight",
+      "query": "Tupolev Tu-144 in flight museum",
+      "cap": "\"Concordski.\"",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a14",
+      "text": "But in June nineteen seventy three, in front of a huge crowd at the Paris Air Show, a Tu one forty four broke apart in the sky and fell onto a village below. Six crew and eight people on the ground were killed. To this day, no one knows exactly why.",
+      "img": "paris_airshow",
+      "query": "Tupolev Tu-144 Paris Air Show 1973",
+      "stat": "PARIS \u00b7 3 JUNE 1973",
+      "cap": "It fell out of the sky.",
+      "motion": "slow",
+      "tone": "dread"
+    },
+    {
+      "id": "a15",
+      "text": "The Soviet supersonic dream never really recovered. Which left just one machine standing. The one Britain and France had built together.",
+      "img": "concorde_lone",
+      "query": "Concorde aircraft alone on runway parked",
+      "cap": "One machine left standing.",
+      "tone": "confidence",
+      "stock": true
+    },
+    {
+      "id": "c2",
+      "text": "Chapter two. The machine.",
+      "chapter": "2 \u2014 THE MACHINE"
+    },
+    {
+      "id": "b1",
+      "text": "On the second of March, nineteen sixty nine, in Toulouse, a slim white prototype rolled onto the runway. At the controls was the French test pilot Andr\u00e9 Turcat.",
+      "img": "turcat",
+      "query": "Concorde 001 prototype French test pilot 1969",
+      "stat": "FIRST FLIGHT \u00b7 2 MAR 1969",
+      "cap": "Andr\u00e9 Turcat, test pilot.",
+      "tone": "awe",
+      "stock": true
+    },
+    {
+      "id": "b2",
+      "text": "For twenty eight minutes, Concorde flew for the first time. A month later, the British prototype took off from Filton, flown by Brian Trubshaw. The dream was airborne.",
+      "img": "concorde_takeoff_hist",
+      "query": "Concorde prototype takeoff vintage 1969",
+      "cap": "The dream was airborne.",
+      "tone": "awe"
+    },
+    {
+      "id": "b3",
+      "text": "By late nineteen seventy, it had done what it was built to do. Mach two. Twice the speed of sound. And everything about how it got there was strange, and brilliant.",
+      "img": "mach2",
+      "query": "Concorde high altitude flight above clouds",
+      "stat": "MACH 2",
+      "cap": "Twice the speed of sound.",
+      "tone": "awe"
+    },
+    {
+      "id": "b4",
+      "text": "Start with the wing. Not the long, straight wing of a normal jet, but a great sweeping triangle, an ogival delta. It let Concorde slice through the air at twice the speed of sound, and still float gently down to land.",
+      "img": "delta_wing",
+      "query": "Concorde delta wing top view planform",
+      "cap": "The ogival delta wing.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b5",
+      "text": "Then the engines. Four Rolls-Royce Olympus turbojets, with afterburners, called reheat, that dumped raw fuel into the exhaust for a brutal kick of thrust. Concorde is the only passenger plane ever to fly for decades with afterburners, like a fighter jet.",
+      "img": "olympus_engine",
+      "query": "Concorde Olympus 593 engine close up",
+      "cap": "Afterburners. Like a fighter.",
+      "tone": "confidence",
+      "stock": true
+    },
+    {
+      "id": "b6",
+      "text": "And the nose. To fly fast, Concorde needed a long, sharp, pointed nose. But that nose blocked the pilots' view on landing. So the engineers made it move. The famous droop nose, that tilted down for takeoff and landing, then raised for flight.",
+      "img": "droop_nose",
+      "query": "Concorde droop nose lowered close up",
+      "cap": "The droop nose.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b7",
+      "text": "It cruised at sixty thousand feet. So high that passengers could see the curve of the Earth, and the sky above them turning a deep, dark blue toward black. You were, in every way that mattered, on the edge of space.",
+      "img": "curvature",
+      "query": "curvature of the earth from high altitude dark blue sky",
+      "stock": true,
+      "stat": "60,000 FEET",
+      "cap": "The edge of space.",
+      "motion": "slow",
+      "tone": "awe"
+    },
+    {
+      "id": "b8",
+      "text": "It flew so fast that friction heated its skin to over one hundred degrees Celsius. The whole aircraft physically stretched, growing several inches longer in flight, then shrinking again as it cooled on the ground.",
+      "img": "skin_heat",
+      "query": "aircraft aluminium fuselage skin panels detail",
+      "stock": true,
+      "cap": "It stretched as it flew.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b9",
+      "text": "But all that magic came at a price. The afterburners drank fuel. The routes were limited. And the whole programme cost a staggering amount, around one point three billion pounds, many times what anyone had first estimated.",
+      "img": "cost",
+      "query": "1970s money finance vintage british pounds",
+      "stock": true,
+      "stat": "~\u00a31.3 BILLION",
+      "cap": "Far over budget.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b10",
+      "text": "There was one more limit, and it would quietly shape everything. When Concorde went supersonic, it dragged a sonic boom across the ground below, a thunderclap that rattled windows for miles.",
+      "img": "sonic_boom",
+      "query": "sound wave shock diagram supersonic aircraft",
+      "cap": "It dragged thunder behind it.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b11",
+      "text": "So country after country banned it from flying supersonic over land. And that single fact meant Concorde could only truly stretch its legs over the ocean. Its future, it turned out, would live and die on one route. Across the Atlantic.",
+      "img": "atlantic_route",
+      "query": "north atlantic ocean aerial from high altitude",
+      "stock": true,
+      "cap": "Banned over land.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c3",
+      "text": "Chapter three. The golden age.",
+      "chapter": "3 \u2014 THE\nGOLDEN AGE"
+    },
+    {
+      "id": "g1",
+      "text": "On the twenty first of January, nineteen seventy six, at exactly the same moment, two Concordes took off. One from London, one from Paris. After all the years and all the billions, Concorde was finally carrying paying passengers.",
+      "img": "service_1976",
+      "query": "Concorde British Airways Air France 1976 vintage service",
+      "stat": "IN SERVICE \u00b7 21 JAN 1976",
+      "cap": "London and Paris, together.",
+      "tone": "awe"
+    },
+    {
+      "id": "g2",
+      "text": "Only two airlines ever flew it. British Airways, and Air France. The national carriers of the two nations that had dreamed it up.",
+      "img": "ba_af",
+      "query": "British Airways Air France Concorde livery tail",
+      "cap": "Just two airlines.",
+      "tone": "confidence"
+    },
+    {
+      "id": "g3",
+      "text": "The prize was New York. But New York did not want it. The airport authority banned Concorde, terrified of the noise. It took a fight all the way to the United States Supreme Court to force the doors open.",
+      "img": "jfk_fight",
+      "query": "1970s New York JFK airport vintage protest",
+      "stock": true,
+      "cap": "New York said no.",
+      "tone": "tension"
+    },
+    {
+      "id": "g4",
+      "text": "In nineteen seventy seven, Concorde won. And the route that defined it began. London and Paris, to New York, in around three and a half hours. Less than half the time of any other airliner on Earth.",
+      "img": "nyc_arrival",
+      "query": "Concorde landing airport runway 1970s vintage",
+      "stat": "LONDON\u2013NY \u00b7 3.5 HOURS",
+      "cap": "Half the time. Twice the speed.",
+      "tone": "awe",
+      "stock": true
+    },
+    {
+      "id": "g5",
+      "text": "And Concorde became something no aircraft had ever been. Not just transport. A symbol. Of glamour, of money, of a future that had actually arrived.",
+      "img": "glamour",
+      "query": "1980s luxury travel first class champagne vintage",
+      "stock": true,
+      "cap": "More than a plane.",
+      "tone": "awe"
+    },
+    {
+      "id": "g6",
+      "text": "A ticket cost a fortune, well over ten thousand dollars round trip in its later years. The cabin was small and narrow, but the passengers did not care. Kings, presidents, film stars, rock stars, and bankers who simply had to be in Manhattan by lunchtime.",
+      "img": "celebrity",
+      "query": "Concorde first class cabin passengers vintage 1980s",
+      "stock": true,
+      "stat": "$10,000+ ROUND TRIP",
+      "cap": "The most exclusive cabin on Earth.",
+      "tone": "confidence"
+    },
+    {
+      "id": "g7",
+      "text": "They drank champagne at the edge of space and watched the sky turn black, while the little display at the front of the cabin ticked past Mach two. There has never been anything else quite like it.",
+      "img": "cabin_mach",
+      "query": "Concorde cabin interior seats vintage",
+      "cap": "Champagne at Mach 2.",
+      "tone": "awe"
+    },
+    {
+      "id": "g8",
+      "text": "And it was fast. On the seventh of February, nineteen ninety six, a British Airways Concorde crossed the Atlantic, New York to London, in two hours, fifty two minutes, and fifty nine seconds. A record for a passenger aircraft that still stands today.",
+      "img": "record_flight",
+      "query": "Concorde British Airways in flight speed",
+      "stat": "2h 52m 59s \u00b7 1996",
+      "cap": "A record never beaten.",
+      "tone": "awe"
+    },
+    {
+      "id": "g9",
+      "text": "For twenty four years, this was the picture. The most beautiful machine in the sky, doing the impossible, every single day, as if it were nothing. It felt permanent. It felt like the future was here to stay.",
+      "img": "concorde_glory",
+      "query": "Concorde flying above clouds golden light",
+      "cap": "It felt permanent.",
+      "motion": "slow",
+      "tone": "awe"
+    },
+    {
+      "id": "g10",
+      "text": "But there was a flaw. Hidden in the wing. In the tyres. In physics no one had fully reckoned with. And on one ordinary summer afternoon, it would all come due at once.",
+      "img": "wing_shadow",
+      "query": "Concorde wing underside detail",
+      "cap": "There was a flaw.",
+      "extraHold": 24,
+      "tone": "dread"
+    },
+    {
+      "id": "c4",
+      "text": "Chapter four. Ninety seconds.",
+      "chapter": "4 \u2014 NINETY\nSECONDS"
+    },
+    {
+      "id": "d1",
+      "text": "July twenty fifth, two thousand. Paris. A Concorde is being readied not for a scheduled airline flight, but for a charter. A hundred passengers, most of them German tourists, on their way to New York to board a luxury cruise.",
+      "img": "charter_day",
+      "query": "airport departure lounge tourists vintage 2000",
+      "stock": true,
+      "stat": "AF 4590",
+      "cap": "A charter to New York.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "d2",
+      "text": "It is a happy flight. A holiday flight. Families, couples, retirees, all of them about to ride the fastest airliner in the world for the very first time.",
+      "img": "tourists",
+      "query": "tourists boarding aircraft vintage happy",
+      "stock": true,
+      "cap": "The trip of a lifetime.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "d3",
+      "text": "But minutes earlier, another aircraft had used the same runway. A Continental Airlines DC ten, bound for the United States. And as it took off, according to investigators, a thin strip of titanium metal fell from one of its engines, and lay on the tarmac.",
+      "img": "dc10",
+      "query": "Continental Airlines DC-10 aircraft vintage",
+      "stock": true,
+      "cap": "A strip of metal falls.",
+      "tone": "dread"
+    },
+    {
+      "id": "d4",
+      "text": "Nobody saw it. Nobody swept it up. It was just there, waiting, as Concorde lined up and the engines spooled to full power.",
+      "img": "runway_wait",
+      "query": "airport runway empty perspective vanishing point",
+      "stock": true,
+      "cap": "Nobody saw it.",
+      "motion": "slow",
+      "tone": "dread"
+    },
+    {
+      "id": "d5",
+      "text": "Concorde begins its take off roll. It accelerates down the runway, faster and faster, past the point of no return, the speed pilots call V one, where you are committed to fly no matter what.",
+      "img": "takeoff_roll",
+      "query": "aircraft takeoff roll runway speed motion blur",
+      "stock": true,
+      "cap": "Past the point of no return.",
+      "tone": "tension"
+    },
+    {
+      "id": "d6",
+      "text": "And then, at high speed, the left main tyre runs over the strip of metal. The tyre bursts. Not a slow leak, an explosion. A chunk of rubber weighing about four and a half kilograms is hurled up into the underside of the wing.",
+      "img": "tyre_burst",
+      "query": "Concorde landing gear tyre wheel detail",
+      "cap": "The tyre explodes.",
+      "tone": "shock"
+    },
+    {
+      "id": "d7",
+      "text": "Here is the part that still astonishes engineers. The rubber did not pierce the fuel tank. It did not have to. The impact sent a violent shockwave through the fuel inside, and that pressure wave ruptured the tank from within.",
+      "img": "tank_diagram",
+      "query": "aircraft fuel tank wing structure diagram",
+      "cap": "It ruptured from the inside.",
+      "motion": "slow",
+      "tone": "fear"
+    },
+    {
+      "id": "d8",
+      "text": "Fuel pours out in a sheet. And somewhere in the landing gear, investigators believe, an electric spark most likely set it alight. In an instant, a trail of fire is streaming from the wing, longer than the aircraft itself.",
+      "img": "fire_trail",
+      "query": "jet engine flame afterburner fire dramatic",
+      "stock": true,
+      "cap": "A trail of fire.",
+      "tone": "shock"
+    },
+    {
+      "id": "d9",
+      "text": "In the cockpit, alarms. Two of the four engines lose power. But Concorde is already past V one. It cannot stop. It has no choice but to fly, on a wing that is burning.",
+      "img": "cockpit_alarm",
+      "query": "aircraft cockpit warning lights red",
+      "stock": true,
+      "cap": "No choice but to fly.",
+      "tone": "fear"
+    },
+    {
+      "id": "d10",
+      "text": "Captain Marty and his crew do everything they can. They coax it into the air. But the landing gear will not retract. The drag is too great, the thrust too little, the fire too fierce. The aircraft cannot climb, and it cannot accelerate.",
+      "img": "struggle",
+      "query": "aircraft low altitude struggling flight dramatic sky",
+      "stock": true,
+      "cap": "It could not climb.",
+      "tone": "fear"
+    },
+    {
+      "id": "d11",
+      "text": "For about ninety seconds, they fight. And then, unable to stay in the air, Concorde rolls, and comes down onto a small hotel in the town of Gonesse, just outside the airport.",
+      "img": "gonesse",
+      "query": "Gonesse France town aerial view",
+      "stock": true,
+      "cap": "Gonesse. Ninety seconds.",
+      "motion": "slow",
+      "tone": "grief"
+    },
+    {
+      "id": "d12",
+      "text": "All one hundred passengers and nine crew on board are killed. Four more people die on the ground, in the hotel. One hundred and thirteen lives, gone, in a minute and a half.",
+      "kinetic": {
+        "count": 113,
+        "countLabel": "lives lost",
+        "sub": "100 passengers \u00b7 9 crew \u00b7 4 on the ground"
+      },
+      "extraHold": 30,
+      "tone": "grief"
+    },
+    {
+      "id": "d13",
+      "text": "It was the first fatal crash in Concorde's twenty four year history. And the image of the world's safest-seeming, most glamorous aircraft trailing fire into the ground went around the world in hours.",
+      "img": "news_world",
+      "query": "television news studio broadcast anchor desk vintage",
+      "stock": true,
+      "cap": "The first crash in 24 years.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c5",
+      "text": "Chapter five. The verdict.",
+      "chapter": "5 \u2014 THE\nVERDICT"
+    },
+    {
+      "id": "v1",
+      "text": "The investigation fell to the BEA, France's official air accident bureau. Their job was to reconstruct those ninety seconds, second by second, and answer one question. Why?",
+      "img": "bea_office",
+      "query": "accident investigation laboratory aircraft parts",
+      "stock": true,
+      "cap": "France's accident bureau.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "v2",
+      "text": "The investigating body, the BEA, published an interim report within months, and its full findings soon after. Its conclusion was precise, and devastating in its simplicity.",
+      "img": "bea_report",
+      "query": "official government report document pages",
+      "stock": true,
+      "stat": "BEA OFFICIAL INVESTIGATION",
+      "cap": "The final report.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "ex_bea",
+      "exhibit": true,
+      "img": "ex_bea_cover",
+      "source": "BEA \u00b7 Interim Report f-sc000725ae \u00b7 15 Dec 2000",
+      "highlight": [
+        0.42,
+        0.3,
+        0.55,
+        0.3
+      ],
+      "text": "The chain began, the report found, with the metal strip from the Continental DC ten. It burst the tyre. The tyre debris ruptured the tank. The fuel ignited. And a routine take off became a catastrophe from which the crew could not recover.",
+      "cap": "The chain of events.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "v3",
+      "text": "It was, in the language of engineers, a freak accident. A one in millions sequence, where a small piece of debris found the one vulnerability in an otherwise superb machine, at the one moment it could do the most harm.",
+      "img": "debris_evidence",
+      "query": "metal fragment evidence forensic close up",
+      "stock": true,
+      "cap": "A one-in-millions sequence.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "v4",
+      "text": "The report also noted things that may have made a bad day worse. The aircraft was reportedly a little over its maximum weight, with a tailwind, and questions were later raised about a missing spacer in the landing gear. These remain debated. The core chain, the BEA was clear on.",
+      "img": "gear_detail",
+      "query": "aircraft landing gear bogie detail mechanical",
+      "stock": true,
+      "cap": "Contributing factors, still debated.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "v5",
+      "text": "The finding pointed at the Continental strip, and years later, a French court agreed. In two thousand and ten, it convicted Continental Airlines and one of its mechanics, John Taylor, of involuntary manslaughter.",
+      "img": "court_2010",
+      "query": "french courthouse building exterior",
+      "stock": true,
+      "stat": "CONVICTED \u00b7 2010",
+      "cap": "A criminal conviction.",
+      "tone": "tension"
+    },
+    {
+      "id": "v6",
+      "text": "But that was not the end of it. In two thousand and twelve, an appeals court overturned the criminal conviction. It found that Taylor could not possibly have foreseen that so small a part could cause such a disaster, and that his mistake did not amount to a crime.",
+      "img": "court_appeal",
+      "query": "courtroom justice scales gavel",
+      "stock": true,
+      "stat": "OVERTURNED \u00b7 2012",
+      "cap": "Cleared on appeal.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "v7",
+      "text": "Continental was still held partly responsible in civil terms, and made to pay a share of the compensation. But no one, in the end, was found criminally guilty of causing the crash. It really was, as the engineers had said, an accident.",
+      "img": "aftermath_quiet",
+      "query": "memorial flowers quiet somber",
+      "stock": true,
+      "cap": "In the end, an accident.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "v8",
+      "text": "And here is the cruel irony at the heart of this story. The crash was not really Concorde's fault. The machine had flown flawlessly for a quarter of a century. But the world would never quite see it the same way again.",
+      "img": "concorde_grounded_shadow",
+      "query": "Concorde parked hangar shadow moody",
+      "cap": "The world saw it differently now.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c6",
+      "text": "Chapter six. The comeback that couldn't.",
+      "chapter": "6 \u2014 THE COMEBACK\nTHAT COULDN'T"
+    },
+    {
+      "id": "r1",
+      "text": "Weeks after the crash, regulators withdrew Concorde's certificate of airworthiness. For the first time in twenty four years, every Concorde on Earth was grounded. Not retired. Just, silent.",
+      "img": "grounded",
+      "query": "Concorde parked on tarmac empty airport",
+      "stat": "GROUNDED \u00b7 AUG 2000",
+      "cap": "Silent, for the first time.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "r2",
+      "text": "But British Airways and Air France were not ready to let it die. They poured money and engineering into a fix, to make sure the one weakness that killed flight four five nine oh could never do it again.",
+      "img": "engineers_fix",
+      "query": "aircraft engineers working wing maintenance",
+      "stock": true,
+      "cap": "They refused to let it die.",
+      "tone": "confidence"
+    },
+    {
+      "id": "r3",
+      "text": "The fuel tanks were lined with flexible Kevlar, the material used in bulletproof vests, so a burst tyre could never rupture them again. Michelin built special burst-resistant tyres. The wiring was armoured. It cost around seventeen million pounds.",
+      "img": "kevlar_mod",
+      "query": "kevlar material aerospace engineering detail",
+      "stock": true,
+      "stat": "~\u00a317 MILLION IN FIXES",
+      "cap": "Kevlar tanks. New tyres.",
+      "tone": "confidence"
+    },
+    {
+      "id": "r4",
+      "text": "And it worked. On the seventh of November, two thousand and one, Concorde flew paying passengers again, across the Atlantic to New York. The supersonic age was back.",
+      "img": "return_flight",
+      "query": "Concorde takeoff triumphant sky",
+      "stat": "RETURN \u00b7 7 NOV 2001",
+      "cap": "The supersonic age returns.",
+      "tone": "hope"
+    },
+    {
+      "id": "r5",
+      "text": "But look at that date again. November two thousand and one. Less than two months earlier, the eleventh of September had happened. And the world Concorde was returning to was not the world it had left.",
+      "img": "post_911",
+      "query": "New York City skyline aerial view",
+      "stock": true,
+      "cap": "The world had changed.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "r6",
+      "text": "Concorde lived on one thing. The willingness of the world's richest, busiest people to pay a fortune to save a few hours crossing the Atlantic. After September eleventh, that trade collapsed. Premium travellers stayed home. The famous cabin flew half empty.",
+      "img": "empty_cabin",
+      "query": "empty airplane cabin seats dim",
+      "stock": true,
+      "cap": "The cabin flew half empty.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c7",
+      "text": "Chapter seven. The decision.",
+      "chapter": "7 \u2014 THE\nDECISION"
+    },
+    {
+      "id": "s1",
+      "text": "There was a deeper problem too, one that had been growing for years. Concorde was old. The fleet was built in the nineteen seventies, and keeping such a rare, extreme machine flying was becoming ruinously expensive.",
+      "img": "aging_fleet",
+      "query": "aircraft maintenance hangar mechanic engine",
+      "stock": true,
+      "cap": "The fleet was aging.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "s2",
+      "text": "And then came the blow that no amount of money could fix. Airbus, the company that had inherited responsibility for supporting Concorde, announced it would stop. No more spare parts. No more official support.",
+      "img": "airbus",
+      "query": "Airbus factory aircraft manufacturing",
+      "stock": true,
+      "cap": "Airbus pulled its support.",
+      "tone": "dread"
+    },
+    {
+      "id": "s3",
+      "text": "Without the manufacturer standing behind it, no airline could legally, or safely, keep Concorde in the air for long. The decision, in truth, had been made for them.",
+      "img": "decision",
+      "query": "boardroom meeting executives serious",
+      "stock": true,
+      "cap": "The decision was made for them.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "s4",
+      "text": "On the tenth of April, two thousand and three, British Airways and Air France announced it together. After twenty seven years, Concorde would be retired. The chief executive of British Airways, Rod Eddington, called it a commercial decision. Falling revenue, rising costs. A sad day.",
+      "img": "announce_2003",
+      "query": "press conference 2003 airline executives",
+      "stock": true,
+      "stat": "RETIREMENT \u00b7 10 APR 2003",
+      "cap": "After 27 years.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "s5",
+      "text": "Air France went first. Its final commercial Concorde flight landed on the thirty first of May, two thousand and three. In June, one last Air France Concorde flew home to Toulouse, where the whole story had begun.",
+      "img": "af_last",
+      "query": "Air France Concorde F-BTSD final flight",
+      "stat": "AIR FRANCE \u00b7 MAY 2003",
+      "cap": "Air France bows out.",
+      "motion": "slow",
+      "tone": "melancholy",
+      "stock": true
+    },
+    {
+      "id": "s6",
+      "text": "British Airways held on until autumn. And on the twenty fourth of October, two thousand and three, it staged a goodbye the world would never forget.",
+      "img": "ba_farewell",
+      "query": "airport crowd fence watching plane farewell",
+      "stat": "BA FINAL DAY \u00b7 24 OCT 2003",
+      "cap": "One last goodbye.",
+      "tone": "melancholy",
+      "stock": true
+    },
+    {
+      "id": "s7",
+      "text": "Three Concordes came home to London Heathrow within minutes of each other. One from Edinburgh, one from a final supersonic loop over the Bay of Biscay, and the very last one carrying passengers, home from New York, one final time.",
+      "img": "three_heathrow",
+      "query": "Concorde landing Heathrow crowd 2003",
+      "cap": "Three came home together.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "s8",
+      "text": "Tens of thousands of people lined the fences to watch. Grown men and women wept. They knew they were not just watching a plane land. They were watching the future being switched off.",
+      "img": "crowd_weep",
+      "query": "crowd watching airport fence emotional",
+      "stock": true,
+      "cap": "The future, switched off.",
+      "motion": "slow",
+      "tone": "grief"
+    },
+    {
+      "id": "s9",
+      "text": "One flight remained. On the twenty sixth of November, two thousand and three, the last Concorde ever built made the last Concorde flight there would ever be, from Heathrow to Filton, the field where its British half was born. Its wheels touched down, and the supersonic age was over.",
+      "img": "last_flight",
+      "query": "Concorde final landing Filton Bristol",
+      "stat": "LAST FLIGHT \u00b7 26 NOV 2003",
+      "cap": "The last flight.",
+      "motion": "slow",
+      "tone": "grief"
+    },
+    {
+      "id": "c8",
+      "text": "Chapter eight. The silence since.",
+      "chapter": "8 \u2014 THE\nSILENCE SINCE"
+    },
+    {
+      "id": "e1",
+      "text": "It has now been more than twenty years. And in all that time, not a single passenger has flown faster than sound on a scheduled airline. We went to the Moon, and came back. We built supersonic travel, and gave it up.",
+      "img": "empty_sky",
+      "query": "empty blue sky contrails high altitude",
+      "stock": true,
+      "cap": "Twenty years of subsonic sky.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e2",
+      "text": "Why has nothing replaced it? The same reasons that always haunted Concorde. It burned far too much fuel. It could only go supersonic over the sea. And the market of people willing to pay for pure speed was always, in the end, too small.",
+      "img": "reasons",
+      "query": "airliner modern subsonic cruise clouds",
+      "stock": true,
+      "cap": "The same old reasons.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e3",
+      "text": "Today the survivors sit still, in museums around the world. New York and Seattle. Bristol and Manchester. Paris and Barbados. Beautiful, silent, going nowhere. Children press their hands against the glass and cannot believe it was ever real.",
+      "img": "museum",
+      "query": "Concorde museum display preserved aircraft",
+      "cap": "Silent, in museums.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e4",
+      "text": "There are new attempts. A company called Boom is building a supersonic airliner, and in twenty twenty five its small test jet became the first civilian aircraft to break the sound barrier since Concorde. Maybe the dream is not dead. Only sleeping.",
+      "img": "boom",
+      "query": "modern supersonic jet prototype test flight",
+      "stock": true,
+      "cap": "Maybe only sleeping.",
+      "tone": "hope"
+    },
+    {
+      "id": "coda1",
+      "text": "What stays with me about Concorde is not the crash. Crashes happen. What stays with me is the choice we made afterward.",
+      "img": "coda_concorde",
+      "query": "Concorde nose profile parked museum",
+      "cap": "It's not the crash.",
+      "motion": "slow",
+      "tone": "melancholy",
+      "stock": true
+    },
+    {
+      "id": "coda2",
+      "text": "For twenty seven years, ordinary people could look up and see the future flying overhead. Twice the speed of sound. On the edge of space. Real, and routine.",
+      "img": "coda_sky",
+      "query": "Concorde flying overhead contrail sky",
+      "cap": "The future flew overhead.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda3",
+      "text": "And then, quietly, we decided it cost too much. We had the technology to fly like that. We still do. We simply chose to stop.",
+      "img": "coda_still",
+      "query": "Concorde aircraft parked silent museum display",
+      "cap": "We chose to stop.",
+      "motion": "slow",
+      "tone": "melancholy",
+      "stock": true
+    },
+    {
+      "id": "coda4",
+      "text": "Concorde is the only time in history that human travel got slower. A reminder that progress is not a straight line, and that some futures, once switched off, are very hard to switch back on.",
+      "img": "coda_final",
+      "query": "Concorde silhouette sunset horizon",
+      "cap": "The one time we went backward.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "bridge",
+      "text": "If the story of Concorde moved you, there is another mindwired film you should see next. The story of twenty one astronauts who left Earth, and never came home. It is on screen now. And if you want more stories like this one, subscribe to mindwired.",
+      "img": "bridge_stars",
+      "query": "stars deep space nebula cinematic",
+      "stock": true,
+      "cap": "Watch next: 21 Astronauts.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "end",
+      "text": "Subscribe to mindwired.",
+      "chapter": "SUBSCRIBE"
+    }
+  ]
+}

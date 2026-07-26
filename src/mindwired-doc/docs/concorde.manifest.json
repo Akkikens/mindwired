@@ -1,0 +1,536 @@
+{
+ "durations": {
+  "h1": 9.717,
+  "h2": 8.202,
+  "h3": 10.109,
+  "h4": 9.953,
+  "h5": 6.609,
+  "h6": 10.527,
+  "sting": 1.489,
+  "title": 1.881,
+  "c1": 3.788,
+  "a1": 13.871,
+  "a2": 12.199,
+  "a3": 8.202,
+  "a4": 9.169,
+  "a5": 14.602,
+  "a6": 12.277,
+  "a7": 10.266,
+  "a8": 15.647,
+  "a9": 9.796,
+  "a10": 14.211,
+  "a11": 15.073,
+  "a12": 6.426,
+  "a13": 12.669,
+  "a14": 13.793,
+  "a15": 7.706,
+  "c2": 1.802,
+  "b1": 9.639,
+  "b2": 10.109,
+  "b3": 10.449,
+  "b4": 11.964,
+  "b5": 15.073,
+  "b6": 15.726,
+  "b7": 13.166,
+  "b8": 11.729,
+  "b9": 13.557,
+  "b10": 10.841,
+  "b11": 14.446,
+  "c3": 2.194,
+  "g1": 14.759,
+  "g2": 7.706,
+  "g3": 11.651,
+  "g4": 12.669,
+  "g5": 9.717,
+  "g6": 15.647,
+  "g7": 9.639,
+  "g8": 14.916,
+  "g9": 12.356,
+  "g10": 10.998,
+  "c4": 2.273,
+  "d1": 13.401,
+  "d2": 10.266,
+  "d3": 15.961,
+  "d4": 8.594,
+  "d5": 11.886,
+  "d6": 13.401,
+  "d7": 12.356,
+  "d8": 13.793,
+  "d9": 10.762,
+  "d10": 14.759,
+  "d11": 10.762,
+  "d12": 9.796,
+  "d13": 11.546,
+  "c5": 2.194,
+  "v1": 11.546,
+  "v2": 8.829,
+  "ex_bea": 14.106,
+  "v3": 13.009,
+  "v4": 16.039,
+  "v5": 12.513,
+  "v6": 13.557,
+  "v7": 14.367,
+  "v8": 12.199,
+  "c6": 2.769,
+  "r1": 12.513,
+  "r2": 10.606,
+  "r3": 14.446,
+  "r4": 10.109,
+  "r5": 10.762,
+  "r6": 15.229,
+  "c7": 1.959,
+  "s1": 12.591,
+  "s2": 11.886,
+  "s3": 10.527,
+  "s4": 17.711,
+  "s5": 12.121,
+  "s6": 8.751,
+  "s7": 12.434,
+  "s8": 9.561,
+  "s9": 16.117,
+  "c8": 2.273,
+  "e1": 13.166,
+  "e2": 14.524,
+  "e3": 15.073,
+  "e4": 14.367,
+  "coda1": 7.393,
+  "coda2": 9.639,
+  "coda3": 8.751,
+  "coda4": 11.154,
+  "bridge": 13.009,
+  "end": 1.802
+ },
+ "images": {
+  "af_last": [
+   "af_last_1.jpeg",
+   "af_last_2.jpeg",
+   "af_last_3.jpeg"
+  ],
+  "aftermath_quiet": [
+   "aftermath_quiet_1.jpeg",
+   "aftermath_quiet_2.jpeg",
+   "aftermath_quiet_3.jpeg"
+  ],
+  "aging_fleet": [
+   "aging_fleet_1.jpeg",
+   "aging_fleet_2.jpeg",
+   "aging_fleet_3.jpeg"
+  ],
+  "airbus": [
+   "airbus_1.jpeg",
+   "airbus_2.jpeg",
+   "airbus_3.jpeg"
+  ],
+  "announce_2003": [
+   "announce_2003_1.jpeg",
+   "announce_2003_2.jpeg",
+   "announce_2003_3.jpeg"
+  ],
+  "atlantic_route": [
+   "atlantic_route_1.jpeg",
+   "atlantic_route_2.jpeg",
+   "atlantic_route_3.jpeg"
+  ],
+  "ba_af": [
+   "ba_af_1.png",
+   "ba_af_2.jpeg",
+   "ba_af_3.jpeg"
+  ],
+  "ba_farewell": [
+   "ba_farewell_1.jpeg",
+   "ba_farewell_2.jpeg",
+   "ba_farewell_3.jpeg"
+  ],
+  "bea_office": [
+   "bea_office_1.jpeg",
+   "bea_office_2.jpeg",
+   "bea_office_3.jpeg"
+  ],
+  "bea_report": [
+   "bea_report_1.jpeg",
+   "bea_report_2.jpg",
+   "bea_report_3.jpg"
+  ],
+  "boeing_cancel": [
+   "boeing_cancel_1.jpeg",
+   "boeing_cancel_2.jpeg",
+   "boeing_cancel_3.jpeg"
+  ],
+  "boeing_sst": [
+   "boeing_sst_1.jpeg",
+   "boeing_sst_2.jpeg",
+   "boeing_sst_3.jpeg"
+  ],
+  "boom": [
+   "boom_1.jpeg",
+   "boom_2.jpeg",
+   "boom_3.jpeg"
+  ],
+  "bridge_stars": [
+   "bridge_stars_1.jpeg",
+   "bridge_stars_2.jpeg",
+   "bridge_stars_3.jpeg"
+  ],
+  "cabin_mach": [
+   "cabin_mach_1.jpeg",
+   "cabin_mach_2.jpeg",
+   "cabin_mach_3.jpeg"
+  ],
+  "cdg_morning": [
+   "cdg_morning_1.jpeg",
+   "cdg_morning_2.jpeg",
+   "cdg_morning_3.jpeg"
+  ],
+  "celebrity": [
+   "celebrity_1.jpeg",
+   "celebrity_2.jpeg",
+   "celebrity_3.jpg"
+  ],
+  "charter_day": [
+   "charter_day_1.jpeg",
+   "charter_day_2.jpeg",
+   "charter_day_3.jpeg"
+  ],
+  "cockpit_alarm": [
+   "cockpit_alarm_1.jpeg",
+   "cockpit_alarm_2.jpeg",
+   "cockpit_alarm_3.jpeg"
+  ],
+  "coda_concorde": [
+   "coda_concorde_1.jpeg",
+   "coda_concorde_2.jpeg",
+   "coda_concorde_3.jpg"
+  ],
+  "coda_final": [
+   "coda_final_1.jpeg",
+   "coda_final_2.jpeg",
+   "coda_final_3.jpeg"
+  ],
+  "coda_sky": [
+   "coda_sky_1.jpeg",
+   "coda_sky_2.jpeg",
+   "coda_sky_3.jpeg"
+  ],
+  "coda_still": [
+   "coda_still_1.jpeg",
+   "coda_still_2.jpeg",
+   "coda_still_3.jpeg"
+  ],
+  "coldwar_sky": [
+   "coldwar_sky_1.jpeg",
+   "coldwar_sky_2.jpeg",
+   "coldwar_sky_3.jpeg"
+  ],
+  "concorde_cockpit": [
+   "concorde_cockpit_1.jpeg",
+   "concorde_cockpit_2.jpeg",
+   "concorde_cockpit_3.jpeg"
+  ],
+  "concorde_flight": [
+   "concorde_flight_1.jpg",
+   "concorde_flight_2.jpeg",
+   "concorde_flight_3.jpeg"
+  ],
+  "concorde_glory": [
+   "concorde_glory_1.jpeg",
+   "concorde_glory_2.jpeg",
+   "concorde_glory_3.jpeg"
+  ],
+  "concorde_grounded_shadow": [
+   "concorde_grounded_shadow_1.jpeg",
+   "concorde_grounded_shadow_2.jpeg",
+   "concorde_grounded_shadow_3.jpeg"
+  ],
+  "concorde_lone": [
+   "concorde_lone_1.jpeg",
+   "concorde_lone_2.jpeg",
+   "concorde_lone_3.jpeg"
+  ],
+  "concorde_sunset": [
+   "concorde_sunset_1.jpeg",
+   "concorde_sunset_2.jpeg",
+   "concorde_sunset_3.jpeg"
+  ],
+  "concorde_takeoff_hist": [
+   "concorde_takeoff_hist_1.jpeg",
+   "concorde_takeoff_hist_2.jpeg",
+   "concorde_takeoff_hist_3.jpeg"
+  ],
+  "cost": [
+   "cost_1.jpeg",
+   "cost_2.jpeg",
+   "cost_3.jpeg"
+  ],
+  "court_2010": [
+   "court_2010_1.jpeg",
+   "court_2010_2.jpeg",
+   "court_2010_3.jpeg"
+  ],
+  "court_appeal": [
+   "court_appeal_1.jpeg",
+   "court_appeal_2.jpeg",
+   "court_appeal_3.jpeg"
+  ],
+  "crowd_weep": [
+   "crowd_weep_1.jpeg",
+   "crowd_weep_2.jpeg",
+   "crowd_weep_3.jpeg"
+  ],
+  "curvature": [
+   "curvature_1.jpeg",
+   "curvature_2.jpeg",
+   "curvature_3.jpeg"
+  ],
+  "dc10": [
+   "dc10_1.jpeg",
+   "dc10_2.jpeg",
+   "dc10_3.jpeg"
+  ],
+  "debris_evidence": [
+   "debris_evidence_1.jpeg",
+   "debris_evidence_2.jpeg",
+   "debris_evidence_3.jpeg"
+  ],
+  "decision": [
+   "decision_1.jpeg",
+   "decision_2.jpeg",
+   "decision_3.jpeg"
+  ],
+  "degaulle": [
+   "degaulle_1.jpeg",
+   "degaulle_2.jpg",
+   "degaulle_3.jpg"
+  ],
+  "delta_wing": [
+   "delta_wing_1.jpeg",
+   "delta_wing_2.jpeg",
+   "delta_wing_3.jpeg"
+  ],
+  "droop_nose": [
+   "droop_nose_1.jpeg",
+   "droop_nose_2.jpeg",
+   "droop_nose_3.jpeg"
+  ],
+  "empty_cabin": [
+   "empty_cabin_1.jpeg",
+   "empty_cabin_2.jpeg",
+   "empty_cabin_3.jpeg"
+  ],
+  "empty_sky": [
+   "empty_sky_1.jpeg",
+   "empty_sky_2.jpeg",
+   "empty_sky_3.jpeg"
+  ],
+  "engineers_desk": [
+   "engineers_desk_1.jpeg",
+   "engineers_desk_2.jpeg",
+   "engineers_desk_3.jpeg"
+  ],
+  "engineers_fix": [
+   "engineers_fix_1.jpeg",
+   "engineers_fix_2.jpeg",
+   "engineers_fix_3.jpeg"
+  ],
+  "ex_bea_cover": [
+   "ex_bea_cover_1.jpg"
+  ],
+  "factory_1960s": [
+   "factory_1960s_1.jpeg",
+   "factory_1960s_2.jpeg",
+   "factory_1960s_3.jpeg"
+  ],
+  "fire_trail": [
+   "fire_trail_1.jpeg",
+   "fire_trail_2.jpeg",
+   "fire_trail_3.jpeg"
+  ],
+  "gear_detail": [
+   "gear_detail_1.jpeg",
+   "gear_detail_2.jpeg",
+   "gear_detail_3.jpeg"
+  ],
+  "glamour": [
+   "glamour_1.jpeg",
+   "glamour_2.jpeg",
+   "glamour_3.jpeg"
+  ],
+  "gonesse": [
+   "gonesse_1.jpeg",
+   "gonesse_2.jpeg",
+   "gonesse_3.jpeg"
+  ],
+  "grounded": [
+   "grounded_1.jpeg",
+   "grounded_2.jpeg",
+   "grounded_3.jpeg"
+  ],
+  "jet_age": [
+   "jet_age_1.jpeg",
+   "jet_age_2.jpeg",
+   "jet_age_3.jpeg"
+  ],
+  "jfk_fight": [
+   "jfk_fight_1.jpeg",
+   "jfk_fight_2.jpeg",
+   "jfk_fight_3.jpeg"
+  ],
+  "kevlar_mod": [
+   "kevlar_mod_1.jpeg",
+   "kevlar_mod_2.jpeg",
+   "kevlar_mod_3.jpeg"
+  ],
+  "last_flight": [
+   "last_flight_1.jpg",
+   "last_flight_2.jpeg",
+   "last_flight_3.jpeg"
+  ],
+  "mach2": [
+   "mach2_1.jpeg",
+   "mach2_2.jpeg",
+   "mach2_3.jpeg"
+  ],
+  "museum": [
+   "museum_1.jpg",
+   "museum_2.jpg",
+   "museum_3.jpg"
+  ],
+  "news_world": [
+   "news_world_1.jpeg",
+   "news_world_2.jpeg",
+   "news_world_3.jpeg"
+  ],
+  "nyc_arrival": [
+   "nyc_arrival_1.jpeg",
+   "nyc_arrival_2.jpeg",
+   "nyc_arrival_3.jpeg"
+  ],
+  "olympus_engine": [
+   "olympus_engine_1.jpeg",
+   "olympus_engine_2.jpeg",
+   "olympus_engine_3.jpeg"
+  ],
+  "paris_airshow": [
+   "paris_airshow_1.jpg",
+   "paris_airshow_2.jpg",
+   "paris_airshow_3.jpg"
+  ],
+  "post_911": [
+   "post_911_1.jpeg",
+   "post_911_2.jpeg",
+   "post_911_3.png"
+  ],
+  "reasons": [
+   "reasons_1.jpeg",
+   "reasons_2.jpeg",
+   "reasons_3.jpeg"
+  ],
+  "record_flight": [
+   "record_flight_1.jpg",
+   "record_flight_2.jpg",
+   "record_flight_3.jpg"
+  ],
+  "return_flight": [
+   "return_flight_1.jpeg",
+   "return_flight_2.jpeg",
+   "return_flight_3.jpeg"
+  ],
+  "runway_strip": [
+   "runway_strip_1.jpeg",
+   "runway_strip_2.jpeg",
+   "runway_strip_3.jpeg"
+  ],
+  "runway_wait": [
+   "runway_wait_1.jpeg",
+   "runway_wait_2.jpeg",
+   "runway_wait_3.jpeg"
+  ],
+  "service_1976": [
+   "service_1976_1.png",
+   "service_1976_2.jpeg",
+   "service_1976_3.jpeg"
+  ],
+  "skin_heat": [
+   "skin_heat_1.jpeg",
+   "skin_heat_2.jpeg",
+   "skin_heat_3.jpeg"
+  ],
+  "sonic_boom": [
+   "sonic_boom_1.jpeg",
+   "sonic_boom_2.jpeg",
+   "sonic_boom_3.png"
+  ],
+  "struggle": [
+   "struggle_1.jpeg",
+   "struggle_2.jpeg",
+   "struggle_3.jpeg"
+  ],
+  "takeoff_roll": [
+   "takeoff_roll_1.jpeg",
+   "takeoff_roll_2.jpeg",
+   "takeoff_roll_3.jpeg"
+  ],
+  "tank_diagram": [
+   "tank_diagram_1.jpeg",
+   "tank_diagram_2.jpeg",
+   "tank_diagram_3.jpg"
+  ],
+  "three_heathrow": [
+   "three_heathrow_1.jpeg",
+   "three_heathrow_2.jpeg",
+   "three_heathrow_3.jpeg"
+  ],
+  "tony_benn": [
+   "tony_benn_1.jpeg",
+   "tony_benn_2.jpeg",
+   "tony_benn_3.jpeg"
+  ],
+  "tourists": [
+   "tourists_1.jpeg",
+   "tourists_2.jpeg",
+   "tourists_3.jpeg"
+  ],
+  "treaty_doc": [
+   "treaty_doc_1.jpeg",
+   "treaty_doc_2.jpeg",
+   "treaty_doc_3.jpeg"
+  ],
+  "treaty_signing": [
+   "treaty_signing_1.jpeg",
+   "treaty_signing_2.jpeg",
+   "treaty_signing_3.jpeg"
+  ],
+  "tu144": [
+   "tu144_1.jpg",
+   "tu144_2.jpg",
+   "tu144_3.jpg"
+  ],
+  "tu144_flight": [
+   "tu144_flight_1.jpg",
+   "tu144_flight_2.jpg",
+   "tu144_flight_3.jpg"
+  ],
+  "turcat": [
+   "turcat_1.jpeg",
+   "turcat_2.jpeg",
+   "turcat_3.jpg"
+  ],
+  "tyre_burst": [
+   "tyre_burst_1.jpeg",
+   "tyre_burst_2.jpeg",
+   "tyre_burst_3.jpeg"
+  ],
+  "wing_shadow": [
+   "wing_shadow_1.jpeg",
+   "wing_shadow_2.jpeg",
+   "wing_shadow_3.jpeg"
+  ],
+  "world_shrink": [
+   "world_shrink_1.jpeg",
+   "world_shrink_2.jpeg",
+   "world_shrink_3.jpeg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.96,
+ "mouth": {}
+}
