@@ -23,8 +23,8 @@ const BODY = "'Inter', sans-serif";
 const HOOK_S = 2.5, PAD = 0.15;
 const OUTRO_F = 268; // vertical mindwired outro (8.94s @30), baked on the end
 
-type Scene = { id: string; text?: string; img?: string; cap?: string; stat?: string;
-  speaker?: string; radioLabel?: string; depth?: number };
+type Scene = { id: string; text?: string; img?: string; video?: string; videoFrom?: number;
+  cap?: string; stat?: string; speaker?: string; radioLabel?: string; depth?: number };
 type Doc = { scenes: Scene[] };
 type Manifest = { durations: Record<string, number>; images: Record<string, string[]> };
 type Props = { startId: string; endId: string; hook: string;
@@ -84,7 +84,12 @@ const ClipScene: React.FC<{ s: Scene; idx: number; dur: number; slug: string; m:
   });
   return (
     <AbsoluteFill style={{ backgroundColor: "#05070C" }}>
-      {file ? (
+      {s.video ? (
+        <OffthreadVideo src={staticFile(`shorts/${slug}/video/${s.video}`)} muted
+          startFrom={Math.round((s.videoFrom ?? 0) * FPS)}
+          style={{ width: "100%", height: "100%", objectFit: "cover",
+            transform: `scale(${interpolate(t, [0, 1], [1.0, 1.08])})`, filter: "saturate(0.92) contrast(1.08)" }} />
+      ) : file ? (
         <Img src={staticFile(`shorts/${slug}/images/${file}`)}
           style={{ width: "100%", height: "100%", objectFit: "cover",
             transform: `scale(${scale}) translateX(${dx}px)`, filter: "saturate(0.9) contrast(1.08)" }} />

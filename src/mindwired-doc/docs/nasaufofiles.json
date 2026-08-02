@@ -1,0 +1,459 @@
+{
+ "slug": "nasaufofiles",
+ "title": "NASA's Real UFO Files: What the Government Actually Found",
+ "language": "en",
+ "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+ "channel": "mindwired",
+ "niche": "space",
+ "scenes": [
+  {
+   "id": "h1",
+   "text": "November fourteenth, two thousand four. Off the coast of San Diego. Commander David Fravor takes off from the U.S.S. Nimitz to investigate something on radar that shouldn't be there.",
+   "video": "nimitz_1.mp4",
+   "videoQuery": "Nimitz aircraft carrier F/A-18 flight operations",
+   "stat": "NOV 14, 2004 · USS NIMITZ",
+   "cap": "Something on radar that shouldn't be there.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "h2",
+   "text": "What he finds is a smooth, white, forty foot object. No wings. No engines. No exhaust. Hovering over the ocean like it's sitting on glass.",
+   "img": "ocean_generic",
+   "query": "ocean surface aerial view calm water",
+   "stock": true,
+   "stat": "40 FEET · NO WINGS · NO ENGINE",
+   "cap": "Forty feet. No wings. No engine.",
+   "tone": "fear"
+  },
+  {
+   "id": "h3",
+   "text": "He flies toward it. It mirrors him. Then, in seconds, it's gone.",
+   "video": "fa18_1.mp4",
+   "videoQuery": "F/A-18 Super Hornet flight aerial",
+   "cap": "It mirrored him. Then it was gone.",
+   "tone": "fear"
+  },
+  {
+   "id": "h4",
+   "text": "\"I think it was not from this world,\" Fravor said later. \"I'm not crazy, haven't been drinking. After eighteen years of flying, this was nothing close to anything I've seen.\"",
+   "img": "pilot_portrait",
+   "query": "fighter pilot portrait serious flight suit",
+   "stock": true,
+   "cap": "\"I think it was not from this world.\"",
+   "tone": "curiosity"
+  },
+  {
+   "id": "h5",
+   "text": "Nineteen years later, the U.S. government finally admitted it takes this seriously. Not with a cover-up. With a report.",
+   "img": "nasa_building",
+   "query": "NASA headquarters building exterior",
+   "stock": true,
+   "cap": "Not a cover-up. A report.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "h6",
+   "text": "This is what that report actually says, what the real videos actually show, and what a whistleblower told Congress under oath, that the government's own investigators say has never been proven.",
+   "img": "capitol_generic",
+   "query": "US Capitol building congress exterior",
+   "stock": true,
+   "cap": "What's real. What isn't. What's still open.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "sting",
+   "sting": true,
+   "text": "You're watching mindwired.",
+   "tone": "confidence"
+  },
+  {
+   "id": "title",
+   "text": "NASA's real UFO files. What the government actually found.",
+   "img": "nasa_building",
+   "query": "NASA press conference room",
+   "stock": true,
+   "chapter": "NASA'S REAL UFO FILES:\nWHAT THE GOVERNMENT\nACTUALLY FOUND",
+   "tone": "curiosity"
+  },
+  {
+   "id": "c1",
+   "text": "Chapter one. The report nobody expected.",
+   "img": "nasa_building",
+   "query": "NASA scientists meeting conference room",
+   "stock": true,
+   "chapter": "1 — THE REPORT\nNOBODY EXPECTED"
+  },
+  {
+   "id": "a1",
+   "text": "September fourteenth, twenty twenty three. NASA holds a press conference and releases something it has never released before. A real, sixteen member scientific report on U.A.P., unidentified anomalous phenomena. What used to be called U.F.O.s.",
+   "exhibit": true,
+   "img": "ex_nasa_report",
+   "source": "NASA UAP Independent Study Team Report, Introduction, p.9",
+   "highlight": [0.1, 0.15, 0.8, 0.15],
+   "stat": "SEPT 14, 2023",
+   "cap": "NASA's first-ever public UAP report.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a2",
+   "text": "The team includes astrophysicists, data scientists, aviation safety officials from the F.A.A., a science journalist, and a former NASA astronaut, Scott Kelly. This isn't a fringe committee. It's mainstream science, pointed at a subject it usually avoids.",
+   "img": "scientists_meeting",
+   "query": "scientists panel discussion conference table",
+   "stock": true,
+   "cap": "Mainstream scientists, pointed at UFOs.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a3",
+   "text": "Their job was never to re-investigate old sightings. It was to build a roadmap: what data already exists, what data NASA should collect next, and how its own satellites, radar, and A.I. tools could finally study this properly.",
+   "img": "satellite_generic",
+   "query": "earth observation satellite space",
+   "stock": true,
+   "cap": "Not old sightings. A roadmap for real data.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a4",
+   "text": "The report's actual conclusion is almost boring, compared to the headlines. Most sightings, it says, have ordinary explanations. What's left over isn't unexplained because it's extraordinary. It's unexplained because the data is bad.",
+   "exhibit": true,
+   "img": "ex_nasa_report",
+   "query": "NASA UAP report document page",
+   "source": "NASA UAP Independent Study Team Report, p.9",
+   "highlight": [0.1, 0.3, 0.8, 0.15],
+   "cap": "\"The data needed to explain these...often do not exist.\"",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a5",
+   "text": "You've probably heard the number: two to five percent of cases are truly anomalous. That statistic is not in NASA's report. Not on any page. It was a Pentagon official talking to reporters, not the scientists who wrote this document.",
+   "img": "press_conference",
+   "query": "press conference microphones reporters",
+   "stock": true,
+   "stat": "THE 2-5% FIGURE: NOT IN THE REPORT",
+   "cap": "That number isn't from the report. It's from the Pentagon.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a6",
+   "text": "The report frames the whole question around airspace safety, not alien contact. It wants pilots to report what they see, the same way they report a bird strike or a near miss, without being laughed out of the room.",
+   "img": "airport_radar",
+   "query": "air traffic control radar screen",
+   "stock": true,
+   "cap": "Airspace safety, not alien contact.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "c2",
+   "text": "Chapter two. The Tic Tac.",
+   "video": "nimitz_2.mp4",
+   "videoQuery": "aircraft carrier flight deck operations",
+   "chapter": "2 — THE\nTIC TAC"
+  },
+  {
+   "id": "b1",
+   "text": "Back to two thousand four. For two weeks before Fravor's flight, a radar operator on the cruiser U.S.S. Princeton had been tracking something strange. Objects, he said, that dropped eighty thousand feet in under a second.",
+   "img": "radar_room",
+   "query": "naval radar operations room console",
+   "stock": true,
+   "stat": "2 WEEKS OF UNUSUAL RADAR CONTACTS",
+   "cap": "Tracked for two weeks before anyone flew toward it.",
+   "tone": "tension"
+  },
+  {
+   "id": "b2",
+   "text": "Fravor's wingman that day was Alex Dietrich. She saw it too: disturbed white water on the ocean surface, and something hovering just above it with no predictable movement at all.",
+   "img": "fa18_cockpit",
+   "query": "fighter jet cockpit pilot view",
+   "stock": true,
+   "cap": "\"No predictable movement, no predictable trajectory.\"",
+   "tone": "tension"
+  },
+  {
+   "id": "b3",
+   "text": "About ninety minutes later, a second crew launched, and this time, a camera was rolling. Infrared footage, recorded by the jet's own targeting pod. This became the video now known as FLIR one.",
+   "video": "flir1_real.mp4",
+   "videoFrom": 2,
+   "stat": "REAL FOOTAGE · US NAVY, 2004",
+   "cap": "Real footage · the actual 2004 sensor video.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "b4",
+   "text": "This footage sat in classified limbo, then leaked online for over a decade. The Pentagon didn't officially release it, and confirm it was real, until April twenty twenty.",
+   "img": "pentagon_building",
+   "query": "Pentagon building exterior aerial",
+   "stock": true,
+   "stat": "OFFICIALLY RELEASED · APRIL 2020",
+   "cap": "Leaked for a decade. Confirmed real in 2020.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "b5",
+   "text": "Under oath, years later, Fravor said the object was \"far superior to anything that we had at the time, have today, or are looking to develop in the next ten to twenty years.\"",
+   "img": "hearing_room_congress",
+   "query": "congressional hearing room testimony",
+   "stock": true,
+   "cap": "\"Far superior to anything we have today.\"",
+   "tone": "curiosity"
+  },
+  {
+   "id": "b6",
+   "text": "Dietrich, testifying at the same hearing, was more careful. She's warned publicly against racing to conclusions, and called for a serious, grounded, systematic approach instead. Two pilots. Same sighting. Very different instincts about what to conclude from it.",
+   "img": "hearing_room_congress",
+   "query": "person testifying congressional hearing microphone",
+   "stock": true,
+   "cap": "Same sighting. Very different conclusions.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "c3",
+   "text": "Chapter three. What the sensors actually show.",
+   "img": "radar_room",
+   "query": "military sensor equipment technology",
+   "stock": true,
+   "chapter": "3 — WHAT THE SENSORS\nACTUALLY SHOW"
+  },
+  {
+   "id": "d1",
+   "text": "Two more videos, recorded in twenty fifteen off Jacksonville, Florida, became just as famous. Gimbal and Gofast. Also real. Also officially released in 2020.",
+   "video": "gimbal_real.mp4",
+   "videoFrom": 2,
+   "stat": "REAL FOOTAGE · US NAVY, 2015",
+   "cap": "Real footage · GIMBAL, US Navy, 2015.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "d2",
+   "text": "Gofast looks exactly like its name: an object streaking low and fast over the ocean. It became one of the most viral UFO clips ever filmed.",
+   "video": "gofast_real.mp4",
+   "videoFrom": 2,
+   "stat": "REAL FOOTAGE · US NAVY, 2015",
+   "cap": "Real footage · GOFAST, US Navy, 2015.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "d3",
+   "text": "Here's the honest part almost nobody includes. An independent analyst named Mick West did the actual math on the plane's own instruments. His conclusion: the object isn't low and fast at all.",
+   "img": "analyst_desk",
+   "query": "person analyzing data computer screens",
+   "stock": true,
+   "cap": "Someone actually did the math.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "d4",
+   "text": "Using the jet's own altitude and angle data, he calculated the object is really about thirteen thousand feet up, moving thirty to forty miles an hour. Consistent with the wind that day. Likely just a balloon, made to look fast by an optical illusion called parallax.",
+   "img": "analyst_desk",
+   "kinetic": {
+    "words": ["13,000", "feet", "up.", "30-40", "mph.", "A", "balloon?"]
+   },
+   "extraHold": 18,
+   "tone": "curiosity"
+  },
+  {
+   "id": "d5",
+   "text": "A similar analysis argues Gimbal's famous mid-air \"rotation\" isn't the object spinning at all. It's glare from the camera's own lens, rotating with the pod housing. Neither explanation is an official finding. Both are real, honest, competing science.",
+   "img": "camera_lens",
+   "query": "camera lens optical technology closeup",
+   "stock": true,
+   "cap": "Not official findings. But real, honest science.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "d6",
+   "text": "And here's the part that keeps this genuinely unresolved: the actual 2004 Tic Tac case has no equivalent explanation. The Pentagon itself says the raw sensor data from that day was never preserved. There's nothing left to re-analyze.",
+   "img": "archive_generic",
+   "query": "government archive filing room documents",
+   "stock": true,
+   "stat": "NO RAW 2004 DATA SURVIVED",
+   "cap": "The one case nobody can fully re-check.",
+   "tone": "tension"
+  },
+  {
+   "id": "c4",
+   "text": "Chapter four. The whistleblower.",
+   "img": "capitol_generic",
+   "query": "US Capitol dome exterior",
+   "stock": true,
+   "chapter": "4 — THE\nWHISTLEBLOWER"
+  },
+  {
+   "id": "e1",
+   "text": "July twenty sixth, twenty twenty three. A former intelligence officer named David Grusch testifies before Congress, under oath, and says something extraordinary.",
+   "video": "hearing_real.mp4",
+   "videoFrom": 5,
+   "stat": "REAL FOOTAGE · HOUSE OVERSIGHT COMMITTEE, JULY 26, 2023",
+   "cap": "Real footage · the actual congressional hearing.",
+   "tone": "tension"
+  },
+  {
+   "id": "e2",
+   "text": "He testifies the government has run a multi decade program to recover and reverse engineer craft, quote, \"of non human origin,\" and that non human biological material came with some of those recoveries.",
+   "img": "hearing_room_congress",
+   "query": "witness testifying congress panel",
+   "stock": true,
+   "stat": "\"NON-HUMAN BIOLOGICS\" — GRUSCH'S CLAIM",
+   "cap": "A stunning claim, under oath.",
+   "tone": "tension"
+  },
+  {
+   "id": "e3",
+   "text": "But here's what almost never makes the headline: Grusch says he never personally saw a craft, or a body. His claim rests on interviews with more than forty people, over four years. This is not eyewitness testimony. It's secondhand.",
+   "img": "interview_generic",
+   "query": "interview conversation two people talking",
+   "stock": true,
+   "stat": "SECONDHAND · 40+ WITNESS INTERVIEWS",
+   "cap": "He never personally saw a craft or a body.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "e4",
+   "text": "And the Pentagon's own office for exactly this, A.A.R.O., investigated. Their published conclusion is direct: they found no verifiable information to substantiate that any such recovery or reverse engineering program has ever existed.",
+   "exhibit": true,
+   "img": "ex_aaro_report",
+   "query": "government report document page official",
+   "source": "AARO Historical Record Report, Volume I, 2024",
+   "highlight": [0.1, 0.4, 0.8, 0.15],
+   "cap": "The official rebuttal, in the government's own words.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "e5",
+   "text": "The office's own former director went further, calling the entire network of these claims, quote, \"a textbook example of circular reporting,\" traceable to a small group of people who all believe, and cite, each other.",
+   "img": "hearing_room_congress",
+   "query": "government official speaking podium",
+   "stock": true,
+   "cap": "\"A textbook example of circular reporting.\"",
+   "tone": "curiosity"
+  },
+  {
+   "id": "e6",
+   "text": "So this is the honest shape of it. One man's secondhand testimony, under oath, on one side. The government's own dedicated investigators, having looked directly for evidence of it, on the other. As of today, that's still where it stands.",
+   "img": "capitol_generic",
+   "query": "government building silhouette dusk",
+   "stock": true,
+   "cap": "Testimony on one side. The official rebuttal on the other.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "c5",
+   "text": "Chapter five. What NASA actually concluded.",
+   "img": "nasa_building",
+   "query": "NASA logo building sign",
+   "stock": true,
+   "chapter": "5 — WHAT NASA\nACTUALLY CONCLUDED"
+  },
+  {
+   "id": "f1",
+   "text": "At the same September press conference, NASA officials said plainly there is no convincing evidence of an extraterrestrial origin for any of this. Also true: that line was spoken at the podium. It isn't a sentence you'll find printed in the report itself.",
+   "img": "nasa_press_room",
+   "query": "press briefing room podium microphones",
+   "stock": true,
+   "cap": "Spoken at the podium. Not printed in the report.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "f2",
+   "text": "What the report does say, in writing, is that the stigma around reporting these sightings is itself a scientific problem. Pilots stay quiet because they're afraid of being ridiculed, and that silence is exactly what keeps the data too thin to ever settle this.",
+   "img": "pilot_generic",
+   "query": "airline pilot cockpit thoughtful",
+   "stock": true,
+   "cap": "The stigma itself is the scientific problem.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "f3",
+   "text": "That same day, NASA created a brand new position: Director of U.A.P. Research. Its first head was a NASA data scientist named Mark McInerney, whose actual job was coordinating information, not chasing aliens.",
+   "img": "nasa_scientist",
+   "query": "scientist working data analysis office",
+   "stock": true,
+   "stat": "NASA CREATES DIRECTOR OF UAP RESEARCH",
+   "cap": "A real job. Data coordination, not alien-hunting.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "c6",
+   "text": "Chapter six. Where this stands now.",
+   "img": "capitol_generic",
+   "query": "Washington DC government district",
+   "stock": true,
+   "chapter": "6 — WHERE THIS\nSTANDS NOW"
+  },
+  {
+   "id": "g1",
+   "text": "The Pentagon's investigators keep publishing. Their most recent public reporting logs hundreds more sightings, resolves most of them, and again finds nothing confirmed to be extraterrestrial in any case they've investigated.",
+   "img": "pentagon_building",
+   "query": "military building exterior government",
+   "stock": true,
+   "cap": "Hundreds more cases. Same conclusion, every time.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "g2",
+   "text": "Grusch, meanwhile, hasn't gone quiet. As recently as this year, he's escalated: now describing multiple kinds of life, on what he calls a continuum from physical beings to something he terms sentient plasma.",
+   "img": "capitol_generic",
+   "query": "press conference outdoor government building",
+   "stock": true,
+   "cap": "His claims have only gotten bigger since 2023.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "g3",
+   "text": "He's now a paid advisor to a sitting member of Congress, still pushing for full declassification. The government's own investigators still say they've found nothing to back the core claim.",
+   "img": "capitol_generic",
+   "query": "congress member speaking press",
+   "stock": true,
+   "cap": "Still advising Congress. Still no confirming evidence.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "coda1",
+   "text": "What actually stays with me isn't Grusch, and it isn't the Pentagon either.",
+   "img": "ocean_generic",
+   "query": "ocean horizon calm sunset",
+   "stock": true,
+   "cap": "It's not Grusch. It's not the Pentagon.",
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "coda2",
+   "text": "It's David Fravor and Alex Dietrich, two people who saw the exact same thing, from twenty feet apart, and walked away believing two different things about what it meant.",
+   "img": "fa18_cockpit",
+   "query": "fighter jet cockpit view sky",
+   "stock": true,
+   "cap": "Same sighting. Two different beliefs.",
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "coda3",
+   "text": "Real evidence rarely hands you a clean answer. It hands you a Navy pilot who's certain, a Navy pilot who isn't, and a government report that says, honestly, we don't have enough data yet to tell you which one is right.",
+   "img": "nasa_building",
+   "query": "NASA building quiet exterior evening",
+   "stock": true,
+   "cap": "Not a clean answer. An honest one.",
+   "extraHold": 18,
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "z1",
+   "text": "NASA's answer was never no. It was: not yet.",
+   "img": "nasa_building",
+   "query": "NASA building night lights",
+   "stock": true,
+   "stat": "NOT NO. NOT YET.",
+   "cap": "Not no. Not yet.",
+   "tone": "melancholy"
+  },
+  {
+   "id": "end",
+   "text": "If a government report that admits it doesn't have enough data got you, wait until you hear the actual real sounds recorded in space, every one of them verified. Subscribe to mindwired.",
+   "img": "nasa_building",
+   "query": "NASA building wide exterior stars",
+   "stock": true,
+   "chapter": "SUBSCRIBE"
+  }
+ ]
+}

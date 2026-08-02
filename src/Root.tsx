@@ -58,6 +58,11 @@ import spaceShuttleDoc from "./mindwired-doc/docs/spaceshuttle.json";
 import spaceShuttleManifest from "./mindwired-doc/docs/spaceshuttle.manifest.json";
 import flight93Doc from "./mindwired-doc/docs/flight93.json";
 import flight93Manifest from "./mindwired-doc/docs/flight93.manifest.json";
+import us1549Doc from "./mindwired-doc/docs/us1549.json";
+import us1549Manifest from "./mindwired-doc/docs/us1549.manifest.json";
+import nasaufofilesDoc from "./mindwired-doc/docs/nasaufofiles.json";
+import nasaufofilesManifest from "./mindwired-doc/docs/nasaufofiles.manifest.json";
+import { NasaUfoFilesThumbnail } from "./mindwired-doc/NasaUfoFilesThumbnail";
 // Subscribe outro baked into the render (ONE render, no ffmpeg concat). frames @30fps.
 const BB_OUTRO = { file: "outro/subscribe_blackbox_long.mp4", frames: 483 };
 const MW_OUTRO = { file: "outro/subscribe_mindwired_long.mp4", frames: 527 };
@@ -108,6 +113,14 @@ const MW_SHORTS = [
     startId: "sound1", endId: "l_ship", hook: "This is the sound of\nthe bottom of the ocean" },
   { id: "MarianaShort3", slug: "mariana", doc: marianaDoc, manifest: marianaManifest,
     startId: "bottom1", endId: "bottom3", hook: "The deepest place on Earth.\nWe got there second." },
+  { id: "NasaUfoFilesShort1", slug: "nasaufofiles", doc: nasaufofilesDoc, manifest: nasaufofilesManifest,
+    startId: "h1", endId: "h4", hook: "A Navy fighter jet\nchased THIS in 2004" },
+  { id: "NasaUfoFilesShort2", slug: "nasaufofiles", doc: nasaufofilesDoc, manifest: nasaufofilesManifest,
+    startId: "d1", endId: "d4", hook: "This viral UFO video\nis probably a balloon" },
+  { id: "NasaUfoFilesShort3", slug: "nasaufofiles", doc: nasaufofilesDoc, manifest: nasaufofilesManifest,
+    startId: "e1", endId: "e4", hook: "He swore under oath\nthe gov't hides UFOs" },
+  { id: "NasaUfoFilesShort4", slug: "nasaufofiles", doc: nasaufofilesDoc, manifest: nasaufofilesManifest,
+    startId: "f1", endId: "f3", hook: "NASA said \"no aliens.\"\nTheir own report doesn't." },
 ] as const;
 import astronautBodiesDoc from "./mindwired-doc/docs/astronautbodies.json";
 import astronautBodiesManifest from "./mindwired-doc/docs/astronautbodies.manifest.json";
@@ -1206,6 +1219,40 @@ export const RemotionRoot: React.FC = () => {
         id="Flight93Doc"
         component={makeDocComp(flight93Doc, flight93Manifest, BB_OUTRO)}
         durationInFrames={docTotalFrames(flight93Doc, flight93Manifest, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── mindwired — NASA's Real UFO Files (Evidence Engine: real Navy UAP
+             videos GIMBAL/GOFAST/FLIR1 via DVIDS, real House Oversight hearing
+             footage, real NASA/AARO report exhibit pages; attributed mystery
+             format — Grusch's claims always paired with the AARO rebuttal;
+             mindwired subscribe outro baked) ── */}
+      <Composition
+        id="NasaUfoFilesDoc"
+        component={makeDocComp(nasaufofilesDoc, nasaufofilesManifest, MW_OUTRO)}
+        durationInFrames={docTotalFrames(nasaufofilesDoc, nasaufofilesManifest, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Still
+        id="NasaUfoFilesThumbnail"
+        component={NasaUfoFilesThumbnail}
+        width={1280}
+        height={720}
+      />
+
+      {/* ── Black Box Breakdown — US Airways 1549 "Miracle on the Hudson"
+             (Evidence Engine: real FAA ATC audio at length — mayday call, three
+             runway offers, the ditching decision — + real US Coast Guard VTS
+             harbor-camera footage of the ditching/rescue/salvage; CVR RECREATION
+             for the two unreleased cockpit lines; BB subscribe outro baked) ── */}
+      <Composition
+        id="US1549Doc"
+        component={makeDocComp(us1549Doc, us1549Manifest, BB_OUTRO)}
+        durationInFrames={docTotalFrames(us1549Doc, us1549Manifest, BB_OUTRO)}
         fps={30}
         width={1920}
         height={1080}

@@ -1,0 +1,162 @@
+{
+ "durations": {
+  "h1": 10.266,
+  "h2": 9.247,
+  "h3": 5.721,
+  "h4": 9.482,
+  "h5": 7.314,
+  "h6": 10.031,
+  "sting": 1.411,
+  "title": 3.866,
+  "c1": 3.239,
+  "a1": 14.028,
+  "a2": 15.073,
+  "a3": 13.714,
+  "a4": 13.949,
+  "a5": 13.793,
+  "a6": 11.468,
+  "c2": 2.038,
+  "b1": 13.322,
+  "b2": 9.874,
+  "b3": 12.513,
+  "b4": 9.482,
+  "b5": 9.953,
+  "b6": 17.006,
+  "c3": 2.926,
+  "d1": 10.998,
+  "d2": 8.124,
+  "d3": 10.527,
+  "d4": 15.882,
+  "d5": 14.681,
+  "d6": 14.028,
+  "c4": 2.508,
+  "e1": 9.561,
+  "e2": 11.076,
+  "e3": 14.211,
+  "e4": 14.028,
+  "e5": 12.669,
+  "e6": 14.681,
+  "c5": 2.926,
+  "f1": 14.916,
+  "f2": 15.569,
+  "f3": 12.748,
+  "c6": 2.586,
+  "g1": 11.807,
+  "g2": 13.322,
+  "g3": 9.482,
+  "coda1": 4.049,
+  "coda2": 8.438,
+  "coda3": 12.199,
+  "z1": 3.474,
+  "end": 10.527
+ },
+ "images": {
+  "airport_radar": [
+   "airport_radar_1.jpeg",
+   "airport_radar_2.jpeg",
+   "airport_radar_3.jpeg"
+  ],
+  "analyst_desk": [
+   "analyst_desk_1.jpeg",
+   "analyst_desk_2.jpeg",
+   "analyst_desk_3.jpeg"
+  ],
+  "archive_generic": [
+   "archive_generic_1.jpeg",
+   "archive_generic_2.jpeg",
+   "archive_generic_3.jpeg"
+  ],
+  "camera_lens": [
+   "camera_lens_1.jpeg",
+   "camera_lens_2.jpeg",
+   "camera_lens_3.jpeg"
+  ],
+  "capitol_generic": [
+   "capitol_generic_1.jpeg",
+   "capitol_generic_2.jpeg",
+   "capitol_generic_3.jpeg"
+  ],
+  "ex_aaro_report": [
+   "ex_aaro_report_1.png",
+   "ex_aaro_report_2.png"
+  ],
+  "ex_nasa_report": [
+   "ex_nasa_report_1.png",
+   "ex_nasa_report_2.png",
+   "ex_nasa_report_3.jpg"
+  ],
+  "fa18_cockpit": [
+   "fa18_cockpit_1.jpeg",
+   "fa18_cockpit_2.jpeg",
+   "fa18_cockpit_3.jpeg"
+  ],
+  "hearing_room_congress": [
+   "hearing_room_congress_1.jpeg",
+   "hearing_room_congress_2.jpeg",
+   "hearing_room_congress_3.jpeg"
+  ],
+  "interview_generic": [
+   "interview_generic_1.jpeg",
+   "interview_generic_2.jpeg",
+   "interview_generic_3.jpeg"
+  ],
+  "nasa_building": [
+   "nasa_building_1.jpeg",
+   "nasa_building_2.jpeg",
+   "nasa_building_3.jpeg"
+  ],
+  "nasa_press_room": [
+   "nasa_press_room_1.jpeg",
+   "nasa_press_room_2.jpeg",
+   "nasa_press_room_3.jpeg"
+  ],
+  "nasa_scientist": [
+   "nasa_scientist_1.jpeg",
+   "nasa_scientist_2.jpeg",
+   "nasa_scientist_3.jpeg"
+  ],
+  "ocean_generic": [
+   "ocean_generic_1.jpeg",
+   "ocean_generic_2.jpeg",
+   "ocean_generic_3.jpeg"
+  ],
+  "pentagon_building": [
+   "pentagon_building_1.jpeg",
+   "pentagon_building_2.jpeg",
+   "pentagon_building_3.jpeg"
+  ],
+  "pilot_generic": [
+   "pilot_generic_1.jpeg",
+   "pilot_generic_2.jpeg",
+   "pilot_generic_3.jpeg"
+  ],
+  "pilot_portrait": [
+   "pilot_portrait_1.jpeg",
+   "pilot_portrait_2.jpeg",
+   "pilot_portrait_3.jpeg"
+  ],
+  "press_conference": [
+   "press_conference_1.jpeg",
+   "press_conference_2.jpeg",
+   "press_conference_3.jpeg"
+  ],
+  "radar_room": [
+   "radar_room_1.jpeg",
+   "radar_room_2.jpeg",
+   "radar_room_3.jpeg"
+  ],
+  "satellite_generic": [
+   "satellite_generic_1.png",
+   "satellite_generic_2.jpeg",
+   "satellite_generic_3.jpeg"
+  ],
+  "scientists_meeting": [
+   "scientists_meeting_1.jpeg",
+   "scientists_meeting_2.jpeg",
+   "scientists_meeting_3.jpeg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.96,
+ "mouth": {}
+}
