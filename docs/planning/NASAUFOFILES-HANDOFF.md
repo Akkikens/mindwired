@@ -3,9 +3,9 @@
 Single-file summary of everything done on this episode. Read `CLAUDE.md` first for
 the production manual; this doc is the episode-specific state.
 
-## Status: 4K RE-RENDER IN PROGRESS (fixing a black-screen scene found in the first
-render) — packaging, thumbnail, and 4 Shorts already done — Akshay should watch
-before publishing
+## Status: DONE — 4K render verified (569s, 3840×2160, -14.1 LUFS, d4 fix
+confirmed, outro confirmed), thumbnail + 4 Shorts + metadata + SRT all done and
+committed — Akshay should watch before publishing
 
 ## Files
 | What | Path |
@@ -14,8 +14,8 @@ before publishing
 | Fact base (GATE — every script line traces here) | `docs/planning/CLAIMS-nasaufofiles.md` |
 | Doc spec (49 scenes) | `src/mindwired-doc/docs/nasaufofiles.json` |
 | Comp registration | `src/Root.tsx` → `NasaUfoFilesDoc` (MW_OUTRO baked, 527f) |
-| Rendered master (v1, HAD the d4 defect) | `out/nasaufofiles_gce.mp4` (980MB — superseded, do not ship) |
-| Rendered master (v2, fixed) | `out/nasaufofiles_gce.mp4` once `out/nasaufofiles_gce_launch2.log` shows `[gce] done ->` |
+| Rendered master (v1, HAD the d4 defect) | overwritten — v2 replaced it at the same path before renaming |
+| **Final deliverable (v2, fixed, verified)** | `mindwired_NASA's Real UFO Files - What the Government Actually Found.mp4` (repo root, 989MB, 569s, 3840×2160, -14.1 LUFS) |
 | Thumbnail component | `src/mindwired-doc/NasaUfoFilesThumbnail.tsx` → Still `NasaUfoFilesThumbnail` |
 | Thumbnail PNG | `out/qa/nasaufofiles_thumbnail.png` (real GIMBAL sensor frame + Fravor's real quote) |
 | 4 funnel Shorts (rendered, mastered -14 LUFS) | `mindwired_short_navy_jet_chased_ufo_2004.mp4`, `mindwired_short_gimbal_gofast_balloon_theory.mp4`, `mindwired_short_grusch_congress_testimony.mp4`, `mindwired_short_nasa_no_aliens_report.mp4` (repo root) |
@@ -131,10 +131,11 @@ launched to correct the already-shipped v1 master — do not ship
 scripts/render_gce.sh NasaUfoFilesDoc nasaufofiles
 ```
 - v1 (superseded): 569s, 3840×2160, -14.1 LUFS — had the `d4` black-screen defect.
-- v2 (current): launched this session after the `d4` fix; watch
-  `out/nasaufofiles_gce_launch2.log` for `[gce] done ->` before treating
-  `out/nasaufofiles_gce.mp4` as final. Re-verify duration/resolution/LUFS/mid+
-  outro frames per the standard checklist once it lands.
+- v2 (final, shipped): re-rendered after the `d4` fix. Verified: 569s duration,
+  3840×2160, -14.1 LUFS (per render log), `d4` now shows the real
+  `analyst_desk` photo (confirmed via frame extraction at 285s), outro confirmed
+  via tail-frame extraction (mindwired branding, host avatar, "FOLLOW
+  @MINDWIRED"). Renamed to the final deliverable filename at repo root.
 - No music (the `doc_*.mp3` bed set stays banned; no replacement bed used here).
 
 ## 6. Shorts funnel — DONE (all 4 rendered + mastered -14 LUFS)
@@ -167,25 +168,17 @@ Pinned-comment funnel text for each Short should link back to "NASA's Real UFO
 Files" by title once the long-form is live (not yet written — see Next steps).
 
 ## 7. Known gaps / not done yet
-- **v2 4K render not yet verified** (in progress at time of writing).
-- **Final long-form filename not yet set** — once v2 is verified, rename
-  `out/nasaufofiles_gce.mp4` → `mindwired_NASA's Real UFO Files - What the
-  Government Actually Found.mp4` at repo root (prefix must match the actual
-  channel — this is a mindwired video, not Black Box).
 - **Akshay has not watched the master yet.** Given the living-person claims
   (Grusch, Fravor, Dietrich) and the explicit "prioritize views" framing, a
-  personal review pass before upload is strongly recommended.
-- Nothing from this episode is committed to git yet.
+  personal review pass before upload is strongly recommended — this is the
+  only remaining gate before publishing.
+- Pinned-comment funnel text for each of the 4 Shorts isn't written yet (needs
+  the long-form's real published URL, which doesn't exist until upload).
 
 ## Next steps (in order)
-1. Wait for/verify the v2 GCE re-render (duration, resolution, LUFS, mid + outro
-   frames — the mid-frame check MUST specifically re-check the `d4` beat, not
-   just the usual generic checks).
-2. **Akshay watches the corrected master.**
-3. Rename the final file to the actual title with the `mindwired_` prefix.
-4. Commit: doc spec, manifest, CLAIMS, metadata, SRT, thumbnail component,
-   MindwiredShort.tsx fix, this handoff, episode memory — never the multi-GB
-   master or the Shorts mp4s (large binaries).
-5. Write pinned-comment funnel text for each of the 4 Shorts once the long-form's
-   real published URL exists.
-6. Upload per the standard packaging in `docs/metadata/METADATA-nasaufofiles.md`.
+1. **Akshay watches the final master** (`mindwired_NASA's Real UFO Files -
+   What the Government Actually Found.mp4`, repo root).
+2. Upload per the standard packaging in `docs/metadata/METADATA-nasaufofiles.md`.
+3. Once live, write pinned-comment funnel text for each of the 4 Shorts
+   linking back to the long-form by its real URL, then drip the Shorts out
+   ~1/day per the shorts-funnel playbook.
