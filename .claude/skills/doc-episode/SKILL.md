@@ -19,7 +19,16 @@ work here): **ctr-engine** (titles/thumbnails), **hook-doctor** (first 15s rewri
    (CLAUDE.md mandates it — evidence engine, radio-scene honesty labels).
 2. **Icahn validation must already be PASS** (a memory entry `icahn-<slug>` with real
    outlier ratios). If not, stop and run the Icahn method first — no exceptions.
-3. **Topic-demand check (YT Studio pull, @Watch-BlackBox, 2026-07-26 — recheck live
+3. **The locked package must already exist** (icahn-validate Step 4.5 / ctr-engine
+   Run A): a winning title + thumbnail concept + suggested-adjacency cluster in the
+   Icahn memory. If the memory predates the packaging-first gate (2026-08), run
+   ctr-engine Run A NOW, before research — the package is an input to the script,
+   and **the script's first 30 seconds must deliver exactly what the thumbnail
+   promises.** No package, no production.
+4. **The feedback loop must be closed:** the previous upload's 48h launch-diagnosis
+   is banked in docs/planning/LAUNCH-LESSONS.md (read it — its newest lessons apply
+   to THIS episode). If it isn't banked, bank it first.
+5. **Topic-demand check (YT Studio pull, @Watch-BlackBox, 2026-07-26 — recheck live
    before leaning on the exact figures):** MH370 got 399.5K impressions (5.0% CTR,
    37.3% AVD → 29K views); Tenerife got 20.1K impressions (3.5% CTR, 35.9% AVD →
    1.5K views). Retention and CTR were nearly identical — the difference was the
@@ -63,10 +72,25 @@ Doc-level fields: `{slug, title, channel, niche, language, voice: "00d3c951-0474
 **Structure (in order):**
 1. **Cold-open 2.0** — a dated scene with a person in tension ("It is January twenty
    eighth, nineteen eighty six…"), NEVER a stat dump. Run **hook-doctor** on it.
+   Three hard 2026-08 constraints: (a) it must deliver what the locked thumbnail
+   promises (the package from icahn-validate Step 4.5 is a script INPUT); (b) a
+   concrete stakes/value claim lands in the first sentence; (c) **the first 30-60
+   seconds is REAL MOTION FOOTAGE ONLY — no stills, no dossier scenes, no generated
+   or hand-drawn anything** (memory `hook-first-30s-real-video`, Akshay's hardest
+   retention rule: a bad first 15 seconds is game over).
 2. `sting` scene → title card → **chaptered acts** (`chapter` cards; 6-8 chapters).
+   Chapter cards are TEASES of a specific later reveal ("THE PART NOBODY CHECKED"),
+   not labels; place the strongest mid-video re-hook at the 55-65% runtime mark,
+   and re-hook every 2-3 minutes.
 3. **First-person coda** (reflective, narrator steps forward).
 4. **Verbal bridge naming a SPECIFIC next video** ("If X shocked you, wait until you
-   see Y…") → subscribe end scene.
+   see Y…") → subscribe end scene. The end screen at upload shows ONLY that named
+   video + subscribe (single-video end screens ≈ double 4-grid CTR) — so name a
+   video that's actually live.
+5. Speak the searchable proper nouns early and often — the transcript is a
+   search/AI-answer index now. Keep episode length wherever the story lands
+   (15-25 min is fine; do NOT shorten to chase retention % — 37% APV is already the
+   strong band, and absolute watch minutes win).
 
 **Scene craft fields** (all real — see `spaceshuttle.json`/`marsone.json`):
 `id, text, img, query, video, videoQuery, exhibit, source, highlight, kinetic, motion
@@ -209,19 +233,26 @@ Confirm the −14 LUFS line in the render log (render_and_master prints before/a
    writes `mindwired_<slug>.srt` and prints the exact CHAPTERS block (doctiming.py is
    the single timing source; never hand-compute timestamps).
 2. **`docs/metadata/METADATA-<slug>.md`** — full-SEO standard (model:
-   `METADATA-boeing737max.md`): title + A/B alternates (run **ctr-engine**), big
+   `METADATA-boeing737max.md` for layout, but 2026-08 packaging spec): title +
+   2 alternates (ctr-engine Run B — 30-50 chars, negative-emotion statement), big
    searchable description ending with the "▶ MORE FROM" block using REAL URLs from
    memory (`blackbox-published-urls` / `mindwired-published-urls`), parser-safe
-   chapters, ~495-char tags, 15 hashtags, pinned comment, category/license lines.
-   English only (Hindi only on DimaagBatti).
-3. **Final filename = the actual video title** at repo root
+   chapters, quick ~10-15 tags (10 seconds max — tags are near-worthless now),
+   3-5 hashtags, pinned comment (incl. the one-line Hype ask), category/license
+   lines. English only (Hindi only on DimaagBatti).
+3. **BUILD the 3 thumbnail variants** (ctr-engine Run B, step 5) —
+   `out/thumbs/<slug>_A/B/C.png`, ≥720p, House Style 2.0 (zero/≤10-char text, one
+   bright focal element, real archival asset). **A metadata file with concepts but
+   no image files is an incomplete package — this was the audited leak.**
+4. **Final filename = the actual video title** at repo root
    (`mindwired_<Title>.mp4`), slugs only for working files.
-4. **4 vertical funnel Shorts:** invoke **shorts-funnel**.
-5. **Handoff doc `docs/planning/<SLUG>-HANDOFF.md`** (model: `AI171-HANDOFF.md`):
+5. **3-5 vertical funnel Shorts** (invoke **shorts-funnel** — episode-trailer spec,
+   35-60s) **+ the drip plan** at `docs/publishing/SHORTS-SCHEDULE-<slug>.md`.
+6. **Handoff doc `docs/planning/<SLUG>-HANDOFF.md`** (model: `AI171-HANDOFF.md`):
    status line, file-path table, sensitivity warnings, what's left before publish.
-6. **Commit** everything (doc spec, manifest, CLAIMS, metadata, SRT, handoff — never
-   the multi-GB master) and **write the episode memory** (structure, honesty rules,
-   gotchas hit, link to the Icahn memory).
+7. **Commit** everything (doc spec, manifest, CLAIMS, metadata, SRT, thumbnails,
+   handoff — never the multi-GB master) and **write the episode memory** (structure,
+   honesty rules, gotchas hit, link to the Icahn memory).
 
 ## One-command alternative: ship_doc.py
 

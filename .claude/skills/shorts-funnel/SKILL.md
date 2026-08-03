@@ -1,67 +1,86 @@
 ---
 name: shorts-funnel
-description: Cut vertical Shorts from a Mindwired long-form (or plan standalone Shorts) that funnel viewers to the main videos and break the cold-start problem. Use when a long-form is finished, when the user wants more reach/subscribers fast, or asks about Shorts, TikTok, Reels, or growing a new channel. Shorts are how small channels get discovered; long-forms are how they get watch-time and revenue.
+description: Cut vertical Shorts from a Mindwired long-form (or plan standalone Shorts) that funnel viewers to the main videos and break the cold-start problem. Use when a long-form is finished, when the user wants more reach/subscribers fast, or asks about Shorts, TikTok, Reels, or growing a new channel. Every Short is a TRAILER for one named episode — never a generic factoid — and is judged on engaged views, never raw view counts.
 ---
 
-# Shorts Funnel — how a young channel actually breaks out
+# Shorts Funnel — episode trailers, not factoids
 
-## The strategy (why this exists)
-Long-forms get almost no reach on a young channel (the cold-start problem). **Shorts
-bypass it** — the Shorts feed shows new creators to large audiences fast, because it
-judges each Short on its own first-3-seconds performance, not channel authority. The
-play:
-1. Shorts pull in *new* viewers and subscribers at volume.
-2. A pinned comment / end-card / the channel itself funnels them to the long-forms.
-3. Long-form watch-time then builds the authority that makes long-forms get promoted.
+## The strategy (updated 2026-08 against current evidence)
+Long-forms get almost no reach on a young channel (the cold-start problem). Shorts
+bypass it — the Shorts feed judges each Short on its own first-3-seconds, not channel
+authority. But the funnel's real mechanism is NOT the link (links convert <1-3%):
+**it's topic continuity.** A Short about the Earhart radio log teaches the algorithm
+exactly which viewers want that story; the long-form then gets pulled into those same
+viewers' browse/suggested. The Short is a targeting instrument. That only works if
+the Short is unmistakably a trailer for one specific episode.
 
-Post **1 Short per day minimum**. Shorts are the top of the funnel; long-forms are the
-destination. A channel stuck at <50 views almost always has no Shorts funnel.
+Honesty notes from the case-study record: Shorts mattered in only a minority of
+documented channel breakouts in this niche — the steady compounders (Fascinating
+Horror) never used them, and the one spectacular Shorts rescue (Why Files, 25K→1M)
+used broad meme-adjacent clips, which is the HIGH-VARIANCE play and only worked
+because a 60-episode catalog existed to catch the spike. Trailer discipline is the
+low-variance default; don't chase viral off-lane Shorts until the catalog is deep
+(mixing formats/topics measurably hurt Science & Tech channels — −16% average in an
+18K-channel study). Officially confirmed: Shorts cannot hurt long-form distribution
+on the same channel — same-channel posting is correct.
+
+## The spec (every Short)
+
+- **A trailer for ONE named episode.** The Short's story IS the episode's story,
+  cut to its single most arresting beat. Never a standalone factoid, never off-lane.
+- **35-60 seconds.** The 3-minute expansion has shown no evidence of earning the
+  runtime; 35-60s remains the data-backed sweet spot. Don't pad.
+- **First 3 seconds rebuilt as a native vertical hook** — punch-in framing, the
+  boldest claim or most striking real footage instantly, big mobile-safe caption.
+  Never inherit the long-form's pacing; a long-form cold open is usually too slow
+  for the feed by itself.
+- **Built to loop:** end flows into the beginning (loops/replays are heavily
+  rewarded). AND the ending opens a curiosity gap only the full episode resolves —
+  "the full investigation is on the channel" beats "subscribe."
+- **Set the related-video LINK** (the official Shorts→long-form link feature) on
+  every Short + a verbal/text CTA in the final 5 seconds + pinned comment with the
+  long-form link. Belt and suspenders — but remember the real funnel is topic
+  continuity, not clicks.
+- **Caption every word** (sound-off default), text inside the mobile-safe zone,
+  no logos/wordmarks (Shorts stay logo-free per CLAUDE.md).
+- Recycled long-form clips are fine as the BODY of the Short — the hook is what
+  must be native-built. (No strong evidence recycled bodies underperform when the
+  first 3s is purpose-made.)
+
+## Metrics — what to judge Shorts on (changed March 2025)
+Raw Shorts "views" are counted at first frame since 2025-03-31 and are inflated
+noise. Judge on:
+- **Engaged views** (the pre-2025 definition, still in Studio Advanced Mode) —
+  this is also what YPP monetization counts.
+- **"Stayed to watch" %** (Studio → Shorts feed report): target 70%+. Below that,
+  the first 3 seconds failed — rebuild the hook, don't blame the topic.
+- Subscribers gained + long-form views from Shorts viewers (Audience tab) — the
+  actual funnel output.
+
+## Funnel mechanics
+- From each long-form cut **3-5 Shorts** (different beats), drip **1/day starting
+  ~24h after the long-form** while the just-learned audience is warm. Never dump
+  all on day one. Strongest hook first.
+- Write the drip plan into `docs/publishing/SHORTS-SCHEDULE-<slug>.md` (date, comp,
+  title, pinned-comment text) — publish-video schedules from that file; the audit
+  found drips silently skipped when no schedule doc existed.
+- Sensitivity rule: never cut a Short from a consolidated conspiracy-claims segment
+  or any beat that only works with its full context (e.g. WTC collapse claims) —
+  a de-contextualized 45s clip of a claim IS platforming it.
+- Track which Short TOPICS pop and feed that back into icahn-validate — Shorts
+  demand is a live topic-demand signal.
 
 ## Two sources of Shorts
-
-### A. Cut from an existing long-form (fastest)
-The best 30-45 seconds of a finished video, re-framed vertical:
-- Pick the single most **self-contained shocking beat** (one fact, one payoff). It must
-  make sense with zero context — a stranger scrolling knows nothing about the video.
-- The teaser/cold-open of most Mindwired long-forms is often already the best Short
-  (e.g. Apollo's broken-switch open, the "hole in the universe" open).
-- Structure: **hook (0-3s) → build → payoff/twist → soft CTA** ("full story on the
-  channel"). Never explain slowly; a Short earns the next second every second.
-
-### B. Standalone Short via the viral engine (`src/viral`)
-For punchier, purpose-built Shorts use the existing engine (see `src/viral/README.md`):
-plan JSON → `python3 scripts/build_short.py <slug>` → register in Root.tsx →
-`npx remotion render Short<Name>`. This gives kinetic center-typography, tone-driven
-motion, and a proper 9:16 format. Preferred for hooks that need on-screen text punch.
-
-## Rules for Shorts that actually perform
-- **First 3 seconds are everything** — even more than long-forms. Open on the visual
-  payoff or the boldest claim. No intro, no wordmark, no logo (CLAUDE.md: shorts stay
-  logo-free).
-- **Vertical 1080×1920.** Text in the mobile-safe zone (not under the UI). Big, readable.
-- **Loop-ability:** end so the last second flows into the first (drives replays, which
-  the algorithm rewards heavily).
-- **One idea only.** A Short that teaches one stunning fact beats one that rushes five.
-- **Caption every word** (sound-off viewing is the default).
-- **CTA is soft and specific:** "the full breakdown is on the channel" beats "subscribe".
-  Put the long-form title in the pinned comment.
-
-## Funnel mechanics (the part people skip)
-- Pin a comment on each Short linking the matching long-form by title.
-- Batch: from each long-form, cut **3-5 Shorts** (different beats) and drip them over a
-  week — each is a fresh shot at the Shorts feed pointing at the same long-form.
-- Name/theme them consistently so a viewer who likes one finds the series.
-- Track which Short *topics* pop (not which videos) — double down on the beat types that
-  travel, feed those back into long-form topic selection (Icahn loop).
-
-## Deliver
-When cutting from a long-form: identify the 3-5 strongest standalone beats with their
-timestamps, write the vertical hook line for each, and note the pinned-comment funnel
-text. When building standalone: produce the `src/viral` plan JSON per the engine README.
+- **A. Cut from a finished long-form** (default): pick the most self-contained
+  shocking beat; register `<Slug>Short1-4` comps (BlackBoxShort / MindwiredShort
+  patterns in Root.tsx); render 1080×1920.
+- **B. Standalone via the viral engine** (`src/viral`, see its README): for hooks
+  that need kinetic center-typography. Same trailer rule applies — it must point at
+  a specific episode.
 
 ## Honesty guard
-Shorts views are cheap and often don't convert to long-form watch-time or subs — a
-million Short views can yield few subscribers. They are a *discovery* tool, not a vanity
-metric. Judge them by subscribers gained and long-form click-through, not raw Short views.
-Don't promise that Shorts = viral channel; they're the top of a slow funnel that still
-needs good long-forms and packaging underneath.
+A million Short views can yield near-zero subscribers — Shorts are a discovery and
+targeting tool, not a vanity metric. Judge by engaged views, stayed-to-watch, subs
+gained, and long-form lift. Don't promise that Shorts = viral channel; they
+accelerate a channel whose long-forms and packaging already work, and they can't
+rescue one whose don't.

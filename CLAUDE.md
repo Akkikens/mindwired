@@ -207,10 +207,17 @@ Backlog + rationale: docs/planning/STUDIO-UPGRADE.md.
   alternates push/pull, smoothstep-eased); footage scenes get slow scale drift
   + grade; a film-grain + vignette layer covers the body (never the outro).
 
-**Packaging standard (every title/description request):** full-SEO package by
-default — title+A/B, big searchable description, parser-safe chapters, ~495-char
-tags, 15 hashtags, pinned comment, category/license lines; Shorts sets get one
-search-query cluster each. Reference: docs/metadata/METADATA-boeing737max.md.
+**Packaging standard (every title/description request — UPDATED 2026-08-03 from
+the growth-research sweep, see .claude/skills/ctr-engine):** title (30-50 chars,
+negative-emotion statement) + 2 A/B alternates, big searchable description,
+parser-safe chapters, quick ~10-15 tags (10 seconds max — tags are officially
+near-worthless now), **3-5 hashtags** (supersedes the old 15-hashtag rule; only
+the 3 displayed matter), pinned comment (+ one-line Hype ask), category/license
+lines, **and 3 BUILT thumbnail files** (`out/thumbs/<slug>_A/B/C.png`, House
+Style 2.0 — see docs/guides/THUMBNAILS.md header; a concept without image files
+is an incomplete package). Every long-form runs Test & Compare. Packaging is
+locked at Icahn-validation time (packaging-first gate), not post-render. Layout
+reference: docs/metadata/METADATA-boeing737max.md.
 
 **Published Black Box URLs (use in every "▶ MORE FROM" block — NO more `[paste URL]`
 placeholders; full copy in memory `blackbox-published-urls`):**
@@ -451,12 +458,17 @@ clips have a fixed ~8s floor).
 - **Descriptions: English ONLY** for every channel (mindwired, Black Box Breakdown,
   KickOffDaily90) EXCEPT **DimaagBatti**, whose descriptions are **Hindi only**
   (Akshay, 2026-07-13 — do NOT add a Hindi block to the English channels; this
-  supersedes the earlier "English + Hindi block" rule). Tags: maximize toward YouTube's 500-char
-  limit (~25-35 tags: broad + niche + long-tail), don't stop at ~15. Every
-  upload also gets **15 hashtags** (first 3 display above the title).
-- Thumbnails: follow `docs/guides/THUMBNAILS.md` — image-model generation (Workflow A) for
-  scene+text posters, or Remotion still + text overlay (Workflow B). House style:
-  3-5 word ALL-CAPS yellow/white text, one dramatic scene, dark background.
+  supersedes the earlier "English + Hindi block" rule). Tags: ~10-15 obvious terms,
+  10 seconds of effort max (2026-08 update — YouTube says tags are near-worthless
+  beyond misspellings; the old maximize-to-500-chars policy is retired). Every
+  upload gets **3-5 hashtags** (first 3 display above the title; the old 15-hashtag
+  rule is retired).
+- Thumbnails: follow `docs/guides/THUMBNAILS.md` — **House Style 2.0 (2026-08-03,
+  see that file's header): zero text or ONE word ≤10 chars, one bright focal
+  element on dark, real archival asset as the subject; the old 3-5-word ALL-CAPS
+  style is retired.** Tooling: image-model keyart (Workflow A, scene-only) or
+  Remotion still (Workflow B). Deliverable is 3 built PNGs in `out/thumbs/` +
+  Test & Compare on every long-form — concepts alone are an incomplete package.
 - Renders for upload live at repo root as `mindwired_<slug>.mp4`.
 - **4K is the DEFAULT (Akshay, 2026-07-20):** ship_doc.py renders --scale 2
   automatically (--hd opts out); for manual renders use

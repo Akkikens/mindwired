@@ -35,6 +35,19 @@ still stalled) do not. Topic selection is currently the channel's #1 lever. Pack
 - At production start for any already-queued topic whose evidence is older than
   ~2 weeks — ratios are point-in-time (see the Kola Superdeep invalidation below).
 
+## Step 0 — close the loop before opening a new one (2026-08)
+
+Before validating ANY new topic, check `docs/planning/LAUNCH-LESSONS.md`: has the
+channel's most recent upload had its 48h launch-diagnosis banked? If not, that
+diagnosis comes FIRST (run launch-diagnosis with real Studio numbers) — the whole
+point of the loop is that each upload's lesson steers the next topic pick, and the
+audit of 2026-08-03 found the loop had never once closed. Also check the channel
+LANE: mindwired validates space/science-mystery topics ONLY (the gaming/tech lane is
+parked — mixed-identity subscribers suppress every upload's cold-start test pool),
+and when an episode could go to either channel, weight toward Black Box Breakdown
+(higher research moat via the Evidence Engine; the space-explainer niche is publicly
+flooded with low-effort AI channels).
+
 ## Step 1 — the outlier sweep (exact working method)
 
 Design 3-5 search queries a real viewer would type: the topic's common name, a
@@ -135,6 +148,29 @@ Scoring:
   reframe. Do not spend a 4K render's worth of work on a topic YouTube will test on
   20K impressions.
 
+**Question 4 — the currency filter (Akshay, 2026-08-03, after Earhart/Tunguska):**
+is the STORY itself still open, unfolding, or actively generating new developments —
+not merely "someone uploaded a fresh video about the old story recently"? A fresh
+outlier proves the format still pulls; it does NOT prove the subject feels current.
+Prefer topics with an open investigation, a live news cycle, a recent triggering
+event, a still-contested controversy, or visible forward momentum (documentary
+release, anniversary, active expedition). An old settled story can clear every
+ratio bar and still read as "nobody follows this anymore." This does not override
+the sensitivity gate — recent events still need the settled-cause/living-parties
+checks.
+
+**Ceiling class + the wave calendar (2026-08):** classify every PASS as
+**giant-name** (MH370/Titanic/9-11-class: instantly recognized by everyone) or
+**mid-tier** (recognized by the interested). Every documented small-channel
+breakout in this niche was a giant name riding an interest wave — Green Dot
+Aviation's MH370 video landed on the Netflix-doc/10th-anniversary wave and did
+10M+ views from a small channel. So: (a) reserve regular production slots for the
+3-4 biggest names per lane even when they feel "already covered" — breakout
+channels re-cover the giants repeatedly; (b) maintain a wave calendar
+(anniversaries, Netflix/major-doc releases, expedition dates, report publications)
+in docs/planning/TOPIC-QUEUE.md and time giant-name episodes to land ON the wave,
+2-4 weeks before the peak date, not after.
+
 ## Step 4 — sensitivity gate (recent real disasters)
 
 Fires when ANY of: event under ~3 years old, living victims/survivors/accused,
@@ -163,22 +199,38 @@ survivor and contested AAIB findings):
 If the cause is unsettled AND no honest visual path exists → **queue, don't
 greenlight**. Sensitivity never blocks validation by itself; it attaches conditions.
 
+## Step 4.5 — the packaging gate (2026-08 — a PASS is not final until this passes)
+
+Run **ctr-engine Run A** on every candidate that cleared Steps 2-4: 10 title
+concepts + 3 thumbnail concepts + the suggested-adjacency cluster (which specific
+high-traffic videos should this upload sit NEXT TO in suggested — name them from the
+sweep's own outlier/ceiling URLs). **A topic whose best package scores weak DIES
+here, at zero production cost, regardless of its demand numbers** — the impressions
+pool is set by idea + package appeal together, and top creators decide packaging
+before production, not after the render. The winning title + thumbnail concept goes
+into the Icahn memory as a hard constraint handed to the script: **the first 30
+seconds must deliver exactly what the thumbnail promises.**
+
 ## Step 5 — output contract (deliver ALL of this, every run)
 
 1. **Verdict:** PASS / PASS-WITH-CONDITIONS (recognition bridge and/or sensitivity
    conditions, stated explicitly) / FAIL — with the one-sentence reason.
 2. **Evidence table:** channel, views, subs, ratio, upload date, video URL for every
    outlier cited, plus the ceiling-proof row(s). Only numbers from the yt-dlp output.
-3. **Recognition score** (0-3) with the packaging implication spelled out.
+3. **Recognition score** (0-3) with the packaging implication spelled out, plus the
+   **currency-filter answer** (question 4) and the **ceiling class**
+   (giant-name / mid-tier) with any wave-calendar date the episode should target.
 4. **Sensitivity gate result** where applicable.
-5. **Log the memory:** create `icahn-<slug>` in the project memory directory,
+5. **The winning package from Step 4.5** — locked title + thumbnail concept +
+   suggested-adjacency cluster, written into the memory as the script's constraint.
+6. **Log the memory:** create `icahn-<slug>` in the project memory directory,
    matching the format of the existing icahn-*.md files (verdict, dated "validated
    via yt-dlp outlier search", the evidence list, structure/risk notes), and add it
    to the MEMORY.md index.
-6. **Queue it:** add or update the entry in docs/planning/TOPIC-QUEUE.md with ratios,
+7. **Queue it:** add or update the entry in docs/planning/TOPIC-QUEUE.md with ratios,
    proof URLs, and the standing note that ratios are point-in-time — recheck live at
    production start.
-7. **Stop.** Validation is the gate, not the starting gun — production continues
+8. **Stop.** Validation is the gate, not the starting gun — production continues
    through the standard pipeline (CLAIMS fact base → doc JSON → fetch_doc_footage.py
    → ship_doc.py), and packaging goes to ctr-engine, hooks to hook-doctor, Shorts to
    shorts-funnel. Do not duplicate those skills here.

@@ -33,9 +33,14 @@ Everything below (URLs, sub-link, language, description rules) branches on it.
 Reference format: `docs/metadata/METADATA-boeing737max.md` and
 `docs/metadata/METADATA-marsone.md`. The file must contain ALL of:
 
-- [ ] **Primary title + 3-4 A/B alternates** (generate/score via ctr-engine if missing)
-- [ ] **Thumbnail concepts** — poster style: one lit image, near-black, film grain,
-      **2-4 serif words that are NOT the title** (title asks, thumbnail teases; never the same words)
+- [ ] **Primary title + 2 A/B alternates** (generate/score via ctr-engine if missing —
+      30-50 chars, negative-emotion statement spec per ctr-engine House Style 2.0)
+- [ ] **Thumbnail FILES, not concepts** — `out/thumbs/<slug>_A.png`, `_B.png`,
+      `_C.png` must exist (≥720p) per ctr-engine step 5. **A metadata file whose
+      thumbnail section is a concept/prompt with no built image is INCOMPLETE — this
+      is the leak that shipped a month of episodes with no purpose-built thumbnail.**
+      Style: zero text or one ≤10-char word, one bright focal element on dark,
+      real archival asset as the subject (title asks, thumbnail teases)
 - [ ] **Full description** ending in the **▶ MORE FROM block with REAL URLs** — no
       `[paste URL]` placeholders on these channels anymore:
       - **Black Box Breakdown:** 737 MAX `https://youtu.be/d4_Rk50GkBg` · Colgan
@@ -50,8 +55,12 @@ Reference format: `docs/metadata/METADATA-boeing737max.md` and
         pick the 3-4 most related, drop the new video's own link
 - [ ] **CHAPTERS** — first chapter at `0:00`, every chapter ≥10s, plain hyphens
       (no em-dashes/colons that break YouTube's parser); timestamps from gen_doc_srt.py output
-- [ ] **Tags** — one comma-separated line, maxed toward 500 chars (~495)
-- [ ] **15 hashtags** (first 3 display above the title)
+- [ ] **Tags** — one comma-separated line, ~10-15 obvious terms, 10 seconds of
+      effort MAX. (2026-08 update: YouTube states tags are near-worthless except for
+      common misspellings — the old "maximize toward 500 chars" policy bought
+      nothing; don't spend time here.)
+- [ ] **3-5 hashtags** (only the 3 that display above the title matter — the old
+      15-hashtag standard is retired; 3-5 is the evidence-backed sweet spot)
 - [ ] **Pinned comment** text
 - [ ] **Credits/attribution** — CC-BY/CC-BY-SA credits copied into the description from
       EVERY `ATTRIBUTION.md` under the slug's media dir (they live at
@@ -71,19 +80,41 @@ Reference format: `docs/metadata/METADATA-boeing737max.md` and
 
 ## 4. Launch sequence (in this exact order)
 
+0. **The weekly slot rule:** each channel has ONE fixed publish day+time; never
+   break it, never dump. Every documented breakout in this niche ran an unbroken
+   weekly/fortnightly rhythm for years (Fascinating Horror compounded to 1M subs on
+   discipline alone) — the win is audience habit, not an algorithm bonus, so spend
+   zero effort micro-tuning time-of-day beyond "audience is awake." **A
+   rendered-but-unpublished backlog (the 2026-08 audit found 8+ finished masters
+   never uploaded) is dripped into the weekly slots — never batch-dumped, and never
+   left to rot: an unpublished master earns nothing and its currency decays.**
 1. Upload the mp4 as **draft/private** — never straight to public.
-2. Set the **thumbnail** (primary concept; queue alternates for Test & Compare when eligible).
+2. Set thumbnail **A** and start **Test & Compare with all 3 built variants**
+   (`out/thumbs/<slug>_A/B/C.png`) — mandatory on every long-form. Winner is
+   decided by WATCH-TIME SHARE (YouTube's own metric), not CTR eyeballing. One
+   variable per test (thumbs now; a title test can follow after it settles).
 3. Set **title A** (primary).
 4. Paste **description + chapters** (verify chapters render as links in preview — if not, check the 0:00-first and ≥10s rules).
-5. Paste the **tag line**.
-6. Upload the **SRT** (Subtitles → English → upload file).
-7. **End screen:** subscribe element + the specific bridge video the outro VO names
-   ("If X shocked you, wait until you see Y…") — the end-screen card must match the spoken handoff.
+5. Paste the **tag line** (10 seconds, no more — see section 2).
+6. Upload the **SRT** (Subtitles → English → upload file) — this also feeds
+   search/AI-answer indexing of the transcript, which is a real discovery surface now.
+7. **End screen: ONE video element only — the exact video the outro VO names in the
+   verbal bridge — plus the subscribe element.** Single-video end screens roughly
+   double the click-through of 4-grid end screens, and the card must match the
+   spoken handoff. Never a generic grid.
 8. **Publish.**
-9. Immediately post and **pin the pinned comment** from the metadata file.
-10. **First 2 hours:** reply to every early comment (early engagement feeds the test pool),
-    and confirm in Studio → Reach that impressions/CTR are registering (a stuck 0 after
-    2h usually means a processing or visibility problem — check the video isn't stuck at SD).
+9. Immediately post and **pin the pinned comment** from the metadata file — and
+   include a one-line **Hype ask** in it ("if this deserves more reach, Hype it")
+   — channels under 500K subs get an inverse-size Hype multiplier; conversion
+   evidence is thin but the ask is free. Keep it out of the VO.
+10. **Post to Communities** (if enrolled): the thumbnail + one-line hook + link.
+    Weekly rhythm on community posts is one of the few officially-measured
+    distribution effects; also run occasional thumbnail A/B polls there — free
+    packaging data.
+11. **First 2 hours:** reply to every early comment (cheap, hour-1 only — reply
+    quotas beyond that have no distribution evidence), and confirm in Studio →
+    Reach that impressions/CTR are registering (a stuck 0 after 2h usually means a
+    processing or visibility problem — check the video isn't stuck at SD).
 
 ## 5. Shorts drip (starting the NEXT day)
 
@@ -92,8 +123,14 @@ learned is still warm.
 
 - 1 Short per day, ~24h apart — never dump all on day one.
 - Order by **hook strength** (strongest first) — rank by first-3s stopping power.
-- Each Short gets a **pinned comment linking the long-form** (the funnel is the point).
-- shorts-funnel builds them; this skill only schedules and sequences the drip.
+- Each Short gets the **related-video LINK set** (official Shorts→long-form
+  feature) + a **pinned comment linking the long-form** (the funnel is the point —
+  though remember the real mechanism is topic continuity, not link clicks).
+- Schedule from `docs/publishing/SHORTS-SCHEDULE-<slug>.md` — if shorts-funnel
+  didn't write one, that's a gap; go back and get it. The audit found drips
+  silently skipped whenever no schedule doc existed.
+- Judge the drip on **engaged views and stayed-to-watch %** (70%+ target), never
+  raw Shorts views (inflated since the March 2025 first-frame counting change).
 
 ## 6. Sensitivity pass — mandatory for real-disaster / real-person episodes
 
@@ -117,13 +154,35 @@ Run this BEFORE publish on any episode about a real accident, death, or named li
 1. **Log the upload** — add title, URL, and publish date to the channel's
    published-URLs memory (`blackbox-published-urls` / `mindwired-published-urls`).
 2. **Update future MORE FROM blocks** — any in-progress `METADATA-*.md` for the same
-   channel should now include the new video where it's the best cross-link.
-3. **48h later: launch diagnosis** — run the **launch-diagnosis** skill with the REAL
-   Studio numbers (never quote analytics from memory). Its reading order, for reference:
+   channel should now include the new video where it's the best cross-link. Add the
+   new episode to its **series playlist** (binge shelves lift session watch time and
+   suggested traffic — every episode belongs to exactly one series playlist).
+3. **48h later: launch diagnosis — NOT OPTIONAL.** The 2026-08 audit found this loop
+   had never once closed (LAUNCH-LESSONS.md didn't exist while ~15 videos shipped).
+   The enforcement is now structural: **icahn-validate Step 0 refuses to validate a
+   new topic until the previous upload's diagnosis is banked in
+   docs/planning/LAUNCH-LESSONS.md.** Run the **launch-diagnosis** skill with REAL
+   Studio numbers (never from memory), including the Test & Compare result. Reading
+   order, for reference:
    - **Impressions pool first.** If CTR and retention look normal for the channel but
      the impressions pool is small, the problem is **topic demand**, not packaging —
      feed that back into Icahn topic selection, don't repackage.
    - **Then CTR:** low CTR with a healthy pool = repackage via ctr-engine (Test & Compare).
    - **Then AVD/retention curve:** steep early cliff = hook problem, log it for
      hook-doctor on the next script.
-   - Log whatever the diagnosis was to memory so topic selection and packaging both learn.
+   - Bank the lesson in LAUNCH-LESSONS.md — that file now steers the next topic pick.
+
+## 8. Standing channel-level plays (monthly rhythm, not per-upload)
+
+- **One collab per month with a similar-sized channel in the lane** (YouTube's
+  official Collaborations feature, Oct 2025 — co-billing on both channels, no face
+  needed: guest narration swaps, cross-description links). A collab is the only
+  direct way to borrow a warm audience as the next upload's cold-start pool — the
+  channel's precise diagnosed bottleneck.
+- **Communities enrollment + weekly post rhythm** (poll / thumbnail A/B / behind-
+  the-scenes exhibit) — one of the few officially-measured distribution effects.
+- **Serialization check:** both channels should be running numbered/branded series
+  with playlists (the no-signature channel in this exact niche — 306 videos, +13K
+  subs in 28 months — is the cautionary case; every breakout had a nameable
+  signature). Signature/series naming is a one-time branding call — confirm with
+  Akshay once, then apply everywhere.

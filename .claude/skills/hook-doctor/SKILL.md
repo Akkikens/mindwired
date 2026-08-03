@@ -13,6 +13,20 @@ zero change to the rest. This is the cheapest, highest-leverage edit you can mak
 
 ## The rules (Mindwired-specific, enforced)
 
+0. **The first 30 seconds delivers the thumbnail's promise, on REAL VIDEO.** Two
+   hard constraints that now precede everything else:
+   - The package is locked at validation time (icahn-validate Step 4.5) — the hook's
+     job is to pay off what the thumbnail teased, fast. A viewer who clicked on the
+     radio-log thumbnail must SEE the radio log inside 30s.
+   - **Nothing generated, hand-drawn, dossier-style, or still-image-only appears in
+     the first 30-60 seconds. Ever.** (Akshay, 2026-08-03: "if we show that generated
+     old school stuff... retention rate will be 0% if bad start." Memory:
+     `hook-first-30s-real-video`.) Real motion footage only; if the topic has no real
+     hook video, that's a topic problem, not a styling problem.
+   - A concrete value/stakes claim lands in the FIRST SENTENCE, before any
+     scene-setting — a 5,000-script analysis found openings with an explicit
+     stakes/value claim average 52% APV vs 44% without.
+
 1. **First sentence = the most shocking TRUE fact of the whole video.** Not a greeting,
    not "in this video", not "space is fascinating", not the logo. State the payoff-tease
    immediately. The viewer must think "wait, what?" within 3 seconds.
@@ -62,12 +76,28 @@ dated forward jump, the missing piece, the quiet contradiction, or the price lin
 words, lands on a noun/name/date. This sits right before the verbal-bridge + subscribe
 line — the cliffhanger closes THIS episode's loop, the bridge opens the next video's.
 
-## Retention beyond the hook (secondary)
-- **Re-hook every 30-60s** in long-forms: a new "but here's the strange part" or a
-  chapter-card `word` scene resets attention before the next drop-off.
+## Retention beyond the hook (updated 2026-08 against current data)
+- **This channel's ~37% average-percent-viewed on 15-25 min docs is already in the
+  "strong" band (35-45% benchmark).** Retention is NOT the bottleneck — don't
+  restructure videos around it; take only the free script-level wins below. And do
+  NOT add cut-count/pacing pressure: the overstimulation meta is dead (MrBeast said
+  so publicly; LEMMiNO/Fern's atmospheric pacing is the current growth style).
+  Invest in tension architecture, not more cuts.
+- **Place the strongest mid-video re-hook at the 55-65% runtime mark** (minutes
+  11-14 of a 20-min doc) — the measured mid-video attention trough. Re-hook every
+  2-3 minutes otherwise; every re-hook is a tease of a SPECIFIC later reveal.
+- **Chapter cards are teases, not labels.** "THE PART NOBODY CHECKED" beats
+  "CHAPTER 3 — THE INVESTIGATION". Each card should make skipping feel expensive.
 - **Vary the scene every 1-2 lines** (already a CLAUDE.md rule — repetition kills retention).
 - **Front-load the best visual.** If the video has one spectacular scene, tease it in the
   first 15s, don't save it for minute 8.
+- **Say the searchable proper nouns early and often** ("Amelia Earhart," "Flight
+  five two two") — the spoken transcript is now a first-class index for search and
+  AI answers, and the SRT upload feeds it. Phonetic TTS spellings stay in the spoken
+  text; the SRT from whisper_srt.py restores written forms.
+- **Close every loop you opened.** Satisfaction signals (surveys, "not interested"
+  taps, return visits) now formally outrank raw watch time in ranking — a viewer who
+  feels baited costs future impressions, not just this video's.
 
 ## Honesty guard
 The hook must be TRUE and the loop must actually pay off in the video. A hook that

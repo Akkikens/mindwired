@@ -25,6 +25,12 @@ Historically-important-but-unrecognized topics (Tenerife) do not. At that snapsh
 every other long-form sat under 1.5K views. Diagnose against the channel's own winners —
 never against universal benchmark numbers.
 
+## Why this skill is structurally enforced now (2026-08)
+The 2026-08-03 audit found this loop had NEVER closed — ~15 videos shipped,
+LAUNCH-LESSONS.md didn't exist. Enforcement: **icahn-validate Step 0 refuses to
+validate a new topic until the previous upload's diagnosis is banked here.** Every
+upload buys a lesson only if this skill actually runs at 48h.
+
 ## Step 0 — get the real data (you CANNOT access YouTube Studio)
 Ask the user to paste, from Studio → Content → the video → Reach + Engagement tabs:
 1. Days live
@@ -35,9 +41,20 @@ Ask the user to paste, from Studio → Content → the video → Reach + Engagem
    description: cliff / slope / flat)
 6. **The same 5 numbers for the channel's best comparable video** (same channel, same
    format — e.g. MH370 for a Black Box long-form)
+7. **The Test & Compare state** — which thumbnail variant is winning on watch-time
+   share (or "test still running" / "no test was set up" — the latter is itself a
+   launch-hygiene failure, see Step 1)
+8. For Shorts: **engaged views + stayed-to-watch %**, never raw Shorts views (raw
+   counts are first-frame-inflated since March 2025 and diagnose nothing)
 
 Do not proceed on vibes. If a metric is missing, mark it unknown and say which branch of
 the tree it blocks. Never invent or estimate a number the user didn't paste.
+Context for reading the numbers: 3.5-5% blended CTR is statistically NORMAL, not
+low (browse skews lower than search by design), and ~37% average-viewed on a
+15-25 min doc sits in the "strong" 35-45% band — do not pathologize healthy
+numbers; the pool size is usually the story. Satisfaction signals (surveys, "not
+interested" taps) now formally outrank raw watch time in ranking — a video can die
+from feeling baity even with fine CTR/retention.
 
 ## Step 1 — launch hygiene BEFORE blaming the content
 Check these channel-specific facts first; if any failed, that IS the diagnosis — fix it
@@ -46,10 +63,18 @@ and re-observe before deeper surgery:
   diagnose nothing yet, and set a reminder to re-run this at 48-72h.
 - **Was the full metadata package applied?** `docs/metadata/METADATA-<slug>.md` must
   exist AND actually be live on the upload: SEO description with chapters and the
-  "▶ MORE FROM" block, ~495-char tags, 15 hashtags, pinned comment, end screen.
+  "▶ MORE FROM" block, pinned comment, and the single-video end screen matching the
+  verbal bridge. (Tags/hashtag counts are no longer diagnostic — near-worthless
+  officially.)
+- **Was a purpose-built thumbnail actually uploaded, with Test & Compare running
+  on 3 variants?** Concepts-in-the-metadata-file ≠ a thumbnail. If the upload went
+  out on an auto-frame or a hasty manual thumb with no test, that IS the
+  launch-hygiene failure — build the 3 variants via ctr-engine and start the test
+  on the LIVE video before diagnosing anything else.
 - **Was the Shorts drip run?** 3-5 vertical Shorts (per the shorts-funnel skill),
-  spaced ~24h apart starting the day after upload, each with a pinned link to the
-  long-form. A long-form with no drip never got its cold-start push.
+  spaced ~24h apart starting the day after upload, each with the related-video
+  link set and a pinned link to the long-form. A long-form with no drip never got
+  its cold-start push.
 
 ## Step 2 — the decision tree (run IN ORDER, stop at the FIRST branch that fires)
 All comparisons are against the channel's own winner from Step 0, never absolute numbers.

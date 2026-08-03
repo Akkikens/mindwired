@@ -1,5 +1,25 @@
 # MINDWIRED — Thumbnail Playbook
 
+> ## ⚠ HOUSE STYLE 2.0 (2026-08-03) — SUPERSEDES the stacked-text style below
+> The "3-5 lines of ALL-CAPS color-coded text" style documented in this file is
+> **RETIRED** for new uploads. Large-scale 2025 studies (1of10's 323K-video dataset,
+> AIR Media-Tech's 18K-channel study) found thumbnail text costs ~19% median views,
+> and the style now reads content-farm; the niche's top channels (LEMMiNO, Fern)
+> ship text-free cinematic thumbnails. New spec (full version: ctr-engine skill §4-5):
+> - **Zero text, or ONE word ≤10 characters covering <7% of the image** — and never
+>   words the title already uses (title asks, thumbnail teases).
+> - **One focal element separated from a dark background by BRIGHTNESS** — keep the
+>   dark-cinematic look, peak brightness on the subject only. Squint test at 170px.
+> - **Real archival asset as the subject** (the real NARA log, the real NIST frame,
+>   the real expedition photo) — not generic CGI drama. No faces needed; never
+>   generated faces.
+> - **Deliverable = 3 built PNG files** (`out/thumbs/<slug>_A/B/C.png`, ≥720p) via
+>   Gemini keyart (gen_af447_thumb.py pattern) or a Remotion `<Slug>Thumbnail` comp
+>   (NasaUfoFilesThumbnail pattern) — concepts alone don't count. All 3 go into
+>   Test & Compare at upload; winner is decided on watch-time share.
+> The workflows below remain valid as TOOLING (how to generate/composite); only the
+> text-heavy styling guidance is superseded.
+
 How to make scroll-stopping, YouTube-grade thumbnails like the GTA 6 winner
 ("GTA 6'S / WEATHER / CHANGES / OPEN WORLDS / FOREVER" over a hurricane-over-Vice-City scene).
 
