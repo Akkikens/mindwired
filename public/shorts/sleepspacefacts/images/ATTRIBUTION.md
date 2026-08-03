@@ -1,0 +1,48 @@
+- `arecibo_real_1.jpg` — "Arecibo Observatory Aerial View" by H. Schweiker/WIYN and NOAO/AURA/NSF — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Arecibo_Observatory_Aerial_View.jpg
+- `arecibo_real_2.jpg` — "Arecibo Observatory Aerial" by Alessandro Cai (OliverZena) — Public domain — https://commons.wikimedia.org/wiki/File:Arecibo_Observatory_Aerial.jpg
+- `arecibo_real_3.jpg` — "Arecibo 66.75261W 18.34607N" — Public domain — https://commons.wikimedia.org/wiki/File:Arecibo_66.75261W_18.34607N.jpg
+- `arecibo_tease_1.jpg` — "Arecibo Observatory Black and White" by NASA — Public domain — https://commons.wikimedia.org/wiki/File:Arecibo_Observatory_Black_and_White.jpg
+- `arecibo_collapse.mp4` — "Arecibo-collapse-drone.webm" — courtesy of the Arecibo Observatory, a U.S. National Science Foundation facility — Public domain — https://commons.wikimedia.org/wiki/File:Arecibo-collapse-drone.webm
+- `bluewhite_star_1.jpg` — "Star Cluster Overshadowed by Infrared Objects" by JPL — Public domain (NASA) — https://images.nasa.gov/details/PIA14096
+- `bluewhite_star_2.jpg` — "Pink Pleiades" by JPL — Public domain (NASA) — https://images.nasa.gov/details/PIA09262
+- `bluewhite_star_3.jpg` — "The Seven Sisters Pose for Spitzer" by JPL — Public domain (NASA) — https://images.nasa.gov/details/PIA09263
+- `coal_real_1.jpg` — "A Lump of Coal" by Colin Smith (geograph.org.uk) — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:A_Lump_of_Coal_-_geograph.org.uk_-_1585817.jpg
+- `diamond_real_1.jpg` — "Raw light brown diamond crystal cut in half" by W.carter — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Raw_light_brown_diamond_crystal_cut_in_half_1.jpg
+- `diamond_real_2.jpg` — "Raw light brown diamond crystal cut in half" by W.carter — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Raw_light_brown_diamond_crystal_cut_in_half_4.jpg
+- `diamond_real_3.jpg` — "Colorado Diamond Crystal, Freedom Diamond, Uncle Sam Diamond, Canary Diamond" — Smithsonian Institution — Public domain — https://commons.wikimedia.org/wiki/File:Colorado_Diamond_Crystal,_Freedom_Diamond,_Uncle_Sam_Diamond,_Canary_Diamond.jpg
+- `flare_real_1.jpg` — "NASA's SDO Shows Images of Significant Solar Flare" by GSFC — Public domain (NASA) — https://images.nasa.gov/details/GSFC_20171208_Archive_e001209
+- `flare_real_2.jpg` — "NASA's SDO Sees a Solar Flare and a Lunar Transit" by GSFC — Public domain (NASA) — https://images.nasa.gov/details/GSFC_20171208_Archive_e001245
+- `flare_real_3.jpg` — "NASA's SDO Observes an X-class Solar Flare" by GSFC — Public domain (NASA) — https://images.nasa.gov/details/GSFC_20171208_Archive_e000934
+- `hubble_real_1.jpg` — "History of Hubble Space Telescope (HST)" by MSFC — Public domain (NASA) — https://images.nasa.gov/details/8663388
+- `hubble_real_2.jpg` — "Around Marshall (8663422)" — NASA Marshall Space Flight Center — Public domain — https://commons.wikimedia.org/wiki/File:Around_Marshall_(8663422).jpg
+- `hubble_real_3.jpg` — "STS056-19-037 — General in orbit views of the forward and after flight decks" — NASA Johnson Space Center — Public domain — https://commons.wikimedia.org/wiki/File:STS056-19-037_-_STS-056_-_General_in_orbit_views_of_the_forward_and_after_flight_decks._-_DPLA_-_a0003035e597239d4237d6c59ac57b42.jpg
+- `iron_real_1.jpg` — "Pouring molten iron from blast furnace ladle into massive pig iron purifier" — Public domain — https://commons.wikimedia.org/wiki/File:Pouring_molten_iron_from_blast_furnace_ladle_into_massive_pig_iron_purifier_-_DPLA_-_b8f63fade8109ef895382b93987fb2f3.jpg
+- `iron_real_2.jpg` — "Industries of War - Metals - Steel - Pouring molten iron into a converter" (NARA) — Public domain — https://commons.wikimedia.org/wiki/File:Industries_of_War_-_Metals_-_Steel_-_Miscellaneous_-_Manufacturing_iron_and_steel_for_war_time_needs._Pouring_molten_iron_into_a_converter_-_NARA_-_45488076.jpg
+- `iron_real_3.jpg` — "Interior view, cupola area with molten metal being poured" by Jet Lowe (HAER) — Public domain — https://commons.wikimedia.org/wiki/File:INTERIOR_VIEW,_LOOKING_NORTH,_CUPOLA_AREA_WITH_MOLTEN_METAL_BEING_POURED_OUT_OF_THE_CUPOLA_INTO_THE_POURING_LADLE._FROM_THE_POURING_LADLE,_THE_IRON_IS_LATER_POURED_INTO_A_HAER_ALA,37-BIRM,36A-3.tif
+- `kelt_scope_1.jpg` — "Las Cumbres Observatory 1-meter Telescope Domes" — CTIO/NOIRLab/NSF/AURA — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Las_Cumbres_Observatory_1-meter_Telescope_Domes_(DSC-4229-CC).jpg
+- `kepler_real_1.jpg` — "Kepler Team Marks Five Years in Space" by JPL — Public domain (NASA) — https://images.nasa.gov/details/PIA14446
+- `kepler_real_2.jpg` — "Kepler's and K2's Fields of View" by ARC — Public domain (NASA) — https://images.nasa.gov/details/ACD20-0045-002
+- `kepler_real_3.jpg` — "Kepler By the Numbers, Mission Stats" by ARC — Public domain (NASA) — https://images.nasa.gov/details/ACD18-0204-001
+- `mearth_real_1.jpg` — "Las Cumbres Observatory 1-meter Telescope Dome" (Cerro Tololo Inter-American Observatory, Chile) — CTIO/NOIRLab/NSF/AURA — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Las_Cumbres_Observatory_1-meter_Telescope_Dome_(DSC-4227-CC).jpg
+- `mearth_real_2.jpg` — "Las Cumbres Observatory 1-meter Telescope Domes" (Cerro Tololo Inter-American Observatory, Chile) — CTIO/NOIRLab/NSF/AURA — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Las_Cumbres_Observatory_1-meter_Telescope_Domes_(DSC-4226-CC).jpg
+- `neptune_real_1.jpg` — "Neptune Southern Hemisphere" by JPL (Voyager 2) — Public domain (NASA) — https://images.nasa.gov/details/PIA00050
+- `neptune_real_2.jpg` — "Neptune Full Disk" by JPL (Voyager 2) — Public domain (NASA) — https://images.nasa.gov/details/PIA00046
+- `neptune_real_3.jpg` — "Neptune Shadows" by JPL — Public domain (NASA) — https://images.nasa.gov/details/PIA02220
+- `spitzer_real_1.jpg` — "Spitzer Space Telescope Ready for Launch" by JPL — Public domain (NASA) — https://images.nasa.gov/details/PIA23644
+- `spitzer_real_2.jpg` — "Spitzer Space Telescope (Illustration)" by JPL — Public domain (NASA) — https://images.nasa.gov/details/PIA23643 — NOTE: this one is a labeled illustration, not a photograph
+- `spitzer_real_3.jpg` — "Spitzer Space Telescope View of Galaxy Messier 101" by JPL — Public domain (NASA) — https://images.nasa.gov/details/PIA11796
+- `starfield_1.jpg` — "Our Sun Came Late to the Milky Way's Star-Birth Party" by GSFC — Public domain (NASA) — https://images.nasa.gov/details/GSFC_20171208_Archive_e000749
+- `starfield_2.jpg` — "Star Map of the Milky Way's Outer Halo" by JPL — Public domain (NASA) — https://images.nasa.gov/details/PIA24571
+- `starfield_3.jpg` — "A Break in the Milky Way's Sagittarius Arm" by JPL — Public domain (NASA) — https://images.nasa.gov/details/PIA24576
+- `telescope_generic_1.jpg` — "Atlas-Centaur Orbiting Astronomical Observatory Shroud Test" by GRC — Public domain (NASA) — https://images.nasa.gov/details/GRC-1968-C-01258
+- `telescope_generic_2.jpg` — "Orbiting Astronomical Observatory-1 Shroud Test in Space Power Chambers" by GRC — Public domain (NASA) — https://images.nasa.gov/details/GRC-1965-C-01864
+- `telescope_generic_3.jpg` — "NASA's SOFIA infrared observatory and F/A-18 safety chase" by AFRC — Public domain (NASA) — https://images.nasa.gov/details/ED07-0237-16
+- `vlt_real_1.jpg` — "Very Large Telescope against a beautiful twilight on Cerro Paranal" by ESO/B. Tafreshi (twanight.org) — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Very_Large_Telescope_against_a_beautiful_twilight_on_Cerro_Paranal.jpg
+- `vlt_real_2.jpg` — "Night at Paranal Observatory" by ESO — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Night_at_Paranal_Observatory_(paranal-7704).jpg
+- `vlt_real_3.jpg` — "A towering VLT Unit Telescope" by ESO/C. Malin — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:A_towering_VLT_Unit_Telescope_(malin-dsc4754).jpg
+- `wasp_survey_1.jpg` — "La Palma - Roque de los Muchachos Observatory (incl. SuperWASP)" by Frank Vincentz — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:La_Palma_-_Garaf%C3%ADa_-_Roque_de_los_Muchachos_Observatory_-_ATC_-_WHT_%2B_DOT_%2B_SST_%2B_SuperWASP_%2B_INT_%2B_JKT_(Mirador_de_Roque_de_los_Muchachos1)_01_ies.jpg
+- `hook_night_1.jpg` — "Hubble Sees Galaxy Hiding in the Night Sky" by GSFC — Public domain (NASA) — https://images.nasa.gov/details/GSFC_20171208_Archive_e000362 (nasa)
+- `hook_night_2.jpg` — "Hiding in the night sky" by GSFC — Public domain (NASA) — https://images.nasa.gov/details/hubble-sees-galaxy-hiding-in-the-night-sky_26774948406_o (nasa)
+- `hook_night_3.jpg` — "GLIMPSE the Galaxy All the Way Around" by JPL — Public domain (NASA) — https://images.nasa.gov/details/PIA17996 (nasa)
+- `hook_scope_1.jpg` — "A large mobile crane and hi-lift are maneuvered into place for removal of the aperture assembly and cavity doors from NASA's SOFIA observatory aircraft" by AFRC — Public domain (NASA) — https://images.nasa.gov/details/ED08-0041-031 (nasa)
+- `hook_scope_2.jpg` — "The Dryden Aircraft Operations Facility in Palmdale, Calif., is now home to two large science aircraft, NASA's SOFIA observatory and a DC-8 science laboratory" by AFRC — Public domain (NASA) — https://images.nasa.gov/details/ED08-0022-01 (nasa)

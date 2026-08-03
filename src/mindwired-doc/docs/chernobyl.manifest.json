@@ -1,0 +1,142 @@
+{
+ "durations": {
+  "h1": 8.594,
+  "h2": 5.486,
+  "h3": 15.491,
+  "h4": 7.706,
+  "h5": 8.124,
+  "sting": 1.802,
+  "title": 2.926,
+  "c1": 3.317,
+  "a1": 12.826,
+  "a2": 10.266,
+  "a3": 12.669,
+  "a4": 9.091,
+  "a5": 10.266,
+  "a6": 14.028,
+  "a7": 6.113,
+  "c2": 1.802,
+  "b1": 10.188,
+  "b2": 11.729,
+  "b3": 10.031,
+  "b4": 8.359,
+  "b5": 8.673,
+  "b6": 10.762,
+  "b7": 11.468,
+  "c3": 2.691,
+  "c1t": 8.438,
+  "c2t": 10.109,
+  "c3t": 5.068,
+  "ex_insag": 13.479,
+  "c5t": 8.359,
+  "c6t": 15.386,
+  "c7t": 15.491,
+  "c8t": 14.106,
+  "c4": 2.429,
+  "d1": 11.468,
+  "d2": 8.594,
+  "d3": 11.389,
+  "d4": 15.308,
+  "d5": 14.759,
+  "d6": 13.087,
+  "c5": 2.273,
+  "e1": 8.516,
+  "e2": 16.927,
+  "e3": 16.431,
+  "e4": 11.076,
+  "e5": 13.401,
+  "coda1": 6.034,
+  "coda2": 6.191,
+  "coda3": 6.034,
+  "end": 9.639
+ },
+ "images": {
+  "aftermath_fix": [
+   "aftermath_fix_1.jpeg",
+   "aftermath_fix_2.jpeg",
+   "aftermath_fix_3.jpeg"
+  ],
+  "control_rods": [
+   "control_rods_1.jpeg",
+   "control_rods_2.jpeg",
+   "control_rods_3.jpeg",
+   "control_rods_4.jpeg"
+  ],
+  "courthouse_generic": [
+   "courthouse_generic_1.jpeg",
+   "courthouse_generic_2.jpeg",
+   "courthouse_generic_3.jpeg"
+  ],
+  "ex_insag7": [
+   "ex_insag7_1.png"
+  ],
+  "hospital_generic": [
+   "hospital_generic_1.jpeg",
+   "hospital_generic_2.jpeg",
+   "hospital_generic_3.jpeg"
+  ],
+  "insag_doc": [
+   "insag_doc_1.jpeg",
+   "insag_doc_2.jpeg",
+   "insag_doc_3.jpeg"
+  ],
+  "legasov_portrait": [
+   "legasov_portrait_1.jpeg",
+   "legasov_portrait_2.jpeg",
+   "legasov_portrait_3.jpeg"
+  ],
+  "memorial_photo": [
+   "memorial_photo_1.jpeg",
+   "memorial_photo_2.jpeg",
+   "memorial_photo_3.jpeg"
+  ],
+  "night_shift": [
+   "night_shift_1.jpeg",
+   "night_shift_2.jpeg",
+   "night_shift_3.jpeg"
+  ],
+  "nsc_arch": [
+   "nsc_arch_1.jpeg",
+   "nsc_arch_2.jpeg",
+   "nsc_arch_3.jpeg"
+  ],
+  "pripyat_1": [
+   "pripyat_1_1.jpeg",
+   "pripyat_1_2.jpeg",
+   "pripyat_1_3.jpeg"
+  ],
+  "pripyat_fix": [
+   "pripyat_fix_1.jpg",
+   "pripyat_fix_2.jpg",
+   "pripyat_fix_3.jpg"
+  ],
+  "reactor4_aftermath": [
+   "reactor4_aftermath_1.jpeg",
+   "reactor4_aftermath_2.jpeg",
+   "reactor4_aftermath_3.jpeg"
+  ],
+  "reactor_diagram": [
+   "reactor_diagram_1.jpg",
+   "reactor_diagram_2.jpeg",
+   "reactor_diagram_3.jpeg"
+  ],
+  "rooftop_cleanup": [
+   "rooftop_cleanup_1.jpeg",
+   "rooftop_cleanup_2.jpeg",
+   "rooftop_cleanup_3.jpeg"
+  ],
+  "soviet_archive": [
+   "soviet_archive_1.jpeg",
+   "soviet_archive_2.jpeg",
+   "soviet_archive_3.jpeg"
+  ],
+  "vienna_meeting": [
+   "vienna_meeting_1.jpeg",
+   "vienna_meeting_2.jpeg",
+   "vienna_meeting_3.jpeg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.96,
+ "mouth": {}
+}

@@ -1,0 +1,914 @@
+{
+  "slug": "jal123",
+  "title": "Japan Airlines 123",
+  "channel": "blackbox",
+  "niche": "aviation",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "It is August twelfth, nineteen eighty five. At Haneda Airport in Tokyo, a famous man is boarding a flight he never meant to take.",
+      "img": "haneda_terminal",
+      "query": "Tokyo Haneda airport terminal 1980s departure hall",
+      "stock": true,
+      "stat": "AUG 12, 1985",
+      "cap": "A flight he never meant to take.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h2",
+      "text": "His name is Kyu Sakamoto. In nineteen sixty three, he became the first Japanese artist ever to hit number one on the American charts.",
+      "img": "kyu_sakamoto",
+      "query": "Kyu Sakamoto Japanese singer 1960s portrait",
+      "cap": "Kyu Sakamoto — the voice of Sukiyaki.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h3",
+      "text": "He always flew a different airline. But tonight, every seat on it is booked solid for the holiday. So his ticket gets moved, at the last minute, onto this one instead.",
+      "img": "boarding_gate",
+      "query": "airline passengers boarding jet bridge 1980s",
+      "stock": true,
+      "cap": "Every seat on his usual airline: gone.",
+      "tone": "dread"
+    },
+    {
+      "id": "h4",
+      "text": "His wife does not know he switched flights. She will find out from the passenger list.",
+      "img": "haneda_departures_board",
+      "query": "airport departure board 1980s analog",
+      "stock": true,
+      "cap": "She doesn't know yet.",
+      "extraHold": 10,
+      "tone": "dread"
+    },
+    {
+      "id": "h5",
+      "text": "The aircraft is a Boeing seven forty seven, over a decade old, flown thousands of times before. Five hundred and nine passengers. Fifteen crew.",
+      "img": "ja8119_exterior",
+      "query": "Japan Airlines Boeing 747SR JA8119",
+      "cap": "JA8119. 524 souls aboard.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h6",
+      "text": "In the cockpit, the most experienced seven forty seven captain in the airline isn't flying tonight. He's sitting in the co-pilot's seat, teaching.",
+      "img": "747_cockpit",
+      "query": "Boeing 747 cockpit instrument panel 1980s",
+      "stock": true,
+      "cap": "Captain Masami Takahama — not flying. Teaching.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h6_2",
+      "text": "Masami Takahama has flown this exact route for years. Twelve thousand four hundred flight hours. Nearly five thousand of them on this specific aircraft type.",
+      "cap": "12,400 flight hours. One of the best in the airline.",
+      "tone": "curiosity",
+      "img": "747_cockpit"
+    },
+    {
+      "id": "h7",
+      "text": "In twelve minutes, this aircraft will suffer the most catastrophic structural failure in aviation history. And then it will keep flying anyway — completely uncontrollable — for thirty two more minutes.",
+      "kinetic": {
+        "words": [
+          "32",
+          "minutes.",
+          "Uncontrollable."
+        ]
+      },
+      "extraHold": 24,
+      "tone": "fear",
+      "img": "ja8119_exterior"
+    },
+    {
+      "id": "h8",
+      "text": "Five hundred and twenty people will not survive it. It remains, to this day, the deadliest single aircraft disaster in the history of flight.",
+      "stat": "520 DEAD",
+      "kinetic": {
+        "count": 520,
+        "countLabel": "lives lost",
+        "words": [
+          "The",
+          "deadliest",
+          "single-aircraft",
+          "crash",
+          "ever."
+        ]
+      },
+      "extraHold": 20,
+      "tone": "shock",
+      "img": "747_takeoff"
+    },
+    {
+      "id": "h9",
+      "text": "The cause traces back seven years, to a repair Boeing was supposed to get right — and quietly didn't.",
+      "img": "bulkhead_diagram",
+      "query": "aircraft pressure bulkhead diagram technical",
+      "cap": "A repair, seven years late.",
+      "motion": "slow",
+      "tone": "dread"
+    },
+    {
+      "id": "sting",
+      "sting": true,
+      "text": "You're watching Black Box Breakdown.",
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "text": "Japan Airlines 123.",
+      "chapter": "THE DEADLIEST SINGLE-AIRCRAFT\nCRASH IN HISTORY\n\nJAPAN AIRLINES 123",
+      "img": "747_takeoff"
+    },
+    {
+      "id": "c1",
+      "text": "Seven years before this flight, this exact aircraft already tried to kill everyone on board once. Nobody outside the industry ever heard about it.",
+      "chapter": "CHAPTER ONE\nTHE FIRST WARNING",
+      "img": "osaka_airport_1978",
+      "query": "Osaka Itami airport runway 1970s",
+      "stock": true,
+      "cap": "1978. The first warning.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c1_2",
+      "text": "June second, nineteen seventy eight. This exact same aircraft is landing at Osaka on a routine domestic flight from Tokyo.",
+      "stat": "JUN 2, 1978",
+      "dossier": true,
+      "img": "tailstrike",
+      "label": "OSAKA, 1978",
+      "cap": "A hard landing.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c1_3",
+      "text": "It bounces on the first touchdown. On the second, the tail slams into the runway. Twenty five people are hurt. Nobody dies. The story ends there, everyone assumes.",
+      "dossier": true,
+      "img": "tailstrike",
+      "label": "THE TAILSTRIKE",
+      "cap": "The tail hits the runway.",
+      "tone": "dread"
+    },
+    {
+      "id": "c1_4",
+      "text": "The impact tears open the aircraft's aft pressure bulkhead — a domed wall of metal, built to hold the entire cabin's air pressure in, every single flight, for the rest of the aircraft's life.",
+      "img": "bulkhead_diagram2",
+      "query": "aircraft aft pressure bulkhead cross section diagram",
+      "cap": "The aft pressure bulkhead.",
+      "highlight": [
+        0.3,
+        0.2,
+        0.4,
+        0.5
+      ],
+      "tone": "curiosity"
+    },
+    {
+      "id": "c1_5",
+      "text": "JAL patches it temporarily, then flies the aircraft to Tokyo. There, Boeing sends its own repair crew to fix it properly, for good.",
+      "img": "haneda_hangar",
+      "query": "aircraft maintenance hangar 1980s technicians",
+      "stock": true,
+      "cap": "Boeing's own repair team.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c2",
+      "text": "Boeing's repair instructions are exact. The torn section of bulkhead needs one new splice plate, correctly sized, fastened down with two full rows of rivets.",
+      "chapter": "CHAPTER TWO\nONE ROW OF RIVETS",
+      "img": "rivet_diagram",
+      "query": "aircraft rivet row splice plate technical diagram",
+      "cap": "The correct repair: two rows of rivets.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c2_2",
+      "text": "That is not what happens. The crew on the ground installs a plate that's too narrow for the job — and packs the gap with a separate filler piece instead of the real part.",
+      "exhibit": true,
+      "img": "jtsb_report_cover",
+      "query": "JTSB aircraft accident investigation report document",
+      "source": "AAIC Investigation Report · 62-2-JA8119 · June 19, 1987",
+      "cap": "The official finding.",
+      "tone": "dread"
+    },
+    {
+      "id": "c2_3",
+      "text": "According to Japan's own investigators, the result is that a joint meant to be held by two rows of rivets ends up held by one. Its strength: cut to about seventy percent of what the design called for.",
+      "exhibit": true,
+      "img": "jtsb_repair_diagram",
+      "query": "aircraft accident investigation report repair diagram figure",
+      "source": "AAIC Investigation Report · §3.2.2 · p.101",
+      "highlight": [
+        0.05,
+        0.63,
+        0.9,
+        0.14
+      ],
+      "cap": "Strength: cut to 70 percent.",
+      "tone": "dread"
+    },
+    {
+      "id": "c2_4",
+      "text": "No written record of the substitution is ever filed. A Boeing inspector checks the work — and does not catch that it doesn't match the drawing.",
+      "img": "inspector_clipboard",
+      "query": "aircraft maintenance inspector clipboard checklist 1980s",
+      "stock": true,
+      "cap": "The inspector doesn't catch it.",
+      "tone": "dread"
+    },
+    {
+      "id": "c2_5",
+      "text": "Sealant is later applied along the repair's edge. From that point on, nobody can even see the joint well enough to check it again.",
+      "cap": "Sealed. And hidden.",
+      "extraHold": 8,
+      "tone": "dread",
+      "img": "haneda_hangar"
+    },
+    {
+      "id": "c2_6",
+      "text": "July twelfth, nineteen seventy eight. The aircraft passes its post-repair inspection. It is cleared to fly. Nobody involved knows anything is wrong.",
+      "stat": "JUL 12, 1978",
+      "img": "747_taxiing",
+      "query": "Boeing 747 taxiing airport runway 1980s",
+      "stock": true,
+      "cap": "Cleared to fly.",
+      "tone": "dread"
+    },
+    {
+      "id": "c3",
+      "text": "Every single flight after that day pressurizes the cabin, then depressurizes it again on descent. Like inflating a balloon. Seven thousand, four hundred times a year.",
+      "chapter": "CHAPTER THREE\nSEVEN YEARS",
+      "img": "747_climbing",
+      "query": "Boeing 747 climbing after takeoff sky",
+      "cap": "Every flight: another cycle of stress.",
+      "motion": "slow",
+      "tone": "dread"
+    },
+    {
+      "id": "c3_2",
+      "text": "At the weakened rivet holes, microscopic cracks begin forming almost immediately after the repair. Too small to see. Growing with every single flight.",
+      "kinetic": {
+        "words": [
+          "Cracks.",
+          "Invisible.",
+          "Growing."
+        ]
+      },
+      "extraHold": 16,
+      "tone": "dread",
+      "img": "747_climbing"
+    },
+    {
+      "id": "c3_3",
+      "text": "The aircraft keeps flying, completely normally, for seven more years. Twelve thousand, three hundred and nineteen more flights.",
+      "stat": "12,319 FLIGHTS",
+      "kinetic": {
+        "count": 12319,
+        "countLabel": "flights on the weakened joint",
+        "words": []
+      },
+      "extraHold": 16,
+      "tone": "dread",
+      "img": "747_climbing"
+    },
+    {
+      "id": "c3_4",
+      "text": "December nineteen eighty four. Mechanics perform a scheduled inspection — the kind every aircraft gets every few thousand hours. They check the area. They find nothing.",
+      "img": "maintenance_check",
+      "query": "aircraft maintenance inspection hangar technician 1980s",
+      "stock": true,
+      "cap": "A routine check. Nothing found.",
+      "tone": "dread"
+    },
+    {
+      "id": "c3_5",
+      "text": "Investigators later calculate why. By that inspection, the cracks were already about a centimeter long — but so thin, a visual check had only around a one-in-ten chance of catching any single one.",
+      "exhibit": true,
+      "img": "jtsb_probability",
+      "query": "aircraft accident investigation report fatigue analysis",
+      "source": "AAIC Investigation Report · §3.1.12.3 · p.99",
+      "highlight": [
+        0.14,
+        0.72,
+        0.8,
+        0.14
+      ],
+      "cap": "A 1-in-10 chance of catching it.",
+      "tone": "dread"
+    },
+    {
+      "id": "c3_5b",
+      "text": "This is what one of those cracks actually looked like, magnified thousands of times under an electron microscope — every faint ridge, a single flight cycle.",
+      "exhibit": true,
+      "img": "jtsb_fracture_photo",
+      "query": "aircraft accident investigation report fatigue fracture electron microscope",
+      "source": "AAIC Investigation Report · Photo-109/Photo-110, Attachment",
+      "cap": "Every ridge: one more flight.",
+      "tone": "dread"
+    },
+    {
+      "id": "c3_6",
+      "text": "This was not simple negligence. It was a defect built to hide from the exact kind of inspection anyone would have thought to run.",
+      "cap": "Built to hide.",
+      "extraHold": 10,
+      "tone": "dread",
+      "img": "maintenance_check"
+    },
+    {
+      "id": "c3_7",
+      "text": "By August of nineteen eighty five, the cracks have grown and linked together into a single fracture line, almost the length of two strides, hidden inside the tail of the aircraft.",
+      "cap": "Almost 280 millimeters. Hidden.",
+      "extraHold": 12,
+      "tone": "dread",
+      "img": "maintenance_check"
+    },
+    {
+      "id": "c3_8",
+      "text": "Nobody on the ground knows it's there. Nobody boarding tonight's flight has any way of knowing it's there either.",
+      "img": "boarding_passengers",
+      "query": "airline passengers boarding jetway 1980s",
+      "stock": true,
+      "cap": "Nobody knows.",
+      "tone": "dread"
+    },
+    {
+      "id": "c4",
+      "text": "Six eighteen PM. Japan Airlines Flight one twenty three pushes back from the gate at Haneda, bound for Osaka. A routine, forty-five minute domestic hop.",
+      "chapter": "CHAPTER FOUR\nTHE BANG",
+      "stat": "18:12 JST",
+      "img": "747_takeoff",
+      "query": "Boeing 747 takeoff runway evening",
+      "cap": "18:12. Wheels up.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c4_2",
+      "text": "Twelve minutes later, climbing toward twenty four thousand feet, there is a loud bang. Both pilots say the same three words, at the same instant.",
+      "stat": "18:24 JST",
+      "cap": "\"Squawk seven seven.\" The emergency code.",
+      "extraHold": 10,
+      "tone": "fear",
+      "img": "747_cockpit2"
+    },
+    {
+      "id": "c4_3",
+      "text": "That bang is the aft pressure bulkhead. Seven years of hidden cracks finally give way, all at once, in a fraction of a second.",
+      "img": "bulkhead_failure_diagram",
+      "query": "aircraft structural failure pressure bulkhead diagram",
+      "cap": "The bulkhead ruptures.",
+      "extraHold": 8,
+      "tone": "fear"
+    },
+    {
+      "id": "c4_4",
+      "text": "Cabin air blasts backward into the unpressurized tail section, tearing through it, blowing out the base of the vertical fin, and severing every hydraulic line that controls the aircraft.",
+      "exhibit": true,
+      "img": "jtsb_torque_diagram",
+      "query": "aircraft accident investigation report vertical stabilizer damage diagram",
+      "source": "AAIC Investigation Report · Photo-33/34, recovered wreckage",
+      "cap": "All four hydraulic systems. Gone.",
+      "tone": "fear"
+    },
+    {
+      "id": "c4_5",
+      "text": "According to investigators, this entire chain of destruction takes place in a matter of seconds. A modern airliner has three, sometimes four separate hydraulic systems specifically so one failure can never take them all.",
+      "cap": "Redundancy — by design.",
+      "extraHold": 8,
+      "tone": "fear",
+      "img": "bulkhead_failure_diagram"
+    },
+    {
+      "id": "c4_6",
+      "text": "This failure takes all of them at once. In ninety seconds, the flight engineer confirms it out loud.",
+      "img": "747_cockpit2",
+      "query": "Boeing 747 flight engineer panel cockpit",
+      "stock": true,
+      "cap": "\"Hydro all out?\" \"Yes.\"",
+      "extraHold": 10,
+      "tone": "fear"
+    },
+    {
+      "id": "c4_7",
+      "text": "A Boeing seven forty seven has no manual backup for its flight controls. Without hydraulics, the rudder, the elevators, the ailerons — none of them respond anymore.",
+      "cap": "No manual backup. None.",
+      "extraHold": 8,
+      "tone": "fear",
+      "img": "747_cockpit2"
+    },
+    {
+      "id": "c4_8",
+      "text": "The only thing the crew has left to fly the airplane with, for the rest of this flight, is the throttles.",
+      "cap": "Just the engines.",
+      "extraHold": 10,
+      "tone": "dread",
+      "img": "747_cockpit2"
+    },
+    {
+      "id": "c5",
+      "text": "Four minutes after the bang, the aircraft radios Tokyo Control with the words that will define the next half hour.",
+      "chapter": "CHAPTER FIVE\nTHIRTY-TWO MINUTES",
+      "stat": "18:28 JST",
+      "cap": "\"Now uncontrollable.\"",
+      "extraHold": 10,
+      "tone": "fear",
+      "img": "747_rolling"
+    },
+    {
+      "id": "c5_2",
+      "text": "It will remain the longest sustained inflight emergency in the history of commercial aviation. Thirty two minutes of an aircraft that will not obey its pilots.",
+      "kinetic": {
+        "words": [
+          "32",
+          "minutes.",
+          "The",
+          "longest",
+          "on",
+          "record."
+        ]
+      },
+      "extraHold": 20,
+      "tone": "fear",
+      "img": "747_rolling"
+    },
+    {
+      "id": "c5_3",
+      "text": "The aircraft pitches and rolls on its own, in long, slow, sickening oscillations. The only way the crew can fight it at all is by adding and cutting engine power, again and again.",
+      "img": "747_rolling",
+      "query": "aircraft turbulence rough flight sky clouds",
+      "stock": true,
+      "cap": "Fighting it with the throttles alone.",
+      "tone": "fear"
+    },
+    {
+      "id": "c5_4",
+      "text": "Investigators later concluded that true directional steering by engine power alone was almost impossible on this aircraft — and found no evidence the crew ever managed it. They weren't steering. They were just trying to keep it in the air.",
+      "cap": "Not steering. Surviving.",
+      "extraHold": 8,
+      "tone": "dread",
+      "img": "mt_fuji_area"
+    },
+    {
+      "id": "c5_5",
+      "text": "The captain requests an emergency return to Haneda. Instead, the crippled aircraft drifts west, out over Suruga Bay, completely outside anyone's control.",
+      "img": "mt_fuji_area",
+      "query": "Mount Fuji aerial landscape Japan",
+      "stock": true,
+      "cap": "Drifting toward Mount Fuji.",
+      "tone": "dread"
+    },
+    {
+      "id": "c5_6",
+      "text": "Near Mount Fuji, the crew lowers the landing gear by hand, using a backup mechanical release — the first control input beyond raw engine power that actually does something.",
+      "cap": "Gear down. It helps, slightly.",
+      "extraHold": 8,
+      "tone": "dread",
+      "img": "mt_fuji_area"
+    },
+    {
+      "id": "c5_7",
+      "text": "Twenty three minutes in, still fighting for altitude, the aircraft swings low over the mountains west of Tokyo — and for one moment, everyone in the cockpit can see exactly what's ahead.",
+      "stat": "18:47 JST",
+      "cap": "23 minutes in.",
+      "tone": "fear",
+      "img": "mountains_evening"
+    },
+    {
+      "id": "c5_8",
+      "speaker": "CO-PILOT",
+      "radioLabel": "CVR RECREATION",
+      "timestamp": "18:47:33 JST",
+      "text": "Hey. Mountain.",
+      "cap": "\"Hey. Mountain.\"",
+      "tone": "fear"
+    },
+    {
+      "id": "c5_9",
+      "speaker": "FLIGHT ENGINEER",
+      "radioLabel": "CVR RECREATION",
+      "timestamp": "18:47:35 JST",
+      "text": "Yes, please.",
+      "cap": "\"Yes, please.\"",
+      "tone": "fear"
+    },
+    {
+      "id": "c5_10",
+      "speaker": "CAPTAIN",
+      "radioLabel": "CVR RECREATION",
+      "timestamp": "18:47:40 JST",
+      "text": "Mountain — take control, right. Right turn.",
+      "cap": "\"Mountain — right turn!\"",
+      "tone": "fear"
+    },
+    {
+      "id": "c5_11",
+      "speaker": "CO-PILOT",
+      "radioLabel": "CVR RECREATION",
+      "timestamp": "18:47:45 JST",
+      "text": "We'll hit a mountain!",
+      "cap": "\"We'll hit a mountain!\"",
+      "tone": "fear"
+    },
+    {
+      "id": "c5_12",
+      "speaker": "CAPTAIN",
+      "radioLabel": "CVR RECREATION",
+      "timestamp": "18:47:50 JST",
+      "text": "Max power.",
+      "cap": "\"Max power.\"",
+      "extraHold": 8,
+      "tone": "fear"
+    },
+    {
+      "id": "c5_13",
+      "text": "They clear it. Barely. It is a near miss — nine minutes before the actual crash, and roughly nine minutes before anyone on board runs out of time completely.",
+      "img": "mountains_evening",
+      "query": "mountain ridge silhouette evening sky Japan",
+      "stock": true,
+      "cap": "A near miss. Nine minutes left.",
+      "tone": "dread"
+    },
+    {
+      "id": "c6",
+      "text": "In the cabin, passengers who understand what's happening start doing the only thing left to do.",
+      "chapter": "CHAPTER SIX\nTHE LAST NOTES",
+      "img": "airplane_cabin_dark",
+      "query": "airplane cabin interior passengers seated",
+      "stock": true,
+      "cap": "Writing.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c6_2",
+      "text": "A man named Hirotsugu Kawaguchi writes to his family: it has been five minutes now, he writes. I don't want to take any more planes.",
+      "cap": "\"I don't want to take any more planes.\"",
+      "extraHold": 10,
+      "tone": "melancholy",
+      "img": "airplane_cabin_dark"
+    },
+    {
+      "id": "c6_3",
+      "text": "Kazuo Yoshimura writes a note asking his wife to look after their children. Several other passengers write their own — messages of love, fear, instructions for the people they're leaving behind.",
+      "cap": "Messages for the people they're leaving behind.",
+      "extraHold": 10,
+      "tone": "melancholy",
+      "img": "airplane_cabin_dark"
+    },
+    {
+      "id": "c6_4",
+      "text": "One of the flight attendants, Yumiko Tsushima, spends part of those final minutes writing out safety instructions for the passengers around her — in Japanese, then in English.",
+      "cap": "Still doing her job. To the end.",
+      "extraHold": 10,
+      "tone": "melancholy",
+      "img": "airplane_cabin_dark"
+    },
+    {
+      "id": "c6_5",
+      "text": "Several of those notes survive the crash. Today, translated, they sit behind glass at Japan Airlines' own safety museum — read by every new employee the airline hires.",
+      "img": "safety_center",
+      "query": "aviation safety museum exhibit display",
+      "stock": true,
+      "cap": "They're still on display today.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c7",
+      "text": "Twenty eight minutes in. The aircraft climbs, briefly, then starts descending again, still rolling and pitching on its own.",
+      "stat": "18:53 JST",
+      "img": "clouds_sunset",
+      "query": "sunset clouds aerial view mountains",
+      "stock": true,
+      "cap": "28 minutes. Still falling.",
+      "tone": "fear"
+    },
+    {
+      "id": "c7_2",
+      "text": "Six minutes after that, the aircraft reports its position one last time. Approach control offers two nearby airports. There is no response. There will be no more responses.",
+      "stat": "18:55 JST",
+      "cap": "The last transmission.",
+      "extraHold": 10,
+      "tone": "dread",
+      "img": "clouds_sunset"
+    },
+    {
+      "id": "c7_3",
+      "speaker": "CAPTAIN",
+      "radioLabel": "CVR RECREATION",
+      "timestamp": "18:56:00 JST",
+      "text": "Raise the nose. Raise the nose.",
+      "cap": "\"Raise the nose.\"",
+      "tone": "fear"
+    },
+    {
+      "id": "c7_4",
+      "speaker": "CAPTAIN",
+      "radioLabel": "CVR RECREATION",
+      "timestamp": "18:56:10 JST",
+      "text": "Power. Power.",
+      "cap": "\"Power. Power.\"",
+      "extraHold": 8,
+      "tone": "fear"
+    },
+    {
+      "id": "c7_5",
+      "text": "Then the ground proximity warning system takes over the cockpit entirely.",
+      "cap": "The ground warning system.",
+      "extraHold": 6,
+      "tone": "fear",
+      "img": "mountain_ridge_night"
+    },
+    {
+      "id": "c7_6",
+      "text": "Six times, the same automated voice repeats the only warning it knows how to give.",
+      "kinetic": {
+        "words": [
+          "\"WHOOP",
+          "WHOOP.",
+          "PULL",
+          "UP.\""
+        ]
+      },
+      "extraHold": 16,
+      "tone": "shock",
+      "img": "mountain_ridge_night"
+    },
+    {
+      "id": "c7_7",
+      "text": "The official cockpit voice recording ends eighteen seconds later. Thirty two minutes and sixteen seconds after it began.",
+      "cap": "End of recording.",
+      "extraHold": 12,
+      "tone": "shock",
+      "img": "mountain_ridge_night"
+    },
+    {
+      "id": "c7_8",
+      "text": "The aircraft clips a ridge, then a single tree, then comes down nose-first onto a mountainside in Gunma Prefecture, on a slope that will later be named Osutaka Ridge.",
+      "img": "mountain_ridge_night",
+      "query": "mountain ridge forest aerial dusk Japan",
+      "stock": true,
+      "cap": "Osutaka Ridge.",
+      "extraHold": 10,
+      "tone": "shock"
+    },
+    {
+      "id": "c8",
+      "text": "Five hundred and twenty four people were on board Japan Airlines Flight one twenty three.",
+      "chapter": "CHAPTER SEVEN\nSIXTEEN HOURS",
+      "stat": "524 ABOARD",
+      "cap": "524 people.",
+      "tone": "shock",
+      "img": "gunma_mountains"
+    },
+    {
+      "id": "c8_2",
+      "text": "It takes rescuers almost sixteen hours to reach the crash site — through mountainous terrain, in total darkness.",
+      "img": "gunma_mountains",
+      "query": "Gunma Prefecture mountains forest landscape Japan",
+      "stock": true,
+      "cap": "16 hours in the dark.",
+      "tone": "dread"
+    },
+    {
+      "id": "c8_3",
+      "text": "Japan's own official investigation later calls the delay, quote, justifiable, given the terrain and the darkness. Survivors and journalists at the time told a harsher story.",
+      "exhibit": true,
+      "img": "jtsb_sar_section",
+      "query": "AAIB report search rescue timeline document",
+      "source": "AAIC Investigation Report · §2.14.1.4 · p.24",
+      "highlight": [
+        0.15,
+        0.42,
+        0.75,
+        0.14
+      ],
+      "cap": "\"Justifiable.\" Not everyone agreed.",
+      "tone": "dread"
+    },
+    {
+      "id": "c8_4",
+      "text": "One of the four people who survived the crash later described hearing cries for help around her in the wreckage — cries that, through the long night, one by one, went quiet.",
+      "cap": "Cries, through the night, going quiet.",
+      "extraHold": 10,
+      "tone": "shock",
+      "img": "gunma_mountains"
+    },
+    {
+      "id": "c8_5",
+      "text": "Doctors who later treated the survivors said publicly that finding them even ten hours sooner might have saved more lives. Whether that's true has never been settled.",
+      "cap": "A question that was never settled.",
+      "extraHold": 10,
+      "tone": "dread",
+      "img": "rescue_helicopter"
+    },
+    {
+      "id": "c8_6",
+      "text": "At ten forty five the next morning, rescuers finally find survivors. All four are women. All four were sitting within the same few rows, near the very back of the aircraft.",
+      "stat": "4 SURVIVORS",
+      "img": "rescue_helicopter",
+      "query": "search rescue helicopter mountain forest",
+      "stock": true,
+      "cap": "4 survivors. All from the same rows.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c8_7",
+      "text": "One of them, an off-duty flight attendant named Yumi Ochiai, had survived sixteen hours alone in the wreckage. Within eight months, she was flying again.",
+      "cap": "Yumi Ochiai. Flying again within 8 months.",
+      "extraHold": 10,
+      "tone": "melancholy",
+      "img": "rescue_helicopter"
+    },
+    {
+      "id": "c8_8",
+      "text": "Another survivor was an eight year old girl. Her mother, badly injured beside her, later said her daughter kept talking to her all night — kept her awake, kept her alive.",
+      "cap": "An 8-year-old kept her mother alive.",
+      "extraHold": 12,
+      "tone": "melancholy",
+      "img": "rescue_helicopter"
+    },
+    {
+      "id": "c9",
+      "text": "Investigators worked the wreckage for two months, and the case for nearly two years. Their final report runs over three hundred pages.",
+      "chapter": "CHAPTER EIGHT\nTHE REAL CAUSE",
+      "img": "wreckage_field",
+      "query": "aircraft crash site debris mountain wreckage",
+      "stock": true,
+      "cap": "Two years of investigation.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c9_1b",
+      "text": "This is what they actually recovered of the aft pressure bulkhead — the exact part that failed, laid out and photographed for the record.",
+      "exhibit": true,
+      "img": "jtsb_bulkhead_wreckage",
+      "query": "aircraft accident investigation report bulkhead wreckage photo",
+      "source": "AAIC Investigation Report · Photo-73/74, Attachment",
+      "cap": "The part that failed. Recovered.",
+      "tone": "dread"
+    },
+    {
+      "id": "c9_2",
+      "text": "Their conclusion, verbatim, from the official report.",
+      "exhibit": true,
+      "img": "jtsb_cause_page",
+      "query": "AAIC investigation report cause conclusion page",
+      "source": "AAIC Investigation Report · §4.2 \"Cause\" · p.129",
+      "highlight": [
+        0.15,
+        0.13,
+        0.72,
+        0.34
+      ],
+      "cap": "Section 4.2 — Cause.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c9_3",
+      "text": "The initiation and propagation of the fatigue cracks, they wrote, are attributable to the improper repairs of the bulkhead conducted in nineteen seventy eight.",
+      "cap": "\"Attributable to the improper repairs... in 1978.\"",
+      "extraHold": 10,
+      "tone": "shock",
+      "img": "wreckage_field"
+    },
+    {
+      "id": "c9_4",
+      "text": "Three weeks after the crash, Boeing publicly acknowledged that its repair crew had not followed its own specification. It stopped short, at the time, of directly confirming the repair caused the accident.",
+      "img": "boeing_hq",
+      "query": "Boeing aircraft factory exterior",
+      "stock": true,
+      "cap": "Boeing: the repair was wrong.",
+      "tone": "dread"
+    },
+    {
+      "id": "c9_5",
+      "text": "Japanese prosecutors referred twenty people for possible criminal negligence charges — including four Boeing employees. In the end, nobody was ever indicted.",
+      "cap": "20 referred. Nobody indicted.",
+      "extraHold": 10,
+      "tone": "dread",
+      "img": "boeing_hq"
+    },
+    {
+      "id": "c9_5b",
+      "text": "But the aircraft itself changed. Within a year, Japan's aviation authority ordered every Boeing seven forty seven with high flight cycles fully re-inspected, and a structural cover installed over the exact opening that let pressurized air destroy this aircraft's tail.",
+      "exhibit": true,
+      "img": "jtsb_ad_page",
+      "query": "airworthiness directive document aviation regulation repair",
+      "source": "Airworthiness Directive TCD-2611-86 · May 7, 1986",
+      "cap": "Every high-cycle 747: re-inspected.",
+      "tone": "confidence"
+    },
+    {
+      "id": "c9_5c",
+      "text": "A second directive followed months later, permanently folding this exact failure mode into how every aging seven forty seven gets inspected, worldwide, from then on.",
+      "cap": "Folded into the rulebook. Permanently.",
+      "extraHold": 10,
+      "tone": "confidence",
+      "img": "boeing_hq"
+    },
+    {
+      "id": "c9_6",
+      "text": "Two men connected to the repair and its inspection — a JAL maintenance manager and the engineer who had cleared the aircraft as airworthy — later died by suicide. Both deaths were widely reported as driven by guilt.",
+      "cap": "Two men. Widely reported: guilt.",
+      "extraHold": 12,
+      "tone": "shock",
+      "img": "wreckage_field"
+    },
+    {
+      "id": "c9_7",
+      "text": "The airline's president resigned twelve days after the crash. He is reported to have personally visited grieving families before he stepped down.",
+      "cap": "The president resigned. 12 days later.",
+      "extraHold": 8,
+      "tone": "melancholy",
+      "img": "wreckage_field"
+    },
+    {
+      "id": "c10",
+      "text": "Kyu Sakamoto — the singer who took the last available seat — died on that mountainside along with almost everyone else aboard.",
+      "chapter": "CHAPTER NINE\nOSUTAKA RIDGE, TODAY",
+      "img": "osutaka_cenotaph",
+      "cap": "Kyu Sakamoto did not survive.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c10_2",
+      "text": "One passenger, a banker named Akihisa Yukawa, also died that night. His daughter was born five weeks later. She never met him.",
+      "img": "violin_silhouette",
+      "query": "violin silhouette concert stage",
+      "stock": true,
+      "cap": "His daughter was born 5 weeks later.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c10_3",
+      "text": "She grew up to become a professional violinist. In interviews, she has spoken openly about a father she only ever knew through photographs, and through this story.",
+      "cap": "Diana Yukawa — a father she never knew.",
+      "extraHold": 10,
+      "tone": "melancholy",
+      "img": "violin_silhouette"
+    },
+    {
+      "id": "c10_4",
+      "text": "The crash site itself is now called Osutaka Ridge. A stone monument there lists all five hundred and twenty names.",
+      "img": "osutaka_cenotaph",
+      "query": "Japan Airlines Flight 123 memorial cenotaph Osutaka Ridge",
+      "cap": "520 names, carved in stone.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c10_5",
+      "text": "Every August twelfth, bereaved families and volunteers still climb the mountain trail to Osutaka Ridge to pray at the site. They did it again this year, on the fortieth anniversary.",
+      "img": "osutaka_memorial_site",
+      "query": "memorial site mountain path Japan present day",
+      "cap": "Every year, for 40 years, they climb.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c10_6",
+      "text": "At Haneda Airport today, Japan Airlines keeps pieces of the actual wreckage on permanent display — not for visitors, but for its own employees. Every new hire walks through it.",
+      "img": "safety_center2",
+      "query": "aviation safety education museum aircraft parts",
+      "stock": true,
+      "cap": "Every new JAL employee walks through it.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda1",
+      "text": "There was no single villain in this story. There was a hard landing, a rushed repair, one wrong part, and seven years in which nobody had a reason to look again.",
+      "img": "747_silhouette",
+      "query": "Boeing 747 silhouette sky dusk",
+      "cap": "No villain. Just seven quiet years.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda2",
+      "text": "Somewhere, right now, in the tail of an aircraft you'll never see, is a repair nobody has ever had a reason to double check.",
+      "cap": "A repair, nobody has checked twice.",
+      "extraHold": 10,
+      "tone": "dread",
+      "img": "747_silhouette"
+    },
+    {
+      "id": "coda3",
+      "text": "That isn't a reason to be afraid of flying. It's the reason aviation keeps rewriting its own rulebook, one investigation at a time — including the one that came out of this exact mountainside.",
+      "img": "aviation_investigators",
+      "query": "aviation investigators examining wreckage documents",
+      "stock": true,
+      "cap": "One investigation at a time.",
+      "tone": "confidence"
+    },
+    {
+      "id": "coda4",
+      "text": "If a botched repair, buried for seven years, made you angry, wait until you see how Boeing killed three hundred and forty six people the exact same way, decades later — that's our episode on the seven three seven MAX, right here on this channel.",
+      "img": "747_cockpit2",
+      "cap": "How Boeing Killed 346 People — on this channel.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "end",
+      "text": "Wait until you see our seven three seven MAX episode next. Subscribe to Black Box Breakdown, for the investigations everyone else got wrong.",
+      "img": "747_silhouette"
+    }
+  ]
+}

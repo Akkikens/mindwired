@@ -1,0 +1,500 @@
+{
+  "slug": "sleepspacefacts",
+  "title": "Real Space Facts to Fall Asleep To — Vol. 1",
+  "language": "en",
+  "channel": "mindwired",
+  "niche": "space",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "open1",
+      "text": "You don't have to do anything right now. No quiz, no countdown. Just let your eyes close, and let me tell you about some real, strange worlds, one at a time.",
+      "img": "hook_night",
+      "cap": "A real galaxy, photographed by Hubble.",
+      "extraHold": 60
+    },
+    {
+      "id": "open2",
+      "text": "Everything I tell you tonight is real, confirmed, and published by real astronomers. One honest rule, though. Nobody has ever photographed the surface of a planet outside our own solar system. Where you see a close up surface, it's always a labeled illustration, built from real data. The telescopes, the scientists, and the numbers are always real.",
+      "img": "hook_night",
+      "extraHold": 60
+    },
+    {
+      "id": "tease1",
+      "text": "One more small thing, and then we begin. Somewhere out there tonight, someone might send this channel a Super Chat, or a gift. If they do, watch the screen. Their name gets to light up this very show, live, while it happens. Nobody else does that. If that's you tonight — go ahead and try it.",
+      "img": "starfield",
+      "query": "Milky Way stars night sky photograph",
+      "cap": "Send a Super Chat or a Gift — watch it light up the screen.",
+      "extraHold": 60
+    },
+    {
+      "id": "ti",
+      "chapter": "MINDWIRED\nReal Space Facts to Fall Asleep To",
+      "text": "Let's begin.",
+      "img": "starfield"
+    },
+
+    {
+      "id": "gl_ch",
+      "chapter": "#8\nThe Ice That Refuses to Melt",
+      "text": "Our first world tonight.",
+      "img": "neptune_real"
+    },
+    {
+      "id": "gl_1",
+      "text": "Thirty one light years from here is a small world called Gliese four three six b. About the size of Neptune, it circles its star so closely that one full year there lasts only two and a half days.",
+      "img": "neptune_real",
+      "query": "Neptune planet real photograph Voyager",
+      "cap": "Neptune, real photograph — shown for size only.",
+      "extraHold": 45
+    },
+    {
+      "id": "gl_2",
+      "text": "Its surface runs near eight hundred degrees Fahrenheit. Hot enough to soften lead. And yet, astronomers believe much of this world is still, somehow, water ice — crushed into that shape not by cold, but by its own enormous gravity.",
+      "kinetic": { "count": 800, "suffix": "°F surface heat", "sub": "Hot enough to soften lead — yet still called \"ice\"" },
+      "img": "mearth_real",
+      "extraHold": 45
+    },
+    {
+      "id": "gl_3",
+      "text": "It was found using the MEarth Project, a real network of small ground telescopes, built just to watch quiet red dwarf stars for the tiny flicker of a passing world.",
+      "img": "mearth_real",
+      "query": "small telescope dome desert observatory night",
+      "cap": "A real small robotic telescope dome (similar network, for reference).",
+      "extraHold": 40
+    },
+
+    {
+      "id": "tr_ch",
+      "chapter": "#7\nDarker Than Coal",
+      "text": "Our next world.",
+      "img": "kepler_real"
+    },
+    {
+      "id": "tr_1",
+      "text": "TrES two b reflects less than one percent of the starlight that reaches it. Darker than coal. Darker than black paint.",
+      "img": "coal_real",
+      "query": "coal chunks pile photograph",
+      "kinetic": { "count": 1, "suffix": "% or less starlight reflected", "sub": "Darker than coal. Darker than black paint." },
+      "extraHold": 45
+    },
+    {
+      "id": "tr_2",
+      "text": "It was caught by NASA's Kepler space telescope, in a brightness dip of just six parts per million. At the time, the smallest signal ever measured from a planet beyond our solar system.",
+      "img": "kepler_real",
+      "query": "Kepler Space Telescope spacecraft real photograph",
+      "extraHold": 45
+    },
+    {
+      "id": "tr_3",
+      "text": "Astronomers believe its dayside glows a dull, ember red, from its own trapped heat. No reflective clouds. Nothing to lighten it at all.",
+      "cap": "Illustration: the ember-dark dayside.",
+      "img": "coal_real",
+      "extraHold": 40
+    },
+
+    {
+      "id": "ce_ch",
+      "chapter": "#6\nAn Entire Hemisphere of Lava",
+      "text": "Our next world.",
+      "img": "spitzer_real"
+    },
+    {
+      "id": "ce_1",
+      "text": "Fifty five Cancri e circles its star once every seventeen hours. Closer than Mercury circles our Sun. Its permanent dayside runs near twenty seven hundred kelvin. Hot enough to keep an entire hemisphere as standing lava, all the time.",
+      "kinetic": { "count": 2700, "suffix": "K permanent dayside", "sub": "An entire hemisphere, permanently molten" },
+      "img": "diamond_real",
+      "extraHold": 45
+    },
+    {
+      "id": "ce_2",
+      "text": "Astronomers once proposed its interior was one third diamond. A closer look at its star's own chemistry made that idea far less certain. A genuinely open question, not a settled fact.",
+      "img": "diamond_real",
+      "query": "diamond gemstone macro photograph",
+      "cap": "The \"diamond planet\" claim — since disputed.",
+      "extraHold": 40
+    },
+    {
+      "id": "ce_3",
+      "text": "It was studied with NASA's Spitzer Space Telescope, watching its temperature swing by hundreds of degrees, between one permanent day, and one permanent night.",
+      "img": "spitzer_real",
+      "query": "Spitzer Space Telescope real photograph",
+      "extraHold": 40
+    },
+
+    {
+      "id": "hd_ch",
+      "chapter": "#5\nGlass Rain, Sideways",
+      "text": "Our next world.",
+      "img": "flare_real"
+    },
+    {
+      "id": "hd_1",
+      "text": "HD one eight nine seven three three b is a cobalt blue gas giant, sixty four light years from here. Hubble measured that blue directly, from the planet's own light.",
+      "img": "hubble_real",
+      "query": "Hubble Space Telescope real photograph orbit",
+      "stat": "64 light-years away",
+      "extraHold": 45
+    },
+    {
+      "id": "hd_2",
+      "text": "That blue isn't an ocean. It's a sky full of silicate cloud, the same mineral family as glass, torn sideways by winds near fifty four hundred miles an hour.",
+      "kinetic": { "count": 5400, "suffix": "mph winds", "sub": "Silicate clouds — the same family as glass" },
+      "img": "hubble_real",
+      "extraHold": 45
+    },
+    {
+      "id": "hd_3",
+      "text": "Its own star is a flare prone dwarf, caught mid blast by astronomers. A real stellar flare, quietly stripping the planet's upper atmosphere away, into space.",
+      "img": "flare_real",
+      "query": "solar flare real photograph NASA SDO",
+      "extraHold": 40
+    },
+
+    {
+      "id": "tease2",
+      "text": "If you're still here, thank you for staying. If you've ever wanted to be the one who lights up a room without saying a word — a Super Chat or a Gift right now does exactly that, right here on this screen.",
+      "img": "starfield",
+      "cap": "A Gift or Super Chat lights up your name — try it.",
+      "extraHold": 55
+    },
+
+    {
+      "id": "wb_ch",
+      "chapter": "#4\nA Planet Where It Rains Metal",
+      "text": "Our next world.",
+      "img": "vlt_real"
+    },
+    {
+      "id": "wb_1",
+      "text": "WASP seventy six b runs above twenty four hundred degrees Celsius on its dayside. Hot enough to vaporize iron into gas.",
+      "kinetic": { "count": 2400, "suffix": "°C dayside", "sub": "Hot enough to vaporize iron" },
+      "img": "iron_real",
+      "extraHold": 45
+    },
+    {
+      "id": "wb_2",
+      "text": "Supersonic winds drag that iron vapor toward the night side, where astronomers using the Very Large Telescope in Chile watched it quietly vanish from the gas phase, in twenty twenty. Exactly what you'd expect, if it were condensing back into solid metal.",
+      "img": "vlt_real",
+      "query": "European Southern Observatory Paranal telescope dome",
+      "extraHold": 45
+    },
+    {
+      "id": "wb_3",
+      "text": "Their conclusion, published quietly in the journal Nature: on this planet, it rains iron.",
+      "img": "iron_real",
+      "query": "molten iron metal pour photograph",
+      "cap": "\"It rains iron.\" Published in Nature, 2020.",
+      "extraHold": 40
+    },
+
+    {
+      "id": "wa_ch",
+      "chapter": "#3\nBeing Devoured, in Real Time",
+      "text": "Our next world.",
+      "img": "starfield"
+    },
+    {
+      "id": "wa_1",
+      "text": "WASP twelve b sits so close to its star that gravity has stretched it into an egg shape. Its star is slowly stripping its atmosphere away, atom by atom, into a glowing stream of stolen gas.",
+      "kinetic": { "count": 94, "suffix": "% of starlight absorbed", "sub": "One of the darkest planets ever measured" },
+      "img": "telescope_generic",
+      "extraHold": 45
+    },
+    {
+      "id": "wa_2",
+      "text": "Its orbit is measurably shrinking. Current estimates give it roughly three million years, before it spirals into its star completely. Unusually soon, by the slow patience of astronomy.",
+      "kinetic": { "count": 3, "countLabel": "MILLION YEARS", "sub": "...until this planet is completely consumed" },
+      "img": "starfield",
+      "extraHold": 45
+    },
+    {
+      "id": "wa_3",
+      "text": "It was found using SuperWASP, a real network of quiet robotic telescopes in the Canary Islands and South Africa, built just to watch the whole sky dim, one tiny fraction at a time.",
+      "img": "wasp_survey",
+      "query": "small survey telescope array observatory night",
+      "extraHold": 40
+    },
+
+    {
+      "id": "ke_ch",
+      "chapter": "#2\nHotter Than Most Stars in the Galaxy",
+      "text": "Our next world.",
+      "img": "bluewhite_star"
+    },
+    {
+      "id": "ke_1",
+      "text": "KELT nine b's dayside runs about forty six hundred kelvin. Hotter than most stars in this entire galaxy.",
+      "kinetic": { "count": 4600, "suffix": "K dayside", "sub": "Hotter than most stars in the Milky Way" },
+      "img": "bluewhite_star",
+      "extraHold": 45
+    },
+    {
+      "id": "ke_2",
+      "text": "At that heat, molecules simply can't survive. Hydrogen gas rips apart into loose atoms. Metals like iron and titanium drift free as bare vapor, never bonding into anything at all.",
+      "img": "kelt_scope",
+      "extraHold": 45
+    },
+    {
+      "id": "ke_3",
+      "text": "It completes one full orbit in under thirty six hours. Close enough that its swollen atmosphere is slowly, quietly being carried away into space.",
+      "img": "bluewhite_star",
+      "query": "Pleiades star cluster blue stars photograph",
+      "cap": "Real, photographed blue-white stars — for reference.",
+      "extraHold": 40
+    },
+
+    {
+      "id": "int1",
+      "chapter": "INTERLUDE\nThe One Planet Not on This List",
+      "text": "Before our last world tonight — one planet you might expect isn't here. Tabby's Star, once linked to speculation about alien megastructures. Real follow up data points instead to orbiting dust and comet fragments. This list only counts what's confirmed.",
+      "img": "kepler_real",
+      "extraHold": 45
+    },
+
+    {
+      "id": "ps_ch",
+      "chapter": "#1\nAlready Dead, Before You Land",
+      "text": "Our last world tonight.",
+      "img": "arecibo_real"
+    },
+    {
+      "id": "ps_1",
+      "text": "In nineteen ninety two, astronomers confirmed the very first planets ever found outside our solar system. They don't orbit a star like our Sun.",
+      "img": "arecibo_real",
+      "query": "Arecibo Observatory 305 meter dish aerial",
+      "stat": "1992 — the first exoplanets ever confirmed",
+      "extraHold": 45
+    },
+    {
+      "id": "ps_2",
+      "text": "They orbit a pulsar. The crushed, spinning corpse of a star that already exploded once. Astronomers nicknamed the pulsar Lich, and its worlds Draugr, Poltergeist, and Phobetor.",
+      "kinetic": { "words": ["Lich", "Draugr", "Poltergeist", "Phobetor"], "sub": "A dead star, and the worlds it kept" },
+      "img": "arecibo_real",
+      "extraHold": 45
+    },
+    {
+      "id": "ps_3",
+      "text": "The pulsar quietly fires X-rays and a wind of fast particles across all three worlds. Land on one, and the radiation would likely reach you before your boots ever touched the ground.",
+      "img": "arecibo_tease",
+      "extraHold": 40
+    },
+    {
+      "id": "ps_4",
+      "text": "The discovery came from the real, three hundred and five meter Arecibo radio telescope in Puerto Rico. Measuring anomalies in pulsar timing just milliseconds wide, patiently, over three years.",
+      "video": "arecibo_collapse.mp4",
+      "cap": "The same telescope — collapsed in 2020.",
+      "extraHold": 30
+    },
+    {
+      "id": "ps_5",
+      "text": "Astronomers still don't fully know how these worlds formed. The leading idea is that they're second generation planets, quietly built from wreckage, after the star that made this pulsar died. Still an open question.",
+      "cap": "Formation: still an open scientific question.",
+      "img": "arecibo_real",
+      "extraHold": 50
+    },
+
+    {
+      "id": "part2ch",
+      "chapter": "PART TWO\nThree Things Astronomers\nStill Can't Fully Explain",
+      "text": "If you're still with me — good. There's more. Three real signals, found by real telescopes, that scientists are honestly still puzzling over.",
+      "img": "starfield_deep"
+    },
+
+    {
+      "id": "uo_wow_ch",
+      "chapter": "THE SIGNAL\nTHAT NEVER CAME BACK",
+      "text": "It is nineteen seventy seven. In a field in Ohio, a radio telescope is listening to the sky, completely unattended.",
+      "img": "radio_dish_generic"
+    },
+    {
+      "id": "uo_wow_1",
+      "text": "Days later, a volunteer named Jerry Ehman sits at his kitchen table with a stack of paper printouts. A few pages in, he stops. Six characters, in a column of numbers that should mean nothing.",
+      "cap": "Jerry Ehman. Six characters, in a column of numbers.",
+      "img": "printout_review",
+      "extraHold": 40
+    },
+    {
+      "id": "uo_wow_2",
+      "text": "He circles them in red pen, and writes one quiet word in the margin. The exact sequence was six, E, Q, U, J, five — meaning the signal was roughly thirty times stronger than the background noise around it.",
+      "exhibit": true,
+      "img": "wow_signal_zoom",
+      "source": "Big Ear printout, Aug 15, 1977 (North American AstroPhysical Observatory)",
+      "highlight": [0.25, 0.35, 0.5, 0.2],
+      "cap": "6EQUJ5. Roughly 30x background noise.",
+      "extraHold": 40
+    },
+    {
+      "id": "uo_wow_3",
+      "text": "It arrived almost exactly at the frequency hydrogen itself emits — the most common element in the universe, and the frequency every search for a signal was built to watch. It lasted seventy two seconds, rising and falling smoothly, like something real.",
+      "img": "wow_signal_zoom",
+      "cap": "Almost exactly hydrogen's frequency. 72 seconds.",
+      "extraHold": 40
+    },
+    {
+      "id": "uo_wow_4",
+      "text": "It came from the direction of the constellation Sagittarius. And, quietly, it was never seen again. Not that night. Not the next night. Not in nearly fifty years since.",
+      "img": "sagittarius_sky",
+      "cap": "Sagittarius. Never repeated. Not once.",
+      "extraHold": 40
+    },
+    {
+      "id": "uo_wow_5",
+      "text": "Astronomers have pointed some of the most sensitive radio telescopes on Earth at that exact spot at least six separate times, across five decades. As recently as twenty twenty two, using two major observatories. Every search came back with nothing.",
+      "img": "vla_dishes",
+      "cap": "6+ searches. Five decades. 2022: still nothing.",
+      "extraHold": 40
+    },
+    {
+      "id": "uo_wow_6",
+      "text": "The most credible natural theory right now, published in twenty twenty four and twenty five, is that a violent flare from a dead, collapsed star briefly lit up a cold cloud of hydrogen gas, like a flashbulb. Even its own authors call it only a hypothesis.",
+      "img": "magnetar_concept",
+      "cap": "ARTIST CONCEPT — a magnetar flare, one leading theory.",
+      "extraHold": 40
+    },
+    {
+      "id": "uo_wow_7",
+      "text": "The telescope that heard it was quietly torn down in nineteen ninety eight, to make room for a golf course. It can never listen again.",
+      "dossier": true,
+      "img": "bigear_telescope",
+      "label": "BIG EAR, 1963–1998",
+      "cap": "Demolished. For a golf course.",
+      "extraHold": 35
+    },
+    {
+      "id": "uo_wow_8",
+      "text": "Nearly fifty years later, this is still, honestly, the strongest unexplained signal ever recorded. Not proof of anything. Just a real number, on a real printout, that nobody has ever explained.",
+      "img": "radio_telescope2",
+      "cap": "The strongest unexplained signal ever recorded.",
+      "extraHold": 40
+    },
+
+    {
+      "id": "uo_oumu_ch",
+      "chapter": "THE VISITOR\nTHAT BROKE THE RULES",
+      "text": "October nineteenth, twenty seventeen. On a mountain in Hawaii, a telescope built to watch for asteroids catches something moving wrong.",
+      "img": "pan_starrs"
+    },
+    {
+      "id": "uo_oumu_1",
+      "text": "Astronomer Robert Weryk spots a faint streak. He checks the night before — it's there too. Its path doesn't fit any normal orbit around our Sun. Within days, the math is undeniable: it came from outside our solar system entirely.",
+      "exhibit": true,
+      "img": "oumuamua_orbit",
+      "source": "Orbit determination, 1I/2017 U1 (Meech et al. 2017, Nature)",
+      "cap": "The first confirmed interstellar object ever seen.",
+      "extraHold": 40
+    },
+    {
+      "id": "uo_oumu_2",
+      "text": "It's named 'Oumuamua — Hawaiian for scout, or messenger from afar. Its brightness swings by a factor of ten as it tumbles, meaning it's either wildly elongated, like a cigar, or flattened, like a pancake. Nothing in our own solar system is shaped like either.",
+      "img": "oumuamua_concept",
+      "cap": "ARTIST CONCEPT — its real shape is unconfirmed.",
+      "extraHold": 40
+    },
+    {
+      "id": "uo_oumu_3",
+      "text": "As it leaves, it speeds up slightly more than the Sun's gravity alone can explain. In a comet, that push comes from visible ice boiling off the surface. Telescopes look for exactly that. They find nothing. No tail. No gas. No dust — even passing closer to the Sun than Mercury.",
+      "img": "comet_generic",
+      "cap": "Something pushed it. Nothing visible was there.",
+      "extraHold": 45
+    },
+    {
+      "id": "uo_oumu_4",
+      "text": "One Harvard astronomer, Avi Loeb, proposed it might be thin and light enough to be pushed by sunlight itself, like a sail — natural, or, his words, debris from someone else's technology. Almost no other astronomer in the field agrees with him.",
+      "img": "avi_loeb",
+      "cap": "One scientist's view. Not the field's.",
+      "extraHold": 40
+    },
+    {
+      "id": "uo_oumu_5",
+      "text": "In twenty nineteen, fourteen of the world's leading comet and asteroid experts reviewed everything and concluded every observation is consistent with something entirely natural. Which kind of natural, though, is still quietly being argued about.",
+      "exhibit": true,
+      "img": "oumuamua_consensus",
+      "source": "\"The Natural History of 'Oumuamua,\" Nature Astronomy (2019)",
+      "cap": "\"Consistent with a natural origin.\"",
+      "extraHold": 40
+    },
+    {
+      "id": "uo_oumu_6",
+      "text": "Two more interstellar visitors have passed through since. Both behaved exactly like normal comets. Which makes the first one stand out even more — a confirmed visitor from another star system that did something we still can't fully explain.",
+      "img": "oumuamua_concept",
+      "cap": "Confirmed real. Mechanism still unknown.",
+      "extraHold": 40
+    },
+
+    {
+      "id": "uo_tabby_ch",
+      "chapter": "THE STAR\nTHAT WAS BUILDING SOMETHING",
+      "text": "Two thousand fifteen. NASA's Kepler telescope has spent years quietly watching over a hundred thousand stars, for the tiny flicker of a planet passing by.",
+      "img": "kepler_telescope"
+    },
+    {
+      "id": "uo_tabby_1",
+      "text": "One star stops everyone cold. Its brightness doesn't dip by the tiny, steady amount a planet would cause. It dips by up to twenty two percent, then climbs back, on no fixed schedule at all — where a planet the size of Jupiter blocks only about one percent.",
+      "exhibit": true,
+      "img": "tabby_lightcurve",
+      "source": "Kepler photometry, KIC 8462852 (Boyajian et al. 2015)",
+      "cap": "Up to 22% of its light — just gone.",
+      "extraHold": 45
+    },
+    {
+      "id": "uo_tabby_2",
+      "text": "Astronomers call it Tabby's Star, after Yale astronomer Tabetha Boyajian. A year later, astronomer Jason Wright asked a genuinely serious question — his own words — could this be what an alien megastructure under construction would actually look like from Earth?",
+      "img": "wright_paper",
+      "cap": "\"The most promising SETI target discovered to date.\"",
+      "extraHold": 40
+    },
+    {
+      "id": "uo_tabby_3",
+      "text": "Not the same as saying he found one. Other astronomers checked — comet swarms, dust rings, a star that may have swallowed a planet long ago. In twenty eighteen, a new dip was caught live, measured in multiple colors of light at once. It blocked blue light more than red — the signature of dust, not a solid object.",
+      "img": "las_cumbres",
+      "cap": "Blue light blocked more than red — the signature of dust.",
+      "extraHold": 45
+    },
+    {
+      "id": "uo_tabby_4",
+      "text": "Boyajian's own conclusion: dust is most likely the reason. Wright agreed the data ruled out alien megastructures. So — not aliens, that part is settled. What's still not settled is which kind of dust, from what source, and why it's this extreme.",
+      "img": "dust_disk_concept",
+      "cap": "Settled: not aliens. Unsettled: everything else.",
+      "extraHold": 40
+    },
+    {
+      "id": "uo_tabby_5",
+      "text": "As recently as this year, one tentative, unconfirmed study suggests a hidden giant planet in the system, quietly stirring up comet debris. Genuinely bizarre. Mostly explained. Still, right now, missing its last few pieces.",
+      "exhibit": true,
+      "img": "tabby_new_paper",
+      "source": "Madurga-Favieres et al., MNRAS (2026) — tentative, 2.3σ, unconfirmed",
+      "cap": "A hidden planet. Tentative. Not confirmed.",
+      "extraHold": 40
+    },
+
+    {
+      "id": "uo_coda",
+      "text": "None of these three are proof of aliens. Every one of them, when scientists actually checked, pointed back toward something natural, something strange, or something we simply don't have an answer for yet. That's honestly the more interesting finding — the universe doesn't need aliens to be strange. It's strange enough on its own.",
+      "img": "starfield_deep3",
+      "extraHold": 45
+    },
+
+    {
+      "id": "tease3",
+      "text": "That's everything for tonight. If any of this kept you company, a Super Chat or a Gift is the one thing that lights up this screen live, with your name on it. Try it, and watch what happens.",
+      "img": "starfield",
+      "cap": "Your name, live on screen — a Super Chat or Gift away.",
+      "extraHold": 55
+    },
+    {
+      "id": "cl1",
+      "text": "Everything tonight was real, confirmed, and published. The telescopes, the scientists, and the numbers are always sourced. Where you saw a surface up close, it was always a labeled illustration, because that photograph doesn't exist yet.",
+      "img": "starfield",
+      "query": "Milky Way stars night sky photograph",
+      "extraHold": 50
+    },
+    {
+      "id": "cl2",
+      "text": "Sleep well, or stay a while longer. Either way, subscribe to mindwired, and I'll be here with more real, strange worlds, whenever you need them.",
+      "cap": "More real space facts to fall asleep to — coming soon.",
+      "img": "starfield",
+      "extraHold": 45
+    }
+  ]
+}

@@ -1,0 +1,399 @@
+{
+  "slug": "helios522",
+  "title": "The Plane That Flew Itself for Three Hours (Helios 522)",
+  "channel": "blackbox",
+  "niche": "aviation",
+  "language": "en",
+  "voice": "41534e16-2966-4c6b-9670-111411def906",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "For three hours, a Boeing seven three seven flew over Greece with every single person on board already unconscious.",
+      "img": "helios_livery",
+      "stat": "AUG 14, 2005",
+      "cap": "121 people aboard. Zero survivors.",
+      "motion": "slow",
+      "kinetic": {
+        "count": 3,
+        "suffix": " hours, flying alone",
+        "sub": "Every person aboard already unconscious"
+      }
+    },
+    {
+      "id": "h2",
+      "text": "The cause traced back to a single switch, left in the wrong position, hours before takeoff. Investigators found the crew had three separate chances to catch it. They missed every one.",
+      "img": "cockpit_hook3",
+      "query": "Boeing 737 cockpit instrument panel real photograph",
+      "cap": "Three missed checks. One switch."
+    },
+    {
+      "id": "h3",
+      "text": "One flight attendant, holding a real pilot's license of his own, made it into the cockpit before the end. What he found there is on the record, in his own mayday call.",
+      "img": "helios_livery",
+      "cap": "A licensed commercial pilot \u2014 working as cabin crew."
+    },
+    {
+      "id": "ti",
+      "chapter": "BLACK BOX BREAKDOWN\nThe Plane That Flew Itself",
+      "text": "One honest rule before we start. Every quote, timestamp, and finding in this episode comes from the official Greek accident investigation report, or from real court records. Where something is disputed or unproven, we'll say so, on screen.",
+      "img": "helios_livery"
+    },
+    {
+      "id": "co_ch",
+      "chapter": "AUGUST 13, 2005\n01:25 AM, LARNACA",
+      "text": "One-twenty-five in the morning.",
+      "img": "larnaca_airport",
+      "query": "Larnaca International Airport Cyprus real photograph"
+    },
+    {
+      "id": "co_1",
+      "text": "A Boeing seven three seven, tail number five bravo dee bee why, lands at Larnaca after a flight in from London Heathrow. The cabin crew log a problem before anyone even leaves the aircraft.",
+      "dossier": true,
+      "img": "engineer_inspect",
+      "label": "LARNACA, 01:25 AM",
+      "cap": "\"Aft service door seal freezes. Hard bangs heard during flight.\""
+    },
+    {
+      "id": "co_2",
+      "text": "A ground engineer is called out. Forty four years old, a freelance contractor, licensed in the UK. He inspects the door, and runs a manual pressurization leak check by hand.",
+      "dossier": true,
+      "img": "engineer_inspect",
+      "label": "GROUND ENGINEER, AGE 44",
+      "cap": "A routine check, done by hand, in the middle of the night."
+    },
+    {
+      "id": "co_3",
+      "text": "At three fifteen A M, he signs the aircraft back into service. His written log reads: nil defects. No leaks. No abnormal noises. The plane is cleared to fly again in a few hours.",
+      "dossier": true,
+      "img": "engineer_inspect",
+      "label": "03:15 AM \u2014 RELEASED TO SERVICE",
+      "cap": "The pressurization switch is left in manual. Not reset to automatic."
+    },
+    {
+      "id": "co_4",
+      "text": "The official investigation would later find this was not a documented failure of his duty. It was one part of a much longer chain. But at three fifteen that morning, nobody yet knows that chain has already started.",
+      "img": "larnaca_airport",
+      "cap": "Not one person's fault. Not yet a known problem, either."
+    },
+    {
+      "id": "ch1",
+      "chapter": "CHAPTER ONE\nTHE AIRLINE BUILT TO BE CHEAP",
+      "text": "To understand what happened next, you have to understand the airline flying that plane.",
+      "img": "larnaca_airport"
+    },
+    {
+      "id": "ch1_1",
+      "text": "Helios Airways was Cyprus's first privately owned airline, established in 1999. Its own mission statement, on the record, was to be a profitable, low fares airline. Its managing director once put it more bluntly: to fly at probably half the price.",
+      "img": "helios_livery",
+      "query": "Helios Airways aircraft livery real photograph",
+      "cap": "\"To fly at probably half the price.\" \u2014 the airline's own MD",
+      "kinetic": {
+        "count": 1999,
+        "suffix": "",
+        "sub": "Cyprus's first privately owned airline"
+      }
+    },
+    {
+      "id": "ch1_2",
+      "text": "By 2004, the airline's owner had acquired it specifically to feed passengers into his own tour company. British aviation regulators audited Helios repeatedly in the years before the crash.",
+      "img": "helios_livery",
+      "cap": "Acquired in 2004 to feed the owner's own tour company."
+    },
+    {
+      "id": "ch1_3",
+      "text": "Real findings, on the record: no proper in-house quality system. Outdated manuals. Incomplete training files. Understaffed management. In November 2004, the airline came close to losing its operating certificate altogether.",
+      "kinetic": {
+        "words": [
+          "No",
+          "quality",
+          "system.",
+          "Outdated",
+          "manuals."
+        ],
+        "sub": "UK CAA findings on Helios Airways, 2003-2005"
+      },
+      "img": "helios_livery"
+    },
+    {
+      "id": "ch1_4",
+      "text": "This is the airline, and the culture, behind the aircraft that landed at Larnaca that night in August.",
+      "img": "helios_livery",
+      "cap": "The airline, and the culture, behind the aircraft."
+    },
+    {
+      "id": "ch2_ch",
+      "chapter": "CHAPTER TWO\nNINE WARNINGS IN TWO MONTHS",
+      "text": "The aircraft itself already had a history.",
+      "img": "helios_livery"
+    },
+    {
+      "id": "ch2_1",
+      "text": "In December of 2004, this same plane suffered a sudden decompression on a completely different flight. A hole opened in a door seal. Three passengers needed hospital treatment. Investigators at the time could never conclusively determine why.",
+      "img": "helios_livery",
+      "cap": "Dec 2004: an earlier, unexplained decompression. Same aircraft.",
+      "kinetic": {
+        "words": [
+          "An",
+          "earlier,",
+          "unexplained",
+          "decompression."
+        ],
+        "sub": "December 2004 \u2014 same aircraft"
+      }
+    },
+    {
+      "id": "ch2_2",
+      "text": "Between June and the second week of August 2005, the same plane racked up nine separate technical write ups for its cooling system. Nine. In just over two months.",
+      "kinetic": {
+        "count": 9,
+        "suffix": " cooling system write-ups",
+        "sub": "In the 10 weeks before the crash"
+      },
+      "img": "helios_livery"
+    },
+    {
+      "id": "ch2_3",
+      "text": "None of this, on its own, grounded the aircraft. All of it, together, is the plane that took off from Larnaca at nine oh seven that morning.",
+      "img": "larnaca_airport",
+      "stat": "09:07 AM \u2014 TAKEOFF"
+    },
+    {
+      "id": "ch3_ch",
+      "chapter": "CHAPTER THREE\nTAKEOFF",
+      "text": "Five minutes after leaving the ground, the first alarm sounds.",
+      "img": "cockpit_generic"
+    },
+    {
+      "id": "ch3_1",
+      "text": "At nine twelve and thirty eight seconds, climbing through twelve thousand feet, a warning horn sounds in the cockpit. It is the cabin altitude warning. The plane is losing pressure.",
+      "img": "cockpit_generic",
+      "cap": "09:12:38 \u2014 cabin altitude warning, 12,040 ft",
+      "kinetic": {
+        "count": 12040,
+        "suffix": " ft \u2014 warning sounds",
+        "sub": "09:12:38 \u2014 cabin altitude warning"
+      }
+    },
+    {
+      "id": "ch3_2",
+      "text": "Here is the design flaw nobody in that cockpit knew about. On this aircraft, the cabin altitude horn sounds exactly like a completely different warning \u2014 one that only ever matters on the ground, before takeoff.",
+      "cap": "Two different warnings. One identical sound."
+    },
+    {
+      "id": "ch3_3",
+      "text": "Two minutes later, the captain radios the ground. His own words, on the record: the takeoff configuration warning is on, and the cooling equipment is showing normal and alternate off line.",
+      "cap": "09:14:11 \u2014 \"Takeoff configuration warning on...\"",
+      "speaker": "CAPTAIN",
+      "radioLabel": "CVR RECREATION",
+      "timestamp": "09:14:11 EEST"
+    },
+    {
+      "id": "ch3_4",
+      "text": "He has misread the one warning that could have saved every life on that plane, as a completely different, harmless one. On the same call, the ground engineer from that night asks him directly: is the pressurization panel set to automatic?",
+      "cap": "The ground engineer asks the right question."
+    },
+    {
+      "id": "ch3_5",
+      "text": "The captain, already beginning to lose oxygen to his brain, doesn't answer it. He asks about circuit breakers instead. It is the last transmission anyone ever hears from Helios flight 522.",
+      "cap": "09:14:11 \u2014 the last transmission from the flight.",
+      "extraHold": 20
+    },
+    {
+      "id": "ch4_ch",
+      "chapter": "CHAPTER FOUR\nTHE PLANE THAT FLEW ITSELF",
+      "text": "The aircraft keeps climbing.",
+      "img": "helios_livery"
+    },
+    {
+      "id": "ch4_1",
+      "text": "By nine twenty three, it levels off at its programmed cruising altitude, thirty four thousand feet, and keeps flying its planned route. On autopilot. Alone.",
+      "img": "helios_livery",
+      "stat": "FL340 \u2014 ~34,000 FT",
+      "kinetic": {
+        "count": 34000,
+        "suffix": " ft \u2014 cruising altitude",
+        "sub": "On autopilot. Alone."
+      }
+    },
+    {
+      "id": "ch4_2",
+      "text": "At nine thirty seven, it enters Greek airspace with no one answering the radio. Air traffic control tries to reach it again, and again. Nineteen separate attempts. Nobody answers.",
+      "kinetic": {
+        "count": 19,
+        "suffix": " failed radio calls",
+        "sub": "Air traffic control, trying to reach a silent plane"
+      },
+      "img": "helios_livery"
+    },
+    {
+      "id": "ch4_3",
+      "text": "With no instructions, the autopilot does exactly what it was programmed to do. It enters a holding pattern over a radio beacon near Athens, and starts flying in circles.",
+      "img": "helios_livery",
+      "cap": "10:40 AM \u2014 holding pattern begins"
+    },
+    {
+      "id": "ch4_4",
+      "text": "At eleven oh five, two F-16 fighter jets scramble from a Greek air base. Their job is simply to look. To find out, visually, what is happening on a passenger jet that will not answer anyone.",
+      "img": "f16_greek",
+      "query": "Hellenic Air Force F-16 fighter jet real photograph"
+    },
+    {
+      "id": "ch4_5",
+      "text": "On its sixth loop of the holding pattern, they catch up to it. What they see, through the cockpit windows, becomes some of the most quoted testimony in aviation history.",
+      "img": "f16_greek",
+      "extraHold": 15
+    },
+    {
+      "id": "ch4_6",
+      "text": "The first officer's seat: slumped forward, motionless. The captain's seat: empty. Oxygen masks, dangling loose in the cabin behind them. No visible movement, anywhere. No sign of anything but silence.",
+      "cap": "The pilots' real, on-record radio description.",
+      "extraHold": 20
+    },
+    {
+      "id": "ch5_ch",
+      "chapter": "CHAPTER FIVE\nONE MAN, ONE OXYGEN MASK",
+      "text": "Everyone on that plane was not unconscious.",
+      "img": "helios_livery"
+    },
+    {
+      "id": "ch5_1",
+      "text": "A twenty five year old flight attendant, Andreas Prodromou, held something almost nobody in his job does: a real, valid UK commercial pilot's license. Not a rating for this aircraft. But real flight training, all the same.",
+      "cap": "Andreas Prodromou, 25 \u2014 a licensed commercial pilot, not a 737-rated one."
+    },
+    {
+      "id": "ch5_2",
+      "text": "At eleven forty nine, using a portable oxygen bottle, he makes it into the cockpit. He sits in the captain's now empty seat. The F-16 pilots see him. He briefly raises a hand toward them.",
+      "cap": "11:49 AM \u2014 Prodromou enters the cockpit."
+    },
+    {
+      "id": "ch5_3",
+      "text": "Seconds later, the left engine flames out. The plane has run out of fuel. It leaves its holding pattern, and starts to come down.",
+      "cap": "11:49:50 \u2014 left engine flames out. Fuel exhausted."
+    },
+    {
+      "id": "ch5_4",
+      "text": "The cockpit voice recorder captures five separate mayday calls from Prodromou. Nobody at Athens air traffic control ever hears a single one. His radio is still tuned to Larnaca's frequency, hundreds of miles behind him.",
+      "cap": "5 mayday calls. Zero received. Wrong frequency.",
+      "extraHold": 15
+    },
+    {
+      "id": "ch5_4b",
+      "text": "Mayday, mayday, mayday. Helios airways flight five two two, Athens.",
+      "speaker": "CVR",
+      "radioLabel": "CVR RECREATION",
+      "timestamp": "11:54 EEST",
+      "cap": "Prodromou's actual mayday call, per the CVR transcript."
+    },
+    {
+      "id": "ch5_5",
+      "text": "At eleven fifty nine, the second engine flames out. At twelve oh three and thirty two seconds, the aircraft comes down in the hills near a town called Grammatiko, twenty five miles from Athens.",
+      "img": "grammatiko_v2",
+      "query": "rural Greek countryside hills landscape real photograph",
+      "stat": "12:03:32 PM \u2014 IMPACT"
+    },
+    {
+      "id": "ch5_6",
+      "text": "121 people were aboard. 115 passengers. 6 crew. All 121 were killed. There were no survivors.",
+      "kinetic": {
+        "count": 121,
+        "suffix": " killed",
+        "sub": "115 passengers, 6 crew \u2014 zero survivors"
+      },
+      "img": "grammatiko_v2"
+    },
+    {
+      "id": "ch6_ch",
+      "chapter": "CHAPTER SIX\nWHAT THE REPORT FOUND",
+      "text": "The official investigation ran for over a year.",
+      "img": "helios_livery"
+    },
+    {
+      "id": "ch6_1",
+      "text": "Greece's Air Accident Investigation and Aviation Safety Board published its final findings in October of 2006. Its stated cause, in order: the crew never recognized the pressurization switch was in manual. They never identified the real problem. And one by one, everyone but Prodromou lost consciousness to lack of oxygen.",
+      "img": "cockpit_generic",
+      "cap": "The official, published causal chain. (AAIASB Report 11/2006)"
+    },
+    {
+      "id": "ch6_2",
+      "text": "The report is careful, and specific, about something important. It does not pin this on one person. The switch. The identical warning horns. Boeing's own maintenance manual, which never explicitly told anyone to double check that switch. And a flight crew who missed three separate chances to catch it themselves.",
+      "cap": "A distributed failure. Not one person's mistake."
+    },
+    {
+      "id": "ch6_3",
+      "text": "One real, direct result: years later, air safety regulators ordered older 737s to be fitted with two distinct warning lights, so this exact confusion could never happen again.",
+      "cap": "FAA Airworthiness Directive 2011-03-14."
+    },
+    {
+      "id": "ch7_ch",
+      "chapter": "CHAPTER SEVEN\nTWO COUNTRIES, TWO VERDICTS",
+      "text": "The technical report was never the end of this story.",
+      "img": "helios_livery"
+    },
+    {
+      "id": "ch7_1",
+      "text": "Two separate criminal cases followed, in two different countries, against some of the same people. In Cyprus, four Helios executives stood trial for manslaughter. In December of 2011, a court acquitted all four.",
+      "cap": "Cyprus, Dec 2011: all four defendants acquitted."
+    },
+    {
+      "id": "ch7_2",
+      "text": "Prosecutors appealed. Cyprus's Supreme Court voted to order a retrial. That retrial never happened \u2014 the same men were already being tried again, in Greece, for the same crash.",
+      "cap": "Retrial ordered, then dropped \u2014 a parallel Greek trial was already underway."
+    },
+    {
+      "id": "ch7_3",
+      "text": "In Greece, three of those men \u2014 the airline's CEO, its operations manager, and its former chief pilot \u2014 were convicted of manslaughter. Ten year sentences. Under Greek law, all three were allowed to pay their way out of prison instead. Roughly eighty thousand euros each. None of them served a single day.",
+      "kinetic": {
+        "count": 0,
+        "countLabel": "DAYS SERVED",
+        "sub": "By any of the three convicted executives"
+      },
+      "img": "helios_livery"
+    },
+    {
+      "id": "ch7_4",
+      "text": "The ground engineer who left that switch in manual was also tried in Greece. He was acquitted, on appeal. Of everyone charged in either country, he is the only person fully cleared of criminal responsibility.",
+      "cap": "The ground engineer: acquitted on appeal. The only one fully cleared."
+    },
+    {
+      "id": "ch8_ch",
+      "chapter": "CHAPTER EIGHT\nWHAT'S LEFT",
+      "text": "Helios Airways itself did not survive long, either.",
+      "img": "helios_livery"
+    },
+    {
+      "id": "ch8_1",
+      "text": "It kept flying for just days after the crash. In March of 2006, it rebranded entirely, dropping its old name. By that November, roughly fourteen months after the crash, it had stopped operating completely.",
+      "cap": "Helios Airways: ceased operations, ~14 months after the crash."
+    },
+    {
+      "id": "ch8_2",
+      "text": "A monument and a small chapel stand today at the crash site near Grammatiko, bearing all 121 names and photographs. Every year, families gather there, and separately in Cyprus, to remember them.",
+      "img": "grammatiko_v2",
+      "cap": "A permanent memorial, Grammatiko, Greece."
+    },
+    {
+      "id": "ch8_3",
+      "text": "As recently as August of last year \u2014 twenty years after the crash \u2014 families were still speaking publicly. Their own words, on the record: that real justice was never served.",
+      "cap": "20th anniversary, 2025: \"Justice was never served.\" \u2014 victims' families",
+      "extraHold": 15
+    },
+    {
+      "id": "coda1",
+      "text": "A switch, left in one position instead of another. Two warning systems that sounded identical. Three missed chances to catch it. That is the entire, real chain that ended 121 lives.",
+      "img": "helios_livery",
+      "cap": "A switch. Two identical horns. Three missed checks."
+    },
+    {
+      "id": "coda2",
+      "text": "Nobody involved set out that morning to cause any of this. That is, honestly, the hardest part of this story to sit with.",
+      "cap": "Not malice. A chain of small, human misses.",
+      "extraHold": 10
+    },
+    {
+      "id": "bridge",
+      "text": "If a switch left in the wrong position can end a flight like this, wait until you see what one overlooked repair did to a different Boeing, seven years later. That story is on this channel too. Subscribe to Black Box Breakdown, so you don't miss what evidence turns up next.",
+      "cap": "Next: one overlooked repair. Seven years later.",
+      "img": "helios_livery"
+    }
+  ]
+}

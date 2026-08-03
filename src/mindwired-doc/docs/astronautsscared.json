@@ -1,0 +1,367 @@
+{
+  "slug": "astronautsscared",
+  "title": "Astronauts Were Asked What Scared Them Most in Space",
+  "channel": "mindwired",
+  "niche": "space",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "An astronaut is floating outside the space station when his helmet begins to fill with water.",
+      "video": "parmitano_eva_1.mp4",
+      "stat": "JULY 16, 2013",
+      "cap": "Real NASA footage. Real astronaut. This actually happened.",
+      "motion": "slow"
+    },
+    {
+      "id": "h2",
+      "text": "Within minutes, it covers his eyes. Then his ears. He cannot see, he cannot hear, and he does not know if his next breath will be air, or water.",
+      "video": "parmitano_eva_2.mp4",
+      "cap": "\"I can't even be sure the next time I breathe I will fill my lungs with air and not liquid.\" \u2014 his own words",
+      "extraHold": 15
+    },
+    {
+      "id": "h3",
+      "text": "He is a real astronaut. This is his real account, in his own words. And he is only one of twelve people on this list who lived through something that should have killed them.",
+      "img": "iss_exterior",
+      "query": "International Space Station real photograph exterior",
+      "cap": "12 real astronauts. 12 real scares. All in their own words."
+    },
+    {
+      "id": "ti",
+      "chapter": "12 ASTRONAUTS\nWERE ASKED WHAT SCARED THEM MOST",
+      "text": "One honest rule before we start. Every quote in this video is real, on the record, from the astronaut's own memoir, interview, or mission transcript. Nothing here is invented.",
+      "img": "iss_exterior"
+    },
+    {
+      "id": "n12_ch",
+      "chapter": "NUMBER TWELVE\nTHE ITCH THAT WOULDN'T GO AWAY",
+      "text": "Number twelve. Andrew Feustel. Space Shuttle Endeavor's final flight, 2011.",
+      "video": "feustel_eva_1.mp4"
+    },
+    {
+      "id": "n12_1",
+      "text": "Mid spacewalk, soap used to stop his visor fogging flaked loose inside his helmet, and drifted into his eye.",
+      "video": "feustel_eva_2.mp4",
+      "cap": "The exact same hazard had already blinded another astronaut, a decade earlier."
+    },
+    {
+      "id": "n12_2",
+      "text": "His real, live radio call to mission control: quote, just an F Y I, my right eye is stinging like crazy right now, it's watering a lot, end quote.",
+      "cap": "\"My right eye is stinging like crazy right now.\" \u2014 live radio call, 2011",
+      "video": "feustel_eva_3.mp4"
+    },
+    {
+      "id": "n12_3",
+      "text": "He rubbed his eye against the padding inside his own helmet, and kept working. A NASA report later found this exact problem had happened on at least seven separate spacewalks. Still unsolved.",
+      "img": "iss_exterior",
+      "cap": "At least 7 separate spacewalks. Same hazard. Still unfixed."
+    },
+    {
+      "id": "n11_ch",
+      "chapter": "NUMBER ELEVEN\nEIGHT POINT TWO Gs",
+      "text": "Number eleven. Three astronauts. One capsule that came down completely wrong.",
+      "img": "soyuz_launch",
+      "query": "Soyuz spacecraft real photograph launch"
+    },
+    {
+      "id": "n11_1",
+      "text": "April 2008. Peggy Whitson, Yuri Malenchenko, and Yi So Yeon are returning to Earth in a Soyuz capsule when its service module fails to detach cleanly.",
+      "img": "soyuz_launch",
+      "cap": "Soyuz TMA-11, April 19, 2008"
+    },
+    {
+      "id": "n11_2",
+      "text": "The capsule is forced into a steep, uncontrolled reentry. Instead of the normal four or five Gs, they hit eight point two. They land four hundred kilometers off target, in the middle of the Kazakh steppe.",
+      "kinetic": {
+        "count": 8.2,
+        "suffix": " Gs \u2014 nearly double normal reentry",
+        "sub": "Soyuz TMA-11, off-target landing, 2008"
+      },
+      "img": "kazakh_steppe",
+      "query": "Kazakhstan steppe grassland real photograph landscape"
+    },
+    {
+      "id": "n11_3",
+      "text": "Yi So Yeon's own words: quote, I saw some kind of fire outside as we were going through the atmosphere. I thought we could burn. I looked at the others, and I pretended to be okay, end quote.",
+      "cap": "\"I thought we could burn. I pretended to be OK.\" \u2014 Yi So-yeon, 2008",
+      "extraHold": 15,
+      "img": "kazakh_steppe"
+    },
+    {
+      "id": "n10_ch",
+      "chapter": "NUMBER TEN\nSTRUCK BY LIGHTNING, TWICE",
+      "text": "Number ten. Apollo 12. Struck by lightning, twice, on the way up.",
+      "video": "apollo12_launch_1.mp4"
+    },
+    {
+      "id": "n10_1",
+      "text": "Thirty six seconds after liftoff in November 1969, the Saturn Five rocket carrying Pete Conrad, Alan Bean, and Dick Gordon is struck by lightning. A second strike hits sixteen seconds later.",
+      "video": "apollo12_launch_1.mp4",
+      "cap": "Nov 14, 1969 \u2014 real launch footage shows the actual strikes"
+    },
+    {
+      "id": "n10_2",
+      "text": "Every warning light on the instrument panel fires at once. Conrad's own real words: quote, the hell was that, end quote.",
+      "cap": "\"The whole board looks like a Christmas tree.\" \u2014 Pete Conrad",
+      "video": "apollo12_launch_3.mp4"
+    },
+    {
+      "id": "n10_3",
+      "text": "A ground engineer remembered one obscure switch from a training simulation months earlier. Alan Bean was the only person on board who remembered where it was. He flipped it, and the mission continued, all the way to the Moon.",
+      "img": "apollo_capsule",
+      "query": "Apollo 9 astronauts inside command module boilerplate real photograph"
+    },
+    {
+      "id": "n9_ch",
+      "chapter": "NUMBER NINE\nTHE DAMAGE NOBODY SAW COMING",
+      "text": "Number nine. The secret mission that foreshadowed a real disaster fifteen years early.",
+      "video": "sts27_damage_1.mp4"
+    },
+    {
+      "id": "n9_1",
+      "text": "December 1988. Eighty five seconds after launch, debris tears loose from the booster and slams into the shuttle's belly. Over 700 heat shield tiles are damaged. One is torn away completely, down to bare metal.",
+      "video": "sts27_damage_2.mp4",
+      "cap": "STS-27, Dec 1988 \u2014 real ground inspection footage"
+    },
+    {
+      "id": "n9_2",
+      "text": "Because the mission was classified, ground engineers saw only a blurry, compressed video feed, and badly underestimated the damage. Mission specialist Mike Mullane's own words, anticipating reentry: quote, we were dead men floating, end quote.",
+      "cap": "\"We were dead men floating.\" \u2014 Mike Mullane, mission specialist",
+      "video": "sts27_damage_3.mp4"
+    },
+    {
+      "id": "n9_3",
+      "text": "During reentry, plasma actually melted through a steel plate directly beneath the missing tile, before the shuttle passed the worst of the heat. Commander Hoot Gibson's private thought, going in: quote, no use dying all tensed up, end quote. This is the exact same failure that destroyed Columbia, fifteen years later. This time, it held.",
+      "img": "sts27_damage_still",
+      "query": "space shuttle heat shield tile damage real photograph",
+      "extraHold": 15
+    },
+    {
+      "id": "n8_ch",
+      "chapter": "NUMBER EIGHT\nA SHARK IN THE DARK",
+      "text": "Number eight. Two cosmonauts, watching a cargo ship on a collision course with their own space station.",
+      "img": "mir_station",
+      "query": "Mir space station real photograph"
+    },
+    {
+      "id": "n8_1",
+      "text": "June 1997. Commander Vasily Tsibliyev is manually piloting an unmanned cargo ship toward a test docking, the automated system switched off to save money.",
+      "img": "mir_station",
+      "cap": "\"This is a bad business, Sasha.\" \u2014 Tsibliyev, before the collision"
+    },
+    {
+      "id": "n8_2",
+      "text": "Flight engineer Alexander Lazutkin's own words, watching it come in: quote, full of menace, like a shark, end quote. Then it hit.",
+      "cap": "\"Full of menace, like a shark.\" \u2014 Alexander Lazutkin",
+      "img": "mir_station"
+    },
+    {
+      "id": "n8_3",
+      "text": "The cargo ship punched a hole clean through a research module. Air started rushing out into space. The crew had minutes to find the right cables, cut them by hand, and seal the hatch before the whole station lost pressure.",
+      "img": "mir_damage",
+      "query": "Mir space station damage photograph solar panel"
+    },
+    {
+      "id": "n7_ch",
+      "chapter": "NUMBER SEVEN\nBY EYE AND STOPWATCH",
+      "text": "Number seven. A docking with no instruments, and three lives riding on getting it exactly right.",
+      "video": "mir_docking_1.mp4"
+    },
+    {
+      "id": "n7_1",
+      "text": "November 1995. Chris Hadfield's shuttle is thirty seconds from docking with the Russian station Mir when the docking sensors fail completely.",
+      "video": "mir_docking_2.mp4",
+      "cap": "STS-74, Nov 1995 \u2014 real IMAX footage of the actual approach"
+    },
+    {
+      "id": "n7_2",
+      "text": "The crew has to judge the final approach by eye, and by stopwatch. Hadfield's own words on what was at stake: quote, if you hit Mir just a little too hard, then you would break Mir in half, and kill the three people on board, end quote.",
+      "cap": "\"You would break Mir in half, and kill the three people on board.\" \u2014 Chris Hadfield",
+      "extraHold": 15,
+      "video": "mir_docking_3.mp4"
+    },
+    {
+      "id": "n6_ch",
+      "chapter": "NUMBER SIX\nTHE ONE WITH NO FOOTAGE AT ALL",
+      "text": "Number six is the only story on this list with no camera, no footage, nothing. Just one man's word, for decades, unbelieved.",
+      "img": "soyuz_launch",
+      "sting": true
+    },
+    {
+      "id": "n6_1",
+      "text": "January 1969. Cosmonaut Boris Volynov is coming home from orbit when his service module fails to detach. His capsule reenters the atmosphere hatch first, not heat shield first.",
+      "dossier": true,
+      "img": "reentry_smoke",
+      "label": "SOYUZ 5, JANUARY 18, 1969",
+      "cap": "Temperatures near 5,000\u00b0F. Smoke filling the cabin."
+    },
+    {
+      "id": "n6_2",
+      "text": "Smoke fills the cabin. He repeats one phrase to himself, over and over, certain he is about to die: quote, no panic, no panic, end quote.",
+      "dossier": true,
+      "img": "reentry_smoke",
+      "label": "INSIDE THE CABIN",
+      "cap": "\"No panic, no panic.\" \u2014 repeated to himself, per surviving accounts"
+    },
+    {
+      "id": "n6_3",
+      "text": "At the last possible moment, the burning service module tears away, and the capsule rights itself. The landing is still violent enough to break several of his teeth. He comes down two thousand kilometers off target, in the Ural Mountains, in temperatures of minus forty.",
+      "dossier": true,
+      "img": "reentry_smoke",
+      "label": "URAL MOUNTAINS, -40\u00b0F",
+      "cap": "2,000 km off target. No real photo or footage of any of this exists."
+    },
+    {
+      "id": "n6_4",
+      "text": "His first words to the local villagers who found him, through a mouthful of broken teeth: quote, is my hair gray, end quote. The Soviet government suppressed the entire story for over twenty years.",
+      "img": "soyuz_launch",
+      "cap": "\"Is my hair gray?\" \u2014 his first words to rescuers",
+      "query": "Soviet Soyuz spacecraft real photograph black sky"
+    },
+    {
+      "id": "n5_ch",
+      "chapter": "NUMBER FIVE\nONE REVOLUTION PER SECOND",
+      "text": "Number five. The first-ever docking in space, and the emergency that nearly ended it.",
+      "video": "gemini8_recovery_1.mp4"
+    },
+    {
+      "id": "n5_1",
+      "text": "March 1966. Neil Armstrong has just completed the first docking between two spacecraft in orbit, when the joined vehicles begin an unexplained roll.",
+      "img": "gemini_capsule",
+      "query": "Gemini extravehicular spacesuit assembly real photograph NASA"
+    },
+    {
+      "id": "n5_2",
+      "text": "David Scott's real-time radio call: quote, we have serious problems here, we're tumbling end over end, we're disengaged from the Agena, end quote. The spin keeps accelerating, toward a full revolution every second, fast enough to black them out.",
+      "cap": "\"We're tumbling end over end.\" \u2014 David Scott, real-time radio call",
+      "img": "gemini_capsule"
+    },
+    {
+      "id": "n5_3",
+      "text": "Armstrong shuts down the entire malfunctioning system, and uses thrusters meant only for reentry to stabilize the capsule. Mission rules now force an immediate emergency splashdown in the Pacific.",
+      "video": "gemini8_recovery_2.mp4",
+      "cap": "Real recovery footage. Real emergency splashdown."
+    },
+    {
+      "id": "n4_ch",
+      "chapter": "NUMBER FOUR\nA LIVE WIRE, ONE HUNDRED PERCENT OXYGEN",
+      "text": "Number four. A torn solar wing, live electricity, and a spacesuit filled with pure oxygen.",
+      "video": "sts120_repair_1.mp4"
+    },
+    {
+      "id": "n4_1",
+      "text": "November 2007. A solar array on the space station has torn during retraction. There is no procedure for fixing a live, power generating panel in orbit.",
+      "video": "sts120_repair_2.mp4",
+      "cap": "STS-120, Nov 2007 \u2014 real NASA/ESA footage of the actual repair"
+    },
+    {
+      "id": "n4_2",
+      "text": "Scott Parazynski rides a ninety foot robotic arm farther from an airlock than anyone had ever gone, to cut a snagged wire on the fully energized array by hand.",
+      "cap": "90 feet from the nearest airlock. A live power line, cut by hand.",
+      "video": "sts120_repair_3.mp4"
+    },
+    {
+      "id": "n4_3",
+      "text": "His own words: quote, there was a real danger that we could do even worse damage to the space station. Then there was the potential risk to myself, because if there was any metal to metal connection, it could actually electrocute me, or cause ignition of the 100 percent oxygen in my spacesuit, end quote.",
+      "cap": "\"It could actually electrocute me, or ignite the oxygen in my suit.\" \u2014 Scott Parazynski",
+      "extraHold": 15,
+      "video": "sts120_repair_1.mp4"
+    },
+    {
+      "id": "n3_ch",
+      "chapter": "NUMBER THREE\nTHREE PAIRS OF UNDERWEAR",
+      "text": "Number three. The most famous space emergency in history, told through the man who almost never gets asked about it.",
+      "video": "apollo13_footage_1.mp4"
+    },
+    {
+      "id": "n3_1",
+      "text": "April 1970. An oxygen tank explodes on Apollo 13, crippling power, water, and air. The crew moves into the tiny lunar module to survive the trip home.",
+      "video": "apollo13_footage_2.mp4",
+      "cap": "The real exchange: \"Okay, Houston, we've had a problem here.\""
+    },
+    {
+      "id": "n3_2",
+      "text": "Fred Haise is the only crew member still alive today. His own words about the cabin, which dropped close to freezing for days: quote, we did not have adequate clothing, end quote. He put on three pairs of underwear just to survive the cold.",
+      "cap": "\"We did not have adequate clothing.\" \u2014 Fred Haise, the last survivor",
+      "video": "apollo13_footage_3.mp4"
+    },
+    {
+      "id": "n3_3",
+      "text": "Commander Jim Lovell, who guided that freezing capsule home, died last year, at 97. Fred Haise, now 92, is the only person left who was in that spacecraft.",
+      "img": "apollo13_damage",
+      "query": "Apollo 13 damaged service module real NASA photograph",
+      "cap": "In memory of Jim Lovell, 1928-2025."
+    },
+    {
+      "id": "n2_ch",
+      "chapter": "NUMBER TWO\nTHE SPACEWALK FROM HELL",
+      "text": "Number two. Gene Cernan gave this one its name himself.",
+      "video": "gemini9_eva_1.mp4"
+    },
+    {
+      "id": "n2_1",
+      "text": "June 1966. Only the third American spacewalk ever attempted. With no handholds and no way to brace himself, every movement sends Gene Cernan tumbling.",
+      "video": "gemini9_eva_2.mp4",
+      "cap": "Gemini 9-A, June 5, 1966 \u2014 real archival EVA footage"
+    },
+    {
+      "id": "n2_2",
+      "text": "His exertion overwhelms the suit's cooling system. His heart rate hits 180. His visor fogs completely, then partially freezes in the dark of Earth's shadow, leaving him almost blind. His own real radio words: quote, I don't think I'll make it that way, end quote.",
+      "cap": "\"I don't think I'll make it that way.\" \u2014 Gene Cernan, real-time radio",
+      "video": "gemini9_eva_3.mp4"
+    },
+    {
+      "id": "n2_3",
+      "text": "He loses thirteen pounds of body water. Commander Tom Stafford has to order him back inside before he can finish the job. Cernan later titled the whole chapter of his own memoir, quote, the spacewalk from hell, end quote. His own words, not ours.",
+      "img": "cernan_suit",
+      "cap": "\"The Spacewalk From Hell.\" \u2014 Gene Cernan's own memoir chapter title",
+      "query": "Gemini 9 prime crew portrait Stafford Cernan real photograph NASA"
+    },
+    {
+      "id": "n1_ch",
+      "chapter": "NUMBER ONE\nTHE GOLDFISH IN THE BOWL",
+      "text": "Number one is the astronaut we opened this video with.",
+      "video": "parmitano_eva_2.mp4"
+    },
+    {
+      "id": "n1_1",
+      "text": "July 2013. Luca Parmitano is an hour into a spacewalk when water starts pooling inside his helmet, from a malfunctioning cooling system.",
+      "video": "parmitano_eva_3.mp4",
+      "cap": "EVA-23, July 16, 2013 \u2014 real NASA helmet-camera footage"
+    },
+    {
+      "id": "n1_2",
+      "text": "It covers his eyes first. Then his ears. Then it starts to reach his nose and mouth. He cannot see. He cannot hear his crewmate, or mission control. He has to navigate back to the airlock from memory alone.",
+      "cap": "\"I can't even be sure the next time I breathe I will fill my lungs with air and not liquid.\"",
+      "video": "parmitano_eva_1.mp4"
+    },
+    {
+      "id": "n1_3",
+      "text": "His own words afterward: quote, I experienced what it's like to be a goldfish in a fishbowl, from the point of view of the goldfish, end quote. A later NASA investigation found a smaller version of this exact leak had happened before, and nobody had escalated it.",
+      "cap": "\"Like a goldfish in a fishbowl, from the point of view of the goldfish.\"",
+      "extraHold": 15,
+      "video": "parmitano_eva_2.mp4"
+    },
+    {
+      "id": "coda1",
+      "text": "Twelve real people. Twelve real moments where the plan broke down, and something else, training, luck, or one remembered switch, kept them alive.",
+      "img": "iss_exterior",
+      "cap": "12 real people. 12 real scares. All survived."
+    },
+    {
+      "id": "coda2",
+      "text": "Almost all of them are still alive today, still willing to talk about the worst moment of their careers, in their own words. That, honestly, is the part worth sitting with.",
+      "cap": "Most are still alive. Still telling it themselves.",
+      "extraHold": 10,
+      "img": "iss_exterior"
+    },
+    {
+      "id": "bridge",
+      "text": "If what happened up there scared you, wait until you see what happened to the astronauts who never made it home at all. That story is on this channel too. Subscribe to mindwired, so you don't miss what comes next.",
+      "cap": "Next: the astronauts who never made it home.",
+      "img": "iss_exterior"
+    }
+  ]
+}

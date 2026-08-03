@@ -1,0 +1,488 @@
+1
+00:00:00,333 --> 00:00:01,998
+It is nineteen seventy seven.
+
+2
+00:00:01,998 --> 00:00:06,994
+In a field in Ohio, a radio telescope is listening to the sky, completely unattended.
+
+3
+00:00:06,994 --> 00:00:09,659
+Nobody is there to hear what it hears.
+
+4
+00:00:10,800 --> 00:00:17,173
+Days later, a volunteer sits at his kitchen table with a stack of paper printouts a technician dropped off on his way into town.
+
+5
+00:00:17,173 --> 00:00:20,361
+He is not paid to do this anymore. He does it anyway.
+
+6
+00:00:21,499 --> 00:00:26,789
+A few pages in, he stops. Six characters, in a column of numbers that should mean nothing.
+
+7
+00:00:26,789 --> 00:00:28,656
+He picks up a red pen.
+
+8
+00:00:29,799 --> 00:00:35,521
+He circles them. In the margin, without thinking too hard about it, he writes one word.
+
+9
+00:00:36,666 --> 00:00:40,370
+Whatever his telescope heard that night has never been heard again.
+
+10
+00:00:40,370 --> 00:00:45,757
+Not once, in almost fifty years, across more than a hundred attempts to listen for it.
+
+11
+00:00:46,899 --> 00:00:51,811
+This is not the only object science still can't explain. It isn't even the strangest one.
+
+12
+00:00:52,933 --> 00:00:55,731
+There is a star that appeared to be building something.
+
+13
+00:00:55,731 --> 00:01:01,606
+And a visitor from outside our solar system that broke the laws we thought applied to every rock in the sky.
+
+14
+00:01:02,733 --> 00:01:06,786
+Real telescopes. Real data. Real scientists, still arguing about what they found.
+
+15
+00:01:06,786 --> 00:01:12,529
+Ranked from the one we've mostly figured out, to the one we haven't figured out at all.
+
+16
+00:01:13,666 --> 00:01:15,155
+You're watching mindwired.
+
+17
+00:01:16,299 --> 00:01:18,572
+Objects astronomers can't explain.
+
+18
+00:01:19,700 --> 00:01:20,727
+Two thousand fifteen.
+
+19
+00:01:20,727 --> 00:01:32,368
+A NASA space telescope called Kepler has spent years staring at one patch of sky, watching over a hundred thousand stars for the tiny, regular flicker of a planet passing in front of them.
+
+20
+00:01:33,500 --> 00:01:36,567
+Kepler generates far too much data for scientists alone to check.
+
+21
+00:01:36,567 --> 00:01:42,981
+So NASA hands some of it to ordinary volunteers — a project called Planet Hunters — to look at the charts by eye.
+
+22
+00:01:44,099 --> 00:01:45,739
+One star stops them cold.
+
+23
+00:01:45,739 --> 00:01:50,003
+Its brightness doesn't dip by the tiny, steady amount a planet would cause.
+
+24
+00:01:50,003 --> 00:01:55,906
+It dips by up to twenty two percent — then climbs back, on no fixed schedule at all.
+
+25
+00:01:57,033 --> 00:02:04,411
+A planet, even one as big as Jupiter, blocks about one percent of a star's light, on a schedule you can set a clock to.
+
+26
+00:02:04,411 --> 00:02:10,904
+To block twenty two percent, whatever passed in front of this star would have to be most of the star's own width.
+
+27
+00:02:12,033 --> 00:02:15,952
+Nothing that large should be able to orbit a star without destroying itself.
+
+28
+00:02:15,952 --> 00:02:19,269
+And whatever it was, it wasn't coming back on any schedule.
+
+29
+00:02:20,400 --> 00:02:25,241
+The star gets a name: KIC eighty four sixty two eight fifty two.
+
+30
+00:02:25,241 --> 00:02:31,945
+Astronomers just call it Tabby's Star, after Yale astronomer Tabetha Boyajian, who led the team that published it.
+
+31
+00:02:33,066 --> 00:02:40,223
+Her own first reaction, on record: "When they showed the star to me, we all thought it was a data glitch." It wasn't.
+
+32
+00:02:41,366 --> 00:02:53,722
+A year later, astronomer Jason Wright and his team publish a paper asking a genuinely serious question: could this be what a megastructure under construction, built by another civilization, would actually look like from Earth?
+
+33
+00:02:54,866 --> 00:03:00,198
+His own words, quoted directly: "Aliens should always be the very last hypothesis you consider.
+
+34
+00:03:00,198 --> 00:03:04,819
+But this looked like something you would expect an alien civilization to build."
+
+35
+00:03:05,966 --> 00:03:08,887
+That is not the same as saying he found one.
+
+36
+00:03:08,887 --> 00:03:12,392
+It's a scientist saying: before we rule this out, let's actually check.
+
+37
+00:03:13,533 --> 00:03:16,283
+So other astronomers checked. Comet swarms. Dust rings.
+
+38
+00:03:16,283 --> 00:03:22,127
+A star that may have swallowed a planet ten thousand years ago and never quite settled down.
+
+39
+00:03:23,266 --> 00:03:33,297
+Then, in twenty eighteen, a Kickstarter-funded telescope campaign catches a new dip happening live — and this time, they measure it in multiple colors of light at once.
+
+40
+00:03:34,433 --> 00:03:41,895
+A solid object — a planet, a swarm of ships, a megastructure — blocks every color of light equally.
+
+41
+00:03:41,895 --> 00:03:45,822
+This dimming didn't. It blocked blue light more than red.
+
+42
+00:03:46,966 --> 00:03:50,853
+That is the signature of dust. Not a solid object at all.
+
+43
+00:03:50,853 --> 00:03:56,683
+Boyajian's own conclusion: "Dust is most likely the reason why the star's light appears to dim and brighten."
+
+44
+00:03:57,833 --> 00:04:07,394
+Wright's own words on his idea, once the data came in: "This latest research rules out alien megastructures, but it raises the plausibility of other phenomena."
+
+45
+00:04:08,533 --> 00:04:11,283
+So: not aliens. That part is actually settled.
+
+46
+00:04:11,283 --> 00:04:17,127
+What's still not settled is which kind of dust, from what source, and why it's so extreme.
+
+47
+00:04:18,266 --> 00:04:30,073
+As of just this year, one new study finds a tentative — not yet confirmed — signal of a giant hidden planet in the system, one that could be stirring up comet debris and flinging it through the star's light.
+
+48
+00:04:31,199 --> 00:04:35,970
+So this one makes our list at number three. Genuinely bizarre. Mostly explained.
+
+49
+00:04:35,970 --> 00:04:38,905
+Still, right now, missing its last few pieces.
+
+50
+00:04:40,033 --> 00:04:41,478
+October nineteenth, twenty seventeen.
+
+51
+00:04:41,478 --> 00:04:48,706
+On a mountain in Hawaii, a telescope built to watch for asteroids that could hit Earth catches something moving wrong.
+
+52
+00:04:49,833 --> 00:04:54,563
+Astronomer Robert Weryk spots a faint streak in the data. He checks the night before.
+
+53
+00:04:54,563 --> 00:04:58,662
+It's there too. Its path doesn't fit any normal orbit around our Sun.
+
+54
+00:04:59,799 --> 00:05:08,785
+His own words: "It's just something that happened to run into us, and we were very lucky to have been operating the telescope that night and looking in that direction."
+
+55
+00:05:09,933 --> 00:05:12,054
+Within days, the math is undeniable.
+
+56
+00:05:12,054 --> 00:05:20,539
+This object's path is bent just enough that it can only have come from outside our solar system entirely — and it's already leaving.
+
+57
+00:05:21,666 --> 00:05:26,603
+It's named 'Oumuamua — Hawaiian for scout, or messenger from afar arriving first.
+
+58
+00:05:26,603 --> 00:05:31,540
+And almost immediately, it starts doing things nothing in our solar system does.
+
+59
+00:05:32,666 --> 00:05:40,858
+Its brightness swings by a factor of ten as it tumbles — meaning it's either wildly elongated, like a cigar, or flattened, like a pancake.
+
+60
+00:05:40,858 --> 00:05:44,134
+Nothing in our own solar system is shaped like either.
+
+61
+00:05:45,266 --> 00:05:46,733
+Then it gets stranger.
+
+62
+00:05:46,733 --> 00:05:52,232
+As it leaves, it speeds up slightly more than the Sun's gravity alone can explain.
+
+63
+00:05:52,232 --> 00:05:56,264
+Real telescopes measure this precisely. It is not a rounding error.
+
+64
+00:05:57,399 --> 00:06:04,465
+In a comet, that kind of push comes from ice boiling off the surface — a visible tail, a cloud of gas.
+
+65
+00:06:04,465 --> 00:06:08,318
+Deep images and space telescopes look for exactly that, from up close.
+
+66
+00:06:09,466 --> 00:06:11,862
+They find nothing. No tail. No gas.
+
+67
+00:06:11,862 --> 00:06:16,995
+No dust cloud — even though it passed closer to the Sun than Mercury does.
+
+68
+00:06:16,995 --> 00:06:19,732
+Something pushed it. Nothing visible was pushing it.
+
+69
+00:06:20,866 --> 00:06:31,393
+One Harvard astronomer, Avi Loeb, co-authors a real peer-reviewed paper proposing an answer: what if it were thin enough, and light enough, to be pushed by sunlight itself — like a sail.
+
+70
+00:06:32,533 --> 00:06:40,751
+His own paper lays out two options for what that sail could be: something we don't yet understand forming naturally out in space.
+
+71
+00:06:40,751 --> 00:06:43,609
+Or, his words, debris from someone else's technology.
+
+72
+00:06:44,733 --> 00:06:50,095
+His later popular book argues harder for the second option than his own peer-reviewed paper ever did.
+
+73
+00:06:50,095 --> 00:06:53,249
+Almost no other astronomer in the field agrees with him.
+
+74
+00:06:54,366 --> 00:07:05,364
+In twenty nineteen, fourteen of the world's leading comet and asteroid experts review everything and conclude: every single observation is consistent with something entirely natural.
+
+75
+00:07:06,499 --> 00:07:08,596
+But which natural explanation? Frozen hydrogen?
+
+76
+00:07:08,596 --> 00:07:14,188
+A fragment of nitrogen ice, chipped off a Pluto-like world hundreds of millions of years ago?
+
+77
+00:07:14,188 --> 00:07:19,430
+Scientists have proposed all of these — and are still arguing about all of them.
+
+78
+00:07:20,566 --> 00:07:23,583
+Two more interstellar visitors have passed through since.
+
+79
+00:07:23,583 --> 00:07:29,239
+Both behaved exactly like normal comets — visible tails, visible gas, nothing strange at all.
+
+80
+00:07:30,366 --> 00:07:35,019
+Which makes the first one stand out even more. Number two on our list.
+
+81
+00:07:35,019 --> 00:07:40,005
+A confirmed visitor from another star system, that did something we still can't fully explain.
+
+82
+00:07:41,133 --> 00:07:48,839
+Which brings us back to Ohio, nineteen seventy seven, and the six characters a volunteer named Jerry Ehman circled in red pen.
+
+83
+00:07:49,966 --> 00:07:53,737
+The telescope was called Big Ear, run out of Ohio State University.
+
+84
+00:07:53,737 --> 00:08:00,337
+It scanned the same fixed strip of sky, over and over, as the Earth's own rotation swept it past different stars.
+
+85
+00:08:01,466 --> 00:08:07,047
+Every ten seconds, the computer printed one character showing how strong any signal was.
+
+86
+00:08:07,047 --> 00:08:10,635
+A quiet sky printed low numbers. This one didn't.
+
+87
+00:08:11,766 --> 00:08:16,110
+The exact sequence was six, E, Q, U, J, five.
+
+88
+00:08:16,110 --> 00:08:23,495
+The letter U meant the signal was roughly thirty times stronger than the background noise around it.
+
+89
+00:08:24,633 --> 00:08:30,263
+It came in close to a very specific frequency — the exact wavelength hydrogen itself emits.
+
+90
+00:08:30,263 --> 00:08:36,597
+The most common element in the entire universe, and the frequency every Seti search was built to watch.
+
+91
+00:08:37,733 --> 00:08:47,607
+It lasted exactly as long as the telescope's fixed beam took to sweep across one point in the sky — seventy two seconds, rising and falling smoothly.
+
+92
+00:08:47,607 --> 00:08:52,727
+Not a glitch. Not a flicker. A real object, in a real fixed spot.
+
+93
+00:08:53,866 --> 00:08:57,059
+It came from the direction of the constellation Sagittarius.
+
+94
+00:08:57,059 --> 00:09:04,864
+And it was never, not once, seen again — not that night, not the next night, not in nearly fifty years since.
+
+95
+00:09:05,999 --> 00:09:14,907
+Astronomers have pointed some of the most sensitive radio telescopes on Earth at that exact spot at least six separate times across five decades, looking for it again.
+
+96
+00:09:16,033 --> 00:09:18,674
+Every single search came back with nothing.
+
+97
+00:09:18,674 --> 00:09:25,843
+As recently as twenty twenty two, the Breakthrough Listen project used two major observatories to search the region again.
+
+98
+00:09:25,843 --> 00:09:26,221
+Nothing.
+
+99
+00:09:27,366 --> 00:09:32,421
+In twenty seventeen, one researcher proposed a passing comet's hydrogen cloud could explain it.
+
+100
+00:09:32,421 --> 00:09:37,475
+The scientists who actually found the signal reviewed the claim directly and rejected it.
+
+101
+00:09:38,599 --> 00:09:50,798
+The most credible natural theory right now, published in twenty twenty four and twenty twenty five, is that a violent flare from a dead, collapsed star briefly lit up a cold cloud of hydrogen gas like a flashbulb.
+
+102
+00:09:51,933 --> 00:09:55,908
+Even the scientists proposing it are careful about their own language.
+
+103
+00:09:55,908 --> 00:10:00,606
+They call it a hypothesis. Not a discovery. Not an answer. A hypothesis.
+
+104
+00:10:01,733 --> 00:10:06,510
+The telescope that heard it was torn down in nineteen ninety eight to make room for a golf course.
+
+105
+00:10:06,510 --> 00:10:07,767
+It can never listen again.
+
+106
+00:10:08,899 --> 00:10:16,492
+For decades afterward, whenever people asked the man who circled it in red pen what he thought it really was, he gave the same careful answer.
+
+107
+00:10:16,492 --> 00:10:20,288
+He never claimed it was aliens. He just never ruled it out either.
+
+108
+00:10:21,433 --> 00:10:28,234
+Nearly fifty years later, this is still, honestly, the strongest unexplained signal Seti has ever recorded.
+
+109
+00:10:28,234 --> 00:10:29,935
+Not proof of anything.
+
+110
+00:10:29,935 --> 00:10:35,461
+Just a real number, on a real printout, that nobody has ever explained.
+
+111
+00:10:36,599 --> 00:10:39,323
+None of these three are proof of aliens.
+
+112
+00:10:39,323 --> 00:10:47,832
+Every one of them, when scientists actually checked, pointed back toward something natural, something strange, or something we simply don't have an answer for yet.
+
+113
+00:10:48,966 --> 00:10:51,132
+That's honestly the more interesting finding.
+
+114
+00:10:51,132 --> 00:10:54,021
+The universe doesn't need aliens to be strange.
+
+115
+00:10:54,021 --> 00:10:59,075
+It's strange enough on its own, and we're still only decades into really looking.
+
+116
+00:11:00,199 --> 00:11:05,384
+Somewhere out there, right now, another telescope is recording something nobody has looked at yet.
+
+117
+00:11:05,384 --> 00:11:09,185
+Statistically, most of what it finds will have a normal explanation.
+
+118
+00:11:10,333 --> 00:11:19,894
+But every single mystery on this list started exactly that way — as one strange line, in one ordinary printout, that somebody almost didn't stop to look at twice.
+
+119
+00:11:21,033 --> 00:11:30,690
+If ranked mysteries like this are your kind of thing, we've also broken down the sounds NASA actually recorded in deep space — real audio, ranked by how unsettling it actually gets.
+
+120
+00:11:30,690 --> 00:11:32,501
+That one's on this channel too.
+
+121
+00:11:33,633 --> 00:11:37,846
+Wait until you hear what NASA's own space sounds video has on it.
+
+122
+00:11:37,846 --> 00:11:42,384
+Subscribe to mindwired, for the real science behind the strangest things in the universe.
+

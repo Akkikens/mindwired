@@ -516,10 +516,12 @@ def search_dvids(query: str, count: int, media: str) -> list[Asset]:
         url = ""
         if media == "video":
             files = a.get("files") or []
-            mp4s = [f for f in files if isinstance(f, dict) and
-                    str(f.get("src", "")).lower().endswith(".mp4")]
-            mp4s.sort(key=lambda f: -(f.get("width") or 0))
-            url = mp4s[0]["src"] if mp4s else ""
+            # older (pre-2010) DVIDS archival video assets often carry only a
+            # legacy .mpg/.mpeg derivative, no .mp4 — don't silently drop those
+            vids = [f for f in files if isinstance(f, dict) and
+                    str(f.get("src", "")).lower().endswith((".mp4", ".mpeg", ".mpg", ".ogv"))]
+            vids.sort(key=lambda f: -(f.get("width") or 0))
+            url = vids[0]["src"] if vids else ""
         else:
             url = a.get("image", "")
         if not url:

@@ -1,0 +1,708 @@
+1
+00:00:00,333 --> 00:00:01,900
+March eighth, twenty twenty-three.
+
+2
+00:00:01,900 --> 00:00:10,129
+A streaming service uploads three documentary episodes about a vanished airliner, timed to the ninth anniversary of the day it disappeared.
+
+3
+00:00:11,266 --> 00:00:16,961
+Inside those episodes, one man argues two completely different explanations for the same disappearance.
+
+4
+00:00:16,961 --> 00:00:22,655
+In the first hour, the pilot did it. In the second, Russian hijackers did.
+
+5
+00:00:23,800 --> 00:00:25,524
+Neither argument has held up.
+
+6
+00:00:26,666 --> 00:00:31,404
+Within days, the investigators who spent over a decade on this case are furious.
+
+7
+00:00:31,404 --> 00:00:41,895
+And the director herself later admits, on the record, that she believes the plane is somewhere else entirely from what her own series just spent two and a half hours dramatizing.
+
+8
+00:00:43,033 --> 00:00:50,269
+Millions of people now believe things about M-H three seven zero that the people who actually spent years searching for it say are simply wrong.
+
+9
+00:00:51,400 --> 00:00:53,221
+This is what they got wrong.
+
+10
+00:00:53,221 --> 00:01:02,633
+And this is what the actual flight recorder math says happened, in its final seconds — math neither of our first two M-H three seven zero videos has fully shown you.
+
+11
+00:01:03,766 --> 00:01:05,804
+You're watching Black Box Breakdown.
+
+12
+00:01:06,933 --> 00:01:10,721
+M-H three seven zero. Fact-checking the Netflix documentary.
+
+13
+00:01:11,866 --> 00:01:14,217
+Chapter one. The documentary.
+
+14
+00:01:15,366 --> 00:01:17,004
+March eighth, twenty twenty-three.
+
+15
+00:01:17,004 --> 00:01:26,834
+Nine years to the day after the disappearance, a three-part documentary series drops, all at once: M-H three seven zero, The Plane That Disappeared.
+
+16
+00:01:27,966 --> 00:01:32,371
+Each of the three episodes centers on one theory, and one on-camera champion.
+
+17
+00:01:32,371 --> 00:01:37,454
+Episode one: the pilot did it. Episode two: Russian hijackers did. Episode three: the U.S.
+
+18
+00:01:37,454 --> 00:01:40,165
+military shot it down, and covered it up.
+
+19
+00:01:41,299 --> 00:01:44,157
+Critics were split right down the middle.
+
+20
+00:01:44,157 --> 00:01:46,606
+Professional reviewers rated it generally favorable.
+
+21
+00:01:46,606 --> 00:01:51,096
+Ordinary viewers, watching those same three episodes, rated it generally unfavorable.
+
+22
+00:01:52,233 --> 00:01:58,842
+David Mearns, a marine scientist who has spent years hunting shipwrecks, including this one, was blunt about it.
+
+23
+00:01:59,966 --> 00:02:07,280
+The series is dominated by two people spinning, in his words, ridiculous and unsupported conspiracy theories.
+
+24
+00:02:08,400 --> 00:02:13,885
+Richard Godfrey, one of the most cited independent investigators on this case, went further.
+
+25
+00:02:13,885 --> 00:02:21,722
+The series gives conspiracy, fabrication, and fantasy the same weight as hard evidence, and short on hard facts and evidence.
+
+26
+00:02:22,866 --> 00:02:27,454
+And here is the detail that undercuts the entire series more than any critic could.
+
+27
+00:02:27,454 --> 00:02:37,547
+Its own director, Louise Malkinson, has said publicly that she believes the plane is most likely sitting in the southern Indian Ocean — the one outcome her own show barely dramatizes at all.
+
+28
+00:02:38,666 --> 00:02:41,795
+To be fair, not every review was a takedown.
+
+29
+00:02:41,795 --> 00:02:49,096
+The Wall Street Journal called it a series where every convincing argument is followed by an equally convincing demolition of it.
+
+30
+00:02:49,096 --> 00:02:53,268
+Even harsher critics praised episode one's minute-by-minute reconstruction of the disappearance itself.
+
+31
+00:02:54,400 --> 00:02:58,914
+So before we grade its theories one by one, remember what its own director already told you.
+
+32
+00:02:58,914 --> 00:03:03,961
+This is a show built to dramatize three explanations that even the person who made it doesn't fully believe.
+
+33
+00:03:05,099 --> 00:03:06,980
+Chapter two. The pilot.
+
+34
+00:03:08,099 --> 00:03:10,358
+Episode one makes its case plainly.
+
+35
+00:03:10,358 --> 00:03:22,780
+Captain Zaharie Ahmad Shah, it argues, deliberately turned the plane, depressurized the cabin to incapacitate everyone else on board, and flew it by hand, using saved waypoints, into the emptiest ocean on Earth.
+
+36
+00:03:23,900 --> 00:03:33,617
+One reviewer called the episode's extended reenactment of that moment stunningly irresponsible, warning it risked, in their words, irrevocable harm to a real family.
+
+37
+00:03:34,766 --> 00:03:41,508
+Here is what the official Malaysian investigation actually found, after checking his entire background.
+
+38
+00:03:41,508 --> 00:03:45,842
+No psychiatric history. No financial distress. No marital trouble.
+
+39
+00:03:46,966 --> 00:03:48,757
+No religious or political extremism.
+
+40
+00:03:48,757 --> 00:03:52,340
+No change in his behavior that any colleague ever flagged.
+
+41
+00:03:52,340 --> 00:03:56,997
+No stress detected in his own voice, on the final air traffic recordings.
+
+42
+00:03:58,133 --> 00:04:03,265
+His home flight simulator did contain a saved route running into the southern Indian Ocean.
+
+43
+00:04:03,265 --> 00:04:08,739
+But the official report states plainly: it could not be conclusively linked to the actual flight.
+
+44
+00:04:09,866 --> 00:04:18,304
+The series also leaves out testimony describing him as lonely, and estranged — testimony the official background check simply never corroborated.
+
+45
+00:04:19,433 --> 00:04:21,423
+His own sister disagrees entirely.
+
+46
+00:04:21,423 --> 00:04:27,792
+Sakinah Ahmad Shah has spoken publicly more than once, including this year, calling the theory impossible.
+
+47
+00:04:28,933 --> 00:04:33,922
+Calling it impossible, and describing, in her own words, a very decent family.
+
+48
+00:04:35,066 --> 00:04:39,439
+So state this plainly, because it matters more than any theory in this video.
+
+49
+00:04:39,439 --> 00:04:42,874
+The official investigation did not just fail to prove this theory.
+
+50
+00:04:42,874 --> 00:04:47,559
+It affirmatively found nothing in the man's life that supports it. He cannot answer back.
+
+51
+00:04:47,559 --> 00:04:49,433
+The evidence never convicted him either.
+
+52
+00:04:50,566 --> 00:04:52,447
+Chapter three. The hijack.
+
+53
+00:04:53,566 --> 00:04:58,293
+Episode two drops the pilot theory entirely, and argues something stranger.
+
+54
+00:04:58,293 --> 00:05:06,888
+Three passengers, it claims, entered the aircraft's forward electronics bay mid-flight and hijacked it electronically, diverting it north toward Kazakhstan.
+
+55
+00:05:08,033 --> 00:05:14,390
+The stated motive: distracting the world from Russia's annexation of Crimea, happening at almost the exact same time.
+
+56
+00:05:14,390 --> 00:05:26,397
+The theory's own author, journalist Jeff Wise, admitted even in his original piece that there was, in his words, no way to know, and no plausible motive for an act with no apparent beneficiary.
+
+57
+00:05:27,533 --> 00:05:29,508
+There's a timing problem too.
+
+58
+00:05:29,508 --> 00:05:33,854
+By early twenty fourteen, Russia's move into Crimea was already succeeding.
+
+59
+00:05:33,854 --> 00:05:37,015
+The distraction it supposedly needed didn't need creating.
+
+60
+00:05:38,133 --> 00:05:41,951
+And Netflix's own on-camera interviewees rebut the theory directly.
+
+61
+00:05:41,951 --> 00:05:48,739
+Fuad Sharuji, Malaysia Airlines' own former crisis director, calls a mid-flight takeover from that compartment impossible.
+
+62
+00:05:49,866 --> 00:06:01,752
+Mark Dickinson, an Inmarsat vice president, also interviewed on camera, says the idea that a hijacker predicted the satellite company's own analysis method in advance doesn't seem particularly credible at all.
+
+63
+00:06:02,899 --> 00:06:04,585
+Outside satellite specialists go further.
+
+64
+00:06:04,585 --> 00:06:13,348
+Mike Exner states plainly the plane cannot be flown from that compartment, and that the satellite data cannot be altered from there, as the theory claims.
+
+65
+00:06:14,466 --> 00:06:19,952
+And journalist William Langewiesche's own read of the physical evidence points the opposite way entirely.
+
+66
+00:06:19,952 --> 00:06:26,900
+Control was seized from inside the actual cockpit, in a twenty-minute window — not remotely, from a hidden compartment.
+
+67
+00:06:28,033 --> 00:06:31,856
+And here is the twist even the documentary never saw coming.
+
+68
+00:06:31,856 --> 00:06:40,546
+This January, Jeff Wise — the same man who originated this theory — posted a video titled, plainly: why the cockpit theory doesn't add up.
+
+69
+00:06:41,666 --> 00:06:49,790
+He is now, on the record, arguing against the very kind of deliberate-pilot scenario episode one spent an hour dramatizing.
+
+70
+00:06:50,933 --> 00:06:55,882
+One man. Two theories he authored himself, for two different episodes of the same series.
+
+71
+00:06:55,882 --> 00:06:59,841
+And by this year, he no longer stands fully behind either one.
+
+72
+00:07:00,966 --> 00:07:03,160
+Chapter four. The intercept.
+
+73
+00:07:04,299 --> 00:07:06,224
+Episode three goes furthest of all.
+
+74
+00:07:06,224 --> 00:07:18,092
+It argues the aircraft carried roughly two and a half tonnes of sensitive electronic cargo bound for China, and that American surveillance aircraft intercepted and jammed it, before it was shot down over the South China Sea.
+
+75
+00:07:19,233 --> 00:07:26,689
+In this version, the Indian Ocean debris was either planted, or misidentified, as part of a cover-up spanning multiple governments.
+
+76
+00:07:26,689 --> 00:07:33,026
+Its lead voice is French journalist Florence de Changy, who calls the entire case aviation's biggest con.
+
+77
+00:07:34,166 --> 00:07:44,125
+On camera, Ghyslain Wattrelos, who lost his wife and two children on this flight, says an intelligence contact told him American surveillance planes know full well what happened.
+
+78
+00:07:44,125 --> 00:07:48,037
+That is his own account. It has never been independently confirmed.
+
+79
+00:07:49,166 --> 00:07:53,261
+Richard Godfrey's rebuttal, point by point. Malaysian radar was not falsified.
+
+80
+00:07:53,261 --> 00:08:02,567
+The co-pilot's own phone WAS detected, pinging a cell tower near Penang, at the exact time the series claims the plane had already been seized.
+
+81
+00:08:03,699 --> 00:08:10,387
+And the recovered debris carries manufacturer part numbers and stencils that tie it directly to this exact aircraft.
+
+82
+00:08:11,533 --> 00:08:17,972
+Malaysian military radar DID detect the aircraft's turn, contrary to the documentary's claim that it went unnoticed.
+
+83
+00:08:17,972 --> 00:08:25,169
+It was logged as friendly, and simply not pursued — a failure of protocol, not evidence of a cover-up.
+
+84
+00:08:26,299 --> 00:08:30,884
+And the mysterious cargo the series frames as something smuggled?
+
+85
+00:08:30,884 --> 00:08:35,468
+A routine commercial shipment of lithium-ion batteries, for two-way radios.
+
+86
+00:08:36,600 --> 00:08:51,401
+For a cover-up this size to hold, hundreds of people, across at least four different governments, would need to stay silent for over a decade — while real, physically verifiable ocean debris kept washing up on real beaches the entire time.
+
+87
+00:08:51,401 --> 00:08:54,651
+The simpler explanation is almost always the true one.
+
+88
+00:08:55,800 --> 00:08:58,386
+Chapter five. What Netflix got wrong.
+
+89
+00:08:59,533 --> 00:09:05,059
+Step back from the individual theories, and a pattern in the documentary itself becomes the real story.
+
+90
+00:09:05,059 --> 00:09:17,087
+One critic wrote that the shoot-down theory gets minutes of dramatic buildup before an expert is finally allowed to, in his words, shrug it off as more loopy than legitimate — bordering, he wrote, on the irresponsible.
+
+91
+00:09:18,233 --> 00:09:29,231
+Another reviewer called it the sin of pretending every theory deserves equal time and equal weight — with Jeff Wise functioning as the series' primary guide, across two entire episodes.
+
+92
+00:09:30,366 --> 00:09:39,520
+One piece of amateur satellite imagery, crowdsourced from volunteers online, is given real on-camera credibility, implying it was suppressed by governments.
+
+93
+00:09:39,520 --> 00:09:44,315
+Critics who've actually studied it call it, bluntly, blurry white blobs.
+
+94
+00:09:45,433 --> 00:09:47,439
+The series also underplays something real.
+
+95
+00:09:47,439 --> 00:09:53,792
+Malaysian authorities sat on radar data for roughly a week, sending the initial search to the wrong ocean entirely.
+
+96
+00:09:54,933 --> 00:09:58,372
+And the sharpest fact-check of all is the one we already told you.
+
+97
+00:09:58,372 --> 00:10:07,367
+The documentary's own director has said, on the record, that she believes the plane is most likely in the southern Indian Ocean — the one ending her three-part series spends the least time on.
+
+98
+00:10:08,500 --> 00:10:14,658
+Some of the strongest pushback came from the families themselves, not about the crash, but about this series.
+
+99
+00:10:14,658 --> 00:10:22,528
+Naren Narendran, who lost his wife on this flight, said it should be marketed as fiction, calling it a lavish exercise in gaslighting.
+
+100
+00:10:23,666 --> 00:10:25,547
+The backlash reached governments too.
+
+101
+00:10:25,547 --> 00:10:36,832
+Vietnam pulled episode one from its own platform entirely, objecting to claims that it failed to cooperate in the search — a real, dated, institutional response to the show itself.
+
+102
+00:10:37,966 --> 00:10:41,754
+To be fair to the documentary one more time.
+
+103
+00:10:41,754 --> 00:10:53,117
+Even its critics praised episode one's data-driven, minute-by-minute reconstruction of the disappearance itself, calling it disturbingly realistic, right up until, in their words, it collapses into speculation.
+
+104
+00:10:54,266 --> 00:10:55,990
+Chapter six. The physics.
+
+105
+00:10:57,133 --> 00:11:00,818
+None of that is the most interesting fact-check in this entire case.
+
+106
+00:11:00,818 --> 00:11:09,724
+The most interesting one is buried in eight seconds of automatic satellite data that neither of our previous M-H three seven zero videos has walked you through in full.
+
+107
+00:11:10,866 --> 00:11:17,238
+In the final minute, the aircraft's satellite terminal made one unscheduled attempt to log back onto the network.
+
+108
+00:11:17,238 --> 00:11:21,132
+Eight seconds later, it tried again, and then went silent forever.
+
+109
+00:11:22,266 --> 00:11:26,400
+That is not a coincidence, and it is not a person.
+
+110
+00:11:26,400 --> 00:11:33,917
+When an aircraft's engines flame out from fuel exhaustion, a backup generator automatically starts, and briefly re-powers the satellite link.
+
+111
+00:11:35,066 --> 00:11:41,832
+Just long enough to force one last, involuntary attempt to reconnect, before that backup runs dry too, minutes later.
+
+112
+00:11:42,966 --> 00:11:50,517
+Analysts measured the tiny frequency shift in those two signals, caused by the aircraft's own vertical motion, and calculated a descent rate.
+
+113
+00:11:50,517 --> 00:11:55,322
+At the first signal: somewhere around three thousand to fifteen thousand feet per minute.
+
+114
+00:11:56,466 --> 00:12:02,735
+Eight seconds later, at the second signal: somewhere between fourteen thousand and twenty-five thousand feet per minute.
+
+115
+00:12:03,866 --> 00:12:08,384
+A normal passenger jet descends at around two thousand feet per minute.
+
+116
+00:12:08,384 --> 00:12:14,785
+This aircraft, in its final seconds, was falling seven to thirteen times faster than that, and accelerating.
+
+117
+00:12:15,933 --> 00:12:20,030
+The recovered wing flap tells the same story from a different angle.
+
+118
+00:12:20,030 --> 00:12:30,614
+Investigators traced exactly how its rear rivets tore, and the damage only lines up geometrically if that flap was retracted — the setting for ordinary cruising flight, not for a landing.
+
+119
+00:12:31,733 --> 00:12:33,954
+One ATSB investigator put the counter-argument plainly.
+
+120
+00:12:33,954 --> 00:12:44,742
+If someone still had control and still had fuel, there was never a reason to run the tanks dry, then attempt an unpowered glide, when a powered landing had been available the whole time.
+
+121
+00:12:45,866 --> 00:12:50,812
+And no large, intact piece of this aircraft has ever been recovered.
+
+122
+00:12:50,812 --> 00:13:00,704
+Only small, fragmented pieces, consistent with a fast, high-energy impact — not a gentle water landing, which tends to leave much larger sections floating.
+
+123
+00:13:01,833 --> 00:13:07,367
+Put all four of those together. The accelerating dive. The retracted flap. The fuel logic.
+
+124
+00:13:07,367 --> 00:13:08,474
+The shattered debris.
+
+125
+00:13:08,474 --> 00:13:12,164
+The official investigation's own physics all point the same direction.
+
+126
+00:13:12,164 --> 00:13:16,592
+In its final minutes, nobody appears to have been flying this aircraft.
+
+127
+00:13:17,733 --> 00:13:19,372
+It is not unanimous.
+
+128
+00:13:19,372 --> 00:13:26,337
+Larry Vance, a career air-crash investigator, looked at the same flap photographs and reached the opposite conclusion.
+
+129
+00:13:26,337 --> 00:13:33,302
+Extended, not retracted, meaning someone was flying it, carefully, all the way to a controlled water landing.
+
+130
+00:13:34,433 --> 00:13:39,869
+ATSB officials responded to him directly, and publicly, standing by their own retracted-flap finding.
+
+131
+00:13:39,869 --> 00:13:51,517
+When a career investigator and the agency that ran the actual search disagree this specifically, naming the disagreement honestly matters — but the official finding gets the last word here.
+
+132
+00:13:52,666 --> 00:14:04,584
+A separate, peer-reviewed paper argues the standard math might be using the wrong model, that coupling the plane's heading changes with the signal, instead of treating the shift as purely vertical, is consistent with a gentler, more controlled ending.
+
+133
+00:14:04,584 --> 00:14:08,862
+It's real science. It hasn't replaced the model the actual search was built on.
+
+134
+00:14:10,000 --> 00:14:12,501
+One more small detail, easy to miss.
+
+135
+00:14:12,501 --> 00:14:27,868
+At two twenty-five that morning, the satellite unit rebooted mid-flight, rare enough that some technical analysts read it as a specific interruption of one particular electrical bus — a detail that takes real, specific knowledge of the aircraft's own systems to even locate.
+
+136
+00:14:29,000 --> 00:14:31,586
+Chapter seven. Where it stands now.
+
+137
+00:14:32,733 --> 00:14:37,944
+While the documentary argued theories on a screen, a real ship kept searching a real ocean.
+
+138
+00:14:37,944 --> 00:14:48,041
+Ocean Infinity's newest search ran in two phases, weeks in the spring of last year, then again from the very end of December into January, over five months at sea combined.
+
+139
+00:14:49,166 --> 00:14:52,353
+It found nothing. Malaysia's seventy-million-dollar reward remains unpaid.
+
+140
+00:14:52,353 --> 00:15:00,320
+The company's own chief executive says their commitment has not ended, and that they hope to return when circumstances allow.
+
+141
+00:15:01,466 --> 00:15:08,353
+That specific search box traces back to a contested method — analyzing faint disturbances in worldwide amateur radio signals.
+
+142
+00:15:08,353 --> 00:15:11,977
+It sits entirely outside the toolkit official investigators actually use.
+
+143
+00:15:11,977 --> 00:15:18,864
+And yet it is the real reasoning that sent a real, government-funded ship to that exact patch of ocean.
+
+144
+00:15:20,000 --> 00:15:25,283
+Less than half of that predicted area was actually covered before the ship had to leave.
+
+145
+00:15:25,283 --> 00:15:29,246
+The hypothesis was never disproven there. It was simply never fully checked.
+
+146
+00:15:30,366 --> 00:15:36,479
+This year, Malaysia's government approved another twelve months, running through next June, to finish covering what's left.
+
+147
+00:15:37,600 --> 00:15:46,926
+Its transport minister called the extension, in his words, a manifestation of the government's continuous and unwavering commitment to provide closure for the families.
+
+148
+00:15:48,066 --> 00:15:49,978
+There's one more real lead.
+
+149
+00:15:49,978 --> 00:15:59,534
+Scientists re-examined recordings from underwater microphones built to detect nuclear tests, and found one faint signal, at one station, bearing roughly toward the search zone.
+
+150
+00:16:00,666 --> 00:16:06,431
+It has not been picked up by a second station, and the exact bearing is disputed.
+
+151
+00:16:06,431 --> 00:16:11,115
+Call it exactly what it is. A real, exciting lead. Not a location.
+
+152
+00:16:12,233 --> 00:16:13,641
+Debris keeps surfacing too.
+
+153
+00:16:13,641 --> 00:16:23,500
+Just last December, searcher Blaine Gibson found another piece on a beach in Madagascar, which he says supports a mid-air breakup, and argues against a slow, controlled landing.
+
+154
+00:16:23,500 --> 00:16:28,429
+That is his own read of the evidence, not yet a confirmed official finding.
+
+155
+00:16:29,566 --> 00:16:37,358
+And Jeff Wise, the same man behind two of this documentary's headline theories, published yet another new idea in February this year.
+
+156
+00:16:37,358 --> 00:16:44,795
+This time, that the search's continued failure implies someone survived the dive and glided the aircraft further than anyone has searched.
+
+157
+00:16:45,933 --> 00:16:53,326
+He named the captain specifically, while admitting, in his own words, it's hard to imagine why anyone would have wanted to do that.
+
+158
+00:16:54,466 --> 00:16:59,510
+Three theories, from the same man, in three years, about the same eleven minutes of data.
+
+159
+00:16:59,510 --> 00:17:08,337
+That alone should tell you something about how much of this case is still genuinely unsettled, and how little of the certainty in that documentary actually holds up.
+
+160
+00:17:09,466 --> 00:17:11,268
+Chapter eight. The verdict.
+
+161
+00:17:12,400 --> 00:17:17,836
+So the documentary's own harshest independent critic gets the final word on the show itself.
+
+162
+00:17:17,836 --> 00:17:29,798
+In his assessment, it hands conspiracy, fabrication, and fantasy the same weight as hard evidence, and every one of its three headline theories is ruled out by the physical evidence that actually exists.
+
+163
+00:17:30,933 --> 00:17:37,281
+And the official investigation gets the final word on the case itself, exactly as it did the day it was published.
+
+164
+00:17:38,400 --> 00:17:43,183
+Unable to determine the real cause. Third-party interference not ruled out.
+
+165
+00:17:43,183 --> 00:17:45,793
+No conclusive finding against any individual.
+
+166
+00:17:46,933 --> 00:17:53,922
+Every theory in this video, and every theory in that documentary, sits on top of that same unresolved foundation.
+
+167
+00:17:53,922 --> 00:17:55,762
+Nothing since has changed it.
+
+168
+00:17:56,900 --> 00:18:01,965
+We didn't make this video to defend a documentary, or to tear one down for clicks.
+
+169
+00:18:01,965 --> 00:18:14,630
+We made it because twelve years on, this mystery is still being sold as certainty, in half a dozen contradictory directions at once, and two hundred and thirty-nine families still don't have the one thing that would actually end it.
+
+170
+00:18:14,630 --> 00:18:15,264
+The aircraft.
+
+171
+00:18:16,400 --> 00:18:21,389
+Until someone finds it, every theory, ours included, is still just a theory.
+
+172
+00:18:22,533 --> 00:18:32,838
+If this made you want the full, minute-by-minute story of how an investigation like this actually works, from the black box math to the ocean floor, we have another one on this channel.
+
+173
+00:18:32,838 --> 00:18:36,586
+Air France four forty-seven, the flight we DID pull from the ocean.
+
+174
+00:18:36,586 --> 00:18:43,144
+It took two years to find, and what its recorder actually captured is just as disturbing as anything in this documentary.
+
+175
+00:18:44,266 --> 00:18:50,464
+If Air France four forty-seven's two-year search shocked you, wait until you see what its own black box actually recorded.
+
+176
+00:18:50,464 --> 00:18:52,013
+Subscribe to Black Box Breakdown.
+
+177
+00:18:52,013 --> 00:19:00,070
+We take the world's biggest aviation mysteries apart, piece by piece, and when the honest answer is that nobody knows yet, we tell you that too.
+

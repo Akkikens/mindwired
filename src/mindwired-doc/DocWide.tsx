@@ -21,7 +21,7 @@ import {
 } from "remotion";
 import "../lib/fonts";
 import { DIAGRAMS } from "./Diagrams";
-import { MascotReact, MascotZoom, SketchScene } from "./Sketch";
+import { DossierScene, MascotReact, MascotZoom, SketchScene } from "./Sketch";
 
 const FPS = 30;
 const BASE = "#05070C";
@@ -102,6 +102,14 @@ export type DocScene = {
   exhibit?: boolean;
   source?: string;          // exhibit citation lower-third ("MIT Study, 2014 · p.14")
   highlight?: number[];     // [x,y,w,h] fractional highlight/zoom target
+  /** DOSSIER beat (docs/guides/DOSSIER-SCENES.md): the illustrated sibling of
+   *  `exhibit` for beats with ZERO real photo/footage coverage (an unfilmable
+   *  moment, an abstraction) — hand-cut paper-collage "case file" look, always
+   *  tagged RECONSTRUCTION. `img` is the Gemini-generated cutout prefix
+   *  (scripts/gen_doc_dossier.py); `label` is a short 1-4 word date/name
+   *  stamp. Never use for a real person/event that has archival coverage. */
+  dossier?: boolean;
+  label?: string;
   /** KINETIC typography-on-black beat (the "second narrator"): a number
    *  counting up (count → optional strike to a second number), and/or words
    *  materializing one-by-one, silence-synced to the narration. */
@@ -147,6 +155,7 @@ const SFX: Record<string, { file: string; vol: number; frames: number }> = {
   cockpit_hum:     { file: "sfx/cockpit_hum.wav",     vol: 0.10, frames: 360 },
   stat_hit:        { file: "sfx/stat_hit.wav",        vol: 0.32, frames: 24 },
   chapter_boom:    { file: "sfx/chapter_boom.wav",    vol: 0.35, frames: 54 },
+  stamp_thud:      { file: "sfx/stamp_thud.wav",      vol: 0.32, frames: 9 },
   // sketch-brand kit (CC0 via scripts/fetch_sfx.py — public/sfx/LICENSES.md)
   sketch_scribble: { file: "sfx/sketch_scribble.wav", vol: 0.20, frames: 75 },
   page_turn:       { file: "sfx/page_turn.wav",       vol: 0.25, frames: 21 },
@@ -302,20 +311,51 @@ const RadioScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Them
   );
 };
 
-const ChapterCard: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Theme }> = ({ s, slug, m, th }) => {
+/* Dimmed/blurred real-photo backdrop for text-only beats (chapter cards,
+   kinetic stat reveals) — NEVER leave these on flat black when a real photo
+   exists for the scene; bare black-screen-and-text reads cheap and empty
+   (Akshay, 2026-07-25 — "70-80% of the video is black screen"). Falls back to
+   BASE (solid dark) only when the scene genuinely has no img prefix. */
+const TextSceneBg: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: number }> = ({ s, slug, m, idx }) => {
+  const frame = useCurrentFrame();
+  const files = (s.img && m.images[s.img]) || [];
+  const file = files.length ? files[idx % files.length] : null;
+  if (!file) return null;
+  const fadeIn = interpolate(frame, [0, 14], [0, 1], { extrapolateRight: "clamp" });
+  const drift = interpolate(frame, [0, 1400], [1.06, 1.18], { extrapolateRight: "clamp" });
+  return (
+    <AbsoluteFill style={{ opacity: fadeIn }}>
+      {/* blurred cover backdrop fills the frame regardless of source aspect ratio */}
+      <Img src={staticFile(`shorts/${slug}/images/${file}`)}
+        style={{ width: "100%", height: "100%", objectFit: "cover", transform: `scale(${drift * 1.15})`,
+          filter: "brightness(0.5) saturate(0.85) blur(10px)" }} />
+      {/* sharp foreground never crops — portrait sources stay pillarboxed instead of losing content */}
+      <AbsoluteFill style={{ justifyContent: "center", alignItems: "center" }}>
+        <Img src={staticFile(`shorts/${slug}/images/${file}`)}
+          style={{ maxWidth: "100%", maxHeight: "100%", width: "auto", height: "auto", objectFit: "contain",
+            transform: `scale(${drift})`, filter: "brightness(0.62) saturate(0.85)" }} />
+      </AbsoluteFill>
+      <AbsoluteFill style={{ background: "radial-gradient(circle, rgba(4,6,10,0.12) 0%, rgba(4,6,10,0.72) 82%)" }} />
+    </AbsoluteFill>
+  );
+};
+
+const ChapterCard: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: number; th: Theme }> = ({ s, slug, m, idx, th }) => {
   const frame = useCurrentFrame();
   const hasAudio = m.durations[s.id] !== undefined;
   const sp = spring({ frame, fps: FPS, config: { damping: 16 } });
   const lines = (s.chapter ?? "").split("\n");
   return (
     <AbsoluteFill style={{ backgroundColor: BASE, justifyContent: "center", alignItems: "center" }}>
+      <TextSceneBg s={s} slug={slug} m={m} idx={idx} />
       <div style={{ position: "absolute", width: 760, height: 760, borderRadius: "50%",
         background: `radial-gradient(circle, ${th.accent}14 0%, transparent 62%)` }} />
       <div style={{ textAlign: "center", transform: `translateY(${interpolate(sp, [0, 1], [26, 0])}px)`, opacity: sp }}>
         <div style={{ fontFamily: th.display, fontWeight: 700, fontSize: 34, color: th.accent, letterSpacing: 6, marginBottom: 16 }}>
           {lines[0]}
         </div>
-        <div style={{ fontFamily: th.display, fontWeight: 700, fontSize: 88, color: "#fff", lineHeight: 1.12, maxWidth: 1500 }}>
+        <div style={{ fontFamily: th.display, fontWeight: 700, fontSize: 88, color: "#fff", lineHeight: 1.12, maxWidth: 1500,
+          textShadow: "0 4px 30px rgba(0,0,0,0.7)" }}>
           {lines[1]}
         </div>
         <div style={{ width: 120, height: 7, background: th.accent, borderRadius: 5, margin: "30px auto 0" }} />
@@ -354,10 +394,18 @@ const IllusScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: num
     <AbsoluteFill style={{ backgroundColor: BASE, opacity: fadeOut }}>
       {file && (
         <AbsoluteFill style={{ opacity: fadeIn }}>
+          {/* blurred cover backdrop fills the frame regardless of source aspect ratio */}
           <Img src={staticFile(`shorts/${slug}/images/${file}`)}
             style={{ width: "100%", height: "100%", objectFit: "cover",
-              transform: `scale(${scale}) translateX(${driftX}px)`,
-              filter: "saturate(0.88) contrast(1.05)" }} />
+              transform: `scale(${scale * 1.15}) translateX(${driftX}px)`,
+              filter: "saturate(0.88) contrast(1.05) blur(14px) brightness(0.55)" }} />
+          {/* sharp foreground never crops — portrait sources stay pillarboxed instead of losing content */}
+          <AbsoluteFill style={{ justifyContent: "center", alignItems: "center" }}>
+            <Img src={staticFile(`shorts/${slug}/images/${file}`)}
+              style={{ maxWidth: "100%", maxHeight: "100%", width: "auto", height: "auto", objectFit: "contain",
+                transform: `scale(${scale}) translateX(${driftX}px)`,
+                filter: "saturate(0.88) contrast(1.05)" }} />
+          </AbsoluteFill>
         </AbsoluteFill>
       )}
       <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(5,7,12,0.62) 0%, transparent 24%, transparent 56%, rgba(5,7,12,0.94) 100%)", pointerEvents: "none" }} />
@@ -567,18 +615,23 @@ const ExhibitScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: n
         </AbsoluteFill>
       )}
       {s.source && (
-        <div style={{ position: "absolute", bottom: 96, left: 96, opacity: srcIn,
+        <div style={{ position: "absolute", bottom: 96, left: 96, maxWidth: 960, opacity: srcIn,
           transform: `translateY(${interpolate(srcIn, [0, 1], [18, 0])}px)` }}>
           <div style={{ fontFamily: "'Courier New', monospace", fontWeight: 700, fontSize: 22,
             letterSpacing: 4, color: th.accent, marginBottom: 6 }}>EXHIBIT</div>
-          <div style={{ fontFamily: th.body, fontWeight: 600, fontSize: 34, color: "#fff",
+          <div style={{ fontFamily: th.body, fontWeight: 600, fontSize: 34, color: "#fff", lineHeight: 1.3,
             background: "rgba(3,4,7,0.8)", padding: "10px 22px", borderLeft: `5px solid ${th.accent}`,
             borderRadius: 8 }}>{s.source}</div>
         </div>
       )}
       {s.cap && (
-        <div style={{ position: "absolute", bottom: 104, right: 96, maxWidth: 720, textAlign: "right",
-          opacity: capIn, transform: `translateY(${interpolate(capIn, [0, 1], [20, 0])}px)` }}>
+        // stacked ABOVE the source lower-third (not beside it) — a long citation +
+        // a long caption on the same baseline used to run into each other (both
+        // were bottom-anchored within ~10px of each other, only separated by
+        // maxWidth math that broke as soon as either string got long)
+        <div style={{ position: "absolute", bottom: s.source ? 210 : 104, right: 96, maxWidth: 720,
+          textAlign: "right", opacity: capIn,
+          transform: `translateY(${interpolate(capIn, [0, 1], [20, 0])}px)` }}>
           <span style={{ fontFamily: th.body, fontWeight: 700, fontSize: 40, color: "#fff", lineHeight: 1.3,
             textShadow: "0 3px 20px rgba(0,0,0,0.9)" }}>{s.cap}</span>
         </div>
@@ -590,10 +643,12 @@ const ExhibitScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: n
   );
 };
 
-/* KINETIC typography-on-black beat (the "second narrator"): a number counting
+/* KINETIC typography beat (the "second narrator"): a number counting
    up (optionally struck through to a second, real number) and/or words
-   materializing one-by-one — silence-synced to the narration. */
-const KineticScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Theme }> = ({ s, slug, m, th }) => {
+   materializing one-by-one — silence-synced to the narration. Sits over a
+   dimmed real photo when the scene has one (TextSceneBg); solid dark only
+   as a genuine fallback. */
+const KineticScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: number; th: Theme }> = ({ s, slug, m, idx, th }) => {
   const frame = useCurrentFrame();
   const dur = sceneFrames(s, m);
   const aud = sceneAud(s, m) * FPS;
@@ -611,13 +666,15 @@ const KineticScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Th
   const perWord = words.length ? (aud * 0.78) / words.length : 0;
   return (
     <AbsoluteFill style={{ backgroundColor: "#04060A", justifyContent: "center", alignItems: "center", opacity: fadeOut }}>
+      <TextSceneBg s={s} slug={slug} m={m} idx={idx} />
       <div style={{ position: "absolute", width: 780, height: 780, borderRadius: "50%",
         background: `radial-gradient(circle, ${th.accent}0F 0%, transparent 60%)` }} />
       {shown !== null && (
         <div style={{ textAlign: "center" }}>
           <div style={{ position: "relative", display: "inline-block" }}>
             <span style={{ fontFamily: th.display, fontWeight: 700, fontSize: 200, color: "#fff", letterSpacing: 1,
-              lineHeight: 1, opacity: k.strike !== undefined ? interpolate(strikeT, [0, 1], [1, 0.45]) : 1 }}>
+              lineHeight: 1, textShadow: "0 4px 30px rgba(0,0,0,0.75)",
+              opacity: k.strike !== undefined ? interpolate(strikeT, [0, 1], [1, 0.45]) : 1 }}>
               {k.prefix ?? ""}{fmt(shown)}{k.suffix ?? ""}
             </span>
             {k.strike !== undefined && (
@@ -649,7 +706,7 @@ const KineticScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Th
             return (
               <span key={i} style={{ display: "inline-block", margin: "0 14px",
                 fontFamily: th.display, fontWeight: 700, fontSize: 92, lineHeight: 1.3,
-                color: i === words.length - 1 ? th.accent : "#fff",
+                color: i === words.length - 1 ? th.accent : "#fff", textShadow: "0 3px 24px rgba(0,0,0,0.75)",
                 opacity: wIn, transform: `translateY(${interpolate(wIn, [0, 1], [26, 0])}px)` }}>{w}</span>
             );
           })}
@@ -697,7 +754,7 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest, outro?: OutroSp
           return (
             <Sequence key={s.id} from={from} durationInFrames={dur} name={s.id}>
               {s.chapter
-                ? <ChapterCard s={s} slug={doc.slug} m={manifest} th={th} />
+                ? <ChapterCard s={s} slug={doc.slug} m={manifest} idx={sceneFileIdx[s.id] ?? i} th={th} />
                 : s.sting
                 ? <StingScene s={s} slug={doc.slug} m={manifest} th={th} />
                 : s.speaker
@@ -718,8 +775,16 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest, outro?: OutroSp
                     accent={th.accent} sceneDur={dur} circle={s.circle} />
                 : s.exhibit
                 ? <ExhibitScene s={s} slug={doc.slug} m={manifest} idx={sceneFileIdx[s.id] ?? i} th={th} />
+                : s.dossier
+                ? <DossierScene
+                    file={(() => {
+                      const fs = (s.img && manifest.images[s.img]) || [];
+                      return fs.length ? fs[(sceneFileIdx[s.id] ?? i) % fs.length] : null;
+                    })()}
+                    slug={doc.slug} cap={s.cap} label={s.label}
+                    accent={th.accent} sceneDur={dur} camera={s.camera} />
                 : s.kinetic
-                ? <KineticScene s={s} slug={doc.slug} m={manifest} th={th} />
+                ? <KineticScene s={s} slug={doc.slug} m={manifest} idx={sceneFileIdx[s.id] ?? i} th={th} />
                 : s.diagram
                 ? <DiagramScene s={s} slug={doc.slug} m={manifest} th={th} />
                 : <IllusScene s={s} slug={doc.slug} m={manifest} idx={sceneFileIdx[s.id] ?? i} th={th} />}
@@ -764,6 +829,20 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest, outro?: OutroSp
                       ? [{ name: "page_turn", at: 0, volume: 0.18 } as SfxCue] : []),
                     ...((s.react || s.speak) ? [{ name: "sketch_pop", at: 6 } as SfxCue] : []),
                     ...(s.stat ? [{ name: "stat_hit", at: 24 } as SfxCue] : []),
+                  ])} />
+                </>
+              )}
+              {s.dossier && (
+                <>
+                  <Brand th={th} />
+                  {manifest.durations[s.id] !== undefined && (
+                    <Sequence from={LEAD}>
+                      <Audio src={staticFile(`shorts/${doc.slug}/audio/${s.id}.mp3`)} />
+                    </Sequence>
+                  )}
+                  <SceneSfx sceneDur={dur} cues={sceneCues(s, [
+                    { name: "page_turn", at: 0, volume: 0.2 },
+                    ...(s.label ? [{ name: "stamp_thud", at: 26 } as SfxCue] : []),
                   ])} />
                 </>
               )}

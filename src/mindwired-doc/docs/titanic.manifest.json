@@ -1,0 +1,108 @@
+{
+ "durations": {
+  "h1": 8.751,
+  "h2": 10.031,
+  "h3": 6.531,
+  "h4": 8.673,
+  "h5": 8.359,
+  "sting": 1.959,
+  "title": 3.474,
+  "c1": 4.049,
+  "a1": 9.874,
+  "a2": 6.426,
+  "a3": 15.151,
+  "a4": 7.079,
+  "a5": 13.087,
+  "a6": 11.154,
+  "a7": 13.244,
+  "a8": 14.106,
+  "a9": 6.687,
+  "c2": 4.598,
+  "b1": 8.124,
+  "b2": 8.516,
+  "b3": 9.169,
+  "b4": 4.833,
+  "b5": 9.639,
+  "b6": 1.724,
+  "c3": 5.329,
+  "d1": 8.908,
+  "d2": 10.109,
+  "d3": 11.233,
+  "d4": 13.793,
+  "d5": 7.628,
+  "d6": 13.557,
+  "d7": 12.826,
+  "d8": 12.931,
+  "d9": 9.874,
+  "d10": 9.953,
+  "c4": 3.474,
+  "e1": 11.651,
+  "e2": 11.546,
+  "e3": 11.468,
+  "e4": 4.989,
+  "e5": 12.356,
+  "e6": 6.113,
+  "e7": 13.401,
+  "e8": 16.849,
+  "e9": 12.826,
+  "e10": 7.157,
+  "c5": 3.631,
+  "f1": 8.673,
+  "f2": 14.838,
+  "f3": 11.076,
+  "f4": 8.281,
+  "f5": 9.247,
+  "f6": 8.359,
+  "f7": 13.087,
+  "f8": 9.717,
+  "coda1": 6.922,
+  "coda2": 6.269,
+  "coda3": 5.329,
+  "end": 12.434
+ },
+ "images": {
+  "collision_moment": [
+   "collision_moment_1.png"
+  ],
+  "ex_mersey": [
+   "ex_mersey_1.png",
+   "ex_mersey_2.png"
+  ],
+  "ismay_warning": [
+   "ismay_warning_1.png"
+  ],
+  "lord_californian": [
+   "lord_californian_1.jpg",
+   "lord_californian_2.jpg",
+   "lord_californian_3.jpg"
+  ],
+  "movie_reel": [
+   "movie_reel_1.jpeg",
+   "movie_reel_2.jpeg",
+   "movie_reel_3.jpeg"
+  ],
+  "senate_hearing": [
+   "senate_hearing_1.webp",
+   "senate_hearing_2.jpg",
+   "senate_hearing_3.jpg"
+  ],
+  "titanic_construction": [
+   "titanic_construction_1.jpg",
+   "titanic_construction_2.jpg",
+   "titanic_construction_3.jpg"
+  ],
+  "titanic_deck": [
+   "titanic_deck_1.png",
+   "titanic_deck_2.jpg",
+   "titanic_deck_3.jpg"
+  ],
+  "titanic_dock": [
+   "titanic_dock_2.jpg",
+   "titanic_dock_3.jpg",
+   "titanic_dock_4.jpg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.96,
+ "mouth": {}
+}

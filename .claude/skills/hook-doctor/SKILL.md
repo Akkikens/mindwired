@@ -19,6 +19,13 @@ zero change to the rest. This is the cheapest, highest-leverage edit you can mak
    - Weak: "The universe is a strange and wonderful place."
    - Strong: "There is a hole in the universe 330 million light years wide — and it
      should not exist."
+   - **Dated/human-thread alternative (the "Fern" cold-open shape, CLAUDE.md
+     2026-07-28):** for episodes anchored to a real event, date, and place —
+     Black Box Breakdown, true-crime-adjacent Icahn topics — open on the date,
+     the named location, then one small concrete action, in that order: "November
+     24, 1971. Portland International Airport. A man in a dark suit pays cash
+     for a one-way ticket." No rhetorical question, no "imagine this" — start
+     inside the moment, not before it. This IS doc-episode's "Cold-open 2.0."
 
 2. **Motion in the first 5 frames.** No slow fade from black. The first scene is already
    moving (per CLAUDE.md the teaser hook plays over content visuals BEFORE the wordmark).
@@ -46,6 +53,14 @@ zero change to the rest. This is the cheapest, highest-leverage edit you can mak
    at frame 0? Second person where possible? No greeting/logo/throat-clear?
 5. Deliver the rewritten opening + a one-line note on which loop it opens and where the
    video closes it (so the payoff actually lands).
+
+## Closing the loop you opened
+Rule 3 above says open a loop and don't close it early — but the script's FINAL line
+must close it deliberately, not just trail off. Pick one of the **five cliffhanger-ending
+patterns** (CLAUDE.md, "Writing scripts that retain viewers"): the unresolved object, the
+dated forward jump, the missing piece, the quiet contradiction, or the price line. ≤12
+words, lands on a noun/name/date. This sits right before the verbal-bridge + subscribe
+line — the cliffhanger closes THIS episode's loop, the bridge opens the next video's.
 
 ## Retention beyond the hook (secondary)
 - **Re-hook every 30-60s** in long-forms: a new "but here's the strange part" or a

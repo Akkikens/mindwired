@@ -1,0 +1,517 @@
+{
+  "slug": "titanic",
+  "title": "Titanic: The Verdict Two Governments Couldn't Agree On",
+  "channel": "blackbox",
+  "niche": "history",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "April fourteenth, nineteen twelve, one forty two in the afternoon. A captain hands the ship's owner a warning about ice ahead. He folds it into his coat pocket.",
+      "dossier": true,
+      "img": "ismay_warning",
+      "label": "APR 14 1912",
+      "cap": "A warning, folded into a pocket.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h2",
+      "text": "Two hours after midnight, that ship is at the bottom of the Atlantic. More than fifteen hundred people are dead, and two separate governments open investigations to find out exactly why.",
+      "img": "titanic_dock",
+      "query": "RMS Titanic docked Southampton 1912",
+      "stat": "1,500+",
+      "cap": "Two governments investigate.",
+      "tone": "shock"
+    },
+    {
+      "id": "h3",
+      "kinetic": {
+        "words": [
+          "Two",
+          "governments.",
+          "Two",
+          "verdicts."
+        ]
+      },
+      "extraHold": 20,
+      "text": "Two governments investigated this same disaster. They read the same testimony. They still reached different verdicts.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h4",
+      "text": "Both inquiries are real. Both reports are public record, still readable today. And on at least one point, the two governments do not agree with each other.",
+      "img": "senate_hearing",
+      "query": "US Senate Titanic inquiry hearing room 1912",
+      "cap": "They don't even agree with each other.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h5",
+      "text": "This is not the movie version. This is what the two official investigations actually found, a hundred and fourteen years ago, and where they still contradict each other.",
+      "video": "ship_1.mp4",
+      "videoQuery": "ocean liner cruising archival 1910s ship at sea",
+      "cap": "The reports, not the movie.",
+      "tone": "confidence"
+    },
+    {
+      "id": "sting",
+      "sting": true,
+      "text": "You're watching Black Box Breakdown.",
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "chapter": "TITANIC\nTHE VERDICT TWO GOVERNMENTS COULDN'T AGREE ON",
+      "text": "Titanic. The verdict two governments couldn't agree on."
+    },
+    {
+      "id": "c1",
+      "chapter": "1 — THE SHIP\nWITH MORE LIFEBOATS THAN THE LAW REQUIRED",
+      "text": "Chapter one. The ship with more lifeboats than the law required."
+    },
+    {
+      "id": "a1",
+      "text": "White Star Line built this ship to answer a rival's speed record, not to break one. Where Cunard's liners were built to be fast, White Star built for size, and for comfort.",
+      "img": "titanic_construction",
+      "query": "Titanic Harland and Wolff shipyard construction Belfast 1911",
+      "cap": "Built for size, not speed.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2",
+      "text": "Construction took twenty six months at the Harland and Wolff yard in Belfast. Eight of the yard's own workers died building her.",
+      "img": "titanic_construction",
+      "stat": "8 workers killed",
+      "cap": "Eight workers died building her.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a3",
+      "text": "A trade journal at the time called the ship's watertight compartment system, quote, practically unsinkable. That is a real, qualified engineering claim. The flat, unqualified word unsinkable came later, mostly from newspapers, after the fact.",
+      "img": "titanic_dock",
+      "cap": "“Practically unsinkable.” Not a slogan.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a4",
+      "kinetic": {
+        "words": [
+          "Not",
+          "an",
+          "ad.",
+          "A",
+          "myth."
+        ]
+      },
+      "extraHold": 16,
+      "text": "That popular idea, that this ship was marketed to the public as unsinkable, is mostly a myth invented after it sank.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a5",
+      "text": "Here is the real flaw, and it is not the one you think. British lifeboat law scaled the number of boats a ship had to carry to its weight in tons, and that law had not been updated since ships a third this size were the biggest afloat.",
+      "img": "titanic_deck",
+      "query": "Titanic deck lifeboats 1912",
+      "extraHold": 14,
+      "cap": "The law hadn't been updated in years.",
+      "tone": "shock"
+    },
+    {
+      "id": "a6",
+      "text": "Under that outdated law, this ship needed sixteen lifeboats. It carried twenty. It was carrying more boats than the law required, and its boats still had room for barely half the people on board.",
+      "img": "titanic_deck",
+      "stat": "20 boats, 53% capacity",
+      "cap": "More boats than required. Still not enough.",
+      "tone": "shock"
+    },
+    {
+      "id": "a7",
+      "text": "On the day itself, seven separate ice warnings reached this ship's radio room. One came from the steamer Caronia that morning. One came from the Baltic that afternoon, and that is the one the captain personally carried to the ship's owner.",
+      "img": "titanic_dock",
+      "query": "RMS Titanic wireless radio room 1912",
+      "extraHold": 12,
+      "cap": "Seven ice warnings, that one day.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a8",
+      "text": "One more warning came in just before eight PM that night, from a ship called the Mesaba. It described a solid field of ice and icebergs directly in this ship's path. That message never reached the bridge. It was left behind on a table in the radio room.",
+      "img": "titanic_dock",
+      "extraHold": 16,
+      "cap": "Left on a table. Never reached the bridge.",
+      "tone": "shock"
+    },
+    {
+      "id": "a9",
+      "text": "By eleven that night, the ship was still holding roughly twenty two knots, through a night the crew already knew was full of ice.",
+      "video": "ship_2.mp4",
+      "videoQuery": "ocean liner bow moving archival footage 1910s",
+      "cap": "Still at full speed. Through the ice.",
+      "tone": "fear"
+    },
+    {
+      "id": "c2",
+      "chapter": "2 — SEVEN WARNINGS\nONE NEVER REACHED THE BRIDGE",
+      "text": "Chapter two. Seven warnings. One never reached the bridge."
+    },
+    {
+      "id": "b1",
+      "text": "A few miles away, another ship, the Californian, had already stopped for the night. Surrounded by ice, her captain had gone to sleep in the chart room.",
+      "img": "lord_californian",
+      "query": "Captain Stanley Lord Californian ship",
+      "cap": "A nearby ship, already stopped for the night.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b2",
+      "text": "At around eleven PM, the Californian's radio operator tapped out a message to this ship. We are stopped, he said, and surrounded by ice.",
+      "img": "titanic_dock",
+      "extraHold": 10,
+      "cap": "“We are stopped, and surrounded by ice.”",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b3",
+      "text": "This ship's own senior radio operator, buried in passenger telegrams, cut him off. Shut up, he sent back. I am busy. I am working Cape Race.",
+      "img": "titanic_dock",
+      "stat": "“Shut up... I am busy.”",
+      "cap": "The warning was cut off mid-message.",
+      "tone": "shock"
+    },
+    {
+      "id": "b4",
+      "text": "Minutes later, the Californian's operator switched his radio off for the night, and went to bed.",
+      "img": "lord_californian",
+      "extraHold": 14,
+      "cap": "Then he switched off, and went to bed.",
+      "tone": "fear"
+    },
+    {
+      "id": "b5",
+      "text": "At eleven forty PM, high in the crow's nest, a lookout named Frederick Fleet saw something directly ahead. He rang the warning bell three times, and called the bridge.",
+      "img": "titanic_deck",
+      "cap": "11:40 PM. Frederick Fleet, lookout.",
+      "tone": "fear"
+    },
+    {
+      "id": "b6",
+      "kinetic": {
+        "words": [
+          "“Iceberg,",
+          "right",
+          "ahead.”"
+        ]
+      },
+      "extraHold": 22,
+      "text": "Iceberg, right ahead.",
+      "tone": "fear"
+    },
+    {
+      "id": "c3",
+      "chapter": "3 — ELEVEN FORTY PM\nTHE NIGHT THE SHIP HAD LEFT ITSELF NO MARGIN",
+      "text": "Chapter three. Eleven forty PM. The night the ship had left itself no margin."
+    },
+    {
+      "id": "d1",
+      "text": "There is no photograph of what happened in the next few seconds. No camera was there. This is a reconstruction, built only from the testimony of the men who lived through it.",
+      "dossier": true,
+      "img": "collision_moment",
+      "label": "11:40 PM",
+      "cap": "No photograph exists of this moment.",
+      "tone": "fear"
+    },
+    {
+      "id": "d2",
+      "text": "The iceberg did not smash through the hull in one blow. It scraped along the side, below the waterline, popping rivets and buckling steel plates across several compartments at once.",
+      "img": "titanic_deck",
+      "extraHold": 12,
+      "cap": "Several compartments, all at once.",
+      "tone": "fear"
+    },
+    {
+      "id": "d3",
+      "text": "That was the one failure this ship's design could not survive. It was built to stay afloat with any four of its watertight compartments flooded. That night, water was pouring into six of them at once.",
+      "kinetic": {
+        "words": [
+          "Built",
+          "for",
+          "four.",
+          "Flooding",
+          "in",
+          "six."
+        ]
+      },
+      "extraHold": 18,
+      "tone": "shock"
+    },
+    {
+      "id": "d4",
+      "text": "Captain Stanley Lord, on the Californian, was woken twice that night about strange lights, and rockets, in the distance. Asked later what color they were, he testified, quote, I do not know. I was asleep.",
+      "img": "lord_californian",
+      "stat": "“I was asleep.”",
+      "cap": "Woken twice. Went back to sleep.",
+      "tone": "fear"
+    },
+    {
+      "id": "d5",
+      "text": "On board, the ship had lifeboat capacity for a little over half the people it carried that night. Some boats were lowered only partly full.",
+      "img": "titanic_deck",
+      "query": "Titanic lifeboat launched 1912",
+      "stat": "1,178 of 2,224",
+      "extraHold": 14,
+      "cap": "Some boats launched only partly full.",
+      "tone": "shock"
+    },
+    {
+      "id": "d6",
+      "text": "By two twenty in the morning, the ship was gone. Survival split sharply by class. Roughly ninety seven percent of first class women survived. Roughly a quarter of third class passengers, of either sex, did.",
+      "img": "titanic_deck",
+      "stat": "97% vs ~25%",
+      "cap": "Survival split sharply by class.",
+      "tone": "shock"
+    },
+    {
+      "id": "d7",
+      "text": "Before dawn, a Cunard liner called the Carpathia reached the lifeboats and picked up just over seven hundred survivors. This is that actual ship, real footage, filmed steaming toward them that same night.",
+      "video": "carpathia_1.mp4",
+      "videoQuery": "RMS Carpathia ship archival footage 1912",
+      "stat": "~705 survivors",
+      "cap": "The Carpathia reached them before dawn.",
+      "tone": "confidence"
+    },
+    {
+      "id": "d8",
+      "text": "Neither official inquiry ever formally investigated why the survival gap by class was so wide. The disparity is documented. Its exact cause, to this day, was never formally settled by either government.",
+      "img": "senate_hearing",
+      "cap": "The gap is documented. The cause was never settled.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d9",
+      "text": "Casualty counts still differ by source, from around fourteen hundred ninety, to fifteen hundred seventeen. Even the death toll, both governments could not fully agree on.",
+      "img": "titanic_deck",
+      "stat": "1,490–1,517",
+      "cap": "Even the death toll, they couldn't agree on.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "d10",
+      "text": "Days later, a real recovery ship, the Mackay-Bennett, left Halifax and searched the water where the wreckage had drifted, for the dead the lifeboats never reached.",
+      "video": "mackaybennett_1.mp4",
+      "videoQuery": "Mackay-Bennett ship archival footage 1912",
+      "cap": "A real recovery ship, searching for the dead.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c4",
+      "chapter": "4 — TWO GOVERNMENTS\nTWO VERDICTS",
+      "text": "Chapter four. Two governments. Two verdicts."
+    },
+    {
+      "id": "e1",
+      "text": "Within days, the United States Senate opened its own inquiry. Weeks later, so did the British government, in what's known as the Wreck Commissioner's inquiry. Both are real documents. Both still exist.",
+      "img": "senate_hearing",
+      "query": "US Senate Titanic inquiry Bruce Ismay testifying 1912",
+      "cap": "Two real inquiries. Both still exist today.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e2",
+      "text": "This is the British report. Its actual verdict on the ship's captain was not guilty of negligence, because he was simply following the accepted practice of the time. But the inquiry condemned that practice itself.",
+      "img": "ex_mersey",
+      "highlight": [
+        0.06,
+        0.275,
+        0.88,
+        0.04
+      ],
+      "exhibit": true,
+      "source": "British Wreck Commissioner's Inquiry, Final Report, 1912, p.41",
+      "cap": "Not negligent. But the practice itself was condemned.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e3",
+      "text": "The American inquiry reached a harsher verdict on the same captain. His own indifference to danger, the Senate report concluded, was one of the direct causes of what it called an unnecessary tragedy.",
+      "img": "senate_hearing",
+      "stat": "“Indifference to danger”",
+      "cap": "A harsher verdict, from the other government.",
+      "tone": "shock"
+    },
+    {
+      "id": "e4",
+      "text": "Two governments studied the same man, on the same night, and reached two different verdicts.",
+      "kinetic": {
+        "words": [
+          "Same",
+          "night.",
+          "Same",
+          "man.",
+          "Two",
+          "verdicts."
+        ]
+      },
+      "extraHold": 18,
+      "tone": "curiosity"
+    },
+    {
+      "id": "e5",
+      "text": "Then there is the Californian. The British report's real finding was specific: that ship, it concluded, could have pushed through the ice to open water, and might have saved many, if not all, of the lives that were lost.",
+      "img": "ex_mersey",
+      "highlight": [
+        0.06,
+        0.585,
+        0.88,
+        0.07
+      ],
+      "exhibit": true,
+      "source": "British Wreck Commissioner's Inquiry, Final Report, 1912, p.60",
+      "stat": "“Might have saved... all”",
+      "cap": "The British verdict on the Californian.",
+      "tone": "shock"
+    },
+    {
+      "id": "e6",
+      "text": "The American inquiry went further, recommending, quote, drastic action against that ship's captain.",
+      "img": "senate_hearing",
+      "stat": "“Drastic action”",
+      "cap": "“Drastic action.”",
+      "tone": "shock"
+    },
+    {
+      "id": "e7",
+      "text": "That captain spent the rest of his life disputing it. He died in nineteen sixty two, still fighting to clear his name. Two separate petitions to reopen the case, in nineteen sixty five and nineteen sixty eight, were both rejected.",
+      "img": "lord_californian",
+      "extraHold": 14,
+      "cap": "Fought to clear his name until he died.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e8",
+      "text": "Researchers still argue about it today. Some maintain a third, unidentified ship was sitting between the two vessels that night, and that the Californian was never as close as either inquiry concluded. That theory is disputed, not settled, and it belongs to the people who argue it, not to this report.",
+      "img": "senate_hearing",
+      "cap": "Still disputed by researchers today.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e9",
+      "text": "The ship's owner faced his own verdict, in the newspapers rather than either report. He survived by boarding a lifeboat, and the press spent years calling him a coward for it. His own testimony says he helped load others nearby, first.",
+      "img": "ismay_warning",
+      "cap": "Convicted by the newspapers, not by either inquiry.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e10",
+      "text": "Neither official government report ever called him a coward. That verdict belonged to the newspapers, not to either investigation.",
+      "kinetic": {
+        "words": [
+          "Not",
+          "the",
+          "government's",
+          "verdict.",
+          "The",
+          "public's."
+        ]
+      },
+      "extraHold": 16,
+      "tone": "curiosity"
+    },
+    {
+      "id": "c5",
+      "chapter": "5 — WHAT CHANGED\nBECAUSE OF THIS SHIP",
+      "text": "Chapter five. What changed, because of this ship."
+    },
+    {
+      "id": "f1",
+      "text": "Both reports agreed on enough to force real change. Within two years, thirteen nations signed the first international treaty on safety at sea.",
+      "img": "senate_hearing",
+      "query": "international treaty document signing early 1900s",
+      "stock": true,
+      "stat": "13 nations, 1914",
+      "cap": "Thirteen nations. One new treaty.",
+      "tone": "awe"
+    },
+    {
+      "id": "f2",
+      "text": "Every ship, from then on, had to carry enough lifeboats for every person aboard, regardless of its tonnage. Every ship had to keep its radio staffed around the clock. And a new ice patrol was created, to track icebergs in the shipping lanes, permanently.",
+      "img": "titanic_deck",
+      "extraHold": 14,
+      "cap": "Lifeboats for everyone. Radios, staffed always.",
+      "tone": "awe"
+    },
+    {
+      "id": "f3",
+      "text": "The wireless operator who cut off that final warning died in the sinking. The one who sent it survived, avoided the spotlight for the rest of his life, and died quietly in nineteen fifty six.",
+      "img": "titanic_dock",
+      "cap": "One operator died. The other lived quietly.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "f4",
+      "text": "The ship's owner lived another twenty five years, largely out of public life. The Californian's captain spent his final years still fighting the finding against him.",
+      "img": "ismay_warning",
+      "cap": "One retreated from public life. One kept fighting.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "f5",
+      "text": "The wreck itself was not found for another seventy three years, until nineteen eighty five, during what was, at the time, a secret American Navy mission.",
+      "img": "senate_hearing",
+      "stat": "1985",
+      "cap": "Found 73 years later.",
+      "tone": "awe"
+    },
+    {
+      "id": "f6",
+      "text": "A submersible dove to that same wreck in twenty twenty three, and never came back. This channel has already told that story in full.",
+      "img": "titanic_dock",
+      "cap": "A different disaster, at the same site, decades later.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f7",
+      "text": "A famous film, decades later, gave the world its picture of this night. Its own director has said he made it as accurate as he could, at the time. But even that film never puts the two governments' real, conflicting verdicts on screen.",
+      "img": "movie_reel",
+      "query": "vintage film reel clapperboard cinema",
+      "stock": true,
+      "cap": "Even the film leaves out the part where they disagreed.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f8",
+      "text": "A hundred and fourteen years later, both reports are still public record. Both are still available to read. And on the question of who could have been saved, they still do not agree.",
+      "img": "senate_hearing",
+      "extraHold": 16,
+      "cap": "Still public. Still disagreeing.",
+      "tone": "confidence"
+    },
+    {
+      "id": "coda1",
+      "text": "What stays with me here isn't the iceberg. It's that a ship carrying more lifeboats than the law demanded still didn't have enough of them.",
+      "img": "titanic_deck",
+      "cap": "More boats than required. Still not enough.",
+      "tone": "confidence"
+    },
+    {
+      "id": "coda2",
+      "text": "And that two governments investigated the same night, read the same testimony, and still walked away with different answers.",
+      "img": "senate_hearing",
+      "cap": "Same night. Same testimony. Different answers.",
+      "tone": "confidence"
+    },
+    {
+      "id": "coda3",
+      "text": "A hundred and fourteen years is a long time for a verdict to still be disputed. This one still is.",
+      "img": "titanic_dock",
+      "extraHold": 18,
+      "cap": "Still disputed, after all this time.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "end",
+      "chapter": "SUBSCRIBE",
+      "text": "If two governments quietly disagreeing on the same disaster got you, wait until you see how the official Chernobyl report reversed its own verdict six years after the fact. Subscribe to Black Box Breakdown."
+    }
+  ]
+}

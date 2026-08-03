@@ -1,0 +1,464 @@
+1
+00:00:00,333 --> 00:00:05,125
+January fifteenth, two thousand nine. New York Tracon, Westbury, New York.
+
+2
+00:00:05,125 --> 00:00:10,353
+Air traffic controller Patrick Harten slides into the LaGuardia departure radar seat.
+
+3
+00:00:10,353 --> 00:00:12,532
+Three twelve in the afternoon.
+
+4
+00:00:13,666 --> 00:00:19,465
+Fifteen quiet minutes into his shift, his radio crackles with three words no controller ever wants to hear.
+
+5
+00:00:20,599 --> 00:00:42,099
+What you're about to hear is the real recording, from that exact console, at that exact minute.
+
+6
+00:00:43,233 --> 00:00:48,954
+For the next few minutes, a pilot Harten has never met tells him, calmly, that both engines are gone.
+
+7
+00:00:50,100 --> 00:00:53,276
+"People don't survive landings on the Hudson River," Harten said later.
+
+8
+00:00:53,276 --> 00:00:55,585
+"I thought it was his own death sentence."
+
+9
+00:00:56,733 --> 00:01:02,219
+For the next thirty minutes, Patrick Harten believed he had just listened to a plane full of people die.
+
+10
+00:01:03,366 --> 00:01:07,728
+He was wrong. This is what actually happened, in the three minutes in between.
+
+11
+00:01:08,866 --> 00:01:10,904
+You're watching Black Box Breakdown.
+
+12
+00:01:12,033 --> 00:01:15,664
+Miracle on the Hudson. What the black box actually recorded.
+
+13
+00:01:16,799 --> 00:01:18,993
+Chapter one. An ordinary day.
+
+14
+00:01:20,133 --> 00:01:21,813
+LaGuardia Airport, New York.
+
+15
+00:01:21,813 --> 00:01:27,272
+US Airways flight fifteen forty-nine, an A three twenty, is bound for Charlotte.
+
+16
+00:01:27,272 --> 00:01:31,052
+Nothing about the morning suggests it will be remembered.
+
+17
+00:01:32,199 --> 00:01:36,116
+By two thousand nine, US Airways had one name and one operating certificate.
+
+18
+00:01:36,116 --> 00:01:45,756
+But its pilots were still fighting over whose seniority actually counted, a labor war that had nothing to do with this flight, and everything to do with who was in this cockpit.
+
+19
+00:01:46,899 --> 00:01:50,019
+In the left seat: Captain Chesley Sullenberger, fifty seven.
+
+20
+00:01:50,019 --> 00:02:01,110
+A former Air Force fighter pilot, a glider instructor since his first year at the Academy, twenty nine years into an airline career that started before some of his passengers were born.
+
+21
+00:02:02,233 --> 00:02:05,660
+In the right seat: First Officer Jeffrey Skiles, forty nine.
+
+22
+00:02:05,660 --> 00:02:13,884
+He'd actually been a captain, on other aircraft, before the industry gutted itself after September eleventh and bumped him back down to first officer.
+
+23
+00:02:15,033 --> 00:02:19,304
+Skiles had gotten his rating on this exact aircraft two weeks earlier.
+
+24
+00:02:19,304 --> 00:02:21,083
+Thirty seven hours in type.
+
+25
+00:02:21,083 --> 00:02:26,422
+This was, in fact, the very first trip he and Sullenberger had ever flown together.
+
+26
+00:02:27,566 --> 00:02:30,994
+One hundred fifty passengers board. A lap-held infant among them.
+
+27
+00:02:30,994 --> 00:02:36,478
+Three flight attendants: Doreen Welsh, thirty eight years in the job, working alone at the rear.
+
+28
+00:02:36,478 --> 00:02:38,877
+Sheila Dail and Donna Dent up front.
+
+29
+00:02:40,000 --> 00:02:43,095
+This is the real recording of that departure. Nothing unusual.
+
+30
+00:02:43,095 --> 00:02:46,500
+Just a tower controller, clearing one more flight off the runway.
+
+31
+00:02:47,633 --> 00:02:52,018
+Three twenty four PM. Cleared for takeoff, runway four. The climb is smooth.
+
+32
+00:02:52,018 --> 00:02:59,440
+Nothing about it has ever been recorded as remarkable, in any of the thousands of flights that leave LaGuardia every single day.
+
+33
+00:03:00,566 --> 00:03:02,212
+Chapter two. The birds.
+
+34
+00:03:03,333 --> 00:03:09,379
+Two minutes after takeoff, at two thousand eight hundred and eighteen feet, the captain says one word on the recorder.
+
+35
+00:03:09,379 --> 00:03:09,681
+Birds.
+
+36
+00:03:10,800 --> 00:03:16,918
+A flock of Canada geese, later confirmed by DNA analysis, goes straight into both engines.
+
+37
+00:03:16,918 --> 00:03:21,406
+Fan speed. Core speed. Both collapsing, within seconds of each other.
+
+38
+00:03:22,533 --> 00:03:27,376
+In the cockpit, Sullenberger takes the controls from Skiles. "My aircraft," he says.
+
+39
+00:03:27,376 --> 00:03:35,945
+Skiles starts running the checklist for a dual engine failure, a procedure almost no airline crew has ever had to use for real.
+
+40
+00:03:37,066 --> 00:04:22,066
+This is that same real recording again. Listen to how fast the calm breaks.
+
+41
+00:04:23,199 --> 00:04:27,141
+Mayday, mayday, mayday. This is Cactus fifteen thirty-nine. Hit birds.
+
+42
+00:04:27,141 --> 00:04:31,477
+We've lost thrust in both engines. We're turning back towards LaGuardia.
+
+43
+00:04:31,477 --> 00:04:36,600
+Under the stress of the moment, he even misstates his own flight number.
+
+44
+00:04:37,733 --> 00:04:59,733
+Harten offers him LaGuardia's runway thirteen. Then thirty one. Then four.
+
+45
+00:04:59,733 --> 00:05:13,733
+Real audio, again, the same call continuing.
+
+46
+00:05:14,866 --> 00:05:16,991
+"Unable." Each time, the same word.
+
+47
+00:05:16,991 --> 00:05:21,594
+A jet with no engines does not turn around and land like normal.
+
+48
+00:05:21,594 --> 00:05:24,427
+Every option Harten offers, Sullenberger has to refuse.
+
+49
+00:05:25,566 --> 00:05:29,772
+Then Sullenberger says the sentence that ends the search for a runway completely.
+
+50
+00:05:30,899 --> 00:05:50,664
+"We may end up in the Hudson." He asks about Teterboro, in New Jersey.
+
+51
+00:05:50,664 --> 00:05:57,723
+Harten clears him toward it.
+
+52
+00:05:57,723 --> 00:06:18,899
+And then, seconds later, the real recording catches the moment radar loses the aircraft completely.
+
+53
+00:06:20,033 --> 00:06:21,992
+Chapter three. The decision.
+
+54
+00:06:23,133 --> 00:06:25,311
+Sullenberger later called it 208 seconds.
+
+55
+00:06:25,311 --> 00:06:31,484
+From bird strike to committing to the river, the report's own timestamps put it closer to 213.
+
+56
+00:06:31,484 --> 00:06:37,657
+Either way: under four minutes to decide, correctly, with a plane full of people, and be right.
+
+57
+00:06:38,800 --> 00:06:41,170
+No engines. No runway close enough.
+
+58
+00:06:41,170 --> 00:06:48,281
+A glider instructor's entire second career had, without either of them knowing it, been training for exactly this.
+
+59
+00:06:49,400 --> 00:06:56,278
+Skiles is still running the dual-engine checklist, a procedure built for altitude, not for a jet with three minutes left in the air.
+
+60
+00:06:56,278 --> 00:06:58,073
+There isn't time to finish it.
+
+61
+00:06:59,200 --> 00:07:01,124
+The last words on the recorder.
+
+62
+00:07:01,124 --> 00:07:06,898
+Both men, together, bracing a plane full of strangers for a landing neither has ever practiced for real.
+
+63
+00:07:08,033 --> 00:07:09,914
+Chapter four. The Hudson.
+
+64
+00:07:11,033 --> 00:07:17,568
+About eight and a half miles from LaGuardia, the airplane touches down on the Hudson River.
+
+65
+00:07:17,568 --> 00:07:20,836
+Air temperature: nineteen degrees. Water temperature: forty one.
+
+66
+00:07:20,836 --> 00:07:24,512
+Cold enough to kill, on its own, in minutes.
+
+67
+00:07:25,633 --> 00:07:31,045
+All one hundred fifty five people aboard evacuate onto the wings, and into the slide-rafts.
+
+68
+00:07:31,045 --> 00:07:33,571
+Structural debris tears into the rear cabin.
+
+69
+00:07:33,571 --> 00:07:37,179
+Flight attendant Doreen Welsh, alone back there, is seriously hurt.
+
+70
+00:07:38,300 --> 00:07:43,004
+She kept directing passengers toward the exits as the water rose around her feet.
+
+71
+00:07:43,004 --> 00:07:45,693
+She evacuated last, after everyone else was off.
+
+72
+00:07:46,833 --> 00:07:52,219
+The final tally, from the official investigation: one hundred fifty five aboard.
+
+73
+00:07:52,219 --> 00:07:56,707
+Five seriously injured. Ninety five with minor injuries. Zero dead.
+
+74
+00:07:57,833 --> 00:07:59,871
+Chapter five. The rescue.
+
+75
+00:08:01,000 --> 00:08:02,494
+This is real footage.
+
+76
+00:08:02,494 --> 00:08:10,717
+A US Coast Guard harbor camera, running that exact afternoon, catching the plane itself, down in the river, minutes after the ditching.
+
+77
+00:08:11,866 --> 00:08:16,291
+The ferry Thomas Jefferson, captained by Vincent Lombardi, is already crossing the river.
+
+78
+00:08:16,291 --> 00:08:20,036
+He reaches the plane in roughly three and a half minutes.
+
+79
+00:08:20,036 --> 00:08:23,099
+Before he even arrives, he warns his own crew.
+
+80
+00:08:24,233 --> 00:08:29,562
+"I saw people walking out from the plane," Lombardi said, "and it kind of looked like they were walking on water."
+
+81
+00:08:30,700 --> 00:08:32,374
+Fourteen NY Waterway ferries respond.
+
+82
+00:08:32,374 --> 00:08:37,399
+Between them, they pull roughly one hundred forty three people out of the freezing river.
+
+83
+00:08:37,399 --> 00:08:42,089
+The Coast Guard and FDNY get the rest. All one hundred fifty five, alive.
+
+84
+00:08:43,233 --> 00:08:45,741
+Chapter six. No verdict needed.
+
+85
+00:08:46,866 --> 00:08:48,872
+Investigators needed the aircraft itself.
+
+86
+00:08:48,872 --> 00:08:56,897
+Days later, real US Coast Guard footage shows the actual airframe, lifted from the river at night, headed for examination.
+
+87
+00:08:58,033 --> 00:09:08,952
+The National Transportation Safety Board's official finding: the ingestion of large birds into each engine, resulting in an almost total loss of thrust, and the subsequent ditching on the Hudson River.
+
+88
+00:09:10,100 --> 00:09:15,096
+Here's what almost never happens after a US air disaster. Not one passenger.
+
+89
+00:09:15,096 --> 00:09:16,634
+Not one crew member.
+
+90
+00:09:16,634 --> 00:09:20,862
+Sued the airline, or the plane's manufacturer, over the accident itself.
+
+91
+00:09:22,000 --> 00:09:32,919
+An aviation attorney who specializes in exactly these cases called the total absence of litigation "amazing." There was no death, and very little to argue was anyone's fault.
+
+92
+00:09:34,066 --> 00:09:36,535
+The Board issued thirty four safety recommendations.
+
+93
+00:09:36,535 --> 00:09:44,293
+Engines now have to prove they can survive bird strikes at low, reduced-power speeds, exactly the scenario that brought this plane down.
+
+94
+00:09:44,293 --> 00:09:47,467
+That rule took the FAA fourteen years to finalize.
+
+95
+00:09:48,600 --> 00:09:51,544
+Around New York's airports, wildlife-management programs expanded.
+
+96
+00:09:51,544 --> 00:10:00,799
+Over seventy thousand birds removed from the area in the years since, an unglamorous, ongoing consequence of three minutes over the Hudson.
+
+97
+00:10:01,933 --> 00:10:04,049
+Chapter seven. Where they are now.
+
+98
+00:10:05,166 --> 00:10:09,117
+Sullenberger retired from the airline in twenty ten, after thirty years.
+
+99
+00:10:09,117 --> 00:10:18,097
+He later served briefly as America's ambassador to the International Civil Aviation Organization, and has spent years since as a public voice for aviation safety.
+
+100
+00:10:19,233 --> 00:10:30,962
+Skiles, the first officer with thirty seven hours in that cockpit, went on to represent tens of thousands of pilots on safety policy, and only retired in twenty twenty four, fifteen years after that flight.
+
+101
+00:10:32,100 --> 00:10:41,157
+Doreen Welsh, hurt in the rear cabin, made that flight her last before retiring, and has spoken openly since about living with the fear it left behind.
+
+102
+00:10:41,157 --> 00:10:44,848
+Sheila Dail retired exactly ten years later, on the anniversary itself.
+
+103
+00:10:45,966 --> 00:10:51,782
+Patrick Harten, the man who spent thirty minutes believing he'd heard everyone die, eventually left the FAA too.
+
+104
+00:10:51,782 --> 00:10:58,243
+His own account of that afternoon is now part of the public record, in his own sworn words to Congress.
+
+105
+00:10:59,366 --> 00:11:13,159
+As recently as this year, one of the passengers aboard that day was still speaking publicly, fighting alongside flight attendants for stronger cabin-crew staffing rules, and naming Welsh, Dail, and Dent by name as the reason she survived.
+
+106
+00:11:14,300 --> 00:11:23,208
+And the aircraft itself, the actual airframe that carried all one hundred fifty five of them onto that river, has sat on public display in a Charlotte museum since twenty eleven.
+
+107
+00:11:24,333 --> 00:11:28,042
+What stays with me about this one isn't the landing. It's Patrick Harten.
+
+108
+00:11:29,166 --> 00:11:35,671
+Thirty minutes believing he'd just listened to a plane full of strangers die, before a colleague finally told him: they survived.
+
+109
+00:11:35,671 --> 00:11:40,007
+He didn't believe it, until he turned on a television and saw it himself.
+
+110
+00:11:41,133 --> 00:11:45,558
+Every other story on this channel ends with an investigation finding someone to blame.
+
+111
+00:11:45,558 --> 00:11:47,138
+This one didn't need to.
+
+112
+00:11:47,138 --> 00:11:50,615
+Two tired men, a checklist, and three minutes, were simply enough.
+
+113
+00:11:51,733 --> 00:11:54,019
+One hundred fifty five people walked away.
+
+114
+00:11:54,019 --> 00:11:58,264
+The aircraft that carried them never flew again. It still sits in Charlotte.
+
+115
+00:11:59,400 --> 00:12:07,354
+If a crew that got everything right pulled you in, wait until you see one that got almost everything wrong, our video on Colgan Air thirty four oh seven.
+
+116
+00:12:07,354 --> 00:12:08,726
+Subscribe to Black Box Breakdown.
+

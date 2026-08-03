@@ -23,6 +23,7 @@ import { NeetWide, neetTotalFrames } from "./dimaagbatti/NeetWide";
 import { NeetThumb } from "./dimaagbatti/NeetThumb";
 import { WW2Wide, ww2TotalFrames } from "./dimaagbatti/WW2Wide";
 import { makeDocComp, docTotalFrames } from "./mindwired-doc/DocWide";
+import { SupporterSpotlight } from "./mindwired-doc/SupporterSpotlight";
 import spaceDeathsDoc from "./mindwired-doc/docs/spacedeaths.json";
 import spaceDeathsManifest from "./mindwired-doc/docs/spacedeaths.manifest.json";
 import ww2EpicEnDoc from "./mindwired-doc/docs/ww2epic-en.json";
@@ -47,6 +48,8 @@ import mh370thManifest from "./mindwired-doc/docs/mh370theories.manifest.json";
 import moonSellerDoc from "./mindwired-doc/docs/moonseller.json";
 import moonSellerManifest from "./mindwired-doc/docs/moonseller.manifest.json";
 import hostilePlanetsDoc from "./mindwired-doc/docs/hostileplanets.json";
+import sleepSpaceFactsDoc from "./mindwired-doc/docs/sleepspacefacts.json";
+import sleepSpaceFactsManifest from "./mindwired-doc/docs/sleepspacefacts.manifest.json";
 import hostilePlanetsManifest from "./mindwired-doc/docs/hostileplanets.manifest.json";
 import marsOneDoc from "./mindwired-doc/docs/marsone.json";
 import marsOneManifest from "./mindwired-doc/docs/marsone.manifest.json";
@@ -63,6 +66,27 @@ import us1549Manifest from "./mindwired-doc/docs/us1549.manifest.json";
 import nasaufofilesDoc from "./mindwired-doc/docs/nasaufofiles.json";
 import nasaufofilesManifest from "./mindwired-doc/docs/nasaufofiles.manifest.json";
 import { NasaUfoFilesThumbnail } from "./mindwired-doc/NasaUfoFilesThumbnail";
+import mh370netflixDoc from "./mindwired-doc/docs/mh370netflix.json";
+import mh370netflixManifest from "./mindwired-doc/docs/mh370netflix.manifest.json";
+import astronautsScaredDoc from "./mindwired-doc/docs/astronautsscared.json";
+import astronautsScaredManifest from "./mindwired-doc/docs/astronautsscared.manifest.json";
+import issInsideDoc from "./mindwired-doc/docs/issinside.json";
+import issInsideManifest from "./mindwired-doc/docs/issinside.manifest.json";
+import { RainStream, LOOP_SEC as RAIN_LOOP_SEC } from "./rainstream/RainStream";
+import { RainShort } from "./rainstream/RainShort";
+
+/** Vertical Shorts feeding the 24/7 rain stream — Shorts bypass channel
+ *  authority, so they're the cold-start mechanism for the live. */
+const RAIN_SHORTS = [
+  { id: "RainShortNebula", plate: "rain/plates/nebula.png",
+    hook: "rain, 250 miles above earth", sub: "24/7 · sleep · study" },
+  { id: "RainShortEarth", plate: "rain/plates/earthlimb.png",
+    hook: "it's raining on the window", sub: "and that's earth below" },
+  { id: "RainShortRings", plate: "rain/plates/ringed_planet.png",
+    hook: "8 hours of rain in deep space", sub: "for sleep · for focus" },
+  { id: "RainShortStars", plate: "rain/plates/deepstars.png",
+    hook: "can't sleep? try this", sub: "rain · 24/7 · no ads mid-sleep" },
+] as const;
 // Subscribe outro baked into the render (ONE render, no ffmpeg concat). frames @30fps.
 const BB_OUTRO = { file: "outro/subscribe_blackbox_long.mp4", frames: 483 };
 const MW_OUTRO = { file: "outro/subscribe_mindwired_long.mp4", frames: 527 };
@@ -76,8 +100,18 @@ import tenerifeDoc from "./mindwired-doc/docs/tenerife.json";
 import tenerifeManifest from "./mindwired-doc/docs/tenerife.manifest.json";
 import blackboxAnatomyDoc from "./mindwired-doc/docs/blackboxanatomy.json";
 import blackboxAnatomyManifest from "./mindwired-doc/docs/blackboxanatomy.manifest.json";
+import chernobylDoc from "./mindwired-doc/docs/chernobyl.json";
+import chernobylManifest from "./mindwired-doc/docs/chernobyl.manifest.json";
+import titanicDoc from "./mindwired-doc/docs/titanic.json";
+import titanicManifest from "./mindwired-doc/docs/titanic.manifest.json";
 import ai171Doc from "./mindwired-doc/docs/ai171.json";
 import ai171Manifest from "./mindwired-doc/docs/ai171.manifest.json";
+import helios522Doc from "./mindwired-doc/docs/helios522.json";
+import helios522Manifest from "./mindwired-doc/docs/helios522.manifest.json";
+import jal123Doc from "./mindwired-doc/docs/jal123.json";
+import jal123Manifest from "./mindwired-doc/docs/jal123.manifest.json";
+import unexplainedobjectsDoc from "./mindwired-doc/docs/unexplainedobjects.json";
+import unexplainedobjectsManifest from "./mindwired-doc/docs/unexplainedobjects.manifest.json";
 import almostDiedHiDoc from "./mindwired-doc/docs/almostdied-hi.json";
 import almostDiedHiManifest from "./mindwired-doc/docs/almostdied-hi.manifest.json";
 import sansadchaloDoc from "./mindwired-doc/docs/sansadchalo.json";
@@ -300,6 +334,8 @@ import { CodewiredSubagentsThumb, CodewiredMcpThumb, CodewiredSkillsThumb, Codew
 import { CodewiredMcpVideo, mcpTotalFrames } from "./codewired/mcp/Video";
 import { CodewiredSkillsVideo, skillsTotalFrames } from "./codewired/skills/Video";
 import { CodewiredFlagshipVideo, flagshipTotalFrames } from "./codewired/flagship/Video";
+import { CodewiredPodcastVideo, codewiredPodcastTotalFrames } from "./codewired/podcast/Video";
+import podcastTurnsJson from "../public/codewired/podcast/turns.json";
 
 const roguebhPlan = roguebhPlanJson as unknown as VisualPlan;
 const roguebhManifest = roguebhManifestJson as unknown as ShortManifest;
@@ -1212,6 +1248,79 @@ export const RemotionRoot: React.FC = () => {
         height={1080}
       />
 
+      <Composition
+        id="AstronautsScaredDoc"
+        component={makeDocComp(astronautsScaredDoc, astronautsScaredManifest, MW_OUTRO)}
+        durationInFrames={docTotalFrames(astronautsScaredDoc, astronautsScaredManifest, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── mindwired — vertical Shorts funnelling to the 24/7 rain live ── */}
+      {RAIN_SHORTS.map((s) => (
+        <Composition
+          key={s.id}
+          id={s.id}
+          component={RainShort}
+          durationInFrames={8 * 30}
+          fps={30}
+          width={1080}
+          height={1920}
+          defaultProps={{ plate: s.plate, hook: s.hook, sub: s.sub }}
+        />
+      ))}
+
+      {/* ── mindwired — 24/7 space-rain sleep stream visual (seamless 60s loop) ── */}
+      <Composition
+        id="RainStreamLoop"
+        component={RainStream}
+        durationInFrames={RAIN_LOOP_SEC * 30}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── mindwired — Inside the $150 Billion Space Station (ISS deep-dive, MW outro baked) ── */}
+      <Composition
+        id="IssInsideDoc"
+        component={makeDocComp(issInsideDoc, issInsideManifest, MW_OUTRO)}
+        durationInFrames={docTotalFrames(issInsideDoc, issInsideManifest, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── mindwired — Real Space Facts to Fall Asleep To Vol. 1 (24/7-stream pilot, MW outro baked) ── */}
+      <Composition
+        id="SleepSpaceFactsDoc"
+        component={makeDocComp(sleepSpaceFactsDoc, sleepSpaceFactsManifest, MW_OUTRO)}
+        durationInFrames={docTotalFrames(sleepSpaceFactsDoc, sleepSpaceFactsManifest, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Supporter Spotlight — live Super Chat/Gift overlay card (design preview, single still) ── */}
+      <Composition
+        id="SupporterSpotlightPreview"
+        component={SupporterSpotlight}
+        durationInFrames={1}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── mindwired — Objects Astronomers Can't Explain (MW subscribe outro baked) ── */}
+      <Composition
+        id="UnexplainedObjectsDoc"
+        component={makeDocComp(unexplainedobjectsDoc, unexplainedobjectsManifest, MW_OUTRO)}
+        durationInFrames={docTotalFrames(unexplainedobjectsDoc, unexplainedobjectsManifest, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
       {/* ── Black Box Breakdown — United 93 (Evidence Engine: real Commission-Report
              exhibits + gender-matched phone-call/CVR voice recreations; BB subscribe
              outro baked) ── */}
@@ -1253,6 +1362,25 @@ export const RemotionRoot: React.FC = () => {
         id="US1549Doc"
         component={makeDocComp(us1549Doc, us1549Manifest, BB_OUTRO)}
         durationInFrames={docTotalFrames(us1549Doc, us1549Manifest, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Black Box Breakdown — MH370 video #3, fact-checking Netflix's 2023
+             "MH370: The Plane That Disappeared" (Icahn: icahn-mh370-netflix-
+             reaction, PASS-WITH-CONDITIONS). Differentiated from Videos 1-2
+             (disappearance timeline + full 8-theory roster, already shipped):
+             per-episode claim-vs-record chapters, a dedicated "what Netflix
+             got wrong" meta-chapter, the glide-vs-dive BFO/descent-rate math
+             (Holland IEEE 2017 exhibit), and the 2025-2026 present tense.
+             Zaharie pilot-theory framing: official record affirmatively found
+             nothing supporting it — never asserted as fact. BB subscribe
+             outro baked. ── */}
+      <Composition
+        id="MH370NetflixDoc"
+        component={makeDocComp(mh370netflixDoc, mh370netflixManifest, BB_OUTRO)}
+        durationInFrames={docTotalFrames(mh370netflixDoc, mh370netflixManifest, BB_OUTRO)}
         fps={30}
         width={1920}
         height={1080}
@@ -1307,6 +1435,46 @@ export const RemotionRoot: React.FC = () => {
         id="Ai171Doc"
         component={makeDocComp(ai171Doc, ai171Manifest, BB_OUTRO)}
         durationInFrames={docTotalFrames(ai171Doc, ai171Manifest, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Black Box Breakdown — Japan Airlines 123 (BB subscribe outro baked) ── */}
+      <Composition
+        id="Jal123Doc"
+        component={makeDocComp(jal123Doc, jal123Manifest, BB_OUTRO)}
+        durationInFrames={docTotalFrames(jal123Doc, jal123Manifest, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Black Box Breakdown — Helios 522: the plane that flew itself (BB outro baked) ── */}
+      <Composition
+        id="Helios522Doc"
+        component={makeDocComp(helios522Doc, helios522Manifest, BB_OUTRO)}
+        durationInFrames={docTotalFrames(helios522Doc, helios522Manifest, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Black Box Breakdown — Chernobyl: the official report vs. the show (BB outro baked) ── */}
+      <Composition
+        id="ChernobylDoc"
+        component={makeDocComp(chernobylDoc, chernobylManifest, BB_OUTRO)}
+        durationInFrames={docTotalFrames(chernobylDoc, chernobylManifest, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Black Box Breakdown — Titanic: the verdict two governments couldn't agree on (BB outro baked) ── */}
+      <Composition
+        id="TitanicDoc"
+        component={makeDocComp(titanicDoc, titanicManifest, BB_OUTRO)}
+        durationInFrames={docTotalFrames(titanicDoc, titanicManifest, BB_OUTRO)}
         fps={30}
         width={1920}
         height={1080}
@@ -1600,6 +1768,13 @@ export const RemotionRoot: React.FC = () => {
         durationInFrames={skillsTotalFrames()}
         fps={30} width={1920} height={1080}
       />
+      {/* ── codewired — two-host podcast engine (prototype episode 1) ── */}
+      <Composition
+        id="CodewiredPodcast"
+        component={CodewiredPodcastVideo}
+        durationInFrames={codewiredPodcastTotalFrames(podcastTurnsJson as any)}
+        fps={30} width={1920} height={1080}
+      />
       <Composition
         id="CodewiredMcp"
         component={CodewiredMcpVideo}
@@ -1661,6 +1836,35 @@ export const RemotionRoot: React.FC = () => {
         durationInFrames={blackBoxShortFrames({ startId: "e1", endId: "e4", doc: blackboxAnatomyDoc as any, manifest: blackboxAnatomyManifest as any })}
         fps={30} width={1080} height={1920}
         defaultProps={{ startId: "e1", endId: "e4", hook: "2 years underwater.\nEvery byte\nsurvived.", cta: "The full black box\nbreakdown", slug: "blackboxanatomy", doc: blackboxAnatomyDoc as any, manifest: blackboxAnatomyManifest as any }}
+      />
+      {/* ── MH370 Netflix fact-check Shorts (contiguous self-contained windows) ── */}
+      <Composition
+        id="Mh370NetflixShort1"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "e8", endId: "e9", doc: mh370netflixDoc as any, manifest: mh370netflixManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "e8", endId: "e9", hook: "He wrote Netflix's\nhijack theory.\nNow he says it's wrong.", cta: "The full MH370\nfact-check", slug: "mh370netflix", doc: mh370netflixDoc as any, manifest: mh370netflixManifest as any }}
+      />
+      <Composition
+        id="Mh370NetflixShort2"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "g4", endId: "g6", doc: mh370netflixDoc as any, manifest: mh370netflixManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "g4", endId: "g6", hook: "The director doesn't\nbelieve her own\nNetflix series.", cta: "What Netflix's MH370\ndoc got wrong", slug: "mh370netflix", doc: mh370netflixDoc as any, manifest: mh370netflixManifest as any }}
+      />
+      <Composition
+        id="Mh370NetflixShort3"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "p2", endId: "p4", doc: mh370netflixDoc as any, manifest: mh370netflixManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "p2", endId: "p4", hook: "The black box\ndid the math.\nNobody was flying it.", cta: "The full MH370\nflight-recorder breakdown", slug: "mh370netflix", doc: mh370netflixDoc as any, manifest: mh370netflixManifest as any }}
+      />
+      <Composition
+        id="Mh370NetflixShort4"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "r8", endId: "r9", doc: mh370netflixDoc as any, manifest: mh370netflixManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "r8", endId: "r9", hook: "Same man.\n3 theories.\nStill no answer.", cta: "The full MH370\nfact-check", slug: "mh370netflix", doc: mh370netflixDoc as any, manifest: mh370netflixManifest as any }}
       />
       <Composition
         id="ColganShort1"

@@ -1,0 +1,870 @@
+{
+ "slug": "mh370netflix",
+ "title": "MH370: Fact-Checking the Netflix Documentary",
+ "channel": "blackbox",
+ "niche": "aviation",
+ "language": "en",
+ "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+ "scenes": [
+  {
+   "id": "h1",
+   "text": "March eighth, twenty twenty-three. A streaming service uploads three documentary episodes about a vanished airliner, timed to the ninth anniversary of the day it disappeared.",
+   "dossier": true,
+   "img": "streamdrop",
+   "query": "laptop screen glow dark room generic streaming",
+   "label": "MARCH 8, 2023",
+   "stat": "3 EPISODES · 1 MOMENT",
+   "cap": "March 8, 2023. All 3 episodes, at once.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "h2",
+   "text": "Inside those episodes, one man argues two completely different explanations for the same disappearance. In the first hour, the pilot did it. In the second, Russian hijackers did.",
+   "dossier": true,
+   "img": "wisebook",
+   "query": "MH370 conspiracy theory nonfiction book cover",
+   "label": "ONE MAN, TWO CONTRADICTORY THEORIES",
+   "cap": "One man. Two contradictory theories.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "h3",
+   "text": "Neither argument has held up.",
+   "video": "oceannight2_1.mp4",
+   "videoQuery": "dark ocean aerial night waves generic",
+   "statColor": "#FF4D4D",
+   "stat": "NEITHER HELD UP",
+   "cap": "Neither argument has held up.",
+   "tone": "tension"
+  },
+  {
+   "id": "h4",
+   "text": "Within days, the investigators who spent over a decade on this case are furious. And the director herself later admits, on the record, that she believes the plane is somewhere else entirely from what her own series just spent two and a half hours dramatizing.",
+   "video": "oceannight3_1.mp4",
+   "videoFrom": 0,
+   "statColor": "#FF9500",
+   "stat": "THE DIRECTOR'S OWN ADMISSION",
+   "cap": "The director doesn't believe her own show.",
+   "extraHold": 20,
+   "tone": "shock"
+  },
+  {
+   "id": "h5",
+   "text": "Millions of people now believe things about M-H three seven zero that the people who actually spent years searching for it say are simply wrong.",
+   "video": "oceannight2_1.mp4",
+   "videoFrom": 10,
+   "stat": "MILLIONS MISLED",
+   "cap": "Millions now believe things that aren't true.",
+   "tone": "tension"
+  },
+  {
+   "id": "h6",
+   "text": "This is what they got wrong. And this is what the actual flight recorder math says happened, in its final seconds — math neither of our first two M-H three seven zero videos has fully shown you.",
+   "video": "oceannight3_1.mp4",
+   "videoFrom": 3,
+   "cap": "What they got wrong. What the math says.",
+   "extraHold": 15,
+   "tone": "curiosity"
+  },
+  {
+   "id": "sting",
+   "sting": true,
+   "text": "You're watching Black Box Breakdown.",
+   "tone": "confidence"
+  },
+  {
+   "id": "title",
+   "chapter": "MH370:\nFACT-CHECKING THE\nNETFLIX DOCUMENTARY",
+   "text": "M-H three seven zero. Fact-checking the Netflix documentary.",
+   "img": "streamdrop",
+   "stock": true
+  },
+  {
+   "id": "c0",
+   "chapter": "1 — THE\nDOCUMENTARY",
+   "text": "Chapter one. The documentary.",
+   "img": "streamdrop",
+   "stock": true
+  },
+  {
+   "id": "c1_1",
+   "text": "March eighth, twenty twenty-three. Nine years to the day after the disappearance, a three-part documentary series drops, all at once: M-H three seven zero, The Plane That Disappeared.",
+   "dossier": true,
+   "img": "streamdrop",
+   "label": "MARCH 8, 2023 · 9 YEARS TO THE DAY",
+   "cap": "Nine years to the day. Three episodes.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "c1_2",
+   "text": "Each of the three episodes centers on one theory, and one on-camera champion. Episode one: the pilot did it. Episode two: Russian hijackers did. Episode three: the U.S. military shot it down, and covered it up.",
+   "kinetic": {
+    "count": 3,
+    "countLabel": "EPISODES · 3 THEORIES · 1 EACH"
+   },
+   "cap": "3 episodes. 3 theories. One each.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "c1_3",
+   "text": "Critics were split right down the middle. Professional reviewers rated it generally favorable. Ordinary viewers, watching those same three episodes, rated it generally unfavorable.",
+   "statColor": "#FF9500",
+   "stat": "CRITICS: FAVORABLE · VIEWERS: NOT",
+   "cap": "Critics liked it more than viewers did.",
+   "tone": "curiosity",
+   "img": "streamdrop",
+   "stock": true
+  },
+  {
+   "id": "c1_4",
+   "text": "David Mearns, a marine scientist who has spent years hunting shipwrecks, including this one, was blunt about it.",
+   "cap": "A shipwreck hunter's blunt reaction.",
+   "tone": "dread",
+   "img": "directoradmit",
+   "stock": true
+  },
+  {
+   "id": "c1_4b",
+   "diagram": "quote",
+   "arg": "The series is dominated by Jeff Wise and Florence de Changy — ridiculous and unsupported conspiracy theories.||DAVID MEARNS · SHIPWRECK HUNTER",
+   "text": "The series is dominated by two people spinning, in his words, ridiculous and unsupported conspiracy theories.",
+   "cap": "\"Ridiculous and unsupported conspiracy theories.\"",
+   "tone": "dread"
+  },
+  {
+   "id": "c1_5",
+   "diagram": "quote",
+   "arg": "Conspiracy, fabrication, manipulation, speculation, fantasy and theory — equal weight. Short on hard facts.||RICHARD GODFREY · INDEPENDENT MH370 INVESTIGATOR",
+   "text": "Richard Godfrey, one of the most cited independent investigators on this case, went further. The series gives conspiracy, fabrication, and fantasy the same weight as hard evidence, and short on hard facts and evidence.",
+   "cap": "\"Short on hard facts.\" — Richard Godfrey",
+   "tone": "dread"
+  },
+  {
+   "id": "c1_6",
+   "text": "And here is the detail that undercuts the entire series more than any critic could. Its own director, Louise Malkinson, has said publicly that she believes the plane is most likely sitting in the southern Indian Ocean — the one outcome her own show barely dramatizes at all.",
+   "dossier": true,
+   "img": "directoradmit",
+   "query": "documentary film set director interview generic",
+   "label": "THE DIRECTOR'S OWN ADMISSION",
+   "statColor": "#FF9500",
+   "stat": "\"MOST LIKELY... THE SOUTHERN INDIAN OCEAN\"",
+   "cap": "The director doesn't believe her own headline theories.",
+   "extraHold": 25,
+   "tone": "shock"
+  },
+  {
+   "id": "c1_7",
+   "text": "To be fair, not every review was a takedown. The Wall Street Journal called it a series where every convincing argument is followed by an equally convincing demolition of it. Even harsher critics praised episode one's minute-by-minute reconstruction of the disappearance itself.",
+   "cap": "Not every review was a takedown.",
+   "tone": "neutral",
+   "img": "directoradmit",
+   "stock": true
+  },
+  {
+   "id": "c1_8",
+   "text": "So before we grade its theories one by one, remember what its own director already told you. This is a show built to dramatize three explanations that even the person who made it doesn't fully believe.",
+   "statColor": "#FF9500",
+   "stat": "BUILT ON THEORIES ITS OWN MAKER DOUBTS",
+   "cap": "Built on theories its own maker doubts.",
+   "tone": "tension",
+   "img": "directoradmit",
+   "stock": true
+  },
+  {
+   "id": "c2",
+   "chapter": "2 — THE\nPILOT",
+   "text": "Chapter two. The pilot.",
+   "img": "cockpitgeneric2",
+   "stock": true
+  },
+  {
+   "id": "d1",
+   "text": "Episode one makes its case plainly. Captain Zaharie Ahmad Shah, it argues, deliberately turned the plane, depressurized the cabin to incapacitate everyone else on board, and flew it by hand, using saved waypoints, into the emptiest ocean on Earth.",
+   "img": "cockpitgeneric2",
+   "query": "airliner cockpit interior dim lighting generic",
+   "cap": "Episode 1's claim: the captain did it, deliberately.",
+   "tone": "tension",
+   "stock": true
+  },
+  {
+   "id": "d2",
+   "diagram": "quote",
+   "arg": "Stunningly irresponsible... risking irrevocable harm.||PRIMETIMER, REVIEWING EPISODE 1",
+   "text": "One reviewer called the episode's extended reenactment of that moment stunningly irresponsible, warning it risked, in their words, irrevocable harm to a real family.",
+   "cap": "\"Stunningly irresponsible.\" — Primetimer",
+   "tone": "dread"
+  },
+  {
+   "id": "d3",
+   "text": "Here is what the official Malaysian investigation actually found, after checking his entire background. No psychiatric history. No financial distress. No marital trouble.",
+   "exhibit": true,
+   "img": "annex13cover",
+   "query": "Malaysia ICAO Annex 13 Safety Investigation Report MH370 cover page",
+   "source": "Malaysia ICAO Annex 13 Safety Investigation Report · 30 July 2018",
+   "statColor": "#5EC26A",
+   "stat": "BACKGROUND CHECK: CLEAN",
+   "cap": "The official check found nothing.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "d3b",
+   "text": "No religious or political extremism. No change in his behavior that any colleague ever flagged. No stress detected in his own voice, on the final air traffic recordings.",
+   "img": "annex13cover",
+   "cap": "Nothing at all. Across every category checked.",
+   "tone": "curiosity",
+   "highlight": [
+    0.06,
+    0.15,
+    0.88,
+    0.55
+   ]
+  },
+  {
+   "id": "d4",
+   "text": "His home flight simulator did contain a saved route running into the southern Indian Ocean. But the official report states plainly: it could not be conclusively linked to the actual flight.",
+   "img": "cockpitgeneric2",
+   "statColor": "#FF9500",
+   "stat": "\"COULD NOT BE CONCLUSIVELY LINKED\"",
+   "cap": "A chilling coincidence. Not proof.",
+   "tone": "tension",
+   "stock": true
+  },
+  {
+   "id": "d5",
+   "text": "The series also leaves out testimony describing him as lonely, and estranged — testimony the official background check simply never corroborated.",
+   "cap": "Left out: testimony the record didn't back up.",
+   "tone": "neutral",
+   "img": "cockpitgeneric2",
+   "stock": true
+  },
+  {
+   "id": "d6",
+   "text": "His own sister disagrees entirely. Sakinah Ahmad Shah has spoken publicly more than once, including this year, calling the theory impossible.",
+   "cap": "His sister has publicly rejected the theory.",
+   "tone": "grief",
+   "img": "cockpitgeneric2",
+   "stock": true
+  },
+  {
+   "id": "d6b",
+   "diagram": "quote",
+   "arg": "Impossible. We are a very decent family.||SAKINAH AHMAD SHAH · CAPTAIN'S SISTER, 2026",
+   "text": "Calling it impossible, and describing, in her own words, a very decent family.",
+   "cap": "\"Impossible. A very decent family.\"",
+   "tone": "grief"
+  },
+  {
+   "id": "d7",
+   "text": "So state this plainly, because it matters more than any theory in this video. The official investigation did not just fail to prove this theory. It affirmatively found nothing in the man's life that supports it. He cannot answer back. The evidence never convicted him either.",
+   "statColor": "#FF4D4D",
+   "stat": "NO CONCLUSIVE EVIDENCE, EITHER WAY",
+   "cap": "Unproven — and affirmatively unsupported.",
+   "extraHold": 20,
+   "tone": "tension",
+   "img": "cockpitgeneric2",
+   "stock": true
+  },
+  {
+   "id": "c3",
+   "chapter": "3 — THE\nHIJACK",
+   "text": "Chapter three. The hijack.",
+   "img": "ebaygeneric",
+   "stock": true
+  },
+  {
+   "id": "e1",
+   "text": "Episode two drops the pilot theory entirely, and argues something stranger. Three passengers, it claims, entered the aircraft's forward electronics bay mid-flight and hijacked it electronically, diverting it north toward Kazakhstan.",
+   "img": "ebaygeneric",
+   "query": "aircraft avionics bay electronics compartment interior",
+   "cap": "Episode 2's claim: an electronic hijack, mid-flight.",
+   "tone": "curiosity",
+   "stock": true
+  },
+  {
+   "id": "e2",
+   "text": "The stated motive: distracting the world from Russia's annexation of Crimea, happening at almost the exact same time. The theory's own author, journalist Jeff Wise, admitted even in his original piece that there was, in his words, no way to know, and no plausible motive for an act with no apparent beneficiary.",
+   "dossier": true,
+   "img": "wisebook",
+   "label": "JEFF WISE · THE THEORY'S OWN AUTHOR",
+   "cap": "Even its own author called the motive implausible.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "e3",
+   "text": "There's a timing problem too. By early twenty fourteen, Russia's move into Crimea was already succeeding. The distraction it supposedly needed didn't need creating.",
+   "statColor": "#FF9500",
+   "stat": "TIMING DOESN'T FIT",
+   "cap": "Crimea was already going Russia's way.",
+   "tone": "curiosity",
+   "img": "ebaygeneric",
+   "stock": true
+  },
+  {
+   "id": "e4",
+   "diagram": "quote",
+   "arg": "Impossible.||FUAD SHARUJI · FORMER MALAYSIA AIRLINES CRISIS DIRECTOR, ON CAMERA IN THE SERIES ITSELF",
+   "text": "And Netflix's own on-camera interviewees rebut the theory directly. Fuad Sharuji, Malaysia Airlines' own former crisis director, calls a mid-flight takeover from that compartment impossible.",
+   "cap": "\"Impossible.\" — in the documentary itself.",
+   "tone": "confidence"
+  },
+  {
+   "id": "e5",
+   "diagram": "quote",
+   "arg": "Doesn't seem particularly credible at all.||MARK DICKINSON · INMARSAT VP, ON CAMERA IN THE SERIES ITSELF",
+   "text": "Mark Dickinson, an Inmarsat vice president, also interviewed on camera, says the idea that a hijacker predicted the satellite company's own analysis method in advance doesn't seem particularly credible at all.",
+   "cap": "The documentary's own expert rebuts it, on camera.",
+   "tone": "confidence"
+  },
+  {
+   "id": "e6",
+   "text": "Outside satellite specialists go further. Mike Exner states plainly the plane cannot be flown from that compartment, and that the satellite data cannot be altered from there, as the theory claims.",
+   "statColor": "#FF4D4D",
+   "stat": "\"CANNOT BE FLOWN FROM THERE\"",
+   "cap": "\"Cannot be flown from there.\" — Mike Exner",
+   "tone": "confidence",
+   "img": "ebaygeneric",
+   "stock": true
+  },
+  {
+   "id": "e7",
+   "text": "And journalist William Langewiesche's own read of the physical evidence points the opposite way entirely. Control was seized from inside the actual cockpit, in a twenty-minute window — not remotely, from a hidden compartment.",
+   "img": "cockpitgeneric2",
+   "cap": "The evidence points to the cockpit, not remote control.",
+   "tone": "curiosity",
+   "stock": true
+  },
+  {
+   "id": "e8",
+   "text": "And here is the twist even the documentary never saw coming. This January, Jeff Wise — the same man who originated this theory — posted a video titled, plainly: why the cockpit theory doesn't add up.",
+   "dossier": true,
+   "img": "wisebook",
+   "label": "JEFF WISE, JANUARY 2026",
+   "statColor": "#FF9500",
+   "stat": "THE THEORY'S OWN AUTHOR — REVERSED",
+   "cap": "The man behind Ep2's theory now argues against Ep1's.",
+   "extraHold": 20,
+   "tone": "shock"
+  },
+  {
+   "id": "e8b",
+   "text": "He is now, on the record, arguing against the very kind of deliberate-pilot scenario episode one spent an hour dramatizing.",
+   "cap": "Arguing against the theory his own documentary aired.",
+   "tone": "shock",
+   "dossier": true,
+   "img": "wisebook",
+   "label": "JEFF WISE, JANUARY 2026"
+  },
+  {
+   "id": "e9",
+   "text": "One man. Two theories he authored himself, for two different episodes of the same series. And by this year, he no longer stands fully behind either one.",
+   "statColor": "#FF9500",
+   "stat": "2 THEORIES · 1 AUTHOR · NEITHER HOLDS UP",
+   "cap": "Two theories. One author. Neither holds up today.",
+   "tone": "tension",
+   "img": "ebaygeneric",
+   "stock": true
+  },
+  {
+   "id": "c4",
+   "chapter": "4 — THE\nINTERCEPT",
+   "text": "Chapter four. The intercept.",
+   "img": "radargeneric",
+   "stock": true
+  },
+  {
+   "id": "f1",
+   "text": "Episode three goes furthest of all. It argues the aircraft carried roughly two and a half tonnes of sensitive electronic cargo bound for China, and that American surveillance aircraft intercepted and jammed it, before it was shot down over the South China Sea.",
+   "img": "radargeneric",
+   "query": "military air traffic control radar screen room",
+   "cap": "Episode 3's claim: intercepted, then shot down.",
+   "tone": "tension",
+   "stock": true
+  },
+  {
+   "id": "f1b",
+   "text": "In this version, the Indian Ocean debris was either planted, or misidentified, as part of a cover-up spanning multiple governments. Its lead voice is French journalist Florence de Changy, who calls the entire case aviation's biggest con.",
+   "dossier": true,
+   "img": "changybook",
+   "query": "MH370 disappearing act book cover journalist",
+   "label": "FLORENCE DE CHANGY · JOURNALIST",
+   "cap": "\"Aviation's biggest con.\" — Florence de Changy",
+   "tone": "tension"
+  },
+  {
+   "id": "f2",
+   "diagram": "quote",
+   "arg": "They know full well what happened.||GHYSLAIN WATTRELOS · LOST HIS WIFE AND TWO CHILDREN ABOARD",
+   "text": "On camera, Ghyslain Wattrelos, who lost his wife and two children on this flight, says an intelligence contact told him American surveillance planes know full well what happened. That is his own account. It has never been independently confirmed.",
+   "cap": "His own account. Never independently confirmed.",
+   "tone": "grief"
+  },
+  {
+   "id": "f3",
+   "text": "Richard Godfrey's rebuttal, point by point. Malaysian radar was not falsified. The co-pilot's own phone WAS detected, pinging a cell tower near Penang, at the exact time the series claims the plane had already been seized.",
+   "cap": "Radar wasn't falsified. His phone pinged, on schedule.",
+   "tone": "confidence",
+   "img": "radargeneric",
+   "stock": true
+  },
+  {
+   "id": "f3b",
+   "text": "And the recovered debris carries manufacturer part numbers and stencils that tie it directly to this exact aircraft.",
+   "img": "debrispartnum",
+   "query": "MH370 debris recovered part number stencil identification",
+   "statColor": "#5EC26A",
+   "stat": "DEBRIS: FORENSICALLY IDENTIFIED",
+   "cap": "The debris is confirmed, not unidentified junk.",
+   "tone": "confidence"
+  },
+  {
+   "id": "f4",
+   "text": "Malaysian military radar DID detect the aircraft's turn, contrary to the documentary's claim that it went unnoticed. It was logged as friendly, and simply not pursued — a failure of protocol, not evidence of a cover-up.",
+   "statColor": "#FF9500",
+   "stat": "RADAR SAW IT. THEY JUST DIDN'T CHASE IT.",
+   "cap": "The military DID see it. They didn't chase it.",
+   "tone": "tension",
+   "img": "radargeneric",
+   "stock": true
+  },
+  {
+   "id": "f5",
+   "text": "And the mysterious cargo the series frames as something smuggled? A routine commercial shipment of lithium-ion batteries, for two-way radios.",
+   "statColor": "#5EC26A",
+   "stat": "THE \"CARGO\": RADIO BATTERIES",
+   "cap": "Routine radio batteries. Not smuggled tech.",
+   "tone": "neutral",
+   "img": "radargeneric",
+   "stock": true
+  },
+  {
+   "id": "f6",
+   "text": "For a cover-up this size to hold, hundreds of people, across at least four different governments, would need to stay silent for over a decade — while real, physically verifiable ocean debris kept washing up on real beaches the entire time. The simpler explanation is almost always the true one.",
+   "statColor": "#FF9500",
+   "stat": "OCCAM'S RAZOR",
+   "cap": "Real debris beats a decade-long silent conspiracy.",
+   "tone": "confidence",
+   "img": "radargeneric",
+   "stock": true
+  },
+  {
+   "id": "c5",
+   "chapter": "5 — WHAT NETFLIX\nGOT WRONG",
+   "text": "Chapter five. What Netflix got wrong.",
+   "img": "directoradmit",
+   "stock": true
+  },
+  {
+   "id": "g1",
+   "diagram": "quote",
+   "arg": "Bordering on the irresponsible.||NICK SCHAGER · THE DAILY BEAST",
+   "text": "Step back from the individual theories, and a pattern in the documentary itself becomes the real story. One critic wrote that the shoot-down theory gets minutes of dramatic buildup before an expert is finally allowed to, in his words, shrug it off as more loopy than legitimate — bordering, he wrote, on the irresponsible.",
+   "cap": "\"Bordering on the irresponsible.\" — The Daily Beast",
+   "tone": "dread"
+  },
+  {
+   "id": "g2",
+   "diagram": "quote",
+   "arg": "The sin of pretending that all theories deserve equal time and equal weight.||COLLIDER",
+   "text": "Another reviewer called it the sin of pretending every theory deserves equal time and equal weight — with Jeff Wise functioning as the series' primary guide, across two entire episodes.",
+   "cap": "\"Pretending all theories deserve equal weight.\"",
+   "tone": "dread"
+  },
+  {
+   "id": "g3",
+   "text": "One piece of amateur satellite imagery, crowdsourced from volunteers online, is given real on-camera credibility, implying it was suppressed by governments. Critics who've actually studied it call it, bluntly, blurry white blobs.",
+   "cap": "Suppressed evidence, or just blurry white blobs?",
+   "tone": "curiosity",
+   "img": "directoradmit",
+   "stock": true
+  },
+  {
+   "id": "g4",
+   "text": "The series also underplays something real. Malaysian authorities sat on radar data for roughly a week, sending the initial search to the wrong ocean entirely.",
+   "statColor": "#FF9500",
+   "stat": "1 WEEK · WRONG OCEAN",
+   "cap": "A week-long delay sent searchers the wrong way.",
+   "tone": "tension",
+   "img": "streamdrop",
+   "stock": true
+  },
+  {
+   "id": "g5",
+   "text": "And the sharpest fact-check of all is the one we already told you. The documentary's own director has said, on the record, that she believes the plane is most likely in the southern Indian Ocean — the one ending her three-part series spends the least time on.",
+   "statColor": "#FF9500",
+   "stat": "THE DIRECTOR DOESN'T BELIEVE HER OWN SHOW",
+   "cap": "Worth repeating. It's the whole point.",
+   "extraHold": 20,
+   "tone": "tension",
+   "img": "directoradmit",
+   "stock": true
+  },
+  {
+   "id": "g6",
+   "diagram": "quote",
+   "arg": "A lavish exercise in gaslighting.||NAREN NARENDRAN · LOST HIS WIFE ABOARD",
+   "text": "Some of the strongest pushback came from the families themselves, not about the crash, but about this series. Naren Narendran, who lost his wife on this flight, said it should be marketed as fiction, calling it a lavish exercise in gaslighting.",
+   "cap": "\"A lavish exercise in gaslighting.\"",
+   "tone": "grief"
+  },
+  {
+   "id": "g7",
+   "text": "The backlash reached governments too. Vietnam pulled episode one from its own platform entirely, objecting to claims that it failed to cooperate in the search — a real, dated, institutional response to the show itself.",
+   "statColor": "#FF4D4D",
+   "stat": "APRIL 13, 2023 · PULLED IN VIETNAM",
+   "cap": "Vietnam pulled Episode 1 over its own claims.",
+   "tone": "tension",
+   "img": "streamdrop",
+   "stock": true
+  },
+  {
+   "id": "g8",
+   "text": "To be fair to the documentary one more time. Even its critics praised episode one's data-driven, minute-by-minute reconstruction of the disappearance itself, calling it disturbingly realistic, right up until, in their words, it collapses into speculation.",
+   "cap": "The reconstruction was praised. What came after wasn't.",
+   "tone": "neutral",
+   "img": "directoradmit",
+   "stock": true
+  },
+  {
+   "id": "c6",
+   "chapter": "6 — THE\nPHYSICS",
+   "text": "Chapter six. The physics.",
+   "img": "satdishgeneric",
+   "stock": true
+  },
+  {
+   "id": "p0",
+   "text": "None of that is the most interesting fact-check in this entire case. The most interesting one is buried in eight seconds of automatic satellite data that neither of our previous M-H three seven zero videos has walked you through in full.",
+   "cap": "The most interesting fact-check is purely mathematical.",
+   "tone": "curiosity",
+   "img": "satdishgeneric",
+   "stock": true
+  },
+  {
+   "id": "p1",
+   "text": "In the final minute, the aircraft's satellite terminal made one unscheduled attempt to log back onto the network. Eight seconds later, it tried again, and then went silent forever.",
+   "img": "satdishgeneric",
+   "query": "satellite communication ground station dish night",
+   "stat": "2 LOG-ON ATTEMPTS · 8 SECONDS APART",
+   "cap": "Two automatic log-ons. Eight seconds apart.",
+   "tone": "curiosity",
+   "stock": true
+  },
+  {
+   "id": "p2",
+   "text": "That is not a coincidence, and it is not a person. When an aircraft's engines flame out from fuel exhaustion, a backup generator automatically starts, and briefly re-powers the satellite link.",
+   "exhibit": true,
+   "img": "atsbfactsheet",
+   "query": "ATSB BTO burst timing offset factsheet MH370 diagram",
+   "source": "Ian Holland, DSTG — MH370 Burst Frequency Offset Analysis, IEEE 2017 (arXiv:1702.02432)",
+   "cap": "An automatic backup system re-powers the link.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "p2b",
+   "text": "Just long enough to force one last, involuntary attempt to reconnect, before that backup runs dry too, minutes later.",
+   "img": "atsbfactsheet",
+   "cap": "One last, involuntary signal. Not a person.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "p3",
+   "text": "Analysts measured the tiny frequency shift in those two signals, caused by the aircraft's own vertical motion, and calculated a descent rate. At the first signal: somewhere around three thousand to fifteen thousand feet per minute.",
+   "exhibit": true,
+   "img": "atsbsearcharea",
+   "query": "ATSB definition of underwater search areas MH370 report diagram",
+   "source": "Ian Holland, DSTG — MH370 Burst Frequency Offset Analysis, IEEE 2017 (arXiv:1702.02432)",
+   "cap": "A frequency shift, translated into a descent rate.",
+   "tone": "tension"
+  },
+  {
+   "id": "p3b",
+   "text": "Eight seconds later, at the second signal: somewhere between fourteen thousand and twenty-five thousand feet per minute.",
+   "img": "atsbsearcharea",
+   "statColor": "#FF4D4D",
+   "stat": "DESCENT RATE ROUGHLY DOUBLED IN 8 SECONDS",
+   "cap": "The descent rate roughly doubled in 8 seconds.",
+   "tone": "tension"
+  },
+  {
+   "id": "p4",
+   "text": "A normal passenger jet descends at around two thousand feet per minute. This aircraft, in its final seconds, was falling seven to thirteen times faster than that, and accelerating.",
+   "statColor": "#FF4D4D",
+   "stat": "7–13× A NORMAL DESCENT RATE",
+   "cap": "Seven to thirteen times a normal descent.",
+   "extraHold": 15,
+   "tone": "fear",
+   "img": "satdishgeneric",
+   "stock": true
+  },
+  {
+   "id": "p5",
+   "text": "The recovered wing flap tells the same story from a different angle. Investigators traced exactly how its rear rivets tore, and the damage only lines up geometrically if that flap was retracted — the setting for ordinary cruising flight, not for a landing.",
+   "img": "flapdiagram",
+   "query": "aircraft wing flap rivet damage analysis technical diagram",
+   "statColor": "#FF9500",
+   "stat": "FLAP: RETRACTED, NOT DEPLOYED",
+   "cap": "The flap was set for cruising, not for landing.",
+   "tone": "curiosity",
+   "stock": true
+  },
+  {
+   "id": "p6",
+   "diagram": "quote",
+   "arg": "There's no reason to deliberately run the tanks dry and then attempt an unpowered glide, when a powered ditching was always available.||PETER FOLEY · ATSB",
+   "text": "One ATSB investigator put the counter-argument plainly. If someone still had control and still had fuel, there was never a reason to run the tanks dry, then attempt an unpowered glide, when a powered landing had been available the whole time.",
+   "cap": "Why run the tanks dry if you could land powered?",
+   "tone": "curiosity"
+  },
+  {
+   "id": "p7",
+   "text": "And no large, intact piece of this aircraft has ever been recovered. Only small, fragmented pieces, consistent with a fast, high-energy impact — not a gentle water landing, which tends to leave much larger sections floating.",
+   "img": "debrisfragment",
+   "query": "small aircraft debris fragment ocean beach found",
+   "cap": "Only small fragments. Consistent with a violent impact.",
+   "tone": "dread",
+   "stock": true
+  },
+  {
+   "id": "p8",
+   "text": "Put all four of those together. The accelerating dive. The retracted flap. The fuel logic. The shattered debris. The official investigation's own physics all point the same direction. In its final minutes, nobody appears to have been flying this aircraft.",
+   "statColor": "#FF4D4D",
+   "stat": "VERDICT: UNCONTROLLED, HIGH-SPEED DIVE",
+   "cap": "The physics all point one direction: uncontrolled.",
+   "extraHold": 25,
+   "tone": "dread",
+   "img": "debrisfragment",
+   "stock": true
+  },
+  {
+   "id": "p9",
+   "text": "It is not unanimous. Larry Vance, a career air-crash investigator, looked at the same flap photographs and reached the opposite conclusion. Extended, not retracted, meaning someone was flying it, carefully, all the way to a controlled water landing.",
+   "dossier": true,
+   "img": "vancebook",
+   "query": "MH370 mystery solved book cover investigator",
+   "label": "LARRY VANCE · FORMER SENIOR AIR-CRASH INVESTIGATOR",
+   "cap": "One veteran investigator reads the photo differently.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "p10",
+   "text": "ATSB officials responded to him directly, and publicly, standing by their own retracted-flap finding. When a career investigator and the agency that ran the actual search disagree this specifically, naming the disagreement honestly matters — but the official finding gets the last word here.",
+   "cap": "ATSB rebutted him, on the record. Their finding stands.",
+   "tone": "confidence",
+   "img": "flapdiagram",
+   "stock": true
+  },
+  {
+   "id": "p11",
+   "text": "A separate, peer-reviewed paper argues the standard math might be using the wrong model, that coupling the plane's heading changes with the signal, instead of treating the shift as purely vertical, is consistent with a gentler, more controlled ending. It's real science. It hasn't replaced the model the actual search was built on.",
+   "cap": "A peer-reviewed challenge exists. It hasn't changed the search.",
+   "tone": "curiosity",
+   "img": "satdishgeneric",
+   "stock": true
+  },
+  {
+   "id": "p12",
+   "text": "One more small detail, easy to miss. At two twenty-five that morning, the satellite unit rebooted mid-flight, rare enough that some technical analysts read it as a specific interruption of one particular electrical bus — a detail that takes real, specific knowledge of the aircraft's own systems to even locate.",
+   "statColor": "#FF9500",
+   "stat": "02:25 · THE UNEXPLAINED REBOOT",
+   "cap": "A reboot that needed specific systems knowledge.",
+   "tone": "curiosity",
+   "img": "satdishgeneric",
+   "stock": true
+  },
+  {
+   "id": "c7",
+   "chapter": "7 — WHERE IT\nSTANDS NOW",
+   "text": "Chapter seven. Where it stands now.",
+   "img": "ransearch1"
+  },
+  {
+   "id": "r1",
+   "text": "While the documentary argued theories on a screen, a real ship kept searching a real ocean. Ocean Infinity's newest search ran in two phases, weeks in the spring of last year, then again from the very end of December into January, over five months at sea combined.",
+   "video": "bluefin_deploy2_1.mp4",
+   "videoQuery": "underwater autonomous vehicle deployed from ship ocean search",
+   "stat": "151 DAYS AT SEA · 2 SEARCH PHASES",
+   "cap": "A real ship, still searching, while the theories argued.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "r2",
+   "text": "It found nothing. Malaysia's seventy-million-dollar reward remains unpaid. The company's own chief executive says their commitment has not ended, and that they hope to return when circumstances allow.",
+   "img": "ransearch1",
+   "query": "navy support ship deployment ocean search generic",
+   "statColor": "#FF4D4D",
+   "stat": "NOTHING FOUND · $70M UNPAID",
+   "cap": "Nothing found. The reward is still unpaid.",
+   "tone": "melancholy"
+  },
+  {
+   "id": "r3",
+   "text": "That specific search box traces back to a contested method — analyzing faint disturbances in worldwide amateur radio signals. It sits entirely outside the toolkit official investigators actually use. And yet it is the real reasoning that sent a real, government-funded ship to that exact patch of ocean.",
+   "statColor": "#FF9500",
+   "stat": "A CONTESTED METHOD · A REAL SEARCH",
+   "cap": "A disputed method funded a real search anyway.",
+   "tone": "curiosity",
+   "img": "datagraph"
+  },
+  {
+   "id": "r4",
+   "text": "Less than half of that predicted area was actually covered before the ship had to leave. The hypothesis was never disproven there. It was simply never fully checked.",
+   "cap": "Under half the zone was searched. Not disproven.",
+   "tone": "curiosity",
+   "img": "ransearch1"
+  },
+  {
+   "id": "r5",
+   "text": "This year, Malaysia's government approved another twelve months, running through next June, to finish covering what's left.",
+   "img": "loke2026",
+   "query": "Malaysia transport minister press conference generic",
+   "cap": "The search extended again. Through June next year.",
+   "tone": "hope",
+   "stock": true
+  },
+  {
+   "id": "r5b",
+   "diagram": "quote",
+   "arg": "A manifestation of the government's continuous and unwavering commitment to provide closure for the next of kin.||ANTHONY LOKE · MALAYSIAN TRANSPORT MINISTER, 29 JUNE 2026",
+   "text": "Its transport minister called the extension, in his words, a manifestation of the government's continuous and unwavering commitment to provide closure for the families.",
+   "cap": "\"A commitment to provide closure.\" — Anthony Loke",
+   "tone": "hope"
+  },
+  {
+   "id": "r6",
+   "text": "There's one more real lead. Scientists re-examined recordings from underwater microphones built to detect nuclear tests, and found one faint signal, at one station, bearing roughly toward the search zone.",
+   "img": "datagraph",
+   "query": "MH370 Inmarsat satellite data flight path graph",
+   "statColor": "#FF9500",
+   "stat": "1 SIGNAL · 1 STATION · UNCONFIRMED",
+   "cap": "One signal. One station. Not yet a location.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "r6b",
+   "text": "It has not been picked up by a second station, and the exact bearing is disputed. Call it exactly what it is. A real, exciting lead. Not a location.",
+   "img": "datagraph",
+   "cap": "A real lead. Still not a location.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "r7",
+   "text": "Debris keeps surfacing too. Just last December, searcher Blaine Gibson found another piece on a beach in Madagascar, which he says supports a mid-air breakup, and argues against a slow, controlled landing. That is his own read of the evidence, not yet a confirmed official finding.",
+   "img": "debris2",
+   "query": "MH370 debris found Madagascar Mozambique beach",
+   "cap": "New debris, last December. His read, not yet confirmed.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "r8",
+   "text": "And Jeff Wise, the same man behind two of this documentary's headline theories, published yet another new idea in February this year. This time, that the search's continued failure implies someone survived the dive and glided the aircraft further than anyone has searched.",
+   "dossier": true,
+   "img": "wisebook",
+   "label": "JEFF WISE, FEBRUARY 2026 — A THIRD THEORY",
+   "statColor": "#FF9500",
+   "stat": "A THIRD THEORY FROM THE SAME MAN",
+   "cap": "A third theory. From the same man.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "r8b",
+   "text": "He named the captain specifically, while admitting, in his own words, it's hard to imagine why anyone would have wanted to do that.",
+   "cap": "Named, then hedged, by its own author.",
+   "tone": "tension",
+   "dossier": true,
+   "img": "wisebook",
+   "label": "JEFF WISE, FEBRUARY 2026"
+  },
+  {
+   "id": "r9",
+   "text": "Three theories, from the same man, in three years, about the same eleven minutes of data. That alone should tell you something about how much of this case is still genuinely unsettled, and how little of the certainty in that documentary actually holds up.",
+   "statColor": "#FF9500",
+   "stat": "3 THEORIES · 1 AUTHOR · STILL UNSETTLED",
+   "cap": "Three theories. One author. Still no answer.",
+   "extraHold": 20,
+   "tone": "tension",
+   "dossier": true,
+   "img": "wisebook",
+   "label": "ONE AUTHOR, THREE THEORIES"
+  },
+  {
+   "id": "c8",
+   "chapter": "8 — THE\nVERDICT",
+   "text": "Chapter eight. The verdict.",
+   "img": "annex13cover"
+  },
+  {
+   "id": "v1",
+   "diagram": "quote",
+   "arg": "All three theories are ruled out.||RICHARD GODFREY",
+   "text": "So the documentary's own harshest independent critic gets the final word on the show itself. In his assessment, it hands conspiracy, fabrication, and fantasy the same weight as hard evidence, and every one of its three headline theories is ruled out by the physical evidence that actually exists.",
+   "cap": "\"All three theories are ruled out.\"",
+   "tone": "confidence"
+  },
+  {
+   "id": "v2",
+   "text": "And the official investigation gets the final word on the case itself, exactly as it did the day it was published.",
+   "exhibit": true,
+   "img": "annex13cover",
+   "source": "Malaysia ICAO Annex 13 Safety Investigation Report · 2018",
+   "cap": "The official cause remains, simply, undetermined.",
+   "tone": "neutral",
+   "highlight": [
+    0.06,
+    0.6,
+    0.88,
+    0.3
+   ]
+  },
+  {
+   "id": "v2b",
+   "text": "Unable to determine the real cause. Third-party interference not ruled out. No conclusive finding against any individual.",
+   "statColor": "#FF4D4D",
+   "stat": "OFFICIAL CAUSE: UNDETERMINED",
+   "cap": "Undetermined. Not ruled out. Not conclusive.",
+   "extraHold": 20,
+   "tone": "neutral",
+   "img": "annex13cover"
+  },
+  {
+   "id": "v3",
+   "text": "Every theory in this video, and every theory in that documentary, sits on top of that same unresolved foundation. Nothing since has changed it.",
+   "cap": "Every theory sits on the same unresolved base.",
+   "tone": "melancholy",
+   "img": "annex13cover"
+  },
+  {
+   "id": "coda1",
+   "text": "We didn't make this video to defend a documentary, or to tear one down for clicks. We made it because twelve years on, this mystery is still being sold as certainty, in half a dozen contradictory directions at once, and two hundred and thirty-nine families still don't have the one thing that would actually end it. The aircraft.",
+   "video": "oceannight2_1.mp4",
+   "videoFrom": 20,
+   "cap": "The families still don't have the one thing that would end this.",
+   "extraHold": 20,
+   "tone": "melancholy"
+  },
+  {
+   "id": "coda2",
+   "text": "Until someone finds it, every theory, ours included, is still just a theory.",
+   "cap": "Until it's found, every theory is still just a theory.",
+   "extraHold": 15,
+   "tone": "melancholy",
+   "video": "oceannight2_1.mp4",
+   "videoFrom": 30
+  },
+  {
+   "id": "bridge",
+   "text": "If this made you want the full, minute-by-minute story of how an investigation like this actually works, from the black box math to the ocean floor, we have another one on this channel. Air France four forty-seven, the flight we DID pull from the ocean. It took two years to find, and what its recorder actually captured is just as disturbing as anything in this documentary.",
+   "cap": "Watch: Air France 447 — the one we DID find.",
+   "tone": "curiosity",
+   "video": "oceannight3_1.mp4",
+   "videoFrom": 8
+  },
+  {
+   "id": "subscribe",
+   "text": "If Air France four forty-seven's two-year search shocked you, wait until you see what its own black box actually recorded. Subscribe to Black Box Breakdown. We take the world's biggest aviation mysteries apart, piece by piece, and when the honest answer is that nobody knows yet, we tell you that too.",
+   "cap": "Subscribe to Black Box Breakdown.",
+   "tone": "confidence",
+   "video": "oceannight2_1.mp4",
+   "videoFrom": 40
+  }
+ ]
+}

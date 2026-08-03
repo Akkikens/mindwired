@@ -462,3 +462,171 @@ export const SketchScene: React.FC<SketchProps> = ({
     </AbsoluteFill>
   );
 };
+
+/** Deterministic torn-paper silhouette: a CSS clip-path polygon jittered along
+ *  each edge of a unit rectangle, seeded so the same scene always tears the
+ *  same way. Built for DossierScene's newsprint scrap; exported in case a v2
+ *  torn-tape/string treatment wants the same shape language. */
+export const tornPolygon = (seed: number, segsPerSide = 6, jitter = 0.05) => {
+  const rng = mulberry32(seed);
+  const pts: [number, number][] = [];
+  const j = () => (rng() - 0.5) * jitter * 2;
+  for (let i = 0; i <= segsPerSide; i++) pts.push([i / segsPerSide, Math.max(0, j())]);
+  for (let i = 1; i <= segsPerSide; i++) pts.push([Math.min(1, 1 + j()), i / segsPerSide]);
+  for (let i = 1; i <= segsPerSide; i++) pts.push([1 - i / segsPerSide, Math.min(1, 1 + j())]);
+  for (let i = 1; i < segsPerSide; i++) pts.push([Math.max(0, j()), 1 - i / segsPerSide]);
+  return `polygon(${pts.map(([x, y]) => `${(x * 100).toFixed(1)}% ${(y * 100).toFixed(1)}%`).join(", ")})`;
+};
+
+type DossierProps = {
+  /** resolved illustration filename (img-prefix rotation, same convention as
+   *  every other scene type — a Gemini-generated halftone cutout, alpha'd via
+   *  gen_mascot.white_to_alpha) */
+  file: string | null;
+  slug: string;
+  cap?: string;
+  /** short 1-4 word date/name stamp, e.g. "NOV 24 1971" — rendered as real
+   *  text, not baked into the generated image (crisper, immune to TTS-in-image
+   *  legibility problems). */
+  label?: string;
+  accent: string;
+  sceneDur: number;
+  camera?: "push" | "pull" | "drift";
+};
+
+/** "Case file" reconstruction beat — the illustrated sibling of ExhibitScene
+ *  (DocWide.tsx), for narration beats with ZERO real photo/footage coverage
+ *  (an unfilmable moment, an abstraction — see docs/guides/DOSSIER-SCENES.md).
+ *  Hand-cut paper-collage register: torn newsprint, masking tape, a
+ *  rubber-stamp label. A grimmer, more restrained cousin of the
+ *  whiteboard/mascot system in this same file (SketchScene/MascotReact), NOT a
+ *  revival of it — no cute character, no springy bounce, a single settle, and
+ *  it ALWAYS carries the "RECONSTRUCTION" tag so it can never be mistaken for
+ *  a real archival photo (same honesty principle as RadioScene's
+ *  ACTUAL/RECREATION labels and ExhibitScene's real-document citations). */
+export const DossierScene: React.FC<DossierProps> = ({
+  file, slug, cap, label, accent, sceneDur, camera,
+}) => {
+  const frame = useCurrentFrame();
+  const seed = seedOf(`${slug}:${file ?? "none"}:dossier`);
+
+  // Ken Burns — same vocabulary as IllusScene, gentler amplitude: this is a
+  // held evidence photo, not a montage pan.
+  const move = camera ?? "push";
+  const t = interpolate(frame, [0, Math.max(sceneDur, 1)], [0, 1]);
+  const ease = t * t * (3 - 2 * t);
+  const scale = move === "pull" ? interpolate(ease, [0, 1], [1.06, 1.02])
+    : move === "drift" ? 1.03
+    : interpolate(ease, [0, 1], [1.02, 1.07]);
+
+  // hero settle: paper dropped onto a table, one decaying wobble — a graver
+  // register than MascotReact's cartoon squash-and-stretch bounce.
+  const drop = spring({ frame: frame - 4, fps: FPS, config: { damping: 20, stiffness: 100 } });
+  const si = frame - 4;
+  const wobble = si >= 0 ? Math.exp(-si / 8) * Math.sin(si / 3.6) * 1.6 : 0; // degrees
+  const heroIn = interpolate(frame, [0, 14], [0, 1], { extrapolateRight: "clamp" });
+  const heroY = (1 - drop) * 50;
+
+  const tapeIn = spring({ frame: frame - 16, fps: FPS, config: { damping: 15 } });
+  const stampAt = 26;
+  const stampIn = spring({ frame: frame - stampAt, fps: FPS, config: { damping: 11, stiffness: 210 } });
+  const capIn = interpolate(frame, [18, 34], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const fadeOut = interpolate(frame, [sceneDur - 10, sceneDur], [1, 0], { extrapolateLeft: "clamp" });
+
+  // typewriter reveal: the caption types on character-by-character (a live
+  // cursor, not a static card fading in) — ~27 chars/sec, starting where the
+  // old fade-in used to start, so a beat with a caption ALSO reads as "being
+  // written," not just "appearing."
+  const typeStart = 18;
+  const charsPerFrame = 0.9;
+  const capLen = cap?.length ?? 0;
+  const capChars = Math.max(0, Math.min(capLen, Math.floor((frame - typeStart) * charsPerFrame)));
+  const capTyping = capChars < capLen;
+  const cursorOn = capTyping && frame % 20 < 10;
+
+  const scrapClip = tornPolygon(seed + 11);
+  const scrapRot = -3 + (mulberry32(seed)() - 0.5) * 4;
+
+  return (
+    <AbsoluteFill style={{ backgroundColor: "#0C0A08", opacity: fadeOut }}>
+      <Paper />
+      {/* graver than the whiteboard: heavier vignette + sepia-leaning overlay */}
+      <AbsoluteFill style={{
+        background: "radial-gradient(ellipse at center, transparent 42%, rgba(18,13,8,0.45) 100%)",
+      }} />
+      <AbsoluteFill style={{
+        background: "linear-gradient(180deg, rgba(10,8,6,0.3) 0%, transparent 22%, transparent 72%, rgba(10,8,6,0.55) 100%)",
+        pointerEvents: "none",
+      }} />
+
+      {file && (
+        <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", opacity: heroIn }}>
+          {/* torn newsprint scrap behind the hero cutout */}
+          <div style={{
+            position: "absolute", width: "58%", height: "68%",
+            transform: `rotate(${scrapRot}deg)`,
+            background: "#E7DCC4", clipPath: scrapClip,
+            boxShadow: "0 22px 60px rgba(0,0,0,0.5)",
+          }} />
+          {/* hero cutout — contain, never crops a portrait or landscape source */}
+          <div style={{
+            position: "relative", height: "62%",
+            transform: `translateY(${heroY}px) rotate(${wobble}deg) scale(${scale})`,
+            filter: "drop-shadow(0 22px 34px rgba(0,0,0,0.55)) saturate(0.82) contrast(1.08)",
+          }}>
+            <Img src={staticFile(`shorts/${slug}/images/${file}`)}
+              style={{ height: "100%", width: "auto", objectFit: "contain", display: "block" }} />
+          </div>
+          {/* masking-tape corner, pinning the scrap down */}
+          <div style={{
+            position: "absolute", top: "17%", left: "38%",
+            width: 132, height: 42, opacity: tapeIn * 0.82,
+            transform: `scale(${tapeIn}) rotate(-9deg)`,
+            background: "linear-gradient(180deg, rgba(232,224,198,0.92), rgba(210,200,172,0.85))",
+            boxShadow: "0 4px 10px rgba(0,0,0,0.25)",
+          }} />
+        </AbsoluteFill>
+      )}
+
+      {label && (
+        <div style={{
+          position: "absolute", top: 90, left: 96,
+          opacity: stampIn, transform: `scale(${stampIn}) rotate(-5deg)`,
+        }}>
+          <div style={{
+            fontFamily: "'Courier New', monospace", fontWeight: 700, fontSize: 30,
+            letterSpacing: 3, color: accent, border: `3px solid ${accent}`,
+            padding: "8px 22px", borderRadius: 3,
+            boxShadow: `0 0 ${16 + stampIn * 10}px ${accent}55`,
+          }}>{label}</div>
+        </div>
+      )}
+
+      {cap && (
+        <div style={{
+          position: "absolute", bottom: 96, left: 96, right: 96,
+          opacity: capIn, transform: `translateY(${interpolate(capIn, [0, 1], [22, 0])}px)`,
+        }}>
+          <div style={{
+            fontFamily: "'Courier New', monospace", fontWeight: 700, fontSize: 34,
+            color: "rgba(244,240,230,0.92)", lineHeight: 1.34,
+            textShadow: "0 3px 16px rgba(0,0,0,0.8)",
+          }}>
+            <span style={{ borderBottom: `3px solid ${accent}`, paddingBottom: 4 }}>
+              {cap.slice(0, capChars)}
+              {cursorOn && <span style={{ color: accent }}>|</span>}
+            </span>
+          </div>
+        </div>
+      )}
+
+      {/* honesty tag — non-optional, never remove: this is an illustrated
+          reconstruction, never a real archival photo */}
+      <div style={{
+        position: "absolute", bottom: 30, right: 44, opacity: 0.6,
+        fontFamily: "'Courier New', monospace", fontWeight: 700, fontSize: 17,
+        letterSpacing: 3, color: "rgba(244,240,230,0.85)",
+      }}>RECONSTRUCTION</div>
+    </AbsoluteFill>
+  );
+};

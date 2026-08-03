@@ -127,11 +127,24 @@ docs/planning/FOOTAGE-UPGRADE.md; per-niche source rankings: scripts/SOURCES-GUI
 - **NEW VIDEO = NEW FOOTAGE (Akshay, 2026-07-19).** Never copy another slug's
   media dir; research every episode fresh. The first ~30s hook using ANY file
   another video already used is a render-BLOCKING preflight failure.
+- **FIRST 30 SECONDS = REAL VIDEO, never stills (Akshay, 2026-07-31: "stills
+  for first 30 secs doesnt explode").** Every cold-open/hook scene before
+  ~30s carries a `video` field with real motion footage — photos with camera
+  moves don't hold scrollers. Secure the hook video FIRST when sourcing; a
+  topic with zero real video anywhere is a topic to reconsider. See memory
+  `hook-first-30s-real-video`.
 - **Relevance gate:** `python3 scripts/audit_scene_relevance.py <slug>` checks
   every scene's narration against what its assigned file actually IS (source
   title from ATTRIBUTION.md): MISMATCH/WEAK/UNSOURCED/REUSE warnings + the
   HOOK-REUSE block. Runs inside preflight_doc.py automatically — fix flags by
   refetching real footage, not by hoping.
+- **The one honest exception — "unfilmable moment" beats:** `dossier: true`
+  scenes (`DossierScene`, docs/guides/DOSSIER-SCENES.md) render a hand-cut
+  "case file" reconstruction — torn newsprint, a rubber-stamp label, a
+  permanent "RECONSTRUCTION" tag — for the rare beat with genuinely zero real
+  footage/photo coverage. Native Remotion animation, no paid video-gen. Use
+  sparingly (a handful of beats per episode) and never for a real person/event
+  that has archival coverage — that's still real footage/`ExhibitScene`'s job.
 
 ## VO quality (the "AI voice" complaint — 2026-07-19)
 
@@ -232,12 +245,27 @@ placeholders; full copy in memory `blackbox-published-urls`):**
   ("seven three seven MAX", "A three twenty", "Flight six ten"); on-screen
   cap/stat/mainText keep written forms ("737 MAX"). Clock times ("3:20") and
   decades ("1960s") usually read fine — verify by ear.
-- **Music bed on every documentary (2026-07-14, viewer feedback: VO-only feels
-  flat/"aloof"):** master with `--music public/beds/doc_awe.mp3` (cosmic/melancholy),
-  `doc_tension.mp3` (disaster/dread), or `doc_open.mp3` — sidechain-ducked under the
-  voice at −18 dB by `master_video.py` / `render_and_master.py`, so it swells in
-  gaps and drops under narration. Beds are ElevenLabs-generated (owned). Add
-  `--music` to the ONE render+master pass, not as an extra encode.
+- **Music beds: use the `public/beds/bed_*.mp3` set (replaced the banned
+  doc_* set, Akshay-approved 2026-07-31).** 8 tracks by The Grey Room /
+  Density & Time from the YouTube Audio Library (free license, monetized-OK,
+  no attribution; full log in `public/beds/LICENSES.md`) — deliberately
+  picked from the library's FRESHEST additions (Jun–Aug 2025) so viewers
+  don't recognize them from other channels (Akshay's criterion: famous/
+  overused library staples read as content-farm). Tone map: `bed_awe_*`
+  (pulsar/eventhorizon/singularity/laniakea — cosmic wonder, mindwired) /
+  `bed_tension_*` (falsevacuum/rud — disaster dread, Black Box) /
+  `bed_somber_*` (redshift/kayak — memorial beats). Rotate within a family
+  across episodes; don't ship the same bed on consecutive uploads. These are
+  cleared for YouTube uploads only — NOT the 24/7 live stream or
+  off-platform use.
+- **The old `doc_awe/doc_tension/doc_open/doc_somber.mp3` files stay BANNED
+  (Akshay, 2026-07-25: "irritating," repeated viewer complaints)** — never
+  pass them to `--music`; they remain on disk only so old comps don't 404.
+  See memory `music-beds-banned-2026-07`.
+- Master with `--music public/beds/bed_<tone>_<name>.mp3` — sidechain-ducked
+  under the voice at −18 dB by `master_video.py` / `render_and_master.py`,
+  so it swells in gaps and drops under narration. Add `--music` to the ONE
+  render+master pass, not as an extra encode.
 - **But music should NOT loop the whole runtime on long/serious docs (Akshay
   feedback, 2026-07-17 — continuous music under an 11-min disaster doc "ruined
   the whole video experience").** For docs over ~8-10 min or heavy subject
@@ -254,6 +282,43 @@ placeholders; full copy in memory `blackbox-published-urls`):**
   Use `word` scenes as chapter cards; vary the scene every 1-2 lines; give each
   list item its own dedicated scene type — NEVER cycle the same 3 generic scenes
   (repetitive-animation feedback, 2026-07-01).
+- **Cold-open formula (the "Fern" documentary-writing shape, 2026-07-28):** open
+  on a precise date, a named location, and one small concrete action, in that
+  order — "November 24, 1971. Portland International Airport. A man in a dark
+  suit pays cash for a one-way ticket." No throat-clearing, no rhetorical
+  question, no "imagine this" — the story starts inside a moment. This is the
+  concrete version of doc-episode's "Cold-open 2.0 — a dated scene with a
+  person in tension" (see hook-doctor for the full rewrite process).
+- **Causal/temporal connective tissue:** carry scenes forward with *then, by
+  morning, three days later, within the hour, because of this, which meant,
+  what nobody knew was* — placed at chapter/scene turns so every beat reads as
+  caused by the last, not just sequenced after it. Combine with the existing
+  one-idea-per-sentence rule (every sentence = one scene cut) so causality
+  survives the cut into visual beats.
+- **Five cliffhanger-ending patterns** for a script's final line (≤12 words,
+  landing on a noun/name/date) — pick whichever fits the fact base: (1) **the
+  unresolved object** — a physical thing that still exists and still holds the
+  mystery ("The parachute has never been found"); (2) **the dated forward
+  jump** — leap to a later date that reopens the case ("Then, in 1980, a boy
+  found the money"); (3) **the missing piece** — name the one thing
+  investigators never got ("They had his tie. They never had his name"); (4)
+  **the quiet contradiction** — a fact that undermines everything before it
+  ("The man in seat 18C never existed"); (5) **the price line** — the human or
+  financial cost, stated flat ("The paintings are still worth half a billion
+  dollars"). Pairs with, and comes right before, the existing verbal-bridge +
+  subscribe line below — the cliffhanger closes the episode's own loop, the
+  bridge opens the next video's.
+- **No bare black-screen-and-text scenes — EVER (Akshay, 2026-07-25: "70-80% of
+  the video is black screen... it should be a podcast instead why are we doing
+  this a video").** Chapter cards (`chapter`) and kinetic stat/word reveals
+  (`kinetic`) in the doc-engine (`src/mindwired-doc/DocWide.tsx`) now render a
+  dimmed/blurred real photo behind the text (`TextSceneBg`) whenever the scene
+  has an `img` — **always give these scenes an `img`** (reuse whatever real
+  photo the surrounding segment already established; don't fetch new). A scene
+  with `chapter`/`kinetic` and NO `img` still falls back to flat black — that
+  fallback exists for when literally no real photo fits, not as the default.
+  Treat the channel like it already has a million subscribers: every frame
+  should look considered, not like a placeholder.
 - Shorts: hook (0-3s) → curiosity gap → story → twist → CTA. mainText is NOT the
   transcript — shorter and punchier, with 1-2 emphasis words.
 - End every video with the standard outro line ("…subscribe to mindwired").

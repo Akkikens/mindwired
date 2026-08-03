@@ -1,0 +1,457 @@
+{
+  "slug": "issinside",
+  "title": "Inside the $150 Billion Space Station",
+  "channel": "mindwired",
+  "niche": "space",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "This is not an animation. A real camera is flying through the most expensive machine human beings have ever built, two hundred fifty miles above your head.",
+      "video": "hook_flythrough_1.mp4",
+      "stat": "REAL NASA FOOTAGE",
+      "cap": "A real fisheye camera, flown through the real station.",
+      "motion": "slow"
+    },
+    {
+      "id": "h2",
+      "text": "It has been lived in, without a single day's break, for over twenty five years. Every person on Earth younger than that has never known a day with all of humanity on the planet.",
+      "video": "hook_aurora_1.mp4",
+      "cap": "Continuously occupied since November 2, 2000."
+    },
+    {
+      "id": "h3",
+      "text": "Nobody can tell you what it actually cost. Not even NASA. The honest answers range from seventy five billion dollars, to a quarter of a trillion.",
+      "video": "hook_8k_1.mp4",
+      "cap": "$75B? $150B? $250B? Even NASA's numbers disagree."
+    },
+    {
+      "id": "h4",
+      "text": "And its builders have already signed the contract to destroy it. In January of 2031, all four hundred thirty tons of it will be steered into the Pacific Ocean. On purpose.",
+      "video": "hook_eva_1.mp4",
+      "cap": "Scheduled destruction: January 2031.",
+      "extraHold": 10
+    },
+    {
+      "id": "ti",
+      "chapter": "INSIDE THE\n$150 BILLION SPACE STATION",
+      "text": "This is the real story of the International Space Station, told with real footage, inside and out. Every number in this video is sourced, and where the official numbers disagree, we'll show you that too.",
+      "img": "station_beauty"
+    },
+    {
+      "id": "c1",
+      "chapter": "CHAPTER ONE\nTHE VOTE THAT ALMOST KILLED IT",
+      "text": "Start with the fact almost nobody remembers. This thing very nearly never existed.",
+      "img": "capitol",
+      "query": "United States Capitol building real photograph"
+    },
+    {
+      "id": "c1_1",
+      "text": "January 1984. President Reagan stands before Congress and directs NASA to build a permanently crewed space station, within a decade. The promised price: eight billion dollars.",
+      "video": "reagan_sotu_1.mp4",
+      "cap": "\"...and to do it within a decade.\" \u2014 Reagan, State of the Union, Jan 25, 1984"
+    },
+    {
+      "id": "c1_2",
+      "text": "Nine years later, the program had spent over eleven billion dollars, and launched nothing. Not one piece of hardware.",
+      "kinetic": {
+        "count": 11.2,
+        "suffix": " billion dollars spent",
+        "sub": "1984-1993 \u2014 zero hardware launched"
+      },
+      "img": "capitol"
+    },
+    {
+      "id": "c1_3",
+      "text": "So in June of 1993, the House of Representatives voted on whether to kill it. The station survived by one vote. Two hundred sixteen, to two hundred fifteen. It would survive twenty two separate termination votes in total.",
+      "kinetic": {
+        "count": 1,
+        "countLabel": "VOTE",
+        "sub": "216-215, June 23, 1993 \u2014 the margin that saved it"
+      },
+      "img": "capitol",
+      "extraHold": 10
+    },
+    {
+      "id": "c1_4",
+      "text": "What saved it for good was the end of the Cold War. That same year, the White House merged the American station with Russia's planned successor to Mir. The station's Russian backbone, the module that still holds its main engines today, has a hull that was fabricated in the Soviet Union, in the mid nineteen eighties.",
+      "img": "zvezda",
+      "query": "Zvezda service module ISS real NASA photograph",
+      "cap": "Zvezda's hull: built as the Mir-2 core block, mid-1980s USSR."
+    },
+    {
+      "id": "c2",
+      "chapter": "CHAPTER TWO\nBOLTED TOGETHER, 250 MILES UP",
+      "text": "No factory on Earth could assemble it. So they assembled it in orbit.",
+      "video": "sts88_1.mp4"
+    },
+    {
+      "id": "c2_1",
+      "text": "November 20, 1998. A Russian rocket lifts the first module, Zarya, off the pad at Baikonur. Here's the twist almost every documentary gets wrong: Zarya was built in Moscow, but NASA paid for it. The first, Russian built piece of the station is legally American property.",
+      "video": "zarya_1.mp4",
+      "cap": "Zarya (\"Dawn\") \u2014 built by Khrunichev, Moscow. Owned by NASA, ~$220M."
+    },
+    {
+      "id": "c2_2",
+      "text": "Two weeks later, the shuttle Endeavour brought up the first American module, Unity, and an astronaut named Nancy Currie reached out with the robot arm and caught Zarya. Three spacewalks wired the two together.",
+      "video": "sts88_2.mp4",
+      "cap": "STS-88, Dec 1998 \u2014 the first two pieces, joined by hand."
+    },
+    {
+      "id": "c2_3",
+      "text": "When the hatches opened, commander Bob Cabana and cosmonaut Sergei Krikalev entered exactly side by side, so that neither nation could claim it entered first. Cabana's own words: if we were an international crew on an international space station, we needed to enter it as an international crew.",
+      "img": "sts88_entry",
+      "query": "STS-88 crew Unity module interior real NASA photograph",
+      "cap": "\"We entered it side by side.\" \u2014 Bob Cabana, first entry, Dec 10, 1998"
+    },
+    {
+      "id": "c2_4",
+      "text": "On November 2nd, 2000, the first crew moved in. Commander Bill Shepherd, a navy seal, with cosmonauts Yuri Gidzenko and Sergei Krikalev. Krikalev floated in first, turning on the lights as he went. Their first tasks: get the hot water working, and the toilet.",
+      "img": "expedition1",
+      "query": "Expedition 1 crew Shepherd Gidzenko Krikalev real NASA photograph",
+      "cap": "Nov 2, 2000 \u2014 nobody has left since."
+    },
+    {
+      "id": "c2_5",
+      "text": "Shepherd kept a ship's log, navy style. The first entry ends with one line: we have all written some space history.",
+      "img": "expedition1",
+      "cap": "\"We have all written some space history.\" \u2014 Ship's log, Expedition 1",
+      "extraHold": 10
+    },
+    {
+      "id": "c2_6",
+      "text": "Then, in February 2003, Columbia broke apart coming home, and assembly froze for almost four years. The station survived on skeleton crews of two, supplied only by Russian capsules.",
+      "img": "station_2003",
+      "query": "International Space Station 2003 configuration real NASA photograph",
+      "cap": "Feb 1, 2003 \u2014 assembly frozen nearly 4 years."
+    },
+    {
+      "id": "c2_7",
+      "text": "When the shuttles returned, the pace became relentless. The European lab. The Japanese lab, so big it took three launches. The seven windowed cupola. By July 2011, after thirty seven shuttle flights, the American side was complete.",
+      "video": "construction_1.mp4",
+      "cap": "37 shuttle flights. 13 years. ~1 million pounds, assembled in orbit."
+    },
+    {
+      "id": "c2_8",
+      "text": "It nearly came apart more than once. In 2007, a solar wing tore while unfurling, live, with the whole array energized. Astronaut Scott Parazynski rode a ninety foot boom to the tear and stitched it shut with improvised wire cufflinks. We told his story in our last video. This is what it looked like from his helmet.",
+      "video": "sts120_para_1.mp4",
+      "cap": "Nov 3, 2007 \u2014 the live-wire repair, real NASA TV footage."
+    },
+    {
+      "id": "c3",
+      "chapter": "CHAPTER THREE\nTHE NUMBER NOBODY CAN AUDIT",
+      "text": "So what did all of that actually cost? Here is where it gets genuinely strange.",
+      "img": "station_beauty"
+    },
+    {
+      "id": "c3_1",
+      "text": "The hundred and fifty billion dollar figure in this video's title, the one Guinness used to call this the most expensive object ever built, traces back to a single analysis, published in 2010. It added NASA's station budgets, to the partners' spending, to thirty six shuttle flights, priced at one point four billion dollars each.",
+      "kinetic": {
+        "count": 150,
+        "suffix": " billion \u2014 one analyst's 2010 estimate",
+        "sub": "Not an audited government number"
+      },
+      "img": "station_beauty"
+    },
+    {
+      "id": "c3_2",
+      "text": "NASA's own inspector general audited the American share a few years later, and got seventy five billion through 2013. The entire gap between the two numbers comes down to one accounting choice: what you decide a shuttle flight costs.",
+      "kinetic": {
+        "count": 75,
+        "suffix": " billion \u2014 NASA's audited US share, through 2013",
+        "sub": "OIG report IG-14-031, Sept 2014"
+      },
+      "img": "station_beauty"
+    },
+    {
+      "id": "c3_3",
+      "text": "And astronaut Terry Virts, who commanded the station, told Time magazine the true lifetime total is probably over two hundred billion, maybe two hundred and fifty. From Reagan's eight billion dollar promise, to a quarter of a trillion. Nobody actually knows.",
+      "kinetic": {
+        "words": [
+          "$8B",
+          "promised.",
+          "$75B",
+          "audited.",
+          "$250B?"
+        ],
+        "sub": "\"Maybe 250.\" \u2014 astronaut Terry Virts to TIME, Oct 2025"
+      },
+      "img": "station_beauty",
+      "extraHold": 10
+    },
+    {
+      "id": "c3_4",
+      "text": "What we do know: keeping it flying costs three to four billion dollars every year. Divide it out, and a single day of one astronaut's time comes to roughly seven and a half million dollars.",
+      "kinetic": {
+        "count": 7.5,
+        "suffix": " million dollars per crew-day",
+        "sub": "At ~$3B/yr operating cost"
+      },
+      "img": "station_beauty"
+    },
+    {
+      "id": "c4",
+      "chapter": "CHAPTER FOUR\nTHE MACHINE THAT KEEPS THEM ALIVE",
+      "text": "Now step inside. Because the station's real product isn't science. It's seven people, kept alive, by a machine that never stops fighting to kill them.",
+      "video": "tour_1.mp4"
+    },
+    {
+      "id": "c4_1",
+      "text": "The living space is bigger than a six bedroom house, with two bathrooms, a gym, and a three hundred sixty degree bay window. It circles the Earth every ninety minutes. The crew watches sixteen sunrises a day.",
+      "video": "earthviews_1.mp4",
+      "cap": "16 sunrises every 24 hours."
+    },
+    {
+      "id": "c4_2",
+      "text": "The air they breathe is made by splitting recycled water into oxygen and hydrogen. When that machine fails, and the Russian one has failed repeatedly, the backup is burning chemical oxygen candles. The same type of device that once set the space station Mir on fire.",
+      "video": "broll_life_1.mp4",
+      "cap": "Oxygen: electrolysis, backed by chemical candles."
+    },
+    {
+      "id": "c4_3",
+      "text": "Even working perfectly, the air holds roughly ten times the carbon dioxide you're breathing right now. Astronaut Scott Kelly wrote that he could feel the levels change in his own body. Headaches. Burning eyes. Irritability.",
+      "img": "kelly",
+      "query": "Scott Kelly astronaut ISS real NASA photograph",
+      "cap": "\"I can sense the levels... based only on the symptoms.\" \u2014 Scott Kelly, Endurance"
+    },
+    {
+      "id": "c4_4",
+      "text": "The water is more impressive, and more unsettling. Since 2023, the station recovers ninety eight percent of all its water. Urine, sweat, even the moisture in every breath, distilled back into drinking water that NASA's engineers say is cleaner than city tap water. The crew has a saying: yesterday's coffee is tomorrow's coffee.",
+      "video": "broll_life_2.mp4",
+      "cap": "98% water recovery. \"Yesterday's coffee is tomorrow's coffee.\""
+    },
+    {
+      "id": "c4_5",
+      "text": "Power comes from an acre of solar panels. But for a third of every orbit, the Earth blocks the sun, so the whole station runs on batteries, through sixteen nights a day. Replacing those batteries took astronauts fourteen spacewalks, spread over four years.",
+      "video": "iROSA_1.mp4",
+      "cap": "~an acre of solar array. 14 EVAs just to swap the batteries."
+    },
+    {
+      "id": "c4_6",
+      "text": "And the old batteries? In 2021, NASA threw a two and a half ton pallet of them overboard, to burn up. In March 2024, a piece the size of a soda can survived reentry, and punched through the roof of a family home in Naples, Florida. NASA confirmed it was theirs.",
+      "img": "naples",
+      "query": "NASA battery pallet ISS jettison real photograph",
+      "cap": "Mar 8, 2024 \u2014 a 1.6-lb stanchion, through the Otero family's roof.",
+      "extraHold": 10
+    },
+    {
+      "id": "c4_7",
+      "text": "The station's cooling runs on ammonia, which is toxic. In 2013, the crew watched frozen ammonia flakes drifting away from a leak. And one morning in 2015, the alarms said ammonia was inside the cabin. The crew masked up, abandoned the entire American half, and sealed the hatch behind them. It turned out to be a false alarm. For several hours, nobody knew that.",
+      "video": "broll_science_1.mp4",
+      "cap": "Jan 14, 2015 \u2014 the US segment, evacuated over a phantom leak."
+    },
+    {
+      "id": "c5",
+      "chapter": "CHAPTER FIVE\nA DAY IN A HOUSE THAT FALLS FOREVER",
+      "text": "Daily life aboard is stranger than the hardware.",
+      "video": "tour_2.mp4"
+    },
+    {
+      "id": "c5_1",
+      "text": "Astronauts sleep strapped inside phone booth sized cabins. In weightlessness, the carbon dioxide you exhale doesn't rise away from your face. It hovers there, in a bubble. Without a fan blowing on you all night, you wake up gasping, with a headache.",
+      "video": "broll_life_3.mp4",
+      "cap": "Sleep requires engineered airflow \u2014 your own breath pools around your face."
+    },
+    {
+      "id": "c5_2",
+      "text": "The newest toilet cost twenty three million dollars. It works by airflow, has a three d printed titanium fan separator, and was the first designed from the start around female astronauts. Everything it collects feeds the water system. Tomorrow's coffee.",
+      "video": "tour_3.mp4",
+      "cap": "The $23M toilet (UWMS, 2020)."
+    },
+    {
+      "id": "c5_3",
+      "text": "Every crew member exercises about two hours a day, six days a week, because in weightlessness the body simply stops building itself. NASA's own data measured bone density losses of two to nearly four percent on long missions, even with the machines.",
+      "video": "broll_life_4.mp4",
+      "cap": "~2.5 hrs/day, 6 days/week \u2014 or your skeleton dissolves."
+    },
+    {
+      "id": "c5_4",
+      "text": "There is no bread, only tortillas. Crumbs float into equipment. There is no laundry at all. Clothes are worn for days or weeks, then bagged as trash and burned up inside departing cargo ships. A crew of six throws away roughly nine hundred pounds of clothing a year.",
+      "video": "broll_life_5.mp4",
+      "cap": "No laundry exists. Dirty clothes burn up with the trash."
+    },
+    {
+      "id": "c5_5",
+      "text": "And space itself has a smell. Astronauts coming in from spacewalks describe it the same way: hot metal, welding fumes, burnt gunpowder. It clings to their suits and gloves in the airlock.",
+      "video": "eva_1.mp4",
+      "cap": "\"Ozone, burnt gunpowder, electrical equipment.\" \u2014 astronaut Thomas Jones"
+    },
+    {
+      "id": "c6",
+      "chapter": "CHAPTER SIX\nTHE CLOSE CALLS",
+      "text": "Twenty five years of continuous occupation means twenty five years of near misses. These are the real ones.",
+      "img": "station_beauty"
+    },
+    {
+      "id": "c6_1",
+      "text": "August 2018. Pressure starts bleeding out of the station, and the crew traces it to a two millimeter hole in a docked Soyuz capsule. A cosmonaut plugs it with epoxy soaked gauze. Then the investigation finds something disturbing: the hole was made by a drill. From the inside.",
+      "img": "ms09_hole",
+      "cap": "The 2mm hole \u2014 drilled, not struck. (NASA photo)",
+      "extraHold": 10
+    },
+    {
+      "id": "c6_2",
+      "text": "That December, two cosmonauts took knives to the capsule's hull insulation, live on NASA television, to sample the hole from outside. Russia finished its investigation, and never published it. Russian officials floated blaming an American astronaut. NASA called the suggestion baseless, and to this day, no cause has ever been made public.",
+      "video": "ms09_eva_1.mp4",
+      "cap": "Dec 11, 2018 \u2014 the knife-cut EVA, broadcast live. The findings: sealed."
+    },
+    {
+      "id": "c6_3",
+      "text": "July 2021. A newly docked Russian lab module suddenly starts firing its thrusters, uncommanded. The station is dragged through a tumble. NASA said forty five degrees that day. The flight director later admitted it went around one and a half full times, and ended upside down. His words: this is no kidding. A real event.",
+      "video": "nauka_1.mp4",
+      "cap": "\"The ISS brought a knife to a gun fight.\" \u2014 Flight director Zebulon Scoville",
+      "kinetic": {
+        "count": 540,
+        "suffix": " degrees \u2014 the station's actual rotation",
+        "sub": "Attitude control lost for ~47 minutes (Scoville, NYT)"
+      }
+    },
+    {
+      "id": "c6_4",
+      "text": "November 2021. Russia destroys one of its own dead satellites with a missile, fifteen hundred pieces of trackable debris, in an orbit crossing the station's. The seven people aboard, including two Russians, are woken and told to shelter inside their return capsules. The debris field came back around every ninety three minutes.",
+      "dossier": true,
+      "img": "asat_night",
+      "label": "NOVEMBER 15, 2021",
+      "cap": "Seven crew, sheltering in their lifeboats, every 93 minutes."
+    },
+    {
+      "id": "c6_5",
+      "text": "And sometimes the near miss is quieter. Frank Rubio launched for six months. His ride home sprang a coolant leak while docked, and was declared unsafe to carry him. He came home after three hundred and seventy one days, the longest American spaceflight ever. His own words: if they had asked me up front, I probably would have declined.",
+      "img": "rubio",
+      "query": "Frank Rubio astronaut ISS real NASA photograph",
+      "cap": "371 days \u2014 a record he never volunteered for."
+    },
+    {
+      "id": "c6_6",
+      "text": "Today, the quietest emergency of all is structural. The tunnel on the Russian segment, the same tunnel the first crew floated through in 2000, has been cracking and leaking air since 2019. NASA ranked it the single highest risk on the entire station. Russia says the welds are fatigued but safe. NASA has never accepted a cause. This year, Russia sealed the tunnel's hatch, permanently.",
+      "img": "zvezda",
+      "cap": "The PrK tunnel: leaking since 2019. NASA's #1-ranked risk. Now sealed.",
+      "extraHold": 15
+    },
+    {
+      "id": "c7",
+      "chapter": "CHAPTER SEVEN\nWAS ANY OF IT WORTH IT?",
+      "text": "A quarter of a trillion dollars. So what did humanity get?",
+      "video": "broll_science_2.mp4"
+    },
+    {
+      "id": "c7_1",
+      "text": "The critics have been brutal, and they weren't cranks. Nobel laureates dismissed its science. Britain's Astronomer Royal called it meagre. And NASA's own numbers gave them ammunition: at the end of 2013, about fifteen percent of the American experiment racks sat empty.",
+      "kinetic": {
+        "words": [
+          "\"Meagre.\"",
+          "15%",
+          "of",
+          "racks:",
+          "empty."
+        ],
+        "sub": "Martin Rees; NASA utilization data, Dec 2013"
+      },
+      "img": "station_beauty"
+    },
+    {
+      "id": "c7_2",
+      "text": "But in July 2025, researchers finally did what nobody had done: they tested it. They compared over thirteen hundred station experiments against matched work by the same scientists on Earth. Public station research was cited sixty three percent more. Its patents, over eighty percent more. The station's science, it turns out, measurably outperforms.",
+      "kinetic": {
+        "count": 63,
+        "suffix": "% more citations",
+        "sub": "Wang & Savin, npj Microgravity, July 2025 \u2014 public ISS research vs matched Earth work"
+      },
+      "img": "station_beauty",
+      "extraHold": 10
+    },
+    {
+      "id": "c7_3",
+      "text": "Some of it could not have happened anywhere else. The coldest experiment in the known universe, watching atoms behave as waves. The twin study, one identical twin in orbit for a year, his brother on the ground. Even the shelf life of a fabric softener in your laundry aisle was modeled with station physics.",
+      "video": "broll_science_3.mp4",
+      "cap": "Cold Atom Lab \u00b7 the Twins Study \u00b7 and yes, Downy fabric softener."
+    },
+    {
+      "id": "c7_4",
+      "text": "And honesty demands the other side: the two billion dollar particle detector bolted to the truss has counted over two hundred fifty billion cosmic rays across fifteen years, and has not found the dark matter it hoped for. Its lead scientist's own summary: none of the results were predicted.",
+      "img": "ams",
+      "query": "AMS-02 Alpha Magnetic Spectrometer ISS real NASA photograph",
+      "cap": "AMS-02: $2B, 250+ billion particles, no dark matter \u2014 yet."
+    },
+    {
+      "id": "c8",
+      "chapter": "CHAPTER EIGHT\nTHE SCHEDULED DEATH",
+      "text": "Which brings us to the ending. Because this machine now has an execution date.",
+      "img": "station_beauty"
+    },
+    {
+      "id": "c8_1",
+      "text": "The station is old. By 2024, NASA counted five hundred eighty eight parts operating beyond their planned lifetimes. Boosting it to a graveyard orbit is physically impractical. Taking it apart is impossible, no vehicle exists that could. And nobody on Earth wants to buy it. That leaves one option.",
+      "img": "station_aging",
+      "query": "International Space Station exterior aging real NASA photograph",
+      "cap": "588 parts past design life. No graveyard orbit. No buyer."
+    },
+    {
+      "id": "c8_2",
+      "text": "NASA has paid SpaceX up to eight hundred forty three million dollars to build the deorbit vehicle, a monster Dragon capsule with forty six thrusters. NASA itself puts the full cost of the funeral at around one and a half billion. The plan is public, and it is precise.",
+      "exhibit": "deorbit_plan",
+      "source": "NASA, ISS Deorbit Analysis Summary, June 2024",
+      "cap": "The USDV: NASA-owned, SpaceX-built, one mission \u2014 bring it down."
+    },
+    {
+      "id": "c8_3",
+      "text": "Through 2030, the station works normally. Then the boosts stop, and gravity takes over. The last crew rides it down to two hundred twenty kilometers, the lowest altitude their capsules are rated for, and then they leave. The last hatch closes, and humanity's longest continuous presence off the Earth, ends.",
+      "dossier": true,
+      "img": "deorbit_seq",
+      "label": "THE FINAL DESCENT",
+      "cap": "The last crew departs ~6 months before the end.",
+      "extraHold": 10
+    },
+    {
+      "id": "c8_4",
+      "text": "In the final week, the deorbit vehicle fires for the last time over the emptiest stretch of ocean on Earth, Point Nemo. The station starts tearing apart around seventy eight kilometers up. Solar wings first, then the modules themselves. What survives, pieces from microwave sized to S U V sized, rains into a footprint two thousand kilometers long.",
+      "dossier": true,
+      "img": "deorbit_seq",
+      "label": "JANUARY 2031 \u2014 POINT NEMO",
+      "cap": "Breakup at ~78 km. Debris field: ~2,000 km of empty Pacific."
+    },
+    {
+      "id": "c8_5",
+      "text": "Not everyone agrees on the timing. Elon Musk, whose company is building the deorbit vehicle, publicly recommended bringing it down years early. NASA held its date. And astronauts who lived aboard have said the quiet part: it is very sad, to spend this much and dump it in the ocean. But safety, as one analyst put it, is going to trump sentimentality.",
+      "img": "station_beauty",
+      "cap": "\"Safety is going to trump sentimentality.\" \u2014 Wendy Whitman Cobb"
+    },
+    {
+      "id": "c8_6",
+      "text": "Here's the part that should worry you: the replacements aren't ready. The commercial stations meant to take over keep slipping. Government auditors warn openly about a gap, years when the only station in orbit may be China's, which is doubling in size, and which American astronauts are banned by law from visiting. The country that was excluded from this station may end up owning the sky.",
+      "img": "station_beauty",
+      "cap": "GAO: NASA hasn't assessed the coming station gap.",
+      "extraHold": 10
+    },
+    {
+      "id": "c8_7",
+      "text": "The station turned twenty five last November. There was no party. The American government was shut down, NASA's press office was furloughed, and the milestone passed in near silence. Twenty five years of continuous human presence in space, and almost nobody noticed.",
+      "kinetic": {
+        "count": 25,
+        "suffix": " years \u2014 celebrated by no one",
+        "sub": "Nov 2, 2025 fell during the longest US government shutdown in history"
+      },
+      "img": "station_beauty"
+    },
+    {
+      "id": "coda1",
+      "text": "Scott Kelly, who spent a year aboard, wrote that building it and keeping it alive is the hardest thing human beings have ever done. Not the rockets. The cooperation. Two former enemies, welding their hardware and their fates together for a quarter century, through every crisis on the ground below.",
+      "img": "station_beauty",
+      "cap": "\"The hardest thing that human beings have ever done.\" \u2014 Scott Kelly"
+    },
+    {
+      "id": "coda2",
+      "text": "Somewhere above you right now, someone is watching their sixteenth sunrise of the day through a window Europe traded for cargo space. They know the date the last hatch closes. January, 2031.",
+      "video": "earthviews_2.mp4",
+      "cap": "January 2031.",
+      "extraHold": 15
+    },
+    {
+      "id": "bridge",
+      "text": "The machine is only half the story. The people aboard have watched it flood, spin, and crack around them. Twelve astronauts told us, in their own words, what scared them most up there. That video is on your screen now. Subscribe to mindwired, so you don't miss what we uncover next.",
+      "img": "station_beauty",
+      "cap": "Next: 12 astronauts, in their own words."
+    }
+  ]
+}

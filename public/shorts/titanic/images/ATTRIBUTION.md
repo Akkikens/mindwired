@@ -1,0 +1,27 @@
+- `titanic_dock_2.jpg` — "Titanic in Southampton.jpg" by Unknown authorUnknown author — Public domain — https://commons.wikimedia.org/wiki/File:Titanic_in_Southampton.jpg (commons)
+- `titanic_dock_3.jpg` — "Titanic leaving Southampton.png" by Anonymous/Unknown author — Public domain — https://commons.wikimedia.org/wiki/File:Titanic_leaving_Southampton.png (commons, manual pull — direct Commons API, original auto-fetch missed it)
+- `titanic_dock_4.jpg` — "RMS Titanic sea trials April 2, 1912.jpg" by Unknown author — Public domain — https://commons.wikimedia.org/wiki/File:RMS_Titanic_sea_trials_April_2,_1912.jpg (commons, manual pull — direct Commons API)
+- `titanic_construction_1.jpg` — "RMS Titanic ready for launch, 1911.jpg" by Robert Welch — Public domain — https://commons.wikimedia.org/wiki/File:RMS_Titanic_ready_for_launch,_1911.jpg (commons)
+- `titanic_construction_2.jpg` — "Knocking off at Harland & Wolff, Belfast.jpg" by The original uploader was Stavros1 at English Wikipedia. — Public domain — https://commons.wikimedia.org/wiki/File:Knocking_off_at_Harland_%26_Wolff,_Belfast.jpg (commons)
+- `titanic_construction_3.jpg` — "Construction of Titanic and Olympic.jpg" by Robert Welch — Public domain — https://commons.wikimedia.org/wiki/File:Construction_of_Titanic_and_Olympic.jpg (commons)
+- `titanic_deck_1.png` — "Titanic Boat Deck plan with lifeboats.png" by Anonymous Harland & Wolff draughtsman — Public domain — https://commons.wikimedia.org/wiki/File:Titanic_Boat_Deck_plan_with_lifeboats.png (commons)
+- `titanic_deck_2.jpg` — "Titanic portside second class boat deck.jpg" by Thomas Barker (d. 1924) — Public domain — https://commons.wikimedia.org/wiki/File:Titanic_portside_second_class_boat_deck.jpg (commons)
+- `titanic_deck_3.jpg` — "Lifeboats on Olympic Boat Deck.jpg" by Sinking of the "Titanic," Most Appalling Ocean Horror  Jay Henry Mowbray, Ph.D., LL.D. The Minter Company, Harrisburg, P — Public domain — https://commons.wikimedia.org/wiki/File:Lifeboats_on_Olympic_Boat_Deck.jpg (commons)
+- `movie_reel_1.jpeg` — "Artistic shot of a vintage film reel with soft light creating a nostalgic atmosphere." by Sami TÜRK — Pexels License (free commercial use) — https://www.pexels.com/photo/close-up-of-vintage-film-reel-in-soft-light-34084909/ (pexels)
+- `movie_reel_2.jpeg` — "Top view of vintage film camera and clapperboard on cork background, evoking old cinema vibes." by cottonbro studio — Pexels License (free commercial use) — https://www.pexels.com/photo/person-holding-black-and-white-card-3945317/ (pexels)
+- `movie_reel_3.jpeg` — "Vintage media setup featuring VHS tapes and a film clapperboard for a nostalgic cinematic feel." by DS stories — Pexels License (free commercial use) — https://www.pexels.com/photo/old-cassettes-and-clapperboard-on-white-surface-9227679/ (pexels)
+- `lord_californian_1.jpg` — "Stanley Lord.jpg" (portrait of Captain Stanley Lord) — Public domain — https://commons.wikimedia.org/wiki/File:Stanley_Lord.jpg (commons, manual pull — auto-fetch returned 0 results, resolved via direct Commons API)
+- `lord_californian_2.jpg` — "SS Californian arriving in port.jpg" — Public domain — https://commons.wikimedia.org/wiki/File:SS_Californian_arriving_in_port.jpg (commons, manual pull)
+- `lord_californian_3.jpg` — "A photograph of the CALIFORNIAN which may have been taken from the deck of the CARPATHIA... - NARA - 278339.jpg" — Public domain (US National Archives) — https://commons.wikimedia.org/wiki/File:A_photograph_of_the_CALIFORNIAN_which_may_have_been_taken_from_the_deck_of_the_CARPATHIA._The_CALIFORNIAN_joined_the..._-_NARA_-_278339.jpg (commons/NARA, manual pull)
+- `senate_hearing_1.webp` — "American Senate Inquiry - Officer Boxhall testifies in front of Senator Smith and Committee.webp" — Public domain — https://commons.wikimedia.org/wiki/File:American_Senate_Inquiry_-_Officer_Boxhall_testifies_in_front_of_Senator_Smith_and_Committee.webp (commons, manual pull — auto-fetch returned 0 results, resolved via direct Commons API)
+- `senate_hearing_2.jpg` — "J. Bruce Ismay being questioned by Senate Investigating Committee.jpg" — No restrictions — https://commons.wikimedia.org/wiki/File:J._Bruce_Ismay_being_questioned_by_Senate_Investigating_Committee.jpg (commons, manual pull)
+- `senate_hearing_3.jpg` — "US Senate Titanic inquiry witnesses.jpg" — Public domain — https://commons.wikimedia.org/wiki/File:US_Senate_Titanic_inquiry_witnesses.jpg (commons, manual pull)
+
+- `ex_mersey_1.png` — page 41 of the British Wreck Commissioner's Inquiry Final Report (1912), pdftoppm'd from the real scan — Public domain (UK government report, 1912) — https://archive.org/details/losssteamshipti00titgoog (archive.org, exact quote verified via OCR text search before extraction)
+- `ex_mersey_2.png` — page 60 of the same report — Public domain — https://archive.org/details/losssteamshipti00titgoog (archive.org, exact quote verified via OCR text search before extraction)
+
+Manual-pull note (2026-07-28): `senate_hearing` and `lord_californian` returned 0 results from
+`fetch_doc_footage.py`'s automated query — resolved via the direct Wikimedia Commons API
+technique (doc-episode SKILL.md Step 3), verified live (imageinfo license + URL) before download.
+`titanic_dock_1.jpg` (auto-fetched "Spanish Map of Southampton Docks") was deleted after contact-
+sheet eyeball — it was an unrelated Spanish-language harbor map, not a Titanic photo.

@@ -1,0 +1,579 @@
+{
+ "slug": "us1549",
+ "title": "Miracle on the Hudson: What the Black Box Actually Recorded",
+ "language": "en",
+ "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+ "channel": "blackbox",
+ "niche": "aviation",
+ "scenes": [
+  {
+   "id": "h1",
+   "text": "January fifteenth, two thousand nine. New York Tracon, Westbury, New York. Air traffic controller Patrick Harten slides into the LaGuardia departure radar seat. Three twelve in the afternoon.",
+   "img": "atc_room",
+   "query": "air traffic controller headset radar screen airport tower",
+   "stock": true,
+   "stat": "JAN 15, 2009 · 3:12 PM",
+   "cap": "New York TRACON. 3:12 PM.",
+   "motion": "slow",
+   "tone": "curiosity"
+  },
+  {
+   "id": "h2",
+   "text": "Fifteen quiet minutes into his shift, his radio crackles with three words no controller ever wants to hear.",
+   "img": "atc_room",
+   "query": "air traffic control radar screen close up",
+   "stock": true,
+   "cap": "Then, at 3:27, everything changes.",
+   "tone": "tension"
+  },
+  {
+   "id": "cold_atc1",
+   "text": "What you're about to hear is the real recording, from that exact console, at that exact minute.",
+   "speaker": "PATRICK HARTEN · NEW YORK TRACON",
+   "radioLabel": "ACTUAL ATC RECORDING",
+   "timestamp": "3:27 PM EST",
+   "cap": "Real audio · New York TRACON, Jan 15 2009",
+   "tone": "fear"
+  },
+  {
+   "id": "h3",
+   "text": "For the next few minutes, a pilot Harten has never met tells him, calmly, that both engines are gone.",
+   "img": "cockpit_generic",
+   "query": "airplane cockpit instrument panel",
+   "stock": true,
+   "cap": "Both engines. Gone.",
+   "tone": "fear"
+  },
+  {
+   "id": "h4",
+   "text": "\"People don't survive landings on the Hudson River,\" Harten said later. \"I thought it was his own death sentence.\"",
+   "img": "hearing_congress",
+   "query": "US Congress committee hearing room microphones panel",
+   "stock": true,
+   "cap": "\"I thought it was his own death sentence.\"",
+   "tone": "melancholy"
+  },
+  {
+   "id": "h5",
+   "text": "For the next thirty minutes, Patrick Harten believed he had just listened to a plane full of people die.",
+   "img": "controller_portrait",
+   "query": "man sitting alone window pensive contemplative",
+   "stock": true,
+   "cap": "He believed everyone was gone.",
+   "extraHold": 15,
+   "tone": "melancholy"
+  },
+  {
+   "id": "h6",
+   "text": "He was wrong. This is what actually happened, in the three minutes in between.",
+   "img": "hudson_aerial",
+   "query": "Hudson River New York City aerial skyline",
+   "stock": true,
+   "cap": "He was wrong. Here's what happened.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "sting",
+   "sting": true,
+   "text": "You're watching Black Box Breakdown.",
+   "tone": "confidence"
+  },
+  {
+   "id": "title",
+   "text": "Miracle on the Hudson. What the black box actually recorded.",
+   "img": "hudson_aerial",
+   "query": "Hudson River aerial New York skyline winter",
+   "stock": true,
+   "chapter": "MIRACLE ON THE HUDSON:\nWHAT THE BLACK BOX\nACTUALLY RECORDED",
+   "tone": "curiosity"
+  },
+  {
+   "id": "c1",
+   "text": "Chapter one. An ordinary day.",
+   "img": "laguardia_airport",
+   "query": "LaGuardia airport terminal exterior",
+   "stock": true,
+   "chapter": "1 — AN\nORDINARY DAY"
+  },
+  {
+   "id": "a1",
+   "text": "LaGuardia Airport, New York. US Airways flight fifteen forty-nine, an A three twenty, is bound for Charlotte. Nothing about the morning suggests it will be remembered.",
+   "video": "laguardia_1.mp4",
+   "videoQuery": "LaGuardia airport terminal departure",
+   "cap": "Just another Thursday to Charlotte.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a2",
+   "text": "By two thousand nine, US Airways had one name and one operating certificate. But its pilots were still fighting over whose seniority actually counted, a labor war that had nothing to do with this flight, and everything to do with who was in this cockpit.",
+   "img": "cockpit_generic",
+   "query": "airline pilots walking airport terminal",
+   "stock": true,
+   "cap": "One airline. Two unmerged pilot lists.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a3",
+   "text": "In the left seat: Captain Chesley Sullenberger, fifty seven. A former Air Force fighter pilot, a glider instructor since his first year at the Academy, twenty nine years into an airline career that started before some of his passengers were born.",
+   "img": "pilot_generic",
+   "query": "airline captain pilot uniform portrait",
+   "stock": true,
+   "stat": "CAPT. SULLENBERGER · 57",
+   "cap": "29 years into his airline career.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a4",
+   "text": "In the right seat: First Officer Jeffrey Skiles, forty nine. He'd actually been a captain, on other aircraft, before the industry gutted itself after September eleventh and bumped him back down to first officer.",
+   "img": "pilot_generic",
+   "query": "airline first officer pilot cockpit",
+   "stock": true,
+   "stat": "F.O. SKILES · 49",
+   "cap": "A former captain, demoted after 9/11.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a5",
+   "text": "Skiles had gotten his rating on this exact aircraft two weeks earlier. Thirty seven hours in type. This was, in fact, the very first trip he and Sullenberger had ever flown together.",
+   "img": "cockpit_generic",
+   "query": "airplane cockpit two pilots working",
+   "stock": true,
+   "stat": "37 HOURS ON THE A320",
+   "cap": "Their very first flight together.",
+   "tone": "tension"
+  },
+  {
+   "id": "a6",
+   "text": "One hundred fifty passengers board. A lap-held infant among them. Three flight attendants: Doreen Welsh, thirty eight years in the job, working alone at the rear. Sheila Dail and Donna Dent up front.",
+   "img": "boarding_generic",
+   "query": "American airline passengers boarding jet bridge domestic terminal",
+   "stock": true,
+   "stat": "150 PASSENGERS · 5 CREW",
+   "cap": "155 people. An ordinary Thursday.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a7",
+   "text": "This is the real recording of that departure. Nothing unusual. Just a tower controller, clearing one more flight off the runway.",
+   "speaker": "LAGUARDIA TOWER",
+   "radioLabel": "ACTUAL ATC RECORDING",
+   "timestamp": "3:24 PM EST",
+   "cap": "Real audio · LaGuardia Tower, cleared for takeoff.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a8",
+   "text": "Three twenty four PM. Cleared for takeoff, runway four. The climb is smooth. Nothing about it has ever been recorded as remarkable, in any of the thousands of flights that leave LaGuardia every single day.",
+   "video": "departure_1.mp4",
+   "videoQuery": "airplane takeoff runway departure climb",
+   "cap": "A completely normal takeoff.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "c2",
+   "text": "Chapter two. The birds.",
+   "img": "hudson_aerial",
+   "query": "Canada geese flock flying",
+   "stock": true,
+   "chapter": "2 — THE\nBIRDS"
+  },
+  {
+   "id": "b1",
+   "text": "Two minutes after takeoff, at two thousand eight hundred and eighteen feet, the captain says one word on the recorder. Birds.",
+   "img": "geese",
+   "query": "Canada geese flock flying formation",
+   "stock": true,
+   "stat": "2,818 FT · 3:27 PM",
+   "cap": "\"Birds.\"",
+   "tone": "fear"
+  },
+  {
+   "id": "b2",
+   "text": "A flock of Canada geese, later confirmed by DNA analysis, goes straight into both engines. Fan speed. Core speed. Both collapsing, within seconds of each other.",
+   "kinetic": {
+    "words": ["Both", "engines.", "Both", "gone."]
+   },
+   "img": "geese",
+   "extraHold": 18,
+   "tone": "fear"
+  },
+  {
+   "id": "b3",
+   "text": "In the cockpit, Sullenberger takes the controls from Skiles. \"My aircraft,\" he says. Skiles starts running the checklist for a dual engine failure, a procedure almost no airline crew has ever had to use for real.",
+   "speaker": "CAPTAIN",
+   "radioLabel": "CVR RECREATION",
+   "timestamp": "3:27:23 PM",
+   "cap": "\"My aircraft.\"",
+   "tone": "tension"
+  },
+  {
+   "id": "b4",
+   "text": "This is that same real recording again. Listen to how fast the calm breaks.",
+   "speaker": "SULLENBERGER · NEW YORK TRACON",
+   "radioLabel": "ACTUAL ATC RECORDING",
+   "timestamp": "3:27:33 PM EST",
+   "cap": "Real audio · the mayday call.",
+   "tone": "fear"
+  },
+  {
+   "id": "b5",
+   "text": "Mayday, mayday, mayday. This is Cactus fifteen thirty-nine. Hit birds. We've lost thrust in both engines. We're turning back towards LaGuardia. Under the stress of the moment, he even misstates his own flight number.",
+   "img": "cockpit_generic",
+   "query": "pilot radio headset speaking cockpit",
+   "stock": true,
+   "cap": "He misspoke his own callsign. That's how fast it hit.",
+   "tone": "fear"
+  },
+  {
+   "id": "b6",
+   "text": "Harten offers him LaGuardia's runway thirteen. Then thirty one. Then four. Real audio, again, the same call continuing.",
+   "speaker": "HARTEN & SULLENBERGER",
+   "radioLabel": "ACTUAL ATC RECORDING",
+   "timestamp": "3:28 PM EST",
+   "cap": "Real audio · three runways offered.",
+   "tone": "tension"
+  },
+  {
+   "id": "b7",
+   "text": "\"Unable.\" Each time, the same word. A jet with no engines does not turn around and land like normal. Every option Harten offers, Sullenberger has to refuse.",
+   "img": "laguardia_airport",
+   "query": "airport runway aerial view",
+   "stock": true,
+   "cap": "\"Unable.\" Three times.",
+   "tone": "tension"
+  },
+  {
+   "id": "b8",
+   "text": "Then Sullenberger says the sentence that ends the search for a runway completely.",
+   "img": "hudson_aerial",
+   "query": "Hudson River aerial view Manhattan",
+   "stock": true,
+   "cap": "Then he says it.",
+   "tone": "fear"
+  },
+  {
+   "id": "b9",
+   "text": "\"We may end up in the Hudson.\" He asks about Teterboro, in New Jersey. Harten clears him toward it. And then, seconds later, the real recording catches the moment radar loses the aircraft completely.",
+   "speaker": "SULLENBERGER & HARTEN · NEW YORK TRACON",
+   "radioLabel": "ACTUAL ATC RECORDING",
+   "timestamp": "3:29-3:30 PM EST",
+   "cap": "Real audio · the final radio exchange, then radar contact lost.",
+   "tone": "fear"
+  },
+  {
+   "id": "c3",
+   "text": "Chapter three. The decision.",
+   "img": "cockpit_generic",
+   "query": "airplane cockpit instruments closeup",
+   "stock": true,
+   "chapter": "3 — THE\nDECISION"
+  },
+  {
+   "id": "d1",
+   "text": "Sullenberger later called it 208 seconds. From bird strike to committing to the river, the report's own timestamps put it closer to 213. Either way: under four minutes to decide, correctly, with a plane full of people, and be right.",
+   "kinetic": {
+    "count": 208,
+    "countLabel": "SECONDS",
+    "sub": "from bird strike to the ditching decision"
+   },
+   "img": "hudson_aerial",
+   "extraHold": 20,
+   "tone": "tension"
+  },
+  {
+   "id": "d2",
+   "text": "No engines. No runway close enough. A glider instructor's entire second career had, without either of them knowing it, been training for exactly this.",
+   "img": "cockpit_generic",
+   "query": "airplane gliding sky clouds",
+   "stock": true,
+   "cap": "A glider instructor's whole life, converging on this moment.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "d3",
+   "text": "Skiles is still running the dual-engine checklist, a procedure built for altitude, not for a jet with three minutes left in the air. There isn't time to finish it.",
+   "img": "cockpit_generic",
+   "query": "pilot hands cockpit controls checklist",
+   "stock": true,
+   "cap": "No time to finish the checklist.",
+   "tone": "tension"
+  },
+  {
+   "id": "d4",
+   "text": "The last words on the recorder. Both men, together, bracing a plane full of strangers for a landing neither has ever practiced for real.",
+   "speaker": "SULLENBERGER & SKILES",
+   "radioLabel": "CVR RECREATION",
+   "timestamp": "3:30:43 PM",
+   "cap": "\"We're gonna brace.\"",
+   "tone": "fear"
+  },
+  {
+   "id": "c4",
+   "text": "Chapter four. The Hudson.",
+   "img": "hudson_aerial",
+   "query": "Hudson River winter cold water aerial",
+   "stock": true,
+   "chapter": "4 — THE\nHUDSON"
+  },
+  {
+   "id": "e1",
+   "text": "About eight and a half miles from LaGuardia, the airplane touches down on the Hudson River. Air temperature: nineteen degrees. Water temperature: forty one. Cold enough to kill, on its own, in minutes.",
+   "video": "hudsonwater_1.mp4",
+   "videoQuery": "Hudson River winter cold choppy water",
+   "stat": "19°F AIR · 41°F WATER",
+   "cap": "Cold enough to kill on its own.",
+   "tone": "fear"
+  },
+  {
+   "id": "e2",
+   "text": "All one hundred fifty five people aboard evacuate onto the wings, and into the slide-rafts. Structural debris tears into the rear cabin. Flight attendant Doreen Welsh, alone back there, is seriously hurt.",
+   "img": "wing_evacuation",
+   "query": "airplane emergency evacuation slide passengers safety drill",
+   "stock": true,
+   "cap": "Welsh was hurt. She stayed anyway.",
+   "tone": "fear"
+  },
+  {
+   "id": "e3",
+   "text": "She kept directing passengers toward the exits as the water rose around her feet. She evacuated last, after everyone else was off.",
+   "img": "wing_evacuation",
+   "query": "airplane wing passengers standing water rescue",
+   "stock": true,
+   "cap": "She left last. On purpose.",
+   "tone": "melancholy"
+  },
+  {
+   "id": "e4",
+   "text": "The final tally, from the official investigation: one hundred fifty five aboard. Five seriously injured. Ninety five with minor injuries. Zero dead.",
+   "kinetic": {
+    "count": 0,
+    "countLabel": "FATALITIES",
+    "sub": "155 aboard · 5 serious injuries · 0 dead"
+   },
+   "img": "wing_evacuation",
+   "extraHold": 20,
+   "tone": "relief"
+  },
+  {
+   "id": "c5",
+   "text": "Chapter five. The rescue.",
+   "img": "ferry_generic",
+   "query": "NY Waterway ferry Hudson River",
+   "stock": true,
+   "chapter": "5 — THE\nRESCUE"
+  },
+  {
+   "id": "f1",
+   "text": "This is real footage. A US Coast Guard harbor camera, running that exact afternoon, catching the plane itself, down in the river, minutes after the ditching.",
+   "video": "uscg_recovery.mp4",
+   "videoFrom": 2,
+   "videoQuery": "USAirways commuter jet crash-lands Hudson River",
+   "stat": "US COAST GUARD VTS CAMERA · JAN 15, 2009",
+   "cap": "Real footage · US Coast Guard camera.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "f2",
+   "text": "The ferry Thomas Jefferson, captained by Vincent Lombardi, is already crossing the river. He reaches the plane in roughly three and a half minutes. Before he even arrives, he warns his own crew.",
+   "video": "uscg_recovery.mp4",
+   "videoFrom": 95,
+   "videoQuery": "Hudson River plane crash aftermath",
+   "cap": "\"Because we don't know what kind of scene we're pulling up to.\"",
+   "tone": "tension"
+  },
+  {
+   "id": "f3",
+   "text": "\"I saw people walking out from the plane,\" Lombardi said, \"and it kind of looked like they were walking on water.\"",
+   "img": "ferry_generic",
+   "query": "ferry boat rescue passengers water",
+   "stock": true,
+   "cap": "\"It looked like they were walking on water.\"",
+   "tone": "curiosity"
+  },
+  {
+   "id": "f4",
+   "text": "Fourteen NY Waterway ferries respond. Between them, they pull roughly one hundred forty three people out of the freezing river. The Coast Guard and FDNY get the rest. All one hundred fifty five, alive.",
+   "video": "uscg_aftermath.mp4",
+   "videoQuery": "Hudson River plane crash recovery efforts ferries",
+   "stat": "14 FERRIES · 155 SAFE",
+   "cap": "14 ferries. Everyone, alive.",
+   "tone": "relief"
+  },
+  {
+   "id": "c6",
+   "text": "Chapter six. No verdict needed.",
+   "img": "ntsb_generic",
+   "query": "American federal government building exterior Washington",
+   "stock": true,
+   "chapter": "6 — NO VERDICT\nNEEDED"
+  },
+  {
+   "id": "g0",
+   "text": "Investigators needed the aircraft itself. Days later, real US Coast Guard footage shows the actual airframe, lifted from the river at night, headed for examination.",
+   "video": "uscg_salvage.mp4",
+   "videoFrom": 5,
+   "videoQuery": "US Airways salvage recovery Hudson River night",
+   "stat": "US COAST GUARD VIDEO · SALVAGE OPERATION",
+   "cap": "Real footage · the salvage, days later.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "g1",
+   "text": "The National Transportation Safety Board's official finding: the ingestion of large birds into each engine, resulting in an almost total loss of thrust, and the subsequent ditching on the Hudson River.",
+   "img": "ntsb_generic",
+   "query": "official government report document",
+   "stock": true,
+   "stat": "NTSB/AAR-10/03",
+   "cap": "The official cause, in the Board's own words.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "g2",
+   "text": "Here's what almost never happens after a US air disaster. Not one passenger. Not one crew member. Sued the airline, or the plane's manufacturer, over the accident itself.",
+   "img": "courthouse_generic",
+   "query": "American courthouse building exterior flag columns",
+   "stock": true,
+   "cap": "Nobody sued. Nobody had to.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "g3",
+   "text": "An aviation attorney who specializes in exactly these cases called the total absence of litigation \"amazing.\" There was no death, and very little to argue was anyone's fault.",
+   "img": "courthouse_generic",
+   "query": "lawyer office documents desk",
+   "stock": true,
+   "cap": "\"Amazing,\" the lawyer called it.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "g4",
+   "text": "The Board issued thirty four safety recommendations. Engines now have to prove they can survive bird strikes at low, reduced-power speeds, exactly the scenario that brought this plane down. That rule took the FAA fourteen years to finalize.",
+   "img": "jet_engine",
+   "query": "jet engine turbine closeup aircraft",
+   "stock": true,
+   "stat": "34 SAFETY RECOMMENDATIONS",
+   "cap": "One rule took 14 years to finally land.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "g5",
+   "text": "Around New York's airports, wildlife-management programs expanded. Over seventy thousand birds removed from the area in the years since, an unglamorous, ongoing consequence of three minutes over the Hudson.",
+   "img": "geese",
+   "query": "airport wildlife management bird control",
+   "stock": true,
+   "cap": "70,000 birds later, the work continues.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "c7",
+   "text": "Chapter seven. Where they are now.",
+   "img": "museum_generic",
+   "query": "aviation museum aircraft display",
+   "stock": true,
+   "chapter": "7 — WHERE THEY\nARE NOW"
+  },
+  {
+   "id": "i1",
+   "text": "Sullenberger retired from the airline in twenty ten, after thirty years. He later served briefly as America's ambassador to the International Civil Aviation Organization, and has spent years since as a public voice for aviation safety.",
+   "img": "safety_speaker",
+   "query": "keynote speaker on stage conference podium microphone",
+   "stock": true,
+   "cap": "Thirty years flying. A second career in safety.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "i2",
+   "text": "Skiles, the first officer with thirty seven hours in that cockpit, went on to represent tens of thousands of pilots on safety policy, and only retired in twenty twenty four, fifteen years after that flight.",
+   "img": "pilot_advocate",
+   "query": "airline captain speaking microphone conference meeting",
+   "stock": true,
+   "cap": "15 years later, still working on safety.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "i3",
+   "text": "Doreen Welsh, hurt in the rear cabin, made that flight her last before retiring, and has spoken openly since about living with the fear it left behind. Sheila Dail retired exactly ten years later, on the anniversary itself.",
+   "img": "cockpit_generic",
+   "query": "flight attendant portrait airline uniform",
+   "stock": true,
+   "cap": "It was Welsh's last flight. On purpose.",
+   "tone": "melancholy"
+  },
+  {
+   "id": "i4",
+   "text": "Patrick Harten, the man who spent thirty minutes believing he'd heard everyone die, eventually left the FAA too. His own account of that afternoon is now part of the public record, in his own sworn words to Congress.",
+   "img": "hearing_congress",
+   "query": "US Congress committee hearing room microphones panel",
+   "stock": true,
+   "cap": "His own words, now part of the public record.",
+   "tone": "melancholy"
+  },
+  {
+   "id": "i5",
+   "text": "As recently as this year, one of the passengers aboard that day was still speaking publicly, fighting alongside flight attendants for stronger cabin-crew staffing rules, and naming Welsh, Dail, and Dent by name as the reason she survived.",
+   "img": "press_conference",
+   "query": "press conference microphones podium speakers",
+   "stock": true,
+   "cap": "A passenger, still fighting for crew safety, today.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "i6",
+   "text": "And the aircraft itself, the actual airframe that carried all one hundred fifty five of them onto that river, has sat on public display in a Charlotte museum since twenty eleven.",
+   "img": "museum_generic",
+   "query": "aircraft museum display exhibit hall",
+   "stock": true,
+   "cap": "The actual plane. On display, since 2011.",
+   "tone": "melancholy"
+  },
+  {
+   "id": "coda1",
+   "text": "What stays with me about this one isn't the landing. It's Patrick Harten.",
+   "img": "controller_portrait",
+   "query": "man sitting alone window pensive contemplative",
+   "stock": true,
+   "cap": "It's Patrick Harten.",
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "coda2",
+   "text": "Thirty minutes believing he'd just listened to a plane full of strangers die, before a colleague finally told him: they survived. He didn't believe it, until he turned on a television and saw it himself.",
+   "img": "newsroom_tv",
+   "query": "television news broadcast studio anchor desk",
+   "stock": true,
+   "cap": "\"They survived.\" He didn't believe it at first.",
+   "extraHold": 18,
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "coda3",
+   "text": "Every other story on this channel ends with an investigation finding someone to blame. This one didn't need to. Two tired men, a checklist, and three minutes, were simply enough.",
+   "img": "museum_generic",
+   "query": "aircraft museum exhibit hall quiet",
+   "stock": true,
+   "cap": "No one to blame. Just enough, in time.",
+   "motion": "slow",
+   "tone": "curiosity"
+  },
+  {
+   "id": "z1",
+   "text": "One hundred fifty five people walked away. The aircraft that carried them never flew again. It still sits in Charlotte.",
+   "img": "museum_generic",
+   "query": "aircraft museum exhibit lit display",
+   "stock": true,
+   "stat": "IT STILL SITS IN CHARLOTTE",
+   "cap": "It still sits in Charlotte.",
+   "tone": "melancholy"
+  },
+  {
+   "id": "end",
+   "text": "If a crew that got everything right pulled you in, wait until you see one that got almost everything wrong, our video on Colgan Air thirty four oh seven. Subscribe to Black Box Breakdown.",
+   "img": "museum_generic",
+   "query": "aircraft museum exhibit hall wide",
+   "stock": true,
+   "chapter": "SUBSCRIBE"
+  }
+ ]
+}

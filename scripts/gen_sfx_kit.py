@@ -48,6 +48,14 @@ KIT: dict[str, tuple[str, float]] = {
         "[t]lowpass=f=2500,volume=0.35[tf];"
         "[sf][tf]amix=inputs=2:normalize=0[out]",
         0.8),
+    # stamp thud: a rubber stamp hitting paper — dry low-mid thump + a sharp
+    # paper-click transient (DossierScene's stamp/label land, DocWide.tsx)
+    "stamp_thud": (
+        "sine=f=95:d=0.3[s];anoisesrc=color=white:d=0.05:seed=81[t];"
+        "[s]afade=t=out:st=0.03:d=0.27,volume=0.85[sf];"
+        "[t]highpass=f=1800,lowpass=f=5000,afade=t=out:st=0.01:d=0.04,volume=0.5[tf];"
+        "[sf][tf]amix=inputs=2:normalize=0[out]",
+        0.3),
     # chapter boom: deeper, longer, with low noise tail
     "chapter_boom": (
         "sine=f=44:d=1.8[s];anoisesrc=color=brown:d=1.8:seed=76[n];"

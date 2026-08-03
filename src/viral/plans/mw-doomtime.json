@@ -1,0 +1,102 @@
+{
+  "slug": "mw-doomtime",
+  "title": "Could Doctor Doom's Time Machine Actually Work?",
+  "channel": "mindwired",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "start": 0,
+      "end": 5,
+      "voiceover": "Doctor Doom's time machine breaks one law of physics. And secretly obeys another.",
+      "mainText": "DOOM'S TIME MACHINE \u2014 REAL?",
+      "emphasis": [
+        "REAL"
+      ],
+      "visualConcept": "A glowing time-vortex spiral pulling inward \u2014 ominous, cinematic.",
+      "camera": [
+        "slow-push"
+      ],
+      "brollExists": true,
+      "backgroundPrompt": "A swirling glowing time vortex in deep space, purple and gold.",
+      "emotionalTone": "shock",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "loop",
+      "kind": "shockfact",
+      "start": 5,
+      "end": 12,
+      "voiceover": "Time travel is not science fiction. Einstein's own equations allow a closed timelike curve \u2014 a path that loops back into the past. A mathematician found one on paper in nineteen forty-nine.",
+      "mainText": "EINSTEIN ALLOWS TIME LOOPS",
+      "emphasis": [
+        "TIME LOOPS"
+      ],
+      "visualConcept": "A looping ribbon of spacetime folding back on itself.",
+      "camera": [
+        "slow-push"
+      ],
+      "brollExists": true,
+      "backgroundPrompt": "A ribbon of spacetime curving into a closed loop, glowing grid.",
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "catch",
+      "kind": "shockfact",
+      "start": 12,
+      "end": 19,
+      "voiceover": "The catch isn't the law. It's the fuel. To hold that loop open, you'd need exotic matter with negative energy. And we've only ever made the faintest whisper of it.",
+      "mainText": "THE FUEL: NEGATIVE ENERGY",
+      "emphasis": [
+        "NEGATIVE ENERGY"
+      ],
+      "visualConcept": "A wormhole throat straining to stay open, energy draining.",
+      "camera": [
+        "handheld"
+      ],
+      "brollExists": true,
+      "backgroundPrompt": "A wormhole throat held open by glowing exotic energy, unstable.",
+      "emotionalTone": "fear",
+      "transitionOut": "flash"
+    },
+    {
+      "id": "verdict",
+      "kind": "transformation",
+      "start": 19,
+      "end": 25,
+      "voiceover": "So here's the verdict. The time loop is real physics. The machine that powers it is still, for now, pure magic.",
+      "mainText": "LOOP: REAL. MACHINE: MAGIC.",
+      "emphasis": [
+        "MAGIC"
+      ],
+      "visualConcept": "Split screen: a clean equation vs a collapsing machine.",
+      "camera": [
+        "slow-push"
+      ],
+      "brollExists": true,
+      "backgroundPrompt": "Einstein field equations glowing beside a collapsing sci-fi machine.",
+      "emotionalTone": "awe",
+      "transitionOut": "zoomblast"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "start": 25,
+      "end": 30,
+      "voiceover": "The full breakdown of the physics is on the channel.",
+      "mainText": "FULL BREAKDOWN ON THE CHANNEL",
+      "emphasis": [
+        "FULL BREAKDOWN"
+      ],
+      "visualConcept": "Vortex pulls back to the opening spiral \u2014 loops to the hook.",
+      "camera": [
+        "crash-zoom"
+      ],
+      "brollExists": true,
+      "backgroundPrompt": "The time vortex spiral again, inviting.",
+      "emotionalTone": "confidence",
+      "transitionOut": "none"
+    }
+  ]
+}

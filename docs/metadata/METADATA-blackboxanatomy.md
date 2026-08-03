@@ -1,7 +1,7 @@
 # METADATA — What's Actually Inside a Black Box? (blackboxanatomy)
 
 **Channel:** Black Box Breakdown (@Watch-BlackBox) · **Deliverable:** `What's Actually Inside a Black Box.mp4` (4K, ~13:22 with BB outro)
-**Category:** Education · **License:** Standard · **AI disclosure:** No (illustrated/animated brand elements; no synthetic media of real people or events)
+**Category:** Science & Technology (as uploaded; note: other BB episodes use Education — pick one lane channel-wide) · **License:** Standard · **AI disclosure:** YES — tick "Altered or synthetic content" on upload (synthetic/cloned narration voice + AI-generated mascot & anatomy illustrations). Low-cost, removes the deceptive-practices risk; see docs/planning/CHANNEL-HEALTH-CHECKLIST.md.
 
 ---
 

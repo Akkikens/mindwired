@@ -1,0 +1,197 @@
+{
+ "durations": {
+  "h1": 9.326,
+  "h2": 9.561,
+  "h3": 7.157,
+  "h4": 5.721,
+  "h5": 9.091,
+  "h6": 4.911,
+  "h7": 8.673,
+  "h8": 9.796,
+  "sting": 1.489,
+  "title": 2.273,
+  "c1": 12.669,
+  "c1_2": 9.482,
+  "c1_3": 11.807,
+  "c1_4": 13.871,
+  "c1_5": 7.236,
+  "c1_6": 11.546,
+  "c1_7": 7.157,
+  "c1_8": 12.356,
+  "c1_9": 9.953,
+  "c1_10": 6.426,
+  "c1_11": 8.594,
+  "c1_12": 10.031,
+  "c1_13": 11.389,
+  "c1_14": 9.717,
+  "c1_15": 9.561,
+  "c1_16": 8.594,
+  "c1_17": 11.807,
+  "c1_18": 7.706,
+  "c2": 8.673,
+  "c2_2": 8.829,
+  "c2_3": 8.986,
+  "c2_4": 10.606,
+  "c2_5": 9.874,
+  "c2_6": 11.468,
+  "c2_7": 10.998,
+  "c2_8": 10.919,
+  "c2_9": 10.266,
+  "c2_10": 10.527,
+  "c2_11": 11.076,
+  "c2_12": 8.516,
+  "c2_13": 10.998,
+  "c2_14": 12.931,
+  "c2_15": 8.673,
+  "c2_16": 9.639,
+  "c3": 7.706,
+  "c3_2": 10.371,
+  "c3_3": 9.169,
+  "c3_4": 11.729,
+  "c3_5": 11.964,
+  "c3_6": 14.994,
+  "c3_7": 10.998,
+  "c3_8": 8.908,
+  "c3_9": 10.188,
+  "c3_10": 10.109,
+  "c3_11": 12.199,
+  "c3_12": 8.673,
+  "c3_13": 6.034,
+  "c3_14": 11.389,
+  "c3_15": 14.028,
+  "coda1": 11.233,
+  "coda2": 10.109,
+  "coda3": 8.986,
+  "coda4": 9.561,
+  "coda5": 11.468,
+  "end": 8.751
+ },
+ "images": {
+  "avi_loeb": [
+   "avi_loeb_1.jpg"
+  ],
+  "bigear_telescope": [
+   "bigear_telescope_1.png"
+  ],
+  "boyajian_photo": [
+   "boyajian_photo_1.jpg"
+  ],
+  "citizen_science": [
+   "citizen_science_1.jpeg",
+   "citizen_science_2.jpeg",
+   "citizen_science_3.jpeg"
+  ],
+  "comet_generic": [
+   "comet_generic_1.png",
+   "comet_generic_2.jpeg",
+   "comet_generic_3.jpeg"
+  ],
+  "dust_disk_concept": [
+   "dust_disk_concept_1.jpg",
+   "dust_disk_concept_2.jpg",
+   "dust_disk_concept_3.jpg"
+  ],
+  "kepler_telescope": [
+   "kepler_telescope_1.jpg",
+   "kepler_telescope_2.jpg",
+   "kepler_telescope_3.jpg"
+  ],
+  "las_cumbres": [
+   "las_cumbres_1.jpeg",
+   "las_cumbres_2.jpeg",
+   "las_cumbres_3.jpeg"
+  ],
+  "magnetar_concept": [
+   "magnetar_concept_1.jpg",
+   "magnetar_concept_2.jpg",
+   "magnetar_concept_3.jpg"
+  ],
+  "oumuamua_concept": [
+   "oumuamua_concept_1.jpg"
+  ],
+  "oumuamua_consensus": [
+   "oumuamua_consensus_1.jpg"
+  ],
+  "oumuamua_detection": [
+   "oumuamua_detection_1.jpg"
+  ],
+  "oumuamua_orbit": [
+   "oumuamua_orbit_1.jpg",
+   "oumuamua_orbit_2.jpg"
+  ],
+  "pan_starrs": [
+   "pan_starrs_1.jpg",
+   "pan_starrs_2.jpg",
+   "pan_starrs_3.jpg"
+  ],
+  "printout_review": [
+   "printout_review_1.jpeg",
+   "printout_review_2.jpeg",
+   "printout_review_3.jpeg"
+  ],
+  "radio_dish_generic": [
+   "radio_dish_generic_1.jpeg",
+   "radio_dish_generic_2.jpeg",
+   "radio_dish_generic_3.jpeg"
+  ],
+  "radio_telescope2": [
+   "radio_telescope2_1.jpeg",
+   "radio_telescope2_2.jpeg",
+   "radio_telescope2_3.jpeg"
+  ],
+  "sagittarius_sky": [
+   "sagittarius_sky_1.jpeg",
+   "sagittarius_sky_2.jpg",
+   "sagittarius_sky_3.jpeg"
+  ],
+  "starfield_deep2": [
+   "starfield_deep2_1.jpeg",
+   "starfield_deep2_2.jpeg",
+   "starfield_deep2_3.jpeg"
+  ],
+  "starfield_deep3": [
+   "starfield_deep3_1.jpeg",
+   "starfield_deep3_2.jpeg",
+   "starfield_deep3_3.jpeg"
+  ],
+  "starfield_deep4": [
+   "starfield_deep4_1.jpeg",
+   "starfield_deep4_2.jpeg",
+   "starfield_deep4_3.jpeg"
+  ],
+  "starfield_deep": [
+   "starfield_deep_1.jpeg",
+   "starfield_deep_2.jpeg",
+   "starfield_deep_3.jpeg"
+  ],
+  "starfield_title": [
+   "starfield_title_1.jpg"
+  ],
+  "tabby_lightcurve": [
+   "tabby_lightcurve_1.png",
+   "tabby_lightcurve_2.jpg",
+   "tabby_lightcurve_3.jpg"
+  ],
+  "tabby_new_paper": [
+   "tabby_new_paper_1.jpg",
+   "tabby_new_paper_2.png"
+  ],
+  "vla_dishes": [
+   "vla_dishes_1.jpg"
+  ],
+  "wow_signal_full": [
+   "wow_signal_full_1.jpg"
+  ],
+  "wow_signal_zoom": [
+   "wow_signal_zoom_1.jpg"
+  ],
+  "wright_paper": [
+   "wright_paper_1.jpg",
+   "wright_paper_2.jpg",
+   "wright_paper_3.jpg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.96,
+ "mouth": {}
+}

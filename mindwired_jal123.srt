@@ -1,0 +1,644 @@
+1
+00:00:00,333 --> 00:00:02,512
+It is August twelfth, nineteen eighty five.
+
+2
+00:00:02,512 --> 00:00:07,804
+At Haneda Airport in Tokyo, a famous man is boarding a flight he never meant to take.
+
+3
+00:00:08,933 --> 00:00:10,740
+His name is Kyu Sakamoto.
+
+4
+00:00:10,740 --> 00:00:17,606
+In nineteen sixty three, he became the first Japanese artist ever to hit number one on the American charts.
+
+5
+00:00:18,733 --> 00:00:20,553
+He always flew a different airline.
+
+6
+00:00:20,553 --> 00:00:24,193
+But tonight, every seat on it is booked solid for the holiday.
+
+7
+00:00:24,193 --> 00:00:28,137
+So his ticket gets moved, at the last minute, onto this one instead.
+
+8
+00:00:29,266 --> 00:00:33,707
+His wife does not know he switched flights. She will find out from the passenger list.
+
+9
+00:00:34,833 --> 00:00:41,383
+The aircraft is a Boeing seven forty seven, over a decade old, flown thousands of times before.
+
+10
+00:00:41,383 --> 00:00:44,080
+Five hundred and nine passengers. Fifteen crew.
+
+11
+00:00:45,200 --> 00:00:50,688
+In the cockpit, the most experienced seven forty seven captain in the airline isn't flying tonight.
+
+12
+00:00:50,688 --> 00:00:53,088
+He's sitting in the co-pilot's seat, teaching.
+
+13
+00:00:54,233 --> 00:00:57,355
+Masami Takahama has flown this exact route for years.
+
+14
+00:00:57,355 --> 00:00:59,437
+Twelve thousand four hundred flight hours.
+
+15
+00:00:59,437 --> 00:01:02,906
+Nearly five thousand of them on this specific aircraft type.
+
+16
+00:01:04,033 --> 00:01:09,784
+In twelve minutes, this aircraft will suffer the most catastrophic structural failure in aviation history.
+
+17
+00:01:09,784 --> 00:01:15,919
+And then it will keep flying anyway — completely uncontrollable — for thirty two more minutes.
+
+18
+00:01:17,066 --> 00:01:20,505
+Five hundred and twenty people will not survive it.
+
+19
+00:01:20,505 --> 00:01:26,235
+It remains, to this day, the deadliest single aircraft disaster in the history of flight.
+
+20
+00:01:27,366 --> 00:01:33,322
+The cause traces back seven years, to a repair Boeing was supposed to get right — and quietly didn't.
+
+21
+00:01:34,466 --> 00:01:36,425
+You're watching Black Box Breakdown.
+
+22
+00:01:37,566 --> 00:01:39,839
+Japan Airlines 123.
+
+23
+00:01:40,966 --> 00:01:45,842
+Seven years before this flight, this exact aircraft already tried to kill everyone on board once.
+
+24
+00:01:45,842 --> 00:01:48,280
+Nobody outside the industry ever heard about it.
+
+25
+00:01:49,399 --> 00:01:51,306
+June second, nineteen seventy eight.
+
+26
+00:01:51,306 --> 00:01:57,027
+This exact same aircraft is landing at Osaka on a routine domestic flight from Tokyo.
+
+27
+00:01:58,166 --> 00:02:03,764
+It bounces on the first touchdown. On the second, the tail slams into the runway.
+
+28
+00:02:03,764 --> 00:02:08,615
+Twenty five people are hurt. Nobody dies. The story ends there, everyone assumes.
+
+29
+00:02:09,733 --> 00:02:20,574
+The impact tears open the aircraft's aft pressure bulkhead — a domed wall of metal, built to hold the entire cabin's air pressure in, every single flight, for the rest of the aircraft's life.
+
+30
+00:02:21,700 --> 00:02:25,163
+JAL patches it temporarily, then flies the aircraft to Tokyo.
+
+31
+00:02:25,163 --> 00:02:29,667
+There, Boeing sends its own repair crew to fix it properly, for good.
+
+32
+00:02:30,800 --> 00:02:32,790
+Boeing's repair instructions are exact.
+
+33
+00:02:32,790 --> 00:02:40,753
+The torn section of bulkhead needs one new splice plate, correctly sized, fastened down with two full rows of rivets.
+
+34
+00:02:41,900 --> 00:02:43,152
+That is not what happens.
+
+35
+00:02:43,152 --> 00:02:50,415
+The crew on the ground installs a plate that's too narrow for the job — and packs the gap with a separate filler piece instead of the real part.
+
+36
+00:02:51,533 --> 00:02:58,923
+According to Japan's own investigators, the result is that a joint meant to be held by two rows of rivets ends up held by one.
+
+37
+00:02:58,923 --> 00:03:02,766
+Its strength: cut to about seventy percent of what the design called for.
+
+38
+00:03:03,900 --> 00:03:06,404
+No written record of the substitution is ever filed.
+
+39
+00:03:06,404 --> 00:03:11,135
+A Boeing inspector checks the work — and does not catch that it doesn't match the drawing.
+
+40
+00:03:12,266 --> 00:03:14,356
+Sealant is later applied along the repair's edge.
+
+41
+00:03:14,356 --> 00:03:18,535
+From that point on, nobody can even see the joint well enough to check it again.
+
+42
+00:03:19,666 --> 00:03:24,081
+July twelfth, nineteen seventy eight. The aircraft passes its post-repair inspection.
+
+43
+00:03:24,081 --> 00:03:28,495
+It is cleared to fly. Nobody involved knows anything is wrong.
+
+44
+00:03:29,633 --> 00:03:35,887
+Every single flight after that day pressurizes the cabin, then depressurizes it again on descent.
+
+45
+00:03:35,887 --> 00:03:40,474
+Like inflating a balloon. Seven thousand, four hundred times a year.
+
+46
+00:03:41,600 --> 00:03:47,181
+At the weakened rivet holes, microscopic cracks begin forming almost immediately after the repair.
+
+47
+00:03:47,181 --> 00:03:50,769
+Too small to see. Growing with every single flight.
+
+48
+00:03:51,900 --> 00:03:56,239
+The aircraft keeps flying, completely normally, for seven more years.
+
+49
+00:03:56,239 --> 00:03:59,711
+Twelve thousand, three hundred and nineteen more flights.
+
+50
+00:04:00,833 --> 00:04:02,231
+December nineteen eighty four.
+
+51
+00:04:02,231 --> 00:04:07,476
+Mechanics perform a scheduled inspection — the kind every aircraft gets every few thousand hours.
+
+52
+00:04:07,476 --> 00:04:09,924
+They check the area. They find nothing.
+
+53
+00:04:11,066 --> 00:04:12,526
+Investigators later calculate why.
+
+54
+00:04:12,526 --> 00:04:23,108
+By that inspection, the cracks were already about a centimeter long — but so thin, a visual check had only around a one-in-ten chance of catching any single one.
+
+55
+00:04:24,233 --> 00:04:33,324
+This is what one of those cracks actually looked like, magnified thousands of times under an electron microscope — every faint ridge, a single flight cycle.
+
+56
+00:04:34,466 --> 00:04:35,859
+This was not simple negligence.
+
+57
+00:04:35,859 --> 00:04:41,153
+It was a defect built to hide from the exact kind of inspection anyone would have thought to run.
+
+58
+00:04:42,300 --> 00:04:52,174
+By August of nineteen eighty five, the cracks have grown and linked together into a single fracture line, almost the length of two strides, hidden inside the tail of the aircraft.
+
+59
+00:04:53,300 --> 00:04:55,378
+Nobody on the ground knows it's there.
+
+60
+00:04:55,378 --> 00:04:58,942
+Nobody boarding tonight's flight has any way of knowing it's there either.
+
+61
+00:05:00,066 --> 00:05:01,176
+Six eighteen PM.
+
+62
+00:05:01,176 --> 00:05:07,094
+Japan Airlines Flight one twenty three pushes back from the gate at Haneda, bound for Osaka.
+
+63
+00:05:07,094 --> 00:05:09,313
+A routine, forty-five minute domestic hop.
+
+64
+00:05:10,433 --> 00:05:15,245
+Twelve minutes later, climbing toward twenty four thousand feet, there is a loud bang.
+
+65
+00:05:15,245 --> 00:05:19,027
+Both pilots say the same three words, at the same instant.
+
+66
+00:05:20,166 --> 00:05:22,581
+That bang is the aft pressure bulkhead.
+
+67
+00:05:22,581 --> 00:05:28,447
+Seven years of hidden cracks finally give way, all at once, in a fraction of a second.
+
+68
+00:05:29,566 --> 00:05:39,597
+Cabin air blasts backward into the unpressurized tail section, tearing through it, blowing out the base of the vertical fin, and severing every hydraulic line that controls the aircraft.
+
+69
+00:05:40,733 --> 00:05:45,907
+According to investigators, this entire chain of destruction takes place in a matter of seconds.
+
+70
+00:05:45,907 --> 00:05:52,462
+A modern airliner has three, sometimes four separate hydraulic systems specifically so one failure can never take them all.
+
+71
+00:05:53,600 --> 00:05:56,386
+This failure takes all of them at once.
+
+72
+00:05:56,386 --> 00:05:59,869
+In ninety seconds, the flight engineer confirms it out loud.
+
+73
+00:06:01,000 --> 00:06:05,829
+A Boeing seven forty seven has no manual backup for its flight controls.
+
+74
+00:06:05,829 --> 00:06:11,031
+Without hydraulics, the rudder, the elevators, the ailerons — none of them respond anymore.
+
+75
+00:06:12,166 --> 00:06:17,573
+The only thing the crew has left to fly the airplane with, for the rest of this flight, is the throttles.
+
+76
+00:06:18,700 --> 00:06:24,107
+Four minutes after the bang, the aircraft radios Tokyo Control with the words that will define the next half hour.
+
+77
+00:06:25,233 --> 00:06:30,297
+It will remain the longest sustained inflight emergency in the history of commercial aviation.
+
+78
+00:06:30,297 --> 00:06:34,637
+Thirty two minutes of an aircraft that will not obey its pilots.
+
+79
+00:06:35,766 --> 00:06:40,572
+The aircraft pitches and rolls on its own, in long, slow, sickening oscillations.
+
+80
+00:06:40,572 --> 00:06:47,965
+The only way the crew can fight it at all is by adding and cutting engine power, again and again.
+
+81
+00:06:49,100 --> 00:06:57,492
+Investigators later concluded that true directional steering by engine power alone was almost impossible on this aircraft — and found no evidence the crew ever managed it.
+
+82
+00:06:57,492 --> 00:07:01,534
+They weren't steering. They were just trying to keep it in the air.
+
+83
+00:07:02,666 --> 00:07:06,257
+The captain requests an emergency return to Haneda.
+
+84
+00:07:06,257 --> 00:07:12,540
+Instead, the crippled aircraft drifts west, out over Suruga Bay, completely outside anyone's control.
+
+85
+00:07:13,666 --> 00:07:24,115
+Near Mount Fuji, the crew lowers the landing gear by hand, using a backup mechanical release — the first control input beyond raw engine power that actually does something.
+
+86
+00:07:25,233 --> 00:07:35,264
+Twenty three minutes in, still fighting for altitude, the aircraft swings low over the mountains west of Tokyo — and for one moment, everyone in the cockpit can see exactly what's ahead.
+
+87
+00:07:36,400 --> 00:07:37,797
+Hey. Mountain.
+
+88
+00:07:38,933 --> 00:07:40,417
+Yes, please.
+
+89
+00:07:41,566 --> 00:07:45,275
+Mountain — take control, right. Right turn.
+
+90
+00:07:46,400 --> 00:07:47,465
+We'll hit a mountain!
+
+91
+00:07:48,600 --> 00:07:49,524
+Max power.
+
+92
+00:07:50,666 --> 00:07:51,906
+They clear it. Barely.
+
+93
+00:07:51,906 --> 00:07:59,652
+It is a near miss — nine minutes before the actual crash, and roughly nine minutes before anyone on board runs out of time completely.
+
+94
+00:08:00,800 --> 00:08:06,207
+In the cabin, passengers who understand what's happening start doing the only thing left to do.
+
+95
+00:08:07,333 --> 00:08:13,071
+A man named Hirotsugu Kawaguchi writes to his family: it has been five minutes now, he writes.
+
+96
+00:08:13,071 --> 00:08:15,771
+I don't want to take any more planes.
+
+97
+00:08:16,900 --> 00:08:21,281
+Kazuo Yoshimura writes a note asking his wife to look after their children.
+
+98
+00:08:21,281 --> 00:08:27,349
+Several other passengers write their own — messages of love, fear, instructions for the people they're leaving behind.
+
+99
+00:08:28,466 --> 00:08:38,497
+One of the flight attendants, Yumiko Tsushima, spends part of those final minutes writing out safety instructions for the passengers around her — in Japanese, then in English.
+
+100
+00:08:39,633 --> 00:08:42,141
+Several of those notes survive the crash.
+
+101
+00:08:42,141 --> 00:08:49,664
+Today, translated, they sit behind glass at Japan Airlines' own safety museum — read by every new employee the airline hires.
+
+102
+00:08:50,800 --> 00:08:52,290
+Twenty eight minutes in.
+
+103
+00:08:52,290 --> 00:08:57,879
+The aircraft climbs, briefly, then starts descending again, still rolling and pitching on its own.
+
+104
+00:08:59,000 --> 00:09:03,231
+Six minutes after that, the aircraft reports its position one last time.
+
+105
+00:09:03,231 --> 00:09:06,758
+Approach control offers two nearby airports. There is no response.
+
+106
+00:09:06,758 --> 00:09:08,874
+There will be no more responses.
+
+107
+00:09:10,000 --> 00:09:12,500
+Raise the nose. Raise the nose.
+
+108
+00:09:13,633 --> 00:09:15,102
+Power. Power.
+
+109
+00:09:16,233 --> 00:09:19,942
+Then the ground proximity warning system takes over the cockpit entirely.
+
+110
+00:09:21,066 --> 00:09:25,820
+Six times, the same automated voice repeats the only warning it knows how to give.
+
+111
+00:09:26,966 --> 00:09:30,388
+The official cockpit voice recording ends eighteen seconds later.
+
+112
+00:09:30,388 --> 00:09:33,810
+Thirty two minutes and sixteen seconds after it began.
+
+113
+00:09:34,933 --> 00:09:44,494
+The aircraft clips a ridge, then a single tree, then comes down nose-first onto a mountainside in Gunma Prefecture, on a slope that will later be named Osutaka Ridge.
+
+114
+00:09:45,633 --> 00:09:49,760
+Five hundred and twenty four people were on board Japan Airlines Flight one twenty three.
+
+115
+00:09:50,900 --> 00:09:57,248
+It takes rescuers almost sixteen hours to reach the crash site — through mountainous terrain, in total darkness.
+
+116
+00:09:58,366 --> 00:10:04,893
+Japan's own official investigation later calls the delay, quote, justifiable, given the terrain and the darkness.
+
+117
+00:10:04,893 --> 00:10:08,972
+Survivors and journalists at the time told a harsher story.
+
+118
+00:10:10,100 --> 00:10:19,426
+One of the four people who survived the crash later described hearing cries for help around her in the wreckage — cries that, through the long night, one by one, went quiet.
+
+119
+00:10:20,566 --> 00:10:27,358
+Doctors who later treated the survivors said publicly that finding them even ten hours sooner might have saved more lives.
+
+120
+00:10:27,358 --> 00:10:29,735
+Whether that's true has never been settled.
+
+121
+00:10:30,866 --> 00:10:36,112
+At ten forty five the next morning, rescuers finally find survivors. All four are women.
+
+122
+00:10:36,112 --> 00:10:41,707
+All four were sitting within the same few rows, near the very back of the aircraft.
+
+123
+00:10:42,833 --> 00:10:49,134
+One of them, an off-duty flight attendant named Yumi Ochiai, had survived sixteen hours alone in the wreckage.
+
+124
+00:10:49,134 --> 00:10:51,584
+Within eight months, she was flying again.
+
+125
+00:10:52,733 --> 00:10:55,261
+Another survivor was an eight year old girl.
+
+126
+00:10:55,261 --> 00:11:02,529
+Her mother, badly injured beside her, later said her daughter kept talking to her all night — kept her awake, kept her alive.
+
+127
+00:11:03,666 --> 00:11:08,371
+Investigators worked the wreckage for two months, and the case for nearly two years.
+
+128
+00:11:08,371 --> 00:11:11,059
+Their final report runs over three hundred pages.
+
+129
+00:11:12,200 --> 00:11:19,593
+This is what they actually recovered of the aft pressure bulkhead — the exact part that failed, laid out and photographed for the record.
+
+130
+00:11:20,733 --> 00:11:24,129
+Their conclusion, verbatim, from the official report.
+
+131
+00:11:25,266 --> 00:11:34,435
+The initiation and propagation of the fatigue cracks, they wrote, are attributable to the improper repairs of the bulkhead conducted in nineteen seventy eight.
+
+132
+00:11:35,566 --> 00:11:41,885
+Three weeks after the crash, Boeing publicly acknowledged that its repair crew had not followed its own specification.
+
+133
+00:11:41,885 --> 00:11:46,799
+It stopped short, at the time, of directly confirming the repair caused the accident.
+
+134
+00:11:47,933 --> 00:11:54,558
+Japanese prosecutors referred twenty people for possible criminal negligence charges — including four Boeing employees.
+
+135
+00:11:54,558 --> 00:11:57,650
+In the end, nobody was ever indicted.
+
+136
+00:11:58,800 --> 00:12:00,765
+But the aircraft itself changed.
+
+137
+00:12:00,765 --> 00:12:14,526
+Within a year, Japan's aviation authority ordered every Boeing seven forty seven with high flight cycles fully re-inspected, and a structural cover installed over the exact opening that let pressurized air destroy this aircraft's tail.
+
+138
+00:12:15,666 --> 00:12:24,835
+A second directive followed months later, permanently folding this exact failure mode into how every aging seven forty seven gets inspected, worldwide, from then on.
+
+139
+00:12:25,966 --> 00:12:34,858
+Two men connected to the repair and its inspection — a JAL maintenance manager and the engineer who had cleared the aircraft as airworthy — later died by suicide.
+
+140
+00:12:34,858 --> 00:12:37,617
+Both deaths were widely reported as driven by guilt.
+
+141
+00:12:38,766 --> 00:12:41,822
+The airline's president resigned twelve days after the crash.
+
+142
+00:12:41,822 --> 00:12:46,237
+He is reported to have personally visited grieving families before he stepped down.
+
+143
+00:12:47,366 --> 00:12:54,445
+Kyu Sakamoto — the singer who took the last available seat — died on that mountainside along with almost everyone else aboard.
+
+144
+00:12:55,566 --> 00:12:59,746
+One passenger, a banker named Akihisa Yukawa, also died that night.
+
+145
+00:12:59,746 --> 00:13:03,925
+His daughter was born five weeks later. She never met him.
+
+146
+00:13:05,066 --> 00:13:07,806
+She grew up to become a professional violinist.
+
+147
+00:13:07,806 --> 00:13:14,313
+In interviews, she has spoken openly about a father she only ever knew through photographs, and through this story.
+
+148
+00:13:15,433 --> 00:13:18,407
+The crash site itself is now called Osutaka Ridge.
+
+149
+00:13:18,407 --> 00:13:22,042
+A stone monument there lists all five hundred and twenty names.
+
+150
+00:13:23,166 --> 00:13:29,644
+Every August twelfth, bereaved families and volunteers still climb the mountain trail to Osutaka Ridge to pray at the site.
+
+151
+00:13:29,644 --> 00:13:32,883
+They did it again this year, on the fortieth anniversary.
+
+152
+00:13:34,033 --> 00:13:42,120
+At Haneda Airport today, Japan Airlines keeps pieces of the actual wreckage on permanent display — not for visitors, but for its own employees.
+
+153
+00:13:42,120 --> 00:13:44,142
+Every new hire walks through it.
+
+154
+00:13:45,266 --> 00:13:47,963
+There was no single villain in this story.
+
+155
+00:13:47,963 --> 00:13:55,715
+There was a hard landing, a rushed repair, one wrong part, and seven years in which nobody had a reason to look again.
+
+156
+00:13:56,833 --> 00:14:03,755
+Somewhere, right now, in the tail of an aircraft you'll never see, is a repair nobody has ever had a reason to double check.
+
+157
+00:14:04,900 --> 00:14:07,811
+That isn't a reason to be afraid of flying.
+
+158
+00:14:07,811 --> 00:14:15,898
+It's the reason aviation keeps rewriting its own rulebook, one investigation at a time — including the one that came out of this exact mountainside.
+
+159
+00:14:17,033 --> 00:14:31,479
+If a botched repair, buried for seven years, made you angry, wait until you see how Boeing killed three hundred and forty six people the exact same way, decades later — that's our episode on the seven three seven MAX, right here on this channel.
+
+160
+00:14:32,600 --> 00:14:36,373
+Wait until you see our seven three seven MAX episode next.
+
+161
+00:14:36,373 --> 00:14:40,489
+Subscribe to Black Box Breakdown, for the investigations everyone else got wrong.
+

@@ -1,0 +1,132 @@
+{
+ "durations": {
+  "h1": 9.247,
+  "h2": 11.389,
+  "h3": 8.986,
+  "h4": 10.449,
+  "ti": 15.386,
+  "gl_ch": 0.757,
+  "gl_1": 11.154,
+  "gl_2": 14.106,
+  "gl_3": 9.404,
+  "gl_4": 9.326,
+  "tr_ch": 0.914,
+  "tr_1": 8.046,
+  "tr_2": 10.684,
+  "tr_3": 8.673,
+  "ce_ch": 1.149,
+  "ce_1": 13.636,
+  "ce_2": 10.998,
+  "ce_3": 8.594,
+  "hd_ch": 0.914,
+  "hd_1": 9.404,
+  "hd_2": 9.796,
+  "hd_3": 9.953,
+  "hd_4": 9.639,
+  "wb_ch": 0.993,
+  "wb_1": 7.236,
+  "wb_2": 13.793,
+  "wb_3": 5.407,
+  "wb_4": 11.233,
+  "wa_ch": 0.914,
+  "wa_1": 11.154,
+  "wa_2": 11.154,
+  "wa_3": 10.527,
+  "wa_4": 11.233,
+  "ke_ch": 0.836,
+  "ke_1": 5.642,
+  "ke_2": 12.121,
+  "ke_3": 7.967,
+  "ke_4": 9.717,
+  "int1": 19.069,
+  "ps_ch": 0.914,
+  "ps_1": 8.359,
+  "ps_2": 11.389,
+  "ps_3": 10.998,
+  "ps_4": 10.919,
+  "ps_5": 11.311,
+  "cl1": 15.804,
+  "cl2": 13.244
+ },
+ "images": {
+  "arecibo_real": [
+   "arecibo_real_1.jpg",
+   "arecibo_real_2.jpg",
+   "arecibo_real_3.jpg"
+  ],
+  "arecibo_tease": [
+   "arecibo_tease_1.jpg"
+  ],
+  "bluewhite_star": [
+   "bluewhite_star_1.jpg",
+   "bluewhite_star_2.jpg",
+   "bluewhite_star_3.jpg"
+  ],
+  "coal_real": [
+   "coal_real_1.jpg"
+  ],
+  "diamond_real": [
+   "diamond_real_1.jpg",
+   "diamond_real_2.jpg",
+   "diamond_real_3.jpg"
+  ],
+  "flare_real": [
+   "flare_real_1.jpg",
+   "flare_real_2.jpg",
+   "flare_real_3.jpg"
+  ],
+  "hubble_real": [
+   "hubble_real_1.jpg",
+   "hubble_real_2.jpg",
+   "hubble_real_3.jpg"
+  ],
+  "iron_real": [
+   "iron_real_1.jpg",
+   "iron_real_2.jpg",
+   "iron_real_3.jpg"
+  ],
+  "kelt_scope": [
+   "kelt_scope_1.jpg"
+  ],
+  "kepler_real": [
+   "kepler_real_1.jpg",
+   "kepler_real_2.jpg",
+   "kepler_real_3.jpg"
+  ],
+  "mearth_real": [
+   "mearth_real_1.jpg",
+   "mearth_real_2.jpg"
+  ],
+  "neptune_real": [
+   "neptune_real_1.jpg",
+   "neptune_real_2.jpg",
+   "neptune_real_3.jpg"
+  ],
+  "spitzer_real": [
+   "spitzer_real_1.jpg",
+   "spitzer_real_2.jpg",
+   "spitzer_real_3.jpg"
+  ],
+  "starfield": [
+   "starfield_1.jpg",
+   "starfield_2.jpg",
+   "starfield_3.jpg"
+  ],
+  "telescope_generic": [
+   "telescope_generic_1.jpg",
+   "telescope_generic_2.jpg",
+   "telescope_generic_3.jpg"
+  ],
+  "vlt_real": [
+   "vlt_real_1.jpg",
+   "vlt_real_2.jpg",
+   "vlt_real_3.jpg"
+  ],
+  "wasp_survey": [
+   "wasp_survey_1.jpg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.97,
+ "mouth": {}
+}

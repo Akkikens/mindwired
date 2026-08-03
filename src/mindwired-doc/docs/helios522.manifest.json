@@ -1,0 +1,140 @@
+{
+ "durations": {
+  "h1": 6.269,
+  "h2": 10.031,
+  "h3": 9.091,
+  "ti": 14.916,
+  "co_ch": 2.038,
+  "co_1": 10.449,
+  "co_2": 10.606,
+  "co_3": 11.546,
+  "co_4": 11.389,
+  "ch1": 4.676,
+  "ch1_1": 15.073,
+  "ch1_2": 10.684,
+  "ch1_3": 13.009,
+  "ch1_4": 5.068,
+  "ch2_ch": 2.847,
+  "ch2_1": 13.714,
+  "ch2_2": 10.449,
+  "ch2_3": 7.549,
+  "ch3_ch": 3.631,
+  "ch3_1": 10.266,
+  "ch3_2": 11.546,
+  "ch3_3": 10.698,
+  "ch3_4": 12.931,
+  "ch3_5": 10.998,
+  "ch4_ch": 1.881,
+  "ch4_1": 10.371,
+  "ch4_2": 10.684,
+  "ch4_3": 9.091,
+  "ch4_4": 11.729,
+  "ch4_5": 8.986,
+  "ch4_6": 12.513,
+  "ch5_ch": 2.586,
+  "ch5_1": 13.244,
+  "ch5_2": 11.233,
+  "ch5_3": 7.393,
+  "ch5_4": 12.591,
+  "ch5_4b": 4.448,
+  "ch5_5": 11.468,
+  "ch5_6": 7.811,
+  "ch6_ch": 2.847,
+  "ch6_1": 19.801,
+  "ch6_2": 18.207,
+  "ch6_3": 11.546,
+  "ch7_ch": 2.769,
+  "ch7_1": 11.886,
+  "ch7_2": 9.717,
+  "ch7_3": 17.789,
+  "ch7_4": 11.729,
+  "ch8_ch": 3.396,
+  "ch8_1": 12.931,
+  "ch8_2": 11.729,
+  "ch8_3": 9.796,
+  "coda1": 12.434,
+  "coda2": 6.609,
+  "bridge": 14.681
+ },
+ "images": {
+  "737_generic": [
+   "737_generic_1.jpeg",
+   "737_generic_2.jpeg",
+   "737_generic_3.jpeg"
+  ],
+  "cockpit_generic": [
+   "cockpit_generic_1.jpeg",
+   "cockpit_generic_2.jpeg",
+   "cockpit_generic_3.jpeg"
+  ],
+  "cockpit_hook3": [
+   "cockpit_hook3_1.jpeg"
+  ],
+  "cockpit_hook": [
+   "cockpit_hook_1.jpeg",
+   "cockpit_hook_2.jpeg",
+   "cockpit_hook_3.jpeg"
+  ],
+  "engineer_inspect": [
+   "engineer_inspect_1.png"
+  ],
+  "f16_greek": [
+   "f16_greek_1.jpeg",
+   "f16_greek_2.jpeg",
+   "f16_greek_3.jpeg"
+  ],
+  "grammatiko_hills": [
+   "grammatiko_hills_1.jpeg",
+   "grammatiko_hills_2.jpeg",
+   "grammatiko_hills_3.jpeg"
+  ],
+  "grammatiko_v2": [
+   "grammatiko_v2_1.jpeg",
+   "grammatiko_v2_2.jpeg",
+   "grammatiko_v2_3.jpeg"
+  ],
+  "helios_livery": [
+   "helios_livery_1.jpeg",
+   "helios_livery_2.jpeg",
+   "helios_livery_3.jpeg",
+   "helios_livery_4.jpeg",
+   "helios_livery_5.jpeg",
+   "helios_livery_6.jpeg",
+   "helios_livery_7.jpeg"
+  ],
+  "jet_climb": [
+   "jet_climb_1.jpeg",
+   "jet_climb_2.jpeg",
+   "jet_climb_3.jpeg"
+  ],
+  "jet_cruise": [
+   "jet_cruise_1.jpeg",
+   "jet_cruise_2.jpeg",
+   "jet_cruise_3.jpeg"
+  ],
+  "jet_somber": [
+   "jet_somber_1.jpeg",
+   "jet_somber_2.jpeg",
+   "jet_somber_3.jpeg"
+  ],
+  "larnaca_airport": [
+   "larnaca_airport_1.jpeg",
+   "larnaca_airport_2.jpeg",
+   "larnaca_airport_3.jpeg"
+  ],
+  "maintenance": [
+   "maintenance_1.jpeg",
+   "maintenance_2.jpeg",
+   "maintenance_3.jpeg"
+  ],
+  "sky_alone": [
+   "sky_alone_1.jpg",
+   "sky_alone_2.jpg",
+   "sky_alone_3.jpg",
+   "sky_alone_4.jpg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.96,
+ "mouth": {}
+}

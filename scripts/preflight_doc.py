@@ -8,6 +8,7 @@ BLOCKS (each has burned a render or shipped a defect before):
   - manifest missing, or stale vs public/shorts/<slug>/images (files added/
     removed after build_doc_vo.py — rerun it / --manifest-only)
   - scene img prefix not in manifest.images (renders a silent black frame)
+  - dossier:true scene with no img prefix (renders chrome-only, no cutout)
   - scene video file missing from public/shorts/<slug>/video (render-time 404)
   - diagram name not in DIAGRAMS (renders a blank scene)
   - VO mp3 missing/empty/zero-duration (Cartesia leading-"..." bug)
@@ -87,6 +88,9 @@ def main() -> int:
         sid = s["id"]
         if s.get("img") and s["img"] not in man.get("images", {}):
             block(f"{sid}: img prefix '{s['img']}' not in manifest.images (black frame)")
+        if s.get("dossier") and not s.get("img"):
+            block(f"{sid}: dossier:true with no img prefix — renders chrome-only, "
+                  f"no hero cutout (gen_doc_dossier.py)")
         if s.get("video") and not (video_dir / s["video"]).exists():
             block(f"{sid}: video '{s['video']}' missing from {video_dir.relative_to(REPO)}")
         if s.get("diagram") and diagrams and s["diagram"] not in diagrams:

@@ -1,0 +1,842 @@
+[
+  {
+    "id": "h1",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "h2",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "h3",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "h4",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "c1",
+    "speaker": "A",
+    "chapter": "PART ONE\nTHE VIRAL CLAIM",
+    "gap": 0
+  },
+  {
+    "id": "b1",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a2",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b2",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a3",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b3",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "c2",
+    "speaker": "A",
+    "chapter": "PART TWO\nWHAT ACTUALLY HAPPENED",
+    "gap": 0
+  },
+  {
+    "id": "b4",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a4",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b5",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a5",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "c3",
+    "speaker": "B",
+    "chapter": "PART THREE\nTHE STORY THAT'S ACTUALLY TRUE",
+    "gap": 0
+  },
+  {
+    "id": "a6",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b6",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a7",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b7",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a8",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "c4",
+    "speaker": "A",
+    "chapter": "PART FOUR\nTHE STUDY EVERYONE MISQUOTES",
+    "gap": 0
+  },
+  {
+    "id": "b8",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a9",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b9",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a10",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b10",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a11",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b11",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a12",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a12b",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b12b",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a12c",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "c5",
+    "speaker": "B",
+    "chapter": "PART FIVE\nTHE REAL NUMBERS, BOTH WAYS",
+    "gap": 0
+  },
+  {
+    "id": "b12",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a13",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b13",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a14",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b14",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a15",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "c6",
+    "speaker": "A",
+    "chapter": "PART SIX\nWHAT NOBODY IN THIS DEBATE SAYS",
+    "gap": 0
+  },
+  {
+    "id": "b15",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a16",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b16",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a17",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "c7",
+    "speaker": "B",
+    "chapter": "PART SEVEN\nHOW WE ACTUALLY GOT HERE",
+    "gap": 0
+  },
+  {
+    "id": "b17",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a19",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b18",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a20",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b19",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "c8",
+    "speaker": "A",
+    "chapter": "PART EIGHT\nTHE CAUTIONARY TALE",
+    "gap": 0
+  },
+  {
+    "id": "a21",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b20",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a22",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b21",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a23",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b22",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a24",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "c9",
+    "speaker": "B",
+    "chapter": "PART NINE\nTHE JOBS QUESTION",
+    "gap": 0
+  },
+  {
+    "id": "b23",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a25",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b24",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a26",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b25",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a27",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b26",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a28",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b27",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a29",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b28",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a30",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "c10",
+    "speaker": "B",
+    "chapter": "PART TEN\nCODEWIRED'S OWN TURF",
+    "gap": 0
+  },
+  {
+    "id": "a31",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b29",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a32",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b30",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a33",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b31",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a34",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "c11",
+    "speaker": "A",
+    "chapter": "PART ELEVEN\nTHE REAL DISASTER STORY",
+    "gap": 0
+  },
+  {
+    "id": "b32",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a35",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b33",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a36",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b34",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a37",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b35",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a38",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b36",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a39",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b37",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a40",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b38",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a41",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "c12",
+    "speaker": "A",
+    "chapter": "PART TWELVE\nTHE BUG NOBODY'S TALKING ABOUT",
+    "gap": 0
+  },
+  {
+    "id": "b39",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a43",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b40",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a44",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b41",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a45",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b42",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a46",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b43",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a47",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "c13",
+    "speaker": "B",
+    "chapter": "PART THIRTEEN\nFOLLOW THE MONEY",
+    "gap": 0
+  },
+  {
+    "id": "a48",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b45",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a49",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b46",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a50",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b47",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a51",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b48",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a52",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b49",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a53",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b50",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a54",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b51",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a55",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "c14",
+    "speaker": "A",
+    "chapter": "PART FOURTEEN\nTHE CLASSROOM EFFECT",
+    "gap": 0
+  },
+  {
+    "id": "b52",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a57",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b53",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a58",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b54",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a59",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b55",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a60",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b56",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a61",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "b57",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a62",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "coda1",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "coda2",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "coda3",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "a18",
+    "speaker": "A",
+    "chapter": "",
+    "gap": 0
+  },
+  {
+    "id": "end",
+    "speaker": "B",
+    "chapter": "",
+    "gap": 0
+  }
+]

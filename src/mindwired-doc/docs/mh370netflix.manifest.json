@@ -1,0 +1,182 @@
+{
+ "durations": {
+  "h1": 9.796,
+  "h2": 11.389,
+  "h3": 1.724,
+  "h4": 15.229,
+  "h5": 7.236,
+  "h6": 11.233,
+  "sting": 2.038,
+  "title": 3.788,
+  "c0": 2.351,
+  "c1_1": 11.468,
+  "c1_2": 12.199,
+  "c1_3": 9.796,
+  "c1_4": 6.609,
+  "c1_4b": 7.314,
+  "c1_5": 13.322,
+  "c1_6": 14.681,
+  "c1_7": 14.602,
+  "c1_8": 9.561,
+  "c2": 1.881,
+  "d1": 14.681,
+  "d2": 9.717,
+  "d3": 11.076,
+  "d3b": 10.031,
+  "d4": 10.606,
+  "d5": 8.438,
+  "d6": 8.359,
+  "d6b": 4.989,
+  "d7": 14.367,
+  "c3": 1.881,
+  "e1": 13.322,
+  "e2": 18.364,
+  "e3": 9.482,
+  "e4": 10.606,
+  "e5": 11.886,
+  "e6": 10.449,
+  "e7": 12.434,
+  "e8": 12.513,
+  "e8b": 8.124,
+  "e9": 8.908,
+  "c4": 2.194,
+  "f1": 13.793,
+  "f1b": 13.793,
+  "f2": 13.871,
+  "f3": 13.401,
+  "f3b": 6.687,
+  "f4": 13.636,
+  "f5": 9.169,
+  "f6": 18.051,
+  "c5": 2.586,
+  "g1": 17.554,
+  "g2": 10.998,
+  "g3": 13.949,
+  "g4": 8.359,
+  "g5": 12.434,
+  "g6": 14.028,
+  "g7": 13.166,
+  "g8": 15.151,
+  "c6": 1.724,
+  "p0": 12.591,
+  "p1": 10.266,
+  "p2": 11.651,
+  "p2b": 6.766,
+  "p3": 12.356,
+  "p3b": 6.269,
+  "p4": 10.919,
+  "p5": 14.681,
+  "p6": 13.009,
+  "p7": 14.838,
+  "p8": 14.759,
+  "p9": 15.569,
+  "p10": 17.084,
+  "p11": 16.196,
+  "p12": 17.868,
+  "c7": 2.586,
+  "r1": 15.308,
+  "r2": 11.154,
+  "r3": 17.398,
+  "r4": 9.247,
+  "r5": 6.113,
+  "r5b": 9.326,
+  "r6": 11.468,
+  "r6b": 10.449,
+  "r7": 16.196,
+  "r8": 15.229,
+  "r8b": 7.393,
+  "r9": 13.871,
+  "c8": 1.802,
+  "v1": 17.398,
+  "v2": 6.348,
+  "v2b": 7.393,
+  "v3": 8.829,
+  "coda1": 18.364,
+  "coda2": 4.989,
+  "bridge": 20.611,
+  "subscribe": 15.804
+ },
+ "images": {
+  "annex13cover": [
+   "annex13cover_1.png",
+   "annex13cover_2.png",
+   "annex13cover_3.png"
+  ],
+  "atsbfactsheet": [
+   "atsbfactsheet_1.png"
+  ],
+  "atsbsearcharea": [
+   "atsbsearcharea_1.png",
+   "atsbsearcharea_2.png"
+  ],
+  "changybook": [
+   "changybook_3.jpeg"
+  ],
+  "cockpitgeneric2": [
+   "cockpitgeneric2_1.jpeg",
+   "cockpitgeneric2_2.jpeg",
+   "cockpitgeneric2_3.jpeg"
+  ],
+  "datagraph": [
+   "datagraph_1.png"
+  ],
+  "debris2": [
+   "debris2_1.jpg"
+  ],
+  "debrisfragment": [
+   "debrisfragment_1.jpeg",
+   "debrisfragment_2.jpeg",
+   "debrisfragment_3.jpeg"
+  ],
+  "debrispartnum": [
+   "debrispartnum_1.jpg"
+  ],
+  "directoradmit": [
+   "directoradmit_1.jpeg",
+   "directoradmit_2.jpeg",
+   "directoradmit_3.jpeg"
+  ],
+  "ebaygeneric": [
+   "ebaygeneric_1.jpeg",
+   "ebaygeneric_2.jpeg",
+   "ebaygeneric_3.jpeg"
+  ],
+  "flapdiagram": [
+   "flapdiagram_1.jpeg",
+   "flapdiagram_2.jpeg",
+   "flapdiagram_3.jpeg"
+  ],
+  "loke2026": [
+   "loke2026_1.jpeg",
+   "loke2026_2.jpeg"
+  ],
+  "radargeneric": [
+   "radargeneric_1.jpeg",
+   "radargeneric_2.jpeg",
+   "radargeneric_3.jpeg"
+  ],
+  "ransearch1": [
+   "ransearch1_1.jpg",
+   "ransearch1_2.jpg"
+  ],
+  "satdishgeneric": [
+   "satdishgeneric_2.jpeg",
+   "satdishgeneric_3.jpeg"
+  ],
+  "streamdrop": [
+   "streamdrop_1.jpeg",
+   "streamdrop_2.jpeg"
+  ],
+  "vancebook": [
+   "vancebook_1.jpeg",
+   "vancebook_2.jpeg"
+  ],
+  "wisebook": [
+   "wisebook_1.jpeg",
+   "wisebook_2.jpeg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.96,
+ "mouth": {}
+}

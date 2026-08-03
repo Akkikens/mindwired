@@ -1,0 +1,123 @@
+{
+ "durations": {
+  "hook1": 11.259,
+  "hook2": 8.202,
+  "hook3": 13.166,
+  "t0": 2.273,
+  "c1t": 2.926,
+  "c1a": 8.594,
+  "c1b": 8.516,
+  "c1c": 7.393,
+  "c1d": 9.561,
+  "c1e": 5.642,
+  "c1f": 6.531,
+  "c2t": 2.769,
+  "c2a": 7.471,
+  "c2b": 8.829,
+  "c2c": 8.516,
+  "c2d": 7.628,
+  "c2e": 14.028,
+  "c2f": 10.109,
+  "c2g": 18.442,
+  "c2h": 9.561,
+  "c3t": 2.351,
+  "c3a": 9.561,
+  "c3b": 10.762,
+  "c3c": 10.188,
+  "c3d": 6.348,
+  "c4t": 1.802,
+  "c4a": 10.606,
+  "c4b": 12.356,
+  "c4c": 12.199,
+  "c5t": 2.586,
+  "c5a": 11.389,
+  "c5b": 9.482,
+  "c5c": 6.426,
+  "c5d": 9.169,
+  "c5e": 6.269,
+  "c5f": 11.651,
+  "c5g": 5.878,
+  "c6t": 2.116,
+  "c6a": 10.109,
+  "c6b": 10.266,
+  "c7t": 3.317,
+  "c7a": 7.811,
+  "c7b": 11.076,
+  "c7c": 10.031,
+  "c7d": 6.844
+ },
+ "images": {
+  "article19": [
+   "article19_1.png"
+  ],
+  "busdetention": [
+   "busdetention_1.png"
+  ],
+  "candle": [
+   "candle_1.png"
+  ],
+  "crowdscale": [
+   "crowdscale_1.png"
+  ],
+  "demands": [
+   "demands_1.png"
+  ],
+  "detention": [
+   "detention_1.png"
+  ],
+  "disputed": [
+   "disputed_1.png"
+  ],
+  "examleak": [
+   "examleak_1.png"
+  ],
+  "government": [
+   "government_1.png"
+  ],
+  "march": [
+   "march_1.png"
+  ],
+  "numbers": [
+   "numbers_1.png"
+  ],
+  "opposition": [
+   "opposition_1.png"
+  ],
+  "policebus": [
+   "policebus_1.png"
+  ],
+  "prohibitory": [
+   "prohibitory_1.png"
+  ],
+  "quotecard": [
+   "quotecard_1.png"
+  ],
+  "released": [
+   "released_1.png"
+  ],
+  "restrictions": [
+   "restrictions_1.png"
+  ],
+  "sansad": [
+   "sansad_1.jpg"
+  ],
+  "sitin": [
+   "sitin_1.png"
+  ],
+  "station": [
+   "station_1.png"
+  ],
+  "supremecourt": [
+   "supremecourt_1.png"
+  ],
+  "teargas": [
+   "teargas_1.png"
+  ],
+  "wordmark": [
+   "wordmark_1.png"
+  ]
+ },
+ "missing": [],
+ "speed": 0.95,
+ "mouth": {}
+}

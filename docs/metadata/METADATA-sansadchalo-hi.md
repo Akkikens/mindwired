@@ -3,67 +3,83 @@
 Neutral news-explainer on the July 20, 2026 Delhi "Sansad Chalo" protest, the
 NEET/exam movement, Sonam Wangchuk's hunger strike, Ladakh's Sixth-Schedule
 demand, and the constitutional right to peaceful assembly (Article 19).
-Channel rules applied: HINDI-ONLY description, no angle brackets anywhere,
-Education category, keywords front-loaded, neutral & attributed throughout,
-no calls to action, no editorial verdict. Narrator Rohan; NO mascot cutaways.
+Language (Akshay, 2026-07-20): ENGLISH title (Hindi title fine as an A/B alt),
+description ENGLISH-first then HINDI. No angle brackets anywhere, Education
+category, keywords front-loaded, neutral & attributed throughout, no calls to
+action, no editorial verdict. Narrator Rohan; NO mascot cutaways.
 
-> NOTE for Akshay — description language: I followed the task brief + the
-> `METADATA-almostdied-hi.md` pattern + CLAUDE.md (DimaagBatti = HINDI-ONLY).
-> A 2026-07-18 memory says this was reversed to English-title + English-then-Hindi.
-> If that reversal is current, say the word and I'll swap to that structure.
-
-## Title (primary)
-सोनम वांगचुक, लद्दाख और 20 जुलाई का प्रदर्शन — पूरी कहानी, आसान भाषा में
+## Title (primary — English)
+Sonam Wangchuk, Ladakh & the July 20 Protest: What Actually Happened | Explained
 
 ## A/B alternates
-- 20 जुलाई 2026: जंतर-मंतर पर क्या हुआ? | नीट, वांगचुक और Article 19 समझिए
-- लद्दाख, नीट और शांतिपूर्ण प्रदर्शन का हक़ | 20 जुलाई की पूरी explainer
-- भूख हड़ताल से 'संसद चलो' मार्च तक — 20 जुलाई की पूरी कहानी (आसान भाषा में)
+- What Happened in Delhi on July 20, 2026? NEET Protest, Wangchuk & Article 19 Explained
+- The 'Sansad Chalo' Protest Explained: NEET, Sonam Wangchuk, Ladakh & the Right to Protest
+- (Hindi alt) सोनम वांगचुक, लद्दाख और 20 जुलाई का प्रदर्शन — पूरी कहानी, आसान भाषा में
 
-## Description (HINDI ONLY)
+## Description (ENGLISH first, then HINDI)
 
-सोनम वांगचुक, लद्दाख की माँग, नीट परीक्षा विवाद और 20 जुलाई 2026 के 'संसद चलो'
-प्रदर्शन की पूरी कहानी — आसान भाषा में, तथ्यों के साथ। ये एक education explainer
-है: क्या पुख़्ता है, क्या अब भी विवादित है, और भारत का संविधान शांतिपूर्ण प्रदर्शन
-के बारे में क्या कहता है।
+Sonam Wangchuk, Ladakh's statehood / Sixth Schedule demand, the 2026 NEET exam-leak
+movement, and the July 20, 2026 'Sansad Chalo' march in Delhi — the full story,
+explained simply and with sources. This is an education explainer: what is confirmed,
+what is still disputed, and what India's Constitution says about the right to peaceful
+assembly (Article 19).
 
-20 जुलाई 2026 को दिल्ली के जंतर-मंतर पर हज़ारों नौजवान 'संसद चलो' मार्च के लिए
-जमा हुए। माँग थी शिक्षा मंत्री का इस्तीफ़ा, नीट परीक्षा के पेपर लीक और गड़बड़ियों
-को लेकर। पुलिस ने आँसू गैस और लाठीचार्ज किया; दोनों तरफ़ दर्जनों लोग घायल हुए।
-इस वीडियो में हम हर आँकड़ा और हर बयान स्रोत के हवाले से रखते हैं — और साफ़ बताते
-हैं कि किस बात पर दोनों पक्षों की कहानी अलग है।
+On July 20, 2026, thousands of young people gathered at Delhi's Jantar Mantar for a
+'Sansad Chalo' march, demanding the Education Minister's resignation over the NEET
+paper-leak. Police used tear gas and a lathi charge; dozens were injured on both sides.
+In this video every figure and statement is attributed to its source — and we are clear
+about where the two sides' accounts differ. No deaths were reported on July 20; the
+September 2025 Leh events are covered separately as background.
 
-वीडियो में:
-- 20 जुलाई को असल में क्या हुआ (पुख़्ता तथ्य, दोनों पक्षों के आँकड़ों के साथ)
-- ये आंदोलन किस बारे में है: नीट विवाद और युवाओं का आंदोलन
-- सोनम वांगचुक कौन हैं और उनका अहिंसक तरीक़ा
-- लद्दाख की माँग: राज्य का दर्जा और संविधान की छठी अनुसूची
-- भूख हड़ताल से अस्पताल तक: दिल्ली हाई कोर्ट का आदेश
-- सरकार, पुलिस और विपक्ष ने क्या कहा
-- क्या अब भी विवादित है
-- पृष्ठभूमि: सितंबर 2025, लेह (एक अलग घटना)
-- क़ानून क्या कहता है: अनुच्छेद 19 और शांतिपूर्ण प्रदर्शन का अधिकार
+In this video:
+- What actually happened on July 20 (verified, with both sides' numbers)
+- What the movement is about: the NEET controversy and the youth movement
+- Who Sonam Wangchuk is, and his record of non-violent methods
+- Ladakh's demand: statehood and the Sixth Schedule
+- From the hunger strike to hospitalisation: the Delhi High Court order
+- What the government, police and opposition said
+- What remains disputed
+- Background: September 2025, Leh (a separate event)
+- What the law says: Article 19 and the right to peaceful protest
 
-इस वीडियो का मक़सद किसी का पक्ष लेना नहीं, बल्कि तथ्यों को आसान भाषा में समझाना
-है। हर बात भरोसेमंद समाचार स्रोतों और अदालती/सरकारी रिकॉर्ड से ली गई है। बिना
-पुष्टि वाले सोशल मीडिया दावों को इसमें शामिल नहीं किया गया।
+The aim is not to take sides but to explain the facts in simple language. Everything is
+drawn from reputable news sources and court / government records. Unverified social-media
+claims are not included.
 
 CHAPTERS
-0:00 परिचय
-0:40 20 जुलाई को क्या हुआ
-2:19 आंदोलन किस बारे में है
-2:57 सोनम वांगचुक कौन हैं
-3:52 लद्दाख की माँग
-5:00 भूख हड़ताल से अस्पताल तक
-6:14 दोनों पक्षों ने क्या कहा
-7:02 जो अब भी विवादित है
-7:39 पृष्ठभूमि सितंबर 2025 लेह
-8:42 क़ानून क्या कहता है
+0:00 Intro
+0:40 What happened on July 20
+2:19 What the movement is about
+2:57 Who is Sonam Wangchuk
+3:52 Ladakh's demand
+5:00 Hunger strike to hospital
+6:14 What both sides said
+7:02 What is still disputed
+7:39 Background: September 2025, Leh
+8:42 What the law says
 
-▶ और देखिए — DimaagBatti
-DimaagBatti playlist: [paste playlist URL]
-और explainer: [paste related video URL]
-DimaagBatti को subscribe करें — हर मुद्दा, आसान भाषा में:
+-----
+
+(हिंदी) सोनम वांगचुक, लद्दाख की माँग, नीट परीक्षा विवाद और 20 जुलाई 2026 के 'संसद चलो'
+प्रदर्शन की पूरी कहानी — आसान भाषा में, तथ्यों के साथ। ये एक education explainer है: क्या
+पुख़्ता है, क्या अब भी विवादित है, और भारत का संविधान शांतिपूर्ण प्रदर्शन के बारे में क्या
+कहता है।
+
+20 जुलाई 2026 को दिल्ली के जंतर-मंतर पर हज़ारों नौजवान 'संसद चलो' मार्च के लिए जमा हुए।
+माँग थी शिक्षा मंत्री का इस्तीफ़ा, नीट परीक्षा के पेपर लीक और गड़बड़ियों को लेकर। पुलिस ने
+आँसू गैस और लाठीचार्ज किया; दोनों तरफ़ दर्जनों लोग घायल हुए। इस वीडियो में हम हर आँकड़ा
+और हर बयान स्रोत के हवाले से रखते हैं — और साफ़ बताते हैं कि किस बात पर दोनों पक्षों की
+कहानी अलग है। 20 जुलाई को किसी की मौत की ख़बर नहीं आई; सितंबर 2025 की लेह की घटना
+अलग है, जिसे पृष्ठभूमि के तौर पर बताया गया है।
+
+इस वीडियो का मक़सद किसी का पक्ष लेना नहीं, बल्कि तथ्यों को आसान भाषा में समझाना है।
+हर बात भरोसेमंद समाचार स्रोतों और अदालती/सरकारी रिकॉर्ड से ली गई है। बिना पुष्टि वाले
+सोशल मीडिया दावों को इसमें शामिल नहीं किया गया।
+
+▶ MORE FROM DimaagBatti
+Playlist: [paste playlist URL]
+More explainers: [paste related video URL]
+Subscribe to DimaagBatti — हर मुद्दा, आसान भाषा में:
 https://www.youtube.com/@dimaagbatti?sub_confirmation=1
 
 Category: Education · License: Standard YouTube License
@@ -80,13 +96,27 @@ sonam wangchuk,sonam wangchuk hindi,ladakh protest,ladakh statehood,sixth schedu
 हिसाब से ऐसी ख़बरों में सबसे ज़रूरी क्या होना चाहिए — तथ्यों की जाँच, दोनों
 पक्षों का बराबर पक्ष, या कुछ और? नीचे comment में बताइए। 👇
 
-## Thumbnail (somber; no victim faces, no gore)
-House style, yellow #FFC53D accent, 3-4 Hindi words. Two concepts:
-- A) base = somber empty-street illustration (leh2025b_1.png) OR the barricade
-  sketch; text: "20 जुलाई: क्या हुआ?" (top) + small "आसान भाषा में"
-- B) base = Wangchuk free-licensed portrait (wangchuk_1.jpg, CC BY 2.0, credit
-  in description); text: "लद्दाख, नीट और वांगचुक" / "पूरी कहानी"
-No protest/press photos; no identifiable victim faces; no blood.
+## Thumbnail (somber; no victim faces, no gore, neutral)
+House style: bold Hindi (Noto Devanagari), yellow #FFC53D accent on 1-3 key words,
+dark/somber base, 3-4 words. NO sensational/editorial words ("बेरहमी" etc.), no
+victim faces, no press/protest photos, no blood.
+
+Thumbnail TEXT options (pick one; first = recommended):
+1. एक दिन, दो कहानियाँ।            ← recommended: honest to the contested framing + curiosity gap, takes no side
+2. 20 जुलाई: क्या हुआ?             ← direct question, education framing
+3. सच क्या है?                      ← minimal, neutral, high curiosity
+4. वांगचुक, लद्दाख और नीट           ← the "who/what", search-aligned
+5. प्रदर्शन का हक़ कहाँ तक?         ← ties to the Article 19 spine
+
+Accent word (yellow): "दो कहानियाँ" (opt 1) / "क्या हुआ" (opt 2) / "सच" (opt 3).
+
+Base image (pick per text; all safe-licensed / owned):
+- A) somber empty-street illustration `leh2025b_1.png` or barricade `prohibitory_1.png` (mood, anonymous)
+- B) the lathi-charge illustration `lathicharge_1.png` (strongest, still anonymous/no-gore) — pairs with opt 1/2
+- C) Wangchuk portrait `wangchuk_1.jpg` (CC BY 2.0, credit in desc) — pairs with opt 4
+- D) India-view Ladakh map `ladakhmap_1.png` — pairs with opt 4/5
+
+Recommended combo: **opt 1 text ("एक दिन, दो कहानियाँ।", yellow on "दो कहानियाँ") over base B (lathicharge)** — somber, honest, strong pull, no sensationalism.
 
 ## Notes
 - 4K via render_gce.sh (base image exists). NO outro exists for DimaagBatti —
@@ -103,34 +133,9 @@ No protest/press photos; no identifiable victim faces; no blood.
 
 ---
 
-# SHORT — SansadchaloShort (out/sansadchalo_short.mp4, 1080x1920, 41.6s, -14 LUFS)
-
-Vertical funnel to the long-form. Same guardrails (neutral, attributed, no press/
-social photos, owned illustrations). Leads with the students' side (the strong
-lathi-charge illustration + protester/Wangchuk allegation), then police account,
-then "disputed", then Article 19, then CTA to the full video.
-
-## Short title
-20 जुलाई: दिल्ली में क्या हुआ? #shorts
-
-## Short description (Hindi)
-20 जुलाई 2026, दिल्ली — 'संसद चलो' मार्च, आँसू गैस और लाठीचार्ज। दोनों तरफ़
-दर्जनों घायल। पूरी कहानी तथ्यों के साथ — नीट विवाद, सोनम वांगचुक और लद्दाख —
-पूरे वीडियो में। Link ऊपर। DimaagBatti — हर मुद्दा, आसान भाषा में।
-https://www.youtube.com/@dimaagbatti?sub_confirmation=1
-
-## Short hashtags
-#shorts #sonamwangchuk #ladakh #neet #sansadchalo #article19 #dimaagbatti #hindi
-
-## Search-query cluster (one, per Shorts packaging standard)
-20 july delhi protest, sansad chalo short, sonam wangchuk short hindi, neet protest short, ladakh protest explained short
-
-## Pinned comment (Short)
-पूरी कहानी — तथ्यों के साथ — पूरे वीडियो में है (link ऊपर)। आपका क्या सवाल है?
-
-## Drip / funnel plan (per algorithm playbook)
-- Publish LONG-FORM first (watch-time + subscribers on the core audience).
-- Drip this Short ~24h later, pinned link/CTA pointing to the live long-form,
-  while the audience the algorithm just learned is warm. Short bypasses channel
-  authority (judged on its own first 3s) — discovery funnel for a new topic.
-- Thumbnail/first-frame is the lathi-charge illustration beat (s4) — strongest hook.
+# SHORT
+Full, detailed Short package moved to its own doc:
+**[METADATA-sansadchalo-short.md](METADATA-sansadchalo-short.md)**
+(title + A/B, English-first-then-Hindi description, 15 hashtags, ~495-char tags,
+pinned comment, search cluster, cover/thumbnail text, on-screen caption recap,
+and the drip/publishing plan). File: `out/sansadchalo_short.mp4` (verified).

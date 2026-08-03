@@ -1,0 +1,10 @@
+- **hook_1.mp4** — What is a Black Hole | We Asked a NASA Expert — Public domain (NASA) — LaRC — https://images.nasa.gov/details/What is a Black Hole
+- **loop_1.mp4** — The Helix Nebula (Webb, Hubble and Spitzer views) — CC BY 4.0 — NASA, ESA, CSA, STScI, NASA-JPL, SCC, A. Pagan (STScI) — https://esawebb.org/videos/weic2601a/
+- **catch_1.mp4** — Звук из бездны (Автор Коннов Д.О.).webm — CC BY-SA 4.0 — Dmitry Konnov Olegovich — https://commons.wikimedia.org/wiki/File:%D0%97%D0%B2%D1%83%D0%BA_%D0%B8%D0%B7_%D0%B1%D0%B5%D0%B7%D0%B4%D0%BD%D1%8B_(%D0%90%D0%B2%D1%82%D0%BE%D1%80_%D0%9A%D0%BE%D0%BD%D0%BD%D0%BE%D0%B2_%D0%94.%D0%9E.).webm
+- **verdict_1.mp4** — What's Up: February 2024 Skywatching Tips from NASA — Public domain (NASA) — JPL — https://images.nasa.gov/details/JPL-20240201-WHATSUf-0001-Whats_Up_February_2024
+- **cta_1.mp4** — How NASA’s Deep Space Atomic Clock Could Be the Next Space GPS — Public domain (NASA) — JPL — https://images.nasa.gov/details/JPL-20190610-TECHf-0001-Time Flies Deep Space Atomic Clock
+- `hook_1.jpg` — "Behemoth Black Hole Found in an Unlikely Place" by GSFC — Public domain (NASA) — https://images.nasa.gov/details/behemoth-black-hole-found-in-an-unlikely-place_26209716511_o (nasa)
+- `loop_1.jpg` — "Hubble Spies Spiral Galaxy" by GSFC — Public domain (NASA) — https://images.nasa.gov/details/GSFC_20171208_Archive_e000158 (nasa)
+- `catch_1.jpg` — "Galaxy Cluster Abell 1689" by GSFC — Public domain (NASA) — https://images.nasa.gov/details/GSFC_20171208_Archive_e001983 (nasa)
+- `verdict_1.jpg` — "Andromeda Galaxy" by JPL — Public domain (NASA) — https://images.nasa.gov/details/PIA04921 (nasa)
+- `cta_1.png` — "James Webb Space Telescope NIRCam Image of the “Cosmic Cliffs” in Carina Nebula" by STScI (Webb) — Public domain (NASA) — https://images.nasa.gov/details/carina_nebula (nasa)

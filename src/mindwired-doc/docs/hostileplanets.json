@@ -1,0 +1,342 @@
+{
+  "slug": "hostileplanets",
+  "title": "8 Real Planets So Hostile They Shouldn't Exist",
+  "language": "en",
+  "channel": "mindwired",
+  "niche": "space",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "One planet on this list runs so hot, atoms cannot bond into molecules. On another, radiation would kill you before your boots ever touched the ground.",
+      "img": "starfield",
+      "query": "Milky Way stars night sky photograph",
+      "stat": "4,600°C — hotter than most stars"
+    },
+    {
+      "id": "h2",
+      "text": "Astronomers have confirmed more than five thousand planets beyond our solar system. Not one has ever been photographed up close. We know they are real from something more reliable than a picture: physics.",
+      "img": "telescope_generic",
+      "query": "astronomical observatory telescope silhouette night real photograph"
+    },
+    {
+      "id": "h3",
+      "text": "These are eight of the most hostile planets ever confirmed, ranked by how fast each one would kill you. Every discovery is real, and every number is sourced.",
+      "img": "starfield",
+      "cap": "8 real planets. Ranked by how fast they'd kill you.",
+      "query": "Milky Way stars night sky photograph"
+    },
+    {
+      "id": "h4",
+      "text": "And the planet at number one was not just found to be lethal. It was one of the very first planets ever discovered outside our solar system. Before it kills you, it already made history.",
+      "img": "arecibo_tease",
+      "query": "Arecibo Observatory dish structure Puerto Rico",
+      "cap": "Number one already made history — in 1992."
+    },
+    {
+      "id": "ti",
+      "text": "One honest rule before we start. Nobody has ever photographed the surface of a planet outside our solar system. Every alien surface you see in this video is a labeled scientific illustration, built from real data. The telescopes, the discoveries, and the numbers are all real.",
+      "chapter": "MINDWIRED\n8 Real Planets So Hostile They Shouldn't Exist",
+      "img": "starfield"
+    },
+    {
+      "id": "gl_ch",
+      "text": "Number eight.",
+      "chapter": "#8\nThe Ice That Refuses to Melt",
+      "img": "neptune_real"
+    },
+    {
+      "id": "gl_1",
+      "text": "Thirty one light years away is a world called Gliese four three six b — a planet about the size of Neptune, orbiting so close to its star that one full year there lasts just two and a half days.",
+      "img": "neptune_real",
+      "query": "Neptune planet real photograph Voyager",
+      "cap": "Neptune, real photograph — shown for size only."
+    },
+    {
+      "id": "gl_2",
+      "text": "Its surface runs near eight hundred degrees Fahrenheit, hot enough to soften lead. And yet astronomers say much of this planet may still be locked as solid water ice, crushed into that shape not by cold, but by its own bone-crushing gravity.",
+      "kinetic": {
+        "count": 800,
+        "suffix": "°F surface heat",
+        "sub": "Hot enough to soften lead — yet still called \"ice\""
+      },
+      "img": "mearth_real"
+    },
+    {
+      "id": "gl_3",
+      "text": "It was confirmed using the MEarth Project — a real network of small ground telescopes built specifically to watch dim red dwarf stars for the flicker of a passing planet.",
+      "img": "mearth_real",
+      "query": "small telescope dome desert observatory night",
+      "cap": "A real small robotic telescope dome (similar network, for reference)."
+    },
+    {
+      "id": "gl_4",
+      "text": "Nobody has photographed its surface. Everything you saw of the ice itself was a scientific illustration — the temperature, the mass, and the telescope are the real part.",
+      "cap": "Illustration: what \"burning ice\" might look like.",
+      "img": "neptune_real"
+    },
+    {
+      "id": "tr_ch",
+      "text": "Number seven.",
+      "chapter": "#7\nDarker Than Coal",
+      "img": "kepler_real"
+    },
+    {
+      "id": "tr_1",
+      "text": "TrES two b reflects less than one percent of the starlight that hits it. That makes it darker than coal, and darker than black acrylic paint.",
+      "img": "coal_real",
+      "query": "coal chunks pile photograph",
+      "kinetic": {
+        "count": 1,
+        "suffix": "% or less starlight reflected",
+        "sub": "Darker than coal. Darker than black paint."
+      }
+    },
+    {
+      "id": "tr_2",
+      "text": "It was caught by NASA's Kepler space telescope, measuring a brightness dip of just six parts per million — at the time, the smallest signal ever detected from a planet outside our solar system.",
+      "img": "kepler_real",
+      "query": "Kepler Space Telescope spacecraft real photograph"
+    },
+    {
+      "id": "tr_3",
+      "text": "Astronomers think its dayside glows a dull ember red from its own heat, absorbing almost all incoming light with no reflective clouds to lighten it at all.",
+      "cap": "Illustration: the ember-dark dayside.",
+      "img": "coal_real"
+    },
+    {
+      "id": "ce_ch",
+      "text": "Number six.",
+      "chapter": "#6\nAn Entire Hemisphere of Lava",
+      "img": "spitzer_real"
+    },
+    {
+      "id": "ce_1",
+      "text": "Fifty five Cancri e circles its star once every seventeen point seven hours — closer than Mercury circles our own Sun. Its permanent dayside runs near twenty seven hundred kelvin, hot enough to keep an entire hemisphere as standing lava.",
+      "kinetic": {
+        "count": 2700,
+        "suffix": "K permanent dayside",
+        "sub": "An entire hemisphere, permanently molten"
+      },
+      "img": "diamond_real"
+    },
+    {
+      "id": "ce_2",
+      "text": "Astronomers once proposed its interior was one third diamond. A closer look at its host star's own chemistry made that claim far less certain — it is a genuinely contested idea, not a settled fact.",
+      "img": "diamond_real",
+      "query": "diamond gemstone macro photograph",
+      "cap": "The \"diamond planet\" claim — since disputed."
+    },
+    {
+      "id": "ce_3",
+      "text": "It was studied using NASA's Spitzer Space Telescope, watching its temperature swing by hundreds of degrees between its permanent day side and its permanent night side.",
+      "img": "spitzer_real",
+      "query": "Spitzer Space Telescope real photograph"
+    },
+    {
+      "id": "hd_ch",
+      "text": "Number five.",
+      "chapter": "#5\nGlass Rain, Sideways",
+      "img": "flare_real"
+    },
+    {
+      "id": "hd_1",
+      "text": "HD one eight nine seven three three b is a cobalt blue gas giant, sixty four light years away — and Hubble measured that blue directly, from the planet's own light.",
+      "img": "hubble_real",
+      "query": "Hubble Space Telescope real photograph orbit",
+      "stat": "64 light-years away"
+    },
+    {
+      "id": "hd_2",
+      "text": "That blue is not an ocean. It is a sky full of silicate cloud, the same mineral family as glass, torn sideways by winds near fifty four hundred miles an hour.",
+      "kinetic": {
+        "count": 5400,
+        "suffix": "mph winds",
+        "sub": "Silicate clouds — the same family as glass"
+      },
+      "img": "hubble_real"
+    },
+    {
+      "id": "hd_3",
+      "text": "Its own star is a flare prone dwarf, caught by astronomers mid blast — a real stellar flare, actively stripping the planet's upper atmosphere away into space.",
+      "img": "flare_real",
+      "query": "solar flare real photograph NASA SDO"
+    },
+    {
+      "id": "hd_4",
+      "text": "The color is real, measured by a real telescope. What is illustrated is only the close up view of the clouds themselves — no camera has ever gotten that close.",
+      "cap": "Illustration: glass clouds, up close.",
+      "img": "flare_real"
+    },
+    {
+      "id": "wb_ch",
+      "text": "Number four.",
+      "chapter": "#4\nA Planet Where It Rains Metal",
+      "img": "vlt_real"
+    },
+    {
+      "id": "wb_1",
+      "text": "WASP seventy six b runs above twenty four hundred degrees Celsius on its dayside, hot enough to vaporize iron into gas.",
+      "kinetic": {
+        "count": 2400,
+        "suffix": "°C dayside",
+        "sub": "Hot enough to vaporize iron"
+      },
+      "img": "iron_real"
+    },
+    {
+      "id": "wb_2",
+      "text": "Supersonic winds drag that iron vapor toward the night side, where astronomers using the Very Large Telescope in Chile watched it vanish from the gas phase, in twenty twenty — exactly what you would expect if it were condensing back into solid metal.",
+      "img": "vlt_real",
+      "query": "European Southern Observatory Paranal telescope dome"
+    },
+    {
+      "id": "wb_3",
+      "text": "Their own conclusion, published in the journal Nature: on this planet, it rains iron.",
+      "img": "iron_real",
+      "query": "molten iron metal pour photograph",
+      "cap": "\"It rains iron.\" Published in Nature, 2020."
+    },
+    {
+      "id": "wb_4",
+      "text": "The detection is real data, from a real telescope. The image of iron actually falling as rain is, again, an illustration — nobody has flown a probe through those clouds.",
+      "cap": "Illustration: iron rain on the night side.",
+      "img": "vlt_real"
+    },
+    {
+      "id": "wa_ch",
+      "text": "Number three.",
+      "chapter": "#3\nBeing Devoured, in Real Time",
+      "img": "starfield"
+    },
+    {
+      "id": "wa_1",
+      "text": "WASP twelve b is a gas giant so close to its star that gravity has stretched it into an egg shape — and the star is stripping its atmosphere away, atom by atom, into a glowing stream of stolen gas.",
+      "kinetic": {
+        "count": 94,
+        "suffix": "% of starlight absorbed",
+        "sub": "One of the darkest planets ever measured"
+      },
+      "img": "telescope_generic"
+    },
+    {
+      "id": "wa_2",
+      "text": "Its orbit is measurably shrinking. Current estimates give it roughly three million years before it spirals into its star completely — an unusually short amount of time, by astronomical standards.",
+      "kinetic": {
+        "count": 3,
+        "countLabel": "MILLION YEARS",
+        "sub": "...until this planet is completely consumed"
+      },
+      "img": "starfield"
+    },
+    {
+      "id": "wa_3",
+      "text": "It was found using SuperWASP, a real network of robotic telescopes in the Canary Islands and South Africa, built to scan the whole sky for the tiny dimming a transiting planet causes.",
+      "img": "wasp_survey",
+      "query": "small survey telescope array observatory night"
+    },
+    {
+      "id": "wa_4",
+      "text": "The egg shape, the gas stream, and the slow death spiral are all measured from real light, not photographed directly. Everything you see of the planet itself is an illustration of that data.",
+      "cap": "Illustration: a planet being pulled apart.",
+      "img": "telescope_generic"
+    },
+    {
+      "id": "ke_ch",
+      "text": "Number two.",
+      "chapter": "#2\nHotter Than Most Stars in the Galaxy",
+      "img": "bluewhite_star"
+    },
+    {
+      "id": "ke_1",
+      "text": "KELT nine b's dayside runs about forty six hundred kelvin, hotter than most stars in the galaxy.",
+      "kinetic": {
+        "count": 4600,
+        "suffix": "K dayside",
+        "sub": "Hotter than most stars in the Milky Way"
+      },
+      "img": "bluewhite_star"
+    },
+    {
+      "id": "ke_2",
+      "text": "At that heat, molecules cannot even survive. Hydrogen gas rips apart into loose atoms, and metals like iron and titanium float free as bare vapor, instead of ever bonding into a molecule at all.",
+      "img": "kelt_scope"
+    },
+    {
+      "id": "ke_3",
+      "text": "It completes one orbit of its star in under thirty six hours, close enough that its swollen atmosphere is slowly being stripped away into space.",
+      "img": "bluewhite_star",
+      "query": "Pleiades star cluster blue stars photograph",
+      "cap": "Real, photographed blue-white stars — for reference."
+    },
+    {
+      "id": "ke_4",
+      "text": "It was found by KELT, a real pair of small automated telescopes in Arizona and South Africa, cheap enough that a university team could scan the whole sky with them.",
+      "img": "kelt_scope",
+      "query": "small survey telescope dome night sky",
+      "cap": "A real small robotic telescope dome (similar network, for reference)."
+    },
+    {
+      "id": "int1",
+      "text": "Before number one — one planet you might expect on this list isn't here. Tabby's Star, famous for its mysterious dimming, was once linked to speculation about alien megastructures. Real follow up data points to orbiting dust and comet fragments instead, and NASA has never suggested otherwise. This list only counts what's confirmed.",
+      "chapter": "INTERLUDE\nThe One Planet Not on This List",
+      "img": "kepler_real"
+    },
+    {
+      "id": "ps_ch",
+      "text": "Number one.",
+      "chapter": "#1\nAlready Dead, Before You Land",
+      "img": "arecibo_real"
+    },
+    {
+      "id": "ps_1",
+      "text": "In nineteen ninety two, astronomers confirmed the very first planets ever found outside our solar system. They do not orbit a star like our sun.",
+      "img": "arecibo_real",
+      "query": "Arecibo Observatory 305 meter dish aerial",
+      "stat": "1992 — the first exoplanets ever confirmed"
+    },
+    {
+      "id": "ps_2",
+      "text": "They orbit a pulsar, the crushed, spinning corpse of a star that already exploded once. Astronomers nicknamed the pulsar Lich, and its planets Draugr, Poltergeist, and Phobetor.",
+      "kinetic": {
+        "words": [
+          "Lich",
+          "Draugr",
+          "Poltergeist",
+          "Phobetor"
+        ],
+        "sub": "A dead star, and the worlds it kept"
+      },
+      "img": "arecibo_real"
+    },
+    {
+      "id": "ps_3",
+      "text": "The pulsar fires X-rays and a wind of high speed particles across all three worlds. Land on one, and the radiation would very likely kill a human being before their boots ever touched the ground.",
+      "img": "arecibo_tease"
+    },
+    {
+      "id": "ps_4",
+      "text": "The discovery came from the real, three hundred and five meter Arecibo radio telescope in Puerto Rico, measuring anomalies in pulsar timing just milliseconds wide, over three years of observation.",
+      "video": "arecibo_collapse.mp4",
+      "cap": "The same telescope — collapsed in 2020."
+    },
+    {
+      "id": "ps_5",
+      "text": "Astronomers still don't fully know how these planets formed. The leading idea is that they are second generation worlds, built from wreckage after the star that made this pulsar died. It remains an open question.",
+      "cap": "Formation: still an open scientific question.",
+      "img": "arecibo_real"
+    },
+    {
+      "id": "cl1",
+      "text": "Every planet on this list is real, confirmed, and published — the telescopes, the scientists, and the numbers are all sourced in the description. Where you saw a planet's surface up close, that was always a labeled illustration, because that photograph does not exist yet.",
+      "img": "starfield",
+      "query": "Milky Way stars night sky photograph"
+    },
+    {
+      "id": "cl2",
+      "text": "And if these planets convinced you that space itself is hostile enough, wait until you see the place on Earth that's scarier than space — that story is on your screen right now. Subscribe to mindwired, so you don't miss what's hiding in the next system over.",
+      "cap": "Next: scarier than space — and it's on Earth.",
+      "img": "starfield"
+    }
+  ]
+}

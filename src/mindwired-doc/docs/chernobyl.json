@@ -1,0 +1,355 @@
+{
+  "slug": "chernobyl",
+  "title": "Chernobyl: The Official Report vs. The Show",
+  "channel": "blackbox",
+  "niche": "history",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "You've probably seen the show. The control room, the panic, the man they made the villain. Almost everyone has an image of Chernobyl in their head by now.",
+      "video": "chernobylzone_1.mp4",
+      "videoQuery": "Chernobyl exclusion zone drone footage",
+      "cap": "You've probably seen the show.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h2",
+      "text": "But the actual Soviet government spent six years quietly changing its own story about what really caused it.",
+      "img": "insag_doc",
+      "query": "government report document pages stack",
+      "stock": true,
+      "stat": "1986 → 1992",
+      "cap": "The official story changed.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h3",
+      "text": "In 1986, the world was told it was the operators' fault. In 1992, a second, quieter report reversed that. This time, blame fell on the reactor itself, and a flaw the men in that control room were never even told about.",
+      "kinetic": { "words": ["The", "reactor.", "Not", "the", "men."] },
+      "extraHold": 20,
+      "tone": "shock"
+    },
+    {
+      "id": "h4",
+      "text": "That second report is real. It is public. And it tells a story that is, in places, quietly different from the one you watched.",
+      "img": "insag_doc",
+      "cap": "A real, public document.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h5",
+      "text": "This is not another retelling of Chernobyl. This is the official report, the actual physics, and exactly where the story you know parts ways with it.",
+      "video": "reactor4_1.mp4",
+      "videoQuery": "Chernobyl reactor 4 sarcophagus exterior",
+      "cap": "The report vs. the show.",
+      "motion": "slow",
+      "tone": "confidence"
+    },
+    { "id": "sting", "sting": true, "text": "You're watching Black Box Breakdown.", "tone": "confidence" },
+    { "id": "title", "text": "Chernobyl: the official report versus the show.", "chapter": "CHERNOBYL:\nTHE OFFICIAL REPORT\nVS. THE SHOW" },
+
+    { "id": "c1", "text": "Chapter one. The flaw nobody was told about.", "chapter": "1 — THE FLAW\nNOBODY WAS TOLD" },
+    {
+      "id": "a1",
+      "text": "Reactor Number Four at the Chernobyl plant in Soviet Ukraine had been running for barely two years. It used a design called the RBMK, built with graphite and water, cheaper and easier to mass-produce than the reactors the West was building.",
+      "video": "reactor4fix_2.mp4",
+      "videoQuery": "nuclear power plant cooling tower reactor",
+      "stat": "ONLINE SINCE 1983",
+      "cap": "A two-year-old reactor.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2",
+      "text": "It also, unlike almost every Western reactor, had no full containment building around it. If something inside ever truly went wrong, there was nothing built to hold it in.",
+      "img": "reactor_diagram",
+      "query": "nuclear reactor cutaway diagram schematic",
+      "cap": "No containment building.",
+      "tone": "fear"
+    },
+    {
+      "id": "a3",
+      "text": "And it had a flaw baked into its physics. In a normal reactor, if the cooling water starts to boil away, the reaction slows down. In this one, the opposite happened. Losing water made the reaction speed up.",
+      "kinetic": { "words": ["Losing", "water", "made", "it", "worse."] },
+      "extraHold": 18,
+      "tone": "fear"
+    },
+    {
+      "id": "a4",
+      "text": "Engineers call it a positive void coefficient. In plain terms: at low power, this reactor did not want to calm down. It wanted to run away.",
+      "img": "reactor_diagram",
+      "cap": "It wanted to run away.",
+      "tone": "fear"
+    },
+    {
+      "id": "a5",
+      "text": "There was a second flaw, just as dangerous. The emergency shutdown rods had graphite tips. For a split second, pushing them in didn't slow the reaction down. It sped it up first.",
+      "img": "control_rods",
+      "query": "control room dials panels vintage industrial",
+      "cap": "The shutdown button, briefly, made it worse.",
+      "extraHold": 16,
+      "tone": "fear"
+    },
+    {
+      "id": "a6",
+      "text": "This was not a total secret. Eleven years earlier, at a sister plant in Leningrad, an almost identical reactor suffered a partial meltdown rooted in the exact same physics. It was never discussed openly. The fix waited until after Chernobyl.",
+      "img": "soviet_archive",
+      "query": "soviet era archive document typewriter",
+      "stock": true,
+      "stat": "1975: THE FIRST WARNING",
+      "cap": "A warning, eleven years early.",
+      "tone": "fear"
+    },
+    {
+      "id": "a7",
+      "text": "The men running Reactor Four on the night of April 26th, 1986, knew none of this.",
+      "img": "control_rods",
+      "cap": "They didn't know any of it.",
+      "extraHold": 20,
+      "tone": "melancholy"
+    },
+
+    { "id": "c2", "text": "Chapter two. The night.", "chapter": "2 — THE\nNIGHT" },
+    {
+      "id": "b1",
+      "text": "That night, the crew was running a safety test. Could the turbine's own leftover spin generate enough power to run the cooling pumps during a blackout, just for the forty seconds until backup generators kicked in?",
+      "video": "turbine_1.mp4",
+      "videoQuery": "power plant turbine machinery industrial",
+      "cap": "A routine safety test.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b2",
+      "text": "The test should have run that afternoon. Kyiv's grid operator asked for a delay, needing the power. So it slipped to the middle of the night, onto a different, less experienced crew than the one who'd planned it.",
+      "img": "night_shift",
+      "query": "industrial control room night shift workers",
+      "stock": true,
+      "cap": "Pushed onto the night shift.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b3",
+      "text": "To hold the reactor at the right power for the test, most of the control rods were pulled out, far more than safety rules allowed. That single decision would matter enormously.",
+      "img": "control_rods",
+      "cap": "Far more rods pulled than allowed.",
+      "extraHold": 16,
+      "tone": "fear"
+    },
+    {
+      "id": "b4",
+      "text": "At one twenty three and forty seconds in the morning, with the reactor already unstable, shift supervisor Alexander Akimov gave the order to shut it all down.",
+      "kinetic": { "count": 1, "prefix": "", "suffix": ":23:40 AM", "countLabel": "APRIL 26, 1986" },
+      "extraHold": 16,
+      "tone": "shock"
+    },
+    {
+      "id": "b5",
+      "text": "Because of that graphite tip flaw, in a reactor already unbalanced, hitting the emergency shutdown did not calm it down. It spiked power instead.",
+      "video": "reactor4_3.mp4",
+      "videoQuery": "industrial explosion smoke fire night",
+      "cap": "The shutdown made it explode.",
+      "tone": "shock"
+    },
+    {
+      "id": "b6",
+      "text": "Fuel channels ruptured. Two explosions followed, seconds apart. The second blew the thousand-ton roof off the reactor building and set the exposed graphite core on fire, in the open air.",
+      "img": "aftermath_fix",
+      "query": "damaged industrial building rubble aftermath",
+      "stock": true,
+      "cap": "The roof came off.",
+      "motion": "slow",
+      "tone": "shock"
+    },
+    {
+      "id": "b7",
+      "text": "Alexander Akimov and the young engineer at the controls, Leonid Toptunov, both stayed at the plant afterward, still believing the reactor was intact. Both died of radiation sickness within three weeks.",
+      "img": "memorial_photo",
+      "query": "memorial plaque names engraved",
+      "stock": true,
+      "cap": "They believed it was intact.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+
+    { "id": "c3", "text": "Chapter three. The story that changed.", "chapter": "3 — THE STORY\nTHAT CHANGED" },
+    {
+      "id": "c1t",
+      "text": "Months later, at a meeting in Vienna, the Soviet Union gave the world its first official explanation. It was led by a chemist named Valery Legasov.",
+      "img": "vienna_meeting",
+      "query": "international conference meeting hall delegates",
+      "stock": true,
+      "stat": "AUG 1986, VIENNA",
+      "cap": "Valery Legasov's report.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c2t",
+      "text": "That first report blamed the operators. Rule violations, a bad test, human error. The reactor's own design was mentioned only briefly, almost as an aside.",
+      "img": "vienna_meeting",
+      "cap": "Blamed the operators.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c3t",
+      "text": "Six years later, a second, far less publicized report reversed that finding.",
+      "img": "insag_doc",
+      "cap": "Six years later, it reversed.",
+      "extraHold": 18,
+      "tone": "curiosity"
+    },
+    {
+      "id": "ex_insag",
+      "img": "ex_insag7",
+      "query": "IAEA nuclear safety report document",
+      "exhibit": true,
+      "source": "INSAG-7 · IAEA Safety Series No. 75-INSAG-7 · 1992",
+      "highlight": [0.06, 0.2, 0.85, 0.16],
+      "cap": "The document that changed the story.",
+      "text": "This is that report. Published by the International Atomic Energy Agency in 1992. Its own words: according to the first report, the main cause was the operators. According to this one, the main cause was the reactor's design.",
+      "tone": "shock"
+    },
+    {
+      "id": "c5t",
+      "text": "The men in that control room, it turns out, had been set up to fail by a machine with two known, hidden flaws, and then blamed for the result.",
+      "img": "control_rods",
+      "cap": "Set up to fail, then blamed.",
+      "extraHold": 18,
+      "tone": "fear"
+    },
+    {
+      "id": "c6t",
+      "text": "Anatoly Dyatlov, the engineer supervising that night, was convicted in 1987 and served three years. He spent the rest of his life arguing he'd been blamed for a flaw nobody told him existed. The 1992 report says he had a point, without clearing him entirely.",
+      "img": "courthouse_generic",
+      "query": "courthouse trial building exterior",
+      "stock": true,
+      "cap": "He argued this for the rest of his life.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c7t",
+      "text": "And the cover-up ran deeper than the trial. Pripyat's forty nine thousand residents weren't evacuated for over thirty six hours. The May Day parade in Kyiv went ahead anyway. The world only found out because radiation alarms went off at a power plant in Sweden, hundreds of miles away.",
+      "img": "pripyat_fix",
+      "query": "abandoned soviet city buildings empty",
+      "stock": true,
+      "stat": "36 HOURS BEFORE EVACUATION",
+      "cap": "Sweden's alarms told the world first.",
+      "tone": "fear"
+    },
+    {
+      "id": "c8t",
+      "text": "Valery Legasov, the man who delivered that first, incomplete report, secretly recorded his own account on cassette tapes before he died. He was found dead in his apartment on April 27th, 1988, two years and one day after the disaster.",
+      "img": "legasov_portrait",
+      "query": "scientist portrait serious 1980s",
+      "stock": true,
+      "stat": "TAPES RECORDED IN SECRET",
+      "cap": "His own secret account.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+
+    { "id": "c4", "text": "Chapter four. The show versus the report.", "chapter": "4 — THE SHOW\nVS. THE REPORT" },
+    {
+      "id": "d1",
+      "text": "HBO's Chernobyl, in 2019, got the physics right, and the men who cleared radioactive graphite off that rooftop by hand were real, exactly as brutal as depicted.",
+      "img": "rooftop_cleanup",
+      "query": "workers protective suits industrial site",
+      "stock": true,
+      "cap": "The physics: accurate.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d2",
+      "text": "But the show never puts that 1992 reversal on screen. It ends on Legasov's private crusade, closer to the 1986 story than the corrected one.",
+      "img": "insag_doc",
+      "cap": "It never shows the 1992 reversal.",
+      "extraHold": 16,
+      "tone": "curiosity"
+    },
+    {
+      "id": "d3",
+      "text": "One of its central scientists, Ulana Khomyuk, never existed. The show says so itself, in its own credits. She stands in for several real people, folded into one for clarity.",
+      "img": "control_rods",
+      "cap": "A composite character.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d4",
+      "text": "The three divers sent to drain water beneath the reactor, in the show, are framed as a suicide mission. In reality, all three survived. One of them has publicly said nobody threw them a hero's welcome afterward, because nothing about it felt heroic at the time.",
+      "img": "aftermath_fix",
+      "cap": "All three actually survived.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d5",
+      "text": "And you may have heard the story of a bridge where townspeople gathered to watch the fire glow, and all later died from the radiation. That story has no real death record behind it. Most serious historians treat it as an urban legend, one the show itself may have helped spread.",
+      "img": "pripyat_fix",
+      "cap": "That bridge story isn't real.",
+      "extraHold": 18,
+      "tone": "curiosity"
+    },
+    {
+      "id": "d6",
+      "text": "None of this makes the show bad. Its own writer has said the goal was never to sensationalize, only to compress a true, complicated story into something people would actually watch. That's just not always the same thing as the official record.",
+      "img": "insag_doc",
+      "cap": "Compressed. Not always identical.",
+      "tone": "curiosity"
+    },
+
+    { "id": "c5", "text": "Chapter five. What it actually cost.", "chapter": "5 — WHAT IT\nACTUALLY COST" },
+    {
+      "id": "e1",
+      "text": "Thirty one people died in the first weeks, officially. Two instantly, twenty eight from radiation sickness, one from a heart attack.",
+      "kinetic": { "count": 31, "countLabel": "OFFICIAL DEATHS, FIRST WEEKS" },
+      "extraHold": 16,
+      "tone": "melancholy"
+    },
+    {
+      "id": "e2",
+      "text": "The long-term toll is where honest disagreement starts. The World Health Organization estimates up to around four thousand eventual cancer deaths among the most exposed. Other independent estimates run past ninety thousand. Nobody has settled this, and anyone who tells you they have is picking a number to suit their argument.",
+      "img": "hospital_generic",
+      "query": "hospital corridor medical building",
+      "stock": true,
+      "stat": "4,000 – 90,000+ DISPUTED",
+      "cap": "Nobody has settled this number.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e3",
+      "text": "What is not disputed: somewhere between six hundred thousand and eight hundred thousand people were mobilized to contain it. Some of them, nicknamed bio-robots, cleared radioactive debris off the roof by hand, in shifts as short as tens of seconds, because the actual robots' electronics failed in the radiation.",
+      "video": "chernobylzone_2.mp4",
+      "videoQuery": "Chernobyl exclusion zone abandoned buildings",
+      "stat": "600,000–800,000 LIQUIDATORS",
+      "cap": "Tens of seconds at a time.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e4",
+      "text": "The original hastily built shelter was replaced in 2016 by a new steel arch, slid into place over five days, funded by dozens of countries, built to last a hundred years.",
+      "img": "nsc_arch",
+      "query": "large steel arch structure engineering",
+      "stock": true,
+      "stat": "€1.5–2.2 BILLION",
+      "cap": "A new shelter, built to last a century.",
+      "motion": "slow",
+      "tone": "confidence"
+    },
+    {
+      "id": "e5",
+      "text": "Pripyat, the city built for the plant's workers, is still empty, forty years later. A handful of elderly residents, mostly women in their seventies and eighties, quietly moved back in anyway, and were never forced back out.",
+      "img": "pripyat_fix",
+      "cap": "A handful of people, quietly returned.",
+      "tone": "melancholy"
+    },
+
+    { "id": "coda1", "text": "What stays with me here isn't the explosion. It's the six years it took for the truth to catch up to the story.", "cap": "Six years for the truth to catch up.", "tone": "melancholy" },
+    { "id": "coda2", "text": "The men in that control room were blamed first, and only partly un-blamed, long after it mattered to them.", "cap": "Un-blamed too late to matter.", "tone": "melancholy" },
+    { "id": "coda3", "text": "Great television compresses a true story to make it watchable. It's still worth knowing exactly where the compression happened.", "cap": "Worth knowing where it was compressed.", "extraHold": 18, "tone": "curiosity" },
+    {
+      "id": "end",
+      "text": "If a report that quietly corrected itself six years later got you, wait until you see the actual black box report behind the Boeing seven three seven MAX. Subscribe to Black Box Breakdown.",
+      "chapter": "SUBSCRIBE"
+    }
+  ]
+}

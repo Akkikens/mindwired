@@ -1,0 +1,166 @@
+{
+ "durations": {
+  "h1": 12.199,
+  "h2": 5.799,
+  "cold_atc1": 21.5,
+  "h3": 5.721,
+  "h4": 5.486,
+  "h5": 5.486,
+  "h6": 4.362,
+  "sting": 2.038,
+  "title": 3.631,
+  "c1": 2.194,
+  "a1": 10.919,
+  "a2": 13.557,
+  "a3": 14.211,
+  "a4": 11.651,
+  "a5": 11.389,
+  "a6": 11.311,
+  "a7": 6.5,
+  "a8": 11.807,
+  "c2": 1.646,
+  "b1": 6.348,
+  "b2": 10.606,
+  "b3": 13.412,
+  "b4": 45.0,
+  "b5": 13.401,
+  "b6": 36.0,
+  "b7": 9.561,
+  "b8": 4.206,
+  "b9": 48.0,
+  "c3": 1.959,
+  "d1": 14.524,
+  "d2": 9.482,
+  "d3": 8.673,
+  "d4": 7.698,
+  "c4": 1.881,
+  "e1": 13.479,
+  "e2": 11.546,
+  "e3": 7.393,
+  "e4": 9.874,
+  "c5": 2.038,
+  "f1": 9.717,
+  "f2": 11.233,
+  "f3": 5.329,
+  "f4": 11.389,
+  "c6": 2.508,
+  "g0": 10.031,
+  "g1": 10.919,
+  "g2": 10.762,
+  "g3": 10.919,
+  "g4": 13.401,
+  "g5": 12.199,
+  "c7": 2.116,
+  "i1": 12.931,
+  "i2": 11.729,
+  "i3": 12.748,
+  "i4": 12.277,
+  "i5": 13.793,
+  "i6": 8.908,
+  "coda1": 3.709,
+  "coda2": 10.841,
+  "coda3": 9.482,
+  "z1": 6.531,
+  "end": 9.326
+ },
+ "images": {
+  "atc_room": [
+   "atc_room_1.jpeg",
+   "atc_room_2.jpeg",
+   "atc_room_3.jpeg"
+  ],
+  "boarding_generic": [
+   "boarding_generic_1.jpeg",
+   "boarding_generic_2.jpeg",
+   "boarding_generic_3.jpeg"
+  ],
+  "cockpit_generic": [
+   "cockpit_generic_1.jpeg",
+   "cockpit_generic_2.jpeg",
+   "cockpit_generic_3.jpeg"
+  ],
+  "controller_portrait": [
+   "controller_portrait_1.jpeg",
+   "controller_portrait_2.jpeg",
+   "controller_portrait_3.jpeg"
+  ],
+  "courthouse_generic": [
+   "courthouse_generic_1.jpeg",
+   "courthouse_generic_2.jpeg",
+   "courthouse_generic_3.jpeg"
+  ],
+  "ferry_generic": [
+   "ferry_generic_1.jpeg",
+   "ferry_generic_2.jpeg",
+   "ferry_generic_3.jpeg"
+  ],
+  "geese": [
+   "geese_1.jpeg",
+   "geese_2.jpeg",
+   "geese_3.jpeg"
+  ],
+  "hearing_congress": [
+   "hearing_congress_1.jpeg",
+   "hearing_congress_2.jpeg",
+   "hearing_congress_3.jpeg"
+  ],
+  "hudson_aerial": [
+   "hudson_aerial_1.jpeg",
+   "hudson_aerial_2.jpeg",
+   "hudson_aerial_3.jpeg"
+  ],
+  "jet_engine": [
+   "jet_engine_1.jpeg",
+   "jet_engine_2.jpeg",
+   "jet_engine_3.jpeg"
+  ],
+  "laguardia_airport": [
+   "laguardia_airport_1.jpeg",
+   "laguardia_airport_2.jpeg",
+   "laguardia_airport_3.jpeg"
+  ],
+  "museum_generic": [
+   "museum_generic_1.jpeg",
+   "museum_generic_2.jpeg",
+   "museum_generic_3.jpeg"
+  ],
+  "newsroom_tv": [
+   "newsroom_tv_1.jpeg",
+   "newsroom_tv_2.jpeg",
+   "newsroom_tv_3.jpeg"
+  ],
+  "ntsb_generic": [
+   "ntsb_generic_1.jpeg",
+   "ntsb_generic_2.jpeg",
+   "ntsb_generic_3.jpeg"
+  ],
+  "pilot_advocate": [
+   "pilot_advocate_1.jpeg",
+   "pilot_advocate_2.jpeg",
+   "pilot_advocate_3.jpeg"
+  ],
+  "pilot_generic": [
+   "pilot_generic_1.jpeg",
+   "pilot_generic_2.jpeg",
+   "pilot_generic_3.jpeg"
+  ],
+  "press_conference": [
+   "press_conference_1.jpeg",
+   "press_conference_2.jpeg",
+   "press_conference_3.jpeg"
+  ],
+  "safety_speaker": [
+   "safety_speaker_1.jpeg",
+   "safety_speaker_2.jpeg",
+   "safety_speaker_3.jpeg"
+  ],
+  "wing_evacuation": [
+   "wing_evacuation_1.jpeg",
+   "wing_evacuation_2.jpeg",
+   "wing_evacuation_3.jpeg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.96,
+ "mouth": {}
+}

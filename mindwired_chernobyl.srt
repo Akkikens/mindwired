@@ -1,0 +1,636 @@
+1
+00:00:00,180 --> 00:00:01,720
+You've probably seen the show,
+
+2
+00:00:02,180 --> 00:00:03,800
+the control room, the panic,
+
+3
+00:00:04,180 --> 00:00:05,360
+the man they made, the villain.
+
+4
+00:00:06,060 --> 00:00:08,880
+Almost everyone has an image of Chernobyl in their head by now.
+
+5
+00:00:10,060 --> 00:00:14,420
+But the actual Soviet government spent six years quietly changing its own story about
+
+6
+00:00:14,420 --> 00:00:17,600
+what really caused it. In 1986,
+
+7
+00:00:18,440 --> 00:00:20,560
+the world was told it was the operator's fault.
+
+8
+00:00:21,200 --> 00:00:25,660
+In 1992, a second, quieter report reversed that.
+
+9
+00:00:25,660 --> 00:00:30,580
+This time, blame fell on the reactor itself and a floor the men in that control room
+
+10
+00:00:30,580 --> 00:00:32,000
+were never even told about.
+
+11
+00:00:34,180 --> 00:00:35,460
+That second report is real,
+
+12
+00:00:35,880 --> 00:00:38,180
+it is public, and it tells a story that is,
+
+13
+00:00:38,520 --> 00:00:41,500
+in places, quietly different from the one you watched.
+
+14
+00:00:42,860 --> 00:00:44,920
+This is not another retelling of Chernobyl.
+
+15
+00:00:45,240 --> 00:00:46,480
+This is the official report,
+
+16
+00:00:46,800 --> 00:00:50,960
+the actual physics, and exactly where the story you know parts ways with it.
+
+17
+00:00:52,140 --> 00:00:53,720
+You're watching Black Box Breakdown.
+
+18
+00:00:55,080 --> 00:00:58,260
+Chernobyl, the official report versus the show.
+
+19
+00:00:59,420 --> 00:01:02,520
+Chapter one, the floor nobody was told about.
+
+20
+00:01:03,820 --> 00:01:07,520
+Reactor number four at the Chernobyl plant in Soviet Ukraine had been running for barely
+
+21
+00:01:07,520 --> 00:01:10,900
+two years. It used a design called the RBMK,
+
+22
+00:01:11,240 --> 00:01:12,740
+built with graphite and water,
+
+23
+00:01:13,160 --> 00:01:16,240
+cheaper and easier to mass produce than the reactors the West was building.
+
+24
+00:01:17,660 --> 00:01:20,380
+It also, unlike almost every Western reactor,
+
+25
+00:01:20,500 --> 00:01:22,880
+had no full containment building around it.
+
+26
+00:01:23,300 --> 00:01:25,680
+If something inside ever truly went wrong,
+
+27
+00:01:26,120 --> 00:01:27,860
+there was nothing built to hold it in.
+
+28
+00:01:29,080 --> 00:01:31,000
+And it had a floor baked into its physics.
+
+29
+00:01:31,500 --> 00:01:34,740
+In a normal reactor, if the cooling water starts to boil away,
+
+30
+00:01:35,120 --> 00:01:37,340
+the reaction slows down. In this one,
+
+31
+00:01:37,720 --> 00:01:41,520
+the opposite happened. Losing water made the reaction speed up.
+
+32
+00:01:43,650 --> 00:01:45,790
+Engineers call it a positive void coefficient.
+
+33
+00:01:46,430 --> 00:01:48,430
+In plain terms, at low power,
+
+34
+00:01:48,770 --> 00:01:50,790
+this reactor did not want to calm down.
+
+35
+00:01:51,150 --> 00:01:54,810
+It wanted to run away. There was a second floor,
+
+36
+00:01:55,090 --> 00:01:58,570
+just as dangerous. The emergency shutdown rods had graphite tips.
+
+37
+00:01:58,970 --> 00:02:02,090
+For a split second, pushing them in didn't slow the reaction down.
+
+38
+00:02:02,650 --> 00:02:06,850
+It sped it up first. This was not a total secret.
+
+39
+00:02:07,370 --> 00:02:09,890
+11 years earlier, at a sister plant in Leningrad,
+
+40
+00:02:10,110 --> 00:02:15,430
+an almost identical reactor suffered a partial meltdown rooted in the exact same physics.
+
+41
+00:02:15,950 --> 00:02:17,290
+It was never discussed openly.
+
+42
+00:02:17,670 --> 00:02:19,410
+The fix waited until after Chernobyl.
+
+43
+00:02:20,370 --> 00:02:24,410
+The men running Reactor 4 on the night of April 26th,
+
+44
+00:02:24,450 --> 00:02:31,530
+1986, knew none of this. That
+
+45
+00:02:31,530 --> 00:02:33,810
+night, the crew was running a safety test.
+
+46
+00:02:34,210 --> 00:02:37,910
+Could the turbine's own leftover spin generate enough power to run the cooling pumps
+
+47
+00:02:37,910 --> 00:02:41,670
+during a blackout, just for the 40 seconds until backup generators kicked in?
+
+48
+00:02:42,910 --> 00:02:44,550
+The test should have run that afternoon.
+
+49
+00:02:45,390 --> 00:02:47,490
+Kiev's grid operator asked for a delay,
+
+50
+00:02:47,890 --> 00:02:50,650
+needing the power. So it slipped to the middle of the night,
+
+51
+00:02:50,850 --> 00:02:54,510
+onto a different, less experienced crew than the one who'd planned it.
+
+52
+00:02:55,790 --> 00:02:58,170
+To hold the Reactor at the right power for the test,
+
+53
+00:02:58,670 --> 00:03:00,430
+most of the control rods were pulled out,
+
+54
+00:03:00,890 --> 00:03:02,610
+far more than safety rules allowed.
+
+55
+00:03:03,090 --> 00:03:05,410
+That single decision would matter enormously.
+
+56
+00:03:07,270 --> 00:03:09,730
+At 1 .23 in 40 seconds in the morning,
+
+57
+00:03:10,050 --> 00:03:11,650
+with the reactor already unstable,
+
+58
+00:03:12,250 --> 00:03:15,870
+shift supervisor Alexander Akimov gave the order to shut it all down.
+
+59
+00:03:17,770 --> 00:03:19,150
+Because of that graphite tip floor,
+
+60
+00:03:19,490 --> 00:03:21,090
+in a reactor already unbalanced,
+
+61
+00:03:21,430 --> 00:03:23,890
+hitting the emergency shutdown did not calm it down.
+
+62
+00:03:24,510 --> 00:03:28,450
+It spiked power instead. Fuel channels ruptured.
+
+63
+00:03:28,850 --> 00:03:31,090
+Two explosions followed, seconds apart.
+
+64
+00:03:31,650 --> 00:03:36,290
+The second blew the 1 ,000 -ton roof off the reactor building and set the exposed graphite
+
+65
+00:03:36,290 --> 00:03:37,930
+core on fire in the open air.
+
+66
+00:03:39,110 --> 00:03:41,790
+Alexander Akimov and the young engineer at the controls,
+
+67
+00:03:42,350 --> 00:03:45,110
+Leonid Toptunov, both stayed at the plant afterward,
+
+68
+00:03:45,750 --> 00:03:47,410
+still believing the reactor was intact.
+
+69
+00:03:47,870 --> 00:03:50,470
+Both died of radiation sickness within three weeks.
+
+70
+00:03:51,990 --> 00:03:54,230
+Chapter three, the story that changed.
+
+71
+00:03:55,830 --> 00:03:57,610
+Months later, at a meeting in Vienna,
+
+72
+00:03:57,950 --> 00:04:00,930
+the Soviet Union gave the world its first official explanation.
+
+73
+00:04:01,450 --> 00:04:03,750
+It was led by a chemist named Valerie Legasov.
+
+74
+00:04:04,810 --> 00:04:07,050
+That first report blamed the operators.
+
+75
+00:04:07,630 --> 00:04:09,830
+Rule violations, a bad test,
+
+76
+00:04:10,110 --> 00:04:13,710
+human error. The reactor's own design was mentioned only briefly,
+
+77
+00:04:14,150 --> 00:04:17,470
+almost as an aside. Six years later,
+
+78
+00:04:17,730 --> 00:04:21,370
+a second, far less publicized report reversed that finding.
+
+79
+00:04:23,030 --> 00:04:27,690
+This is that report, published by the International Atomic Energy Agency in 1992.
+
+80
+00:04:28,310 --> 00:04:30,510
+Its own words, according to the first report,
+
+81
+00:04:30,810 --> 00:04:32,470
+the main cause was the operators.
+
+82
+00:04:33,110 --> 00:04:36,530
+According to this one, the main cause was the reactor's design.
+
+83
+00:04:37,890 --> 00:04:39,130
+The men in that control room,
+
+84
+00:04:39,310 --> 00:04:44,690
+it turns out, had been set up to fail by a machine with two known hidden floors and
+
+85
+00:04:44,690 --> 00:04:45,890
+then blamed for the result.
+
+86
+00:04:48,150 --> 00:04:50,890
+Alitaly Dyatlov, the engineer supervising that night,
+
+87
+00:04:51,130 --> 00:04:54,210
+was convicted in 1987 and served three years.
+
+88
+00:04:54,650 --> 00:04:58,790
+He spent the rest of his life arguing he'd been blamed for a flaw nobody told him existed.
+
+89
+00:04:59,390 --> 00:05:02,990
+The 1992 report says he had a point without clearing him entirely.
+
+90
+00:05:04,130 --> 00:05:06,410
+And the cover -up ran deeper than the trial.
+
+91
+00:05:06,930 --> 00:05:11,010
+Pripyat's 49 ,000 residents weren't evacuated for over 36 hours.
+
+92
+00:05:11,550 --> 00:05:13,770
+The May Day parade in Kiev went ahead anyway.
+
+93
+00:05:14,330 --> 00:05:18,150
+The world only found out because radiation alarms went off at a power plant in Sweden
+
+94
+00:05:18,150 --> 00:05:22,010
+hundreds of miles away. Valerie Legasov,
+
+95
+00:05:22,430 --> 00:05:23,650
+the man who delivered that first,
+
+96
+00:05:23,930 --> 00:05:28,150
+incomplete report, secretly recorded his own account on cassette tapes before he died.
+
+97
+00:05:28,730 --> 00:05:31,210
+He was found dead in his apartment on April 27,
+
+98
+00:05:31,770 --> 00:05:34,950
+1988, two years and one day after the disaster.
+
+99
+00:05:36,610 --> 00:05:38,630
+Chapter four, the show versus the report.
+
+100
+00:05:40,090 --> 00:05:45,210
+HBO's Chernobyl in 2019 got the physics right and the men who
+
+101
+00:05:45,210 --> 00:05:48,750
+cleared radioactive graphite off that rooftop by hand were real,
+
+102
+00:05:49,290 --> 00:05:51,050
+exactly as brutal as depicted.
+
+103
+00:05:52,470 --> 00:05:55,630
+But the show never puts that 1992 reversal on screen.
+
+104
+00:05:56,070 --> 00:05:58,010
+It ends on Legasov's private crusade,
+
+105
+00:05:58,430 --> 00:06:00,930
+closer to the 1986 story than the corrected one.
+
+106
+00:06:02,390 --> 00:06:04,230
+One of its central scientists,
+
+107
+00:06:04,750 --> 00:06:06,450
+Ulana Komyuk, never existed.
+
+108
+00:06:06,890 --> 00:06:09,410
+The show says so itself in its own credits.
+
+109
+00:06:10,130 --> 00:06:12,150
+She stands in for several real people,
+
+110
+00:06:12,410 --> 00:06:13,910
+folded into one for clarity.
+
+111
+00:06:15,270 --> 00:06:19,850
+The three divers sent to drain water beneath the reactor in the show are framed as a
+
+112
+00:06:19,850 --> 00:06:21,910
+suicide mission. In reality,
+
+113
+00:06:22,350 --> 00:06:27,310
+all three survived. One of them has publicly said nobody threw them a hero's welcome
+
+114
+00:06:27,310 --> 00:06:30,390
+afterward because nothing about it felt heroic at the time.
+
+115
+00:06:31,410 --> 00:06:35,450
+And you may have heard the story of a bridge where towns people gathered to watch the
+
+116
+00:06:35,450 --> 00:06:37,970
+fire glow and all later died from the radiation.
+
+117
+00:06:38,630 --> 00:06:41,030
+That story has no real death record behind it.
+
+118
+00:06:41,430 --> 00:06:44,110
+Most serious historians treat it as an urban legend,
+
+119
+00:06:44,310 --> 00:06:46,310
+one the show itself may have helped spread.
+
+120
+00:06:48,310 --> 00:06:49,750
+None of this makes the show bad.
+
+121
+00:06:50,370 --> 00:06:53,230
+Its own writer has said the goal was never to sensationalize,
+
+122
+00:06:53,570 --> 00:06:58,090
+only to compress a true, complicated story into something people would actually watch.
+
+123
+00:06:58,650 --> 00:07:01,270
+That's just not always the same thing as the official record.
+
+124
+00:07:02,630 --> 00:07:04,550
+Chapter five, what it actually cost.
+
+125
+00:07:06,390 --> 00:07:08,230
+31 people died in the first weeks,
+
+126
+00:07:08,490 --> 00:07:10,310
+officially. Two instantly,
+
+127
+00:07:10,670 --> 00:07:12,690
+28 from radiation sickness,
+
+128
+00:07:13,130 --> 00:07:18,550
+one from a heart attack. The long -term toll is where honest disagreement starts.
+
+129
+00:07:18,990 --> 00:07:23,370
+The World Health Organization estimates up to around 4 ,000 eventual cancer deaths among
+
+130
+00:07:23,370 --> 00:07:27,410
+the most exposed. Other independent estimates run past 90 ,000.
+
+131
+00:07:27,410 --> 00:07:32,130
+Nobody has settled this. And anyone who tells you they have is picking a number to suit
+
+132
+00:07:32,130 --> 00:07:35,310
+their argument. What is not disputed?
+
+133
+00:07:35,830 --> 00:07:39,770
+Somewhere between 600 ,000 and 800 ,000 people were mobilized to contain it.
+
+134
+00:07:40,170 --> 00:07:42,030
+Some of them, nicknamed biorobots,
+
+135
+00:07:42,310 --> 00:07:47,070
+cleared radioactive debris off the roof by hand in shifts as short as tens of seconds
+
+136
+00:07:47,070 --> 00:07:50,170
+because the actual robot's electronics failed in the radiation.
+
+137
+00:07:51,630 --> 00:07:56,330
+The original hastily built shelter was replaced in 2016 by a new steel arch,
+
+138
+00:07:56,330 --> 00:07:58,590
+slid into place over five days,
+
+139
+00:07:58,870 --> 00:08:02,550
+funded by dozens of countries built to last 100 years.
+
+140
+00:08:04,150 --> 00:08:06,350
+Pripyat, the city built for the plant's workers,
+
+141
+00:08:06,610 --> 00:08:09,070
+is still empty 40 years later.
+
+142
+00:08:09,690 --> 00:08:11,230
+A handful of elderly residents,
+
+143
+00:08:11,650 --> 00:08:13,710
+mostly women in their 70s and 80s,
+
+144
+00:08:13,890 --> 00:08:17,050
+quietly moved back in anyway and were never forced back out.
+
+145
+00:08:18,510 --> 00:08:20,470
+What stays with me here isn't the explosion.
+
+146
+00:08:21,150 --> 00:08:24,210
+It's the six years it took for the truth to catch up to the story.
+
+147
+00:08:25,270 --> 00:08:28,030
+The men in that control room were blamed first,
+
+148
+00:08:28,330 --> 00:08:29,990
+and only partly unblamed,
+
+149
+00:08:30,250 --> 00:08:31,650
+long after it mattered to them.
+
+150
+00:08:33,030 --> 00:08:35,770
+Great television compresses a true story to make it watchable.
+
+151
+00:08:36,110 --> 00:08:38,710
+It's still worth knowing exactly where the compression happened.
+
+152
+00:08:40,680 --> 00:08:43,960
+If a report that quietly corrected itself six years later got you,
+
+153
+00:08:44,300 --> 00:08:48,120
+wait until you see the actual black box report behind the Boeing 737 MAX.
+
+154
+00:08:48,940 --> 00:08:50,080
+Subscribe to Black Box Breakdown.
+
+155
+00:08:50,880 --> 00:08:52,760
+If this one got under your skin a little,
+
+156
+00:08:53,180 --> 00:08:58,180
+good. That's the point. And it only keeps happening because people like you keep showing
+
+157
+00:08:58,180 --> 00:09:00,280
+up. So do one thing for me.
+
+158
+00:09:00,620 --> 00:09:05,520
+Hit subscribe. It is free and it is the whole reason Black Box can keep taking these
+
+159
+00:09:05,520 --> 00:09:06,500
+disasters apart.
+

@@ -132,7 +132,7 @@ TARBALL="/tmp/render_src_${NAME}.tgz"
     [ -e "$f" ] && echo "$f"
   done
   echo src; echo scripts
-  for d in public/fonts public/sfx public/mascot public/outro public/beds "public/shorts/${SLUG}" public/host; do
+  for d in public/fonts public/sfx public/mascot public/outro public/beds "public/shorts/${SLUG}" public/host public/codewired; do
     [ -e "$d" ] && echo "$d"
   done
   find public -name "*.json" -not -path "public/shorts/${SLUG}/*"
@@ -157,7 +157,7 @@ gcloud compute ssh "$NAME" --zone "$ZONE" --command "
   fc-cache -f >/dev/null 2>&1 || true
   mkdir -p out
   nohup python3 scripts/render_and_master.py '$COMP' out/${SLUG}.mp4 --scale 2 \
-    --concurrency ${GCE_CONCURRENCY:-16} --remotion-timeout 120000 ${EXTRA_ARGS[*]} \
+    --concurrency ${GCE_CONCURRENCY:-16} --remotion-timeout 120000 ${EXTRA_ARGS[*]:-} \
     > out/render.log 2>&1 &
   echo started
 "

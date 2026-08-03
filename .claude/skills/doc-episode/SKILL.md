@@ -37,7 +37,7 @@ Launch **4-5 parallel research agents**, one per dimension:
 | 1 | Origins / the rise (people, dates, money, engineering) |
 | 2 | The disaster + the OFFICIAL report (BEA/NTSB/CAIB/AAIB/USCG — find the real PDF URL) |
 | 3 | Aftermath: legal outcomes, legacy, where everyone is now, living-person status |
-| 4 | **Archival-footage scout — MANDATORY.** Must report what real VIDEO exists (exact Wikimedia Commons / NASA / NARA file titles + licenses), not just photos. If no free footage of a beat exists, say so explicitly so the script plans a real still instead. |
+| 4 | **Archival-footage scout — MANDATORY.** Must report what real VIDEO exists (exact Wikimedia Commons / NASA / NARA file titles + licenses), not just photos. If no free footage of a beat exists, say so explicitly so the script plans a real still instead — and if truly nothing real exists for that ONE beat (an unfilmable moment), that's a `dossier: true` candidate (docs/guides/DOSSIER-SCENES.md), used sparingly, never for a real person/event with archival coverage. |
 | 5 (optional) | The human thread for the cold open (a named person, a dated moment) |
 
 Merge into `docs/planning/CLAIMS-<slug>.md` (model: `CLAIMS-concorde.md`):

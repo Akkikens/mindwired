@@ -1,0 +1,6 @@
+- **oceannight2_1.mp4** — an aerial view of the ocean at night 20752403 — Pexels License (free commercial use) — Orhan Pergel — https://www.pexels.com/video/an-aerial-view-of-the-ocean-at-night-20752403/ — generic mood b-roll only, NOT presented as archival.
+
+**Real archival (US Navy, public domain under 17 U.S.C. §105) — new to this episode, not reused from `public/shorts/mh370/` or `public/shorts/mh370theories/`:**
+
+- **bluefin_deploy2_1.mp4** — DVIDS asset video:329635, "U.S. Navy AUV Bluefin 21 is deployed to search for MH370" (VIRIN 140414-N-OV358-501), U.S. Navy video by MC1 Peter D. Blair, Indian Ocean, 14 April 2014 — operators aboard ADV Ocean Shield moving the real Bluefin-21 AUV into position for deployment during the actual underwater search. Public domain (US Navy official duty footage), transcoded from the DVIDS 720x406 1500k source. https://www.dvidshub.net/video/329635/us-navy-auv-bluefin-21-deployed-search-mh370
+- **oceannight3_1.mp4** — dramatic ocean waves crashing on rocky shore 35257539 — Pexels License (free commercial use) — 정규송 Nui MALAMA — https://www.pexels.com/video/dramatic-ocean-waves-crashing-on-rocky-shore-35257539/ — generic mood b-roll only, NOT presented as archival.

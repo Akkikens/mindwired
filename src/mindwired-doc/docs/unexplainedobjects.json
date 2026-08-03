@@ -1,0 +1,554 @@
+{
+  "slug": "unexplainedobjects",
+  "title": "Objects Astronomers Can't Explain",
+  "channel": "mindwired",
+  "niche": "space",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "It is nineteen seventy seven. In a field in Ohio, a radio telescope is listening to the sky, completely unattended. Nobody is there to hear what it hears.",
+      "img": "radio_dish_generic",
+      "query": "radio telescope dish night sky stars",
+      "stock": true,
+      "stat": "AUG 1977",
+      "cap": "Nobody is listening. Not yet.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h2",
+      "text": "Days later, a volunteer sits at his kitchen table with a stack of paper printouts a technician dropped off on his way into town. He is not paid to do this anymore. He does it anyway.",
+      "img": "printout_review",
+      "query": "person reviewing paper printout data desk vintage",
+      "stock": true,
+      "cap": "An unpaid volunteer, at his kitchen table.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h3",
+      "text": "A few pages in, he stops. Six characters, in a column of numbers that should mean nothing. He picks up a red pen.",
+      "cap": "Six characters. A red pen.",
+      "extraHold": 8,
+      "tone": "dread",
+      "img": "printout_review"
+    },
+    {
+      "id": "h4",
+      "text": "He circles them. In the margin, without thinking too hard about it, he writes one word.",
+      "cap": "One word, in the margin.",
+      "extraHold": 10,
+      "tone": "fear",
+      "img": "printout_review"
+    },
+    {
+      "id": "h5",
+      "text": "Whatever his telescope heard that night has never been heard again. Not once, in almost fifty years, across more than a hundred attempts to listen for it.",
+      "kinetic": {
+        "words": [
+          "Never",
+          "heard",
+          "again.",
+          "Not",
+          "once."
+        ]
+      },
+      "extraHold": 20,
+      "tone": "shock",
+      "img": "radio_dish_generic"
+    },
+    {
+      "id": "h6",
+      "text": "This is not the only object science still can't explain. It isn't even the strangest one.",
+      "img": "starfield_deep",
+      "query": "deep space starfield night sky long exposure",
+      "stock": true,
+      "cap": "It isn't even the strangest one.",
+      "tone": "dread"
+    },
+    {
+      "id": "h7",
+      "text": "There is a star that appeared to be building something. And a visitor from outside our solar system that broke the laws we thought applied to every rock in the sky.",
+      "img": "starfield_deep2",
+      "query": "milky way galaxy night sky stars",
+      "stock": true,
+      "cap": "Three real signals. Zero real answers.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h8",
+      "text": "Real telescopes. Real data. Real scientists, still arguing about what they found. Ranked from the one we've mostly figured out, to the one we haven't figured out at all.",
+      "cap": "Ranked: solved-ish to still unsolved.",
+      "extraHold": 10,
+      "tone": "confidence",
+      "img": "starfield_deep2"
+    },
+    {
+      "id": "sting",
+      "sting": true,
+      "text": "You're watching mindwired.",
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "text": "Objects astronomers can't explain.",
+      "chapter": "3 SIGNALS\nSCIENTISTS STILL\nCAN'T EXPLAIN",
+      "img": "starfield_title",
+      "query": "starfield galaxy space wide shot"
+    },
+    {
+      "id": "c1",
+      "text": "Two thousand fifteen. A NASA space telescope called Kepler has spent years staring at one patch of sky, watching over a hundred thousand stars for the tiny, regular flicker of a planet passing in front of them.",
+      "chapter": "NUMBER THREE\nTHE STAR THAT WAS\nBUILDING SOMETHING",
+      "img": "kepler_telescope",
+      "query": "Kepler space telescope NASA spacecraft",
+      "cap": "Kepler. Watching 100,000+ stars.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c1_2",
+      "text": "Kepler generates far too much data for scientists alone to check. So NASA hands some of it to ordinary volunteers — a project called Planet Hunters — to look at the charts by eye.",
+      "img": "citizen_science",
+      "query": "person analyzing data charts computer screen",
+      "stock": true,
+      "cap": "Ordinary volunteers. Real discoveries.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c1_3",
+      "text": "One star stops them cold. Its brightness doesn't dip by the tiny, steady amount a planet would cause. It dips by up to twenty two percent — then climbs back, on no fixed schedule at all.",
+      "exhibit": true,
+      "img": "tabby_lightcurve",
+      "query": "KIC 8462852 Kepler light curve brightness dip chart",
+      "source": "Kepler photometry, KIC 8462852 (Boyajian et al. 2015)",
+      "cap": "Up to 22% of its light — just gone.",
+      "tone": "dread"
+    },
+    {
+      "id": "c1_4",
+      "text": "A planet, even one as big as Jupiter, blocks about one percent of a star's light, on a schedule you can set a clock to. To block twenty two percent, whatever passed in front of this star would have to be most of the star's own width.",
+      "cap": "A planet blocks ~1%. This blocked 22%.",
+      "extraHold": 10,
+      "tone": "dread",
+      "img": "tabby_lightcurve"
+    },
+    {
+      "id": "c1_5",
+      "text": "Nothing that large should be able to orbit a star without destroying itself. And whatever it was, it wasn't coming back on any schedule.",
+      "cap": "Too big. Too irregular. Not a planet.",
+      "tone": "dread",
+      "img": "tabby_lightcurve"
+    },
+    {
+      "id": "c1_6",
+      "text": "The star gets a name: KIC eighty four sixty two eight fifty two. Astronomers just call it Tabby's Star, after Yale astronomer Tabetha Boyajian, who led the team that published it.",
+      "img": "boyajian_photo",
+      "query": "Tabetha Boyajian astronomer portrait",
+      "cap": "Tabetha Boyajian.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c1_7",
+      "text": "Her own first reaction, on record: \"When they showed the star to me, we all thought it was a data glitch.\" It wasn't.",
+      "cap": "\"We all thought it was a data glitch.\"",
+      "extraHold": 10,
+      "tone": "curiosity",
+      "img": "boyajian_photo"
+    },
+    {
+      "id": "c1_8",
+      "text": "A year later, astronomer Jason Wright and his team publish a paper asking a genuinely serious question: could this be what a megastructure under construction, built by another civilization, would actually look like from Earth?",
+      "img": "wright_paper",
+      "query": "astronomy research paper journal article",
+      "stock": true,
+      "cap": "\"The most promising SETI target discovered to date.\"",
+      "tone": "fear"
+    },
+    {
+      "id": "c1_9",
+      "text": "His own words, quoted directly: \"Aliens should always be the very last hypothesis you consider. But this looked like something you would expect an alien civilization to build.\"",
+      "cap": "\"Something you would expect an alien civilization to build.\"",
+      "extraHold": 12,
+      "tone": "fear",
+      "img": "wright_paper"
+    },
+    {
+      "id": "c1_10",
+      "text": "That is not the same as saying he found one. It's a scientist saying: before we rule this out, let's actually check.",
+      "cap": "Not a claim. A test.",
+      "tone": "curiosity",
+      "img": "wright_paper"
+    },
+    {
+      "id": "c1_11",
+      "text": "So other astronomers checked. Comet swarms. Dust rings. A star that may have swallowed a planet ten thousand years ago and never quite settled down.",
+      "img": "dust_disk_concept",
+      "query": "circumstellar dust disk artist concept space",
+      "cap": "Comets. Dust. A swallowed planet.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c1_12",
+      "text": "Then, in twenty eighteen, a Kickstarter-funded telescope campaign catches a new dip happening live — and this time, they measure it in multiple colors of light at once.",
+      "img": "las_cumbres",
+      "query": "astronomical observatory telescope dome night",
+      "stock": true,
+      "cap": "Caught live. Measured in color.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c1_13",
+      "text": "A solid object — a planet, a swarm of ships, a megastructure — blocks every color of light equally. This dimming didn't. It blocked blue light more than red.",
+      "cap": "Blue light blocked more than red.",
+      "extraHold": 10,
+      "tone": "confidence",
+      "img": "las_cumbres"
+    },
+    {
+      "id": "c1_14",
+      "text": "That is the signature of dust. Not a solid object at all. Boyajian's own conclusion: \"Dust is most likely the reason why the star's light appears to dim and brighten.\"",
+      "cap": "\"Dust is most likely the reason.\"",
+      "extraHold": 10,
+      "tone": "confidence",
+      "img": "las_cumbres"
+    },
+    {
+      "id": "c1_15",
+      "text": "Wright's own words on his idea, once the data came in: \"This latest research rules out alien megastructures, but it raises the plausibility of other phenomena.\"",
+      "cap": "\"Rules out alien megastructures.\"",
+      "tone": "confidence",
+      "img": "dust_disk_concept"
+    },
+    {
+      "id": "c1_16",
+      "text": "So: not aliens. That part is actually settled. What's still not settled is which kind of dust, from what source, and why it's so extreme.",
+      "cap": "Settled: not aliens. Unsettled: everything else.",
+      "tone": "curiosity",
+      "img": "dust_disk_concept"
+    },
+    {
+      "id": "c1_17",
+      "text": "As of just this year, one new study finds a tentative — not yet confirmed — signal of a giant hidden planet in the system, one that could be stirring up comet debris and flinging it through the star's light.",
+      "exhibit": true,
+      "img": "tabby_new_paper",
+      "query": "astronomy journal paper giant planet companion",
+      "source": "Madurga-Favieres et al., MNRAS (2026) — tentative, 2.3σ, unconfirmed",
+      "cap": "A hidden planet. Tentative. Not confirmed.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c1_18",
+      "text": "So this one makes our list at number three. Genuinely bizarre. Mostly explained. Still, right now, missing its last few pieces.",
+      "cap": "#3: Mostly explained. Not fully.",
+      "tone": "confidence",
+      "img": "tabby_lightcurve"
+    },
+    {
+      "id": "c2",
+      "text": "October nineteenth, twenty seventeen. On a mountain in Hawaii, a telescope built to watch for asteroids that could hit Earth catches something moving wrong.",
+      "chapter": "NUMBER TWO\nTHE VISITOR THAT\nBROKE THE RULES",
+      "img": "pan_starrs",
+      "query": "Pan-STARRS telescope observatory Hawaii Haleakala",
+      "stat": "OCT 19, 2017",
+      "cap": "Pan-STARRS, Haleakalā, Hawaii.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c2_2",
+      "text": "Astronomer Robert Weryk spots a faint streak in the data. He checks the night before. It's there too. Its path doesn't fit any normal orbit around our Sun.",
+      "cap": "Robert Weryk. A streak that doesn't fit.",
+      "tone": "curiosity",
+      "img": "pan_starrs"
+    },
+    {
+      "id": "c2_3",
+      "text": "His own words: \"It's just something that happened to run into us, and we were very lucky to have been operating the telescope that night and looking in that direction.\"",
+      "cap": "\"We've never seen anything like this before.\"",
+      "extraHold": 8,
+      "tone": "curiosity",
+      "img": "pan_starrs"
+    },
+    {
+      "id": "c2_4",
+      "text": "Within days, the math is undeniable. This object's path is bent just enough that it can only have come from outside our solar system entirely — and it's already leaving.",
+      "exhibit": true,
+      "img": "oumuamua_orbit",
+      "query": "Oumuamua hyperbolic orbit trajectory diagram interstellar",
+      "source": "Orbit determination, 1I/2017 U1 (Meech et al. 2017, Nature)",
+      "cap": "The first confirmed interstellar object ever seen.",
+      "tone": "fear"
+    },
+    {
+      "id": "c2_5",
+      "text": "It's named 'Oumuamua — Hawaiian for scout, or messenger from afar arriving first. And almost immediately, it starts doing things nothing in our solar system does.",
+      "img": "oumuamua_detection",
+      "query": "Oumuamua Pan-STARRS discovery telescope image point source",
+      "cap": "'Oumuamua. \"A messenger from afar.\"",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c2_6",
+      "text": "Its brightness swings by a factor of ten as it tumbles — meaning it's either wildly elongated, like a cigar, or flattened, like a pancake. Nothing in our own solar system is shaped like either.",
+      "img": "oumuamua_concept",
+      "query": "Oumuamua artist concept elongated interstellar object",
+      "cap": "ARTIST CONCEPT — its real shape is unconfirmed.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c2_7",
+      "text": "Then it gets stranger. As it leaves, it speeds up slightly more than the Sun's gravity alone can explain. Real telescopes measure this precisely. It is not a rounding error.",
+      "cap": "It accelerated. Gravity alone can't explain it.",
+      "extraHold": 10,
+      "tone": "dread",
+      "img": "oumuamua_orbit"
+    },
+    {
+      "id": "c2_8",
+      "text": "In a comet, that kind of push comes from ice boiling off the surface — a visible tail, a cloud of gas. Deep images and space telescopes look for exactly that, from up close.",
+      "img": "comet_generic",
+      "query": "comet tail space telescope image",
+      "stock": true,
+      "cap": "In a comet, this is caused by outgassing.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c2_9",
+      "text": "They find nothing. No tail. No gas. No dust cloud — even though it passed closer to the Sun than Mercury does. Something pushed it. Nothing visible was pushing it.",
+      "cap": "Something pushed it. Nothing visible was there.",
+      "extraHold": 12,
+      "tone": "shock",
+      "img": "comet_generic"
+    },
+    {
+      "id": "c2_10",
+      "text": "One Harvard astronomer, Avi Loeb, co-authors a real peer-reviewed paper proposing an answer: what if it were thin enough, and light enough, to be pushed by sunlight itself — like a sail.",
+      "img": "avi_loeb",
+      "query": "Avi Loeb Harvard astronomer portrait",
+      "cap": "Avi Loeb, Harvard.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c2_11",
+      "text": "His own paper lays out two options for what that sail could be: something we don't yet understand forming naturally out in space. Or, his words, debris from someone else's technology.",
+      "cap": "Two options. Natural — or built.",
+      "extraHold": 10,
+      "tone": "fear",
+      "img": "avi_loeb"
+    },
+    {
+      "id": "c2_12",
+      "text": "His later popular book argues harder for the second option than his own peer-reviewed paper ever did. Almost no other astronomer in the field agrees with him.",
+      "cap": "One scientist's view. Not the field's.",
+      "tone": "dread",
+      "img": "avi_loeb"
+    },
+    {
+      "id": "c2_13",
+      "text": "In twenty nineteen, fourteen of the world's leading comet and asteroid experts review everything and conclude: every single observation is consistent with something entirely natural.",
+      "exhibit": true,
+      "img": "oumuamua_consensus",
+      "query": "Nature Astronomy Oumuamua natural history paper journal",
+      "source": "\"The Natural History of 'Oumuamua,\" Nature Astronomy (2019)",
+      "cap": "\"Consistent with a natural origin.\"",
+      "tone": "confidence"
+    },
+    {
+      "id": "c2_14",
+      "text": "But which natural explanation? Frozen hydrogen? A fragment of nitrogen ice, chipped off a Pluto-like world hundreds of millions of years ago? Scientists have proposed all of these — and are still arguing about all of them.",
+      "cap": "Still arguing. Not settled.",
+      "tone": "curiosity",
+      "img": "oumuamua_consensus"
+    },
+    {
+      "id": "c2_15",
+      "text": "Two more interstellar visitors have passed through since. Both behaved exactly like normal comets — visible tails, visible gas, nothing strange at all.",
+      "cap": "2 more interstellar visitors since. Both normal.",
+      "extraHold": 8,
+      "tone": "curiosity",
+      "img": "oumuamua_concept"
+    },
+    {
+      "id": "c2_16",
+      "text": "Which makes the first one stand out even more. Number two on our list. A confirmed visitor from another star system, that did something we still can't fully explain.",
+      "cap": "#2: Confirmed real. Mechanism still unknown.",
+      "tone": "confidence",
+      "img": "oumuamua_concept"
+    },
+    {
+      "id": "c3",
+      "text": "Which brings us back to Ohio, nineteen seventy seven, and the six characters a volunteer named Jerry Ehman circled in red pen.",
+      "chapter": "NUMBER ONE\nTHE SIGNAL THAT\nNEVER CAME BACK",
+      "img": "wow_signal_full",
+      "query": "Wow signal printout computer document",
+      "cap": "Back to where we started.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c3_2",
+      "text": "The telescope was called Big Ear, run out of Ohio State University. It scanned the same fixed strip of sky, over and over, as the Earth's own rotation swept it past different stars.",
+      "img": "radio_telescope2",
+      "query": "large radio telescope dish observatory",
+      "stock": true,
+      "cap": "\"Big Ear.\" Ohio State University.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c3_3",
+      "text": "Every ten seconds, the computer printed one character showing how strong any signal was. A quiet sky printed low numbers. This one didn't.",
+      "cap": "Every 10 seconds: one number. This one spiked.",
+      "tone": "dread",
+      "img": "radio_telescope2"
+    },
+    {
+      "id": "c3_4",
+      "text": "The exact sequence was six, E, Q, U, J, five. The letter U meant the signal was roughly thirty times stronger than the background noise around it.",
+      "exhibit": true,
+      "img": "wow_signal_zoom",
+      "query": "Wow signal printout 6EQUJ5 zoomed detail",
+      "source": "Big Ear printout, Aug 15, 1977 (North American AstroPhysical Observatory)",
+      "highlight": [
+        0.25,
+        0.35,
+        0.5,
+        0.2
+      ],
+      "cap": "6EQUJ5. Roughly 30x background noise.",
+      "tone": "fear"
+    },
+    {
+      "id": "c3_5",
+      "text": "It came in close to a very specific frequency — the exact wavelength hydrogen itself emits. The most common element in the entire universe, and the frequency every Seti search was built to watch.",
+      "cap": "Almost exactly hydrogen's own frequency.",
+      "extraHold": 10,
+      "tone": "fear",
+      "img": "wow_signal_zoom"
+    },
+    {
+      "id": "c3_6",
+      "text": "It lasted exactly as long as the telescope's fixed beam took to sweep across one point in the sky — seventy two seconds, rising and falling smoothly. Not a glitch. Not a flicker. A real object, in a real fixed spot.",
+      "cap": "72 seconds. Rising, then falling. Like something real.",
+      "extraHold": 10,
+      "tone": "fear",
+      "img": "wow_signal_zoom"
+    },
+    {
+      "id": "c3_7",
+      "text": "It came from the direction of the constellation Sagittarius. And it was never, not once, seen again — not that night, not the next night, not in nearly fifty years since.",
+      "img": "sagittarius_sky",
+      "query": "Sagittarius constellation night sky stars",
+      "stock": true,
+      "cap": "Sagittarius. Never repeated. Not once.",
+      "tone": "dread"
+    },
+    {
+      "id": "c3_8",
+      "text": "Astronomers have pointed some of the most sensitive radio telescopes on Earth at that exact spot at least six separate times across five decades, looking for it again.",
+      "img": "vla_dishes",
+      "query": "Very Large Array radio telescope dishes New Mexico",
+      "cap": "6+ separate searches. Different decades. Different telescopes.",
+      "tone": "dread"
+    },
+    {
+      "id": "c3_9",
+      "text": "Every single search came back with nothing. As recently as twenty twenty two, the Breakthrough Listen project used two major observatories to search the region again. Nothing.",
+      "cap": "2022: still nothing.",
+      "extraHold": 8,
+      "tone": "dread",
+      "img": "vla_dishes"
+    },
+    {
+      "id": "c3_10",
+      "text": "In twenty seventeen, one researcher proposed a passing comet's hydrogen cloud could explain it. The scientists who actually found the signal reviewed the claim directly and rejected it.",
+      "cap": "A comet theory. Rejected by the discovery team.",
+      "tone": "curiosity",
+      "img": "wow_signal_full"
+    },
+    {
+      "id": "c3_11",
+      "text": "The most credible natural theory right now, published in twenty twenty four and twenty twenty five, is that a violent flare from a dead, collapsed star briefly lit up a cold cloud of hydrogen gas like a flashbulb.",
+      "img": "magnetar_concept",
+      "query": "magnetar neutron star artist concept space",
+      "cap": "ARTIST CONCEPT — a magnetar flare, one leading theory.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c3_12",
+      "text": "Even the scientists proposing it are careful about their own language. They call it a hypothesis. Not a discovery. Not an answer. A hypothesis.",
+      "cap": "Their own word: hypothesis. Not an answer.",
+      "tone": "dread",
+      "img": "magnetar_concept"
+    },
+    {
+      "id": "c3_13",
+      "text": "The telescope that heard it was torn down in nineteen ninety eight to make room for a golf course. It can never listen again.",
+      "dossier": true,
+      "img": "bigear_telescope",
+      "label": "BIG EAR, 1963–1998",
+      "cap": "Demolished. For a golf course.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c3_14",
+      "text": "For decades afterward, whenever people asked the man who circled it in red pen what he thought it really was, he gave the same careful answer. He never claimed it was aliens. He just never ruled it out either.",
+      "cap": "He never claimed it was aliens.",
+      "tone": "melancholy",
+      "img": "sagittarius_sky"
+    },
+    {
+      "id": "c3_15",
+      "text": "Nearly fifty years later, this is still, honestly, the strongest unexplained signal Seti has ever recorded. Not proof of anything. Just a real number, on a real printout, that nobody has ever explained.",
+      "cap": "#1: The strongest unexplained signal ever recorded.",
+      "extraHold": 10,
+      "tone": "shock",
+      "img": "radio_telescope2"
+    },
+    {
+      "id": "coda1",
+      "text": "None of these three are proof of aliens. Every one of them, when scientists actually checked, pointed back toward something natural, something strange, or something we simply don't have an answer for yet.",
+      "img": "starfield_deep3",
+      "query": "galaxy stars space wide shot night",
+      "stock": true,
+      "cap": "Not proof of aliens.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda2",
+      "text": "That's honestly the more interesting finding. The universe doesn't need aliens to be strange. It's strange enough on its own, and we're still only decades into really looking.",
+      "cap": "Strange enough, on its own.",
+      "extraHold": 8,
+      "tone": "confidence",
+      "img": "starfield_deep3"
+    },
+    {
+      "id": "coda3",
+      "text": "Somewhere out there, right now, another telescope is recording something nobody has looked at yet. Statistically, most of what it finds will have a normal explanation.",
+      "cap": "Most of it will turn out normal.",
+      "tone": "curiosity",
+      "img": "starfield_deep4"
+    },
+    {
+      "id": "coda4",
+      "text": "But every single mystery on this list started exactly that way — as one strange line, in one ordinary printout, that somebody almost didn't stop to look at twice.",
+      "cap": "One strange line. Somebody looked twice.",
+      "extraHold": 10,
+      "tone": "confidence",
+      "img": "starfield_deep3"
+    },
+    {
+      "id": "coda5",
+      "text": "If ranked mysteries like this are your kind of thing, we've also broken down the sounds NASA actually recorded in deep space — real audio, ranked by how unsettling it actually gets. That one's on this channel too.",
+      "img": "starfield_deep4",
+      "query": "deep space nebula stars wide shot",
+      "stock": true,
+      "cap": "The scariest real sounds from space — also on this channel.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "end",
+      "text": "Wait until you hear what NASA's own space sounds video has on it. Subscribe to mindwired, for the real science behind the strangest things in the universe.",
+      "img": "starfield_title"
+    }
+  ]
+}

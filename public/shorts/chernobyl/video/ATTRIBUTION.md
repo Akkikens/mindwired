@@ -1,0 +1,9 @@
+- **chernobylzone_1.mp4** — drone footage of an abandoned city 13188723 — Pexels License (free commercial use) — utopia 36 — https://www.pexels.com/video/drone-footage-of-an-abandoned-city-13188723/
+- **chernobylzone_2.mp4** — drone footage of green trees growing in an abandoned city 13188726 — Pexels License (free commercial use) — utopia 36 — https://www.pexels.com/video/drone-footage-of-green-trees-growing-in-an-abandoned-city-13188726/
+- **reactor4_1.mp4** — Radiation shielding for workers at the Chernobyl New Safe Confinement.webm — CC BY 3.0 — Carl Willis — https://commons.wikimedia.org/wiki/File:Radiation_shielding_for_workers_at_the_Chernobyl_New_Safe_Confinement.webm
+- **reactor4_2.mp4** — Stimulating Summer Learning, Three New Crew, and Making Water Landings Safe on This Week at NASA — Public domain — nasa-hq-youtube-archive, nasa — https://archive.org/details/stimulating-summer-learning-three-new-crew-and-making-water-landings-NAeq7YZJZxo
+- **reactor4_3.mp4** — chornobyl nuclear reactor cooling tower video 32034022 — Pexels License (free commercial use) — TimePRO TV — https://www.pexels.com/video/chornobyl-nuclear-reactor-cooling-tower-video-32034022/
+- **turbine_1.mp4** — industrial power plant machinery operations 30243443 — Pexels License (free commercial use) — Sergei Starostin — https://www.pexels.com/video/industrial-power-plant-machinery-operations-30243443/
+- **turbine_2.mp4** — industrial power plant equipment in operation 30243438 — Pexels License (free commercial use) — Sergei Starostin — https://www.pexels.com/video/industrial-power-plant-equipment-in-operation-30243438/
+- **reactor4fix_1.mp4** — Power to Serve, The — Public domain — prelinger, fav-abwellq15 — https://archive.org/details/PowertoS1957
+- **reactor4fix_2.mp4** — aerial view of nuclear power plant landscape 31716190 — Pexels License (free commercial use) — mygiguser — https://www.pexels.com/video/aerial-view-of-nuclear-power-plant-landscape-31716190/
