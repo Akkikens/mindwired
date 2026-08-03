@@ -35,16 +35,26 @@ Each finished video gets its channel's subscribe outro appended (see "Subscribe 
 | **mindwired** (this repo) | Custom long-form episodes (`src/orbit-style` comps, `src/attractor`, `src/scariest`, `src/gtavi`), the **viral shorts engine** (`src/viral`), packaging docs (`docs/metadata/`, `docs/guides/THUMBNAILS.md`), finished uploads at repo root / `out/` |
 | **singaloo** (`../singaloo`) | The **cosmic explainer engine** (`src/videos/cosmic`) that mass-produces mindwired long-forms, plus the kids-channel content. Cosmic videos are authored there and the mp4 copied here for publishing |
 
-## Repo docs layout (2026-07-13 — keep the root clean)
+## Repo docs layout (2026-07-13, root cleanup 2026-08-02 — keep the root clean)
 
-All human-facing docs live under `docs/`. **Only `CLAUDE.md` + `README.md` stay at
-the repo root.** New docs go in the matching subfolder, never loose at root:
+All human-facing docs live under `docs/`. **Only `CLAUDE.md` + `README.md` +
+`ONBOARDING.md` stay at the repo root.** New docs go in the matching subfolder,
+never loose at root:
 - `docs/metadata/` — per-video packaging, one `METADATA-<slug>.md` per upload
 - `docs/guides/` — how-to / specs: HOSTS, THUMBNAILS, BLACKBOX-PIPELINE-SPEC,
   HINDI-CHANNEL-BRIEF, HOOK-LAB, CLIPS, SHORTS-SCRIPTS, REELS-SETUP
 - `docs/publishing/` — YOUTUBE-UPLOAD-KIT, YOUTUBE-CHAPTERS, PUBLISH-PROMPT-*
 - `docs/planning/` — ROADMAP, IDEAS-MINDWIRED, TOPIC-QUEUE, HANDOFF
 (Subdir READMEs like `src/viral/README.md` stay where they are.)
+
+**Root also stays clear of loose captions/thumbnails.** The finished
+`<Title>.mp4` + `<Title>.srt` pair for the video currently being packaged/
+uploaded lives at repo root (per "Renders for upload live at repo root"
+below) — but once a video has shipped, its `.srt` and any loose thumbnail/
+screenshot PNGs/JPGs move to `archive/captions/` and `archive/thumbnails/`
+respectively (`git mv`, not delete — these are historical record, not
+clutter). Don't leave a shipped episode's caption file sitting at root next
+to the next episode's in-progress one.
 
 ## The three video systems
 
