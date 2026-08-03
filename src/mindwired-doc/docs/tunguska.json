@@ -1,0 +1,710 @@
+{
+  "slug": "tunguska",
+  "title": "The Tunguska Event: The Explosion With No Crater and No Meteorite",
+  "channel": "mindwired",
+  "niche": "history",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "June thirtieth, nineteen oh eight, seven in the morning. A trader named Semenov sits on the porch of a remote outpost called Vanavara, facing north.",
+      "dossier": true,
+      "img": "semenov_vanavara",
+      "label": "VANAVARA, JUNE 30, 1908",
+      "cap": "~65 km from what would become the epicenter.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h2",
+      "text": "Then, he says, the sky splits in two. Fire appears, high and wide, over the forest, in the direction he calls Onkoul's Tunguska Road.",
+      "dossier": true,
+      "img": "tunguska_fireball_sky",
+      "label": "~7:15 AM LOCAL TIME",
+      "cap": "\"The sky split in two.\"",
+      "tone": "awe"
+    },
+    {
+      "id": "h3",
+      "text": "Nobody filmed what happened at Tunguska. Nothing like it had ever been captured on camera. But in twenty thirteen, a similar fireball exploded over Russia again, and this time, cameras were rolling.",
+      "video": "chelyabinsk_1.mp4",
+      "videoQuery": "Chelyabinsk meteor 2013 dashcam fireball explosion",
+      "note": "2013 Chelyabinsk event -- a modern comparison, not Tunguska itself; no video record of 1908 exists (see CLAIMS-tunguska.md, Archival Footage Plan).",
+      "cap": "A MODERN COMPARISON -- NOT TUNGUSKA ITSELF",
+      "tone": "shock"
+    },
+    {
+      "id": "h4",
+      "text": "Back at Vanavara, the blast did something just as violent. Windows shattered. An iron lock on a barn snapped clean off. Semenov himself was thrown several meters off his own porch, and knocked unconscious.",
+      "dossier": true,
+      "img": "semenov_vanavara",
+      "label": "~65 KM FROM THE BLAST",
+      "cap": "Thrown off his own porch.",
+      "tone": "shock"
+    },
+    {
+      "id": "h5",
+      "text": "His account was recorded twenty two years later, by a Soviet expedition. Historians treat the shape of it as reliable. But it is a memory, not a photograph.",
+      "dossier": true,
+      "img": "semenov_vanavara",
+      "label": "RECORDED 1930 -- 22 YEARS LATER",
+      "cap": "A memory, recorded 22 years later.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h6",
+      "text": "No crater was ever found. No meteorite was ever recovered. And more than a century later, nobody has fully explained what tore through the sky that morning.",
+      "img": "kulik_fallen_trees",
+      "query": "Tunguska event fallen trees 1927 Kulik expedition",
+      "cap": "Nobody has fully explained it. Still.",
+      "motion": "slow",
+      "extraHold": 12,
+      "tone": "curiosity"
+    },
+    {
+      "id": "sting",
+      "sting": true,
+      "text": "You're watching mindwired.",
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "text": "This is the story of the Tunguska event, the biggest explosion in recorded history, and the mystery that still has no crater, and no meteorite.",
+      "chapter": "THE BIGGEST EXPLOSION IN RECORDED HISTORY\nTHE TUNGUSKA EVENT",
+      "img": "kulik_fallen_trees"
+    },
+    {
+      "id": "c1",
+      "text": "Chapter one. The world before Tunguska.",
+      "chapter": "CHAPTER ONE\nTHE WORLD BEFORE TUNGUSKA",
+      "img": "taiga_siberia"
+    },
+    {
+      "id": "a1",
+      "text": "The Podkamennaya Tunguska River is a remote tributary of the Yenisei, cutting through more than a thousand miles of Siberian taiga.",
+      "video": "taiga_1.mp4",
+      "videoQuery": "Siberian taiga forest river aerial drone footage",
+      "note": "modern generic footage -- the region today, not archival.",
+      "cap": "Deep in the Siberian taiga.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2",
+      "text": "The nearest settlement was Vanavara, not a town, just a small trading post for Evenki hunters, about sixty five kilometers from what would become ground zero.",
+      "img": "taiga_siberia",
+      "query": "remote Siberian trading post historic wooden building taiga",
+      "stock": true,
+      "cap": "Not a town. A trading post.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a3",
+      "text": "This was permafrost country. Boggy and mosquito-ridden in its short summer, snow-covered the rest of the year. No roads. No railways.",
+      "img": "taiga_siberia",
+      "cap": "No roads. No railways.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a4",
+      "text": "The people who lived here were the Evenki, nomadic reindeer herders, organized by clan, with an animist, shamanic religion. The word 'shaman' itself comes from their language.",
+      "img": "evenki_life",
+      "query": "Evenki reindeer herders Siberia historical photograph",
+      "stock": true,
+      "cap": "The word \"shaman\" comes from their language.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a5",
+      "text": "In nineteen oh eight, the idea that rocks could fall from outer space at all was itself barely a century old.",
+      "img": "meteorite_history",
+      "query": "historical meteorite illustration engraving 19th century",
+      "stock": true,
+      "cap": "A relatively new idea.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6",
+      "text": "In seventeen ninety four, the physicist Ernst Chladni first proposed it, against fierce resistance from scientists steeped in Newton and Aristotle.",
+      "img": "meteorite_history",
+      "cap": "Ernst Chladni, 1794.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a7",
+      "text": "It took a shower of thousands of stones over L'Aigle, France, in eighteen oh three, investigated for the French Academy by Jean-Baptiste Biot, to finally force the scientific establishment to accept it.",
+      "img": "meteorite_history",
+      "query": "meteorite shower historical illustration France 19th century",
+      "stock": true,
+      "cap": "L'Aigle, France. 1803.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a8",
+      "text": "By then, astronomers were also finding asteroids. Giuseppe Piazzi discovered the first, Ceres, in eighteen oh one. Photographic surveys from the eighteen nineties onward found hundreds more.",
+      "img": "meteorite_history",
+      "cap": "Hundreds of asteroids, already cataloged.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a9",
+      "text": "What did not exist yet, even in nineteen oh eight, was any concept of an object exploding in the air, leaving no crater, and no fragments, at all.",
+      "kinetic": {
+        "words": [
+          "No",
+          "crater.",
+          "No",
+          "fragments.",
+          "No",
+          "framework."
+        ]
+      },
+      "img": "kulik_fallen_trees",
+      "extraHold": 16,
+      "tone": "curiosity"
+    },
+    {
+      "id": "a10",
+      "text": "Even ordinary meteorite craters were still disputed. When a mining engineer named Daniel Barringer argued, in nineteen oh five, that Arizona's Meteor Crater was formed by a space impact, the U.S. Geological Survey's chief geologist rejected him for years, insisting it was a volcanic steam explosion instead.",
+      "img": "meteorite_crater",
+      "query": "Meteor Crater Arizona aerial historical photograph",
+      "stock": true,
+      "cap": "Even Meteor Crater was disputed.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a11",
+      "text": "The man who would eventually chase this new kind of mystery down was a Russian mineralogist named Leonid Kulik.",
+      "img": "kulik_portrait",
+      "query": "Leonid Kulik Soviet mineralogist portrait",
+      "stat": "LEONID KULIK, 1883-1942",
+      "cap": "Leonid Kulik.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a12",
+      "text": "He fought in the First World War, was briefly imprisoned for revolutionary activity, and only afterward returned to science, in Tomsk and then Leningrad.",
+      "img": "kulik_portrait",
+      "cap": "Soldier, prisoner, then scientist.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c2",
+      "text": "Chapter two. The morning of June thirtieth.",
+      "chapter": "CHAPTER TWO\nTHE MORNING OF JUNE 30TH",
+      "img": "kulik_fallen_trees"
+    },
+    {
+      "id": "b1",
+      "text": "At approximately seven fifteen in the morning, local time, a massive explosion tore through the sky above the Tunguska basin. Later back-calculations put it somewhere between seven fourteen and seven seventeen. There was no synchronized clock at the scene.",
+      "img": "kulik_fallen_trees",
+      "stat": "~7:15 AM, JUN 30, 1908",
+      "cap": "No synchronized clock. Just witnesses.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b2",
+      "text": "Thirty kilometers from the blast, a young Evenki man named Chuchan, of the Shanyagir clan, described a light 'like a second sun,' and being knocked down again and again by the blast waves. His account was recorded eighteen years later, in nineteen twenty six, by a Soviet ethnographer. Memory, not a photograph.",
+      "dossier": true,
+      "img": "eyewitness_transcript",
+      "label": "CHUCHAN, SHANYAGIR CLAN -- RECORDED 1926",
+      "cap": "\"Like a second sun.\"",
+      "tone": "fear"
+    },
+    {
+      "id": "b3",
+      "text": "Across dozens of separate accounts, the same sequence repeats. Blinding heat first, almost instantly. Then, seconds to nearly a minute later, a shockwave that physically knocked people down.",
+      "img": "kulik_fallen_trees",
+      "cap": "Heat first. The shockwave, after.",
+      "tone": "awe"
+    },
+    {
+      "id": "b4",
+      "text": "Seismographs in Irkutsk, Tashkent, Tbilisi, and Jena all registered the blast within hours. So did barographs as far away as Ditcham Park House, in England, over fifty six hundred kilometers from Siberia.",
+      "img": "taiga_siberia",
+      "query": "vintage seismograph instrument reading historical photograph",
+      "stock": true,
+      "stat": "~5,600 KM AWAY -- STILL REGISTERED",
+      "cap": "The blast that circled the globe.",
+      "tone": "awe"
+    },
+    {
+      "id": "b5",
+      "text": "For days afterward, the night sky stayed strangely bright across Europe and Asia. Bright enough, in Scotland, to read a newspaper, or play golf, at two in the morning.",
+      "img": "taiga_siberia",
+      "query": "bright night sky glow historical illustration Europe",
+      "stock": true,
+      "cap": "\"Bright enough to read a newspaper.\"",
+      "tone": "awe"
+    },
+    {
+      "id": "b6",
+      "text": "Evenki herders reported losing everything. One man, Andrey Onkoul, reportedly lost his entire reindeer herd, without a trace.",
+      "img": "evenki_life",
+      "cap": "A herd. Gone without a trace.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "b7",
+      "text": "There are unconfirmed reports that as many as three Evenki herders may have died. But that traces only to oral testimony gathered in nineteen twenty six, eighteen years after the event, with no forensic evidence at all.",
+      "img": "kulik_fallen_trees",
+      "note": "DISPUTED/UNVERIFIED per CLAIMS Correction #2 -- no forensic corroboration, sourced only to 1926 oral testimony. Never state as a confirmed death toll.",
+      "cap": "No forensic evidence. Ever.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "b8",
+      "text": "The Evenki who survived had their own explanation. Some believed a shaman named Magankan had summoned the thunder-spirit Agdy, to destroy a rival clan camped in the blast's path.",
+      "dossier": true,
+      "img": "evenki_cosmology",
+      "label": "EVENKI COSMOLOGY -- A CULTURAL BELIEF",
+      "cap": "Not a theory of what happened. A belief in why.",
+      "note": "Cultural cosmology only, per CLAIMS Correction #7 -- never intercut with the scientific causal theories in Chapter Five.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b9",
+      "text": "This was the world just after the blast. Testimony, awe, grief, and a story passed down for years before anyone from the outside world arrived to look.",
+      "img": "kulik_fallen_trees",
+      "cap": "Nobody from outside had come yet.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c3",
+      "text": "Chapter three. The scale of the blast.",
+      "chapter": "CHAPTER THREE\nTHE SCALE OF THE BLAST",
+      "img": "kulik_fallen_trees"
+    },
+    {
+      "id": "d1",
+      "text": "When investigators finally reached the site, they found forest flattened across roughly two thousand one hundred fifty square kilometers. Eight hundred thirty square miles.",
+      "kinetic": {
+        "count": 2150,
+        "suffix": " km² of forest, flattened",
+        "sub": "Roughly 830 square miles"
+      },
+      "img": "kulik_fallen_trees",
+      "extraHold": 12,
+      "tone": "awe"
+    },
+    {
+      "id": "d2",
+      "text": "The destruction radiated outward from a single point, in a butterfly-shaped pattern, up to thirty five kilometers from the center, every fallen tree pointing away from the blast.",
+      "img": "kulik_fallen_trees",
+      "query": "Tunguska event fallen trees radial pattern aerial 1927",
+      "motion": "slow",
+      "cap": "Every tree, pointing away from the blast.",
+      "tone": "awe"
+    },
+    {
+      "id": "d3",
+      "text": "The popular figure is eighty million trees, flattened in an instant. But that number comes from early estimates. Newer tree-ring analysis suggests the real toll may be considerably lower, perhaps by a factor of four.",
+      "img": "kulik_fallen_trees",
+      "stat": "\"80 MILLION\" TREES (DISPUTED)",
+      "note": "DISPUTED per CLAIMS Correction #1 -- traditional figure, possibly overstated ~4x per newer tree-ring analysis. Do not state as settled.",
+      "cap": "Possibly overstated -- by up to 4×.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d4",
+      "text": "The blast released an estimated ten to fifteen megatons of energy, roughly a thousand times the Hiroshima bomb, and on the scale of the nineteen eighty Mount Saint Helens eruption. Some models push that range as high as fifty megatons.",
+      "img": "kulik_fallen_trees",
+      "stat": "10-15 MT (RANGE: 3-50 MT)",
+      "cap": "About 1,000 Hiroshimas.",
+      "tone": "awe"
+    },
+    {
+      "id": "d5",
+      "text": "Some seismic stations recorded ground tremors that later analysis compared to a magnitude five earthquake. That comparison is retrospective. The Richter scale itself would not be invented for another twenty seven years.",
+      "img": "kulik_fallen_trees",
+      "stat": "\"MAGNITUDE 5\" (RETROSPECTIVE)",
+      "note": "Retrospective comparison per CLAIMS Correction #6 -- Richter scale invented 1935, 27 years after the event.",
+      "cap": "The scale didn't exist yet.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d6",
+      "text": "Scattered among the flattened trees were small, bowl-shaped bogs. For a while, investigators wondered if one of these might be the missing crater.",
+      "img": "kulik_fallen_trees",
+      "cap": "Could one of these be the crater?",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d7",
+      "text": "This remains, and it remained then, the largest cosmic impact ever witnessed by human beings. An entire forest, wiped flat, in seconds.",
+      "img": "kulik_fallen_trees",
+      "motion": "slow",
+      "cap": "Wiped flat, in seconds.",
+      "tone": "awe"
+    },
+    {
+      "id": "c4",
+      "text": "Chapter four. Nineteen years of silence.",
+      "chapter": "CHAPTER FOUR\nNINETEEN YEARS OF SILENCE",
+      "img": "kulik_expedition"
+    },
+    {
+      "id": "e1",
+      "text": "No scientist reached the site for nineteen years. Partly, this was simple geography. No roads, no railways, permafrost bog, and only a narrow travel window each summer.",
+      "img": "taiga_siberia",
+      "cap": "Nineteen years. Nobody looked.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e2",
+      "text": "Partly, it was history. The First World War, the Russian Revolution, and the Civil War that followed devoured Russian science for most of that decade. The same years that should have been Leonid Kulik's prime working career.",
+      "img": "kulik_portrait",
+      "cap": "The same years Kulik should have been working.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e3",
+      "text": "In nineteen twenty six, a Soviet official named Innokenty Suslov traveled into the region, a full year before Kulik, to organize the first Soviet councils among the Evenki. It was Suslov who first brought word of the story's scale back to the Academy of Sciences.",
+      "img": "taiga_siberia",
+      "query": "Soviet ethnographer expedition Siberia 1920s historical photograph",
+      "stock": true,
+      "cap": "The man who got there first.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e4",
+      "text": "Kulik himself first tried to reach the site in nineteen twenty one, and failed. He didn't actually make it until nineteen twenty seven, guided the final stretch by local Evenki hunters.",
+      "img": "kulik_portrait",
+      "stat": "1921: FAILED -- 1927: ARRIVED",
+      "cap": "Guided in by the people who lived there.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e5",
+      "text": "What he found was extraordinary. An inner zone of scorched, branch-stripped trees, still standing, like a forest of telephone poles, ringed by a much wider band of forest, flattened, radiating outward from one central point.",
+      "img": "kulik_fallen_trees",
+      "query": "Tunguska event standing scorched trees Kulik expedition 1927",
+      "motion": "slow",
+      "cap": "\"Like a forest of telephone poles.\"",
+      "tone": "awe"
+    },
+    {
+      "id": "e6",
+      "text": "And nothing else. No crater. No recovered meteorite fragments. Several bowl-shaped bogs he suspected at first turned out to be much older than nineteen oh eight. One even had tree stumps growing inside it, predating the blast entirely.",
+      "img": "kulik_fallen_trees",
+      "cap": "No crater. No meteorite. Ever.",
+      "extraHold": 16,
+      "tone": "shock"
+    },
+    {
+      "id": "e7",
+      "text": "Kulik returned in nineteen twenty eight, again in nineteen twenty nine and nineteen thirty, and once more in nineteen thirty eight, this time photographing the fell-zone from the air. He never found a crater. He never found a meteorite.",
+      "img": "kulik_expedition",
+      "query": "Kulik expedition Tunguska camp 1929 1930 historical photograph",
+      "cap": "Four expeditions. Zero craters.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e8",
+      "text": "Soviet expeditions in the nineteen fifties and sixties, decades later, recovered something else. Microscopic silicate spheres, in the soil and tree resin, with unusual nickel content. Scientists call this evidence 'consistent with' a cosmic origin. Not proof of one.",
+      "img": "kulik_expedition",
+      "query": "scientist soil sample laboratory microscope historical",
+      "stock": true,
+      "note": "DISPUTED/partially confirmed per CLAIMS Correction #9 -- never state as conclusive proof.",
+      "cap": "\"Consistent with.\" Not proof.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e9",
+      "text": "By the time all this was done, one fact was undeniable. Whatever tore through the sky that morning had left behind everything, except the one thing anyone expected to find.",
+      "img": "kulik_fallen_trees",
+      "cap": "Everything, except the thing everyone expected.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c5",
+      "text": "Chapter five. The theories that didn't survive.",
+      "chapter": "CHAPTER FIVE\nTHE THEORIES THAT DIDN'T SURVIVE",
+      "img": "kulik_fallen_trees"
+    },
+    {
+      "id": "f1",
+      "text": "With no crater and no meteorite, the case stayed open for decades. And into that vacuum came theories far stranger than an asteroid.",
+      "img": "kulik_fallen_trees",
+      "cap": "Into the vacuum, stranger ideas.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f2",
+      "text": "In nineteen seventy three, physicists Jackson and Ryan proposed something startling, in the journal Nature. A tiny primordial black hole, weighing about a hundred sextillion kilograms, had passed straight through the Earth, entering over Siberia.",
+      "diagram": "bhicon",
+      "arg": "primordial",
+      "cap": "A black hole -- passing through Earth?",
+      "tone": "awe"
+    },
+    {
+      "id": "f3",
+      "text": "It was refuted almost immediately. The hypothesis itself predicted a matching exit shockwave on the opposite side of the planet. Nobody ever found one. A nineteen seventy four rebuttal in Nature, and Stephen Hawking's own later work on black hole evaporation, argued an object that small couldn't have survived to reach Earth intact at all.",
+      "diagram": "bhicon",
+      "arg": "primordial",
+      "note": "REFUTED per CLAIMS Correction #11 (Jackson & Ryan 1973; rebutted Beasley & Tinsley 1974).",
+      "cap": "No exit wave was ever found.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f4",
+      "text": "In nineteen sixty five, physicists Cowan, Atluri, and Libby proposed matter and antimatter had collided and annihilated each other in the sky. It doesn't hold up. An annihilation like that would leave almost no debris behind. But real mineral and dust debris was recovered at the site.",
+      "dossier": true,
+      "img": "antimatter_theory",
+      "label": "COWAN, ATLURI & LIBBY, 1965 -- REFUTED",
+      "note": "REFUTED per CLAIMS Correction #11.",
+      "cap": "Real debris was found. Antimatter leaves none.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f5",
+      "text": "The alien-spacecraft idea traces to something even less scientific. A nineteen forty six Soviet science-fiction story, written by an engineer named Alexander Kazantsev, popularized decades later in a nineteen seventy six book. No physical evidence has ever supported it. It endures as pop culture. Not as science.",
+      "dossier": true,
+      "img": "alien_spacecraft_theory",
+      "label": "A 1946 SCIENCE-FICTION STORY",
+      "note": "Fictional origin per CLAIMS Correction #11 -- never platformed as a live theory.",
+      "cap": "Fiction -- not a scientific claim.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f6",
+      "text": "Three famous theories. Three dead ends, each one clearly attributed, and each one clearly ruled out by the physical evidence on the ground.",
+      "kinetic": {
+        "words": [
+          "Three",
+          "theories.",
+          "Zero",
+          "survived",
+          "scrutiny."
+        ]
+      },
+      "img": "kulik_fallen_trees",
+      "extraHold": 16,
+      "tone": "curiosity"
+    },
+    {
+      "id": "c6",
+      "text": "Chapter six. The real suspect.",
+      "chapter": "CHAPTER SIX\nTHE REAL SUSPECT",
+      "img": "asteroid_illustration"
+    },
+    {
+      "id": "g1",
+      "text": "The mainstream scientific consensus, built up over decades of NASA and peer-reviewed modeling, is far less exotic. A small stony asteroid, somewhere between fifty and eighty meters across, entered the atmosphere at a shallow angle, traveling around twenty seven kilometers a second.",
+      "img": "asteroid_illustration",
+      "query": "small asteroid atmospheric entry illustration NASA",
+      "stock": true,
+      "stat": "50-80 M ACROSS -- 27 KM/S",
+      "cap": "50 to 80 meters across.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "g2",
+      "text": "Around five to ten kilometers above the ground, it detonated in mid-air. Because it never reached the surface intact, it left behind no crater, and no large fragments. Exactly what investigators found, ninety years later.",
+      "img": "asteroid_illustration",
+      "cap": "Destroyed in the sky. Never hit the ground.",
+      "tone": "awe"
+    },
+    {
+      "id": "g3",
+      "text": "Whether it was a stony asteroid or an icy comet fragment is still genuinely disputed among specialists. A widely-cited two thousand one statistical study put the odds at roughly eighty three percent asteroid, seventeen percent comet. A real estimate. Not a settled answer.",
+      "img": "asteroid_illustration",
+      "stat": "~83% ASTEROID / 17% COMET (2001 EST.)",
+      "note": "DISPUTED per CLAIMS Correction #13 -- Farinella/Foschini 2001 estimate, question remains open among specialists.",
+      "cap": "A real estimate. Not a settled answer.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "g4",
+      "text": "The one thing almost everyone agrees on: whatever it was, it never reached the ground. Which makes one small lake, eight kilometers from the epicenter, a genuinely open question.",
+      "img": "lakecheko",
+      "query": "Lake Cheko Siberia aerial photograph",
+      "cap": "Lake Cheko. Eight km away.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "g5",
+      "text": "In papers published between two thousand seven and twenty twelve, University of Bologna geologist Luca Gasperini proposed that Lake Cheko could be an impact crater, carved out by a surviving fragment of the object.",
+      "img": "lakecheko",
+      "note": "Attribute to Gasperini by name -- ALLEGED/contested per CLAIMS Correction #10, not settled fact.",
+      "cap": "Luca Gasperini's hypothesis. His alone.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "g6",
+      "text": "Russian researchers coring the lakebed in twenty seventeen found sediment only around two hundred eighty years old at the deepest layer they sampled, which, if representative, would mean the lake predates the blast entirely. The dispute has never been resolved either way.",
+      "img": "lakecheko",
+      "cap": "Predates 1908? The dispute isn't resolved.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "g7",
+      "text": "So the honest answer, in the end, is a genuine one. Almost certainly an asteroid, quite possibly a comet, detonating in the air above Siberia. And one open argument about a lake that nobody has settled.",
+      "img": "asteroid_illustration",
+      "extraHold": 12,
+      "cap": "The honest answer: \"we don't fully know.\"",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c7",
+      "text": "Chapter seven. Chelyabinsk: the proof.",
+      "chapter": "CHAPTER SEVEN\nCHELYABINSK: THE PROOF",
+      "img": "chelyabinsk_trail"
+    },
+    {
+      "id": "h1c",
+      "text": "On February fifteenth, twenty thirteen, the largest airburst since Tunguska happened again, this time over Chelyabinsk, Russia. This time, dashcams and security cameras caught the whole thing.",
+      "video": "chelyabinsk_2.mp4",
+      "videoQuery": "Chelyabinsk meteor 2013 dashcam explosion shockwave",
+      "note": "2013 Chelyabinsk event -- a modern comparison, not Tunguska itself.",
+      "cap": "This time, it was all on camera.",
+      "tone": "awe"
+    },
+    {
+      "id": "h2c",
+      "text": "Commonly cited around four hundred to five hundred kilotons of energy, though estimates vary meaningfully across different papers. Still only a fraction of Tunguska's estimated ten to fifty megatons.",
+      "video": "chelyabinsk_3.mp4",
+      "videoQuery": "Chelyabinsk meteor 2013 security camera footage shockwave window",
+      "note": "Order-of-magnitude range per CLAIMS Correction #14, not a precise figure. Modern comparison event.",
+      "stat": "~400-500 KT (RANGE, NOT EXACT)",
+      "cap": "A fraction of Tunguska's power. Still devastating.",
+      "tone": "awe"
+    },
+    {
+      "id": "h3c",
+      "text": "For the first time, scientists had real measured data. Shockwave speed, injury patterns, damage radius, to test decades of Tunguska-based airburst models against. The definitive analysis, led by Olga Popova, was published in the journal Science in twenty thirteen.",
+      "img": "sciencelab",
+      "query": "planetary scientist research lab computer modeling",
+      "stock": true,
+      "cap": "Olga Popova et al., Science, 2013.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h4c",
+      "text": "Planetary scientist Natalia Artemieva, who co-authored the standard Tunguska-Chelyabinsk comparison paper, has pointed to one earlier bridge that made this kind of modeling possible at all. The comet Shoemaker-Levy Nine slamming into Jupiter, in nineteen ninety four, watched by telescopes around the world.",
+      "img": "shoemakerlevy",
+      "query": "Shoemaker-Levy 9 comet impact Jupiter NASA telescope image",
+      "cap": "Natalia Artemieva, planetary scientist.",
+      "tone": "awe"
+    },
+    {
+      "id": "h5c",
+      "text": "Physicist Mark Boslough, of Sandia National Laboratories, personally visited the Tunguska site in two thousand eight. He has continued using the physics of this blast for modern research, including a twenty twenty five paper correcting an unrelated, since-retracted claim about a site in Jordan. That's Boslough's position specifically, not a settled consensus about that other site.",
+      "img": "sciencelab",
+      "note": "Attribute carefully per CLAIMS Correction #16 -- Boslough's own position, not a consensus finding about the unrelated Tall el-Hammam claim.",
+      "cap": "Mark Boslough, Sandia National Laboratories.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c8",
+      "text": "Chapter eight. Why it still matters.",
+      "chapter": "CHAPTER EIGHT\nWHY IT STILL MATTERS",
+      "img": "pdco_illustration"
+    },
+    {
+      "id": "i1",
+      "text": "NASA's own David Morrison, a pioneer of near-Earth-object risk assessment who has studied this for decades, put it simply. Tunguska, he says, is the largest cosmic impact witnessed by modern humans. It also is characteristic of the sort of impact we are likely to have to protect against in the future.",
+      "video": "nasa_ames_1.mp4",
+      "videoQuery": "NASA Ames Research Center campus exterior footage",
+      "note": "Direct quote sourced to NASA's own site -- living person, attributed by name per CLAIMS Correction #16, safe to use verbatim with attribution.",
+      "cap": "David Morrison, NASA Ames.",
+      "tone": "confidence"
+    },
+    {
+      "id": "i2",
+      "text": "On January seventh, twenty sixteen, NASA formally established the Planetary Defense Coordination Office, created specifically to find and track hazardous near-Earth objects. Its entire mission traces back to airbursts on Tunguska's scale, as the reference threat.",
+      "img": "pdco_illustration",
+      "query": "NASA planetary defense asteroid tracking illustration",
+      "stock": true,
+      "stat": "PDCO ESTABLISHED JAN 7, 2016",
+      "cap": "Created because of Tunguska-class threats.",
+      "tone": "confidence"
+    },
+    {
+      "id": "ex_nasa",
+      "exhibit": true,
+      "img": "nasa_tm220174",
+      "query": "NASA technical memorandum document report cover page",
+      "stock": true,
+      "source": "NASA Technical Memorandum TM-220174 · Icarus, Vol. 327, \"Tunguska Revisited\" (2019)",
+      "highlight": [
+        0.08,
+        0.12,
+        0.7,
+        0.18
+      ],
+      "note": "Primary exhibit document per CLAIMS -- verify the specific PDF/license tag at fetch time before use (presumptively US PD as a NASA work, but confirm, don't assume).",
+      "text": "In January twenty eighteen, NASA's Planetary Defense office sponsored a fifty-person workshop at Ames Research Center, applying the same post-Chelyabinsk modeling tools to the nineteen oh eight event. It produced eight peer-reviewed papers, published together in July twenty nineteen.",
+      "cap": "Eight peer-reviewed papers. One workshop.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "i4",
+      "text": "That same office later sponsored DART, the Double Asteroid Redirection Test, the first time humanity deliberately altered an asteroid's orbit, by slamming a spacecraft straight into it.",
+      "video": "dart_impact_1.mp4",
+      "videoQuery": "NASA DART mission asteroid impact Dimorphos",
+      "note": "Real NASA mission footage, public domain.",
+      "cap": "Humanity's first planetary-defense test.",
+      "tone": "hope"
+    },
+    {
+      "id": "i5",
+      "text": "Looking forward, the Vera C. Rubin Observatory's ongoing sky survey is expected to sharply increase how many Tunguska and Chelyabinsk-sized objects we can spot, before they arrive, not after.",
+      "video": "rubin_observatory_1.mp4",
+      "videoQuery": "Vera Rubin Observatory telescope night sky survey timelapse",
+      "cap": "Spotting the next one, before it arrives.",
+      "tone": "hope"
+    },
+    {
+      "id": "i6",
+      "text": "For over a century, Tunguska has stood as planetary science's working definition of the worst realistic case. A city-flattening blast, that under current detection rates, would arrive with effectively no warning at all.",
+      "img": "kulik_fallen_trees",
+      "motion": "slow",
+      "extraHold": 16,
+      "cap": "The worst realistic case, still on the books.",
+      "tone": "fear"
+    },
+    {
+      "id": "coda1",
+      "text": "What stays with me about Tunguska isn't the size of the blast. It's the shape of the mystery. How something this large could happen, and still leave so little evidence behind.",
+      "img": "kulik_fallen_trees",
+      "cap": "What stays with me.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda2",
+      "text": "Every theory that tried to explain it with something exotic, a black hole, antimatter, a spacecraft, fell apart against ordinary evidence. And the real answer, an asteroid or a comet detonating in the air, turned out unsettling enough on its own.",
+      "img": "kulik_fallen_trees",
+      "cap": "The real answer was unsettling enough.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "coda3",
+      "text": "We now know this kind of blast can happen again, anywhere, with almost no warning. Chelyabinsk proved that, in real time, on camera, in twenty thirteen.",
+      "img": "kulik_fallen_trees",
+      "cap": "It can happen again. Almost anywhere.",
+      "tone": "fear"
+    },
+    {
+      "id": "coda4",
+      "text": "More than a century later, the meteorite has still never been found.",
+      "img": "kulik_fallen_trees",
+      "extraHold": 20,
+      "cap": "Still never found.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "bridge",
+      "text": "If a nineteen forty six science-fiction story convinced people aliens were behind Tunguska, wait until you hear the pilot who swore, on the record, that what he saw was not from this world.",
+      "cap": "Watch next: \"The Pilot Who Said It Was Not From This World.\"",
+      "tone": "curiosity",
+      "img": "kulik_fallen_trees"
+    },
+    {
+      "id": "end",
+      "text": "Subscribe to mindwired.",
+      "chapter": "SUBSCRIBE",
+      "img": "kulik_fallen_trees"
+    }
+  ]
+}

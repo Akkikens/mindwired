@@ -1,0 +1,209 @@
+{
+ "durations": {
+  "h1": 11.729,
+  "h2": 8.359,
+  "h3": 4.362,
+  "h4": 8.673,
+  "h5": 8.359,
+  "h6": 12.199,
+  "rule": 13.322,
+  "sting": 1.802,
+  "title": 4.284,
+  "a1_ch": 6.348,
+  "a1_1": 16.666,
+  "a1_2": 17.476,
+  "a1_2b": 5.407,
+  "a1_3": 18.364,
+  "a1_4": 16.353,
+  "a1_5": 11.389,
+  "a1_6": 22.439,
+  "a1_7": 14.211,
+  "a1_8": 15.073,
+  "a1_9": 14.681,
+  "a2_ch": 6.766,
+  "a2_1": 18.207,
+  "a2_2": 13.322,
+  "a2_3": 8.516,
+  "a2_4": 13.009,
+  "a2_5": 18.207,
+  "a2_6": 8.673,
+  "a3_ch": 3.971,
+  "a3_1": 22.596,
+  "a3_2": 16.771,
+  "a3_3": 16.039,
+  "a3_4": 10.841,
+  "a3_5": 9.796,
+  "a3_6": 25.548,
+  "a3_7": 11.729,
+  "a3_8": 22.047,
+  "a3_9": 10.919,
+  "a4_ch": 5.878,
+  "a4_1": 8.594,
+  "a4_2": 13.322,
+  "a4_3": 12.277,
+  "a4_4": 18.834,
+  "a4_5": 20.036,
+  "a4_6": 16.431,
+  "a4_7": 15.882,
+  "a4_8": 12.513,
+  "a4_9": 16.431,
+  "a4_9b": 14.106,
+  "a4_10": 19.226,
+  "a4_11": 12.356,
+  "a5_ch": 4.362,
+  "a5_1": 7.393,
+  "a5_2": 26.122,
+  "a5_3": 12.277,
+  "a5_4": 12.931,
+  "a5_5": 26.906,
+  "a5_6": 18.364,
+  "a5_7": 11.964,
+  "a6_ch": 4.206,
+  "a6_1": 13.401,
+  "a6_1b": 2.429,
+  "a6_2": 17.319,
+  "a6_3": 18.677,
+  "a6_4": 21.891,
+  "a6_5": 14.446,
+  "a6_6": 20.767,
+  "a6_7": 10.266,
+  "a6_8": 13.871,
+  "cq_ch": 5.251,
+  "cq_a1": 7.811,
+  "cq_a2": 10.449,
+  "cq_b1": 3.866,
+  "cq_b2": 9.169,
+  "cq_c1": 5.642,
+  "cq_c2": 7.549,
+  "cq_d1": 5.642,
+  "cq_d2": 9.091,
+  "cq_e1": 5.721,
+  "cq_e2": 8.046,
+  "a8_ch": 4.519,
+  "a8_1": 14.211,
+  "a8_2": 26.044,
+  "a8_3a": 17.633,
+  "a8_3b": 13.479,
+  "a8_4": 11.886,
+  "a8_5": 20.271,
+  "a8_6": 8.594,
+  "a8_7": 13.479,
+  "a8_8": 9.326,
+  "a8_9": 10.188,
+  "coda1": 7.889,
+  "coda2": 10.449,
+  "bridge": 18.442
+ },
+ "images": {
+  "1wtc_exterior": [
+   "1wtc_exterior_1.jpg",
+   "1wtc_exterior_2.jpg",
+   "1wtc_exterior_3.jpg"
+  ],
+  "bowing_diagram": [
+   "bowing_diagram_1.jpg"
+  ],
+  "code_change_generic": [
+   "code_change_generic_1.jpeg",
+   "code_change_generic_2.jpeg",
+   "code_change_generic_3.jpeg"
+  ],
+  "col79_diagram": [
+   "col79_diagram_1.jpg"
+  ],
+  "collapse_sim_wtc2": [
+   "collapse_sim_wtc2_1.jpg"
+  ],
+  "documents_generic": [
+   "documents_generic_1.jpeg",
+   "documents_generic_2.jpeg",
+   "documents_generic_3.jpeg"
+  ],
+  "ex_energyargument": [
+   "ex_energyargument_1.png"
+  ],
+  "ex_extraordinary": [
+   "ex_extraordinary_1.png",
+   "ex_extraordinary_2.png"
+  ],
+  "ex_faq21": [
+   "ex_faq21_1.png"
+  ],
+  "ex_faq33": [
+   "ex_faq33_1.png"
+  ],
+  "ex_faq34": [
+   "ex_faq34_1.png"
+  ],
+  "ex_freefall": [
+   "ex_freefall_1.png"
+  ],
+  "ex_gpo2002": [
+   "ex_gpo2002_1.png"
+  ],
+  "ex_nofuel": [
+   "ex_nofuel_1.png"
+  ],
+  "ex_threefactor": [
+   "ex_threefactor_1.png"
+  ],
+  "ex_tubeframe": [
+   "ex_tubeframe_1.png"
+  ],
+  "highrise_fire_generic": [
+   "highrise_fire_generic_1.jpeg",
+   "highrise_fire_generic_2.jpeg",
+   "highrise_fire_generic_3.jpeg"
+  ],
+  "impact_diagram": [
+   "impact_diagram_1.jpg",
+   "impact_diagram_2.jpg"
+  ],
+  "memorial_pools": [
+   "memorial_pools_1.jpg",
+   "memorial_pools_2.jpg",
+   "memorial_pools_3.jpg"
+  ],
+  "nist_sim_poster": [
+   "nist_sim_poster_1.jpg"
+  ],
+  "oculus_generic": [
+   "oculus_generic_1.jpeg",
+   "oculus_generic_2.jpeg",
+   "oculus_generic_3.jpeg"
+  ],
+  "steel_recovered": [
+   "steel_recovered_1.jpg",
+   "steel_recovered_2.jpg",
+   "steel_recovered_3.jpg"
+  ],
+  "tubeframe_diagram": [
+   "tubeframe_diagram_1.jpg",
+   "tubeframe_diagram_2.jpg"
+  ],
+  "twintowers_construction": [
+   "twintowers_construction_1.jpg",
+   "twintowers_construction_2.jpg",
+   "twintowers_construction_3.jpg"
+  ],
+  "twintowers_skyline": [
+   "twintowers_skyline_1.jpg",
+   "twintowers_skyline_2.jpg",
+   "twintowers_skyline_3.jpg"
+  ],
+  "videoanalysis_generic": [
+   "videoanalysis_generic_1.jpeg",
+   "videoanalysis_generic_2.jpeg",
+   "videoanalysis_generic_3.jpeg"
+  ],
+  "wtc7_exterior": [
+   "wtc7_exterior_1.jpg"
+  ],
+  "wtc7_watermain": [
+   "wtc7_watermain_1.png"
+  ]
+ },
+ "missing": [],
+ "speed": 0.96,
+ "mouth": {}
+}

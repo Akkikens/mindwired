@@ -59,6 +59,8 @@ import concordeDoc from "./mindwired-doc/docs/concorde.json";
 import concordeManifest from "./mindwired-doc/docs/concorde.manifest.json";
 import spaceShuttleDoc from "./mindwired-doc/docs/spaceshuttle.json";
 import spaceShuttleManifest from "./mindwired-doc/docs/spaceshuttle.manifest.json";
+import wtcCollapseDoc from "./mindwired-doc/docs/wtccollapse.json";
+import wtcCollapseManifest from "./mindwired-doc/docs/wtccollapse.manifest.json";
 import flight93Doc from "./mindwired-doc/docs/flight93.json";
 import flight93Manifest from "./mindwired-doc/docs/flight93.manifest.json";
 import us1549Doc from "./mindwired-doc/docs/us1549.json";
@@ -68,6 +70,10 @@ import nasaufofilesManifest from "./mindwired-doc/docs/nasaufofiles.manifest.jso
 import { NasaUfoFilesThumbnail } from "./mindwired-doc/NasaUfoFilesThumbnail";
 import mh370netflixDoc from "./mindwired-doc/docs/mh370netflix.json";
 import mh370netflixManifest from "./mindwired-doc/docs/mh370netflix.manifest.json";
+import earhartDoc from "./mindwired-doc/docs/earhart.json";
+import earhartManifest from "./mindwired-doc/docs/earhart.manifest.json";
+import tunguskaDoc from "./mindwired-doc/docs/tunguska.json";
+import tunguskaManifest from "./mindwired-doc/docs/tunguska.manifest.json";
 import astronautsScaredDoc from "./mindwired-doc/docs/astronautsscared.json";
 import astronautsScaredManifest from "./mindwired-doc/docs/astronautsscared.manifest.json";
 import issInsideDoc from "./mindwired-doc/docs/issinside.json";
@@ -1333,6 +1339,29 @@ export const RemotionRoot: React.FC = () => {
         height={1080}
       />
 
+      {/* ── Black Box Breakdown — The World Trade Center Collapse: the NIST
+             engineering investigation (Icahn: icahn-wtc-collapse, PASS,
+             highest recognition/ceiling of any topic this channel has
+             covered; rides the 25th anniversary Sept 2026). United 93's
+             natural companion piece — the structural-engineering angle, not
+             the hijacking. Highest-sensitivity episode yet: dedicated
+             adversarial ethics review + primary-source verification pass
+             before scripting (see docs/planning/CLAIMS-wtccollapse.md).
+             Real NIST/FEMA/GPO exhibits, NIST's own labeled collapse
+             simulations, one capped ~70-90s consolidated conspiracy-claims
+             segment (free-fall, thermite, Silverstein "pull it," BBC early
+             report, Hulsey/AE911Truth — each attributed + rebutted, never a
+             live debate), zero depiction of jumping/falling/remains
+             anywhere. BB subscribe outro baked. ── */}
+      <Composition
+        id="WtcCollapseDoc"
+        component={makeDocComp(wtcCollapseDoc, wtcCollapseManifest, BB_OUTRO)}
+        durationInFrames={docTotalFrames(wtcCollapseDoc, wtcCollapseManifest, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
       {/* ── mindwired — NASA's Real UFO Files (Evidence Engine: real Navy UAP
              videos GIMBAL/GOFAST/FLIR1 via DVIDS, real House Oversight hearing
              footage, real NASA/AARO report exhibit pages; attributed mystery
@@ -1384,6 +1413,107 @@ export const RemotionRoot: React.FC = () => {
         fps={30}
         width={1920}
         height={1080}
+      />
+
+      {/* ── Black Box Breakdown — Amelia Earhart's 1937 disappearance
+             (Icahn: icahn-earhart, PASS 3/3 recognition. Real evidentiary
+             reconstruction: USS Itasca radio-log RECREATION for the final
+             transmissions [no real audio survives from 1937], real 1930s
+             newsreel/photo archival footage, NARA radio-log exhibit, TIGHAR
+             Nikumaroro forensic findings attributed-never-asserted. Two
+             unfilmable-moment dossier scenes for the open-ocean ditching and
+             the 1940/41 forensic artifact table. BB subscribe outro baked) ── */}
+      <Composition
+        id="EarhartDoc"
+        component={makeDocComp(earhartDoc, earhartManifest, BB_OUTRO)}
+        durationInFrames={docTotalFrames(earhartDoc, earhartManifest, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── mindwired — the 1908 Tunguska Event
+             (Icahn: icahn-tunguska-event, PASS 2/3 recognition — packaging
+             must lead with "biggest explosion in recorded history, no
+             crater, no meteorite" bridge, never the bare word "Tunguska".
+             Real Kulik-expedition archival photography, real 1908
+             seismograph/barograph record imagery; fringe theories (mini
+             black hole / antimatter / alien craft) rendered as dossier
+             scenes, attributed-never-asserted, dismissed by the real
+             science. MW subscribe outro baked) ── */}
+      <Composition
+        id="TunguskaDoc"
+        component={makeDocComp(tunguskaDoc, tunguskaManifest, MW_OUTRO)}
+        durationInFrames={docTotalFrames(tunguskaDoc, tunguskaManifest, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Earhart funnel Shorts (4) — cold open, the real NARA radio-log
+             reveal, the 13-bones forensic story, the 2025 declassification.
+             Pinned-comment CTA on each names the long-form by title. ── */}
+      <Composition
+        id="EarhartShort1"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "h1", endId: "h9", doc: earhartDoc as any, manifest: earhartManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "h1", endId: "h9", hook: "Her last words were\nrecorded, word for word", cta: "They had her radio log.\nThey never had her body.", slug: "earhart", doc: earhartDoc as any, manifest: earhartManifest as any }}
+      />
+      <Composition
+        id="EarhartShort2"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "c3_8", endId: "c3_16", doc: earhartDoc as any, manifest: earhartManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "c3_8", endId: "c3_16", hook: "This document is real.\nIt still doesn't solve it", cta: "The full radio log\nbreakdown on the channel", slug: "earhart", doc: earhartDoc as any, manifest: earhartManifest as any }}
+      />
+      <Composition
+        id="EarhartShort3"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "c6_2", endId: "c6_9", doc: earhartDoc as any, manifest: earhartManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "c6_2", endId: "c6_9", hook: "13 bones were found.\nOne might be her", cta: "The full forensic story\non the channel", slug: "earhart", doc: earhartDoc as any, manifest: earhartManifest as any }}
+      />
+      <Composition
+        id="EarhartShort4"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "c8_2", endId: "c8_9", doc: earhartDoc as any, manifest: earhartManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "c8_2", endId: "c8_9", hook: "The US just declassified\nthousands of pages on her", cta: "What's actually in the files\n— on the channel", slug: "earhart", doc: earhartDoc as any, manifest: earhartManifest as any }}
+      />
+
+      {/* ── Tunguska funnel Shorts (4) — Semenov cold open, the Kulik
+             expedition "no crater" reveal, Chelyabinsk 2013 modern analog,
+             the 3 fringe theories debunked. Recognition-bridge rule applies:
+             hooks lead with "biggest explosion" framing, never bare
+             "Tunguska". ── */}
+      <Composition
+        id="TunguskaShort1"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "h1", endId: "h6", doc: tunguskaDoc as any, manifest: tunguskaManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "h1", endId: "h6", hook: "The biggest explosion\nin history left no crater", slug: "tunguska", doc: tunguskaDoc as any, manifest: tunguskaManifest as any }}
+      />
+      <Composition
+        id="TunguskaShort2"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "e4", endId: "e6", doc: tunguskaDoc as any, manifest: tunguskaManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "e4", endId: "e6", hook: "It took 19 years to\nreach the blast site", slug: "tunguska", doc: tunguskaDoc as any, manifest: tunguskaManifest as any }}
+      />
+      <Composition
+        id="TunguskaShort3"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "h1c", endId: "h5c", doc: tunguskaDoc as any, manifest: tunguskaManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "h1c", endId: "h5c", hook: "In 2013 it happened again\n— and got filmed", slug: "tunguska", doc: tunguskaDoc as any, manifest: tunguskaManifest as any }}
+      />
+      <Composition
+        id="TunguskaShort4"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "f1", endId: "f6", doc: tunguskaDoc as any, manifest: tunguskaManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "f1", endId: "f6", hook: "3 theories tried to\nexplain it. All 3 failed", slug: "tunguska", doc: tunguskaDoc as any, manifest: tunguskaManifest as any }}
       />
 
       {/* ── DimaagBatti — 20 जुलाई 2026: दिल्ली, वांगचुक और शांतिपूर्ण प्रदर्शन

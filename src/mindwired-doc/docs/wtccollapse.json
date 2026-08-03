@@ -1,0 +1,844 @@
+{
+  "slug": "wtccollapse",
+  "title": "The World Trade Center Collapse: What The Investigation Actually Found",
+  "channel": "blackbox",
+  "niche": "history",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "August 26, 2008. Nist headquarters, Gaithersburg, Maryland. Nearly seven years after the attack, the government's lead investigator stands in front of a live-streamed technical briefing.",
+      "video": "wtc_construction_1.mp4",
+      "videoFrom": 0,
+      "videoQuery": "World Trade Center twin towers under construction 1970s archival footage Prelinger",
+      "stat": "AUG 26, 2008 · NIST HQ",
+      "cap": "Nearly seven years after the attack.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h2",
+      "text": "His name is Dr. Shyam Sunder. He starts a computer simulation. On the screen: one steel column, identified only by a number.",
+      "cap": "One steel column. Identified only by a number.",
+      "tone": "curiosity",
+      "img": "nist_sim_poster",
+      "stat": "NIST COMPUTER SIMULATION"
+    },
+    {
+      "id": "h3",
+      "text": "Column seventy nine. Two hundred feet in the air, inside Building 7.",
+      "img": "col79_diagram",
+      "query": "NIST WTC7 Column 79 collapse simulation diagram image",
+      "stat": "COLUMN 79 · NIST COMPUTER SIMULATION",
+      "cap": "Two hundred feet up. A building nobody thought was in danger.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h4",
+      "text": "He is about to explain how that piece of ordinary structural steel, heated by nothing more than an office fire, quietly walked off its own bearing seat.",
+      "video": "wtc_construction_1.mp4",
+      "videoFrom": 90,
+      "videoQuery": "World Trade Center twin towers under construction 1970s archival footage Prelinger",
+      "cap": "Heated by an ordinary office fire.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h5",
+      "text": "And took a forty seven story building down with it — the one building, of the three this investigation covers, that no aircraft ever struck.",
+      "img": "wtc7_exterior",
+      "query": "7 World Trade Center building exterior real photograph 1990s",
+      "stat": "0 AIRCRAFT STRUCK BUILDING 7",
+      "cap": "No aircraft ever struck this one.",
+      "tone": "shock"
+    },
+    {
+      "id": "h6",
+      "text": "Two thousand, nine hundred seventy seven people were killed that morning. This is not the story of how that happened. This is the story of why three buildings actually came down — told from the investigation's own findings, not the internet's.",
+      "kinetic": {
+        "count": 2977,
+        "suffix": " killed, September 11, 2001",
+        "sub": "This episode covers the engineering findings, not the attack itself"
+      },
+      "img": "memorial_pools",
+      "query": "National September 11 Memorial reflecting pools real photograph",
+      "cap": "The engineering story. Not the attack itself.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "rule",
+      "text": "One honest rule before we start. Every finding in this episode traces back to Nist's own federal investigation, or to a named, on-the-record source. Where something is genuinely disputed, we will say so, on screen, every single time.",
+      "img": "documents_generic",
+      "cap": "Every finding, traced to its source. Every dispute, flagged.",
+      "tone": "confidence"
+    },
+    {
+      "id": "sting",
+      "sting": true,
+      "text": "You're watching Black Box Breakdown.",
+      "img": "twintowers_skyline",
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "chapter": "THE WORLD TRADE CENTER\nWhat The Investigation Found",
+      "text": "The World Trade Center collapse. What the investigation actually found.",
+      "img": "twintowers_skyline",
+      "query": "World Trade Center twin towers New York skyline real photograph ordinary day",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a1_ch",
+      "chapter": "ACT I\nORIGINS & CONSTRUCTION",
+      "text": "To understand why these buildings fell, you first have to understand how, and why, they were built this way.",
+      "img": "twintowers_construction",
+      "query": "World Trade Center twin towers under construction 1970s archival photograph",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a1_1",
+      "text": "The Port Authority of New York and New Jersey broke ground on the World Trade Center complex in 1966. The first tenants moved into the still-unfinished North Tower in December of 1970. The formal dedication came on April 4, 1973, with Governor Nelson Rockefeller presiding.",
+      "video": "wtc_construction_1.mp4",
+      "videoFrom": 30,
+      "videoQuery": "World Trade Center twin towers under construction 1970s archival footage Prelinger",
+      "stat": "GROUND BROKEN 1966 · DEDICATED APR 4, 1973",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a1_2",
+      "text": "Twin towers, one hundred ten stories each. The North Tower rose one thousand three hundred sixty eight feet to its roof; the South Tower, one thousand three hundred sixty two feet. For a brief stretch, they stood among the tallest buildings in the world — until Chicago's Sears Tower passed them, that same year.",
+      "kinetic": {
+        "count": 110,
+        "suffix": " stories, each tower",
+        "sub": "Among the tallest buildings in the world, briefly, 1972–73"
+      },
+      "img": "twintowers_construction",
+      "tone": "awe"
+    },
+    {
+      "id": "a1_2b",
+      "text": "For nearly three decades after that, these two towers were simply what New York's skyline looked like.",
+      "img": "twintowers_skyline",
+      "cap": "What the skyline looked like, for almost 30 years.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a1_3",
+      "text": "The architect was Minoru Yamasaki, working with Emery Roth and Sons. The structural engineering firm was Worthington, Skilling, Helle and Jackson — John Skilling as chief structural engineer, Leslie Robertson as lead project structural engineer, the man most closely credited historically with the towers' structural system.",
+      "img": "twintowers_construction",
+      "cap": "Structural engineer: Leslie Robertson.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a1_4",
+      "exhibit": true,
+      "img": "ex_tubeframe",
+      "source": "NIST NCSTAR 1 — Final Report on the Collapse of the WTC Towers, 2005",
+      "highlight": [
+        0.1,
+        0.3,
+        0.7,
+        0.25
+      ],
+      "text": "And that system is the single most important engineering fact in this whole episode. Per Nist's own final report: a perimeter tube of two hundred thirty six closely spaced steel columns, fifty nine per face, tied together at every floor, carrying nearly all of the towers' lateral wind load.",
+      "cap": "236 perimeter columns. Nearly all the lateral load.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a1_5",
+      "text": "A separate central core, forty seven to fifty one columns, carried gravity loads only — elevators, stairwells, utility risers. That core was never designed to resist wind.",
+      "img": "tubeframe_diagram",
+      "query": "NIST World Trade Center tube-frame structural system diagram",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a1_6",
+      "text": "Bridging the sixty foot span between the tube and the core: lightweight, prefabricated steel bar-joist floor trusses, under a thin, four inch concrete floor slab. The Port Authority wanted column-free office floors, and got them — forty thousand square feet, per floor. The tradeoff: markedly less structural steel per square foot than a conventional, heavier skyscraper of that era.",
+      "kinetic": {
+        "count": 40000,
+        "suffix": " sq ft, column-free per floor",
+        "sub": "The tradeoff: less steel per square foot than a heavy 1970s skyscraper"
+      },
+      "img": "tubeframe_diagram",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a1_7",
+      "text": "One more building matters to this story, and it is not a third twin tower. Seven World Trade Center was a separate building entirely — completed fourteen years later, in 1987, on a different footprint, north of the plaza.",
+      "img": "wtc7_exterior",
+      "cap": "A separate building. A different footprint.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a1_8",
+      "text": "It used a genuinely different structural system: an exterior moment-resisting frame, four perimeter moment frames and two-story belt trusses — not the towers' tube-and-core design. Remember that distinction. The two structures fail for two completely different reasons.",
+      "img": "wtc7_exterior",
+      "cap": "Two different buildings. Two different structural systems.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a1_9",
+      "text": "This building had weathered an attack before. On February 26, 1993, a truck bomb detonated on an underground parking level beneath the North Tower, killing six people. The towers survived structurally, and reopened for eight more years.",
+      "kinetic": {
+        "count": 6,
+        "suffix": " killed, Feb 26, 1993",
+        "sub": "A truck bomb in the North Tower's parking garage — mechanically unrelated to 2001"
+      },
+      "img": "twintowers_skyline",
+      "cap": "A prior attack. A structurally unrelated collapse mechanism.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2_ch",
+      "chapter": "ACT II\nSEPTEMBER 11, 2001 — IMPACT",
+      "text": "What happened that morning is documented in detail elsewhere. Here, we cover only what the impact did to the buildings' steel.",
+      "img": "twintowers_skyline",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2_1",
+      "text": "American Airlines Flight 11 struck the North Tower at eight forty six and forty seconds in the morning, between floors ninety three and ninety nine. United Airlines Flight one seventy five struck the South Tower seventeen minutes later, at nine oh three and eleven seconds, between floors seventy seven and eighty five.",
+      "stat": "8:46 AM · NORTH TOWER — 9:03 AM · SOUTH TOWER",
+      "img": "impact_diagram",
+      "query": "NIST World Trade Center aircraft impact damage analysis diagram",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2_2",
+      "text": "In the North Tower, roughly half the exterior columns on the impact face were severed or damaged: thirty four severed outright, four more heavily damaged. Three core columns were severed, four more heavily damaged.",
+      "kinetic": {
+        "count": 34,
+        "suffix": " exterior columns severed, North Tower",
+        "sub": "Plus 3 core columns severed outright"
+      },
+      "img": "impact_diagram",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2_3",
+      "text": "In the South Tower: twenty nine exterior columns severed, one more heavily damaged. Five core columns severed, four more heavily damaged.",
+      "kinetic": {
+        "count": 29,
+        "suffix": " exterior columns severed, South Tower",
+        "sub": "Plus 5 core columns severed outright"
+      },
+      "img": "impact_diagram",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2_4",
+      "text": "But the impacts did something else, just as important. They stripped fireproofing from steel far beyond the columns actually severed — trusses, connections, surviving core columns, left bare, or barely coated.",
+      "img": "impact_diagram",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2_5",
+      "exhibit": true,
+      "img": "ex_threefactor",
+      "source": "NIST NCSTAR 1 — Final Report on the Collapse of the WTC Towers, 2005",
+      "highlight": [
+        0.1,
+        0.35,
+        0.7,
+        0.2
+      ],
+      "text": "Here is Nist's own conclusion, stated plainly in its final report. Quote: the towers 'would likely not have collapsed under the combined effects of aircraft impact damage and the extensive, multi-floor fires alone.' Dislodged fireproofing is a named, necessary third factor — not an afterthought.",
+      "cap": "Impact. Lost fireproofing. Fire. All three, together.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2_6",
+      "text": "That is the combination the next chapter has to explain: impact, lost fireproofing, and fire, acting together on two very different towers.",
+      "img": "twintowers_skyline",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a3_ch",
+      "chapter": "ACT III\nWTC 1 & WTC 2 — FIRE AND COLLAPSE",
+      "text": "Inside both towers, fire became the next chapter of this story.",
+      "img": "twintowers_skyline",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a3_1",
+      "text": "The jet fuel itself burned off within minutes. What sustained the fires after that was ordinary building contents — furniture, paper, carpet — spreading across roughly forty thousand square feet, on multiple floors, reaching up to a thousand degrees Celsius in localized areas. Comparable, in that sense, to other unsuppressed high-rise fires in history.",
+      "img": "highrise_fire_generic",
+      "query": "high rise office building fire smoke generic photograph",
+      "stock": true,
+      "tone": "fear"
+    },
+    {
+      "id": "a3_2",
+      "text": "Here is the single most important correction in this whole story. No structural steel melted. Steel does not need to melt to fail — bare steel at a thousand degrees Celsius keeps only about ten percent of its room-temperature strength. The fires did not melt the steel. They weakened it.",
+      "kinetic": {
+        "count": 10,
+        "suffix": "% strength remaining, steel at ~1,000°C",
+        "sub": "The fires didn't melt the steel — they weakened it"
+      },
+      "img": "steel_recovered",
+      "query": "World Trade Center recovered structural steel photograph NIST FEMA investigation",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a3_3",
+      "text": "With its fireproofing gone, the sagging floor trusses — still tied to the exterior wall — pulled the perimeter columns inward. Nist measured about fifty five inches of inward bow on the North Tower's south face, at floor ninety seven, first visible roughly five minutes before collapse.",
+      "kinetic": {
+        "count": 55,
+        "suffix": " inches — inward bow, North Tower, floor 97",
+        "sub": "First visible about 5 minutes before collapse"
+      },
+      "img": "bowing_diagram",
+      "query": "NIST World Trade Center perimeter column inward bowing diagram",
+      "tone": "shock"
+    },
+    {
+      "id": "a3_4",
+      "text": "Collapse initiated in the South Tower at nine fifty nine that morning — fifty six minutes after impact. The North Tower followed at ten twenty eight — a hundred two minutes after being hit.",
+      "stat": "9:59 AM · SOUTH TOWER — 10:28 AM · NORTH TOWER",
+      "img": "collapse_sim_wtc2",
+      "query": "NIST World Trade Center collapse simulation still frame South Tower",
+      "tone": "shock"
+    },
+    {
+      "id": "a3_5",
+      "video": "collapse_sim_wtc2_1.mp4",
+      "videoQuery": "NIST World Trade Center collapse computer simulation animation South Tower",
+      "stat": "NIST COMPUTER SIMULATION",
+      "text": "The South Tower came down first, despite a shorter fire, because its impact geometry damaged core columns more directly, and its fire spread less evenly across the floor.",
+      "cap": "A NIST computer simulation — not real collapse footage.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a3_6",
+      "exhibit": true,
+      "img": "ex_energyargument",
+      "source": "NIST NCSTAR 1, §6.14.4",
+      "highlight": [
+        0.1,
+        0.4,
+        0.7,
+        0.2
+      ],
+      "text": "One honest scope note. Nist's structural analysis modeled collapse initiation — not a floor-by-floor simulation of everything after. For why the fall was total, Nist makes an energy argument instead. The undamaged structure below could have absorbed the sudden load of only about six additional floors. Twelve to twenty nine floors of upper-building mass came down on it. In Nist's own words: 'neither tower could have arrested the progression of collapse once collapse initiated.'",
+      "cap": "NIST's own words, NCSTAR 1, §6.14.4.",
+      "tone": "shock"
+    },
+    {
+      "id": "a3_7",
+      "video": "collapse_sim_wtc1_1.mp4",
+      "videoQuery": "NIST World Trade Center collapse computer simulation animation North Tower",
+      "stat": "NIST COMPUTER SIMULATION",
+      "text": "The North Tower followed the same physics, roughly half an hour later. Once its own core and perimeter columns lost the capacity to carry the floors above, nothing in the design below it could stop what came next.",
+      "cap": "Same mechanism. The same tower design, twice.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a3_8",
+      "text": "One clarification worth making now, because it comes up again later. Aircraft aluminum does melt, around five hundred to six hundred degrees Celsius — well below the fire's own temperature. Mixed with burning carpet and furniture, that is what produced the glowing material later seen falling from the South Tower. Structural steel itself never reached its own, far higher, melting point.",
+      "img": "steel_recovered",
+      "cap": "Molten aluminum. Not molten steel.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a3_9",
+      "text": "Two buildings gone, by half past ten that morning. But the story of what happened to a third building nearby — one nobody thought was in danger at all — took until that evening to finish.",
+      "img": "wtc7_exterior",
+      "cap": "A third building. Nobody thought it was in danger.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a4_ch",
+      "chapter": "ACT IV\nBUILDING 7 & THE COLUMN 79 MECHANISM",
+      "text": "Seven World Trade Center was never struck by an aircraft. This is the story of how it came down anyway.",
+      "img": "wtc7_exterior",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a4_1",
+      "text": "When the North Tower collapsed, falling debris struck Building 7's lower floors, damaging its structure and igniting fires on multiple levels.",
+      "img": "wtc7_exterior",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a4_2",
+      "dossier": true,
+      "img": "wtc7_watermain",
+      "label": "WATER MAIN SEVERED",
+      "text": "That same falling debris severed the city water main that served as both the primary, and the backup, source for the building's standpipe and sprinkler systems, on floors one through twenty. There was no working fire suppression on the floors that mattered most.",
+      "cap": "No working fire suppression, floors 1–20.",
+      "tone": "fear"
+    },
+    {
+      "id": "a4_3",
+      "text": "Fires burned uncontrolled for roughly seven hours, concentrated on the building's east side — floors seven through nine, and eleven through thirteen — before the building collapsed at five twenty and fifty two seconds that evening.",
+      "stat": "5:20 PM · BUILDING 7 COLLAPSES",
+      "img": "wtc7_exterior",
+      "tone": "shock"
+    },
+    {
+      "id": "a4_4",
+      "exhibit": true,
+      "img": "ex_extraordinary",
+      "source": "NIST News Release, \"NIST WTC 7 Investigation Finds Building Fires Caused Collapse,\" Aug. 21, 2008 — nist.gov",
+      "highlight": [
+        0.04,
+        0.8,
+        0.32,
+        0.18
+      ],
+      "text": "Nist's own words explain exactly why this case draws so much scrutiny. Quote: 'the fires on multiple floors in Building 7 were uncontrolled but otherwise similar to fires experienced in other tall buildings, and caused an extraordinary event.' The first known instance of fire alone bringing down a tall steel structure, completely.",
+      "cap": "The first known case of its kind, per NIST's own report.",
+      "tone": "shock"
+    },
+    {
+      "id": "a4_5",
+      "text": "The mechanism itself is not simple weakening. It is thermal expansion. Long-span steel floor beams and girders in Building 7's core — especially around floor thirteen — were heated unevenly, and expanded, at temperatures Nist itself calls 'hundreds of degrees below those typically considered in current practice for fire-resistance ratings.'",
+      "img": "col79_diagram",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a4_6",
+      "text": "One heated floor-thirteen girder, spanning between Column forty four and Column seventy nine, expanded enough to lose its seated connection entirely. It did not fracture. It walked off its own bearing seat — leaving Column seventy nine laterally unsupported, over roughly nine stories.",
+      "kinetic": {
+        "count": 79,
+        "prefix": "COLUMN ",
+        "sub": "Left laterally unsupported over roughly 9 stories"
+      },
+      "img": "col79_diagram",
+      "tone": "shock"
+    },
+    {
+      "id": "a4_7",
+      "video": "collapse_sim_wtc7_1.mp4",
+      "videoQuery": "NIST Building 7 collapse computer simulation animation Column 79 progressive collapse",
+      "stat": "NIST COMPUTER SIMULATION",
+      "text": "The column buckled. That triggered a cascading progression of floor failures — upward, then outward across the core, and finally the exterior frame. The first visible sign, on video, was the building's own east mechanical penthouse, dropping into the structure.",
+      "cap": "A NIST computer simulation — not real collapse footage.",
+      "tone": "shock"
+    },
+    {
+      "id": "a4_8",
+      "text": "Dr. Shyam Sunder's own summary of the finding, in his own words. Quote: 'heating of floor beams and girders caused a critical support column to fail, initiating a fire-induced progressive collapse that brought the building down.'",
+      "cap": "Dr. Shyam Sunder, NIST's lead investigator, in his own words.",
+      "tone": "confidence",
+      "img": "col79_diagram"
+    },
+    {
+      "id": "a4_9",
+      "exhibit": true,
+      "img": "ex_nofuel",
+      "source": "NIST News Release, \"NIST WTC 7 Investigation Finds Building Fires Caused Collapse,\" Aug. 21, 2008 — nist.gov",
+      "highlight": [
+        0.03,
+        0.82,
+        0.55,
+        0.12
+      ],
+      "text": "Nist states this plainly, to correct a common misconception. Quote: 'neither explosives nor fuel oil fires played a role in the collapse of Building 7.' Not diesel generator fuel. Ordinary office contents, burning for seven hours, doing something nobody had documented before.",
+      "cap": "Not diesel fuel. Not explosives. Per NIST's own FAQ.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a4_9b",
+      "text": "Nist's own investigators found no evidence at all — no witness reports, no video, no structural analysis — suggesting explosives had been used in the first place. That is why they never even tested the recovered steel for explosive residue.",
+      "img": "steel_recovered",
+      "cap": "No supporting evidence found. That's why steel was never tested for it.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a4_10",
+      "text": "Keep the two mechanisms separate in your head. Towers One and Two: aircraft impact, lost fireproofing, and fire, acting together on a tube-and-core frame. Building 7: an ordinary office fire alone, acting on a completely different, moment-frame design. Two different buildings. Two different chains of cause.",
+      "img": "wtc7_exterior",
+      "cap": "Two different buildings. Two different causes.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a4_11",
+      "text": "That is the mechanism, according to the government's own investigation. What follows is how that investigation actually reached it — because the story of the finding is almost as contested as the finding itself.",
+      "img": "steel_recovered",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a5_ch",
+      "chapter": "ACT V\nTHE INVESTIGATION, 2002–2008",
+      "text": "All of this came from one federal investigation, running for six years.",
+      "img": "ex_gpo2002",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a5_1",
+      "text": "The Federal Building and Fire Safety Investigation of the World Trade Center Disaster was conducted under the National Construction Safety Team Act.",
+      "img": "documents_generic",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a5_2",
+      "text": "The towers' final report, Nist's NCSTAR one, was released at a congressional hearing on October 26, 2005. Building 7's report followed a longer road: an August 21, 2008 press briefing announcing the finding, an August 26 technical briefing walking through it in full — the one this episode opened on — a draft released for public comment on September 3, 2008, and a final report that November.",
+      "stat": "OCT 2005 — TOWERS · NOV 2008 — BUILDING 7",
+      "img": "wtc7_exterior",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a5_3",
+      "stat": "~200 EXPERTS ON THE TEAM",
+      "text": "The lead investigator, throughout, was Dr. Shyam Sunder, then chief of Nist's Structures Division. His team drew on roughly two hundred experts, across Nist staff, industry, and academia.",
+      "tone": "confidence",
+      "img": "steel_recovered"
+    },
+    {
+      "id": "a5_4",
+      "text": "They reviewed two hundred thirty six recovered structural steel components, more than seven thousand photographs and video segments, and conducted roughly one thousand two hundred interviews — survivors, and emergency responders.",
+      "kinetic": {
+        "count": 7000,
+        "suffix": "+ photos and video segments reviewed",
+        "sub": "Plus 236 recovered steel components, ~1,200 interviews"
+      },
+      "img": "steel_recovered",
+      "tone": "confidence"
+    },
+    {
+      "id": "a5_5",
+      "exhibit": true,
+      "img": "ex_faq21",
+      "source": "NIST World Trade Center Towers Investigation FAQ, Question 21, nist.gov",
+      "highlight": [
+        0.1,
+        0.4,
+        0.7,
+        0.18
+      ],
+      "text": "Metallurgist Dr. Frank Gayle led the steel analysis, from 2002 to 2007. And here, in Nist's own current words, is the finding, stated as plainly as it gets. Quote: 'in no instance did NIST report that steel in the towers melted due to the fires.' Unprotected steel at those temperatures loses roughly ninety percent of its room-temperature strength — enough to explain the sagging and buckling, without any of it actually melting.",
+      "cap": "Per NIST's own published FAQ — not a paraphrase.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a5_6",
+      "exhibit": true,
+      "img": "ex_gpo2002",
+      "source": "U.S. House Science Committee, Serial 107-46, March 6, 2002 (GPO transcript)",
+      "highlight": [
+        0.1,
+        0.3,
+        0.7,
+        0.2
+      ],
+      "text": "Congress itself held early hearings within months of the attacks, titled, plainly, 'Learning From Nine Eleven: Understanding the Collapse of the World Trade Center.' No official video survives from those 2002 hearings — only the printed transcript does. It is what set Nist's own multi-year investigation in motion.",
+      "cap": "No surviving official video. The transcript is the record.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a5_7",
+      "text": "That federal investigation did not just publish one finding. Over time, it also corrected itself, in public, on the record — and that correction is the part of this story people argue about most.",
+      "img": "ex_freefall",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6_ch",
+      "chapter": "ACT VI\nTHE FREE-FALL FINDING & THE WALK-BACK",
+      "text": "This is the single most misunderstood finding in the entire investigation.",
+      "img": "col79_diagram",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6_1",
+      "exhibit": true,
+      "img": "ex_freefall",
+      "source": "NIST NCSTAR 1A — Final Report on the Collapse of WTC 7, 2008",
+      "highlight": [
+        0.1,
+        0.35,
+        0.7,
+        0.2
+      ],
+      "text": "Nist's own final report documents Building 7's exterior north face descending in three measured stages: a slower start, then a stretch matching the exact rate of gravity, then a final stretch of decreasing speed, as resistance returned.",
+      "cap": "An official NIST measurement, in NIST's own final report.",
+      "tone": "shock"
+    },
+    {
+      "id": "a6_1b",
+      "kinetic": {
+        "count": 8,
+        "suffix": " stories in true free fall",
+        "sub": "~2.25 seconds — gravity, with no resistance from below"
+      },
+      "img": "col79_diagram",
+      "tone": "shock",
+      "text": "Eight stories, in true free fall."
+    },
+    {
+      "id": "a6_2",
+      "text": "Nist's own explanation: the interior core columns beneath that section — including Column seventy nine and its neighbors — had already buckled and failed, nearly simultaneously, across multiple floors. So for that brief window, the descending exterior face met almost no resistance from the structure below it.",
+      "img": "col79_diagram",
+      "cap": "Per NIST's own final report — not an unexplained anomaly.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6_3",
+      "text": "Be precise about what that measurement does, and does not, mean. It confirms gravity briefly took over on one section of one building's exterior. It does not, on its own, mean the entire building's structural system failed all at once, through synchronized demolition charges. Those are two very different claims.",
+      "img": "col79_diagram",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6_4",
+      "text": "And here is the sequence, reported as fact, not softened in either direction. At Nist's own August 21, 2008 press briefing, Dr. Sunder said free fall would be 'physically impossible,' given the structural resistance he expected. The final report, that November, then documented and quantified the free-fall phase directly.",
+      "stat": "AUG 21: \"PHYSICALLY IMPOSSIBLE\" → NOV: QUANTIFIED",
+      "img": "ex_freefall",
+      "cap": "Denial, then acknowledgment. Both are on the record.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6_5",
+      "text": "The person most responsible for that correction was a physics teacher named David Chandler. During Nist's September 2008 public comment window, Chandler submitted his own solo comment, backed by his own, extensively documented, frame-by-frame video analysis.",
+      "stat": "DAVID CHANDLER, PHYSICS TEACHER",
+      "img": "videoanalysis_generic",
+      "query": "person analyzing video footage frame by frame computer screen generic photograph",
+      "stock": true,
+      "tone": "confidence"
+    },
+    {
+      "id": "a6_6",
+      "text": "A separate, group submission, that same window — led by James Gourley, of the International Center for Nine Eleven Studies — was co-signed by eight people, including physicist Steven Jones. That group's own frame-by-frame analysis is credited, in the record, to 'members of this group,' collectively — not to any one of them individually.",
+      "img": "documents_generic",
+      "query": "government public comment documents paper stack generic photograph",
+      "stock": true,
+      "cap": "Attributed to the group, not to any one signer.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6_7",
+      "text": "If Steven Jones's name comes up again in this story, it is for something else entirely — a separate paper, about a different substance altogether. Do not confuse the two.",
+      "img": "steel_recovered",
+      "cap": "A different claim, a different paper. Coming up next.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6_8",
+      "text": "Between a real, measured anomaly, a government walk-back, and a topic this contested, it's worth pausing to address, directly, what people actually claim about these buildings — and what the documented record actually says back.",
+      "img": "col79_diagram",
+      "tone": "curiosity"
+    },
+    {
+      "id": "cq_ch",
+      "chapter": "THE QUESTIONS PEOPLE STILL ASK",
+      "text": "A few claims about this show up constantly online. Let's address them, one at a time.",
+      "img": "col79_diagram",
+      "tone": "curiosity"
+    },
+    {
+      "id": "cq_a1",
+      "text": "Building 7 fell at free-fall speed for over two seconds. Some ask: if explosives did that, why did nobody hear a blast?",
+      "img": "col79_diagram",
+      "cap": "Claim: no blast heard on any recording.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "cq_a2",
+      "exhibit": true,
+      "img": "ex_faq33",
+      "source": "NIST WTC 7 Investigation FAQ, Question 33, nist.gov",
+      "highlight": [
+        0.1,
+        0.4,
+        0.7,
+        0.15
+      ],
+      "text": "Nist's own FAQ: that blast would hit one hundred forty decibels, half a mile out. Nothing like that is on tape. The free fall is real — not proof of demolition.",
+      "cap": "Per NIST's own FAQ, Q33. Free-fall credit: physics teacher David Chandler.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "cq_b1",
+      "text": "Others cite molten metal, and a study claiming thermite in the dust.",
+      "img": "steel_recovered",
+      "cap": "Claim: molten metal and thermite residue.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "cq_b2",
+      "exhibit": true,
+      "img": "ex_faq34",
+      "source": "NIST WTC 7 Investigation FAQ, Question 34, nist.gov",
+      "highlight": [
+        0.1,
+        0.4,
+        0.7,
+        0.15
+      ],
+      "text": "That glow is aluminum, not steel. The thermite paper's own editor distanced himself from it. Nist says it would take a hundred pounds per column, undetected.",
+      "cap": "Per NIST's own FAQ, Q34. Harrit et al., 2009 — disputed, not NIST-accepted.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "cq_c1",
+      "text": "Then there's Larry Silverstein's own words, on camera: 'maybe the smartest thing to do is pull it.'",
+      "img": "wtc7_exterior",
+      "cap": "Larry Silverstein, 'America Rebuilds,' PBS, 2004.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "cq_c2",
+      "text": "What 'it' means is disputed. His spokesman says the firefighters. Others read it as demolition language. We are not picking a side.",
+      "img": "wtc7_exterior",
+      "cap": "Dara McQuillan, Silverstein Properties, statement, 2005. Genuinely unresolved.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "cq_d1",
+      "text": "The BBC once reported Building 7 had collapsed — while it still stood on screen behind the reporter.",
+      "img": "documents_generic",
+      "query": "television newsroom broadcast studio generic photograph",
+      "stock": true,
+      "cap": "Claim: the BBC knew in advance.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "cq_d2",
+      "text": "A real, documented error. Wire services were already reporting it as down; London passed that along too soon. A timing mistake, not foreknowledge.",
+      "img": "documents_generic",
+      "stock": true,
+      "cap": "Per BBC editor Richard Porter, 2007. Reporter: Jane Standley, ~20 min early.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "cq_e1",
+      "text": "In 2020, a funded university study argued fire alone doesn't explain the collapse.",
+      "img": "code_change_generic",
+      "query": "university engineering lecture hall generic photograph",
+      "stock": true,
+      "cap": "Claim: a university study says demolition.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "cq_e2",
+      "text": "Funded by a group that already rejects Nist's findings. Never peer reviewed. Nist's finding remains the official, government-adopted position.",
+      "img": "code_change_generic",
+      "stock": true,
+      "cap": "Funded by AE911Truth. Not peer-reviewed. NIST's finding stands, and is now law.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a8_ch",
+      "chapter": "ACT VIII\nAFTERMATH & LEGACY",
+      "text": "The investigation didn't end with a finding. It ended with a to-do list.",
+      "img": "code_change_generic",
+      "query": "building code document construction blueprint generic photograph",
+      "stock": true,
+      "tone": "curiosity"
+    },
+    {
+      "id": "a8_1",
+      "text": "Nist issued roughly thirty recommendations — covering structural integrity, fire endurance, active fire protection, emergency response, and evacuation. The Building 7 report added one more, and reiterated a dozen of the earlier ones.",
+      "kinetic": {
+        "count": 30,
+        "prefix": "~",
+        "suffix": " recommendations issued",
+        "sub": "Structural, fire, emergency response, and evacuation"
+      },
+      "img": "code_change_generic",
+      "stock": true,
+      "tone": "curiosity"
+    },
+    {
+      "id": "a8_2",
+      "text": "Those recommendations drove more than forty major changes to U.S. model building and fire codes — twenty three into the International Code Council's own codes, fifteen into the National Fire Protection Association's. Nist itself calls the pace 'history-making.' One qualifier matters, though: these are changes to model codes. Individual states and cities still had to adopt each one into their own local law, on their own timeline — not all at once, and not automatically.",
+      "kinetic": {
+        "count": 40,
+        "suffix": "+ model code changes",
+        "sub": "23 into ICC codes, 15 into NFPA — adopted locally, not instantly"
+      },
+      "img": "code_change_generic",
+      "stock": true,
+      "tone": "confidence"
+    },
+    {
+      "id": "a8_3a",
+      "text": "Some of what actually changed. Buildings must now resist disproportionate progressive collapse — a direct answer to Column seventy nine. A full extra hour of required fire resistance, for tall building frames. Fireproofing bond-strength standards, raised several times over, with new field inspections.",
+      "img": "1wtc_exterior",
+      "query": "One World Trade Center exterior real photograph New York",
+      "tone": "confidence"
+    },
+    {
+      "id": "a8_3b",
+      "text": "Stairwells, up to half again wider, in new sprinklered high-rises, with a mandatory third stairway in the tallest buildings. Elevators built for firefighter access — and now permitted for occupant evacuation, too.",
+      "img": "1wtc_exterior",
+      "tone": "confidence"
+    },
+    {
+      "id": "a8_4",
+      "video": "1wtc_exterior_video_1.mp4",
+      "videoQuery": "One World Trade Center exterior real footage New York skyline drone",
+      "stock": true,
+      "text": "One World Trade Center's own design answers this investigation directly: extra-wide stairways, inside a reinforced, positively-pressurized concrete core, built specifically to keep smoke out during a fire.",
+      "cap": "Built in direct response to these findings.",
+      "tone": "awe"
+    },
+    {
+      "id": "a8_5",
+      "video": "memorial_pools_video_1.mp4",
+      "videoQuery": "National September 11 Memorial reflecting pools real footage New York",
+      "stock": true,
+      "text": "The National September Eleventh Memorial — two reflecting pools, set inside the original towers' own footprints — carries the names of all two thousand, nine hundred seventy seven people killed that day, and the six killed in 1993. It was dedicated on the tenth anniversary, September 11, 2011, and opened to the public the next day.",
+      "cap": "2,977 names, plus the 6 killed in 1993.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a8_6",
+      "text": "The museum beneath it was dedicated in May of 2014, in a ceremony led by then-President Obama, and opened to the public a week later.",
+      "img": "memorial_pools",
+      "cap": "Dedicated May 15, 2014. Opened May 21, 2014.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a8_7",
+      "text": "One World Trade Center itself — designed by David Childs, following Daniel Libeskind's original master plan — topped out at a symbolic one thousand seven hundred seventy six feet, in May of 2013, and opened that November.",
+      "kinetic": {
+        "count": 1776,
+        "suffix": " ft — One World Trade Center's symbolic height",
+        "sub": "Topped out May 2013, opened November 2014"
+      },
+      "img": "1wtc_exterior",
+      "tone": "awe"
+    },
+    {
+      "id": "a8_8",
+      "video": "oculus_video_1.mp4",
+      "videoQuery": "World Trade Center Oculus transit hub real footage interior",
+      "stock": true,
+      "img": "oculus_generic",
+      "query": "World Trade Center Oculus transit hub real photograph",
+      "text": "The site today also includes the Oculus, Santiago Calatrava's transit hub, and the Perelman Performing Arts Center — the newest addition, completed in 2023.",
+      "cap": "The rebuilt site, more than two decades later.",
+      "tone": "awe"
+    },
+    {
+      "id": "a8_9",
+      "text": "Twenty years on, this is what remains: a rebuilt skyline, a set of engineering rules nobody wants tested again, and a case file, still open to anyone willing to actually read it.",
+      "img": "1wtc_exterior",
+      "tone": "confidence"
+    },
+    {
+      "id": "coda1",
+      "text": "What stays with me about this one isn't the internet argument. It's a bearing seat, on a girder, on a floor most people can't even name.",
+      "img": "col79_diagram",
+      "motion": "slow",
+      "speed": 0.94,
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda2",
+      "text": "Nist spent six years, and reviewed two hundred thirty six pieces of recovered steel, to answer a question this specific. That kind of patience deserves better than a comment section.",
+      "img": "steel_recovered",
+      "motion": "slow",
+      "speed": 0.94,
+      "tone": "melancholy"
+    },
+    {
+      "id": "bridge",
+      "text": "If the way three buildings actually fell surprised you, wait until you see what forty four ordinary people did with about ninety seconds, on a fourth hijacked plane, that same morning. Watch United 93: The Passengers Who Fought Back, right here on this channel. Subscribe to Black Box Breakdown, so you don't miss what evidence turns up next.",
+      "img": "1wtc_exterior",
+      "cap": "Next: United 93 — the passengers who fought back.",
+      "tone": "confidence"
+    }
+  ]
+}

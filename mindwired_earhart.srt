@@ -1,0 +1,792 @@
+1
+00:00:00,333 --> 00:00:02,175
+July second, nineteen thirty seven.
+
+2
+00:00:02,175 --> 00:00:08,070
+Aboard the Coast Guard cutter Itasca, anchored off Howland Island, in the middle of the Pacific.
+
+3
+00:00:08,070 --> 00:00:11,017
+Chief Radioman Leo Bellarts leans into his headset.
+
+4
+00:00:12,166 --> 00:00:15,019
+He is listening for one specific aircraft.
+
+5
+00:00:15,019 --> 00:00:22,354
+A silver, twin-engine Lockheed Electra, somewhere out over open water, flown by the most famous pilot in America.
+
+6
+00:00:23,500 --> 00:00:26,860
+Her name is Amelia Earhart. Her navigator is Fred Noonan.
+
+7
+00:00:26,860 --> 00:00:30,893
+Together, they are trying to fly all the way around the world.
+
+8
+00:00:32,033 --> 00:00:36,306
+By this morning, they've already flown most of the way around the world.
+
+9
+00:00:36,306 --> 00:00:39,922
+What's left is the single hardest leg of the entire trip.
+
+10
+00:00:41,066 --> 00:00:48,145
+All morning, her voice has been coming through the radio, again and again, each transmission a little more urgent than the last.
+
+11
+00:00:49,266 --> 00:00:53,652
+We must be on you, but cannot see you. Gas is running low.
+
+12
+00:00:53,652 --> 00:00:58,713
+We've been unable to reach you by radio. We are flying at a thousand feet.
+
+13
+00:00:59,833 --> 00:01:05,162
+At oh eight forty three, the final transmission anyone would ever receive from that aircraft comes through the speaker.
+
+14
+00:01:06,299 --> 00:01:10,237
+We are on the line one five seven, three three seven.
+
+15
+00:01:10,237 --> 00:01:16,323
+We will repeat this message on six two one oh kilocycles. We are running north and south.
+
+16
+00:01:17,466 --> 00:01:22,294
+Here is the detail almost nobody gets right about this moment. That signal was not fading.
+
+17
+00:01:22,294 --> 00:01:26,217
+It was exactly as loud and clear as it had been all morning.
+
+18
+00:01:27,366 --> 00:01:29,579
+Bellarts himself put it plainly, decades later.
+
+19
+00:01:29,579 --> 00:01:36,848
+She was so loud, he said, that he ran up to the bridge, expecting to see her plane coming in for a landing.
+
+20
+00:01:37,966 --> 00:01:41,336
+Nobody ever did see it. After that transmission: silence.
+
+21
+00:01:41,336 --> 00:01:46,952
+To this day, nobody knows exactly what happened to Amelia Earhart, or to Fred Noonan.
+
+22
+00:01:48,100 --> 00:01:50,216
+You're watching Black Box Breakdown.
+
+23
+00:01:51,333 --> 00:01:52,639
+Amelia Earhart.
+
+24
+00:01:53,766 --> 00:01:55,787
+One honest rule before we start.
+
+25
+00:01:55,787 --> 00:02:02,858
+Every timestamp and quote in this episode comes from the National Archives' own radio log, or from a named, attributed source.
+
+26
+00:02:02,858 --> 00:02:12,287
+Where something is a theory and not a proven fact — and in this case, there are several — we will say so, on screen, every single time.
+
+27
+00:02:13,433 --> 00:02:19,232
+To understand why an entire ocean got searched for this one woman, you have to understand who she already was.
+
+28
+00:02:20,366 --> 00:02:32,443
+In June of nineteen twenty eight, Amelia Earhart became the first woman to cross the Atlantic by air — as a passenger, aboard a Fokker trimotor named the Friendship, flown by pilot Wilmer Stultz and mechanic Louis Gordon.
+
+29
+00:02:32,443 --> 00:02:37,528
+She didn't fly it herself. The fame landed on her anyway, and it never really left.
+
+30
+00:02:38,666 --> 00:02:40,960
+Four years later, she fixed that herself.
+
+31
+00:02:40,960 --> 00:02:50,134
+In May of nineteen thirty two, she flew a red Lockheed Vega solo across the Atlantic — only the second person ever to do it, after Charles Lindbergh.
+
+32
+00:02:51,266 --> 00:03:04,745
+Three years after that, in January of nineteen thirty five, she became the first person ever to fly solo across the Pacific — Honolulu to Oakland, twenty four hundred miles, a route that had already killed ten aviators who'd tried it before her.
+
+33
+00:03:05,866 --> 00:03:14,539
+That same year, Purdue University's president recruited her as a visiting faculty member, with a documented official title: Counselor on Careers for Women.
+
+34
+00:03:15,666 --> 00:03:22,031
+A Purdue trustee named David Ross helped raise money for something called the Amelia Earhart Fund for Aeronautical Research.
+
+35
+00:03:22,031 --> 00:03:27,055
+Between his gift and a handful of corporate sponsors, it totaled around eighty thousand dollars.
+
+36
+00:03:28,200 --> 00:03:36,641
+The plane that money helped buy was publicly billed as a flying laboratory — new radio gear, new navigation instruments, wing de-icing equipment.
+
+37
+00:03:36,641 --> 00:03:42,881
+How much of that was a real research program, and how much was publicity, is genuinely disputed.
+
+38
+00:03:44,000 --> 00:03:57,061
+She took delivery of it from Lockheed's Burbank plant in July of nineteen thirty six — a Lockheed Electra ten E, twin-engine, all metal, fifty five feet across the wings, with ten fuel tanks holding over eleven hundred gallons combined.
+
+39
+00:03:57,061 --> 00:04:01,633
+Far more range than a stock Electra that size was ever built to carry.
+
+40
+00:04:02,766 --> 00:04:07,841
+For a flight with no landmarks over open ocean, she needed a navigator who could handle it.
+
+41
+00:04:07,841 --> 00:04:09,035
+She chose Fred Noonan.
+
+42
+00:04:10,166 --> 00:04:14,250
+Noonan had spent years as a merchant seaman before he ever flew.
+
+43
+00:04:14,250 --> 00:04:23,097
+By the early nineteen thirties, he was one of Pan American Airways' leading oceanic navigators — the man who helped chart their first trans-Pacific Clipper routes.
+
+44
+00:04:24,233 --> 00:04:27,352
+Why Noonan actually left Pan Am is genuinely disputed.
+
+45
+00:04:27,352 --> 00:04:31,165
+One account says he resigned to start his own navigation school.
+
+46
+00:04:31,165 --> 00:04:38,444
+A separate, later account alleges he was let go over drinking — a claim that didn't surface publicly until decades afterward.
+
+47
+00:04:39,566 --> 00:04:45,597
+On March twenty seventh, nineteen thirty seven, Noonan married Mary Martinelli, a hairdresser from Oakland.
+
+48
+00:04:45,597 --> 00:04:48,813
+It was roughly three months before he disappeared.
+
+49
+00:04:49,933 --> 00:04:54,609
+Getting into the air, even once, almost ended this flight before it began.
+
+50
+00:04:55,733 --> 00:05:00,178
+The first attempt left Oakland on March seventeenth, nineteen thirty seven.
+
+51
+00:05:00,178 --> 00:05:08,664
+Earhart, Noonan, a second navigator named Harry Manning, and a technical advisor named Paul Mantz — flying west, Oakland toward Honolulu.
+
+52
+00:05:09,800 --> 00:05:21,166
+Three days later, taking off again from Luke Field on Ford Island, the heavily loaded Electra ground-looped on the runway — a blown tire, uneven engine power, the exact cause disputed even then.
+
+53
+00:05:21,166 --> 00:05:22,199
+Nobody was hurt.
+
+54
+00:05:22,199 --> 00:05:28,399
+The airplane went back to Lockheed's Burbank plant for repair, and the whole plan was rebuilt from scratch.
+
+55
+00:05:29,533 --> 00:05:34,627
+When it flew again, the route ran the opposite direction, partly for the season's winds.
+
+56
+00:05:34,627 --> 00:05:39,721
+Manning and Mantz didn't continue. From here on, Noonan was the only navigator on board.
+
+57
+00:05:40,866 --> 00:05:49,617
+The Electra left Oakland again on May twenty first, nineteen thirty seven, working its way toward Miami for one final overhaul before the real flight began.
+
+58
+00:05:50,766 --> 00:05:55,556
+On June first, nineteen thirty seven, the official world flight departure leaves Miami.
+
+59
+00:05:55,556 --> 00:05:57,767
+Crowds gather to watch it go.
+
+60
+00:05:58,900 --> 00:06:15,253
+From Miami, the route runs down through the Caribbean and South America — San Juan, Caripito in Venezuela, Paramaribo in Suriname, Brazil — then, from Natal, the jump across open ocean: the South Atlantic crossing, landing next in Saint-Louis, Senegal.
+
+61
+00:06:16,400 --> 00:06:26,588
+Then west to east across the width of Africa — Dakar, Gao in Mali, Fort-Lamy in Chad, El Fasher and Khartoum in Sudan, Massawa and Assab on the Red Sea.
+
+62
+00:06:27,733 --> 00:06:41,369
+Then across Asia — Karachi, Calcutta, Rangoon, Bangkok, Singapore — and on through Java, Timor, and Darwin, Australia, until, on June twenty ninth, they touch down at Lae, in New Guinea.
+
+63
+00:06:42,500 --> 00:06:47,314
+By Lae, they have flown twenty two thousand of a planned twenty nine thousand miles.
+
+64
+00:06:47,314 --> 00:06:58,225
+What's left is the leg nobody else on this trip has come close to matching: two thousand, five hundred and fifty six miles of open Pacific, to a speck of an island called Howland.
+
+65
+00:06:59,366 --> 00:07:02,083
+July first was supposed to be the day.
+
+66
+00:07:02,083 --> 00:07:04,800
+Wrong-direction winds and threatening cloud scrubbed the takeoff.
+
+67
+00:07:04,800 --> 00:07:06,837
+They tried again the next morning.
+
+68
+00:07:07,966 --> 00:07:19,695
+At around ten A M local time on July second, the heavily loaded Electra rolled down a grass airstrip barely three thousand feet long — one that ended at a bluff, dropping into a shark-populated gulf.
+
+69
+00:07:20,833 --> 00:07:28,539
+Ground crew who watched it happen remembered the plane could barely lift off — using, in their own words, every inch of runway and then some.
+
+70
+00:07:29,666 --> 00:07:33,939
+A Guinea Airways employee named Alan Board took a photograph of that takeoff.
+
+71
+00:07:33,939 --> 00:07:37,555
+It remains the last confirmed image ever taken of that aircraft.
+
+72
+00:07:38,700 --> 00:07:40,452
+One detail is easy to miss.
+
+73
+00:07:40,452 --> 00:07:55,053
+The day before, Noonan hadn't been able to set his marine chronometers against a radio time signal, because of a radio problem at Lae — which meant the entire twenty five hundred mile crossing began with a small timing error already built in, before the wheels ever left the ground.
+
+74
+00:07:56,200 --> 00:08:01,111
+This brings us back to where this episode started — the radio shack aboard the Itasca.
+
+75
+00:08:02,233 --> 00:08:10,514
+The Coast Guard cutter Itasca was stationed off Howland Island specifically to guide the Electra in by radio, for the final approach of the entire round-the-world flight.
+
+76
+00:08:11,633 --> 00:08:15,329
+About two hundred miles out. Please take a bearing on us.
+
+77
+00:08:16,466 --> 00:08:18,499
+About one hundred miles out now.
+
+78
+00:08:19,633 --> 00:08:29,194
+At oh seven forty two, the transmission you heard at the start of this episode comes through — gas running low, flying at a thousand feet, unable to reach Itasca by radio.
+
+79
+00:08:30,333 --> 00:08:33,019
+We are circling, but cannot hear you.
+
+80
+00:08:34,166 --> 00:08:37,660
+We received your signals, but unable to get a minimum.
+
+81
+00:08:37,660 --> 00:08:43,250
+Please take a bearing on us, and answer on three thousand one hundred five, with voice.
+
+82
+00:08:44,400 --> 00:08:51,166
+Forty minutes later, at oh eight forty three, comes the transmission that would end up being the last one anyone ever received.
+
+83
+00:08:52,300 --> 00:08:54,049
+This is the actual document.
+
+84
+00:08:54,049 --> 00:09:02,096
+The Itasca's own radio log, written down in real time, on July second, nineteen thirty seven — held today at the National Archives.
+
+85
+00:09:03,233 --> 00:09:10,363
+The now-familiar wording of that final message — the version usually quoted in full — is a cleaned-up, typed reconstruction.
+
+86
+00:09:10,363 --> 00:09:15,354
+The raw handwritten log underneath it is terser, and in places, harder to read.
+
+87
+00:09:16,500 --> 00:09:20,285
+We are on the line one five seven, three three seven.
+
+88
+00:09:20,285 --> 00:09:26,135
+We will repeat this message on six two one oh kilocycles. We are running north and south.
+
+89
+00:09:27,266 --> 00:09:32,673
+After that — nothing. No further transmission, ever again, from that aircraft.
+
+90
+00:09:33,799 --> 00:09:39,833
+Somewhere over open water, past the point anyone could still hear her, the Electra's engines were running on fumes.
+
+91
+00:09:40,966 --> 00:09:43,442
+Even the official record isn't perfectly clean.
+
+92
+00:09:43,442 --> 00:09:54,053
+Itasca's own commanding officer, Commander Warner Thompson, later added details to his written report — like the weather being cloudy and overcast — that simply aren't in the original log.
+
+93
+00:09:55,199 --> 00:10:02,396
+That one five seven, three three seven line is a compass heading, from a sun-line navigation technique Noonan used.
+
+94
+00:10:02,396 --> 00:10:07,320
+Mathematically, it describes a line running northwest to southeast, passing near Howland Island.
+
+95
+00:10:08,466 --> 00:10:21,057
+According to later celestial-navigation analysis, that same line also happens to pass near a second island, roughly three hundred fifty nautical miles southeast of Howland — a speck of coral called Gardner Island.
+
+96
+00:10:22,199 --> 00:10:25,461
+That the line intersects Gardner Island is simple math.
+
+97
+00:10:25,461 --> 00:10:30,896
+That Earhart and Noonan actually flew it there, and landed, is not a confirmed fact.
+
+98
+00:10:30,896 --> 00:10:33,432
+It's a theory. We'll get to it.
+
+99
+00:10:34,566 --> 00:10:40,679
+When Itasca got no further contact, the United States launched one of the largest search operations in its history.
+
+100
+00:10:41,799 --> 00:10:50,080
+The battleship USS Colorado, on a training cruise near Hawaii, was diverted, and launched three scout floatplanes to search.
+
+101
+00:10:51,199 --> 00:11:02,510
+Colorado's planes searched Winslow Reef, found nothing there at all, then flew over McKean Island — uninhabited, in the pilots' own words, except for, quote, myriads of birds.
+
+102
+00:11:03,633 --> 00:11:09,779
+Then they flew over Gardner Island — the same island that line of position happens to pass through.
+
+103
+00:11:09,779 --> 00:11:13,194
+The lead pilot, Lieutenant John Lambrecht, filed an official report.
+
+104
+00:11:14,333 --> 00:11:22,216
+His report, on the record: signs of recent habitation were clearly visible, but repeated circling and zooming failed to elicit any answering wave.
+
+105
+00:11:22,216 --> 00:11:25,644
+It was finally taken for granted that none was there.
+
+106
+00:11:26,766 --> 00:11:30,702
+What that quote actually means for Earhart's fate is not something Lambrecht's report claims.
+
+107
+00:11:30,702 --> 00:11:34,639
+That reading of it belongs to a theory we'll cover later in this episode.
+
+108
+00:11:34,639 --> 00:11:37,450
+The quote itself is real. The meaning is not settled.
+
+109
+00:11:38,599 --> 00:11:44,887
+Colorado's planes also swept Hull, Sydney, Phoenix, Enderbury, Birnie and Canton Islands.
+
+110
+00:11:44,887 --> 00:11:47,507
+Every one of them, negative.
+
+111
+00:11:48,633 --> 00:11:59,214
+The aircraft carrier USS Lexington joined next, with sixty two planes aboard, sweeping over one hundred thousand square miles northwest of Howland in grid patterns two miles apart.
+
+112
+00:11:59,214 --> 00:12:05,639
+Every single mission log from that search records some version of the same two words: nothing sighted.
+
+113
+00:12:06,766 --> 00:12:11,980
+The search was called off on July nineteenth, nineteen thirty seven. Sixteen days.
+
+114
+00:12:11,980 --> 00:12:15,991
+About nine ships. Sixty six aircraft. Roughly four thousand people.
+
+115
+00:12:15,991 --> 00:12:20,402
+Over four million dollars — close to eighty eight million today.
+
+116
+00:12:21,533 --> 00:12:26,717
+No wreckage. No oil slick. No debris of any kind, ever recovered.
+
+117
+00:12:26,717 --> 00:12:32,766
+The Navy's official, contemporaneous conclusion: the Electra ran out of fuel, crashed, and sank.
+
+118
+00:12:33,899 --> 00:12:40,952
+That finding — lost at sea, no wreckage ever found — remains the United States government's official position to this day.
+
+119
+00:12:40,952 --> 00:12:43,303
+No US agency has ever revised it.
+
+120
+00:12:44,433 --> 00:12:48,194
+One more official act followed, separately, eighteen months later.
+
+121
+00:12:48,194 --> 00:13:01,987
+On January fifth, nineteen thirty nine, a Los Angeles County court granted Amelia Earhart's legal death declaration, at her husband George Putnam's request — granted unusually fast, which the judge himself called extraordinary.
+
+122
+00:13:03,133 --> 00:13:08,932
+For nearly ninety years, one theory has outlasted every other explanation for what happened next.
+
+123
+00:13:10,066 --> 00:13:20,097
+It belongs to a research group called Tighar — the International Group for Historic Aircraft Recovery — and specifically to its founder and executive director, Ric Gillespie.
+
+124
+00:13:21,233 --> 00:13:25,052
+Gillespie's theory: Earhart and Noonan didn't crash at sea at all.
+
+125
+00:13:25,052 --> 00:13:31,995
+They flew that one five seven, three three seven line southeast, and landed on Gardner Island — today called Nikumaroro.
+
+126
+00:13:33,133 --> 00:13:39,011
+Since nineteen eighty eight, Tighar has run around a dozen expeditions to that island, looking for proof.
+
+127
+00:13:40,133 --> 00:13:43,232
+What they've recovered: a fragment of aircraft-grade aluminum.
+
+128
+00:13:43,232 --> 00:13:45,944
+Part of a nineteen thirties woman's shoe.
+
+129
+00:13:45,944 --> 00:13:50,980
+A broken cosmetic jar, consistent with a popular freckle ointment of the era.
+
+130
+00:13:50,980 --> 00:13:54,466
+A mirror compact. A pocketknife. An empty liquor bottle.
+
+131
+00:13:54,466 --> 00:13:58,340
+A sextant box, since lost, with numbers stamped on it.
+
+132
+00:13:59,466 --> 00:14:06,953
+Every single one of those items is described, carefully, as consistent with the era, or consistent with what Earhart or Noonan might have carried.
+
+133
+00:14:06,953 --> 00:14:10,385
+Not one of them has ever been proven to be theirs.
+
+134
+00:14:11,533 --> 00:14:19,518
+Remember Lieutenant Lambrecht's report, from that same island, in nineteen thirty seven — signs of recent habitation, but no one answering their wave?
+
+135
+00:14:19,518 --> 00:14:22,295
+This is exactly the line Tighar points to.
+
+136
+00:14:23,433 --> 00:14:26,994
+It's a real quote, from a real official report.
+
+137
+00:14:26,994 --> 00:14:34,117
+Whether it actually describes castaways, rather than something else entirely, is Gillespie's interpretation — not a Navy finding.
+
+138
+00:14:35,266 --> 00:14:40,830
+In nineteen forty, three years after the disappearance, something was actually found on that island.
+
+139
+00:14:41,966 --> 00:14:48,888
+A British colonial officer named Gerald Gallagher discovered thirteen human bones near an old campfire site on Nikumaroro.
+
+140
+00:14:50,033 --> 00:14:55,102
+The bones were sent to Fiji for examination. A doctor named D. W.
+
+141
+00:14:55,102 --> 00:14:59,782
+Hoodless studied them, and concluded they belonged to a stocky, middle-aged man.
+
+142
+00:14:59,782 --> 00:15:00,952
+Not Amelia Earhart.
+
+143
+00:15:02,100 --> 00:15:07,334
+Tighar rediscovered Hoodless's original report in the late nineteen nineties, and challenged his methods.
+
+144
+00:15:07,334 --> 00:15:14,063
+In two thousand eighteen, a forensic anthropologist named Richard Jantz ran the same original measurements through modern software.
+
+145
+00:15:15,200 --> 00:15:23,279
+His statistical conclusion: those measurements were more consistent with Earhart than with ninety nine percent of a large reference population.
+
+146
+00:15:23,279 --> 00:15:26,510
+Peer-reviewed — but a probability, not an identification.
+
+147
+00:15:27,633 --> 00:15:36,642
+A separate two thousand fifteen paper, by researchers named Cross and Wright, defended Hoodless's original nineteen forty finding as methodologically sound.
+
+148
+00:15:36,642 --> 00:15:38,787
+The two studies genuinely disagree.
+
+149
+00:15:39,933 --> 00:15:42,706
+Here's the complication that will never go away.
+
+150
+00:15:42,706 --> 00:15:46,173
+The bones themselves have been lost since the nineteen forties.
+
+151
+00:15:46,173 --> 00:15:50,332
+No new physical test, no DNA — nothing — is possible anymore.
+
+152
+00:15:50,332 --> 00:15:52,759
+It's a permanent argument over eighty-year-old measurements.
+
+153
+00:15:53,899 --> 00:16:04,818
+In two thousand nineteen, National Geographic sent forensic anthropologist Erin Kimmerle to examine those same measurements again, and to attempt DNA testing against Earhart's own relatives.
+
+154
+00:16:05,966 --> 00:16:14,185
+Her reconstructed skull was consistent with an adult female — matching, among other things, one of Earhart's known sinus features.
+
+155
+00:16:14,185 --> 00:16:19,939
+But the DNA testing itself came back inconclusive. The samples were simply too degraded.
+
+156
+00:16:19,939 --> 00:16:22,815
+Not a match. Not a non-match. Inconclusive.
+
+157
+00:16:23,933 --> 00:16:29,497
+Not every theory about this case has survived scrutiny. Two of them collapsed completely.
+
+158
+00:16:30,633 --> 00:16:35,821
+The first: that Earhart and Noonan were captured by Japan, and held somewhere in the Pacific.
+
+159
+00:16:35,821 --> 00:16:40,037
+It's circulated since the nineteen sixties, with no solid documentary evidence behind it.
+
+160
+00:16:41,166 --> 00:16:49,290
+In July of twenty seventeen, the History Channel aired a photograph it said showed Earhart and Noonan in Japanese custody, on an atoll called Jaluit.
+
+161
+00:16:50,433 --> 00:16:59,428
+Within about a week, a Japanese blogger named Kota Yamano found the identical photograph — published in a Japanese travel book from nineteen thirty five.
+
+162
+00:16:59,428 --> 00:17:01,587
+Two years before Earhart ever disappeared.
+
+163
+00:17:02,733 --> 00:17:05,076
+That specific photo is conclusively false.
+
+164
+00:17:05,076 --> 00:17:10,935
+And no record since has ever produced credible evidence for the wider Japanese-capture theory either.
+
+165
+00:17:12,066 --> 00:17:14,732
+The second collapsed theory is much more recent.
+
+166
+00:17:14,732 --> 00:17:23,064
+In January of twenty twenty four, a company called Deep Sea Vision announced sonar imagery that looked like a twin-engine aircraft, on the Pacific floor.
+
+167
+00:17:24,200 --> 00:17:25,796
+It made headlines everywhere.
+
+168
+00:17:25,796 --> 00:17:34,577
+Ten months later, the same team revisited the site, and identified the shape as a natural rock formation — not the Electra.
+
+169
+00:17:34,577 --> 00:17:41,361
+The company's own CEO, Tony Romeo, later admitted, self-deprecatingly, that it probably wasn't the plane after all.
+
+170
+00:17:42,500 --> 00:17:47,019
+As recently as this decade, this case has kept generating fresh headlines.
+
+171
+00:17:48,166 --> 00:17:56,055
+In September of twenty twenty five, the US government ordered the declassification of every Earhart-related government record still held back.
+
+172
+00:17:57,200 --> 00:18:07,388
+The National Archives began releasing pages in waves — four thousand six hundred and twenty four pages that September, then thousands more across November, December, and January.
+
+173
+00:18:08,533 --> 00:18:24,259
+What's actually in them: final radio transmissions, weather data, search records, internal Navy investigations — and some genuine period ephemera, like a self-described nineteen thirty seven, quote, telepath, claiming psychic knowledge of the crash.
+
+174
+00:18:25,399 --> 00:18:33,004
+A television host named Ross Coulthart covered the release, framing the documents as challenging the official search's, quote, tunnel vision.
+
+175
+00:18:33,004 --> 00:18:35,665
+That's real journalism, on a real release.
+
+176
+00:18:36,799 --> 00:18:41,877
+But no outlet, anywhere, has reported an actual smoking-gun finding inside those documents.
+
+177
+00:18:41,877 --> 00:18:44,611
+As of this recording, there isn't one.
+
+178
+00:18:45,733 --> 00:18:56,104
+Then there's the Taraia Object — a shape on the floor of Nikumaroro's own lagoon, first spotted on satellite imagery back in twenty twenty, by a retired Navy veteran named Mike Ashmore.
+
+179
+00:18:57,233 --> 00:19:01,505
+CNN gave it fresh attention in October of twenty twenty five.
+
+180
+00:19:01,505 --> 00:19:08,884
+An organization called the Archaeological Legacy Institute, led by Richard Pettigrew, partnered with Purdue University to plan an expedition.
+
+181
+00:19:10,033 --> 00:19:12,281
+That expedition has already been postponed twice.
+
+182
+00:19:12,281 --> 00:19:18,706
+As of this recording, it has not left port, and it has found nothing — because it hasn't gone yet.
+
+183
+00:19:19,833 --> 00:19:28,529
+Even Ric Gillespie — the man who's spent decades chasing the Nikumaroro theory — has publicly said he sees nothing there consistent with wreckage.
+
+184
+00:19:28,529 --> 00:19:31,066
+His own guess: a downed coconut tree.
+
+185
+00:19:32,199 --> 00:19:34,249
+One more thing worth saying plainly.
+
+186
+00:19:34,249 --> 00:19:39,714
+A video went viral in January of twenty twenty six, claiming the mystery was finally solved.
+
+187
+00:19:39,714 --> 00:19:42,447
+No primary source anywhere backs that claim up.
+
+188
+00:19:42,447 --> 00:19:45,521
+As of this recording, the case remains officially unresolved.
+
+189
+00:19:46,666 --> 00:19:49,500
+Take stock of everything this case actually has.
+
+190
+00:19:49,500 --> 00:19:52,688
+A radio log with one loud, urgent, final transmission.
+
+191
+00:19:52,688 --> 00:19:56,584
+A search the size of Texas that found nothing at all.
+
+192
+00:19:56,584 --> 00:20:01,189
+A navigational line that happens to touch an island. Bones nobody can retest.
+
+193
+00:20:01,189 --> 00:20:04,377
+And ninety years of theories, none of them proven.
+
+194
+00:20:05,499 --> 00:20:17,463
+That combination — real evidence, genuinely inconclusive, sitting right next to a story people desperately want an ending for — is exactly why this case has never stopped generating headlines.
+
+195
+00:20:18,599 --> 00:20:23,588
+In October of twenty twenty six, another expedition returns to that same lagoon.
+
+196
+00:20:24,733 --> 00:20:38,876
+If a story that ends in total silence unsettled you, wait until you see what really happened to Malaysia Airlines flight three seventy — a Boeing that vanished the exact same way, seventy seven years later, with radar data this time, and still no wreckage.
+
+197
+00:20:38,876 --> 00:20:44,534
+That's our episode, M H three seventy, The Plane That Vanished From Earth, right here on this channel.
+
+198
+00:20:45,666 --> 00:20:50,107
+Subscribe to Black Box Breakdown, for the investigations everyone else got wrong.
+

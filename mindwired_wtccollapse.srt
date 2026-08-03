@@ -1,0 +1,756 @@
+1
+00:00:00,333 --> 00:00:03,617
+August 26, 2008. Nist headquarters, Gaithersburg, Maryland.
+
+2
+00:00:03,617 --> 00:00:12,062
+Nearly seven years after the attack, the government's lead investigator stands in front of a live-streamed technical briefing.
+
+3
+00:00:13,200 --> 00:00:17,379
+His name is Dr. Shyam Sunder. He starts a computer simulation.
+
+4
+00:00:17,379 --> 00:00:21,559
+On the screen: one steel column, identified only by a number.
+
+5
+00:00:22,699 --> 00:00:27,061
+Column seventy nine. Two hundred feet in the air, inside Building 7.
+
+6
+00:00:28,199 --> 00:00:36,872
+He is about to explain how that piece of ordinary structural steel, heated by nothing more than an office fire, quietly walked off its own bearing seat.
+
+7
+00:00:38,000 --> 00:00:46,359
+And took a forty seven story building down with it — the one building, of the three this investigation covers, that no aircraft ever struck.
+
+8
+00:00:47,500 --> 00:00:50,772
+Two thousand, nine hundred seventy seven people were killed that morning.
+
+9
+00:00:50,772 --> 00:00:53,450
+This is not the story of how that happened.
+
+10
+00:00:53,450 --> 00:00:59,699
+This is the story of why three buildings actually came down — told from the investigation's own findings, not the internet's.
+
+11
+00:01:00,833 --> 00:01:02,936
+One honest rule before we start.
+
+12
+00:01:02,936 --> 00:01:09,247
+Every finding in this episode traces back to Nist's own federal investigation, or to a named, on-the-record source.
+
+13
+00:01:09,247 --> 00:01:14,155
+Where something is genuinely disputed, we will say so, on screen, every single time.
+
+14
+00:01:15,299 --> 00:01:17,102
+You're watching Black Box Breakdown.
+
+15
+00:01:18,233 --> 00:01:22,517
+The World Trade Center collapse. What the investigation actually found.
+
+16
+00:01:23,666 --> 00:01:30,014
+To understand why these buildings fell, you first have to understand how, and why, they were built this way.
+
+17
+00:01:31,133 --> 00:01:38,170
+The Port Authority of New York and New Jersey broke ground on the World Trade Center complex in 1966.
+
+18
+00:01:38,170 --> 00:01:42,984
+The first tenants moved into the still-unfinished North Tower in December of 1970.
+
+19
+00:01:42,984 --> 00:01:47,799
+The formal dedication came on April 4, 1973, with Governor Nelson Rockefeller presiding.
+
+20
+00:01:48,933 --> 00:01:51,198
+Twin towers, one hundred ten stories each.
+
+21
+00:01:51,198 --> 00:01:58,965
+The North Tower rose one thousand three hundred sixty eight feet to its roof; the South Tower, one thousand three hundred sixty two feet.
+
+22
+00:01:58,965 --> 00:02:06,409
+For a brief stretch, they stood among the tallest buildings in the world — until Chicago's Sears Tower passed them, that same year.
+
+23
+00:02:07,533 --> 00:02:12,940
+For nearly three decades after that, these two towers were simply what New York's skyline looked like.
+
+24
+00:02:14,066 --> 00:02:18,458
+The architect was Minoru Yamasaki, working with Emery Roth and Sons.
+
+25
+00:02:18,458 --> 00:02:32,430
+The structural engineering firm was Worthington, Skilling, Helle and Jackson — John Skilling as chief structural engineer, Leslie Robertson as lead project structural engineer, the man most closely credited historically with the towers' structural system.
+
+26
+00:02:33,566 --> 00:02:38,238
+And that system is the single most important engineering fact in this whole episode.
+
+27
+00:02:38,238 --> 00:02:49,919
+Per Nist's own final report: a perimeter tube of two hundred thirty six closely spaced steel columns, fifty nine per face, tied together at every floor, carrying nearly all of the towers' lateral wind load.
+
+28
+00:02:51,066 --> 00:02:59,081
+A separate central core, forty seven to fifty one columns, carried gravity loads only — elevators, stairwells, utility risers.
+
+29
+00:02:59,081 --> 00:03:02,455
+That core was never designed to resist wind.
+
+30
+00:03:03,600 --> 00:03:13,108
+Bridging the sixty foot span between the tube and the core: lightweight, prefabricated steel bar-joist floor trusses, under a thin, four inch concrete floor slab.
+
+31
+00:03:13,108 --> 00:03:19,573
+The Port Authority wanted column-free office floors, and got them — forty thousand square feet, per floor.
+
+32
+00:03:19,573 --> 00:03:26,039
+The tradeoff: markedly less structural steel per square foot than a conventional, heavier skyscraper of that era.
+
+33
+00:03:27,166 --> 00:03:32,632
+One more building matters to this story, and it is not a third twin tower.
+
+34
+00:03:32,632 --> 00:03:41,377
+Seven World Trade Center was a separate building entirely — completed fourteen years later, in 1987, on a different footprint, north of the plaza.
+
+35
+00:03:42,500 --> 00:03:52,684
+It used a genuinely different structural system: an exterior moment-resisting frame, four perimeter moment frames and two-story belt trusses — not the towers' tube-and-core design.
+
+36
+00:03:52,684 --> 00:03:57,573
+Remember that distinction. The two structures fail for two completely different reasons.
+
+37
+00:03:58,700 --> 00:04:01,477
+This building had weathered an attack before.
+
+38
+00:04:01,477 --> 00:04:09,413
+On February 26, 1993, a truck bomb detonated on an underground parking level beneath the North Tower, killing six people.
+
+39
+00:04:09,413 --> 00:04:13,381
+The towers survived structurally, and reopened for eight more years.
+
+40
+00:04:14,500 --> 00:04:17,399
+What happened that morning is documented in detail elsewhere.
+
+41
+00:04:17,399 --> 00:04:21,266
+Here, we cover only what the impact did to the buildings' steel.
+
+42
+00:04:22,399 --> 00:04:31,153
+American Airlines Flight 11 struck the North Tower at eight forty six and forty seconds in the morning, between floors ninety three and ninety nine.
+
+43
+00:04:31,153 --> 00:04:40,606
+United Airlines Flight one seventy five struck the South Tower seventeen minutes later, at nine oh three and eleven seconds, between floors seventy seven and eighty five.
+
+44
+00:04:41,733 --> 00:04:51,528
+In the North Tower, roughly half the exterior columns on the impact face were severed or damaged: thirty four severed outright, four more heavily damaged.
+
+45
+00:04:51,528 --> 00:04:55,055
+Three core columns were severed, four more heavily damaged.
+
+46
+00:04:56,199 --> 00:05:01,471
+In the South Tower: twenty nine exterior columns severed, one more heavily damaged.
+
+47
+00:05:01,471 --> 00:05:04,715
+Five core columns severed, four more heavily damaged.
+
+48
+00:05:05,833 --> 00:05:09,610
+But the impacts did something else, just as important.
+
+49
+00:05:09,610 --> 00:05:18,842
+They stripped fireproofing from steel far beyond the columns actually severed — trusses, connections, surviving core columns, left bare, or barely coated.
+
+50
+00:05:19,966 --> 00:05:24,417
+Here is Nist's own conclusion, stated plainly in its final report.
+
+51
+00:05:24,417 --> 00:05:38,173
+Quote: the towers 'would likely not have collapsed under the combined effects of aircraft impact damage and the extensive, multi-floor fires alone.' Dislodged fireproofing is a named, necessary third factor — not an afterthought.
+
+52
+00:05:39,299 --> 00:05:47,972
+That is the combination the next chapter has to explain: impact, lost fireproofing, and fire, acting together on two very different towers.
+
+53
+00:05:49,099 --> 00:05:53,070
+Inside both towers, fire became the next chapter of this story.
+
+54
+00:05:54,199 --> 00:05:57,547
+The jet fuel itself burned off within minutes.
+
+55
+00:05:57,547 --> 00:06:12,193
+What sustained the fires after that was ordinary building contents — furniture, paper, carpet — spreading across roughly forty thousand square feet, on multiple floors, reaching up to a thousand degrees Celsius in localized areas.
+
+56
+00:06:12,193 --> 00:06:16,795
+Comparable, in that sense, to other unsuppressed high-rise fires in history.
+
+57
+00:06:17,933 --> 00:06:21,622
+Here is the single most important correction in this whole story.
+
+58
+00:06:21,622 --> 00:06:22,964
+No structural steel melted.
+
+59
+00:06:22,964 --> 00:06:31,350
+Steel does not need to melt to fail — bare steel at a thousand degrees Celsius keeps only about ten percent of its room-temperature strength.
+
+60
+00:06:31,350 --> 00:06:34,704
+The fires did not melt the steel. They weakened it.
+
+61
+00:06:35,833 --> 00:06:42,999
+With its fireproofing gone, the sagging floor trusses — still tied to the exterior wall — pulled the perimeter columns inward.
+
+62
+00:06:42,999 --> 00:06:51,872
+Nist measured about fifty five inches of inward bow on the North Tower's south face, at floor ninety seven, first visible roughly five minutes before collapse.
+
+63
+00:06:52,999 --> 00:06:58,739
+Collapse initiated in the South Tower at nine fifty nine that morning — fifty six minutes after impact.
+
+64
+00:06:58,739 --> 00:07:03,840
+The North Tower followed at ten twenty eight — a hundred two minutes after being hit.
+
+65
+00:07:04,966 --> 00:07:14,762
+The South Tower came down first, despite a shorter fire, because its impact geometry damaged core columns more directly, and its fire spread less evenly across the floor.
+
+66
+00:07:15,899 --> 00:07:17,280
+One honest scope note.
+
+67
+00:07:17,280 --> 00:07:22,114
+Nist's structural analysis modeled collapse initiation — not a floor-by-floor simulation of everything after.
+
+68
+00:07:22,114 --> 00:07:26,257
+For why the fall was total, Nist makes an energy argument instead.
+
+69
+00:07:26,257 --> 00:07:31,781
+The undamaged structure below could have absorbed the sudden load of only about six additional floors.
+
+70
+00:07:31,781 --> 00:07:35,924
+Twelve to twenty nine floors of upper-building mass came down on it.
+
+71
+00:07:35,924 --> 00:07:41,447
+In Nist's own words: 'neither tower could have arrested the progression of collapse once collapse initiated.'
+
+72
+00:07:42,566 --> 00:07:46,270
+The North Tower followed the same physics, roughly half an hour later.
+
+73
+00:07:46,270 --> 00:07:54,295
+Once its own core and perimeter columns lost the capacity to carry the floors above, nothing in the design below it could stop what came next.
+
+74
+00:07:55,433 --> 00:07:59,409
+One clarification worth making now, because it comes up again later.
+
+75
+00:07:59,409 --> 00:08:06,276
+Aircraft aluminum does melt, around five hundred to six hundred degrees Celsius — well below the fire's own temperature.
+
+76
+00:08:06,276 --> 00:08:13,504
+Mixed with burning carpet and furniture, that is what produced the glowing material later seen falling from the South Tower.
+
+77
+00:08:13,504 --> 00:08:17,480
+Structural steel itself never reached its own, far higher, melting point.
+
+78
+00:08:18,599 --> 00:08:21,329
+Two buildings gone, by half past ten that morning.
+
+79
+00:08:21,329 --> 00:08:29,519
+But the story of what happened to a third building nearby — one nobody thought was in danger at all — took until that evening to finish.
+
+80
+00:08:30,666 --> 00:08:33,605
+Seven World Trade Center was never struck by an aircraft.
+
+81
+00:08:33,605 --> 00:08:36,544
+This is the story of how it came down anyway.
+
+82
+00:08:37,666 --> 00:08:46,260
+When the North Tower collapsed, falling debris struck Building 7's lower floors, damaging its structure and igniting fires on multiple levels.
+
+83
+00:08:47,399 --> 00:08:57,004
+That same falling debris severed the city water main that served as both the primary, and the backup, source for the building's standpipe and sprinkler systems, on floors one through twenty.
+
+84
+00:08:57,004 --> 00:09:00,721
+There was no working fire suppression on the floors that mattered most.
+
+85
+00:09:01,866 --> 00:09:14,143
+Fires burned uncontrolled for roughly seven hours, concentrated on the building's east side — floors seven through nine, and eleven through thirteen — before the building collapsed at five twenty and fifty two seconds that evening.
+
+86
+00:09:15,266 --> 00:09:19,612
+Nist's own words explain exactly why this case draws so much scrutiny.
+
+87
+00:09:19,612 --> 00:09:34,100
+Quote: 'the fires on multiple floors in Building 7 were uncontrolled but otherwise similar to fires experienced in other tall buildings, and caused an extraordinary event.' The first known instance of fire alone bringing down a tall steel structure, completely.
+
+88
+00:09:35,233 --> 00:09:39,641
+The mechanism itself is not simple weakening. It is thermal expansion.
+
+89
+00:09:39,641 --> 00:09:55,269
+Long-span steel floor beams and girders in Building 7's core — especially around floor thirteen — were heated unevenly, and expanded, at temperatures Nist itself calls 'hundreds of degrees below those typically considered in current practice for fire-resistance ratings.'
+
+90
+00:09:56,399 --> 00:10:04,424
+One heated floor-thirteen girder, spanning between Column forty four and Column seventy nine, expanded enough to lose its seated connection entirely.
+
+91
+00:10:04,424 --> 00:10:05,952
+It did not fracture.
+
+92
+00:10:05,952 --> 00:10:12,831
+It walked off its own bearing seat — leaving Column seventy nine laterally unsupported, over roughly nine stories.
+
+93
+00:10:13,966 --> 00:10:15,157
+The column buckled.
+
+94
+00:10:15,157 --> 00:10:23,098
+That triggered a cascading progression of floor failures — upward, then outward across the core, and finally the exterior frame.
+
+95
+00:10:23,098 --> 00:10:29,848
+The first visible sign, on video, was the building's own east mechanical penthouse, dropping into the structure.
+
+96
+00:10:30,966 --> 00:10:35,137
+Dr. Shyam Sunder's own summary of the finding, in his own words.
+
+97
+00:10:35,137 --> 00:10:43,479
+Quote: 'heating of floor beams and girders caused a critical support column to fail, initiating a fire-induced progressive collapse that brought the building down.'
+
+98
+00:10:44,600 --> 00:10:48,120
+Nist states this plainly, to correct a common misconception.
+
+99
+00:10:48,120 --> 00:10:55,945
+Quote: 'neither explosives nor fuel oil fires played a role in the collapse of Building 7.' Not diesel generator fuel.
+
+100
+00:10:55,945 --> 00:11:01,031
+Ordinary office contents, burning for seven hours, doing something nobody had documented before.
+
+101
+00:11:02,166 --> 00:11:11,688
+Nist's own investigators found no evidence at all — no witness reports, no video, no structural analysis — suggesting explosives had been used in the first place.
+
+102
+00:11:11,688 --> 00:11:16,272
+That is why they never even tested the recovered steel for explosive residue.
+
+103
+00:11:17,400 --> 00:11:20,743
+Keep the two mechanisms separate in your head.
+
+104
+00:11:20,743 --> 00:11:27,430
+Towers One and Two: aircraft impact, lost fireproofing, and fire, acting together on a tube-and-core frame.
+
+105
+00:11:27,430 --> 00:11:33,282
+Building 7: an ordinary office fire alone, acting on a completely different, moment-frame design.
+
+106
+00:11:33,282 --> 00:11:36,625
+Two different buildings. Two different chains of cause.
+
+107
+00:11:37,766 --> 00:11:41,400
+That is the mechanism, according to the government's own investigation.
+
+108
+00:11:41,400 --> 00:11:50,122
+What follows is how that investigation actually reached it — because the story of the finding is almost as contested as the finding itself.
+
+109
+00:11:51,266 --> 00:11:55,628
+All of this came from one federal investigation, running for six years.
+
+110
+00:11:56,766 --> 00:12:04,159
+The Federal Building and Fire Safety Investigation of the World Trade Center Disaster was conducted under the National Construction Safety Team Act.
+
+111
+00:12:05,300 --> 00:12:11,927
+The towers' final report, Nist's NCSTAR one, was released at a congressional hearing on October 26, 2005.
+
+112
+00:12:11,927 --> 00:12:31,422
+Building 7's report followed a longer road: an August 21, 2008 press briefing announcing the finding, an August 26 technical briefing walking through it in full — the one this episode opened on — a draft released for public comment on September 3, 2008, and a final report that November.
+
+113
+00:12:32,566 --> 00:12:35,197
+The lead investigator, throughout, was Dr.
+
+114
+00:12:35,197 --> 00:12:38,705
+Shyam Sunder, then chief of Nist's Structures Division.
+
+115
+00:12:38,705 --> 00:12:44,843
+His team drew on roughly two hundred experts, across Nist staff, industry, and academia.
+
+116
+00:12:45,966 --> 00:12:58,897
+They reviewed two hundred thirty six recovered structural steel components, more than seven thousand photographs and video segments, and conducted roughly one thousand two hundred interviews — survivors, and emergency responders.
+
+117
+00:13:00,033 --> 00:13:04,517
+Metallurgist Dr. Frank Gayle led the steel analysis, from 2002 to 2007.
+
+118
+00:13:04,517 --> 00:13:10,496
+And here, in Nist's own current words, is the finding, stated as plainly as it gets.
+
+119
+00:13:10,496 --> 00:13:26,939
+Quote: 'in no instance did NIST report that steel in the towers melted due to the fires.' Unprotected steel at those temperatures loses roughly ninety percent of its room-temperature strength — enough to explain the sagging and buckling, without any of it actually melting.
+
+120
+00:13:28,066 --> 00:13:42,604
+Congress itself held early hearings within months of the attacks, titled, plainly, 'Learning From Nine Eleven: Understanding the Collapse of the World Trade Center.' No official video survives from those 2002 hearings — only the printed transcript does.
+
+121
+00:13:42,604 --> 00:13:46,430
+It is what set Nist's own multi-year investigation in motion.
+
+122
+00:13:47,566 --> 00:13:50,733
+That federal investigation did not just publish one finding.
+
+123
+00:13:50,733 --> 00:13:59,530
+Over time, it also corrected itself, in public, on the record — and that correction is the part of this story people argue about most.
+
+124
+00:14:00,666 --> 00:14:04,872
+This is the single most misunderstood finding in the entire investigation.
+
+125
+00:14:06,000 --> 00:14:19,401
+Nist's own final report documents Building 7's exterior north face descending in three measured stages: a slower start, then a stretch matching the exact rate of gravity, then a final stretch of decreasing speed, as resistance returned.
+
+126
+00:14:20,533 --> 00:14:22,962
+Eight stories, in true free fall.
+
+127
+00:14:24,100 --> 00:14:34,786
+Nist's own explanation: the interior core columns beneath that section — including Column seventy nine and its neighbors — had already buckled and failed, nearly simultaneously, across multiple floors.
+
+128
+00:14:34,786 --> 00:14:41,419
+So for that brief window, the descending exterior face met almost no resistance from the structure below it.
+
+129
+00:14:42,566 --> 00:14:46,675
+Be precise about what that measurement does, and does not, mean.
+
+130
+00:14:46,675 --> 00:14:51,531
+It confirms gravity briefly took over on one section of one building's exterior.
+
+131
+00:14:51,531 --> 00:14:59,002
+It does not, on its own, mean the entire building's structural system failed all at once, through synchronized demolition charges.
+
+132
+00:14:59,002 --> 00:15:01,243
+Those are two very different claims.
+
+133
+00:15:02,366 --> 00:15:08,174
+And here is the sequence, reported as fact, not softened in either direction.
+
+134
+00:15:08,174 --> 00:15:12,195
+At Nist's own August 21, 2008 press briefing, Dr.
+
+135
+00:15:12,195 --> 00:15:18,449
+Sunder said free fall would be 'physically impossible,' given the structural resistance he expected.
+
+136
+00:15:18,449 --> 00:15:24,257
+The final report, that November, then documented and quantified the free-fall phase directly.
+
+137
+00:15:25,400 --> 00:15:31,017
+The person most responsible for that correction was a physics teacher named David Chandler.
+
+138
+00:15:31,017 --> 00:15:39,846
+During Nist's September 2008 public comment window, Chandler submitted his own solo comment, backed by his own, extensively documented, frame-by-frame video analysis.
+
+139
+00:15:40,966 --> 00:15:52,503
+A separate, group submission, that same window — led by James Gourley, of the International Center for Nine Eleven Studies — was co-signed by eight people, including physicist Steven Jones.
+
+140
+00:15:52,503 --> 00:16:01,733
+That group's own frame-by-frame analysis is credited, in the record, to 'members of this group,' collectively — not to any one of them individually.
+
+141
+00:16:02,866 --> 00:16:11,421
+If Steven Jones's name comes up again in this story, it is for something else entirely — a separate paper, about a different substance altogether.
+
+142
+00:16:11,421 --> 00:16:13,132
+Do not confuse the two.
+
+143
+00:16:14,266 --> 00:16:28,137
+Between a real, measured anomaly, a government walk-back, and a topic this contested, it's worth pausing to address, directly, what people actually claim about these buildings — and what the documented record actually says back.
+
+144
+00:16:29,266 --> 00:16:34,517
+A few claims about this show up constantly online. Let's address them, one at a time.
+
+145
+00:16:35,666 --> 00:16:39,217
+Building 7 fell at free-fall speed for over two seconds.
+
+146
+00:16:39,217 --> 00:16:43,477
+Some ask: if explosives did that, why did nobody hear a blast?
+
+147
+00:16:44,600 --> 00:16:49,655
+Nist's own FAQ: that blast would hit one hundred forty decibels, half a mile out.
+
+148
+00:16:49,655 --> 00:16:55,048
+Nothing like that is on tape. The free fall is real — not proof of demolition.
+
+149
+00:16:56,166 --> 00:17:00,032
+Others cite molten metal, and a study claiming thermite in the dust.
+
+150
+00:17:01,166 --> 00:17:03,282
+That glow is aluminum, not steel.
+
+151
+00:17:03,282 --> 00:17:06,456
+The thermite paper's own editor distanced himself from it.
+
+152
+00:17:06,456 --> 00:17:10,335
+Nist says it would take a hundred pounds per column, undetected.
+
+153
+00:17:11,466 --> 00:17:17,108
+Then there's Larry Silverstein's own words, on camera: 'maybe the smartest thing to do is pull it.'
+
+154
+00:17:18,233 --> 00:17:21,664
+What 'it' means is disputed. His spokesman says the firefighters.
+
+155
+00:17:21,664 --> 00:17:25,782
+Others read it as demolition language. We are not picking a side.
+
+156
+00:17:26,900 --> 00:17:32,542
+The BBC once reported Building 7 had collapsed — while it still stood on screen behind the reporter.
+
+157
+00:17:33,666 --> 00:17:35,247
+A real, documented error.
+
+158
+00:17:35,247 --> 00:17:40,781
+Wire services were already reporting it as down; London passed that along too soon.
+
+159
+00:17:40,781 --> 00:17:42,757
+A timing mistake, not foreknowledge.
+
+160
+00:17:43,900 --> 00:17:49,621
+In 2020, a funded university study argued fire alone doesn't explain the collapse.
+
+161
+00:17:50,766 --> 00:17:55,848
+Funded by a group that already rejects Nist's findings. Never peer reviewed.
+
+162
+00:17:55,848 --> 00:17:58,812
+Nist's finding remains the official, government-adopted position.
+
+163
+00:17:59,933 --> 00:18:04,452
+The investigation didn't end with a finding. It ended with a to-do list.
+
+164
+00:18:05,600 --> 00:18:13,351
+Nist issued roughly thirty recommendations — covering structural integrity, fire endurance, active fire protection, emergency response, and evacuation.
+
+165
+00:18:13,351 --> 00:18:19,811
+The Building 7 report added one more, and reiterated a dozen of the earlier ones.
+
+166
+00:18:20,933 --> 00:18:24,405
+Those recommendations drove more than forty major changes to U.S.
+
+167
+00:18:24,405 --> 00:18:32,045
+model building and fire codes — twenty three into the International Code Council's own codes, fifteen into the National Fire Protection Association's.
+
+168
+00:18:32,045 --> 00:18:37,601
+Nist itself calls the pace 'history-making.' One qualifier matters, though: these are changes to model codes.
+
+169
+00:18:37,601 --> 00:18:46,977
+Individual states and cities still had to adopt each one into their own local law, on their own timeline — not all at once, and not automatically.
+
+170
+00:18:48,100 --> 00:18:50,150
+Some of what actually changed.
+
+171
+00:18:50,150 --> 00:18:56,301
+Buildings must now resist disproportionate progressive collapse — a direct answer to Column seventy nine.
+
+172
+00:18:56,301 --> 00:19:01,222
+A full extra hour of required fire resistance, for tall building frames.
+
+173
+00:19:01,222 --> 00:19:05,733
+Fireproofing bond-strength standards, raised several times over, with new field inspections.
+
+174
+00:19:06,866 --> 00:19:14,869
+Stairwells, up to half again wider, in new sprinklered high-rises, with a mandatory third stairway in the tallest buildings.
+
+175
+00:19:14,869 --> 00:19:20,345
+Elevators built for firefighter access — and now permitted for occupant evacuation, too.
+
+176
+00:19:21,466 --> 00:19:33,352
+One World Trade Center's own design answers this investigation directly: extra-wide stairways, inside a reinforced, positively-pressurized concrete core, built specifically to keep smoke out during a fire.
+
+177
+00:19:34,500 --> 00:19:48,255
+The National September Eleventh Memorial — two reflecting pools, set inside the original towers' own footprints — carries the names of all two thousand, nine hundred seventy seven people killed that day, and the six killed in 1993.
+
+178
+00:19:48,255 --> 00:19:54,771
+It was dedicated on the tenth anniversary, September 11, 2011, and opened to the public the next day.
+
+179
+00:19:55,900 --> 00:20:04,494
+The museum beneath it was dedicated in May of 2014, in a ceremony led by then-President Obama, and opened to the public a week later.
+
+180
+00:20:05,633 --> 00:20:19,112
+One World Trade Center itself — designed by David Childs, following Daniel Libeskind's original master plan — topped out at a symbolic one thousand seven hundred seventy six feet, in May of 2013, and opened that November.
+
+181
+00:20:20,233 --> 00:20:29,559
+The site today also includes the Oculus, Santiago Calatrava's transit hub, and the Perelman Performing Arts Center — the newest addition, completed in 2023.
+
+182
+00:20:30,700 --> 00:20:40,888
+Twenty years on, this is what remains: a rebuilt skyline, a set of engineering rules nobody wants tested again, and a case file, still open to anyone willing to actually read it.
+
+183
+00:20:42,033 --> 00:20:45,370
+What stays with me about this one isn't the internet argument.
+
+184
+00:20:45,370 --> 00:20:49,922
+It's a bearing seat, on a girder, on a floor most people can't even name.
+
+185
+00:20:51,066 --> 00:20:58,032
+Nist spent six years, and reviewed two hundred thirty six pieces of recovered steel, to answer a question this specific.
+
+186
+00:20:58,032 --> 00:21:01,515
+That kind of patience deserves better than a comment section.
+
+187
+00:21:02,633 --> 00:21:12,490
+If the way three buildings actually fell surprised you, wait until you see what forty four ordinary people did with about ninety seconds, on a fourth hijacked plane, that same morning.
+
+188
+00:21:12,490 --> 00:21:16,623
+Watch United 93: The Passengers Who Fought Back, right here on this channel.
+
+189
+00:21:16,623 --> 00:21:21,075
+Subscribe to Black Box Breakdown, so you don't miss what evidence turns up next.
+

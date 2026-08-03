@@ -1,0 +1,172 @@
+{
+ "durations": {
+  "h1": 9.169,
+  "h2": 9.404,
+  "h3": 12.042,
+  "h4": 12.591,
+  "h5": 9.874,
+  "h6": 8.594,
+  "sting": 1.646,
+  "title": 8.829,
+  "c1": 2.926,
+  "a1": 7.314,
+  "a2": 8.986,
+  "a3": 8.046,
+  "a4": 10.527,
+  "a5": 6.348,
+  "a6": 8.202,
+  "a7": 12.434,
+  "a8": 11.389,
+  "a9": 9.561,
+  "a10": 17.789,
+  "a11": 5.878,
+  "a12": 8.202,
+  "c2": 2.769,
+  "b1": 14.028,
+  "b2": 18.286,
+  "b3": 12.356,
+  "b4": 12.669,
+  "b5": 10.188,
+  "b6": 8.124,
+  "b7": 12.199,
+  "b8": 10.527,
+  "b9": 9.404,
+  "c3": 2.586,
+  "d1": 9.561,
+  "d2": 9.796,
+  "d3": 12.434,
+  "d4": 13.166,
+  "d5": 12.591,
+  "d6": 8.359,
+  "d7": 9.482,
+  "c4": 2.769,
+  "e1": 10.031,
+  "e2": 12.748,
+  "e3": 14.028,
+  "e4": 9.717,
+  "e5": 15.386,
+  "e6": 13.871,
+  "e7": 12.434,
+  "e8": 15.726,
+  "e9": 9.561,
+  "c5": 3.239,
+  "f1": 8.281,
+  "f2": 15.151,
+  "f3": 18.364,
+  "f4": 17.711,
+  "f5": 18.442,
+  "f6": 7.706,
+  "c6": 2.351,
+  "g1": 16.353,
+  "g2": 14.524,
+  "g3": 15.882,
+  "g4": 10.449,
+  "g5": 12.121,
+  "g6": 14.916,
+  "g7": 12.513,
+  "c7": 2.926,
+  "h1c": 12.513,
+  "h2c": 10.919,
+  "h3c": 16.771,
+  "h4c": 17.006,
+  "h5c": 20.611,
+  "c8": 2.586,
+  "i1": 17.241,
+  "i2": 15.804,
+  "ex_nasa": 14.916,
+  "i4": 10.109,
+  "i5": 11.651,
+  "i6": 12.826,
+  "coda1": 9.874,
+  "coda2": 15.151,
+  "coda3": 10.606,
+  "coda4": 3.709,
+  "bridge": 11.233,
+  "end": 1.802
+ },
+ "images": {
+  "alien_spacecraft_theory": [
+   "alien_spacecraft_theory_1.png"
+  ],
+  "antimatter_theory": [
+   "antimatter_theory_1.png"
+  ],
+  "asteroid_illustration": [
+   "asteroid_illustration_2.jpg",
+   "asteroid_illustration_3.jpg"
+  ],
+  "chelyabinsk_trail": [
+   "chelyabinsk_trail_1.jpg"
+  ],
+  "evenki_cosmology": [
+   "evenki_cosmology_1.png"
+  ],
+  "evenki_life": [
+   "evenki_life_1.jpeg",
+   "evenki_life_2.jpeg",
+   "evenki_life_3.jpeg"
+  ],
+  "eyewitness_transcript": [
+   "eyewitness_transcript_1.png"
+  ],
+  "kulik_expedition": [
+   "kulik_expedition_1.jpg",
+   "kulik_expedition_2.jpg",
+   "kulik_expedition_3.jpg"
+  ],
+  "kulik_fallen_trees": [
+   "kulik_fallen_trees_1.jpg",
+   "kulik_fallen_trees_2.jpg"
+  ],
+  "kulik_portrait": [
+   "kulik_portrait_1.jpg"
+  ],
+  "lakecheko": [
+   "lakecheko_1.jpg"
+  ],
+  "meteorite_crater": [
+   "meteorite_crater_1.jpeg",
+   "meteorite_crater_2.jpeg",
+   "meteorite_crater_3.jpeg"
+  ],
+  "meteorite_history": [
+   "meteorite_history_2.jpg"
+  ],
+  "nasa_tm220174": [
+   "nasa_tm220174_1.jpeg",
+   "nasa_tm220174_2.jpeg",
+   "nasa_tm220174_3.jpg"
+  ],
+  "pdco_illustration": [
+   "pdco_illustration_2.png",
+   "pdco_illustration_3.jpeg"
+  ],
+  "sciencelab": [
+   "sciencelab_1.jpeg",
+   "sciencelab_2.jpeg",
+   "sciencelab_3.jpeg"
+  ],
+  "semenov_vanavara": [
+   "semenov_vanavara_1.png"
+  ],
+  "shoemakerlevy": [
+   "shoemakerlevy_1.png",
+   "shoemakerlevy_2.jpg"
+  ],
+  "taiga_siberia": [
+   "taiga_siberia_1.jpg",
+   "taiga_siberia_2.jpeg",
+   "taiga_siberia_3.jpeg",
+   "taiga_siberia_4.jpg",
+   "taiga_siberia_5.jpg",
+   "taiga_siberia_6.jpg",
+   "taiga_siberia_7.jpg"
+  ],
+  "tunguska_fireball_sky": [
+   "tunguska_fireball_sky_1.png"
+  ]
+ },
+ "missing": [],
+ "speed": 0.96,
+ "mouth": {}
+}

@@ -1,0 +1,202 @@
+{
+ "durations": {
+  "h1": 10.684,
+  "h2": 10.188,
+  "h3": 7.393,
+  "h4": 7.889,
+  "h5": 7.079,
+  "h6": 9.447,
+  "h7": 5.329,
+  "h8": 10.024,
+  "h9": 8.751,
+  "h10": 9.482,
+  "h11": 8.986,
+  "sting": 2.116,
+  "title": 1.306,
+  "ti": 18.521,
+  "c1": 5.799,
+  "c1_2": 17.162,
+  "c1_3": 11.468,
+  "c1_4": 13.479,
+  "c1_5": 8.673,
+  "c1_6": 11.389,
+  "c1_7": 14.681,
+  "c1_8": 17.633,
+  "c1_9": 6.269,
+  "c1_10": 12.931,
+  "c1_11": 14.211,
+  "c1_12": 9.247,
+  "c2": 4.676,
+  "c2_2": 12.931,
+  "c2_3": 18.599,
+  "c2_4": 10.188,
+  "c2_5": 8.751,
+  "c2_6": 7.001,
+  "c2_7": 16.353,
+  "c2_8": 10.188,
+  "c2_9": 13.636,
+  "c2_10": 15.726,
+  "c2_11": 7.471,
+  "c2_12": 11.729,
+  "c2_13": 7.706,
+  "c2_14": 7.889,
+  "c2_15": 16.353,
+  "c3": 4.911,
+  "c3_2": 8.281,
+  "c3_3": 3.696,
+  "c3_4": 2.033,
+  "c3_5": 9.561,
+  "c3_6": 2.686,
+  "c3_7": 9.084,
+  "c3_8": 6.766,
+  "c3_9": 9.796,
+  "c3_10": 12.121,
+  "c3_11": 9.636,
+  "c3_12": 5.407,
+  "c3_12b": 6.034,
+  "c3_13": 13.087,
+  "c3_14": 12.121,
+  "c3_15": 12.591,
+  "c3_16": 11.233,
+  "c4": 6.113,
+  "c4_2": 8.281,
+  "c4_3": 11.311,
+  "c4_4": 9.561,
+  "c4_5": 11.311,
+  "c4_6": 10.684,
+  "c4_7": 8.908,
+  "c4_8": 17.006,
+  "c4_9": 13.636,
+  "c4_10": 11.233,
+  "c4_11": 9.404,
+  "c4_12": 17.554,
+  "c5": 5.799,
+  "c5_2": 10.031,
+  "c5_3": 10.762,
+  "c5_4": 5.878,
+  "c5_5": 18.207,
+  "c5_6": 10.919,
+  "c5_7": 10.762,
+  "c5_8": 10.684,
+  "c6": 5.564,
+  "c6_2": 6.922,
+  "c6_3": 10.919,
+  "c6_4": 11.964,
+  "c6_5": 11.311,
+  "c6_6": 11.154,
+  "c6_7": 12.826,
+  "c6_8": 10.919,
+  "c6_9": 16.849,
+  "c7": 5.564,
+  "c7_2": 9.404,
+  "c7_3": 8.124,
+  "c7_4": 11.154,
+  "c7_5": 8.202,
+  "c7_6": 10.998,
+  "c7_7": 17.162,
+  "c8": 4.519,
+  "c8_2": 7.889,
+  "c8_3": 10.188,
+  "c8_4": 15.726,
+  "c8_5": 10.266,
+  "c8_6": 7.811,
+  "c8_7": 10.371,
+  "c8_8": 11.651,
+  "c8_9": 8.673,
+  "c8_10": 11.233,
+  "c8_11": 13.322,
+  "coda1": 17.711,
+  "coda2": 11.964,
+  "cliff": 4.989,
+  "bridge": 19.801,
+  "end": 4.441
+ },
+ "images": {
+  "alanboard_photo": [
+   "alanboard_photo_1.jpg"
+  ],
+  "artifact_table": [
+   "artifact_table_1.png"
+  ],
+  "declassification_2025": [
+   "declassification_2025_1.jpg",
+   "declassification_2025_2.jpg"
+  ],
+  "earhart_electra_flight": [
+   "earhart_electra_flight_1.jpg"
+  ],
+  "earhart_portrait": [
+   "earhart_portrait_1.jpg",
+   "earhart_portrait_2.jpg",
+   "earhart_portrait_3.jpg"
+  ],
+  "electra_burbank": [
+   "electra_burbank_1.jpg",
+   "electra_burbank_2.jpg",
+   "electra_burbank_3.jpg"
+  ],
+  "electra_exterior": [
+   "electra_exterior_1.jpg",
+   "electra_exterior_2.jpg",
+   "electra_exterior_3.jpg"
+  ],
+  "electra_openocean": [
+   "electra_openocean_1.png"
+  ],
+  "friendship_1928": [
+   "friendship_1928_1.jpg",
+   "friendship_1928_2.jpg",
+   "friendship_1928_3.jpg"
+  ],
+  "gardnerisland": [
+   "gardnerisland_1.jpg",
+   "gardnerisland_2.jpg"
+  ],
+  "honolulu_oakland_1935": [
+   "honolulu_oakland_1935_1.jpg"
+  ],
+  "itasca_deck": [
+   "itasca_deck_1.jpg"
+  ],
+  "itasca_radiolog_exhibit": [
+   "itasca_radiolog_exhibit_1.jpg",
+   "itasca_radiolog_exhibit_2.jpg",
+   "itasca_radiolog_exhibit_3.jpg"
+  ],
+  "lae_airfield": [
+   "lae_airfield_1.jpg"
+  ],
+  "lukefield_crash": [
+   "lukefield_crash_1.jpg"
+  ],
+  "noonan_portrait": [
+   "noonan_portrait_1.jpg",
+   "noonan_portrait_2.jpg"
+  ],
+  "purdue_campus": [
+   "purdue_campus_2.jpg",
+   "purdue_campus_3.jpg"
+  ],
+  "purdue_earhart": [
+   "purdue_earhart_1.jpg",
+   "purdue_earhart_2.jpg",
+   "purdue_earhart_3.jpg"
+  ],
+  "taraia_object": [
+   "taraia_object_2.jpg",
+   "taraia_object_3.jpg"
+  ],
+  "uscolorado": [
+   "uscolorado_1.jpg"
+  ],
+  "uslexington": [
+   "uslexington_1.jpg"
+  ],
+  "vega_1932": [
+   "vega_1932_1.jpg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.96,
+ "mouth": {}
+}

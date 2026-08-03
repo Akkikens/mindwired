@@ -1,0 +1,851 @@
+{
+  "slug": "earhart",
+  "title": "Amelia Earhart: The Last Transmission Was Loud and Clear",
+  "channel": "blackbox",
+  "niche": "aviation",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "voices": {
+    "EARHART": "273f9ef7-9fc2-4def-88bb-ab108c6249ca"
+  },
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "July second, nineteen thirty seven. Aboard the Coast Guard cutter Itasca, anchored off Howland Island, in the middle of the Pacific. Chief Radioman Leo Bellarts leans into his headset.",
+      "img": "itasca_deck",
+      "query": "USCGC Itasca Coast Guard cutter 1937 photograph",
+      "stat": "JULY 2, 1937",
+      "cap": "USCGC Itasca — a Coast Guard cutter, not a Navy ship.",
+      "motion": "slow",
+      "camera": "drift",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h2",
+      "text": "He is listening for one specific aircraft. A silver, twin-engine Lockheed Electra, somewhere out over open water, flown by the most famous pilot in America.",
+      "img": "earhart_electra_flight",
+      "video": "earhart_electra_flight_1.mp4",
+      "videoQuery": "Amelia Earhart Lockheed Electra 1937 world flight newsreel",
+      "cap": "Amelia Earhart. Somewhere out there, right now.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h3",
+      "text": "Her name is Amelia Earhart. Her navigator is Fred Noonan. Together, they are trying to fly all the way around the world.",
+      "img": "earhart_portrait",
+      "query": "Amelia Earhart portrait 1930s photograph",
+      "cap": "Earhart and Noonan — attempting a full circumnavigation.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h4",
+      "text": "By this morning, they've already flown most of the way around the world. What's left is the single hardest leg of the entire trip.",
+      "img": "earhart_electra_flight",
+      "cap": "The hardest leg of the flight — still ahead.",
+      "tone": "dread"
+    },
+    {
+      "id": "h5",
+      "text": "All morning, her voice has been coming through the radio, again and again, each transmission a little more urgent than the last.",
+      "img": "itasca_deck",
+      "cap": "A tightening sequence of radio calls, all morning.",
+      "tone": "dread"
+    },
+    {
+      "id": "h6",
+      "speaker": "EARHART",
+      "radioLabel": "VOICE RECREATION — NO AUDIO EXISTS",
+      "timestamp": "07:42 LOCAL",
+      "text": "We must be on you, but cannot see you. Gas is running low. We've been unable to reach you by radio. We are flying at a thousand feet.",
+      "cap": "\"Gas is running low... we are flying at a thousand feet.\"",
+      "tone": "fear"
+    },
+    {
+      "id": "h7",
+      "text": "At oh eight forty three, the final transmission anyone would ever receive from that aircraft comes through the speaker.",
+      "img": "itasca_deck",
+      "stat": "08:43 AM",
+      "tone": "dread"
+    },
+    {
+      "id": "h8",
+      "speaker": "EARHART",
+      "radioLabel": "VOICE RECREATION — NO AUDIO EXISTS",
+      "timestamp": "08:43 LOCAL",
+      "text": "We are on the line one five seven, three three seven. We will repeat this message on six two one oh kilocycles. We are running north and south.",
+      "cap": "\"We are on the line one five seven, three three seven.\"",
+      "extraHold": 15,
+      "tone": "fear"
+    },
+    {
+      "id": "h9",
+      "text": "Here is the detail almost nobody gets right about this moment. That signal was not fading. It was exactly as loud and clear as it had been all morning.",
+      "img": "itasca_deck",
+      "cap": "Not fading. Loud and clear. Maximum signal strength.",
+      "tone": "dread"
+    },
+    {
+      "id": "h10",
+      "text": "Bellarts himself put it plainly, decades later. She was so loud, he said, that he ran up to the bridge, expecting to see her plane coming in for a landing.",
+      "img": "itasca_deck",
+      "cap": "\"I ran up to the bridge expecting to see her coming in for a landing.\" — Leo Bellarts",
+      "extraHold": 15,
+      "tone": "dread"
+    },
+    {
+      "id": "h11",
+      "text": "Nobody ever did see it. After that transmission: silence. To this day, nobody knows exactly what happened to Amelia Earhart, or to Fred Noonan.",
+      "img": "earhart_electra_flight",
+      "extraHold": 10,
+      "sfx": [{ "name": "heartbeat", "at": "in", "volume": 0.12 }],
+      "tone": "shock"
+    },
+    {
+      "id": "sting",
+      "sting": true,
+      "text": "You're watching Black Box Breakdown.",
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "text": "Amelia Earhart.",
+      "chapter": "THE MOST FAMOUS PILOT IN AMERICA\nVANISHED WITHOUT A TRACE\n\nAMELIA EARHART",
+      "img": "earhart_electra_flight"
+    },
+    {
+      "id": "ti",
+      "text": "One honest rule before we start. Every timestamp and quote in this episode comes from the National Archives' own radio log, or from a named, attributed source. Where something is a theory and not a proven fact — and in this case, there are several — we will say so, on screen, every single time.",
+      "img": "earhart_portrait"
+    },
+    {
+      "id": "c1",
+      "chapter": "CHAPTER ONE\nTHE MOST FAMOUS WOMAN IN AMERICA",
+      "text": "To understand why an entire ocean got searched for this one woman, you have to understand who she already was.",
+      "img": "earhart_portrait"
+    },
+    {
+      "id": "c1_2",
+      "text": "In June of nineteen twenty eight, Amelia Earhart became the first woman to cross the Atlantic by air — as a passenger, aboard a Fokker trimotor named the Friendship, flown by pilot Wilmer Stultz and mechanic Louis Gordon. She didn't fly it herself. The fame landed on her anyway, and it never really left.",
+      "img": "friendship_1928",
+      "query": "Fokker Friendship trimotor 1928 Amelia Earhart Atlantic flight photograph",
+      "cap": "1928 — first woman to cross the Atlantic by air (as a passenger).",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c1_3",
+      "text": "Four years later, she fixed that herself. In May of nineteen thirty two, she flew a red Lockheed Vega solo across the Atlantic — only the second person ever to do it, after Charles Lindbergh.",
+      "img": "vega_1932",
+      "video": "vega_1932_1.mp4",
+      "videoQuery": "Amelia Earhart red Lockheed Vega 1932 solo Atlantic newsreel",
+      "cap": "1932 — solo, nonstop, across the Atlantic. The Distinguished Flying Cross.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c1_4",
+      "text": "Three years after that, in January of nineteen thirty five, she became the first person ever to fly solo across the Pacific — Honolulu to Oakland, twenty four hundred miles, a route that had already killed ten aviators who'd tried it before her.",
+      "img": "honolulu_oakland_1935",
+      "video": "honolulu_oakland_1935_1.mp4",
+      "videoQuery": "Amelia Earhart 1935 Honolulu Oakland solo Pacific flight newsreel",
+      "cap": "1935 — first person to fly the Pacific solo. A route that had killed 10 before her.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c1_5",
+      "text": "That same year, Purdue University's president recruited her as a visiting faculty member, with a documented official title: Counselor on Careers for Women.",
+      "img": "purdue_earhart",
+      "query": "Amelia Earhart Purdue University 1935 photograph",
+      "cap": "1935 — Purdue's \"Counselor on Careers for Women.\"",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c1_6",
+      "text": "A Purdue trustee named David Ross helped raise money for something called the Amelia Earhart Fund for Aeronautical Research. Between his gift and a handful of corporate sponsors, it totaled around eighty thousand dollars.",
+      "img": "purdue_earhart",
+      "kinetic": { "count": 80000, "prefix": "$", "sub": "The Amelia Earhart Fund for Aeronautical Research, 1936" },
+      "tone": "curiosity"
+    },
+    {
+      "id": "c1_7",
+      "text": "The plane that money helped buy was publicly billed as a flying laboratory — new radio gear, new navigation instruments, wing de-icing equipment. How much of that was a real research program, and how much was publicity, is genuinely disputed.",
+      "img": "electra_burbank",
+      "query": "Lockheed Electra 10E factory 1936 photograph",
+      "cap": "\"Flying laboratory\" — genuinely disputed how much was real research.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c1_8",
+      "text": "She took delivery of it from Lockheed's Burbank plant in July of nineteen thirty six — a Lockheed Electra ten E, twin-engine, all metal, fifty five feet across the wings, with ten fuel tanks holding over eleven hundred gallons combined. Far more range than a stock Electra that size was ever built to carry.",
+      "img": "electra_exterior",
+      "query": "Lockheed Electra 10E Amelia Earhart aircraft photograph",
+      "cap": "The Lockheed Electra 10E — NR16020. 1,151 gallons of fuel capacity.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c1_9",
+      "text": "For a flight with no landmarks over open ocean, she needed a navigator who could handle it. She chose Fred Noonan.",
+      "img": "noonan_portrait",
+      "query": "Fred Noonan navigator Pan American Airways portrait photograph",
+      "cap": "Fred Noonan — Earhart's navigator.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c1_10",
+      "text": "Noonan had spent years as a merchant seaman before he ever flew. By the early nineteen thirties, he was one of Pan American Airways' leading oceanic navigators — the man who helped chart their first trans-Pacific Clipper routes.",
+      "img": "noonan_portrait",
+      "cap": "One of the era's top oceanic air navigators.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c1_11",
+      "text": "Why Noonan actually left Pan Am is genuinely disputed. One account says he resigned to start his own navigation school. A separate, later account alleges he was let go over drinking — a claim that didn't surface publicly until decades afterward.",
+      "img": "noonan_portrait",
+      "cap": "DISPUTED — some accounts allege a drinking dismissal. Never confirmed.",
+      "tone": "dread"
+    },
+    {
+      "id": "c1_12",
+      "text": "On March twenty seventh, nineteen thirty seven, Noonan married Mary Martinelli, a hairdresser from Oakland. It was roughly three months before he disappeared.",
+      "img": "noonan_portrait",
+      "cap": "March 27, 1937 — married. Three months before he vanished.",
+      "extraHold": 10,
+      "camera": "drift",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c2",
+      "chapter": "CHAPTER TWO\nTHE HARDEST LEG",
+      "text": "Getting into the air, even once, almost ended this flight before it began.",
+      "img": "electra_exterior"
+    },
+    {
+      "id": "c2_2",
+      "text": "The first attempt left Oakland on March seventeenth, nineteen thirty seven. Earhart, Noonan, a second navigator named Harry Manning, and a technical advisor named Paul Mantz — flying west, Oakland toward Honolulu.",
+      "img": "electra_exterior",
+      "video": "electra_exterior_1.mp4",
+      "videoQuery": "Amelia Earhart Electra Oakland departure March 1937 newsreel",
+      "cap": "March 17, 1937 — the first attempt. Westbound.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c2_3",
+      "text": "Three days later, taking off again from Luke Field on Ford Island, the heavily loaded Electra ground-looped on the runway — a blown tire, uneven engine power, the exact cause disputed even then. Nobody was hurt. The airplane went back to Lockheed's Burbank plant for repair, and the whole plan was rebuilt from scratch.",
+      "img": "lukefield_crash",
+      "video": "lukefield_crash_1.mp4",
+      "videoQuery": "Luke Field Ford Island Amelia Earhart Electra crash March 1937 newsreel",
+      "cap": "March 20, 1937 — a ground-loop crash at Luke Field. No injuries.",
+      "tone": "dread"
+    },
+    {
+      "id": "c2_4",
+      "text": "When it flew again, the route ran the opposite direction, partly for the season's winds. Manning and Mantz didn't continue. From here on, Noonan was the only navigator on board.",
+      "img": "electra_exterior",
+      "cap": "Second attempt: eastbound. Noonan — now the sole navigator.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c2_5",
+      "text": "The Electra left Oakland again on May twenty first, nineteen thirty seven, working its way toward Miami for one final overhaul before the real flight began.",
+      "img": "electra_exterior",
+      "cap": "May 21, 1937 — second departure, Oakland.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c2_6",
+      "text": "On June first, nineteen thirty seven, the official world flight departure leaves Miami. Crowds gather to watch it go.",
+      "img": "electra_burbank",
+      "cap": "June 1, 1937 — Miami. The world flight officially begins.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c2_7",
+      "text": "From Miami, the route runs down through the Caribbean and South America — San Juan, Caripito in Venezuela, Paramaribo in Suriname, Brazil — then, from Natal, the jump across open ocean: the South Atlantic crossing, landing next in Saint-Louis, Senegal.",
+      "img": "electra_exterior",
+      "cap": "Miami → South America → the South Atlantic crossing → Senegal.",
+      "motion": "fast",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c2_8",
+      "text": "Then west to east across the width of Africa — Dakar, Gao in Mali, Fort-Lamy in Chad, El Fasher and Khartoum in Sudan, Massawa and Assab on the Red Sea.",
+      "img": "electra_exterior",
+      "cap": "Across Africa: Dakar to the Red Sea, in six more stops.",
+      "motion": "fast",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c2_9",
+      "text": "Then across Asia — Karachi, Calcutta, Rangoon, Bangkok, Singapore — and on through Java, Timor, and Darwin, Australia, until, on June twenty ninth, they touch down at Lae, in New Guinea.",
+      "img": "electra_exterior",
+      "cap": "Across Asia and Australia to Lae, New Guinea — June 29, 1937.",
+      "motion": "fast",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c2_10",
+      "text": "By Lae, they have flown twenty two thousand of a planned twenty nine thousand miles. What's left is the leg nobody else on this trip has come close to matching: two thousand, five hundred and fifty six miles of open Pacific, to a speck of an island called Howland.",
+      "kinetic": { "count": 2556, "suffix": " miles of open ocean", "sub": "Lae, New Guinea → Howland Island — the hardest leg of the flight" },
+      "img": "electra_exterior",
+      "tone": "dread"
+    },
+    {
+      "id": "c2_11",
+      "text": "July first was supposed to be the day. Wrong-direction winds and threatening cloud scrubbed the takeoff. They tried again the next morning.",
+      "img": "lae_airfield",
+      "query": "Lae New Guinea airstrip 1937 photograph",
+      "cap": "July 1 scrubbed. Rescheduled: July 2.",
+      "tone": "dread"
+    },
+    {
+      "id": "c2_12",
+      "text": "At around ten A M local time on July second, the heavily loaded Electra rolled down a grass airstrip barely three thousand feet long — one that ended at a bluff, dropping into a shark-populated gulf.",
+      "img": "lae_airfield",
+      "cap": "~10:00 AM, July 2, 1937 — Lae. ~1,100 gallons of fuel aboard.",
+      "extraHold": 8,
+      "tone": "fear"
+    },
+    {
+      "id": "c2_13",
+      "text": "Ground crew who watched it happen remembered the plane could barely lift off — using, in their own words, every inch of runway and then some.",
+      "img": "lae_airfield",
+      "cap": "\"Could barely lift on takeoff... every inch of runway and then some.\"",
+      "extraHold": 10,
+      "tone": "fear"
+    },
+    {
+      "id": "c2_14",
+      "text": "A Guinea Airways employee named Alan Board took a photograph of that takeoff. It remains the last confirmed image ever taken of that aircraft.",
+      "img": "alanboard_photo",
+      "query": "Amelia Earhart Electra Lae takeoff July 1937 photograph",
+      "cap": "Alan Board's photograph — the last confirmed image of the aircraft.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c2_15",
+      "text": "One detail is easy to miss. The day before, Noonan hadn't been able to set his marine chronometers against a radio time signal, because of a radio problem at Lae — which meant the entire twenty five hundred mile crossing began with a small timing error already built in, before the wheels ever left the ground.",
+      "img": "lae_airfield",
+      "cap": "An unresolved timing error — before the wheels ever left the ground.",
+      "extraHold": 12,
+      "tone": "dread"
+    },
+    {
+      "id": "c3",
+      "chapter": "CHAPTER THREE\nTHE LAST WORDS ANYONE HEARD",
+      "text": "This brings us back to where this episode started — the radio shack aboard the Itasca.",
+      "img": "itasca_deck"
+    },
+    {
+      "id": "c3_2",
+      "text": "The Coast Guard cutter Itasca was stationed off Howland Island specifically to guide the Electra in by radio, for the final approach of the entire round-the-world flight.",
+      "img": "itasca_deck",
+      "cap": "USCGC Itasca — stationed off Howland, waiting to guide her in.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c3_3",
+      "speaker": "EARHART",
+      "radioLabel": "VOICE RECREATION — NO AUDIO EXISTS",
+      "timestamp": "06:14 LOCAL",
+      "text": "About two hundred miles out. Please take a bearing on us.",
+      "cap": "\"About two hundred miles out.\"",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c3_4",
+      "speaker": "EARHART",
+      "radioLabel": "VOICE RECREATION — NO AUDIO EXISTS",
+      "timestamp": "06:45 LOCAL",
+      "text": "About one hundred miles out now.",
+      "cap": "\"About one hundred miles out now.\"",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c3_5",
+      "text": "At oh seven forty two, the transmission you heard at the start of this episode comes through — gas running low, flying at a thousand feet, unable to reach Itasca by radio.",
+      "img": "itasca_deck",
+      "cap": "07:42 — the warning signs begin.",
+      "tone": "dread"
+    },
+    {
+      "id": "c3_6",
+      "speaker": "EARHART",
+      "radioLabel": "VOICE RECREATION — NO AUDIO EXISTS",
+      "timestamp": "07:58 LOCAL",
+      "text": "We are circling, but cannot hear you.",
+      "cap": "The handwritten log actually reads \"drifting\" — later corrected to \"circling.\"",
+      "tone": "dread"
+    },
+    {
+      "id": "c3_7",
+      "speaker": "EARHART",
+      "radioLabel": "VOICE RECREATION — NO AUDIO EXISTS",
+      "timestamp": "08:00 LOCAL",
+      "text": "We received your signals, but unable to get a minimum. Please take a bearing on us, and answer on three thousand one hundred five, with voice.",
+      "cap": "\"Please take a bearing on us, and answer with voice.\"",
+      "tone": "dread"
+    },
+    {
+      "id": "c3_8",
+      "text": "Forty minutes later, at oh eight forty three, comes the transmission that would end up being the last one anyone ever received.",
+      "img": "itasca_deck",
+      "stat": "08:43 AM",
+      "tone": "fear"
+    },
+    {
+      "id": "c3_9",
+      "exhibit": true,
+      "img": "itasca_radiolog_exhibit",
+      "query": "National Archives radio log Amelia Earhart Itasca document 1937",
+      "source": "National Archives · Radio Log of the Last Communications of Amelia Earhart · Catalog ID 6210268",
+      "highlight": [0.1, 0.55, 0.8, 0.16],
+      "text": "This is the actual document. The Itasca's own radio log, written down in real time, on July second, nineteen thirty seven — held today at the National Archives.",
+      "cap": "The primary source for this entire episode.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c3_10",
+      "text": "The now-familiar wording of that final message — the version usually quoted in full — is a cleaned-up, typed reconstruction. The raw handwritten log underneath it is terser, and in places, harder to read.",
+      "img": "itasca_radiolog_exhibit",
+      "cap": "The famous quote: a smoothed reconstruction of a rougher original.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c3_11",
+      "speaker": "EARHART",
+      "radioLabel": "VOICE RECREATION — NO AUDIO EXISTS",
+      "timestamp": "08:43 LOCAL",
+      "text": "We are on the line one five seven, three three seven. We will repeat this message on six two one oh kilocycles. We are running north and south.",
+      "cap": "\"We are running north and south.\"",
+      "extraHold": 15,
+      "tone": "fear"
+    },
+    {
+      "id": "c3_12",
+      "text": "After that — nothing. No further transmission, ever again, from that aircraft.",
+      "img": "itasca_deck",
+      "extraHold": 10,
+      "sfx": [{ "name": "radio_static_bed", "at": "in", "volume": 0.05 }],
+      "tone": "dread"
+    },
+    {
+      "id": "c3_12b",
+      "dossier": true,
+      "img": "electra_openocean",
+      "label": "SOMEWHERE OVER THE PACIFIC",
+      "text": "Somewhere over open water, past the point anyone could still hear her, the Electra's engines were running on fumes.",
+      "cap": "Nobody saw this moment. Nobody ever will.",
+      "tone": "dread"
+    },
+    {
+      "id": "c3_13",
+      "text": "Even the official record isn't perfectly clean. Itasca's own commanding officer, Commander Warner Thompson, later added details to his written report — like the weather being cloudy and overcast — that simply aren't in the original log.",
+      "img": "itasca_radiolog_exhibit",
+      "cap": "Even the official record was embellished, after the fact.",
+      "tone": "dread"
+    },
+    {
+      "id": "c3_14",
+      "text": "That one five seven, three three seven line is a compass heading, from a sun-line navigation technique Noonan used. Mathematically, it describes a line running northwest to southeast, passing near Howland Island.",
+      "img": "itasca_radiolog_exhibit",
+      "cap": "157/337 — a navigational line of position. Confirmed math.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c3_15",
+      "text": "According to later celestial-navigation analysis, that same line also happens to pass near a second island, roughly three hundred fifty nautical miles southeast of Howland — a speck of coral called Gardner Island.",
+      "img": "itasca_radiolog_exhibit",
+      "cap": "The line's other end: Gardner Island. Confirmed geometry.",
+      "extraHold": 10,
+      "tone": "curiosity"
+    },
+    {
+      "id": "c3_16",
+      "text": "That the line intersects Gardner Island is simple math. That Earhart and Noonan actually flew it there, and landed, is not a confirmed fact. It's a theory. We'll get to it.",
+      "img": "itasca_radiolog_exhibit",
+      "cap": "The math is confirmed. The landing is a theory. Not the same thing.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c4",
+      "chapter": "CHAPTER FOUR\nTHE SIZE OF TEXAS",
+      "text": "When Itasca got no further contact, the United States launched one of the largest search operations in its history.",
+      "img": "uscolorado"
+    },
+    {
+      "id": "c4_2",
+      "text": "The battleship USS Colorado, on a training cruise near Hawaii, was diverted, and launched three scout floatplanes to search.",
+      "img": "uscolorado",
+      "video": "uscolorado_1.mp4",
+      "videoQuery": "US Navy scout floatplane catapult launch battleship 1930s newsreel",
+      "cap": "USS Colorado — diverted from a Hawaii training cruise.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c4_3",
+      "text": "Colorado's planes searched Winslow Reef, found nothing there at all, then flew over McKean Island — uninhabited, in the pilots' own words, except for, quote, myriads of birds.",
+      "img": "uscolorado",
+      "cap": "Winslow Reef: nothing. McKean Island: birds, and nothing else.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c4_4",
+      "text": "Then they flew over Gardner Island — the same island that line of position happens to pass through. The lead pilot, Lieutenant John Lambrecht, filed an official report.",
+      "img": "gardnerisland",
+      "query": "Nikumaroro Gardner Island aerial photograph",
+      "cap": "Gardner Island — the same island from that navigational line.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c4_5",
+      "text": "His report, on the record: signs of recent habitation were clearly visible, but repeated circling and zooming failed to elicit any answering wave. It was finally taken for granted that none was there.",
+      "img": "gardnerisland",
+      "cap": "Lt. John Lambrecht's official report, verbatim — a confirmed quote.",
+      "extraHold": 15,
+      "tone": "curiosity"
+    },
+    {
+      "id": "c4_6",
+      "text": "What that quote actually means for Earhart's fate is not something Lambrecht's report claims. That reading of it belongs to a theory we'll cover later in this episode. The quote itself is real. The meaning is not settled.",
+      "img": "gardnerisland",
+      "cap": "The quote: confirmed. Its significance: a theory, not a finding.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c4_7",
+      "text": "Colorado's planes also swept Hull, Sydney, Phoenix, Enderbury, Birnie and Canton Islands. Every one of them, negative.",
+      "img": "gardnerisland",
+      "cap": "Six more islands searched. All negative.",
+      "tone": "dread"
+    },
+    {
+      "id": "c4_8",
+      "text": "The aircraft carrier USS Lexington joined next, with sixty two planes aboard, sweeping over one hundred thousand square miles northwest of Howland in grid patterns two miles apart. Every single mission log from that search records some version of the same two words: nothing sighted.",
+      "img": "uslexington",
+      "video": "uslexington_1.mp4",
+      "videoQuery": "USS Lexington aircraft carrier 1930s launching planes newsreel",
+      "cap": "USS Lexington — 62 aircraft. \"Nothing sighted.\" Mission after mission.",
+      "tone": "dread"
+    },
+    {
+      "id": "c4_9",
+      "text": "The search was called off on July nineteenth, nineteen thirty seven. Sixteen days. About nine ships. Sixty six aircraft. Roughly four thousand people. Over four million dollars — close to eighty eight million today.",
+      "kinetic": { "count": 4000, "suffix": " searchers, 66 aircraft, 9 ships", "sub": "16 days · over $4 million spent · an area the size of Texas" },
+      "img": "uslexington",
+      "tone": "dread"
+    },
+    {
+      "id": "c4_10",
+      "text": "No wreckage. No oil slick. No debris of any kind, ever recovered. The Navy's official, contemporaneous conclusion: the Electra ran out of fuel, crashed, and sank.",
+      "img": "uslexington",
+      "cap": "\"Lost at sea, presumed crashed, no wreckage recovered.\"",
+      "extraHold": 10,
+      "tone": "dread"
+    },
+    {
+      "id": "c4_11",
+      "text": "That finding — lost at sea, no wreckage ever found — remains the United States government's official position to this day. No US agency has ever revised it.",
+      "img": "earhart_portrait",
+      "cap": "Still the official US position. Never revised.",
+      "tone": "dread"
+    },
+    {
+      "id": "c4_12",
+      "text": "One more official act followed, separately, eighteen months later. On January fifth, nineteen thirty nine, a Los Angeles County court granted Amelia Earhart's legal death declaration, at her husband George Putnam's request — granted unusually fast, which the judge himself called extraordinary.",
+      "img": "earhart_portrait",
+      "cap": "Jan 5, 1939 — a separate legal event. Granted early; called \"extraordinary.\"",
+      "extraHold": 10,
+      "tone": "melancholy"
+    },
+    {
+      "id": "c5",
+      "chapter": "CHAPTER FIVE\nTHE ISLAND THEORY",
+      "text": "For nearly ninety years, one theory has outlasted every other explanation for what happened next.",
+      "img": "gardnerisland"
+    },
+    {
+      "id": "c5_2",
+      "text": "It belongs to a research group called Tighar — the International Group for Historic Aircraft Recovery — and specifically to its founder and executive director, Ric Gillespie.",
+      "img": "gardnerisland",
+      "cap": "Ric Gillespie, TIGHAR — the theory's leading proponent.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c5_3",
+      "text": "Gillespie's theory: Earhart and Noonan didn't crash at sea at all. They flew that one five seven, three three seven line southeast, and landed on Gardner Island — today called Nikumaroro.",
+      "img": "gardnerisland",
+      "cap": "The Nikumaroro hypothesis — attributed to Gillespie and TIGHAR. Not an official finding.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c5_4",
+      "text": "Since nineteen eighty eight, Tighar has run around a dozen expeditions to that island, looking for proof.",
+      "img": "gardnerisland",
+      "cap": "~12 expeditions since 1988.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c5_5",
+      "dossier": true,
+      "img": "artifact_table",
+      "label": "TIGHAR ARTIFACTS",
+      "text": "What they've recovered: a fragment of aircraft-grade aluminum. Part of a nineteen thirties woman's shoe. A broken cosmetic jar, consistent with a popular freckle ointment of the era. A mirror compact. A pocketknife. An empty liquor bottle. A sextant box, since lost, with numbers stamped on it.",
+      "cap": "Illustrative — TIGHAR's own photographs of these items are not shown here.",
+      "extraHold": 10,
+      "tone": "curiosity"
+    },
+    {
+      "id": "c5_6",
+      "text": "Every single one of those items is described, carefully, as consistent with the era, or consistent with what Earhart or Noonan might have carried. Not one of them has ever been proven to be theirs.",
+      "img": "gardnerisland",
+      "cap": "\"Consistent with.\" Never \"proven to be.\"",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c5_7",
+      "text": "Remember Lieutenant Lambrecht's report, from that same island, in nineteen thirty seven — signs of recent habitation, but no one answering their wave? This is exactly the line Tighar points to.",
+      "img": "gardnerisland",
+      "cap": "TIGHAR's key evidentiary anchor: Lambrecht's 1937 report.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c5_8",
+      "text": "It's a real quote, from a real official report. Whether it actually describes castaways, rather than something else entirely, is Gillespie's interpretation — not a Navy finding.",
+      "img": "gardnerisland",
+      "cap": "A real quote. An unproven interpretation.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c6",
+      "chapter": "CHAPTER SIX\nTHIRTEEN BONES",
+      "text": "In nineteen forty, three years after the disappearance, something was actually found on that island.",
+      "img": "gardnerisland"
+    },
+    {
+      "id": "c6_2",
+      "text": "A British colonial officer named Gerald Gallagher discovered thirteen human bones near an old campfire site on Nikumaroro.",
+      "img": "gardnerisland",
+      "cap": "1940 — Gerald Gallagher finds 13 bones near a campfire site.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c6_3",
+      "text": "The bones were sent to Fiji for examination. A doctor named D. W. Hoodless studied them, and concluded they belonged to a stocky, middle-aged man. Not Amelia Earhart.",
+      "img": "gardnerisland",
+      "cap": "Dr. Hoodless, 1940-41: \"stocky, middle-aged male.\" Against Earhart.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c6_4",
+      "text": "Tighar rediscovered Hoodless's original report in the late nineteen nineties, and challenged his methods. In two thousand eighteen, a forensic anthropologist named Richard Jantz ran the same original measurements through modern software.",
+      "img": "gardnerisland",
+      "cap": "Richard Jantz, University of Tennessee — 2018 re-analysis.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c6_5",
+      "text": "His statistical conclusion: those measurements were more consistent with Earhart than with ninety nine percent of a large reference population. Peer-reviewed — but a probability, not an identification.",
+      "img": "gardnerisland",
+      "kinetic": { "count": 99, "suffix": "%", "sub": "Richard Jantz, 2018 — a statistical argument, not a proven ID" },
+      "tone": "curiosity"
+    },
+    {
+      "id": "c6_6",
+      "text": "A separate two thousand fifteen paper, by researchers named Cross and Wright, defended Hoodless's original nineteen forty finding as methodologically sound. The two studies genuinely disagree.",
+      "img": "gardnerisland",
+      "cap": "DISPUTED — a real scientific disagreement, not a settled question.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c6_7",
+      "text": "Here's the complication that will never go away. The bones themselves have been lost since the nineteen forties. No new physical test, no DNA — nothing — is possible anymore. It's a permanent argument over eighty-year-old measurements.",
+      "img": "gardnerisland",
+      "cap": "The bones are lost. The debate can never be re-tested.",
+      "extraHold": 10,
+      "tone": "dread"
+    },
+    {
+      "id": "c6_8",
+      "text": "In two thousand nineteen, National Geographic sent forensic anthropologist Erin Kimmerle to examine those same measurements again, and to attempt DNA testing against Earhart's own relatives.",
+      "img": "gardnerisland",
+      "cap": "Erin Kimmerle, University of South Florida — \"Expedition Amelia,\" 2019.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c6_9",
+      "text": "Her reconstructed skull was consistent with an adult female — matching, among other things, one of Earhart's known sinus features. But the DNA testing itself came back inconclusive. The samples were simply too degraded. Not a match. Not a non-match. Inconclusive.",
+      "img": "gardnerisland",
+      "cap": "DNA result: inconclusive. Not a negative. Not a match.",
+      "extraHold": 10,
+      "tone": "dread"
+    },
+    {
+      "id": "c7",
+      "chapter": "CHAPTER SEVEN\nWHAT WASN'T TRUE",
+      "text": "Not every theory about this case has survived scrutiny. Two of them collapsed completely.",
+      "img": "earhart_portrait"
+    },
+    {
+      "id": "c7_2",
+      "text": "The first: that Earhart and Noonan were captured by Japan, and held somewhere in the Pacific. It's circulated since the nineteen sixties, with no solid documentary evidence behind it.",
+      "img": "earhart_portrait",
+      "cap": "The Japanese-capture theory — circulating since the 1960s.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c7_3",
+      "text": "In July of twenty seventeen, the History Channel aired a photograph it said showed Earhart and Noonan in Japanese custody, on an atoll called Jaluit.",
+      "img": "earhart_portrait",
+      "cap": "2017 — History Channel's \"lost evidence\" photograph.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c7_4",
+      "text": "Within about a week, a Japanese blogger named Kota Yamano found the identical photograph — published in a Japanese travel book from nineteen thirty five. Two years before Earhart ever disappeared.",
+      "img": "earhart_portrait",
+      "cap": "Kota Yamano — found the same photo in a 1935 book. Debunked.",
+      "extraHold": 10,
+      "tone": "shock"
+    },
+    {
+      "id": "c7_5",
+      "text": "That specific photo is conclusively false. And no record since has ever produced credible evidence for the wider Japanese-capture theory either.",
+      "img": "earhart_portrait",
+      "cap": "Conclusively debunked. No credible evidence for the theory itself.",
+      "tone": "confidence"
+    },
+    {
+      "id": "c7_6",
+      "text": "The second collapsed theory is much more recent. In January of twenty twenty four, a company called Deep Sea Vision announced sonar imagery that looked like a twin-engine aircraft, on the Pacific floor.",
+      "img": "electra_exterior",
+      "cap": "January 2024 — Deep Sea Vision's sonar announcement.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c7_7",
+      "text": "It made headlines everywhere. Ten months later, the same team revisited the site, and identified the shape as a natural rock formation — not the Electra. The company's own CEO, Tony Romeo, later admitted, self-deprecatingly, that it probably wasn't the plane after all.",
+      "img": "electra_exterior",
+      "cap": "November 2024 — retracted. A rock formation, not the Electra.",
+      "extraHold": 8,
+      "tone": "dread"
+    },
+    {
+      "id": "c8",
+      "chapter": "CHAPTER EIGHT\nTHE FILES THEY JUST OPENED",
+      "text": "As recently as this decade, this case has kept generating fresh headlines.",
+      "img": "declassification_2025"
+    },
+    {
+      "id": "c8_2",
+      "text": "In September of twenty twenty five, the US government ordered the declassification of every Earhart-related government record still held back.",
+      "img": "declassification_2025",
+      "query": "National Archives building exterior Washington photograph",
+      "cap": "Sept 2025 — full declassification ordered.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c8_3",
+      "text": "The National Archives began releasing pages in waves — four thousand six hundred and twenty four pages that September, then thousands more across November, December, and January.",
+      "kinetic": { "count": 4624, "suffix": " pages, September 2025", "sub": "Rolling releases continued through Jan 2026 — real records, real page counts" },
+      "img": "declassification_2025",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c8_4",
+      "text": "What's actually in them: final radio transmissions, weather data, search records, internal Navy investigations — and some genuine period ephemera, like a self-described nineteen thirty seven, quote, telepath, claiming psychic knowledge of the crash.",
+      "img": "declassification_2025",
+      "cap": "Real records. Also: 1937 psychic claims, kept on file.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c8_5",
+      "text": "A television host named Ross Coulthart covered the release, framing the documents as challenging the official search's, quote, tunnel vision. That's real journalism, on a real release.",
+      "img": "declassification_2025",
+      "cap": "Ross Coulthart, NewsNation — real coverage of a real release.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c8_6",
+      "text": "But no outlet, anywhere, has reported an actual smoking-gun finding inside those documents. As of this recording, there isn't one.",
+      "img": "declassification_2025",
+      "cap": "No smoking gun reported. Not yet, anyway.",
+      "tone": "dread"
+    },
+    {
+      "id": "c8_7",
+      "text": "Then there's the Taraia Object — a shape on the floor of Nikumaroro's own lagoon, first spotted on satellite imagery back in twenty twenty, by a retired Navy veteran named Mike Ashmore.",
+      "img": "taraia_object",
+      "query": "Nikumaroro lagoon aerial satellite photograph",
+      "cap": "Mike Ashmore — spotted the anomaly in 2020 satellite imagery.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c8_8",
+      "text": "CNN gave it fresh attention in October of twenty twenty five. An organization called the Archaeological Legacy Institute, led by Richard Pettigrew, partnered with Purdue University to plan an expedition.",
+      "img": "purdue_campus",
+      "query": "Purdue University campus photograph",
+      "cap": "Richard Pettigrew, Archaeological Legacy Institute — with Purdue.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c8_9",
+      "text": "That expedition has already been postponed twice. As of this recording, it has not left port, and it has found nothing — because it hasn't gone yet.",
+      "img": "taraia_object",
+      "cap": "NOT departed. NO findings. As of Aug 2026.",
+      "tone": "dread"
+    },
+    {
+      "id": "c8_10",
+      "text": "Even Ric Gillespie — the man who's spent decades chasing the Nikumaroro theory — has publicly said he sees nothing there consistent with wreckage. His own guess: a downed coconut tree.",
+      "img": "taraia_object",
+      "cap": "Ric Gillespie's own read: \"probably a coconut tree.\"",
+      "extraHold": 10,
+      "tone": "curiosity"
+    },
+    {
+      "id": "c8_11",
+      "text": "One more thing worth saying plainly. A video went viral in January of twenty twenty six, claiming the mystery was finally solved. No primary source anywhere backs that claim up. As of this recording, the case remains officially unresolved.",
+      "img": "earhart_portrait",
+      "cap": "\"Mystery Solved\" video (Jan 2026): unverified clickbait. No corroboration.",
+      "extraHold": 12,
+      "tone": "dread"
+    },
+    {
+      "id": "coda1",
+      "text": "Take stock of everything this case actually has. A radio log with one loud, urgent, final transmission. A search the size of Texas that found nothing at all. A navigational line that happens to touch an island. Bones nobody can retest. And ninety years of theories, none of them proven.",
+      "img": "earhart_portrait",
+      "cap": "What we actually have. And what we still don't.",
+      "extraHold": 10,
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda2",
+      "text": "That combination — real evidence, genuinely inconclusive, sitting right next to a story people desperately want an ending for — is exactly why this case has never stopped generating headlines.",
+      "img": "earhart_portrait",
+      "cap": "Real evidence. No ending. That's the whole story.",
+      "motion": "slow",
+      "camera": "drift",
+      "tone": "melancholy"
+    },
+    {
+      "id": "cliff",
+      "text": "In October of twenty twenty six, another expedition returns to that same lagoon.",
+      "img": "taraia_object",
+      "cap": "October 2026. Another expedition returns to that lagoon.",
+      "extraHold": 10,
+      "sfx": [{ "name": "riser", "at": "in", "volume": 0.15 }],
+      "tone": "curiosity"
+    },
+    {
+      "id": "bridge",
+      "text": "If a story that ends in total silence unsettled you, wait until you see what really happened to Malaysia Airlines flight three seventy — a Boeing that vanished the exact same way, seventy seven years later, with radar data this time, and still no wreckage. That's our episode, M H three seventy, The Plane That Vanished From Earth, right here on this channel.",
+      "img": "electra_exterior",
+      "cap": "Next: MH370 — The Plane That Vanished From Earth.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "end",
+      "text": "Subscribe to Black Box Breakdown, for the investigations everyone else got wrong.",
+      "img": "electra_exterior"
+    }
+  ]
+}

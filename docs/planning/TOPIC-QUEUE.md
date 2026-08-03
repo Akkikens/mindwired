@@ -42,9 +42,15 @@ Work order: after `eastindia` (EIC Hindi long-form) ships.
    wreck-forensics, using the DossierScene/ExhibitScene real-document toolkit.
    No sensitivity-gate issues (114yo, closed inquiry, no living
    survivors/accused).
-3. **Amelia Earhart disappearance** — PASS, 3/3 recognition, riding a live Oct-2025
-   "plane possibly located in a lagoon" real news cycle (Top History 14:1 Jan 2026,
-   Nick Jackson 10.2:1 Jun 2026 — both fresh). Smaller ceiling (~14.9M) than #1/#2.
+3. ~~Amelia Earhart disappearance~~ — **NOW ⭐ NEXT for Black Box Breakdown,
+   re-validated live 2026-08-02** (memory `icahn-earhart`), winner of a 3-candidate
+   re-check (Earhart/Bermuda Triangle/Dyatlov Pass) once Chernobyl/Titanic/US1549/
+   JAL123/Helios522 all confirmed already shipped. PASS, 3/3 recognition, 553.6:1
+   headline (JosephLeroy Lodrige, 714K views/1,290 subs) + fresh Jan-2026
+   corroborator (Top History, 14:1) + ceiling BuzzFeed Unsolved 14.9M/Veritasium
+   14.8M (Nov 2024). Cleanest sensitivity of any Black Box candidate swept to
+   date — 1937, no living survivors/accused. See full entry in the Black Box
+   Breakdown section below.
 4. **Bermuda Triangle (honest/debunk framing only)** — PASS, arguably the highest
    raw name-recognition of all 8 swept, ceiling 32.2M (Bright Side). CAUTION: only
    viable as a rigorous real-data "the mystery is statistically nothing" treatment
@@ -55,12 +61,17 @@ Work order: after `eastindia` (EIC Hindi long-form) ships.
    ceiling proof, not a new small-channel outlier (346K subs is too big to count
    as fresh demand proof); the "why planes disappear" sub-angle has no
    independent breakout distinct from the topic overall, same pattern as the
-   mindwired "what if" phrasing finding. Queue position unchanged — still behind
-   Chernobyl/JAL123.
+   mindwired "what if" phrasing finding. **Re-checked live 2026-08-02**: still
+   clears raw Icahn (fresh headline YESTERDAY 15.3:1, 2026-03-06) but lost the
+   head-to-head against Earhart on ratio strength + a lighter sensitivity/framing
+   burden. Kept as the strongest alternate if Earhart's production stalls.
 5. **Dyatlov Pass incident** — PASS-WITH-CONDITIONS, 2/3 recognition (smaller
    mainstream footprint than 1-4); fresh 72:1 outlier (Nov 2025) but the sweep
    flagged an emerging broken-wave of near-zero-view copycats — early saturation
-   signal, don't sit on this one too long if pursuing it.
+   signal, don't sit on this one too long if pursuing it. **Re-checked live
+   2026-08-02: saturation got worse, not better** — a dozen-plus near-identical
+   "What Really Happened" uploads landed June-August 2026 alone at 0-65 views
+   each. Recognition still only 2/3. Lost to Earhart; deprioritize further.
 
 **FAILED validation 2026-07-26 (deprioritize — stale evidence + broken copycat
 wave on all three):** D.B. Cooper, Hindenburg disaster, MH17 shootdown. Re-check
@@ -123,7 +134,8 @@ Space~~ — **SHIPPED 2026-07-31.** 4K rendered, verified (641.4s, 3840×2160,
 invalidated outright, since the MindFold evidence gap could be a search-
 fluke, not a debunk.
 
-**⭐ NOW IN PRODUCTION (2026-07-31) — "Inside the $150 Billion Space
+**Shipped (SHIPPED — confirmed via GCE render log, `out/issinside_gce_launch.log`:
+mastered to -14.1 LUFS, VM auto-deleted after) — "Inside the $150 Billion Space
 Station" (ISS deep-dive), Icahn-validated PASS-WITH-CONDITIONS (memory
 `icahn-iss-inside`).** Akshay's direct pick. 3/3 recognition, the biggest
 ceiling of any topic swept to date (120.6M), stale-but-massive small-channel
@@ -136,20 +148,45 @@ archives), not a cheap compilation; $150B can appear in packaging but
 can't BE the hook.** Hard rule baked in: first 30 seconds = real video,
 never stills (memory `hook-first-30s-real-video`).
 
+**⭐ NEXT (IN PRODUCTION 2026-08-02) — Tunguska Event (1908), Icahn-validated
+2026-08-02 (memory `icahn-tunguska-event`), winner of a fresh 4-topic sweep
+(Antikythera Mechanism / Tunguska / Georgia Guidestones / Skinwalker Ranch) run
+after confirming Astronauts Scared, ISS deep-dive, Space Sounds, Mariana
+Trench, 8 Real Planets, Unsettling Aliens, and NASA UFO Files were all already
+shipped.** PASS: headline 100.5:1 (Meteorite Gallery, 181,876v/1,810subs,
+2022) + fresh corroborator Topaz 13.2:1 (152,769v/11,600subs, 2025-11-24) +
+ceiling The Why Files 4.3M / Watcher 4.0M (both 2023). **Recognition 2/3** —
+needs a bridge, lead with "the biggest explosion in recorded history had no
+crater and no meteorite," never the bare word "Tunguska." **Sensitivity:
+none** — 1908, no living parties, cause is settled mainstream science
+(atmospheric airburst), mystery hook is honestly about the visual
+absence-of-evidence, not a genuine unsolved-cause claim. Beat Antikythera
+Mechanism (huge ratio but every outlier is stale, none under 12mo — fails the
+"alive right now" test), Georgia Guidestones (stale headline + zero
+corroborators found, US-regional recognition skew), and Skinwalker Ranch
+(actually the strongest raw numbers of the four, but deliberately passed over:
+paranormal/UFO-adjacent framing needs the same heavy attributed-never-asserted
+burden as Bermuda Triangle, AND stacking a second UFO-adjacent long-form right
+after NASA UFO Files — shipped 2026-08-02, days ago — risks the same
+channel-diversity problem that promoted Astronauts Scared over a 3rd/4th
+astronaut video; kept as the strongest-numbers alternate). Real-footage path:
+1927 Kulik expedition photos, modern site-visit/drone footage of the still-
+visible blast pattern, real 1908 seismograph/barograph records — verify
+during footage-fetch before committing to a render.
+
 Make in this order. Ratios are point-in-time — recheck subs at production start.
 
-1. **The Scariest Real Sounds Ever Recorded in Space (ranked)** — DOUBLE-proven:
-   2.78M views / 20.7K subs = **134:1** (youtube.com/watch?v=dezjOSl0fuM, Darkness
-   Beyond — whole channel repeats this one format) + 1.65M / 175K = 9.4:1
-   (watch?v=8qqz1ejh3lI). NASA sonifications/plasma-wave/mission audio are PD →
-   Evidence Engine, real audio featured AT LENGTH (the standing preference).
-   ~15 sounds ranked, each = one dedicated scene + honest source label.
-2. **Mariana Trench descent — "The Place on Earth Scarier Than Space"** — biggest
-   ratios of the whole sweep: 2.35M / 5.4K = **~432:1** (watch?v=a1Dy-1RDTmA) AND
-   2.33M / 13.7K = ~170:1 (watch?v=NKBkBM4WWaQ), both <15K-sub faceless channels,
-   both within the last 7 months. NOAA expedition footage is US-gov PD. Depth-
-   descent ranked structure. Lane note: package as "scarier than space" so the
-   space audience carries it (sub-first cold start).
+1. ~~The Scariest Real Sounds Ever Recorded in Space (ranked)~~ — **ALREADY
+   SHIPPED 2026-07-18** (live: https://www.youtube.com/watch?v=0SY4p2lS0EI).
+   Do NOT rebuild. DOUBLE-proven at validation: 2.78M views / 20.7K subs =
+   **134:1** (youtube.com/watch?v=dezjOSl0fuM, Darkness Beyond) + 1.65M / 175K
+   = 9.4:1 (watch?v=8qqz1ejh3lI).
+2. ~~Mariana Trench descent — "The Place on Earth Scarier Than Space"~~ —
+   **ALREADY SHIPPED** (confirmed via METADATA-mariana.md + Root.tsx
+   `MarianaDoc` comp registration; DimaagBatti Hindi version + Shorts also
+   built). Do NOT rebuild. Biggest ratios of the whole sweep at validation:
+   2.35M / 5.4K = **~432:1** (watch?v=a1Dy-1RDTmA) AND 2.33M / 13.7K = ~170:1
+   (watch?v=NKBkBM4WWaQ).
 3. ~~8 Real Planets So Hostile They Shouldn't Exist~~ — **ALREADY SHIPPED
    2026-07-26** ("8 Real Planets So Hostile They Shouldn't Exist (Ranked)",
    live on YouTube). Do NOT rebuild or re-render — a 2026-07-30 session
@@ -226,8 +263,33 @@ Cross-channel remakes are now ~TTS-cost-only (see src/mindwired-doc/README.md).
 
 ## Black Box Breakdown (disaster forensics — @Watch-BlackBox)
 
-**⭐ NEXT — US Airways 1549 "Miracle on the Hudson" (2009), Icahn-validated
-2026-08-01 (memory `icahn-us1549`), winner of a live 4-topic real-audio sweep
+**⭐ NEXT (IN PRODUCTION 2026-08-02) — Amelia Earhart disappearance (1937),
+Icahn-validated 2026-08-02 (memory `icahn-earhart`), winner of a live 3-topic
+re-check (Earhart / Bermuda Triangle / Dyatlov Pass Incident) run after
+confirming every other queued Black Box candidate (US1549, JAL123, Helios522,
+Chernobyl, AI171, MH370 x3, 737 MAX, Colgan 3407, AF447, United 93, Concorde,
+Tenerife, Titanic) was already shipped or fully rendered.** PASS: headline
+553.6:1 (JosephLeroy Lodrige, 714,194v/1,290subs, 2017) + fresh corroborator
+Top History 14:1 (429,628v/30,700subs, 2026-01-01, proves demand is alive
+right now) + ceiling BuzzFeed Unsolved 14.9M / Veritasium 14.8M (2024-11-20).
+**Recognition 3/3** — the only candidate of the three to clear cold-scroller
+name recognition cleanly. **Sensitivity: clean** — 1937, no living
+survivors/accused, purely an unresolved mystery (no confirmed wreckage/remains
+after ~90 years); every survival/capture theory stays attributed-never-asserted.
+Differentiation: real evidentiary reconstruction (Itasca radio logs, TIGHAR's
+Nikumaroro forensic findings, the actual search records) in the channel's
+established minute-by-minute style — a natural sister topic to MH370 (the
+channel's best video), not a generic theories roundup. Beat Bermuda Triangle
+(weaker ratio + heavier honest-debunk-only framing constraint) and Dyatlov Pass
+(recognition only 2/3, worsening copycat saturation). Real-footage check
+(period newsreel/search footage, Earhart/Electra/Itasca photographs via
+Archive.org/NARA/Purdue's Earhart archive) still needs verifying during
+footage-fetch before committing to a render.
+
+**Shipped 2026-08-01 (SHIPPED — confirmed via GCE render log,
+`out/us1549_gce_launch.log`: mastered to -14.8 LUFS, VM auto-deleted after) —
+US Airways 1549 "Miracle on the Hudson" (2009), Icahn-validated 2026-08-01
+(memory `icahn-us1549`), winner of a live 4-topic real-audio sweep
 (US1549 / United 232 Sioux City / Alaska 261 / Asiana 214), explicitly aimed at
 beating the channel's current best (MH370: 399.5K impressions, 5% CTR, 37.3%
 AVD, 29K views).** PASS-WITH-CONDITIONS: by far the strongest raw signal of
@@ -268,7 +330,8 @@ finding — heavier attribute-never-assert burden, keep as backup).
 FAILED this sweep (stale evidence/saturated waves, deprioritize): Alaska 261,
 ValuJet 592, American 191, Turkish 981.
 
-**⭐ NEXT — Helios Airways 522 (2005, "Ghost Plane"), Icahn-validated
+**Shipped (SHIPPED — `HELIOS522-HANDOFF.md` confirms 4K render done, verified,
+upload-ready copy at repo root) — Helios Airways 522 (2005, "Ghost Plane"), Icahn-validated
 2026-07-31 (memory `icahn-helios522`), winner of a live re-check across TWA
 800 / Swissair 111 / Helios 522.** PASS: strongest raw headline of the three
 (837.7:1, hkwilliac) AND the only one with a genuine FRESH corroborator
