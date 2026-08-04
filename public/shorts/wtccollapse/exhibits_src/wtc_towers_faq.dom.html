@@ -1,0 +1,1255 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# " class="js" data-once="drupal-dialog-deprecation-listener nistResponsiveTablesWindowEvents webform-dialog"><head>
+    <meta charset="utf-8"><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-CSLL4ZEK4L&amp;cx=c&amp;gtm=4e67u0"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-HEQ0YF2VYL&amp;cx=c&amp;gtm=4e67u0"></script><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]},feature_flags:["soft_nav"]};(window.NREUM||(NREUM={})).loader_config={licenseKey:"37b7ccb661",applicationID:"1089704227",browserID:"1134161994"};;/*! For license information please see nr-loader-rum-1.319.0.min.js.LICENSE.txt */
+(()=>{var e={8122(e,t,r){"use strict";r.d(t,{a:()=>i});var n=r(944);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.R)(3);if(!t||"object"!=typeof t)return(0,n.R)(4);const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),s=0===Object.keys(r).length?e:r;for(let o in s)if(void 0!==e[o])try{if(null===e[o]){r[o]=null;continue}Array.isArray(e[o])&&Array.isArray(t[o])?r[o]=Array.from(new Set([...e[o],...t[o]])):e[o]instanceof Map||e[o]instanceof Set||e[o]instanceof Date||e[o]instanceof RegExp?r[o]=e[o]:"object"==typeof e[o]&&null!==t[o]&&"object"==typeof t[o]?r[o]=i(e[o],t[o]):r[o]=e[o]}catch(e){r[o]||(0,n.R)(1,e)}return r}catch(e){(0,n.R)(2,e)}}},2555(e,t,r){"use strict";r.d(t,{f:()=>o});var n=r(384),i=r(8122);const s={beacon:n.NT.beacon,errorBeacon:n.NT.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0};function o(e){try{return!!e.licenseKey&&!!e.errorBeacon&&!!e.applicationID}catch(e){return!1}}r.d(t,["D",0,e=>(0,i.a)(e,s)])},7699(e,t,r){"use strict";var n=r(860);const i={[n.K7.logging]:!0,[n.K7.genericEvents]:!0,[n.K7.jserrors]:!0,[n.K7.ajax]:!0};r.d(t,["It",0,1e6,"KC",0,i,"qh",0,"SESSION_ERROR"])},9324(e,t,r){"use strict";r.d(t,["xv",0,"1.319.0"])},981(e,t,r){"use strict";r.d(t,["R",0,{AJAX:"AjaxRequest",PA:"PageAction",UA:"UserAction",BP:"BrowserPerformance",WS:"WebSocket",SPV:"SecurityPolicyViolation",JSE:"JavaScriptError",LOG:"Log",PVE:"PageView",PVT:"PageViewTiming",SR:"SessionReplay",ST:"SessionTrace",BI:"BrowserInteraction"}])},6154(e,t,r){"use strict";var n=r(1863);const i="undefined"!=typeof window&&!!window.document,s="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),o=i?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),a=Boolean("hidden"===o?.document?.visibilityState),c=""+o?.location,u=/iPad|iPhone|iPod/.test(o.navigator?.userAgent),d=u&&"undefined"==typeof SharedWorker,l=((()=>{const e=o.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Date.now()-(0,n.t)());r.d(t,["OF",0,u,"RI",0,i,"WN",0,l,"bv",0,s,"gm",0,o,"m",0,c,"mw",0,a,"sb",0,d,"zk",0,()=>{const e=o?.performance?.getEntriesByType?.("navigation")?.[0];if(e&&e.responseStart>0&&e.responseStart<o.performance.now())return e}])},3241(e,t,r){"use strict";r.d(t,{W:()=>i});var n=r(6154);function i(e={}){try{n.gm.dispatchEvent(new CustomEvent("newrelic",{detail:e}))}catch(e){}}},1687(e,t,r){"use strict";r.d(t,{Ak:()=>a,Ze:()=>u,x3:()=>c});var n=r(3241),i=r(3606),s=r(860),o=r(2646);function a(e,t){if(!e)return;const r={staged:!1,priority:s.P3[t]||0};e.runtime.drainRegistry.get(t)||e.runtime.drainRegistry.set(t,r)}function c(e,t){if(!e)return;const r=e.runtime.drainRegistry;r&&(r.get(t)&&r.delete(t),l(e,t,!1),r.size&&d(e))}function u(e,t="feature",r=!1){if(e){if(!e.runtime.drainRegistry.get(t)||r)return l(e,t);e.runtime.drainRegistry.get(t).staged=!0,d(e)}}function d(e){if(!e)return;const t=Array.from(e.runtime.drainRegistry);t.every(([e,t])=>t.staged)&&(t.sort((e,t)=>e[1].priority-t[1].priority),t.forEach(([t])=>{e.runtime.drainRegistry.delete(t),l(e,t)}))}function l(e,t,r=!0){if(!e)return;const s=e.ee,a=i.i.handlers;if(s&&!s.aborted&&s.backlog&&a){if((0,n.W)({type:"lifecycle",name:"drain",feature:t}),r){const e=s.backlog[t],r=a[t];if(r){for(let t=0;e&&t<e.length;++t)f(e[t],r);Object.entries(r).forEach(([e,t])=>{Object.values(t||{}).forEach(t=>{t[0]?.on&&t[0].context()instanceof o.y&&!t[0].listeners(e).includes(t[1])&&t[0].on(e,t[1])})})}}s.isolatedBacklog||delete a[t],s.backlog[t]=null,s.emit("drain-"+t,[])}}function f(e,t){var r=e[1];Object.values(t[r]||{}).forEach(t=>{var r=e[0];if(t[0]===r){var n=t[1],i=e[3],s=e[2];n.apply(i,s)}})}},7836(e,t,r){"use strict";var n=r(384),i=r(8990),s=r(2646),o=r(5607);const a="nr@context:".concat(o.W),c=function e(t,r){var n={},o={},d={},l=!1;try{l=16===r.length&&u.initializedAgents?.[r]?.runtime.isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,s){!1!==s&&(s=!0);if(c.aborted&&!i)return;t&&s&&t.emit(e,r,n);var a=g(n);m(e).forEach(e=>{e.apply(a,r)});var u=v()[o[e]];u&&u.push([f,e,r,a]);return a},get:h,listeners:m,context:g,buffer:function(e,t){const r=v();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach(([e,n])=>{o[n]=t,t in r||(r[t]=[])})},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach(e=>{delete f.backlog[e]})},isBuffering:function(e){return!!v()[o[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function g(e){return e&&e instanceof s.y?e:e?(0,i.I)(e,a,()=>new s.y(a)):new s.y(a)}function p(e,t){n[e]=m(e).concat(t)}function m(e){return n[e]||[]}function h(t){return d[t]=d[t]||e(f,t)}function v(){return f.backlog}}(void 0,"globalEE"),u=(0,n.Zm)();u.ee||(u.ee=c),r.d(t,["P",0,a,"ee",0,c])},2646(e,t,r){"use strict";r.d(t,{y:()=>n});class n{constructor(e){this.contextId=e}}},9908(e,t,r){"use strict";r.d(t,{d:()=>n,p:()=>i});var n=r(7836).ee.get("handle");function i(e,t,r,i,s){s?(s.buffer([e],i),s.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},3606(e,t,r){"use strict";r.d(t,{i:()=>s});var n=r(9908);s.on=o;var i=s.handlers={};function s(e,t,r,s){o(s||n.d,i,e,t,r)}function o(e,t,r,i,s){s||(s="feature"),e||(e=n.d);var o=t[s]=t[s]||{};(o[r]=o[r]||[]).push([e,i])}},3878(e,t,r){"use strict";function n(e,t){return{capture:e,passive:!1,signal:t}}function i(e,t,r=!1,i){window.addEventListener(e,t,n(r,i))}function s(e,t,r=!1,i){document.addEventListener(e,t,n(r,i))}r.d(t,{DD:()=>s,jT:()=>n,sp:()=>i})},5607(e,t,r){"use strict";const n=(0,r(9566).bz)();r.d(t,["W",0,n])},9566(e,t,r){"use strict";r.d(t,{LA:()=>o,bz:()=>s});var n=r(6154);function i(e,t){return e?15&e[t]:16*Math.random()|0}function s(){const e=n.gm?.crypto||n.gm?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".split("").map(e=>"x"===e?i(t,r++).toString(16):"y"===e?(3&i()|8).toString(16):e).join("")}function o(e){const t=n.gm?.crypto||n.gm?.msCrypto;let r,s=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const o=[];for(var a=0;a<e;a++)o.push(i(r,s++).toString(16));return o.join("")}},2614(e,t,r){"use strict";r.d(t,["BB",0,18e5,"Wt",0,"NRBA_SESSION::","iL",0,{SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},"tS",0,{STARTED:"session-started",PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},"wk",0,144e5])},1863(e,t,r){"use strict";function n(){return Math.floor(performance.now())}r.d(t,{t:()=>n})},944(e,t,r){"use strict";r.d(t,{R:()=>i});var n=r(3241);function i(e,t){"function"==typeof console.debug&&(console.debug("New Relic Warning: https://github.com/newrelic/newrelic-browser-agent/blob/main/docs/warning-codes.md#".concat(e),t),(0,n.W)({drained:null,type:"data",name:"warn",feature:"warn",data:{code:e,secondary:t}}))}},8990(e,t,r){"use strict";r.d(t,{I:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},6389(e,t,r){"use strict";function n(e,t=500,r={}){const n=r?.leading||!1;let i;return(...r)=>{n&&void 0===i&&(e.apply(this,r),i=setTimeout(()=>{i=clearTimeout(i)},t)),n||(clearTimeout(i),i=setTimeout(()=>{e.apply(this,r)},t))}}function i(e){let t=!1;return(...r)=>{t||(t=!0,e.apply(this,r))}}r.d(t,{J:()=>i,s:()=>n})},1910(e,t,r){"use strict";r.d(t,{i:()=>s});var n=r(944);const i=new Map;function s(...e){return e.every(e=>{if(i.has(e))return i.get(e);const t="function"==typeof e?e.toString():"",r=t.includes("[native code]"),s=t.includes("nrWrapper");return r||s||(0,n.R)(64,e?.name||t),i.set(e,r),r})}},5289(e,t,r){"use strict";r.d(t,{GG:()=>o,Qr:()=>c,sB:()=>a});var n=r(3878),i=r(6389);function s(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(s())return e();const r=(0,i.J)(e),o=setInterval(()=>{s()&&(clearInterval(o),r())},500);(0,n.sp)("load",r,t)}function a(e){if(s())return e();(0,n.DD)("DOMContentLoaded",e)}function c(e){if(s())return e();(0,n.sp)("popstate",e)}},384(e,t,r){"use strict";r.d(t,{Zm:()=>c,bQ:()=>d,dV:()=>u,pV:()=>l});var n=r(6154),i=r(1863),s=r(944),o=r(1910);const a={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function c(){return n.gm.NREUM||(n.gm.NREUM={}),void 0===n.gm.newrelic&&(n.gm.newrelic=n.gm.NREUM),n.gm.NREUM}function u(){let e=c();return e.o||(e.o={ST:n.gm.setTimeout,SI:n.gm.setImmediate||n.gm.setInterval,CT:n.gm.clearTimeout,XHR:n.gm.XMLHttpRequest,REQ:n.gm.Request,EV:n.gm.Event,PR:n.gm.Promise,MO:n.gm.MutationObserver,FETCH:n.gm.fetch,WS:n.gm.WebSocket},(0,o.i)(...Object.values(e.o))),e}function d(e,t){let r=c();r.initializedAgents??={},t.initializedAt={ms:(0,i.t)(),date:new Date},r.initializedAgents[e]=t,2===Object.keys(r.initializedAgents).length&&(0,s.R)(69)}function l(){return function(){let e=c();const t=e.info||{};e.info={beacon:a.beacon,errorBeacon:a.errorBeacon,...t}}(),function(){let e=c();const t=e.init||{};e.init={...t}}(),u(),function(){let e=c();const t=e.loader_config||{};e.loader_config={...t}}(),c()}r.d(t,["NT",0,a])},2843(e,t,r){"use strict";r.d(t,{G:()=>s,u:()=>i});var n=r(3878);function i(e,t=!1,r,i){(0,n.DD)("visibilitychange",function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)},r,i)}function s(e,t,r){(0,n.sp)("pagehide",e,t,r)}},3969(e,t,r){"use strict";const n=r(860).K7.metrics;r.d(t,["TZ",0,n,"XG",0,"storeEventMetrics","xV",0,"storeSupportabilityMetrics"])},6630(e,t,r){"use strict";const n=r(860).K7.pageViewEvent;r.d(t,["T",0,n])},782(e,t,r){"use strict";const n=r(860).K7.pageViewTiming;r.d(t,["T",0,n])},4234(e,t,r){"use strict";r.d(t,{W:()=>i});var n=r(1687);class i{constructor(e,t){this.agentRef=e,this.ee=e?.ee,this.featureName=t,this.blocked=!1}deregisterDrain(){(0,n.x3)(this.agentRef,this.featureName)}}},7767(e,t,r){"use strict";var n=r(6154);r.d(t,["V",0,e=>n.RI&&!0===e?.privacy.cookies_enabled])},8362(e,t,r){"use strict";r.d(t,{d:()=>s});var n=r(9566),i=r(1741);class s extends i.W{agentIdentifier=(0,n.LA)(16)}},1741(e,t,r){"use strict";r.d(t,{W:()=>s});var n=r(944),i=r(4261);class s{#e(e,...t){if(this[e]!==s.prototype[e])return this[e](...t);(0,n.R)(35,e)}addPageAction(e,t){return this.#e(i.hG,e,t)}register(e){return this.#e(i.eY,e)}recordCustomEvent(e,t){return this.#e(i.fF,e,t)}setPageViewName(e,t){return this.#e(i.Fw,e,t)}setCustomAttribute(e,t,r){return this.#e(i.cD,e,t,r)}noticeError(e,t){return this.#e(i.o5,e,t)}setUserId(e,t=!1){return this.#e(i.Dl,e,t)}setApplicationVersion(e){return this.#e(i.nb,e)}setErrorHandler(e){return this.#e(i.bt,e)}addRelease(e,t){return this.#e(i.k6,e,t)}log(e,t){return this.#e("log",e,t)}start(){return this.#e("start")}finished(e){return this.#e(i.BL,e)}recordReplay(){return this.#e(i.CH)}pauseReplay(){return this.#e(i.Tb)}addToTrace(e){return this.#e(i.U2,e)}setCurrentRouteName(e){return this.#e(i.PA,e)}interaction(e){return this.#e(i.dT,e)}wrapLogger(e,t,r){return this.#e(i.Wb,e,t,r)}measure(e,t){return this.#e(i.V1,e,t)}consent(e){return this.#e(i.Pv,e)}}},4261(e,t,r){"use strict";r.d(t,["BL",0,"finished","CH",0,"recordReplay","Dl",0,"setUserId","Fw",0,"setPageViewName","PA",0,"setCurrentRouteName","Pv",0,"consent","Tb",0,"pauseReplay","U2",0,"addToTrace","V1",0,"measure","Wb",0,"wrapLogger","bt",0,"setErrorHandler","cD",0,"setCustomAttribute","dT",0,"interaction","eY",0,"register","fF",0,"recordCustomEvent","hG",0,"addPageAction","k6",0,"addRelease","nb",0,"setApplicationVersion","o5",0,"noticeError"])},1738(e,t,r){"use strict";r.d(t,{U:()=>l,Y:()=>d});var n=r(3241),i=r(9908),s=r(1863),o=r(944),a=r(3969),c=r(8362),u=r(860);function d(e,t,r,s){const d=s||r;!d||d[e]&&d[e]!==c.d.prototype[e]||(d[e]=function(){(0,i.p)(a.xV,["API/"+e+"/called"],void 0,u.K7.metrics,r.ee),(0,n.W)({drained:!!r.runtime?.activatedFeatures,type:"data",name:"api",feature:"api-"+e,data:{}});try{return t.apply(this,arguments)}catch(e){(0,o.R)(23,e)}})}function l(e,t,r,n,o){const a=e.info;null===r?delete a.jsAttributes[t]:a.jsAttributes[t]=r,(o||null===r)&&(0,i.p)("api-"+n,[(0,s.t)(),t,r],void 0,"session",e.ee)}},8374(e,t,r){r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},860(e,t,r){"use strict";const n="events",i="jserrors",s="browser/blobs",o="browser/logs",a={ajax:"ajax",genericEvents:"generic_events",jserrors:i,logging:"logging",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations"},c={[a.pageViewEvent]:1,[a.pageViewTiming]:2,[a.metrics]:3,[a.jserrors]:4,[a.softNav]:5,[a.ajax]:6,[a.sessionTrace]:7,[a.sessionReplay]:8,[a.logging]:9,[a.genericEvents]:10},u={[a.pageViewEvent]:"rum",[a.pageViewTiming]:n,[a.ajax]:n,[a.softNav]:n,[a.metrics]:i,[a.jserrors]:i,[a.sessionTrace]:s,[a.sessionReplay]:s,[a.logging]:o,[a.genericEvents]:"ins"};r.d(t,["$J",0,u,"K7",0,a,"P3",0,c,"XX",0,i,"Yy",0,o,"df",0,s])}};const t={};function r(n){const i=t[n];if(void 0!==i)return i.exports;const s=t[n]={exports:{}};return e[n](s,s.exports,r),s.exports}r.m=e,r.d=(e,t)=>{if(Array.isArray(t))for(var n=0;n<t.length;){var i=t[n++],s=t[n++];r.o(e,i)?0===s&&n++:0===s?Object.defineProperty(e,i,{enumerable:!0,value:t[n++]}):Object.defineProperty(e,i,{enumerable:!0,get:s})}else for(var i in t)r.o(t,i)&&!r.o(e,i)&&Object.defineProperty(e,i,{enumerable:!0,get:t[i]})},r.f={},r.e=e=>Promise.all(Object.keys(r.f).reduce((t,n)=>(r.f[n](e,t),t),[])),r.u=e=>"nr-rum-1.319.0.min.js",r.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),(()=>{const e={},t="NRBA-1.319.0.PROD:";r.l=(n,i,s,o)=>{if(e[n])return void e[n].push(i);let a,c;if(void 0!==s){const e=document.getElementsByTagName("script");for(var u=0;u<e.length;u++){const r=e[u];if(r.getAttribute("src")==n||r.getAttribute("data-webpack")==t+s){a=r;break}}}if(!a){c=!0;var d={296:"sha512-AjMYlPlHGtonfj4LWnnP4dVoLRowrBrm4lRfeuRr88daClWRPCh62aASF1JsR277iWOhlLcoggRr9BulWGKOyQ=="};a=document.createElement("script"),a.charset="utf-8",r.nc&&a.setAttribute("nonce",r.nc),a.setAttribute("data-webpack",t+s),a.src=n,0!==a.src.indexOf(window.location.origin+"/")&&(a.crossOrigin="anonymous"),d[o]&&(a.integrity=d[o])}e[n]=[i];const l=(t,r)=>{a.onerror=a.onload=null,clearTimeout(f);const i=e[n];if(delete e[n],a.parentNode?.removeChild(a),i?.forEach(e=>e(r)),t)return t(r)},f=setTimeout(l.bind(null,void 0,{type:"timeout",target:a}),12e4);a.onerror=l.bind(null,a.onerror),a.onload=l.bind(null,a.onload),c&&document.head.appendChild(a)}})(),r.r=e=>{Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},r.p="https://js-agent.newrelic.com/",(()=>{const e={374:0,840:0};r.f.j=(t,n)=>{let i=r.o(e,t)?e[t]:void 0;if(0!==i)if(i)n.push(i[2]);else{const s=new Promise((r,n)=>i=e[t]=[r,n]);n.push(i[2]=s);const o=r.p+r.u(t),a=new Error,c=n=>{if(r.o(e,t)&&(i=e[t],0!==i&&(e[t]=void 0),i)){const e=n&&("load"===n.type?"missing":n.type),r=n&&n.target&&n.target.src;a.message="Loading chunk "+t+" failed: ("+e+": "+r+")",a.name="ChunkLoadError",a.type=e,a.request=r,i[1](a)}};r.l(o,c,"chunk-"+t,t)}};const t=(t,n)=>{let[i,s,o]=n;var a,c,u=0;if(i.some(t=>0!==e[t])){for(a in s)r.o(s,a)&&(r.m[a]=s[a]);if(o)o(r)}for(t&&t(n);u<i.length;u++)c=i[u],r.o(e,c)&&e[c]&&e[c][0](),e[c]=0},n=self["webpackChunk:NRBA-1.319.0.PROD"]=self["webpackChunk:NRBA-1.319.0.PROD"]||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})(),(()=>{"use strict";r(8374);var e=r(8362),t=r(860);const n=Object.values(t.K7);var i=r(384),s=r(1741);var o=r(2555),a=r(981);t.K7.genericEvents,a.R.PA,a.R.UA,a.R.BP;const c="experimental.resources",u="register",d=(t.K7.ajax,"none"),l=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var f=r(2614),g=r(944),p=r(8122);const m="[data-nr-mask]",h=e=>(0,p.a)(e,(()=>{const e={feature_flags:[],experimental:{register:!1,resources:!1},mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{ajax:{deny_list:void 0,block_internal:!0,enabled:!0,autoStart:!0,capture_payloads:d},api:{register:{get enabled(){return e.feature_flags.includes(u)||e.experimental.register},set enabled(t){e.experimental.register=t},duplicate_data_to_container:!1}},browser_consent_mode:{enabled:!1},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},get feature_flags(){return e.feature_flags},set feature_flags(t){e.feature_flags=t},generic_events:{enabled:!0,autoStart:!0},harvest:{interval:30},jserrors:{enabled:!0,autoStart:!0},logging:{enabled:!0,autoStart:!0},metrics:{enabled:!0,autoStart:!0},obfuscate:void 0,page_action:{enabled:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,autoStart:!0},performance:{capture_marks:!1,capture_measures:!1,capture_detail:!0,resources:{get enabled(){return e.feature_flags.includes(c)||e.experimental.resources},set enabled(t){e.experimental.resources=t},asset_types:[],first_party_domains:[],ignore_newrelic:!0}},privacy:{cookies_enabled:!0},proxy:{assets:void 0,beacon:void 0},session:{expiresMs:f.wk,inactiveMs:f.BB},session_replay:{autoStart:!0,enabled:!1,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,fix_stylesheets:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){l(t)?e.mask_selector="".concat(t,",").concat(m):""===t||null===t?e.mask_selector=m:(0,g.R)(5,t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){l(t)?e.block_selector+=",".concat(t):""!==t&&(0,g.R)(6,t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,g.R)(7,t)}},session_trace:{enabled:!0,autoStart:!0},soft_navigations:{enabled:!0,autoStart:!0},ssl:void 0,user_actions:{enabled:!0,elementAttributes:["id","className","tagName","type"]},web_sockets:{enabled:!1}}})());var v=r(6154),b=r(9324);let y=0;const _={buildEnv:"PROD",distMethod:"CDN",version:b.xv,originTime:v.WN},w={consented:!1},R={activatedFeatures:void 0,appMetadata:{},configured:!1,get consented(){return this.session?.state?.consent||w.consented},set consented(e){w.consented=e},customTransaction:void 0,denyList:[],disabled:!1,drainRegistry:new Map,harvester:void 0,isolatedBacklog:!1,isRecording:!1,loaderType:void 0,maxBytes:3e4,obfuscator:void 0,onerror:void 0,ptid:void 0,releaseIds:{},session:void 0,timeKeeper:void 0,registeredEntities:[],jsAttributesMetadata:{bytes:0},get harvestCount(){return++y}};var x=r(7836),A=r(3241);const k={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0};function S(e,t={},n,a){let{init:c,info:u,loader_config:d,runtime:l={},exposed:f=!0}=t;if(!u){const e=(0,i.pV)();c=e.init,u=e.info,d=e.loader_config}var g;e.init=h(c||{}),e.loader_config=(g=d||{},(0,p.a)(g,k)),u.jsAttributes??={},v.bv&&(u.jsAttributes.isWorker=!0),e.info=(0,o.D)(u);const m=e.init;e.runtime??=(e=>{const t=(0,p.a)(e,R),r=Object.keys(_).reduce((e,t)=>(e[t]={value:_[t],writable:!1,configurable:!0,enumerable:!0},e),{});return Object.defineProperties(t,r)})(l),m.proxy.assets&&(e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e})(m.proxy.assets),e.runtime.configured||(Object.defineProperty(e,"beacons",{get:()=>[e.info.beacon,e.info.errorBeacon,e.init.proxy.assets,e.init.proxy.beacon].filter(Boolean)}),Object.defineProperty(e.runtime,"denyList",{get:()=>[...e.init.ajax.deny_list||[],...e.init.ajax.block_internal?e.beacons:[]]}),e.runtime.ptid=e.agentIdentifier,function(e){const t=(0,i.pV)();Object.getOwnPropertyNames(s.W.prototype).forEach(r=>{const n=s.W.prototype[r];if("function"!=typeof n||"constructor"===n)return;let i=t[r];e[r]&&!1!==e.exposed&&"micro-agent"!==e.runtime?.loaderType&&(t[r]=(...t)=>{const n=e[r](...t);return i?i(...t):n})})}(e),e.runtime.loaderType=n,e.ee=x.ee.get(e.agentIdentifier),e.exposed=f,(0,A.W)({drained:!!e.runtime.activatedFeatures,type:"lifecycle",name:"initialize",feature:void 0,data:e.config}),e.runtime.configured=!0)}var T=r(9908),E=r(1863),j=r(4261),P=r(1738);var N=r(1687),O=r(4234),M=r(5289),I=r(7767);function V(e){return!!(0,i.dV)().o.MO&&(0,I.V)(e)&&!0===e?.session_trace.enabled}var D=r(6389),W=r(7699);const B=new WeakSet;class K extends O.W{constructor(e,t){super(e,t),this.abortHandler=void 0,this.featAggregate=void 0,this.loadedSuccessfully=void 0,this.onAggregateImported=new Promise(e=>{this.loadedSuccessfully=e}),this.deferred=Promise.resolve(),!1===e.init[this.featureName].autoStart?this.deferred=new Promise((t,r)=>{this.ee.on("manual-start-all",(0,D.J)(()=>{(0,N.Ak)(e,this.featureName),t()}))}):(0,N.Ak)(e,t)}importAggregator(e,t,n={}){if(this.featAggregate)return;const i=async()=>{if(await this.deferred,this.#t(e),!(0,o.f)(e.info))return(0,g.R)(43),e.ee.abort(),void this.loadedSuccessfully(!1);let i;try{if((0,I.V)(e.init)){const{setupAgentSession:t}=await r.e(296).then(r.bind(r,8391));i=t(e)}}catch(e){(0,g.R)(20,e),this.ee.emit("internal-error",[e]),(0,T.p)(W.qh,[e],void 0,this.featureName,this.ee)}try{if(!this.#r(this.featureName,i,e.init))return(0,N.Ze)(this.agentRef,this.featureName),void this.loadedSuccessfully(!1);const{Aggregate:r}=await t();this.featAggregate=new r(e,n),e.runtime.harvester.initializedAggregates.push(this.featAggregate),this.loadedSuccessfully(!0)}catch(e){(0,g.R)(34,e),this.abortHandler?.(),(0,N.Ze)(this.agentRef,this.featureName,!0),this.loadedSuccessfully(!1),this.ee&&this.ee.abort()}};v.RI?(0,M.GG)(()=>i(),!0):i()}#r(e,r,n){if(this.blocked)return!1;switch(e){case t.K7.sessionReplay:return V(n)&&!!r;case t.K7.sessionTrace:return!!r;default:return!0}}#t(e){if(!B.has(e)&&(B.add(e),!(0,o.f)(e.info))){const t=(0,i.pV)();let r={...t.info?.jsAttributes};try{r={...r,...e.info?.jsAttributes}}catch(e){}S(e,{...t,info:{...t.info,jsAttributes:r},runtime:e.runtime},e.runtime.loaderType)}}}var C=r(6630);class U extends K{static featureName=C.T;constructor(e){var t;super(e,C.T),this.setupInspectionEvents(),t=e,(0,P.Y)(j.Fw,function(e,r){"string"==typeof e&&("/"!==e.charAt(0)&&(e="/"+e),t.runtime.customTransaction=(r||"http://custom.transaction")+e,(0,T.p)("api-"+j.Fw,[(0,E.t)()],void 0,void 0,t.ee))},t),this.importAggregator(e,()=>r.e(296).then(r.bind(r,1324)))}setupInspectionEvents(){const e=(e,t)=>{e&&(0,A.W)({timeStamp:e.timeStamp,loaded:"complete"===e.target.readyState,type:"window",name:t,data:e.target.location+""})};(0,M.sB)(t=>{e(t,"DOMContentLoaded")}),(0,M.GG)(t=>{e(t,"load")}),(0,M.Qr)(t=>{e(t,"navigate")}),this.ee.on(f.tS.UPDATE,(e,t)=>{(0,A.W)({type:"lifecycle",name:"session",data:t})})}}class L extends e.d{constructor(e){var t;(super(),v.gm)?(this.features={},(0,i.bQ)(this.agentIdentifier,this),this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(U),S(this,e,e.loaderType||"agent"),t=this,(0,P.Y)(j.cD,function(e,r,n=!1){if("string"==typeof e){if(["string","number","boolean"].includes(typeof r)||null===r)return(0,P.U)(t,e,r,j.cD,n);(0,g.R)(40,typeof r)}else(0,g.R)(39,typeof e)},t),function(e){(0,P.Y)(j.Dl,function(t,r=!1){if("string"!=typeof t&&null!==t)return void(0,g.R)(41,typeof t);const n=e.info.jsAttributes["enduser.id"];r&&null!=n&&n!==t?(0,T.p)("api-setUserIdAndResetSession",[t],void 0,"session",e.ee):(0,P.U)(e,"enduser.id",t,j.Dl,!0)},e)}(this),function(e){(0,P.Y)(j.nb,function(t){if("string"==typeof t||null===t)return(0,P.U)(e,"application.version",t,j.nb,!1);(0,g.R)(42,typeof t)},e)}(this),function(e){(0,P.Y)("start",function(){e.ee.emit("manual-start-all")},e)}(this),function(e){(0,P.Y)(j.Pv,function(t=!0){if("boolean"==typeof t){if((0,T.p)("api-"+j.Pv,[t],void 0,"session",e.ee),e.runtime.consented=t,t){const t=e.features.page_view_event;t.onAggregateImported.then(e=>{const r=t.featAggregate;e&&!r.sentRum&&r.sendRum()})}}else(0,g.R)(65,typeof t)},e)}(this),this.run()):(0,g.R)(21)}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}get api(){return this}run(){try{const e=function(e){const t={};return n.forEach(r=>{t[r]=!!e[r]?.enabled}),t}(this.init),r=[...this.desiredFeatures];r.sort((e,r)=>t.P3[e.featureName]-t.P3[r.featureName]),r.forEach(r=>{if(!e[r.featureName]&&r.featureName!==t.K7.pageViewEvent)return;const n=function(e){switch(e){case t.K7.ajax:return[t.K7.jserrors];case t.K7.sessionTrace:return[t.K7.ajax,t.K7.pageViewEvent];case t.K7.sessionReplay:return[t.K7.sessionTrace];case t.K7.pageViewTiming:return[t.K7.pageViewEvent];default:return[]}}(r.featureName).filter(e=>!(e in this.features));n.length>0&&(0,g.R)(36,{targetFeature:r.featureName,missingDependencies:n}),this.features[r.featureName]=new r(this)})}catch(e){(0,g.R)(22,e);for(const e in this.features)this.features[e].abortHandler?.();const t=(0,i.Zm)();delete t.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return t.ee.get(this.agentIdentifier).abort(),!1}}}var G=r(2843),F=r(782);class H extends K{static featureName=F.T;constructor(e){super(e,F.T),v.RI&&((0,G.u)(()=>(0,T.p)("docHidden",[(0,E.t)()],void 0,F.T,this.ee),!0),(0,G.G)(()=>(0,T.p)("winPagehide",[(0,E.t)()],void 0,F.T,this.ee)),this.importAggregator(e,()=>r.e(296).then(r.bind(r,2117))))}}var z=r(3969);class Y extends K{static featureName=z.TZ;constructor(e){super(e,z.TZ),this.importAggregator(e,()=>r.e(296).then(r.bind(r,9623)))}}new L({features:[U,H,Y],loaderType:"lite"})})()})();</script>
+<meta name="description" content="Created: September 14, 2011 | Updated: September 10, 2021*">
+<link rel="canonical" href="https://www.nist.gov/world-trade-center-investigation/study-faqs/wtc-towers-investigation">
+<link rel="shortlink" href="https://www.nist.gov/node/424641">
+<meta name="citation_title" content="FAQs - NIST WTC Towers Investigation | NIST">
+<meta property="og:site_name" content="NIST">
+<meta property="og:type" content="Article">
+<meta property="og:url" content="https://www.nist.gov/world-trade-center-investigation/study-faqs/wtc-towers-investigation">
+<meta property="og:title" content="FAQs - NIST WTC Towers Investigation">
+<meta property="og:description" content="Created: September 14, 2011 | Updated: September 10, 2021*">
+<meta property="og:image" content="https://www.nist.gov/themes/custom/nist_www/img/homepage/nist_mark.png">
+<meta property="article:published_time" content="2011-09-14T14:45-04:00">
+<meta property="article:modified_time" content="2022-04-05T16:18-04:00">
+<meta name="dcterms.title" content="FAQs - NIST WTC Towers Investigation">
+<meta name="dcterms.description" content="Created: September 14, 2011 | Updated: September 10, 2021*">
+<meta name="dcterms.date" content="2011-09-14T14:45-04:00">
+<meta name="dcterms.type" content="text">
+<meta name="dcterms.format" content="text/html">
+<meta name="dcterms.identifier" content="https://www.nist.gov/world-trade-center-investigation/study-faqs/wtc-towers-investigation">
+<meta name="dcterms.source" content="NIST">
+<meta name="dcterms.created" content="2011-09-14T14:45-04:00">
+<meta name="dcterms.modified" content="2022-04-05T16:18-04:00">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="Created: September 14, 2011 | Updated: September 10, 2021*">
+<meta name="twitter:title" content="FAQs - NIST WTC Towers Investigation">
+<meta name="twitter:site" content="NIST">
+<meta name="google-site-verification" content="QMu0ODkER3rN5hLcMLqNVf7e3bkjYsNLTuhqfH48jCA">
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)">
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://challenges.cloudflare.com">
+<meta name="nist_search_modified" class="elastic" content="2022-04-05T16:18:00-04:00">
+<meta name="nist_search_bundle" class="elastic" content="page">
+<link rel="icon" href="/themes/custom/nist_www/favicon.ico" type="image/vnd.microsoft.icon">
+
+    <title>FAQs - NIST WTC Towers Investigation | NIST</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_lkq0zBLKLGo0vBfUjnUrjRMdM2XngYlvpHY650Pb8YI.css?delta=0&amp;language=en&amp;theme=nist_www&amp;include=eJxlkFFuAyEMRC-EliMhA17WjcEIQza9fSlJ1K3yY80bWZ6RYXRxUMIhTS1cwHgINze5S7UX7ShIMUEa2thGBd7gCx7_jEjAkgw-OlO5vd0Xmp24Y7MBaqd5qZB2m1g88FNnSIV2CotchYRuR4y_Feyn9dzqB2ac7YQ9NJcl2kgKntGtyLVznuc1Z3Gm0ESpo6nQIDWoh777_jnbKHV4Jj0wGv3Wjnl-RNHcCU-1a24zdDD-AAZ5g1g">
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_MErloMMW1EgqfmofjUZgcUOUtH_Y1bwoHyWrqx-VNhQ.css?delta=1&amp;language=en&amp;theme=nist_www&amp;include=eJxlkFFuAyEMRC-EliMhA17WjcEIQza9fSlJ1K3yY80bWZ6RYXRxUMIhTS1cwHgINze5S7UX7ShIMUEa2thGBd7gCx7_jEjAkgw-OlO5vd0Xmp24Y7MBaqd5qZB2m1g88FNnSIV2CotchYRuR4y_Feyn9dzqB2ac7YQ9NJcl2kgKntGtyLVznuc1Z3Gm0ESpo6nQIDWoh777_jnbKHV4Jj0wGv3Wjnl-RNHcCU-1a24zdDD-AAZ5g1g">
+<link rel="stylesheet" media="print" href="/sites/default/files/css/css_LpHBc8EPEsDrEJSd96BC5X0OHJG9W5P68QT2eD_fJio.css?delta=2&amp;language=en&amp;theme=nist_www&amp;include=eJxlkFFuAyEMRC-EliMhA17WjcEIQza9fSlJ1K3yY80bWZ6RYXRxUMIhTS1cwHgINze5S7UX7ShIMUEa2thGBd7gCx7_jEjAkgw-OlO5vd0Xmp24Y7MBaqd5qZB2m1g88FNnSIV2CotchYRuR4y_Feyn9dzqB2ac7YQ9NJcl2kgKntGtyLVznuc1Z3Gm0ESpo6nQIDWoh777_jnbKHV4Jj0wGv3Wjnl-RNHcCU-1a24zdDD-AAZ5g1g">
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_w3ZXd7_exPqxuV9iXXJji7bb8HlJeKkV-1Crvt-QfXY.css?delta=3&amp;language=en&amp;theme=nist_www&amp;include=eJxlkFFuAyEMRC-EliMhA17WjcEIQza9fSlJ1K3yY80bWZ6RYXRxUMIhTS1cwHgINze5S7UX7ShIMUEa2thGBd7gCx7_jEjAkgw-OlO5vd0Xmp24Y7MBaqd5qZB2m1g88FNnSIV2CotchYRuR4y_Feyn9dzqB2ac7YQ9NJcl2kgKntGtyLVznuc1Z3Gm0ESpo6nQIDWoh777_jnbKHV4Jj0wGv3Wjnl-RNHcCU-1a24zdDD-AAZ5g1g">
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/424641","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx1kGFyAyEIhS9k1yM5qKxLouKIW9Pb15pNs0mnf5DvwcBD2BsbyG7jKhpOoCy4qxncuOhTbshx_rd4EYW3Filfta97gbgcqFaKDat2UBqNAYE5RDQNgg4jvPMCF7i9ikllkqZDZAvxnH-MpRM3BI_1FxOETCu5g8hVFmo40Qw7aDz3HBm8aXXcQHmsgXu5QECzIvqf4_Rf6d7VNkzDHnO0UE1irz0J2DF5njx7eu9nzyd-GJ3S016BCqFC2eTxhU9l2XPZbSTZ0Cv5koZpfL-g-iTsomdcho89oupoV65JH-_iCSKHb-n7wbA","theme":"nist_www","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-54VSXXDF"]},"auto_anchors":{"show_automatic_anchor_links":true,"root_elements":".nist-page__region--content, .nist-content-row","anchor_elements":"h2:not(.tl-headline), h3:not(.tl-headline-date)","link_content":"\u003Cimg src=\u0022\/libraries\/nist-component-library\/dist\/img\/link.svg\u0022 alt=\u0022permalink\u0022\u003E","exclude_admin_pages":true},"back_to_top":{"back_to_top_button_trigger":100,"back_to_top_speed":1200,"back_to_top_prevent_on_mobile":false,"back_to_top_prevent_in_admin":true,"back_to_top_button_type":"image","back_to_top_button_text":"Back to top"},"nist_map":{"mapbox_access_token":"REDACTED_THIRD_PARTY_TOKEN"},"nist_search":{"clickTracking":"search-report-click","isDebug":false,"clickTrackEnabled":true,"message":"NIST Search in debug mode. Check the browsers network inspector for Click Track reporting results..."},"webform":{"dialog":{"options":{"narrow":{"title":"Narrow","width":600},"normal":{"title":"Normal","width":800},"wide":{"title":"Wide","width":1000}},"entity_type":"node","entity_id":"424641"}},"data":{"extlink":{"extTarget":false,"extTargetAppendNewWindowDisplay":true,"extTargetAppendNewWindowLabel":"","extTargetNoOverride":false,"extNofollow":false,"extTitleNoOverride":false,"extNoreferrer":false,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":true,"extExclude":"\\.gov\\\/|\\.mil\\\/|\\manufacturingusa\\.com\\\/","extInclude":"","extCssExclude":".ck-editor, .nist-video-thumbnail__lightbox-trigger, a.nist-icon--mail-blue","extCssInclude":"","extCssExplicit":"","extAlert":true,"extAlertText":"Thank you for visiting NIST. We hope your visit was informative. We have provided a link to this site because it has information that may be of interest to our users. NIST does not necessarily endorse the views expressed or the facts presented on this site. Further, NIST does not endorse any commercial products that may be advertised or available on this site. Click OK to be directed to your link.","extHideIcons":false,"mailtoClass":"0","telClass":"","mailtoLabel":"(link sends email)","telLabel":"(link is a phone number)","extUseFontAwesome":false,"extIconPlacement":"after","extPreventOrphan":false,"extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","extAdditionalLinkClasses":"","extAdditionalMailtoClasses":"","extAdditionalTelClasses":"","extFaTelClasses":"fa fa-phone","allowedDomains":[],"extExcludeNoreferrer":""}},"user":{"uid":0,"permissionsHash":"875e680e0313ee626581ae2795425dd5501fdff52b84168125ae1988c7b8b5e4"}}</script>
+<script src="/sites/default/files/js/js_vrD5PU7MUODZD1_ipe358nG2g-malnlw8DY7q2r2GAo.js?scope=header&amp;delta=0&amp;language=en&amp;theme=nist_www&amp;include=eJxlj2sSgyAMhC9E5UjMIgGpQBzAweOXotOx7Z8kXx47G-yVFdK8cC4SNxAa86o6V97krVbPIuiowadVmrxvCNOFwjG7QKrCSdfDL0944vhuRpF8qdIF1giPrjxwIRjKH4xwyVs_D1LW92vDLQWGUTV3Zz51LZzjDY6UJTJvy_K_dW7VhWL3wBw0sopspPEFuiuPR8ZOa-1mrJG2nKO88mQ8ArsXOZ57zg"></script>
+<script src="/modules/contrib/google_tag/js/gtag.js?tj6rvq"></script>
+<script src="/modules/contrib/google_tag/js/gtm.js?tj6rvq"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-54VSXXDF" type="text/javascript"></script>
+<script src="/sites/default/files/js/js_5WbAeKWaHF5M7ZGOm0J4MoiuVLINg4UjWTVpVV4wxTc.js?scope=header&amp;delta=3&amp;language=en&amp;theme=nist_www&amp;include=eJxlj2sSgyAMhC9E5UjMIgGpQBzAweOXotOx7Z8kXx47G-yVFdK8cC4SNxAa86o6V97krVbPIuiowadVmrxvCNOFwjG7QKrCSdfDL0944vhuRpF8qdIF1giPrjxwIRjKH4xwyVs_D1LW92vDLQWGUTV3Zz51LZzjDY6UJTJvy_K_dW7VhWL3wBw0sopspPEFuiuPR8ZOa-1mrJG2nKO88mQ8ArsXOZ57zg"></script>
+
+  <script charset="utf-8" data-webpack="NRBA-1.319.0.PROD:chunk-296" src="https://js-agent.newrelic.com/nr-rum-1.319.0.min.js" crossorigin="anonymous" integrity="sha512-AjMYlPlHGtonfj4LWnnP4dVoLRowrBrm4lRfeuRr88daClWRPCh62aASF1JsR277iWOhlLcoggRr9BulWGKOyQ=="></script></head>
+  <body class="node-424641" data-once="backtotop">
+        <a href="#main-content" class="visually-hidden focusable" data-elastic-exclude="">
+      Skip to main content
+    </a>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54VSXXDF"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas="">
+    
+  <!-- nist-index-ignore-start -->
+<section data-elastic-exclude="" class="usa-banner" aria-label="Official website of the United States government">
+  <div class="usa-accordion">
+    <header class="usa-banner__header">
+      <div class="usa-banner__inner">
+        <div class="grid-col-auto">
+          <img class="usa-banner__header-flag" src="/libraries/nist-component-library/dist/img/us_flag_small.png" alt="U.S. flag">
+        </div>
+        <div class="grid-col-fill tablet:grid-col-auto">
+          <p class="usa-banner__header-text">An official website of the United States government</p>
+          <p class="usa-banner__header-action" aria-hidden="true">Here’s how you know</p>
+        </div>
+        <button class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner-default">
+          <span class="usa-banner__button-text">Here’s how you know</span>
+        </button>
+      </div>
+    </header>
+    <div class="usa-banner__content usa-accordion__content" id="gov-banner-default" hidden="">
+      <div class="grid-row grid-gap-lg">
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="/libraries/nist-component-library/dist/img/icon-dot-gov.svg" role="img" alt="" aria-hidden="true">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Official websites use .gov</strong>
+              <br>
+              A <strong>.gov</strong> website belongs to an official government organization in the United States.
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="/libraries/nist-component-library/dist/img/icon-https.svg" role="img" alt="" aria-hidden="true">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Secure .gov websites use HTTPS</strong>
+              <br>
+              A <strong>lock</strong> (  <span class="icon-lock">
+    <svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64" class="usa-banner__lock-image" role="img" aria-labelledby="banner-lock-title banner-lock-description" focusable="false">
+      <title id="banner-lock-title">Lock</title>
+      <desc id="banner-lock-description">A locked padlock</desc><path fill="#000000" fill-rule="evenodd" d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z"></path></svg>
+  </span>
+) or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- nist-index-ignore-end -->
+
+    
+    <div data-elastic-exclude="">
+<!-- nist-index-ignore-start -->
+<div class="nist-print-header" style="display:none;">
+  <p class="nist-print-header__url">https://www.nist.gov/world-trade-center-investigation/study-faqs/wtc-towers-investigation</p>
+  <img class="nist-print-header__logo" width="289" height="38" src="/libraries/nist-component-library/dist/img/logo/nist_logo_sidestack.svg" alt="National Institute of Standards and Technology">
+</div>
+
+
+<div class="usa-overlay"></div>
+<header class="usa-header nist-header--www nist-header--minimal" role="banner">
+      <div class="usa-navbar__outer">
+    <div class="usa-navbar">
+      <div class="usa-logo flex-fill">
+            <a href="/" title="National Institute of Standards and Technology" aria-label="Home">
+      <img src="/libraries/nist-component-library/dist/img/logo/logo.svg" alt="National Institute of Standards and Technology" width="300px" height="80px">
+    </a>
+        </div>
+      <div class="usa-header__right grid-row flex-auto">
+                                  <div class="grid-col-fill nist-header__search-group">
+                      
+<form class="usa-search usa-search--small" accept-charset="UTF-8" action="/search" id="search_form" method="get" role="search">
+  <label class="usa-sr-only" for="search-form">Search NIST</label>
+  <input class="usa-input" id="search-form" type="search" name="s" placeholder="Search NIST" required="" maxlength="128">
+  <button class="usa-button" type="submit"><img src="/libraries/nist-component-library/dist/img/usa-icons-bg/search--white.svg" class="usa-search__submit-icon" alt="Search"></button>
+</form>
+                  </div>
+                  <div class="grid-col-auto padding-left-1">
+            <button class="usa-menu-btn">Menu</button>
+          </div>
+              </div>
+    </div>
+  </div>
+
+      
+
+
+<nav aria-label="Primary navigation" class="usa-nav">
+  <div class="usa-nav__inner">
+    <button class="usa-nav__close">Close</button>
+    <ul class="usa-nav__primary usa-accordion">
+            <li class="usa-nav__primary-item">
+                <a class="usa-nav__link" href="/publications">Publications</a>
+              </li>
+            <li class="usa-nav__primary-item">
+                <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="primary_menu-2"><span>What We Do</span></button>
+        <div id="primary_menu-2" class="usa-nav__submenu usa-megamenu" hidden="">
+          <div class="grid-row">
+                                                        <div class="tablet:grid-col-fill"><ul class="usa-nav__submenu-list">
+                            <li class="usa-nav__submenu-item">
+                <a href="/topics" class="usa-nav__link">All Topics</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/advanced-communications" class="usa-nav__link">Advanced communications</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/artificial-intelligence" class="usa-nav__link">Artificial intelligence</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/biotechnology" class="usa-nav__link">Bioscience</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/buildings-and-construction" class="usa-nav__link">Buildings and construction</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/chemistry" class="usa-nav__link">Chemistry</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/cybersecurity-and-privacy" class="usa-nav__link">Cybersecurity and Privacy</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/electronics" class="usa-nav__link">Electronics</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/energy" class="usa-nav__link">Energy</a>
+                              </li>
+                                                          </ul></div><div class="column-break tablet:grid-col-fill"><ul class="usa-nav__submenu-list">
+                            <li class="usa-nav__submenu-item">
+                <a href="/environment" class="usa-nav__link">Environment</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/fire" class="usa-nav__link">Fire</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/forensic-science" class="usa-nav__link">Forensic science</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/health" class="usa-nav__link">Health</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/information-technology" class="usa-nav__link">Information technology</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/infrastructure" class="usa-nav__link">Infrastructure</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/manufacturing" class="usa-nav__link">Manufacturing</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/materials" class="usa-nav__link">Materials</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/mathematics-and-statistics" class="usa-nav__link">Mathematics and statistics</a>
+                              </li>
+                                                          </ul></div><div class="column-break tablet:grid-col-fill"><ul class="usa-nav__submenu-list">
+                            <li class="usa-nav__submenu-item">
+                <a href="/metrology" class="usa-nav__link">Metrology</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/nanotechnology" class="usa-nav__link">Nanotechnology</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/neutron-research" class="usa-nav__link">Neutron research</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/performance-excellence" class="usa-nav__link">Performance excellence</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/physics" class="usa-nav__link">Physics</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/public-safety" class="usa-nav__link">Public safety</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/quantum-information-science" class="usa-nav__link">Quantum information science</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/resilience" class="usa-nav__link">Resilience</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/standards" class="usa-nav__link">Standards</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/transportation" class="usa-nav__link">Transportation</a>
+                              </li>
+                            </ul>
+            </div>
+          </div>
+        </div>
+              </li>
+            <li class="usa-nav__primary-item">
+                <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="primary_menu-3"><span>Labs &amp; Major Programs</span></button>
+        <div id="primary_menu-3" class="usa-nav__submenu usa-megamenu" hidden="">
+          <div class="grid-row">
+                                                        <div class="tablet:grid-col-fill"><ul class="usa-nav__submenu-list">
+                            <li class="usa-nav__submenu-item">
+                <a href="/laboratories" class="usa-nav__link">Laboratories</a>
+                                <ul class="usa-nav__submenu-list">
+                                  <li>
+                    <a href="/ctl" class="usa-nav__link">Communications Technology Laboratory</a>
+                  </li>
+                                  <li>
+                    <a href="/el" class="usa-nav__link">Engineering Laboratory</a>
+                  </li>
+                                  <li>
+                    <a href="/itl" class="usa-nav__link">Information Technology Laboratory</a>
+                  </li>
+                                  <li>
+                    <a href="/mml" class="usa-nav__link">Material Measurement Laboratory</a>
+                  </li>
+                                  <li>
+                    <a href="/pml" class="usa-nav__link">Physical Measurement Laboratory</a>
+                  </li>
+                                </ul>
+                              </li>
+                                                          </ul></div><div class="column-break tablet:grid-col-fill"><ul class="usa-nav__submenu-list">
+                            <li class="usa-nav__submenu-item">
+                <a href="/user-facilities" class="usa-nav__link">User Facilities</a>
+                                <ul class="usa-nav__submenu-list">
+                                  <li>
+                    <a href="/ncnr" class="usa-nav__link">NIST Center for Neutron Research</a>
+                  </li>
+                                  <li>
+                    <a href="/cnst" class="usa-nav__link">CNST NanoFab</a>
+                  </li>
+                                </ul>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/research-test-beds" class="usa-nav__link">Research Test Beds</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/laboratories/projects-programs" class="usa-nav__link">Research Projects</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/laboratories/tools-instruments" class="usa-nav__link">Tools &amp; Instruments</a>
+                              </li>
+                                                          </ul></div><div class="column-break tablet:grid-col-fill"><ul class="usa-nav__submenu-list">
+                            <li class="usa-nav__submenu-item">
+                <a href="/major-programs" class="usa-nav__link">Major Programs</a>
+                                <ul class="usa-nav__submenu-list">
+                                  <li>
+                    <a href="/chips" class="usa-nav__link">CHIPS for America Initiative</a>
+                  </li>
+                                  <li>
+                    <a href="/cds" class="usa-nav__link">Congressionally Identified Project Program (CIPP)</a>
+                  </li>
+                                  <li>
+                    <a href="/mep" class="usa-nav__link">Manufacturing Extension Partnership (MEP)</a>
+                  </li>
+                                  <li>
+                    <a href="https://www.manufacturingusa.com/" class="usa-nav__link">Manufacturing USA</a>
+                  </li>
+                                  <li>
+                    <a href="/oam" class="usa-nav__link">Office of Advanced Manufacturing</a>
+                  </li>
+                                  <li>
+                    <a href="/tpo" class="usa-nav__link">Technology Partnerships Office</a>
+                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+            </div>
+          </div>
+        </div>
+              </li>
+            <li class="usa-nav__primary-item">
+                <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="primary_menu-4"><span>Services &amp; Resources</span></button>
+        <div id="primary_menu-4" class="usa-nav__submenu usa-megamenu" hidden="">
+          <div class="grid-row">
+                                                        <div class="tablet:grid-col-fill"><ul class="usa-nav__submenu-list">
+                            <li class="usa-nav__submenu-item">
+                <a href="/standards-measurements" class="usa-nav__link">Measurements and Standards</a>
+                                <ul class="usa-nav__submenu-list">
+                                  <li>
+                    <a href="/calibrations" class="usa-nav__link">Calibration Services</a>
+                  </li>
+                                  <li>
+                    <a href="/nvlap" class="usa-nav__link">Laboratory Accreditation (NVLAP)</a>
+                  </li>
+                                  <li>
+                    <a href="/nist-quality-system" class="usa-nav__link">Quality System</a>
+                  </li>
+                                  <li>
+                    <a href="/srm" class="usa-nav__link">Standard Reference Materials (SRMs)</a>
+                  </li>
+                                  <li>
+                    <a href="/sri" class="usa-nav__link">Standard Reference Instruments (SRIs)</a>
+                  </li>
+                                  <li>
+                    <a href="/standardsgov" class="usa-nav__link">Standards.gov</a>
+                  </li>
+                                  <li>
+                    <a href="/pml/time-and-frequency-division/time-services" class="usa-nav__link">Time Services</a>
+                  </li>
+                                  <li>
+                    <a href="/pml/owm" class="usa-nav__link">Office of Weights and Measures</a>
+                  </li>
+                                </ul>
+                              </li>
+                                                          </ul></div><div class="column-break tablet:grid-col-fill"><ul class="usa-nav__submenu-list">
+                            <li class="usa-nav__submenu-item">
+                <a href="/services-resources/software" class="usa-nav__link">Software</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/data" class="usa-nav__link">Data</a>
+                                <ul class="usa-nav__submenu-list">
+                                  <li>
+                    <a href="https://webbook.nist.gov/chemistry/" class="usa-nav__link">Chemistry WebBook</a>
+                  </li>
+                                  <li>
+                    <a href="https://nvd.nist.gov/" class="usa-nav__link">National Vulnerability Database</a>
+                  </li>
+                                  <li>
+                    <a href="/pml/productsservices/physical-reference-data" class="usa-nav__link">Physical Reference Data</a>
+                  </li>
+                                  <li>
+                    <a href="/srd" class="usa-nav__link">Standard Reference Data (SRD)</a>
+                  </li>
+                                </ul>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="https://shop.nist.gov/" class="usa-nav__link">Storefront</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/tpo" class="usa-nav__link">License &amp; Patents</a>
+                              </li>
+                                                          </ul></div><div class="column-break tablet:grid-col-fill"><ul class="usa-nav__submenu-list">
+                            <li class="usa-nav__submenu-item">
+                <a href="https://csrc.nist.gov/" class="usa-nav__link">Computer Security Resource Center (CSRC)</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/nist-research-library" class="usa-nav__link">NIST Research Library</a>
+                              </li>
+                            </ul>
+            </div>
+          </div>
+        </div>
+              </li>
+            <li class="usa-nav__primary-item">
+                <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="primary_menu-5"><span>News &amp; Events</span></button>
+        <div id="primary_menu-5" class="usa-nav__submenu usa-megamenu" hidden="">
+          <div class="grid-row">
+                                                        <div class="tablet:grid-col-fill"><ul class="usa-nav__submenu-list">
+                            <li class="usa-nav__submenu-item">
+                <a href="/news-events/news" class="usa-nav__link">News</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/news-events/events" class="usa-nav__link">Events</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/blogs" class="usa-nav__link">Blogs</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/nist-focus" class="usa-nav__link">NIST In Focus</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/feature-stories" class="usa-nav__link">Feature Stories</a>
+                              </li>
+                                                          </ul></div><div class="column-break tablet:grid-col-fill"><ul class="usa-nav__submenu-list">
+                            <li class="usa-nav__submenu-item">
+                <a href="/awards" class="usa-nav__link">Awards</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/video-gallery" class="usa-nav__link">Video Gallery</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/image-gallery" class="usa-nav__link">Image Gallery</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/comms/media-contacts" class="usa-nav__link">Media Contacts</a>
+                              </li>
+                            </ul>
+            </div>
+          </div>
+        </div>
+              </li>
+            <li class="usa-nav__primary-item">
+                <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="primary_menu-6"><span>About NIST</span></button>
+        <div id="primary_menu-6" class="usa-nav__submenu usa-megamenu" hidden="">
+          <div class="grid-row">
+                                                        <div class="tablet:grid-col-fill"><ul class="usa-nav__submenu-list">
+                            <li class="usa-nav__submenu-item">
+                <a href="/about-nist" class="usa-nav__link">About Us</a>
+                                <ul class="usa-nav__submenu-list">
+                                  <li>
+                    <a href="/director/leadership" class="usa-nav__link">Leadership</a>
+                  </li>
+                                  <li>
+                    <a href="/director/nist-organization-structure" class="usa-nav__link">Organization Structure</a>
+                  </li>
+                                  <li>
+                    <a href="/about-nist/budget-planning" class="usa-nav__link">Budget &amp; Planning</a>
+                  </li>
+                                </ul>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/contact" class="usa-nav__link">Contact Us</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/about-nist/visit" class="usa-nav__link">Visit</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/careers" class="usa-nav__link">Careers</a>
+                                <ul class="usa-nav__submenu-list">
+                                  <li>
+                    <a href="/iaao/academic-affairs-office" class="usa-nav__link">Student programs</a>
+                  </li>
+                                </ul>
+                              </li>
+                                                          </ul></div><div class="column-break tablet:grid-col-fill"><ul class="usa-nav__submenu-list">
+                            <li class="usa-nav__submenu-item">
+                <a href="/about-nist/work-nist" class="usa-nav__link">Work with NIST</a>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/history" class="usa-nav__link">History</a>
+                                <ul class="usa-nav__submenu-list">
+                                  <li>
+                    <a href="http://nistdigitalarchives.contentdm.oclc.org/" class="usa-nav__link ext" data-extlink="">NIST Digital Archives</a><svg focusable="false" width="1em" height="1em" class="ext" data-extlink-placement="after" aria-label="(link is external)" viewBox="0 0 80 40" role="img" aria-hidden="false"><title>(link is external)</title><path d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z"></path><path d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z"></path></svg>
+                  </li>
+                                  <li>
+                    <a href="/nist-museum" class="usa-nav__link">NIST Museum</a>
+                  </li>
+                                  <li>
+                    <a href="/nist-and-nobel" class="usa-nav__link">NIST and the Nobel</a>
+                  </li>
+                                </ul>
+                              </li>
+                                                        <li class="usa-nav__submenu-item">
+                <a href="/education" class="usa-nav__link">Educational Resources</a>
+                              </li>
+                            </ul>
+            </div>
+          </div>
+        </div>
+              </li>
+          </ul>
+  </div>
+</nav>
+
+
+
+  
+</header>
+<!-- nist-index-ignore-end -->
+</div>
+  
+  <div class="grid-container">
+    
+
+
+
+  </div>
+
+
+
+    
+
+<div id="block-nist-www-content" class="nist-block">
+  
+    
+      
+
+
+
+
+
+        
+<section class="nist-page__content usa-section clearfix">
+
+  <a id="main-content" tabindex="-1"></a>
+
+        <div class="nist-page__region nist-page__region--content-top-full">
+        <div class="nist-block">
+  
+    
+      
+  <div class="nist-section-header nist-section-header--1678761 nist-section-header--menu nist-section-header--topic nist-section-header--interior">
+                    <div class="nist-section-header__top grid-container">
+        <a href="/resilience">Resilience</a> /                  <a href="/disaster-and-failure-studies">Disaster and failure studies</a>
+              </div>
+      <div class="nist-section-header__sub">
+                <div class="nist-section-header__main grid-container">
+                  <div class="nist-section-header__title">
+          <h2><a href="/world-trade-center-investigation">World Trade Center Investigation</a></h2>
+        </div>
+              </div>
+    </div>
+  </div>
+
+        
+  </div>
+
+    </div>
+    
+      
+  <div class="grid-container margin-top-4">
+    <div class="grid-row grid-gap-4">
+
+                  <aside class="nist-page__region nist-page__region--sidebar-first tablet-lg:grid-col-4 desktop-lg:grid-col-3">
+        <div>
+          <!-- nist-index-ignore-start -->
+<div class="views-element-container nist-block nist-block--section-nav" data-elastic-exclude="">
+  
+    
+      <div><div class="js-view-dom-id-7409e88ef98a35b818a5551aa887901f786fbac9699e46a13a3789804c816963">
+  
+  
+  
+
+  
+  
+  
+
+    <div><div class="views-field views-field-nid"><span class="field-content">
+
+  <nav>
+    <ul class="usa-sidenav usa-accordion ">
+          <li class="usa-sidenav__item usa-sidenav__item--parent">
+        <a href="/world-trade-center-investigation/about-investigation" data-drupal-link-system-path="">About the Investigation</a>
+                            <button class="usa-accordion__button usa-sidenav__item-button" aria-expanded="false" aria-controls="menu-world-trade-center-disaster-1"><span class="usa-sr-only">Expand or Collapse</span></button>
+          <ul id="menu-world-trade-center-disaster-1" class="usa-sidenav__sublist usa-accordion" hidden="">
+                      <li class="usa-sidenav__item">
+              <a href="/world-trade-center-investigation/about-investigation/investigation-team-members" data-drupal-link-system-path="">Investigation Team Members</a>
+                          </li>
+                      <li class="usa-sidenav__item">
+              <a href="/world-trade-center-investigation/about-investigation/investigation-contracts" data-drupal-link-system-path="">Investigation Contracts</a>
+                          </li>
+                    </ul>
+              </li>
+          <li class="usa-sidenav__item usa-sidenav__item--parent">
+        <a href="/world-trade-center-investigation/study-faqs" class="usa-current" data-drupal-link-system-path="">Study FAQs</a>
+                            <button class="usa-accordion__button usa-sidenav__item-button" aria-expanded="true" aria-controls="menu-world-trade-center-disaster-2"><span class="usa-sr-only">Expand or Collapse</span></button>
+          <ul id="menu-world-trade-center-disaster-2" class="usa-sidenav__sublist usa-accordion">
+                      <li class="usa-sidenav__item">
+              <a href="/world-trade-center-investigation/study-faqs/wtc-investigation" data-drupal-link-system-path="">WTC Investigation</a>
+                          </li>
+                      <li class="usa-sidenav__item">
+              <a href="/world-trade-center-investigation/study-faqs/wtc-towers-investigation" class="usa-current" data-drupal-link-system-path="">WTC Towers Investigation</a>
+                          </li>
+                      <li class="usa-sidenav__item">
+              <a href="/world-trade-center-investigation/study-faqs/wtc-7-investigation" data-drupal-link-system-path="">WTC 7 Investigation</a>
+                          </li>
+                    </ul>
+              </li>
+          <li class="usa-sidenav__item">
+        <a href="/world-trade-center-investigation/investigation-meetings-and-presentations" data-drupal-link-system-path="">Investigation Meetings and Presentations</a>
+              </li>
+          <li class="usa-sidenav__item">
+        <a href="/world-trade-center-investigation/news-archive" data-drupal-link-system-path="">News Archive</a>
+              </li>
+          <li class="usa-sidenav__item">
+        <a href="/world-trade-center-investigation/photos-videos-and-simulations" data-drupal-link-system-path="">Photos, Videos and Simulations</a>
+              </li>
+          <li class="usa-sidenav__item">
+        <a href="/world-trade-center-investigation/publications-and-reports" data-drupal-link-system-path="">Publications and Reports</a>
+              </li>
+          <li class="usa-sidenav__item">
+        <a href="/world-trade-center-investigation/recommendations" data-drupal-link-system-path="">Recommendations</a>
+              </li>
+        </ul>
+  </nav>
+
+</span></div></div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+        
+  </div>
+<!-- nist-index-ignore-end -->
+
+        </div>
+      </aside>
+            
+      <div class="tablet-lg:grid-col-8 desktop-lg:grid-col-9">
+        <div class="grid-row grid-gap-4">
+
+          
+                    
+                    <div class="nist-page__region nist-page__region--content grid-col-12">
+            
+<div class="nist-block">
+  
+    
+        <h1 class="nist-page__title">FAQs - NIST WTC Towers Investigation</h1>
+
+        
+  </div>
+
+<div class="nist-block">
+  
+    
+      <div class="text-with-summary">
+  
+  
+  
+      <p><em>Created: September 14, 2011</em> <strong>|</strong> <em>Updated: September 10, 2021*</em></p>
+
+<div class="usa-summary-box">
+<div class="usa-summary-box__body">
+<h3 class="usa-summary-box__heading" id="summary-box-key-information">Questions and Answers about the NIST WTC Towers Investigation<a class="auto-anchor" title="Permalink to this item" href="#summary-box-key-information"><img src="/libraries/nist-component-library/dist/img/link.svg" alt="permalink"></a></h3>
+
+<div class="usa-summary-box__text">
+<p>The questions below are separated into six categories:</p>
+
+<ul>
+	<li><a href="#Background" media_library="Media Library">Background Information</a></li>
+	<li><a href="#Study" media_library="Media Library">NIST's Study</a></li>
+	<li><a href="#Results" media_library="Media Library">Results / Conclusions</a></li>
+	<li><a href="#Science" media_library="Media Library">The Science</a></li>
+	<li><a href="#Fires" media_library="Media Library">The Fires</a></li>
+	<li><a href="#Theories" media_library="Media Library">Alternate Theories</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<h2 id="background-information"><a id="Background" name="Background"></a>Background Information<a class="auto-anchor" title="Permalink to this item" href="#background-information"><img src="/libraries/nist-component-library/dist/img/link.svg" alt="permalink"></a></h2>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>1. What were World Trade Center (WTC) Buildings 1 and 2?</strong></p>
+</div>
+
+<p>The original WTC Buildings 1 and 2 (WTC 1 and WTC 2; also known as the North Tower and South Tower, respectively) were two 110-story skyscrapers within the WTC complex in New York City's Lower Manhattan Central Business District. WTC 1 was completed in 1972; WTC 2, a year later. The buildings stood on land owned by The Port Authority of New York and New Jersey (PANYNJ).&nbsp;</p>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>2. When did the planes strike each WTC tower, and when did the buildings collapse?</strong></p>
+</div>
+
+<p>On Sept. 11, 2001, WTC 1 and WTC 2 were struck 16 minutes apart by Boeing 767-200ER aircraft. WTC 1 was hit at 8:46 a.m. by American Airlines Flight 11, and collapsed at 10:28 a.m. WTC 2 was hit at 9:02 a.m. by United Airlines Flight 175, and collapsed at 9:58 a.m.</p>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>3. How many persons died in the collapses of the WTC towers?</strong></p>
+</div>
+
+<p>There were 2,735 persons who died in the attacks on the WTC towers on Sept. 11, 2001. The number included 2,184 persons occupying the two buildings, 129 persons aboard the two aircraft (119 passengers and crew, and 10 hijackers), 343 New York City firefighters, 71 law enforcement officers (including 60 New York City and PANYNJ police), and eight private emergency medical technicians and paramedics.</p>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>4. Why wasn't physical evidence collected immediately following the collapse of the WTC towers?</strong></p>
+</div>
+
+<p>The complete collapse of the WTC towers destroyed virtually all physical evidence except the major pieces of steel and mechanical equipment. In the initial days and weeks following the WTC disaster, the emphasis was on rescue and later on recovery, necessitating the removal of steel and disturbing the collapse site.&nbsp;</p>
+
+<p>The Federal Emergency Management Agency (FEMA), which had launched its Building Performance Assessment Team (BPAT) Study in early October 2001, sent a team of experts to review the steel at the WTC site and the salvage yards. These experts, including one from NIST, identified pieces of steel of potential interest for a follow-on investigation.&nbsp;</p>
+
+<p>Beginning in February 2002, NIST, on its own initiative, began identifying additional steel pieces of potential interest at the salvage yards and transporting them to NIST to preserve and secure the evidence in anticipation of launching its own investigation, which it announced in August 2002. NIST NCSTAR 1-3, which is NIST’s report on the mechanical and metallurgical analysis of WTC structural steel, fully document the steel recovered from the site.</p>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>5. Was the steel in the WTC towers certified by Underwriters Laboratories (UL) to 1,100 degrees Celsius (2,000 degrees Fahrenheit) as some have claimed?</strong></p>
+</div>
+
+<p>UL did not certify any steel as suggested. In fact, in U.S. practice, steel is not certified at all; rather structural assemblies are tested for their fire resistance rating in accordance with a standard procedure such as ASTM E 119 (see NCSTAR 1-6B). It is not true that the steel was "certified ... to 2000 degrees Fahrenheit for six hours".</p>
+
+<hr>
+<h2 id="nist’s-study"><a id="Study" name="Study"></a>NIST’s Study<a class="auto-anchor" title="Permalink to this item" href="#nist’s-study"><img src="/libraries/nist-component-library/dist/img/link.svg" alt="permalink"></a></h2>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>6. Why did NIST study the collapses of WTC 1 and WTC 2?</strong></p>
+</div>
+
+<p>The National Construction Safety Team Act was passed in 2002 to give NIST the responsibility for conducting fact-finding technical investigations of building failures that resulted in substantial loss of life or that posed significant potential of substantial loss of life. The WTC investigation was the first conducted under the authorities granted to NIST by this act. &nbsp;<br>
+NIST undertook the investigation of the collapses of WTC 1 and WTC 2 to:</p>
+
+<ul>
+	<li>determine why and how WTC 1 and WTC 2 collapsed following the initial impacts of the aircraft;&nbsp;</li>
+	<li>determine why the injuries and fatalities were so high or low depending on location, including all technical aspects of fire protection, occupant behavior, evacuation, and emergency response;</li>
+	<li>determine what procedures and practices were used in the design, construction, operation and maintenance of WTC 7; and</li>
+	<li>identify, as specifically as possible, areas in current building and fire codes, standards and practices that warrant revision.</li>
+</ul>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>7. When did the investigation begin and when was it completed?</strong></p>
+</div>
+
+<p>The investigation was officially announced on Aug. 21, 2002. When the NCST Act was passed in October of that year, it required that the WTC investigation be conducted under its authorities. The draft report on the collapses of WTC 1 and WTC 2 was released for public comment on June 23, 2005. The final report was issued on Oct. 26, 2005.</p>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>8. Did the Commerce Department's legal structure impede NIST's ability to obtain information and therefore, prevent NIST from finding the facts?</strong></p>
+</div>
+
+<p>No. The Commerce Department's legal structure facilitated NIST's ability to obtain valuable information and evidence for the investigation.</p>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>9. Why didn't NIST use its subpoena authority under the National Construction Safety Team (NCST) Act to acquire data?</strong></p>
+</div>
+
+<p>NIST staff followed all the prescribed procedures when seeking to acquire relevant documents, interview building occupants and first responders, and acquire visual evidence. NIST has stated publicly that although documentary information was lost in the collapse of the WTC towers, the information obtained from other sources was sufficient to conduct its investigation.<br>
+Under the NCST Act, NIST was granted subpoena authority. NIST's experience during the investigation was that it was able to obtain all essential documentary and visual evidence without the need to invoke that authority. The existence of subpoena authority was helpful to NIST in getting access to data.</p>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>10. Why didn't NIST fully model the collapse initiation and propagation of the WTC towers?</strong></p>
+</div>
+
+<p>The first objective of the NIST WTC investigation included determining why and how WTC 1 and WTC 2 collapsed following the initial impacts of the aircraft (see NIST NCSTAR 1). Determining the sequence of events leading up to collapse initiation was critical to fulfilling this objective. Once the collapse had begun, the propagation of the collapse was readily explained without the same complexity of modeling.</p>
+
+<hr>
+<h2 id="results-conclusions"><a id="Results" name="Results"></a>Results / Conclusions<a class="auto-anchor" title="Permalink to this item" href="#results-conclusions"><img src="/libraries/nist-component-library/dist/img/link.svg" alt="permalink"></a></h2>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>11. What caused the collapses of WTC 1 and WTC 2?</strong></p>
+</div>
+
+<p>Based on its comprehensive investigation, NIST concluded that the WTC towers collapsed because:&nbsp;</p>
+
+<ol>
+	<li>The impact of the planes severed and damaged support columns, dislodged fireproofing insulation coating the steel floor trusses and steel columns, and widely dispersed jet fuel over multiple floors; and&nbsp;</li>
+	<li>The subsequent unusually large number of jet-fuel ignited multi-floor fires (which reached temperatures as high as 1,000 degrees Celsius, or 1,800 degrees Fahrenheit) significantly weakened the floors and columns with dislodged fireproofing to the point where floors sagged and pulled inward on the perimeter columns. This led to the inward bowing of the perimeter columns and failure of the south face of WTC 1 and the east face of WTC 2, initiating the collapse of each of the towers.&nbsp;</li>
+</ol>
+
+<p>Both photographic and video evidence—as well as accounts from the New York City Police Department aviation unit during a half-hour period prior to collapse—support this sequence for each tower.</p>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>12. If the WTC towers were designed to withstand an impact by a Boeing 707 aircraft, why did the impact of a 767 cause so much damage?</strong></p>
+</div>
+
+<p>As stated in Section 5.3.2 of NIST NCSTAR 1, a document from the PANYNJ indicated that the impact of a [single] Boeing 707 aircraft was analyzed during the design stage of the WTC towers. However, NIST investigators were unable to locate any documentation of the criteria and method used in the impact analysis and, therefore, were unable to verify the assertion that "... such collision would result in only local damage which could not cause collapse or substantial damage to the building...."<br>
+The capability to conduct rigorous simulations of aircraft impact, the growth and spread of the ensuing fires, and the effects of fires on structures did not exist prior to the NIST WTC investigation. The technical capability available to the PANYNJ and its consultants and contactors to perform such analyses in the 1960s would have been quite limited in comparison to the capabilities brought to bear in the NIST investigation.</p>
+
+<p>The damage from the impact of a Boeing 767 aircraft (which is about 20 percent bigger than a Boeing 707) into each tower is well documented in NIST NCSTAR 1-2. The massive damage was caused by the large mass of the aircrafts and their high speed and momentum, which severed the relatively light steel of the exterior columns on the impact floors.&nbsp;</p>
+
+<p>The results of the NIST impact analyses matched well with observations (from photos and videos and analysis of recovered WTC steel) of exterior damage and of the amount and location of debris exiting from the buildings. This agreement supports the premise that the structural damage to the towers was due to the aircraft impact and not to any alternative forces.</p>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>13. What timelines did NIST develop and report for the collapses of the WTC towers?</strong></p>
+</div>
+
+<p>NIST developed and reported detailed timelines for various aspects of the WTC disaster beginning with the impact of the aircraft. These timelines included the progression of fires through the buildings, the response of the structure to damage and to fire, egress of occupants from the towers, and the emergency response.&nbsp;</p>
+
+<p>The timelines were developed based on extensive analysis of the photographic and video evidence, analysis of computer models, first person interviews, radio transmissions, and other data documenting the events of Sept. 11, 2001. A general timeline for each of the towers is reported in NIST NCSTAR 1. Detailed timelines for specific aspects of the WTC disaster are reported in NIST NCSTAR 1-2, NIST NCSTAR 1-5, NIST NCSTAR 1-6, NIST NCSTAR 1-7, and NIST NCSTAR 1-8.</p>
+
+<hr>
+<h2 id="the-science"><a id="Science" name="Science"></a>The Science<a class="auto-anchor" title="Permalink to this item" href="#the-science"><img src="/libraries/nist-component-library/dist/img/link.svg" alt="permalink"></a></h2>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>14. Why did NIST conduct ASTM E119 testing of floor systems that were not representative of the condition of the fireproofing on Sept. 11, 2001? Why did NIST ignore the results of these tests—which showed that the floor system did not collapse—in its analysis of the thermal-structural response of the towers?</strong></p>
+</div>
+
+<p>NIST's review of available documents related to the design and construction of the WTC towers indicated that the fire performance of the composite floor system was an issue of concern to the building owners and designers from the original design and throughout the service life of the buildings (see NIST NCSTAR 1-6A). NIST found no evidence to determine the technical basis for the selection of fireproofing material for the WTC floor trusses and of the fireproofing thickness to achieve a 2-hour rating. Further, NIST found no evidence that fire resistance tests of the WTC towers' floor system were ever conducted.</p>
+
+<p>Therefore, NIST conducted a series of four Standard Fire Tests (ASTM E 119), as stated clearly in NIST NCSTAR 1-6B, to:</p>
+
+<ul>
+	<li>establish the baseline performance of the floor system of the WTC towers as they were originally built;</li>
+	<li>differentiate the factors (thermal restraint, fireproofing thickness, and scale of test) that most influenced the collapse of the WTC towers as they may relate to normal building and fire safety considerations and those unique to the attacks of Sept. 11, 2001; and</li>
+	<li>study the procedures and practices used to accept an innovative (at the time) structural and fireproofing system.</li>
+</ul>
+
+<p>The thickness of fireproofing material used in this series of four tests ranged from ½ inch to ¾ inch. This range of thickness was, indeed, consistent with the thickness of fireproofing as originally applied to the floor steel in the WTC towers.<br>
+NIST concluded from its aircraft impact analyses (see NIST NCSTAR 1-2) that the fireproofing was dislodged as a result of the aircraft debris and dispersed fuel traveling, initially, over 500 miles per hour (700 feet/second). Since the test assemblies for all four Standard Fire Tests were protected with sprayed fire-resistant material (SFRM), conclusions could not be drawn for the response of the WTC towers to the fires on Sept. 11, 2001, because the aircraft impact resulted in there having been unprotected steel in the fire-affected region.</p>
+
+<p>The fire-affected floors in WTC 2 had the originally applied fireproofing, which was specified to be ½ inch and averaged approximately ¾ inch in thickness. The fire-affected floors of WTC 1 had upgraded fireproofing on the order of 2½ inch thickness. However, the fireproofing thickness did not matter, since much of the fireproofing was dislodged as a result of the aircraft debris and dispersed fuel.</p>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>15. Why didn't NIST consider the "base" and "less severe" cases throughout its analysis of the WTC towers? What was the technical basis for selecting only the "more severe" case for its analyses?</strong></p>
+</div>
+
+<p>All three cases (the base case, less severe case and more severe case) are reasonable and realistic representations, each within the range of uncertainty, of the conditions in the WTC towers on Sept. 11, 2001. Of the three, the more severe case resulted in the closest agreement with the visual and physical evidence. (Refer to NIST NCSTAR 1-2, Section 7.1 and NIST NCSTAR 1-6, Section 9.2.4.)</p>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>16. What was the source of the material properties that were used in NIST's thermal/structural analyses of the WTC towers? Were these properties obtained from physical testing of steel recovered from the WTC towers?</strong></p>
+</div>
+
+<p>NIST conducted extensive property measurement tests on the recovered WTC steel, which included all the many grades of structural steel used in the WTC towers. To account for natural variation in properties from different batches of manufactured steel, NIST augmented the experimental data with published data for steels of the same construction era. These data included room temperature, high-strain rate, and high-temperature mechanical properties, along with physical properties.</p>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>17. The collapse sequence for WTC 1 proposed by NIST includes aircraft impact, core weakening, floor sagging and disconnection, inward bowing of the south wall, and collapse initiation. If the floors are disconnecting from the south wall, how were the floors able to exert forces on the exterior walls to cause the inward bowing?</strong></p>
+</div>
+
+<p>Analyses of the composite floor system under fire exposures determined from fire dynamics simulations and thermal analyses, predicted sagging subsequent to truss web diagonal buckling and failure of some seated connections (see NIST NCSTAR 1-6C). However, the vast majority of the connections remained intact. Further, the shear studs that attached the floor slab to the spandrel and the diagonal steel struts that connected the truss top chord to the intermediate columns also were capable of transferring inward pull forces. Thus, the sagging floors were capable of exerting an inward pull on the exterior columns and spandrel beams.</p>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>18. Was there enough gravitational energy present in the WTC towers to cause the collapse of the intact floors below the impact floors? Why weren't the collapses of WTC 1 and WTC 2 arrested by the intact structure below the floors where columns first began to buckle?</strong></p>
+</div>
+
+<p>Yes, there was more than enough gravitational load to cause the collapse of the floors below the level of collapse initiation in both WTC towers. The vertical capacity of the connections supporting an intact floor below the level of collapse was adequate to carry the load of 11 additional floors if the load was applied gradually and 6 additional floors if the load was applied suddenly (as was the case). Since the number of floors above the approximate floor of collapse initiation exceeded six in each WTC tower (12 floors in WTC 1 and 29 floors in WTC 2), the floors below the level of collapse initiation were unable to resist the suddenly applied gravitational load from the upper floors of the buildings.</p>
+
+<p>Consider a typical floor immediately below the level of collapse initiation and conservatively assume that the floor is still supported on all columns (i.e., the columns below the intact floor did not buckle or peel off due to the failure of the columns above). Consider further the truss seat connections between the primary floor trusses and the exterior wall columns or core columns. The individual connection capacities ranged from 94,000 pounds to 395,000 pounds, with a total vertical load capacity for the connections on a typical floor of 29,000,000 pounds (see Section 5.2.4 of NIST NCSTAR 1-6C). The total floor area outside the core was approximately 31,000 square feet, and the average load on a floor under service conditions on Sept. 11, 2001, was 80 pounds per square foot. Thus, the total vertical load on a floor outside the core can be estimated by multiplying the floor area (31,000 square feet) by the gravitational load (80 pounds per square foot), which yields 2,500,000 pounds (this is a conservative load estimate since it ignores the weight contribution of the heavier mechanical floors at the top of each WTC tower). By dividing the total vertical connection capacity (29,000,000 pounds) of a floor by the total vertical load applied to the connections (2,500,000 pounds), the number of floors that can be supported by an intact floor is calculated to be a total of 12 floors or 11 additional floors.</p>
+
+<p>This simplified and conservative analysis indicates that the floor connections could have carried only a maximum of about 11 additional floors if the load from these floors were applied statically. Even this number is (conservatively) high, since the load from above the collapsing floor is being applied suddenly. Since the dynamic amplification factor for a suddenly applied load is 2, an intact floor below the level of collapse initiation could not have supported more than six floors. Since the number of floors above the level where the collapse initiated exceeded six for both towers (12 for WTC 1 and 29 for WTC 2), neither tower could have arrested the progression of collapse once collapse initiated. In reality, the highest intact floor was about three (WTC 2) to six (WTC 1) floors below the level of collapse initiation. Thus, more than the 12 to 29 floors reported above actually loaded the intact floor suddenly.</p>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>19. Were the basic principles of conservation of momentum and energy satisfied in NIST's analyses of the structural response of the towers to the aircraft impact and the fires?</strong></p>
+</div>
+
+<p>Yes. The basic principles of conservation of momentum and conservation of energy were satisfied in these analyses.<br>
+In the case of the aircraft impact analyses, which involved a moving aircraft (velocity) and an initially stationary building, the analysis did, indeed, account for conservation of momentum and energy (kinetic energy, strain energy).</p>
+
+<p>After each tower had finished oscillating from the aircraft impact, the subsequent degradation of the structure involved only minute (essentially zero) velocities. Thus, a static analysis of the structural response and collapse initiation was appropriate. Since the velocities were zero and since momentum is equal to mass times velocity, the momentum terms also equaled zero and therefore dropped out of the governing equations. The analyses accounted for conservation of energy.</p>
+
+<hr>
+<h2 id="the-fires"><a id="Fires" name="Fires"></a>The Fires<a class="auto-anchor" title="Permalink to this item" href="#the-fires"><img src="/libraries/nist-component-library/dist/img/link.svg" alt="permalink"></a></h2>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>20. How did NIST derive the temperatures in the WTC towers and how valid are they?</strong></p>
+</div>
+
+<p>Using all the visual and physical evidence available, NIST conducted simulations of the fires in each of the towers from the time of airplane impact to the collapses. The computational model used to simulate the fires was NIST's Fire Dynamics Simulator (FDS). This model had been validated in numerous experiments and fire recreations prior to the NIST WTC investigation. Additional large-scale experiments conducted during the investigation (NIST NCSTAR 1-5) provided further assurance of the validity of the model output. This output was in the form of maps of the air temperatures on each of the floors over the duration of the fires (shown in NIST NCSTAR 1-5F).</p>
+
+<p>In a following set of computations, the evolving temperatures of the concrete and steel structural components of the towers were calculated by exposing them to the mapped air temperatures (shown in NIST NCSTAR 1-5G).</p>
+
+<p>Both sets of computations are based on the fundamental laws of combustion, heat transfer, and air flow. The methods have been documented extensively and have been successfully subjected to technical peer review and published in professional journals.</p>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>21. Since the melting point of steel is about 1,500 degrees Celsius (2,800 degrees Fahrenheit) and the temperature of a jet fuel fire does not exceed 1,000 degrees Celsius (1,800 degrees Fahrenheit), how could fires have impacted the steel enough to bring down the WTC towers?</strong></p>
+</div>
+
+<p>In no instance did NIST report that steel in the WTC towers melted due to the fires. The melting point of steel is about 1,500 degrees Celsius (2,800 degrees Fahrenheit). Normal building fires and hydrocarbon (e.g., jet fuel) fires generate temperatures up to about 1,100 degrees Celsius (2,000 degrees Fahrenheit). NIST reported maximum upper layer air temperatures of about 1,000 degrees Celsius (1,800 degrees Fahrenheit) in the WTC towers (for example, see NCSTAR 1, Figure 6-36).</p>
+
+<p>However, when bare steel reaches temperatures of 1,000 degrees Celsius, it softens and its strength reduces to roughly 10 percent of its room temperature value. Steel that is unprotected (e.g., if the fireproofing is dislodged) can reach the air temperature within the time period that the fires burned within the towers. Thus, yielding and buckling of the steel members (floor trusses, beams, and both core and exterior columns) with missing fireproofing were expected under the fire intensity and duration determined by NIST for the WTC towers.</p>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>22. NIST states that the fires in WTC 1 were generally ventilation limited. If this was the case, wouldn't the fires have burned out in about 2 minutes? Why do NIST's models show the fires burning longer?</strong></p>
+</div>
+
+<p>Nearly all fires are limited either by the burning rate of combustible fuel (fuel-limited fires) or by the availability of air (ventilation-limited fires). Many fires that are ventilation limited do continue to burn, with the burning rate determined by the chemistry of the combustion and the rate at which the oxygen arrives. This was generally the case for the WTC Tower fires. Of course, if the rate of air inflow were too slow (e.g., due to very few broken windows), the limited combustion would not have generated sufficient heat to continue pyrolyzing fuel, and the fire would have gone out. This was not the case on the fire floors in the WTC towers.</p>
+
+<p>The FDS, used to reconstruct the fires in the WTC towers, included the burning characteristics of the building combustibles and the ventilation through the broken windows and the damaged building façade. The simulation showed that there were ample perforations in the building façade to maintain the ventilation-limited combustion until the fuel supply was depleted.</p>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>23. We know that the sprinkler systems were activated because survivors reported water in the stairwells. If the sprinklers were working, how could there be a "raging inferno" in the WTC towers?</strong></p>
+</div>
+
+<p>Both the NIST calculations and interviews with survivors and firefighters indicated that the aircraft impacts severed the water pipes that carried the water to the sprinkler systems. The sprinklers were not operating on the principal fire floors.<br>
+However, there were ample sources of the water in the stairwells. The water pipes ran vertically within the stairwells. Moreover, there would have been copious water from the broken restroom supply lines and from the water tanks that supplied the initial water for the sprinklers. Thus, it is not surprising that evacuating occupants encountered a lot of water.</p>
+
+<p>Even if the automatic sprinklers had been operational, the sprinkler systems—which were installed in accordance with the prevailing fire safety code—were designed to suppress a fire that covered as much as 1,500 square feet on a given floor. This amount of coverage is capable of controlling almost all fires that are likely to occur in an office building. On Sept. 11, 2001, the jet-fuel-ignited fires quickly spread over most of the 40,000 square feet on several floors in each tower. This created infernos that could not have been suppressed even by an undamaged sprinkler system, much less one that had been appreciably degraded.</p>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>24. If thick black smoke is characteristic of an oxygen-starved, lower temperature, less intense fire, why was thick black smoke exiting the WTC towers when the fires inside were supposed to be extremely hot?</strong></p>
+</div>
+
+<p>Nearly all indoor large fires, including those of the principal combustibles in the WTC towers, produce large quantities of optically thick, dark smoke. This is because, at the locations where the actual burning is taking place, the oxygen is severely depleted and the combustibles are not completely oxidized to colorless carbon dioxide and water.</p>
+
+<p>The visible part of fire smoke consists of small soot particles whose formation is favored by the incomplete combustion associated with oxygen-depleted burning. Once formed, the soot from the tower fires was rapidly pushed away from the fires into less hot regions of the building or directly to broken windows and breaks in the building exterior. At these lower temperatures, the soot could no longer burn away. Thus, people saw the thick dark smoke characteristic of burning under oxygen-depleted conditions.</p>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>25. Why were people seen in the gaps left by the plane impacts if the heat from the fires behind them was so excessive?</strong></p>
+</div>
+
+<p>NIST believes that the persons seen were away from any strong heat source and most likely in an area that at the time was a point where the air for combustion was being drawn into the building to support the fires. Note that people were observed only in the openings in WTC 1.</p>
+
+<p>According to the International Standard ISO/TS 13571, people will be in severe pain within seconds if they are near the radiant heat level generated by a large fire. Thus, it is not surprising that none of the photographs show a person standing in those gaps where there also was a sizable fire.</p>
+
+<p>The fire behavior following the aircraft impacts is described in NIST NCSTAR 1-5A. In general, there was little sustained fire near the area where the aircraft hit the towers. Immediately upon impact of the aircraft, large fireballs from the atomized jet fuel consumed all the local oxygen. (This in itself would have made those locations rapidly unlivable.) The fireballs receded quickly and were followed by fires that grew inside the tower where there was a combination of combustible material, air, and an ignition source. Little combustible material remained near the aircraft entry gashes, since the aircraft "bulldozed" much of it toward the interior of the building. Also, some of the contents fell through the breaks in the floor to the stories below.</p>
+
+<p>Therefore, the people observed in these openings must have survived the aircraft impact and moved—once the fireballs had dissipated—to the openings where the temperatures were cooler and the air was clearer than in the building interior.</p>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>26. Why didn't NIST conduct large-scale/small-scale tests to evaluate the response of the WTC towers structures to the aircraft impact and the fires in the buildings?</strong></p>
+</div>
+
+<p>For studying the impact on a 110-story building by an actual Boeing 767 aircraft, a full-scale test was not feasible. For a test to capture the response of the towers as a system, it would have been necessary to construct a test assembly that included the core columns, exterior columns, floors and hat truss. Even to replicate experimentally the response of the floors near and above the impact zones would have required test assemblies of about 20 stories for WTC 1 and 30 stories for WTC 2. No facility exists to conduct such a test, either with fire or in the absence of fire; and, indeed, such tests are not conducted in current engineering practice.</p>
+
+<p>Therefore, NIST relied on high-fidelity finite element modeling of the aircraft impact event and subsequent fires. The analyses were calibrated against the observed structural response of the towers upon impact (videos, photographs, and physical evidence) and the evolution of the ensuing fires.</p>
+
+<p>NIST did not conduct reduced-scale system-level tests because there are no generally accepted scaling laws that apply to fire propagation, temperature evolution, and structural response.</p>
+
+<p>Furthermore, fire test facilities with the capability to apply arbitrary fire exposures (in contrast to the standard time-temperature exposure) and arbitrary loads to structural components did not exist in the United States at the time of the investigation. Even had such a facility existed, each large-scale structural fire test would have evaluated only a single set of conditions, e.g., structural system, fire exposure, amount of fireproofing, etc. Even a modest parametric series of such tests would have been prohibitively expensive.</p>
+
+<p>NIST did conduct full-scale fire tests of single and multiple workstations. These tests were of sufficient size to properly capture the combustion physics. These tests established burning histories, mass burning rates, and heat release rates. The results were used to validate the fire dynamics calculations for fire growth and spread (see NIST NCSTAR 1-5E). NIST also conducted full-scale fire tests exposing insulated and bare structural elements to real fires to validate the fire and thermal modeling approaches (see NIST NCSTAR 1-5B).</p>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>27. NIST conducted a single workstation burn and a multiple workstation burn as a part of its investigation. Why did NIST only provide temperature data for one of these tests? Was the ventilation used in these tests representative of the ventilation that was present in the WTC towers on Sept. 11, 2001?</strong></p>
+</div>
+
+<p>As documented in NIST NCSTAR 1-5C, a series of tests of single workstations was conducted to gain an appreciation for the open burning behavior and the general effect of jet fuel. The principal quantity measured was the rate of heat release. This quantity, combined with the ventilation, heat losses to walls, etc., determines the temperatures that would be reached if the workstation were burned in an actual fire. NIST NCSTAR 1-5C contains the heat release rate curves from all of the single workstation fires. The series of multiple workstation fire tests, conducted in a replication of part of a WTC floor, is fully documented in NIST NCSTAR 1-5E. In these tests, the window openings were close to the same size and layout as in the fire floors in the towers. There was no glass in the windows, replicating the broken windows seen in the photographs of the vicinity of the tower fires. The report includes plots of the heat release rate and temperature histories in multiple locations for all of the tests.</p>
+
+<hr>
+<h2 id="alternate-theories"><a id="Theories" name="Theories"></a>Alternate Theories<a class="auto-anchor" title="Permalink to this item" href="#alternate-theories"><img src="/libraries/nist-component-library/dist/img/link.svg" alt="permalink"></a></h2>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>28. Why didn't NIST consider a "controlled demolition" hypothesis with matching computer modeling and explanation like it did for the "pancake theory" hypothesis?</strong></p>
+</div>
+
+<p>NIST conducted an extremely thorough three-year investigation that included consideration of a number of hypotheses for the collapses of the WTC towers.</p>
+
+<p>Some 200 technical experts—including about 85 career NIST experts and 125 leading experts from the private sector and academia—reviewed tens of thousands of documents, interviewed more than 1,000 people, reviewed 7,000 segments of video footage and 7,000 photographs, analyzed 236 pieces of steel from the wreckage, performed laboratory tests, and created sophisticated computer simulations of the sequence of events that occurred from the moment the aircraft struck the towers until they began to collapse.</p>
+
+<p>Based on its comprehensive investigation, NIST concluded that the WTC towers collapsed according to the scenario detailed in the response to Question 11.</p>
+
+<p>NIST's findings do not support the "pancake theory" of collapse, which is premised on a progressive failure of the floor systems in the WTC towers (the composite floor system—that connected the core columns and the perimeter columns—consisted of a grid of steel "trusses" integrated with a concrete slab; see diagram). Instead, the NIST investigation showed conclusively that the failure of the inwardly bowed perimeter columns initiated collapse and that the occurrence of this inward bowing required the sagging floors to remain connected to the columns and pull the columns inwards. Thus, the floors did not fail progressively to cause a pancaking phenomenon.</p>
+
+ 
+      <figure role="group" class=" align-center nist-image--lightbox nist-image" data-once="lightbox-image">
+<div data-lightbox="https://www.nist.gov/sites/default/files/styles/2800_x_2800_limit/public/images/el/disasterstudies/wtc/wtctowerstrussdiagramforfaqs_2.jpg?itok=HEB7LXZM" data-media-id="182031" class="lightbox-image">
+      
+    <a href="https://www.nist.gov/sites/default/files/styles/2800_x_2800_limit/public/images/el/disasterstudies/wtc/wtctowerstrussdiagramforfaqs_2.jpg?itok=HEB7LXZM" aria-label="Enlarge this image" class="nist-image__lightbox-trigger"><img height="251" loading="lazy" src="/sites/default/files/styles/480_x_480_limit/public/images/el/disasterstudies/wtc/wtctowerstrussdiagramforfaqs_2.jpg?itok=TDTRugCY" typeof="foaf:Image" width="480"></a>
+
+
+
+
+                        
+    <div class="nist-image__lightbox-links"><a href="https://www.nist.gov/sites/default/files/styles/2800_x_2800_limit/public/images/el/disasterstudies/wtc/wtctowerstrussdiagramforfaqs_2.jpg?itok=HEB7LXZM" download="">Download</a> | <a href="/media/182031">Image info</a></div></div>
+<figcaption class="nist-image__caption">Diagram of the Composite WTC Floor System</figcaption>
+</figure>
+
+  
+
+<p>NIST's findings also do not support the "controlled demolition" theory since there is conclusive evidence that:</p>
+
+<ul>
+	<li>the collapse was initiated in the impact and fire floors of the WTC towers and nowhere else, and;</li>
+	<li>the time it took for the collapse to initiate (56 minutes for WTC 2 and 102 minutes for WTC 1) was dictated by (1) the extent of damage caused by the aircraft impact, and (2) the time it took for the fires to reach critical locations and weaken the structure to the point that the towers could not resist the tremendous energy released by the downward movement of the massive top section of the building at and above the fire and impact floors.</li>
+</ul>
+
+<p>Video evidence also showed unambiguously that the collapse progressed from the top to the bottom, and there was no evidence (collected by NIST or by the New York City Police Department, the Port Authority Police Department, or the Fire Department of New York) of any blast or explosions in the region below the impact and fire floors as the top building sections (including and above the 98th floor in WTC 1 and the 82nd floor in WTC 2) began their downward movement upon collapse initiation.</p>
+
+<p>In summary, NIST found no corroborating evidence for alternative hypotheses suggesting that the WTC towers were brought down by controlled demolition using explosives. NIST also did not find any evidence that missiles were fired at or hit the towers. Instead, photographs and videos from several angles clearly show that the collapse initiated at the fire and impact floors and that the collapse progressed from the initiating floors downward until the dust clouds obscured the view.</p>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>29. Did the NIST investigation look for evidence of the WTC towers being brought down by controlled demolition? Was the steel tested for explosives or thermite residues?</strong></p>
+</div>
+
+<p>NIST did not test for the residue of these compounds in the steel.</p>
+
+<p>The responses to previous questions demonstrate why NIST concluded that there were no explosives or controlled demolition involved in the collapses of the WTC towers.</p>
+
+<p>As for thermite (a mixture of powdered or granular aluminum metal and powdered iron oxide that burns at extremely high temperatures when ignited), it burns slowly relative to explosive materials and would require several minutes in contact with a massive steel section to heat it to a temperature that would result in substantial weakening. Separate from the WTC towers investigation, NIST researchers estimated that at least 0.13 pounds of thermite would be required to heat each pound of a steel section to approximately 700 degrees Celsius (the temperature at which steel weakens substantially). Therefore, while a thermite reaction can cut through large steel columns, many thousands of pounds of thermite would need to have been placed inconspicuously ahead of time, remotely ignited, and somehow held in direct contact with the surface of hundreds of massive structural components to weaken the building. This makes it an unlikely substance for achieving a controlled demolition.</p>
+
+<p>Analysis of the WTC steel for the elements in thermite/thermate would not necessarily have been conclusive. The metal compounds also would have been present in the construction materials making up the WTC towers, and sulfur is present in the gypsum wallboard that was prevalent in the interior partitions.</p>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>30. Why were two distinct spikes—one for each tower—seen in seismic records before the towers collapsed? Isn't this indicative of an explosion occurring in each tower?</strong></p>
+</div>
+
+<p>The seismic spikes for the collapse of the WTC towers are the result of debris from the collapsing towers impacting the ground. The spikes began approximately 10 seconds after the times for the start of each building's collapse and continued for approximately 15 seconds. There were no seismic signals that occurred prior to the initiation of the collapse of either tower. The seismic record contains no evidence that would indicate explosions occurring prior to the collapse of the towers.</p>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>31. How could the WTC towers collapse in only 11 seconds (WTC 1) and 9 seconds (WTC 2)—speeds that approximate that of a ball dropped from similar height in a vacuum (with no air resistance)?</strong></p>
+</div>
+
+<p>NIST estimated the elapsed times for the first exterior panels to strike the ground after the collapse initiated in each of the towers to be approximately 11 seconds for WTC 1 and approximately 9 seconds for WTC 2. These elapsed times were based on: (1) precise timing of the initiation of collapse from video evidence, and (2) ground motion (seismic) signals recorded at Palisades, N.Y., that also were precisely time-calibrated for wave transmission times from lower Manhattan (see NIST NCSTAR 1-5A).</p>
+
+<p>As documented in Section 6.14.4 of NIST NCSTAR 1, these collapse times show that:<br>
+"The structure below the level of collapse initiation offered minimal resistance to the falling building mass at and above the impact zone. The potential energy released by the downward movement of the large building mass far exceeded the capacity of the intact structure below to absorb that energy through energy of deformation.</p>
+
+<p>Since the stories below the level of collapse initiation provided little resistance to the tremendous energy released by the falling building mass, the building section above came down essentially in free fall, as seen in videos. As the stories below sequentially failed, the falling mass increased, further increasing the demand on the floors below, which were unable to arrest the moving mass."</p>
+
+<p>In other words, the momentum (which equals mass times velocity) of the 12 to 28 stories (WTC 1 and WTC 2, respectively) falling on the supporting structure below (which was designed to support only the static weight of the floors above and not any dynamic effects due to the downward momentum) so greatly exceeded the strength capacity of the structure below that it (the structure below) was unable to stop or even to slow the falling mass. The downward momentum felt by each successive lower floor was even larger due to the increasing mass.</p>
+
+<p>From video evidence, significant portions of the cores of both buildings (roughly 60 stories of WTC 1 and 40 stories of WTC 2) are known to have stood 15 to 25 seconds after collapse initiation before they, too, began to collapse. Neither the duration of the seismic records nor video evidence (due to obstruction of view caused by debris clouds) are reliable indicators of the total time it took for each building to collapse completely.</p>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>32. Weren't the puffs of smoke that were seen, as the collapse of each WTC tower starts, evidence of controlled demolition explosions?</strong></p>
+</div>
+
+<p>No. As stated in Section 6.14.4 of NIST NCSTAR 1, the falling mass of the building compressed the air ahead of it—much like the action of a piston—forcing smoke and debris out the windows as the stories below failed sequentially.</p>
+
+<p>These puffs were observed at many locations as the towers collapsed. In all cases, they had the appearance of jets of gas being pushed from the building through windows or between columns on the mechanical floors. Such jets are expected since the air inside the building is compressed as the tower falls and must flow somewhere as the pressure builds. It is significant that similar "puffs" were observed numerous times on the fire floors in both towers prior to their collapses, perhaps due to falling walls or portions of a floor. Puffs from WTC 1 were even observed when WTC 2 was struck by the aircraft. These observations confirm that even minor overpressures were transmitted through the towers and forced smoke and debris from the building.</p>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>33. Why does NIST state that a yellow stream of molten metal seen in some photographs pouring down the side of WTC2 was aluminum from the crashed plane, even though aluminum burns with a white glow?</strong></p>
+</div>
+
+<p>NIST reported (NIST NCSTAR 1-5A) that just before 9:52 a.m., a bright spot appeared at the top of a window on the 80th floor of WTC 2, four windows removed from the east edge on the north face, followed by the flow of a glowing liquid. This flow lasted approximately four seconds before subsiding. Many such liquid flows were observed from near this location in the seven minutes leading up to the collapse of this tower. There is no evidence of similar molten liquid pouring out from another location in WTC 2 or from anywhere within WTC 1.</p>
+
+<p>Photographs, as well as NIST simulations of the aircraft impact, show large piles of debris in the 80th and 81st floors of WTC 2 near the site where the glowing liquid eventually appeared. Much of this debris came from the aircraft itself and from the office furnishings that the aircraft pushed forward as it tunneled to this far end of the building. Large fires developed on these piles shortly after the aircraft impact and continued to burn in the area until the tower collapsed.</p>
+
+<p>NIST concluded that the source of the molten material was aluminum alloys from the aircraft, since these are known to melt between 475 degrees Celsius (900 degrees Fahrenheit) and 640 degrees Celsius (1,200 degrees Fahrenheit)—depending on the particular alloy—well below the expected temperatures (about 1,000 degrees Celsius or 1,800 degrees Fahrenheit) in the vicinity of the fires. Aluminum is not expected to ignite at normal fire temperatures and there is no visual indication that the material flowing from the tower was burning.</p>
+
+<p>Pure liquid aluminum would be expected to appear silvery. However, the molten metal was very likely mixed with large amounts of hot, partially burned, solid organic materials (e.g., furniture, carpets, partitions and computers) which can display an orange glow, much like logs burning in a fireplace. The apparent color also would have been affected by slag formation on the surface.</p>
+
+<div class="bg-accent-cool-lighter padding-2 margin-bottom-3">
+<p><strong>34. Why didn't the NIST investigation consider reports of molten steel in the wreckage from the WTC towers?</strong></p>
+</div>
+
+<p>NIST investigators and experts from the American Society of Civil Engineers (ASCE) and the Structural Engineers Association of New York (SEONY)—who inspected the WTC steel at the WTC site and the salvage yards—found no evidence that would support the melting of steel in a jet-fuel ignited fire in the towers prior to collapse. The condition of the steel in the wreckage of the WTC towers (i.e., whether it was in a molten state or not) was irrelevant to the investigation of the collapse since it does not provide any conclusive information on the condition of the steel when the WTC towers were standing.</p>
+
+<hr>
+<p><em>* Sept 2021 update included minor edits and reordering the questions. We are providing <a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="57e3f1d2-64d9-479d-9fb1-f15e0ae4677f" href="/world-trade-center-investigation/faq-number-key" media_library="Media Library" title="FAQ Number Key">a key</a> that will help you match old question number to new question number in case you are looking for a specific reference.</em></p>
+
+  
+  </div>
+        
+  </div>
+  <div class="nist-block">
+  
+    
+      <!-- nist-index-ignore-start -->
+<div data-elastic-exclude="" class="nist-tags">
+<a href="/topic-terms/structural-engineering" hreflang="en">Structural engineering</a>, <a href="/topic-terms/fire" hreflang="en">Fire</a> and <a href="/topic-terms/disaster-and-failure-studies" hreflang="en">Disaster and failure studies</a></div>
+<!-- nist-index-ignore-end -->
+
+        
+  </div>
+
+<div class="nist-block nist-block--contact">
+  
+  <h2 class="nist-block__title" id="contacts">Contacts<a class="auto-anchor" title="Permalink to this item" href="#contacts"><img src="/libraries/nist-component-library/dist/img/link.svg" alt="permalink"></a></h2>
+      
+        
+
+<div class="nist-contact">
+        <ul class="nist-contact__items">
+      
+  <li about="/people/jennifer-huergo" class="nist-contact__item">
+            <div class="nist-contact__name"><a href="/people/jennifer-huergo" title="View staff profile page">Jennifer Huergo</a></div>
+    
+      
+  <div>
+    <a href="mailto:jennifer.huergo@nist.gov">jennifer.huergo@nist.gov</a>
+  </div>
+  <div>
+    (301) 975-6343
+  </div>
+
+
+
+  </li>
+
+      
+    </ul>
+  </div>
+
+
+        
+  </div>
+
+<div class="nist-block">
+  
+    
+      <div class="text-italic font-sans-2xs">
+  Created September 14, 2011, Updated April 5, 2022
+</div>
+        
+  </div>
+
+          </div>
+          
+                  </div>
+      </div>
+    </div>
+  </div>
+
+    
+    <div class="grid-container">
+
+    
+  </div>
+  
+</section>
+
+
+        
+  </div>
+
+
+  
+    
+<div class="nist-page-feedback__block">
+  <a class="usa-button usa-button--outline webform-dialog webform-dialog-narrow nist-page-feedback__button" href="/webform/page_feedback?page=https://www.nist.gov/world-trade-center-investigation/study-faqs/wtc-towers-investigation&amp;page_title=FAQs - NIST WTC Towers Investigation&amp;source_entity_type=node&amp;source_entity_id=424641" data-dialog-options="{&quot;dialogClass&quot;:&quot;no-titlebar page-feedback&quot;}" rel="nofollow" data-once="feedback-button-processed webform-dialog">
+    Was this page helpful?
+  </a>
+</div>
+
+<div data-elastic-exclude="">
+<!-- nist-index-ignore-start -->
+
+<footer class="nist-footer padding-bottom-4">
+
+  
+    <div class="grid-container nist-footer__info">
+      <div class="grid-row">
+        <div class="tablet:grid-col-6">
+          <div class="nist-footer__logo">
+            <a href="/" title="National Institute of Standards and Technology" rel="home">
+              <img class="nist-footer__logo-img" src="/libraries/nist-component-library/dist/img/logo/NIST-Logo-Brand-White.svg" alt="National Institute of Standards and Technology logo" width="300px" height="42px">
+            </a>
+          </div>
+          <div class="nist-footer__contact">
+            <h3 class="nist-footer__contact-heading">HEADQUARTERS</h3>
+            <address>
+              100 Bureau Drive<br>
+              Gaithersburg, MD 20899<br>
+              <a href="tel:301-975-2000">301-975-2000</a>
+            </address>
+            <p>
+              <a href="mailto:do-webmaster@nist.gov">Webmaster</a> | <a href="https://www.nist.gov/contact">Contact Us</a> | <a href="https://www.nist.gov/visit">Our Other Offices</a>
+            </p>
+          </div>
+        </div>
+        <div class="tablet:grid-col-6">
+          <div class="nist-footer__social-links">
+            
+<a class="nist-social nist-social--x-white ext" href=" https://x.com/NIST" data-extlink="">
+  <span>X.com</span>
+</a><svg focusable="false" width="1em" height="1em" class="ext" data-extlink-placement="after" aria-label="(link is external)" viewBox="0 0 80 40" role="img" aria-hidden="false"><title>(link is external)</title><path d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z"></path><path d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z"></path></svg>
+            
+<a class="nist-social nist-social--facebook-white ext" href=" https://www.facebook.com/NIST" data-extlink="">
+  <span>Facebook</span>
+</a><svg focusable="false" width="1em" height="1em" class="ext" data-extlink-placement="after" aria-label="(link is external)" viewBox="0 0 80 40" role="img" aria-hidden="false"><title>(link is external)</title><path d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z"></path><path d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z"></path></svg>
+            
+<a class="nist-social nist-social--linkedin-white ext" href=" https://www.linkedin.com/company/nist" data-extlink="">
+  <span>LinkedIn</span>
+</a><svg focusable="false" width="1em" height="1em" class="ext" data-extlink-placement="after" aria-label="(link is external)" viewBox="0 0 80 40" role="img" aria-hidden="false"><title>(link is external)</title><path d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z"></path><path d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z"></path></svg>
+            
+<a class="nist-social nist-social--instagram-white ext" href=" https://www.instagram.com/nist/" data-extlink="">
+  <span>Instagram</span>
+</a><svg focusable="false" width="1em" height="1em" class="ext" data-extlink-placement="after" aria-label="(link is external)" viewBox="0 0 80 40" role="img" aria-hidden="false"><title>(link is external)</title><path d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z"></path><path d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z"></path></svg>
+            
+<a class="nist-social nist-social--youtube-white ext" href=" https://www.youtube.com/NIST" data-extlink="">
+  <span>YouTube</span>
+</a><svg focusable="false" width="1em" height="1em" class="ext" data-extlink-placement="after" aria-label="(link is external)" viewBox="0 0 80 40" role="img" aria-hidden="false"><title>(link is external)</title><path d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z"></path><path d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z"></path></svg>
+            
+<a class="nist-social nist-social--giphy-white ext" href=" https://giphy.com/nist" data-extlink="">
+  <span>Giphy</span>
+</a><svg focusable="false" width="1em" height="1em" class="ext" data-extlink-placement="after" aria-label="(link is external)" viewBox="0 0 80 40" role="img" aria-hidden="false"><title>(link is external)</title><path d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z"></path><path d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z"></path></svg>
+            
+<a class="nist-social nist-social--rss-white" href=" https://www.nist.gov/news-events/nist-rss-feeds">
+  <span>RSS Feed</span>
+</a>
+            
+<a class="nist-social nist-social--envelope-white ext" href=" https://public.govdelivery.com/accounts/USNIST/subscriber/new" data-extlink="">
+  <span>Mailing List</span>
+</a><svg focusable="false" width="1em" height="1em" class="ext" data-extlink-placement="after" aria-label="(link is external)" viewBox="0 0 80 40" role="img" aria-hidden="false"><title>(link is external)</title><path d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z"></path><path d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z"></path></svg>
+          </div>
+                              <div class="nist-footer__feedback">How are we doing?
+                        <a class="usa-button webform-dialog webform-dialog-narrow" href="/webform/nist_gov_feedback?page=/world-trade-center-investigation/study-faqs/wtc-towers-investigation" title="Provide feedback" rel="nofollow" data-dialog-options="{&quot;dialogClass&quot;:&quot;no-titlebar page-feedback&quot;}" data-once="webform-dialog">Feedback</a>
+          </div>
+                  </div>
+      </div>
+    </div>
+
+  
+  <div class="grid-container">
+    <div class="nist-footer__nav" role="navigation">
+      <ul>
+                              <li class="nist-footer__menu-item">
+              <a href="https://www.nist.gov/privacy-policy">Site Privacy</a>
+            </li>
+                      <li class="nist-footer__menu-item">
+              <a href="https://www.nist.gov/oism/accessibility">Accessibility</a>
+            </li>
+                      <li class="nist-footer__menu-item">
+              <a href="https://www.nist.gov/privacy">Privacy Program</a>
+            </li>
+                      <li class="nist-footer__menu-item">
+              <a href="https://www.nist.gov/copyrights-disclaimers">Copyright &amp; Disclaimers</a>
+            </li>
+                      <li class="nist-footer__menu-item">
+              <a href="https://www.commerce.gov/vulnerability-disclosure-policy">Vulnerability Disclosure</a>
+            </li>
+                      <li class="nist-footer__menu-item">
+              <a href="https://www.nist.gov/no-fear-act-policy">No Fear Act Policy</a>
+            </li>
+                      <li class="nist-footer__menu-item">
+              <a href="https://www.nist.gov/office-director/freedom-information-act">FOIA</a>
+            </li>
+                      <li class="nist-footer__menu-item">
+              <a href="https://www.nist.gov/environmental-policy-statement">Environmental Policy</a>
+            </li>
+                      <li class="nist-footer__menu-item">
+              <a href="https://www.nist.gov/summary-report-scientific-integrity">Scientific Integrity</a>
+            </li>
+                      <li class="nist-footer__menu-item">
+              <a href="https://www.nist.gov/nist-information-quality-standards">Information Quality Standards</a>
+            </li>
+                      <li class="nist-footer__menu-item">
+              <a href="https://www.commerce.gov/">Commerce.gov</a>
+            </li>
+                      <li class="nist-footer__menu-item">
+              <a href="http://www.science.gov/">Science.gov</a>
+            </li>
+                      <li class="nist-footer__menu-item">
+              <a href="http://www.usa.gov/">USA.gov</a>
+            </li>
+                      <li class="nist-footer__menu-item">
+              <a href="https://vote.gov/">Vote.gov</a>
+            </li>
+                        </ul>
+    </div>
+  </div>
+
+    
+</footer>
+<!-- nist-index-ignore-end -->
+</div>
+  
+  </div>
+
+    
+    
+  <script src="/sites/default/files/js/js_wfpuV0_zbp-7RlS44w8W0dGQi41Vwi75O_5sL_TvceI.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=nist_www&amp;include=eJxlj2sSgyAMhC9E5UjMIgGpQBzAweOXotOx7Z8kXx47G-yVFdK8cC4SNxAa86o6V97krVbPIuiowadVmrxvCNOFwjG7QKrCSdfDL0944vhuRpF8qdIF1giPrjxwIRjKH4xwyVs_D1LW92vDLQWGUTV3Zz51LZzjDY6UJTJvy_K_dW7VhWL3wBw0sopspPEFuiuPR8ZOa-1mrJG2nKO88mQ8ArsXOZ57zg"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"37b7ccb661","applicationID":"1089704227","transactionName":"YFxUN0sADEdYVkBaClkWdwBNCA1aFkVVVABoWlcAUQQ=","queueTime":9,"applicationTime":29,"atts":"TBtDQQMaHxgbVBYJHkpE","errorBeacon":"bam.nr-data.net","agent":""}</script><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a257d361b845f56e',t:'MTc4NTc4NjM1OA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; visibility: hidden;"></iframe><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;9ef5b487afff42a68917b2d63593a474&quot;}" crossorigin="anonymous"></script>
+
+
+<nav aria-label="Back to top"><button id="backtotop" aria-label="Back to top" data-once="backtotop">Back to top</button></nav><div id="drupal-live-announce" class="visually-hidden" aria-live="polite" aria-busy="false"></div><div id="drupal-modal" class="ui-front" style="display: none;"></div></body></html>
