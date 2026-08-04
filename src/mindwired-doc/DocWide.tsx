@@ -116,6 +116,12 @@ export type DocScene = {
   exhibit?: boolean;
   source?: string;          // exhibit citation lower-third ("MIT Study, 2014 · p.14")
   highlight?: number[];     // [x,y,w,h] fractional highlight/zoom target
+  /** Opaque redaction bars drawn over the exhibit page, [[x,y,w,h],…] in the same
+   *  0-1 page fractions as `highlight`. For real filings that carry passages this
+   *  channel does not put on screen (injury detail, identifying data) sitting too
+   *  close to the cited line to exclude by framing. Visibly a redaction — the
+   *  standard document-journalism move — never a silent crop. */
+  redact?: number[][];
   /** DOSSIER beat (docs/guides/DOSSIER-SCENES.md): the illustrated sibling of
    *  `exhibit` for beats with ZERO real photo/footage coverage (an unfilmable
    *  moment, an abstraction) — hand-cut paper-collage "case file" look, always
@@ -350,18 +356,32 @@ const TextSceneBg: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: nu
   const fadeIn = interpolate(frame, [0, 14], [0, 1], { extrapolateRight: "clamp" });
   const drift = interpolate(frame, [0, 1400], [1.06, 1.18], { extrapolateRight: "clamp" });
   const tb = th?.textBg ?? { fg: 0.62, bg: 0.5, blur: 10 };
+  // Document-first channels (tb from the theme): the page COVERS the frame with a
+  // slow drift, so the type is large and the frame is full. The photo path's
+  // blurred-backdrop-plus-contained-copy read as a shrunken page floating on a
+  // gray smear once the source was a portrait court filing (Akshay, 2026-08-03:
+  // "it looks so small n weird") — correct for a photo, wrong for paper.
+  const paper = !!th?.textBg;
   return (
     <AbsoluteFill style={{ opacity: fadeIn }}>
-      {/* blurred cover backdrop fills the frame regardless of source aspect ratio */}
-      <Img src={staticFile(`shorts/${slug}/images/${file}`)}
-        style={{ width: "100%", height: "100%", objectFit: "cover", transform: `scale(${drift * 1.15})`,
-          filter: `brightness(${tb.bg}) saturate(0.85) blur(${tb.blur}px)` }} />
-      {/* sharp foreground never crops — portrait sources stay pillarboxed instead of losing content */}
-      <AbsoluteFill style={{ justifyContent: "center", alignItems: "center" }}>
+      {paper ? (
         <Img src={staticFile(`shorts/${slug}/images/${file}`)}
-          style={{ maxWidth: "100%", maxHeight: "100%", width: "auto", height: "auto", objectFit: "contain",
-            transform: `scale(${drift})`, filter: `brightness(${tb.fg}) saturate(0.85)` }} />
-      </AbsoluteFill>
+          style={{ width: "100%", height: "100%", objectFit: "cover",
+            objectPosition: "center 22%",
+            transform: `scale(${drift})`,
+            filter: `brightness(${tb.fg}) contrast(1.06) saturate(0.7) blur(${Math.max(4, tb.blur - 11)}px)` }} />
+      ) : (
+        <>
+          <Img src={staticFile(`shorts/${slug}/images/${file}`)}
+            style={{ width: "100%", height: "100%", objectFit: "cover", transform: `scale(${drift * 1.15})`,
+              filter: `brightness(${tb.bg}) saturate(0.85) blur(${tb.blur}px)` }} />
+          <AbsoluteFill style={{ justifyContent: "center", alignItems: "center" }}>
+            <Img src={staticFile(`shorts/${slug}/images/${file}`)}
+              style={{ maxWidth: "100%", maxHeight: "100%", width: "auto", height: "auto", objectFit: "contain",
+                transform: `scale(${drift})`, filter: `brightness(${tb.fg}) saturate(0.85)` }} />
+          </AbsoluteFill>
+        </>
+      )}
       <AbsoluteFill style={{ background: "radial-gradient(circle, rgba(4,6,10,0.12) 0%, rgba(4,6,10,0.72) 82%)" }} />
     </AbsoluteFill>
   );
@@ -625,12 +645,19 @@ const ExhibitScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: n
       <AbsoluteFill style={{ background: "rgba(3,4,7,0.55)" }} />
       {file && (
         <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", opacity: fadeIn }}>
-          <div style={{ position: "relative", height: "78%",
+          <div style={{ position: "relative", height: "88%",
             transform: `translate(${shiftX}px, ${shiftY}px) scale(${zoom})` }}>
             <Img src={staticFile(`shorts/${slug}/images/${file}`)}
               style={{ height: "100%", width: "auto", objectFit: "contain", display: "block",
                 boxShadow: "0 24px 80px rgba(0,0,0,0.8)", border: "1px solid rgba(255,255,255,0.12)",
                 filter: "contrast(1.05) brightness(1.03)" }} />
+            {(s.redact ?? []).map((r, i) => r.length === 4 && (
+              <div key={`rd${i}`} style={{ position: "absolute",
+                left: `${r[0] * 100}%`, top: `${r[1] * 100}%`,
+                width: `${r[2] * 100}%`, height: `${r[3] * 100}%`,
+                background: "#0A0C10", border: "1px solid rgba(255,255,255,0.16)",
+                borderRadius: 2 }} />
+            ))}
             {hl && (
               <div style={{ position: "absolute", left: `${hl[0] * 100}%`, top: `${hl[1] * 100}%`,
                 width: `${hl[2] * 100}%`, height: `${hl[3] * 100}%`,

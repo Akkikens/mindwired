@@ -94,7 +94,8 @@
         ],
         "sub": "University of Idaho · November 13, 2022"
       },
-      "tone": "grave"
+      "tone": "grave",
+      "img": "ex_docpage"
     },
     {
       "id": "c1_ch",
@@ -217,8 +218,92 @@
       "tone": "grave"
     },
     {
+      "id": "c2b_ch",
+      "chapter": "Chapter three\nFour passes",
+      "text": "Before any of that, the neighbourhood's own cameras recorded something nobody noticed for weeks.",
+      "img": "ex_docpage",
+      "tone": "measured"
+    },
+    {
+      "id": "c2b_1",
+      "text": "Footage pulled from multiple cameras around King Road showed the same car, repeatedly, in the hour before the killings. The first sighting was at three twenty nine in the morning.",
+      "exhibit": true,
+      "img": "ex_passes",
+      "source": "Probable cause affidavit, p.7 — neighbourhood video review",
+      "highlight": [
+        0.12,
+        0.33,
+        0.76,
+        0.09
+      ],
+      "cap": "First sighting: 3:29 a.m.",
+      "tone": "grave"
+    },
+    {
+      "id": "c2b_2",
+      "text": "The sightings continue, on and off, until four twenty in the morning. The affidavit describes multiple appearances of the same suspect vehicle across that window.",
+      "exhibit": true,
+      "img": "ex_passes",
+      "source": "Probable cause affidavit, p.7 — sightings from 3:29 to 4:20 a.m.",
+      "highlight": [
+        0.12,
+        0.42,
+        0.76,
+        0.09
+      ],
+      "tone": "grave"
+    },
+    {
+      "id": "c2b_3",
+      "text": "Fifty one minutes. A car circling a street where four students were asleep.",
+      "timeline": {
+        "title": "What the neighbourhood cameras caught",
+        "marks": [
+          {
+            "at": "3:29 a.m.",
+            "label": "First sighting of the vehicle"
+          },
+          {
+            "at": "4:20 a.m.",
+            "label": "Last sighting",
+            "emphasis": true
+          }
+        ]
+      },
+      "cap": "51 minutes.",
+      "tone": "grave"
+    },
+    {
+      "id": "c2b_4",
+      "text": "And then, according to cell site records obtained months later, the same phone came back. At approximately nine that morning, it left the area of the Kohberger residence and travelled to Moscow again.",
+      "exhibit": true,
+      "img": "ex_return",
+      "source": "Probable cause affidavit, p.15 — cell-site records, 9:00 a.m. return",
+      "highlight": [
+        0.12,
+        0.36,
+        0.76,
+        0.12
+      ],
+      "cap": "It came back at 9 a.m.",
+      "tone": "grave"
+    },
+    {
+      "id": "c2b_5",
+      "text": "Five hours after the killings, and roughly three hours before anyone called nine one one, the record places that phone back in the same town.",
+      "kinetic": {
+        "words": [
+          "It came back",
+          "that morning."
+        ],
+        "sub": "cell-site records cited in the affidavit"
+      },
+      "img": "ex_docpage",
+      "tone": "grave"
+    },
+    {
       "id": "c3_ch",
-      "chapter": "Chapter three\nOne piece of leather",
+      "chapter": "Chapter four\nOne piece of leather",
       "text": "The case turned on a single object, left behind in the room where two of the victims were found.",
       "img": "ex_docpage",
       "tone": "measured"
@@ -230,13 +315,27 @@
       "img": "ex_affidavit_sheath",
       "source": "Probable cause affidavit — recovered evidence",
       "highlight": [
-        0.1,
-        0.3,
-        0.8,
-        0.18
+        0.13,
+        0.59,
+        0.74,
+        0.055
       ],
       "cap": "One sheath. No knife.",
-      "tone": "measured"
+      "tone": "measured",
+      "redact": [
+        [
+          0.1,
+          0.52,
+          0.8,
+          0.04
+        ],
+        [
+          0.1,
+          0.11,
+          0.8,
+          0.03
+        ]
+      ]
     },
     {
       "id": "c3_2",
@@ -245,12 +344,26 @@
       "img": "ex_affidavit_sheath",
       "source": "Probable cause affidavit",
       "highlight": [
-        0.12,
-        0.44,
-        0.76,
-        0.14
+        0.13,
+        0.652,
+        0.74,
+        0.068
       ],
-      "tone": "measured"
+      "tone": "measured",
+      "redact": [
+        [
+          0.1,
+          0.52,
+          0.8,
+          0.04
+        ],
+        [
+          0.1,
+          0.11,
+          0.8,
+          0.03
+        ]
+      ]
     },
     {
       "id": "c3_3",
@@ -274,7 +387,7 @@
     },
     {
       "id": "c4_ch",
-      "chapter": "Chapter four\nHow they found him",
+      "chapter": "Chapter five\nHow they found him",
       "text": "What happened next is the part of this case that will outlive it, because it is now used across the country.",
       "img": "ex_docpage",
       "tone": "measured"
@@ -360,7 +473,7 @@
     },
     {
       "id": "c5_ch",
-      "chapter": "Chapter five\nThe car and the phone",
+      "chapter": "Chapter six\nThe car and the phone",
       "text": "DNA identified a person. Two other kinds of record put him in motion.",
       "img": "ex_docpage",
       "tone": "measured"
@@ -433,8 +546,140 @@
       "tone": "measured"
     },
     {
+      "id": "c5b_ch",
+      "chapter": "Chapter seven\nThe drive east",
+      "text": "By the middle of December, the car everyone was looking for was crossing the country.",
+      "img": "ex_docpage",
+      "tone": "measured"
+    },
+    {
+      "id": "c5b_1",
+      "text": "On December thirteenth, a licence plate reader in Loma, Colorado captured it. Two days later, law enforcement in Hancock County, Indiana.",
+      "exhibit": true,
+      "img": "ex_drive",
+      "source": "Probable cause affidavit, p.12 — plate reader and law-enforcement contacts",
+      "highlight": [
+        0.12,
+        0.3,
+        0.76,
+        0.1
+      ],
+      "cap": "Colorado. Then Indiana.",
+      "tone": "measured"
+    },
+    {
+      "id": "c5b_2",
+      "text": "On December sixteenth, at about two twenty six in the afternoon, surveillance video showed the Elantra in Albrightsville, Pennsylvania, where his family lived.",
+      "exhibit": true,
+      "img": "ex_drive",
+      "source": "Probable cause affidavit, p.12 — Albrightsville surveillance",
+      "highlight": [
+        0.12,
+        0.4,
+        0.76,
+        0.1
+      ],
+      "tone": "measured"
+    },
+    {
+      "id": "c5b_3",
+      "text": "Two thousand five hundred miles, tracked afterward, from records that already existed.",
+      "route": {
+        "title": "The drive, reconstructed from records",
+        "points": [
+          {
+            "x": 0.14,
+            "y": 0.5,
+            "label": "Pullman, WA"
+          },
+          {
+            "x": 0.36,
+            "y": 0.42,
+            "label": "Loma, CO",
+            "at": "Dec 13"
+          },
+          {
+            "x": 0.6,
+            "y": 0.5,
+            "label": "Hancock Co., IN",
+            "at": "Dec 15"
+          },
+          {
+            "x": 0.85,
+            "y": 0.4,
+            "label": "Albrightsville, PA",
+            "at": "Dec 16"
+          }
+        ]
+      },
+      "tone": "measured"
+    },
+    {
+      "id": "c5b_4",
+      "text": "On December twenty third, investigators obtained search warrants for the historical records of that phone. Everything the affidavit says about where it had been comes from those warrants.",
+      "exhibit": true,
+      "img": "ex_return",
+      "source": "Probable cause affidavit — December 23, 2022 search warrants",
+      "highlight": [
+        0.12,
+        0.5,
+        0.76,
+        0.1
+      ],
+      "cap": "Warrants first. Then the record.",
+      "tone": "measured"
+    },
+    {
+      "id": "c5b_5",
+      "text": "He was arrested in Pennsylvania on December thirtieth, twenty twenty two. Six weeks and four days after the killings.",
+      "timeline": {
+        "title": "From the house to the arrest",
+        "marks": [
+          {
+            "at": "Nov 13",
+            "label": "The killings"
+          },
+          {
+            "at": "Nov 18",
+            "label": "The car is re-registered in Washington"
+          },
+          {
+            "at": "Dec 13–16",
+            "label": "Tracked across the country"
+          },
+          {
+            "at": "Dec 30",
+            "label": "Arrest in Pennsylvania",
+            "emphasis": true
+          }
+        ]
+      },
+      "tone": "measured"
+    },
+    {
+      "id": "c5b_6",
+      "text": "Two details in the file sit oddly beside all of it. He had been stopped in traffic in Moscow before, and again in October by a university officer. And he had posted a public research survey online, asking offenders about how they had chosen their targets.",
+      "exhibit": true,
+      "img": "ex_plate",
+      "source": "Probable cause affidavit, p.11–12 — prior contacts and the posted survey",
+      "highlight": [
+        0.12,
+        0.44,
+        0.76,
+        0.12
+      ],
+      "tone": "measured"
+    },
+    {
+      "id": "c5b_7",
+      "text": "He was a criminology doctoral student. That is in the record too, and it is the kind of detail that invites a theory. The record does not supply one.",
+      "img": "ex_docpage",
+      "camera": "drift",
+      "tone": "measured"
+    },
+    {
       "id": "c6_ch",
-      "chapter": "Chapter six\nThe line that wasn't in it",
+      "chapter": "Chapter eight\nThe line that wasn't in it",
       "text": "Now the part of the record that lawyers, not viewers, tend to notice.",
       "img": "ex_docpage",
       "tone": "measured"
@@ -492,8 +737,56 @@
       "tone": "grave"
     },
     {
+      "id": "c6b_ch",
+      "chapter": "Chapter nine\nTwo years of motions",
+      "text": "Between the arrest and the plea, the case was fought almost entirely on paper.",
+      "img": "ex_docpage",
+      "tone": "measured"
+    },
+    {
+      "id": "c6b_1",
+      "text": "The defence challenged the genealogy. They challenged the warrants that followed it. They asked what databases had been searched, under whose terms of service, and what the judge who signed the arrest warrant had been told.",
+      "img": "ex_docpage",
+      "camera": "push",
+      "tone": "measured"
+    },
+    {
+      "id": "c6b_2",
+      "text": "In February of twenty twenty four, a court took argument specifically on the genetic genealogy. Whether the technique was reliable was barely the point. The question was disclosure.",
+      "timeline": {
+        "title": "The paper war",
+        "marks": [
+          {
+            "at": "Jan 2023",
+            "label": "Affidavit unsealed"
+          },
+          {
+            "at": "Jun 2023",
+            "label": "Prosecutors confirm the genealogy"
+          },
+          {
+            "at": "Feb 2024",
+            "label": "Hearings on the genealogy evidence",
+            "emphasis": true
+          },
+          {
+            "at": "2024–25",
+            "label": "Motions on warrants and disclosure"
+          }
+        ]
+      },
+      "tone": "measured"
+    },
+    {
+      "id": "c6b_3",
+      "text": "None of it was ever decided by a jury, because in July of twenty twenty five the defendant removed the jury from the equation entirely.",
+      "img": "ex_docpage",
+      "camera": "pull",
+      "tone": "grave"
+    },
+    {
       "id": "c7_ch",
-      "chapter": "Chapter seven\nThe plea",
+      "chapter": "Chapter ten\nThe plea",
       "text": "On July second, twenty twenty five, two and a half years after the killings, he pleaded guilty.",
       "img": "ex_docpage",
       "tone": "grave"
@@ -548,7 +841,7 @@
     },
     {
       "id": "c8_ch",
-      "chapter": "Chapter eight\nThe fourth document",
+      "chapter": "Chapter eleven\nThe fourth document",
       "text": "For a year, that was the end of it. Then, on July twenty seventh, twenty twenty six, a new filing arrived.",
       "img": "ex_docpage",
       "tone": "measured"
@@ -629,6 +922,33 @@
       "img": "ex_docpage",
       "camera": "drift",
       "tone": "gentle"
+    },
+    {
+      "id": "c8b_1",
+      "text": "Idaho, like every state, has a procedure for this. Post conviction relief is not an appeal. It is a separate action, with its own deadline, and its own burden on the person who files it.",
+      "img": "ex_docpage",
+      "camera": "push",
+      "tone": "measured"
+    },
+    {
+      "id": "c8b_2",
+      "text": "To undo a guilty plea this way, a petitioner generally has to show the plea was not knowing, not voluntary, or that his lawyers failed him in a way that changed the outcome. Asserting it is not the same as showing it.",
+      "kinetic": {
+        "words": [
+          "Assert.",
+          "Then prove."
+        ],
+        "sub": "the burden sits with the petitioner"
+      },
+      "img": "ex_docpage",
+      "tone": "measured"
+    },
+    {
+      "id": "c8b_3",
+      "text": "And the agreement he signed contained waivers limiting exactly this kind of challenge. That is the wall his own filing has to get over.",
+      "img": "ex_docpage",
+      "camera": "drift",
+      "tone": "measured"
     },
     {
       "id": "e1",

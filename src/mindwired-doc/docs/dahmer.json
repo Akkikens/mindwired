@@ -27,7 +27,10 @@
       "text": "Two officers arrive. A man tells them the boy is nineteen, and his boyfriend, and that this is a domestic argument.",
       "img": "ex_opinion",
       "kinetic": {
-        "words": ["He said the boy", "was nineteen"],
+        "words": [
+          "He said the boy",
+          "was nineteen"
+        ],
         "sub": "the account given to responding officers"
       },
       "tone": "grave"
@@ -36,7 +39,9 @@
       "id": "h3",
       "text": "The boy is not nineteen. He is fourteen. And the man is on probation, at that moment, for sexually assaulting a thirteen year old boy three years earlier.",
       "kinetic": {
-        "words": ["He was 14."],
+        "words": [
+          "He was 14."
+        ],
         "sub": "Konerak Sinthasomphone"
       },
       "img": "ex_opinion",
@@ -48,7 +53,12 @@
       "exhibit": true,
       "img": "ex_release",
       "source": "Balcerzak v. Board of Fire and Police Commissioners, Wis. Ct. App. No. 98-2889",
-      "highlight": [0.1, 0.42, 0.8, 0.16],
+      "highlight": [
+        0.1,
+        0.42,
+        0.8,
+        0.16
+      ],
       "cap": "“…released Sinthasomphone, who was a minor, into Dahmer's care.”",
       "tone": "grave"
     },
@@ -58,14 +68,22 @@
       "exhibit": true,
       "img": "ex_release",
       "source": "Balcerzak v. Board of Fire and Police Commissioners — the court's own words",
-      "highlight": [0.1, 0.5, 0.8, 0.12],
+      "highlight": [
+        0.1,
+        0.5,
+        0.8,
+        0.12
+      ],
       "tone": "grave"
     },
     {
       "id": "h6",
       "text": "This film is not about what Jeffrey Dahmer did. That has been told a thousand times, and it needs no retelling. This is about the documents that came afterward, and what they show a system will forgive.",
       "kinetic": {
-        "words": ["What the record", "forgave"],
+        "words": [
+          "What the record",
+          "forgave"
+        ],
         "sub": "Criminal Record · Milwaukee, 1991"
       },
       "img": "ex_opinion",
@@ -89,7 +107,9 @@
       "id": "c1_2",
       "text": "He was not sent to prison for it. He was placed on probation.",
       "kinetic": {
-        "words": ["Probation."],
+        "words": [
+          "Probation."
+        ],
         "sub": "the 1988 conviction"
       },
       "img": "ex_opinion",
@@ -101,8 +121,15 @@
       "timeline": {
         "title": "Two brothers, three years apart",
         "marks": [
-          { "at": "1988", "label": "Assault of Somsack, 13 — conviction, probation" },
-          { "at": "May 1991", "label": "Konerak, 14, released back to him", "emphasis": true }
+          {
+            "at": "1988",
+            "label": "Assault of Somsack, 13 — conviction, probation"
+          },
+          {
+            "at": "May 1991",
+            "label": "Konerak, 14, released back to him",
+            "emphasis": true
+          }
         ]
       },
       "cap": "The same family. Twice.",
@@ -121,7 +148,12 @@
       "exhibit": true,
       "img": "ex_release",
       "source": "Wis. Ct. App. No. 98-2889 — statement of facts",
-      "highlight": [0.1, 0.36, 0.8, 0.22],
+      "highlight": [
+        0.1,
+        0.36,
+        0.8,
+        0.22
+      ],
       "tone": "grave"
     },
     {
@@ -151,7 +183,12 @@
       "exhibit": true,
       "img": "ex_fpc",
       "source": "Wis. Ct. App. No. 98-2889 — discharge and appeal history",
-      "highlight": [0.1, 0.3, 0.8, 0.18],
+      "highlight": [
+        0.1,
+        0.3,
+        0.8,
+        0.18
+      ],
       "cap": "Discharged.",
       "tone": "measured"
     },
@@ -161,7 +198,12 @@
       "exhibit": true,
       "img": "ex_fpc",
       "source": "Wis. Ct. App. No. 98-2889 — “the FPC, which upheld their discharges”",
-      "highlight": [0.1, 0.46, 0.8, 0.16],
+      "highlight": [
+        0.1,
+        0.46,
+        0.8,
+        0.16
+      ],
       "cap": "The commission agreed with the chief.",
       "tone": "measured"
     },
@@ -185,7 +227,12 @@
       "exhibit": true,
       "img": "ex_vacated",
       "source": "Wis. Stat. § 62.50, as construed in Wis. Ct. App. No. 98-2889",
-      "highlight": [0.1, 0.34, 0.8, 0.24],
+      "highlight": [
+        0.1,
+        0.34,
+        0.8,
+        0.24
+      ],
       "tone": "measured"
     },
     {
@@ -194,7 +241,12 @@
       "exhibit": true,
       "img": "ex_vacated",
       "source": "Wis. Stat. § 62.50 — reinstatement provision",
-      "highlight": [0.1, 0.52, 0.8, 0.18],
+      "highlight": [
+        0.1,
+        0.52,
+        0.8,
+        0.18
+      ],
       "cap": "“…shall be immediately reinstated…”",
       "tone": "measured"
     },
@@ -204,7 +256,12 @@
       "exhibit": true,
       "img": "ex_vacated",
       "source": "Wis. Ct. App. No. 98-2889 — discharges vacated, officers reinstated",
-      "highlight": [0.1, 0.4, 0.8, 0.2],
+      "highlight": [
+        0.1,
+        0.4,
+        0.8,
+        0.2
+      ],
       "tone": "measured"
     },
     {
@@ -225,18 +282,175 @@
       "timeline": {
         "title": "How the discharges ended",
         "marks": [
-          { "at": "1991", "label": "Chief discharges the officers" },
-          { "at": "FPC", "label": "Commission upholds the discharges" },
-          { "at": "Review", "label": "Discharges vacated, converted to suspensions" },
-          { "at": "Result", "label": "Reinstated with back pay", "emphasis": true }
+          {
+            "at": "1991",
+            "label": "Chief discharges the officers"
+          },
+          {
+            "at": "FPC",
+            "label": "Commission upholds the discharges"
+          },
+          {
+            "at": "Review",
+            "label": "Discharges vacated, converted to suspensions"
+          },
+          {
+            "at": "Result",
+            "label": "Reinstated with back pay",
+            "emphasis": true
+          }
         ]
       },
       "cap": "Four steps. One outcome.",
       "tone": "measured"
     },
     {
+      "id": "c4b_ch",
+      "chapter": "Chapter five\nSixty days",
+      "text": "What happened after the reinstatement is the part of this record that almost nobody has read, and it is the part that says the most.",
+      "img": "ex_opinion",
+      "tone": "measured"
+    },
+    {
+      "id": "c4b_1",
+      "text": "The circuit court that reviewed the discharges called them unreasonable discipline. It sent the matter back, suggesting that a suspension of not more than sixty days would, in its words, more appropriately serve the ends of justice.",
+      "exhibit": true,
+      "img": "ex_fpc",
+      "source": "Wis. Ct. App. No. 98-2889 — circuit court remand",
+      "highlight": [
+        0.1,
+        0.36,
+        0.8,
+        0.14
+      ],
+      "cap": "“…more appropriately serve the ends of justice.”",
+      "tone": "measured"
+    },
+    {
+      "id": "c4b_2",
+      "text": "Sixty days is not an arbitrary number. It is the ceiling written into the statute. Under section sixty two point fifty, a board that sustains the charges may discharge an officer permanently, or suspend without pay for a period not exceeding sixty days.",
+      "exhibit": true,
+      "img": "ex_vacated",
+      "source": "Wis. Stat. § 62.50(17) — the statutory ceiling",
+      "highlight": [
+        0.1,
+        0.44,
+        0.8,
+        0.16
+      ],
+      "tone": "measured"
+    },
+    {
+      "id": "c4b_3",
+      "text": "So the commission vacated the discharges and imposed the maximum the law allowed. Sixty days without pay.",
+      "kinetic": {
+        "count": 60,
+        "countLabel": "days without pay",
+        "sub": "the statutory maximum, imposed instead of discharge"
+      },
+      "img": "ex_opinion",
+      "tone": "measured"
+    },
+    {
+      "id": "c4b_4",
+      "text": "And then the argument moved to what the word days means.",
+      "kinetic": {
+        "words": [
+          "What is",
+          "a “day”?"
+        ],
+        "sub": "the question the case turned on"
+      },
+      "img": "ex_opinion",
+      "tone": "measured"
+    },
+    {
+      "id": "c4b_5",
+      "text": "The police department applied the suspension the way it always had. Sixty consecutive workdays, effective the twenty seventh of November, nineteen ninety two.",
+      "exhibit": true,
+      "img": "ex_vacated",
+      "source": "Wis. Ct. App. No. 98-2889 — “sixty (60) consecutive workdays effective 11-27-92”",
+      "highlight": [
+        0.1,
+        0.3,
+        0.8,
+        0.12
+      ],
+      "cap": "Sixty working days.",
+      "tone": "measured"
+    },
+    {
+      "id": "c4b_6",
+      "text": "The officer appealed that too. And the circuit court agreed with him, holding that days meant calendar days, and ordering the commission to redefine the suspension as sixty calendar days, with any lost rights restored.",
+      "exhibit": true,
+      "img": "ex_vacated",
+      "source": "Wis. Ct. App. No. 98-2889 — summary judgment for Balcerzak",
+      "highlight": [
+        0.1,
+        0.52,
+        0.8,
+        0.16
+      ],
+      "cap": "Sixty calendar days. Rights restored.",
+      "tone": "measured"
+    },
+    {
+      "id": "c4b_7",
+      "text": "Working days, or calendar days. Roughly twelve weeks, or roughly eight. That difference is what the litigation was about.",
+      "timeline": {
+        "title": "What the appeal was about",
+        "marks": [
+          {
+            "at": "60 workdays",
+            "label": "How the department applied the suspension"
+          },
+          {
+            "at": "60 calendar days",
+            "label": "What the circuit court ordered instead",
+            "emphasis": true
+          }
+        ]
+      },
+      "cap": "About four weeks of pay.",
+      "tone": "grave"
+    },
+    {
+      "id": "c4b_8",
+      "text": "The Court of Appeals reversed, and held the department had it right. Sixty working days.",
+      "exhibit": true,
+      "img": "ex_reverse",
+      "source": "Wis. Ct. App. No. 98-2889 — holding; suspension applied to working days",
+      "highlight": [
+        0.1,
+        0.34,
+        0.8,
+        0.16
+      ],
+      "tone": "measured"
+    },
+    {
+      "id": "c4b_9",
+      "text": "Nineteen pages of statutory construction. A published opinion of a state appeals court. Filed in the year two thousand, about a night in nineteen ninety one.",
+      "kinetic": {
+        "words": [
+          "Nine years",
+          "of paperwork."
+        ],
+        "sub": "1991 incident · opinion filed 2000"
+      },
+      "img": "ex_opinion",
+      "tone": "grave"
+    },
+    {
+      "id": "c4b_10",
+      "text": "Nowhere in those nineteen pages does anyone argue about whether handing a fourteen year old boy back was wrong. That question was settled early, and quietly, and then everything after it was about arithmetic.",
+      "img": "ex_opinion",
+      "camera": "push",
+      "tone": "grave"
+    },
+    {
       "id": "c5_ch",
-      "chapter": "Chapter five\nWhat was said about it",
+      "chapter": "Chapter six\nWhat was said about it",
       "text": "The reinstatement was criticised immediately, and the criticism was specific.",
       "img": "ex_opinion",
       "tone": "measured"
@@ -261,17 +475,83 @@
       "route": {
         "title": "Where the accountability went",
         "points": [
-          { "x": 0.18, "y": 0.5, "label": "Police department", "at": "1991" },
-          { "x": 0.42, "y": 0.38, "label": "Fire & Police Commission" },
-          { "x": 0.64, "y": 0.5, "label": "State courts" },
-          { "x": 0.86, "y": 0.36, "label": "Federal court", "at": "1992" }
+          {
+            "x": 0.18,
+            "y": 0.5,
+            "label": "Police department",
+            "at": "1991"
+          },
+          {
+            "x": 0.42,
+            "y": 0.38,
+            "label": "Fire & Police Commission"
+          },
+          {
+            "x": 0.64,
+            "y": 0.5,
+            "label": "State courts"
+          },
+          {
+            "x": 0.86,
+            "y": 0.36,
+            "label": "Federal court",
+            "at": "1992"
+          }
         ]
       },
       "tone": "measured"
     },
     {
+      "id": "c5d_1",
+      "text": "The civil side ran in parallel. Konerak's estate sued the city in federal court, and the reported decisions in that litigation span from nineteen ninety two into nineteen ninety five.",
+      "route": {
+        "title": "The civil litigation",
+        "points": [
+          {
+            "x": 0.16,
+            "y": 0.5,
+            "label": "Complaint filed",
+            "at": "1992"
+          },
+          {
+            "x": 0.5,
+            "y": 0.38,
+            "label": "District court rulings",
+            "at": "1993"
+          },
+          {
+            "x": 0.84,
+            "y": 0.5,
+            "label": "Further proceedings",
+            "at": "1995"
+          }
+        ]
+      },
+      "tone": "measured"
+    },
+    {
+      "id": "c5d_2",
+      "text": "We are not showing you those opinions, because we could not obtain clean copies of them for this episode. They exist, they are cited as Estate of Sinthasomphone against the City of Milwaukee, and when we have them, they will be on screen.",
+      "img": "ex_opinion",
+      "camera": "drift",
+      "tone": "measured"
+    },
+    {
+      "id": "c5d_3",
+      "text": "That is the rule on this channel. If we cannot put the document in front of you, we tell you it is missing rather than filling the gap with something that looks like it.",
+      "kinetic": {
+        "words": [
+          "No document,",
+          "no claim."
+        ],
+        "sub": "Criminal Record"
+      },
+      "img": "ex_opinion",
+      "tone": "measured"
+    },
+    {
       "id": "c6_ch",
-      "chapter": "Chapter six\nThe trial",
+      "chapter": "Chapter seven\nThe trial",
       "text": "Dahmer's own case moved faster than any of it.",
       "img": "ex_opinion",
       "tone": "measured"
@@ -300,9 +580,19 @@
       "timeline": {
         "title": "The criminal case",
         "marks": [
-          { "at": "Feb 15, 1992", "label": "Guilty on 15 counts, insanity plea rejected" },
-          { "at": "Feb 17, 1992", "label": "Fifteen consecutive life terms" },
-          { "at": "Nov 1994", "label": "Killed in prison", "emphasis": true }
+          {
+            "at": "Feb 15, 1992",
+            "label": "Guilty on 15 counts, insanity plea rejected"
+          },
+          {
+            "at": "Feb 17, 1992",
+            "label": "Fifteen consecutive life terms"
+          },
+          {
+            "at": "Nov 1994",
+            "label": "Killed in prison",
+            "emphasis": true
+          }
         ]
       },
       "tone": "grave"
@@ -313,11 +603,31 @@
       "route": {
         "title": "The record, end to end",
         "points": [
-          { "x": 0.12, "y": 0.5, "label": "1988 conviction" },
-          { "x": 0.31, "y": 0.36, "label": "Probation" },
-          { "x": 0.5, "y": 0.52, "label": "May 1991" },
-          { "x": 0.69, "y": 0.36, "label": "Discharged" },
-          { "x": 0.88, "y": 0.5, "label": "Reinstated" }
+          {
+            "x": 0.12,
+            "y": 0.5,
+            "label": "1988 conviction"
+          },
+          {
+            "x": 0.31,
+            "y": 0.36,
+            "label": "Probation"
+          },
+          {
+            "x": 0.5,
+            "y": 0.52,
+            "label": "May 1991"
+          },
+          {
+            "x": 0.69,
+            "y": 0.36,
+            "label": "Discharged"
+          },
+          {
+            "x": 0.88,
+            "y": 0.5,
+            "label": "Reinstated"
+          }
         ]
       },
       "tone": "grave"
@@ -326,7 +636,10 @@
       "id": "e2",
       "text": "Every step of that sentence is in a filing you can read. None of it required a secret.",
       "kinetic": {
-        "words": ["None of it", "was hidden."],
+        "words": [
+          "None of it",
+          "was hidden."
+        ],
         "sub": "every document in this episode is public"
       },
       "img": "ex_opinion",
