@@ -1,0 +1,697 @@
+{
+  "slug": "idahomurders",
+  "title": "The Record: Moscow, Idaho",
+  "channel": "criminalrecord",
+  "niche": "history",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "Eleven fifty eight in the morning. Moscow, Idaho. A nine one one dispatcher picks up a call from a rented house on King Road.",
+      "cap": "11:58 a.m. — the call",
+      "tone": "grave",
+      "timeline": {
+        "title": "Latah County, Idaho — November 13, 2022",
+        "marks": [
+          {
+            "at": "11:58 a.m.",
+            "label": "A 911 call is placed from 1122 King Road",
+            "emphasis": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "h2",
+      "text": "A young woman was crying. Something has happened in our house, she said, and we don't know what.",
+      "img": "ex_docpage",
+      "tone": "grave",
+      "kinetic": {
+        "words": [
+          "“Something has happened",
+          "in our house”"
+        ],
+        "sub": "911 call transcript, released March 2025"
+      }
+    },
+    {
+      "id": "h3",
+      "text": "Another voice took the phone. One of the roommates is passed out, she said. She's not waking up.",
+      "img": "ex_docpage",
+      "tone": "grave",
+      "kinetic": {
+        "words": [
+          "“She's not",
+          "waking up”"
+        ],
+        "sub": "911 call transcript, released March 2025"
+      }
+    },
+    {
+      "id": "h4",
+      "text": "And then, almost as an afterthought, one line that changed everything that followed. They saw some man in their house last night.",
+      "img": "ex_docpage",
+      "tone": "grave",
+      "kinetic": {
+        "words": [
+          "“They saw some man",
+          "in their house",
+          "last night”"
+        ],
+        "sub": "911 call transcript, released March 2025"
+      }
+    },
+    {
+      "id": "h5",
+      "text": "By the time that call was placed, four University of Idaho students had been dead for roughly eight hours.",
+      "timeline": {
+        "title": "November 13, 2022",
+        "marks": [
+          {
+            "at": "4:00 a.m.",
+            "label": "A housemate wakes to sounds upstairs"
+          },
+          {
+            "at": "11:58 a.m.",
+            "label": "911 is called",
+            "emphasis": true
+          }
+        ]
+      },
+      "cap": "Roughly eight hours.",
+      "tone": "grave"
+    },
+    {
+      "id": "h6",
+      "text": "Their names were Kaylee Goncalves, Madison Mogen, Xana Kernodle and Ethan Chapin. This film is about the record their case produced, and what that record still doesn't say.",
+      "kinetic": {
+        "words": [
+          "Kaylee Goncalves",
+          "Madison Mogen",
+          "Xana Kernodle",
+          "Ethan Chapin"
+        ],
+        "sub": "University of Idaho · November 13, 2022"
+      },
+      "tone": "grave"
+    },
+    {
+      "id": "c1_ch",
+      "chapter": "Chapter one\nWhat the record is",
+      "text": "Almost everything the public knows about this case came from documents. Not from a trial, because there never was one.",
+      "img": "ex_docpage",
+      "tone": "measured"
+    },
+    {
+      "id": "c1_1",
+      "text": "A probable cause affidavit. A plea agreement. A judgment. And, four years later, a hand-written petition from a maximum security prison.",
+      "route": {
+        "title": "The paper trail",
+        "points": [
+          {
+            "x": 0.16,
+            "y": 0.52,
+            "label": "Affidavit",
+            "at": "Jan 2023"
+          },
+          {
+            "x": 0.38,
+            "y": 0.4,
+            "label": "Plea agreement",
+            "at": "Jul 2025"
+          },
+          {
+            "x": 0.6,
+            "y": 0.52,
+            "label": "Judgment",
+            "at": "Jul 2025"
+          },
+          {
+            "x": 0.84,
+            "y": 0.38,
+            "label": "Petition",
+            "at": "Jul 2026"
+          }
+        ]
+      },
+      "cap": "Four documents. One case.",
+      "tone": "measured"
+    },
+    {
+      "id": "c1_2",
+      "text": "Those four documents are the entire spine of this episode. Where they are silent, we will say so, and we will stop there.",
+      "img": "ex_docpage",
+      "camera": "push",
+      "tone": "measured"
+    },
+    {
+      "id": "c2_ch",
+      "chapter": "Chapter two\nThe morning",
+      "text": "The first document, the affidavit, describes a night in a rented house three blocks from campus.",
+      "img": "ex_docpage",
+      "tone": "grave"
+    },
+    {
+      "id": "c2_1",
+      "text": "Investigators placed the killings between about four and four twenty five in the morning. Nobody called for help at four.",
+      "timeline": {
+        "title": "From the affidavit and released messages",
+        "marks": [
+          {
+            "at": "4:00 a.m.",
+            "label": "A housemate wakes to sounds upstairs"
+          },
+          {
+            "at": "4:19–4:32",
+            "label": "Calls and texts to the victims go unanswered"
+          },
+          {
+            "at": "10:23 a.m.",
+            "label": "The roommates text again"
+          },
+          {
+            "at": "11:50 a.m.",
+            "label": "They call someone outside the house"
+          },
+          {
+            "at": "11:58 a.m.",
+            "label": "911",
+            "emphasis": true
+          }
+        ]
+      },
+      "cap": "Every one of these times is in the record.",
+      "tone": "grave"
+    },
+    {
+      "id": "c2_2",
+      "text": "One housemate told investigators she woke to sounds from a room upstairs. She opened her door more than once. On one of those occasions, she described standing in frozen shock as a masked figure in black walked past her toward a door.",
+      "exhibit": true,
+      "img": "ex_affidavit_p1",
+      "source": "Probable cause affidavit, Latah County",
+      "highlight": [
+        0.1,
+        0.42,
+        0.8,
+        0.2
+      ],
+      "tone": "grave"
+    },
+    {
+      "id": "c2_3",
+      "text": "She was twenty years old. She had been asleep. Every account of what she did next has to start with those two facts.",
+      "img": "ex_docpage",
+      "camera": "drift",
+      "tone": "gentle"
+    },
+    {
+      "id": "c2_4",
+      "text": "For nearly eight hours, the house was quiet, and the people still alive inside it believed the people who weren't were sleeping.",
+      "kinetic": {
+        "count": 8,
+        "countLabel": "hours",
+        "sub": "between the first sounds and the first call"
+      },
+      "img": "ex_docpage",
+      "tone": "grave"
+    },
+    {
+      "id": "c3_ch",
+      "chapter": "Chapter three\nOne piece of leather",
+      "text": "The case turned on a single object, left behind in the room where two of the victims were found.",
+      "img": "ex_docpage",
+      "tone": "measured"
+    },
+    {
+      "id": "c3_1",
+      "text": "A tan leather knife sheath. A Ka-Bar sheath, lying beside Madison Mogen.",
+      "exhibit": true,
+      "img": "ex_affidavit_sheath",
+      "source": "Probable cause affidavit — recovered evidence",
+      "highlight": [
+        0.1,
+        0.3,
+        0.8,
+        0.18
+      ],
+      "cap": "One sheath. No knife.",
+      "tone": "measured"
+    },
+    {
+      "id": "c3_2",
+      "text": "The knife itself has never been recovered. The sheath was what mattered, because of a detail almost too small to picture. The snap.",
+      "exhibit": true,
+      "img": "ex_affidavit_sheath",
+      "source": "Probable cause affidavit",
+      "highlight": [
+        0.12,
+        0.44,
+        0.76,
+        0.14
+      ],
+      "tone": "measured"
+    },
+    {
+      "id": "c3_3",
+      "text": "The Idaho State Lab found a single source of male DNA on the button snap of that sheath. One person. Not a mixture.",
+      "kinetic": {
+        "words": [
+          "ONE",
+          "SOURCE"
+        ],
+        "sub": "male DNA on the sheath's button snap"
+      },
+      "img": "ex_docpage",
+      "tone": "measured"
+    },
+    {
+      "id": "c3_4",
+      "text": "And here is the problem investigators had in November of twenty twenty two. They had a profile. They had no name to attach it to.",
+      "img": "ex_docpage",
+      "camera": "push",
+      "tone": "measured"
+    },
+    {
+      "id": "c4_ch",
+      "chapter": "Chapter four\nHow they found him",
+      "text": "What happened next is the part of this case that will outlive it, because it is now used across the country.",
+      "img": "ex_docpage",
+      "tone": "measured"
+    },
+    {
+      "id": "c4_1",
+      "text": "No criminal database contained that profile. So the FBI went somewhere else. Public genealogy databases, where ordinary people upload their own DNA to find relatives.",
+      "tree": {
+        "title": "Investigative genetic genealogy",
+        "rows": [
+          [
+            "Unknown male DNA on the sheath snap"
+          ],
+          [
+            "Distant relative",
+            "Distant relative",
+            "Distant relative"
+          ]
+        ]
+      },
+      "cap": "No database had him.",
+      "tone": "measured"
+    },
+    {
+      "id": "c4_2",
+      "text": "The technique does not look for the suspect. It looks for his cousins, and then it builds family trees outward from them, until the branches close in on one household.",
+      "tree": {
+        "title": "Investigative genetic genealogy",
+        "rows": [
+          [
+            "Unknown male DNA on the sheath snap"
+          ],
+          [
+            "Distant relative",
+            "Distant relative",
+            "Distant relative"
+          ],
+          [
+            "Family branch",
+            "Family branch"
+          ],
+          [
+            "One household"
+          ]
+        ]
+      },
+      "cap": "It had his relatives.",
+      "tone": "measured"
+    },
+    {
+      "id": "c4_3",
+      "text": "That household was in Monroe County, Pennsylvania. In late December, investigators collected trash from outside the home of a family named Kohberger.",
+      "img": "ex_docpage",
+      "camera": "push",
+      "tone": "measured"
+    },
+    {
+      "id": "c4_4",
+      "text": "Comparing what they found there to the profile from the sheath, the lab concluded that a male in that household could not be excluded as the biological father of the person who left DNA on that snap.",
+      "exhibit": true,
+      "img": "ex_affidavit_dna",
+      "source": "Probable cause affidavit — DNA comparison",
+      "highlight": [
+        0.1,
+        0.36,
+        0.8,
+        0.2
+      ],
+      "tone": "measured"
+    },
+    {
+      "id": "c4_5",
+      "text": "Prosecutors later put a number in the record. At least five point three seven octillion times more likely to be his than an unrelated person's. That is the figure in the filing. It is not our claim, and it is not a statement about guilt on its own.",
+      "kinetic": {
+        "words": [
+          "5.37",
+          "OCTILLION"
+        ],
+        "sub": "the likelihood ratio prosecutors filed"
+      },
+      "img": "ex_docpage",
+      "tone": "measured"
+    },
+    {
+      "id": "c5_ch",
+      "chapter": "Chapter five\nThe car and the phone",
+      "text": "DNA identified a person. Two other kinds of record put him in motion.",
+      "img": "ex_docpage",
+      "tone": "measured"
+    },
+    {
+      "id": "c5_1",
+      "text": "The first was a white Hyundai Elantra, a twenty fifteen model. Investigators traced its movements on the morning of the thirteenth.",
+      "route": {
+        "title": "Vehicle movements in the affidavit",
+        "points": [
+          {
+            "x": 0.2,
+            "y": 0.44,
+            "label": "Pullman, WA area",
+            "at": "2:44 a.m."
+          },
+          {
+            "x": 0.52,
+            "y": 0.64,
+            "label": "Moscow, ID"
+          },
+          {
+            "x": 0.82,
+            "y": 0.4,
+            "label": "Back near WSU",
+            "at": "5:25 a.m."
+          }
+        ]
+      },
+      "cap": "Out, and back, inside three hours.",
+      "tone": "measured",
+      "img": "ex_docpage"
+    },
+    {
+      "id": "c5_2",
+      "text": "Five days after the killings, that car was re-registered in Washington state, and given a new licence plate. Before that, it carried Pennsylvania plates.",
+      "timeline": {
+        "title": "The car",
+        "marks": [
+          {
+            "at": "Nov 13",
+            "label": "Observed moving toward Moscow and back"
+          },
+          {
+            "at": "Nov 18",
+            "label": "Re-registered, new plate issued",
+            "emphasis": true
+          }
+        ]
+      },
+      "cap": "Five days.",
+      "tone": "measured"
+    },
+    {
+      "id": "c5_3",
+      "text": "The second record was a phone. According to the affidavit, his phone had connected to towers in the area of that house at least twelve times before that night, beginning the previous August.",
+      "kinetic": {
+        "count": 12,
+        "countLabel": "prior visits to the area",
+        "sub": "cell-site records cited in the affidavit, from August 2022"
+      },
+      "img": "ex_docpage",
+      "tone": "grave"
+    },
+    {
+      "id": "c5_4",
+      "text": "He was a doctoral student in criminal justice at Washington State University, ten miles away, across the state line. He was arrested in Pennsylvania on December thirtieth, six weeks after the killings.",
+      "img": "ex_docpage",
+      "camera": "pull",
+      "tone": "measured"
+    },
+    {
+      "id": "c6_ch",
+      "chapter": "Chapter six\nThe line that wasn't in it",
+      "text": "Now the part of the record that lawyers, not viewers, tend to notice.",
+      "img": "ex_docpage",
+      "tone": "measured"
+    },
+    {
+      "id": "c6_1",
+      "text": "The affidavit that justified his arrest described the DNA comparison. It did not mention that genetic genealogy had been used to find him in the first place.",
+      "exhibit": true,
+      "img": "ex_affidavit_dna",
+      "source": "Probable cause affidavit — omission later acknowledged",
+      "highlight": [
+        0.1,
+        0.5,
+        0.8,
+        0.18
+      ],
+      "cap": "The technique that found him is not in the document that arrested him.",
+      "tone": "measured"
+    },
+    {
+      "id": "c6_2",
+      "text": "The lead detective later acknowledged that omission. Prosecutors confirmed the technique in filings months afterward, in June of twenty twenty three.",
+      "img": "ex_docpage",
+      "camera": "push",
+      "tone": "measured"
+    },
+    {
+      "id": "c6_3",
+      "text": "The defence spent much of the next two years attacking exactly that. What the databases were, whose rules applied, and what a judge should be told about how a suspect was found.",
+      "timeline": {
+        "title": "The fight over how he was found",
+        "marks": [
+          {
+            "at": "Jan 2023",
+            "label": "Affidavit unsealed — no mention of genealogy"
+          },
+          {
+            "at": "Jun 2023",
+            "label": "Prosecutors confirm the technique"
+          },
+          {
+            "at": "Feb 2024",
+            "label": "Hearings on the genealogy evidence",
+            "emphasis": true
+          }
+        ]
+      },
+      "tone": "measured"
+    },
+    {
+      "id": "c6_4",
+      "text": "That argument was never resolved by a jury, because the case never reached one.",
+      "img": "ex_docpage",
+      "camera": "drift",
+      "tone": "grave"
+    },
+    {
+      "id": "c7_ch",
+      "chapter": "Chapter seven\nThe plea",
+      "text": "On July second, twenty twenty five, two and a half years after the killings, he pleaded guilty.",
+      "img": "ex_docpage",
+      "tone": "grave"
+    },
+    {
+      "id": "c7_1",
+      "text": "Four counts of first degree murder, and one count of burglary. In exchange, the state took the death penalty off the table.",
+      "img": "ex_docpage",
+      "cap": "Guilty. Four counts. No trial.",
+      "tone": "grave",
+      "kinetic": {
+        "words": [
+          "Four counts",
+          "of first-degree murder"
+        ],
+        "sub": "Plea agreement, State of Idaho — July 2, 2025"
+      }
+    },
+    {
+      "id": "c7_2",
+      "text": "Three weeks later, on July twenty third, he was sentenced to four consecutive life terms without the possibility of parole, plus ten years for the burglary.",
+      "img": "ex_docpage",
+      "cap": "Four consecutive life terms. No parole.",
+      "tone": "grave",
+      "kinetic": {
+        "words": [
+          "Four consecutive",
+          "life terms"
+        ],
+        "sub": "Judgment of conviction — July 23, 2025"
+      }
+    },
+    {
+      "id": "c7_3",
+      "text": "He was given the opportunity to speak at that hearing. He declined.",
+      "kinetic": {
+        "words": [
+          "HE",
+          "DECLINED"
+        ],
+        "sub": "at sentencing, July 23, 2025"
+      },
+      "img": "ex_docpage",
+      "tone": "grave"
+    },
+    {
+      "id": "c7_4",
+      "text": "Which means the families left that courtroom with a sentence, a signed agreement, and no stated reason. There is no motive in this record. Anyone who tells you otherwise is filling a silence with a guess.",
+      "img": "ex_docpage",
+      "camera": "pull",
+      "tone": "grave"
+    },
+    {
+      "id": "c8_ch",
+      "chapter": "Chapter eight\nThe fourth document",
+      "text": "For a year, that was the end of it. Then, on July twenty seventh, twenty twenty six, a new filing arrived.",
+      "img": "ex_docpage",
+      "tone": "measured"
+    },
+    {
+      "id": "c8_1",
+      "text": "A petition for post conviction relief, filed from the Idaho Maximum Security Institution. Hand-written. And filed by him, representing himself.",
+      "img": "ex_docpage",
+      "cap": "Hand-written. Self-represented.",
+      "tone": "measured",
+      "kinetic": {
+        "words": [
+          "Hand-written.",
+          "Self-represented."
+        ],
+        "sub": "Petition for post-conviction relief — filed July 27, 2026"
+      }
+    },
+    {
+      "id": "c8_2",
+      "text": "In it he asks for a new trial. He alleges that his lawyers failed him, and that his guilty plea was not knowing or voluntary, because it was induced, he writes, by unkept promises.",
+      "img": "ex_docpage",
+      "tone": "measured",
+      "kinetic": {
+        "words": [
+          "“Induced by",
+          "unkept promises”"
+        ],
+        "sub": "Petition for post-conviction relief — his allegation"
+      }
+    },
+    {
+      "id": "c8_3",
+      "text": "Specifically, he claims he was promised things about prison life that did not follow. Contact visits. Movement. Work. And that he was told what he calls elaborate lies about life on death row.",
+      "img": "ex_docpage",
+      "cap": "These are his allegations. They are unproven.",
+      "tone": "measured",
+      "kinetic": {
+        "words": [
+          "“Elaborate lies”"
+        ],
+        "sub": "Petition — unproven allegations by the petitioner"
+      }
+    },
+    {
+      "id": "c8_4",
+      "text": "Every one of those claims is his. None of them has been tested, and the person making them has an obvious interest in the outcome. That is not a dismissal. It is the standard the record itself applies.",
+      "img": "ex_docpage",
+      "camera": "push",
+      "tone": "measured"
+    },
+    {
+      "id": "c8_5",
+      "text": "Legal commentators have generally described his chances as poor, and pointed to the appeal waivers inside the agreement he signed. That is commentary, not a ruling. The petition is live as this is published.",
+      "timeline": {
+        "title": "Where the case stands",
+        "marks": [
+          {
+            "at": "Jul 2, 2025",
+            "label": "Guilty plea entered"
+          },
+          {
+            "at": "Jul 23, 2025",
+            "label": "Four consecutive life sentences"
+          },
+          {
+            "at": "Jul 27, 2026",
+            "label": "Petition for post-conviction relief",
+            "emphasis": true
+          }
+        ]
+      },
+      "tone": "measured"
+    },
+    {
+      "id": "c8_6",
+      "text": "One of the mothers said publicly that her family is ready for a trial. After four years of documents, that sentence carries a weight nothing in the filings does.",
+      "img": "ex_docpage",
+      "camera": "drift",
+      "tone": "gentle"
+    },
+    {
+      "id": "e1",
+      "text": "So this is what the record holds. A sheath with one man's DNA on the snap. A car photographed going out and coming back. A phone that had been there before. A signature on an agreement. And a hand-written page asking to take it back.",
+      "route": {
+        "title": "The record",
+        "points": [
+          {
+            "x": 0.14,
+            "y": 0.5,
+            "label": "The sheath"
+          },
+          {
+            "x": 0.33,
+            "y": 0.38,
+            "label": "The car"
+          },
+          {
+            "x": 0.5,
+            "y": 0.54,
+            "label": "The phone"
+          },
+          {
+            "x": 0.68,
+            "y": 0.38,
+            "label": "The plea"
+          },
+          {
+            "x": 0.87,
+            "y": 0.52,
+            "label": "The petition"
+          }
+        ]
+      },
+      "tone": "grave"
+    },
+    {
+      "id": "e2",
+      "text": "And one thing it does not hold, anywhere, in four years and thousands of pages. A reason.",
+      "kinetic": {
+        "words": [
+          "NO",
+          "REASON",
+          "ON",
+          "RECORD"
+        ],
+        "sub": "no motive was ever established publicly"
+      },
+      "img": "ex_docpage",
+      "tone": "grave"
+    },
+    {
+      "id": "e3",
+      "text": "Four students went to sleep in a rented house on a Saturday night. The document that explains why has never been filed.",
+      "img": "ex_docpage",
+      "camera": "pull",
+      "tone": "grave"
+    },
+    {
+      "id": "e4",
+      "text": "This is Criminal Record, where every case is built from the primary record and nothing else. If this one held your attention, the next file we open is the one where the paperwork itself was the crime. Subscribe, and you'll see it first.",
+      "img": "ex_docpage",
+      "tone": "measured"
+    }
+  ]
+}

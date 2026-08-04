@@ -39,6 +39,10 @@ import boeing737maxManifest from "./mindwired-doc/docs/boeing737max.manifest.jso
 import { SubscribeBlackBoxLong, subscribeBlackBoxFrames, SubscribeBlackBoxShort, subscribeBlackBoxShortFrames } from "./blackbox/SubscribeOutro";
 import { SubscribeCriminalRecordLong, SubscribeCriminalRecordShort, CR_OUTRO_FRAMES } from "./criminalrecord/SubscribeOutro";
 import { CRTimelineTest, CRRouteTest, CRTreeTest } from "./criminalrecord/SceneTest";
+import idahoDoc from "./mindwired-doc/docs/idahomurders.json";
+import idahoManifest from "./mindwired-doc/docs/idahomurders.manifest.json";
+import dahmerDoc from "./mindwired-doc/docs/dahmer.json";
+import dahmerManifest from "./mindwired-doc/docs/dahmer.manifest.json";
 import colgan3407Doc from "./mindwired-doc/docs/colgan3407.json";
 import colgan3407Manifest from "./mindwired-doc/docs/colgan3407.manifest.json";
 import af447Doc from "./mindwired-doc/docs/af447.json";
@@ -97,6 +101,7 @@ const RAIN_SHORTS = [
 ] as const;
 // Subscribe outro baked into the render (ONE render, no ffmpeg concat). frames @30fps.
 const BB_OUTRO = { file: "outro/subscribe_blackbox_long.mp4", frames: 483 };
+const CR_OUTRO = { file: "outro/subscribe_criminalrecord_long.mp4", frames: 420 };
 const MW_OUTRO = { file: "outro/subscribe_mindwired_long.mp4", frames: 527 };
 import lostCosmonautsDoc from "./mindwired-doc/docs/lostcosmonauts.json";
 import lostCosmonautsManifest from "./mindwired-doc/docs/lostcosmonauts.manifest.json";
@@ -1826,6 +1831,32 @@ export const RemotionRoot: React.FC = () => {
         fps={30}
         width={1080}
         height={1920}
+      />
+
+      {/* ── Criminal Record — launch episode: the Moscow, Idaho record.
+             Document-first by necessity (no licensable footage exists for a
+             state criminal case — see CLAIMS-idahomurders.md) with the
+             evidence-animation layer carrying the motion. CR outro baked. ── */}
+      <Composition
+        id="IdahoMurdersDoc"
+        component={makeDocComp(idahoDoc as any, idahoManifest as any, CR_OUTRO)}
+        durationInFrames={docTotalFrames(idahoDoc as any, idahoManifest as any, CR_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Criminal Record ep.2 — Milwaukee, 1991: the accountability record.
+             Institutional-failure frame built on the real Wisconsin Court of
+             Appeals opinion (No. 98-2889). No depiction of the crimes anywhere;
+             see docs/planning/CLAIMS-dahmer.md. CR outro baked. ── */}
+      <Composition
+        id="DahmerDoc"
+        component={makeDocComp(dahmerDoc as any, dahmerManifest as any, CR_OUTRO)}
+        durationInFrames={docTotalFrames(dahmerDoc as any, dahmerManifest as any, CR_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
       />
 
       {/* ── Criminal Record — evidence-animation reference comps (real Idaho

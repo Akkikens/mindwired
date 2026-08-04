@@ -93,11 +93,17 @@ export const CaseTimeline: React.FC<{
       <div style={{ position: "absolute", left: x0, top: y, width: (x1 - x0) * fill, height: 6,
         background: accent, borderRadius: 3, boxShadow: `0 0 26px ${accent}` }} />
       {marks.map((m, i) => {
-        const t = marks.length > 1 ? i / (marks.length - 1) : 0;
+        // a single mark centres instead of collapsing onto the left edge, where
+        // its label ran off frame and sat on top of the band (caught on a still)
+        const t = marks.length > 1 ? i / (marks.length - 1) : 0.5;
         const mx = x0 + (x1 - x0) * t;
-        const reached = fill >= t - 0.001;
+        // a lone mark lands immediately — it's usually the cold open, and waiting
+        // for the band to fill left the first seconds of the video nearly empty
+        const solo = marks.length === 1;
+        const reached = solo || fill >= t - 0.001;
         const sp = spring({
-          frame: f - 12 - Math.round((settle - 12) * t), fps, config: { damping: 16 },
+          frame: solo ? f - 6 : f - 12 - Math.round((settle - 12) * t),
+          fps, config: { damping: 16 },
         });
         const o = reached ? sp : 0;
         const up = i % 2 === 0;
@@ -112,8 +118,14 @@ export const CaseTimeline: React.FC<{
               boxShadow: m.emphasis ? `0 0 30px ${accent}` : "none",
             }} />
             <div style={{
-              position: "absolute", left: mx - 150, width: 300, textAlign: "center",
-              top: up ? y - 150 : y + 46, opacity: o,
+              // anchored so a two-line label grows AWAY from the band instead of
+              // through it: above-marks bottom-align, below-marks top-align
+              position: "absolute", left: mx - 165, width: 330, textAlign: "center",
+              ...(up ? { bottom: undefined, top: y - 232, height: 200,
+                         display: "flex", flexDirection: "column",
+                         justifyContent: "flex-end" as const }
+                     : { top: y + 52, height: 200 }),
+              opacity: o,
               transform: `translateY(${interpolate(sp, [0, 1], [up ? 16 : -16, 0])}px)`,
             }}>
               <div style={{

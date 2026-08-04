@@ -27,7 +27,11 @@ import { CaseTimeline, GenealogyTree, RouteMap } from "../criminalrecord/RecordS
 const FPS = 30;
 const BASE = "#05070C";
 
-type Theme = { display: string; body: string; accent: string; brand: string };
+type Theme = { display: string; body: string; accent: string; brand: string;
+  /** brightness multiplier for the dimmed image behind chapter/kinetic text.
+   *  Tuned for photos by default; document-first channels need it far lower or
+   *  a white page drowns the type. */
+  textBg?: { fg: number; bg: number; blur: number } };
 const THEMES: Record<string, Theme> = {
   mindwired: {
     display: "'Space Grotesk', sans-serif", body: "'Inter', sans-serif",
@@ -47,6 +51,9 @@ const THEMES: Record<string, Theme> = {
   criminalrecord: {
     display: "'Space Grotesk', sans-serif", body: "'Inter', sans-serif",
     accent: "#7FB4FF", brand: "Criminal Record",
+    // court filings are black-on-WHITE; at photo dimming the page text fights
+    // the title and the accent eyebrow becomes unreadable.
+    textBg: { fg: 0.20, bg: 0.16, blur: 16 },
   },
 };
 
@@ -335,24 +342,25 @@ const RadioScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Them
    exists for the scene; bare black-screen-and-text reads cheap and empty
    (Akshay, 2026-07-25 — "70-80% of the video is black screen"). Falls back to
    BASE (solid dark) only when the scene genuinely has no img prefix. */
-const TextSceneBg: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: number }> = ({ s, slug, m, idx }) => {
+const TextSceneBg: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: number; th?: Theme }> = ({ s, slug, m, idx, th }) => {
   const frame = useCurrentFrame();
   const files = (s.img && m.images[s.img]) || [];
   const file = files.length ? files[idx % files.length] : null;
   if (!file) return null;
   const fadeIn = interpolate(frame, [0, 14], [0, 1], { extrapolateRight: "clamp" });
   const drift = interpolate(frame, [0, 1400], [1.06, 1.18], { extrapolateRight: "clamp" });
+  const tb = th?.textBg ?? { fg: 0.62, bg: 0.5, blur: 10 };
   return (
     <AbsoluteFill style={{ opacity: fadeIn }}>
       {/* blurred cover backdrop fills the frame regardless of source aspect ratio */}
       <Img src={staticFile(`shorts/${slug}/images/${file}`)}
         style={{ width: "100%", height: "100%", objectFit: "cover", transform: `scale(${drift * 1.15})`,
-          filter: "brightness(0.5) saturate(0.85) blur(10px)" }} />
+          filter: `brightness(${tb.bg}) saturate(0.85) blur(${tb.blur}px)` }} />
       {/* sharp foreground never crops — portrait sources stay pillarboxed instead of losing content */}
       <AbsoluteFill style={{ justifyContent: "center", alignItems: "center" }}>
         <Img src={staticFile(`shorts/${slug}/images/${file}`)}
           style={{ maxWidth: "100%", maxHeight: "100%", width: "auto", height: "auto", objectFit: "contain",
-            transform: `scale(${drift})`, filter: "brightness(0.62) saturate(0.85)" }} />
+            transform: `scale(${drift})`, filter: `brightness(${tb.fg}) saturate(0.85)` }} />
       </AbsoluteFill>
       <AbsoluteFill style={{ background: "radial-gradient(circle, rgba(4,6,10,0.12) 0%, rgba(4,6,10,0.72) 82%)" }} />
     </AbsoluteFill>
@@ -366,7 +374,7 @@ const ChapterCard: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: nu
   const lines = (s.chapter ?? "").split("\n");
   return (
     <AbsoluteFill style={{ backgroundColor: BASE, justifyContent: "center", alignItems: "center" }}>
-      <TextSceneBg s={s} slug={slug} m={m} idx={idx} />
+      <TextSceneBg s={s} slug={slug} m={m} idx={idx} th={th} />
       <div style={{ position: "absolute", width: 760, height: 760, borderRadius: "50%",
         background: `radial-gradient(circle, ${th.accent}14 0%, transparent 62%)` }} />
       <div style={{ textAlign: "center", transform: `translateY(${interpolate(sp, [0, 1], [26, 0])}px)`, opacity: sp }}>
@@ -685,7 +693,7 @@ const KineticScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: n
   const perWord = words.length ? (aud * 0.78) / words.length : 0;
   return (
     <AbsoluteFill style={{ backgroundColor: "#04060A", justifyContent: "center", alignItems: "center", opacity: fadeOut }}>
-      <TextSceneBg s={s} slug={slug} m={m} idx={idx} />
+      <TextSceneBg s={s} slug={slug} m={m} idx={idx} th={th} />
       <div style={{ position: "absolute", width: 780, height: 780, borderRadius: "50%",
         background: `radial-gradient(circle, ${th.accent}0F 0%, transparent 60%)` }} />
       {shown !== null && (

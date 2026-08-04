@@ -1,0 +1,91 @@
+{
+ "durations": {
+  "h1": 7.706,
+  "h2": 5.251,
+  "h3": 5.956,
+  "h4": 7.471,
+  "h5": 6.034,
+  "h6": 9.874,
+  "c1_ch": 6.531,
+  "c1_1": 8.908,
+  "c1_2": 7.157,
+  "c2_ch": 5.799,
+  "c2_1": 6.269,
+  "c2_2": 13.322,
+  "c2_3": 6.348,
+  "c2_4": 6.922,
+  "c3_ch": 5.486,
+  "c3_1": 4.989,
+  "c3_2": 7.889,
+  "c3_3": 7.549,
+  "c3_4": 7.314,
+  "c4_ch": 5.721,
+  "c4_1": 9.482,
+  "c4_2": 8.594,
+  "c4_3": 8.438,
+  "c4_4": 10.606,
+  "c4_5": 15.151,
+  "c5_ch": 4.598,
+  "c5_1": 7.236,
+  "c5_2": 9.482,
+  "c5_3": 9.953,
+  "c5_4": 10.919,
+  "c6_ch": 4.754,
+  "c6_1": 9.404,
+  "c6_2": 7.628,
+  "c6_3": 8.986,
+  "c6_4": 4.206,
+  "c7_ch": 6.269,
+  "c7_1": 7.079,
+  "c7_2": 8.594,
+  "c7_3": 3.971,
+  "c7_4": 11.964,
+  "c8_ch": 7.236,
+  "c8_1": 9.169,
+  "c8_2": 10.449,
+  "c8_3": 11.964,
+  "c8_4": 11.546,
+  "c8_5": 11.468,
+  "c8_6": 8.594,
+  "e1": 11.964,
+  "e2": 6.191,
+  "e3": 6.191,
+  "e4": 11.964
+ },
+ "images": {
+  "ex_affidavit_car": [
+   "ex_affidavit_car_1.png"
+  ],
+  "ex_affidavit_dna": [
+   "ex_affidavit_dna_1.png"
+  ],
+  "ex_affidavit_p1": [
+   "ex_affidavit_p1_1.png"
+  ],
+  "ex_affidavit_phone": [
+   "ex_affidavit_phone_1.png"
+  ],
+  "ex_affidavit_sheath": [
+   "ex_affidavit_sheath_1.png"
+  ],
+  "ex_docpage": [
+   "ex_docpage_1.png",
+   "ex_docpage_10.png",
+   "ex_docpage_11.png",
+   "ex_docpage_12.png",
+   "ex_docpage_13.png",
+   "ex_docpage_14.png",
+   "ex_docpage_2.png",
+   "ex_docpage_3.png",
+   "ex_docpage_4.png",
+   "ex_docpage_5.png",
+   "ex_docpage_6.png",
+   "ex_docpage_7.png",
+   "ex_docpage_8.png",
+   "ex_docpage_9.png"
+  ]
+ },
+ "missing": [],
+ "speed": 0.97,
+ "mouth": {}
+}

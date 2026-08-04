@@ -1,0 +1,349 @@
+{
+  "slug": "dahmer",
+  "title": "The Record: Milwaukee, 1991",
+  "channel": "criminalrecord",
+  "niche": "history",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "May twenty seventh, nineteen ninety one. Milwaukee, Wisconsin. Three women find a fourteen year old boy in the street, undressed and bleeding, and they call the police.",
+      "timeline": {
+        "title": "Milwaukee, Wisconsin — May 27, 1991",
+        "marks": [
+          {
+            "at": "The call",
+            "label": "Three women report a boy in the street",
+            "emphasis": true
+          }
+        ]
+      },
+      "cap": "Three women called. The police came.",
+      "tone": "grave"
+    },
+    {
+      "id": "h2",
+      "text": "Two officers arrive. A man tells them the boy is nineteen, and his boyfriend, and that this is a domestic argument.",
+      "img": "ex_opinion",
+      "kinetic": {
+        "words": ["He said the boy", "was nineteen"],
+        "sub": "the account given to responding officers"
+      },
+      "tone": "grave"
+    },
+    {
+      "id": "h3",
+      "text": "The boy is not nineteen. He is fourteen. And the man is on probation, at that moment, for sexually assaulting a thirteen year old boy three years earlier.",
+      "kinetic": {
+        "words": ["He was 14."],
+        "sub": "Konerak Sinthasomphone"
+      },
+      "img": "ex_opinion",
+      "tone": "grave"
+    },
+    {
+      "id": "h4",
+      "text": "The officers hand the boy back to him. In the words of a published appeals court opinion, they released Sinthasomphone, who was a minor, into Dahmer's care.",
+      "exhibit": true,
+      "img": "ex_release",
+      "source": "Balcerzak v. Board of Fire and Police Commissioners, Wis. Ct. App. No. 98-2889",
+      "highlight": [0.1, 0.42, 0.8, 0.16],
+      "cap": "“…released Sinthasomphone, who was a minor, into Dahmer's care.”",
+      "tone": "grave"
+    },
+    {
+      "id": "h5",
+      "text": "The next sentence of that opinion is seven words long. Dahmer murdered Sinthasomphone shortly thereafter.",
+      "exhibit": true,
+      "img": "ex_release",
+      "source": "Balcerzak v. Board of Fire and Police Commissioners — the court's own words",
+      "highlight": [0.1, 0.5, 0.8, 0.12],
+      "tone": "grave"
+    },
+    {
+      "id": "h6",
+      "text": "This film is not about what Jeffrey Dahmer did. That has been told a thousand times, and it needs no retelling. This is about the documents that came afterward, and what they show a system will forgive.",
+      "kinetic": {
+        "words": ["What the record", "forgave"],
+        "sub": "Criminal Record · Milwaukee, 1991"
+      },
+      "img": "ex_opinion",
+      "tone": "measured"
+    },
+    {
+      "id": "c1_ch",
+      "chapter": "Chapter one\nThree years earlier",
+      "text": "To understand the night of May twenty seventh, you have to start in nineteen eighty eight, with a different boy and the same surname.",
+      "img": "ex_opinion",
+      "tone": "measured"
+    },
+    {
+      "id": "c1_1",
+      "text": "In nineteen eighty eight, Dahmer was arrested for drugging and sexually assaulting a thirteen year old boy named Somsack Sinthasomphone. He was convicted.",
+      "img": "ex_opinion",
+      "camera": "push",
+      "tone": "grave"
+    },
+    {
+      "id": "c1_2",
+      "text": "He was not sent to prison for it. He was placed on probation.",
+      "kinetic": {
+        "words": ["Probation."],
+        "sub": "the 1988 conviction"
+      },
+      "img": "ex_opinion",
+      "tone": "grave"
+    },
+    {
+      "id": "c1_3",
+      "text": "Three years later, still on that probation, he was standing in a Milwaukee street explaining to two officers that the fourteen year old beside him was an adult. That fourteen year old was Somsack's younger brother, Konerak.",
+      "timeline": {
+        "title": "Two brothers, three years apart",
+        "marks": [
+          { "at": "1988", "label": "Assault of Somsack, 13 — conviction, probation" },
+          { "at": "May 1991", "label": "Konerak, 14, released back to him", "emphasis": true }
+        ]
+      },
+      "cap": "The same family. Twice.",
+      "tone": "grave"
+    },
+    {
+      "id": "c2_ch",
+      "chapter": "Chapter two\nWhat the officers did",
+      "text": "What happened in the next twenty minutes is described, dryly, in a court record.",
+      "img": "ex_release",
+      "tone": "measured"
+    },
+    {
+      "id": "c2_1",
+      "text": "The opinion says the officers conducted a brief investigation. It says they released a minor into the care of the man who had just been found with him in the street.",
+      "exhibit": true,
+      "img": "ex_release",
+      "source": "Wis. Ct. App. No. 98-2889 — statement of facts",
+      "highlight": [0.1, 0.36, 0.8, 0.22],
+      "tone": "grave"
+    },
+    {
+      "id": "c2_2",
+      "text": "It does not say they knew what he was. There is nothing in this record that says they knew, and this film will not pretend otherwise.",
+      "img": "ex_opinion",
+      "camera": "drift",
+      "tone": "measured"
+    },
+    {
+      "id": "c2_3",
+      "text": "What the record does establish is that a fourteen year old was handed back, and that a police department later concluded its own rules had been broken in the process.",
+      "img": "ex_opinion",
+      "camera": "push",
+      "tone": "measured"
+    },
+    {
+      "id": "c3_ch",
+      "chapter": "Chapter three\nThe discharge",
+      "text": "In July of nineteen ninety one, Dahmer was arrested, and what had happened that night in May became public.",
+      "img": "ex_fpc",
+      "tone": "measured"
+    },
+    {
+      "id": "c3_1",
+      "text": "The then chief of police discharged the officers involved, for violating department rules during that investigation.",
+      "exhibit": true,
+      "img": "ex_fpc",
+      "source": "Wis. Ct. App. No. 98-2889 — discharge and appeal history",
+      "highlight": [0.1, 0.3, 0.8, 0.18],
+      "cap": "Discharged.",
+      "tone": "measured"
+    },
+    {
+      "id": "c3_2",
+      "text": "The officers appealed to the city's Fire and Police Commission. The commission upheld the discharges.",
+      "exhibit": true,
+      "img": "ex_fpc",
+      "source": "Wis. Ct. App. No. 98-2889 — “the FPC, which upheld their discharges”",
+      "highlight": [0.1, 0.46, 0.8, 0.16],
+      "cap": "The commission agreed with the chief.",
+      "tone": "measured"
+    },
+    {
+      "id": "c3_3",
+      "text": "At that point, in the eyes of both the department and its civilian oversight body, the matter was settled. It was not settled.",
+      "img": "ex_opinion",
+      "camera": "pull",
+      "tone": "measured"
+    },
+    {
+      "id": "c4_ch",
+      "chapter": "Chapter four\nThe statute",
+      "text": "What happened next was not a jury, and not a public argument about policing. It was a section number.",
+      "img": "ex_vacated",
+      "tone": "measured"
+    },
+    {
+      "id": "c4_1",
+      "text": "Wisconsin statute sixty two point fifty governs how a police officer may be discharged, suspended, or reduced in rank, and what a court must do when it reviews that decision.",
+      "exhibit": true,
+      "img": "ex_vacated",
+      "source": "Wis. Stat. § 62.50, as construed in Wis. Ct. App. No. 98-2889",
+      "highlight": [0.1, 0.34, 0.8, 0.24],
+      "tone": "measured"
+    },
+    {
+      "id": "c4_2",
+      "text": "The statute is narrow, and it is procedural. It says that where the accused is not permanently discharged, the officer shall be immediately reinstated in his or her former position.",
+      "exhibit": true,
+      "img": "ex_vacated",
+      "source": "Wis. Stat. § 62.50 — reinstatement provision",
+      "highlight": [0.1, 0.52, 0.8, 0.18],
+      "cap": "“…shall be immediately reinstated…”",
+      "tone": "measured"
+    },
+    {
+      "id": "c4_3",
+      "text": "On review, the discharges were vacated and converted into suspensions. Under the statute, that meant reinstatement, and it meant back pay.",
+      "exhibit": true,
+      "img": "ex_vacated",
+      "source": "Wis. Ct. App. No. 98-2889 — discharges vacated, officers reinstated",
+      "highlight": [0.1, 0.4, 0.8, 0.2],
+      "tone": "measured"
+    },
+    {
+      "id": "c4_4",
+      "text": "Reported at roughly fifty five thousand dollars each.",
+      "kinetic": {
+        "count": 55000,
+        "prefix": "$",
+        "countLabel": "back pay, each",
+        "sub": "as reported at the time"
+      },
+      "img": "ex_opinion",
+      "tone": "grave"
+    },
+    {
+      "id": "c4_5",
+      "text": "That is the whole mechanism. Not a finding that the officers had acted properly. A statute about the difference between a discharge and a suspension.",
+      "timeline": {
+        "title": "How the discharges ended",
+        "marks": [
+          { "at": "1991", "label": "Chief discharges the officers" },
+          { "at": "FPC", "label": "Commission upholds the discharges" },
+          { "at": "Review", "label": "Discharges vacated, converted to suspensions" },
+          { "at": "Result", "label": "Reinstated with back pay", "emphasis": true }
+        ]
+      },
+      "cap": "Four steps. One outcome.",
+      "tone": "measured"
+    },
+    {
+      "id": "c5_ch",
+      "chapter": "Chapter five\nWhat was said about it",
+      "text": "The reinstatement was criticised immediately, and the criticism was specific.",
+      "img": "ex_opinion",
+      "tone": "measured"
+    },
+    {
+      "id": "c5_1",
+      "text": "Many argued the investigation that night had been cursory because Konerak was not white, and because the officers accepted, without checking, that he was an adult in a relationship with the man beside him.",
+      "img": "ex_opinion",
+      "camera": "push",
+      "tone": "measured"
+    },
+    {
+      "id": "c5_2",
+      "text": "That is a criticism, widely made, and it belongs in the record as exactly that. No court finding in these documents declares it as fact, and this film will not upgrade an accusation into a verdict.",
+      "img": "ex_opinion",
+      "camera": "drift",
+      "tone": "measured"
+    },
+    {
+      "id": "c5_3",
+      "text": "Konerak's family sued the city in federal court. The case is reported as Estate of Sinthasomphone against the City of Milwaukee, decided in nineteen ninety two.",
+      "route": {
+        "title": "Where the accountability went",
+        "points": [
+          { "x": 0.18, "y": 0.5, "label": "Police department", "at": "1991" },
+          { "x": 0.42, "y": 0.38, "label": "Fire & Police Commission" },
+          { "x": 0.64, "y": 0.5, "label": "State courts" },
+          { "x": 0.86, "y": 0.36, "label": "Federal court", "at": "1992" }
+        ]
+      },
+      "tone": "measured"
+    },
+    {
+      "id": "c6_ch",
+      "chapter": "Chapter six\nThe trial",
+      "text": "Dahmer's own case moved faster than any of it.",
+      "img": "ex_opinion",
+      "tone": "measured"
+    },
+    {
+      "id": "c6_1",
+      "text": "He was charged with fifteen counts of murder. His defence did not dispute that he had killed. It argued that he was insane.",
+      "img": "ex_opinion",
+      "camera": "push",
+      "tone": "measured"
+    },
+    {
+      "id": "c6_2",
+      "text": "On February fifteenth, nineteen ninety two, after roughly five hours, the jury rejected that argument and found him guilty on all fifteen counts.",
+      "kinetic": {
+        "count": 15,
+        "countLabel": "counts of murder",
+        "sub": "verdict, February 15, 1992 — insanity plea rejected"
+      },
+      "img": "ex_opinion",
+      "tone": "grave"
+    },
+    {
+      "id": "c6_3",
+      "text": "Two days later he was sentenced to fifteen consecutive life terms. In November of nineteen ninety four, he was killed by another inmate in prison.",
+      "timeline": {
+        "title": "The criminal case",
+        "marks": [
+          { "at": "Feb 15, 1992", "label": "Guilty on 15 counts, insanity plea rejected" },
+          { "at": "Feb 17, 1992", "label": "Fifteen consecutive life terms" },
+          { "at": "Nov 1994", "label": "Killed in prison", "emphasis": true }
+        ]
+      },
+      "tone": "grave"
+    },
+    {
+      "id": "e1",
+      "text": "So here is the record, in one sentence. A man on probation for assaulting a thirteen year old was handed that boy's fourteen year old brother by two uniformed officers, and the paperwork that followed put those officers back on the payroll with back pay.",
+      "route": {
+        "title": "The record, end to end",
+        "points": [
+          { "x": 0.12, "y": 0.5, "label": "1988 conviction" },
+          { "x": 0.31, "y": 0.36, "label": "Probation" },
+          { "x": 0.5, "y": 0.52, "label": "May 1991" },
+          { "x": 0.69, "y": 0.36, "label": "Discharged" },
+          { "x": 0.88, "y": 0.5, "label": "Reinstated" }
+        ]
+      },
+      "tone": "grave"
+    },
+    {
+      "id": "e2",
+      "text": "Every step of that sentence is in a filing you can read. None of it required a secret.",
+      "kinetic": {
+        "words": ["None of it", "was hidden."],
+        "sub": "every document in this episode is public"
+      },
+      "img": "ex_opinion",
+      "tone": "grave"
+    },
+    {
+      "id": "e3",
+      "text": "Three women called the police that night, and they were right about what they saw. The system's own paperwork is the part that failed.",
+      "img": "ex_opinion",
+      "camera": "pull",
+      "tone": "grave"
+    },
+    {
+      "id": "e4",
+      "text": "This is Criminal Record, where every case is built from the primary record and nothing else. If this one held you, the file we opened before it is a case where four students died and the record still contains no motive. Subscribe, and both are waiting.",
+      "img": "ex_opinion",
+      "tone": "measured"
+    }
+  ]
+}
