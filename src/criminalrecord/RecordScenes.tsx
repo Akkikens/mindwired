@@ -158,7 +158,7 @@ export const RouteMap: React.FC<{
 }> = ({ points, title, cap, accent, sceneDur }) => {
   const f = useCurrentFrame();
   const { fps, width, height } = useVideoConfig();
-  const draw = interpolate(f, [16, Math.round(sceneDur * 0.66)], [0, 1], {
+  const draw = interpolate(f, [4, Math.round(sceneDur * 0.62)], [0, 1], {
     extrapolateLeft: "clamp", extrapolateRight: "clamp",
   });
   const px = (p: RoutePoint) => ({ x: p.x * width, y: p.y * height });
@@ -173,7 +173,7 @@ export const RouteMap: React.FC<{
         }}>{title.toUpperCase()}</div>
       )}
       <svg width={width} height={height} style={{ position: "absolute", inset: 0 }}>
-        <path d={d} fill="none" stroke="rgba(207,224,255,0.18)" strokeWidth={5}
+        <path d={d} fill="none" stroke="rgba(207,224,255,0.34)" strokeWidth={5}
           strokeDasharray="14 12" />
         <path d={d} fill="none" stroke={accent} strokeWidth={7} strokeLinecap="round"
           pathLength={1} strokeDasharray={1} strokeDashoffset={1 - draw}
@@ -181,8 +181,10 @@ export const RouteMap: React.FC<{
       </svg>
       {points.map((p, i) => {
         const t = points.length > 1 ? i / (points.length - 1) : 0;
-        const sp = spring({ frame: f - 16 - Math.round(t * 40), fps, config: { damping: 16 } });
-        const o = draw >= t - 0.02 ? sp : 0;
+        const sp = spring({ frame: f - 4 - Math.round(t * 34), fps, config: { damping: 16 } });
+        // first point is present from the opening frames; later ones arrive as the
+        // path reaches them (never an empty frame at scene start)
+        const o = i === 0 || draw >= t - 0.02 ? sp : 0;
         const { x, y } = px(p);
         return (
           <div key={`${p.label}-${i}`} style={{ position: "absolute", left: x - 190, top: y - 96,

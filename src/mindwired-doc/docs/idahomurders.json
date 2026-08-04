@@ -193,9 +193,9 @@
       "source": "Probable cause affidavit, Latah County",
       "highlight": [
         0.1,
-        0.42,
+        0.789,
         0.8,
-        0.2
+        0.026
       ],
       "tone": "grave"
     },
@@ -219,7 +219,7 @@
     },
     {
       "id": "c2b_ch",
-      "chapter": "Chapter three\nFour passes",
+      "chapter": "Chapter three\nThe passes",
       "text": "Before any of that, the neighbourhood's own cameras recorded something nobody noticed for weeks.",
       "img": "ex_docpage",
       "tone": "measured"
@@ -231,25 +231,25 @@
       "img": "ex_passes",
       "source": "Probable cause affidavit, p.7 — neighbourhood video review",
       "highlight": [
-        0.12,
-        0.33,
-        0.76,
-        0.09
+        0.1,
+        0.244,
+        0.8,
+        0.026
       ],
       "cap": "First sighting: 3:29 a.m.",
       "tone": "grave"
     },
     {
       "id": "c2b_2",
-      "text": "The sightings continue, on and off, until four twenty in the morning. The affidavit describes multiple appearances of the same suspect vehicle across that window.",
+      "text": "The affidavit puts it plainly. Those sightings show the vehicle making an initial three passes by the house, before a final one at four twenty.",
       "exhibit": true,
       "img": "ex_passes",
-      "source": "Probable cause affidavit, p.7 — sightings from 3:29 to 4:20 a.m.",
+      "source": "Probable cause affidavit, p.7 — “an initial three passes by the 1122 King Road”",
       "highlight": [
-        0.12,
-        0.42,
-        0.76,
-        0.09
+        0.1,
+        0.268,
+        0.8,
+        0.026
       ],
       "tone": "grave"
     },
@@ -280,10 +280,10 @@
       "img": "ex_return",
       "source": "Probable cause affidavit, p.15 — cell-site records, 9:00 a.m. return",
       "highlight": [
-        0.12,
-        0.36,
-        0.76,
-        0.12
+        0.1,
+        0.378,
+        0.8,
+        0.026
       ],
       "cap": "It came back at 9 a.m.",
       "tone": "grave"
@@ -315,10 +315,10 @@
       "img": "ex_affidavit_sheath",
       "source": "Probable cause affidavit — recovered evidence",
       "highlight": [
-        0.13,
-        0.59,
-        0.74,
-        0.055
+        0.1,
+        0.548,
+        0.8,
+        0.026
       ],
       "cap": "One sheath. No knife.",
       "tone": "measured",
@@ -344,10 +344,10 @@
       "img": "ex_affidavit_sheath",
       "source": "Probable cause affidavit",
       "highlight": [
-        0.13,
-        0.652,
-        0.74,
-        0.068
+        0.1,
+        0.647,
+        0.8,
+        0.026
       ],
       "tone": "measured",
       "redact": [
@@ -452,9 +452,9 @@
       "source": "Probable cause affidavit — DNA comparison",
       "highlight": [
         0.1,
-        0.36,
+        0.342,
         0.8,
-        0.2
+        0.026
       ],
       "tone": "measured"
     },
@@ -559,10 +559,10 @@
       "img": "ex_drive",
       "source": "Probable cause affidavit, p.12 — plate reader and law-enforcement contacts",
       "highlight": [
-        0.12,
-        0.3,
-        0.76,
-        0.1
+        0.1,
+        0.239,
+        0.8,
+        0.026
       ],
       "cap": "Colorado. Then Indiana.",
       "tone": "measured"
@@ -574,10 +574,10 @@
       "img": "ex_drive",
       "source": "Probable cause affidavit, p.12 — Albrightsville surveillance",
       "highlight": [
-        0.12,
-        0.4,
-        0.76,
-        0.1
+        0.1,
+        0.338,
+        0.8,
+        0.026
       ],
       "tone": "measured"
     },
@@ -618,13 +618,13 @@
       "id": "c5b_4",
       "text": "On December twenty third, investigators obtained search warrants for the historical records of that phone. Everything the affidavit says about where it had been comes from those warrants.",
       "exhibit": true,
-      "img": "ex_return",
-      "source": "Probable cause affidavit — December 23, 2022 search warrants",
+      "img": "ex_affidavit_phone",
+      "source": "Probable cause affidavit, p.17 — December 23, 2022 search warrant",
       "highlight": [
-        0.12,
-        0.5,
-        0.76,
-        0.1
+        0.1,
+        0.136,
+        0.8,
+        0.026
       ],
       "cap": "Warrants first. Then the record.",
       "tone": "measured"
@@ -663,10 +663,10 @@
       "img": "ex_plate",
       "source": "Probable cause affidavit, p.11–12 — prior contacts and the posted survey",
       "highlight": [
-        0.12,
-        0.44,
-        0.76,
-        0.12
+        0.1,
+        0.612,
+        0.8,
+        0.026
       ],
       "tone": "measured"
     },
@@ -687,17 +687,10 @@
     {
       "id": "c6_1",
       "text": "The affidavit that justified his arrest described the DNA comparison. It did not mention that genetic genealogy had been used to find him in the first place.",
-      "exhibit": true,
-      "img": "ex_affidavit_dna",
-      "source": "Probable cause affidavit — omission later acknowledged",
-      "highlight": [
-        0.1,
-        0.5,
-        0.8,
-        0.18
-      ],
+      "img": "ex_docpage",
       "cap": "The technique that found him is not in the document that arrested him.",
-      "tone": "measured"
+      "tone": "measured",
+      "camera": "push"
     },
     {
       "id": "c6_2",

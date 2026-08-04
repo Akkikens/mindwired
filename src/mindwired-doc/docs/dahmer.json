@@ -150,9 +150,9 @@
       "source": "Wis. Ct. App. No. 98-2889 — statement of facts",
       "highlight": [
         0.1,
-        0.602,
+        0.7,
         0.8,
-        0.13
+        0.03
       ],
       "tone": "grave"
     },
@@ -319,9 +319,9 @@
       "source": "Wis. Ct. App. No. 98-2889 — circuit court remand",
       "highlight": [
         0.1,
-        0.275,
+        0.283,
         0.8,
-        0.086
+        0.052
       ],
       "cap": "“…more appropriately serve the ends of justice.”",
       "tone": "measured"

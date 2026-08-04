@@ -130,8 +130,9 @@ export type DocScene = {
    *  stamp. Never use for a real person/event that has archival coverage. */
   dossier?: boolean;
   label?: string;
-  /** KINETIC typography-on-black beat (the "second narrator"): a number
-   *  counting up (count → optional strike to a second number), and/or words
+  /** KINETIC typography beat (the "second narrator"): a figure revealed at its
+   *  real value (NO roll-up counter — see memory `no-count-up-number-animation`;
+   *  optional strike to a second number), and/or words
    *  materializing one-by-one, silence-synced to the narration. */
   kinetic?: {
     count?: number; countLabel?: string; prefix?: string; suffix?: string;
@@ -353,7 +354,7 @@ const TextSceneBg: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: nu
   const files = (s.img && m.images[s.img]) || [];
   const file = files.length ? files[idx % files.length] : null;
   if (!file) return null;
-  const fadeIn = interpolate(frame, [0, 14], [0, 1], { extrapolateRight: "clamp" });
+  const fadeIn = interpolate(frame, [0, 5], [0, 1], { extrapolateRight: "clamp" });
   const drift = interpolate(frame, [0, 1400], [1.06, 1.18], { extrapolateRight: "clamp" });
   const tb = th?.textBg ?? { fg: 0.62, bg: 0.5, blur: 10 };
   // Document-first channels (tb from the theme): the page COVERS the frame with a
@@ -707,11 +708,16 @@ const KineticScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: n
   const dur = sceneFrames(s, m);
   const aud = sceneAud(s, m) * FPS;
   const k = s.kinetic ?? {};
-  const fadeOut = interpolate(frame, [dur - 12, dur], [1, 0], { extrapolateLeft: "clamp" });
+  const fadeOut = interpolate(frame, [dur - 5, dur], [1, 0.5], { extrapolateLeft: "clamp" });
   const hasAudio = m.durations[s.id] !== undefined;
-  const countProg = interpolate(frame - LEAD, [0, aud * 0.55], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
-  const eased = countProg * countProg * (3 - 2 * countProg);
-  const shown = k.count !== undefined ? Math.round(eased * k.count) : null;
+  // NO ROLL-UP COUNTERS (Akshay, 2026-08-04: "i never was a fan of animation how
+  // u build up numbers … thats so bad"). A ticking counter spends a second or two
+  // displaying figures that are all WRONG, can't be read while moving, and delays
+  // the only frame that matters. The figure lands at its real value immediately
+  // and settles — emphasis without the slot machine. See memory
+  // `no-count-up-number-animation`.
+  const landSp = spring({ frame: frame - LEAD, fps: FPS, config: { damping: 15, stiffness: 140 } });
+  const shown = k.count !== undefined ? k.count : null;
   const strikeAt = LEAD + aud * 0.68;
   const strikeT = interpolate(frame, [strikeAt, strikeAt + 12], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const revealSp = spring({ frame: frame - strikeAt - 6, fps: FPS, config: { damping: 13, stiffness: 120 } });
@@ -728,7 +734,10 @@ const KineticScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: n
           <div style={{ position: "relative", display: "inline-block" }}>
             <span style={{ fontFamily: th.display, fontWeight: 700, fontSize: 200, color: "#fff", letterSpacing: 1,
               lineHeight: 1, textShadow: "0 4px 30px rgba(0,0,0,0.75)",
-              opacity: k.strike !== undefined ? interpolate(strikeT, [0, 1], [1, 0.45]) : 1 }}>
+              display: "inline-block",
+              transform: `scale(${interpolate(landSp, [0, 1], [1.08, 1])})`,
+              opacity: (k.strike !== undefined ? interpolate(strikeT, [0, 1], [1, 0.45]) : 1)
+                       * interpolate(landSp, [0, 0.35], [0, 1], { extrapolateRight: "clamp" }) }}>
               {k.prefix ?? ""}{fmt(shown)}{k.suffix ?? ""}
             </span>
             {k.strike !== undefined && (
@@ -756,7 +765,7 @@ const KineticScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: n
       {words.length > 0 && (
         <div style={{ maxWidth: 1500, textAlign: "center", padding: "0 80px" }}>
           {words.map((w, i) => {
-            const wIn = spring({ frame: frame - LEAD - i * perWord, fps: FPS, config: { damping: 16 } });
+            const wIn = spring({ frame: frame - 3 - i * perWord, fps: FPS, config: { damping: 16 } });
             return (
               <span key={i} style={{ display: "inline-block", margin: "0 14px",
                 fontFamily: th.display, fontWeight: 700, fontSize: 92, lineHeight: 1.3,
