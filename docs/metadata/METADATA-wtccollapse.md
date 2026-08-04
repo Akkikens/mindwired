@@ -36,8 +36,36 @@ evidentiary reconstruction) — packaging honesty matters enormously here;
 don't let the thumbnail overpromise a "conspiracy reveal" the video doesn't
 deliver.
 
-## Thumbnail
-**Recommended: Workflow B (real photo, on-brand text)** — the real NIST
+## Thumbnail — BUILT (3 files, 2026-08-03)
+House Style 2.0. Builder: `scripts/gen_wtccollapse_thumb.py` (re-runnable, no
+generation step — every pixel comes from a NIST or FEMA federal document).
+
+| File | What it is | Text |
+|---|---|---|
+| `out/thumbs/wtccollapse_A.png` | NIST's own LS-DYNA WTC-7 collapse model at the visibly-deforming stage, inverted so the wireframe glows on black. Keeps NIST's own "LSDYNA Model of WTC-7" label — honest, never presented as real footage. | none |
+| `out/thumbs/wtccollapse_B.png` | FEMA 403 ch.5 WTC7 north-elevation framing panel as a single glowing blueprint tower on black. | none |
+| `out/thumbs/wtccollapse_C.png` | = A + the one word **NO PLANE** (8 chars, doesn't repeat a title word). | one word |
+
+All three verified at 170px (`out/qa/wtcthumb/_squint_final.png`) — each reads as
+one distinct tall structure on black. **Test & Compare: upload all 3; A vs C is
+deliberately the text-vs-no-text arm — settle it on watch-time share, not CTR,
+and log the winning pattern in `docs/planning/LAUNCH-LESSONS.md`.**
+
+Two things were tried and rejected, both recorded so nobody redoes them:
+- The full `col79_diagram` sheet: every crop lands on a wall of callout labels
+  that turns to mush at 170px.
+- An orange "fault line" drawn over the elevation in B: FEMA's real kink/fault
+  annotation belongs to a *different* drawing, so its position here would have
+  been invented — a fabricated marking on a real federal document, on this of
+  all episodes. Removed.
+
+Prediction of failure mode (honesty check): all three are technical/schematic,
+which is on-brand and honest but has less raw emotional pull than a photograph
+of a burning building would. If CTR comes in under ~2%, the next variant to try
+is a real WTC7-on-fire archival photo — **if** one clears the content screen.
+
+### Retired concept (pre-House-Style-2.0, kept for context)
+**Workflow B (real photo, on-brand text)** — the real NIST
 collapse-sequence simulation still (labeled clearly, matching the video's own
 "NIST COMPUTER SIMULATION" honesty convention) or the real col79_diagram
 structural drawing, full-bleed; text overlay: "NO PLANE HIT IT" (white, top)
@@ -94,7 +122,6 @@ Black Box Breakdown for a new deep-dive every week.
 
 CHAPTERS
 00:00 Opening
-01:17 What the Investigation Found
 01:23 Origins & Construction
 04:14 September 11, 2001 — Impact
 05:48 WTC 1 & WTC 2 — Fire and Collapse
@@ -104,13 +131,14 @@ CHAPTERS
 16:28 The Questions People Still Ask
 17:59 Aftermath & Legacy
 
-## Tags (~495/500 chars — one comma-separated line)
-world trade center collapse,building 7 collapse,wtc7 explained,nist investigation,why did the twin towers collapse,world trade center engineering,9/11 investigation,column 79,wtc7 documentary,nist report explained,twin towers collapse explained,structural engineering documentary,black box breakdown,building collapse investigation,shyam sunder,free fall wtc7,thermite claims explained,9/11 conspiracy debunked,world trade center documentary,skyscraper collapse,fire engineering,disaster investigation,dark history,true story documentary
+## Tags (~10-15 obvious terms — the maximize-to-500-chars policy is retired)
+building 7 collapse,wtc7 explained,world trade center collapse,nist investigation,column 79,wtc7 documentary,9/11 investigation,twin towers collapse explained,structural engineering documentary,skyscraper collapse,disaster investigation,black box breakdown
 
-## Hashtags (15 — first 3 show above the title)
-#WorldTradeCenter #Building7 #NIST #Documentary #9/11 #Engineering
-#Investigation #TrueStory #DarkHistory #BlackBox #StructuralEngineering
-#History #Education #Mystery #Aviation
+## Hashtags (3-5 — only the first 3 display above the title)
+#Building7 #WorldTradeCenter #NIST #Documentary
+
+Note: never write "#9/11" — the slash terminates the tag and YouTube renders
+it as a broken "#9". Use #Sept11 if a date tag is ever wanted.
 
 ## Pinned comment
 Every finding in this video traces to NIST's own published investigation —
@@ -159,8 +187,30 @@ Questions People Still Ask") personally before publish, given its
 sensitivity, even though it already went through a dedicated adversarial
 ethics review and primary-source verification pass.
 
-## Shorts
-Not yet cut — invoke shorts-funnel separately once the master render is verified.
+## Deliverables at repo root (mp4-filename-is-title rule)
+`What Really Brought Down Building 7.mp4` (2.96 GB) + matching `.srt`.
+Verified from the actual master: 1298.0s, 38,937 frames @30, 3840×2160,
+−14.1 LUFS, BB outro baked.
+
+## Shorts — planned, NOT yet cut
+Sensitivity-constrained plan (shorts-funnel's rule: never cut a Short from a
+consolidated conspiracy-claims segment — a de-contextualized 45s clip of a claim
+IS platforming it). So the **"The Questions People Still Ask" chapter (16:29) is
+off-limits entirely**, as is anything from the impact/human-toll material.
+
+Four safe candidate beats, all pure engineering/investigation:
+1. **The 47-story building no plane hit** — the core fact, from the Building 7
+   chapter open (10:04). Strongest hook; lead the drip with it.
+2. **Column 79 and the girder that lost its seat** — the actual mechanism, using
+   the real FEMA/NIST framing diagrams.
+3. **"Physically impossible," then walked back on the record** — the free-fall
+   finding and NIST's own revision (14:00). Uses the real NCSTAR 1A page.
+4. **Six years, 236 pieces of steel** — the scale of the investigation (11:51).
+
+Timing: hold these for the **Sept 11, 2026 25th-anniversary run-up** rather than
+dripping them the day after publish — the anniversary is the demand wave this
+episode was validated against. Cut them once Akshay's watch-through clears the
+episode for public.
 
 ## Handoff
 See `docs/planning/WTCCOLLAPSE-HANDOFF.md` for full production status, file

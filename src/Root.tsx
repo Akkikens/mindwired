@@ -1452,7 +1452,12 @@ export const RemotionRoot: React.FC = () => {
 
       {/* ── Earhart funnel Shorts (4) — cold open, the real NARA radio-log
              reveal, the 13-bones forensic story, the 2025 declassification.
-             Pinned-comment CTA on each names the long-form by title. ── */}
+             Pinned-comment CTA on each names the long-form by title.
+             `hookVideo` = real archival motion under the 2.5s hook card (the
+             feed judges those 2.5s; a bare black text card is a hard CLAUDE.md
+             violation). Short1 inherits h2's Electra footage automatically;
+             the other three ranges are photo-only, so each gets an explicit
+             verified PD newsreel plate from this episode's own fetch set. ── */}
       <Composition
         id="EarhartShort1"
         component={BlackBoxShort}
@@ -1465,34 +1470,43 @@ export const RemotionRoot: React.FC = () => {
         component={BlackBoxShort}
         durationInFrames={blackBoxShortFrames({ startId: "c3_8", endId: "c3_16", doc: earhartDoc as any, manifest: earhartManifest as any })}
         fps={30} width={1080} height={1920}
-        defaultProps={{ startId: "c3_8", endId: "c3_16", hook: "This document is real.\nIt still doesn't solve it", cta: "The full radio log\nbreakdown on the channel", slug: "earhart", doc: earhartDoc as any, manifest: earhartManifest as any }}
+        defaultProps={{ startId: "c3_8", endId: "c3_16", hook: "This document is real.\nIt still doesn't solve it", cta: "The full radio log\nbreakdown on the channel", slug: "earhart", hookVideo: "electra_exterior_1.mp4", hookFrom: 2, doc: earhartDoc as any, manifest: earhartManifest as any }}
       />
       <Composition
         id="EarhartShort3"
         component={BlackBoxShort}
         durationInFrames={blackBoxShortFrames({ startId: "c6_2", endId: "c6_9", doc: earhartDoc as any, manifest: earhartManifest as any })}
         fps={30} width={1080} height={1920}
-        defaultProps={{ startId: "c6_2", endId: "c6_9", hook: "13 bones were found.\nOne might be her", cta: "The full forensic story\non the channel", slug: "earhart", doc: earhartDoc as any, manifest: earhartManifest as any }}
+        defaultProps={{ startId: "c6_2", endId: "c6_9", hook: "13 bones were found.\nOne might be her", cta: "The full forensic story\non the channel", slug: "earhart", hookVideo: "uslexington_1.mp4", hookFrom: 1, doc: earhartDoc as any, manifest: earhartManifest as any }}
       />
       <Composition
         id="EarhartShort4"
         component={BlackBoxShort}
         durationInFrames={blackBoxShortFrames({ startId: "c8_2", endId: "c8_9", doc: earhartDoc as any, manifest: earhartManifest as any })}
         fps={30} width={1080} height={1920}
-        defaultProps={{ startId: "c8_2", endId: "c8_9", hook: "The US just declassified\nthousands of pages on her", cta: "What's actually in the files\n— on the channel", slug: "earhart", doc: earhartDoc as any, manifest: earhartManifest as any }}
+        defaultProps={{ startId: "c8_2", endId: "c8_9", hook: "The US just declassified\nthousands of pages on her", cta: "What's actually in the files\n— on the channel", slug: "earhart", hookVideo: "honolulu_oakland_1935_1.mp4", hookFrom: 3, doc: earhartDoc as any, manifest: earhartManifest as any }}
       />
 
       {/* ── Tunguska funnel Shorts (4) — Semenov cold open, the Kulik
              expedition "no crater" reveal, Chelyabinsk 2013 modern analog,
              the 3 fringe theories debunked. Recognition-bridge rule applies:
              hooks lead with "biggest explosion" framing, never bare
-             "Tunguska". ── */}
+             "Tunguska".
+             Hook plates: Short1 is pinned to the real 1927-30 Kulik
+             "matchstick forest" photo, and Short2 falls through to the real
+             Kulik portrait, INSTEAD of the range default — the default would
+             have put 2013 Chelyabinsk footage under an 1908 claim and implied
+             it was Tunguska. (taiga_1 was tried and rejected: cropped to 9:16
+             it's 85% empty river water — verified on a still.) Short3 IS about
+             2013, so it uses chelyabinsk_2 at the 10s mark where the airburst
+             flash is actually visible. Short4 uses the real NASA Ames
+             hypervelocity-lab footage for the physics-theories beat. ── */}
       <Composition
         id="TunguskaShort1"
         component={MindwiredShort}
         durationInFrames={mindwiredShortFrames({ startId: "h1", endId: "h6", doc: tunguskaDoc as any, manifest: tunguskaManifest as any })}
         fps={30} width={1080} height={1920}
-        defaultProps={{ startId: "h1", endId: "h6", hook: "The biggest explosion\nin history left no crater", slug: "tunguska", doc: tunguskaDoc as any, manifest: tunguskaManifest as any }}
+        defaultProps={{ startId: "h1", endId: "h6", hook: "The biggest explosion\nin history left no crater", slug: "tunguska", hookImg: "kulik_fallen_trees_2.jpg", doc: tunguskaDoc as any, manifest: tunguskaManifest as any }}
       />
       <Composition
         id="TunguskaShort2"
@@ -1506,14 +1520,14 @@ export const RemotionRoot: React.FC = () => {
         component={MindwiredShort}
         durationInFrames={mindwiredShortFrames({ startId: "h1c", endId: "h5c", doc: tunguskaDoc as any, manifest: tunguskaManifest as any })}
         fps={30} width={1080} height={1920}
-        defaultProps={{ startId: "h1c", endId: "h5c", hook: "In 2013 it happened again\n— and got filmed", slug: "tunguska", doc: tunguskaDoc as any, manifest: tunguskaManifest as any }}
+        defaultProps={{ startId: "h1c", endId: "h5c", hook: "In 2013 it happened again\n— and got filmed", slug: "tunguska", hookVideo: "chelyabinsk_2.mp4", hookFrom: 11, doc: tunguskaDoc as any, manifest: tunguskaManifest as any }}
       />
       <Composition
         id="TunguskaShort4"
         component={MindwiredShort}
         durationInFrames={mindwiredShortFrames({ startId: "f1", endId: "f6", doc: tunguskaDoc as any, manifest: tunguskaManifest as any })}
         fps={30} width={1080} height={1920}
-        defaultProps={{ startId: "f1", endId: "f6", hook: "3 theories tried to\nexplain it. All 3 failed", slug: "tunguska", doc: tunguskaDoc as any, manifest: tunguskaManifest as any }}
+        defaultProps={{ startId: "f1", endId: "f6", hook: "3 theories tried to\nexplain it. All 3 failed", slug: "tunguska", hookVideo: "nasa_ames_1.mp4", doc: tunguskaDoc as any, manifest: tunguskaManifest as any }}
       />
 
       {/* ── DimaagBatti — 20 जुलाई 2026: दिल्ली, वांगचुक और शांतिपूर्ण प्रदर्शन

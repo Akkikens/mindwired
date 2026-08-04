@@ -28,7 +28,12 @@ type Scene = { id: string; text?: string; img?: string; video?: string; videoFro
 type Doc = { scenes: Scene[] };
 type Manifest = { durations: Record<string, number>; images: Record<string, string[]> };
 type Props = { startId: string; endId: string; hook: string;
-  slug: string; doc: Doc; manifest: Manifest };
+  slug: string; doc: Doc; manifest: Manifest;
+  /** Real motion footage under the hook card. CLAUDE.md: the opening seconds
+   *  are never a bare black text screen — in the Shorts feed those 2.5s ARE
+   *  the verdict. Defaults to the first video inside the scene range; set
+   *  explicitly when the range is photo-only. */
+  hookVideo?: string; hookFrom?: number; hookImg?: string };
 
 const range = (doc: Doc, startId: string, endId: string): Scene[] => {
   const ids = doc.scenes.map(s => s.id);
@@ -54,15 +59,32 @@ const Brand: React.FC = () => (
   </div>
 );
 
-const HookCard: React.FC<{ hook: string }> = ({ hook }) => {
+const HookCard: React.FC<{ hook: string; slug: string; video?: string; from?: number; img?: string }> =
+({ hook, slug, video, from, img }) => {
   const f = useCurrentFrame();
   const sp = spring({ frame: f, fps: FPS, config: { damping: 15 } });
+  const push = interpolate(f, [0, Math.round(HOOK_S * FPS)], [1.06, 1.16], { extrapolateRight: "clamp" });
   return (
-    <AbsoluteFill style={{ backgroundColor: "#05070C", justifyContent: "center", alignItems: "center", padding: 90 }}>
-      <div style={{ opacity: sp, transform: `translateY(${interpolate(sp, [0, 1], [40, 0])}px)`, textAlign: "center" }}>
-        <div style={{ width: 90, height: 8, background: ACCENT, margin: "0 auto 40px", borderRadius: 4 }} />
-        <div style={{ fontFamily: DISPLAY, fontWeight: 800, fontSize: 104, lineHeight: 1.08, color: "#fff", whiteSpace: "pre-line" }}>{hook}</div>
-      </div>
+    <AbsoluteFill style={{ backgroundColor: "#05070C" }}>
+      {video ? (
+        <OffthreadVideo src={staticFile(`shorts/${slug}/video/${video}`)} muted
+          startFrom={Math.round((from ?? 0) * FPS)}
+          style={{ width: "100%", height: "100%", objectFit: "cover",
+            transform: `scale(${push})`, filter: "saturate(0.95) contrast(1.14)" }} />
+      ) : img ? (
+        <Img src={staticFile(`shorts/${slug}/images/${img}`)}
+          style={{ width: "100%", height: "100%", objectFit: "cover",
+            transform: `scale(${push})`, filter: "saturate(0.95) contrast(1.14)" }} />
+      ) : null}
+      {/* scrim: keeps 104px display type legible over any plate */}
+      <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(5,7,12,0.55) 0%, rgba(5,7,12,0.34) 30%, rgba(5,7,12,0.66) 66%, rgba(5,7,12,0.86) 100%)" }} />
+      <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", padding: 90 }}>
+        <div style={{ opacity: sp, transform: `translateY(${interpolate(sp, [0, 1], [40, 0])}px)`, textAlign: "center" }}>
+          <div style={{ width: 90, height: 8, background: ACCENT, margin: "0 auto 40px", borderRadius: 4 }} />
+          <div style={{ fontFamily: DISPLAY, fontWeight: 800, fontSize: 104, lineHeight: 1.08, color: "#fff",
+            whiteSpace: "pre-line", textShadow: "0 4px 28px rgba(0,0,0,0.9)" }}>{hook}</div>
+        </div>
+      </AbsoluteFill>
     </AbsoluteFill>
   );
 };
@@ -126,13 +148,23 @@ const ClipScene: React.FC<{ s: Scene; idx: number; dur: number; slug: string; m:
   );
 };
 
-export const MindwiredShort: React.FC<Props> = ({ startId, endId, hook, slug, doc, manifest }) => {
+export const MindwiredShort: React.FC<Props> = ({ startId, endId, hook, slug, doc, manifest, hookVideo, hookFrom, hookImg }) => {
   const scenes = range(doc, startId, endId);
   let cursor = Math.round(HOOK_S * FPS);
   const clipsEnd = cursor + scenes.reduce((a, s) => a + clipF(manifest, s), 0);
+  // real-motion plate under the hook: explicit prop wins, else the first video
+  // in the range, else the range's first real photo — never a bare black card.
+  const firstVid = scenes.find(s => s.video);
+  const firstImg = scenes.map(s => (s.img && manifest.images[s.img]) || []).find(a => a.length)?.[0];
+  // precedence: explicit hookVideo > explicit hookImg > range video > range photo
+  const plateVideo = hookVideo ?? (hookImg ? undefined : firstVid?.video);
+  const plateFrom = hookVideo ? hookFrom : firstVid?.videoFrom;
+  const plateImg = plateVideo ? undefined : (hookImg ?? firstImg);
   return (
     <AbsoluteFill style={{ backgroundColor: "#000" }}>
-      <Sequence durationInFrames={Math.round(HOOK_S * FPS)} name="hook"><HookCard hook={hook} /></Sequence>
+      <Sequence durationInFrames={Math.round(HOOK_S * FPS)} name="hook">
+        <HookCard hook={hook} slug={slug} video={plateVideo} from={plateFrom} img={plateImg} />
+      </Sequence>
       {scenes.map((s, i) => {
         const from = cursor; const dur = clipF(manifest, s); cursor += dur;
         return (
