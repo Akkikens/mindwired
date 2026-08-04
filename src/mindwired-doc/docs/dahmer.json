@@ -55,9 +55,9 @@
       "source": "Balcerzak v. Board of Fire and Police Commissioners, Wis. Ct. App. No. 98-2889",
       "highlight": [
         0.1,
-        0.42,
+        0.705,
         0.8,
-        0.16
+        0.02
       ],
       "cap": "“…released Sinthasomphone, who was a minor, into Dahmer's care.”",
       "tone": "grave"
@@ -70,9 +70,9 @@
       "source": "Balcerzak v. Board of Fire and Police Commissioners — the court's own words",
       "highlight": [
         0.1,
-        0.5,
+        0.717,
         0.8,
-        0.12
+        0.02
       ],
       "tone": "grave"
     },
@@ -150,9 +150,9 @@
       "source": "Wis. Ct. App. No. 98-2889 — statement of facts",
       "highlight": [
         0.1,
-        0.36,
+        0.602,
         0.8,
-        0.22
+        0.13
       ],
       "tone": "grave"
     },
@@ -181,13 +181,13 @@
       "id": "c3_1",
       "text": "The then chief of police discharged the officers involved, for violating department rules during that investigation.",
       "exhibit": true,
-      "img": "ex_fpc",
+      "img": "ex_release",
       "source": "Wis. Ct. App. No. 98-2889 — discharge and appeal history",
       "highlight": [
         0.1,
-        0.3,
+        0.765,
         0.8,
-        0.18
+        0.022
       ],
       "cap": "Discharged.",
       "tone": "measured"
@@ -200,9 +200,9 @@
       "source": "Wis. Ct. App. No. 98-2889 — “the FPC, which upheld their discharges”",
       "highlight": [
         0.1,
-        0.46,
+        0.166,
         0.8,
-        0.16
+        0.022
       ],
       "cap": "The commission agreed with the chief.",
       "tone": "measured"
@@ -225,13 +225,13 @@
       "id": "c4_1",
       "text": "Wisconsin statute sixty two point fifty governs how a police officer may be discharged, suspended, or reduced in rank, and what a court must do when it reviews that decision.",
       "exhibit": true,
-      "img": "ex_vacated",
+      "img": "ex_fpc",
       "source": "Wis. Stat. § 62.50, as construed in Wis. Ct. App. No. 98-2889",
       "highlight": [
         0.1,
-        0.34,
+        0.652,
         0.8,
-        0.24
+        0.022
       ],
       "tone": "measured"
     },
@@ -239,13 +239,13 @@
       "id": "c4_2",
       "text": "The statute is narrow, and it is procedural. It says that where the accused is not permanently discharged, the officer shall be immediately reinstated in his or her former position.",
       "exhibit": true,
-      "img": "ex_vacated",
+      "img": "ex_fpc",
       "source": "Wis. Stat. § 62.50 — reinstatement provision",
       "highlight": [
         0.1,
-        0.52,
+        0.799,
         0.8,
-        0.18
+        0.022
       ],
       "cap": "“…shall be immediately reinstated…”",
       "tone": "measured"
@@ -254,13 +254,13 @@
       "id": "c4_3",
       "text": "On review, the discharges were vacated and converted into suspensions. Under the statute, that meant reinstatement, and it meant back pay.",
       "exhibit": true,
-      "img": "ex_vacated",
+      "img": "ex_fpc",
       "source": "Wis. Ct. App. No. 98-2889 — discharges vacated, officers reinstated",
       "highlight": [
         0.1,
-        0.4,
+        0.364,
         0.8,
-        0.2
+        0.024
       ],
       "tone": "measured"
     },
@@ -319,9 +319,9 @@
       "source": "Wis. Ct. App. No. 98-2889 — circuit court remand",
       "highlight": [
         0.1,
-        0.36,
+        0.275,
         0.8,
-        0.14
+        0.086
       ],
       "cap": "“…more appropriately serve the ends of justice.”",
       "tone": "measured"
@@ -330,13 +330,13 @@
       "id": "c4b_2",
       "text": "Sixty days is not an arbitrary number. It is the ceiling written into the statute. Under section sixty two point fifty, a board that sustains the charges may discharge an officer permanently, or suspend without pay for a period not exceeding sixty days.",
       "exhibit": true,
-      "img": "ex_vacated",
+      "img": "ex_fpc",
       "source": "Wis. Stat. § 62.50(17) — the statutory ceiling",
       "highlight": [
         0.1,
-        0.44,
+        0.768,
         0.8,
-        0.16
+        0.05
       ],
       "tone": "measured"
     },
@@ -372,9 +372,9 @@
       "source": "Wis. Ct. App. No. 98-2889 — “sixty (60) consecutive workdays effective 11-27-92”",
       "highlight": [
         0.1,
-        0.3,
+        0.238,
         0.8,
-        0.12
+        0.022
       ],
       "cap": "Sixty working days.",
       "tone": "measured"
@@ -387,9 +387,9 @@
       "source": "Wis. Ct. App. No. 98-2889 — summary judgment for Balcerzak",
       "highlight": [
         0.1,
-        0.52,
+        0.557,
         0.8,
-        0.16
+        0.022
       ],
       "cap": "Sixty calendar days. Rights restored.",
       "tone": "measured"
@@ -422,9 +422,9 @@
       "source": "Wis. Ct. App. No. 98-2889 — holding; suspension applied to working days",
       "highlight": [
         0.1,
-        0.34,
+        0.696,
         0.8,
-        0.16
+        0.026
       ],
       "tone": "measured"
     },
