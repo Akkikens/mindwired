@@ -1,4 +1,6 @@
-# METADATA — dahmer (Criminal Record ep.2, 8:08 + outro)
+# METADATA — dahmer (Criminal Record ep.2, 8:08 total incl. outro)
+
+Deliverable at repo root: `The Officers Were Fired. Then They Weren't. Criminal Record.mp4` + matching `.srt` (86 cues, 7:53 body). Verified: 2880×1620, 14,627f, -14.1 LUFS, 0 black runs, instant-number + highlight fixes confirmed in the master.
 
 Channel: **Criminal Record** (@WatchCriminalRecord). Comp: `DahmerDoc`. 2880×1620,
 windowed `bed_somber_kayak.mp3`, CR outro baked (420f).
@@ -54,8 +56,17 @@ SOURCES
 • Wis. Stat. § 62.50(17) and § 62.50(20)
 • Estate of Sinthasomphone v. City of Milwaukee, 785 F. Supp. 1343 (E.D. Wis. 1992) — cited, not shown
 
-CHAPTERS
-[fill from gen_doc_srt output after the render]
+Chapters
+0:00 Opening
+1:00 Three years earlier
+1:36 What the officers did
+2:09 The discharge
+2:38 The statute
+3:32 Sixty days
+5:22 What was said about it
+6:38 The trial
+
+#TrueCrime #CourtRecords #Milwaukee #Documentary
 ```
 
 ## Tags (~12)
@@ -64,7 +75,7 @@ wisconsin court of appeals, true crime documents, institutional failure,
 criminal record channel, police discipline, dahmer case records,
 true crime documentary, case file
 
-## Hashtags (4)
+## Hashtags (4 — already included at the end of the description block above)
 #TrueCrime #CourtRecords #Milwaukee #Documentary
 
 ## Pinned comment

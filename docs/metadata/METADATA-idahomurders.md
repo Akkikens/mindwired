@@ -1,4 +1,6 @@
-# METADATA — idahomurders (Criminal Record, launch episode, 11:31 + outro)
+# METADATA — idahomurders (Criminal Record, launch episode, 11:29 total incl. outro)
+
+Deliverable at repo root: `The Record Never Said Why Criminal Record.mp4` + matching `.srt` (133 cues, 11:15 body).
 
 Channel: **Criminal Record** (@WatchCriminalRecord). Accent `#7FB4FF`, wordmark
 "Criminal Record". Comp: `IdahoMurdersDoc`. Rendered 2K (2560×1440), windowed
@@ -48,8 +50,21 @@ SOURCES
 • 911 call transcript, released March 2025
 • Petition for post-conviction relief, filed July 27, 2026
 
-CHAPTERS
-[fill from gen_doc_srt output after the render]
+Chapters
+0:00 Opening
+0:49 What the record is
+1:15 The morning
+1:59 The passes
+2:51 One piece of leather
+3:30 How they found him
+4:35 The car and the phone
+5:23 The drive east
+6:38 The line that wasn't in it
+7:19 Two years of motions
+7:57 The plea
+8:41 The fourth document
+
+#TrueCrime #CourtRecords #Idaho #Documentary
 ```
 
 ## Tags (~12)
@@ -58,7 +73,7 @@ investigative genetic genealogy, court records explained, true crime documents,
 criminal record channel, post conviction relief, 2022 idaho case,
 true crime documentary, case file
 
-## Hashtags (4 — first 3 display)
+## Hashtags (4 — already included at the end of the description block above; first 3 display)
 #TrueCrime #CourtRecords #Idaho #Documentary
 
 ## Pinned comment
