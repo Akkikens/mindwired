@@ -38,6 +38,7 @@ import boeing737maxDoc from "./mindwired-doc/docs/boeing737max.json";
 import boeing737maxManifest from "./mindwired-doc/docs/boeing737max.manifest.json";
 import { SubscribeBlackBoxLong, subscribeBlackBoxFrames, SubscribeBlackBoxShort, subscribeBlackBoxShortFrames } from "./blackbox/SubscribeOutro";
 import { SubscribeCriminalRecordLong, SubscribeCriminalRecordShort, CR_OUTRO_FRAMES } from "./criminalrecord/SubscribeOutro";
+import { CRTimelineTest, CRRouteTest, CRTreeTest } from "./criminalrecord/SceneTest";
 import colgan3407Doc from "./mindwired-doc/docs/colgan3407.json";
 import colgan3407Manifest from "./mindwired-doc/docs/colgan3407.manifest.json";
 import af447Doc from "./mindwired-doc/docs/af447.json";
@@ -1826,6 +1827,15 @@ export const RemotionRoot: React.FC = () => {
         width={1080}
         height={1920}
       />
+
+      {/* ── Criminal Record — evidence-animation reference comps (real Idaho
+             record data; the RadioTest equivalent for this channel) ── */}
+      <Composition id="CRTimelineTest" component={CRTimelineTest}
+        durationInFrames={150} fps={30} width={1920} height={1080} />
+      <Composition id="CRRouteTest" component={CRRouteTest}
+        durationInFrames={150} fps={30} width={1920} height={1080} />
+      <Composition id="CRTreeTest" component={CRTreeTest}
+        durationInFrames={150} fps={30} width={1920} height={1080} />
 
       {/* ── Criminal Record — standing subscribe outro (typographic, not a
              talking head: the channel's pitch is the real filing on screen, and

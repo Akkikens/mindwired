@@ -24,7 +24,7 @@ export const CR_OUTRO_FRAMES = 420; // 14s @30
 /** Filings sliding into a stack behind the type — the channel's motif. */
 const DocketStack: React.FC<{ vertical: boolean }> = ({ vertical }) => {
   const f = useCurrentFrame();
-  const { fps, width, height } = useVideoConfig();
+  const { fps, width } = useVideoConfig();
   const sheets = 7;
   return (
     <AbsoluteFill style={{ justifyContent: "center", alignItems: "center" }}>

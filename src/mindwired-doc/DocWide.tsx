@@ -22,6 +22,7 @@ import {
 import "../lib/fonts";
 import { DIAGRAMS } from "./Diagrams";
 import { DossierScene, MascotReact, MascotZoom, SketchScene } from "./Sketch";
+import { CaseTimeline, GenealogyTree, RouteMap } from "../criminalrecord/RecordScenes";
 
 const FPS = 30;
 const BASE = "#05070C";
@@ -129,6 +130,18 @@ export type DocScene = {
    *  cold open — wordmark bloom + a musical motif + the spoken line. One
    *  standing beat, identical every episode. Text = "You're watching mindwired." */
   sting?: boolean;
+  /* ---------- Criminal Record evidence-animation layer (2026-08-03) ----------
+   *  Code-generated motion for a channel with no footage pool. These visualise
+   *  EVIDENCE AND CHRONOLOGY only — never a reconstruction of a crime. See
+   *  docs/guides/CRIMINALRECORD-CHANNEL-BRIEF.md and src/criminalrecord/RecordScenes.tsx. */
+  /** Documented chronology: marks stamped along a filling band. Times are
+   *  strings copied from the record, never computed. */
+  timeline?: { title?: string; marks: { at: string; label: string; emphasis?: boolean }[] };
+  /** Schematic route (NOT a photoreal map) between labelled points; x/y are
+   *  0-1 frame fractions authored in the spec. */
+  route?: { title?: string; points: { x: number; y: number; label: string; at?: string }[] };
+  /** Investigative-genealogy tree, one string[] per generation row. */
+  tree?: { title?: string; rows: string[][] };
   /** Variable time-density: Ken Burns intensity on photo scenes.
    *  "fast" = a bigger, quicker move (montage); "slow" = near-static (pivots). */
   motion?: "fast" | "slow";
@@ -789,6 +802,15 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest, outro?: OutroSp
                     })()}
                     slug={doc.slug} cap={s.cap} label={s.label}
                     accent={th.accent} sceneDur={dur} camera={s.camera} />
+                : s.timeline
+                ? <CaseTimeline marks={s.timeline.marks} title={s.timeline.title}
+                    cap={s.cap ?? s.text} accent={th.accent} sceneDur={dur} />
+                : s.route
+                ? <RouteMap points={s.route.points} title={s.route.title}
+                    cap={s.cap ?? s.text} accent={th.accent} sceneDur={dur} />
+                : s.tree
+                ? <GenealogyTree rows={s.tree.rows} title={s.tree.title}
+                    cap={s.cap ?? s.text} accent={th.accent} sceneDur={dur} />
                 : s.kinetic
                 ? <KineticScene s={s} slug={doc.slug} m={manifest} idx={sceneFileIdx[s.id] ?? i} th={th} />
                 : s.diagram
