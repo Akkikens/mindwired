@@ -97,7 +97,7 @@ CHAPTERS
 12:24 The Scheduled Death
 
 ▶ MORE FROM MINDWIRED
-Astronauts Were Asked What Scared Them Most in Space: [paste URL when live]
+Astronauts Were Asked What Scared Them Most in Space: https://youtu.be/cj1JAMa1Y0w
 21 Astronauts Never Came Home. Here's Every Story.: https://youtu.be/maxZwNGqIDU
 The Lost Cosmonauts the USSR Pretended Never Existed: https://youtu.be/Hs6ZzZAQ7ms
 Every Astronaut Who Almost Died in Space: https://youtu.be/0ovoWoiRBXg

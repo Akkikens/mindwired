@@ -85,7 +85,7 @@ If this left you with questions about that day, we've also covered United 93
 Black Box Breakdown for a new deep-dive every week.
 
 ▶ MORE FROM BLACK BOX
-• United 93: The Passengers Who Fought Back → [see docs/metadata/METADATA-flight93.md for live URL once published]
+• What the Cockpit Recorder on United 93 Actually Captured → https://youtu.be/wsFhuwUjg_4
 • MH370: How a Boeing 777 Vanished From Every Radar on Earth → https://youtu.be/kRjhzp4Ho9k
 • The Deadliest Plane Crash in History Happened on the Ground (Tenerife) → https://youtu.be/n99qUg5BNYw
 • How Boeing Killed 346 People — The 737 MAX Disaster → https://youtu.be/d4_Rk50GkBg

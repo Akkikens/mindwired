@@ -58,10 +58,13 @@ CHAPTERS
 SOURCES include declassified Soviet-era records reported after 1989, NASA history archives, RussianSpaceWeb, and published histories of the Soviet space program (image attribution in the pinned comment).
 
 ▶ MORE FROM MINDWIRED
-Every Way Space Has Killed a Human — [paste URL]
-The Scariest Places in the Known Universe — [paste URL]
-Stranded on the Moon: the speech Nixon never gave — [paste URL]
-Full playlist: [paste playlist URL]
+21 ASTRONAUTS Never Came Home! Here's Every Story. — https://youtu.be/maxZwNGqIDU
+The Scariest Real Sounds Ever Recorded in Space — https://www.youtube.com/watch?v=0SY4p2lS0EI
+The Death Speech NASA Hoped You'd Never Hear (Apollo 11) — https://youtu.be/OGrVytHjZ9w
+Full playlist: https://www.youtube.com/playlist?list=PLSGw_l2_Tsdo
+(2026-08-03 note: "Scariest Places in the Known Universe" was never published under
+that title — swapped for live videos; "Every Way Space Has Killed a Human" ships
+under the "21 ASTRONAUTS" title.)
 Subscribe: https://www.youtube.com/@mindwired?sub_confirmation=1
 
 #LostCosmonauts #SpaceHistory #SovietUnion #SpaceRace #Cosmonaut #ColdWar #Gagarin #SpaceDocumentary #Komarov #Soyuz11 #Nedelin #SpaceMystery #Declassified #USSR #Mindwired

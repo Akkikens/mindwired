@@ -44,7 +44,7 @@ Full breakdown — NASA's Real UFO Files — on the channel now.
 
 **Pinned comment:**
 ```
-The full story — including what NASA's own 2023 report concluded — is on the channel: [PASTE LONG-FORM URL]
+The full story — including what NASA's own 2023 report concluded — is on the channel: https://youtu.be/nlhdw6buxzs
 ```
 
 ---
@@ -71,7 +71,7 @@ Full breakdown — NASA's Real UFO Files, what's proven vs. what's assumed — o
 
 **Pinned comment:**
 ```
-The full breakdown of what the sensor data actually shows is on the channel: [PASTE LONG-FORM URL]
+The full breakdown of what the sensor data actually shows is on the channel: https://youtu.be/nlhdw6buxzs
 ```
 
 ---
@@ -100,7 +100,7 @@ Full breakdown — NASA's Real UFO Files — on the channel now.
 
 **Pinned comment:**
 ```
-What the Pentagon's own investigation into his claims actually found — full video on the channel: [PASTE LONG-FORM URL]
+What the Pentagon's own investigation into his claims actually found — full video on the channel: https://youtu.be/nlhdw6buxzs
 ```
 
 ---
@@ -127,5 +127,5 @@ Full breakdown — NASA's Real UFO Files, straight from the real government docu
 
 **Pinned comment:**
 ```
-The real NASA report, on screen, in full — watch it on the channel: [PASTE LONG-FORM URL]
+The real NASA report, on screen, in full — watch it on the channel: https://youtu.be/nlhdw6buxzs
 ```

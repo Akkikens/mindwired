@@ -44,7 +44,7 @@ Images — NASA/ESA/ESO + Wikimedia Commons (full credits in pinned comment)
 
 ▶ MORE FROM MINDWIRED
 The Scariest Real Sounds Ever Recorded in Space — https://www.youtube.com/watch?v=0SY4p2lS0EI
-The Place on Earth Scarier Than Space (Mariana Trench) — [paste URL]
+The Place on Earth Scarier Than Space (Mariana Trench) — https://youtu.be/U-5x9k7vfD4
 21 Astronauts Never Came Home. Here's Every Story. — https://youtu.be/maxZwNGqIDU
 The Lost Cosmonauts the USSR Pretended Never Existed — https://youtu.be/Hs6ZzZAQ7ms
 Space Documentaries — Full Length: https://www.youtube.com/playlist?list=PLSGw_l2_Tsdo

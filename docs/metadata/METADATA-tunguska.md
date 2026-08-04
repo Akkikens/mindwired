@@ -76,8 +76,8 @@ dashcam/CCTV footage, and real NASA planetary-defense mission footage.
 
 If a 1946 science-fiction story was enough to convince people aliens were behind
 Tunguska, wait until you hear the pilot who swore, on the record, that what he saw
-was not from this world — watch "The Pilot Who Said 'It Was Not From This World'"
-next on this channel.
+was not from this world — watch next: https://youtu.be/nlhdw6buxzs
+(published as "The Government's REAL UFO Files" — also the end-screen video)
 
 Subscribe to mindwired for a new space and science documentary every week.
 

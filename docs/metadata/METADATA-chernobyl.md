@@ -84,7 +84,7 @@ findings, and named, attributed sourcing throughout.
 • How Boeing Killed 346 People (737 MAX) → https://youtu.be/d4_Rk50GkBg
 • Too Tired to Fly (Colgan Air 3407) → https://youtu.be/Oh8YpgbudHQ
 • Titanic of the Skies (Air France 447) → https://youtu.be/ZvD4n8uNnuk
-• Air India 171: What's Actually Confirmed → [paste URL once uploaded]
+• AI171 FINAL REPORT Still Hasn't ANSWERED → https://youtu.be/M_pfBvrauKE
 • Air Crash Investigations playlist → https://www.youtube.com/playlist?list=PLGVCiFZm8sRw
 • Subscribe → https://www.youtube.com/@Watch-BlackBox?sub_confirmation=1
 
