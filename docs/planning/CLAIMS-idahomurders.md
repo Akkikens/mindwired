@@ -8,7 +8,23 @@ anything contested attributed to whoever said it and never asserted.
 
 ---
 
-## SOURCING VERDICT (read first — this is the blocker)
+## SOURCING VERDICT — **RESOLVED 2026-08-03 (Akshay)**
+Option 3 chosen: Criminal Record gets its own opening rule — real documents and
+photographs plus **code-generated animation** (Remotion/React; R3F only if 3D
+earns it) in place of footage. Written up as a permanent, documented channel
+exception in `docs/guides/CRIMINALRECORD-CHANNEL-BRIEF.md` and referenced from
+CLAUDE.md's first-30s rule so it can't be mistaken for drift.
+
+The condition that keeps it honest: **the opening must still move, and every
+animated frame must visualise something that is actually in the record.**
+Animation visualises evidence and chronology — routes, timelines, genealogy
+trees, document highlights. It never reconstructs the crime. No figures, no
+rooms, no weapons, no dramatised attack, in any episode.
+
+The original analysis is kept below, because the *reason* matters for every
+future episode on this channel.
+
+## SOURCING VERDICT (original analysis — the reason the exception exists)
 
 **The channel's real-footage rule cannot currently be satisfied for this topic.**
 CLAUDE.md is absolute that the first 30 seconds carry real motion footage

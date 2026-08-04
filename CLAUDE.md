@@ -17,6 +17,7 @@ manual — read it before making or editing any video.
 |---|---|---|---|
 | **mindwired** | faceless space/science mystery (gaming/tech lane PARKED 2026-08 — mixed-identity subs suppress cold-start; see icahn-validate Step 0) | this repo | Orion host; narrator = cloned Cartesia voice `00d3c951-…` (was George/Hume) |
 | **Black Box Breakdown** | disaster & corporate-catastrophe forensics (aviation/maritime/industrial/corporate; 40+ high-RPM). @Watch-BlackBox | this repo, doc engine, `channel:"blackbox"` (theme accent `#FF9500`, wordmark "Black Box") | host **Reid** (`public/host/reid_wide.png`); narrator = cloned Cartesia `00d3c951-…` |
+| **Criminal Record** | true crime built on the primary legal record (affidavits/dockets/filings, not the crime). @WatchCriminalRecord — created 2026-08-03 | this repo, doc engine, `channel:"criminalrecord"` (accent `#7FB4FF`, wordmark "Criminal Record") | faceless for now; narrator = cloned Cartesia `00d3c951-…`. **Has its own opening rule — see `docs/guides/CRIMINALRECORD-CHANNEL-BRIEF.md`** |
 | **DimaagBatti** | Hindi explainers (Dhruv-Rathee style: economy/geopolitics/how-it-works) | this repo (`src/dimaagbatti`) | Rohan, Cartesia Hindi `4877b818-…`; whiteboard + Devanagari overlays; see `docs/guides/HINDI-CHANNEL-BRIEF.md` |
 | **KickOffDaily90** | football / World Cup (separate YT+IG brand) | this repo, viral engine, `channel:"kickoffdaily90"` | host Jamie |
 | **Singaloo.kids** | kids singalongs + animated | **singaloo repo** (`../singaloo`) | host Melody |
@@ -139,7 +140,12 @@ docs/planning/FOOTAGE-UPGRADE.md; per-niche source rankings: scripts/SOURCES-GUI
   media dir; research every episode fresh. The first ~30s hook using ANY file
   another video already used is a render-BLOCKING preflight failure.
 - **FIRST 30 SECONDS = REAL VIDEO, never stills (Akshay, 2026-07-31: "stills
-  for first 30 secs doesnt explode").** Every cold-open/hook scene before
+  for first 30 secs doesnt explode").** ONE documented exception: **Criminal
+  Record** may open on real documents/photos + code-generated data animation,
+  because state criminal cases have no federal-PD film pool to draw on (probed
+  and confirmed 2026-08-03). The opening must still MOVE, and the motion must
+  come from real material — see `docs/guides/CRIMINALRECORD-CHANNEL-BRIEF.md`.
+  This exception does NOT extend to any other channel. Every cold-open/hook scene before
   ~30s carries a `video` field with real motion footage — photos with camera
   moves don't hold scrollers. Secure the hook video FIRST when sourcing; a
   topic with zero real video anywhere is a topic to reconsider. See memory
