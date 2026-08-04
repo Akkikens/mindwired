@@ -37,6 +37,7 @@ import atomDeathsManifest from "./mindwired-doc/docs/atomdeaths.manifest.json";
 import boeing737maxDoc from "./mindwired-doc/docs/boeing737max.json";
 import boeing737maxManifest from "./mindwired-doc/docs/boeing737max.manifest.json";
 import { SubscribeBlackBoxLong, subscribeBlackBoxFrames, SubscribeBlackBoxShort, subscribeBlackBoxShortFrames } from "./blackbox/SubscribeOutro";
+import { SubscribeCriminalRecordLong, SubscribeCriminalRecordShort, CR_OUTRO_FRAMES } from "./criminalrecord/SubscribeOutro";
 import colgan3407Doc from "./mindwired-doc/docs/colgan3407.json";
 import colgan3407Manifest from "./mindwired-doc/docs/colgan3407.manifest.json";
 import af447Doc from "./mindwired-doc/docs/af447.json";
@@ -1821,6 +1822,26 @@ export const RemotionRoot: React.FC = () => {
         id="SubscribeBlackBoxShort"
         component={SubscribeBlackBoxShort}
         durationInFrames={subscribeBlackBoxShortFrames}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+
+      {/* ── Criminal Record — standing subscribe outro (typographic, not a
+             talking head: the channel's pitch is the real filing on screen, and
+             an AI presenter would undercut it. Built once, reused forever.) ── */}
+      <Composition
+        id="SubscribeCriminalRecordLong"
+        component={SubscribeCriminalRecordLong}
+        durationInFrames={CR_OUTRO_FRAMES}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="SubscribeCriminalRecordShort"
+        component={SubscribeCriminalRecordShort}
+        durationInFrames={CR_OUTRO_FRAMES}
         fps={30}
         width={1080}
         height={1920}

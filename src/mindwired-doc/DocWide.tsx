@@ -41,6 +41,12 @@ const THEMES: Record<string, Theme> = {
     display: "'Space Grotesk', sans-serif", body: "'Inter', sans-serif",
     accent: "#FF9500", brand: "Black Box",
   },
+  // Criminal Record (@WatchCriminalRecord) — cold blue-white so it reads as
+  // Black Box's sibling, not a clone. See docs/guides/CRIMINALRECORD-CHANNEL-BRIEF.md
+  criminalrecord: {
+    display: "'Space Grotesk', sans-serif", body: "'Inter', sans-serif",
+    accent: "#7FB4FF", brand: "Criminal Record",
+  },
 };
 
 /** One SFX cue: name = file stem in public/sfx/ (see scripts/gen_sfx_kit.py).

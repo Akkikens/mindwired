@@ -409,6 +409,8 @@ channel FIRST, then append that channel's matching outro:**
 | `assets/subscribe-outro/subscribe_kickoffdaily90_long.mp4` | 17.6s | 1920×1080 | every kickoffdaily90 long-form |
 | `assets/subscribe-outro/subscribe_kickoffdaily90_short.mp4` | 8.9s | 1080×1920 | every kickoffdaily90 Short |
 | `assets/subscribe-outro/subscribe_blackbox_long.mp4` | 16.1s | 1920×1080 | every Black Box Breakdown long-form (host Reid; comp `SubscribeBlackBoxLong`) |
+| `assets/subscribe-outro/subscribe_criminalrecord_long.mp4` | 14.06s | 1920×1080 | every Criminal Record long-form (comp `SubscribeCriminalRecordLong`, 420f) |
+| `assets/subscribe-outro/subscribe_criminalrecord_short.mp4` | 14.06s | 1080×1920 | every Criminal Record Short (comp `SubscribeCriminalRecordShort`, 420f) |
 | _blackbox short — TBD_ | — | 1080×1920 | Black Box Shorts (build when first Short ships) |
 
 These live in `assets/`, not `out/` — `out/` gets bulk-cleared for disk space
