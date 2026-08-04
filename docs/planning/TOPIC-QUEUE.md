@@ -384,3 +384,17 @@ the moment the final report drops (be the definitive/correct one, not one of the
 speculation videos). A monitor is set to ping Akshay when AAIB publishes. Optional
 interim: a tightly-framed 60s Short ("why no answers yet"), AAIB-prelim-attributed,
 zero blame — only if Akshay wants to ride the search interest safely.
+
+## Sweep 2026-08-04 (workflow wf_7ee7e9bc-51e — 9 agents, adversarially verified)
+- **NEXT (validated, memory `icahn-spacex-lunar-impact`): SpaceX rocket hits the Moon** —
+  impact Aug 5 2026; 26.1:1 outlier verified via yt-dlp; TIME-LOCK ship by ~Aug 14
+  (fallback wave: LRO crater photos 2-4 wks later). Title: "A rocket just hit the
+  Moon. It wasn't the first."
+- Runner-up (UNVERIFIED): Betelgeuse's hidden companion — "Something is wrong with
+  Betelgeuse"; outlier: Universe Dimensions 339K views / 73K subs (May 2026).
+- Runner-up (UNVERIFIED): the next Carrington Event / July 2026 solar-storm run.
+- Runner-up (UNVERIFIED): Voyager 1 shutdown logs — "NASA is quietly letting
+  Voyager 1 die."
+- REFUTED, do not resurrect without new evidence: China Moon-race (Chang'e-7 lands
+  ~Nov, not Aug — false premise) and ISS-cracking deathwatch (angle market-tested
+  to death in the last 8 weeks, underperformed even at 700K subs).
