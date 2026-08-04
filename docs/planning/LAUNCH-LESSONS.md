@@ -12,16 +12,49 @@ proceeds; no-human-available records BLOCKED-ON-DATA and proceeds.
 
 | Channel | Slot (day + time, local) |
 |---|---|
-| Black Box Breakdown | TBD |
-| mindwired | TBD |
+| Black Box Breakdown | TBD (observed de-facto: near-daily, mornings — Akshay to confirm a fixed slot or bless the daily cadence) |
+| mindwired | TBD (same observation) |
 
 ## Publish log (publish-video appends `title · URL · publish date` per upload —
 this table defines "the channel's most recent upload" for the loop gates;
 "upload" = published on YouTube, never merely rendered)
 
-| Date | Channel | Title | URL |
-|---|---|---|---|
-| (backfill from Akshay's Studio on first run — the published-URLs memories are ~2 weeks stale) | | | |
+**Backfilled 2026-08-03 directly from YouTube Studio (both channels' Content lists,
+read via Akshay's browser). Views are point-in-time snapshots from that read.**
+
+| Date | Channel | Title | URL (watch?v=) | Views @03 Aug |
+|---|---|---|---|---|
+| Aug 3 | Black Box | (UNLISTED DRAFT — What Really Brought Down BUILDING 7 ? — no description yet, awaiting Akshay's sensitivity watch-through) | wp8t2gOKYyE | 0 |
+| Aug 3 | Black Box | They Had AMELIA EARHART's RADIO Log. They Never Had Her BODY. | 998g3UmVjKw | 30 |
+| Aug 3 | mindwired | The Biggest EXPLOSION in HISTORY Left No Crater | 9YOOCyi6oqk | 10 |
+| Aug 2 | Black Box | MH370: What the NETFLIX Documentary Didn't Tell You | Bee3SE4WEg0 | 394 |
+| Aug 2 | mindwired | The Government's REAL UFO Files | nlhdw6buxzs | 45 |
+| Aug 1 | Black Box | MIRACLE on the Hudson: He Thought They All DIED US1549 | nTDjKSrQNpY | 439 |
+| Aug 1 | mindwired | INSIDE $150 Billion SPACE STATION Before It's DESTROYED | fgbRaGhuNEg | 79 |
+| Jul 31 | Black Box | The Plane That Flew Itself for Three Hours (Helios 522) | 0tT8C6v1Sj0 | 169 |
+| Jul 31 | mindwired | Astronauts Were Asked What Scared Them Most in Space | cj1JAMa1Y0w | 59 |
+| Jul 30 | mindwired | Real Space Facts to Fall Asleep To | DM9_CEWjDt0 | 52 |
+| Jul 29 | Black Box | 520 DEAD The DEADLIEST Plane Crash in History - Japan Airlines 123 | aRLDo-7-GQA | 504 |
+| Jul 29 | mindwired | The Strangest Space Mystery Nobody Has Ever Solved (Ranked) | IcFzgwNfhiY | 70 |
+| Jul 28 | Black Box | Titanic: The Verdict Two Governments Couldn't Agree On | mh6AIUhYftc | 71 |
+| Jul 27 | mindwired | What HBO's Chernobyl Didn't Show You | sv66ViWyvbQ | 92 |
+| Jul 26 | Black Box | What the Cockpit Recorder on United 93 Actually Captured | wsFhuwUjg_4 | 641 |
+| Jul 26 | mindwired | 8 Real Planets So Hostile They Shouldn't Exist (Ranked) | hG2hA7XAkjY | 194 |
+| Jul 25 | Black Box | AI171 FINAL REPORT Still Hasn't ANSWERED | M_pfBvrauKE | 301 |
+| Jul 25 | mindwired | The Man Who Sold the Moon And Got Away With It | 8i_eF1wCmp0 | 132 |
+| Jul 24 | Black Box | The Rise and Fall of Concorde | q_yY42_yDRA | 459 |
+| Jul 24 | mindwired | IGNORED Every WARNING OceanGate The Billionaire Sub | pVgG5FhKNoY | 358 |
+| Jul 22 | mindwired | How 200,000 People Fell for the Mars One Scam | fpCfIg2uQmA | 256 |
+| Jul 21 | Black Box | What's Actually Inside a Black Box? | zP9seHMB8qc | 618 |
+| Jul 21 | Black Box | Two 747s. One Runway. The Deadliest Crash Ever. (Tenerife) | n99qUg5BNYw | 2,386 |
+| Jul 20 | mindwired | 32 Astronauts Almost DIED In Space! | 0ovoWoiRBXg | 707 |
+| Jul 19 | Black Box | What Really Happened to MH370? Every Theory, Tested | IyHKrZvLRWA | 2,669 |
+| Jul 17 | Black Box | MH370: Only Plane World Couldn't Find! 12 Years & Found NOTHING | kRjhzp4Ho9k | **37,722** |
+| Jul 15 | Black Box | Air France 447 Fell for 3 Minutes And Nobody Knew Why | ZvD4n8uNnuk | 1,779 |
+| Jul 14 | Black Box | Colgan Air 3407 Too Tired to Fly | (see memory) | 837 |
+| Jul 13 | Black Box | How Boeing Killed 346 People (The 737 MAX Disaster) | d4_Rk50GkBg | 807 |
+| Jul 11 | mindwired | 21 ASTRONAUTS Never Came Home! Here's Every Story. | maxZwNGqIDU | **68,760** |
+(older mindwired uploads Jul 1-17 range 29-615 views — full list in Studio; two GTA videos + Chernobyl live on mindwired = historical lane-mixing, now parked)
 
 Format per entry:
 `- YYYY-MM-DD · <slug> · branch=<a|b|c|d|e> · <one-line lesson> · T&C winner: <thumb variant/pattern or n/a>`
@@ -31,12 +64,38 @@ Format per entry:
 - 2026-08-03 · (channel-wide) · branch=a · Hits vs flops differ on impressions-pool
   size, not CTR/retention — topic recognition + package appeal set the pool; keep
   validating demand AND package before production. · T&C winner: n/a
-- 2026-08-03 · (channel-wide) · process · ~15 uploads shipped with zero purpose-built
-  thumbnail files and zero Test & Compare runs — packaging execution, not packaging
-  ideas, was the leak. Never again: no upload without out/thumbs/<slug>_A/B/C.png.
+- 2026-08-03 · (channel-wide) · process · **CORRECTED after reading Studio
+  directly:** the repo pipeline ships no thumbnail files, but Akshay DOES build
+  thumbnails + run A/B tests at upload (tests live on nearly every video, title
+  tests included). Refined lesson: packaging happens ad-hoc outside the repo —
+  the skills' job is to PRODUCE the 3 variants + title alternates so Akshay's
+  tests start from data-backed candidates instead of improvised ones.
   · T&C winner: n/a
-- 2026-08-03 · (channel-wide) · process · A rendered-but-unpublished backlog (8+
-  masters) sat earning nothing — finished videos go into the weekly slot drip
-  immediately; production is not the bottleneck, publishing is. · T&C winner: n/a
+- 2026-08-03 · (channel-wide) · process · **CORRECTED after reading Studio
+  directly:** there was no publish backlog — Akshay published near-daily on both
+  channels through July; the published-URLs memories were simply ~2 weeks stale.
+  Only ONE unpublished item exists (WTC/Building 7, unlisted, no description,
+  awaiting the sensitivity watch-through). Standing fix: publish-video step 7.1
+  keeps this file's Publish log current so gates never run on stale memory again.
+  · T&C winner: n/a
 
 ## Lessons
+
+- 2026-08-03 · us1549 · a+b mixed (interim, ~2.5 days live, title test running) ·
+  Pool 14.3K impressions (28x under the MH370 baseline's 399.5K), CTR 2.2% (below
+  the winner's 5.0%), AVD 4:47 on 12:29 = 38% healthy, 84.7% suggested traffic.
+  Reads as topic-demand ceiling + packaging drag together. The in-flight title
+  test has a clear leader: "The Real Radio Call Behind the MIRACLE on the Hudson"
+  at 43.9% watch-time share vs 31.7% (current) — REAL-AUDIO framing beats
+  drama framing on this channel; adopt the leader when the test settles and lead
+  future Black Box packaging with the Evidence Engine signature. · T&C winner:
+  pending ("Radio Call" leading)
+- 2026-08-03 · issinside · a (interim, ~2.5 days live) · Pool only 2.9K
+  impressions, CTR 1.5%, AVD 6:34 on 15:59 = 41% healthy; end screens drive
+  17.7% of views (single-video end-screen funnel works). The bare "$150B ISS"
+  framing was pre-flagged as a dead copycat wave at validation — tiny pool
+  confirms it; the differentiated-depth condition didn't rescue demand. Feed to
+  icahn-validate: saturation warnings deserve more weight. · T&C winner:
+  insufficient data yet
+- DIAGNOSIS DUE 2026-08-05: earhart (BB), tunguska (MW), mh370netflix (BB),
+  nasaufofiles (MW) — all under 48h at backfill time.
