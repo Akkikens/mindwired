@@ -27,7 +27,10 @@ work here): **ctr-engine** (titles/thumbnails), **hook-doctor** (first 15s rewri
    promises.** No package, no production.
 4. **The feedback loop must be closed:** the previous upload's 48h launch-diagnosis
    is banked in docs/planning/LAUNCH-LESSONS.md (read it — its newest lessons apply
-   to THIS episode). If it isn't banked, bank it first.
+   to THIS episode). If it isn't banked, bank it first. Same escape hatches as
+   icahn-validate Step 0: first post-overhaul iteration counts the pre-seeded audit
+   lessons as banked; an under-48h-old upload doesn't block (note DIAGNOSIS DUE
+   instead); no-human-available records BLOCKED-ON-DATA and proceeds.
 5. **Topic-demand check (YT Studio pull, @Watch-BlackBox, 2026-07-26 — recheck live
    before leaning on the exact figures):** MH370 got 399.5K impressions (5.0% CTR,
    37.3% AVD → 29K views); Tenerife got 20.1K impressions (3.5% CTR, 35.9% AVD →
@@ -73,11 +76,14 @@ Doc-level fields: `{slug, title, channel, niche, language, voice: "00d3c951-0474
 1. **Cold-open 2.0** — a dated scene with a person in tension ("It is January twenty
    eighth, nineteen eighty six…"), NEVER a stat dump. Run **hook-doctor** on it.
    Three hard 2026-08 constraints: (a) it must deliver what the locked thumbnail
-   promises (the package from icahn-validate Step 4.5 is a script INPUT); (b) a
-   concrete stakes/value claim lands in the first sentence; (c) **the first 30-60
-   seconds is REAL MOTION FOOTAGE ONLY — no stills, no dossier scenes, no generated
-   or hand-drawn anything** (memory `hook-first-30s-real-video`, Akshay's hardest
-   retention rule: a bad first 15 seconds is game over).
+   promises (the package from icahn-validate Step 4.5 is a script INPUT) — if that
+   promise is a document/exhibit, it appears composited over/into real motion
+   footage, never as a full-frame still beat; (b) a concrete stakes/value claim
+   lands in the first sentence (shock-fact openings) or by the end of the cold
+   open's first beat (Fern dated openings — see hook-doctor Rule 0); (c) **the
+   first 30-60 seconds is REAL MOTION FOOTAGE ONLY — no stills, no dossier scenes,
+   no generated or hand-drawn anything** (memory `hook-first-30s-real-video`,
+   Akshay's hardest retention rule: a bad first 15 seconds is game over).
 2. `sting` scene → title card → **chaptered acts** (`chapter` cards; 6-8 chapters).
    Chapter cards are TEASES of a specific later reveal ("THE PART NOBODY CHECKED"),
    not labels; place the strongest mid-video re-hook at the 55-65% runtime mark,
@@ -200,10 +206,17 @@ gcloud auth print-access-token >/dev/null || echo "AUTH EXPIRED — ask Akshay t
 nohup scripts/render_gce.sh <CompId> <slug> > out/<slug>_gce_launch.log 2>&1 &
 ```
 
-- **Music: the `public/beds/doc_*.mp3` set is BANNED — render with NO music flags.**
-  Only if replacement beds ever land: add `--music public/beds/<newbed>.mp3 --windows
-  <slug> --music-gain-db -20` (the three go together — `--windows` errors without
-  `--music`; windowed = bed only at cold open / chapter transitions / closing).
+- **Music: the old `doc_*.mp3` set stays BANNED, but the replacement `bed_*.mp3`
+  set is LIVE and Akshay-approved (2026-07-31, per CLAUDE.md's "Music beds"
+  section).** Long/heavy docs render windowed:
+  `--music public/beds/bed_<tone>_<name>.mp3 --windows <slug> --music-gain-db -20`
+  (the three go together — `--windows` errors without `--music`; windowed = bed
+  only at cold open / chapter transitions / closing; the master pass also
+  sidechain-ducks the bed under VO). Tone map: `bed_tension_*` for Black Box,
+  `bed_awe_*` for mindwired, `bed_somber_*` for memorial beats — rotate within a
+  family across episodes, never the same bed on consecutive uploads, and the last
+  window must end at body-end so the bed never bleeds into the subscribe outro.
+  Short docs (~5 min or less) may use plain continuous `--music` instead.
 - **Launcher-exits-early trap:** the `nohup … &` returns your shell immediately — the
   render is NOT done. Watch the log:
   ```bash
@@ -229,9 +242,14 @@ Confirm the −14 LUFS line in the render log (render_and_master prints before/a
 
 ## Step 8 — Package + ship
 
-1. **SRT + chapters:** `.venv-lipsync/bin/python scripts/gen_doc_srt.py <slug>` —
-   writes `mindwired_<slug>.srt` and prints the exact CHAPTERS block (doctiming.py is
-   the single timing source; never hand-compute timestamps).
+1. **SRT + chapters:** captions come from
+   `.venv-agent/bin/python3 scripts/whisper_srt.py out/<slug>_gce.mp4 --out <file>.srt`
+   (preferred — word-accurate, transcribed from the actual master, digits not
+   phonetic TTS spellings; eyeball the first ~5 cues). The CHAPTERS block still
+   comes from `.venv-lipsync/bin/python scripts/gen_doc_srt.py <slug>` (doctiming.py
+   is the single timing source; never hand-compute timestamps) — gen_doc_srt's own
+   SRT output is only the offline fallback if whisper is unavailable. This matches
+   publish-video section 1; that skill owns the preference.
 2. **`docs/metadata/METADATA-<slug>.md`** — full-SEO standard (model:
    `METADATA-boeing737max.md` for layout, but 2026-08 packaging spec): title +
    2 alternates (ctr-engine Run B — 30-50 chars, negative-emotion statement), big
@@ -244,8 +262,10 @@ Confirm the −14 LUFS line in the render log (render_and_master prints before/a
    `out/thumbs/<slug>_A/B/C.png`, ≥720p, House Style 2.0 (zero/≤10-char text, one
    bright focal element, real archival asset). **A metadata file with concepts but
    no image files is an incomplete package — this was the audited leak.**
-4. **Final filename = the actual video title** at repo root
-   (`mindwired_<Title>.mp4`), slugs only for working files.
+4. **Final filename = the actual video title, bare, at repo root** — the
+   `<Title>.mp4` + `<Title>.srt` PAIR (e.g. `The Man Who Sold the Moon (And Got
+   Away With It).mp4`), no `mindwired_` prefix, slugs only for working files.
+   Same convention as publish-video section 1 and the mp4-filename-is-title memory.
 5. **3-5 vertical funnel Shorts** (invoke **shorts-funnel** — episode-trailer spec,
    35-60s) **+ the drip plan** at `docs/publishing/SHORTS-SCHEDULE-<slug>.md`.
 6. **Handoff doc `docs/planning/<SLUG>-HANDOFF.md`** (model: `AI171-HANDOFF.md`):
@@ -269,8 +289,9 @@ internal VO build uses the manifest speed (else 0.97); to build at 0.96 run step
 `build_doc_vo.py --speed 0.96` first (idempotent — ship_doc's call then no-ops). Its
 render is LOCAL; when the render must go to GCE (the normal case — no local CPU
 load), run steps 4-6 individually and use `render_gce.sh` at step 7. `--yes` only on
-reruns where the checkpoints were already reviewed. Do not pass `--music` while the
-bed ban stands.
+reruns where the checkpoints were already reviewed. Pass `--music` with a live
+`bed_*.mp3` bed per Step 7's music bullet (windowed on long docs) — only the old
+`doc_*` set is banned.
 
 ## What this skill will NOT do
 

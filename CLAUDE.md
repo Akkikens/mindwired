@@ -1,7 +1,8 @@
 # CLAUDE.md — Mindwired video factory
 
-Mindwired is a faceless YouTube channel: cinematic space/science explainers plus a
-gaming/tech lane. Everything is code-generated: Remotion (React → MP4), React Three
+Mindwired is a faceless YouTube channel: cinematic space/science mystery
+explainers (the gaming/tech lane is PARKED as of 2026-08 — see the channel table
+below). Everything is code-generated: Remotion (React → MP4), React Three
 Fiber for 3D, TTS narration with word-level timings. This file is the production
 manual — read it before making or editing any video.
 
@@ -14,7 +15,7 @@ manual — read it before making or editing any video.
 
 | Channel | Lane | Where | Voice / host |
 |---|---|---|---|
-| **mindwired** | faceless space/science + gaming/tech | this repo | Orion host; narrator = cloned Cartesia voice `00d3c951-…` (was George/Hume) |
+| **mindwired** | faceless space/science mystery (gaming/tech lane PARKED 2026-08 — mixed-identity subs suppress cold-start; see icahn-validate Step 0) | this repo | Orion host; narrator = cloned Cartesia voice `00d3c951-…` (was George/Hume) |
 | **Black Box Breakdown** | disaster & corporate-catastrophe forensics (aviation/maritime/industrial/corporate; 40+ high-RPM). @Watch-BlackBox | this repo, doc engine, `channel:"blackbox"` (theme accent `#FF9500`, wordmark "Black Box") | host **Reid** (`public/host/reid_wide.png`); narrator = cloned Cartesia `00d3c951-…` |
 | **DimaagBatti** | Hindi explainers (Dhruv-Rathee style: economy/geopolitics/how-it-works) | this repo (`src/dimaagbatti`) | Rohan, Cartesia Hindi `4877b818-…`; whiteboard + Devanagari overlays; see `docs/guides/HINDI-CHANNEL-BRIEF.md` |
 | **KickOffDaily90** | football / World Cup (separate YT+IG brand) | this repo, viral engine, `channel:"kickoffdaily90"` | host Jamie |
@@ -469,7 +470,10 @@ clips have a fixed ~8s floor).
   style is retired.** Tooling: image-model keyart (Workflow A, scene-only) or
   Remotion still (Workflow B). Deliverable is 3 built PNGs in `out/thumbs/` +
   Test & Compare on every long-form — concepts alone are an incomplete package.
-- Renders for upload live at repo root as `mindwired_<slug>.mp4`.
+- Renders for upload live at repo root as the bare `<Title>.mp4` + `<Title>.srt`
+  pair (mp4-filename-is-title rule; no channel prefix, slugs only for working
+  files — unified 2026-08-03 across doc-episode/publish-video after the eval
+  found three competing conventions).
 - **4K is the DEFAULT (Akshay, 2026-07-20):** ship_doc.py renders --scale 2
   automatically (--hd opts out); for manual renders use
   `scripts/render_and_master.py <Comp> out.mp4 --scale 2` (still ONE render).

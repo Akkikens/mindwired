@@ -13,19 +13,27 @@ zero change to the rest. This is the cheapest, highest-leverage edit you can mak
 
 ## The rules (Mindwired-specific, enforced)
 
-0. **The first 30 seconds delivers the thumbnail's promise, on REAL VIDEO.** Two
+0. **The first 30 seconds delivers the thumbnail's promise, on REAL VIDEO.** Three
    hard constraints that now precede everything else:
    - The package is locked at validation time (icahn-validate Step 4.5) — the hook's
      job is to pay off what the thumbnail teased, fast. A viewer who clicked on the
-     radio-log thumbnail must SEE the radio log inside 30s.
+     radio-log thumbnail must SEE the radio log inside 30s. **Exhibit
+     reconciliation:** when the thumbnail's asset is a document/exhibit (a radio
+     log, a NIST frame), it appears in the first 30s as an insert composited
+     over/into real motion footage — never as a full-frame still beat; the
+     real-video rule below still governs the frame.
    - **Nothing generated, hand-drawn, dossier-style, or still-image-only appears in
      the first 30-60 seconds. Ever.** (Akshay, 2026-08-03: "if we show that generated
      old school stuff... retention rate will be 0% if bad start." Memory:
      `hook-first-30s-real-video`.) Real motion footage only; if the topic has no real
      hook video, that's a topic problem, not a styling problem.
-   - A concrete value/stakes claim lands in the FIRST SENTENCE, before any
-     scene-setting — a 5,000-script analysis found openings with an explicit
-     stakes/value claim average 52% APV vs 44% without.
+   - A concrete value/stakes claim lands **in the first sentence for shock-fact
+     openings, or by the end of the cold open's first beat (~3 lines) for Fern
+     dated openings** — the dated "November 24, 1971. Portland International
+     Airport." shape is the sanctioned exception, since its first sentence IS
+     scene-setting by design (CLAUDE.md's cold-open formula); the stakes still land
+     within the beat, never later. (Evidence: a 5,000-script analysis found
+     openings with an explicit stakes/value claim average 52% APV vs 44% without.)
 
 1. **First sentence = the most shocking TRUE fact of the whole video.** Not a greeting,
    not "in this video", not "space is fascinating", not the logo. State the payoff-tease
@@ -49,7 +57,9 @@ zero change to the rest. This is the cheapest, highest-leverage edit you can mak
    open loop; it keeps watching to close it.
 
 4. **The wordmark intro comes AFTER the teaser, not before** (CLAUDE.md convention).
-   Line 1-2 = hook over content, line 3 = wordmark, line 4 = title. Never cold-open a logo.
+   Line 1-2 = hook over content, line 3 = wordmark, line 4 = title. Never cold-open a
+   logo. **Long-forms only — Shorts skip the wordmark entirely** (CLAUDE.md: vertical
+   formats stay logo-free); a Short's structure is hook → escalate → loop, no bumper.
 
 5. **Second-person > third-person.** "You would not survive one second here" beats
    "Humans could not survive there." Pull the viewer into the frame.
@@ -64,9 +74,13 @@ zero change to the rest. This is the cheapest, highest-leverage edit you can mak
    the end — pull it to the front as the teaser).
 3. Rewrite lines 1-4 to: shock fact → escalate → open loop → (wordmark) → title.
 4. Verify: does it obey the teaser-first convention? Is there an unclosed loop? Motion
-   at frame 0? Second person where possible? No greeting/logo/throat-clear?
+   at frame 0? Second person where possible? No greeting/logo/throat-clear? **Does the
+   locked thumbnail's promised element appear on screen inside 30s (as a composited
+   insert if it's a document)? Do ALL scenes before ~30s carry real-motion `video`
+   fields — nothing generated/dossier/still-only (Rule 0)?**
 5. Deliver the rewritten opening + a one-line note on which loop it opens and where the
-   video closes it (so the payoff actually lands).
+   video closes it (so the payoff actually lands) + a flag on any hook scene that
+   still lacks real video, so the footage pass fixes it before render.
 
 ## Closing the loop you opened
 Rule 3 above says open a loop and don't close it early — but the script's FINAL line
@@ -84,7 +98,7 @@ line — the cliffhanger closes THIS episode's loop, the bridge opens the next v
   so publicly; LEMMiNO/Fern's atmospheric pacing is the current growth style).
   Invest in tension architecture, not more cuts.
 - **Place the strongest mid-video re-hook at the 55-65% runtime mark** (minutes
-  11-14 of a 20-min doc) — the measured mid-video attention trough. Re-hook every
+  11-13 of a 20-min doc) — the measured mid-video attention trough. Re-hook every
   2-3 minutes otherwise; every re-hook is a tease of a SPECIFIC later reveal.
 - **Chapter cards are teases, not labels.** "THE PART NOBODY CHECKED" beats
   "CHAPTER 3 — THE INVESTIGATION". Each card should make skipping feel expensive.

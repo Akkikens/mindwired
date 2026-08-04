@@ -10,7 +10,7 @@ description: Validate a video topic BEFORE any production work using the Icahn o
 Real YouTube Studio numbers from Akshay's Studio review of 2026-07-26 (a snapshot,
 not canon — re-pull live from Studio before citing these in a later diagnosis):
 
-| Video (channel) | Impressions | CTR | Avg view duration | Views |
+| Video (channel) | Impressions | CTR | Avg % viewed | Views |
 |---|---|---|---|---|
 | MH370 (Black Box Breakdown) | 399,500 | 5.0% | 37.3% | 29,000 (channel best) |
 | Tenerife (Black Box Breakdown) | 20,100 | 3.5% | 35.9% | 1,500 |
@@ -28,7 +28,7 @@ still stalled) do not. Topic selection is currently the channel's #1 lever. Pack
 ## When to run
 
 - Any new video idea, from anyone, on any channel (mindwired / Black Box Breakdown /
-  DimaagBatti / KickOffDaily90) — BEFORE step 2 of the pipeline (research/CLAIMS).
+  DimaagBatti / KickOffDaily90) — BEFORE any research/CLAIMS work (doc-episode Step 1).
 - Grooming docs/planning/TOPIC-QUEUE.md (adding, reordering, or re-checking entries).
 - After a flop, when ctr-engine/launch diagnosis rules out packaging — confirm or
   deny that demand was the failure.
@@ -41,7 +41,17 @@ Before validating ANY new topic, check `docs/planning/LAUNCH-LESSONS.md`: has th
 channel's most recent upload had its 48h launch-diagnosis banked? If not, that
 diagnosis comes FIRST (run launch-diagnosis with real Studio numbers) — the whole
 point of the loop is that each upload's lesson steers the next topic pick, and the
-audit of 2026-08-03 found the loop had never once closed. Also check the channel
+audit of 2026-08-03 found the loop had never once closed. **Escape hatches (no
+deadlocks):** "upload" means published-on-YouTube, not rendered — read the Publish
+log table at the top of LAUNCH-LESSONS.md to find the most recent upload (if that
+table is empty/stale, ask Akshay once and backfill it, don't guess from repo
+state). (a) First iteration after the 2026-08-03 overhaul: the pre-seeded audit
+lessons count as banked; the per-upload requirement starts with the next publish.
+(b) Most recent upload under 48h old: proceed, and note "DIAGNOSIS DUE <date>" in
+LAUNCH-LESSONS.md — it's owed before the NEXT publish. (c) Studio numbers
+unavailable (no human in the loop): record "BLOCKED-ON-DATA <date>" and proceed
+rather than stalling. Also read TOPIC-QUEUE.md for any logged popped-Short demand
+signals (shorts-funnel banks them there with engaged-view numbers). Also check the channel
 LANE: mindwired validates space/science-mystery topics ONLY (the gaming/tech lane is
 parked — mixed-identity subscribers suppress every upload's cold-start test pool),
 and when an episode could go to either channel, weight toward Black Box Breakdown
@@ -106,7 +116,9 @@ PASS requires:
   precedents from this channel's own validations:
   - Mayday Chronicles — 135,792 views / 799 subs = **170:1** (Concorde AF4590 crash)
   - Jason Payne "Challenger: A Rush To Launch" — 2,779,249 views / 4,590 subs = **605:1**
-  - Aviation Files — 232,828 views / 9,540 subs = **24.4:1** (Air India 171)
+  (Aviation Files' 24.4:1 on AI171 — cited in the corroboration list above — is a
+  solid PASS-grade headline, but is NOT "extreme"; don't let ~25:1 inherit this
+  bullet's weight.)
 - **Ceiling proof:** at least one big channel with 1M+ views on the exact subject
   (Concorde had Vox 17.9M, Mentour Pilot 15.8M; AI171 had Dhruv Rathee 22.7M). Small
   outliers prove the pull; the ceiling proves it scales.
@@ -188,9 +200,11 @@ survivor and contested AAIB findings):
    quick probe (`--out` and `--prefix` are both required flags):
 
    ```bash
-   python3 scripts/fetch_footage.py "<subject>" --niche <niche> --kind video \
+   .venv-lipsync/bin/python scripts/fetch_footage.py "<subject>" --niche <niche> --kind video \
      --count 3 --out out/qa/icahn_probe --prefix probe
    ```
+   (the fetcher needs httpx — bare `python3` crashes with ModuleNotFoundError;
+   `.venv-agent/bin/python` also works, same as doc-episode's convention)
 
    (niches: aviation, space, ocean, history, football, tech, generic) and check
    gov-docket availability (`scripts/fetch_ntsb_docket.py` for US events) before
@@ -204,12 +218,20 @@ greenlight**. Sensitivity never blocks validation by itself; it attaches conditi
 Run **ctr-engine Run A** on every candidate that cleared Steps 2-4: 10 title
 concepts + 3 thumbnail concepts + the suggested-adjacency cluster (which specific
 high-traffic videos should this upload sit NEXT TO in suggested — name them from the
-sweep's own outlier/ceiling URLs). **A topic whose best package scores weak DIES
-here, at zero production cost, regardless of its demand numbers** — the impressions
-pool is set by idea + package appeal together, and top creators decide packaging
-before production, not after the render. The winning title + thumbnail concept goes
-into the Icahn memory as a hard constraint handed to the script: **the first 30
-seconds must deliver exactly what the thumbnail promises.**
+sweep's own outlier/ceiling URLs). **The kill bar, concretely: the topic DIES unless
+at least one title averages ≥7/10 across ctr-engine's four scoring axes AND at
+least one thumbnail concept both survives the 170px squint test and names a real,
+plausibly-licensable archival asset it's built on** (each concept must name its
+asset — Commons/NARA/docket file title, or "generate via Path A" — and the winning
+concept's asset gets a 2-minute existence+license probe using the Step 4
+fetch_footage command before the package locks; the AI171 lesson: real footage can
+exist but be news-org-owned). A borderline call may still pass on argued judgment,
+but the verdict must show the top-scoring package and argue it explicitly — never a
+silent pass. This kills at zero production cost — the impressions pool is set by
+idea + package appeal together, and top creators decide packaging before
+production, not after the render. The winning package is written into the Icahn
+memory using ctr-engine's LOCKED PACKAGE template, a hard constraint handed to the
+script: **the first 30 seconds must deliver exactly what the thumbnail promises.**
 
 ## Step 5 — output contract (deliver ALL of this, every run)
 

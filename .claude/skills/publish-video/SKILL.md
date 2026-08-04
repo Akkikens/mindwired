@@ -26,7 +26,7 @@ Everything below (URLs, sub-link, language, description rules) branches on it.
 | Splice frame | Extract a frame ~1s before body-end too | No black gap / frozen frame at the body→outro splice |
 | SRT — captions file | `.venv-agent/bin/python3 scripts/whisper_srt.py out/<slug>_gce.mp4 --out mindwired_<slug>.srt` | **Preferred**: word-accurate cues transcribed from the actual rendered master (local faster-whisper, $0) — snaps to the real audio and writes numbers as digits ("Boeing 787") instead of the phonetic TTS spellings. Eyeball the first ~5 cues for proper nouns; bump `--model medium.en` if one misses |
 | CHAPTERS block (doc-engine episodes) | `.venv-lipsync/bin/python scripts/gen_doc_srt.py <slug>` | Chapters still come from the manifest — use the CHAPTERS block this prints, not hand-computed timestamps. Regenerate from the FINAL manifest. (Its SRT output is the estimate-mode fallback if whisper is unavailable) |
-| Filename | Rename the deliverable to the actual video title (mp4-filename-is-title rule) | e.g. `The Man Who Sold the Moon (And Got Away With It).mp4` — slugs are for working files only. Sanitize only what the filesystem requires (`/` and `:` become `-`); keep spaces, capitalization, punctuation |
+| Filename | Rename the deliverable to the actual video title (mp4-filename-is-title rule) | e.g. `The Man Who Sold the Moon (And Got Away With It).mp4` — bare title, no channel prefix; slugs are for working files only. Sanitize only what the filesystem requires (`/` and `:` become `-`); keep spaces, capitalization, punctuation. **Rename the .srt alongside it to the same `<Title>.srt`** — the deliverable is the pair; the slug-named srt stays only as a working file |
 
 ## 2. METADATA-<slug>.md completeness check
 
@@ -34,7 +34,7 @@ Reference format: `docs/metadata/METADATA-boeing737max.md` and
 `docs/metadata/METADATA-marsone.md`. The file must contain ALL of:
 
 - [ ] **Primary title + 2 A/B alternates** (generate/score via ctr-engine if missing —
-      30-50 chars, negative-emotion statement spec per ctr-engine House Style 2.0)
+      30-50 chars, negative-emotion statement, per ctr-engine's title spec)
 - [ ] **Thumbnail FILES, not concepts** — `out/thumbs/<slug>_A.png`, `_B.png`,
       `_C.png` must exist (≥720p) per ctr-engine step 5. **A metadata file whose
       thumbnail section is a concept/prompt with no built image is INCOMPLETE — this
@@ -63,9 +63,9 @@ Reference format: `docs/metadata/METADATA-boeing737max.md` and
       15-hashtag standard is retired; 3-5 is the evidence-backed sweet spot)
 - [ ] **Pinned comment** text
 - [ ] **Credits/attribution** — CC-BY/CC-BY-SA credits copied into the description from
-      EVERY `ATTRIBUTION.md` under the slug's media dir (they live at
-      `public/shorts/<slug>/ATTRIBUTION.md` and/or in `images/`, `broll/`, `archival/`
-      subdirs — check all of them)
+      EVERY `ATTRIBUTION.md` under the slug's media dir — enumerate them, don't
+      guess subdirs: `find public/shorts/<slug> -name ATTRIBUTION.md`
+      (video/ is the second-most-common location and was missing from the old list)
 - [ ] **Sources block** (credibility + ammo for pinned-comment replies)
 
 ## 3. Studio settings
@@ -84,10 +84,14 @@ Reference format: `docs/metadata/METADATA-boeing737max.md` and
    break it, never dump. Every documented breakout in this niche ran an unbroken
    weekly/fortnightly rhythm for years (Fascinating Horror compounded to 1M subs on
    discipline alone) — the win is audience habit, not an algorithm bonus, so spend
-   zero effort micro-tuning time-of-day beyond "audience is awake." **A
-   rendered-but-unpublished backlog (the 2026-08 audit found 8+ finished masters
-   never uploaded) is dripped into the weekly slots — never batch-dumped, and never
-   left to rot: an unpublished master earns nothing and its currency decays.**
+   zero effort micro-tuning time-of-day beyond "audience is awake." **The slot
+   itself is a one-time call: read it from the "Publish slots" table at the top of
+   `docs/planning/LAUNCH-LESSONS.md`; if a channel's row is still TBD, ask Akshay
+   once and record the answer there — never invent a slot, never proceed
+   slot-less.** **A rendered-but-unpublished backlog (the 2026-08 audit found 8+
+   finished masters never uploaded) is dripped into the weekly slots — never
+   batch-dumped, and never left to rot: an unpublished master earns nothing and
+   its currency decays.**
 1. Upload the mp4 as **draft/private** — never straight to public.
 2. Set thumbnail **A** and start **Test & Compare with all 3 built variants**
    (`out/thumbs/<slug>_A/B/C.png`) — mandatory on every long-form. Winner is
@@ -98,11 +102,16 @@ Reference format: `docs/metadata/METADATA-boeing737max.md` and
 5. Paste the **tag line** (10 seconds, no more — see section 2).
 6. Upload the **SRT** (Subtitles → English → upload file) — this also feeds
    search/AI-answer indexing of the transcript, which is a real discovery surface now.
-7. **End screen: ONE video element only — the exact video the outro VO names in the
-   verbal bridge — plus the subscribe element.** Single-video end screens roughly
-   double the click-through of 4-grid end screens, and the card must match the
-   spoken handoff. Never a generic grid.
-8. **Publish.**
+7. **End screen: ONE video element only — the exact video named in the episode's
+   final verbal-bridge narration line (the line just before the subscribe line,
+   ahead of the standing outro; the fixed outro asset itself never names a video) —
+   plus the subscribe element.** Single-video end screens roughly double the
+   click-through of 4-grid end screens, and the card must match the spoken handoff.
+   Never a generic grid.
+8. **Publish** — but for any real-disaster / real-person episode, ONLY after the
+   Section 6 sensitivity pass has passed (Section 6 is a pre-publish gate despite
+   its position in this file; publishing a sensitive episode before it = the exact
+   failure this order exists to prevent).
 9. Immediately post and **pin the pinned comment** from the metadata file — and
    include a one-line **Hype ask** in it ("if this deserves more reach, Hype it")
    — channels under 500K subs get an inverse-size Hype multiplier; conversion
@@ -151,8 +160,15 @@ Run this BEFORE publish on any episode about a real accident, death, or named li
 
 ## 7. Post-publish
 
-1. **Log the upload** — add title, URL, and publish date to the channel's
-   published-URLs memory (`blackbox-published-urls` / `mindwired-published-urls`).
+1. **Log the upload TWICE** — (a) add title, URL, and publish date to the channel's
+   published-URLs memory (`blackbox-published-urls` / `mindwired-published-urls`),
+   and (b) append the same `title · URL · publish date` row to the **Publish log
+   table at the top of `docs/planning/LAUNCH-LESSONS.md`** — that table is how the
+   loop gates (icahn-validate/doc-episode Step 0) determine "the most recent
+   upload"; "upload" always means published-on-YouTube, never merely rendered.
+   Also add a dated line: `DIAGNOSIS DUE <publish date + 2 days> for <slug> —
+   Akshay to paste Studio numbers` (this is the 48h trigger; optionally also
+   create a scheduled reminder if Akshay wants one).
 2. **Update future MORE FROM blocks** — any in-progress `METADATA-*.md` for the same
    channel should now include the new video where it's the best cross-link. Add the
    new episode to its **series playlist** (binge shelves lift session watch time and

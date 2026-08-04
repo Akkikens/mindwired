@@ -28,8 +28,11 @@ on the same channel — same-channel posting is correct.
 
 - **A trailer for ONE named episode.** The Short's story IS the episode's story,
   cut to its single most arresting beat. Never a standalone factoid, never off-lane.
-- **35-60 seconds.** The 3-minute expansion has shown no evidence of earning the
-  runtime; 35-60s remains the data-backed sweet spot. Don't pad.
+- **35-60 seconds of BODY.** The 3-minute expansion has shown no evidence of earning
+  the runtime; 35-60s remains the data-backed sweet spot. Don't pad. Note: the comp
+  patterns (MindwiredShort / BlackBoxShort) bake the channel's ~8-9s vertical
+  subscribe outro on top of the body, per CLAUDE.md's mandatory-outro rule — never
+  strip it; all loop/CTA rules below apply to the BODY, before the outro Sequence.
 - **First 3 seconds rebuilt as a native vertical hook** — punch-in framing, the
   boldest claim or most striking real footage instantly, big mobile-safe caption.
   Never inherit the long-form's pacing; a long-form cold open is usually too slow
@@ -61,14 +64,27 @@ noise. Judge on:
 - From each long-form cut **3-5 Shorts** (different beats), drip **1/day starting
   ~24h after the long-form** while the just-learned audience is warm. Never dump
   all on day one. Strongest hook first.
-- Write the drip plan into `docs/publishing/SHORTS-SCHEDULE-<slug>.md` (date, comp,
-  title, pinned-comment text) — publish-video schedules from that file; the audit
-  found drips silently skipped when no schedule doc existed.
+- Write the drip plan into `docs/publishing/SHORTS-SCHEDULE-<slug>.md` —
+  publish-video schedules from that file; the audit found drips silently skipped
+  when no schedule doc existed. One entry per Short, complete and paste-ready:
+  ```
+  ### SHORT <n> — <absolute date, derived from the channel's publish slot>
+  COMP: <Remotion comp ID>          FILE: out/shorts_final/<comp>.mp4
+  TITLE: <title w/ 3-5 hashtags inline or below>
+  DESCRIPTION: <search-targeted description>
+  TAGS: <~10-15 terms>
+  PINNED: <pinned-comment text with the REAL long-form URL>
+  RELATED-VIDEO LINK: <the long-form, set in Studio>
+  ```
+  (The pre-overhaul exemplar `SHORTS-SCHEDULE-nasaufofiles.md` uses the retired
+  15-hashtag/500-char-tag format and relative Day-N dates — don't copy it; this
+  template supersedes it.)
 - Sensitivity rule: never cut a Short from a consolidated conspiracy-claims segment
   or any beat that only works with its full context (e.g. WTC collapse claims) —
   a de-contextualized 45s clip of a claim IS platforming it.
-- Track which Short TOPICS pop and feed that back into icahn-validate — Shorts
-  demand is a live topic-demand signal.
+- Track which Short TOPICS pop and log them in `docs/planning/TOPIC-QUEUE.md` with
+  their engaged-view numbers as a demand signal — icahn-validate Step 0 reads that
+  file at the start of every validation, so that's where the loop actually lands.
 
 ## Two sources of Shorts
 - **A. Cut from a finished long-form** (default): pick the most self-contained

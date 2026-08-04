@@ -19,11 +19,27 @@ description: Generate, score, and BUILD high-CTR titles and thumbnails for a Min
 
 ## When it runs
 - **Run A — validation gate (inside icahn-validate):** 10 title concepts + 3
-  thumbnail concepts per candidate topic. If nothing scores well, the topic FAILS
-  validation regardless of demand numbers — no compelling package, no production.
-  The winning title+thumbnail concept is recorded in the Icahn memory and **handed
-  to the script as a constraint: the first 30 seconds must deliver what the
-  thumbnail promises.**
+  thumbnail concepts per candidate topic. **Kill bar (matches icahn-validate Step
+  4.5): the topic FAILS unless at least one title averages ≥7/10 across the four
+  scoring axes AND at least one thumbnail concept survives the 170px squint test
+  while naming a real archival asset it's built on.** Each thumbnail concept must
+  name its asset (Commons/NARA/docket file title, or "generate via Path A"); the
+  winner's asset gets a quick existence+license probe before the package locks —
+  buildability is checked NOW, not discovered broken at Run B after the render.
+  If the Icahn verdict carries a **recognition-bridge constraint** (2/3 score),
+  every concept must lead with the recognized element — concepts leading with the
+  unrecognized proper noun are auto-rejected. The winner is recorded in the Icahn
+  memory using the LOCKED PACKAGE template (below) and **handed to the script as a
+  constraint: the first 30 seconds must deliver what the thumbnail promises.**
+
+  LOCKED PACKAGE template (paste into the icahn-<slug> memory):
+  ```
+  LOCKED PACKAGE (ctr-engine Run A, <date>)
+  Title: <the winning title>            (alternates: <t2> / <t3>)
+  Thumbnail: <concept in one line> — asset: <real file/source, probed OK>
+  Suggested-adjacency: <2-4 outlier/ceiling video URLs to sit next to>
+  First-30s handoff: the script's opening must show <the thumbnail's promise>
+  ```
 - **Run B — upload packaging:** refine Run A's winner against the finished video,
   BUILD the 3 thumbnail variants as files, set up Test & Compare.
 
@@ -97,8 +113,13 @@ small size before calling it done. **No files = the run failed.**
 - Upload all 3 thumbnail variants at publish (Studio → Thumbnail → Test & Compare).
 - **The winner is picked on WATCH-TIME SHARE, not CTR** — that is the metric YouTube
   itself uses to settle the test; don't override it by eyeballing CTR.
-- One variable per test: 3 thumbnails OR 2-3 titles (title testing rolled out
-  globally Dec 2025) — never both simultaneously.
+- One variable per test, in this sequence: **the thumbnail test starts at publish;
+  a title test (including the listicle-vs-statement comparison from step 3) runs
+  only AFTER the thumbnail test settles.** Never both simultaneously.
+- Title testing: use it where it's available on the channel; if Studio doesn't
+  offer it, ship the statement title and log the listicle variant in
+  `docs/planning/LAUNCH-LESSONS.md` as a future test — don't stall on a missing
+  Studio feature.
 - Log the winning *pattern* (frame type, visual class) in
   `docs/planning/LAUNCH-LESSONS.md` so the next package starts from the winner.
 

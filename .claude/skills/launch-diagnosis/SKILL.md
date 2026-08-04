@@ -60,7 +60,12 @@ from feeling baity even with fine CTR/retention.
 Check these channel-specific facts first; if any failed, that IS the diagnosis — fix it
 and re-observe before deeper surgery:
 - **Is the video under 48h old?** Impressions are still settling. Say so plainly,
-  diagnose nothing yet, and set a reminder to re-run this at 48-72h.
+  diagnose nothing yet, and tell the user to re-run this skill at 48-72h (offer to
+  create a scheduled reminder if they want one; the "done" condition is a dated
+  `DIAGNOSIS DUE` line in LAUNCH-LESSONS.md, which publish-video step 7.1 should
+  already have written at publish time). An under-48h upload does NOT block
+  icahn-validate's Step 0 gate — validation proceeds, the diagnosis is owed before
+  the NEXT publish.
 - **Was the full metadata package applied?** `docs/metadata/METADATA-<slug>.md` must
   exist AND actually be live on the upload: SEO description with chapters and the
   "▶ MORE FROM" block, pinned comment, and the single-video end screen matching the
@@ -104,7 +109,9 @@ winner's curve: hand off to **hook-doctor** — for the NEXT video's script. A l
 long-form's intro can't be recut without a re-upload, which is almost never worth it.
 
 **(d) Pacing.** Hook holds but the middle bleeds faster than the winners: note WHERE the
-bleed starts, and apply to the next script — re-hook every 30-60s, chapter cards, vary
+bleed starts, and apply to the next script — re-hook every 2-3 minutes with a tease
+of a specific later reveal, strongest re-hook at the 55-65% runtime mark (per
+hook-doctor; do NOT prescribe more cuts — the overstim meta is dead), chapter cards, vary
 the scene every 1-2 lines, cut any segment that doesn't escalate.
 
 **(e) All healthy.** Pool, CTR, and retention all in the channel's normal band: say so.
@@ -126,7 +133,8 @@ Evidence:  <the video's numbers vs the channel baseline, side by side>
 The one fix: <one action — who does it, and whether it targets the LIVE video or the NEXT one>
 Loop note: <one-line dated lesson>
 ```
-Then append the loop note (date, slug, branch, lesson) to
+Then append the loop note (date, slug, branch, lesson, T&C winner or n/a — all
+five fields, matching that file's declared entry format) to
 `docs/planning/LAUNCH-LESSONS.md` — create the file if it doesn't exist. Read that file
 BEFORE diagnosing, too: if the same lesson has fired before, say so — a repeated lesson
 is a process failure, not a video failure.
@@ -134,6 +142,7 @@ is a process failure, not a video failure.
 ## What this skill will NOT do
 Generate titles or thumbnails (ctr-engine), rewrite intros (hook-doctor), or cut Shorts
 (shorts-funnel) — it hands off to those. For this repo's channels it supersedes the
-removed third-party launch-diagnosis skill (that one had no channel
-baselines). It also won't promise a rescue: if the topic had no demand, no amount of
+third-party `lite-cge-launch-optimization` plugin skill (still installed in the
+environment, but it has no channel baselines — never use it for mindwired/Black Box
+videos). It also won't promise a rescue: if the topic had no demand, no amount of
 post-hoc optimization creates it, and the skill says so.
