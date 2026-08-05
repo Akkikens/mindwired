@@ -51,10 +51,10 @@
     {
       "id": "c1_1",
       "text": "On January fifteenth, twenty twenty five, a Falcon nine rocket lifted off from Cape Canaveral, carrying Firefly Aerospace's Blue Ghost Mission One toward the Moon.",
-      "video": "blueghost1_launch_isolated.mp4",
-      "videoFrom": 28,
       "cap": "Jan 15, 2025 — Cape Canaveral",
-      "tone": "measured"
+      "tone": "measured",
+      "img": "falcon9_launch",
+      "camera": "push"
     },
     {
       "id": "c1_2",
