@@ -4,10 +4,36 @@
 workflow wf_7ee7e9bc-51e). Footage confirmed real: workflow wf_f740e74b-1f2,
 log in `public/shorts/spacexlunarimpact/video/ATTRIBUTION.md`.
 
-**STATUS: the headline event has NOT happened yet as of this fact base
-(2026-08-04). Every claim about the impact itself is a prediction, stated as
-such. Nothing about the flash, plume, or resulting crater may be scripted as
-observed fact until re-verified after ~06:35 UTC, Aug 5, 2026.**
+**STATUS — UPDATED 2026-08-05, 18:00 UTC (re-verified live, ~11.5 hours after
+impact): THE IMPACT HAPPENED, ON SCHEDULE. Confirmed at ~06:35 UTC near
+Einstein Crater, matching the prediction exactly. What's still NOT available:
+any released image or video of the impact itself. Do not script a described
+flash/plume/crater as if it's been seen — it hasn't, not publicly, not yet.**
+
+New confirmed facts from the live re-check:
+- **South Korea's Danuri orbiter made an ultra-close flyby ~2 minutes before
+  impact** — the closest any spacecraft got. It carries a high-resolution
+  terrain camera (LUTI) and a wide-field polarimetric camera (PolCam),
+  intended to capture the crater's formation and how ejecta spread.
+  [koreatimes.co.kr, sedaily.com, koreajoongangdaily.com — all 2026-08-03/04]
+- **As of this check (same day as impact), Danuri's images have NOT been
+  publicly released.** [en.sedaily.com — explicit]
+- **Three professional ground observatories collected spectrographic data**
+  on the ejecta plume — real observational data exists, but this is spectra,
+  not imagery. [watchthestars.co.uk]
+- **NASA's LRO will image the fresh crater "in the coming weeks"** for the
+  before/after comparison (same ~mid-August estimate as before). Not yet
+  available. [techtimes.com 2026-08-04]
+- Crater-size and ejecta-mass figures (17–30 m, ~1,000+ tonnes) are still
+  **simulation/model estimates**, not confirmed post-impact measurements.
+
+**What this means for the script:** the episode can now honestly say the
+impact happened exactly as predicted — that's a real, confirmed, satisfying
+beat. It should NOT claim anyone has seen what it looked like. The honest
+ending is: it happened on time, a spacecraft was there watching from two
+minutes away, and the actual pictures are still locked in a camera on the
+other side of the Moon. That's a stronger, truer hook than either "it hasn't
+happened" (now stale) or a fabricated visual.
 
 ---
 
@@ -117,11 +143,14 @@ low; the field is mostly sub-5-minute news clips.
    this episode is NASA's own, separately-licensed public-domain footage.
 
 ## Open items before this can go into production
-1. **Re-verify observation results after ~06:35 UTC, Aug 5, 2026** — did it
-   happen as predicted, was a flash/plume actually observed, by whom.
-2. **Re-check after ~Aug 12, 2026** for LRO's before/after crater comparison
-   photo — real payoff imagery if the schedule allows folding it into the
-   episode or a same-week follow-up Short.
+1. ~~Re-verify observation results~~ — DONE 2026-08-05: impact confirmed on
+   schedule; no imagery released yet (see status above).
+2. **Re-check periodically for Danuri's images (KARI/KASA) and LRO's
+   before/after crater photo** (still "coming weeks" as of Aug 5) — real
+   payoff imagery, worth a follow-up Short the moment either drops. Ship the
+   main episode now on the honest "it happened, the pictures aren't public
+   yet" ending; don't hold the whole episode hostage to an unknown release
+   date when the time-lock is ~Aug 14.
 3. Full ctr-engine Run A (title/thumbnail scoring) — Run-A-level packaging
    already exists in the Icahn memory; formalize at script lock.
 4. Trim the 18:53 Blue Ghost launch master down to the actual cut points

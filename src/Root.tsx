@@ -39,6 +39,8 @@ import boeing737maxManifest from "./mindwired-doc/docs/boeing737max.manifest.jso
 import { SubscribeBlackBoxLong, subscribeBlackBoxFrames, SubscribeBlackBoxShort, subscribeBlackBoxShortFrames } from "./blackbox/SubscribeOutro";
 import { SubscribeCriminalRecordLong, SubscribeCriminalRecordShort, CR_OUTRO_FRAMES } from "./criminalrecord/SubscribeOutro";
 import { CRTimelineTest, CRRouteTest, CRTreeTest } from "./criminalrecord/SceneTest";
+import spacexDoc from "./mindwired-doc/docs/spacexlunarimpact.json";
+import spacexManifest from "./mindwired-doc/docs/spacexlunarimpact.manifest.json";
 import idahoDoc from "./mindwired-doc/docs/idahomurders.json";
 import idahoManifest from "./mindwired-doc/docs/idahomurders.manifest.json";
 import dahmerDoc from "./mindwired-doc/docs/dahmer.json";
@@ -1854,6 +1856,22 @@ export const RemotionRoot: React.FC = () => {
         id="DahmerDoc"
         component={makeDocComp(dahmerDoc as any, dahmerManifest as any, CR_OUTRO)}
         durationInFrames={docTotalFrames(dahmerDoc as any, dahmerManifest as any, CR_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── mindwired — a spent Falcon 9 stage hits the Moon (Icahn:
+             icahn-spacex-lunar-impact, PASS; time-locked, ship ~Aug 14).
+             Confirmed the impact happened on schedule (Aug 5, 06:35 UTC);
+             no released imagery yet, so the episode ends honestly on that,
+             not on a fabricated visual. Real footage: Ranger 7-9 impact
+             films, the actual Blue Ghost Mission 1 launch, LCROSS, the 2022
+             double-crater LROC photo. MW outro baked. ── */}
+      <Composition
+        id="SpacexLunarImpactDoc"
+        component={makeDocComp(spacexDoc as any, spacexManifest as any, MW_OUTRO)}
+        durationInFrames={docTotalFrames(spacexDoc as any, spacexManifest as any, MW_OUTRO)}
         fps={30}
         width={1920}
         height={1080}

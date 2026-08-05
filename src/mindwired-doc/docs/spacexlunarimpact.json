@@ -1,0 +1,389 @@
+{
+  "slug": "spacexlunarimpact",
+  "title": "A Rocket Just Hit the Moon. It Wasn't the First.",
+  "channel": "mindwired",
+  "niche": "space",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "At six thirty five in the morning, Universal Time, on August fifth, a piece of a rocket hit the Moon.",
+      "video": "ranger9_impact.mp4",
+      "videoFrom": 55,
+      "cap": "August 5, 2026 — 06:35 UTC",
+      "tone": "grave"
+    },
+    {
+      "id": "h2",
+      "text": "Nobody launched it there on purpose. It was already in space, already dead, and it had been falling toward the Moon for over a year before anyone announced it.",
+      "video": "ranger9_impact.mp4",
+      "videoFrom": 62,
+      "tone": "grave"
+    },
+    {
+      "id": "h3",
+      "text": "A spacecraft was two minutes away when it happened, cameras aimed at exactly the right spot. As of this recording, nobody outside that control room has seen what those cameras actually caught.",
+      "img": "lro_surface",
+      "cap": "The pictures exist. They aren't public yet.",
+      "tone": "grave"
+    },
+    {
+      "id": "intro",
+      "text": "You're watching mindwired.",
+      "sting": true,
+      "tone": "measured"
+    },
+    {
+      "id": "title",
+      "chapter": "A rocket just hit\nthe Moon",
+      "text": "This is the story of how it got there, why it wasn't an accident that anyone meant, and why this isn't even the first time it's happened.",
+      "img": "falcon9_launch",
+      "tone": "measured"
+    },
+    {
+      "id": "c1_ch",
+      "chapter": "Chapter one\nThe launch",
+      "text": "The object that hit the Moon started its life eighteen months earlier, on a launch pad in Florida.",
+      "img": "falcon9_launch",
+      "tone": "measured"
+    },
+    {
+      "id": "c1_1",
+      "text": "On January fifteenth, twenty twenty five, a Falcon nine rocket lifted off from Cape Canaveral, carrying Firefly Aerospace's Blue Ghost Mission One toward the Moon.",
+      "video": "blueghost1_launch_isolated.mp4",
+      "videoFrom": 28,
+      "cap": "Jan 15, 2025 — Cape Canaveral",
+      "tone": "measured"
+    },
+    {
+      "id": "c1_2",
+      "text": "Blue Ghost did exactly what it was built to do. It reached the Moon, and on March second, it landed.",
+      "cap": "Blue Ghost lands on the Moon — March 2, 2025",
+      "tone": "measured",
+      "img": "lro_surface",
+      "camera": "push"
+    },
+    {
+      "id": "c1_3",
+      "text": "But the rocket that carried it there was never coming back. Once its job ended, the Falcon nine's upper stage was left exactly where it was, in a wide, unstable orbit around the Earth and Moon together.",
+      "img": "falcon9_launch",
+      "camera": "push",
+      "tone": "measured"
+    },
+    {
+      "id": "c1_4",
+      "text": "Nobody was flying it. Nobody was steering it. For the next year and a half, it simply drifted, and its orbit slowly, quietly bent toward a collision course with the Moon.",
+      "kinetic": {
+        "words": [
+          "Nobody was flying it."
+        ],
+        "sub": "the rocket stage had no engine burns, no controllers, no plan"
+      },
+      "img": "falcon9_launch",
+      "tone": "grave"
+    },
+    {
+      "id": "c2_ch",
+      "chapter": "Chapter two\nThe prediction",
+      "text": "Nobody at SpaceX announced any of this. It was independent trackers, watching the sky, who worked it out first.",
+      "img": "lro_surface",
+      "tone": "measured"
+    },
+    {
+      "id": "c2_1",
+      "text": "Astronomers who track space debris as a hobby and a discipline noticed the object's orbit was decaying toward the Moon, and began refining exactly when and where it would hit.",
+      "img": "lro_surface",
+      "camera": "drift",
+      "tone": "measured"
+    },
+    {
+      "id": "c2_2",
+      "text": "Their final prediction, updated just days before impact, put it at six thirty five in the morning, Universal Time, on August fifth, within a few seconds either way.",
+      "timeline": {
+        "title": "The prediction, refined over 18 months",
+        "marks": [
+          {
+            "at": "Jan 2025",
+            "label": "The rocket stage is left in a decaying orbit"
+          },
+          {
+            "at": "Aug 5, 2026",
+            "label": "Predicted impact: 06:35 UTC",
+            "emphasis": true
+          }
+        ]
+      },
+      "cap": "Predicted to the second, from the ground.",
+      "tone": "measured"
+    },
+    {
+      "id": "c2_3",
+      "text": "The impact point: a spot near a crater called Einstein, right on the edge of the Moon's near side, the side we can actually see from Earth.",
+      "img": "lro_surface",
+      "camera": "push",
+      "cap": "Near Einstein crater, the Moon's western limb",
+      "tone": "measured"
+    },
+    {
+      "id": "c2_4",
+      "text": "Coming in at roughly five thousand four hundred miles an hour, a nearly five ton piece of metal, aimed at a target nobody chose.",
+      "kinetic": {
+        "count": 5400,
+        "countLabel": "mph at impact",
+        "sub": "a predictable, precisely-timed collision — unlike any natural impact"
+      },
+      "img": "falcon9_launch",
+      "tone": "grave"
+    },
+    {
+      "id": "c3_ch",
+      "chapter": "Chapter three\nWho was watching",
+      "text": "A predictable impact, with a known mass, a known speed, and a known time, is something that almost never happens in nature. Scientists treated it as a gift.",
+      "img": "lcross_moon",
+      "tone": "measured"
+    },
+    {
+      "id": "c3_1",
+      "text": "Professional and amateur astronomers across the Americas set up telescopes and high speed cameras, hoping to catch a flash, or a plume of dust rising off the lunar surface.",
+      "img": "lcross_moon",
+      "camera": "push",
+      "tone": "measured"
+    },
+    {
+      "id": "c3_2",
+      "text": "But there was no guarantee anyone would see anything at all. The impact site sits right on the edge of what's visible from Earth, and whether it was even in view that morning depended on the Moon's own slow wobble in its orbit.",
+      "img": "lro_surface",
+      "camera": "drift",
+      "tone": "measured"
+    },
+    {
+      "id": "c3_3",
+      "text": "The one spacecraft with a guaranteed view was South Korea's Danuri orbiter, which happened to be passing nearby. Mission controllers aimed its cameras to catch the impact from about two minutes away, the closest anyone would get.",
+      "img": "lro_surface",
+      "camera": "push",
+      "cap": "Danuri: ~2 minutes from impact, cameras aimed",
+      "tone": "measured"
+    },
+    {
+      "id": "c3_4",
+      "text": "As of this recording, Danuri's images have not been made public. Three ground observatories did capture spectral data on the debris cloud, but that's a chemical signature, not a picture.",
+      "kinetic": {
+        "words": [
+          "No pictures.",
+          "Not yet."
+        ],
+        "sub": "as of this recording"
+      },
+      "img": "lro_surface",
+      "tone": "grave"
+    },
+    {
+      "id": "c3_5",
+      "text": "NASA's own Lunar Reconnaissance Orbiter photographed the impact site three weeks before it happened. It's scheduled to fly back over in the coming weeks to photograph what's left.",
+      "img": "lro_surface",
+      "camera": "pull",
+      "cap": "LRO: before-shot taken July 29, 2026. After-shot: pending.",
+      "tone": "measured"
+    },
+    {
+      "id": "c4_ch",
+      "chapter": "Chapter four\nWe've done this before, on purpose",
+      "text": "Here's the part almost nobody watching the news this week seemed to know. This isn't remotely the first time something has crashed into the Moon. We've been doing it deliberately for sixty years.",
+      "img": "ranger_approach",
+      "tone": "measured"
+    },
+    {
+      "id": "c4_1",
+      "text": "Between nineteen sixty four and nineteen sixty five, NASA sent a series of spacecraft called Ranger on a one way trip. Their entire mission was to fly straight at the Moon, taking pictures the whole way down, until the moment they hit it.",
+      "video": "ranger9_impact.mp4",
+      "videoFrom": 3,
+      "cap": "Ranger program, 1964–1965",
+      "tone": "measured"
+    },
+    {
+      "id": "c4_2",
+      "text": "This is real footage from Ranger nine, transmitted live in nineteen sixty five, right up until the signal simply stopped.",
+      "video": "ranger9_impact.mp4",
+      "videoFrom": 58,
+      "cap": "ACTUAL RANGER 9 CAMERA FEED — March 24, 1965",
+      "tone": "grave"
+    },
+    {
+      "id": "c4_3",
+      "text": "Rangers seven, eight, and nine all successfully crashed on target, sending back the closest pictures of the lunar surface anyone had ever seen, each one a little sharper than the last, until there was nothing left to transmit.",
+      "video": "ranger9_impact.mp4",
+      "videoFrom": 70,
+      "tone": "grave"
+    },
+    {
+      "id": "c4_4",
+      "text": "A few years later, during the Apollo missions, NASA started crashing rocket stages into the Moon on purpose again, for a completely different reason. They wanted to shake it.",
+      "img": "ranger_approach",
+      "camera": "push",
+      "tone": "measured"
+    },
+    {
+      "id": "c4_5",
+      "text": "Apollo astronauts left seismometers on the lunar surface. By deliberately crashing spent rocket stages elsewhere on the Moon, mission control could measure how the shockwaves traveled, and learn what the inside of the Moon was actually made of.",
+      "img": "ranger_approach",
+      "camera": "drift",
+      "tone": "measured"
+    },
+    {
+      "id": "c4_6",
+      "text": "One honest note. No camera was ever pointed at any of those Apollo impacts. What you sometimes see labeled as footage of one is a NASA reconstruction, built afterward from the seismometer data, not a real recording of the moment.",
+      "kinetic": {
+        "words": [
+          "No camera",
+          "ever saw it."
+        ],
+        "sub": "Apollo booster impacts — reconstructed from seismic data only"
+      },
+      "img": "lro_surface",
+      "tone": "measured"
+    },
+    {
+      "id": "c4_7",
+      "text": "In two thousand nine, NASA did it once more, on purpose, with a mission called LCROSS. They aimed a spent rocket stage at a permanently shadowed crater called Cabeus, specifically hoping the impact would kick up ice.",
+      "video": "lcross_impact.mp4",
+      "videoFrom": 20,
+      "cap": "LCROSS impact, Cabeus crater — October 9, 2009",
+      "tone": "measured"
+    },
+    {
+      "id": "c4_8",
+      "text": "It worked. The debris plume contained water. It was the first direct confirmation that the Moon wasn't as dry as everyone assumed.",
+      "video": "lcross_impact.mp4",
+      "videoFrom": 45,
+      "tone": "measured"
+    },
+    {
+      "id": "c5_ch",
+      "chapter": "Chapter five\nThe one nobody claimed",
+      "text": "Which brings us to the impact that makes this week's crash genuinely strange, and not just another rocket falling out of the sky.",
+      "img": "crater2022",
+      "tone": "measured"
+    },
+    {
+      "id": "c5_1",
+      "text": "On March fourth, twenty twenty two, another dead rocket stage hit the Moon's far side, near a crater called Hertzsprung. Nobody had announced that one in advance either.",
+      "exhibit": true,
+      "img": "crater2022",
+      "source": "NASA / GSFC / Arizona State University — LROC image M1407760984R",
+      "highlight": [
+        0.39,
+        0.41,
+        0.2,
+        0.16
+      ],
+      "cap": "The March 4, 2022 impact site, photographed by LRO",
+      "tone": "grave"
+    },
+    {
+      "id": "c5_2",
+      "text": "When NASA's orbiter photographed the site afterward, it found something engineers hadn't seen from a single impact before. Not one crater. Two, overlapping, side by side.",
+      "exhibit": true,
+      "img": "crater2022",
+      "source": "NASA / GSFC / Arizona State University — LROC image M1407760984R",
+      "highlight": [
+        0.455,
+        0.455,
+        0.095,
+        0.065
+      ],
+      "cap": "A double crater from a single impact.",
+      "tone": "grave"
+    },
+    {
+      "id": "c5_3",
+      "text": "The leading explanation is that the rocket body had weight on both ends, unevenly, and struck the ground twice within a fraction of a second. But that raised a bigger question. Whose rocket was it?",
+      "img": "crater2022",
+      "camera": "pull",
+      "tone": "measured"
+    },
+    {
+      "id": "c5_4",
+      "text": "Independent trackers, working backward from its orbit, identified it as the third stage of China's Chang'e five T one mission, launched back in twenty fourteen.",
+      "kinetic": {
+        "words": [
+          "Attributed to:",
+          "Chang'e 5-T1 (2014)"
+        ],
+        "sub": "identified by independent orbital tracking, not by China"
+      },
+      "img": "crater2022",
+      "tone": "measured"
+    },
+    {
+      "id": "c5_5",
+      "text": "China's government disputed that identification when asked about it directly. To this day, no government has officially claimed the object that made that double crater.",
+      "img": "crater2022",
+      "camera": "drift",
+      "cap": "Attributed by trackers. Denied by China. Never officially resolved.",
+      "tone": "grave"
+    },
+    {
+      "id": "e1",
+      "text": "So that's where this week's impact actually sits. Not the first deliberate crash. Not even the first accidental one. Just the newest entry in a list that started with Ranger, continued through Apollo and LCROSS, and now includes at least two unclaimed rocket bodies, six years apart.",
+      "route": {
+        "title": "Deliberate and accidental lunar impacts",
+        "points": [
+          {
+            "x": 0.14,
+            "y": 0.5,
+            "label": "Ranger 7-9",
+            "at": "1964-65"
+          },
+          {
+            "x": 0.36,
+            "y": 0.36,
+            "label": "Apollo boosters",
+            "at": "1969-72"
+          },
+          {
+            "x": 0.58,
+            "y": 0.52,
+            "label": "LCROSS",
+            "at": "2009"
+          },
+          {
+            "x": 0.78,
+            "y": 0.36,
+            "label": "Unclaimed booster",
+            "at": "2022"
+          },
+          {
+            "x": 0.92,
+            "y": 0.5,
+            "label": "This week",
+            "at": "2026",
+            "emphasis": true
+          }
+        ]
+      },
+      "tone": "measured"
+    },
+    {
+      "id": "e2",
+      "text": "As of this recording, the pictures from this week's impact are still sitting in a camera on a spacecraft that was two minutes away. NASA's own before and after photographs are still weeks off.",
+      "img": "crater2022",
+      "camera": "push",
+      "cap": "The record is still being written.",
+      "tone": "grave"
+    },
+    {
+      "id": "e3",
+      "text": "By the time those pictures come out, we'll already be looking at the next one. If this is the kind of story where the answer arrives after the cameras stop rolling, wait until you see what's still unexplained about the crater from twenty twenty two.",
+      "img": "crater2022",
+      "camera": "pull",
+      "tone": "measured"
+    },
+    {
+      "id": "e4",
+      "text": "This is mindwired. Subscribe, and when the real pictures of this impact finally do come out, you'll see them here first.",
+      "img": "lro_surface",
+      "tone": "measured"
+    }
+  ]
+}
