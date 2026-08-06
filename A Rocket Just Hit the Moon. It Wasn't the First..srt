@@ -1,0 +1,272 @@
+1
+00:00:00,333 --> 00:00:06,367
+At six thirty five in the morning, Universal Time, on August fifth, a piece of a rocket hit the Moon.
+
+2
+00:00:07,500 --> 00:00:09,310
+Nobody launched it there on purpose.
+
+3
+00:00:09,310 --> 00:00:16,250
+It was already in space, already dead, and it had been falling toward the Moon for over a year before anyone announced it.
+
+4
+00:00:17,399 --> 00:00:22,376
+A spacecraft was two minutes away when it happened, cameras aimed at exactly the right spot.
+
+5
+00:00:22,376 --> 00:00:27,353
+As of this recording, nobody outside that control room has seen what those cameras actually caught.
+
+6
+00:00:28,499 --> 00:00:29,910
+You're watching mindwired.
+
+7
+00:00:31,033 --> 00:00:38,426
+This is the story of how it got there, why it wasn't an accident that anyone meant, and why this isn't even the first time it's happened.
+
+8
+00:00:39,566 --> 00:00:44,817
+The object that hit the Moon started its life eighteen months earlier, on a launch pad in Florida.
+
+9
+00:00:45,966 --> 00:00:55,448
+On January fifteenth, twenty twenty five, a Falcon nine rocket lifted off from Cape Canaveral, carrying Firefly Aerospace's Blue Ghost Mission One toward the Moon.
+
+10
+00:00:56,566 --> 00:00:59,544
+Blue Ghost did exactly what it was built to do.
+
+11
+00:00:59,544 --> 00:01:02,522
+It reached the Moon, and on March second, it landed.
+
+12
+00:01:03,666 --> 00:01:07,176
+But the rocket that carried it there was never coming back.
+
+13
+00:01:07,176 --> 00:01:15,473
+Once its job ended, the Falcon nine's upper stage was left exactly where it was, in a wide, unstable orbit around the Earth and Moon together.
+
+14
+00:01:16,599 --> 00:01:19,276
+Nobody was flying it. Nobody was steering it.
+
+15
+00:01:19,276 --> 00:01:26,970
+For the next year and a half, it simply drifted, and its orbit slowly, quietly bent toward a collision course with the Moon.
+
+16
+00:01:28,099 --> 00:01:30,650
+Nobody at SpaceX announced any of this.
+
+17
+00:01:30,650 --> 00:01:35,021
+It was independent trackers, watching the sky, who worked it out first.
+
+18
+00:01:36,166 --> 00:01:44,995
+Astronomers who track space debris as a hobby and a discipline noticed the object's orbit was decaying toward the Moon, and began refining exactly when and where it would hit.
+
+19
+00:01:46,133 --> 00:01:55,772
+Their final prediction, updated just days before impact, put it at six thirty five in the morning, Universal Time, on August fifth, within a few seconds either way.
+
+20
+00:01:56,899 --> 00:02:04,866
+The impact point: a spot near a crater called Einstein, right on the edge of the Moon's near side, the side we can actually see from Earth.
+
+21
+00:02:05,999 --> 00:02:13,470
+Coming in at roughly five thousand four hundred miles an hour, a nearly five ton piece of metal, aimed at a target nobody chose.
+
+22
+00:02:14,599 --> 00:02:22,871
+A predictable impact, with a known mass, a known speed, and a known time, is something that almost never happens in nature.
+
+23
+00:02:22,871 --> 00:02:25,126
+Scientists treated it as a gift.
+
+24
+00:02:26,266 --> 00:02:35,827
+Professional and amateur astronomers across the Americas set up telescopes and high speed cameras, hoping to catch a flash, or a plume of dust rising off the lunar surface.
+
+25
+00:02:36,966 --> 00:02:39,840
+But there was no guarantee anyone would see anything at all.
+
+26
+00:02:39,840 --> 00:02:48,199
+The impact site sits right on the edge of what's visible from Earth, and whether it was even in view that morning depended on the Moon's own slow wobble in its orbit.
+
+27
+00:02:49,333 --> 00:02:55,496
+The one spacecraft with a guaranteed view was South Korea's Danuri orbiter, which happened to be passing nearby.
+
+28
+00:02:55,496 --> 00:03:02,002
+Mission controllers aimed its cameras to catch the impact from about two minutes away, the closest anyone would get.
+
+29
+00:03:03,133 --> 00:03:06,839
+As of this recording, Danuri's images have not been made public.
+
+30
+00:03:06,839 --> 00:03:13,242
+Three ground observatories did capture spectral data on the debris cloud, but that's a chemical signature, not a picture.
+
+31
+00:03:14,366 --> 00:03:18,507
+NASA's own Lunar Reconnaissance Orbiter photographed the impact site three weeks before it happened.
+
+32
+00:03:18,507 --> 00:03:22,647
+It's scheduled to fly back over in the coming weeks to photograph what's left.
+
+33
+00:03:23,766 --> 00:03:27,594
+Here's the part almost nobody watching the news this week seemed to know.
+
+34
+00:03:27,594 --> 00:03:31,128
+This isn't remotely the first time something has crashed into the Moon.
+
+35
+00:03:31,128 --> 00:03:33,483
+We've been doing it deliberately for sixty years.
+
+36
+00:03:34,633 --> 00:03:40,744
+Between nineteen sixty four and nineteen sixty five, NASA sent a series of spacecraft called Ranger on a one way trip.
+
+37
+00:03:40,744 --> 00:03:47,146
+Their entire mission was to fly straight at the Moon, taking pictures the whole way down, until the moment they hit it.
+
+38
+00:03:48,266 --> 00:03:55,345
+This is real footage from Ranger nine, transmitted live in nineteen sixty five, right up until the signal simply stopped.
+
+39
+00:03:56,466 --> 00:04:09,475
+Rangers seven, eight, and nine all successfully crashed on target, sending back the closest pictures of the lunar surface anyone had ever seen, each one a little sharper than the last, until there was nothing left to transmit.
+
+40
+00:04:10,599 --> 00:04:18,707
+A few years later, during the Apollo missions, NASA started crashing rocket stages into the Moon on purpose again, for a completely different reason.
+
+41
+00:04:18,707 --> 00:04:20,395
+They wanted to shake it.
+
+42
+00:04:21,533 --> 00:04:24,184
+Apollo astronauts left seismometers on the lunar surface.
+
+43
+00:04:24,184 --> 00:04:34,124
+By deliberately crashing spent rocket stages elsewhere on the Moon, mission control could measure how the shockwaves traveled, and learn what the inside of the Moon was actually made of.
+
+44
+00:04:35,266 --> 00:04:39,591
+One honest note. No camera was ever pointed at any of those Apollo impacts.
+
+45
+00:04:39,591 --> 00:04:47,622
+What you sometimes see labeled as footage of one is a NASA reconstruction, built afterward from the seismometer data, not a real recording of the moment.
+
+46
+00:04:48,766 --> 00:04:54,798
+In two thousand nine, NASA did it once more, on purpose, with a mission called LCROSS.
+
+47
+00:04:54,798 --> 00:05:02,715
+They aimed a spent rocket stage at a permanently shadowed crater called Cabeus, specifically hoping the impact would kick up ice.
+
+48
+00:05:03,833 --> 00:05:06,493
+It worked. The debris plume contained water.
+
+49
+00:05:06,493 --> 00:05:12,192
+It was the first direct confirmation that the Moon wasn't as dry as everyone assumed.
+
+50
+00:05:13,333 --> 00:05:20,412
+Which brings us to the impact that makes this week's crash genuinely strange, and not just another rocket falling out of the sky.
+
+51
+00:05:21,533 --> 00:05:28,362
+On March fourth, twenty twenty two, another dead rocket stage hit the Moon's far side, near a crater called Hertzsprung.
+
+52
+00:05:28,362 --> 00:05:31,094
+Nobody had announced that one in advance either.
+
+53
+00:05:32,233 --> 00:05:39,575
+When NASA's orbiter photographed the site afterward, it found something engineers hadn't seen from a single impact before.
+
+54
+00:05:39,575 --> 00:05:42,839
+Not one crater. Two, overlapping, side by side.
+
+55
+00:05:43,966 --> 00:05:51,710
+The leading explanation is that the rocket body had weight on both ends, unevenly, and struck the ground twice within a fraction of a second.
+
+56
+00:05:51,710 --> 00:05:54,807
+But that raised a bigger question. Whose rocket was it?
+
+57
+00:05:55,933 --> 00:06:04,919
+Independent trackers, working backward from its orbit, identified it as the third stage of China's Chang'e five T one mission, launched back in twenty fourteen.
+
+58
+00:06:06,066 --> 00:06:09,598
+China's government disputed that identification when asked about it directly.
+
+59
+00:06:09,598 --> 00:06:14,895
+To this day, no government has officially claimed the object that made that double crater.
+
+60
+00:06:16,033 --> 00:06:20,758
+So that's where this week's impact actually sits. Not the first deliberate crash.
+
+61
+00:06:20,758 --> 00:06:22,939
+Not even the first accidental one.
+
+62
+00:06:22,939 --> 00:06:33,117
+Just the newest entry in a list that started with Ranger, continued through Apollo and LCROSS, and now includes at least two unclaimed rocket bodies, six years apart.
+
+63
+00:06:34,266 --> 00:06:41,070
+As of this recording, the pictures from this week's impact are still sitting in a camera on a spacecraft that was two minutes away.
+
+64
+00:06:41,070 --> 00:06:43,905
+NASA's own before and after photographs are still weeks off.
+
+65
+00:06:45,033 --> 00:06:48,699
+By the time those pictures come out, we'll already be looking at the next one.
+
+66
+00:06:48,699 --> 00:06:56,031
+If this is the kind of story where the answer arrives after the cameras stop rolling, wait until you see what's still unexplained about the crater from twenty twenty two.
+
+67
+00:06:57,166 --> 00:06:58,166
+This is mindwired.
+
+68
+00:06:58,166 --> 00:07:04,167
+Subscribe, and when the real pictures of this impact finally do come out, you'll see them here first.
+
