@@ -1,6 +1,6 @@
 # Francis Scott Key Bridge Collapse — handoff ("Prosecutors Say This Wasn't Just an Accident")
 
-**Status: 4K RENDER IN PROGRESS (GCE) — script, footage, VO, gates, comp, thumbnails all done.**
+**Status: RENDERED, VERIFIED, PACKAGED — ready for Akshay's final review + upload.**
 Not yet published. Channel: Black Box Breakdown (@Watch-BlackBox).
 
 ## What's done
@@ -16,9 +16,11 @@ Not yet published. Channel: Black Box Breakdown (@Watch-BlackBox).
 | Gates | 0 blocking, 9 verified-acceptable warnings | `preflight_doc.py keybridge` |
 | Comp registered | `KeyBridgeDoc` in `src/Root.tsx`, BB_OUTRO baked | — |
 | Stills spot-check | 4/4 verified (cold open, damage exhibit, DOJ exhibit, subscribe card) | `out/qa/keybridge_*.png` |
-| Render | 4K, windowed `bed_tension_rud.mp3` | IN PROGRESS — `out/keybridge_gce_launch.log` |
+| Render | 4K (3840×2160), 1727.6s, −14.2 LUFS, windowed `bed_tension_rud.mp3`, GCE on-demand | `Prosecutors Say This Wasn't Just an Accident.mp4` (repo root) |
+| Captions | 488-cue whisper transcript | `Prosecutors Say This Wasn't Just an Accident.srt` (repo root) |
 | Metadata package | Title + 2 alternates, description, chapters, tags, hashtags, pinned comment | `docs/metadata/METADATA-keybridge.md` |
 | Thumbnails | 3 built PNG files (real NTSB/Commons wreckage photos + real DOJ document, House Style 2.0) | `out/thumbs/keybridge_{A,B,C}.png` |
+| Shorts plan | 4 trailer Shorts scripted, not yet built/rendered | `docs/publishing/SHORTS-SCHEDULE-keybridge.md` |
 
 ## The runtime honesty note
 
