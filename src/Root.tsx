@@ -80,6 +80,12 @@ import mh370netflixDoc from "./mindwired-doc/docs/mh370netflix.json";
 import mh370netflixManifest from "./mindwired-doc/docs/mh370netflix.manifest.json";
 import earhartDoc from "./mindwired-doc/docs/earhart.json";
 import earhartManifest from "./mindwired-doc/docs/earhart.manifest.json";
+import threemileislandDoc from "./mindwired-doc/docs/threemileisland.json";
+import threemileislandManifest from "./mindwired-doc/docs/threemileisland.manifest.json";
+import keybridgeDoc from "./mindwired-doc/docs/keybridge.json";
+import keybridgeManifest from "./mindwired-doc/docs/keybridge.manifest.json";
+import area51Doc from "./mindwired-doc/docs/area51.json";
+import area51Manifest from "./mindwired-doc/docs/area51.manifest.json";
 import tunguskaDoc from "./mindwired-doc/docs/tunguska.json";
 import tunguskaManifest from "./mindwired-doc/docs/tunguska.manifest.json";
 import astronautsScaredDoc from "./mindwired-doc/docs/astronautsscared.json";
@@ -1436,6 +1442,96 @@ export const RemotionRoot: React.FC = () => {
         id="EarhartDoc"
         component={makeDocComp(earhartDoc, earhartManifest, BB_OUTRO)}
         durationInFrames={docTotalFrames(earhartDoc, earhartManifest, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Black Box Breakdown — Three Mile Island (1979 meltdown) fused with
+             its live 2024-2027 AI-datacenter restart (Crane Clean Energy Center)
+             (Icahn: icahn-threemileisland, PASS-WITH-CONDITIONS 2026-08-05,
+             adversarially re-checked — recognition downgraded 3->2/3, packaging
+             must lead with the restart/AI hook. Real evidence: Kemeny Commission
+             Report exhibit (verified primary document, OSTI/nonuclear.se mirror),
+             NRC's live June 2026 draft EA exhibit (Federal Register 91 FR 34658,
+             verified via the FR API), real 1979 NRC archival motion footage
+             (CC-BY, clipped from NRC's own "Moments in NRC History" video) for
+             the cold open. BB subscribe outro baked) ── */}
+      <Composition
+        id="ThreeMileIslandDoc"
+        component={makeDocComp(threemileislandDoc, threemileislandManifest, BB_OUTRO)}
+        durationInFrames={docTotalFrames(threemileislandDoc, threemileislandManifest, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Three Mile Island funnel Shorts (4) — cut from the long-form's own
+             real footage/exhibits + narration audio, per
+             docs/publishing/SHORTS-SCHEDULE-threemileisland.md. `ids` (added
+             to BlackBoxShort for this episode) hand-picks non-contiguous
+             beats so each Short stays in the 35-60s body sweet spot instead
+             of dragging in connective-tissue scenes between them.
+             `imgOverride` backfills a real photo/exhibit behind kinetic-only
+             or bare chapter-card beats that have no img of their own — never
+             a bare black text scene. ── */}
+      <Composition
+        id="ThreeMileIslandShort1"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "h1", endId: "h4", doc: threemileislandDoc as any, manifest: threemileislandManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "h1", endId: "h4", imgOverride: { h3: "ex_kemeny_cover" }, hook: "THIS REACTOR MELTED\nDOWN IN 1979", cta: "The full investigation\nis on the channel", slug: "threemileisland", doc: threemileislandDoc as any, manifest: threemileislandManifest as any }}
+      />
+      <Composition
+        id="ThreeMileIslandShort2"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ ids: ["a4", "b1", "b2", "b3"], doc: threemileislandDoc as any, manifest: threemileislandManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ ids: ["a4", "b1", "b2", "b3"], imgOverride: { a4: "tmi_controlroom", b2: "tmi_controlroom" }, hook: "THE LIGHT LIED", cta: "The full minute-by-minute\nbreakdown is on the channel", slug: "threemileisland", doc: threemileislandDoc as any, manifest: threemileislandManifest as any }}
+      />
+      <Composition
+        id="ThreeMileIslandShort3"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ ids: ["h3", "c1_1", "c1_2"], doc: threemileislandDoc as any, manifest: threemileislandManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ ids: ["h3", "c1_1", "c1_2"], imgOverride: { h3: "ex_kemeny_cover", c1_2: "ex_kemeny_cover" }, hook: "THE REPORT DIDN'T\nBLAME THE VALVE", cta: "The real 1979 report vs.\nthe 2026 paperwork — on the channel", slug: "threemileisland", doc: threemileislandDoc as any, manifest: threemileislandManifest as any }}
+      />
+      <Composition
+        id="ThreeMileIslandShort4"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ ids: ["d5", "e1", "e2", "e4"], doc: threemileislandDoc as any, manifest: threemileislandManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ ids: ["d5", "e1", "e2", "e4"], hook: "STATUS:\nSTILL PENDING", hookImg: "ex_nrc_ea.png", cta: "This is a live, open story —\nfull breakdown on the channel", slug: "threemileisland", doc: threemileislandDoc as any, manifest: threemileislandManifest as any }}
+      />
+
+      {/* ── Black Box Breakdown — Francis Scott Key Bridge collapse (2024 MV Dali
+             strike) fused with the live 2026 DOJ criminal indictment (Icahn:
+             icahn-keybridge, PASS-WITH-CONDITIONS 2026-08-08 — 3/3 recognition,
+             giant real ceiling, genuinely still-unfolding legal currency (2027
+             trial), footage confirmed strong via a direct probe — the opposite
+             result from the Edmund Fitzgerald footage-fail that preceded this
+             pick. Locked package: title leads with the DOJ-charges wedge, not
+             the already-saturated "revisiting 2024" collapse retelling. Real
+             evidence: NTSB Marine Investigation Report MIR-25-40 (full report
+             downloaded + cited), real NTSB-docket CCTV of the actual collapse
+             (DCA24MM031), real DOJ/EPA indictment press release, real named
+             quotes (NTSB Chair Homendy, Gov. Wes Moore). Narrator: Robyn
+             (female Cartesia voice, Akshay's explicit choice for this episode
+             — see memory female-narrator-voice-robyn). BB subscribe outro
+             baked) ── */}
+      <Composition
+        id="KeyBridgeDoc"
+        component={makeDocComp(keybridgeDoc as any, keybridgeManifest as any, BB_OUTRO)}
+        durationInFrames={docTotalFrames(keybridgeDoc as any, keybridgeManifest as any, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      <Composition
+        id="Area51Doc"
+        component={makeDocComp(area51Doc, area51Manifest, MW_OUTRO)}
+        durationInFrames={docTotalFrames(area51Doc, area51Manifest, MW_OUTRO)}
         fps={30}
         width={1920}
         height={1080}

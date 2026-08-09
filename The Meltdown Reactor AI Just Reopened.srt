@@ -1,0 +1,624 @@
+1
+00:00:00,110 --> 00:00:05,010
+In Pennsylvania, there is a nuclear reactor that partially melted down in 1979.
+
+2
+00:00:05,710 --> 00:00:08,790
+Regulators spent decades making sure it would never run again.
+
+3
+00:00:10,150 --> 00:00:12,430
+This year, it is scheduled to switch back on,
+
+4
+00:00:12,590 --> 00:00:15,770
+not to power homes, to power artificial intelligence.
+
+5
+00:00:17,170 --> 00:00:21,290
+The federal investigation into why it failed the first time found something specific.
+
+6
+00:00:21,750 --> 00:00:23,890
+Not a broken part. A mindset.
+
+7
+00:00:24,550 --> 00:00:27,870
+A habit of trusting the equipment and ignoring the people in the room.
+
+8
+00:00:27,870 --> 00:00:32,940
+That finding is a real, public federal report.
+
+9
+00:00:33,700 --> 00:00:38,600
+And right now, a regulator is deciding whether the exact conditions it warned about have
+
+10
+00:00:38,600 --> 00:00:42,080
+actually been fixed. This is that report,
+
+11
+00:00:42,480 --> 00:00:44,520
+held up against the paperwork being filed today,
+
+12
+00:00:45,000 --> 00:00:48,600
+beat by beat. You're watching Black Box Breakdown.
+
+13
+00:00:50,020 --> 00:00:52,260
+The meltdown reactor A are just reopened.
+
+14
+00:00:53,880 --> 00:00:56,500
+Chapter 1. The morning nobody was ready for.
+
+15
+00:00:57,600 --> 00:01:01,280
+March 28, 1979. Four in the morning.
+
+16
+00:01:01,800 --> 00:01:03,460
+Three Mile Island, Pennsylvania.
+
+17
+00:01:04,280 --> 00:01:08,440
+Control room operator Craig Faust is at the panel of Unit 2 when the first alarm cuts
+
+18
+00:01:08,440 --> 00:01:12,220
+through the dark. A maintenance job on a water filter,
+
+19
+00:01:12,500 --> 00:01:16,160
+three floors away, trips the pumps feeding the plant's steam generators.
+
+20
+00:01:16,900 --> 00:01:20,080
+Within seconds, the reactor shuts itself down automatically,
+
+21
+00:01:20,460 --> 00:01:25,640
+exactly as designed. Then a relief valve at the top of the reactor's pressurizer
+
+22
+00:01:25,640 --> 00:01:27,120
+opens to bleed off pressure,
+
+23
+00:01:27,440 --> 00:01:31,180
+exactly as designed. And then it does something it was not designed to do.
+
+24
+00:01:31,380 --> 00:01:35,200
+It sticks open. In the control room,
+
+25
+00:01:35,480 --> 00:01:37,800
+a light on the panel shows the valve is closed.
+
+26
+00:01:38,300 --> 00:01:40,820
+But that light was never wired to the valve itself.
+
+27
+00:01:41,560 --> 00:01:44,220
+It was wired to the signal telling the valve to close.
+
+28
+00:01:44,940 --> 00:01:46,500
+Nobody in that room knew the difference.
+
+29
+00:01:47,560 --> 00:01:52,060
+For two hours, coolant drains out of an open valve that every instrument in the room
+
+30
+00:01:52,060 --> 00:01:56,440
+insists is shut. This exact failure had happened before.
+
+31
+00:01:56,940 --> 00:02:00,200
+18 months earlier, at a nearly identical reactor in Ohio,
+
+32
+00:02:00,680 --> 00:02:02,540
+a relief valve stuck open there too.
+
+33
+00:02:03,180 --> 00:02:04,520
+Federal regulators studied it.
+
+34
+00:02:04,820 --> 00:02:07,000
+Nobody warned the operators at Three Mile Island.
+
+35
+00:02:09,180 --> 00:02:12,800
+Craig Faust and the other operators on shift that morning did not know any of this.
+
+36
+00:02:13,220 --> 00:02:17,020
+They were reading a control panel that was built to hide the one thing they most needed
+
+37
+00:02:17,020 --> 00:02:21,280
+to see. Chapter two, the mistake that made it worse.
+
+38
+00:02:22,940 --> 00:02:25,480
+Operators are trained to watch one gauge above all others,
+
+39
+00:02:25,800 --> 00:02:27,300
+the water level in the pressurizer.
+
+40
+00:02:27,820 --> 00:02:30,000
+As coolant drains out through the stuck valve,
+
+41
+00:02:30,300 --> 00:02:32,640
+that gauge reads full, rising,
+
+42
+00:02:32,940 --> 00:02:37,940
+even. So operator Edward Frederick does exactly what his training tells him to
+
+43
+00:02:37,940 --> 00:02:40,020
+do when a reactor looks like it's overfilling.
+
+44
+00:02:40,380 --> 00:02:42,820
+He throttles back the emergency cooling pumps.
+
+45
+00:02:44,500 --> 00:02:49,280
+It is the single decision that turns a manageable equipment failure into a partial meltdown.
+
+46
+00:02:49,860 --> 00:02:51,060
+The core starts to uncover,
+
+47
+00:02:51,600 --> 00:02:53,420
+and no one in the room can see it happening.
+
+48
+00:02:54,880 --> 00:02:57,760
+Eight minutes in, operator Craig Faust finds something else.
+
+49
+00:02:58,580 --> 00:03:02,620
+Emergency feed water valves left closed after maintenance that were never supposed to
+
+50
+00:03:02,620 --> 00:03:04,420
+be closed at all. He reopens them.
+
+51
+00:03:04,660 --> 00:03:06,720
+It is the first thing anyone gets right that morning.
+
+52
+00:03:08,180 --> 00:03:10,980
+By then, more than a hundred alarms are sounding at once.
+
+53
+00:03:10,980 --> 00:03:15,880
+The control panel physically cannot show the operators everything failing in time for
+
+54
+00:03:15,880 --> 00:03:21,080
+them to react to it. A hydrogen bubble forms at the top of the reactor vessel.
+
+55
+00:03:21,500 --> 00:03:24,320
+For days, nobody is certain whether it can explode.
+
+56
+00:03:25,100 --> 00:03:28,500
+Radioactive gas is deliberately vented from the plant to relieve pressure.
+
+57
+00:03:29,860 --> 00:03:33,780
+Pennsylvania's governor advises pregnant women and small children within five miles to
+
+58
+00:03:33,780 --> 00:03:38,280
+leave. An estimated 140 ,000 people evacuate the region on their own.
+
+59
+00:03:39,300 --> 00:03:41,600
+Four days later, President Carter,
+
+60
+00:03:41,980 --> 00:03:43,820
+a trained nuclear engineer himself,
+
+61
+00:03:44,200 --> 00:03:48,740
+walks into the Unit 2 control room in person to prove to the country it was safe enough
+
+62
+00:03:48,740 --> 00:03:53,960
+to stand in. Chapter 3. The report they didn't want to hear.
+
+63
+00:03:55,120 --> 00:03:59,840
+Seven months later, a federal commission led by mathematician John Kemeny delivers its
+
+64
+00:03:59,840 --> 00:04:02,680
+verdict. And it is not the verdict the industry expected.
+
+65
+00:04:03,760 --> 00:04:08,420
+The commission's central finding was not about the stuck valve or the misleading light
+
+66
+00:04:08,420 --> 00:04:11,360
+or even the training. It was about a mindset,
+
+67
+00:04:12,000 --> 00:04:16,320
+an industry so focused on the safety of its equipment that it downplayed the one thing
+
+68
+00:04:16,320 --> 00:04:17,520
+actually running the plant,
+
+69
+00:04:17,940 --> 00:04:23,240
+the people in the room. The report singled out the regulator itself.
+
+70
+00:04:23,800 --> 00:04:25,200
+The Nuclear Regulatory Commission,
+
+71
+00:04:25,560 --> 00:04:30,460
+it found, was so narrowly focused on whether individual parts met code that it never
+
+72
+00:04:30,460 --> 00:04:34,760
+stepped back to ask whether the plant as a whole was actually being run safely.
+
+73
+00:04:36,220 --> 00:04:37,820
+It recommended sweeping changes,
+
+74
+00:04:38,240 --> 00:04:39,280
+better operator training,
+
+75
+00:04:39,760 --> 00:04:44,420
+redesigned control rooms and a federal inspector living on site at every reactor in the
+
+76
+00:04:44,420 --> 00:04:48,720
+country permanently. The health toll is still disputed.
+
+77
+00:04:49,280 --> 00:04:53,320
+One 1997 university study found higher cancer rates downwind of the plant.
+
+78
+00:04:54,140 --> 00:04:56,620
+Federal regulators and other researchers disagree,
+
+79
+00:04:56,840 --> 00:04:59,040
+pointing to smoking rates and study design.
+
+80
+00:04:59,040 --> 00:05:02,840
+Nearly 50 years later, there is still no settled answer.
+
+81
+00:05:04,780 --> 00:05:07,340
+What is not disputed is what happened to the reactor itself.
+
+82
+00:05:08,280 --> 00:05:12,920
+Unit 2 never ran again. Its cleanup took 14 years and cost roughly a billion dollars.
+
+83
+00:05:13,360 --> 00:05:15,240
+It was, everyone agreed, finished.
+
+84
+00:05:17,540 --> 00:05:19,980
+Chapter 4. The switch nobody expected.
+
+85
+00:05:21,400 --> 00:05:23,400
+Not Unit 2. Its neighbour,
+
+86
+00:05:23,880 --> 00:05:29,160
+Unit 1, kept running for decades after until it was shut down for purely economic reasons
+
+87
+00:05:29,160 --> 00:05:32,320
+in 2019. It sat idle for five years.
+
+88
+00:05:33,840 --> 00:05:39,000
+Then, in September 2024, Constellation Energy announced it would spend $1 .6
+
+89
+00:05:39,000 --> 00:05:41,660
+billion to bring that idle reactor back online.
+
+90
+00:05:42,320 --> 00:05:44,460
+Not for the power grid. For one customer,
+
+91
+00:05:45,360 --> 00:05:50,650
+Microsoft. The deal is a 20 -year contract to sell the plant's entire
+
+92
+00:05:50,650 --> 00:05:56,150
+output, 835 MW, to power the data centres running artificial intelligence.
+
+93
+00:05:57,410 --> 00:05:59,530
+The plant even has a new name now,
+
+94
+00:06:00,030 --> 00:06:01,290
+Crane Clean Energy Centre.
+
+95
+00:06:01,830 --> 00:06:04,150
+The original target for switching back on was 2028.
+
+96
+00:06:05,170 --> 00:06:06,810
+It has since been moved a year earlier.
+
+97
+00:06:08,170 --> 00:06:12,450
+Three Mile Island Alert, the same watchdog group that has monitored this site since before
+
+98
+00:06:12,450 --> 00:06:14,510
+the meltdown, calls the process rushed.
+
+99
+00:06:15,070 --> 00:06:18,670
+Its director says the fuel is already being delivered before regulators have even finished
+
+100
+00:06:18,670 --> 00:06:20,110
+reviewing it, calling it,
+
+101
+00:06:20,370 --> 00:06:22,610
+in his words, quote, a farce.
+
+102
+00:06:23,510 --> 00:06:28,390
+Chapter 5, The Paperwork In June 2026,
+
+103
+00:06:28,870 --> 00:06:32,490
+the Nuclear Regulatory Commission released its draft assessment for reauthorising the
+
+104
+00:06:32,490 --> 00:06:34,330
+plant. Its preliminary finding,
+
+105
+00:06:34,790 --> 00:06:36,570
+no significant environmental impact.
+
+106
+00:06:38,070 --> 00:06:40,010
+The public comment period closed in July.
+
+107
+00:06:40,650 --> 00:06:44,110
+Fresh nuclear fuel is scheduled to arrive on site by the end of this year,
+
+108
+00:06:44,370 --> 00:06:48,990
+sitting in storage, waiting on a final licence decision expected as early as next spring.
+
+109
+00:06:50,350 --> 00:06:54,050
+Separately, the region's power grid operator has had to intervene,
+
+110
+00:06:54,650 --> 00:06:58,890
+granting a special waiver just to make room on the grid for this one reactor's return.
+
+111
+00:07:00,370 --> 00:07:03,630
+As of now, the final environmental review has not been published.
+
+112
+00:07:04,010 --> 00:07:05,610
+It is expected within weeks.
+
+113
+00:07:06,090 --> 00:07:08,990
+The restart of a reactor that partially melted down is,
+
+114
+00:07:09,270 --> 00:07:13,690
+right now, an open fire. Chapter 6,
+
+115
+00:07:14,110 --> 00:07:19,110
+Putting the Old Report on Trial So here is the question nobody at a press conference
+
+116
+00:07:19,110 --> 00:07:20,890
+is being asked directly. Not,
+
+117
+00:07:21,330 --> 00:07:23,330
+is nuclear power safe? This one.
+
+118
+00:07:23,910 --> 00:07:28,750
+Has the specific mindset the Kemeny Commission blamed in 1979 actually been fixed on
+
+119
+00:07:28,750 --> 00:07:30,650
+this reactor before it runs again?
+
+120
+00:07:32,730 --> 00:07:36,770
+The Commission's first finding was a control room built to hide critical information
+
+121
+00:07:36,770 --> 00:07:39,670
+from operators. Modern reactor control rooms,
+
+122
+00:07:39,970 --> 00:07:44,390
+including this one's, have been redesigned since with clearer instrumentation.
+
+123
+00:07:44,390 --> 00:07:47,130
+On paper, that finding has been addressed.
+
+124
+00:07:48,710 --> 00:07:53,330
+The Commission's second finding was a regulator too narrowly focused on individual parts
+
+125
+00:07:53,330 --> 00:07:54,470
+to see the bigger picture.
+
+126
+00:07:54,890 --> 00:07:59,830
+That is precisely the criticism Three Mile Island Alert is making again today about the
+
+127
+00:07:59,830 --> 00:08:01,970
+same regulator on the same site.
+
+128
+00:08:03,270 --> 00:08:07,030
+The Commission's third finding was an industry moving faster than its own oversight could
+
+129
+00:08:07,030 --> 00:08:09,850
+keep up with. A reactor idle for five years,
+
+130
+00:08:10,130 --> 00:08:12,470
+restarting on a contract signed for a technology,
+
+131
+00:08:12,470 --> 00:08:16,610
+artificial intelligence, that barely existed the last time this plant ran.
+
+132
+00:08:17,970 --> 00:08:22,150
+Nobody involved is claiming this reactor is the same one that failed in 1979.
+
+133
+00:08:22,870 --> 00:08:25,010
+It has new fuel, new inspections,
+
+134
+00:08:25,550 --> 00:08:28,150
+decades of accumulated regulation behind it.
+
+135
+00:08:28,510 --> 00:08:32,230
+But the Commission's real warning was never about one broken valve.
+
+136
+00:08:33,570 --> 00:08:38,650
+It was about how easy it is to trust a system right up until the moment the system
+
+137
+00:08:38,650 --> 00:08:43,770
+is wrong. That is the exact test this restart is running again live this
+
+138
+00:08:43,770 --> 00:08:47,970
+year. What stays with me here isn't the meltdown.
+
+139
+00:08:48,630 --> 00:08:50,190
+Nobody died from it directly,
+
+140
+00:08:50,210 --> 00:08:53,590
+and the plant survived to be studied in exhaustive detail.
+
+141
+00:08:55,050 --> 00:08:57,550
+What stays with me is that the fix it produced,
+
+142
+00:08:57,870 --> 00:09:01,170
+a federal report about paying attention to people instead of just parts,
+
+143
+00:09:01,450 --> 00:09:06,550
+is being tested again on the exact same site decades later for a technology nobody
+
+144
+00:09:06,550 --> 00:09:08,370
+in that control room could have imagined.
+
+145
+00:09:09,510 --> 00:09:12,110
+The paperwork on this restart is still open.
+
+146
+00:09:12,530 --> 00:09:13,770
+By the time you're watching this,
+
+147
+00:09:13,950 --> 00:09:15,470
+some of it may already be decided.
+
+148
+00:09:17,570 --> 00:09:20,530
+If a warning that got ignored for 18 months unsettled you,
+
+149
+00:09:20,790 --> 00:09:22,490
+wait until you see the repair shortcut.
+
+150
+00:09:22,870 --> 00:09:27,650
+Boeing made seven years before it killed 520 people on Japan Airlines Flight 123.
+
+151
+00:09:28,550 --> 00:09:29,670
+Subscribe to Black Box Breakdown.
+
+152
+00:09:30,690 --> 00:09:32,310
+If this one got under your skin a little,
+
+153
+00:09:32,610 --> 00:09:37,710
+good. That's the point. And it only keeps happening because people like you keep showing
+
+154
+00:09:37,710 --> 00:09:39,810
+up. So do one thing for me.
+
+155
+00:09:40,150 --> 00:09:45,070
+Hit subscribe. It is free and it is the whole reason Black Box can keep taking these
+
+156
+00:09:45,070 --> 00:09:46,050
+disasters apart.
+

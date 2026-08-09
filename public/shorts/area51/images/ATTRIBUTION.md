@@ -1,0 +1,9 @@
+- `groom_lake_sat_1.jpg` — "2010_08_06_rno-phx-bos_071" by dsearls — BY — https://www.flickr.com/photos/52614599@N00/4882145526 (openverse)
+- `groom_lake_sat_2.jpg` — "2010_08_06_rno-phx-bos_072" by dsearls — BY — https://www.flickr.com/photos/52614599@N00/4882145914 (openverse)
+- `groom_lake_sat_3.jpg` — "2010_08_06_rno-phx-bos_066" by dsearls — BY — https://www.flickr.com/photos/52614599@N00/4881535519 (openverse)
+- `a12_oxcart_1.jpg` — "Blackbird Airpark (14341625338).jpg" by Thomas Ormston from Darmstadt, Germany — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Blackbird_Airpark_(14341625338).jpg (commons)
+- `ex_cia_doc.png` — "The Central Intelligence Agency and Overhead Reconnaissance: The U-2 and OXCART Programs, 1954-1974" by Gregory W. Pedlow and Donald E. Welzenbach, CIA — approved for release 2013/06/25 — U.S. federal government work, public domain — https://nsarchive2.gwu.edu/NSAEBB/NSAEBB434/
+- `pentagon_1.jpg` — "The Pentagon US Department of Defense building.jpg" — Public domain — https://commons.wikimedia.org/wiki/File:The_Pentagon_US_Department_of_Defense_building.jpg (commons)
+- `f117_1.jpg` — "F-117 Nighthawk Front.jpg" — Public domain — https://commons.wikimedia.org/wiki/File:F-117_Nighthawk_Front.jpg (commons)
+- `a12_real_1.jpg` — "A-12 Oxcart - Flickr - The Central Intelligence Agency.jpg" — Public domain — https://commons.wikimedia.org/wiki/File:A-12_Oxcart_-_Flickr_-_The_Central_Intelligence_Agency.jpg (commons)
+- `ex_cia_doc_inner.png` — real Chapter 1 opening page ("Searching for a System" / "The Need for High-Altitude Reconnaissance") of the same CIA document, "The Central Intelligence Agency and Overhead Reconnaissance: The U-2 and OXCART Programs, 1954-1974" — U.S. federal government work, public domain — https://nsarchive2.gwu.edu/NSAEBB/NSAEBB434/docs/U2%20-%20Chapter%201.pdf

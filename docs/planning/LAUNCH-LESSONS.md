@@ -99,3 +99,33 @@ Format per entry:
   insufficient data yet
 - DIAGNOSIS DUE 2026-08-05: earhart (BB), tunguska (MW), mh370netflix (BB),
   nasaufofiles (MW) — all under 48h at backfill time.
+- BLOCKED-ON-DATA 2026-08-06: threemileisland (BB) doc-episode kickoff — no live
+  Studio access in this session to pull real numbers for the still-due earhart/
+  tunguska/mh370netflix/nasaufofiles diagnoses. Per icahn-validate/doc-episode's
+  own escape hatch (no-human-available → record and proceed), TMI production
+  starts without re-blocking on this. Diagnoses remain owed before the NEXT
+  publish after TMI.
+- BLOCKED-ON-DATA 2026-08-07 · channel-wide · branch=a (low-confidence, view-counts
+  only — Akshay declined to pull fresh impressions/CTR/retention) · Akshay reports
+  "no views at all" across the board; view-count log confirms only 2 outliers
+  (21 Astronauts 68.7K, MH370 37.7K, both global-recognition topics) against ~25
+  other videos mostly under 800 views — restates the channel's own standing
+  lesson (pool size = topic recognition, not quality). Titanic (71 views) is a
+  genuine anomaly worth a real Studio pull if revisited — a globally-famous name
+  landing near the bottom doesn't fit the pattern and may be branch (b) on that
+  one video specifically. Real impressions/CTR/retention numbers still owed for
+  earhart/tunguska/mh370netflix/nasaufofiles AND this channel-wide read — this is
+  a directional read, not a confirmed diagnosis. · T&C winner: n/a
+- 2026-08-07 · tunguska (MW) · branch=a (confirmed, real Studio pull via logged-in
+  Chrome) · 4 days live: 2.7K impressions / 1.7% CTR / 82 views / 7:05 avg view
+  duration (~42% avg-viewed, healthy retention) vs MH370 baseline 399.5K
+  impressions / 5.0% CTR / 29K views — ~150x smaller impressions pool is the
+  whole gap; CTR is secondary (also below the 3.5-5% normal band, worth a look
+  later but would not rescue a pool this small). Confirms topic-demand is the
+  dominant signal, not packaging — do not touch this video's thumb/title. Fix
+  targets the NEXT topic pick via icahn-validate (name-recognition bar). ·
+  T&C winner: insufficient data yet (pool too small)
+- DIAGNOSIS DUE 2026-08-09: area51 (MW, published Aug 7, 14 impressions at pull
+  time — too fresh to read) and spacexlunarimpact/"A Rocket Just Hit the Moon"
+  (MW, published Aug 6, 1.1K impressions / 2.5% CTR / 57 views at pull time —
+  still under 48h). Re-pull Reach tab numbers once both clear 48-72h live.

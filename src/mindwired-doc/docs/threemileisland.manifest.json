@@ -1,0 +1,110 @@
+{
+ "durations": {
+  "h1": 8.438,
+  "h2": 6.113,
+  "h3": 10.919,
+  "h4": 9.874,
+  "h5": 4.754,
+  "sting": 1.959,
+  "title": 2.691,
+  "c1": 3.004,
+  "a1": 11.389,
+  "a2": 11.389,
+  "a3": 9.561,
+  "a4": 12.591,
+  "a5": 5.486,
+  "a6": 12.669,
+  "a7": 8.751,
+  "c2": 2.586,
+  "b1": 10.841,
+  "b2": 8.516,
+  "b3": 8.751,
+  "b4": 12.121,
+  "b5": 8.829,
+  "b6": 10.109,
+  "b7": 8.673,
+  "b8": 10.031,
+  "c3": 3.161,
+  "c1_1": 7.967,
+  "c1_2": 15.073,
+  "c1_3": 14.028,
+  "c1_4": 9.874,
+  "c1_5": 15.804,
+  "c1_6": 10.919,
+  "c4": 3.161,
+  "d1": 11.076,
+  "d2": 12.042,
+  "d3": 9.091,
+  "d4": 9.247,
+  "d5": 14.681,
+  "c5": 2.038,
+  "e1": 9.717,
+  "e2": 11.233,
+  "e3": 8.829,
+  "e4": 11.076,
+  "c6": 2.691,
+  "f1": 14.028,
+  "f2": 14.681,
+  "f3": 13.636,
+  "f4": 13.479,
+  "f5": 14.759,
+  "f6": 10.449,
+  "coda1": 7.889,
+  "coda2": 13.714,
+  "coda3": 5.956,
+  "end": 12.356
+ },
+ "images": {
+  "davis_besse_plant": [
+   "davis_besse_plant_1.jpg"
+  ],
+  "ex_kemeny_cover": [
+   "ex_kemeny_cover.png"
+  ],
+  "ex_nrc_ea": [
+   "ex_nrc_ea.png"
+  ],
+  "microsoft_datacenter": [
+   "microsoft_datacenter_1.jpg"
+  ],
+  "nrc_reforms_doc": [
+   "nrc_reforms_doc_2.png",
+   "nrc_reforms_doc_3.png"
+  ],
+  "nrc_seal_document": [
+   "nrc_seal_document_1.png"
+  ],
+  "nuclear_fuel_storage": [
+   "nuclear_fuel_storage_1.jpg"
+  ],
+  "power_grid": [
+   "power_grid_1.png",
+   "power_grid_2.png",
+   "power_grid_3.png"
+  ],
+  "tmi_controlroom2": [
+   "tmi_controlroom2_1.png"
+  ],
+  "tmi_controlroom3": [
+   "tmi_controlroom3_1.png"
+  ],
+  "tmi_controlroom": [
+   "tmi_controlroom_1.jpg"
+  ],
+  "tmi_coolingtowers_still": [
+   "tmi_coolingtowers_still_1.jpg"
+  ],
+  "tmi_nrc_inspector": [
+   "tmi_nrc_inspector_1.jpg"
+  ],
+  "tmi_unit1": [
+   "tmi_unit1_1.jpg"
+  ],
+  "tmia_protest": [
+   "tmia_protest_1.jpg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.96,
+ "mouth": {}
+}

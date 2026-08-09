@@ -1,0 +1,1016 @@
+{
+  "slug": "keybridge",
+  "title": "Prosecutors Say This Wasn't Just an Accident",
+  "channel": "blackbox",
+  "niche": "generic",
+  "language": "en",
+  "voice": "8985388c-1332-4ce7-8d55-789628aa3df4",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "In Baltimore, a container ship the length of three football fields passes under a bridge that has carried commuters since nineteen seventy seven. Three days later, it will destroy it.",
+      "video": "keybridge_precollapse_transit.mp4",
+      "cap": "March 23, 2024. Three days before."
+    },
+    {
+      "id": "h2",
+      "text": "March twenty sixth, twenty twenty four. One twenty four in the morning.",
+      "video": "keybridge_dundalk_timestamp.mp4",
+      "stat": "1:24 AM EDT"
+    },
+    {
+      "id": "h3",
+      "text": "At the base of the bridge, three Maryland Transportation Authority police officers get a call. A ship has lost its steering, and it is heading straight for them.",
+      "img": "kb_mta_officers",
+      "query": "police officer night radio dispatch highway",
+      "cap": "\"Hold all traffic on the Key Bridge.\""
+    },
+    {
+      "id": "h4",
+      "text": "Ninety seconds later, they do not have a bridge left to hold traffic on.",
+      "video": "keybridge_impact_dockeast.mp4",
+      "cap": "The actual moment, from an NTSB docket camera."
+    },
+    {
+      "id": "h5",
+      "text": "Six construction workers were on that bridge, filling potholes in the middle of the night. All six of them died.",
+      "kinetic": {
+        "words": [
+          "Six",
+          "workers.",
+          "All",
+          "six",
+          "died."
+        ]
+      }
+    },
+    {
+      "id": "h6",
+      "text": "For two years, the story was simple. A ship lost power. A bridge fell down. It was a tragic accident.",
+      "img": "ex_ntsb_postcollapse_dalibow",
+      "cap": "For two years, that was the story."
+    },
+    {
+      "id": "h7",
+      "text": "Then, in the summer of twenty twenty six, federal prosecutors stood up and said it wasn't just an accident at all.",
+      "img": "ex_doj_indictment",
+      "cap": "Prosecutors say this wasn't just an accident."
+    },
+    {
+      "id": "sting",
+      "text": "You're watching Black Box Breakdown.",
+      "sting": true,
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "text": "Prosecutors Say This Wasn't Just an Accident",
+      "chapter": "PROSECUTORS SAY THIS\nWASN'T JUST AN ACCIDENT"
+    },
+    {
+      "id": "c1",
+      "text": "Chapter one. The bridge that was never supposed to be hit.",
+      "chapter": "1 — THE BRIDGE THAT WAS\nNEVER SUPPOSED TO BE HIT",
+      "img": "kb_bridge_construction"
+    },
+    {
+      "id": "a1",
+      "text": "The Francis Scott Key Bridge opened on March twenty third, nineteen seventy seven. It existed for one reason: Baltimore's harbor tunnel had run out of room.",
+      "img": "kb_bridge_construction",
+      "query": "Francis Scott Key Bridge construction 1970s NARA",
+      "camera": "push"
+    },
+    {
+      "id": "a2",
+      "text": "Planners looked at building a second tunnel. It priced out higher than a four lane bridge across the water. So they built the bridge instead, finishing construction in nineteen seventy seven at a reported cost of around one hundred forty one million dollars.",
+      "img": "kb_bridge_1976",
+      "query": "Francis Scott Key Bridge 1976 newspaper photo"
+    },
+    {
+      "id": "a3",
+      "text": "It became the final link in Baltimore's beltway. And it became the only route across the harbor legally open to trucks carrying hazardous materials. Both tunnels ban them outright.",
+      "img": "kb_bridge_1976",
+      "stat": "THE ONLY HAZMAT ROUTE"
+    },
+    {
+      "id": "a4",
+      "text": "By twenty twenty three, more than twelve million vehicles a year were crossing it, generating fifty six million dollars in tolls for the state of Maryland.",
+      "kinetic": {
+        "count": 12.4,
+        "countLabel": "MILLION VEHICLES A YEAR"
+      }
+    },
+    {
+      "id": "a5",
+      "text": "That same year, the Port of Baltimore it fed became the number one port in the entire United States for automobiles and farm machinery — fifty two million tons of cargo, worth roughly eighty billion dollars.",
+      "stat": "#1 U.S. PORT FOR AUTOS",
+      "img": "kb_bridge_construction"
+    },
+    {
+      "id": "a6",
+      "text": "That port supported around fifteen thousand jobs directly, and close to a hundred forty thousand jobs in the wider economy around it. All of it depended on ships being able to reach open water, under a bridge that was never supposed to be in their way.",
+      "kinetic": {
+        "count": 139180,
+        "countLabel": "JOBS TIED TO THE PORT"
+      }
+    },
+    {
+      "id": "a7",
+      "text": "The bridge itself was what engineers call fracture critical. It had no backup. If one key support failed, there was nothing built into the design to stop the whole structure from coming down with it.",
+      "img": "kb_bridge_construction",
+      "cap": "\"Fracture critical\" — no structural backup."
+    },
+    {
+      "id": "a8",
+      "text": "It was protected by concrete piers called dolphins, wrapped in timber, built to nineteen seventies specifications. In nineteen eighty, a vessel struck one. The fendering held, and stopped it.",
+      "img": "kb_bridge_1976",
+      "query": "Baltimore harbor concrete pier dolphin fender"
+    },
+    {
+      "id": "a9",
+      "text": "That near miss was treated as proof the system worked. When the piers were repaired, they were rebuilt to the exact same nineteen seventies standard. Nobody upgraded them.",
+      "kinetic": {
+        "words": [
+          "Proof",
+          "it",
+          "worked.",
+          "So",
+          "nobody",
+          "changed",
+          "it."
+        ]
+      }
+    },
+    {
+      "id": "a10",
+      "text": "Here is why that mattered so much. On May ninth, nineteen eighty, a sudden squall knocked out the radar on a phosphate freighter called the Summit Venture, in Tampa Bay, Florida.",
+      "img": "kb_bridge_construction",
+      "query": "Sunshine Skyway Bridge collapse 1980"
+    },
+    {
+      "id": "a11",
+      "text": "Blind, the freighter struck a support column of the old Sunshine Skyway Bridge. Twelve hundred feet of it came down. Thirty five people died — twenty six of them on a Greyhound bus that plunged with six vehicles into the bay below.",
+      "stat": "SUNSHINE SKYWAY, 1980: 35 DEAD",
+      "img": "kb_bridge_construction"
+    },
+    {
+      "id": "a12",
+      "text": "That disaster is the real reason the shipping and engineering industries finally wrote a formal standard, in nineteen ninety one, for testing whether a bridge could survive being struck by a modern ship.",
+      "cap": "The real origin of the 1991 vessel-strike standard.",
+      "img": "kb_bridge_construction"
+    },
+    {
+      "id": "a13",
+      "text": "The Key Bridge was already fourteen years old by then. It was never required to be tested against a standard written to prevent the exact kind of disaster that was about to happen to it anyway.",
+      "img": "kb_bridge_construction",
+      "cap": "Built 1977. Standard adopted 1991. Never retested."
+    },
+    {
+      "id": "a14",
+      "text": "After the twenty twenty four collapse, the National Transportation Safety Board ran the numbers on the Key Bridge anyway. What they found was not close.",
+      "exhibit": true,
+      "img": "ex_ntsb_report_cover",
+      "source": "NTSB Marine Investigation Report MIR-25-40"
+    },
+    {
+      "id": "a15",
+      "text": "The bridge's calculated risk of collapse from a ship strike was nearly thirty times higher than what today's engineers consider acceptable. And the state of Maryland had never once run that calculation on its own bridge.",
+      "stat": "30x THE ACCEPTABLE RISK",
+      "img": "ex_ntsb_report_cover"
+    },
+    {
+      "id": "a16",
+      "text": "It gets worse. The same investigators identified sixty eight other American bridges, in nineteen states, built the same way, before the same standard existed. Most of them have never been assessed either.",
+      "kinetic": {
+        "count": 68,
+        "countLabel": "OTHER BRIDGES, UNTESTED",
+        "sub": "Golden Gate. Chesapeake Bay. Verrazzano-Narrows."
+      }
+    },
+    {
+      "id": "c2",
+      "text": "Chapter two. The ship.",
+      "chapter": "2 — THE SHIP",
+      "img": "kb_dali_ship"
+    },
+    {
+      "id": "b1",
+      "text": "The M-V Dali. Nine hundred forty seven feet long. Built in South Korea in twenty fourteen, at the Hyundai Heavy Industries yard in Ulsan, and delivered to its first owner in March of twenty fifteen.",
+      "img": "kb_dali_ship",
+      "query": "MV Dali container ship"
+    },
+    {
+      "id": "b2",
+      "text": "For its first year at sea, it belonged to a Greek shipping company, under different management entirely. That changed in October of twenty sixteen.",
+      "img": "kb_dali_ship"
+    },
+    {
+      "id": "b3",
+      "text": "The ship was sold to a Singapore company called Grace Ocean, and placed under the technical management of another Singapore company: Synergy Marine. It was reflagged to Singapore, and stayed under that same ownership through the night of the collapse.",
+      "img": "kb_dali_ship",
+      "cap": "Owner: Grace Ocean. Manager: Synergy Marine."
+    },
+    {
+      "id": "b4",
+      "text": "The Dali did not belong to Maersk, the shipping giant whose containers it was carrying. Maersk was only the charterer — a customer renting cargo space on someone else's ship, with no role in operating it.",
+      "cap": "Maersk chartered it. Maersk did not own or run it.",
+      "img": "kb_dali_ship"
+    },
+    {
+      "id": "b5",
+      "text": "This was not the ship's first accident. In July of twenty sixteen, while leaving port in Antwerp, Belgium, in good weather, it struck a berth wall while unmooring. The stern was damaged. No one was hurt, nothing spilled. Investigators pointed to error on the bridge.",
+      "img": "kb_dali_ship",
+      "query": "Antwerp port cargo ship berth"
+    },
+    {
+      "id": "b6",
+      "text": "By twenty twenty four, the Dali had been boarded for port inspections at least twenty seven times since entering service. Twice, inspectors found something wrong. Both times it was a minor deficiency, fixed before the ship sailed. It was never once detained.",
+      "stat": "27 INSPECTIONS. NEVER DETAINED.",
+      "img": "kb_dali_ship"
+    },
+    {
+      "id": "b7",
+      "text": "The most recent deficiency, found in June of twenty twenty three at a port call in Chile, was a faulty fuel pressure monitoring gauge. It would not be the last time fuel pressure on this ship mattered.",
+      "img": "kb_dali_ship"
+    },
+    {
+      "id": "b8",
+      "text": "The U.S. Coast Guard itself inspected the Dali in September of twenty twenty three. It found nothing wrong at all. Separately, Singapore's own Maritime and Port Authority later confirmed the ship's statutory certificates were valid, and that it had cooperated fully with the Coast Guard's investigation.",
+      "img": "kb_dali_ship"
+    },
+    {
+      "id": "b9",
+      "text": "On paper, this was a normal ship, with a normal ownership structure, that looked fine every single time anyone actually checked.",
+      "kinetic": {
+        "words": [
+          "On",
+          "paper,",
+          "it",
+          "looked",
+          "fine."
+        ]
+      }
+    },
+    {
+      "id": "b10",
+      "text": "Just after one in the morning on March twenty sixth, twenty twenty four, the Dali left the Port of Baltimore, bound for Colombo, Sri Lanka. A twenty seven day voyage. Roughly forty seven hundred containers on board, dozens of them carrying cargo classified as hazardous.",
+      "video": "keybridge_dundalk_timestamp.mp4",
+      "camera": "drift"
+    },
+    {
+      "id": "b11",
+      "text": "It never made it out of the harbor.",
+      "img": "kb_dali_ship",
+      "extraHold": 10
+    },
+    {
+      "id": "c3",
+      "text": "Chapter three. Four minutes and nine seconds.",
+      "chapter": "3 — FOUR MINUTES\nAND NINE SECONDS",
+      "video": "keybridge_precollapse_transit.mp4"
+    },
+    {
+      "id": "n1",
+      "text": "Everything that happened next comes from the Dali's own voyage data recorder — the ship's version of a black box. Federal investigators reconstructed it down to the second.",
+      "exhibit": true,
+      "img": "ex_ntsb_report_cover",
+      "source": "NTSB Appendix C — Voyage Timeline"
+    },
+    {
+      "id": "n2",
+      "text": "One twenty four in the morning. The recorder shows the Dali holding a true heading of one hundred forty one degrees, moving at about eight knots. Nothing unusual. Then, at one twenty four fifty nine, the ship's electrical system automatically switches power sources — and the alarms start.",
+      "stat": "01:24 — HEADING 141°, 8 KNOTS",
+      "img": "kb_wiring_diagram"
+    },
+    {
+      "id": "n3",
+      "text": "One twenty five and zero seconds. The Dali is six tenths of a mile from the bridge when the lights go out completely.",
+      "stat": "0125:00 — FIRST BLACKOUT",
+      "img": "kb_dali_ship"
+    },
+    {
+      "id": "n4",
+      "text": "A single wire, inside the ship's main electrical switchboard, had come loose. Not from damage. From how it was installed in the first place.",
+      "img": "kb_wiring_diagram",
+      "query": "electrical switchboard wire terminal ship"
+    },
+    {
+      "id": "n5",
+      "text": "The wire had a label wrapped around it — a heat shrunk plastic sleeve identifying which circuit it belonged to. That label was wrapped too far down the wire. It covered the metal collar that was supposed to lock into the terminal block underneath it.",
+      "kinetic": {
+        "words": [
+          "One",
+          "wire.",
+          "Wrapped",
+          "wrong."
+        ]
+      }
+    },
+    {
+      "id": "n6",
+      "text": "It never fully seated. And for who knows how long, it sat there, vibrating loose a little more with every mile the ship sailed. Investigators later noted that routine infrared inspection could have caught it. Nobody had run one. That night, the wire finally let go.",
+      "img": "kb_wiring_diagram"
+    },
+    {
+      "id": "n7",
+      "text": "When it disconnected, a breaker tripped that it was never supposed to trip. Steering pumps died. The main engine shut down eight seconds later. Most of the ship's lights went dark.",
+      "stat": "STEERING GONE. ENGINE GONE.",
+      "img": "kb_wiring_diagram"
+    },
+    {
+      "id": "n8",
+      "text": "Fifty eight seconds later, low voltage power comes back on. The crew has restored some control. But the ship is still coasting, dead in the water, drifting toward the bridge.",
+      "img": "kb_dali_ship"
+    },
+    {
+      "id": "n9",
+      "text": "One twenty five fifty nine. The senior harbor pilot picks up the phone and calls the pilots' shoreside dispatcher. Seven seconds. He says the ship has lost steering, it's headed for the Key Bridge, and someone needs to close it. Right now.",
+      "cap": "The seven-second call that saved the most lives.",
+      "img": "kb_dali_ship"
+    },
+    {
+      "id": "n10",
+      "text": "This call — not a radio broadcast, not an alarm, a seven second phone call — is the single action that federal investigators would later credit with preventing an even greater loss of life that night.",
+      "img": "kb_bridge_construction"
+    },
+    {
+      "id": "n11",
+      "text": "One twenty six thirteen. The pilot orders the rudder hard to port, trying to steer the dead ship away from the pier. One twenty six thirty nine. They call for a tugboat, the Eric McAllister. It's three miles away. It will not get there in time.",
+      "stat": "TUG: 3 MILES AWAY",
+      "img": "kb_dali_ship"
+    },
+    {
+      "id": "n12",
+      "text": "One twenty seven and two seconds. With the bridge less than two ship lengths away, the senior pilot gives one more order: drop the anchor.",
+      "img": "kb_dali_ship",
+      "cap": "\"Port anchor.\""
+    },
+    {
+      "id": "n13",
+      "text": "He would later tell investigators he knew it would not stop the ship. He hoped, at best, it might nudge the bow a few degrees off course. It was the only card he had left to play, and he knew it.",
+      "kinetic": {
+        "words": [
+          "He",
+          "knew",
+          "it",
+          "wouldn't",
+          "stop",
+          "it."
+        ]
+      }
+    },
+    {
+      "id": "n14",
+      "text": "Two seconds later, at one twenty seven and four seconds, the ship loses power again. A second blackout. A completely different cause than the first.",
+      "stat": "0127:04 — SECOND BLACKOUT",
+      "img": "kb_wiring_diagram"
+    },
+    {
+      "id": "n15",
+      "text": "Two of the ship's four generators were being fed fuel through a pump that was never designed to run them continuously. When the fuel pressure dropped, the system disconnected both generators, and blacked out the entire vessel a second time.",
+      "img": "kb_wiring_diagram",
+      "cap": "A modified fuel pump. Not the same failure as the wire."
+    },
+    {
+      "id": "n16",
+      "text": "Remember that detail. A fuel pump doing a job it wasn't built for. It will come up again — in a federal courtroom, two years from now.",
+      "kinetic": {
+        "words": [
+          "Remember",
+          "that",
+          "detail."
+        ]
+      }
+    },
+    {
+      "id": "n17",
+      "text": "One twenty seven eleven. The pilot orders a radio call to warn other ships in the water. At one twenty seven twenty five, it goes out over the marine radio: a sécurité call — a safety warning, not a distress signal. There was no mayday broadcast before the bridge came down.",
+      "cap": "A sécurité call. Not a mayday.",
+      "img": "kb_dali_ship"
+    },
+    {
+      "id": "n18",
+      "text": "One twenty seven thirty six. Power comes back a second time. Ninety three seconds before impact. At one twenty seven forty six, the pilot orders the bow thruster to full power, hoping it can still swing the bow. It cannot; the ship is moving too fast for it to have any real effect.",
+      "stat": "0127:36 — 93 SECONDS LEFT",
+      "img": "kb_dali_ship"
+    },
+    {
+      "id": "n19",
+      "text": "One twenty eight ten. The bow finally drifts out of the shipping channel and begins grounding in the mud of the riverbed. It does not matter anymore. The ship has no room left to recover.",
+      "img": "kb_dali_ship"
+    },
+    {
+      "id": "n20",
+      "text": "One twenty eight twenty one. On the bridge itself, Maryland Transportation Authority police officers — already stationed at both ends that night for an unrelated road project — get the word and act immediately.",
+      "img": "kb_mta_officers",
+      "camera": "push"
+    },
+    {
+      "id": "n21",
+      "text": "\"Hold all traffic on the Key Bridge. There's a ship approaching that just lost their steering. So until they get that under control, we gotta stop all traffic.\" Real words, from a real radio call, at roughly one twenty seven that morning.",
+      "cap": "Sgt. Paul Pastorek, Cpl. Jeremy Herbert, Officer Garry Kirts.",
+      "img": "kb_mta_officers"
+    },
+    {
+      "id": "n22",
+      "text": "One twenty eight twenty two. Both ends of the bridge are closed to vehicles. Forty eight seconds before impact.",
+      "stat": "TRAFFIC STOPPED: 0128:21",
+      "img": "kb_mta_officers"
+    },
+    {
+      "id": "n23",
+      "text": "One twenty eight fifty nine. Ten seconds before the ship reaches the bridge, the anchor chain is finally heard running out on the recorder. It is far too late to matter.",
+      "img": "kb_dali_ship"
+    },
+    {
+      "id": "n24",
+      "text": "One twenty nine and nine seconds. The Dali's bow strikes Pier seventeen.",
+      "video": "keybridge_impact_dockeast.mp4",
+      "cap": "IMPACT — 0129:09"
+    },
+    {
+      "id": "n25",
+      "text": "Six seconds later, span eighteen begins to fall. Then the pier itself gives way. Then span twenty. Then twenty one. Then twenty two — with a bridge inspector's own vehicle still sitting on top of it.",
+      "exhibit": true,
+      "img": "ex_ntsb_postcollapse_dalibow",
+      "source": "NTSB — Francis Scott Key Bridge Post-Collapse Damage",
+      "highlight": true
+    },
+    {
+      "id": "n26",
+      "text": "Total time, from the very first blackout to the moment of impact: four minutes and nine seconds.",
+      "kinetic": {
+        "count": 4.15,
+        "countLabel": "MINUTES, START TO IMPACT"
+      }
+    },
+    {
+      "id": "c4",
+      "text": "Chapter four. Reopening a harbor that was completely sealed shut.",
+      "chapter": "4 — REOPENING A HARBOR\nTHAT WAS SEALED SHUT",
+      "video": "keybridge_impact_dockeast.mp4"
+    },
+    {
+      "id": "r1",
+      "text": "Within hours, the mission on the water changed from search and rescue to recovery. But there was a second, much bigger problem forming underneath the surface.",
+      "img": "ex_ntsb_damage_pier18",
+      "query": "US Coast Guard Key Bridge debris removal"
+    },
+    {
+      "id": "r2",
+      "text": "Thousands of tons of steel truss now sat across the bottom of one of the busiest shipping channels on the East Coast. The Port of Baltimore — the country's number one port for automobiles — was completely sealed.",
+      "img": "ex_ntsb_damage_pier18"
+    },
+    {
+      "id": "r3",
+      "text": "More than fifty salvage divers went into that water. Twelve cranes were brought in to start cutting the wreckage into pieces small enough to lift out.",
+      "img": "ex_ntsb_damage_dalibow",
+      "query": "US Army Corps of Engineers Key Bridge salvage crane"
+    },
+    {
+      "id": "r4",
+      "text": "Six heavy lift crane barges worked the site, including the Chesapeake 1000 — the largest crane barge on the entire East Coast, nearly two hundred feet long, capable of lifting a thousand tons in a single pull.",
+      "stat": "CHESAPEAKE 1000: 1,000-TON LIFT CAPACITY",
+      "img": "ex_ntsb_damage_dalibow"
+    },
+    {
+      "id": "r5",
+      "text": "The first goal was never reopening the bridge. It was smaller than that: just cutting one path back into the harbor, wide enough for something, anything, to get through.",
+      "kinetic": {
+        "words": [
+          "First,",
+          "just",
+          "one",
+          "path",
+          "through."
+        ]
+      }
+    },
+    {
+      "id": "r6",
+      "text": "On April fifth, twenty twenty four, President Biden flew over the wreckage by helicopter, then came down to meet the responders working it. \"Your nation has your back,\" he told them.",
+      "img": "ex_ntsb_damage_pier18",
+      "cap": "President Biden, site visit, April 5, 2024."
+    },
+    {
+      "id": "r7",
+      "text": "By the end of that same month, engineers had cut a temporary channel two hundred eighty feet wide. By the end of May — almost exactly two months after the collapse — the full, permanent shipping channel, seven hundred feet wide and fifty feet deep, was open again.",
+      "stat": "FULL CHANNEL REOPENED: LATE MAY 2024",
+      "img": "ex_ntsb_damage_pier18"
+    },
+    {
+      "id": "r8",
+      "text": "The port came back to life in about two months. The bridge itself would take years. And the deeper question — not how to clear the water, but why any of this happened at all — would take even longer than that.",
+      "img": "kb_bridge_construction",
+      "extraHold": 10
+    },
+    {
+      "id": "c5",
+      "text": "Chapter five. The forty eight seconds that didn't reach everyone.",
+      "chapter": "5 — THE 48 SECONDS THAT\nDIDN'T REACH EVERYONE",
+      "img": "kb_construction_crew"
+    },
+    {
+      "id": "w1",
+      "text": "The same fast thinking that stopped vehicle traffic forty eight seconds before impact never reached everyone who was actually on the bridge that night.",
+      "img": "kb_construction_crew",
+      "query": "highway construction crew night pothole repair"
+    },
+    {
+      "id": "w2",
+      "text": "A seven person paving crew from Brawner Builders was out that night, filling potholes. An eighth man, a state bridge inspector working for a separate contractor, was walking the span doing his own inspection.",
+      "img": "kb_construction_crew"
+    },
+    {
+      "id": "w3",
+      "text": "They had their own radio channel — separate from the police, separate from the ship, separate from everything moving on the water below them. On that channel, in the minutes before the collapse, there was exactly one relevant exchange.",
+      "kinetic": {
+        "words": [
+          "One",
+          "radio",
+          "exchange.",
+          "That's",
+          "all."
+        ]
+      }
+    },
+    {
+      "id": "w4",
+      "text": "One worker asked what was going on. Another answered: \"They're just holding traffic because a ship lost its steering, that's all.\"",
+      "cap": "\"They're just holding traffic... that's all.\"",
+      "img": "kb_construction_crew"
+    },
+    {
+      "id": "w5",
+      "text": "The bridge collapsed less than thirty seconds later. No evacuation order ever went out on that channel.",
+      "img": "kb_bridge_construction",
+      "extraHold": 10
+    },
+    {
+      "id": "w6",
+      "text": "The federal investigation would later state it plainly: the lack of effective, immediate communication to the highway workers was itself a contributing cause of the six deaths that followed — alongside the bridge's own structural vulnerability.",
+      "exhibit": true,
+      "img": "ex_ntsb_report_cover",
+      "source": "NTSB MIR-25-40, Probable Cause"
+    },
+    {
+      "id": "w7",
+      "text": "Within hours, Governor Wes Moore stood in front of cameras and declared a state of emergency. \"We are thankful for the brave men and women who are carrying out efforts to rescue those involved,\" he said, \"and pray for everyone's safety.\"",
+      "img": "kb_bridge_construction",
+      "cap": "Gov. Wes Moore, March 26, 2024."
+    },
+    {
+      "id": "w8",
+      "text": "One man on the span that night, road inspector Damon Davis, was walking its length when the ship struck. He ran. He reached the nearest surviving section of deck just as the rest of the bridge gave way beneath his own car.",
+      "img": "kb_construction_crew",
+      "cap": "\"He just kept running for his life.\""
+    },
+    {
+      "id": "w9",
+      "text": "A crew member named Moisés Díaz had been scheduled for that same overnight shift. A last minute change may have kept him off the section that fell. He has since called the six men who died people he saw as family.",
+      "img": "kb_construction_crew"
+    },
+    {
+      "id": "w10",
+      "text": "The six men who did not make it off in time were not just names on an incident report. They had lives, in this city, that the bridge's collapse cut off in the middle of an ordinary work night.",
+      "img": "kb_memorial",
+      "query": "Key Bridge memorial ceremony 2025"
+    },
+    {
+      "id": "w11",
+      "text": "José Mynor López. Thirty seven years old. Born in Camotán, Guatemala. He lived in Dundalk, Maryland, and left behind a wife and four children.",
+      "img": "kb_memorial"
+    },
+    {
+      "id": "w12",
+      "text": "Alejandro Hernández Fuentes. Thirty five. From Mexico, living in Baltimore, married, with four young children of his own.",
+      "img": "kb_memorial"
+    },
+    {
+      "id": "w13",
+      "text": "Dorlian Ronial Castillo Cabrera. Twenty six. From Guatemala, also living in Dundalk.",
+      "img": "kb_memorial"
+    },
+    {
+      "id": "w14",
+      "text": "Maynor Yassir Suazo Sandoval. Thirty eight. From Azacualpa, Honduras. He was a father of two — a teenage son, and a six year old daughter.",
+      "img": "kb_memorial"
+    },
+    {
+      "id": "w15",
+      "text": "Carlos Daniel Hernández Estrella. Twenty four years old. Born in Michoacán, Mexico.",
+      "img": "kb_memorial"
+    },
+    {
+      "id": "w16",
+      "text": "Miguel Ángel Luna Gonzalez. Forty nine. From El Salvador, living in Glen Burnie, Maryland. A father of six.",
+      "img": "kb_memorial"
+    },
+    {
+      "id": "w17",
+      "text": "Four countries. Six men. Between them, they left behind wives, husbands, and more than a dozen children.",
+      "cap": "Four countries. One crew.",
+      "img": "kb_memorial"
+    },
+    {
+      "id": "w18",
+      "text": "One crew member, Julio Cervantes, fell into the river and swam to shore, despite reportedly not knowing how to swim. He is one of only two men on that bridge who made it off alive.",
+      "img": "kb_memorial"
+    },
+    {
+      "id": "w19",
+      "text": "One year later, on the anniversary, Governor Moore returned to the water's edge. \"We also remember the heroes,\" he said. \"In that moment, we showed what it means to be Maryland Tough and Baltimore Strong.\"",
+      "img": "kb_memorial",
+      "camera": "slow",
+      "cap": "Gov. Wes Moore, March 2025."
+    },
+    {
+      "id": "c6",
+      "text": "Chapter six. What the investigation actually found.",
+      "chapter": "6 — WHAT THE INVESTIGATION\nACTUALLY FOUND",
+      "img": "ex_ntsb_report_cover"
+    },
+    {
+      "id": "i1",
+      "text": "March twentieth, twenty twenty five. Almost a year before the final report, NTSB Chair Jennifer Homendy calls an urgent press conference of her own — because the risk was too serious to wait for.",
+      "exhibit": true,
+      "img": "ex_ntsb_report_cover",
+      "source": "NTSB, urgent recommendation, March 20, 2025"
+    },
+    {
+      "id": "i2",
+      "text": "\"We need action,\" she said. \"Public safety depends on it.\" Her point: if Maryland had run the vulnerability assessment it never ran, she said plainly, the collapse could have been prevented.",
+      "cap": "\"If [MDTA] had done the assessment, the collapse could have been prevented.\"",
+      "img": "ex_ntsb_report_cover"
+    },
+    {
+      "id": "i3",
+      "text": "Eight months later, on November eighteenth, twenty twenty five, the board released its full final report. Two hundred fifty nine pages.",
+      "exhibit": true,
+      "img": "ex_ntsb_report_cover",
+      "source": "NTSB Marine Investigation Report MIR-25-40, Nov. 18, 2025"
+    },
+    {
+      "id": "i4",
+      "text": "Homendy opened that meeting with a line that stuck with reporters in the room. \"The fact is,\" she said, \"we shouldn't be here today; this tragedy should've never occurred.\"",
+      "cap": "\"This tragedy should've never occurred.\"",
+      "img": "ex_ntsb_report_cover"
+    },
+    {
+      "id": "i5",
+      "text": "She had her own way of explaining just how hard it was to find one loose wire on a ship that size. \"The Dali is almost a thousand feet, and it's as long as the Eiffel Tower,\" she said. \"Locating a single wire that is loose among thousands of wires is like looking for a loose bolt in the Eiffel Tower.\"",
+      "img": "ex_ntsb_report_cover",
+      "cap": "\"...like looking for a loose bolt in the Eiffel Tower.\""
+    },
+    {
+      "id": "i6",
+      "text": "She also asked, on the record, why — a year and a half after the collapse — Synergy still hadn't updated its own policies to tell its crews to stop relying on that backup fuel pump.",
+      "kinetic": {
+        "words": [
+          "\"Why",
+          "hasn't",
+          "it",
+          "changed",
+          "yet?\""
+        ]
+      }
+    },
+    {
+      "id": "i7",
+      "text": "The board's official conclusion, in writing: the probable cause was a loss of electrical power due to a loose signal wire connection, caused by improperly installed wire label banding, that cost the Dali its propulsion and steering close to the bridge.",
+      "cap": "\"A loose signal wire connection... improperly installed.\"",
+      "img": "ex_ntsb_report_cover"
+    },
+    {
+      "id": "i8",
+      "text": "The board went further. It found that the lack of any real protection against a ship strike contributed to the bridge's collapse. And that the lack of fast communication to the road crew contributed to the loss of life.",
+      "img": "ex_ntsb_damage_pier18"
+    },
+    {
+      "id": "i9",
+      "text": "One mechanical fault. One design gap from decades earlier. One communication failure in the final minute. Three separate causes, all named in the same official finding.",
+      "kinetic": {
+        "words": [
+          "Three",
+          "causes.",
+          "One",
+          "night."
+        ]
+      }
+    },
+    {
+      "id": "i10",
+      "text": "The physical damage: eighteen million dollars to the ship itself. Between four point three and five point two billion dollars to rebuild the bridge.",
+      "stat": "$18M SHIP. UP TO $5.2B BRIDGE.",
+      "img": "ex_ntsb_damage_pier18"
+    },
+    {
+      "id": "i11",
+      "text": "The bridge is not expected to reopen until the end of twenty thirty. More than thirty four thousand vehicles a day are still being permanently rerouted around a harbor that used to carry them straight across.",
+      "img": "ex_ntsb_damage_pier18"
+    },
+    {
+      "id": "i12",
+      "text": "And the sixty eight other American bridges the board flagged as similarly untested? As of this recording, most of them still haven't been assessed.",
+      "stat": "68 BRIDGES. STILL WAITING.",
+      "img": "ex_ntsb_report_cover"
+    },
+    {
+      "id": "i13",
+      "text": "That is the settled part of this story. The wire, the design gap, the communication failure — a federal agency spent twenty months proving exactly what went wrong, and published every page of it for anyone to read.",
+      "img": "ex_ntsb_report_cover"
+    },
+    {
+      "id": "i14",
+      "text": "What that report could not settle — because it was never its job to settle — was who, if anyone, should be held criminally responsible for it.",
+      "kinetic": {
+        "words": [
+          "That",
+          "part",
+          "wasn't",
+          "settled."
+        ]
+      },
+      "extraHold": 10
+    },
+    {
+      "id": "c7",
+      "text": "Chapter seven. The case.",
+      "chapter": "7 — THE CASE",
+      "img": "ex_doj_indictment"
+    },
+    {
+      "id": "j1",
+      "text": "May twelfth, twenty twenty six. Two years and seven weeks after the collapse. Federal officials gather for a press conference aboard a ship docked in southeast Baltimore, with the wreckage of the bridge visible in the water behind them.",
+      "img": "ex_doj_indictment",
+      "cap": "Announced with the wreckage still visible behind them."
+    },
+    {
+      "id": "j2",
+      "text": "There, the United States Department of Justice unseals an eighteen count federal indictment.",
+      "exhibit": true,
+      "img": "ex_doj_indictment",
+      "source": "U.S. DOJ, Office of Public Affairs, May 12, 2026",
+      "highlight": true
+    },
+    {
+      "id": "j3",
+      "text": "Named: Synergy Marine, the company that technically managed the Dali. A related firm, Synergy Maritime. And one individual — a technical superintendent named Radhakrishnan Karthik Nair.",
+      "img": "ex_doj_indictment",
+      "cap": "Named, not convicted."
+    },
+    {
+      "id": "j4",
+      "text": "To be clear about what this is. An indictment is an accusation, brought by prosecutors. Nothing in it has been proven in court. Mister Nair has pleaded nothing, because he has never once appeared in an American courtroom.",
+      "kinetic": {
+        "words": [
+          "Accused.",
+          "Not",
+          "convicted."
+        ]
+      }
+    },
+    {
+      "id": "j5",
+      "text": "The charges: conspiracy to defraud the United States. Causing the deaths of six construction workers. Failing to warn the Coast Guard of a known hazard. Obstructing the federal investigation. Lying to investigators.",
+      "img": "ex_doj_indictment"
+    },
+    {
+      "id": "j6",
+      "text": "The two Synergy companies face something else too: misdemeanor environmental charges, for allegedly discharging containers, oil, and bridge debris into the Patapsco River. The Environmental Protection Agency's administrator put it bluntly: no foreign company should profit by poisoning American communities.",
+      "cap": "\"No foreign company should profit by poisoning American communities.\"",
+      "img": "ex_doj_indictment"
+    },
+    {
+      "id": "j7",
+      "text": "At the center of the criminal case is that detail from earlier — the fuel pump.",
+      "kinetic": {
+        "words": [
+          "The",
+          "fuel",
+          "pump.",
+          "Again."
+        ]
+      }
+    },
+    {
+      "id": "j8",
+      "text": "Prosecutors allege that since at least twenty twenty, as a cost cutting measure, Synergy had modified the Dali — and its sister ships — to feed two of its four generators through an unapproved flushing pump, instead of the proper fuel supply system.",
+      "img": "kb_wiring_diagram",
+      "cap": "ALLEGED — not yet proven at trial."
+    },
+    {
+      "id": "j9",
+      "text": "That pump, prosecutors say, could not automatically restart itself after a blackout. And that, they allege, is exactly why the second power loss turned fatal — the ship simply ran out of time to recover before it reached the bridge.",
+      "img": "kb_dali_ship"
+    },
+    {
+      "id": "j10",
+      "text": "Prosecutors further allege that Mister Nair personally told federal investigators he didn't know the flushing pump was being used that way. They say that statement was false.",
+      "cap": "ALLEGED false statement — untested at trial.",
+      "img": "ex_doj_indictment"
+    },
+    {
+      "id": "j11",
+      "text": "And they allege that Synergy employees fabricated Coast Guard safety paperwork, to keep the modification hidden from the one agency whose entire job was to catch it before it sailed.",
+      "img": "ex_doj_indictment"
+    },
+    {
+      "id": "j12",
+      "text": "The indictment puts the total economic loss at, quote, at least five billion dollars. Under federal fraud statutes, that number could theoretically expose the defendants to fines twice that size. Nobody has been ordered to pay anything. Not yet.",
+      "stat": "ALLEGED LOSS: $5B+",
+      "img": "ex_doj_indictment"
+    },
+    {
+      "id": "j13",
+      "text": "As for Mister Nair himself: he is believed to be in India. He has not been arrested. He is not out on bail, because he was never in custody to begin with. Prosecutors have said there is, quote, no concrete progress bringing him to Baltimore.",
+      "cap": "Presumed innocent. Not in U.S. custody.",
+      "img": "ex_doj_indictment"
+    },
+    {
+      "id": "j14",
+      "text": "By July of twenty twenty six, Synergy's own defense attorneys were asking the court to sever Nair from the trial entirely — arguing it's genuinely uncertain he will ever set foot in an American courtroom to face it.",
+      "img": "ex_doj_indictment"
+    },
+    {
+      "id": "j15",
+      "text": "A month after the main indictment, in June twenty twenty six, a fourth man was charged separately: the Dali's chief engineer, Karthikeyan Deenadayalan — who, unlike Nair, had stayed in the United States since the night of the collapse.",
+      "img": "ex_doj_indictment"
+    },
+    {
+      "id": "j16",
+      "text": "He was charged by a simpler filing than a grand jury indictment, a legal signal that often points toward a negotiated resolution, not a fight in court.",
+      "kinetic": {
+        "words": [
+          "A",
+          "fourth",
+          "man.",
+          "A",
+          "different",
+          "path."
+        ]
+      }
+    },
+    {
+      "id": "j17",
+      "text": "Synergy's own public response was sharp: it said DOJ was, quote, criminalising a tragic accident, arguing the charges are inconsistent with NTSB's own finding that the blackout made the outcome effectively unavoidable once it began. A senior justice department official called the collapse, quote, a preventable tragedy of enormous consequence.",
+      "cap": "Synergy: \"criminalizing a tragic accident.\"",
+      "img": "ex_doj_indictment"
+    },
+    {
+      "id": "j18",
+      "text": "Governor Moore's own reaction was direct: \"We welcome today's indictments,\" he said, \"and remain committed to ensuring that all those responsible... are held to account.\"",
+      "img": "ex_doj_indictment",
+      "cap": "Gov. Wes Moore, May 12, 2026."
+    },
+    {
+      "id": "j19",
+      "text": "If it goes to trial, that trial is scheduled to run from October through November of twenty twenty seven — three and a half years after the bridge came down.",
+      "stat": "TRIAL DATE: OCTOBER 2027",
+      "img": "ex_doj_indictment"
+    },
+    {
+      "id": "c8",
+      "text": "Chapter eight. Everyone else who paid for this.",
+      "chapter": "8 — EVERYONE ELSE\nWHO PAID FOR THIS",
+      "img": "kb_bridge_construction"
+    },
+    {
+      "id": "m1",
+      "text": "The criminal case is not the only track moving through the courts. On the very same day the indictment was unsealed, Maryland's Attorney General announced something else entirely.",
+      "img": "ex_doj_indictment"
+    },
+    {
+      "id": "m2",
+      "text": "A two point two five billion dollar civil settlement between the state of Maryland and the ship's owner and operator — more than fifty times the roughly forty four million dollars those companies had originally tried to cap their total liability at, under a maritime law dating back to eighteen fifty one.",
+      "kinetic": {
+        "count": 2.25,
+        "countLabel": "BILLION DOLLAR STATE SETTLEMENT"
+      }
+    },
+    {
+      "id": "m3",
+      "text": "That is a civil payment to the state. It is a completely separate track from the criminal charges — and separate again from what happened with the victims' families.",
+      "cap": "Three separate tracks. Don't confuse them.",
+      "img": "ex_doj_indictment"
+    },
+    {
+      "id": "m4",
+      "text": "In late May of twenty twenty six, Synergy and Grace Ocean reached confidential settlements with the families of all six workers, and with survivor Julio Cervantes. The amounts were never made public.",
+      "img": "kb_memorial"
+    },
+    {
+      "id": "m5",
+      "text": "The families' attorney called the outcome, quote, bittersweet — because, he said, they won't have the opportunity to experience the seasons of life with their husbands, fathers, brothers, and sons.",
+      "cap": "\"...the seasons of life with their husbands, fathers, brothers, and sons.\"",
+      "img": "kb_memorial"
+    },
+    {
+      "id": "m6",
+      "text": "Those same settlements caused a separate federal civil trial — over the city of Baltimore's own economic losses — to be paused just days before it was set to begin. Some of those remaining claims may run into a nearly hundred year old Supreme Court precedent that limits who can sue for pure economic loss at sea. It still has not been resolved.",
+      "img": "kb_bridge_construction"
+    },
+    {
+      "id": "m7",
+      "text": "But it was never just the state, or the city, that paid for this. For two years, the loss of that bridge reached into ordinary businesses that had nothing to do with any of it.",
+      "kinetic": {
+        "words": [
+          "It",
+          "wasn't",
+          "just",
+          "the",
+          "state."
+        ]
+      }
+    },
+    {
+      "id": "m8",
+      "text": "Bull's Trucking Company watched its volume drop from as many as four thousand trucks a day to zero, overnight. Other haulers rerouted through the harbor tunnels or around the Beltway. The American Trucking Associations estimated forty nine hundred trucks a day, carrying twenty eight billion dollars a year in goods, suddenly needed a different way through.",
+      "img": "kb_bridge_construction",
+      "query": "trucking highway rerouting"
+    },
+    {
+      "id": "m9",
+      "text": "One local trucker, Robert Lovett, ended up taking a twenty five thousand dollar federal disaster loan just to keep his company running.",
+      "cap": "A $25,000 emergency loan, for one trucking company.",
+      "img": "kb_bridge_construction"
+    },
+    {
+      "id": "m10",
+      "text": "Down on the water, the crab houses felt it too. \"We're not getting enough crabs,\" said Stacey Guzman, who owns Chris' Seafood, as Gulf prices spiked thirty four dollars a box that same week.",
+      "img": "kb_memorial",
+      "cap": "\"We're not getting enough crabs.\""
+    },
+    {
+      "id": "m11",
+      "text": "Costas Inn, a crab house that has been open since the bridge was first being built in the nineteen seventies — a place that once fed the very steelworkers who put the bridge up — stayed open anyway, and turned down a disaster loan.",
+      "img": "kb_bridge_construction",
+      "camera": "slow"
+    },
+    {
+      "id": "m12",
+      "text": "The people who built it, and the people who fed the people who built it, both outlasted the bridge itself.",
+      "kinetic": {
+        "words": [
+          "Both",
+          "outlasted",
+          "the",
+          "bridge."
+        ]
+      }
+    },
+    {
+      "id": "m13",
+      "text": "The replacement being built now is Maryland's first cable stayed highway bridge — two towers over six hundred feet tall, a main span held up by a hundred forty four steel cables.",
+      "img": "ex_ntsb_damage_pier18",
+      "stat": "MARYLAND'S FIRST CABLE-STAYED BRIDGE"
+    },
+    {
+      "id": "m14",
+      "text": "This time, its piers are being driven as two hundred seventy six concrete filled steel columns, eight feet across, built to the modern vessel collision standard the original bridge never had to meet.",
+      "img": "ex_ntsb_damage_pier18"
+    },
+    {
+      "id": "m15",
+      "text": "But even this project has not gone smoothly. In April of twenty twenty six, the state terminated its main contractor's agreement for the bridge's second phase, after its cost proposal blew past the state's own five billion dollar estimate. As of the most recent reporting, no replacement contractor for that phase has been publicly named.",
+      "stat": "PHASE 2 CONTRACTOR TERMINATED, APRIL 2026",
+      "img": "ex_ntsb_damage_pier18"
+    },
+    {
+      "id": "m16",
+      "text": "Current target for reopening: the end of twenty thirty. On the two year anniversary, Governor Moore said it plainly: \"I plan on being the governor who cut the ribbon to reopen the Francis Scott Key Bridge.\"",
+      "img": "kb_bridge_construction",
+      "cap": "Gov. Wes Moore, March 2026."
+    },
+    {
+      "id": "coda1",
+      "text": "The wire that started all of this probably cost a few dollars. The plastic label wrapped around it cost even less.",
+      "img": "kb_wiring_diagram",
+      "tone": "reflective"
+    },
+    {
+      "id": "coda2",
+      "text": "The bridge won't reopen for years. The criminal trial hasn't started. Federal investigators have gone as far as asking the entire global shipping industry to rewrite its own safety rulebook because of what happened here — a recommendation, not yet an answer.",
+      "img": "ex_ntsb_damage_dalibow",
+      "tone": "reflective"
+    },
+    {
+      "id": "coda3",
+      "text": "And sixty eight other bridges, across nineteen states, are still sitting there, unassessed, exactly the way the Key Bridge was on March twenty fifth, twenty twenty four.",
+      "img": "kb_bridge_construction",
+      "tone": "reflective"
+    },
+    {
+      "id": "coda4",
+      "text": "Somewhere tonight, on one of those sixty eight bridges, cars are crossing over water, on a structure nobody has ever actually tested against a ship exactly like the Dali. That is not a theory. That is the federal government's own list.",
+      "img": "ex_ntsb_report_cover",
+      "tone": "reflective",
+      "extraHold": 15
+    },
+    {
+      "id": "end",
+      "text": "If a single wire wrapped the wrong way brought down an American bridge, wait until you see what a single mislabeled light did to a nuclear reactor control room in Pennsylvania. And if you want more real investigations like this one, subscribe to Black Box Breakdown.",
+      "chapter": "SUBSCRIBE FOR MORE\nREAL INVESTIGATIONS"
+    }
+  ]
+}

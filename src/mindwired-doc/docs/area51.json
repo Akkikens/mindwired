@@ -1,0 +1,285 @@
+{
+  "slug": "area51",
+  "title": "The Declassified Files Behind Area 51",
+  "channel": "mindwired",
+  "niche": "space",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "This is the real aircraft the government built in secret at Area 51. Not aliens. A plane so advanced it flew faster than a bullet, higher than commercial jets could even see.",
+      "video": "sr71_1.mp4",
+      "videoQuery": "SR-71 Blackbird test flight archival NASA",
+      "cap": "The real secret.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h2",
+      "text": "For sixty years, the government refused to even say the name Area 51 out loud.",
+      "stat": "CLASSIFIED SINCE 1955",
+      "video": "sr71_1.mp4",
+      "videoQuery": "SR-71 Blackbird cockpit archival",
+      "cap": "Sixty years of silence.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h3",
+      "text": "Then in 2013, a single declassified document changed everything. Not about aliens. About exactly what was really happening on that base.",
+      "exhibit": true,
+      "img": "ex_cia_doc",
+      "source": "CIA \u00b7 The U-2 and OXCART Programs \u00b7 declassified 2013",
+      "highlight": [
+        0.63,
+        0.19,
+        0.27,
+        0.13
+      ],
+      "cap": "The document that changed everything.",
+      "tone": "shock"
+    },
+    {
+      "id": "h4",
+      "text": "And this year, the Pentagon released a hundred and sixty two more files it had kept secret for decades. This is what's actually in them.",
+      "stat": "2026: 162 NEW FILES RELEASED",
+      "img": "pentagon",
+      "cap": "162 new files, this year.",
+      "tone": "curiosity",
+      "query": "Pentagon building aerial"
+    },
+    {
+      "id": "sting",
+      "sting": true,
+      "text": "You're watching mindwired.",
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "text": "The declassified files behind Area 51.",
+      "chapter": "THE DECLASSIFIED FILES\nBEHIND AREA 51"
+    },
+    {
+      "id": "c1",
+      "text": "Chapter one. The base that officially did not exist.",
+      "chapter": "1 \u2014 THE BASE THAT\nDID NOT EXIST"
+    },
+    {
+      "id": "a1",
+      "text": "Nineteen fifty five. President Eisenhower personally authorizes a secret site in the Nevada desert, at a dry lakebed called Groom Lake.",
+      "img": "groom_lake_sat",
+      "query": "Groom Lake Nevada desert aerial",
+      "stat": "1955: SITE AUTHORIZED",
+      "cap": "Authorized by the president himself.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2",
+      "text": "The mission: build and fly the U-2, a spy plane that could photograph the Soviet Union from seventy thousand feet, above the reach of any weapon that existed.",
+      "video": "sr71_1.mp4",
+      "videoQuery": "U-2 spy plane high altitude archival",
+      "stat": "70,000 FEET",
+      "cap": "Above any weapon on Earth.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a3",
+      "text": "The site sat on a US Geological Survey map grid. Its designation was simple: Area 51.",
+      "kinetic": {
+        "words": [
+          "Area",
+          "51."
+        ]
+      },
+      "extraHold": 16,
+      "tone": "curiosity"
+    },
+    {
+      "id": "a4",
+      "text": "By the nineteen sixties, the base was flying the A-12 Oxcart, an aircraft that could outrun a surface-to-air missile in level flight. It became the SR-71 Blackbird, still one of the fastest aircraft ever built.",
+      "img": "a12_real",
+      "stat": "FASTER THAN A MISSILE",
+      "cap": "Faster than the weapons meant to stop it.",
+      "tone": "confidence"
+    },
+    {
+      "id": "a5",
+      "text": "By the nineteen seventies, it was testing stealth technology, an aircraft shaped specifically to be invisible to radar. This became the F-117 Nighthawk.",
+      "img": "f117",
+      "stat": "INVISIBLE TO RADAR",
+      "cap": "Built to disappear.",
+      "tone": "confidence"
+    },
+    {
+      "id": "a6",
+      "text": "Every one of these programs was real, was eventually declassified, and explains decades of strange lights and impossible aircraft seen over the Nevada desert. None of it involved anything from another planet.",
+      "img": "groom_lake_sat",
+      "cap": "Real aircraft. Real explanation.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c2",
+      "text": "Chapter two. The document the CIA didn't want to release.",
+      "chapter": "2 \u2014 THE DOCUMENT\nTHEY DIDN'T WANT TO RELEASE"
+    },
+    {
+      "id": "b1",
+      "text": "In 2005, researchers at George Washington University filed a public records request for the CIA's own internal history of the U-2 program.",
+      "exhibit": true,
+      "img": "ex_cia_doc",
+      "source": "National Security Archive \u00b7 FOIA request, 2005",
+      "highlight": [
+        0.55,
+        0.02,
+        0.43,
+        0.035
+      ],
+      "cap": "A simple records request.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b2",
+      "text": "In 2002, a version of that same document had already been reviewed. Every single mention of the words Area 51 had been quietly deleted.",
+      "kinetic": {
+        "words": [
+          "Every",
+          "mention.",
+          "Deleted."
+        ]
+      },
+      "extraHold": 18,
+      "tone": "shock"
+    },
+    {
+      "id": "b3",
+      "text": "It took until June of 2013 for the CIA to finally release the uncensored version: a four hundred page official history that used the words Area 51 in an unclassified government document for the first time ever.",
+      "exhibit": true,
+      "img": "ex_cia_doc",
+      "source": "CIA \u00b7 The U-2 and OXCART Programs, 1954-1974 \u00b7 released June 25, 2013",
+      "highlight": [
+        0.63,
+        0.19,
+        0.27,
+        0.13
+      ],
+      "stat": "JUNE 25, 2013",
+      "cap": "The first time, ever.",
+      "tone": "shock"
+    },
+    {
+      "id": "b4",
+      "text": "It confirmed, in the government's own words, exactly what the base was for. A test site for American spy planes and Soviet fighter jets acquired in secret. Not a UFO facility.",
+      "img": "ex_cia_doc_inner",
+      "cap": "In the government's own words.",
+      "tone": "confidence"
+    },
+    {
+      "id": "c3",
+      "text": "Chapter three. The man who said something else was there.",
+      "chapter": "3 \u2014 THE MAN WHO SAID\nSOMETHING ELSE WAS THERE"
+    },
+    {
+      "id": "c1_1",
+      "text": "In 1989, a man going by the name Dennis appeared on a Las Vegas news broadcast, his face disguised. He claimed to have worked at a facility near Area 51 called S-4.",
+      "img": "groom_lake_sat",
+      "query": "1989 television broadcast interview silhouette",
+      "stat": "1989",
+      "cap": "A disguised face on the local news.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c1_2",
+      "text": "That November, he came forward under his real name: Bob Lazar. He claimed the government was reverse engineering nine actual alien spacecraft, powered by an element that did not yet officially exist.",
+      "stat": "BOB LAZAR, NOV 1989",
+      "img": "groom_lake_sat",
+      "cap": "Bob Lazar's claim.",
+      "tone": "shock"
+    },
+    {
+      "id": "c1_3",
+      "text": "No record of the academic credentials he claimed has ever surfaced. No government source has ever confirmed his employment. And the real element he named, once actually synthesized by scientists, behaves nothing like what he described.",
+      "kinetic": {
+        "words": [
+          "No",
+          "record.",
+          "No",
+          "confirmation."
+        ]
+      },
+      "extraHold": 16,
+      "tone": "melancholy"
+    },
+    {
+      "id": "c1_4",
+      "text": "Lazar has never changed his story in over thirty five years. Whether that makes him telling the truth, or simply consistent, is something you'll have to decide for yourself.",
+      "img": "groom_lake_sat",
+      "cap": "Thirty five years, unchanged.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c4",
+      "text": "Chapter four. The files released this year.",
+      "chapter": "4 \u2014 THE FILES\nRELEASED THIS YEAR"
+    },
+    {
+      "id": "d1",
+      "text": "In May of 2026, the Department of War released a hundred and sixty two declassified files under a program called Pursue. Reports, photographs, video, witness accounts, spanning back to the nineteen forties.",
+      "img": "pentagon",
+      "stat": "MAY 8, 2026: 162 FILES",
+      "cap": "80 years of files, at once.",
+      "tone": "curiosity",
+      "query": "Pentagon building aerial",
+      "stock": true
+    },
+    {
+      "id": "d2",
+      "text": "That same year, in a podcast interview, former president Obama was asked directly whether the government was hiding anything at Area 51. His answer went viral within hours.",
+      "stat": "FEB 2026",
+      "img": "groom_lake_sat",
+      "cap": "The answer that went viral.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d3",
+      "text": "He said, quote, they're real, but I haven't seen them, they're not being kept at Area 51. Within a day, he walked part of it back, saying he has seen no evidence of contact with anything not of this world.",
+      "kinetic": {
+        "words": [
+          "\"Not",
+          "being",
+          "kept",
+          "at",
+          "Area",
+          "51.\""
+        ]
+      },
+      "extraHold": 20,
+      "tone": "shock"
+    },
+    {
+      "id": "d4",
+      "text": "As of this month, the government is, for the first time, actively encouraging this conversation instead of shutting it down.",
+      "img": "groom_lake_sat",
+      "stat": "STATUS: ONGOING",
+      "cap": "Encouraging the conversation, not shutting it down.",
+      "tone": "confidence"
+    },
+    {
+      "id": "coda1",
+      "text": "What stays with me here isn't whether something otherworldly is out there. It's that for sixty years, the truth was classified for a completely different reason than the one everyone assumed.",
+      "cap": "A different reason than everyone assumed.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda2",
+      "text": "The real story was faster planes, invisible planes, and a government terrified of the Soviet Union seeing them coming. The mystery was never the cover story. It was what the cover story was covering.",
+      "extraHold": 16,
+      "cap": "The mystery was the cover story itself.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "end",
+      "text": "If a real declassified document rewriting a sixty year mystery got you, wait until you see the actual government files behind the objects astronomers still can't explain. Subscribe to mindwired.",
+      "chapter": "SUBSCRIBE"
+    }
+  ]
+}

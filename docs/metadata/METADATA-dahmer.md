@@ -11,22 +11,30 @@ on the Wisconsin Court of Appeals opinion. That distinction is what keeps it
 monetizable and what makes it different from every other Dahmer video.
 
 ## Title (primary)
-The Officers Were Fired. Then They Weren't.
+Dahmer Walked Free Because Two Cops Believed Him
 
 ### A/B alternates
-- Police Gave the Boy Back. Then Came the Paperwork.
-- The Case That Ended in an Argument About "Days"
+- The Night Two Cops Gave Dahmer Back His Victim
+- Dahmer's Case File: They Gave the Boy Back
 
-### Notes
-No ALL-CAPS, statement form, 30-50 chars where possible (primary is 41). The
-primary is the whole story in six words and pays off exactly. Alternate 3 is the
-most distinctive and the most niche — it's the honest description of what the
-final nine years of litigation were actually about, and it's the one I'd test
-second because nobody else can run that title.
-**Do NOT put "Dahmer" first in the title.** The name is the demand driver, but
-leading with it promises a killer documentary this episode deliberately isn't —
-that mismatch is what tanks satisfaction signals. Put it in the description and
-let the thumbnail's document carry the recognition.
+### Other Dahmer-led candidates considered (kept for a future test)
+- Two Cops Handed Dahmer His Next Victim
+- Dahmer Was on Probation When Cops Believed Him
+- The Real Reason Dahmer Walked Free That Night
+- How Two Officers Handed a Boy Back to Dahmer
+
+### Notes — UPDATED (Akshay's call: name in the title for CTR)
+Original recommendation was to keep "Dahmer" out of the title entirely (leading
+with the name promises a killer-documentary this episode isn't, and that
+mismatch is what tanks satisfaction signals down the line). Akshay overrode
+that on purpose for click-through — noted, respected. The three picks above
+are chosen to keep the promise as honest as the name allows: each one states
+the actual content (the officers' decision and its accountability record), not
+a fake killings-recap. "Dahmer Walked Free Because Two Cops Believed Him" is
+the primary — front-loads the name, states the real causal fact the episode
+proves, no ALL-CAPS, 49 chars. Still recommend the thumbnail carry the real
+court-opinion document (not a Dahmer photo) so the click and the content don't
+diverge any further than the title already does.
 
 ## Thumbnail
 `out/thumbs/dahmer_A/B/C.png`, built from the real opinion page.

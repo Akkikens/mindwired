@@ -263,6 +263,85 @@ Cross-channel remakes are now ~TTS-cost-only (see src/mindwired-doc/README.md).
 
 ## Black Box Breakdown (disaster forensics — @Watch-BlackBox)
 
+**Icahn-validated 2026-08-08 (memory `icahn-keybridge`) — Francis Scott Key
+Bridge collapse (Baltimore, MV Dali strike, March 2024) fused with the live
+2026 DOJ criminal charges: PASS-WITH-CONDITIONS.** Headline 7.9:1 (Build Core,
+646,227v/81,900subs, 2025-10-25) but **no second corroborating outlier above
+3:1 with meaningful views was found** across two follow-up sweeps — the
+weakest ratio-corroboration of any recent Black Box validation. Carried
+instead by: **recognition 3/3** (globally viral live footage in 2024, full
+NOVA PBS documentary, fresh 2025-2026 uploads still pulling real numbers);
+**giant ceiling** (WRAL raw footage 6,364,654 views; NOVA PBS 1,413,146
+views); **a genuinely still-unfolding currency hook** — DOJ indicted Grace
+Ocean/Synergy Marine + a named technician 2026-05-12 (18 counts), a separate
+$2.25B Maryland civil settlement, an ongoing civil trial (June 2026), and the
+Dali criminal trial itself set for **2027** — real forward dates, not a bare
+anniversary. **Saturation moderate**: the 2024 collapse and its technical
+cause are heavily covered (NOVA PBS + Oceanliner Designs + Plainly Difficult +
+Casey Jones PE + Brick Immortar's fresh July 2026 "collision of blame"
+breakdown) but nobody has yet made a dedicated documentary-style long-form
+anchored on the May-June 2026 DOJ-charges/corporate-accountability angle —
+that's the open, unproven wedge. **Sensitivity: HIGH but AI171-tier, not
+WTC-tier** — physical cause is SETTLED (NTSB final report, 2025-11-18: loose
+signal-wire connection); corporate criminal liability is NOT settled (2027
+trial pending) — every negligence claim must be attributed-never-asserted and
+tracked in a CLAIMS-keybridge.md file; 6 dead construction workers have living
+families; a named individual defendant awaits trial. **Real footage: STRONG
+PASS**, the decisive gate given the recent Fitzgerald footage-fail — the
+mandated `fetch_footage.py` probe returned 6/6 genuinely on-topic Commons/PD
+hits (USCG debris-removal, NTSB aerial B-roll, Army Corps of Engineers damage
+assessment, White House remarks); the exact live "moment of impact"
+traffic-cam clip isn't indexed on Commons under the phrasings tried, but NTSB
+is confirmed (via CNN 2024 coverage) to have publicly released official
+point-of-impact and drone footage during its investigation — action item:
+pull it via `scripts/fetch_ntsb_docket.py` (DCA24MM031) before locking the
+script, not assumed. Full evidence + comparison notes: memory `icahn-keybridge`.
+Not yet run: ctr-engine packaging pass (Step 4.5) — recommend the packaging
+lead with the DOJ-charges wedge, never a bare "revisiting 2024" framing.
+
+**Backlog confirmed 2026-08-05 (direct from Akshay, not repo state):** the
+Chernobyl render ("The Official Report vs. The Show") AND the 3rd MH370 video
+("What Netflix's Documentary Got Wrong") are BOTH already made — publish these
+before starting new production, they are not queue items needing work.
+
+**⭐ RENDERED 2026-08-06, ready for Akshay's review + upload (see
+`docs/planning/THREEMILEISLAND-HANDOFF.md`) — the topic AFTER the
+Chernobyl/MH370-netflix backlog ships: Three Mile Island (1979 meltdown) fused
+with its live 2024-2027 AI-datacenter restart.** Final: `The Meltdown Reactor
+AI Just Reopened.mp4` at repo root, 4K, −14.1 LUFS, full metadata package +
+3 built thumbnails + 4-Short drip plan. Validated 2026-08-05 (memory
+`icahn-threemileisland`): PASS-WITH-CONDITIONS, winner
+of an 8-lane sweep (maritime/rail/nuclear/industrial/corporate-scandal,
+aviation skipped as near-exhausted) run via Workflow + deep-dive + adversarial
+refutation. Headline 768:1 (AT, 1.47M views/1,920 subs) + fresh corroborator
+Forgotten Fallout 27.8:1 (Nov 2025) + ceiling Kyle Hill 5.9M. **Recognition
+adversarially downgraded 3→2/3** (the "as global as Chernobyl" claim didn't
+survive skeptic review — TMI is a real but US-skewed name); packaging must
+lead with the live restart hook, never the bare name. Currency SURVIVED
+adversarial attack: NRC final Environmental Assessment due **Sept 2026**
+(weeks away), fuel arrives on-site end of 2026, operating-license decision
+~May 2027 — ship within 4-8 weeks to land inside that window. Saturation is
+real on two sub-angles (the 1979 explainer AND the bare "AI restarts a nuclear
+plant" story are both already covered at scale) — the open lane is fusing
+Kemeny Commission 1979 forensic findings against the 2026 restart paperwork,
+which nobody has done. Evidence Engine: Kemeny Commission Report (OSTI
+6986994) + NRC ADAMS ML26120A058 (the live docket) + GAO EMD-80-109 + real
+1979 NRC control-room tape audio (quoted in the historical record, licensing
+path TBD). **Footage is a genuine front-loaded risk, not solved**: no free US
+motion-footage well like Black Box usually gets — start a Penn State
+Special Collections request (3,700+ tapes, multi-week turnaround) and verify
+NRCgov's one CC-BY-licensed video's actual shot content THIS WEEK, in
+parallel with scripting. Beat Costa Concordia (tied score, killed on
+saturation — a 3rd 20M+-view treatment plus 10+ recent small-channel uploads
+riding a July 2026 Netflix release, kept as strongest alternate), Bhopal
+(sensitivity — mass casualty + contested corporate liability, no free footage
+found), and MV Estonia (saturation + weak 1/3 recognition, real footage
+legally restricted). Also swept and rejected: East Palestine derailment (no
+outlier clears the strict bar), El Faro (weak recognition + cooled currency),
+Boeing whistleblower deaths (saturated + sharp sensitivity risk), Piper Alpha
+(niche recognition + no free footage). Full evidence: memory
+`icahn-threemileisland`.
+
 **⭐ NEXT (IN PRODUCTION 2026-08-02) — Amelia Earhart disappearance (1937),
 Icahn-validated 2026-08-02 (memory `icahn-earhart`), winner of a live 3-topic
 re-check (Earhart / Bermuda Triangle / Dyatlov Pass Incident) run after
@@ -386,15 +465,32 @@ interim: a tightly-framed 60s Short ("why no answers yet"), AAIB-prelim-attribut
 zero blame — only if Akshay wants to ride the search interest safely.
 
 ## Sweep 2026-08-04 (workflow wf_7ee7e9bc-51e — 9 agents, adversarially verified)
-- **NEXT (validated, memory `icahn-spacex-lunar-impact`): SpaceX rocket hits the Moon** —
-  impact Aug 5 2026; 26.1:1 outlier verified via yt-dlp; TIME-LOCK ship by ~Aug 14
-  (fallback wave: LRO crater photos 2-4 wks later). Title: "A rocket just hit the
-  Moon. It wasn't the first."
-- Runner-up (UNVERIFIED): Betelgeuse's hidden companion — "Something is wrong with
-  Betelgeuse"; outlier: Universe Dimensions 339K views / 73K subs (May 2026).
-- Runner-up (UNVERIFIED): the next Carrington Event / July 2026 solar-storm run.
-- Runner-up (UNVERIFIED): Voyager 1 shutdown logs — "NASA is quietly letting
-  Voyager 1 die."
+- ~~NEXT (validated, memory `icahn-spacex-lunar-impact`): SpaceX rocket hits the
+  Moon~~ — **SHIPPED 2026-08-06** ("A Rocket Just Hit the Moon. It Wasn't the
+  First.," full packaging done, see commit `cdb64c9`).
 - REFUTED, do not resurrect without new evidence: China Moon-race (Chang'e-7 lands
   ~Nov, not Aug — false premise) and ISS-cracking deathwatch (angle market-tested
   to death in the last 8 weeks, underperformed even at 700K subs).
+
+## ⭐ NEXT (IN PRODUCTION 2026-08-08) — Voyager 1's 49-year mission + its live
+NASA instrument power-down, Icahn-validated 2026-08-08 (memory `icahn-voyager1`),
+winner of a live re-check against the three 2026-08-04 runner-ups (Voyager 1 /
+Betelgeuse's hidden companion / Carrington Event), run at the user's explicit
+request for a 30-minute mindwired space long-form (this channel's usual episodes
+run 8-15 min — Voyager's 49-year arc has enough real chapters to sustain 30
+without padding).** PASS, no conditions: headline 153.3:1 (Chasing Space,
+1,533,201v/10,000subs, 2025-10-20) + very-fresh corroborator 47.6:1 (Proof,
+3,241,744v/68,100subs, 2026-07-05) + the biggest ceiling of any mindwired
+candidate swept to date (Destiny 10.49M, Primal Space 7.18M, Astrum 7.84M,
+NASA JPL itself 4.9M). **Recognition 3/3** — Voyager needs no bridge (Golden
+Record, Pale Blue Dot, "farthest human-made object" are all globally known).
+**Currency is the strongest of any candidate**: NASA is still actively
+shutting down instruments in 2025-2026 to conserve the dying RTG power source
+— a fresh upload about it landed literally the day of validation. **Sensitivity:
+none** (hardware/engineering story, no living victims/accused). Beat Betelgeuse's
+hidden companion (genuinely close second — real July 2026 ESO discovery wave,
+kept as the strongest next alternate) and the Carrington Event (real headline
+but every fresh outlier has trivial absolute views; weaker currency). ctr-engine
+Run A packaging gate CLEARED: title "NASA Built It to Last 5 Years. It's Been
+49." (7.75/10 avg) + thumbnail built on the real NASA "Pale Blue Dot Revisited"
+photo. Full evidence + LOCKED PACKAGE: memory `icahn-voyager1`.

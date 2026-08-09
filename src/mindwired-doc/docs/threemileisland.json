@@ -1,0 +1,491 @@
+{
+  "slug": "threemileisland",
+  "title": "The Meltdown Reactor AI Just Reopened",
+  "channel": "blackbox",
+  "niche": "history",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "In Pennsylvania, there is a nuclear reactor that partially melted down in 1979. Regulators spent decades making sure it would never run again.",
+      "video": "tmi_coolingtowers_v2.mp4",
+      "videoQuery": "Three Mile Island cooling towers lake marina archival",
+      "cap": "It was never supposed to run again.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h2",
+      "text": "This year, it is scheduled to switch back on. Not to power homes. To power artificial intelligence.",
+      "video": "tmi_pressconf_1.mp4",
+      "videoQuery": "Three Mile Island 1979 press conference archival crowd",
+      "stat": "RESTART TARGET: 2027",
+      "cap": "To power AI.",
+      "tone": "shock"
+    },
+    {
+      "id": "h3",
+      "text": "The federal investigation into why it failed the first time found something specific. Not a broken part. A mindset. A habit of trusting the equipment and ignoring the people in the room.",
+      "kinetic": {
+        "words": [
+          "Not",
+          "a",
+          "broken",
+          "part.",
+          "A",
+          "mindset."
+        ]
+      },
+      "extraHold": 20,
+      "tone": "shock"
+    },
+    {
+      "id": "h4",
+      "text": "That finding is a real, public federal report. And right now, a regulator is deciding whether the exact conditions it warned about have actually been fixed.",
+      "exhibit": true,
+      "img": "ex_kemeny_cover",
+      "source": "Report of the President's Commission on the Accident at Three Mile Island \u00b7 Oct 30, 1979",
+      "highlight": [
+        0.3,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "cap": "A real, public report.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h5",
+      "text": "This is that report, held up against the paperwork being filed today. Beat by beat.",
+      "video": "tmi_coolingtowers_v2.mp4",
+      "videoQuery": "Three Mile Island site drone modern",
+      "cap": "Held up against today's paperwork.",
+      "motion": "slow",
+      "tone": "confidence"
+    },
+    {
+      "id": "sting",
+      "sting": true,
+      "text": "You're watching Black Box Breakdown.",
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "text": "The meltdown reactor A I just reopened.",
+      "chapter": "THE MELTDOWN REACTOR\nA I JUST REOPENED"
+    },
+    {
+      "id": "c1",
+      "text": "Chapter one. The morning nobody was ready for.",
+      "chapter": "1 \u2014 THE MORNING\nNOBODY WAS READY FOR"
+    },
+    {
+      "id": "a1",
+      "text": "March twenty eighth, nineteen seventy nine. Four in the morning. Three Mile Island, Pennsylvania. Control room operator Craig Faust is at the panel of Unit Two when the first alarm cuts through the dark.",
+      "img": "tmi_controlroom2",
+      "query": "1970s nuclear power plant control room panel",
+      "cap": "4:00 AM. The first alarm.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2",
+      "text": "A maintenance job on a water filter, three floors away, trips the pumps feeding the plant's steam generators. Within seconds, the reactor shuts itself down automatically, exactly as designed.",
+      "img": "tmi_coolingtowers_still",
+      "stat": "4:00:36 AM",
+      "cap": "The reactor shuts down on its own.",
+      "tone": "curiosity",
+      "stock": true
+    },
+    {
+      "id": "a3",
+      "text": "Then a relief valve at the top of the reactor's pressurizer opens to bleed off pressure, exactly as designed. And then it does something it was not designed to do. It sticks open.",
+      "img": "tmi_controlroom2",
+      "kinetic": {
+        "words": [
+          "It",
+          "sticks",
+          "open."
+        ]
+      },
+      "extraHold": 16,
+      "tone": "fear"
+    },
+    {
+      "id": "a4",
+      "text": "In the control room, a light on the panel shows the valve as closed. But that light was never wired to the valve itself. It was wired to the signal telling the valve to close. Nobody in that room knew the difference.",
+      "img": "tmi_controlroom3",
+      "cap": "The light lied.",
+      "tone": "fear"
+    },
+    {
+      "id": "a5",
+      "text": "For two hours, coolant drains out of an open valve that every instrument in the room insists is shut.",
+      "video": "tmi_officials_1.mp4",
+      "videoQuery": "1979 plant officials control room personnel",
+      "cap": "Two hours, draining, unnoticed.",
+      "motion": "slow",
+      "tone": "fear"
+    },
+    {
+      "id": "a6",
+      "text": "This exact failure had happened before. Eighteen months earlier, at a nearly identical reactor in Ohio. A relief valve stuck open there too. Federal regulators studied it. Nobody warned the operators at Three Mile Island.",
+      "img": "davis_besse_plant",
+      "query": "Davis Besse nuclear power plant Ohio archival",
+      "stat": "SEPT 1977: THE FIRST WARNING",
+      "cap": "A warning, 18 months early.",
+      "extraHold": 18,
+      "tone": "fear"
+    },
+    {
+      "id": "a7",
+      "text": "Craig Faust and the other operators on shift that morning did not know any of this. They were reading a control panel that was built to hide the one thing they most needed to see.",
+      "img": "tmi_controlroom3",
+      "cap": "A panel built to hide the truth.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c2",
+      "text": "Chapter two. The mistake that made it worse.",
+      "chapter": "2 \u2014 THE MISTAKE\nTHAT MADE IT WORSE"
+    },
+    {
+      "id": "b1",
+      "text": "Operators are trained to watch one gauge above all others: the water level in the pressurizer. As coolant drains out through the stuck valve, that gauge reads full. Rising, even.",
+      "img": "tmi_controlroom",
+      "cap": "The gauge said: rising.",
+      "tone": "fear"
+    },
+    {
+      "id": "b2",
+      "text": "So operator Edward Frederick does exactly what his training tells him to do when a reactor looks like it's overfilling. He throttles back the emergency cooling pumps.",
+      "kinetic": {
+        "words": [
+          "He",
+          "throttles",
+          "back",
+          "the",
+          "cooling."
+        ]
+      },
+      "extraHold": 20,
+      "tone": "shock"
+    },
+    {
+      "id": "b3",
+      "text": "It is the single decision that turns a manageable equipment failure into a partial meltdown. The core starts to uncover. And no one in the room can see it happening.",
+      "img": "tmi_unit1",
+      "stat": "~50% OF THE CORE DAMAGED",
+      "cap": "The core starts to uncover.",
+      "tone": "fear"
+    },
+    {
+      "id": "b4",
+      "text": "Eight minutes in, operator Craig Faust finds something else: emergency feedwater valves, left closed after maintenance, that were never supposed to be closed at all. He reopens them. It is the first thing anyone gets right that morning.",
+      "img": "tmi_controlroom2",
+      "cap": "8 minutes in, one thing goes right.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b5",
+      "text": "By then, more than a hundred alarms are sounding at once. The control panel physically cannot show the operators everything failing in time for them to react to it.",
+      "stat": "100+ ALARMS AT ONCE",
+      "img": "tmi_controlroom",
+      "cap": "More alarms than the panel could show.",
+      "extraHold": 16,
+      "tone": "fear"
+    },
+    {
+      "id": "b6",
+      "text": "A hydrogen bubble forms at the top of the reactor vessel. For days, nobody is certain whether it can explode. Radioactive gas is deliberately vented from the plant to relieve pressure.",
+      "video": "tmi_pressconf_1.mp4",
+      "videoQuery": "1979 press conference archival crowd",
+      "stat": "MARCH 30: GAS VENTED",
+      "cap": "Days of not knowing.",
+      "tone": "fear"
+    },
+    {
+      "id": "b7",
+      "text": "Pennsylvania's governor advises pregnant women and small children within five miles to leave. An estimated hundred and forty thousand people evacuate the region on their own.",
+      "video": "tmi_pressconf_1.mp4",
+      "videoQuery": "1979 evacuation traffic archival Pennsylvania",
+      "stat": "~140,000 EVACUATED",
+      "cap": "140,000 people leave.",
+      "tone": "fear"
+    },
+    {
+      "id": "b8",
+      "text": "Four days later, President Carter, a trained nuclear engineer himself, walks into the Unit Two control room in person, to prove to the country it was safe enough to stand in.",
+      "video": "tmi_pressconf_1.mp4",
+      "videoQuery": "President Carter Three Mile Island visit 1979",
+      "stat": "APRIL 1, 1979",
+      "cap": "The president walks in.",
+      "tone": "confidence"
+    },
+    {
+      "id": "c3",
+      "text": "Chapter three. The report they didn't want to hear.",
+      "chapter": "3 \u2014 THE REPORT THEY\nDIDN'T WANT TO HEAR"
+    },
+    {
+      "id": "c1_1",
+      "text": "Seven months later, a federal commission led by mathematician John Kemeny delivers its verdict. And it is not the verdict the industry expected.",
+      "exhibit": true,
+      "img": "ex_kemeny_cover",
+      "source": "Report of the President's Commission on the Accident at Three Mile Island \u00b7 Oct 30, 1979",
+      "highlight": [
+        0.25,
+        0.2,
+        0.5,
+        0.2
+      ],
+      "cap": "Not the verdict expected.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c1_2",
+      "text": "The commission's central finding was not about the stuck valve, or the misleading light, or even the training. It was about a mindset. An industry so focused on the safety of its equipment that it downplayed the one thing actually running the plant: the people in the room.",
+      "kinetic": {
+        "words": [
+          "A",
+          "mindset.",
+          "Not",
+          "a",
+          "valve."
+        ]
+      },
+      "extraHold": 20,
+      "tone": "shock"
+    },
+    {
+      "id": "c1_3",
+      "text": "The report singled out the regulator itself. The Nuclear Regulatory Commission, it found, was so narrowly focused on whether individual parts met code that it never stepped back to ask whether the plant, as a whole, was actually being run safely.",
+      "img": "nrc_seal_document",
+      "query": "government regulatory document seal stamp",
+      "cap": "The regulator, blamed too.",
+      "tone": "shock"
+    },
+    {
+      "id": "c1_4",
+      "text": "It recommended sweeping changes: better operator training, redesigned control rooms, and a federal inspector living on-site at every reactor in the country, permanently.",
+      "img": "nrc_reforms_doc",
+      "query": "nuclear regulatory commission document report",
+      "stock": true,
+      "stat": "RESULT: THE NRC RESIDENT-INSPECTOR PROGRAM",
+      "cap": "A federal inspector, on-site, permanently.",
+      "tone": "confidence"
+    },
+    {
+      "id": "c1_5",
+      "text": "The health toll is still disputed. One 1997 university study found higher cancer rates downwind of the plant. Federal regulators, and other researchers, disagree, pointing to smoking rates and study design. Nearly fifty years later, there is still no settled answer.",
+      "img": "tmi_coolingtowers_still",
+      "kinetic": {
+        "words": [
+          "Still",
+          "disputed.",
+          "Nearly",
+          "fifty",
+          "years",
+          "later."
+        ]
+      },
+      "extraHold": 16,
+      "cap": "Still disputed, decades later.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c1_6",
+      "text": "What is not disputed is what happened to the reactor itself. Unit Two never ran again. Its cleanup took fourteen years and cost roughly a billion dollars. It was, everyone agreed, finished.",
+      "img": "nrc_reforms_doc",
+      "query": "nuclear regulatory commission document report",
+      "stock": true,
+      "stat": "1979\u20131993: 14-YEAR CLEANUP",
+      "cap": "Finished. Everyone agreed.",
+      "extraHold": 16,
+      "tone": "melancholy"
+    },
+    {
+      "id": "c4",
+      "text": "Chapter four. The switch nobody expected.",
+      "chapter": "4 \u2014 THE SWITCH\nNOBODY EXPECTED"
+    },
+    {
+      "id": "d1",
+      "text": "Not Unit Two. Its neighbor, Unit One, kept running for decades after, until it was shut down for purely economic reasons in twenty nineteen. It sat idle for five years.",
+      "img": "tmi_coolingtowers_still",
+      "query": "nuclear power plant idle shutdown site",
+      "stat": "SHUT DOWN 2019",
+      "cap": "Shut down. Idle. Forgotten.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d2",
+      "text": "Then, in September twenty twenty four, Constellation Energy announced it would spend one point six billion dollars to bring that idle reactor back online. Not for the power grid. For one customer: Microsoft.",
+      "stat": "$1.6 BILLION RESTART",
+      "img": "microsoft_datacenter",
+      "query": "modern data center server racks technology",
+      "cap": "One customer: Microsoft.",
+      "extraHold": 18,
+      "tone": "shock"
+    },
+    {
+      "id": "d3",
+      "text": "The deal is a twenty-year contract to sell the plant's entire output, eight hundred and thirty five megawatts, to power the data centers running artificial intelligence.",
+      "stat": "835 MW, 20-YEAR CONTRACT",
+      "img": "microsoft_datacenter",
+      "query": "server room data center corridor",
+      "cap": "All of it, for AI.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d4",
+      "text": "The plant even has a new name now. Crane Clean Energy Center. The original target for switching back on was twenty twenty eight. It has since been moved a year earlier.",
+      "stat": "RESTART TARGET: 2027",
+      "img": "tmi_nrc_inspector",
+      "query": "nuclear power plant reactor building exterior",
+      "cap": "A new name. An earlier date.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d5",
+      "text": "Three Mile Island Alert, the same watchdog group that has monitored this site since before the meltdown, calls the process rushed. Its director says the fuel is already being delivered before regulators have even finished reviewing it, calling it, in his words, quote, a farce.",
+      "img": "tmia_protest",
+      "query": "nuclear power protest activists sign",
+      "cap": "\"A farce,\" says the watchdog.",
+      "tone": "fear"
+    },
+    {
+      "id": "c5",
+      "text": "Chapter five. The paperwork.",
+      "chapter": "5 \u2014 THE PAPERWORK"
+    },
+    {
+      "id": "e1",
+      "text": "In June twenty twenty six, the Nuclear Regulatory Commission released its draft assessment for reauthorizing the plant. Its preliminary finding: no significant environmental impact.",
+      "exhibit": true,
+      "img": "ex_nrc_ea",
+      "source": "Federal Register, Vol. 91, No. 109 \u00b7 June 8, 2026 \u00b7 Docket NRC-2026-0397",
+      "highlight": [
+        0.28,
+        0.22,
+        0.5,
+        0.18
+      ],
+      "stat": "JUNE 2026: DRAFT REVIEW RELEASED",
+      "cap": "No significant impact, it says.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e2",
+      "text": "The public comment period closed in July. Fresh nuclear fuel is scheduled to arrive on-site by the end of this year, sitting in storage, waiting on a final license decision expected as early as next spring.",
+      "stat": "FUEL ARRIVAL: LATE 2026",
+      "img": "nuclear_fuel_storage",
+      "query": "nuclear fuel rods storage facility",
+      "cap": "The fuel arrives before the answer does.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e3",
+      "text": "Separately, the region's power-grid operator has had to intervene, granting a special waiver just to make room on the grid for this one reactor's return.",
+      "img": "power_grid",
+      "query": "electrical power grid transmission lines",
+      "stock": true,
+      "cap": "The grid itself had to make room.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e4",
+      "text": "As of now, the final environmental review has not been published. It is expected within weeks. The restart of a reactor that partially melted down is, right now, an open file.",
+      "stat": "STATUS: STILL PENDING",
+      "img": "ex_nrc_ea",
+      "cap": "Still an open file.",
+      "extraHold": 16,
+      "tone": "curiosity"
+    },
+    {
+      "id": "c6",
+      "text": "Chapter six. Putting the old report on trial.",
+      "chapter": "6 \u2014 THE OLD REPORT,\nON TRIAL"
+    },
+    {
+      "id": "f1",
+      "text": "So here is the question nobody at a press conference is being asked directly. Not, is nuclear power safe. This one. Has the specific mindset the Kemeny Commission blamed in nineteen seventy nine actually been fixed, on this reactor, before it runs again?",
+      "kinetic": {
+        "words": [
+          "Has",
+          "it",
+          "actually",
+          "been",
+          "fixed?"
+        ]
+      },
+      "extraHold": 22,
+      "tone": "curiosity"
+    },
+    {
+      "id": "f2",
+      "text": "The commission's first finding was a control room built to hide critical information from operators. Modern reactor control rooms, including this one's, have been redesigned since, with clearer instrumentation. On paper, that finding has been addressed.",
+      "img": "tmi_nrc_inspector",
+      "cap": "Finding one: addressed.",
+      "tone": "confidence",
+      "stock": true
+    },
+    {
+      "id": "f3",
+      "text": "The commission's second finding was a regulator too narrowly focused on individual parts to see the bigger picture. That is precisely the criticism Three Mile Island Alert is making again today, about the same regulator, on the same site.",
+      "img": "tmia_protest",
+      "query": "nuclear regulation oversight hearing",
+      "cap": "Finding two: the same complaint, again.",
+      "tone": "fear"
+    },
+    {
+      "id": "f4",
+      "text": "The commission's third finding was an industry moving faster than its own oversight could keep up with. A reactor idle for five years, restarting on a contract signed for a technology, artificial intelligence, that barely existed the last time this plant ran.",
+      "img": "microsoft_datacenter",
+      "query": "artificial intelligence data center servers",
+      "cap": "Finding three: moving fast, again.",
+      "tone": "fear"
+    },
+    {
+      "id": "f5",
+      "text": "Nobody involved is claiming this reactor is the same one that failed in nineteen seventy nine. It has new fuel, new inspections, decades of accumulated regulation behind it. But the commission's real warning was never about one broken valve.",
+      "img": "tmi_coolingtowers_still",
+      "query": "nuclear power plant reactor site modern",
+      "cap": "It was never about one valve.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "f6",
+      "text": "It was about how easy it is to trust a system, right up until the moment the system is wrong. That is the exact test this restart is running again, live, this year.",
+      "video": "tmi_coolingtowers_v2.mp4",
+      "videoQuery": "nuclear power plant cooling towers sunset",
+      "cap": "The same test, running again.",
+      "extraHold": 18,
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda1",
+      "text": "What stays with me here isn't the meltdown. Nobody died from it, directly, and the plant survived to be studied in exhaustive detail.",
+      "cap": "Nobody died. The plant survived.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda2",
+      "text": "What stays with me is that the fix it produced, a federal report about paying attention to people instead of just parts, is being tested again on the exact same site, decades later, for a technology nobody in that control room could have imagined.",
+      "cap": "The same fix, tested again.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda3",
+      "text": "The paperwork on this restart is still open. By the time you're watching this, some of it may already be decided.",
+      "extraHold": 16,
+      "cap": "Still open, right now.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "end",
+      "text": "If a warning that got ignored for eighteen months unsettled you, wait until you see the repair shortcut Boeing made seven years before it killed five hundred and twenty people on Japan Airlines Flight one twenty three. Subscribe to Black Box Breakdown.",
+      "chapter": "SUBSCRIBE"
+    }
+  ]
+}

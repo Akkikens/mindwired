@@ -29,7 +29,15 @@ type Scene = { id: string; text?: string; img?: string; cap?: string; stat?: str
   video?: string; videoFrom?: number; speaker?: string; radioLabel?: string };
 type Doc = { scenes: Scene[] };
 type Manifest = { durations: Record<string, number>; images: Record<string, string[]> };
-type Props = { startId: string; endId: string; hook: string;
+type Props = { startId?: string; endId?: string; hook: string;
+  /** Hand-picked, possibly non-contiguous scene ids — use instead of
+   *  startId/endId when the tightest cut skips connective-tissue scenes
+   *  (chapter cards, asides) the source doc needs but a 35-60s Short doesn't. */
+  ids?: string[];
+  /** Per-scene image-prefix fallback for scenes with no img of their own
+   *  (kinetic-only beats, bare chapter cards) — CLAUDE.md bans bare black
+   *  text scenes; pass the nearest real photo/exhibit from the same beat. */
+  imgOverride?: Record<string, string>;
   slug?: string; doc?: Doc; manifest?: Manifest; cta?: string;
   /** Real motion footage under the hook card. CLAUDE.md: the opening seconds
    *  are never a bare black text screen — in the Shorts feed those 2.5s ARE
@@ -41,11 +49,14 @@ const range = (doc: Doc, startId: string, endId: string): Scene[] => {
   const ids = doc.scenes.map(s => s.id);
   return doc.scenes.slice(ids.indexOf(startId), ids.indexOf(endId) + 1);
 };
+const pickScenes = (doc: Doc, { startId, endId, ids }: { startId?: string; endId?: string; ids?: string[] }): Scene[] =>
+  ids ? ids.map(id => doc.scenes.find(s => s.id === id)).filter(Boolean) as Scene[]
+      : range(doc, startId!, endId!);
 const clipF = (m: Manifest, s: Scene) => Math.round(((m.durations[s.id] ?? 3) + PAD) * FPS);
 
-export const blackBoxShortFrames = ({ startId, endId, doc = doc737 as Doc, manifest = manifest737 as Manifest }:
-  { startId: string; endId: string; doc?: Doc; manifest?: Manifest }) =>
-  Math.round(HOOK_S * FPS) + range(doc, startId, endId).reduce((a, s) => a + clipF(manifest, s), 0) + OUTRO_F;
+export const blackBoxShortFrames = ({ startId, endId, ids, doc = doc737 as Doc, manifest = manifest737 as Manifest }:
+  { startId?: string; endId?: string; ids?: string[]; doc?: Doc; manifest?: Manifest }) =>
+  Math.round(HOOK_S * FPS) + pickScenes(doc, { startId, endId, ids }).reduce((a, s) => a + clipF(manifest, s), 0) + OUTRO_F;
 
 const Brand: React.FC = () => (
   <div style={{ position: "absolute", top: 66, left: 0, right: 0, textAlign: "center" }}>
@@ -85,10 +96,11 @@ const HookCard: React.FC<{ hook: string; slug: string; video?: string; from?: nu
   );
 };
 
-const ClipScene: React.FC<{ s: Scene; idx: number; dur: number; slug: string; m: Manifest }> = ({ s, idx, dur, slug, m }) => {
+const ClipScene: React.FC<{ s: Scene; idx: number; dur: number; slug: string; m: Manifest; imgKey?: string }> = ({ s, idx, dur, slug, m, imgKey }) => {
   const f = useCurrentFrame();
   const t = f / dur;
-  const files = (s.img && m.images[s.img]) || [];
+  const key = imgKey ?? s.img;
+  const files = (key && m.images[key]) || [];
   const file = files.length ? files[idx % files.length] : null;
   const scale = interpolate(t, [0, 1], [1.12, 1.24]);
   const dx = interpolate(t, [0, 1], [0, (idx % 2 ? -1 : 1) * 24]);
@@ -129,14 +141,17 @@ const ClipScene: React.FC<{ s: Scene; idx: number; dur: number; slug: string; m:
   );
 };
 
-export const BlackBoxShort: React.FC<Props> = ({ startId, endId, hook, slug = "boeing737max", doc = doc737 as Doc, manifest = manifest737 as Manifest, hookVideo, hookFrom, hookImg }) => {
-  const scenes = range(doc, startId, endId);
+export const BlackBoxShort: React.FC<Props> = ({ startId, endId, ids, imgOverride, hook, slug = "boeing737max", doc = doc737 as Doc, manifest = manifest737 as Manifest, hookVideo, hookFrom, hookImg }) => {
+  const scenes = pickScenes(doc, { startId, endId, ids });
   let cursor = Math.round(HOOK_S * FPS);
   const clipsEnd = cursor + scenes.reduce((a, s) => a + clipF(manifest, s), 0);
   // real-motion plate under the hook: explicit prop wins, else the first video
   // in the range, else the range's first real photo — never a bare black card.
   const firstVid = scenes.find(s => s.video);
-  const firstImg = scenes.map(s => (s.img && manifest.images[s.img]) || []).find(a => a.length)?.[0];
+  const firstImg = scenes.map(s => {
+    const key = imgOverride?.[s.id] ?? s.img;
+    return (key && manifest.images[key]) || [];
+  }).find(a => a.length)?.[0];
   // precedence: explicit hookVideo > explicit hookImg > range video > range photo
   const plateVideo = hookVideo ?? (hookImg ? undefined : firstVid?.video);
   const plateFrom = hookVideo ? hookFrom : firstVid?.videoFrom;
@@ -150,7 +165,7 @@ export const BlackBoxShort: React.FC<Props> = ({ startId, endId, hook, slug = "b
         const from = cursor; const dur = clipF(manifest, s); cursor += dur;
         return (
           <Sequence key={s.id} from={from} durationInFrames={dur} name={s.id}>
-            <ClipScene s={s} idx={i} dur={dur} slug={slug} m={manifest} />
+            <ClipScene s={s} idx={i} dur={dur} slug={slug} m={manifest} imgKey={imgOverride?.[s.id]} />
             <Audio src={staticFile(`shorts/${slug}/audio/${s.id}.mp3`)} />
           </Sequence>
         );

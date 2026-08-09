@@ -1,0 +1,1439 @@
+{
+  "slug": "voyager1",
+  "title": "NASA Built It to Last 5 Years. It's Been 49.",
+  "channel": "mindwired",
+  "niche": "space",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "Right now, somewhere on Earth, a dish the size of a football field is pointed at an empty patch of sky, listening for a signal that takes over twenty hours to arrive.",
+      "video": "dsn_dish_1.mp4",
+      "cap": "Somewhere on Earth, right now.",
+      "tone": "awe",
+      "note": "real NASA/Commons DSN 70m dish footage, reprojected flat from 360 source (v360 filter) -- see ATTRIBUTION.md"
+    },
+    {
+      "id": "h2",
+      "text": "The thing sending it is fifteen billion miles away. It was built in the nineteen seventies. And this year, on purpose, NASA is turning parts of it off.",
+      "video": "dsn_dish_2.mp4",
+      "cap": "Fifteen billion miles. Built in the 1970s.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h3",
+      "text": "It's called Voyager one. NASA built it to last five years.",
+      "video": "dsn_dish_3.mp4",
+      "note": "real DSN dish footage, same source as h1/h2 -- NOT 1977 vintage footage (that lead didn't pan out); still real, still honest",
+      "cap": "Designed lifetime: five years.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h4",
+      "text": "It has been running for forty nine.",
+      "cap": "5 years, designed. 49, and counting.",
+      "tone": "shock",
+      "video": "dsn_dish_1.mp4"
+    },
+    {
+      "id": "h5",
+      "text": "It has survived a nineteen seventies chip failure nobody alive today knew how to fix at first. It has crossed a boundary no human-made object had ever crossed. And its power source is dying, on a schedule nobody can stop.",
+      "cap": "The power source is dying. On a fixed schedule.",
+      "tone": "fear",
+      "video": "dsn_dish_2.mp4"
+    },
+    {
+      "id": "h6",
+      "text": "This is the story of the two machines that outlived everyone who built them, and the slow, deliberate way NASA is now saying goodbye.",
+      "img": "milkyway_stars",
+      "query": "Milky Way night sky stars long exposure",
+      "cap": "The slow, deliberate goodbye.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "sting",
+      "sting": true,
+      "text": "You're watching mindwired.",
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "text": "This is the story of Voyager one and Voyager two, built for a five year mission, still flying after forty nine years, and now, one instrument at a time, going quiet.",
+      "chapter": "NASA BUILT IT TO LAST 5 YEARS\nIT'S BEEN 49",
+      "img": "milkyway_stars"
+    },
+    {
+      "id": "c1",
+      "text": "Chapter one. The machine that was never supposed to see this year.",
+      "chapter": "CHAPTER ONE\nTHE MACHINE THAT WASN'T SUPPOSED TO SEE THIS YEAR",
+      "img": "launch_pad_1977"
+    },
+    {
+      "id": "a1",
+      "text": "In nineteen sixty five, an MIT graduate student noticed something strange. Around the year nineteen seventy seven, Jupiter, Saturn, Uranus, and Neptune would line up in a way that let a single spacecraft visit all four, using each planet's own gravity as a slingshot to the next.",
+      "img": "spacecraft_diagram",
+      "query": "Voyager spacecraft trajectory diagram planets",
+      "cap": "A once-in-175-years alignment.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2",
+      "text": "That alignment happens roughly once every one hundred seventy five years. NASA called the idea the Grand Tour.",
+      "img": "spacecraft_diagram",
+      "cap": "NASA called it \"the Grand Tour.\"",
+      "tone": "awe"
+    },
+    {
+      "id": "a3",
+      "text": "In January of nineteen seventy two, the Grand Tour was cancelled. The money went to the Space Shuttle instead.",
+      "img": "launch_pad_1977",
+      "query": "Titan Centaur rocket launch pad Voyager 1977",
+      "cap": "Cancelled. The money went to the Shuttle.",
+      "tone": "shock"
+    },
+    {
+      "id": "a4",
+      "text": "What survived was a smaller, cheaper version. Two identical spacecraft, aimed at just two planets, Jupiter and Saturn. NASA called it Mariner Jupiter Saturn seventy seven.",
+      "img": "cleanroom_assembly",
+      "query": "Voyager spacecraft clean room assembly JPL",
+      "cap": "The cut-down version: two craft, two planets.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a4b",
+      "text": "Even that cheaper version wasn't a sure thing. JPL brought three different budget options to Congress in early nineteen seventy two, ranging from about two hundred ten million dollars up to three hundred twenty million.",
+      "img": "cleanroom_assembly",
+      "cap": "3 budget options. $210M to $320M.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a5",
+      "text": "On March seventh, nineteen seventy seven, months before launch, NASA's administrator renamed the mission. Mariner Jupiter Saturn became Voyager.",
+      "cap": "Renamed \"Voyager,\" months before launch.",
+      "tone": "curiosity",
+      "img": "cleanroom_assembly",
+      "camera": "push"
+    },
+    {
+      "id": "a6",
+      "text": "One man would stay with this mission for the rest of his career. Ed Stone became Voyager's project scientist in nineteen seventy two, and he was still its project scientist fifty years later, in twenty twenty two.",
+      "img": "ed_stone_portrait",
+      "query": "Ed Stone JPL Voyager project scientist portrait",
+      "stock": true,
+      "cap": "Ed Stone: project scientist, 1972 to 2022.",
+      "tone": "awe"
+    },
+    {
+      "id": "a7",
+      "text": "Fifty years. One person. One job. He died in June of twenty twenty four, at eighty eight, having outlived almost every deadline anyone ever set for this mission.",
+      "img": "ed_stone_portrait",
+      "cap": "He outlived almost every deadline set for it.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a8",
+      "text": "Here is the number that matters most. NASA's own mission documents say it plainly. The spacecraft were built to last five years, long enough to reach Jupiter and Saturn, and nothing more.",
+      "kinetic": {
+        "words": [
+          "\"Built",
+          "to",
+          "last",
+          "five",
+          "years.\""
+        ]
+      },
+      "img": "spacecraft_diagram",
+      "extraHold": 14,
+      "cap": "NASA's own words: \"built to last five years.\"",
+      "tone": "shock"
+    },
+    {
+      "id": "a9",
+      "text": "Nobody designing it in nineteen seventy seven expected anyone to still be listening to it in twenty twenty six.",
+      "img": "cleanroom_assembly",
+      "cap": "Nobody expected this.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a10",
+      "text": "Confusingly, Voyager two left Earth first, on August twentieth, nineteen seventy seven. Voyager one launched second, on September fifth, on a faster, more direct path that would let it arrive at Jupiter months earlier.",
+      "img": "launch_pad_1977",
+      "cap": "\"Voyager 1\" launched second.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a11",
+      "text": "Both rode Titan three E Centaur rockets off the same launch pad in Cape Canaveral, Florida, three weeks apart.",
+      "img": "launch_pad_1977",
+      "cap": "Same launch pad. Three weeks apart.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a11b",
+      "text": "The two spacecraft weren't just similar. They were identical twins, built side by side, so that if one failed outright, the other could still complete the mission alone.",
+      "img": "cleanroom_assembly",
+      "cap": "Built as identical twins. On purpose.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a11c",
+      "text": "That backup plan is exactly what ended up happening, just not the way anyone expected. Both machines survived. It's the plan itself that eventually had to change.",
+      "img": "cleanroom_assembly",
+      "cap": "The backup plan wasn't needed the way they thought.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a12",
+      "text": "Almost nobody talks about how close Voyager one came to never leaving the atmosphere at all.",
+      "img": "launch_pad_1977",
+      "cap": "It almost didn't make it to orbit.",
+      "tone": "shock"
+    },
+    {
+      "id": "a13",
+      "text": "During its own launch, the Titan rocket's first stage burned an off-ratio fuel mixture and shut down early. The Centaur upper stage had to compensate, burning harder than planned to make up the difference.",
+      "img": "launch_pad_1977",
+      "cap": "The rocket burned the wrong fuel mixture.",
+      "tone": "fear"
+    },
+    {
+      "id": "a14",
+      "text": "By the time Voyager one reached a stable trajectory, the Centaur stage had roughly three and a half seconds of fuel left.",
+      "kinetic": {
+        "words": [
+          "3.5",
+          "seconds",
+          "of",
+          "fuel.",
+          "That's",
+          "it."
+        ]
+      },
+      "img": "launch_pad_1977",
+      "extraHold": 12,
+      "cap": "3.5 seconds of fuel to spare.",
+      "tone": "shock"
+    },
+    {
+      "id": "a15",
+      "text": "Three and a half seconds. That was the entire margin between the most photographed spacecraft in NASA's history, and a mission that ends on the launch pad.",
+      "img": "launch_pad_1977",
+      "cap": "The entire margin. Three and a half seconds.",
+      "tone": "fear"
+    },
+    {
+      "id": "a16",
+      "text": "Inside both spacecraft sat six computers, in three redundant pairs, running on a combined clock speed of about eight thousand instructions per second.",
+      "img": "computer_hardware",
+      "query": "Voyager onboard computer flight data subsystem hardware",
+      "cap": "6 computers. ~8,000 instructions per second, combined.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a17",
+      "text": "NASA has run its own comparison. A single smartphone from twenty thirteen could process over fourteen billion instructions per second. That's not a difference in years. That's a difference in kind.",
+      "kinetic": {
+        "words": [
+          "8,000",
+          "vs.",
+          "14,000,000,000",
+          "per",
+          "second."
+        ]
+      },
+      "img": "computer_hardware",
+      "extraHold": 14,
+      "cap": "8,000 vs. 14 billion instructions per second.",
+      "tone": "shock"
+    },
+    {
+      "id": "a18",
+      "text": "Power for both spacecraft comes from three plutonium generators each, converting the heat of radioactive decay directly into electricity. At launch, that produced about four hundred seventy watts. Barely enough to run a couple of hair dryers.",
+      "img": "rtg_powersource",
+      "query": "radioisotope thermoelectric generator RTG spacecraft NASA",
+      "cap": "470 watts at launch. Barely two hair dryers.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a19",
+      "text": "That decay never stops, and it never reverses. Every year, both spacecraft have a little less power than the year before, permanently. That single fact is the reason this whole story exists.",
+      "img": "rtg_powersource",
+      "cap": "It never reverses. Ever.",
+      "extraHold": 12,
+      "tone": "fear"
+    },
+    {
+      "id": "a19b",
+      "text": "To put four hundred seventy watts in perspective: that's roughly what it takes to run four or five ordinary household light bulbs. An entire spacecraft, fifteen billion miles from the nearest wall outlet, running on about as much power as your living room lamp.",
+      "img": "rtg_powersource",
+      "cap": "~470 watts. About 4 or 5 household light bulbs.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c2",
+      "text": "Chapter two. The accident that became a discovery.",
+      "chapter": "CHAPTER TWO\nTHE ACCIDENT THAT BECAME A DISCOVERY",
+      "img": "jupiter_voyager1"
+    },
+    {
+      "id": "b1",
+      "text": "On March fifth, nineteen seventy nine, Voyager one made its closest approach to Jupiter, passing within about three hundred fifty thousand kilometers of the cloud tops.",
+      "img": "jupiter_voyager1",
+      "query": "Jupiter Great Red Spot Voyager 1 image NASA",
+      "cap": "Closest approach: March 5, 1979.",
+      "tone": "awe"
+    },
+    {
+      "id": "b2",
+      "text": "It took almost nineteen thousand pictures of the Jupiter system, and found something nobody had confirmed before: Jupiter has its own, faint ring.",
+      "img": "jupiter_voyager1",
+      "cap": "~19,000 images. And a ring nobody had confirmed.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b2b",
+      "text": "Two NASA probes, Pioneer ten and eleven, had already flown past Jupiter earlier in the decade. But their cameras were far simpler. Next to Voyager's pictures, Pioneer's looked like rough sketches.",
+      "img": "jupiter_voyager1",
+      "cap": "Pioneer went first. Voyager saw it clearly.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b2c",
+      "text": "Voyager one's images are also credited with turning up two more small moons hiding close to Jupiter itself, later named Metis and Thebe.",
+      "img": "jupiter_voyager1",
+      "cap": "Two more moons, found hiding close to Jupiter.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b3",
+      "text": "But the discovery that mattered most almost didn't happen on purpose at all.",
+      "img": "io_pele_plume",
+      "query": "Io volcano plume Voyager 1 NASA image",
+      "cap": "It almost happened by accident.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b4",
+      "text": "Four days after the flyby, a JPL navigation engineer named Linda Morabito was doing routine work, enhancing a picture of Jupiter's moon Io, just to pick out faint background stars for tracking the spacecraft's position.",
+      "img": "io_pele_plume",
+      "cap": "Routine work. Not looking for a discovery.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b5",
+      "text": "On the edge of Io, she saw something that shouldn't have been there. An umbrella-shaped cloud, rising roughly two hundred seventy kilometers off the moon's surface.",
+      "img": "io_pele_plume",
+      "cap": "270 km high. On the edge of the frame.",
+      "extraHold": 10,
+      "tone": "shock"
+    },
+    {
+      "id": "b6",
+      "text": "Her team spent the rest of that day ruling out every boring explanation. A camera glitch. An undiscovered moon passing behind Io. None of it fit.",
+      "img": "io_pele_plume",
+      "cap": "Ruling out every boring explanation. All day.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b7",
+      "text": "What she'd actually found was an active volcano, erupting, on another world. It was later named Pele. It was the first time anyone had ever seen active volcanism happening anywhere but Earth.",
+      "img": "io_pele_plume",
+      "cap": "The first active volcano ever seen off Earth.",
+      "tone": "awe"
+    },
+    {
+      "id": "b8",
+      "text": "By the time scientists finished reviewing Voyager one's full image set of Io, they'd found eight active plumes, not one.",
+      "kinetic": {
+        "words": [
+          "8",
+          "active",
+          "volcanoes.",
+          "Found",
+          "by",
+          "accident."
+        ]
+      },
+      "img": "io_pele_plume",
+      "extraHold": 10,
+      "cap": "8 active volcanoes. Found by accident.",
+      "tone": "awe"
+    },
+    {
+      "id": "b9",
+      "text": "A woman doing routine navigation math, looking for background stars, had just proven that Earth wasn't the only geologically alive world in the solar system.",
+      "img": "io_pele_plume",
+      "cap": "Looking for stars. Found a volcano.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "b9b",
+      "text": "Planetary scientists have been teaching that discovery, and the way it happened, to every generation of students who came after her.",
+      "img": "io_pele_plume",
+      "cap": "Still taught, to every generation since.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "b10",
+      "text": "Voyager one's cameras also caught Jupiter's Great Red Spot as something dynamic for the first time, a storm large enough to swallow Earth, rotating counterclockwise, tangled up with smaller storms feeding in and out of it.",
+      "img": "jupiter_voyager1",
+      "cap": "A storm big enough to swallow Earth.",
+      "tone": "awe"
+    },
+    {
+      "id": "b11",
+      "text": "Jupiter had just stopped being a picture in a textbook, and started being a place with weather.",
+      "img": "jupiter_voyager1",
+      "cap": "A place with weather.",
+      "tone": "awe"
+    },
+    {
+      "id": "b12",
+      "text": "And Jupiter was only the first stop. Both spacecraft still had a much longer road ahead, and one of them was about to make a choice that would end its journey early.",
+      "img": "saturn_voyager1",
+      "query": "Saturn rings Voyager 1 image NASA",
+      "cap": "One of them was about to trade its future away.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c3",
+      "text": "Chapter three. The moon that cost a planet.",
+      "chapter": "CHAPTER THREE\nTHE MOON THAT COST A PLANET",
+      "img": "saturn_voyager1"
+    },
+    {
+      "id": "d1",
+      "text": "On November twelfth, nineteen eighty, Voyager one reached Saturn, passing about one hundred twenty four thousand kilometers from the planet.",
+      "img": "saturn_voyager1",
+      "cap": "Closest approach: November 12, 1980.",
+      "tone": "awe"
+    },
+    {
+      "id": "d2",
+      "text": "It found strange radial \"spoke\" patterns moving through Saturn's rings, five new moons, and a level of structure in the rings nobody had modeled before.",
+      "img": "saturn_voyager1",
+      "cap": "\"Spokes\" moving through the rings. 5 new moons.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d3",
+      "text": "But mission planners had a decision to make, and it came down to one moon: Titan.",
+      "img": "titan_haze",
+      "query": "Titan moon atmosphere haze Voyager NASA image",
+      "cap": "One moon. One decision.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d4",
+      "text": "Titan had a thick atmosphere, mostly nitrogen, so dense that Voyager's cameras couldn't see through it to the surface at all.",
+      "img": "titan_haze",
+      "cap": "So thick, the cameras saw nothing but haze.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d3b",
+      "text": "That single, frustrating, opaque haze is exactly why later missions went back with radar instead of cameras. Voyager didn't just study Titan. It's the reason anyone thought Titan was worth another trip at all.",
+      "img": "titan_haze",
+      "cap": "The reason anyone went back to Titan at all.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d5",
+      "text": "Engineers had studied more than ten thousand possible trajectories. A close pass by Titan, to study that atmosphere properly, and a path onward to Uranus, were mutually exclusive. Voyager one could only do one.",
+      "img": "titan_haze",
+      "cap": "10,000+ trajectories studied. Only one was possible.",
+      "tone": "shock"
+    },
+    {
+      "id": "d6",
+      "text": "NASA chose Titan. The flyby bent Voyager one's path permanently out of the plane the planets orbit in. It would never encounter another planet again.",
+      "kinetic": {
+        "words": [
+          "One",
+          "flyby.",
+          "No",
+          "more",
+          "planets.",
+          "Ever."
+        ]
+      },
+      "img": "titan_haze",
+      "extraHold": 12,
+      "cap": "One moon. No more planets. Ever.",
+      "tone": "shock"
+    },
+    {
+      "id": "d7",
+      "text": "Voyager one's entire future beyond Saturn was traded for one close look at a single moon's clouds.",
+      "img": "titan_haze",
+      "cap": "Its future, traded for one moon's clouds.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "d8",
+      "text": "Voyager two had been launched on a different path specifically to keep the door to Uranus and Neptune open. Now it would have to make that journey alone.",
+      "img": "saturn_voyager1",
+      "cap": "Voyager 2 would have to go it alone.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d9",
+      "text": "On August twenty fifth, nineteen eighty one, Voyager two made its own pass by Saturn. And about a hundred minutes after closest approach, something on board seized up.",
+      "img": "saturn_voyager1",
+      "cap": "100 minutes after closest approach, something failed.",
+      "tone": "fear"
+    },
+    {
+      "id": "d10",
+      "text": "The gearing that aimed its camera platform jammed, from a lubrication failure identical to one that had already hit Voyager one at Jupiter. For several days, Voyager two couldn't reliably point its own cameras.",
+      "img": "saturn_voyager1",
+      "cap": "The camera platform jammed. For several days.",
+      "tone": "fear"
+    },
+    {
+      "id": "d11",
+      "text": "Engineers fifteen hundred million kilometers away had to diagnose and fix a mechanical jam on a machine they could not touch, without losing the one trajectory that still led to two undiscovered planets.",
+      "img": "saturn_voyager1",
+      "cap": "A mechanical jam. Fixed from another planet away.",
+      "tone": "fear"
+    },
+    {
+      "id": "d12",
+      "text": "By August twenty eighth, three days later, they had it working again. The path to Uranus and Neptune was still open.",
+      "img": "saturn_voyager1",
+      "cap": "Fixed in 3 days. The path stayed open.",
+      "tone": "hope"
+    },
+    {
+      "id": "d13",
+      "text": "One spacecraft's journey had just ended at Saturn. The other's was about to go somewhere no machine, before or since, has ever gone.",
+      "img": "uranus_voyager2",
+      "query": "Uranus Voyager 2 image NASA",
+      "cap": "Somewhere no machine has gone. Before or since.",
+      "tone": "awe"
+    },
+    {
+      "id": "c4",
+      "text": "Chapter four. The only spacecraft.",
+      "chapter": "CHAPTER FOUR\nTHE ONLY SPACECRAFT",
+      "img": "uranus_voyager2"
+    },
+    {
+      "id": "e1",
+      "text": "On January twenty fourth, nineteen eighty six, Voyager two flew within about eighty one thousand kilometers of Uranus's cloud tops.",
+      "img": "uranus_voyager2",
+      "cap": "Closest approach: January 24, 1986.",
+      "tone": "awe"
+    },
+    {
+      "id": "e2",
+      "text": "It found eleven new moons, two new rings, and something genuinely strange: Uranus's magnetic field is tilted about fifty nine degrees off its spin axis, and isn't even centered on the planet.",
+      "img": "uranus_voyager2",
+      "cap": "Magnetic field tilted 59°. Off-center.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e3",
+      "text": "No other planet studied works quite like that. As of today, in twenty twenty six, no other spacecraft has ever been back to check.",
+      "img": "uranus_voyager2",
+      "cap": "No spacecraft has ever gone back.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e4",
+      "text": "Three and a half years later, on August twenty fifth, nineteen eighty nine, Voyager two reached Neptune, coming within about forty eight hundred kilometers of the clouds. It remains the closest planetary approach of the entire mission.",
+      "img": "neptune_greatdarkspot",
+      "query": "Neptune Great Dark Spot Voyager 2 image NASA",
+      "cap": "The closest planetary flyby of the whole mission.",
+      "tone": "awe"
+    },
+    {
+      "id": "e5",
+      "text": "That night, JPL turned its own TV studio into Neptune mission control. Engineers crowded around monitors, watching pictures arrive after a four hour trip at the speed of light.",
+      "img": "neptune_greatdarkspot",
+      "cap": "A 4-hour trip, at the speed of light.",
+      "tone": "awe"
+    },
+    {
+      "id": "e6",
+      "text": "What came back was a storm called the Great Dark Spot, with winds measured at over two thousand kilometers an hour, the fastest ever recorded anywhere in the solar system.",
+      "kinetic": {
+        "words": [
+          "2,100",
+          "km/h.",
+          "The",
+          "fastest",
+          "winds",
+          "ever",
+          "measured."
+        ]
+      },
+      "img": "neptune_greatdarkspot",
+      "extraHold": 12,
+      "cap": "2,100 km/h. Fastest winds ever recorded.",
+      "tone": "shock"
+    },
+    {
+      "id": "e7",
+      "text": "And then there was Triton, Neptune's largest moon, one of the coldest surfaces ever measured in the solar system, at about minus two hundred thirty five degrees Celsius.",
+      "img": "triton_geysers",
+      "query": "Triton nitrogen geysers Voyager 2 NASA image",
+      "cap": "-235°C. One of the coldest surfaces known.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e8",
+      "text": "It should have been dead. Instead, Voyager two found active nitrogen geysers, dark plumes climbing eight kilometers into the sky, drifting a hundred fifty kilometers downwind before settling.",
+      "img": "triton_geysers",
+      "cap": "Geysers. On a moon that should be dead.",
+      "extraHold": 10,
+      "tone": "awe"
+    },
+    {
+      "id": "e9",
+      "text": "The morning after the encounter, the sitting Vice President of the United States showed up at JPL personally, to congratulate the team.",
+      "img": "neptune_greatdarkspot",
+      "cap": "The VP showed up the next morning.",
+      "tone": "hope"
+    },
+    {
+      "id": "e10",
+      "text": "As of this year, Voyager two remains the only spacecraft in history to have ever flown past either Uranus or Neptune.",
+      "kinetic": {
+        "words": [
+          "The",
+          "only",
+          "spacecraft.",
+          "Ever."
+        ]
+      },
+      "img": "uranus_voyager2",
+      "extraHold": 14,
+      "cap": "The only spacecraft. Ever.",
+      "tone": "awe"
+    },
+    {
+      "id": "e11",
+      "text": "NASA has a concept for a future mission to Uranus. It has no approved launch date, and realistically wouldn't arrive until sometime in the twenty thirties, at the earliest.",
+      "img": "uranus_voyager2",
+      "cap": "No successor mission is even approved yet.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e11b",
+      "text": "For Neptune, there isn't even a concept. No mission of any kind is currently planned.",
+      "img": "neptune_greatdarkspot",
+      "cap": "For Neptune: no mission planned. At all.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e12",
+      "text": "For at least another decade, and possibly longer, everything humanity knows firsthand about two entire planets still comes from one spacecraft's single pass, in the nineteen eighties.",
+      "img": "uranus_voyager2",
+      "cap": "One pass, in the 1980s. Still the only data we have.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e13",
+      "text": "The Grand Tour was over. But for both spacecraft, the most human part of the mission hadn't happened yet.",
+      "img": "golden_record_prep",
+      "query": "Preparing the Golden Record Voyager NASA photo",
+      "cap": "The most human part hadn't happened yet.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c5",
+      "text": "Chapter five. The message that will never arrive.",
+      "chapter": "CHAPTER FIVE\nTHE MESSAGE THAT WILL NEVER ARRIVE",
+      "img": "golden_record_prep"
+    },
+    {
+      "id": "f1",
+      "text": "Before either spacecraft launched, NASA gave a small committee an unusual assignment: build a message for whoever might find it, someday, out there.",
+      "img": "carl_sagan_portrait",
+      "query": "Carl Sagan portrait photo",
+      "stock": true,
+      "cap": "A message. For whoever finds it.",
+      "tone": "awe"
+    },
+    {
+      "id": "f2",
+      "text": "The committee was chaired by astronomer Carl Sagan. Alongside him: Frank Drake, artist Jon Lomberg, music producer Timothy Ferris, and a young writer named Ann Druyan.",
+      "img": "carl_sagan_portrait",
+      "cap": "Chaired by Carl Sagan.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f3",
+      "text": "On June third, nineteen seventy seven, two days after Sagan and Druyan privately told each other they were in love, Druyan sat down and recorded her own brainwaves and heartbeat, to be encoded onto the record. She was thinking about him the whole time.",
+      "img": "golden_record_prep",
+      "cap": "She recorded her own heartbeat. Thinking of him.",
+      "extraHold": 12,
+      "tone": "melancholy"
+    },
+    {
+      "id": "f4",
+      "text": "Neither of them knew yet whether the record would even be approved. It was, days later.",
+      "img": "golden_record_prep",
+      "cap": "They didn't even know it was approved yet.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f5",
+      "text": "What they built was a twelve inch, gold plated copper disc, packed with a needle and cartridge to play it, sealed in a protective aluminum jacket.",
+      "img": "golden_record_prep",
+      "cap": "Gold-plated copper. Its own needle, included.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f6",
+      "text": "On it: one hundred fifteen images of Earth and its life. Spoken greetings in fifty five languages, opening with Akkadian, a language six thousand years dead, and closing with a dialect of Chinese.",
+      "kinetic": {
+        "count": 115,
+        "suffix": " images",
+        "sub": "Encoded onto the record, alongside 55 spoken languages"
+      },
+      "img": "golden_record_prep",
+      "extraHold": 10,
+      "cap": "115 images. Greetings in 55 languages.",
+      "tone": "awe"
+    },
+    {
+      "id": "f7",
+      "text": "And ninety minutes of music. Bach. Mozart. Beethoven. Chuck Berry's \"Johnny B. Goode.\" A blues recording by Blind Willie Johnson, made in the nineteen twenties. Folk music from Peru, New Guinea, and Senegal.",
+      "img": "golden_record_prep",
+      "cap": "90 minutes of music. From Bach to Chuck Berry.",
+      "tone": "awe"
+    },
+    {
+      "id": "f8",
+      "text": "The record's cover is a diagram, showing how to play it, and where Earth is, marked using the positions of fourteen pulsars, cosmic lighthouses whose blink rate works like a timestamp.",
+      "img": "golden_record_diagram",
+      "query": "Voyager Golden Record cover diagram pulsar map",
+      "cap": "A map to Earth, made of pulsars.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f8b",
+      "text": "Even the diagram's clock isn't measured in seconds. It's built on a single tick of the hydrogen atom, the most common element in the universe, so that any civilization advanced enough to find the record would already recognize the unit being used.",
+      "img": "golden_record_diagram",
+      "cap": "The clock isn't seconds. It's a hydrogen atom's tick.",
+      "tone": "awe"
+    },
+    {
+      "id": "f9",
+      "text": "Here's what almost nobody explains clearly: this was never meant as a message anyone would actually receive.",
+      "img": "golden_record_diagram",
+      "cap": "It was never meant to actually be received.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f10",
+      "text": "In roughly forty thousand years, Voyager one will pass within about one point seven light years of a star called Gliese four forty five. Not because that star is close now, but because of how both objects happen to be moving.",
+      "kinetic": {
+        "words": [
+          "40,000",
+          "years.",
+          "One",
+          "star.",
+          "A",
+          "coin",
+          "flip."
+        ]
+      },
+      "img": "milkyway_stars",
+      "extraHold": 12,
+      "cap": "40,000 years. One star. That's the whole plan.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "f11",
+      "text": "Sagan himself said it plainly: the record would only ever be found and played if there are spacefaring civilizations out there in interstellar space to find it. He wasn't being modest. He knew exactly how unlikely that was.",
+      "img": "carl_sagan_portrait",
+      "cap": "\"If there are spacefaring civilizations.\"",
+      "tone": "melancholy"
+    },
+    {
+      "id": "f12",
+      "text": "It is, functionally, a message in a bottle, thrown into an ocean with no shore for forty thousand years.",
+      "img": "milkyway_stars",
+      "cap": "A bottle. An ocean with no shore.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "f13",
+      "text": "There's a story that gets repeated a lot: that the Beatles' \"Here Comes the Sun\" was blocked from the record over a copyright dispute. The record's own music producer has said that's not true, the song was never seriously being considered in the first place.",
+      "img": "golden_record_prep",
+      "cap": "A famous rumor. Its own producer disputes it.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f14",
+      "text": "What's real is stranger than the rumor. A committee of a handful of people, working in nineteen seventy seven, decided what would represent every human being who has ever lived, to anyone who might someday find it.",
+      "img": "golden_record_diagram",
+      "cap": "A handful of people. Deciding for everyone.",
+      "tone": "awe"
+    },
+    {
+      "id": "f15",
+      "text": "That record is still bolted to the outside of Voyager one, right now, fifteen billion miles from the people who made it.",
+      "img": "golden_record_prep",
+      "cap": "Still out there. 15 billion miles away.",
+      "extraHold": 10,
+      "tone": "awe"
+    },
+    {
+      "id": "f15b",
+      "text": "Nobody has played that exact record since the day it launched. Only test copies, kept on the ground, have ever actually been listened to.",
+      "img": "golden_record_prep",
+      "cap": "Never played. Not once. Since launch day.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "f16",
+      "text": "But before Voyager one carried that record into the dark for good, it did one more thing for the people back home. It looked back.",
+      "img": "pale_blue_dot_photo",
+      "query": "Pale Blue Dot Voyager photograph Earth NASA",
+      "cap": "One more thing. It looked back.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c6",
+      "text": "Chapter six. The photograph Sagan had to fight for.",
+      "chapter": "CHAPTER SIX\nTHE PHOTOGRAPH SAGAN HAD TO FIGHT FOR",
+      "img": "pale_blue_dot_photo"
+    },
+    {
+      "id": "g1",
+      "text": "By nineteen ninety, Voyager one's planetary mission had been over for almost a decade. Its cameras were about to be shut off for good, to save power. Carl Sagan had one request left.",
+      "cap": "One request left. Turn the camera around.",
+      "tone": "curiosity",
+      "img": "pale_blue_dot_photo",
+      "camera": "push"
+    },
+    {
+      "id": "g2",
+      "text": "He wanted the spacecraft to turn back and take one picture of home. NASA's own engineers pushed back for years, worried about pointing the camera anywhere near the sun.",
+      "cap": "NASA's own engineers pushed back. For years.",
+      "tone": "fear",
+      "img": "pale_blue_dot_photo",
+      "camera": "push"
+    },
+    {
+      "id": "g3",
+      "text": "It took eight years, and six separate requests, before Sagan got his answer.",
+      "kinetic": {
+        "words": [
+          "8",
+          "years.",
+          "6",
+          "requests.",
+          "One",
+          "photo."
+        ]
+      },
+      "img": "pale_blue_dot_photo",
+      "extraHold": 12,
+      "cap": "8 years. 6 requests.",
+      "tone": "shock"
+    },
+    {
+      "id": "g4",
+      "text": "On February fourteenth, nineteen ninety, from about three point seven billion miles away, Voyager one turned its camera back toward the inner solar system and took sixty pictures, forming what NASA called the Family Portrait.",
+      "cap": "February 14, 1990. 3.7 billion miles out.",
+      "tone": "awe",
+      "img": "pale_blue_dot_photo",
+      "camera": "push"
+    },
+    {
+      "id": "g4b",
+      "text": "Neptune. Uranus. Saturn. Jupiter. Venus. And Earth. Mercury, Mars, and Pluto were simply too faint, or too close to the sun's glare, to show up at all.",
+      "img": "pale_blue_dot_photo",
+      "cap": "6 planets caught. 3 too faint to appear.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "g5",
+      "text": "In one of those frames sits Earth. Less than a single pixel wide.",
+      "img": "pale_blue_dot_photo",
+      "extraHold": 14,
+      "cap": "Earth. Less than one pixel.",
+      "tone": "awe"
+    },
+    {
+      "id": "g6",
+      "text": "There's a stripe of light running through the frame, and people often assume that's sunlight falling on Earth. It isn't. It's scattered light bouncing around inside the camera itself, from shooting this close to the sun. Earth just happened to land inside it.",
+      "img": "pale_blue_dot_photo",
+      "cap": "The \"sunbeam\" isn't sunlight. It's a camera artifact.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "g7",
+      "text": "A coincidence turned it into the most famous photograph of Earth ever taken.",
+      "img": "pale_blue_dot_photo",
+      "cap": "A coincidence. Became the most famous photo of Earth.",
+      "tone": "awe"
+    },
+    {
+      "id": "g8",
+      "text": "This wasn't the first photograph of Earth from space. That goes back to the nineteen forties. It was the first time humanity had ever seen itself from the edge of its own solar system.",
+      "img": "pale_blue_dot_photo",
+      "cap": "The first time we saw ourselves from the edge.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "g9",
+      "text": "Sagan later wrote the words that made the photo famous. His own, exact sentence: \"Look again at that dot. That's here. That's home. That's us.\"",
+      "img": "pale_blue_dot_photo",
+      "cap": "\"That's here. That's home. That's us.\"",
+      "tone": "melancholy"
+    },
+    {
+      "id": "g10",
+      "text": "\"On it, everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives.\"",
+      "img": "pale_blue_dot_photo",
+      "extraHold": 10,
+      "cap": "\"Every human being who ever was.\"",
+      "tone": "melancholy"
+    },
+    {
+      "id": "g11",
+      "text": "\"Every saint and sinner in the history of our species, lived there, on a mote of dust, suspended in a sunbeam.\"",
+      "img": "pale_blue_dot_photo",
+      "extraHold": 16,
+      "cap": "\"A mote of dust, suspended in a sunbeam.\"",
+      "tone": "melancholy"
+    },
+    {
+      "id": "g12",
+      "text": "With that photo taken, Voyager one's cameras went dark, permanently, to save what little power was left for the journey still ahead.",
+      "img": "pale_blue_dot_photo",
+      "cap": "The cameras went dark. Permanently.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c7",
+      "text": "Chapter seven. The edge that isn't an edge.",
+      "chapter": "CHAPTER SEVEN\nTHE EDGE THAT ISN'T AN EDGE",
+      "img": "heliopause_diagram"
+    },
+    {
+      "id": "i1",
+      "text": "For decades after the photograph, both spacecraft kept flying outward, past the planets, past anything the Sun's light could meaningfully reach, toward a boundary nobody had ever actually measured.",
+      "img": "heliopause_diagram",
+      "query": "heliopause interstellar boundary diagram NASA illustration",
+      "cap": "A boundary nobody had ever measured.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "i2",
+      "text": "It's called the heliopause, the place where the pressure of the Sun's own solar wind finally gives out against the pressure of the wider galaxy.",
+      "img": "heliopause_diagram",
+      "note": "labeled DATA VISUALIZATION on screen -- this is a diagram, not real photography",
+      "cap": "DATA VISUALIZATION",
+      "tone": "curiosity"
+    },
+    {
+      "id": "i3",
+      "text": "There is no wall out there. No line to see, no camera could have caught it, because Voyager one's cameras were already off.",
+      "img": "heliopause_diagram",
+      "cap": "No wall. No line. No camera running.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "i4",
+      "text": "So NASA measured it a different way. Voyager one's instruments detected a sudden jump in the density of charged particles around the spacecraft, triggered by a burst of activity from the Sun, that let the plasma wave instrument essentially \"hear\" the difference.",
+      "img": "heliopause_diagram",
+      "cap": "It didn't see the boundary. It heard it.",
+      "tone": "awe"
+    },
+    {
+      "id": "i5",
+      "text": "That crossing happened on August twenty fifth, twenty twelve, about eleven billion miles from the Sun. NASA didn't announce it until over a year later, once the data was fully confirmed.",
+      "kinetic": {
+        "words": [
+          "August",
+          "25,",
+          "2012.",
+          "11",
+          "billion",
+          "miles."
+        ]
+      },
+      "img": "heliopause_diagram",
+      "extraHold": 10,
+      "cap": "August 25, 2012. 11 billion miles out.",
+      "tone": "awe"
+    },
+    {
+      "id": "i6",
+      "text": "Voyager two crossed its own version of that same boundary on November fifth, twenty eighteen, and this time its plasma instrument was still working, so the confirmation came almost immediately.",
+      "img": "heliopause_diagram",
+      "cap": "Voyager 2 crossed on November 5, 2018.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "i7",
+      "text": "Every headline called this \"leaving the solar system.\" That's not quite right, and it matters.",
+      "img": "milkyway_stars",
+      "cap": "\"Left the solar system\"? Not quite.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "i8",
+      "text": "Both spacecraft are still gravitationally bound to the Sun. They're still inside the outer edge of the Oort Cloud, the Sun's own sphere of influence, which they won't even reach for another three hundred years, and won't fully clear for another thirty thousand.",
+      "img": "milkyway_stars",
+      "cap": "Still bound to the Sun. For 30,000 more years.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "i9",
+      "text": "They crossed into interstellar space. They didn't leave home.",
+      "img": "milkyway_stars",
+      "cap": "Interstellar space. Not \"leaving home.\"",
+      "tone": "melancholy"
+    },
+    {
+      "id": "i9b",
+      "text": "NASA had already sent two other spacecraft out ahead of them, Pioneer ten and eleven, in the early nineteen seventies. Both went silent years ago, one in nineteen ninety five, the other in two thousand three.",
+      "img": "milkyway_stars",
+      "cap": "Pioneer 10 and 11 went silent years ago.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "i9c",
+      "text": "Both Voyagers have already outlasted every other deep space mission NASA has ever flown. And in twenty twenty six, they're still not done.",
+      "img": "milkyway_stars",
+      "cap": "Already outlasted every other deep-space mission NASA has flown.",
+      "tone": "awe"
+    },
+    {
+      "id": "i10",
+      "text": "Two machines built for a five year trip to two planets had just become the only human-made objects ever confirmed to be traveling through the space between stars.",
+      "video": "milkyway_timelapse_1.mp4",
+      "videoQuery": "Milky Way stars night sky timelapse",
+      "cap": "The only human-made objects out there. Period.",
+      "tone": "awe"
+    },
+    {
+      "id": "dsn1",
+      "text": "None of these discoveries would ever reach us at all, without something built specifically to listen this far.",
+      "img": "dsn_dish",
+      "query": "NASA Deep Space Network antenna dish",
+      "cap": "Something built specifically to listen this far.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "dsn2",
+      "text": "NASA calls it the Deep Space Network: giant dish antennas grouped into three complexes, one in California, one in Spain, one in Australia, spaced out across the globe.",
+      "img": "goldstone_dish_still",
+      "query": "Goldstone Deep Space Network antenna dish",
+      "cap": "3 complexes. California, Spain, Australia.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "dsn3",
+      "text": "That spacing isn't decorative. As the Earth spins underneath both spacecraft, at least one of those three complexes always has a clear line of sight, so the connection never actually has to break.",
+      "video": "dsn_dish_3.mp4",
+      "cap": "As the Earth turns, one dish is always listening.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "dsn4",
+      "text": "By the time Voyager one's signal reaches one of those dishes today, it has already been travelling, non-stop, for more than twenty two hours.",
+      "img": "goldstone_dish_still",
+      "cap": "22+ hours of travel. One way. Every time.",
+      "extraHold": 8,
+      "tone": "awe"
+    },
+    {
+      "id": "dsn5",
+      "text": "Every command NASA has ever sent this mission, and every answer that ever came back, rode on that same network of dishes, built decades before anyone could guess where this would end up.",
+      "img": "dsn_dish",
+      "cap": "Every command. Every answer. The same dishes, decades later.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "i11",
+      "text": "And still, every single day, they kept sending data home. Until one day, in twenty twenty three, one of them stopped making sense.",
+      "img": "milkyway_stars",
+      "cap": "Until, in 2023, one stopped making sense.",
+      "tone": "fear"
+    },
+    {
+      "id": "c8",
+      "text": "Chapter eight. The glitch nobody alive could fully explain.",
+      "chapter": "CHAPTER EIGHT\nTHE GLITCH NOBODY ALIVE COULD FULLY EXPLAIN",
+      "img": "computer_hardware"
+    },
+    {
+      "id": "j1",
+      "text": "On November fourteenth, twenty twenty three, Voyager one started sending back data that made no sense. Not silence. Something worse: a signal, arriving on schedule, that was just noise.",
+      "img": "computer_hardware",
+      "cap": "A signal. Arriving on schedule. Making no sense.",
+      "tone": "fear"
+    },
+    {
+      "id": "j2",
+      "text": "For five months, that's all anyone on Earth got. Repeating gibberish, from a spacecraft that was clearly still alive, but couldn't say anything that meant anything.",
+      "img": "computer_hardware",
+      "cap": "5 months of gibberish. Still alive. Saying nothing.",
+      "tone": "fear"
+    },
+    {
+      "id": "j3",
+      "text": "Engineers eventually traced it to one failed computer chip, inside the Flight Data Subsystem, holding roughly three percent of that system's memory, including code the spacecraft actually needed to run.",
+      "img": "computer_hardware",
+      "cap": "One failed chip. 3% of the memory. Including live code.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "j4",
+      "text": "Nobody knows exactly why it failed. Maybe it simply wore out after forty six years. Maybe a single particle of cosmic radiation hit exactly the wrong spot.",
+      "img": "cleanroom_assembly",
+      "cap": "Nobody knows exactly why. Age, or a stray particle.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "j5",
+      "text": "You cannot send a repair technician fifteen billion miles. You cannot even send a replacement part. Whatever fixed this had to be a fix made entirely of new instructions, sent over the radio.",
+      "img": "cleanroom_assembly",
+      "cap": "No technician. No parts. Only radio commands.",
+      "tone": "fear"
+    },
+    {
+      "id": "j6",
+      "text": "Voyager's project manager, Suzanne Dodd, put the real problem into words that stuck with a lot of people. \"The people that built the spacecraft are not alive anymore.\"",
+      "img": "suzanne_dodd_portrait",
+      "query": "Suzanne Dodd NASA JPL Voyager project manager",
+      "stock": true,
+      "cap": "\"The people that built it are not alive anymore.\"",
+      "extraHold": 10,
+      "tone": "melancholy"
+    },
+    {
+      "id": "j7",
+      "text": "There was no living engineer left to just call up and ask. Dodd described the process bluntly, as \"an archaeology dig,\" hunting through decades-old paper documentation that had never been digitized.",
+      "img": "cleanroom_assembly",
+      "cap": "\"An archaeology dig.\" Through paper, not files.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "j8",
+      "text": "Their solution was almost absurdly simple, once someone thought of it. They couldn't fix the broken chip. So they split the code that used to live there into smaller pieces, and hid those pieces in other parts of memory that still worked, rewriting every reference so the program would still run as one piece.",
+      "img": "computer_hardware",
+      "cap": "Split the code. Hide it in memory that still worked.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "j9",
+      "text": "On April eighteenth, twenty twenty four, engineers sent up the first relocated block of code.",
+      "img": "team_celebrates_2024",
+      "query": "Voyager team celebrates engineering data NASA 2024",
+      "cap": "April 18, 2024. The first fix, sent.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "j10",
+      "text": "Each command took over twenty two hours just to arrive. Then they had to wait again, just as long, for any answer at all.",
+      "kinetic": {
+        "words": [
+          "22+",
+          "hours,",
+          "one",
+          "way.",
+          "Then",
+          "wait",
+          "again."
+        ]
+      },
+      "img": "team_celebrates_2024",
+      "extraHold": 10,
+      "tone": "fear"
+    },
+    {
+      "id": "j11",
+      "text": "On April twentieth, twenty twenty four, the answer came back. Usable, readable engineering data, for the first time in five months.",
+      "img": "team_celebrates_2024",
+      "cap": "April 20, 2024. It worked.",
+      "extraHold": 8,
+      "tone": "hope"
+    },
+    {
+      "id": "j12",
+      "text": "By June of that year, full science data was flowing again from every instrument that was still switched on.",
+      "img": "team_celebrates_2024",
+      "cap": "Full science data, back by June 2024.",
+      "tone": "hope"
+    },
+    {
+      "id": "j13",
+      "text": "A team that had never met the engineers who wrote the original code had just repaired a nineteen seventies computer, from fifteen billion miles away, using nothing but patience and forty-four-hour round trips.",
+      "img": "team_celebrates_2024",
+      "cap": "Fixed from 15 billion miles. With patience.",
+      "tone": "awe"
+    },
+    {
+      "id": "j14",
+      "text": "It was a genuine reprieve. But it didn't touch the one problem nobody can ever patch with new code.",
+      "img": "rtg_powersource",
+      "cap": "One problem no code can ever fix.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c9",
+      "text": "Chapter nine. The slow goodbye.",
+      "chapter": "CHAPTER NINE\nTHE SLOW GOODBYE",
+      "img": "rtg_powersource"
+    },
+    {
+      "id": "k1",
+      "text": "The power problem was never a malfunction. It was always the plan, working exactly as physics predicted it would.",
+      "img": "rtg_powersource",
+      "cap": "Never a malfunction. Always the plan.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "k2",
+      "text": "Both spacecraft's plutonium generators lose roughly four watts of output every single year, permanently. By late twenty twenty three, Voyager one was down to about two hundred twenty five watts, less than half of what it had at launch.",
+      "img": "rtg_powersource",
+      "cap": "470W at launch. ~225W by 2023.",
+      "tone": "fear"
+    },
+    {
+      "id": "k3",
+      "text": "There is no fix for that. There is only rationing.",
+      "img": "rtg_powersource",
+      "cap": "No fix. Only rationing.",
+      "tone": "fear"
+    },
+    {
+      "id": "k3b",
+      "text": "None of this is sentimental. The instruments still switched on are still returning real data nothing else in existence can collect, direct measurements of the magnetic fields and particles of interstellar space itself.",
+      "img": "rtg_powersource",
+      "cap": "Real data. Nothing else can collect it.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "k3c",
+      "text": "That's the actual reason engineers are fighting this hard over every last watt. Not nostalgia. Science that, right now, only these two machines can still do.",
+      "img": "rtg_powersource",
+      "cap": "Not nostalgia. Science only these two can still do.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "k4",
+      "text": "So, one instrument at a time, NASA has been permanently switching parts of both spacecraft off, on purpose, to keep something, anything, alive a little longer.",
+      "img": "rtg_powersource",
+      "cap": "One instrument at a time. On purpose.",
+      "tone": "fear"
+    },
+    {
+      "id": "k5",
+      "text": "Voyager one's cosmic ray subsystem went dark on February twenty fifth, twenty twenty five. Voyager two's low energy charged particle instrument went dark a month later, on March twenty fourth.",
+      "img": "rtg_powersource",
+      "cap": "Feb 25, 2025. March 24, 2025.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "k6",
+      "text": "Then, on April seventeenth, twenty twenty six, Voyager one's own low energy charged particle instrument went dark too. It had run almost continuously since launch, in nineteen seventy seven. Forty nine straight years, gone in one command.",
+      "kinetic": {
+        "words": [
+          "49",
+          "years",
+          "running.",
+          "Off,",
+          "in",
+          "one",
+          "command."
+        ]
+      },
+      "img": "goldstone_dish_still",
+      "extraHold": 12,
+      "cap": "49 years running. Off, in one command.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "k7",
+      "text": "Voyager one is now down to just two working instruments: a magnetometer, and the plasma wave subsystem that first heard the boundary of interstellar space back in twenty twelve.",
+      "img": "goldstone_dish_still",
+      "cap": "Down to just 2 instruments.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "k7b",
+      "text": "On February twenty seventh, twenty twenty six, a routine roll maneuver caused a power dip that nearly tripped Voyager one's own undervoltage protection, the safety system that shuts things down automatically before the spacecraft loses power completely.",
+      "img": "rtg_powersource",
+      "cap": "Feb 27, 2026: a routine maneuver nearly tripped it.",
+      "tone": "fear"
+    },
+    {
+      "id": "k7c",
+      "text": "It didn't trip. But it was close enough that it changed how urgently engineers were treating the power problem.",
+      "img": "rtg_powersource",
+      "cap": "It didn't trip. It was close enough to matter.",
+      "tone": "fear"
+    },
+    {
+      "id": "k8",
+      "text": "So this year, engineers tried something they'd never risked before, on a spacecraft this fragile.",
+      "img": "goldstone_dish_still",
+      "cap": "Something they'd never risked before.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "k9",
+      "text": "Internally, they call it the \"Big Bang\" maneuver. Instead of just shutting an instrument off, they swap groups of powered components for lower-power alternatives, all at once, while keeping the spacecraft just warm enough to keep working.",
+      "img": "cleanroom_assembly",
+      "cap": "The \"Big Bang\" maneuver.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "k10",
+      "text": "They tested it on Voyager two first, in July of twenty twenty six. It worked. NASA confirmed it in early August: the maneuver bought Voyager two's three remaining instruments roughly one more year of life. Without it, another one would have gone dark before the end of this year.",
+      "img": "rtg_powersource",
+      "cap": "Bought one more year. Confirmed early August 2026.",
+      "extraHold": 10,
+      "tone": "hope"
+    },
+    {
+      "id": "k11",
+      "text": "A test of the same trick on Voyager one, in late July, also went smoothly, according to the mission's own manager, Kareem Badaruddin.",
+      "img": "goldstone_dish_still",
+      "cap": "Tested on Voyager 1 too. \"Went remarkably smoothly.\"",
+      "tone": "hope"
+    },
+    {
+      "id": "k12",
+      "text": "There's even a real chance the instrument shut off in April could be switched back on, if the fix holds. That has never happened before in this mission. Power has only ever gone one direction.",
+      "img": "rtg_powersource",
+      "cap": "A real chance to switch one back ON.",
+      "tone": "hope"
+    },
+    {
+      "id": "k13",
+      "text": "None of this changes where this ends. It only changes when. NASA's own current estimate is that at least one instrument on each spacecraft can keep running into the twenty thirties.",
+      "img": "rtg_powersource",
+      "cap": "Not \"if.\" Just \"when.\"",
+      "tone": "melancholy"
+    },
+    {
+      "id": "k14",
+      "text": "Even after every science instrument finally goes dark, NASA believes a bare engineering signal, no data, just a heartbeat, could keep reaching Earth's antennas until around twenty thirty six.",
+      "img": "goldstone_dish_still",
+      "cap": "A bare heartbeat, possibly until 2036.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "k15",
+      "text": "After that, both spacecraft keep flying anyway. Silent, forever, in their own independent orbit around the center of the Milky Way, once every roughly two hundred twenty five million years.",
+      "img": "milkyway_stars",
+      "cap": "Orbiting the Milky Way. Every 225 million years.",
+      "tone": "awe"
+    },
+    {
+      "id": "k16",
+      "text": "NASA's own words for it: they will wander the galaxy for billions of years. Longer than our own sun has left to burn.",
+      "img": "milkyway_stars",
+      "extraHold": 10,
+      "cap": "Billions of years. Longer than the Sun has left.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "k17",
+      "text": "Still carrying that gold record. Still carrying Ann Druyan's heartbeat. Long after everyone who built them, loved them, or listened to them, is gone.",
+      "img": "golden_record_prep",
+      "extraHold": 14,
+      "cap": "Long after everyone who built them is gone.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "l1",
+      "text": "There's one more real thing Voyager one left behind, and you can actually listen to it yourself.",
+      "img": "milkyway_stars",
+      "cap": "One more real thing, you can actually hear.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "l2",
+      "text": "That plasma wave instrument, the same one that first detected the crossing into interstellar space in twenty twelve, wasn't built to record sound. Space is a vacuum. There's nothing for sound to travel through.",
+      "img": "heliopause_diagram",
+      "cap": "Space is silent. There's no air to carry sound.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "l3",
+      "text": "But it does measure oscillations in the plasma around the spacecraft, vibrations that NASA can shift into the range of human hearing, the same way you'd slow down a bat call so people can hear it.",
+      "img": "heliopause_diagram",
+      "cap": "Plasma vibrations, shifted into human hearing range.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "l4",
+      "text": "NASA released that recording publicly, under a plain, honest title: \"Voyager Captures Sounds of Interstellar Space.\"",
+      "img": "milkyway_stars",
+      "cap": "\"Voyager Captures Sounds of Interstellar Space.\" Real. Public.",
+      "tone": "awe"
+    },
+    {
+      "id": "l5",
+      "text": "It isn't music. It's data, made audible. An eerie, rising drone, recorded fifteen billion miles from every sound that has ever been heard by a human ear.",
+      "img": "milkyway_stars",
+      "extraHold": 10,
+      "cap": "Data, made audible. From 15 billion miles out.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda0",
+      "text": "Ed Stone took this job in nineteen seventy two, and never really left it, for fifty years. He never got to see it end, either. Nobody has, yet.",
+      "img": "ed_stone_portrait",
+      "cap": "50 years on the job. He never saw it end.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda1",
+      "text": "What stays with me about this story isn't the distance. It's the decision.",
+      "img": "milkyway_stars",
+      "cap": "What stays with me.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda2",
+      "text": "Nobody is choosing to let Voyager die by accident. Every single shutdown is a person, in a room, on Earth, deciding exactly which part of a forty nine year old machine gets to keep talking, and which part goes quiet first.",
+      "img": "team_celebrates_2024",
+      "cap": "A person, in a room, deciding what goes quiet first.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda3",
+      "text": "It was built to last five years. Nobody who designed it is still running the mission. Almost nobody who built it is still alive. And it is still, right now, tonight, sending something home.",
+      "img": "dsn_dish",
+      "extraHold": 12,
+      "cap": "Right now. Tonight. Still sending something home.",
+      "tone": "awe"
+    },
+    {
+      "id": "coda4",
+      "text": "Someday, the signal stops for good. Nobody knows the exact date. But the record keeps flying, whether or not anyone is left listening.",
+      "img": "milkyway_stars",
+      "extraHold": 16,
+      "cap": "The record keeps flying either way.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "bridge",
+      "text": "If a machine built for five years, still running after forty nine, doesn't sound strange enough, wait until you see the star astronomers just found orbiting Betelgeuse, hidden in plain sight for over a century.",
+      "cap": "Watch next: the hidden star at Betelgeuse.",
+      "tone": "curiosity",
+      "img": "milkyway_stars"
+    },
+    {
+      "id": "end",
+      "text": "Subscribe to mindwired.",
+      "chapter": "SUBSCRIBE",
+      "img": "milkyway_stars"
+    }
+  ]
+}
