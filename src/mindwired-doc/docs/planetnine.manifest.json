@@ -1,0 +1,107 @@
+{
+ "durations": {
+  "h1": 6.348,
+  "h2": 5.799,
+  "h3": 6.348,
+  "h4": 6.687,
+  "h5": 6.034,
+  "h6": 9.874,
+  "sting": 1.567,
+  "title": 11.076,
+  "c1": 2.429,
+  "a1": 9.247,
+  "a2": 10.371,
+  "a3": 8.594,
+  "a4": 9.091,
+  "a5": 10.684,
+  "a6": 7.314,
+  "c2": 2.926,
+  "b1": 10.266,
+  "b2": 10.606,
+  "b3": 9.326,
+  "b4": 9.953,
+  "b5": 7.889,
+  "b6": 9.404,
+  "b7": 14.106,
+  "b8": 9.404,
+  "c3": 3.004,
+  "d1": 7.393,
+  "d2": 9.091,
+  "d3": 12.356,
+  "d4": 8.359,
+  "d5": 11.729,
+  "c4": 2.351,
+  "e1": 8.594,
+  "e2": 9.796,
+  "e3": 7.706,
+  "e4": 9.326,
+  "e5": 8.281,
+  "e6": 10.919,
+  "e7": 6.844,
+  "c5": 2.691,
+  "f1": 5.799,
+  "f2": 9.247,
+  "f3": 14.367,
+  "f4": 11.311,
+  "f5": 8.908,
+  "f6": 11.233,
+  "f7": 13.166,
+  "f8": 10.109,
+  "f9": 10.762,
+  "c6": 2.769,
+  "g1": 11.389,
+  "g2": 9.326,
+  "g3": 12.434,
+  "g4": 9.796,
+  "g5": 10.919,
+  "g6": 6.687,
+  "c7": 2.586,
+  "i1": 8.202,
+  "i2": 12.042,
+  "i3": 9.561,
+  "i4": 13.244,
+  "i5": 15.647,
+  "i6": 7.967,
+  "coda1": 4.754,
+  "coda2": 9.953,
+  "coda3": 14.681,
+  "coda4": 6.922,
+  "bridge": 11.886,
+  "end": 1.567
+ },
+ "images": {
+  "batygin_portrait": [
+   "batygin_portrait_1.jpg"
+  ],
+  "caltech_illustration": [
+   "caltech_illustration_1.jpg"
+  ],
+  "mike_brown_portrait": [
+   "mike_brown_portrait_1.jpg"
+  ],
+  "orbit_diagram": [
+   "orbit_diagram_1.jpg"
+  ],
+  "palomar_observatory": [
+   "palomar_observatory_1.jpg",
+   "palomar_observatory_2.jpg"
+  ],
+  "pluto_newhorizons": [
+   "pluto_newhorizons_1.jpg",
+   "pluto_newhorizons_2.jpg",
+   "pluto_newhorizons_3.jpg"
+  ],
+  "rubin_observatory_still": [
+   "rubin_observatory_still_1.jpg"
+  ],
+  "starfield": [
+   "starfield_1.jpg"
+  ],
+  "subaru_telescope": [
+   "subaru_telescope_1.jpg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.96,
+ "mouth": {}
+}

@@ -90,6 +90,8 @@ import tunguskaDoc from "./mindwired-doc/docs/tunguska.json";
 import tunguskaManifest from "./mindwired-doc/docs/tunguska.manifest.json";
 import voyager1Doc from "./mindwired-doc/docs/voyager1.json";
 import voyager1Manifest from "./mindwired-doc/docs/voyager1.manifest.json";
+import planetnineDoc from "./mindwired-doc/docs/planetnine.json";
+import planetnineManifest from "./mindwired-doc/docs/planetnine.manifest.json";
 import astronautsScaredDoc from "./mindwired-doc/docs/astronautsscared.json";
 import astronautsScaredManifest from "./mindwired-doc/docs/astronautsscared.manifest.json";
 import issInsideDoc from "./mindwired-doc/docs/issinside.json";
@@ -1568,6 +1570,23 @@ export const RemotionRoot: React.FC = () => {
         id="Voyager1Doc"
         component={makeDocComp(voyager1Doc, voyager1Manifest, MW_OUTRO)}
         durationInFrames={docTotalFrames(voyager1Doc, voyager1Manifest, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── mindwired — Planet Nine (the undiscovered planet hypothesis)
+             Icahn: icahn-planetnine, PASS-WITH-CONDITIONS, winner of a
+             6-candidate re-sweep after Betelgeuse was declined for weak
+             ratios. Real Caltech-sourced evidence diagram + artist concept
+             (both clearly labeled), real NOIRLab Rubin Observatory drone
+             footage for the cold open, real Batygin/Brown Caltech photo.
+             Locked title: "They've Never Seen It. They're Sure It's There."
+             MW subscribe outro baked. ── */}
+      <Composition
+        id="PlanetNineDoc"
+        component={makeDocComp(planetnineDoc, planetnineManifest, MW_OUTRO)}
+        durationInFrames={docTotalFrames(planetnineDoc, planetnineManifest, MW_OUTRO)}
         fps={30}
         width={1920}
         height={1080}

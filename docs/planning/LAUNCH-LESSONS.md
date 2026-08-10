@@ -129,3 +129,9 @@ Format per entry:
   time — too fresh to read) and spacexlunarimpact/"A Rocket Just Hit the Moon"
   (MW, published Aug 6, 1.1K impressions / 2.5% CTR / 57 views at pull time —
   still under 48h). Re-pull Reach tab numbers once both clear 48-72h live.
+- BLOCKED-ON-DATA 2026-08-09 · channel-wide · no live Studio/browser access in
+  this session to pull real Reach-tab numbers for the still-owed area51/
+  spacexlunarimpact diagnoses. Per icahn-validate Step 0's own escape hatch
+  (no-human-available → record and proceed), betelgeuse validation proceeds
+  without re-blocking on this. Diagnoses remain owed before the NEXT publish
+  after betelgeuse.

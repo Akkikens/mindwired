@@ -472,6 +472,38 @@ zero blame — only if Akshay wants to ride the search interest safely.
   ~Nov, not Aug — false premise) and ISS-cracking deathwatch (angle market-tested
   to death in the last 8 weeks, underperformed even at 700K subs).
 
+**Betelgeuse's companion star ("Siwarha") — considered 2026-08-09, DECLINED by
+Akshay directly** (memory `icahn-betelgeuse`): real currency (ESO's live
+confirmation landed days earlier) but Akshay flagged the actual ratio
+evidence (11.6:1, 7.7:1) as too weak against Voyager 1's gold-standard numbers
+(153:1, 47.6:1). Triggered a fresh 6-candidate re-sweep. Full research
+(observation history, the Great Dimming event, the 2024-2026 discovery
+timeline, real ESO footage) preserved in the memory if this gets revisited —
+none of it was wasted, the topic just didn't clear the bar this round.
+
+## ⭐ RENDERED 2026-08-09/10, ready for Akshay's review + upload (see
+`docs/planning/PLANETNINE-HANDOFF.md`) — Planet Nine, Icahn-validated
+2026-08-09 (memory `icahn-planetnine`), PASS-WITH-CONDITIONS, winner of a
+6-candidate adversarial sweep (3I/ATLAS, JWST 2026, Wow Signal, Planet Nine,
+fast radio bursts, K2-18b) run after Betelgeuse was declined for weak ratios.
+Real headline 40.8:1 @ 722K views + a genuine **3.03M-view independent
+corroborator** + 7.69M ceiling (Veritasium) — the only candidate of the 6
+with a real millions-of-views corroborator; the other 5 all failed the
+adversarial check (stale headlines, single-outlier flukes, or saturated
+waves with no small-channel breakout). **Condition: the topic is saturated
+with a dozen+ underperforming 2026 clones using bare "a 9th planet might
+exist" framing — this episode must differentiate via the real research
+history and the actual named Caltech scientists (Batygin & Brown), not
+repeat the failed generic hook.** Recognition 2/3. Full evidence + locked
+package: memory `icahn-planetnine`. Final: `They've Never Seen It. They're
+Sure It's There..mp4` at repo root, 4K, 688.8s, −14.1 LUFS, blackdetect clean.
+**Required one corrective re-render**: the first render reused a single
+evidence-diagram image (`orbit_diagram`) 28 times across 68 scenes — Akshay
+caught the repetition on watch-through; fixed by sourcing 3 new real assets
+(2 Palomar Observatory photos, 1 ESO starfield photo) and redistributing
+usage down to 6 genuinely-justified reuses. Full lesson log + production
+notes: `docs/planning/PLANETNINE-HANDOFF.md`.
+
 ## ⭐ RENDERED 2026-08-08, ready for Akshay's review + upload (see
 `docs/planning/VOYAGER1-HANDOFF.md`) — Voyager 1's 49-year mission + its live
 NASA instrument power-down, Icahn-validated 2026-08-08 (memory `icahn-voyager1`),

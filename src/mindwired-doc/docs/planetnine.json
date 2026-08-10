@@ -1,0 +1,537 @@
+{
+  "slug": "planetnine",
+  "title": "They've Never Seen It. They're Sure It's There.",
+  "channel": "mindwired",
+  "niche": "space",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "Right now, in the mountains of Chile, a brand new telescope just started searching for something nobody has ever seen.",
+      "video": "rubin_observatory_1.mp4",
+      "videoQuery": "Vera Rubin Observatory drone aerial footage",
+      "cap": "A brand new telescope. A search that just began.",
+      "tone": "awe"
+    },
+    {
+      "id": "h2",
+      "text": "Astronomers are calling it Planet Nine. Nobody has ever photographed it. Nobody has directly detected it.",
+      "video": "rubin_observatory_1.mp4",
+      "cap": "Nobody has ever seen it.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h3",
+      "text": "And yet, for almost ten years, some of the most respected astronomers in the world have been certain it's out there.",
+      "stat": "A DECADE OF CERTAINTY, ZERO PHOTOGRAPHS",
+      "video": "rubin_observatory_2.mp4",
+      "videoQuery": "Vera Rubin Observatory telescope dome night",
+      "cap": "A decade of certainty. Zero photographs.",
+      "tone": "shock"
+    },
+    {
+      "id": "h4",
+      "text": "The man who first made the case is the same astronomer who got Pluto kicked out of the planet club in the first place.",
+      "video": "rubin_observatory_2.mp4",
+      "cap": "The man who killed Pluto is hunting a replacement.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h5",
+      "text": "And this year, for the first time, the telescope built to finally settle the question is actually running.",
+      "video": "rubin_observatory_1.mp4",
+      "cap": "This year, the real test finally started.",
+      "tone": "hope"
+    },
+    {
+      "id": "h6",
+      "text": "This is the real story of Planet Nine: the evidence, the decade of searching, the scientists who think it's a mistake, and the machine that might finally prove someone right.",
+      "img": "caltech_illustration",
+      "cap": "The evidence. The doubt. The machine that might decide it.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "sting",
+      "sting": true,
+      "text": "You're watching mindwired.",
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "text": "This is the story of Planet Nine, a world nobody has ever seen, the scientists who are sure it's there, the ones who think they're wrong, and the telescope that just started the search that might finally decide it.",
+      "chapter": "THEY'VE NEVER SEEN IT\nTHEY'RE SURE IT'S THERE",
+      "img": "orbit_diagram"
+    },
+    {
+      "id": "c1",
+      "text": "Chapter one. The man who killed Pluto.",
+      "chapter": "CHAPTER ONE\nTHE MAN WHO KILLED PLUTO",
+      "img": "pluto_newhorizons"
+    },
+    {
+      "id": "a1",
+      "text": "In October of two thousand three, an astronomer named Mike Brown was using a telescope at Palomar Observatory in California, looking for objects far beyond Neptune.",
+      "img": "pluto_newhorizons",
+      "query": "Pluto New Horizons real photo NASA",
+      "cap": "October 2003. Palomar Observatory.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2",
+      "text": "What he found was a body out past Pluto, almost exactly the same size. He named it Eris, after the Greek goddess of strife and discord. The name turned out to be fitting.",
+      "img": "pluto_newhorizons",
+      "cap": "He named it after the goddess of discord.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a3",
+      "text": "If Eris was really a planet's twin, then either Eris was the tenth planet, or Pluto had never really been one. Astronomers couldn't have it both ways anymore.",
+      "img": "pluto_newhorizons",
+      "cap": "Either Eris was a planet, or Pluto wasn't.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a4",
+      "text": "On August twenty fourth, two thousand six, the International Astronomical Union met in Prague and voted. Pluto was reclassified as a dwarf planet.",
+      "kinetic": {
+        "words": [
+          "August",
+          "24,",
+          "2006.",
+          "Pluto",
+          "demoted."
+        ]
+      },
+      "img": "pluto_newhorizons",
+      "extraHold": 10,
+      "cap": "August 24, 2006. Pluto demoted.",
+      "tone": "shock"
+    },
+    {
+      "id": "a5",
+      "text": "Mike Brown became, quite literally, the man who killed Pluto. He later wrote a real memoir about it, with the actual title: \"How I Killed Pluto and Why It Had It Coming.\"",
+      "img": "mike_brown_portrait",
+      "query": "Mike Brown Caltech astronomer portrait",
+      "stock": true,
+      "cap": "His real book title: \"How I Killed Pluto.\"",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6",
+      "text": "A decade later, the same man would be the one telling the world there was a real, undiscovered planet hiding at the edge of the solar system.",
+      "img": "mike_brown_portrait",
+      "cap": "A decade later, he found a replacement.",
+      "tone": "awe"
+    },
+    {
+      "id": "c2",
+      "text": "Chapter two. The pattern that shouldn't exist.",
+      "chapter": "CHAPTER TWO\nTHE PATTERN THAT SHOULDN'T EXIST",
+      "img": "pluto_newhorizons"
+    },
+    {
+      "id": "b1",
+      "text": "In twenty fourteen, two other astronomers, Chad Trujillo and Scott Sheppard, discovered a distant icy object called two thousand twelve V P one one three.",
+      "img": "orbit_diagram",
+      "cap": "2014. A distant icy object: 2012 VP113.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b2",
+      "text": "They noticed something strange. That object, and a dozen others like it, all had orbits that pointed in a suspiciously similar direction. They couldn't explain why. They just flagged it.",
+      "img": "orbit_diagram",
+      "cap": "Their orbits all pointed the same way. Nobody knew why.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b3",
+      "text": "Mike Brown, and a younger colleague at Caltech named Konstantin Batygin, took a closer look. They found six of the most distant, best-measured objects in that group.",
+      "img": "batygin_portrait",
+      "query": "Konstantin Batygin Caltech astronomer portrait",
+      "stock": true,
+      "cap": "Brown and Batygin looked closer.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b4",
+      "text": "All six shared something specific: the point in their orbit where they swing closest to the sun all clustered in nearly the same direction. And their orbital planes were all tilted the same way, too.",
+      "img": "orbit_diagram",
+      "cap": "6 objects. Same direction. Same tilt.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b5",
+      "text": "Batygin and Brown calculated the odds of that happening by pure random chance. Their answer: roughly one in fifteen thousand.",
+      "kinetic": {
+        "words": [
+          "1",
+          "in",
+          "15,000.",
+          "That's",
+          "the",
+          "odds."
+        ]
+      },
+      "img": "orbit_diagram",
+      "extraHold": 12,
+      "cap": "The odds of coincidence: 1 in 15,000.",
+      "tone": "shock"
+    },
+    {
+      "id": "b6",
+      "text": "There was one explanation that fit cleanly: a real, massive, undiscovered planet, its own gravity herding all six objects into that same pattern.",
+      "img": "caltech_illustration",
+      "query": "Planet Nine artist concept illustration Caltech",
+      "note": "real Caltech/R. Hurt (IPAC) 2016 official illustration -- ARTIST'S CONCEPT, Planet Nine has never been photographed",
+      "cap": "ARTIST'S CONCEPT — never photographed",
+      "tone": "awe"
+    },
+    {
+      "id": "b7",
+      "text": "On January twentieth, twenty sixteen, Caltech announced it publicly. Mike Brown's own words: \"This would be a real ninth planet. There have only been two true planets discovered since ancient times, and this would be a third.\"",
+      "img": "caltech_illustration",
+      "cap": "\"This would be a real ninth planet.\" — Mike Brown",
+      "extraHold": 8,
+      "tone": "awe"
+    },
+    {
+      "id": "b8",
+      "text": "Konstantin Batygin put it even more plainly: \"For the first time in over one hundred fifty years, there is solid evidence that the solar system's planetary census is incomplete.\"",
+      "img": "caltech_illustration",
+      "cap": "\"The solar system's census is incomplete.\" — Batygin",
+      "extraHold": 8,
+      "tone": "awe"
+    },
+    {
+      "id": "c3",
+      "text": "Chapter three. A world we've never seen.",
+      "chapter": "CHAPTER THREE\nA WORLD WE'VE NEVER SEEN",
+      "img": "caltech_illustration"
+    },
+    {
+      "id": "d1",
+      "text": "If it's real, what exactly is out there? The two thousand sixteen paper estimated something more than ten times the mass of Earth.",
+      "img": "caltech_illustration",
+      "cap": "Original 2016 estimate: 10+ Earth masses.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d2",
+      "text": "A later refinement, published in twenty twenty one, narrowed that down to about six times Earth's mass. Something like a small, distant cousin of Neptune.",
+      "img": "caltech_illustration",
+      "cap": "2021 refinement: ~6 Earth masses.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d3",
+      "text": "Its orbit would be nothing like ours. On average, about three hundred times farther from the sun than Earth is, on a path so long it would take somewhere between ten and twenty thousand years to complete a single trip around the sun.",
+      "kinetic": {
+        "words": [
+          "10,000",
+          "to",
+          "20,000",
+          "years.",
+          "One",
+          "orbit."
+        ]
+      },
+      "img": "orbit_diagram",
+      "extraHold": 10,
+      "cap": "One full orbit: 10,000 to 20,000 years.",
+      "tone": "awe"
+    },
+    {
+      "id": "d4",
+      "text": "For comparison, the last ice age ended about twelve thousand years ago. Planet Nine, if it's real, hasn't even finished one lap since then.",
+      "img": "pluto_newhorizons",
+      "cap": "It hasn't finished one lap since the last ice age.",
+      "tone": "awe"
+    },
+    {
+      "id": "d5",
+      "text": "It would be so far away, and so cold, that no telescope has ever caught even a single point of reflected light from it. Every image you've ever seen of it is not real. It's an artist's guess.",
+      "img": "caltech_illustration",
+      "cap": "Every image of it is a guess, not a photo.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c4",
+      "text": "Chapter four. The ten-year hunt.",
+      "chapter": "CHAPTER FOUR\nTHE TEN-YEAR HUNT",
+      "img": "subaru_telescope"
+    },
+    {
+      "id": "e1",
+      "text": "Since twenty sixteen, Brown and Batygin's own search has leaned heavily on one instrument: the Subaru Telescope, on the summit of Mauna Kea in Hawaii.",
+      "img": "subaru_telescope",
+      "query": "Subaru Telescope Mauna Kea Hawaii",
+      "cap": "Subaru Telescope, Mauna Kea.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e2",
+      "text": "Other teams joined in with their own surveys: the Dark Energy Survey, an archive search using the Zwicky Transient Facility, even old infrared data going back decades.",
+      "img": "subaru_telescope",
+      "cap": "Multiple surveys. A decade of looking.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e3",
+      "text": "A decade of searching has not found Planet Nine. It has, however, found more objects like the ones that started this whole idea.",
+      "img": "subaru_telescope",
+      "cap": "No planet found. But more clues.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e4",
+      "text": "In July of twenty twenty five, the Subaru team announced a real discovery: a new object nicknamed \"Ammonite,\" only the fourth of its kind ever confirmed.",
+      "img": "subaru_telescope",
+      "cap": "July 2025. \"Ammonite\" discovered.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e5",
+      "text": "Here's the complication. Ammonite's orbit does not line up with the others. If anything, it weakens the original pattern, not strengthens it.",
+      "img": "subaru_telescope",
+      "cap": "It didn't fit the pattern. It weakened it.",
+      "tone": "shock"
+    },
+    {
+      "id": "e6",
+      "text": "The discovery's lead researcher, Yukun Huang, said it plainly: \"The fact that Ammonite's current orbit does not align with those of the other three sednoids lowers the likelihood of the Planet Nine hypothesis.\"",
+      "img": "subaru_telescope",
+      "cap": "\"It lowers the likelihood.\" — Yukun Huang",
+      "extraHold": 8,
+      "tone": "curiosity"
+    },
+    {
+      "id": "e7",
+      "text": "Ten years of looking had added a new piece of evidence. And that new piece cut against the theory it was supposed to help confirm.",
+      "img": "subaru_telescope",
+      "cap": "A new piece of evidence. Cutting the wrong way.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c5",
+      "text": "Chapter five. The scientists who think they're wrong.",
+      "chapter": "CHAPTER FIVE\nTHE SCIENTISTS WHO THINK THEY'RE WRONG",
+      "img": "subaru_telescope"
+    },
+    {
+      "id": "f1",
+      "text": "Not every astronomer accepts the Planet Nine explanation. Some think the entire pattern might be an illusion.",
+      "img": "starfield",
+      "cap": "Some think the whole pattern is an illusion.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f2",
+      "text": "Their argument is about where astronomers happened to be looking, not what's actually out there. These objects are only bright enough to spot during one narrow part of a millennia-long orbit.",
+      "img": "palomar_observatory",
+      "cap": "It's about where we looked. Not what's really there.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f3",
+      "text": "Ground telescopes don't scan the whole sky evenly. They favor certain seasons, certain patches, certain depths. A University of Michigan researcher named Kevin Napier ran the numbers a different way, correcting for exactly that bias.",
+      "img": "palomar_observatory",
+      "cap": "Kevin Napier corrected for the bias.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f4",
+      "text": "His result: once you account for where and when astronomers were actually searching, the supposed alignment disappears completely. Statistically, it looked like nothing more than random chance.",
+      "img": "batygin_portrait",
+      "cap": "Correct for the bias, and the pattern vanishes.",
+      "tone": "shock"
+    },
+    {
+      "id": "f5",
+      "text": "Brown and Batygin disagree, and have published their own rebuttal. This is not settled. Both sides are still actively publishing papers against each other.",
+      "img": "mike_brown_portrait",
+      "cap": "Not settled. Both sides are still publishing.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f6",
+      "text": "There are other explanations that need no hidden planet at all. One astronomer proposed that a disk of many small icy bodies, acting together, could fake the same pattern through their own combined gravity.",
+      "img": "caltech_illustration",
+      "cap": "Maybe it's not one planet. Maybe it's many small ones.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f7",
+      "text": "A University of Washington astronomer named Pedro Bernardinelli, who works directly on this kind of survey, put the real state of the debate about as honestly as anyone has: \"The agnostic perspective now is that we do not have enough data either way.\"",
+      "img": "starfield",
+      "cap": "\"We do not have enough data either way.\"",
+      "extraHold": 8,
+      "tone": "curiosity"
+    },
+    {
+      "id": "f8",
+      "text": "Mike Brown, for his part, hasn't backed down. As recently as twenty twenty four, he said plainly: \"I think it is very unlikely that P9 does not exist.\"",
+      "img": "mike_brown_portrait",
+      "cap": "\"Very unlikely that it does not exist.\" — Brown",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f9",
+      "text": "Two respected scientists, looking at the same handful of objects, reaching opposite conclusions. That's not a scandal. That's just what real, unfinished science looks like.",
+      "img": "starfield",
+      "cap": "Same evidence. Opposite conclusions. That's real science.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c6",
+      "text": "Chapter six. It keeps getting stranger.",
+      "chapter": "CHAPTER SIX\nIT KEEPS GETTING STRANGER",
+      "img": "rubin_observatory_still"
+    },
+    {
+      "id": "g1",
+      "text": "Even Mike Brown doesn't chase every candidate that comes along. In twenty twenty five, a separate team combed forty-year-old infrared satellite data and found a possible signal far out in the dark.",
+      "img": "subaru_telescope",
+      "cap": "2025. A possible signal in 40-year-old data.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "g2",
+      "text": "Brown's public response was blunt: \"Whether it is real or not, it is one hundred percent not Planet Nine.\" The orbit simply didn't match the pattern his own theory predicted.",
+      "img": "mike_brown_portrait",
+      "cap": "\"100 percent not Planet Nine.\" — Brown, on a different candidate",
+      "tone": "curiosity"
+    },
+    {
+      "id": "g3",
+      "text": "Then, in August of twenty twenty five, a Princeton team proposed something else entirely: a second, separate, smaller hidden world, closer in, based on a completely different piece of evidence.",
+      "img": "caltech_illustration",
+      "cap": "August 2025. A second, different hidden world proposed.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "g4",
+      "text": "They're calling that one \"Planet Y.\" It's not a rival explanation for the same objects. It's a completely separate mystery, hiding in a completely different part of the data.",
+      "img": "caltech_illustration",
+      "cap": "\"Planet Y.\" A separate mystery entirely.",
+      "tone": "awe"
+    },
+    {
+      "id": "g5",
+      "text": "Another team modeled something stranger still: a small chance that our solar system didn't grow this planet at all, but simply captured a rogue world drifting through the galaxy, billions of years ago.",
+      "img": "starfield",
+      "cap": "Maybe we didn't grow it. Maybe we caught it.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "g6",
+      "text": "Ten years in, this isn't one clean mystery with one clean answer waiting. It's gotten more complicated, not less.",
+      "img": "starfield",
+      "cap": "More complicated. Not less.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c7",
+      "text": "Chapter seven. The machine that might decide it.",
+      "chapter": "CHAPTER SEVEN\nTHE MACHINE THAT MIGHT DECIDE IT",
+      "img": "rubin_observatory_still"
+    },
+    {
+      "id": "i1",
+      "text": "For a decade, the honest answer to \"does Planet Nine exist\" has been: nobody knows for certain. That may finally be about to change.",
+      "video": "rubin_observatory_1.mp4",
+      "cap": "That may finally be about to change.",
+      "tone": "hope"
+    },
+    {
+      "id": "i2",
+      "text": "The Vera C. Rubin Observatory, built high in the mountains of Chile, is designed to photograph the entire visible sky, over and over, every few nights, for ten straight years.",
+      "video": "rubin_observatory_2.mp4",
+      "cap": "The entire sky. Every few nights. For 10 years.",
+      "tone": "awe"
+    },
+    {
+      "id": "i3",
+      "text": "On June thirtieth, twenty twenty six, its main ten-year survey officially began. Weeks later, its first real batch of data started reaching astronomers.",
+      "kinetic": {
+        "words": [
+          "June",
+          "30,",
+          "2026.",
+          "The",
+          "real",
+          "search",
+          "began."
+        ]
+      },
+      "img": "rubin_observatory_still",
+      "extraHold": 8,
+      "cap": "June 30, 2026. The real search began.",
+      "tone": "hope"
+    },
+    {
+      "id": "i4",
+      "text": "One veteran of this exact kind of search, astronomer Scott Sheppard, put real odds on it: if Planet Nine is out there the way Brown and Batygin describe it, Rubin has roughly a seventy to eighty percent chance of actually finding it.",
+      "img": "rubin_observatory_still",
+      "cap": "Sheppard's odds: 70-80% chance of finding it, if real.",
+      "tone": "hope"
+    },
+    {
+      "id": "i5",
+      "text": "Konstantin Batygin himself, speaking just weeks before this was filmed, said it as directly as a scientist can: \"We will get that new batch of discoveries basically starting this summer, starting summer twenty twenty six. It will be a direct test of all lines of evidence.\"",
+      "img": "batygin_portrait",
+      "cap": "\"A direct test of all lines of evidence.\" — Batygin",
+      "extraHold": 10,
+      "tone": "hope"
+    },
+    {
+      "id": "i6",
+      "text": "As of right now, no announcement has been made. No detection. No exclusion. The search is simply, finally, actually running.",
+      "video": "rubin_observatory_1.mp4",
+      "cap": "No answer yet. The search is just running.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "coda1",
+      "text": "What stays with me about this story isn't whether Planet Nine turns out to be real.",
+      "img": "starfield",
+      "cap": "What stays with me.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda2",
+      "text": "It's that a handful of frozen rocks, barely visible even to our best telescopes, were enough to make some of the smartest people alive seriously ask whether we've been missing an entire planet.",
+      "img": "caltech_illustration",
+      "cap": "A handful of frozen rocks. One serious question.",
+      "tone": "awe"
+    },
+    {
+      "id": "coda3",
+      "text": "And it's that real science doesn't need the mystery solved to be worth following. A decade of disagreement, bias corrections, dead-end candidates, and rival theories is not a failure. It's just what looking for the truth actually looks like, in real time.",
+      "img": "starfield",
+      "cap": "This is what looking for the truth actually looks like.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda4",
+      "text": "Somewhere in Chile tonight, a telescope built for exactly this question is scanning the sky again. Nobody knows yet what it will find.",
+      "video": "rubin_observatory_2.mp4",
+      "extraHold": 10,
+      "cap": "Nobody knows yet what it will find.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "bridge",
+      "text": "If a planet nobody has ever seen doesn't sound strange enough, wait until you hear the story of a machine NASA built to last five years, that's still flying forty nine years later, and is only now starting to go dark.",
+      "cap": "Watch next: \"NASA Built It to Last 5 Years. It's Been 49.\"",
+      "tone": "curiosity",
+      "img": "starfield"
+    },
+    {
+      "id": "end",
+      "text": "Subscribe to mindwired.",
+      "chapter": "SUBSCRIBE",
+      "img": "rubin_observatory_still"
+    }
+  ]
+}
