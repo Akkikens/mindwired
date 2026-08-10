@@ -1,17 +1,12 @@
 # Shorts drip schedule — Three Mile Island ("The Meltdown Reactor AI Just Reopened")
 
-Long-form: `The Meltdown Reactor AI Just Reopened.mp4` (Black Box Breakdown,
-comp `ThreeMileIslandDoc`). **Not yet published** — publish-video fills in the
-real long-form URL and the absolute dates below once the publish date is set
-(channel's Black Box slot is still TBD per `docs/planning/LAUNCH-LESSONS.md`;
-do not guess a date here). Drip 1/day starting ~24h after the long-form goes
-live, strongest hook first. **All 4 built, rendered, and mastered to -14 LUFS
-2026-08-07** (`ThreeMileIslandShort1-4` in Root.tsx, via the shared
-`BlackBoxShort` component — extended with `ids`/`imgOverride` props for this
-episode's non-contiguous cuts and kinetic-scene fallback images). Files sit
-in `out/shorts_final/`. Still owed before drip: absolute publish dates, the
-real long-form URL in each PINNED line, and setting the related-video link in
-Studio at upload time.
+Long-form: **already published** — https://youtu.be/cuUbpxkPpSM (Black Box
+Breakdown, published 2026-08-06 — confirmed live in Studio 2026-08-08; this
+doc previously said "not yet published," which was stale). Drip scheduled
+2026-08-09 through 2026-08-12, 6:30 AM/day (`ThreeMileIslandShort1-4` in
+Root.tsx, via the shared `BlackBoxShort` component — extended with
+`ids`/`imgOverride` props for this episode's non-contiguous cuts and
+kinetic-scene fallback images). Files sit in `out/shorts_final/`.
 
 ### SHORT 1 — Day +1 from long-form publish (strongest hook, ships first)
 COMP: ThreeMileIslandShort1 (BUILT, rendered, -14.0 LUFS) FILE: out/shorts_final/threemileisland_1.mp4 (46.5s)
@@ -24,7 +19,7 @@ DESCRIPTION: A reactor that partially melted down in 1979 is scheduled to
 switch back on this year — not for homes, for AI data centers. Full
 investigation on the channel.
 TAGS: three mile island,nuclear meltdown,ai data center,microsoft nuclear,crane clean energy center,black box breakdown
-PINNED: The full breakdown — the 1979 report vs. the 2026 restart paperwork — is live on the channel now: [LONG-FORM URL]
+PINNED: The full breakdown — the 1979 report vs. the 2026 restart paperwork — is live on the channel now: https://youtu.be/cuUbpxkPpSM
 RELATED-VIDEO LINK: ThreeMileIslandDoc long-form (set in Studio at publish)
 
 ### SHORT 2 — Day +2
@@ -38,8 +33,8 @@ DESCRIPTION: A single mislabeled indicator light. A trained operator does
 exactly the right thing for the wrong situation. That's how Three Mile Island
 actually happened. Full story on the channel.
 TAGS: three mile island,nuclear accident,operator error,engineering failure,human factors,black box breakdown
-PINNED: The full minute-by-minute breakdown is live on the channel: [LONG-FORM URL]
-RELATED-VIDEO LINK: ThreeMileIslandDoc long-form
+PINNED: The full minute-by-minute breakdown is live on the channel: https://youtu.be/cuUbpxkPpSM
+RELATED-VIDEO LINK: ThreeMileIslandDoc long-form (set in Studio at publish)
 
 ### SHORT 3 — Day +3
 COMP: ThreeMileIslandShort3 (BUILT, rendered, -13.9 LUFS) FILE: out/shorts_final/threemileisland_3.mp4 (44.9s)
@@ -53,8 +48,8 @@ DESCRIPTION: The federal investigation into Three Mile Island didn't blame the
 broken valve. It blamed an industry mindset — and that report is real and
 public. Full breakdown on the channel.
 TAGS: kemeny commission,three mile island,nuclear regulatory commission,nuclear safety,government report,black box breakdown
-PINNED: The actual 1979 report, held up against 2026's restart paperwork — full video on the channel: [LONG-FORM URL]
-RELATED-VIDEO LINK: ThreeMileIslandDoc long-form
+PINNED: The actual 1979 report, held up against 2026's restart paperwork — full video on the channel: https://youtu.be/cuUbpxkPpSM
+RELATED-VIDEO LINK: ThreeMileIslandDoc long-form (set in Studio at publish)
 
 ### SHORT 4 — Day +4
 COMP: ThreeMileIslandShort4 (BUILT, rendered, -14.0 LUFS) FILE: out/shorts_final/threemileisland_4.mp4 (57.8s)
@@ -68,8 +63,8 @@ DESCRIPTION: Fuel is already arriving at a reactor that partially melted down
 in 1979 — before the final environmental review is even published. This is
 happening right now. Full investigation on the channel.
 TAGS: three mile island,nrc,nuclear regulation,ai data centers,crane clean energy center,black box breakdown
-PINNED: This restart is a live, open story — the full breakdown is on the channel now: [LONG-FORM URL]
-RELATED-VIDEO LINK: ThreeMileIslandDoc long-form
+PINNED: This restart is a live, open story — the full breakdown is on the channel now: https://youtu.be/cuUbpxkPpSM
+RELATED-VIDEO LINK: ThreeMileIslandDoc long-form (set in Studio at publish)
 
 ## Notes
 - All 4 Shorts are cut-from-long-form (source A) — real footage/exhibits

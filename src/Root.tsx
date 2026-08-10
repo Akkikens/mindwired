@@ -88,6 +88,8 @@ import area51Doc from "./mindwired-doc/docs/area51.json";
 import area51Manifest from "./mindwired-doc/docs/area51.manifest.json";
 import tunguskaDoc from "./mindwired-doc/docs/tunguska.json";
 import tunguskaManifest from "./mindwired-doc/docs/tunguska.manifest.json";
+import voyager1Doc from "./mindwired-doc/docs/voyager1.json";
+import voyager1Manifest from "./mindwired-doc/docs/voyager1.manifest.json";
 import astronautsScaredDoc from "./mindwired-doc/docs/astronautsscared.json";
 import astronautsScaredManifest from "./mindwired-doc/docs/astronautsscared.manifest.json";
 import issInsideDoc from "./mindwired-doc/docs/issinside.json";
@@ -1550,6 +1552,22 @@ export const RemotionRoot: React.FC = () => {
         id="TunguskaDoc"
         component={makeDocComp(tunguskaDoc, tunguskaManifest, MW_OUTRO)}
         durationInFrames={docTotalFrames(tunguskaDoc, tunguskaManifest, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── mindwired — Voyager 1 & 2 (49-year mission, live 2025-2026 power-down)
+             Icahn: icahn-voyager1, PASS no conditions, 3/3 recognition, live
+             currency (JPL's "Big Bang" power fix, confirmed Aug 2026). Real
+             NASA/JPL archival photography throughout; real DSN dish footage
+             (Commons 360 video, reprojected flat) for the cold open. Locked
+             title: "NASA Built It to Last 5 Years. It's Been 49." MW subscribe
+             outro baked. ── */}
+      <Composition
+        id="Voyager1Doc"
+        component={makeDocComp(voyager1Doc, voyager1Manifest, MW_OUTRO)}
+        durationInFrames={docTotalFrames(voyager1Doc, voyager1Manifest, MW_OUTRO)}
         fps={30}
         width={1920}
         height={1080}

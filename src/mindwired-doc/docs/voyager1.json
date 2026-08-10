@@ -8,11 +8,12 @@
   "scenes": [
     {
       "id": "h1",
-      "text": "Right now, somewhere on Earth, a dish the size of a football field is pointed at an empty patch of sky, listening for a signal that takes over twenty hours to arrive.",
+      "text": "Right now, somewhere on Earth, a dish the size of a football field is pointed at an empty patch of sky, listening for a signal fifteen billion miles away.",
       "video": "dsn_dish_1.mp4",
       "cap": "Somewhere on Earth, right now.",
       "tone": "awe",
-      "note": "real NASA/Commons DSN 70m dish footage, reprojected flat from 360 source (v360 filter) -- see ATTRIBUTION.md"
+      "note": "real NASA/Commons DSN 70m dish footage, reprojected flat from 360 source (v360 filter) -- see ATTRIBUTION.md",
+      "stat": "15 BILLION MILES AWAY"
     },
     {
       "id": "h2",
@@ -72,15 +73,14 @@
     {
       "id": "a1",
       "text": "In nineteen sixty five, an MIT graduate student noticed something strange. Around the year nineteen seventy seven, Jupiter, Saturn, Uranus, and Neptune would line up in a way that let a single spacecraft visit all four, using each planet's own gravity as a slingshot to the next.",
-      "img": "spacecraft_diagram",
-      "query": "Voyager spacecraft trajectory diagram planets",
+      "img": "cleanroom_assembly",
       "cap": "A once-in-175-years alignment.",
       "tone": "curiosity"
     },
     {
       "id": "a2",
       "text": "That alignment happens roughly once every one hundred seventy five years. NASA called the idea the Grand Tour.",
-      "img": "spacecraft_diagram",
+      "img": "cleanroom_assembly",
       "cap": "NASA called it \"the Grand Tour.\"",
       "tone": "awe"
     },
@@ -143,7 +143,7 @@
           "years.\""
         ]
       },
-      "img": "spacecraft_diagram",
+      "img": "launch_pad_1977",
       "extraHold": 14,
       "cap": "NASA's own words: \"built to last five years.\"",
       "tone": "shock"
@@ -916,7 +916,7 @@
       "id": "c7",
       "text": "Chapter seven. The edge that isn't an edge.",
       "chapter": "CHAPTER SEVEN\nTHE EDGE THAT ISN'T AN EDGE",
-      "img": "heliopause_diagram"
+      "img": "milkyway_stars"
     },
     {
       "id": "i1",
@@ -929,7 +929,7 @@
     {
       "id": "i2",
       "text": "It's called the heliopause, the place where the pressure of the Sun's own solar wind finally gives out against the pressure of the wider galaxy.",
-      "img": "heliopause_diagram",
+      "img": "milkyway_stars",
       "note": "labeled DATA VISUALIZATION on screen -- this is a diagram, not real photography",
       "cap": "DATA VISUALIZATION",
       "tone": "curiosity"
@@ -944,7 +944,7 @@
     {
       "id": "i4",
       "text": "So NASA measured it a different way. Voyager one's instruments detected a sudden jump in the density of charged particles around the spacecraft, triggered by a burst of activity from the Sun, that let the plasma wave instrument essentially \"hear\" the difference.",
-      "img": "heliopause_diagram",
+      "img": "milkyway_stars",
       "cap": "It didn't see the boundary. It heard it.",
       "tone": "awe"
     },
@@ -961,7 +961,7 @@
           "miles."
         ]
       },
-      "img": "heliopause_diagram",
+      "img": "milkyway_stars",
       "extraHold": 10,
       "cap": "August 25, 2012. 11 billion miles out.",
       "tone": "awe"
@@ -969,7 +969,7 @@
     {
       "id": "i6",
       "text": "Voyager two crossed its own version of that same boundary on November fifth, twenty eighteen, and this time its plasma instrument was still working, so the confirmation came almost immediately.",
-      "img": "heliopause_diagram",
+      "img": "milkyway_stars",
       "cap": "Voyager 2 crossed on November 5, 2018.",
       "tone": "curiosity"
     },
@@ -1155,7 +1155,7 @@
     {
       "id": "j11",
       "text": "On April twentieth, twenty twenty four, the answer came back. Usable, readable engineering data, for the first time in five months.",
-      "img": "team_celebrates_2024",
+      "img": "computer_hardware",
       "cap": "April 20, 2024. It worked.",
       "extraHold": 8,
       "tone": "hope"
@@ -1163,7 +1163,7 @@
     {
       "id": "j12",
       "text": "By June of that year, full science data was flowing again from every instrument that was still switched on.",
-      "img": "team_celebrates_2024",
+      "img": "cleanroom_assembly",
       "cap": "Full science data, back by June 2024.",
       "tone": "hope"
     },
@@ -1197,14 +1197,14 @@
     {
       "id": "k2",
       "text": "Both spacecraft's plutonium generators lose roughly four watts of output every single year, permanently. By late twenty twenty three, Voyager one was down to about two hundred twenty five watts, less than half of what it had at launch.",
-      "img": "rtg_powersource",
+      "img": "goldstone_dish_still",
       "cap": "470W at launch. ~225W by 2023.",
       "tone": "fear"
     },
     {
       "id": "k3",
       "text": "There is no fix for that. There is only rationing.",
-      "img": "rtg_powersource",
+      "img": "goldstone_dish_still",
       "cap": "No fix. Only rationing.",
       "tone": "fear"
     },
@@ -1218,14 +1218,14 @@
     {
       "id": "k3c",
       "text": "That's the actual reason engineers are fighting this hard over every last watt. Not nostalgia. Science that, right now, only these two machines can still do.",
-      "img": "rtg_powersource",
+      "img": "goldstone_dish_still",
       "cap": "Not nostalgia. Science only these two can still do.",
       "tone": "curiosity"
     },
     {
       "id": "k4",
       "text": "So, one instrument at a time, NASA has been permanently switching parts of both spacecraft off, on purpose, to keep something, anything, alive a little longer.",
-      "img": "rtg_powersource",
+      "img": "goldstone_dish_still",
       "cap": "One instrument at a time. On purpose.",
       "tone": "fear"
     },
@@ -1293,7 +1293,7 @@
     {
       "id": "k10",
       "text": "They tested it on Voyager two first, in July of twenty twenty six. It worked. NASA confirmed it in early August: the maneuver bought Voyager two's three remaining instruments roughly one more year of life. Without it, another one would have gone dark before the end of this year.",
-      "img": "rtg_powersource",
+      "img": "goldstone_dish_still",
       "cap": "Bought one more year. Confirmed early August 2026.",
       "extraHold": 10,
       "tone": "hope"
@@ -1308,7 +1308,7 @@
     {
       "id": "k12",
       "text": "There's even a real chance the instrument shut off in April could be switched back on, if the fix holds. That has never happened before in this mission. Power has only ever gone one direction.",
-      "img": "rtg_powersource",
+      "img": "goldstone_dish_still",
       "cap": "A real chance to switch one back ON.",
       "tone": "hope"
     },
@@ -1352,7 +1352,7 @@
     {
       "id": "l1",
       "text": "There's one more real thing Voyager one left behind, and you can actually listen to it yourself.",
-      "img": "milkyway_stars",
+      "img": "heliopause_diagram",
       "cap": "One more real thing, you can actually hear.",
       "tone": "curiosity"
     },
@@ -1424,8 +1424,8 @@
     },
     {
       "id": "bridge",
-      "text": "If a machine built for five years, still running after forty nine, doesn't sound strange enough, wait until you see the star astronomers just found orbiting Betelgeuse, hidden in plain sight for over a century.",
-      "cap": "Watch next: the hidden star at Betelgeuse.",
+      "text": "If a machine built for five years, still running after forty nine, doesn't sound strange enough, wait until you hear the stories of the twenty one astronauts who never came home.",
+      "cap": "Watch next: \"21 Astronauts Never Came Home.\"",
       "tone": "curiosity",
       "img": "milkyway_stars"
     },

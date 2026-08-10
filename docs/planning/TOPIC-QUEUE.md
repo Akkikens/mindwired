@@ -472,7 +472,8 @@ zero blame — only if Akshay wants to ride the search interest safely.
   ~Nov, not Aug — false premise) and ISS-cracking deathwatch (angle market-tested
   to death in the last 8 weeks, underperformed even at 700K subs).
 
-## ⭐ NEXT (IN PRODUCTION 2026-08-08) — Voyager 1's 49-year mission + its live
+## ⭐ RENDERED 2026-08-08, ready for Akshay's review + upload (see
+`docs/planning/VOYAGER1-HANDOFF.md`) — Voyager 1's 49-year mission + its live
 NASA instrument power-down, Icahn-validated 2026-08-08 (memory `icahn-voyager1`),
 winner of a live re-check against the three 2026-08-04 runner-ups (Voyager 1 /
 Betelgeuse's hidden companion / Carrington Event), run at the user's explicit
