@@ -1581,8 +1581,10 @@ export const RemotionRoot: React.FC = () => {
              ratios. Real Caltech-sourced evidence diagram + artist concept
              (both clearly labeled), real NOIRLab Rubin Observatory drone
              footage for the cold open, real Batygin/Brown Caltech photo.
-             Locked title: "They've Never Seen It. They're Sure It's There."
-             MW subscribe outro baked. ── */}
+             Locked title (swapped live 2026-08-10 after a ctr-engine
+             title-retest caught the original incumbent failing an
+             adversarial honesty check): "Pluto's Killer Can't Prove the
+             Planet He's Chasing." MW subscribe outro baked. ── */}
       <Composition
         id="PlanetNineDoc"
         component={makeDocComp(planetnineDoc, planetnineManifest, MW_OUTRO)}
@@ -1590,6 +1592,40 @@ export const RemotionRoot: React.FC = () => {
         fps={30}
         width={1920}
         height={1080}
+      />
+
+      {/* ── Planet Nine funnel Shorts (4) — the Pluto-killer backstory (the
+             new title's own hook), the six-object statistical pattern, the
+             real skeptic fight over telescope bias, and the live Vera Rubin
+             Observatory currency. Real Caltech/NOIRLab stills + the real
+             Rubin drone video for Short4's hook plate. ── */}
+      <Composition
+        id="PlanetNineShort1"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "c1", endId: "a5", doc: planetnineDoc as any, manifest: planetnineManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "c1", endId: "a5", hook: "He killed Pluto.\nThen he said there's another planet.", slug: "planetnine", hookImg: "mike_brown_portrait_1.jpg", doc: planetnineDoc as any, manifest: planetnineManifest as any }}
+      />
+      <Composition
+        id="PlanetNineShort2"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "c2", endId: "b5", doc: planetnineDoc as any, manifest: planetnineManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "c2", endId: "b5", hook: "The odds of this being\na coincidence: 1 in 15,000.", slug: "planetnine", hookImg: "orbit_diagram_1.jpg", doc: planetnineDoc as any, manifest: planetnineManifest as any }}
+      />
+      <Composition
+        id="PlanetNineShort3"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "c5", endId: "f5", doc: planetnineDoc as any, manifest: planetnineManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "c5", endId: "f5", hook: "Real scientists say this\ndiscovery might be an illusion.", slug: "planetnine", hookImg: "palomar_observatory_1.jpg", doc: planetnineDoc as any, manifest: planetnineManifest as any }}
+      />
+      <Composition
+        id="PlanetNineShort4"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "c7", endId: "i4", doc: planetnineDoc as any, manifest: planetnineManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "c7", endId: "i4", hook: "A new telescope in Chile\nmight finally answer this.", slug: "planetnine", hookVideo: "rubin_observatory_1.mp4", hookFrom: 2, doc: planetnineDoc as any, manifest: planetnineManifest as any }}
       />
 
       {/* ── Earhart funnel Shorts (4) — cold open, the real NARA radio-log
