@@ -135,3 +135,29 @@ Format per entry:
   (no-human-available → record and proceed), betelgeuse validation proceeds
   without re-blocking on this. Diagnoses remain owed before the NEXT publish
   after betelgeuse.
+- 2026-08-10 · voyager1 (MW) · branch=a (confirmed, real Studio pull via logged-in
+  Chrome, ~45h live) · 6.7K impressions / 1.0% CTR / 117 views / 8:23 avg (~28%
+  avg-viewed, mid-normal) vs 21-Astronauts baseline 923.3K impressions / 4.2% CTR
+  / 71.2K views / 20:00 avg (~41%) — impressions pool ~138x smaller is the story;
+  CTR is also below band but the video is still inside the 48h settling window
+  AND has a live 3-way title A/B test splitting the sample (currently "VOYAGER 1
+  Is Losing Power It Can Never Get Back" leading at 46.7% watch-time share vs
+  incumbent 35% and 2nd alt 18.4%, 12 days left) — do not read the CTR number as
+  final yet. **This is the SECOND real-data confirmation of the exact branch-a
+  pattern (tunguska, 2026-08-07, was the first) — a repeated lesson is a process
+  failure, not a video failure: the fix has to land on topic-recognition
+  discipline at icahn-validate time, not be re-logged per-video again.** ·
+  T&C winner: title test still running (see above), thumbnail test insufficient
+  data.
+- 2026-08-10 · channel-wide Shorts · NOT branch (a)-(e), a distinct finding —
+  Shorts are getting near-zero reach, not just a small pool: 26 Shorts published
+  in the last 28 days, 509 total views combined (most individual Shorts sit at
+  5-13 views, a few outliers to 41-43). This is far below even the long-form
+  topic-demand floor — Shorts aren't being tested by the algorithm at meaningful
+  volume at all, which is a distinct problem from "the topic is niche." Making
+  MORE Shorts before diagnosing why the existing 26 aren't being shown is very
+  likely to repeat the same zero-reach result. Also spotted in Studio: a "Balance
+  exhausted" Google Ads promotion banner on the channel — worth checking whether
+  paid promotion recently stopped and how much of recent traffic depended on it.
+  Needs its own real diagnosis pass (per-Short Reach-tab pull) before the next
+  Shorts batch — not done in this session, flagged for follow-up.

@@ -17,32 +17,15 @@ NASA Built It to Last 5 Years. It's Been 49.
 ## Description (paste-ready as one block — English only)
 
 ```
-NASA designed Voyager 1 and Voyager 2 to survive five years in space. Forty-nine
-years later, both spacecraft are still transmitting — from over 15 billion
-miles away, farther than any human-made object has ever traveled.
+NASA designed Voyager 1 and Voyager 2 to survive five years in space. Forty-nine years later, both spacecraft are still transmitting — from over 15 billion miles away, farther than any human-made object has ever traveled.
 
-This is the real story of how they got there, and why they're finally starting
-to go dark. In 1979, JPL navigation engineer Linda Morabito was scanning a
-routine image for background stars when she spotted something no one had ever
-seen before: an active volcano erupting on Jupiter's moon Io, the first ever
-confirmed beyond Earth. Then came the choice that split the mission forever —
-a close flyby of Saturn's moon Titan gave Voyager 1 an incredible look at a
-hidden world, but permanently ended its path to Uranus and Neptune. Only
-Voyager 2 continued on, and to this day, it remains the only spacecraft ever
-to have visited either planet.
+This is the real story of how they got there, and why they're finally starting to go dark. In 1979, JPL navigation engineer Linda Morabito was scanning a routine image for background stars when she spotted something no one had ever seen before: an active volcano erupting on Jupiter's moon Io, the first ever confirmed beyond Earth. Then came the choice that split the mission forever — a close flyby of Saturn's moon Titan gave Voyager 1 an incredible look at a hidden world, but permanently ended its path to Uranus and Neptune. Only Voyager 2 continued on, and to this day, it remains the only spacecraft ever to have visited either planet.
 
-Both spacecraft carry the Golden Record, a gold-plated disc of Earth's sounds,
-images, and music that won't pass near another star for 40,000 years — and
-both are responsible for the Pale Blue Dot photograph Carl Sagan spent eight
-years fighting NASA to take.
+Both spacecraft carry the Golden Record, a gold-plated disc of Earth's sounds, images, and music that won't pass near another star for 40,000 years — and both are responsible for the Pale Blue Dot photograph Carl Sagan spent eight years fighting NASA to take.
 
-In 2023, a corrupted 46-year-old computer chip nearly ended the mission for
-good, until JPL engineers fixed it from 15 billion miles away. And in 2026,
-NASA just pulled off a brand-new power-saving maneuver to keep the lights on
-a little longer.
+In 2023, a corrupted 46-year-old computer chip nearly ended the mission for good, until JPL engineers fixed it from 15 billion miles away. And in 2026, NASA just pulled off a brand-new power-saving maneuver to keep the lights on a little longer.
 
-Every fact in this documentary is sourced directly from NASA and JPL's own
-mission pages, press releases, and fact sheets — see Sources below.
+Every fact in this documentary is sourced directly from NASA and JPL's own mission pages, press releases, and fact sheets — see Sources below.
 
 ▶ MORE FROM MINDWIRED
 21 Astronauts Never Came Home! Here's Every Story: https://youtu.be/maxZwNGqIDU
@@ -76,12 +59,7 @@ Chapters
 voyager 1,voyager 1 nasa,voyager 1 dying,nasa voyager,golden record,pale blue dot,carl sagan,deep space network,voyager documentary,mindwired,nasa jpl,interstellar space,voyager 2
 
 ## Pinned comment
-Every fact in this video — the Centaur near-disaster, Linda Morabito's Io
-discovery, Suzanne Dodd's 2023 chip fix, the 2026 "Big Bang" power maneuver —
-comes straight from real NASA/JPL mission records, not speculation. Which
-moment got you most: the accidental volcano discovery, or the fact that a
-5-year mission is still flying 49 years later? Subscribe if you want more
-space history told straight from the primary sources.
+Every fact in this video — the Centaur near-disaster, Linda Morabito's Io discovery, Suzanne Dodd's 2023 chip fix, the 2026 "Big Bang" power maneuver — comes straight from real NASA/JPL mission records, not speculation. Which moment got you most: the accidental volcano discovery, or the fact that a 5-year mission is still flying 49 years later? Subscribe if you want more space history told straight from the primary sources.
 
 ## Category / license
 Category: Education / Science & Technology
