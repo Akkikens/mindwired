@@ -1,5 +1,15 @@
 # Shorts drip schedule — Planet Nine (mindwired)
 
+**Status: all 4 uploaded and scheduled in Studio, 2026-08-10.** Titles/descriptions
+live with the real long-form URL (https://youtu.be/ync91FsvXUU) already filled in.
+The one thing NOT done: the official Shorts→long-form "related video" link couldn't
+be set because the long-form isn't published yet (Studio's picker only offers
+already-public videos). Set it on all 4 Shorts once the long-form goes live
+Aug 11 — Studio → each Short → Details → Video elements → Related video → Add.
+Real Short URLs: Short1 youtube.com/shorts/DQRAeoR-LiE · Short2
+youtube.com/shorts/-uTo0bKLYfc · Short3 youtube.com/shorts/8fCtK6CHs4w · Short4
+youtube.com/shorts/2agH2IN6UKk.
+
 Long-form: "Pluto's Killer Can't Prove the Planet He's Chasing," scheduled
 2026-08-11. Each Short below is a trailer for that one episode — set the
 official Shorts→long-form related-video link on every Short once the
