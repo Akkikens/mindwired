@@ -9,12 +9,24 @@ NOIRLab Vera Rubin Observatory drone footage, a real Caltech photo of
 Batygin and Brown together. Cloned channel voice. $0 media cost beyond
 Cartesia TTS.
 
-## Title (primary)
+## Title (primary — swapped 2026-08-10, LIVE on the scheduled upload)
+Pluto's Killer Can't Prove the Planet He's Chasing
+
+Swapped in from a ctr-engine title-retest workflow run after the original
+incumbent below was found, by an adversarial honesty-check panel, to read as
+a subtle overclaim ("They're Sure It's There" collapses the real Napier-et-al.
+skeptic fight into false certainty). The new title also better answers the
+Icahn validation's stated condition — differentiate via the real named
+Caltech scientists (Mike Brown, "the Pluto killer"), not the saturated bare
+"there might be a 9th planet" hook every clone channel already used.
+
+### Retired incumbent (scored equally on raw average, 8.17/10, but FAILED the
+### adversarial honesty check — kept for reference)
 They've Never Seen It. They're Sure It's There.
 
-### A/B alternates
-- Astronomers Have Spent a Decade Hunting a Planet No One Can See
-- The Ninth Planet Nobody Has Ever Actually Seen
+### A/B alternates (from the same title-retest panel, both passed the honesty check)
+- Mike Brown Killed Pluto. Now He Won't Let This Go. (7.92/10)
+- A 1-in-15,000 Coincidence Still Isn't Proof (7.83/10, strongest honesty score)
 
 ## Description (paste-ready as one block — English only)
 
@@ -26,7 +38,7 @@ This is the real story: how Mike Brown — the same astronomer who got Pluto kic
 Every fact in this documentary is sourced directly from Caltech, NOIRLab, and the actual published papers — see Sources below.
 
 ▶ MORE FROM MINDWIRED
-NASA Built It to Last 5 Years. It's Been 49.: [paste URL once voyager1 is live]
+NASA Built It to Last 5 Years. It's Been 49.: https://youtu.be/SqT2kqTcwlo
 21 Astronauts Never Came Home! Here's Every Story: https://youtu.be/maxZwNGqIDU
 The Government's Real UFO Files: https://www.youtube.com/watch?v=nlhdw6buxzs
 Playlist — Space Documentaries: https://www.youtube.com/playlist?list=PLSGw_l2_Tsdo
@@ -73,12 +85,20 @@ Batygin/Brown's own position; the skeptical case is given real, named weight,
 not a token mention. Never asserts the planet has been found or ruled out —
 as of filming, the question remains genuinely open.
 
+## Status (2026-08-10)
+Scheduled to publish 2026-08-11. Title + description fixed live in Studio
+this session (title swapped to the ctr-engine retest winner; the Voyager 1
+MORE FROM placeholder is now the real URL). 3 real thumbnails exist at
+`out/thumbs/planetnine_{A,B,C}.png` — but the thumbnail actually SET on the
+scheduled upload is none of these three; it's a separate image with
+"PLANET NINE / STILL MISSING" text baked in, which breaks House Style 2.0's
+≤10-char text rule and doesn't feature Mike Brown to match the new title's
+angle. Not swapped yet — flagged for Akshay to confirm before it goes live.
+
 ## Known gaps / TODO before upload
-- The Voyager 1 "MORE FROM" link needs its real URL once that episode is
-  actually published — currently a placeholder.
-- Thumbnails not yet built (do next, using the real Caltech Planet Nine
-  illustration and/or the real orbits diagram, both already sourced and
-  labeled in the episode itself).
+- Thumbnail mismatch above — decide whether to swap to one of the 3 built
+  real thumbnails (none currently feature Mike Brown; would need a 4th built
+  around the real Batygin/Brown Caltech photo to fully match the new title).
 - No Shorts cut yet.
 - VO ear-check done via file-integrity + full transcript read, not a literal
   human listen — do a quick real listen before publish.
