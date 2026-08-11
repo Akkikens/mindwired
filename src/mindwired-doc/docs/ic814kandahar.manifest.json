@@ -1,0 +1,170 @@
+{
+ "durations": {
+  "h1": 5.642,
+  "h2": 3.971,
+  "h3": 7.001,
+  "h4": 5.564,
+  "h5": 6.766,
+  "h6": 7.706,
+  "h7": 5.407,
+  "sting": 1.881,
+  "title": 3.082,
+  "c1": 3.004,
+  "a1": 5.799,
+  "a2": 6.348,
+  "a3": 6.191,
+  "a4": 9.169,
+  "a5": 7.157,
+  "a6": 15.308,
+  "a7": 4.833,
+  "a8": 9.717,
+  "a9": 11.886,
+  "a10": 7.393,
+  "a11": 3.396,
+  "a12": 11.807,
+  "a13": 5.878,
+  "c2": 2.351,
+  "b1": 7.811,
+  "b2": 5.329,
+  "b3": 14.028,
+  "b4": 10.919,
+  "b5": 5.878,
+  "b6": 5.642,
+  "b7": 2.769,
+  "b8": 7.889,
+  "b9": 3.396,
+  "c3": 3.317,
+  "d1": 5.251,
+  "d2": 3.971,
+  "d3": 7.549,
+  "d4": 4.284,
+  "d5": 5.721,
+  "d6": 4.049,
+  "d7": 6.609,
+  "d8": 3.709,
+  "d9": 7.889,
+  "c4": 1.646,
+  "e1": 7.157,
+  "e2": 2.769,
+  "e3": 5.956,
+  "e4": 9.717,
+  "e5": 7.967,
+  "e6": 6.269,
+  "e7": 5.407,
+  "e8": 9.169,
+  "e9": 5.564,
+  "c5": 1.802,
+  "f1": 3.553,
+  "f2": 3.788,
+  "f3": 7.706,
+  "f4": 10.449,
+  "f5": 6.191,
+  "f6": 6.426,
+  "f7": 3.161,
+  "f8": 7.471,
+  "f9": 7.811,
+  "c6": 2.769,
+  "g1": 6.348,
+  "g2": 9.639,
+  "g3": 9.169,
+  "g4": 10.762,
+  "g5": 10.188,
+  "g6": 6.687,
+  "g7": 10.527,
+  "g8": 7.236,
+  "g9": 4.519,
+  "c7": 2.429,
+  "i1": 10.031,
+  "i2": 11.154,
+  "i3": 10.684,
+  "i4": 9.874,
+  "i5": 8.202,
+  "i6": 10.998,
+  "i7": 6.034,
+  "c8": 3.161,
+  "j1": 7.001,
+  "j2": 7.236,
+  "j3": 8.124,
+  "j4": 8.202,
+  "j5": 7.706,
+  "j6": 4.754,
+  "j7": 5.799,
+  "j8": 7.549,
+  "coda1": 5.486,
+  "coda2": 7.236,
+  "coda3": 4.519,
+  "end": 20.036
+ },
+ "images": {
+  "ex_mea_statement": [
+   "ex_mea_statement_1.png",
+   "ex_mea_statement_2.png",
+   "ex_mea_statement_3.png"
+  ],
+  "ic_advani": [
+   "ic_advani_1.jpg",
+   "ic_advani_2.jpg",
+   "ic_advani_3.jpg"
+  ],
+  "ic_airport_security": [
+   "ic_airport_security_1.jpeg",
+   "ic_airport_security_2.jpeg",
+   "ic_airport_security_3.jpeg"
+  ],
+  "ic_airport_tarmac_generic": [
+   "ic_airport_tarmac_generic_1.jpeg",
+   "ic_airport_tarmac_generic_2.jpeg",
+   "ic_airport_tarmac_generic_3.jpeg"
+  ],
+  "ic_boarding_gate": [
+   "ic_boarding_gate_1.jpg",
+   "ic_boarding_gate_2.jpg",
+   "ic_boarding_gate_3.jpg"
+  ],
+  "ic_cockpit_generic": [
+   "ic_cockpit_generic_1.jpeg",
+   "ic_cockpit_generic_2.jpeg",
+   "ic_cockpit_generic_3.jpeg"
+  ],
+  "ic_courtroom_generic": [
+   "ic_courtroom_generic_1.jpeg",
+   "ic_courtroom_generic_2.jpeg",
+   "ic_courtroom_generic_3.jpeg"
+  ],
+  "ic_desert_airfield": [
+   "ic_desert_airfield_1.jpeg",
+   "ic_desert_airfield_2.jpeg"
+  ],
+  "ic_govt_generic": [
+   "ic_govt_generic_1.jpg",
+   "ic_govt_generic_2.jpg",
+   "ic_govt_generic_3.jpg",
+   "ic_govt_generic_4.jpg",
+   "ic_govt_generic_5.jpg"
+  ],
+  "ic_jaswant": [
+   "ic_jaswant_1.jpg",
+   "ic_jaswant_2.jpg",
+   "ic_jaswant_3.jpg"
+  ],
+  "ic_memorial_candles": [
+   "ic_memorial_candles_1.jpeg",
+   "ic_memorial_candles_2.jpeg"
+  ],
+  "ic_mountains_kashmir": [
+   "ic_mountains_kashmir_1.jpg",
+   "ic_mountains_kashmir_2.jpg",
+   "ic_mountains_kashmir_3.jpg"
+  ],
+  "ic_negotiation_table": [
+   "ic_negotiation_table_1.jpg",
+   "ic_negotiation_table_2.jpg",
+   "ic_negotiation_table_3.jpg",
+   "ic_negotiation_table_4.jpeg",
+   "ic_negotiation_table_5.jpeg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.96,
+ "mouth": {}
+}

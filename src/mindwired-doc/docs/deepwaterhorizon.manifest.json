@@ -1,0 +1,143 @@
+{
+ "durations": {
+  "h1": 6.426,
+  "h2": 9.717,
+  "h3": 8.516,
+  "h4": 1.646,
+  "h5": 12.121,
+  "h6": 9.404,
+  "h7": 8.202,
+  "sting": 1.724,
+  "title": 2.273,
+  "c1": 4.284,
+  "a1": 10.684,
+  "a2": 8.673,
+  "a3": 11.886,
+  "a4": 5.878,
+  "a5": 12.669,
+  "a6": 3.709,
+  "a7": 6.426,
+  "a8": 4.441,
+  "a9": 3.396,
+  "c2": 3.631,
+  "b1": 9.169,
+  "b2": 8.986,
+  "b3": 1.489,
+  "b4": 8.986,
+  "b5": 4.754,
+  "b6": 10.684,
+  "b7": 4.284,
+  "b8": 9.561,
+  "b9": 6.191,
+  "c3": 2.508,
+  "d1": 6.191,
+  "d2": 8.202,
+  "d3": 10.031,
+  "d4": 8.986,
+  "d5": 6.844,
+  "d6": 9.247,
+  "d7": 6.922,
+  "d8": 11.076,
+  "d9": 3.553,
+  "d10": 6.922,
+  "c4": 2.351,
+  "e1": 9.953,
+  "e2": 4.284,
+  "e3": 1.228,
+  "e4": 6.609,
+  "e5": 8.516,
+  "e6": 10.762,
+  "e7": 10.841,
+  "e8": 2.429,
+  "c5": 2.273,
+  "f1": 6.269,
+  "f2": 3.631,
+  "f3": 4.989,
+  "f4": 11.729,
+  "f5": 8.281,
+  "f6": 4.754,
+  "f7": 5.407,
+  "f8": 6.609,
+  "c6": 2.038,
+  "g1": 5.878,
+  "g2": 7.811,
+  "g3": 6.531,
+  "g4": 15.386,
+  "g5": 5.878,
+  "g6": 10.109,
+  "g7": 8.438,
+  "g8": 5.407,
+  "g9": 2.116,
+  "c7": 3.317,
+  "i1": 10.109,
+  "i2": 4.989,
+  "i3": 7.811,
+  "i4": 5.799,
+  "i5": 4.049,
+  "i6": 7.811,
+  "i7": 3.317,
+  "c8": 1.881,
+  "j1": 3.474,
+  "j2": 8.046,
+  "j3": 8.673,
+  "j4": 11.233,
+  "j5": 4.598,
+  "j6": 6.113,
+  "coda1": 9.247,
+  "coda2": 11.076,
+  "coda3": 5.407,
+  "end": 17.554
+ },
+ "images": {
+  "dh_bop": [
+   "dh_bop_1.png",
+   "dh_bop_2.jpeg",
+   "dh_bop_3.jpg"
+  ],
+  "dh_bp_generic": [
+   "dh_bp_generic_4.jpeg",
+   "dh_bp_generic_5.jpg"
+  ],
+  "dh_gulf_coast": [
+   "dh_gulf_coast_1.jpeg",
+   "dh_gulf_coast_2.jpeg",
+   "dh_gulf_coast_3.jpg"
+  ],
+  "dh_hearing": [
+   "dh_hearing_1.jpg",
+   "dh_hearing_2.jpg",
+   "dh_hearing_3.jpg",
+   "dh_hearing_4.jpg"
+  ],
+  "dh_oilslick": [
+   "dh_oilslick_2.jpeg",
+   "dh_oilslick_3.jpeg",
+   "dh_oilslick_4.jpg",
+   "dh_oilslick_5.jpg"
+  ],
+  "dh_rescue": [
+   "dh_rescue_1.jpg",
+   "dh_rescue_2.jpg"
+  ],
+  "dh_rescue_extra": [
+   "dh_rescue_extra_1.jpg"
+  ],
+  "dh_rig_photos": [
+   "dh_rig_photos_1.jpeg",
+   "dh_rig_photos_2.jpeg",
+   "dh_rig_photos_3.jpeg"
+  ],
+  "dh_skimmer": [
+   "dh_skimmer_1.jpeg",
+   "dh_skimmer_2.jpeg",
+   "dh_skimmer_3.jpeg"
+  ],
+  "ex_commission": [
+   "ex_commission_1.png",
+   "ex_commission_2.png"
+  ]
+ },
+ "missing": [],
+ "speed": 0.96,
+ "mouth": {}
+}

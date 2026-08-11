@@ -1,0 +1,788 @@
+1
+00:00:00,140 --> 00:00:04,460
+April 20th, 2010, the Deepwater Horizon drill floor,
+
+2
+00:00:04,840 --> 00:00:06,520
+roughly an hour before the well blows.
+
+3
+00:00:08,280 --> 00:00:11,400
+Senior tool pusher Jason Anderson wasn't even supposed to be on board tonight.
+
+4
+00:00:11,700 --> 00:00:13,160
+His replacement never showed up,
+
+5
+00:00:13,180 --> 00:00:17,440
+so he stayed, cleaned out his locker and spent one more shift with his crew.
+
+6
+00:00:18,980 --> 00:00:23,080
+He calls a colleague off shift in his cabin and tells him the well just passed its final
+
+7
+00:00:23,080 --> 00:00:25,220
+pressure test. A good test,
+
+8
+00:00:25,440 --> 00:00:27,180
+he says. No signs of trouble.
+
+9
+00:00:28,000 --> 00:00:32,500
+It was not a good test. Less than an hour later,
+
+10
+00:00:32,920 --> 00:00:35,040
+mud and gas erupt onto the rig floor.
+
+11
+00:00:35,520 --> 00:00:37,820
+Two explosions ripped through the Deepwater Horizon.
+
+12
+00:00:38,520 --> 00:00:40,120
+Eleven men on that drill floor,
+
+13
+00:00:40,400 --> 00:00:41,520
+including Jason Anderson,
+
+14
+00:00:41,920 --> 00:00:43,060
+will not survive the night.
+
+15
+00:00:44,580 --> 00:00:48,700
+Two years later, the company that owned that well stood in a federal courtroom and pleaded
+
+16
+00:00:48,700 --> 00:00:51,540
+guilty, guilty to 11 counts of manslaughter,
+
+17
+00:00:52,120 --> 00:00:53,620
+one for every man who died.
+
+18
+00:00:54,700 --> 00:00:57,620
+This is the real story of how a nightmare well,
+
+19
+00:00:58,000 --> 00:01:02,440
+an ignored warning, and a six -word email ended in the largest oil spill in American
+
+20
+00:01:02,440 --> 00:01:06,520
+history. You're watching Black Box Breakdown.
+
+21
+00:01:07,320 --> 00:01:09,440
+BP pled guilty to killing 11 men.
+
+22
+00:01:10,900 --> 00:01:13,220
+Chapter 1. The rig, the well,
+
+23
+00:01:13,700 --> 00:01:17,920
+and the three companies. The Deepwater Horizon was a floating,
+
+24
+00:01:17,920 --> 00:01:20,860
+drilling rig built in South Korea in 2001,
+
+25
+00:01:21,140 --> 00:01:23,060
+owned by a company called Transocean,
+
+26
+00:01:23,460 --> 00:01:25,940
+and leased by an oil company you've definitely heard of,
+
+27
+00:01:26,300 --> 00:01:31,520
+BP. In April of 2010, it was drilling BP's Macondo Well
+
+28
+00:01:31,520 --> 00:01:36,440
+about 41 miles off the coast of Louisiana in 5 ,000 feet of water.
+
+29
+00:01:37,940 --> 00:01:40,060
+126 people were on board that night.
+
+30
+00:01:40,540 --> 00:01:42,220
+79 of them worked for Transocean.
+
+31
+00:01:42,660 --> 00:01:45,340
+The rest worked for BP, and for a third company,
+
+32
+00:01:45,760 --> 00:01:49,340
+Halliburton, hired to pump the cement that was supposed to seal the well shut.
+
+33
+00:01:50,360 --> 00:01:52,520
+Three companies won well,
+
+34
+00:01:52,980 --> 00:01:56,300
+and when it failed, all three would end up blaming each other in court.
+
+35
+00:01:58,160 --> 00:02:00,160
+BP owned the well and made the final calls.
+
+36
+00:02:00,880 --> 00:02:03,020
+Transocean owned the rig and its safety equipment,
+
+37
+00:02:03,300 --> 00:02:07,220
+including a massive valve at the bottom of the sea called a blowout preventer.
+
+38
+00:02:07,740 --> 00:02:10,260
+Halliburton designed and pumped the cement job.
+
+39
+00:02:11,760 --> 00:02:15,100
+Renting that rig cost BP about $1 million a day.
+
+40
+00:02:16,000 --> 00:02:21,240
+And by April 20th, the well was five to six weeks behind schedule and tens of
+
+41
+00:02:21,240 --> 00:02:22,560
+millions of dollars over budget.
+
+42
+00:02:24,040 --> 00:02:28,420
+One BP engineer put it plainly in an email six days before the blowout.
+
+43
+00:02:29,560 --> 00:02:30,740
+This has been a nightmare well,
+
+44
+00:02:31,140 --> 00:02:32,900
+which is everyone all over the place.
+
+45
+00:02:34,380 --> 00:02:37,360
+Chapter two, six warnings and one who cares.
+
+46
+00:02:38,740 --> 00:02:40,120
+To finish the well faster,
+
+47
+00:02:40,500 --> 00:02:42,920
+BP chose the cheapest of two casing designs,
+
+48
+00:02:43,440 --> 00:02:45,020
+faster to install, cheaper,
+
+49
+00:02:45,660 --> 00:02:47,820
+and harder to seal with cement at this depth.
+
+50
+00:02:49,120 --> 00:02:54,200
+A Halliburton engineer ran the numbers and warned BP the cement job needed at least 21
+
+51
+00:02:54,200 --> 00:02:56,520
+centering devices, called centralizers,
+
+52
+00:02:56,780 --> 00:03:00,320
+to seal properly. BP used six.
+
+53
+00:03:01,880 --> 00:03:05,000
+An engineer named Brian Morrell raised the concern to a colleague,
+
+54
+00:03:05,420 --> 00:03:10,160
+Brett Kokalas. Kokalas wrote back four words that would later be read aloud in a federal
+
+55
+00:03:10,160 --> 00:03:12,800
+courtroom. But who cares?
+
+56
+00:03:13,360 --> 00:03:16,600
+It's done. End of story will probably be fine.
+
+57
+00:03:18,100 --> 00:03:19,300
+Four days before the blowout,
+
+58
+00:03:19,520 --> 00:03:22,140
+a specialized crew arrived to run one more test.
+
+59
+00:03:22,740 --> 00:03:27,920
+A cement bond log. The one test that could have proven for certain whether the seal actually
+
+60
+00:03:27,920 --> 00:03:32,940
+held. On April 20th, BP canceled that test and
+
+61
+00:03:32,940 --> 00:03:38,020
+sent the crew home. Investigators later found the cement itself never should have
+
+62
+00:03:38,020 --> 00:03:41,680
+passed. An early version of the mixture was tested and approved.
+
+63
+00:03:42,280 --> 00:03:44,440
+But it wasn't the version actually pumped into the well.
+
+64
+00:03:46,100 --> 00:03:50,680
+Engineers hired years later to recreate that exact cement job in a lab could not get
+
+65
+00:03:50,680 --> 00:03:53,800
+it to hold, either. Chapter three,
+
+66
+00:03:54,260 --> 00:03:57,940
+the night of April 20th. At 11 in the morning,
+
+67
+00:03:58,260 --> 00:04:00,840
+the crew runs a test meant to prove the well is sealed.
+
+68
+00:04:01,420 --> 00:04:02,720
+The result doesn't make sense.
+
+69
+00:04:04,180 --> 00:04:05,360
+At five in the afternoon,
+
+70
+00:04:05,640 --> 00:04:09,860
+they try again. One gauge reads 1 ,400 pounds per square inch,
+
+71
+00:04:09,900 --> 00:04:12,220
+where a passing test should read almost nothing.
+
+72
+00:04:13,500 --> 00:04:16,000
+They run a second test on a different line.
+
+73
+00:04:16,420 --> 00:04:17,800
+That one reads close to zero.
+
+74
+00:04:18,320 --> 00:04:20,820
+The crew decides the first bad reading was a fluke,
+
+75
+00:04:21,240 --> 00:04:23,260
+a phenomenon they'd nicknamed the bladder effect.
+
+76
+00:04:24,840 --> 00:04:29,100
+Investigators later found no scientific evidence the bladder effect is even real.
+
+77
+00:04:29,640 --> 00:04:31,300
+It was a fatal misunderstanding,
+
+78
+00:04:31,800 --> 00:04:33,440
+not a real physical phenomenon.
+
+79
+00:04:34,720 --> 00:04:36,260
+Believing the well was sealed,
+
+80
+00:04:36,700 --> 00:04:38,340
+the crew begins the final step,
+
+81
+00:04:38,700 --> 00:04:41,480
+swapping out heavy drilling mud for lighter seawater.
+
+82
+00:04:42,760 --> 00:04:45,580
+That mud was the last thing holding the well's pressure down.
+
+83
+00:04:46,240 --> 00:04:49,600
+Now, only the cement stood between the crew and the reservoir below,
+
+84
+00:04:49,920 --> 00:04:51,740
+and the cement had already failed.
+
+85
+00:04:53,100 --> 00:04:56,200
+At 9 .41, the driller closes an emergency valve,
+
+86
+00:04:56,380 --> 00:04:57,720
+trying to shut the well in.
+
+87
+00:04:58,200 --> 00:04:59,880
+It barely slows anything down.
+
+88
+00:05:00,860 --> 00:05:03,560
+At 9 .46, pressure spikes.
+
+89
+00:05:04,180 --> 00:05:06,720
+Mud, then gas, erupts onto the rig floor.
+
+90
+00:05:07,220 --> 00:05:08,660
+The gas overwhelms the system,
+
+91
+00:05:08,660 --> 00:05:12,040
+built to vent it safely, and pours out across the deck instead.
+
+92
+00:05:13,320 --> 00:05:16,720
+At 9 .49, the gas cloud finds an ignition source.
+
+93
+00:05:18,240 --> 00:05:20,060
+Seven minutes later, a second,
+
+94
+00:05:20,340 --> 00:05:24,780
+larger explosion tears through the rig and fire engulfs the deep water horizon.
+
+95
+00:05:25,880 --> 00:05:28,300
+Chapter four, eleven names.
+
+96
+00:05:29,940 --> 00:05:31,500
+With less than five minutes' warning,
+
+97
+00:05:31,920 --> 00:05:33,660
+the crew evacuates by lifeboat,
+
+98
+00:05:34,020 --> 00:05:35,760
+by life raft, and for some,
+
+99
+00:05:35,960 --> 00:05:39,340
+by jumping straight into the Gulf of Mexico from a burning rig.
+
+100
+00:05:41,180 --> 00:05:44,780
+One hundred fifteen of the one hundred twenty -six people on board made it home.
+
+101
+00:05:46,340 --> 00:05:49,400
+Eleven did not. Jason Anderson.
+
+102
+00:05:50,140 --> 00:05:51,940
+Arendelle Burkine. Donald Clark.
+
+103
+00:05:52,560 --> 00:05:53,960
+Stephen Curtis. Gordon Jones.
+
+104
+00:05:53,960 --> 00:05:57,120
+Wyatt Kemp. Carl Kleppinger,
+
+105
+00:05:57,260 --> 00:05:59,820
+Jr. Keith Manuel. Dewey Revett,
+
+106
+00:06:00,100 --> 00:06:02,320
+who had worked for Transocean for twenty -nine years.
+
+107
+00:06:03,020 --> 00:06:07,860
+Shane Rosto. Adam Wise. Gordon Jones called his pregnant wife,
+
+108
+00:06:08,220 --> 00:06:10,780
+Michelle, about ten minutes before the explosion,
+
+109
+00:06:11,400 --> 00:06:13,100
+three days before their sixth anniversary.
+
+110
+00:06:13,580 --> 00:06:16,540
+Their son, Maxwell, was born two months later.
+
+111
+00:06:17,940 --> 00:06:21,720
+Investigators would later find that every one of these deaths traced back to the same
+
+112
+00:06:21,720 --> 00:06:24,820
+chain of decisions, a well -designed to save time,
+
+113
+00:06:25,300 --> 00:06:26,700
+a warning that went unheeded,
+
+114
+00:06:27,040 --> 00:06:30,740
+a test that was misread. Eleven counts,
+
+115
+00:06:31,280 --> 00:06:34,060
+eleven names. Chapter five,
+
+116
+00:06:34,500 --> 00:06:38,180
+eighty -seven days. Two days after the explosion,
+
+117
+00:06:38,620 --> 00:06:42,700
+still burning, the deepwater horizon sank to the bottom of the Gulf of Mexico.
+
+118
+00:06:43,820 --> 00:06:45,920
+It was still attached to the well below,
+
+119
+00:06:46,380 --> 00:06:47,540
+and the well kept flowing.
+
+120
+00:06:48,980 --> 00:06:52,180
+For eighty -seven days, oil poured into the Gulf of Mexico,
+
+121
+00:06:52,640 --> 00:06:56,700
+completely unchecked. BP tried a containment dome.
+
+122
+00:06:57,040 --> 00:06:59,440
+It failed. A procedure nicknamed the top kill.
+
+123
+00:06:59,940 --> 00:07:05,560
+It failed. A junk shot of shredded rubber and golf balls pumped into the blowout preventer.
+
+124
+00:07:05,780 --> 00:07:10,840
+That failed too. By the time a new capping stack finally sealed the well
+
+125
+00:07:10,840 --> 00:07:15,840
+on July 15th, nearly five million barrels of oil had poured into the Gulf of Mexico.
+
+126
+00:07:16,940 --> 00:07:21,800
+It remains the largest accidental marine oil spill in the history of the petroleum industry.
+
+127
+00:07:23,480 --> 00:07:25,460
+Skimmer boats, miles of floating boom,
+
+128
+00:07:26,020 --> 00:07:28,340
+controlled burns on the surface of the ocean itself.
+
+129
+00:07:29,900 --> 00:07:33,300
+The well was finally, permanently sealed in mid -September,
+
+130
+00:07:33,960 --> 00:07:36,140
+152 days after it first blew.
+
+131
+00:07:37,780 --> 00:07:39,300
+Chapter six, the guilty plea.
+
+132
+00:07:40,760 --> 00:07:44,140
+In November of 2012, BP agreed to plead guilty.
+
+133
+00:07:44,820 --> 00:07:46,300
+Fourteen federal criminal counts.
+
+134
+00:07:47,340 --> 00:07:49,540
+Eleven felony counts of manslaughter.
+
+135
+00:07:50,180 --> 00:07:51,520
+One for every man who died.
+
+136
+00:07:51,880 --> 00:07:55,400
+Plus obstructing Congress and violating clean water law.
+
+137
+00:07:56,960 --> 00:07:59,280
+BP paid four billion dollars in criminal penalties.
+
+138
+00:07:59,680 --> 00:08:02,960
+At the time, the largest criminal resolution in American history.
+
+139
+00:08:04,380 --> 00:08:06,960
+Two years later, a federal judge went further,
+
+140
+00:08:07,260 --> 00:08:08,920
+ruling that BP acted with,
+
+141
+00:08:09,240 --> 00:08:12,860
+quote, gross negligence and willful misconduct and split the blame.
+
+142
+00:08:12,860 --> 00:08:17,780
+BP, 67%, Transocean, 30%,
+
+143
+00:08:17,780 --> 00:08:23,060
+Halliburton, 3%. Transocean pleaded guilty to a water pollution
+
+144
+00:08:23,060 --> 00:08:26,440
+charge. Halliburton pleaded guilty to destroying evidence.
+
+145
+00:08:27,880 --> 00:08:31,740
+In 2016, a federal judge approved a separate civil settlement,
+
+146
+00:08:32,440 --> 00:08:37,740
+20 .8 billion dollars, the largest settlement with a single company in American history.
+
+147
+00:08:38,900 --> 00:08:41,400
+Across every fine, every settlement,
+
+148
+00:08:41,400 --> 00:08:46,400
+every clean -up cost, BP's total bill for that one well has now passed 61
+
+149
+00:08:46,400 --> 00:08:51,460
+billion dollars. Two BP supervisors on the rig that night were charged with
+
+150
+00:08:51,460 --> 00:08:53,740
+manslaughter on top of the corporate plea.
+
+151
+00:08:55,360 --> 00:08:57,660
+Neither one was ever convicted of it.
+
+152
+00:08:58,760 --> 00:09:01,520
+Chapter seven, who paid and who didn't.
+
+153
+00:09:02,760 --> 00:09:04,240
+One of those two supervisors,
+
+154
+00:09:04,680 --> 00:09:07,500
+Donald Vadrine, pleaded guilty to a single misdemeanor.
+
+155
+00:09:08,320 --> 00:09:12,740
+Ten months probation. He died in 2017 after a battle with cancer.
+
+156
+00:09:14,220 --> 00:09:15,520
+The other, Robert Kaluza,
+
+157
+00:09:15,900 --> 00:09:18,760
+took his case to trial and was acquitted outright by a jury.
+
+158
+00:09:20,420 --> 00:09:25,020
+No individual on that rig or in that company was ever convicted of manslaughter.
+
+159
+00:09:25,640 --> 00:09:27,820
+Only the corporation pleaded guilty to that.
+
+160
+00:09:29,200 --> 00:09:30,960
+BP's chief executive at the time,
+
+161
+00:09:31,340 --> 00:09:34,700
+Tony Heywood, gave one interview that followed him for the rest of his career.
+
+162
+00:09:35,940 --> 00:09:38,260
+There's no one who wants this over more than I do.
+
+163
+00:09:38,260 --> 00:09:42,660
+I'd like my life back. Eleven men had just died.
+
+164
+00:09:43,400 --> 00:09:44,420
+Heywood later apologized,
+
+165
+00:09:44,820 --> 00:09:46,880
+calling his own comment hurtful and thoughtless.
+
+166
+00:09:47,340 --> 00:09:48,820
+He resigned five months later.
+
+167
+00:09:50,280 --> 00:09:53,260
+He went on to chair two more energy companies over the next decade.
+
+168
+00:09:54,920 --> 00:09:56,300
+Chapter eight, still paying.
+
+169
+00:09:57,860 --> 00:10:00,940
+Sixteen years later, BP is still cutting checks.
+
+170
+00:10:02,480 --> 00:10:06,720
+Louisiana alone is set to receive over seven billion dollars in restoration funding.
+
+171
+00:10:06,720 --> 00:10:09,720
+The last scheduled payments don't land until the 2030s.
+
+172
+00:10:11,640 --> 00:10:16,720
+In June of 2026, the Gulf Coast Restoration Council approved another 400
+
+173
+00:10:16,720 --> 00:10:19,900
+million dollars for 19 new restoration projects.
+
+174
+00:10:21,300 --> 00:10:26,520
+A 2024 study found deep sea coral colonies in the Gulf still visibly suffering more
+
+175
+00:10:26,520 --> 00:10:27,900
+than a decade after the spill.
+
+176
+00:10:28,440 --> 00:10:32,160
+Some researchers estimate full recovery could take 50 to 100 years.
+
+177
+00:10:33,460 --> 00:10:37,900
+The Gulf's dolphin population suffered the largest die -off ever recorded in the region.
+
+178
+00:10:39,440 --> 00:10:43,780
+Well, that was supposed to save six weeks of schedule is still costing someone something
+
+179
+00:10:43,780 --> 00:10:48,920
+every single year. Every official investigation into this disaster
+
+180
+00:10:48,920 --> 00:10:50,780
+reached the same root finding.
+
+181
+00:10:51,300 --> 00:10:55,420
+A cement barrier meant to hold back millions of years of pressure failed.
+
+182
+00:10:56,920 --> 00:10:59,220
+But every report also agreed on something else.
+
+183
+00:10:59,700 --> 00:11:01,860
+That failure was never just a technical problem.
+
+184
+00:11:02,260 --> 00:11:07,260
+It was the last link in a chain of decisions each one made to save a little time or
+
+185
+00:11:07,260 --> 00:11:11,320
+a little money. 11 men paid for that chain with their lives.
+
+186
+00:11:11,860 --> 00:11:14,300
+And the Gulf of Mexico is still paying for it today.
+
+187
+00:11:15,760 --> 00:11:18,760
+BP had a six -word email warning them this well was a nightmare.
+
+188
+00:11:19,180 --> 00:11:20,700
+And who cares? It's done.
+
+189
+00:11:21,440 --> 00:11:23,300
+If that kind of paper trail shocked you,
+
+190
+00:11:23,480 --> 00:11:28,460
+wait until you see how Boeing's own internal messages read right before it killed 346
+
+191
+00:11:28,460 --> 00:11:30,560
+people. That's on the channel now.
+
+192
+00:11:31,040 --> 00:11:32,800
+Subscribe for more real investigations.
+
+193
+00:11:32,800 --> 00:11:35,700
+If this one got under your skin a little,
+
+194
+00:11:36,040 --> 00:11:41,080
+good. That's the point. And it only keeps happening because people like you keep showing
+
+195
+00:11:41,080 --> 00:11:43,180
+up. So do one thing for me.
+
+196
+00:11:43,520 --> 00:11:48,880
+Hit subscribe. It is free and it is the whole reason BlackBox can keep taking these disasters
+
+197
+00:11:48,880 --> 00:11:49,400
+apart.
+

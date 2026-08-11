@@ -425,23 +425,30 @@ Shipped: 737 MAX (`blackbox_boeing737max.mp4`), Colgan Air 3407 (`blackbox_colga
 Air France 447, United 93, Air India 171, Concorde, MH370, Tenerife, JAL123,
 Titanic, plus the "What's Actually Inside a Black Box" explainer.
 
-**⭐ NEXT — 3rd MH370 video ("What Netflix's MH370 Documentary Got Wrong"),
-Icahn-checked 2026-08-02 (memory `icahn-mh370-netflix-reaction`), PASS-WITH-
-CONDITIONS (revised after live-number pushback).** Live yt-dlp sweep on "what
-Netflix got wrong"/"Netflix MH370 documentary review/reaction" found the
-frame proven at real scale — Green Dot Aviation's exact title, 12.6-14M views
-on a 604K-sub channel (21:1) — comparable to the niche's own ceiling
-(LEMMiNO's generic "Vanishing of Flight 370," 29.6M views). Condition: two
-small, unknown channels that cloned Green Dot's exact title verbatim flopped
-(96 and 274 views) — the frame needs pre-existing channel authority to land,
-not something a cold channel has, but something Black Box Breakdown already
-has (2 shipped MH370 videos, one the channel's best video ever). Don't clone
-either proof-point title word-for-word (Green Dot's or LEMMiNO's) — riff on
-both frames in our own wording and A/B at ctr-engine once the script exists.
-Content plan: script must deliver a genuine documentary-fact-check thread
-(real new ground — neither prior video engages any documentary treatment,
-per `mh370-coverage-audit-2026-08`) inside a mystery/investigation spine, not
-a rehash of the already-exhausted full theory roster from video 2.
+~~⭐ NEXT — 3rd MH370 video~~ **PRODUCED + SHIPPED 2026-08-02** as "MH370: What
+the NETFLIX Documentary Didn't Tell You" (`src/mindwired-doc/docs/mh370netflix.json`,
+real URL `https://youtu.be/Bee3SE4WEg0`) — this flag was left stale after
+shipping and nearly caused a duplicate 4th MH370 video on 2026-08-10. Do not
+resurrect without genuinely new ground beyond what that video + the original
+2 MH370 videos already cover.
+
+**⭐ NEXT — Deepwater Horizon oil rig disaster, Icahn-validated 2026-08-10**
+(memory `icahn-deepwaterhorizon`), PASS. Found via a fresh 5-candidate sweep
+(MH17, Deepwater Horizon, Fukushima, Germanwings 9525, Piper Alpha) run after
+discovering the MH370 flag above was stale. Headline 715.1:1 (Alertometer
+blowout animation, 5.96M views/8,330 subs) + 560.8:1 corroborator, both with
+real seven-figure absolute views — one of the strongest raw signals swept on
+this channel. Recognition 2/3 (bridge: lead with "BP oil spill," not the
+rig's name). Currency: PASS — BP's consent-decree remediation obligations
+run into the 2030s, real 2023/2025 fresh corroborators. Sensitivity:
+MODERATE — cause is legally settled (BP's own 2012 guilty plea + $4.5B
+settlement), 11 real named workers died, no living dangerous figures (Tony
+Hayward is a corporate-accountability figure, not a violent one). Footage:
+real USCG helicopter footage of the actual fire confirmed on Commons — a
+categorically better situation than IC814/AI171. Beat Fukushima (would stack
+2 nuclear-disaster episodes back-to-back with Three Mile Island) and MH17
+(highest sensitivity of the five, active-war-adjacent). Entering production
+under Akshay's standing autonomous-authorization (first given 2026-08-09).
 **Also fully rendered, unpublished, ready to ship:** Chernobyl (`out/chernobyl_gce.mp4`,
 "Chernobyl: The Official Report vs. The Show" — see `docs/planning/CHERNOBYL-HANDOFF.md`).
 Validated-next (final reports exist, defamation-safe): **AF447** (perfect fit — the

@@ -1,0 +1,820 @@
+1
+00:00:00,050 --> 00:00:04,130
+December 24th, 1999. Somewhere over Lucknow,
+
+2
+00:00:04,430 --> 00:00:09,470
+1653 in the evening. A chief steward named Anil Sharma is serving
+
+3
+00:00:09,470 --> 00:00:10,870
+the captain his evening tea.
+
+4
+00:00:12,270 --> 00:00:14,110
+A masked man pushes past him,
+
+5
+00:00:14,310 --> 00:00:16,950
+holding a revolver in one hand and a grenade in the other,
+
+6
+00:00:17,210 --> 00:00:18,950
+and forces his way into the cockpit.
+
+7
+00:00:20,290 --> 00:00:22,150
+The captain's name is Devi Sharan.
+
+8
+00:00:22,590 --> 00:00:23,990
+Without anyone in the cabin noticing,
+
+9
+00:00:24,430 --> 00:00:25,610
+he flips a single switch.
+
+10
+00:00:26,930 --> 00:00:29,250
+It is the transponder code for hijack.
+
+11
+00:00:29,250 --> 00:00:34,390
+Three minutes later, air traffic control in Varanasi and Delhi both see it.
+
+12
+00:00:35,210 --> 00:00:37,150
+Indian Airlines Flight 814,
+
+13
+00:00:37,530 --> 00:00:40,590
+a routine 75 -minute hop from Kathmandu to Delhi,
+
+14
+00:00:40,770 --> 00:00:42,490
+is no longer a routine flight.
+
+15
+00:00:43,850 --> 00:00:47,850
+It will spend the next seven days on the ground in a country most of its own passengers
+
+16
+00:00:47,850 --> 00:00:52,350
+had never heard of. You're watching Black Box Breakdown.
+
+17
+00:00:53,430 --> 00:00:56,190
+India freed three terrorists to end this hijacking.
+
+18
+00:00:57,290 --> 00:01:00,410
+Chapter 1, the airport that waved him through.
+
+19
+00:01:01,890 --> 00:01:03,310
+Tribhuvan International Airport,
+
+20
+00:01:03,810 --> 00:01:06,430
+Kathmandu. December 24th,
+
+21
+00:01:06,450 --> 00:01:10,390
+1999. A man walks through the metal detector.
+
+22
+00:01:10,950 --> 00:01:13,530
+It goes off. He walks through again.
+
+23
+00:01:14,110 --> 00:01:18,830
+It goes off again. He is wearing a business class ticket and a nice jacket.
+
+24
+00:01:19,510 --> 00:01:22,070
+Nepalese police wave him through without a physical search.
+
+25
+00:01:22,930 --> 00:01:26,030
+His name, investigators would later determine,
+
+26
+00:01:26,510 --> 00:01:31,530
+was Ibrahim Athar. Four more men board separately and regroup once the
+
+27
+00:01:31,530 --> 00:01:34,550
+plane is in the air. Five hijackers,
+
+28
+00:01:34,990 --> 00:01:38,510
+one flight attendant's chief steward already serving tea in first class,
+
+29
+00:01:38,990 --> 00:01:40,690
+zero weapons found by security.
+
+30
+00:01:42,010 --> 00:01:43,510
+The men called themselves Chief,
+
+31
+00:01:44,090 --> 00:01:46,690
+Doctor, Burger, Bowler and Shankar.
+
+32
+00:01:46,690 --> 00:01:50,410
+Investigators would later identify them as Ibrahim Athar,
+
+33
+00:01:50,790 --> 00:01:53,470
+Shahid Akhtar Saeed, Sunny Ahmed Kazi,
+
+34
+00:01:53,890 --> 00:01:57,170
+Zaha Ibrahim Mystery and a man known only as Shakir.
+
+35
+00:01:58,670 --> 00:02:03,130
+India's government would later link all five to a militant group called Harkat Ulmujahadeen.
+
+36
+00:02:04,490 --> 00:02:05,850
+Their demand was specific,
+
+37
+00:02:06,170 --> 00:02:08,170
+released three men from Indian prisons.
+
+38
+00:02:08,830 --> 00:02:11,850
+One of them was a Harkat ideologue named Masood Ajhar,
+
+39
+00:02:12,090 --> 00:02:17,510
+held since 1994. A second was Mushtaq Ahmed Zargar.
+
+40
+00:02:18,070 --> 00:02:20,250
+The third, Ahmed Omar Saeed Sheikh,
+
+41
+00:02:20,630 --> 00:02:21,950
+had already tried once before.
+
+42
+00:02:22,270 --> 00:02:26,090
+In 1994, kidnapping Western tourists to trade for Azhar.
+
+43
+00:02:26,430 --> 00:02:29,950
+It failed. The timing was not an accident.
+
+44
+00:02:30,710 --> 00:02:35,050
+India had just fought a war in Kashmir that summer and pushed militant groups onto the
+
+45
+00:02:35,050 --> 00:02:40,250
+back foot. Harkat Ulmujahadeen wanted something big enough to reverse that.
+
+46
+00:02:41,030 --> 00:02:43,190
+And three months before the hijacking,
+
+47
+00:02:43,630 --> 00:02:45,730
+Indian intelligence had already received a warning.
+
+48
+00:02:46,350 --> 00:02:49,030
+A letter dated September 27th,
+
+49
+00:02:49,050 --> 00:02:52,970
+describing a plan to hijack a plane out of Kathmandu within two or three months.
+
+50
+00:02:54,450 --> 00:02:56,690
+Nothing came of it beyond a sealed court note.
+
+51
+00:02:57,210 --> 00:02:59,950
+On December 24th, the warning became real.
+
+52
+00:03:01,590 --> 00:03:06,970
+Chapter 2, 45 minutes. The hijackers ordered the plane to Amritsar,
+
+53
+00:03:07,190 --> 00:03:09,110
+in Indian territory, to refuel.
+
+54
+00:03:09,110 --> 00:03:13,230
+This is the moment India has the best chance to end it.
+
+55
+00:03:13,850 --> 00:03:15,770
+The plane lands at 604 in the evening.
+
+56
+00:03:16,230 --> 00:03:18,930
+A National Security Guard commando team is put on alert.
+
+57
+00:03:20,310 --> 00:03:22,270
+They do not reach the airport in time.
+
+58
+00:03:22,950 --> 00:03:24,310
+Accounts differ on exactly why.
+
+59
+00:03:24,670 --> 00:03:28,010
+A team stuck in traffic between a base outside Delhi and the airport.
+
+60
+00:03:28,470 --> 00:03:30,210
+A decision chain that took too long.
+
+61
+00:03:30,710 --> 00:03:34,070
+Local police left to stall for time with no equipment to storm a plane.
+
+62
+00:03:34,950 --> 00:03:40,050
+A former top police officer in Punjab later said storming it with rifles and no assault
+
+63
+00:03:40,050 --> 00:03:41,670
+gear would have been futile.
+
+64
+00:03:42,590 --> 00:03:46,090
+Critics call it a command and control failure that should never have happened.
+
+65
+00:03:47,470 --> 00:03:49,530
+On the ground, refueling stalls.
+
+66
+00:03:50,230 --> 00:03:53,070
+The hijackers grow furious and turn violent.
+
+67
+00:03:54,550 --> 00:03:55,710
+Two passengers are stabbed.
+
+68
+00:03:56,210 --> 00:03:58,630
+One of them, a young man named Rupan Katyal,
+
+69
+00:03:58,750 --> 00:04:02,530
+does not survive. He was 25 years old,
+
+70
+00:04:02,570 --> 00:04:03,810
+returning from his honeymoon.
+
+71
+00:04:04,770 --> 00:04:08,150
+At 747, 45 minutes after landing,
+
+72
+00:04:08,430 --> 00:04:10,210
+with commandos still not in position,
+
+73
+00:04:10,650 --> 00:04:12,670
+the plane takes off again without clearance.
+
+74
+00:04:14,130 --> 00:04:17,290
+It would never again be on the ground anywhere India controlled.
+
+75
+00:04:18,870 --> 00:04:21,710
+Chapter 3. The bluff that got them into Pakistan.
+
+76
+00:04:23,130 --> 00:04:24,610
+The plane heads for Lahore.
+
+77
+00:04:25,210 --> 00:04:28,170
+Pakistan, at first, refuses to let it land.
+
+78
+00:04:30,010 --> 00:04:31,470
+Captain Shiran is running low on fuel,
+
+79
+00:04:31,670 --> 00:04:33,350
+with no runway willing to take him.
+
+80
+00:04:34,310 --> 00:04:39,310
+So he bluffs. He radios Lahore air traffic control and tells them if they don't clear
+
+81
+00:04:39,310 --> 00:04:41,950
+him to land, he will put the plane down on a highway.
+
+82
+00:04:43,510 --> 00:04:47,390
+Lahore grants clearance. The plane lands at 801 and refuels.
+
+83
+00:04:48,890 --> 00:04:51,610
+India's High Commissioner in Pakistan tries to reach the plane.
+
+84
+00:04:52,070 --> 00:04:54,370
+He is delayed long enough that it doesn't matter.
+
+85
+00:04:55,710 --> 00:04:58,350
+By 1032, it is airborne again,
+
+86
+00:04:58,530 --> 00:05:02,430
+this time for Dubai. At 1 .32 in the morning,
+
+87
+00:05:02,810 --> 00:05:04,110
+in the United Arab Emirates,
+
+88
+00:05:04,650 --> 00:05:07,090
+the hijackers make their first and only concession.
+
+89
+00:05:08,730 --> 00:05:10,230
+27 passengers are released,
+
+90
+00:05:10,590 --> 00:05:12,030
+so is Rupan Katyal's body.
+
+91
+00:05:13,470 --> 00:05:16,070
+By dawn, the plane is airborne one more time.
+
+92
+00:05:16,410 --> 00:05:20,390
+Its next stop is a country with no functioning government India could even negotiate
+
+93
+00:05:20,390 --> 00:05:23,050
+with directly. Chapter 4.
+
+94
+00:05:23,510 --> 00:05:26,470
+Kandahar 8 .33 in the morning,
+
+95
+00:05:26,850 --> 00:05:32,110
+December 25th. The plane lands at Kandahar airport in Taliban controlled Afghanistan.
+
+96
+00:05:33,750 --> 00:05:35,890
+Armed Taliban fighters surround it on the tarmac.
+
+97
+00:05:37,310 --> 00:05:40,590
+For the hostages inside, food and water become irregular.
+
+98
+00:05:40,930 --> 00:05:43,030
+The standoff will last seven days.
+
+99
+00:05:44,470 --> 00:05:46,630
+The Taliban's own foreign minister at the time,
+
+100
+00:05:47,090 --> 00:05:50,710
+Wakil Ahmed Mutawakil, positioned his government as a mediator,
+
+101
+00:05:50,930 --> 00:05:53,810
+providing security around the aircraft and a channel for talk.
+
+102
+00:05:54,950 --> 00:05:58,870
+India sent three of its most senior diplomats to negotiate in person,
+
+103
+00:05:59,430 --> 00:06:02,650
+Vivek, Katju, Ajit Deval and C .D.
+
+104
+00:06:02,830 --> 00:06:06,630
+Sahay. The hijackers' opening demand was enormous,
+
+105
+00:06:07,450 --> 00:06:09,990
+36 prisoners and $200 million.
+
+106
+00:06:11,810 --> 00:06:17,050
+Over seven days, India's negotiators talked that number down to three names and no money.
+
+107
+00:06:18,050 --> 00:06:21,350
+When it ended, the Taliban did not arrest the hijackers,
+
+108
+00:06:21,750 --> 00:06:26,470
+as India had asked. They gave them roughly 10 hours to leave and drove them toward the
+
+109
+00:06:26,470 --> 00:06:30,750
+Pakistan border. Analysts still argue about what that means.
+
+110
+00:06:31,210 --> 00:06:34,230
+No government from that era exists anymore to answer for it.
+
+111
+00:06:35,610 --> 00:06:39,010
+Chapter 5. The Decision Back in Delhi,
+
+112
+00:06:39,650 --> 00:06:42,090
+India's government was not united on what to do.
+
+113
+00:06:42,990 --> 00:06:44,790
+Home Minister L. Kang, Advani,
+
+114
+00:06:44,870 --> 00:06:47,150
+opposed releasing any prisoners at all.
+
+115
+00:06:48,030 --> 00:06:50,710
+External Affairs Minister Jaswant Singh led the talks,
+
+116
+00:06:51,210 --> 00:06:55,470
+and personally flew to Kandahar with the three men when the decision was finally made.
+
+117
+00:06:56,990 --> 00:07:00,750
+National Security Advisor Brajesh Mishra later said the decision was unanimous.
+
+118
+00:07:01,530 --> 00:07:06,250
+Advani, years afterward, said he hadn't been told everything about Singh's personal role
+
+119
+00:07:06,250 --> 00:07:09,630
+on that flight. On December 31,
+
+120
+00:07:10,150 --> 00:07:13,090
+1999, seven days after it began,
+
+121
+00:07:13,530 --> 00:07:16,810
+the swap happened. Masood Ajhar,
+
+122
+00:07:17,250 --> 00:07:20,450
+Mushtaq Ahmed Zargar, Ahmed Omar Saeed Shaikh,
+
+123
+00:07:20,690 --> 00:07:23,850
+all three released. In exchange,
+
+124
+00:07:24,390 --> 00:07:26,270
+every remaining hostage came home.
+
+125
+00:07:27,670 --> 00:07:30,890
+Of the 190 people who boarded that flight in Kathmandu,
+
+126
+00:07:31,150 --> 00:07:34,730
+189 walked away. Rupan Katyal did not.
+
+127
+00:07:35,770 --> 00:07:39,610
+The five men who had actually carried out the hijacking were never arrested.
+
+128
+00:07:40,090 --> 00:07:44,050
+To this day, no government has confirmed capturing or killing any of them.
+
+129
+00:07:45,290 --> 00:07:50,530
+Chapter 6. What Masood Ajhar did next Within weeks of walking free,
+
+130
+00:07:50,970 --> 00:07:52,830
+Masood Ajhar founded a new organisation.
+
+131
+00:07:53,430 --> 00:07:55,110
+He called it Jaish -e -Muhammad.
+
+132
+00:07:56,570 --> 00:08:01,170
+In 2001, Jaish -e -Muhammad was formally linked by Indian authorities to an attack on
+
+133
+00:08:01,170 --> 00:08:02,470
+the Indian parliament itself.
+
+134
+00:08:02,470 --> 00:08:05,770
+Nine people were killed, along with all five attackers.
+
+135
+00:08:07,330 --> 00:08:12,110
+In 2016, Indian investigators attributed an attack on the Pathankot Air Base to the same
+
+136
+00:08:12,110 --> 00:08:16,090
+organisation. Seven security personnel and one civilian died.
+
+137
+00:08:17,550 --> 00:08:20,870
+In 2019, Jaish -e -Muhammad did something it rarely does.
+
+138
+00:08:21,250 --> 00:08:26,450
+It publicly claimed responsibility itself on video for an attack in Palwama that killed
+
+139
+00:08:26,450 --> 00:08:31,550
+40 security personnel. The organisation the hijackers set out to
+
+140
+00:08:31,550 --> 00:08:35,870
+save was declared a banned terrorist group by Pakistan in 2002.
+
+141
+00:08:36,510 --> 00:08:39,330
+By multiple accounts, it kept operating anyway.
+
+142
+00:08:40,850 --> 00:08:46,330
+In May of 2025, Indian airstrikes hit a Jaish -e -Muhammad compound in Bahawalpur,
+
+143
+00:08:46,710 --> 00:08:49,790
+Pakistan. Masood Ajhar's brother,
+
+144
+00:08:50,090 --> 00:08:54,690
+Abdul Raufazhar, described by Indian sources as the planner of the original hijacking
+
+145
+00:08:54,690 --> 00:08:57,310
+was killed. So it was his brother -in -law,
+
+146
+00:08:57,730 --> 00:09:02,730
+Muhammad Yusuf Azhar. Masood Ajhar himself said ten members of his own
+
+147
+00:09:02,730 --> 00:09:04,070
+family were killed in the strikes,
+
+148
+00:09:04,510 --> 00:09:07,130
+including his sister, a nephew and a niece.
+
+149
+00:09:08,650 --> 00:09:09,970
+He said he had no regret.
+
+150
+00:09:10,550 --> 00:09:12,910
+As of this recording, he is still alive.
+
+151
+00:09:14,370 --> 00:09:19,250
+Chapter 7 Where Everyone Else Is Now Ahmed Omar Syed Sheikh,
+
+152
+00:09:19,670 --> 00:09:23,290
+the second man released, was later convicted for a different crime entirely.
+
+153
+00:09:23,290 --> 00:09:27,570
+The 2002 kidnapping and murder of journalist Daniel Pearl.
+
+154
+00:09:29,210 --> 00:09:32,370
+A Pakistani court overturned that murder conviction in 2020.
+
+155
+00:09:32,990 --> 00:09:37,810
+The country's Supreme Court upheld the acquittal in 2021 and finally dismissed the last
+
+156
+00:09:37,810 --> 00:09:39,410
+appeals in January of 2024.
+
+157
+00:09:41,470 --> 00:09:43,010
+Legally, he is a free man,
+
+158
+00:09:43,270 --> 00:09:46,590
+but Pakistani authorities have repeatedly kept him in detention anyway,
+
+159
+00:09:46,870 --> 00:09:48,250
+moving him between facilities.
+
+160
+00:09:48,690 --> 00:09:51,790
+No confirmed report says he has actually returned to public life.
+
+161
+00:09:53,070 --> 00:09:55,910
+Mushtaq Ahmed Zargar, the third man released,
+
+162
+00:09:56,170 --> 00:10:01,590
+lives in Pakistan today. India's government formally designated him an individual terrorist
+
+163
+00:10:01,590 --> 00:10:06,630
+in 2023. The five men who physically hijacked the plane were
+
+164
+00:10:06,630 --> 00:10:12,090
+never identified as caught or killed by any government anywhere in 26 years.
+
+165
+00:10:13,670 --> 00:10:17,650
+Captain Devi Sharan, the man who flipped a hijack switch without anyone noticing,
+
+166
+00:10:17,970 --> 00:10:19,990
+kept flying for another 25 years.
+
+167
+00:10:19,990 --> 00:10:23,370
+He took his final flight on January 4th,
+
+168
+00:10:23,370 --> 00:10:26,930
+2025. Rupin Katyal's widow,
+
+169
+00:10:27,290 --> 00:10:31,510
+Rakhna, said publicly that no government official attended her husband's last rites.
+
+170
+00:10:33,010 --> 00:10:38,510
+Chapter 8 The Show That Made India Furious In August of 2024,
+
+171
+00:10:38,990 --> 00:10:41,610
+Netflix released a dramatised series about the hijacking.
+
+172
+00:10:41,930 --> 00:10:43,850
+It set off a real political fight.
+
+173
+00:10:44,650 --> 00:10:48,830
+The controversy centred on two of the hijacker's codenames used on screen,
+
+174
+00:10:49,470 --> 00:10:52,190
+Pola and Shankar. Both sound Hindu.
+
+175
+00:10:53,790 --> 00:10:55,390
+Critics said using those names upfront,
+
+176
+00:10:55,790 --> 00:10:58,290
+without immediately explaining who the men actually were,
+
+177
+00:10:58,430 --> 00:11:01,530
+made it look like the hijacker's real identities were being hidden.
+
+178
+00:11:02,990 --> 00:11:05,190
+Here is the part almost no one reported clearly.
+
+179
+00:11:05,530 --> 00:11:06,890
+Those codenames were real.
+
+180
+00:11:07,250 --> 00:11:10,790
+The hijackers actually used them in 1999 on the plane.
+
+181
+00:11:11,750 --> 00:11:13,770
+Multiple fact -checks confirmed it.
+
+182
+00:11:13,990 --> 00:11:15,270
+The show didn't invent anything.
+
+183
+00:11:15,590 --> 00:11:17,470
+The argument was about what showing them first,
+
+184
+00:11:17,890 --> 00:11:19,550
+without more context, implied.
+
+185
+00:11:21,210 --> 00:11:25,790
+India's government summoned Netflix's own India content head over it on September 2nd.
+
+186
+00:11:26,950 --> 00:11:28,910
+Netflix updated its opening disclaimer,
+
+187
+00:11:29,530 --> 00:11:32,390
+adding the hijacker's real names alongside the codenames.
+
+188
+00:11:33,850 --> 00:11:38,410
+Separately, a news agency sued the show's makers over how it used old footage.
+
+189
+00:11:38,810 --> 00:11:41,150
+That case was still unresolved as of this recording.
+
+190
+00:11:42,670 --> 00:11:47,430
+26 years later, Nepal's own government reviewed security at the airport this all started
+
+191
+00:11:47,430 --> 00:11:50,610
+from. In November of 2025,
+
+192
+00:11:51,170 --> 00:11:55,750
+a government committee found that security at Tribhuvan International Airport was still
+
+193
+00:11:55,750 --> 00:12:00,150
+weak. The same corridor. A different generation of passengers.
+
+194
+00:12:00,650 --> 00:12:05,770
+The same open question. If a seven -day hostage crisis could still be reopening
+
+195
+00:12:05,770 --> 00:12:08,830
+arguments in a courtroom in a newsroom 26 years later,
+
+196
+00:12:09,250 --> 00:12:13,870
+wait until you see what happened when four hijackers tried the exact same thing on an
+
+197
+00:12:13,870 --> 00:12:16,030
+American plane called United 93,
+
+198
+00:12:16,250 --> 00:12:18,290
+and the passengers didn't wait for a negotiation.
+
+199
+00:12:18,990 --> 00:12:21,290
+If you want more real investigations like this one,
+
+200
+00:12:21,490 --> 00:12:22,970
+subscribe to Black Box Breakdown.
+
+201
+00:12:23,790 --> 00:12:25,690
+If this one got under your skin a little,
+
+202
+00:12:26,150 --> 00:12:31,090
+good. That's the point. And it only keeps happening because people like you keep showing
+
+203
+00:12:31,090 --> 00:12:33,190
+up. So do one thing for me.
+
+204
+00:12:33,530 --> 00:12:35,230
+Hit subscribe. It is free,
+
+205
+00:12:35,630 --> 00:12:39,430
+and it is the whole reason Black Box can keep taking these disasters apart.
+

@@ -1,0 +1,525 @@
+{
+  "slug": "deepwaterhorizon",
+  "title": "BP Pled Guilty to Killing 11 Men",
+  "channel": "blackbox",
+  "niche": "generic",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "April twentieth, twenty ten. The Deepwater Horizon drill floor, roughly an hour before the well blows.",
+      "video": "dh_fire_1.mp4",
+      "videoQuery": "offshore oil rig at night lights",
+      "cap": "April 20, 2010"
+    },
+    {
+      "id": "h2",
+      "text": "Senior toolpusher Jason Anderson wasn't even supposed to be on board tonight. His replacement never showed up, so he stayed, cleaned out his locker, and spent one more shift with his crew.",
+      "video": "dh_rig_sunset_1.mp4",
+      "videoQuery": "offshore oil platform dusk",
+      "cap": "Jason Anderson, 35, Senior Toolpusher"
+    },
+    {
+      "id": "h3",
+      "text": "He calls a colleague off shift in his cabin and tells him the well just passed its final pressure test. A good test, he says. No signs of trouble.",
+      "video": "dh_rig_sunset_1.mp4",
+      "videoQuery": "offshore drilling rig control room",
+      "cap": "“Good test.”"
+    },
+    {
+      "id": "h4",
+      "text": "It was not a good test.",
+      "stat": "9:49 PM CDT",
+      "img": "dh_rig_photos"
+    },
+    {
+      "id": "h5",
+      "text": "Less than an hour later, mud and gas erupt onto the rig floor. Two explosions rip through the Deepwater Horizon. Eleven men on that drill floor, including Jason Anderson, will not survive the night.",
+      "video": "dh_fire_1.mp4",
+      "videoQuery": "oil rig explosion fire ocean"
+    },
+    {
+      "id": "h6",
+      "text": "Two years later, the company that owned that well stood in a federal courtroom and pleaded guilty. Guilty to eleven counts of manslaughter. One for every man who died.",
+      "stat": "11 GUILTY COUNTS",
+      "cap": "BP Exploration and Production Inc.",
+      "img": "dh_bp_generic",
+      "query": "oil company corporate building sign"
+    },
+    {
+      "id": "h7",
+      "text": "This is the real story of how a nightmare well, an ignored warning, and a six word email ended in the largest oil spill in American history.",
+      "video": "dh_oilslick_1.mp4",
+      "videoQuery": "ocean surface aerial wide"
+    },
+    {
+      "id": "sting",
+      "text": "You're watching Black Box Breakdown.",
+      "sting": true,
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "text": "BP Pled Guilty to Killing 11 Men",
+      "chapter": "BP PLED GUILTY\nTO KILLING 11 MEN"
+    },
+    {
+      "id": "c1",
+      "text": "Chapter one. The rig, the well, and the three companies.",
+      "chapter": "1 — THE RIG, THE WELL,\nTHE THREE COMPANIES",
+      "img": "dh_rig_photos",
+      "query": "offshore drilling rig ocean wide shot"
+    },
+    {
+      "id": "a1",
+      "text": "The Deepwater Horizon was a floating drilling rig, built in South Korea in two thousand one, owned by a company called Transocean, and leased by an oil company you've definitely heard of. BP.",
+      "img": "dh_rig_photos"
+    },
+    {
+      "id": "a2",
+      "text": "In April of twenty ten, it was drilling BP's Macondo well, about forty one miles off the coast of Louisiana, in five thousand feet of water.",
+      "img": "dh_oilslick",
+      "stat": "5,000 FT DEEP",
+      "query": "oil spill ocean surface aerial view"
+    },
+    {
+      "id": "a3",
+      "text": "One hundred twenty six people were on board that night. Seventy nine of them worked for Transocean. The rest worked for BP, and for a third company, Halliburton, hired to pump the cement that was supposed to seal the well shut.",
+      "img": "dh_rig_photos"
+    },
+    {
+      "id": "a4",
+      "text": "Three companies. One well. And when it failed, all three would end up blaming each other in court.",
+      "img": "dh_bp_generic"
+    },
+    {
+      "id": "a5",
+      "text": "BP owned the well and made the final calls. Transocean owned the rig and its safety equipment, including a massive valve at the bottom of the sea called a blowout preventer. Halliburton designed and pumped the cement job.",
+      "img": "dh_bop",
+      "motion": "slow",
+      "query": "oil rig blowout preventer valve equipment"
+    },
+    {
+      "id": "a6",
+      "text": "Renting that rig cost BP about one million dollars a day.",
+      "stat": "$1,000,000 / DAY",
+      "img": "dh_rig_photos"
+    },
+    {
+      "id": "a7",
+      "text": "And by April twentieth, the well was five to six weeks behind schedule, and tens of millions of dollars over budget.",
+      "img": "dh_bp_generic",
+      "stat": "WEEKS BEHIND SCHEDULE"
+    },
+    {
+      "id": "a8",
+      "text": "One BP engineer put it plainly, in an email six days before the blowout.",
+      "img": "dh_bp_generic"
+    },
+    {
+      "id": "a9",
+      "text": "This has been a nightmare well, which has everyone all over the place.",
+      "cap": "Brian Morel, BP drilling engineer — April 14, 2010",
+      "stat": "“A NIGHTMARE WELL”",
+      "img": "dh_bp_generic"
+    },
+    {
+      "id": "c2",
+      "text": "Chapter two. Six warnings, and one who cares.",
+      "chapter": "2 — SIX WARNINGS,\nAND ONE “WHO CARES”",
+      "img": "dh_bp_generic"
+    },
+    {
+      "id": "b1",
+      "text": "To finish the well faster, BP chose the cheapest of two casing designs. Faster to install. Cheaper. And harder to seal with cement at this depth.",
+      "img": "dh_bop"
+    },
+    {
+      "id": "b2",
+      "text": "A Halliburton engineer ran the numbers and warned BP the cement job needed at least twenty one centering devices, called centralizers, to seal properly.",
+      "stat": "21 RECOMMENDED",
+      "img": "dh_bop"
+    },
+    {
+      "id": "b3",
+      "text": "BP used six.",
+      "stat": "6 USED",
+      "cap": "To save roughly ten hours",
+      "img": "dh_bop"
+    },
+    {
+      "id": "b4",
+      "text": "An engineer named Brian Morel raised the concern to a colleague, Brett Cocales. Cocales wrote back four words that would later be read aloud in a federal courtroom.",
+      "img": "dh_bp_generic"
+    },
+    {
+      "id": "b5",
+      "text": "But who cares, it's done, end of story, will probably be fine.",
+      "cap": "Brett Cocales, BP operations engineer — April 16, 2010",
+      "stat": "“WHO CARES”",
+      "img": "dh_bp_generic"
+    },
+    {
+      "id": "b6",
+      "text": "Four days before the blowout, a specialized crew arrived to run one more test. A cement bond log. The one test that could have proven, for certain, whether the seal actually held.",
+      "img": "dh_hearing",
+      "query": "congressional hearing testimony witness table"
+    },
+    {
+      "id": "b7",
+      "text": "On April twentieth, BP canceled that test, and sent the crew home.",
+      "stat": "TEST CANCELED",
+      "img": "dh_hearing"
+    },
+    {
+      "id": "b8",
+      "text": "Investigators later found the cement itself never should have passed. An early version of the mixture was tested and approved. But it wasn't the version actually pumped into the well.",
+      "img": "dh_bop"
+    },
+    {
+      "id": "b9",
+      "text": "Engineers hired years later to recreate that exact cement job in a lab could not get it to hold, either.",
+      "img": "dh_bp_generic"
+    },
+    {
+      "id": "c3",
+      "text": "Chapter three. The night of April twentieth.",
+      "chapter": "3 — THE NIGHT OF\nAPRIL 20TH",
+      "video": "dh_fire_3.mp4",
+      "videoQuery": "oil rig at sea night storm",
+      "img": "dh_rig_photos"
+    },
+    {
+      "id": "d1",
+      "text": "At eleven in the morning, the crew runs a test meant to prove the well is sealed. The result doesn't make sense.",
+      "img": "dh_rig_photos"
+    },
+    {
+      "id": "d2",
+      "text": "At five in the afternoon, they try again. One gauge reads fourteen hundred pounds per square inch, where a passing test should read almost nothing.",
+      "stat": "1,400 PSI — SHOULD BE ~0",
+      "img": "dh_rig_photos"
+    },
+    {
+      "id": "d3",
+      "text": "They run a second test, on a different line. That one reads close to zero. The crew decides the first bad reading was a fluke, a phenomenon they'd nicknamed the bladder effect.",
+      "img": "dh_bop"
+    },
+    {
+      "id": "d4",
+      "text": "Investigators later found no scientific evidence the bladder effect is even real. It was a fatal misunderstanding, not a real physical phenomenon.",
+      "stat": "NOT A REAL PHENOMENON",
+      "img": "dh_bop"
+    },
+    {
+      "id": "d5",
+      "text": "Believing the well was sealed, the crew begins the final step. Swapping out heavy drilling mud for lighter seawater.",
+      "img": "dh_rig_photos"
+    },
+    {
+      "id": "d6",
+      "text": "That mud was the last thing holding the well's pressure down. Now, only the cement stood between the crew and the reservoir below. And the cement had already failed.",
+      "img": "dh_bop"
+    },
+    {
+      "id": "d7",
+      "text": "At nine forty one, the driller closes an emergency valve, trying to shut the well in. It barely slows anything down.",
+      "stat": "9:41 PM — TOO LATE",
+      "img": "dh_rig_photos"
+    },
+    {
+      "id": "d8",
+      "text": "At nine forty six, pressure spikes. Mud, then gas, erupts onto the rig floor. The gas overwhelms the system built to vent it safely, and pours out across the deck instead.",
+      "video": "dh_fire_3.mp4",
+      "videoQuery": "industrial gas explosion fire night"
+    },
+    {
+      "id": "d9",
+      "text": "At nine forty nine, the gas cloud finds an ignition source.",
+      "stat": "9:49 PM",
+      "img": "dh_rig_photos"
+    },
+    {
+      "id": "d10",
+      "text": "Seven minutes later, a second, larger explosion tears through the rig, and fire engulfs the Deepwater Horizon.",
+      "video": "dh_fire_1.mp4",
+      "videoQuery": "oil rig explosion fire ocean",
+      "stat": "9:56 PM"
+    },
+    {
+      "id": "c4",
+      "text": "Chapter four. Eleven names.",
+      "chapter": "4 — ELEVEN NAMES",
+      "img": "dh_rescue",
+      "query": "coast guard helicopter rescue ocean"
+    },
+    {
+      "id": "e1",
+      "text": "With less than five minutes' warning, the crew evacuates by lifeboat, by liferaft, and for some, by jumping straight into the Gulf of Mexico from a burning rig.",
+      "video": "dh_rescue_1.mp4",
+      "videoQuery": "coast guard helicopter rescue ocean"
+    },
+    {
+      "id": "e2",
+      "text": "One hundred fifteen of the one hundred twenty six people on board made it home.",
+      "stat": "115 SURVIVED",
+      "img": "dh_rescue"
+    },
+    {
+      "id": "e3",
+      "text": "Eleven did not.",
+      "stat": "11 DID NOT",
+      "img": "dh_rescue"
+    },
+    {
+      "id": "e4",
+      "text": "Jason Anderson. Aaron Dale Burkeen. Donald Clark. Stephen Curtis. Gordon Jones. Wyatt Kemp.",
+      "img": "dh_rescue"
+    },
+    {
+      "id": "e5",
+      "text": "Karl Kleppinger Junior. Keith Manuel. Dewey Revette, who had worked for Transocean for twenty nine years. Shane Roshto. Adam Weise.",
+      "img": "dh_rescue"
+    },
+    {
+      "id": "e6",
+      "text": "Gordon Jones called his pregnant wife, Michelle, about ten minutes before the explosion. Three days before their sixth anniversary. Their son, Maxwell, was born two months later.",
+      "img": "dh_rescue",
+      "motion": "slow"
+    },
+    {
+      "id": "e7",
+      "text": "Investigators would later find that every one of these deaths traced back to the same chain of decisions. A well designed to save time. A warning that went unheeded. A test that was misread.",
+      "img": "dh_bop"
+    },
+    {
+      "id": "e8",
+      "text": "Eleven counts. Eleven names.",
+      "stat": "11 NAMES",
+      "img": "dh_rescue"
+    },
+    {
+      "id": "c5",
+      "text": "Chapter five. Eighty seven days.",
+      "chapter": "5 — 87 DAYS",
+      "video": "dh_oilslick_2.mp4",
+      "videoQuery": "oil spill ocean surface aerial",
+      "img": "dh_oilslick"
+    },
+    {
+      "id": "f1",
+      "text": "Two days after the explosion, still burning, the Deepwater Horizon sank to the bottom of the Gulf of Mexico.",
+      "video": "dh_fire_1.mp4",
+      "videoQuery": "oil rig fire smoke ocean"
+    },
+    {
+      "id": "f2",
+      "text": "It was still attached to the well below. And the well kept flowing.",
+      "img": "dh_oilslick"
+    },
+    {
+      "id": "f3",
+      "text": "For eighty seven days, oil poured into the Gulf of Mexico, completely unchecked.",
+      "stat": "87 DAYS",
+      "img": "dh_oilslick"
+    },
+    {
+      "id": "f4",
+      "text": "BP tried a containment dome. It failed. A procedure nicknamed the top kill. It failed. A junk shot, of shredded rubber and golf balls, pumped into the blowout preventer. That failed too.",
+      "img": "dh_bp_generic"
+    },
+    {
+      "id": "f5",
+      "text": "By the time a new capping stack finally sealed the well on July fifteenth, nearly five million barrels of oil had poured into the Gulf of Mexico.",
+      "video": "dh_rig_sunset_1.mp4",
+      "videoQuery": "offshore oil platform dusk",
+      "stat": "~4.9M BARRELS"
+    },
+    {
+      "id": "f6",
+      "text": "It remains the largest accidental marine oil spill in the history of the petroleum industry.",
+      "img": "dh_skimmer",
+      "stat": "LARGEST SPILL IN US HISTORY",
+      "query": "oil spill skimmer boat cleanup ocean"
+    },
+    {
+      "id": "f7",
+      "text": "Skimmer boats. Miles of floating boom. Controlled burns on the surface of the ocean itself.",
+      "img": "dh_oilslick",
+      "query": "oil spill controlled burn ocean fire"
+    },
+    {
+      "id": "f8",
+      "text": "The well was finally, permanently sealed in mid September. One hundred fifty two days after it first blew.",
+      "video": "dh_wreckage_1.mp4",
+      "videoQuery": "underwater ocean floor rov exploration"
+    },
+    {
+      "id": "c6",
+      "text": "Chapter six. The guilty plea.",
+      "chapter": "6 — THE GUILTY PLEA",
+      "img": "ex_commission",
+      "query": "government report document page"
+    },
+    {
+      "id": "g1",
+      "text": "In November of twenty twelve, BP agreed to plead guilty. Fourteen federal criminal counts.",
+      "img": "ex_commission",
+      "exhibit": true,
+      "source": "BOEMRE Report Regarding the Causes of the April 20, 2010 Macondo Well Blowout, Sept 14, 2011"
+    },
+    {
+      "id": "g2",
+      "text": "Eleven felony counts of manslaughter. One for every man who died. Plus obstructing Congress, and violating clean water law.",
+      "stat": "14 FEDERAL COUNTS",
+      "img": "ex_commission"
+    },
+    {
+      "id": "g3",
+      "text": "BP paid four billion dollars in criminal penalties. At the time, the largest criminal resolution in American history.",
+      "stat": "$4,000,000,000",
+      "img": "dh_bp_generic"
+    },
+    {
+      "id": "g4",
+      "text": "Two years later, a federal judge went further, ruling that BP acted with, quote, gross negligence and willful misconduct, and split the blame. BP, sixty seven percent. Transocean, thirty percent. Halliburton, three percent.",
+      "img": "dh_hearing",
+      "cap": "Judge Carl Barbier, U.S. District Court"
+    },
+    {
+      "id": "g5",
+      "text": "Transocean pleaded guilty to a water pollution charge. Halliburton pleaded guilty to destroying evidence.",
+      "img": "dh_hearing"
+    },
+    {
+      "id": "g6",
+      "text": "In twenty sixteen, a federal judge approved a separate civil settlement. Twenty point eight billion dollars. The largest settlement with a single company in American history.",
+      "stat": "$20,800,000,000",
+      "img": "dh_bp_generic"
+    },
+    {
+      "id": "g7",
+      "text": "Across every fine, every settlement, every cleanup cost, BP's total bill for that one well has now passed sixty one billion dollars.",
+      "img": "dh_bp_generic",
+      "stat": "$61,600,000,000+"
+    },
+    {
+      "id": "g8",
+      "text": "Two BP supervisors on the rig that night were charged with manslaughter, on top of the corporate plea.",
+      "img": "dh_hearing"
+    },
+    {
+      "id": "g9",
+      "text": "Neither one was ever convicted of it.",
+      "stat": "0 INDIVIDUALS CONVICTED OF MANSLAUGHTER",
+      "img": "dh_hearing"
+    },
+    {
+      "id": "c7",
+      "text": "Chapter seven. Who paid, and who didn't.",
+      "chapter": "7 — WHO PAID,\nAND WHO DIDN’T",
+      "img": "dh_bp_generic"
+    },
+    {
+      "id": "i1",
+      "text": "One of those two supervisors, Donald Vidrine, pleaded guilty to a single misdemeanor. Ten months probation. He died in twenty seventeen, after a battle with cancer.",
+      "img": "dh_hearing"
+    },
+    {
+      "id": "i2",
+      "text": "The other, Robert Kaluza, took his case to trial and was acquitted outright by a jury.",
+      "cap": "Acquitted, February 2016",
+      "img": "dh_hearing"
+    },
+    {
+      "id": "i3",
+      "text": "No individual, on that rig or in that company, was ever convicted of manslaughter. Only the corporation pleaded guilty to that.",
+      "img": "dh_bp_generic"
+    },
+    {
+      "id": "i4",
+      "text": "BP's chief executive at the time, Tony Hayward, gave one interview that followed him for the rest of his career.",
+      "img": "dh_hearing"
+    },
+    {
+      "id": "i5",
+      "text": "There's no one who wants this over more than I do. I'd like my life back.",
+      "cap": "Tony Hayward, BP CEO — May 30, 2010",
+      "stat": "“I’D LIKE MY LIFE BACK”",
+      "img": "dh_hearing"
+    },
+    {
+      "id": "i6",
+      "text": "Eleven men had just died. Hayward later apologized, calling his own comment hurtful and thoughtless. He resigned five months later.",
+      "img": "dh_hearing"
+    },
+    {
+      "id": "i7",
+      "text": "He went on to chair two more energy companies over the next decade.",
+      "img": "dh_bp_generic"
+    },
+    {
+      "id": "c8",
+      "text": "Chapter eight. Still paying.",
+      "chapter": "8 — STILL PAYING",
+      "img": "dh_gulf_coast",
+      "query": "Louisiana gulf coast marsh wetland"
+    },
+    {
+      "id": "j1",
+      "text": "Sixteen years later, BP is still cutting checks.",
+      "img": "dh_gulf_coast"
+    },
+    {
+      "id": "j2",
+      "text": "Louisiana alone is set to receive over seven billion dollars in restoration funding. The last scheduled payments don't land until the twenty thirties.",
+      "stat": "PAYMENTS THROUGH THE 2030s",
+      "img": "dh_gulf_coast"
+    },
+    {
+      "id": "j3",
+      "text": "In June of twenty twenty six, the Gulf Coast Restoration Council approved another four hundred million dollars, for nineteen new restoration projects.",
+      "img": "dh_gulf_coast",
+      "stat": "+$400,000,000 — JUNE 2026"
+    },
+    {
+      "id": "j4",
+      "text": "A twenty twenty four study found deep sea coral colonies in the Gulf still visibly suffering, more than a decade after the spill. Some researchers estimate full recovery could take fifty to one hundred years.",
+      "img": "dh_gulf_coast"
+    },
+    {
+      "id": "j5",
+      "text": "The Gulf's dolphin population suffered the largest die off ever recorded in the region.",
+      "img": "dh_gulf_coast"
+    },
+    {
+      "id": "j6",
+      "text": "A well that was supposed to save six weeks of schedule is still costing someone, something, every single year.",
+      "img": "dh_bp_generic"
+    },
+    {
+      "id": "coda1",
+      "text": "Every official investigation into this disaster reached the same root finding. A cement barrier, meant to hold back millions of years of pressure, failed.",
+      "img": "dh_bop"
+    },
+    {
+      "id": "coda2",
+      "text": "But every report also agreed on something else. That failure was never just a technical problem. It was the last link in a chain of decisions, each one made to save a little time, or a little money.",
+      "img": "dh_bp_generic"
+    },
+    {
+      "id": "coda3",
+      "text": "Eleven men paid for that chain with their lives. And the Gulf of Mexico is still paying for it today.",
+      "img": "dh_gulf_coast",
+      "motion": "slow"
+    },
+    {
+      "id": "end",
+      "text": "BP had a six word email warning them this well was a nightmare, and who cares, it's done. If that kind of paper trail shocked you, wait until you see how Boeing's own internal messages read, right before it killed three hundred forty six people. That's on the channel now. Subscribe for more real investigations.",
+      "video": "dh_rig_sunset_1.mp4",
+      "videoQuery": "offshore oil platform dusk",
+      "cap": "Subscribe for more real investigations."
+    }
+  ]
+}

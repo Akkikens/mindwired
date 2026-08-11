@@ -84,6 +84,10 @@ import threemileislandDoc from "./mindwired-doc/docs/threemileisland.json";
 import threemileislandManifest from "./mindwired-doc/docs/threemileisland.manifest.json";
 import keybridgeDoc from "./mindwired-doc/docs/keybridge.json";
 import keybridgeManifest from "./mindwired-doc/docs/keybridge.manifest.json";
+import ic814kandaharDoc from "./mindwired-doc/docs/ic814kandahar.json";
+import ic814kandaharManifest from "./mindwired-doc/docs/ic814kandahar.manifest.json";
+import deepwaterhorizonDoc from "./mindwired-doc/docs/deepwaterhorizon.json";
+import deepwaterhorizonManifest from "./mindwired-doc/docs/deepwaterhorizon.manifest.json";
 import area51Doc from "./mindwired-doc/docs/area51.json";
 import area51Manifest from "./mindwired-doc/docs/area51.manifest.json";
 import tunguskaDoc from "./mindwired-doc/docs/tunguska.json";
@@ -1532,6 +1536,123 @@ export const RemotionRoot: React.FC = () => {
         fps={30}
         width={1920}
         height={1080}
+      />
+
+      {/* ── Black Box Breakdown — IC 814 / Indian Airlines Flight 814 "Kandahar
+             Hijacking" (Dec 1999, Icahn: icahn-ic814kandahar, PASS-WITH-CONDITIONS
+             2026-08-09 — 287.5:1 headline, 2/3 recognition needing a bridge,
+             HIGH sensitivity: Masood Azhar is real/alive/dangerous and every
+             claim about him and the contested prisoner swap stays
+             attributed-never-asserted; the 2024 Netflix code-name controversy
+             stated factually, no side taken. No free archival motion footage of
+             the actual 1999 event/Kandahar exists — real Commons photos of the
+             actual Indian Airlines A300 fleet livery anchor identity, real
+             generic commercial-airliner motion covers first-30s pacing (the
+             AI171 pattern), the real 2000 Lok Sabha statement to Parliament is
+             the primary document exhibit. Rupin Katyal's murder handled via a
+             respectful generic real candle-vigil stand-in, never a misleading
+             photo. Narrator: standard male Cartesia clone. BB subscribe outro
+             baked) ── */}
+      <Composition
+        id="Ic814KandaharDoc"
+        component={makeDocComp(ic814kandaharDoc as any, ic814kandaharManifest as any, BB_OUTRO)}
+        durationInFrames={docTotalFrames(ic814kandaharDoc as any, ic814kandaharManifest as any, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Black Box Breakdown — Deepwater Horizon oil rig disaster (Gulf of
+             Mexico, April 20, 2010, Icahn: icahn-deepwaterhorizon, PASS
+             2026-08-10 — 715:1 headline w/ real millions of views, found after
+             discovering the queue's "3rd MH370 video" flag was stale (already
+             shipped). Recognition 2/3 — packaging leads with "BP," not the
+             rig's name. Sensitivity MODERATE: cause is legally settled (BP's
+             own 2012 guilty plea to 11 felony manslaughter counts + $4.5B
+             settlement), 11 real named workers died, no living dangerous
+             figures. Real USCG helicopter footage of the actual fire anchors
+             the mandatory first-30s real-video cold open; real BOEMRE/USCG
+             joint investigation report (Sept 2011) is the document exhibit;
+             real DVIDS photos of Brett Cocales testifying anchor the "who
+             cares" email beat. Narrator: standard male Cartesia clone. BB
+             subscribe outro baked) ── */}
+      <Composition
+        id="DeepwaterHorizonDoc"
+        component={makeDocComp(deepwaterhorizonDoc as any, deepwaterhorizonManifest as any, BB_OUTRO)}
+        durationInFrames={docTotalFrames(deepwaterhorizonDoc as any, deepwaterhorizonManifest as any, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Deepwater Horizon funnel Shorts (4) — cold open (real USCG fire
+             video, native), the guilty plea (matches the long-form's own
+             locked-package hook), the "who cares" email evidence, the eleven
+             names tribute. All 4 ranges are self-contained real-footage beats. ── */}
+      <Composition
+        id="DeepwaterHorizonShort1"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "h1", endId: "h7", doc: deepwaterhorizonDoc as any, manifest: deepwaterhorizonManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "h1", endId: "h7", hook: "BP PLED GUILTY\nTO KILLING 11 MEN", cta: "The full story\nis on the channel", slug: "deepwaterhorizon", doc: deepwaterhorizonDoc as any, manifest: deepwaterhorizonManifest as any }}
+      />
+      <Composition
+        id="DeepwaterHorizonShort2"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "b1", endId: "b5", doc: deepwaterhorizonDoc as any, manifest: deepwaterhorizonManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "b1", endId: "b5", hook: "THE EMAIL THAT SAID\n\"WHO CARES\"", cta: "What happened next\nis on the channel", slug: "deepwaterhorizon", doc: deepwaterhorizonDoc as any, manifest: deepwaterhorizonManifest as any }}
+      />
+      <Composition
+        id="DeepwaterHorizonShort3"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "e3", endId: "e8", doc: deepwaterhorizonDoc as any, manifest: deepwaterhorizonManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "e3", endId: "e8", hook: "11 MEN DIED.\nTHESE ARE THEIR NAMES.", cta: "Their full stories\nare on the channel", slug: "deepwaterhorizon", doc: deepwaterhorizonDoc as any, manifest: deepwaterhorizonManifest as any }}
+      />
+      <Composition
+        id="DeepwaterHorizonShort4"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "g1", endId: "g4", doc: deepwaterhorizonDoc as any, manifest: deepwaterhorizonManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "g1", endId: "g4", hook: "14 FEDERAL COUNTS.\n$4 BILLION.", cta: "The full guilty plea\nis on the channel", slug: "deepwaterhorizon", doc: deepwaterhorizonDoc as any, manifest: deepwaterhorizonManifest as any }}
+      />
+
+      {/* ── IC 814 Kandahar funnel Shorts (4) — cold open (real cruise/cockpit
+             video, native), the swap decision (matches the long-form's own
+             locked-package hook), the Kandahar standoff, the 2024 Netflix
+             controversy (proven curiosity pattern from the MH370-Netflix
+             Short). All 4 ranges are contiguous, self-contained beats that
+             don't decontextualize the Masood Azhar/JeM claims — those stay
+             inside chapter 6, never cut alone per the shorts-funnel
+             sensitivity rule. ── */}
+      <Composition
+        id="Ic814KandaharShort1"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "h1", endId: "h6", doc: ic814kandaharDoc as any, manifest: ic814kandaharManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "h1", endId: "h6", hook: "A MASKED MAN WALKED\nINTO THE COCKPIT", cta: "The full hijacking\nbreakdown on the channel", slug: "ic814kandahar", doc: ic814kandaharDoc as any, manifest: ic814kandaharManifest as any }}
+      />
+      <Composition
+        id="Ic814KandaharShort2"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "f1", endId: "f8", doc: ic814kandaharDoc as any, manifest: ic814kandaharManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "f1", endId: "f8", hook: "INDIA FREED 3\nTERRORISTS FOR THIS", cta: "What happened next\nis on the channel", slug: "ic814kandahar", doc: ic814kandaharDoc as any, manifest: ic814kandaharManifest as any }}
+      />
+      <Composition
+        id="Ic814KandaharShort3"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "e4", endId: "e9", doc: ic814kandaharDoc as any, manifest: ic814kandaharManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "e4", endId: "e9", hook: "7 DAYS.\n176 HOSTAGES.", hookImg: "ic_desert_airfield_1.jpeg", cta: "The full negotiation\nis on the channel", slug: "ic814kandahar", doc: ic814kandaharDoc as any, manifest: ic814kandaharManifest as any }}
+      />
+      <Composition
+        id="Ic814KandaharShort4"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ startId: "j1", endId: "j5", doc: ic814kandaharDoc as any, manifest: ic814kandaharManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "j1", endId: "j5", hook: "THE NETFLIX SHOW GOT\nSOMETHING RIGHT", cta: "What almost nobody\nreported — on the channel", slug: "ic814kandahar", doc: ic814kandaharDoc as any, manifest: ic814kandaharManifest as any }}
       />
 
       <Composition

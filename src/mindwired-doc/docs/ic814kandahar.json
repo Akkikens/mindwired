@@ -1,0 +1,708 @@
+{
+  "slug": "ic814kandahar",
+  "title": "India Freed 3 Terrorists to End This Hijacking",
+  "channel": "blackbox",
+  "niche": "aviation",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "December twenty fourth, nineteen ninety nine. Somewhere over Lucknow, sixteen fifty three in the evening.",
+      "videoQuery": "commercial airliner flying cruise altitude",
+      "cap": "December 24, 1999. 16:53 IST.",
+      "stat": "190 ON BOARD",
+      "video": "ic_vid_cruise_1.mp4"
+    },
+    {
+      "id": "h2",
+      "text": "A chief steward named Anil Sharma is serving the captain his evening tea.",
+      "videoQuery": "airplane cabin crew serving passengers",
+      "cap": "Chief Steward Anil Sharma",
+      "video": "ic_vid_cabin_1.mp4"
+    },
+    {
+      "id": "h3",
+      "text": "A masked man pushes past him, holding a revolver in one hand and a grenade in the other, and forces his way into the cockpit.",
+      "videoQuery": "airplane cockpit door interior modern aircraft",
+      "cap": "16:53 IST",
+      "video": "ic_vid_cockpitdoor_1.mp4",
+      "stock": true
+    },
+    {
+      "id": "h4",
+      "text": "The captain's name is Devi Sharan. Without anyone in the cabin noticing, he flips a single switch.",
+      "videoQuery": "commercial airplane cockpit instrument panel modern",
+      "cap": "Captain Devi Sharan",
+      "video": "ic_vid_instrumentpanel_1.mp4",
+      "stock": true
+    },
+    {
+      "id": "h5",
+      "text": "It is the transponder code for hijack. Three minutes later, air traffic control in Varanasi and Delhi both see it.",
+      "stat": "16:56 IST — hijack code confirmed",
+      "videoQuery": "air traffic control room radar screens operator",
+      "video": "ic_vid_atctower_1.mp4",
+      "stock": true
+    },
+    {
+      "id": "h6",
+      "text": "Indian Airlines Flight eight fourteen, a routine seventy five minute hop from Kathmandu to Delhi, is no longer a routine flight.",
+      "videoQuery": "commercial jet airplane takeoff runway daytime",
+      "cap": "Indian Airlines Flight 814",
+      "video": "ic_vid_takeoff_1.mp4",
+      "stock": true
+    },
+    {
+      "id": "h7",
+      "text": "It will spend the next seven days on the ground in a country most of its own passengers had never heard of.",
+      "kinetic": {
+        "words": [
+          "Seven",
+          "days.",
+          "One",
+          "hostage",
+          "crisis."
+        ]
+      }
+    },
+    {
+      "id": "sting",
+      "text": "You're watching Black Box Breakdown.",
+      "sting": true,
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "text": "India Freed 3 Terrorists to End This Hijacking",
+      "chapter": "INDIA FREED 3 TERRORISTS\nTO END THIS HIJACKING"
+    },
+    {
+      "id": "c1",
+      "text": "Chapter one. The airport that waved him through.",
+      "chapter": "1 — THE AIRPORT THAT\nWAVED HIM THROUGH",
+      "img": "ic_airport_security",
+      "query": "airport security checkpoint metal detector"
+    },
+    {
+      "id": "a1",
+      "text": "Tribhuvan International Airport, Kathmandu. December twenty fourth, nineteen ninety nine.",
+      "img": "ic_airport_security",
+      "cap": "Tribhuvan International Airport, Kathmandu"
+    },
+    {
+      "id": "a2",
+      "text": "A man walks through the metal detector. It goes off. He walks through again. It goes off again.",
+      "img": "ic_airport_security"
+    },
+    {
+      "id": "a3",
+      "text": "He is wearing a business class ticket and a nice jacket. Nepalese police wave him through without a physical search.",
+      "stat": "No physical frisking that day",
+      "img": "ic_airport_security"
+    },
+    {
+      "id": "a4",
+      "text": "His name, investigators would later determine, was Ibrahim Athar. Four more men board separately, and regroup once the plane is in the air.",
+      "img": "ic_boarding_gate",
+      "query": "airport departure gate boarding passengers"
+    },
+    {
+      "id": "a5",
+      "text": "Five hijackers. One flight attendant's chief steward already serving tea in first class. Zero weapons found by security.",
+      "kinetic": {
+        "words": [
+          "Five",
+          "hijackers.",
+          "Zero",
+          "weapons",
+          "found."
+        ]
+      }
+    },
+    {
+      "id": "a6",
+      "text": "The men called themselves Chief, Doctor, Burger, Bhola, and Shankar. Investigators would later identify them as Ibrahim Athar, Shahid Akhtar Sayeed, Sunny Ahmed Qazi, Zahoor Ibrahim Mistry, and a man known only as Shakir.",
+      "img": "ic_boarding_gate",
+      "cap": "Codenames: Chief, Doctor, Burger, Bhola, Shankar"
+    },
+    {
+      "id": "a7",
+      "text": "India's government would later link all five to a militant group called Harkat-ul-Mujahideen.",
+      "exhibit": true,
+      "img": "ex_mea_statement",
+      "source": "Ministry of External Affairs, Suo Motu Statement, Dec 1999"
+    },
+    {
+      "id": "a8",
+      "text": "Their demand was specific. Release three men from Indian prisons. One of them was a Harkat ideologue named Masood Azhar, held since nineteen ninety four.",
+      "img": "ic_negotiation_table",
+      "query": "government negotiation meeting table officials"
+    },
+    {
+      "id": "a9",
+      "text": "A second was Mushtaq Ahmed Zargar. The third, Ahmed Omar Saeed Sheikh, had already tried once before, in nineteen ninety four, kidnapping Western tourists to trade for Azhar. It failed.",
+      "img": "ic_negotiation_table"
+    },
+    {
+      "id": "a10",
+      "text": "The timing was not an accident. India had just fought a war in Kashmir that summer, and pushed militant groups onto the back foot.",
+      "img": "ic_mountains_kashmir",
+      "query": "mountain border region military"
+    },
+    {
+      "id": "a11",
+      "text": "Harkat-ul-Mujahideen wanted something big enough to reverse that.",
+      "stat": "Summer 1999: the Kargil War",
+      "img": "ic_mountains_kashmir"
+    },
+    {
+      "id": "a12",
+      "text": "And three months before the hijacking, Indian intelligence had already received a warning. A letter, dated September twenty seventh, describing a plan to hijack a plane out of Kathmandu within two or three months.",
+      "cap": "A warning, filed and forgotten",
+      "img": "ic_govt_generic",
+      "query": "government press conference podium"
+    },
+    {
+      "id": "a13",
+      "text": "Nothing came of it beyond a sealed court note. On December twenty fourth, the warning became real.",
+      "kinetic": {
+        "words": [
+          "The",
+          "warning",
+          "was",
+          "right."
+        ]
+      }
+    },
+    {
+      "id": "c2",
+      "text": "Chapter two. Forty five minutes.",
+      "chapter": "2 — FORTY-FIVE MINUTES",
+      "img": "ic_airport_tarmac_generic",
+      "query": "airport tarmac aircraft parked night"
+    },
+    {
+      "id": "b1",
+      "text": "The hijackers order the plane to Amritsar, in Indian territory, to refuel. This is the moment India has the best chance to end it.",
+      "img": "ic_airport_tarmac_generic"
+    },
+    {
+      "id": "b2",
+      "text": "The plane lands at six oh four in the evening. A National Security Guard commando team is put on alert.",
+      "stat": "18:04 IST — landed at Amritsar",
+      "img": "ic_airport_tarmac_generic"
+    },
+    {
+      "id": "b3",
+      "text": "They do not reach the airport in time. Accounts differ on exactly why: a team stuck in traffic between a base outside Delhi and the airport, a decision chain that took too long, local police left to stall for time with no equipment to storm a plane.",
+      "img": "ic_negotiation_table",
+      "cap": "Disputed: command failure, or no good option?"
+    },
+    {
+      "id": "b4",
+      "text": "A former top police officer in Punjab later said storming it with rifles and no assault gear \"would have been futile.\" Critics call it a command and control failure that should never have happened.",
+      "kinetic": {
+        "words": [
+          "Disputed",
+          "to",
+          "this",
+          "day."
+        ]
+      }
+    },
+    {
+      "id": "b5",
+      "text": "On the ground, refueling stalls. The hijackers grow furious, and turn violent.",
+      "img": "ic_airport_tarmac_generic"
+    },
+    {
+      "id": "b6",
+      "text": "Two passengers are stabbed. One of them, a young man named Rupin Katyal, does not survive.",
+      "cap": "Rupin Katyal",
+      "img": "ic_memorial_candles"
+    },
+    {
+      "id": "b7",
+      "text": "He was twenty five years old, returning from his honeymoon.",
+      "kinetic": {
+        "words": [
+          "Rupin",
+          "Katyal.",
+          "25",
+          "years",
+          "old."
+        ]
+      }
+    },
+    {
+      "id": "b8",
+      "text": "At seven forty seven, forty five minutes after landing, with commandos still not in position, the plane takes off again without clearance.",
+      "stat": "19:47 IST — departs without clearance",
+      "img": "ic_airport_tarmac_generic"
+    },
+    {
+      "id": "b9",
+      "text": "It would never again be on the ground anywhere India controlled.",
+      "img": "ic_airport_tarmac_generic"
+    },
+    {
+      "id": "c3",
+      "text": "Chapter three. The bluff that got them into Pakistan.",
+      "chapter": "3 — THE BLUFF THAT GOT\nTHEM INTO PAKISTAN",
+      "videoQuery": "airliner landing runway night lights",
+      "note": "generic type footage, not archival",
+      "video": "ic_vid_nightlanding_1.mp4"
+    },
+    {
+      "id": "d1",
+      "text": "The plane heads for Lahore. Pakistan, at first, refuses to let it land.",
+      "videoQuery": "airliner landing runway night lights",
+      "video": "ic_vid_nightlanding_2.mp4"
+    },
+    {
+      "id": "d2",
+      "text": "Captain Sharan is running low on fuel, with no runway willing to take him.",
+      "img": "ic_cockpit_generic",
+      "query": "airplane cockpit night instrument lights"
+    },
+    {
+      "id": "d3",
+      "text": "So he bluffs. He radios Lahore air traffic control and tells them if they don't clear him to land, he will put the plane down on a highway.",
+      "cap": "The bluff that worked",
+      "img": "ic_cockpit_generic",
+      "query": "airplane cockpit night instrument lights"
+    },
+    {
+      "id": "d4",
+      "text": "Lahore grants clearance. The plane lands at eight oh one, and refuels.",
+      "stat": "20:01 IST — Lahore, Pakistan",
+      "img": "ic_airport_tarmac_generic"
+    },
+    {
+      "id": "d5",
+      "text": "India's High Commissioner in Pakistan tries to reach the plane. He is delayed long enough that it doesn't matter.",
+      "img": "ic_negotiation_table"
+    },
+    {
+      "id": "d6",
+      "text": "By ten thirty two, it is airborne again, this time for Dubai.",
+      "videoQuery": "commercial airplane taking off night city lights",
+      "video": "ic_vid_nighttakeoff_1.mp4",
+      "stock": true
+    },
+    {
+      "id": "d7",
+      "text": "At one thirty two in the morning, in the United Arab Emirates, the hijackers make their first and only concession.",
+      "stat": "01:32 IST, Dec 25 — Dubai (Al Minhad)",
+      "img": "ic_airport_tarmac_generic"
+    },
+    {
+      "id": "d8",
+      "text": "Twenty seven passengers are released. So is Rupin Katyal's body.",
+      "img": "ic_memorial_candles",
+      "cap": "27 released. One body returned."
+    },
+    {
+      "id": "d9",
+      "text": "By dawn, the plane is airborne one more time. Its next stop is a country with no functioning government India could even negotiate with directly.",
+      "videoQuery": "airliner flying sunrise clouds",
+      "video": "ic_vid_sunriseclouds_1.mp4"
+    },
+    {
+      "id": "c4",
+      "text": "Chapter four. Kandahar.",
+      "chapter": "4 — KANDAHAR",
+      "img": "ic_desert_airfield",
+      "query": "desert airfield remote runway"
+    },
+    {
+      "id": "e1",
+      "text": "Eight thirty three in the morning, December twenty fifth. The plane lands at Kandahar airport, in Taliban-controlled Afghanistan.",
+      "stat": "08:33 IST — Kandahar, Afghanistan",
+      "img": "ic_desert_airfield"
+    },
+    {
+      "id": "e2",
+      "text": "Armed Taliban fighters surround it on the tarmac.",
+      "img": "ic_desert_airfield"
+    },
+    {
+      "id": "e3",
+      "text": "For the hostages inside, food and water become irregular. The standoff will last seven days.",
+      "kinetic": {
+        "words": [
+          "Seven",
+          "days.",
+          "One",
+          "plane."
+        ]
+      }
+    },
+    {
+      "id": "e4",
+      "text": "The Taliban's own foreign minister at the time, Wakil Ahmed Muttawakil, positioned his government as a mediator, providing security around the aircraft and a channel for talks.",
+      "exhibit": true,
+      "img": "ex_mea_statement",
+      "source": "Government statements on the Kandahar negotiations"
+    },
+    {
+      "id": "e5",
+      "text": "India sent three of its most senior diplomats to negotiate in person: Vivek Katju, Ajit Doval, and C. D. Sahay.",
+      "img": "ic_negotiation_table"
+    },
+    {
+      "id": "e6",
+      "text": "The hijackers' opening demand was enormous. Thirty six prisoners, and two hundred million dollars.",
+      "stat": "Opening demand: 36 prisoners + $200,000,000",
+      "img": "ic_negotiation_table"
+    },
+    {
+      "id": "e7",
+      "text": "Over seven days, India's negotiators talked that number down to three names, and no money.",
+      "stat": "Final demand: 3 names. $0.",
+      "img": "ic_negotiation_table"
+    },
+    {
+      "id": "e8",
+      "text": "When it ended, the Taliban did not arrest the hijackers, as India had asked. They gave them roughly ten hours to leave, and drove them toward the Pakistan border.",
+      "img": "ic_desert_airfield",
+      "cap": "Disputed: mediator, or something more?"
+    },
+    {
+      "id": "e9",
+      "text": "Analysts still argue about what that means. No government from that era exists anymore to answer for it.",
+      "kinetic": {
+        "words": [
+          "Mediator?",
+          "Or",
+          "accomplice?"
+        ]
+      }
+    },
+    {
+      "id": "c5",
+      "text": "Chapter five. The decision.",
+      "chapter": "5 — THE DECISION",
+      "img": "ic_negotiation_table"
+    },
+    {
+      "id": "f1",
+      "text": "Back in Delhi, India's government was not united on what to do.",
+      "img": "ic_negotiation_table"
+    },
+    {
+      "id": "f2",
+      "text": "Home Minister L. K. Advani opposed releasing any prisoners at all.",
+      "cap": "L. K. Advani — opposed the swap",
+      "img": "ic_advani"
+    },
+    {
+      "id": "f3",
+      "text": "External Affairs Minister Jaswant Singh led the talks, and personally flew to Kandahar with the three men when the decision was finally made.",
+      "cap": "Jaswant Singh — flew to Kandahar personally",
+      "img": "ic_jaswant"
+    },
+    {
+      "id": "f4",
+      "text": "National Security Adviser Brajesh Mishra later said the decision was unanimous. Advani, years afterward, said he hadn't been told everything about Singh's personal role on that flight.",
+      "kinetic": {
+        "words": [
+          "The",
+          "cabinet",
+          "still",
+          "disagrees."
+        ]
+      }
+    },
+    {
+      "id": "f5",
+      "text": "On December thirty first, nineteen ninety nine, seven days after it began, the swap happened.",
+      "stat": "December 31, 1999",
+      "img": "ic_desert_airfield"
+    },
+    {
+      "id": "f6",
+      "text": "Masood Azhar. Mushtaq Ahmed Zargar. Ahmed Omar Saeed Sheikh. All three, released.",
+      "exhibit": true,
+      "img": "ex_mea_statement",
+      "source": "MEA Suo Motu Statement, confirming the release"
+    },
+    {
+      "id": "f7",
+      "text": "In exchange, every remaining hostage came home.",
+      "kinetic": {
+        "words": [
+          "176",
+          "passengers.",
+          "1",
+          "did",
+          "not",
+          "survive."
+        ]
+      }
+    },
+    {
+      "id": "f8",
+      "text": "Of the one hundred ninety people who boarded that flight in Kathmandu, one hundred eighty nine walked away. Rupin Katyal did not.",
+      "img": "ic_memorial_candles"
+    },
+    {
+      "id": "f9",
+      "text": "The five men who had actually carried out the hijacking were never arrested. To this day, no government has confirmed capturing or killing any of them.",
+      "kinetic": {
+        "words": [
+          "Still",
+          "at",
+          "large."
+        ]
+      }
+    },
+    {
+      "id": "c6",
+      "text": "Chapter six. What Masood Azhar did next.",
+      "chapter": "6 — WHAT MASOOD AZHAR\nDID NEXT",
+      "img": "ic_negotiation_table"
+    },
+    {
+      "id": "g1",
+      "text": "Within weeks of walking free, Masood Azhar founded a new organization. He called it Jaish-e-Mohammed.",
+      "stat": "Early 2000 — Jaish-e-Mohammed founded",
+      "img": "ic_govt_generic",
+      "query": "government press conference podium"
+    },
+    {
+      "id": "g2",
+      "text": "In two thousand one, Jaish-e-Mohammed was formally linked by Indian authorities to an attack on the Indian Parliament itself. Nine people were killed, along with all five attackers.",
+      "stat": "2001 — Parliament attack: 9 killed",
+      "img": "ic_govt_generic",
+      "query": "government press conference podium"
+    },
+    {
+      "id": "g3",
+      "text": "In twenty sixteen, Indian investigators attributed an attack on the Pathankot air base to the same organization. Seven security personnel and one civilian died.",
+      "stat": "2016 — Pathankot: 8 killed",
+      "img": "ic_govt_generic",
+      "query": "government press conference podium"
+    },
+    {
+      "id": "g4",
+      "text": "In twenty nineteen, Jaish-e-Mohammed did something it rarely does. It publicly claimed responsibility itself, on video, for an attack in Pulwama that killed forty security personnel.",
+      "stat": "2019 — Pulwama: 40 killed",
+      "img": "ic_govt_generic",
+      "query": "government press conference podium"
+    },
+    {
+      "id": "g5",
+      "text": "The organization the hijackers set out to save was declared a banned terrorist group by Pakistan in two thousand two. By multiple accounts, it kept operating anyway.",
+      "kinetic": {
+        "words": [
+          "Banned.",
+          "Still",
+          "active."
+        ]
+      }
+    },
+    {
+      "id": "g6",
+      "text": "In May of twenty twenty five, Indian airstrikes hit a Jaish-e-Mohammed compound in Bahawalpur, Pakistan.",
+      "stat": "May 7, 2025 — Operation Sindoor",
+      "img": "ic_govt_generic",
+      "query": "government press conference podium"
+    },
+    {
+      "id": "g7",
+      "text": "Masood Azhar's brother, Abdul Rauf Azhar, described by Indian sources as the planner of the original hijacking, was killed. So was his brother in law, Mohammad Yusuf Azhar.",
+      "kinetic": {
+        "words": [
+          "The",
+          "planner.",
+          "Dead."
+        ]
+      }
+    },
+    {
+      "id": "g8",
+      "text": "Masood Azhar himself said ten members of his own family were killed in the strikes, including his sister, a nephew, and a niece.",
+      "img": "ic_negotiation_table",
+      "cap": "Reported, not independently verified"
+    },
+    {
+      "id": "g9",
+      "text": "He said he had \"no regret.\" As of this recording, he is still alive.",
+      "kinetic": {
+        "words": [
+          "Still",
+          "alive."
+        ]
+      }
+    },
+    {
+      "id": "c7",
+      "text": "Chapter seven. Where everyone else is now.",
+      "chapter": "7 — WHERE EVERYONE\nELSE IS NOW",
+      "img": "ic_negotiation_table"
+    },
+    {
+      "id": "i1",
+      "text": "Ahmed Omar Saeed Sheikh, the second man released, was later convicted for a different crime entirely: the two thousand two kidnapping and murder of journalist Daniel Pearl.",
+      "stat": "2002 — convicted, sentenced to death",
+      "img": "ic_courtroom_generic",
+      "query": "courtroom gavel justice"
+    },
+    {
+      "id": "i2",
+      "text": "A Pakistani court overturned that murder conviction in twenty twenty. The country's Supreme Court upheld the acquittal in twenty twenty one, and finally dismissed the last appeals in January of twenty twenty four.",
+      "stat": "Jan 16, 2024 — acquittal finalized",
+      "img": "ic_courtroom_generic",
+      "query": "courtroom gavel justice"
+    },
+    {
+      "id": "i3",
+      "text": "Legally, he is a free man. But Pakistani authorities have repeatedly kept him in detention anyway, moving him between facilities. No confirmed report says he has actually returned to public life.",
+      "kinetic": {
+        "words": [
+          "Free",
+          "on",
+          "paper.",
+          "Not",
+          "confirmed",
+          "free."
+        ]
+      }
+    },
+    {
+      "id": "i4",
+      "text": "Mushtaq Ahmed Zargar, the third man released, lives in Pakistan today. India's government formally designated him an individual terrorist in twenty twenty three.",
+      "stat": "March 2023 — designated individual terrorist",
+      "img": "ic_govt_generic",
+      "query": "government press conference podium"
+    },
+    {
+      "id": "i5",
+      "text": "The five men who physically hijacked the plane were never identified as caught or killed by any government, anywhere, in twenty six years.",
+      "kinetic": {
+        "words": [
+          "26",
+          "years.",
+          "Never",
+          "found."
+        ]
+      }
+    },
+    {
+      "id": "i6",
+      "text": "Captain Devi Sharan, the man who flipped a hijack switch without anyone noticing, kept flying for another twenty five years. He took his final flight on January fourth, twenty twenty five.",
+      "stat": "Jan 4, 2025 — Capt. Sharan's final flight",
+      "img": "ic_cockpit_generic",
+      "query": "airplane cockpit night instrument lights"
+    },
+    {
+      "id": "i7",
+      "text": "Rupin Katyal's widow, Rachna, said publicly that no government official attended her husband's last rites.",
+      "img": "ic_memorial_candles"
+    },
+    {
+      "id": "c8",
+      "text": "Chapter eight. The show that made India furious.",
+      "chapter": "8 — THE SHOW THAT MADE\nINDIA FURIOUS",
+      "img": "ic_negotiation_table"
+    },
+    {
+      "id": "j1",
+      "text": "In August of twenty twenty four, Netflix released a dramatized series about the hijacking. It set off a real political fight.",
+      "stat": "Aug 29, 2024 — Netflix series released",
+      "img": "ic_govt_generic",
+      "query": "government press conference podium"
+    },
+    {
+      "id": "j2",
+      "text": "The controversy centered on two of the hijackers' code names used on screen: Bhola, and Shankar. Both sound Hindu.",
+      "cap": "\"Bhola\" and \"Shankar\"",
+      "img": "ic_govt_generic",
+      "query": "government press conference podium"
+    },
+    {
+      "id": "j3",
+      "text": "Critics said using those names up front, without immediately explaining who the men actually were, made it look like the hijackers' real identities were being hidden.",
+      "kinetic": {
+        "words": [
+          "Real",
+          "codenames.",
+          "Disputed",
+          "framing."
+        ]
+      }
+    },
+    {
+      "id": "j4",
+      "text": "Here is the part almost no one reported clearly. Those codenames were real. The hijackers actually used them, in nineteen ninety nine, on the plane.",
+      "exhibit": true,
+      "img": "ex_mea_statement",
+      "source": "Fact-checked against 1999 contemporary reporting"
+    },
+    {
+      "id": "j5",
+      "text": "Multiple fact-checks confirmed it. The show didn't invent anything. The argument was about what showing them first, without more context, implied.",
+      "kinetic": {
+        "words": [
+          "Not",
+          "fabricated.",
+          "Just",
+          "framed."
+        ]
+      }
+    },
+    {
+      "id": "j6",
+      "text": "India's government summoned Netflix's own India content head over it, on September second.",
+      "stat": "Sept 2, 2024 — Netflix India summoned",
+      "img": "ic_govt_generic",
+      "query": "government press conference podium"
+    },
+    {
+      "id": "j7",
+      "text": "Netflix updated its opening disclaimer, adding the hijackers' real names alongside the codenames.",
+      "img": "ic_negotiation_table"
+    },
+    {
+      "id": "j8",
+      "text": "Separately, a news agency sued the show's makers over how it used old footage. That case was still unresolved as of this recording.",
+      "kinetic": {
+        "words": [
+          "Still",
+          "unresolved."
+        ]
+      }
+    },
+    {
+      "id": "coda1",
+      "text": "Twenty six years later, Nepal's own government reviewed security at the airport this all started from.",
+      "img": "ic_airport_security"
+    },
+    {
+      "id": "coda2",
+      "text": "In November of twenty twenty five, a government committee found that security at Tribhuvan International Airport was still weak.",
+      "stat": "Nov 2025 — still weak, per government review",
+      "img": "ic_airport_security"
+    },
+    {
+      "id": "coda3",
+      "text": "The same corridor. A different generation of passengers. The same open question.",
+      "kinetic": {
+        "words": [
+          "The",
+          "question",
+          "never",
+          "closed."
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "text": "If a seven day hostage crisis could still be reopening arguments in a courtroom and a newsroom twenty six years later, wait until you see what happened when four hijackers tried the exact same thing on an American plane called United ninety three, and the passengers didn't wait for a negotiation. If you want more real investigations like this one, subscribe to Black Box Breakdown.",
+      "cap": "Subscribe for more real investigations.",
+      "img": "ic_airport_tarmac_generic"
+    }
+  ]
+}
