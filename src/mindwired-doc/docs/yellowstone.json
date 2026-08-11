@@ -1,0 +1,500 @@
+{
+  "slug": "yellowstone",
+  "title": "Yellowstone Just Cracked Open a New Crater",
+  "channel": "mindwired",
+  "niche": "generic",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "Five oh nine in the morning, Mountain Daylight Time. Saturday, June thirteenth, twenty twenty six.",
+      "video": "biscuit_explosion_1.mp4",
+      "videoQuery": "Yellowstone Biscuit Basin monitoring camera",
+      "cap": "5:09 a.m. June 13th, 2026.",
+      "tone": "tense"
+    },
+    {
+      "id": "h2",
+      "text": "No one is watching Biscuit Basin. The boardwalks here have been roped off for two years.",
+      "video": "biscuit_explosion_1.mp4",
+      "cap": "Closed to the public since 2024.",
+      "tone": "tense"
+    },
+    {
+      "id": "h3",
+      "text": "But a camera is. And in thirty seconds of footage, the ground north of a pool called Black Diamond tears open.",
+      "video": "biscuit_explosion_1.mp4",
+      "cap": "A camera catches what no person did.",
+      "tone": "shock"
+    },
+    {
+      "id": "h4",
+      "text": "Three new vents rip through the earth, throwing boiling water and steam into the sky.",
+      "video": "biscuit_explosion_1.mp4",
+      "stat": "3 NEW VENTS, ZERO WITNESSES",
+      "cap": "Three new vents. Zero human witnesses.",
+      "tone": "shock"
+    },
+    {
+      "id": "h5",
+      "text": "This is Yellowstone. And what just happened here is only part of the story.",
+      "video": "biscuit_spouting_1.mp4",
+      "videoQuery": "Yellowstone Biscuit Basin thermal pool spouting",
+      "cap": "This is only part of it.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h6",
+      "text": "Two months earlier, a separate team of scientists on the other side of the world had just published something that quietly rewrote thirty years of the textbook answer for what powers this entire volcanic system.",
+      "video": "biscuit_spouting_1.mp4",
+      "cap": "The textbook answer just changed.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "sting",
+      "text": "You're watching mindwired.",
+      "sting": true
+    },
+    {
+      "id": "title",
+      "text": "This is the real story of the ground that just cracked open at Yellowstone, the new scientific answer for what's underneath it, and the real disaster from decades ago that still shapes how we talk about the whole thing.",
+      "img": "caldera_map_1",
+      "cap": "The crater. The new answer. The old disaster."
+    },
+    {
+      "id": "c1",
+      "chapter": "CHAPTER ONE\nTHE MACHINE NOBODY WAS WATCHING",
+      "text": "Chapter one. The machine nobody was watching.",
+      "img": "biscuit_fissure_1",
+      "cap": "CHAPTER 1 \u2014 THE MACHINE NOBODY WAS WATCHING"
+    },
+    {
+      "id": "a1",
+      "text": "At five oh nine and fifty seconds that morning, a research camera at Biscuit Basin recorded something the park's own geologists wouldn't see in person for another day.",
+      "video": "biscuit_explosion_1.mp4",
+      "cap": "A camera saw it first.",
+      "tone": "neutral"
+    },
+    {
+      "id": "a2",
+      "text": "A dark plume of steam jetted from the ground a few dozen meters north of Black Diamond Pool. Seismic and infrared sensors nearby registered the shock at the same instant.",
+      "video": "biscuit_explosion_1.mp4",
+      "cap": "Steam. Then instruments confirming it.",
+      "tone": "neutral"
+    },
+    {
+      "id": "a3",
+      "text": "When Yellowstone's park geologists reached the site the next day, they found three separate places where the ground had torn open.",
+      "img": "biscuit_vents_map_1",
+      "exhibit": true,
+      "source": "USGS, Yellowstone Volcano Observatory, June 2026",
+      "cap": "Three new vents.",
+      "tone": "neutral"
+    },
+    {
+      "id": "a4",
+      "text": "A northern vent, sixty one feet long, filled with water near boiling. A cluster of five smaller vents in the middle. A southern fracture forty nine feet across. All of it venting water close to two hundred degrees Fahrenheit.",
+      "img": "biscuit_fissure_1",
+      "stat": "61-FOOT FISSURE, NEAR-BOILING WATER",
+      "cap": "61 feet long. Near-boiling.",
+      "tone": "shock"
+    },
+    {
+      "id": "a5",
+      "text": "Rock was thrown only a few feet from each vent. By Yellowstone's own standards, this was a small event \u2014 smaller than the explosion at this exact same spot two years earlier.",
+      "img": "biscuit_fissure_1",
+      "cap": "Smaller than 2024. Still real.",
+      "tone": "neutral"
+    },
+    {
+      "id": "a6",
+      "text": "Nobody was hurt. Nobody could have been. This part of the park had already been closed since twenty twenty four, after the last time the ground did this.",
+      "img": "biscuit_fissure_1",
+      "cap": "No injuries. No one was there.",
+      "tone": "neutral"
+    },
+    {
+      "id": "a7",
+      "text": "Michael Poland is the scientist in charge of the Yellowstone Volcano Observatory. His explanation is almost anticlimactic.",
+      "img": "caldera_map_1",
+      "cap": "\"Not uncommon,\" says the man in charge of watching it.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a8",
+      "text": "\"These are not uncommon events in Yellowstone,\" Poland said. \"They probably happen a few times a year somewhere in the park, often completely unobserved. Every now and then, we get one in a place we can actually see.\"",
+      "img": "caldera_map_1",
+      "stat": "\"A FEW TIMES A YEAR, OFTEN UNOBSERVED\" \u2014 M. POLAND, YVO",
+      "cap": "\"A few times a year. Often unobserved.\"",
+      "tone": "neutral"
+    },
+    {
+      "id": "a9",
+      "text": "Downstream, the Firehole River ran milky gray for hours, carrying sediment from the new vents. Poland again: \"The river stayed like that just for a few hours.\"",
+      "cap": "The river ran gray for a few hours.",
+      "tone": "neutral",
+      "img": "firehole_river_1"
+    },
+    {
+      "id": "a10",
+      "text": "Then, days later, something new happened. A section of ground between the vents collapsed, and a fresh pool of boiling water opened where solid earth had been.",
+      "img": "biscuit_pool_1",
+      "exhibit": true,
+      "source": "USGS, Yellowstone Volcano Observatory, June 2026",
+      "cap": "New ground. New pool.",
+      "tone": "shock"
+    },
+    {
+      "id": "a11",
+      "text": "By June eighteenth, that pool was spouting boiling water twenty to thirty feet into the air, in bursts lasting several minutes at a time.",
+      "video": "biscuit_spouting_1.mp4",
+      "stat": "BOILING WATER, 30 FEET HIGH",
+      "cap": "20 to 30 feet. On repeat.",
+      "tone": "shock"
+    },
+    {
+      "id": "a12",
+      "text": "A month later, the park installed a permanent camera aimed at the new vents. Yellowstone isn't guessing about what happens here anymore. It's simply watching, in real time, as the ground keeps changing.",
+      "img": "biscuit_pool_1",
+      "cap": "A new camera. A permanent watch.",
+      "tone": "neutral"
+    },
+    {
+      "id": "c2",
+      "chapter": "CHAPTER TWO\nTHE ANSWER EVERYONE LEARNED WAS WRONG",
+      "text": "Chapter two. The answer everyone learned was wrong.",
+      "img": "old_faithful_1",
+      "cap": "CHAPTER 2 \u2014 THE ANSWER EVERYONE LEARNED WAS WRONG"
+    },
+    {
+      "id": "b1",
+      "text": "For decades, the standard explanation for what powers Yellowstone has been the same one taught in almost every classroom.",
+      "img": "old_faithful_1",
+      "cap": "The textbook answer.",
+      "tone": "neutral"
+    },
+    {
+      "id": "b2",
+      "text": "A plume of superheated rock, rising in a single column from nearly eighteen hundred miles down, almost at the boundary between Earth's core and its mantle. A hose of heat, running straight up.",
+      "img": "old_faithful_1",
+      "cap": "A hose of heat, straight up from the core.",
+      "tone": "neutral"
+    },
+    {
+      "id": "b3",
+      "text": "In April of twenty twenty six, a team led by geophysicist Liu Lijun, at the Institute of Geology and Geophysics in China, published a study that challenges that entire picture.",
+      "img": "caldera_map_1",
+      "cap": "A new study. A different picture.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b4",
+      "text": "Their finding: Yellowstone may not be sitting on top of a rising plume at all. Instead, a slow horizontal current of hot rock \u2014 a kind of mantle wind \u2014 is sweeping in sideways, driven by the buried, sinking remains of a tectonic plate that vanished millions of years ago.",
+      "img": "caldera_map_1",
+      "stat": "NOT A PLUME. A \"MANTLE WIND.\"",
+      "cap": "Not rising. Sweeping sideways.",
+      "tone": "shock"
+    },
+    {
+      "id": "b5",
+      "text": "Picture it this way: instead of a hose pointed straight up from the core, Yellowstone sits in the path of a slow-moving underground current \u2014 heat arriving from the side, not from below.",
+      "img": "caldera_map_1",
+      "cap": "Heat from the side. Not from below.",
+      "tone": "neutral"
+    },
+    {
+      "id": "b6",
+      "text": "That sideways current pushes against thicker crust to the east and lighter crust to the west, stretching a channel between them that lets magma rise and pool in a broad, shallow zone \u2014 not one deep column, but something closer to a wide, unevenly filled sponge.",
+      "img": "caldera_map_1",
+      "cap": "A shallow zone. Not a single column.",
+      "tone": "neutral"
+    },
+    {
+      "id": "b7",
+      "text": "It means the source feeding Yellowstone's heat may be closer to the surface than scientists assumed for thirty years. It does not mean an eruption is any closer. Those are two different questions, and the study answers only the first one.",
+      "img": "caldera_map_1",
+      "cap": "Closer to the surface. Not closer to erupting.",
+      "tone": "neutral"
+    },
+    {
+      "id": "c3",
+      "chapter": "CHAPTER THREE\nHOW BIG THIS THING ACTUALLY IS",
+      "text": "Chapter three. How big this thing actually is.",
+      "img": "landsat_yellowstone_1",
+      "cap": "CHAPTER 3 \u2014 HOW BIG THIS THING ACTUALLY IS"
+    },
+    {
+      "id": "d1",
+      "text": "The ground under Yellowstone has done this before \u2014 three times, on a scale that makes June's small explosion look like nothing at all.",
+      "img": "landsat_yellowstone_1",
+      "cap": "Three eruptions. One system.",
+      "tone": "awe"
+    },
+    {
+      "id": "d2",
+      "text": "Two point one million years ago, an eruption now called the Huckleberry Ridge event carved out a caldera in what's now Idaho.",
+      "img": "landsat_yellowstone_1",
+      "cap": "2.1 million years ago.",
+      "tone": "awe"
+    },
+    {
+      "id": "d3",
+      "text": "One point three million years ago, a second, smaller eruption \u2014 the Mesa Falls event \u2014 did it again nearby.",
+      "img": "landsat_yellowstone_1",
+      "cap": "1.3 million years ago.",
+      "tone": "awe"
+    },
+    {
+      "id": "d4",
+      "text": "Six hundred forty thousand years ago, the third eruption \u2014 Lava Creek \u2014 emptied more than two hundred forty cubic miles of rock and ash, and carved out the caldera that tourists drive across today without ever noticing it.",
+      "img": "landsat_yellowstone_1",
+      "stat": "640,000 YEARS AGO: 240+ CUBIC MILES ERUPTED",
+      "cap": "240+ cubic miles. Most visitors never notice.",
+      "tone": "awe"
+    },
+    {
+      "id": "d5",
+      "text": "That caldera measures fifty three miles by twenty eight miles. It is the largest volcanic caldera in North America, and in places, the magma beneath it sits only a few miles under your feet.",
+      "img": "caldera_map_1",
+      "exhibit": true,
+      "source": "USGS, Yellowstone Volcano Observatory, 2023",
+      "stat": "53 x 28 MILES",
+      "cap": "53 by 28 miles.",
+      "tone": "awe"
+    },
+    {
+      "id": "d6",
+      "text": "That heat is why Yellowstone has more than ten thousand hydrothermal features \u2014 hot springs, mud pots, fumaroles, geysers \u2014 more than five hundred active geysers, roughly half of every geyser on the planet, in one place.",
+      "img": "old_faithful_1",
+      "stat": "500+ ACTIVE GEYSERS \u2014 HALF OF EARTH'S TOTAL",
+      "cap": "Half of Earth's geysers. One park.",
+      "tone": "awe"
+    },
+    {
+      "id": "d7",
+      "text": "A research well drilled at Norris Geyser Basin measured four hundred fifty nine degrees Fahrenheit, just over a thousand feet down. That's the heat this entire system runs on.",
+      "img": "old_faithful_1",
+      "cap": "459\u00b0F, a thousand feet down.",
+      "tone": "shock"
+    },
+    {
+      "id": "d8",
+      "text": "The most famous of all of them was named in eighteen seventy, by an expedition that camped nearby and noticed one geyser behaving with unusual regularity. They called it Old Faithful.",
+      "img": "old_faithful_1",
+      "video": "old_faithful_2.mp4",
+      "videoQuery": "Old Faithful geyser eruption",
+      "cap": "Named in 1870. Still keeping time.",
+      "tone": "awe"
+    },
+    {
+      "id": "d9",
+      "text": "It erupts roughly every ninety minutes, sending three to eight thousand gallons of water over a hundred feet into the air. It isn't the biggest geyser in the park, or even the most regular. It's just the one that made a habit of performing where people were watching.",
+      "video": "old_faithful_2.mp4",
+      "cap": "Not the biggest. Just the most watched.",
+      "tone": "neutral"
+    },
+    {
+      "id": "c4",
+      "chapter": "CHAPTER FOUR\nTHE NIGHT THE GROUND MOVED",
+      "text": "Chapter four. The night the ground moved.",
+      "img": "hebgen_1959_1",
+      "cap": "CHAPTER 4 \u2014 THE NIGHT THE GROUND MOVED"
+    },
+    {
+      "id": "e1",
+      "text": "August seventeenth, nineteen fifty nine. Eleven thirty seven at night. A few miles from Yellowstone's western edge, the ground let go.",
+      "img": "hebgen_1959_1",
+      "cap": "August 17, 1959. 11:37 p.m.",
+      "tone": "tense"
+    },
+    {
+      "id": "e2",
+      "text": "This was not Yellowstone's volcano erupting. It was a fault \u2014 a real, ordinary earthquake fault, part of the same forces slowly stretching the American West apart. The distinction matters, and scientists are careful to make it.",
+      "img": "hebgen_1959_1",
+      "cap": "A fault. Not the volcano.",
+      "tone": "neutral"
+    },
+    {
+      "id": "e3",
+      "text": "A magnitude near seven point two to seven point three \u2014 some older records cite it as high as seven point five \u2014 tore through the Hebgen Lake and Red Canyon faults.",
+      "img": "hebgen_1959_1",
+      "stat": "MAGNITUDE ~7.2\u20137.3",
+      "cap": "Magnitude ~7.2 to 7.3.",
+      "tone": "tense"
+    },
+    {
+      "id": "e4",
+      "text": "On the south wall of the Madison River Canyon, the shaking sheared loose an enormous slab of mountainside \u2014 an estimated fifty million cubic meters of rock, mud, and debris, moving at highway speed.",
+      "img": "hebgen_slide_1",
+      "exhibit": true,
+      "source": "USGS Photographic Library, 1959",
+      "stat": "~50 MILLION CUBIC METERS, ~100 MPH",
+      "cap": "50 million cubic meters. Highway speed.",
+      "tone": "shock"
+    },
+    {
+      "id": "e5",
+      "text": "It crossed the canyon floor, climbed partway up the far wall, and dammed the Madison River. The lake it created is still there. They named it Quake Lake.",
+      "img": "hebgen_slide_1",
+      "cap": "It became Quake Lake.",
+      "tone": "somber"
+    },
+    {
+      "id": "e6",
+      "text": "Twenty eight people died that night. Nineteen of them are still under that slide. They were never recovered.",
+      "img": "hebgen_slide_1",
+      "stat": "28 DEAD. 19 NEVER RECOVERED.",
+      "cap": "28 dead. 19 never recovered.",
+      "tone": "somber"
+    },
+    {
+      "id": "e7",
+      "text": "Anita Painter Thon was twelve years old, camping with her family that night for her own birthday. Her mother was killed. Her father was critically injured. Decades later, she wrote a book naming every one of the twenty eight victims, one by one.",
+      "img": "hebgen_1959_1",
+      "cap": "She was 12. She later named all 28.",
+      "tone": "somber"
+    },
+    {
+      "id": "e8",
+      "text": "Highway two eighty seven, running along the lakeshore, dropped into the water in sections. Fault scarps up to twenty feet high cut straight across the road.",
+      "img": "hebgen_1959_2",
+      "cap": "The highway itself dropped away.",
+      "tone": "tense"
+    },
+    {
+      "id": "e9",
+      "text": "And inside the park, the shaking reached Yellowstone's plumbing directly. In the days that followed, two hundred eighty nine hot springs erupted as geysers \u2014 a hundred sixty of them with no record of ever doing that before.",
+      "img": "old_faithful_1",
+      "stat": "289 SPRINGS ERUPTED AFTER THE QUAKE",
+      "cap": "289 springs, suddenly erupting.",
+      "tone": "shock"
+    },
+    {
+      "id": "e10",
+      "text": "It's real proof of how connected this entire region is beneath the surface. It is not proof that the volcano caused the earthquake. It didn't. The two systems touch \u2014 they aren't the same thing.",
+      "img": "caldera_map_1",
+      "cap": "Connected. Not the same system.",
+      "tone": "neutral"
+    },
+    {
+      "id": "c5",
+      "chapter": "CHAPTER FIVE\nWHAT SCIENTISTS ARE ACTUALLY WATCHING FOR",
+      "text": "Chapter five. What scientists are actually watching for.",
+      "img": "caldera_map_1",
+      "cap": "CHAPTER 5 \u2014 WHAT SCIENTISTS ARE ACTUALLY WATCHING FOR"
+    },
+    {
+      "id": "f1",
+      "text": "So \u2014 after a new crack in the ground, and a study that rewrote thirty years of theory \u2014 where does that leave things right now?",
+      "img": "caldera_map_1",
+      "cap": "Where does that leave things?",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f2",
+      "text": "The Yellowstone Volcano Observatory publishes a monthly update. As of this August: sixty eight earthquakes recorded in the previous month. The largest, a magnitude three point three.",
+      "img": "caldera_map_1",
+      "stat": "68 QUAKES LAST MONTH. LARGEST: M3.3.",
+      "cap": "68 quakes. Largest: M3.3.",
+      "tone": "neutral"
+    },
+    {
+      "id": "f3",
+      "text": "Ground uplift that had been rising since the middle of last year stopped in January, and hasn't resumed. The current alert level: normal. The current aviation color code: green.",
+      "img": "caldera_map_1",
+      "stat": "ALERT LEVEL: NORMAL",
+      "cap": "Alert level: normal.",
+      "tone": "neutral"
+    },
+    {
+      "id": "f4",
+      "text": "The observatory's own words: no signs of an impending eruption. The system beneath Yellowstone is mostly solid rock \u2014 not the giant tank of liquid magma the movies love to imagine.",
+      "img": "caldera_map_1",
+      "cap": "\"No signs of an impending eruption.\" \u2014 USGS",
+      "tone": "neutral"
+    },
+    {
+      "id": "f5",
+      "text": "USGS does publish a probability figure \u2014 roughly one in seven hundred thirty thousand, in any given year. But the agency is upfront that this number comes from averaging just two gaps between three ancient eruptions. In their own words, that's hardly enough data to make a real judgment.",
+      "img": "caldera_map_1",
+      "stat": "~1 IN 730,000 PER YEAR (USGS'S OWN CAVEAT: WEAK DATA)",
+      "cap": "1 in 730,000 \u2014 with USGS's own asterisk.",
+      "tone": "neutral"
+    },
+    {
+      "id": "f6",
+      "text": "You'll sometimes hear that Yellowstone is \"overdue.\" That framing doesn't hold up. The gaps between the three real eruptions weren't even \u2014 roughly eight hundred thousand years, then six hundred sixty thousand. There was never a schedule to fall behind on.",
+      "img": "caldera_map_1",
+      "cap": "There was never a schedule.",
+      "tone": "neutral"
+    },
+    {
+      "id": "c6",
+      "chapter": "CHAPTER SIX\nTHE REAL STORY, NOT THE HYPOTHETICAL ONE",
+      "text": "Chapter six. The real story, not the hypothetical one.",
+      "img": "biscuit_fissure_1",
+      "cap": "CHAPTER 6 \u2014 THE REAL STORY, NOT THE HYPOTHETICAL ONE"
+    },
+    {
+      "id": "g1",
+      "text": "Almost every major science channel has made the same video: what would happen if Yellowstone erupted tomorrow. It's a fair question. It's also not what actually happened this year.",
+      "img": "biscuit_fissure_1",
+      "cap": "Not the video everyone's already made.",
+      "tone": "neutral"
+    },
+    {
+      "id": "g2",
+      "text": "What actually happened is smaller, stranger, and in some ways more interesting: a real, small, non-threatening explosion, caught only by a machine, at the exact same time scientists on the other side of the planet were quietly rewriting the answer to how this whole system works underneath.",
+      "img": "caldera_map_1",
+      "cap": "Real. Small. Genuinely new.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "g3",
+      "text": "Neither event caused the other. Nobody credible claims that. But both are true, both are recent, and together they're a better story than another hypothetical countdown to doomsday.",
+      "img": "biscuit_pool_1",
+      "cap": "Two real stories. No fake countdown.",
+      "tone": "neutral"
+    },
+    {
+      "id": "coda1",
+      "text": "What stays with me, honestly, isn't the size of the caldera, or the scary probability numbers.",
+      "img": "old_faithful_1",
+      "cap": "What stays with me.",
+      "tone": "somber"
+    },
+    {
+      "id": "coda2",
+      "text": "It's that a camera, alone, in the dark, at five in the morning, recorded the ground doing something it's done quietly, unwatched, a few times a year, for longer than anyone has been counting.",
+      "img": "biscuit_fissure_1",
+      "cap": "Unwatched, for longer than anyone's counted.",
+      "tone": "somber"
+    },
+    {
+      "id": "coda3",
+      "text": "And it's that thirty years of the accepted answer for what's underneath it all just changed \u2014 quietly, in a journal, months before most people ever heard about it.",
+      "img": "caldera_map_1",
+      "cap": "The answer changed quietly.",
+      "tone": "somber"
+    },
+    {
+      "id": "coda4",
+      "text": "Somewhere in Wyoming tonight, that same camera is still watching the same stretch of ground. So far, it hasn't needed to show anyone anything else.",
+      "video": "biscuit_spouting_1.mp4",
+      "cap": "Still watching. Nothing else, so far.",
+      "tone": "somber"
+    },
+    {
+      "id": "bridge",
+      "text": "If the ground moving at Yellowstone got to you, wait until you see what almost happened underneath a different kind of pressure entirely \u2014 the story of the astronomers who are certain there's a whole planet out there that no one has ever seen. Subscribe to mindwired for more real science, told straight.",
+      "img": "old_faithful_1",
+      "cap": "Next: the planet nobody has ever seen."
+    },
+    {
+      "id": "end",
+      "text": "Subscribe to mindwired.",
+      "note": "subscribe outro plays after this"
+    }
+  ]
+}

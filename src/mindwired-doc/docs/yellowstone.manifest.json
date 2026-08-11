@@ -1,0 +1,113 @@
+{
+ "durations": {
+  "h1": 6.269,
+  "h2": 4.598,
+  "h3": 7.001,
+  "h4": 4.911,
+  "h5": 4.127,
+  "h6": 10.998,
+  "sting": 1.489,
+  "title": 11.154,
+  "c1": 3.396,
+  "a1": 8.673,
+  "a2": 9.561,
+  "a3": 6.687,
+  "a4": 12.931,
+  "a5": 10.109,
+  "a6": 8.986,
+  "a7": 7.079,
+  "a8": 12.042,
+  "a9": 8.908,
+  "a10": 9.247,
+  "a11": 7.889,
+  "a12": 11.154,
+  "c2": 3.239,
+  "b1": 6.269,
+  "b2": 11.154,
+  "b3": 9.404,
+  "b4": 15.882,
+  "b5": 9.717,
+  "b6": 15.229,
+  "b7": 13.244,
+  "c3": 3.004,
+  "d1": 7.079,
+  "d2": 6.844,
+  "d3": 7.079,
+  "d4": 12.121,
+  "d5": 11.154,
+  "d6": 13.949,
+  "d7": 9.717,
+  "d8": 10.371,
+  "d9": 13.871,
+  "c4": 2.691,
+  "e1": 7.811,
+  "e2": 14.367,
+  "e3": 9.169,
+  "e4": 12.513,
+  "e5": 8.986,
+  "e6": 5.799,
+  "e7": 14.289,
+  "e8": 8.202,
+  "e9": 12.931,
+  "e10": 11.233,
+  "c5": 3.396,
+  "f1": 7.706,
+  "f2": 10.527,
+  "f3": 9.796,
+  "f4": 10.109,
+  "f5": 17.006,
+  "f6": 13.166,
+  "c6": 3.474,
+  "g1": 10.527,
+  "g2": 17.006,
+  "g3": 10.527,
+  "coda1": 5.956,
+  "coda2": 11.964,
+  "coda3": 9.404,
+  "coda4": 8.438,
+  "bridge": 15.229,
+  "end": 1.646
+ },
+ "images": {
+  "biscuit_fissure_1": [
+   "biscuit_fissure_1_1.jpg",
+   "biscuit_fissure_1_2.jpg",
+   "biscuit_fissure_1_3.jpg"
+  ],
+  "biscuit_pool_1": [
+   "biscuit_pool_1_1.jpg"
+  ],
+  "biscuit_vents_map_1": [
+   "biscuit_vents_map_1_1.jpg"
+  ],
+  "caldera_map_1": [
+   "caldera_map_1_1.jpg"
+  ],
+  "firehole_river_1": [
+   "firehole_river_1_1.jpg"
+  ],
+  "hebgen_1959_1": [
+   "hebgen_1959_1_1.jpg"
+  ],
+  "hebgen_1959_2": [
+   "hebgen_1959_2_1.jpg"
+  ],
+  "hebgen_slide_1": [
+   "hebgen_slide_1_1.jpg",
+   "hebgen_slide_1_2.jpg",
+   "hebgen_slide_1_3.jpg"
+  ],
+  "landsat_yellowstone_1": [
+   "landsat_yellowstone_1_1.png"
+  ],
+  "old_faithful_1": [
+   "old_faithful_1_1.jpg",
+   "old_faithful_1_2.jpg",
+   "old_faithful_1_3.jpg",
+   "old_faithful_1_4.jpg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.96,
+ "mouth": {}
+}

@@ -1,0 +1,4 @@
+- **biscuit_explosion_1.mp4** — small hydrothermal explosion at Biscuit Basin, Yellowstone National Park, June 13, 2026 — Public Domain — Yellowstone Volcano Observatory, USGS — https://www.usgs.gov/media/videos/video-small-hydrothermal-explosion-biscuit-basin-june-13-2026
+- **biscuit_spouting_1.mp4** — new thermal pool at Biscuit Basin, Yellowstone National Park, spouting boiling water, June 18, 2026 — Public Domain — Yellowstone Volcano Observatory, USGS — https://www.usgs.gov/media/videos/water-spouting-june-18-2026-a-new-thermal-pool-formed-shortly-after-a-small
+- **old_faithful_1.mp4** — Old Faithful Geyser eruption (2021-08-10).webm — CC BY-SA 4.0 — Steven Pavlov — https://commons.wikimedia.org/wiki/File:Old_Faithful_Geyser_eruption_(2021-08-10).webm
+- **old_faithful_2.mp4** — Old Faithful Geyser Eruption selection 2019.webm — CC BY 3.0 — UrsRuebli — https://commons.wikimedia.org/wiki/File:Old_Faithful_Geyser_Eruption_selection_2019.webm

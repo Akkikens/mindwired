@@ -92,6 +92,8 @@ import voyager1Doc from "./mindwired-doc/docs/voyager1.json";
 import voyager1Manifest from "./mindwired-doc/docs/voyager1.manifest.json";
 import planetnineDoc from "./mindwired-doc/docs/planetnine.json";
 import planetnineManifest from "./mindwired-doc/docs/planetnine.manifest.json";
+import yellowstoneDoc from "./mindwired-doc/docs/yellowstone.json";
+import yellowstoneManifest from "./mindwired-doc/docs/yellowstone.manifest.json";
 import astronautsScaredDoc from "./mindwired-doc/docs/astronautsscared.json";
 import astronautsScaredManifest from "./mindwired-doc/docs/astronautsscared.manifest.json";
 import issInsideDoc from "./mindwired-doc/docs/issinside.json";
@@ -1626,6 +1628,65 @@ export const RemotionRoot: React.FC = () => {
         durationInFrames={mindwiredShortFrames({ startId: "c7", endId: "i4", doc: planetnineDoc as any, manifest: planetnineManifest as any })}
         fps={30} width={1080} height={1920}
         defaultProps={{ startId: "c7", endId: "i4", hook: "A new telescope in Chile\nmight finally answer this.", slug: "planetnine", hookVideo: "rubin_observatory_1.mp4", hookFrom: 2, doc: planetnineDoc as any, manifest: planetnineManifest as any }}
+      />
+
+      {/* ── Yellowstone supervolcano (Icahn: icahn-yellowstone, mindwired winner
+             2026-08-10/11 — 554.8:1 headline, 3/3 recognition, giant-name
+             ceiling class). Differentiation constraint from the sweep: never
+             lead with the generic "what if it erupted tomorrow" framing every
+             major channel has already done. Built instead around two real,
+             current hooks — the real June 13, 2026 Biscuit Basin hydrothermal
+             explosion (real USGS monitoring-camera video + photos, cold open
+             uses the real 05:09:50 MDT instrument-detection moment, no
+             fabricated witness) and the real June 2026 "mantle wind" study
+             revising the old deep-plume theory — with the real 1959 Hebgen
+             Lake earthquake (tectonic, NOT volcanic — never implied as
+             causally linked) as the historical throughline. Sensitivity: low;
+             never overstates USGS's own ~1-in-730,000/yr eruption-probability
+             science as imminent. MW_OUTRO baked. ── */}
+      <Composition
+        id="YellowstoneDoc"
+        component={makeDocComp(yellowstoneDoc as any, yellowstoneManifest as any, MW_OUTRO)}
+        durationInFrames={docTotalFrames(yellowstoneDoc as any, yellowstoneManifest as any, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Yellowstone funnel Shorts (4) — the real cold-open explosion, the
+             mantle-wind "textbook was wrong" reveal, the 1959 Hebgen Lake
+             earthquake (stops at e6, before Anita Painter Thon's personal
+             account, so a named individual's story is never cut out of
+             context as a standalone hook), and the explicit real-vs-
+             hypothetical differentiator. Real USGS video/photos for every
+             hook plate — never a bare card. ── */}
+      <Composition
+        id="YellowstoneShort1"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "h1", endId: "h6", doc: yellowstoneDoc as any, manifest: yellowstoneManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "h1", endId: "h6", hook: "A camera caught\nYellowstone cracking open.", slug: "yellowstone", hookVideo: "biscuit_explosion_1.mp4", hookFrom: 3, doc: yellowstoneDoc as any, manifest: yellowstoneManifest as any }}
+      />
+      <Composition
+        id="YellowstoneShort2"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "c2", endId: "b5", doc: yellowstoneDoc as any, manifest: yellowstoneManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "c2", endId: "b5", hook: "The Yellowstone answer\neveryone learned was wrong.", slug: "yellowstone", hookImg: "old_faithful_1_1.jpg", doc: yellowstoneDoc as any, manifest: yellowstoneManifest as any }}
+      />
+      <Composition
+        id="YellowstoneShort3"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "e1", endId: "e6", doc: yellowstoneDoc as any, manifest: yellowstoneManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "e1", endId: "e6", hook: "28 people died here.\nIt wasn't the volcano.", slug: "yellowstone", hookImg: "hebgen_slide_1_2.jpg", doc: yellowstoneDoc as any, manifest: yellowstoneManifest as any }}
+      />
+      <Composition
+        id="YellowstoneShort4"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "c6", endId: "g3", doc: yellowstoneDoc as any, manifest: yellowstoneManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "c6", endId: "g3", hook: "This isn't the\n\"what if it erupts\" video.", slug: "yellowstone", hookImg: "biscuit_vents_map_1_1.jpg", doc: yellowstoneDoc as any, manifest: yellowstoneManifest as any }}
       />
 
       {/* ── Earhart funnel Shorts (4) — cold open, the real NARA radio-log
