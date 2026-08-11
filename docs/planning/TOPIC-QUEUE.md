@@ -527,3 +527,75 @@ but every fresh outlier has trivial absolute views; weaker currency). ctr-engine
 Run A packaging gate CLEARED: title "NASA Built It to Last 5 Years. It's Been
 49." (7.75/10 avg) + thumbnail built on the real NASA "Pale Blue Dot Revisited"
 photo. Full evidence + LOCKED PACKAGE: memory `icahn-voyager1`.
+
+## ⭐ VALIDATED 2026-08-09, entering production — IC 814 Kandahar hijacking
+(Black Box Breakdown). PASS-WITH-CONDITIONS from a 5-candidate live outlier
+sweep (TWA 847, Air France 139/Entebbe, D.B. Cooper, Lufthansa 181/Landshut,
+IC 814). Headline 287.5:1 (Mahesh Prabu G P Nat Geo reupload, 971,682v/3,380
+subs, 2010-07-12) + corroborator 263.8:1 (Mohit Sharma, 2,598,824v/9,850subs)
++ two independent FRESH 2026 corroborators (94.7:1 @ 666,878v, March 2026;
+13.5:1 @ 71,447v, August 2026 — proves the topic is still pulling right now,
+not just riding 2024's Netflix wave). Ceiling: Netflix India trailer 45.8M,
+Dhruv Rathee 21.6M, Mighty Monk 11.2M. **Recognition 2/3** — needs a bridge
+(lead with "India," "hostage standoff," "terrorists freed," never the
+unrecognized "IC 814"/"Kandahar" proper nouns). **Currency: strong and
+genuine** — the 2024 Netflix series controversy is still live, and Masood
+Azhar (the terrorist released in the swap) founded Jaish-e-Mohammed, linked
+to real subsequent attacks (2001 Parliament, 2016 Pathankot, 2019 Pulwama) —
+the story provably hasn't closed. **Sensitivity: HIGH**, AI171-tier
+attributed-never-asserted handling (living dangerous figure, contested
+government-decision criticism, one murdered passenger to handle with
+dignity, the Netflix controversy to describe factually with no communal
+framing). **Footage feasibility probed:** no free archival motion footage of
+the actual event/era found (mirrors AI171) — plan leans on real Commons
+photos of the actual Indian Airlines A300 fleet + document exhibits (2000
+Indian government White Paper) + generic real airliner b-roll for pacing.
+Beat Entebbe (comparable raw Icahn, bigger ceiling, but a fully closed
+50-year-old story with no currency — kept queued as the strongest next
+alternate). Also swept and passed on: TWA 847 (modest ceiling, dead
+currency), D.B. Cooper (huge ceiling and real currency, but zero deaths/no
+siege-rescue drama — weak fit for this channel's disaster-forensics
+identity, worth a mindwired-lane mystery angle separately), Lufthansa
+181/Landshut (weakest of the five, mostly German-language demand). ctr-engine
+Run A locked: title "India Freed 3 Terrorists to End This Hijacking" +
+thumbnail on the real Commons Indian Airlines A300 photo. Full evidence +
+LOCKED PACKAGE: memory `icahn-ic814kandahar`. Proceeding straight to
+production (CLAIMS → script → footage → VO → gates → 4K render) per Akshay's
+explicit standing authorization, 2026-08-09.
+
+## ⭐ NEXT (IN PRODUCTION 2026-08-11) — Yellowstone supervolcano, Icahn-validated
+2026-08-10 via a 6-candidate live outlier sweep (Workflow wf_1784dd61-f3c) run
+specifically to correct for the channel's own repeated real-Studio-data lesson:
+[[voyager1]]/Tunguska both cleared raw ratio bars but got 100x+ smaller
+impression pools than the channel's actual hit (21 Astronauts) because
+recognition was weak. This sweep weighted recognition and fresh-outlier proof
+heavily, not raw ratio size alone. **PASS-WITH-CONDITIONS, upgraded to
+near-PASS after a live currency check.** Headline 554.8:1 (2,352,463v/4,240
+subs) + independent corroborator 375.6:1 (555,906v/1,480subs) + fresh (<12mo)
+outliers proving the lane still rewards new entrants right now (12.7:1 @
+875,467v Dec 2025; 20.1:1 @ 172,648v Jan 2026). Ceiling: Kurzgesagt 12.4M,
+RealLifeLore 13.6M, a 39.5M-view Movieclips reupload of the 2012 disaster-movie
+eruption scene. **Recognition 3/3** — "Yellowstone"/"supervolcano" need zero
+explanation, Titanic-tier mainstream recognition. **Currency: confirmed alive**
+via a direct live web check (not just the yt-dlp sweep) — a real hydrothermal
+explosion at Biscuit Basin, June 13, 2026 (new crater, 3 new vents, a new
+monitoring camera installed July 22) AND a genuinely new scientific finding
+(June 2026, ScienceDaily) proposing a "mantle wind" mechanism instead of the
+old deep-plume theory. **Differentiation condition: do NOT lead with the
+generic "what if it erupted tomorrow" framing** — Kurzgesagt/RealLifeLore/BBC/
+History/NatGeo have all already made that exact video. Lead with the real
+June 2026 Biscuit Basin event + the new mantle-wind science as the "why now"
+hook. **Sensitivity: low** — no living victims, no conspiracy; only guardrail
+is not overstating USGS's own eruption-probability science (~1-in-730,000/yr)
+as imminent. Beat Challenger disaster (even more extreme single ratio 606:1
+and equally elite 3/3 recognition, but every small-channel outlier is stale
+2014-2023 with nothing fresh, plus real human sensitivity — 7 deaths watched
+live by schoolchildren, a living widow of the commander — kept as the
+strongest next giant-name alternate) and Roswell UFO incident (tied for elite
+recognition and a massive ceiling, but this exact sweep found 2025-26
+small-channel uploads cratering to 101-711 views — real evidence of current
+oversaturation). Also swept and FAILED on the weak-recognition/weak-currency
+pattern: Nibiru/Planet X, Betelgeuse's companion (second decline — see
+`icahn-betelgeuse`), alien abduction (Hill/Walton). Full evidence + locked
+package: memory `icahn-yellowstone`. Proceeding straight to production per
+Akshay's "WORK ON NEXT BIG VID" standing authorization, 2026-08-11.
