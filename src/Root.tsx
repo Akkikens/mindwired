@@ -88,6 +88,8 @@ import ic814kandaharDoc from "./mindwired-doc/docs/ic814kandahar.json";
 import ic814kandaharManifest from "./mindwired-doc/docs/ic814kandahar.manifest.json";
 import deepwaterhorizonDoc from "./mindwired-doc/docs/deepwaterhorizon.json";
 import deepwaterhorizonManifest from "./mindwired-doc/docs/deepwaterhorizon.manifest.json";
+import costaconcordiaDoc from "./mindwired-doc/docs/costaconcordia.json";
+import costaconcordiaManifest from "./mindwired-doc/docs/costaconcordia.manifest.json";
 import area51Doc from "./mindwired-doc/docs/area51.json";
 import area51Manifest from "./mindwired-doc/docs/area51.manifest.json";
 import tunguskaDoc from "./mindwired-doc/docs/tunguska.json";
@@ -98,6 +100,8 @@ import planetnineDoc from "./mindwired-doc/docs/planetnine.json";
 import planetnineManifest from "./mindwired-doc/docs/planetnine.manifest.json";
 import yellowstoneDoc from "./mindwired-doc/docs/yellowstone.json";
 import yellowstoneManifest from "./mindwired-doc/docs/yellowstone.manifest.json";
+import everestbodiesDoc from "./mindwired-doc/docs/everestbodies.json";
+import everestbodiesManifest from "./mindwired-doc/docs/everestbodies.manifest.json";
 import astronautsScaredDoc from "./mindwired-doc/docs/astronautsscared.json";
 import astronautsScaredManifest from "./mindwired-doc/docs/astronautsscared.manifest.json";
 import issInsideDoc from "./mindwired-doc/docs/issinside.json";
@@ -1585,6 +1589,31 @@ export const RemotionRoot: React.FC = () => {
         height={1080}
       />
 
+      {/* ── Black Box Breakdown — Costa Concordia ("What Netflix's Costa
+             Concordia Documentary Left Out") — Icahn-validated 2026-08-12,
+             strongest raw ratios yet (3317:1 headline, real coast-guard
+             audio). Real 2026 currency wedge: Netflix's "Shipwrecked:
+             Nightmare at Sea" (July 2026) omits the ~3-year search for
+             Russel Rebello's remains — this episode's differentiator. The
+             real Schettino/De Falco radio exchange was never officially
+             released (press leak, no free license found) — rendered as a
+             RadioScene "CALL RECREATION", never as real audio, per the
+             channel's honesty rule. Real CC-licensed Commons photos
+             throughout (ship before/during/after, the 2013 parbuckling
+             salvage); zero AI-generated imagery. Sensitivity: Schettino is
+             real/living/still incarcerated (release ~2033) — every
+             characterization beyond his official verdict is attributed-
+             never-asserted. See memory `icahn-costaconcordia` +
+             docs/planning/CLAIMS-costaconcordia.md. BB_OUTRO baked. ── */}
+      <Composition
+        id="CostaConcordiaDoc"
+        component={makeDocComp(costaconcordiaDoc as any, costaconcordiaManifest as any, BB_OUTRO)}
+        durationInFrames={docTotalFrames(costaconcordiaDoc as any, costaconcordiaManifest as any, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
       {/* ── Deepwater Horizon funnel Shorts (4) — cold open (real USCG fire
              video, native), the guilty plea (matches the long-form's own
              locked-package hook), the "who cares" email evidence, the eleven
@@ -1772,6 +1801,72 @@ export const RemotionRoot: React.FC = () => {
         fps={30}
         width={1920}
         height={1080}
+      />
+
+      {/* ── mindwired — Bodies Still on Everest ("They Called Him Green Boots.
+             He Wasn't.") — Icahn-validated 2026-08-12, same real-photo/real-data
+             DNA as the channel's #1 video (21 Astronauts Never Came Home), but
+             deliberately off the astronaut/cosmonaut well. Real 2026 currency
+             wedge: Green Boots misidentified as Tsewang Paljor for 30 years,
+             corrected by 2026 DNA identification as Dorje Morup (per ITBP tender
+             docs — mechanism honestly hedged per CLAIMS correction #2, not
+             asserted as a clean forensic reveal). Real CC BY 3.0 aerial flyby +
+             real Commons expedition/icefall photos throughout; zero AI-generated
+             imagery. Sensitivity: 1996-and-older core is settled history; the
+             2026 identification/recovery and 2026 season deaths are recent with
+             living family — attributed-never-asserted, no gratuitous corpse
+             imagery. MW_OUTRO baked. See memory `icahn-everest-bodies` +
+             docs/planning/CLAIMS-everestbodies.md. ── */}
+      <Composition
+        id="EverestBodiesDoc"
+        component={makeDocComp(everestbodiesDoc as any, everestbodiesManifest as any, MW_OUTRO)}
+        durationInFrames={docTotalFrames(everestbodiesDoc as any, everestbodiesManifest as any, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Everest Bodies funnel Shorts (4) — each a trailer for the one
+             episode above, per the shorts-funnel spec. Beats: (1) the cold
+             open itself, h1-h5; (2) the 2026 identity reveal, e6-e9 — cut
+             deliberately INCLUDES e7, the "lab report never made public"
+             hedge, so the identification is never asserted as clean forensic
+             fact out of context (CLAIMS correction #2); (3) the ITBP north-
+             side story, d4-d8 — starts AFTER d3 (Morup's airport promise to
+             his wife) so a living widow's personal beat is never a
+             de-contextualized hook, and d5's ritual detail keeps its own
+             "reportedly"; (4) Mallory/Irvine's camera, f2-f5, ending on "it
+             has never been found" (stops before f7's living great-niece).
+             Hook plates: real motion video where the range has it, real
+             archival photos otherwise — never a bare card. No corpse imagery
+             exists anywhere in this episode's pools by design. ── */}
+      <Composition
+        id="EverestBodiesShort1"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "h1", endId: "h5", doc: everestbodiesDoc as any, manifest: everestbodiesManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "h1", endId: "h5", hook: "They called him Green Boots.\nHe wasn't.", slug: "everestbodies", hookVideo: "everestflyby_1.mp4", hookFrom: 3, doc: everestbodiesDoc as any, manifest: everestbodiesManifest as any }}
+      />
+      <Composition
+        id="EverestBodiesShort2"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "e6", endId: "e9", doc: everestbodiesDoc as any, manifest: everestbodiesManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "e6", endId: "e9", hook: "Everest's most famous body.\nThe wrong name for 30 years.", slug: "everestbodies", hookImg: "everest_3.jpg", doc: everestbodiesDoc as any, manifest: everestbodiesManifest as any }}
+      />
+      <Composition
+        id="EverestBodiesShort3"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "d4", endId: "d8", doc: everestbodiesDoc as any, manifest: everestbodiesManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "d4", endId: "d8", hook: "8 died on Everest that night.\nThe world remembered 4.", slug: "everestbodies", hookVideo: "climbingascent_2.mp4", hookFrom: 2, doc: everestbodiesDoc as any, manifest: everestbodiesManifest as any }}
+      />
+      <Composition
+        id="EverestBodiesShort4"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "f2", endId: "f5", doc: everestbodiesDoc as any, manifest: everestbodiesManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "f2", endId: "f5", hook: "This camera could rewrite\nEverest's history.", slug: "everestbodies", hookImg: "mallory_1.jpg", doc: everestbodiesDoc as any, manifest: everestbodiesManifest as any }}
       />
 
       {/* ── Yellowstone funnel Shorts (4) — the real cold-open explosion, the
