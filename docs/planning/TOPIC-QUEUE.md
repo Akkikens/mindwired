@@ -661,3 +661,28 @@ strong alternates for the next pick in each channel's queue — Ötzi
 deliberately passed over this round only to avoid running the same
 "wrong-for-decades, new-evidence-corrected-it" structural beat twice in a
 row right after Everest bodies.
+
+## ⭐ NEXT for mindwired — Ötzi the Iceman, Icahn-validated 2026-08-14
+
+4-candidate parallel sweep (Ötzi / Moon Hoax re-check / Dyatlov Pass / Apophis
+2029) after Everest bodies shipped. **PASS, recognition 2/3 (bridge: lead with
+"the Iceman"/"5,300-year-old murder", never bare "Ötzi").** Fresh headline
+109.2:1 (1,006,173v/9,210subs, 2026-05-14 — 3 months old) + stale monsters
+2144.6:1/916.1:1 + 4 fresh corroborators ≥3.5:1; ceiling NOVA PBS 4.24M.
+**Currency STRONG:** Eurac cultured viable microbes ALIVE from the mummy (CNN
+2026-06-08, re-covered 2026-08-06); Scientific Reports 2025-11-27 overturned
+the bleed-out cause-of-death; Jul 2025 DNA = outsider among his own people.
+**Wave calendar: publish early-mid Sept to ride the Sept 19, 2026 35th
+discovery anniversary.** Saturation: generic murder-retelling copycats are
+dead — the 2025-26 science wedge is mandatory. Structure: open-murder-case
+spine, NOT another identity-correction beat (Everest just ran that). Locked
+package + full evidence: memory `icahn-otzi`. Ratios point-in-time — recheck
+if production slips past ~2026-08-28.
+
+**Sweep byproducts (same session):** Dyatlov Pass = strong mindwired alternate
+(71.7:1 @ 397K Nov 2025; MODERATE currency; warning — the viral "leaked KGB
+files 2026" story is content-farm FAKE, do not source it). Apophis 2029 =
+FAIL now (no fresh corroborators, lane farmed to near-zero) but STRONG mission
+currency — **wave-calendar entry: revisit early 2028** (Ramses launch →
+Apr 13, 2029 flyby). Moon Hoax: saturation re-confirmed, Artemis II wave
+crested, landing now Artemis IV/2028 — stays PASS-COND.-queued.
