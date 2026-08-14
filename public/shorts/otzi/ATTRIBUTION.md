@@ -1,0 +1,42 @@
+
+## Manual pulls 2026-08-14 (doc-episode Step 3, direct Commons API + CC BY paper figures)
+- site_1.jpg — "File:Fundstelle Ötzi.jpg" — CC BY-SA 4.0 — Wikimedia Commons
+- site_2.jpg — "File:Obelisk Eismann Fundstelle 20090908a.jpg" — CC BY-SA 4.0 — Tigerente, Wikimedia Commons
+- site_3.jpg — "File:Obelisk Eismann Fundstelle 20090908b.jpg" — CC BY-SA 4.0 — Tigerente, Wikimedia Commons
+- site_4.jpg — "File:Similaun vom Weg aufs Hauslabjoch, Ötzi-Stele rechts.jpg" — CC BY-SA 4.0 — Wikimedia Commons
+- reconstruction_1.jpg — "File:Otzi-Quinson.jpg" — CC BY-SA 3.0 — Wikimedia Commons (REPLICA of the mummy, Musée de Préhistoire Quinson)
+- reconstruction_2.jpg — "File:Ricostruzione di Ötzi.jpg" — CC BY-SA 4.0 — Mannivu, Wikimedia Commons (Kennis reconstruction, South Tyrol Museum)
+- reconstruction_3.jpg — "File:Ricostruzione di Ötzi - Particolare del volto.jpg" — CC BY-SA 4.0 — Mannivu, Wikimedia Commons (Kennis reconstruction face)
+- reconstruction_4.jpg — "File:Ötzi while being constructed by the Kennis Brothers, 2011 (1).jpg" — CC BY-SA 2.0 — Simon Claessen, Wikimedia Commons
+- artifacts_1.jpg — "File:The Iceman lithic assemblage.tif" — CC BY 4.0 — Wierer et al. 2018, Wikimedia Commons (REAL artifacts)
+- artifacts_2.jpg — "File:Ötzi Arrowhead 12.tif" — CC BY 4.0 — Wierer et al. 2018, Wikimedia Commons (REAL arrowhead from his quiver)
+- artifacts_3.jpg — "File:Ötzi Dagger.tif" — CC BY 4.0 — Wierer et al. 2018, Wikimedia Commons (REAL dagger)
+- artifacts_4.jpg — "File:Ötzi Use-wear on dagger.tif" — CC BY 4.0 — Wierer et al. 2018, Wikimedia Commons
+- axe_1.jpg — "File:Iceman's Copper Axe.jpg" — CC BY-SA 4.0 — Wikimedia Commons (REAL axe, museum display)
+- axe_2.jpg — "File:ReconstructedOetziAxe.jpg" — CC BY 3.0 — Bullenwächter, Wikimedia Commons (REPLICA)
+- clothing_1.jpg — "File:Archeoparc - Museum Ötzi Kleidung.jpg" — CC BY-SA 3.0 — Wolfgang Sauber, Wikimedia Commons (REPLICA clothing)
+- clothing_2.jpg — "File:Otzi museo.jpg" — CC BY-SA 4.0 — Wikimedia Commons (REPLICA clothing/tools reconstruction)
+- clothing_3.jpg — "File:Ötzi-Schuhe.jpg" — CC BY-SA 4.0 — Wikimedia Commons (REPLICA shoes, Anne Reichert)
+- lastdays_1.jpg — "File:Ötzi’s last days.png" — CC BY-SA 4.0 — Wikimedia Commons (scientific timeline figure)
+- museum_1.jpg — "File:BozenArchMuseum.jpg" — CC BY 3.0 — Wikimedia Commons (South Tyrol Museum of Archaeology exterior)
+- paper_1.jpg — "Villa et al. 2025 Fig 1 posture at impact" — CC BY 4.0 — Int J Legal Med 139:2263-2271, DOI 10.1007/s00414-025-03510-5 via PMC12354122
+- paper_2.jpg — "Villa et al. 2025 Fig 2 axial CT puncture wound" — CC BY 4.0 — Int J Legal Med 139 (2025) via PMC12354122
+- paper_3.jpg — "Villa et al. 2025 Fig 3 arrowhead 3D between ribs and scapula" — CC BY 4.0 — Int J Legal Med 139 (2025) via PMC12354122
+- paper_4.jpg — "Villa et al. 2025 Fig 4 CT entry wound back surface" — CC BY 4.0 — Int J Legal Med 139 (2025) via PMC12354122
+- paper_5.jpg — "Villa et al. 2025 Fig 5 hematoma CT and 3D thorax" — CC BY 4.0 — Int J Legal Med 139 (2025) via PMC12354122
+- paper_6.jpg — "Villa et al. 2025 Fig 6 scapula and arrowhead 3D models" — CC BY 4.0 — Int J Legal Med 139 (2025) via PMC12354122
+- paper_7.jpg — "Villa et al. 2025 Fig 7 full skeleton arrow position 3D" — CC BY 4.0 — Int J Legal Med 139 (2025) via PMC12354122
+- paper_8.jpg — "Villa et al. 2025 Fig 8 back muscles scapula defect views" — CC BY 4.0 — Int J Legal Med 139 (2025) via PMC12354122
+- paper_9.jpg — "Sarhan et al. 2026 Fig 2 microbial heatmap 1991 2010 2019 phenol degradation" — CC BY 4.0 — Microbiome 14:135 (2026), DOI 10.1186/s40168-026-02417-6 via PMC13231656
+- paper_10.jpg — "Sarhan et al. 2026 Fig 3 Glaciozyma Mrakia abundance DNA damage 2010 vs 2019" — CC BY 4.0 — Microbiome 14:135 (2026) via PMC13231656
+- ex_villawound_1.jpg — "Villa et al. 2025 Fig 9 scapula defect 3.8x1.7 cm arrowhead 2.6 cm measured 3D" — CC BY 4.0 — Int J Legal Med 139 (2025) via PMC12354122
+- ex_yeasts_1.jpg — "Sarhan et al. 2026 Fig 4 phylogenetic tree living yeast micrographs Iceman isolates" — CC BY 4.0 — Microbiome 14:135 (2026) via PMC13231656
+- ex_mummymap_1.jpg — "Sarhan et al. 2026 Fig 1 the real mummy front back sampling sites" — CC BY 4.0 — Microbiome 14:135 (2026) via PMC13231656
+- glacier_5.jpg — "File:Similaun Niederjochferner 20090908.jpg" — CC BY-SA 4.0 — https://upload.wikimedia.org/wikipedia/commons/0/06/Similaun_Niederjochferner_20090908.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+- glacier_6.jpg — "File:Niederjochferner 2018.jpg" — CC BY-SA 4.0 — https://upload.wikimedia.org/wikipedia/commons/5/59/Niederjochferner_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+- glacier_3.jpg — "File:Niederjochferner 2015.jpg" — CC BY-SA 3.0 — https://upload.wikimedia.org/wikipedia/commons/5/58/Niederjochferner_2015.jpg
+- glacier_4.jpg — "File:Hochjochferner.jpg" — CC BY-SA 3.0 — https://upload.wikimedia.org/wikipedia/commons/a/a9/Hochjochferner.jpg
+- glacier_5.jpg — "File:Hochjochferner Gletschersee 2018.jpg" — CC BY-SA 4.0 — https://upload.wikimedia.org/wikipedia/commons/a/a4/Hochjochferner_Gletschersee_2018.jpg
+- glacier_6.jpg — "File:ETH-BIB-Similaun, Marzellferner, Niederjochferner-LBS H1-020199.tif" — CC BY-SA 4.0 — https://upload.wikimedia.org/wikipedia/commons/4/4c/ETH-BIB-Similaun%2C_Marzellferner%2C_Niederjochferner-LBS_H1-020199.tif
+- museum_2.jpg — "File:BozenArchMuseum.jpg" — CC BY 3.0 — https://upload.wikimedia.org/wikipedia/commons/1/18/BozenArchMuseum.jpg
+- museum_3.jpg — "File:SouthTyrolArchaeologyMuseum.JPG" — Public domain — https://upload.wikimedia.org/wikipedia/commons/d/dd/SouthTyrolArchaeologyMuseum.JPG

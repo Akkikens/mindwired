@@ -102,6 +102,8 @@ import yellowstoneDoc from "./mindwired-doc/docs/yellowstone.json";
 import yellowstoneManifest from "./mindwired-doc/docs/yellowstone.manifest.json";
 import everestbodiesDoc from "./mindwired-doc/docs/everestbodies.json";
 import everestbodiesManifest from "./mindwired-doc/docs/everestbodies.manifest.json";
+import otziDoc from "./mindwired-doc/docs/otzi.json";
+import otziManifest from "./mindwired-doc/docs/otzi.manifest.json";
 import astronautsScaredDoc from "./mindwired-doc/docs/astronautsscared.json";
 import astronautsScaredManifest from "./mindwired-doc/docs/astronautsscared.manifest.json";
 import issInsideDoc from "./mindwired-doc/docs/issinside.json";
@@ -1867,6 +1869,65 @@ export const RemotionRoot: React.FC = () => {
         durationInFrames={mindwiredShortFrames({ startId: "f2", endId: "f5", doc: everestbodiesDoc as any, manifest: everestbodiesManifest as any })}
         fps={30} width={1080} height={1920}
         defaultProps={{ startId: "f2", endId: "f5", hook: "This camera could rewrite\nEverest's history.", slug: "everestbodies", hookImg: "mallory_1.jpg", doc: everestbodiesDoc as any, manifest: everestbodiesManifest as any }}
+      />
+
+      {/* ── mindwired — Ötzi the Iceman ("Something in the Iceman Is Still
+             Alive") — Icahn-validated 2026-08-14 (fresh 109:1 @ 1.0M, May 2026;
+             memory `icahn-otzi`). Spine: the world's oldest open murder case +
+             the 2025-26 science wave (Nov 2025 Sci Rep cause-of-death reversal;
+             Jun 2026 Microbiome viable-yeasts study). Honesty rules baked in:
+             the "still alive" claim is precisely scoped to glacial microbes
+             (scene i8 — "not his cells, his passengers"); every replica photo
+             is captioned RECONSTRUCTION; real-mummy visuals come ONLY from the
+             two CC BY paper-figure sets (Villa IJLM 2025, Sarhan Microbiome
+             2026) — the Sci Rep 2025 + Cell Genomics 2023 figures are NC-ND
+             and deliberately absent. Zero AI-generated imagery. MW_OUTRO
+             baked. See docs/planning/CLAIMS-otzi.md. ── */}
+      <Composition
+        id="OtziDoc"
+        component={makeDocComp(otziDoc as any, otziManifest as any, MW_OUTRO)}
+        durationInFrames={docTotalFrames(otziDoc as any, otziManifest as any, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Ötzi funnel Shorts (4) — trailers for OtziDoc per the shorts-funnel
+             spec, cut same-session as the render (the Everest lesson: no drip
+             doc = silently skipped drip). Beats: (1) the cold open h1-h5;
+             (2) the missed-murder-weapon reveal d3-d6, ending on "remember
+             that estimate"; (3) the 2025 hours-not-minutes reversal g6-g8,
+             ending on "he waited"; (4) the still-alive microbes i5-i8 — cut
+             deliberately INCLUDES i8, the "not his cells, his passengers"
+             honesty beat, so the title claim is never left unscoped. Hook
+             plates are real motion from this episode's own pool. ── */}
+      <Composition
+        id="OtziShort1"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "h1", endId: "h5", doc: otziDoc as any, manifest: otziManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "h1", endId: "h5", hook: "Something in the Iceman\nis still alive.", slug: "otzi", hookVideo: "glacierair_1.mp4", hookFrom: 2, doc: otziDoc as any, manifest: otziManifest as any }}
+      />
+      <Composition
+        id="OtziShort2"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "d3", endId: "d6", doc: otziDoc as any, manifest: otziManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "d3", endId: "d6", hook: "Science missed the murder weapon\nfor 10 years.", slug: "otzi", hookVideo: "icecave_1.mp4", hookFrom: 2, doc: otziDoc as any, manifest: otziManifest as any }}
+      />
+      <Composition
+        id="OtziShort3"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "g6", endId: "g8", doc: otziDoc as any, manifest: otziManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "g6", endId: "g8", hook: "He didn't die in minutes.\nHe waited for hours.", slug: "otzi", hookVideo: "alpspeak_1.mp4", hookFrom: 2, doc: otziDoc as any, manifest: otziManifest as any }}
+      />
+      <Composition
+        id="OtziShort4"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "i5", endId: "i8", doc: otziDoc as any, manifest: otziManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "i5", endId: "i8", hook: "Dead 5,300 years.\nSomething on him is alive.", slug: "otzi", hookVideo: "labdish_1.mp4", hookFrom: 3, doc: otziDoc as any, manifest: otziManifest as any }}
       />
 
       {/* ── Yellowstone funnel Shorts (4) — the real cold-open explosion, the

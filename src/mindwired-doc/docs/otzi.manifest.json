@@ -1,0 +1,160 @@
+{
+ "durations": {
+  "h1": 9.482,
+  "h2": 7.549,
+  "h3": 8.751,
+  "h4": 7.001,
+  "h5": 7.706,
+  "sting": 1.646,
+  "title": 7.889,
+  "c1": 2.038,
+  "a1": 10.449,
+  "a2": 9.717,
+  "a3": 11.964,
+  "a4": 9.717,
+  "a5": 10.266,
+  "a6": 8.438,
+  "a7": 12.826,
+  "a8": 10.527,
+  "a9": 9.717,
+  "a10": 10.919,
+  "a11": 9.091,
+  "c2": 2.273,
+  "b1": 14.211,
+  "b2": 11.389,
+  "b3": 11.886,
+  "b4": 11.154,
+  "b5": 13.557,
+  "b6": 12.513,
+  "b7": 12.669,
+  "b8": 9.404,
+  "b9": 11.964,
+  "c3": 2.038,
+  "d1": 10.527,
+  "d2": 10.841,
+  "d3": 12.199,
+  "d4": 11.807,
+  "d5": 8.281,
+  "d6": 13.949,
+  "c4": 2.194,
+  "e1": 7.393,
+  "e2": 9.717,
+  "e3": 12.199,
+  "e4": 9.482,
+  "e5": 11.807,
+  "e6": 13.714,
+  "c5": 2.508,
+  "f1": 10.606,
+  "f2": 17.398,
+  "f3": 13.557,
+  "f4": 9.874,
+  "f5": 16.509,
+  "f6": 13.166,
+  "f7": 10.371,
+  "f8": 13.166,
+  "f9": 13.166,
+  "c6": 2.769,
+  "g1": 8.829,
+  "g2": 10.188,
+  "g3": 10.188,
+  "g4": 10.188,
+  "g5": 16.927,
+  "g6": 15.229,
+  "g7": 17.946,
+  "g8": 19.226,
+  "c7": 1.881,
+  "i1": 4.127,
+  "i2": 12.199,
+  "i3": 16.666,
+  "i4": 8.751,
+  "i5": 11.886,
+  "i6": 11.729,
+  "i7": 14.446,
+  "i8": 16.353,
+  "i9": 12.591,
+  "i10": 10.998,
+  "c8": 2.194,
+  "j1": 12.199,
+  "j2": 14.367,
+  "j3": 12.826,
+  "j4": 13.322,
+  "j5": 17.162,
+  "j6": 17.789,
+  "coda1": 13.949,
+  "coda2": 10.684,
+  "coda3": 12.826,
+  "bridge": 11.886,
+  "end": 1.802
+ },
+ "images": {
+  "artifacts": [
+   "artifacts_1.jpg",
+   "artifacts_2.jpg",
+   "artifacts_3.jpg",
+   "artifacts_4.jpg"
+  ],
+  "axe": [
+   "axe_1.jpg",
+   "axe_2.jpg"
+  ],
+  "clothing": [
+   "clothing_1.jpg",
+   "clothing_2.jpg",
+   "clothing_3.jpg"
+  ],
+  "ex_mummymap": [
+   "ex_mummymap_1.jpg"
+  ],
+  "ex_villawound": [
+   "ex_villawound_1.jpg"
+  ],
+  "ex_yeasts": [
+   "ex_yeasts_1.jpg"
+  ],
+  "glacier": [
+   "glacier_1.jpg",
+   "glacier_2.jpg",
+   "glacier_3.jpg",
+   "glacier_4.jpg",
+   "glacier_5.jpg",
+   "glacier_6.jpg"
+  ],
+  "lastdays": [
+   "lastdays_1.jpg"
+  ],
+  "mpaper": [
+   "mpaper_1.jpg",
+   "mpaper_2.jpg"
+  ],
+  "museum": [
+   "museum_1.jpg",
+   "museum_2.jpg",
+   "museum_3.jpg"
+  ],
+  "paper": [
+   "paper_1.jpg",
+   "paper_2.jpg",
+   "paper_3.jpg",
+   "paper_4.jpg",
+   "paper_5.jpg",
+   "paper_6.jpg",
+   "paper_7.jpg",
+   "paper_8.jpg"
+  ],
+  "reconstruction": [
+   "reconstruction_1.jpg",
+   "reconstruction_2.jpg",
+   "reconstruction_3.jpg",
+   "reconstruction_4.jpg"
+  ],
+  "site": [
+   "site_1.jpg",
+   "site_2.jpg",
+   "site_3.jpg",
+   "site_4.jpg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.96,
+ "mouth": {}
+}

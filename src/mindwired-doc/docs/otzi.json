@@ -1,0 +1,644 @@
+{
+  "slug": "otzi",
+  "title": "Something in the Iceman Is Still Alive",
+  "channel": "mindwired",
+  "niche": "history",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "June, twenty twenty six. Bolzano, Italy. Behind a steel door kept at minus six degrees, scientists finish a test they have been running for years.",
+      "video": "glacierair_1.mp4",
+      "videoQuery": "glacier aerial drone alps snow",
+      "stock": true,
+      "cap": "June 2026. Bolzano, Italy. −6°C.",
+      "tone": "tension"
+    },
+    {
+      "id": "h2",
+      "text": "The result sounds impossible. On the body of a man who has been dead for five thousand three hundred years, something is alive.",
+      "video": "labdish_1.mp4",
+      "videoQuery": "microbiology laboratory petri dish scientist",
+      "stock": true,
+      "cap": "Dead 5,300 years. Something is alive.",
+      "tone": "shock",
+      "stat": "5,300 YEARS"
+    },
+    {
+      "id": "h3",
+      "text": "Four species of yeast, growing in the dark on the world's most famous corpse. Three of them have learned to eat the disinfectant that was meant to protect him.",
+      "video": "dnalab_1.mp4",
+      "videoQuery": "dna laboratory pipette research scientist",
+      "stock": true,
+      "cap": "4 living species. 3 eat the disinfectant.",
+      "tone": "shock"
+    },
+    {
+      "id": "h4",
+      "text": "And the man they live on is a murder victim. The oldest one on Earth. Shot in the back, and left on the ice with everything he owned.",
+      "video": "icecave_1.mp4",
+      "videoQuery": "blue ice cave glacier frozen",
+      "stock": true,
+      "cap": "The oldest murder victim on Earth.",
+      "tone": "tension"
+    },
+    {
+      "id": "h5",
+      "text": "For thirty years, science was sure it knew how he died. Last November, that answer fell apart. This is the whole case file.",
+      "video": "alpspeak_1.mp4",
+      "videoQuery": "alps mountain peak aerial clouds",
+      "stock": true,
+      "cap": "Nov 2025: the answer fell apart.",
+      "tone": "confidence"
+    },
+    {
+      "id": "sting",
+      "sting": true,
+      "text": "You're watching mindwired.",
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "text": "This is the story of the Iceman. The murder, the evidence, and the parts of the case that refuse to stay closed.",
+      "chapter": "SOMETHING IN THE ICEMAN\nIS STILL ALIVE",
+      "img": "glacier",
+      "query": "alps glacier snow mountain"
+    },
+    {
+      "id": "c1",
+      "text": "Chapter one. The shortcut.",
+      "chapter": "CHAPTER ONE\nTHE SHORTCUT",
+      "img": "site",
+      "query": "Tisenjoch Similaun find site memorial"
+    },
+    {
+      "id": "a1",
+      "text": "September nineteenth, nineteen ninety one. Three thousand two hundred meters up in the Tyrolean Alps, a German couple from Nuremberg leaves the marked path, looking for a faster way down.",
+      "video": "hiker_1.mp4",
+      "videoQuery": "hikers mountain trail snow alps",
+      "stock": true,
+      "cap": "Sept 19, 1991. 3,210 m. Off the marked path.",
+      "tone": "tension"
+    },
+    {
+      "id": "a2",
+      "text": "Erika Simon sees it first. The back of a head, shoulders, and a spine, sticking out of the snow and ice. She and her husband Helmut assume it is a dead climber.",
+      "img": "site",
+      "cap": "They assumed a modern climber.",
+      "tone": "tension"
+    },
+    {
+      "id": "a3",
+      "text": "By the couple's own account, Helmut's camera had exactly one frame left on the roll. He spent it on a single photograph. The first picture ever taken of what would become the most studied human being in history.",
+      "img": "glacier",
+      "cap": "One frame left. One photograph.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a4",
+      "text": "They report the find at the nearest mountain refuge. The keeper calls the police, in two countries. Because nobody can say which side of the border the dead man is lying on.",
+      "img": "site",
+      "cap": "Two countries called. Nobody knew whose case it was.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a5",
+      "text": "The next day, a gendarme attacks the ice with a pneumatic drill. It tears into the body's hip before the compressed air runs out. The weather closes in. All they bring down is a strange axe.",
+      "img": "glacier",
+      "cap": "The drill tore into his hip. Only the axe came down.",
+      "tone": "tension"
+    },
+    {
+      "id": "a6",
+      "text": "That axe bothers people. It looks old. Genuinely old. And because of it, the authorities open a criminal file on the body in the ice.",
+      "img": "axe",
+      "query": "Iceman copper axe museum",
+      "cap": "The axe triggered a criminal file.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a7",
+      "text": "Over the next two days, eight separate groups climb up to see the body. Souvenirs are taken. Fragile objects are stepped on. The crime scene, and it will turn out to be one, is contaminated before anyone knows it matters.",
+      "img": "site",
+      "cap": "8 groups visited. The scene was contaminated.",
+      "tone": "tension"
+    },
+    {
+      "id": "a8",
+      "text": "On September twenty third, a forensic doctor frees the corpse with an ice pick and a ski pole, lifts it with his bare hands into a body bag, and a helicopter carries it off the mountain.",
+      "img": "glacier",
+      "cap": "Sept 23: freed with an ice pick and a ski pole.",
+      "tone": "tension"
+    },
+    {
+      "id": "a9",
+      "text": "One day later, an archaeologist takes a single look at the axe and the leathery skin, and says the words that change everything. At least four thousand years old.",
+      "img": "museum",
+      "query": "South Tyrol Museum of Archaeology Bolzano",
+      "cap": "\"At least 4,000 years old.\"",
+      "tone": "shock"
+    },
+    {
+      "id": "a10",
+      "text": "A border survey follows. The body had lain ninety two and a half meters inside Italy, under a line that had been drawn wrong, because in nineteen nineteen the true watershed was hidden beneath the ice.",
+      "img": "site",
+      "cap": "92.56 m inside Italy.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a11",
+      "text": "Then radiocarbon dating lands like a hammer. The man is roughly five thousand three hundred years old. The oldest natural human mummy ever found in Europe.",
+      "kinetic": {
+        "words": [
+          "5,300",
+          "years",
+          "old."
+        ]
+      },
+      "img": "glacier",
+      "extraHold": 12,
+      "cap": "Europe's oldest natural mummy.",
+      "tone": "shock"
+    },
+    {
+      "id": "c2",
+      "text": "Chapter two. The man in the ice.",
+      "chapter": "CHAPTER TWO\nTHE MAN IN THE ICE",
+      "img": "reconstruction",
+      "query": "Ricostruzione Ötzi reconstruction museum"
+    },
+    {
+      "id": "b1",
+      "text": "He was about forty five years old. One meter sixty tall. Around fifty kilos in life. In the museum's reconstruction he looks back at you like a neighbor. But hold that thought, because every detail of that face is an educated guess.",
+      "img": "reconstruction",
+      "cap": "~45 years old. 1.60 m. RECONSTRUCTION.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b2",
+      "text": "His gear was real, and it was startling. A copper bladed axe. The only completely preserved prehistoric axe on Earth. The blade is ninety nine point seven percent pure copper.",
+      "img": "axe",
+      "cap": "99.7% pure copper. The only one on Earth.",
+      "tone": "confidence"
+    },
+    {
+      "id": "b3",
+      "text": "And the copper did not come from the Alps. Isotope analysis traced the ore to southern Tuscany, five hundred kilometers away. Trade networks were moving metal across Europe five thousand years before highways.",
+      "img": "artifacts",
+      "query": "Ötzi dagger flint lithic",
+      "cap": "Ore from 500 km away.",
+      "tone": "shock"
+    },
+    {
+      "id": "b4",
+      "text": "He also carried an unfinished longbow, and a quiver holding fourteen arrows. Only two of them were finished. Whatever he was preparing for, he died in the middle of it. Under armed.",
+      "img": "artifacts",
+      "cap": "14 arrows. Only 2 finished.",
+      "tone": "tension"
+    },
+    {
+      "id": "b5",
+      "text": "His clothing came from at least five different animals. Sheep. Goat. Cattle. Brown bear for the cap. Roe deer for the quiver. What you can visit today are reconstructions, and they fill a museum room.",
+      "img": "clothing",
+      "query": "Archeoparc Ötzi clothing reconstruction",
+      "cap": "5 animal species. RECONSTRUCTION.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b6",
+      "text": "His body kept a diary of his pain. Sixty one tattoos, in nineteen groups, most of them sitting directly over worn joints and his lower spine. Researchers believe they were treatment, not decoration.",
+      "img": "lastdays",
+      "query": "Ötzi last days timeline",
+      "cap": "61 tattoos — over the joints that hurt.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "b7",
+      "text": "He was a walking case file even before the violence. Whipworm eggs in his gut. Hardening arteries. Teeth ground down by gritty flour. His DNA even carries traces of the bacterium that causes Lyme disease.",
+      "img": "reconstruction",
+      "cap": "Parasites, arteries, Lyme traces. · RECONSTRUCTION shown",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b8",
+      "text": "And a surviving fingernail recorded three separate episodes of serious illness in his final six months. His body was already fighting something when he climbed for the last time.",
+      "img": "glacier",
+      "cap": "3 illnesses in his last 6 months.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "b9",
+      "text": "None of that killed him. What killed him stayed hidden inside his left shoulder for ten more years. Through every examination, every scan, every documentary that called his death an accident of weather.",
+      "img": "site",
+      "cap": "The real cause hid for 10 years.",
+      "tone": "tension"
+    },
+    {
+      "id": "c3",
+      "text": "Chapter three. The arrowhead.",
+      "chapter": "CHAPTER THREE\nTHE ARROWHEAD",
+      "img": "artifacts"
+    },
+    {
+      "id": "d1",
+      "text": "June, two thousand one. Bolzano General Hospital. A radiologist named Paul Gostner is reviewing new chest X rays of the mummy, taken to check a suspected broken rib.",
+      "img": "museum",
+      "cap": "June 2001. Routine new X-rays.",
+      "tone": "tension"
+    },
+    {
+      "id": "d2",
+      "text": "In the left shoulder, he spots a dense little triangle. Five times the density of bone. On a body from the Copper Age, only one material reads like that. Stone.",
+      "img": "paper",
+      "cap": "5× the density of bone. Stone.",
+      "tone": "shock"
+    },
+    {
+      "id": "d3",
+      "text": "It is a flint arrowhead, about two and a half centimeters long, buried under the left shoulder blade. Ten years of the most intense scientific attention on Earth, and everyone had missed the murder weapon.",
+      "img": "artifacts",
+      "cap": "A flint arrowhead. Missed for 10 years.",
+      "tone": "shock"
+    },
+    {
+      "id": "d4",
+      "text": "It had been missed because the wooden shaft was gone. Someone pulled the arrow out. The dying man, reaching back. Or his killer, removing evidence. Only the stone tip stayed behind.",
+      "img": "paper",
+      "cap": "The shaft was pulled out. By someone.",
+      "tone": "tension"
+    },
+    {
+      "id": "d5",
+      "text": "The pathologist melted the icy glaze on the mummy's back, and found the entry wound. Small, and unmistakable, below the left shoulder blade.",
+      "img": "glacier",
+      "cap": "Entry wound: below the left shoulder blade.",
+      "tone": "tension"
+    },
+    {
+      "id": "d6",
+      "text": "On July twenty sixth, two thousand one, the team announced it to the world. Europe's oldest mummy became the world's oldest identified murder victim. And the very first estimate said he could have lived only a few hours after the shot. Remember that estimate.",
+      "img": "site",
+      "cap": "Jul 26, 2001: murder. First estimate: HOURS.",
+      "tone": "shock"
+    },
+    {
+      "id": "c4",
+      "text": "Chapter four. A matter of minutes.",
+      "chapter": "CHAPTER FOUR\nA MATTER OF MINUTES",
+      "img": "paper"
+    },
+    {
+      "id": "e1",
+      "text": "Four years later, the mummy went through a modern C T scanner, slice by slice. What came back looked like case closed.",
+      "img": "paper",
+      "cap": "2005: multidetector CT.",
+      "tone": "tension"
+    },
+    {
+      "id": "e2",
+      "text": "The arrow had torn the wall of the left subclavian artery. A thirteen millimeter tear in one of the body's critical vessels, with a large bleed pooled around it.",
+      "img": "paper",
+      "cap": "13 mm tear. Subclavian artery.",
+      "tone": "shock"
+    },
+    {
+      "id": "e3",
+      "text": "The verdict, published in two thousand seven, was brutal and simple. Complete bleed out. In the words of one researcher on the team, if the artery starts bleeding, it's a matter of minutes to die.",
+      "img": "museum",
+      "cap": "2007: \"a matter of minutes to die.\"",
+      "tone": "confidence"
+    },
+    {
+      "id": "e4",
+      "text": "For nearly twenty years, that was the answer. Museums printed it. Documentaries repeated it. The Iceman was shot in the back and died fast, right where he fell.",
+      "img": "glacier",
+      "cap": "The textbook answer for ~20 years.",
+      "tone": "confidence"
+    },
+    {
+      "id": "e5",
+      "text": "But the body held complications. A deep cut across his right hand, down to the bone. Wound healing dated it three to eight days before death. He had been in a fight, days before someone shot him.",
+      "img": "paper",
+      "cap": "Hand cut to the bone — days earlier.",
+      "tone": "tension"
+    },
+    {
+      "id": "e6",
+      "text": "A follow up study concluded he was attacked at least twice. The hand wound in one violent event. The arrow, and a blunt trauma to the back, in another. Later, researchers even reported possible bruising on his brain.",
+      "img": "paper",
+      "cap": "Attacked at least twice.",
+      "tone": "tension"
+    },
+    {
+      "id": "c5",
+      "text": "Chapter five. The coldest case.",
+      "chapter": "CHAPTER FIVE\nTHE COLDEST CASE",
+      "img": "reconstruction"
+    },
+    {
+      "id": "f1",
+      "text": "In twenty sixteen, the museum's director did something unusual. She invited a working murder detective, Alexander Horn of the Munich police, to profile a killing five thousand three hundred years old.",
+      "img": "museum",
+      "cap": "A real detective. A 5,300-year-old case.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f2",
+      "text": "Horn started where detectives start. The victim's final hours. Pollen in his gut had already mapped them. Down from the timberline into the valley, then back up, hard, to over three thousand meters. Roughly thirty three hours, reconstructed almost step by step.",
+      "img": "lastdays",
+      "cap": "His last ~33 hours, mapped by pollen.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f3",
+      "text": "Then, the detail that anchors everything. His stomach was full. Dried ibex meat and fat, red deer, einkorn wheat. A heavy mountain meal, roughly half fat, eaten shortly before he died.",
+      "cap": "A full stomach. ~50% fat.",
+      "tone": "curiosity",
+      "video": "ibex_1.mp4"
+    },
+    {
+      "id": "f4",
+      "text": "In Horn's words, a man rushing to get away from someone trying to kill him does not sit down and eat a heavy meal. The Iceman felt safe. He thought it was over.",
+      "cap": "\"That's not what you do.\" — Det. Insp. A. Horn",
+      "tone": "tension",
+      "img": "lastdays"
+    },
+    {
+      "id": "f5",
+      "text": "Nothing was stolen. The copper axe, rare, valuable, instantly recognizable, was still lying with him. To Horn, that ruled out robbery. And it whispered something darker. The killer did not dare carry an object everyone back home would recognize.",
+      "img": "axe",
+      "cap": "Nothing stolen. Robbery ruled out.",
+      "tone": "tension"
+    },
+    {
+      "id": "f6",
+      "text": "Horn's read of the file. The hand wound was a fight the Iceman won, days earlier, down in the valley. The arrow was the loser's answer. Fired from behind, from a distance he put at nearly a hundred feet, while the victim rested.",
+      "img": "paper",
+      "cap": "A grudge. A shot from behind.",
+      "tone": "tension"
+    },
+    {
+      "id": "f7",
+      "text": "Other researchers read politics instead. One archaeologist argued the Iceman was a leader whose time had run out. Chased from his own village by rivals, and finished off at altitude.",
+      "img": "reconstruction",
+      "cap": "Or: a leader, deposed. · RECONSTRUCTION shown",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f8",
+      "text": "One scientist even reported blood from four different people on his gear. On the knife. On an arrow. On his coat. He died before the work was fully published, and it has never been independently verified.",
+      "img": "artifacts",
+      "cap": "\"Blood of 4 people\" — never verified.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f9",
+      "text": "Every theory agrees on one thing. Whoever released that arrow walked away clean. No weapon. No second body. No trace. The killer left exactly one piece of physical evidence on this Earth, and it was inside his victim's shoulder.",
+      "img": "glacier",
+      "cap": "The killer left ONE piece of evidence.",
+      "tone": "tension"
+    },
+    {
+      "id": "c6",
+      "text": "Chapter six. Hours, not minutes.",
+      "chapter": "CHAPTER SIX\nHOURS, NOT MINUTES",
+      "img": "paper"
+    },
+    {
+      "id": "g1",
+      "text": "May, twenty twenty five. A forensic team in Copenhagen rebuilds the wound in three dimensions from the C T data. And the numbers start to disagree with the story.",
+      "img": "paper",
+      "cap": "May 2025: the wound, rebuilt in 3D.",
+      "tone": "tension"
+    },
+    {
+      "id": "g2",
+      "text": "The arrowhead punched a hole clean through the shoulder blade and came to rest between the ribs and the scapula. But the blood pooled around the wound measured only about a hundred and ten milliliters.",
+      "img": "ex_villawound",
+      "exhibit": true,
+      "source": "Villa et al., Int. J. Legal Medicine 139 (2025) · CC BY 4.0",
+      "cap": "Hematoma: ~110 mL.",
+      "tone": "shock"
+    },
+    {
+      "id": "g3",
+      "text": "A tenth of a liter. That is not what bleeding to death in minutes looks like. The team wrote it carefully. Death from blood loss alone may not have been immediate.",
+      "img": "paper",
+      "cap": "\"May not have been immediate.\"",
+      "tone": "tension"
+    },
+    {
+      "id": "g4",
+      "text": "The trajectory surprised them too. The shot came from behind, angled slightly downward. Which means the killer may have held the high ground, while the Iceman stood below him, unaware.",
+      "img": "paper",
+      "cap": "From behind. Slightly downward.",
+      "tone": "tension"
+    },
+    {
+      "id": "g5",
+      "text": "Then, November twenty seventh, twenty twenty five. A clinical team, with a practicing neurosurgeon on it, corrects the wound for five thousand years of mummification shrinkage. In a living body, that wound track runs eleven to thirteen centimeters. Almost all of it through muscle.",
+      "img": "paper",
+      "cap": "Nov 27, 2025: corrected for shrinkage.",
+      "tone": "shock"
+    },
+    {
+      "id": "g6",
+      "text": "And muscle closes over a wound track. Their estimate, about half a liter of blood lost before the bleeding stopped itself. Ten percent of his blood volume. Survivable. In their words, survival for several hours after the arrow injury was likely.",
+      "img": "paper",
+      "cap": "~500 mL. ~10%. Survivable — for hours.",
+      "tone": "shock"
+    },
+    {
+      "id": "g7",
+      "text": "So what killed him? Their answer is quieter and crueler. Everything at once. The wound, plus hours of exertion, plus altitude, plus cold. A slow fade on the ice, not a switch being flipped. And his rigid right hand, they suggest, was not a fist. It was a bandaged wound.",
+      "img": "glacier",
+      "cap": "Wound + exertion + altitude + cold.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "g8",
+      "text": "Notice the circle. The very first estimate, in two thousand one, said hours. Two thousand seven said minutes, and the world believed it for two decades. Twenty four years and two reversals later, the science came home. Hours. He sat on that ice, wounded, and he waited.",
+      "kinetic": {
+        "words": [
+          "2001:",
+          "hours.",
+          "2007:",
+          "minutes.",
+          "2025:",
+          "hours."
+        ]
+      },
+      "img": "paper",
+      "extraHold": 14,
+      "cap": "Hours → minutes → hours.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c7",
+      "text": "Chapter seven. Still alive.",
+      "chapter": "CHAPTER SEVEN\nSTILL ALIVE",
+      "img": "museum"
+    },
+    {
+      "id": "i1",
+      "text": "Which brings us back to Bolzano, and the study that gave this video its title.",
+      "img": "museum",
+      "cap": "Back to Bolzano.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "i2",
+      "text": "Since nineteen ninety eight, the Iceman has lain in a sealed cell at minus six degrees and ninety nine percent humidity, resting on a scale that weighs him around the clock. The cell is opened rarely. Every opening is recorded.",
+      "img": "museum",
+      "cap": "−6°C. 99% humidity. Weighed constantly.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "i3",
+      "text": "The new study reached across that entire recorded history. Soil bagged at the gully during the nineteen ninety one recovery. Stomach contents extracted in twenty ten, during a nine hour thaw that yielded a hundred and forty nine samples. Swabs and meltwater from a five hour thaw in twenty nineteen.",
+      "img": "ex_mummymap",
+      "cap": "Samples: 1991, 2010, 2019.",
+      "tone": "curiosity",
+      "exhibit": true,
+      "source": "Sarhan et al., Microbiome 14:135 (2026) · CC BY 4.0"
+    },
+    {
+      "id": "i4",
+      "text": "Standard incubators could not get cold enough for what the team suspected was living there. So they had a culturing device custom built to run cold. And they waited.",
+      "video": "labdish_2.mp4",
+      "videoQuery": "petri dish bacteria culture laboratory",
+      "stock": true,
+      "cap": "A custom cold incubator.",
+      "tone": "tension"
+    },
+    {
+      "id": "i5",
+      "text": "Four species of yeast grew. Cold adapted glacier organisms, whose closest known relatives live in Antarctica and the high Arctic. This was not lab contamination. It came with him, out of the ice.",
+      "img": "ex_yeasts",
+      "exhibit": true,
+      "source": "Sarhan et al., Microbiome 14:135 (2026) · CC BY 4.0",
+      "cap": "4 living yeasts. Glacial lineages.",
+      "tone": "shock"
+    },
+    {
+      "id": "i6",
+      "text": "Three of the four can digest phenol. That is the disinfectant sprayed on the mummy in nineteen ninety one to stop fungal growth. The chemical meant to protect him may have been quietly feeding what lives on him.",
+      "img": "mpaper",
+      "cap": "3 of 4 eat the disinfectant.",
+      "tone": "shock"
+    },
+    {
+      "id": "i7",
+      "text": "And then the quiet bombshell. One yeast, glaciozyma, was more abundant in the twenty nineteen samples than in the twenty ten samples, with less damage to its DNA. Between two openings of a sealed, sub zero cell, it had been multiplying.",
+      "img": "mpaper",
+      "cap": "2010 → 2019: it MULTIPLIED at −6°C.",
+      "tone": "shock"
+    },
+    {
+      "id": "i8",
+      "text": "Be precise about what this means. Nothing of the man himself is alive. His own cells died on that ridge five thousand years ago. His original gut bacteria survive only as shredded fragments of ancient DNA. What lives is what the ice gave him. Passengers, still riding.",
+      "img": "reconstruction",
+      "cap": "Not his cells. His passengers. · RECONSTRUCTION shown",
+      "tone": "confidence"
+    },
+    {
+      "id": "i9",
+      "text": "The senior scientist on the study put it this way. The mummy is not a static relic, but a dynamic biological system. Keeping the world's most protected corpse means monitoring the things that live on it, forever.",
+      "img": "museum",
+      "cap": "\"Not a static relic.\"",
+      "tone": "curiosity"
+    },
+    {
+      "id": "i10",
+      "text": "And in the strangest coda in this entire file, the team coaxed yeast recovered from his gut into fermenting sourdough. The lead author's verdict, quote, we made some really good dough with it.",
+      "video": "dnalab_2.mp4",
+      "videoQuery": "scientist laboratory sample research close up",
+      "stock": true,
+      "cap": "They baked with it. \"Really good dough.\"",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c8",
+      "text": "Chapter eight. Who he was all along.",
+      "chapter": "CHAPTER EIGHT\nWHO HE WAS ALL ALONG",
+      "img": "reconstruction"
+    },
+    {
+      "id": "j1",
+      "text": "Because here is the unsettling part. Even his face has been overturned. The famous museum figure, pale skin, a full head of hair, wiry beard, was built on his first genome, sequenced in twenty twelve.",
+      "img": "reconstruction",
+      "cap": "The famous face — built on the 2012 genome.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "j2",
+      "text": "In twenty twenty three, a cleaner genome showed that first sequence had been contaminated with modern DNA. The real Iceman had dark skin, the darkest recorded for any European of his time. Dark eyes. And a balding head.",
+      "img": "reconstruction",
+      "cap": "2023: dark skin, dark eyes, balding.",
+      "tone": "shock"
+    },
+    {
+      "id": "j3",
+      "text": "More than ninety two percent of his ancestry traces to early farmers from Anatolia. And when researchers sequenced forty seven of his prehistoric neighbors, they found his community shared that ancestry. Genetically, he fit right in.",
+      "img": "site",
+      "cap": ">92% Anatolian farmer ancestry.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "j4",
+      "text": "Except for two threads. His father's genetic line matches none of the forty seven neighbors sampled. And his mother's line has never been found in any population on Earth, ancient or modern. Both threads, so far, end with him.",
+      "img": "glacier",
+      "cap": "His mother's line: found in NO ONE else.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "j5",
+      "text": "The tabloids, meanwhile, gave him a curse. Seven deaths among people who touched the case. The archaeologist who led the first investigation called it a load of rubbish and media hype, and he was right. Hundreds of people have handled the Iceman. Time passes. People die.",
+      "img": "site",
+      "cap": "The \"curse\": debunked media hype.",
+      "tone": "confidence"
+    },
+    {
+      "id": "j6",
+      "text": "But one story from that list deserves better than a tabloid. Helmut Simon, who found the Iceman, died in a mountain blizzard in two thousand four, on a different peak, two hundred kilometers away. He was missing for eight days before searchers found him in the snow. He never lived to see the settlement his family had fought for.",
+      "img": "site",
+      "cap": "Helmut Simon, 1937–2004.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda1",
+      "text": "Here is what stays with me. We aimed every machine we have at this man. C T scanners. Gene sequencers. Custom cold incubators. And he answered almost every question, except the one a neighbor could have answered in a sentence.",
+      "img": "glacier",
+      "cap": "Every machine. One unanswered question.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda2",
+      "text": "Who wanted him dead? The killer's name melted away five thousand years before anyone thought to ask. The arrowhead in his shoulder is the only testimony left, and it will never say more than it already has.",
+      "img": "reconstruction",
+      "cap": "The killer’s only testimony. · RECONSTRUCTION shown",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda3",
+      "text": "And the man himself lies in the dark at minus six degrees. Still teaching. Still being corrected. While the only living things he has left, the ones the ice gave him, quietly multiply in the cold.",
+      "img": "museum",
+      "cap": "Still teaching. Still changing.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "bridge",
+      "text": "If the oldest cold case on Earth got under your skin, wait until you see the bodies still on Mount Everest, and the man the whole world called by the wrong name for thirty years. That full story is on your screen right now.",
+      "img": "glacier",
+      "cap": "Watch next: \"They Called Him Green Boots. He Wasn't.\"",
+      "tone": "curiosity"
+    },
+    {
+      "id": "end",
+      "text": "Subscribe to mindwired.",
+      "chapter": "SUBSCRIBE",
+      "img": "glacier"
+    }
+  ]
+}
