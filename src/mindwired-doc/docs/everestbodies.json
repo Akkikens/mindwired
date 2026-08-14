@@ -1,0 +1,613 @@
+{
+  "slug": "everestbodies",
+  "title": "They Called Him Green Boots. He Wasn't.",
+  "channel": "mindwired",
+  "niche": "history",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "On the world's highest mountain, there is a body climbers have walked past for thirty years, using a name that was never his.",
+      "video": "everestflyby_1.mp4",
+      "stat": "30 YEARS. WRONG NAME.",
+      "cap": "A name climbers have used for 30 years.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h2",
+      "text": "May tenth, nineteen ninety six. Three men radio their base camp with a summit claim. Within hours, all three are dead.",
+      "video": "climbingascent_1.mp4",
+      "videoQuery": "mountaineer climbing snowy mountain ridge",
+      "stock": true,
+      "cap": "May 10, 1996. Three men. One radio call.",
+      "tone": "fear"
+    },
+    {
+      "id": "h3",
+      "text": "One of their bodies became the most famous landmark on Mount Everest. Climbers named him for his boots, because for thirty years, nobody was sure of anything else.",
+      "video": "climbingascent_2.mp4",
+      "videoQuery": "mountaineer climbing snowy mountain ridge",
+      "stock": true,
+      "cap": "Named for his boots. Nothing else was certain.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h4",
+      "text": "This year, that changed. And the answer means the man everyone thought they'd found is still missing.",
+      "video": "everestflyby_1.mp4",
+      "cap": "The answer means someone else is still missing.",
+      "tone": "shock"
+    },
+    {
+      "id": "h5",
+      "text": "This is the story of every body still on Everest. The ones with names, the ones without, and the one nobody had right.",
+      "img": "everest",
+      "cap": "Every body still on Everest.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "sting",
+      "sting": true,
+      "text": "You're watching mindwired.",
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "text": "This is the story of the bodies still on Mount Everest, the men who never came down, and the thirty-year mistake that just got corrected.",
+      "chapter": "THEY CALLED HIM GREEN BOOTS.\nHE WASN'T.",
+      "img": "everest"
+    },
+    {
+      "id": "c1",
+      "text": "Chapter one. The mountain that keeps its dead.",
+      "chapter": "CHAPTER ONE\nTHE MOUNTAIN THAT KEEPS ITS DEAD",
+      "img": "icefall"
+    },
+    {
+      "id": "a1",
+      "text": "The most-cited estimate says more than two hundred bodies remain on Mount Everest today. Nobody has ever actually counted them.",
+      "img": "everest",
+      "cap": "\"200+ bodies\" is an estimate. Nobody has counted.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2",
+      "text": "That figure traces back to a single two thousand fifteen magazine article. Every outlet since has repeated it. What's actually confirmed is smaller, and stranger: total recorded deaths on Everest since nineteen twenty two now exceed three hundred, and more than half of those who died were Nepali guides and workers, not the climbers whose names make headlines.",
+      "img": "icefall",
+      "cap": "300+ deaths since 1922. Most were Nepali workers.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a3",
+      "text": "Above eight thousand meters, the air holds barely a third of the oxygen it does at sea level. Doctors call it the death zone, because the human body doesn't adapt there. It just runs out.",
+      "img": "expedition",
+      "cap": "The \"death zone\": above 8,000 meters.",
+      "tone": "fear"
+    },
+    {
+      "id": "a4",
+      "text": "The cold does something else. At routine temperatures of minus forty, a body doesn't decompose. It mummifies. Preserved by the same mountain that killed it.",
+      "img": "everest",
+      "cap": "-40°C. Bodies don't decompose. They mummify.",
+      "tone": "fear"
+    },
+    {
+      "id": "a5",
+      "text": "Recovering even one of them costs, on average, between forty and eighty thousand dollars, and takes six to ten climbers, days of work, dragging dead weight down terrain that can barely hold the living.",
+      "kinetic": {
+        "words": [
+          "$40,000",
+          "to",
+          "$80,000.",
+          "Per",
+          "body."
+        ]
+      },
+      "img": "expedition",
+      "extraHold": 12,
+      "cap": "$40,000-$80,000 to recover one body.",
+      "tone": "shock"
+    },
+    {
+      "id": "a6",
+      "text": "No helicopter can reliably reach most of them. Routine rescue flights stop around camp two, at roughly six thousand four hundred meters. The single highest-altitude helicopter rescue ever performed happened once, in perfect conditions, in twenty thirteen. It has never been repeated on demand.",
+      "img": "icefall",
+      "cap": "Helicopters stop around 6,400m. Above that: no rescue.",
+      "tone": "fear"
+    },
+    {
+      "id": "a7",
+      "text": "Commercial guided climbing on Everest is usually traced to one man with almost no mountaineering background. Dick Bass, a Utah ski-resort owner, reached the summit in nineteen eighty five with a professional guide doing most of the work. His book about it is widely credited with turning Everest into a business.",
+      "img": "expedition",
+      "cap": "1985: a Utah ski-resort owner opens the door.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a8",
+      "text": "By nineteen ninety six, that business was booming. Scott Fischer's company, Mountain Madness, and Rob Hall's company, Adventure Consultants, were both guiding paying clients to the top. Hall's rate, sixty five thousand dollars a head, was the highest of any operator on the mountain.",
+      "img": "expedition",
+      "cap": "Rob Hall's 1996 rate: $65,000 per client.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a9",
+      "text": "In September of last year, Nepal raised its climbing permit fee again, to fifteen thousand dollars per person for the spring season, a thirty six percent jump. Officials said part of the reason was the mounting cost of getting bodies off the mountain.",
+      "img": "expedition",
+      "cap": "Nepal's 2025 fee hike, partly to fund body removal.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c2",
+      "text": "Chapter two. The night everyone remembers.",
+      "chapter": "CHAPTER TWO\nTHE NIGHT EVERYONE REMEMBERS",
+      "img": "expedition"
+    },
+    {
+      "id": "b1",
+      "text": "May tenth, nineteen ninety six. Rob Hall's team and Scott Fischer's team are both pushing for the summit on the same day, on the mountain's south side, in Nepal.",
+      "img": "expedition",
+      "cap": "May 10, 1996. South side. Two teams, one summit day.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b2",
+      "text": "Bottlenecks at two fixed-rope sections cost the group nearly two hours they didn't have. By early afternoon, Hall's own turnaround deadline has already passed, and climbers are still below the top.",
+      "img": "expedition",
+      "cap": "The turnaround deadline passes. Climbers keep going up.",
+      "tone": "fear"
+    },
+    {
+      "id": "b3",
+      "text": "Around five thirty in the afternoon, the weather breaks completely. Winds over seventy knots. Visibility near zero. Climbers who are still descending are now doing it blind, in a blizzard, above eight thousand meters.",
+      "dossier": true,
+      "img": "expedition",
+      "label": "MAY 10, 1996 · ~5:30PM",
+      "cap": "70-knot winds. Near-zero visibility. Above 8,000m."
+    },
+    {
+      "id": "b4",
+      "text": "Doug Hansen, a postal worker from Washington state on his second attempt to summit for Hall's company, disappears during the descent. His body has never been found.",
+      "img": "memorial",
+      "cap": "Doug Hansen, 46. Never found.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "b5",
+      "text": "Andy Harris, one of Hall's guides, climbs back up into the storm to try to help. He disappears too. His body has never been found either.",
+      "img": "memorial",
+      "cap": "Andy Harris, 31. Also never found.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "b6",
+      "text": "Rob Hall himself survives the night on the mountain, radioing base camp at dawn, alive but no longer able to manage his own ropes. That afternoon, his last call is to his pregnant wife, back home. He dies of exposure shortly after.",
+      "dossier": true,
+      "img": "memorial",
+      "label": "MAY 11, 1996 · SOUTH SUMMIT",
+      "cap": "His last radio call was to his pregnant wife."
+    },
+    {
+      "id": "b7",
+      "text": "Rob Hall's body remains on Everest today. His widow has said publicly that she wants him left exactly where he is.",
+      "img": "memorial",
+      "cap": "His widow asked that he stay there.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "b8",
+      "text": "Scott Fischer dies the same night, found frozen by a fellow climber. His body also remains on the mountain.",
+      "img": "fischer",
+      "cap": "Scott Fischer, 40. Also remains on the mountain.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "b8b",
+      "text": "Yasuko Namba, a Japanese client who had just become the oldest woman ever to summit Everest, dies on the South Col. A recovery funded by her husband brought her remains home to Japan the following year, one of the very few from that night who ever left the mountain.",
+      "img": "namba",
+      "cap": "Yasuko Namba: recovered in 1997. Most weren't.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "b9",
+      "text": "No government inquiry was ever opened into that night. What exists instead are two competing firsthand accounts, written by two different survivors, who disagree with each other about what happened and who's to blame. Neither one is the official record. Both are just what two people remember.",
+      "img": "icefall",
+      "cap": "No official inquiry. Two survivors. Two conflicting accounts.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b10",
+      "text": "Eight people died on Everest that single week. Four of them are the names everyone remembers. The other four died on the other side of the mountain, and almost nobody talks about them at all.",
+      "img": "everest",
+      "cap": "8 died that week. Only half the story got told.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c3",
+      "text": "Chapter three. The night nobody talks about.",
+      "chapter": "CHAPTER THREE\nTHE NIGHT NOBODY TALKS ABOUT",
+      "img": "icefall"
+    },
+    {
+      "id": "d1",
+      "text": "On the north side of Everest, in Tibet, a six-man team from India's Indo Tibetan Border Police is making its own summit attempt, on the exact same day.",
+      "img": "expedition",
+      "cap": "The north side. The same storm. A different team.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d2",
+      "text": "Three of the six turn back as conditions worsen. Three keep climbing: team leader Tsewang Samanla, who had already summited once before. Lance Naik Dorje Morup, forty eight years old. And Head Constable Tsewang Paljor, twenty eight.",
+      "img": "expedition",
+      "cap": "Samanla. Morup, 48. Paljor, 28.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d3",
+      "text": "Before he left for the climb, Morup told his wife he'd come back a hero, and asked her to meet him at the airport. He'd already climbed the tallest peak in his home region, Stok Kangri, and this was supposed to be the one that mattered.",
+      "img": "expedition",
+      "cap": "\"I'll come back a hero.\" His words, before he left.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "d4",
+      "text": "Around five thirty in the afternoon, Beijing time, the three men radio down that they've reached the top. A Chinese summit certificate later records the exact time for Morup: five thirty PM, May tenth.",
+      "dossier": true,
+      "img": "icefall",
+      "label": "MAY 10, 1996 · 5:30PM BEIJING TIME",
+      "cap": "A summit certificate records the exact minute."
+    },
+    {
+      "id": "d5",
+      "text": "One detail may have cost them everything. Samanla reportedly stayed behind on the summit to perform a religious ceremony, taking time the group didn't have. The descent starts late. The same storm that's about to kill four people on the other side of the mountain catches them in the open.",
+      "img": "expedition",
+      "cap": "A ceremony took time they didn't have.",
+      "tone": "fear"
+    },
+    {
+      "id": "d6",
+      "text": "None of the three make it back to high camp. All three die in the blizzard, on the descent, on the north side of Everest, the same night Rob Hall and Scott Fischer are dying on the south side.",
+      "img": "everest",
+      "cap": "All 3 died. Same storm. Different side of the mountain.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "d7",
+      "text": "Eight people died on Everest in that single storm. Most of the world only ever heard about four of them.",
+      "img": "expedition",
+      "cap": "8 dead. The world remembered 4.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "d8",
+      "text": "One of those three Indian climbers would go on to become the most photographed dead body on Mount Everest, known to thousands of climbers by a name that had nothing to do with who he actually was.",
+      "img": "icefall",
+      "cap": "He became a landmark. Under the wrong name.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c4",
+      "text": "Chapter four. Thirty years, one wrong name.",
+      "chapter": "CHAPTER FOUR\nTHIRTY YEARS, ONE WRONG NAME",
+      "img": "everest"
+    },
+    {
+      "id": "e1",
+      "text": "A body in a small limestone alcove, at roughly eight thousand five hundred meters on Everest's northeast ridge, was first filmed by a British documentary crew in May of nineteen ninety six. All the film crew could say at the time was that he was from India.",
+      "img": "icefall",
+      "cap": "First filmed, May 1996. Only known fact: \"from India.\"",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e2",
+      "text": "Climbers started calling him Green Boots, for the bright green mountaineering boots still on his feet. For the next thirty years, that nickname was the only thing about him nobody argued over.",
+      "img": "expedition",
+      "cap": "\"Green Boots.\" Named for his boots. Nothing else.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e3",
+      "text": "The popular assumption, repeated in trekking blogs and climbing guides for three decades, was that Green Boots was Tsewang Paljor, the twenty eight year old head constable.",
+      "img": "everest",
+      "cap": "For 30 years, assumed to be Tsewang Paljor.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e4",
+      "text": "But that assumption had a problem nobody was checking. A written account from nineteen ninety seven, by one of the expedition's own officers, described a very different man struggling with frostbitten hands on the descent, and a search party finding his body near a boulder, close to camp six, with his clothing and pack still intact. That account named Morup. Not Paljor. It had been sitting there, in a mountaineering journal, the entire time.",
+      "img": "expedition",
+      "cap": "A 1997 report named the OTHER man. Nobody listened.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e5",
+      "text": "In twenty fourteen, a Chinese expedition managing the route moved the body to a less visible spot off the main path. Climbers who'd seen Green Boots for years suddenly stopped seeing him at all.",
+      "img": "icefall",
+      "cap": "2014: the body was quietly moved.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e6",
+      "text": "This year, India's Indo Tibetan Border Police finally settled it. According to tender documents reviewed by international wire reporters, the force says it collected DNA samples back in twenty twenty four, and that testing ahead of a planned recovery mission confirmed the identity.",
+      "img": "everest",
+      "cap": "2026: ITBP says DNA settled it.",
+      "tone": "shock"
+    },
+    {
+      "id": "e7",
+      "text": "Here's the honest complication. The lab report itself has never been made public. No city, no scientist, no case file has been named anywhere. Other reporting says the identification actually rests on gear, radio logs, and decades-old eyewitness testimony, with full DNA testing only happening once the body is finally brought home.",
+      "img": "expedition",
+      "cap": "The full lab report has never been released.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e8",
+      "text": "Either way, the conclusion is the same. Green Boots was never Tsewang Paljor. He was Dorje Morup, the forty eight year old who told his wife he'd come back a hero.",
+      "kinetic": {
+        "words": [
+          "Green",
+          "Boots",
+          "was",
+          "Dorje",
+          "Morup."
+        ]
+      },
+      "img": "icefall",
+      "extraHold": 14,
+      "cap": "Green Boots = Dorje Morup. Not Tsewang Paljor.",
+      "tone": "shock"
+    },
+    {
+      "id": "e9",
+      "text": "Which means the man everyone spent thirty years calling Green Boots has finally been named. And the man they thought he was, Tsewang Paljor, is still somewhere on that mountain, unaccounted for.",
+      "img": "everest",
+      "cap": "Paljor's real body is still unaccounted for.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e10",
+      "text": "Morup's wife, Konchok Yangskit, is in her mid-seventies now. She gave her first public interview this year. Quote: on some days, before I went to sleep, I would think that there'd be a knock on the door tonight. I will take my last breath only after seeing him. End quote.",
+      "dossier": true,
+      "img": "expedition",
+      "label": "KONCHOK YANGSKIT · 2026 INTERVIEW",
+      "cap": "\"I will take my last breath only after seeing him.\""
+    },
+    {
+      "id": "e11",
+      "text": "India's government has now put out a formal tender for a recovery mission, targeting a window between June and September of this year, aiming to bring Morup's remains to Delhi by October. His son says the family plans a funeral near a memorial park in Leh, and wants his father and his two teammates formally recognized as martyrs.",
+      "img": "icefall",
+      "cap": "Recovery mission targets October 2026.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e12",
+      "text": "Thirty years. One mountain. One name, finally corrected. And one family, still waiting for the mountain to give back a different man entirely.",
+      "img": "everest",
+      "extraHold": 10,
+      "cap": "One name corrected. One man still missing.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c5",
+      "text": "Chapter five. The one they never found.",
+      "chapter": "CHAPTER FIVE\nTHE ONE THEY NEVER FOUND",
+      "img": "expedition"
+    },
+    {
+      "id": "f1",
+      "text": "Green Boots isn't the only identity mystery on this mountain. It isn't even the oldest one.",
+      "img": "icefall",
+      "cap": "Not the oldest mystery on Everest.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f2",
+      "text": "June eighth, nineteen twenty four. George Mallory and Andrew Irvine, on Britain's third Everest expedition, are last seen climbing toward the summit on the northeast ridge. Then they vanish.",
+      "img": "mallory",
+      "cap": "June 8, 1924. Last seen climbing. Then, nothing.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f3",
+      "text": "Whether either man reached the top, twenty nine years before Everest's first confirmed ascent, remains one of mountaineering's oldest open questions.",
+      "img": "irvine",
+      "cap": "Did they summit 29 years before Hillary?",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f4",
+      "text": "May first, nineteen ninety nine. A research expedition finds Mallory's body, seventy five years after he disappeared. Personal effects on the body help confirm who he is. There's no camera on him.",
+      "img": "mallory",
+      "cap": "1999: Mallory's body found. No camera on him.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f5",
+      "text": "That camera matters more than almost anything else on this list. Irvine was believed to be carrying it. If it still exists, and if the film could somehow still be developed, it could theoretically prove whether either man reached the summit. It has never been found.",
+      "img": "irvine",
+      "cap": "The camera could prove the summit claim. Still missing.",
+      "tone": "fear"
+    },
+    {
+      "id": "f6",
+      "text": "Then, in September of twenty twenty four, a hundred years after they vanished, a film crew finds a boot, a partial foot, and a sock embroidered with the initials A. C. Irvine, on a glacier below the mountain's north face.",
+      "img": "icefall",
+      "cap": "2024: a boot, a foot, a sock. 100 years later.",
+      "tone": "shock"
+    },
+    {
+      "id": "f7",
+      "text": "Irvine's great-niece was the first family member told. The family has volunteered DNA to help confirm it. The camera still hasn't turned up.",
+      "img": "irvine",
+      "cap": "The family volunteered DNA. The camera: still gone.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "f8",
+      "text": "A hundred years apart, two different families have now waited for the same mountain to finally answer the same question: who was this, really, and what were they still carrying.",
+      "img": "everest",
+      "cap": "100 years. Same mountain. Same unanswered question.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c6",
+      "text": "Chapter six. The ones they couldn't save.",
+      "chapter": "CHAPTER SIX\nTHE ONES THEY COULDN'T SAVE",
+      "img": "expedition"
+    },
+    {
+      "id": "g1",
+      "text": "October second, nineteen seventy nine. Hannelore Schmatz, a German climber, becomes the fourth woman ever to summit Everest. On the way down, roughly a hundred meters above camp four, exhaustion and exposure kill her.",
+      "img": "everest",
+      "cap": "Hannelore Schmatz, 1979. 4th woman to summit.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "g2",
+      "text": "Her body stayed visible for years, seated, held roughly in place by her own climbing rope, in view of anyone passing by. A climber is believed to have cut the rope during high winds in nineteen eighty two. Another climber still spotted remains as late as nineteen eighty five. Eventually, the wind alone finished the job.",
+      "img": "icefall",
+      "cap": "Visible for years. Wind, not an avalanche, moved her.",
+      "tone": "fear"
+    },
+    {
+      "id": "g3",
+      "text": "In October of nineteen eighty four, a Nepalese police team tried to recover her remains. A police inspector and a Sherpa guide both fell to their deaths during the attempt. The mountain took two more lives trying to bring back one.",
+      "dossier": true,
+      "img": "everest",
+      "label": "OCTOBER 1984 · RECOVERY ATTEMPT",
+      "cap": "2 more people died trying to recover her body."
+    },
+    {
+      "id": "g4",
+      "text": "May fifteenth, two thousand six. David Sharp, a British climber, is dying alone in a small rock alcove on the northeast ridge, the same general area as Green Boots. Somewhere between thirty and forty other climbers pass him over the following day, on their way up or down.",
+      "img": "icefall",
+      "cap": "2006. ~30-40 climbers passed him.",
+      "tone": "fear"
+    },
+    {
+      "id": "g5",
+      "text": "It wasn't a flat story of everyone simply ignoring him. Some Sherpa guides and climbers did try, giving him oxygen, attempting to move him, before continuing on. He was already severely frostbitten and immobile by the time most of them reached him.",
+      "img": "expedition",
+      "cap": "Some did try. It wasn't enough.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "g6",
+      "text": "One climber who passed him, in later interviews, said his team radioed their expedition leader and was told there was nothing to be done. He has since said the altitude may have affected his memory of exactly what was said. Whatever the precise truth, David Sharp died on the mountain that day.",
+      "img": "icefall",
+      "cap": "His own account of that day has since shifted.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "g7",
+      "text": "Sir Edmund Hillary, the first man to ever summit Everest, was furious when he heard. Quote: on my expedition, there was no way that you would have left a man under a rock to die. Human life is far more important than just getting to the top of a mountain. End quote.",
+      "dossier": true,
+      "img": "expedition",
+      "label": "SIR EDMUND HILLARY · MAY 2006",
+      "cap": "\"Human life is far more important than the summit.\""
+    },
+    {
+      "id": "g8",
+      "text": "One real, uncomfortable statistic followed that debate. Expeditions that had a death on a commercial trip still pushed on to the summit afterward eighty point six percent of the time. Non-commercial expeditions, only thirty seven point eight percent of the time.",
+      "kinetic": {
+        "words": [
+          "80.6%",
+          "still",
+          "summit.",
+          "Even",
+          "after",
+          "a",
+          "death."
+        ]
+      },
+      "img": "everest",
+      "extraHold": 12,
+      "cap": "80.6% still summit after a death, on paid expeditions.",
+      "tone": "shock"
+    },
+    {
+      "id": "c7",
+      "text": "Chapter seven. Still happening.",
+      "chapter": "CHAPTER SEVEN\nSTILL HAPPENING",
+      "img": "icefall"
+    },
+    {
+      "id": "i1",
+      "text": "This isn't a closed story. This spring, Everest had a record season, over a thousand summits, and it still killed five people.",
+      "img": "expedition",
+      "cap": "Spring 2026: 1,008 summits. 5 more deaths.",
+      "tone": "fear"
+    },
+    {
+      "id": "i2",
+      "text": "Lhakpa Dendi Sherpa, fifty two, fell before he even reached the mountain proper. Bijay Ghimire Bishwakarma, thirty five, the first Dalit climber ever to summit Everest, died of suspected heart failure in the Khumbu icefall. Phura Gyaljen Sherpa, barely into his twenties, fell into a crevasse on the Lhotse Face. Two more climbers from India died descending after their own successful summits.",
+      "img": "icefall",
+      "cap": "5 named. 5 real people. This year.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "i3",
+      "text": "After those deaths, Nepal's army, working with local authorities, started organizing a new cleanup campaign, aiming to bring down at least five more bodies from Everest and the neighboring peak, Nuptse, along with the usual tons of abandoned gear.",
+      "img": "expedition",
+      "cap": "Nepal's army: targeting 5 more bodies this year.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "i4",
+      "text": "Since these organized army campaigns began in twenty nineteen, they've recovered a combined fourteen bodies, several sets of skeletal remains, and roughly a hundred nineteen tons of waste. The mountain is still giving its dead back, a handful at a time.",
+      "img": "everest",
+      "cap": "Since 2019: 14 bodies, 119 tons of waste recovered.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "i5",
+      "text": "Nepal's parliament is now moving toward a law that would require every expedition to carry insurance covering the cost of bringing bodies home, not just rescuing the living. It's passed one house of parliament. It isn't law yet.",
+      "img": "icefall",
+      "cap": "A bill to require body-recovery insurance. Not law yet.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "i6",
+      "text": "For a hundred years, this mountain has taken people and kept most of them. Every so often, it corrects one small mistake, and hands one name back.",
+      "img": "everest",
+      "extraHold": 10,
+      "cap": "It keeps most of them. Occasionally, it corrects one name.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda1",
+      "text": "What stays with me about this story isn't the number. Two hundred, three hundred, it's an estimate either way.",
+      "img": "everest",
+      "cap": "What stays with me.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda2",
+      "text": "It's that a body most of the world only ever knew as a nickname had a wife, in Ladakh, still waking up some mornings expecting a knock at the door. Thirty years later.",
+      "img": "expedition",
+      "cap": "A nickname. A wife. 30 years of waiting.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda3",
+      "text": "Every one of these people had a name before the mountain took it away from them. Getting even one of those names right again, thirty years late, is apparently the best any of us can do.",
+      "img": "icefall",
+      "extraHold": 12,
+      "cap": "Every one of them had a name first.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "bridge",
+      "text": "If the mountain that keeps its dead got to you, wait until you see the twenty one astronauts who never came home either, and the real photographs that survived them.",
+      "cap": "Watch next: \"21 Astronauts Never Came Home.\"",
+      "tone": "curiosity",
+      "img": "everest"
+    },
+    {
+      "id": "end",
+      "text": "Subscribe to mindwired.",
+      "chapter": "SUBSCRIBE",
+      "img": "everest"
+    }
+  ]
+}

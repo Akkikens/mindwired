@@ -161,3 +161,19 @@ Format per entry:
   paid promotion recently stopped and how much of recent traffic depended on it.
   Needs its own real diagnosis pass (per-Short Reach-tab pull) before the next
   Shorts batch — not done in this session, flagged for follow-up.
+- BLOCKED-ON-DATA 2026-08-12 · channel-wide · no live Studio/browser access in
+  this session to pull real Reach-tab numbers for yellowstone (MW) and
+  deepwaterhorizon/ic814kandahar (BB), all shipped since the voyager1 diagnosis
+  on 2026-08-10. Per icahn-validate Step 0's own escape hatch (no-human-available
+  → record and proceed), this session's discovery sweep (real-photo/real-data
+  tragedy topics adjacent to 21 Astronauts) proceeds without re-blocking on this.
+  Diagnoses remain owed before the next publish.
+- DIAGNOSIS DUE 2026-08-14ish: everestbodies (MW) — "They Called Him Green
+  Boots. He Wasn't." — published 2026-08-12 (today), under 48h at this point.
+  Also still owed: yellowstone/deepwaterhorizon/ic814kandahar (above). Separately,
+  a real per-Short Reach-tab diagnosis (impressions, not just views) for the
+  channel-wide near-zero-Shorts-reach finding (2026-08-10, 26 Shorts/509 total
+  views) was requested this session but blocked — Claude in Chrome not connected,
+  Akshay asked to paste numbers or connect the extension; still outstanding.
+  Per Step 0's escape hatch, this session's next-topic icahn-validate sweep
+  proceeds without re-blocking on any of the above.

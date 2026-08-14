@@ -606,3 +606,58 @@ pattern: Nibiru/Planet X, Betelgeuse's companion (second decline — see
 `icahn-betelgeuse`), alien abduction (Hill/Walton). Full evidence + locked
 package: memory `icahn-yellowstone`. Proceeding straight to production per
 Akshay's "WORK ON NEXT BIG VID" standing authorization, 2026-08-11.
+
+**SHIPPED 2026-08-11** (per git commit "Produce Yellowstone supervolcano
+episode end-to-end"). Yellowstone is no longer the mindwired queue's NEXT
+pick — see below.
+
+## ⭐ NEXT for mindwired — Bodies Still on Everest, Icahn-validated 2026-08-12
+
+Akshay asked for more topics with the exact real-photo/real-data DNA of the
+channel's #1 video ("21 Astronauts Never Came Home") that AREN'T another
+astronaut/cosmonaut video (that well is heavily mined). Swept 5 candidates
+live via yt-dlp (Franklin Expedition, Scott's Antarctic Expedition, Everest
+bodies, Demon Core, Chelyabinsk meteor) — Everest is Akshay's own pick
+("only one which excited me"). **PASS, 3/3 recognition.** Headline 93.3:1
+fresh (1,558,420v/16,700subs, 2025-08-17) + a second headline-grade outlier
+694.1:1 (888,442v/1,280subs, 2016) + independent fresh corroborator 50.9:1
+(1,807,578v/35,500subs, 2025-12-12). Ceiling: Simple Paint 3.38M (fresh,
+2025-08-21), ECHOES 3.10M, Epic Adventure Archives 2.0M (2024-12-17) — this
+niche is unusually active right now, not a stale one-hit topic.
+
+**Currency (exceptional, verified live via WebSearch 2026-08-12):** the
+underlying story is genuinely unfolding in 2026, not just reuploaded old
+news — "Green Boots," Everest's most famous body, was assumed for 30 years
+to be Tsewang Paljor; DNA testing in 2026 identified the remains as a
+DIFFERENT man from the same 1996 expedition (Dorje Morup), with an active
+recovery mission targeting delivery to Delhi by October 2026, plus new 2026
+Nepal permit regulations now mandating bodies be brought down. None of the
+swept competitor videos use this 2026 identity-reveal angle yet — likely
+still an unclaimed wedge. Full evidence, sensitivity conditions (fires —
+recent 2026 element needs living-family care; 1996 core is settled/30yo),
+and an informal packaging note: memory `icahn-everest-bodies`. Full
+ctr-engine Run A (titles/thumbnails/asset-licensing probe) not yet run —
+do that before production locks.
+
+## RENDERED 2026-08-13, ready for Akshay's review + upload — Costa Concordia
+disaster (Black Box Breakdown), Icahn-validated 2026-08-12 (memory
+`icahn-costaconcordia`), winner of a 5-topic next-video sweep (Andes 1972/
+"Alive", Ötzi the Iceman, K2 2008 disaster, Costa Concordia, Amundsen 1928).
+Strongest raw ratios validated for this channel to date (3317.5:1 headline,
+real coast-guard-call audio clip; ceiling 23.8M views, Internet Historian).
+3/3 recognition. Real 2026 currency wedge confirmed live: Netflix's
+"Shipwrecked: Nightmare at Sea" (July 10, 2026) omits the ~3-year search for
+Russel Rebello's remains — this episode's differentiator, packaged as "What
+Netflix's Costa Concordia Documentary Left Out." Sensitivity: Schettino is
+real/living/incarcerated (release ~2033) — attributed-never-asserted beyond
+his verdict; the real coast-guard audio was never officially released (2012
+press leak, no free license found) — rendered only as a labeled "CALL
+RECREATION," never real audio. Full evidence + locked package: memory
+`icahn-costaconcordia`. Production trail: `docs/planning/CLAIMS-
+costaconcordia.md`, `docs/planning/COSTACONCORDIA-HANDOFF.md`,
+`docs/metadata/METADATA-costaconcordia.md`. Rendered 676.7s, 3840×2160,
+−14.1 LUFS, BB outro baked in. Ötzi the Iceman, K2 2008 disaster remain
+strong alternates for the next pick in each channel's queue — Ötzi
+deliberately passed over this round only to avoid running the same
+"wrong-for-decades, new-evidence-corrected-it" structural beat twice in a
+row right after Everest bodies.

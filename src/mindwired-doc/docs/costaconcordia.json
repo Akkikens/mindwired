@@ -1,0 +1,580 @@
+{
+  "slug": "costaconcordia",
+  "title": "What Netflix's Costa Concordia Documentary Left Out",
+  "channel": "blackbox",
+  "niche": "ocean",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "This exact ship has forty five minutes left afloat.",
+      "video": "shipnight_2.mp4",
+      "stat": "45 MINUTES LEFT",
+      "cap": "This exact ship has 45 minutes left.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h2",
+      "text": "Right now, over four thousand people are eating dinner on board, on the first night of a seven day cruise. Nobody has any reason to worry.",
+      "video": "shipnight_3.mp4",
+      "cap": "4,229 people aboard. First night of the cruise.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h3",
+      "text": "The captain is on the phone with an old friend, being told the water near the shore is deep enough.",
+      "video": "shipnight_2.mp4",
+      "cap": "The captain is on the phone with an old friend.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h4",
+      "text": "It isn't. In minutes, an officer will try to turn this ship away from the rocks. The captain will order him not to.",
+      "video": "shipnight_3.mp4",
+      "cap": "An officer tries to turn away. The captain says no.",
+      "tone": "fear"
+    },
+    {
+      "id": "h5",
+      "text": "Hours later, that same captain will be given a direct order to get back on his own sinking ship. He will not comply.",
+      "video": "shipnight_2.mp4",
+      "cap": "Ordered back onto his own sinking ship. He refused.",
+      "tone": "shock"
+    },
+    {
+      "id": "h6",
+      "text": "Netflix just told this story again. There's a real, three year search they left out entirely.",
+      "img": "wreck",
+      "cap": "Netflix's 2026 documentary left out a real, 3-year search.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "sting",
+      "sting": true,
+      "text": "This is Black Box Breakdown.",
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "text": "What Netflix's Costa Concordia documentary left out.",
+      "chapter": "WHAT NETFLIX'S COSTA CONCORDIA\nDOCUMENTARY LEFT OUT"
+    },
+    {
+      "id": "c1",
+      "text": "Chapter one. The sail past nobody questioned.",
+      "chapter": "1 — THE SAIL-PAST\nNOBODY QUESTIONED",
+      "img": "ship_genoa"
+    },
+    {
+      "id": "a1",
+      "text": "The Costa Concordia was built in Genoa, Italy, delivered in two thousand six, at a cost of roughly four hundred fifty million euros. At a hundred fourteen thousand tons, she was the first of an entirely new class of ship.",
+      "img": "ship_genoa",
+      "cap": "Built 2006. €450 million. 114,147 tons.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2",
+      "text": "Owned by Carnival Corporation, operated by Costa Crociere, she was designed to carry three thousand seven hundred eighty passengers and eleven hundred crew.",
+      "img": "ship_savona",
+      "cap": "Designed for 3,780 passengers, 1,100 crew.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a3",
+      "text": "January thirteenth, two thousand twelve. She departs Civitavecchia, the port for Rome, on the first night of a seven day western Mediterranean cruise. Three thousand two hundred six passengers and just over a thousand crew are aboard.",
+      "img": "ship_palma",
+      "cap": "Jan 13, 2012. 3,206 passengers + 1,023 crew.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a4",
+      "text": "The captain is Francesco Schettino. That evening, the ship's maitre d, a native of the island of Giglio, asks him for a favor: sail close to the island as an unofficial salute.",
+      "img": "wreck",
+      "cap": "Capt. Francesco Schettino agrees to a close sail-past.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a5",
+      "text": "This wasn't unprecedented. The ship, or her sister ship, had done similar close salutes at Giglio four times before, always in summer, always arranged in advance with the port authority.",
+      "img": "giglio",
+      "cap": "4 prior sail-pasts at Giglio, 2007-2011. Always arranged.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6",
+      "text": "Schettino calls a retired Costa captain, his own former mentor, who lives on the island: Mario Palombo. He tells Palombo the ship will sound its horn in tribute as it passes.",
+      "img": "giglio",
+      "cap": "A call to his old mentor, Mario Palombo.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a7",
+      "text": "At nine thirty seven that night, the ship is holding a safety margin of half a nautical mile from the rocks off Giglio, doing fifteen point four knots. Palombo tells Schettino the water near the port is deep enough.",
+      "dossier": true,
+      "img": "wreck",
+      "label": "9:37 PM · 0.5 NM OFF LE SCOLE",
+      "cap": "9:37pm. 0.5 nautical miles out. \"Deep enough,\" he's told."
+    },
+    {
+      "id": "a8",
+      "text": "The margin keeps shrinking. Half a mile becomes a quarter. A senior officer on the bridge grows concerned they're too close, and orders the helmsman to turn away from the rocks.",
+      "img": "wreck",
+      "cap": "An officer orders the helmsman to turn away.",
+      "tone": "fear"
+    },
+    {
+      "id": "a9",
+      "text": "Schettino overrides him. He takes command himself, and orders the helmsman to hold course, and increase speed.",
+      "kinetic": {
+        "words": [
+          "\"Hold",
+          "course.",
+          "Increase",
+          "speed.\""
+        ]
+      },
+      "img": "wreck",
+      "extraHold": 12,
+      "cap": "The captain overrides him. \"Hold course. Increase speed.\"",
+      "tone": "shock"
+    },
+    {
+      "id": "a10",
+      "text": "Around nine forty two to nine forty five, at roughly fifteen to sixteen knots, the ship's hull strikes a rock off Le Scole, a small islet group barely visible in the dark.",
+      "img": "wreck",
+      "cap": "~9:42-9:45pm. Impact.",
+      "tone": "fear"
+    },
+    {
+      "id": "a11",
+      "text": "The gash is fifty three meters long, tearing through five separate watertight compartments. The ship was designed to survive damage to two.",
+      "kinetic": {
+        "words": [
+          "53",
+          "meters.",
+          "5",
+          "compartments",
+          "torn",
+          "open."
+        ]
+      },
+      "img": "wreck",
+      "extraHold": 12,
+      "cap": "A 53-meter gash. 5 compartments breached, not 2.",
+      "tone": "shock"
+    },
+    {
+      "id": "c2",
+      "text": "Chapter two. Sixty five minutes.",
+      "chapter": "2 — SIXTY-FIVE\nMINUTES",
+      "img": "wreck"
+    },
+    {
+      "id": "b1",
+      "text": "Within minutes, the flooding knocks out the ship's main power. At nine fifty two, the crew tries and fails to restart the emergency generator. Over four thousand people are now on a dark, drifting, sinking ship.",
+      "img": "wreck",
+      "cap": "9:52pm. Emergency generator fails to restart.",
+      "tone": "fear"
+    },
+    {
+      "id": "b2",
+      "text": "For the next hour, the crew tells passengers this is just an electrical problem. Under control. Nothing to worry about.",
+      "dossier": true,
+      "img": "giglio",
+      "label": "9:45PM - 10:50PM",
+      "cap": "\"Just an electrical problem.\" For nearly an hour."
+    },
+    {
+      "id": "b3",
+      "text": "The official investigation later found this delay, and the decision to downplay the danger to both passengers and shore authorities, among the most serious failures of that night.",
+      "img": "wreck",
+      "cap": "The delay itself is an official investigation finding.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b4",
+      "text": "The formal order to abandon ship isn't given until around ten fifty. Sixty five minutes after impact. International rules require ships be evacuable within thirty.",
+      "kinetic": {
+        "words": [
+          "65",
+          "minutes.",
+          "Rules",
+          "require",
+          "30."
+        ]
+      },
+      "img": "wreck",
+      "extraHold": 12,
+      "cap": "65 minutes to order evacuation. Rules require 30.",
+      "tone": "shock"
+    },
+    {
+      "id": "b5",
+      "text": "The evacuation itself takes almost seven hours. It isn't declared complete until four forty six the next morning.",
+      "img": "wreck",
+      "cap": "Evacuation completed: 4:46am. Nearly 7 hours after impact.",
+      "tone": "fear"
+    },
+    {
+      "id": "b6",
+      "text": "Thirty two people die. Twenty seven passengers, five crew. Roughly sixty four are seriously injured.",
+      "img": "wreck",
+      "cap": "32 dead. 27 passengers, 5 crew.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "b7",
+      "text": "Hungarian ship's violinist Sandor Feher is reported to have helped frightened children into life jackets, then gone back to his cabin for his own violin. He didn't make it out.",
+      "img": "wreck",
+      "cap": "Sandor Feher, 38. Helped children, went back for his violin.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "b8",
+      "text": "French passenger Francis Servel, seventy one, is reported to have given his own life jacket to his wife. He drowned. She survived.",
+      "img": "giglio",
+      "cap": "Francis Servel, 71. Gave his life jacket to his wife.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c3",
+      "text": "Chapter three. Get back on the ship.",
+      "chapter": "3 — GET BACK\nON THE SHIP",
+      "img": "wreck"
+    },
+    {
+      "id": "cq1",
+      "text": "By this point, Captain Schettino has already left the ship, while thousands of passengers and crew are still aboard.",
+      "img": "wreck",
+      "cap": "The captain leaves the ship. Passengers remain aboard.",
+      "tone": "shock"
+    },
+    {
+      "id": "cq2",
+      "text": "Italian coast guard commander Gregorio De Falco, on shore in Livorno, gets him on the phone. He tells Schettino, on a recorded line, exactly what to do next.",
+      "img": "giglio",
+      "cap": "Coast Guard Cdr. Gregorio De Falco calls Schettino directly.",
+      "tone": "tension"
+    },
+    {
+      "id": "cq3",
+      "text": "What you're about to hear is a recreation, built word for word from the real transcript, published and confirmed authentic within days of the disaster.",
+      "img": "wreck",
+      "cap": "Recreation, from the real, confirmed transcript.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "radio1",
+      "text": "You need to go to that bow, using the pilot ladder, and climb up onto that ship. Do you understand?",
+      "speaker": "CDR. GREGORIO DE FALCO",
+      "radioLabel": "CALL RECREATION",
+      "timestamp": "1:46 AM, JAN 14, 2012",
+      "cap": "Climb up onto that ship. Do you understand?",
+      "tone": "tension"
+    },
+    {
+      "id": "radio2",
+      "text": "It's dark. It's difficult to see anything. Other rescue boats are already coordinating down there.",
+      "speaker": "CAPT. FRANCESCO SCHETTINO",
+      "radioLabel": "CALL RECREATION",
+      "timestamp": "1:46 AM, JAN 14, 2012",
+      "cap": "It's dark. It's difficult to see anything.",
+      "tone": "tension"
+    },
+    {
+      "id": "radio3",
+      "text": "It's been an hour you've told me the same thing. Now get on board. Get on board, and tell me how many people are still there.",
+      "speaker": "CDR. GREGORIO DE FALCO",
+      "radioLabel": "CALL RECREATION",
+      "timestamp": "1:46 AM, JAN 14, 2012",
+      "cap": "It's been an hour. Now get on board.",
+      "tone": "tension"
+    },
+    {
+      "id": "radio4",
+      "text": "You saved yourself from the sea. But I will make sure you go through hell for this. Get on board, dammit!",
+      "speaker": "CDR. GREGORIO DE FALCO",
+      "radioLabel": "CALL RECREATION",
+      "timestamp": "1:46 AM, JAN 14, 2012",
+      "cap": "Get on board, dammit!",
+      "tone": "shock"
+    },
+    {
+      "id": "cq4",
+      "text": "Schettino never went back. That single phone call, roughly four minutes long, would follow him for the rest of his life.",
+      "img": "wreck",
+      "cap": "He never went back.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "cq5",
+      "text": "De Falco publicly rejected being called a hero. He said he was just doing his job.",
+      "img": "giglio",
+      "cap": "De Falco: \"I was just doing my job.\"",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c4",
+      "text": "Chapter four. The man they couldn't find for three years.",
+      "chapter": "4 — THE MAN THEY COULDN'T\nFIND FOR THREE YEARS",
+      "img": "wreck"
+    },
+    {
+      "id": "d1",
+      "text": "Recovering the dead took years, not days. Seventeen bodies were found in the first weeks. Eight more, in February, using a mini submarine to search the flooded lifeboat deck.",
+      "img": "wreck",
+      "cap": "17 bodies in weeks 1. 8 more via mini-sub, Feb 2012.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "d2",
+      "text": "Five more, trapped between the hull and the seabed, weren't recoverable until March. Passenger Maria Grazia Trecarichi wasn't identified until October of the following year, after the wreck was finally righted.",
+      "img": "wreck",
+      "cap": "Maria Grazia Trecarichi, identified Oct 2013.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "d3",
+      "text": "One person was still missing. Russel Rebello, thirty two, an assistant waiter from India.",
+      "img": "wreck",
+      "cap": "Russel Rebello, 32. Indian crew. Still missing.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "d4",
+      "text": "He wasn't found until November third, two thousand fourteen. Nearly three years after the ship went down. Workers dismantling the wreck in Genoa found him in a crushed cabin, identified by an ID card in his uniform.",
+      "dossier": true,
+      "img": "wreck",
+      "label": "NOVEMBER 3, 2014 · GENOA",
+      "cap": "Found Nov 3, 2014. Almost 3 years later."
+    },
+    {
+      "id": "d5",
+      "text": "He left behind a young son. His brother has since called him a hero.",
+      "img": "giglio",
+      "cap": "He left behind a young son.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "d6",
+      "text": "Netflix's own two thousand twenty six documentary about this disaster, built around real black box audio and new survivor interviews, does not tell this part of the story at all.",
+      "img": "wreck",
+      "cap": "Netflix's 2026 documentary skips this entirely.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d7",
+      "text": "Almost three years is a long time for a family to wait for one more answer. It's the part of this story that got left out.",
+      "img": "wreck",
+      "extraHold": 10,
+      "cap": "3 years. One family. Left out of the retelling.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c5",
+      "text": "Chapter five. The largest salvage in history.",
+      "chapter": "5 — THE LARGEST SALVAGE\nIN HISTORY",
+      "img": "salvage"
+    },
+    {
+      "id": "e1",
+      "text": "Removing a hundred fourteen thousand ton wreck from a protected marine park was never going to be simple. It became, by weight, the largest maritime salvage operation ever attempted.",
+      "img": "salvage",
+      "cap": "The largest maritime salvage in history, by weight.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e2",
+      "text": "Salvage master Nick Sloane led roughly five hundred engineers, divers, and welders from twenty four countries. They spent sixteen months building an underwater platform, and welding giant steel flotation tanks to both sides of the hull.",
+      "img": "salvage",
+      "cap": "~500 workers, 24 countries, 16 months of prep.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e3",
+      "text": "September sixteenth, two thousand thirteen. Using cables and counterweight, the crew rotates the entire wreck upright. The maneuver takes about nineteen hours.",
+      "img": "salvage",
+      "cap": "Sept 16, 2013: righting the wreck. ~19 hours.",
+      "tone": "awe"
+    },
+    {
+      "id": "e4",
+      "text": "The following July, the ship is refloated using those same steel tanks, and towed roughly two hundred nautical miles to Genoa, for scrapping.",
+      "img": "giglio",
+      "cap": "July 2014: refloated, towed ~200 nautical miles.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e5",
+      "text": "Total cost estimates vary depending on what's counted, but most run over a billion dollars. Some put the full figure closer to two.",
+      "kinetic": {
+        "words": [
+          "Over",
+          "$1",
+          "billion.",
+          "Maybe",
+          "$2."
+        ]
+      },
+      "img": "wreck",
+      "extraHold": 10,
+      "cap": "Over $1 billion. Some estimates: nearly $2 billion.",
+      "tone": "shock"
+    },
+    {
+      "id": "e6",
+      "text": "One salvage diver, Israel Franco Moreno, died during the operation, from a leg injury while installing the flotation tanks. A separate death from the disaster itself, but a real one.",
+      "img": "salvage",
+      "cap": "1 more death, during salvage prep: diver Israel Franco Moreno.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c6",
+      "text": "Chapter six. Ten years later, still counting.",
+      "chapter": "6 — TEN YEARS LATER,\nSTILL COUNTING",
+      "img": "wreck"
+    },
+    {
+      "id": "f1",
+      "text": "Captain Schettino was charged with thirty two counts of manslaughter, causing the shipwreck, abandoning ship, and lying to authorities about how bad it was.",
+      "img": "wreck",
+      "cap": "32 counts of manslaughter, plus more.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f2",
+      "text": "He never pleaded guilty. He has consistently called himself a scapegoat, and pointed to the helmsman's mistaken turn as the real cause.",
+      "img": "wreck",
+      "cap": "Schettino has always called himself a scapegoat.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f3",
+      "text": "But the investigation found that correction, even if made perfectly, would not have prevented the collision. The ship was already too close, going too fast, far too late to save.",
+      "img": "wreck",
+      "cap": "The investigation: even a perfect turn came too late.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f4",
+      "text": "February eleventh, two thousand fifteen, after a nineteen month trial: guilty on every count. Sixteen years. Upheld on appeal in twenty sixteen, and finalized by Italy's highest court in twenty seventeen.",
+      "kinetic": {
+        "words": [
+          "Guilty.",
+          "16",
+          "years."
+        ]
+      },
+      "img": "wreck",
+      "extraHold": 10,
+      "cap": "Feb 11, 2015: guilty on all counts. 16 years.",
+      "tone": "shock"
+    },
+    {
+      "id": "f5",
+      "text": "Five other officers took plea deals instead, with sentences short enough under Italian law that none of them ever served a single day in prison.",
+      "img": "wreck",
+      "cap": "5 co-defendants. Zero days served.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f6",
+      "text": "As of this year, Schettino is still in Rebibbia prison, in Rome. About ten years into his sentence. Scheduled release: around twenty thirty three.",
+      "img": "giglio",
+      "cap": "Still in prison, 2026. Release scheduled: ~2033.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f7",
+      "text": "In twenty twenty five, he withdrew a request for early day release, after failing to secure the job placement Italian law required for it.",
+      "img": "wreck",
+      "cap": "2025: an early-release request, withdrawn.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f8",
+      "text": "Gregorio De Falco, the man who ordered him back aboard, later spent four years as an elected Italian senator, then returned to the coast guard, and appears to have retired earlier this year, after more than three decades of service.",
+      "img": "salvage",
+      "cap": "De Falco: senator, then Coast Guard, retired 2026.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f9",
+      "text": "The disaster did change real rules. Cruise ships must now run safety drills before leaving port, not within the first twenty four hours at sea, the old standard that let this ship sail with hundreds of un-drilled passengers.",
+      "img": "wreck",
+      "cap": "New rule: safety drills BEFORE departure, not within 24 hours.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c7",
+      "text": "Chapter seven. The real cause.",
+      "chapter": "7 — THE REAL\nCAUSE",
+      "img": "wreck"
+    },
+    {
+      "id": "g1",
+      "text": "It's tempting to make this one man's story. A captain who got too close, then ran, then paid for it.",
+      "img": "wreck",
+      "cap": "Tempting to make this one man's story.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "g2",
+      "text": "But the official investigation names a longer chain: a tradition of unofficial close salutes nobody had ever stopped. A bridge crew that didn't challenge an order it should have. A company that has never fully agreed, in public, on who approved that night's detour.",
+      "img": "wreck",
+      "cap": "A longer chain than one man's decision.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "g3",
+      "text": "Four times before, the same maneuver had gone fine. This is what happens when a normalized shortcut finally meets the one night it doesn't work.",
+      "img": "giglio",
+      "cap": "4 times it worked. Then it didn't.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "g4",
+      "text": "Thirty two people are still dead. One of them took almost three years to find. The rules changed because of what happened to them, not before it.",
+      "img": "wreck",
+      "extraHold": 10,
+      "cap": "32 dead. The rules changed after, not before.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda1",
+      "text": "What stays with me isn't the radio call, famous as it is.",
+      "img": "wreck",
+      "cap": "What stays with me.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda2",
+      "text": "It's that a family waited almost three years for one more piece of certainty, and the biggest retelling of this story yet didn't have room for it.",
+      "img": "salvage",
+      "cap": "3 years of waiting. Left out of the retelling.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda3",
+      "text": "Every ship still sailing tonight is carrying that same lesson, whether anyone on board is thinking about it or not.",
+      "img": "ship_savona",
+      "extraHold": 10,
+      "cap": "Every ship tonight carries the same lesson.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "bridge",
+      "text": "If a captain refusing to get back on his own sinking ship got to you, wait until you hear the real cockpit recording from the plane that flew itself for three hours.",
+      "cap": "Watch next: \"The Plane That Flew Itself for Three Hours.\"",
+      "tone": "curiosity",
+      "img": "wreck"
+    },
+    {
+      "id": "end",
+      "text": "Subscribe to Black Box Breakdown.",
+      "chapter": "SUBSCRIBE",
+      "img": "wreck"
+    }
+  ]
+}
