@@ -177,3 +177,8 @@ Format per entry:
   Akshay asked to paste numbers or connect the extension; still outstanding.
   Per Step 0's escape hatch, this session's next-topic icahn-validate sweep
   proceeds without re-blocking on any of the above.
+- BLOCKED-ON-DATA 2026-08-14 · channel-wide · Black Box next-topic icahn sweep
+  (this session) proceeds under Step 0's escape hatch: still no Studio/browser
+  access for the owed diagnoses (everestbodies ~48h; yellowstone /
+  deepwaterhorizon / ic814kandahar; the per-Short Reach-tab pull). All remain
+  owed before the next publish.

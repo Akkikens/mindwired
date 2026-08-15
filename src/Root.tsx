@@ -89,6 +89,8 @@ import ic814kandaharManifest from "./mindwired-doc/docs/ic814kandahar.manifest.j
 import deepwaterhorizonDoc from "./mindwired-doc/docs/deepwaterhorizon.json";
 import deepwaterhorizonManifest from "./mindwired-doc/docs/deepwaterhorizon.manifest.json";
 import costaconcordiaDoc from "./mindwired-doc/docs/costaconcordia.json";
+import kurskDoc from "./mindwired-doc/docs/kursk.json";
+import kurskManifest from "./mindwired-doc/docs/kursk.manifest.json";
 import costaconcordiaManifest from "./mindwired-doc/docs/costaconcordia.manifest.json";
 import area51Doc from "./mindwired-doc/docs/area51.json";
 import area51Manifest from "./mindwired-doc/docs/area51.manifest.json";
@@ -1611,6 +1613,25 @@ export const RemotionRoot: React.FC = () => {
         id="CostaConcordiaDoc"
         component={makeDocComp(costaconcordiaDoc as any, costaconcordiaManifest as any, BB_OUTRO)}
         durationInFrames={docTotalFrames(costaconcordiaDoc as any, costaconcordiaManifest as any, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Kursk submarine disaster (Black Box Breakdown) — evidence-vs-
+             official-story doc. All real assets: mil.ru/kremlin.ru CC-BY
+             sister-ship + RTR interview footage, PD NORSAR seismogram +
+             StrålevernRapport 2001:5 exhibits, real Vidyayevo/memorial
+             photos; the Kolesnikov note is a labeled DossierScene
+             RECONSTRUCTION only. Sensitivity: Putin/Popov/Kuznetsov/
+             families all [LIVING] — attributed-never-asserted per
+             docs/planning/CLAIMS-kursk.md (see its DATA CORRECTIONS
+             block); collision theory attributed, never platformed. See
+             memory `icahn-kursk`. BB_OUTRO baked. ── */}
+      <Composition
+        id="KurskDoc"
+        component={makeDocComp(kurskDoc as any, kurskManifest as any, BB_OUTRO)}
+        durationInFrames={docTotalFrames(kurskDoc as any, kurskManifest as any, BB_OUTRO)}
         fps={30}
         width={1920}
         height={1080}

@@ -639,6 +639,69 @@ and an informal packaging note: memory `icahn-everest-bodies`. Full
 ctr-engine Run A (titles/thumbnails/asset-licensing probe) not yet run —
 do that before production locks.
 
+## ⭐ IN PRODUCTION — RENDER-READY 2026-08-15 (see docs/planning/KURSK-HANDOFF.md;
+## blocked only on `gcloud auth login`, then ONE GCE render command) —
+## Kursk submarine disaster (2000), Icahn-validated 2026-08-14
+
+**PASS-WITH-CONDITIONS** (memory `icahn-kursk`), sole survivor of an
+8-candidate adversarial sweep (Challenger / Lockerbie / Beirut / Kursk /
+Apollo 13 / Chilean miners / Grenfell / K2 2008) run via Workflow
+wf_c5c0eac8-232 with per-finalist currency research + adversarial refutation.
+Fresh headline **46:1 @ 1,490,013 views** (Pure Engine, "Raising the Kursk,"
+2025-09-06) + fresh corroborator **24.7:1 @ 237,121 views** (Naval Report,
+Kolesnikov-note angle, 2026-05-10) + stale monsters (490:1/334:1 doc rips) +
+ceiling 2.45M (Dark Records) / Colin Firth Netflix film / Sky History 2025
+doc. The 2025-26 re-mining wave is CONVERTING (unlike Challenger's and
+Beirut's, which measurably broke — see memory). **Recognition 2/3 — bridge:
+never bare "Kursk" (Ukraine-incursion ambiguity), always lock "submarine" in
+the title/thumbnail pair.** Currency MODERATE + real wave dates: **ship late
+Sept/early Oct 2026** for Oct 8 (25th anniversary of the raising) + Oct 25
+(anniversary of the Kolesnikov note's recovery). Sensitivity MODERATE:
+cause settled (2002 Ustinov report = fact); US-collision theory + any
+survival-duration claim past the official ≤8h = attributed-never-asserted in
+CLAIMS-kursk.md; living families — no exploitation of the Vidyayevo moment.
+Footage SOLVED and license-verified: CC-BY 4.0 Oscar-II sister-ship motion
+clips (Orel 1080p, Tomsk Granit launch 720p, labeled honestly), Putin's real
+RTR interview (CC-BY), CC0 2400×1600 wreck-at-108m photo, CC BY-SA salvage/
+transport photos, **PD NORSAR seismogram of the two explosions** (the Act-1
+exhibit), archive.org US-gov PD Cold War sub films. LOCKED PACKAGE: title
+"Russia Said They Died Instantly. They Didn't." + zero-text CC0 wreck-photo
+thumbnail — full package + adjacency cluster in memory `icahn-kursk`.
+Differentiation: evidence-vs-official-story hour-by-hour (NORSAR seismogram
+vs the Navy's collision line; refused-help timeline; the note as the exhibit
+that broke "they all died instantly") — NOT another generic retelling.
+Scheduling note: Costa Concordia (maritime) is still awaiting upload — if
+possible put one non-maritime publish between them. Ratios point-in-time —
+recheck if production slips past ~2026-08-28.
+
+**Sweep byproducts 2026-08-14 (log before they go stale):**
+- **AI171 WATCH ITEM: AAIB told India's Supreme Court (Jul 2026) the DRAFT
+  final report is expected by OCTOBER 2026.** The HOLD stands (nothing final
+  is out; SC declined to release the CVR transcript) — but October = check
+  weekly; the final-report episode outranks everything on this channel the
+  day it drops.
+- **Beirut port explosion: RE-VALIDATE at the indictment** (expected before
+  end of 2026 — Bitar charged ~70 officials Mar 2026; families expect the
+  formal indictment act in 2026-Q4). Killed for now: Mentour Pilot's Apr 2026
+  episode underperformed at the best news moment, no docket/PD blast footage
+  exists, HIGH sensitivity. The indictment publishing the judicial file
+  flips the no-primary-record objection.
+- **Challenger: FAIL** — 40th-anniversary wave (Jan 2026) already broke (a
+  pro full-doc released into it did ~1:1); only live angle is the saturated
+  "crew bodies" AI-slop lane; would re-cash the mindwired Space Shuttle
+  episode's outliers. Do not revisit before the 50th.
+- **Lockerbie: FAIL** — fern's 3.0M Mar-2026 investigation doc ate the exact
+  framing; 10+ fresh near-zero copycats = broken wave.
+- **Grenfell: FAIL raw Icahn** (zero qualifying outliers, UK-skewed) but real
+  currency — Met Police "up to 57 could face charges" (May 2026); watch item.
+- **Chilean miners: FAIL** (no fresh outlier, happy-ending rescue = weak
+  channel fit). **Apollo 13 / K2 2008:** raw-PASS grade, NOT adversarially
+  verified, benched as alternates (Apollo 13 carries the US1549 small-pool
+  caution for "miracle" stories).
+- **Key Bridge (PASS-COND 2026-08-08) stays validated as the strongest
+  alternate — and improves by waiting:** its peak currency window is the 2027
+  Dali criminal trial. Sequence Kursk first, Key Bridge nearer the trial.
+
 ## RENDERED 2026-08-13, ready for Akshay's review + upload — Costa Concordia
 disaster (Black Box Breakdown), Icahn-validated 2026-08-12 (memory
 `icahn-costaconcordia`), winner of a 5-topic next-video sweep (Andes 1972/

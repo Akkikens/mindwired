@@ -1,0 +1,987 @@
+{
+  "slug": "kursk",
+  "title": "Russia Said They Died Instantly. They Didn't.",
+  "channel": "blackbox",
+  "niche": "ocean",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "August twelfth, the year two thousand. The Barents Sea. The pride of the Russian Navy is running a practice attack, with one hundred eighteen men on board.",
+      "video": "oscar2_1.mp4",
+      "cap": "August 12, 2000 · The Barents Sea",
+      "tone": "tension"
+    },
+    {
+      "id": "h2",
+      "text": "At half past eleven, Moscow time, seismic needles jump in three countries. Something inside the Russian fleet's exercise area has just exploded.",
+      "video": "barents_1.mp4",
+      "cap": "11:29 a.m. — needles jump in 3 countries",
+      "tone": "tension"
+    },
+    {
+      "id": "h3",
+      "text": "Two minutes and ten seconds later, they jump again. Harder. The second blast is picked up in Canada, and in Alaska.",
+      "video": "oscar2_2.mp4",
+      "cap": "2 min 10 sec later: a second, far bigger blast",
+      "tone": "shock"
+    },
+    {
+      "id": "h4",
+      "text": "The submarine they called unsinkable is on the bottom. And in her ninth compartment, twenty three men are still alive in the dark, waiting for a rescue.",
+      "video": "fleet_1.mp4",
+      "cap": "23 men alive in compartment 9",
+      "stat": "23 ALIVE",
+      "tone": "tension"
+    },
+    {
+      "id": "h5",
+      "text": "For the next nine days, Russia tells the world a story. Radio contact. Air being pumped down. A rescue closing in. Almost none of it is true.",
+      "video": "putinrtr_1.mp4",
+      "cap": "Almost none of it was true.",
+      "tone": "tension"
+    },
+    {
+      "id": "h6",
+      "text": "When it is over, Moscow will say the crew died instantly. Then divers will bring up a dead officer with two soaked pages in his pocket.",
+      "video": "putinsub_1.mp4",
+      "cap": "Two pages, in a dead man's pocket",
+      "tone": "shock"
+    },
+    {
+      "id": "h7",
+      "text": "Pages that prove the men lived for hours, and that the story was a lie. This is the black box breakdown of the submarine Kursk.",
+      "video": "barents_2.mp4",
+      "cap": "This is what actually happened.",
+      "tone": "curiosity",
+      "extraHold": 8
+    },
+    {
+      "id": "sting",
+      "sting": true,
+      "text": "This is Black Box Breakdown.",
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "text": "Russia said they died instantly. They didn't.",
+      "chapter": "RUSSIA SAID THEY\nDIED INSTANTLY.",
+      "img": "sail"
+    },
+    {
+      "id": "c1",
+      "text": "Chapter one. The boat they called unsinkable.",
+      "chapter": "1 — THE BOAT THEY\nCALLED UNSINKABLE",
+      "img": "oscar70s"
+    },
+    {
+      "id": "c1_1",
+      "text": "In the last years of the Cold War, the Soviet Union built a class of submarine for exactly one job: killing American aircraft carriers.",
+      "img": "oscar70s",
+      "cap": "Built for one job: kill carriers",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c1_2",
+      "text": "Nato called the class Oscar two. Each one ran near silent and stretched one hundred fifty four meters — about two jumbo jets, nose to tail.",
+      "img": "oscarstill",
+      "cap": "154 m — two jumbo jets, nose to tail",
+      "stat": "154 m",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c1_3",
+      "text": "Under the outer casing sat a second, thicker hull, and inside that, nine watertight compartments. Her designers claimed a boat like this could survive a direct torpedo hit. The press called her unsinkable.",
+      "img": "diagram_depth",
+      "cap": "Two hulls. 9 compartments. \"Unsinkable.\"",
+      "tone": "confidence"
+    },
+    {
+      "id": "c1_4",
+      "text": "This is her sister ship, Orel. Same class, same yard. The Kursk herself was welded together at Severodvinsk, commissioned in December nineteen ninety four, and named after the greatest tank battle of the Second World War.",
+      "video": "oscar2_1.mp4",
+      "cap": "Sister ship Orel · Project 949A (mil.ru footage)",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c1_5",
+      "text": "Her main weapon was the Granit, a cruise missile the size of a small aircraft — twenty four of them, in angled tubes between the two hulls. This is a real launch, filmed aboard her sister ship Tomsk.",
+      "video": "oscar2_2.mp4",
+      "cap": "A real Granit launch (sister ship Tomsk)",
+      "tone": "confidence"
+    },
+    {
+      "id": "c1_6",
+      "text": "In nineteen ninety nine, under Captain Gennady Lyachin, the Kursk shadowed the American Sixth Fleet in the Mediterranean during the Kosovo war. She came home celebrated as the best boat in the Northern Fleet.",
+      "img": "oscar70s",
+      "cap": "1999: the celebrated Mediterranean patrol",
+      "tone": "confidence"
+    },
+    {
+      "id": "c1_7",
+      "text": "According to post-disaster reporting, her officers disabled the emergency rescue buoy on that same deployment — afraid it might pop loose and betray her position to the Americans. It was never re-armed.",
+      "kinetic": {
+        "words": [
+          "The",
+          "rescue",
+          "buoy:",
+          "disabled."
+        ]
+      },
+      "img": "oscar70s",
+      "cap": "The buoy that could mark a wreck: disabled",
+      "tone": "shock",
+      "extraHold": 10
+    },
+    {
+      "id": "c2",
+      "text": "Chapter two. A navy running on empty.",
+      "chapter": "2 — A NAVY\nRUNNING ON EMPTY",
+      "img": "vidyayevo"
+    },
+    {
+      "id": "c2_1",
+      "text": "Her home was Vidyayevo, a crumbling garrison town above the Arctic Circle. By nineteen ninety eight, sailors on Russia's nuclear submarines were going months without pay.",
+      "img": "vidyayevo",
+      "cap": "Vidyayevo. Months without pay.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c2_2",
+      "text": "The fleet around her was dissolving. In the five years after the Soviet collapse, the navy lost roughly half its ships, and over a hundred nuclear submarines sat rotting at their moorings.",
+      "img": "oscar70s",
+      "cap": "Post-Soviet collapse: half the fleet, gone",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c2_3",
+      "text": "The rescue force went first. The dedicated rescue mother-submarines were scrapped in the nineties, and the navy's best deep-rescue vehicles had sat in a Saint Petersburg yard since ninety four, waiting for repair money.",
+      "img": "priz",
+      "cap": "The rescue fleet was cut first",
+      "tone": "tension"
+    },
+    {
+      "id": "c2_4",
+      "text": "What remained were two aging Priz rescue capsules — this is the exact type — and a surface rescue ship that was really a twenty year old converted lumber carrier.",
+      "img": "priz",
+      "cap": "What was left: 2 old capsules + a converted lumber carrier",
+      "tone": "tension"
+    },
+    {
+      "id": "c2_5",
+      "text": "And in her bow, the Kursk carried a bargain from another era: the Type sixty five torpedo. Ten point seven meters long, five tonnes, and driven by high test peroxide.",
+      "img": "oscarstill",
+      "cap": "Type 65 torpedo — peroxide-driven",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c2_6",
+      "text": "The Royal Navy had abandoned peroxide torpedoes back in nineteen fifty five, after one blew up inside the submarine Sidon and killed thirteen men. Most Western navies followed. Russia kept them. The range was cheap.",
+      "kinetic": {
+        "words": [
+          "1955:",
+          "the West",
+          "walked",
+          "away."
+        ]
+      },
+      "img": "oscar70s",
+      "cap": "The West abandoned HTP torpedoes in the 1950s",
+      "tone": "tension"
+    },
+    {
+      "id": "c2_7",
+      "text": "The practice torpedo aboard came from a batch of ten made in nineteen ninety. Six of the ten had been rejected, for faulty welding. Practice weapons, investigators later wrote, simply got less scrutiny.",
+      "dossier": true,
+      "label": "TORPEDO BATCH · 1990",
+      "img": "oscarstill",
+      "cap": "Batch of 10. Six rejected — faulty welds.",
+      "tone": "tension"
+    },
+    {
+      "id": "c2_8",
+      "text": "Her crew had never fired one. Their last live torpedo shot, three years earlier, used a simpler battery weapon. The investigation later found their peroxide training was never verified, and some training-log signatures were faked.",
+      "video": "oscar2_1.mp4",
+      "cap": "The crew had never fired an HTP torpedo",
+      "tone": "tension"
+    },
+    {
+      "id": "c2_9",
+      "text": "Then, in August of two thousand, the Northern Fleet gathered for its biggest exercise since the Soviet Union fell. More than thirty warships — with the Kursk given the starring role.",
+      "video": "fleet_1.mp4",
+      "cap": "Aug 2000: the biggest exercise in a decade",
+      "tone": "confidence"
+    },
+    {
+      "id": "c2_10",
+      "text": "She sailed on August tenth — the twenty seventh birthday of Dmitri Kolesnikov, the officer who ran her turbines. At home, he left his dog tag, his crucifix, and a poem for his new wife.",
+      "dossier": true,
+      "label": "AUGUST 10, 2000 · VIDYAYEVO",
+      "img": "vidyayevo",
+      "cap": "He left a poem on the table at home.",
+      "tone": "melancholy",
+      "extraHold": 12
+    },
+    {
+      "id": "c3",
+      "text": "Chapter three. Two minutes and ten seconds.",
+      "chapter": "3 — TWO MINUTES,\nTEN SECONDS",
+      "img": "pyotr"
+    },
+    {
+      "id": "c3_1",
+      "text": "August twelfth. The fleet spreads across the Barents Sea, and the flagship — the giant battlecruiser Peter the Great — takes station as the Kursk's practice target.",
+      "video": "fleet_1.mp4",
+      "cap": "Her practice target: the flagship",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c3_2",
+      "text": "At eight fifty one that morning, the Kursk asks permission to fire. Fleet control answers with a single word. Dobro. Good. It is the last word anyone will ever send her.",
+      "img": "pyotr",
+      "cap": "8:51 a.m. — the last word: \"Dobro.\" (Good.)",
+      "tone": "tension",
+      "extraHold": 12
+    },
+    {
+      "id": "c3_3",
+      "text": "Investigators would conclude that inside torpedo tube four, peroxide was seeping through a faulty weld. On contact with metal it decomposes, expanding five thousand times over — an unstoppable chemistry her crew was never trained to fight.",
+      "dossier": true,
+      "label": "TUBE No. 4 · 11:29 A.M.",
+      "img": "map",
+      "cap": "Tube 4: peroxide, through a faulty weld",
+      "tone": "tension"
+    },
+    {
+      "id": "c3_4",
+      "text": "This is the actual seismic record. At eleven twenty nine, Moscow time, the torpedo's fuel explodes — magnitude one point five, roughly a hundred kilograms of high explosive. The Kursk keeps moving.",
+      "img": "seismo",
+      "exhibit": true,
+      "source": "NORSAR seismic record · StrålevernRapport 2001:5, Norwegian Radiation Protection Authority",
+      "highlight": [
+        0.16,
+        0.1,
+        0.24,
+        0.16
+      ],
+      "cap": "The real NORSAR trace — blast 1: mag 1.5",
+      "tone": "tension",
+      "extraHold": 15
+    },
+    {
+      "id": "c3_5",
+      "text": "Fire is now loose in her bow. For the next two minutes and ten seconds, the Kursk keeps driving forward, carrying that fire toward the rest of her torpedoes.",
+      "kinetic": {
+        "words": [
+          "Two",
+          "minutes.",
+          "Ten",
+          "seconds."
+        ]
+      },
+      "img": "seismo",
+      "cap": "The fire spreads toward the other torpedoes",
+      "tone": "tension"
+    },
+    {
+      "id": "c3_6",
+      "text": "Then the second trace. Magnitude three point five — an estimated five to seven warheads detonating together. It is picked up in Finnmark, in Spitsbergen, in Canada, and in Alaska.",
+      "img": "seismo",
+      "exhibit": true,
+      "source": "NORSAR seismic record · StrålevernRapport 2001:5, Norwegian Radiation Protection Authority",
+      "highlight": [
+        0.33,
+        0.28,
+        0.33,
+        0.24
+      ],
+      "cap": "Blast 2: mag 3.5 — felt in Alaska",
+      "stat": "MAG 3.5",
+      "tone": "shock",
+      "extraHold": 12
+    },
+    {
+      "id": "c3_7",
+      "text": "None of this rests on Russian data. It sits in an official Norwegian government report. First explosion, seven twenty nine and fifty seconds, Greenwich time, strength one point five. The second, quote, much larger explosion — three point five.",
+      "img": "exdsap8",
+      "exhibit": true,
+      "source": "The Kursk Accident · StrålevernRapport 2001:5 (NRPA, 2001), p.8",
+      "highlight": [
+        0.08,
+        0.375,
+        0.4,
+        0.09
+      ],
+      "cap": "The official Norwegian record",
+      "tone": "confidence",
+      "extraHold": 12
+    },
+    {
+      "id": "c3_8",
+      "text": "Aboard Peter the Great, sonar operators hear the detonation, and the crew feels the hull shudder. They report it. The report is dismissed, and the exercise sails on.",
+      "img": "pyotr",
+      "cap": "The flagship FELT it. The report was dismissed.",
+      "tone": "shock"
+    },
+    {
+      "id": "c3_9",
+      "text": "The blast has gutted the first four compartments and everyone inside them. The Kursk plows bow-first into the clay, one hundred eight meters down, and goes still.",
+      "img": "map",
+      "cap": "Bow-first into the seabed",
+      "stat": "108 m",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c3_10",
+      "text": "One system works exactly as designed. Both nuclear reactors sense the catastrophe and shut themselves down. The engineers who built those reactors saved the Barents Sea. Nothing saved the bow.",
+      "img": "diagram_depth",
+      "cap": "The reactors scrammed themselves — flawlessly",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c4",
+      "text": "Chapter four. Twenty three men aft.",
+      "chapter": "4 — TWENTY-THREE\nMEN AFT",
+      "img": "artifact"
+    },
+    {
+      "id": "c4_1",
+      "text": "In the stern, past the reactors, twenty three men are still alive. Survivors from three compartments grope through the dark to compartment nine — the one with the escape hatch.",
+      "img": "artifact",
+      "cap": "23 survivors reach compartment 9",
+      "tone": "tension"
+    },
+    {
+      "id": "c4_2",
+      "text": "Above them: one hundred eight meters of near-freezing water. A free ascent from that depth, without surface support, is close to a death sentence. They choose to wait for rescue.",
+      "img": "diagram_depth",
+      "cap": "Escape from 108 m: near-impossible. They wait.",
+      "tone": "tension"
+    },
+    {
+      "id": "c4_3",
+      "text": "The fleet doesn't know. The Kursk's firing window closes at half past one in the afternoon. Silence. And for hours, nobody treats the silence as an emergency.",
+      "video": "barents_2.mp4",
+      "cap": "Her silence is ignored for hours",
+      "tone": "tension"
+    },
+    {
+      "id": "c4_4",
+      "text": "Not until eleven that night — close to twelve hours after the explosions — does the Northern Fleet finally declare an alert and stop the exercise.",
+      "kinetic": {
+        "words": [
+          "12 hours",
+          "to declare",
+          "an alert."
+        ]
+      },
+      "img": "pyotr",
+      "cap": "~12 hours to declare an emergency",
+      "stat": "12 HRS",
+      "tone": "shock"
+    },
+    {
+      "id": "c4_5",
+      "text": "And by then, the men in compartment nine had already started writing down exactly what was happening to them. We know — because of what divers would find in October.",
+      "img": "artifact",
+      "cap": "They wrote it all down.",
+      "tone": "curiosity",
+      "extraHold": 10
+    },
+    {
+      "id": "c5",
+      "text": "Chapter five. What Moscow said.",
+      "chapter": "5 — WHAT\nMOSCOW SAID",
+      "img": "preday"
+    },
+    {
+      "id": "c5_1",
+      "text": "What happened next is best told side by side. What Moscow said out loud — against what the record now shows was true, hour by hour.",
+      "img": "preday",
+      "cap": "What they SAID vs what was TRUE",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c5_2",
+      "text": "Monday, two days later, the navy finally speaks. It says there were, quote, minor technical difficulties. It says the accident happened on Sunday. It happened on Saturday.",
+      "kinetic": {
+        "words": [
+          "SAID:",
+          "\"minor technical",
+          "difficulties.\""
+        ]
+      },
+      "img": "preday",
+      "cap": "SAID: 'minor difficulties' · TRUE: two explosions",
+      "tone": "shock"
+    },
+    {
+      "id": "c5_3",
+      "text": "The navy says it is in radio contact with the crew. There had been no radio contact since Dobro. Not one transmission, before or after the blasts.",
+      "kinetic": {
+        "words": [
+          "SAID:",
+          "\"radio",
+          "contact.\""
+        ]
+      },
+      "img": "pyotr",
+      "cap": "SAID: 'radio contact' · TRUE: none, ever",
+      "tone": "shock"
+    },
+    {
+      "id": "c5_4",
+      "text": "It says air is being pumped down to the survivors. Nothing had ever docked with the wreck. That night, the rescuers were still just filming it.",
+      "kinetic": {
+        "words": [
+          "SAID:",
+          "\"air is being",
+          "supplied.\""
+        ]
+      },
+      "img": "priz",
+      "cap": "SAID: 'air supplied' · TRUE: nothing had docked",
+      "tone": "shock"
+    },
+    {
+      "id": "c5_5",
+      "text": "It says rescuers can hear tapping. An S O S, spelling the word, water. Investigators would later conclude the recorded taps did not come from the Kursk at all. The families dispute that to this day.",
+      "kinetic": {
+        "words": [
+          "SAID:",
+          "\"S-O-S…",
+          "water.\""
+        ]
+      },
+      "img": "priz",
+      "cap": "The tapping's source is contested to this day",
+      "tone": "tension"
+    },
+    {
+      "id": "c5_6",
+      "text": "And the new president, three months into the job, stays on vacation in Sochi. State television shows him hosting a barbecue, roughly a day after his best submarine went silent.",
+      "video": "putinrtr_1.mp4",
+      "cap": "He stayed in Sochi (clip: his Aug 23 interview, kremlin.ru)",
+      "tone": "shock"
+    },
+    {
+      "id": "c5_7",
+      "text": "He would say of it later: I probably should have returned to Moscow. But nothing would have changed.",
+      "kinetic": {
+        "words": [
+          "\"Nothing",
+          "would have",
+          "changed.\""
+        ]
+      },
+      "img": "preday",
+      "cap": "'Nothing would have changed.'",
+      "tone": "melancholy",
+      "extraHold": 10
+    },
+    {
+      "id": "c5_8",
+      "text": "Even the military's own newspaper printed a warning about peroxide torpedoes — and overnight, the piece was replaced with speculation about a foreign collision.",
+      "kinetic": {
+        "words": [
+          "The warning",
+          "vanished",
+          "overnight."
+        ]
+      },
+      "img": "oscar70s",
+      "cap": "The HTP warning that vanished overnight",
+      "tone": "tension"
+    },
+    {
+      "id": "c6",
+      "text": "Chapter six. The rescue that wasn't.",
+      "chapter": "6 — THE RESCUE\nTHAT WASN'T",
+      "img": "priz"
+    },
+    {
+      "id": "c6_1",
+      "text": "The real rescue looked like this. On the second night, the capsule A S thirty four found the wreck — by crashing into it. The impact damaged the capsule.",
+      "img": "priz",
+      "cap": "Night 1 at the wreck: the capsule hits it",
+      "tone": "tension"
+    },
+    {
+      "id": "c6_2",
+      "text": "It tried again and again to lock onto the escape hatch, and failed every time. Batteries died mid-attempt. Crews stripped its sister capsule for parts. Storms shut everything down for hours.",
+      "img": "priz",
+      "cap": "Every docking attempt failed",
+      "tone": "tension"
+    },
+    {
+      "id": "c6_3",
+      "text": "Moscow's explanations are preserved in the Norwegian report. Bad weather. A damaged hatch. And a sixty degree lean of the hull. When the wreck was finally surveyed, the lean measured about one and a half degrees.",
+      "img": "exdsap8",
+      "exhibit": true,
+      "source": "The Kursk Accident · StrålevernRapport 2001:5 (NRPA, 2001), p.8",
+      "highlight": [
+        0.08,
+        0.78,
+        0.4,
+        0.08
+      ],
+      "cap": "SAID: 60° lean · MEASURED: ~1.5°",
+      "tone": "shock",
+      "extraHold": 15
+    },
+    {
+      "id": "c6_4",
+      "text": "Meanwhile, Britain had already loaded this — the L R five rescue submersible — onto a ship, and Norway had deep saturation divers standing by. Six countries offered to help.",
+      "img": "lr5",
+      "cap": "The LR5 was ready. Six countries offered.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c6_5",
+      "text": "Russia said no. Day after day, for five days, while the tapping story ran on television, the offers sat refused.",
+      "kinetic": {
+        "words": [
+          "Five",
+          "days",
+          "of",
+          "\"no.\""
+        ]
+      },
+      "img": "lr5",
+      "cap": "5 days of refusals",
+      "stat": "5 DAYS",
+      "tone": "shock"
+    },
+    {
+      "id": "c6_6",
+      "text": "On August seventeenth, Moscow finally said yes. This ship, the Normand Pioneer, was already steaming north with the L R five aboard. She arrived on the evening of the nineteenth.",
+      "img": "pioneer",
+      "cap": "Aug 17: 'yes.' Aug 19: on scene.",
+      "tone": "tension"
+    },
+    {
+      "id": "c6_7",
+      "text": "Norwegian divers went down from the Seaway Eagle on the twentieth — and reached the hatch Moscow had called too damaged to open.",
+      "video": "barents_1.mp4",
+      "cap": "Aug 20: divers reach the 'damaged' hatch",
+      "tone": "tension"
+    },
+    {
+      "id": "c6_8",
+      "text": "They opened it the next morning, with minimal difficulty. Behind it, compartment nine was flooded to the ceiling. Nine days after the explosions, the rescue was over before it ever began.",
+      "dossier": true,
+      "label": "MORNING · AUGUST 21, 2000",
+      "img": "priz",
+      "cap": "Aug 21: the hatch opens. Compartment 9 is flooded.",
+      "tone": "melancholy",
+      "extraHold": 12
+    },
+    {
+      "id": "c6_9",
+      "text": "That evening, the fleet commander, Admiral Popov, went on television, removed his cap, and asked the mothers of Russia to forgive him for not bringing back their boys.",
+      "kinetic": {
+        "words": [
+          "\"Forgive",
+          "me.\""
+        ]
+      },
+      "img": "pyotr",
+      "cap": "'Forgive me for not bringing back your boys.'",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c6_10",
+      "text": "The British commander who brought the L R five chose his words carefully, years later. Given permission immediately, quote, maybe we could have been attempting a rescue about three days earlier.",
+      "kinetic": {
+        "words": [
+          "\"Maybe…",
+          "three days",
+          "earlier.\""
+        ]
+      },
+      "img": "lr5",
+      "cap": "UK commander: 'maybe… three days earlier'",
+      "tone": "tension",
+      "extraHold": 10
+    },
+    {
+      "id": "c7",
+      "text": "Chapter seven. Vidyayevo.",
+      "chapter": "7 — VIDYAYEVO",
+      "img": "vidyayevo"
+    },
+    {
+      "id": "c7_1",
+      "text": "Through all of it, the families were here. Vidyayevo, the closed garrison town the Kursk called home — being told, day after day, that the men below were breathing.",
+      "img": "vidyayevo",
+      "cap": "The families were told: they're breathing",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c7_2",
+      "text": "At a briefing, Nadezhda Tylik, the mother of a lieutenant on board, stood up screaming at the officials. On camera, a nurse injected her with a sedative, through her coat. She was carried out mid-sentence.",
+      "img": "vidyayevo",
+      "cap": "A grieving mother — sedated on camera",
+      "tone": "shock",
+      "extraHold": 12
+    },
+    {
+      "id": "c7_3",
+      "text": "Her husband said he had asked for it. Months later, she said that was a lie told to protect her. In her words: the injection was done to shut my mouth.",
+      "kinetic": {
+        "words": [
+          "\"…to shut",
+          "my mouth.\""
+        ]
+      },
+      "img": "vidyayevo",
+      "cap": "'The injection was done to shut my mouth.'",
+      "tone": "tension"
+    },
+    {
+      "id": "c7_4",
+      "text": "On August twenty second, the president finally came north. These are the Kremlin's own photographs. Inside the officers' club: four hundred people, a meeting that ran for hours, and a room full of fury.",
+      "img": "vidmeet",
+      "cap": "Aug 22: Putin at Vidyayevo (kremlin.ru photos)",
+      "tone": "tension"
+    },
+    {
+      "id": "c7_5",
+      "text": "Mothers and widows screamed over him. Two journalists smuggled inside heard one question again and again: why have you murdered our lads?",
+      "img": "vidmeet",
+      "cap": "'Why have you murdered our lads?'",
+      "tone": "tension",
+      "extraHold": 10
+    },
+    {
+      "id": "c7_6",
+      "text": "He promised each family ten years of an officer's salary, housing, and education for the children. The state paid. The questions, it never really answered.",
+      "img": "vidmeet",
+      "cap": "The money came. Answers never did.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c7_7",
+      "text": "The next day, he answered questions on state television, calm and controlled. This is that actual interview.",
+      "video": "putinrtr_1.mp4",
+      "cap": "Aug 23: the actual RTR interview (kremlin.ru)",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c7_8",
+      "text": "Two weeks later, on American television, Larry King asked him what happened to the submarine. He paused, gave a small smile, and answered: it sank.",
+      "kinetic": {
+        "words": [
+          "\"It",
+          "sank.\""
+        ]
+      },
+      "img": "putin23aug",
+      "cap": "'It sank.'",
+      "tone": "shock",
+      "extraHold": 15
+    },
+    {
+      "id": "c8",
+      "text": "Chapter eight. Two pages.",
+      "chapter": "8 — TWO PAGES",
+      "img": "murmanskmem"
+    },
+    {
+      "id": "c8_1",
+      "text": "In late October, a joint Norwegian and Russian dive team went back down to the wreck — this time, to bring the men home.",
+      "video": "barents_2.mp4",
+      "cap": "October 2000: the recovery dives",
+      "tone": "tension"
+    },
+    {
+      "id": "c8_2",
+      "text": "Warrant officer Sergei Shmygin was the first man inside. Among the first four bodies raised that day was a captain-lieutenant from the turbine room. In his pocket: two folded, water-soaked pages.",
+      "dossier": true,
+      "label": "OCTOBER 25, 2000 · 108 M DOWN",
+      "img": "artifact",
+      "cap": "In his pocket: two soaked pages",
+      "tone": "tension",
+      "extraHold": 12
+    },
+    {
+      "id": "c8_3",
+      "text": "The first entry is timed one fifteen in the afternoon, written in a steady hand while the emergency lights still worked. All personnel from sections six, seven and eight have moved to section nine. There are twenty three of us here.",
+      "dossier": true,
+      "label": "THE NOTE · RECONSTRUCTION",
+      "img": "artifact",
+      "cap": "13:15 — 'There are 23 of us here.'",
+      "tone": "melancholy",
+      "extraHold": 15
+    },
+    {
+      "id": "c8_4",
+      "text": "The last entry is scrawled blind, in the dark. It is too dark to write here, but I will try by feel. There is no chance — ten to twenty percent. Let's hope that at least someone will read this.",
+      "dossier": true,
+      "label": "THE NOTE · RECONSTRUCTION",
+      "img": "artifact",
+      "cap": "'I will try by feel… let's hope someone reads this.'",
+      "tone": "melancholy",
+      "extraHold": 15
+    },
+    {
+      "id": "c8_5",
+      "text": "Then, for everyone at home. Regards to everybody. No need to despair. And a signature. Kolesnikov.",
+      "dossier": true,
+      "label": "THE LAST LINE",
+      "img": "grave",
+      "cap": "'No need to despair. — Kolesnikov'",
+      "tone": "melancholy",
+      "extraHold": 18
+    },
+    {
+      "id": "c8_6",
+      "text": "Remember what the deputy prime minister had told the world — that almost everyone died before the boat hit the bottom. The note proved twenty three men lived for hours. The official story was dead.",
+      "kinetic": {
+        "words": [
+          "The note",
+          "broke the",
+          "official story."
+        ]
+      },
+      "img": "murmanskmem",
+      "cap": "The note broke the official story",
+      "tone": "shock"
+    },
+    {
+      "id": "c8_7",
+      "text": "Forensics filled in the rest. As the oxygen thinned, a chemical air-regeneration cartridge touched oily water and flash-burned the compartment. Carbon monoxide did the rest. The official finding: they lived six to eight hours at most.",
+      "img": "artifact",
+      "cap": "Official finding: a flash fire, then CO. ≤8 hours.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c8_8",
+      "text": "The families' lawyer spent years arguing the fleet's own logs said otherwise — knocking, recorded from the seafloor into the second day. A military court refused to reopen the case. He fled Russia in two thousand seven.",
+      "kinetic": {
+        "words": [
+          "He argued:",
+          "they lived",
+          "longer."
+        ]
+      },
+      "img": "murmanskmem",
+      "cap": "The families' lawyer now lives in exile",
+      "tone": "tension"
+    },
+    {
+      "id": "c8_9",
+      "text": "A second note came up in November, its author never officially confirmed. It described the gas and the rising pressure. We cannot last more than a day. The men's emergency breathing gear, it noted, was stored forward. Forward was gone.",
+      "img": "grave",
+      "cap": "2nd note: 'We can't last more than a day.'",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c8_10",
+      "text": "Dmitri Kolesnikov was buried in Saint Petersburg. Before sailing, he had left Olga a poem. When the hour comes to die, I want time to whisper one thing. My darling, I love you.",
+      "img": "grave",
+      "cap": "The poem he left her",
+      "tone": "melancholy",
+      "extraHold": 15
+    },
+    {
+      "id": "c8_11",
+      "text": "The navy never gave Olga the other side of his note — the part written only to her. Her words: there is something in that note they don't want me to see.",
+      "kinetic": {
+        "words": [
+          "\"Something they",
+          "don't want",
+          "me to see.\""
+        ]
+      },
+      "img": "grave",
+      "cap": "'Something they don't want me to see.'",
+      "tone": "tension",
+      "extraHold": 12
+    },
+    {
+      "id": "c9",
+      "text": "Chapter nine. The verdict.",
+      "chapter": "9 — THE VERDICT",
+      "img": "drydock"
+    },
+    {
+      "id": "c9_1",
+      "text": "A year later, Dutch salvage engineers did what many called impossible. Twenty six cables, gripped straight through holes cut in the hull, hauled nine thousand tonnes off the seabed in a single pull.",
+      "img": "diagram_lift",
+      "cap": "26 cables. 9,000 tonnes. One pull.",
+      "stat": "9,000 t",
+      "tone": "confidence"
+    },
+    {
+      "id": "c9_2",
+      "text": "They sawed off the shattered bow and left it on the bottom. The rest came up under the barge Giant four — the heaviest object ever recovered from that depth.",
+      "img": "diagram_rig",
+      "cap": "The bow stayed down. The rest came home.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c9_3",
+      "text": "In this dry dock at Roslyakovo, investigators finally walked her decks, and ninety four more men came home. In the end, one hundred fifteen of the one hundred eighteen were recovered. Three never were.",
+      "img": "drydock",
+      "cap": "115 of 118 recovered",
+      "stat": "3 NEVER FOUND",
+      "statColor": "#FF4D4D",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c9_4",
+      "text": "In July two thousand two, the prosecutor general announced the cause. High test peroxide, through a faulty weld, in torpedo tube four. Exactly what the seismographs had said from day one.",
+      "kinetic": {
+        "words": [
+          "Cause:",
+          "the",
+          "torpedo."
+        ]
+      },
+      "img": "drydock",
+      "cap": "Official cause: the HTP torpedo weld",
+      "tone": "confidence"
+    },
+    {
+      "id": "c9_5",
+      "text": "His own report described, quote, stunning breaches of discipline, shoddy, obsolete and poorly maintained equipment. Then the file was classified. One hundred thirty three volumes. The public got four pages.",
+      "kinetic": {
+        "words": [
+          "133 volumes",
+          "classified.",
+          "4 pages",
+          "public."
+        ]
+      },
+      "img": "exdsacover",
+      "cap": "133 volumes classified · 4 pages public",
+      "stat": "133 VOLUMES",
+      "tone": "shock",
+      "extraHold": 12
+    },
+    {
+      "id": "c9_6",
+      "text": "Criminal charges: none. In the prosecutor's words, those who designed the torpedo couldn't foresee the possibility of its explosion. Fourteen admirals and officers were removed — officially, not as punishment.",
+      "kinetic": {
+        "words": [
+          "Charges:",
+          "zero."
+        ]
+      },
+      "img": "drydock",
+      "cap": "Charges: 0 · 'not as punishment'",
+      "stat": "0 CHARGES",
+      "statColor": "#FF4D4D",
+      "tone": "shock"
+    },
+    {
+      "id": "c9_7",
+      "text": "The counter-story never died: a collision with a Nato submarine shadowing the exercise. One admiral called himself eighty percent certain. No evidence was ever produced — and the seismic record shows an explosion, not a collision.",
+      "img": "sizediag",
+      "cap": "The collision theory: zero evidence produced",
+      "tone": "tension"
+    },
+    {
+      "id": "c9_8",
+      "text": "Twenty one years later, the same fleet commander repeated it on state media, saying he could name the Nato submarine with ninety percent probability — while admitting, quote, there is no evidence.",
+      "kinetic": {
+        "words": [
+          "\"90%",
+          "certain…\"",
+          "\"…no",
+          "evidence.\""
+        ]
+      },
+      "img": "sizediag",
+      "cap": "2021: '90% certain… there is no evidence'",
+      "tone": "shock"
+    },
+    {
+      "id": "c10",
+      "text": "Chapter ten. What the lie built.",
+      "chapter": "10 — WHAT THE\nLIE BUILT",
+      "img": "moscowmem"
+    },
+    {
+      "id": "c10_1",
+      "text": "One more thing sank with the Kursk. Russia's biggest television channel, run by the oligarch Boris Berezovsky, had covered the disaster without mercy. The barbecue. The refused help. The sedated mother.",
+      "img": "putin23aug",
+      "cap": "ORT's coverage was merciless",
+      "tone": "tension"
+    },
+    {
+      "id": "c10_2",
+      "text": "The president was furious. Television people, he said, who had destroyed the very army and fleet, were now exploiting this misfortune to gain political capital.",
+      "kinetic": {
+        "words": [
+          "\"…exploiting",
+          "this",
+          "misfortune.\""
+        ]
+      },
+      "img": "moscowmem",
+      "cap": "'…exploiting this misfortune'",
+      "tone": "tension"
+    },
+    {
+      "id": "c10_3",
+      "text": "Within months, Berezovsky was pressured into selling the channel, and his star anchor was taken off the air. Channel One became, in effect, the state's — the first big domino in the takeover of Russian television.",
+      "kinetic": {
+        "words": [
+          "The first",
+          "domino."
+        ]
+      },
+      "img": "murmanskmem",
+      "cap": "ORT → state control: the first domino",
+      "tone": "shock"
+    },
+    {
+      "id": "c10_4",
+      "text": "Twenty five years on, that is how the anniversaries frame this story. Not as an accident — but, in the words of the families' lawyer, as the place where the lies began.",
+      "img": "ceremony",
+      "cap": "'The lies began with the Kursk.'",
+      "tone": "melancholy",
+      "extraHold": 10
+    },
+    {
+      "id": "coda1",
+      "text": "In two thousand nine, a scrap dealer near Murmansk noticed something in his yard. The Kursk's actual sail, cut from the wreck and forgotten. The city raised it as a memorial.",
+      "img": "sail",
+      "cap": "Her real sail — found in a scrapyard",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda2",
+      "text": "It stands there now, above the names of her men. To the sailors, the plaque reads, who died in peacetime.",
+      "img": "plaque",
+      "cap": "'To the sailors who died in peacetime'",
+      "tone": "melancholy",
+      "extraHold": 12
+    },
+    {
+      "id": "coda3",
+      "text": "Machines fail. That's physics, and you can engineer against it. But almost everything that happened after eleven twenty nine that morning was a choice — and twenty three men waited in the dark while those choices were made for them.",
+      "img": "murmanskmem",
+      "cap": "The failure was physics. The rest was chosen.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda4",
+      "text": "The front of Kolesnikov's note has been read around the world. The other side — the part written only to his wife — has never been made public.",
+      "img": "sail",
+      "cap": "The other side has never been made public.",
+      "tone": "melancholy",
+      "extraHold": 15
+    },
+    {
+      "id": "end",
+      "text": "If nine days of official lies got to you, wait until you see the plane that vanished with two hundred thirty nine people on board — and the search that is still empty handed. That breakdown is on the channel now. Subscribe to Black Box Breakdown.",
+      "chapter": "SUBSCRIBE",
+      "img": "sail",
+      "cap": "Watch next: MH370 — the plane the world couldn't find"
+    }
+  ]
+}
