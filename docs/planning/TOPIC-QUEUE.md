@@ -639,8 +639,8 @@ and an informal packaging note: memory `icahn-everest-bodies`. Full
 ctr-engine Run A (titles/thumbnails/asset-licensing probe) not yet run —
 do that before production locks.
 
-## ⭐ IN PRODUCTION — RENDER-READY 2026-08-15 (see docs/planning/KURSK-HANDOFF.md;
-## blocked only on `gcloud auth login`, then ONE GCE render command) —
+## RENDERED 2026-08-15, ready for Akshay's review + upload (see
+## docs/planning/KURSK-HANDOFF.md) —
 ## Kursk submarine disaster (2000), Icahn-validated 2026-08-14
 
 **PASS-WITH-CONDITIONS** (memory `icahn-kursk`), sole survivor of an
@@ -749,3 +749,26 @@ FAIL now (no fresh corroborators, lane farmed to near-zero) but STRONG mission
 currency — **wave-calendar entry: revisit early 2028** (Ramses launch →
 Apr 13, 2029 flyby). Moon Hoax: saturation re-confirmed, Artemis II wave
 crested, landing now Artemis IV/2028 — stays PASS-COND.-queued.
+
+## KILLED at the Icahn gate 2026-08-16 — the "space news aftermath" lane (evidence-backed, do not requeue without new evidence)
+
+Live yt-dlp sweeps (session of 2026-08-16, run for the next-space-video pick):
+- **Hubble falling/deorbit: FAIL.** Zero exact-topic outliers at any bar; fresh
+  copycats dead on arrival (Jul 2026 "NASA Is Running Out of Time to Save
+  Hubble" = 27 views; Feb 2026 "Hubble CRASHING" = 11 views). Demand exists only
+  for generic Hubble-story docs, and those outliers are 2015-stale.
+- **ISS deorbit/USDV: FAIL.** No small-channel pull at all — exact subject fully
+  harvested by mega-channels at sub-1:1 (B1M 2.7M @ 0.7:1, Scott Manley, Astrum).
+  The sweep surfaced our own ISS video (105 views) as corroborating evidence.
+- **Starliner aftermath: FAIL.** Ceiling proven (Dhruv Rathee 16.9M) but zero
+  5:1+ small-channel rows; the Feb 2026 Type-A-mishap report wave lifted
+  incumbents only, all ≤1.0:1. Story emotionally resolved Mar 2025. Also noted:
+  a content-farm cluster of fabricated-Elon-quote Starliner videos pulls real
+  views — NOT a format this channel can copy (fabricated quotes).
+
+Lesson (matches the Fern/neo channel analysis, same session): "space news
+aftermath" framings have ceilings but no small-channel algorithmic pull; the
+transferable winning grammars are character-first manhunt ("How X Found Y"),
+present-tense aftermath of a LEGENDARY object ("what X looks like today"), and
+failure/negative statements anchored on household nouns. Channel-analysis data:
+workflow wf_00b41ec0-135 (Fern/neo/History of the Universe outlier tables).
