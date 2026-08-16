@@ -772,3 +772,25 @@ transferable winning grammars are character-first manhunt ("How X Found Y"),
 present-tense aftermath of a LEGENDARY object ("what X looks like today"), and
 failure/negative statements anchored on household nouns. Channel-analysis data:
 workflow wf_00b41ec0-135 (Fern/neo/History of the Universe outlier tables).
+
+## KILLED at the Icahn gate 2026-08-16 (round 2) + the pivot that emerged
+
+- **Mars Sample Return / stranded samples: KILL.** Fresh field is a graveyard —
+  ≥10 channels ran the exact hook in 2026, ALL dead under 1K views; best-ever
+  on-topic video is 0.9:1 BELOW channel baseline. Currency without pull.
+- **Skylab 1979: PARK until the July 2029 50th-anniversary wave.** Real stale
+  corroborators (46.9:1/24.9:1/10:1) but zero <12mo outliers, ~350K demonstrated
+  ceiling, mega-channels underperform it, fresh copycats dead (19 views ON the
+  anniversary). Reopen only on a news wedge.
+- **Apollo 11 erased tapes: KILL standalone.** SIX small channels ran it in the
+  last 12 months, all dead at 10-1,215 views. At most one chapter inside a
+  moon-hoax-debunk if that topic ever gets its reignition wedge.
+- **Kosmos-482: KILL.** Resolved May-2025 news spike; V101 (1M subs, our exact
+  niche) got 81K on it at the peak. No mystery, no wedge.
+
+**PIVOT SIGNAL → dedicated sweep launched:** the Kosmos sweep's contamination
+rows exposed the real demand engine — **Venera / "the only photos from the
+surface of Venus"**: Fexl 21.1:1 @ 5.46M (Feb 2026, FRESH), SciAm 27.2:1 @
+4.9M (2013 stale monster), V101 5.1:1 @ 5.3M (2022), Mystral ~75K @ 28K subs
+(Jun 2026). Giant-name noun (Venus), superlative-definite-noun grammar (neo),
+melting-Soviet-probes channel DNA. Verdict pending the dedicated sweep.
