@@ -794,3 +794,16 @@ surface of Venus"**: Fexl 21.1:1 @ 5.46M (Feb 2026, FRESH), SciAm 27.2:1 @
 4.9M (2013 stale monster), V101 5.1:1 @ 5.3M (2022), Mystral ~75K @ 28K subs
 (Jun 2026). Giant-name noun (Venus), superlative-definite-noun grammar (neo),
 melting-Soviet-probes channel DNA. Verdict pending the dedicated sweep.
+
+
+## ⭐ NEXT for mindwired — Venera / "The Only Photos Ever Taken on Venus", Icahn-validated 2026-08-16
+
+PASS-WITH-CONDITIONS after the 2026-08-16 space sweep killed 7 rivals with
+evidence. Corroboration exceptional (Fexl 21.1:1 @ 5.46M Feb 2026 FRESH; V101
+5.1:1 @ 5.3M; Space Race 4.6:1 @ 3.89M Dec 2025; ceiling 3.5-7M repeatedly);
+strict fresh small-channel headline unmet → conditions bind: differentiated
+spine (engineering-forensics + attributed Ksanfomaliti anomaly + the LIVE
+FY27 budget-kill wedge), raw/kept Commons files only, JWST-cannot-see-Venus
+guardrail, no Soviet newsreel. Recognition 3/3 via "Venus". Full evidence,
+footage table, locked package: memory `icahn-venera`. Ratios point-in-time —
+recheck if production slips past ~2026-08-30.
