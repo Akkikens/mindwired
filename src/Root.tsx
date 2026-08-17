@@ -106,6 +106,8 @@ import everestbodiesDoc from "./mindwired-doc/docs/everestbodies.json";
 import everestbodiesManifest from "./mindwired-doc/docs/everestbodies.manifest.json";
 import otziDoc from "./mindwired-doc/docs/otzi.json";
 import otziManifest from "./mindwired-doc/docs/otzi.manifest.json";
+import veneraDoc from "./mindwired-doc/docs/venera.json";
+import veneraManifest from "./mindwired-doc/docs/venera.manifest.json";
 import astronautsScaredDoc from "./mindwired-doc/docs/astronautsscared.json";
 import astronautsScaredManifest from "./mindwired-doc/docs/astronautsscared.manifest.json";
 import issInsideDoc from "./mindwired-doc/docs/issinside.json";
@@ -1949,6 +1951,68 @@ export const RemotionRoot: React.FC = () => {
         durationInFrames={mindwiredShortFrames({ startId: "i5", endId: "i8", doc: otziDoc as any, manifest: otziManifest as any })}
         fps={30} width={1080} height={1920}
         defaultProps={{ startId: "i5", endId: "i8", hook: "Dead 5,300 years.\nSomething on him is alive.", slug: "otzi", hookVideo: "labdish_1.mp4", hookFrom: 3, doc: otziDoc as any, manifest: otziManifest as any }}
+      />
+
+      {/* ── mindwired — Venera ("The Only Photos Ever Taken on Venus") —
+             Icahn PASS-COND 2026-08-16 (memory `icahn-venera`); sole survivor
+             of a 9-topic space kill sweep. Spine: engineering-forensics of
+             the Venera program's failure ladder + the attributed 2012
+             Ksanfomaliti "life on Venus" anomaly (debunked, never asserted)
+             + the LIVE FY27 budget wedge (NASA's Venus portfolio killed
+             again, fight unresolved in Congress as of Aug 2026). Real
+             Commons/CC-BY visuals only: the actual Venera 9/10/13/14
+             panoramas, museum lander replicas, Soviet stamps, the 2025 Bank
+             of Russia anniversary coin, NASA SVS Magellan radar footage, and
+             generic NASA hardware-test b-roll (never captioned as archival
+             Venera footage — see public/shorts/venera/video/ATTRIBUTION.md).
+             JWST-cannot-see-Venus guardrail respected throughout; no Soviet
+             newsreel, no Mitchell/Stryk reprocessings. See
+             docs/planning/CLAIMS-venera.md. ── */}
+      <Composition
+        id="VeneraDoc"
+        component={makeDocComp(veneraDoc as any, veneraManifest as any, MW_OUTRO)}
+        durationInFrames={docTotalFrames(veneraDoc as any, veneraManifest as any, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Venera funnel Shorts (4) — trailers for VeneraDoc, cut same-session
+             as the render (Everest lesson applied). Beats: (1) the cold open
+             h1-h5, the wedge tease; (2) Venera 7's Dec 1970 landing + the
+             23-minutes-in-the-noise reveal a7-a10; (3) the 127-minute record
+             + first color/sound c3a-c3d; (4) the Ksanfomaliti debunk d3-d6 —
+             attributed-never-asserted, ends on "never replicated, never
+             confirmed" so the claim is never left unscoped. Hook plates use
+             this episode's own real assets (Magellan flyover, real panoramas,
+             museum replicas). ── */}
+      <Composition
+        id="VeneraShort1"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "h1", endId: "h5", doc: veneraDoc as any, manifest: veneraManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "h1", endId: "h5", hook: "The only photos ever taken\non the surface of Venus.", slug: "venera", hookVideo: "magellanflyover_1.mp4", hookFrom: 2, doc: veneraDoc as any, manifest: veneraManifest as any }}
+      />
+      <Composition
+        id="VeneraShort2"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "a7", endId: "a10", doc: veneraDoc as any, manifest: veneraManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "a7", endId: "a10", hook: "It went silent.\nThen someone found 23 more minutes.", slug: "venera", hookVideo: "magellanflyover_2.mp4", hookFrom: 2, doc: veneraDoc as any, manifest: veneraManifest as any }}
+      />
+      <Composition
+        id="VeneraShort3"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "c3a", endId: "c3d", doc: veneraDoc as any, manifest: veneraManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "c3a", endId: "c3d", hook: "Built to survive 32 minutes.\nIt lasted 127.", slug: "venera", hookVideo: "magellanflyover_1.mp4", hookFrom: 6, doc: veneraDoc as any, manifest: veneraManifest as any }}
+      />
+      <Composition
+        id="VeneraShort4"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "d3", endId: "d6", doc: veneraDoc as any, manifest: veneraManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "d3", endId: "d6", hook: "A scientist said something\nin these photos was alive.", slug: "venera", hookVideo: "magellanflyover_2.mp4", hookFrom: 4, doc: veneraDoc as any, manifest: veneraManifest as any }}
       />
 
       {/* ── Yellowstone funnel Shorts (4) — the real cold-open explosion, the
