@@ -182,3 +182,10 @@ Format per entry:
   access for the owed diagnoses (everestbodies ~48h; yellowstone /
   deepwaterhorizon / ic814kandahar; the per-Short Reach-tab pull). All remain
   owed before the next publish.
+- BLOCKED-ON-DATA 2026-08-16 · channel-wide · mindwired next-topic icahn sweep
+  (this session, post-Venera/Ötzi) proceeds under Step 0's escape hatch: no
+  Studio/browser access for the owed diagnoses (kursk PUBLISHED per Akshay
+  confirmation this session — diagnosis still owed; otzi/venera not yet
+  published so no diagnosis due yet). Everestbodies/yellowstone/
+  deepwaterhorizon/ic814kandahar diagnoses from prior sessions also remain
+  owed. All still owed before the channel's next publish-plus-48h checkpoint.

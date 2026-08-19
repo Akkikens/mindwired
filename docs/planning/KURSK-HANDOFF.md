@@ -1,43 +1,34 @@
 # KURSK — production handoff (2026-08-15)
 
-**STATUS: RENDER-READY. Everything is built and gated; the ONE 4K render is
-blocked ONLY on `gcloud auth login` (interactive — Akshay must run it).**
+**STATUS: PUBLISHED.** Master mp4 no longer on local disk (already uploaded
+and cleared) — `.srt` remains at repo root for reference. Add the real
+YouTube URL to `mindwired-published-urls` memory and this file once handy.
 
-## The one command chain left
+Final files at repo root:
+- `Russia Said They Died Instantly. They Didn't..mp4` — 3840×2160, 1150.3s
+  (19:10, includes baked-in BB outro), **−14.2 LUFS** (master log confirmed)
+- `Russia Said They Died Instantly. They Didn't..srt` — whisper-generated,
+  338 speech cues, word-accurate off the actual master (not the offline
+  estimate), speech runs to 19:09.75
 
-```bash
-gcloud auth login   # Akshay, interactive — creds expired 2026-08-15
-```
+Verification done: 3 stills pulled and eyeballed (cold open — real Oscar-II
+sister-ship footage; mid-body c6_1 — the real Priz photo, dossier caption
+correct; outro splice — Reid/@Watch-BlackBox subscribe card present and
+clean). GCE VM auto-deleted after fetch, no leftover billing. Render log:
+`out/kursk_gce_launch.log`.
 
-then:
+## What's left (in order)
 
-```bash
-nohup scripts/render_gce.sh KurskDoc kursk \
-  --music public/beds/bed_tension_rud.mp3 --windows kursk --music-gain-db -20 \
-  > out/kursk_gce_launch.log 2>&1 &
-until grep -q '\[gce\] done ->' out/kursk_gce_launch.log; do sleep 180; done
-```
-
-(Windowed bed per the long-doc music rule; bed_tension_rud rotates off Costa
-Concordia's falsevacuum. GCE is on-demand, never spot — memory
-`gce-renders-ondemand`; scp flake recovery instructions print in the log.)
-
-## After the render (in order)
-
-1. Verify: ffprobe duration ≈ **1139s** (34,028 body frames + 483 outro ÷ 30 —
-   confirm against the render log's frame count), 3840×2160, −14 LUFS line in
-   the log; extract + LOOK at a mid frame and an outro frame.
-2. `.venv-agent/bin/python3 scripts/whisper_srt.py out/kursk_gce.mp4 --out "Russia Said They Died Instantly. They Didn't..srt"`
-   (replaces the offline `mindwired_kursk.srt`; eyeball first ~5 cues).
-3. Rename master to `Russia Said They Died Instantly. They Didn't..mp4` at repo
-   root (mp4-filename-is-title).
-4. Upload per `docs/metadata/METADATA-kursk.md` (3 thumbnails → Test & Compare,
-   single-video end screen, pinned comment, description with the CC-BY credit
-   block — the credits are a LICENSE REQUIREMENT, not optional).
-5. shorts-funnel: cut 3-4 trailer Shorts (suggested windows: the seismogram
+1. **Akshay: listen to the VO ear-check sample** (sent earlier,
+   `out/qa/kursk_vo_sample.mp3`) and review the 3 thumbnails
+   (`out/thumbs/kursk_A/B/C.png`) if not already done.
+2. Upload per `docs/metadata/METADATA-kursk.md` (3 thumbnails → Test &
+   Compare, single-video end screen, pinned comment, description with the
+   CC-BY credit block — the credits are a LICENSE REQUIREMENT, not optional).
+3. shorts-funnel: cut 3-4 trailer Shorts (suggested windows: the seismogram
    cold-open beat; the SAID-vs-TRUE receipts run c5_2-c5_5; the 60°-lean
    exhibit c6_3-c6_8; the note beats c8_2-c8_6) → SHORTS-SCHEDULE-kursk.md.
-6. 48h launch-diagnosis → LAUNCH-LESSONS.md.
+4. 48h launch-diagnosis → LAUNCH-LESSONS.md after publish.
 
 ## What's done (all gates green)
 

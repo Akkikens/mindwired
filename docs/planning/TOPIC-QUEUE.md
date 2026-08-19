@@ -807,3 +807,23 @@ FY27 budget-kill wedge), raw/kept Commons files only, JWST-cannot-see-Venus
 guardrail, no Soviet newsreel. Recognition 3/3 via "Venus". Full evidence,
 footage table, locked package: memory `icahn-venera`. Ratios point-in-time —
 recheck if production slips past ~2026-08-30.
+
+## ⭐ NEXT for Criminal Record — Carla Walker / Glen McCurley cold case, Icahn-validated 2026-08-16
+
+Surfaced via a mindwired discovery sweep (genetic-genealogy-cold-case niche),
+redirected to Criminal Record per its actual mandate (Akshay confirmed).
+Niche-level: headline 167:1 @ 833K (Nexcrime, adjacent case), Othram's own
+video on THIS exact case 26.6:1 @ 1.33M, multi-channel corroboration, huge
+fresh-2026 cluster. Case picked over 3 sweep-adjacent alternatives (Michelle
+Martinko — too generic; Colorado 1984/Bennett — living child survivor,
+usable but higher-care; Tonya McKinley — suspect died pre-trial, unconvicted,
+KILLED for presumption-of-innocence risk).
+
+The case: Carla Walker, 17, abducted/murdered Fort Worth TX Feb 1974. Glen
+McCurley was a NAMED SUSPECT INTERVIEWED AND CLEARED in 1974 — sat in the
+file for 47 years until Othram's DNA genealogy work reopened it in 2020.
+Arrested Sept 2020, pled guilty mid-trial 2021, died in prison Jul 2023.
+Fully closed, no living-victim sensitivity, real Tarrant County court docket
+as the primary exhibit. Condition: do NOT clone the farmed "[age]-year-old
+man has no idea" title template — differentiate on the cleared-suspect angle.
+Full case research + rejected alternatives: memory `icahn-carlawalker`.
