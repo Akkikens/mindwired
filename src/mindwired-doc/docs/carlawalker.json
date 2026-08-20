@@ -1,0 +1,356 @@
+{
+  "slug": "carlawalker",
+  "title": "The Killer Was in the File the Whole Time",
+  "channel": "criminalrecord",
+  "niche": "history",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "March, nineteen seventy four. Fort Worth, Texas. Detectives sit down across from a twenty seven year old man named Glen McCurley.",
+      "img": "citymap"
+    },
+    {
+      "id": "h2",
+      "text": "They ask him about a gun. A three twenty two Ruger pistol, the same model as a magazine dropped at a murder scene two weeks earlier.",
+      "img": "citymap",
+      "stat": "47 YEARS"
+    },
+    {
+      "id": "h3",
+      "text": "He says it was stolen from his truck. He agrees to a polygraph. He passes it.",
+      "img": "mugshot"
+    },
+    {
+      "id": "h4",
+      "text": "Detectives cross his name off the list. The file goes cold.",
+      "img": "citymap"
+    },
+    {
+      "id": "h5",
+      "text": "It would stay cold for forty six years, seven months, and no one would look at his name again, until a laboratory did it for them.",
+      "img": "citymap"
+    },
+    {
+      "id": "sting",
+      "sting": true,
+      "text": "You're watching Criminal Record.",
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "text": "This is the murder of Carla Walker. And the record of a man the police already had, and let go.",
+      "chapter": "THE KILLER WAS IN THE FILE\nTHE WHOLE TIME",
+      "img": "citymap"
+    },
+    {
+      "id": "c1",
+      "text": "Chapter one. The parking lot.",
+      "chapter": "CHAPTER ONE\nTHE PARKING LOT",
+      "img": "citymap"
+    },
+    {
+      "id": "a1",
+      "text": "February seventeenth, nineteen seventy four. Seventeen year old Carla Walker, a cheerleader at Western Hills High School, goes to a dance with her boyfriend, Rodney McCoy.",
+      "img": "citymap",
+      "cap": "Feb 17, 1974. Fort Worth, Texas.",
+      "tone": "tension"
+    },
+    {
+      "id": "a2",
+      "text": "Afterward, the two of them sit in his car in the parking lot of the Brunswick Ridglea Bowl, a bowling alley on the west side of the city.",
+      "img": "citymap",
+      "cap": "Brunswick Ridglea Bowl, Fort Worth.",
+      "tone": "tension"
+    },
+    {
+      "id": "a3",
+      "text": "A man forces the car door open. He beats Rodney unconscious with a pistol. Carla screams. He drags her out of the car and disappears into the dark with her.",
+      "img": "citymap",
+      "cap": "Forced entry. Abduction.",
+      "tone": "shock"
+    },
+    {
+      "id": "a4",
+      "text": "At the scene, police recover two things. Carla's purse. And a magazine, dropped from the attacker's gun.",
+      "img": "citymap",
+      "cap": "Evidence recovered: a purse. A gun magazine.",
+      "tone": "tension"
+    },
+    {
+      "id": "a5",
+      "text": "Three days later, on February twentieth, Carla Walker's body is found in a drainage culvert near Lake Benbrook, roughly thirty minutes south of the city. The record states she survived approximately two days after the abduction, and that the cause of death was strangulation.",
+      "img": "citymap",
+      "cap": "Feb 20, 1974: found near Lake Benbrook.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c2",
+      "text": "Chapter two. The interview.",
+      "chapter": "CHAPTER TWO\nTHE INTERVIEW",
+      "img": "mugshot"
+    },
+    {
+      "id": "b1",
+      "text": "The dropped magazine becomes the case's one real lead. It fits a specific model, a point two two caliber Ruger pistol.",
+      "img": "citymap",
+      "cap": "The lead: a .22 Ruger magazine.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b2",
+      "text": "In early March, detectives find a man nearby who owns that exact gun. His name is Glen Samuel McCurley. He is twenty seven years old.",
+      "img": "citymap",
+      "query": "Glen McCurley Tarrant County booking photo",
+      "cap": "Glen Samuel McCurley, age 27, interviewed.",
+      "tone": "tension"
+    },
+    {
+      "id": "b3",
+      "text": "They bring him in. McCurley tells them the gun was stolen out of his truck about six weeks earlier, while he was out fishing. He says he never reported it, because he was an ex convict, and didn't think police would believe him.",
+      "img": "mugshot",
+      "cap": "\"It was stolen. I didn't report it.\"",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b4",
+      "text": "Detectives note something else. McCurley was off work on the night of the seventeenth. And his wife was out of town.",
+      "img": "mugshot",
+      "cap": "Off work that night. Wife out of town.",
+      "tone": "tension"
+    },
+    {
+      "id": "b5",
+      "text": "Then they ask him to take a polygraph test, downtown, on the record. He agrees. He sits for it. And he passes.",
+      "img": "mugshot",
+      "cap": "He agreed to a polygraph. He passed.",
+      "tone": "shock"
+    },
+    {
+      "id": "b6",
+      "text": "On the strength of that single test, the task force removes Glen McCurley from its list of suspects. His name goes back into the file. And the file goes cold.",
+      "img": "mugshot",
+      "cap": "Cleared. Filed away.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c3",
+      "text": "Chapter three. Forty six years.",
+      "chapter": "CHAPTER THREE\nFORTY SIX YEARS",
+      "img": "citymap"
+    },
+    {
+      "id": "c3a",
+      "text": "No further investigative contact with Glen McCurley is documented anywhere in the public record between that polygraph in March nineteen seventy four, and the year twenty twenty.",
+      "img": "citymap",
+      "cap": "1974 → 2020: no further contact.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c3b",
+      "text": "Carla Walker's case sits, unsolved, in Fort Worth's cold case files, for close to half a century. Her family ages. Investigators retire. The physical evidence, including that decades old gun magazine, waits in storage.",
+      "img": "citymap",
+      "cap": "Nearly 50 years. Unsolved.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c4",
+      "text": "Chapter four. The lab.",
+      "chapter": "CHAPTER FOUR\nTHE LAB",
+      "img": "dna",
+      "query": "forensic dna laboratory genetic sequencing"
+    },
+    {
+      "id": "d1",
+      "text": "In two thousand nineteen, Fort Worth police send DNA recovered from Carla Walker's clothing, decades earlier, to a private forensic laboratory in Texas called Othram.",
+      "img": "dna",
+      "cap": "2019: DNA sent to Othram, a Texas forensic lab.",
+      "tone": "confidence"
+    },
+    {
+      "id": "d2",
+      "text": "Othram specializes in a method called forensic genetic genealogy. It rebuilds a usable genetic profile from degraded, decades old evidence, then searches public genealogy databases for distant relatives of whoever that profile belongs to.",
+      "img": "dna",
+      "cap": "Forensic genetic genealogy: DNA + public family trees.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d3",
+      "text": "From that degraded sample, Othram's team builds a family tree. It leads them, branch by branch, toward one family, in one city. Fort Worth.",
+      "img": "dna",
+      "cap": "A family tree, built from one old sample.",
+      "tone": "tension"
+    },
+    {
+      "id": "d4",
+      "text": "On September fourth, twenty twenty, investigators quietly collect a discarded item from outside a house. Its DNA is a familial match.",
+      "img": "mugshot",
+      "cap": "Sept 4, 2020: a familial match.",
+      "tone": "shock"
+    },
+    {
+      "id": "d5",
+      "text": "Twelve days later, on September sixteenth, they obtain DNA directly connected to that same house, and compare it to the profile recovered from Carla Walker's clothing in nineteen seventy four.",
+      "img": "mugshot",
+      "cap": "Sept 16, 2020: direct comparison.",
+      "tone": "tension"
+    },
+    {
+      "id": "d6",
+      "text": "It is a match. The house belongs to Glen Samuel McCurley. The same man detectives interviewed, and cleared, forty six years earlier.",
+      "kinetic": {
+        "words": [
+          "A",
+          "match.",
+          "Same",
+          "man.",
+          "1974."
+        ]
+      },
+      "img": "mugshot",
+      "extraHold": 12,
+      "cap": "The same man. Cleared in 1974.",
+      "tone": "shock"
+    },
+    {
+      "id": "c5",
+      "text": "Chapter five. The arrest.",
+      "chapter": "CHAPTER FIVE\nTHE ARREST",
+      "img": "mugshot"
+    },
+    {
+      "id": "e1",
+      "text": "On September twenty first, twenty twenty, Fort Worth Police arrest Glen Samuel McCurley Junior, now seventy seven years old, and charge him with capital murder.",
+      "img": "mugshot",
+      "cap": "Sept 21, 2020: arrested, age 77.",
+      "tone": "shock"
+    },
+    {
+      "id": "e2",
+      "text": "Forty six years, seven months, and a handful of days had passed since a detective wrote his name in a file and closed it.",
+      "img": "citymap",
+      "cap": "46 years, 7 months since he was cleared.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e3",
+      "text": "By multiple accounts, when confronted with the DNA evidence, McCurley confesses.",
+      "img": "mugshot",
+      "cap": "Confronted with the DNA. He confessed.",
+      "tone": "tension"
+    },
+    {
+      "id": "e4",
+      "text": "In May of twenty twenty one, prosecutors announce they will not seek the death penalty. McCurley is seventy eight years old by the time his case reaches trial.",
+      "img": "courthouse",
+      "query": "Tarrant County Courthouse Fort Worth Texas",
+      "cap": "May 2021: death penalty off the table.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c6",
+      "text": "Chapter six. The plea.",
+      "chapter": "CHAPTER SIX\nTHE PLEA",
+      "img": "courtroom",
+      "query": "courtroom trial guilty plea judge"
+    },
+    {
+      "id": "f1",
+      "text": "McCurley's capital murder trial opens August twentieth, twenty twenty one, at the Tim Curry Criminal Justice Center in Fort Worth, before State District Judge Elizabeth Beach.",
+      "img": "courthouse",
+      "cap": "Aug 20, 2021. Judge Elizabeth Beach presiding.",
+      "tone": "tension"
+    },
+    {
+      "id": "f2",
+      "text": "On the third day of trial, August twenty fourth, McCurley withdraws his not guilty plea. In open court, he pleads guilty to the capital murder of Carla Walker.",
+      "img": "courtroom",
+      "cap": "\"Guilty.\" Third day of trial. (Illustrative courtroom image.)",
+      "tone": "shock",
+      "query": null
+    },
+    {
+      "id": "f3",
+      "text": "Because prosecutors were not seeking death, the plea triggers an automatic sentence. Judge Beach sentences him, on the spot, to life in prison without parole.",
+      "img": "courtroom",
+      "cap": "Automatic sentence: life without parole.",
+      "tone": "confidence"
+    },
+    {
+      "id": "f4",
+      "text": "McCurley later appealed, challenging the DNA evidence and his own statements to police. The Second Court of Appeals reviewed every argument, and affirmed his conviction in full.",
+      "img": "courthouse",
+      "cap": "Appeal filed. Conviction affirmed.",
+      "tone": "confidence"
+    },
+    {
+      "id": "c7",
+      "text": "Chapter seven. The record afterward.",
+      "chapter": "CHAPTER SEVEN\nTHE RECORD AFTERWARD",
+      "img": "mugshot"
+    },
+    {
+      "id": "g1",
+      "text": "At sentencing, Carla's sister addressed McCurley directly, telling him he had put the family through hell, and that he should confess to any other crimes, for the sake of other families.",
+      "img": "mugshot",
+      "cap": "A sister's statement, at sentencing.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "g2",
+      "text": "Her brother, Jim Walker, spoke too. We did our job to get Carla's perpetrator caught and brought to justice, he said. And it worked out the way it probably should have worked out.",
+      "img": "mugshot",
+      "cap": "\"It worked out the way it probably should have.\" — Jim Walker",
+      "tone": "melancholy"
+    },
+    {
+      "id": "g3",
+      "text": "Glen Samuel McCurley died in prison on July fifteenth, twenty twenty three, less than two years into his sentence.",
+      "img": "mugshot",
+      "cap": "Died in custody, July 15, 2023.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "g4",
+      "text": "The case now carries a second legacy. Federal legislation named the Carla Walker Act, introduced by Senators Cornyn and Welch, proposes funding forensic genetic genealogy testing for other cold cases nationwide, using her name.",
+      "img": "citymap",
+      "cap": "The Carla Walker Act — proposed federal legislation.",
+      "tone": "confidence"
+    },
+    {
+      "id": "coda1",
+      "text": "Here is what the record actually shows, stripped of everything else. In nineteen seventy four, a detective sat across from the man who did it, asked him the right question, and let a machine decide the answer.",
+      "img": "mugshot",
+      "cap": "The right man. The wrong test.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda2",
+      "text": "The gun magazine that named him sat in an evidence room for decades, waiting for a technology that didn't exist yet to catch up to a mistake that already had.",
+      "img": "citymap",
+      "cap": "The evidence waited. Technology caught up.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda3",
+      "text": "His name was never lost. It was never even really hidden. It was simply written down, in nineteen seventy four, and nobody opened the file again for forty six years.",
+      "img": "mugshot",
+      "cap": "His name was in the file the whole time.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "bridge",
+      "text": "If a name sitting quietly in a cold case file got to you, wait until you see the case where the record's own timeline breaks the official story apart, minute by minute. That full case file is on this channel.",
+      "img": "citymap",
+      "cap": "Watch next on Criminal Record.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "end",
+      "text": "Subscribe to Criminal Record.",
+      "chapter": "SUBSCRIBE",
+      "img": "citymap"
+    }
+  ]
+}

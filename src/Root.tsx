@@ -108,6 +108,10 @@ import otziDoc from "./mindwired-doc/docs/otzi.json";
 import otziManifest from "./mindwired-doc/docs/otzi.manifest.json";
 import veneraDoc from "./mindwired-doc/docs/venera.json";
 import veneraManifest from "./mindwired-doc/docs/venera.manifest.json";
+import carlaWalkerDoc from "./mindwired-doc/docs/carlawalker.json";
+import carlaWalkerManifest from "./mindwired-doc/docs/carlawalker.manifest.json";
+import dbCooperDoc from "./mindwired-doc/docs/dbcooper.json";
+import dbCooperManifest from "./mindwired-doc/docs/dbcooper.manifest.json";
 import astronautsScaredDoc from "./mindwired-doc/docs/astronautsscared.json";
 import astronautsScaredManifest from "./mindwired-doc/docs/astronautsscared.manifest.json";
 import issInsideDoc from "./mindwired-doc/docs/issinside.json";
@@ -2013,6 +2017,116 @@ export const RemotionRoot: React.FC = () => {
         durationInFrames={mindwiredShortFrames({ startId: "d3", endId: "d6", doc: veneraDoc as any, manifest: veneraManifest as any })}
         fps={30} width={1080} height={1920}
         defaultProps={{ startId: "d3", endId: "d6", hook: "A scientist said something\nin these photos was alive.", slug: "venera", hookVideo: "magellanflyover_2.mp4", hookFrom: 4, doc: veneraDoc as any, manifest: veneraManifest as any }}
+      />
+
+      {/* ── Criminal Record — Carla Walker / Glen McCurley ("The Killer Was
+             in the File the Whole Time") — Icahn PASS 2026-08-16 (memory
+             icahn-carlawalker). Fort Worth, 1974: McCurley was interviewed,
+             passed a polygraph, and was cleared — Othram's forensic genetic
+             genealogy matched him in 2020, 46 years 7 months later. Fully
+             adjudicated (guilty plea 2021, died in custody 2023) — zero
+             living-suspect sensitivity. Real assets only: his actual 2020
+             booking photo (news-syndicated, public record), real Fort Worth
+             courthouse/courtroom Commons photos — no crime reconstruction,
+             no AI depiction, no victim photo (house ban, confirmed excluded
+             despite wide press availability). See CLAIMS-carlawalker.md. ── */}
+      <Composition
+        id="CarlaWalkerDoc"
+        component={makeDocComp(carlaWalkerDoc as any, carlaWalkerManifest as any, CR_OUTRO)}
+        durationInFrames={docTotalFrames(carlaWalkerDoc as any, carlaWalkerManifest as any, CR_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Black Box Breakdown — D.B. Cooper ("The Only Unsolved Hijacking
+             in American History") — Icahn KILLED 2026-08-16 (saturated, no
+             fresh outlier), PRODUCED ANYWAY per Akshay's explicit override
+             (memory icahn-dbcooper). HARD RULE: case is formally unsolved —
+             FBI suspended active investigation July 2016, never confirmed
+             any suspect. Every theory (McCoy, Christiansen, Weber, Rackstraw,
+             Dayton, Peterson, L.D. Cooper) stays attributed-never-asserted;
+             the 2026 "DNA confirms identity" clickbait claim is explicitly
+             named and refuted in-script (scene e4), never treated as real.
+             Real assets: the actual FBI composite sketches, the real 1980
+             Tena Bar recovered-ransom photo, a real Northwest Orient 727 +
+             its real rear-airstair mechanism (Commons, CC BY 2.5/GFDL). No
+             real ATC audio survives — none claimed. See CLAIMS-dbcooper.md. ── */}
+      <Composition
+        id="DbCooperDoc"
+        component={makeDocComp(dbCooperDoc as any, dbCooperManifest as any, BB_OUTRO)}
+        durationInFrames={docTotalFrames(dbCooperDoc as any, dbCooperManifest as any, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Carla Walker funnel Shorts (4) — trailers for CarlaWalkerDoc, cut
+             same-session (Everest lesson applied). Beats: (1) the cold open
+             h1-h5; (2) the 1974 interview + polygraph b2-b6; (3) the DNA
+             match reveal d3-d6; (4) the arrest + plea f1-f4. Real assets
+             only (his actual booking photo, real courthouse). ── */}
+      <Composition
+        id="CarlaWalkerShort1"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "h1", endId: "h5", doc: carlaWalkerDoc as any, manifest: carlaWalkerManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "h1", endId: "h5", hook: "He was interviewed in 1974.\nHe passed a polygraph.", slug: "carlawalker", doc: carlaWalkerDoc as any, manifest: carlaWalkerManifest as any }}
+      />
+      <Composition
+        id="CarlaWalkerShort2"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "b2", endId: "b6", doc: carlaWalkerDoc as any, manifest: carlaWalkerManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "b2", endId: "b6", hook: "The gun matched.\nThey cleared him anyway.", slug: "carlawalker", doc: carlaWalkerDoc as any, manifest: carlaWalkerManifest as any }}
+      />
+      <Composition
+        id="CarlaWalkerShort3"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "d3", endId: "d6", doc: carlaWalkerDoc as any, manifest: carlaWalkerManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "d3", endId: "d6", hook: "46 years later,\nthe DNA came back.", slug: "carlawalker", doc: carlaWalkerDoc as any, manifest: carlaWalkerManifest as any }}
+      />
+      <Composition
+        id="CarlaWalkerShort4"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "f1", endId: "f4", doc: carlaWalkerDoc as any, manifest: carlaWalkerManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "f1", endId: "f4", hook: "Third day of trial.\nHe pled guilty.", slug: "carlawalker", doc: carlaWalkerDoc as any, manifest: carlaWalkerManifest as any }}
+      />
+
+      {/* ── D.B. Cooper funnel Shorts (4) — trailers for DbCooperDoc, cut
+             same-session. Beats: (1) the cold open h1-h5; (2) the hijacking
+             itself a1-a4; (3) the only recovered evidence c3a-c3d; (4) three
+             of the seven suspect theories d2-d4. Never claims the case is
+             solved — every Short stays inside the attributed-theory frame. ── */}
+      <Composition
+        id="DbCooperShort1"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "h1", endId: "h5", doc: dbCooperDoc as any, manifest: dbCooperManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "h1", endId: "h5", hook: "He jumped from a plane\nwith $200,000. Alone.", slug: "dbcooper", doc: dbCooperDoc as any, manifest: dbCooperManifest as any }}
+      />
+      <Composition
+        id="DbCooperShort2"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "a1", endId: "a4", doc: dbCooperDoc as any, manifest: dbCooperManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "a1", endId: "a4", hook: "\"I have a bomb.\"", slug: "dbcooper", doc: dbCooperDoc as any, manifest: dbCooperManifest as any }}
+      />
+      <Composition
+        id="DbCooperShort3"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "c3a", endId: "c3d", doc: dbCooperDoc as any, manifest: dbCooperManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "c3a", endId: "c3d", hook: "A boy found $5,800\nof the ransom. In 1980.", slug: "dbcooper", doc: dbCooperDoc as any, manifest: dbCooperManifest as any }}
+      />
+      <Composition
+        id="DbCooperShort4"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "d2", endId: "d4", doc: dbCooperDoc as any, manifest: dbCooperManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "d2", endId: "d4", hook: "7 suspects. 0 confirmed\nby the FBI.", slug: "dbcooper", doc: dbCooperDoc as any, manifest: dbCooperManifest as any }}
       />
 
       {/* ── Yellowstone funnel Shorts (4) — the real cold-open explosion, the

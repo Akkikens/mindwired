@@ -1,0 +1,323 @@
+{
+  "slug": "dbcooper",
+  "title": "The Only Unsolved Hijacking in American History",
+  "channel": "blackbox",
+  "niche": "aviation",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "November twenty fourth, nineteen seventy one. A Boeing seven two seven, Northwest Orient Flight three oh five, taxis for takeoff in Portland, Oregon.",
+      "video": "b727_1.mp4",
+      "videoQuery": "boeing 727 airliner taxi takeoff vintage",
+      "cap": "Nov 24, 1971. Portland, Oregon.",
+      "stat": "$200,000",
+      "tone": "tension"
+    },
+    {
+      "id": "h2",
+      "text": "In seat eighteen C sits a calm man in a dark suit, who bought his ticket in cash under the name Dan Cooper.",
+      "video": "b727_1.mp4",
+      "videoQuery": "boeing 727 airliner interior cabin vintage",
+      "cap": "\"Dan Cooper.\" Paid cash.",
+      "tone": "tension"
+    },
+    {
+      "id": "h3",
+      "text": "Within the hour, he will hand a flight attendant a note claiming a bomb, demand two hundred thousand dollars and four parachutes, and calmly wait for both.",
+      "video": "b727_3.mp4",
+      "videoQuery": "boeing 727 airliner interior cabin vintage",
+      "cap": "A bomb claim. $200,000. 4 parachutes.",
+      "tone": "shock"
+    },
+    {
+      "id": "h4",
+      "text": "Then, somewhere over the forests of southwest Washington, he will walk to the back of the plane, lower the rear stairs, and jump out into the night. Alone.",
+      "video": "b727_3.mp4",
+      "videoQuery": "aircraft flying night clouds aerial",
+      "cap": "He jumped. Alone. Into the dark.",
+      "tone": "shock"
+    },
+    {
+      "id": "h5",
+      "text": "He was never seen again. Of every hijacking in American commercial aviation history, this is the only one that was never solved.",
+      "video": "forest_2.mp4",
+      "videoQuery": "pacific northwest forest aerial washington state",
+      "cap": "The only unsolved hijacking in U.S. history.",
+      "tone": "confidence"
+    },
+    {
+      "id": "sting",
+      "sting": true,
+      "text": "You're watching Black Box Breakdown.",
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "text": "This is the real case file on D.B. Cooper. The evidence, the seven men once suspected, and the FBI's own final word on all of it.",
+      "chapter": "THE ONLY UNSOLVED HIJACKING\nIN AMERICAN HISTORY",
+      "img": "sketch",
+      "query": "FBI composite sketch D.B. Cooper"
+    },
+    {
+      "id": "c1",
+      "text": "Chapter one. Thanksgiving eve.",
+      "chapter": "CHAPTER ONE\nTHANKSGIVING EVE",
+      "img": "sketch"
+    },
+    {
+      "id": "a1",
+      "text": "Crew describe him as a white man in his mid forties, five foot ten to six feet, dark hair, brown eyes. Dark suit, white shirt, black clip on tie, raincoat. He orders a bourbon and soda before takeoff, and pays for it.",
+      "img": "sketch",
+      "cap": "Mid-40s. Dark suit. Calm.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2",
+      "text": "Shortly after takeoff, he passes a note to flight attendant Florence Schaffner. She pockets it, unread, assuming it's a phone number. He leans in. Miss, he says, you'd better look at that note. I have a bomb.",
+      "img": "sketch",
+      "cap": "\"I have a bomb.\"",
+      "tone": "tension"
+    },
+    {
+      "id": "a3",
+      "text": "He opens his briefcase just enough for her to see it. A cylindrical shape, wired to red cylinders. Whether it was ever a real explosive, no one would ever be able to confirm.",
+      "img": "sketch",
+      "cap": "The bomb was never recovered. Never confirmed.",
+      "tone": "tension"
+    },
+    {
+      "id": "a4",
+      "text": "His demands are exact. Two hundred thousand dollars, in unmarked twenty dollar bills. Four parachutes. Delivered the moment the plane lands.",
+      "kinetic": {
+        "words": [
+          "$200,000.",
+          "4",
+          "parachutes."
+        ]
+      },
+      "img": "sketch",
+      "extraHold": 10,
+      "cap": "$200,000. 4 parachutes.",
+      "tone": "shock"
+    },
+    {
+      "id": "a5",
+      "text": "Flight three oh five lands at Seattle Tacoma at five forty six in the evening. The airline pays the ransom, in full, on the tarmac. All thirty six passengers are released.",
+      "video": "airport_1.mp4",
+      "videoQuery": "seattle tacoma airport tarmac 1970s vintage",
+      "cap": "5:46 p.m. Ransom paid. Passengers released.",
+      "tone": "tension"
+    },
+    {
+      "id": "c2",
+      "text": "Chapter two. The jump.",
+      "chapter": "CHAPTER TWO\nTHE JUMP",
+      "img": "airstair",
+      "query": "boeing 727 rear airstair door"
+    },
+    {
+      "id": "b1",
+      "text": "Only Cooper, flight attendant Tina Mucklow, and three cockpit crew remain aboard when the plane takes off again, bound for Reno. Cooper has one final demand. Fly low. Below ten thousand feet. Flaps down. Landing gear down.",
+      "img": "airstair",
+      "cap": "Low altitude. Gear down. Flaps down.",
+      "tone": "tension"
+    },
+    {
+      "id": "b2",
+      "text": "He orders the rear airstair of the seven two seven left unlocked, usable in flight, a feature almost no one outside the airline industry knew existed.",
+      "img": "airstair",
+      "cap": "The rear airstair — a feature few people knew existed.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b3",
+      "text": "Tina Mucklow later described him this way. He wasn't nervous. He seemed rather nice. He was never cruel or nasty. He was thoughtful and calm, the entire time.",
+      "img": "sketch",
+      "cap": "\"He was thoughtful and calm.\" — Tina Mucklow, flight attendant",
+      "tone": "curiosity"
+    },
+    {
+      "id": "b4",
+      "text": "He sends Mucklow to the cockpit. Sometime around eight o'clock that night, alone in the cabin, he lowers the stairs into the freezing dark and jumps, with the money strapped to him and two parachutes.",
+      "img": "airstair",
+      "cap": "~8:00 p.m. He jumped, alone.",
+      "tone": "shock"
+    },
+    {
+      "id": "b5",
+      "text": "It is cold. Wet. A five thousand foot cloud ceiling. No moon. Nobody sees him go. The exact spot he landed has never been confirmed. Only an estimate, worked backward from fuel and flight data, somewhere over the forests of southwest Washington.",
+      "video": "forest_2.mp4",
+      "videoQuery": "pacific northwest forest aerial washington state",
+      "cap": "No confirmed landing site. Only an estimate.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c3",
+      "text": "Chapter three. The only trace.",
+      "chapter": "CHAPTER THREE\nTHE ONLY TRACE",
+      "img": "money",
+      "query": "old twenty dollar bills money bundle"
+    },
+    {
+      "id": "c3a",
+      "text": "For nine years, absolutely nothing surfaces. No body. No parachute. No money. Then, on February tenth, nineteen eighty, an eight year old boy named Brian Ingram is digging in the sand on the Columbia River.",
+      "img": "money",
+      "cap": "Feb 10, 1980. A boy, digging in the sand.",
+      "tone": "tension"
+    },
+    {
+      "id": "c3b",
+      "text": "He finds three rotting bundles of twenty dollar bills, about fifty eight hundred dollars, still bound by rubber bands. The serial numbers match the ransom exactly.",
+      "img": "money",
+      "cap": "$5,800. Serial numbers matched.",
+      "tone": "shock"
+    },
+    {
+      "id": "c3c",
+      "text": "It is, to this day, the only piece of that two hundred thousand dollars ever recovered. And nobody has ever explained how it got there.",
+      "img": "money",
+      "cap": "The only money ever found. Never explained.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c3d",
+      "text": "Independent researchers later examined the clip on tie Cooper left behind on the plane. It carried over a hundred thousand microscopic particles, including titanium and other rare metals — the kind of trace evidence you'd expect from someone who worked around aerospace manufacturing. It has never been enough, on its own, to name anyone.",
+      "img": "tie",
+      "query": "necktie evidence forensic examination",
+      "cap": "The tie: titanium particles. Still no name.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c4",
+      "text": "Chapter four. Seven names, zero confirmations.",
+      "chapter": "CHAPTER FOUR\nSEVEN NAMES, ZERO CONFIRMATIONS",
+      "img": "sketch"
+    },
+    {
+      "id": "d1",
+      "text": "Over five decades, seven names have been proposed as D.B. Cooper. Every single one is a theory. Not one has ever been confirmed by the FBI.",
+      "img": "sketch",
+      "cap": "7 names proposed. 0 confirmed.",
+      "tone": "confidence"
+    },
+    {
+      "id": "d2",
+      "text": "Richard Floyd McCoy Junior, a Vietnam veteran, pulled off a nearly identical hijacking five months later and was caught within days. Authors proposed he was Cooper too. The FBI ruled him out. He was twenty seven in nineteen seventy two — too young to match witness descriptions of a man in his mid forties.",
+      "img": "sketch",
+      "cap": "Richard McCoy — ruled out. Too young.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d3",
+      "text": "Kenneth Christiansen, a Northwest Orient employee, was named by his own brother after a cryptic deathbed comment. The FBI said his build didn't match the witnesses at all.",
+      "img": "sketch",
+      "cap": "Kenneth Christiansen — ruled out. Wrong build.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d4",
+      "text": "Duane Weber allegedly told his wife on his deathbed, I'm Dan Cooper. When the FBI compared his DNA, taken from his son, against DNA on the recovered tie, it was not a match.",
+      "img": "sketch",
+      "cap": "Duane Weber — DNA did not match.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d5",
+      "text": "Robert Rackstraw became the center of a two thousand sixteen History Channel series, built on claims of coded letters. Rackstraw himself said, on the record, that his own hints about being Cooper were a stunt, in his words, to meet women. The FBI had cleared him decades earlier. He died in twenty nineteen, still denying it.",
+      "img": "sketch",
+      "cap": "Robert Rackstraw — denied it until his death.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d6",
+      "text": "Barbara Dayton, a transgender Air Force veteran and licensed pilot, was said by friends to have confided she was Cooper. She reportedly recanted before she died. Her height and eye color never matched.",
+      "img": "sketch",
+      "cap": "Barbara Dayton — later recanted.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d7",
+      "text": "Sheridan Peterson, a former Boeing employee who helped write the seven two seven's own flight manual, was investigated for decades. The independent researcher who pursued him hardest eventually ruled him out too. Wrong eye color. Not a smoker, unlike the man on the plane.",
+      "img": "sketch",
+      "cap": "Sheridan Peterson — ruled out by his own investigator.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d8",
+      "text": "And in twenty eleven, a woman named Marla Cooper told the FBI her uncle, Lynn Doyle Cooper, came home bloody and bruised days after the hijacking. The FBI tested his DNA against evidence from the case. No match.",
+      "img": "sketch",
+      "cap": "L.D. Cooper — no DNA match.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c5",
+      "text": "Chapter five. The FBI's actual final word.",
+      "chapter": "CHAPTER FIVE\nTHE FBI'S ACTUAL FINAL WORD",
+      "img": "sketch"
+    },
+    {
+      "id": "e1",
+      "text": "On July eighth, twenty sixteen, the FBI made its position official. After forty five years, tens of thousands of leads, and every viable suspect investigated and cleared, it redirected its active investigative resources elsewhere.",
+      "img": "sketch",
+      "cap": "July 8, 2016: active investigation ends.",
+      "tone": "confidence"
+    },
+    {
+      "id": "e2",
+      "text": "The Bureau's own statement said it would only reopen the case given specific, verifiable, new physical evidence — the actual parachutes, or the actual money. Nothing else.",
+      "img": "sketch",
+      "cap": "\"Only... new physical evidence.\" — FBI statement",
+      "tone": "confidence"
+    },
+    {
+      "id": "e3",
+      "text": "In recent years, independent researchers have kept pushing. A parachute recovered from a family property was taken in by the FBI for testing in twenty twenty two, and quietly returned in December twenty twenty five, with no conclusion ever announced.",
+      "img": "sketch",
+      "cap": "A parachute, tested. No conclusion announced.",
+      "tone": "tension"
+    },
+    {
+      "id": "e4",
+      "text": "Videos claiming DNA has finally confirmed his identity continue to circulate. As of this recording, no such confirmation has ever come from the FBI itself, and no credible news organization has verified one. Be skeptical of anyone telling you this case is solved.",
+      "img": "sketch",
+      "cap": "No DNA confirmation exists. Be skeptical.",
+      "tone": "confidence"
+    },
+    {
+      "id": "coda1",
+      "text": "Here's what actually sits in this file, and nothing more. A real man, a real bomb threat, two hundred thousand real dollars, and a jump into the dark that nobody watched happen.",
+      "img": "sketch",
+      "cap": "What's actually in the file.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda2",
+      "text": "Seven names have been offered up as an answer. Every single one has been checked, and every single one has failed to be confirmed. The FBI's own file ends exactly where it started. Open.",
+      "img": "sketch",
+      "cap": "The file ends exactly where it started. Open.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda3",
+      "text": "Somewhere, in an evidence room, sit two rotting bundles of twenty dollar bills and a cheap black clip on tie. They are, fifty five years later, still the only two things anyone actually knows for certain.",
+      "img": "money",
+      "cap": "The only two things anyone knows for certain.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "bridge",
+      "text": "If a case file that never closes got to you, wait until you see the hijacking where the cockpit recording survived, and you can hear exactly what was said in the final minutes. That full breakdown is on this channel.",
+      "img": "sketch",
+      "cap": "Watch next on Black Box Breakdown.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "end",
+      "text": "Subscribe to Black Box Breakdown.",
+      "chapter": "SUBSCRIBE",
+      "img": "sketch"
+    }
+  ]
+}
