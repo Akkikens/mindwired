@@ -39,7 +39,7 @@ CHAPTERS
 Photo/figure credits: Venera 9/10/13/14 surface panoramas via Wikimedia Commons (Public domain / CC BY 2.0, Lunar and Planetary Institute); museum lander replicas via Wikimedia Commons (CC BY 4.0 / CC BY-SA 4.0, various photographers, Tsiolkovsky State Museum of the History of Cosmonautics and VDNKh Cosmos Pavilion); Soviet postage stamps (PD-RU-exempt, official signs); 2025 Bank of Russia commemorative coin (Public domain); Magellan radar terrain footage: NASA/Goddard Space Flight Center Scientific Visualization Studio (Public domain).
 
 ▶ MORE FROM MINDWIRED
-Something in the Iceman Is Still Alive: [paste real URL once published]
+Something in the Iceman Is Still Alive: https://youtu.be/4sataIWXFqc
 21 Astronauts Never Came Home. Here's Every Story.: https://youtu.be/maxZwNGqIDU
 The Biggest EXPLOSION in HISTORY Left No Crater (Tunguska): https://youtu.be/9YOOCyi6oqk
 What Happened to the Bodies of Every Astronaut Who Ever Died: https://youtu.be/MPWChE1uanQ
@@ -67,7 +67,7 @@ The detail that stuck with us most: Venera 14's own ejected lens cap landed exac
 
 - [ ] Final render verify (GCE in flight at packaging time — duration/4K/mid-frame/outro/LUFS).
 - [ ] Whisper SRT from the actual master + rename pair to `The Only Photos Ever Taken on Venus.mp4/.srt` at repo root.
-- [ ] Paste the Ötzi long-form URL into MORE FROM once it's published.
+- [x] Ötzi long-form URL pasted into MORE FROM (2026-08-20).
 - [ ] Funnel Shorts: comps + drip schedule (`SHORTS-SCHEDULE-venera.md`).
 - [ ] Recheck the FY27 budget fight status before publish — the wedge is accurate as "unresolved" today but may resolve; update pinned comment if it does.
 - [ ] Launch diagnosis owed 48h post-publish.

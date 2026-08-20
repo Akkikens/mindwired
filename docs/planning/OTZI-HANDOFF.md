@@ -1,7 +1,11 @@
 # OTZI — episode handoff (mindwired)
 
-**STATUS (2026-08-14):** 4K GCE render IN FLIGHT (`out/otzi_gce_launch.log`);
-everything else built and gated. Icahn PASS 2026-08-14 (memory `icahn-otzi`).
+**STATUS (2026-08-20): PUBLISHED.** Master mp4 no longer on local disk
+(already uploaded and cleared); caption archived to
+`archive/captions/Something in the Iceman Is Still Alive.srt`. Add the real
+YouTube URL to `mindwired-published-urls` memory and this file once handy.
+
+Icahn PASS 2026-08-14 (memory `icahn-otzi`).
 All gates green: TTS lint clean · relevance audit 0 blocking (warnings
 individually verified: proper-noun-title false positives + accepted
 generic-stock class) · preflight 0 blocking · 7 comp stills eyeballed ·

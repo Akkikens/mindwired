@@ -1,8 +1,11 @@
 # VENERA — episode handoff (mindwired)
 
-**STATUS (2026-08-16): RENDER-READY.** Master verified (13:20, 3840×2160,
-−14.1 LUFS, windowed `bed_awe_laniakea.mp3`), whisper SRT cut, pair renamed
-at repo root. Icahn PASS-WITH-CONDITIONS (memory `icahn-venera`). All gates
+**STATUS (2026-08-20): PUBLISHED.** Master mp4 no longer on local disk
+(already uploaded and cleared); caption archived to
+`archive/captions/The Only Photos Ever Taken on Venus.srt`. Add the real
+YouTube URL to `mindwired-published-urls` memory and this file once handy.
+
+Icahn PASS-WITH-CONDITIONS (memory `icahn-venera`). All gates
 green: TTS lint clean · relevance audit 0 blocking · preflight 0 blocking ·
 9 comp stills eyeballed · VO ear-check sample sent to Akshay
 (`out/qa/venera_vo_sample.mp3`) · 4 funnel Shorts rendered + delivered.
@@ -69,8 +72,7 @@ render crashed on it.
 2. ~~Whisper SRT + rename~~ DONE — pair is at repo root, ready to upload.
 3. Upload with METADATA-venera.md (3 thumbs → Test & Compare; single-video
    end screen → the Ötzi episode, per the verbal bridge).
-4. Paste the Ötzi long-form's real URL into METADATA + pinned/MORE FROM once
-   Ötzi publishes.
+4. ~~Paste the Ötzi long-form's real URL~~ DONE — https://youtu.be/4sataIWXFqc
 5. Set real dates in SHORTS-SCHEDULE-venera.md (publish day +1..+4) and drip.
 6. Recheck the FY27 budget fight status right before publish — update the
    pinned comment if Congress resolves it either way.
