@@ -22,13 +22,17 @@ API = "https://api.cartesia.ai/tts/bytes"
 VERSION = "2024-11-13"
 REPO = Path(__file__).resolve().parent.parent.parent
 
-# Channel narrator = "orion_veo_clone": a Cartesia voice CLONED from the mindwired
-# Veo talking-host outro (Akshay approved the sound 2026-07-07). This captures the
-# nice Veo documentary voice as a pinned, consistent, ~free TTS voice — no Veo
-# per-clip cost, no cross-clip drift. This is the default for all mindwired
-# narration now. (Prev default "Clive - Measured Expert" b24f41fd-… kept below.)
-DEFAULT_VOICE = "00d3c951-0474-4b48-814e-ef815f533e63"
-CLIVE_VOICE = "b24f41fd-00a3-4cd8-992a-a0c9f13f3ef1"  # previous default, kept as fallback
+# Channel narrator = "Grant - neutral American" (Cartesia library voice) —
+# Akshay's ear-check pick 2026-08-22 from the 6-voice audition
+# (scripts/vo_audition.py, out/qa/vo_audition/). Chosen for exactly what real
+# viewers asked for ("plain ole American voice") and the most human pause
+# structure of the set (5 sentence-boundary pauses vs the clone's 2).
+# Applies to FUTURE episodes only — never re-synth an already-rendered
+# episode's clips mid-catalog (cadence/timbre splice).
+DEFAULT_VOICE = "d46abd1d-2d02-43e8-819f-51fb652c1c61"
+# Prior narrators, kept for --only re-synths on their own back-catalog episodes:
+ORION_CLONE_VOICE = "00d3c951-0474-4b48-814e-ef815f533e63"  # Veo-clone, default 2026-07-07 → 2026-08-22
+CLIVE_VOICE = "b24f41fd-00a3-4cd8-992a-a0c9f13f3ef1"  # default before the clone
 # Pin the DATED snapshot, not the floating "sonic-3.5" alias: idempotent per-clip
 # builders regenerate missing clips weeks apart, and a floating alias can silently
 # change snapshots mid-episode (timbre/prosody drift between clips).

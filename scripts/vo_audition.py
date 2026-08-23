@@ -25,8 +25,8 @@ REPO = Path(__file__).resolve().parent.parent
 
 # Candidates: id -> (label, why it's in the running)
 VOICES = {
-    cartesia.DEFAULT_VOICE: ("current-clone",
-        "The incumbent (Veo-clone) — the voice the complaints are about; baseline."),
+    cartesia.ORION_CLONE_VOICE: ("orion-clone",
+        "Narrator 2026-07-07→08-22 (Veo-clone) — the voice the complaints were about."),
     cartesia.CLIVE_VOICE: ("clive-measured-expert",
         "Previous default, kept as fallback — composed educational delivery."),
     "5568a7df-e5ab-4442-9fae-2e9ba1b15ad8": ("quentin-refined-narrator",
@@ -35,8 +35,8 @@ VOICES = {
         "Cartesia library: 'Steady, enunciating, confident young male for narrations'."),
     "5ee9feff-1265-424a-9d7f-8e4d431a12c7": ("ronald-thinker",
         "Cartesia library: 'Intense, deep young adult male' — gravitas option."),
-    "d46abd1d-2d02-43e8-819f-51fb652c1c61": ("grant-neutral-american",
-        "Cartesia library: explicitly 'neutral American accent' — the exact viewer ask."),
+    cartesia.DEFAULT_VOICE: ("grant-neutral-american",
+        "CURRENT narrator (Akshay ear-pick 2026-08-22): 'neutral American accent'."),
 }
 
 # Two REAL production passages (from the Apollo 13 episode) so the comparison

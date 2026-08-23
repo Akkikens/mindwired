@@ -69,7 +69,7 @@ documents only as exhibits.
 
 ## Step 2 — Script `src/mindwired-doc/docs/<slug>.json`
 
-Doc-level fields: `{slug, title, channel, niche, language, voice: "00d3c951-0474-4b48-814e-ef815f533e63"}`
+Doc-level fields: `{slug, title, channel, niche, language, voice: "d46abd1d-2d02-43e8-819f-51fb652c1c61"}`
 (`niche` drives the footage fetcher's source ranking: aviation|space|ocean|history|tech|generic).
 
 **Structure (in order):**
