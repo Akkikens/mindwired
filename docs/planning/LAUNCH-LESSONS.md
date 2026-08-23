@@ -189,3 +189,41 @@ Format per entry:
   published so no diagnosis due yet). Everestbodies/yellowstone/
   deepwaterhorizon/ic814kandahar diagnoses from prior sessions also remain
   owed. All still owed before the channel's next publish-plus-48h checkpoint.
+- BLOCKED-ON-DATA 2026-08-20 · channel-wide · Bermuda Triangle production
+  (mindwired, widened ocean/earth-mystery scope — see memory
+  `yesterday-channel-study`) proceeds under Step 0's escape hatch: this
+  session DOES have live Claude-in-Chrome/Studio access (used it earlier to
+  edit channel settings), but a full real-Studio diagnosis pull for the ~9
+  owed videos (everestbodies/yellowstone/deepwaterhorizon/ic814kandahar/
+  kursk/otzi/venera/carlawalker/dbcooper) is a separate, large task from
+  producing this episode — deferred rather than blocking production, per the
+  same escape-hatch pattern already used repeatedly in this file. Note for
+  next diagnosis session: the channel's own repeated lesson (topic
+  name-recognition drives the impressions pool far more than packaging/CTR)
+  is exactly why Bermuda Triangle was picked — globally famous name, unlike
+  Voyager 1/Tunguska which got small pools despite strong ratios.
+- BLOCKED-ON-DATA 2026-08-21 · channel-wide · Thai Cave Rescue production
+  (mindwired) proceeds under Step 0's escape hatch: the owed-diagnosis
+  backlog (everestbodies/yellowstone/deepwaterhorizon/ic814kandahar/kursk/
+  otzi/venera/carlawalker/dbcooper/bermudatriangle/fermiparadox — the last
+  two not yet published, so no diagnosis due on those two specifically) is
+  unchanged from the 2026-08-20 entry above; still no dedicated
+  diagnosis-pull session run. Production proceeds per the same repeated
+  pattern in this file. Separately: Akshay initially asked to use CNN/NBC/DW
+  broadcast footage "with sourcing" for this episode — declined (attribution
+  is not a license, Content ID doesn't check for credit lines); redirected
+  to the confirmed-legal DVIDS US-military PD footage of the actual 2018
+  on-site pararescue team instead. Not a launch lesson per se, but worth
+  banking here since it's a real recurring misconception risk for future
+  episodes too.
+- BLOCKED-ON-DATA 2026-08-21 (2nd) · channel-wide · Black Box Breakdown
+  aviation next-topic icahn sweep (this session, separate request from Thai
+  Cave Rescue above) proceeds under the same Step 0 escape hatch — no live
+  Studio/browser access this session; owed-diagnosis backlog unchanged.
+  Akshay again asked for CNN/NBC-sourced footage "with proper credit" —
+  declined again, same reasoning (attribution ≠ license, Content ID doesn't
+  check credit lines); redirected to NTSB/FAA docket + DVIDS/archive.org/PD
+  sourcing per CLAUDE.md's real-footage-first pipeline. Second occurrence of
+  this exact misconception in one day — consider flagging it more visibly
+  (e.g. a standing note Akshay sees before requesting footage) if it recurs
+  again.

@@ -1,0 +1,4 @@
+- `avengerdeck_1.mp4` — cut from "Scenes Aboard The USS Yorktown (CV-10) & Night Firing, 02/24/1945" (Naval Photographic Center film #8530) — Public Domain Mark 1.0 (US Navy) — https://archive.org/details/NPC-8530 (manual pull, verified by eyeball: real TBM/TBF Avenger carrier deck taxi with crew)
+- `avengerdeck_2.mp4` — same source (NPC-8530), a second distinct segment (real TBM/TBF Avenger low-altitude flight over water)
+- `avengersmoke_1.mp4` — same source (NPC-8530), a third distinct segment (real TBM/TBF Avenger folded-wing close-up on deck)
+- `avengerdeck_4.mp4` — same source (NPC-8530), a fourth distinct segment (aircraft landing approach, silhouetted against the sky)

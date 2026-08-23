@@ -21,3 +21,4 @@ __pycache__/
 *.pyc
 public/host/*_sonic.png
 !public/sfx/*.wav
+public/shorts/*/video/*.mp4

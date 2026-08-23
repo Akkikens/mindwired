@@ -1,0 +1,1408 @@
+1
+00:00:00,140 --> 00:00:03,540
+December 5th, 1945, Fort Lauderdale,
+
+2
+00:00:04,500 --> 00:00:09,040
+Florida. Lieutenant Charles Taylor climbs into a torpedo bomber for a routine training
+
+3
+00:00:09,040 --> 00:00:11,500
+flight. He has led dozens like it before.
+
+4
+00:00:12,940 --> 00:00:14,860
+Four more Avengers fall in behind him,
+
+5
+00:00:15,220 --> 00:00:19,040
+14 men in total, on a mission called Navigation Problem Number One.
+
+6
+00:00:20,440 --> 00:00:24,220
+Within two hours, Taylor radios that both his compasses have failed.
+
+7
+00:00:24,780 --> 00:00:27,020
+He believes he is somewhere over the Florida Keys.
+
+8
+00:00:27,680 --> 00:00:30,740
+He is not. By 7 that evening,
+
+9
+00:00:31,180 --> 00:00:35,140
+5 aircraft and 14 men have vanished from the sky over the open Atlantic.
+
+10
+00:00:35,840 --> 00:00:39,560
+The plane sent to search for them explodes in mid -air and vanishes too,
+
+11
+00:00:39,860 --> 00:00:41,300
+watched by two ships at once.
+
+12
+00:00:42,740 --> 00:00:45,900
+This is the story of the mystery that got built on top of that night.
+
+13
+00:00:46,360 --> 00:00:51,560
+And the real, sourced, deeply unglamorous explanation for almost every piece
+
+14
+00:00:51,560 --> 00:00:54,320
+of it. You're watching Mind Wired.
+
+15
+00:00:55,440 --> 00:00:58,080
+This is the full story of the Bermuda Triangle.
+
+16
+00:00:58,620 --> 00:00:59,780
+How the name was invented,
+
+17
+00:01:00,100 --> 00:01:04,020
+what actually happened to every ship and plane usually listed inside it,
+
+18
+00:01:04,080 --> 00:01:07,100
+why a librarian spent years taking the legend apart,
+
+19
+00:01:07,220 --> 00:01:11,620
+case by case, and why the mystery does not survive contact with the primary record.
+
+20
+00:01:13,100 --> 00:01:15,820
+Chapter One. The name nobody officially drew.
+
+21
+00:01:17,240 --> 00:01:23,960
+September 1950. A wire reporter named Edward Van Winkle -Jones writes a piece for
+
+22
+00:01:23,960 --> 00:01:27,540
+the 135 people lost near Florida and Bermuda over the years.
+
+23
+00:01:27,860 --> 00:01:29,020
+He never calls it a triangle.
+
+24
+00:01:29,420 --> 00:01:30,920
+He never claims anything paranormal.
+
+25
+00:01:31,480 --> 00:01:35,140
+It reads like an ordinary story about how dangerous the ocean has always been.
+
+26
+00:01:36,640 --> 00:01:39,320
+1952. A writer named George Sand,
+
+27
+00:01:39,640 --> 00:01:40,760
+in a magazine called Fate,
+
+28
+00:01:41,120 --> 00:01:44,680
+describes those same losses inside a rough triangle for the first time.
+
+29
+00:01:45,080 --> 00:01:47,680
+He lists Flight 19, a lost freighter,
+
+30
+00:01:47,940 --> 00:01:50,620
+and two British airliners that vanished a year apart.
+
+31
+00:01:50,620 --> 00:01:53,980
+The shape exists now. The name still doesn't.
+
+32
+00:01:55,420 --> 00:02:00,580
+February 1964. A writer named Vincent Gaddis publishes an Argosy magazine cover
+
+33
+00:02:00,580 --> 00:02:03,320
+story and gives the shape its name for the first time,
+
+34
+00:02:03,580 --> 00:02:08,400
+the Bermuda Triangle. He draws it from Florida to Bermuda to Puerto Rico and back through
+
+35
+00:02:08,400 --> 00:02:11,240
+the Bahamas and calls the losses beyond the laws of chance.
+
+36
+00:02:12,780 --> 00:02:18,120
+What Gaddis never does in that entire article is compare his list of losses to
+
+37
+00:02:18,120 --> 00:02:20,420
+how much traffic actually crosses that water.
+
+38
+00:02:20,920 --> 00:02:23,020
+No count of ships. No count of flights.
+
+39
+00:02:23,580 --> 00:02:25,200
+Just a list of the ones that went wrong.
+
+40
+00:02:25,700 --> 00:02:29,720
+Without a denominator, there is no way to know if the numerator is unusual at all.
+
+41
+00:02:31,180 --> 00:02:33,260
+Two years earlier, in 1962,
+
+42
+00:02:33,820 --> 00:02:37,860
+a different writer had already built the emotional core of this legend out of nothing.
+
+43
+00:02:38,540 --> 00:02:43,340
+Alan Eckert wrote a magazine account of Flight 19 that invented dramatic radio dialogue,
+
+44
+00:02:43,800 --> 00:02:45,320
+pilots saying the ocean looked wrong,
+
+45
+00:02:45,440 --> 00:02:46,800
+that nothing seemed familiar.
+
+46
+00:02:47,300 --> 00:02:49,660
+None of it is in a single navy transcript.
+
+47
+00:02:50,360 --> 00:02:52,840
+Gaddis' own sources leaned on that invented version.
+
+48
+00:02:54,340 --> 00:02:58,660
+1965. Gaddis expands the magazine piece into a full book,
+
+49
+00:02:59,020 --> 00:03:02,620
+Invisible Horizons, with a chapter called The Triangle of Death,
+
+50
+00:03:03,000 --> 00:03:08,400
+1974. Charles Berlitz publishes the Bermuda Triangle and it becomes a genuine
+
+51
+00:03:08,400 --> 00:03:10,780
+phenomenon, reportedly selling in the millions.
+
+52
+00:03:11,360 --> 00:03:15,660
+Berlitz's central twist is that the disappearances connect to the lost city of Atlantis.
+
+53
+00:03:15,660 --> 00:03:18,300
+There is zero physical evidence for that claim.
+
+54
+00:03:19,020 --> 00:03:21,500
+None. It is his theory and only his.
+
+55
+00:03:22,740 --> 00:03:25,700
+And here is the detail every single retelling leaves out.
+
+56
+00:03:26,220 --> 00:03:28,720
+Nobody has ever agreed on where the triangle actually is.
+
+57
+00:03:29,400 --> 00:03:30,840
+Some versions stop at Puerto Rico.
+
+58
+00:03:31,300 --> 00:03:32,880
+Some stretch into the Gulf of Mexico.
+
+59
+00:03:33,480 --> 00:03:35,540
+One version stretches all the way to the Azores.
+
+60
+00:03:36,480 --> 00:03:40,880
+Estimates of its total size range from about half a million square miles to nearly three
+
+61
+00:03:40,880 --> 00:03:43,480
+times that. That is not a place with a border.
+
+62
+00:03:43,900 --> 00:03:47,640
+That is a shape redrawn by whoever happens to be telling the story that year.
+
+63
+00:03:49,160 --> 00:03:53,880
+Chapter two. The flight nobody could explain and the line that was never actually said.
+
+64
+00:03:55,320 --> 00:03:56,560
+Charles Taylor was not a rookie.
+
+65
+00:03:57,460 --> 00:04:02,000
+2509 flight hours. A combat tour flying torpedo bombers off a carrier in the Pacific.
+
+66
+00:04:02,520 --> 00:04:04,360
+And for most of the year before that afternoon,
+
+67
+00:04:04,580 --> 00:04:08,280
+he had been based in the real Florida Keys flying that exact water.
+
+68
+00:04:09,500 --> 00:04:12,220
+That is what makes the next part so devastating.
+
+69
+00:04:12,780 --> 00:04:17,500
+Navigation problem number one sent the five avengers out over the water around a shoal
+
+70
+00:04:17,500 --> 00:04:19,440
+for a practice bombing run and back.
+
+71
+00:04:20,140 --> 00:04:24,280
+Routine. Taylor had flown it or something like it many times before.
+
+72
+00:04:25,600 --> 00:04:29,220
+By mid -afternoon, Taylor radios that he is uncertain of his position.
+
+73
+00:04:29,660 --> 00:04:32,600
+Another instructor makes contact and asks what his trouble is.
+
+74
+00:04:33,040 --> 00:04:36,960
+Taylor answers that both his compasses are out and that he is sure he is over the Keys.
+
+75
+00:04:37,220 --> 00:04:40,600
+He just doesn't know how far down or how to get back to Fort Lauderdale.
+
+76
+00:04:42,260 --> 00:04:43,480
+He was not over the Keys.
+
+77
+00:04:44,060 --> 00:04:48,340
+A radio fix taken not long after placed the flight within a hundred miles of a point
+
+78
+00:04:48,340 --> 00:04:53,440
+well north of the Bahamas out over the open Atlantic flying in the wrong direction
+
+79
+00:04:53,440 --> 00:04:56,540
+entirely away from the mainland he was trying to reach.
+
+80
+00:04:57,980 --> 00:05:01,300
+You may have heard a different stranger version of that radio call.
+
+81
+00:05:01,920 --> 00:05:03,260
+Pilots saying the ocean looked wrong.
+
+82
+00:05:03,640 --> 00:05:07,280
+Saying the aircraft closing in on them did not look like Navy planes at all like they
+
+83
+00:05:07,280 --> 00:05:08,600
+were from somewhere else entirely.
+
+84
+00:05:09,120 --> 00:05:14,360
+That line was invented three years earlier in that 1962 magazine story and
+
+85
+00:05:14,360 --> 00:05:17,020
+it was printed as fact in Berlitz's best -selling book.
+
+86
+00:05:17,460 --> 00:05:21,800
+It does not exist in a single Navy transcript from that day or any other.
+
+87
+00:05:23,260 --> 00:05:27,300
+Taylor's actual final transmission was much less strange and much sadder.
+
+88
+00:05:27,400 --> 00:05:28,900
+All planes close up tight.
+
+89
+00:05:29,280 --> 00:05:31,600
+We will have to ditch unless we make landfall.
+
+90
+00:05:31,600 --> 00:05:35,860
+When the first plane drops below 10 gallons we all go down together.
+
+91
+00:05:37,340 --> 00:05:41,500
+A rescue sea plane with 13 more men aboard took off that same night to search for them.
+
+92
+00:05:41,780 --> 00:05:44,400
+It sent one routine radio check and then nothing.
+
+93
+00:05:44,860 --> 00:05:49,640
+At 9 .15 a tanker crew independently reported watching flames leap a hundred feet into
+
+94
+00:05:49,640 --> 00:05:54,720
+the air and burn for 10 minutes on the water at almost the exact position and moment
+
+95
+00:05:54,720 --> 00:05:57,900
+an escort carriers radar lost an aircraft it had been tracking.
+
+96
+00:05:58,780 --> 00:06:02,980
+The accepted mundane cause is a fuel vapor explosion.
+
+97
+00:06:03,720 --> 00:06:07,600
+That type of rescue sea plane had a documented history of exactly this failure.
+
+98
+00:06:08,140 --> 00:06:09,980
+Fuel leaking into an enclosed bomb bay.
+
+99
+00:06:10,480 --> 00:06:12,740
+27 men were gone before nine that night.
+
+100
+00:06:13,060 --> 00:06:14,720
+No survivors from either aircraft.
+
+101
+00:06:15,080 --> 00:06:18,140
+No wreckage from either aircraft ever recovered.
+
+102
+00:06:19,460 --> 00:06:23,880
+The Navy's first report blamed Taylor outright saying he suffered something close to
+
+103
+00:06:23,880 --> 00:06:27,160
+mental confusion. His mother fought that finding for two years.
+
+104
+00:06:27,600 --> 00:06:31,380
+In 1947 the Navy formally amended its own record.
+
+105
+00:06:31,940 --> 00:06:34,940
+The official cause became simply unknown.
+
+106
+00:06:35,500 --> 00:06:38,240
+That is not a confession that anything paranormal happened.
+
+107
+00:06:38,620 --> 00:06:42,860
+It means no wreckage was ever recovered to prove the navigational error theory beyond
+
+108
+00:06:42,860 --> 00:06:47,260
+doubt even though it remains by far the most likely explanation.
+
+109
+00:06:48,220 --> 00:06:52,540
+Chapter three. The ship that carried 306 men into nothing.
+
+110
+00:06:54,100 --> 00:06:58,920
+March 1918. The Navy Collier USS Cyclops stops in Barbados for repairs.
+
+111
+00:06:59,460 --> 00:07:01,660
+Loads over 10 ,000 tons of manganese ore.
+
+112
+00:07:01,980 --> 00:07:04,580
+More than her rated capacity and leaves for Baltimore.
+
+113
+00:07:05,100 --> 00:07:06,200
+She has never seen again.
+
+114
+00:07:06,940 --> 00:07:10,320
+306 people are aboard including the American Consul General to Brazil.
+
+115
+00:07:11,720 --> 00:07:16,580
+The Navy's own historians to this day list the cause as undetermined.
+
+116
+00:07:17,220 --> 00:07:21,500
+Their leading guess and it is only a guess is that an overloaded,
+
+117
+00:07:21,780 --> 00:07:26,060
+weakened hull broke apart in a storm recorded near the American coast around the same
+
+118
+00:07:26,060 --> 00:07:31,280
+time. That is a guess not a conclusion because there is no wreck to confirm it.
+
+119
+00:07:32,660 --> 00:07:36,060
+During the war some suspected a German raider or submarine.
+
+120
+00:07:36,560 --> 00:07:39,160
+After the war German naval records were checked.
+
+121
+00:07:39,660 --> 00:07:42,880
+There was no U -boat operating anywhere near that water on that date.
+
+122
+00:07:43,360 --> 00:07:46,880
+The wartime rumor simply did not hold up once anyone actually looked.
+
+123
+00:07:48,320 --> 00:07:51,080
+There is also a persistent rumor about the ship's own captain,
+
+124
+00:07:51,460 --> 00:07:53,220
+a mutiny, a sabotage plot.
+
+125
+00:07:53,800 --> 00:07:57,700
+No official investigation then or since has ever supported it.
+
+126
+00:07:57,900 --> 00:08:02,680
+It survives purely as folklore layered onto a tragedy that already didn't need embellishing.
+
+127
+00:08:04,140 --> 00:08:07,240
+Chapter four. The tanker that was never even in the triangle.
+
+128
+00:08:08,660 --> 00:08:13,820
+1963. The tanker marine sulfur queen goes silent in the Florida Straits with 39
+
+129
+00:08:13,820 --> 00:08:16,720
+crew aboard. No bodies. No survivors.
+
+130
+00:08:17,280 --> 00:08:19,380
+A handful of debris found off the Florida Keys.
+
+131
+00:08:20,880 --> 00:08:24,480
+The Coast Guard's own marine board of investigation did not call this a mystery.
+
+132
+00:08:24,900 --> 00:08:25,980
+They called it a scandal.
+
+133
+00:08:26,840 --> 00:08:30,520
+Fires in the tank area so routine the crew had stopped bothering to sound the alarm.
+
+134
+00:08:30,980 --> 00:08:34,220
+A ruptured steam coil. Inoperable temperature gauges.
+
+135
+00:08:34,580 --> 00:08:37,820
+A structural floor common to tankers converted the way this one was.
+
+136
+00:08:38,200 --> 00:08:41,460
+Their verdict, the ship was unsafe and never should have sailed.
+
+137
+00:08:42,980 --> 00:08:45,660
+The board considered four specific ways she could have gone down.
+
+138
+00:08:45,940 --> 00:08:48,100
+A cargo explosion, a hull failure,
+
+139
+00:08:48,320 --> 00:08:49,900
+a capsize from rolling in the swell,
+
+140
+00:08:50,180 --> 00:08:54,640
+a steam explosion, and admitted that without survivors or wreckage they could not say
+
+141
+00:08:54,640 --> 00:08:59,700
+which. That is a real sourced structural investigation with real findings.
+
+142
+00:09:00,060 --> 00:09:01,820
+It is not a shrug into the unknown.
+
+143
+00:09:03,300 --> 00:09:06,040
+And here is the detail that gets left out of every retelling.
+
+144
+00:09:06,600 --> 00:09:11,140
+The marine sulfur queens sank in the Gulf of Mexico and the Florida Straits outside almost
+
+145
+00:09:11,140 --> 00:09:13,440
+every version of the triangle's own boundary.
+
+146
+00:09:14,060 --> 00:09:18,480
+A magazine writer branded her a triangle victim anyway two years after his own article
+
+147
+00:09:18,480 --> 00:09:20,700
+ran. Nobody has corrected it since.
+
+148
+00:09:22,200 --> 00:09:25,920
+Chapter five. The two British airliners Britain genuinely never got back.
+
+149
+00:09:27,340 --> 00:09:32,520
+January 1948. A British airliner called Star Tiger vanishes on a flight from the Azores
+
+150
+00:09:32,520 --> 00:09:34,920
+to Bermuda. 31 people are lost,
+
+151
+00:09:35,040 --> 00:09:37,960
+including a decorated Royal Air Force air marshal from the war.
+
+152
+00:09:38,280 --> 00:09:39,520
+No wreckage is ever found.
+
+153
+00:09:41,000 --> 00:09:46,060
+The official British court of inquiry did not blame whether mechanical failure or sabotage.
+
+154
+00:09:46,560 --> 00:09:51,600
+It stated plainly that in the complete absence of reliable evidence the court
+
+155
+00:09:51,600 --> 00:09:53,860
+could not do more than suggest possibilities,
+
+156
+00:09:54,340 --> 00:09:56,660
+none of which reached even the level of probability.
+
+157
+00:09:57,280 --> 00:09:59,240
+The fate of Star Tiger, they concluded,
+
+158
+00:09:59,660 --> 00:10:01,540
+must remain an unsolved mystery.
+
+159
+00:10:03,180 --> 00:10:06,800
+Thirteen months later, a sister aircraft of the exact same type,
+
+160
+00:10:07,340 --> 00:10:10,560
+Star Ariel, vanishes on a flight from Bermuda to Jamaica.
+
+161
+00:10:11,360 --> 00:10:16,220
+20 people lost. A search covering 55 ,000 square miles finds nothing.
+
+162
+00:10:17,460 --> 00:10:21,200
+The investigators report is almost word for word the same conclusion.
+
+163
+00:10:21,740 --> 00:10:22,720
+Through lack of evidence,
+
+164
+00:10:23,040 --> 00:10:24,860
+due to no wreckage having been found,
+
+165
+00:10:25,080 --> 00:10:27,020
+the cause of the accident is unknown.
+
+166
+00:10:27,600 --> 00:10:30,060
+No mechanical defect, no weather problem,
+
+167
+00:10:30,420 --> 00:10:35,620
+no sabotage, just an honest official unknown twice 13
+
+168
+00:10:35,620 --> 00:10:40,720
+months apart. These two are genuinely honestly unsolved.
+
+169
+00:10:41,220 --> 00:10:45,020
+That is worth sitting with for a second because it proves this episode is not trying
+
+170
+00:10:45,020 --> 00:10:48,120
+to explain away every single case with a clean answer.
+
+171
+00:10:48,640 --> 00:10:50,980
+Some real mysteries stay real mysteries.
+
+172
+00:10:51,340 --> 00:10:54,220
+They just never required anything beyond ordinary aviation,
+
+173
+00:10:54,620 --> 00:10:58,340
+in ordinary weather, going wrong in a way nobody was ever able to prove.
+
+174
+00:11:00,040 --> 00:11:04,240
+Chapter 6. The most famous name on the list was never anywhere near this water.
+
+175
+00:11:05,740 --> 00:11:09,780
+Almost every Bermuda Triangle book ever written includes the Mary Celeste,
+
+176
+00:11:10,120 --> 00:11:12,780
+found drifting and abandoned in 1872.
+
+177
+00:11:13,360 --> 00:11:14,740
+What almost none of them mention.
+
+178
+00:11:15,200 --> 00:11:16,580
+She was found near the Azores,
+
+179
+00:11:16,960 --> 00:11:20,080
+in the eastern Atlantic, thousands of miles from Bermuda,
+
+180
+00:11:20,420 --> 00:11:22,140
+in essentially the opposite ocean.
+
+181
+00:11:23,300 --> 00:11:25,200
+One likely reason for the mix -up.
+
+182
+00:11:25,660 --> 00:11:27,720
+A different ship with a nearly identical name,
+
+183
+00:11:27,920 --> 00:11:31,720
+the Mary Celeste, genuinely did wreck near Bermuda a few years earlier.
+
+184
+00:11:32,200 --> 00:11:33,940
+Two ships, one letter apart,
+
+185
+00:11:34,420 --> 00:11:38,400
+eight years apart, and one geography accidentally borrowed the other's mystery forever.
+
+186
+00:11:39,760 --> 00:11:43,460
+The likely real explanation for the real Mary Celeste is almost mundane.
+
+187
+00:11:43,900 --> 00:11:47,540
+She was carrying over 1700 barrels of raw industrial alcohol,
+
+188
+00:11:47,840 --> 00:11:49,700
+a slow leak, a vapor scare,
+
+189
+00:11:49,700 --> 00:11:53,920
+and a crew who panicked into a lifeboat that was then lost at sea in bad weather.
+
+190
+00:11:54,660 --> 00:11:56,380
+Insurance fraud was investigated at the time.
+
+191
+00:11:56,680 --> 00:11:59,400
+It was never proven. No fraud.
+
+192
+00:11:59,840 --> 00:12:01,780
+No mutiny. No mystery required.
+
+193
+00:12:02,200 --> 00:12:04,780
+Just a famous name, borrowed from the wrong ocean,
+
+194
+00:12:05,040 --> 00:12:07,340
+and kept in the story because it was already famous,
+
+195
+00:12:07,600 --> 00:12:09,060
+not because it belonged there.
+
+196
+00:12:10,480 --> 00:12:13,220
+Chapter 7. The librarian who killed the mystery.
+
+197
+00:12:14,940 --> 00:12:18,080
+1975. A reference librarian named Larry Kucher,
+
+198
+00:12:18,260 --> 00:12:20,080
+working at Arizona State University,
+
+199
+00:12:20,280 --> 00:12:22,740
+keeps getting the same research request from students,
+
+200
+00:12:23,040 --> 00:12:24,940
+help me find sources on the Bermuda Triangle,
+
+201
+00:12:25,220 --> 00:12:27,020
+so he starts pulling the sources himself.
+
+202
+00:12:28,420 --> 00:12:30,080
+He writes directly to the Navy,
+
+203
+00:12:30,440 --> 00:12:32,100
+the Coast Guard, Lloyd's of London,
+
+204
+00:12:32,200 --> 00:12:33,780
+and the National Weather Service.
+
+205
+00:12:34,320 --> 00:12:36,880
+He reads newspaper microfilm going back decades.
+
+206
+00:12:37,520 --> 00:12:40,020
+He conducts around 92 personal interviews.
+
+207
+00:12:40,860 --> 00:12:42,040
+Nobody had done this before.
+
+208
+00:12:42,580 --> 00:12:45,520
+Every previous author had simply cited the last author.
+
+209
+00:12:47,020 --> 00:12:49,040
+What he found, case after case,
+
+210
+00:12:49,340 --> 00:12:53,040
+a documented storm active at the exact time and location of a loss,
+
+211
+00:12:53,360 --> 00:12:55,760
+simply never mentioned in the popular retelling.
+
+212
+00:12:56,500 --> 00:12:58,480
+A ship logged as vanished that had,
+
+213
+00:12:58,660 --> 00:13:01,860
+in fact, turned up safely in port weeks later.
+
+214
+00:13:02,300 --> 00:13:04,840
+A plane reported as having disappeared that had,
+
+215
+00:13:05,020 --> 00:13:06,520
+in front of a crowd of witnesses,
+
+216
+00:13:07,080 --> 00:13:08,360
+crashed on a beach in Florida.
+
+217
+00:13:09,720 --> 00:13:13,880
+He even tracked down one of the most repeated ghost ship stories in every triangle book
+
+218
+00:13:13,880 --> 00:13:17,900
+and could not find a single primary record that it had ever happened at all.
+
+219
+00:13:18,560 --> 00:13:20,820
+Not misreported, not exaggerated,
+
+220
+00:13:21,540 --> 00:13:24,080
+simply invented, and then endlessly recopied.
+
+221
+00:13:25,660 --> 00:13:28,280
+His conclusion was never that nothing tragic happened out there.
+
+222
+00:13:28,820 --> 00:13:30,660
+Ships sank, planes went down,
+
+223
+00:13:31,140 --> 00:13:36,240
+real people died. His conclusion was that the mystery on top of those tragedies was manufactured,
+
+224
+00:13:36,680 --> 00:13:41,160
+one author at a time, each one copying the last author's errors instead of checking the
+
+225
+00:13:41,160 --> 00:13:42,540
+primary record for themselves.
+
+226
+00:13:44,260 --> 00:13:46,560
+Chapter eight, what the actual numbers say.
+
+227
+00:13:48,020 --> 00:13:51,640
+The National Ocean Service puts it about as plainly as a government agency ever puts
+
+228
+00:13:51,640 --> 00:13:56,320
+anything. There is no evidence that mysterious disappearances happen more often here
+
+229
+00:13:56,320 --> 00:13:59,700
+than in any other large, heavily traveled stretch of ocean.
+
+230
+00:14:00,200 --> 00:14:02,000
+That is the actual, current,
+
+231
+00:14:02,300 --> 00:14:05,440
+official position of the agency that studies this water for a living.
+
+232
+00:14:06,680 --> 00:14:11,220
+The United States Board on Geographic Names does not even recognize the Bermuda Triangle
+
+233
+00:14:11,220 --> 00:14:12,540
+as an official place name.
+
+234
+00:14:13,120 --> 00:14:14,860
+As far as the federal government is concerned,
+
+235
+00:14:15,220 --> 00:14:17,980
+on paper, it does not officially exist.
+
+236
+00:14:19,640 --> 00:14:24,140
+Lloyds of London, the insurance market whose entire business depends on correctly pricing
+
+237
+00:14:24,140 --> 00:14:27,200
+real risk, has never charged more to cross this water.
+
+238
+00:14:27,680 --> 00:14:29,860
+If there were an actual elevated hazard here,
+
+239
+00:14:30,120 --> 00:14:34,540
+the people whose entire job is finding hazards and charging accordingly would have found
+
+240
+00:14:34,540 --> 00:14:36,260
+it and priced it in decades ago.
+
+241
+00:14:37,480 --> 00:14:42,780
+In 2013, the World Wildlife Fund ranked the world's oceans using real shipping
+
+242
+00:14:42,780 --> 00:14:44,640
+loss data, going back over a decade.
+
+243
+00:14:45,340 --> 00:14:49,640
+The Bermuda Triangle did not crack the top 10 most dangerous stretches of water on the
+
+244
+00:14:49,640 --> 00:14:54,680
+entire planet. It landed around 12th by total losses well behind the South China
+
+245
+00:14:54,680 --> 00:14:55,800
+Sea and the Mediterranean,
+
+246
+00:14:56,320 --> 00:14:59,880
+and even further down the list once you account for how much traffic actually passes
+
+247
+00:14:59,880 --> 00:15:04,800
+through. And the reason the raw body count still looks large is simple.
+
+248
+00:15:04,800 --> 00:15:08,020
+This is one of the busiest patches of ocean on the planet.
+
+249
+00:15:08,640 --> 00:15:13,100
+Miami and Port Canaveral alone move something like 17 million cruise passengers a year.
+
+250
+00:15:13,820 --> 00:15:16,880
+San Juan's airport boards roughly 12 ,000 people a day.
+
+251
+00:15:17,360 --> 00:15:18,860
+More traffic, mechanically,
+
+252
+00:15:19,440 --> 00:15:23,420
+produces more incidents, even when the underlying rate is completely ordinary.
+
+253
+00:15:24,780 --> 00:15:28,740
+The Gulf Stream itself explains a lot of the rest in two separate ways.
+
+254
+00:15:29,180 --> 00:15:32,020
+First, it is a fast, powerful current,
+
+255
+00:15:32,280 --> 00:15:34,160
+and where it collides with different air masses,
+
+256
+00:15:34,160 --> 00:15:36,100
+it breeds sudden, violent weather.
+
+257
+00:15:36,860 --> 00:15:41,140
+Second, it is extremely good at scattering wreckage and debris before anyone can reach
+
+258
+00:15:41,140 --> 00:15:43,820
+it. That is a mundane, physical,
+
+259
+00:15:44,380 --> 00:15:45,900
+boring reason evidence goes missing.
+
+260
+00:15:46,340 --> 00:15:48,100
+It is not evidence of anything else.
+
+261
+00:15:49,440 --> 00:15:53,300
+An Australian scientist who has studied this put the human error math simply,
+
+262
+00:15:53,720 --> 00:15:58,000
+the percentage of ships and planes that go missing here is the same as anywhere else
+
+263
+00:15:58,000 --> 00:16:02,980
+in the world. It is ordinary probability applied to an extraordinary amount of traffic.
+
+264
+00:16:04,480 --> 00:16:06,620
+And just south of it lies the Puerto Rico Trench,
+
+265
+00:16:07,040 --> 00:16:08,400
+plunging to the Milwaukee Deep,
+
+266
+00:16:08,780 --> 00:16:11,660
+the single deepest point in the entire Atlantic Ocean.
+
+267
+00:16:12,540 --> 00:16:16,460
+Sometimes a wreck is never found for the single most boring reason there is.
+
+268
+00:16:16,820 --> 00:16:18,960
+It is sitting five miles down.
+
+269
+00:16:20,320 --> 00:16:24,840
+Chapter 9, the theories that never held up and the ones still running right now.
+
+270
+00:16:25,880 --> 00:16:29,220
+You will hear that pockets of methane trapped under the seafloor could erupt without
+
+271
+00:16:29,220 --> 00:16:32,840
+warning and sink a ship or ignite into a fireball in the air above it.
+
+272
+00:16:33,280 --> 00:16:37,460
+A government geologist who studies exactly this kind of seafloor gas has said there is
+
+273
+00:16:37,460 --> 00:16:41,680
+no evidence of a release anything like that happening in this region in the last 15 ,000
+
+274
+00:16:41,680 --> 00:16:45,820
+years. You will hear that compasses go strange here,
+
+275
+00:16:45,820 --> 00:16:50,920
+that this is one of only two places on Earth where true north and magnetic north perfectly
+
+276
+00:16:50,920 --> 00:16:53,280
+align. That effect is real.
+
+277
+00:16:53,700 --> 00:16:58,800
+It is also basic navigational science taught to every sailor and pilot who has ever earned
+
+278
+00:16:58,800 --> 00:17:02,980
+a license and it exists at multiple longitudes scattered around the planet,
+
+279
+00:17:03,240 --> 00:17:04,920
+drifting slowly over time,
+
+280
+00:17:05,200 --> 00:17:07,320
+not fixed uniquely to this one triangle.
+
+281
+00:17:08,500 --> 00:17:12,820
+A real oceanographer at the University of Southampton went further than most and actually
+
+282
+00:17:12,820 --> 00:17:14,240
+tested a theory in a lab.
+
+283
+00:17:14,760 --> 00:17:18,800
+He proposed that storms converging from three directions at once could generate rogue
+
+284
+00:17:18,800 --> 00:17:24,200
+waves up to 100 feet tall and he built a scale model of a hull shaped like the USS Cyclops
+
+285
+00:17:24,200 --> 00:17:26,840
+and put it through a wave tank to see how it would behave.
+
+286
+00:17:28,280 --> 00:17:33,420
+The model showed real vulnerability to a wave snapping along overloaded hull like hers.
+
+287
+00:17:33,880 --> 00:17:36,440
+That is genuine, serious oceanography.
+
+288
+00:17:36,980 --> 00:17:39,900
+What it is not is unique to this stretch of water.
+
+289
+00:17:40,600 --> 00:17:44,680
+Storm convergence rogue waves are a documented hazard anywhere three weather systems
+
+290
+00:17:44,680 --> 00:17:48,140
+can meet at sea, not a phenomenon invented for this one triangle.
+
+291
+00:17:49,520 --> 00:17:54,560
+In 2014 a television programme showed satellite photos of strange hexagon
+
+292
+00:17:54,560 --> 00:17:58,800
+shaped clouds over the region and presented them as a newly solved piece of the mystery.
+
+293
+00:17:59,400 --> 00:18:04,240
+Microbursts the show called air bombs sudden violent downdrafts strong enough to sink
+
+294
+00:18:04,240 --> 00:18:09,360
+a ship or down a plane. The meteorologist who provided the original explanation
+
+295
+00:18:09,360 --> 00:18:12,240
+later told a reporter that what actually aired was,
+
+296
+00:18:12,560 --> 00:18:15,400
+in his own words, an editing job that was horrendous.
+
+297
+00:18:16,080 --> 00:18:19,600
+He said he had offered the network an illustrative straw man example,
+
+298
+00:18:19,980 --> 00:18:23,000
+never a solved mystery. They sold it as an answer anyway.
+
+299
+00:18:24,480 --> 00:18:28,700
+These hexagonal cloud formations turn up at plenty of other ocean locations worldwide.
+
+300
+00:18:29,300 --> 00:18:33,380
+That is the entire mechanism on camera admitted by the scientist involved.
+
+301
+00:18:33,900 --> 00:18:38,400
+A real detail stretched past what it can support for a better hour of television.
+
+302
+00:18:39,840 --> 00:18:42,780
+And the machine is still running today in real time.
+
+303
+00:18:43,260 --> 00:18:48,180
+A claim now circulates online about a sonar survey that supposedly found a perfectly
+
+304
+00:18:48,180 --> 00:18:51,440
+glassy geometric triangle carved into the seafloor.
+
+305
+00:18:51,940 --> 00:18:53,540
+No university has published it.
+
+306
+00:18:53,920 --> 00:18:55,860
+No named scientist stands behind it.
+
+307
+00:18:56,220 --> 00:18:58,200
+No actual study has ever been located.
+
+308
+00:18:58,760 --> 00:19:01,440
+It has every hallmark of being manufactured content,
+
+309
+00:19:01,440 --> 00:19:06,840
+not a real finding. The exact same pattern Vincent Gaddis started in 1964 is
+
+310
+00:19:06,840 --> 00:19:10,820
+still generating brand new fake evidence right now.
+
+311
+00:19:11,040 --> 00:19:14,400
+Chapter 10. Why we wanted it to be true in the first place.
+
+312
+00:19:15,900 --> 00:19:17,680
+None of this required anyone to be lying.
+
+313
+00:19:18,500 --> 00:19:21,440
+Exactly. A magazine writer needed a good cover story.
+
+314
+00:19:22,060 --> 00:19:25,800
+A television producer needed a satisfying ending before the credits rolled.
+
+315
+00:19:26,640 --> 00:19:29,240
+Every single link in that chain made sense on its own.
+
+316
+00:19:30,080 --> 00:19:32,120
+The mystery was never built by one person.
+
+317
+00:19:32,820 --> 00:19:34,420
+It was built by dozens of people,
+
+318
+00:19:34,700 --> 00:19:36,660
+each one making the story slightly better,
+
+319
+00:19:37,040 --> 00:19:42,440
+one retelling at a time. A documented storm is not a satisfying answer.
+
+320
+00:19:42,900 --> 00:19:47,280
+A structural flaw in a converted oil tanker is not a satisfying answer.
+
+321
+00:19:47,780 --> 00:19:49,800
+An honest, official, unknown,
+
+322
+00:19:50,240 --> 00:19:54,220
+twice, 13 months apart is not a satisfying answer.
+
+323
+00:19:54,720 --> 00:19:57,340
+A cursed triangle that swallows ships whole is.
+
+324
+00:19:57,700 --> 00:20:00,180
+The unsatisfying answer usually wins the argument.
+
+325
+00:20:00,580 --> 00:20:01,820
+It rarely wins the retelling.
+
+326
+00:20:03,180 --> 00:20:06,320
+That is not a flaw unique to this one triangle of ocean.
+
+327
+00:20:06,680 --> 00:20:11,160
+It's the same mechanism behind almost every manufactured mystery you'll ever be shown.
+
+328
+00:20:11,560 --> 00:20:13,200
+An editor who wants a better ending,
+
+329
+00:20:13,560 --> 00:20:17,220
+an author who trusts the last author's version instead of the primary record,
+
+330
+00:20:17,480 --> 00:20:21,260
+and an audience that would honestly rather believe in something strange than sit with
+
+331
+00:20:21,260 --> 00:20:25,220
+something merely tragic. Here's what stays with me.
+
+332
+00:20:25,700 --> 00:20:30,080
+Every single one of these cases that actually received a real investigation ended in
+
+333
+00:20:30,080 --> 00:20:31,500
+one of exactly two places.
+
+334
+00:20:31,820 --> 00:20:34,560
+A specific, documented, human explanation,
+
+335
+00:20:35,060 --> 00:20:37,320
+or an honest, official verdict of unknown.
+
+336
+00:20:38,840 --> 00:20:42,240
+Not one of them, not a single case in 80 years of records,
+
+337
+00:20:42,440 --> 00:20:44,240
+ever ended in anything paranormal.
+
+338
+00:20:45,100 --> 00:20:46,580
+Unknown does not mean unexplainable.
+
+339
+00:20:46,580 --> 00:20:48,700
+It means the wreckage was never recovered.
+
+340
+00:20:50,200 --> 00:20:51,960
+The real danger was never this water.
+
+341
+00:20:52,420 --> 00:20:55,640
+It was how easily a manufactured mystery outlives the boring,
+
+342
+00:20:55,860 --> 00:21:00,280
+sourced explanation that was sitting right there in the record the entire time for anyone
+
+343
+00:21:00,280 --> 00:21:01,380
+willing to go and read it.
+
+344
+00:21:02,620 --> 00:21:04,760
+If this made you rethink one ocean myth,
+
+345
+00:21:05,100 --> 00:21:09,420
+wait until you see the place on earth that is actually scarier than space and completely
+
+346
+00:21:09,420 --> 00:21:12,880
+real. That full story is on this channel right now.
+
+347
+00:21:14,000 --> 00:21:18,620
+Subscribe to Mind Wired. If any of this mess with your head a little,
+
+348
+00:21:18,700 --> 00:21:20,820
+that's exactly the point.
+
+349
+00:21:21,300 --> 00:21:24,300
+It only happens because people like you keep showing up.
+
+350
+00:21:25,340 --> 00:21:27,320
+Hit subscribe right now for it.
+
+351
+00:21:27,500 --> 00:21:31,840
+It costs you nothing and it's the entire reason Mind Wired keeps making videos like this.
+
+352
+00:21:32,180 --> 00:21:32,580
+Subscribe.
+

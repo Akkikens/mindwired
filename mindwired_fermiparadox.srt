@@ -1,0 +1,620 @@
+1
+00:00:00,333 --> 00:00:04,088
+July first, twenty twenty-five. Río Hurtado, Chile.
+
+2
+00:00:04,088 --> 00:00:14,282
+A telescope built to catch killer asteroids flags something else: light moving too fast to be one of ours.
+
+3
+00:00:15,400 --> 00:00:17,211
+Astronomers confirm it within days.
+
+4
+00:00:17,211 --> 00:00:23,370
+Only the third interstellar object ever detected, after one in twenty seventeen and one in twenty nineteen.
+
+5
+00:00:23,370 --> 00:00:32,066
+Its orbit is the most extreme of the three, tilted almost sideways, moving in the opposite direction of everything else in the solar system.
+
+6
+00:00:33,200 --> 00:00:41,992
+In the first days after discovery, early brightness estimates suggested it might be up to twenty kilometers wide, the largest interstellar object ever seen.
+
+7
+00:00:41,992 --> 00:00:48,586
+Weeks later, once the Hubble Space Telescope resolved it directly, that number collapsed to somewhere under six kilometers.
+
+8
+00:00:49,733 --> 00:00:56,012
+A Harvard astrophysicist takes one look at the numbers and says, in public, that it might not be a comet at all.
+
+9
+00:00:56,012 --> 00:00:57,439
+It might be a probe.
+
+10
+00:00:58,566 --> 00:01:02,772
+Four months later, NASA holds a press conference to answer him directly.
+
+11
+00:01:03,900 --> 00:01:07,699
+"This object is a comet," says NASA associate administrator Amit Kshatriya.
+
+12
+00:01:07,699 --> 00:01:13,226
+"It looks and behaves like a comet, and all evidence points towards it being a comet."
+
+13
+00:01:14,366 --> 00:01:21,183
+That argument, one scientist convinced we might not be alone, an entire agency convinced we are, is not new.
+
+14
+00:01:21,183 --> 00:01:26,565
+It is seventy-five years old, and it started, almost by accident, at a lunch table.
+
+15
+00:01:27,700 --> 00:01:29,189
+You're watching mindwired.
+
+16
+00:01:30,333 --> 00:01:49,010
+This is the real story of the Fermi Paradox: the offhand question that became a seventy-five-year argument, the real scientists who tried to answer it, and the two live, unresolved cases, one from twenty twenty-five, one still running in twenty twenty-six, that show exactly how close, and how far, we actually are.
+
+17
+00:01:50,133 --> 00:01:52,902
+Chapter one. The lunch nobody wrote down.
+
+18
+00:01:54,033 --> 00:01:57,053
+Summer, nineteen fifty. Los Alamos, New Mexico.
+
+19
+00:01:57,053 --> 00:02:06,546
+At a lunch table inside Fuller Lodge, physicist Enrico Fermi sits down with three colleagues: Emil Konopinski, Edward Teller, and Herbert York.
+
+20
+00:02:07,666 --> 00:02:23,392
+On the walk over, the four men had been talking about a New Yorker cartoon published a few months earlier: a flying saucer, and little green men carrying off the neighborhood's trash cans, poking fun at a real, minor nineteen fifty news story about missing garbage cans in New York City.
+
+21
+00:02:24,533 --> 00:02:30,699
+Then, with no warning, Fermi asked a question that had nothing to do with anything they'd been discussing.
+
+22
+00:02:30,699 --> 00:02:35,495
+Konopinski remembered it as, "But where is everybody?" Teller remembered the same four words.
+
+23
+00:02:35,495 --> 00:02:39,606
+York remembered it slightly differently: "Don't you ever wonder where everybody is?"
+
+24
+00:02:40,733 --> 00:02:44,075
+Everyone at the table understood immediately he meant extraterrestrials.
+
+25
+00:02:44,075 --> 00:02:57,817
+Fermi followed up with his own back-of-the-envelope math, the odds of other earth-like planets, the odds of life, the odds of intelligence, and concluded that, statistically, we should have been visited long ago, and many times over.
+
+26
+00:02:58,966 --> 00:03:05,990
+Here's the honest part almost nobody mentions: the three men who were actually there never agreed on when it happened.
+
+27
+00:03:05,990 --> 00:03:09,854
+York said nineteen fifty-one. Teller, separately, said probably before nineteen fifty.
+
+28
+00:03:09,854 --> 00:03:21,092
+A Los Alamos historian spent decades trying to pin the date down and settled on nineteen fifty, based on how fresh a cartoon still felt in one man's memory, thirty-four years later.
+
+29
+00:03:22,233 --> 00:03:25,379
+Fuller Lodge is still standing today, in downtown Los Alamos.
+
+30
+00:03:25,379 --> 00:03:29,469
+The actual room where this happened is a museum you can walk into.
+
+31
+00:03:30,599 --> 00:03:33,760
+Chapter two. The name took twenty-seven years to attach.
+
+32
+00:03:34,900 --> 00:03:38,626
+Fermi never published his question. He never gave it a name.
+
+33
+00:03:38,626 --> 00:03:45,741
+The idea just sat there, unrecorded, until a young astronomer named Carl Sagan mentioned it in a footnote thirteen years later.
+
+34
+00:03:46,866 --> 00:03:53,443
+In nineteen seventy-five, astronomer Michael Hart published the first rigorous version of the argument in a British astronomy journal.
+
+35
+00:03:53,443 --> 00:03:57,942
+His paper never once mentions Fermi's name. It never uses the word paradox.
+
+36
+00:03:59,066 --> 00:04:01,840
+Hart's argument didn't stop in nineteen seventy-five.
+
+37
+00:04:01,840 --> 00:04:10,952
+In nineteen eighty, physicist Frank Tipler extended it into what's now called the Hart-Tipler conjecture, an even harder-line version of the same case.
+
+38
+00:04:12,099 --> 00:04:21,504
+That same year as Hart's paper, engineer David Viewing published a separate paper that finally called it a paradox, and credited Fermi by name for asking the original question.
+
+39
+00:04:22,633 --> 00:04:39,795
+The exact phrase "Fermi's Paradox" didn't appear in print until nineteen seventy-seven, coined by physicist David Stephenson, who later admitted he only put quotation marks around it as, in his words, an apology for using a short, convenient label for a much messier argument.
+
+40
+00:04:40,933 --> 00:04:43,962
+The man everyone credits never wrote the paradox down.
+
+41
+00:04:43,962 --> 00:04:49,684
+Three other men, spread across two years, built the argument and gave it his name, without him.
+
+42
+00:04:50,833 --> 00:04:54,960
+Chapter three. The same argument got a formula eleven years later.
+
+43
+00:04:56,099 --> 00:05:06,326
+A year before that, Frank Drake had already run the very first real search for alien radio signals, Project Ozma, pointed at two nearby stars, spring of nineteen sixty.
+
+44
+00:05:06,326 --> 00:05:10,205
+It found nothing. But it proved the search itself was possible.
+
+45
+00:05:11,333 --> 00:05:14,203
+November first, nineteen sixty-one. Green Bank, West Virginia.
+
+46
+00:05:14,203 --> 00:05:22,095
+Drake gathers ten scientists for a meeting that would define how the search for alien life gets talked about, to this day.
+
+47
+00:05:23,233 --> 00:05:34,671
+On the first morning, Drake writes seven variables on a chalkboard: the rate stars form, the fraction with planets, the fraction that could support life, and so on, multiplied together into a single number.
+
+48
+00:05:34,671 --> 00:05:37,026
+It becomes known as the Drake Equation.
+
+49
+00:05:38,166 --> 00:05:43,939
+One variable in that equation is called L, how long a civilization survives before it goes silent.
+
+50
+00:05:43,939 --> 00:05:47,675
+Drake built it that way on purpose. It was nineteen sixty-one.
+
+51
+00:05:47,675 --> 00:05:50,731
+The Berlin Wall had gone up two months earlier.
+
+52
+00:05:50,731 --> 00:05:55,485
+Every scientist at that table was living through the real possibility of nuclear war.
+
+53
+00:05:56,633 --> 00:06:08,942
+A radio astronomer named Sebastian von Hoerner had already put a number on that fear, sixty percent, he estimated, was the chance any civilization wipes itself out with nuclear war once it reaches that stage.
+
+54
+00:06:08,942 --> 00:06:15,624
+Soviet astronomer Iosif Shklovskii later grew so convinced of it that he renounced the search for alien signals entirely.
+
+55
+00:06:16,766 --> 00:06:22,956
+In nineteen sixty-six, Shklovskii and Carl Sagan co-wrote an entire book built around that same uncertain lifespan.
+
+56
+00:06:22,956 --> 00:06:28,417
+Sagan brought the same warning to a mass television audience in nineteen eighty, on Cosmos.
+
+57
+00:06:29,566 --> 00:06:33,537
+Chapter four. We finally have real numbers to plug into that formula.
+
+58
+00:06:34,666 --> 00:06:37,061
+For years, the working number was tiny.
+
+59
+00:06:37,061 --> 00:06:45,272
+Of NASA's Kepler telescope's first thousand confirmed planets, only about a dozen were even close to Earth's size and sitting in the right zone.
+
+60
+00:06:46,399 --> 00:06:53,395
+For the first four decades after that chalkboard, nobody could fill in Drake's equation with anything but guesses.
+
+61
+00:06:53,395 --> 00:06:56,893
+There were zero confirmed planets outside our solar system.
+
+62
+00:06:56,893 --> 00:06:59,225
+Then, in nineteen ninety-five, that changed.
+
+63
+00:07:00,366 --> 00:07:07,915
+Thirty years later, NASA has confirmed more than six thousand exoplanets, with billions more believed to exist across the galaxy.
+
+64
+00:07:09,033 --> 00:07:23,061
+Narrow that down to planets actually sitting in the habitable zone, rocky, roughly Earth-sized, the right distance from their star, and a twenty twenty-six catalogue from Cornell's Carl Sagan Institute finds exactly forty-five real candidates.
+
+65
+00:07:24,199 --> 00:07:26,717
+Even that number is a moving target.
+
+66
+00:07:26,717 --> 00:07:35,710
+Depending on the study, the fraction of sun-like stars with a truly earth-like planet ranges anywhere from one percent to as high as forty percent.
+
+67
+00:07:35,710 --> 00:07:38,228
+We've never actually finished counting. We've extrapolated.
+
+68
+00:07:39,366 --> 00:07:46,890
+NASA's newer TESS telescope isn't overturning that picture, it's sharpening it, tightening the uncertainty around numbers Kepler could only estimate.
+
+69
+00:07:46,890 --> 00:07:52,532
+This is a number actively being worked on, right now, not one anybody's finished with.
+
+70
+00:07:53,666 --> 00:07:57,793
+Chapter five. Is the worst part behind us, or still ahead?
+
+71
+00:07:58,933 --> 00:08:06,090
+In nineteen ninety-six, an economist, not an astronomer, named Robin Hanson wrote an essay that reframed the entire question.
+
+72
+00:08:06,090 --> 00:08:17,767
+He called it the Great Filter: somewhere on the path from dead matter to a galaxy-spanning civilization, at least one step is so improbable that almost nothing ever makes it through.
+
+73
+00:08:18,899 --> 00:08:29,646
+His own words: "The easier it was for life to evolve to our stage, the bleaker our future chances probably are." If most of the filter is already behind us, our future is wide open.
+
+74
+00:08:29,646 --> 00:08:35,173
+If it's still ahead, something is coming that we haven't survived yet, in any case we know of.
+
+75
+00:08:36,300 --> 00:08:55,369
+Philosopher Nick Bostrom, then at Oxford's Future of Humanity Institute, took the ahead-of-us version seriously enough to publish a two thousand eight essay literally titled "Why I Hope the Search for Extraterrestrial Life Finds Nothing." Among his candidates for a filter still ahead of humanity: superintelligent artificial intelligence with destructive goals.
+
+76
+00:08:56,500 --> 00:08:59,819
+Not every scientist agrees a filter is even needed.
+
+77
+00:08:59,819 --> 00:09:14,942
+In twenty eighteen, three Oxford researchers argued the paradox might simply dissolve once you model real statistical uncertainty into Drake's equation, raising the odds that we are simply, quietly, alone in this galaxy to as high as ninety-nine point six percent.
+
+78
+00:09:16,066 --> 00:09:29,099
+Toby Ord, also of Oxford, later estimated our own generation faces roughly a one-in-six chance of civilization-ending catastrophe this century, nuclear war, engineered pandemics, and unaligned artificial intelligence among the largest contributors.
+
+79
+00:09:29,099 --> 00:09:36,023
+If a filter really is ahead of every civilization, we may be standing inside it right now.
+
+80
+00:09:37,166 --> 00:09:40,797
+Chapter six. Maybe the rare part isn't life. It's us.
+
+81
+00:09:41,933 --> 00:09:56,241
+Ward and Brownlee's collaborators went even further, proposing a Galactic Habitable Zone, the idea that only certain regions of the Milky Way, at the right distance from the crowded, radiation-heavy galactic center, can support complex life at all.
+
+82
+00:09:56,241 --> 00:10:08,291
+One of that paper's own co-authors later became linked to intelligent-design advocacy in a separate, far more controversial book, a reminder to judge each paper on its own record, not by association.
+
+83
+00:10:09,433 --> 00:10:16,550
+In the year two thousand, geologist Peter Ward and astronomer Donald Brownlee proposed a different answer entirely.
+
+84
+00:10:16,550 --> 00:10:19,900
+Simple microbial life, they argued, might be everywhere.
+
+85
+00:10:19,900 --> 00:10:24,924
+Complex life, anything bigger than a microbe, might be almost impossibly rare.
+
+86
+00:10:26,066 --> 00:10:40,512
+Their case rests on a list of coincidences: a moon just large enough to stabilize our planet's tilt, plate tectonics that recycle carbon and keep the climate survivable for billions of years, a magnetic field shielding the atmosphere from the sun's radiation.
+
+87
+00:10:41,633 --> 00:10:47,239
+They also argued Jupiter acts as a gravitational shield, sweeping up comets before they reach us.
+
+88
+00:10:47,239 --> 00:10:57,750
+A later three-part study directly challenged that claim, finding a Jupiter-sized planet doesn't clearly reduce the danger at all, for some kinds of impacts, it can even make things worse.
+
+89
+00:10:58,900 --> 00:11:01,689
+Other scientists pushed back hard on the whole idea.
+
+90
+00:11:01,689 --> 00:11:10,368
+One reviewer called it restrictive and unimaginative, a kind of circular reasoning that just describes the one planet we happen to live on, and calls it a rule.
+
+91
+00:11:11,500 --> 00:11:16,176
+Chapter seven. The theory that says silence might be the only rational choice.
+
+92
+00:11:17,300 --> 00:11:27,346
+In two thousand eight, Chinese novelist Liu Cixin, not a scientist, a novelist, published a science-fiction idea that would eventually leak into real scientific debate.
+
+93
+00:11:27,346 --> 00:11:35,384
+He called it the dark forest: every civilization is a silent, armed hunter, unable to ever verify another civilization's intentions.
+
+94
+00:11:35,384 --> 00:11:43,422
+So the only rational move is total silence, and the only rational response to being noticed is to strike first.
+
+95
+00:11:44,566 --> 00:11:52,271
+The idea itself is older than the novel, astronomer David Brin raised a nearly identical "deadly probes" concern back in nineteen eighty-three.
+
+96
+00:11:52,271 --> 00:12:03,479
+And it's the exact logic Avi Loeb reached for, in twenty twenty-five, when he floated the possibility that the object from our cold open could be reconnaissance, not just rock and ice.
+
+97
+00:12:04,600 --> 00:12:06,679
+But even Loeb doesn't claim certainty.
+
+98
+00:12:06,679 --> 00:12:11,532
+In his own words, this object is most likely a comet of natural origin.
+
+99
+00:12:11,532 --> 00:12:17,426
+He rates his own alien-technology hypothesis a four out of ten, on a scale he invented himself.
+
+100
+00:12:18,566 --> 00:12:27,140
+Penn State astronomer Jason Wright, who runs his own search for alien technology for a living, published a point-by-point rebuttal of every claimed anomaly.
+
+101
+00:12:27,140 --> 00:12:31,426
+Two separate radio observatories listened to the object during its closest approach.
+
+102
+00:12:31,426 --> 00:12:32,855
+Neither one heard anything.
+
+103
+00:12:34,000 --> 00:12:38,112
+A gentler version of the same silence idea came decades earlier.
+
+104
+00:12:38,112 --> 00:12:53,069
+In nineteen seventy-three, Harvard radio astronomer John Ball proposed the Zoo Hypothesis: maybe advanced civilizations already know we're here, and are simply choosing not to interfere, the way a visitor at a nature reserve watches without stepping inside the fence.
+
+105
+00:12:54,200 --> 00:12:57,190
+It's a real, citable, seriously discussed idea.
+
+106
+00:12:57,190 --> 00:13:01,035
+It's also, by its own logic, impossible to disprove.
+
+107
+00:13:01,035 --> 00:13:07,444
+Any silence at all is consistent with a civilization that's simply choosing to watch quietly.
+
+108
+00:13:08,566 --> 00:13:19,843
+Physicist Stephen Hawking made a similar argument in a very different context, back in twenty ten, warning that broadcasting our location to the universe could be like Native Americans first encountering Columbus.
+
+109
+00:13:19,843 --> 00:13:27,243
+He never used the phrase "dark forest." The novel that coined it wouldn't be translated into English for another five years.
+
+110
+00:13:28,366 --> 00:13:32,292
+That same caution shows up in a real, non-fictional policy fight.
+
+111
+00:13:32,292 --> 00:13:50,492
+In the twenty-tens, several senior scientists linked to the search for alien signals resigned from committees to protest loosened rules on deliberately transmitting messages toward other stars, arguing that broadcasting our location, without asking the rest of the planet first, is a risk no single group has the right to take.
+
+112
+00:13:51,633 --> 00:13:54,559
+Chapter eight. The signal that almost was.
+
+113
+00:13:55,700 --> 00:14:03,907
+One hundred and twenty-four light-years away, there's a planet called K2-18b, bigger than Earth, smaller than Neptune, sitting in its star's habitable zone.
+
+114
+00:14:03,907 --> 00:14:12,471
+For three straight years, it has been at the center of the closest real scientific fight over whether we've actually detected life anywhere else.
+
+115
+00:14:13,600 --> 00:14:14,791
+September twenty twenty-three.
+
+116
+00:14:14,791 --> 00:14:31,468
+Cambridge astronomer Nikku Madhusudhan's team uses the James Webb Space Telescope and detects methane and carbon dioxide in its atmosphere, plus a faint, tentative hint of something else: dimethyl sulfide, a gas that, on Earth, is produced almost exclusively by marine microbes.
+
+117
+00:14:32,600 --> 00:14:33,767
+April twenty twenty-five.
+
+118
+00:14:33,767 --> 00:14:41,943
+The same team publishes a new observation with a different instrument, reporting the signal again, this time at roughly three-sigma confidence.
+
+119
+00:14:41,943 --> 00:14:48,561
+Cambridge's own press release calls it "the strongest hints yet of biological activity outside the solar system."
+
+120
+00:14:49,700 --> 00:14:51,113
+Madhusudhan himself was careful.
+
+121
+00:14:51,113 --> 00:15:04,191
+"It's important that we're deeply sceptical of our own results," he said, "because it's only by testing and testing again that we will be able to reach the point where we're confident in them." Three-sigma sounds impressive.
+
+122
+00:15:04,191 --> 00:15:07,019
+A real discovery claim in physics needs five.
+
+123
+00:15:08,166 --> 00:15:13,215
+Within weeks, NASA scientist Renyu Hu re-analyzed the same data with additional observations.
+
+124
+00:15:13,215 --> 00:15:25,642
+He confirmed the methane and carbon dioxide again, but found the dimethyl sulfide signal only marginal, and identified ordinary, non-biological chemistry that could produce the same gas without any life at all.
+
+125
+00:15:26,766 --> 00:15:31,997
+Two more independent teams ran the exact same raw data through their own statistical models.
+
+126
+00:15:31,997 --> 00:15:41,065
+One found the signal supported in just twelve and a half percent of their tests, and traced most of it to unresolved instrument noise, not chemistry.
+
+127
+00:15:41,065 --> 00:15:46,645
+Their conclusion, in their own words: "there is, as yet, no statistically significant evidence for biosignatures."
+
+128
+00:15:47,766 --> 00:15:53,625
+By March twenty twenty-six, the newest paper on K2-18b doesn't even try to settle the biosignature question anymore.
+
+129
+00:15:53,625 --> 00:16:04,040
+It argues the more basic physics of the planet, what its interior is even made of, has to be nailed down first, before anyone can evaluate a claim like this at all.
+
+130
+00:16:05,166 --> 00:16:20,433
+So here is where it actually stands, right now: a real signal, detected twice, by the same team, using real telescope data, that has so far failed to survive three independent attempts to reproduce it.
+
+131
+00:16:20,433 --> 00:16:23,922
+Not disproven. Not confirmed. Genuinely, actively, still open.
+
+132
+00:16:25,066 --> 00:16:28,148
+Chapter nine. Back to the object that started this video.
+
+133
+00:16:29,266 --> 00:16:36,681
+The interstellar object from our cold open passed its closest point to the sun at the end of October twenty twenty-five, and it has been fading ever since.
+
+134
+00:16:36,681 --> 00:16:41,183
+By December it required a serious telescope just to see at all. It will never come back.
+
+135
+00:16:41,183 --> 00:16:48,597
+It is now heading out of our solar system for good, on a path that will not bring it near the inner planets again for thousands of years.
+
+136
+00:16:49,733 --> 00:16:51,411
+But the story isn't closed.
+
+137
+00:16:51,411 --> 00:17:07,522
+New peer-reviewed papers on this object kept publishing well into twenty twenty-six, a methane detection in June, and a study months earlier, in May, of unusually heavy water that the researchers themselves say points to the object forming around a much older, colder star than our own sun.
+
+138
+00:17:08,666 --> 00:17:10,833
+And Avi Loeb is still posting.
+
+139
+00:17:10,833 --> 00:17:14,444
+His tally of "anomalies" kept growing well into twenty twenty-six.
+
+140
+00:17:14,444 --> 00:17:16,971
+Jason Wright's rebuttals kept coming right back.
+
+141
+00:17:16,971 --> 00:17:20,943
+As of this video, that argument has no scheduled end date.
+
+142
+00:17:22,066 --> 00:17:37,948
+Astronomer Nathalie Cabrol, who leads the search for life at the Carl Sagan Center, put the bigger shift in perspective: "Planets became the rule, not the exception." Every year, the old excuse, that maybe habitable planets are just rare, gets a little harder to use.
+
+143
+00:17:39,066 --> 00:17:41,288
+Here's what actually stays with me.
+
+144
+00:17:41,288 --> 00:17:49,436
+Two real, live cases, one object, one planet, got about as close as anyone alive has ever gotten to answering this question.
+
+145
+00:17:49,436 --> 00:17:55,732
+And both of them, honestly, ended in the exact same place: not yes, not no. Still open.
+
+146
+00:17:56,866 --> 00:17:58,261
+That's not a failure.
+
+147
+00:17:58,261 --> 00:18:05,933
+Seventy-five years ago, this entire argument existed because one physicist asked a question at lunch that nobody could even begin to test.
+
+148
+00:18:05,933 --> 00:18:12,559
+Today, we have real telescopes pointed at real atmospheres, a hundred and twenty-four light-years away, arguing over real data.
+
+149
+00:18:12,559 --> 00:18:14,303
+We haven't answered Fermi's question.
+
+150
+00:18:14,303 --> 00:18:17,790
+We've finally earned the right to actually ask it properly.
+
+151
+00:18:18,933 --> 00:18:21,532
+Fermi never got his answer. Neither have we.
+
+152
+00:18:21,532 --> 00:18:32,255
+But for the first time since that lunch table in nineteen fifty, we're close enough to be genuinely, uncomfortably unsure, and that unsureness is the most honest place this question has ever been.
+
+153
+00:18:33,400 --> 00:18:44,773
+If two live cases like this got under your skin, wait until you see the message we already sent out into the dark, on purpose, in nineteen seventy-seven, and what would actually happen if anyone ever found it.
+
+154
+00:18:44,773 --> 00:18:47,767
+That full story is live on this channel right now.
+
+155
+00:18:48,900 --> 00:18:50,546
+Subscribe to mindwired.
+

@@ -16,6 +16,7 @@ Sources needing free keys degrade gracefully when the key is absent:
 """
 from __future__ import annotations
 
+import base64
 import html
 import json
 import os
@@ -34,6 +35,9 @@ TARGET_H = 1080
 UA = {"User-Agent": "mindwired-footage/1.0 (archival fetcher; akshay@climbtogether.co)"}
 REJECT = ("nc", "nd", "noncommercial", "noderiv")
 IMG_EXT = {".jpg", ".jpeg", ".png", ".webp"}
+# vision relevance check (2026-08-21) — on by default; --no-verify / VERIFY=False
+# skips it (e.g. no GEMINI_API_KEY, or a fast/dry run)
+VERIFY = True
 
 
 # ---------------------------------------------------------------- normalization
@@ -783,12 +787,129 @@ def log_attribution(out_dir: Path, dst_name: str, a: Asset) -> None:
         f.write(norm_title(a.title) + "\n")
 
 
+# --------------------------------------------------------- vision relevance check
+
+# rank_by_query is pure lexical overlap on TITLE/description/filename — it has
+# no idea what the file actually SHOWS, so a source's own full-text search can
+# hand it something that scores well on words alone (a NASA gamma-ray telescope
+# named "Fermi" for a query about the physicist Fermi; "Arecibo Observatory
+# Radar Imagery of [an asteroid]" for a query wanting a photo OF the dish).
+# This asks an actual vision model to look at the downloaded file and confirm
+# it shows what the query says, before it's allowed to count toward `count`.
+_GEMINI_VERIFY_MODEL = os.environ.get("GEMINI_VERIFY_MODEL", "gemini-2.5-flash")
+_GEMINI_ENDPOINT = ("https://generativelanguage.googleapis.com/v1beta/models/"
+                    "{model}:generateContent")
+_gemini_key_cache: str | None = None
+_gemini_key_missing_warned = False
+
+
+def _load_gemini_key() -> str | None:
+    global _gemini_key_cache, _gemini_key_missing_warned
+    if _gemini_key_cache:
+        return _gemini_key_cache
+    key = os.environ.get("GEMINI_API_KEY")
+    if not key:
+        env = REPO / ".env"
+        if env.exists():
+            for line in env.read_text(encoding="utf-8").splitlines():
+                if line.strip().startswith("GEMINI_API_KEY="):
+                    key = line.split("=", 1)[1].strip().strip('"')
+                    break
+    if not key and not _gemini_key_missing_warned:
+        print("  !! GEMINI_API_KEY not set — skipping vision relevance checks "
+              "(fetched files are NOT auto-verified; eyeball the contact sheet)")
+        _gemini_key_missing_warned = True
+    _gemini_key_cache = key or ""
+    return _gemini_key_cache or None
+
+
+def _frame_for_verify(path: Path) -> Path | None:
+    """A still to hand the vision model: the image itself, or one video frame
+    (~30% in, past any title/slate card) downscaled so the request stays small
+    and fast."""
+    try:
+        from PIL import Image
+    except ImportError:
+        return None
+    tmp = Path(tempfile.mktemp(suffix=".jpg"))
+    try:
+        if path.suffix.lower() == ".mp4":
+            dur = ffprobe_duration(path)
+            at = max(0.5, min(dur * 0.3, 8.0)) if dur else 1.0
+            r = subprocess.run(["ffmpeg", "-y", "-v", "error", "-ss", f"{at:.1f}",
+                                "-i", str(path), "-frames:v", "1", str(tmp)])
+            if r.returncode != 0 or not tmp.exists():
+                return None
+            im = Image.open(tmp).convert("RGB")
+        else:
+            im = Image.open(path).convert("RGB")
+        im.thumbnail((768, 768))
+        im.save(tmp, "JPEG", quality=85)
+        return tmp
+    except Exception:
+        return None
+
+
+def verify_relevance(query: str, path: Path, title: str = "") -> tuple[bool, str]:
+    """Ask Gemini whether `path` actually shows what `query` (+ optional source
+    `title`) describes. Returns (passed, reason). Fails OPEN (passed=True) on
+    any error/missing key/missing PIL — a flaky verifier must never block the
+    whole pipeline, it only removes a positive signal."""
+    key = _load_gemini_key()
+    if not VERIFY or not key:
+        return True, "verification skipped"
+    frame = _frame_for_verify(path)
+    if frame is None:
+        return True, "no frame extracted"
+    try:
+        mime = "image/jpeg"
+        data = base64.b64encode(frame.read_bytes()).decode()
+        prompt = (
+            "You are a strict fact-checker for a documentary's stock-footage pool. "
+            f"The editor searched for: \"{query}\"."
+            + (f" The source's own title/caption for this file is: \"{title}\"." if title else "")
+            + " Look at the attached image (a video frame or the photo itself) and judge "
+              "ONLY what is visibly depicted — ignore the title/caption if it contradicts "
+              "what you actually see. Answer on the first line with exactly one word, "
+              "MATCH or MISMATCH, then a second line with a one-sentence reason. MATCH means "
+              "the image genuinely shows the subject searched for (the right object/person/"
+              "place/event, not just a thematically-similar stand-in). MISMATCH means it "
+              "shows something else (wrong subject, wrong specific entity, unrelated stock "
+              "photo, or a chart/diagram/screenshot instead of a real photo when a real "
+              "photo was wanted)."
+        )
+        body = {
+            "contents": [{"parts": [
+                {"text": prompt},
+                {"inline_data": {"mime_type": mime, "data": data}},
+            ]}],
+            "generationConfig": {"temperature": 0, "maxOutputTokens": 60},
+        }
+        r = httpx.post(_GEMINI_ENDPOINT.format(model=_GEMINI_VERIFY_MODEL),
+                       params={"key": key}, json=body, timeout=30)
+        r.raise_for_status()
+        out = r.json()["candidates"][0]["content"]["parts"][0]["text"].strip()
+        first_line = out.splitlines()[0].strip().upper()
+        passed = first_line.startswith("MATCH")
+        reason = out.splitlines()[1].strip() if len(out.splitlines()) > 1 else out
+        return passed, reason
+    except Exception as e:  # noqa: BLE001 — fail open, never kill the fetch run
+        return True, f"verify error ({e.__class__.__name__}) — kept unverified"
+    finally:
+        frame.unlink(missing_ok=True)
+
+
 def download_assets(assets: list[Asset], out_dir: Path, prefix: str, count: int,
                     max_seconds: int = 20, min_width: int = 800, max_h: int = 1080,
+                    query: str = "",
                     ) -> list[tuple[Path, Asset]]:
     """Download up to `count` assets as <prefix>_N.<ext>, resuming numbering after
     existing files (idempotent). Videos are transcoded; images saved as-is.
-    Returns (path, asset) pairs for what was actually saved."""
+    When `query` is given (and VERIFY is on + GEMINI_API_KEY is set), each saved
+    file is vision-checked against it before it counts toward `count` — a
+    MISMATCH is deleted and the loop moves to the next candidate instead of
+    silently keeping a wrong-subject file. Returns (path, asset) pairs for what
+    was actually saved and passed verification."""
     out_dir.mkdir(parents=True, exist_ok=True)
     media = assets[0].media if assets else "video"
     kind_ext = {".mp4"} if media == "video" else IMG_EXT
@@ -843,6 +964,12 @@ def download_assets(assets: list[Asset], out_dir: Path, prefix: str, count: int,
             except Exception as e:  # noqa: BLE001 — skip broken items, keep going
                 print(f"  skip ({e.__class__.__name__}): {a.title[:50]}")
                 continue
+            if query:
+                ok_rel, reason = verify_relevance(query, dst, a.title)
+                if not ok_rel:
+                    dst.unlink(missing_ok=True)
+                    print(f"  !! MISMATCH (vision check): {a.title[:50]} — {reason}")
+                    continue
             n += 1
             saved.append((dst, a))
             batch_titles.add(norm_title(a.title))

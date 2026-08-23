@@ -1,0 +1,672 @@
+1
+00:00:00,180 --> 00:00:05,580
+April 13th 1970 200 ,000 miles from Earth Mission
+
+2
+00:00:05,580 --> 00:00:10,640
+Control gives Apollo 13 a routine order they have followed a dozen times already Stir
+
+3
+00:00:10,640 --> 00:00:15,680
+the oxygen tanks Two minutes later the spacecraft slams sideways
+
+4
+00:00:15,680 --> 00:00:17,780
+This is the real radio call,
+
+5
+00:00:17,860 --> 00:00:20,900
+not the line from the movie Jack Swigert Ok,
+
+6
+00:00:21,260 --> 00:00:26,300
+Houston, I believe we've had a problem here 14 minutes after that,
+
+7
+00:00:26,380 --> 00:00:30,360
+Commander Jim Lovell looks out the window and watches his own oxygen boiling away into
+
+8
+00:00:30,360 --> 00:00:35,500
+space with no way yet to know if any of them will make it home Everyone thinks
+
+9
+00:00:35,500 --> 00:00:40,040
+they know this story Almost none of it happened the way the movie says This is the actual
+
+10
+00:00:40,040 --> 00:00:45,380
+transcript, the real crew and the last man alive who was on that spacecraft because
+
+11
+00:00:45,380 --> 00:00:50,440
+the other two are gone You're watching Mind Wired This is
+
+12
+00:00:50,440 --> 00:00:55,320
+the real story of Apollo 13 The actual transcript behind the movie's most famous lines
+
+13
+00:00:55,320 --> 00:00:59,840
+The exact wiring failure that nearly killed three men and what happened to the crew in
+
+14
+00:00:59,840 --> 00:01:05,520
+the 56 years since including two real events from just the last year 12
+
+15
+00:01:05,520 --> 00:01:10,480
+boys and their coach were never on this flight Apollo 13 carried three men Commander
+
+16
+00:01:10,480 --> 00:01:15,720
+Jim Lovell on his second trip to the moon Lunar Module Pilot Fred Haise on his first
+
+17
+00:01:15,720 --> 00:01:21,240
+space flight and Command Module Pilot Jack Swigert who was not even supposed to be there
+
+18
+00:01:22,020 --> 00:01:27,440
+72 hours before launch, backup astronaut Charlie Duke came down with German measles Prime
+
+19
+00:01:27,440 --> 00:01:32,840
+Pilot Ken Mattingly had never had the disease Lovell and Haise were already immune Mattingly
+
+20
+00:01:32,840 --> 00:01:38,760
+was not, so NASA pulled him from his own flight and flew Swigert in his place Mattingly
+
+21
+00:01:38,760 --> 00:01:44,120
+never got sick Instead, he spent the entire crisis on the ground helping write the exact
+
+22
+00:01:44,120 --> 00:01:49,320
+procedure that would bring the spacecraft back to life April 11th,
+
+23
+00:01:49,320 --> 00:01:54,640
+1970, 2 .13pm Apollo 13 lifts off from Kennedy Space Center
+
+24
+00:01:54,640 --> 00:02:00,500
+headed for a place no crew had tried to land before the Fra Moro Highlands By
+
+25
+00:02:00,500 --> 00:02:05,520
+this point in the Apollo program two crews had already landed on the moon the public
+
+26
+00:02:05,520 --> 00:02:08,080
+had started calling it routine That night,
+
+27
+00:02:08,420 --> 00:02:13,460
+the major television networks did not carry the crew's live broadcast they aired regular
+
+28
+00:02:13,460 --> 00:02:18,540
+programming instead The mission everyone assumed would be the boring one became
+
+29
+00:02:18,540 --> 00:02:23,720
+the one nobody has ever stopped talking about Lovell's target wasn't even the flat,
+
+30
+00:02:24,220 --> 00:02:29,220
+easy ground the first two landings used Apollo 13 was aiming for the Fra Moro
+
+31
+00:02:29,220 --> 00:02:33,900
+Highlands rougher terrain nobody had tried to put a spacecraft down on because scientists
+
+32
+00:02:33,900 --> 00:02:39,080
+believed it held rock from deep in the moon's early history Two days into
+
+33
+00:02:39,080 --> 00:02:43,820
+the flight with the crew already past the moon's halfway point Mission Control had no
+
+34
+00:02:43,820 --> 00:02:47,880
+idea the tank that would nearly kill all three of them had already failed a ground test
+
+35
+00:02:47,880 --> 00:02:52,240
+three weeks before launch and been fixed with a shortcut nobody flagged as dangerous
+
+36
+00:02:53,260 --> 00:02:58,460
+The failure did not begin in space It began two years earlier on the ground
+
+37
+00:02:58,460 --> 00:03:03,780
+in a mistake nobody at the time thought mattered October
+
+38
+00:03:03,780 --> 00:03:09,420
+1968 Oxygen Tank 2 is being removed from an earlier spacecraft for a modification A
+
+39
+00:03:09,420 --> 00:03:15,500
+bolt is left in place, a lifting fixture breaks The tank drops two inches It
+
+40
+00:03:15,500 --> 00:03:21,020
+passes every test afterward NASA installs it in the spacecraft that will fly Apollo 13
+
+41
+00:03:21,620 --> 00:03:26,860
+Nobody knows anything is wrong March 1970 Three and a half weeks
+
+42
+00:03:26,860 --> 00:03:31,900
+before launch During a routine ground test Oxygen Tank 2 will not fully
+
+43
+00:03:31,900 --> 00:03:36,960
+drain Not once Technicians try again on different days It won't go below
+
+44
+00:03:36,960 --> 00:03:42,040
+92 % So they improvise a fix They switch on the tank's
+
+45
+00:03:42,040 --> 00:03:47,320
+internal heaters using ground power at 65 volts for eight cumulative hours to
+
+46
+00:03:47,320 --> 00:03:52,320
+boil the oxygen out through brute force The tank's safety thermostat is only
+
+47
+00:03:52,320 --> 00:03:57,360
+rated for 28 volts the normal voltage in flight Nobody had ever retested
+
+48
+00:03:57,360 --> 00:04:02,760
+it at 65 Under that much power the switch does not open like it's supposed to It
+
+49
+00:04:02,760 --> 00:04:06,340
+welds itself shut Inside a sealed,
+
+50
+00:04:06,580 --> 00:04:11,500
+welded tank nobody can see into The heat destroys the Teflon insulation on the wiring
+
+51
+00:04:11,500 --> 00:04:17,880
+The damage is invisible from the outside The pre -launch review never catches it Fifty
+
+52
+00:04:17,880 --> 00:04:23,040
+-five hours, 52 minutes into the mission A routine alarm goes off Low pressure
+
+53
+00:04:23,040 --> 00:04:28,300
+in an unrelated hydrogen tank It is nothing serious But it means Mission Control
+
+54
+00:04:28,300 --> 00:04:33,460
+asks for one more housekeeping task We'd like you to stir up your cryo
+
+55
+00:04:33,460 --> 00:04:38,280
+tanks Capcom, Jack Lousmer radios up It is a request the crew has carried out dozens
+
+56
+00:04:38,280 --> 00:04:43,520
+of times on this flight alone Swigert flips the switch Inside oxygen
+
+57
+00:04:43,520 --> 00:04:48,840
+tank two, the damaged wiring arcs It ignites the pure oxygen atmosphere inside
+
+58
+00:04:48,840 --> 00:04:51,740
+the tank Fifty -five hours,
+
+59
+00:04:52,120 --> 00:04:57,180
+54 minutes, 53 seconds The tank ruptures It blows an
+
+60
+00:04:57,180 --> 00:05:01,780
+entire panel off the side of the spacecraft and damages the only other oxygen tank on
+
+61
+00:05:01,780 --> 00:05:06,960
+board Okay, Houston, I believe we've had a problem here That is the real
+
+62
+00:05:06,960 --> 00:05:09,200
+line Not, we have a problem,
+
+63
+00:05:09,560 --> 00:05:14,680
+Swigert said it first in the past tense and added one word the movie always leaves out,
+
+64
+00:05:14,860 --> 00:05:17,960
+here Fifteen seconds later,
+
+65
+00:05:18,360 --> 00:05:20,020
+Lovell repeats it More precisely,
+
+66
+00:05:20,180 --> 00:05:24,780
+we've had a main B bus undervolt In Mission Control,
+
+67
+00:05:24,980 --> 00:05:29,820
+an engineer named Cy Liebergot is the first to understand what the numbers mean I've
+
+68
+00:05:29,820 --> 00:05:31,540
+got a feeling we've lost two fuel cells,
+
+69
+00:05:31,640 --> 00:05:36,120
+he says I hate to put it that way Within two minutes,
+
+70
+00:05:36,480 --> 00:05:41,260
+the spacecraft loses all three fuel cells and both oxygen tanks The command module that
+
+71
+00:05:41,260 --> 00:05:46,480
+was supposed to carry them home is now dying There is no single voice giving
+
+72
+00:05:46,480 --> 00:05:51,540
+the order to abort One flight director wants to turn back immediately Flight director
+
+73
+00:05:51,540 --> 00:05:56,380
+Gene Kranz and his deputy argue for a few more minutes first to actually understand what
+
+74
+00:05:56,380 --> 00:06:01,380
+just happened before making a decision they can't undo The line NASA
+
+75
+00:06:01,380 --> 00:06:06,960
+is famous for failure is not an option was never said that night it was written 25
+
+76
+00:06:06,960 --> 00:06:12,100
+years later for the movie What Kranz actually told his team was different and just as
+
+77
+00:06:12,100 --> 00:06:16,780
+certain I have never lost an American in space sure as hell aren't going to lose one
+
+78
+00:06:16,780 --> 00:06:22,040
+now this crew is coming home There is only one part of the spacecraft
+
+79
+00:06:22,040 --> 00:06:27,060
+that still has power, oxygen and an engine The lunar module built to land
+
+80
+00:06:27,060 --> 00:06:32,340
+two men on the moon for two days it now has to keep three men alive for four
+
+81
+00:06:33,040 --> 00:06:38,040
+Before the accident, the spacecraft was not even aimed at Earth it was on a path
+
+82
+00:06:38,040 --> 00:06:43,360
+meant to reach the moon and land not to come home without another engine burn it
+
+83
+00:06:43,360 --> 00:06:48,540
+would miss Earth by nearly 3 ,000 miles Lovell manually fires
+
+84
+00:06:48,540 --> 00:06:53,540
+the lunar module's landing engine for 35 seconds putting the spacecraft back on a path
+
+85
+00:06:53,540 --> 00:06:59,380
+that will loop the moon and coast home on gravity alone if nothing else is done A
+
+86
+00:06:59,380 --> 00:07:04,380
+second burn, 4 minutes and 24 seconds long speeds the return by 10 hours
+
+87
+00:07:04,380 --> 00:07:09,540
+Lovell flies it by hand using the line between day and night on Earth as his only guide
+
+88
+00:07:09,540 --> 00:07:14,560
+because the guidance computer has been shut off to save power The man
+
+89
+00:07:14,560 --> 00:07:19,600
+who lost his seat to a measles scare Ken Mattingly spends the entire crisis on the
+
+90
+00:07:19,600 --> 00:07:23,920
+ground helping design the exact power -up sequence that will bring the command module
+
+91
+00:07:23,920 --> 00:07:28,940
+back to life days later The astronaut who never got to fly ends up being one of the
+
+92
+00:07:28,940 --> 00:07:34,100
+reasons the other three make it home Three men breathing in a space built for two
+
+93
+00:07:34,100 --> 00:07:39,160
+creates a new problem carbon dioxide climbing toward a lethal level with
+
+94
+00:07:39,160 --> 00:07:44,400
+the wrong shaped air filters to fix it On the ground a NASA engineer
+
+95
+00:07:44,400 --> 00:07:48,700
+named Ed Smiley and his team build a fix out of what the astronauts already have on board
+
+96
+00:07:48,700 --> 00:07:53,840
+two square air filters a plastic bag cardboard torn from a flight manual and
+
+97
+00:07:53,840 --> 00:07:59,020
+a roll of tape They read the instructions up to the crew piece by piece
+
+98
+00:07:59,020 --> 00:08:04,220
+Swigert builds it by hand in zero gravity in a spacecraft that is now freezing
+
+99
+00:08:05,280 --> 00:08:10,360
+It works within minutes The command module has been powered down and
+
+100
+00:08:10,360 --> 00:08:15,540
+freezing since the night of the explosion To survive re -entry it has to be turned back
+
+101
+00:08:15,540 --> 00:08:20,980
+on Using a procedure NASA has never had to write before Normally,
+
+102
+00:08:21,340 --> 00:08:26,100
+powering up a spacecraft from a cold stop takes three months of planning Mission Control
+
+103
+00:08:26,100 --> 00:08:31,140
+writes this one from scratch in three days By now the cabin temperature has
+
+104
+00:08:31,140 --> 00:08:36,240
+dropped near freezing Every window is coated in condensation The crew has had almost
+
+105
+00:08:36,240 --> 00:08:41,420
+no food or sleep in four days Following the new checklist line by
+
+106
+00:08:41,420 --> 00:08:47,160
+line the crew brings the command module back to life one system at a time By
+
+107
+00:08:47,160 --> 00:08:52,200
+now, the men have barely eaten or slept in four days in a cabin so cold
+
+108
+00:08:52,200 --> 00:08:57,840
+that Swigert reports the temperature near 45 degrees Every window fogged with condensation
+
+109
+00:08:57,840 --> 00:09:03,200
+Nobody on that spacecraft trained for this Nobody could have April
+
+110
+00:09:03,200 --> 00:09:08,400
+17th, 1970 The spacecraft begins re -entry Radio contact
+
+111
+00:09:08,400 --> 00:09:13,560
+is expected to go silent for three minutes and 38 seconds It runs almost twice
+
+112
+00:09:13,560 --> 00:09:16,320
+that long In Mission Control,
+
+113
+00:09:16,760 --> 00:09:20,520
+nobody says it out loud but everyone is thinking the same thing The heat shield,
+
+114
+00:09:20,720 --> 00:09:21,960
+damaged by the explosion,
+
+115
+00:09:22,080 --> 00:09:27,320
+might have failed Then, at just over six minutes the radio comes
+
+116
+00:09:27,320 --> 00:09:33,060
+back Parachutes open The command module lands in the South Pacific three
+
+117
+00:09:33,060 --> 00:09:38,520
+miles from the recovery ship A helicopter lifts all three men out of the ocean and
+
+118
+00:09:38,520 --> 00:09:43,760
+onto the deck of the USS Iwo Jima The radio call back to Houston is four words
+
+119
+00:09:43,760 --> 00:09:48,960
+long His condition is excellent 87 hours after
+
+120
+00:09:48,960 --> 00:09:53,740
+a routine command triggered an explosion 200 ,000 miles from home all three men walk
+
+121
+00:09:53,740 --> 00:09:58,820
+away NASA convened its own investigation within hours of splashdown
+
+122
+00:09:58,820 --> 00:10:04,060
+eight people led by engineer Edgar Cortright including Apollo 11's own Neil
+
+123
+00:10:04,060 --> 00:10:06,980
+Armstrong Two months later,
+
+124
+00:10:06,980 --> 00:10:12,160
+their report reached one conclusion in NASA's own words The accident was not
+
+125
+00:10:12,160 --> 00:10:16,720
+the result of a chance malfunction but the result of an unusual combination of mistakes
+
+126
+00:10:16,720 --> 00:10:21,920
+coupled with a somewhat deficient and unforgiving design One dropped
+
+127
+00:10:21,920 --> 00:10:27,120
+tank One untested voltage One welded switch Nobody broke a rule
+
+128
+00:10:27,120 --> 00:10:31,640
+Nobody was careless in the moment The failure was built years before anyone stirred a
+
+129
+00:10:31,640 --> 00:10:36,840
+single tank NASA's fix wasn't a warning label Every later
+
+130
+00:10:36,840 --> 00:10:41,960
+Apollo command module flew with a third physically separated oxygen tank fuel
+
+131
+00:10:41,960 --> 00:10:46,640
+cells that could be individually isolated and wiring rerouted away from the tank walls
+
+132
+00:10:46,640 --> 00:10:51,740
+entirely None of the four crewed Apollo missions that followed ever had another
+
+133
+00:10:51,740 --> 00:10:55,580
+in -flight failure like it Twelve years later,
+
+134
+00:10:55,760 --> 00:11:00,460
+Jack Swigert was elected to the United States Congress He never took his seat He had
+
+135
+00:11:00,460 --> 00:11:05,880
+been diagnosed with bone cancer during the campaign and died in December 1982 one
+
+136
+00:11:05,880 --> 00:11:10,960
+week before he would have been sworn in Jim Lovell commanded Apollo 13 and
+
+137
+00:11:10,960 --> 00:11:15,820
+never flew in space again He died at home in Illinois in August of last year at the age
+
+138
+00:11:15,820 --> 00:11:20,820
+of 97 He was our hero, his family said We
+
+139
+00:11:20,820 --> 00:11:25,720
+will miss his unshakable optimism his sense of humor and the way he made each of us feel
+
+140
+00:11:25,720 --> 00:11:30,900
+we could do the impossible Fred Heisz is now the only member of the crew still
+
+141
+00:11:30,900 --> 00:11:36,120
+alive He is 92 years old and he still makes public appearances still
+
+142
+00:11:36,120 --> 00:11:41,760
+answers questions about the mission that nearly killed him 56 years ago None
+
+143
+00:11:41,760 --> 00:11:46,160
+of the three men ever flew in space again after this mission For all three of them,
+
+144
+00:11:46,300 --> 00:11:51,660
+the flight that almost killed them was also the last one they ever made Two
+
+145
+00:11:51,660 --> 00:11:56,660
+months before he died, Jim Lovell recorded one more message for a crew that hadn't launched
+
+146
+00:11:56,660 --> 00:11:59,580
+yet April 6th of this year,
+
+147
+00:11:59,960 --> 00:12:04,920
+NASA's Artemis 2 crew flew farther from Earth than any human beings in history breaking
+
+148
+00:12:04,920 --> 00:12:10,220
+the distance record Apollo 13 had held for 56 years That same
+
+149
+00:12:10,220 --> 00:12:15,640
+morning, NASA played Lovell's recorded message to the new crew exactly as he had asked
+
+150
+00:12:15,640 --> 00:12:17,100
+Welcome to my old neighborhood,
+
+151
+00:12:17,200 --> 00:12:20,200
+he told them A month before that,
+
+152
+00:12:20,400 --> 00:12:25,460
+a documentary called Odyssey premiered at the Tribeca Festival built from 2500 hours
+
+153
+00:12:25,460 --> 00:12:30,280
+of never before seen footage told entirely through Jim Lovell's own family's perspective
+
+154
+00:12:30,280 --> 00:12:32,560
+No narrator, no interviews,
+
+155
+00:12:33,120 --> 00:12:38,220
+just the real archive 56 years after Apollo 13 flew farther
+
+156
+00:12:38,220 --> 00:12:43,360
+than any spacecraft with astronauts on board ever had A new crew flew past it carrying
+
+157
+00:12:43,360 --> 00:12:48,600
+a message from a man who wasn't alive to see it happen 56 years later,
+
+158
+00:12:48,600 --> 00:12:52,520
+the phrase everyone remembers is still wrong and the record everyone thinks is unbreakable
+
+159
+00:12:52,880 --> 00:12:57,500
+was broken this year by people carrying the same message the man who set it recorded
+
+160
+00:12:57,500 --> 00:13:02,640
+before he died The real transcript said we've had a problem past
+
+161
+00:13:02,640 --> 00:13:07,680
+tense and then three men and thousands of people on the ground made sure it didn't
+
+162
+00:13:07,680 --> 00:13:12,800
+stay one If a crisis with an ending this close still had this much of the real
+
+163
+00:13:12,800 --> 00:13:17,480
+story left out wait until you see the one where the story everyone thinks they know isn't
+
+164
+00:13:17,480 --> 00:13:22,780
+even the right disaster That full story is live on this channel right now
+
+165
+00:13:22,780 --> 00:13:27,860
+Subscribe to Mindwired If any of this messed with your head a little
+
+166
+00:13:27,860 --> 00:13:33,100
+Well that's exactly the point and it only happens because people like you keep showing
+
+167
+00:13:33,100 --> 00:13:38,180
+up and Hit subscribe right now for it It costs you nothing and it's the
+
+168
+00:13:38,180 --> 00:13:41,820
+entire reason Mindwired keeps making videos like this Subscribe
+

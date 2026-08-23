@@ -7,11 +7,17 @@ Run A, 2026-08-10 (recorded in the same memory file). Channel: Black Box
 Breakdown (@Watch-BlackBox). Comp: `DeepwaterHorizonDoc`.
 
 ## Title (primary)
-BP Pled Guilty to Killing 11 Men
+The Deepwater Horizon Disaster (And BP's Guilty Plea)
 
 **A/B alternates:**
-- America's Worst Oil Spill Was a Crime
-- BP's $4.5 Billion Confession
+- 11 Men Died So BP Could Save Time
+- Deepwater Horizon: The Disaster BP Tried to Deny
+
+(Title research 2026-08-20: Neo's "The Deepwater Horizon Disaster" pulled 5.3M
+views on a plain, searchable name — no clickbait needed, the topic itself
+carries demand. Bloomberg Quicktake's BP-reset doc pulled 63.4K on a much
+narrower angle. Primary title keeps Neo's proven search term as the anchor and
+adds the guilty-plea angle as the differentiator so it doesn't read as a dupe.)
 
 ## Description
 
@@ -42,11 +48,11 @@ CHAPTERS
 • Full disaster investigations playlist → https://www.youtube.com/playlist?list=PLGVCiFZm8sRw
 • Subscribe (free): https://www.youtube.com/@Watch-BlackBox?sub_confirmation=1
 
-## Tags (~10-15, quick pass — tags are near-worthless for search now)
-deepwater horizon,bp oil spill,gulf of mexico oil spill,deepwater horizon disaster,bp guilty plea,oil rig explosion,largest oil spill in history,bp oil spill documentary,black box breakdown,macondo well blowout,offshore drilling disaster
+## Tags (competitor-research pass, 2026-08-20 — Neo + Bloomberg Quicktake keyword sets merged with house tags)
+deepwater horizon,deepwater horizon disaster,bp oil spill,gulf of mexico oil spill,bp guilty plea,oil rig explosion,largest oil spill in history,bp oil spill documentary,black box breakdown,macondo well blowout,offshore drilling disaster,bp,bp documentary,bp oil,oil,fossil fuels,climate,disasters,ocean disasters,maritime,mini documentary,us news,world news,transocean,halliburton,offshore oil rig,oil rig disaster,worst oil spill in us history,environmental disaster,bp plc
 
 ## Hashtags (3-5, first 3 display above the title)
-#DeepwaterHorizon #BP #BlackBoxBreakdown
+#DeepwaterHorizon #BP #BlackBoxBreakdown #OilSpill #Climate
 
 ## Pinned comment
 Everything in this video traces back to the real BOEMRE/Coast Guard joint investigation report and BP's own federal guilty plea — link-worthy sources, not a dramatization. Eleven men died. Which decision in this chain do you think was the point of no return? 🔴 Subscribe for a new investigation every week.

@@ -15,7 +15,7 @@ manual — read it before making or editing any video.
 
 | Channel | Lane | Where | Voice / host |
 |---|---|---|---|
-| **mindwired** | faceless space/science mystery (gaming/tech lane PARKED 2026-08 — mixed-identity subs suppress cold-start; see icahn-validate Step 0) | this repo | Orion host; narrator = cloned Cartesia voice `00d3c951-…` (was George/Hume) |
+| **mindwired** | faceless space/science mystery, widened 2026-08-20 to also cover earth/ocean mysteries + adjacent true-crime/disaster mysteries (studied @official-yesterday's format; NOT general history/war/biography — that's out of scope; see `docs/publishing/CHANNEL-KEYWORDS-mindwired.md` + memory `yesterday-channel-study`) (gaming/tech lane PARKED 2026-08 — mixed-identity subs suppress cold-start; see icahn-validate Step 0) | this repo | Orion host; narrator = cloned Cartesia voice `00d3c951-…` (was George/Hume) |
 | **Black Box Breakdown** | disaster & corporate-catastrophe forensics (aviation/maritime/industrial/corporate; 40+ high-RPM). @Watch-BlackBox | this repo, doc engine, `channel:"blackbox"` (theme accent `#FF9500`, wordmark "Black Box") | host **Reid** (`public/host/reid_wide.png`); narrator = cloned Cartesia `00d3c951-…` |
 | **Criminal Record** | true crime built on the primary legal record (affidavits/dockets/filings, not the crime). @WatchCriminalRecord — created 2026-08-03 | this repo, doc engine, `channel:"criminalrecord"` (accent `#7FB4FF`, wordmark "Criminal Record") | faceless for now; narrator = cloned Cartesia `00d3c951-…`. **Has its own opening rule — see `docs/guides/CRIMINALRECORD-CHANNEL-BRIEF.md`** |
 | **DimaagBatti** | Hindi explainers (Dhruv-Rathee style: economy/geopolitics/how-it-works) | this repo (`src/dimaagbatti`) | Rohan, Cartesia Hindi `4877b818-…`; whiteboard + Devanagari overlays; see `docs/guides/HINDI-CHANNEL-BRIEF.md` |
@@ -128,14 +128,35 @@ docs/planning/FOOTAGE-UPGRADE.md; per-niche source rankings: scripts/SOURCES-GUI
   --out <dir> --prefix <p> --count N` — tries 12 free sources in ranked order
   (NARA/archive.org/NASA/SVS/ESO/LoC/NOAA/Commons/DVIDS/Pexels/Pixabay/Openverse),
   PD/CC0/CC-BY/CC-BY-SA only, transcodes to 1080p H.264, logs ATTRIBUTION.md,
-  drops a contact sheet in out/qa/. **EYEBALL every contact sheet** — search APIs
-  return junk confidently. Optional free keys unlock more: PEXELS_API_KEY,
-  PIXABAY_API_KEY, DVIDS_API_KEY in .env.
+  drops a contact sheet in out/qa/. **Vision relevance check (2026-08-21):**
+  every downloaded file is shown to Gemini (GEMINI_API_KEY) against the search
+  query before it counts toward the pool — a wrong-subject match (a NASA
+  telescope named "Fermi" for a query about the physicist, an observatory's
+  own asteroid-radar output instead of a photo of the dish) gets deleted and
+  the next candidate tried automatically, logged as `!! MISMATCH (vision
+  check): ...`. `--no-verify` opts out. This catches most of what used to need
+  a manual contact-sheet fix (see the Fermi Paradox episode), but **still
+  EYEBALL every contact sheet** — it's a second opinion, not a guarantee, and
+  fails open (skips itself) with no key/no PIL/an API error. Optional free
+  keys unlock more sources: PEXELS_API_KEY, PIXABAY_API_KEY, DVIDS_API_KEY
+  in .env.
 - **Real thing > real category > stock > AI.** Every concrete noun the narration
   dwells on (a plane, a ship, a place, a person) gets REAL footage of that thing
   when it exists. AI/stylized shots only for abstractions or unfilmable moments —
   never for real people/events with archival coverage. Pexels/Pixabay are generic
   modern b-roll only, never presented as archival.
+- **Official press conferences/briefings — niche `briefing` (2026-08-21).** The
+  legal analog to a network news broadcast: a real podium, real officials, PD
+  because it's a federal government work (NASA/NTSB/FAA press conferences,
+  Pentagon briefings via DVIDS, White House/C-SPAN archives). Whenever a
+  topic has a real, on-the-record government response, name the exact event
+  in the scene's `videoQuery` and use `--niche briefing`
+  (`dvids → nasa → archive_org → nara → commons`) — see
+  `scripts/SOURCES-GUIDE.md`. **Never substitute actual CNN/BBC/Fox/local-news
+  broadcast footage** — it's copyrighted and Content-ID-fingerprinted
+  regardless of clip length; there is no "just a few seconds" safe harbor in
+  copyright law, and a hit risks the whole channel's monetization, not just
+  one video.
 - **NEW VIDEO = NEW FOOTAGE (Akshay, 2026-07-19).** Never copy another slug's
   media dir; research every episode fresh. The first ~30s hook using ANY file
   another video already used is a render-BLOCKING preflight failure.

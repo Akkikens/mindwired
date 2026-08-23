@@ -91,6 +91,8 @@ import deepwaterhorizonManifest from "./mindwired-doc/docs/deepwaterhorizon.mani
 import costaconcordiaDoc from "./mindwired-doc/docs/costaconcordia.json";
 import kurskDoc from "./mindwired-doc/docs/kursk.json";
 import kurskManifest from "./mindwired-doc/docs/kursk.manifest.json";
+import twa800Doc from "./mindwired-doc/docs/twa800.json";
+import twa800Manifest from "./mindwired-doc/docs/twa800.manifest.json";
 import costaconcordiaManifest from "./mindwired-doc/docs/costaconcordia.manifest.json";
 import area51Doc from "./mindwired-doc/docs/area51.json";
 import area51Manifest from "./mindwired-doc/docs/area51.manifest.json";
@@ -108,6 +110,14 @@ import otziDoc from "./mindwired-doc/docs/otzi.json";
 import otziManifest from "./mindwired-doc/docs/otzi.manifest.json";
 import veneraDoc from "./mindwired-doc/docs/venera.json";
 import veneraManifest from "./mindwired-doc/docs/venera.manifest.json";
+import bermudaTriangleDoc from "./mindwired-doc/docs/bermudatriangle.json";
+import bermudaTriangleManifest from "./mindwired-doc/docs/bermudatriangle.manifest.json";
+import fermiParadoxDoc from "./mindwired-doc/docs/fermiparadox.json";
+import fermiParadoxManifest from "./mindwired-doc/docs/fermiparadox.manifest.json";
+import thaiCaveRescueDoc from "./mindwired-doc/docs/thaicaverescue.json";
+import thaiCaveRescueManifest from "./mindwired-doc/docs/thaicaverescue.manifest.json";
+import apollo13Doc from "./mindwired-doc/docs/apollo13.json";
+import apollo13Manifest from "./mindwired-doc/docs/apollo13.manifest.json";
 import carlaWalkerDoc from "./mindwired-doc/docs/carlawalker.json";
 import carlaWalkerManifest from "./mindwired-doc/docs/carlawalker.manifest.json";
 import dbCooperDoc from "./mindwired-doc/docs/dbcooper.json";
@@ -1643,6 +1653,31 @@ export const RemotionRoot: React.FC = () => {
         height={1080}
       />
 
+      {/* ── TWA Flight 800 (Black Box Breakdown) — the NTSB's settled center-
+             wing-tank/wiring verdict vs. the missile-theory conspiracy history
+             vs. the live 2026 Judicial Watch FOIA wave. All real assets: the
+             actual N93119 accident airframe (Commons), real DVIDS Navy salvage
+             + USCG photos, real NTSB AAR-00/03 + Safety Rec Letter exhibit
+             pages (pdftoppm'd from the live PDFs, exhibit-pinned so the
+             Probable Cause and wiring-defect reveals always show their own
+             cited page — see ATTRIBUTION.md's "exhibit-pinned duplicates"
+             note), the real CIA witness-perception diagram, the real 2026
+             Judicial Watch FOIA teletype pages, the Montoursville memorial.
+             CVR exchange is a labeled CVR RECREATION (no public CVR audio
+             exists in law). Sensitivity: the missile/Krick-lawsuit theory and
+             the Cairo-fax terrorism lead are both attributed-never-asserted
+             per docs/planning/CLAIMS-twa800.md's DATA CORRECTIONS block;
+             Ronald Krick/Jack Cashill/Tom Stalcup/Tom Fitton all [LIVING].
+             See memory `icahn-twa800`. BB_OUTRO baked. ── */}
+      <Composition
+        id="Twa800Doc"
+        component={makeDocComp(twa800Doc as any, twa800Manifest as any, BB_OUTRO)}
+        durationInFrames={docTotalFrames(twa800Doc as any, twa800Manifest as any, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
       {/* ── Deepwater Horizon funnel Shorts (4) — cold open (real USCG fire
              video, native), the guilty plea (matches the long-form's own
              locked-package hook), the "who cares" email evidence, the eleven
@@ -1979,6 +2014,223 @@ export const RemotionRoot: React.FC = () => {
         fps={30}
         width={1920}
         height={1080}
+      />
+
+      {/* ── Bermuda Triangle ("The Bermuda Triangle Isn't Real. Here's Proof.")
+             — mindwired, widened ocean/earth-mystery lane per studying
+             @official-yesterday (memory yesterday-channel-study). Icahn PASS
+             2026-08-20 (memory icahn-bermudatriangle). Honest debunk-only
+             framing: Flight 19, USS Cyclops, Marine Sulphur Queen, Star
+             Tiger/Star Ariel, Mary Celeste myth-padding, Kusche's 1975
+             debunking book, and the real statistics (Lloyd's, NOAA, 2013 WWF
+             shipping-loss study). Full fact base: docs/planning/CLAIMS-bermudatriangle.md. ── */}
+      <Composition
+        id="BermudaTriangleDoc"
+        component={makeDocComp(bermudaTriangleDoc as any, bermudaTriangleManifest as any, MW_OUTRO)}
+        durationInFrames={docTotalFrames(bermudaTriangleDoc as any, bermudaTriangleManifest as any, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Fermi Paradox ("Why Haven't We Found Aliens?") — mindwired, space
+             lane. Icahn PASS 2026-08-20 (memory icahn-fermiparadox), picked
+             from a 14-agent NEO/LEMMiNO catalog sweep (memory
+             icahn-neo-lemmino-sweep). Locked structure: 3I/ATLAS real-footage
+             cold open + K2-18b's still-unresolved 2023-2026 biosignature
+             dispute as the sustained spine, Great Filter/Rare Earth/Dark
+             Forest/Zoo Hypothesis as the named-explainer middle. Full fact
+             base + corrections: docs/planning/CLAIMS-fermiparadox.md. ── */}
+      <Composition
+        id="FermiParadoxDoc"
+        component={makeDocComp(fermiParadoxDoc as any, fermiParadoxManifest as any, MW_OUTRO)}
+        durationInFrames={docTotalFrames(fermiParadoxDoc as any, fermiParadoxManifest as any, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Thai Cave Rescue (Tham Luang, 2018) — mindwired, disaster/rescue
+             lane. Icahn PASS-WITH-CONDITIONS from the 2026-08-20 NEO/LEMMiNO
+             sweep (runner-up to Fermi Paradox), re-validated live 2026-08-21
+             (memory icahn-neo-lemmino-sweep) — the "Laos echo" currency hook
+             did NOT produce a small-channel outlier on a live recheck, so
+             demand rests on the topic's proven recognition (a movie-recap
+             channel hit 31.1:1 on "Thirteen Lives" alone) rather than the
+             echo itself. Differentiation: the real US pararescue team every
+             film left out (DVIDS PD footage/photos), the real federal Musk
+             v. Unsworth defamation trial neither major production touches,
+             the statelessness/farmers/credit-dispute threads, and the honest
+             2026 Laos-rescue coda. Full fact base + corrections:
+             docs/planning/CLAIMS-thaicaverescue.md. ── */}
+      <Composition
+        id="ThaiCaveRescueDoc"
+        component={makeDocComp(thaiCaveRescueDoc as any, thaiCaveRescueManifest as any, MW_OUTRO)}
+        durationInFrames={docTotalFrames(thaiCaveRescueDoc as any, thaiCaveRescueManifest as any, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Apollo 13 near-disaster (1970), mindwired. Icahn PASS 2026-08-21
+             (memory icahn-apollo13) — giant-name/evergreen, currency via
+             commander Jim Lovell's Aug 2025 death + the Jun 2026 Tribeca
+             documentary "Odyssey", closing coda on Artemis II breaking
+             Apollo 13's 56-year distance record with Lovell's own posthumous
+             message. Fred Haise (92) is the sole surviving crew member —
+             framed attributed-never-asserted throughout. Real-vs-movie
+             corrections are the spine (the real transcript vs the 1995
+             film's invented lines). Real NASA/JSC PD footage: two full
+             documentaries manually sourced and cut (MOCR crisis footage +
+             the live 1970 splashdown/recovery broadcast feed) — see
+             public/shorts/apollo13/video/ATTRIBUTION.md. Full fact base:
+             docs/planning/CLAIMS-apollo13.md. MW_OUTRO baked. ── */}
+      <Composition
+        id="Apollo13Doc"
+        component={makeDocComp(apollo13Doc as any, apollo13Manifest as any, MW_OUTRO)}
+        durationInFrames={docTotalFrames(apollo13Doc as any, apollo13Manifest as any, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Apollo 13 funnel Shorts (4) — trailers for Apollo13Doc. Beats:
+             (1) the real-vs-movie transcript reveal (h1-h4); (2) the mailbox
+             CO2 fix built from duct tape (c5a-c5d); (3) the reentry blackout
+             + splashdown (c7a-c7f); (4) Lovell's posthumous message +
+             Artemis II breaking his record (c10a-c10e). ── */}
+      <Composition
+        id="Apollo13Short1"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "h1", endId: "h4", doc: apollo13Doc as any, manifest: apollo13Manifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "h1", endId: "h4", hook: "You know the Apollo 13 line.\nIt's not what he really said.", slug: "apollo13", hookVideo: "moccontrol_2.mp4", hookFrom: 1, doc: apollo13Doc as any, manifest: apollo13Manifest as any }}
+      />
+      <Composition
+        id="Apollo13Short2"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "c5a", endId: "c5d", doc: apollo13Doc as any, manifest: apollo13Manifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "c5a", endId: "c5d", hook: "Three men were running out of air.\nThe fix was duct tape and a flight manual.", slug: "apollo13", hookImg: "mailboxfix_1.jpg", doc: apollo13Doc as any, manifest: apollo13Manifest as any }}
+      />
+      <Composition
+        id="Apollo13Short3"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "c7a", endId: "c7f", doc: apollo13Doc as any, manifest: apollo13Manifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "c7a", endId: "c7f", hook: "Mission Control expected static\nfor 4 minutes. It lasted twice that long.", slug: "apollo13", hookVideo: "recovery_3.mp4", hookFrom: 1, doc: apollo13Doc as any, manifest: apollo13Manifest as any }}
+      />
+      <Composition
+        id="Apollo13Short4"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "c10a", endId: "c10e", doc: apollo13Doc as any, manifest: apollo13Manifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "c10a", endId: "c10e", hook: "He recorded this message before he died.\nThen a new crew broke his own record.", slug: "apollo13", hookImg: "lovell_1.jpg", doc: apollo13Doc as any, manifest: apollo13Manifest as any }}
+      />
+
+      {/* ── Thai Cave Rescue funnel Shorts (4) — trailers for ThaiCaveRescueDoc,
+             one per differentiation thread. (1) the American pararescuemen no
+             film named (a2-a4, real Galindo interview quote clip); (2) Musk's
+             "pedo guy" tweet (m3-m4, real Musk portrait); (3) the stateless
+             boys' fast-tracked citizenship (w2-w2b, real Wild Boars photo);
+             (4) the 2026 Laos echo — the same two divers, eight years later
+             (l1-l2, real Xaysomboun cave photo). ── */}
+      <Composition
+        id="ThaiCaveRescueShort1"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "a2", endId: "a4", doc: thaiCaveRescueDoc as any, manifest: thaiCaveRescueManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "a2", endId: "a4", hook: "Two American rescuers were inside\nthis cave. No movie says their names.", slug: "thaicaverescue", hookVideo: "galindo_6.mp4", hookFrom: 1, doc: thaiCaveRescueDoc as any, manifest: thaiCaveRescueManifest as any }}
+      />
+      <Composition
+        id="ThaiCaveRescueShort2"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "m3", endId: "m4", doc: thaiCaveRescueDoc as any, manifest: thaiCaveRescueManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "m3", endId: "m4", hook: "A caver called Elon Musk's rescue\nsubmarine a stunt. This is what he tweeted back.", slug: "thaicaverescue", hookImg: "muskportrait_2.jpg", doc: thaiCaveRescueDoc as any, manifest: thaiCaveRescueManifest as any }}
+      />
+      <Composition
+        id="ThaiCaveRescueShort3"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "w2", endId: "w2b", doc: thaiCaveRescueDoc as any, manifest: thaiCaveRescueManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "w2", endId: "w2b", hook: "Some of these boys had never had\na legal ID card in their own country.", slug: "thaicaverescue", hookImg: "ekkapol_2.jpg", doc: thaiCaveRescueDoc as any, manifest: thaiCaveRescueManifest as any }}
+      />
+      <Composition
+        id="ThaiCaveRescueShort4"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "l1", endId: "l2", doc: thaiCaveRescueDoc as any, manifest: thaiCaveRescueManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "l1", endId: "l2", hook: "Eight years after Tham Luang, the same\nreal divers went back into a flooded cave.", slug: "thaicaverescue", hookImg: "laosmap_2.jpg", doc: thaiCaveRescueDoc as any, manifest: thaiCaveRescueManifest as any }}
+      />
+
+      {/* ── Fermi Paradox funnel Shorts (4) — trailers for FermiParadoxDoc.
+             Beats: (1) the 3I/ATLAS Loeb-vs-NASA clash (h2-h5); (2) Fermi's
+             lunch-table quote + the witnesses' own date dispute (f3-f5);
+             (3) K2-18b's "strongest hints yet" claim through Hu's rebuttal
+             (k3-k5); (4) Loeb's dark-forest reasoning + Wright's rebuttal +
+             the zero-signal SETI result (df2-df4). ── */}
+      <Composition
+        id="FermiParadoxShort1"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "h2", endId: "h5", doc: fermiParadoxDoc as any, manifest: fermiParadoxManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "h2", endId: "h5", hook: "A Harvard scientist says this object\nmight be alien technology. NASA disagreed.", slug: "fermiparadox", hookVideo: "atlasreal_2.mp4", hookFrom: 2, doc: fermiParadoxDoc as any, manifest: fermiParadoxManifest as any }}
+      />
+      <Composition
+        id="FermiParadoxShort2"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "f3", endId: "f5", doc: fermiParadoxDoc as any, manifest: fermiParadoxManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "f3", endId: "f5", hook: "Three men heard Enrico Fermi ask\nthis question. They never agreed why.", slug: "fermiparadox", hookImg: "fermiblackboard_2.jpg", doc: fermiParadoxDoc as any, manifest: fermiParadoxManifest as any }}
+      />
+      <Composition
+        id="FermiParadoxShort3"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "k3", endId: "k5", doc: fermiParadoxDoc as any, manifest: fermiParadoxManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "k3", endId: "k5", hook: "Scientists said they found the strongest\nsign of alien life ever. Then it fell apart.", slug: "fermiparadox", hookImg: "k218b_3.jpg", doc: fermiParadoxDoc as any, manifest: fermiParadoxManifest as any }}
+      />
+      <Composition
+        id="FermiParadoxShort4"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "df2", endId: "df4", doc: fermiParadoxDoc as any, manifest: fermiParadoxManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "df2", endId: "df4", hook: "A real scientist just used sci-fi logic\nto explain why aliens might be hiding.", slug: "fermiparadox", hookVideo: "atlasreal_3.mp4", hookFrom: 1, doc: fermiParadoxDoc as any, manifest: fermiParadoxManifest as any }}
+      />
+
+      {/* ── Bermuda Triangle funnel Shorts (4) — trailers for BermudaTriangleDoc.
+             Beats: (1) the fabricated-1962-quote debunk (a5-b5); (2) the Mary
+             Celeste geography reveal (g1-g4); (3) the 2013 WWF "not even top 10"
+             statistic (i3a-i5a); (4) the hexagonal-clouds "horrendous editing"
+             quote (j5-j7). ── */}
+      <Composition
+        id="BermudaTriangleShort1"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "b4", endId: "b5", doc: bermudaTriangleDoc as any, manifest: bermudaTriangleManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "b4", endId: "b5", hook: "That famous Bermuda Triangle\nradio quote? Invented in 1962.", slug: "bermudatriangle", hookVideo: "avengerdeck_2.mp4", hookFrom: 2, doc: bermudaTriangleDoc as any, manifest: bermudaTriangleManifest as any }}
+      />
+      <Composition
+        id="BermudaTriangleShort2"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "g1", endId: "g4", doc: bermudaTriangleDoc as any, manifest: bermudaTriangleManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "g1", endId: "g4", hook: "The most famous \"Bermuda Triangle\"\nship was never anywhere near it.", slug: "bermudatriangle", hookVideo: "avengerdeck_4.mp4", hookFrom: 1, doc: bermudaTriangleDoc as any, manifest: bermudaTriangleManifest as any }}
+      />
+      <Composition
+        id="BermudaTriangleShort3"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "i3a", endId: "i5a", doc: bermudaTriangleDoc as any, manifest: bermudaTriangleManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "i3a", endId: "i5a", hook: "A real 2013 study ranked the\nworld's oceans. Guess who's not top 10.", slug: "bermudatriangle", hookVideo: "avengersmoke_1.mp4", hookFrom: 3, doc: bermudaTriangleDoc as any, manifest: bermudaTriangleManifest as any }}
+      />
+      <Composition
+        id="BermudaTriangleShort4"
+        component={MindwiredShort}
+        durationInFrames={mindwiredShortFrames({ startId: "j5", endId: "j7", doc: bermudaTriangleDoc as any, manifest: bermudaTriangleManifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ startId: "j5", endId: "j7", hook: "A scientist's own words: the TV\nediting on this was \"horrendous.\"", slug: "bermudatriangle", hookVideo: "avengerdeck_1.mp4", hookFrom: 4, doc: bermudaTriangleDoc as any, manifest: bermudaTriangleManifest as any }}
       />
 
       {/* ── Venera funnel Shorts (4) — trailers for VeneraDoc, cut same-session

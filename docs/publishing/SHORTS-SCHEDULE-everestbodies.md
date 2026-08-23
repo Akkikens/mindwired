@@ -2,14 +2,23 @@
 
 Long-form: **"They Called Him Green Boots. He Wasn't."** — PUBLISHED 2026-08-12
 (mindwired @MINDWIREDD). Each Short below is a trailer for that one episode,
-per the shorts-funnel skill. The drip should have started 2026-08-13 (~24h
-after publish); this schedule starts it 2026-08-14, strongest hook first,
-1/day. The long-form is already public, so the official Shorts→long-form
-**related-video link can be set in Studio immediately at each upload** — no
-waiting, unlike the Planet Nine batch. Paste the real long-form URL into every
-pinned comment below before posting — **never fabricate a URL** (it isn't in
-the repo's published-URLs memory yet; grab it from Studio, then add it to
-memory `mindwired-published-urls` for future MORE FROM blocks).
+per the shorts-funnel skill.
+
+**THE SCHEDULE — one Short per day, every day, starting TODAY:**
+| Short | Upload date | File |
+|---|---|---|
+| 1 | **Thu 2026-08-14 (today)** | out/shorts_final/EverestBodiesShort1.mp4 |
+| 2 | **Fri 2026-08-15** | out/shorts_final/EverestBodiesShort2.mp4 |
+| 3 | **Sat 2026-08-16** | out/shorts_final/EverestBodiesShort3.mp4 |
+| 4 | **Sun 2026-08-17** | out/shorts_final/EverestBodiesShort4.mp4 |
+
+Every Short block below has its own TITLE (hashtags inline), TAGS (paste into
+Studio's tags field as-is), DESCRIPTION, and PINNED comment. The long-form is
+already public, so the official Shorts→long-form **related-video link can be
+set in Studio immediately at each upload**. Paste the real long-form URL into
+every pinned comment below before posting — **never fabricate a URL** (it
+isn't in the repo's published-URLs memory yet; grab it from Studio, then add
+it to memory `mindwired-published-urls` for future MORE FROM blocks).
 
 Comps: `EverestBodiesShort1-4` in Root.tsx. Finals (rendered + mastered
 −14 LUFS, vertical subscribe outro baked): `out/shorts_final/<Comp>.mp4`.

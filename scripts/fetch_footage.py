@@ -16,6 +16,7 @@ PD / CC0 / CC-BY / CC-BY-SA only — NC/ND never pass the filter.
   --sources a,b,c         override the ranking explicitly
   --max-seconds N         video clip cap (default 20; long reels start ~10% in)
   --no-sheet              skip the contact sheet
+  --no-verify             skip the Gemini vision relevance check (on by default)
 
 Free keys unlock more sources (optional, graceful without them):
   PEXELS_API_KEY   sign up at https://www.pexels.com/api/
@@ -23,6 +24,18 @@ Free keys unlock more sources (optional, graceful without them):
 Keys go in mindwired/.env. Pexels/Pixabay are MODERN GENERIC b-roll (ocean,
 clouds, city) — for real events/people/places always prefer the archival
 sources, and never present stock as the real thing.
+
+Vision relevance check (2026-08-21): every downloaded file is shown to Gemini
+(GEMINI_API_KEY in .env — same key the Veo/host pipelines use) with the search
+query, asking whether it actually depicts that subject. A MISMATCH is deleted
+and the next candidate is tried instead — this is what catches a source's
+full-text search handing back something that only matches on words (a NASA
+telescope named "Fermi" for a query about the physicist, an observatory's own
+asteroid-radar output for a query wanting a photo of the dish). Fails OPEN: no
+key, no PIL, or an API error just skips the check rather than blocking the
+fetch. It removes most of the need to eyeball every contact sheet by hand, but
+doesn't replace a final human glance before render — it's a second-opinion
+model, not a guarantee.
 """
 from __future__ import annotations
 
@@ -53,6 +66,14 @@ NICHE_RANK: dict[str, dict[str, list[str]]] = {
                  "image": ["commons", "openverse", "pexels", "pixabay"]},
     "generic":  {"video": ["commons", "archive_org", "pexels", "pixabay"],
                  "image": ["commons", "openverse", "pexels", "pixabay"]},
+    # Official government press conferences/briefings — the LEGAL analog to a
+    # network news broadcast: real podium, real officials, PD because it's a
+    # federal government work. NASA/NTSB/FAA press conferences, Pentagon
+    # briefings (via DVIDS), White House/C-SPAN archives. Never substitute
+    # actual CNN/BBC/Fox/local-news broadcast footage — copyrighted,
+    # Content-ID-fingerprinted, no clip-length safe harbor (2026-08-21).
+    "briefing": {"video": ["dvids", "nasa", "archive_org", "nara", "commons"],
+                 "image": ["nasa", "dvids", "commons"]},
 }
 
 
@@ -93,9 +114,13 @@ def main() -> None:
     ap.add_argument("--no-sheet", action="store_true")
     ap.add_argument("--uhd", action="store_true",
                     help="keep footage up to 2160p (4K episodes; default caps at 1080p)")
+    ap.add_argument("--no-verify", action="store_true",
+                    help="skip the Gemini vision relevance check (default: on if "
+                         "GEMINI_API_KEY is set) — use for speed or if the API is down")
     args = ap.parse_args()
 
     footage.TARGET_H = 2160 if args.uhd else 1080
+    footage.VERIFY = not args.no_verify
     ranking = ([s.strip() for s in args.sources.split(",") if s.strip()]
                if args.sources else NICHE_RANK[args.niche][args.kind])
     bad = [s for s in ranking if s not in footage.SOURCES]
@@ -129,7 +154,7 @@ def main() -> None:
         saved = footage.download_assets(
             found, args.out, args.prefix, args.count,
             max_seconds=args.max_seconds, min_width=args.min_width,
-            max_h=2160 if args.uhd else 1080)
+            max_h=2160 if args.uhd else 1080, query=args.query)
         for p, a in saved:
             got.append(p)
             tally[src] = tally.get(src, 0) + 1

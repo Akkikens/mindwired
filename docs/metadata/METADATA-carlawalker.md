@@ -39,19 +39,18 @@ CHAPTERS
 Photo credit: Glen McCurley booking photo via CBS News Texas / Tarrant County Jail. Tarrant County Courthouse photography via Wikimedia Commons (CC BY-SA 4.0).
 
 ▶ MORE FROM CRIMINAL RECORD
-[link the Idaho murders episode]
-[link the Dahmer episode]
-Subscribe: [paste real @WatchCriminalRecord subscribe link]
+Subscribe: https://www.youtube.com/@WatchCriminalRecord?sub_confirmation=1
+[more episodes to link once this channel has a second upload]
 
 #TrueCrime #ColdCase #CriminalRecord #DNA #Documentary
 
-## TAGS (paste into Studio, ~10 seconds)
+## TAGS (competitor-research pass, 2026-08-20 — pulled from top-performing cold-case/DNA-genealogy videos: A&E Cold Case Files, Oxygen's DNA of Murder w/ Paul Holes, Othram's own case coverage, plus top "cold cases solved with DNA" compilation channels)
 
-carla walker, glen mccurley, cold case solved, forensic genetic genealogy, othram, fort worth true crime, dna cold case, criminal record
+carla walker, glen mccurley, cold case solved, forensic genetic genealogy, othram, fort worth true crime, dna cold case, criminal record, true crime, true crime documentary, cold case, dna genealogy, genetic genealogy, dna testing, murder solved, forensic genealogy, dna detective, investigative genetic genealogy, cold cases solved, crime documentary, dna of murder, paul holes, 1974 murder, decades old cold case
 
 ## PINNED COMMENT
 
-The detail that stops us every time: he wasn't a stranger DNA eventually found. Detectives had him, in a room, in 1974 — and a single polygraph test sent him home for 46 years. What do you think a case like this should change about how "cleared" gets treated? Subscribe for the next case file: [paste real subscribe link]
+The detail that stops us every time: he wasn't a stranger DNA eventually found. Detectives had him, in a room, in 1974 — and a single polygraph test sent him home for 46 years. What do you think a case like this should change about how "cleared" gets treated? Subscribe for the next case file: https://www.youtube.com/@WatchCriminalRecord?sub_confirmation=1
 
 ## SETTINGS
 

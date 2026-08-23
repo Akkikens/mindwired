@@ -23,6 +23,29 @@ events/people/places.
 | **football** | commons → pexels/pixabay | honest verdict: **no free match footage exists** — rights minefield. Fan-shot CC on Commons, stills, or stock atmosphere only |
 | **tech** | archive_org → commons → pexels/pixabay | Prelinger industrial films for retro tech |
 | **generic** | commons → archive_org → pexels → pixabay | Pexels/Pixabay = modern generic b-roll ONLY (ocean, clouds, city) — never presented as archival |
+| **briefing** | dvids → nasa → archive_org → nara → commons | The LEGAL analog to a network news broadcast (2026-08-21) — real podium, real officials, PD because it's a federal government work. Use whenever an episode's topic has an actual NASA/NTSB/FAA/Pentagon/White House press conference or briefing on the record — it carries the same "breaking news" energy as CNN/BBC/Fox footage without the copyright risk. **Never substitute real network/local news broadcast footage** — it's copyrighted, Content-ID-fingerprinted (no clip-length safe harbor — "just use 5 seconds" is not a legal exemption), and repeated hits risk the whole channel's monetization. |
+
+## Finding a real press conference/briefing (niche `briefing`)
+
+When a topic has a real, on-the-record government response — a NASA press
+conference, an NTSB board meeting, an FAA statement, a Pentagon briefing, a
+White House statement — give that beat a `videoQuery` naming the exact event
+(agency + date + subject, e.g. `"NASA press conference November 2025
+interstellar comet 3I/ATLAS"`) and set the scene/doc niche to `briefing` (or
+pass `--niche briefing` to `fetch_footage.py` directly for a one-off pull).
+Concretely:
+- **DVIDS** carries Pentagon/DoD press briefings systematically — this is the
+  single best source for "official spokesperson at a podium" footage.
+- **NASA** (images-api.nasa.gov) indexes real press-conference/briefing clips
+  alongside stills — confirmed live 2026-08-20 (surfaced real "Media
+  Briefings: James Webb Space Telescope's First Full-Color Images" footage).
+- **archive.org / NARA** — historical White House/Congressional press
+  coverage sometimes lives in PD federal-film collections; verify the PD
+  claim per file same as any other archive.org result.
+- NTSB/FAA don't have a dedicated API source yet — if a specific board
+  meeting or press conference isn't found by the ranked sources, that's a
+  manual-fetch case (same as any other thin-pool result), not a reason to
+  reach for copyrighted network coverage of it instead.
 
 ## Per-source cheat sheet
 

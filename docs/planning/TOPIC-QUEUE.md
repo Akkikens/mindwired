@@ -65,6 +65,14 @@ Work order: after `eastindia` (EIC Hindi long-form) ships.
    clears raw Icahn (fresh headline YESTERDAY 15.3:1, 2026-03-06) but lost the
    head-to-head against Earhart on ratio strength + a lighter sensitivity/framing
    burden. Kept as the strongest alternate if Earhart's production stalls.
+
+   **⭐ IN PRODUCTION 2026-08-20 for mindwired instead of Black Box** (memory
+   `icahn-bermudatriangle`), following the widened ocean/earth-mystery scope
+   from studying @official-yesterday (memory `yesterday-channel-study`) — this
+   was the example topic named in that memory. Honest debunk-only framing
+   preserved exactly as originally validated. ~21.3min body, 79 scenes, full
+   CLAIMS-bermudatriangle.md fact base, all gates green, 4K render in
+   progress. See `docs/planning/BERMUDATRIANGLE-HANDOFF.md`.
 5. **Dyatlov Pass incident** — PASS-WITH-CONDITIONS, 2/3 recognition (smaller
    mainstream footprint than 1-4); fresh 72:1 outlier (Nov 2025) but the sweep
    flagged an emerging broken-wave of near-zero-view copycats — early saturation
@@ -89,7 +97,94 @@ only if a genuine news hook revives demand (e.g. new physical evidence found).
 
 ## mindwired — ICAHN-VALIDATED queue (sweep 2026-07-18, all ratios verified live via yt-dlp)
 
-**⭐ NEXT — "Objects Astronomers Can't Explain" (Wow signal / 'Oumuamua /
+**✅ IN PRODUCTION — RENDER-READY (validated 2026-08-21, memory
+`icahn-neo-lemmino-sweep` + `thaicaverescue-episode`) — Thai Cave Rescue
+("The Rescue The Movies Left Out").** The runner-up from the same sweep,
+now also produced. Full production run: 9-agent research Workflow, 84-scene
+script, real DVIDS US-military PD footage/photos (the pararescue team the
+films never named) + Commons CC stills, 4K render (−14.1 LUFS), SRT, 3
+thumbnails, 4 funnel Shorts — all done. Awaiting Akshay's review + upload.
+See `docs/planning/THAICAVERESCUE-HANDOFF.md` for full status and remaining
+pre-publish TODOs. **The original May-2026 Laos-echo currency condition did
+NOT survive a live recheck** — no channel has broken out on the 2026 angle
+specifically — so demand instead rests on the topic's own proven
+recognition (a movie-recap channel's 31.1:1 on "Thirteen Lives" alone); the
+Laos echo was demoted from hook to an honest closing thread. Differentiation:
+the real US pararescue team (DVIDS PD), the real Musk v. Unsworth federal
+defamation trial, the stateless-boys/citizenship thread, and the 2026 Laos
+coda. Sensitivity: Duangphet "Dom" Phromthep's 2023 death included as a
+brief tribute per Akshay's explicit go-ahead; Musk/Unsworth framed
+attributed-never-asserted throughout.
+
+**✅ IN PRODUCTION — RENDER-READY (validated 2026-08-20, memory
+`icahn-neo-lemmino-sweep` + `icahn-fermiparadox`) — The Fermi Paradox
+("We Found Two Real Signals. Both Went Quiet.").** Full 100%-effort
+production run: 9-agent research Workflow, 77-scene script, real footage
+(Catalina Sky Survey 3I/ATLAS trajectory animations, real K2-18b
+illustrations, real Arecibo collapse footage, real Fermi/Drake/Green Bank
+archival photos), 4K render (−14.1 LUFS), SRT, 3 thumbnails, 4 funnel
+Shorts — all done. Awaiting Akshay's review + upload. See
+`docs/planning/FERMIPARADOX-HANDOFF.md` for full status and remaining
+pre-publish TODOs. Winner of a 14-agent research
+sweep of the NEO and LEMMiNO channels (Akshay's request, same exercise as
+the YESTERDAY study). PASS: a rare TRIPLE independent fresh small-channel
+outlier — Milky Stellar (58.3K subs, 799K views, 13.7:1, 3mo) headline,
+Astral Curiosity (45K subs, 333K views, 7.4:1, 1mo) corroborates, plus a
+third fresh sub-60K-sub breakout in the same 1-3 month window. Ceiling 35M
+(Kurzgesagt). Recognition 2/3. Sensitivity: none. **Condition: must lead
+with the real, live 3I/ATLAS interstellar-object "comet or alien tech?"
+2025-2026 news cycle — the freshest small-channel winners are already
+anchoring on it — never a generic Great-Filter/Drake-Equation retread**
+(this is one of YouTube's most heavily-farmed science-explainer topics).
+Format: the channel's own proven ranked-theory house style (same shape as
+"10 Discoveries That Made Astronomers Uncomfortable," "Unexplained
+Objects"). Beat Thai Cave Rescue (Tham Luang 2018 — real 2026 currency via
+the actual rescue divers being called back to a real Laos cave rescue in
+May 2026, but weaker/recap-only outlier evidence, more saturated by a
+Hollywood film + Netflix series + Nat Geo doc, and sits partly outside the
+space/science lane) as the tighter on-brand pick with zero sensitivity risk
+and zero internal-catalog redundancy. Full ranked writeup, rejected
+candidates, and the "scope trap" warning on Roanoke (best raw numbers in
+the whole sweep, but a colonial-history topic the widened scope explicitly
+excludes) are in the memory file — read it before resweeping this territory.
+
+**✅ RENDERED 2026-08-22, ready for Akshay's review + upload — see
+`docs/planning/APOLLO13-HANDOFF.md`. Apollo 13 near-disaster (1970), mindwired,
+Icahn-validated 2026-08-21 (memory `icahn-apollo13`), winner of an 8-candidate
+sweep run after Fermi Paradox/Bermuda Triangle/TWA800/Thai Cave Rescue/Key
+Bridge all landed in the "rendered, awaiting upload" backlog.** PASS,
+recognition 3/3 (giant-name, "Houston, we have a problem" globally
+recognized, cemented by the 1995 film). Headline 22.8:1 (Andy R Animations,
+1.62M views/71,200 subs, Apr 2025) + 3 more independent corroborators above
+3:1 + giant-name ceiling (ColdFusion 17.1M, NASA's own channel 6.7M+1.45M).
+**Channel is mindwired, not Black Box** — this repo's own standing rule
+routes NASA mission/spaceflight material to mindwired (same place SpaceX
+lunar impact went); Black Box's roster is aviation/maritime/industrial/
+corporate, no NASA-mission precedent. **Currency corrected on adversarial
+verify**: commander Jim Lovell died Aug 7, 2025, and a Lovell-family
+documentary ("Odyssey") premiered at Tribeca Jun 2026 — real, current, but
+the Jan-2026 outlier cluster is the tail of that news cycle (~7mo cold by
+production), so this reads as a durably evergreen giant-name topic with a
+recent respectful peg, not a live wave to chase. **Sensitivity: Fred Haise
+(Lunar Module Pilot) is alive at 92** — needs the same tone care as any
+living-participant episode; frame as the real resolved triumph-under-crisis
+story, never disaster-doom, never competing with the family's own doc.
+Real footage: strong — NASA's own PD mission-control audio/16mm film/
+telemetry covers nearly every beat; never source the 1995 Universal Pictures
+dramatization as footage. Differentiation: the exact oxygen-tank Kapton-
+wiring root cause (Cortright Commission report) told through real NASA
+telemetry/audio, not a general retelling — needed given near-total giant-name
+saturation. **Akshay's explicit ask: the cold open must be the strongest hook
+this channel has ever produced** — run hook-doctor before locking the script.
+Byproducts of the same sweep: Fukushima Daiichi also PASSed (recognition 3/3,
+live currency via ongoing ALPS wastewater release + Feb 2026 HBO doc) but was
+not adversarially verified — strongest untested alternate if this stalls.
+Beirut port explosion and MV Sewol ferry disaster were both re-killed on
+adversarial verify (broken waves + dead footage paths, full detail in
+memory). Delphi murders PASSed for Criminal Record (recognition 2/3, live
+appeal) but sits in an already-saturated giant-channel field.
+
+**⭐ PRIOR NEXT — "Objects Astronomers Can't Explain" (Wow signal / 'Oumuamua /
 Tabby's Star), Icahn-validated 2026-07-29 (memory `icahn-unexplained-objects`),
 winner of a fresh 8-topic space sweep.** Strongest raw numbers of the set:
 105.8:1 headline (MindFold, 1.53M views/14.5K subs, Aug 2025), fresh ceiling
@@ -262,6 +357,97 @@ before building each, run a quick outlier check per CLAUDE.md "Picking topics".
 Cross-channel remakes are now ~TTS-cost-only (see src/mindwired-doc/README.md).
 
 ## Black Box Breakdown (disaster forensics — @Watch-BlackBox)
+
+**❌ VALIDATED + FAILED 2026-08-21 (memory `icahn-johnbarnett`) — John Barnett,
+Boeing whistleblower death. DO NOT BUILD without new evidence.** Live yt-dlp
+sweep (solo + bundled with Joshua Dean) across 75+ results, Mar 2024–Aug 2026:
+**zero small-channel outliers** — every video with real views (10K–5.25M) sits
+on an already-massive channel (FRONTLINE 5.25M/4.32M subs, Netflix Downfall
+trailer 4.66M, Fox News 838K/15.5M subs, TODAY 772K, Valuetainment 639K, 60
+Minutes 510K); small-channel attempts (Docstory 8:1) all sit under 1,000 total
+views — noise, not proof. Confirmed the real Netflix doc Akshay flagged:
+**"Freefall: A Reckoning for Boeing"** (Rory Kennedy, sequel to her 2022
+"Downfall," released Netflix Aug 19, 2026, 2 days before this validation, real
+press coverage confirmed — but no Top-10 chart rank verifiable, and the fresh
+wave it's driving is ALSO 100% mega-channel, zero small-channel breakout so
+far). **Three independent reasons to pass, not one:** (1) total saturation,
+no demand gap on either the 2024 news cycle or the live 2026 Netflix wave; (2)
+elevated sensitivity — real suicide 2yrs old (Charleston Coroner + PD closed
+as suicide, evidentiary basis documented), family's wrongful-death suit
+**settled Sept 26, 2025** (11 months ago, Boeing admits no liability) — a
+faceless channel covering this now reads as opportunistic pile-on, not
+forensic journalism; ANY "murdered"/"still unsolved" framing is factually
+false per the closed official record — banned even as color commentary; (3)
+**zero reusable real footage of Barnett exists** (no congressional testimony,
+no CC interview) and a live `fetch_footage.py` probe found no usable PD/CC
+Boeing-787-plant footage either — conflicts with this channel's own
+first-30-seconds-real-video rule. Do NOT bundle with Joshua Dean (medically
+unrelated death, no official link — bundling is a real but inaccurate media
+pattern the channel's honesty rules would have to correct on-screen).
+**Revisit only if ALL of:** a re-sweep in 4-8 weeks finds a genuine small-
+channel outlier; a narrower angle emerges that never touches the death itself
+("what Freefall left out," a pure FAA-findings explainer); a dedicated
+suicide-content ethics review is run (not a standard pass); a 3rd Boeing/
+corporate-accountability spine (after 737 MAX, Key Bridge) is justified as
+meaningfully different. Full evidence: memory `icahn-johnbarnett`.
+
+**✅ RENDERED 2026-08-21, ready for Akshay's review + upload — see
+`docs/planning/TWA800-HANDOFF.md`.** TWA Flight 800 (1996), Icahn-validated
+2026-08-21 (memory `icahn-twa800`), PASS-WITH-CONDITIONS. Final:
+`TWA Flight 800 - The Files the FBI Tried to Bury.mp4` at repo root, 4K
+(3840×2160), 926.0s (15:26 incl. BB outro), −14.1 LUFS, 86 scenes, 100% real
+footage (NTSB/DVIDS/Commons/Judicial Watch, zero broadcast news), the two
+central exhibit reveals (NTSB Probable Cause, wiring-defect findings)
+exhibit-pinned so they always show their own cited page. 3 thumbnails built
+and squint-tested. Ship soon — currency is the live 30th-anniversary FOIA
+wave, not a future date. Winner of an 8-candidate live yt-dlp
+sweep + deep-dive Workflow (TWA 800 / American 191 / ValuJet 592 / Turkish 981
+/ Germanwings 9525 / EgyptAir 990 / Swissair 111 / Kegworth) run because
+Akshay wanted the "best aircrash disaster" next and all the obvious topics
+(737 MAX, JAL123, US1549, Helios522, Concorde, MH370 ×3, Tenerife, IC 814,
+D.B. Cooper) are already shipped. Headline 155.5:1 (Heaven N Earth, 175,724v/
+1,130subs, 2020) + 4 more corroborators up to 175.3:1 + a genuinely fresh
+(11-day-old at validation) small-channel outlier (The Daily Then™, 9.2:1,
+"Navy Whistleblower" angle) + ceiling Fascinating Horror 1.2M / Mentour Pilot
+1.1M (Mar 2026 revisit). **Recognition 2/3** — bridge with the year/context,
+don't lean on the bare flight number alone. **Currency ALIVE**: the 30th
+anniversary (Jul 17, 2026) just passed and triggered a real FOIA/lawsuit wave
+— a Judicial Watch-forced FBI teletype release (Jul 2026, unverified
+Cairo-fax terror-claim lead), an active 13-agency FOIA sweep, a May-2026 FOIA
+suit against the CIA, and the still-open 2022 family lawsuit alleging an
+errant Navy missile. **Sensitivity MODERATE**: NTSB cause (center-wing-tank
+explosion) is settled and stated as fact; the missile-lawsuit and Cairo-fax
+leads stay attributed-never-asserted; script needs an explicit
+"families are divided" beat (MH370/Earhart-tier care, not United-93-tier).
+**HARD CONSTRAINT DRIVING THIS PICK: real footage only, zero CNN/NBC/BBC/Fox
+broadcast footage under any circumstances** (Akshay asked twice this session
+whether broadcast footage could be used "with proper credit" — declined both
+times, attribution isn't a license). The disaster's single most iconic
+visual (the night-sky fireball) is broadcast/witness-footage-owned and is
+barred — real substitute locked in: NTSB docket **DCA96MA070** (Aircraft
+Accident Report AAR-00/03) + the U.S. Navy Salvage Report photos, NARA's
+1996-97 Navy salvage-ship/diver-recovery footage (federal PD) as the real
+cold-open substitute, DVIDS for any cataloged period Navy footage, archive.org
+for period government (non-broadcast) coverage of the Calverton reconstruction
+hangar. CVR transcript is text-only (no public audio) — cockpit-audio beats
+go through the standard Cartesia "CVR RECREATION" pipeline, labeled. LOCKED
+PACKAGE: title "TWA Flight 800: The Files the FBI Tried to Bury" (A/B: "The
+Explosion Washington Still Won't Explain" / "30 Years Later, the Navy's TWA
+800 Files Surfaced") + thumbnail on the real NTSB/Navy reconstructed-fuselage
+hangar photo at Calverton, NY. Beat Swissair 111 (best footage package of the
+set — real ATC audio via a 2007 Canadian Supreme Court ruling — but its
+currency hook, a rumored 2026 feature film, is unconfirmed/prospective; kept
+as the strongest next alternate once that firms up), Germanwings 9525 (giant
+ceiling potential but event coverage is overwhelmingly broadcast-owned +
+HIGH sensitivity, 16 child victims), American 191 (clears the ratio bar but
+zero live currency — a broken 2025-26 copycat wave — and causally overlaps
+JAL123/737 MAX's already-shipped corporate-negligence spine), EgyptAir 990
+(WEAK on fresh signal, and its "verdict two countries never agreed on" frame
+nearly duplicates the already-shipped Titanic episode's exact title pattern),
+Turkish 981 (disqualified outright — its only real coverage is Movietone/Pathé
+newsreel now Getty/AP-owned, not PD/CC), ValuJet 592 and Kegworth (both FAIL,
+trivial/no signal). Full evidence: memory `icahn-twa800`. Ratios point-in-time
+— recheck live if production slips past ~2026-09-04.
 
 **Icahn-validated 2026-08-08 (memory `icahn-keybridge`) — Francis Scott Key
 Bridge collapse (Baltimore, MV Dali strike, March 2024) fused with the live
@@ -470,6 +656,30 @@ the moment the final report drops (be the definitive/correct one, not one of the
 speculation videos). A monitor is set to ping Akshay when AAIB publishes. Optional
 interim: a tightly-framed 60s Short ("why no answers yet"), AAIB-prelim-attributed,
 zero blame — only if Akshay wants to ride the search interest safely.
+
+**⏳ HOLD — Carlisle, PA plane/police-helicopter midair collision (Aug 19,
+2026, Cessna 150 vs. PA State Police Bell 407, Carlisle Regional Airport).**
+Flagged by Akshay 2026-08-21, ~40 hours after the event — DO NOT build yet,
+for reasons independent of demand. A Cessna 150 landing at the uncontrolled
+field veered hard right "for an unknown reason" and struck a PSP helicopter
+hovering during a training exercise; pilot Dr. Paul Sokoloski, 57, of
+Hershey PA, was killed; two troopers (Cpl. Bryce Corman, Trooper Jason
+Mills) injured, expected to recover. NTSB/FAA investigating; NTSB itself
+says there is no immediate explanation. **Three independent blockers, none
+solvable with more budget/compute:** (1) zero investigation findings exist
+— any causal narrative right now is pure speculation; (2) zero real/PD
+footage exists — every source covering this is ABC/CBS/Fox/NBC/CNN
+broadcast news, explicitly barred, and no NTSB docket materializes for
+months; (3) sensitivity — a named man died <48 hours ago with a family that
+almost certainly hasn't held a funeral yet, plus two named living injured
+officers; using his photo or fabricating an AI-generated "host" narrating
+his death this soon is an ethics line, not a resourcing question (Akshay
+asked about exactly this and it was declined — see session notes
+2026-08-21). Revisit once NTSB publishes a preliminary report (typically
+weeks to a few months out for a small-airport midair) — at that point there
+would be an actual cause to report and enough distance from the death that
+it reads as investigative journalism, not chasing a fresh tragedy. No
+Icahn sweep run yet (too soon for YouTube outlier data to exist either).
 
 ## Sweep 2026-08-04 (workflow wf_7ee7e9bc-51e — 9 agents, adversarially verified)
 - ~~NEXT (validated, memory `icahn-spacex-lunar-impact`): SpaceX rocket hits the
@@ -827,3 +1037,24 @@ Fully closed, no living-victim sensitivity, real Tarrant County court docket
 as the primary exhibit. Condition: do NOT clone the farmed "[age]-year-old
 man has no idea" title template — differentiate on the cleared-suspect angle.
 Full case research + rejected alternatives: memory `icahn-carlawalker`.
+
+## D.B. Cooper — Black Box Breakdown, PRODUCED DESPITE ICAHN KILL (Akshay override, 2026-08-16)
+
+Icahn sweep 2026-08-16 verdict was FAIL (see the "D.B. Cooper hijacking cold
+case" entry in this session's sweep notes / no standalone icahn-<slug> memory
+was written since it was killed, not passed): no fresh headline outlier
+clearing the bar, 10+ recent copycat channels underperforming, no genuine
+2025-26 breakthrough (every "identity revealed" claim traces to unverified
+theories recycled since late 2024, no FBI confirmation). Akshay explicitly
+chose to produce it anyway. Channel: Black Box Breakdown (his call — real
+FBI case file + real 1971 pilot/Seattle-ATC radio audio fits the Evidence
+Engine/RadioScene pattern already used for IC 814 Kandahar).
+
+**Binding condition given the kill evidence:** package and script honestly —
+no "solved"/"identity revealed" framing (the case is formally unsolved per
+the FBI, which closed active investigation in 2016 without a confirmed
+identification). Every theory (Duane Weber, Richard Floyd McCoy, Kenneth
+Christiansen, the 2018 Rackstraw claims, etc.) stays attributed-never-
+asserted. This is a demand-override production, not a validated one —
+expect a smaller impressions pool per the topic-demand mechanics documented
+in icahn-validate; do not overclaim in the title.

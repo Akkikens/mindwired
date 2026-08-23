@@ -19,6 +19,13 @@ ATTRIBUTION.md, contact sheets):
 
   .venv-lipsync/bin/python scripts/fetch_doc_footage.py <slug>
       [--per-prefix 3] [--niche aviation] [--uhd] [--max-seconds 20] [--dry-run]
+      [--no-verify]
+
+Every downloaded file is vision-checked against its query by Gemini before it
+counts toward the pool (2026-08-21, see fetch_footage.py's docstring) — a
+MISMATCH gets deleted and the next candidate tried instead, logged as
+"!! MISMATCH (vision check): ...". `--no-verify` skips this (needs
+GEMINI_API_KEY either way to run; skips itself gracefully if absent).
 
 After it runs: eyeball every contact sheet in out/qa/, then
 build_doc_vo.py <slug> --manifest-only and audit_scene_relevance.py <slug>.
@@ -65,7 +72,8 @@ def fetch_one(query: str, out_dir: Path, prefix: str, count: int, kind: str,
                                         max_h=footage.TARGET_H,
                                         # 4K episodes need sharper stills too —
                                         # Ken Burns exposes soft sources at 2160p
-                                        min_width=1600 if footage.TARGET_H >= 2160 else 800)
+                                        min_width=1600 if footage.TARGET_H >= 2160 else 800,
+                                        query=query)
         for _, a in saved:
             got += 1
             seen_titles.add(norm_title(a.title))
@@ -87,9 +95,12 @@ def main() -> None:
     ap.add_argument("--root", type=Path, default=None,
                     help="media root override (default public/shorts/<slug>)")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--no-verify", action="store_true",
+                    help="skip the Gemini vision relevance check on every fetched file")
     args = ap.parse_args()
 
     footage.TARGET_H = 2160 if args.uhd else 1080
+    footage.VERIFY = not args.no_verify
     doc_path = args.doc or (DOCS / f"{args.slug}.json")
     doc = json.loads(doc_path.read_text())
     niche = args.niche or doc.get("niche", "generic")
