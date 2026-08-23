@@ -393,11 +393,13 @@ const RadioScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Them
       </div>
       <Brand th={th} />
       {hasAudio && <Sequence from={LEAD}><Audio src={staticFile(`shorts/${slug}/audio/${s.id}.mp3`)} /></Sequence>}
-      {/* diegetic radio: key-up squelch, static bed under the line, mic-cut at the end */}
+      {/* diegetic radio: quiet key-up/mic-cut only. The looping static bed is
+          GONE (2026-08-22, Akshay: the doubled static + squelch was "so
+          irritating") — radio_recreate.py already bakes a single faint noise
+          floor into recreation clips, and real docket audio carries its own. */}
       <SceneSfx sceneDur={sceneFrames(s, m)} cues={sceneCues(s, [
-        { name: "radio_key_up" },
-        { name: "radio_static_bed", loop: true },
-        { name: "radio_key_down", at: "out" },
+        { name: "radio_key_up", volume: 0.16 },
+        { name: "radio_key_down", at: "out", volume: 0.12 },
       ])} />
     </AbsoluteFill>
   );
