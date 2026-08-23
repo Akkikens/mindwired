@@ -184,6 +184,29 @@ adversarial verify (broken waves + dead footage paths, full detail in
 memory). Delphi murders PASSed for Criminal Record (recognition 2/3, live
 appeal) but sits in an already-saturated giant-channel field.
 
+**⭐ NEXT (Icahn PASS 2026-08-22) — Starfish Prime / Operation Fishbowl (1962),
+mindwired, memory `icahn-starfishprime`.** Winner of a live 3-candidate sweep
+(Palomares 1966 / Project Azorian / Starfish Prime) run for the next
+production slot after the 7-episode rendered-not-published backlog. Fresh
+headline: Territory, "The United States Nuked Space. It Did Not Go As
+Planned." — 601,541 views/115,000 subs = 5.2:1 (2026-03-07) — proves the
+"US detonated a nuke in space" framing pulls real numbers right now.
+Backed by older monster ratios (USA\WAR 237.8:1, TitusFlavius79 189.9:1,
+the official Nevada National Security Sites archive channel 42.3:1) and a
+real ceiling (fern 7.4M fresh, BBC's "The Bomb" 1.45M). Recognition ~2/3 —
+bridge with the plain-English hook, never lead with the bare name.
+Sensitivity clean (1962, no living victims/accused, settled physics).
+**Footage: real PD-marked Johnston Island launch-site footage confirmed
+directly on archive.org** (`JTF8PresentsOperationDominicJohnstonIsland` +
+`...ChristmasIsland` + `DominicSunset`), plus a real DTIC project officer's
+report (ADA286665) as the exhibit document — note the automated
+`fetch_footage.py` space-niche ranking returned nothing useful for this
+topic; use a direct archive.org pull or try niche `history` instead. Beat
+Palomares (FAIL — no headline outlier clears the bar, and a live 6-week
+wave of 8+ copycat attempts is actively dying with zero breakouts) and
+Project Azorian (marginal — real fresh corroborator but no 1M+ ceiling on
+the exact subject).
+
 **⭐ PRIOR NEXT — "Objects Astronomers Can't Explain" (Wow signal / 'Oumuamua /
 Tabby's Star), Icahn-validated 2026-07-29 (memory `icahn-unexplained-objects`),
 winner of a fresh 8-topic space sweep.** Strongest raw numbers of the set:
