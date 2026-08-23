@@ -27,29 +27,46 @@ import { CaseTimeline, GenealogyTree, RouteMap } from "../criminalrecord/RecordS
 const FPS = 30;
 const BASE = "#05070C";
 
-type Theme = { display: string; body: string; accent: string; brand: string;
+type Theme = { display: string; body: string; serif: string; mono: string;
+  accent: string; brand: string;
+  /** CSS font-stretch applied to display-register type (Archivo variable
+   *  wdth axis — the expanded cut is the broadcast-documentary look). */
+  stretch: string;
   /** brightness multiplier for the dimmed image behind chapter/kinetic text.
    *  Tuned for photos by default; document-first channels need it far lower or
    *  a white page drowns the type. */
   textBg?: { fg: number; bg: number; blur: number } };
+// 2026-08-22 craft overhaul (docs/planning/CRAFT-AUDIT.md): four-voice type
+// system replaces the flat Space-Grotesk-for-everything register — Archivo
+// (expanded) for display, Spectral for editorial/quotes, IBM Plex Mono for
+// evidence chrome, Inter unchanged for captions/body. Space Grotesk stays
+// as fallback so older manifests re-render without layout collapse.
+const DOC_DISPLAY = "'Archivo', 'Space Grotesk', sans-serif";
+const DOC_SERIF = "'Spectral', Georgia, serif";
+const DOC_MONO = "'IBM Plex Mono', 'SF Mono', Menlo, monospace";
 const THEMES: Record<string, Theme> = {
   mindwired: {
-    display: "'Space Grotesk', sans-serif", body: "'Inter', sans-serif",
+    display: DOC_DISPLAY, body: "'Inter', sans-serif",
+    serif: DOC_SERIF, mono: DOC_MONO, stretch: "118%",
     accent: "#4DD8FF", brand: "mindwired",
   },
   dimaagbatti: {
-    display: "'Noto Sans Devanagari', 'Space Grotesk', sans-serif",
+    display: "'Noto Sans Devanagari', 'Archivo', 'Space Grotesk', sans-serif",
     body: "'Noto Sans Devanagari', 'Inter', sans-serif",
+    serif: "'Noto Sans Devanagari', 'Spectral', serif", mono: DOC_MONO,
+    stretch: "100%", // Devanagari has no wdth axis — keep normal width
     accent: "#FFC53D", brand: "दिमाग़बत्ती",
   },
   blackbox: {
-    display: "'Space Grotesk', sans-serif", body: "'Inter', sans-serif",
+    display: DOC_DISPLAY, body: "'Inter', sans-serif",
+    serif: DOC_SERIF, mono: DOC_MONO, stretch: "118%",
     accent: "#FF9500", brand: "Black Box",
   },
   // Criminal Record (@WatchCriminalRecord) — cold blue-white so it reads as
   // Black Box's sibling, not a clone. See docs/guides/CRIMINALRECORD-CHANNEL-BRIEF.md
   criminalrecord: {
-    display: "'Space Grotesk', sans-serif", body: "'Inter', sans-serif",
+    display: DOC_DISPLAY, body: "'Inter', sans-serif",
+    serif: DOC_SERIF, mono: DOC_MONO, stretch: "112%",
     accent: "#7FB4FF", brand: "Criminal Record",
     // court filings are black-on-WHITE; at photo dimming the page text fights
     // the title and the accent eyebrow becomes unreadable.
@@ -249,9 +266,9 @@ const DepthGauge: React.FC<{ from: number; to: number; th: Theme }> = ({ from, t
       <div style={{ background: "rgba(5,7,12,0.72)", border: `1px solid ${th.accent}55`,
         borderLeft: `5px solid ${th.accent}`, borderRadius: 12, padding: "12px 22px",
         transform: `scale(${1 + 0.06 * (1 - Math.min(1, Math.abs(1 - settle)))})` }}>
-        <div style={{ fontFamily: "'Courier New', monospace", fontWeight: 700, fontSize: 20,
+        <div style={{ fontFamily: th.mono, fontWeight: 700, fontSize: 20,
           letterSpacing: 3, color: "rgba(255,255,255,0.55)" }}>DEPTH</div>
-        <div style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, fontSize: 52,
+        <div style={{ ...dsp(th, 750), fontSize: 52, fontVariantNumeric: "tabular-nums",
           color: "#fff", textShadow: `0 0 18px ${th.accent}66` }}>
           {d.toLocaleString("en-US")}<span style={{ fontSize: 30, color: th.accent }}> m</span>
         </div>
@@ -279,12 +296,53 @@ const sceneFrames = (s: DocScene, m: DocManifest) =>
 export const docTotalFrames = (doc: DocSpec, m: DocManifest, outro?: OutroSpec) =>
   doc.scenes.reduce((a, s) => a + sceneFrames(s, m), 0) + (outro?.frames ?? 0);
 
+/** Display-register style: the statically-instanced Archivo Expanded cuts
+ *  (800 hero / 600 secondary — anything ≥700 maps to the 800 cut). Static
+ *  instances sidestep browser variable-axis clamping entirely. Devanagari
+ *  channels (stretch "100%") keep their own display stack unexpanded. */
+const dsp = (th: Theme, wght: number): React.CSSProperties =>
+  th.stretch === "100%"
+    ? { fontFamily: th.display, fontWeight: wght >= 700 ? 800 : 600 }
+    : { fontFamily: `'Archivo Expanded', ${th.display}`, fontWeight: wght >= 700 ? 800 : 600 };
+
 const Brand: React.FC<{ th: Theme }> = ({ th }) => (
-  <div style={{ position: "absolute", top: 42, right: 54, display: "flex", alignItems: "center", gap: 10, opacity: 0.85 }}>
-    <div style={{ width: 14, height: 14, borderRadius: "50%", background: th.accent, boxShadow: `0 0 14px ${th.accent}` }} />
-    <span style={{ fontFamily: th.display, fontWeight: 700, fontSize: 28, color: "#fff", letterSpacing: 1 }}>{th.brand}</span>
+  <div style={{ position: "absolute", top: 42, right: 54, display: "flex", alignItems: "center", gap: 10, opacity: 0.78 }}>
+    <div style={{ width: 13, height: 13, borderRadius: "50%", background: th.accent, boxShadow: `0 0 14px ${th.accent}` }} />
+    <span style={{ ...dsp(th, 700), fontSize: 26, color: "#fff", letterSpacing: 2 }}>{th.brand}</span>
   </div>
 );
+
+/* ── Shared overlay chrome (2026-08-22 craft overhaul) — one implementation
+      for the stat chip and caption bar that used to be copy-pasted across
+      Illus/Diagram/Video/Exhibit with template-grade styling. ── */
+
+/** Stat chip: expanded-Archivo tabular figures on a sharp editorial plate.
+ *  Mounted inside the caller's animated wrapper (entry transform stays there). */
+const StatChip: React.FC<{ th: Theme; text: string; color?: string }> = ({ th, text, color }) => (
+  <span style={{ ...dsp(th, 780), fontSize: 50, letterSpacing: 0.5,
+    fontVariantNumeric: "tabular-nums lining-nums",
+    color: color ?? "#fff", background: "rgba(4,6,10,0.78)", padding: "14px 30px 15px",
+    borderRadius: 6, borderLeft: `4px solid ${th.accent}`,
+    boxShadow: "0 10px 34px rgba(0,0,0,0.6)" }}>{text}</span>
+);
+
+/** Caption bar: quotes automatically get the editorial-serif voice (Spectral
+ *  italic) — the register contrast that separates spoken evidence from the
+ *  narrator's factual captions. Non-quotes stay Inter with a hairline rule. */
+const CaptionBar: React.FC<{ th: Theme; text: string }> = ({ th, text }) => {
+  const isQuote = /^["“‘']/.test(text.trim());
+  return isQuote ? (
+    <div style={{ fontFamily: th.serif, fontWeight: 500, fontStyle: "italic", fontSize: 50,
+      color: "#fff", lineHeight: 1.32, textShadow: "0 3px 22px rgba(0,0,0,0.92)" }}>
+      <span style={{ color: th.accent, marginRight: 14, fontStyle: "normal" }}>—</span>{text}
+    </div>
+  ) : (
+    <div style={{ fontFamily: th.body, fontWeight: 550, fontSize: 44,
+      color: "#fff", lineHeight: 1.34, textShadow: "0 3px 20px rgba(0,0,0,0.9)" }}>
+      <span style={{ borderBottom: `2px solid ${th.accent}AA`, paddingBottom: 7 }}>{text}</span>
+    </div>
+  );
+};
 
 /* Evidence-engine radio beat: dark screen, animated waveform, speaker tag,
    transcript line, honesty label (ACTUAL ATC RECORDING vs CVR RECREATION). */
@@ -321,14 +379,15 @@ const RadioScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Them
         <span style={{ fontFamily: th.display, fontWeight: 700, fontSize: 40, color: "#0A0C10",
           background: th.accent, padding: "6px 22px", borderRadius: 10 }}>{s.speaker}</span>
         {s.timestamp && (
-          <span style={{ fontFamily: "'Courier New', monospace", fontWeight: 700, fontSize: 38,
+          <span style={{ fontFamily: th.mono, fontWeight: 700, fontSize: 38,
             color: "rgba(255,255,255,0.6)" }}>{s.timestamp}</span>
         )}
       </div>
-      {/* transcript line */}
+      {/* transcript line — spoken evidence carries the editorial serif voice */}
       <div style={{ marginTop: 34, maxWidth: 1420, textAlign: "center",
         transform: `translateY(${interpolate(capIn, [0, 1], [22, 0])}px)`, opacity: capIn }}>
-        <span style={{ fontFamily: th.body, fontWeight: 600, fontSize: 52, lineHeight: 1.4, color: "#fff" }}>
+        <span style={{ fontFamily: th.serif, fontWeight: 500, fontStyle: "italic", fontSize: 56,
+          lineHeight: 1.38, color: "#fff" }}>
           “{s.cap ?? s.text}”
         </span>
       </div>
@@ -399,14 +458,24 @@ const ChapterCard: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: nu
       <div style={{ position: "absolute", width: 760, height: 760, borderRadius: "50%",
         background: `radial-gradient(circle, ${th.accent}14 0%, transparent 62%)` }} />
       <div style={{ textAlign: "center", transform: `translateY(${interpolate(sp, [0, 1], [26, 0])}px)`, opacity: sp }}>
-        <div style={{ fontFamily: th.display, fontWeight: 700, fontSize: 34, color: th.accent, letterSpacing: 6, marginBottom: 16 }}>
-          {lines[0]}
+        {/* eyebrow: technical mono between hairlines — evidence-file register */}
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 26, marginBottom: 30 }}>
+          <div style={{ width: 84, height: 1, background: `${th.accent}88` }} />
+          <div style={{ fontFamily: th.mono, fontWeight: 600, fontSize: 25, color: th.accent, letterSpacing: 9 }}>
+            {lines[0]}
+          </div>
+          <div style={{ width: 84, height: 1, background: `${th.accent}88` }} />
         </div>
-        <div style={{ fontFamily: th.display, fontWeight: 700, fontSize: 88, color: "#fff", lineHeight: 1.12, maxWidth: 1500,
-          textShadow: "0 4px 30px rgba(0,0,0,0.7)" }}>
+        {/* title: expanded Archivo, tight leading — broadcast-documentary weight */}
+        <div style={{ ...dsp(th, 800), fontSize: 96, color: "#fff", lineHeight: 1.04, maxWidth: 1560,
+          letterSpacing: 1, textShadow: "0 4px 34px rgba(0,0,0,0.75)" }}>
           {lines[1]}
         </div>
-        <div style={{ width: 120, height: 7, background: th.accent, borderRadius: 5, margin: "30px auto 0" }} />
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 12, marginTop: 38 }}>
+          <div style={{ width: 150, height: 2, background: `linear-gradient(90deg, transparent, ${th.accent})` }} />
+          <div style={{ width: 9, height: 9, background: th.accent, transform: "rotate(45deg)" }} />
+          <div style={{ width: 150, height: 2, background: `linear-gradient(270deg, transparent, ${th.accent})` }} />
+        </div>
       </div>
       {hasAudio && <Sequence from={LEAD}><Audio src={staticFile(`shorts/${slug}/audio/${s.id}.mp3`)} /></Sequence>}
       <SceneSfx sceneDur={sceneFrames(s, m)} cues={sceneCues(s, [{ name: "chapter_boom" }])} />
@@ -462,10 +531,7 @@ const IllusScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: num
         <div style={{ position: "absolute", top: 118, left: 96,
           transform: `translateY(${interpolate(statSp, [0, 1], [22, 0])}px) scale(${interpolate(statSp, [0, 1], [0.92, 1])})`,
           opacity: interpolate(frame - statAt, [0, 8], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) }}>
-          <span style={{ fontFamily: th.display, fontWeight: 700, fontSize: 54, letterSpacing: 2,
-            color: s.statColor ?? "#fff", background: "rgba(5,7,12,0.68)", padding: "12px 28px",
-            borderRadius: 12, borderLeft: `6px solid ${th.accent}`,
-            boxShadow: "0 8px 28px rgba(0,0,0,0.55)" }}>{s.stat}</span>
+          <StatChip th={th} text={s.stat} color={s.statColor} />
         </div>
       )}
 
@@ -474,10 +540,7 @@ const IllusScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: num
       {s.cap && (
         <div style={{ position: "absolute", bottom: 84, left: 96, right: 96,
           transform: `translateY(${interpolate(capIn, [0, 1], [30, 0])}px)`, opacity: capIn }}>
-          <div style={{ fontFamily: th.body, fontWeight: 600, fontSize: 46, color: "#fff", lineHeight: 1.34,
-            textShadow: "0 3px 20px rgba(0,0,0,0.9)" }}>
-            <span style={{ borderBottom: `4px solid ${th.accent}`, paddingBottom: 5 }}>{s.cap}</span>
-          </div>
+          <CaptionBar th={th} text={s.cap} />
         </div>
       )}
 
@@ -509,10 +572,7 @@ const DiagramScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Th
         <div style={{ position: "absolute", top: 118, left: 96,
           transform: `translateY(${interpolate(statSp, [0, 1], [22, 0])}px) scale(${interpolate(statSp, [0, 1], [0.92, 1])})`,
           opacity: interpolate(frame - statAt, [0, 8], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) }}>
-          <span style={{ fontFamily: th.display, fontWeight: 700, fontSize: 54, letterSpacing: 2,
-            color: s.statColor ?? "#fff", background: "rgba(5,7,12,0.68)", padding: "12px 28px",
-            borderRadius: 12, borderLeft: `6px solid ${th.accent}`,
-            boxShadow: "0 8px 28px rgba(0,0,0,0.55)" }}>{s.stat}</span>
+          <StatChip th={th} text={s.stat} color={s.statColor} />
         </div>
       )}
 
@@ -521,10 +581,7 @@ const DiagramScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Th
       {s.cap && (
         <div style={{ position: "absolute", bottom: 84, left: 96, right: 96,
           transform: `translateY(${interpolate(capIn, [0, 1], [30, 0])}px)`, opacity: capIn }}>
-          <div style={{ fontFamily: th.body, fontWeight: 600, fontSize: 46, color: "#fff", lineHeight: 1.34,
-            textShadow: "0 3px 20px rgba(0,0,0,0.9)" }}>
-            <span style={{ borderBottom: `4px solid ${th.accent}`, paddingBottom: 5 }}>{s.cap}</span>
-          </div>
+          <CaptionBar th={th} text={s.cap} />
         </div>
       )}
 
@@ -558,18 +615,14 @@ const VideoScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Them
         <div style={{ position: "absolute", top: 118, left: 96,
           transform: `translateY(${interpolate(statSp, [0, 1], [22, 0])}px) scale(${interpolate(statSp, [0, 1], [0.92, 1])})`,
           opacity: interpolate(frame - statAt, [0, 8], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) }}>
-          <span style={{ fontFamily: th.display, fontWeight: 700, fontSize: 54, letterSpacing: 2,
-            color: s.statColor ?? "#fff", background: "rgba(5,7,12,0.68)", padding: "12px 28px",
-            borderRadius: 12, borderLeft: `6px solid ${th.accent}`, boxShadow: "0 8px 28px rgba(0,0,0,0.55)" }}>{s.stat}</span>
+          <StatChip th={th} text={s.stat} color={s.statColor} />
         </div>
       )}
       <Brand th={th} />
       {s.cap && (
         <div style={{ position: "absolute", bottom: 84, left: 96, right: 96,
           transform: `translateY(${interpolate(capIn, [0, 1], [30, 0])}px)`, opacity: capIn }}>
-          <div style={{ fontFamily: th.body, fontWeight: 600, fontSize: 46, color: "#fff", lineHeight: 1.34, textShadow: "0 3px 20px rgba(0,0,0,0.9)" }}>
-            <span style={{ borderBottom: `4px solid ${th.accent}`, paddingBottom: 5 }}>{s.cap}</span>
-          </div>
+          <CaptionBar th={th} text={s.cap} />
         </div>
       )}
       {hasAudio && <Sequence from={LEAD}><Audio src={staticFile(`shorts/${slug}/audio/${s.id}.mp3`)} /></Sequence>}
@@ -672,7 +725,7 @@ const ExhibitScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: n
       {s.source && (
         <div style={{ position: "absolute", bottom: 96, left: 96, maxWidth: 960, opacity: srcIn,
           transform: `translateY(${interpolate(srcIn, [0, 1], [18, 0])}px)` }}>
-          <div style={{ fontFamily: "'Courier New', monospace", fontWeight: 700, fontSize: 22,
+          <div style={{ fontFamily: th.mono, fontWeight: 700, fontSize: 22,
             letterSpacing: 4, color: th.accent, marginBottom: 6 }}>EXHIBIT</div>
           <div style={{ fontFamily: th.body, fontWeight: 600, fontSize: 34, color: "#fff", lineHeight: 1.3,
             background: "rgba(3,4,7,0.8)", padding: "10px 22px", borderLeft: `5px solid ${th.accent}`,

@@ -22,6 +22,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent / "lib"))
 import cartesia  # noqa: E402
 import mouthtrack  # noqa: E402
+import pronounce  # noqa: E402
+import vopolish  # noqa: E402
 
 REPO = Path(__file__).resolve().parent.parent
 DOCS = REPO / "src" / "mindwired-doc" / "docs"
@@ -56,13 +58,35 @@ def main() -> None:
                     help="default: the speed this episode was built with (manifest), "
                          "else 0.97 — so --only re-synths can't splice a different "
                          "cadence between existing clips")
+    ap.add_argument("--no-polish", action="store_true",
+                    help="skip the broadcast polish chain (vopolish.py). Like --speed, "
+                         "polish is sticky per episode via the manifest so --only "
+                         "re-synths can't splice processed and raw clips together.")
     args = ap.parse_args()
 
     doc = json.loads((DOCS / f"{args.slug}.json").read_text())
     mpath_prev = DOCS / f"{args.slug}.manifest.json"
     prev_speed = None
+    prev_polish = None
     if mpath_prev.exists():
-        prev_speed = json.loads(mpath_prev.read_text()).get("speed")
+        _prev = json.loads(mpath_prev.read_text())
+        prev_speed = _prev.get("speed")
+        prev_polish = _prev.get("polish")
+    # polish: sticky per episode. A pre-existing manifest without the key means
+    # the episode predates the polish chain — its clips are raw, so --only
+    # re-synths must stay raw too (else one clip splices in sounding different).
+    # Brand-new episodes default to polished; --force full re-synths may adopt it.
+    episode_is_raw = mpath_prev.exists() and not prev_polish
+    if args.no_polish:
+        do_polish = False
+    elif episode_is_raw and not args.force:
+        if not args.manifest_only:
+            print("NOTE: episode's existing clips are unpolished — keeping new "
+                  "clips raw for consistency. Re-synth ALL with --force to adopt "
+                  "the polish chain.")
+        do_polish = False
+    else:
+        do_polish = True
     if args.speed is None:
         args.speed = prev_speed or 0.97
     elif prev_speed and abs(args.speed - prev_speed) > 0.001:
@@ -93,12 +117,20 @@ def main() -> None:
                 # cadence jump at the cut boundary — keep the delta small (~0.05).
                 scene_speed = s.get("speed",
                     (args.speed - 0.02) if slow else args.speed)
-                audio = cartesia.tts(s["text"], voice=voice,
+                # spoken respellings (lib/pronounce.py) — synth-time only; the
+                # doc JSON / on-screen text / whisper SRT keep written forms
+                spoken = pronounce.respell(s["text"])
+                audio = cartesia.tts(spoken, voice=voice,
                                      language=doc.get("language", "en"),
                                      tone=s.get("tone"),  # scene emotion (EMOTION_FOR_TONE)
                                      speed=scene_speed)
+                if do_polish:
+                    try:
+                        audio = vopolish.polish(audio)
+                    except Exception as e:  # never lose a paid clip to ffmpeg
+                        print(f"    !! polish failed for {bid} ({e}) — keeping raw")
                 dst.write_bytes(audio)
-                print(f"->  {bid}.mp3 ({len(audio)}b)")
+                print(f"->  {bid}.mp3 ({len(audio)}b{', polished' if do_polish else ''})")
         if dst.exists():
             durs[bid] = round(duration(dst), 3)
 
@@ -112,7 +144,8 @@ def main() -> None:
 
     missing = [s["id"] for s in doc["scenes"] if s["id"] not in durs]
     manifest = {"durations": durs, "images": scan_images(out / "images"),
-                "missing": missing, "speed": args.speed, "mouth": mouths}
+                "missing": missing, "speed": args.speed, "polish": do_polish,
+                "mouth": mouths}
     mpath = DOCS / f"{args.slug}.manifest.json"
     mpath.write_text(json.dumps(manifest, indent=1))
     total = sum(durs.values())

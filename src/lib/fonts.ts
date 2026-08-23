@@ -52,3 +52,71 @@ loadFont({
   weight: "400",
   display: "block",
 }).catch(() => undefined);
+
+// ── Type-system upgrade (2026-08-22, craft overhaul) — see docs/planning/
+// CRAFT-AUDIT.md. Three new faces, all OFL, all self-hosted: ──
+
+// Archivo (variable, wdth 62-125 / wght 100-900) — assertive expanded grotesk
+// for display: hero titles, chapter cards, stat numerals. Use with CSS
+// fontStretch (e.g. "125%") to reach the Expanded cuts.
+loadFont({
+  family: "Archivo",
+  url: staticFile("fonts/Archivo.ttf"),
+  weight: "100 900",
+  display: "block",
+}).catch((e) => console.error("FONTPROBE Archivo failed:", e));
+// Static Expanded cuts instanced with fonttools (wdth 125) and registered as
+// their own family — browser variable-axis clamping made fontStretch/
+// fontVariationSettings unreliable at render, a static instance never is.
+loadFont({
+  family: "Archivo Expanded",
+  url: staticFile("fonts/ArchivoExpanded-ExtraBold.ttf"),
+  weight: "800",
+  display: "block",
+}).then(() => console.log("FONTPROBE Archivo Expanded OK"))
+  .catch((e) => console.error("FONTPROBE Archivo Expanded failed:", e));
+loadFont({
+  family: "Archivo Expanded",
+  url: staticFile("fonts/ArchivoExpanded-SemiBold.ttf"),
+  weight: "600",
+  display: "block",
+}).catch(() => undefined);
+
+// Spectral — editorial serif for pull-quotes, coda/reflective lines, and
+// exhibit citations. The serif-against-grotesk contrast is what reads
+// "documentary", not "template".
+loadFont({
+  family: "Spectral",
+  url: staticFile("fonts/Spectral-Medium.ttf"),
+  weight: "500",
+  display: "block",
+}).catch(() => undefined);
+loadFont({
+  family: "Spectral",
+  url: staticFile("fonts/Spectral-MediumItalic.ttf"),
+  weight: "500",
+  style: "italic",
+  display: "block",
+}).catch(() => undefined);
+loadFont({
+  family: "Spectral",
+  url: staticFile("fonts/Spectral-Bold.ttf"),
+  weight: "700",
+  display: "block",
+}).catch(() => undefined);
+
+// IBM Plex Mono — archival-technical labels (EXHIBIT tags, GET clocks, depth
+// gauges, source citations). Replaces the system 'Courier New' fallback that
+// shipped in early doc-engine episodes.
+loadFont({
+  family: "IBM Plex Mono",
+  url: staticFile("fonts/IBMPlexMono-Medium.ttf"),
+  weight: "500",
+  display: "block",
+}).catch(() => undefined);
+loadFont({
+  family: "IBM Plex Mono",
+  url: staticFile("fonts/IBMPlexMono-SemiBold.ttf"),
+  weight: "600",
+  display: "block",
+}).catch(() => undefined);
