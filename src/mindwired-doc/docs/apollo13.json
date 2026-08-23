@@ -1,0 +1,456 @@
+{
+  "slug": "apollo13",
+  "title": "Apollo 13: The Successful Failure",
+  "channel": "mindwired",
+  "niche": "space",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "April thirteenth, nineteen seventy. Two hundred thousand miles from Earth, Mission Control gives Apollo thirteen a routine order they have followed a dozen times already: stir the oxygen tanks.",
+      "video": "moccontrol_1.mp4",
+      "cap": "April 13, 1970. 200,000 miles from Earth.",
+      "stat": "200,000 miles from Earth"
+    },
+    {
+      "id": "h2",
+      "text": "Two minutes later, the spacecraft slams sideways. This is the real radio call — not the line from the movie. Jack Swigert: \"Okay, Houston, I believe we've had a problem here.\"",
+      "video": "moccontrol_2.mp4",
+      "cap": "The real transcript. Not the movie line."
+    },
+    {
+      "id": "h3",
+      "text": "Fourteen minutes after that, commander Jim Lovell looks out the window and watches his own oxygen boiling away into space — with no way yet to know if any of them will make it home.",
+      "video": "lmcabin_1.mp4",
+      "cap": "\"We are venting something out into space.\""
+    },
+    {
+      "id": "h4",
+      "text": "Everyone thinks they know this story. Almost none of it happened the way the movie says. This is the actual transcript, the real crew — and the last man alive who was on that spacecraft, because the other two are gone.",
+      "video": "moccontrol_3.mp4"
+    },
+    {
+      "id": "intro",
+      "text": "You're watching mindwired.",
+      "sting": true,
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "text": "This is the real story of Apollo thirteen: the actual transcript behind the movie's most famous lines, the exact wiring failure that nearly killed three men, and what happened to the crew in the fifty-six years since — including two real events from just the last year.",
+      "chapter": "THE SUCCESSFUL\nFAILURE",
+      "img": "apollo13launch",
+      "query": "Apollo 13 Saturn V launch April 11 1970 real photo"
+    },
+    {
+      "id": "c1a",
+      "text": "Twelve boys and their coach were never on this flight. Apollo thirteen carried three men: commander Jim Lovell, on his second trip to the Moon. Lunar module pilot Fred Haise, on his first spaceflight. And command module pilot Jack Swigert, who was not even supposed to be there.",
+      "chapter": "THE MAN WHO WASN'T\nSUPPOSED TO FLY",
+      "img": "apollo13crew2",
+      "query": "Apollo 13 crew Lovell Swigert Haise training NASA"
+    },
+    {
+      "id": "c1b",
+      "text": "Seventy two hours before launch, backup astronaut Charlie Duke came down with German measles. Prime pilot Ken Mattingly had never had the disease. Lovell and Haise were already immune. Mattingly was not, so NASA pulled him from his own flight and flew Swigert in his place.",
+      "img": "mattingly",
+      "query": "Ken Mattingly Apollo 13 backup astronaut NASA 1970"
+    },
+    {
+      "id": "c1c",
+      "text": "Mattingly never got sick. Instead, he spent the entire crisis on the ground, helping write the exact procedure that would bring the spacecraft back to life.",
+      "stat": "Mattingly: pulled 72 hours before launch",
+      "img": "mattingly",
+      "query": "Ken Mattingly Apollo mission control NASA 1970"
+    },
+    {
+      "id": "c1d",
+      "text": "April eleventh, nineteen seventy. Two thirteen PM. Apollo thirteen lifts off from Kennedy Space Center, headed for a place no crew had tried to land before: the Fra Mauro highlands.",
+      "img": "apollo13launch",
+      "query": "Apollo 13 Saturn V launch April 11 1970 real photo"
+    },
+    {
+      "id": "c1e",
+      "text": "By this point in the Apollo program, two crews had already landed on the Moon. The public had started calling it routine. That night, the major television networks did not carry the crew's live broadcast. They aired regular programming instead.",
+      "cap": "The night of the explosion: the networks weren't watching.",
+      "img": "moccontrolphoto",
+      "query": "Mission Control Center Apollo 13 flight controllers 1970 photo"
+    },
+    {
+      "id": "c1f",
+      "text": "The mission everyone assumed would be the boring one became the one nobody has ever stopped talking about.",
+      "kinetic": true,
+      "img": "apollo13launch",
+      "query": "Apollo 13 launch Saturn V rocket"
+    },
+    {
+      "id": "c1g",
+      "text": "Lovell's target wasn't even the flat, easy ground the first two landings used. Apollo thirteen was aiming for the Fra Mauro highlands, rougher terrain nobody had tried to put a spacecraft down on, because scientists believed it held rock from deep in the Moon's early history.",
+      "img": "fraumauro",
+      "query": "Fra Mauro highlands lunar landing site map NASA"
+    },
+    {
+      "id": "c1h",
+      "text": "Two days into the flight, with the crew already past the Moon's halfway point, Mission Control had no idea the tank that would nearly kill all three of them had already failed a ground test three weeks before launch — and been fixed with a shortcut nobody flagged as dangerous.",
+      "cap": "They didn't know yet. Neither did anyone on the ground.",
+      "img": "o2tank",
+      "query": "Apollo command service module oxygen tank technical diagram"
+    },
+    {
+      "id": "c2a",
+      "text": "The failure did not begin in space. It began two years earlier, on the ground, in a mistake nobody at the time thought mattered.",
+      "chapter": "THE MISTAKE NOBODY\nNOTICED",
+      "img": "o2tank",
+      "query": "Apollo command service module oxygen tank NASA diagram"
+    },
+    {
+      "id": "c2b",
+      "text": "October nineteen sixty eight. Oxygen tank two is being removed from an earlier spacecraft for a modification. A bolt is left in place. A lifting fixture breaks. The tank drops two inches.",
+      "exhibit": "apollo13_review_board.pdf",
+      "source": "Report of Apollo 13 Review Board, NASA TM-X-65270, June 15, 1970",
+      "img": "reviewboard",
+      "query": "Apollo 13 Review Board report document 1970"
+    },
+    {
+      "id": "c2c",
+      "text": "It passes every test afterward. NASA installs it in the spacecraft that will fly Apollo thirteen. Nobody knows anything is wrong.",
+      "stat": "Drop probability rated \"low risk\" — flown anyway",
+      "img": "o2tank",
+      "query": "Apollo oxygen tank technician NASA 1970"
+    },
+    {
+      "id": "c2d",
+      "text": "March nineteen seventy, three and a half weeks before launch. During a routine ground test, oxygen tank two will not fully drain. Not once. Technicians try again, on different days. It won't go below ninety two percent.",
+      "img": "o2tank",
+      "query": "Apollo command service module oxygen tank technical diagram"
+    },
+    {
+      "id": "c2e",
+      "text": "So they improvise a fix. They switch on the tank's internal heaters, using ground power at sixty five volts, for eight cumulative hours, to boil the oxygen out through brute force.",
+      "stat": "65 volts through a switch rated for 28",
+      "img": "ksctest",
+      "query": "Apollo spacecraft technicians Kennedy Space Center preflight testing 1970"
+    },
+    {
+      "id": "c2f",
+      "text": "The tank's safety thermostat is only rated for twenty eight volts — the normal voltage in flight. Nobody had ever re-tested it at sixty five. Under that much power, the switch does not open like it's supposed to. It welds itself shut.",
+      "cap": "Internal temperature: up to 1,000°F",
+      "img": "o2tank",
+      "query": "Apollo command service module oxygen tank technical diagram"
+    },
+    {
+      "id": "c2g",
+      "text": "Inside a sealed, welded tank nobody can see into, the heat destroys the Teflon insulation on the wiring. The damage is invisible from the outside. The pre-launch review never catches it.",
+      "img": "reviewboard",
+      "query": "Apollo 13 Review Board report document 1970"
+    },
+    {
+      "id": "c3a",
+      "text": "Fifty five hours, fifty two minutes into the mission, a routine alarm goes off: low pressure in an unrelated hydrogen tank. It is nothing serious. But it means Mission Control asks for one more housekeeping task.",
+      "chapter": "THE BANG",
+      "video": "moccontrol_4.mp4"
+    },
+    {
+      "id": "c3b",
+      "text": "\"We'd like you to stir up your cryo tanks,\" Capcom Jack Lousma radios up. It is a request the crew has carried out dozens of times on this flight alone.",
+      "cap": "55:52:58 — a completely routine request",
+      "img": "moccontrolphoto",
+      "query": "Mission Control Center Apollo 13 flight controllers 1970 photo"
+    },
+    {
+      "id": "c3c",
+      "text": "Swigert flips the switch. Inside oxygen tank two, the damaged wiring arcs. It ignites the pure oxygen atmosphere inside the tank.",
+      "video": "moccontrol_5.mp4"
+    },
+    {
+      "id": "c3d",
+      "text": "Fifty five hours, fifty four minutes, fifty three seconds. The tank ruptures. It blows an entire panel off the side of the spacecraft, and damages the only other oxygen tank on board.",
+      "stat": "200,000 miles from Earth",
+      "img": "moccontrolphoto",
+      "query": "Mission Control Center Apollo 13 flight controllers 1970 photo"
+    },
+    {
+      "id": "c3e",
+      "text": "\"Okay, Houston, I believe we've had a problem here.\" That is the real line. Not \"we have a problem.\" Swigert said it first, in the past tense, and added one word the movie always leaves out: here.",
+      "img": "moccontrolphoto2",
+      "query": "Mission Control Apollo 13 reentry waiting tension 1970"
+    },
+    {
+      "id": "c3f",
+      "text": "Fifteen seconds later, Lovell repeats it, more precisely: \"We've had a Main B Bus Undervolt.\"",
+      "cap": "Houston asked him to say it again.",
+      "img": "moccontrolphoto",
+      "query": "Mission Control Center Apollo 13 flight controllers 1970 photo"
+    },
+    {
+      "id": "c3g",
+      "text": "In Mission Control, an engineer named Sy Liebergot is the first to understand what the numbers mean. \"I got a feeling we've lost two fuel cells,\" he says. \"I hate to put it that way.\"",
+      "img": "moccontrolphoto",
+      "query": "Mission Control Center Apollo 13 flight controllers 1970 photo"
+    },
+    {
+      "id": "c3h",
+      "text": "Within two minutes, the spacecraft loses all three fuel cells and both oxygen tanks. The command module that was supposed to carry them home is now dying.",
+      "stat": "0 of 3 fuel cells left",
+      "img": "moccontrolphoto2",
+      "query": "Mission Control Apollo 13 reentry waiting tension 1970"
+    },
+    {
+      "id": "c3i",
+      "text": "There is no single voice giving the order to abort. One flight director wants to turn back immediately. Flight director Gene Kranz and his deputy argue for a few more minutes first — to actually understand what just happened before making a decision they can't undo.",
+      "img": "kranz",
+      "query": "Gene Kranz flight director Mission Control Apollo 1970"
+    },
+    {
+      "id": "c3j",
+      "text": "The line NASA is famous for — \"failure is not an option\" — was never said that night. It was written twenty five years later, for the movie. What Kranz actually told his team was different, and just as certain: \"I have never lost an American in space. Sure as hell aren't going to lose one now. This crew is coming home.\"",
+      "highlight": true,
+      "img": "kranz",
+      "query": "Gene Kranz flight director Mission Control Apollo 1970"
+    },
+    {
+      "id": "c4a",
+      "text": "There is only one part of the spacecraft that still has power, oxygen, and an engine: the lunar module, built to land two men on the Moon for two days. It now has to keep three men alive for four.",
+      "chapter": "THE LIFEBOAT"
+    },
+    {
+      "id": "c4b",
+      "text": "Before the accident, the spacecraft was not even aimed at Earth. It was on a path meant to reach the Moon and land — not to come home. Without another engine burn, it would miss Earth by nearly three thousand miles.",
+      "img": "lm",
+      "query": "Apollo lunar module Aquarius NASA 1970"
+    },
+    {
+      "id": "c4c",
+      "text": "Lovell manually fires the lunar module's landing engine for thirty five seconds, putting the spacecraft back on a path that will loop the Moon and coast home on gravity alone if nothing else is done.",
+      "video": "lmcabin_2.mp4"
+    },
+    {
+      "id": "c4d",
+      "text": "A second burn, four minutes and twenty four seconds long, speeds the return by ten hours. Lovell flies it by hand, using the line between day and night on Earth as his only guide, because the guidance computer has been shut off to save power.",
+      "img": "lm",
+      "query": "Apollo lunar module Aquarius NASA 1970"
+    },
+    {
+      "id": "c4e",
+      "text": "The man who lost his seat to a measles scare, Ken Mattingly, spends the entire crisis on the ground — helping design the exact power-up sequence that will bring the command module back to life days later. The astronaut who never got to fly ends up being one of the reasons the other three make it home.",
+      "cap": "Mattingly: grounded by measles, never got the disease",
+      "img": "mattingly",
+      "query": "Ken Mattingly astronaut portrait NASA 1970"
+    },
+    {
+      "id": "c5a",
+      "text": "Three men breathing in a space built for two creates a new problem: carbon dioxide, climbing toward a lethal level, with the wrong shaped air filters to fix it.",
+      "chapter": "A MAILBOX BUILT\nFROM DUCT TAPE"
+    },
+    {
+      "id": "c5b",
+      "text": "On the ground, a NASA engineer named Ed Smylie and his team build a fix out of what the astronauts already have on board: two square air filters, a plastic bag, cardboard torn from a flight manual, and a roll of tape.",
+      "dossier": true,
+      "img": "mailboxfix",
+      "query": "Apollo 13 mailbox carbon dioxide scrubber real photo NASA"
+    },
+    {
+      "id": "c5c",
+      "text": "They read the instructions up to the crew, piece by piece. Swigert builds it by hand, in zero gravity, in a spacecraft that is now freezing.",
+      "img": "mailboxfix",
+      "query": "Apollo 13 mailbox device carbon dioxide filter"
+    },
+    {
+      "id": "c5d",
+      "text": "It works within minutes.",
+      "stat": "CO2 levels: back to safe within minutes",
+      "img": "mailboxfix",
+      "query": "Apollo 13 mailbox carbon dioxide scrubber real photo NASA"
+    },
+    {
+      "id": "c6a",
+      "text": "The command module has been powered down and freezing since the night of the explosion. To survive reentry, it has to be turned back on — using a procedure NASA has never had to write before.",
+      "chapter": "A CHECKLIST WRITTEN\nIN THREE DAYS"
+    },
+    {
+      "id": "c6b",
+      "text": "Normally, powering up a spacecraft from a cold stop takes three months of planning. Mission Control writes this one from scratch in three days.",
+      "stat": "Normal timeline: 3 months. Actual: 3 days.",
+      "img": "moccontrolphoto",
+      "query": "Mission Control Center Apollo 13 flight controllers 1970 photo"
+    },
+    {
+      "id": "c6c",
+      "text": "By now the cabin temperature has dropped near freezing. Every window is coated in condensation. The crew has had almost no food or sleep in four days.",
+      "img": "lmcabin3",
+      "query": "Apollo lunar module cabin cold condensation 1970"
+    },
+    {
+      "id": "c6d",
+      "text": "Following the new checklist line by line, the crew brings the command module back to life, one system at a time.",
+      "img": "lmcabin4",
+      "query": "Apollo lunar module crew conditions cramped 1970"
+    },
+    {
+      "id": "c6e",
+      "text": "By now, the men have barely eaten or slept in four days, in a cabin so cold that Swigert reports the temperature near forty five degrees, every window fogged with condensation. Nobody on that spacecraft trained for this. Nobody could have.",
+      "img": "lmcabin4",
+      "query": "Apollo lunar module crew conditions cramped 1970"
+    },
+    {
+      "id": "c7a",
+      "text": "April seventeenth, nineteen seventy. The spacecraft begins reentry. Radio contact is expected to go silent for three minutes and thirty eight seconds. It runs almost twice that long.",
+      "chapter": "SIX MINUTES OF SILENCE"
+    },
+    {
+      "id": "c7b",
+      "text": "In Mission Control, nobody says it out loud, but everyone is thinking the same thing: the heat shield, damaged by the explosion, might have failed.",
+      "img": "moccontrolphoto2",
+      "query": "Mission Control Apollo 13 reentry waiting tension 1970"
+    },
+    {
+      "id": "c7c",
+      "text": "Then, at just over six minutes, the radio comes back.",
+      "video": "recovery_1.mp4"
+    },
+    {
+      "id": "c7d",
+      "text": "Parachutes open. The command module lands in the South Pacific, three miles from the recovery ship.",
+      "video": "recovery_2.mp4"
+    },
+    {
+      "id": "c7e",
+      "text": "A helicopter lifts all three men out of the ocean and onto the deck of the USS Iwo Jima. The radio call back to Houston is four words long: \"his condition is excellent.\"",
+      "video": "recovery_3.mp4"
+    },
+    {
+      "id": "c7f",
+      "text": "Eighty seven hours after a routine command triggered an explosion two hundred thousand miles from home, all three men walk away.",
+      "stat": "All 3 recovered. All 3 survived.",
+      "img": "moccontrolphoto2",
+      "query": "Mission Control Apollo 13 reentry waiting tension 1970"
+    },
+    {
+      "id": "c8a",
+      "text": "NASA convened its own investigation within hours of splashdown: eight people, led by engineer Edgar Cortright, including Apollo eleven's own Neil Armstrong.",
+      "chapter": "THE REPORT NASA\nWROTE ON ITSELF",
+      "exhibit": "apollo13_review_board.pdf",
+      "source": "Report of Apollo 13 Review Board, NASA TM-X-65270, June 15, 1970",
+      "img": "reviewboard",
+      "query": "Apollo 13 Review Board report cover page document"
+    },
+    {
+      "id": "c8b",
+      "text": "Two months later, their report reached one conclusion, in NASA's own words: the accident \"was not the result of a chance malfunction, but the result of an unusual combination of mistakes, coupled with a somewhat deficient and unforgiving design.\"",
+      "highlight": true,
+      "img": "reviewboard",
+      "query": "Apollo 13 Review Board report document 1970"
+    },
+    {
+      "id": "c8c",
+      "text": "One dropped tank. One untested voltage. One welded switch. Nobody broke a rule. Nobody was careless in the moment. The failure was built years before anyone stirred a single tank.",
+      "img": "reviewboard",
+      "query": "Apollo 13 Review Board report document 1970"
+    },
+    {
+      "id": "c8d",
+      "text": "NASA's fix wasn't a warning label. Every later Apollo command module flew with a third, physically separated oxygen tank, fuel cells that could be individually isolated, and wiring rerouted away from the tank walls entirely.",
+      "stat": "Every later Apollo flight: 3 oxygen tanks, not 2",
+      "img": "o2tank",
+      "query": "Apollo command service module oxygen tank technical diagram"
+    },
+    {
+      "id": "c8e",
+      "text": "None of the four crewed Apollo missions that followed ever had another in-flight failure like it.",
+      "img": "reviewboard",
+      "query": "Apollo 13 Review Board report document 1970"
+    },
+    {
+      "id": "c9a",
+      "text": "Twelve years later, Jack Swigert was elected to the United States Congress. He never took his seat. He had been diagnosed with bone cancer during the campaign, and died in December nineteen eighty two, one week before he would have been sworn in.",
+      "chapter": "WHAT HAPPENED\nTO THEM",
+      "img": "swigert",
+      "query": "Jack Swigert astronaut portrait NASA"
+    },
+    {
+      "id": "c9b",
+      "text": "Jim Lovell commanded Apollo thirteen and never flew in space again. He died at home in Illinois in August of last year, at the age of ninety seven.",
+      "img": "lovell",
+      "query": "Jim Lovell astronaut later years portrait"
+    },
+    {
+      "id": "c9c",
+      "text": "\"He was our hero,\" his family said. \"We will miss his unshakeable optimism, his sense of humor, and the way he made each of us feel we could do the impossible.\"",
+      "highlight": true,
+      "img": "lovell",
+      "query": "Jim Lovell astronaut later years portrait"
+    },
+    {
+      "id": "c9d",
+      "text": "Fred Haise is now the only member of the crew still alive. He is ninety two years old, and he still makes public appearances, still answers questions about the mission that nearly killed him fifty six years ago.",
+      "cap": "Fred Haise, 92 — the last of the Apollo 13 crew",
+      "img": "haise",
+      "query": "Fred Haise astronaut portrait NASA Apollo 13"
+    },
+    {
+      "id": "c9e",
+      "text": "None of the three men ever flew in space again after this mission. For all three of them, the flight that almost killed them was also the last one they ever made.",
+      "tone": "reflective",
+      "img": "swigert",
+      "query": "Jack Swigert astronaut portrait NASA"
+    },
+    {
+      "id": "c10a",
+      "text": "Two months before he died, Jim Lovell recorded one more message — for a crew that hadn't launched yet.",
+      "chapter": "THE RECORD HE SET\nJUST GOT BROKEN"
+    },
+    {
+      "id": "c10b",
+      "text": "April sixth of this year, NASA's Artemis two crew flew farther from Earth than any human beings in history — breaking the distance record Apollo thirteen had held for fifty six years.",
+      "stat": "248,655 miles → 252,756 miles",
+      "img": "artemis2",
+      "query": "Artemis II crew NASA 2026 mission real photo"
+    },
+    {
+      "id": "c10c",
+      "text": "That same morning, NASA played Lovell's recorded message to the new crew, exactly as he had asked. \"Welcome to my old neighborhood,\" he told them.",
+      "highlight": true,
+      "img": "artemis2",
+      "query": "Artemis II crew NASA 2026 mission real photo"
+    },
+    {
+      "id": "c10d",
+      "text": "A month before that, a documentary called Odyssey premiered at the Tribeca Festival — built from twenty five hundred hours of never-before-seen footage, told entirely through Jim Lovell's own family's perspective. No narrator. No interviews. Just the real archive.",
+      "img": "lovell",
+      "query": "Jim Lovell astronaut later years portrait"
+    },
+    {
+      "id": "c10e",
+      "text": "Fifty six years after Apollo thirteen flew farther than any spacecraft with astronauts on board ever had, a new crew flew past it, carrying a message from a man who wasn't alive to see it happen.",
+      "tone": "reflective",
+      "img": "artemis2",
+      "query": "Artemis II crew NASA 2026 mission real photo"
+    },
+    {
+      "id": "coda1",
+      "text": "Fifty six years later, the phrase everyone remembers is still wrong, and the record everyone thinks is unbreakable was broken this year, by people carrying the same message the man who set it recorded before he died.",
+      "tone": "reflective",
+      "img": "moccontrolphoto",
+      "query": "Mission Control Center Apollo 13 flight controllers 1970 photo"
+    },
+    {
+      "id": "coda2",
+      "text": "The real transcript said \"we've had a problem.\" Past tense. And then three men, and thousands of people on the ground, made sure it didn't stay one.",
+      "tone": "reflective",
+      "img": "reviewboard",
+      "query": "Apollo 13 Review Board report document 1970"
+    },
+    {
+      "id": "bridge",
+      "text": "If a crisis with an ending this close still had this much of the real story left out, wait until you see the one where the story everyone thinks they know isn't even the right disaster. That full story is live on this channel right now.",
+      "img": "apollo13launch",
+      "query": "Apollo 13 Saturn V launch April 11 1970 real photo"
+    },
+    {
+      "id": "end",
+      "text": "Subscribe to mindwired.",
+      "chapter": "SUBSCRIBE",
+      "img": "apollo13launch"
+    }
+  ]
+}

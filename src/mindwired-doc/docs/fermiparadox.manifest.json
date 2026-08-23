@@ -1,0 +1,194 @@
+{
+ "durations": {
+  "h1": 13.949,
+  "h2": 16.666,
+  "h3b": 15.386,
+  "h3": 7.706,
+  "h4": 4.206,
+  "h5": 9.326,
+  "h6": 12.199,
+  "sting": 1.489,
+  "title": 18.677,
+  "c1": 2.769,
+  "f1": 12.513,
+  "f0": 15.726,
+  "f3": 15.073,
+  "f4": 17.084,
+  "f5": 22.126,
+  "f6": 7.236,
+  "c2": 3.161,
+  "n1": 10.841,
+  "n2": 11.076,
+  "n2b": 11.886,
+  "n3": 9.404,
+  "n4": 17.162,
+  "n5": 8.751,
+  "c3": 4.127,
+  "d0": 14.106,
+  "d1": 10.762,
+  "d2": 13.793,
+  "d3": 17.319,
+  "d4": 18.991,
+  "d5": 11.651,
+  "c4": 3.971,
+  "e0": 10.606,
+  "e1": 12.826,
+  "e2": 7.549,
+  "e3": 14.028,
+  "e4": 14.028,
+  "e5": 13.166,
+  "c5": 4.127,
+  "g1": 18.834,
+  "g2": 16.274,
+  "g3": 19.069,
+  "g4": 18.442,
+  "g5": 19.957,
+  "c6": 3.631,
+  "r0": 26.358,
+  "r1": 15.491,
+  "r2": 14.446,
+  "r3": 16.117,
+  "r4": 11.468,
+  "c7": 4.676,
+  "df1": 26.122,
+  "df2": 18.913,
+  "df3": 12.826,
+  "df4": 14.289,
+  "df5": 19.069,
+  "df6": 13.244,
+  "df7": 18.677,
+  "df8": 22.126,
+  "c8": 2.926,
+  "k1": 16.771,
+  "k2": 17.868,
+  "k3": 15.961,
+  "k4": 17.319,
+  "k5": 17.476,
+  "k6": 19.879,
+  "k7": 16.274,
+  "k8": 18.756,
+  "c9": 3.082,
+  "a1": 19.331,
+  "a2": 17.789,
+  "a3": 12.277,
+  "a4": 15.882,
+  "coda1": 16.666,
+  "coda2": 20.924,
+  "coda3": 13.322,
+  "bridge": 14.367,
+  "end": 1.646
+ },
+ "images": {
+  "aiserver": [
+   "aiserver_1.jpg",
+   "aiserver_2.jpg",
+   "aiserver_3.jpg"
+  ],
+  "arecibo": [
+   "arecibo_1.jpg",
+   "arecibo_2.jpg",
+   "arecibo_3.jpg"
+  ],
+  "atlashubble": [
+   "atlashubble_1.jpg",
+   "atlashubble_2.jpg",
+   "atlashubble_3.jpg"
+  ],
+  "atlasillustration": [
+   "atlasillustration_1.jpg",
+   "atlasillustration_2.jpg",
+   "atlasillustration_3.jpg"
+  ],
+  "atlasstill": [
+   "atlasstill_1.jpg",
+   "atlasstill_2.jpg",
+   "atlasstill_3.jpg"
+  ],
+  "atlasvlt": [
+   "atlasvlt_1.jpg",
+   "atlasvlt_2.jpg",
+   "atlasvlt_3.jpg"
+  ],
+  "earthfromspace": [
+   "earthfromspace_1.jpg",
+   "earthfromspace_2.jpg",
+   "earthfromspace_3.jpg"
+  ],
+  "fermiblackboard": [
+   "fermiblackboard_1.jpg",
+   "fermiblackboard_2.jpg",
+   "fermiblackboard_3.jpg"
+  ],
+  "fermiportrait": [
+   "fermiportrait_1.jpg",
+   "fermiportrait_2.jpg"
+  ],
+  "fullerlodge": [
+   "fullerlodge_1.jpg",
+   "fullerlodge_2.jpg",
+   "fullerlodge_3.jpg"
+  ],
+  "goldenrecord": [
+   "goldenrecord_1.jpg",
+   "goldenrecord_2.jpg",
+   "goldenrecord_3.jpg"
+  ],
+  "greenbank": [
+   "greenbank_1.jpg",
+   "greenbank_2.jpg",
+   "greenbank_3.jpg",
+   "greenbank_4.jpg",
+   "greenbank_5.jpg"
+  ],
+  "hudf": [
+   "hudf_1.jpg",
+   "hudf_2.jpg",
+   "hudf_3.jpg"
+  ],
+  "journalpage": [
+   "journalpage_1.jpg"
+  ],
+  "jupiterphoto": [
+   "jupiterphoto_1.jpg",
+   "jupiterphoto_2.jpg",
+   "jupiterphoto_3.jpg"
+  ],
+  "jwstdeploy": [
+   "jwstdeploy_1.jpg",
+   "jwstdeploy_2.jpg",
+   "jwstdeploy_3.jpg"
+  ],
+  "jwstexoplanet": [
+   "jwstexoplanet_1.jpg",
+   "jwstexoplanet_2.jpg",
+   "jwstexoplanet_3.jpg"
+  ],
+  "k218b": [
+   "k218b_1.jpg",
+   "k218b_2.png",
+   "k218b_3.jpg",
+   "k218b_4.jpg"
+  ],
+  "keplerclean": [
+   "keplerclean_1.jpg",
+   "keplerclean_2.jpg",
+   "keplerclean_3.jpg"
+  ],
+  "nuclearplant": [
+   "nuclearplant_1.jpg",
+   "nuclearplant_2.jpg",
+   "nuclearplant_3.jpg"
+  ],
+  "sagancosmos": [
+   "sagancosmos_1.jpg"
+  ],
+  "tesslaunch": [
+   "tesslaunch_1.jpg",
+   "tesslaunch_2.jpg",
+   "tesslaunch_3.jpg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.96,
+ "mouth": {}
+}

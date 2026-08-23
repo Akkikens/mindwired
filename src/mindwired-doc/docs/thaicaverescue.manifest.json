@@ -1,0 +1,162 @@
+{
+ "durations": {
+  "h1": 10.188,
+  "h2": 3.553,
+  "h3": 7.079,
+  "h4": 5.721,
+  "h5": 8.986,
+  "sting": 1.567,
+  "title": 17.084,
+  "c1": 2.116,
+  "f1": 12.042,
+  "f2": 10.266,
+  "f3": 12.277,
+  "f4": 7.889,
+  "f5": 13.322,
+  "f6": 11.468,
+  "f7": 10.188,
+  "c2": 3.709,
+  "d1": 9.874,
+  "d2": 12.277,
+  "d3": 11.389,
+  "d4": 9.404,
+  "d5": 12.826,
+  "d6": 12.826,
+  "c3": 2.847,
+  "a1": 7.811,
+  "a2": 12.356,
+  "a3": 3.553,
+  "a4": 9.091,
+  "a5": 17.006,
+  "a6": 12.199,
+  "c4": 1.802,
+  "g1": 12.826,
+  "g2": 5.486,
+  "g3": 11.886,
+  "g4": 12.277,
+  "g5": 11.886,
+  "c5": 2.508,
+  "m1": 7.393,
+  "m2": 11.154,
+  "m2b": 10.841,
+  "m3": 13.401,
+  "m4": 8.908,
+  "c6": 2.926,
+  "t1": 11.964,
+  "t1b": 11.154,
+  "t1c": 5.068,
+  "t2": 9.247,
+  "t2b": 14.759,
+  "t3": 10.998,
+  "t3b": 14.211,
+  "t3c": 15.882,
+  "t4": 7.967,
+  "t5": 11.154,
+  "c7": 3.709,
+  "e1": 12.121,
+  "e1b": 10.371,
+  "e2": 13.322,
+  "e2b": 11.886,
+  "e3": 7.236,
+  "e4": 11.651,
+  "e5": 10.841,
+  "e6": 11.154,
+  "e6b": 7.811,
+  "e7": 13.793,
+  "e8": 10.684,
+  "c8": 2.691,
+  "w1": 9.326,
+  "w1b": 10.109,
+  "w2": 12.669,
+  "w2b": 13.557,
+  "w3": 12.434,
+  "w3b": 12.931,
+  "w4": 14.211,
+  "c9": 2.847,
+  "l1": 10.527,
+  "l1b": 8.986,
+  "l2": 7.314,
+  "l3": 14.211,
+  "l3b": 9.247,
+  "l4": 10.919,
+  "coda1": 14.916,
+  "coda2": 14.602,
+  "coda3": 15.882,
+  "bridge": 11.233,
+  "end": 1.724
+ },
+ "images": {
+  "caveinterior": [
+   "caveinterior_1.jpg",
+   "caveinterior_2.jpg",
+   "caveinterior_3.jpg",
+   "caveinterior_4.jpg"
+  ],
+  "cavemap": [
+   "cavemap_1.jpeg",
+   "cavemap_2.jpeg",
+   "cavemap_3.jpeg",
+   "cavemap_4.jpg"
+  ],
+  "courthouse": [
+   "courthouse_1.jpg",
+   "courthouse_2.jpg",
+   "courthouse_3.jpg",
+   "courthouse_4.jpg"
+  ],
+  "divercredit": [
+   "divercredit_1.jpeg",
+   "divercredit_2.jpeg"
+  ],
+  "ekkapol": [
+   "ekkapol_1.jpg",
+   "ekkapol_2.jpg",
+   "ekkapol_3.jpg"
+  ],
+  "laosmap": [
+   "laosmap_1.png",
+   "laosmap_2.jpg",
+   "laosmap_3.jpg"
+  ],
+  "mediaindustry": [
+   "mediaindustry_1.jpg",
+   "mediaindustry_2.jpg",
+   "mediaindustry_3.jpg"
+  ],
+  "medicalprep": [
+   "medicalprep_1.png"
+  ],
+  "muskportrait": [
+   "muskportrait_1.jpg",
+   "muskportrait_2.jpg",
+   "muskportrait_3.jpg"
+  ],
+  "oceanteaser": [
+   "oceanteaser_1.jpeg",
+   "oceanteaser_2.jpeg",
+   "oceanteaser_3.jpeg"
+  ],
+  "sealmemorial": [
+   "sealmemorial_1.jpeg",
+   "sealmemorial_2.jpeg",
+   "sealmemorial_3.jpg"
+  ],
+  "staging": [
+   "staging_1.jpeg",
+   "staging_2.jpeg",
+   "staging_3.jpeg",
+   "staging_4.jpg"
+  ],
+  "trainingdemo": [
+   "trainingdemo_1.jpg"
+  ],
+  "usmilitary": [
+   "usmilitary_1.jpg",
+   "usmilitary_2.jpg",
+   "usmilitary_3.jpg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.96,
+ "mouth": {}
+}

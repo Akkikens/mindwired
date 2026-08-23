@@ -1,0 +1,649 @@
+{
+  "slug": "thaicaverescue",
+  "title": "The Thai Cave Rescue: The Story The Movies Left Out",
+  "channel": "mindwired",
+  "niche": "aviation",
+  "language": "en",
+  "voice": "00d3c951-0474-4b48-814e-ef815f533e63",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "Two feet wide. Zero visibility. An American rescueman feels his way through a flooded cave passage, passing a sedated child hand to hand, in the pitch dark.",
+      "video": "galindo_1.mp4",
+      "videoQuery": "US Air Force pararescue Thailand cave rescue interview",
+      "cap": "Staff Sgt. Michael Galindo, U.S. Air Force Pararescue.",
+      "tone": "tension",
+      "stat": "2 FEET WIDE"
+    },
+    {
+      "id": "h2",
+      "text": "His name has never been in a single movie made about this rescue.",
+      "video": "galindo_2.mp4",
+      "videoQuery": "US Air Force pararescue Thailand cave rescue interview",
+      "tone": "tension"
+    },
+    {
+      "id": "h3",
+      "text": "Neither has the second Thai Navy diver who died because of this mission. Or the federal jury trial a billionaire's tweet actually produced.",
+      "video": "galindo_3.mp4",
+      "videoQuery": "US Air Force pararescue Thailand cave rescue interview",
+      "cap": "2 rescuers died. 1 real federal trial. 0 of it in the film.",
+      "tone": "shock"
+    },
+    {
+      "id": "h4",
+      "text": "This is the real story of the Tham Luang cave rescue, not the one you already watched in a theater or on Netflix.",
+      "video": "galindo_4.mp4",
+      "videoQuery": "US Air Force pararescue Thailand cave rescue interview",
+      "tone": "confidence"
+    },
+    {
+      "id": "h5",
+      "text": "Twelve boys and their coach went into a cave in northern Thailand. All thirteen came out alive. Almost nothing else about that sentence is as simple as it sounds.",
+      "video": "galindo_5.mp4",
+      "videoQuery": "US Air Force pararescue Thailand cave rescue interview",
+      "cap": "All 13 survived. The story around them didn't stay simple.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "sting",
+      "sting": true,
+      "text": "You're watching mindwired.",
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "text": "This is the full, real story of the 2018 Tham Luang cave rescue: what actually happened inside the cave, the American rescue team every film left out, the federal trial a billionaire's tweet produced, and the real 2026 echo that shows this story isn't finished yet.",
+      "chapter": "THE RESCUE THE MOVIES\nLEFT OUT",
+      "img": "cavemap",
+      "query": "Tham Luang cave system map diagram"
+    },
+    {
+      "id": "c1",
+      "text": "Chapter one. The cave.",
+      "chapter": "CHAPTER ONE\nTHE CAVE",
+      "img": "cavemap",
+      "query": "Tham Luang cave system map diagram"
+    },
+    {
+      "id": "f1",
+      "text": "June twenty-third, twenty eighteen. Chiang Rai, northern Thailand. Twelve boys from the Wild Boars youth football club, ages eleven to sixteen, walk into Tham Luang cave with their assistant coach after practice.",
+      "dossier": true,
+      "cap": "RECONSTRUCTION — no camera was present.",
+      "tone": "curiosity",
+      "img": "cavemap",
+      "query": "cave entrance Thailand jungle mountain"
+    },
+    {
+      "id": "f2",
+      "text": "Coach Ekkapol Chantawong is twenty-five. He was orphaned as a child, spent years as a novice Buddhist monk, and is legally stateless, along with at least three of the boys on this team.",
+      "img": "ekkapol",
+      "query": "Ekkapol Chantawong Wild Boars coach Thailand",
+      "cap": "Ekkapol Chantawong. Stateless. A former monk.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f3",
+      "text": "Unseasonal monsoon rain floods the cave's lower passages while they're inside, cutting off the exit and pushing the group deeper. That evening, the head coach, a different man named Nopparat, finds twenty missed calls from parents.",
+      "img": "caveinterior",
+      "query": "flooded cave passage water dark",
+      "cap": "20 missed calls. Then the alarm.",
+      "tone": "tension"
+    },
+    {
+      "id": "f4",
+      "text": "Thai Navy Seal divers reach a chamber called Pattaya Beach two days later, and turn back. The water beyond it has never been mapped.",
+      "img": "caveinterior",
+      "query": "Thai Navy SEAL cave diving equipment",
+      "tone": "tension"
+    },
+    {
+      "id": "f5",
+      "text": "Cave diving is not scuba diving. In zero visibility, in a current, a diver has to feel the walls with both hands, laying a guide line as they go, because turning around and simply swimming back is not always possible.",
+      "img": "caveinterior",
+      "query": "cave diving guide line technical rope",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f6",
+      "text": "That is why this call went out not to the Thai military alone, but to a small, specific community of civilian cave-diving experts scattered across Britain, Australia, Belgium, and beyond.",
+      "img": "staging",
+      "query": "international cave diving experts team",
+      "tone": "curiosity"
+    },
+    {
+      "id": "f7",
+      "text": "June twenty-ninth. Thailand's Prime Minister visits the site in person, and asks publicly that the country stay focused on the rescue, not on blaming a coach for taking children into a cave.",
+      "img": "staging",
+      "query": "Thailand government official visit rescue site",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c2",
+      "text": "Chapter two. Thirteen days, and a country's worth of water.",
+      "chapter": "CHAPTER TWO\nA COUNTRY'S WORTH OF WATER",
+      "img": "staging",
+      "query": "Thailand cave rescue staging area 2018"
+    },
+    {
+      "id": "d1",
+      "text": "Within a week, the operation scales past six hundred people, then past ten thousand: engineers, soldiers, and volunteers from seventeen countries.",
+      "img": "staging",
+      "query": "Thailand cave rescue international team 2018",
+      "cap": "10,000+ people. 17 countries.",
+      "stat": "10,000+",
+      "tone": "curiosity"
+    },
+    {
+      "id": "d2",
+      "text": "Over a hundred farmers watch roughly fifty-five hundred acres of their own rice fields deliberately flooded, diverted on purpose to slow water pouring into the mountain. It is barely mentioned in any film made about this rescue.",
+      "img": "staging",
+      "query": "Thailand rice field flooded farmers",
+      "cap": "5,500 acres of farmland, flooded on purpose.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "d3",
+      "text": "More than one billion litres of water are pumped out of the mountain, roughly four hundred Olympic swimming pools, while engineers drill over a hundred boreholes from the surface hunting for a shaft that never finds them.",
+      "img": "staging",
+      "query": "water pumps rescue operation equipment",
+      "cap": "1,000,000,000+ litres pumped.",
+      "stat": "400 POOLS",
+      "tone": "tension"
+    },
+    {
+      "id": "d4",
+      "text": "Officials debate teaching the boys to dive out themselves. Rejected: they are untrained children in a technical cave system that has already turned back Navy SEALs.",
+      "img": "caveinterior",
+      "query": "cave diving technical equipment dark water",
+      "tone": "tension"
+    },
+    {
+      "id": "d5",
+      "text": "Waiting out the roughly four-month monsoon season with food ferried in was the safest plan on paper. It was rejected too: dwindling oxygen, rising water, and thirteen people who could not simply wait that long.",
+      "img": "staging",
+      "query": "monsoon rain Thailand flooding season",
+      "tone": "tension"
+    },
+    {
+      "id": "d6",
+      "text": "By July fourth, pumps are removing water at a peak rate of one point six million litres an hour. Engineers will end up drilling past a hundred boreholes into the mountain, searching for a shaft that never once finds the group.",
+      "img": "staging",
+      "query": "drilling equipment mountain rescue operation",
+      "cap": "1.6 million litres/hour, peak rate.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c3",
+      "text": "Chapter three. The Americans nobody put in the movie.",
+      "chapter": "CHAPTER THREE\nNOBODY PUT THEM IN THE MOVIE",
+      "img": "usmilitary",
+      "query": "US Air Force pararescue Thailand 2018"
+    },
+    {
+      "id": "a1",
+      "text": "June twenty-eighth. A team from the 353rd Special Operations Group, U.S. Air Force, lands in Chiang Rai from Okinawa, Japan.",
+      "img": "usmilitary",
+      "query": "US Air Force 353rd Special Operations Group Thailand",
+      "cap": "June 28, 2018. 353rd Special Operations Group.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2",
+      "text": "Two of their pararescuemen, Tech Sergeants Jamie Brisbin and John Merchand, are stationed inside a two-foot-wide, zero-visibility flooded passage called Sump Three, moving the boys hand to hand between chambers.",
+      "img": "usmilitary",
+      "query": "pararescue diver equipment preparation",
+      "cap": "\"Sump Three.\" 2 feet wide. Zero visibility.",
+      "tone": "tension"
+    },
+    {
+      "id": "a3",
+      "text": "\"Neither of the two big films about this rescue mentions them by name.\"",
+      "video": "galindo_6.mp4",
+      "videoQuery": "US Air Force pararescue Thailand cave rescue interview",
+      "cap": "Real, on-camera account: Staff Sgt. Michael Galindo, 320th Special Tactics Squadron.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a4",
+      "text": "This is not the same as saying the divers you've heard of didn't matter. It means the full team was bigger, and more international, than either screen version had room for.",
+      "img": "usmilitary",
+      "query": "international rescue team briefing Thailand cave",
+      "tone": "confidence"
+    },
+    {
+      "id": "a5",
+      "text": "The technique itself, moving a person hand-to-hand through a passage too narrow to swim through side by side, was later demonstrated using a training dummy at a US base in Japan, for exactly this reason: the real thing happened in total darkness, with no camera able to survive the trip.",
+      "dossier": true,
+      "cap": "Real US Air Force training demonstration, filmed weeks later — labeled as such, never presented as the actual 2018 footage.",
+      "tone": "curiosity",
+      "img": "trainingdemo",
+      "query": "pararescue training dummy demonstration equipment"
+    },
+    {
+      "id": "a6",
+      "text": "British divers Jason Mallinson and Chris Jewell joined the extraction team as well, alongside Volanthen and Stanton. By the final count, thirteen international cave divers and five Thai Navy SEALs made up the extraction team.",
+      "img": "usmilitary",
+      "query": "cave diving team equipment briefing",
+      "cap": "13 international divers + 5 Thai Navy SEALs.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c4",
+      "text": "Chapter four. Found.",
+      "chapter": "CHAPTER FOUR\nFOUND",
+      "img": "caveinterior",
+      "query": "cave diving flashlight underwater"
+    },
+    {
+      "id": "g1",
+      "text": "July second, evening. Nine days in. British divers John Volanthen and Rick Stanton, laying line two and a half kilometers into the flooded system, surface at a mud slope and find all thirteen of them alive.",
+      "dossier": true,
+      "cap": "RECONSTRUCTION — captured only on the divers' own helmet-cam, never freely released.",
+      "tone": "shock",
+      "img": "caveinterior",
+      "query": "cave rescue divers headlamp dark tunnel"
+    },
+    {
+      "id": "g2",
+      "text": "The exchange, caught on tape: \"How many of you?\" \"Thirteen?\" \"Thirteen! Brilliant.\"",
+      "img": "caveinterior",
+      "query": "cave rescue diver headlamp dark tunnel",
+      "cap": "\"Thirteen! Brilliant.\"",
+      "stat": "13 ALIVE",
+      "tone": "shock"
+    },
+    {
+      "id": "g3",
+      "text": "Nine days with almost no food. All thirteen conscious, coherent, and alive. It is, to this day, one of the only rescues of its kind in recorded history to end this way.",
+      "img": "ekkapol",
+      "query": "Wild Boars football team Thailand boys",
+      "tone": "confidence"
+    },
+    {
+      "id": "g4",
+      "text": "Two freelance divers, Ben Reymenants and Maksym Polejaka, reportedly reached the group first, ahead of the British team every retelling credits. It would take three years before Volanthen and Stanton acknowledged them publicly.",
+      "img": "caveinterior",
+      "query": "cave diver equipment underwater exploration gear",
+      "cap": "Located first. Credited three years later.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "g5",
+      "text": "Australian anaesthetist Richard Harris and his diving partner, veterinarian Craig Challen, are flown in specifically for what comes next. Harris will end up making the single riskiest call of the entire operation.",
+      "img": "medicalprep",
+      "query": "medical doctor diving equipment preparation",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c5",
+      "text": "Chapter five. The billionaire's submarine.",
+      "chapter": "CHAPTER FIVE\nTHE BILLIONAIRE'S SUBMARINE",
+      "img": "muskportrait",
+      "query": "Elon Musk portrait 2018"
+    },
+    {
+      "id": "m1",
+      "text": "July eighth. Elon Musk tweets that a child-sized submersible, built from a spare Falcon 9 rocket part, is on its way to help.",
+      "img": "muskportrait",
+      "query": "Elon Musk SpaceX engineer 2018",
+      "cap": "\"Mini-sub arriving in about 17 hours.\"",
+      "tone": "curiosity"
+    },
+    {
+      "id": "m2",
+      "text": "Two days later, the rescue is completed without it. The operation's on-site commander, Narongsak Osatanakorn, calls the device impractical for the cave's narrow, twisting passages.",
+      "img": "muskportrait",
+      "query": "rocket engineering hardware SpaceX",
+      "tone": "confidence"
+    },
+    {
+      "id": "m2b",
+      "text": "The device itself, nicknamed \"Wild Boar\" after the trapped team, was built by SpaceX and Boring Company engineers out of a spare Falcon 9 rocket part, and actually flown to the site.",
+      "img": "muskportrait",
+      "query": "SpaceX Falcon 9 rocket engineering hardware",
+      "tone": "curiosity"
+    },
+    {
+      "id": "m3",
+      "text": "On July thirteenth, British caver Vernon Unsworth, who had lived locally and helped coordinate the rescue, tells CNN the submarine was a \"PR stunt,\" and that Musk should, in his words, \"stick his submarine where it hurts.\"",
+      "img": "muskportrait",
+      "query": "courthouse federal building Los Angeles",
+      "cap": "\"A PR stunt.\" — Vernon Unsworth, CNN, July 13, 2018.",
+      "tone": "tension"
+    },
+    {
+      "id": "m4",
+      "text": "Two days after that, Musk fires back on Twitter: \"Sorry pedo guy, you really did ask for it.\" He deletes it and apologizes within days.",
+      "img": "muskportrait",
+      "query": "social media smartphone twitter",
+      "cap": "Deleted. Apologized. Sued anyway.",
+      "tone": "shock"
+    },
+    {
+      "id": "c6",
+      "text": "Chapter six. The trial nobody filmed.",
+      "chapter": "CHAPTER SIX\nTHE TRIAL NOBODY FILMED",
+      "img": "courthouse",
+      "query": "federal courthouse Los Angeles"
+    },
+    {
+      "id": "t1",
+      "text": "Unsworth sues for defamation that September, seeking one hundred ninety million dollars. In private emails to a reporter, Musk goes further, calling Unsworth a child rapist, with no evidence.",
+      "img": "courthouse",
+      "query": "federal court building exterior columns",
+      "cap": "$190,000,000 sought. A real federal case.",
+      "tone": "tension"
+    },
+    {
+      "id": "t1b",
+      "text": "Musk goes further still, in a private email exchange with a reporter, calling Unsworth a \"child rapist\" and claiming, with no evidence at all, that he had moved to Thailand for a child bride.",
+      "img": "mediaindustry",
+      "query": "email correspondence journalist reporting",
+      "cap": "Unproven. Never adjudicated true or false by any court.",
+      "tone": "tension"
+    },
+    {
+      "id": "t1c",
+      "text": "The reporter had not agreed to keep any of it off the record. He published the emails in full.",
+      "img": "mediaindustry",
+      "query": "journalist newsroom reporting story",
+      "tone": "tension"
+    },
+    {
+      "id": "t2",
+      "text": "A judge rules Unsworth a private citizen, not a public figure, for these statements, meaning Musk would only need to have acted carelessly, not maliciously, to lose.",
+      "img": "courthouse",
+      "query": "courtroom gavel legal documents",
+      "tone": "tension"
+    },
+    {
+      "id": "t2b",
+      "text": "That single ruling matters more than it sounds: a public figure has to prove a defendant knew a statement was false, or recklessly ignored the truth. A private citizen only has to prove ordinary carelessness. The bar for Unsworth to win had just gotten lower.",
+      "img": "courthouse",
+      "query": "legal scales justice courthouse",
+      "tone": "curiosity"
+    },
+    {
+      "id": "t3",
+      "text": "December third, twenty nineteen. A four-day jury trial in Los Angeles. Musk testifies. He apologizes to Unsworth on the stand and says no one actually understood the tweet to mean pedophile.",
+      "img": "courthouse",
+      "query": "jury trial courtroom Los Angeles",
+      "cap": "Dec 3-6, 2019. Los Angeles federal court.",
+      "tone": "tension"
+    },
+    {
+      "id": "t3b",
+      "text": "Musk's defense, laid out at trial: that \"pedo guy\" was old South African slang for a creepy old man, not a literal accusation, and that the tweet, which never actually named Unsworth, couldn't reasonably be read as being about him specifically.",
+      "img": "courthouse",
+      "query": "defense attorney courtroom trial",
+      "tone": "curiosity"
+    },
+    {
+      "id": "t3c",
+      "text": "Unsworth's team sought one hundred ninety million dollars in damages, pointing to Musk's roughly twenty billion dollar net worth at the time. The judge instructed the jury the private emails could describe Musk's state of mind, but could not, on their own, prove defamation.",
+      "img": "courthouse",
+      "query": "money damages lawsuit financial documents",
+      "cap": "$190,000,000 sought.",
+      "tone": "tension"
+    },
+    {
+      "id": "t4",
+      "text": "The jury deliberates for under an hour. They find Musk not liable. Zero damages. A civil verdict, not a criminal one.",
+      "img": "courthouse",
+      "query": "jury verdict courthouse steps",
+      "cap": "Not liable. Zero damages.",
+      "stat": "<1 HOUR",
+      "tone": "confidence"
+    },
+    {
+      "id": "t5",
+      "text": "By one juror's own account afterward, the panel never even reached the question of whether the accusation was true. They simply weren't convinced a reasonable person could tell an un-named tweet was about Unsworth at all.",
+      "img": "courthouse",
+      "query": "legal documents paperwork desk",
+      "cap": "The jury never ruled on whether it was true.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c7",
+      "text": "Chapter seven. The extraction nobody could have filmed.",
+      "chapter": "CHAPTER SEVEN\nNOBODY COULD HAVE FILMED THIS",
+      "img": "medicalprep",
+      "query": "medical rescue equipment oxygen mask"
+    },
+    {
+      "id": "e1",
+      "text": "Oxygen inside the boys' chamber falls toward fifteen percent, well below breathable. Officials abandon every plan except one: sedate all thirteen, and carry them out through the flooded cave, one at a time.",
+      "img": "medicalprep",
+      "query": "oxygen tank scuba diving equipment",
+      "stat": "15% OXYGEN",
+      "tone": "tension"
+    },
+    {
+      "id": "e1b",
+      "text": "Every other option had already failed or been rejected. This was the last plan left on the table, and nobody involved was certain it would work on a single child, let alone all thirteen.",
+      "img": "medicalprep",
+      "query": "medical team preparing equipment emergency",
+      "tone": "tension"
+    },
+    {
+      "id": "e2",
+      "text": "The real drug protocol, published later in the New England Journal of Medicine by the operation's own medical team: an anti-anxiety tablet, atropine, then a ketamine injection, chosen specifically because it doesn't suppress breathing.",
+      "img": "medicalprep",
+      "query": "medical syringe medication vial",
+      "cap": "NEJM, 2019: alprazolam, atropine, ketamine.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e2b",
+      "text": "Ketamine specifically, because unlike almost every other sedative available, it doesn't suppress the drive to keep breathing, something that mattered enormously for a swim that would last hours through cold water.",
+      "img": "medicalprep",
+      "query": "medical equipment anesthesia preparation",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e3",
+      "text": "Each boy is fitted with a full-face oxygen mask and physically carried through the flooded passages by a lead diver, sedated the entire way.",
+      "dossier": true,
+      "cap": "RECONSTRUCTION — the only real footage of this sequence is Thai government-produced and was never released under a free license.",
+      "tone": "tension",
+      "img": "medicalprep",
+      "query": "medical rescue equipment oxygen mask preparation"
+    },
+    {
+      "id": "e4",
+      "text": "The order they came out in wasn't decided by the doctors. The boys decided it themselves, days earlier, trapped in the dark: whoever lived farthest from the cave should go first, so they wouldn't have as far to bike home.",
+      "img": "ekkapol",
+      "query": "children Thailand rural village bicycle",
+      "cap": "\"So the persons who live furthest away would go out first.\" — Ekkapol Chantawong.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e5",
+      "text": "July sixth. Thai Navy Seal volunteer Saman Kunan runs out of his own air returning from delivering oxygen tanks, and dies. He is posthumously promoted seven ranks by royal command.",
+      "dossier": true,
+      "cap": "Saman Kunan, 37. July 6, 2018. RECONSTRUCTION — no footage exists.",
+      "tone": "melancholy",
+      "img": "sealmemorial",
+      "query": "Thai Navy SEAL memorial tribute ceremony"
+    },
+    {
+      "id": "e6",
+      "text": "Eighteen months later, a second Seal, Petty Officer Beirut Pakbara, dies from a blood infection contracted during the same mission. Almost no retelling of this story mentions his name at all.",
+      "img": "sealmemorial",
+      "query": "Thai Navy memorial ceremony",
+      "cap": "Beirut Pakbara. Died Dec 28, 2019. Rarely mentioned.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e6b",
+      "text": "Two deaths, on two completely different timelines, both caused by the same eighteen-day mission. Most retellings only remember one of them.",
+      "img": "sealmemorial",
+      "query": "Thai Navy SEAL memorial tribute",
+      "tone": "melancholy"
+    },
+    {
+      "id": "e7",
+      "text": "July tenth. Eighteen divers, thirteen from around the world and five Thai Navy SEALs, bring out the last four boys, their coach, and the medical team who never left their side. Eighteen days after they walked in, everyone is out.",
+      "img": "ekkapol",
+      "query": "celebration rescue success Thailand",
+      "cap": "18 days. All 13 out alive.",
+      "tone": "confidence"
+    },
+    {
+      "id": "e8",
+      "text": "By the third and final day, what had taken roughly three hours per boy on day one had been cut to just over two. The team had gotten faster with every single life they carried out.",
+      "img": "ekkapol",
+      "query": "rescue team relief exhaustion success",
+      "tone": "confidence"
+    },
+    {
+      "id": "c8",
+      "text": "Chapter eight. What the story left out.",
+      "chapter": "CHAPTER EIGHT\nWHAT THE STORY LEFT OUT",
+      "img": "ekkapol",
+      "query": "Wild Boars team Thailand celebration"
+    },
+    {
+      "id": "w1",
+      "text": "Freelance divers Ben Reymenants and Maksym Polejaka reportedly located the group first. The British divers every film credits didn't publicly acknowledge them for three years.",
+      "img": "caveinterior",
+      "query": "cave diver headlamp underwater exploration",
+      "tone": "curiosity"
+    },
+    {
+      "id": "w1b",
+      "text": "Not because their contribution was invented. Because the two men every screen adaptation lionizes hadn't been the ones to find them first, and that fact took years to become public.",
+      "img": "divercredit",
+      "query": "diving team recognition award ceremony",
+      "tone": "melancholy"
+    },
+    {
+      "id": "w2",
+      "text": "Within weeks, Thailand fast-tracked citizenship for Ekkapol and the stateless boys on the team, members of the Tai Lue ethnic minority who had lived in Thailand their whole lives without ever legally belonging to it.",
+      "img": "ekkapol",
+      "query": "Thailand citizenship ceremony documents",
+      "cap": "Stateless, then citizens, within weeks.",
+      "tone": "confidence"
+    },
+    {
+      "id": "w2b",
+      "text": "Ekkapol and the boys had lived their entire lives in Thailand, gone to Thai schools, spoken Thai, without ever holding the legal right to a Thai passport, a bank account, or in some cases, even to travel outside their home district.",
+      "img": "ekkapol",
+      "query": "rural village Thailand mountain community",
+      "tone": "melancholy"
+    },
+    {
+      "id": "w3",
+      "text": "Within days of the rescue, studios and streamers were racing to buy the rights to tell these boys' stories. Netflix's exclusive deal is the specific reason the Oscar-nominated documentary team never got to speak with them at all.",
+      "img": "mediaindustry",
+      "query": "film production contract signing",
+      "tone": "melancholy"
+    },
+    {
+      "id": "w3b",
+      "text": "That auction is why the boys never appear at all in the Oscar-nominated documentary about their own rescue, and why the scripted Netflix series exists specifically because it, not the documentary team, held the rights to tell their side of it.",
+      "img": "mediaindustry",
+      "query": "film contract negotiation entertainment industry",
+      "tone": "melancholy"
+    },
+    {
+      "id": "w4",
+      "text": "The documentary that did get real access, built from eighty-seven hours of footage the Thai Navy eventually handed over after two years of negotiation, went on to win a Bafta nomination and a string of Critics' Choice awards. It was still snubbed at the Oscars.",
+      "img": "mediaindustry",
+      "query": "documentary film awards ceremony",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c9",
+      "text": "Chapter nine. Still diving, eight years later.",
+      "chapter": "CHAPTER NINE\nSTILL DIVING, EIGHT YEARS LATER",
+      "img": "laosmap",
+      "query": "Laos map Southeast Asia"
+    },
+    {
+      "id": "l1",
+      "text": "May twenty-nineteenth, twenty twenty-six. Eight villagers panning for gold enter a flooded mine in Xaysomboun Province, Laos. Monsoon rain traps seven of them underground.",
+      "img": "laosmap",
+      "query": "Laos flooded mine cave rescue 2026",
+      "cap": "May 19-20, 2026. Xaysomboun Province, Laos.",
+      "tone": "tension"
+    },
+    {
+      "id": "l1b",
+      "text": "Roughly a hundred rescuers respond, specialists from Thailand, Finland, France, Indonesia, Malaysia, Japan, and Australia.",
+      "img": "laosmap",
+      "query": "international rescue team gathering equipment",
+      "tone": "curiosity"
+    },
+    {
+      "id": "l2",
+      "text": "Two of the divers who answer the call are Mikko Paasi and Norraseth Palasri, the same men who dove into Tham Luang in 2018.",
+      "img": "laosmap",
+      "query": "cave diver rescue equipment Southeast Asia",
+      "cap": "The same divers. Eight years later.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "l3",
+      "text": "This time, it isn't a clean ending. Five survivors are found alive by May thirtieth. Two miners are never located. A cave-in and a real earthquake make the site too unstable, and on June sixth, officials call off the search.",
+      "img": "laosmap",
+      "query": "rescue operation search suspended",
+      "cap": "2 of 7 never found. Search called off June 6, 2026.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "l3b",
+      "text": "One miner is pulled out in a high-risk underwater evacuation on May twenty-ninth. The last four walk out on their own the next day, once the water finally drops low enough.",
+      "img": "laosmap",
+      "query": "rescue survivor extraction relief",
+      "cap": "5 of 7 survived.",
+      "tone": "confidence"
+    },
+    {
+      "id": "l4",
+      "text": "A few weeks later, Chiang Rai holds its eighth anniversary memorial for the Tham Luang rescue: a tribute to Saman Kunan, to Beirut Pakbara, and to the boy who didn't live to see this anniversary.",
+      "img": "sealmemorial",
+      "query": "memorial ceremony tribute candles",
+      "cap": "June 19-20, 2026. Chiang Rai memorial.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda1",
+      "text": "Here is the part of this story that has nothing to do with mystery, and everything to do with the truth. In February twenty twenty-three, Duangphet Phromthep, the team's captain, one of the twelve boys who survived that cave, died in England. He was seventeen.",
+      "img": "ekkapol",
+      "query": "Wild Boars football team photo Thailand",
+      "cap": "Duangphet \"Dom\" Phromthep, 1998-2023.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda2",
+      "text": "The coroner's own words, after a full inquest: he was not known to any mental health service, no one could have foreseen it, and there was no third-party involvement of any kind. The reason, in the coroner's own language, is simply not known.",
+      "img": "sealmemorial",
+      "query": "candle memorial tribute quiet",
+      "cap": "\"It could not have been foreseen or prevented.\" — Coroner Catherine Mason.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda3",
+      "text": "Twelve boys and their coach walked into a cave in twenty eighteen. All thirteen walked out. What happened to them afterward, the trial, the citizenship, the divers still diving, the boy who didn't get to grow old, was never going to fit inside one clean, simple story.",
+      "img": "cavemap",
+      "query": "cave entrance Thailand mountain landscape",
+      "tone": "melancholy"
+    },
+    {
+      "id": "bridge",
+      "text": "If a rescue with a happy ending still had this much left unsaid, wait until you see the disaster where nothing about the ending was happy at all. That full story is live on this channel right now.",
+      "img": "oceanteaser",
+      "query": "ocean horizon dramatic sky mystery",
+      "cap": "Watch next: The Bermuda Triangle.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "end",
+      "text": "Subscribe to mindwired.",
+      "chapter": "SUBSCRIBE",
+      "img": "cavemap"
+    }
+  ]
+}

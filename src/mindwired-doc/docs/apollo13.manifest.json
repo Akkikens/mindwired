@@ -1,0 +1,156 @@
+{
+ "durations": {
+  "h1": 11.468,
+  "h2": 10.606,
+  "h3": 8.986,
+  "h4": 11.546,
+  "intro": 1.411,
+  "title": 14.028,
+  "c1a": 15.569,
+  "c1b": 15.073,
+  "c1c": 8.829,
+  "c1d": 11.076,
+  "c1e": 14.446,
+  "c1f": 4.911,
+  "c1g": 15.308,
+  "c1h": 14.211,
+  "c2a": 8.046,
+  "c2b": 11.311,
+  "c2c": 8.046,
+  "c2d": 13.636,
+  "c2e": 10.266,
+  "c2f": 13.479,
+  "c2g": 11.233,
+  "c3a": 13.009,
+  "c3b": 8.281,
+  "c3c": 8.438,
+  "c3d": 11.546,
+  "c3e": 12.121,
+  "c3f": 6.113,
+  "c3g": 10.188,
+  "c3h": 8.516,
+  "c3i": 14.681,
+  "c3j": 18.364,
+  "c4a": 12.042,
+  "c4b": 12.931,
+  "c4c": 10.684,
+  "c4d": 13.793,
+  "c4e": 16.588,
+  "c5a": 9.639,
+  "c5b": 12.199,
+  "c5c": 8.594,
+  "c5d": 1.489,
+  "c6a": 11.076,
+  "c6b": 8.046,
+  "c6c": 8.908,
+  "c6d": 6.034,
+  "c6e": 14.838,
+  "c7a": 11.389,
+  "c7b": 7.811,
+  "c7c": 3.631,
+  "c7d": 5.564,
+  "c7e": 10.841,
+  "c7f": 6.531,
+  "c8a": 9.482,
+  "c8b": 14.211,
+  "c8c": 11.154,
+  "c8d": 13.793,
+  "c8e": 4.754,
+  "c9a": 13.244,
+  "c9b": 8.046,
+  "c9c": 9.169,
+  "c9d": 12.042,
+  "c9e": 8.751,
+  "c10a": 5.721,
+  "c10b": 10.266,
+  "c10c": 8.359,
+  "c10d": 15.229,
+  "c10e": 10.762,
+  "coda1": 11.233,
+  "coda2": 8.516,
+  "bridge": 12.356,
+  "end": 1.724
+ },
+ "images": {
+  "apollo13crew2": [
+   "apollo13crew2_1.jpg",
+   "apollo13crew2_2.jpg",
+   "apollo13crew2_3.jpg"
+  ],
+  "apollo13launch": [
+   "apollo13launch_1.jpg"
+  ],
+  "artemis2": [
+   "artemis2_1.jpg"
+  ],
+  "fraumauro": [
+   "fraumauro_2.jpg",
+   "fraumauro_3.jpg"
+  ],
+  "haise": [
+   "haise_1.jpg"
+  ],
+  "kranz": [
+   "kranz_1.jpg",
+   "kranz_2.jpg",
+   "kranz_3.jpg"
+  ],
+  "ksctest": [
+   "ksctest_2.jpg",
+   "ksctest_3.jpg"
+  ],
+  "lm": [
+   "lm_1.jpg",
+   "lm_2.jpg",
+   "lm_3.jpg"
+  ],
+  "lmcabin3": [
+   "lmcabin3_1.jpg"
+  ],
+  "lmcabin4": [
+   "lmcabin4_1.jpg"
+  ],
+  "lovell": [
+   "lovell_1.jpg",
+   "lovell_2.jpg",
+   "lovell_3.jpg"
+  ],
+  "mailboxfix": [
+   "mailboxfix_1.jpg",
+   "mailboxfix_2.jpg",
+   "mailboxfix_3.jpg"
+  ],
+  "mattingly": [
+   "mattingly_1.jpg"
+  ],
+  "moccontrolphoto2": [
+   "moccontrolphoto2_1.jpg",
+   "moccontrolphoto2_2.jpg"
+  ],
+  "moccontrolphoto": [
+   "moccontrolphoto_1.jpg",
+   "moccontrolphoto_2.jpg",
+   "moccontrolphoto_3.jpg"
+  ],
+  "o2tank": [
+   "o2tank_1.jpg",
+   "o2tank_2.jpg"
+  ],
+  "reviewboard": [
+   "reviewboard_1.jpg"
+  ],
+  "swigert": [
+   "swigert_1.jpg",
+   "swigert_2.jpg",
+   "swigert_3.jpg"
+  ],
+  "tvnetworks1970": [
+   "tvnetworks1970_2.jpg",
+   "tvnetworks1970_3.jpg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.96,
+ "polish": false,
+ "mouth": {}
+}
