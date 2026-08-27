@@ -381,6 +381,84 @@ Cross-channel remakes are now ~TTS-cost-only (see src/mindwired-doc/README.md).
 
 ## Black Box Breakdown (disaster forensics — @Watch-BlackBox)
 
+**✅ PUBLISHED — Swissair Flight 111 (1998): https://youtu.be/TXgg2Qy1Oa0**
+(uploaded ~2026-08-25 as "Swissair 111 : The 17 Minutes That KILLED 229
+People" — inside the Sept 2-16 dual-peg window early; 215 views at first
+check 2026-08-26). Funnel Shorts built 2026-08-26 (`Swissair111Short1-4`,
+drip plan `docs/publishing/SHORTS-SCHEDULE-swissair111.md` — Short 1 is the
+real-ATC-audio play). TWA 800 also live: https://youtu.be/pr-F-iRTP18
+(retitled by Akshay to "The FBI File That Surfaced 30 Years Later").
+Original render notes: `Swissair 111 - The 17 Minutes That Killed 229.mp4`
+at repo root, 38:29 final (1080p per Akshay's explicit instruction, no music
+bed under narration per his explicit instruction — VO + automatic SFX only).
+Full package: `docs/metadata/METADATA-swissair111.md`, handoff:
+`docs/planning/SWISSAIR111-HANDOFF.md`. All 10 radio scenes carry REAL 1998
+ATC audio (verified, not a Cartesia recreation). **Real infra bug fixed this
+episode**: a plain single-pass GCE render failed twice with an intermittent
+Remotion font-loading race; built `scripts/render_chunked_and_master.py` +
+`scripts/lib/chunked_render.py` (chunk-render-concat, resumable, fail-fast)
+as a reusable fix — use `CHUNKED=1` on `render_gce.sh` for any future long
+episode. **Ship window still binding: Sept 2-16, 2026** (28th anniversary +
+the dramatized film's Sept 16 premiere) — real time pressure remains.
+
+**⭐ Original validation — Swissair Flight 111 (1998), Icahn-validated PASS
+2026-08-24 (memory `icahn-swissair111`).** Winner of a round-2 sweep run after round 1
+came back thin. Real 546.9:1 headline (858,738v/1,570subs) corroborated by
+sustained fresh activity (18 uploads in the trailing 12 months, including
+Mayday: Air Disaster's own channel posting a new cut the day before this
+validation). **Currency CONFIRMED and dated: the 28th crash anniversary
+(Sept 2, 2026) lands two weeks before a dramatized feature film's confirmed
+World Premiere (Sept 16, 2026, Atlantic International Film Festival,
+Halifax)** — a real double news-peg. **TIGHT SHIP WINDOW: target Sept 2-16,
+2026** to land inside both pegs — real time pressure, not a "whenever"
+topic. Recognition 2/3 (bridge with the "16 minutes" detail, not the bare
+flight number). Sensitivity: PASS, standard care only (1998, cause fully
+settled by TSB Canada — arcing wiring near a newly-installed entertainment
+system ignited flammable cabin insulation — no living-family flashpoint, no
+litigation; same tier as TWA800/Helios522, not WTC-tier). **Open gate:
+footage feasibility not yet probed — Canada's TSB is Crown copyright, NOT
+automatically PD like NTSB; must verify Commons/ATC-audio/CAF paths before
+full commitment.** Locked package: title "Swissair 111: The 16 Minutes
+That Killed 229," thumbnail on a real Commons MD-11 photo. Runner-up:
+Surfside/Champlain Towers condo collapse (also PASS — real fresh outlier +
+a live NIST-final-report wave — but the actual collapse footage is
+news-org-owned and sensitivity is WTC-tier given 98 real dead only 4 years
+ago; kept as the strongest alternate if Swissair 111's footage probe comes
+back weak). Also swept: Morandi Bridge (WEAK but a real live July 2026
+verdict nobody's covered yet — watch item), MV Sewol (WEAK, wave already
+broke), Beirut port explosion (HOLD — indictment still not issued as of
+the Aug 4 2026 anniversary), El Faro (FAIL — no clean outlier, black-box
+audio angle legally barred + already the most-mined beat in the genre).
+Full evidence: memory `icahn-swissair111`.
+
+**Sweep 2026-08-24 (memory `icahn-blackbox-2026-08-24-sweep`) — a thin week,
+no clean PASS.** Akshay asked to focus on MH370 given real Studio data
+showing it as the channel's best video (40,019 views); checked that
+instinct against the actual numbers and it doesn't hold for a 4th video —
+the two MH370 FOLLOW-UPS landed at 2,738 and 2,205 views (same tier as
+every other decent video, declining), not a special MH370 floor. A real
+live news hook exists (Ocean Infinity's search extended to Jun 2027, still
+empty) but the outlier sweep on that exact angle came back WEAK (one
+confounded outlier from a 12-year MH370-specialist channel, no clean
+second corroborator) — **4th MH370 video SKIPPED for now.** Also swept and
+FAILED: the MH370/MH17 hull-swap conspiracy (zero qualifying outliers, dead
+decade-old theory). Also swept and WEAK: de Havilland Comet (real evergreen
+demand but no fresh small-channel proof, no currency until 2029's 75th
+anniversary); Hyatt Regency walkway collapse (technically the STRONGEST raw
+numbers — two clean headline outliers, a five-video 1M+ ceiling with two
+2025 uploads — but 22 small channels cloned the exact angle in the last 90
+days and nearly all cratered under 150 views, a demonstrably dying wave).
+**Silver Bridge collapse (1967) picked as the least-bad option** — real
+corroborated outlier proof (1857:1, 38:1, 22:1, all 5-15yrs stale but
+consistent), recognition only 1/3 (needs a bridge title, never bare "Silver
+Bridge"), sensitivity LOW (59yo, cause settled, no living parties), zero
+active copycat saturation right now (the actual differentiator vs. Hyatt),
+soft 59th-anniversary timing hook Dec 15 2026. Footage feasibility UNVERIFIED
+— run an actual fetch probe before committing, don't assume Pathé-style
+archives are free. Not a confident PASS on any bar — flagged honestly as
+"bank it, time it near December" rather than "next Costa Concordia." Worth
+another fresh-candidate sweep before fully committing if schedule allows.
+
 **❌ VALIDATED + FAILED 2026-08-21 (memory `icahn-johnbarnett`) — John Barnett,
 Boeing whistleblower death. DO NOT BUILD without new evidence.** Live yt-dlp
 sweep (solo + bundled with Joshua Dean) across 75+ results, Mar 2024–Aug 2026:
@@ -414,8 +492,14 @@ suicide-content ethics review is run (not a standard pass); a 3rd Boeing/
 corporate-accountability spine (after 737 MAX, Key Bridge) is justified as
 meaningfully different. Full evidence: memory `icahn-johnbarnett`.
 
-**✅ RENDERED 2026-08-21, ready for Akshay's review + upload — see
-`docs/planning/TWA800-HANDOFF.md`.** TWA Flight 800 (1996), Icahn-validated
+**✅ PUBLISHED (Akshay confirmed 2026-08-24) — see
+`docs/planning/TWA800-HANDOFF.md`** (real URL pending capture — add to
+memory `blackbox-published-urls` once handy). **Known defect, live and
+unfixable now: shipped with the OLD Veo-clone narrator voice, not the
+current Grant voice** — a stale voice ID slipped through mid-session;
+confirm the real Grant ID (`d46abd1d-2d02-43e8-819f-51fb652c1c61`) gets used
+on the NEXT episode rather than trusting an old skill-file memory. TWA
+Flight 800 (1996), Icahn-validated
 2026-08-21 (memory `icahn-twa800`), PASS-WITH-CONDITIONS. Final:
 `TWA Flight 800 - The Files the FBI Tried to Bury.mp4` at repo root, 4K
 (3840×2160), 926.0s (15:26 incl. BB outro), −14.1 LUFS, 86 scenes, 100% real

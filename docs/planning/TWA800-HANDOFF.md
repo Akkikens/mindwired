@@ -1,6 +1,24 @@
 # TWA 800 — production handoff (2026-08-21)
 
-**STATUS: RENDERED, ready for Akshay's review + upload.**
+**STATUS: PUBLISHED (Akshay confirmed upload 2026-08-24).** Real YouTube URL
+not yet captured in this file — add it here and to memory
+`blackbox-published-urls` when handy.
+
+**⚠ KNOWN DEFECT, already live, cannot be fixed post-publish:** this episode
+shipped with the OLD Veo-clone narrator voice (`00d3c951-...`), NOT the
+current Grant voice (`d46abd1d-...`) that CLAUDE.md says Black Box switched
+to before this session even started. The producing session (2026-08-21)
+copied a stale voice ID from what it read as the doc-episode skill's
+template text; by the time the mistake was caught, Akshay had already
+uploaded the video, so a VO-rebuild-and-reupload was correctly abandoned
+rather than pursued for an already-live video. Treat this episode as an
+honest part of the pre-switch back-catalog going forward (the doc JSON's
+`voice` field was reverted to match what's actually live, so the source
+file stays an accurate record) — but the root cause (a stale ID in
+whatever context produced the mistake) is worth a quick check before the
+next episode: confirm `d46abd1d-2d02-43e8-819f-51fb652c1c61` is what
+actually gets used, don't trust memory of what a skill file said earlier
+in a long session.
 
 Final files at repo root:
 - `TWA Flight 800 - The Files the FBI Tried to Bury.mp4` — 3840×2160, 926.0s

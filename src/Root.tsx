@@ -93,6 +93,8 @@ import kurskDoc from "./mindwired-doc/docs/kursk.json";
 import kurskManifest from "./mindwired-doc/docs/kursk.manifest.json";
 import twa800Doc from "./mindwired-doc/docs/twa800.json";
 import twa800Manifest from "./mindwired-doc/docs/twa800.manifest.json";
+import swissair111Doc from "./mindwired-doc/docs/swissair111.json";
+import swissair111Manifest from "./mindwired-doc/docs/swissair111.manifest.json";
 import costaconcordiaManifest from "./mindwired-doc/docs/costaconcordia.manifest.json";
 import area51Doc from "./mindwired-doc/docs/area51.json";
 import area51Manifest from "./mindwired-doc/docs/area51.manifest.json";
@@ -1678,6 +1680,70 @@ export const RemotionRoot: React.FC = () => {
         fps={30}
         width={1920}
         height={1080}
+      />
+
+      {/* ── Swissair 111 (Black Box Breakdown) — the channel's longest episode
+             to date: the fire nobody could see, the exact TSB-cited failure
+             cascade (0123:45-0125:41 UTC), the real 1998/2007 ATC exchange
+             across Moncton Center + Halifax Terminal, the Arc Fault Circuit
+             Breaker legacy connecting back to TWA 800, Dr. Jonathan Mann's
+             health-and-human-rights legacy, the Shaw family, and the Sept 16
+             2026 dramatized-film premiere. All real assets: the actual
+             HB-IWF Commons photo, real DVIDS/Commons Navy-recovery stills,
+             real ATC audio (2007 government release, labeled ACTUAL ATC
+             RECORDING per Akshay's approved judgment call), zero broadcast
+             news. Sensitivity: attributed-never-asserted per
+             docs/planning/CLAIMS-swissair111.md's extensive corrections;
+             Ian Shaw/Björn Hering handled with high care (no present-tense
+             claims, no speculation). No music bed — VO/SFX only, per
+             Akshay's explicit no-overlap request. See memory
+             `icahn-swissair111`. BB_OUTRO baked. ── */}
+      <Composition
+        id="Swissair111Doc"
+        component={makeDocComp(swissair111Doc as any, swissair111Manifest as any, BB_OUTRO)}
+        durationInFrames={docTotalFrames(swissair111Doc as any, swissair111Manifest as any, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Swissair 111 funnel Shorts (4) — long-form LIVE at
+             https://youtu.be/TXgg2Qy1Oa0 (2026-08-25), drip per
+             docs/publishing/SHORTS-SCHEDULE-swissair111.md. Short 1 is the
+             channel's signature play: the REAL 1998 ATC audio arc (Pan Pan →
+             "fly manually" → emergency → "more than thirty miles" → "land
+             immediate"), radio scenes given real photo plates via imgOverride
+             (no bare black text scenes). 2: the hidden gambling system.
+             3: the 116-second cockpit-death cascade. 4: the 2-million-piece
+             recovery (real US Navy/DVIDS photos). Vertical Reid outro baked
+             by the comp. ── */}
+      <Composition
+        id="Swissair111Short1"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ ids: ["r1", "r2", "r3", "r7", "r8", "r10"], doc: swissair111Doc as any, manifest: swissair111Manifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ ids: ["r1", "r2", "r3", "r7", "r8", "r10"], imgOverride: { r1: "oceannight", r2: "hbiwf", r3: "swissairfleet", r7: "oceannight", r8: "hbiwf", r10: "oceannight" }, hook: "THIS IS THE REAL\nRADIO RECORDING", hookVideo: "oceannight_2.mp4", cta: "The full 17 minutes\nis on the channel", slug: "swissair111", doc: swissair111Doc as any, manifest: swissair111Manifest as any }}
+      />
+      <Composition
+        id="Swissair111Short2"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ ids: ["c2_1", "c2_3", "c2_4", "c2_5"], doc: swissair111Doc as any, manifest: swissair111Manifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ ids: ["c2_1", "c2_3", "c2_4", "c2_5"], hook: "THIS JET HAD A\nHIDDEN CASINO", cta: "What its wiring did\nis on the channel", slug: "swissair111", doc: swissair111Doc as any, manifest: swissair111Manifest as any }}
+      />
+      <Composition
+        id="Swissair111Short3"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ ids: ["c6_4", "c6_7", "c6_8", "c6_9"], doc: swissair111Doc as any, manifest: swissair111Manifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ ids: ["c6_4", "c6_7", "c6_8", "c6_9"], imgOverride: { c6_9: "hbiwf" }, hook: "EVERY SCREEN DIED\nIN 116 SECONDS", cta: "The full cascade, second\nby second — on the channel", slug: "swissair111", doc: swissair111Doc as any, manifest: swissair111Manifest as any }}
+      />
+      <Composition
+        id="Swissair111Short4"
+        component={BlackBoxShort}
+        durationInFrames={blackBoxShortFrames({ ids: ["c9", "c9_2", "c9_3", "c9_6", "c9_10"], doc: swissair111Doc as any, manifest: swissair111Manifest as any })}
+        fps={30} width={1080} height={1920}
+        defaultProps={{ ids: ["c9", "c9_2", "c9_3", "c9_6", "c9_10"], hook: "THEY REBUILT A JET FROM\n2 MILLION PIECES", cta: "What the rebuild proved\nis on the channel", slug: "swissair111", doc: swissair111Doc as any, manifest: swissair111Manifest as any }}
       />
 
       {/* ── Deepwater Horizon funnel Shorts (4) — cold open (real USCG fire

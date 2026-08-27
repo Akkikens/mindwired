@@ -141,14 +141,22 @@ def mix_music_windowed(video: Path, music: Path, out: Path,
                         duck_threshold: float = 0.04,
                         attack_ms: int = 15,
                         release_ms: int = 400,
-                        fade_s: float = 1.5) -> Path:
+                        fade_s: float = 1.5,
+                        hard_mute: bool = False) -> Path:
     """Like mix_music_ducked, but the bed only plays inside the given
     (start_sec, end_sec) windows — silent everywhere else — instead of looping
     under the entire runtime. Use when continuous music under long factual
     narration feels oppressive (Akshay feedback, 2026-07-17): reserve music for
     the cold open, chapter transitions, and the closing, not the whole doc.
     Each window fades in/out over `fade_s` seconds (clamped so short windows
-    like chapter cards don't overlap their own fade)."""
+    like chapter cards don't overlap their own fade).
+
+    hard_mute=True (Akshay, 2026-08-24: "i dont want vo and music to be played
+    at same time") swaps the sidechaincompress duck for a sidechaingate, which
+    fully silences the bed the instant narration is present instead of just
+    attenuating it — the bed only ever plays in genuine narration gaps within
+    a window. Default stays the soft duck so it doesn't change any existing
+    episode's mix."""
     if not windows:
         raise ValueError("mix_music_windowed requires at least one window")
     if not _has_audio(video):
@@ -164,11 +172,12 @@ def mix_music_windowed(video: Path, music: Path, out: Path,
         )
     gate_expr = "+".join(terms)
 
+    duck_filter = "sidechaingate" if hard_mute else "sidechaincompress"
     graph = (
         f"[0:a]asplit=2[vkey][vmix];"
         f"[1:a]volume={music_gain_db}dB[mus0];"
         f"[mus0]volume='{gate_expr}':eval=frame[mus];"
-        f"[mus][vkey]sidechaincompress="
+        f"[mus][vkey]{duck_filter}="
         f"threshold={duck_threshold}:ratio={duck_ratio}:attack={attack_ms}:release={release_ms}[ducked];"
         f"[vmix][ducked]amix=inputs=2:duration=first:dropout_transition=0:normalize=0[mix]"
     )
