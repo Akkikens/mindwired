@@ -21,6 +21,7 @@ Usage:
 Prints measured LUFS before and after so you can confirm the target was hit.
 """
 import argparse
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -28,6 +29,29 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent / "lib"))
 import master  # noqa: E402
+
+REPO = Path(__file__).resolve().parent.parent
+# doc_* beds are BANNED (Akshay 2026-07-25, "irritating", repeated viewer
+# complaints — memory music-beds-banned-2026-07); they stay on disk only so
+# old comps don't 404. Nothing before this line stopped them being passed.
+BANNED_BEDS = {"doc_awe.mp3", "doc_tension.mp3", "doc_open.mp3", "doc_somber.mp3"}
+
+
+def check_music_bed(p: Path | None):
+    if not p:
+        return
+    if p.name in BANNED_BEDS:
+        sys.exit(f"music bed {p.name} is BANNED (Akshay 2026-07-25 — use the "
+                 f"bed_* set in public/beds/, see LICENSES.md)")
+    if not p.name.startswith("bed_"):
+        print(f"[master] NOTE: {p.name} is outside the approved bed_* set — intended?")
+
+
+def clear_webpack_cache():
+    """A stale webpack bundle silently served pre-edit doc JSON into renders
+    TWICE in one session (memory starfishprime-video-10fps-bug, fifth lesson).
+    Clearing costs seconds; a stale render costs a full re-render."""
+    shutil.rmtree(REPO / "node_modules" / ".cache" / "webpack", ignore_errors=True)
 
 
 def main():
@@ -61,6 +85,8 @@ def main():
         sys.exit(f"music not found: {args.music}")
     if args.windows and not args.music:
         sys.exit("--windows requires --music")
+    check_music_bed(args.music)
+    clear_webpack_cache()
 
     with tempfile.TemporaryDirectory() as td:
         tmp = Path(td) / f"{out.stem}_raw.mp4"

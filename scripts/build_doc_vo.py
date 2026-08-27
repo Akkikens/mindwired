@@ -16,7 +16,7 @@ re-runs never re-spend Cartesia quota on existing mp3s.
     .venv-lipsync/bin/python scripts/build_doc_vo.py <slug> [--only a1,b2] [--force] [--manifest-only]
 """
 from __future__ import annotations
-import argparse, json, re, subprocess, sys
+import argparse, hashlib, json, re, subprocess, sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent / "lib"))
@@ -68,10 +68,12 @@ def main() -> None:
     mpath_prev = DOCS / f"{args.slug}.manifest.json"
     prev_speed = None
     prev_polish = None
+    prev_hash: dict[str, str] = {}
     if mpath_prev.exists():
         _prev = json.loads(mpath_prev.read_text())
         prev_speed = _prev.get("speed")
         prev_polish = _prev.get("polish")
+        prev_hash = _prev.get("texthash", {})
     # polish: sticky per episode. A pre-existing manifest without the key means
     # the episode predates the polish chain — its clips are raw, so --only
     # re-synths must stay raw too (else one clip splices in sounding different).
@@ -98,6 +100,12 @@ def main() -> None:
     only = {s.strip() for s in args.only.split(",") if s.strip()}
 
     durs: dict[str, float] = {}
+    # per-scene sha256 of the SPOKEN source text at synth time — preflight
+    # compares against the current doc text so a post-TTS text edit can never
+    # ship a clip silently speaking the OLD words (audit 2026-08-26; the
+    # dbcooper "--manifest-only after a text edit" near-miss class)
+    texthash: dict[str, str] = {}
+    synthed: set[str] = set()
     for s in doc["scenes"]:
         bid = s["id"]
         dst = audio_dir / f"{bid}.mp3"
@@ -130,9 +138,16 @@ def main() -> None:
                     except Exception as e:  # never lose a paid clip to ffmpeg
                         print(f"    !! polish failed for {bid} ({e}) — keeping raw")
                 dst.write_bytes(audio)
+                synthed.add(bid)
                 print(f"->  {bid}.mp3 ({len(audio)}b{', polished' if do_polish else ''})")
         if dst.exists():
             durs[bid] = round(duration(dst), 3)
+            cur = hashlib.sha256(s["text"].encode()).hexdigest()[:16]
+            if bid in synthed:
+                texthash[bid] = cur          # freshly synthesized from this text
+            elif bid in prev_hash:
+                texthash[bid] = prev_hash[bid]  # carry the synth-time record forward
+            # else: legacy clip with no record — leave unhashed (preflight skips)
 
     # cartoon lip-sync tracks for scenes where the mascot speaks the narration
     # ("speak": true) — cheap enough to compute for every clip (see mouthtrack.py)
@@ -145,7 +160,7 @@ def main() -> None:
     missing = [s["id"] for s in doc["scenes"] if s["id"] not in durs]
     manifest = {"durations": durs, "images": scan_images(out / "images"),
                 "missing": missing, "speed": args.speed, "polish": do_polish,
-                "mouth": mouths}
+                "mouth": mouths, "texthash": texthash}
     mpath = DOCS / f"{args.slug}.manifest.json"
     mpath.write_text(json.dumps(manifest, indent=1))
     total = sum(durs.values())

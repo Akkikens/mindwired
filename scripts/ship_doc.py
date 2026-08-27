@@ -2,7 +2,7 @@
 """ONE command per doc-engine episode: every mandatory gate in order, human
 checkpoints where CLAUDE.md demands them, then the single render+master.
 
-    python3 scripts/ship_doc.py <slug> <CompId> [--music public/beds/doc_tension.mp3]
+    python3 scripts/ship_doc.py <slug> <CompId> [--music public/beds/bed_tension_rud.mp3]
                                 [--windowed] [--music-gain-db -20] [--yes]
 
 Order (a failing gate stops the run):

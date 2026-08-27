@@ -176,6 +176,17 @@ docs/planning/FOOTAGE-UPGRADE.md; per-niche source rankings: scripts/SOURCES-GUI
   title from ATTRIBUTION.md): MISMATCH/WEAK/UNSOURCED/REUSE warnings + the
   HOOK-REUSE block. Runs inside preflight_doc.py automatically — fix flags by
   refetching real footage, not by hoping.
+- **Set the image-pool cap BEFORE assigning scenes, not after (2026-08-25).**
+  When a real photo pool has only 2-4 distinct files (most do), decide up
+  front roughly what share of the episode's scenes any single pool should
+  carry — as a rule of thumb, no one real-photo pool should end up print-
+  reused across more than ~40% of visual scenes without a deliberate reason
+  (it's genuinely the episode's central subject throughout, e.g. the
+  accident aircraft itself). Don't let it happen by default and rebalance
+  after the fact — on swissair111 a single pool (real accident-aircraft
+  photos) crept to 100+ of 179 scenes simply because nothing capped it while
+  scenes were being assigned, and fixing it after rendering was real, avoidable
+  rework. Decide the split across pools when you FIRST write the scene list.
 - **The one honest exception — "unfilmable moment" beats:** `dossier: true`
   scenes (`DossierScene`, docs/guides/DOSSIER-SCENES.md) render a hand-cut
   "case file" reconstruction — torn newsprint, a rubber-stamp label, a
@@ -218,6 +229,16 @@ Backlog + rationale: docs/planning/STUDIO-UPGRADE.md.
   hook-footage reused from another video (audit_scene_relevance.py); warns on
   scene<->visual mismatches and hook-checklist violations
   (docs/guides/HOOK-CHECKLIST.md). Never render a doc that hasn't passed it.
+  **Lesson gates (2026-08-26):** preflight now also enforces every
+  previously-manual banked lesson — retired narrator voice (the TWA800
+  shipped defect), chapter/kinetic scenes with no img (flat-black cards),
+  video fields on chapter cards (silently ignored), invisible scenes,
+  chapter numbering/duplicate-title-text (the swissair111 title-card bug),
+  first-25s-must-be-real-video, sub-15fps clips (compositor crashes),
+  oversized/non-RGB images, and img-pool over-concentration. The gate's
+  docstring cites the memory file behind each check. When a NEW production
+  defect gets caught manually, the fix is not just a memory entry — add a
+  check to preflight_doc.py in the same commit.
 - **SFX layer (baked into the ONE render):** `public/sfx/` holds the owned,
   ffmpeg-synthesized kit (`scripts/gen_sfx_kit.py`; license log in
   public/sfx/LICENSES.md). DocWide plays automatic cues — radio key-up squelch
@@ -499,6 +520,14 @@ clips have a fixed ~8s floor).
   style is retired.** Tooling: image-model keyart (Workflow A, scene-only) or
   Remotion still (Workflow B). Deliverable is 3 built PNGs in `out/thumbs/` +
   Test & Compare on every long-form — concepts alone are an incomplete package.
+  **Synergy, not repetition (2026-08-25):** when a thumbnail does carry text,
+  it must add a fact the title doesn't already give away — never restate a
+  number/word already in the title. If the title is "Swissair 111: The 17
+  Minutes That Killed 229," the thumbnail text is NOT "17 MINUTES" (already
+  said); it's a second, separate hook the title left out ("STILL NOT
+  REQUIRED," the fix that could've stopped this isn't mandatory today). Caught
+  and fixed on the swissair111 package after shipping the redundant version
+  first — check every thumbnail against its own title before finalizing.
 - Renders for upload live at repo root as the bare `<Title>.mp4` + `<Title>.srt`
   pair (mp4-filename-is-title rule; no channel prefix, slugs only for working
   files — unified 2026-08-03 across doc-episode/publish-video after the eval

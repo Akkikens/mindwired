@@ -4,7 +4,7 @@
 #
 #   scripts/render_gce.sh <CompId> <slug> [extra render_and_master args...]
 #   e.g. scripts/render_gce.sh TenerifeDoc tenerife \
-#          --music public/beds/doc_tension.mp3 --windows tenerife --music-gain-db -20
+#          --music public/beds/bed_tension_rud.mp3 --windows tenerife --music-gain-db -20
 #
 # What it does:
 #   1. creates a 32-core VM — ON-DEMAND by default (can't be preempted mid-render;
@@ -16,6 +16,15 @@
 #   5. polls until done, scps the mp4 back to out/<slug>_gce.mp4
 #   6. ALWAYS deletes the VM on exit (trap), success or failure
 #
+# CHUNKED=1 swaps step 4 for scripts/render_chunked_and_master.py — same
+# output, but renders in small chunks (fresh remotion process each) instead
+# of one continuous render. Use this for any long (>15min) doc, or after a
+# plain render has failed with a "delayRender... font ... was called but
+# not cleared" timeout at a random frame — a real intermittent race that
+# gets more likely the longer one render process runs (memory
+# `starfishprime-video-10fps-bug`). Not the default because it costs more
+# Chrome-startup overhead on short renders that never hit the race.
+#
 # Requirements: gcloud authed (project set), billing enabled, Compute API on.
 # Run detached locally (nohup ... &) — total wall time ≈ setup ~6min + render.
 set -euo pipefail
@@ -24,6 +33,21 @@ COMP="${1:?usage: render_gce.sh <CompId> <slug> [render args...]}"
 SLUG="${2:?usage: render_gce.sh <CompId> <slug> [render args...]}"
 shift 2
 EXTRA_ARGS=("$@")
+
+# keep the local poll loop alive through macOS sleep (3+ renders were
+# interrupted by the machine sleeping — memory otzi/gce lessons)
+if command -v caffeinate >/dev/null 2>&1; then
+  caffeinate -i -w $$ &
+fi
+
+# orphaned render VMs bill silently (an otzi-era VM ran a full day after its
+# render was fetched) — surface any stale ones before creating another
+STALE=$(gcloud compute instances list --filter="name~^render-" \
+  --format="value(name,zone,creationTimestamp)" 2>/dev/null || true)
+if [ -n "$STALE" ]; then
+  echo "[gce] NOTE — existing render-* instances (check for orphans, they bill hourly):"
+  echo "$STALE" | sed 's/^/[gce]   /'
+fi
 
 ZONE="${GCE_ZONE:-us-central1-f}"
 # highcpu: same 32 cores, half the RAM (64GB, plenty for ~28 Chrome tabs),
@@ -141,7 +165,22 @@ tar czhf "$TARBALL" -C "$REPO_DIR" -T "$MANIFEST"  # -h: dereference -hi twin sy
 gcloud compute scp "$TARBALL" "$NAME":~/render_src.tgz --zone "$ZONE"
 rm -f "$TARBALL" "$MANIFEST"
 
-echo "[gce] installing deps + starting render…"
+if [ "${CHUNKED:-0}" = "1" ]; then
+  RENDER_SCRIPT="scripts/render_chunked_and_master.py"
+  # kept modest by default: real-video-heavy chunks (e.g. a cold-open hook)
+  # can time out under high aggregate concurrent load even though the same
+  # chunk renders fine in isolation — see swissair111_gce_driver2.log
+  # (2026-08-24/25) where 6 parallel x 4/chunk (24 Chrome tabs) reliably
+  # starved the first ~1500 frames every time on a 32-core box.
+  RENDER_EXTRA="--concurrency ${GCE_CHUNK_CONCURRENCY:-3} --parallel-chunks ${GCE_PARALLEL_CHUNKS:-4} --chunk-size ${GCE_CHUNK_SIZE:-250}"
+  REMOTION_TIMEOUT="${GCE_REMOTION_TIMEOUT:-240000}"
+else
+  RENDER_SCRIPT="scripts/render_and_master.py"
+  RENDER_EXTRA="--concurrency ${GCE_CONCURRENCY:-16}"
+  REMOTION_TIMEOUT="${GCE_REMOTION_TIMEOUT:-120000}"
+fi
+
+echo "[gce] installing deps + starting render… (script: $RENDER_SCRIPT)"
 gcloud compute ssh "$NAME" --zone "$ZONE" --command "
   set -e
   mkdir -p $REMOTE && cd $REMOTE && tar xzf ~/render_src.tgz
@@ -156,8 +195,8 @@ gcloud compute ssh "$NAME" --zone "$ZONE" --command "
   dpkg -s fonts-noto-core >/dev/null 2>&1 || sudo apt-get install -y -qq fonts-noto-core fonts-indic 2>&1 | tail -1
   fc-cache -f >/dev/null 2>&1 || true
   mkdir -p out
-  nohup python3 scripts/render_and_master.py '$COMP' out/${SLUG}.mp4 --scale 2 \
-    --concurrency ${GCE_CONCURRENCY:-16} --remotion-timeout 120000 ${EXTRA_ARGS[*]:-} \
+  nohup python3 $RENDER_SCRIPT '$COMP' out/${SLUG}.mp4 --scale 2 \
+    $RENDER_EXTRA --remotion-timeout $REMOTION_TIMEOUT ${EXTRA_ARGS[*]:-} \
     > out/render.log 2>&1 &
   echo started
 "

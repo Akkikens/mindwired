@@ -21,7 +21,16 @@ def load(slug: str) -> tuple[dict, dict]:
 
 
 def scene_aud(scene: dict, durations: dict) -> float:
-    """Narration seconds; mirrors DocWide's words/2.3 estimate fallback."""
+    """Narration seconds; mirrors DocWide's words/2.3 estimate fallback.
+
+    `durations` is manifest["durations"], NEVER the whole manifest — passing
+    the full dict used to silently fall back to word-count estimates for
+    every scene, producing timestamps that drift minutes wrong by the end
+    (memory starfishprime-video-10fps-bug, fourth lesson). Now it raises."""
+    if "durations" in durations or "images" in durations:
+        raise ValueError(
+            "scene_aud got the FULL manifest — pass man['durations'] "
+            "(silent word-count fallback used to drift every timestamp)")
     d = durations.get(scene["id"])
     return d if d is not None else len(scene["text"].split()) / 2.3
 
