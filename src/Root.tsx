@@ -118,6 +118,8 @@ import thaiCaveRescueDoc from "./mindwired-doc/docs/thaicaverescue.json";
 import thaiCaveRescueManifest from "./mindwired-doc/docs/thaicaverescue.manifest.json";
 import apollo13Doc from "./mindwired-doc/docs/apollo13.json";
 import apollo13Manifest from "./mindwired-doc/docs/apollo13.manifest.json";
+import starfishPrimeDoc from "./mindwired-doc/docs/starfishprime.json";
+import starfishPrimeManifest from "./mindwired-doc/docs/starfishprime.manifest.json";
 import carlaWalkerDoc from "./mindwired-doc/docs/carlawalker.json";
 import carlaWalkerManifest from "./mindwired-doc/docs/carlawalker.manifest.json";
 import dbCooperDoc from "./mindwired-doc/docs/dbcooper.json";
@@ -2126,6 +2128,27 @@ export const RemotionRoot: React.FC = () => {
         durationInFrames={mindwiredShortFrames({ startId: "c10a", endId: "c10e", doc: apollo13Doc as any, manifest: apollo13Manifest as any })}
         fps={30} width={1080} height={1920}
         defaultProps={{ startId: "c10a", endId: "c10e", hook: "He recorded this message before he died.\nThen a new crew broke his own record.", slug: "apollo13", hookImg: "lovell_1.jpg", doc: apollo13Doc as any, manifest: apollo13Manifest as any }}
+      />
+
+      {/* ── Starfish Prime / Operation Fishbowl (1962), mindwired. Icahn PASS
+             2026-08-22 (memory icahn-starfishprime) — fresh 5.2:1/601K-view
+             corroborator proves "US nuked space" framing pulls now; live
+             2024-2026 currency via Russia's alleged space-based nuclear ASAT
+             weapon (Starfish Prime cited as the real precedent). Real PD
+             footage hand-cut from the declassified NASA/DOE
+             StarfishPrimeInterimReportByCommanderJTF8 reel (detonation +
+             real Tongatapu auroral footage + Fishbowl launch footage) — see
+             public/shorts/starfishprime/video/ATTRIBUTION.md. First episode
+             with the full craft-overhaul voice stack (Grant narrator +
+             pronunciation layer + broadcast polish). Full fact base:
+             docs/planning/CLAIMS-starfishprime.md. MW_OUTRO baked. ── */}
+      <Composition
+        id="StarfishPrimeDoc"
+        component={makeDocComp(starfishPrimeDoc as any, starfishPrimeManifest as any, MW_OUTRO)}
+        durationInFrames={docTotalFrames(starfishPrimeDoc as any, starfishPrimeManifest as any, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
       />
 
       {/* ── Thai Cave Rescue funnel Shorts (4) — trailers for ThaiCaveRescueDoc,

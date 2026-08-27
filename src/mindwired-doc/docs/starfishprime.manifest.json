@@ -1,0 +1,73 @@
+{
+ "durations": {
+  "h1": 8.751,
+  "h2": 9.247,
+  "h3": 8.438,
+  "h4": 10.998,
+  "intro": 1.489,
+  "title": 13.714,
+  "c1a": 9.091,
+  "c1b": 14.028,
+  "c1c": 11.729,
+  "c1d": 10.031,
+  "c1e": 10.762,
+  "c2a": 11.546,
+  "c2b": 11.389,
+  "c2c": 4.206,
+  "c2d": 6.922,
+  "c3a": 4.441,
+  "c3b": 15.151,
+  "c3c": 10.684,
+  "c4a": 8.751,
+  "c4b": 9.874,
+  "c4c": 17.868,
+  "c4d": 12.826,
+  "c5a": 12.042,
+  "c5b": 14.289,
+  "c5c": 10.762,
+  "c5d": 8.594,
+  "c6a": 14.602,
+  "c6b": 9.953,
+  "c6c": 11.546,
+  "c6d": 9.404,
+  "c7a": 12.669,
+  "c7b": 14.602,
+  "c7c": 12.042,
+  "c8a": 10.266,
+  "c8b": 10.841,
+  "c8c": 13.401,
+  "c8d": 11.651,
+  "c8e": 7.889,
+  "coda1": 7.889,
+  "coda2": 9.482,
+  "bridge": 10.919,
+  "end": 1.724
+ },
+ "images": {
+  "argus": [
+   "argus_1.jpg",
+   "argus_2.jpg",
+   "argus_3.jpg"
+  ],
+  "johnstonislandphoto": [
+   "johnstonislandphoto_2.jpg"
+  ],
+  "ltbtsigning": [
+   "ltbtsigning_1.jpg"
+  ],
+  "satellite1962": [
+   "satellite1962_1.jpg"
+  ],
+  "satellite2024": [
+   "satellite2024_1.jpg"
+  ],
+  "telstar1962": [
+   "telstar1962_1.jpg",
+   "telstar1962_2.jpg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.97,
+ "polish": true,
+ "mouth": {}
+}

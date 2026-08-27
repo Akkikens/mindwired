@@ -1,0 +1,548 @@
+1
+00:00:00,180 --> 00:00:05,180
+11 p .m. July 9th, 1962. 250 miles
+
+2
+00:00:05,180 --> 00:00:08,920
+above the Pacific, the United States detonates a nuclear bomb in space.
+
+3
+00:00:10,440 --> 00:00:12,940
+A newspaper in Hawaii wrote it plainly the next morning.
+
+4
+00:00:13,460 --> 00:00:17,020
+It looked as though the heavens had belched forth a new sun that flared briefly,
+
+5
+00:00:17,400 --> 00:00:19,340
+but long enough to set the sky on fire.
+
+6
+00:00:20,820 --> 00:00:23,700
+Two seconds later, 900 miles away in Honolulu,
+
+7
+00:00:24,280 --> 00:00:25,500
+streetlights start going out.
+
+8
+00:00:25,900 --> 00:00:28,900
+Nobody in Hawaii had been told a bomb was about to go off in space.
+
+9
+00:00:30,520 --> 00:00:32,860
+This is the real story of the day America nuked space,
+
+10
+00:00:33,240 --> 00:00:34,660
+the actual damage it did,
+
+11
+00:00:35,000 --> 00:00:37,180
+the satellite it quietly killed months later,
+
+12
+00:00:37,520 --> 00:00:41,300
+and why the exact same weapon is the reason the Pentagon is worried again right now.
+
+13
+00:00:42,700 --> 00:00:43,800
+You're watching Mind Wired.
+
+14
+00:00:45,240 --> 00:00:47,560
+This is the full real story of Starfish Prime,
+
+15
+00:00:47,940 --> 00:00:51,060
+the actual Cold War test that put a nuclear bomb in space,
+
+16
+00:00:51,560 --> 00:00:54,200
+the real damage it caused on the ground and in orbit,
+
+17
+00:00:54,660 --> 00:00:58,920
+and the live 2024 discovery that made this 60 -year -old test relevant again.
+
+18
+00:01:00,220 --> 00:01:03,080
+Five years earlier, the Soviet Union launched Sputnik,
+
+19
+00:01:03,560 --> 00:01:07,000
+and the United States panicked about a threat nobody had ever had to plan for,
+
+20
+00:01:07,420 --> 00:01:08,960
+nuclear missiles coming from space.
+
+21
+00:01:10,440 --> 00:01:15,700
+In 1958, physicist Nicholas Christophillos theorized that a nuclear explosion could trap
+
+22
+00:01:15,700 --> 00:01:17,560
+electrons in Earth's magnetic field,
+
+23
+00:01:17,900 --> 00:01:19,140
+creating an artificial shield.
+
+24
+00:01:19,880 --> 00:01:22,380
+The military tested his idea over the South Atlantic.
+
+25
+00:01:22,840 --> 00:01:24,500
+It was called Operation Argus.
+
+26
+00:01:25,820 --> 00:01:27,760
+A three -year moratorium on testing followed.
+
+27
+00:01:28,340 --> 00:01:31,280
+It ended when the Soviets resumed testing in 1961,
+
+28
+00:01:31,980 --> 00:01:34,200
+capping it with the largest nuclear weapon ever built.
+
+29
+00:01:34,760 --> 00:01:37,140
+The United States resumed testing almost immediately.
+
+30
+00:01:38,760 --> 00:01:40,860
+The American answer was Operation Fishbowl,
+
+31
+00:01:41,260 --> 00:01:46,120
+a series of high -altitude nuclear tests launched from a tiny American military outpost
+
+32
+00:01:46,120 --> 00:01:48,440
+in the middle of the Pacific called Johnston Island.
+
+33
+00:01:49,900 --> 00:01:53,160
+Nobody had ever deliberately detonated a nuclear weapon this high before.
+
+34
+00:01:53,840 --> 00:01:56,000
+The honest goal was simple and unsettling.
+
+35
+00:01:56,740 --> 00:01:58,060
+Find out what actually happens,
+
+36
+00:01:58,260 --> 00:02:00,460
+because right now, nobody really knows.
+
+37
+00:02:01,880 --> 00:02:04,820
+The plan, launch a Thor missile from Johnston Island,
+
+38
+00:02:05,140 --> 00:02:10,840
+carrying a warhead with roughly the explosive power of 1 .4 million tons of TNT and
+
+39
+00:02:10,840 --> 00:02:13,200
+detonated 250 miles above the Earth.
+
+40
+00:02:14,520 --> 00:02:16,660
+The first attempt, three weeks earlier,
+
+41
+00:02:17,080 --> 00:02:21,720
+failed. The Thor missile broke apart less than a minute after launch and had to be destroyed
+
+42
+00:02:21,720 --> 00:02:26,120
+in the air, scattering radioactive debris back onto the island that launched it.
+
+43
+00:02:27,180 --> 00:02:29,060
+Three weeks later, they tried again.
+
+44
+00:02:29,660 --> 00:02:31,200
+This time, the missile flew.
+
+45
+00:02:32,440 --> 00:02:33,920
+It climbed for several minutes,
+
+46
+00:02:34,280 --> 00:02:36,220
+arced 250 miles above the Pacific,
+
+47
+00:02:36,720 --> 00:02:39,180
+and the warhead detonated exactly as planned.
+
+48
+00:02:40,720 --> 00:02:43,260
+250 miles up, over the open Pacific,
+
+49
+00:02:43,860 --> 00:02:47,200
+the warhead detonated. Close to the blast,
+
+50
+00:02:48,020 --> 00:02:50,960
+observers reported a brilliant white flash burning through the clouds,
+
+51
+00:02:51,360 --> 00:02:54,440
+changing almost instantly into an expanding green ball of light,
+
+52
+00:02:54,860 --> 00:02:58,220
+then white streaks, then a full artificial aurora in green,
+
+53
+00:02:58,560 --> 00:03:01,240
+purple, and red. It lasted seven minutes.
+
+54
+00:03:02,760 --> 00:03:05,100
+From an island 2 ,600 kilometers away,
+
+55
+00:03:05,380 --> 00:03:07,020
+the display lasted 90 minutes.
+
+56
+00:03:07,540 --> 00:03:10,680
+The flash itself was visible as far as Fiji and New Zealand,
+
+57
+00:03:11,080 --> 00:03:13,160
+more than 3 ,000 kilometers from the blast.
+
+58
+00:03:14,680 --> 00:03:17,320
+In Honolulu, 1 ,400 kilometers away,
+
+59
+00:03:17,720 --> 00:03:19,600
+the effects arrived almost instantly.
+
+60
+00:03:20,260 --> 00:03:23,180
+The electromagnetic pulse hit within a fraction of a second.
+
+61
+00:03:24,620 --> 00:03:26,300
+About 300 streetlights went dark.
+
+62
+00:03:27,040 --> 00:03:29,680
+Burglar alarms across the city started going off for no reason.
+
+63
+00:03:30,140 --> 00:03:32,940
+A telephone company relay link between the islands was damaged,
+
+64
+00:03:33,260 --> 00:03:40,060
+cutting phone service. It
+
+65
+00:03:40,060 --> 00:03:41,780
+reached one controlling a whole string of lights.
+
+66
+00:03:42,700 --> 00:03:45,520
+But the real explanation is almost more unsettling than the myth.
+
+67
+00:03:46,280 --> 00:03:50,900
+A bomb detonated in space had reached down and quietly broke in specific pieces of equipment
+
+68
+00:03:50,900 --> 00:03:53,360
+on the ground from outside the atmosphere entirely.
+
+69
+00:03:54,820 --> 00:03:56,680
+No one in Hawaii had been evacuated,
+
+70
+00:03:57,100 --> 00:03:59,000
+warned, or told to expect anything.
+
+71
+00:03:59,880 --> 00:04:02,840
+The only sign that anything had happened at all was the sky itself,
+
+72
+00:04:03,260 --> 00:04:07,420
+and a handful of streetlights going dark for no reason anyone on the ground could see.
+
+73
+00:04:09,000 --> 00:04:10,720
+The blast didn't just light up the sky.
+
+74
+00:04:11,620 --> 00:04:13,880
+It created something that had never existed before.
+
+75
+00:04:14,520 --> 00:04:19,380
+An artificial belt of radiation wrapped around the earth that would outlast the people
+
+76
+00:04:19,380 --> 00:04:22,760
+who built it by decades. Within days,
+
+77
+00:04:23,180 --> 00:04:25,240
+a small American research satellite failed.
+
+78
+00:04:25,920 --> 00:04:28,100
+Within months, Britain's first satellite,
+
+79
+00:04:28,760 --> 00:04:31,880
+Ariel 1, and America's Transit 4B were dead too.
+
+80
+00:04:32,400 --> 00:04:36,100
+Their solar panels quietly destroyed by radiation that shouldn't have existed.
+
+81
+00:04:37,660 --> 00:04:41,640
+Roughly a third of everything humanity had in orbit at the time was damaged by a single
+
+82
+00:04:41,640 --> 00:04:45,800
+test. In 1962, that was a small number of satellites.
+
+83
+00:04:46,380 --> 00:04:47,940
+Today, it would be thousands.
+
+84
+00:04:49,440 --> 00:04:53,660
+Some of the radiation from that one bomb was still detectable in Earth's magnetic field
+
+85
+00:04:53,660 --> 00:04:55,960
+five years later. By some estimates,
+
+86
+00:04:56,300 --> 00:04:57,800
+traces lasted almost a decade.
+
+87
+00:04:59,240 --> 00:05:00,860
+The day after Starfish Prime,
+
+88
+00:05:01,160 --> 00:05:04,920
+a different rocket carried the most important satellite of the decade into orbit,
+
+89
+00:05:05,560 --> 00:05:08,740
+Telstar 1, the world's first active communications satellite,
+
+90
+00:05:09,020 --> 00:05:12,920
+the machine that led America and Europe exchange a live television signal for the first
+
+91
+00:05:12,920 --> 00:05:15,740
+time in history. For months,
+
+92
+00:05:15,980 --> 00:05:17,160
+Telstar worked perfectly.
+
+93
+00:05:17,820 --> 00:05:21,100
+Then, in November, its command system started glitching.
+
+94
+00:05:21,880 --> 00:05:23,520
+By February of the following year,
+
+95
+00:05:23,880 --> 00:05:27,740
+it was permanently dead. It wasn't destroyed by the blast.
+
+96
+00:05:28,280 --> 00:05:31,560
+It was slowly poisoned by the radiation belt the blast created,
+
+97
+00:05:31,900 --> 00:05:33,620
+one silent dose at a time,
+
+98
+00:05:33,800 --> 00:05:37,620
+for seven months until the damage finally added up to total failure.
+
+99
+00:05:39,100 --> 00:05:43,160
+The most important communications satellite of the century and the bomb that would slowly
+
+100
+00:05:43,160 --> 00:05:47,760
+kill it launched one day apart without either American program knowing what the other
+
+101
+00:05:47,760 --> 00:05:52,960
+would do to it. A test that broke streetlights 900 miles away and quietly
+
+102
+00:05:52,960 --> 00:05:57,300
+killed satellites for months afterward became one of the clearest arguments that testing
+
+103
+00:05:57,300 --> 00:06:02,120
+nuclear weapons in the atmosphere and in space had consequences nobody could contain.
+
+104
+00:06:03,600 --> 00:06:04,600
+It wasn't the only reason.
+
+105
+00:06:05,020 --> 00:06:06,000
+The Cuban missile crisis,
+
+106
+00:06:06,500 --> 00:06:10,700
+three months later, and growing public fear over radioactive fallout did most of the
+
+107
+00:06:10,700 --> 00:06:13,600
+political work. But Starfish Prime was real,
+
+108
+00:06:14,380 --> 00:06:17,900
+undeniable proof, a nuclear test in space doesn't stay in space.
+
+109
+00:06:19,360 --> 00:06:21,240
+One year later, the United States,
+
+110
+00:06:21,640 --> 00:06:25,880
+the Soviet Union, and Britain signed a treaty banning nuclear tests in the atmosphere
+
+111
+00:06:25,880 --> 00:06:31,200
+underwater and in space. Nobody has detonated a nuclear weapon in space since.
+
+112
+00:06:32,680 --> 00:06:37,780
+Every officer, engineer, and observer who was actually there in 1962 is
+
+113
+00:06:37,780 --> 00:06:42,620
+gone now. No one who witnessed Starfish Prime firsthand is alive to describe it anymore.
+
+114
+00:06:44,080 --> 00:06:48,560
+But in February of 2024, American intelligence officials told Congress something that
+
+115
+00:06:48,560 --> 00:06:50,420
+made Starfish Prime relevant again.
+
+116
+00:06:50,940 --> 00:06:54,560
+Russia is developing a nuclear weapon designed to be detonated in space.
+
+117
+00:06:56,040 --> 00:07:01,080
+In 1962, a test like this damaged a third of the roughly two dozen satellites
+
+118
+00:07:01,080 --> 00:07:03,320
+humanity had in orbit. Today,
+
+119
+00:07:03,780 --> 00:07:07,940
+one company alone has thousands of satellites in the same kind of orbit that Starfish
+
+120
+00:07:07,940 --> 00:07:09,220
+Prime poisoned for years.
+
+121
+00:07:10,780 --> 00:07:14,660
+Every analysis of what a modern version of this weapon would do starts in the same place.
+
+122
+00:07:15,160 --> 00:07:17,140
+The real data from July 9th,
+
+123
+00:07:17,200 --> 00:07:22,220
+1962. The one time anyone actually did this and measured what happened.
+
+124
+00:07:24,100 --> 00:07:28,480
+62 years later, a decision made in the middle of the Cold War is the closest thing anyone
+
+125
+00:07:28,480 --> 00:07:31,280
+has to a real answer for a threat that hasn't happened yet.
+
+126
+00:07:32,780 --> 00:07:35,720
+A bomb went off in space and 900 miles away,
+
+127
+00:07:35,980 --> 00:07:40,360
+streetlights went dark for a reason almost nobody living can now explain from memory.
+
+128
+00:07:41,900 --> 00:07:47,000
+62 years later, the only complete data anyone has on what that actually does still comes
+
+129
+00:07:47,000 --> 00:07:50,860
+from one test, one warhead and one night over the Pacific.
+
+130
+00:07:52,460 --> 00:07:55,900
+If a test this old is still the reason satellites might be at risk today,
+
+131
+00:07:56,380 --> 00:07:59,860
+wait until you see the story where the danger never actually went away at all.
+
+132
+00:08:00,540 --> 00:08:03,300
+That full story is live on this channel right now.
+
+133
+00:08:04,780 --> 00:08:09,500
+Subscribe to Mindwired. If any of this mess with your head a little,
+
+134
+00:08:09,600 --> 00:08:11,720
+that's exactly the point.
+
+135
+00:08:12,220 --> 00:08:17,700
+And it only happens because people like you keep showing up and hit subscribe right
+
+136
+00:08:17,700 --> 00:08:22,220
+now for it. It costs you nothing and it's the entire reason Mindwired keeps making videos
+
+137
+00:08:22,220 --> 00:08:23,580
+like this. Subscribe.
+

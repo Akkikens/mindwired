@@ -1,0 +1,283 @@
+{
+  "slug": "starfishprime",
+  "title": "Starfish Prime: The Day America Nuked Space",
+  "channel": "mindwired",
+  "niche": "history",
+  "language": "en",
+  "voice": "d46abd1d-2d02-43e8-819f-51fb652c1c61",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "Eleven PM, July ninth, nineteen sixty two. Two hundred fifty miles above the Pacific, the United States detonates a nuclear bomb in space.",
+      "video": "detonation_1.mp4",
+      "videoQuery": "Starfish Prime nuclear detonation declassified footage 1962",
+      "cap": "July 9, 1962. 400 kilometers above the Pacific."
+    },
+    {
+      "id": "h2",
+      "text": "A newspaper in Hawaii wrote it plainly the next morning: it looked as though the heavens had belched forth a new sun that flared briefly, but long enough to set the sky on fire.",
+      "video": "aurora1_1.mp4",
+      "videoQuery": "Fishbowl auroral sequence 1962 declassified footage Hawaii"
+    },
+    {
+      "id": "h3",
+      "text": "Two seconds later, nine hundred miles away in Honolulu, streetlights start going out. Nobody in Hawaii had been told a bomb was about to go off in space.",
+      "video": "aurora2_1.mp4",
+      "videoQuery": "Fishbowl auroral sequence 1962 declassified footage"
+    },
+    {
+      "id": "h4",
+      "text": "This is the real story of the day America nuked space: the actual damage it did, the satellite it quietly killed months later, and why the exact same weapon is the reason the Pentagon is worried again right now.",
+      "video": "aurora4_1.mp4",
+      "videoQuery": "Fishbowl auroral sequence 1962 declassified footage"
+    },
+    {
+      "id": "intro",
+      "text": "You're watching mindwired.",
+      "sting": true,
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "text": "This is the full real story of Starfish Prime: the actual Cold War test that put a nuclear bomb in space, the real damage it caused on the ground and in orbit, and the live 2024 discovery that made this sixty-year-old test relevant again.",
+      "chapter": "THE DAY AMERICA\nNUKED SPACE",
+      "img": "johnstonislandphoto",
+      "query": "Johnston Island atoll 1962 aerial photo Thor missile"
+    },
+    {
+      "id": "c1a",
+      "text": "Five years earlier, the Soviet Union launched Sputnik, and the United States panicked about a threat nobody had ever had to plan for: nuclear missiles coming from space.",
+      "chapter": "THE ROAD TO\nTHE TEST",
+      "img": "argus",
+      "query": "Operation Argus 1958 nuclear test launch"
+    },
+    {
+      "id": "c1b",
+      "text": "In nineteen fifty eight, physicist Nicholas Christofilos theorized that a nuclear explosion could trap electrons in Earth's magnetic field, creating an artificial shield. The military tested his idea over the South Atlantic. It was called Operation Argus.",
+      "img": "argus",
+      "query": "Operation Argus 1958 nuclear test USS Norton Sound"
+    },
+    {
+      "id": "c1c",
+      "text": "A three year moratorium on testing followed. It ended when the Soviets resumed testing in nineteen sixty one, capping it with the largest nuclear weapon ever built. The United States resumed testing almost immediately.",
+      "stat": "Tsar Bomba: the largest nuclear weapon ever built",
+      "img": "argus",
+      "query": "Operation Argus 1958 nuclear test USS Norton Sound"
+    },
+    {
+      "id": "c1d",
+      "text": "The American answer was Operation Fishbowl: a series of high altitude nuclear tests, launched from a tiny American military outpost in the middle of the Pacific called Johnston Island.",
+      "img": "johnstonislandphoto",
+      "query": "Johnston Island atoll aerial photo Pacific"
+    },
+    {
+      "id": "c1e",
+      "text": "Nobody had ever deliberately detonated a nuclear weapon this high before. The honest goal was simple and unsettling: find out what actually happens, because right now, nobody really knows.",
+      "cap": "The goal: find out what a nuclear weapon does in space",
+      "img": "argus",
+      "query": "Operation Argus 1958 nuclear test USS Norton Sound"
+    },
+    {
+      "id": "c2a",
+      "text": "The plan: launch a Thor missile from Johnston Island, carrying a warhead with roughly the explosive power of one point four million tons of TNT, and detonate it two hundred fifty miles above the Earth.",
+      "chapter": "A BOMB ON\nA MISSILE",
+      "video": "thorlaunch_1.mp4",
+      "videoQuery": "Thor missile launch Johnston Island 1962",
+      "img": "johnstonislandphoto"
+    },
+    {
+      "id": "c2b",
+      "text": "The first attempt, three weeks earlier, failed. The Thor missile broke apart less than a minute after launch and had to be destroyed in the air, scattering radioactive debris back onto the island that launched it.",
+      "video": "thorlaunch_1.mp4",
+      "videoQuery": "Thor missile launch failure Johnston Island 1962"
+    },
+    {
+      "id": "c2c",
+      "text": "Three weeks later, they tried again. This time, the missile flew.",
+      "video": "thorlaunch2_1.mp4",
+      "videoQuery": "Thor missile launch Johnston Island 1962 successful"
+    },
+    {
+      "id": "c2d",
+      "text": "It climbed for several minutes, arced two hundred fifty miles above the Pacific, and the warhead detonated exactly as planned.",
+      "stat": "Yield: ~1.4 megatons",
+      "video": "thorlaunch2_1.mp4",
+      "videoQuery": "Thor missile launch Johnston Island 1962 successful"
+    },
+    {
+      "id": "c3a",
+      "text": "Two hundred fifty miles up, over the open Pacific, the warhead detonated.",
+      "chapter": "WHAT PEOPLE\nACTUALLY SAW",
+      "video": "detonation_1.mp4",
+      "videoQuery": "Starfish Prime nuclear detonation declassified footage 1962",
+      "img": "argus"
+    },
+    {
+      "id": "c3b",
+      "text": "Close to the blast, observers reported a brilliant white flash burning through the clouds, changing almost instantly into an expanding green ball of light, then white streaks, then a full artificial aurora in green, purple and red. It lasted seven minutes.",
+      "video": "aurora3_1.mp4",
+      "videoQuery": "Fishbowl auroral sequence 1962 declassified footage color"
+    },
+    {
+      "id": "c3c",
+      "text": "From an island two thousand six hundred kilometers away, the display lasted ninety minutes. The flash itself was visible as far as Fiji and New Zealand, more than three thousand kilometers from the blast.",
+      "stat": "Visible 2,000+ miles away",
+      "video": "aurora3_1.mp4",
+      "videoQuery": "Fishbowl auroral sequence 1962 declassified footage color"
+    },
+    {
+      "id": "c4a",
+      "text": "In Honolulu, fourteen hundred kilometers away, the effects arrived almost instantly. The electromagnetic pulse hit within a fraction of a second.",
+      "chapter": "THE LIGHTS THAT\nWENT OUT IN HAWAII",
+      "video": "aurora4_1.mp4",
+      "videoQuery": "Fishbowl auroral sequence 1962 declassified footage",
+      "img": "johnstonislandphoto"
+    },
+    {
+      "id": "c4b",
+      "text": "About three hundred streetlights went dark. Burglar alarms across the city started going off for no reason. A telephone company relay link between the islands was damaged, cutting phone service.",
+      "stat": "~300 streetlights out, ~900 miles from the blast",
+      "video": "aurora1_1.mp4",
+      "videoQuery": "Fishbowl auroral sequence 1962 declassified footage Hawaii"
+    },
+    {
+      "id": "c4c",
+      "text": "It wasn't a citywide blackout. It was a small number of fuses tripping, each one controlling a whole string of lights. But the real explanation is almost more unsettling than the myth: a bomb detonated in space had reached down and quietly broken specific pieces of equipment on the ground, from outside the atmosphere entirely.",
+      "cap": "Real effect, real mechanism — not the exaggerated version online",
+      "video": "aurora2_1.mp4",
+      "videoQuery": "Fishbowl auroral sequence 1962 declassified footage"
+    },
+    {
+      "id": "c4d",
+      "text": "No one in Hawaii had been evacuated, warned, or told to expect anything. The only sign that anything had happened at all was the sky itself, and a handful of streetlights going dark for no reason anyone on the ground could see.",
+      "img": "johnstonislandphoto",
+      "query": "Johnston Island atoll 1962 aerial photo Thor missile"
+    },
+    {
+      "id": "c5a",
+      "text": "The blast didn't just light up the sky. It created something that had never existed before: an artificial belt of radiation, wrapped around the Earth, that would outlast the people who built it by decades.",
+      "chapter": "THE BELT NOBODY\nCOULD SEE",
+      "img": "satellite1962",
+      "query": "1962 satellite solar panel diagram vintage"
+    },
+    {
+      "id": "c5b",
+      "text": "Within days, a small American research satellite failed. Within months, Britain's first satellite, Ariel One, and America's Transit Four B were dead too — their solar panels quietly destroyed by radiation that shouldn't have existed.",
+      "cap": "TRAAC (US) and Ariel 1 (UK) among the satellites lost",
+      "img": "satellite1962",
+      "query": "1962 satellite solar panel diagram vintage"
+    },
+    {
+      "id": "c5c",
+      "text": "Roughly a third of everything humanity had in orbit at the time was damaged by a single test. In nineteen sixty two, that was a small number of satellites. Today, it would be thousands.",
+      "stat": "~1/3 of all satellites in orbit affected",
+      "img": "satellite1962",
+      "query": "1962 satellite solar panel diagram vintage"
+    },
+    {
+      "id": "c5d",
+      "text": "Some of the radiation from that one bomb was still detectable in Earth's magnetic field five years later. By some estimates, traces lasted almost a decade.",
+      "img": "satellite1962",
+      "query": "1962 satellite solar panel diagram vintage"
+    },
+    {
+      "id": "c6a",
+      "text": "The day after Starfish Prime, a different rocket carried the most important satellite of the decade into orbit: Telstar One, the world's first active communications satellite, the machine that let America and Europe exchange a live television signal for the first time in history.",
+      "chapter": "THE SATELLITE\nIT TOOK MONTHS TO KILL",
+      "img": "telstar1962",
+      "query": "Telstar 1 communications satellite 1962"
+    },
+    {
+      "id": "c6b",
+      "text": "For months, Telstar worked perfectly. Then, in November, its command system started glitching. By February of the following year, it was permanently dead.",
+      "stat": "Launched Jul 10, 1962 → dead Feb 1963",
+      "img": "telstar1962",
+      "query": "Telstar 1 communications satellite 1962"
+    },
+    {
+      "id": "c6c",
+      "text": "It wasn't destroyed by the blast. It was slowly poisoned by the radiation belt the blast created, one silent dose at a time, for seven months, until the damage finally added up to total failure.",
+      "img": "telstar1962",
+      "query": "Telstar 1 communications satellite 1962"
+    },
+    {
+      "id": "c6d",
+      "text": "The most important communications satellite of the century, and the bomb that would slowly kill it, launched one day apart — without either American program knowing what the other would do to it.",
+      "tone": "reflective",
+      "img": "telstar1962",
+      "query": "Telstar 1 communications satellite 1962"
+    },
+    {
+      "id": "c7a",
+      "text": "A test that broke streetlights nine hundred miles away and quietly killed satellites for months afterward became one of the clearest arguments that testing nuclear weapons in the atmosphere and in space had consequences nobody could contain.",
+      "chapter": "THE ARGUMENT\nNOBODY COULD IGNORE",
+      "img": "ltbtsigning",
+      "query": "Limited Test Ban Treaty signing 1963 Moscow"
+    },
+    {
+      "id": "c7b",
+      "text": "It wasn't the only reason. The Cuban Missile Crisis, three months later, and growing public fear over radioactive fallout did most of the political work. But Starfish Prime was real, undeniable proof: a nuclear test in space doesn't stay in space.",
+      "img": "ltbtsigning",
+      "query": "Limited Test Ban Treaty signing 1963 Moscow",
+      "cap": "Limited Test Ban Treaty, signed Moscow, August 5, 1963"
+    },
+    {
+      "id": "c7c",
+      "text": "One year later, the United States, the Soviet Union, and Britain signed a treaty banning nuclear tests in the atmosphere, underwater, and in space. Nobody has detonated a nuclear weapon in space since.",
+      "img": "ltbtsigning",
+      "query": "Limited Test Ban Treaty signing 1963 Moscow"
+    },
+    {
+      "id": "c8a",
+      "text": "Every officer, engineer, and observer who was actually there in nineteen sixty two is gone now. No one who witnessed Starfish Prime firsthand is alive to describe it anymore.",
+      "chapter": "WHY THIS TEST\nMATTERS AGAIN",
+      "tone": "reflective",
+      "img": "satellite2024",
+      "query": "modern satellite constellation orbit illustration"
+    },
+    {
+      "id": "c8b",
+      "text": "But in February of twenty twenty four, American intelligence officials told Congress something that made Starfish Prime relevant again: Russia is developing a nuclear weapon designed to be detonated in space.",
+      "img": "satellite2024",
+      "query": "modern satellite constellation orbit illustration"
+    },
+    {
+      "id": "c8c",
+      "text": "In nineteen sixty two, a test like this damaged a third of the roughly two dozen satellites humanity had in orbit. Today, one company alone has thousands of satellites in the same kind of orbit that Starfish Prime poisoned for years.",
+      "stat": "1962: ~24 satellites total. Today: thousands.",
+      "img": "satellite2024",
+      "query": "modern satellite constellation orbit illustration"
+    },
+    {
+      "id": "c8d",
+      "text": "Every analysis of what a modern version of this weapon would do starts in the same place: the real data from July ninth, nineteen sixty two — the one time anyone actually did this and measured what happened.",
+      "tone": "reflective",
+      "img": "satellite2024",
+      "query": "modern satellite constellation orbit illustration"
+    },
+    {
+      "id": "c8e",
+      "text": "Sixty two years later, a decision made in the middle of the Cold War is the closest thing anyone has to a real answer for a threat that hasn't happened yet.",
+      "img": "satellite2024",
+      "query": "modern satellite constellation orbit illustration"
+    },
+    {
+      "id": "coda1",
+      "text": "A bomb went off in space, and nine hundred miles away, streetlights went dark for a reason almost nobody living can now explain from memory.",
+      "tone": "reflective"
+    },
+    {
+      "id": "coda2",
+      "text": "Sixty two years later, the only complete data anyone has on what that actually does still comes from one test, one warhead, and one night over the Pacific.",
+      "tone": "reflective"
+    },
+    {
+      "id": "bridge",
+      "text": "If a test this old is still the reason satellites might be at risk today, wait until you see the story where the danger never actually went away at all. That full story is live on this channel right now."
+    },
+    {
+      "id": "end",
+      "text": "Subscribe to mindwired."
+    }
+  ]
+}

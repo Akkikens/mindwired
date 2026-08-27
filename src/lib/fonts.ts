@@ -64,7 +64,7 @@ loadFont({
   url: staticFile("fonts/Archivo.ttf"),
   weight: "100 900",
   display: "block",
-}).catch((e) => console.error("FONTPROBE Archivo failed:", e));
+}).catch(() => undefined);
 // Static Expanded cuts instanced with fonttools (wdth 125) and registered as
 // their own family — browser variable-axis clamping made fontStretch/
 // fontVariationSettings unreliable at render, a static instance never is.
@@ -73,8 +73,7 @@ loadFont({
   url: staticFile("fonts/ArchivoExpanded-ExtraBold.ttf"),
   weight: "800",
   display: "block",
-}).then(() => console.log("FONTPROBE Archivo Expanded OK"))
-  .catch((e) => console.error("FONTPROBE Archivo Expanded failed:", e));
+}).catch(() => undefined);
 loadFont({
   family: "Archivo Expanded",
   url: staticFile("fonts/ArchivoExpanded-SemiBold.ttf"),
