@@ -10,15 +10,20 @@ const easeOutCubic = Easing.out(Easing.cubic);
 export const fmt = (n: number) => Math.round(n).toLocaleString("en-US");
 
 /** A number that races up to its target with deceleration, while the glyphs pop. */
+// NO ROLL-UP COUNTERS (Akshay, 2026-08-04: "i never was a fan of animation how
+// u build up numbers … thats so bad") — a ticking counter spends a second or
+// two displaying figures that are all WRONG and can't be read while moving.
+// The figure lands at its real value immediately and settles via scale/glow,
+// same pattern as the doc engine's KineticScene. See memory
+// `no-count-up-number-animation` ("applies to every channel").
 export const CountUp: React.FC<{
   to: number; dur?: number; suffix?: string; size?: number; color?: string;
   /** max on-screen width for the number+suffix (keeps big values like
    *  "10,000,000,000 SUNS" inside the 1080px frame instead of overflowing). */
   maxWidth?: number;
-}> = ({ to, dur = 32, suffix = "", size = 160, color = C.white, maxWidth = 940 }) => {
+}> = ({ to, suffix = "", size = 160, color = C.white, maxWidth = 940 }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const p = interpolate(f, [0, dur], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: easeOutCubic });
   const pop = spring({ frame: f, fps, config: { damping: 11, stiffness: 95, mass: 0.7 } });
   const scale = interpolate(pop, [0, 1], [0.55, 1]);
   // auto-shrink so the widest state (the final value + suffix) fits maxWidth.
@@ -31,7 +36,7 @@ export const CountUp: React.FC<{
       color, letterSpacing: 1, display: "inline-block", transform: `scale(${scale})`, whiteSpace: "nowrap",
       textShadow: `0 0 ${interpolate(pop, [0, 1], [60, 26])}px ${color}66, 0 6px 24px rgba(0,0,0,0.6)`,
     }}>
-      {fmt(to * p)}<span style={{ fontSize: fitSize * 0.46, marginLeft: 10 }}>{suffix}</span>
+      {fmt(to)}<span style={{ fontSize: fitSize * 0.46, marginLeft: 10 }}>{suffix}</span>
     </span>
   );
 };

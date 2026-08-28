@@ -1,0 +1,129 @@
+{
+  "slug": "chelsea-transfers-2026",
+  "title": "Chelsea Are Buying AND Selling More Than Anyone",
+  "host": "jamie",
+  "channel": "kickoffdaily90",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "board": true,
+      "start": 0,
+      "end": 4,
+      "voiceover": "Chelsea are the biggest spenders in Europe this summer, and one of the biggest sellers too.",
+      "mainText": "BIGGEST SPENDERS. BIGGEST SELLERS.",
+      "emphasis": ["BIGGEST SPENDERS", "BIGGEST SELLERS"],
+      "kicker": "SUMMER 2026 TRANSFER WINDOW",
+      "visualConcept": "host cold open, immediate paradox claim",
+      "emotionalTone": "excitement",
+      "transitionOut": "whip"
+    },
+    {
+      "id": "spend",
+      "kind": "data",
+      "board": true,
+      "start": 4,
+      "end": 10,
+      "voiceover": "Three hundred and forty seven million pounds on thirteen new signings, including a club record hundred and seventeen million for Morgan Rogers.",
+      "mainText": "£347M ON 13 SIGNINGS",
+      "emphasis": ["£347M"],
+      "kicker": "INCL. A CLUB-RECORD £117M FOR MORGAN ROGERS",
+      "visualConcept": "the spend number lands hard, instantly",
+      "emotionalTone": "shock",
+      "transitionOut": "cut",
+      "stat": { "to": 347, "prefix": "£", "suffix": "M" }
+    },
+    {
+      "id": "sell",
+      "kind": "data",
+      "board": true,
+      "start": 10,
+      "end": 16,
+      "voiceover": "At the same time, they've sold at least eight players this summer for a combined two hundred and forty one million.",
+      "mainText": "£241M+ SOLD. 8 PLAYERS.",
+      "emphasis": ["£241M+"],
+      "kicker": "AND DEADLINE DAY ISN'T HERE YET",
+      "visualConcept": "the sell number, same weight as the spend number",
+      "emotionalTone": "shock",
+      "transitionOut": "cut",
+      "stat": { "to": 241, "prefix": "£", "suffix": "M+" }
+    },
+    {
+      "id": "names",
+      "kind": "shockfact",
+      "board": true,
+      "start": 16,
+      "end": 22,
+      "voiceover": "Cucurella to Real Madrid. Andrey Santos to Man United. Nicolas Jackson to Aston Villa for up to sixty five million.",
+      "mainText": "CUCURELLA. SANTOS. JACKSON.",
+      "emphasis": ["CUCURELLA", "SANTOS", "JACKSON"],
+      "kicker": "3 OF 8 CONFIRMED SALES",
+      "visualConcept": "names stack up fast, one per beat",
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "pattern",
+      "kind": "comparison",
+      "board": true,
+      "start": 22,
+      "end": 29,
+      "voiceover": "This isn't new. In 2023, Chelsea sold two hundred and twenty six million pounds worth of players too.",
+      "mainText": "2023: £226M SOLD TOO",
+      "emphasis": ["2023"],
+      "kicker": "THIS IS THEIR 2ND BIG SELL-OFF IN 3 YEARS",
+      "visualConcept": "bar chart, 2023 vs 2026 sales, near-identical height",
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut",
+      "stat": {
+        "label": "PLAYER SALES REVENUE",
+        "bars": [
+          { "label": "2023", "value": 226 },
+          { "label": "2026", "value": 241 }
+        ]
+      }
+    },
+    {
+      "id": "twist",
+      "kind": "transformation",
+      "board": true,
+      "start": 29,
+      "end": 35,
+      "voiceover": "Buy huge. Sell huge. Repeat. It's one of the most extreme buy and sell operations in world football.",
+      "mainText": "BUY BIG. SELL BIG. REPEAT.",
+      "emphasis": ["REPEAT"],
+      "kicker": "",
+      "visualConcept": "the two bars from before slam together into one identity",
+      "emotionalTone": "confidence",
+      "transitionOut": "flash"
+    },
+    {
+      "id": "enzoloop",
+      "kind": "shockfact",
+      "board": true,
+      "start": 35,
+      "end": 41,
+      "voiceover": "And a reported hundred and forty million euro move for Enzo Fernandez to Man City still isn't done.",
+      "mainText": "ENZO TO CITY: NOT DONE YET",
+      "emphasis": ["NOT DONE YET"],
+      "kicker": "€140M — REPORTED, NOT CONFIRMED",
+      "visualConcept": "open loop — a deal still hanging",
+      "emotionalTone": "curiosity",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "board": true,
+      "start": 41,
+      "end": 46,
+      "voiceover": "If that closes, this could be Chelsea's biggest-selling summer yet. Follow for the update.",
+      "mainText": "FOLLOW FOR THE UPDATE",
+      "emphasis": ["FOLLOW"],
+      "kicker": "",
+      "visualConcept": "closing loop, subscribe energy",
+      "emotionalTone": "confidence",
+      "transitionOut": "none"
+    }
+  ]
+}

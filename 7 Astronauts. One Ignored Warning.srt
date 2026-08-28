@@ -1,0 +1,1188 @@
+1
+00:00:00,210 --> 00:00:05,230
+January 28, 1986, 73 seconds after liftoff,
+
+2
+00:00:05,610 --> 00:00:08,050
+Space Shuttle Challenger came apart in the sky over Florida.
+
+3
+00:00:09,550 --> 00:00:10,830
+Seven people were on board.
+
+4
+00:00:12,350 --> 00:00:14,270
+Investigators spent months finding out why.
+
+5
+00:00:14,890 --> 00:00:16,730
+The real answer started six hours earlier.
+
+6
+00:00:18,230 --> 00:00:19,830
+It started six hours earlier.
+
+7
+00:00:21,350 --> 00:00:22,850
+Thirty miles outside Brigham City,
+
+8
+00:00:23,690 --> 00:00:26,930
+Utah, an engineer named Bob Ebeling is driving to work with his daughter.
+
+9
+00:00:26,930 --> 00:00:28,990
+He pounds his fist on the dashboard.
+
+10
+00:00:30,510 --> 00:00:31,890
+The challenger's going to blow up,
+
+11
+00:00:32,050 --> 00:00:33,790
+he says. Everyone's going to die.
+
+12
+00:00:35,230 --> 00:00:37,570
+He isn't guessing. He works for Morton Theacol,
+
+13
+00:00:37,970 --> 00:00:42,150
+the company that builds part of the machine now sitting on a launch pad 600 miles away,
+
+14
+00:00:42,550 --> 00:00:46,190
+hours from launch. Seven people are on that machine.
+
+15
+00:00:46,910 --> 00:00:48,110
+One of them is a school teacher,
+
+16
+00:00:48,570 --> 00:00:52,530
+chosen out of 11 ,000 applicants to be the first ordinary citizen in space.
+
+17
+00:00:53,790 --> 00:00:56,690
+Bob Ebeling had spent the night before trying to stop this launch.
+
+18
+00:00:57,410 --> 00:01:00,010
+This is the story of the warning nobody above him ever heard.
+
+19
+00:01:01,370 --> 00:01:03,310
+This is the story of Space Shuttle Challenger.
+
+20
+00:01:04,150 --> 00:01:06,430
+The warning an engineer gave the night before launch,
+
+21
+00:01:06,910 --> 00:01:09,290
+the eight degree reading nobody above him ever saw,
+
+22
+00:01:09,450 --> 00:01:11,370
+and the 73 seconds that followed.
+
+23
+00:01:12,770 --> 00:01:14,170
+Challenger was not new to this.
+
+24
+00:01:14,750 --> 00:01:18,430
+By January 1986, it had already flown to space nine times.
+
+25
+00:01:19,390 --> 00:01:21,930
+It carried the first American woman into space,
+
+26
+00:01:22,490 --> 00:01:24,470
+the first American spacewalk by a woman,
+
+27
+00:01:24,930 --> 00:01:26,690
+the first African -American astronaut.
+
+28
+00:01:27,390 --> 00:01:28,470
+In its first three years,
+
+29
+00:01:28,610 --> 00:01:31,050
+it flew more missions than any other orbiter in the fleet.
+
+30
+00:01:32,450 --> 00:01:35,630
+This flight, designated STS -51L,
+
+31
+00:01:35,810 --> 00:01:38,810
+had three jobs, deploy a communications satellite,
+
+32
+00:01:39,190 --> 00:01:41,810
+release a small science satellite to study Halley's comet,
+
+33
+00:01:42,110 --> 00:01:44,710
+and carry a passenger no shuttle had ever carried before.
+
+34
+00:01:44,710 --> 00:01:48,050
+Not an astronaut, a teacher.
+
+35
+00:01:49,710 --> 00:01:53,130
+In August 1984, President Reagan announced a new program,
+
+36
+00:01:53,630 --> 00:01:54,930
+the Teacher in Space Project.
+
+37
+00:01:55,590 --> 00:01:58,150
+The first ordinary citizen would fly on the space shuttle,
+
+38
+00:01:58,610 --> 00:02:00,670
+and NASA would pick a school teacher to do it.
+
+39
+00:02:01,870 --> 00:02:03,390
+11 ,000 teachers applied.
+
+40
+00:02:04,750 --> 00:02:06,270
+The field narrowed to 114.
+
+41
+00:02:07,130 --> 00:02:10,850
+Then, in July 1985, at a ceremony at the White House,
+
+42
+00:02:11,410 --> 00:02:15,110
+NASA named its winner, Krista Ruddy's teacher,
+
+43
+00:02:15,330 --> 00:02:16,790
+from Concord High School in New Hampshire.
+
+44
+00:02:18,290 --> 00:02:22,370
+She had written in her application that she wanted to demystify NASA and spaceflight
+
+45
+00:02:22,370 --> 00:02:24,430
+to keep a journal in orbit that would,
+
+46
+00:02:24,750 --> 00:02:27,130
+in her words, humanize the experience.
+
+47
+00:02:28,730 --> 00:02:31,710
+She trained for months, zero gravity flights,
+
+48
+00:02:32,250 --> 00:02:36,370
+simulators, meetings with the six professional astronauts she'd be flying alongside.
+
+49
+00:02:37,910 --> 00:02:42,090
+Back home, her students at Concord High School planned to watch the launch live in the
+
+50
+00:02:42,090 --> 00:02:43,690
+school auditorium on television.
+
+51
+00:02:45,450 --> 00:02:47,650
+Six professional astronauts would fly with her.
+
+52
+00:02:49,270 --> 00:02:51,990
+Commander Dick Scobee, a Vietnam combat pilot,
+
+53
+00:02:52,330 --> 00:02:54,070
+flying his second mission into space,
+
+54
+00:02:54,490 --> 00:02:57,890
+his first in command. Pilot Michael Smith,
+
+55
+00:02:58,410 --> 00:03:01,510
+a Navy test pilot who had flown fighter jets off aircraft carriers.
+
+56
+00:03:02,010 --> 00:03:03,230
+This was his first spaceflight.
+
+57
+00:03:04,570 --> 00:03:06,410
+Mission Specialist Ellison Onizuka,
+
+58
+00:03:06,890 --> 00:03:08,510
+an aerospace engineer from Hawaii,
+
+59
+00:03:08,970 --> 00:03:12,270
+the first Asian -American to fly in space on his second mission.
+
+60
+00:03:13,910 --> 00:03:15,230
+Mission Specialist Judith Resnick,
+
+61
+00:03:15,790 --> 00:03:18,370
+an electrical engineer with a Ph .D.,
+
+62
+00:03:18,370 --> 00:03:20,470
+one of the first American women to fly in space.
+
+63
+00:03:21,950 --> 00:03:23,470
+Mission Specialist Ronald McNair,
+
+64
+00:03:23,870 --> 00:03:26,990
+a physicist, a fifth -degree black belt on his second flight.
+
+65
+00:03:27,430 --> 00:03:29,150
+He had once played saxophone in orbit.
+
+66
+00:03:30,650 --> 00:03:32,330
+And Payload Specialist Gregory Jarvis,
+
+67
+00:03:32,890 --> 00:03:35,110
+an engineer flying an experiment for his employer,
+
+68
+00:03:35,110 --> 00:03:38,970
+bumped from three earlier flights before finally getting his seat on this one.
+
+69
+00:03:40,350 --> 00:03:44,230
+Seven people, and a machine with a part in it that had been quietly failing for nine
+
+70
+00:03:44,230 --> 00:03:49,270
+years. The solid rocket boosters that lift the shuttle off the pad are built
+
+71
+00:03:49,270 --> 00:03:52,010
+-in segments, sealed together with rubber O -rings,
+
+72
+00:03:52,290 --> 00:03:53,710
+roughly the thickness of a rope.
+
+73
+00:03:55,150 --> 00:03:58,730
+In 1977, six years before Challenger ever flew,
+
+74
+00:03:59,350 --> 00:04:01,590
+engineers testing those joints found something wrong.
+
+75
+00:04:01,590 --> 00:04:03,250
+Under the pressure of ignition,
+
+76
+00:04:03,850 --> 00:04:06,550
+the joint itself would bend and the seal could open a gap.
+
+77
+00:04:08,150 --> 00:04:09,410
+They called it joint rotation.
+
+78
+00:04:10,350 --> 00:04:12,350
+It meant the O -ring wasn't just sealing a joint,
+
+79
+00:04:12,650 --> 00:04:15,810
+it was fighting one. Four years later,
+
+80
+00:04:16,150 --> 00:04:17,790
+on only the second shuttle flight,
+
+81
+00:04:18,250 --> 00:04:19,990
+engineers found the first real evidence.
+
+82
+00:04:20,430 --> 00:04:22,850
+An O -ring recovered after flight showed erosion.
+
+83
+00:04:23,450 --> 00:04:25,490
+Something hot had been getting past the seal.
+
+84
+00:04:26,750 --> 00:04:30,570
+Then, in January 1985, one year,
+
+85
+00:04:30,930 --> 00:04:32,890
+almost to the day, before Challenger,
+
+86
+00:04:33,530 --> 00:04:35,530
+a shuttle launched in the coldest weather yet.
+
+87
+00:04:36,390 --> 00:04:38,690
+When investigators examined its boosters afterward,
+
+88
+00:04:39,090 --> 00:04:41,810
+they found the worst O -ring damage anyone had ever seen.
+
+89
+00:04:43,210 --> 00:04:45,530
+Cold weather and O -ring failure were no longer a theory.
+
+90
+00:04:46,170 --> 00:04:48,050
+They were a pattern, sitting in a file,
+
+91
+00:04:48,410 --> 00:04:49,850
+a full year before anyone died.
+
+92
+00:04:51,010 --> 00:04:56,170
+On July 31, 1985, Theocol engineer Roger Boisigali put
+
+93
+00:04:56,170 --> 00:04:59,190
+it in writing. If the joint problem wasn't fixed,
+
+94
+00:04:59,370 --> 00:05:01,130
+he wrote, the result would be,
+
+95
+00:05:01,570 --> 00:05:03,810
+quote, a catastrophe of the highest order,
+
+96
+00:05:04,310 --> 00:05:07,870
+the loss of human life. Six months later,
+
+97
+00:05:08,050 --> 00:05:10,510
+on the coldest morning a shuttle had ever launched in,
+
+98
+00:05:10,730 --> 00:05:12,650
+that memo would still be sitting in a file.
+
+99
+00:05:14,150 --> 00:05:16,290
+On the evening of January 27th,
+
+100
+00:05:16,370 --> 00:05:21,070
+a forecast came in. Launch morning would be the coldest a shuttle had ever flown in.
+
+101
+00:05:21,710 --> 00:05:23,230
+Someone had to decide if that mattered.
+
+102
+00:05:24,730 --> 00:05:27,910
+A teleconference opened, connecting three places at once.
+
+103
+00:05:28,570 --> 00:05:29,870
+Fiocol's engineers in Utah,
+
+104
+00:05:30,410 --> 00:05:31,650
+NASA managers in Alabama,
+
+105
+00:05:32,050 --> 00:05:34,550
+and NASA's team at Kennedy Space Center in Florida.
+
+106
+00:05:36,090 --> 00:05:37,970
+Engineer Roger Boisigali presented the data.
+
+107
+00:05:38,510 --> 00:05:40,130
+Every time a shuttle had launched cold,
+
+108
+00:05:40,490 --> 00:05:41,810
+its O -rings showed damage.
+
+109
+00:05:42,430 --> 00:05:44,950
+The colder, the launch, the worse the damage.
+
+110
+00:05:45,630 --> 00:05:47,650
+Fiocol's formal recommendation was blunt,
+
+111
+00:05:48,190 --> 00:05:49,990
+do not launch below 53 degrees.
+
+112
+00:05:51,590 --> 00:05:54,710
+53 degrees was the coldest they had ever flown in and survived.
+
+113
+00:05:55,490 --> 00:05:57,010
+The forecast for the morning was eight.
+
+114
+00:05:58,650 --> 00:06:02,130
+NASA pushed back. One manager said he was appalled by the recommendation.
+
+115
+00:06:02,790 --> 00:06:05,430
+Another engineer would later recall a NASA official asking,
+
+116
+00:06:05,910 --> 00:06:09,230
+in frustration, when exactly Theocol wanted him to launch,
+
+117
+00:06:09,650 --> 00:06:14,250
+next April? Fiocol asked for a private caucus to talk it over,
+
+118
+00:06:14,650 --> 00:06:17,150
+off the line. It was supposed to take five minutes.
+
+119
+00:06:17,570 --> 00:06:20,610
+It took 30. Inside that room,
+
+120
+00:06:20,970 --> 00:06:24,650
+a senior vice president turned to Fiocol's engineering chief and told him to take off
+
+121
+00:06:24,650 --> 00:06:27,310
+his engineering hat and put on his management hat.
+
+122
+00:06:28,670 --> 00:06:31,250
+When the line reopened, the recommendation had reversed.
+
+123
+00:06:32,170 --> 00:06:34,630
+Fiocol's own management now said it was safe to fly.
+
+124
+00:06:35,510 --> 00:06:38,030
+The engineers who had argued against it were not asked to vote.
+
+125
+00:06:39,370 --> 00:06:40,930
+Roger Boycegley signed nothing.
+
+126
+00:06:41,430 --> 00:06:44,770
+He later testified. I left the room feeling badly defeated.
+
+127
+00:06:45,310 --> 00:06:47,390
+This was a meeting where the determination was to launch,
+
+128
+00:06:47,790 --> 00:06:50,530
+and it was up to us to prove it was not safe to do so.
+
+129
+00:06:51,970 --> 00:06:55,930
+One more Fiocol engineer at Kennedy Space Center refused to put his name on the launch
+
+130
+00:06:55,930 --> 00:06:57,990
+approval. He told a NASA manager,
+
+131
+00:06:58,690 --> 00:07:00,090
+if anything happens to this launch,
+
+132
+00:07:00,530 --> 00:07:02,470
+I don't want to be the one explaining why we flew.
+
+133
+00:07:03,810 --> 00:07:06,950
+At 11 .45 that night, someone else signed in his place.
+
+134
+00:07:07,510 --> 00:07:10,270
+The recommendation to launch was telefax to Kennedy.
+
+135
+00:07:11,810 --> 00:07:13,510
+The warning never went further than that room.
+
+136
+00:07:14,090 --> 00:07:17,490
+It never reached the one NASA official whose job it was to give the final go.
+
+137
+00:07:18,870 --> 00:07:22,450
+The next morning, ice crews walked the launch pad with broom handles,
+
+138
+00:07:22,870 --> 00:07:24,970
+knocking icicles a foot long off the gantry.
+
+139
+00:07:26,450 --> 00:07:29,970
+The overnight low had been the coldest Kennedy Space Center had recorded in years.
+
+140
+00:07:30,630 --> 00:07:32,830
+The launch, already delayed for days,
+
+141
+00:07:33,310 --> 00:07:37,470
+slipped another two hours while engineers argued over whether the ice itself was dangerous.
+
+142
+00:07:39,090 --> 00:07:41,650
+An infrared scanner was pointed at the joint that mattered most.
+
+143
+00:07:42,310 --> 00:07:45,610
+The same right side booster joint the engineers had warned about the night before.
+
+144
+00:07:47,070 --> 00:07:52,170
+It read eight degrees. 45 degrees colder than the coldest launch the
+
+145
+00:07:52,170 --> 00:07:53,450
+O -rings had ever survived.
+
+146
+00:07:54,030 --> 00:07:55,010
+Nobody scrubbed the mission.
+
+147
+00:07:56,390 --> 00:07:58,410
+At 11 .38 a .m. eastern time,
+
+148
+00:07:58,850 --> 00:08:00,690
+Challenger lifted off pad 39B.
+
+149
+00:08:01,790 --> 00:08:03,890
+Less than one second after ignition,
+
+150
+00:08:04,490 --> 00:08:05,730
+cameras caught something small.
+
+151
+00:08:06,450 --> 00:08:10,210
+A puff of black smoke right at the joint the engineers had warned about.
+
+152
+00:08:11,630 --> 00:08:13,530
+The cold O -ring hadn't sealed properly.
+
+153
+00:08:14,150 --> 00:08:17,830
+For a moment, burned grease and debris plugged the gap by accident.
+
+154
+00:08:19,150 --> 00:08:21,970
+As the shuttle climbed, wine shear flexed the booster.
+
+155
+00:08:22,630 --> 00:08:25,090
+The seal that had been accidentally plugged came open again.
+
+156
+00:08:26,430 --> 00:08:29,510
+At 58 seconds, a small flame appeared at the joint.
+
+157
+00:08:29,510 --> 00:08:32,950
+Invisible to the crew, barely visible on camera.
+
+158
+00:08:34,530 --> 00:08:36,690
+At 65 seconds, the flame changed.
+
+159
+00:08:37,290 --> 00:08:41,450
+It had burned through the wall of the external fuel tank and was now feeding on leaking
+
+160
+00:08:41,450 --> 00:08:46,410
+hydrogen. At 68 seconds, mission control gave the standard call,
+
+161
+00:08:47,290 --> 00:08:48,650
+Challenger, go with throttle up.
+
+162
+00:08:50,090 --> 00:08:51,410
+Commander Dick Scobee answered,
+
+163
+00:08:52,170 --> 00:08:53,410
+Roger, go with throttle up.
+
+164
+00:08:53,690 --> 00:08:55,510
+It was the crew's last complete transmission.
+
+165
+00:08:56,770 --> 00:09:00,430
+Four seconds later, pilot Michael Smith can be heard saying two words,
+
+166
+00:09:00,950 --> 00:09:06,130
+a -oh. At 73 seconds, the flame burned through the strut holding
+
+167
+00:09:06,130 --> 00:09:07,350
+the booster to the fuel tank.
+
+168
+00:09:07,910 --> 00:09:10,150
+The tank ruptured, its contents ignited.
+
+169
+00:09:11,670 --> 00:09:14,310
+The orbiter itself was never destroyed by an explosion.
+
+170
+00:09:14,970 --> 00:09:17,390
+It was torn apart by the force of the air around it,
+
+171
+00:09:17,610 --> 00:09:19,590
+moving at nearly twice the speed of sound.
+
+172
+00:09:21,070 --> 00:09:22,410
+Seven people were on board.
+
+173
+00:09:23,650 --> 00:09:27,650
+Six days later, President Reagan formed a commission to find out what happened.
+
+174
+00:09:28,130 --> 00:09:33,110
+He gave it 120 days. Its chairman was a former secretary of state.
+
+175
+00:09:33,650 --> 00:09:35,190
+Its vice chairman was Neil Armstrong.
+
+176
+00:09:35,910 --> 00:09:38,290
+One of its members was a physicist named Richard Feynman.
+
+177
+00:09:39,630 --> 00:09:42,510
+On live television, on February 11th,
+
+178
+00:09:42,510 --> 00:09:44,890
+Feynman produced a small piece of O -ring material,
+
+179
+00:09:45,370 --> 00:09:47,730
+clamped it, and dropped it into a glass of ice water.
+
+180
+00:09:49,150 --> 00:09:50,850
+When he pulled it out and released the clamp,
+
+181
+00:09:50,850 --> 00:09:53,090
+the rubber did not spring back into shape.
+
+182
+00:09:53,470 --> 00:09:56,190
+It stayed flat, exactly as it had been forced.
+
+183
+00:09:57,790 --> 00:09:58,910
+That was the whole failure,
+
+184
+00:09:59,270 --> 00:10:00,730
+demonstrated in 30 seconds,
+
+185
+00:10:01,010 --> 00:10:03,350
+in a glass of ice water in front of the country.
+
+186
+00:10:04,730 --> 00:10:08,410
+The commission's technical finding matched what Boizegully had warned about six months
+
+187
+00:10:08,410 --> 00:10:11,190
+earlier, almost exactly, a cold,
+
+188
+00:10:11,410 --> 00:10:15,250
+brittle O -ring, in a joint that had never been designed to hold in the cold.
+
+189
+00:10:16,610 --> 00:10:17,870
+But the commission went further.
+
+190
+00:10:18,510 --> 00:10:20,230
+The real failure, it found,
+
+191
+00:10:20,710 --> 00:10:24,970
+wasn't a part. It was a decision -making process it called clearly flawed,
+
+192
+00:10:25,630 --> 00:10:29,010
+one where engineering warnings from the working level never reached the people making
+
+193
+00:10:29,010 --> 00:10:34,170
+the final call. A sociologist who studied the case afterward gave that pattern
+
+194
+00:10:34,170 --> 00:10:36,530
+a name, normalization of deviance.
+
+195
+00:10:37,130 --> 00:10:40,050
+Each time a shuttle flew with damage and landed safely anyway,
+
+196
+00:10:40,610 --> 00:10:43,570
+the danger looked a little more normal until the day it wasn't.
+
+197
+00:10:44,570 --> 00:10:48,610
+For years afterward, one question about that day refused to go away.
+
+198
+00:10:49,270 --> 00:10:50,890
+Did the crew survive the breakup itself?
+
+199
+00:10:52,590 --> 00:10:54,230
+NASA investigated this specifically,
+
+200
+00:10:54,710 --> 00:10:57,310
+and the answer it gave is more careful than most people expect.
+
+201
+00:10:58,710 --> 00:11:00,490
+The crew compartment did not explode.
+
+202
+00:11:01,170 --> 00:11:05,690
+It separated from the disintegrating orbiter largely intact and kept climbing for another
+
+203
+00:11:05,690 --> 00:11:07,650
+25 seconds before it began to fall.
+
+204
+00:11:08,850 --> 00:11:12,410
+It fell for two minutes and 45 seconds before it struck the ocean.
+
+205
+00:11:14,330 --> 00:11:17,430
+Investigators later found that three of the four emergency air packs on board had been
+
+206
+00:11:17,430 --> 00:11:21,950
+switched on by hand, evidence that at least some of the crew were alive and functioning
+
+207
+00:11:21,950 --> 00:11:26,970
+after the breakup. NASA's own medical investigation concluded the
+
+208
+00:11:26,970 --> 00:11:28,690
+forces of the breakup itself were,
+
+209
+00:11:29,270 --> 00:11:33,350
+in its words, probably not sufficient to cause death or serious injury.
+
+210
+00:11:34,310 --> 00:11:37,710
+Whether the crew stayed conscious for the fall is something the physical evidence could
+
+211
+00:11:37,710 --> 00:11:42,370
+never fully answer. What NASA's investigators did state plainly,
+
+212
+00:11:43,110 --> 00:11:45,190
+death is attributed to the impact with the ocean,
+
+213
+00:11:45,670 --> 00:11:48,970
+not the breakup that came two minutes and 45 seconds before it.
+
+214
+00:11:50,190 --> 00:11:53,130
+No one was ever criminally charged over the Challenger disaster,
+
+215
+00:11:53,750 --> 00:11:55,990
+not at NASA, not at Theacol.
+
+216
+00:11:57,350 --> 00:11:59,950
+The families were compensated through civil settlements instead.
+
+217
+00:12:00,550 --> 00:12:03,890
+The government and Theacol jointly paid the families of four of the crew members.
+
+218
+00:12:05,070 --> 00:12:07,190
+Three more families settled separately,
+
+219
+00:12:07,790 --> 00:12:11,710
+directly with Theacol. The government did not contribute to those payments at all.
+
+220
+00:12:13,310 --> 00:12:15,930
+Pilot Michael Smith's widow sued both the government and Theacol.
+
+221
+00:12:16,510 --> 00:12:19,090
+A federal court dismissed her claim against the government outright.
+
+222
+00:12:19,850 --> 00:12:23,250
+A legal doctrine bars lawsuits over a service member's death while on duty.
+
+223
+00:12:23,910 --> 00:12:26,490
+Because Smith was Navy, that doctrine applied.
+
+224
+00:12:27,770 --> 00:12:31,450
+The government that sent her husband to space never paid his family a dollar directly.
+
+225
+00:12:31,450 --> 00:12:33,230
+Her claim against Theacol,
+
+226
+00:12:33,530 --> 00:12:35,910
+as a private company, was allowed to proceed.
+
+227
+00:12:37,530 --> 00:12:41,770
+Roger Boisgillie, the engineer who wrote the warning memo six months before the disaster,
+
+228
+00:12:42,210 --> 00:12:43,630
+never worked on another rocket.
+
+229
+00:12:44,250 --> 00:12:49,110
+He spent the rest of his career teaching engineering ethics at more than 300 universities
+
+230
+00:12:49,110 --> 00:12:54,190
+and companies. In 1988, the American Association for the
+
+231
+00:12:54,190 --> 00:12:57,790
+Advancement of Science gave him an award for scientific freedom and responsibility,
+
+232
+00:12:58,170 --> 00:13:00,490
+for the warning almost no one had listened to.
+
+233
+00:13:01,730 --> 00:13:05,270
+Bob Ebeling, the man who pounded the dashboard that morning,
+
+234
+00:13:05,850 --> 00:13:07,370
+carried the guilt for 30 years,
+
+235
+00:13:07,910 --> 00:13:09,590
+believing he could have stopped the launch himself.
+
+236
+00:13:11,170 --> 00:13:13,410
+On the 30th anniversary, in 2016,
+
+237
+00:13:14,110 --> 00:13:17,250
+he agreed to tell a reporter his story publicly for the first time.
+
+238
+00:13:18,030 --> 00:13:19,450
+Listeners wrote him hundreds of letters.
+
+239
+00:13:19,870 --> 00:13:21,130
+He died two months later.
+
+240
+00:13:22,570 --> 00:13:26,130
+The one Theacol engineer at Kennedy who refused to sign the launch approval,
+
+241
+00:13:26,830 --> 00:13:30,370
+Alan McDonald, later testified to the commission about the reversal that night,
+
+242
+00:13:30,370 --> 00:13:34,750
+testimony that forced Theacol and NASA to admit what had actually happened in that room.
+
+243
+00:13:36,310 --> 00:13:37,490
+All three men are gone now.
+
+244
+00:13:38,070 --> 00:13:39,670
+None of them were ever blamed for what happened.
+
+245
+00:13:40,230 --> 00:13:41,250
+Every one of them was right.
+
+246
+00:13:42,610 --> 00:13:44,490
+The seven families didn't just grieve,
+
+247
+00:13:45,030 --> 00:13:48,710
+they built something. Within a year of the disaster,
+
+248
+00:13:49,130 --> 00:13:51,810
+they founded the Challenger Center for Space Science Education,
+
+249
+00:13:52,510 --> 00:13:56,350
+a nonprofit designed to put kids through simulated space missions instead of letting
+
+250
+00:13:56,350 --> 00:13:59,050
+the disaster be the last thing anyone remembered about it.
+
+251
+00:14:00,010 --> 00:14:03,250
+Today, it runs 34 Challenger Learning Centers around the world,
+
+252
+00:14:04,810 --> 00:14:06,530
+one of the newest opened in 2026,
+
+253
+00:14:07,210 --> 00:14:10,930
+the first ever built from the ground up instead of retrofitted into an existing building.
+
+254
+00:14:11,670 --> 00:14:13,750
+More than 800 people came to its opening.
+
+255
+00:14:15,390 --> 00:14:16,570
+Commander Dick Scobee's widow,
+
+256
+00:14:17,150 --> 00:14:20,710
+June Scobee Rogers, helped found the organization nearly 40 years ago.
+
+257
+00:14:21,310 --> 00:14:23,270
+She still visits the centers in person today.
+
+258
+00:14:24,810 --> 00:14:27,490
+Every January, NASA holds a day of remembrance.
+
+259
+00:14:28,020 --> 00:14:32,890
+In 2026, family members came back to Kennedy Space Center for the 40th time.
+
+260
+00:14:34,370 --> 00:14:35,450
+Pilot Michael Smith's widow,
+
+261
+00:14:36,010 --> 00:14:38,510
+Jane Smith -Wolkot, stood at the memorial and spoke.
+
+262
+00:14:39,250 --> 00:14:41,130
+Every day I missed Mike, she said.
+
+263
+00:14:41,590 --> 00:14:44,470
+Every day's the same. His daughter,
+
+264
+00:14:44,570 --> 00:14:46,430
+Alison, was 14 years old when he died.
+
+265
+00:14:46,970 --> 00:14:48,470
+She spoke too, through tears.
+
+266
+00:14:49,330 --> 00:14:50,670
+We are all part of this story,
+
+267
+00:14:50,830 --> 00:14:53,650
+she said. 40 years later,
+
+268
+00:14:53,950 --> 00:14:56,130
+they were still standing at the same launch complex,
+
+269
+00:14:56,130 --> 00:14:58,010
+still saying his name out loud.
+
+270
+00:14:59,450 --> 00:15:01,830
+The shuttle program was grounded for 32 months,
+
+271
+00:15:02,490 --> 00:15:04,350
+the longest pause in its history.
+
+272
+00:15:05,770 --> 00:15:07,670
+Engineers redesigned the joint completely,
+
+273
+00:15:08,070 --> 00:15:11,630
+a third O -ring, a metal feature to physically lock the segments together,
+
+274
+00:15:11,870 --> 00:15:15,370
+so the failure that killed seven people could not happen the same way twice.
+
+275
+00:15:16,990 --> 00:15:20,630
+NASA created a new safety office that reported directly to the head of the agency,
+
+276
+00:15:21,150 --> 00:15:25,230
+closing the exact gap that had kept a night before warning from ever reaching the person
+
+277
+00:15:25,230 --> 00:15:28,350
+who needed to hear it. Decades later,
+
+278
+00:15:28,710 --> 00:15:31,170
+when a different NASA spacecraft ran into trouble,
+
+279
+00:15:32,110 --> 00:15:34,130
+astronauts stranded an unproven vehicle.
+
+280
+00:15:34,810 --> 00:15:36,450
+The agency chose the slower,
+
+281
+00:15:36,830 --> 00:15:38,950
+safer option instead of pushing the schedule.
+
+282
+00:15:39,650 --> 00:15:42,570
+People who studied the decision point directly back to 1986.
+
+283
+00:15:44,170 --> 00:15:48,070
+The warning that could have stopped Challenger existed in writing six months before the
+
+284
+00:15:48,070 --> 00:15:49,750
+launch. It existed again,
+
+285
+00:15:50,170 --> 00:15:51,770
+out loud, the night before.
+
+286
+00:15:51,770 --> 00:15:53,670
+It never had to be a mystery.
+
+287
+00:15:54,190 --> 00:15:56,830
+It just never reached the one person who could have said no.
+
+288
+00:15:58,250 --> 00:16:01,930
+That's the part of this story that never gets old and never gets easier to hear.
+
+289
+00:16:03,390 --> 00:16:05,730
+If a warning nobody heard is what got you about this one,
+
+290
+00:16:06,210 --> 00:16:08,870
+wait until you see what nobody heard on Swiss Air Flight 111,
+
+291
+00:16:09,410 --> 00:16:12,750
+a wiring fire in 17 minutes on this channel.
+
+292
+00:16:14,290 --> 00:16:17,210
+Subscribe to Black Box Breakdown for the next real investigation.
+
+293
+00:16:18,330 --> 00:16:20,010
+If this one got under your skin a little,
+
+294
+00:16:20,330 --> 00:16:25,470
+good. That's the point. And it only keeps happening because people like you keep showing
+
+295
+00:16:25,470 --> 00:16:27,610
+up. So do one thing for me.
+
+296
+00:16:27,910 --> 00:16:32,890
+Hit subscribe. It is free and it is the whole reason Black Box can keep taking these
+
+297
+00:16:32,890 --> 00:16:33,870
+disasters apart.
+

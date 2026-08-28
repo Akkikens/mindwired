@@ -1,0 +1,679 @@
+{
+ "slug": "challengerdisaster",
+ "title": "7 Astronauts. One Ignored Warning.",
+ "channel": "blackbox",
+ "niche": "space",
+ "language": "en",
+ "voice": "d46abd1d-2d02-43e8-819f-51fb652c1c61",
+ "scenes": [
+  {
+   "id": "h1",
+   "text": "January twenty eighth, nineteen eighty six. Seventy three seconds after liftoff, Space Shuttle Challenger came apart in the sky over Florida.",
+   "video": "explosion_1.mp4",
+   "videoFrom": 0,
+   "cap": "January 28, 1986 · T+73 seconds",
+   "tone": "shock"
+  },
+  {
+   "id": "h2",
+   "text": "Seven people were on board.",
+   "video": "explosion_1.mp4",
+   "videoFrom": 10,
+   "stat": "7 ASTRONAUTS",
+   "statColor": "#FF4D4D",
+   "tone": "shock"
+  },
+  {
+   "id": "h3",
+   "text": "Investigators spent months finding out why. The real answer started six hours earlier.",
+   "video": "explosion_1.mp4",
+   "videoFrom": 13,
+   "tone": "tension"
+  },
+  {
+   "id": "h3b",
+   "text": "It started six hours earlier.",
+   "video": "explosion_1.mp4",
+   "videoFrom": 17,
+   "tone": "tension"
+  },
+  {
+   "id": "h4",
+   "text": "Thirty miles outside Brigham City, Utah, an engineer named Bob Ebeling is driving to work with his daughter. He pounds his fist on the dashboard.",
+   "cap": "6 hours earlier · Brigham City, Utah",
+   "video": "explosion_1.mp4",
+   "videoFrom": 19
+  },
+  {
+   "id": "h5",
+   "text": "\"The Challenger's going to blow up,\" he says. \"Everyone's going to die.\"",
+   "cap": "“Everyone's going to die.”",
+   "tone": "shock",
+   "video": "explosion_1.mp4",
+   "videoFrom": 2
+  },
+  {
+   "id": "h6",
+   "text": "He isn't guessing. He works for Morton Thiokol — the company that builds part of the machine now sitting on a launch pad six hundred miles away, hours from launch.",
+   "img": "launch"
+  },
+  {
+   "id": "h7",
+   "text": "Seven people are on that machine. One of them is a schoolteacher, chosen out of eleven thousand applicants to be the first ordinary citizen in space.",
+   "img": "crewgroup",
+   "query": "STS-51-L Challenger crew official portrait"
+  },
+  {
+   "id": "h8",
+   "text": "Bob Ebeling had spent the night before trying to stop this launch. This is the story of the warning nobody above him ever heard.",
+   "video": "explosion_1.mp4",
+   "videoFrom": 6,
+   "tone": "shock"
+  },
+  {
+   "id": "title",
+   "text": "This is the story of Space Shuttle Challenger — the warning an engineer gave the night before launch, the eight-degree reading nobody above him ever saw, and the seventy-three seconds that followed.",
+   "chapter": "7 ASTRONAUTS.\nONE IGNORED WARNING.",
+   "img": "explosion",
+   "cap": "BLACK BOX BREAKDOWN — CHALLENGER",
+   "query": "Space Shuttle Challenger explosion smoke plume"
+  },
+  {
+   "id": "c1",
+   "chapter": "1 — THE FLYING\nWORKHORSE",
+   "text": "Challenger was not new to this. By January nineteen eighty six it had already flown to space nine times.",
+   "img": "crewgroup",
+   "cap": "Challenger's 10th mission"
+  },
+  {
+   "id": "c1_1",
+   "text": "It carried the first American woman into space, the first American spacewalk by a woman, the first African American astronaut. In its first three years it flew more missions than any other orbiter in the fleet.",
+   "img": "launch",
+   "query": "Space Shuttle Challenger orbiter on runway"
+  },
+  {
+   "id": "c1_2",
+   "text": "This flight, designated S T S fifty one L, had three jobs: deploy a communications satellite, release a small science satellite to study Halley's Comet, and carry a passenger no shuttle had ever carried before.",
+   "img": "launch"
+  },
+  {
+   "id": "c1_3",
+   "text": "Not an astronaut. A teacher.",
+   "img": "mcauliffetraining",
+   "query": "Christa McAuliffe NASA training",
+   "cap": ""
+  },
+  {
+   "id": "c2",
+   "chapter": "2 — ELEVEN THOUSAND\nAPPLICANTS",
+   "text": "In August nineteen eighty four, President Reagan announced a new program: the Teacher in Space Project. The first ordinary citizen would fly on the Space Shuttle, and NASA would pick a schoolteacher to do it.",
+   "img": "mcauliffetraining",
+   "cap": "The Teacher in Space Project, 1984"
+  },
+  {
+   "id": "c2_1",
+   "text": "Eleven thousand teachers applied.",
+   "img": "mcauliffetraining",
+   "stat": "11,000 APPLICANTS"
+  },
+  {
+   "id": "c2_2",
+   "text": "The field narrowed to one hundred fourteen. Then, in July nineteen eighty five, at a ceremony at the White House, NASA named its winner: Christa McAuliffe, a social studies teacher from Concord High School in New Hampshire.",
+   "img": "mcauliffetraining"
+  },
+  {
+   "id": "c2_3",
+   "text": "She had written in her application that she wanted to demystify NASA and space flight — to keep a journal in orbit that would, in her words, humanize the experience.",
+   "img": "mcauliffetraining",
+   "cap": "“To humanize the experience.”"
+  },
+  {
+   "id": "c2_4",
+   "text": "She trained for months. Zero gravity flights. Simulators. Meetings with the six professional astronauts she'd be flying alongside.",
+   "img": "mcauliffetraining",
+   "query": "Christa McAuliffe zero gravity training KC-135"
+  },
+  {
+   "id": "c2_5",
+   "text": "Back home, her students at Concord High School planned to watch the launch live, in the school auditorium, on television.",
+   "img": "mcauliffetraining"
+  },
+  {
+   "id": "c3",
+   "chapter": "3 — THE\nSEVEN",
+   "text": "Six professional astronauts would fly with her.",
+   "img": "crewgroup",
+   "cap": "The crew of STS-51-L"
+  },
+  {
+   "id": "c3_1",
+   "text": "Commander Dick Scobee: a Vietnam combat pilot, flying his second mission into space, his first in command.",
+   "img": "crewgroup",
+   "query": "Dick Scobee NASA astronaut portrait"
+  },
+  {
+   "id": "c3_2",
+   "text": "Pilot Michael Smith: a Navy test pilot who had flown fighter jets off aircraft carriers. This was his first spaceflight.",
+   "img": "crewgroup",
+   "query": "Michael Smith NASA astronaut portrait"
+  },
+  {
+   "id": "c3_3",
+   "text": "Mission Specialist Ellison Onizuka: an aerospace engineer from Hawaii, the first Asian American to fly in space, on his second mission.",
+   "img": "crewgroup",
+   "query": "Ellison Onizuka NASA astronaut portrait"
+  },
+  {
+   "id": "c3_4",
+   "text": "Mission Specialist Judith Resnik: an electrical engineer with a Ph.D., one of the first American women to fly in space.",
+   "img": "crewgroup",
+   "query": "Judith Resnik NASA astronaut portrait"
+  },
+  {
+   "id": "c3_5",
+   "text": "Mission Specialist Ronald McNair: a physicist, a fifth degree black belt, on his second flight — he had once played saxophone in orbit.",
+   "img": "crewgroup",
+   "query": "Ronald McNair NASA astronaut portrait"
+  },
+  {
+   "id": "c3_6",
+   "text": "And Payload Specialist Gregory Jarvis: an engineer flying an experiment for his employer, bumped from three earlier flights before finally getting his seat on this one.",
+   "img": "crewgroup",
+   "query": "Gregory Jarvis NASA astronaut portrait"
+  },
+  {
+   "id": "c3_7",
+   "text": "Seven people. And a machine with a part in it that had been quietly failing for nine years.",
+   "img": "launch",
+   "tone": "tension"
+  },
+  {
+   "id": "c4",
+   "chapter": "4 — A PROBLEM\nNOBODY FIXED",
+   "text": "The Solid Rocket Boosters that lift the shuttle off the pad are built in segments, sealed together with rubber O-rings roughly the thickness of a rope.",
+   "img": "launch",
+   "cap": "The Solid Rocket Booster joint"
+  },
+  {
+   "id": "c4_1",
+   "text": "In nineteen seventy seven — six years before Challenger ever flew — engineers testing those joints found something wrong. Under the pressure of ignition, the joint itself would bend, and the seal could open a gap.",
+   "img": "launch",
+   "stat": "1977: First joint concern"
+  },
+  {
+   "id": "c4_2",
+   "text": "They called it joint rotation. It meant the O-ring wasn't just sealing a joint. It was fighting one.",
+   "img": "launch"
+  },
+  {
+   "id": "c4_3",
+   "text": "Four years later, on only the second shuttle flight, engineers found the first real evidence: an O-ring recovered after flight showed erosion. Something hot had been getting past the seal.",
+   "img": "recovery",
+   "query": "Space Shuttle Solid Rocket Booster recovery"
+  },
+  {
+   "id": "c4_4",
+   "text": "Then, in January nineteen eighty five — one year, almost to the day, before Challenger — a shuttle launched in the coldest weather yet. When investigators examined its boosters afterward, they found the worst O-ring damage anyone had ever seen.",
+   "img": "launch",
+   "stat": "Jan 1985: worst erosion yet"
+  },
+  {
+   "id": "c4_5",
+   "text": "Cold weather and O-ring failure were no longer a theory. They were a pattern, sitting in a file, a full year before anyone died.",
+   "img": "launch",
+   "tone": "tension"
+  },
+  {
+   "id": "c4_6",
+   "text": "On July thirty first, nineteen eighty five, Thiokol engineer Roger Boisjoly put it in writing. If the joint problem wasn't fixed, he wrote, the result would be, quote, \"a catastrophe of the highest order — the loss of human life.\"",
+   "img": "hearingroom",
+   "query": "Roger Boisjoly Rogers Commission testimony",
+   "cap": "“The loss of human life.” — Roger Boisjoly, July 31, 1985"
+  },
+  {
+   "id": "c4_7",
+   "text": "Six months later, on the coldest morning a shuttle had ever launched in, that memo would still be sitting in a file.",
+   "img": "launch",
+   "tone": "tension"
+  },
+  {
+   "id": "c5",
+   "chapter": "5 — THE NIGHT\nBEFORE",
+   "text": "On the evening of January twenty seventh, a forecast came in: launch morning would be the coldest a shuttle had ever flown in. Someone had to decide if that mattered.",
+   "img": "launch",
+   "cap": "8:15 PM, January 27, 1986",
+   "tone": "tension"
+  },
+  {
+   "id": "c5_1",
+   "text": "A teleconference opened, connecting three places at once: Thiokol's engineers in Utah, NASA managers in Alabama, and NASA's team at Kennedy Space Center in Florida.",
+   "img": "hearingroom",
+   "query": "Morton Thiokol NASA teleconference Rogers Commission diagram"
+  },
+  {
+   "id": "c5_2",
+   "text": "Engineer Roger Boisjoly presented the data: every time a shuttle had launched cold, its O-rings showed damage. The colder the launch, the worse the damage. Thiokol's formal recommendation was blunt — do not launch below fifty three degrees.",
+   "img": "hearingroom",
+   "cap": "Recommendation: no launch below 53°F"
+  },
+  {
+   "id": "c5_3",
+   "text": "Fifty three degrees was the coldest they had ever flown in and survived. The forecast for the morning was eight.",
+   "img": "launch",
+   "stat": "Forecast: 8°F at the joint",
+   "statColor": "#FF4D4D",
+   "tone": "tension"
+  },
+  {
+   "id": "c5_4",
+   "text": "NASA pushed back. One manager said he was appalled by the recommendation. Another engineer would later recall a NASA official asking, in frustration, when exactly Thiokol wanted him to launch — next April?",
+   "img": "hearingroom",
+   "cap": "“When do you want me to launch — next April?”"
+  },
+  {
+   "id": "c5_5",
+   "text": "Thiokol asked for a private caucus to talk it over, off the line. It was supposed to take five minutes. It took thirty.",
+   "img": "hearingroom"
+  },
+  {
+   "id": "c5_6",
+   "text": "Inside that room, a senior vice president turned to Thiokol's engineering chief and told him to take off his engineering hat — and put on his management hat.",
+   "img": "hearingroom",
+   "cap": "“Take off your engineering hat.”",
+   "tone": "tension"
+  },
+  {
+   "id": "c5_7",
+   "text": "When the line reopened, the recommendation had reversed. Thiokol's own management now said it was safe to fly. The engineers who had argued against it were not asked to vote.",
+   "img": "hearingroom",
+   "tone": "shock"
+  },
+  {
+   "id": "c5_8",
+   "text": "Roger Boisjoly signed nothing. He later testified: \"I left the room feeling badly defeated. This was a meeting where the determination was to launch — and it was up to us to prove it was not safe to do so.\"",
+   "img": "hearingroom",
+   "cap": "“It was up to us to prove it was not safe.”"
+  },
+  {
+   "id": "c5_9",
+   "text": "One more Thiokol engineer at Kennedy Space Center refused to put his name on the launch approval. He told a NASA manager: if anything happens to this launch, I don't want to be the one explaining why we flew.",
+   "img": "hearingroom",
+   "cap": "He refused to sign."
+  },
+  {
+   "id": "c5_10",
+   "text": "At eleven forty five that night, someone else signed in his place. The recommendation to launch was telefaxed to Kennedy.",
+   "img": "launch",
+   "tone": "tension"
+  },
+  {
+   "id": "c5_11",
+   "text": "The warning never went further than that room. It never reached the one NASA official whose job it was to give the final go.",
+   "img": "launch",
+   "tone": "shock"
+  },
+  {
+   "id": "c6",
+   "chapter": "6 — EIGHT\nDEGREES",
+   "text": "The next morning, ice crews walked the launch pad with broom handles, knocking icicles a foot long off the gantry.",
+   "img": "launch",
+   "cap": "7:00 AM, January 28, 1986"
+  },
+  {
+   "id": "c6_1",
+   "text": "The overnight low had been the coldest Kennedy Space Center had recorded in years. The launch, already delayed for days, slipped another two hours while engineers argued over whether the ice itself was dangerous.",
+   "img": "launch"
+  },
+  {
+   "id": "c6_2",
+   "text": "An infrared scanner was pointed at the joint that mattered most — the same right-side booster joint the engineers had warned about the night before.",
+   "img": "launch",
+   "tone": "tension"
+  },
+  {
+   "id": "c6_3",
+   "text": "It read eight degrees.",
+   "img": "launch",
+   "stat": "8°F",
+   "statColor": "#FF4D4D",
+   "tone": "shock"
+  },
+  {
+   "id": "c6_4",
+   "text": "Forty five degrees colder than the coldest launch the O-rings had ever survived. Nobody scrubbed the mission.",
+   "img": "launch",
+   "tone": "shock"
+  },
+  {
+   "id": "c6_5",
+   "text": "At eleven thirty eight a.m. Eastern Time, Challenger lifted off Pad thirty nine B.",
+   "cap": "11:38:00 AM EST",
+   "img": "liftoff"
+  },
+  {
+   "id": "c7",
+   "chapter": "7 — SEVENTY-THREE\nSECONDS",
+   "text": "Less than one second after ignition, cameras caught something small: a puff of black smoke, right at the joint the engineers had warned about.",
+   "cap": "T+0.678 seconds",
+   "img": "liftoff"
+  },
+  {
+   "id": "c7_1",
+   "text": "The cold O-ring hadn't sealed properly. For a moment, burned grease and debris plugged the gap by accident.",
+   "img": "launch"
+  },
+  {
+   "id": "c7_2",
+   "text": "As the shuttle climbed, wind shear flexed the booster. The seal that had been accidentally plugged came open again.",
+   "tone": "tension",
+   "img": "launch"
+  },
+  {
+   "id": "c7_3",
+   "text": "At fifty eight seconds, a small flame appeared at the joint — invisible to the crew, barely visible on camera.",
+   "img": "explosion",
+   "stat": "T+58.8s: flame visible",
+   "statColor": "#FF4D4D"
+  },
+  {
+   "id": "c7_4",
+   "text": "At sixty five seconds, the flame changed. It had burned through the wall of the external fuel tank, and was now feeding on leaking hydrogen.",
+   "img": "explosion",
+   "tone": "shock"
+  },
+  {
+   "id": "c7_5",
+   "text": "At sixty eight seconds, Mission Control gave the standard call: \"Challenger, go with throttle up.\"",
+   "img": "launch",
+   "cap": "T+68s — “go with throttle up”"
+  },
+  {
+   "id": "c7_6",
+   "text": "Commander Dick Scobee answered. \"Roger, go at throttle up.\" It was the crew's last complete transmission.",
+   "img": "crewgroup",
+   "cap": "“Roger, go at throttle up.”"
+  },
+  {
+   "id": "c7_7",
+   "text": "Four seconds later, pilot Michael Smith can be heard saying two words: \"Uh oh.\"",
+   "img": "crewgroup",
+   "cap": "“Uh-oh.” — the last words heard from the crew",
+   "tone": "shock"
+  },
+  {
+   "id": "c7_8",
+   "text": "At seventy three seconds, the flame burned through the strut holding the booster to the fuel tank. The tank ruptured. Its contents ignited.",
+   "video": "explosion_1.mp4",
+   "videoQuery": "Space Shuttle Challenger explosion breakup",
+   "stat": "T+73 SECONDS",
+   "statColor": "#FF4D4D",
+   "tone": "shock"
+  },
+  {
+   "id": "c7_9",
+   "text": "The orbiter itself was never destroyed by an explosion. It was torn apart by the force of the air around it, moving at nearly twice the speed of sound.",
+   "img": "explosion"
+  },
+  {
+   "id": "c7_10",
+   "text": "Seven people were on board.",
+   "img": "crewgroup",
+   "stat": "7 DEAD",
+   "statColor": "#FF4D4D",
+   "tone": "shock"
+  },
+  {
+   "id": "c8",
+   "chapter": "8 — WHAT THE\nINVESTIGATORS FOUND",
+   "text": "Six days later, President Reagan formed a commission to find out what happened. He gave it a hundred twenty days.",
+   "img": "hearingroom",
+   "cap": "Feb 3, 1986 — the Rogers Commission formed"
+  },
+  {
+   "id": "c8_1",
+   "text": "Its chairman was a former Secretary of State. Its vice chairman was Neil Armstrong. One of its members was a physicist named Richard Feynman.",
+   "img": "hearingroom",
+   "query": "Rogers Commission hearing Richard Feynman"
+  },
+  {
+   "id": "c8_2",
+   "text": "On live television, on February eleventh, Feynman produced a small piece of O-ring material, clamped it, and dropped it into a glass of ice water.",
+   "img": "hearingroom",
+   "cap": "Feb 11, 1986 — the O-ring demonstration"
+  },
+  {
+   "id": "c8_3",
+   "text": "When he pulled it out and released the clamp, the rubber did not spring back into shape. It stayed flat, exactly as it had been forced.",
+   "img": "hearingroom",
+   "tone": "shock"
+  },
+  {
+   "id": "c8_4",
+   "text": "That was the whole failure, demonstrated in thirty seconds, in a glass of ice water, in front of the country.",
+   "img": "hearingroom"
+  },
+  {
+   "id": "c8_5",
+   "text": "The commission's technical finding matched what Boisjoly had warned about six months earlier, almost exactly: a cold, brittle O-ring, in a joint that had never been designed to hold in the cold.",
+   "img": "hearingroom"
+  },
+  {
+   "id": "c8_6",
+   "text": "But the commission went further. The real failure, it found, wasn't a part. It was a decision-making process it called \"clearly flawed\" — one where engineering warnings from the working level never reached the people making the final call.",
+   "img": "hearingroom",
+   "tone": "tension"
+  },
+  {
+   "id": "c8_7",
+   "text": "A sociologist who studied the case afterward gave that pattern a name: normalization of deviance. Each time a shuttle flew with damage and landed safely anyway, the danger looked a little more normal — until the day it wasn't.",
+   "img": "hearingroom"
+  },
+  {
+   "id": "c9",
+   "chapter": "9 — TWO MINUTES,\nFORTY-FIVE SECONDS",
+   "text": "For years afterward, one question about that day refused to go away: did the crew survive the breakup itself?",
+   "img": "explosion",
+   "tone": "tension"
+  },
+  {
+   "id": "c9_1",
+   "text": "NASA investigated this specifically, and the answer it gave is more careful than most people expect.",
+   "img": "explosion"
+  },
+  {
+   "id": "c9_2",
+   "text": "The crew compartment did not explode. It separated from the disintegrating orbiter largely intact, and kept climbing for another twenty five seconds before it began to fall.",
+   "img": "explosion"
+  },
+  {
+   "id": "c9_3",
+   "text": "It fell for two minutes and forty five seconds before it struck the ocean.",
+   "img": "explosion",
+   "stat": "2 MIN 45 SEC",
+   "tone": "tension"
+  },
+  {
+   "id": "c9_4",
+   "text": "Investigators later found that three of the four emergency air packs on board had been switched on by hand — evidence that at least some of the crew were alive, and functioning, after the breakup.",
+   "img": "explosion"
+  },
+  {
+   "id": "c9_5",
+   "text": "NASA's own medical investigation concluded the forces of the breakup itself were, in its words, \"probably not sufficient to cause death or serious injury.\" Whether the crew stayed conscious for the fall is something the physical evidence could never fully answer.",
+   "img": "explosion",
+   "tone": "tension"
+  },
+  {
+   "id": "c9_6",
+   "text": "What NASA's investigators did state plainly: death is attributed to the impact with the ocean — not the breakup that came two minutes and forty five seconds before it.",
+   "img": "explosion"
+  },
+  {
+   "id": "c10",
+   "chapter": "10 — NO ONE\nWAS PUNISHED",
+   "text": "No one was ever criminally charged over the Challenger disaster. Not at NASA. Not at Thiokol.",
+   "img": "hearingroom",
+   "cap": "No criminal charges were ever filed"
+  },
+  {
+   "id": "c10_1",
+   "text": "The families were compensated through civil settlements instead. The government and Thiokol jointly paid the families of four of the crew members.",
+   "img": "memorial",
+   "query": "Space Mirror Memorial Kennedy Space Center"
+  },
+  {
+   "id": "c10_2",
+   "text": "Three more families settled separately, directly with Thiokol — the government did not contribute to those payments at all.",
+   "img": "memorial"
+  },
+  {
+   "id": "c10_3",
+   "text": "Pilot Michael Smith's widow sued both the government and Thiokol. A federal court dismissed her claim against the government outright — a legal doctrine bars lawsuits over a service member's death while on duty. Because Smith was Navy, that doctrine applied.",
+   "img": "memorial",
+   "tone": "tension"
+  },
+  {
+   "id": "c10_4",
+   "text": "The government that sent her husband to space never paid his family a dollar directly. Her claim against Thiokol, as a private company, was allowed to proceed.",
+   "img": "memorial"
+  },
+  {
+   "id": "c11",
+   "chapter": "11 — THE ENGINEERS\nWHO WERE RIGHT",
+   "text": "Roger Boisjoly, the engineer who wrote the warning memo six months before the disaster, never worked on another rocket. He spent the rest of his career teaching engineering ethics — at more than three hundred universities and companies.",
+   "img": "hearingroom",
+   "cap": "Roger Boisjoly, 1938–2012"
+  },
+  {
+   "id": "c11_1",
+   "text": "In nineteen eighty eight, the American Association for the Advancement of Science gave him an award for scientific freedom and responsibility — for the warning almost no one had listened to.",
+   "img": "hearingroom"
+  },
+  {
+   "id": "c11_2",
+   "text": "Bob Ebeling — the man who pounded the dashboard that morning — carried the guilt for thirty years, believing he could have stopped the launch himself.",
+   "img": "hearingroom",
+   "cap": "Bob Ebeling, 1926–2016"
+  },
+  {
+   "id": "c11_3",
+   "text": "On the thirtieth anniversary, in twenty sixteen, he agreed to tell a reporter his story publicly for the first time. Listeners wrote him hundreds of letters. He died two months later.",
+   "img": "hearingroom"
+  },
+  {
+   "id": "c11_4",
+   "text": "The one Thiokol engineer at Kennedy who refused to sign the launch approval, Allan McDonald, later testified to the commission about the reversal that night — testimony that forced Thiokol and NASA to admit what had actually happened in that room.",
+   "img": "hearingroom",
+   "cap": "Allan McDonald, 1937–2021"
+  },
+  {
+   "id": "c11_5",
+   "text": "All three men are gone now. None of them were ever blamed for what happened. Every one of them was right.",
+   "img": "hearingroom",
+   "tone": "tension"
+  },
+  {
+   "id": "c12",
+   "chapter": "12 — THIRTY-FOUR\nCENTERS",
+   "text": "The seven families didn't just grieve. They built something.",
+   "img": "memorial"
+  },
+  {
+   "id": "c12_1",
+   "text": "Within a year of the disaster, they founded the Challenger Center for Space Science Education — a nonprofit designed to put kids through simulated space missions instead of letting the disaster be the last thing anyone remembered about it.",
+   "img": "memorial",
+   "cap": "Founded by the seven families, 1986"
+  },
+  {
+   "id": "c12_2",
+   "text": "Today it runs thirty four Challenger Learning Centers around the world.",
+   "img": "memorial",
+   "stat": "34 CENTERS WORLDWIDE"
+  },
+  {
+   "id": "c12_3",
+   "text": "One of the newest opened in twenty twenty six — the first ever built from the ground up instead of retrofitted into an existing building. More than eight hundred people came to its opening.",
+   "img": "memorial",
+   "tone": "awe"
+  },
+  {
+   "id": "c12_4",
+   "text": "Commander Dick Scobee's widow, June Scobee Rodgers, helped found the organization nearly forty years ago. She still visits the centers in person today.",
+   "img": "memorial",
+   "cap": "June Scobee Rodgers, founding chair"
+  },
+  {
+   "id": "c13",
+   "chapter": "13 — STILL STANDING\nAT KENNEDY",
+   "text": "Every January, NASA holds a Day of Remembrance. In twenty twenty six, family members came back to Kennedy Space Center for the fortieth time.",
+   "img": "memorial",
+   "cap": "NASA's Day of Remembrance, January 2026"
+  },
+  {
+   "id": "c13_1",
+   "text": "Pilot Michael Smith's widow, Jane Smith-Wolcott, stood at the memorial and spoke. \"Every day I miss Mike,\" she said. \"Every day's the same.\"",
+   "img": "memorial",
+   "cap": "“Every day I miss Mike.”"
+  },
+  {
+   "id": "c13_2",
+   "text": "His daughter Alison was fourteen years old when he died. She spoke too, through tears. \"We are all part of this story,\" she said.",
+   "img": "memorial",
+   "cap": "“We are all part of this story.”",
+   "tone": "tension"
+  },
+  {
+   "id": "c13_3",
+   "text": "Forty years later, they were still standing at the same launch complex, still saying his name out loud.",
+   "img": "memorial"
+  },
+  {
+   "id": "c14",
+   "chapter": "14 — WHAT IT\nCHANGED",
+   "text": "The shuttle program was grounded for thirty two months — the longest pause in its history.",
+   "img": "launch",
+   "stat": "Grounded 32 months",
+   "cap": ""
+  },
+  {
+   "id": "c14_1",
+   "text": "Engineers redesigned the joint completely: a third O-ring, a metal feature to physically lock the segments together, so the failure that killed seven people could not happen the same way twice.",
+   "img": "launch"
+  },
+  {
+   "id": "c14_2",
+   "text": "NASA created a new safety office that reported directly to the head of the agency — closing the exact gap that had kept a night-before warning from ever reaching the person who needed to hear it.",
+   "img": "launch"
+  },
+  {
+   "id": "c14_3",
+   "text": "Decades later, when a different NASA spacecraft ran into trouble — astronauts stranded, an unproven vehicle — the agency chose the slower, safer option instead of pushing the schedule. People who study the decision point directly back to nineteen eighty six.",
+   "img": "launch",
+   "tone": "awe"
+  },
+  {
+   "id": "coda1",
+   "text": "The warning that could have stopped Challenger existed in writing six months before the launch. It existed again, out loud, the night before. It never had to be a mystery. It just never reached the one person who could have said no.",
+   "img": "hearingroom",
+   "tone": "tension"
+  },
+  {
+   "id": "coda2",
+   "text": "That's the part of this story that never gets old, and never gets easier to hear.",
+   "img": "memorial"
+  },
+  {
+   "id": "bridge",
+   "text": "If a warning nobody heard is what got you about this one, wait until you see what nobody heard on Swissair Flight one eleven — a wiring fire, and seventeen minutes, on this channel.",
+   "img": "memorial",
+   "cap": ""
+  },
+  {
+   "id": "end",
+   "text": "Subscribe to Black Box Breakdown for the next real investigation.",
+   "chapter": "SUBSCRIBE",
+   "img": "memorial",
+   "cap": ""
+  }
+ ]
+}

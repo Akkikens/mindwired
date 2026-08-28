@@ -381,6 +381,36 @@ Cross-channel remakes are now ~TTS-cost-only (see src/mindwired-doc/README.md).
 
 ## Black Box Breakdown (disaster forensics — @Watch-BlackBox)
 
+**⭐ NEXT (Icahn PASS 2026-08-26) — Space Shuttle Challenger disaster
+(1986).** Winner of a 4-candidate sweep (Surfside re-check / MH17 /
+Lockerbie / Challenger) run after Swissair 111 shipped with no queued
+follow-up. Giant-name/evergreen ceiling class (no wave-calendar urgency,
+unlike Swissair 111's tight window) — fresh 2026-03-29 small-channel
+outlier (52.3:1) plus massive historic corroboration (up to 1842:1) plus a
+fresh National Geographic special (Jan 2025, 1.3M views) as ceiling proof.
+Settled cause (1986 Rogers Commission), standard sensitivity tier (same as
+TWA800/Earhart — living family members exist and were publicly active at
+the Jan 2026 40th-anniversary ceremony, but no contested cause/active
+litigation). Real footage CONFIRMED via live probe: the actual 1986
+explosion photo exists on Commons (PD, vision-verified), NASA video
+material confirmed rich via images.nasa.gov. **Locked package (ctr-engine
+Run A): title "7 Astronauts. One Ignored Warning." — thumbnail is the real
+explosion photo, zero text, House Style 2.0** — deliberately avoids the two
+angles (Feynman-30-seconds, "what happened to the bodies") that live 2026
+sweep data shows are already saturated/decaying. Full evidence + package:
+memory `icahn-challengerdisaster`.
+
+**Runner-up, not chosen this round: Surfside/Champlain Towers South
+(2021)** — real PASS (live NIST-report currency wave, 168.8:1 headline)
+but mid-tier recognition + WTC-tier sensitivity + footage-ownership
+caveats persist from when it was runner-up in the Swissair 111 sweep too.
+Keep as the strongest alternate. **Watch item: Pan Am 103/Lockerbie** — FAIL
+on raw Icahn (no outlier clears both bars yet) but real live currency
+(2026 Netflix series, active Masud federal trial) — re-check in 2-3
+months. **MH17 explicitly declined** despite technically-passing old
+ratios — 2025-2026 attempts show a textbook broken-wave saturation
+pattern, plus active-war-context sensitivity.
+
 **✅ PUBLISHED — Swissair Flight 111 (1998): https://youtu.be/TXgg2Qy1Oa0**
 (uploaded ~2026-08-25 as "Swissair 111 : The 17 Minutes That KILLED 229
 People" — inside the Sept 2-16 dual-peg window early; 215 views at first

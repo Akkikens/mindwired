@@ -95,6 +95,8 @@ import twa800Doc from "./mindwired-doc/docs/twa800.json";
 import twa800Manifest from "./mindwired-doc/docs/twa800.manifest.json";
 import swissair111Doc from "./mindwired-doc/docs/swissair111.json";
 import swissair111Manifest from "./mindwired-doc/docs/swissair111.manifest.json";
+import challengerdisasterDoc from "./mindwired-doc/docs/challengerdisaster.json";
+import challengerdisasterManifest from "./mindwired-doc/docs/challengerdisaster.manifest.json";
 import costaconcordiaManifest from "./mindwired-doc/docs/costaconcordia.manifest.json";
 import area51Doc from "./mindwired-doc/docs/area51.json";
 import area51Manifest from "./mindwired-doc/docs/area51.manifest.json";
@@ -248,6 +250,8 @@ import { BrandIntro, BRAND_INTRO_FRAMES } from "./components/BrandIntro";
 import { ShortManifest, VisualPlan } from "./viral/lib/types";
 import roguebhPlanJson from "./viral/plans/roguebh.json";
 import roguebhManifestJson from "../public/shorts/roguebh/audio/manifest.json";
+import chelseaTransfers2026PlanJson from "./viral/plans/chelsea-transfers-2026.json";
+import chelseaTransfers2026ManifestJson from "../public/shorts/chelsea-transfers-2026/audio/manifest.json";
 import erasedmanPlanJson from "./viral/plans/erasedman.json";
 import erasedmanManifestJson from "../public/shorts/erasedman/audio/manifest.json";
 import marsOneS1PlanJson from "./viral/plans/marsone-short1.json";
@@ -398,6 +402,8 @@ import podcastTurnsJson from "../public/codewired/podcast/turns.json";
 
 const roguebhPlan = roguebhPlanJson as unknown as VisualPlan;
 const roguebhManifest = roguebhManifestJson as unknown as ShortManifest;
+const chelseaTransfers2026Plan = chelseaTransfers2026PlanJson as unknown as VisualPlan;
+const chelseaTransfers2026Manifest = chelseaTransfers2026ManifestJson as unknown as ShortManifest;
 const erasedmanPlan = erasedmanPlanJson as unknown as VisualPlan;
 const erasedmanManifest = erasedmanManifestJson as unknown as ShortManifest;
 const marsOneS1Plan = marsOneS1PlanJson as unknown as VisualPlan;
@@ -628,6 +634,28 @@ export const RemotionRoot: React.FC = () => {
         component={ViralShort}
         defaultProps={{ plan: roguebhPlan, manifest: roguebhManifest }}
         durationInFrames={viralShortFrames(roguebhPlan, roguebhManifest)}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      {/* ── kickoffdaily90 — Chelsea buy/sell-extremes short (2026-08-28).
+             Board-only kinetic typography, no AI broll (0 Higgsfield credits
+             on the account). Every figure fact-checked live via web search
+             this session: £347m spend / 13 signings (incl. club-record £117m
+             Morgan Rogers), £241m+ confirmed sales across 8 players, 2023's
+             £226m sell-off for the year-over-year pattern, and the still-
+             unconfirmed €140m Enzo Fernandez → Man City reported deal used
+             as an honest open loop, not asserted fact. Explicitly does NOT
+             claim "biggest seller in the world" (Man City/Newcastle are
+             comparable or bigger this window) or a Monaco net-profit
+             comparison (Chelsea's net position is negative, the opposite of
+             what made Monaco's record a record) — both were live-corrected
+             out of the script before production. ── */}
+      <Composition
+        id="ShortChelseaTransfers2026"
+        component={ViralShort}
+        defaultProps={{ plan: chelseaTransfers2026Plan, manifest: chelseaTransfers2026Manifest }}
+        durationInFrames={viralShortFrames(chelseaTransfers2026Plan, chelseaTransfers2026Manifest)}
         fps={30}
         width={1080}
         height={1920}
@@ -1702,6 +1730,33 @@ export const RemotionRoot: React.FC = () => {
         id="Swissair111Doc"
         component={makeDocComp(swissair111Doc as any, swissair111Manifest as any, BB_OUTRO)}
         durationInFrames={docTotalFrames(swissair111Doc as any, swissair111Manifest as any, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Space Shuttle Challenger (1986) — Black Box Breakdown, produced
+             2026-08-26 on the new chunked-render + Grant-narrator + lesson-gate
+             infra. Icahn PASS: memory `icahn-challengerdisaster` (605:1 Jason
+             Payne outlier, 52.3:1 fresh 2026 outlier, National Geographic/CNN
+             ceiling proof). Locked package: "7 Astronauts. One Ignored
+             Warning." Cold open is a flash-forward built entirely on the one
+             real PD explosion clip (Commons, full 28.5s, manually re-fetched
+             around the pipeline's 20s auto-truncation) sequenced across
+             non-overlapping videoFrom offsets to clear the first-25s
+             real-video gate; body footage is real NASA/Commons stills
+             (Rogers Commission investigation photos, ice-on-the-pad, crew
+             portraits, recovered-debris/O-ring evidence, Space Mirror
+             Memorial). Sensitivity: settled cause (1986 Rogers Commission),
+             standard care tier — Michael Smith's widow/daughter quoted from
+             on-the-record 2026 Day of Remembrance coverage only. See
+             docs/planning/CLAIMS-challengerdisaster.md for the full
+             correction log (scream-tape hoax excluded, no crew-survived
+             conspiracy, no exact SOTU-rush claim, etc). BB_OUTRO baked. ── */}
+      <Composition
+        id="ChallengerDisasterDoc"
+        component={makeDocComp(challengerdisasterDoc as any, challengerdisasterManifest as any, BB_OUTRO)}
+        durationInFrames={docTotalFrames(challengerdisasterDoc as any, challengerdisasterManifest as any, BB_OUTRO)}
         fps={30}
         width={1920}
         height={1080}

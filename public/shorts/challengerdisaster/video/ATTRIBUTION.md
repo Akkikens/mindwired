@@ -1,0 +1,1 @@
+- **explosion_1.mp4** — Challenger - STS-51-L Explosion.ogv (full 28.5s original, manually re-fetched & transcoded — the automated pipeline caps clips at 20s and would have truncated the only real motion footage of the event) — Public domain — NASA — https://commons.wikimedia.org/wiki/File:Challenger_-_STS-51-L_Explosion.ogv

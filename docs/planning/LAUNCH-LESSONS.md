@@ -15,6 +15,15 @@ proceeds; no-human-available records BLOCKED-ON-DATA and proceeds.
 | Black Box Breakdown | TBD (observed de-facto: near-daily, mornings — Akshay to confirm a fixed slot or bless the daily cadence) |
 | mindwired | TBD (same observation) |
 
+## BLOCKED-ON-DATA — 2026-08-26
+
+Most recent Black Box upload (Swissair 111, TXgg2Qy1Oa0, published ~2026-08-25)
+is now >48h old and owes a launch-diagnosis, but this session has no YouTube
+Studio access (only public view/like counts via yt-dlp, no CTR/retention/
+Impressions data). Per Step 0's escape hatch (c): recording BLOCKED-ON-DATA
+and proceeding with icahn-validate rather than stalling. Real diagnosis still
+owed once Akshay can share Studio numbers.
+
 ## Publish log (publish-video appends `title · URL · publish date` per upload —
 this table defines "the channel's most recent upload" for the loop gates;
 "upload" = published on YouTube, never merely rendered)
