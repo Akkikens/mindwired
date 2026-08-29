@@ -3,7 +3,7 @@
 Single-file summary of everything done on this episode. Read `CLAUDE.md` first for
 the production manual; this doc is the episode-specific state.
 
-## Status: SCRIPT + FOOTAGE DONE — BLOCKED ON CARTESIA_API_KEY (no narration/render possible yet)
+## Status: VO + PREFLIGHT + COMP DONE — 4K RENDER RUNNING on Akshay's local machine via GCE (packaging drafted, not yet finalized)
 
 ## Files
 | What | Path |
@@ -13,8 +13,12 @@ the production manual; this doc is the episode-specific state.
 | Icahn validation + locked package | `docs/planning/TOPIC-QUEUE.md`, entry "projecthailmary" (no `icahn-<slug>` memory entry — see note below) |
 | Fetched images (33 real photos) | `public/shorts/projecthailmary/images/` + `ATTRIBUTION.md` |
 | Fetched video (4 real NASA solar clips) | `public/shorts/projecthailmary/video/` + `ATTRIBUTION.md` (gitignored — not committed) |
-| Comp registration | **NOT DONE YET** — needs a manifest first (see below) |
-| Rendered master | **NOT DONE — blocked** |
+| VO (43 clips, 10.4 min) + manifest | `public/shorts/projecthailmary/audio/` (gitignored) + `src/mindwired-doc/docs/projecthailmary.manifest.json` (committed) |
+| Comp registration | `src/Root.tsx` → `ProjectHailMaryDoc` (MW_OUTRO baked) |
+| Preflight | 0 blocking, 10 warnings (false positives / documented compromises — see below) |
+| Rendered master | **RENDERING NOW** on Akshay's local Mac via `scripts/render_gce.sh` (GCE, not reachable from this remote session — see below). Lands at `out/projecthailmary_gce.mp4` on his machine, not this one. |
+| Thumbnails (3 built files) | `out/thumbs/projecthailmary_A/B/C.png` — real NASA sunspot frame, House Style 2.0 |
+| Metadata draft | `docs/metadata/METADATA-projecthailmary.md` |
 
 ## ⚠️ Why this episode exists and what it's for
 
@@ -130,34 +134,81 @@ framed) — revisit if the environment's access improves:**
   pipelines independently fetched. Worth a fresh fetch later if Commons
   access is restored.
 
-## 5. What's blocked and why
+## 5. VO — unblocked, done
 
 `scripts/lib/cartesia.py` (the only VO path `build_doc_vo.py` uses — no
-fallback to Hume/ElevenLabs exists in this script) hard-exits without
-**CARTESIA_API_KEY**. No `.env` existed in this session at all; only
-`HUME_API_KEY`/`HUME_SECRET_KEY` were supplied, which this pipeline doesn't
-use. Without real VO clips there is no manifest (`build_doc_vo.py` produces
-it from real clip durations), and without a manifest the comp can't be
-registered in `Root.tsx` (it imports the manifest statically), so nothing
-downstream — preflight, stills, the render — can run yet.
+fallback to Hume/ElevenLabs exists in this script) needed **CARTESIA_API_KEY**
+specifically; Akshay supplied one mid-session and all 43 clips synthesized
+cleanly (10.4 min narration, no empty/silent clips). h1's hook line was
+tightened post-synthesis (preflight's word-count check) and re-synthed with
+`--only h1 --force` — if editing scene text after this point, always re-run
+`build_doc_vo.py --only <id> --force` for that scene or the render will speak
+stale narration (a real preflight-blocking check exists for this now).
 
-**GEMINI_API_KEY** and **REPLICATE_API_TOKEN** are also unset (relevant to
-the separate, paused Booked/Marlowe work — not required for this episode's
-remaining steps, only for its optional footage vision-check).
+## 6. Preflight fixes applied (worth knowing before touching the script again)
+- **8 images were oversized** (up to 8256×5504 — real high-res NASA downloads)
+  and would have timed out Remotion; downscaled every image over 2400px on its
+  longest side.
+- **Title card text didn't match the packaging title** (a known past bug
+  class, per preflight's own swissair111 reference) — changed the on-screen
+  title card to closely echo the locked title instead of a generic paraphrase.
+- **Several image pools read as pure black once dimmed behind chapter/kinetic
+  text** (deepspacestill, exoplanetreal, titanmoon, starfield all had at least
+  one near-black member) — reassigned chapter-card scenes (title, c3, end) to
+  pools confirmed bright enough (rocketengine, observatorynight, gpssatellite).
+  One remaining low-severity warning: `sunsurface_2.jpg` (41/255) is still in
+  the `sunsurface` pool used by kinetic scene v2 — acceptable, not near-black.
+- **Hook (h1) was over 30 words** — tightened to 28, re-synthesized.
+- Preflight now passes **0 blocking, 10 warnings** — the remaining warnings
+  are the same false-positive keyword-vs-title mismatches already
+  human-verified correct in Step 4 above, plus the documented non-hook-window
+  cross-episode image reuse.
 
-## Next steps (in order, once CARTESIA_API_KEY is available)
-1. `python3 scripts/build_doc_vo.py projecthailmary --speed 0.96` — real
-   narration, then the mandatory ear-check (splice hook+middle+last clips,
-   listen).
-2. `python3 scripts/audit_scene_relevance.py projecthailmary` and
-   `python3 scripts/preflight_doc.py projecthailmary` — iterate to 0 blocking.
-3. Register `ProjecthailmaryDoc` in `src/Root.tsx` (`MW_OUTRO`, mindwired
-   channel branding), spot-check 3-4 stills.
-4. ONE 4K render via `scripts/render_gce.sh` (or `render_and_master.py`
-   locally) — windowed `bed_awe_*` music given the runtime, mindwired
-   subscribe outro baked in.
-5. SRT captions, `docs/metadata/METADATA-projecthailmary.md` (ctr-engine Run
-   B against the locked package in `TOPIC-QUEUE.md`), 3 built thumbnails,
-   Shorts funnel cut.
-6. File rename to the real title at repo root per the mp4-filename-is-title
-   convention; commit everything except the multi-GB master.
+## 7. GCE render — NOT reachable from this remote session
+
+No `gcloud` CLI exists in this container, and even after installing it,
+**interactive `gcloud auth login` does not survive in this sandbox** — the
+process gets killed while waiting on the verification code, across two
+independent attempts (a FIFO-based stdin-keepalive technique that normally
+works elsewhere). A GCP service-account key was also tried but was the wrong
+credential type (Vercel's Workload Identity Federation config, not a real GCP
+service-account JSON — unusable here).
+
+**Resolution: Akshay is running the render himself**, locally, per this
+repo's own documented convention for exactly this situation (see other
+`*-HANDOFF.md` files' "only Akshay can run gcloud auth login" notes):
+```
+cd ~/mindwired   # his existing local clone
+git checkout claude/best-video-project-lf3bau && git pull
+scripts/render_gce.sh ProjectHailMaryDoc projecthailmary
+# optionally: --music public/beds/bed_awe_<name>.mp3 --windows projecthailmary --music-gain-db -20
+```
+This lands the master at `out/projecthailmary_gce.mp4` **on his machine**, not
+in this session — so the next session/agent picking this up needs him to
+share that file, or needs to run the verification steps below itself once it
+has the file.
+
+## 8. Packaging — drafted, not finalized
+Thumbnails (3 files, all built from a real NASA sunspot frame — the same
+footage the cold open uses) and `docs/metadata/METADATA-projecthailmary.md`
+are both done. Chapter timestamps came from `gen_doc_srt.py` (the real timing
+source — never hand-computed). Two "MORE FROM mindwired" links are real,
+confirmed URLs from `docs/planning/LAUNCH-LESSONS.md`'s publish log
+(Tunguska, NASA UFO Files); the Fermi Paradox link (named in the episode's own
+verbal bridge) has no confirmed URL anywhere in this repo — it's a
+`[paste URL]` placeholder, fill in the real one before publishing.
+
+## Next steps (in order)
+1. **Verify the render once Akshay's GCE job finishes**: ffprobe duration
+   (expect ~671s body + 527 frames outro ÷ 30 ≈ 11:28) and resolution
+   (3840×2160 if he ran default 4K), extract and look at a mid-video frame and
+   the last few frames (outro present?), confirm the −14 LUFS line in the
+   render log.
+2. Real SRT captions via `whisper_srt.py` against the actual master (word-
+   accurate, digits not phonetic spellings) — needs the mp4, so needs his
+   machine or the file shared back.
+3. Fill in the Fermi Paradox URL in the metadata's MORE FROM block.
+4. Shorts funnel (3-5 vertical cuts) via the shorts-funnel skill, once the
+   master exists.
+5. Final repo-root rename to the bare title + `.srt` pair (mp4-filename-is-
+   title convention); commit everything except the multi-GB master itself.
