@@ -8,7 +8,7 @@
   "scenes": [
     {
       "id": "h1",
-      "text": "October nineteenth, twenty fourteen. A single sunspot crosses the face of the sun, so large that twelve planets the size of Earth could fit inside it. From ninety three million miles away, satellites watch our star visibly, measurably dim.",
+      "text": "October nineteenth, twenty fourteen. A sunspot big enough to swallow twelve Earths crosses the sun — and from ninety three million miles away, we watch our star visibly dim.",
       "video": "sundimming_1.mp4",
       "videoQuery": "NASA Solar Dynamics Observatory giant sunspot solar flare real footage",
       "cap": "Oct 19, 2014. The largest sunspot group in 24 years.",
@@ -48,8 +48,8 @@
     {
       "id": "title",
       "text": "This is the real science behind Project Hail Mary: which of its ideas are grounded in real, published research, which ones bend the rules of physics on purpose, and the one honest admission its own author makes about exactly where fiction takes over.",
-      "chapter": "THE REAL SCIENCE OF\nPROJECT HAIL MARY",
-      "img": "deepspacestill",
+      "chapter": "HAIL MARY'S SUN-KILLING\nMICROBE MIGHT BE REAL",
+      "img": "rocketengine",
       "query": "deep space starfield stars wide shot real telescope image"
     },
     {
@@ -212,8 +212,8 @@
       "id": "c3",
       "text": "Chapter three. The friend that shouldn't be possible.",
       "chapter": "CHAPTER THREE\nTHE FRIEND THAT SHOULDN'T BE POSSIBLE",
-      "img": "exoplanetreal",
-      "query": "exoplanet real telescope image NASA"
+      "img": "observatorynight",
+      "query": "star field telescope observation real image Kepler"
     },
     {
       "id": "a1",
@@ -346,7 +346,7 @@
       "id": "end",
       "text": "Subscribe to mindwired.",
       "chapter": "SUBSCRIBE",
-      "img": "deepspacestill",
+      "img": "gpssatellite",
       "query": "deep space starfield real telescope image"
     }
   ]

@@ -28,6 +28,8 @@ import spaceDeathsDoc from "./mindwired-doc/docs/spacedeaths.json";
 import spaceDeathsManifest from "./mindwired-doc/docs/spacedeaths.manifest.json";
 import ww2EpicEnDoc from "./mindwired-doc/docs/ww2epic-en.json";
 import ww2EpicEnManifest from "./mindwired-doc/docs/ww2epic-en.manifest.json";
+import projectHailMaryDoc from "./mindwired-doc/docs/projecthailmary.json";
+import projectHailMaryManifest from "./mindwired-doc/docs/projecthailmary.manifest.json";
 import spaceDeathsHiDoc from "./mindwired-doc/docs/spacedeaths-hi.json";
 import spaceDeathsHiManifest from "./mindwired-doc/docs/spacedeaths-hi.manifest.json";
 import eastIndiaDoc from "./mindwired-doc/docs/eastindia.json";
@@ -3033,6 +3035,23 @@ export const RemotionRoot: React.FC = () => {
         id="WW2EpicEnDoc"
         component={makeDocComp(ww2EpicEnDoc, ww2EpicEnManifest)}
         durationInFrames={docTotalFrames(ww2EpicEnDoc, ww2EpicEnManifest)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── mindwired — "The Real Science of Project Hail Mary" — science-explainer/
+             critique built around Andy Weir's novel + its 2026 film adaptation.
+             Icahn PASS 2026-08-29 (headline 38:1, Storm King); redirected here from
+             the new Booked channel since the proven demand cluster is science-
+             explainer shaped, not book-critique shaped. Every claim traced to real
+             science journalism/interviews, never the novel's text — never the movie's
+             footage either. Full fact base: docs/planning/CLAIMS-projecthailmary.md,
+             handoff: docs/planning/PROJECTHAILMARY-HANDOFF.md. MW_OUTRO baked. ── */}
+      <Composition
+        id="ProjectHailMaryDoc"
+        component={makeDocComp(projectHailMaryDoc as any, projectHailMaryManifest as any, MW_OUTRO)}
+        durationInFrames={docTotalFrames(projectHailMaryDoc as any, projectHailMaryManifest as any, MW_OUTRO)}
         fps={30}
         width={1920}
         height={1080}
