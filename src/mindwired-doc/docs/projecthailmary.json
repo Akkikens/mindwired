@@ -33,8 +33,8 @@
     {
       "id": "h4",
       "text": "So we did the version nobody on the movie's press tour had time for. We took the book's three biggest scientific claims, a microbe that can starve a star, a ship that flies at ninety four percent of the speed of light, and an alien built from a different chemistry than us, and checked every one of them against real, published science.",
-      "video": "deepspace_1.mp4",
-      "videoQuery": "deep space nebula starfield real telescope footage",
+      "video": "sundimmingextra_1.mp4",
+      "videoQuery": "NASA Solar Dynamics Observatory sun solar flare real footage",
       "cap": "3 claims. Real science. No spoilers spared.",
       "stat": "3 CLAIMS TESTED",
       "tone": "confidence"
@@ -70,8 +70,8 @@
     {
       "id": "m2",
       "text": "So we start with the real record for extreme life on Earth. The hardiest organism science has ever confirmed keeps reproducing at over two hundred fifty degrees Fahrenheit, found thriving near hydrothermal vents on the ocean floor, running entirely on chemistry, with no sunlight at all.",
-      "video": "hydrothermalvent_1.mp4",
-      "videoQuery": "hydrothermal vent ocean floor real footage NOAA",
+      "img": "hydrothermalvent",
+      "query": "hydrothermal vent ocean floor real photograph NOAA",
       "cap": "Real record: ~122°C (252°F), near hydrothermal vents.",
       "stat": "122°C REAL RECORD",
       "tone": "curiosity"
@@ -79,8 +79,8 @@
     {
       "id": "m3",
       "text": "Radiation is a different real record. A bacterium called Deinococcus radiodurans survives radiation doses roughly a thousand times what would kill a human, and keeps its DNA intact.",
-      "img": "radiodurans",
-      "query": "Deinococcus radiodurans microscopy micrograph",
+      "img": "hydrothermalvent",
+      "query": "hydrothermal vent ocean floor real photograph NOAA",
       "cap": "Deinococcus radiodurans: survives 1,000x the human-lethal dose.",
       "stat": "1,000x",
       "tone": "curiosity"
@@ -88,8 +88,8 @@
     {
       "id": "m4",
       "text": "Then there's the tardigrade. In a real European Space Agency experiment, it survived ten days completely exposed to the vacuum of space, no suit, no shielding, direct solar radiation, and it didn't just survive. It went on to reproduce.",
-      "video": "tardigrade_1.mp4",
-      "videoQuery": "tardigrade water bear microscopy real video",
+      "img": "tardigrade",
+      "query": "tardigrade water bear microscopy real photograph",
       "cap": "10 days in open space. Survived. ESA, 2007.",
       "tone": "confidence"
     },
@@ -121,8 +121,8 @@
     {
       "id": "m8",
       "text": "Here's the part that actually earns this book its reputation. Its own author doesn't dispute any of this. Andy Weir has said, on the record, that astrophage required exactly one invented rule: a fictional quirk in its cell membrane that lets it store energy no real biology could. In his words, he looked for the absolute minimum way he could break the rules, and then built everything else on top of real biology and real physics.",
-      "img": "notebook",
-      "query": "handwritten physics equations notebook science real photograph",
+      "img": "sunsurface",
+      "query": "sun corona surface real photograph NASA",
       "cap": "\"The absolute minimum way I can break the rules.\" — Andy Weir.",
       "tone": "confidence"
     },
@@ -161,16 +161,16 @@
     {
       "id": "e4",
       "text": "So does the acceleration. The ship cruises at roughly one g, the same pull as Earth's gravity. That's not a coincidence, it's the number real physicists already use as the comfortable, survivable long haul profile for a hypothetical relativistic voyage, doubling as artificial gravity for the crew.",
-      "video": "centrifuge_1.mp4",
-      "videoQuery": "NASA astronaut centrifuge training real footage",
+      "img": "centrifuge",
+      "query": "NASA astronaut spacewalk real photograph",
       "cap": "1g cruise: real physicists' own benchmark number.",
       "tone": "confidence"
     },
     {
       "id": "e5",
       "text": "Getting to ninety four percent of light speed at all is where real engineering falls far behind. Humanity's actual, seriously studied interstellar concepts don't come close: a laser driven sail aims for twenty percent of light speed, and only for a probe lighter than a paperclip. A nineteen fifties nuclear pulse design aimed for ten percent. None of them ever flew a crew.",
-      "video": "voyagerlaunch_1.mp4",
-      "videoQuery": "Voyager spacecraft launch rocket real footage NASA",
+      "img": "voyagerlaunch",
+      "query": "Voyager spacecraft launch real photograph NASA",
       "cap": "Real concepts: ~10-20% lightspeed. Unmanned. Never flown.",
       "stat": "0.94c vs ~0.20c REAL",
       "kinetic": true,
@@ -179,16 +179,16 @@
     {
       "id": "e6",
       "text": "The one real mechanism with anywhere near the needed energy density is antimatter. NASA has funded real feasibility studies on it. The problem is cost: producing even a single gram is estimated to need costs to drop ten thousand times over from where they stand today, and we've only ever contained trace amounts, for minutes, at a lab in Europe.",
-      "img": "particlephysics",
-      "query": "particle accelerator laboratory real photograph CERN",
+      "img": "spacecraftshielding",
+      "query": "spacecraft deep space real photograph NASA",
       "cap": "Antimatter: real physics, ~10,000x too expensive.",
       "tone": "tension"
     },
     {
       "id": "e7",
       "text": "Physicist Chad Orzel points out the specific problem with the ship's fuel: converting mass directly into energy at anywhere near total efficiency is, in real physics, something only matter colliding with antimatter can do. He notes that even the book's own author has called his fuel organism's exact energy trick hand wavy.",
-      "img": "particlephysics",
-      "query": "physics laboratory equipment real photograph science",
+      "img": "spacecraftshielding",
+      "query": "spacecraft deep space real photograph NASA",
       "cap": "\"Hand-wavy.\" — physicist Chad Orzel, on the fuel mechanism.",
       "tone": "tension"
     },
@@ -203,8 +203,8 @@
     {
       "id": "e9",
       "text": "Weir himself has said this book took more research than anything he'd written before, across physics, relativity, and materials science, and that he ran all the numbers on the fuel's energy budget himself. His own framing, in an interview with astrophysicist Neil deGrasse Tyson, is that the fuel is his one deliberate cheat, chosen specifically so that everything built on top of it, the acceleration, the time dilation, the flight plan, could be calculated for real.",
-      "img": "notebook",
-      "query": "physics equations chalkboard science real photograph",
+      "img": "spacecraftshielding",
+      "query": "spacecraft deep space real photograph NASA",
       "cap": "\"I ran all the numbers.\" — Andy Weir.",
       "tone": "confidence"
     },
@@ -226,16 +226,16 @@
     {
       "id": "a2",
       "text": "That's not as far fetched as it sounds. Real extremophiles on Earth already survive pressures over a thousand times sea level, at hydrothermal vents that run entirely on chemistry, with no sunlight at all.",
-      "video": "hydrothermalvent_1.mp4",
-      "videoQuery": "hydrothermal vent ocean floor real footage NOAA",
+      "img": "hydrothermalvent",
+      "query": "hydrothermal vent ocean floor real photograph NOAA",
       "cap": "Real Earth life already survives 1,000+ atmospheres.",
       "tone": "curiosity"
     },
     {
       "id": "a3",
       "text": "Assuming life has to look like us even has a real name in science: carbon chauvinism, a term coined by Carl Sagan himself, who admitted even he was probably guilty of it. Astrobiologist Mike Wong, who studies exactly this question, says the real diversity of possible life in the universe is almost certainly wider than the one narrow example evolution happened to produce here on Earth.",
-      "img": "carlsagan",
-      "query": "Carl Sagan astronomer archival photograph",
+      "img": "starfield",
+      "query": "star field telescope observation real image Kepler",
       "cap": "\"Carbon chauvinism\" — coined by Carl Sagan, 1973.",
       "tone": "curiosity"
     },
@@ -250,16 +250,16 @@
     {
       "id": "a5",
       "text": "The part real experts push back on hardest isn't the biology. It's the language. In the story, two minds with zero shared biology, culture, or reference point build a working shared language astonishingly fast. Linguist Hannah Little, at the University of Liverpool, points out that even translating between two human languages takes an enormous amount of data, and working out which alien sounds even carry meaning would be, in her words, a mammoth task.",
-      "img": "linguistics",
-      "query": "linguistics research language science real photograph",
+      "img": "starfield",
+      "query": "star field telescope observation real image Kepler",
       "cap": "\"A mammoth task.\" — Dr. Hannah Little, linguist, University of Liverpool.",
       "tone": "tension"
     },
     {
       "id": "a6",
       "text": "The one part of that bridge real scientists do take seriously is starting with math and physics, the closest thing to a universal language two different minds might actually share. It's the exact principle behind the real interstellar message humanity beamed into space from the Arecibo telescope, back in nineteen seventy four.",
-      "video": "arecibo_1.mp4",
-      "videoQuery": "Arecibo Observatory radio telescope real footage",
+      "img": "deepspacestill",
+      "query": "deep space network antenna dish real photograph NASA",
       "cap": "Real precedent: the 1974 Arecibo message, built on shared math.",
       "tone": "curiosity"
     },
@@ -322,8 +322,8 @@
     {
       "id": "coda2",
       "text": "A microbe that lives inside a star will probably always be fiction. But the extremophiles it's loosely based on are real, and we're still finding stranger ones every year, in trenches, in ice, in radiation that would kill anything else we know of.",
-      "video": "hydrothermalvent_1.mp4",
-      "videoQuery": "hydrothermal vent ocean floor real footage NOAA",
+      "img": "hydrothermalvent",
+      "query": "hydrothermal vent ocean floor real photograph NOAA",
       "tone": "melancholy"
     },
     {
