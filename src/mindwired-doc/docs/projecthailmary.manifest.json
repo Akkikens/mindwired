@@ -1,0 +1,161 @@
+{
+ "durations": {
+  "h1": 10.71,
+  "h2": 12.382,
+  "h3": 12.957,
+  "h4": 17.972,
+  "sting": 1.515,
+  "title": 14.054,
+  "c1": 2.534,
+  "m1": 11.18,
+  "m2": 15.412,
+  "m3": 10.632,
+  "m4": 14.237,
+  "m5": 21.995,
+  "m6": 19.435,
+  "m7": 16.692,
+  "m8": 24.294,
+  "c2": 3.265,
+  "e1": 11.337,
+  "e2": 15.83,
+  "e3": 9.587,
+  "e4": 17.032,
+  "e5": 21.185,
+  "e6": 18.469,
+  "e7": 17.502,
+  "e8": 26.932,
+  "e9": 24.869,
+  "c3": 3.422,
+  "a1": 12.696,
+  "a2": 11.259,
+  "a3": 20.95,
+  "a4": 24.79,
+  "a5": 26.227,
+  "a6": 16.953,
+  "a7": 18.547,
+  "a8": 16.797,
+  "c4": 2.873,
+  "v1": 12.225,
+  "v2": 17.972,
+  "v3": 16.457,
+  "coda1": 9.509,
+  "coda2": 13.349,
+  "coda3": 9.012,
+  "bridge": 15.256,
+  "end": 1.75
+ },
+ "images": {
+  "centrifuge": [
+   "centrifuge_1.jpg",
+   "centrifuge_2.jpg"
+  ],
+  "deepspacestill": [
+   "deepspacestill_1.jpg",
+   "deepspacestill_2.jpg",
+   "deepspacestill_3.jpg"
+  ],
+  "exoplanetreal": [
+   "exoplanetreal_1.jpg",
+   "exoplanetreal_2.jpg"
+  ],
+  "gpssatellite": [
+   "gpssatellite_1.jpg",
+   "gpssatellite_2.jpg",
+   "gpssatellite_3.jpg"
+  ],
+  "hydrothermalvent": [
+   "hydrothermalvent_1.jpg",
+   "hydrothermalvent_2.jpg"
+  ],
+  "notebook": [
+   "notebook_1.jpg"
+  ],
+  "observatorynight": [
+   "observatorynight_1.jpg",
+   "observatorynight_2.jpg",
+   "observatorynight_3.jpg"
+  ],
+  "rocketengine": [
+   "rocketengine_1.jpg",
+   "rocketengine_2.jpg",
+   "rocketengine_3.jpg"
+  ],
+  "spacecraftshielding": [
+   "spacecraftshielding_1.jpg",
+   "spacecraftshielding_2.jpg",
+   "spacecraftshielding_3.jpg"
+  ],
+  "starfield": [
+   "starfield_1.jpg",
+   "starfield_2.jpg",
+   "starfield_3.jpg"
+  ],
+  "sunsurface": [
+   "sunsurface_1.png",
+   "sunsurface_2.jpg",
+   "sunsurface_3.jpg"
+  ],
+  "tardigrade": [
+   "tardigrade_1.jpg",
+   "tardigrade_2.jpg"
+  ],
+  "titanmoon": [
+   "titanmoon_1.jpg",
+   "titanmoon_2.jpg",
+   "titanmoon_3.jpg"
+  ],
+  "voyagerlaunch": [
+   "voyagerlaunch_1.jpg",
+   "voyagerlaunch_2.jpg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.96,
+ "polish": true,
+ "mouth": {},
+ "texthash": {
+  "h1": "5365b621207d84de",
+  "h2": "00098d10a756d875",
+  "h3": "1014b641edf13683",
+  "h4": "dcb3d8972c668128",
+  "sting": "76e56807b41f0322",
+  "title": "bda2585b8b9b434a",
+  "c1": "da773d8affb7dfb5",
+  "m1": "916002ad9f6b092a",
+  "m2": "58d3278d3ea9cc35",
+  "m3": "d2b2cc64083c385a",
+  "m4": "487586ab7e4e7274",
+  "m5": "62223c91d83c6129",
+  "m6": "cfa6e602ab8af0fa",
+  "m7": "3cc50613e0ff3096",
+  "m8": "4f92f3ca5f507fc0",
+  "c2": "2bfedb06dfe87d4c",
+  "e1": "bdc75e6fed05f2f5",
+  "e2": "0a32d0357bdaa353",
+  "e3": "b2eaace697ad20aa",
+  "e4": "15e383e2220a76cf",
+  "e5": "8c53a35dd6d255d2",
+  "e6": "d2e7d43e4393e481",
+  "e7": "e7f6890291636f0b",
+  "e8": "cbd1c5dee4e9a676",
+  "e9": "06353824feac240d",
+  "c3": "7b2916a32d792f70",
+  "a1": "e78c63637f81344a",
+  "a2": "d3ea6a3cfbf39665",
+  "a3": "b86fa30cfa180e16",
+  "a4": "4264b83b99a63b4d",
+  "a5": "2b524e840bde32d4",
+  "a6": "1beeb830e9583500",
+  "a7": "55887934614f0e6d",
+  "a8": "6d689b45d0e778ba",
+  "c4": "ba92db85eb99536e",
+  "v1": "f472ede457807a81",
+  "v2": "e25a6843322ff990",
+  "v3": "7774542789b9255d",
+  "coda1": "5f38cb4238eaed9f",
+  "coda2": "0ee3e9ac85b264c5",
+  "coda3": "c9b2ebcfac0e33e3",
+  "bridge": "298b6195a6532cfc",
+  "end": "071fe7d33b08a7c1"
+ }
+}

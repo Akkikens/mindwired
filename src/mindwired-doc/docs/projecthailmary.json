@@ -1,0 +1,353 @@
+{
+  "slug": "projecthailmary",
+  "title": "Hail Mary's Sun-Killing Microbe Might Be Real",
+  "channel": "mindwired",
+  "niche": "space",
+  "language": "en",
+  "voice": "d46abd1d-2d02-43e8-819f-51fb652c1c61",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "October nineteenth, twenty fourteen. A sunspot big enough to swallow twelve Earths crosses the sun — and from ninety three million miles away, we watch our star visibly dim.",
+      "video": "sundimming_1.mp4",
+      "videoQuery": "NASA Solar Dynamics Observatory giant sunspot solar flare real footage",
+      "cap": "Oct 19, 2014. The largest sunspot group in 24 years.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h2",
+      "text": "A decade later, one of the best selling science fiction novels in years would build its entire plot around something far stranger doing that on purpose: a living thing, riding the light of a star, slowly starving it to death.",
+      "video": "sundimming_2.mp4",
+      "videoQuery": "NASA Solar Dynamics Observatory giant sunspot solar flare real footage",
+      "cap": "Project Hail Mary: a microorganism that dims the sun.",
+      "tone": "tension"
+    },
+    {
+      "id": "h3",
+      "text": "The book is called Project Hail Mary. In twenty twenty six, it became a major motion picture. And it carries an unusual reputation: fans and critics both call it hard science fiction, the kind that shows its work.",
+      "video": "sundimming_3.mp4",
+      "videoQuery": "NASA Solar Dynamics Observatory giant sunspot solar flare real footage",
+      "cap": "Released 2026. Called \"hard sci-fi.\"",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h4",
+      "text": "So we did the version nobody on the movie's press tour had time for. We took the book's three biggest scientific claims, a microbe that can starve a star, a ship that flies at ninety four percent of the speed of light, and an alien built from a different chemistry than us, and checked every one of them against real, published science.",
+      "video": "sundimmingextra_1.mp4",
+      "videoQuery": "NASA Solar Dynamics Observatory sun solar flare real footage",
+      "cap": "3 claims. Real science. No spoilers spared.",
+      "stat": "3 CLAIMS TESTED",
+      "tone": "confidence"
+    },
+    {
+      "id": "sting",
+      "sting": true,
+      "text": "You're watching mindwired.",
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "text": "This is the real science behind Project Hail Mary: which of its ideas are grounded in real, published research, which ones bend the rules of physics on purpose, and the one honest admission its own author makes about exactly where fiction takes over.",
+      "chapter": "HAIL MARY'S SUN-KILLING\nMICROBE MIGHT BE REAL",
+      "img": "rocketengine",
+      "query": "deep space starfield stars wide shot real telescope image"
+    },
+    {
+      "id": "c1",
+      "text": "Chapter one. The thing that eats stars.",
+      "chapter": "CHAPTER ONE\nTHE THING THAT EATS STARS",
+      "img": "sunsurface",
+      "query": "sun surface solar flare NASA real photograph"
+    },
+    {
+      "id": "m1",
+      "text": "In the story, it's called astrophage: a microscopic organism that lives inside stars, feeds directly on their energy, and multiplies by the trillion, dimming its host star as it spreads.",
+      "img": "sunsurface",
+      "query": "sun corona plasma NASA real photograph",
+      "cap": "Astrophage: a microbe that lives inside stars.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "m2",
+      "text": "So we start with the real record for extreme life on Earth. The hardiest organism science has ever confirmed keeps reproducing at over two hundred fifty degrees Fahrenheit, found thriving near hydrothermal vents on the ocean floor, running entirely on chemistry, with no sunlight at all.",
+      "img": "hydrothermalvent",
+      "query": "hydrothermal vent ocean floor real photograph NOAA",
+      "cap": "Real record: ~122°C (252°F), near hydrothermal vents.",
+      "stat": "122°C REAL RECORD",
+      "tone": "curiosity"
+    },
+    {
+      "id": "m3",
+      "text": "Radiation is a different real record. A bacterium called Deinococcus radiodurans survives radiation doses roughly a thousand times what would kill a human, and keeps its DNA intact.",
+      "img": "hydrothermalvent",
+      "query": "hydrothermal vent ocean floor real photograph NOAA",
+      "cap": "Deinococcus radiodurans: survives 1,000x the human-lethal dose.",
+      "stat": "1,000x",
+      "tone": "curiosity"
+    },
+    {
+      "id": "m4",
+      "text": "Then there's the tardigrade. In a real European Space Agency experiment, it survived ten days completely exposed to the vacuum of space, no suit, no shielding, direct solar radiation, and it didn't just survive. It went on to reproduce.",
+      "img": "tardigrade",
+      "query": "tardigrade water bear microscopy real photograph",
+      "cap": "10 days in open space. Survived. ESA, 2007.",
+      "tone": "confidence"
+    },
+    {
+      "id": "m5",
+      "text": "None of that gets an organism anywhere close to living inside a star. The surface of our sun is almost ten thousand degrees Fahrenheit. Its core runs into the millions. At those temperatures matter isn't solid, or even a gas, it's plasma: atoms torn apart into bare nuclei and free electrons. There is no DNA, no cell membrane, no chemistry of any kind that survives that.",
+      "img": "sunsurface",
+      "query": "sun corona surface texture NASA real photograph",
+      "cap": "Sun's core: millions of degrees. A different state of matter.",
+      "tone": "tension"
+    },
+    {
+      "id": "m6",
+      "text": "Real stars really do dim in ways scientists can't fully explain. One of them, nicknamed Boyajian's Star, dipped in brightness by as much as twenty two percent, unexplained enough that astronomers seriously floated the idea of an alien megastructure, before settling on a far less exciting answer: probably just an unusually large amount of orbiting dust.",
+      "img": "starfield",
+      "query": "star field telescope observation real image Kepler",
+      "cap": "Boyajian's Star (KIC 8462852): real, unexplained dimming.",
+      "stat": "UP TO 22% DIMMER",
+      "tone": "curiosity"
+    },
+    {
+      "id": "m7",
+      "text": "Physicist Jacqueline McCleary, at Northeastern University, ran the numbers on astrophage specifically. Her conclusion: there are, in her words, orders of magnitude between what a microbe could ever store, and what our sun actually radiates, every second, into space.",
+      "img": "sunsurface",
+      "query": "sun solar flare energy real photograph NASA",
+      "cap": "\"Orders of magnitude mismatch.\" — Jacqueline McCleary, Northeastern University.",
+      "tone": "tension"
+    },
+    {
+      "id": "m8",
+      "text": "Here's the part that actually earns this book its reputation. Its own author doesn't dispute any of this. Andy Weir has said, on the record, that astrophage required exactly one invented rule: a fictional quirk in its cell membrane that lets it store energy no real biology could. In his words, he looked for the absolute minimum way he could break the rules, and then built everything else on top of real biology and real physics.",
+      "img": "sunsurface",
+      "query": "sun corona surface real photograph NASA",
+      "cap": "\"The absolute minimum way I can break the rules.\" — Andy Weir.",
+      "tone": "confidence"
+    },
+    {
+      "id": "c2",
+      "text": "Chapter two. The law of physics it has to break.",
+      "chapter": "CHAPTER TWO\nTHE LAW IT HAS TO BREAK",
+      "img": "rocketengine",
+      "query": "spacecraft rocket engine propulsion NASA real photograph"
+    },
+    {
+      "id": "e1",
+      "text": "The ship in the story is called the Hail Mary. Its fuel is the same organism from chapter one, burned for propulsion, and it's fast: capable of reaching roughly ninety four percent of the speed of light.",
+      "img": "rocketengine",
+      "query": "spacecraft interstellar concept illustration NASA real",
+      "cap": "94% of lightspeed.",
+      "stat": "0.94c",
+      "tone": "curiosity"
+    },
+    {
+      "id": "e2",
+      "text": "At that speed, time dilation isn't optional, it's real, measured physics. Clocks moving that fast really do run slower relative to the rest of the universe. It's been confirmed in particle accelerators, and in GPS satellites correcting for it every single day.",
+      "img": "gpssatellite",
+      "query": "GPS satellite orbit real photograph NASA",
+      "cap": "Time dilation: proven daily, in GPS satellites.",
+      "tone": "confidence"
+    },
+    {
+      "id": "e3",
+      "text": "Oxford astrophysicist Becky Smethurst checked the specific numbers this book uses for its characters aging differently than the people back on Earth. Her verdict: the timelines fully check out.",
+      "img": "notebook",
+      "query": "physics equations chalkboard real photograph science",
+      "cap": "\"The timelines fully check out.\" — Dr. Becky Smethurst, Oxford.",
+      "tone": "confidence"
+    },
+    {
+      "id": "e4",
+      "text": "So does the acceleration. The ship cruises at roughly one g, the same pull as Earth's gravity. That's not a coincidence, it's the number real physicists already use as the comfortable, survivable long haul profile for a hypothetical relativistic voyage, doubling as artificial gravity for the crew.",
+      "img": "centrifuge",
+      "query": "NASA astronaut spacewalk real photograph",
+      "cap": "1g cruise: real physicists' own benchmark number.",
+      "tone": "confidence"
+    },
+    {
+      "id": "e5",
+      "text": "Getting to ninety four percent of light speed at all is where real engineering falls far behind. Humanity's actual, seriously studied interstellar concepts don't come close: a laser driven sail aims for twenty percent of light speed, and only for a probe lighter than a paperclip. A nineteen fifties nuclear pulse design aimed for ten percent. None of them ever flew a crew.",
+      "img": "voyagerlaunch",
+      "query": "Voyager spacecraft launch real photograph NASA",
+      "cap": "Real concepts: ~10-20% lightspeed. Unmanned. Never flown.",
+      "stat": "0.94c vs ~0.20c REAL",
+      "kinetic": true,
+      "tone": "tension"
+    },
+    {
+      "id": "e6",
+      "text": "The one real mechanism with anywhere near the needed energy density is antimatter. NASA has funded real feasibility studies on it. The problem is cost: producing even a single gram is estimated to need costs to drop ten thousand times over from where they stand today, and we've only ever contained trace amounts, for minutes, at a lab in Europe.",
+      "img": "spacecraftshielding",
+      "query": "spacecraft deep space real photograph NASA",
+      "cap": "Antimatter: real physics, ~10,000x too expensive.",
+      "tone": "tension"
+    },
+    {
+      "id": "e7",
+      "text": "Physicist Chad Orzel points out the specific problem with the ship's fuel: converting mass directly into energy at anywhere near total efficiency is, in real physics, something only matter colliding with antimatter can do. He notes that even the book's own author has called his fuel organism's exact energy trick hand wavy.",
+      "img": "spacecraftshielding",
+      "query": "spacecraft deep space real photograph NASA",
+      "cap": "\"Hand-wavy.\" — physicist Chad Orzel, on the fuel mechanism.",
+      "tone": "tension"
+    },
+    {
+      "id": "e8",
+      "text": "There's also a hazard real physics can't ignore, that the story simply writes around: at those speeds, ordinary interstellar hydrogen turns into lethal radiation on impact. One physics paper puts the real safe ceiling for an unshielded ship at around half the speed of light, well under what this story's ship survives unscathed. Asked directly whether a real mission like this is possible, NASA's Lisa Carnell gave a one line answer: not right now, with any technology that currently exists.",
+      "img": "spacecraftshielding",
+      "query": "spacecraft deep space real photograph NASA",
+      "cap": "\"Isn't possible right now.\" — NASA's Lisa Carnell.",
+      "tone": "tension"
+    },
+    {
+      "id": "e9",
+      "text": "Weir himself has said this book took more research than anything he'd written before, across physics, relativity, and materials science, and that he ran all the numbers on the fuel's energy budget himself. His own framing, in an interview with astrophysicist Neil deGrasse Tyson, is that the fuel is his one deliberate cheat, chosen specifically so that everything built on top of it, the acceleration, the time dilation, the flight plan, could be calculated for real.",
+      "img": "spacecraftshielding",
+      "query": "spacecraft deep space real photograph NASA",
+      "cap": "\"I ran all the numbers.\" — Andy Weir.",
+      "tone": "confidence"
+    },
+    {
+      "id": "c3",
+      "text": "Chapter three. The friend that shouldn't be possible.",
+      "chapter": "CHAPTER THREE\nTHE FRIEND THAT SHOULDN'T BE POSSIBLE",
+      "img": "observatorynight",
+      "query": "star field telescope observation real image Kepler"
+    },
+    {
+      "id": "a1",
+      "text": "The story's most beloved character isn't human. Rocky is built from something closer to rock than flesh, evolved on a world crushed under enormous pressure, scorching hot, with a poisonous atmosphere by our standards.",
+      "img": "exoplanetreal",
+      "query": "exoplanet artist concept high pressure atmosphere NASA",
+      "cap": "Rocky: evolved for crushing pressure and heat.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2",
+      "text": "That's not as far fetched as it sounds. Real extremophiles on Earth already survive pressures over a thousand times sea level, at hydrothermal vents that run entirely on chemistry, with no sunlight at all.",
+      "img": "hydrothermalvent",
+      "query": "hydrothermal vent ocean floor real photograph NOAA",
+      "cap": "Real Earth life already survives 1,000+ atmospheres.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a3",
+      "text": "Assuming life has to look like us even has a real name in science: carbon chauvinism, a term coined by Carl Sagan himself, who admitted even he was probably guilty of it. Astrobiologist Mike Wong, who studies exactly this question, says the real diversity of possible life in the universe is almost certainly wider than the one narrow example evolution happened to produce here on Earth.",
+      "img": "starfield",
+      "query": "star field telescope observation real image Kepler",
+      "cap": "\"Carbon chauvinism\" — coined by Carl Sagan, 1973.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a4",
+      "text": "The film's marketing calls Rocky's chemistry ammonia based. That's a slight oversimplification. The real story, by the author's own account, is a water based creature that survives on a world with a thick, ammonia heavy atmosphere, not a completely different biochemistry. The idea of life actually built on ammonia instead of water is real too, a nineteen fifty four hypothesis, still unproven, usually discussed for a moon like Titan.",
+      "img": "titanmoon",
+      "query": "Titan moon Saturn atmosphere NASA real photograph",
+      "cap": "Real hypothesis: ammonia-based life (Haldane, 1954) — unproven.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a5",
+      "text": "The part real experts push back on hardest isn't the biology. It's the language. In the story, two minds with zero shared biology, culture, or reference point build a working shared language astonishingly fast. Linguist Hannah Little, at the University of Liverpool, points out that even translating between two human languages takes an enormous amount of data, and working out which alien sounds even carry meaning would be, in her words, a mammoth task.",
+      "img": "starfield",
+      "query": "star field telescope observation real image Kepler",
+      "cap": "\"A mammoth task.\" — Dr. Hannah Little, linguist, University of Liverpool.",
+      "tone": "tension"
+    },
+    {
+      "id": "a6",
+      "text": "The one part of that bridge real scientists do take seriously is starting with math and physics, the closest thing to a universal language two different minds might actually share. It's the exact principle behind the real interstellar message humanity beamed into space from the Arecibo telescope, back in nineteen seventy four.",
+      "img": "deepspacestill",
+      "query": "deep space network antenna dish real photograph NASA",
+      "cap": "Real precedent: the 1974 Arecibo message, built on shared math.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a7",
+      "text": "What is real is how carefully the character was built. Andy Weir worked directly with an astrobiologist, picked an actual candidate planet, calculated what pressure and light it would really have, and reverse engineered a creature that could plausibly survive there, down to a specific, reasoned explanation for how it produces sound at all.",
+      "img": "exoplanetreal",
+      "query": "exoplanet illustration scientific concept NASA",
+      "cap": "Built with a real astrobiologist. Reverse-engineered from real constraints.",
+      "tone": "confidence"
+    },
+    {
+      "id": "a8",
+      "text": "Even the planet itself is a small lesson in how fast real science moves. The exact real star system the author picked as a candidate home for Rocky's world has, since publication, been partly revised by newer observations. Fiction had to guess. Astronomy kept going.",
+      "img": "starfield",
+      "query": "exoplanet system illustration NASA artist concept",
+      "cap": "The real candidate system has already been revised.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c4",
+      "text": "Chapter four. So, does it hold up?",
+      "chapter": "CHAPTER FOUR\nDOES IT HOLD UP?",
+      "img": "observatorynight",
+      "query": "observatory telescope night real photograph"
+    },
+    {
+      "id": "v1",
+      "text": "Two of the most careful science outlets in the world, Scientific American and the New York Times, independently checked this entire book against real physics and biology after the movie's release. They landed in almost the same place.",
+      "img": "observatorynight",
+      "query": "science journalism research real photograph",
+      "cap": "Independently fact-checked by Scientific American and the New York Times.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "v2",
+      "text": "Their verdict: the orbital mechanics, the ship's flight plan, and the alien's biology are treated fairly, reasoned out from real constraints, about as rigorously as fiction gets. The one place the numbers genuinely don't work is the very premise the whole story is built on: a microbe with enough energy to dim a star.",
+      "img": "sunsurface",
+      "query": "sun real photograph NASA solar",
+      "cap": "The verdict: rigorous, except for one premise.",
+      "stat": "1 REAL FLAW FOUND",
+      "kinetic": true,
+      "tone": "confidence"
+    },
+    {
+      "id": "v3",
+      "text": "Which tracks with something the author has said about his own method: find the smallest possible place to break a rule of physics, and then respect every other rule as strictly as you can. Astrophage is that one break. Almost everything downstream of it is real science, pushed about as far as it can honestly go.",
+      "img": "notebook",
+      "query": "physics textbook equations science real photograph",
+      "cap": "One deliberate break. Everything else, real.",
+      "tone": "confidence"
+    },
+    {
+      "id": "coda1",
+      "text": "Here's what actually stayed with me researching this. It's not that the book gets the science right. It's how much real, published research it takes to even know exactly where it's wrong.",
+      "img": "observatorynight",
+      "query": "scientist research telescope real photograph",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda2",
+      "text": "A microbe that lives inside a star will probably always be fiction. But the extremophiles it's loosely based on are real, and we're still finding stranger ones every year, in trenches, in ice, in radiation that would kill anything else we know of.",
+      "img": "hydrothermalvent",
+      "query": "hydrothermal vent ocean floor real photograph NOAA",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda3",
+      "text": "The gap between this story and reality isn't a flaw. It's a map. It shows you exactly where the real science ends, and points at what's actually left to go discover.",
+      "img": "starfield",
+      "query": "telescope night sky observatory stars real photograph",
+      "cap": "Where the real science ends.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "bridge",
+      "text": "If a fictional microbe that can starve a star got under your skin, wait until you see the real, seventy five year old scientific argument for why, if alien life like Rocky's is really out there, we still haven't heard a single word from it. That full story is live on this channel right now.",
+      "img": "deepspacestill",
+      "query": "deep space starfield Milky Way real telescope image",
+      "cap": "Watch next: \"The Fermi Paradox.\"",
+      "tone": "curiosity"
+    },
+    {
+      "id": "end",
+      "text": "Subscribe to mindwired.",
+      "chapter": "SUBSCRIBE",
+      "img": "gpssatellite",
+      "query": "deep space starfield real telescope image"
+    }
+  ]
+}

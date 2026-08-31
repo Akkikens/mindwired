@@ -1,5 +1,78 @@
 # Topic queue (Akshay, 2026-07-12 — from YT Studio "Inspiration")
 
+## ⭐ projecthailmary (mindwired) — validated 2026-08-29, next episode
+**"The Real Science of Project Hail Mary"** — mindwired long-form, science-explainer/
+critique angle (NOT a Booked book-critique episode — format mismatch: PHM is a novel,
+not an ideas book; see below). Critique the book's real scientific/thematic claims
+(astrophage as an extremophile microorganism dimming the sun, Rocky's xenobiology,
+the Hail Mary drive, the cooperation-under-extinction thesis) against real
+astrobiology/astrophysics — which holds up vs. dramatized. Open on the 2026 movie
+release as the timely hook; **no movie footage/clips** (copyrighted, not PD/CC —
+this episode carries zero film visuals by design). Script from general knowledge of
+the novel's widely-discussed premise/plot only — never the uploaded EPUB (this
+channel's standing rule against working from a pirated source, same as Booked's).
+
+**Verdict: PASS.** Headline outlier: Storm King, 1,098,169 views / 28,900 subs =
+**38.0:1** ("The Science of Project Hail Mary's Ending," 2026-04-18, fresh) —
+https://youtu.be/DZ-FCz6lMiI. Corroboration: Storm King's own "Biology of Rocky the
+Eridian" (921,280 v / 28,900 subs = 31.9:1, https://youtu.be/ZU7XbIBiNZo — same
+channel, so weaker independence than usual); Flop Guy (325,182 v / 32,800 subs =
+9.9:1, https://youtu.be/i36GFQhAoOU); SciFi Safari (354,436 v / 35,800 subs = 9.9:1,
+https://youtu.be/-3Gmjud629s). Ceiling proof: StarTalk/Neil deGrasse Tyson,
+3,822,988 views (2026-04-14, https://youtu.be/IsoTRExywcM); Hank Green 1,625,485
+views; Think Story 1,113,449 views — multiple 1M+ on-topic.
+
+**Recognition score: 3/3.** Name test yes (bestselling novel + wide 2026 movie
+release, both independently recognizable). Mainstream footprint yes (StarTalk
+feature, mainstream press on the movie). Alive right now: yes, strongly — freshest
+wave of all topics considered this round, driven by the live movie release.
+**Ceiling class: giant-name** (bestseller + studio movie, not a niche interest).
+**Currency filter:** very high right now but time-bound to the movie's release
+window — production should not drag.
+
+**Sensitivity gate:** N/A — no real disaster, no living-victim/accused claims. The
+only care needed is IP, not safety: no film clips, and script only the book's
+publicly-discussed premise/ideas, never its actual prose.
+
+**Format note (why this isn't Booked's episode 1):** PHM was compared against three
+candidates for the new Booked channel (Atomic Habits 160:1 headline — the
+strongest of the four; 48 Laws of Power 80.9:1, pre-existing brief pick; Psychology
+of Money — sweep blocked by a YouTube anti-bot block on this session's network
+egress, unresolved). PHM's own demand cluster (ending-explained / biology-of /
+science-of content) is a science-explainer shape, not a "which ideas hold up"
+book-critique shape — so it was redirected to mindwired instead, where it fits
+the existing space/science-explainer lane directly and needs no new host asset
+(mindwired is faceless; Booked's Marlowe host is still ungenerated and unrelated
+to this episode).
+
+**LOCKED PACKAGE (ctr-engine Run A, 2026-08-29):**
+```
+Title: Hail Mary's Sun-Killing Microbe Might Be Real   (alternates: Hail Mary's Alien
+       Is More Real Than You Think / The One Law of Physics Hail Mary Breaks)
+Thumbnail: real NASA SDO photo of the Sun, one hemisphere darkened/graded to
+       suggest dimming — asset: NASA Solar Dynamics Observatory archive (PD,
+       federal work, svs.gsfc.nasa.gov). No text or "DIMMING" (7 chars).
+       Alt B: real CDC/NIH PHIL microscopy photo of a real extremophile
+       (e.g. Deinococcus radiodurans) on black — asset: CDC Public Health Image
+       Library (PD). Alt C: real ESO/Hubble star-field photo — asset: ESO
+       archive (CC-BY-4.0).
+Suggested-adjacency: Storm King "The Science of Project Hail Mary's Ending"
+       (https://youtu.be/DZ-FCz6lMiI, 1.1M) / Storm King "The Biology of Rocky
+       the Eridian" (https://youtu.be/ZU7XbIBiNZo, 921K) / StarTalk "Neil
+       deGrasse Tyson Confronts Andy Weir" (https://youtu.be/IsoTRExywcM, 3.8M)
+       / SciFi Safari "The AMAZING Biology of Rocky" (https://youtu.be/-3Gmjud629s)
+First-30s handoff: cold open must show real NASA SDO solar footage (real video,
+       not stills — satisfies the first-30s-real-video rule) while raising the
+       "could a sun-dimming microbe be real" question the thumbnail promises.
+```
+
+**Record-keeping note:** this evidence would normally be logged as an `icahn-<slug>`
+project-memory entry per icahn-validate's output contract — this session has no
+memory-write tool available and the repo itself has no `icahn-*.md` files anywhere
+(confirmed via repo-wide search), so that system lives outside this environment
+entirely. Logging the full record here instead so it's durable and inspectable.
+Ratios are point-in-time — recheck live at production start per the skill's own rule.
+
 ## ⭐ codewired — validated 2026-07-26, next episode
 **"Why Replacing Developers with AI is Going Horribly Wrong"** angle — PASS,
 3/3 recognition, headline outlier **73:1** (Mackard, 2.88M views/39.5K subs,

@@ -1,0 +1,14 @@
+- **sundimming_1.mp4** — NASA’s SDO Captures Stunning 4K View of April 17 Solar Flare — Public domain (NASA) — GSFC — https://images.nasa.gov/details/GSFC_20160426_SDO_m12224_SolarFlare_4K
+- **sundimming_2.mp4** — NASA’s SDO Captures Stunning View of April 17 Solar Flare — Public domain (NASA) — GSFC — https://images.nasa.gov/details/GSFC_20160426_SDO_m12224_SolarFlare
+- **sundimming_3.mp4** — Giant Sunspot Continues to Erupt with Substantial Flares — Public domain (NASA) — GSFC — https://images.nasa.gov/details/GSFC_20141024_SDO_m11718_Flares
+- **deepspace_1.mp4** — NASA Tech Demo Streams First Video From Deep Space Via Laser (Media Reel) — Public domain (NASA) — JPL — https://images.nasa.gov/details/JPL-20231218-DSOCf-0001-Deep Space Optical Communications First Video Transmission Media Reel
+- **hydrothermalvent_1.mp4** — NASA Science Live: Inside NASA’s Prep for the Moon, Mars, and the Search for Life — Public domain (NASA) — GSFC — https://images.nasa.gov/details/GSFC_20251210_NSL_Moon_Mars
+- **tardigrade_1.mp4** — NASA's SpaceX CRS-22 What's On Board Science Briefing — Public domain (NASA) — KSC — https://images.nasa.gov/details/KSC-20210602-VP-CDC01-0001-SpaceX_CRS_22_Whats_on_Board_Science_Briefing_WON_3276658
+- **centrifuge_1.mp4** — The Universe is Calling Apply to Be a NASA Astronaut — Public domain (NASA) — HQ — https://images.nasa.gov/details/NHQ_2024_0305_The Universe is Calling Apply to Be a NASA Astronaut
+- **voyagerlaunch_1.mp4** — Voyager 1 Team Reacts to Receiving Engineering Data From Spacecraft — Public domain (NASA) — JPL — https://images.nasa.gov/details/JPL-20240425-VOYAGEf-0001-Voyager 1 Team Reacts to Receiving Engineering Data From Spacecraft
+- **arecibo_1.mp4** — NEOWISE: Legacy of NASA’s Asteroid-Hunting Telescope — Public domain (NASA) — JPL — https://images.nasa.gov/details/JPL-20240801-NEOWISf-0001-NEOWISE Legacy of NASAs Asteroid Hunting Telescope
+- **voyagerlaunch_1.mp4** — Propylene on Titan — Public domain (NASA) — GSFC — https://images.nasa.gov/details/GSFC_20130930_Titan_m11339_Propylene
+- **centrifuge_1.mp4** — Mission Complete: NASA Names Human Exploration Rover Challenge Winners — Public domain (NASA) — MSFC — https://images.nasa.gov/details/2020_Human_Exploration_Rover_Challenge_Awards
+- **voyagerlaunch_2.mp4** — The Top 5 Solar Discoveries Number 2 — Public domain (NASA) — GSFC — https://images.nasa.gov/details/GSFC_20090318_SED_m10411_Top_5_No_2
+- **sundimmingextra_1.mp4** — SDO Sees Fiery Looping Rain on the Sun — Public domain (NASA SVS) — NASA Scientific Visualization Studio — https://svs.gsfc.nasa.gov/11168/
+- **centrifuge_2.mp4** — Artemis Human Landing System Announcement from NASA Headquarters — Public domain (NASA) — HQ — https://images.nasa.gov/details/Artemis Human Landing System Announcement from NASA Headquarters
