@@ -22,3 +22,6 @@ __pycache__/
 public/host/*_sonic.png
 !public/sfx/*.wav
 public/shorts/*/video/*.mp4
+
+# raw NTSB docket archives — refetch with scripts/fetch_ntsb_docket.py, too big for git
+public/shorts/_evidence/*/*.zip

@@ -91,9 +91,11 @@ words, lands on a noun/name/date. This sits right before the verbal-bridge + sub
 line — the cliffhanger closes THIS episode's loop, the bridge opens the next video's.
 
 ## Retention beyond the hook (updated 2026-08 against current data)
-- **This channel's ~37% average-percent-viewed on 15-25 min docs is already in the
-  "strong" band (35-45% benchmark).** Retention is NOT the bottleneck — don't
-  restructure videos around it; take only the free script-level wins below. And do
+- **This channel's ~37% average-percent-viewed on long-form docs is already in the
+  "strong" band (35-45% benchmark).** (Episodes now target 35-40 min — see
+  doc-episode Step 2 item 6 and the 2026-09-01 LONG-FORM DIAGNOSIS in
+  LAUNCH-LESSONS.md. The old "15-25 min" figure here is retired.)
+  Retention is NOT the bottleneck — don't restructure videos around it; take only the free script-level wins below. And do
   NOT add cut-count/pacing pressure: the overstimulation meta is dead (MrBeast said
   so publicly; LEMMiNO/Fern's atmospheric pacing is the current growth style).
   Invest in tension architecture, not more cuts.

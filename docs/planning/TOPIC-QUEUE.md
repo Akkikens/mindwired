@@ -1,5 +1,112 @@
 # Topic queue (Akshay, 2026-07-12 — from YT Studio "Inspiration")
 
+## ⭐⭐ colossalsquid (channel TBD) — VALIDATED 2026-09-01
+
+**"The Colossal Squid"** — earth/ocean-mystery lane. Sourced from the @sid.curious
+study (docs/planning/STUDY-sidcurious.md), whose single largest content cluster is
+deep ocean. Working angle: a creature we named in 1925, and did not see alive until
+2025 — a hundred years of knowing it only from stomach contents and corpses.
+
+> **Correction, same session:** this slot first held a Mariana Trench entry before
+> the validating session read far enough down this file to hit item 2 of the
+> ICAHN-VALIDATED list — **Mariana Trench already shipped** (METADATA-mariana.md,
+> `MarianaDoc` in Root.tsx, DimaagBatti Hindi version and Shorts all built). Same
+> near-miss the "8 Real Planets" note warns about. Deep-ocean *demand* is proven
+> (see the sweep below), but the trench itself is done; colossal squid is the
+> unshipped entry point into that cluster and was validated on its own sweep.
+
+**Verdict: PASS.** Headline outlier: BlackWater, 3,030,208 views / 32,300 subs =
+**93.8:1** ("Colossal Squid Are Everywhere. We've Been Looking Wrong",
+2026-06-11) — https://youtu.be/-W1Mwd0BWT4.
+
+**Corroboration (independent, two of them fresh):**
+- Science Revealed, 396,536 v / 19,200 subs = **20.7:1** (2025-12-18) https://youtu.be/_G7CtFCHYOY
+- OctoLab, 244,704 v / 56,800 subs = **4.3:1** (2026-07-07, "Why We Can't Find Any Colossal Squid Alive") https://youtu.be/LMYkZqumpMA
+- Museum of New Zealand Te Papa, 3,180,785 v / 68,000 subs = **46.8:1** (2013 — stale, counts as support not proof) https://youtu.be/T8GVdMJ0eds
+- NOAA Ocean Exploration, 2,779,094 v / 128,000 subs = **21.7:1** (2019) https://youtu.be/Lqim34DvCrs
+
+Discounted deliberately: Ken Shortbread 2165:1 and mrkillerdeath69 1624:1 are
+2012-13 viral clip reuploads, not topic treatments — ratio noise, not demand shape.
+
+**Ceiling proof, exact subject AND current:** **Cleo Abram, "The New Hunt for the
+Colossal Squid", 5,214,210 v (2026-03-28)** — https://youtu.be/ (sweep id, 8.64M-sub
+channel). Plus Nat Geo Animals 6,773,200 v (2025-01), AFP live-giant-squid footage
+6,942,302 v, Free Documentary 8,651,421 v, ABC News 4,903,050 v.
+
+**Recognition score: 3/3 — full greenlight.**
+1. Name test: YES. "Colossal squid" / "giant squid" is an instantly recognized noun
+   carrying kraken mythology. No recognition bridge needed.
+2. Mainstream footprint: YES. ABC News, AFP, Nat Geo, and a 5.2M-view Cleo Abram
+   feature five months ago.
+3. Alive right now: YES. Four of the outliers are from Dec 2025 onward.
+
+**Currency filter (Q4): passes on a real open story**, not just fresh uploads. The
+colossal squid was filmed alive for the first time in 2025, 100 years after being
+named; no full-grown adult has ever been seen in its habitat, and expeditions are
+actively looking. Genuine forward momentum.
+
+**Ceiling class: giant-name** (borderline — carried by kraken recognition rather
+than by the species' own name).
+
+**Sensitivity gate: N/A.** No disaster, no living parties, no open investigation.
+
+**Footage note (owed before scripting, NOT yet probed):** Schmidt Ocean Institute
+released the 2025 live-colossal-squid footage and generally licenses ROV material
+CC-BY; NOAA Ocean Exploration is US federal = public domain; Te Papa holds the
+specimen material. Prospects look good but **no licence probe has been run** —
+run one before a single scene is written.
+
+**LOCKED PACKAGE (ctr-engine Run A, 2026-09-01):**
+```
+Title: Nobody Has Ever Seen a Full-Grown Colossal Squid   (47 chars)
+  alternates: 100 Years of Corpses. One Living Squid.   (39)
+              Why the Colossal Squid Still Hides From Us  (42)
+  Scored 8.75/10 avg (curiosity gap 9 / first-3-words 9 / payoff honesty 9 /
+  mobile length 8). Negative-emotion statement, no ALL-CAPS, no question mark,
+  and critically it does NOT resolve the mystery — the 2026-09-01 title-stance
+  rule in LAUNCH-LESSONS (mindwired's Bermuda debunk title got 176 views).
+
+Thumbnail A (winner): the colossal squid's tentacular club — the rotating hooks,
+  lit hard against a dark museum ground. Zero text. One dominant alien shape that
+  nobody can identify at 170px, which IS the curiosity gap. House style 2.0
+  compliant (no text, peak brightness on the focal subject, dark cinematic).
+  asset: File:Colossal squid tentacular club, NHM (1).jpg — CC BY-SA 4.0,
+  2736x3648, by Mgiganteus1 — PROBED OK 2026-09-01 via Commons API.
+Thumbnail B (Test & Compare variant): the Te Papa preserved specimen in its tank.
+  asset: File:Colossal squid in Te Papa.jpg — CC BY-SA 4.0, 3024x4032 — PROBED OK.
+Thumbnail C (fallback): size comparison against a human diver.
+  asset: File:Calmarcolossal.jpg — CC BY 3.0, 3500x5008 — PROBED OK.
+
+Suggested-adjacency: Cleo Abram "The New Hunt for the Colossal Squid" (5.21M,
+  2026-03-28) / BlackWater "Colossal Squid Are Everywhere" (3.03M, 2026-06-11) /
+  YESTERDAY "Why the Mariana Trench Still Terrifies Scientists" (1.99M, 2026-08-10)
+
+First-30s handoff: the cold open must deliver the thumbnail's promise — the hooks —
+  and per CLAUDE.md's hardest retention rule it must be REAL MOTION FOOTAGE ONLY.
+  So: real deep-sea ROV motion footage (NOAA, public domain) with the NHM hook
+  still composited INTO the moving frame, never a full-frame still beat.
+```
+
+**⚠ FOOTAGE BLOCKER (probed 2026-09-01, needs Akshay):** the 2025 first-ever live
+footage — the episode's news peg and its emotional hero beat — belongs to **Schmidt
+Ocean Institute and is licensed CC BY-NC-SA 4.0. Non-commercial.** A monetised
+YouTube upload is commercial use, so the open licence does NOT cover us. SOI runs a
+formal permissions process at https://schmidtocean.org/footage-requests-and-consent/
+and grants uses outside the CC terms on request — but only a human can file that
+request, and it needs lead time. Until it clears, the 2025 footage is
+**describable but not showable**.
+What IS cleared and commercially usable (all probed live via the Commons API):
+Te Papa preserved specimen (CC BY-SA 3.0 + 4.0), NHM beak and tentacular club
+(CC BY-SA 4.0), size-comparison illustration (CC BY 3.0), plus NOAA Ocean
+Exploration ROV footage (US federal, public domain) for all generic deep-sea motion.
+
+**Status: validated, NOT started. Channel undecided** — this validation was run
+before Akshay's 2026-09-01 question about repointing DimaagBatti to the
+@sid.curious format. Per CLAUDE.md, the channel decision comes before the first
+render, and it is open. See STUDY-sidcurious.md.
+
+---
+
 ## ⭐ projecthailmary (mindwired) — validated 2026-08-29, next episode
 **"The Real Science of Project Hail Mary"** — mindwired long-form, science-explainer/
 critique angle (NOT a Booked book-critique episode — format mismatch: PHM is a novel,
@@ -1268,3 +1375,57 @@ Christiansen, the 2018 Rackstraw claims, etc.) stays attributed-never-
 asserted. This is a demand-override production, not a validated one —
 expect a smaller impressions pool per the topic-demand mechanics documented
 in icahn-validate; do not overclaim in the title.
+
+## ⭐ IN PRODUCTION 2026-08-31 — DCA / Potomac midair collision (Flight 5342 × PAT25), Black Box Breakdown
+
+**Icahn verdict: FAIL on the ratio gate — GO by Akshay's explicit override**
+(second documented override after D.B. Cooper). Two live yt-dlp sweeps found
+**zero** small-channel outliers: every sub-100K-sub attempt is under 5K views
+(Plane Crash Hub 472v, Mayday Investigations 3,467v, AVIAZIO 962v). Big
+channels ate the topic in real time — AiTelly 9,999,426v/2.03M subs, Captain
+Steeeve 4,793,796v/1.15M, WSJ 2,607,282v, Two Bit da Vinci 1,767,108v,
+Mentour Pilot 1,012,794v (May 2026). Demand is proven and enormous;
+**unserved** demand is what's missing, and that's what the ratio test measures.
+
+**Override rationale:** the topic was chosen for evidence, not ratio. Akshay's
+brief was "real data, real vids, real cockpit voice black box, first 30 sec
+best in the whole world" — and **NTSB docket DCA25MA108 is the richest
+aviation evidence package in existence**, 267 items, all federal PD. Every
+competing video on this topic is commentary; nobody has built the episode out
+of the docket itself (the Titanic inquiry-as-evidence differentiation).
+Recognition 3/3, ceiling 10M. Jeju Air 2216 — which PASSED the gate cleanly
+(54:1 @516K, 2.3M ceiling, suppressed-report hook) — was considered first and
+**deferred to the Dec 29 two-year anniversary**, because its recorders stopped
+4 minutes before impact, ARAIB releases no audio, and all its footage is
+broadcast-owned. Keep Jeju queued as the next Black Box aviation slot.
+
+**Evidence on disk** (`public/shorts/_evidence/dcamidair/`, 5.4 GB + SOURCES.md,
+22 files): 10 channels of real tower audio (730 MB WAV), Black Hawk CVR
+transcript, NTSB cockpit-visibility reconstructions for both aircraft (3.7 GB),
+real **4K** night video of the approach corridor, 25 min of real radar scope
+showing the conflict alert naming both aircraft, TCAS displays, ADS-B data,
+CDTI sims, plus final report **AIR-26-02**. Fact base:
+`docs/planning/CLAIMS-dcamidair.md` (every causal claim primary-sourced).
+Exhibit PNGs already cut to `public/shorts/dcamidair/images/`.
+
+**The spine (all primary):** "pass behind the CRJ" was cut out by a
+0.8-second mic key from PAT25 itself; degraded radio reception meant the crew
+never learned the jet was circling to runway 33, so they reported "traffic in
+sight" without positively identifying the airplane; the route had no charted
+width; the controller's display rounds every altitude to 100 ft; and there had
+already been **15,214 close-proximity events at DCA (85 inside 1,500 ft
+lateral / 200 ft vertical)** between Oct 2021 and Dec 2024.
+
+**Sensitivity: HIGH.** 67 dead incl. young figure skaters; active civil
+litigation; a named living controller and living Army personnel. NTSB named
+the helicopter crew's ineffective visual separation as ONE cause among several
+— script the probable cause in the NTSB's own order, never reduce it to crew
+error, never sanitise the crew finding out. No CVR audio exists or will be
+used (transcript only, labeled "CVR RECREATION"); tower audio is real and
+labeled "ACTUAL ATC RECORDING". Zero broadcast footage, including the
+Kennedy Center webcam clip.
+
+**LOCKED PACKAGE:** title "The Words That Never Reached the Black Hawk" (A/B:
+"They Said They Had It in Sight. They Didn't." / "85 Times It Nearly Happened
+Over the Potomac"); thumbnail A = crop of the real STARS radar scope with the
+conflict alert naming both aircraft. Full record: memory `icahn-dcamidair`.

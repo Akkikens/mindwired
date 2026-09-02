@@ -94,9 +94,25 @@ Doc-level fields: `{slug, title, channel, niche, language, voice: "d46abd1d-2d02
    video + subscribe (single-video end screens ≈ double 4-grid CTR) — so name a
    video that's actually live.
 5. Speak the searchable proper nouns early and often — the transcript is a
-   search/AI-answer index now. Keep episode length wherever the story lands
-   (15-25 min is fine; do NOT shorten to chase retention % — 37% APV is already the
-   strong band, and absolute watch minutes win).
+   search/AI-answer index now.
+6. **LENGTH: target 35-40 minutes. This is a hard target, not a preference**
+   (Akshay, 2026-09-01; evidence in docs/planning/LAUNCH-LESSONS.md "LONG-FORM
+   DIAGNOSIS"). The previous guidance here said "15-25 min is fine" — that is
+   RETIRED. Why: @official-yesterday's 19 uploads are ALL 31-43 min with median
+   views 383,507, while Mindwired's median duration is 13m43s with median views
+   169 — and on the two topics BOTH channels covered, the head-to-head is
+   176 v (21m34s) against 1,333,269 v (34m29s) on Bermuda Triangle, and
+   195 v (7m51s) against 1,993,872 v (32m22s) on the Mariana Trench. Mindwired's
+   own single hit, "21 Astronauts" at 79,672 views (90% of all channel views
+   ever), is its longest real doc at 49m11s.
+   Corollaries: still do NOT shorten to chase retention % (37% APV is the strong
+   band and absolute watch minutes win) — but do NOT ship a 10-minute doc either.
+   A story that genuinely cannot carry 35 minutes is a signal the TOPIC is too
+   thin; take it back to icahn-validate rather than padding it.
+   **Cadence pairs with this: one episode every 2-3 weeks.** Mindwired shipped 26
+   long-forms in July 2026 and 16 in August; YESTERDAY shipped 19 in nine months.
+   Bursts split every test pool. Do not queue a second episode to render while
+   this one is still inside its 48h diagnosis window.
 
 **Scene craft fields** (all real — see `spaceshuttle.json`/`marsone.json`):
 `id, text, img, query, video, videoQuery, exhibit, source, highlight, kinetic, motion

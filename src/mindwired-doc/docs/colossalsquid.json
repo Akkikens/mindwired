@@ -1,0 +1,2024 @@
+{
+ "slug": "colossalsquid",
+ "title": "Nobody Has Ever Seen a Full-Grown Colossal Squid",
+ "channel": "mindwired",
+ "niche": "ocean",
+ "language": "en",
+ "voice": "d46abd1d-2d02-43e8-819f-51fb652c1c61",
+ "scenes": [
+  {
+   "id": "h1",
+   "text": "It is the second week of March, twenty twenty five. Two of the world's leading squid scientists have just come off a ship, and they have failed.",
+   "videoQuery": "deep sea abyssal plain ROV footage darkness",
+   "cap": "Southern Argentina · March 2025",
+   "tone": "neutral",
+   "note": "Ifremer 'Fond abyssal' 00701-81314, CC BY 4.0 | real footage: ifremer_abyss",
+   "video": "co_abyss_open.mp4"
+  },
+  {
+   "id": "h2",
+   "text": "For five weeks they had been lowering a camera into the Southern Ocean. A rig built for one purpose.",
+   "videoQuery": "ROV submersible launch over side of research vessel",
+   "tone": "tension",
+   "note": "Ifremer 'Mise en oeuvre du ROV Victor 6000' 00641-75275, CC BY 4.0 | real footage: ifremer_rovarm",
+   "video": "co_rov_rig.mp4"
+  },
+  {
+   "id": "h3",
+   "text": "To film a full-grown colossal squid. The heaviest invertebrate on Earth.",
+   "videoQuery": "deep sea submersible descending into dark water",
+   "tone": "tension",
+   "video": "co_squid_target.mp4",
+   "note": "real footage: noaa_glasssquid"
+  },
+  {
+   "id": "h4",
+   "text": "Nobody had ever done it. Not once in a hundred years.",
+   "videoQuery": "black deep ocean water column no light",
+   "cap": "100 years. Zero sightings.",
+   "tone": "tension",
+   "stat": "1925 – 2025",
+   "video": "co_abyss_empty.mp4",
+   "note": "real footage: ifremer_abyss"
+  },
+  {
+   "id": "h5",
+   "text": "They didn't do it either. The gear was packed. They had said their goodbyes to everybody.",
+   "videoQuery": "research vessel deck equipment cases Antarctic",
+   "tone": "somber",
+   "video": "co_rov_packed.mp4",
+   "extraHold": 30,
+   "note": "real footage: ifremer_rovarm"
+  },
+  {
+   "id": "h6",
+   "text": "And then, in a rented flat in southern Argentina, Kat Bolstad opened a file.",
+   "videoQuery": "laptop screen glow dark room",
+   "tone": "neutral",
+   "cap": "Dr Kat Bolstad · Auckland University of Technology",
+   "video": "co_snow_file.mp4",
+   "note": "real footage: ifremer_abyssfish"
+  },
+  {
+   "id": "h7",
+   "text": "In her own words. There was a moment. It was a very specific moment.",
+   "videoQuery": "deep sea water column particles marine snow",
+   "tone": "tension",
+   "cap": "Bolstad, Science Friday, 18 Apr 2025",
+   "source": "Science Friday, 18 April 2025",
+   "video": "co_snow_moment.mp4",
+   "note": "real footage: ifremer_abyssfish"
+  },
+  {
+   "id": "h8",
+   "text": "A low resolution clip. Something pale, drifting at six hundred metres, filmed the day before by somebody else's robot, on a different ocean.",
+   "videoQuery": "glass squid transparent deep sea ROV footage",
+   "tone": "tension",
+   "note": "NOAA glass squid Taonius borealis, PUBLIC DOMAIN — the family stand-in | real footage: noaa_glasssquid",
+   "video": "co_squid_lowres.mp4"
+  },
+  {
+   "id": "h9",
+   "text": "She could not be sure. In this family of squid, almost everything looks like almost everything else.",
+   "videoQuery": "transparent glass squid deep sea drifting",
+   "tone": "tension",
+   "video": "co_squid_unsure.mp4",
+   "note": "real footage: noaa_glasssquid"
+  },
+  {
+   "id": "h10",
+   "text": "So she asked for the high resolution version. And she went looking for hooks.",
+   "img": "hooks_club",
+   "query": "colossal squid tentacular club hooks specimen",
+   "tone": "tension",
+   "note": "File:Colossal squid tentacular club, NHM (1).jpg CC BY-SA 4.0 — THUMBNAIL PAYOFF, composite over motion, never full-frame still",
+   "extraHold": 36
+  },
+  {
+   "id": "h11",
+   "text": "Suckers near the beak. Then hooks midway along the arm. Then suckers again toward the tips. Nothing else on Earth is built that way.",
+   "img": "hooks_club",
+   "query": "squid arm hooks close up specimen jar",
+   "tone": "tension",
+   "cap": "The only squid built this way",
+   "source": "Bolstad, Science Friday, 2025",
+   "extraHold": 36
+  },
+  {
+   "id": "h12",
+   "text": "And I was like, yeah, they've got it.",
+   "videoQuery": "glass squid transparent deep sea",
+   "tone": "reveal",
+   "cap": "Bolstad · Science Friday",
+   "video": "co_squid_confirm.mp4",
+   "extraHold": 18,
+   "note": "real footage: noaa_glasssquid"
+  },
+  {
+   "id": "h13",
+   "text": "Her colleague Aaron Evans put it more plainly. I started hyperventilating.",
+   "videoQuery": "deep sea ROV lights in dark water",
+   "tone": "reveal",
+   "cap": "Dr Aaron Evans",
+   "source": "ScienceAlert, 16 April 2025",
+   "video": "co_rov_react.mp4",
+   "extraHold": 18,
+   "note": "real footage: ifremer_rovarm"
+  },
+  {
+   "id": "h14",
+   "text": "After one hundred years of corpses, we finally had one alive.",
+   "videoQuery": "glass squid transparent juvenile deep sea",
+   "tone": "reveal",
+   "video": "co_squid_alive.mp4",
+   "extraHold": 18,
+   "note": "real footage: noaa_glasssquid"
+  },
+  {
+   "id": "h15",
+   "text": "It was thirty centimetres long. It was a baby.",
+   "videoQuery": "small transparent squid deep sea drifting",
+   "cap": "~30 cm · 600 m · 9 March 2025",
+   "tone": "reveal",
+   "stat": "30 CENTIMETRES",
+   "video": "co_squid_baby.mp4",
+   "extraHold": 18,
+   "note": "real footage: noaa_glasssquid"
+  },
+  {
+   "id": "h16",
+   "text": "And the adult, the four hundred and ninety five kilogram animal this species is famous for, has still never been seen alive by anyone.",
+   "videoQuery": "dark deep ocean empty water column",
+   "tone": "somber",
+   "sting": true,
+   "video": "co_abyss_never.mp4",
+   "extraHold": 45,
+   "note": "real footage: ifremer_abyss"
+  },
+  {
+   "id": "title",
+   "text": "This is the story of an animal we named a hundred years ago, from two crowns of arms cut out of a sperm whale's stomach. And of the one hundred years we spent never seeing a grown one.",
+   "img": "hooks_club",
+   "tone": "neutral",
+   "extraHold": 36,
+   "chapter": "NOBODY HAS EVER SEEN\nA FULL-GROWN COLOSSAL SQUID"
+  },
+  {
+   "id": "c1",
+   "chapter": "WHAT THE WHALE WAS CARRYING",
+   "text": "Chapter one. What the whale was carrying.",
+   "img": "binnie_kaskelot",
+   "query": "sperm whale whaling South Georgia 1920s",
+   "extraHold": 24
+  },
+  {
+   "id": "a1_1",
+   "text": "Start with the thing that makes this animal different from every other famous creature in the sea. We did not find it. We found it inside something else.",
+   "img": "binnie_kaskelot",
+   "query": "captured sperm whale whaling station 1920s photograph",
+   "tone": "somber",
+   "note": "Binnie collection DIG132611 'Fångad kaskelot', Public Domain Mark",
+   "extraHold": 36
+  },
+  {
+   "id": "a1_2",
+   "text": "The winter of nineteen twenty four. South Georgia, in the far south Atlantic, is the centre of the world's whaling industry.",
+   "img": "binnie_leith",
+   "query": "Leith Harbour South Georgia whaling station historic",
+   "tone": "somber",
+   "note": "Binnie DIG132412, PDM",
+   "extraHold": 36
+  },
+  {
+   "id": "a1_3",
+   "text": "Men are cutting open sperm whales on an industrial scale. And inside the stomachs, again and again, they are finding parts of something they cannot name.",
+   "img": "binnie_grytviken",
+   "query": "dead whales Grytviken whaling station historic photograph",
+   "tone": "somber",
+   "note": "Binnie DIG132556, PDM",
+   "extraHold": 36
+  },
+  {
+   "id": "a1_4",
+   "text": "Two of those parts reach the British Museum in London.",
+   "img": "nhm_headlimbs",
+   "query": "Natural History Museum London spirit collection specimen jars",
+   "tone": "neutral",
+   "extraHold": 36,
+   "note": "img remapped: no honest nhm_specimen asset exists — the real NHM colossal squid material arriving in London"
+  },
+  {
+   "id": "a1_5",
+   "text": "Not tentacles. Not beaks. Two crowns of arms, from two different animals, cut out of a sperm whale's stomach.",
+   "img": "nhm_headlimbs",
+   "query": "colossal squid arms specimen preserved museum",
+   "tone": "neutral",
+   "cap": "Two arm crowns. Two animals.",
+   "stat": "THE ENTIRE SPECIES, 1925",
+   "extraHold": 36
+  },
+  {
+   "id": "a1_6",
+   "text": "A zoologist named Guy Coburn Robson describes them in nineteen twenty five, in the Annals and Magazine of Natural History.",
+   "img": "binnie_leith",
+   "query": "1925 scientific paper zoology journal page",
+   "tone": "neutral",
+   "cap": "Robson, G. C. (1925) · Ann. Mag. Nat. Hist. ser. 9, vol. 16",
+   "source": "Robson 1925, pp. 272–277",
+   "extraHold": 36,
+   "note": "img remapped: no honest nhm_specimen asset exists — period South Georgia - where the whale was taken"
+  },
+  {
+   "id": "a1_7",
+   "text": "He gives it a genus of its own. Mesonychoteuthis. It means, roughly, middle claw squid. Remember that. It will matter a hundred years later.",
+   "img": "hooks_club",
+   "query": "squid hooks specimen close up",
+   "tone": "tension",
+   "cap": "Mesonychoteuthis · \"middle-claw squid\"",
+   "extraHold": 36
+  },
+  {
+   "id": "a1_8",
+   "text": "The species name honours a man called Hamilton. Almost certainly James Erik Hamilton, the Falkland Islands government naturalist, who spent whaling seasons living on Deception Island and shipping specimens back to London.",
+   "img": "binnie_leith",
+   "query": "Antarctic naturalist 1920s whaling station portrait",
+   "tone": "neutral",
+   "note": "PARTLY VERIFIED per CLAIMS C1.3 — circumstantial, do not assert as documented",
+   "extraHold": 36
+  },
+  {
+   "id": "a1_9",
+   "text": "Almost certainly. Robson's own paper is not something we could read. There is no open scan of it anywhere.",
+   "img": "binnie_grytviken",
+   "query": "old scientific journal archive library shelves",
+   "tone": "neutral",
+   "extraHold": 36,
+   "note": "img remapped: no honest nhm_specimen asset exists — period whaling station; no scan of Robson's paper exists"
+  },
+  {
+   "id": "a1_10",
+   "text": "We are not even certain where the whale was killed. One source says fifty miles north of Smith Island, in the South Shetlands. Another says the Falklands. Those are fifteen hundred kilometres apart.",
+   "img": "antarctic_map",
+   "query": "Antarctic regions historic map South Shetlands",
+   "tone": "neutral",
+   "cap": "South Shetlands? Falklands?",
+   "note": "File:The Antarctic Regions. LOC 2002624039.tif, PD",
+   "extraHold": 36
+  },
+  {
+   "id": "a1_11",
+   "text": "The likeliest answer is boring and human. In nineteen twenty five the South Shetlands were administered as the Falkland Islands Dependencies. Somewhere along the line, a filing label became a location.",
+   "img": "antarctic_map",
+   "query": "historic Antarctic territorial map 1920s",
+   "tone": "neutral",
+   "extraHold": 36
+  },
+  {
+   "id": "a1_12",
+   "text": "That is the founding record of the largest invertebrate on the planet. Two sets of arms, an uncertain map reference, and a paper almost nobody has read.",
+   "img": "nhm_headlimbs",
+   "query": "museum specimen preserved squid arms jar",
+   "tone": "somber",
+   "extraHold": 36
+  },
+  {
+   "id": "c2",
+   "chapter": "HOW MANY HAVE WE ACTUALLY FOUND",
+   "text": "Chapter two. How many have we actually found.",
+   "img": "nhm_beak",
+   "query": "colossal squid beak specimen museum",
+   "extraHold": 24
+  },
+  {
+   "id": "a1_13",
+   "text": "Here is a question that sounds simple. How many colossal squid have humans ever found?",
+   "img": "nhm_beak",
+   "query": "colossal squid beak black chitin specimen",
+   "tone": "neutral",
+   "extraHold": 36
+  },
+  {
+   "id": "a1_14",
+   "text": "Te Papa, the museum in New Zealand that holds the most famous specimen, says eight adults. Six of them out of sperm whale stomachs.",
+   "img": "tepapa_specimen",
+   "query": "colossal squid museum display tank New Zealand",
+   "tone": "neutral",
+   "stat": "8 ADULTS",
+   "extraHold": 36
+  },
+  {
+   "id": "a1_15",
+   "text": "A twenty fifteen audit of ocean giants counts twelve complete specimens, half of them juveniles, plus fifty five records that are nothing but a beak.",
+   "img": "nhm_beak",
+   "query": "cephalopod beaks collection scientific specimens",
+   "tone": "neutral",
+   "stat": "12 COMPLETE",
+   "source": "McClain et al. 2015, PeerJ 3:e715",
+   "extraHold": 36
+  },
+  {
+   "id": "a1_16",
+   "text": "A review of the species counts about a hundred and fifty five animals caught in nets. Another paper counts a hundred and eighty eight positions on a map.",
+   "img": "squid_map",
+   "query": "Southern Ocean distribution map species range",
+   "tone": "neutral",
+   "stat": "155 · 188",
+   "extraHold": 36
+  },
+  {
+   "id": "a1_17",
+   "text": "Every one of those numbers is correct. They are counting different things. Bodies. Arm crowns. Beaks.",
+   "img": "nhm_beak",
+   "query": "scientific specimen collection drawers",
+   "tone": "neutral",
+   "extraHold": 36
+  },
+  {
+   "id": "a1_18",
+   "text": "And the beaks multiply fast. One study of sleeper sharks off the Kerguelen Islands pulled eighty nine beaks out of twenty two sharks. At least forty nine individual squid.",
+   "videoQuery": "sleeper shark deep sea",
+   "tone": "tension",
+   "stat": "89 BEAKS · 49 SQUID",
+   "source": "Cherel & Duhamel 2004, Deep-Sea Research I",
+   "video": "sleeper_shark_deep_1.mp4"
+  },
+  {
+   "id": "a1_19",
+   "text": "One paper, one shark's stomach at a time, out-counting every intact colossal squid ever recovered.",
+   "img": "nhm_beak",
+   "query": "squid beaks laid out scientific study",
+   "tone": "tension",
+   "extraHold": 36
+  },
+  {
+   "id": "a1_20",
+   "text": "So the honest answer is a range. Somewhere between eight and a dozen complete or adult animals, against roughly a hundred and fifty netted juveniles, and hundreds of beaks pulled out of things that ate them.",
+   "img": "squid_size",
+   "query": "colossal squid size comparison diagram",
+   "tone": "neutral"
+  },
+  {
+   "id": "a1_21",
+   "text": "The largest invertebrate on Earth. In a hundred years, we have collected fewer whole adults than you have fingers.",
+   "img": "hooks_club",
+   "query": "colossal squid preserved specimen museum",
+   "tone": "somber",
+   "extraHold": 36
+  },
+  {
+   "id": "c3",
+   "chapter": "THE ONES WE NEVER CAUGHT",
+   "text": "Chapter three. The ones we never caught.",
+   "extraHold": 24,
+   "img": "longline"
+  },
+  {
+   "id": "a1_22",
+   "text": "And there is a pattern in the ones we did get, which nobody planned and everybody noticed.",
+   "videoQuery": "research vessel net haul deck ocean",
+   "tone": "neutral",
+   "video": "rep_ocean_0_2.mp4",
+   "note": "replaced foreign-subject stock with real ifremer_abyss"
+  },
+  {
+   "id": "a1_23",
+   "text": "Between nineteen sixty two and nineteen eighty five, research nets brought up thirty three young colossal squid. Their mantles ran from three millimetres to a hundred and forty six.",
+   "videoQuery": "plankton net sample marine research",
+   "tone": "neutral",
+   "stat": "3 mm – 146 mm",
+   "video": "plankton_net_sample_1.mp4"
+  },
+  {
+   "id": "a1_24",
+   "text": "The smallest whole animal on record is a larva twenty three millimetres long. You could lose it in your hand.",
+   "videoQuery": "tiny transparent larval squid microscope",
+   "tone": "neutral",
+   "video": "tiny_transparent_larval_1.mp4"
+  },
+  {
+   "id": "a1_25",
+   "text": "Nets catch babies. Nets almost never catch adults.",
+   "videoQuery": "deep sea trawl net underwater",
+   "tone": "tension",
+   "cap": "Nets catch babies.",
+   "video": "deep_sea_trawl_1.mp4"
+  },
+  {
+   "id": "a1_26",
+   "text": "Nearly every large colossal squid we have ever held came up on a fishing line, or came out of a predator's stomach. Not one was found because somebody went looking for it.",
+   "videoQuery": "longline fishing vessel Southern Ocean",
+   "tone": "tension",
+   "video": "longline_fishing_vessel_1.mp4"
+  },
+  {
+   "id": "a1_27",
+   "text": "And there is one more thing in the record that is genuinely strange.",
+   "img": "squid_size",
+   "query": "colossal squid specimen museum tank",
+   "tone": "tension",
+   "extraHold": 36
+  },
+  {
+   "id": "a1_28",
+   "text": "Of the large specimens, essentially all of them are female. A mature male appears exactly once, among partial remains at the Smithsonian.",
+   "img": "tepapa_specimen",
+   "query": "colossal squid specimen preserved",
+   "tone": "tension",
+   "stat": "ONE MALE. EVER.",
+   "cap": "Every large specimen: female",
+   "extraHold": 36
+  },
+  {
+   "id": "a1_29",
+   "text": "We have never properly seen a grown male of the heaviest invertebrate on the planet. We do not know where they are.",
+   "videoQuery": "empty dark deep ocean water",
+   "tone": "somber",
+   "video": "empty_dark_deep_1.mp4",
+   "extraHold": 30
+  },
+  {
+   "id": "c4",
+   "chapter": "THE SQUID THAT SHRANK SIX METRES",
+   "text": "Chapter four. The squid that shrank six metres.",
+   "extraHold": 24,
+   "img": "longline"
+  },
+  {
+   "id": "a2_1",
+   "text": "February, two thousand and seven. The Ross Sea, Antarctica. A New Zealand longliner called the San Aspiring is fishing for Antarctic toothfish.",
+   "videoQuery": "longline fishing vessel Antarctic Southern Ocean",
+   "cap": "Ross Sea · February 2007",
+   "tone": "neutral",
+   "video": "longline_fishing_vessel_2.mp4"
+  },
+  {
+   "id": "a2_2",
+   "text": "Fifteen hundred metres down, something takes hold of a toothfish that is already on the hook. And it will not let go.",
+   "videoQuery": "fishing line hauling deep water",
+   "tone": "tension",
+   "stat": "1,500 METRES",
+   "video": "fishing_line_hauling_1.mp4"
+  },
+  {
+   "id": "a2_3",
+   "text": "It rides the line all the way to the surface.",
+   "videoQuery": "fishing line hauling from ocean depth vessel",
+   "tone": "tension",
+   "video": "fishing_line_hauling_1.mp4"
+  },
+  {
+   "id": "a2_4",
+   "text": "Nine men. Roughly two hours. In Antarctic water, they get it aboard with a crane and a cargo net.",
+   "videoQuery": "crane lifting catch onto fishing vessel deck",
+   "tone": "tension",
+   "cap": "Nine crew. Two hours.",
+   "video": "rep_ship_0_12.mp4",
+   "note": "replaced foreign-subject stock with real ifremer_rovarm"
+  },
+  {
+   "id": "a2_5",
+   "text": "It is the first mature colossal squid ever recovered intact. It is, still today, the heaviest cephalopod anyone has ever documented.",
+   "img": "toothfish",
+   "query": "colossal squid specimen on deck fishing vessel",
+   "tone": "reveal",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_6",
+   "text": "At sea, they estimate it at eight to ten metres long.",
+   "videoQuery": "large squid on fishing vessel deck",
+   "tone": "reveal",
+   "stat": "8–10 METRES",
+   "video": "large_squid_fishing_1.mp4",
+   "extraHold": 18
+  },
+  {
+   "id": "a2_7",
+   "text": "It is gifted to Te Papa, the national museum in Wellington, and frozen. It stays frozen for fourteen months.",
+   "img": "tepapa_specimen",
+   "query": "museum freezer specimen storage",
+   "tone": "neutral",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_8",
+   "text": "In April two thousand and eight, they thaw it out and measure it properly. Four point two metres.",
+   "img": "nhm_headlimbs",
+   "query": "colossal squid specimen examination museum scientists",
+   "tone": "reveal",
+   "stat": "4.2 METRES",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_9",
+   "text": "The same animal. Six metres shorter.",
+   "img": "hooks_club",
+   "query": "colossal squid museum display",
+   "tone": "tension",
+   "cap": "Same animal.",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_10",
+   "text": "Nobody lied. Squid tentacles shorten and shrink after death. Commercial squid tissue can lose up to twenty two percent to dehydration, and this one spent fourteen months in a freezer.",
+   "img": "tepapa_specimen",
+   "query": "preserved squid specimen tank museum",
+   "tone": "neutral",
+   "stat": "UP TO 22% SHRINKAGE",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_11",
+   "text": "Which means the ten metre monster in the two thousand and seven headlines, and the four metre animal in the case in Wellington, are the same creature. Both numbers are honest.",
+   "img": "architeuthis",
+   "query": "colossal squid museum exhibit visitors",
+   "tone": "neutral",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_12",
+   "text": "This is the first thing to understand about the colossal squid. Almost every number attached to it is softer than it sounds.",
+   "img": "squid_size",
+   "query": "squid size comparison human diagram",
+   "tone": "somber",
+   "extraHold": 30
+  },
+  {
+   "id": "c5",
+   "chapter": "LENGTH IS A LIE",
+   "text": "Chapter five. Length is a lie.",
+   "img": "squid_size",
+   "query": "colossal squid scale comparison",
+   "extraHold": 24
+  },
+  {
+   "id": "a2_13",
+   "text": "Weight is where this animal is genuinely extraordinary. Fully thawed, that squid weighed four hundred and ninety five kilograms.",
+   "img": "longline",
+   "query": "colossal squid weighing museum specimen",
+   "tone": "reveal",
+   "stat": "495 KG",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_14",
+   "text": "Though even there, be careful. Te Papa's own pages give about four hundred and seventy kilograms as the estimate for the animal in life, and four hundred and ninety five with ice.",
+   "img": "tepapa_specimen",
+   "query": "museum specimen documentation",
+   "tone": "neutral",
+   "cap": "470–495 kg",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_15",
+   "text": "Length, though, is close to useless for a squid. Look at what happens when you compare two specimens.",
+   "img": "squid_size",
+   "query": "squid anatomy diagram comparison",
+   "tone": "neutral"
+  },
+  {
+   "id": "a2_16",
+   "text": "An animal recovered in two thousand and three was longer. Five point four metres. It weighed three hundred kilograms.",
+   "img": "squid_size",
+   "query": "colossal squid specimen measurement",
+   "tone": "neutral",
+   "stat": "5.4 m · 300 KG"
+  },
+  {
+   "id": "a2_17",
+   "text": "The two thousand and seven animal was shorter, at four point two metres, and weighed nearly two hundred kilograms more.",
+   "img": "nhm_beak",
+   "query": "colossal squid specimen large",
+   "tone": "neutral",
+   "stat": "4.2 m · 495 KG",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_18",
+   "text": "Te Papa's phrase for this is that they are incredibly plastic animals. Total length depends on how far the tentacles happen to be stretched, and what death did to them.",
+   "img": "nhm_headlimbs",
+   "query": "preserved squid tentacles specimen",
+   "tone": "neutral",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_19",
+   "text": "So scientists use mantle length instead. The body, not the arms. And the largest mantle ever measured on this species is two and a half metres.",
+   "img": "squid_size",
+   "query": "squid mantle anatomy diagram",
+   "tone": "neutral",
+   "stat": "MAX MANTLE: 2.5 m"
+  },
+  {
+   "id": "a2_20",
+   "text": "Which brings us to the number you have almost certainly heard, and which is wrong.",
+   "img": "squid_size",
+   "query": "giant squid size myth diagram",
+   "tone": "tension"
+  },
+  {
+   "id": "a2_21",
+   "text": "Twelve to fourteen metres. It is everywhere. It has never been measured, and it has never been credibly extrapolated.",
+   "img": "squid_size",
+   "query": "squid size comparison chart",
+   "tone": "tension",
+   "cap": "12–14 m: no evidence"
+  },
+  {
+   "id": "a2_22",
+   "text": "It appears to be a straight confusion with the giant squid, which is a genuinely longer animal. And that comparison is worth making properly, because the two get mixed up constantly.",
+   "img": "architeuthis",
+   "query": "giant squid Architeuthis specimen museum",
+   "tone": "neutral",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_23",
+   "text": "The giant squid has been verified to twelve metres long. But the heaviest complete one is around two hundred and twenty kilograms, and ninety five percent come in under two hundred and fifty.",
+   "img": "architeuthis",
+   "query": "giant squid preserved specimen",
+   "tone": "neutral",
+   "stat": "GIANT: 12 m · ~220 KG",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_24",
+   "text": "The often-quoted nine hundred kilogram giant squid traces back to an estimate from eighteen seventy nine, which modern reviewers judge unreliable.",
+   "img": "architeuthis",
+   "query": "historic giant squid engraving 19th century",
+   "tone": "neutral",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_25",
+   "text": "So. Longest squid, the giant. Heaviest squid, the colossal. The giant squid is a longer animal. The colossal squid is a bigger one.",
+   "img": "squid_size",
+   "query": "squid comparison diagram giant colossal",
+   "tone": "reveal",
+   "cap": "Longest: giant. Heaviest: colossal.",
+   "extraHold": 18
+  },
+  {
+   "id": "c6",
+   "chapter": "THE RULER IS A BEAK",
+   "text": "Chapter six. The ruler is a beak.",
+   "img": "nhm_beak",
+   "query": "colossal squid beak specimen",
+   "extraHold": 24
+  },
+  {
+   "id": "a2_26",
+   "text": "Here is the strangest thing about how we measure this animal. Most of the time, we are not measuring the animal.",
+   "img": "nhm_beak",
+   "query": "cephalopod beak black chitin close up",
+   "tone": "tension",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_27",
+   "text": "A squid's beak is made of chitin. It does not digest. When everything else about a colossal squid dissolves inside a whale, the beak survives.",
+   "img": "nhm_beak",
+   "query": "squid beak specimen scientific",
+   "tone": "neutral",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_28",
+   "text": "And the colossal squid has the largest beak of any living cephalopod. Roughly twice the size of a giant squid's.",
+   "img": "nhm_beak",
+   "query": "large squid beak comparison specimen",
+   "tone": "neutral",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_29",
+   "text": "Beak size scales with body size. So you can take a black parrot-beak out of a whale's stomach and calculate backwards to an animal nobody ever saw.",
+   "img": "nhm_beak",
+   "query": "squid beak measurement scientific study",
+   "tone": "tension",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_30",
+   "text": "The four hundred and ninety five kilogram specimen had a lower beak around forty two millimetres.",
+   "img": "nhm_beak",
+   "query": "squid beak measurement ruler scale",
+   "tone": "neutral",
+   "stat": "42.5 mm → 495 KG",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_31",
+   "text": "The largest beak ever pulled out of a sperm whale measures forty nine.",
+   "img": "nhm_beak",
+   "query": "large cephalopod beak specimen",
+   "tone": "tension",
+   "stat": "49 mm",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_32",
+   "text": "Te Papa's estimate for what that animal might have weighed is six hundred, maybe seven hundred kilograms.",
+   "img": "nhm_beak",
+   "query": "squid beak scientific specimen",
+   "tone": "reveal",
+   "stat": "600–700 KG?",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_33",
+   "text": "And the museum says, in the same breath, that they cannot say for sure what size of colossal squid a forty nine millimetre beak represents. There are too few complete animals to build the equation properly.",
+   "img": "nhm_beak",
+   "query": "museum scientific documentation specimen",
+   "tone": "neutral",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_34",
+   "text": "What that beak does not mean is a fourteen metre animal. The two thousand and seven squid carried a forty two millimetre beak on a two and a half metre body.",
+   "img": "squid_size",
+   "query": "squid size comparison scale",
+   "tone": "neutral"
+  },
+  {
+   "id": "a2_35",
+   "text": "So somewhere out there, probably, is a colossal squid heavier than any we have weighed. It is not a sea monster. It is a slightly bigger version of the one in the case.",
+   "img": "tepapa_specimen",
+   "query": "colossal squid museum specimen display",
+   "tone": "somber",
+   "extraHold": 36
+  },
+  {
+   "id": "c7",
+   "chapter": "A SCIENCE BUILT ON DEAD WHALES",
+   "text": "Chapter seven. A science built on dead whales.",
+   "img": "binnie_harpoon",
+   "query": "whaling harpoon historic photograph",
+   "extraHold": 24
+  },
+  {
+   "id": "a2_36",
+   "text": "Which raises an uncomfortable question. Where did all these beaks come from?",
+   "img": "binnie_kaskelot",
+   "query": "captured sperm whale whaling historic",
+   "tone": "somber",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_37",
+   "text": "In nineteen eighty, a researcher named Malcolm Clarke published an analysis of what sperm whales in the southern hemisphere had been eating.",
+   "img": "binnie_grytviken",
+   "query": "whaling station historic photograph Antarctic",
+   "tone": "somber",
+   "cap": "Clarke, M. R. (1980) · Discovery Reports 37",
+   "source": "Clarke 1980, Discovery Reports 37:324",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_38",
+   "text": "By his reconstruction, colossal squid beaks were about fourteen percent of the beaks found in Antarctic sperm whale stomachs.",
+   "img": "binnie_kaskelot",
+   "query": "sperm whale carcass whaling station",
+   "tone": "neutral",
+   "stat": "14% OF BEAKS",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_39",
+   "text": "But because the animal is so heavy, that fourteen percent of beaks represents an estimated seventy seven percent of everything those whales had eaten.",
+   "img": "binnie_kaskelot",
+   "query": "sperm whale whaling historic photograph",
+   "tone": "reveal",
+   "stat": "77% OF BIOMASS",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_40",
+   "text": "Be careful with that figure. It is a reconstruction from beak sizes, not a weighing of stomachs. It comes from Antarctic feeding grounds specifically. It is not a global number.",
+   "img": "binnie_grytviken",
+   "query": "whaling station processing historic",
+   "tone": "neutral",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_41",
+   "text": "And there is the part that is genuinely hard to sit with.",
+   "img": "binnie_harpoon",
+   "query": "whalers harpooning whale historic photograph",
+   "tone": "somber",
+   "note": "Binnie DIG132574 'Valfångare harpunerar val', PDM",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_42",
+   "text": "Clarke published in a journal called Discovery Reports. Discovery Reports was the publication series of the Discovery Investigations, the Southern Ocean survey that existed to serve the whaling industry.",
+   "img": "binnie_grytviken",
+   "query": "Antarctic whaling station 1920s",
+   "tone": "somber",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_43",
+   "text": "Almost everything we know about the largest invertebrate on Earth is a by-product of industrially killing sperm whales.",
+   "img": "binnie_kaskelot",
+   "query": "dead sperm whale whaling station historic",
+   "tone": "somber",
+   "cap": "The science is a by-product of the slaughter",
+   "sting": true,
+   "extraHold": 45
+  },
+  {
+   "id": "a2_44",
+   "text": "Seventeen different predators are known to eat them. Penguins, seabirds, fish, marine mammals.",
+   "videoQuery": "sperm whale diving ocean drone footage",
+   "tone": "neutral",
+   "stat": "17 PREDATORS",
+   "note": "NOAA Fisheries 'Sperm Whale Group Dive' B-ROLL PACKAGE ONLY — narrative videos may not be cut",
+   "video": "sperm_whale_diving_1.mp4"
+  },
+  {
+   "id": "a2_45",
+   "text": "At the Kerguelen Islands, colossal squid remains turned up in around two thirds of the sleeper sharks examined.",
+   "tone": "neutral",
+   "stat": "~66% OF SHARKS",
+   "img": "nhm_beak",
+   "note": "video->img: no sleeper-shark footage; the line is about the BEAKS found in the sharks"
+  },
+  {
+   "id": "a2_46",
+   "text": "Albatrosses carry the remains too. Though more than sixty percent of what they carry had probably been scavenged. They are eating dead colossal squid off the surface, not catching them.",
+   "tone": "neutral",
+   "img": "albatross",
+   "note": "video->img: wandering albatross, Drake Passage"
+  },
+  {
+   "id": "a2_47",
+   "text": "One thing to be careful about, because documentaries get it wrong constantly. Those famous circular scars on sperm whales are not evidence of colossal squid.",
+   "img": "bullen_engraving",
+   "query": "sperm whale squid battle historic engraving 1899",
+   "tone": "tension",
+   "note": "File:FMIB 34730 ... Deadly Conflict with a Squid.jpeg, Bullen 1899, PD",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_48",
+   "text": "Ring scars come from toothed sucker rings, which is giant squid equipment. The colossal squid leaves a different mark. It leaves hook scratches.",
+   "img": "hooks_club",
+   "query": "squid hooks specimen close up",
+   "tone": "tension",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_49",
+   "text": "And we do have those, on the bodies of captured toothfish. Bite marks and hook scratches that match this species. That is real, published, species-matched evidence of a colossal squid attacking something large.",
+   "tone": "neutral",
+   "source": "Remeslo, Yukhov, Bolstad & Laptikhovsky 2015, 2019",
+   "img": "toothfish",
+   "note": "video->img: hook scratches are found on toothfish bodies"
+  },
+  {
+   "id": "c8",
+   "chapter": "THE THAW, LIVE ON CAMERA",
+   "text": "Chapter eight. The thaw, live on camera.",
+   "img": "squid_size",
+   "query": "colossal squid museum examination",
+   "extraHold": 24
+  },
+  {
+   "id": "a2_50",
+   "text": "Two thousand and fourteen. The San Aspiring again. The Ross Sea again. Another colossal squid comes up on a toothfish line.",
+   "videoQuery": "longline fishing vessel Antarctic deck",
+   "tone": "neutral",
+   "video": "longline_fishing_vessel_3.mp4"
+  },
+  {
+   "id": "a2_51",
+   "text": "Female. Around three hundred and fifty kilograms. Three and a half metres. Recovered whole, except that its tentacles are missing.",
+   "img": "architeuthis",
+   "query": "colossal squid specimen examination table",
+   "tone": "neutral",
+   "stat": "350 KG",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_52",
+   "text": "And there are eggs inside the mantle.",
+   "img": "tepapa_specimen",
+   "query": "squid specimen dissection scientific",
+   "tone": "reveal",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_53",
+   "text": "On the sixteenth of September, they thaw it in front of the world. Kat Bolstad leads the examination. It is streamed live on the internet for about three and a half hours.",
+   "img": "toothfish",
+   "query": "scientists dissecting large squid specimen museum",
+   "cap": "16 September 2014 · Te Papa",
+   "tone": "tension",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_54",
+   "text": "Te Papa reports more than eight hundred thousand people watching live, from over a hundred and eighty countries. A museum dissection, with a global audience.",
+   "img": "nhm_beak",
+   "query": "museum live examination specimen crowd",
+   "tone": "reveal",
+   "stat": "800,000+ WATCHING",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_55",
+   "text": "Working alongside her, counting suckers on the arms, is a postgraduate researcher named Aaron Boyd Evans.",
+   "img": "tepapa_specimen",
+   "query": "researcher examining squid arms specimen",
+   "tone": "neutral",
+   "extraHold": 36
+  },
+  {
+   "id": "a2_56",
+   "text": "Remember him. Eleven years later, he is one of the two people the world will ask to confirm the footage from the Airbnb.",
+   "img": "hooks_club",
+   "query": "scientist examining specimen laboratory",
+   "tone": "tension",
+   "extraHold": 36
+  },
+  {
+   "id": "c9",
+   "chapter": "THE EYE THAT WATCHES FOR WHALES",
+   "text": "Chapter nine. The eye that watches for whales.",
+   "extraHold": 24,
+   "img": "nhm_headlimbs"
+  },
+  {
+   "id": "a3_1",
+   "text": "Now the animal. And the place to start is the part of it that is genuinely, measurably unlike anything else alive.",
+   "img": "squid_size",
+   "query": "colossal squid eye specimen museum",
+   "tone": "neutral",
+   "extraHold": 36
+  },
+  {
+   "id": "a3_2",
+   "text": "The colossal squid has the largest eye of any living animal on Earth.",
+   "img": "tepapa_specimen",
+   "query": "giant squid eye close up specimen",
+   "tone": "reveal",
+   "cap": "Largest eye of any living animal",
+   "extraHold": 36
+  },
+  {
+   "id": "a3_3",
+   "text": "How large depends on who measured it, and that difference is worth understanding rather than smoothing over.",
+   "img": "longline",
+   "query": "squid eye lens specimen scientific",
+   "tone": "neutral",
+   "extraHold": 36
+  },
+  {
+   "id": "a3_4",
+   "text": "The figure that survives peer review is about twenty seven centimetres across, with a pupil around nine.",
+   "img": "toothfish",
+   "query": "squid eye measurement scientific specimen",
+   "tone": "neutral",
+   "stat": "27 CM",
+   "extraHold": 36
+  },
+  {
+   "id": "a3_5",
+   "text": "Te Papa measured about thirty on their specimen. On the two thousand and fourteen animal, they recorded thirty five to thirty seven.",
+   "img": "tepapa_specimen",
+   "query": "museum scientists measuring squid eye",
+   "tone": "neutral",
+   "stat": "30 – 37 CM",
+   "extraHold": 36
+  },
+  {
+   "id": "a3_6",
+   "text": "All of those can be true at once. A squid's eye is a fluid-filled sphere with no bone around it. After death it flattens, swells and slumps. Different teams were measuring differently damaged things.",
+   "img": "nhm_headlimbs",
+   "query": "preserved squid eye specimen",
+   "tone": "neutral",
+   "extraHold": 36
+  },
+  {
+   "id": "a3_7",
+   "text": "For scale, the largest fish eyes on Earth reach about nine or ten centimetres. This is roughly three times the diameter of any other living animal's eye.",
+   "img": "squid_size",
+   "query": "eye size comparison animals diagram",
+   "tone": "reveal",
+   "stat": "3× ANY OTHER ANIMAL",
+   "extraHold": 18
+  },
+  {
+   "id": "a3_8",
+   "text": "One caution. You will hear largest eye of any animal ever. That is not safe. Reconstructions of a Jurassic marine reptile called Temnodontosaurus give eyeballs around twenty six centimetres and possibly over thirty.",
+   "img": "ichthyosaur",
+   "query": "ichthyosaur fossil skull sclerotic ring",
+   "tone": "neutral",
+   "cap": "Largest of any LIVING animal",
+   "extraHold": 36
+  },
+  {
+   "id": "a3_9",
+   "text": "So why would an animal grow an eye like that? And this is where the story stops being settled and starts being an argument.",
+   "videoQuery": "deep sea dark water column",
+   "tone": "tension",
+   "video": "deep_sea_dark_1.mp4"
+  },
+  {
+   "id": "a3_10",
+   "text": "In twenty twelve, a team led by Dan-Eric Nilsson at Lund University published a hypothesis in Current Biology.",
+   "videoQuery": "deep ocean darkness particles",
+   "tone": "neutral",
+   "cap": "Nilsson et al. (2012) · Current Biology",
+   "source": "Nilsson et al. 2012, Current Biology 22(8):683–688",
+   "video": "deep_ocean_darkness_1.mp4"
+  },
+  {
+   "id": "a3_11",
+   "text": "Their argument starts with a problem. In water, making an eye bigger buys you less and less. Absorption and scattering eat the gains.",
+   "videoQuery": "light rays underwater scattering",
+   "tone": "neutral",
+   "video": "light_rays_underwater_1.mp4"
+  },
+  {
+   "id": "a3_12",
+   "text": "By their numbers, at three hundred metres, growing a one millimetre eye by ten percent buys about six and a half percent more range. Do the same to a hundred millimetre eye and you gain two and a half.",
+   "videoQuery": "deep water light fading gradient",
+   "tone": "neutral",
+   "stat": "DIMINISHING RETURNS",
+   "video": "deep_water_light_1.mp4"
+  },
+  {
+   "id": "a3_13",
+   "text": "A squid eye is three times bigger than that. It is an enormous biological expense for almost nothing.",
+   "img": "hooks_club",
+   "query": "large squid eye specimen",
+   "tone": "tension",
+   "extraHold": 36
+  },
+  {
+   "id": "a3_14",
+   "text": "Unless what you are looking for is not small and nearby, but huge and rare. Because the volume of water you can monitor grows as the cube of your range.",
+   "videoQuery": "deep ocean vast dark water",
+   "tone": "tension",
+   "video": "rep2_a3_14.mp4",
+   "note": "replaced 'deep_ocean_vast_1.mp4' (foreign subject) with real ifremer_abyss"
+  },
+  {
+   "id": "a3_15",
+   "text": "And here is the part almost every retelling gets wrong. The squid is not looking for the whale.",
+   "videoQuery": "sperm whale diving deep ocean",
+   "tone": "tension",
+   "cap": "It isn't looking for the whale",
+   "note": "NOAA Fisheries sperm whale B-ROLL package only",
+   "video": "sperm_whale_diving_2.mp4"
+  },
+  {
+   "id": "a3_16",
+   "text": "Below about six hundred metres there is effectively no daylight. The only large glowing things down there are animals setting off the plankton as they move through it.",
+   "videoQuery": "bioluminescence ocean glowing plankton",
+   "tone": "tension",
+   "video": "bioluminescence_ocean_glowin_1.mp4"
+  },
+  {
+   "id": "a3_17",
+   "text": "A sperm whale diving hard displaces a cylinder of water and lights itself up. A diffuse glow, whale-shaped, moving.",
+   "tone": "tension",
+   "img": "spermwhale",
+   "note": "video->img: no PD sperm-whale dive footage exists anywhere"
+  },
+  {
+   "id": "a3_18",
+   "text": "The squid is looking for the light the whale knocks out of the water.",
+   "videoQuery": "bioluminescent plankton glow dark ocean",
+   "tone": "reveal",
+   "cap": "It's looking for the light the whale disturbs",
+   "video": "bioluminescent_plankton_glow_1.mp4",
+   "extraHold": 18
+  },
+  {
+   "id": "a3_19",
+   "text": "Nilsson's team modelled it. At eight hundred metres, in clear water, a whale-sized glowing object should be detectable at nearly a hundred and twenty metres. Almost twice the range for anything else visible.",
+   "videoQuery": "deep ocean dark distance light",
+   "tone": "reveal",
+   "stat": "~120 METRES",
+   "video": "deep_ocean_dark_1.mp4",
+   "extraHold": 18
+  },
+  {
+   "id": "a3_20",
+   "text": "And then the detail that makes it sadder and better than the headline version.",
+   "videoQuery": "sperm whale underwater",
+   "tone": "somber",
+   "video": "sperm_whale_underwater_1.mp4",
+   "extraHold": 30
+  },
+  {
+   "id": "a3_21",
+   "text": "A sperm whale's echolocation reaches further than a hundred and twenty metres. The squid does not win this race. The whale has already heard it.",
+   "videoQuery": "sperm whale swimming ocean deep",
+   "tone": "somber",
+   "cap": "The whale hears it first",
+   "video": "sperm_whale_swimming_1.mp4",
+   "extraHold": 30
+  },
+  {
+   "id": "a3_22",
+   "text": "The most the eye buys, on this hypothesis, is a little warning. Enough time to try to run.",
+   "videoQuery": "squid jetting away fast underwater",
+   "tone": "somber",
+   "video": "squid_jetting_away_1.mp4",
+   "extraHold": 30
+  },
+  {
+   "id": "a3_23",
+   "text": "That is the theory. Now the argument.",
+   "videoQuery": "deep sea dark water",
+   "tone": "tension",
+   "video": "deep_sea_dark_2.mp4"
+  },
+  {
+   "id": "a3_24",
+   "text": "In twenty thirteen, a group led by Lars Schmitz compared eyes across eighty seven squid species and more than two hundred fish species.",
+   "videoQuery": "scientific research laboratory data",
+   "tone": "neutral",
+   "cap": "Schmitz et al. (2013) · BMC Evol Biol",
+   "video": "rep_squid_0_8.mp4",
+   "note": "replaced foreign-subject stock with real noaa_bigfin"
+  },
+  {
+   "id": "a3_25",
+   "text": "Their conclusion. Relative to body size, these eyes are not exceptional at all. They are about what you would predict for a squid that big.",
+   "img": "squid_size",
+   "query": "scientific scaling graph allometry",
+   "tone": "tension"
+  },
+  {
+   "id": "a3_26",
+   "text": "On their reading, spotting whales might well be something the eye can do. But it is a side effect of being enormous, not the reason the eye exists.",
+   "videoQuery": "deep sea squid drifting",
+   "tone": "neutral",
+   "video": "deep_sea_squid_1.mp4"
+  },
+  {
+   "id": "a3_27",
+   "text": "Nilsson's team replied. They accepted Schmitz's revised numbers, called them more appropriately conservative, ran the model again with them, and got the same answer.",
+   "videoQuery": "deep ocean darkness",
+   "tone": "neutral",
+   "video": "deep_ocean_darkness_2.mp4"
+  },
+  {
+   "id": "a3_28",
+   "text": "Schmitz's group replied to the reply. It has not been settled. It is, as of today, still an open argument between two groups of serious people.",
+   "videoQuery": "dark deep water column",
+   "tone": "somber",
+   "video": "dark_deep_water_1.mp4",
+   "extraHold": 30
+  },
+  {
+   "id": "a3_29",
+   "text": "Which is worth saying out loud, because you will find a hundred videos telling you flatly that this animal evolved giant eyes to see sperm whales coming. Nobody actually knows that.",
+   "videoQuery": "deep sea dark ocean",
+   "tone": "somber",
+   "video": "deep_sea_dark_3.mp4",
+   "extraHold": 30
+  },
+  {
+   "id": "a3_30",
+   "text": "There is one more thing on those eyes that almost never gets mentioned. Each one carries two light organs of its own.",
+   "img": "tepapa_specimen",
+   "query": "squid photophore light organ specimen",
+   "tone": "neutral",
+   "extraHold": 36
+  },
+  {
+   "id": "a3_31",
+   "text": "What they are for is genuinely unknown. They might erase the eye's silhouette. They might be a deception. They might be headlights, or a way of judging the distance to strike. Three hypotheses, no test.",
+   "videoQuery": "bioluminescent deep sea creature glowing",
+   "tone": "neutral",
+   "video": "bioluminescent_deep_sea_1.mp4"
+  },
+  {
+   "id": "c10",
+   "chapter": "TWENTY-FIVE HOOKS THAT SPIN",
+   "text": "Chapter ten. Twenty five hooks that spin.",
+   "img": "hooks_club",
+   "query": "squid hooks specimen",
+   "extraHold": 24
+  },
+  {
+   "id": "a3_32",
+   "text": "Now the weapons. And this is the part that makes this animal genuinely strange within its own family.",
+   "img": "hooks_club",
+   "query": "colossal squid tentacular club hooks",
+   "tone": "tension",
+   "extraHold": 36
+  },
+  {
+   "id": "a3_33",
+   "text": "The colossal squid belongs to the glass squids. Cranchiidae. Around twenty species, most of them small, most of them transparent, most of them harmless.",
+   "videoQuery": "transparent glass squid deep sea drifting",
+   "tone": "neutral",
+   "note": "NOAA Taonius borealis glass squid, PD — the family stand-in",
+   "video": "transparent_glass_squid_2.mp4"
+  },
+  {
+   "id": "a3_34",
+   "text": "It is the only one with hooks.",
+   "img": "hooks_club",
+   "query": "squid hook specimen close up",
+   "tone": "reveal",
+   "cap": "The only hooked glass squid",
+   "extraHold": 36
+  },
+  {
+   "id": "a3_35",
+   "text": "And it carries two completely different kinds, which is a distinction worth getting right, because it decides the end of this story.",
+   "img": "hooks_club",
+   "query": "squid arms tentacles specimen anatomy",
+   "tone": "tension",
+   "extraHold": 36
+  },
+  {
+   "id": "a3_36",
+   "text": "The two long tentacles are the strike weapon. Around two metres each. At the end of each is a club, and on that club sit twenty two to twenty five hooks in two rows.",
+   "img": "hooks_club",
+   "query": "squid tentacular club hooks rows specimen",
+   "tone": "tension",
+   "stat": "22–25 HOOKS",
+   "extraHold": 36
+  },
+  {
+   "id": "a3_37",
+   "text": "Each hook sits on a short stalk in a shallow depression. And each one rotates. Three hundred and sixty degrees. By the museum's own account, up to seven hundred and twenty.",
+   "img": "hooks_club",
+   "query": "squid hook rotating specimen macro",
+   "tone": "reveal",
+   "stat": "360° – 720°",
+   "extraHold": 36
+  },
+  {
+   "id": "a3_38",
+   "text": "The eight arms are different. Shorter, around a metre. And their hooks are bigger, fixed, and do not rotate at all.",
+   "img": "nhm_headlimbs",
+   "query": "squid arms hooks specimen preserved",
+   "tone": "tension",
+   "extraHold": 36
+  },
+  {
+   "id": "a3_39",
+   "text": "Most of the arm hooks are three-pointed. A main claw, and two smaller cusps at the base, to dig in and hold.",
+   "img": "nhm_headlimbs",
+   "query": "squid arm hook three pointed specimen",
+   "tone": "tension",
+   "extraHold": 36
+  },
+  {
+   "id": "a3_40",
+   "text": "The likeliest way it works, and this is inference from anatomy rather than observation. The tentacles fire. The club hits. The spinning hooks catch at whatever angle they land, and as the prey struggles they lock from several directions at once.",
+   "img": "hooks_club",
+   "query": "squid tentacle strike anatomy",
+   "tone": "tension",
+   "extraHold": 36
+  },
+  {
+   "id": "a3_41",
+   "text": "Then the prey gets drawn back to the arms, where the fixed three-pointed hooks and the serrated suckers hold it still for the beak.",
+   "img": "nhm_beak",
+   "query": "squid beak specimen close up",
+   "tone": "tension",
+   "extraHold": 36
+  },
+  {
+   "id": "a3_42",
+   "text": "This is grappling gear. It is not chasing gear. It is mechanical advantage standing in for speed.",
+   "img": "hooks_club",
+   "query": "squid hooks specimen macro",
+   "tone": "neutral",
+   "extraHold": 36
+  },
+  {
+   "id": "a3_43",
+   "text": "And there is something the museum is admirably honest about. Nobody knows whether the squid controls each of those spinning hooks, or whether they simply swivel on their own once something is caught.",
+   "img": "hooks_club",
+   "query": "squid hook specimen detail",
+   "tone": "somber",
+   "cap": "Nobody has watched it happen",
+   "extraHold": 36
+  },
+  {
+   "id": "a3_44",
+   "text": "Nobody has ever watched it happen.",
+   "videoQuery": "empty dark deep ocean",
+   "tone": "somber",
+   "video": "empty_dark_deep_2.mp4",
+   "extraHold": 30
+  },
+  {
+   "id": "a3_45",
+   "text": "For contrast. The giant squid has no hooks at all. It grips with toothed sucker rings. Two enormous animals, two completely different solutions to holding on.",
+   "img": "architeuthis",
+   "query": "giant squid tentacle suckers specimen",
+   "tone": "neutral",
+   "extraHold": 36
+  },
+  {
+   "id": "c11",
+   "chapter": "THIRTY GRAMS A DAY",
+   "text": "Chapter eleven. Thirty grams a day.",
+   "extraHold": 24,
+   "img": "toothfish"
+  },
+  {
+   "id": "a3_46",
+   "text": "So you have an animal weighing half a tonne, with the largest eyes on Earth and twenty five rotating hooks. You would expect a monster.",
+   "img": "architeuthis",
+   "query": "colossal squid specimen large museum",
+   "tone": "tension",
+   "extraHold": 36
+  },
+  {
+   "id": "a3_47",
+   "text": "In twenty ten, Rui Rosa and Brad Seibel modelled its metabolism.",
+   "videoQuery": "scientific laboratory research",
+   "tone": "neutral",
+   "cap": "Rosa & Seibel (2010)",
+   "source": "Rosa & Seibel 2010, J. Mar. Biol. Assoc. UK 90(7)",
+   "video": "rep_lab_0_4.mp4",
+   "note": "replaced foreign-subject stock with real ifremer_abyssfish"
+  },
+  {
+   "id": "a3_48",
+   "text": "Their estimate for a full grown colossal squid, in water at one and a half degrees. About forty five kilocalories a day.",
+   "videoQuery": "cold Antarctic water underwater",
+   "tone": "neutral",
+   "stat": "45 KCAL / DAY",
+   "video": "rep2_a3_48.mp4",
+   "note": "replaced 'cold_antarctic_water_1.mp4' (foreign subject) with real ifremer_abyssfish"
+  },
+  {
+   "id": "a3_49",
+   "text": "Which works out at roughly thirty grams of food. A day. For an animal that weighs as much as a grand piano.",
+   "videoQuery": "deep sea creature slow drifting",
+   "tone": "reveal",
+   "stat": "30 GRAMS A DAY",
+   "video": "deep_sea_creature_2.mp4",
+   "extraHold": 18
+  },
+  {
+   "id": "a3_50",
+   "text": "One five kilogram toothfish would keep it going for months.",
+   "tone": "reveal",
+   "extraHold": 18,
+   "img": "toothfish",
+   "note": "video->img: the 5 kg toothfish that feeds it for months"
+  },
+  {
+   "id": "a3_51",
+   "text": "Their conclusion, in their own words. It is not a voracious predator capable of high speed interactions. It is an ambush, or sit and float, predator that uses the hooks on its arms and tentacles to ensnare prey that unwittingly approach.",
+   "videoQuery": "deep sea squid motionless drifting",
+   "tone": "neutral",
+   "video": "deep_sea_squid_2.mp4"
+  },
+  {
+   "id": "a3_52",
+   "text": "And now the caveat that has to be said out loud, because it applies to nearly everything in this film.",
+   "videoQuery": "deep dark ocean water",
+   "tone": "tension",
+   "video": "deep_dark_ocean_1.mp4"
+  },
+  {
+   "id": "a3_53",
+   "text": "Nobody has ever measured a colossal squid's oxygen consumption. Nobody has ever had a live one to measure.",
+   "videoQuery": "empty dark deep ocean",
+   "tone": "somber",
+   "cap": "Never measured. Inferred.",
+   "video": "empty_dark_deep_3.mp4",
+   "extraHold": 30
+  },
+  {
+   "id": "a3_54",
+   "text": "That figure is a phylogenetic inference. It is built from measurements of its smaller relatives, scaled up by body size, at Southern Ocean temperatures. It is the best estimate anyone has. It is not a measurement.",
+   "videoQuery": "deep sea glass squid relatives",
+   "tone": "neutral",
+   "video": "deep_sea_glass_1.mp4"
+  },
+  {
+   "id": "a3_55",
+   "text": "The press turned that study into a lazy, harmless drifter. And the scientists pushed back on their own result, in print.",
+   "videoQuery": "deep sea ambush predator still water",
+   "tone": "tension",
+   "video": "deep_sea_ambush_1.mp4"
+  },
+  {
+   "id": "a3_56",
+   "text": "Their question. Does an organism need to be an active pursuit predator to be fearsome? White sharks, leopards, crocodiles and pythons are all ambush predators, many with low energy demands. It is their capability to hide and strike without warning that makes them dangerous.",
+   "videoQuery": "crocodile still water ambush",
+   "tone": "tension",
+   "source": "Rosa et al. 2017, Polar Biology",
+   "video": "crocodile_still_water_1.mp4"
+  },
+  {
+   "id": "a3_57",
+   "text": "And the chemistry backs them. Analysis of nitrogen isotopes places the colossal squid among the top predators in the entire Southern Ocean.",
+   "videoQuery": "Southern Ocean surface waves Antarctic",
+   "tone": "reveal",
+   "cap": "Among the Southern Ocean's top predators",
+   "video": "rep2_a3_57.mp4",
+   "extraHold": 18,
+   "note": "replaced 'cold_antarctic_water_1.mp4' (foreign subject) with real noaa_bigfin"
+  },
+  {
+   "id": "a3_58",
+   "text": "So not a monster. And not a drifter. A slow, cold, cheap-to-run ambush animal that happens to sit at the top of one of the largest ecosystems on the planet.",
+   "videoQuery": "deep sea vast dark water",
+   "tone": "reveal",
+   "video": "deep_sea_vast_1.mp4",
+   "extraHold": 18
+  },
+  {
+   "id": "c12",
+   "chapter": "IT BREATHES WITHOUT SWIMMING",
+   "text": "Chapter twelve. It breathes without swimming.",
+   "extraHold": 24,
+   "img": "squid_size"
+  },
+  {
+   "id": "a3_59",
+   "text": "One more piece of engineering, because it explains how something that big does so little.",
+   "videoQuery": "deep sea creature floating motionless",
+   "tone": "neutral",
+   "video": "deep_sea_creature_3.mp4"
+  },
+  {
+   "id": "a3_60",
+   "text": "Glass squids carry an enormous internal chamber filled with a solution of ammonium chloride. It is about as salty as seawater but lighter, and it cancels out the weight of the animal's tissue.",
+   "videoQuery": "transparent glass squid buoyancy deep sea",
+   "tone": "neutral",
+   "video": "transparent_glass_squid_3.mp4"
+  },
+  {
+   "id": "a3_61",
+   "text": "Every other ammonia-floating squid spreads it through the muscle. The glass squids keep it in a dedicated tank.",
+   "videoQuery": "glass squid transparent body deep sea",
+   "tone": "neutral",
+   "video": "glass_squid_transparent_4.mp4"
+  },
+  {
+   "id": "a3_62",
+   "text": "Which means they can hang in the water and breathe without ever contracting the mantle. They can float and respire without swimming at all.",
+   "videoQuery": "deep sea squid hovering motionless",
+   "tone": "reveal",
+   "cap": "Breathe without swimming",
+   "video": "deep_sea_squid_3.mp4",
+   "extraHold": 18
+  },
+  {
+   "id": "a3_63",
+   "text": "Whether that is fully true of a four hundred and ninety five kilogram adult, nobody knows. The review that describes it flags the colossal squid as the family's odd one out, with far more muscle than its transparent cousins. No one has ever measured the ammonium content of an adult.",
+   "img": "longline",
+   "query": "colossal squid muscular specimen",
+   "tone": "neutral",
+   "extraHold": 36
+  },
+  {
+   "id": "a3_64",
+   "text": "And there is a grim little consequence to all that ammonia. It is part of why the tissue dissolves so fast inside a whale, leaving only the beaks and the hooks.",
+   "img": "nhm_beak",
+   "query": "squid beak chitin specimen",
+   "tone": "somber",
+   "extraHold": 36
+  },
+  {
+   "id": "a3_65",
+   "text": "Which is exactly why our record of the largest invertebrate on Earth is, mostly, a record of its mouthparts.",
+   "img": "nhm_beak",
+   "query": "collection of squid beaks specimens",
+   "tone": "somber",
+   "sting": true,
+   "extraHold": 45
+  },
+  {
+   "id": "c13",
+   "chapter": "THE DIVE THAT WASN'T LOOKING",
+   "text": "Chapter thirteen. The dive that wasn't looking.",
+   "extraHold": 24,
+   "img": "squid_map"
+  },
+  {
+   "id": "a4_1",
+   "text": "The ninth of March, twenty twenty five. The South Sandwich Islands, in the south Atlantic.",
+   "videoQuery": "Southern Ocean research vessel at sea",
+   "cap": "9 March 2025 · South Sandwich Islands",
+   "tone": "neutral",
+   "video": "rep2_a4_1.mp4",
+   "note": "replaced 'southern_ocean_research_1.mp4' (foreign subject) with real ifremer_rovarm"
+  },
+  {
+   "id": "a4_2",
+   "text": "A research vessel called the Falkor, too, is thirty five days into an expedition named GoSouth. Chief scientist, Michelle Taylor of the University of Essex.",
+   "videoQuery": "research vessel deck ocean expedition",
+   "tone": "neutral",
+   "video": "rep_ship_1_46.mp4",
+   "note": "replaced foreign-subject stock with real ifremer_rovarm"
+  },
+  {
+   "id": "a4_3",
+   "text": "Their remotely operated vehicle, SuBastian, is descending to work on the seafloor. It is not hunting squid. It is passing through.",
+   "videoQuery": "ROV submersible descending underwater lights",
+   "tone": "tension",
+   "note": "Ifremer ROV Victor 6000 deployment, CC BY 4.0",
+   "video": "rov_submersible_descending_1.mp4"
+  },
+  {
+   "id": "a4_4",
+   "text": "At six hundred metres, something small and transparent drifts through the lights.",
+   "videoQuery": "transparent glass squid deep sea ROV lights",
+   "tone": "tension",
+   "stat": "600 METRES",
+   "note": "NOAA Taonius glass squid PD — stand-in. The real 2025 clip is licence-blocked.",
+   "video": "transparent_glass_squid_4.mp4"
+  },
+  {
+   "id": "a4_5",
+   "text": "And here is the detail I love most in this entire story. The person who first flagged it was not on the ship.",
+   "videoQuery": "deep sea ROV live feed underwater",
+   "tone": "reveal",
+   "video": "fix_dumbo_a4_5.mp4",
+   "extraHold": 18,
+   "note": "real footage: noaa_dumbo"
+  },
+  {
+   "id": "a4_6",
+   "text": "The Falkor, too, streams its dives publicly. Somebody watching the live feed from home said, that looks like something.",
+   "videoQuery": "deep sea camera feed dark water",
+   "tone": "reveal",
+   "cap": "A member of the public spotted it",
+   "video": "fix_rov_descend.mp4",
+   "extraHold": 18,
+   "note": "real footage: ifremer_rovarm"
+  },
+  {
+   "id": "a4_7",
+   "text": "Taylor's own description of the moment is wonderfully undramatic. We filmed it because it was beautiful and unusual, and then we kind of descended back all the way down to the seafloor to do the exploration that the rest of that dive was focused on.",
+   "videoQuery": "ROV descending to seafloor",
+   "tone": "neutral",
+   "cap": "Dr Michelle Taylor · chief scientist",
+   "video": "rov_descending_seafloor_1.mp4"
+  },
+  {
+   "id": "a4_8",
+   "text": "They carried on with their day. And then they said nothing at all, to anybody, for five weeks.",
+   "videoQuery": "research vessel at sea night",
+   "tone": "tension",
+   "cap": "Five weeks of silence",
+   "video": "research_vessel_sea_1.mp4"
+  },
+  {
+   "id": "c14",
+   "chapter": "WHY THEY SAID NOTHING FOR FIVE WEEKS",
+   "text": "Chapter fourteen. Why they said nothing for five weeks.",
+   "img": "hooks_club",
+   "query": "squid hooks specimen",
+   "extraHold": 24
+  },
+  {
+   "id": "a4_9",
+   "text": "Because identifying a small transparent squid is genuinely hard, and because of something that had happened two years earlier.",
+   "videoQuery": "transparent glass squid deep sea",
+   "tone": "tension",
+   "video": "transparent_glass_squid_5.mp4"
+  },
+  {
+   "id": "a4_10",
+   "text": "In January twenty twenty three, a non-profit called Kolossal, founded by Matt Mulrennan, filmed a small glass squid roughly six hundred and eighty miles south of Argentina.",
+   "videoQuery": "deep sea camera deployment ocean",
+   "cap": "6 January 2023 · Kolossal",
+   "tone": "neutral",
+   "video": "rep_squid_1_30.mp4",
+   "note": "replaced foreign-subject stock with real noaa_bigfin"
+  },
+  {
+   "id": "a4_11",
+   "text": "They described it as potentially the first colossal squid ever filmed in its natural environment.",
+   "videoQuery": "glass squid transparent deep water",
+   "tone": "tension",
+   "video": "glass_squid_transparent_5.mp4"
+  },
+  {
+   "id": "a4_12",
+   "text": "The specialists split three ways. A juvenile colossal squid. Or an adult of a look-alike species called Galiteuthis glacialis. Or something not yet described at all.",
+   "videoQuery": "transparent deep sea squid drifting",
+   "tone": "tension",
+   "video": "transparent_deep_sea_1.mp4"
+  },
+  {
+   "id": "a4_13",
+   "text": "As of the end of twenty twenty five, it is still unresolved.",
+   "videoQuery": "deep sea dark water column",
+   "tone": "somber",
+   "video": "deep_sea_dark_4.mp4",
+   "extraHold": 30
+  },
+  {
+   "id": "a4_14",
+   "text": "So in March twenty twenty five, the team sent their footage to two people, independently, and waited.",
+   "videoQuery": "laptop screen dark room video",
+   "tone": "tension",
+   "video": "laptop_screen_dark_1.mp4"
+  },
+  {
+   "id": "a4_15",
+   "text": "Kat Bolstad, at Auckland University of Technology. And Aaron Evans, a specialist in exactly this family of squid.",
+   "videoQuery": "scientist reviewing footage laboratory",
+   "tone": "neutral",
+   "video": "scientist_reviewing_footage_1.mp4"
+  },
+  {
+   "id": "a4_16",
+   "text": "The same Aaron Evans who counted suckers at Te Papa in twenty fourteen. And the same Aaron Evans who, as a peer reviewer, had declined to confirm Kolossal's footage.",
+   "img": "tepapa_specimen",
+   "query": "scientist examining specimen museum",
+   "tone": "tension",
+   "extraHold": 36
+  },
+  {
+   "id": "a4_17",
+   "text": "His verdict on that one. The squid seen here could belong to different life stages of either of those taxa. He would not call it.",
+   "videoQuery": "transparent glass squid ambiguous deep sea",
+   "tone": "tension",
+   "video": "transparent_glass_squid_6.mp4"
+  },
+  {
+   "id": "a4_18",
+   "text": "So when the same man looks at the twenty twenty five footage, what changes his mind?",
+   "img": "hooks_club",
+   "query": "squid hooks close up specimen",
+   "tone": "tension",
+   "extraHold": 36
+  },
+  {
+   "id": "a4_19",
+   "text": "The hooks. But not the ones on the tentacles.",
+   "img": "hooks_club",
+   "query": "squid tentacular club hooks",
+   "tone": "reveal",
+   "cap": "Not the tentacles. The arms.",
+   "extraHold": 36
+  },
+  {
+   "id": "a4_20",
+   "text": "Every glass squid has hooks on the clubs at the end of its two long tentacles. That proves nothing.",
+   "img": "hooks_club",
+   "query": "squid club hooks specimen",
+   "tone": "neutral",
+   "extraHold": 36
+  },
+  {
+   "id": "a4_21",
+   "text": "Bolstad's description of the test. The colossal squid is the only squid that we know of that has suckers near the beak, then hooks midway along the arm, and then suckers again toward the arm tips.",
+   "img": "nhm_headlimbs",
+   "query": "squid arms hooks suckers specimen",
+   "tone": "reveal",
+   "source": "Bolstad, Science Friday, 18 April 2025",
+   "extraHold": 36
+  },
+  {
+   "id": "a4_22",
+   "text": "Suckers. Then hooks. Then suckers. In that order, down the middle of the eight arms. Out of every squid in the ocean, one animal is built that way.",
+   "img": "nhm_headlimbs",
+   "query": "squid arm anatomy hooks specimen",
+   "tone": "reveal",
+   "stat": "SUCKERS · HOOKS · SUCKERS",
+   "extraHold": 36
+  },
+  {
+   "id": "a4_23",
+   "text": "It is there in the name Robson gave it in nineteen twenty five, before anyone had seen a living one. Mesonychoteuthis. Middle claw squid.",
+   "img": "hooks_club",
+   "query": "squid hook specimen macro",
+   "tone": "reveal",
+   "extraHold": 36
+  },
+  {
+   "id": "a4_24",
+   "text": "A hundred years later, that middle claw is what confirmed it.",
+   "img": "hooks_club",
+   "query": "squid hooks specimen close up",
+   "tone": "reveal",
+   "sting": true,
+   "extraHold": 45
+  },
+  {
+   "id": "c15",
+   "chapter": "WHAT THE FOOTAGE DIDN'T SHOW",
+   "text": "Chapter fifteen. What the footage didn't show.",
+   "extraHold": 24,
+   "img": "nhm_headlimbs"
+  },
+  {
+   "id": "a4_25",
+   "text": "On the fifteenth of April, they released it. And what people saw was not a monster.",
+   "videoQuery": "small transparent squid deep sea drifting",
+   "tone": "neutral",
+   "cap": "Announced 15 April 2025",
+   "video": "small_transparent_squid_2.mp4"
+  },
+  {
+   "id": "a4_26",
+   "text": "A near-transparent animal about thirty centimetres long, with iridescent eyes and visible internal organs, drifting in the dark.",
+   "videoQuery": "transparent glass squid iridescent deep sea",
+   "tone": "reveal",
+   "video": "transparent_glass_squid_7.mp4",
+   "extraHold": 18
+  },
+  {
+   "id": "a4_27",
+   "text": "Scattered across that transparent body were rust-red and brown chromatophores. Colour cells. Which means even at this size it can probably switch between transparent and opaque.",
+   "videoQuery": "squid chromatophores colour change close up",
+   "tone": "reveal",
+   "video": "squid_chromatophores_colour_1.mp4",
+   "extraHold": 18
+  },
+  {
+   "id": "a4_28",
+   "text": "And for the first time, a colossal squid that was not damaged. Steve O'Shea, who was not part of the expedition, put it as well as anyone.",
+   "videoQuery": "glass squid intact deep sea",
+   "tone": "neutral",
+   "video": "glass_squid_intact_1.mp4"
+  },
+  {
+   "id": "a4_29",
+   "text": "It is lovely to see this species being filmed by scientists in a non-invasive way, alive rather than dead on a trawler deck or mangled in a net.",
+   "videoQuery": "deep sea squid drifting undisturbed",
+   "tone": "somber",
+   "cap": "Dr Steve O'Shea",
+   "video": "deep_sea_squid_4.mp4",
+   "extraHold": 30
+  },
+  {
+   "id": "a4_30",
+   "text": "Bolstad's framing was gentler still. It's exciting to see the first in situ footage of a juvenile colossal, and humbling to think that they have no idea that humans exist.",
+   "videoQuery": "transparent squid deep sea alone",
+   "tone": "somber",
+   "cap": "Dr Kat Bolstad",
+   "video": "transparent_squid_deep_1.mp4",
+   "extraHold": 30
+  },
+  {
+   "id": "a4_31",
+   "text": "And she was explicit that she did not want the monster hype. We get to introduce the live colossal squid to the world as this beautiful, little, delicate animal.",
+   "videoQuery": "small transparent squid gentle drifting",
+   "tone": "somber",
+   "video": "rep_squid_2_55.mp4",
+   "extraHold": 30,
+   "note": "replaced foreign-subject stock with real noaa_bigfin"
+  },
+  {
+   "id": "a4_32",
+   "text": "Now the honest part. What that footage did not do.",
+   "videoQuery": "dark deep ocean empty",
+   "tone": "tension",
+   "video": "rep_ocean_1_16.mp4",
+   "note": "replaced foreign-subject stock with real ifremer_abyss"
+  },
+  {
+   "id": "a4_33",
+   "text": "It showed no feeding. No hunting. No mating. Nothing about lifespan, or growth, or how an adult behaves.",
+   "videoQuery": "empty dark deep ocean water",
+   "tone": "somber",
+   "video": "empty_dark_deep_4.mp4",
+   "extraHold": 30
+  },
+  {
+   "id": "a4_34",
+   "text": "Evans, again. This is not the giant animal we'd expect the colossal squid to be. We could think of this maybe as a teenager squid. It's still got a lot of growing to do.",
+   "videoQuery": "small juvenile squid deep sea",
+   "tone": "neutral",
+   "video": "small_juvenile_squid_1.mp4"
+  },
+  {
+   "id": "a4_35",
+   "text": "Even the thirty centimetre figure is the team's estimate, not an independent measurement.",
+   "videoQuery": "deep sea ROV measurement lasers",
+   "tone": "neutral",
+   "video": "deep_sea_rov_3.mp4"
+  },
+  {
+   "id": "a4_36",
+   "text": "And one thing worth being precise about, because it matters. There is no peer-reviewed paper on this sighting.",
+   "videoQuery": "scientific journal archive",
+   "tone": "tension",
+   "cap": "No peer-reviewed paper. Still.",
+   "video": "scientific_journal_archive_1.mp4"
+  },
+  {
+   "id": "a4_37",
+   "text": "It was an institutional announcement, plus two named independent experts who confirmed it. That is a strong chain. It is not the same thing as published research, and it should not be described as such.",
+   "videoQuery": "deep sea dark water",
+   "tone": "neutral",
+   "video": "deep_sea_dark_5.mp4"
+  },
+  {
+   "id": "c16",
+   "chapter": "WHY IT STAYS HIDDEN",
+   "text": "Chapter sixteen. Why it stays hidden.",
+   "extraHold": 24,
+   "img": "spermwhale"
+  },
+  {
+   "id": "a4_38",
+   "text": "So why, after a century, is a juvenile the best we have managed?",
+   "videoQuery": "deep sea dark vast water",
+   "tone": "tension",
+   "video": "deep_sea_dark_6.mp4"
+  },
+  {
+   "id": "a4_39",
+   "text": "Bolstad's answer is not mystical. It is mechanical, and it is slightly humiliating for us.",
+   "videoQuery": "ROV floodlights underwater bright",
+   "tone": "tension",
+   "video": "rov_floodlights_underwater_1.mp4"
+  },
+  {
+   "id": "a4_40",
+   "text": "Much of our scientific and filming gear is noisy and bright, so squid will be aware of our equipment long before we know they're there. And they will stay well away.",
+   "videoQuery": "ROV bright lights deep water noise",
+   "tone": "somber",
+   "cap": "Dr Kat Bolstad",
+   "video": "rov_bright_lights_1.mp4",
+   "extraHold": 30
+  },
+  {
+   "id": "a4_41",
+   "text": "They know we are there long before we know they are there.",
+   "videoQuery": "dark ocean empty water column",
+   "tone": "somber",
+   "cap": "\"They know we are there\"",
+   "video": "dark_ocean_empty_1.mp4",
+   "extraHold": 30
+  },
+  {
+   "id": "a4_42",
+   "text": "Think about what that means alongside the eye. Whether or not it evolved to spot a whale, an animal built to detect a faint moving glow at over a hundred metres in total darkness is an animal that sees a floodlit robot coming from very far away indeed.",
+   "videoQuery": "ROV lights approaching in dark water",
+   "tone": "reveal",
+   "video": "rov_lights_approaching_1.mp4",
+   "extraHold": 18
+  },
+  {
+   "id": "a4_43",
+   "text": "We built the brightest thing in the deep ocean and then wondered why the shy animal never turns up.",
+   "videoQuery": "ROV floodlights deep sea dark",
+   "tone": "somber",
+   "video": "rov_floodlights_deep_1.mp4",
+   "extraHold": 30
+  },
+  {
+   "id": "c17",
+   "chapter": "THE HUNT IS STILL OPEN",
+   "text": "Chapter seventeen. The hunt is still open.",
+   "extraHold": 24,
+   "img": "longline"
+  },
+  {
+   "id": "a4_44",
+   "text": "Which brings us to today.",
+   "videoQuery": "Southern Ocean waves horizon",
+   "tone": "neutral",
+   "video": "rep2_a4_44.mp4",
+   "note": "replaced 'southern_ocean_waves_1.mp4' (foreign subject) with real ifremer_abyss"
+  },
+  {
+   "id": "a4_45",
+   "text": "As of right now, there has been no second confirmed sighting. No adult colossal squid has ever been filmed. The catalogue of records still ends with that thirty centimetre juvenile.",
+   "videoQuery": "empty dark deep ocean",
+   "tone": "somber",
+   "cap": "Still no adult. Ever.",
+   "video": "empty_dark_deep_5.mp4",
+   "extraHold": 30
+  },
+  {
+   "id": "a4_46",
+   "text": "The Schmidt team is building new camera systems aimed specifically at filming a grown one.",
+   "videoQuery": "underwater camera system deployment research",
+   "tone": "neutral",
+   "video": "underwater_camera_system_1.mp4"
+  },
+  {
+   "id": "a4_47",
+   "text": "But the Falkor, too, has no Southern Ocean expedition scheduled this year. Its entire twenty twenty six programme is in the Atlantic. Press reports at the time suggested it would not return to Antarctica until twenty twenty eight, though no institutional document confirms that date.",
+   "videoQuery": "research vessel at sea Atlantic",
+   "tone": "neutral",
+   "video": "research_vessel_sea_2.mp4"
+  },
+  {
+   "id": "a4_48",
+   "text": "Kolossal is still out there. Mulrennan's line, when the twenty twenty five footage landed, was three words. The hunt continues.",
+   "videoQuery": "deep sea camera lowered from vessel",
+   "tone": "tension",
+   "cap": "\"The hunt continues.\"",
+   "video": "deep_sea_camera_3.mp4"
+  },
+  {
+   "id": "a4_49",
+   "text": "And there is one last thing, which I did not expect to find.",
+   "videoQuery": "deep ocean dark water",
+   "tone": "tension",
+   "video": "fix_bigfin_a4_49.mp4",
+   "note": "real footage: noaa_bigfin"
+  },
+  {
+   "id": "a4_50",
+   "text": "In twenty seventeen, a review of everything known about this species ended with a recommendation. Baited cameras and remotely operated vehicles could be deployed in the search of live footage.",
+   "videoQuery": "ROV deployment research vessel",
+   "tone": "neutral",
+   "source": "Rosa et al. 2017, Polar Biology",
+   "video": "rov_deployment_research_1.mp4"
+  },
+  {
+   "id": "a4_51",
+   "text": "Eight years later, that is exactly what found it. Not a hunt. Not an expedition looking for it. A robot on its way somewhere else, and a stranger on the internet watching the feed.",
+   "videoQuery": "ROV descending deep ocean",
+   "tone": "reveal",
+   "sting": true,
+   "video": "rov_descending_deep_2.mp4",
+   "extraHold": 45
+  },
+  {
+   "id": "coda1",
+   "text": "I want to end on the thing that stayed with me while making this.",
+   "videoQuery": "deep ocean vast dark water",
+   "tone": "somber",
+   "video": "fix_fish_coda1.mp4",
+   "extraHold": 30,
+   "note": "real footage: ifremer_abyssfish"
+  },
+  {
+   "id": "coda2",
+   "text": "There is an assumption, relayed in one review from one catalogue, that the Southern Ocean might hold something like ninety million tonnes of colossal squid.",
+   "videoQuery": "Southern Ocean vast water aerial",
+   "tone": "neutral",
+   "stat": "90 MILLION TONNES?",
+   "video": "southern_ocean_vast_1.mp4"
+  },
+  {
+   "id": "coda3",
+   "text": "Nobody has ever tested that. There has never been a stock assessment. It is an assumption, and I am giving it to you as one.",
+   "videoQuery": "Southern Ocean waves",
+   "tone": "neutral",
+   "video": "fix_abyss_coda.mp4",
+   "note": "real footage: ifremer_abyss"
+  },
+  {
+   "id": "coda4",
+   "text": "But even if it is wildly wrong. Even if it is out by an order of magnitude.",
+   "videoQuery": "deep ocean dark vast",
+   "tone": "tension",
+   "video": "fix_abyss_coda4.mp4",
+   "note": "real footage: ifremer_abyss"
+  },
+  {
+   "id": "coda5",
+   "text": "There is an enormous quantity of a half-tonne predator living in the water beneath our ships, and in a hundred years, we have watched exactly one of them swim. And it was a baby, and it was thirty centimetres long, and it found us by accident.",
+   "videoQuery": "small transparent squid drifting away into dark",
+   "tone": "somber",
+   "video": "small_transparent_squid_4.mp4",
+   "extraHold": 30
+  },
+  {
+   "id": "coda6",
+   "text": "Everything else we think we know, we got from corpses in nets, from beaks in the stomachs of animals we were killing anyway, and from careful arguments between people who have never seen the thing they are arguing about.",
+   "img": "nhm_beak",
+   "query": "squid beaks scientific collection",
+   "tone": "somber",
+   "extraHold": 36
+  },
+  {
+   "id": "coda7",
+   "text": "It is not a monster. That much we can say. It is slow, and cold, and it runs on almost nothing, and it has been sitting near the top of an entire ocean the whole time.",
+   "videoQuery": "deep sea creature motionless dark water",
+   "tone": "somber",
+   "video": "deep_sea_creature_4.mp4",
+   "extraHold": 30
+  },
+  {
+   "id": "coda8",
+   "text": "And somewhere down there right now, in the dark, there is a full-grown one. Nobody has ever seen it.",
+   "videoQuery": "empty dark deep ocean water column",
+   "tone": "somber",
+   "cap": "Nobody has ever seen it.",
+   "video": "empty_dark_deep_6.mp4",
+   "extraHold": 30
+  },
+  {
+   "id": "bridge",
+   "text": "If a creature nobody has ever watched alive interests you, there is a story on this channel about twenty one people we did watch, and lost, and what actually happened to each of them. Twenty one astronauts who never came home. It is on screen now. And if you want the next one of these, subscribe. That is genuinely what decides whether it gets made.",
+   "videoQuery": "stars space dark",
+   "tone": "neutral",
+   "note": "END SCREEN: single video only — '21 ASTRONAUTS Never Came Home' (live, channel's best performer) | replaced foreign-subject stock with real noaa_bigfin",
+   "video": "rep_squid_3_78.mp4"
+  }
+ ]
+}

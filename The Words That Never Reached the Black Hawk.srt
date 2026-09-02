@@ -1,0 +1,828 @@
+1
+00:00:00,333 --> 00:00:03,021
+It is January twenty ninth, twenty twenty five.
+
+2
+00:00:03,021 --> 00:00:07,726
+Eight forty six at night, over the Potomac River. This is the last minute.
+
+3
+00:00:08,866 --> 00:00:11,050
+Two aircraft are converging in the dark.
+
+4
+00:00:11,050 --> 00:00:14,794
+One is a regional jet, sixty four people aboard, circling to land.
+
+5
+00:00:14,794 --> 00:00:19,785
+The other is an Army Black Hawk, three aboard, flying a training route along the river.
+
+6
+00:00:20,933 --> 00:00:25,217
+The controller sees both. He calls the traffic. This is the real recording.
+
+7
+00:00:26,366 --> 00:00:36,966
+PAT two five, traffic just south of the Wilson Bridge, a C R J at twelve hundred feet, circling to runway three three.
+
+8
+00:00:38,100 --> 00:00:41,836
+The helicopter answers immediately. They have the traffic in sight.
+
+9
+00:00:41,836 --> 00:00:46,693
+They ask to keep their own separation from it, visually. The controller approves.
+
+10
+00:00:47,833 --> 00:00:51,464
+Ninety seconds later, the radar system decides it disagrees.
+
+11
+00:00:52,600 --> 00:00:58,634
+On the scope, an alarm begins. It names both aircraft, side by side, and it will not stop.
+
+12
+00:00:59,766 --> 00:01:03,166
+PAT two five, you have the C R J in sight?
+
+13
+00:01:04,299 --> 00:01:06,947
+Two point eight seconds later he transmits again.
+
+14
+00:01:06,947 --> 00:01:10,256
+And this is the transmission this entire story turns on.
+
+15
+00:01:11,399 --> 00:01:13,999
+PAT — [transmission interrupted] — C R J.
+
+16
+00:01:15,133 --> 00:01:18,862
+What the controller actually said was, pass behind the C R J.
+
+17
+00:01:18,862 --> 00:01:21,349
+But the words pass behind the never arrived.
+
+18
+00:01:21,349 --> 00:01:27,254
+For eight tenths of a second, the helicopter keyed its own microphone, and cut them out of the air.
+
+19
+00:01:28,399 --> 00:01:33,545
+Sixteen seconds after that, the tower calls a different aircraft, and never finishes the sentence.
+
+20
+00:01:34,666 --> 00:01:38,266
+American four seventy two, Washington Tower —
+
+21
+00:01:39,399 --> 00:01:42,170
+Sixty seven people died over the Potomac that night.
+
+22
+00:01:42,170 --> 00:01:46,478
+The deadliest air disaster in the United States in more than twenty three years.
+
+23
+00:01:47,599 --> 00:01:50,303
+A year later, federal investigators finished their work.
+
+24
+00:01:50,303 --> 00:01:54,021
+And what they found was not one mistake in one cockpit.
+
+25
+00:01:54,021 --> 00:01:58,753
+It was a warning that had already been given, in writing, fifteen thousand times.
+
+26
+00:01:59,899 --> 00:02:01,937
+You're watching Black Box Breakdown.
+
+27
+00:02:03,066 --> 00:02:09,753
+This is the Black Box breakdown of the Potomac midair collision, built entirely from the investigation's own evidence file.
+
+28
+00:02:10,900 --> 00:02:13,981
+Chapter one. The line that was never measured.
+
+29
+00:02:15,099 --> 00:02:18,486
+To understand the collision, you have to understand the map.
+
+30
+00:02:18,486 --> 00:02:24,581
+Washington has a network of published helicopter routes, drawn across some of the most restricted airspace on Earth.
+
+31
+00:02:25,699 --> 00:02:28,679
+The Black Hawk was flying one of them. Route four.
+
+32
+00:02:28,679 --> 00:02:33,745
+It runs along the eastern shore of the Potomac, past Hains Point, down to the Wilson Bridge.
+
+33
+00:02:34,866 --> 00:02:39,699
+And it passes directly underneath the approach path to runway three three at Washington National.
+
+34
+00:02:40,833 --> 00:02:45,798
+Investigators went to the F A A office that publishes that chart, and asked a simple question.
+
+35
+00:02:45,798 --> 00:02:47,259
+How wide is the route?
+
+36
+00:02:48,399 --> 00:02:50,349
+The answer is in the docket.
+
+37
+00:02:50,349 --> 00:02:53,922
+Helicopter routes as depicted on these charts had no lateral boundaries.
+
+38
+00:02:53,922 --> 00:02:55,221
+And then this sentence.
+
+39
+00:02:55,221 --> 00:03:01,068
+The lines drawn on the chart depicting a helicopter route are not scaled, and have no associated measurements.
+
+40
+00:03:02,199 --> 00:03:03,749
+The route had no width.
+
+41
+00:03:03,749 --> 00:03:09,948
+It was a line on a map, meant to be followed the way you follow a shoreline or a highway.
+
+42
+00:03:09,948 --> 00:03:13,667
+Not a corridor. Not a tunnel. A suggestion, drawn beside a runway.
+
+43
+00:03:14,799 --> 00:03:17,268
+Investigators asked how the routes were designed.
+
+44
+00:03:17,268 --> 00:03:19,384
+The specialists could not fully recollect.
+
+45
+00:03:19,384 --> 00:03:23,968
+They had mostly been developed decades ago, with minimal changes over the years.
+
+46
+00:03:25,099 --> 00:03:30,154
+Between twenty fourteen and June twenty twenty one, that chart was not changed at all.
+
+47
+00:03:30,154 --> 00:03:37,231
+One altitude, on a different route, near the South Capitol Street Bridge, was raised from two hundred feet to three hundred.
+
+48
+00:03:37,231 --> 00:03:38,578
+That was the change.
+
+49
+00:03:39,699 --> 00:03:45,214
+On the segment the Black Hawk was flying, the maximum published altitude was two hundred feet.
+
+50
+00:03:45,214 --> 00:03:50,383
+Above that, the route stops protecting anyone, because above that is where the jets are.
+
+51
+00:03:51,533 --> 00:03:55,086
+Chapter two. Fifteen thousand two hundred and fourteen.
+
+52
+00:03:56,233 --> 00:04:03,528
+In the weeks after the collision, an F A A safety programme handed investigators a set of numbers it had been collecting for years.
+
+53
+00:04:03,528 --> 00:04:06,264
+Nobody had ever assembled them into a question before.
+
+54
+00:04:07,399 --> 00:04:20,878
+Between October twenty twenty one and December twenty twenty four, at this one airport, there were fifteen thousand two hundred and fourteen occurrences in which an airliner and a helicopter came within one nautical mile of each other, and within four hundred feet vertically.
+
+55
+00:04:21,999 --> 00:04:22,618
+Fifteen thousand.
+
+56
+00:04:22,618 --> 00:04:27,563
+But the number that should have stopped everything is the smaller one, in the same sentence.
+
+57
+00:04:28,699 --> 00:04:38,370
+Eighty five times, in a little over three years, an airliner and a helicopter passed within fifteen hundred feet of each other laterally, and two hundred feet vertically.
+
+58
+00:04:38,370 --> 00:04:41,133
+Eighty five times, the same accident nearly happened.
+
+59
+00:04:42,266 --> 00:04:43,359
+This data existed.
+
+60
+00:04:43,359 --> 00:04:48,457
+It was being recorded, by the agency responsible for the airspace, the entire time.
+
+61
+00:04:49,599 --> 00:04:55,175
+So investigators asked how the F A A defined a close proximity event, and how it tracked them.
+
+62
+00:04:55,175 --> 00:04:58,272
+The finding is one line long, and it is devastating.
+
+63
+00:04:59,399 --> 00:05:05,512
+The F A A lacked a standardised approach to defining and tracking data that might be used to assess midair collision risk.
+
+64
+00:05:06,633 --> 00:05:08,477
+There was no system watching for this.
+
+65
+00:05:08,477 --> 00:05:16,115
+The board had to build its own group, after sixty seven people were dead, to go and find the warnings that had been sitting in the agency's own files.
+
+66
+00:05:17,233 --> 00:05:20,315
+Chapter three. What the tower could actually see.
+
+67
+00:05:21,433 --> 00:05:26,257
+To answer that, investigators went back to the tower cab at night and filmed it.
+
+68
+00:05:26,257 --> 00:05:30,759
+This is that recreation. This is the controller's own view, out over the river.
+
+69
+00:05:31,899 --> 00:05:34,816
+Look at how much of it is just lights.
+
+70
+00:05:34,816 --> 00:05:39,030
+A helicopter low over black water, against a city, is not a silhouette.
+
+71
+00:05:39,030 --> 00:05:42,270
+It is three small lights in a field of thousands.
+
+72
+00:05:43,399 --> 00:05:48,084
+Now the workload. That night, one controller was working two jobs at once.
+
+73
+00:05:48,084 --> 00:05:53,848
+The helicopter position and the local control position had been combined, and given to one person.
+
+74
+00:05:54,966 --> 00:05:58,423
+That is not unusual, and it is not against the rules.
+
+75
+00:05:58,423 --> 00:06:05,650
+It is a normal staffing decision, made on normal nights, at an airport the investigation would describe as regularly straining its own workforce.
+
+76
+00:06:06,799 --> 00:06:11,788
+And there is one more thing on that display, which almost nobody outside air traffic control knows.
+
+77
+00:06:12,933 --> 00:06:17,287
+Every altitude a controller sees is rounded. The docket states it plainly.
+
+78
+00:06:17,287 --> 00:06:22,729
+All altitudes, regardless of source, are rounded to the nearest hundred foot increment for display.
+
+79
+00:06:23,866 --> 00:06:31,095
+So a helicopter at two hundred and seventy eight feet, on a route with a two hundred foot ceiling, does not appear as a violation.
+
+80
+00:06:31,095 --> 00:06:32,541
+It appears as three hundred.
+
+81
+00:06:32,541 --> 00:06:36,300
+And three hundred, on a screen, next to twelve hundred, looks like room.
+
+82
+00:06:37,433 --> 00:06:40,986
+Chapter four. The instrument that told them they were lower.
+
+83
+00:06:42,133 --> 00:06:45,442
+The Black Hawk was at two hundred and seventy eight feet when it was hit.
+
+84
+00:06:45,442 --> 00:06:48,089
+Seventy eight feet above the maximum for the route it was on.
+
+85
+00:06:49,233 --> 00:06:52,715
+The obvious explanation is that the crew climbed and did not notice.
+
+86
+00:06:52,715 --> 00:06:55,036
+The investigation found something harder to live with.
+
+87
+00:06:55,036 --> 00:06:57,357
+They may not have been able to notice.
+
+88
+00:06:58,499 --> 00:07:02,734
+The Army and the manufacturer handed over flight test data for the U H sixty.
+
+89
+00:07:02,734 --> 00:07:07,250
+It shows that the barometric altimeter in this helicopter does not read true at low speed.
+
+90
+00:07:08,399 --> 00:07:13,320
+In a hover, the rotor's own downwash pushes the reading down by as much as eighty feet.
+
+91
+00:07:13,320 --> 00:07:16,793
+By thirty knots the error falls to about thirty five feet low.
+
+92
+00:07:16,793 --> 00:07:19,397
+By a hundred and twenty knots it clears entirely.
+
+93
+00:07:20,533 --> 00:07:23,430
+And this particular airframe carried external fuel tanks.
+
+94
+00:07:23,430 --> 00:07:25,603
+Investigators flew three helicopters to check.
+
+95
+00:07:25,603 --> 00:07:28,501
+All three read lower than their true altitude.
+
+96
+00:07:28,501 --> 00:07:33,934
+The one with the tanks, like the accident aircraft, was worse, by another fifty feet.
+
+97
+00:07:35,066 --> 00:07:41,200
+So the instrument in front of that crew was, by design, capable of telling them they were lower than they were.
+
+98
+00:07:41,200 --> 00:07:44,705
+Which brings the only question that matters. Did anyone tell them that?
+
+99
+00:07:45,833 --> 00:07:46,932
+The board's finding.
+
+100
+00:07:46,932 --> 00:07:54,626
+The Army did not ensure that helicopter pilots were adequately informed about the effects of allowable error tolerances in barometric altimeters.
+
+101
+00:07:54,626 --> 00:08:00,122
+As a result, the accident helicopter crew was flying above the published maximum route altitude.
+
+102
+00:08:01,266 --> 00:08:04,270
+Chapter five. The approach they were never told about.
+
+103
+00:08:05,399 --> 00:08:08,317
+Here is the part almost every account of this crash gets wrong.
+
+104
+00:08:08,317 --> 00:08:11,478
+It is not that the crew looked at the jet and misjudged it.
+
+105
+00:08:11,478 --> 00:08:14,881
+It is that they were almost certainly never looking at the jet at all.
+
+106
+00:08:15,999 --> 00:08:20,148
+Flight five three four two was originally set up to land on runway one.
+
+107
+00:08:20,148 --> 00:08:24,593
+Late in the approach, the tower asked whether they could take runway three three instead.
+
+108
+00:08:24,593 --> 00:08:25,481
+They said yes.
+
+109
+00:08:26,599 --> 00:08:27,774
+That change matters enormously.
+
+110
+00:08:27,774 --> 00:08:35,115
+It swings the jet across the river, into a circling turn, into a piece of sky the helicopter crew had no reason to be searching.
+
+111
+00:08:36,233 --> 00:08:40,752
+And the helicopter, according to the final report, never received that information.
+
+112
+00:08:41,899 --> 00:08:53,866
+Due to degraded radio reception, the crew did not receive information about the airplane's circling approach to a different runway, which reinforced an incorrect expectation that the airplane did not pose a conflict.
+
+113
+00:08:53,866 --> 00:09:03,293
+That expectation shaped the crew's visual scan, and led the instructor pilot to report traffic in sight, and request visual separation, without positively identifying the airplane.
+
+114
+00:09:04,433 --> 00:09:07,048
+Read that again. Without positively identifying the airplane.
+
+115
+00:09:07,048 --> 00:09:11,951
+When that crew said they had the traffic in sight, they had something in sight.
+
+116
+00:09:11,951 --> 00:09:17,181
+In an airspace with a dozen aircraft moving at once, over a city made of lights.
+
+117
+00:09:18,299 --> 00:09:25,221
+And the one transmission that would have corrected them, the instruction to pass behind, was the transmission their own radio cut in half.
+
+118
+00:09:26,366 --> 00:09:29,946
+It is written into the transcript itself, as a bracketed note.
+
+119
+00:09:29,946 --> 00:09:34,177
+Transmission interrupted by zero point eight second mic key from PAT twenty five.
+
+120
+00:09:35,299 --> 00:09:37,241
+The instruction was never read back.
+
+121
+00:09:37,241 --> 00:09:41,124
+The controller heard them ask again for visual separation, and approved it.
+
+122
+00:09:41,124 --> 00:09:45,330
+Everyone on that frequency believed the problem was being handled by someone else.
+
+123
+00:09:46,466 --> 00:09:49,235
+Chapter six. See and avoid.
+
+124
+00:09:50,366 --> 00:09:54,865
+Everything you have just heard rests on a single idea, and that idea is very old.
+
+125
+00:09:54,865 --> 00:09:56,552
+It is called see and avoid.
+
+126
+00:09:56,552 --> 00:10:01,050
+The pilot looks out of the window, finds the other aircraft, and stays away from it.
+
+127
+00:10:02,199 --> 00:10:09,259
+When a crew requests visual separation and a controller approves it, the controller hands the job of not colliding to the human eye.
+
+128
+00:10:09,259 --> 00:10:14,477
+It is efficient. It moves traffic. At a saturated airport, it is how the day gets done.
+
+129
+00:10:15,599 --> 00:10:18,595
+The board's verdict on that practice is unusually blunt.
+
+130
+00:10:18,595 --> 00:10:27,250
+It calls it an overreliance on visual separation, in order to promote efficient traffic flow, without consideration for the limitations of the see and avoid concept.
+
+131
+00:10:28,399 --> 00:10:32,250
+So what about the technology? Both aircraft had collision avoidance equipment.
+
+132
+00:10:32,250 --> 00:10:35,400
+Neither one saved them, and the reasons are specific.
+
+133
+00:10:36,533 --> 00:10:44,895
+The jet's system will warn a crew about traffic, but below about a thousand feet above the ground, it is deliberately barred from telling them to climb or descend.
+
+134
+00:10:44,895 --> 00:10:46,913
+On short final, that is by design.
+
+135
+00:10:46,913 --> 00:10:51,527
+You do not want a machine flying a jet into the ground to avoid a target.
+
+136
+00:10:52,666 --> 00:10:57,212
+And the helicopter was not transmitting on the newer surveillance system. Not illegally.
+
+137
+00:10:57,212 --> 00:11:01,757
+It was operating under a standing Defence Department exemption that permitted exactly that.
+
+138
+00:11:02,899 --> 00:11:08,146
+That distinction matters, and it is worth saying clearly, because it has been reported badly.
+
+139
+00:11:08,146 --> 00:11:13,042
+Nobody switched anything off to hide. Both aircraft were on radar the whole time.
+
+140
+00:11:13,042 --> 00:11:15,490
+The exemption was policy, written down, approved.
+
+141
+00:11:16,633 --> 00:11:24,590
+But there is a receiver, costing between fifteen hundred and three thousand dollars, that would have put the other aircraft on a screen in front of both crews.
+
+142
+00:11:24,590 --> 00:11:28,284
+The board has recommended it seventeen separate times since two thousand and six.
+
+143
+00:11:29,433 --> 00:11:32,829
+Chapter seven. The last fifty eight seconds.
+
+144
+00:11:33,966 --> 00:11:39,011
+What follows comes from the helicopter's cockpit voice recorder, as published in the investigation docket.
+
+145
+00:11:39,011 --> 00:11:42,710
+The audio has never been released, and it never will be.
+
+146
+00:11:42,710 --> 00:11:44,728
+Federal law permits the transcript only.
+
+147
+00:11:45,866 --> 00:11:51,280
+So the lines you are about to hear are read by a voice actor, from the printed record.
+
+148
+00:11:51,280 --> 00:11:52,483
+The words are exact.
+
+149
+00:11:52,483 --> 00:11:56,091
+The brackets, where investigators were unsure of a word, are exact too.
+
+150
+00:11:56,091 --> 00:11:57,595
+I have left them in.
+
+151
+00:11:58,733 --> 00:12:03,563
+PAT two five has, uh, aircraft in sight. Request visual separation.
+
+152
+00:12:04,699 --> 00:12:11,578
+Three and a half seconds later, one of the crew says a single word, and investigators could not agree on which word it was.
+
+153
+00:12:11,578 --> 00:12:14,730
+It is written in the transcript as either woah, or below.
+
+154
+00:12:15,866 --> 00:12:16,542
+Woah.
+
+155
+00:12:17,666 --> 00:12:21,137
+Alright, kinda come left for me, ma'am. I think that's why he's asking.
+
+156
+00:12:22,266 --> 00:12:23,845
+I think that's why he's asking.
+
+157
+00:12:23,845 --> 00:12:29,109
+Five and a half seconds before impact, the instructor pilot is still trying to work out what the controller wanted.
+
+158
+00:12:29,109 --> 00:12:32,793
+Because the part that would have told him was cut out of the transmission.
+
+159
+00:12:33,933 --> 00:12:36,696
+Sure. We're kinda... out towards the middle.
+
+160
+00:12:37,833 --> 00:12:42,358
+The next entry in the transcript is the tower, calling another aircraft.
+
+161
+00:12:42,358 --> 00:12:46,506
+Beside it, investigators wrote four words. Transmission cut off by impact.
+
+162
+00:12:47,633 --> 00:12:52,047
+One and a half seconds after that, the recorder captures an emergency locator signal.
+
+163
+00:12:52,047 --> 00:12:56,462
+Then a master caution alarm begins, and continues to the end of the recording.
+
+164
+00:12:57,599 --> 00:13:00,872
+The recording ends at eight forty eight and four seconds.
+
+165
+00:13:00,872 --> 00:13:03,163
+Six point four seconds after the collision.
+
+166
+00:13:04,299 --> 00:13:08,482
+Sixty four people were aboard the airplane. Three were aboard the helicopter.
+
+167
+00:13:08,482 --> 00:13:15,453
+Among the passengers were young figure skaters, their parents and their coaches, flying home from a development camp in Wichita.
+
+168
+00:13:16,599 --> 00:13:18,166
+There were no survivors.
+
+169
+00:13:19,299 --> 00:13:21,572
+Chapter eight. The verdict.
+
+170
+00:13:22,699 --> 00:13:29,407
+On the twenty seventh of January, twenty twenty six, the board met in public and voted on a cause.
+
+171
+00:13:29,407 --> 00:13:31,172
+Seventy four findings. Fifty recommendations.
+
+172
+00:13:31,172 --> 00:13:35,055
+And one paragraph that had to be agreed word by word.
+
+173
+00:13:36,199 --> 00:13:43,467
+The probable cause of this accident was the Federal Aviation Administration's placement of a helicopter route in close proximity to a runway approach path.
+
+174
+00:13:43,467 --> 00:13:47,101
+Their failure to regularly review and evaluate helicopter routes and available data.
+
+175
+00:13:47,101 --> 00:13:52,552
+And their failure to act on recommendations to mitigate the risk of a midair collision at this airport.
+
+176
+00:13:53,699 --> 00:13:54,434
+It continues.
+
+177
+00:13:54,434 --> 00:14:05,088
+As well as the air traffic system's overreliance on visual separation, in order to promote efficient traffic flow, without consideration for the limitations of the see and avoid concept.
+
+178
+00:14:06,233 --> 00:14:11,113
+And then, because an honest report does not stop where it is comfortable, this.
+
+179
+00:14:11,113 --> 00:14:16,342
+Also causal was the lack of effective pilot applied visual separation by the helicopter crew.
+
+180
+00:14:17,466 --> 00:14:20,691
+That sentence deserves care. It is not a verdict of recklessness.
+
+181
+00:14:20,691 --> 00:14:31,833
+It sits inside a paragraph that spends most of its length on the agency that drew the route, the system that leaned on the human eye, and an Army that never told its pilots their altimeters read low.
+
+182
+00:14:32,966 --> 00:14:35,343
+The tower team is in there too.
+
+183
+00:14:35,343 --> 00:14:42,135
+Loss of situation awareness, and degraded performance, due to the high workload of the combined helicopter and local control positions.
+
+184
+00:14:43,266 --> 00:14:49,800
+And among the contributing factors, one line that reads like an indictment of everything that came before it.
+
+185
+00:14:49,800 --> 00:14:57,059
+An unsustainable airport arrival rate, and airline scheduling practices, which regularly strained the tower workforce, and degraded safety over time.
+
+186
+00:14:58,199 --> 00:15:00,148
+So what happened to route four?
+
+187
+00:15:00,148 --> 00:15:07,290
+Within weeks of the crash, after urgent recommendations, the F A A closed the segment between Hains Point and the Wilson Bridge.
+
+188
+00:15:08,433 --> 00:15:14,658
+And then, on the chart update effective the twelfth of June, twenty twenty five, route four was eliminated altogether.
+
+189
+00:15:14,658 --> 00:15:19,901
+Four months after it killed sixty seven people, the line was simply removed from the map.
+
+190
+00:15:21,033 --> 00:15:27,879
+In January twenty twenty six the agency went further, restricting the use of runways fifteen and three three whenever helicopters are operating nearby.
+
+191
+00:15:27,879 --> 00:15:32,344
+The two things that could not safely share that sky are now not allowed to.
+
+192
+00:15:33,466 --> 00:15:39,500
+I want to be careful about what this story is, because it would be easy to tell it as a story about three seconds of radio.
+
+193
+00:15:40,633 --> 00:15:44,930
+It is true that if those three words had arrived, this probably does not happen.
+
+194
+00:15:44,930 --> 00:15:49,227
+Pass behind the C R J. Eight tenths of a second of someone else's microphone.
+
+195
+00:15:50,366 --> 00:15:54,723
+But a system that only works when every transmission arrives intact is not a safe system.
+
+196
+00:15:54,723 --> 00:15:59,352
+It is a lucky one. And the file shows exactly how long the luck had been holding.
+
+197
+00:16:00,499 --> 00:16:09,668
+Eighty five times, an airliner and a helicopter had already come that close over this river, and every one of those was recorded, and none of them was ever added up into a question.
+
+198
+00:16:10,799 --> 00:16:15,462
+The route had no width. The screen rounded the altitude. The altimeter read low.
+
+199
+00:16:15,462 --> 00:16:19,459
+The instruction was cut in half. Any one of those is survivable.
+
+200
+00:16:19,459 --> 00:16:24,121
+The investigation's real finding is that nobody was counting how many were stacking up.
+
+201
+00:16:25,266 --> 00:16:30,139
+Everything in this video came from one public evidence file. The tower audio was real.
+
+202
+00:16:30,139 --> 00:16:31,438
+The transcript was real.
+
+203
+00:16:31,438 --> 00:16:37,935
+The radar display was real, and so was the alarm on it, with both callsigns already printed side by side.
+
+204
+00:16:39,066 --> 00:16:42,697
+It had been telling the truth for twenty five seconds before anyone died.
+
+205
+00:16:43,833 --> 00:16:53,189
+If the way that route was drawn shocked you, wait until you see what one badly signed repair did to Japan Airlines one two three, the deadliest single aircraft disaster in history.
+
+206
+00:16:53,189 --> 00:16:54,943
+It is on the channel now.
+
+207
+00:16:54,943 --> 00:17:00,499
+And if you want these built from the real documents instead of the headlines, subscribe to Black Box Breakdown.
+

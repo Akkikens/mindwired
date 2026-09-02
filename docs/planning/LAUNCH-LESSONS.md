@@ -15,6 +15,227 @@ proceeds; no-human-available records BLOCKED-ON-DATA and proceeds.
 | Black Box Breakdown | TBD (observed de-facto: near-daily, mornings — Akshay to confirm a fixed slot or bless the daily cadence) |
 | mindwired | TBD (same observation) |
 
+## ⚠ CORRECTION — 2026-09-02: the title-stance thesis was overstated
+
+The 2026-09-01 LONG-FORM DIAGNOSIS below cited Mindwired's Bermuda title as
+"Is the BERMUDA TRIANGLE Story FAKE?" and argued a *debunk-stance* defect.
+**That is not the live title.** Verified 2026-09-02 via yt-dlp:
+
+| Live Mindwired title | Views | Runtime | @official-yesterday, same title |
+|---|---|---|---|
+| "Why is the Bermuda Triangle still killing people?" | **178** | 21.6 min | 1,333,269 |
+| "Why the Mariana Trench Still Terrifies Scientists" | **195** | 7.8 min | 1,993,872 |
+
+Both are **verbatim clones of YESTERDAY's titles**, and both flopped. So:
+
+1. **Title stance was NOT the differentiator.** The strongest possible title, copied
+   exactly, moved nothing. ctr-engine already says this — *"verbatim clones of big
+   titles demonstrably flop on cold channels; riff, don't copy."* Now twice-evidenced
+   on this channel's own uploads. **Keep that rule; drop the claim that the debunk
+   phrasing caused the Bermuda result.**
+2. **The length finding SURVIVES and is strengthened.** The Mariana pair is a clean
+   controlled comparison: identical title, 7.8 min vs 32.2 min, 195 views vs 1.99M.
+   Same words, same topic, same year — the variable left is runtime (plus channel
+   authority and cadence).
+3. **A cold channel cannot inherit a big channel's authority by wearing its words.**
+   Copy the *format* (length, pacing, research depth); write your own title.
+
+### And the framing correction that matters most
+Akshay's read was "my views are down". **They are not.** July median 191 on 26
+uploads; August median 158 on 16. Flat. The channel's real baseline has always been
+100-400/video. What happened is that ONE video — "21 ASTRONAUTS Never Came Home",
+2026-07-12, **79,680 views** — is ~90% of all channel views ever, and every upload
+since is being measured against an outlier. There was no decline to explain.
+The real defect is **42 documentaries published in two months**.
+
+## DIAGNOSIS — projecthailmary (mindwired), banked 2026-09-02 — FIRST REAL STUDIO DATA
+
+Published **2026-08-31**. Numbers as reported by Akshay from Studio, ~2 days post-publish.
+**This closes the BLOCKED-ON-DATA state open since 2026-08-26.**
+
+| Metric | This video | Channel/industry benchmark | Read |
+|---|---|---|---|
+| Views (~48h) | **86** | Mindwired median lifetime 169 | on pace for "typical" |
+| **Runtime (derived)** | **~11.5 min** (196s AVD ÷ 28.4%) | **35-40 min target** | **less than a third of target** |
+| AVD | 3:16 (**28.4%**) | 35-45% "strong" band | **BELOW the band** |
+| CTR | **1.8%** | 3.5-5% is *statistically normal* | **HALF of normal** |
+| Likes / comments | 1 / 0 | — | no engagement signal |
+
+### The trap in the report Akshay was given
+The analytics summary says the video is *"matching the typical performance for your
+channel across its core metrics."* **That is the finding, not the reassurance.**
+Typical for this channel is a 169-view median and a catalogue where one video holds
+90% of all views ever. Matching typical IS the failure mode. Any diagnosis that
+grades a video against this channel's own average will always say "fine".
+
+### What it actually confirms
+1. **The length diagnosis holds.** 11.5 minutes → 86 views. The 2026-09-01 LONG-FORM
+   DIAGNOSIS above predicted exactly this: @official-yesterday's 31-43 min uploads
+   median 383,507 views; Mindwired's 13m43s median → 169. This is another data point
+   on the same line, and it is the channel's most recent upload.
+2. **AVD is NOT "consistent with typical" in the way that matters.** 28.4% sits below
+   the 35-45% strong band the hook-doctor skill cites — and below the ~37% this
+   channel has hit before. So retention is soft *as well as* short.
+3. **CTR 1.8% is the real alarm.** launch-diagnosis says 3.5-5% blended is normal.
+   1.8% is half that. Packaging underperformed, and it is the one lever fully under
+   our control.
+4. **Title stance, again.** "Project Hail Mary's Science Is More Real Than You Think"
+   **resolves its own question in the title** — it tells you the answer (it's real)
+   before the click. Same defect as the Bermuda debunk title (176 views). The
+   2026-09-01 title-stance rule stands and is now twice-evidenced.
+
+### Actions carried into the next episode (colossalsquid, in render 2026-09-02)
+- **35.2 min**, not 11.5. ✅ already built that way.
+- Title **"Nobody Has Ever Seen a Full-Grown Colossal Squid"** — states an absence,
+  resolves nothing, and stays literally true. ✅
+- Thumbnail: **zero text**, one unidentifiable focal object (the arm hooks). Directly
+  targets the 1.8% CTR problem. ✅ — and it must ship as a real image FILE, not a
+  concept (the 2026-08-03 audit defect).
+- **Pinned comment must ask a real question.** 0 comments on a hard-science deep dive
+  is a discovery drag. For colossalsquid the natural one: *no adult has ever been
+  seen — do you think that's because they avoid our lights, or because we've been
+  looking in the wrong place?* That is a genuine open scientific dispute, not
+  engagement-bait.
+- **Single-video end screen at the verbal bridge.** The colossalsquid script's bridge
+  names "21 Astronauts Never Came Home" explicitly; place the end screen there.
+
+### Owed
+- 48h re-pull for projecthailmary once it is past the window (impressions count,
+  traffic-source split) — the above is a 2-day snapshot, not a settled diagnosis.
+- Same for colossalsquid 48h after publish. **Do not queue another render until that
+  diagnosis is banked** (doc-episode Step 2 item 6 cadence rule).
+
+## LONG-FORM DIAGNOSIS — 2026-09-01 (Akshay: "I WANT HIGH VIEWS LONG FORMS")
+
+Public `yt-dlp --dump-json` pull of Mindwired's full 43-upload long-form catalogue
+against the small-channel long-form breakouts surfaced in the same day's Icahn
+sweeps. **This is the most actionable finding banked in this file. Read it before
+planning another episode.**
+
+### The head-to-head that removes topic from the argument
+
+Two topics Mindwired and @official-yesterday BOTH covered, same lane, same year:
+
+| Topic | Mindwired | YESTERDAY |
+|---|---|---|
+| **Bermuda Triangle** | "Is the BERMUDA TRIANGLE Story FAKE?" — **21m34s → 176 views** | "Why is the Bermuda Triangle still killing people?" — **34m29s → 1,333,269 views** |
+| **Mariana Trench** | "The Place on Earth Scarier Than Space" — **7m51s → 195 views** | "Why the Mariana Trench Still Terrifies Scientists" — **32m22s → 1,993,872 views** |
+
+Same subjects. ~7,600x and ~10,200x. The topic gate was never the thing that
+failed on these two — icahn-validate passed both, correctly. What differs is
+length, cadence, and title stance.
+
+### Finding 1 — length. The winners in this lane make 35-40 minute documentaries.
+
+| | Mindwired | YESTERDAY | BlackWater |
+|---|---|---|---|
+| Subs | 1,320 | 103,000 | 32,300 |
+| Uploads | 43 | 19 | 5 |
+| **Median duration** | **13m43s** | **38m24s** | **15m36s** |
+| Duration spread | 3m - 115m, all over | **31m - 43m, every single one** | 13m - 17m |
+| **Median views** | **169** | **383,507** | **470,643** |
+
+YESTERDAY has **zero uploads under 20 minutes** across 19 videos. Not one.
+Mindwired has 19 of 43 under 12 minutes.
+
+**Mindwired's own catalogue already says this.** Its single hit — "21 ASTRONAUTS
+Never Came Home", 79,672 views, 90% of all channel views ever — is **49m11s**, the
+longest real documentary on the channel. The #2 video is 778 views at 21m57s. The
+channel has already run this experiment once and won it.
+
+### Finding 2 — cadence. 42 uploads in two months is actively harmful.
+
+Mindwired uploads by month: **2026-06: 1, 2026-07: 26, 2026-08: 16.**
+YESTERDAY: **19 uploads across 9 months** (~1 per 2-3 weeks), median 383,507.
+
+Twenty-six long-form documentaries in a single month is a content-farm signature.
+It splits every test pool, and it teaches the algorithm the channel produces
+low-engagement content. A 35-minute documentary cannot be made well at that rate,
+and the catalogue shows it: the July burst is where the 100-and-200-view videos
+cluster.
+
+### Finding 3 — title stance. Do not debunk. Debunking answers the question.
+
+Mindwired's Bermuda title — "Is the BERMUDA TRIANGLE Story FAKE?" — and its caption
+file "The Bermuda Triangle Isn't Real. Here's Proof." both **resolve the mystery in
+the title**. A viewer who reads "it's fake" has no reason left to click.
+YESTERDAY's — "Why is the Bermuda Triangle **still killing people?**" — presupposes
+the mystery, and promises an answer it withholds. Same grammar on the trench:
+"Why the Mariana Trench **Still Terrifies Scientists**."
+
+Every YESTERDAY title takes an unresolved stance. This is a ctr-engine constraint
+now: **the title may not settle the question the video exists to ask.**
+
+### The prescription
+
+1. **35-40 minutes, or don't ship it.** Kill the 7-12 minute format for this channel.
+2. **One episode every 2-3 weeks.** Stop the burst uploads.
+3. **Unresolved-stance titles.** No debunks, no "is it fake", no "here is proof".
+4. Keep icahn-validate exactly as it is — it was never the broken part.
+
+### Caveat
+Public view counts only; no impressions/CTR/retention. The Studio numbers owed
+since 2026-08-26 would confirm whether the short videos also died on retention or
+were never served at all. The length correlation is strong and internally
+corroborated, but it is correlation.
+
+## PUBLIC-DATA DIAGNOSIS — 2026-09-01 (partial; supersedes nothing, still owes Studio numbers)
+
+Triggered by Akshay: "why our videos arent getting any views man". Full public
+pull via `yt-dlp --dump-json` over every tab of all four channels, 2026-09-01.
+These are PUBLIC view counts only — no impressions, CTR or retention, so this is
+a diagnosis of *distribution shape*, not of packaging. The Studio numbers owed
+since the 2026-08-26 BLOCKED-ON-DATA entry are still owed.
+
+| Channel | Subs | Long-form | LF total views | LF median | Shorts | Shorts total | Shorts median |
+|---|---|---|---|---|---|---|---|
+| Mindwired (@mindwiredd) | 1,320 | 43 | 88,849 | **169** | 75 | **948** | **6** |
+| Black Box Breakdown | 781 | 27 | 61,020 | 549 | 19 | 5,082 | 202 |
+| Criminal Record | — | 3 | — | — | 0 | — | — |
+| DimaagBatti | 87 | 12 | 623 | — | 2 | 623 | — |
+| *(reference)* **@sid.curious** | **350,000** | **0** | — | — | **72** | **128,322,000** | **1,200,000** |
+
+### Finding 1 — both channels are single-hit channels
+Mindwired: "21 ASTRONAUTS Never Came Home" = 79,672 of 88,849 total = **90% of all
+channel views in one video**. The other 42 long-forms share 9,177 views.
+Black Box: MH370 = 40,257 of 61,020 = **66%**. The other 26 share 20,763.
+Two videos out of 70 have ever worked. This is consistent with icahn-validate's
+founding thesis (topic demand sizes the pool) and with the fact that the gate only
+started existing partway through — most of this catalogue predates it.
+
+### Finding 2 — the Shorts operation is the emergency, and it is not close
+**75 Shorts → 948 total views. Median 6.** Not 6 thousand. Six. Twenty-nine of them
+are under 10 views. At that level YouTube is not testing the video at all — that is
+a delivery-shaped number, not a quality-shaped one.
+Against the reference: @sid.curious published **72 Shorts** — within three of the
+same count — and took **128,322,000** views, median 1,200,000, floor ~300K, in four
+months from a standing start. Same upload count, ~135,000x the total.
+CLAUDE.md already names subscriber growth as the #1 problem and shorts-funnel as
+the answer to it. The funnel has now had 75 attempts and returns 6 views a piece.
+
+### Finding 3 — what differs, honestly scoped
+Established from the data:
+- **Master format.** sid.curious masters at 2160x3840 (4K vertical) 30fps. What
+  `src/viral` currently outputs has NOT been checked — do that.
+- **Shorts as product vs. Shorts as offcut.** Every mindwired Short maps to a
+  shipped long-form (Green Boots, the USSR man, the space sounds, Laika). They are
+  trailers. Every sid.curious Short is a self-contained idea that resolves inside
+  itself. The Shorts feed does not reward trailers for your other video.
+- **Lane coherence.** Mindwired's Shorts mix Everest, Soviet space dogs, a Navy
+  jet UAP, a space cat. sid.curious does one thing: one science "why". This is the
+  same mixed-identity failure CLAUDE.md already diagnosed when it parked the
+  gaming/tech lane — it is now visibly repeating inside the Shorts feed.
+
+**NOT established, and it may dominate everything above:** nobody has watched a
+single sid.curious Short. Akshay's read is that they look "perfect." The actual
+visual craft — footage sourcing, grade, typography, motion, cut rhythm, the first
+1.5 seconds — is completely unexamined. Do not rebuild anything visual off this
+diagnosis alone.
+
+**Mechanical check owed first:** before treating 6-view Shorts as a creative
+problem, verify the uploads are actually public, correctly 9:16, have audio, and
+are not age-gated or flagged. A number that low deserves that check first.
+
 ## BLOCKED-ON-DATA — 2026-08-26
 
 Most recent Black Box upload (Swissair 111, TXgg2Qy1Oa0, published ~2026-08-25)

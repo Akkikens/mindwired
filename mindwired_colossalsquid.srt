@@ -1,0 +1,1676 @@
+1
+00:00:00,333 --> 00:00:03,042
+It is the second week of March, twenty twenty five.
+
+2
+00:00:03,042 --> 00:00:07,647
+Two of the world's leading squid scientists have just come off a ship, and they have failed.
+
+3
+00:00:08,766 --> 00:00:12,287
+For five weeks they had been lowering a camera into the Southern Ocean.
+
+4
+00:00:12,287 --> 00:00:13,912
+A rig built for one purpose.
+
+5
+00:00:15,033 --> 00:00:19,239
+To film a full-grown colossal squid. The heaviest invertebrate on Earth.
+
+6
+00:00:20,366 --> 00:00:23,370
+Nobody had ever done it. Not once in a hundred years.
+
+7
+00:00:24,499 --> 00:00:29,097
+They didn't do it either. The gear was packed. They had said their goodbyes to everybody.
+
+8
+00:00:30,233 --> 00:00:34,909
+And then, in a rented flat in southern Argentina, Kat Bolstad opened a file.
+
+9
+00:00:36,033 --> 00:00:40,160
+In her own words. There was a moment. It was a very specific moment.
+
+10
+00:00:41,299 --> 00:00:42,658
+A low resolution clip.
+
+11
+00:00:42,658 --> 00:00:49,110
+Something pale, drifting at six hundred metres, filmed the day before by somebody else's robot, on a different ocean.
+
+12
+00:00:50,233 --> 00:00:51,892
+She could not be sure.
+
+13
+00:00:51,892 --> 00:00:55,875
+In this family of squid, almost everything looks like almost everything else.
+
+14
+00:00:56,999 --> 00:01:00,787
+So she asked for the high resolution version. And she went looking for hooks.
+
+15
+00:01:01,933 --> 00:01:05,252
+Suckers near the beak. Then hooks midway along the arm.
+
+16
+00:01:05,252 --> 00:01:09,900
+Then suckers again toward the tips. Nothing else on Earth is built that way.
+
+17
+00:01:11,033 --> 00:01:13,541
+And I was like, yeah, they've got it.
+
+18
+00:01:14,666 --> 00:01:18,950
+Her colleague Aaron Evans put it more plainly. I started hyperventilating.
+
+19
+00:01:20,099 --> 00:01:23,730
+After one hundred years of corpses, we finally had one alive.
+
+20
+00:01:24,866 --> 00:01:27,792
+It was thirty centimetres long. It was a baby.
+
+21
+00:01:28,933 --> 00:01:35,620
+And the adult, the four hundred and ninety five kilogram animal this species is famous for, has still never been seen alive by anyone.
+
+22
+00:01:36,766 --> 00:01:43,004
+This is the story of an animal we named a hundred years ago, from two crowns of arms cut out of a sperm whale's stomach.
+
+23
+00:01:43,004 --> 00:01:46,248
+And of the one hundred years we spent never seeing a grown one.
+
+24
+00:01:47,366 --> 00:01:50,057
+Chapter one. What the whale was carrying.
+
+25
+00:01:51,199 --> 00:01:55,593
+Start with the thing that makes this animal different from every other famous creature in the sea.
+
+26
+00:01:55,593 --> 00:01:58,435
+We did not find it. We found it inside something else.
+
+27
+00:01:59,566 --> 00:02:01,566
+The winter of nineteen twenty four.
+
+28
+00:02:01,566 --> 00:02:06,567
+South Georgia, in the far south Atlantic, is the centre of the world's whaling industry.
+
+29
+00:02:07,699 --> 00:02:10,975
+Men are cutting open sperm whales on an industrial scale.
+
+30
+00:02:10,975 --> 00:02:16,215
+And inside the stomachs, again and again, they are finding parts of something they cannot name.
+
+31
+00:02:17,333 --> 00:02:19,762
+Two of those parts reach the British Museum in London.
+
+32
+00:02:20,899 --> 00:02:22,340
+Not tentacles. Not beaks.
+
+33
+00:02:22,340 --> 00:02:27,743
+Two crowns of arms, from two different animals, cut out of a sperm whale's stomach.
+
+34
+00:02:28,866 --> 00:02:35,292
+A zoologist named Guy Coburn Robson describes them in nineteen twenty five, in the Annals and Magazine of Natural History.
+
+35
+00:02:36,433 --> 00:02:42,163
+He gives it a genus of its own. Mesonychoteuthis. It means, roughly, middle claw squid.
+
+36
+00:02:42,163 --> 00:02:45,602
+Remember that. It will matter a hundred years later.
+
+37
+00:02:46,733 --> 00:02:49,580
+The species name honours a man called Hamilton.
+
+38
+00:02:49,580 --> 00:02:58,122
+Almost certainly James Erik Hamilton, the Falkland Islands government naturalist, who spent whaling seasons living on Deception Island and shipping specimens back to London.
+
+39
+00:02:59,266 --> 00:03:02,578
+Almost certainly. Robson's own paper is not something we could read.
+
+40
+00:03:02,578 --> 00:03:04,987
+There is no open scan of it anywhere.
+
+41
+00:03:06,133 --> 00:03:09,394
+We are not even certain where the whale was killed.
+
+42
+00:03:09,394 --> 00:03:13,634
+One source says fifty miles north of Smith Island, in the South Shetlands.
+
+43
+00:03:13,634 --> 00:03:16,895
+Another says the Falklands. Those are fifteen hundred kilometres apart.
+
+44
+00:03:18,033 --> 00:03:20,534
+The likeliest answer is boring and human.
+
+45
+00:03:20,534 --> 00:03:25,536
+In nineteen twenty five the South Shetlands were administered as the Falkland Islands Dependencies.
+
+46
+00:03:25,536 --> 00:03:29,109
+Somewhere along the line, a filing label became a location.
+
+47
+00:03:30,233 --> 00:03:33,878
+That is the founding record of the largest invertebrate on the planet.
+
+48
+00:03:33,878 --> 00:03:38,435
+Two sets of arms, an uncertain map reference, and a paper almost nobody has read.
+
+49
+00:03:39,566 --> 00:03:42,492
+Chapter two. How many have we actually found.
+
+50
+00:03:43,633 --> 00:03:48,231
+Here is a question that sounds simple. How many colossal squid have humans ever found?
+
+51
+00:03:49,366 --> 00:03:54,138
+Te Papa, the museum in New Zealand that holds the most famous specimen, says eight adults.
+
+52
+00:03:54,138 --> 00:03:56,524
+Six of them out of sperm whale stomachs.
+
+53
+00:03:57,666 --> 00:04:06,025
+A twenty fifteen audit of ocean giants counts twelve complete specimens, half of them juveniles, plus fifty five records that are nothing but a beak.
+
+54
+00:04:07,166 --> 00:04:11,211
+A review of the species counts about a hundred and fifty five animals caught in nets.
+
+55
+00:04:11,211 --> 00:04:14,245
+Another paper counts a hundred and eighty eight positions on a map.
+
+56
+00:04:15,366 --> 00:04:20,673
+Every one of those numbers is correct. They are counting different things. Bodies.
+
+57
+00:04:20,673 --> 00:04:21,897
+Arm crowns. Beaks.
+
+58
+00:04:23,033 --> 00:04:24,582
+And the beaks multiply fast.
+
+59
+00:04:24,582 --> 00:04:30,160
+One study of sleeper sharks off the Kerguelen Islands pulled eighty nine beaks out of twenty two sharks.
+
+60
+00:04:30,160 --> 00:04:32,019
+At least forty nine individual squid.
+
+61
+00:04:33,166 --> 00:04:39,435
+One paper, one shark's stomach at a time, out-counting every intact colossal squid ever recovered.
+
+62
+00:04:40,566 --> 00:04:42,562
+So the honest answer is a range.
+
+63
+00:04:42,562 --> 00:04:50,832
+Somewhere between eight and a dozen complete or adult animals, against roughly a hundred and fifty netted juveniles, and hundreds of beaks pulled out of things that ate them.
+
+64
+00:04:51,966 --> 00:04:53,595
+The largest invertebrate on Earth.
+
+65
+00:04:53,595 --> 00:04:58,157
+In a hundred years, we have collected fewer whole adults than you have fingers.
+
+66
+00:04:59,299 --> 00:05:02,068
+Chapter three. The ones we never caught.
+
+67
+00:05:03,199 --> 00:05:07,875
+And there is a pattern in the ones we did get, which nobody planned and everybody noticed.
+
+68
+00:05:08,999 --> 00:05:14,650
+Between nineteen sixty two and nineteen eighty five, research nets brought up thirty three young colossal squid.
+
+69
+00:05:14,650 --> 00:05:18,638
+Their mantles ran from three millimetres to a hundred and forty six.
+
+70
+00:05:19,766 --> 00:05:23,332
+The smallest whole animal on record is a larva twenty three millimetres long.
+
+71
+00:05:23,332 --> 00:05:25,252
+You could lose it in your hand.
+
+72
+00:05:26,399 --> 00:05:29,638
+Nets catch babies. Nets almost never catch adults.
+
+73
+00:05:30,766 --> 00:05:36,567
+Nearly every large colossal squid we have ever held came up on a fishing line, or came out of a predator's stomach.
+
+74
+00:05:36,567 --> 00:05:39,204
+Not one was found because somebody went looking for it.
+
+75
+00:05:40,333 --> 00:05:43,729
+And there is one more thing in the record that is genuinely strange.
+
+76
+00:05:44,866 --> 00:05:48,369
+Of the large specimens, essentially all of them are female.
+
+77
+00:05:48,369 --> 00:05:52,572
+A mature male appears exactly once, among partial remains at the Smithsonian.
+
+78
+00:05:53,699 --> 00:05:57,760
+We have never properly seen a grown male of the heaviest invertebrate on the planet.
+
+79
+00:05:57,760 --> 00:05:59,655
+We do not know where they are.
+
+80
+00:06:00,799 --> 00:06:04,038
+Chapter four. The squid that shrank six metres.
+
+81
+00:06:05,166 --> 00:06:08,949
+February, two thousand and seven. The Ross Sea, Antarctica.
+
+82
+00:06:08,949 --> 00:06:14,413
+A New Zealand longliner called the San Aspiring is fishing for Antarctic toothfish.
+
+83
+00:06:15,533 --> 00:06:20,092
+Fifteen hundred metres down, something takes hold of a toothfish that is already on the hook.
+
+84
+00:06:20,092 --> 00:06:21,802
+And it will not let go.
+
+85
+00:06:22,933 --> 00:06:25,206
+It rides the line all the way to the surface.
+
+86
+00:06:26,333 --> 00:06:28,003
+Nine men. Roughly two hours.
+
+87
+00:06:28,003 --> 00:06:32,681
+In Antarctic water, they get it aboard with a crane and a cargo net.
+
+88
+00:06:33,799 --> 00:06:37,780
+It is the first mature colossal squid ever recovered intact.
+
+89
+00:06:37,780 --> 00:06:42,158
+It is, still today, the heaviest cephalopod anyone has ever documented.
+
+90
+00:06:43,299 --> 00:06:46,381
+At sea, they estimate it at eight to ten metres long.
+
+91
+00:06:47,499 --> 00:06:52,290
+It is gifted to Te Papa, the national museum in Wellington, and frozen.
+
+92
+00:06:52,290 --> 00:06:54,500
+It stays frozen for fourteen months.
+
+93
+00:06:55,633 --> 00:06:59,513
+In April two thousand and eight, they thaw it out and measure it properly.
+
+94
+00:06:59,513 --> 00:07:00,622
+Four point two metres.
+
+95
+00:07:01,766 --> 00:07:04,457
+The same animal. Six metres shorter.
+
+96
+00:07:05,599 --> 00:07:08,397
+Nobody lied. Squid tentacles shorten and shrink after death.
+
+97
+00:07:08,397 --> 00:07:14,925
+Commercial squid tissue can lose up to twenty two percent to dehydration, and this one spent fourteen months in a freezer.
+
+98
+00:07:16,066 --> 00:07:23,756
+Which means the ten metre monster in the two thousand and seven headlines, and the four metre animal in the case in Wellington, are the same creature.
+
+99
+00:07:23,756 --> 00:07:24,895
+Both numbers are honest.
+
+100
+00:07:26,033 --> 00:07:29,167
+This is the first thing to understand about the colossal squid.
+
+101
+00:07:29,167 --> 00:07:32,302
+Almost every number attached to it is softer than it sounds.
+
+102
+00:07:33,433 --> 00:07:35,941
+Chapter five. Length is a lie.
+
+103
+00:07:37,066 --> 00:07:39,948
+Weight is where this animal is genuinely extraordinary.
+
+104
+00:07:39,948 --> 00:07:43,910
+Fully thawed, that squid weighed four hundred and ninety five kilograms.
+
+105
+00:07:45,033 --> 00:07:46,490
+Though even there, be careful.
+
+106
+00:07:46,490 --> 00:07:54,359
+Te Papa's own pages give about four hundred and seventy kilograms as the estimate for the animal in life, and four hundred and ninety five with ice.
+
+107
+00:07:55,499 --> 00:07:58,477
+Length, though, is close to useless for a squid.
+
+108
+00:07:58,477 --> 00:08:01,455
+Look at what happens when you compare two specimens.
+
+109
+00:08:02,599 --> 00:08:07,527
+An animal recovered in two thousand and three was longer. Five point four metres.
+
+110
+00:08:07,527 --> 00:08:09,286
+It weighed three hundred kilograms.
+
+111
+00:08:10,433 --> 00:08:16,546
+The two thousand and seven animal was shorter, at four point two metres, and weighed nearly two hundred kilograms more.
+
+112
+00:08:17,666 --> 00:08:21,073
+Te Papa's phrase for this is that they are incredibly plastic animals.
+
+113
+00:08:21,073 --> 00:08:26,182
+Total length depends on how far the tentacles happen to be stretched, and what death did to them.
+
+114
+00:08:27,299 --> 00:08:30,969
+So scientists use mantle length instead. The body, not the arms.
+
+115
+00:08:30,969 --> 00:08:35,972
+And the largest mantle ever measured on this species is two and a half metres.
+
+116
+00:08:37,099 --> 00:08:40,965
+Which brings us to the number you have almost certainly heard, and which is wrong.
+
+117
+00:08:42,099 --> 00:08:44,621
+Twelve to fourteen metres. It is everywhere.
+
+118
+00:08:44,621 --> 00:08:48,943
+It has never been measured, and it has never been credibly extrapolated.
+
+119
+00:08:50,066 --> 00:08:55,352
+It appears to be a straight confusion with the giant squid, which is a genuinely longer animal.
+
+120
+00:08:55,352 --> 00:08:59,705
+And that comparison is worth making properly, because the two get mixed up constantly.
+
+121
+00:09:00,833 --> 00:09:03,730
+The giant squid has been verified to twelve metres long.
+
+122
+00:09:03,730 --> 00:09:10,394
+But the heaviest complete one is around two hundred and twenty kilograms, and ninety five percent come in under two hundred and fifty.
+
+123
+00:09:11,533 --> 00:09:19,344
+The often-quoted nine hundred kilogram giant squid traces back to an estimate from eighteen seventy nine, which modern reviewers judge unreliable.
+
+124
+00:09:20,466 --> 00:09:24,024
+So. Longest squid, the giant. Heaviest squid, the colossal.
+
+125
+00:09:24,024 --> 00:09:29,557
+The giant squid is a longer animal. The colossal squid is a bigger one.
+
+126
+00:09:30,699 --> 00:09:33,468
+Chapter six. The ruler is a beak.
+
+127
+00:09:34,599 --> 00:09:37,678
+Here is the strangest thing about how we measure this animal.
+
+128
+00:09:37,678 --> 00:09:40,477
+Most of the time, we are not measuring the animal.
+
+129
+00:09:41,599 --> 00:09:45,208
+A squid's beak is made of chitin. It does not digest.
+
+130
+00:09:45,208 --> 00:09:49,801
+When everything else about a colossal squid dissolves inside a whale, the beak survives.
+
+131
+00:09:50,933 --> 00:09:54,788
+And the colossal squid has the largest beak of any living cephalopod.
+
+132
+00:09:54,788 --> 00:09:57,359
+Roughly twice the size of a giant squid's.
+
+133
+00:09:58,499 --> 00:10:00,073
+Beak size scales with body size.
+
+134
+00:10:00,073 --> 00:10:05,578
+So you can take a black parrot-beak out of a whale's stomach and calculate backwards to an animal nobody ever saw.
+
+135
+00:10:06,699 --> 00:10:11,375
+The four hundred and ninety five kilogram specimen had a lower beak around forty two millimetres.
+
+136
+00:10:12,499 --> 00:10:15,895
+The largest beak ever pulled out of a sperm whale measures forty nine.
+
+137
+00:10:17,033 --> 00:10:22,362
+Te Papa's estimate for what that animal might have weighed is six hundred, maybe seven hundred kilograms.
+
+138
+00:10:23,499 --> 00:10:31,354
+And the museum says, in the same breath, that they cannot say for sure what size of colossal squid a forty nine millimetre beak represents.
+
+139
+00:10:31,354 --> 00:10:34,810
+There are too few complete animals to build the equation properly.
+
+140
+00:10:35,933 --> 00:10:38,871
+What that beak does not mean is a fourteen metre animal.
+
+141
+00:10:38,871 --> 00:10:44,214
+The two thousand and seven squid carried a forty two millimetre beak on a two and a half metre body.
+
+142
+00:10:45,333 --> 00:10:49,501
+So somewhere out there, probably, is a colossal squid heavier than any we have weighed.
+
+143
+00:10:49,501 --> 00:10:54,502
+It is not a sea monster. It is a slightly bigger version of the one in the case.
+
+144
+00:10:55,633 --> 00:10:58,951
+Chapter seven. A science built on dead whales.
+
+145
+00:11:00,099 --> 00:11:03,887
+Which raises an uncomfortable question. Where did all these beaks come from?
+
+146
+00:11:05,033 --> 00:11:11,459
+In nineteen eighty, a researcher named Malcolm Clarke published an analysis of what sperm whales in the southern hemisphere had been eating.
+
+147
+00:11:12,599 --> 00:11:19,025
+By his reconstruction, colossal squid beaks were about fourteen percent of the beaks found in Antarctic sperm whale stomachs.
+
+148
+00:11:20,166 --> 00:11:27,715
+But because the animal is so heavy, that fourteen percent of beaks represents an estimated seventy seven percent of everything those whales had eaten.
+
+149
+00:11:28,833 --> 00:11:30,439
+Be careful with that figure.
+
+150
+00:11:30,439 --> 00:11:34,295
+It is a reconstruction from beak sizes, not a weighing of stomachs.
+
+151
+00:11:34,295 --> 00:11:38,472
+It comes from Antarctic feeding grounds specifically. It is not a global number.
+
+152
+00:11:39,599 --> 00:11:42,368
+And there is the part that is genuinely hard to sit with.
+
+153
+00:11:43,499 --> 00:11:46,331
+Clarke published in a journal called Discovery Reports.
+
+154
+00:11:46,331 --> 00:11:53,765
+Discovery Reports was the publication series of the Discovery Investigations, the Southern Ocean survey that existed to serve the whaling industry.
+
+155
+00:11:54,899 --> 00:12:00,620
+Almost everything we know about the largest invertebrate on Earth is a by-product of industrially killing sperm whales.
+
+156
+00:12:01,766 --> 00:12:05,287
+Seventeen different predators are known to eat them.
+
+157
+00:12:05,287 --> 00:12:07,487
+Penguins, seabirds, fish, marine mammals.
+
+158
+00:12:08,633 --> 00:12:14,040
+At the Kerguelen Islands, colossal squid remains turned up in around two thirds of the sleeper sharks examined.
+
+159
+00:12:15,166 --> 00:12:16,851
+Albatrosses carry the remains too.
+
+160
+00:12:16,851 --> 00:12:21,232
+Though more than sixty percent of what they carry had probably been scavenged.
+
+161
+00:12:21,232 --> 00:12:25,275
+They are eating dead colossal squid off the surface, not catching them.
+
+162
+00:12:26,399 --> 00:12:30,374
+One thing to be careful about, because documentaries get it wrong constantly.
+
+163
+00:12:30,374 --> 00:12:34,680
+Those famous circular scars on sperm whales are not evidence of colossal squid.
+
+164
+00:12:35,799 --> 00:12:40,038
+Ring scars come from toothed sucker rings, which is giant squid equipment.
+
+165
+00:12:40,038 --> 00:12:43,923
+The colossal squid leaves a different mark. It leaves hook scratches.
+
+166
+00:12:45,066 --> 00:12:48,950
+And we do have those, on the bodies of captured toothfish.
+
+167
+00:12:48,950 --> 00:12:52,127
+Bite marks and hook scratches that match this species.
+
+168
+00:12:52,127 --> 00:12:56,717
+That is real, published, species-matched evidence of a colossal squid attacking something large.
+
+169
+00:12:57,866 --> 00:13:00,870
+Chapter eight. The thaw, live on camera.
+
+170
+00:13:01,999 --> 00:13:06,090
+Two thousand and fourteen. The San Aspiring again. The Ross Sea again.
+
+171
+00:13:06,090 --> 00:13:09,157
+Another colossal squid comes up on a toothfish line.
+
+172
+00:13:10,299 --> 00:13:14,641
+Female. Around three hundred and fifty kilograms. Three and a half metres.
+
+173
+00:13:14,641 --> 00:13:17,535
+Recovered whole, except that its tentacles are missing.
+
+174
+00:13:18,666 --> 00:13:20,939
+And there are eggs inside the mantle.
+
+175
+00:13:22,066 --> 00:13:25,855
+On the sixteenth of September, they thaw it in front of the world.
+
+176
+00:13:25,855 --> 00:13:27,312
+Kat Bolstad leads the examination.
+
+177
+00:13:27,312 --> 00:13:31,392
+It is streamed live on the internet for about three and a half hours.
+
+178
+00:13:32,533 --> 00:13:38,664
+Te Papa reports more than eight hundred thousand people watching live, from over a hundred and eighty countries.
+
+179
+00:13:38,664 --> 00:13:41,049
+A museum dissection, with a global audience.
+
+180
+00:13:42,166 --> 00:13:47,965
+Working alongside her, counting suckers on the arms, is a postgraduate researcher named Aaron Boyd Evans.
+
+181
+00:13:49,099 --> 00:13:49,681
+Remember him.
+
+182
+00:13:49,681 --> 00:13:55,786
+Eleven years later, he is one of the two people the world will ask to confirm the footage from the Airbnb.
+
+183
+00:13:56,933 --> 00:14:00,094
+Chapter nine. The eye that watches for whales.
+
+184
+00:14:01,233 --> 00:14:02,177
+Now the animal.
+
+185
+00:14:02,177 --> 00:14:07,842
+And the place to start is the part of it that is genuinely, measurably unlike anything else alive.
+
+186
+00:14:08,966 --> 00:14:12,597
+The colossal squid has the largest eye of any living animal on Earth.
+
+187
+00:14:13,733 --> 00:14:18,984
+How large depends on who measured it, and that difference is worth understanding rather than smoothing over.
+
+188
+00:14:20,133 --> 00:14:25,697
+The figure that survives peer review is about twenty seven centimetres across, with a pupil around nine.
+
+189
+00:14:26,833 --> 00:14:29,379
+Te Papa measured about thirty on their specimen.
+
+190
+00:14:29,379 --> 00:14:33,834
+On the two thousand and fourteen animal, they recorded thirty five to thirty seven.
+
+191
+00:14:34,966 --> 00:14:37,683
+All of those can be true at once.
+
+192
+00:14:37,683 --> 00:14:41,758
+A squid's eye is a fluid-filled sphere with no bone around it.
+
+193
+00:14:41,758 --> 00:14:44,135
+After death it flattens, swells and slumps.
+
+194
+00:14:44,135 --> 00:14:46,512
+Different teams were measuring differently damaged things.
+
+195
+00:14:47,633 --> 00:14:51,845
+For scale, the largest fish eyes on Earth reach about nine or ten centimetres.
+
+196
+00:14:51,845 --> 00:14:55,757
+This is roughly three times the diameter of any other living animal's eye.
+
+197
+00:14:56,899 --> 00:15:02,444
+One caution. You will hear largest eye of any animal ever. That is not safe.
+
+198
+00:15:02,444 --> 00:15:09,098
+Reconstructions of a Jurassic marine reptile called Temnodontosaurus give eyeballs around twenty six centimetres and possibly over thirty.
+
+199
+00:15:10,233 --> 00:15:12,453
+So why would an animal grow an eye like that?
+
+200
+00:15:12,453 --> 00:15:15,562
+And this is where the story stops being settled and starts being an argument.
+
+201
+00:15:16,699 --> 00:15:23,308
+In twenty twelve, a team led by Dan-Eric Nilsson at Lund University published a hypothesis in Current Biology.
+
+202
+00:15:24,433 --> 00:15:26,491
+Their argument starts with a problem.
+
+203
+00:15:26,491 --> 00:15:30,264
+In water, making an eye bigger buys you less and less.
+
+204
+00:15:30,264 --> 00:15:32,322
+Absorption and scattering eat the gains.
+
+205
+00:15:33,466 --> 00:15:40,041
+By their numbers, at three hundred metres, growing a one millimetre eye by ten percent buys about six and a half percent more range.
+
+206
+00:15:40,041 --> 00:15:44,150
+Do the same to a hundred millimetre eye and you gain two and a half.
+
+207
+00:15:45,299 --> 00:15:48,003
+A squid eye is three times bigger than that.
+
+208
+00:15:48,003 --> 00:15:50,706
+It is an enormous biological expense for almost nothing.
+
+209
+00:15:51,833 --> 00:15:56,169
+Unless what you are looking for is not small and nearby, but huge and rare.
+
+210
+00:15:56,169 --> 00:16:00,506
+Because the volume of water you can monitor grows as the cube of your range.
+
+211
+00:16:01,633 --> 00:16:04,492
+And here is the part almost every retelling gets wrong.
+
+212
+00:16:04,492 --> 00:16:06,779
+The squid is not looking for the whale.
+
+213
+00:16:07,899 --> 00:16:10,829
+Below about six hundred metres there is effectively no daylight.
+
+214
+00:16:10,829 --> 00:16:16,101
+The only large glowing things down there are animals setting off the plankton as they move through it.
+
+215
+00:16:17,233 --> 00:16:22,680
+A sperm whale diving hard displaces a cylinder of water and lights itself up.
+
+216
+00:16:22,680 --> 00:16:24,626
+A diffuse glow, whale-shaped, moving.
+
+217
+00:16:25,766 --> 00:16:28,927
+The squid is looking for the light the whale knocks out of the water.
+
+218
+00:16:30,066 --> 00:16:31,478
+Nilsson's team modelled it.
+
+219
+00:16:31,478 --> 00:16:38,893
+At eight hundred metres, in clear water, a whale-sized glowing object should be detectable at nearly a hundred and twenty metres.
+
+220
+00:16:38,893 --> 00:16:41,717
+Almost twice the range for anything else visible.
+
+221
+00:16:42,866 --> 00:16:46,105
+And then the detail that makes it sadder and better than the headline version.
+
+222
+00:16:47,233 --> 00:16:51,057
+A sperm whale's echolocation reaches further than a hundred and twenty metres.
+
+223
+00:16:51,057 --> 00:16:55,200
+The squid does not win this race. The whale has already heard it.
+
+224
+00:16:56,333 --> 00:17:01,740
+The most the eye buys, on this hypothesis, is a little warning. Enough time to try to run.
+
+225
+00:17:02,866 --> 00:17:05,557
+That is the theory. Now the argument.
+
+226
+00:17:06,699 --> 00:17:14,092
+In twenty thirteen, a group led by Lars Schmitz compared eyes across eighty seven squid species and more than two hundred fish species.
+
+227
+00:17:15,233 --> 00:17:18,996
+Their conclusion. Relative to body size, these eyes are not exceptional at all.
+
+228
+00:17:18,996 --> 00:17:22,469
+They are about what you would predict for a squid that big.
+
+229
+00:17:23,599 --> 00:17:27,141
+On their reading, spotting whales might well be something the eye can do.
+
+230
+00:17:27,141 --> 00:17:31,227
+But it is a side effect of being enormous, not the reason the eye exists.
+
+231
+00:17:32,366 --> 00:17:33,431
+Nilsson's team replied.
+
+232
+00:17:33,431 --> 00:17:40,882
+They accepted Schmitz's revised numbers, called them more appropriately conservative, ran the model again with them, and got the same answer.
+
+233
+00:17:41,999 --> 00:17:45,702
+Schmitz's group replied to the reply. It has not been settled.
+
+234
+00:17:45,702 --> 00:17:50,750
+It is, as of today, still an open argument between two groups of serious people.
+
+235
+00:17:51,899 --> 00:18:00,158
+Which is worth saying out loud, because you will find a hundred videos telling you flatly that this animal evolved giant eyes to see sperm whales coming.
+
+236
+00:18:00,158 --> 00:18:01,381
+Nobody actually knows that.
+
+237
+00:18:02,499 --> 00:18:06,112
+There is one more thing on those eyes that almost never gets mentioned.
+
+238
+00:18:06,112 --> 00:18:08,612
+Each one carries two light organs of its own.
+
+239
+00:18:09,733 --> 00:18:14,021
+What they are for is genuinely unknown. They might erase the eye's silhouette.
+
+240
+00:18:14,021 --> 00:18:15,671
+They might be a deception.
+
+241
+00:18:15,671 --> 00:18:19,959
+They might be headlights, or a way of judging the distance to strike.
+
+242
+00:18:19,959 --> 00:18:21,279
+Three hypotheses, no test.
+
+243
+00:18:22,399 --> 00:18:25,090
+Chapter ten. Twenty five hooks that spin.
+
+244
+00:18:26,233 --> 00:18:27,147
+Now the weapons.
+
+245
+00:18:27,147 --> 00:18:31,719
+And this is the part that makes this animal genuinely strange within its own family.
+
+246
+00:18:32,866 --> 00:18:36,305
+The colossal squid belongs to the glass squids. Cranchiidae.
+
+247
+00:18:36,305 --> 00:18:42,035
+Around twenty species, most of them small, most of them transparent, most of them harmless.
+
+248
+00:18:43,166 --> 00:18:44,968
+It is the only one with hooks.
+
+249
+00:18:46,099 --> 00:18:52,786
+And it carries two completely different kinds, which is a distinction worth getting right, because it decides the end of this story.
+
+250
+00:18:53,933 --> 00:18:57,196
+The two long tentacles are the strike weapon. Around two metres each.
+
+251
+00:18:57,196 --> 00:19:03,180
+At the end of each is a club, and on that club sit twenty two to twenty five hooks in two rows.
+
+252
+00:19:04,299 --> 00:19:08,850
+Each hook sits on a short stalk in a shallow depression. And each one rotates.
+
+253
+00:19:08,850 --> 00:19:10,367
+Three hundred and sixty degrees.
+
+254
+00:19:10,367 --> 00:19:13,703
+By the museum's own account, up to seven hundred and twenty.
+
+255
+00:19:14,833 --> 00:19:17,901
+The eight arms are different. Shorter, around a metre.
+
+256
+00:19:17,901 --> 00:19:21,991
+And their hooks are bigger, fixed, and do not rotate at all.
+
+257
+00:19:23,133 --> 00:19:25,211
+Most of the arm hooks are three-pointed.
+
+258
+00:19:25,211 --> 00:19:29,664
+A main claw, and two smaller cusps at the base, to dig in and hold.
+
+259
+00:19:30,799 --> 00:19:35,295
+The likeliest way it works, and this is inference from anatomy rather than observation.
+
+260
+00:19:35,295 --> 00:19:37,222
+The tentacles fire. The club hits.
+
+261
+00:19:37,222 --> 00:19:43,965
+The spinning hooks catch at whatever angle they land, and as the prey struggles they lock from several directions at once.
+
+262
+00:19:45,099 --> 00:19:51,447
+Then the prey gets drawn back to the arms, where the fixed three-pointed hooks and the serrated suckers hold it still for the beak.
+
+263
+00:19:52,566 --> 00:19:55,471
+This is grappling gear. It is not chasing gear.
+
+264
+00:19:55,471 --> 00:19:58,052
+It is mechanical advantage standing in for speed.
+
+265
+00:19:59,199 --> 00:20:02,026
+And there is something the museum is admirably honest about.
+
+266
+00:20:02,026 --> 00:20:08,525
+Nobody knows whether the squid controls each of those spinning hooks, or whether they simply swivel on their own once something is caught.
+
+267
+00:20:09,666 --> 00:20:11,625
+Nobody has ever watched it happen.
+
+268
+00:20:12,766 --> 00:20:18,698
+For contrast. The giant squid has no hooks at all. It grips with toothed sucker rings.
+
+269
+00:20:18,698 --> 00:20:22,405
+Two enormous animals, two completely different solutions to holding on.
+
+270
+00:20:23,533 --> 00:20:26,302
+Chapter eleven. Thirty grams a day.
+
+271
+00:20:27,433 --> 00:20:32,846
+So you have an animal weighing half a tonne, with the largest eyes on Earth and twenty five rotating hooks.
+
+272
+00:20:32,846 --> 00:20:34,199
+You would expect a monster.
+
+273
+00:20:35,333 --> 00:20:39,617
+In twenty ten, Rui Rosa and Brad Seibel modelled its metabolism.
+
+274
+00:20:40,766 --> 00:20:45,800
+Their estimate for a full grown colossal squid, in water at one and a half degrees.
+
+275
+00:20:45,800 --> 00:20:47,688
+About forty five kilocalories a day.
+
+276
+00:20:48,833 --> 00:20:52,255
+Which works out at roughly thirty grams of food. A day.
+
+277
+00:20:52,255 --> 00:20:55,677
+For an animal that weighs as much as a grand piano.
+
+278
+00:20:56,799 --> 00:20:59,725
+One five kilogram toothfish would keep it going for months.
+
+279
+00:21:00,866 --> 00:21:02,980
+Their conclusion, in their own words.
+
+280
+00:21:02,980 --> 00:21:06,856
+It is not a voracious predator capable of high speed interactions.
+
+281
+00:21:06,856 --> 00:21:15,312
+It is an ambush, or sit and float, predator that uses the hooks on its arms and tentacles to ensnare prey that unwittingly approach.
+
+282
+00:21:16,433 --> 00:21:21,501
+And now the caveat that has to be said out loud, because it applies to nearly everything in this film.
+
+283
+00:21:22,633 --> 00:21:25,376
+Nobody has ever measured a colossal squid's oxygen consumption.
+
+284
+00:21:25,376 --> 00:21:28,119
+Nobody has ever had a live one to measure.
+
+285
+00:21:29,266 --> 00:21:31,434
+That figure is a phylogenetic inference.
+
+286
+00:21:31,434 --> 00:21:37,939
+It is built from measurements of its smaller relatives, scaled up by body size, at Southern Ocean temperatures.
+
+287
+00:21:37,939 --> 00:21:42,275
+It is the best estimate anyone has. It is not a measurement.
+
+288
+00:21:43,399 --> 00:21:46,659
+The press turned that study into a lazy, harmless drifter.
+
+289
+00:21:46,659 --> 00:21:50,243
+And the scientists pushed back on their own result, in print.
+
+290
+00:21:51,366 --> 00:21:56,754
+Their question. Does an organism need to be an active pursuit predator to be fearsome?
+
+291
+00:21:56,754 --> 00:22:02,142
+White sharks, leopards, crocodiles and pythons are all ambush predators, many with low energy demands.
+
+292
+00:22:02,142 --> 00:22:07,170
+It is their capability to hide and strike without warning that makes them dangerous.
+
+293
+00:22:08,299 --> 00:22:09,944
+And the chemistry backs them.
+
+294
+00:22:09,944 --> 00:22:15,535
+Analysis of nitrogen isotopes places the colossal squid among the top predators in the entire Southern Ocean.
+
+295
+00:22:16,666 --> 00:22:19,216
+So not a monster. And not a drifter.
+
+296
+00:22:19,216 --> 00:22:26,227
+A slow, cold, cheap-to-run ambush animal that happens to sit at the top of one of the largest ecosystems on the planet.
+
+297
+00:22:27,366 --> 00:22:30,213
+Chapter twelve. It breathes without swimming.
+
+298
+00:22:31,333 --> 00:22:35,774
+One more piece of engineering, because it explains how something that big does so little.
+
+299
+00:22:36,899 --> 00:22:41,088
+Glass squids carry an enormous internal chamber filled with a solution of ammonium chloride.
+
+300
+00:22:41,088 --> 00:22:46,773
+It is about as salty as seawater but lighter, and it cancels out the weight of the animal's tissue.
+
+301
+00:22:47,899 --> 00:22:50,799
+Every other ammonia-floating squid spreads it through the muscle.
+
+302
+00:22:50,799 --> 00:22:53,698
+The glass squids keep it in a dedicated tank.
+
+303
+00:22:54,833 --> 00:22:58,915
+Which means they can hang in the water and breathe without ever contracting the mantle.
+
+304
+00:22:58,915 --> 00:23:01,364
+They can float and respire without swimming at all.
+
+305
+00:23:02,499 --> 00:23:07,248
+Whether that is fully true of a four hundred and ninety five kilogram adult, nobody knows.
+
+306
+00:23:07,248 --> 00:23:14,073
+The review that describes it flags the colossal squid as the family's odd one out, with far more muscle than its transparent cousins.
+
+307
+00:23:14,073 --> 00:23:17,337
+No one has ever measured the ammonium content of an adult.
+
+308
+00:23:18,466 --> 00:23:21,488
+And there is a grim little consequence to all that ammonia.
+
+309
+00:23:21,488 --> 00:23:26,982
+It is part of why the tissue dissolves so fast inside a whale, leaving only the beaks and the hooks.
+
+310
+00:23:28,099 --> 00:23:33,977
+Which is exactly why our record of the largest invertebrate on Earth is, mostly, a record of its mouthparts.
+
+311
+00:23:35,099 --> 00:23:38,181
+Chapter thirteen. The dive that wasn't looking.
+
+312
+00:23:39,299 --> 00:23:44,288
+The ninth of March, twenty twenty five. The South Sandwich Islands, in the south Atlantic.
+
+313
+00:23:45,433 --> 00:23:51,351
+A research vessel called the Falkor, too, is thirty five days into an expedition named GoSouth.
+
+314
+00:23:51,351 --> 00:23:54,680
+Chief scientist, Michelle Taylor of the University of Essex.
+
+315
+00:23:55,799 --> 00:24:00,352
+Their remotely operated vehicle, SuBastian, is descending to work on the seafloor.
+
+316
+00:24:00,352 --> 00:24:03,766
+It is not hunting squid. It is passing through.
+
+317
+00:24:04,899 --> 00:24:09,183
+At six hundred metres, something small and transparent drifts through the lights.
+
+318
+00:24:10,333 --> 00:24:13,195
+And here is the detail I love most in this entire story.
+
+319
+00:24:13,195 --> 00:24:15,819
+The person who first flagged it was not on the ship.
+
+320
+00:24:16,966 --> 00:24:19,690
+The Falkor, too, streams its dives publicly.
+
+321
+00:24:19,690 --> 00:24:24,359
+Somebody watching the live feed from home said, that looks like something.
+
+322
+00:24:25,499 --> 00:24:27,861
+Taylor's own description of the moment is wonderfully undramatic.
+
+323
+00:24:27,861 --> 00:24:37,306
+We filmed it because it was beautiful and unusual, and then we kind of descended back all the way down to the seafloor to do the exploration that the rest of that dive was focused on.
+
+324
+00:24:38,433 --> 00:24:40,235
+They carried on with their day.
+
+325
+00:24:40,235 --> 00:24:43,840
+And then they said nothing at all, to anybody, for five weeks.
+
+326
+00:24:44,966 --> 00:24:48,519
+Chapter fourteen. Why they said nothing for five weeks.
+
+327
+00:24:49,666 --> 00:24:55,779
+Because identifying a small transparent squid is genuinely hard, and because of something that had happened two years earlier.
+
+328
+00:24:56,899 --> 00:25:06,695
+In January twenty twenty three, a non-profit called Kolossal, founded by Matt Mulrennan, filmed a small glass squid roughly six hundred and eighty miles south of Argentina.
+
+329
+00:25:07,833 --> 00:25:12,744
+They described it as potentially the first colossal squid ever filmed in its natural environment.
+
+330
+00:25:13,866 --> 00:25:17,338
+The specialists split three ways. A juvenile colossal squid.
+
+331
+00:25:17,338 --> 00:25:21,197
+Or an adult of a look-alike species called Galiteuthis glacialis.
+
+332
+00:25:21,197 --> 00:25:23,897
+Or something not yet described at all.
+
+333
+00:25:25,033 --> 00:25:28,429
+As of the end of twenty twenty five, it is still unresolved.
+
+334
+00:25:29,566 --> 00:25:35,365
+So in March twenty twenty five, the team sent their footage to two people, independently, and waited.
+
+335
+00:25:36,500 --> 00:25:39,252
+Kat Bolstad, at Auckland University of Technology.
+
+336
+00:25:39,252 --> 00:25:43,578
+And Aaron Evans, a specialist in exactly this family of squid.
+
+337
+00:25:44,700 --> 00:25:48,728
+The same Aaron Evans who counted suckers at Te Papa in twenty fourteen.
+
+338
+00:25:48,728 --> 00:25:53,685
+And the same Aaron Evans who, as a peer reviewer, had declined to confirm Kolossal's footage.
+
+339
+00:25:54,833 --> 00:25:56,170
+His verdict on that one.
+
+340
+00:25:56,170 --> 00:26:00,182
+The squid seen here could belong to different life stages of either of those taxa.
+
+341
+00:26:00,182 --> 00:26:01,520
+He would not call it.
+
+342
+00:26:02,666 --> 00:26:07,107
+So when the same man looks at the twenty twenty five footage, what changes his mind?
+
+343
+00:26:08,233 --> 00:26:10,819
+The hooks. But not the ones on the tentacles.
+
+344
+00:26:11,966 --> 00:26:16,388
+Every glass squid has hooks on the clubs at the end of its two long tentacles.
+
+345
+00:26:16,388 --> 00:26:17,217
+That proves nothing.
+
+346
+00:26:18,366 --> 00:26:19,807
+Bolstad's description of the test.
+
+347
+00:26:19,807 --> 00:26:28,737
+The colossal squid is the only squid that we know of that has suckers near the beak, then hooks midway along the arm, and then suckers again toward the arm tips.
+
+348
+00:26:29,866 --> 00:26:34,302
+Suckers. Then hooks. Then suckers. In that order, down the middle of the eight arms.
+
+349
+00:26:34,302 --> 00:26:38,147
+Out of every squid in the ocean, one animal is built that way.
+
+350
+00:26:39,266 --> 00:26:45,775
+It is there in the name Robson gave it in nineteen twenty five, before anyone had seen a living one.
+
+351
+00:26:45,775 --> 00:26:47,077
+Mesonychoteuthis. Middle claw squid.
+
+352
+00:26:48,200 --> 00:26:51,439
+A hundred years later, that middle claw is what confirmed it.
+
+353
+00:26:52,566 --> 00:26:55,413
+Chapter fifteen. What the footage didn't show.
+
+354
+00:26:56,533 --> 00:27:01,522
+On the fifteenth of April, they released it. And what people saw was not a monster.
+
+355
+00:27:02,666 --> 00:27:09,824
+A near-transparent animal about thirty centimetres long, with iridescent eyes and visible internal organs, drifting in the dark.
+
+356
+00:27:10,966 --> 00:27:14,734
+Scattered across that transparent body were rust-red and brown chromatophores.
+
+357
+00:27:14,734 --> 00:27:15,487
+Colour cells.
+
+358
+00:27:15,487 --> 00:27:20,762
+Which means even at this size it can probably switch between transparent and opaque.
+
+359
+00:27:21,900 --> 00:27:25,371
+And for the first time, a colossal squid that was not damaged.
+
+360
+00:27:25,371 --> 00:27:29,711
+Steve O'Shea, who was not part of the expedition, put it as well as anyone.
+
+361
+00:27:30,833 --> 00:27:39,114
+It is lovely to see this species being filmed by scientists in a non-invasive way, alive rather than dead on a trawler deck or mangled in a net.
+
+362
+00:27:40,233 --> 00:27:41,718
+Bolstad's framing was gentler still.
+
+363
+00:27:41,718 --> 00:27:49,141
+It's exciting to see the first in situ footage of a juvenile colossal, and humbling to think that they have no idea that humans exist.
+
+364
+00:27:50,266 --> 00:27:54,190
+And she was explicit that she did not want the monster hype.
+
+365
+00:27:54,190 --> 00:27:59,748
+We get to introduce the live colossal squid to the world as this beautiful, little, delicate animal.
+
+366
+00:28:00,866 --> 00:28:03,870
+Now the honest part. What that footage did not do.
+
+367
+00:28:05,000 --> 00:28:08,424
+It showed no feeding. No hunting. No mating.
+
+368
+00:28:08,424 --> 00:28:12,706
+Nothing about lifespan, or growth, or how an adult behaves.
+
+369
+00:28:13,833 --> 00:28:17,982
+Evans, again. This is not the giant animal we'd expect the colossal squid to be.
+
+370
+00:28:17,982 --> 00:28:23,237
+We could think of this maybe as a teenager squid. It's still got a lot of growing to do.
+
+371
+00:28:24,366 --> 00:28:28,964
+Even the thirty centimetre figure is the team's estimate, not an independent measurement.
+
+372
+00:28:30,100 --> 00:28:33,147
+And one thing worth being precise about, because it matters.
+
+373
+00:28:33,147 --> 00:28:35,586
+There is no peer-reviewed paper on this sighting.
+
+374
+00:28:36,733 --> 00:28:40,992
+It was an institutional announcement, plus two named independent experts who confirmed it.
+
+375
+00:28:40,992 --> 00:28:42,631
+That is a strong chain.
+
+376
+00:28:42,631 --> 00:28:48,201
+It is not the same thing as published research, and it should not be described as such.
+
+377
+00:28:49,333 --> 00:28:52,024
+Chapter sixteen. Why it stays hidden.
+
+378
+00:28:53,166 --> 00:28:57,450
+So why, after a century, is a juvenile the best we have managed?
+
+379
+00:28:58,600 --> 00:29:04,086
+Bolstad's answer is not mystical. It is mechanical, and it is slightly humiliating for us.
+
+380
+00:29:05,233 --> 00:29:11,722
+Much of our scientific and filming gear is noisy and bright, so squid will be aware of our equipment long before we know they're there.
+
+381
+00:29:11,722 --> 00:29:13,279
+And they will stay well away.
+
+382
+00:29:14,400 --> 00:29:16,908
+They know we are there long before we know they are there.
+
+383
+00:29:18,033 --> 00:29:20,279
+Think about what that means alongside the eye.
+
+384
+00:29:20,279 --> 00:29:31,512
+Whether or not it evolved to spot a whale, an animal built to detect a faint moving glow at over a hundred metres in total darkness is an animal that sees a floodlit robot coming from very far away indeed.
+
+385
+00:29:32,633 --> 00:29:37,074
+We built the brightest thing in the deep ocean and then wondered why the shy animal never turns up.
+
+386
+00:29:38,200 --> 00:29:41,282
+Chapter seventeen. The hunt is still open.
+
+387
+00:29:42,400 --> 00:29:44,046
+Which brings us to today.
+
+388
+00:29:45,166 --> 00:29:48,902
+As of right now, there has been no second confirmed sighting.
+
+389
+00:29:48,902 --> 00:29:51,619
+No adult colossal squid has ever been filmed.
+
+390
+00:29:51,619 --> 00:29:55,354
+The catalogue of records still ends with that thirty centimetre juvenile.
+
+391
+00:29:56,500 --> 00:30:00,941
+The Schmidt team is building new camera systems aimed specifically at filming a grown one.
+
+392
+00:30:02,066 --> 00:30:06,065
+But the Falkor, too, has no Southern Ocean expedition scheduled this year.
+
+393
+00:30:06,065 --> 00:30:09,397
+Its entire twenty twenty six programme is in the Atlantic.
+
+394
+00:30:09,397 --> 00:30:17,060
+Press reports at the time suggested it would not return to Antarctica until twenty twenty eight, though no institutional document confirms that date.
+
+395
+00:30:18,200 --> 00:30:20,126
+Kolossal is still out there.
+
+396
+00:30:20,126 --> 00:30:24,750
+Mulrennan's line, when the twenty twenty five footage landed, was three words.
+
+397
+00:30:24,750 --> 00:30:25,906
+The hunt continues.
+
+398
+00:30:27,033 --> 00:30:30,351
+And there is one last thing, which I did not expect to find.
+
+399
+00:30:31,500 --> 00:30:36,685
+In twenty seventeen, a review of everything known about this species ended with a recommendation.
+
+400
+00:30:36,685 --> 00:30:41,871
+Baited cameras and remotely operated vehicles could be deployed in the search of live footage.
+
+401
+00:30:43,000 --> 00:30:46,595
+Eight years later, that is exactly what found it. Not a hunt.
+
+402
+00:30:46,595 --> 00:30:48,393
+Not an expedition looking for it.
+
+403
+00:30:48,393 --> 00:30:53,188
+A robot on its way somewhere else, and a stranger on the internet watching the feed.
+
+404
+00:30:54,333 --> 00:30:57,180
+I want to end on the thing that stayed with me while making this.
+
+405
+00:30:58,300 --> 00:31:06,894
+There is an assumption, relayed in one review from one catalogue, that the Southern Ocean might hold something like ninety million tonnes of colossal squid.
+
+406
+00:31:08,033 --> 00:31:10,967
+Nobody has ever tested that. There has never been a stock assessment.
+
+407
+00:31:10,967 --> 00:31:14,146
+It is an assumption, and I am giving it to you as one.
+
+408
+00:31:15,266 --> 00:31:19,393
+But even if it is wildly wrong. Even if it is out by an order of magnitude.
+
+409
+00:31:20,533 --> 00:31:28,882
+There is an enormous quantity of a half-tonne predator living in the water beneath our ships, and in a hundred years, we have watched exactly one of them swim.
+
+410
+00:31:28,882 --> 00:31:33,777
+And it was a baby, and it was thirty centimetres long, and it found us by accident.
+
+411
+00:31:34,900 --> 00:31:45,271
+Everything else we think we know, we got from corpses in nets, from beaks in the stomachs of animals we were killing anyway, and from careful arguments between people who have never seen the thing they are arguing about.
+
+412
+00:31:46,400 --> 00:31:49,346
+It is not a monster. That much we can say.
+
+413
+00:31:49,346 --> 00:31:57,006
+It is slow, and cold, and it runs on almost nothing, and it has been sitting near the top of an entire ocean the whole time.
+
+414
+00:31:58,133 --> 00:32:02,233
+And somewhere down there right now, in the dark, there is a full-grown one.
+
+415
+00:32:02,233 --> 00:32:03,697
+Nobody has ever seen it.
+
+416
+00:32:04,833 --> 00:32:14,220
+If a creature nobody has ever watched alive interests you, there is a story on this channel about twenty one people we did watch, and lost, and what actually happened to each of them.
+
+417
+00:32:14,220 --> 00:32:17,533
+Twenty one astronauts who never came home. It is on screen now.
+
+418
+00:32:17,533 --> 00:32:20,294
+And if you want the next one of these, subscribe.
+
+419
+00:32:20,294 --> 00:32:22,779
+That is genuinely what decides whether it gets made.
+

@@ -58,6 +58,27 @@ NAME="render-${SLUG}-$(date +%s | tail -c 5)"
 REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 REMOTE=mindwired
 
+# ── preflight: the standing assets MUST exist before we pay for a VM ──────
+# The sync loop below is `[ -e "$d" ] && echo "$d"` — a missing directory is
+# silently skipped, so a checkout without public/outro renders a whole episode
+# with a 404'd subscribe outro and nobody finds out until the master lands.
+# That cost a 78-minute wasted render on projecthailmary (2026-08-30, run from
+# the ~/mindwired clone instead of the ~/Documents/GitHub/mindwired home
+# checkout). Fail here, in two seconds, instead of there.
+MISSING=""
+for d in public/outro public/beds public/fonts public/sfx "public/shorts/${SLUG}"; do
+  [ -e "$REPO_DIR/$d" ] || MISSING="$MISSING\n  $d"
+done
+[ -e "$REPO_DIR/.env" ] || MISSING="$MISSING\n  .env"
+if [ -n "$MISSING" ]; then
+  echo "[gce] ABORT — this checkout is missing render assets:" >&2
+  printf "%b\n" "$MISSING" >&2
+  echo "[gce] These are gitignored, so a fresh clone never has them." >&2
+  echo "[gce] Work in the home checkout (~/Documents/GitHub/mindwired — see CLAUDE.md)," >&2
+  echo "[gce] or rsync the missing dirs into $REPO_DIR before rendering." >&2
+  exit 1
+fi
+
 FETCHED=0
 RENDER_DONE=0
 cleanup() {

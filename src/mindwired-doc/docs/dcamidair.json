@@ -1,0 +1,783 @@
+{
+  "slug": "dcamidair",
+  "title": "The Words That Never Reached the Black Hawk",
+  "channel": "blackbox",
+  "niche": "aviation",
+  "language": "en",
+  "voice": "d46abd1d-2d02-43e8-819f-51fb652c1c61",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "It is January twenty ninth, twenty twenty five. Eight forty six at night, over the Potomac River. This is the last minute.",
+      "video": "nightapproach_1.mp4",
+      "cap": "Jan 29, 2025 · 8:46 p.m. · Washington, D.C.",
+      "tone": "neutral"
+    },
+    {
+      "id": "h2",
+      "text": "Two aircraft are converging in the dark. One is a regional jet, sixty four people aboard, circling to land. The other is an Army Black Hawk, three aboard, flying a training route along the river.",
+      "video": "towercab_3.mp4",
+      "cap": "A jet. A helicopter. One mile of river.",
+      "tone": "tension",
+      "stat": "64 ABOARD  ·  3 ABOARD"
+    },
+    {
+      "id": "h3",
+      "text": "The controller sees both. He calls the traffic. This is the real recording.",
+      "video": "towercab_1.mp4",
+      "cap": "Real audio · DCA tower, local control",
+      "tone": "tension"
+    },
+    {
+      "id": "ra1",
+      "speaker": "DCA TOWER · LOCAL CONTROL",
+      "timestamp": "8:46:02 p.m.",
+      "radioLabel": "ACTUAL ATC RECORDING",
+      "text": "PAT two five, traffic just south of the Wilson Bridge, a C R J at twelve hundred feet, circling to runway three three.",
+      "cap": "The traffic call.",
+      "tone": "tension"
+    },
+    {
+      "id": "h4",
+      "text": "The helicopter answers immediately. They have the traffic in sight. They ask to keep their own separation from it, visually. The controller approves.",
+      "video": "towercab_4.mp4",
+      "cap": "“Traffic in sight.”",
+      "tone": "tension"
+    },
+    {
+      "id": "h5",
+      "text": "Ninety seconds later, the radar system decides it disagrees.",
+      "video": "radarscope_1.mp4",
+      "cap": "8:47:33 p.m. — conflict alert",
+      "tone": "fear"
+    },
+    {
+      "id": "h6",
+      "text": "On the scope, an alarm begins. It names both aircraft, side by side, and it will not stop.",
+      "video": "radarscope_1.mp4",
+      "stat": "PAT25 × JIA5342",
+      "cap": "The alert, on the real display.",
+      "tone": "fear"
+    },
+    {
+      "id": "ra2",
+      "speaker": "DCA TOWER · LOCAL CONTROL",
+      "timestamp": "8:47:39 p.m.",
+      "radioLabel": "ACTUAL ATC RECORDING",
+      "text": "PAT two five, you have the C R J in sight?",
+      "cap": "Listen underneath his voice. That beeping is the alarm.",
+      "tone": "fear"
+    },
+    {
+      "id": "h7",
+      "text": "Two point eight seconds later he transmits again. And this is the transmission this entire story turns on.",
+      "video": "radarscope_2.mp4",
+      "tone": "fear"
+    },
+    {
+      "id": "ra3",
+      "speaker": "DCA TOWER · LOCAL CONTROL",
+      "timestamp": "8:47:41.9 p.m.",
+      "radioLabel": "ACTUAL ATC RECORDING",
+      "text": "PAT — [transmission interrupted] — C R J.",
+      "cap": "Something is missing from the middle of it.",
+      "tone": "fear"
+    },
+    {
+      "id": "h8",
+      "text": "What the controller actually said was, pass behind the C R J. But the words pass behind the never arrived. For eight tenths of a second, the helicopter keyed its own microphone, and cut them out of the air.",
+      "video": "radarscope_2.mp4",
+      "cap": "0.8 seconds. Three words. Gone.",
+      "tone": "shock"
+    },
+    {
+      "id": "h9",
+      "text": "Sixteen seconds after that, the tower calls a different aircraft, and never finishes the sentence.",
+      "video": "nightapproach_3.mp4",
+      "tone": "fear"
+    },
+    {
+      "id": "ra4",
+      "speaker": "DCA TOWER · LOCAL CONTROL",
+      "timestamp": "8:47:57.6 p.m.",
+      "radioLabel": "ACTUAL ATC RECORDING",
+      "text": "American four seventy two, Washington Tower —",
+      "cap": "Cut off by the impact.",
+      "tone": "shock"
+    },
+    {
+      "id": "h10",
+      "text": "Sixty seven people died over the Potomac that night. The deadliest air disaster in the United States in more than twenty three years.",
+      "video": "nightapproach_2.mp4",
+      "stat": "67 DEAD",
+      "statColor": "#FF4D4D",
+      "tone": "shock"
+    },
+    {
+      "id": "h11",
+      "text": "A year later, federal investigators finished their work. And what they found was not one mistake in one cockpit. It was a warning that had already been given, in writing, fifteen thousand times.",
+      "video": "towercab_2.mp4",
+      "cap": "This is what the docket actually says.",
+      "tone": "tension"
+    },
+    {
+      "id": "sting",
+      "sting": true,
+      "text": "You're watching Black Box Breakdown.",
+      "img": "expc",
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "text": "This is the Black Box breakdown of the Potomac midair collision, built entirely from the investigation's own evidence file.",
+      "tone": "neutral",
+      "img": "expc",
+      "chapter": "THE WORDS THAT NEVER\nREACHED THE BLACK HAWK"
+    },
+    {
+      "id": "c1",
+      "chapter": "THE LINE THAT WAS NEVER MEASURED",
+      "text": "Chapter one. The line that was never measured.",
+      "img": "exroute",
+      "tone": "tension"
+    },
+    {
+      "id": "c1a",
+      "text": "To understand the collision, you have to understand the map. Washington has a network of published helicopter routes, drawn across some of the most restricted airspace on Earth.",
+      "img": "exroute",
+      "query": "Baltimore Washington helicopter route chart",
+      "tone": "neutral"
+    },
+    {
+      "id": "c1b",
+      "text": "The Black Hawk was flying one of them. Route four. It runs along the eastern shore of the Potomac, past Hains Point, down to the Wilson Bridge.",
+      "video": "nightapproach_4.mp4",
+      "cap": "Route 4 · Hains Point to the Wilson Bridge",
+      "tone": "neutral"
+    },
+    {
+      "id": "c1c",
+      "text": "And it passes directly underneath the approach path to runway three three at Washington National.",
+      "video": "towercab_8.mp4",
+      "cap": "Underneath the approach.",
+      "tone": "tension"
+    },
+    {
+      "id": "c1d",
+      "text": "Investigators went to the F A A office that publishes that chart, and asked a simple question. How wide is the route?",
+      "img": "exroute",
+      "tone": "curiosity"
+    },
+    {
+      "id": "ex_route",
+      "img": "exrt25",
+      "exhibit": true,
+      "source": "NTSB · ATC/Human Performance Group Chairman's Factual Report · DCA25MA108 · page 25",
+      "highlight": [
+        0.08,
+        0.3,
+        0.84,
+        0.14
+      ],
+      "cap": "The answer, in their own words.",
+      "text": "The answer is in the docket. Helicopter routes as depicted on these charts had no lateral boundaries. And then this sentence. The lines drawn on the chart depicting a helicopter route are not scaled, and have no associated measurements.",
+      "tone": "shock"
+    },
+    {
+      "id": "c1e",
+      "text": "The route had no width. It was a line on a map, meant to be followed the way you follow a shoreline or a highway. Not a corridor. Not a tunnel. A suggestion, drawn beside a runway.",
+      "img": "exroute",
+      "stat": "NO LATERAL BOUNDARIES",
+      "tone": "shock"
+    },
+    {
+      "id": "c1f",
+      "text": "Investigators asked how the routes were designed. The specialists could not fully recollect. They had mostly been developed decades ago, with minimal changes over the years.",
+      "img": "exroute",
+      "tone": "tension"
+    },
+    {
+      "id": "c1g",
+      "text": "Between twenty fourteen and June twenty twenty one, that chart was not changed at all. One altitude, on a different route, near the South Capitol Street Bridge, was raised from two hundred feet to three hundred. That was the change.",
+      "img": "exroute",
+      "cap": "Seven years. One altitude edit.",
+      "tone": "tension"
+    },
+    {
+      "id": "c1h",
+      "text": "On the segment the Black Hawk was flying, the maximum published altitude was two hundred feet. Above that, the route stops protecting anyone, because above that is where the jets are.",
+      "video": "nightapproach_3.mp4",
+      "stat": "200 FEET MAXIMUM",
+      "tone": "tension"
+    },
+    {
+      "id": "c2",
+      "chapter": "THE NUMBER NOBODY ADDED UP",
+      "text": "Chapter two. Fifteen thousand two hundred and fourteen.",
+      "img": "exdata",
+      "tone": "fear"
+    },
+    {
+      "id": "c2a",
+      "text": "In the weeks after the collision, an F A A safety programme handed investigators a set of numbers it had been collecting for years. Nobody had ever assembled them into a question before.",
+      "img": "exdata",
+      "tone": "curiosity"
+    },
+    {
+      "id": "ex_data",
+      "img": "exdta",
+      "exhibit": true,
+      "source": "NTSB · Aviation Investigation Report AIR-26-02 · section 1.14, Flight Safety Data",
+      "highlight": [
+        0.1,
+        0.34,
+        0.8,
+        0.16
+      ],
+      "cap": "Three years of near misses, counted.",
+      "text": "Between October twenty twenty one and December twenty twenty four, at this one airport, there were fifteen thousand two hundred and fourteen occurrences in which an airliner and a helicopter came within one nautical mile of each other, and within four hundred feet vertically.",
+      "tone": "shock"
+    },
+    {
+      "id": "c2b",
+      "text": "Fifteen thousand. But the number that should have stopped everything is the smaller one, in the same sentence.",
+      "img": "exdata",
+      "stat": "15,214",
+      "tone": "shock"
+    },
+    {
+      "id": "c2c",
+      "text": "Eighty five times, in a little over three years, an airliner and a helicopter passed within fifteen hundred feet of each other laterally, and two hundred feet vertically. Eighty five times, the same accident nearly happened.",
+      "img": "exdata",
+      "stat": "85 TIMES",
+      "statColor": "#FF4D4D",
+      "tone": "shock"
+    },
+    {
+      "id": "c2d",
+      "text": "This data existed. It was being recorded, by the agency responsible for the airspace, the entire time.",
+      "video": "radarscope_3.mp4",
+      "tone": "tension"
+    },
+    {
+      "id": "c2e",
+      "text": "So investigators asked how the F A A defined a close proximity event, and how it tracked them. The finding is one line long, and it is devastating.",
+      "img": "exdata",
+      "tone": "tension"
+    },
+    {
+      "id": "c2f",
+      "text": "The F A A lacked a standardised approach to defining and tracking data that might be used to assess midair collision risk.",
+      "img": "exdata",
+      "cap": "No standard. No tracking. No question asked.",
+      "tone": "shock"
+    },
+    {
+      "id": "c2g",
+      "text": "There was no system watching for this. The board had to build its own group, after sixty seven people were dead, to go and find the warnings that had been sitting in the agency's own files.",
+      "video": "towercab_5.mp4",
+      "tone": "shock"
+    },
+    {
+      "id": "c3",
+      "chapter": "WHAT THE TOWER COULD SEE",
+      "text": "Chapter three. What the tower could actually see.",
+      "img": "exfaa",
+      "tone": "tension"
+    },
+    {
+      "id": "c3a",
+      "text": "To answer that, investigators went back to the tower cab at night and filmed it. This is that recreation. This is the controller's own view, out over the river.",
+      "video": "towercab_1.mp4",
+      "cap": "NTSB tower cab visibility study",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c3b",
+      "text": "Look at how much of it is just lights. A helicopter low over black water, against a city, is not a silhouette. It is three small lights in a field of thousands.",
+      "video": "towercab_6.mp4",
+      "cap": "Find the helicopter.",
+      "tone": "tension"
+    },
+    {
+      "id": "c3c",
+      "text": "Now the workload. That night, one controller was working two jobs at once. The helicopter position and the local control position had been combined, and given to one person.",
+      "video": "towercab_6.mp4",
+      "stat": "TWO POSITIONS. ONE CONTROLLER.",
+      "tone": "tension"
+    },
+    {
+      "id": "c3d",
+      "text": "That is not unusual, and it is not against the rules. It is a normal staffing decision, made on normal nights, at an airport the investigation would describe as regularly straining its own workforce.",
+      "video": "towercab_5.mp4",
+      "tone": "neutral"
+    },
+    {
+      "id": "c3e",
+      "text": "And there is one more thing on that display, which almost nobody outside air traffic control knows.",
+      "video": "radarscope_4.mp4",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c3f",
+      "text": "Every altitude a controller sees is rounded. The docket states it plainly. All altitudes, regardless of source, are rounded to the nearest hundred foot increment for display.",
+      "video": "radarscope_1.mp4",
+      "cap": "Rounded to the nearest 100 feet.",
+      "tone": "shock"
+    },
+    {
+      "id": "c3g",
+      "text": "So a helicopter at two hundred and seventy eight feet, on a route with a two hundred foot ceiling, does not appear as a violation. It appears as three hundred. And three hundred, on a screen, next to twelve hundred, looks like room.",
+      "video": "radarscope_4.mp4",
+      "stat": "278 FT → DISPLAYED AS 300",
+      "tone": "shock"
+    },
+    {
+      "id": "c4",
+      "chapter": "THE ALTIMETER THAT READ LOW",
+      "text": "Chapter four. The instrument that told them they were lower.",
+      "img": "expc",
+      "tone": "tension"
+    },
+    {
+      "id": "c4a",
+      "text": "The Black Hawk was at two hundred and seventy eight feet when it was hit. Seventy eight feet above the maximum for the route it was on.",
+      "video": "nightapproach_3.mp4",
+      "stat": "278 FEET",
+      "tone": "tension"
+    },
+    {
+      "id": "c4b",
+      "text": "The obvious explanation is that the crew climbed and did not notice. The investigation found something harder to live with. They may not have been able to notice.",
+      "video": "towercab_4.mp4",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c4c",
+      "text": "The Army and the manufacturer handed over flight test data for the U H sixty. It shows that the barometric altimeter in this helicopter does not read true at low speed.",
+      "img": "expc",
+      "tone": "tension"
+    },
+    {
+      "id": "c4d",
+      "text": "In a hover, the rotor's own downwash pushes the reading down by as much as eighty feet. By thirty knots the error falls to about thirty five feet low. By a hundred and twenty knots it clears entirely.",
+      "img": "expc",
+      "stat": "READS UP TO 80 FT LOW",
+      "tone": "tension"
+    },
+    {
+      "id": "c4e",
+      "text": "And this particular airframe carried external fuel tanks. Investigators flew three helicopters to check. All three read lower than their true altitude. The one with the tanks, like the accident aircraft, was worse, by another fifty feet.",
+      "img": "expc",
+      "cap": "All three read low. The accident type read lowest.",
+      "tone": "shock"
+    },
+    {
+      "id": "c4f",
+      "text": "So the instrument in front of that crew was, by design, capable of telling them they were lower than they were. Which brings the only question that matters. Did anyone tell them that?",
+      "video": "towercab_7.mp4",
+      "tone": "curiosity"
+    },
+    {
+      "id": "ex_army",
+      "img": "exarmy",
+      "exhibit": true,
+      "source": "NTSB · Aviation Investigation Report AIR-26-02 · findings, page xxii",
+      "highlight": [
+        0.1,
+        0.24,
+        0.8,
+        0.12
+      ],
+      "cap": "The finding.",
+      "text": "The board's finding. The Army did not ensure that helicopter pilots were adequately informed about the effects of allowable error tolerances in barometric altimeters. As a result, the accident helicopter crew was flying above the published maximum route altitude.",
+      "tone": "shock"
+    },
+    {
+      "id": "c5",
+      "chapter": "THE APPROACH THEY NEVER HEARD",
+      "text": "Chapter five. The approach they were never told about.",
+      "img": "exfaa",
+      "tone": "fear"
+    },
+    {
+      "id": "c5a",
+      "text": "Here is the part almost every account of this crash gets wrong. It is not that the crew looked at the jet and misjudged it. It is that they were almost certainly never looking at the jet at all.",
+      "video": "towercab_7.mp4",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c5b",
+      "text": "Flight five three four two was originally set up to land on runway one. Late in the approach, the tower asked whether they could take runway three three instead. They said yes.",
+      "video": "nightapproach_5.mp4",
+      "cap": "A late runway change.",
+      "tone": "tension"
+    },
+    {
+      "id": "c5c",
+      "text": "That change matters enormously. It swings the jet across the river, into a circling turn, into a piece of sky the helicopter crew had no reason to be searching.",
+      "video": "radarscope_5.mp4",
+      "tone": "tension"
+    },
+    {
+      "id": "c5d",
+      "text": "And the helicopter, according to the final report, never received that information.",
+      "img": "expc",
+      "tone": "fear"
+    },
+    {
+      "id": "ex_thread",
+      "img": "exthrd",
+      "exhibit": true,
+      "source": "NTSB · Aviation Investigation Report AIR-26-02 · page xxii",
+      "highlight": [
+        0.1,
+        0.4,
+        0.8,
+        0.18
+      ],
+      "cap": "The single most important paragraph in the report.",
+      "text": "Due to degraded radio reception, the crew did not receive information about the airplane's circling approach to a different runway, which reinforced an incorrect expectation that the airplane did not pose a conflict. That expectation shaped the crew's visual scan, and led the instructor pilot to report traffic in sight, and request visual separation, without positively identifying the airplane.",
+      "tone": "shock"
+    },
+    {
+      "id": "c5e",
+      "text": "Read that again. Without positively identifying the airplane. When that crew said they had the traffic in sight, they had something in sight. In an airspace with a dozen aircraft moving at once, over a city made of lights.",
+      "video": "towercab_8.mp4",
+      "cap": "They saw something. Not necessarily this.",
+      "tone": "shock"
+    },
+    {
+      "id": "c5f",
+      "text": "And the one transmission that would have corrected them, the instruction to pass behind, was the transmission their own radio cut in half.",
+      "video": "radarscope_2.mp4",
+      "tone": "fear"
+    },
+    {
+      "id": "ex_cvr1",
+      "img": "excvr114",
+      "exhibit": true,
+      "source": "NTSB · Cockpit Voice Recorder Group Chairman's Factual Report · DCA25MA108 · page 114",
+      "highlight": [
+        0.32,
+        0.52,
+        0.62,
+        0.14
+      ],
+      "cap": "Eight tenths of a second.",
+      "text": "It is written into the transcript itself, as a bracketed note. Transmission interrupted by zero point eight second mic key from PAT twenty five.",
+      "tone": "shock"
+    },
+    {
+      "id": "c5g",
+      "text": "The instruction was never read back. The controller heard them ask again for visual separation, and approved it. Everyone on that frequency believed the problem was being handled by someone else.",
+      "img": "exfaa",
+      "tone": "fear"
+    },
+    {
+      "id": "c6",
+      "chapter": "THE RULE THAT WAS DOING THE WORK",
+      "text": "Chapter six. See and avoid.",
+      "img": "exdata",
+      "tone": "tension"
+    },
+    {
+      "id": "c6a",
+      "text": "Everything you have just heard rests on a single idea, and that idea is very old. It is called see and avoid. The pilot looks out of the window, finds the other aircraft, and stays away from it.",
+      "video": "towercab_1.mp4",
+      "tone": "neutral"
+    },
+    {
+      "id": "c6b",
+      "text": "When a crew requests visual separation and a controller approves it, the controller hands the job of not colliding to the human eye. It is efficient. It moves traffic. At a saturated airport, it is how the day gets done.",
+      "video": "radarscope_6.mp4",
+      "tone": "tension"
+    },
+    {
+      "id": "c6c",
+      "text": "The board's verdict on that practice is unusually blunt. It calls it an overreliance on visual separation, in order to promote efficient traffic flow, without consideration for the limitations of the see and avoid concept.",
+      "img": "expc",
+      "cap": "“Overreliance on visual separation.”",
+      "tone": "shock"
+    },
+    {
+      "id": "c6d",
+      "text": "So what about the technology? Both aircraft had collision avoidance equipment. Neither one saved them, and the reasons are specific.",
+      "video": "tcas_1.mp4",
+      "cap": "TCAS traffic display · NTSB study",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c6e",
+      "text": "The jet's system will warn a crew about traffic, but below about a thousand feet above the ground, it is deliberately barred from telling them to climb or descend. On short final, that is by design. You do not want a machine flying a jet into the ground to avoid a target.",
+      "video": "tcas_2.mp4",
+      "tone": "tension"
+    },
+    {
+      "id": "c6f",
+      "text": "And the helicopter was not transmitting on the newer surveillance system. Not illegally. It was operating under a standing Defence Department exemption that permitted exactly that.",
+      "video": "cdti_1.mp4",
+      "cap": "Permitted. Not a violation.",
+      "tone": "neutral"
+    },
+    {
+      "id": "c6g",
+      "text": "That distinction matters, and it is worth saying clearly, because it has been reported badly. Nobody switched anything off to hide. Both aircraft were on radar the whole time. The exemption was policy, written down, approved.",
+      "video": "tcas_2.mp4",
+      "tone": "neutral"
+    },
+    {
+      "id": "c6h",
+      "text": "But there is a receiver, costing between fifteen hundred and three thousand dollars, that would have put the other aircraft on a screen in front of both crews. The board has recommended it seventeen separate times since two thousand and six.",
+      "video": "tcas_1.mp4",
+      "stat": "RECOMMENDED 17 TIMES SINCE 2006",
+      "statColor": "#FF4D4D",
+      "tone": "shock"
+    },
+    {
+      "id": "c7",
+      "chapter": "THE LAST 58 SECONDS",
+      "text": "Chapter seven. The last fifty eight seconds.",
+      "img": "excvr",
+      "tone": "fear"
+    },
+    {
+      "id": "c7a",
+      "text": "What follows comes from the helicopter's cockpit voice recorder, as published in the investigation docket. The audio has never been released, and it never will be. Federal law permits the transcript only.",
+      "img": "excvr",
+      "cap": "Transcript only. The voices you hear are recreations.",
+      "tone": "neutral"
+    },
+    {
+      "id": "c7b",
+      "text": "So the lines you are about to hear are read by a voice actor, from the printed record. The words are exact. The brackets, where investigators were unsure of a word, are exact too. I have left them in.",
+      "img": "excvr",
+      "tone": "neutral"
+    },
+    {
+      "id": "cvr1",
+      "speaker": "CVR · PAT25 CREW",
+      "timestamp": "8:47:44 p.m.",
+      "radioLabel": "CVR RECREATION",
+      "text": "PAT two five has, uh, aircraft in sight. Request visual separation.",
+      "tone": "tension"
+    },
+    {
+      "id": "c7c",
+      "text": "Three and a half seconds later, one of the crew says a single word, and investigators could not agree on which word it was. It is written in the transcript as either woah, or below.",
+      "img": "excvr",
+      "tone": "fear"
+    },
+    {
+      "id": "cvr2",
+      "speaker": "CVR · PAT25 CREW",
+      "timestamp": "8:47:47.8 p.m.",
+      "radioLabel": "CVR RECREATION",
+      "text": "Woah.",
+      "cap": "Transcript reads: (woah / below) — investigators could not agree.",
+      "tone": "fear"
+    },
+    {
+      "id": "cvr3",
+      "speaker": "CVR · PAT25 INSTRUCTOR PILOT",
+      "timestamp": "8:47:52.5 p.m.",
+      "radioLabel": "CVR RECREATION",
+      "text": "Alright, kinda come left for me, ma'am. I think that's why he's asking.",
+      "tone": "fear"
+    },
+    {
+      "id": "c7d",
+      "text": "I think that's why he's asking. Five and a half seconds before impact, the instructor pilot is still trying to work out what the controller wanted. Because the part that would have told him was cut out of the transmission.",
+      "img": "excvr",
+      "tone": "shock"
+    },
+    {
+      "id": "cvr4",
+      "speaker": "CVR · PAT25 CREW",
+      "timestamp": "8:47:55 p.m.",
+      "radioLabel": "CVR RECREATION",
+      "text": "Sure. We're kinda... out towards the middle.",
+      "tone": "fear"
+    },
+    {
+      "id": "ex_cvr2",
+      "img": "excvr115",
+      "exhibit": true,
+      "source": "NTSB · Cockpit Voice Recorder Group Chairman's Factual Report · DCA25MA108 · pages 115–116",
+      "highlight": [
+        0.3,
+        0.62,
+        0.64,
+        0.16
+      ],
+      "cap": "8:47:57.6 p.m.",
+      "text": "The next entry in the transcript is the tower, calling another aircraft. Beside it, investigators wrote four words. Transmission cut off by impact.",
+      "tone": "shock"
+    },
+    {
+      "id": "c7e",
+      "text": "One and a half seconds after that, the recorder captures an emergency locator signal. Then a master caution alarm begins, and continues to the end of the recording.",
+      "img": "excvr",
+      "tone": "shock"
+    },
+    {
+      "id": "c7f",
+      "text": "The recording ends at eight forty eight and four seconds. Six point four seconds after the collision.",
+      "img": "excvr",
+      "stat": "END OF RECORDING",
+      "statColor": "#FF4D4D",
+      "tone": "shock"
+    },
+    {
+      "id": "c7g",
+      "text": "Sixty four people were aboard the airplane. Three were aboard the helicopter. Among the passengers were young figure skaters, their parents and their coaches, flying home from a development camp in Wichita.",
+      "video": "nightapproach_6.mp4",
+      "cap": "67 people.",
+      "tone": "somber"
+    },
+    {
+      "id": "c7h",
+      "text": "There were no survivors.",
+      "video": "nightapproach_3.mp4",
+      "tone": "somber"
+    },
+    {
+      "id": "c8",
+      "chapter": "THE VERDICT",
+      "text": "Chapter eight. The verdict.",
+      "img": "expc",
+      "tone": "tension"
+    },
+    {
+      "id": "c8a",
+      "text": "On the twenty seventh of January, twenty twenty six, the board met in public and voted on a cause. Seventy four findings. Fifty recommendations. And one paragraph that had to be agreed word by word.",
+      "img": "expc",
+      "tone": "tension"
+    },
+    {
+      "id": "ex_pc",
+      "img": "expcpg",
+      "exhibit": true,
+      "source": "NTSB · Aviation Investigation Report AIR-26-02 · section 3.3, page 299",
+      "highlight": [
+        0.09,
+        0.14,
+        0.82,
+        0.26
+      ],
+      "cap": "Probable cause, in full.",
+      "text": "The probable cause of this accident was the Federal Aviation Administration's placement of a helicopter route in close proximity to a runway approach path. Their failure to regularly review and evaluate helicopter routes and available data. And their failure to act on recommendations to mitigate the risk of a midair collision at this airport.",
+      "tone": "shock"
+    },
+    {
+      "id": "c8b",
+      "text": "It continues. As well as the air traffic system's overreliance on visual separation, in order to promote efficient traffic flow, without consideration for the limitations of the see and avoid concept.",
+      "img": "expc",
+      "tone": "shock"
+    },
+    {
+      "id": "c8c",
+      "text": "And then, because an honest report does not stop where it is comfortable, this. Also causal was the lack of effective pilot applied visual separation by the helicopter crew.",
+      "img": "expc",
+      "cap": "The crew is named too.",
+      "tone": "somber"
+    },
+    {
+      "id": "c8d",
+      "text": "That sentence deserves care. It is not a verdict of recklessness. It sits inside a paragraph that spends most of its length on the agency that drew the route, the system that leaned on the human eye, and an Army that never told its pilots their altimeters read low.",
+      "img": "expc",
+      "tone": "somber"
+    },
+    {
+      "id": "c8e",
+      "text": "The tower team is in there too. Loss of situation awareness, and degraded performance, due to the high workload of the combined helicopter and local control positions.",
+      "video": "towercab_2.mp4",
+      "tone": "somber"
+    },
+    {
+      "id": "c8f",
+      "text": "And among the contributing factors, one line that reads like an indictment of everything that came before it. An unsustainable airport arrival rate, and airline scheduling practices, which regularly strained the tower workforce, and degraded safety over time.",
+      "img": "expc",
+      "cap": "“Degraded safety over time.”",
+      "tone": "shock"
+    },
+    {
+      "id": "c8g",
+      "text": "So what happened to route four? Within weeks of the crash, after urgent recommendations, the F A A closed the segment between Hains Point and the Wilson Bridge.",
+      "img": "exroute",
+      "tone": "tension"
+    },
+    {
+      "id": "ex_route2",
+      "img": "exrt26",
+      "exhibit": true,
+      "source": "NTSB · ATC/HP Group Chairman's Factual Report · DCA25MA108 · page 26 · chart effective June 12, 2025",
+      "highlight": [
+        0.1,
+        0.36,
+        0.8,
+        0.2
+      ],
+      "cap": "The chart, four months later.",
+      "text": "And then, on the chart update effective the twelfth of June, twenty twenty five, route four was eliminated altogether. Four months after it killed sixty seven people, the line was simply removed from the map.",
+      "tone": "shock"
+    },
+    {
+      "id": "c8h",
+      "text": "In January twenty twenty six the agency went further, restricting the use of runways fifteen and three three whenever helicopters are operating nearby. The two things that could not safely share that sky are now not allowed to.",
+      "video": "nightapproach_6.mp4",
+      "tone": "tension"
+    },
+    {
+      "id": "coda1",
+      "text": "I want to be careful about what this story is, because it would be easy to tell it as a story about three seconds of radio.",
+      "video": "towercab_1.mp4",
+      "tone": "somber"
+    },
+    {
+      "id": "coda2",
+      "text": "It is true that if those three words had arrived, this probably does not happen. Pass behind the C R J. Eight tenths of a second of someone else's microphone.",
+      "video": "radarscope_2.mp4",
+      "tone": "somber"
+    },
+    {
+      "id": "coda3",
+      "text": "But a system that only works when every transmission arrives intact is not a safe system. It is a lucky one. And the file shows exactly how long the luck had been holding.",
+      "img": "exdata",
+      "tone": "somber"
+    },
+    {
+      "id": "coda4",
+      "text": "Eighty five times, an airliner and a helicopter had already come that close over this river, and every one of those was recorded, and none of them was ever added up into a question.",
+      "img": "exdata",
+      "stat": "85",
+      "statColor": "#FF4D4D",
+      "tone": "shock"
+    },
+    {
+      "id": "coda5",
+      "text": "The route had no width. The screen rounded the altitude. The altimeter read low. The instruction was cut in half. Any one of those is survivable. The investigation's real finding is that nobody was counting how many were stacking up.",
+      "video": "nightapproach_2.mp4",
+      "tone": "somber"
+    },
+    {
+      "id": "coda6",
+      "text": "Everything in this video came from one public evidence file. The tower audio was real. The transcript was real. The radar display was real, and so was the alarm on it, with both callsigns already printed side by side.",
+      "video": "radarscope_6.mp4",
+      "cap": "Docket DCA25MA108 · public domain",
+      "tone": "neutral"
+    },
+    {
+      "id": "coda7",
+      "text": "It had been telling the truth for twenty five seconds before anyone died.",
+      "video": "radarscope_2.mp4",
+      "tone": "shock"
+    },
+    {
+      "id": "bridge",
+      "text": "If the way that route was drawn shocked you, wait until you see what one badly signed repair did to Japan Airlines one two three, the deadliest single aircraft disaster in history. It is on the channel now. And if you want these built from the real documents instead of the headlines, subscribe to Black Box Breakdown.",
+      "video": "nightapproach_1.mp4",
+      "tone": "neutral"
+    }
+  ]
+}

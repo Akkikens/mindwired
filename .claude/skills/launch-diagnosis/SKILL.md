@@ -51,7 +51,7 @@ Do not proceed on vibes. If a metric is missing, mark it unknown and say which b
 the tree it blocks. Never invent or estimate a number the user didn't paste.
 Context for reading the numbers: 3.5-5% blended CTR is statistically NORMAL, not
 low (browse skews lower than search by design), and ~37% average-viewed on a
-15-25 min doc sits in the "strong" 35-45% band — do not pathologize healthy
+long-form doc sits in the "strong" 35-45% band — do not pathologize healthy
 numbers; the pool size is usually the story. Satisfaction signals (surveys, "not
 interested" taps) now formally outrank raw watch time in ranking — a video can die
 from feeling baity even with fine CTR/retention.

@@ -32,6 +32,19 @@ Each finished video gets its channel's subscribe outro appended (see "Subscribe 
 
 ## The two repos
 
+> **HOME CHECKOUT — always work in `~/Documents/GitHub/mindwired` (Akshay,
+> 2026-08-30).** A second clone exists at `~/mindwired`; it is NOT home. Every
+> render, footage fetch, VO build and packaging pass happens in the GitHub
+> checkout, because that is where the unversioned production assets live —
+> `.env` (all API keys), `assets/subscribe-outro/`, `public/outro/`,
+> `public/beds/`, `public/host/`, and ~19GB of past episodes' media, none of
+> which is in git. Working from the other clone is what produced a 78-minute
+> wasted GCE render on 2026-08-30: `public/outro/` did not exist there,
+> `render_gce.sh` silently skipped it, and the master came back truncated with
+> no subscribe outro (`render_gce.sh` now hard-fails instead — see its
+> REQUIRED-dirs check). If a session ever starts in `~/mindwired`, `cd` to the
+> GitHub checkout before doing anything.
+
 | Repo | What lives here |
 |---|---|
 | **mindwired** (this repo) | Custom long-form episodes (`src/orbit-style` comps, `src/attractor`, `src/scariest`, `src/gtavi`), the **viral shorts engine** (`src/viral`), packaging docs (`docs/metadata/`, `docs/guides/THUMBNAILS.md`), finished uploads at repo root / `out/` |

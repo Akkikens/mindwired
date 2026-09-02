@@ -95,6 +95,10 @@ import kurskDoc from "./mindwired-doc/docs/kursk.json";
 import kurskManifest from "./mindwired-doc/docs/kursk.manifest.json";
 import twa800Doc from "./mindwired-doc/docs/twa800.json";
 import twa800Manifest from "./mindwired-doc/docs/twa800.manifest.json";
+import colossalSquidDoc from "./mindwired-doc/docs/colossalsquid.json";
+import colossalSquidManifest from "./mindwired-doc/docs/colossalsquid.manifest.json";
+import dcamidairDoc from "./mindwired-doc/docs/dcamidair.json";
+import dcamidairManifest from "./mindwired-doc/docs/dcamidair.manifest.json";
 import swissair111Doc from "./mindwired-doc/docs/swissair111.json";
 import swissair111Manifest from "./mindwired-doc/docs/swissair111.manifest.json";
 import challengerdisasterDoc from "./mindwired-doc/docs/challengerdisaster.json";
@@ -1277,6 +1281,16 @@ export const RemotionRoot: React.FC = () => {
         height={1080}
       />
 
+      {/* ── mindwired — Colossal Squid (35-min long-form; MW subscribe outro baked) ── */}
+      <Composition
+        id="ColossalSquidDoc"
+        component={makeDocComp(colossalSquidDoc, colossalSquidManifest, MW_OUTRO)}
+        durationInFrames={docTotalFrames(colossalSquidDoc, colossalSquidManifest, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
       {/* ── mindwired — Mars One (documentary pivot #1; MW subscribe outro baked) ── */}
       <Composition
         id="MarsOneDoc"
@@ -1728,6 +1742,27 @@ export const RemotionRoot: React.FC = () => {
              claims, no speculation). No music bed — VO/SFX only, per
              Akshay's explicit no-overlap request. See memory
              `icahn-swissair111`. BB_OUTRO baked. ── */}
+
+      {/* ── Potomac midair collision (PSA/American Eagle 5342 x Army PAT25,
+           29 Jan 2025) — Black Box Breakdown. Built ENTIRELY from NTSB public
+           docket DCA25MA108 + final report AIR-26-02: real DCA tower audio
+           (labeled ACTUAL ATC RECORDING), Black Hawk CVR transcript read as
+           labeled CVR RECREATION (no CVR audio exists or was used), real 4K
+           tower-cab visibility recreations, real STARS radar replay showing
+           the conflict alert naming both aircraft, real exterior-lighting
+           night video. Zero broadcast news footage. Icahn: FAILED the ratio
+           gate (big channels served this topic); built on Akshay's explicit
+           evidence override — see memory `icahn-dcamidair` and
+           docs/planning/CLAIMS-dcamidair.md. BB_OUTRO baked. ── */}
+      <Composition
+        id="DcaMidairDoc"
+        component={makeDocComp(dcamidairDoc as any, dcamidairManifest as any, BB_OUTRO)}
+        durationInFrames={docTotalFrames(dcamidairDoc as any, dcamidairManifest as any, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
       <Composition
         id="Swissair111Doc"
         component={makeDocComp(swissair111Doc as any, swissair111Manifest as any, BB_OUTRO)}
