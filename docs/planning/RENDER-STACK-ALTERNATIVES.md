@@ -65,6 +65,73 @@ Revideo directly instead.
 - ManimCommunity/manim + docs.manim.community; adithya-s-k/manim_skill (LLM-driven Manim)
 - Wireflow: Best Remotion Alternatives in 2026
 
+## Round 2 additions (2026-09-04, cross-checked against a ChatGPT deep-research
+## pass Akshay ran; every load-bearing claim below re-verified against primary
+## sources before inclusion — unverified items are marked)
+
+### 0. FIRST thing to try — Remotion's own `@remotion/web-renderer` (VERIFIED)
+Remotion now ships a **stable** (from v4.0.491) WebCodecs-based renderer that
+encodes via Mediabunny instead of the FFmpeg + per-frame-screenshot path — the
+exact architecture every challenger is selling, inside the engine we already
+use. Remotion announced (Sept 2025) it is consolidating on Mediabunny and
+phasing out @remotion/media-parser + @remotion/webcodecs. Known caveat: some
+CSS limitations, so not guaranteed drop-in for DocWide — but this is by far
+the cheapest speed experiment available and should be benchmarked BEFORE any
+external candidate. Docs: remotion.dev/docs/web-renderer.
+
+### 0.5 Immediate Remotion tuning for THIS repo's exact pain (VERIFIED docs guidance)
+- **The delayRender font race we hit on GCE:** current guidance is to
+  centralize font loading and use @remotion/fonts' waitUntilDone()/
+  waitForFonts() rather than ad-hoc delayRender plumbing. `src/lib/fonts.ts`
+  already uses @remotion/fonts loadFont — audit whether the wait pattern is
+  wired in; CHUNKED=1 is the workaround, this is the fix.
+- **Footage playback:** Remotion recommends @remotion/media's <Video> for best
+  source-video performance — check what DocWide uses (OffthreadVideo predates
+  this guidance).
+- **Concurrency:** stop assuming 16-on-32-cores is optimal — at 4K, memory
+  bandwidth/decode/paint can make more concurrent frames slower; sweep
+  concurrency once and bake the winner into render_gce.sh.
+
+### 1b. VideoFlow (github.com/ybouane/VideoFlow) — new external candidate #1 for a
+### benchmark, ABOVE Revideo for this repo specifically (VERIFIED to exist as described)
+Fluent TypeScript API compiling to a **portable VideoJSON** → rendered either
+client-side (WebCodecs + Mediabunny) or server-side (headless Chromium, but
+compositing/encoding in-browser rather than per-frame screenshot round-trips
+to Node). Apache-2.0. Why it ranks above Revideo for us: our pipeline is
+already scene-JSON-driven, so the migration path is a
+`doc-spec JSON → VideoJSON` adapter that preserves the whole TTS/caption/
+asset/gate system — vs. Revideo requiring a rewrite into Motion-Canvas-style
+generator scenes. Why it stays a benchmark-only candidate: tiny project
+(~150 stars), no named independent production users found, and an 11-min 4K
+archival-footage doc is a different stress test than its examples. Its
+sequential-decode design for video layers (vs. fresh seek per frame) targets
+exactly our footage-heavy pattern.
+
+### Also noted from the ChatGPT pass (NOT independently verified here)
+- **Canvas Commons** — community fork of the stalled upstream Motion Canvas
+  (~218 stars, active Aug 2026). Watchlist replacement for Motion Canvas
+  references above; same migration economics.
+- Upstream **Motion Canvas**'s last substantive code commit is reportedly
+  Feb 2025 (the 2026 commits are docs-only) — treat upstream as dormant.
+- **Helios** is Elastic License 2.0 (source-available, not OSI) and its own
+  comparison table marks Sequence/Series "not yet" — reinforces the
+  watch-don't-migrate verdict above.
+- Revideo's maintainers now primarily develop a commercial product
+  (Midrender) and newer engine work has reportedly not been upstreamed —
+  a real long-term-maintenance flag on the OSS repo.
+
+### The benchmark that settles it (when there's slack — not before)
+One representative comp with the worst real workload (4K, 3-5 min of H.264
+archival footage, Ken Burns photos, real fonts, word-level captions, VO +
+windowed music), run through 4 configs: (1) current Remotion after the 0.5
+tuning items, (2) @remotion/web-renderer, (3) VideoFlow via a doc-spec→
+VideoJSON adapter, (4) Revideo re-creation. **Migration bar: ≥2× end-to-end
+4K throughput + equal determinism + materially lower $/finished-minute +
+repeated clean 11-min stress renders — a 25-50% speedup does NOT justify a
+rewrite.** Expected outcome: Remotion (tuned, possibly web-renderer) wins on
+total cost; the ecosystem's WebCodecs shift is real but Remotion is adopting
+it faster than challengers are reaching production maturity.
+
 ## Re-check triggers
 - Upload cadence reaches ~daily across 3+ channels (render cost becomes a
   real line item) → run the Revideo experiment seriously.
