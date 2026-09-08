@@ -1,0 +1,289 @@
+[
+ {
+  "id": "h1",
+  "text": "It is September twenty sixth, nineteen ninety one. Sunrise over the Arizona desert, thirty five miles north of Tucson.",
+  "video": "b2_dawn_1.mp4",
+  "videoQuery": "Biosphere 2 Oracle Arizona glass structure exterior",
+  "stat": "SEPT 26, 1991",
+  "cap": "Oracle, Arizona.",
+  "motion": "slow",
+  "tone": "curiosity"
+ },
+ {
+  "id": "h2",
+  "text": "Five hundred people have come to watch. There is a stage, and a laser show the night before, and eight people in blue jumpsuits and black sneakers walking down a strip of green astroturf.",
+  "video": "b2_wide_1.mp4",
+  "videoQuery": "Biosphere 2 glass pyramid ziggurat wide exterior desert",
+  "cap": "Five hundred people came to watch.",
+  "tone": "hope"
+ },
+ {
+  "id": "h3",
+  "text": "They are about to be sealed inside two hundred thousand cubic metres of glass, with four thousand other species, and no way to get food, water or air from the outside for two years.",
+  "video": "b2_glass_1.mp4",
+  "videoQuery": "Biosphere 2 space frame glazing lattice interior looking up",
+  "stat": "2 YEARS SEALED",
+  "cap": "Two years. No air from outside.",
+  "motion": "slow",
+  "tone": "fear"
+ },
+ {
+  "id": "h4",
+  "text": "The man closing the door is not a scientist. He is a Texas oil heir named Ed Bass, and he has put somewhere between a hundred and fifty and two hundred million dollars of his own money into this building.",
+  "video": "b2_exterior_2.mp4",
+  "videoQuery": "Biosphere 2 Arizona exterior glass panels sunlight",
+  "cap": "Ed Bass. The money.",
+  "tone": "curiosity"
+ },
+ {
+  "id": "h5",
+  "text": "He steps up to the airlock. He swings it shut.",
+  "video": "b2_door_1.mp4",
+  "videoQuery": "heavy steel airlock door closing industrial",
+  "motion": "fast",
+  "tone": "tension"
+ },
+ {
+  "id": "h6",
+  "text": "And it bounces back open.",
+  "video": "b2_door_2.mp4",
+  "videoQuery": "metal door swinging open industrial close up",
+  "extraHold": 26,
+  "cap": "It popped back open.",
+  "tone": "tension"
+ },
+ {
+  "id": "h7",
+  "text": "The reporter from the Arizona Daily Star writes it down exactly as it happens. The door popped back open, he writes, a fraction of a second later. As if one of the eight had second thoughts.",
+  "video": "b2_glass_2.mp4",
+  "videoQuery": "sunlight through greenhouse glass panes reflection",
+  "cap": "\u201cAs if one of them had second thoughts.\u201d",
+  "source": "Arizona Daily Star, Sept. 1991",
+  "motion": "slow",
+  "tone": "unease"
+ },
+ {
+  "id": "h8",
+  "text": "It takes Bass and the project's chief executive two tries to lock eight human beings inside. At eight eighteen in the morning, the seal holds.",
+  "video": "b2_seal_1.mp4",
+  "videoQuery": "airtight seal gasket steel hatch closing",
+  "stat": "8:18 A.M.",
+  "cap": "Second try. The seal holds.",
+  "extraHold": 20,
+  "tone": "dread"
+ },
+ {
+  "id": "h9",
+  "text": "Sixteen months later, the air inside this building will be missing seven tons of oxygen, and not one person on Earth will be able to tell you where it went.",
+  "video": "b2_interior_1.mp4",
+  "videoQuery": "Biosphere 2 interior rainforest biome under glass",
+  "stat": "7 TONS OF OXYGEN",
+  "cap": "Seven tons. Gone.",
+  "extraHold": 28,
+  "tone": "dread"
+ },
+ {
+  "id": "h10",
+  "text": "Not the engineers who built the tightest seal ever put around a piece of the living world. Not the chemists inside, testing the air every day. Not the doctor, who will be the first to notice something is wrong with him.",
+  "video": "b2_lab_1.mp4",
+  "videoQuery": "scientist analytical laboratory glassware testing air samples",
+  "cap": "Nobody could find it.",
+  "tone": "unease"
+ },
+ {
+  "id": "h11",
+  "text": "The oxygen was not leaking out. The building was too tight for that. It was going somewhere inside.",
+  "video": "b2_glass_3.mp4",
+  "videoQuery": "condensation on glass greenhouse interior humid",
+  "extraHold": 24,
+  "tone": "mystery"
+ },
+ {
+  "id": "sting1",
+  "sting": true,
+  "text": "",
+  "img": "b2_hero",
+  "query": "Biosphere 2 Arizona glass structure",
+  "cap": "BIOSPHERE 2"
+ },
+ {
+  "id": "t1",
+  "text": "This is the story of Biosphere Two. What it cost, what it promised, what actually happened to the air inside it, and why the answer took two of the best geochemists alive to find.",
+  "video": "b2_wide_2.mp4",
+  "videoQuery": "Biosphere 2 exterior aerial glass domes Arizona",
+  "cap": "Biosphere 2.",
+  "motion": "slow",
+  "tone": "melancholy"
+ },
+ {
+  "id": "t2",
+  "text": "And why, thirty five years later, the thing everybody laughed at is still standing, still sealed, and still running experiments nobody else on Earth can run.",
+  "video": "b2_present_1.mp4",
+  "videoQuery": "Biosphere 2 today university research facility",
+  "cap": "Still standing.",
+  "tone": "hope"
+ },
+ {
+  "id": "c1",
+  "chapter": "THE RANCH BEFORE THE GLASS",
+  "img": "b2_hero",
+  "query": "Biosphere 2 Arizona glass structure",
+  "cap": "Chapter one."
+ },
+ {
+  "id": "a1",
+  "text": "To understand how a building like this gets built, you have to go back to a ranch in New Mexico, twenty two years earlier.",
+  "img": "synergia_1",
+  "query": "New Mexico desert ranch adobe buildings",
+  "stock": true,
+  "tone": "curiosity"
+ },
+ {
+  "id": "a2",
+  "text": "In nineteen sixty nine, a man named John Polk Allen founded an intentional community fifteen miles south of Santa Fe. He called it Synergia Ranch.",
+  "img": "allen_1",
+  "query": "John P. Allen Biosphere 2 founder",
+  "cap": "John Polk Allen.",
+  "tone": "curiosity"
+ },
+ {
+  "id": "a3",
+  "text": "Allen was not a hippie drifter. He had a degree in metallurgical and mining engineering from the Colorado School of Mines, and an M B A from Harvard Business School. He also wrote poetry under the name Johnny Dolphin, and ran a theatre troupe called the Theater of All Possibilities.",
+  "img": "allen_2",
+  "query": "John P. Allen Institute of Ecotechnics",
+  "cap": "Engineer. Harvard M.B.A. Poet.",
+  "tone": "curiosity"
+ },
+ {
+  "id": "a4",
+  "text": "In the early nineteen seventies the group founded something called the Institute of Ecotechnics. They built a research ship. They ran projects on four continents.",
+  "img": "heraclitus_1",
+  "query": "RV Heraclitus research vessel Institute of Ecotechnics",
+  "cap": "They built a ship.",
+  "tone": "curiosity"
+ },
+ {
+  "id": "a5",
+  "text": "And somewhere in that decade, at that ranch, John Allen met Ed Bass, heir to a Fort Worth oil fortune, and one of the wealthiest men in Texas.",
+  "img": "bass_1",
+  "query": "Fort Worth Texas oil wealth 1970s",
+  "stock": true,
+  "cap": "Then Bass showed up.",
+  "tone": "tension"
+ },
+ {
+  "id": "a6",
+  "text": "In nineteen eighty four they launched the project together. Bass paid. Allen invented. And a designer and architect named Margret Augustine ran the company that would build it.",
+  "img": "b2_construct_1",
+  "query": "Biosphere 2 construction steel frame",
+  "cap": "1984. The project begins.",
+  "tone": "hope"
+ },
+ {
+  "id": "a7",
+  "text": "Here is where the story splits, and where I have to be careful with you, because almost everyone in it is still alive.",
+  "img": "b2_hero",
+  "query": "Biosphere 2 Arizona glass structure",
+  "tone": "unease"
+ },
+ {
+  "id": "a8",
+  "text": "In nineteen ninety one, a reporter for the Village Voice named Marc Cooper published a piece about the people behind Biosphere Two. He wrote that they were not, in his words, a group of high tech researchers on the cutting edge of science.",
+  "img": "villagevoice_1",
+  "query": "newspaper printing press 1990s newsroom",
+  "stock": true,
+  "cap": "The Village Voice, 1991.",
+  "tone": "tension"
+ },
+ {
+  "id": "a9",
+  "text": "They were, he wrote, a clique of recycled theatre performers that had evolved out of an authoritarian, and decidedly non scientific, personality cult.",
+  "kinetic": {
+   "words": [
+    "a",
+    "personality",
+    "cult."
+   ]
+  },
+  "img": "villagevoice_1",
+  "source": "Marc Cooper, The Village Voice, 1991",
+  "extraHold": 24,
+  "tone": "dread"
+ },
+ {
+  "id": "a10",
+  "text": "That sentence did more damage to Biosphere Two than any scientific result ever did. It is quoted in almost every article written about the project since. And it is an allegation, by a named journalist, in a named magazine. It is not a finding.",
+  "img": "villagevoice_1",
+  "query": "newspaper printing press 1990s newsroom",
+  "stock": true,
+  "tone": "unease"
+ },
+ {
+  "id": "a11",
+  "text": "Because here is the part that almost never gets quoted alongside it.",
+  "img": "prance_1",
+  "query": "Kew Gardens botanist greenhouse rainforest",
+  "stock": true,
+  "tone": "curiosity"
+ },
+ {
+  "id": "a12",
+  "text": "The most credentialed early critic of the project was a botanist named Ghillean Prance, the director of the Royal Botanic Gardens at Kew. In nineteen eighty three he said their interest in science was not genuine, that they seemed guided by some sort of religious or philosophical system.",
+  "img": "prance_1",
+  "query": "Kew Gardens botanist greenhouse rainforest",
+  "stock": true,
+  "cap": "Kew's director said it first.",
+  "tone": "tension"
+ },
+ {
+  "id": "a13",
+  "text": "Prance then designed their rainforest.",
+  "img": "b2_rainforest_1",
+  "query": "Rainforest Biome Biosphere 2 interior",
+  "extraHold": 20,
+  "tone": "curiosity"
+ },
+ {
+  "id": "a14",
+  "text": "And in nineteen ninety one, asked about it again, he said this. They are visionaries. And maybe to fulfil their vision they have become somewhat cultlike. But they are not a cult, per se.",
+  "img": "prance_1",
+  "query": "Kew Gardens botanist greenhouse rainforest",
+  "stock": true,
+  "source": "Ghillean Prance, Phoenix New Times, June 1991",
+  "cap": "\u201cThey are not a cult, per se.\u201d",
+  "tone": "unease"
+ },
+ {
+  "id": "a15",
+  "text": "The man who first used the word took it back. Both of those things are on the record, and if you only ever hear one of them, you are not being told the story. You are being sold a verdict.",
+  "img": "b2_hero",
+  "query": "Biosphere 2 Arizona glass structure",
+  "extraHold": 22,
+  "tone": "melancholy"
+ },
+ {
+  "id": "a16",
+  "text": "In nineteen eighty seven, Discover magazine called Biosphere Two the most exciting scientific project undertaken in the United States since Kennedy launched us toward the Moon.",
+  "img": "b2_construct_2",
+  "query": "Biosphere 2 construction 1980s glass panels",
+  "cap": "Discover, 1987.",
+  "tone": "hope"
+ },
+ {
+  "id": "a17",
+  "text": "In nineteen ninety two, the journal Ecology called it New Age drivel masquerading as science.",
+  "img": "b2_construct_2",
+  "query": "Biosphere 2 construction 1980s glass panels",
+  "source": "Ecology 73(2), 1992",
+  "cap": "Ecology, 1992.",
+  "extraHold": 22,
+  "tone": "dread"
+ },
+ {
+  "id": "a18",
+  "text": "Same building. Five years apart. Both of those are real quotes, and the truth is somewhere in the middle, and the only way to find it is to look at what the building actually did.",
+  "video": "b2_glass_1.mp4",
+  "videoQuery": "Biosphere 2 space frame glazing lattice interior looking up",
+  "tone": "curiosity"
+ }
+]

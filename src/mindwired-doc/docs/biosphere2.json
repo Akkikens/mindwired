@@ -1,0 +1,2099 @@
+{
+ "slug": "biosphere2",
+ "title": "8 People Sealed In. The Oxygen Kept Vanishing.",
+ "channel": "mindwired",
+ "niche": "history",
+ "language": "en",
+ "voice": "d46abd1d-2d02-43e8-819f-51fb652c1c61",
+ "scenes": [
+  {
+   "id": "h1",
+   "text": "It is September twenty sixth, nineteen ninety one. Sunrise over the Arizona desert, thirty five miles north of Tucson.",
+   "video": "b2_dawn_1.mp4",
+   "videoQuery": "Sonoran desert saguaro sunrise Arizona",
+   "stat": "SEPT 26, 1991",
+   "cap": "Oracle, Arizona.",
+   "motion": "slow",
+   "tone": "curiosity"
+  },
+  {
+   "id": "h2",
+   "text": "Eight people are about to be sealed inside this building, with four thousand other species, and no way to get food, water or air from the outside for two years.",
+   "video": "b2_wide_1.mp4",
+   "videoQuery": "Biosphere 2 exterior space frame ziggurat",
+   "stat": "2 YEARS SEALED",
+   "cap": "Two years. No air from outside.",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "h3",
+   "text": "Two hundred thousand cubic metres of sealed glass. Six thousand five hundred windows. The tightest seal anyone had ever built around a piece of the living world.",
+   "video": "b2_glass_1.mp4",
+   "videoQuery": "Biosphere 2 glazing space frame interior",
+   "cap": "6,500 windows.",
+   "tone": "awe"
+  },
+  {
+   "id": "h4",
+   "text": "Five hundred people came to watch. The man closing the door is not a scientist. He is a Texas oil heir named Ed Bass, and this building is his money.",
+   "video": "b2_interior_1.mp4",
+   "videoQuery": "Biosphere 2 interior walkway under glass frame",
+   "cap": "Ed Bass. The money.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "h5",
+   "text": "He steps up to the airlock. He swings it shut. And it bounces back open.",
+   "video": "b2_exterior_1.mp4",
+   "videoQuery": "Biosphere 2 desert biome interior glass",
+   "extraHold": 26,
+   "cap": "It popped back open.",
+   "motion": "fast",
+   "tone": "tension"
+  },
+  {
+   "id": "h6",
+   "text": "The reporter from the Arizona Daily Star writes it down exactly as it happens. The door popped back open, he writes, a fraction of a second later. As if one of the eight had second thoughts.",
+   "video": "b2_glass_2.mp4",
+   "videoQuery": "Biosphere 2 interior vegetation under glass",
+   "source": "Arizona Daily Star, Sept. 1991",
+   "cap": "“As if one of them had second thoughts.”",
+   "motion": "slow",
+   "tone": "unease"
+  },
+  {
+   "id": "h7",
+   "text": "It takes two tries to lock eight human beings inside. At eight eighteen in the morning, the seal holds.",
+   "video": "b2_glass_3.mp4",
+   "videoQuery": "Biosphere 2 interior glass structure",
+   "stat": "8:18 A.M.",
+   "cap": "Second try. The seal holds.",
+   "extraHold": 20,
+   "tone": "dread"
+  },
+  {
+   "id": "h8",
+   "text": "Sixteen months later, the air inside this building will be missing seven tons of oxygen, and not one person on Earth will be able to tell you where it went.",
+   "video": "b2_interior_2.mp4",
+   "videoQuery": "Biosphere 2 interior biome structure",
+   "stat": "7 TONS OF OXYGEN",
+   "cap": "Seven tons. Gone.",
+   "extraHold": 28,
+   "tone": "dread"
+  },
+  {
+   "id": "h9",
+   "text": "It was not leaking out. The building was far too tight for that. It was going somewhere inside.",
+   "video": "b2_exterior_2.mp4",
+   "videoQuery": "Biosphere 2 biome interior detail",
+   "extraHold": 24,
+   "tone": "mystery"
+  },
+  {
+   "id": "sting1",
+   "sting": true,
+   "text": "You're watching mindwired.",
+   "img": "b2_hero",
+   "tone": "confidence"
+  },
+  {
+   "id": "t1",
+   "text": "This is the story of Biosphere Two. What it cost, what it promised, what actually happened to the air inside it, and why the answer took two of the best geochemists alive to find.",
+   "video": "b2_wide_2.mp4",
+   "videoQuery": "Biosphere 2 exterior aerial glass domes Arizona",
+   "cap": "Biosphere 2.",
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "t0a",
+   "text": "Not the engineers who built that seal. Not the chemists inside, testing the air every single day. And not the doctor, who would turn out to be the first person to notice something was wrong with him.",
+   "img": "b2_interior_s",
+   "query": "Biosphere 2 interior",
+   "tone": "unease"
+  },
+  {
+   "id": "t2",
+   "text": "And why, thirty five years later, the thing everybody laughed at is still standing, still sealed, and still running experiments nobody else on Earth can run.",
+   "video": "b2_present_1.mp4",
+   "videoQuery": "Biosphere 2 today university research facility",
+   "cap": "Still standing.",
+   "tone": "hope"
+  },
+  {
+   "id": "c1",
+   "chapter": "1 — THE RANCH BEFORE\nTHE GLASS",
+   "img": "b2_hero",
+   "query": "Biosphere 2 Arizona glass structure",
+   "text": "Chapter one. The ranch before the glass."
+  },
+  {
+   "id": "a1",
+   "text": "To understand how a building like this gets built, you have to go back to a ranch in New Mexico, twenty two years earlier.",
+   "img": "synergia_1",
+   "query": "New Mexico desert ranch adobe buildings",
+   "stock": true,
+   "tone": "curiosity"
+  },
+  {
+   "id": "a2",
+   "text": "In nineteen sixty nine, a man named John Polk Allen founded an intentional community fifteen miles south of Santa Fe. He called it Synergia Ranch.",
+   "img": "b2_allen",
+   "query": "John P. Allen Biosphere 2 founder",
+   "cap": "John Polk Allen.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a3",
+   "text": "Allen was not a hippie drifter. He had a degree in metallurgical and mining engineering from the Colorado School of Mines, and an M B A from Harvard Business School. He also wrote poetry under the name Johnny Dolphin, and ran a theatre troupe called the Theater of All Possibilities.",
+   "img": "b2_allen",
+   "query": "John P. Allen Institute of Ecotechnics",
+   "cap": "Engineer. Harvard M.B.A. Poet.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a4",
+   "text": "In the early nineteen seventies the group founded something called the Institute of Ecotechnics. They built a research ship. They ran projects on four continents.",
+   "img": "b2_heraclitus",
+   "query": "RV Heraclitus research vessel Institute of Ecotechnics",
+   "cap": "They built a ship.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a5",
+   "text": "And somewhere in that decade, at that ranch, John Allen met Ed Bass, heir to a Fort Worth oil fortune, and one of the wealthiest men in Texas.",
+   "img": "bass_1",
+   "query": "Fort Worth Texas oil wealth 1970s",
+   "stock": true,
+   "cap": "Then Bass showed up.",
+   "tone": "tension"
+  },
+  {
+   "id": "a6",
+   "text": "In nineteen eighty four they launched the project together. Bass paid. Allen invented. And a designer and architect named Margret Augustine ran the company that would build it.",
+   "img": "b2_wide_s",
+   "query": "Biosphere 2 construction steel frame",
+   "cap": "1984. The project begins.",
+   "tone": "hope"
+  },
+  {
+   "id": "a7",
+   "text": "Here is where the story splits, and where I have to be careful with you, because almost everyone in it is still alive.",
+   "img": "b2_hero",
+   "query": "Biosphere 2 Arizona glass structure",
+   "tone": "unease"
+  },
+  {
+   "id": "a8",
+   "text": "In nineteen ninety one, a reporter for the Village Voice named Marc Cooper published a piece about the people behind Biosphere Two. He wrote that they were not, in his words, a group of high tech researchers on the cutting edge of science.",
+   "img": "villagevoice_1",
+   "query": "newspaper printing press 1990s newsroom",
+   "stock": true,
+   "cap": "The Village Voice, 1991.",
+   "tone": "tension"
+  },
+  {
+   "id": "a9",
+   "text": "They were, he wrote, a clique of recycled theatre performers that had evolved out of an authoritarian, and decidedly non scientific, personality cult.",
+   "kinetic": {
+    "words": [
+     "a",
+     "personality",
+     "cult."
+    ]
+   },
+   "img": "villagevoice_1",
+   "source": "Marc Cooper, The Village Voice, 1991",
+   "extraHold": 24,
+   "tone": "dread"
+  },
+  {
+   "id": "a10",
+   "text": "That sentence did more damage to Biosphere Two than any scientific result ever did. And it is an allegation, by a named journalist, in a named magazine. It is not a finding.",
+   "img": "villagevoice_1",
+   "query": "newspaper printing press 1990s newsroom",
+   "stock": true,
+   "tone": "unease"
+  },
+  {
+   "id": "a11",
+   "text": "Because here is the part that almost never gets quoted alongside it.",
+   "img": "prance_1",
+   "query": "Kew Gardens botanist greenhouse rainforest",
+   "stock": true,
+   "tone": "curiosity"
+  },
+  {
+   "id": "a12",
+   "text": "The most credentialed early critic of the project was a botanist named Ghillean Prance, the director of the Royal Botanic Gardens at Kew. In nineteen eighty three he said their interest in science was not genuine, that they seemed guided by some sort of religious or philosophical system.",
+   "img": "prance_1",
+   "query": "Kew Gardens botanist greenhouse rainforest",
+   "stock": true,
+   "cap": "Kew's director said it first.",
+   "tone": "tension"
+  },
+  {
+   "id": "a13",
+   "text": "Prance then designed their rainforest.",
+   "img": "b2_rainforest_1",
+   "query": "Rainforest Biome Biosphere 2 interior",
+   "extraHold": 20,
+   "tone": "curiosity"
+  },
+  {
+   "id": "a14",
+   "text": "And in nineteen ninety one, asked about it again, he said this. They are visionaries. And maybe to fulfil their vision they have become somewhat cultlike. But they are not a cult, per se.",
+   "img": "prance_1",
+   "query": "Kew Gardens botanist greenhouse rainforest",
+   "stock": true,
+   "source": "Ghillean Prance, Phoenix New Times, June 1991",
+   "cap": "“They are not a cult, per se.”",
+   "tone": "unease"
+  },
+  {
+   "id": "a15",
+   "text": "The man who first used the word took it back. Both are on the record, and if you only ever hear one of them, you are being sold a verdict.",
+   "img": "b2_hero",
+   "query": "Biosphere 2 Arizona glass structure",
+   "extraHold": 22,
+   "tone": "melancholy"
+  },
+  {
+   "id": "a16",
+   "text": "In nineteen eighty seven, Discover magazine called Biosphere Two the most exciting scientific project undertaken in the United States since Kennedy launched us toward the Moon.",
+   "img": "b2_wide_s",
+   "query": "Biosphere 2 construction 1980s glass panels",
+   "cap": "Discover, 1987.",
+   "tone": "hope"
+  },
+  {
+   "id": "a17",
+   "text": "In nineteen ninety two, the journal Ecology called it New Age drivel masquerading as science.",
+   "img": "b2_wide_s",
+   "query": "Biosphere 2 construction 1980s glass panels",
+   "source": "Ecology 73(2), 1992",
+   "cap": "Ecology, 1992.",
+   "extraHold": 22,
+   "tone": "dread"
+  },
+  {
+   "id": "a18",
+   "text": "Same building. Five years apart. Both of those are real quotes, and the truth is somewhere in the middle, and the only way to find it is to look at what the building actually did.",
+   "video": "b2_glass_1.mp4",
+   "videoQuery": "Biosphere 2 space frame glazing lattice interior looking up",
+   "tone": "curiosity"
+  },
+  {
+   "id": "c2",
+   "chapter": "2 — THE NUMBER THAT\nMADE IT SCIENCE",
+   "img": "b2_lung_1",
+   "query": "Biosphere 2 Lung interior dome",
+   "text": "Chapter two. The number that made it science."
+  },
+  {
+   "id": "b1",
+   "text": "Three point one four acres under glass. Seven million two hundred thousand cubic feet of sealed air. Six thousand five hundred windows. And underneath all of it, a welded stainless steel liner weighing five hundred tons, so that nothing could seep up out of the ground.",
+   "video": "b2_wide_1.mp4",
+   "videoQuery": "Biosphere 2 glass pyramid ziggurat wide exterior desert",
+   "stat": "6,500 WINDOWS",
+   "cap": "3.14 acres. Sealed top and bottom.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "b2",
+   "text": "Inside, five wilderness biomes. A rainforest. An ocean, seven hundred thousand gallons of it, with a coral reef and a machine to make waves. Mangrove wetlands. A savannah. A fog desert.",
+   "img": "b2_ocean_1",
+   "query": "The Ocean Biosphere 2 coral reef interior",
+   "cap": "Five wildernesses.",
+   "tone": "hope"
+  },
+  {
+   "id": "b3",
+   "text": "Plus a farm, and a place for the humans to live.",
+   "img": "b2_agri_1",
+   "query": "Biosphere 2 agriculture crops interior greenhouse",
+   "tone": "curiosity"
+  },
+  {
+   "id": "b4",
+   "text": "Roughly four thousand species went in. Most of them collected by the crew themselves, on expeditions to jungles and reefs and deserts. Roy Walford, the crew doctor, later said the place became, in his words, our baby.",
+   "img": "b2_rainforest_1",
+   "query": "Rainforest Biome Biosphere 2 interior",
+   "cap": "~4,000 species.",
+   "tone": "hope"
+  },
+  {
+   "id": "b5",
+   "text": "Now. Here is the number that decides whether any of this was science or theatre, and almost nobody tells you about it.",
+   "video": "b2_glass_2.mp4",
+   "videoQuery": "sunlight through greenhouse glass panes reflection",
+   "extraHold": 22,
+   "tone": "tension"
+  },
+  {
+   "id": "b6",
+   "text": "A greenhouse leaks. Every building leaks. The question is how much.",
+   "img": "b2_glass_4",
+   "query": "industrial silicone caulk seal glazing joint",
+   "stock": true,
+   "tone": "curiosity"
+  },
+  {
+   "id": "b7",
+   "text": "The engineer responsible for the seal was William Dempster. He measured it two ways. He pumped the building to a slight overpressure and watched how fast it sagged. And he spiked the air with three gases that react with nothing, sulphur hexafluoride, helium and krypton, and watched how fast they thinned.",
+   "img": "b2_tech_1",
+   "query": "Biosphere 2 technosphere basement machinery pipes",
+   "cap": "Two independent methods.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "b8",
+   "text": "Both methods agreed. Biosphere Two leaked less than ten percent of its atmosphere per year.",
+   "stat": "<10% PER YEAR",
+   "img": "b2_tech_1",
+   "query": "Biosphere 2 technosphere basement machinery pipes",
+   "extraHold": 20,
+   "cap": "Under 10% a year.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "b9",
+   "text": "That number means nothing to you yet. So here is Dempster's own way of saying it.",
+   "img": "b2_glass_4",
+   "query": "industrial silicone caulk seal glazing joint",
+   "stock": true,
+   "tone": "tension"
+  },
+  {
+   "id": "b10",
+   "text": "There were about eighty kilometres of caulked glazing joints in that building. About sixteen kilometres of welded seam. Call it fifty miles of sealed glass and ten miles of weld.",
+   "kinetic": {
+    "words": [
+     "Fifty",
+     "miles",
+     "of",
+     "sealed",
+     "glass."
+    ]
+   },
+   "img": "b2_glass_4",
+   "query": "Biosphere 2 Architecture glass space frame",
+   "source": "Dempster, Advances in Space Research 42 (2008)",
+   "extraHold": 24,
+   "tone": "curiosity"
+  },
+  {
+   "id": "b11",
+   "text": "And every flaw in all of it, every pinhole, every bad seal, every imperfect weld, added together, came to the equivalent of one single hole about nineteen millimetres across.",
+   "stat": "ONE 19 mm HOLE",
+   "kinetic": {
+    "words": [
+     "One",
+     "hole.",
+     "Nineteen",
+     "millimetres."
+    ]
+   },
+   "img": "b2_glass_4",
+   "query": "Biosphere 2 Architecture glass space frame",
+   "extraHold": 28,
+   "tone": "awe"
+  },
+  {
+   "id": "b12",
+   "text": "Three quarters of an inch. In a building the size of two and a half football fields.",
+   "video": "b2_wide_2.mp4",
+   "videoQuery": "Biosphere 2 exterior aerial glass domes Arizona",
+   "tone": "awe"
+  },
+  {
+   "id": "b13",
+   "text": "Hold onto that, because it is the reason there is a story at all.",
+   "video": "b2_glass_3.mp4",
+   "videoQuery": "condensation on glass greenhouse interior humid",
+   "extraHold": 20,
+   "tone": "mystery"
+  },
+  {
+   "id": "b14",
+   "text": "There was a second engineering problem, and the solution to it is the strangest looking thing on the property.",
+   "img": "b2_lung_1",
+   "query": "Biosphere 2 Lung interior dome",
+   "tone": "curiosity"
+  },
+  {
+   "id": "b15",
+   "text": "Seal a building this tight and heat it with desert sun, and the air inside expands. It has nowhere to go. Nothing to push against but glass.",
+   "video": "b2_glass_2.mp4",
+   "videoQuery": "sunlight through greenhouse glass panes reflection",
+   "tone": "tension"
+  },
+  {
+   "id": "b16",
+   "text": "A wire service reporter put it plainly on the day they sealed it. Otherwise, he wrote, the heat and pressure would burst the glass walls.",
+   "img": "b2_glass_4",
+   "query": "Biosphere 2 Architecture glass space frame",
+   "source": "UPI, Sept. 26, 1991",
+   "cap": "It would have burst.",
+   "tone": "dread"
+  },
+  {
+   "id": "b17",
+   "text": "So they built lungs. Two of them. Enormous domed chambers connected to the main structure by tunnels, each one containing a vast flexible diaphragm that rose and fell as the air inside expanded and contracted.",
+   "img": "b2_lung_2",
+   "query": "Biosphere 2 Lung dome exterior structure",
+   "cap": "They built lungs.",
+   "tone": "awe"
+  },
+  {
+   "id": "b18",
+   "text": "The building breathed. Not as a metaphor. Mechanically, every day, with the sun.",
+   "img": "b2_lung_1",
+   "query": "Biosphere 2 Lung interior dome",
+   "extraHold": 24,
+   "tone": "awe"
+  },
+  {
+   "id": "b19",
+   "text": "And it worked so well that the pressure difference between the inside and the outside of Biosphere Two stayed under eight pascals. About one thousandth of a pound per square inch.",
+   "stat": "±8 PASCALS",
+   "img": "b2_lung_3",
+   "query": "Biosphere 2 lung diaphragm mechanism interior",
+   "cap": "A thousandth of a psi.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "b20",
+   "text": "There is one more detail from the construction that I think about a lot.",
+   "img": "b2_desert_1",
+   "query": "Desert Zone Biosphere 2 fog desert interior",
+   "tone": "curiosity"
+  },
+  {
+   "id": "b21",
+   "text": "They built a fog desert inside. It did not stay a desert. Water condensed on the underside of the steel and glass above it and dripped back down, and over time that section drifted toward chaparral, a wetter kind of scrubland.",
+   "img": "b2_desert_1",
+   "query": "Desert Zone Biosphere 2 fog desert interior",
+   "tone": "unease"
+  },
+  {
+   "id": "b22",
+   "text": "The building rained on its own desert. Nobody designed that. It is the first hint of the thing this whole story is about, which is that a sealed world does what it wants, not what you drew.",
+   "video": "b2_interior_1.mp4",
+   "videoQuery": "Biosphere 2 interior rainforest biome under glass",
+   "extraHold": 26,
+   "tone": "melancholy"
+  },
+  {
+   "id": "c3",
+   "chapter": "3 — WHAT THEY ATE",
+   "img": "b2_kitchen_1",
+   "query": "Kitchen Biosphere 2 residents interior",
+   "text": "Chapter three. What they ate."
+  },
+  {
+   "id": "d1",
+   "text": "Eight people. Four women, four men, a split chosen deliberately after looking at how Antarctic bases and submarine crews hold together.",
+   "img": "b2_crew_2",
+   "query": "Biosphere 2 crew biospherians 1991",
+   "cap": "Four women. Four men.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "d2",
+   "text": "Roy Walford, sixty seven, the doctor. Abigail Alling, thirty one, marine biologist, first through the door. Mark Nelson, forty four, wastewater and wetlands. Linda Leigh, thirty nine, botanist.",
+   "img": "b2_crew_2",
+   "query": "Biosphere 2 crew biospherians 1991",
+   "tone": "curiosity"
+  },
+  {
+   "id": "d3",
+   "text": "Taber MacCallum, twenty seven, running the analytical chemistry lab. Jane Poynter, twenty nine, farm manager. Sally Silverstone, thirty six, co captain and tropical agriculture. Mark Van Thillo, thirty, technical systems.",
+   "img": "b2_crew_2",
+   "query": "Biosphere 2 biospherians crew portrait",
+   "tone": "curiosity"
+  },
+  {
+   "id": "d4",
+   "text": "Their job was to grow their own food inside two thousand square metres of farm. On paper it worked. Over the full two years they averaged about two thousand two hundred calories a day each.",
+   "img": "b2_agri_1",
+   "query": "Biosphere 2 agriculture crops interior greenhouse",
+   "tone": "hope"
+  },
+  {
+   "id": "d5",
+   "text": "On paper.",
+   "img": "b2_agri_2",
+   "query": "banana leaves lemon tree greenhouse interior",
+   "extraHold": 20,
+   "tone": "unease"
+  },
+  {
+   "id": "d6",
+   "text": "In the first six months the crops failed and the real number was one thousand seven hundred and eighty calories a day.",
+   "stat": "1,780 CAL/DAY",
+   "img": "b2_agri_2",
+   "query": "banana leaves lemon tree greenhouse interior",
+   "source": "Walford et al., PNAS 89:11533 (1992)",
+   "cap": "First six months.",
+   "tone": "dread"
+  },
+  {
+   "id": "d7",
+   "text": "Broad mites got into the crops. Root knot nematodes got into the soil. And the two years they chose landed on back to back El Niño years, so the sky over Arizona was cloudier than the building had been designed for.",
+   "img": "b2_agri_2",
+   "query": "crop pests mites plant damage agriculture",
+   "stock": true,
+   "tone": "tension"
+  },
+  {
+   "id": "d8",
+   "text": "Less light. Less food. Mark Nelson went in at a hundred and forty seven pounds and bottomed out at a hundred and seventeen. Taber MacCallum lost forty six pounds in six months.",
+   "stat": "−46 LB IN 6 MONTHS",
+   "img": "b2_crew_2",
+   "query": "Biosphere 2 biospherians crew portrait",
+   "tone": "dread"
+  },
+  {
+   "id": "d9",
+   "text": "Across the full two years the crew lost about seventeen percent of their body weight.",
+   "img": "b2_kitchen_1",
+   "query": "Kitchen Biosphere 2 residents interior",
+   "source": "Walford et al., J Gerontol 57(6):B211 (2002)",
+   "tone": "dread"
+  },
+  {
+   "id": "d10",
+   "text": "Nelson wrote about it afterwards. We experienced hunger throughout the two years, he wrote, and plates were always licked clean. And then this. I and many others ate our roasted peanuts whole, shell and all. We would eat anything to fill the stomach void.",
+   "img": "b2_kitchen_2",
+   "query": "empty plates table kitchen interior",
+   "stock": true,
+   "source": "Mark Nelson, Pushing Our Limits (2018)",
+   "cap": "“Shell and all.”",
+   "extraHold": 24,
+   "tone": "melancholy"
+  },
+  {
+   "id": "d11",
+   "text": "On the day they came out, a reporter asked him about it. Nelson said the hardest thing was that hunger was a constant, nagging presence. He said it was hard even to watch a movie, because he kept focusing on what the actors were eating.",
+   "img": "b2_kitchen_2",
+   "query": "empty plates table kitchen interior",
+   "stock": true,
+   "source": "Arizona Daily Star, Sept. 27, 1993",
+   "extraHold": 22,
+   "tone": "melancholy"
+  },
+  {
+   "id": "d12",
+   "text": "Jane Poynter said it took her four months to make a pizza. She had to grow the wheat, and thresh it, and feed and milk the goats for the cheese.",
+   "img": "b2_agri_1",
+   "query": "Biosphere 2 agriculture crops interior greenhouse",
+   "tone": "melancholy"
+  },
+  {
+   "id": "d13",
+   "text": "They ate so many sweet potatoes that their palms turned orange with beta carotene. Coffee was rationed to about one cup, per person, every few weeks.",
+   "img": "b2_agri_2",
+   "query": "banana leaves lemon tree greenhouse interior",
+   "tone": "unease"
+  },
+  {
+   "id": "d14",
+   "text": "And now the uncomfortable part, and I want to lay it out fairly because the man at the centre of it is dead and cannot answer.",
+   "img": "b2_lab_2",
+   "query": "medical examination laboratory doctor 1990s",
+   "stock": true,
+   "tone": "unease"
+  },
+  {
+   "id": "d15",
+   "text": "Roy Walford was the crew's only physician. He was also, at that time, the most prominent researcher in the world on the idea that eating substantially less food extends human lifespan. He had founded the Calorie Restriction Society. He had been on that diet himself for years.",
+   "img": "b2_lab_2",
+   "query": "medical examination laboratory doctor 1990s",
+   "stock": true,
+   "cap": "The doctor was a caloric-restriction researcher.",
+   "tone": "tension"
+  },
+  {
+   "id": "d16",
+   "text": "The crew's daily food allotments were planned using Walford's own diet planning computer program. That is stated plainly in a paper written by two of the crew.",
+   "img": "b2_lab_2",
+   "query": "medical examination laboratory doctor 1990s",
+   "stock": true,
+   "source": "Silverstone & Nelson, Adv. Space Res. (1995)",
+   "tone": "dread"
+  },
+  {
+   "id": "d17",
+   "text": "And when the farm failed and the calories fell, he published the crew as research subjects. Twice. In the Proceedings of the National Academy of Sciences, and in a gerontology journal.",
+   "img": "b2_mission93",
+   "query": "scientific journal paper printed pages",
+   "stock": true,
+   "tone": "dread"
+  },
+  {
+   "id": "d18",
+   "text": "The mission's biggest failure became his dataset.",
+   "kinetic": {
+    "words": [
+     "became",
+     "his",
+     "dataset."
+    ]
+   },
+   "img": "b2_mission93",
+   "query": "scientific journal paper printed pages",
+   "stock": true,
+   "extraHold": 26,
+   "tone": "dread"
+  },
+  {
+   "id": "d19",
+   "text": "Walford knew exactly how that looked. He said so himself, unprompted.",
+   "img": "b2_lab_2",
+   "query": "medical examination laboratory doctor 1990s",
+   "stock": true,
+   "tone": "unease"
+  },
+  {
+   "id": "d20",
+   "text": "I think if there had been any other nutritionist or physician, he said, they would have freaked out and said, we're starving. But I knew we were actually on a program of health enhancement.",
+   "img": "b2_lab_2",
+   "query": "medical examination laboratory doctor 1990s",
+   "stock": true,
+   "cap": "“I knew we were on a program of health enhancement.”",
+   "extraHold": 24,
+   "tone": "unease"
+  },
+  {
+   "id": "d21",
+   "text": "You can read that two ways and both are honest. The experiment's worst failure and the doctor's life's work pointed the same direction, and he was the only person inside qualified to make the call.",
+   "img": "b2_crew_2",
+   "query": "Biosphere 2 biospherians crew portrait",
+   "tone": "melancholy"
+  },
+  {
+   "id": "d22",
+   "text": "For what it is worth, his own follow up paper concluded that all eight of them came out in excellent health. That is also on the record.",
+   "img": "b2_crew_2",
+   "query": "Biosphere 2 crew biospherians 1991",
+   "extraHold": 20,
+   "tone": "melancholy"
+  },
+  {
+   "id": "c4",
+   "chapter": "4 — THE THING NOBODY\nINVITED",
+   "img": "b2_ant_1",
+   "query": "crazy ant Paratrechina longicornis macro",
+   "text": "Chapter four. The thing nobody invited."
+  },
+  {
+   "id": "e1",
+   "text": "While the humans were getting thinner, the sealed world was doing something worse.",
+   "img": "b2_rainforest_1",
+   "query": "Rainforest Biome Biosphere 2 interior",
+   "tone": "dread"
+  },
+  {
+   "id": "e2",
+   "text": "Of twenty five small vertebrate species they put inside, nineteen went extinct.",
+   "stat": "19 OF 25 EXTINCT",
+   "img": "b2_mangrove_1",
+   "query": "Mangroves Biosphere 2 interior wetland",
+   "source": "Cohen & Tilman, Science 274:1150 (1996)",
+   "tone": "dread"
+  },
+  {
+   "id": "e3",
+   "text": "And every single pollinating insect species died.",
+   "kinetic": {
+    "words": [
+     "Every",
+     "pollinator.",
+     "Gone."
+    ]
+   },
+   "img": "b2_rainforest_1",
+   "query": "Rainforest Biome Biosphere 2 interior",
+   "extraHold": 28,
+   "tone": "dread"
+  },
+  {
+   "id": "e4",
+   "text": "Think about what that means in a building where the humans have to grow their own food. The flowering plants inside Biosphere Two could no longer reproduce on their own. In a sealed world, that is a countdown.",
+   "img": "b2_agri_1",
+   "query": "Biosphere 2 agriculture crops interior greenhouse",
+   "tone": "dread"
+  },
+  {
+   "id": "e5",
+   "text": "What thrived instead was a species nobody had invited.",
+   "img": "b2_ant_1",
+   "query": "crazy ant Paratrechina longicornis macro",
+   "tone": "unease"
+  },
+  {
+   "id": "e6",
+   "text": "When they surveyed the site in nineteen ninety and ninety one, before closure, no ant species was dominant, and one particular ant, the longhorn crazy ant, was not present at all. Not one. It got in as a stowaway.",
+   "img": "b2_ant_1",
+   "query": "crazy ant Paratrechina longicornis macro",
+   "source": "Wetterer et al., Florida Entomologist 82(3) (1999)",
+   "cap": "It wasn't on the list.",
+   "tone": "tension"
+  },
+  {
+   "id": "e7",
+   "text": "By nineteen ninety six, more than ninety nine point nine percent of every ant that came to a bait station inside Biosphere Two was that one species.",
+   "stat": "99.9% ONE SPECIES",
+   "img": "b2_ant_2",
+   "query": "ants swarming colony macro insects",
+   "stock": true,
+   "extraHold": 26,
+   "tone": "dread"
+  },
+  {
+   "id": "e8",
+   "text": "They did it by farming. The ants tended enormous populations of sap sucking insects on the plants and lived off the honeydew those insects produced. A closed loop, inside a closed world, that nobody planned.",
+   "img": "b2_ant_2",
+   "query": "ants swarming colony macro insects",
+   "stock": true,
+   "tone": "unease"
+  },
+  {
+   "id": "e9",
+   "text": "Alongside them, cockroaches, which had been deliberately introduced to break down dead material, and which also ran away with the place.",
+   "img": "b2_roach_1",
+   "query": "cockroach macro insect detritus",
+   "stock": true,
+   "tone": "unease"
+  },
+  {
+   "id": "e10",
+   "text": "The scientists who later wrote the most damning assessment of the whole project described what was left inside as crazy ants running everywhere, together with scattered cockroaches and katydids.",
+   "img": "b2_ant_2",
+   "query": "ants swarming colony macro insects",
+   "stock": true,
+   "source": "Cohen & Tilman, Science 274:1150 (1996)",
+   "extraHold": 22,
+   "tone": "melancholy"
+  },
+  {
+   "id": "c5",
+   "chapter": "5 — THE AIR STARTS\nGOING",
+   "img": "b2_interior_s",
+   "query": "scientist analytical laboratory glassware testing air samples",
+   "text": "Chapter five. The air starts going."
+  },
+  {
+   "id": "f1",
+   "text": "Taber MacCallum ran the analytical chemistry lab inside. Every day, he measured the air.",
+   "img": "b2_interior_s",
+   "query": "scientist analytical laboratory glassware testing air samples",
+   "tone": "curiosity"
+  },
+  {
+   "id": "f2",
+   "text": "Normal air is twenty point nine percent oxygen. That is what they sealed in with, on the twenty sixth of September, nineteen ninety one.",
+   "stat": "20.9% O₂",
+   "video": "b2_glass_1.mp4",
+   "videoQuery": "Biosphere 2 space frame glazing lattice interior looking up",
+   "tone": "curiosity"
+  },
+  {
+   "id": "f3",
+   "text": "Five months later it was eighteen percent.",
+   "stat": "18% — 5 MONTHS IN",
+   "img": "b2_interior_s",
+   "query": "scientist analytical laboratory glassware testing air samples",
+   "extraHold": 24,
+   "tone": "dread"
+  },
+  {
+   "id": "f4",
+   "text": "That is not a drift. That is a cliff. And it almost never gets told, because everyone jumps to the famous number at the end.",
+   "img": "b2_chart_1",
+   "query": "line graph declining chart scientific data",
+   "stock": true,
+   "tone": "tension"
+  },
+  {
+   "id": "f5",
+   "text": "Then the fall slowed down. And kept going. Month after month, for over a year, roughly a hundred and forty parts per million of oxygen disappearing every single day.",
+   "stat": "~140 PPM/DAY",
+   "img": "b2_chart_1",
+   "query": "line graph declining chart scientific data",
+   "stock": true,
+   "tone": "dread"
+  },
+  {
+   "id": "f6",
+   "text": "Now remember the seal. Fifty miles of glass joint, ten miles of weld, one nineteen millimetre hole's worth of leak in the whole building.",
+   "video": "b2_glass_2.mp4",
+   "videoQuery": "sunlight through greenhouse glass panes reflection",
+   "tone": "tension"
+  },
+  {
+   "id": "f7",
+   "text": "The oxygen was not escaping. It could not escape. It was disappearing inside a sealed box, and the same measurement that proved it was disappearing also proved it had nowhere to go.",
+   "kinetic": {
+    "words": [
+     "It",
+     "had",
+     "nowhere",
+     "to",
+     "go."
+    ]
+   },
+   "extraHold": 28,
+   "tone": "mystery",
+   "img": "b2_glass_4",
+   "query": "Biosphere 2"
+  },
+  {
+   "id": "f8",
+   "text": "And there is a cruel piece of physics in here that I need you to understand, because it is why this got dangerous rather than just strange.",
+   "img": "b2_kitchen_1",
+   "query": "Crew Quarters Biosphere 2 living space",
+   "tone": "unease"
+  },
+  {
+   "id": "f9",
+   "text": "When you climb a mountain, the oxygen percentage stays the same. What drops is the pressure. Your body knows how to respond to that. Over weeks it makes more red blood cells. You acclimatise.",
+   "img": "b2_mountain_1",
+   "query": "mountaineer high altitude thin air summit",
+   "stock": true,
+   "tone": "curiosity"
+  },
+  {
+   "id": "f10",
+   "text": "Inside Biosphere Two the pressure never dropped. The lungs saw to that. Only the oxygen fraction fell.",
+   "img": "b2_lung_1",
+   "query": "Biosphere 2 Lung interior dome",
+   "tone": "dread"
+  },
+  {
+   "id": "f11",
+   "text": "So their bodies never got the signal. They were living at the equivalent of thirteen to fifteen thousand feet, and they could not adapt to it, because as far as their physiology was concerned they were still at three thousand eight hundred feet in Arizona.",
+   "stat": "≈14,000 FT OF AIR",
+   "img": "b2_mountain_1",
+   "query": "mountaineer high altitude thin air summit",
+   "stock": true,
+   "extraHold": 24,
+   "tone": "dread"
+  },
+  {
+   "id": "f12",
+   "text": "They started developing sleep apnoea. Waking in the night gasping, because their blood chemistry had changed.",
+   "img": "b2_kitchen_1",
+   "query": "Crew Quarters Biosphere 2 living space",
+   "tone": "dread"
+  },
+  {
+   "id": "f13",
+   "text": "So they ran oxygen lines from the analytical laboratory to the bedrooms, and slept breathing supplemented air, inside the sealed world that was supposed to make its own.",
+   "img": "b2_habitat_2",
+   "query": "oxygen line medical tubing bedroom",
+   "stock": true,
+   "cap": "Oxygen lines to the bedrooms.",
+   "extraHold": 26,
+   "tone": "dread"
+  },
+  {
+   "id": "f14",
+   "text": "Jane Poynter described what those months were like. We were dragging ourselves around the Biosphere, she said. And everybody outside thought we were dying. The media was making it sound like we were dying. And I had to call up my mother every other day saying, no, Mum, it's fine. We're not dead.",
+   "img": "b2_crew_2",
+   "query": "Biosphere 2 biospherians crew portrait",
+   "source": "Jane Poynter, TEDxUSC (2009)",
+   "extraHold": 22,
+   "tone": "melancholy"
+  },
+  {
+   "id": "f15",
+   "text": "And she gave it the name that stuck. It was like playing atomic hide and seek, she said. We had lost seven tons of oxygen. And we had no clue where it was.",
+   "kinetic": {
+    "words": [
+     "Atomic",
+     "hide",
+     "and",
+     "seek."
+    ]
+   },
+   "img": "b2_crew_2",
+   "query": "Biosphere 2 biospherians crew portrait",
+   "extraHold": 28,
+   "tone": "mystery"
+  },
+  {
+   "id": "c6",
+   "chapter": "6 — THE SEAL WAS\nNEVER A SEAL",
+   "img": "b2_glass_4",
+   "query": "Biosphere 2 airlock door entrance",
+   "text": "Chapter six. The seal was never a seal."
+  },
+  {
+   "id": "g1",
+   "text": "While the oxygen was vanishing, the project's credibility was doing the same thing, and for entirely separate reasons.",
+   "img": "b2_glass_4",
+   "query": "Biosphere 2 airlock door entrance",
+   "tone": "tension"
+  },
+  {
+   "id": "g2",
+   "text": "About twelve days into the mission, Jane Poynter was feeding rice into a threshing machine on the farm and it took off the tip of the middle finger of her left hand.",
+   "img": "b2_agri_2",
+   "query": "crop pests mites plant damage agriculture",
+   "stock": true,
+   "stat": "DAY 12",
+   "cap": "A rice thresher.",
+   "tone": "dread"
+  },
+  {
+   "id": "g3",
+   "text": "Walford reattached it inside. It failed. So on the eleventh of October, nineteen ninety one, sixteen days into a two year sealed mission, they opened the airlock and Jane Poynter walked out to a hospital.",
+   "img": "b2_glass_4",
+   "query": "Biosphere 2 airlock door entrance",
+   "extraHold": 22,
+   "tone": "dread"
+  },
+  {
+   "id": "g4",
+   "text": "She came back the same day. Out for a few hours. She lost the fingertip anyway.",
+   "img": "b2_glass_4",
+   "query": "Biosphere 2 airlock door entrance",
+   "tone": "melancholy"
+  },
+  {
+   "id": "g5",
+   "text": "On its own, that would have been a footnote. A medical emergency, handled, disclosed.",
+   "img": "b2_hero",
+   "query": "Biosphere 2 Arizona glass structure",
+   "tone": "unease"
+  },
+  {
+   "id": "g6",
+   "text": "Except they did not disclose it. Not for almost three months. The public did not learn that the seal had been broken until the fourth of January, nineteen ninety two.",
+   "stat": "DISCLOSED 3 MONTHS LATE",
+   "img": "b2_press_1",
+   "query": "press conference microphones 1990s reporters",
+   "stock": true,
+   "extraHold": 24,
+   "tone": "dread"
+  },
+  {
+   "id": "g7",
+   "text": "And when she came back through that airlock, she carried a duffel bag in with her. What was inside it has never been settled, and I am going to give you all three versions, because all three of those people are alive.",
+   "img": "b2_bag_1",
+   "query": "duffel bag canvas holdall",
+   "stock": true,
+   "tone": "tension"
+  },
+  {
+   "id": "g8",
+   "text": "The company's own inventory said the bag held plastic bags, two reference books, maps showing where plants were, colour film, hydrochloric acid and spare computer parts.",
+   "img": "b2_bag_1",
+   "query": "duffel bag canvas holdall",
+   "stock": true,
+   "cap": "Version one: the company.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "g9",
+   "text": "Poynter's own account is that it held nothing of substance. Some circuit boards, she said, and a planting plan for the rain forest.",
+   "img": "b2_crew_2",
+   "query": "Biosphere 2 biospherians crew portrait",
+   "cap": "Version two: Poynter.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "g10",
+   "text": "And then there is the allegation. A filmmaker named Louis Hawthorne, who had spent weeks on the site during preparation, told the Associated Press that his sources among the staff described two bags containing steel fittings, hydrochloric acid, and a handful of lead wire airlock tamper indicators.",
+   "img": "b2_bag_1",
+   "query": "duffel bag canvas holdall",
+   "stock": true,
+   "source": "AP, Feb. 2, 1992",
+   "cap": "Version three: the allegation.",
+   "tone": "dread"
+  },
+  {
+   "id": "g11",
+   "text": "The tamper indicators are the seals fitted to the outside of the doors. They are the physical proof that nobody has gone in or out.",
+   "img": "b2_seal_3",
+   "query": "lead wire security seal tamper indicator",
+   "stock": true,
+   "extraHold": 24,
+   "tone": "dread"
+  },
+  {
+   "id": "g12",
+   "text": "The company's spokesman called that patently ridiculous. I have no way to settle it and neither does anyone else. All three accounts include the hydrochloric acid, and they differ on everything that matters.",
+   "img": "b2_bag_1",
+   "query": "duffel bag canvas holdall",
+   "stock": true,
+   "tone": "unease"
+  },
+  {
+   "id": "g13",
+   "text": "But the bag is not what broke them. This is.",
+   "img": "b2_tech_2",
+   "query": "industrial chemical scrubber tank machinery",
+   "stock": true,
+   "extraHold": 20,
+   "tone": "tension"
+  },
+  {
+   "id": "g14",
+   "text": "On the nineteenth of December, nineteen ninety one, the project acknowledged that it had installed a carbon dioxide scrubber inside Biosphere Two, and had not told anybody.",
+   "stat": "DEC 19, 1991",
+   "img": "b2_tech_2",
+   "query": "industrial chemical scrubber tank machinery",
+   "stock": true,
+   "cap": "An undisclosed scrubber.",
+   "tone": "dread"
+  },
+  {
+   "id": "g15",
+   "text": "A machine that pulled carbon dioxide out of the air by blowing it through a falling curtain of sodium hydroxide solution. In a world that was supposed to be balancing its own atmosphere with plants.",
+   "img": "b2_tech_2",
+   "query": "industrial chemical scrubber tank machinery",
+   "stock": true,
+   "tone": "dread"
+  },
+  {
+   "id": "g16",
+   "text": "On the same day, they also disclosed that six hundred thousand cubic feet of outside air had been pumped in to replace air that had leaked out.",
+   "img": "b2_tech_1",
+   "query": "Biosphere 2 technosphere basement machinery pipes",
+   "extraHold": 22,
+   "tone": "dread"
+  },
+  {
+   "id": "g17",
+   "text": "That is the moment the press turned, and it never turned back. And the project does have an answer, in the peer reviewed record.",
+   "img": "b2_press_1",
+   "query": "press conference microphones 1990s reporters",
+   "stock": true,
+   "tone": "unease"
+  },
+  {
+   "id": "g18",
+   "text": "The scrubber was not a last minute panic. It was designed in from the start, in anticipation of the seasonal swing between photosynthesis in summer and respiration in winter. And crucially, it was designed to be reversible.",
+   "img": "b2_tech_2",
+   "query": "industrial chemical scrubber tank machinery",
+   "stock": true,
+   "tone": "curiosity"
+  },
+  {
+   "id": "g19",
+   "text": "There was a furnace, whose job was to bake the captured carbon back out again in the summer and return it to the air, closing the loop.",
+   "img": "b2_furnace_1",
+   "query": "industrial electric furnace heating element",
+   "stock": true,
+   "tone": "curiosity"
+  },
+  {
+   "id": "g20",
+   "text": "Its heating elements failed. The loop was never closed. Across the entire two years, that furnace never once did the job it existed to do.",
+   "kinetic": {
+    "words": [
+     "The",
+     "furnace",
+     "failed."
+    ]
+   },
+   "img": "b2_furnace_1",
+   "query": "industrial electric furnace heating element",
+   "stock": true,
+   "extraHold": 26,
+   "tone": "melancholy"
+  },
+  {
+   "id": "g21",
+   "text": "So which is it? A cover up, or a broken machine that a suspicious press found at the worst possible moment?",
+   "img": "b2_hero",
+   "query": "Biosphere 2 Arizona glass structure",
+   "tone": "unease"
+  },
+  {
+   "id": "g22",
+   "text": "Here is the fact that settles what it meant, if not what it was. That scrubber removed about ninety eight kilomoles of carbon dioxide. Around four point three tons.",
+   "stat": "~4.3 TONS",
+   "img": "b2_tech_2",
+   "query": "industrial chemical scrubber tank machinery",
+   "stock": true,
+   "tone": "curiosity"
+  },
+  {
+   "id": "g23",
+   "text": "Set against the amount of oxygen that had gone missing, that accounted for almost nothing. Something like one and a half percent of the atmospheric carbon.",
+   "img": "b2_chart_1",
+   "query": "line graph declining chart scientific data",
+   "stock": true,
+   "tone": "tension"
+  },
+  {
+   "id": "g24",
+   "text": "Whatever the scrubber was, it was not where the oxygen went. The mystery was still completely open. And the crew had thirteen months of it left to live through.",
+   "video": "b2_interior_1.mp4",
+   "videoQuery": "Biosphere 2 interior rainforest biome under glass",
+   "extraHold": 26,
+   "tone": "mystery"
+  },
+  {
+   "id": "c7",
+   "chapter": "7 — THE DOCTOR\nCOULDN'T ADD",
+   "img": "b2_lab_2",
+   "query": "medical examination laboratory doctor 1990s",
+   "text": "Chapter seven. The doctor couldn't add."
+  },
+  {
+   "id": "i1",
+   "text": "By January nineteen ninety three, sixteen months in, the oxygen inside Biosphere Two had fallen to about fourteen point two percent.",
+   "stat": "14.2% O₂",
+   "img": "b2_chart_1",
+   "query": "line graph declining chart scientific data",
+   "stock": true,
+   "extraHold": 22,
+   "tone": "dread"
+  },
+  {
+   "id": "i2",
+   "text": "Roy Walford was the doctor. Sixty seven years old, the oldest person inside by more than twenty years. His job was to monitor everybody else's health.",
+   "img": "b2_lab_2",
+   "query": "medical examination laboratory doctor 1990s",
+   "stock": true,
+   "tone": "unease"
+  },
+  {
+   "id": "i3",
+   "text": "He was also, it turned out, the most susceptible to the thin air of anyone in the building.",
+   "img": "b2_lab_2",
+   "query": "medical examination laboratory doctor 1990s",
+   "stock": true,
+   "tone": "dread"
+  },
+  {
+   "id": "i4",
+   "text": "Jane Poynter tells what happened next, and it is the moment this whole story turns from a science experiment into something else.",
+   "img": "b2_crew_2",
+   "query": "Biosphere 2 biospherians crew portrait",
+   "tone": "tension"
+  },
+  {
+   "id": "i5",
+   "text": "And one day, she said, he couldn't add up a line of figures.",
+   "kinetic": {
+    "words": [
+     "He",
+     "couldn't",
+     "add",
+     "up",
+     "a",
+     "line",
+     "of",
+     "figures."
+    ]
+   },
+   "img": "b2_lab_2",
+   "query": "medical examination laboratory doctor 1990s",
+   "stock": true,
+   "source": "Jane Poynter, TEDxUSC (2009)",
+   "extraHold": 30,
+   "tone": "dread"
+  },
+  {
+   "id": "i6",
+   "text": "And it was time for us to put oxygen in.",
+   "img": "b2_lab_2",
+   "query": "medical examination laboratory doctor 1990s",
+   "stock": true,
+   "extraHold": 24,
+   "tone": "dread"
+  },
+  {
+   "id": "i7",
+   "text": "The man measuring everyone else's decline was the instrument that finally registered it. He disqualified himself from duty. He could not do arithmetic.",
+   "img": "b2_paper_2",
+   "query": "handwritten column of figures numbers page",
+   "stock": true,
+   "tone": "melancholy"
+  },
+  {
+   "id": "i8",
+   "text": "On a winter night in January nineteen ninety three, they broke the seal on purpose.",
+   "video": "b2_glass_3.mp4",
+   "videoQuery": "heavy steel airlock door closing industrial",
+   "tone": "tension"
+  },
+  {
+   "id": "i9",
+   "text": "Between day four hundred and seventy five and day four hundred and ninety four of the closure, pure oxygen was pumped into Biosphere Two from the outside world.",
+   "stat": "DAYS 475–494",
+   "img": "b2_tech_1",
+   "query": "Biosphere 2 technosphere basement machinery pipes",
+   "source": "Dempster, Ecological Engineering 13 (1999)",
+   "tone": "curiosity"
+  },
+  {
+   "id": "i10",
+   "text": "Nineteen days of it. Not a single dramatic moment, whatever you have read. A slow, deliberate, engineered rescue of a building's atmosphere.",
+   "img": "b2_tech_1",
+   "query": "Biosphere 2 technosphere basement machinery pipes",
+   "tone": "curiosity"
+  },
+  {
+   "id": "i11",
+   "text": "Mark Nelson wrote about the moment they opened the door between their world and the fresh air on the other side.",
+   "img": "b2_crew_2",
+   "query": "Biosphere 2 crew biospherians 1991",
+   "tone": "hope"
+  },
+  {
+   "id": "i12",
+   "text": "We left a world with an oxygen level around fourteen percent, he wrote. Equivalent to being on a fifteen thousand foot mountain. In fact, we were at a three thousand nine hundred foot elevation in southern Arizona.",
+   "img": "b2_mountain_1",
+   "query": "mountaineer high altitude thin air summit",
+   "stock": true,
+   "source": "Mark Nelson, Pushing Our Limits (2018)",
+   "tone": "melancholy"
+  },
+  {
+   "id": "i13",
+   "text": "Oxygen had been slowly disappearing for sixteen months. No one knew where it had gone. We were slowly climbing a mountain, but going nowhere.",
+   "kinetic": {
+    "words": [
+     "Climbing",
+     "a",
+     "mountain,",
+     "going",
+     "nowhere."
+    ]
+   },
+   "img": "b2_mountain_1",
+   "query": "mountaineer high altitude thin air summit",
+   "stock": true,
+   "extraHold": 28,
+   "tone": "melancholy"
+  },
+  {
+   "id": "i14",
+   "text": "And then, when the air came in. In minutes, we felt decades younger. For the first time in many months, I heard the sound of running feet.",
+   "kinetic": {
+    "words": [
+     "The",
+     "sound",
+     "of",
+     "running",
+     "feet."
+    ]
+   },
+   "extraHold": 30,
+   "tone": "hope",
+   "img": "b2_interior_s",
+   "query": "Biosphere 2"
+  },
+  {
+   "id": "c8",
+   "chapter": "8 — IN THE WALLS",
+   "img": "b2_concrete_1",
+   "query": "bare concrete wall texture industrial",
+   "text": "Chapter eight. In the walls."
+  },
+  {
+   "id": "j1",
+   "text": "So where did seven tons of oxygen go, inside a building that leaked the equivalent of one three quarter inch hole?",
+   "img": "b2_concrete_1",
+   "query": "bare concrete wall texture industrial",
+   "stock": true,
+   "tone": "mystery"
+  },
+  {
+   "id": "j2",
+   "text": "The obvious answer had been on the table from the beginning, and it had been ruled out. The reason it was ruled out is the most interesting thing in this story.",
+   "img": "b2_soil_1",
+   "query": "dark rich soil organic matter close up",
+   "stock": true,
+   "tone": "tension"
+  },
+  {
+   "id": "j3",
+   "text": "Here is the obvious answer. Soil is alive. It is full of microbes, and microbes breathe. They take in oxygen and organic matter and they give off carbon dioxide, exactly the way you do.",
+   "img": "b2_soil_1",
+   "query": "dark rich soil organic matter close up",
+   "stock": true,
+   "tone": "curiosity"
+  },
+  {
+   "id": "j4",
+   "text": "And the designers of Biosphere Two had deliberately packed their soils with organic matter, because they wanted the farm to be fertile. They wanted things to grow.",
+   "img": "b2_agri_1",
+   "query": "Biosphere 2 agriculture crops interior greenhouse",
+   "tone": "curiosity"
+  },
+  {
+   "id": "j5",
+   "text": "So the soil microbes had an enormous banquet, and they ate it, and they breathed while they did. Respiration outran photosynthesis. The building's soil was eating its air.",
+   "img": "b2_soil_1",
+   "query": "dark rich soil organic matter close up",
+   "stock": true,
+   "tone": "dread"
+  },
+  {
+   "id": "j6",
+   "text": "Simple. Obvious. And provably wrong, because of one number.",
+   "extraHold": 22,
+   "img": "b2_chart_1",
+   "query": "line graph declining chart scientific data",
+   "stock": true,
+   "tone": "tension"
+  },
+  {
+   "id": "j7",
+   "text": "Respiration is a one for one trade. Every molecule of oxygen that goes in comes back out as a molecule of carbon dioxide. If the soil had eaten seven tons of oxygen, the carbon dioxide inside that sealed building should have gone through the roof.",
+   "img": "b2_chem_1",
+   "query": "chemical equation chalkboard chemistry formula",
+   "stock": true,
+   "tone": "curiosity"
+  },
+  {
+   "id": "j8",
+   "text": "It didn't.",
+   "kinetic": {
+    "words": [
+     "It",
+     "didn't."
+    ]
+   },
+   "img": "b2_chart_1",
+   "query": "line graph declining chart scientific data",
+   "stock": true,
+   "extraHold": 28,
+   "tone": "mystery"
+  },
+  {
+   "id": "j9",
+   "text": "Dempster wrote it down plainly. The obvious explanation of loss to respiration was not evident, he wrote, because the implied increase of carbon dioxide did not occur. And furthermore, the atmospheric volume of Biosphere Two was shrinking.",
+   "img": "b2_mission93",
+   "query": "scientific journal paper printed pages",
+   "stock": true,
+   "source": "Dempster, Ecological Engineering 13 (1999)",
+   "tone": "mystery"
+  },
+  {
+   "id": "j10",
+   "text": "So the mystery was never really that oxygen was vanishing. The mystery was that carbon dioxide was not appearing to match it. Two gases should have moved together. One of them didn't show up.",
+   "kinetic": {
+    "words": [
+     "One",
+     "of",
+     "them",
+     "didn't",
+     "show",
+     "up."
+    ]
+   },
+   "img": "b2_chem_1",
+   "query": "chemical equation chalkboard chemistry formula",
+   "stock": true,
+   "extraHold": 26,
+   "tone": "mystery"
+  },
+  {
+   "id": "j11",
+   "text": "Which meant something inside that building was taking the carbon dioxide out of the air as fast as the soil was making it. Silently. Without a machine. Without anybody noticing.",
+   "img": "b2_concrete_1",
+   "query": "bare concrete wall texture industrial",
+   "stock": true,
+   "tone": "dread"
+  },
+  {
+   "id": "j12",
+   "text": "They brought in outside help. Wallace Broecker, one of the most important geochemists of the twentieth century, the man who put the phrase global warming into the scientific literature. And a young researcher named Jeffrey Severinghaus.",
+   "img": "b2_scientist_1",
+   "query": "geochemist laboratory isotope mass spectrometer",
+   "stock": true,
+   "tone": "curiosity"
+  },
+  {
+   "id": "j13",
+   "text": "And they did something clever. They went looking for the carbon by its fingerprint.",
+   "img": "b2_scientist_1",
+   "query": "geochemist laboratory isotope mass spectrometer",
+   "stock": true,
+   "tone": "tension"
+  },
+  {
+   "id": "j14",
+   "text": "Carbon comes in different weights. Carbon twelve and carbon thirteen. And living things are slightly fussy. When a plant or a microbe processes carbon, it prefers the lighter one, which leaves a measurable signature behind.",
+   "img": "b2_chem_1",
+   "query": "chemical equation chalkboard chemistry formula",
+   "stock": true,
+   "tone": "curiosity"
+  },
+  {
+   "id": "j15",
+   "text": "So carbon that has been through something alive is isotopically different from carbon that hasn't. It is a tag. And it does not wash off.",
+   "img": "b2_scientist_1",
+   "query": "geochemist laboratory isotope mass spectrometer",
+   "stock": true,
+   "tone": "curiosity"
+  },
+  {
+   "id": "j16",
+   "text": "They measured the isotopes in the atmosphere. In the biomass. In the scrubber's output. And then in the concrete.",
+   "img": "b2_concrete_1",
+   "query": "bare concrete wall texture industrial",
+   "stock": true,
+   "extraHold": 22,
+   "tone": "tension"
+  },
+  {
+   "id": "j17",
+   "text": "Biosphere Two had fifteen thousand eight hundred square metres of exposed, unsealed concrete inside it. And concrete, when it is young, is not inert. It cures. It reacts.",
+   "img": "b2_concrete_2",
+   "query": "concrete curing wall surface texture close",
+   "stock": true,
+   "tone": "dread"
+  },
+  {
+   "id": "j18",
+   "text": "Calcium oxide in the concrete pulls carbon dioxide straight out of the air and locks it up as calcium carbonate. As limestone. Permanently.",
+   "img": "b2_concrete_2",
+   "query": "concrete curing wall surface texture close",
+   "stock": true,
+   "tone": "dread"
+  },
+  {
+   "id": "j19",
+   "text": "And when they measured the carbon locked inside that concrete, it carried the isotopic signature of something that had been alive.",
+   "extraHold": 28,
+   "img": "b2_concrete_1",
+   "query": "bare concrete wall texture industrial",
+   "stock": true,
+   "tone": "awe"
+  },
+  {
+   "id": "j20",
+   "text": "The inner surfaces held roughly ten times the calcium carbonate of the outer ones. Somewhere between six hundred and seven hundred and fifty kilomoles of carbon dioxide. On the order of twenty five tons of it. Sitting in the walls.",
+   "stat": "~25 TONS IN THE WALLS",
+   "img": "b2_concrete_2",
+   "query": "concrete curing wall surface texture close",
+   "stock": true,
+   "source": "Severinghaus et al., Eos 75(3):33–37 (1994)",
+   "extraHold": 26,
+   "tone": "awe"
+  },
+  {
+   "id": "j21",
+   "text": "That is the answer. The soil microbes ate the oxygen, exactly as anyone would have guessed on day one. And then the building's own concrete quietly ate the evidence.",
+   "kinetic": {
+    "words": [
+     "The",
+     "building",
+     "ate",
+     "the",
+     "evidence."
+    ]
+   },
+   "img": "b2_concrete_1",
+   "query": "bare concrete wall texture industrial",
+   "stock": true,
+   "extraHold": 30,
+   "tone": "awe"
+  },
+  {
+   "id": "j22",
+   "text": "Two reactions in sequence, in a place nobody was looking. One famous, one so boring it happens on every construction site on Earth and nobody thinks about it once.",
+   "video": "b2_glass_1.mp4",
+   "videoQuery": "Biosphere 2 space frame glazing lattice interior looking up",
+   "tone": "melancholy"
+  },
+  {
+   "id": "j23",
+   "text": "Eight people nearly suffocated because their house was still drying.",
+   "kinetic": {
+    "words": [
+     "Their",
+     "house",
+     "was",
+     "still",
+     "drying."
+    ]
+   },
+   "img": "b2_concrete_2",
+   "query": "concrete curing wall surface texture close",
+   "stock": true,
+   "extraHold": 30,
+   "tone": "melancholy"
+  },
+  {
+   "id": "c9",
+   "chapter": "9 — THE ONLY BUILDING\nTHAT COULD SEE IT",
+   "img": "b2_glass_4",
+   "query": "Biosphere 2 Architecture glass space frame",
+   "text": "Chapter nine. The only building that could have seen it."
+  },
+  {
+   "id": "k1",
+   "text": "And now I can tell you why the seal mattered, and why I asked you to hold onto that nineteen millimetre hole.",
+   "video": "b2_glass_2.mp4",
+   "videoQuery": "sunlight through greenhouse glass panes reflection",
+   "tone": "tension"
+  },
+  {
+   "id": "k2",
+   "text": "The oxygen was falling by about a hundred and forty parts per million a day. That is a small signal. Dempster ran the simulations afterwards to find out how leaky a building would have to be before that signal disappeared into the noise.",
+   "img": "b2_chart_1",
+   "query": "line graph declining chart scientific data",
+   "stock": true,
+   "tone": "curiosity"
+  },
+  {
+   "id": "k3",
+   "text": "The answer was a leak rate of one percent a day. Not a year. A day.",
+   "stat": "1% A DAY WOULD HIDE IT",
+   "img": "b2_chart_1",
+   "query": "line graph declining chart scientific data",
+   "stock": true,
+   "extraHold": 24,
+   "tone": "dread"
+  },
+  {
+   "id": "k4",
+   "text": "At that rate, fresh air seeps in fast enough to top the oxygen back up as it goes. An ordinary greenhouse would never have noticed.",
+   "img": "b2_greenhouse_1",
+   "query": "ordinary commercial greenhouse glass interior",
+   "stock": true,
+   "tone": "tension"
+  },
+  {
+   "id": "k5",
+   "text": "Biosphere Two leaked less than ten percent in a year. It was, by a wide margin, tight enough to detect its own suffocation.",
+   "kinetic": {
+    "words": [
+     "Tight",
+     "enough",
+     "to",
+     "detect",
+     "its",
+     "own",
+     "suffocation."
+    ]
+   },
+   "extraHold": 30,
+   "tone": "awe",
+   "img": "b2_glass_4",
+   "query": "Biosphere 2"
+  },
+  {
+   "id": "k6",
+   "text": "And here is the detail that finishes the argument, and it is a sad one.",
+   "img": "b2_present_1",
+   "query": "Biosphere 2 facility exterior modern day",
+   "tone": "melancholy"
+  },
+  {
+   "id": "k7",
+   "text": "After nineteen ninety six, when the project changed hands and the building was reconfigured for a different kind of research, they stopped maintaining that seal. The leak rate degraded to somewhere between one and two percent a day. About fifty times worse.",
+   "img": "b2_present_1",
+   "query": "Biosphere 2 facility exterior modern day",
+   "tone": "melancholy"
+  },
+  {
+   "id": "k8",
+   "text": "Which means the experiment that made Biosphere Two famous, the one thing it discovered that nobody else could have discovered, could never have been detected in the building it became.",
+   "extraHold": 28,
+   "img": "b2_present_1",
+   "query": "Biosphere 2 facility exterior modern day",
+   "tone": "melancholy"
+  },
+  {
+   "id": "k9",
+   "text": "It got exactly one chance to find that out, and the reason it found it is the thing everyone was laughing at. The obsessive, expensive, ridiculous tightness of the seal.",
+   "video": "b2_wide_2.mp4",
+   "videoQuery": "Biosphere 2 exterior aerial glass domes Arizona",
+   "tone": "melancholy"
+  },
+  {
+   "id": "c10",
+   "chapter": "10 — THE DOOR OPENS\nFROM OUTSIDE",
+   "img": "b2_glass_4",
+   "query": "Biosphere 2 airlock door entrance",
+   "text": "Chapter ten. The door opens from outside."
+  },
+  {
+   "id": "l1",
+   "text": "They came out on the twenty sixth of September, nineteen ninety three. Two years and about twenty minutes.",
+   "stat": "SEPT 26, 1993",
+   "img": "b2_crew_2",
+   "query": "Biosphere 2 crew biospherians 1991",
+   "tone": "melancholy"
+  },
+  {
+   "id": "l2",
+   "text": "Abigail Alling was first out. A reporter watching noted that she appeared to be trying to catch her breath as she stepped to the microphone. What she managed to say was, it's really a very different atmosphere.",
+   "img": "b2_press_1",
+   "query": "press conference microphones 1990s reporters",
+   "stock": true,
+   "source": "Arizona Daily Star, Sept. 27, 1993",
+   "extraHold": 22,
+   "tone": "melancholy"
+  },
+  {
+   "id": "l3",
+   "text": "They had also, by then, stopped speaking to each other. The eight had split into two groups of four.",
+   "img": "b2_crew_2",
+   "query": "Biosphere 2 biospherians crew portrait",
+   "tone": "dread"
+  },
+  {
+   "id": "l4",
+   "text": "I want to be careful, because the crew member who wrote the peer reviewed paper on that split deliberately declined to name who was on which side, and I am not going to do what he chose not to.",
+   "img": "b2_crew_2",
+   "query": "Biosphere 2 biospherians crew portrait",
+   "tone": "unease"
+  },
+  {
+   "id": "l5",
+   "text": "What is on the record is what the fight was about, and it is not what you would expect. It was not cabin fever. It was an argument that came from outside.",
+   "img": "b2_hero",
+   "query": "Biosphere 2 Arizona glass structure",
+   "tone": "tension"
+  },
+  {
+   "id": "l6",
+   "text": "The project's owners were at war over the direction of the whole enterprise, and that war propagated inside. One group wanted to hold the closure absolutely. The other wanted to loosen it and import food.",
+   "img": "b2_kitchen_1",
+   "query": "Crew Quarters Biosphere 2 living space",
+   "tone": "tension"
+  },
+  {
+   "id": "l7",
+   "text": "Nelson compared it to the oldest argument on any Antarctic expedition. The sailors against the scientists.",
+   "img": "b2_kitchen_1",
+   "query": "Crew Quarters Biosphere 2 living space",
+   "tone": "melancholy"
+  },
+  {
+   "id": "l8",
+   "text": "Six months later, that war came for the building.",
+   "img": "b2_glass_4",
+   "query": "Biosphere 2 airlock door entrance",
+   "extraHold": 20,
+   "tone": "dread"
+  },
+  {
+   "id": "l9",
+   "text": "A second crew of seven was sealed in on the sixth of March, nineteen ninety four. On the first of April, federal marshals arrived with a restraining order and removed the entire on site management team. The new crew, told what was happening, initially thought it was an April Fool's joke.",
+   "stat": "APRIL 1, 1994",
+   "img": "b2_marshal_1",
+   "query": "federal court restraining order legal documents",
+   "stock": true,
+   "tone": "dread"
+  },
+  {
+   "id": "l10",
+   "text": "Ed Bass put a banker in charge. A man who ran a Beverly Hills investment firm, and who would become considerably more famous two decades later, named Steve Bannon.",
+   "img": "b2_press_1",
+   "query": "press conference microphones 1990s reporters",
+   "stock": true,
+   "tone": "unease"
+  },
+  {
+   "id": "l11",
+   "text": "Three days after that, at three in the morning, two members of the original eight came back to the building they had lived inside for two years, and opened it.",
+   "img": "b2_glass_4",
+   "query": "Biosphere 2 airlock door entrance",
+   "tone": "dread"
+  },
+  {
+   "id": "l12",
+   "text": "Abigail Alling and Mark Van Thillo opened one double airlock and three emergency exits and left them open for about fifteen minutes. Roughly a tenth of the sealed atmosphere exchanged with the Arizona air. Five panes of glass were broken.",
+   "stat": "APRIL 4, 1994 — 3 A.M.",
+   "img": "b2_glass_5",
+   "query": "broken glass pane shattered window",
+   "stock": true,
+   "extraHold": 24,
+   "tone": "dread"
+  },
+  {
+   "id": "l13",
+   "text": "They had been suspended three days earlier. Alling's account, on the record, is this. I considered the Biosphere to be in an emergency state. In no way was it sabotage. It was my responsibility.",
+   "img": "b2_glass_4",
+   "query": "Biosphere 2 airlock door entrance",
+   "cap": "“In no way was it sabotage.”",
+   "tone": "unease"
+  },
+  {
+   "id": "l14",
+   "text": "The company called it sabotage and was still calling it that two years later. Both of those are positions held by living people and I am not going to pick between them for you.",
+   "img": "b2_press_1",
+   "query": "press conference microphones 1990s reporters",
+   "stock": true,
+   "tone": "unease"
+  },
+  {
+   "id": "l15",
+   "text": "They were charged with burglary, trespassing and criminal damage, and released on twenty five thousand dollars bail each. And I have to be straight with you about something, because it matters.",
+   "img": "b2_marshal_1",
+   "query": "federal court restraining order legal documents",
+   "stock": true,
+   "tone": "unease"
+  },
+  {
+   "id": "l16",
+   "text": "I could not find out what happened to those charges. Two separate research passes, and the disposition of that criminal case is not in the public record I can reach. No verdict, no plea, no dismissal. So I am not going to imply one.",
+   "img": "b2_marshal_1",
+   "query": "federal court restraining order legal documents",
+   "stock": true,
+   "extraHold": 22,
+   "tone": "unease"
+  },
+  {
+   "id": "l17",
+   "text": "What I do know is that in June nineteen ninety six a jury in Florence, Arizona found in their favour in a separate civil case, over being fired. The Associated Press reported the award as nearly five hundred and twenty thousand dollars in lost wages.",
+   "img": "b2_court_1",
+   "query": "courthouse Arizona county court building",
+   "stock": true,
+   "tone": "melancholy"
+  },
+  {
+   "id": "l18",
+   "text": "The second mission was shut down early, on the sixth of September, nineteen ninety four. Nobody was ever sealed inside Biosphere Two again.",
+   "extraHold": 26,
+   "video": "b2_wide_2.mp4",
+   "videoQuery": "Biosphere 2 exterior aerial glass domes Arizona",
+   "tone": "melancholy"
+  },
+  {
+   "id": "c11",
+   "chapter": "11 — THE VERDICT",
+   "img": "b2_mission93",
+   "query": "scientific journal paper printed pages",
+   "text": "Chapter eleven. The verdict."
+  },
+  {
+   "id": "m1",
+   "text": "In November nineteen ninety six, two ecologists, Joel Cohen of Rockefeller University and David Tilman of Minnesota, published the assessment in Science that has defined Biosphere Two ever since.",
+   "img": "b2_mission93",
+   "query": "scientific journal paper printed pages",
+   "stock": true,
+   "source": "Cohen & Tilman, Science 274(5290):1150 (1996)",
+   "tone": "tension"
+  },
+  {
+   "id": "m2",
+   "text": "It is not gentle. Despite the resources, they wrote, it proved impossible to create a materially closed system that could support eight humans with adequate food, water and air for two years.",
+   "img": "b2_mission93",
+   "query": "scientific journal paper printed pages",
+   "stock": true,
+   "tone": "dread"
+  },
+  {
+   "id": "m3",
+   "text": "And the line that stings most. Almost unlimited energy and technology were available to support Biosphere Two from the outside.",
+   "img": "b2_tech_1",
+   "query": "Biosphere 2 technosphere basement machinery pipes",
+   "extraHold": 22,
+   "tone": "dread"
+  },
+  {
+   "id": "m4",
+   "text": "Their conclusion is short enough to read to you in full, and it is, I think, one of the better paragraphs written about our situation on this planet.",
+   "img": "b2_earth_1",
+   "query": "Earth from space blue marble",
+   "stock": true,
+   "tone": "melancholy"
+  },
+  {
+   "id": "m5",
+   "text": "At present there is no demonstrated alternative to maintaining the viability of Earth. No one yet knows how to engineer systems that provide humans with the life supporting services that natural ecosystems produce for free.",
+   "img": "b2_earth_1",
+   "query": "Earth from space blue marble",
+   "stock": true,
+   "tone": "awe"
+  },
+  {
+   "id": "m6",
+   "text": "Despite its mysteries and hazards, Earth remains the only known home that can sustain life.",
+   "kinetic": {
+    "words": [
+     "the",
+     "only",
+     "known",
+     "home."
+    ]
+   },
+   "img": "b2_earth_1",
+   "query": "Earth from space blue marble",
+   "stock": true,
+   "source": "Cohen & Tilman, Science 274:1150 (1996)",
+   "extraHold": 32,
+   "tone": "awe"
+  },
+  {
+   "id": "m7",
+   "text": "That is the prosecution, and it is fair, and it is quoted constantly. The paragraph immediately before it almost never is.",
+   "img": "b2_mission93",
+   "query": "scientific journal paper printed pages",
+   "stock": true,
+   "tone": "unease"
+  },
+  {
+   "id": "m8",
+   "text": "There may be a partial analogy, they wrote, between the initial problems of Biosphere Two and the early, well publicised flaws of the Hubble Space Telescope. Now that Hubble has been improved, it is a major instrument with the potential for observations never possible before.",
+   "img": "b2_hubble_1",
+   "query": "Hubble Space Telescope in orbit",
+   "stock": true,
+   "tone": "hope"
+  },
+  {
+   "id": "m9",
+   "text": "Similarly, they wrote, research in a retooled Biosphere Two may well contribute exciting insights into the task of maintaining the viability of Biosphere One. The Earth.",
+   "img": "b2_earth_1",
+   "query": "Earth from space blue marble",
+   "stock": true,
+   "extraHold": 24,
+   "tone": "hope"
+  },
+  {
+   "id": "m10",
+   "text": "The harshest critics Biosphere Two ever had left the door open. And then history walked through it.",
+   "video": "b2_wide_2.mp4",
+   "videoQuery": "Biosphere 2 today university research facility",
+   "extraHold": 22,
+   "tone": "hope"
+  },
+  {
+   "id": "c12",
+   "chapter": "12 — WHAT IT BECAME",
+   "img": "b2_leo_1",
+   "query": "Landscape Evolution Observatory Biosphere 2",
+   "text": "Chapter twelve. What it became."
+  },
+  {
+   "id": "n1",
+   "text": "Columbia University ran it from nineteen ninety six to two thousand and three, and used that seven hundred thousand gallon ocean to demonstrate what rising carbon dioxide does to a coral reef.",
+   "img": "b2_ocean_1",
+   "query": "The Ocean Biosphere 2 coral reef interior",
+   "tone": "curiosity"
+  },
+  {
+   "id": "n2",
+   "text": "In two thousand and seven the property was sold for fifty million dollars to a developer, with fifteen hundred homes and a resort hotel already approved for the land around it. Demolition was a real possibility.",
+   "img": "b2_present_1",
+   "query": "Biosphere 2 facility exterior modern day",
+   "tone": "dread"
+  },
+  {
+   "id": "n3",
+   "text": "The University of Arizona took over operations that same year. In twenty eleven they were given the building outright, along with twenty million dollars from Ed Bass to run it. He gave another thirty million in twenty seventeen.",
+   "img": "b2_present_1",
+   "query": "Biosphere 2 facility exterior modern day",
+   "tone": "hope"
+  },
+  {
+   "id": "n4",
+   "text": "It is open to the public today. About a hundred thousand people a year walk through it.",
+   "video": "b2_present_1.mp4",
+   "videoQuery": "Biosphere 2 today university research facility",
+   "tone": "hope"
+  },
+  {
+   "id": "n5",
+   "text": "And inside, they built something called the Landscape Evolution Observatory. Three artificial hillslopes, each thirty metres long, each filled a metre deep with five hundred tons of crushed basalt. Sterile ground up volcanic rock. Dead.",
+   "img": "b2_leo_1",
+   "query": "Landscape Evolution Observatory Biosphere 2",
+   "cap": "Three sterile hillslopes.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "n6",
+   "text": "More than eighteen hundred sensors in each one, watching what happens when you add water to bare rock and wait.",
+   "stat": "1,800+ SENSORS",
+   "img": "b2_leo_1",
+   "query": "Landscape Evolution Observatory Biosphere 2",
+   "tone": "curiosity"
+  },
+  {
+   "id": "n7",
+   "text": "What happened is that nobody put anything alive on those slopes, and life showed up anyway.",
+   "extraHold": 24,
+   "img": "b2_leo_2",
+   "query": "cyanobacteria crust soil microbial mat",
+   "stock": true,
+   "tone": "awe"
+  },
+  {
+   "id": "n8",
+   "text": "Cyanobacteria colonised the sterile basalt. Photosynthesising, nitrogen fixing crusts, forming on ground up rock, exactly the way they did on the early Earth. Mosses now blanket those slopes seasonally.",
+   "img": "b2_leo_2",
+   "query": "cyanobacteria crust soil microbial mat",
+   "stock": true,
+   "tone": "awe"
+  },
+  {
+   "id": "n9",
+   "text": "The principal investigator's summary of the result was three words. Life finds a way.",
+   "kinetic": {
+    "words": [
+     "Life",
+     "finds",
+     "a",
+     "way."
+    ]
+   },
+   "img": "b2_leo_2",
+   "query": "cyanobacteria crust soil microbial mat",
+   "stock": true,
+   "extraHold": 28,
+   "tone": "awe"
+  },
+  {
+   "id": "n10",
+   "text": "In April twenty twenty six they were funded to take the next step, and build miniature versions of those hillslopes running Martian atmosphere and Martian soil chemistry.",
+   "img": "b2_mars_1",
+   "query": "Mars surface regolith red planet",
+   "stock": true,
+   "tone": "hope"
+  },
+  {
+   "id": "n11",
+   "text": "And in February twenty twenty six, for the first time in more than thirty years, they put corals back into the Biosphere Two ocean. A hundred and eight living fragments, from the Florida Keys and the Gulf of Mexico.",
+   "stat": "FEB 2026 — 108 CORALS",
+   "img": "b2_coral_1",
+   "query": "coral fragments reef restoration nursery",
+   "stock": true,
+   "tone": "hope"
+  },
+  {
+   "id": "n12",
+   "text": "Columbia used that same water, thirty years ago, to prove that carbon dioxide kills reefs. Today it is being used to find the ones that survive.",
+   "img": "b2_coral_1",
+   "query": "coral fragments reef restoration nursery",
+   "stock": true,
+   "extraHold": 26,
+   "tone": "hope"
+  },
+  {
+   "id": "o1",
+   "text": "I want to tell you what I actually think, because I have spent a long time with this one.",
+   "video": "b2_wide_2.mp4",
+   "videoQuery": "Biosphere 2 exterior aerial glass domes Arizona",
+   "tone": "melancholy"
+  },
+  {
+   "id": "o2",
+   "text": "Biosphere Two is remembered as a joke. There is a Pauly Shore movie about it, with a four percent score on Rotten Tomatoes and a one out of a hundred on Metacritic, which ties it for the worst reviewed film on that entire website. They shot it at a water reclamation plant in Van Nuys, because the real Biosphere Two turned them down.",
+   "img": "b2_press_1",
+   "query": "press conference microphones 1990s reporters",
+   "stock": true,
+   "tone": "melancholy"
+  },
+  {
+   "id": "o5",
+   "text": "Here is the thing about the joke. Biosphere Two failed at the thing it was sold as. It could not keep eight people fed and breathing for two years without help. That is true and there is no way around it.",
+   "video": "b2_glass_1.mp4",
+   "videoQuery": "Biosphere 2 space frame glazing lattice interior looking up",
+   "tone": "melancholy"
+  },
+  {
+   "id": "o6",
+   "text": "But a failure that teaches you something real is not a stunt. It is an experiment. And the discovery it produced, that a sealed world's oxygen can vanish into its own walls while its carbon dioxide reading stays flat and reassuring, is cited in the reference list of the very paper that condemned it.",
+   "img": "b2_mission93",
+   "query": "scientific journal paper printed pages",
+   "stock": true,
+   "tone": "curiosity"
+  },
+  {
+   "id": "o7",
+   "text": "Nobody would have predicted that. Nobody did predict it. And nobody could have found it in a building that was even slightly less well sealed.",
+   "video": "b2_glass_2.mp4",
+   "videoQuery": "sunlight through greenhouse glass panes reflection",
+   "tone": "awe"
+  },
+  {
+   "id": "o8",
+   "text": "Bad engineering. Worse governance. Genuine science. And a building that has outlived every single reason people had for laughing at it.",
+   "kinetic": {
+    "words": [
+     "It",
+     "outlived",
+     "the",
+     "laughter."
+    ]
+   },
+   "extraHold": 28,
+   "tone": "melancholy",
+   "img": "b2_present_1",
+   "query": "Biosphere 2"
+  },
+  {
+   "id": "o9",
+   "text": "Jane Poynter said something about coming out that I cannot stop thinking about. For two years, she said, I'd been seeing people through the glass.",
+   "img": "b2_crew_2",
+   "query": "Biosphere 2 biospherians crew portrait",
+   "tone": "melancholy"
+  },
+  {
+   "id": "o10",
+   "text": "When visitors came, there was a window with a telephone on the outside and a telephone on the inside. And you would put your hand flat against the pane, and they would put theirs against it on the other side, and that was hello.",
+   "img": "b2_glass_6",
+   "query": "hand pressed against glass window pane",
+   "stock": true,
+   "cap": "They called it the biospherian handshake.",
+   "extraHold": 26,
+   "tone": "melancholy"
+  },
+  {
+   "id": "o11",
+   "text": "Eight people spent two years learning, in the most literal way anybody ever has, that air is not a given. That it is made, constantly, by things too small to see, and can be taken away by a wall that has not finished drying.",
+   "video": "b2_interior_1.mp4",
+   "videoQuery": "Biosphere 2 interior rainforest biome under glass",
+   "tone": "awe"
+  },
+  {
+   "id": "o12",
+   "text": "They built a second Earth to find out how the first one works. It didn't work. That is how they found out.",
+   "kinetic": {
+    "words": [
+     "That",
+     "is",
+     "how",
+     "they",
+     "found",
+     "out."
+    ]
+   },
+   "extraHold": 32,
+   "tone": "awe",
+   "img": "b2_hero",
+   "query": "Biosphere 2"
+  },
+  {
+   "id": "p1",
+   "text": "If the idea of microbes quietly rewriting an atmosphere got to you, there is a version of that story on a scale you will not believe, and it involves the Sun.",
+   "img": "b2_sun_1",
+   "query": "sun surface solar activity",
+   "stock": true,
+   "tone": "curiosity"
+  },
+  {
+   "id": "p2",
+   "text": "I made a video about whether the sun killing microbe in Project Hail Mary could actually exist. Real astrobiology, real extremophiles, and an answer that surprised me. It is on screen now.",
+   "img": "b2_sun_1",
+   "query": "sun surface solar activity",
+   "stock": true,
+   "cap": "Watch next →",
+   "tone": "curiosity"
+  },
+  {
+   "id": "p3",
+   "text": "And if you want more of these, the ones built out of the actual papers rather than the headlines, subscribe to mindwired. Thanks for watching.",
+   "video": "b2_present_1.mp4",
+   "videoQuery": "Biosphere 2 today university research facility",
+   "cap": "Subscribe",
+   "tone": "hope"
+  }
+ ]
+}

@@ -1,0 +1,282 @@
+Bundling 6%
+Bundling 24%
+Bundling 38%
+Bundling 51%
+Bundling 65%
+Bundling 70%
+Bundling 75%
+Bundling 80%
+Bundling 85%
+Bundling 91%
+Bundling 98%
+Bundling 100%
+Getting composition
+⚡️ Cached bundle. Subsequent renders will be faster.
+Composition          Biosphere2Doc
+Codec                h264
+Output               /var/folders/13/ffrw8p4s6rq_zxnf16358v_m0000gn/T/tmpr6p7agir/biosphere2_raw.mp4
+Concurrency          5x
+Rendered 0/67351
+Rendered 1/67351, time remaining: 30h 35m 17s
+Rendered 2/67351, time remaining: 16h 5m 20s
+Rendered 3/67351, time remaining: 11h 9m 44s
+Rendered 4/67351, time remaining: 8h 40m 32s
+Rendered 5/67351, time remaining: 7h 3m 49s
+Rendered 6/67351, time remaining: 7h 43m 22s
+Rendered 7/67351, time remaining: 6h 51m 26s
+Rendered 8/67351, time remaining: 6h 1m 16s
+Rendered 9/67351, time remaining: 5h 33m 35s
+Rendered 10/67351, time remaining: 5h 25m 35s
+Rendered 11/67351, time remaining: 5h 42m 24s
+Rendered 12/67351, time remaining: 5h 14m 26s
+Rendered 13/67351, time remaining: 4h 50m 14s
+Rendered 14/67351, time remaining: 5h 9m 35s
+Rendered 15/67351, time remaining: 4h 56m 7s
+Rendered 16/67351, time remaining: 4h 46m 10s
+Rendered 17/67351, time remaining: 4h 30m 7s
+Rendered 18/67351, time remaining: 4h 30m 53s
+Rendered 19/67351, time remaining: 4h 27m 40s
+Rendered 20/67351, time remaining: 4h 23m 32s
+Rendered 21/67351, time remaining: 4h 11m 9s
+Rendered 22/67351, time remaining: 4h 19m 22s
+Rendered 23/67351, time remaining: 4h 12m 2s
+Rendered 24/67351, time remaining: 4h 7m 17s
+Rendered 25/67351, time remaining: 4h 4m 2s
+Rendered 26/67351, time remaining: 4h 46s
+Rendered 27/67351, time remaining: 4h 2m 24s
+Rendered 28/67351, time remaining: 3h 54m 18s
+Rendered 29/67351, time remaining: 3h 47m 34s
+Rendered 30/67351, time remaining: 3h 55m 12s
+Rendered 31/67351, time remaining: 3h 53m 39s
+Rendered 32/67351, time remaining: 3h 50m 29s
+Rendered 33/67351, time remaining: 3h 44m 33s
+Rendered 34/67351, time remaining: 3h 41m 19s
+Rendered 35/67351, time remaining: 3h 48m 17s
+Rendered 36/67351, time remaining: 3h 42m 27s
+Rendered 37/67351, time remaining: 3h 45m 21s
+Rendered 38/67351, time remaining: 3h 43m 9s
+Rendered 39/67351, time remaining: 3h 41m 40s
+Rendered 40/67351, time remaining: 3h 38m 33s
+Rendered 41/67351, time remaining: 3h 38m 40s
+Rendered 42/67351, time remaining: 3h 42m 16s
+Rendered 43/67351, time remaining: 3h 38m 34s
+Rendered 44/67351, time remaining: 3h 34m 12s
+Rendered 45/67351, time remaining: 3h 31m 54s
+Rendered 46/67351, time remaining: 3h 40m 10s
+Rendered 47/67351, time remaining: 3h 37m 25s
+Rendered 48/67351, time remaining: 3h 32m 54s
+Rendered 49/67351, time remaining: 3h 30m 28s
+Rendered 50/67351, time remaining: 3h 38m 10s
+Rendered 51/67351, time remaining: 3h 34m 57s
+Rendered 52/67351, time remaining: 3h 32m 24s
+Rendered 53/67351, time remaining: 3h 29m 47s
+Rendered 54/67351, time remaining: 3h 34m 31s
+Rendered 55/67351, time remaining: 3h 33m 6s
+Rendered 56/67351, time remaining: 3h 30m 39s
+Rendered 57/67351, time remaining: 3h 28m 47s
+Rendered 58/67351, time remaining: 3h 32m 1s
+Rendered 59/67351, time remaining: 3h 31m 3s
+Rendered 60/67351, time remaining: 3h 27m 34s
+Rendered 61/67351, time remaining: 3h 28m 43s
+Rendered 62/67351, time remaining: 3h 29m 15s
+Rendered 63/67351, time remaining: 3h 27m 41s
+Rendered 64/67351, time remaining: 3h 26m 33s
+Rendered 65/67351, time remaining: 3h 24m 29s
+Rendered 66/67351, time remaining: 3h 29m 43s
+Rendered 67/67351, time remaining: 3h 27m 53s
+Rendered 68/67351, time remaining: 3h 25m 31s
+Rendered 69/67351, time remaining: 3h 22m 58s
+Rendered 70/67351, time remaining: 3h 22m 10s
+Rendered 71/67351, time remaining: 3h 24m 58s
+Rendered 72/67351, time remaining: 3h 24m 7s
+Rendered 73/67351, time remaining: 3h 21m 57s
+Rendered 74/67351, time remaining: 3h 23m 53s
+Rendered 75/67351, time remaining: 3h 23m 4s
+Rendered 76/67351, time remaining: 3h 23m 23s
+Rendered 77/67351, time remaining: 3h 20m 45s
+Rendered 78/67351, time remaining: 3h 21m 18s
+Rendered 79/67351, time remaining: 3h 21m 53s
+Rendered 80/67351, time remaining: 3h 20m 27s
+Rendered 81/67351, time remaining: 3h 18m 56s
+Rendered 82/67351, time remaining: 3h 19m 55s
+Rendered 83/67351, time remaining: 3h 20m 35s
+Rendered 84/67351, time remaining: 3h 21m 36s
+Rendered 85/67351, time remaining: 3h 19m 14s
+Rendered 86/67351, time remaining: 3h 21m 3s
+Rendered 87/67351, time remaining: 3h 20m 51s
+Rendered 88/67351, time remaining: 3h 18m 39s
+Rendered 89/67351, time remaining: 3h 19m 5s
+Rendered 90/67351, time remaining: 3h 20m 59s
+Rendered 91/67351, time remaining: 3h 19m 54s
+Rendered 92/67351, time remaining: 3h 19m 24s
+Rendered 93/67351, time remaining: 3h 19m 11s
+Rendered 94/67351, time remaining: 3h 19m 55s
+Rendered 95/67351, time remaining: 3h 18m 56s
+Rendered 96/67351, time remaining: 3h 18m 50s
+Rendered 97/67351, time remaining: 3h 17m 26s
+Rendered 98/67351, time remaining: 3h 19m 14s
+Rendered 99/67351, time remaining: 3h 18m 41s
+Rendered 100/67351, time remaining: 3h 17m 43s
+Rendered 101/67351, time remaining: 3h 17m 59s
+Rendered 102/67351, time remaining: 3h 18m 28s
+Rendered 103/67351, time remaining: 3h 16m 54s
+Rendered 104/67351, time remaining: 3h 15m 41s
+Rendered 105/67351, time remaining: 3h 14m 24s
+Rendered 106/67351, time remaining: 3h 17m 55s
+Rendered 107/67351, time remaining: 3h 17m 14s
+Rendered 108/67351, time remaining: 3h 16m 22s
+Rendered 109/67351, time remaining: 3h 17m 55s
+Rendered 110/67351, time remaining: 3h 19m 36s
+Rendered 111/67351, time remaining: 3h 18m 57s
+Rendered 112/67351, time remaining: 3h 18m 6s
+Rendered 113/67351, time remaining: 3h 17m 0s
+Rendered 114/67351, time remaining: 3h 20m 33s
+Rendered 115/67351, time remaining: 3h 18m 48s
+Rendered 116/67351, time remaining: 3h 17m 5s
+Rendered 117/67351, time remaining: 3h 17m 25s
+Rendered 118/67351, time remaining: 3h 19m 6s
+Rendered 119/67351, time remaining: 3h 18m 39s
+Rendered 120/67351, time remaining: 3h 17m 30s
+Rendered 121/67351, time remaining: 3h 17m 45s
+Rendered 122/67351, time remaining: 3h 16m 36s
+Rendered 123/67351, time remaining: 3h 17m 18s
+Rendered 124/67351, time remaining: 3h 17m 0s
+Rendered 125/67351, time remaining: 3h 15m 26s
+Rendered 126/67351, time remaining: 3h 16m 18s
+Rendered 127/67351, time remaining: 3h 16m 49s
+Rendered 128/67351, time remaining: 3h 15m 39s
+Rendered 129/67351, time remaining: 3h 15m 6s
+Rendered 130/67351, time remaining: 3h 17m 15s
+Rendered 131/67351, time remaining: 3h 16m 22s
+Rendered 132/67351, time remaining: 3h 15m 15s
+Rendered 133/67351, time remaining: 3h 14m 33s
+Rendered 134/67351, time remaining: 3h 13m 7s
+Rendered 135/67351, time remaining: 3h 16m 9s
+Rendered 136/67351, time remaining: 3h 16m 18s
+Rendered 137/67351, time remaining: 3h 15m 30s
+Rendered 138/67351, time remaining: 3h 15m 11s
+Rendered 139/67351, time remaining: 3h 13m 53s
+Rendered 140/67351, time remaining: 3h 15m 19s
+Rendered 141/67351, time remaining: 3h 13m 58s
+Rendered 142/67351, time remaining: 3h 13m 42s
+Rendered 143/67351, time remaining: 3h 14m 25s
+Rendered 144/67351, time remaining: 3h 16m 17s
+Rendered 145/67351, time remaining: 3h 14m 58s
+Rendered 146/67351, time remaining: 3h 14m 50s
+Rendered 147/67351, time remaining: 3h 15m 52s
+Rendered 148/67351, time remaining: 3h 15m 28s
+Rendered 149/67351, time remaining: 3h 15m 16s
+Rendered 150/67351, time remaining: 3h 15m 45s
+Rendered 151/67351, time remaining: 3h 4m 13s
+Rendered 152/67351, time remaining: 3h 4m 45s
+Rendered 153/67351, time remaining: 3h 5m 6s
+Rendered 154/67351, time remaining: 3h 5m 28s
+Rendered 155/67351, time remaining: 3h 6m 55s
+Rendered 156/67351, time remaining: 3h 4m 30s
+Rendered 157/67351, time remaining: 3h 4m 41s
+Rendered 158/67351, time remaining: 3h 5m 19s
+Rendered 159/67351, time remaining: 3h 5m 33s
+Rendered 160/67351, time remaining: 3h 6m 29s
+Rendered 161/67351, time remaining: 3h 3m 12s
+Rendered 162/67351, time remaining: 3h 4m 33s
+Rendered 163/67351, time remaining: 3h 5m 59s
+
+💡 Get help for this issue at https://remotion.dev/docs/timeout
+
+Could not extract frame from compositor Error: write ECONNRESET
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19) {
+  errno: -54,
+  code: 'ECONNRESET',
+  syscall: 'write'
+}
+Cannot propagate error message to client because headers have already been sent
+Rendered 164/67351, time remaining: 3h 3m 27s
+Could not extract frame from compositor Error: Request closed
+    at /Users/akshay/Documents/GitHub/mindwired/node_modules/.pnpm/@remotion+renderer@4.0.506_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/@remotion/renderer/dist/offthread-video-server.js:118:32
+    at new Promise (<anonymous>)
+    at /Users/akshay/Documents/GitHub/mindwired/node_modules/.pnpm/@remotion+renderer@4.0.506_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/@remotion/renderer/dist/offthread-video-server.js:116:24
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+An error occurred while rendering frame 167:
+ Error  A delayRender() "Loading font Space Grotesk (url: /public/fonts/SpaceGrotesk.ttf, format: undefined, weight: 300 700, style: undefined, variant: undefined, ascentOverride: undefined, descentOverride: undefined, display: block, featureSettings: undefined, lineGapOverride: undefined, stretch: undefined, unicodeRange: undefined)" was called but not cleared after 28000ms. See https://remotion.dev/docs/timeout for help. 
+
+at node_modules/.pnpm/remotion@4.0.506_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/remotion/dist/esm/index.mjs:938
+936 │   if (environment.isClientSideRendering) {
+937 │     scope.remotion_cancelledError = getErrorStackWithMessage(Error(message));
+938 │   } else {
+939 │     cancelRenderInternal(scope, Error(message));
+940 │   }
+941 │ }, timeoutToUse)
+
+
+🕧 The delayRender() call is located at:
+
+at node_modules/.pnpm/remotion@4.0.506_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/remotion/dist/esm/index.mjs:919
+917 │ const handle = Math.random();
+918 │ scope.remotion_delayRenderHandles.push(handle);
+919 │ const called = Error().stack?.replace(/^Error/g, "") ?? "";
+920 │ if (environment.isRendering) {
+921 │   const timeoutToUse = (options?.timeoutInMilliseconds ?? scope.remotion_puppeteerTimeout ?? defaultTimeout) - 2000;
+922 │   const retriesLeft = (options?.retries ?? 0) - (scope.remotion_attempt - 1);
+
+at node_modules/.pnpm/remotion@4.0.506_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/remotion/dist/esm/index.mjs:951
+949 │   return Math.random();
+950 │ }
+951 │ return delayRenderInternal({
+952 │   scope: window,
+953 │   environment: getRemotionEnvironment(),
+954 │   label: label2 ?? null,
+
+at node_modules/.pnpm/@remotion+fonts@4.0.506_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/@remotion/fonts/dist/esm/index.mjs:44
+42 │   throw new TypeError(`loadFont() requires a "url" field in the options object, but received ${url === undefined ? "undefined" : JSON.stringify(url)}. If you want to load a Google Font, use the @remotion/google-fonts package instead. See: https://www.remotion.dev/docs/google-fonts/load-font`);
+43 │ }
+44 │ const waitForFont = delayRender(`Loading font ${family} (url: ${url}, format: ${format}, weight: ${weight}, style: ${style}, variant: ${variant}, ascentOverride: ${ascentOverride}, descentOverride: ${descentOverride}, display: ${display}, featureSettings: ${featureSettings}, lineGapOverride: ${lineGapOverride}, stretch: ${stretch}, unicodeRange: ${unicodeRange})`);
+45 │ try {
+46 │   const fontFormat = format ?? getFontFormat(url);
+47 │   const font = new FontFace(family, `url('${url}') format('${fontFormat}')`, {
+
+at src/lib/fonts.ts:7
+ 5 │ 
+ 6 │ // Space Grotesk — distinctive techy grotesque for display / headlines / stats.
+ 7 │ loadFont({
+ 8 │   family: "Space Grotesk",
+ 9 │   url: staticFile("fonts/SpaceGrotesk.ttf"),
+10 │   weight: "300 700",
+at __webpack_require__ (webpack/bootstrap:19)
+at (webpack/startup:5)
+
+at node_modules/.pnpm/remotion@4.0.506_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/remotion/dist/esm/index.mjs:919
+917 │ const handle = Math.random();
+918 │ scope.remotion_delayRenderHandles.push(handle);
+919 │ const called = Error().stack?.replace(/^Error/g, "") ?? "";
+920 │ if (environment.isRendering) {
+921 │   const timeoutToUse = (options?.timeoutInMilliseconds ?? scope.remotion_puppeteerTimeout ?? defaultTimeout) - 2000;
+922 │   const retriesLeft = (options?.retries ?? 0) - (scope.remotion_attempt - 1);
+
+at node_modules/.pnpm/remotion@4.0.506_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/remotion/dist/esm/index.mjs:951
+949 │   return Math.random();
+950 │ }
+951 │ return delayRenderInternal({
+952 │   scope: window,
+953 │   environment: getRemotionEnvironment(),
+954 │   label: label2 ?? null,
+
+at node_modules/.pnpm/@remotion+fonts@4.0.506_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/@remotion/fonts/dist/esm/index.mjs:44
+42 │   throw new TypeError(`loadFont() requires a "url" field in the options object, but received ${url === undefined ? "undefined" : JSON.stringify(url)}. If you want to load a Google Font, use the @remotion/google-fonts package instead. See: https://www.remotion.dev/docs/google-fonts/load-font`);
+43 │ }
+44 │ const waitForFont = delayRender(`Loading font ${family} (url: ${url}, format: ${format}, weight: ${weight}, style: ${style}, variant: ${variant}, ascentOverride: ${ascentOverride}, descentOverride: ${descentOverride}, display: ${display}, featureSettings: ${featureSettings}, lineGapOverride: ${lineGapOverride}, stretch: ${stretch}, unicodeRange: ${unicodeRange})`);
+45 │ try {
+46 │   const fontFormat = format ?? getFontFormat(url);
+47 │   const font = new FontFace(family, `url('${url}') format('${fontFormat}')`, {
+
+at src/lib/fonts.ts:7
+ 5 │ 
+ 6 │ // Space Grotesk — distinctive techy grotesque for display / headlines / stats.
+ 7 │ loadFont({
+ 8 │   family: "Space Grotesk",
+ 9 │   url: staticFile("fonts/SpaceGrotesk.ttf"),
+10 │   weight: "300 700",
+at __webpack_require__ (webpack/bootstrap:19)
+at (webpack/startup:5)
+at (node_modules/.pnpm/remotion@4.0.506_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/remotion/dist/esm/index.mjs:939)
+[render] npx remotion render Biosphere2Doc /var/folders/13/ffrw8p4s6rq_zxnf16358v_m0000gn/T/tmpr6p7agir/biosphere2_raw.mp4 --scale=2.0
+remotion render failed for Biosphere2Doc (exit 1)

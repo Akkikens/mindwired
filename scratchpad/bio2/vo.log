@@ -1,0 +1,12 @@
+NOTE: episode was built at speed 0.97; you passed 0.96 — mixed clips will have an audible cadence jump. Use --force to re-synth ALL clips at the new speed.
+->  h1.mp3 (176840b, polished)
+->  h2.mp3 (203799b, polished)
+->  h3.mp3 (192514b, polished)
+->  h4.mp3 (205680b, polished)
+->  h5.mp3 (100354b, polished)
+->  h6.mp3 (253954b, polished)
+->  h7.mp3 (144240b, polished)
+->  h8.mp3 (196275b, polished)
+->  h9.mp3 (124804b, polished)
+Cartesia HTTP 400: Invalid transcript: Your transcript is empty or contains only punctuation.
+

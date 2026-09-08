@@ -1,0 +1,204 @@
+nepalflood: niche=generic target=2160p — 25 image prefix(es), 6 video prefix(es)
+  IMG seismo_1: 'seismograph earthquake reading monitor' [stock]
+  !! MISMATCH (vision check): Close-up of a person pointing at a vintage oscillo — MISMATCH
+  !! MISMATCH (vision check): Black man lying in a studio beside an oscillograph — MISMATCH
+  !! MISMATCH (vision check): Close-up of a vintage oscilloscope displaying a gr — MISMATCH
+  !! MISMATCH (vision check): A masked patient in a clinic being monitored by an — MISMATCH
+  -> seismo_1_1.jpeg  [pexels/free]  A person adjusts settings on a vintage oscilloscope in a
+  !! MISMATCH (vision check): Close-up of an oscilloscope displaying a pulse sig — MISMATCH
+  !! MISMATCH (vision check): Close-up of a vintage oscilloscope with green disp — MIS
+  -> seismo_1_2.jpeg  [pexels/free]  A hand adjusting an oscilloscope displaying a waveform, 
+  !! MISMATCH (vision check): Detailed view of a medical display screen showing  — MISMATCH
+  -> seismo_1_3.jpg  [pixabay/free]  newspaper, magnifying glass, magnifier, news, zoom, incr
+  IMG rasuwa_1: 'Rasuwa Nepal mountains'
+  -> rasuwa_1_1.jpg  [commons/by-sa]  Rasuwa Nepal Chainiess Hill.jpg
+  -> rasuwa_1_2.jpg  [commons/by-sa]  Kenzin Valley of Rasuwa Nepal.jpg
+  -> rasuwa_1_3.jpg  [commons/by-sa]  Magnificent Nagthali, Tamang Heritage trail, Rasuwa, Nep
+  IMG map_1: 'Nepal India map Himalaya rivers' [stock]
+  -> map_1_1.jpeg  [pexels/free]  Lush green valley in Ghandruk with mountains and river u
+  -> map_1_2.jpeg  [pexels/free]  A breathtaking aerial view of Annapurna Valley, Nepal, s
+  -> map_1_3.jpeg  [pexels/free]  Expansive view of a river meandering through the Himalay
+  IMG glacier_1: 'Himalaya glacier ice cliff'
+  -> glacier_1_1.jpg  [commons/by]  Himalayas, Nepal.jpg
+  !! MISMATCH (vision check): Climbs and exploration in the Canadian Rockies (19 — MIS
+  -> glacier_1_2.jpg  [commons/by-sa]  Everest North Face toward Base Camp Tibet Luca Galuzzi 2
+  -> glacier_1_3.jpeg  [pexels/free]  A breathtaking view of a glacier in the Himalayas, Bagma
+  IMG tibet_1: 'Tibet plateau mountains river' [stock]
+  -> tibet_1_1.jpeg  [pexels/free]  Serene landscape of snow-capped mountains and clouds in 
+  -> tibet_1_2.jpeg  [pexels/free]  Explore the serene Tibetan landscape with towering mount
+  -> tibet_1_3.jpeg  [pexels/free]  Scenic view of a mist-covered valley and mountains in Ti
+  IMG glacier_2: 'rockfall landslide mountain debris' [stock]
+  -> glacier_2_1.jpeg  [pexels/free]  A dramatic landslide creating patterns on a Swiss mounta
+  -> glacier_2_2.jpeg  [pexels/free]  Debris and destruction after a severe landslide in Mocoa
+  -> glacier_2_3.jpeg  [pexels/free]  A scenic mountain road blocked by large rocks from a lan
+  IMG landslide_dam_1: 'landslide blocking river natural dam' [stock]
+  !! MISMATCH (vision check): River erosion and destruction in Mocoa, Colombia,  — MISMATCH
+  -> landslide_dam_1_1.jpeg  [pexels/free]  Aerial shot of a dam and river surrounded by lush greene
+  -> landslide_dam_1_2.jpeg  [pexels/free]  Beautiful mountain landscape with a dam and river surrou
+  !! MISMATCH (vision check): Scenic view of Buffalo Bill Dam in the rocky canyo — MIS
+  !! MISMATCH (vision check): Bus navigating a landslide on a mountain road in U — MISMATCH
+  -> landslide_dam_1_3.jpg  [pixabay/free]  hydroelectric dam, river, dam, hydroelectric power, hydr
+  IMG flood_1: 'river flooding rising water torrent' [stock]
+  -> flood_1_1.jpeg  [pexels/free]  Aerial view of Aare River flooding the historic Old Town
+  -> flood_1_2.jpeg  [pexels/free]  An aerial view of a structure overwhelmed by a river flo
+  -> flood_1_3.jpeg  [pexels/free]  Captivating view of water flowing over a dam in Sarajevo
+  IMG flood_2: 'flash flood wall of water debris' [stock]
+  -> flood_2_1.jpeg  [pexels/free]  Rural village houses damaged by flood debris in Mocoa, C
+  -> flood_2_2.jpeg  [pexels/free]  Aftermath of a flood in rural Mocoa, Colombia, showing d
+  !! MISMATCH (vision check): Washer caught in floodwaters, surrounded by debris — MISMATCH
+  !! MISMATCH (vision check): A scenic view of a flooded pier with debris and ca — MISMATCH
+  !! MISMATCH (vision check): A damaged house stands near a muddy river after a  — MIS
+  !! MISMATCH (vision check): A landscape showing mud, debris, and a lone boot i — MIS
+  !! MISMATCH (vision check): Erosion and debris visible along the dried riverbe — MISMATCH
+  -> flood_2_3.jpeg  [pexels/free]  Destruction in Mocoa, Colombia due to a severe mudslide 
+  IMG border_1: 'destroyed buildings flood damage town' [stock]
+  -> border_1_1.jpeg  [pexels/free]  Partially destroyed building in Mocoa, Colombia, illustr
+  !! MISMATCH (vision check): A village destroyed by an earthquake, showcasing d — MISMATCH
+  !! MISMATCH (vision check): Severely damaged urban buildings after a landslide — MISMATCH
+  -> border_1_2.jpeg  [pexels/free]  Remains of a building destroyed by a landslide in Mocoa,
+  !! MISMATCH (vision check): flood, road, locked, damage, nature, flood damage, — MIS
+  !! MISMATCH (vision check): flood, danube, ulm, catastrophe, destruction, road — MISMATCH
+  !! MISMATCH (vision check): flood, road, locked, damage, flood damage, destruc — MIS
+  !! MISMATCH (vision check): vintage, doll, hurricane harvey, ruin, damage, flo — MIS
+  !! MISMATCH (vision check): tree, tree damage, favor, storm damage, destructio — MIS
+  !! MISMATCH (vision check): children, bicycles, flood, flooding, student, anci — MISMATCH
+  !! MISMATCH (vision check): flood, hungary, budapest, river, sunset, water, da — MISMATCH
+  !! MISMATCH (vision check): fire, fire damage, domestic heating, catastrophe,  — MISMATCH
+  !! MISMATCH (vision check): biking, street, flood, city, bike, bicycle, bicycl — MIS
+  !! MISMATCH (vision check): A U.S. Marine Corps CH-46E Sea Knight helicopter f — MISMATCH
+  !! MISMATCH (vision check): FEMA - 35795 - Resident looks at a damaged road in — MISMATCH
+  !! MISMATCH (vision check): Train wheels damaged and buried by the 1889 Johnst — MISMATCH
+  -> border_1_3.jpg  [commons/by]  Train wheels damaged and buried by the 1889 Johnstown, P
+  IMG physics_1: 'physics equation chalkboard calculation' [stock]
+  -> physics_1_1.jpeg  [pexels/free]  Close-up of hand writing physics equations on a chalkboa
+  !! MISMATCH (vision check): A hand vividly writing complex mathematical equati — MISMATCH
+  !! MISMATCH (vision check): Detailed chalkboard displaying science diagrams an — MIS
+  -> physics_1_2.jpeg  [pexels/free]  Woman writing physics equations on a blackboard with boo
+  !! MISMATCH (vision check): A man solving complex mathematical equations on a  — MISMATCH
+  !! MISMATCH (vision check): to learn, mathematics, child, girl, formula, physi — MISMATCH
+  !! MISMATCH (vision check): formula, equation, physics, mathematics, calculati — MISMATCH
+  !! MISMATCH (vision check): science, physics, mathematics, graph, graphical, d — MIS
+  !! MISMATCH (vision check): math work, mathematics, formulas, calculation, tra — MISMATCH
+  !! MISMATCH (vision check): einstein, physicist, scientists, theory of relativ — MISMATCH
+  !! MISMATCH (vision check): math, blackboard, education, classroom, chalkboard — MISMATCH
+  !! MISMATCH (vision check): math, mathematic, mathematical, equation, infinity — MIS
+  -> physics_1_3.jpg  [pixabay/free]  book, read, college student, students, board, blackboard
+  IMG scientist_1: 'geologist scientist research desk' [stock]
+  -> scientist_1_1.jpeg  [pexels/free]  Scientist working with a microscope in a modern laborato
+  !! MISMATCH (vision check): A scientist using a microscope to analyze samples  — MISMATCH
+  !! MISMATCH (vision check): Scientist in lab coat with plants and microscope i — MIS
+  !! MISMATCH (vision check): Female scientist studying chemical structures on a — MISMATCH
+  !! MISMATCH (vision check): A focused scientist reads a book in a modern labor — MISMATCH
+  -> scientist_1_2.jpeg  [pexels/free]  Female scientist in lab coat with face mask and shield u
+  !! MISMATCH (vision check): scientist, molecular docking, female scientist, re — MIS
+  !! MISMATCH (vision check): laptop, apple, macbook, computer, browser, researc — MISMATCH
+  !! MISMATCH (vision check): laptop, apple, macbook, computer, browser, researc — MISMATCH
+  !! MISMATCH (vision check): man, writing, laptop, computer, write, studying, w — MISMATCH
+  !! MISMATCH (vision check): chemist, laboratory, analysis, chemistry, research — MISMATCH
+  !! MISMATCH (vision check): laboratory, analysis, chemistry, research, chemist — MIS
+  IMG debris_1: 'wet mud debris flow sediment' [stock]
+  -> debris_1_1.jpeg  [pexels/free]  Texture of a mud flow landscape in Beciu, Romania, with 
+  -> debris_1_2.jpeg  [pexels/free]  A riverbank erosion showing sediment patterns and debris
+  -> debris_1_3.jpeg  [pexels/free]  Detailed view of wet clay soil with a rippled surface, s
+  IMG glacier_lake_1: 'glacial lake himalaya turquoise'
+  -> glacier_lake_1_1.jpeg  [pexels/free]  Expansive view of a stunning Himalayan valley with a tur
+  -> glacier_lake_1_2.jpeg  [pexels/free]  A breathtaking aerial view of a turquoise lake surrounde
+  -> glacier_lake_1_3.jpeg  [pexels/free]  Majestic Himalayas with turquoise lake, snow-capped peak
+  IMG valley_1: 'himalayan river valley' [stock]
+  -> valley_1_1.jpeg  [pexels/free]  Breathtaking landscape of Himalayan mountains and windin
+  -> valley_1_2.jpeg  [pexels/free]  A serene mountain river winds through lush Himalayan val
+  -> valley_1_3.jpeg  [pexels/free]  Beautiful river flowing through a mountainous valley in 
+  IMG triveni_1: 'river border India Nepal plains' [stock]
+  !! MISMATCH (vision check): A stunning aerial shot showcasing irrigated farmla — MISMATCH
+  -> triveni_1_1.jpeg  [pexels/free]  Lush green fields and river landscape in Tulsi Chauda, N
+  -> triveni_1_2.jpeg  [pexels/free]  Tranquil countryside view of fields and river at dusk in
+  !! MISMATCH (vision check): A picturesque view of a river winding through a va — MIS
+  -> triveni_1_3.jpeg  [pexels/free]  Scenic view of Koshi River flowing through Barahakshetra
+  IMG rescue_1: 'relief aid cargo aircraft' [stock]
+  !! MISMATCH (vision check): A massive cargo is loaded onto an Antonov aircraft — MISMATCH
+  -> rescue_1_1.jpeg  [pexels/free]  Team unloading cargo from aircraft at Baikonur spaceport
+  -> rescue_1_2.jpeg  [pexels/free]  Maximus aircraft on tarmac in Sindh, Pakistan, with clea
+  -> rescue_1_3.jpeg  [pexels/free]  A volunteer unloads aid supplies from a van on a sunny d
+  IMG up_flood_1: 'Uttar Pradesh monsoon flood village' [stock]
+  -> up_flood_1_1.jpeg  [pexels/free]  Aerial view of boats moored in a flooded street in Varan
+  !! MISMATCH (vision check): Aerial perspective of a village submerged in flood — MISMATCH
+  -> up_flood_1_2.jpg  [pixabay/free]  turtle, tortoise, nature, reptile, grass, chambal river,
+  !! MISMATCH (vision check): silhouette, sunset, clouds, lucknow, uttar pradesh — MIS
+  !! MISMATCH (vision check): taj mahal, india, agra, uttar pradesh, building, m — MISMATCH
+  !! MISMATCH (vision check): taj mahal, mausoleum, agra, uttar pradesh, burial  — MIS
+  !! MISMATCH (vision check): taj mahal, mausoleum, agra, uttar pradesh, burial  — MISMATCH
+  !! MISMATCH (vision check): taj mahal, mausoleum, agra, uttar pradesh, grave,  — MISMATCH
+  !! MISMATCH (vision check): taj mahal, india, agra, uttar pradesh, building, m — MIS
+  !! MISMATCH (vision check): taj mahal, architecture, building, nature, agra, t — MISMATCH
+  !! MISMATCH (vision check): taj mahal, india, agra, tomb, mausoleum, uttar pra — MISMATCH
+  IMG barrage_1: 'river barrage gates India'
+  -> barrage_1_1.jpg  [commons/by-sa]  Dam Gates of Prakasam Barrage.jpg
+  -> barrage_1_2.jpg  [commons/by-sa]  Koshi Barrage 6288.JPG
+  -> barrage_1_3.jpeg  [pexels/free]  Monochrome shot capturing the powerful flow of water thr
+  IMG dam_1: 'small hydropower dam reservoir mountains' [stock]
+  -> dam_1_1.jpeg  [pexels/free]  A hydroelectric dam surrounded by lush green mountains u
+  -> dam_1_2.jpeg  [pexels/free]  Scenic view of a hydroelectric dam in Meo Vac, Tuyen Qua
+  !! MISMATCH (vision check): A breathtaking view of a dam amidst a serene alpin — MISMATCH
+  -> dam_1_3.jpeg  [pexels/free]  Powerful hydroelectric dam nestled in a rugged mountain 
+  IMG bihar_1: 'Bihar flood plains village water' [stock]
+  -> bihar_1_1.jpeg  [pexels/free]  Two men stand beside a traditional canoe on a flooded ri
+  -> bihar_1_2.jpeg  [pexels/free]  A rural island with simple structures surrounded by risi
+  !! MISMATCH (vision check): Children enjoying a swim in flooded waters in rura — MIS
+  -> bihar_1_3.jpeg  [pexels/free]  An elderly man in traditional attire works in a flooded 
+  IMG barrier_lake_1: 'landslide barrier lake mountain valley'
+  !! MISMATCH (vision check): Capture the breathtaking view of Moraine Lake with — MISMATCH
+  !! MISMATCH (vision check): A breathtaking view of rocky mountains with a tran — MISMATCH
+  -> barrier_lake_1_1.jpeg  [pexels/free]  Picturesque view of a dam nestled in rugged mountain lan
+  -> barrier_lake_1_2.jpeg  [pexels/free]  A dramatic cliff face under golden sunlight, with a pers
+  !! MISMATCH (vision check): Breathtaking view of an alpine mountain range with — MIS
+  -> barrier_lake_1_3.jpg  [pixabay/free]  backpacker, mountains, panorama, viewpoint, backpacking,
+  IMG rain_1: 'monsoon rain mountains himalaya' [stock]
+  !! MISMATCH (vision check): A bird sits on a wire against a backdrop of rain i — MISMATCH
+  !! MISMATCH (vision check): clouds, clouds over mountains, dark clouds, monsoo — MIS
+  !! MISMATCH (vision check): mountains, nature, landscape, mountain, hiking, su — MIS
+  !! MISMATCH (vision check): pied cuckoo, clamator jacobinus, wild birds of ind — MIS
+  -> rain_1_1.jpg  [pixabay/free]  arizona, sunset, monsoon, desert, storm, cloud, rain, th
+  !! MISMATCH (vision check): monsoon, monsoon banner, weather, season, nature,  — MISMATCH
+  -> rain_1_2.jpg  [pixabay/free]  lightning, storm, arizona, monsoon, lightning storm, blu
+  !! MISMATCH (vision check): mountains, summit, landscape, trees, forest, peak, — MIS
+  -> rain_1_3.jpg  [pixabay/free]  monsoons, monsoon, nature, rain, outdoors, india, travel
+  IMG phone_1: 'mobile phone alert message hand' [stock]
+  !! MISMATCH (vision check): Close-up of a smartphone displaying a fraud alert  — MIS
+  !! MISMATCH (vision check): Close-up of a hand holding a smartphone displaying — MIS
+  !! MISMATCH (vision check): Close-up of a smartphone displaying a bank alert n — MIS
+  -> phone_1_1.jpeg  [pexels/free]  A hand holding a smartphone inside a modern, bright room
+  -> phone_1_2.jpeg  [pexels/free]  Hand holding a smartphone displaying 'Stay Safe' over a 
+  -> phone_1_3.jpeg  [pexels/free]  Close-up of a hand holding a smartphone displaying a 'Wa
+  IMG hydro_1: 'hydropower plant river construction' [stock]
+  !! MISMATCH (vision check): Breathtaking image of a dam releasing water into a — MIS
+  skip (HTTPStatusError): turbine, hydropower, energy, power plant, hydropow
+  skip (HTTPStatusError): equipment, industry, power plant, handwheels, valv
+  skip (HTTPStatusError): hydropower plant, power plant, hydropower, water, 
+  skip (HTTPStatusError): lechfall, weir, lech, feet, waterfall, water, flow
+  skip (HTTPStatusError): paddle wheel, stole, turbine, metal, energy, hydro
+  skip (HTTPStatusError): water pipe, pressure pipes, hydropower plant, tube
+  skip (HTTPStatusError): turbine, turbines, hydropower plant, electro, elec
+  skip (HTTPStatusError): waterfall, victoria falls, spray, zambezi, flow, a
+  skip (HTTPStatusError): waterfall, black-and-white, water, waters, hydropo
+  -> hydro_1_1.jpg  [commons/by-sa]  Kalivaç hydropower plant construction site.jpg
+  !! MISMATCH (vision check): Chandler Falls, looking downstream, and downhill f — MIS
+  -> hydro_1_2.jpg  [commons/pd]  Building new Chandler Falls Power Plant, view showing in
+  !! MISMATCH (vision check): ARIZONA FALLS POWER PLANT, PLAT, 1913 - Arizona Ca — MISMATCH
+  -> hydro_1_3.jpg  [commons/pd]  Gorge Powerhouse early construction.tif
+  VID himalaya_dawn: 'himalaya mountains aerial dawn clouds'
+  !! MISMATCH (vision check): stunning aerial view of nepalese mountains at dawn — MISMATCH
+  -> himalaya_dawn_1.mp4  [pexels/free] 20s  stunning aerial view of ghandruk village in nepal 388258
+  VID mountain_road: 'mountain road himalaya village trucks'
+  -> mountain_road_1.mp4  [pexels/free] 20s  high altitude road construction in ladakh 38736816
+  VID seismo_v: 'seismograph needle recording data'
+  -> seismo_v_1.mp4  [pexels/free] 10s  a close up of a record player with a needle 25897437
+  VID glacier_v: 'glacier ice cliff aerial himalaya'
+  -> glacier_v_1.mp4  [pexels/free] 20s  breathtaking aerial view of alpine glacier crevasses 306
+  VID valley_v: 'steep river gorge valley aerial'
+  -> valley_v_1.mp4  [pexels/free] 20s  sahinkaya canyon 19049403
+  VID flood_v: 'muddy river flood torrent raging'
+  -> flood_v_1.mp4  [pexels/free] 20s  raging flooded stream in lush forest 37340358
+  -> flood_v_2.mp4  [pexels/free] 20s  rushing river overflow near seaside 36832923
+
+contact sheet -> out/qa/docfootage_nepalflood_sheet.png  (EYEBALL IT)
+80 new file(s). Next: build_doc_vo.py nepalflood --manifest-only && audit_scene_relevance.py nepalflood

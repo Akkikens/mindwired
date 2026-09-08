@@ -1,5 +1,559 @@
 # Topic queue (Akshay, 2026-07-12 — from YT Studio "Inspiration")
 
+## ⏰⏰ TIME-CRITICAL — nepalflood (**DimaagBatti**, Hindi) — PASS 2026-09-03
+### SHIP BY ~SEP 10. Validated on the HINDI field, not English.
+
+**Verdict: PASS — narrow, and ONLY in the explainer lane, not the news lane.**
+
+**Headline (Hindi):** Thirdpole live **492,611 v / 53,600 subs = 9.2:1**
+(2026-08-26) — "Tibet से Nepal तक तबाही | Nepal Flood Explained"
+https://youtu.be/bbJTlE-LmwA
+**Corroboration:** Drishti IAS 657,791 v / 124,000 subs = 5.3:1 (2026-08-28,
+Bihar/Gandak-Kosi) — but that channel is over the 100K line.
+**Hindi ceiling: 3-5M, decisively proven** — The Deshbhakt 4,966,516 · News18
+India 4,457,516 · DD News/Sudhir Chaudhary 3,459,900 + 1,098,069 · StudyIQ
+1,765,783 · UPSC Wallah 1,199,521.
+
+### 🎯 THE ARBITRAGE — this is the actual finding
+The monster outliers on this event are **all ENGLISH**: DT Civil Core 631,899 v /
+2,860 subs = **220:1** (Aug 31) · UnderTheHeadline 3,858,623 / 16,000 = **241:1**
+(Aug 28) · The Space Desk 1,212,146 / 27,800 = 43.6:1 · Hidden Compass 785,346 /
+23,200 = 33.9:1 · Faultline 64,944 / 744 = 87:1 (Sep 1).
+**The procedural-explainer format is proven to print at 200:1 — and NOBODY has run
+it in Hindi.** That is precisely the arbitrage DimaagBatti exists for.
+**Dhruv Rathee: ABSENT. Ravish Kumar: ABSENT.** The marquee Hindi long-form
+explainer slot is genuinely unclaimed (though coaching channels have partly eaten
+it — StudyIQ, UPSC Wallah, Adda247, Drishti).
+
+### ⏰ THE DECAY CURVE — why the deadline is real
+Hindi **news** layer, views by upload date: **Aug 26-28 peak** 4.46M / 4.97M /
+3.46M → **Aug 30-31 plateau** 4.73M / 1.18M / 817K → **Sep 1-2 fall** 361K / 108K
+/ 99K / 49K → **Sep 3-4 dead** 32K / 24K / 9.5K / 1.4K / **159**.
+Zee Bihar Jharkhand's Sep 4 Kosi upload got **159 views on 6.53M subs**. That
+layer is over — down 15-30x in six days.
+**BUT the explainer layer is a separate, LATER curve and is still rising** — DT
+Civil Core (Aug 31) 632K, Hidden Compass (Sep 1) 785K, Faultline (Sep 1) 65K on
+744 subs. **The mechanism-explainer wave peaks AFTER the news wave. That is the
+window.**
+
+### ⚠⚠ RIVER CORRECTION — THE KOSI FRAMING IS WRONG
+**The Icahn sweep recommended a "Nepal → Kosi → Bihar" hybrid. The research
+dimension overturns it: this flood did NOT go down the Kosi.**
+**Actual chain: Lhende Khola → Bhotekoshi → Trishuli → Narayani → GANDAK in
+India.** *"If the script says Kosi, it's wrong."*
+The Kosi evergreen videos (Way4U 5.33M etc.) are real demand for a **different
+river**. Do not weld this flood onto them — that is a factual error a Bihar
+audience will catch instantly.
+**The honest India hook is better anyway:** the peak surge reached **Triveni, near
+the Indian border, in about 7.5 hours** (Saswata Sanyal, ICIMOD). The water was at
+India's doorstep before lunch.
+
+### 🎯 SHIP THE HYBRID, NOT PURE NEPAL
+The India/Kosi/Bihar angle is the **stronger and evergreen** topic:
+- Way4U **5,330,881 v / 627,000 subs = 8.5:1**, uploaded **Sept 2024** — still the
+  top result on a 2026 Kosi query.
+- Zee Bihar/Khan Sir **4,457,516 v**, uploaded **July 2021**.
+- StudyIQ "Why Bihar Could Face a Massive Flood From Nepal" 1,765,783 v.
+**Nepal alone is a spike with a two-week half-life. Kosi/Bihar pays for years.**
+**Structure (CORRECTED):** the collapse mechanism (fresh hook, proven 200:1
+format) → Lhende Khola → Bhotekoshi → Trishuli → Narayani → **Gandak** → the
+7.5-hour transit to the Indian border → then widen to the STRUCTURAL India story,
+which is evergreen and safe: **Nepal supplies ~40% of the Ganges' annual flow**;
+three-quarters of north Bihar is officially flood-prone; the Kosi, Gandak, Bagmati
+and Kamala all rise in Nepal.
+**🎯 And the debunk a Hindi audience will actually value:** the claim that *"Nepal
+releases water into India"* is **FALSE** — Nepal's largest storage dam, Kulekhani,
+holds **under 0.1 km³**, so *"there's nothing to release"* (Sanyal). **The Kosi and
+Gandak barrages are operated by INDIA.** That is the myth-killing beat that earns
+the evergreen tail without the river error.
+
+### ⚠ ACCURACY GATES — the mainstream Hindi field is already fabricating
+- **The cause is genuinely CONTESTED. Do NOT state one mechanism as settled.**
+  Webdunia: "ना बादल फटा, ना ग्लेशियर झील टूटी" · CNBC Awaaz: "Glacier Lake नहीं"
+  · CNN-News18: "Glacier Collapse, Not Earthquake" · DNA cites Chinese 3D
+  satellite mapping. **Attribute ("वैज्ञानिकों के मुताबिक…") and show the
+  competing explanations — that ambiguity is good explainer material.**
+- **⛔ Fabricated/inflammatory claims circulating in MAINSTREAM Hindi outlets** —
+  do not repeat: "नेपाल बाढ़ में 320 भारतीय बहे?" (Oneindia) · "Glacier Burst के
+  पीछे China का हाथ?" (News18 UP) · "China बेनकाब?" (NDTV India).
+- **Farm-template pair** — Hanta Live (193 subs) and RP News Time (884 subs)
+  posted near-identical titles; their 36-42:1 ratios are **artifacts, not demand.
+  Do not cite.**
+- AI-slop graveyard already forming (Mystery & History 20 v, SAMAR CINEMATIC AI
+  291 v self-labelled AI, Vibe Express 36 v).
+
+### ⚠ HONEST CAVEAT ON THE PASS
+It rests on **a single clean Hindi outlier** (Thirdpole 9.2:1). **The 200:1 format
+proof is English.** This is a bet that a Dhruv-style procedural Hindi explainer
+transfers — reasonable given the 3-5M Hindi ceiling and Rathee's absence, but **a
+bet, not a demonstrated Hindi small-channel result.**
+
+### Window
+- **Pure Nepal GLOF framing: ~1 week. Ship by Sep 10, ideally Sep 6-8.**
+- **Nepal→Kosi→Bihar hybrid: indefinite.** Ship the hybrid this week and get both.
+
+## DISCOVERY SWEEP 2026-09-03 — 39 format-shaped queries, ~950 videos deduped
+
+Searched the GRAMMAR that wins in this niche rather than named topics. Channel-
+history screened every top row to filter farms. Numbers verbatim from yt-dlp.
+
+### 🎯 #1 CANDIDATE — TON 618 (the largest known black hole)
+**NullSpace — 2,211,513 v / 50,700 subs = 43.6:1 (2025-10-29)**
+https://youtu.be/i3GIzBzNAAU
+**Why this is the strongest signal in the whole sweep, and it is not the ratio:**
+NullSpace has **only 4 uploads, all "| 4K" cinematic space docs** (Saturn,
+Voyager, Alpha Centauri, TON 618). **That is mindwired's exact format, on a
+50K-sub channel, pulling 2.2M.** It is format-level proof, not just topic demand.
+Recognition: low for the name, **high for "the biggest black hole ever found" —
+lead with the superlative, never the catalogue number.** Kurzgesagt's 2021
+size-comparison (32.6M) exists, but the outlier proves appetite for a
+single-object deep dive survives it.
+⚠ Check `src/attractor` / the `QUIZ-attractor.md` planning doc before queuing —
+this repo already has attractor/TON-618-adjacent work; confirm it has not shipped.
+
+### #2 — The Edmund Fitzgerald (Lake Superior, 1975)
+June First **1,223,610 v / 100,000 subs = 12.2:1** (2025-01-08)
+https://youtu.be/QQO5-TSKEdA — legit weather/disaster-analysis channel (subs sit
+exactly on the 100K line). Corroboration: Maritime Horrors 5,652,047 v / 286,000
+subs = 19.8:1 (over the sub cap, but shows the topic carries).
+Real competing hypotheses (hatch covers vs shoaling vs three-sisters wave), an
+intact wreck nobody is allowed to dive, and a song everyone knows. Recognition
+high in North America, moderate elsewhere. No mega-channel owns it.
+⚠ Farms are now circling ("underwater drone reached the wreck" — QUANTARA
+1,865,936 v / 48,100 subs, cite as demand only, never as a model). **Doing it
+straight is the differentiator.**
+
+### #3 — UVB-76 "The Buzzer" (the Russian station that has never gone silent)
+Enigmoth **453,822 v / 2,910 subs = 156.0:1** (2026-02-20)
+https://youtu.be/Y776e3Eeu9Q — a real small creator, 5-video channel, this is its
+breakout. Pure signal-mystery grammar, **audio you can play under the visuals**,
+and an active present-day thread (still broadcasting). The search returned a swarm
+of sub-1K uploads and **no recent big-channel hit — classic underserved signal.**
+Recognition moderate; the hook must carry the noun.
+
+### #4 — The bottom of Lake Tahoe (first full-depth footage, 2025)
+Anchor: ABC10 "First-ever video from bottom of Lake Tahoe released" 177,697 v
+(2025-09-06). Optic Expedition 2,453,056 v / 221,000 subs = 11.1:1 (2026-05-15).
+Four channels between 150K and 2.4M within four months on genuinely new data.
+⚠ **The traffic is currently captured almost entirely by farms with fabricated
+"terrifying" claims** (Beyond discovery 255,084 v / 4,800 subs — its channel runs
+"Grok AI asked who built the pyramids"). **An honest cinematic version — Tahoe
+Tessie folklore plus the actual 2025 survey findings — is the open gap.**
+
+### Ranked lower / conditional
+- **Nepal 2026 glacial superflood** — Behind the Story 479,374 v / 569 subs =
+  **842.5:1** (2026-08-31), The Watchroom 163,371 v / 5,420 subs = 30.1:1. Live
+  disaster mystery with a landslide dam still holding water. **News-shaped and
+  decaying weekly — only viable if shipped inside 2-3 weeks. Otherwise skip.**
+- **What drills have pulled up from deep time** — Extinct Enzo 465,173 v / 11,800
+  subs = 39.4:1 (2026-06-05). The Kola grammar without Kola (which is excluded).
+  Format-driven, no single noun — needs one anchor find as the thumbnail object.
+- **Lake Baikal bottom** — Uncharted Depths 161,323 v / 28,700 subs = 5.6:1
+  (2026-07-28). Borderline ratio; rank below the above.
+- **Chang'e-6 far side of the Moon** — the 41:1 row is a hype channel; mid-size
+  space channels already cover it. Weaker than 1-4.
+
+### Patterns worth knowing, NOT proposing
+- **"They opened a cave sealed for 30,000 years"** — Vault of Discovery 772,361 v
+  / 12,700 subs = 60.8:1. **This is an AI-slop title template** — 20+ near-
+  identical uploads, farm channels, fabricated claims. **The "sealed chamber"
+  grammar is real demand; the specific claims are invented. Usable only as a title
+  pattern on a TRUE story.**
+- **Octavius ghost ship** — 964,780 v / 93,800 subs = 10.3:1, legit channel — but
+  the Octavius is a legend with **no primary source**; the evidence method would
+  fail it.
+- **3I/ATLAS** — demand real but every winner is above the sub cap; the small-
+  channel swarm gets nothing. Saturated by mid-size space channels.
+- **Oroville Dam 2017** — 122,606 v / 24,300 subs = 5.0:1, right at threshold.
+  Hold as a backup.
+
+### ⛔ SEARCHED, CAME BACK EMPTY (negative results — do not re-sweep these soon)
+Wow! signal · The Bloop / unexplained ocean sounds (only stale mega-channel hits)
+· Mary Celeste (~20 fresh uploads all under 300 views) · Flannan Isles ·
+Centralia · Kalachi sleeping village · Helios 522 (Mentour/Mayday own it) · lost
+nuclear bombs · Lake Nyos · Batagaika crater · zombie satellites · vanishing
+stars · North Sentinel Island (owned by 1M+ channels) · Chilean miners · Darvaza
+· Johnstown/St Francis dams · Great Lakes ghost ships other than the Fitzgerald.
+
+### ⛔ ANTARCTICA UNDER-THE-ICE PIVOT — KILLED before it was queued
+The Lake Vostok FAIL threw off an "under Antarctica's ice" umbrella pivot signal
+(see below). **This sweep kills it: demand is massive but EVERY winner is a
+200K+ sub channel** (New Nature 4,193,292 v / 222,000 = 18.9:1, 2026-01-30).
+Mega-saturated at the top, nothing for a small channel. **Do not queue it.**
+
+## SWEEP BATCH 2026-09-03 (run during the biosphere2 render) — 2 FAIL, 2 PASS-COND
+
+Live yt-dlp sweeps, 4 queries x 25 per topic. Ratios point-in-time — recheck at
+production start.
+
+### ⚠ CORRECTION — the Dyatlov 71.7:1 headline is RETIRED as unverifiable
+The 2026-08-14 entry below records Dyatlov's headline as **71.7:1 @ 397K views
+(Nov 2025)**. A live re-check on 2026-09-03 searched **160 results across 6
+queries and could not find that video at all** — no Nov-2025 upload anywhere near
+397K exists. Implied channel size was ~5.5K subs; the closest live analog is a
+Feb 2026 upload at 378K from a 37.1K-sub channel, which is a different video.
+**Treat 71.7:1 as unverified and do not cite it again.** This is the second
+queue entry to die on a live re-check (after Kola Superdeep's 41x sub misread) —
+the lesson holds: compute from live output, never carry a number forward.
+
+### ⭐ dyatlovpass — PASS-WITH-CONDITIONS (re-validated 2026-09-03)
+Live headline: **First Humans 536,218 v / 37,100 subs = 14.5:1 (2026-08-06)**
+https://youtu.be/0X6MxjN2YC4 — plus the same channel at **378,122 v = 10.2:1**
+(2026-02-07). Independent corroborator: New Discovery 137,265 v / 43,700 subs =
+3.1:1 (2026-08-16) — barely clears, and its title is a near-clone of a 625K
+video, hence conditions not a clean PASS. Ceiling: BuzzFeed Unsolved 10.7M,
+LEMMiNO 8.4M, and FRESH — Brew 1.83M (2026-05), Watcher 1.75M (2026-01),
+JRE/MrBallen 1.17M (2026-08).
+**Recognition 2/3** — mystery fans know the name, cold scrollers don't. Titles
+that pull avoid the proper noun: "Russia's Deadliest Mystery", "After 67 Years…
+Solved", "9 hikers". Lead with that, never "Dyatlov".
+**Currency MODERATE.** Spine is still the 2021 Gaume/Puzrin slab-avalanche paper.
+Genuinely new: Feb 2026 handwriting finding (autopsy corrections made by
+investigator Ivanov, not the forensic expert); Mar 2026 procedural analysis;
+Nov 2025 dendrochronology; **Jun 5 2026 petition to reopen the case**; 7th
+All-Russian Dyatlov conference Jun 2026.
+**SATURATION: the generic lane is CLOSED** — 2026 "What Really Happened"
+uploads at 26/44/11/8/29/21/87/9/10/58 views. Demand flows ONLY to big
+personalities and to the "modern science / concrete mechanism" wedge.
+**⛔ CONTENT-FARM CONFIRMED WITH A SOURCE:** the "leaked KGB files 2026" story is
+FAKE — traced to infinityexplorers.com (Apr 2026), claiming 148 pages leaked
+from a Yekaterinburg archive: no archive reference, no named outlet, no named
+reviewers, no documents. dyatlovpass.com's update log has zero mention. The
+"AI/finally solved" cluster is its delivery vehicle — The Secret (625,760 v) and
+New Discovery are in it. **Never source from that cluster; never use the KGB
+claim in a script.**
+
+### ⭐ antikythera — PASS-WITH-CONDITIONS (validated 2026-09-03)
+Headline: **Spencer Connor 555,634 v / 6,160 subs = 90.2:1 (2023-03-27)**
+https://youtu.be/mTsCx0E7YkA (meets the bar, but maker-build content, 2.5 yrs
+old). Fresh format comp: The Curious Mind 1,629,483 v / 189,000 subs = 8.6:1
+(2025-10-06). Corroborator: Darwin College 422,668 v / 34,400 subs = 12.3:1.
+**Ceiling outstanding:** BBC Global **12,537,107** (15.8:1), Stanford 8,999,777,
+**fern 6,594,423 (2024-10)** — fern being a channel this repo studies as a
+format model — nature video 3.57M.
+**Recognition 1/3 — the bridge is mandatory and the evidence is unusually
+clean.** Every winner omits the proper noun: fern's 6.6M title is "The ancient
+computer that simply shouldn't exist"; TED-Ed omits it; HISTORY uses "Ancient
+Greek Computer Hidden in Shipwreck". **Lead with "2,000-year-old Greek
+computer" / "the computer pulled from a shipwreck"; keep "Antikythera" as the
+second clause for search intent.** Thumbnail: the corroded Fragment A gear — the
+one visually recognisable asset.
+**Currency MODERATE, but the differentiator is excellent:** a **2025
+gear-tolerance simulation paper suggesting the mechanism may have jammed or
+never worked reliably** — and that angle is ABSENT from YouTube. Also live: the
+2024 Glasgow LIGO-statistics calendar-ring finding (354/355 holes = lunar, not
+Egyptian solar), MPIWG inscriptions project 2025-26.
+**⛔ BANNED ANGLES (already owned / already flattening):** "the computer that
+shouldn't exist" (BBC, fern) and "AI rebuilt the missing half" (Curious Mind +
+a second copycat wave already dying).
+**⚠ FACT TRAP:** the April 2026 "50 artifacts / bronze throne armrest" story
+circulating on dailygalaxy **recycles the 2015 finds** — not new. The 2025 dive
+season (23 May-20 Jun) concluded the five-year programme, so there is no
+guaranteed 2026 dig.
+Pseudo-archaeology inflates apparent demand by ~3.8M views (JRE/Hancock 3.36M,
+HISTORY UnXplained) that we cannot honestly serve — but the top of the table is
+legitimate science outlets, so the straight-science audience is proven
+independently.
+
+### KILLED 2026-09-03 — Lake Vostok: FAIL
+Only headline-bar outliers are **7-8 years stale** (TritoxHD 193,960 v / 8,390
+subs = 23.1:1, 2018; Jinzo X 114,746 v / 11,500 = 10.0:1, 2019). **No fresh
+video clears the bar.** Ceiling proof FAILS on the exact subject — every 1M+
+video is a generic "under Antarctica's ice" umbrella (RealLifeLore 11.4M, Cleo
+Abram 9.1M) where Vostok is one segment; best exact-subject big-channel result
+is only 286,421.
+**Saturation severe:** mid-size channels at 189K-1.14M subs pull only 3K-12K
+views on this exact title pattern; the fresh field is 455/176/227/161/182 views.
+**The packaging finding is the real lesson:** every high performer deliberately
+keeps "Vostok" OUT of the title. Channels that put "Lake Vostok" in the title
+are the ones dying.
+**→ PIVOT SIGNAL (unvalidated):** the *umbrella* "what's under Antarctica's ice"
+is very much alive — New Nature **4,193,270 v / 222,000 subs = 18.9:1
+(2026-01-30)**, Cleo Abram 9.1M (2026-05), plus a fresh small-channel signal at
+Documentary Empire 63,734 v / 12,200 subs = 5.2:1 (2026-08-20). Same
+contamination-row mechanic that produced Venera and Point Nemo. **Needs its own
+sweep before it can be queued.**
+
+### KILLED 2026-09-03 — Carrington Event / solar superstorm: FAIL
+Ceiling real but stale (Fascinating Horror 3,267,284 v 2021; Why Files 3,142,172
+v 2022; SpaceRip 1.15M 2015). **No sub-100K-sub channel has posted 100K+ at 5:1
+in four years** — best small-channel result is 37,487 views (History Sucked,
+17.9:1, 2025-10).
+**The finding that matters: solar-max currency is REAL but the demand flows to
+ALERTS, not to the story.** Reactive channels riding NOAA watches ("THREE Solar
+Storms Hitting This Week") take the fresh views; honest Carrington-history
+explainers get 30-40K. One channel proves it directly — its alert video got 28K,
+its Carrington-history video got 2.5K.
+Beneath that, an **18-upload "What If a Solar Storm Hit Earth" graveyard**
+(Jun-Sep 2026, 0-316 views each).
+Deliberately excluded from demand proof: Stefan Burns' 607K/560K/439K videos
+push a solar-storms-trigger-earthquakes framing that is not honestly servable —
+counting them would have flipped this to a false PASS.
+**Only defensible revisit:** a specific under-told sub-story (the July 23 2012
+near-miss CME, or the 1989 Québec blackout), re-validated on its own nouns.
+
+---
+
+## ⭐⭐⭐ NEXT — biosphere2 (**mindwired**), PASS 2026-09-03 — displaces pointnemo
+
+**"Biosphere 2 — 8 people sealed in a glass world for 2 years."** Second batch from
+the same external AI idea tool (3 FAIL, 1 PASS). Live sweep 2026-09-03, 4 queries
+x 25. **This is the strongest headline outlier the channel has validated since
+Challenger (605:1), and unlike that one it is FRESH.**
+
+**Headline outlier — extreme class (100:1+), 4 months old, verified twice:**
+- **Doomed Archive, 1,254,934 v / 2,490 subs = 504.0:1 (2026-05-13), runtime
+  8m16s** — "8 People Sealed Themselves Inside a Glass Dome for 2 Years. It Didn't
+  Go as Planned — Biosphere 2" https://youtu.be/vcs_3uO3hHU
+  (re-fetched individually to confirm the row was not a parse artifact)
+
+**Corroboration (four independent, all sub-1K-sub channels):**
+- Juan Yescas, 85,657 v / 92 subs = **931.1:1** (2016-05 — stale, support only) https://youtu.be/7OOimbkvCl4
+- Jack Bristow, 18,763 v / 163 subs = **115.1:1** (2023-11, a 1h55m doc) https://youtu.be/qUxC1lcak2Q
+- BiosphereFoundation, 79,748 v / 824 subs = 96.8:1 (2015-10) https://youtu.be/w8S5F1K86cY
+- Institute of Ecotechnics, 36,513 v / 423 subs = 86.3:1 (2015-09) https://youtu.be/3O4-_4OYQ-c
+
+**Ceiling proof, exact subject:** The Good Stuff, **2,507,576 v** (2015-10,
+243,000 subs) https://youtu.be/-yAcD3wuY2Q — plus Sidetrack Adventures 570,182 v
+(2026-01) and Our Curious Past 22,718 v @ 2.5:1 (2024).
+
+**Recognition score: 2/3 — bridge binding, but it is the CLEANEST bridge this
+channel has ever had.**
+1. Name test: the proper noun "Biosphere 2" fails on its own. **But the sweep hands
+   us the bridge verbatim** — the 1.25M winner never leads with the name, it leads
+   with "8 People Sealed Themselves Inside a Glass Dome for 2 Years." That is a
+   self-describing premise requiring zero prior knowledge. Strictly better than the
+   Ötzi bridge. **The title must be built on the premise, never the proper noun.**
+2. Mainstream footprint: YES. 1991 global news cycle, the Bannon takeover
+   (recurring political coverage), Neon's "Spaceship Earth" (2020), "Bio-Dome".
+3. Alive right now: YES, strongest in the batch — a 1.25M breakout four months ago
+   plus a live cluster of 2026 attempts.
+
+**Currency filter (Q4): MODERATE — the honest weak spot.** The 1991-94 mission is
+a closed story; there is no open investigation. Mitigants: the facility is alive
+and running active climate experiments under the University of Arizona, and
+"Spaceship Earth" revived it in 2020. **The empirical counter-evidence is decisive
+though** — a 1.25M-view breakout on a 2,490-sub channel in May 2026 proves the
+subject does not read as dead, whatever the currency heuristic says. Log this as a
+deliberate exception and measure it.
+
+**Ceiling class: mid-tier**, bridged toward giant-name by the premise.
+**No wave-calendar date** — ships on craft, not timing. (Note for the calendar:
+Sept 26, 2026 is the **35th anniversary of the 1991 closure**. That is three weeks
+out and is a genuine, if minor, wave to aim at.)
+
+**Saturation — read this carefully, it is NOT the rogue-planets pattern.** There is
+a fresh farm cluster (Stellar Theory 88 v, Vantora 335 v, Fiasco Lore 58 v, Capital
+Mysteries 34 v, Aeonn 21 v, WhatOnEarth 150 v, Briefcase 30 v — all 2026, all 1-15
+sub channels). Rogue planets had ONLY that cluster, which is why it died. Biosphere
+has the cluster **AND a 1.25M breakout in the same window** — the farms simply lack
+distribution; the ceiling is live. Mid-size attempts do underperform though
+(MonteLago 5,600 v @ 1.7:1, 2026-07), so the wedge still has to be real.
+
+**FOOTAGE: PROBED OK 2026-09-03 (Commons API) — this is the topic's big advantage
+over pointnemo, which has almost no footage of itself.** Commercially usable,
+high-resolution, and the structure still physically exists:
+- `File:Biosphere 2, Tucson, Arizona LCCN2010630699.tif` — **7240x5433, PUBLIC
+  DOMAIN** (Library of Congress / Carol Highsmith) — hero plate
+- `File:Biosphere 2.jpg` 4369x2913 CC BY-SA 4.0; `File:Biosphere Panorama.jpg`
+  4608x3072 CC BY-SA 4.0; `File:Biosphere 2 Architecture.jpg` 4608x3072 CC BY-SA 4.0
+- `File:Biosphere2 Inside big.jpg` 1024x768 PUBLIC DOMAIN (interior)
+- `File:Biosphere 2 - 1998 a.jpg` / `- 1998 e.jpg` PUBLIC DOMAIN
+- `File:Biosphere 2 - Arizona.jpg` 5312x2988 CC BY 2.0
+Still owed: **motion** footage for the CLAUDE.md first-30s real-video rule (stills
+alone violate it), and the 1991 news-archive material is likely news-org owned —
+treat as describable-not-showable until probed, same as the AI171 lesson.
+
+**✅ CHANNEL DECIDED 2026-09-03: mindwired** (Akshay). Superseded note below, kept for the reasoning trail:
+
+**~~⚠ CHANNEL DECISION REQUIRED BEFORE THE FIRST RENDER.~~** This is a closed-system
+engineering failure driven by human psychology and hubris — that is **Black Box
+Breakdown's** lane (OceanGate / Thai Cave grammar) at least as much as mindwired's
+space lane, and icahn-validate Step 0 says weight toward Black Box when either
+channel could take it. The "Earth-based space mission" framing is the only thing
+pulling it toward mindwired. Akshay decides.
+
+**Sensitivity gate: FIRES (living parties).** All eight crew members are living and
+several are public figures (Jane Poynter, Taber MacCallum, Mark Nelson, Linda Leigh),
+as is Steve Bannon. The crew's split into two factions, the alleged sabotage
+(the airlock opening, Jan 1994), and the oxygen-drop cause are all **contested and
+personally attributed** — every causal and character claim must be
+attributed-never-asserted and tracked in `docs/planning/CLAIMS-biosphere2.md`.
+No invented dialogue. Quote only what they said on record.
+
+**PACKAGING GATE: CLEARED 2026-09-03 (ctr-engine Run A).** Winning title
+**"8 People Sealed In. The Oxygen Kept Vanishing."** (46 chars, 8.75/10 avg —
+curiosity 9 / first-3-words 9 / payoff honesty 9 / mobile 8). Alternates:
+"8 People. 2 Years. The Air Kept Disappearing." (45) / "The World They Built
+Started Suffocating Them" (45). The bridge holds — every candidate leads with the
+premise ("8 People", "Sealed"), never with the proper noun, and none of them
+resolves the mystery. Thumbnails: **A** the glass lattice from inside (NASA eClips
+PD frame), **B** the Lung (File:Biosphere 2 Lung, 2-25-17.jpg, CC BY-SA 4.0 —
+strongest 170px squint test but not confirmed in the motion footage, so it carries
+a first-30s payment risk), **C** the ziggurat at dusk (LCCN2010630699.tif,
+7240x5433 PUBLIC DOMAIN). All three assets probed OK. Full package in memory
+`icahn-biosphere2`.
+
+**MOTION PROBE: CLEARED, with one limit.** `fetch_footage.py` found exactly one
+real motion source and it is PD — **NASA eClips "Launchpad: NASA and Biosphere 2"**
+(archive.org/details/LaunchpadNasaAndBiosphere2), **372.7s HD h.264**. Confirmed by
+eyeball: exteriors, the glazing lattice from inside, interior biome, ziggurat. That
+satisfies the first-30s real-motion rule. **Limit: it is modern-era facility
+footage — we have the building in motion, NOT the 1991-94 crew.** Mission-era
+material is almost certainly news-org/Neon-owned: describable, not showable, until
+a human clears it. Broader archive.org sweeps returned only word-match noise; do
+not expect a second motion source. Confirm the NASA-eClips/NIA co-production PD
+status (2 min, human) before it carries the cold open.
+
+Ratios point-in-time (2026-09-03) — recheck at production start.
+
+## KILLED at the Icahn gate 2026-09-03 (round 2) — the other three of the batch
+
+- **Chimpanzee astronauts (Ham & Enos): FAIL, and self-cannibalizing.** Zero fresh
+  demand — the only real rows are 17 and 9 years old (PopeFlores 147,827 v / 345
+  subs = 428.5:1, **2009**; WowList 290,252 v / 1,930 subs = 150.4:1, **2017**, and
+  that one is the *general* animals-in-space topic). Freshest exact-subject row is
+  TFR at **33 views** (2025-09). Ceiling is huge but stale (Mr Scientific 21.7M,
+  2018). **Decisive: we already shipped this.** Ham & Enos are a named chapter at
+  6:26 of the spaceanimals episode, and Enos already has his own Short ("This Chimp
+  Was Shocked 76 Times for Being Right"). A dedicated episode competes with our own
+  catalogue for a demand pool that no longer exists.
+- **Lunar colony first-48-hours disaster: FAIL.** Headline bar unmet — no
+  sub-100K-sub channel clears 100K views at 5:1+. Best exact-subject row is Cosmic
+  Sketchlab 32,423 v / 1,410 subs = 23.0:1 (2026-02): fresh and a good ratio, but
+  the absolute volume is a third of the bar. The niche is a crowded mid-band where
+  everyone lands at 10-90K (Mystral 91,631 v @ 3.0:1; Still Science Lab 24,412 v @
+  2.0:1; Simplify Dude 11,022 v @ 1.8:1; Night Science 81,520 v @ 1.4:1; Scale
+  Fantasy 231 v). **And the million-view ceiling belongs to the OPTIMISTIC framing,
+  not the failure framing** — The Space Race "How NASA Will Build A City On The
+  Moon" 3,906,421 v (2025-09). Sweep was also heavily contaminated (Eddie Izzard
+  comedy at 4753:1, Space Engineers gameplay, JRPG essays) — discount accordingly.
+- **Van Allen belts, re-pitched as "Why NASA Actually Stopped": FAIL — same
+  evidence as this morning, no re-sweep warranted.** The morning sweep already
+  included the `apollo van allen radiation` query the reframe depends on. The
+  Apollo-vs-Artemis gap framing does not create demand that is not there: only
+  headline is 2008, every fresh row is dead (456 v / 68 v / 23 v / 8 v), and the
+  live fresh demand is moon-hoax conspiracy traffic. See the round-1 entry below.
+
+---
+
+## KILLED at the Icahn gate 2026-09-03 — the 4-topic "AI idea-tool" batch (3 FAIL, 1 pivot)
+
+Four topics arrived from an external AI idea generator (comment-mining framing).
+Live yt-dlp sweeps run 2026-09-03, 4 queries x 25 each per topic. **Three FAIL.**
+
+- **Van Allen belt crossing: FAIL.** Only headline is 18 years stale (NeoArawak
+  107,240 v / 202 subs = 530.9:1, **2008-06-07**). Every fresh exact-subject row is
+  dead: Core Hidden Files 456 v (2026-03), Cipher Hub 23 v (2026-06), Station Null
+  68 v (2026-02), Real or Fake 8 v (2026-03), Mars Chronicles 241 v (2026-02).
+  Ceiling proven but old (Curious Droid 2,177,104 v @ 1.9:1, 2017; Vintage Space
+  873,367 v, 2017; Dave McKeegan 319,157 v, 2024). **Two extra disqualifiers:**
+  (a) the live fresh demand is moon-hoax conspiracy traffic (Joe Rogan/Bart Sibrel
+  clips, "NASA Doesn't Want You to Know"), so serving it honestly = a debunk, which
+  collides head-on with the 2026-09-01 title-stance rule (a title must not resolve
+  the mystery); (b) the artificial-radiation-belt material overlaps the already
+  SHIPPED Starfish Prime episode ("The Day America Nuked Space",
+  CLAIMS-starfishprime.md L113/L124).
+- **Rogue planets: FAIL.** No headline at the bar. Top ratios are noise on trivial
+  volume (User9024 10,415 v / 79 subs; a Doomsday-episode rip) or contamination
+  (TV-Quantum Universe 20,052,507 v / 164,000 subs = 122.3:1 is a 2021 documentary
+  BOXSET, not the exact subject). Real fresh band tops out at 3.5-7.1:1 on 20-60K
+  views (PORTAL X 60,066 v @ 7.1:1 but that's Universe Sandbox gameplay; Theories
+  Before Sleep 23,349 v @ 6.9:1; Curio 23,756 v @ 6.5:1; Science Hub 23,746 v @
+  3.5:1). Ceiling exact-subject is stale (SEA "The Loneliest Planet" 1,589,734 v,
+  2019). **Decisive: the fresh field is a sleep-doc content-farm graveyard** —
+  Veiled Scripture 20 v, AstroTales 57 v, Lumora 86 v, COSMIC IF 2 v, The Void
+  Speaks 4 v, What If Space 8 v, all Aug-Sep 2026. That is the Kola "wave already
+  broke" pattern verbatim. Recognition ~1/3: "rogue planet" is not a household noun.
+- **Boeing Starliner: FAIL — re-confirms the 2026-08-16 kill.** Zero sub-100K-sub
+  rows at 5:1+ with real volume. Best real rows are all >100K-sub channels or old:
+  I Need More Space 1,351,768 v / 113,000 subs = 12.0:1 (**2020**); The Space Race
+  3,292,235 v / 859,000 subs = 3.8:1 (2024). Post-report incumbents only: Scott
+  Manley 696,295 v @ 0.4:1 (2026-02). Top "ratios" are junk (110 v / 5 subs).
+  Story emotionally closed Mar 2025. **Do not requeue.**
+- **ISS deorbit / Point Nemo: FAIL as framed, PIVOT SIGNAL on the PLACE.** Every
+  ISS-deorbit-labelled row is dead (Hewitt lane 144 v, True Cosmic Tales 14 v,
+  Dissect 48 v, Toni TheTechSloth 48 v, B Experiment 2,546 v; Logictive 169,283 v
+  @ 1.6:1). The pull in that sweep belongs to **Point Nemo as a place** — Chris
+  Brown Explores "Visiting Point Nemo" 1,458,695 v / 29,900 subs = **48.8:1**. Same
+  contamination-row mechanic that produced the Venera pivot on 2026-08-16.
+  → dedicated sweep below.
+
+## ⭐ PIVOT — pointnemo (mindwired), PASS-WITH-CONDITIONS 2026-09-03
+
+**"Point Nemo — the spacecraft graveyard at the loneliest place on Earth."**
+Earth/ocean-mystery lane (the 2026-08-20 widening), with the 2031 ISS deorbit as
+the payload chapter, NOT the title. Dedicated sweep, 4 queries x 25, 2026-09-03.
+
+**Headline outliers (both clear the CLAUDE.md bar):**
+- Open Atlas, **182,218 v / 1,270 subs = 143.5:1** (2024-10-23, "Why Point Nemo Is
+  the Strangest Place on Earth") https://youtu.be/N6FO4XiIfEk
+- Chris Brown Explores, **1,458,695 v / 29,900 subs = 48.8:1** (2024-06-08,
+  "Visiting Point Nemo") https://youtu.be/9I_pgS6-suc
+
+**Corroboration (independent):**
+- Universal Facts And Mysteries, 44,579 v / 963 subs = 46.3:1 (2023-11-07) https://youtu.be/NTqhgMBRabc
+- Cal Sinclair, 49,752 v / 1,150 subs = 43.3:1 (2020-08-02) https://youtu.be/mkQbNLv2MlM
+- **Nature Vault, 45,609 v / 5,240 subs = 8.7:1 (2025-10-03)** — the freshest
+  meaningful row, 11 months https://youtu.be/nYhOCtsjk4k
+- Jojo Discovery, 75,157 v / 13,500 subs = 5.6:1 (2021-06-24) https://youtu.be/nXwlBweAJf8
+- This Day In History (Mir crash, adjacent), 40,386 v / 5,710 subs = 7.1:1 (2019) https://youtu.be/RBR6AqP9YVk
+
+**Ceiling proof, exact subject:** The Ocean Race, **1,075,780 v** (2023-03-22)
+https://youtu.be/QAOMtCzLKWE — plus Chris Brown's own 1.46M and Dark Space
+349,923 v (2022). Deliberately discounted: the "most remote places on Earth" 4K
+travel-compilation rows (Travpedia 18.1M, New Travel Insight 3.5M/3.0M, Top Travel
+6.1M) — adjacent-genre contamination, not topic demand.
+
+**Recognition score: 2/3 — conditional greenlight, recognition bridge BINDING.**
+1. Name test: **NO.** "Point Nemo" is not a household noun. The bridge is the
+   recognized element — "the loneliest place on Earth" / "where spacecraft go to
+   die" / the ISS itself. Hand this to ctr-engine explicitly; the bare proper noun
+   must never carry the title alone.
+2. Mainstream footprint: YES-ish. Recurring international press, the Bloop, the
+   Lovecraft/R'lyeh association, standing coverage of the 2030-31 ISS retirement.
+3. Alive right now: YES, marginally — Nature Vault at 11 months is the only fresh
+   meaningful row; the 2023-24 headliners are the strong ones.
+
+**Currency filter (Q4): PASSES on a genuinely open story.** SpaceX's US Deorbit
+Vehicle contract (Jun 26 2024, $843M), the USDV in build, the 2027 go/no-go
+decision, ISS retirement 2030-31, and live scientific objection to dumping ~430 t
+into Point Nemo. Forward momentum is real, not "someone uploaded recently".
+
+**Ceiling class: mid-tier** (giant-name only via the ISS, and the ISS-fronted
+framing is the exact one that already failed — see the kill above and our own
+105-view ISS video). **No wave-calendar date** — the deorbit is years out, so
+this ships on craft, not timing.
+
+**CONDITIONS (all three bind):**
+1. **Saturation wedge is mandatory.** The bare "loneliest place on Earth" framing
+   is being farmed hard right now by 2-8-sub AI channels (Wait What?! 61 v,
+   Timeless Tribune 51 v, The Turning Point 42 v, Terra Secrets 38 v, Vestige Docs
+   47 v, Global Facts 82 v, Behind The Map 163 v — all 2026). They have no
+   distribution, which is why the healthy outliers still stand, but a generic
+   retelling lands in that pile. The differentiator must be the **engineering
+   forensics of the deliberate crash** — the thing none of them have.
+2. **Recognition bridge** as above.
+3. **35-40 minutes**, per the 2026-09-01 long-form mandate and the 2026-09-02
+   projecthailmary diagnosis (11.5 min → 86 views).
+
+**Production cost is unusually low — the research is already banked.**
+`CLAIMS-issinside.md` §15 ("The ending — deorbit, 2028-January 2031", L618-672) is
+already primary-sourced: the Jan 2022 ISS Transition Report, the USDV contract and
+its 46 thrusters, ~430 t station mass, the 12-18 month altitude walk-down, the
+~2,000 km debris footprint, the SPOUA/Point Nemo coordinates (~2,688 km from land),
+the ocean-health objections, and `issinside_deorbit_paper.pdf` on disk.
+
+**OWED before this locks (do NOT skip — Step 4.5):** ctr-engine Run A (10 titles /
+3 thumbnails / suggested-adjacency, with the ≥7/10 kill bar), and a live
+fetch_footage licence probe. Point Nemo has almost no real footage of itself — that
+is the episode's central visual problem and it must be solved BEFORE scripting.
+NASA/ESA reentry imagery (ATV, Mir) is the likely spine; check licences.
+
+**Ratios are point-in-time (2026-09-03) — recheck live at production start.**
+
+---
+
 ## ⭐⭐ colossalsquid (channel TBD) — VALIDATED 2026-09-01
 
 **"The Colossal Squid"** — earth/ocean-mystery lane. Sourced from the @sid.curious

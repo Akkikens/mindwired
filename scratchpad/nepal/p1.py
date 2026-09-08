@@ -1,0 +1,76 @@
+# -*- coding: utf-8 -*-
+import json
+S=[]
+def s(**kw): S.append(kw)
+
+# ---------- COLD OPEN ----------
+s(id="h1", text="छब्बीस अगस्त, दो हज़ार छब्बीस। सुबह के लगभग नौ बजे। नेपाल का रसुवा ज़िला, चीन की सीमा से कुछ ही किलोमीटर दूर।",
+  img="rasuwa_1", query="Rasuwa Nepal mountains Himalaya valley", stock=True,
+  stat="26 अगस्त 2026", cap="रसुवा, नेपाल।", motion="slow", tone="curiosity")
+s(id="h2", text="तिमुरे बाज़ार में दुकानें अभी-अभी खुली हैं। सीमा पर ट्रक खड़े हैं। और ऊपर पहाड़ों में, कुछ ऐसा होने वाला है जिसे शुरू में पूरी दुनिया भूकंप समझेगी।",
+  img="border_1", query="Nepal China border crossing trucks mountain road", stock=True,
+  cap="तिमुरे बाज़ार।", tone="unease")
+s(id="h3", text="अमेरिका की भूवैज्ञानिक संस्था यू एस जी एस पहले चार दशमलव चार तीव्रता का भूकंप दर्ज करती है।",
+  img="seismo_1", query="seismograph earthquake reading monitor", stock=True,
+  stat="M4.4 — भूकंप?", tone="tension")
+s(id="h4", text="लेकिन वो भूकंप था ही नहीं।",
+  kinetic={"words": ["वो", "भूकंप", "था", "ही", "नहीं।"]},
+  img="seismo_1", query="seismograph earthquake reading monitor", stock=True,
+  extraHold=26, tone="dread")
+s(id="h5", text="धरती नहीं हिली थी। पाँच हज़ार दो सौ मीटर की ऊँचाई पर, एक ग्लेशियर का लगभग छह सौ मीटर चौड़ा हिस्सा — बर्फ़ के साथ नीचे की पूरी चट्टान समेत — टूटकर गिर गया था।",
+  img="glacier_1", query="Himalaya glacier ice cliff high altitude", stock=True,
+  stat="600 मीटर चौड़ा", cap="ग्लेशियर और चट्टान, दोनों।", tone="dread")
+s(id="h6", text="बारह सौ मीटर नीचे। सीधे लेंडे खोला की घाटी में।",
+  img="valley_1", query="steep himalayan river valley gorge", stock=True,
+  stat="1,200 मीटर गिरा", extraHold=22, tone="dread")
+s(id="h7", text="जो झटका सेंसरों ने पकड़ा, वो भूकंप से नहीं आया था। वो इस गिरने से पैदा हुआ था। बाद में इसे पाँच दशमलव दो के बराबर आँका गया।",
+  img="seismo_1", query="seismograph earthquake reading monitor", stock=True,
+  cap="भूकंप नहीं — गिरने की आवाज़।", tone="unease")
+s(id="h8", text="नौ दिन बाद, तीन सितंबर तक, आधिकारिक आँकड़ा था — बारह सौ बावन लोगों की मौत, और चार हज़ार दो सौ सोलह लोग लापता।",
+  img="rescue_1", query="flood rescue operation helicopter disaster", stock=True,
+  stat="1,252 मृत · 4,216 लापता", cap="3 सितंबर 2026 तक।", extraHold=28, tone="dread")
+s(id="h9", text="और वैज्ञानिकों के सामने एक सवाल खड़ा था जिसका जवाब आसान नहीं था। इतना पानी आया कहाँ से?",
+  img="flood_1", query="himalayan river flood muddy water torrent", stock=True,
+  cap="पानी आया कहाँ से?", extraHold=24, tone="mystery")
+
+s(id="sting1", sting=True, text="आप देख रहे हैं दिमाग़ बत्ती।", img="rasuwa_1", query="Rasuwa Nepal mountains", tone="confidence")
+s(id="t1", text="इस वीडियो में हम तीन चीज़ें समझेंगे। असल में हुआ क्या। वो पानी कहाँ से आया। और सबसे ज़रूरी — इसका भारत से क्या लेना-देना है।",
+  img="map_1", query="Nepal India map Himalaya rivers", stock=True, cap="तीन सवाल।", tone="curiosity")
+
+# ---------- CH 1 ----------
+s(id="c1", chapter="1 — जो गिरा,\nवो सिर्फ़ बर्फ़ नहीं थी", text="अध्याय एक। जो गिरा, वो सिर्फ़ बर्फ़ नहीं थी।",
+  img="glacier_1", query="Himalaya glacier ice cliff")
+s(id="a1", text="सबसे पहले भूगोल समझ लीजिए, क्योंकि आगे की पूरी कहानी इसी पर टिकी है।",
+  img="map_1", query="Nepal India map Himalaya rivers", stock=True, tone="curiosity")
+s(id="a2", text="लेंडे खोला एक छोटी नदी है, जो तिब्बत के गिरोंग इलाके से निकलती है और दक्षिण में नेपाल की तरफ़ बहती है।",
+  img="tibet_1", query="Tibet plateau mountains river", stock=True, cap="लेंडे खोला — तिब्बत से।", tone="curiosity")
+s(id="a3", text="ये मिलती है भोटेकोशी में। भोटेकोशी मिलती है त्रिशूली में। त्रिशूली बनती है नारायणी। और नारायणी जब भारत में घुसती है, तो उसका नाम हो जाता है — गंडक।",
+  img="map_1", query="Nepal India map Himalaya rivers", stock=True,
+  stat="लेंडे → भोटेकोशी → त्रिशूली → नारायणी → गंडक", cap="यही रास्ता याद रखिए।", extraHold=26, tone="curiosity")
+s(id="a4", text="ये कोसी नहीं है। ये गंडक है। ये फ़र्क़ आगे बहुत मायने रखेगा।",
+  kinetic={"words": ["कोसी", "नहीं।", "गंडक।"]},
+  img="map_1", query="Nepal India map rivers", stock=True, extraHold=24, tone="tension")
+s(id="a5", text="अब उस सुबह पर वापस आते हैं। नेपाल के जल एवं मौसम विज्ञान विभाग के मुताबिक़, ये बर्फ़ का तोदा, पिघलती हुई पर्माफ़्रॉस्ट और चट्टान — तीनों एक साथ खिसके।",
+  img="glacier_2", query="rockfall landslide mountain debris", stock=True,
+  source="DHM Nepal / ICIMOD", tone="dread")
+s(id="a6", text="आई सी आई एम ओ डी के वैज्ञानिक मोहम्मद फ़ारूक़ आज़म का शुरुआती अनुमान है — दस से बीस करोड़ घन मीटर मलबा। ये अनुमान है, अंतिम आँकड़ा नहीं।",
+  img="glacier_2", query="rockfall landslide mountain debris", stock=True,
+  stat="10–20 करोड़ घन मीटर", cap="शुरुआती अनुमान।", tone="dread")
+s(id="a7", text="ये मलबा गिरकर लेंडे खोला के रास्ते में ही बैठ गया। नदी रुक गई। पीछे पानी जमा होने लगा। एक अस्थायी बाँध बन गया — जो किसी इंजीनियर ने नहीं बनाया था।",
+  img="landslide_dam_1", query="landslide blocking river natural dam", stock=True,
+  cap="एक बाँध, जो किसी ने बनाया नहीं था।", tone="dread")
+s(id="a8", text="और फिर वो टूट गया।",
+  kinetic={"words": ["और", "फिर", "वो", "टूट", "गया।"]},
+  img="landslide_dam_1", query="landslide blocking river natural dam", stock=True,
+  extraHold=28, tone="dread")
+s(id="a9", text="गलच्छी में त्रिशूली नदी तीस मिनट में नौ मीटर ऊपर उठ गई। मलेखु में सात मीटर। कई जगहों पर नापने वाले यंत्र खुद बह गए।",
+  img="flood_1", query="river flooding rising water torrent", stock=True,
+  stat="30 मिनट में 9 मीटर", tone="dread")
+s(id="a10", text="कोलंबिया यूनिवर्सिटी के गोरान एकस्ट्रॉम के मुताबिक़, पानी की ये दीवार चालीस से पचास मीटर ऊँची थी, और लगभग सत्तर किलोमीटर प्रति घंटे की रफ़्तार से आ रही थी।",
+  img="flood_2", query="flash flood wall of water debris", stock=True,
+  stat="40–50 मीटर ऊँची · ~70 km/h", source="Göran Ekström, Columbia / ABC News", tone="dread")
+s(id="a11", text="रसुवा के मुख्य सीमा शुल्क अधिकारी राजेंद्र ढुंगाना ने जो देखा, उनके शब्दों में — तिमुरे बाज़ार पलक झपकते ही ख़त्म हो गया।",
+  img="border_1", query="destroyed buildings flood damage town", stock=True,
+  cap="“पलक झपकते ही।”", extraHold=24, tone="melancholy")
+json.dump(S, open('scratchpad/nepal/part1.json','w'), ensure_ascii=False, indent=1)
+print("part1:", len(S), "scenes,", sum(len(x.get('text','').split()) for x in S), "words")

@@ -1,0 +1,5 @@
+WARNING: [0] Failed to send all data from [stdin].
+Connection to compute.4224152011391075153 closed by remote host.
+client_loop: send disconnect: Broken pipe
+/usr/bin/scp: Connection closed
+ERROR: (gcloud.compute.scp) [/usr/bin/scp] exited with return code [255].

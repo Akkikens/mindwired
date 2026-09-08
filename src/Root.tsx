@@ -95,6 +95,8 @@ import kurskDoc from "./mindwired-doc/docs/kursk.json";
 import kurskManifest from "./mindwired-doc/docs/kursk.manifest.json";
 import twa800Doc from "./mindwired-doc/docs/twa800.json";
 import twa800Manifest from "./mindwired-doc/docs/twa800.manifest.json";
+import biosphere2Doc from "./mindwired-doc/docs/biosphere2.json";
+import biosphere2Manifest from "./mindwired-doc/docs/biosphere2.manifest.json";
 import colossalSquidDoc from "./mindwired-doc/docs/colossalsquid.json";
 import colossalSquidManifest from "./mindwired-doc/docs/colossalsquid.manifest.json";
 import dcamidairDoc from "./mindwired-doc/docs/dcamidair.json";
@@ -1930,6 +1932,28 @@ export const RemotionRoot: React.FC = () => {
         id="TunguskaDoc"
         component={makeDocComp(tunguskaDoc, tunguskaManifest, MW_OUTRO)}
         durationInFrames={docTotalFrames(tunguskaDoc, tunguskaManifest, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── mindwired — Biosphere 2 (the 1991-93 sealed mission, and where the
+             oxygen actually went). Icahn: icahn-biosphere2, PASS, fresh 504:1
+             headline outlier, currency upgraded to STRONG (MrBeast filmed there
+             Jan 2026, 73M views). Locked title: "8 People Sealed In. The Oxygen
+             Kept Vanishing." Spine is Severinghaus/Broecker's isotope trace —
+             soil respiration + concrete carbonation. NOTE: no free-licensed
+             1991-94 mission-era motion footage exists anywhere (verified
+             negative); the cold open runs on PUBLIC-DOMAIN NASA eClips footage
+             of the real building in a deliberate archival window (source is
+             704x362 letterboxed NTSC — never upscaled full-frame). 4K b-roll
+             request to the University of Arizona is drafted but unsent:
+             docs/planning/BIOSPHERE2-FOOTAGE-REQUEST.md. MW subscribe outro
+             baked. ── */}
+      <Composition
+        id="Biosphere2Doc"
+        component={makeDocComp(biosphere2Doc, biosphere2Manifest, MW_OUTRO)}
+        durationInFrames={docTotalFrames(biosphere2Doc, biosphere2Manifest, MW_OUTRO)}
         fps={30}
         width={1920}
         height={1080}

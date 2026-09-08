@@ -1,0 +1,348 @@
+[
+ {
+  "id": "c11",
+  "chapter": "THE VERDICT",
+  "img": "b2_paper_1",
+  "query": "scientific journal paper printed pages",
+  "cap": "Chapter eleven."
+ },
+ {
+  "id": "m1",
+  "text": "In November nineteen ninety six, two ecologists, Joel Cohen of Rockefeller University and David Tilman of Minnesota, published the assessment in Science that has defined Biosphere Two ever since.",
+  "img": "b2_paper_1",
+  "query": "scientific journal paper printed pages",
+  "stock": true,
+  "source": "Cohen & Tilman, Science 274(5290):1150 (1996)",
+  "tone": "tension"
+ },
+ {
+  "id": "m2",
+  "text": "It is not gentle. Despite the resources, they wrote, it proved impossible to create a materially closed system that could support eight humans with adequate food, water and air for two years.",
+  "img": "b2_paper_1",
+  "query": "scientific journal paper printed pages",
+  "stock": true,
+  "tone": "dread"
+ },
+ {
+  "id": "m3",
+  "text": "And the line that stings most. Almost unlimited energy and technology were available to support Biosphere Two from the outside.",
+  "img": "b2_tech_1",
+  "query": "Biosphere 2 technosphere basement machinery pipes",
+  "extraHold": 22,
+  "tone": "dread"
+ },
+ {
+  "id": "m4",
+  "text": "Their conclusion is short enough to read to you in full, and it is, I think, one of the better paragraphs written about our situation on this planet.",
+  "img": "b2_earth_1",
+  "query": "Earth from space blue marble",
+  "stock": true,
+  "tone": "melancholy"
+ },
+ {
+  "id": "m5",
+  "text": "At present there is no demonstrated alternative to maintaining the viability of Earth. No one yet knows how to engineer systems that provide humans with the life supporting services that natural ecosystems produce for free.",
+  "img": "b2_earth_1",
+  "query": "Earth from space blue marble",
+  "stock": true,
+  "tone": "awe"
+ },
+ {
+  "id": "m6",
+  "text": "Despite its mysteries and hazards, Earth remains the only known home that can sustain life.",
+  "kinetic": {
+   "words": [
+    "the",
+    "only",
+    "known",
+    "home."
+   ]
+  },
+  "img": "b2_earth_1",
+  "query": "Earth from space blue marble",
+  "stock": true,
+  "source": "Cohen & Tilman, Science 274:1150 (1996)",
+  "extraHold": 32,
+  "tone": "awe"
+ },
+ {
+  "id": "m7",
+  "text": "That is the prosecution, and it is fair, and it is quoted constantly. What is almost never quoted is the paragraph immediately before it.",
+  "img": "b2_paper_1",
+  "query": "scientific journal paper printed pages",
+  "stock": true,
+  "tone": "unease"
+ },
+ {
+  "id": "m8",
+  "text": "There may be a partial analogy, they wrote, between the initial problems of Biosphere Two and the early, well publicised flaws of the Hubble Space Telescope. Now that Hubble has been improved, it is a major instrument with the potential for observations never possible before.",
+  "img": "b2_hubble_1",
+  "query": "Hubble Space Telescope in orbit",
+  "stock": true,
+  "tone": "hope"
+ },
+ {
+  "id": "m9",
+  "text": "Similarly, they wrote, research in a retooled Biosphere Two may well contribute exciting insights into the task of maintaining the viability of Biosphere One. The Earth.",
+  "img": "b2_earth_1",
+  "query": "Earth from space blue marble",
+  "stock": true,
+  "extraHold": 24,
+  "tone": "hope"
+ },
+ {
+  "id": "m10",
+  "text": "The harshest critics Biosphere Two ever had left the door open. And then history walked through it.",
+  "video": "b2_present_1.mp4",
+  "videoQuery": "Biosphere 2 today university research facility",
+  "extraHold": 22,
+  "tone": "hope"
+ },
+ {
+  "id": "c12",
+  "chapter": "WHAT IT BECAME",
+  "img": "b2_leo_1",
+  "query": "Landscape Evolution Observatory Biosphere 2",
+  "cap": "Chapter twelve."
+ },
+ {
+  "id": "n1",
+  "text": "Columbia University ran it from nineteen ninety six to two thousand and three, and used that seven hundred thousand gallon ocean to demonstrate what rising carbon dioxide does to a coral reef.",
+  "img": "b2_ocean_1",
+  "query": "The Ocean Biosphere 2 coral reef interior",
+  "tone": "curiosity"
+ },
+ {
+  "id": "n2",
+  "text": "In two thousand and seven the property was sold for fifty million dollars to a development company, and Pinal County had already approved plans for fifteen hundred homes and a resort hotel on the land around it. Demolition was a real possibility.",
+  "img": "b2_present_2",
+  "query": "Biosphere 2 facility exterior modern day",
+  "tone": "dread"
+ },
+ {
+  "id": "n3",
+  "text": "The University of Arizona took over operations that same year. In twenty eleven they were given the building outright, along with twenty million dollars from Ed Bass to run it. He gave another thirty million in twenty seventeen.",
+  "img": "b2_present_2",
+  "query": "Biosphere 2 facility exterior modern day",
+  "tone": "hope"
+ },
+ {
+  "id": "n4",
+  "text": "It is open to the public today. About a hundred thousand people a year walk through it.",
+  "video": "b2_present_1.mp4",
+  "videoQuery": "Biosphere 2 today university research facility",
+  "tone": "hope"
+ },
+ {
+  "id": "n5",
+  "text": "And inside, they built something called the Landscape Evolution Observatory. Three artificial hillslopes, each thirty metres long, each filled a metre deep with five hundred tons of crushed basalt. Sterile ground up volcanic rock. Dead.",
+  "img": "b2_leo_1",
+  "query": "Landscape Evolution Observatory Biosphere 2",
+  "cap": "Three sterile hillslopes.",
+  "tone": "curiosity"
+ },
+ {
+  "id": "n6",
+  "text": "More than eighteen hundred sensors in each one, watching what happens when you add water to bare rock and wait.",
+  "stat": "1,800+ SENSORS",
+  "img": "b2_leo_1",
+  "query": "Landscape Evolution Observatory Biosphere 2",
+  "tone": "curiosity"
+ },
+ {
+  "id": "n7",
+  "text": "What happened is that nobody put anything alive on those slopes, and life showed up anyway.",
+  "extraHold": 24,
+  "img": "b2_leo_2",
+  "query": "cyanobacteria crust soil microbial mat",
+  "stock": true,
+  "tone": "awe"
+ },
+ {
+  "id": "n8",
+  "text": "Cyanobacteria colonised the sterile basalt. Photosynthesising, nitrogen fixing crusts, forming on ground up rock, exactly the way they did on the early Earth. Mosses now blanket those slopes seasonally.",
+  "img": "b2_leo_2",
+  "query": "cyanobacteria crust soil microbial mat",
+  "stock": true,
+  "tone": "awe"
+ },
+ {
+  "id": "n9",
+  "text": "The principal investigator's summary of the result was three words. Life finds a way.",
+  "kinetic": {
+   "words": [
+    "Life",
+    "finds",
+    "a",
+    "way."
+   ]
+  },
+  "img": "b2_leo_2",
+  "query": "cyanobacteria crust soil microbial mat",
+  "stock": true,
+  "extraHold": 28,
+  "tone": "awe"
+ },
+ {
+  "id": "n10",
+  "text": "In April twenty twenty six they were funded to take the next step, and build miniature versions of those hillslopes running Martian atmosphere and Martian soil chemistry.",
+  "img": "b2_mars_1",
+  "query": "Mars surface regolith red planet",
+  "stock": true,
+  "tone": "hope"
+ },
+ {
+  "id": "n11",
+  "text": "And in February twenty twenty six, for the first time in more than thirty years, they put corals back into the Biosphere Two ocean. A hundred and eight living fragments, from the Florida Keys and the Gulf of Mexico.",
+  "stat": "FEB 2026 \u2014 108 CORALS",
+  "img": "b2_coral_1",
+  "query": "coral fragments reef restoration nursery",
+  "stock": true,
+  "tone": "hope"
+ },
+ {
+  "id": "n12",
+  "text": "Columbia used that same water, thirty years ago, to prove that carbon dioxide kills reefs. Today it is being used to find the ones that survive.",
+  "img": "b2_coral_1",
+  "query": "coral fragments reef restoration nursery",
+  "stock": true,
+  "extraHold": 26,
+  "tone": "hope"
+ },
+ {
+  "id": "o1",
+  "text": "I want to tell you what I actually think, because I have spent a long time with this one.",
+  "video": "b2_wide_2.mp4",
+  "videoQuery": "Biosphere 2 exterior aerial glass domes Arizona",
+  "tone": "melancholy"
+ },
+ {
+  "id": "o2",
+  "text": "Biosphere Two is remembered as a joke. There is a Pauly Shore movie about it. It has a four percent score on Rotten Tomatoes, and a one out of a hundred on Metacritic, which ties it for the worst reviewed film on that entire website.",
+  "img": "b2_press_1",
+  "query": "press conference microphones 1990s reporters",
+  "stock": true,
+  "tone": "melancholy"
+ },
+ {
+  "id": "o3",
+  "text": "The producers actually asked to film at the real Biosphere Two. They were turned down personally by Steve Bannon, who told them, we're not in the movie business, and we're focused on a very big effort here to turn around and legitimise the science and education program.",
+  "img": "b2_present_2",
+  "query": "Biosphere 2 facility exterior modern day",
+  "source": "AP, Jan. 27, 1996",
+  "extraHold": 22,
+  "tone": "unease"
+ },
+ {
+  "id": "o4",
+  "text": "So they shot it at a water reclamation plant in Van Nuys instead.",
+  "img": "b2_present_2",
+  "query": "Biosphere 2 facility exterior modern day",
+  "tone": "melancholy"
+ },
+ {
+  "id": "o5",
+  "text": "Here is the thing about the joke. Biosphere Two failed at the thing it was sold as. It could not keep eight people fed and breathing for two years without help. That is true and there is no way around it.",
+  "video": "b2_glass_1.mp4",
+  "videoQuery": "Biosphere 2 space frame glazing lattice interior looking up",
+  "tone": "melancholy"
+ },
+ {
+  "id": "o6",
+  "text": "But a failure that teaches you something real is not a stunt. It is an experiment. And the discovery that came out of it, that a sealed world's oxygen can vanish into its own walls while its carbon dioxide reading stays flat and reassuring, is cited in the reference list of the very paper that condemned it.",
+  "img": "b2_paper_1",
+  "query": "scientific journal paper printed pages",
+  "stock": true,
+  "tone": "curiosity"
+ },
+ {
+  "id": "o7",
+  "text": "Nobody would have predicted that. Nobody did predict it. And nobody could have found it in a building that was even slightly less well sealed.",
+  "video": "b2_glass_2.mp4",
+  "videoQuery": "sunlight through greenhouse glass panes reflection",
+  "tone": "awe"
+ },
+ {
+  "id": "o8",
+  "text": "Bad engineering. Worse governance. Genuine science. And a building that has outlived every single reason people had for laughing at it.",
+  "kinetic": {
+   "words": [
+    "It",
+    "outlived",
+    "the",
+    "laughter."
+   ]
+  },
+  "video": "b2_present_1.mp4",
+  "videoQuery": "Biosphere 2 today university research facility",
+  "extraHold": 28,
+  "tone": "melancholy"
+ },
+ {
+  "id": "o9",
+  "text": "Jane Poynter said something about coming out that I cannot stop thinking about. For two years, she said, I'd been seeing people through the glass.",
+  "img": "b2_crew_2",
+  "query": "Biosphere 2 biospherians crew portrait",
+  "tone": "melancholy"
+ },
+ {
+  "id": "o10",
+  "text": "When visitors came, there was a window with a telephone on the outside and a telephone on the inside. And you would put your hand flat against the pane, and they would put theirs against it on the other side, and that was hello.",
+  "img": "b2_glass_6",
+  "query": "hand pressed against glass window pane",
+  "stock": true,
+  "cap": "They called it the biospherian handshake.",
+  "extraHold": 26,
+  "tone": "melancholy"
+ },
+ {
+  "id": "o11",
+  "text": "Eight people spent two years learning, in the most literal way anybody has ever learned it, that the air is not a given. That it is made, constantly, by things too small to see, and that it can be taken away by something as ordinary as a wall that has not finished drying.",
+  "video": "b2_interior_1.mp4",
+  "videoQuery": "Biosphere 2 interior rainforest biome under glass",
+  "tone": "awe"
+ },
+ {
+  "id": "o12",
+  "text": "They built a second Earth to find out how the first one works. It didn't work. That is how they found out.",
+  "kinetic": {
+   "words": [
+    "That",
+    "is",
+    "how",
+    "they",
+    "found",
+    "out."
+   ]
+  },
+  "video": "b2_wide_2.mp4",
+  "videoQuery": "Biosphere 2 exterior aerial glass domes Arizona",
+  "extraHold": 32,
+  "tone": "awe"
+ },
+ {
+  "id": "p1",
+  "text": "If the idea of microbes quietly rewriting an atmosphere got to you, there is a version of that story on a scale you will not believe, and it involves the Sun.",
+  "img": "b2_sun_1",
+  "query": "sun surface solar activity",
+  "stock": true,
+  "tone": "curiosity"
+ },
+ {
+  "id": "p2",
+  "text": "I made a video about whether the sun killing microbe in Project Hail Mary could actually exist. Real astrobiology, real extremophiles, and an answer that surprised me. It is on screen now.",
+  "img": "b2_sun_1",
+  "query": "sun surface solar activity",
+  "stock": true,
+  "cap": "Watch next \u2192",
+  "tone": "curiosity"
+ },
+ {
+  "id": "p3",
+  "text": "And if you want more of these, the ones built out of the actual papers rather than the headlines, subscribing genuinely helps. Thanks for watching.",
+  "video": "b2_present_1.mp4",
+  "videoQuery": "Biosphere 2 today university research facility",
+  "cap": "Subscribe",
+  "tone": "hope"
+ }
+]

@@ -16,18 +16,6 @@
 #   5. polls until done, scps the mp4 back to out/<slug>_gce.mp4
 #   6. ALWAYS deletes the VM on exit (trap), success or failure
 #
-# HARDENED 2026-09-04 after the biosphere2 near-loss. Three failures stacked:
-#   (a) the gcloud token expired ~3h into a 5h render, so the poll went blind;
-#   (b) the poll treated ANY unreachable describe as "spot preempted" and fell
-#       through to the exit trap, which DELETES the VM — it only survived because
-#       the delete failed on the same dead token;
-#   (c) underneath both, chunk_00003 had DEADLOCKED 8 hours earlier (Chrome alive,
-#       load 0.00, log frozen at 561/562). Nothing retried it because the process
-#       never died. Killing it by hand fixed it in seconds.
-# Fixes: pre-flight token check (exit 3); auth-vs-missing discrimination that
-# NEVER deletes on an auth or transient error; and a stall detector that kicks a
-# frozen chunk. Tune with GCE_STALL_LIMIT_MIN (default 20).
-#
 # CHUNKED=1 swaps step 4 for scripts/render_chunked_and_master.py — same
 # output, but renders in small chunks (fresh remotion process each) instead
 # of one continuous render. Use this for any long (>15min) doc, or after a
@@ -234,50 +222,12 @@ gcloud compute ssh "$NAME" --zone "$ZONE" --command "
   echo started
 "
 
-# ── FIX 3 (2026-09-04): verify the auth token BEFORE a multi-hour run ─────────
-# A 5-hour render was orphaned when the token expired at ~3h: the poll went blind,
-# misread the silence as preemption, and tried to delete a VM holding a 99.8%
-# complete render. Only the delete ALSO failing on the dead token saved it.
-if ! gcloud auth print-access-token >/dev/null 2>&1; then
-  echo "[gce] FATAL: gcloud has no usable access token. Run 'gcloud auth login' first."
-  echo "[gce]        Refusing to start a multi-hour render that cannot be polled."
-  exit 3
-fi
-echo "[gce] auth token OK at start."
-
-# Stall detector config. A chunk can DEADLOCK (Chrome alive, load 0.00, log frozen)
-# without the process dying, so retry logic never fires. Killing the stuck chunk
-# process is enough — the parent immediately retries it. Observed 2026-09-04:
-# chunk_00003 hung for 8 HOURS at 561/562 before being killed by hand; it then
-# completed in seconds.
-STALL_LIMIT_MIN="${GCE_STALL_LIMIT_MIN:-20}"
-LAST_PROGRESS=""; LAST_CHANGE=$(date +%s); STALL_KICKS=0
-
-echo "[gce] render running — polling every 2 min (stall limit ${STALL_LIMIT_MIN}m)…"
+echo "[gce] render running — polling every 2 min…"
 while true; do
   sleep 120
-  # ── FIX 1 (2026-09-04): distinguish AUTH FAILURE from a genuinely missing VM.
-  # The old code discarded stderr and treated any non-zero exit as "VM gone",
-  # then fell through to the exit trap which DELETES the VM. On 2026-09-04 that
-  # nearly destroyed a 561/562-complete render because the token had expired.
-  VM_ERR=$(gcloud compute instances describe "$NAME" --zone "$ZONE" \
-             --format="value(status)" 2>&1 >/dev/null)
-  VM_RC=$?
-  if [ $VM_RC -ne 0 ]; then
-    if echo "$VM_ERR" | grep -qiE 'reauth|auth|credential|token|login|invalid_grant|unauthorized'; then
-      echo "[gce] ⚠ AUTH FAILURE on poll — NOT touching the VM. The render is almost"
-      echo "[gce]   certainly still running. Re-auth in another terminal:"
-      echo "[gce]       gcloud auth login"
-      echo "[gce]   Holding and retrying. This will NOT delete ${NAME}."
-      RENDER_DONE=1   # arm the trap's protective branch: stop, never delete
-      sleep 120; continue
-    fi
-    if echo "$VM_ERR" | grep -qiE 'not found|does not exist|notFound'; then
-      echo "[gce] VM GONE — instance ${NAME} no longer exists (preempted, or deleted elsewhere)."
-      exit 2
-    fi
-    echo "[gce] ⚠ transient error reaching the VM — holding, not deleting. ${VM_ERR}"
-    sleep 120; continue
+  if ! gcloud compute instances describe "$NAME" --zone "$ZONE" --format="value(status)" >/dev/null 2>&1; then
+    echo "[gce] VM GONE — spot instance was preempted mid-render. Just re-run (default is now on-demand; you had GCE_SPOT=1)."
+    exit 2
   fi
   STATUS=$(gcloud compute ssh "$NAME" --zone "$ZONE" --command "
     if grep -q -- '-> out/${SLUG}.mp4' $REMOTE/out/render.log 2>/dev/null; then echo DONE;
@@ -285,33 +235,6 @@ while true; do
     else grep -oE 'Rendered [0-9]+/[0-9]+' $REMOTE/out/render.log | tail -1; fi" 2>/dev/null || echo "ssh-retry")
   echo "[gce] $(date +%H:%M) ${STATUS}"
   if [ "$STATUS" = "DONE" ]; then RENDER_DONE=1; break; fi
-
-  # ── FIX 2 (2026-09-04): STALL DETECTOR ────────────────────────────────────────
-  # A deadlocked chunk keeps its process alive, so nothing retries it. Detect a
-  # frozen progress line and kill the in-flight chunk render; the parent retries
-  # it automatically. Skip while concatenating/mastering (no progress lines then).
-  if [ "$STATUS" != "$LAST_PROGRESS" ] || [ -z "$STATUS" ]; then
-    LAST_PROGRESS="$STATUS"; LAST_CHANGE=$(date +%s)
-  else
-    STALLED_FOR=$(( ( $(date +%s) - LAST_CHANGE ) / 60 ))
-    if [ "$STALLED_FOR" -ge "$STALL_LIMIT_MIN" ]; then
-      if gcloud compute ssh "$NAME" --zone "$ZONE" --command \
-           "grep -q 'concatenating\|mastering\|Encoding' $REMOTE/out/render.log 2>/dev/null" 2>/dev/null; then
-        echo "[gce] no progress for ${STALLED_FOR}m but remote is concatenating/mastering — normal, holding."
-        LAST_CHANGE=$(date +%s)
-      else
-        STALL_KICKS=$((STALL_KICKS+1))
-        echo "[gce] ⚠ STALLED ${STALLED_FOR}m at '${STATUS}' — killing the in-flight chunk (kick #${STALL_KICKS})."
-        gcloud compute ssh "$NAME" --zone "$ZONE" --command \
-          'pkill -f "remotion render" ; pkill -x chrome-headless-shell ; echo kicked' 2>/dev/null || true
-        LAST_CHANGE=$(date +%s)
-        if [ "$STALL_KICKS" -ge 5 ]; then
-          echo "[gce] ⚠ 5 stall kicks with no progress — leaving the VM UP for manual recovery."
-          RENDER_DONE=1; break
-        fi
-      fi
-    fi
-  fi
   if [ "$STATUS" = "FAILED" ]; then
     echo "[gce] FAILURE DIAGNOSTICS:"
     gcloud compute ssh "$NAME" --zone "$ZONE" --command "

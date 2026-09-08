@@ -1,0 +1,87 @@
+# -*- coding: utf-8 -*-
+import json
+S=[]
+def s(**kw): S.append(kw)
+
+# ---------- CH 6 — THE LAKE STILL THERE ----------
+s(id="c6", chapter="6 — ऊपर अब भी\nएक झील है", text="अध्याय छह। ऊपर अब भी एक झील है।",
+  img="barrier_lake_1", query="landslide barrier lake mountain valley")
+s(id="g1", text="अब वो हिस्सा जो अभी ख़त्म नहीं हुआ है।",
+  img="barrier_lake_1", query="barrier lake mountain", stock=True, tone="tension")
+s(id="g2", text="मलबे ने ऊपर एक और जगह नदी रोक दी — छोछेन खोला और पुरेपु सांगपो के संगम पर। वहाँ एक नई झील बन गई।",
+  img="barrier_lake_1", query="landslide dammed lake valley", stock=True, cap="एक नई झील।", tone="dread")
+s(id="g3", text="चीन के जल संसाधन मंत्रालय के मुताबिक़ सत्ताईस अगस्त तक इसमें लगभग बीस लाख घन मीटर पानी था, और वो पहले ही ऊपर से बहने लगा था। अट्ठाईस अगस्त तक ये पच्चीस लाख घन मीटर हो गया।",
+  img="barrier_lake_1", query="barrier lake water", stock=True,
+  stat="~25 लाख घन मीटर", source="China Ministry of Water Resources / CCTV", tone="dread")
+s(id="g4", text="अब यहाँ मुझे संतुलन बनाना है, क्योंकि कई वीडियो इसे बहुत बढ़ा-चढ़ाकर दिखा रहे हैं।",
+  img="barrier_lake_1", query="barrier lake", stock=True, tone="unease")
+s(id="g5", text="पच्चीस लाख घन मीटर — ये लगभग एक हज़ार ओलंपिक स्विमिंग पूल है। स्थानीय स्तर पर बेहद ख़तरनाक। लेकिन दो हज़ार तेईस में सिक्किम की जिस झील ने तबाही मचाई थी, ये उससे लगभग बीस गुना छोटी है।",
+  img="barrier_lake_1", query="barrier lake mountains", stock=True,
+  stat="साउथ ल्होनक से ~20× छोटी", cap="ख़तरनाक — पर विशाल नहीं।", tone="curiosity")
+s(id="g6", text="अट्ठाईस अगस्त को जब ये ऊपर से बही, तो चीन ने कुछ देर के लिए बचाव कार्य रोक दिया। गिरोंग बंदरगाह के लिए निकासी के आदेश जारी हुए।",
+  img="rescue_1", query="evacuation rescue operation mountain", stock=True, tone="dread")
+s(id="g7", text="आई सी आई एम ओ डी की छियांगोंग झांग ने कहा — नेपाल-चीन सीमा पर ऊपर अब भी रुकावट मौजूद है, और अधिकारी चेतावनी दे रहे हैं कि दूसरी बाढ़ आ सकती है।",
+  img="barrier_lake_1", query="mountain valley blocked river", stock=True,
+  source="Qianggong Zhang, ICIMOD", cap="“दूसरी बाढ़ आ सकती है।”", tone="dread")
+s(id="g8", text="हालाँकि कुछ विशेषज्ञों ने बी बी सी को ये भी कहा कि ये झील धीरे-धीरे अपने आप भी निकल सकती है। दोनों बातें अभी मुमकिन हैं।",
+  img="barrier_lake_1", query="mountain lake drain", stock=True, tone="unease")
+s(id="g9", text="और तीन सितंबर तक नेपाल के विभाग की सरस्वती बिस्ता के मुताबिक़ भोटेकोशी और त्रिशूली पर ख़तरा अब भी ऊँचा है — पर उसकी वजह ऊपर हो रही बारिश है, सिर्फ़ वो झील नहीं।",
+  img="rain_1", query="monsoon rain mountains himalaya", stock=True,
+  source="Saraswati Bista, DHM Nepal, 3 Sep 2026", tone="unease")
+
+# ---------- CH 7 — THE THESIS ----------
+s(id="c7", chapter="7 — जो बहस\nजान ले लेती है", text="अध्याय सात। जो बहस जान ले लेती है।",
+  img="seismo_1", query="seismograph monitoring station")
+s(id="h_1", text="अब हम वापस उसी जगह आते हैं जहाँ से शुरू किया था। उस भूकंप पर, जो भूकंप था ही नहीं।",
+  img="seismo_1", query="seismograph reading", stock=True, tone="tension")
+s(id="h_2", text="क्योंकि यही इस पूरी कहानी का सबसे ज़रूरी सबक़ है।",
+  img="seismo_1", query="seismograph", stock=True, tone="tension")
+s(id="h_3", text="चेतावनी भेजी गई थी। छब्बीस अगस्त को एस एम एस अलर्ट गए थे। लेकिन पानी बहुत तेज़ था, और सिर्फ़ एस एम एस काफ़ी नहीं था।",
+  img="phone_1", query="mobile phone alert message hand", stock=True, tone="dread")
+s(id="h_4", text="रीडिंग यूनिवर्सिटी के जेफ़ डा कोस्टा कहते हैं — इतनी बड़ी घटना में हमारे पास मिनट होते हैं, घंटे या दिन नहीं। सीमा के पास बसे लोगों के लिए चेतावनी का वक़्त लगभग था ही नहीं।",
+  img="scientist_1", query="scientist researcher speaking", stock=True,
+  source="Jeff Da Costa, University of Reading", tone="dread")
+s(id="h_5", text="और फिर उन्होंने वो बात कही, जो मेरे हिसाब से इस पूरे वीडियो का निचोड़ है।",
+  img="scientist_1", query="scientist speaking", stock=True, tone="tension")
+s(id="h_6", text="आपको ये जानने की ज़रूरत नहीं है कि सिग्नल भूकंप का है, ग्लेशियर के गिरने का है, या भूस्खलन का — इससे पहले कि आप लोगों को बताएँ कि ऊपर कुछ असाधारण हुआ है।",
+  kinetic={"words": ["पहले", "बताओ।", "फिर", "समझो।"]},
+  img="scientist_1", query="scientist speaking", stock=True,
+  source="Jeff Da Costa", extraHold=30, tone="awe")
+s(id="h_7", text="वो चार दशमलव चार वाली भूकंप की रीडिंग — उसे समझने में जो वक़्त लगा, वो वक़्त नीचे बसे लोगों का था।",
+  img="valley_1", query="himalayan village valley river", stock=True, extraHold=26, tone="melancholy")
+s(id="h_8", text="और ये पहली बार नहीं था। छियांगोंग झांग ने याद दिलाया — जिस जगह को पिछले साल की रसुवा बाढ़ ने तबाह किया था, वही जगह फिर ख़तरे में है।",
+  img="valley_1", query="himalayan valley village", stock=True,
+  source="Qianggong Zhang, ICIMOD", tone="melancholy")
+s(id="h_9", text="डेव पेटली इससे भी सख़्त हैं। उनके मुताबिक़ हम इस ख़तरे को व्यवस्थित तरीक़े से कम आँकते हैं। और बड़ी पनबिजली परियोजनाएँ बार-बार इन्हीं मलबे के सैलाबों में तबाह हो रही हैं।",
+  img="hydro_1", query="hydropower plant river construction", stock=True,
+  source="Dave Petley", tone="dread")
+s(id="h_10", text="इस बाढ़ में लगभग नौ सौ पनबिजली मज़दूर लापता हैं। कम से कम दो परियोजनाएँ पूरी तरह ख़त्म हो गईं।",
+  img="hydro_1", query="destroyed hydropower construction flood", stock=True,
+  stat="~900 मज़दूर लापता", extraHold=26, tone="dread")
+
+# ---------- CODA + BRIDGE ----------
+s(id="o1", text="चार सितंबर को, बाढ़ के नौ दिन बाद, त्रिशूली तीन-ए की सुरंग से कुछ लोग ज़िंदा निकाले गए।",
+  img="rescue_1", query="tunnel rescue survivors", stock=True,
+  stat="9 दिन बाद, ज़िंदा", extraHold=24, tone="hope")
+s(id="o2", text="तीन सितंबर तक बारह सौ बावन लोगों की मौत की पुष्टि हो चुकी थी। इनमें से सिर्फ़ पंचानवे शवों की पहचान हो पाई थी। और लगभग छह सौ बच्चे अब भी लापता हैं।",
+  img="rescue_1", query="disaster aftermath rescue", stock=True,
+  cap="1,252 मृत · 95 की पहचान।", tone="melancholy")
+s(id="o3", text="ये आँकड़े तीन सितंबर के हैं, और ये अभी बदल रहे हैं। तीस अगस्त से तीन सितंबर के बीच ये लगभग दोगुने हो गए।",
+  img="rescue_1", query="disaster aftermath", stock=True, tone="melancholy")
+s(id="o4", text="जलवायु परिवर्तन का इसमें क्या हाथ है? यहाँ मुझे सावधान रहना है। जिन भी वैज्ञानिकों से पूछा गया — शुगर, डा कोस्टा, कुक, आई सी आई एम ओ डी — सबने कहा कि इस एक घटना को सीधे जलवायु परिवर्तन से जोड़ना अभी जल्दबाज़ी होगी।",
+  img="glacier_1", query="glacier melting himalaya", stock=True,
+  cap="किसी ने सीधा नहीं जोड़ा।", tone="unease")
+s(id="o5", text="लेकिन वही वैज्ञानिक ये भी कहते हैं कि गर्म होती पर्माफ़्रॉस्ट पहाड़ों की पकड़ ढीली कर रही है, और ऐसी घटनाएँ आगे और होंगी। आई सी आई एम ओ डी के मुताबिक़ हिंदू कुश हिमालय ने उन्नीस सौ नब्बे से दो हज़ार बीस के बीच अपने ग्लेशियर क्षेत्र का लगभग बारह प्रतिशत खो दिया।",
+  img="glacier_1", query="glacier retreat himalaya", stock=True,
+  stat="12% क्षेत्र, 1990–2020", tone="dread")
+s(id="o6", text="यानी ये कहना ग़लत होगा कि ये बाढ़ जलवायु परिवर्तन से आई। और ये कहना भी ग़लत होगा कि इसका कोई लेना-देना नहीं।",
+  img="glacier_1", query="glacier ice melt", stock=True, extraHold=24, tone="melancholy")
+s(id="o7", text="सच ये है कि पहाड़ बदल रहा है, और हमारी चेतावनी देने की रफ़्तार उस बदलाव से पीछे है।",
+  kinetic={"words": ["पहाड़", "बदल", "रहा", "है।"]},
+  img="glacier_2", query="himalaya mountains clouds", stock=True, extraHold=28, tone="melancholy")
+s(id="p1", text="अगर आपको ये समझना है कि हिमालय की नदियाँ भारत की ज़िंदगी कैसे चलाती हैं, तो हमारी नदी-जल विवाद वाली वीडियो देखिए — लिंक स्क्रीन पर है।",
+  img="map_1", query="Himalaya rivers India map", stock=True, cap="आगे देखें →", tone="curiosity")
+s(id="p2", text="और अगर ये समझ आया, तो दिमाग़ बत्ती को सब्सक्राइब कीजिए। हर मुद्दा, आसान भाषा में। देखने के लिए शुक्रिया।",
+  img="rasuwa_1", query="Nepal himalaya mountains", stock=True, cap="Subscribe", tone="hope")
+json.dump(S, open('scratchpad/nepal/part4.json','w'), ensure_ascii=False, indent=1)
+print("part4:", len(S), "scenes,", sum(len(x.get('text','').split()) for x in S), "words")

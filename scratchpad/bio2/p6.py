@@ -1,0 +1,72 @@
+# -*- coding: utf-8 -*-
+import json
+S = []
+def s(**kw): S.append(kw)
+
+# ============ CHAPTER 9 — WHY ONLY THIS BUILDING COULD HAVE CAUGHT IT ============
+s(id="c9", chapter="THE ONLY BUILDING THAT COULD HAVE SEEN IT", img="b2_glass_4", query="Biosphere 2 Architecture glass space frame", cap="Chapter nine.")
+s(id="k1", text="And now I can tell you why the seal mattered, and why I asked you to hold onto that nineteen millimetre hole.",
+  video="b2_glass_2.mp4", videoQuery="sunlight through greenhouse glass panes reflection", tone="tension")
+s(id="k2", text="The oxygen was falling by about a hundred and forty parts per million a day. That is a small signal. Dempster ran the simulations afterwards to find out how leaky a building would have to be before that signal disappeared into the noise.",
+  img="b2_chart_1", query="line graph declining chart scientific data", stock=True, tone="curiosity")
+s(id="k3", text="The answer was a leak rate of one percent a day. Not a year. A day.",
+  stat="1% A DAY WOULD HIDE IT", img="b2_chart_1", query="line graph declining chart scientific data", stock=True,
+  extraHold=24, tone="dread")
+s(id="k4", text="At that rate, fresh air seeps in fast enough to top the oxygen back up as it disappears, and you never see the decline at all. An ordinary greenhouse would never have noticed. A normal sealed lab would never have noticed.",
+  img="b2_greenhouse_1", query="ordinary commercial greenhouse glass interior", stock=True, tone="tension")
+s(id="k5", text="Biosphere Two leaked less than ten percent in a year. It was, by a wide margin, tight enough to detect its own suffocation.",
+  kinetic={"words": ["Tight", "enough", "to", "detect", "its", "own", "suffocation."]},
+  video="b2_glass_1.mp4", videoQuery="Biosphere 2 space frame glazing lattice interior looking up",
+  extraHold=30, tone="awe")
+s(id="k6", text="And here is the detail that finishes the argument, and it is a sad one.",
+  img="b2_present_2", query="Biosphere 2 facility exterior modern day", tone="melancholy")
+s(id="k7", text="After nineteen ninety six, when the project changed hands and the building was reconfigured for a different kind of research, they stopped maintaining that seal. The leak rate degraded to somewhere between one and two percent a day. About fifty times worse.",
+  img="b2_present_2", query="Biosphere 2 facility exterior modern day", tone="melancholy")
+s(id="k8", text="Which means the experiment that made Biosphere Two famous, the one thing it discovered that nobody else could have discovered, could never have been detected in the building it became.",
+  extraHold=28, img="b2_present_2", query="Biosphere 2 facility exterior modern day", tone="melancholy")
+s(id="k9", text="It got exactly one chance to find that out, and the reason it found it is the thing everyone was laughing at. The obsessive, expensive, ridiculous tightness of the seal.",
+  video="b2_wide_2.mp4", videoQuery="Biosphere 2 exterior aerial glass domes Arizona", tone="melancholy")
+
+# ============ CHAPTER 10 — THE FALL (compressed, per channel constraint) ============
+s(id="c10", chapter="THE DOOR OPENS FROM OUTSIDE", img="b2_door_3", query="Biosphere 2 airlock door entrance", cap="Chapter ten.")
+s(id="l1", text="They came out on the twenty sixth of September, nineteen ninety three. Two years and about twenty minutes.",
+  stat="SEPT 26, 1993", img="b2_crew_1", query="Biosphere 2 crew biospherians 1991", tone="melancholy")
+s(id="l2", text="Abigail Alling was first out. A reporter watching noted that she appeared to be trying to catch her breath as she stepped to the microphone. What she managed to say was, it's really a very different atmosphere.",
+  img="b2_press_1", query="press conference microphones 1990s reporters", stock=True,
+  source="Arizona Daily Star, Sept. 27, 1993", extraHold=22, tone="melancholy")
+s(id="l3", text="They had also, by then, stopped speaking to each other. The eight had split into two groups of four.",
+  img="b2_crew_2", query="Biosphere 2 biospherians crew portrait", tone="dread")
+s(id="l4", text="I want to be careful here, because the crew member who wrote the peer reviewed paper about that split deliberately declined to name who was on which side, and I am not going to do what he chose not to.",
+  img="b2_crew_2", query="Biosphere 2 biospherians crew portrait", tone="unease")
+s(id="l5", text="What is on the record is what the fight was about, and it is not what you would expect. It was not cabin fever. It was an argument that came from outside.",
+  img="b2_hero", query="Biosphere 2 Arizona glass structure", tone="tension")
+s(id="l6", text="The project's owners were at war over the direction of the whole enterprise, and that war propagated inside. One group wanted to hold the closure absolutely. The other wanted to loosen it, import food, free up time for more conventional research.",
+  img="b2_habitat_1", query="Crew Quarters Biosphere 2 living space", tone="tension")
+s(id="l7", text="Nelson compared it to the oldest argument on any Antarctic expedition. The sailors against the scientists.",
+  img="b2_habitat_1", query="Crew Quarters Biosphere 2 living space", tone="melancholy")
+s(id="l8", text="Six months later, that war came for the building.",
+  img="b2_door_3", query="Biosphere 2 airlock door entrance", extraHold=20, tone="dread")
+s(id="l9", text="A second crew of seven was sealed in on the sixth of March, nineteen ninety four. On the first of April, federal marshals arrived with a restraining order and removed the entire on site management team. The new crew, told what was happening, initially thought it was an April Fool's joke.",
+  stat="APRIL 1, 1994", img="b2_marshal_1", query="federal court restraining order legal documents", stock=True, tone="dread")
+s(id="l10", text="Ed Bass put a banker in charge. A man who ran a Beverly Hills investment firm, and who would become considerably more famous two decades later, named Steve Bannon.",
+  img="b2_press_1", query="press conference microphones 1990s reporters", stock=True, tone="unease")
+s(id="l11", text="Three days after that, at three in the morning, two members of the original eight came back to the building they had lived inside for two years, and opened it.",
+  img="b2_door_3", query="Biosphere 2 airlock door entrance", tone="dread")
+s(id="l12", text="Abigail Alling and Mark Van Thillo opened one double airlock and three emergency exits and left them open for about fifteen minutes. Roughly a tenth of the sealed atmosphere exchanged with the Arizona air. Five panes of glass were broken.",
+  stat="APRIL 4, 1994 — 3 A.M.", img="b2_glass_5", query="broken glass pane shattered window", stock=True,
+  extraHold=24, tone="dread")
+s(id="l13", text="They had been suspended three days earlier. Alling's account, on the record, is this. I considered the Biosphere to be in an emergency state. In no way was it sabotage. It was my responsibility.",
+  img="b2_door_3", query="Biosphere 2 airlock door entrance",
+  cap="“In no way was it sabotage.”", tone="unease")
+s(id="l14", text="The company called it sabotage and was still calling it that two years later. Both of those are positions held by living people and I am not going to pick between them for you.",
+  img="b2_press_1", query="press conference microphones 1990s reporters", stock=True, tone="unease")
+s(id="l15", text="They were charged with burglary, trespassing and criminal damage, and released on twenty five thousand dollars bail each. And I have to be straight with you about something, because it matters.",
+  img="b2_marshal_1", query="federal court restraining order legal documents", stock=True, tone="unease")
+s(id="l16", text="I could not find out what happened to those charges. Two separate research passes, and the disposition of that criminal case is not in the public record I can reach. No verdict, no plea, no dismissal. So I am not going to imply one.",
+  img="b2_marshal_1", query="federal court restraining order legal documents", stock=True, extraHold=22, tone="unease")
+s(id="l17", text="What I do know is that in June nineteen ninety six a jury in Florence, Arizona found in their favour in a separate civil case, over being fired. The Associated Press reported the award as nearly five hundred and twenty thousand dollars in lost wages. The same jury ordered them to pay the company forty thousand and eighty nine dollars for the damage they had done.",
+  img="b2_court_1", query="courthouse Arizona county court building", stock=True, tone="melancholy")
+s(id="l18", text="The second mission was shut down early, on the sixth of September, nineteen ninety four. Nobody was ever sealed inside Biosphere Two again.",
+  extraHold=26, video="b2_wide_2.mp4", videoQuery="Biosphere 2 exterior aerial glass domes Arizona", tone="melancholy")
+json.dump(S, open('scratchpad/bio2/part6.json','w'), indent=1)
+print("part6 scenes:", len(S), "words:", sum(len((x.get('text') or '').split()) for x in S))

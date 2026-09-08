@@ -1,0 +1,360 @@
+biosphere2: niche=history target=2160p — 62 image prefix(es), 9 video prefix(es)
+  IMG b2_hero: 'Biosphere 2 Arizona glass structure'
+    !! thin pool (0) — reword the query or fetch by hand
+  IMG synergia_1: 'New Mexico desert ranch adobe buildings' [stock]
+  !! MISMATCH (vision check): Sunlit adobe buildings under a clear blue sky in S — MIS
+  -> synergia_1_1.jpeg  [pexels/free]  A rustic adobe building with a wooden ladder under a blu
+  -> synergia_1_2.jpeg  [pexels/free]  An adobe style building with a clear blue sky in Albuque
+  -> synergia_1_3.jpeg  [pexels/free]  Rustic adobe wall with wildflowers in Mora, New Mexico, 
+  IMG allen_1: 'John P. Allen Biosphere 2 founder'
+    !! thin pool (0) — reword the query or fetch by hand
+  IMG allen_2: 'John P. Allen Institute of Ecotechnics'
+    !! thin pool (0) — reword the query or fetch by hand
+  IMG heraclitus_1: 'RV Heraclitus research vessel Institute of Ecotechnics'
+    !! thin pool (0) — reword the query or fetch by hand
+  IMG bass_1: 'Fort Worth Texas oil wealth 1970s' [stock]
+  -> bass_1_1.jpeg  [pexels/free]  Urban cityscape of buildings in Fort Worth, Texas showca
+  !! MISMATCH (vision check): Dramatic sunset view of Fort Worth, Texas skyline. — MISMATCH
+  !! MISMATCH (vision check): Dynamic urban skyline of Fort Worth, Texas, featur — MISMATCH
+  -> bass_1_2.jpeg  [pexels/free]  A view of skyscrapers and reflections in downtown Fort W
+  !! MISMATCH (vision check): Stunning cityscape of Fort Worth, Texas featuring  — MISMATCH
+  !! MISMATCH (vision check): View of the historic Fort Worth Stockyards with bu — MISMATCH
+  -> bass_1_3.jpeg  [pexels/free]  Brick facade of Fort Worth Stockyards building with Amer
+  IMG b2_construct_1: 'Biosphere 2 construction steel frame'
+    !! thin pool (0) — reword the query or fetch by hand
+  IMG villagevoice_1: 'newspaper printing press 1990s newsroom' [stock]
+  !! MISMATCH (vision check): Workers at a newspaper printing press reading fres — MISMATCH
+  !! MISMATCH (vision check): A person reads a newspaper in a room with walls co — MISMATCH
+  !! MISMATCH (vision check): Two men engaged in reading a newspaper indoors, fo — MIS
+  !! MISMATCH (vision check): letters, printing press, metal letters, print, pri — MISMATCH
+  !! MISMATCH (vision check): pressure, printing house, print, printer, four col — MIS
+  !! MISMATCH (vision check): typewriter, press, newspaper, machine, write, vint — MISMATCH
+  -> villagevoice_1_1.jpg  [pixabay/free]  newspapers, leeuwarder current, press, news, newspaper, 
+  !! MISMATCH (vision check): newspapers, leeuwarder current, press, news, newsp — MISMATCH
+  !! MISMATCH (vision check): news, daily newspaper, press, newspapers, informat — MIS
+  !! MISMATCH (vision check): press, journalist, photographer, news, headlines,  — MISMATCH
+  !! MISMATCH (vision check): truck, pickup, chevrolet, cheve, s10, 1993, 1990s, — MISMATCH
+  !! MISMATCH (vision check): vehicle, pickup, truck, chevy, s10, chevrolet, old — MIS
+    !! thin pool (1) — reword the query or fetch by hand
+  IMG prance_1: 'Kew Gardens botanist greenhouse rainforest' [stock]
+  -> prance_1_1.jpeg  [pexels/free]  Explore the lush interior of London’s iconic Kew Gardens
+  -> prance_1_2.jpeg  [pexels/free]  A beautiful shot of the glass conservatories surrounded 
+  -> prance_1_3.jpeg  [pexels/free]  Explore the vibrant plant life inside London's iconic Ke
+  IMG b2_rainforest_1: 'Rainforest Biome Biosphere 2 interior'
+  !! MISMATCH (vision check): Mata atlantica Paulista, com vista da Serra do Mar — MISMATCH
+    !! thin pool (0) — reword the query or fetch by hand
+  IMG b2_construct_2: 'Biosphere 2 construction 1980s glass panels'
+    !! thin pool (0) — reword the query or fetch by hand
+  IMG b2_lung_1: 'Biosphere 2 Lung interior dome'
+    !! thin pool (0) — reword the query or fetch by hand
+  IMG b2_ocean_1: 'The Ocean Biosphere 2 coral reef interior'
+    !! thin pool (0) — reword the query or fetch by hand
+  IMG b2_agri_1: 'Biosphere 2 agriculture crops interior greenhouse'
+    !! thin pool (0) — reword the query or fetch by hand
+  IMG b2_seal_2: 'industrial silicone caulk seal glazing joint' [stock]
+  !! MISMATCH (vision check): Modern architectural design featuring blue glass a — MISMATCH
+  -> b2_seal_2_1.jpeg  [pexels/free]  Crop unrecognizable workman in glove applying caulk from
+  !! MISMATCH (vision check): Close-up of a blue gate valve on red pipes, showca — MISMATCH
+  !! MISMATCH (vision check): seal, swim, aquatic animals, joint, howler, robbe, — MIS
+  !! MISMATCH (vision check): seal, swim, aquatic animals, joint, howler, robbe, — MIS
+  !! MISMATCH (vision check): hydrogen seal, mechanical, industrial, industry, s — MISMATCH
+  !! MISMATCH (vision check): balloons, date of birth, balloon, rubber, to celeb — MIS
+  !! MISMATCH (vision check): seal, animal, nature, sleep, coast — MISMATCH
+  !! MISMATCH (vision check): beach, lighthouse, seals, north sea, island, sand, — MISMATCH
+  !! MISMATCH (vision check): gray seal, seal, halichoerus grypus, beach, nature — MIS
+  !! MISMATCH (vision check): water, snout, aquarium, nature, sealing station, e — MISMATCH
+  !! MISMATCH (vision check): solomon's seal, olygonatum odoratum, forest plant, — MIS
+    !! thin pool (1) — reword the query or fetch by hand
+  IMG b2_tech_1: 'Biosphere 2 technosphere basement machinery pipes'
+    !! thin pool (0) — reword the query or fetch by hand
+  IMG b2_glass_4: 'Biosphere 2 Architecture glass space frame'
+    !! thin pool (0) — reword the query or fetch by hand
+  IMG b2_lung_2: 'Biosphere 2 Lung dome exterior structure'
+    !! thin pool (0) — reword the query or fetch by hand
+  IMG b2_lung_3: 'Biosphere 2 lung diaphragm mechanism interior'
+    !! thin pool (0) — reword the query or fetch by hand
+  IMG b2_desert_1: 'Desert Zone Biosphere 2 fog desert interior'
+    !! thin pool (0) — reword the query or fetch by hand
+  IMG b2_kitchen_1: 'Kitchen Biosphere 2 residents interior'
+    !! thin pool (0) — reword the query or fetch by hand
+  IMG b2_crew_1: 'Biosphere 2 crew biospherians 1991'
+    !! thin pool (0) — reword the query or fetch by hand
+  IMG b2_crew_2: 'Biosphere 2 biospherians crew portrait'
+    !! thin pool (0) — reword the query or fetch by hand
+  IMG b2_agri_2: 'banana leaves lemon tree greenhouse interior'
+    !! thin pool (0) — reword the query or fetch by hand
+  IMG b2_agri_3: 'crop pests mites plant damage agriculture' [stock]
+  !! MISMATCH (vision check): Close-up of a red velvet mite exploring the vibran — MIS
+  -> b2_agri_3_1.jpeg  [pexels/free]  Detailed macro shot of green aphids clustered on a textu
+  !! MISMATCH (vision check): wheat, crop, field, grain, plant, agriculture, rur — MISMATCH
+  !! MISMATCH (vision check): farmer, wheat, crop, agriculture, field, nature, h — MIS
+  !! MISMATCH (vision check): wheat, grain, field, harvest, summery, clear sky,  — MISMATCH
+  -> b2_agri_3_2.jpg  [pixabay/free]  corn, food, field, vegetable, corncob, corn on the cob, 
+  !! MISMATCH (vision check): wheat ear, blue sky, agriculture, nature, harvest, — MIS
+  !! MISMATCH (vision check): corn field, farm, clouds, crop, blue sky, plantati — MISMATCH
+  !! MISMATCH (vision check): nature, landscape, czech, field, rows, grass, rura — MISMATCH
+  !! MISMATCH (vision check): wheat, cornfield, nature, sunset, grain, cereal, f — MISMATCH
+  -> b2_agri_3_3.jpg  [pixabay/free]  summer, nature, grain, agriculture, grain field, food
+  IMG b2_kitchen_2: 'empty plates table kitchen interior' [stock]
+  !! MISMATCH (vision check): Elegant kitchen interior featuring minimalist desi — MISMATCH
+  -> b2_kitchen_2_1.jpeg  [pexels/free]  Interior of bright modern kitchen with cupboards near ch
+  !! MISMATCH (vision check): Warmly lit table setting with porcelain bowls and  — MIS
+  !! MISMATCH (vision check): A cozy restaurant kitchen scene showcasing culinar — MISMATCH
+  -> b2_kitchen_2_2.jpeg  [pexels/free]  Artistic still life of empty glass cups on a plate with 
+  -> b2_kitchen_2_3.jpeg  [pexels/free]  Contemporary dining setting with stylish tableware in a 
+  IMG b2_lab_2: 'medical examination laboratory doctor 1990s' [stock]
+  !! MISMATCH (vision check): A woman conducts a medical examination on a man in — MISMATCH
+  -> b2_lab_2_1.jpeg  [pexels/free]  Close-up of a man receiving eye examination with medical
+  !! MISMATCH (vision check): Elderly male doctor in white coat and cap examinin — MISMATCH
+  -> b2_lab_2_2.jpeg  [pexels/free]  A man participating in a technological eye examination, 
+  !! MISMATCH (vision check): Medical professional writing patient notes on clip — MISMATCH
+  !! MISMATCH (vision check): A nurse performs a blood test on a seated female p — MIS
+  !! MISMATCH (vision check): A scientist examines a patient in a sterile labora — MIS
+  -> b2_lab_2_3.jpeg  [pexels/free]  Medical professionals reviewing a hip x-ray, highlightin
+  IMG b2_paper_1: 'scientific journal paper printed pages' [stock]
+  !! MISMATCH (vision check): Close-up of a man reading a magazine indoors, focu — MISMATCH
+  !! MISMATCH (vision check): Monochrome close-up of book pages with German text — MISMATCH
+  !! MISMATCH (vision check): Close-up view of stacked vintage newspapers with y — MISMATCH
+  !! MISMATCH (vision check): Open grid notebook with overlay of vintage book pa — MISMATCH
+  !! MISMATCH (vision check): An artistic flat lay of vintage stationery and pag — MIS
+  !! MISMATCH (vision check): journal, write, blank, pages, notes, notebook, dia — MIS
+  !! MISMATCH (vision check): notebook, empty, paper, pages, open notebook, jour — MISMATCH
+  !! MISMATCH (vision check): book, paper, document, page, literature, reading g — MIS
+  !! MISMATCH (vision check): glasses, reading, books, focus, education, read, p — MIS
+  !! MISMATCH (vision check): book, pages, book page, heart, paper, read, open,  — MIS
+  !! MISMATCH (vision check): book, literature, reading, library, twine, vintage — MIS
+  !! MISMATCH (vision check): valentines day background, paper, heart, symbol, r — MIS
+  !! MISMATCH (vision check): notepad, sketch pad, sketchbook, empty, page, pape — MISMATCH
+    !! thin pool (0) — reword the query or fetch by hand
+  IMG b2_ant_1: 'crazy ant Paratrechina longicornis macro'
+    !! thin pool (0) — reword the query or fetch by hand
+  IMG b2_mangrove_1: 'Mangroves Biosphere 2 interior wetland'
+    !! thin pool (0) — reword the query or fetch by hand
+  IMG b2_ant_2: 'ants swarming colony macro insects' [stock]
+  -> b2_ant_2_1.jpeg  [pexels/free]  A large colony of ants swarming over a piece of food out
+  !! MISMATCH (vision check): A close-up macro shot of ants swarming on a green  — MISMATCH
+  !! MISMATCH (vision check): Close-up image of multiple ants swarming a piece o — MISMATCH
+  -> b2_ant_2_2.jpeg  [pexels/free]  Macro photograph showcasing a colony of red ants in Burs
+  -> b2_ant_2_3.jpeg  [pexels/free]  A close-up photograph of a moving colony of ants on the 
+  IMG b2_roach_1: 'cockroach macro insect detritus' [stock]
+  -> b2_roach_1_1.jpeg  [pexels/free]  Macro photograph of a cockroach on a leaf, showcasing de
+  -> b2_roach_1_2.jpeg  [pexels/free]  Macro shot of a German cockroach feeding on sugar crysta
+  -> b2_roach_1_3.jpeg  [pexels/free]  Detailed macro shot of a cockroach perched on a plant in
+  IMG b2_lab_1: 'scientist analytical laboratory glassware testing air samples'
+    !! thin pool (0) — reword the query or fetch by hand
+  IMG b2_chart_1: 'line graph declining chart scientific data' [stock]
+  -> b2_chart_1_1.jpeg  [pexels/free]  Close-up of a neon blue line chart on a grid, symbolizin
+  -> b2_chart_1_2.jpeg  [pexels/free]  Colorful stock market graph displaying trend lines and d
+  -> b2_chart_1_3.jpeg  [pexels/free]  Financial chart with ascending trends on a grid backgrou
+  IMG b2_habitat_1: 'Crew Quarters Biosphere 2 living space'
+    !! thin pool (0) — reword the query or fetch by hand
+  IMG b2_mountain_1: 'mountaineer high altitude thin air summit' [stock]
+  -> b2_mountain_1_1.jpeg  [pexels/free]  A lone hiker in winter gear stands on a snowy mountain s
+  !! MISMATCH (vision check): nice, summit, sunset, ortler, summit cross, south- — MIS
+  -> b2_mountain_1_2.jpg  [pixabay/free]  backcountry skiiing, summit, nature, rockclimbing, alpin
+  !! MISMATCH (vision check): clouds, mountain, mountain peak, cold, landscape,  — MISMATCH
+  -> b2_mountain_1_3.jpg  [pixabay/free]  man, mountains, backpacker, mountaineer, mountaineering,
+  IMG b2_habitat_2: 'oxygen line medical tubing bedroom' [stock]
+  !! MISMATCH (vision check): A detailed view of an oxygen outlet on a medical w — MIS
+  -> b2_habitat_2_1.jpeg  [pexels/free]  Close-up of a mounted medical oxygen supply outlet in a 
+  !! MISMATCH (vision check): Close-up of a medical oxygen valve in a healthcare — MISMATCH
+  -> b2_habitat_2_2.jpeg  [pexels/free]  A woman in a hospital bed wearing an oxygen tube, expres
+  -> b2_habitat_2_3.jpeg  [pexels/free]  A woman in a hospital gown lying in bed with nasal oxyge
+  IMG b2_door_3: 'Biosphere 2 airlock door entrance'
+    !! thin pool (0) — reword the query or fetch by hand
+  IMG b2_press_1: 'press conference microphones 1990s reporters' [stock]
+  !! MISMATCH (vision check): Various microphones setup at a press conference in — MISMATCH
+  !! MISMATCH (vision check): Confident businessman answering questions from the — MISMATCH
+  !! MISMATCH (vision check): African American businessman in formal attire bein — MISMATCH
+  !! MISMATCH (vision check): A spokesperson engages with media during an outdoo — MISMATCH
+  !! MISMATCH (vision check): Senior man in formal attire being interviewed in a — MIS
+  -> b2_press_1_1.jpeg  [pexels/free]  A journalist interviews a businessman in a conference ro
+  !! MISMATCH (vision check): Businessman in suit speaking to journalists with m — MISMATCH
+  !! MISMATCH (vision check): cameras, filming, media, reporters, conference, vi — MISMATCH
+  !! MISMATCH (vision check): truck, pickup, chevrolet, cheve, s10, 1993, 1990s, — MIS
+  !! MISMATCH (vision check): vehicle, pickup, truck, chevy, s10, chevrolet, old — MIS
+  !! MISMATCH (vision check): hongkong, press, media, camera, work, news, sound, — MISMATCH
+  -> b2_press_1_2.jpg  [pixabay/free]  woman, journalist, reporter, press, news, reportage, jou
+  -> b2_press_1_3.jpg  [pixabay/free]  laptop, conference table, mouse, work, business, online,
+  IMG b2_bag_1: 'duffel bag canvas holdall' [stock]
+  -> b2_bag_1_1.jpeg  [pexels/free]  Young man with blonde hair and eyeglasses holding a duff
+  -> b2_bag_1_2.jpeg  [pexels/free]  Young man playfully holding a purple duffel bag in a lus
+  -> b2_bag_1_3.jpeg  [pexels/free]  Fashionable man in coat holding a duffel bag with modern
+  IMG b2_seal_3: 'lead wire security seal tamper indicator' [stock]
+  !! MISMATCH (vision check): A green combination lock is attached to a wire fen — MIS
+  !! MISMATCH (vision check): Close-up of glass door with latch secured by makes — MISMATCH
+  -> b2_seal_3_1.jpeg  [pexels/free]  Close-up of a yellow numbered seal on a pebble beach, cr
+  !! MISMATCH (vision check): Green wire loop with padlock hanging on a rustic,  — MISMATCH
+  !! MISMATCH (vision check): Close-up view of Ethernet ports with cables and il — MISMATCH
+  -> b2_seal_3_2.jpg  [pixabay/free]  barbed wire, jail, fence, security, barrier, to back up,
+  !! MISMATCH (vision check): barb wire, barbed wire, fence, security, wire, bar — MIS
+  !! MISMATCH (vision check): barbed wire, fence, wire, delimitation, security,  — MISMATCH
+  !! MISMATCH (vision check): barbed wire, wire, fence, forbidden, jail, enclosu — MISMATCH
+  !! MISMATCH (vision check): barbed wire, barb wire, wire, metal, boundary, poi — MISMATCH
+  !! MISMATCH (vision check): wind sock, pole, sky, air bag, weather, striped, w — MISMATCH
+  !! MISMATCH (vision check): solomon's seal, olygonatum odoratum, forest plant, — MISMATCH
+  -> b2_seal_3_3.jpg  [pixabay/free]  chain link, mac wallpaper, fence, sunset, wire, steel fe
+  IMG b2_tech_2: 'industrial chemical scrubber tank machinery' [stock]
+  -> b2_tech_2_1.jpeg  [pexels/free]  Rusty industrial tank emitting smoke with workers on sit
+  -> b2_tech_2_2.jpeg  [pexels/free]  Close-up of industrial factory pipes and metal structure
+  !! MISMATCH (vision check): Orange floating buoy in a water body near an indus — MIS
+  !! MISMATCH (vision check): Modern industrial storage tanks with walkways agai — MISMATCH
+  !! MISMATCH (vision check): Top-down view of an industrial waste management fa — MISMATCH
+  -> b2_tech_2_3.jpeg  [pexels/free]  Drone view of industrial area with barrels for petroleum
+  IMG b2_furnace_1: 'industrial electric furnace heating element' [stock]
+  -> b2_furnace_1_1.jpeg  [pexels/free]  Detailed view of a glowing electric heating element with
+  !! MISMATCH (vision check): A close-up view of an industrial furnace with glow — MISMATCH
+  -> b2_furnace_1_2.jpeg  [pexels/free]  Close-up of metal being heated in a blacksmith forge, sh
+  -> b2_furnace_1_3.jpeg  [pexels/free]  Fiery glassmaking process in a Dar es Salaam factory sho
+  IMG b2_paper_2: 'handwritten column of figures numbers page' [stock]
+  !! MISMATCH (vision check): A magnifying glass highlighting mathematical data  — MIS
+  -> b2_paper_2_1.jpeg  [pexels/free]  Close-up of a vintage handwritten ledger detailing finan
+  -> b2_paper_2_2.jpeg  [pexels/free]  An open ledger book showing yellowing pages and handwrit
+  !! MISMATCH (vision check): A vintage open journal with elegant handwritten sc — MISMATCH
+  -> b2_paper_2_3.jpeg  [pexels/free]  Detailed close-up of handwritten text and lines on paper
+  IMG b2_concrete_1: 'bare concrete wall texture industrial'
+    !! thin pool (0) — reword the query or fetch by hand
+  IMG b2_soil_1: 'dark rich soil organic matter close up' [stock]
+  -> b2_soil_1_1.jpeg  [pexels/free]  Close-up of a delicate white petal resting on dark, rich
+  -> b2_soil_1_2.jpeg  [pexels/free]  A small green plant sprouts from dark, rich soil, symbol
+  -> b2_soil_1_3.jpeg  [pexels/free]  Close-up macro photography of dark, damp soil texture wi
+  IMG b2_chem_1: 'chemical equation chalkboard chemistry formula' [stock]
+  -> b2_chem_1_1.jpeg  [pexels/free]  Two scientists in lab coats writing and discussing chemi
+  -> b2_chem_1_2.jpeg  [pexels/free]  A close-up view of complex mathematical and chemical for
+  -> b2_chem_1_3.jpeg  [pexels/free]  Intricate mathematical and chemical equations chalked on
+  IMG b2_scientist_1: 'geochemist laboratory isotope mass spectrometer' [stock]
+  !! MISMATCH (vision check): Close-up of advanced machinery in a modern laborat — MIS
+  -> b2_scientist_1_1.jpeg  [pexels/free]  Interior view of a high-tech laboratory with cutting-edg
+  -> b2_scientist_1_2.jpeg  [pexels/free]  Spacious research laboratory interior with advanced equi
+  !! MISMATCH (vision check): State-of-the-art laboratory machinery and equipmen — MISMATCH
+  !! MISMATCH (vision check): A well-equipped laboratory with a microscope and l — MISMATCH
+  !! MISMATCH (vision check): Image of a laboratory setup with glass condensers  — MISMATCH
+  !! MISMATCH (vision check): Scientist in PPE examining a green liquid in a lab — MIS
+  !! MISMATCH (vision check): Close-up of metal laboratory apparatus in a steril — MISMATCH
+  !! MISMATCH (vision check): pharmacy, isolated, health, medicine, bottle, chem — MISMATCH
+  -> b2_scientist_1_3.jpg  [pixabay/free]  canyon, water, stream, flow, rock, nature, wilderness, a
+  IMG b2_concrete_2: 'concrete curing wall surface texture close' [stock]
+  -> b2_concrete_2_1.jpeg  [pexels/free]  A detailed close-up of a rough and textured concrete wal
+  !! MISMATCH (vision check): Close-up of a beige textured plaster wall surface, — MISMATCH
+  !! MISMATCH (vision check): Close-up of a rough, weathered concrete wall with  — MIS
+  -> b2_concrete_2_2.jpeg  [pexels/free]  Detailed view of textured concrete wall with rough, rugg
+  -> b2_concrete_2_3.jpeg  [pexels/free]  Close-up of a textured plaster wall showing rough surfac
+  IMG b2_greenhouse_1: 'ordinary commercial greenhouse glass interior' [stock]
+  !! MISMATCH (vision check): Spacious greenhouse interior featuring a glass cei — MIS
+  !! MISMATCH (vision check): Interior view of a large greenhouse filled with po — MIS
+  !! MISMATCH (vision check): Bright interior of a tropical greenhouse filled wi — MIS
+  !! MISMATCH (vision check): Explore a thriving greenhouse filled with hanging  — MIS
+  !! MISMATCH (vision check): Indoor view of a modern greenhouse with glass stru — MIS
+  !! MISMATCH (vision check): Vibrant tulip plants growing in a traditional gree — MIS
+  !! MISMATCH (vision check): Vibrant greenhouse filled with various green plant — MISMATCH
+  -> b2_greenhouse_1_1.jpeg  [pexels/free]  Vibrant potted plants in a spacious greenhouse under a s
+  !! MISMATCH (vision check): stained glass, glass, window, colorful, stained gl — MISMATCH
+  !! MISMATCH (vision check): greenhouse, nature, garden, glass — MISMATCH
+  !! MISMATCH (vision check): library, architecture, books, interior, interior d — MISMATCH
+  !! MISMATCH (vision check): architecture, building, library, glass windows, bo — MISMATCH
+  !! MISMATCH (vision check): church, stained glass, cathedral, architecture, ch — MISMATCH
+  !! MISMATCH (vision check): church, window, stained glass, stained glass windo — MISMATCH
+  !! MISMATCH (vision check): tulips, flower wallpaper, greenhouse, flowers, dre — MIS
+    !! thin pool (1) — reword the query or fetch by hand
+  IMG b2_present_2: 'Biosphere 2 facility exterior modern day'
+    !! thin pool (0) — reword the query or fetch by hand
+  IMG b2_marshal_1: 'federal court restraining order legal documents' [stock]
+  !! MISMATCH (vision check): Female judge in a courtroom setting, focusing on l — MISMATCH
+  !! MISMATCH (vision check): A judge in a courtroom holding a gavel, focused on — MIS
+  !! MISMATCH (vision check): A focused judge writing on documents beside a Lady — MIS
+  !! MISMATCH (vision check): Close-up of a law book on a podium in a conference — MIS
+  !! MISMATCH (vision check): A legal gavel next to a 'Not Guilty' document on a — MISMATCH
+  !! MISMATCH (vision check): munich, architecture, court of justice, the federa — MISMATCH
+  -> b2_marshal_1_1.jpg  [pixabay/free]  gavel, auction, law, hammer, symbol, judge, legal, justi
+  !! MISMATCH (vision check): hammer, books, law, dish, lawyer, paragraphs, regu — MIS
+  !! MISMATCH (vision check): hammer, books, law, dish, lawyer, paragraphs, regu — MISMATCH
+  !! MISMATCH (vision check): right, advocacy, lex, attorney, jura, justice, the — MISMATCH
+  -> b2_marshal_1_2.jpg  [pixabay/free]  binding contract, contract, secure, agreement, binding, 
+  !! MISMATCH (vision check): justice, statue, lady justice, greek mythology, th — MISMATCH
+  IMG b2_glass_5: 'broken glass pane shattered window' [stock]
+  -> b2_glass_5_1.jpeg  [pexels/free]  Intricate broken glass with a blurred background, captur
+  -> b2_glass_5_2.jpeg  [pexels/free]  A moody sunset seen through a broken window glass, creat
+  !! MISMATCH (vision check): Shattered glass panel in a grid facade, revealing  — MISMATCH
+  -> b2_glass_5_3.jpeg  [pexels/free]  Close-up of shattered glass panels at a city bus stop, d
+  IMG b2_court_1: 'courthouse Arizona county court building' [stock]
+  !! MISMATCH (vision check): Classic façade of Frontenac County Court House, sh — MIS
+  !! MISMATCH (vision check): Front view of the historic Mason County Courthouse — MIS
+  -> b2_court_1_1.jpeg  [pexels/free]  Classic architectural design of Mason County Courthouse,
+  !! MISMATCH (vision check): Capture of a historical courthouse building with a — MISMATCH
+  !! MISMATCH (vision check): The iconic Ellis County Courthouse in Waxahachie f — MISMATCH
+  !! MISMATCH (vision check): Low angle view of Milam County Courthouse against  — MISMATCH
+  !! MISMATCH (vision check): Black and white photo of a historic courthouse in  — MIS
+  !! MISMATCH (vision check): Black and white photo of the historic Hampton Cour — MISMATCH
+  -> b2_court_1_2.jpeg  [pexels/free]  South Dade Justice Center and Government Building facade
+  !! MISMATCH (vision check): federal administrative court, leipzig, facade, sig — MIS
+  -> b2_court_1_3.jpg  [pixabay/free]  inyo county, courthouse, architecture, building, califor
+  IMG b2_earth_1: 'Earth from space blue marble' [stock]
+  -> b2_earth_1_1.png  [pexels/free]  Breathtaking image of Earth from space showcasing the va
+  -> b2_earth_1_2.png  [pexels/free]  A breathtaking view of Earth from space, showcasing the 
+  !! MISMATCH (vision check): Beautiful Earth from space showcasing continents a — MIS
+  -> b2_earth_1_3.jpeg  [pexels/free]  A breathtaking view of planet Earth from outer space, sh
+  IMG b2_hubble_1: 'Hubble Space Telescope in orbit' [stock]
+  !! MISMATCH (vision check): Vivid image of a nebula with colorful gas clouds i — MISMATCH
+  -> b2_hubble_1_1.jpg  [pexels/free]  A SpaceX satellite hovering over Earth's horizon in oute
+  -> b2_hubble_1_2.jpeg  [pexels/free]  Explore the mesmerizing spiral galaxy filled with stars 
+  !! MISMATCH (vision check): telescopic mirror, mirrors, telescope, space infra — MISMATCH
+  !! MISMATCH (vision check): james, 4k wallpaper 1920x1080, webb, telescope, fu — MIS
+  -> b2_hubble_1_3.jpg  [pixabay/free]  earth, moon, space, planet, world, blue planet, outer sp
+  IMG b2_leo_1: 'Landscape Evolution Observatory Biosphere 2'
+  -> b2_leo_1_1.jpg  [commons/by-sa]  Landscape Evolution Observatory (LEO) at Biosphere 2.jpg
+  -> b2_leo_1_2.jpg  [commons/by]  Landscape Evolution Observatory Slope - Flickr - treegro
+  -> b2_leo_1_3.jpg  [commons/by]  Under the Landscape Evolution Observatory Slope - Flickr
+  IMG b2_leo_2: 'cyanobacteria crust soil microbial mat' [stock]
+  !! MISMATCH (vision check): A close-up of cracked, dry soil illustrating droug — MIS
+  !! MISMATCH (vision check): bread, baked, loaf, bakery, baked goods, crust, fo — MIS
+  !! MISMATCH (vision check): bun, sesame, baked goods, baked, brown, crust, fre — MISMATCH
+  !! MISMATCH (vision check): pizza, italian, homemade, cheese, crust, delicious — MIS
+  -> b2_leo_2_1.jpg  [commons/by-sa]  Jan Kwiatowski & Iwona Jasser - Wyprawa po sine runo - 1
+    !! thin pool (1) — reword the query or fetch by hand
+  IMG b2_mars_1: 'Mars surface regolith red planet' [stock]
+  !! MISMATCH (vision check): Astronaut in space suit standing on red rocky terr — MISMATCH
+  -> b2_mars_1_1.jpeg  [pexels/free]  A high-resolution image capturing Mars with its surface 
+  !! MISMATCH (vision check): A barren and rocky desert landscape reminiscent of — MISMATCH
+  -> b2_mars_1_2.jpeg  [pexels/free]  High-resolution image of Mars shining in the vast univer
+  !! MISMATCH (vision check): Stunning image of Mars half-illuminated against th — MISMATCH
+  !! MISMATCH (vision check): Astronauts in space suits explore a rocky, desert- — MIS
+  -> b2_mars_1_3.jpeg  [pexels/free]  An astronaut stands on a barren, Mars-like terrain with 
+  IMG b2_coral_1: 'coral fragments reef restoration nursery' [stock]
+  !! MISMATCH (vision check): Stunning underwater view of a vibrant coral reef u — MIS
+  !! MISMATCH (vision check): Colorful coral reef showcasing marine biodiversity — MIS
+  !! MISMATCH (vision check): Colorful coral reef ecosystem showcasing diverse m — MIS
+  !! MISMATCH (vision check): Detailed close-up of colorful coral reef in the oc — MISMATCH
+  !! MISMATCH (vision check): A vibrant underwater coral reef showcasing diverse — MISMATCH
+  !! MISMATCH (vision check): Explore a vibrant coral reef teeming with colorful — MIS
+  !! MISMATCH (vision check): Detailed view of coastal coral and rocks on a beac — MISMATCH
+  !! MISMATCH (vision check): moorea, pacific ocean, clouds, ocean, ship, blue,  — MIS
+  !! MISMATCH (vision check): animal, aquarium, aquatic, coral, deep, fish, mari — MIS
+  -> b2_coral_1_1.jpg  [pixabay/free]  sea, ocean, fish, diving, coral reef, underwater, blue, 
+  !! MISMATCH (vision check): sea turtle, underwater, coral reef, nature, perspe — MISMATCH
+  !! MISMATCH (vision check): animal, turtle, nature, coral reef, ocean, sea, sw — MISMATCH
+  !! MISMATCH (vision check): water, corals, underwater, clear water, clown fish — MIS
+  !! MISMATCH (vision check): lemon butterflyfish, fishes, exotic, tropical, yel — MISMATCH
+  !! MISMATCH (vision check): fish, underwater, nature, corals, sea, ocean, cora — MIS
+  !! MISMATCH (vision check): plant, coral, underwater, ocean, sea, coral reef,  — MIS
+  -> b2_coral_1_2.jpg  [commons/pd]  FKNMS - coral nursery (27367671414).jpg
+  IMG b2_glass_6: 'hand pressed against glass window pane' [stock]
+  -> b2_glass_6_1.jpeg  [pexels/free]  A dramatic portrait of a woman looking through a glass w
+  !! MISMATCH (vision check): A hand holding an egg is seen through a window pan — MISMATCH
+  -> b2_glass_6_2.jpeg  [pexels/free]  Mysterious hands pressed against an aged window, evoking
+  -> b2_glass_6_3.jpeg  [pexels/free]  Silhouetted hands pressed against textured glass create 
+  IMG b2_sun_1: 'sun surface solar activity' [stock]
+  -> b2_sun_1_1.jpeg  [pexels/free]  Close-up of the sun with visible sunspots, showcasing so
+  -> b2_sun_1_2.jpeg  [pexels/free]  A high-resolution image capturing the Sun's surface with
+  -> b2_sun_1_3.png  [pexels/free]  Detailed image of the sun showing dark sunspots against 
+  VID b2_dawn: 'Biosphere 2 Oracle Arizona glass structure exterior'
+  VID b2_wide: 'Biosphere 2 glass pyramid ziggurat wide exterior desert'
+  VID b2_glass: 'Biosphere 2 space frame glazing lattice interior looking up'
+  VID b2_exterior: 'Biosphere 2 Arizona exterior glass panels sunlight'
+  VID b2_door: 'heavy steel airlock door closing industrial'
+  VID b2_seal: 'airtight seal gasket steel hatch closing'
+  VID b2_interior: 'Biosphere 2 interior rainforest biome under glass'
+  VID b2_lab: 'scientist analytical laboratory glassware testing air samples'
+  VID b2_present: 'Biosphere 2 today university research facility'
+
+contact sheet -> out/qa/docfootage_biosphere2_sheet.png  (EYEBALL IT)
+95 new file(s). Next: build_doc_vo.py biosphere2 --manifest-only && audit_scene_relevance.py biosphere2

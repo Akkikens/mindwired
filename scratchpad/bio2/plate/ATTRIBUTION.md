@@ -1,0 +1,2 @@
+- **plate_1.mp4** — aerial view of scottsdale desert landscape 34986207 — Pexels License (free commercial use) — Logan Voss — https://www.pexels.com/video/aerial-view-of-scottsdale-desert-landscape-34986207/
+- **plate_2.mp4** — aerial sunrise over scottsdale desert neighborhood 34984497 — Pexels License (free commercial use) — Logan Voss — https://www.pexels.com/video/aerial-sunrise-over-scottsdale-desert-neighborhood-34984497/
