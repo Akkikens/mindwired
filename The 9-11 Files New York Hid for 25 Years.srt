@@ -1,0 +1,808 @@
+1
+00:00:00,333 --> 00:00:02,710
+It is September eighteenth, two thousand one.
+
+2
+00:00:02,710 --> 00:00:07,804
+One week after the towers came down, sixteen acres of Lower Manhattan are still burning.
+
+3
+00:00:08,933 --> 00:00:14,811
+In Washington, the head of the Environmental Protection Agency puts out a statement about what the people down there are breathing.
+
+4
+00:00:15,933 --> 00:00:21,001
+It is one sentence long. Their air is safe to breathe, and their water is safe to drink.
+
+5
+00:00:22,133 --> 00:00:26,887
+Twenty five years later, that sentence is the most examined thing the agency has ever said.
+
+6
+00:00:28,033 --> 00:00:35,269
+Because two years after it was written, the agency's own internal watchdog looked at the data behind it, and found the data was not there yet.
+
+7
+00:00:36,400 --> 00:00:42,669
+And this week, after a court ordered it, New York City opened a filing cabinet it had kept shut for a quarter of a century.
+
+8
+00:00:43,800 --> 00:00:46,769
+This is a story about what officials said in the days after.
+
+9
+00:00:46,769 --> 00:00:50,481
+About what their own watchdog later found they did not know when they said it.
+
+10
+00:00:50,481 --> 00:00:53,204
+And about what the people who believed them are still paying.
+
+11
+00:00:54,333 --> 00:00:56,828
+Before we go further, one thing this is not.
+
+12
+00:00:56,828 --> 00:00:59,600
+This is not a story about how the towers fell.
+
+13
+00:00:59,600 --> 00:01:02,927
+That question has an engineering answer, and we have already covered it.
+
+14
+00:01:04,066 --> 00:01:06,025
+You're watching Black Box Breakdown.
+
+15
+00:01:07,166 --> 00:01:10,405
+The nine eleven files New York hid for twenty five years.
+
+16
+00:01:11,533 --> 00:01:16,366
+To understand the argument, you have to start with what was actually said, and when.
+
+17
+00:01:17,499 --> 00:01:21,198
+September thirteenth, two thousand one. Two days after the attack.
+
+18
+00:01:21,198 --> 00:01:26,746
+The Environmental Protection Agency issues its first public statement on the air over Lower Manhattan.
+
+19
+00:01:27,866 --> 00:01:30,073
+September sixteenth. A second release goes out.
+
+20
+00:01:30,073 --> 00:01:36,695
+It says the new samples confirm that ambient air quality meets Osha standards, and is not a cause for public concern.
+
+21
+00:01:37,833 --> 00:01:40,995
+September seventeenth. The New York Stock Exchange reopens.
+
+22
+00:01:40,995 --> 00:01:46,924
+It has been closed for four trading days, the longest shutdown since nineteen thirty three.
+
+23
+00:01:48,066 --> 00:01:49,523
+September eighteenth. The sentence.
+
+24
+00:01:49,523 --> 00:01:54,257
+Their air is safe to breathe, and their water is safe to drink.
+
+25
+00:01:55,399 --> 00:01:58,675
+Read it in twenty twenty six and it sounds like a lie.
+
+26
+00:01:58,675 --> 00:02:02,223
+Read it in September of two thousand one and it sounds like relief.
+
+27
+00:02:02,223 --> 00:02:05,771
+That gap is the whole story, and it is worth being careful about.
+
+28
+00:02:06,899 --> 00:02:10,815
+Because a statement being wrong, and a person lying, are two different findings.
+
+29
+00:02:10,815 --> 00:02:16,538
+Only one of them has ever been established here. Hold on to that. We will come back to it.
+
+30
+00:02:17,666 --> 00:02:20,670
+So what was in the air over Lower Manhattan that September?
+
+31
+00:02:21,800 --> 00:02:26,694
+Two towers, a hundred and ten stories each, did not fall as buildings.
+
+32
+00:02:26,694 --> 00:02:28,200
+They fell as powder.
+
+33
+00:02:28,200 --> 00:02:32,719
+Concrete, gypsum wallboard, and glass fiber, pulverized and thrown across the island.
+
+34
+00:02:33,866 --> 00:02:36,474
+The United States Geological Survey went and sampled it.
+
+35
+00:02:36,474 --> 00:02:43,427
+So did a team of environmental scientists led by Paul Lioy, whose work became the reference study on what that dust was made of.
+
+36
+00:02:44,566 --> 00:02:48,685
+The finding that matters most is not any single poison. It is the alkalinity.
+
+37
+00:02:48,685 --> 00:02:52,509
+The dust measured a pH between roughly nine and eleven and a half.
+
+38
+00:02:52,509 --> 00:02:56,922
+Chemically, that is closer to drain cleaner than to anything a lung is built for.
+
+39
+00:02:58,066 --> 00:03:02,820
+Responders had a name for what it did to them within days. The World Trade Center cough.
+
+40
+00:03:03,966 --> 00:03:11,143
+On top of the caustic base: asbestos, from the fireproofing sprayed on the North Tower's lower floors.
+
+41
+00:03:11,143 --> 00:03:11,987
+Lead. Dioxins.
+
+42
+00:03:11,987 --> 00:03:17,053
+Polycyclic aromatic hydrocarbons, thrown off by fires that burned for three months.
+
+43
+00:03:18,199 --> 00:03:26,029
+And the particles themselves were unusually large and unusually rough, which meant they lodged high in the airway instead of passing through.
+
+44
+00:03:26,029 --> 00:03:29,588
+The dust was engineered, by accident, to stay in people.
+
+45
+00:03:30,733 --> 00:03:33,513
+None of that chemistry mattered to anyone in September.
+
+46
+00:03:33,513 --> 00:03:35,984
+What mattered was who was standing in it.
+
+47
+00:03:37,133 --> 00:03:43,611
+About forty thousand people worked the pile and the surrounding zone over ten months.
+
+48
+00:03:43,611 --> 00:03:46,851
+Firefighters, police, construction crews, sanitation workers, volunteers.
+
+49
+00:03:48,000 --> 00:03:48,928
+Respirators were available.
+
+50
+00:03:48,928 --> 00:03:54,191
+Watch almost any archival footage of the site and you can see what actually happened with them.
+
+51
+00:03:55,333 --> 00:03:57,238
+Some crews wore them. Many did not.
+
+52
+00:03:57,238 --> 00:04:01,865
+And a lot of the footage shows the same specific thing. The respirator is on the man.
+
+53
+00:04:01,865 --> 00:04:03,771
+It is just not on his face.
+
+54
+00:04:04,900 --> 00:04:06,431
+There are ordinary reasons for that.
+
+55
+00:04:06,431 --> 00:04:12,048
+The masks were hot, they fogged, they made it impossible to talk to the man next to you on a debris pile.
+
+56
+00:04:12,048 --> 00:04:16,133
+And they were uncomfortable in a way that felt trivial next to what everyone was doing.
+
+57
+00:04:17,266 --> 00:04:20,613
+And there was one more reason, which is the reason this episode exists.
+
+58
+00:04:20,613 --> 00:04:22,673
+The government had said the air was safe.
+
+59
+00:04:23,800 --> 00:04:25,710
+It was not only the pile.
+
+60
+00:04:25,710 --> 00:04:30,487
+Four blocks north, Stuyvesant High School reopened on the ninth of October, two thousand one.
+
+61
+00:04:31,633 --> 00:04:37,688
+Students and parents were told the building had been cleaned, and that high efficiency air filters had been installed.
+
+62
+00:04:37,688 --> 00:04:39,600
+Lila Nordstrom was a senior there.
+
+63
+00:04:40,733 --> 00:04:45,228
+The filters had not been installed. The vents were later found still caked with dust.
+
+64
+00:04:45,228 --> 00:04:52,122
+Nordstrom has spent the twenty five years since then organizing the students who sat under them, and she testified about it before Congress.
+
+65
+00:04:53,266 --> 00:04:54,231
+Keep her in mind.
+
+66
+00:04:54,231 --> 00:04:59,535
+She is going to appear again at the end of this, in a room nobody in two thousand one would have predicted.
+
+67
+00:05:00,666 --> 00:05:04,715
+In two thousand three, somebody inside the agency went looking for the data.
+
+68
+00:05:05,833 --> 00:05:08,686
+Every federal agency has an Office of Inspector General.
+
+69
+00:05:08,686 --> 00:05:11,222
+It is internal, but it is deliberately independent.
+
+70
+00:05:11,222 --> 00:05:17,562
+Its job is to investigate its own agency and publish what it finds, whether or not the agency likes it.
+
+71
+00:05:18,700 --> 00:05:27,172
+On August twenty first, two thousand three, that office published report number two thousand three, dash P, dash zero zero zero one two.
+
+72
+00:05:27,172 --> 00:05:33,067
+A hundred and sixty five pages on how the agency handled the World Trade Center collapse.
+
+73
+00:05:34,200 --> 00:05:38,798
+The first thing it establishes is a timeline. Not of the attack. Of the sampling.
+
+74
+00:05:39,933 --> 00:05:46,038
+When the agency said the air was safe on September eighteenth, sampling for fine particulate matter had not started.
+
+75
+00:05:46,038 --> 00:05:49,572
+It began on September twenty first. Three days after the sentence.
+
+76
+00:05:50,700 --> 00:05:56,323
+Data on polychlorinated biphenyls, on dioxin, and on those polycyclic aromatic hydrocarbons was likewise incomplete.
+
+77
+00:05:56,323 --> 00:05:59,697
+The watchdog's finding is narrow and it is devastating.
+
+78
+00:05:59,697 --> 00:06:04,571
+The agency did not yet have the data to support what it said.
+
+79
+00:06:05,700 --> 00:06:08,732
+Be precise about what that does and does not mean.
+
+80
+00:06:08,732 --> 00:06:11,764
+It is a finding about an institution and its evidence.
+
+81
+00:06:11,764 --> 00:06:16,616
+It is not a finding that any individual knew the air was dangerous and said otherwise.
+
+82
+00:06:16,616 --> 00:06:19,649
+The report makes no such finding, and neither will we.
+
+83
+00:06:20,766 --> 00:06:22,834
+But the report was not finished.
+
+84
+00:06:22,834 --> 00:06:28,002
+Because while the investigators were reconstructing how those statements got written, they found something else.
+
+85
+00:06:29,133 --> 00:06:32,842
+The press releases did not go straight from the agency to the public.
+
+86
+00:06:33,966 --> 00:06:36,946
+The report records an instruction sent to senior agency officials.
+
+87
+00:06:36,946 --> 00:06:42,012
+All statements to the media should be cleared through the National Security Council before they are released.
+
+88
+00:06:43,133 --> 00:06:52,380
+And per the agency's own Chief of Staff, one particular official at the White House Council on Environmental Quality was designated to work with the agency to make sure that clearance happened.
+
+89
+00:06:53,500 --> 00:06:56,482
+The report never names that person. Neither will this video.
+
+90
+00:06:56,482 --> 00:07:00,658
+What the report documents is not who they were. It is what they changed.
+
+91
+00:07:01,800 --> 00:07:03,007
+Table two dash four.
+
+92
+00:07:03,007 --> 00:07:07,533
+The draft of the September sixteenth release, printed beside the version that actually went out.
+
+93
+00:07:07,533 --> 00:07:10,551
+The report's own summary of it is one sentence long.
+
+94
+00:07:11,700 --> 00:07:16,729
+Quote. Every change that was suggested by the Council contact was made.
+
+95
+00:07:16,729 --> 00:07:21,339
+The official's suggested changes added reassuring statements, and deleted cautionary statements.
+
+96
+00:07:22,466 --> 00:07:26,223
+Here is the sentence that was deleted from the draft and not replaced.
+
+97
+00:07:26,223 --> 00:07:36,337
+The concern raised by these samples would be for the workers at the cleanup site, and for those workers who might be returning to their offices on or near Water Street, on Monday, September seventeenth.
+
+98
+00:07:37,466 --> 00:07:42,207
+That is a warning to two specific groups of people, on a named street, on a named day.
+
+99
+00:07:42,207 --> 00:07:46,948
+It was written, and then it was taken out, and the people on that street went to work.
+
+100
+00:07:48,066 --> 00:07:49,160
+Then the softening.
+
+101
+00:07:49,160 --> 00:07:58,272
+The draft read: seven debris and dust samples taken Thursday showed levels of asbestos ranging from two point one percent to three point three percent.
+
+102
+00:07:58,272 --> 00:08:03,374
+The agency views a one percent level as the definition of asbestos containing material.
+
+103
+00:08:04,500 --> 00:08:09,327
+Here is what went out instead. Ranging from two point one to three point three.
+
+104
+00:08:09,327 --> 00:08:12,546
+Slightly above the one percent trigger for defining asbestos material.
+
+105
+00:08:13,666 --> 00:08:16,846
+Two to three times a safety threshold is not slightly above it.
+
+106
+00:08:16,846 --> 00:08:19,230
+That is the same number, wearing a different coat.
+
+107
+00:08:20,366 --> 00:08:22,863
+And then there is the bottom of the table.
+
+108
+00:08:22,863 --> 00:08:27,303
+A column of instructions from the White House office, printed next to the lines they produced.
+
+109
+00:08:27,303 --> 00:08:30,632
+One of them is not a sentence. It is a stage direction.
+
+110
+00:08:31,766 --> 00:08:34,927
+Quote. Insert Henshaw quote somewhere around here.
+
+111
+00:08:36,066 --> 00:08:41,119
+And the line that appeared in the finished release, under the name of John Henshaw, Assistant Secretary of Labor.
+
+112
+00:08:41,119 --> 00:08:46,437
+Our tests show that it is safe for New Yorkers to go back to work in New York's financial district.
+
+113
+00:08:47,566 --> 00:08:52,276
+Be fair about what that shows. Press offices draft quotes for officials to approve.
+
+114
+00:08:52,276 --> 00:08:54,631
+That is normal, if unlovely, government communication.
+
+115
+00:08:54,631 --> 00:09:01,359
+There is no finding anywhere that Henshaw was deceived, or that he disagreed with the line issued under his name.
+
+116
+00:09:02,500 --> 00:09:07,433
+What is not normal is the direction of every single edit. Caution out. Reassurance in.
+
+117
+00:09:07,433 --> 00:09:09,735
+Not one change in the other direction.
+
+118
+00:09:10,866 --> 00:09:13,887
+The report also records what was weighing on the messaging.
+
+119
+00:09:13,887 --> 00:09:15,699
+The desire to reopen Wall Street.
+
+120
+00:09:16,833 --> 00:09:24,461
+And when the watchdog tried to establish exactly how those edits happened, and asked to sit down with the White House office that made them, it hit a wall.
+
+121
+00:09:25,600 --> 00:09:25,926
+Quote.
+
+122
+00:09:25,926 --> 00:09:31,477
+Our analysis of the Council's input was limited, because Council officials chose not to meet with us.
+
+123
+00:09:32,600 --> 00:09:34,645
+That is not an allegation from a critic.
+
+124
+00:09:34,645 --> 00:09:41,038
+That is a federal watchdog, in its own published report, recording that the office it was investigating would not sit in a room with it.
+
+125
+00:09:42,166 --> 00:09:46,999
+For a long time, that report was the whole story. Then the bill started arriving.
+
+126
+00:09:48,133 --> 00:09:56,792
+In two thousand ten, Congress passed the James Zadroga Nine Eleven Health and Compensation Act, signed into law on the second of January, two thousand eleven.
+
+127
+00:09:56,792 --> 00:10:01,455
+It created a federal program to monitor and treat people exposed at the site.
+
+128
+00:10:02,600 --> 00:10:08,167
+It is named for a New York police detective who worked the pile and died in two thousand six.
+
+129
+00:10:08,167 --> 00:10:10,218
+His own cause of death was contested.
+
+130
+00:10:10,218 --> 00:10:13,441
+The city's Chief Medical Examiner attributed it to prescription drug misuse.
+
+131
+00:10:14,566 --> 00:10:20,964
+Other pathologists, including a former Chief Medical Examiner of New York City, maintained the death was dust related.
+
+132
+00:10:20,964 --> 00:10:26,295
+That dispute was never resolved, and it is worth saying plainly rather than smoothing over.
+
+133
+00:10:27,433 --> 00:10:30,024
+Here is what the program itself now reports.
+
+134
+00:10:30,024 --> 00:10:37,151
+As of the thirtieth of June, twenty twenty six: a hundred and forty five thousand, two hundred and seventy five people enrolled.
+
+135
+00:10:38,300 --> 00:10:39,854
+Enrolled does not mean sick.
+
+136
+00:10:39,854 --> 00:10:44,828
+That number counts people in monitoring, including residents and students with a wide range of exposure.
+
+137
+00:10:44,828 --> 00:10:47,626
+The number that means sick is the next one.
+
+138
+00:10:48,766 --> 00:10:53,599
+Sixty seven point three percent of them have been certified with at least one condition linked to the exposure.
+
+139
+00:10:54,733 --> 00:11:00,140
+And fifty seven thousand and forty four people have had a cancer certified as linked to what they breathed.
+
+140
+00:11:01,266 --> 00:11:06,924
+Twenty five years on, cancer is now the single most frequently newly certified condition in the program.
+
+141
+00:11:06,924 --> 00:11:10,252
+The curve has not turned over. It is still climbing.
+
+142
+00:11:11,400 --> 00:11:16,320
+You will often hear it said that more people have now died from the dust than died on the day itself.
+
+143
+00:11:16,320 --> 00:11:19,367
+We are not going to say that, because nobody can actually support it.
+
+144
+00:11:20,500 --> 00:11:23,597
+The program reports deaths among its members from all causes.
+
+145
+00:11:23,597 --> 00:11:27,933
+As of March of twenty twenty four, six thousand eight hundred and ninety seven.
+
+146
+00:11:27,933 --> 00:11:33,509
+And it states, in its own words, that it does not track cause of death for deceased members.
+
+147
+00:11:34,633 --> 00:11:41,574
+So there is no official figure to set against the two thousand seven hundred and fifty three killed at the site that morning.
+
+148
+00:11:41,574 --> 00:11:43,988
+The honest version is smaller and still terrible.
+
+149
+00:11:43,988 --> 00:11:46,101
+Fifty seven thousand certified cancers, and counting.
+
+150
+00:11:47,233 --> 00:11:50,080
+Which brings us to a storage room, and to this week.
+
+151
+00:11:51,200 --> 00:11:53,626
+Everything so far came from the federal side.
+
+152
+00:11:53,626 --> 00:11:56,053
+The agency investigated itself and published the result.
+
+153
+00:11:56,053 --> 00:12:00,604
+The city of New York had its own records, and those had never come out.
+
+154
+00:12:01,733 --> 00:12:08,002
+In twenty twenty three, an advocacy group called Nine Eleven Health Watch filed public records requests with the city for them.
+
+155
+00:12:09,133 --> 00:12:13,644
+In January of twenty twenty four, the Department of Environmental Protection answered.
+
+156
+00:12:13,644 --> 00:12:15,899
+It said no such records existed.
+
+157
+00:12:17,033 --> 00:12:21,317
+In October of twenty twenty five, the department acknowledged about forty boxes.
+
+158
+00:12:22,466 --> 00:12:27,612
+By November, it was sixty eight boxes. Roughly three hundred and forty thousand pages.
+
+159
+00:12:28,733 --> 00:12:37,249
+On the twenty eighth of May, twenty twenty six, a New York Supreme Court justice ruled that the city's handling of those requests had been arbitrary and capricious.
+
+160
+00:12:38,366 --> 00:12:47,848
+And on the eighth of September, twenty twenty six, three days before the twenty fifth anniversary, the city opened a public portal with the first hundred and seventy thousand pages on it.
+
+161
+00:12:48,966 --> 00:12:49,292
+Now.
+
+162
+00:12:49,292 --> 00:12:55,810
+It matters who is being held responsible here, and it is not one administration and it is not one party.
+
+163
+00:12:56,933 --> 00:13:00,062
+Those boxes sat at that department through four mayors.
+
+164
+00:13:00,062 --> 00:13:03,190
+A congressional request in twenty twenty one went unanswered.
+
+165
+00:13:03,190 --> 00:13:10,491
+The requests that were actively denied, and the litigation that followed, happened under the administration in office from twenty twenty two.
+
+166
+00:13:11,633 --> 00:13:15,000
+But only that last stretch carries an actual court finding.
+
+167
+00:13:15,000 --> 00:13:23,754
+The broader claim, that four administrations withheld these records, is the advocacy group's characterization, and it should be labeled as theirs rather than borrowed as ours.
+
+168
+00:13:24,900 --> 00:13:27,472
+And here is the part nobody has answered.
+
+169
+00:13:27,472 --> 00:13:33,259
+How twenty thousand documents sat unlisted in a city department for two decades has never been publicly explained.
+
+170
+00:13:34,400 --> 00:13:37,322
+The department has declined to comment since November of twenty twenty five.
+
+171
+00:13:37,322 --> 00:13:41,949
+We are not going to guess at the answer. We are just going to note that there isn't one.
+
+172
+00:13:43,066 --> 00:13:47,507
+The people on the other end of this have answers, and they deserve to be heard in full.
+
+173
+00:13:48,633 --> 00:13:52,946
+Rudy Giuliani, mayor at the time, responded to this month's release himself, publicly.
+
+174
+00:13:52,946 --> 00:13:58,586
+His position is that the agency said the air was safe, and that nobody covered anything up.
+
+175
+00:13:59,733 --> 00:14:06,159
+Christine Todd Whitman, who ran the Environmental Protection Agency and said the sentence, has addressed it more than once over the years.
+
+176
+00:14:07,300 --> 00:14:11,249
+In twenty sixteen she said this. I'm very sorry that people are sick.
+
+177
+00:14:11,249 --> 00:14:15,502
+And if the agency and I in any way contributed to that, I'm sorry.
+
+178
+00:14:16,633 --> 00:14:19,536
+And in the same breath she rejected the idea that she lied.
+
+179
+00:14:19,536 --> 00:14:23,164
+We did the very best we could at the time, with the knowledge we had.
+
+180
+00:14:24,300 --> 00:14:28,813
+Both halves of that belong together, and you will often see only the first one quoted.
+
+181
+00:14:28,813 --> 00:14:34,174
+It is an apology for an outcome, and a denial of intent, and she has been consistent about both.
+
+182
+00:14:35,300 --> 00:14:36,719
+People did sue her.
+
+183
+00:14:36,719 --> 00:14:41,334
+Residents and workers brought federal claims arguing the reassurances themselves caused them harm.
+
+184
+00:14:42,466 --> 00:14:43,156
+They lost.
+
+185
+00:14:43,156 --> 00:14:53,855
+In Lombardi against Whitman, in two thousand seven, the appeals court affirmed dismissal, holding the conduct did not shock the conscience, which is the legal standard those claims had to clear.
+
+186
+00:14:55,000 --> 00:15:05,266
+In Benzman against Whitman, the following year, the same court went further and reversed the one claim against her that a lower court had allowed to survive, sending it back with directions to dismiss.
+
+187
+00:15:06,400 --> 00:15:10,680
+So let's be exact, because this is the part the internet gets wrong in both directions.
+
+188
+00:15:10,680 --> 00:15:15,229
+No court has ever held her personally liable. And no court has ever found that she lied.
+
+189
+00:15:16,366 --> 00:15:20,224
+What is established is narrower, and it is on the record in a federal report.
+
+190
+00:15:20,224 --> 00:15:22,282
+The statement went out ahead of the data.
+
+191
+00:15:22,282 --> 00:15:26,397
+And every edit made to the release before it went out ran in the same direction.
+
+192
+00:15:27,533 --> 00:15:31,369
+Lila Nordstrom was seventeen when she was told her school building was clean.
+
+193
+00:15:31,369 --> 00:15:38,452
+In June of twenty nineteen she was in a hearing room in Washington, testifying about what happened to the students who sat in it.
+
+194
+00:15:39,600 --> 00:15:44,104
+This month, when the boxes finally opened, reporters went back to her for comment.
+
+195
+00:15:44,104 --> 00:15:46,679
+Twenty five years, to get to the paperwork.
+
+196
+00:15:47,800 --> 00:15:51,840
+What stays with me isn't the redline, or the stage direction in the margin.
+
+197
+00:15:51,840 --> 00:15:52,994
+It's that deleted sentence.
+
+198
+00:15:52,994 --> 00:15:59,921
+Somebody wrote a warning for the people on Water Street, and somebody took it out, and on Monday morning those people went to work.
+
+199
+00:16:01,066 --> 00:16:07,022
+There are still two hundred and seventy thousand pages in those boxes that nobody outside city government has read.
+
+200
+00:16:08,166 --> 00:16:17,281
+If what a government put in writing about that day interests you, wait until you see what its own engineers concluded about the third building that fell, the one nobody was hit by.
+
+201
+00:16:17,281 --> 00:16:20,043
+Watch our Building Seven investigation, right here on this channel.
+
+202
+00:16:20,043 --> 00:16:25,015
+And subscribe to Black Box Breakdown, so you don't miss what the next set of documents turns up.
+

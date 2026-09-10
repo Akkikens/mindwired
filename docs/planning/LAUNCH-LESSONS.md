@@ -15,6 +15,19 @@ proceeds; no-human-available records BLOCKED-ON-DATA and proceeds.
 | Black Box Breakdown | TBD (observed de-facto: near-daily, mornings — Akshay to confirm a fixed slot or bless the daily cadence) |
 | mindwired | TBD (same observation) |
 
+## BLOCKED-ON-DATA — 2026-09-09
+
+Validating `groundzeroair` (Ground Zero air-quality records, Black Box) two days
+before the 25th anniversary. No YouTube Studio access this session — no CTR,
+retention or impressions data for any recent upload. Per Step 0 escape hatch (c):
+recording BLOCKED-ON-DATA and proceeding. Real diagnosis still owed on the most
+recent Black Box upload once Akshay can share Studio numbers.
+
+**Also corrected here:** the publish-log row below listing Building 7 as an
+UNLISTED DRAFT was stale. Verified 2026-09-09 via yt-dlp — it is PUBLIC as
+"FIRE Took Down a 47-Story BUILDING 7 ? Here's FULL STORY" (wp8t2gOKYyE),
+published 2026-08-04, 3840x2160, 1298s, 4,183 views. Row updated.
+
 ## BLOCKED-ON-DATA — 2026-08-26
 
 Most recent Black Box upload (Swissair 111, TXgg2Qy1Oa0, published ~2026-08-25)
@@ -33,7 +46,7 @@ read via Akshay's browser). Views are point-in-time snapshots from that read.**
 
 | Date | Channel | Title | URL (watch?v=) | Views @03 Aug |
 |---|---|---|---|---|
-| Aug 3 | Black Box | (UNLISTED DRAFT — What Really Brought Down BUILDING 7 ? — no description yet, awaiting Akshay's sensitivity watch-through) | wp8t2gOKYyE | 0 |
+| Aug 4 | Black Box | FIRE Took Down a 47-Story BUILDING 7 ? Here's FULL STORY | wp8t2gOKYyE | 4,183 @ 09 Sep |
 | Aug 3 | Black Box | They Had AMELIA EARHART's RADIO Log. They Never Had Her BODY. | 998g3UmVjKw | 30 |
 | Aug 3 | mindwired | The Biggest EXPLOSION in HISTORY Left No Crater | 9YOOCyi6oqk | 10 |
 | Aug 2 | Black Box | MH370: What the NETFLIX Documentary Didn't Tell You | Bee3SE4WEg0 | 394 |

@@ -71,6 +71,8 @@ import spaceShuttleDoc from "./mindwired-doc/docs/spaceshuttle.json";
 import spaceShuttleManifest from "./mindwired-doc/docs/spaceshuttle.manifest.json";
 import wtcCollapseDoc from "./mindwired-doc/docs/wtccollapse.json";
 import wtcCollapseManifest from "./mindwired-doc/docs/wtccollapse.manifest.json";
+import groundZeroAirDoc from "./mindwired-doc/docs/groundzeroair.json";
+import groundZeroAirManifest from "./mindwired-doc/docs/groundzeroair.manifest.json";
 import flight93Doc from "./mindwired-doc/docs/flight93.json";
 import flight93Manifest from "./mindwired-doc/docs/flight93.manifest.json";
 import us1549Doc from "./mindwired-doc/docs/us1549.json";
@@ -1440,6 +1442,31 @@ export const RemotionRoot: React.FC = () => {
         id="WtcCollapseDoc"
         component={makeDocComp(wtcCollapseDoc, wtcCollapseManifest, BB_OUTRO)}
         durationInFrames={docTotalFrames(wtcCollapseDoc, wtcCollapseManifest, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Black Box — The 9/11 Files New York Hid for 25 Years (Evidence
+             Engine): the post-9/11 Ground Zero air-quality failure. Built on
+             EPA's OWN Inspector General report 2003-P-00012 (real exhibit
+             pages, incl. Table 2-4's draft-vs-issued redline, the deleted
+             Water Street warning, and the "INSERT HENSHAW quote" margin
+             instruction) plus 18 clips cut from FEMA's PD "Ground Zero
+             Timeline Compilation" via DVIDS. Ethics review (17 findings, 3
+             blocking) + primary-source verification (6 corrections) + a
+             gap-close pass that STRUCK an unverifiable quote — see
+             docs/planning/CLAIMS-groundzeroair.md before touching anything.
+             Hard rules baked in: wrong is not lying (no claim about anyone's
+             intent), the Henshaw guardrail, CEQ official never named,
+             "cover-up" never in our own voice, the unsupported death
+             comparison refused ON AIR, multi-administration balance, and the
+             unexplained 20-year gap stated rather than skipped. Zero
+             conspiracy material, zero falling/remains. BB outro baked. ── */}
+      <Composition
+        id="GroundZeroAirDoc"
+        component={makeDocComp(groundZeroAirDoc, groundZeroAirManifest, BB_OUTRO)}
+        durationInFrames={docTotalFrames(groundZeroAirDoc, groundZeroAirManifest, BB_OUTRO)}
         fps={30}
         width={1920}
         height={1080}

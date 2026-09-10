@@ -1,0 +1,971 @@
+{
+  "slug": "groundzeroair",
+  "title": "The 9/11 Files New York Hid for 25 Years",
+  "channel": "blackbox",
+  "niche": "history",
+  "language": "en",
+  "voice": "d46abd1d-2d02-43e8-819f-51fb652c1c61",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "It is September eighteenth, two thousand one. One week after the towers came down, sixteen acres of Lower Manhattan are still burning.",
+      "video": "fema_aerial_smoking_1.mp4",
+      "videoQuery": "aerial Lower Manhattan World Trade Center site smoke September 2001 FEMA",
+      "stat": "SEPT 18, 2001 · LOWER MANHATTAN",
+      "cap": "One week after.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h2",
+      "text": "In Washington, the head of the Environmental Protection Agency puts out a statement about what the people down there are breathing.",
+      "video": "fema_crowd_pile_1.mp4",
+      "videoQuery": "Ground Zero recovery workers crowd September 2001 FEMA archival",
+      "cap": "A statement about the air.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h3",
+      "text": "It is one sentence long. Their air is safe to breathe, and their water is safe to drink.",
+      "video": "fema_police_walking_1.mp4",
+      "videoQuery": "police officers walking Ground Zero debris September 2001",
+      "cap": "\"...their air is safe to breathe...\"",
+      "stat": "EPA · SEPT 18, 2001",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h4",
+      "text": "Twenty five years later, that sentence is the most examined thing the agency has ever said.",
+      "video": "fema_worker_closeup_1.mp4",
+      "videoQuery": "rescue worker debris Ground Zero close September 2001",
+      "cap": "The most examined sentence the agency ever wrote.",
+      "tone": "fear"
+    },
+    {
+      "id": "h5",
+      "text": "Because two years after it was written, the agency's own internal watchdog looked at the data behind it, and found the data was not there yet.",
+      "video": "fema_respirator_on_hip_1.mp4",
+      "videoQuery": "Ground Zero cleanup worker respirator September 2001",
+      "cap": "Its own watchdog went looking for the data.",
+      "motion": "slow",
+      "tone": "fear"
+    },
+    {
+      "id": "h6",
+      "text": "And this week, after a court ordered it, New York City opened a filing cabinet it had kept shut for a quarter of a century.",
+      "video": "fema_dust_wall_1.mp4",
+      "videoQuery": "World Trade Center dust covered interior surfaces September 2001",
+      "stat": "SEPT 8, 2026 · 170,000 PAGES",
+      "cap": "A court had to order it.",
+      "tone": "fear"
+    },
+    {
+      "id": "h8",
+      "text": "This is a story about what officials said in the days after. About what their own watchdog later found they did not know when they said it. And about what the people who believed them are still paying.",
+      "video": "fema_fdny_norespirator_1.mp4",
+      "videoQuery": "firefighters Ground Zero September 2001 archival FEMA",
+      "cap": "What they said. What they knew. What it cost.",
+      "motion": "slow",
+      "tone": "fear"
+    },
+    {
+      "id": "h7",
+      "text": "Before we go further, one thing this is not. This is not a story about how the towers fell. That question has an engineering answer, and we have already covered it.",
+      "kinetic": {
+        "count": 2753,
+        "suffix": " killed at the World Trade Center site",
+        "sub": "This episode is about the air afterward — not how the buildings came down"
+      },
+      "img": "memorial_pools",
+      "query": "National September 11 Memorial reflecting pools New York photograph",
+      "tone": "melancholy"
+    },
+    {
+      "id": "sting",
+      "sting": true,
+      "text": "You're watching Black Box Breakdown.",
+      "img": "lower_manhattan_skyline",
+      "query": "Lower Manhattan New York skyline photograph",
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "chapter": "THE 9/11 FILES\nNew York Hid For 25 Years",
+      "text": "The nine eleven files New York hid for twenty five years.",
+      "img": "lower_manhattan_skyline",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a1_ch",
+      "chapter": "ACT I\nTHE SENTENCE",
+      "text": "To understand the argument, you have to start with what was actually said, and when.",
+      "img": "wall_street",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a1_1",
+      "text": "September thirteenth, two thousand one. Two days after the attack. The Environmental Protection Agency issues its first public statement on the air over Lower Manhattan.",
+      "img": "ex_safetobreathe",
+      "stat": "SEPT 13, 2001",
+      "cap": "The first statement.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a1_2",
+      "text": "September sixteenth. A second release goes out. It says the new samples confirm that ambient air quality meets Osha standards, and is not a cause for public concern.",
+      "video": "fema_debris_wide_1.mp4",
+      "videoQuery": "World Trade Center site debris haze September 2001",
+      "cap": "\"...not a cause for public concern.\"",
+      "stat": "SEPT 16, 2001",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a1_3",
+      "text": "September seventeenth. The New York Stock Exchange reopens. It has been closed for four trading days, the longest shutdown since nineteen thirty three.",
+      "img": "wall_street",
+      "query": "New York Stock Exchange Wall Street exterior photograph 2001",
+      "kinetic": {
+        "count": 4,
+        "suffix": " trading days closed",
+        "sub": "The longest shutdown of the exchange since 1933"
+      },
+      "tone": "curiosity"
+    },
+    {
+      "id": "a1_4",
+      "text": "September eighteenth. The sentence. Their air is safe to breathe, and their water is safe to drink.",
+      "video": "fema_hose_smoke_1.mp4",
+      "videoQuery": "Ground Zero firefighters hose smoke September 2001",
+      "cap": "\"...safe to breathe...\"",
+      "stat": "SEPT 18, 2001",
+      "motion": "slow",
+      "tone": "fear"
+    },
+    {
+      "id": "a1_5",
+      "text": "Read it in twenty twenty six and it sounds like a lie. Read it in September of two thousand one and it sounds like relief. That gap is the whole story, and it is worth being careful about.",
+      "img": "dust_surfaces",
+      "cap": "In 2001, it sounded like relief.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a1_6",
+      "text": "Because a statement being wrong, and a person lying, are two different findings. Only one of them has ever been established here. Hold on to that. We will come back to it.",
+      "img": "lower_manhattan_skyline",
+      "cap": "Wrong and lying are not the same finding.",
+      "motion": "slow",
+      "tone": "confidence"
+    },
+    {
+      "id": "a2_ch",
+      "chapter": "ACT II\nWHAT WAS ACTUALLY IN IT",
+      "text": "So what was in the air over Lower Manhattan that September?",
+      "img": "dust_surfaces",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2_1",
+      "text": "Two towers, a hundred and ten stories each, did not fall as buildings. They fell as powder. Concrete, gypsum wallboard, and glass fiber, pulverized and thrown across the island.",
+      "video": "fema_dust_wall_1.mp4",
+      "videoQuery": "World Trade Center dust covered surfaces interior September 2001",
+      "cap": "They did not fall as buildings. They fell as powder.",
+      "tone": "fear"
+    },
+    {
+      "id": "a2_2",
+      "text": "The United States Geological Survey went and sampled it. So did a team of environmental scientists led by Paul Lioy, whose work became the reference study on what that dust was made of.",
+      "img": "ex_sampling",
+      "stat": "USGS · OPEN-FILE REPORT 01-0429",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2_3",
+      "text": "The finding that matters most is not any single poison. It is the alkalinity. The dust measured a pH between roughly nine and eleven and a half. Chemically, that is closer to drain cleaner than to anything a lung is built for.",
+      "img": "ex_sampling2",
+      "kinetic": {
+        "count": 11,
+        "suffix": " pH — strongly alkaline",
+        "sub": "Caustic enough to burn the airway lining"
+      },
+      "cap": "Closer to drain cleaner than to air.",
+      "tone": "fear"
+    },
+    {
+      "id": "a2_4",
+      "text": "Responders had a name for what it did to them within days. The World Trade Center cough.",
+      "video": "fema_worker_closeup_1.mp4",
+      "cap": "They named it within days.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a2_5",
+      "text": "On top of the caustic base: asbestos, from the fireproofing sprayed on the North Tower's lower floors. Lead. Dioxins. Polycyclic aromatic hydrocarbons, thrown off by fires that burned for three months.",
+      "video": "fema_crane_facade_1.mp4",
+      "videoQuery": "World Trade Center site crane steel facade September 2001",
+      "cap": "Asbestos. Lead. Dioxins.",
+      "tone": "fear"
+    },
+    {
+      "id": "a2_6",
+      "text": "And the particles themselves were unusually large and unusually rough, which meant they lodged high in the airway instead of passing through. The dust was engineered, by accident, to stay in people.",
+      "img": "ex_asbestospct",
+      "cap": "Built, by accident, to stay in people.",
+      "motion": "slow",
+      "tone": "fear"
+    },
+    {
+      "id": "a3_ch",
+      "chapter": "ACT III\nTHE PEOPLE IN IT",
+      "text": "None of that chemistry mattered to anyone in September. What mattered was who was standing in it.",
+      "img": "pile_workers",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a3_1",
+      "text": "About forty thousand people worked the pile and the surrounding zone over ten months. Firefighters, police, construction crews, sanitation workers, volunteers.",
+      "kinetic": {
+        "count": 40000,
+        "suffix": " responders worked the site",
+        "sub": "Over roughly ten months of recovery and cleanup"
+      },
+      "tone": "curiosity",
+      "img": "pile_workers"
+    },
+    {
+      "id": "a3_2",
+      "text": "Respirators were available. Watch almost any archival footage of the site and you can see what actually happened with them.",
+      "video": "fema_atf_respirators_1.mp4",
+      "videoQuery": "federal agents respirators masks Ground Zero September 2001",
+      "cap": "Respirators were available.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a3_3",
+      "text": "Some crews wore them. Many did not. And a lot of the footage shows the same specific thing. The respirator is on the man. It is just not on his face.",
+      "video": "fema_respirator_on_hip_1.mp4",
+      "cap": "On the man. Not on his face.",
+      "motion": "slow",
+      "tone": "fear"
+    },
+    {
+      "id": "a3_4",
+      "text": "There are ordinary reasons for that. The masks were hot, they fogged, they made it impossible to talk to the man next to you on a debris pile. And they were uncomfortable in a way that felt trivial next to what everyone was doing.",
+      "video": "fema_workers_shovel_1.mp4",
+      "videoQuery": "Ground Zero workers shovel debris cleanup 2001",
+      "cap": "Hot. Fogged. Impossible to talk through.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a3_5",
+      "text": "And there was one more reason, which is the reason this episode exists. The government had said the air was safe.",
+      "video": "fema_police_backs_1.mp4",
+      "videoQuery": "police officers Ground Zero site 2001 archival",
+      "cap": "The government had said it was safe.",
+      "motion": "slow",
+      "tone": "fear"
+    },
+    {
+      "id": "a3_6",
+      "text": "It was not only the pile. Four blocks north, Stuyvesant High School reopened on the ninth of October, two thousand one.",
+      "img": "stuyvesant_school",
+      "query": "Stuyvesant High School building New York exterior photograph",
+      "stat": "OCT 9, 2001 · STUYVESANT H.S.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a3_7",
+      "text": "Students and parents were told the building had been cleaned, and that high efficiency air filters had been installed. Lila Nordstrom was a senior there.",
+      "img": "stuyvesant_school",
+      "cap": "They were told filters had been installed.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a3_8",
+      "text": "The filters had not been installed. The vents were later found still caked with dust. Nordstrom has spent the twenty five years since then organizing the students who sat under them, and she testified about it before Congress.",
+      "img": "stuyvesant_school",
+      "cap": "The filters were never installed.",
+      "motion": "slow",
+      "tone": "fear"
+    },
+    {
+      "id": "a3_9",
+      "text": "Keep her in mind. She is going to appear again at the end of this, in a room nobody in two thousand one would have predicted.",
+      "img": "stuyvesant_school",
+      "cap": "She comes back at the end of this.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a4_ch",
+      "chapter": "ACT IV\nTHE WATCHDOG",
+      "text": "In two thousand three, somebody inside the agency went looking for the data.",
+      "img": "ex_oigsummary",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a4_1",
+      "text": "Every federal agency has an Office of Inspector General. It is internal, but it is deliberately independent. Its job is to investigate its own agency and publish what it finds, whether or not the agency likes it.",
+      "img": "ex_oigsummary",
+      "stat": "EPA OFFICE OF INSPECTOR GENERAL",
+      "cap": "Its job is to investigate its own agency.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a4_2",
+      "exhibit": true,
+      "img": "ex_oigsummary",
+      "source": "EPA Office of Inspector General · Report 2003-P-00012 · Aug 21, 2003",
+      "highlight": [
+        0.1,
+        0.3,
+        0.75,
+        0.22
+      ],
+      "text": "On August twenty first, two thousand three, that office published report number two thousand three, dash P, dash zero zero zero one two. A hundred and sixty five pages on how the agency handled the World Trade Center collapse.",
+      "cap": "165 pages. Published by the agency's own watchdog.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a4_3",
+      "text": "The first thing it establishes is a timeline. Not of the attack. Of the sampling.",
+      "img": "ex_sampling",
+      "cap": "A timeline of the sampling.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a4_4",
+      "exhibit": true,
+      "img": "ex_sampling2",
+      "source": "EPA OIG Report 2003-P-00012 · Table 2-2, sampling timeline",
+      "highlight": [
+        0.1,
+        0.35,
+        0.75,
+        0.25
+      ],
+      "text": "When the agency said the air was safe on September eighteenth, sampling for fine particulate matter had not started. It began on September twenty first. Three days after the sentence.",
+      "stat": "SAMPLING BEGAN SEPT 21 · STATEMENT SEPT 18",
+      "cap": "The sampling started three days after the statement.",
+      "motion": "slow",
+      "tone": "fear"
+    },
+    {
+      "id": "a4_5",
+      "exhibit": true,
+      "img": "ex_sampling",
+      "source": "EPA OIG Report 2003-P-00012 · Table 2-2, sampling timeline",
+      "highlight": [
+        0.1,
+        0.55,
+        0.75,
+        0.2
+      ],
+      "text": "Data on polychlorinated biphenyls, on dioxin, and on those polycyclic aromatic hydrocarbons was likewise incomplete. The watchdog's finding is narrow and it is devastating. The agency did not yet have the data to support what it said.",
+      "cap": "It did not yet have the data.",
+      "tone": "fear"
+    },
+    {
+      "id": "a4_6",
+      "text": "Be precise about what that does and does not mean. It is a finding about an institution and its evidence. It is not a finding that any individual knew the air was dangerous and said otherwise. The report makes no such finding, and neither will we.",
+      "img": "ex_oigsummary",
+      "cap": "A finding about evidence. Not about intent.",
+      "motion": "slow",
+      "tone": "confidence"
+    },
+    {
+      "id": "a4_7",
+      "text": "But the report was not finished. Because while the investigators were reconstructing how those statements got written, they found something else.",
+      "img": "ex_ceqredline",
+      "cap": "Then they found how the statements got written.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a5_ch",
+      "chapter": "ACT V\nTHE PART NOBODY WAS MEANT TO SEE",
+      "text": "The press releases did not go straight from the agency to the public.",
+      "img": "ex_ceqredline",
+      "tone": "fear"
+    },
+    {
+      "id": "a5_1",
+      "exhibit": true,
+      "img": "ex_nscclearance",
+      "source": "EPA OIG Report 2003-P-00012 · p.15",
+      "highlight": [
+        0.1,
+        0.25,
+        0.78,
+        0.2
+      ],
+      "text": "The report records an instruction sent to senior agency officials. All statements to the media should be cleared through the National Security Council before they are released.",
+      "stat": "\"CLEARED THROUGH THE NSC\"",
+      "cap": "Every statement had to be cleared first.",
+      "tone": "fear"
+    },
+    {
+      "id": "a5_2",
+      "exhibit": true,
+      "img": "ex_nscclearance",
+      "source": "EPA OIG Report 2003-P-00012 · p.15",
+      "highlight": [
+        0.1,
+        0.5,
+        0.78,
+        0.2
+      ],
+      "text": "And per the agency's own Chief of Staff, one particular official at the White House Council on Environmental Quality was designated to work with the agency to make sure that clearance happened.",
+      "cap": "One designated White House official.",
+      "tone": "fear"
+    },
+    {
+      "id": "a5_3",
+      "text": "The report never names that person. Neither will this video. What the report documents is not who they were. It is what they changed.",
+      "img": "ex_ceqredline",
+      "cap": "The report does not name them.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a5_4",
+      "exhibit": true,
+      "img": "ex_ceqredline",
+      "source": "EPA OIG Report 2003-P-00012 · Table 2-4",
+      "highlight": [
+        0.08,
+        0.1,
+        0.84,
+        0.16
+      ],
+      "text": "Table two dash four. The draft of the September sixteenth release, printed beside the version that actually went out. The report's own summary of it is one sentence long.",
+      "stat": "OIG REPORT · TABLE 2-4",
+      "cap": "The draft, beside what was published.",
+      "tone": "fear"
+    },
+    {
+      "id": "a5_5",
+      "exhibit": true,
+      "img": "ex_ceqredline",
+      "source": "EPA OIG Report 2003-P-00012 · Table 2-4",
+      "highlight": [
+        0.08,
+        0.13,
+        0.84,
+        0.1
+      ],
+      "text": "Quote. Every change that was suggested by the Council contact was made. The official's suggested changes added reassuring statements, and deleted cautionary statements.",
+      "cap": "\"...added reassuring statements, and deleted cautionary statements.\"",
+      "motion": "slow",
+      "tone": "fear"
+    },
+    {
+      "id": "a5_6",
+      "exhibit": true,
+      "img": "ex_ceqredline",
+      "source": "EPA OIG Report 2003-P-00012 · Table 2-4, deleted statement",
+      "highlight": [
+        0.08,
+        0.3,
+        0.84,
+        0.06
+      ],
+      "text": "Here is the sentence that was deleted from the draft and not replaced. The concern raised by these samples would be for the workers at the cleanup site, and for those workers who might be returning to their offices on or near Water Street, on Monday, September seventeenth.",
+      "stat": "DELETED · NOT REPLACED",
+      "cap": "Deleted from the draft. Not replaced.",
+      "tone": "fear"
+    },
+    {
+      "id": "a5_7",
+      "text": "That is a warning to two specific groups of people, on a named street, on a named day. It was written, and then it was taken out, and the people on that street went to work.",
+      "video": "fema_police_walking_1.mp4",
+      "cap": "A named street. A named day.",
+      "motion": "slow",
+      "tone": "fear"
+    },
+    {
+      "id": "a5_8",
+      "exhibit": true,
+      "img": "ex_ceqredline",
+      "source": "EPA OIG Report 2003-P-00012 · Table 2-4, revised statements",
+      "highlight": [
+        0.08,
+        0.55,
+        0.84,
+        0.12
+      ],
+      "text": "Then the softening. The draft read: seven debris and dust samples taken Thursday showed levels of asbestos ranging from two point one percent to three point three percent. The agency views a one percent level as the definition of asbestos containing material.",
+      "cap": "Draft: 2.1% to 3.3%. Trigger level: 1%.",
+      "tone": "fear"
+    },
+    {
+      "id": "a5_9",
+      "exhibit": true,
+      "img": "ex_ceqredline",
+      "source": "EPA OIG Report 2003-P-00012 · Table 2-4, issued version",
+      "highlight": [
+        0.5,
+        0.55,
+        0.42,
+        0.12
+      ],
+      "text": "Here is what went out instead. Ranging from two point one to three point three. Slightly above the one percent trigger for defining asbestos material.",
+      "stat": "\"SLIGHTLY ABOVE\"",
+      "cap": "Two to three times the trigger became \"slightly above.\"",
+      "motion": "slow",
+      "tone": "fear"
+    },
+    {
+      "id": "a5_10",
+      "text": "Two to three times a safety threshold is not slightly above it. That is the same number, wearing a different coat.",
+      "img": "ex_asbestospct",
+      "cap": "The same number, wearing a different coat.",
+      "tone": "fear"
+    },
+    {
+      "id": "a5_11",
+      "exhibit": true,
+      "img": "ex_ceqredline",
+      "source": "EPA OIG Report 2003-P-00012 · Table 2-4, statements added on CEQ instruction",
+      "highlight": [
+        0.08,
+        0.78,
+        0.84,
+        0.1
+      ],
+      "text": "And then there is the bottom of the table. A column of instructions from the White House office, printed next to the lines they produced. One of them is not a sentence. It is a stage direction.",
+      "cap": "The last column is instructions.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a5_12",
+      "exhibit": true,
+      "img": "ex_ceqredline",
+      "source": "EPA OIG Report 2003-P-00012 · Table 2-4",
+      "highlight": [
+        0.08,
+        0.86,
+        0.42,
+        0.06
+      ],
+      "text": "Quote. Insert Henshaw quote somewhere around here.",
+      "stat": "\"INSERT HENSHAW QUOTE SOMEWHERE AROUND HERE\"",
+      "cap": "\"INSERT HENSHAW quote somewhere around here\"",
+      "motion": "slow",
+      "tone": "fear"
+    },
+    {
+      "id": "a5_13",
+      "exhibit": true,
+      "img": "ex_ceqredline",
+      "source": "EPA OIG Report 2003-P-00012 · Table 2-4",
+      "highlight": [
+        0.5,
+        0.86,
+        0.42,
+        0.06
+      ],
+      "text": "And the line that appeared in the finished release, under the name of John Henshaw, Assistant Secretary of Labor. Our tests show that it is safe for New Yorkers to go back to work in New York's financial district.",
+      "cap": "\"...safe for New Yorkers to go back to work.\"",
+      "tone": "fear"
+    },
+    {
+      "id": "a5_14",
+      "text": "Be fair about what that shows. Press offices draft quotes for officials to approve. That is normal, if unlovely, government communication. There is no finding anywhere that Henshaw was deceived, or that he disagreed with the line issued under his name.",
+      "img": "ex_ceqredline",
+      "cap": "Press offices draft quotes. That part is normal.",
+      "motion": "slow",
+      "tone": "confidence"
+    },
+    {
+      "id": "a5_15",
+      "text": "What is not normal is the direction of every single edit. Caution out. Reassurance in. Not one change in the other direction.",
+      "img": "ex_ceqredline",
+      "cap": "Every edit ran the same way.",
+      "tone": "fear"
+    },
+    {
+      "id": "a5_16",
+      "exhibit": true,
+      "img": "ex_wallstreet",
+      "source": "EPA OIG Report 2003-P-00012 · p.17",
+      "highlight": [
+        0.1,
+        0.3,
+        0.78,
+        0.22
+      ],
+      "text": "The report also records what was weighing on the messaging. The desire to reopen Wall Street.",
+      "stat": "\"THE DESIRE TO REOPEN WALL STREET\"",
+      "cap": "The exchange reopened September 17.",
+      "tone": "fear"
+    },
+    {
+      "id": "a5_17",
+      "text": "And when the watchdog tried to establish exactly how those edits happened, and asked to sit down with the White House office that made them, it hit a wall.",
+      "img": "ex_ceqredline",
+      "cap": "So they asked to sit down with them.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a5_18",
+      "exhibit": true,
+      "img": "ex_ceqredline",
+      "source": "EPA OIG Report 2003-P-00012 · Table 2-4 preamble",
+      "highlight": [
+        0.08,
+        0.22,
+        0.84,
+        0.07
+      ],
+      "text": "Quote. Our analysis of the Council's input was limited, because Council officials chose not to meet with us.",
+      "stat": "\"CHOSE NOT TO MEET WITH US\"",
+      "cap": "They declined to meet the investigators.",
+      "motion": "slow",
+      "tone": "fear"
+    },
+    {
+      "id": "a5_19",
+      "text": "That is not an allegation from a critic. That is a federal watchdog, in its own published report, recording that the office it was investigating would not sit in a room with it.",
+      "img": "ex_ceqredline",
+      "cap": "That is the watchdog's own account.",
+      "tone": "fear"
+    },
+    {
+      "id": "a6_ch",
+      "chapter": "ACT VI\nTHE BILL",
+      "text": "For a long time, that report was the whole story. Then the bill started arriving.",
+      "img": "memorial_pools",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a6_1",
+      "text": "In two thousand ten, Congress passed the James Zadroga Nine Eleven Health and Compensation Act, signed into law on the second of January, two thousand eleven. It created a federal program to monitor and treat people exposed at the site.",
+      "img": "congress_capitol",
+      "query": "United States Capitol building Washington photograph",
+      "stat": "SIGNED JAN 2, 2011",
+      "cap": "A federal program to monitor and treat.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6_2",
+      "text": "It is named for a New York police detective who worked the pile and died in two thousand six. His own cause of death was contested. The city's Chief Medical Examiner attributed it to prescription drug misuse.",
+      "img": "congress_capitol",
+      "cap": "The name on the act is contested.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a6_3",
+      "text": "Other pathologists, including a former Chief Medical Examiner of New York City, maintained the death was dust related. That dispute was never resolved, and it is worth saying plainly rather than smoothing over.",
+      "img": "congress_capitol",
+      "cap": "The dispute was never resolved.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a6_4",
+      "text": "Here is what the program itself now reports. As of the thirtieth of June, twenty twenty six: a hundred and forty five thousand, two hundred and seventy five people enrolled.",
+      "kinetic": {
+        "count": 145275,
+        "suffix": " enrolled in the WTC Health Program",
+        "sub": "Enrolled in monitoring — responders, residents, students and workers"
+      },
+      "stat": "AS OF JUNE 30, 2026",
+      "tone": "curiosity",
+      "img": "pile_workers"
+    },
+    {
+      "id": "a6_5",
+      "text": "Enrolled does not mean sick. That number counts people in monitoring, including residents and students with a wide range of exposure. The number that means sick is the next one.",
+      "img": "memorial_pools",
+      "cap": "Enrolled is not the same as sick.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6_6",
+      "text": "Sixty seven point three percent of them have been certified with at least one condition linked to the exposure.",
+      "kinetic": {
+        "count": 67,
+        "suffix": "% certified with a linked condition",
+        "sub": "67.3% of enrollees, as of June 30, 2026"
+      },
+      "tone": "fear",
+      "img": "pile_workers"
+    },
+    {
+      "id": "a6_7",
+      "text": "And fifty seven thousand and forty four people have had a cancer certified as linked to what they breathed.",
+      "img": "memorial_pools",
+      "kinetic": {
+        "count": 57044,
+        "suffix": " cancers certified as WTC-linked",
+        "sub": "Lifetime to date, as of June 30, 2026"
+      },
+      "stat": "57,044 CERTIFIED CANCERS",
+      "motion": "slow",
+      "tone": "fear"
+    },
+    {
+      "id": "a6_8",
+      "text": "Twenty five years on, cancer is now the single most frequently newly certified condition in the program. The curve has not turned over. It is still climbing.",
+      "img": "memorial_pools",
+      "cap": "Still the most frequent new certification.",
+      "tone": "fear"
+    },
+    {
+      "id": "a6_9",
+      "text": "You will often hear it said that more people have now died from the dust than died on the day itself. We are not going to say that, because nobody can actually support it.",
+      "img": "memorial_pools",
+      "cap": "You'll hear a comparison. It isn't supportable.",
+      "tone": "confidence"
+    },
+    {
+      "id": "a6_10",
+      "text": "The program reports deaths among its members from all causes. As of March of twenty twenty four, six thousand eight hundred and ninety seven. And it states, in its own words, that it does not track cause of death for deceased members.",
+      "img": "memorial_pools",
+      "stat": "6,897 DEATHS, ALL CAUSES · MAR 2024",
+      "cap": "\"...does not track cause of death...\"",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a6_11",
+      "text": "So there is no official figure to set against the two thousand seven hundred and fifty three killed at the site that morning. The honest version is smaller and still terrible. Fifty seven thousand certified cancers, and counting.",
+      "img": "memorial_pools",
+      "cap": "The honest number is bad enough.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a7_ch",
+      "chapter": "ACT VII\nSIXTY-EIGHT BOXES",
+      "text": "Which brings us to a storage room, and to this week.",
+      "img": "city_hall_nyc",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a7_1",
+      "text": "Everything so far came from the federal side. The agency investigated itself and published the result. The city of New York had its own records, and those had never come out.",
+      "img": "city_hall_nyc",
+      "query": "New York City Hall building exterior photograph",
+      "cap": "The city had its own records.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a7_2",
+      "text": "In twenty twenty three, an advocacy group called Nine Eleven Health Watch filed public records requests with the city for them.",
+      "img": "city_hall_nyc",
+      "stat": "2023 · RECORDS REQUESTS FILED",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a7_3",
+      "text": "In January of twenty twenty four, the Department of Environmental Protection answered. It said no such records existed.",
+      "img": "city_hall_nyc",
+      "stat": "JAN 2024 · \"NO SUCH RECORDS\"",
+      "cap": "The answer: no such records exist.",
+      "motion": "slow",
+      "tone": "fear"
+    },
+    {
+      "id": "a7_4",
+      "text": "In October of twenty twenty five, the department acknowledged about forty boxes.",
+      "img": "courthouse_nyc",
+      "kinetic": {
+        "count": 40,
+        "suffix": " boxes acknowledged",
+        "sub": "October 2025 — after 'no such records' in January 2024"
+      },
+      "tone": "fear"
+    },
+    {
+      "id": "a7_5",
+      "text": "By November, it was sixty eight boxes. Roughly three hundred and forty thousand pages.",
+      "img": "city_hall_nyc",
+      "kinetic": {
+        "count": 68,
+        "suffix": " boxes · ~340,000 pages",
+        "sub": "November 2025"
+      },
+      "stat": "68 BOXES · ~340,000 PAGES",
+      "motion": "slow",
+      "tone": "fear"
+    },
+    {
+      "id": "a7_6",
+      "text": "On the twenty eighth of May, twenty twenty six, a New York Supreme Court justice ruled that the city's handling of those requests had been arbitrary and capricious.",
+      "img": "courthouse_nyc",
+      "query": "New York State Supreme Court courthouse building photograph",
+      "stat": "MAY 28, 2026 · \"ARBITRARY AND CAPRICIOUS\"",
+      "cap": "A court called it arbitrary and capricious.",
+      "tone": "fear"
+    },
+    {
+      "id": "a7_7",
+      "text": "And on the eighth of September, twenty twenty six, three days before the twenty fifth anniversary, the city opened a public portal with the first hundred and seventy thousand pages on it.",
+      "img": "city_hall_nyc",
+      "kinetic": {
+        "count": 170000,
+        "suffix": " pages published",
+        "sub": "September 8, 2026 — the first tranche of a larger set"
+      },
+      "stat": "SEPT 8, 2026",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a7_8",
+      "text": "Now. It matters who is being held responsible here, and it is not one administration and it is not one party.",
+      "img": "city_hall_nyc",
+      "cap": "This is not a one-administration story.",
+      "motion": "slow",
+      "tone": "confidence"
+    },
+    {
+      "id": "a7_9",
+      "text": "Those boxes sat at that department through four mayors. A congressional request in twenty twenty one went unanswered. The requests that were actively denied, and the litigation that followed, happened under the administration in office from twenty twenty two.",
+      "img": "city_hall_nyc",
+      "cap": "Four mayors. One court finding.",
+      "tone": "fear"
+    },
+    {
+      "id": "a7_10",
+      "text": "But only that last stretch carries an actual court finding. The broader claim, that four administrations withheld these records, is the advocacy group's characterization, and it should be labeled as theirs rather than borrowed as ours.",
+      "img": "courthouse_nyc",
+      "cap": "Only one stretch carries a court finding.",
+      "tone": "confidence"
+    },
+    {
+      "id": "a7_11",
+      "text": "And here is the part nobody has answered. How twenty thousand documents sat unlisted in a city department for two decades has never been publicly explained.",
+      "img": "city_hall_nyc",
+      "stat": "NEVER PUBLICLY EXPLAINED",
+      "cap": "Nobody has explained the twenty years.",
+      "motion": "slow",
+      "tone": "fear"
+    },
+    {
+      "id": "a7_12",
+      "text": "The department has declined to comment since November of twenty twenty five. We are not going to guess at the answer. We are just going to note that there isn't one.",
+      "img": "courthouse_nyc",
+      "cap": "We're not going to guess.",
+      "tone": "confidence"
+    },
+    {
+      "id": "a8_ch",
+      "chapter": "ACT VIII\nTHE ANSWER FROM THE OTHER SIDE",
+      "text": "The people on the other end of this have answers, and they deserve to be heard in full.",
+      "img": "courthouse_nyc",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a8_1",
+      "text": "Rudy Giuliani, mayor at the time, responded to this month's release himself, publicly. His position is that the agency said the air was safe, and that nobody covered anything up.",
+      "img": "city_hall_nyc",
+      "cap": "Giuliani answered himself, publicly.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a8_2",
+      "text": "Christine Todd Whitman, who ran the Environmental Protection Agency and said the sentence, has addressed it more than once over the years.",
+      "img": "ex_safetobreathe",
+      "cap": "Whitman has addressed it more than once.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a8_3",
+      "text": "In twenty sixteen she said this. I'm very sorry that people are sick. And if the agency and I in any way contributed to that, I'm sorry.",
+      "img": "ex_oigsummary",
+      "cap": "\"...if the EPA and I in any way contributed to that, I'm sorry.\"",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a8_4",
+      "text": "And in the same breath she rejected the idea that she lied. We did the very best we could at the time, with the knowledge we had.",
+      "img": "ex_safetobreathe",
+      "cap": "\"We did the very best we could at the time.\"",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a8_5",
+      "text": "Both halves of that belong together, and you will often see only the first one quoted. It is an apology for an outcome, and a denial of intent, and she has been consistent about both.",
+      "img": "courthouse_nyc",
+      "cap": "An apology for outcome. A denial of intent.",
+      "tone": "confidence"
+    },
+    {
+      "id": "a8_6",
+      "text": "People did sue her. Residents and workers brought federal claims arguing the reassurances themselves caused them harm.",
+      "img": "courthouse_nyc",
+      "cap": "People sued her personally.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a8_7",
+      "text": "They lost. In Lombardi against Whitman, in two thousand seven, the appeals court affirmed dismissal, holding the conduct did not shock the conscience, which is the legal standard those claims had to clear.",
+      "img": "courthouse_nyc",
+      "stat": "LOMBARDI v. WHITMAN · 2d Cir. 2007",
+      "cap": "Dismissal affirmed.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a8_8",
+      "text": "In Benzman against Whitman, the following year, the same court went further and reversed the one claim against her that a lower court had allowed to survive, sending it back with directions to dismiss.",
+      "img": "courthouse_nyc",
+      "stat": "BENZMAN v. WHITMAN · 2d Cir. 2008",
+      "cap": "Reversed. Dismiss.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a8_9",
+      "text": "So let's be exact, because this is the part the internet gets wrong in both directions. No court has ever held her personally liable. And no court has ever found that she lied.",
+      "img": "courthouse_nyc",
+      "cap": "No liability. No finding that she lied.",
+      "motion": "slow",
+      "tone": "confidence"
+    },
+    {
+      "id": "a8_10",
+      "text": "What is established is narrower, and it is on the record in a federal report. The statement went out ahead of the data. And every edit made to the release before it went out ran in the same direction.",
+      "img": "ex_ceqredline",
+      "cap": "Ahead of the data. Edits all one way.",
+      "tone": "fear"
+    },
+    {
+      "id": "coda1",
+      "text": "Lila Nordstrom was seventeen when she was told her school building was clean. In June of twenty nineteen she was in a hearing room in Washington, testifying about what happened to the students who sat in it.",
+      "img": "stuyvesant_school",
+      "motion": "slow",
+      "speed": 0.94,
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda2",
+      "text": "This month, when the boxes finally opened, reporters went back to her for comment. Twenty five years, to get to the paperwork.",
+      "img": "city_hall_nyc",
+      "motion": "slow",
+      "speed": 0.94,
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda3",
+      "text": "What stays with me isn't the redline, or the stage direction in the margin. It's that deleted sentence. Somebody wrote a warning for the people on Water Street, and somebody took it out, and on Monday morning those people went to work.",
+      "video": "fema_dust_wall_1.mp4",
+      "motion": "slow",
+      "speed": 0.94,
+      "cap": "Somebody wrote the warning. Somebody took it out.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda4",
+      "text": "There are still two hundred and seventy thousand pages in those boxes that nobody outside city government has read.",
+      "img": "city_hall_nyc",
+      "cap": "~270,000 pages still unread.",
+      "speed": 0.94,
+      "tone": "fear"
+    },
+    {
+      "id": "bridge",
+      "text": "If what a government put in writing about that day interests you, wait until you see what its own engineers concluded about the third building that fell, the one nobody was hit by. Watch our Building Seven investigation, right here on this channel. And subscribe to Black Box Breakdown, so you don't miss what the next set of documents turns up.",
+      "img": "lower_manhattan_skyline",
+      "cap": "Next: what brought down Building 7.",
+      "tone": "confidence"
+    }
+  ]
+}
