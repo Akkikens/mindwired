@@ -18,7 +18,7 @@
   {
    "id": "h2",
    "text": "There were about four thousand five hundred of them. Airliners, cargo jets, private aircraft. Every one carrying people who had no idea what was happening on the ground beneath them.",
-   "video": "quietsky_1.mp4",
+   "video": "landapron_1.mp4",
    "cap": "About 4,500 aircraft in the air.",
    "tone": "fear"
   },
@@ -33,7 +33,7 @@
   {
    "id": "h4",
    "text": "The plan that did exist had been written for Soviet bombers, and its central instruction was to switch off the navigation beacons. On this morning, that would have blinded four thousand five hundred crews looking for a runway.",
-   "video": "towerext_1.mp4",
+   "video": "landapron_2.mp4",
    "cap": "The only plan would have switched off the beacons.",
    "tone": "fear"
   },
@@ -153,7 +153,7 @@
   {
    "id": "a1_5",
    "text": "Now put that plan in front of the problem of that morning. Four thousand five hundred friendly crews, every one of them about to need a runway, most of them navigating by exactly those beacons. Switch them off and you have not stopped the attack. You have blinded the people trying to land.",
-   "video": "wing_1.mp4",
+   "video": "landapron_3.mp4",
    "cap": "Switch off the beacons, and you blind 4,500 friendly crews.",
    "speed": 0.96,
    "tone": "fear"
@@ -295,7 +295,7 @@
   {
    "id": "a2_8",
    "text": "Read that carefully, because the whole morning turns on it. A ground stop stops departures. It holds every aircraft that is still on the ground.",
-   "video": "apron_1.mp4",
+   "video": "landapron_4.mp4",
    "cap": "A ground stop = nothing takes off.",
    "motion": "slow",
    "tone": "curiosity"
@@ -388,7 +388,7 @@
   {
    "id": "a3_6",
    "text": "The point of the order, as he put it to the Associated Press years later, was simple. We were just trying to do something to try and resolve what was occurring, and at least separate the good guys from the bad guys.",
-   "video": "landing_3.mp4",
+   "video": "landboard_1.mp4",
    "cap": "\"...separate the good guys from the bad guys.\" — Ben Sliney, AP",
    "tone": "curiosity"
   },
@@ -403,7 +403,7 @@
   {
    "id": "a3_8",
    "text": "You will hear his words quoted. Order everyone to land, regardless of destination. Clear the skies. I'm landing everyone. None of it is on tape. No recording of the order's words has ever been published; every famous version is a writer's reconstruction.",
-   "video": "depboard_3.mp4",
+   "video": "landboard_2.mp4",
    "stat": "NO TAPE OF THE ORDER'S WORDS EXISTS",
    "cap": "Every famous version is a reconstruction.",
    "tone": "curiosity"
@@ -509,7 +509,7 @@
   {
    "id": "a4_6",
    "text": "A newspaper reconstruction has Mineta, minutes after Sliney's order, telling Belger to forget pilot discretion and bring down all the planes. That is the newspaper's version. There is no tape of that either.",
-   "video": "gates_2.mp4",
+   "video": "landboard_3.mp4",
    "cap": "\"Monte, bring down all the planes.\" — USA Today reconstruction, 2002",
    "tone": "curiosity"
   },
@@ -590,7 +590,7 @@
   {
    "id": "a5_5",
    "text": "Pick an airport. Not your airport. Regardless of destination, in Sliney's phrase. A crew that had briefed one runway that morning was now choosing another one off a chart, with a few minutes to decide.",
-   "video": "landing_3.mp4",
+   "video": "landing_2.mp4",
    "cap": "Regardless of destination.",
    "tone": "fear"
   },
@@ -653,7 +653,7 @@
   {
    "id": "a5_12",
    "text": "Without incident. Nothing anywhere in the record shows an airborne aircraft refusing that order. But one aircraft over the Pacific came close to being shot down for obeying it. Korean Air eighty five.",
-   "video": "wing_4.mp4",
+   "video": "landing_4.mp4",
    "cap": "Korean Air 85 · the compliance that looked like defiance",
    "tone": "fear"
   },
@@ -692,7 +692,7 @@
   {
    "id": "a6_1",
    "text": "By Transport Canada's own count, about five hundred transatlantic flights and ninety transpacific flights were heading for North America when the American sky closed beneath them.",
-   "video": "wing_1.mp4",
+   "video": "landing_5.mp4",
    "stat": "~500 TRANSATLANTIC · ~90 TRANSPACIFIC",
    "cap": "Inbound to a continent that had just shut its door.",
    "tone": "fear"
@@ -707,7 +707,7 @@
   {
    "id": "a6_3",
    "text": "The Canadian transport minister, David Collenette, was in a car, driving back from Montreal, with cell phones that had died. The decision was executed in his absence, by the Transport Canada Situation Centre under Doctor John Read, an acting assistant deputy minister. Collenette's own words: with my approval.",
-   "video": "quietsky_1.mp4",
+   "video": "landterminal_1.mp4",
    "cap": "The minister was on the highway. His phones were dead.",
    "motion": "slow",
    "tone": "fear"
@@ -730,7 +730,7 @@
   {
    "id": "a6_6",
    "text": "The rest landed in Canada. Transport Canada counted two hundred and twenty four flights carrying more than thirty three thousand passengers. Nav Canada counted two hundred and thirty nine aircraft. Both are official, and they disagree, so the honest number is some two hundred and twenty five to two hundred and forty, across seventeen airports.",
-   "video": "gates_2.mp4",
+   "video": "landterminal_2.mp4",
    "stat": "224 FLIGHTS (TC) · 239 AIRCRAFT (NAV CANADA)",
    "cap": "Two official counts. Neither is wrong. Say \"some 225 to 240.\"",
    "tone": "curiosity"
@@ -773,7 +773,7 @@
   {
    "id": "a6_11",
    "text": "I should tell you what you are not seeing. There is no free photograph or film of Gander that week. The famous pictures of airliners parked nose to tail belong to the airport and to Nav Canada, and the government's own booklet photographs cannot be licensed for a film like this. So I have drawn you a map, and I will let the people who were there do the describing.",
-   "video": "emptyterminal_5.mp4",
+   "video": "landapron_1.mp4",
    "cap": "No usable footage of Gander, Sept 11-16, 2001, exists. So: a map, and their words.",
    "motion": "slow",
    "tone": "melancholy"
@@ -781,7 +781,7 @@
   {
    "id": "a6_12",
    "text": "A resident, quoted in Transport Canada's own account: On September eleventh, we had thirty eight aircraft with a total of six thousand six hundred and fifty six people drop by for coffee, then stay for three or four days.",
-   "video": "emptyterminal_4.mp4",
+   "video": "landapron_2.mp4",
    "cap": "\"...drop by for coffee, then stay for three or four days.\"",
    "tone": "melancholy"
   },
@@ -927,7 +927,7 @@
   {
    "id": "a8_5",
    "text": "In Canada, the country that had just taken in some two hundred and thirty aircraft on a few minutes' notice, there was no national airport security authority at all on the eleventh of September. C A T S A was created in response. It came into force on the first of April two thousand two.",
-   "video": "depboard_3.mp4",
+   "video": "landapron_3.mp4",
    "stat": "CATSA · IN FORCE APRIL 1, 2002",
    "cap": "Canada's airport-security authority did not exist on 9/11.",
    "tone": "curiosity"
@@ -978,7 +978,7 @@
   {
    "id": "coda4",
    "text": "There is a Cold War plan on the shelf, rewritten now, and a telephone line that never hangs up, and a security agency in Canada that did not exist that morning. They are all answers to the same fact. The proudest hour of American air traffic control had no written procedure.",
-   "video": "emptyterminal_5.mp4",
+   "video": "landapron_4.mp4",
    "speed": 0.94,
    "motion": "slow",
    "cap": "Its proudest hour had no written procedure.",

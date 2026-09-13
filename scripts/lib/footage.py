@@ -947,6 +947,25 @@ def download_assets(assets: list[Asset], out_dir: Path, prefix: str, count: int,
                         tmp = Path(tf.name)
                     ok = transcode(tmp, dst, max_seconds, max_h=max_h)
                     tmp.unlink(missing_ok=True)
+                    # PORTRAIT GUARD (2026-09-13). Stock libraries serve a lot of
+                    # 608x1080 phone video. In a 1920x1080 doc it renders as a
+                    # narrow strip between black bars — thegrounding shipped 16
+                    # such scenes into a 4K master, two of them inside the cold
+                    # open, before anyone looked at a frame. Landscape only.
+                    if ok:
+                        try:
+                            wh = subprocess.run(
+                                ["ffprobe", "-v", "error", "-select_streams", "v",
+                                 "-show_entries", "stream=width,height",
+                                 "-of", "csv=p=0", str(dst)],
+                                capture_output=True, text=True, check=True).stdout.strip()
+                            vw, vh = (int(x) for x in wh.split(",")[:2])
+                            if vw < vh:
+                                dst.unlink(missing_ok=True)
+                                print(f"  !! PORTRAIT {vw}x{vh}, skipped: {a.title[:44]}")
+                                continue
+                        except Exception:
+                            pass  # unprobeable: let the contact sheet catch it
                     if not ok:
                         dst.unlink(missing_ok=True)
                         print(f"  !! transcode failed: {a.title[:50]}")

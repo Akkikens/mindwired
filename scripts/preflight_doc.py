@@ -419,6 +419,30 @@ def main() -> int:
     if r.returncode != 0:
         block("lint_tts_text hits:\n" + (r.stdout or r.stderr).strip())
 
+    # ── PORTRAIT-SOURCE GATE (2026-09-13) ──────────────────────────────────
+    # A 608x1080 clip in a 1920x1080 comp renders as a narrow strip between
+    # black bars. thegrounding put 16 of them into a finished 4K master, two
+    # inside the cold open, and it took a frame-by-frame look to catch. The
+    # fetcher now refuses portrait video; this catches anything already on disk.
+    for sc in scenes:
+        v = sc.get("video")
+        if not v:
+            continue
+        vp = REPO / "public" / "shorts" / slug / "video" / v
+        if not vp.exists():
+            continue
+        try:
+            wh = subprocess.run(
+                ["ffprobe", "-v", "error", "-select_streams", "v",
+                 "-show_entries", "stream=width,height", "-of", "csv=p=0", str(vp)],
+                capture_output=True, text=True, check=True).stdout.strip()
+            vw, vh = (int(x) for x in wh.split(",")[:2])
+        except Exception:
+            continue
+        if vw < vh:
+            block(f"{sc['id']}: video '{v}' is PORTRAIT ({vw}x{vh}) — renders as a "
+                  f"narrow strip between black bars in a 16:9 comp. Replace it.")
+
     # ── VISUAL MONOTONY GATE (2026-09-13) ──────────────────────────────────
     # Banked from noradtapes, which shipped with ONE clip carrying 32 of 123
     # scenes (26% of the film) and 23 scenes sitting back-to-back on the same

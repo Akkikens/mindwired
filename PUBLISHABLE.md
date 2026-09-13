@@ -1,86 +1,113 @@
 # PUBLISHABLE — what is finished, what is blocking it
 
-Built 2026-09-13 from actual repo state, not memory. **This is the file that did not exist
-when it was asked for twice.** Keep it current: `publish-video` should update the row it
-ships, and `doc-episode` should add a row when a master lands.
+Updated 2026-09-13 15:20 from actual repo and channel state, verified with yt-dlp and
+ffprobe rather than memory. Keep it current: `publish-video` updates the row it ships,
+`doc-episode` adds a row when a master lands.
 
-The 2026-08 audit found 8+ finished masters that were rendered and never uploaded. A
-rendered master earns nothing and its currency decays. That is what this file is for.
-
----
-
-## 🟢 READY — shortest path to live
-
-### 1. noradtapes — "We Have Some Planes." Nobody Knew What It Meant. (Black Box)
-**Master:** `out/noradtapes_gce.mp4` — 3840x2160 · 30fps · **31:50** · 4.61 GB · **−14.0 LUFS**
-(rendered on GCE 2026-09-12, verified: outro is the correct Black Box/Reid asset, splice clean)
-**Package:** `docs/metadata/METADATA-noradtapes.md` · **3 thumbnails built** · attribution
-files written for images and video · fact base `CLAIMS-noradtapes.md` (976 lines)
-**Why now:** the 25th-anniversary wave is live — this channel's two existing 9/11 uploads
-went to #2 and #3 on the channel while it ran. Every week of delay costs pool.
-
-| # | Blocker | Who | Effort |
-|---|---|---|---|
-| 1 | **SRT not generated** — run `whisper_srt.py` on the master | me | 5 min CPU |
-| 2 | **Ear-check the four real-audio cuts.** I matched content against the printed transcript; nobody has listened. In-points in `_evidence/noradtapes/SOURCES.md` | **human** | 10 min |
-| 3 | **Verify chapter timestamps** against the master — `gen_doc_srt.py` drifted 85s on colossalsquid, and this episode uses `extraHold` | me | 10 min |
-| 4 | **Paste CC-BY / CC-BY-SA credit lines** into the description from the two ATTRIBUTION.md files | me | 5 min |
-| 5 | **Decide two names:** Colin Scoggins (named in the draft monograph, not the published report — CLAIMS contradicts itself) and Larry Arnold (de-named pending a living-status check; he is one of the two officers whose testimony was referred) | **Akshay** | — |
-| 6 | **Sensitivity pass — publish-video §6 is a hard gate on this episode** (mass-casualty terrorism, living named people) | **human** | 20 min |
-| 7 | Publish slot — Black Box row is still TBD in LAUNCH-LESSONS.md | **Akshay** | one-time |
+**The backlog the 2026-08 audit flagged is gone.** Everything that was rendered-and-sitting
+went live on 2026-09-13. What follows is the one episode still in flight, then the debts
+the loop is carrying.
 
 ---
 
-## 🟡 FINISHED BUT BLOCKED
+## 🟠 IN FLIGHT
 
-### 2. biosphere2 — 8 People Sealed In. The Oxygen Kept Vanishing. (mindwired)
-**Master:** `out/biosphere2_gce.mp4` — 3840x2160 · **37:53** · 6.1 GB · **−14.02 LUFS** (re-measured)
-**Package:** `METADATA-biosphere2.md` · captions built and hand-corrected
-**⚠ The episode source was never committed** — no doc spec, no manifest, no CLAIMS file.
-It cannot be re-rendered. Chapters are transcript-derived.
+### thegrounding — "4,500 Planes Had to Land. There Was No Plan." (Black Box)
+**Status: rendering on GCE at ~89%** (`render-thegrounding-2361`). 44,179 frames, 4K.
+Body 24:16 + 16.1s outro ≈ **24:32**.
+**Package:** none yet — METADATA still to write. Fact base `CLAIMS-thegrounding.md` is done.
+**Visual pool:** 66 distinct assets across 112 scenes, heaviest at 3.6% — the fix for the
+repetition problem, and now enforced by a preflight gate rather than intended.
 
 | # | Blocker | Who |
 |---|---|---|
-| 1 | **No thumbnails built** — concepts only, so Test & Compare cannot run. Assets are probed and named in the metadata file | me, ~30 min |
-| 2 | **No ATTRIBUTION.md** for 249 media files. CC BY-SA needs credit; this is a licence obligation, not a nicety | me + human eyeball |
-| 3 | **End-screen target is unpublished** — the closing bridge names Project Hail Mary aloud, which has no URL | see #4 below |
-| 4 | Confirm NASA eClips is PD (co-produced with the National Institute of Aerospace) | human, 2 min |
-
-### 3. colossalsquid — Nobody Has Ever Seen a Full-Grown Colossal Squid (mindwired)
-**Master:** `out/colossalsquid_gce.mp4` — **35:40** · 4.9 GB · package complete, 3 thumbnails built.
-Chapters are frame-math verified (do **not** trust `gen_doc_srt.py` on this one).
-**Blocker:** no ATTRIBUTION.md found under `public/shorts/colossalsquid/` despite the metadata
-citing one — resolve before upload. Otherwise this is the closest to ready after noradtapes.
-
-### 4. projecthailmary — Hail Mary's Sun-Killing Microbe Might Be Real (mindwired)
-**⚠ The master is CORRUPT** — `out/projecthailmary_gce.CORRUPT-2026-08-29.mp4`, 0.3 GB.
-Package and thumbnails exist; the render does not. **Needs a re-render.**
-This is also what blocks biosphere2's end screen, and it is the video the noradtapes bridge
-does *not* depend on (that one points at United 93, which is live).
+| 1 | Master must land and verify (rescue fetcher armed — ffprobe BEFORE the VM is deleted) | automatic |
+| 2 | `METADATA-thegrounding.md` — title, description, chapters, tags, pinned comment | me, ~30 min |
+| 3 | **Thumbnails not built** — no concepts locked yet either | me |
+| 4 | SRT off the master | me, 5 min |
+| 5 | Chapters must be computed from the manifest, **not** `gen_doc_srt.py` — it drifted 19s on the sister episode | me |
+| 6 | Human pulls still owed (in CLAIMS): the FAA's own 403'd pages, the Sliney MFR from NARA, Advisory 036, the NAV CANADA backgrounder | **human** |
 
 ---
 
-## ⚪ PACKAGED, MASTER NOT IN `out/`
-`dcamidair` and `groundzeroair` both have metadata and 3 built thumbnails, but no master in
-`out/` — either already shipped, or the render lives elsewhere. **Check before assuming.**
-`groundzeroair` has a handoff doc on PR #6.
+## ✅ PUBLISHED 2026-09-13 (verified live)
+
+| Date | Channel | Title as published | URL | Runtime |
+|---|---|---|---|---|
+| Sep 13 | Black Box | The Tapes That Broke NORAD's 9/11 Story | kl_rTye4ocA | 31:50 |
+| Sep 13 | mindwired | 8 People Sealed In. The Oxygen Kept Vanishing. | --sTmQzJtBk | 37:53 |
+| Sep 10 | Black Box | The 9/11 Air Files New York Kept Sealed for 25 Years | nPDC2r_m6ec | 16:42 |
+| Sep 8 | mindwired | Nobody Has Ever Seen a Full-Grown Colossal Squid | N1ZlQpP5be4 | 35:40 |
+| Aug 31 | mindwired | Project Hail Mary's Science Is More Real Than You Think | D9E-Opwl_HQ | 11:32 |
+
+**noradtapes shipped on the ALTERNATE title** (ctr-engine 8.50) rather than the locked
+primary ("We Have Some Planes." Nobody Knew What It Meant, 9.00). If it underperforms the
+channel's 9/11 baseline, the title is the first variable to test — not the thumbnail.
+
+### ⚠ Owed on the published set
+1. **Nobody has ear-checked the four ACTUAL-labelled audio cuts** in the NORAD episode. I
+   matched content against the printed transcript; that is not the same as listening.
+   In-points are in `_evidence/noradtapes/SOURCES.md`. **This is the highest-stakes open
+   item on the channel** — those clips carry an "ACTUAL FAA ATC RECORDING" label on screen.
+2. **Two naming calls** left unresolved and currently written the conservative way: Colin
+   Scoggins (named in the Commission's draft monograph, not the published report) and Larry
+   Arnold (de-named pending a living-status check, though he is one of the two officers
+   whose testimony was actually referred).
+3. **CC-BY credit lines** must be pasted into the descriptions from the ATTRIBUTION.md
+   files — a licence obligation, not a nicety.
+
+---
+
+## 🔴 THE DEBT THAT BLOCKS THE NEXT TOPIC PICK
+
+**Three launches are past 48h with no Studio numbers, all under 200 views at last check:**
+groundzeroair (Sep 10, 96), colossalsquid (Sep 8, 75), projecthailmary (Aug 31, 164).
+
+Without impressions data nobody can say whether that is **topic demand** (small pool → the
+fix is topic selection) or **packaging** (healthy pool, low CTR → the fix is ctr-engine).
+Those are opposite prescriptions. icahn-validate Step 0 is supposed to block on exactly
+this; I invoked the escape hatch to validate `thegrounding`, which is legitimate once and
+corrosive twice.
+
+**Needed from Akshay, per video:** days live · impressions · impressions CTR · average view
+duration and average % viewed · the 0-60s curve shape · Test & Compare state. Compare
+against MH370 (kRjhzp4Ho9k) for Black Box.
+
+---
+
+## 🟢 VALIDATED AND WAITING
+
+**thegrounding** is the current build. Nothing else is validated and unbuilt — the queue's
+older entries predate the current gates and would need re-validation, since ratios are
+point-in-time (the Kola Superdeep lesson).
+
+Worth noting for the wave calendar: the 25th-anniversary 9/11 wave that carried Building 7
+and United 93 to the channel's #2 and #3 slots **is decaying**. Two 9/11 episodes are now
+live into it and a third is rendering. The topic after this one should be a non-9/11
+giant name, chosen off real launch data.
 
 ---
 
 ## HOUSEKEEPING
 
-- **Root directory is littered with truncated deliverables:** `Warning.mp4`, `Men.mp4`,
-  `Wrong.mp4`, `Proof..mp4`, `Quiet..mp4` and others — the mp4-filename-is-title rule has
-  produced files named after the *last word* of the title. Shipped episodes' captions and
-  thumbnails are supposed to move to `archive/` once live; these should be reconciled
-  against the publish log and archived.
+- **Root directory litter:** `Warning.mp4`, `Men.mp4`, `Wrong.mp4`, `Proof..mp4`,
+  `Quiet..mp4` and others — the mp4-filename-is-title rule appears to have truncated titles
+  to their last word. Reconcile against the publish log and move shipped captions and
+  thumbnails to `archive/`.
 - **Three dead branches** — `gallant-mccarthy-9dbf53`, `zen-chebyshev-deba08`,
-  `unruffled-haibt-ab5fb6` — are each 124 commits behind main with their content already on
-  main. Safe to delete; a PR from any of them would revert months of work.
+  `unruffled-haibt-ab5fb6` — each 124 commits behind main with content already on main.
+  Safe to delete; a PR from any of them would revert months of work.
 - **Open PRs:** #5 (noradtapes + biosphere2), #6 (groundzeroair), #7 and #8 (colossalsquid,
-  overlapping — merge whichever is ahead and close the other).
-- **`render_gce.sh` has no billing safety net.** The VM is on-demand with no
-  `maxRunDuration` and no `instanceTerminationAction`, and its service account lacks compute
-  scope so it cannot self-delete. The local script's EXIT trap is the only thing that
-  deletes it — if the laptop sleeps through the end of a render or the session is killed, a
-  32-vCPU box bills at roughly $1.40/hour until someone notices. One-line fix, worth doing.
+  overlapping — merge whichever is ahead, close the other). Everything since has been
+  committed on the `claude/biosphere2-metadata` branch; **merging #5 is what makes main
+  current**, and Akshay has asked for main-direct commits from here on.
+- **✅ FIXED 2026-09-13 — the render script no longer deletes healthy renders**, and
+  on-demand VMs now carry `--max-run-duration` + `--instance-termination-action=DELETE`.
+  Expired gcloud credentials had produced three confident wrong diagnoses in one session
+  ("NO CAPACITY anywhere on the ladder", "VM GONE — preempted", and a silent scp stall);
+  the second one tried to delete a render sitting at 56% and only failed because the delete
+  needed the same broken credentials.
+- **✅ NEW — visual monotony is a blocking gate.** Any asset over 12% of scenes, or more
+  than four back-to-back repeats, fails preflight. Run against the published noradtapes it
+  fails the episode: one clip carried 32 of 123 scenes with 23 consecutive repeats.
+  `scripts/slice_shots.py` cuts a long source into its distinct shots when a pool is thin.
