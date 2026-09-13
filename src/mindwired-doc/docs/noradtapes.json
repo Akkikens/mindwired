@@ -333,6 +333,18 @@
    "tone": "fear"
   },
   {
+   "id": "a2_17a",
+   "text": "Okay, right now I guess we're trying to work on, I guess there's been some threats in the cockpit.",
+   "speaker": "BOSTON CENTER TO NEADS, ID SECTION",
+   "radioLabel": "ACTUAL NORAD/NEADS RECORDING",
+   "timestamp": "c. 8:36 A.M. EDT",
+   "cap": "ACTUAL NORAD/NEADS RECORDING · NEADS Channel 5, ID technician position",
+   "source": "NEADS channel tapes · DRM1 DAT2 Channel 5 (ID TK) · released under FOIA by NORAD-USNORTHCOM, 9 April 2008",
+   "video": "wads_opsfloor_dvids873438.mp4",
+   "extraHold": 18,
+   "tone": "fear"
+  },
+  {
    "id": "a2_18",
    "text": "It makes sense once you know Neads was running a training exercise that morning. Norad's commander later testified that adjusting took about thirty seconds, and the Commission found the response was, if anything, faster for it.",
    "video": "eads_sector_rome_dvids913487.mp4",

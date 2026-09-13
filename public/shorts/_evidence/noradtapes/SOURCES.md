@@ -91,3 +91,33 @@ manual step in the episode.
 Also note: the NEADS channels carry a periodic automated **GMT** time announcement
 ("hours 26, minutes 20" = 08:26 EDT), which is the reliable way to locate a moment on the
 NEADS side.
+
+## REAL TAPE CUTS IN THE EPISODE (2026-09-12) — ear-check these four before ship
+
+Each is dropped in as `public/shorts/noradtapes/audio/<scene id>.mp3`, which is the same
+slot the VO builder writes to, so the render plays the real recording instead of a
+synthesised line. `radio_recreate.py`'s own docstring prescribes exactly this. All four
+are labelled **ACTUAL** on screen with a source citation; everything else voiced in the
+film stays **RECREATION**.
+
+| Scene | Source file | In-point | Length | Content (verified against the machine transcript) |
+|---|---|---|---|---|
+| `h2a` | `faa/3_ZBW_127_SEC46R_1204-1240_UTC.mp3` | 1271 s | 14 s | The 8:24:38 window. Faint peaks (−8 dB against a −31 dB floor) that will not resolve — **this is what the controller heard, and why he could not understand it.** On screen: "[ unintelligible ]". |
+| `h3a` | same | 1326 s | 9 s | "American 11, are you trying to call?" — Zalewski calling a plane that will never answer. Clearly audible. |
+| `a2_9a` | same | 2 s | 42 s | Karen Goff, Quality Assurance Technician, Boston ARTCC, reading the certification at the head of the tape. The tape certifying itself, under the "pull the tape" beat. |
+| `a2_17a` | `audio/DRM1_DAT2_Channel_5_ID_TK.mp3` | 589 s | 22 s | Boston Center to the NEADS ID section: "…he's like 35 miles off Kennedy now at 367 knots. No idea where he's going… I guess there's been some threats in the cockpit." |
+
+Treatment applied to all four: `highpass=280, lowpass=3200, dynaudnorm, acompressor, +3 dB`
+— band-limiting that matches the channel's radio grammar, no pitch or content alteration.
+
+**Time alignment, so anyone can find more.** The NEADS channels begin at **12:26:20 UTC
+(08:26:20 EDT)** — verified twice against content, so `offset ≈ target EDT − 8:26:20`. The
+Boston Center tape covers **1204–1232 UTC** behind a ~45-second certification preamble, so
+`offset ≈ (target EDT − 8:04:00) + 45 s`. Confirmed landmarks on the NEADS ID channels:
+~717 s the "it's not real world" exchange and the technician taking Flight 11's type and
+souls on board; ~3386 s "Huntress ID, reference American Airlines"; and, uncut, a voice
+saying "they better call the president."
+
+**Still not located as real audio:** the 8:37:52 call itself ("Is this real-world or
+exercise?"), which is on one of the 15 channels not yet downloaded. `a2_16`/`a2_17` remain
+RECREATION until someone finds it.
