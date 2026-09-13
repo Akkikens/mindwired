@@ -1,0 +1,996 @@
+{
+ "slug": "thegrounding",
+ "title": "4,500 Planes Had to Land. There Was No Plan.",
+ "channel": "blackbox",
+ "niche": "aviation",
+ "language": "en",
+ "voice": "d46abd1d-2d02-43e8-819f-51fb652c1c61",
+ "scenes": [
+  {
+   "id": "h1",
+   "text": "At nine forty two on a Tuesday morning, a man on his first day in a new job ordered every aircraft in American airspace to land. Immediately. At the nearest airport, wherever that happened to be.",
+   "video": "freshscope_2.mp4",
+   "stat": "9:42 A.M. · SEPT 11, 2001 · HERNDON, VIRGINIA",
+   "cap": "Every aircraft. The nearest airport. Now.",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "h2",
+   "text": "There were about four thousand five hundred of them. Airliners, cargo jets, private aircraft. Every one carrying people who had no idea what was happening on the ground beneath them.",
+   "video": "quietsky_1.mp4",
+   "cap": "About 4,500 aircraft in the air.",
+   "tone": "fear"
+  },
+  {
+   "id": "h3",
+   "text": "No procedure for doing that existed. Not in the aviation agency's manuals. Not in the Cold War plan the government had kept on a shelf for decades. Nowhere.",
+   "video": "radarops_1.mp4",
+   "cap": "There was no procedure.",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "h4",
+   "text": "The plan that did exist had been written for Soviet bombers, and its central instruction was to switch off the navigation beacons. On this morning, that would have blinded four thousand five hundred crews looking for a runway.",
+   "video": "towerext_1.mp4",
+   "cap": "The only plan would have switched off the beacons.",
+   "tone": "fear"
+  },
+  {
+   "id": "h5",
+   "text": "So the man did not use it. In his own words, years later: this was a tool that we did not have, but we adopted.",
+   "video": "atctower_2.mp4",
+   "cap": "\"A tool that we did not have, but we adopted.\" — Ben Sliney",
+   "motion": "slow",
+   "speed": 0.96,
+   "tone": "curiosity"
+  },
+  {
+   "id": "h6",
+   "text": "He did not ask anyone's permission. The written advisory that made it official would not exist for another eighty four minutes.",
+   "video": "depboard_1.mp4",
+   "stat": "THE PAPERWORK CAME 84 MINUTES LATER",
+   "cap": "No permission. No paperwork. Not yet.",
+   "tone": "fear"
+  },
+  {
+   "id": "h7",
+   "text": "Within minutes, hundreds of aircraft were turning toward airports they had never planned to visit. Within the hour, thousands.",
+   "video": "landing_2.mp4",
+   "cap": "Hundreds within minutes. Thousands within the hour.",
+   "motion": "fast",
+   "tone": "awe"
+  },
+  {
+   "id": "h8",
+   "text": "By sixteen minutes past noon, the sky over the United States was empty. It had taken under three hours. Nobody had ever done it before, and nobody had written down how.",
+   "video": "quietsky_2.mp4",
+   "stat": "12:16 P.M. · THE SKY IS CLEAR",
+   "cap": "Under three hours. Never done before.",
+   "motion": "slow",
+   "speed": 0.95,
+   "tone": "awe"
+  },
+  {
+   "id": "h9",
+   "text": "This is the story of the one thing that worked that morning. How a system with no plan landed everything it had, and the argument, still unresolved, over whose order it really was.",
+   "video": "emptyterminal_1.mp4",
+   "cap": "The one thing that worked.",
+   "motion": "slow",
+   "speed": 0.96,
+   "tone": "curiosity"
+  },
+  {
+   "id": "sting",
+   "sting": true,
+   "text": "You're watching Black Box Breakdown.",
+   "img": "herndon_command_center",
+   "query": "FAA Air Traffic Control System Command Center Herndon Virginia operations floor wall displays photograph",
+   "tone": "curiosity"
+  },
+  {
+   "id": "title",
+   "chapter": "4,500 PLANES HAD TO LAND.\nThere Was No Plan",
+   "text": "Four thousand five hundred planes had to land. There was no plan.",
+   "img": "herndon_command_center",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a1_ch",
+   "chapter": "ACT I\nTHE PLAN ON THE SHELF WAS FOR SOVIET BOMBERS",
+   "text": "To understand why nobody could simply look up the answer, start with the plan that was on the shelf. It had been written for a different enemy.",
+   "img": "ex_scatana_navaids",
+   "query": "VOR VORTAC navigation aid station white cone antenna airfield photograph FAA",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a1_1",
+   "exhibit": true,
+   "img": "ex_scatana_cfr",
+   "source": "32 C.F.R. Part 245 (2001 edition) · Plan for the Security Control of Air Traffic and Air Navigation Aids · source 41 FR 9322, 4 March 1976",
+   "highlight": [
+    0.1,
+    0.12,
+    0.8,
+    0.14
+   ],
+   "text": "The United States did have a plan for seizing control of its own sky. It was called Scatana. The Plan for the Security Control of Air Traffic and Air Navigation Aids.",
+   "cap": "SCATANA · the plan in force that morning",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a1_2",
+   "text": "It was a Cold War document. The version in force that morning traced back to nineteen seventy six, and its logic was older than that. It assumed the threat was coming from outside the country, and that the threat was a bomber.",
+   "video": "alert_1.mp4",
+   "stat": "SCATANA · IN FORCE SINCE 1976",
+   "cap": "Written for a bomber coming from outside.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a1_3",
+   "exhibit": true,
+   "img": "ex_scatana_navaids",
+   "source": "32 C.F.R. Part 245 (2001 edition) · what the plan actually provides for",
+   "highlight": [
+    0.1,
+    0.34,
+    0.8,
+    0.26
+   ],
+   "text": "Read what it actually provides for. A wartime priority list for air traffic. Grounding the traffic flying by visual rules. And controlling or shutting down the navigation aids themselves. V O R. Vortac. Tacan. Loran.",
+   "cap": "\"...control or shut down the navigation aids.\"",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a1_4",
+   "text": "That is the defining act of Scatana. Deny the beacons to an enemy who is using them to find his target.",
+   "video": "towerext_2.mp4",
+   "cap": "Its defining act: deny the beacons to the enemy.",
+   "motion": "slow",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a1_5",
+   "text": "Now put that plan in front of the problem of that morning. Four thousand five hundred friendly crews, every one of them about to need a runway, most of them navigating by exactly those beacons. Switch them off and you have not stopped the attack. You have blinded the people trying to land.",
+   "video": "wing_1.mp4",
+   "cap": "Switch off the beacons, and you blind 4,500 friendly crews.",
+   "speed": 0.96,
+   "tone": "fear"
+  },
+  {
+   "id": "a1_6",
+   "exhibit": true,
+   "img": "ex_scatana_cfr",
+   "source": "32 C.F.R. Part 245 (2001 edition) · who may implement the plan",
+   "highlight": [
+    0.1,
+    0.55,
+    0.8,
+    0.16
+   ],
+   "text": "There was a second problem. Look at who gets to trigger it. Implementation was directed by appropriate military authorities, upon an Air Defense Emergency. Not by the aviation agency. Not by a manager at a command centre in Herndon, Virginia.",
+   "cap": "\"...appropriate military authorities.\" Not the FAA.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a1_7",
+   "text": "And there was a third. Search the document for an instruction to land every civilian aircraft in the country, and you will not find one. It is not there. Nobody who wrote the plan had imagined needing it.",
+   "video": "radarops_3.mp4",
+   "cap": "No \"land everything\" instruction exists in the plan.",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a1_8",
+   "text": "Many retellings say the man in Herndon invoked Scatana that morning. He did not. The Commission never says the plan was invoked, and the regulation gave that declaration to the military. There was a Cold War plan, and it was not the plan they used.",
+   "video": "hangar_1.mp4",
+   "stat": "SCATANA WAS NOT THE PLAN THEY USED",
+   "cap": "He did not invoke SCATANA. Many videos say he did.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a1_9",
+   "text": "Here is how he described it himself, decades later. A ground stop technically is an order that prevents anyone from taking off. This was a tool that we did not have, but we adopted, which was to land everybody in the air, and whoever was left, we would deal with.",
+   "video": "atctower_4.mp4",
+   "cap": "\"...whoever was left, we would deal with.\" — Ben Sliney, WBUR On Point",
+   "motion": "slow",
+   "speed": 0.95,
+   "tone": "curiosity"
+  },
+  {
+   "id": "a1_10",
+   "text": "The only precedent anyone could point to was an exercise. Operation Skyshield, in the early nineteen sixties, when the country closed its sky on purpose, on a schedule, to rehearse against Soviet bombers. This was the first time it had ever happened unplanned.",
+   "video": "freshrotate_1.mp4",
+   "stat": "OPERATION SKYSHIELD · THE ONLY PRECEDENT",
+   "cap": "The only precedent was a rehearsal.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a1_11",
+   "text": "And the military, for its part, declined to run the full Cold War plan. The Norad commander, General Ralph Eberhart, reportedly said he would execute only a modified version, one that did not cause a bad situation. Every navigation aid in the country was left running so the aircraft could find the ground.",
+   "video": "alert_2.mp4",
+   "cap": "NORAD left every beacon on.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a2_ch",
+   "chapter": "ACT II\nIT WAS NEVER ONE DECISION",
+   "text": "The order at nine forty two was not the first stop that morning. It was the top rung of a ladder, and the ladder had been climbing for forty minutes.",
+   "img": "boston_center_nashua",
+   "query": "Boston Air Route Traffic Control Center Nashua New Hampshire FAA building exterior photograph",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a2_1",
+   "text": "The first rung was local. Around nine oh four, a voice at Boston Center is on the tape. We're gonna stop everybody, we're gonna shut Boston down, I'd suggest the same elsewhere.",
+   "video": "radarops_4.mp4",
+   "stat": "c. 9:04 A.M. · BOSTON CENTER",
+   "cap": "\"We're gonna shut Boston down.\"",
+   "tone": "fear"
+  },
+  {
+   "id": "a2_2",
+   "exhibit": true,
+   "img": "ex_ss17_atczero",
+   "source": "9/11 Commission Staff Statement No. 17 · \"Improvising a Homeland Defense\" · June 17, 2004",
+   "highlight": [
+    0.1,
+    0.3,
+    0.8,
+    0.16
+   ],
+   "text": "One minute later, at nine oh five, New York Center declared a condition called A T C zero. No aircraft could depart from, arrive at, or travel through its airspace until further notice.",
+   "stat": "9:05 A.M. · NEW YORK CENTER · \"ATC ZERO\"",
+   "cap": "\"ATC zero.\"",
+   "tone": "fear"
+  },
+  {
+   "id": "a2_3",
+   "text": "The man who declared it, Michael McCormick, later explained his reasoning. I decided, we're under attack. They're using aircraft as weapons. The only way that I can work to stop it is to remove the weapons.",
+   "video": "scope_2.mp4",
+   "cap": "\"The only way to stop it is to remove the weapons.\" — Michael McCormick",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a2_4",
+   "text": "At nine oh six, the aviation agency stopped every flight bound through New York airspace. Rung two.",
+   "video": "depboard_2.mp4",
+   "stat": "9:06 A.M. · ALL NEW YORK-BOUND TRAFFIC",
+   "cap": "Rung two.",
+   "tone": "fear"
+  },
+  {
+   "id": "a2_5",
+   "text": "Then the ladder reached Herndon. By nine twenty five, the Command Center and agency headquarters knew two aircraft had hit the World Trade Center, that American seventy seven was lost, and that a hijacker had said, we have some planes.",
+   "video": "scope_3.mp4",
+   "stat": "9:25 A.M. · WHAT HERNDON KNEW",
+   "cap": "Two impacts. One aircraft lost. \"We have some planes.\"",
+   "tone": "fear"
+  },
+  {
+   "id": "a2_6",
+   "exhibit": true,
+   "img": "ex_ss17_groundstop",
+   "source": "9/11 Commission Staff Statement No. 17 · \"Improvising a Homeland Defense\" · p. 14",
+   "highlight": [
+    0.1,
+    0.4,
+    0.8,
+    0.18
+   ],
+   "text": "A manager at Herndon asked headquarters if they wanted to order a nationwide ground stop. In the Commission staff's words: while executives at headquarters discussed it, the Command Center went ahead and ordered one anyway, at nine twenty five.",
+   "stat": "9:25 A.M. · NATIONWIDE GROUND STOP",
+   "cap": "\"...went ahead and ordered one anyway.\"",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a2_7",
+   "text": "The Commission does not name that manager. Sliney has said the trigger was the second aircraft. When United one seventy five struck the tower, that was when we ordered a national ground stop. At that point, no aircraft could take off.",
+   "video": "flightline_1.mp4",
+   "cap": "\"At that point, no aircraft could take off.\" — Ben Sliney",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a2_8",
+   "text": "Read that carefully, because the whole morning turns on it. A ground stop stops departures. It holds every aircraft that is still on the ground.",
+   "video": "apron_1.mp4",
+   "cap": "A ground stop = nothing takes off.",
+   "motion": "slow",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a2_9",
+   "text": "It does nothing about the ones already flying. And at nine twenty five, about four thousand five hundred of them were.",
+   "kinetic": {
+    "count": 4500,
+    "suffix": " aircraft still in the air",
+    "sub": "A ground stop holds departures. It does nothing about these."
+   },
+   "img": "herndon_command_center",
+   "speed": 0.95,
+   "tone": "fear"
+  },
+  {
+   "id": "a2_10",
+   "text": "Nobody in the building had a procedure for the next rung. Because there was no next rung.",
+   "video": "emptyterminal_2.mp4",
+   "cap": "There was no next rung.",
+   "motion": "slow",
+   "speed": 0.95,
+   "tone": "fear"
+  },
+  {
+   "id": "a3_ch",
+   "chapter": "ACT III\nNINE FORTY-TWO",
+   "text": "Seventeen minutes after the ground stop, a television in the Command Center showed the Pentagon burning.",
+   "img": "faa_command_center",
+   "query": "Pentagon September 11 2001 aerial damage smoke photograph Department of Defense public domain",
+   "tone": "fear"
+  },
+  {
+   "id": "a3_1",
+   "exhibit": true,
+   "img": "ex_cr_942",
+   "source": "The 9/11 Commission Report · Chapter 1 · \"National Crisis Management\"",
+   "highlight": [
+    0.1,
+    0.3,
+    0.8,
+    0.14
+   ],
+   "text": "The Commission's account is five sentences long. At nine forty two, the Command Center learned from news reports that a plane had struck the Pentagon. The Command Center's national operations manager, Ben Sliney, ordered all agency facilities to instruct all aircraft to land at the nearest airport.",
+   "stat": "9:42 A.M. · THE ORDER",
+   "cap": "\"...land at the nearest airport.\"",
+   "tone": "fear"
+  },
+  {
+   "id": "a3_2",
+   "exhibit": true,
+   "img": "ex_ss17_landing_order",
+   "source": "9/11 Commission Staff Statement No. 17 · \"Improvising a Homeland Defense\" · pp. 15-16",
+   "highlight": [
+    0.1,
+    0.62,
+    0.8,
+    0.2
+   ],
+   "text": "This was an unprecedented order. The air traffic control system handled it with great skill, as about four thousand five hundred commercial and general aviation aircraft soon landed without incident. The staff version adds one word. Totally unprecedented.",
+   "cap": "\"This was a totally unprecedented order.\"",
+   "tone": "awe"
+  },
+  {
+   "id": "a3_3",
+   "text": "Ben Sliney had spent about twenty seven years in air traffic control and agency management. The job he held that morning, national operations manager, the person responsible for the flow of every aircraft in the country, he had held since he walked in the door. It was his first day.",
+   "video": "atctower_5.mp4",
+   "stat": "BEN SLINEY · FIRST DAY IN THE JOB",
+   "cap": "27 years in the system. First day in that job.",
+   "motion": "slow",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a3_4",
+   "text": "He has never described it as a gamble. I was charged with managing that airspace; that was my charge. I have always felt very self-assured about what happened.",
+   "video": "scope_4.mp4",
+   "cap": "\"That was my charge.\" — Ben Sliney",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a3_5",
+   "text": "What he was afraid of was arithmetic. After the second aircraft hit the building, I didn't know how many more there could be. There could be thirty of them.",
+   "video": "gates_1.mp4",
+   "cap": "\"There could be thirty of them.\"",
+   "motion": "slow",
+   "speed": 0.95,
+   "tone": "fear"
+  },
+  {
+   "id": "a3_6",
+   "text": "The point of the order, as he put it to the Associated Press years later, was simple. We were just trying to do something to try and resolve what was occurring, and at least separate the good guys from the bad guys.",
+   "video": "landing_3.mp4",
+   "cap": "\"...separate the good guys from the bad guys.\" — Ben Sliney, AP",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a3_7",
+   "text": "Every aircraft on the ground was a known quantity. Every aircraft still in the air was a question. The fastest way to answer four thousand five hundred questions was to bring them all down.",
+   "video": "landing_4.mp4",
+   "cap": "On the ground: known. In the air: a question.",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a3_8",
+   "text": "You will hear his words quoted. Order everyone to land, regardless of destination. Clear the skies. I'm landing everyone. None of it is on tape. No recording of the order's words has ever been published; every famous version is a writer's reconstruction.",
+   "video": "depboard_3.mp4",
+   "stat": "NO TAPE OF THE ORDER'S WORDS EXISTS",
+   "cap": "Every famous version is a reconstruction.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a3_9",
+   "text": "Order everyone to land! Regardless of destination!",
+   "speaker": "BEN SLINEY, AS RECONSTRUCTED BY USA TODAY (2002)",
+   "radioLabel": "RECREATION",
+   "timestamp": "c. 9:42 A.M. EDT",
+   "cap": "RECREATION · USA Today, 2002 · no recording of the order exists",
+   "source": "Journalistic reconstruction · USA Today, 2002 · this is not a recording",
+   "video": "alert_3.mp4",
+   "extraHold": 15,
+   "tone": "fear"
+  },
+  {
+   "id": "a3_10",
+   "text": "Did he ask anyone first? No primary source says he sought permission, or needed it. A newspaper reconstruction from the following year has his supervisor, Linda Schuessler, simply nodding, and the agency's leadership approving with little discussion. After the fact.",
+   "video": "towerext_3.mp4",
+   "cap": "Ratified after. Not before. — USA Today reconstruction, 2002",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a3_11",
+   "text": "Then there is the paperwork. The agency's written national advisory, number zero three six, suspending operations in the National Airspace System, is time stamped eleven oh six in the morning.",
+   "video": "depboard_4.mp4",
+   "stat": "11:06 A.M. · ATCSCC ADVISORY 036",
+   "cap": "The written order: 11:06 A.M.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a3_12",
+   "text": "Eighty four minutes after the order. By the time the document existed, most of the aircraft it grounded were already on the ground.",
+   "kinetic": {
+    "count": 84,
+    "suffix": " minutes",
+    "sub": "The verbal order at 9:42 → the written advisory at 11:06"
+   },
+   "img": "herndon_command_center",
+   "speed": 0.95,
+   "tone": "awe"
+  },
+  {
+   "id": "a4_ch",
+   "chapter": "ACT IV\nTWO MEN. THREE MINUTES. ONE ORDER.",
+   "text": "There is a second account of that order. It comes from the Secretary of Transportation, it was given under oath, and it is still the aviation agency's official version.",
+   "img": "mineta_portrait_dot",
+   "query": "Norman Mineta Secretary of Transportation official portrait photograph Department of Transportation public domain",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a4_1",
+   "text": "Norman Mineta spent that morning in a bunker, on open telephone lines to the two most senior people at the aviation agency, Monte Belger and Jane Garvey.",
+   "video": "nightairport_1.mp4",
+   "stat": "NORMAN MINETA · SECRETARY OF TRANSPORTATION",
+   "cap": "Open lines to Belger and Garvey.",
+   "motion": "slow",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a4_2",
+   "img": "mineta_portrait_dot",
+   "source": "Norman Mineta, sworn testimony to the 9/11 Commission, 23 May 2003",
+   "text": "Two years later, he told the Commission under oath: at approximately nine forty five a m, I gave the agency the final order for all civil aircraft to land at the nearest airport as soon as possible.",
+   "stat": "9:45 A.M. · MINETA, UNDER OATH",
+   "cap": "\"I gave the FAA the final order...\"",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a4_3",
+   "text": "And the agency's own institutional timeline, the one it publishes today, reads: nine forty five a m. At the direction of Transportation Secretary Norman Mineta, the Command Center closed all U S airspace for the first time in history.",
+   "video": "emptyterminal_3.mp4",
+   "stat": "FAA TIMELINE: “AT THE DIRECTION OF…”",
+   "cap": "The FAA's own timeline credits Mineta.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a4_4",
+   "exhibit": true,
+   "img": "ex_cr_942",
+   "source": "The 9/11 Commission Report · Chapter 1 · \"National Crisis Management\"",
+   "highlight": [
+    0.1,
+    0.3,
+    0.8,
+    0.1
+   ],
+   "text": "Now go back to the Commission's first chapter. It credits the order to Sliney, at nine forty two. And in connection with that order, it does not mention Mineta at all.",
+   "cap": "The Commission: Sliney. 9:42. No mention of Mineta.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a4_5",
+   "text": "Both accounts are real. Both are on the record. They are three minutes apart.",
+   "video": "quietsky_3.mp4",
+   "stat": "9:42 · SLINEY   ·   9:45 · MINETA",
+   "cap": "Both real. Three minutes apart.",
+   "motion": "slow",
+   "speed": 0.95,
+   "tone": "curiosity"
+  },
+  {
+   "id": "a4_6",
+   "text": "A newspaper reconstruction has Mineta, minutes after Sliney's order, telling Belger to forget pilot discretion and bring down all the planes. That is the newspaper's version. There is no tape of that either.",
+   "video": "gates_2.mp4",
+   "cap": "\"Monte, bring down all the planes.\" — USA Today reconstruction, 2002",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a4_7",
+   "text": "You may also read that the Commission found Mineta gave his order about an hour after Sliney did. It did not. That sentence appears nowhere in the Commission's text.",
+   "video": "apron_2.mp4",
+   "cap": "\"About an hour after\" — not in the Commission's text.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a4_8",
+   "text": "Here is the honest reading of the record. Two men gave a landing order within three minutes of each other. The Commission credits the operational one to the man on the floor. The Secretary's was the ratification from the bunker, which is why the agency's own timeline reads, at the direction of.",
+   "video": "towerext_4.mp4",
+   "cap": "The floor gave the order. The bunker ratified it.",
+   "motion": "slow",
+   "speed": 0.95,
+   "tone": "curiosity"
+  },
+  {
+   "id": "a4_9",
+   "text": "Neither man's account requires the other to be wrong. Mineta died in twenty twenty two. Sliney is still asked about that morning, and he still answers.",
+   "video": "airfield_1.mp4",
+   "cap": "Neither account requires the other to be wrong.",
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a4_10",
+   "text": "What is not in dispute is what happened next. Four thousand five hundred aircraft in the air, and every controller in the country told to bring them down. Now.",
+   "video": "landing_5.mp4",
+   "stat": "9:42 A.M. · 4,500 AIRCRAFT",
+   "cap": "Bring them down. Now.",
+   "motion": "fast",
+   "speed": 0.96,
+   "tone": "awe"
+  },
+  {
+   "id": "a5_ch",
+   "chapter": "ACT V\nTHE SCOPE WENT BLACK IN HALF AN HOUR",
+   "text": "The order was out. What nobody had ever calculated was what happens when four and a half thousand aircraft all try to obey it at once.",
+   "img": "scope_archival",
+   "query": "FAA air traffic controller radar scope archival photograph 2001",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a5_1",
+   "text": "The F A A's own account says seven hundred aircraft were on the ground within four minutes of the order. Sliney remembers it as ten. Mineta said within minutes. Take the smallest version and it is still seven hundred landings before most passengers knew anything was wrong.",
+   "video": "scope_1.mp4",
+   "stat": "700 AIRCRAFT DOWN · \"WITHIN MINUTES\"",
+   "cap": "FAA says four minutes. Sliney says ten.",
+   "tone": "awe"
+  },
+  {
+   "id": "a5_2",
+   "text": "Twenty eight hundred in the first hour.",
+   "video": "landing_2.mp4",
+   "stat": "2,800 IN THE FIRST HOUR",
+   "cap": "Twenty-eight hundred landings in sixty minutes.",
+   "motion": "slow",
+   "tone": "awe"
+  },
+  {
+   "id": "a5_3",
+   "text": "More than four and a half thousand within three hours. Not two. Under three. The number gets rounded down in almost every retelling, and it does not need the help.",
+   "video": "apron_3.mp4",
+   "stat": "OVER 4,500 · UNDER THREE HOURS",
+   "cap": "The FAA's own bucket: \"over 4,500 within the first three hours.\"",
+   "tone": "awe"
+  },
+  {
+   "id": "a5_4",
+   "text": "Here is what that sounded like on a frequency. Terry Biggio, the operations manager at Boston Center, put it in one sentence. We told them, you're not leaving our airspace. Pick an airport.",
+   "video": "atctower_2.mp4",
+   "cap": "Biggio: \"You're not leaving our airspace. Pick an airport.\"",
+   "tone": "fear"
+  },
+  {
+   "id": "a5_5",
+   "text": "Pick an airport. Not your airport. Regardless of destination, in Sliney's phrase. A crew that had briefed one runway that morning was now choosing another one off a chart, with a few minutes to decide.",
+   "video": "landing_3.mp4",
+   "cap": "Regardless of destination.",
+   "tone": "fear"
+  },
+  {
+   "id": "a5_6",
+   "text": "At Harrisburg Tower, Harvey Scolnick watched it happen on glass. We had to make sure that every aircraft already in our airspace landed. Within roughly half an hour, the scope went from being filled with traffic to being almost completely black.",
+   "video": "scope_2.mp4",
+   "cap": "\"...from being filled with traffic to being almost completely black.\"",
+   "motion": "slow",
+   "tone": "awe"
+  },
+  {
+   "id": "a5_7",
+   "text": "At New York Center, Michael McCormick had already made up his mind before the order ever reached him. In his words: I decided, we're under attack. They're using aircraft as weapons. The only way that I can work to stop it is to remove the weapons.",
+   "video": "radarops_1.mp4",
+   "cap": "McCormick: \"The only way I can stop it is to remove the weapons.\"",
+   "tone": "anger"
+  },
+  {
+   "id": "a5_8",
+   "text": "And when he was later pressed to reopen his airspace, he refused. We are going to stay A T C zero, he said, so you better find a way to deal with that.",
+   "video": "radarops_3.mp4",
+   "cap": "\"We are going to stay ATC zero, so you better find a way to deal with that.\"",
+   "tone": "anger"
+  },
+  {
+   "id": "a5_9",
+   "text": "Not everything came down. Military, police, medical and lifeguard flights kept flying. From the twelfth, the F A A cleared organ transplant charters, because a heart in a cooler does not wait for a rulebook.",
+   "video": "alert_2.mp4",
+   "cap": "Exceptions: military · police · medical · lifeguard · organ transplant charters from Sept 12",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a5_10",
+   "text": "Twelve sixteen in the afternoon. The F A A and the National Archives put the sky clear at that minute. Three and a half hours after the first impact. Two hours and thirty four minutes after the order.",
+   "video": "quietsky_2.mp4",
+   "stat": "12:16 P.M. · SKY CLEAR",
+   "cap": "2 h 34 min after the order. Not two hours.",
+   "motion": "slow",
+   "speed": 0.95,
+   "tone": "melancholy"
+  },
+  {
+   "id": "a5_11",
+   "exhibit": true,
+   "img": "ex_ss17_landing",
+   "source": "9/11 Commission Staff Statement No. 17 · p.15 · June 17, 2004",
+   "highlight": [
+    0.1,
+    0.55,
+    0.8,
+    0.2
+   ],
+   "text": "The Commission staff wrote it in two sentences. This was a totally unprecedented order. The air traffic control system handled it with great skill, as about four thousand five hundred commercial and general aviation aircraft soon landed without incident.",
+   "stat": "\"WITHOUT INCIDENT\"",
+   "cap": "\"...about 4,500 commercial and general aviation aircraft soon landed without incident.\"",
+   "motion": "slow",
+   "tone": "awe"
+  },
+  {
+   "id": "a5_12",
+   "text": "Without incident. Nothing anywhere in the record shows an airborne aircraft refusing that order. But one aircraft over the Pacific came close to being shot down for obeying it. Korean Air eighty five.",
+   "video": "wing_4.mp4",
+   "cap": "Korean Air 85 · the compliance that looked like defiance",
+   "tone": "fear"
+  },
+  {
+   "id": "a5_13",
+   "text": "A datalink text message from the jet carried the letters H J K. Anchorage asked the crew to set their transponder to seven five zero zero, the hijack code. They did exactly as they were told. And on the ground, that read as confirmation of a covert hijacking.",
+   "video": "scope_4.mp4",
+   "stat": "\"HJK\" · SQUAWK 7500",
+   "cap": "Asked to squawk 7500, the crew complied. It was read as a hijack.",
+   "tone": "fear"
+  },
+  {
+   "id": "a5_14",
+   "text": "F fifteens shadowed it to Whitehorse, in the Yukon, where it was on the ground at about six minutes to three. Part of the town was evacuated. A year later, Prime Minister Chrétien told the C B C he had approved a shootdown in principle: I said yes, if you think they are terrorists. But be ready to shoot them down.",
+   "video": "alert_1.mp4",
+   "stat": "WHITEHORSE, YUKON · 2:54 P.M.",
+   "cap": "Chrétien, to CBC a year later: \"...be ready to shoot them down.\"",
+   "tone": "fear"
+  },
+  {
+   "id": "a5_15",
+   "text": "Korean Air eighty five complied with every instruction it received. It never refused anything. That is the closest the whole day came to a disaster on the way down, and it was caused by a crew doing precisely what the system asked.",
+   "video": "landing_5.mp4",
+   "cap": "Correction: KAL 85 complied. It did not refuse.",
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a6_ch",
+   "chapter": "ACT VI\nTHE OCEAN HAS NO NEAREST AIRPORT",
+   "text": "Land at the nearest airport meant nothing to a crew four hours out over the North Atlantic. For them, the nearest airport was a country that had not been attacked.",
+   "img": "atlantic_window",
+   "query": "North Atlantic ocean seen from airliner window at altitude photograph",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a6_1",
+   "text": "By Transport Canada's own count, about five hundred transatlantic flights and ninety transpacific flights were heading for North America when the American sky closed beneath them.",
+   "video": "wing_1.mp4",
+   "stat": "~500 TRANSATLANTIC · ~90 TRANSPACIFIC",
+   "cap": "Inbound to a continent that had just shut its door.",
+   "tone": "fear"
+  },
+  {
+   "id": "a6_2",
+   "text": "One to two planes entering Canadian airspace every minute. That is the Canadian government's own phrase, and it is the whole problem in nine words.",
+   "video": "apron_5.mp4",
+   "cap": "\"One to two planes entering Canadian airspace every minute.\"",
+   "tone": "fear"
+  },
+  {
+   "id": "a6_3",
+   "text": "The Canadian transport minister, David Collenette, was in a car, driving back from Montreal, with cell phones that had died. The decision was executed in his absence, by the Transport Canada Situation Centre under Doctor John Read, an acting assistant deputy minister. Collenette's own words: with my approval.",
+   "video": "quietsky_1.mp4",
+   "cap": "The minister was on the highway. His phones were dead.",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a6_4",
+   "text": "Collenette later said it plainly. We did something no Canadian government had ever done. We essentially shut down our country's entire airspace. And twenty five years on: We had to make a decision on the spot. We had no hours. This was minutes. The official record gives no clock time for that decision, so neither will I.",
+   "video": "towerext_4.mp4",
+   "cap": "Collenette: \"We had no hours. This was minutes.\"",
+   "tone": "awe"
+  },
+  {
+   "id": "a6_5",
+   "text": "Read's account of closing a country's sky: This process took five minutes to complete. Two hundred and seventy aircraft were ordered to turn around and go back to Europe.",
+   "video": "depboard_2.mp4",
+   "stat": "270 TURNED BACK TO EUROPE · \"FIVE MINUTES\"",
+   "cap": "Read: \"This process took five minutes to complete.\"",
+   "tone": "awe"
+  },
+  {
+   "id": "a6_6",
+   "text": "The rest landed in Canada. Transport Canada counted two hundred and twenty four flights carrying more than thirty three thousand passengers. Nav Canada counted two hundred and thirty nine aircraft. Both are official, and they disagree, so the honest number is some two hundred and twenty five to two hundred and forty, across seventeen airports.",
+   "video": "gates_2.mp4",
+   "stat": "224 FLIGHTS (TC) · 239 AIRCRAFT (NAV CANADA)",
+   "cap": "Two official counts. Neither is wrong. Say \"some 225 to 240.\"",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a6_7",
+   "text": "Somebody had to keep track of where all of them went, and no system existed to do it. So one was built that afternoon, and given a code name. Operation Yellow Ribbon. Transport Canada's own words: the system hastily set up to keep track of the diverted planes. Not a plan that was activated. A spreadsheet that was invented.",
+   "video": "radarops_4.mp4",
+   "cap": "Yellow Ribbon was the name for a tracking system built that day, not a standing plan.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a6_8",
+   "text": "Here is where they went. Halifax took the most aircraft, around forty. Vancouver took the most passengers, roughly eighty five hundred. Then Gander, Saint John's, Winnipeg, Toronto, Calgary, Stephenville, Moncton. If you have heard this story before, you have probably heard that Gander took the most. It did not.",
+   "img": "map_diversions",
+   "cap": "Halifax: most aircraft. Vancouver: most passengers. Gander: neither.",
+   "stat": "HALIFAX ~40 · GANDER 38 · VANCOUVER 34",
+   "motion": "slow",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a6_9",
+   "text": "Wherever they landed, the passengers stayed aboard for hours. At Halifax they were kept on the aircraft until the evening, cooped up, in the official phrase, for sixteen hours or more.",
+   "video": "gates_4.mp4",
+   "cap": "Halifax: \"cooped up for 16 hours or more.\"",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a6_10",
+   "text": "So why is Gander the story? Not size. Ratio. Thirty eight aircraft landed there, and six thousand six hundred and fifty six people got off them, into a town whose census that year counted nine thousand six hundred and fifty one.",
+   "kinetic": {
+    "count": 6656,
+    "suffix": " people, off 38 aircraft",
+    "sub": "Into a town of 9,651. Two strangers for every three residents."
+   },
+   "img": "map_diversions",
+   "stat": "6,656 PEOPLE → A TOWN OF 9,651",
+   "tone": "awe"
+  },
+  {
+   "id": "a6_11",
+   "text": "I should tell you what you are not seeing. There is no free photograph or film of Gander that week. The famous pictures of airliners parked nose to tail belong to the airport and to Nav Canada, and the government's own booklet photographs cannot be licensed for a film like this. So I have drawn you a map, and I will let the people who were there do the describing.",
+   "video": "emptyterminal_5.mp4",
+   "cap": "No usable footage of Gander, Sept 11-16, 2001, exists. So: a map, and their words.",
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a6_12",
+   "text": "A resident, quoted in Transport Canada's own account: On September eleventh, we had thirty eight aircraft with a total of six thousand six hundred and fifty six people drop by for coffee, then stay for three or four days.",
+   "video": "emptyterminal_4.mp4",
+   "cap": "\"...drop by for coffee, then stay for three or four days.\"",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a6_13",
+   "text": "The mayor, Claude Elliott, on what happened next: we tried to discourage people from taking them into their homes, but Newfoundlanders being Newfoundlanders, a lot of people didn't listen.",
+   "video": "emptyterminal_1.mp4",
+   "cap": "Mayor Elliott: \"Newfoundlanders being Newfoundlanders, a lot of people didn't listen.\"",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a6_14",
+   "text": "Which leaves the real question. Why does a town of nine thousand people have a runway ten thousand two hundred feet long? Because in the nineteen thirties, Gander was the last dry land before the ocean. It was built between nineteen thirty six and thirty eight as the refuelling stop for the first transatlantic flights.",
+   "img": "map_diversions",
+   "query": "RAF Ferry Command aircraft Gander Newfoundland 1941 Imperial War Museum photograph",
+   "stat": "GANDER · BUILT 1936-38 · 10,200 FT RUNWAY",
+   "cap": "The last dry land before the Atlantic.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a6_15",
+   "text": "In the war it became the main staging point for R A F Ferry Command, flying bombers across to Britain. In the fifties it called itself the crossroads of the world. Then, in the sixties, jets learned to cross the ocean without stopping, and Gander became a very large airport with very little reason to exist.",
+   "video": "flightline_1.mp4",
+   "cap": "\"Crossroads of the World\" — made redundant by the jet age.",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a6_16",
+   "text": "On the eleventh of September two thousand one, the redundancy was the point. Every one of those thirty eight aircraft came down on a runway built for a world that no longer needed it.",
+   "video": "airfield_1.mp4",
+   "cap": "On that day, the redundancy was the point.",
+   "motion": "slow",
+   "tone": "awe"
+  },
+  {
+   "id": "a6_17",
+   "text": "One more detail from the Canadian record. A national public service strike was on that morning, and the picket line encircled Transport Canada's own headquarters tower. When the union understood what was happening, in the government's words, they immediately stopped the picket lines and went back to work. In Gander, a C B S reporter later recorded, striking school bus drivers left their line to drive the passengers into town.",
+   "video": "depboard_4.mp4",
+   "cap": "The picket line around Transport Canada's tower broke up and went back to work.",
+   "tone": "awe"
+  },
+  {
+   "id": "a6_18",
+   "text": "You may know this story from a Broadway musical. Enjoy it as one. Its characters are composites, it won a single Tony, for direction, and the record above is not a script. Thirty eight aircraft. Six thousand six hundred and fifty six people. A town of nine thousand six hundred and fifty one.",
+   "video": "emptyterminal_3.mp4",
+   "cap": "The musical is a dramatisation. The ratio is the record.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a7_ch",
+   "chapter": "ACT VII\nNOBODY KNEW HOW TO TURN IT BACK ON",
+   "text": "Grounding a country turned out to be the easy part. It took under three hours. Ungrounding it took months.",
+   "img": "empty_terminal_photo",
+   "query": "deserted airport terminal empty gate seating photograph",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a7_1",
+   "text": "On the twelfth of September, the Transportation Department allowed a limited reopening, for one purpose only: so the diverted flights could finish the journeys they had started. Only passengers on the original flights, the release said. Nobody new got on.",
+   "video": "gates_1.mp4",
+   "stat": "SEPT 12 · DIVERTED FLIGHTS ONLY",
+   "cap": "\"Only passengers on the original flights.\"",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a7_2",
+   "text": "The same order abolished curbside check in and off airport check in. Small things. The first of many that never came back.",
+   "video": "depboard_1.mp4",
+   "cap": "Curbside check-in: gone that day.",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a7_3",
+   "text": "On the thirteenth, Secretary Mineta ordered the national airspace system reopened to commercial aviation, effective eleven in the morning Eastern time, Thursday. But airport by airport, and only after they implement our more stringent levels of security. No source I trust names the first flight to leave. Different airports came back at different hours, and nobody kept the score.",
+   "video": "takeoff_2.mp4",
+   "stat": "SEPT 13 · 11 A.M. · AIRPORT BY AIRPORT",
+   "cap": "Mineta: \"...only after they implement our more stringent levels of security.\"",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a7_4",
+   "text": "The airlines were the fast part. Private and general aviation came back in phases. Instrument flights on the fourteenth, with twenty five mile no fly rings drawn around Washington and New York. Crop dusting on the eighteenth. Most flight training on the twenty second.",
+   "video": "takeoff_3.mp4",
+   "stat": "IFR SEPT 14 · FLIGHT TRAINING SEPT 22",
+   "cap": "General aviation returned in phases, over months.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a7_5",
+   "text": "The enhanced restrictions around the big city airspaces were not lifted until the nineteenth of December. More than three months after a sky that had emptied in under three hours.",
+   "video": "nightairport_3.mp4",
+   "stat": "CLASS B RESTRICTIONS LIFTED · DEC 19, 2001",
+   "cap": "Emptied in under three hours. Refilled over three months.",
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a7_6",
+   "text": "And one airport stayed shut longest of all. Reagan National, the airport closest to the Pentagon and the White House, did not reopen until the fourth of October.",
+   "video": "nightairport_1.mp4",
+   "stat": "REAGAN NATIONAL · CLOSED UNTIL OCT 4, 2001",
+   "cap": "Twenty-three days without an airline flight at Reagan National.",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a8_ch",
+   "chapter": "ACT VIII\nTHE PLAN THEY DIDN'T HAVE, WRITTEN DOWN",
+   "text": "Every improvisation of that morning has since been written into a rule. The interesting part is who the rules give the final word to.",
+   "img": "faa_command_center",
+   "query": "FAA Air Traffic Control System Command Center Herndon Virginia operations floor photograph",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a8_1",
+   "text": "The Cold War plan, Scatana, the one built to blind Soviet bombers by switching off the navigation beacons, was rewritten and renamed. The final rule came in October two thousand six. It took effect on the eighteenth of January two thousand seven, under the name E S C A T.",
+   "video": "atctower_4.mp4",
+   "stat": "SCATANA → ESCAT · EFFECTIVE JAN 2007",
+   "cap": "Rewritten and renamed. Not invented.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a8_2",
+   "text": "Be precise about that. E S C A T was not a new idea. It already existed in two thousand one as a lesser phase inside Scatana; a Canadian official recalled hearing an E S C A T call on the radio that very day. What changed is that the whole plan now carries the name of its gentler part.",
+   "video": "scope_3.mp4",
+   "cap": "ESCAT existed in 2001 — as a lesser phase inside SCATANA.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a8_3",
+   "text": "And one thing did not change. Once the plan is formally declared, the final authority still belongs to the military, not to the room in Herndon that actually landed everyone. On paper, the men who did it that morning still would not be the ones in charge.",
+   "video": "alert_3.mp4",
+   "cap": "Once declared, the military still holds final authority.",
+   "tone": "anger"
+  },
+  {
+   "id": "a8_4",
+   "text": "There is now a Domestic Events Network. One open telephone line between the agencies with jurisdiction over American airspace, and it never hangs up. It exists because at nine forty two that morning there wasn't one, and every call had to be placed.",
+   "video": "radarops_1.mp4",
+   "stat": "DOMESTIC EVENTS NETWORK · NEVER HANGS UP",
+   "cap": "It exists because that morning there wasn't one.",
+   "tone": "awe"
+  },
+  {
+   "id": "a8_5",
+   "text": "In Canada, the country that had just taken in some two hundred and thirty aircraft on a few minutes' notice, there was no national airport security authority at all on the eleventh of September. C A T S A was created in response. It came into force on the first of April two thousand two.",
+   "video": "depboard_3.mp4",
+   "stat": "CATSA · IN FORCE APRIL 1, 2002",
+   "cap": "Canada's airport-security authority did not exist on 9/11.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a8_6",
+   "exhibit": true,
+   "img": "ex_ss17_flawless",
+   "source": "9/11 Commission Staff Statement No. 17 · p.19 · June 17, 2004",
+   "highlight": [
+    0.1,
+    0.42,
+    0.8,
+    0.2
+   ],
+   "text": "And the Commission staff, on the same page where they took the air defence timeline apart, wrote this about the other side of the morning. Individual F A A controllers, facility managers, and Command Center managers thought outside the box in recommending a nationwide alert, in ground stopping local traffic, and, ultimately, in deciding to land all aircraft and executing that unprecedented order flawlessly.",
+   "stat": "“…THAT UNPRECEDENTED ORDER FLAWLESSLY”",
+   "cap": "\"...thought 'outside the box'... executing that unprecedented order flawlessly.\"",
+   "motion": "slow",
+   "tone": "awe"
+  },
+  {
+   "id": "coda1",
+   "text": "I made the last film on this channel about everything that went wrong in the air that morning. This is the one part that worked. And I want to be exact about why it worked, because the reason is uncomfortable.",
+   "video": "quietsky_3.mp4",
+   "motion": "slow",
+   "speed": 0.94,
+   "cap": "The one part of that morning that worked.",
+   "tone": "melancholy"
+  },
+  {
+   "id": "coda2",
+   "text": "It worked because people acted before they were allowed to. A Command Center manager ordered a nationwide ground stop while headquarters was still discussing whether to. A man on his first day in the job told every aircraft in the country to land. A Secretary ratified it from a bunker three minutes later. An acting official in Canada closed a second country's sky while his minister sat in a car with dead phones. Every one of them was approved afterwards.",
+   "video": "scope_1.mp4",
+   "speed": 0.94,
+   "cap": "Ordered first. Approved afterwards.",
+   "tone": "awe"
+  },
+  {
+   "id": "coda3",
+   "text": "John Carr, who led the controllers' union, called the landing of those aircraft the single greatest feat in all of A T C history. I think he was right. I also think the feat was not the landings. It was four and a half thousand crews and a few thousand controllers agreeing, in the same minute, to trust an order none of them had ever trained for.",
+   "video": "landing_4.mp4",
+   "speed": 0.94,
+   "cap": "Carr: \"...the single greatest feat in all of ATC history.\"",
+   "motion": "slow",
+   "tone": "awe"
+  },
+  {
+   "id": "coda4",
+   "text": "There is a Cold War plan on the shelf, rewritten now, and a telephone line that never hangs up, and a security agency in Canada that did not exist that morning. They are all answers to the same fact. The proudest hour of American air traffic control had no written procedure.",
+   "video": "emptyterminal_5.mp4",
+   "speed": 0.94,
+   "motion": "slow",
+   "cap": "Its proudest hour had no written procedure.",
+   "extraHold": 15,
+   "tone": "melancholy"
+  },
+  {
+   "id": "bridge",
+   "text": "If the side of that morning that worked interests you, wait until you see the side that did not, on tape. The same hours, heard from the air defence floor, where the official story fell apart the moment the recordings were played. Watch The Tapes That Broke Norad's Nine Eleven Story, right here on this channel. And subscribe to Black Box Breakdown, so you don't miss the next tape that gets pulled.",
+   "img": "scope_archival",
+   "cap": "Next: The Tapes That Broke NORAD's 9/11 Story.",
+   "tone": "curiosity"
+  }
+ ]
+}

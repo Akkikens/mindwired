@@ -71,6 +71,8 @@ import spaceShuttleDoc from "./mindwired-doc/docs/spaceshuttle.json";
 import spaceShuttleManifest from "./mindwired-doc/docs/spaceshuttle.manifest.json";
 import wtcCollapseDoc from "./mindwired-doc/docs/wtccollapse.json";
 import wtcCollapseManifest from "./mindwired-doc/docs/wtccollapse.manifest.json";
+import theGroundingDoc from "./mindwired-doc/docs/thegrounding.json";
+import theGroundingManifest from "./mindwired-doc/docs/thegrounding.manifest.json";
 import noradTapesDoc from "./mindwired-doc/docs/noradtapes.json";
 import noradTapesManifest from "./mindwired-doc/docs/noradtapes.manifest.json";
 import groundZeroAirDoc from "./mindwired-doc/docs/groundzeroair.json";
@@ -1480,6 +1482,32 @@ export const RemotionRoot: React.FC = () => {
              (never "lied", never a stand-down, nobody was ever charged, Arnold
              de-named, Scoggins unnamed pending a decision):
              docs/planning/CLAIMS-noradtapes.md. BB outro baked. ── */}
+      {/* ── Black Box Breakdown — "4,500 Planes Had to Land. There Was No
+             Plan." The FAA ground stop of 11 Sept 2001, and the sister piece to
+             NoradTapesDoc: that episode is the morning's failure, this is the
+             one thing that worked. Built on a deliberately WIDE visual pool —
+             66 distinct assets across 112 scenes, top asset 3.6% — after
+             noradtapes shipped with one clip on 26% of scenes and cost the
+             channel subscribers; preflight's visual-monotony gate now enforces
+             it. Exhibits are real: the 2001 SCATANA regulation from GPO (its
+             own title names the navigation aids), Staff Statement 17, the
+             Commission report. The Gander act is carried by narration and an
+             original data graphic because NO free imagery of Gander on 11-16
+             Sept 2001 exists and Canadian Crown copyright blocks Transport
+             Canada's own photos. Hard rules in
+             docs/planning/CLAIMS-thegrounding.md: never "4,546" as an agency
+             figure, never "two hours" (the sky cleared at 12:16), Sliney did
+             not invoke SCATANA, Gander did not take the most planes, and the
+             Sliney/Mineta conflict is presented unresolved. BB outro baked. ── */}
+      <Composition
+        id="TheGroundingDoc"
+        component={makeDocComp(theGroundingDoc, theGroundingManifest, BB_OUTRO)}
+        durationInFrames={docTotalFrames(theGroundingDoc, theGroundingManifest, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
       <Composition
         id="NoradTapesDoc"
         component={makeDocComp(noradTapesDoc, noradTapesManifest, BB_OUTRO)}

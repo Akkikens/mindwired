@@ -1,0 +1,427 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="cfr.xsl"?>
+<CFRGRANULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CFRMergedXML.xsd">
+  <FDSYS>
+    <CFRTITLE>32</CFRTITLE>
+    <CFRTITLETEXT>National Defense</CFRTITLETEXT>
+    <VOL>2</VOL>
+    <DATE>2001-07-01</DATE>
+    <ORIGINALDATE>2001-07-01</ORIGINALDATE>
+    <COVERONLY>false</COVERONLY>
+    <TITLE>PLAN FOR THE SECURITY CONTROL OF AIR TRAFFIC AND AIR NAVIGATION AIDS (SHORT TITLE: SCATANA)</TITLE>
+    <GRANULENUM>245</GRANULENUM>
+    <HEADING>PART 245</HEADING>
+    <ANCESTORS>
+      <PARENT HEADING="Title 32" SEQ="2">National Defense</PARENT>
+      <PARENT HEADING="Subtitle A" SEQ="1">Department of Defense (Continued)</PARENT>
+      <PARENT HEADING="SUBCHAPTER M" SEQ="0">MISCELLANEOUS</PARENT>
+    </ANCESTORS>
+  </FDSYS>
+  <PART>
+    <EAR>Pt. 245</EAR>
+    <HD SOURCE="HED">PART 245—PLAN FOR THE SECURITY CONTROL OF AIR TRAFFIC AND AIR NAVIGATION AIDS (SHORT TITLE: SCATANA)</HD>
+    <CONTENTS>
+      <SECHD>Sec.</SECHD>
+      <SECTNO>245.1</SECTNO>
+      <SUBJECT>Foreword.</SUBJECT>
+      <SECTNO>245.2</SECTNO>
+      <SUBJECT>Explanation of terms.</SUBJECT>
+      <SECTNO>245.3</SECTNO>
+      <SUBJECT>The SCATANA Plan.</SUBJECT>
+      <SECTNO>245.4</SECTNO>
+      <SUBJECT>Application of Emergency Security Control of Air Traffic (ESCAT).</SUBJECT>
+      <SECTNO>245.5</SECTNO>
+      <SUBJECT>Implementation of Security Control of Air Traffic and Air Navigation Aids.</SUBJECT>
+      <SECTNO>245.6</SECTNO>
+      <SUBJECT>Tactical Air Movement Plans.</SUBJECT>
+      <SECTNO>245.7</SECTNO>
+      <SUBJECT>Extract of Tactical Air Movement Plan.</SUBJECT>
+      <SECTNO>245.8</SECTNO>
+      <SUBJECT>Wartime Air Traffic Priority List (WATPL).</SUBJECT>
+      <SECTNO>245.9</SECTNO>
+      <SUBJECT>Procedures for movement of air traffic.</SUBJECT>
+      <SECTNO>245.10</SECTNO>
+      <SUBJECT>SCATANA testing.</SUBJECT>
+      <SECTNO>245.11</SECTNO>
+      <SUBJECT>Authentication. </SUBJECT>
+    </CONTENTS>
+    <AUTH>
+      <HD SOURCE="HED">Authority:</HD>
+      <P>5 U.S.C. 301, 552.</P>
+    </AUTH>
+    <SOURCE>
+      <HD SOURCE="HED">Source:</HD>
+      <P>41 FR 9322, Mar. 4, 1976, unless otherwise noted.</P>
+    </SOURCE>
+    <SECTION>
+      <SECTNO>§ 245.1</SECTNO>
+      <SUBJECT>Foreword.</SUBJECT>
+      <P>(a) This part is promulgated in furtherance of the Federal Aviation Act of 1958, as amended, the Communications Act of 1934, as amended, and Executive Order 11490, and supersedes: Plan for the Security Control of Air Traffic and Air Navigation Aids—June 1971.</P>
+      <P>(b) This part defines the responsibilities of the Federal Aviation Administration (FAA), the Federal Communications Commission (FCC) and the appropriate military authorities for the security control of civil and military air traffic, and control of federal and non-federal air navigation aids.</P>
+    </SECTION>
+    <SECTION>
+      <SECTNO>§ 245.2</SECTNO>
+      <SUBJECT>Explanation of terms.</SUBJECT>
+      <P>For the purpose of this part and supporting documents, the following explanations apply:</P>
+      <P>(a) <E T="03">Air defense emergency.</E> An emergency condition which exists when attack upon the continental United States, Alaska, Canada, or U.S. installations in Greenland by hostile aircraft or missiles is considered probable, is imminent, or is taking place.</P>
+      <P>(b) <E T="03">Air defense identification zone.</E> Airspace of defined dimensions within which the ready identification, location and control of aircraft is required.</P>
+      <P>(c) <E T="03">Air navigation aid</E> (<E T="03">NAVAIDS</E>). (1) Federal NAVAIDS. VOR, VORTAC, TACAN and LORAN stations owned and operated by an agency of the Federal Government such as the FAA, Military Services and United States Coast Guard.<PRTPAGE P="518"/>
+      </P>
+      <P>(2) Non-Federal NAVAIDS. VOR, VORTAC and TACAN stations licensed by the FCC.</P>
+      <P>(d) <E T="03">Appropriate military authorities.</E> Within the NORAD area of responsibility—CINCNORAD AND NORAD region commanders. CINCNORAD has delegated all actions associated with the appropriate military authority to NORAD region commanders. Outside the NORAD area of responsibility—the Commander in Chief, or his designated representative, of unified or specified commands for U.S. areas located within their area of responsibility.</P>
+      <P>(e) <E T="03">Defense area.</E> Any airspace of the United States (other than that designated as an ADIZ) in which the control of aircraft is required for national security.</P>
+      <P>(f) <E T="03">Defense emergency.</E> An emergency condition which exists when:</P>
+      <P>(1) A major attack is made upon U.S. forces overseas, or allied forces in any area, and is confirmed either by the commander of a unified or specified command or higher authority.</P>
+      <P>(2) An overt attack of any type is made upon the United States and is confirmed either by the commander of a command established by the Secretary of Defense or higher authority.</P>
+      <P>(g) <E T="03">Dispersal.</E> Relocation of aircraft to predesignated dispersed operating bases for the purpose of increasing survivability.</P>
+      <P>(h) <E T="03">Diversion.</E> The intentional change of a flight from its intended destination for operational or tactical reasons.</P>
+      <P>(i) <E T="03">Emergency Security Control of Air Traffic</E> (<E T="03">ESCAT</E>) <E T="03">Rules.</E> Emergency rules for the security control of air traffic prior to the declaration of Air Defense Emergency (see § 245.4).</P>
+      <P>(j) <E T="03">FAA Region.</E> A geographical subdivision of the area for which the FAA is responsible.</P>
+      <P>(k) <E T="03">Implement SCATANA.</E> The phrase used to direct FAA to commence those actions required in the SCATANA plan (see § 245.5).</P>
+      <P>(l) <E T="03">Nontactical air traffic.</E> Civil or military flights other than tactical air traffic.</P>
+      <P>(m) <E T="03">North American Air Defense Command</E> (<E T="03">NORAD</E>). An integrated United States—Canadian command. NORAD includes, as component commands, the United States Air Force Aerospace Defense Command and the Canadian Forces Air Defense Command.</P>
+      <P>(n) <E T="03">NORAD Region.</E> A geographical subdivision of the area for which NORAD is responsible.</P>
+      <P>(o) <E T="03">Rerouting.</E> The intended deviation of a flight from its original course without changing its destination.</P>
+      <P>(p) <E T="03">SARDA.</E> State and Regional Disaster Airlift. A plan for the use of nonair carrier aircraft during a national emergency.</P>
+      <P>(q) <E T="03">SCATANA.</E> The short title for the joint DoD/DOT/FCC plan for the Security Control of Air Traffic and Air Navigation Aids.</P>
+      <P>(r) <E T="03">Security control authorization.</E> Military authorization for an aircraft to take off when ESCAT is applied or SCATANA has been implemented. (See §§ 245.5 and 245.8).</P>
+      <P>(s) <E T="03">Tactical air traffic.</E> Military flights actually engaged in operational missions against the enemy, flights engaged in immediate deployment for a combat mission, and preplanned combat and logistical support flights contained in Emergency War Plans.</P>
+      <P>(t) <E T="03">United States.</E> The several states, the District of Columbia, the Commonwealth of Puerto Rico, and the several territories and possessions of the United States (including areas of air, land, or water administered by the United States under international agreement), including the territorial waters and the overlying airspace thereof.</P>
+      <P>(u) <E T="03">Wartime Air Traffic Priority List</E> (<E T="03">WATPL</E>). The list comprises eight priorities designed to control the volume of air traffic when SCATANA has been implemented. (See §§ 245.5, 245.6 and 245.8).</P>
+      <P>(v) <E T="03">The use of the words “will” and “shall.”</E> For the purpose of this part, use of the words will and shall denotes mandatory compliance by the affected persons or agency(ies).</P>
+      <P>(w) <E T="03">List of Acronyms and Abbreviations.</E>
+        
+      </P>
+      <EXTRACT>
+        <FP SOURCE="FP-1">ADIZ—Air Defense Identification Zone.</FP>
+        <FP SOURCE="FP-1">ARTCC—Air Route Traffic Control Center.</FP>
+        <FP SOURCE="FP-1">ATC—Air Traffic Control.</FP>
+        <FP SOURCE="FP-1">CINCNORAD—Commander in Chief North American Air Defense.</FP>
+        <FP SOURCE="FP-1">CRAF—Civil Reserve Air Fleet.</FP>
+        <FP SOURCE="FP-1">DoD—Department of Defense.</FP>
+        <FP SOURCE="FP-1">DVFR—Defense (ADIZ) Visual Flight Rules.</FP>
+        <FP SOURCE="FP-1">ESCAT—Emergency Security Control of Air Traffic.<PRTPAGE P="519"/>
+        </FP>
+        <FP SOURCE="FP-1">EWO—Emergency War Orders.</FP>
+        <FP SOURCE="FP-1">FAA—Federal Aviation Administration.</FP>
+        <FP SOURCE="FP-1">FCC—Federal Communications Commission.</FP>
+        <FP SOURCE="FP-1">ICAO—International Civil Aviation Organization.</FP>
+        <FP SOURCE="FP-1">IFR—Instrument Flight Rules.</FP>
+        <FP SOURCE="FP-1">JCS—Joint Chiefs of Staff.</FP>
+        <FP SOURCE="FP-1">LORAN—A hyperbolic system of navigation, i.e., LORAN-A and LORAN-C systems of navigation.</FP>
+        <FP SOURCE="FP-1">NAVAID—Navigation Aid.</FP>
+        <FP SOURCE="FP-1">NORAD—North American Air Defense.</FP>
+        <FP SOURCE="FP-1">SAC—Strategic Air Command.</FP>
+        <FP SOURCE="FP-1">SARDA—State and Regional Disaster Airlift.</FP>
+        <FP SOURCE="FP-1">SCATANA—Security Control of Air Traffic and Air Navigation Aids.</FP>
+        <FP SOURCE="FP-1">TACAN—Tactical Air Navigation.</FP>
+        <FP SOURCE="FP-1">VFR—Visual Flight Rules.</FP>
+        <FP SOURCE="FP-1">VHF—Very High Frequency.</FP>
+        <FP SOURCE="FP-1">VOR—VHF Omnirange.</FP>
+        <FP SOURCE="FP-1">VORTAC—VHF Omnirange/Tactical Air Navigation.</FP>
+        <FP SOURCE="FP-1">WASP—War Air Service Program.</FP>
+        <FP SOURCE="FP-1">WATPL—Wartime Traffic Priority List. </FP>
+      </EXTRACT>
+    </SECTION>
+    <SECTION>
+      <SECTNO>§ 245.3</SECTNO>
+      <SUBJECT>The SCATANA Plan.</SUBJECT>
+      <P>(a) <E T="03">Purpose.</E> The purpose of this part is to establish responsibilities, procedures and instructions for the security control of civil and military air traffic and NAVAIDS which will provide for the most effective use of airspace under various emergency conditions.</P>
+      <P>(b) <E T="03">Authority.</E> (1) The Joint Chiefs of Staff directives which outline NORAD responsibilities for the development of plans and policies in concert with the FAA and FCC for the establishment of a system for identification and security control of air traffic and air NAVAIDS.</P>
+      <P>(2) Federal Aviation Act of 1958, as amended.</P>
+      <P>(3) Communications Act of 1934, as amended.</P>
+      <P>(4) Executive Order 11490.</P>
+      <P>(5) The National Security Act of 1947, as amended.</P>
+      <P>(c) <E T="03">Scope.</E> This part applies to all United States territory over which the FAA has air traffic control jurisdiction. For the purpose of this part, the appropriate military authorities within this territory are as follows:</P>
+      <P>(1) For the NORAD area of responsibility, NORAD region commanders have been designated as appropriate military authority by CINCNORAD.</P>
+      <P>(2) Outside the NORAD area, the commander, or his designated representative, of the unified-specified command exercising operational control over the area.</P>
+      <P>(d) <E T="03">General description of the plan.</E> This part is intended to meet two types of situations. These are outlined below, together with a general summary of the actions required.</P>
+      <P>(1) In the first situation, an emergency may develop which does not meet the criteria for the declaration of a Defense Emergency or Air Defense Emergency, but in the interests of hemispheric and national security requires identification and control of all aircraft operating in the defense area, its coastal approaches or any parts of these areas. Under such conditions, the following actions, which are described in more detail in § 245.3, will be taken:</P>
+      <P>(i) The appropriate military authority will direct the FAA Air Route Traffic Control Center (ARTCC) concerned to apply Emergency Security Control of Air Traffic (ESCAT) in the affected area.</P>
+      <P>(ii) The ARTCC will advise all aircraft operating under its control and relay ESCAT implementation instructions to appropriate aeronautical facilities within its area that ESCAT rules have been applied and will then issue any special security instructions which are required to identify, locate and ensure immediate control of all air traffic.</P>
+      <P>(iii) When ESCAT is applied, all aircraft must file IFR or DVFR flight plans and comply with the special security instructions issued. These instructions may require diverting or rerouting airborne flights and, using a system of security control authorizations, restrictions to proposed flights not already airborne.</P>
+      <P>(2) In the second situation, an emergency will have arisen which has resulted in the declaration of Defense Emergency outside the NORAD area, Air Defense Emergency within the NORAD area, or both of these. Under such conditions the following actions, described in detail in § 245.5, will be taken:</P>
+
+      <P>(i) The appropriate military authority will direct the FAA ARTCC concerned to implement Security Control of Air Traffic and Air Navigation Aids (SCATANA).<PRTPAGE P="520"/>
+      </P>
+      <P>(ii) The ARTCC will relay SCATANA implementation to appropriate aeronautical facilities, will direct all VFR traffic under its control to land and file an IFR/ DVFR flight plan, and will implement other directions specified by the appropriate military authority. These may include grounding, diversion and other restrictions to flight, plus the control of navigation aids.</P>
+      <P>(iii) Aircraft movements will be controlled by the use of the WATPL except for specific exceptions which will be controlled by using a Security Control Authorization.</P>
+      <P>(iv) The NORAD Region in its transmission of SCATANA air traffic control instructions to the ARTCC will clearly state which WATPL Numbers are authorized to operate. This information will also include any special authorizations for operations under Security Control Authorizations procedures (see § 245.8).</P>
+      <P>(e) <E T="03">Amplifying Instructions</E>—(1) <E T="03">Interference with normal air traffic.</E> This will be minimized, consistent with the requirement for operation of the air defense system.</P>
+      <P>(2) <E T="03">Supplements for essential civil air operations.</E> Appropriate Unified-Specified commands, in collaboration with the FAA region directors will prepare annexes and agreements supplementing this plan for their area of responsibility. These supplements are to consider the special requirements of organized civil defense and disaster relief flights, agricultural and forest fire flights, border patrol flights and other essential civil air operations to the end that maximum use of these flights, consistent with air defense requirements will be made when SCATANA and ESCAT are in effect.</P>
+      <P>(3) <E T="03">Vital military flights to have priority.</E> Military air operations vital to national defense are to be given priority over all other military and civil aircraft through procedural handling by the Air Traffic Control (ATC) systems as specified in coordinated agreements or authorizations for particular operations (see § 245.8).</P>
+      <P>(4) <E T="03">One Military authority to direct ARTCCs.</E> In consonance with this plan, appropriate military authorities will direct the extent of security control of air traffic and air navigation aids as required by the military situation. Such directions will be issued to appropriate FAA ARTCCs for implementation. The area of responsibility of the appropriate military authority may not be congruent with ARTCC boundaries, especially in the NORAD area where one ARTCC's boundaries may lie within two or more NORAD regions. To prevent confusion, agreements will be developed between appropriate military authorities and the ARTCCs concerned to ensure that each ARTCC receives direction from one military authority only. Unless operational requirements dictate otherwise, directed SCATANA actions will be consistent throughout an individual ARTCC area.</P>
+      <P>(5) <E T="03">Tactical air movements plans.</E> To assist appropriate military authorities in making a preliminary assessment of wartime air traffic patterns and to simplify the transition to SCATANA operations, major commands are to coordinate the air traffic movement section of their Emergency War Plans (including dispersal and evacuation) and preposition flight plan information with appropriate military authorities. This authority is the NORAD region commander within the NORAD area of responsibility. Detailed requirements are explained in § 245.6.</P>
+      <P>(6) <E T="03">Testing procedures.</E> To insure that implementing actions can be taken expeditiously, SCATANA tests will be conducted periodically in accordance with § 245.10.</P>
+      <P>(7) <E T="03">Dispersal actions.</E> Prior to or subsequent to the declaration of a Defense Emergency or an Air Defense Emergency, there may be a requirement to disperse civil and military aircraft for their protection. If such dispersal plans are implemented when any part of this plan has been placed in effect, operations will be in accordance with the requirements of that portion of the SCATANA plan which is in effect. If any part of the SCATANA plan is ordered while dispersal is in progress, dispersal operations will be revised as required to comply with SCATANA.</P>
+      <P>(8) <E T="03">Communications.</E> Direct communications are authroized between appropriate agencies and units for the purpose of coordinating and implementing the procedures in this plan.<PRTPAGE P="521"/>
+      </P>
+      <P>(9) <E T="03">Review and revision.</E> All concerned agencies are encouraged to continuously monitor this plan for adequacy and currency. Hq NORAD, acting as executive agent for DoD, will process and distribute administrative and organizational changes as they occur. However, this plan will be reviewed at least once every two years by FAA, FCC, and NORAD and reissued or changed as required. Recommended changes should be forwarded to:
+      </P>
+      <EXTRACT>
+        <FP SOURCE="FP-1">Headquarters, North American Air Defense Command.</FP>
+        <FP SOURCE="FP-1">Ent Air Force Base, Colorado 80912. </FP>
+      </EXTRACT>
+      
+      <P>(f) <E T="03">Responsibilities.</E> (1) The Commander in Chief, NORAD will:</P>
+      <P>(i) Establish the military requirements for the Security Control of Air Traffic and Air Navigation Aids.</P>
+      <P>(ii) Coordinate with the Administrator, FAA, and the Defense Commissioner, FCC, as appropriate, regarding the establishment of procedures for implementation.</P>
+      <P>(2) The Administrator, FAA will:</P>
+      <P>(i) Promulgate the necessary FAA directives/plans, including special ATC procedures to implement this plan.</P>
+      <P>(ii) Coordinate with appropriate military authorities prior to the establishment of procedures for this plan.</P>
+      <P>(iii) Maintain liaison with appropriate NORAD region commanders through appropriate FAA offices.</P>
+      <P>(iv) Administer this plan in accordance with requirements established by the Commander in Chief, North American Air Defense Command.</P>
+      <P>(v) Collaborate with the FCC in establishing procedures for control of non-Federal NAVAIDS as defined in this plan.</P>
+      <P>(3) Federal Communications Commission will:</P>
+      <P>(i) Engage in rule making or other actions as appropriate in support of this plan.</P>
+      <P>(ii) Collaborate with the FAA in establishing procedures for control on non-Federal NAVAIDS as defined in this plan.</P>
+      <P>(4) Appropriate Military Authorities will:</P>
+      <P>(i) Direct the control of NAVAIDS (VOR, VORTAC, TACAN and LORAN) in their areas, as required.</P>
+      <P>(ii) Issue security control instructions to appropriate FAA region/ARTCC as necessary to insure performance of their air defense mission.</P>
+      <P>(iii) Maintain liaison with appropriate FAA regional directors and FCC Regional Liaison Officers.</P>
+      <P>(iv) Conduct tests of this plan in coordination with the FAA and FCC.</P>
+      <P>(v) Collaborate with the FAA regional director and FCC Regional Liaison Officer in making supplemental agreements to this plan.</P>
+      <P>(5) The FAA Regional Directors will:</P>
+      <P>(i) Assure FAA participation with the NORAD region commanders in the testing of this plan in the NORAD region areas.</P>
+      <P>(ii) Ensure dissemination of information and instructions concerning this plan within their areas of responsibility to civil and military aeronautical facilities and civil pilots.</P>
+      <P>(iii) Place in effect procedures outlined in this plan in accordance with requirements established by appropriate military authorities.</P>
+      <P>(iv) Assist appropriate military authorities in making supplemental agreements to this plan as may be required.</P>
+      <P>(6) The FCC Regional Liaison Officers will:</P>
+      <P>(i) Maintain liaison with the NORAD region commanders and FAA regional directors with regard to participation of FCC licensed aeronautical navigational aids in this plan.</P>
+      <P>(ii) Disseminate information and instructions concerning this plan to FCC licensed navigational aids affected by this plan.</P>
+      <P>(iii) Assist the NORAD region commanders in making such supplemental agreements to this plan as may be required.</P>
+      <P>(7) Commanders of Responsible Major Commands will:</P>
+      <P>(i) Ensure that the air traffic movement sections of the Emergency War Plans are coordinated with appropriate military authorities.</P>
+      <P>(ii) Ensure that flight plans in support of their coordinated Emergency War Plans are prepositioned with appropriate military authorities and the FAA. (See § 245.6).</P>
+
+      <P>(iii) Identify specific NAVAIDS (VOR, VORTAC, TACAN and LORAN) which are essential to support contingency operations of assigned forces <PRTPAGE P="522"/>during implementation of SCATANA. The appropriate military authority will, except under actual emergency air defense situations, ensure that such air NAVAIDS within their area of responsibility remain in operation. Control of LORAN C will be in accordance with the JCS Master Navigation Plan (SM 525-XX). If actual emergency air defense situations require shutdown of these air NAVAIDS, the appropriate military authority will immediately notify the respective commander of the affected major command of the shutdown.</P>
+    </SECTION>
+    <SECTION>
+      <SECTNO>§ 245.4</SECTNO>
+      <SUBJECT>Application of Emergency Security Control of Air Traffic (ESCAT).</SUBJECT>
+      <P>(a) <E T="03">Situation.</E> Emergency conditions exist which threaten national security but do not warrant the declaration of Defense Emergency, Air Defense Emergency or the control of air NAVAIDS.</P>
+      <P>(b) <E T="03">Intention.</E> To provide for the most effective use of airspace in the affected area by:</P>
+      <P>(1) Ensuring that the position of all friendly air traffic is known and can be contacted by radio, if necessary.</P>
+      <P>(2) Controlling the density of air traffic operating in airspace critical to the conduct of air defense operations.</P>
+      <P>(c) <E T="03">Application.</E> (1) The appropriate military authority will take the following actions:</P>
+      <P>(i) Direct the affected ARTCCs to apply ESCAT.</P>
+      <P>(ii) Specifically define the affected area.</P>
+      <P>(iii) Define the types of restrictions to be placed in effect. These may require the diverting and rerouting of traffic, the restricting of traffic to certain areas or corridors, and the initiating of a requirement to obtain a Security Control Authorization prior to take-off.</P>
+      <P>(iv) Within NORAD, the region commander will advise CINCNORAD who will then advise the Administrator, FAA and the Defense Commissioner, FCC, that ESCAT has been applied. Outside NORAD the appropriate military authority will advise the Administrator, FAA and the Defense Commissioner, FCC directly. When time is vital notification may occur after ESCAT has been implemented.</P>
+      <P>(v) Direct the appropriate ARTCCs to relax or terminate restrictions as the tactical situation allows.</P>
+      <P>(2) ARTCCs will take the following actions when directed to apply ESCAT:</P>
+      <P>(i) Disseminate ESCAT instructions and restrictions received to air traffic, civil and military air traffic control facilities, flight service stations and other appropriate aeronautical facilities.</P>
+      <P>(ii) Impose the restrictions on air traffic as directed by the appropriate military authority. The restrictions will automatically include instructions for all VFR traffic to land at the nearest suitable airport and file an IFR/DVFR flight plan.</P>
+      <P>(iii) Civil and military air traffic control facilities, and other aeronautical facilities will disseminate to air traffic and aircraft operators, and will implement, those instructions and restrictions received from the ARTCCs. When an IFR or DVFR flight plan has been filed, it will be examined by the appropriate aeronautical facility to ensure that it conforms with the ESCAT restrictions placed in effect by the appropriate military authority. When a flight plan does conform with the ESCAT restrictions, the appropriate aeronautical facility will grant a Security Control Authorization and the flight can then be given take-off clearance. When a flight plan does not conform with the ESCAT restrictions, a Security Control Authorization will not be given and take-off clearance will be denied.</P>
+      <P>(iv) The pilot in command will take the following actions when ESCAT is applied:</P>
+      <P>(<E T="03">a</E>) If airborne, comply with the instructions issued by the appropriate aeronautical facility.</P>
+      <P>(<E T="03">b</E>) If not airborne, file an IFR or DVFR flight plan prior to take-off and comply with the instructions issued by the appropriate aeronautical facility.</P>
+      <P>(<E T="03">c</E>) Aircraft which are not radio equipped may not file an IFR or DVFR flight plan and will not be permitted to operate in areas affected by ESCAT.</P>
+    </SECTION>
+    <SECTION>
+      <PRTPAGE P="523"/>
+      <SECTNO>§ 245.5</SECTNO>
+      <SUBJECT>Implementation of Security Control of Air Traffic and Air Navigation Aids.</SUBJECT>
+      <P>(a) <E T="03">Situation.</E> Three types of situations may require the implementation of SCATANA.</P>
+      <P>(1) In the first of these, an emergency has arisen which has resulted in the declaration of an Air Defense Emergency within the NORAD area. Under this condition SCATANA will be automatically implemented.</P>
+      <P>(2) In the second situation, which applies only to NORAD, a NORAD region commander may direct implementation of SCATANA for his region when his region or an adjacent region is under attack and Air Defense Emergency has not yet been declared.</P>
+      <P>(3) In the third situation, an emergency has arisen which has resulted in the declaration of a Defense Emergency outside the NORAD area. Under this condition, SCATANA may be considered for implementation.</P>
+      <P>(b) <E T="03">Intention.</E> To provide for the most effective use of airspace by aircraft of civil and military agencies by:</P>
+      <P>(1) Exercising security control of civil and military aircraft entering, departing or moving within the U.S. areas and their coastal approaches.</P>
+      <P>(2) Selectively limiting air traffic, consistent with air defense requirements.</P>
+      <P>(3) Exercising control over the following air navigation systems: VOR, VORTAC, TACAN and LORAN.</P>
+      <P>(c) <E T="03">Implementation.</E> (1) The appropriate military authority will take the following actions:</P>
+      <P>(i) Direct the appropriate ARTCC to implement SCATANA.</P>
+      <P>(ii) Specify what restrictions are to be implemented, such as:</P>
+      <P>(<E T="03">a</E>) Routing restrictions on flights entering or operating within appropriate portions of the defense area.</P>
+      <P>(<E T="03">b</E>) Restrictions for the volume of air traffic within the defense area, using the WATPL (See § 245.8) and Security Control Authorizations.</P>
+      <P>(<E T="03">c</E>) Altitude limitations on flight operations in selected areas.</P>
+      <P>(<E T="03">d</E>) Special instructions concerning the control of accurate navigation aids which permit their use for friendly aircraft operations. This includes continued operation, as long as the actual air defense situation permits, of those air NAVAIDS essential to support other major command contingency operations.</P>
+      <P>(<E T="03">e</E>) Confirmation or modification of previous instructions which may have been implemented with the application of ESCAT.</P>
+      <P>(iii) Revise or remove restrictions to the movement of air traffic and control of air navigation aids as the tactical situation permits.</P>
+      <P>(2) ARTCCs will take the following actions when directed to implement SCATANA:</P>
+      <P>(i) Disseminate SCATANA implementation instructions to civil and military air traffic control facilities and other appropriate aeronautical facilities.</P>
+      <P>(ii) Impose the restrictions on air traffic as directed by the appropriate military authority. The restrictions will automatically include instructions for all VFR traffic to land at the nearest suitable airport and file an IFR or DVFR flight plan. Landing, diversion or dispersal of traffic, when ordered, will be to airports outside of metropolitan areas or likely target complexes whenever possible. Instructions will be passed over normal air/ground/air radio channels.</P>
+      <P>(iii) As directed by the appropriate military authority, implement the control of VOR, VORTAC, TACAN, and LORAN as follows:</P>
+      <P>(<E T="03">a</E>) Shut down the above navigation aids in accordance with the military command/FAA region supplemental agreements. These shall permit time to land/disperse airborne aircraft, and shall provide for the extension of such times when the air traffic situation dictates.</P>
+      <P>(<E T="03">b</E>) Aids which require more than five minutes control time shall be shut down as soon as possible, except when directed otherwise by the appropriate military authority, or unless such aids are essential for the regulation and control of existing air traffic.</P>
+      <P>(<E T="03">c</E>) Direct the control of air navigational aids to ensure that required aids, as indicated in flight plans, will be available for authorized aircraft flights.</P>
+
+      <P>(iv) When directed to reduce or remove SCATANA restrictions, authorize <PRTPAGE P="524"/>resumption of air traffic and operation of air navigation aids as specified by the appropriate military authority.</P>
+      <P>(3) Civil and military air traffic control facilities, and other appropriate aeronautical facilities will:</P>
+      <P>(i) Maintain the current SCATANA ACTION Form for that facility at appropriate operating positions.</P>
+      <P>(ii) When SCATANA is implemented or terminated, take the actions indicated on the facility's SCATANA ACTION Form.</P>
+      <P>(iii) Maintain current information on the status of restrictions imposed on air traffic.</P>
+      <P>(iv) Approve or disapprove filed flight plans in accordance with current instructions received from the ARTCCs. Approval will indicate that the flight is permitted under the WATPL priority currently in effect or that the flight has been granted a Security Control Authorization.</P>
+      <P>(v) Forward flight plans and approval requests to the ARTCC as required.</P>
+      <P>(vi) Disseminate instructions and restrictions to air traffic as directed by the ARTCCs.</P>
+      <P>(4) The pilot in command will conform to security control instructions as follows:</P>
+      <P>(i) IFR flights—comply with instructions received from the appropriate aeronautical facility.</P>
+      <P>(ii) VFR flights—land at the nearest suitable airport when so directed.</P>
+      <P>(iii) Aircraft on the ground—file an IFR or DVFR flight plan with the proper FAA facility and receive approval prior to departure.</P>
+    </SECTION>
+    <SECTION>
+      <SECTNO>§ 245.6</SECTNO>
+      <SUBJECT>Tactical Air Movement Plans.</SUBJECT>
+      <P>(a) <E T="03">Situation.</E> In a situation when Emergency War plans and other contingency plans are being implemented, the large volume of tactical air traffic generated is likely to result in conflicting requirements for the available airspace. It is obvious that such conflicts should be minimized in order to prevent saturation of the air defense system, yet at the same time permit the orderly execution of the various contingency plans. To this end, it is essential that responsible military commanders coordinate fully with the appropriate military authorities responsible for air defense to ensure that conflicting situations can be resolved while emergency plans are still under development. The provisions of this section do not apply to Strategic Air Command (SAC) Emergency War Orders (EWOs) for which special coordination has been effected between SAC, NORAD and FAA agencies.</P>
+      <P>(b) <E T="03">Intention.</E> To establish coordination procedures necessary to fulfill air defense and air traffic control requirements for the movement of tactical air traffic and identify specific air NAVAIDS which are essential to support contingency operations of major command forces during implementation of SCATANA.</P>
+      <P>(c) <E T="03">Execution.</E> (1) Commanders of Major Commands (or “Responsible Military Commanders”) are to ensure that:</P>
+      <P>(i) The air traffic movement sections of their Emergency War Plans (including dispersal, evacuation and other related contingency plans) and the specific air NAVAIDS essential to support contingency operations are fully coordinated during development with the appropriate military authority responsible for air defense. In the NORAD area of responsibility the authority is the NORAD region commander. When flights will transit more than one region, coordination must be effected with all of the region commanders involved. The NORAD region commander will effect necessary coordination on those tactical operations with the FAA through the Region Air Defense Liaison Officer (RADLO).</P>
+      <P>(ii) Subsequent to the coordination required in the paragraph (c)(1)(i) of this section, extracts of the air traffic movement section of their plans are to be passed to the appropriate military authorities. The extracts are to be prepared according to the format shown in § 245.7. In the NORAD area of responsibility the extracts are to be sent to the Commander of the NORAD region in which the flights originate.</P>
+      <P>(2) Responsible military authorities will:</P>
+
+      <P>(i) During the coordination phase, ensure that proposed aircraft movements do not conflict in time, altitude, route or any other respect with other <PRTPAGE P="525"/>planned movements. Potential conflicts are to be resolved through negotiations with the commands involved.</P>
+      <P>(ii) On receipt of the tactical air movement plan extracts, review again their impact on the overall air situation, incorporate the extracts into the unit SCATANA plan, as supplements, and distribute the extracts to appropriate military agencies, FAA regions and ARTCCs.</P>
+    </SECTION>
+    <SECTION>
+      <SECTNO>§ 245.7</SECTNO>
+      <SUBJECT>Extract of Tactical Air Movement Plan.</SUBJECT>
+      
+      <EXTRACT>
+        <FP SOURCE="FP-DASH">(Unit)</FP>
+        <FP SOURCE="FP-DASH">(Office symbol)</FP>
+        <FP SOURCE="FP-DASH">Address</FP>
+        
+        
+        <P>Project officer name and phone number</P>
+        <FP>Mission name:</FP>
+        
+        <FP SOURCE="FP-DASH">SCATANA</FP>
+        <P>(NORAD region of flight plan origination)
+        </P>
+        <FP SOURCE="FRP">(Number assigned</FP>
+        <FP SOURCE="FRP">by region)</FP>
+        
+        <FP SOURCE="FRP">(WATPL number)</FP>
+        <FP SOURCE="FP-DASH">(a)</FP>
+        <FP SOURCE="FRP">(Call sign, or VCSL</FP>
+        <FP SOURCE="FRP">block/line of flight lead)</FP>
+        <FP SOURCE="FP-DASH">(b)</FP>
+        <FP SOURCE="FRP">(Number and type</FP>
+        <FP SOURCE="FRP">aircraft/NAV equip)</FP>
+        <FP SOURCE="FP-DASH">(c)</FP>
+        <FP SOURCE="FRP">(Departure base, ICAO 4 letters)</FP>
+        <FP SOURCE="FP-DASH">(d)</FP>
+        <FP SOURCE="FRP">(Level-off point/elasped time) (direct</FP>
+        <FP SOURCE="FRP">or airway route)</FP>
+        <FP SOURCE="FP-DASH"/>
+        <FP SOURCE="FRP">Points to penetration fix</FP>
+        <FP SOURCE="FP-DASH">(e)</FP>
+        <FP SOURCE="FRP">(Destination/total time enroute)</FP>
+        <FP SOURCE="FRP">(ICAO 4 letters)</FP>
+        <FP SOURCE="FP-DASH">(f) “E” hour plus</FP>
+        <FP SOURCE="FRP">(ETD)</FP>
+        
+        <FP SOURCE="FRP">(Interval planned between aircraft,</FP>
+        <FP SOURCE="FRP">cells, or flights)</FP>
+        
+        <FP SOURCE="FP-1">Altitude Reservation Void on hour after last ETD.</FP>
+        
+        <P>(g)_________KT.
+        </P>
+        <FP>(TAS)</FP>
+        
+        <FP>MARSA within this flight.</FP>
+        
+        <FP SOURCE="FRP">(Military assumes responsibility</FP>
+        <FP SOURCE="FRP">for separation of aircraft)</FP>
+        
+        <FP SOURCE="FP-DASH">All other call signs are: </FP>
+      </EXTRACT>
+      
+    </SECTION>
+    <SECTION>
+      <SECTNO>§ 245.8</SECTNO>
+      <SUBJECT>Wartime Air Traffic Priority List (WATPL).</SUBJECT>
+      <P>(a) <E T="03">Situation.</E> When SCATANA is implemented, a system of traffic priorities is required in order to ensure that optimum use is made of airspace, consistent with air defense requirements. This system will be the prime means of controlling the volume of air traffic. (The Security Control Authorization will be used as a supplement to WATPL.)</P>
+      <P>(b) <E T="03">Intention.</E> To establish a WATPL for the movement of air traffic when SCATANA has been implemented, and to provide policy guidance for the practical application of the system. Priorities shall take precedence in the order listed and subdivisions within priorities are equal.</P>
+      <P>(c) <E T="03">Wartime Air Traffic Priority List—</E>(1) <E T="03">Priority One.</E> (i) Aircraft engaged in active continental defense missions. This includes interceptors, antisubmarine aircraft and airborne early warning and control aircraft.</P>
+      <P>(ii) Retaliatory aircraft, including their direct support aircraft, executing EWO.</P>
+      <P>(iii) Airborne command elements which provide backup to command and control systems for the combat forces.</P>
+      <P>(iv) The President of the United States and Prime Minister of Canada and respective cabinet members essential to national security.</P>
+      <P>(2) <E T="03">Priority Two.</E> (i) Forces being deployed for or in direct and immediate support of combat operations against the enemy to include the use of activated Civil Reserve Air Fleet (CRAF) aircraft as necessary.</P>
+      <P>(ii) SAC aircraft in direct and immediate support of EWO not included in priority one.</P>
+      <P>(iii) Search and rescue aircraft operating in support of these activities.</P>
+      <P>(3) <E T="03">Priority Three.</E> (i) Forces being deployed in support of combat operations against the enemy.</P>
+      <P>(ii) Continental Air Reconnaissance for Damage Assessment (CARDA) missions for the support of immediate combat operations.</P>
+      <P>(iii) Search and rescue aircraft not included in priority two.</P>
+
+      <P>(iv) Flight inspection aircraft flights in connection with emergency restoration of airway and airport facilities in <PRTPAGE P="526"/>support of immediate combat operations.</P>
+      <P>(4) <E T="03">Priority Four.</E> Dispersal of:</P>
+      <P>(i) Tactical military aircraft.</P>
+      <P>(ii) U.S. air carrier aircraft assigned to the War Air Service Program (WASP).</P>
+      <P>(iii) U.S. civil air carrier aircraft allocated to the CRAF Program.</P>
+      <P>(iv) FAA flight inspection aircraft.</P>
+      <P>(v) Foreign civil air carrier aircraft in the U.S. in accordance with specific international agreements.</P>
+      <P>(vi) Public aircraft assigned to FAA and other Federal agencies.</P>
+      <P>(5) <E T="03">Priority Five.</E> (i) The air transport of military commanders, their representatives, and DoD sponsored key civilian personnel which is of the utmost importance to national security, or which will have an immediate effect upon combat operations of the Armed Forces.</P>
+      <P>(ii) Dispersal of nontactical military aircraft for their protection.</P>
+      <P>(iii) Public aircraft assigned to FAA and other Federal agencies.</P>
+      <P>(6) <E T="03">Priority Six.</E> (i) Flight operations in accordance with approved Federal and State emergency plans (WASP and SARDA). U.S. civil air carrier flights will operate under the provisions of CAB Air Transport Mobilization Order ATM-1, “Route Authorizations and Operations,” and the WASP. Foreign civil air carrier flights will operate in accordance with specific international agreements.</P>
+      <P>(ii) Other essential CARDA missions not included in paragraph (c)(3)(ii) of this section.</P>
+      <P>(iii) Flight inspection activity in connection with airway and airport facilities.</P>
+      <P>(7) <E T="03">Priority Seven.</E> Other military flight operations.</P>
+      <P>(8) <E T="03">Priority Eight.</E> All other flight operations not specifically listed above.</P>
+      <P>(d) <E T="03">Policy for Application of WATPL.</E> (1) The restrictions embodied in the WATPL will apply to all aircraft except those in receipt of a Security Control Authorization.</P>
+      <P>(2) Priority will be solely dependent on the nature of the aircraft's mission. Operational test flights will take the priority of the mission aircraft tested.</P>
+      <P>(3) The originator of a request for aircraft movement will be responsible for determining and verifying the appropriate priority in accordance with the list described above.</P>
+      <P>(4) The individual filing the flight plan will be responsible for including the priority number as determined by the originator of the request.</P>
+      <P>(5) During general war conditions, situations may occur which cannot be related to the WATPL. Aircraft emergencies and inbound international flights which have reached the point of no return, including foreign air carrier flights enroute to safe haven airports in accordance with specific international agreements are examples of such situations. These incidents must be treated individually through coordination between ATC and appropriate military agencies in consideration of the urgency of the inflight situation and existing tactical military conditions.</P>
+      <P>(6) During periods other than general war, aircraft movements are handled as follows:</P>
+
+      <P>(i) Involvement in limited war or execution of contingency plans, to include JCS directed actions, immediately makes successful completion of such action a primary national objective. Therefore, aircraft movements in support of these actions will be afforded expeditious handling by the ATC system commensurate with the degree or urgency stated by the JCS to the FAA. When directing the execution of a contingency/limited war plan, or other JCS directed operation which is in pursuit of primary national objectives, the JCS will so advise the FAA (or appropriate Canadian authority if Canadian airspace is involved), requesting that aircraft operating in accordance with such plans be given preferential handling over all air traffic except active air defense missions and launch of the strategic alert force and supporting aircraft. Should contingency, limited warfare, or other JCS directed plans be executed concurrently by more than one operational commander, the JCS will state to the FAA (or appropriate Canadian authority when Canadian airspace is involved), and the military commanders concerned, the relative urgency of each operation and will resolve conflicts that may arise therefrom.<PRTPAGE P="527"/>
+      </P>
+      <P>(ii) Assignment of reserved airspace to accommodate military air operations which, because of their objectives, cannot be conducted in accordance with routine ATC procedures will be based upon an order of precedence for the purpose of resolving mission conflicts in planning altitude reservations. This order of precedence is published in appropriate Joint Service Regulations and FAA documents.</P>
+      <P>(7) Priorities for air traffic clearances required under the SCATANA plan are not to be confused with civil priorities assigned to civil air carrier aircraft under the WASP priorities system, or to general aviation civil aircraft under the SARDA plan. WASP and SARDA priorities are designed to provide for controlled use of civil aircraft capability and capacity, and they have secondary significance when the WATPL for the movement of aircraft is in effect.</P>
+    </SECTION>
+    <SECTION>
+      <SECTNO>§ 245.9</SECTNO>
+      <SUBJECT>Procedures for movement of air traffic.</SUBJECT>
+      <P>(a) <E T="03">Situation.</E> The primary instrument used by NORAD region commanders to control the volume of air traffic operating within their areas of responsibility is the WATPL for Movement of Air Traffic (§ 245.8).</P>
+      <P>(b) <E T="03">Intention.</E> To establish procedures necessary for the expeditious movement of tactical air traffic during periods when SCATANA is in effect.</P>
+      <P>(c) <E T="03">Execution.</E> (1) Tactical air traffic assigned a WATPL number of 1 or 2 will not be delayed, diverted, rerouted, or landed by NORAD region commanders. However, NORAD region commanders may recommend that this traffic be rerouted to avoid battle or battle threatened areas.</P>
+      <P>(2) Air traffic assigned a WATPL number other than 1 or 2 may be delayed, diverted, rerouted, or landed by the NORAD region commander to prevent degradation of the air defense system.</P>
+      <P>(3) Aircraft being “recovered” will be expedited to home or alternate base, and “search and rescue” aircraft expedited on their missions; but such aircraft may be diverted to avoid battle areas or take off may be delayed to prevent saturation of airspace.</P>
+      <P>(4) Tactical air traffic will file IFR flight plans and comply with IFR procedures regardless of weather. The appropriate WATPL number will be entered in the Remarks section in the Aircraft Clearance Form DD 175. The WATPL number will be posted on ARTCC flight strips passed from one ARTCC to the next, and to the appropriate air defense control facilities.</P>
+      <P>(5) For mass military operations a single clearance form will be filed and ALTRAV procedures will be applied.</P>
+      <P>(6) Compliance with approved flight plan and position report requirements is of utmost importance for identification. Aircraft aborting or deviating from an approved flight plan will air-file a revised flight plan as soon as the necessity for such deviation is evident. Unauthorized deviations may preclude identification and result in engagement by defensive weapons.</P>
+      <P>(d) <E T="03">Special operations.</E> (1) The volume of air traffic in areas critical to air defense can be controlled by means of the WATPL. In areas that are not critical to air defense or in areas of poor or no radar coverage, the appropriate military authority may wish to authorize additional specific flights which may not qualify for a high enough priority under the WATPL. When ESCAT or SCATANA have been implemented the appropriate military authority may authorize flights by granting a Security Control Authorization to the ARTCC or agency requesting the clearance.</P>
+      <P>(2) The following flights may require the granting of a Security Control Authorization prior to take off:</P>
+      <P>(i) Organized civil defense missions.</P>
+      <P>(ii) Disaster relief flights.</P>
+      <P>(iii) Agricultural and forest fire flights.</P>
+      <P>(iv) Border patrol flights.</P>
+      <P>(v) SARDA flights prior to WATPL Six.</P>
+    </SECTION>
+    <SECTION>
+      <SECTNO>§ 245.10</SECTNO>
+      <SUBJECT>SCATANA testing.</SUBJECT>
+      <P>(a) <E T="03">Situation.</E> To insure that SCATANA actions can be taken expeditiously, SCATANA tests will be conducted periodically.</P>
+      <P>(b) <E T="03">Intention.</E> (1) SCATANA tests will be conducted in connection with Headquarters NORAD or NORAD region <PRTPAGE P="528"/>large-scale simulated exercises. Additional tests may be conducted by individual NORAD regions when test objectives are local in nature.</P>
+      <P>(2) All Federal facilities responsible for SCATANA actions will participate in SCATANA tests, except where such participation will involve the safety of aircraft. Non-federal civil aeronautical facilities may be requested to participate.</P>
+      <P>(c) <E T="03">Execution.</E> (1) During SCATANA tests, all actions will be simulated.</P>
+      <P>(i) Aircraft will not be grounded or diverted.</P>
+      <P>(ii) Air navigation aids will not be shut down.</P>
+      <P>(iii) Test messages will not be transmitted over air/ground/air radio frequencies.</P>
+      <P>(iv) Radio communications will not be interrupted.</P>
+      <P>(2) For NORAD Exercises.</P>
+
+      <P>(i) If ESCAT is applied by CINC NORAD, this fact will be passed to the Region SCATANA Officer in plain language. Region SCATANA officers may call or simulate calling the appropriate ARTCC using the following statement:
+      </P>
+      <EXTRACT>
+        <P>This is a NORAD exercise. Apply ESCAT. ARTCC acknowledge and take no further action. </P>
+      </EXTRACT>
+      
+      <P>(ii) If ESCAT is applied or SCATANA is implemented by the Region Commander, the Region SCATANA Officer may simulate the call or may make an actual call using the format shown in paragraph (c)(2)(i) of this section, and inserting ESCAT or SCATANA as appropriate.</P>
+      <P>(3) SCATANA Test. This is a test conducted by ARTCC's in which SCATANA participants conduct simulated notification actions required by the plan. Timing of the test will be at the discretion of the ARTCC. A narrative summary of each test is to be prepared by the ARTCC MLO and copies sent to appropriate NORAD Region SCATANA Officer, FAA Region MLO, FAA NORAD RDLO and FAA NORAD Hq LO. FAA NORAD Hq LO will be responsible for reviewing the SCATANA tests reports and recommending changes to the testing procedures to Hq NORAD as deemed appropriate. The SCATANA tests will be conducted at least quarterly.</P>
+      <P>(4) SCATANA Diversion Simulation. This is a test designed to exercise ARTCC personnel in making decisions on aircraft diversion which would be required under actual implementation of the plan. The timing of the simulation will be pre-coordinated between the ARTCCs and the NORAD Region SCATANA Officer. The guideline timeframe for the area recovery of all non-essential air traffic in actual operations has been fixed at an optimum of twenty minutes; diversion simulation exercises should operate on a similar timeframe. Tests will be conducted at least semi-annually.</P>
+      <P>(i) The NORAD region will provide charts to the ARTCC for the recording of simulated aircraft diversions. The completed charts will be passed to the NORAD Region SCATANA Officer for analysis. The NORAD Region SCATANA Officer will brief region staffs on the results of the exercise and FAA representation will be invited.</P>
+      <P>(ii) The charts will record the position of all live aircraft on IFR clearances in the ARTCC's area at the time ESCAT was simulated, the position of all aircraft when SCATANA was simulated, and will show the airports to which simulated diversions were made.</P>
+    </SECTION>
+    <SECTION>
+      <SECTNO>§ 245.11</SECTNO>
+      <SUBJECT>Authentication.</SUBJECT>
+      <P>Authentication is not required between NORAD Region Control Centers and ARTCCs for the implementation of SCATANA.</P>
+    </SECTION>
+  </PART>
+</CFRGRANULE>
