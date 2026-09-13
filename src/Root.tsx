@@ -71,6 +71,8 @@ import spaceShuttleDoc from "./mindwired-doc/docs/spaceshuttle.json";
 import spaceShuttleManifest from "./mindwired-doc/docs/spaceshuttle.manifest.json";
 import wtcCollapseDoc from "./mindwired-doc/docs/wtccollapse.json";
 import wtcCollapseManifest from "./mindwired-doc/docs/wtccollapse.manifest.json";
+import noradTapesDoc from "./mindwired-doc/docs/noradtapes.json";
+import noradTapesManifest from "./mindwired-doc/docs/noradtapes.manifest.json";
 import groundZeroAirDoc from "./mindwired-doc/docs/groundzeroair.json";
 import groundZeroAirManifest from "./mindwired-doc/docs/groundzeroair.manifest.json";
 import flight93Doc from "./mindwired-doc/docs/flight93.json";
@@ -1463,6 +1465,30 @@ export const RemotionRoot: React.FC = () => {
              comparison refused ON AIR, multi-administration balance, and the
              unexplained 20-year gap stated rather than skipped. Zero
              conspiracy material, zero falling/remains. BB outro baked. ── */}
+      {/* ── Black Box Breakdown — "We Have Some Planes." Nobody Knew What It
+             Meant. (the 9/11 air-defense recordings). Evidence Engine: FOUR
+             scenes play REAL archival audio — the certified FAA re-recording of
+             Boston Center Sector 46 Radar (including the 8:24:38 transmission
+             that will not resolve, which is the point) and NEADS Channel 5 —
+             labelled ACTUAL FAA ATC RECORDING / ACTUAL NORAD/NEADS RECORDING
+             with FOIA citations; every other voiced line is labelled
+             RECREATION. Exhibits are real government documents: Staff Statement
+             17, the Commission report, the Team 8 draft monograph (Marr's
+             subpoenaed e-mail), the DOT IG report, the 2008 FOIA release
+             letter. Six public-domain DVIDS clips; NO 2001 footage exists of
+             the NEADS floor and none is implied. Fact base and the hard rules
+             (never "lied", never a stand-down, nobody was ever charged, Arnold
+             de-named, Scoggins unnamed pending a decision):
+             docs/planning/CLAIMS-noradtapes.md. BB outro baked. ── */}
+      <Composition
+        id="NoradTapesDoc"
+        component={makeDocComp(noradTapesDoc, noradTapesManifest, BB_OUTRO)}
+        durationInFrames={docTotalFrames(noradTapesDoc, noradTapesManifest, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
       <Composition
         id="GroundZeroAirDoc"
         component={makeDocComp(groundZeroAirDoc, groundZeroAirManifest, BB_OUTRO)}

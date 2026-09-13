@@ -411,7 +411,8 @@
    "videoQuery": "F-15 Eagle in flight over ocean aerial footage DVIDS",
    "stat": "8:53 A.M. · OTIS AIRBORNE · HOLDING 9:08–9:13",
    "cap": "Holding off Long Island. No target.",
-   "tone": "fear"
+   "tone": "fear",
+   "video": "wads_opsfloor_dvids873438.mp4"
   },
   {
    "id": "a2_28",
@@ -656,7 +657,8 @@
    "motion": "slow",
    "speed": 0.94,
    "extraHold": 30,
-   "tone": "melancholy"
+   "tone": "melancholy",
+   "video": "radar_room_dvids415647.mp4"
   },
   {
    "id": "a4_16",
@@ -706,7 +708,8 @@
    "radioLabel": "RECREATION",
    "timestamp": "9:49 A.M. EDT",
    "cap": "RECREATION · 9/11 Commission Report, Ch. 1",
-   "tone": "fear"
+   "tone": "fear",
+   "video": "wads_opsfloor_dvids873438.mp4"
   },
   {
    "id": "a5_5",
@@ -715,7 +718,8 @@
    "radioLabel": "RECREATION",
    "timestamp": "9:49 A.M. EDT",
    "cap": "RECREATION · 9/11 Commission Report, Ch. 1",
-   "tone": "fear"
+   "tone": "fear",
+   "video": "radar_room_dvids415647.mp4"
   },
   {
    "id": "a5_6",
@@ -724,7 +728,8 @@
    "radioLabel": "RECREATION",
    "timestamp": "9:49 A.M. EDT",
    "cap": "RECREATION · 9/11 Commission Report, Ch. 1",
-   "tone": "fear"
+   "tone": "fear",
+   "video": "wads_opsfloor_dvids873438.mp4"
   },
   {
    "id": "a5_7",
@@ -734,7 +739,8 @@
    "timestamp": "9:49 A.M. EDT",
    "cap": "RECREATION · 9/11 Commission Report, Ch. 1",
    "speed": 0.95,
-   "tone": "fear"
+   "tone": "fear",
+   "video": "radar_room_dvids415647.mp4"
   },
   {
    "id": "a5_8",
@@ -883,7 +889,8 @@
    "cap": "Crushed. Cut. Scattered into different trash cans.",
    "motion": "slow",
    "speed": 0.94,
-   "tone": "anger"
+   "tone": "anger",
+   "video": "wads_opsfloor_dvids873438.mp4"
   },
   {
    "id": "a6_5",
@@ -925,7 +932,6 @@
   {
    "id": "a6_10",
    "text": "Then the tapes arrived. Neads had recorded every channel on its floor, continuously, as a matter of routine. Thirty some hours of audio, covering six and a half hours of real time. Across every agency the Commission would receive more than a thousand hours of tape from a single morning. In two thousand eight the same material was released to the public under the Freedom of Information Act.",
-   "video": "wads_opsfloor_dvids873438.mp4",
    "cap": "Every channel. Every position. As a matter of routine.",
    "tone": "awe",
    "kinetic": {
@@ -933,7 +939,8 @@
     "suffix": "+ hours of audiotape",
     "sub": "Received by the Commission across all agencies — from one morning"
    },
-   "stat": "30+ HOURS FROM NEADS · 1,000+ HOURS IN ALL · RELEASED APRIL 2008"
+   "stat": "30+ HOURS FROM NEADS · 1,000+ HOURS IN ALL · RELEASED APRIL 2008",
+   "img": "ex_foia_letter"
   },
   {
    "id": "a6_15",
@@ -1120,7 +1127,8 @@
    "text": "The Commission's chairman and vice chairman, Thomas Kean and Lee Hamilton, wrote afterwards that fog of war could explain why people were confused on the day. But not why the after action reports, the accident investigation, and the public testimony all advanced an account that was untrue.",
    "videoQuery": "9/11 Commission Kean Hamilton press conference 2004 C-SPAN archive",
    "cap": "\"...advanced an account of 9/11 that was untrue.\" — Kean & Hamilton",
-   "tone": "curiosity"
+   "tone": "curiosity",
+   "video": "radar_room_dvids415647.mp4"
   },
   {
    "id": "a8_2",
@@ -1128,7 +1136,8 @@
    "videoQuery": "9/11 Commission commissioners hearing dais 2004 C-SPAN archive",
    "stat": "SUMMER 2004 · CRIMINAL REFERRAL DEBATED · DECLINED",
    "cap": "Debated. Declined.",
-   "tone": "curiosity"
+   "tone": "curiosity",
+   "video": "wads_opsfloor_dvids873438.mp4"
   },
   {
    "id": "a8_3",
@@ -1144,14 +1153,16 @@
    "text": "Some of the people who built the timeline believed they were. John Farmer later wrote that Commission staff believed there was significant evidence the false statements were deliberately false. And in public: I've been in government and I know what spin is. It simply wasn't true.",
    "videoQuery": "9/11 Commission staff hearing June 17 2004 C-SPAN archive",
    "cap": "Farmer: \"It simply wasn't true.\"",
-   "tone": "anger"
+   "tone": "anger",
+   "video": "radar_room_dvids415647.mp4"
   },
   {
    "id": "a8_5",
    "text": "Commissioner John Lehman saw it differently. Whether it was willful or just the fog of stupid bureaucracy, I don't know. But going after bureaucrats because they misled the Commission didn't seem to make sense to me.",
    "videoQuery": "9/11 Commission hearing commissioners 2004 C-SPAN archive",
    "cap": "Lehman: \"...willful or just the fog of stupid bureaucracy, I don't know.\"",
-   "tone": "curiosity"
+   "tone": "curiosity",
+   "video": "wads_opsfloor_dvids873438.mp4"
   },
   {
    "id": "a8_6",
@@ -1159,7 +1170,8 @@
    "videoQuery": "9/11 Commission chairman Thomas Kean speaking 2004 C-SPAN archive",
    "cap": "Kean: \"...one of those loose ends that never got tied.\"",
    "motion": "slow",
-   "tone": "melancholy"
+   "tone": "melancholy",
+   "video": "radar_room_dvids415647.mp4"
   },
   {
    "id": "a8_7",
@@ -1176,7 +1188,8 @@
    "videoQuery": "FAA Air Traffic Control System Command Center Herndon Virginia operations floor DVIDS",
    "stat": "DOT INSPECTOR GENERAL · CC-2006-085 · AUG 31, 2006",
    "cap": "\"We did not find evidence to conclude that FAA officials knowingly made false statements.\"",
-   "tone": "curiosity"
+   "tone": "curiosity",
+   "video": "wads_opsfloor_dvids873438.mp4"
   },
   {
    "id": "a8_9",
@@ -1241,15 +1254,14 @@
   {
    "id": "a8_17",
    "text": "What changed is concrete. There is now a Domestic Events Network: one telephone line between the agencies with jurisdiction over American airspace, and it never hangs up. And Operation Noble Eagle began the next day, and has never stopped. In the month after the tenth of September two thousand, Norad scrambled seven times. A year later, forty one.",
-   "videoQuery": "Operation Noble Eagle F-16 alert scramble DVIDS",
    "stat": "7 SCRAMBLES → 41 · THE DOMESTIC EVENTS NETWORK",
    "tone": "awe",
-   "video": "scramble_alert_dvids737138.mp4",
    "kinetic": {
     "count": 41,
     "suffix": " scrambles, Sept 10 – Oct 10, 2001",
     "sub": "Seven in the same window a year earlier. One open line between the agencies, never hung up."
-   }
+   },
+   "img": "ex_ss17_discredit"
   },
   {
    "id": "coda1",

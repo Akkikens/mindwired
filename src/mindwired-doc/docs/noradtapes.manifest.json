@@ -1,0 +1,374 @@
+{
+ "durations": {
+  "h1": 12.748,
+  "h2": 8.829,
+  "h2a": 14.0,
+  "h3": 5.251,
+  "h3a": 9.0,
+  "h4": 11.729,
+  "h5": 6.531,
+  "h6": 9.561,
+  "h7": 10.606,
+  "h8": 5.721,
+  "h9": 9.091,
+  "h10": 15.647,
+  "sting": 2.038,
+  "title": 2.691,
+  "a1_ch": 7.158,
+  "a1_2": 8.673,
+  "a1_3": 17.241,
+  "a1_5": 24.607,
+  "a1_7": 7.079,
+  "a1_8": 3.553,
+  "a1_9": 18.286,
+  "a2_ch": 4.833,
+  "a2_1": 22.988,
+  "a2_4": 11.886,
+  "a2_6": 8.673,
+  "a2_7": 10.606,
+  "a2_8": 12.748,
+  "a2_9": 18.756,
+  "a2_9a": 42.0,
+  "a2_13": 18.599,
+  "a2_15": 9.718,
+  "a2_16": 11.546,
+  "a2_17": 8.594,
+  "a2_17a": 22.0,
+  "a2_18": 12.278,
+  "a2_19": 11.389,
+  "a2_21": 13.166,
+  "a2_22": 4.598,
+  "a2_23": 12.121,
+  "a2_25": 4.441,
+  "a2_27": 11.546,
+  "a2_28": 8.829,
+  "a3_ch": 3.004,
+  "a3_1": 25.626,
+  "a3_5": 16.039,
+  "a3_7": 20.846,
+  "a3_10": 13.401,
+  "a3_11": 15.961,
+  "a3_12": 6.844,
+  "a3_13": 10.919,
+  "a3_14": 4.754,
+  "a3_17": 11.807,
+  "a3_19": 20.114,
+  "a4_ch": 5.251,
+  "a4_1": 11.807,
+  "a4_2": 24.111,
+  "a4_4": 13.871,
+  "a4_7": 15.229,
+  "a4_9": 18.129,
+  "a4_11": 14.446,
+  "a4_12": 15.308,
+  "a4_14": 10.684,
+  "a4_15": 4.911,
+  "a4_16": 4.284,
+  "a4_19": 13.636,
+  "a5_ch": 13.949,
+  "a5_3": 16.509,
+  "a5_4": 3.239,
+  "a5_5": 2.116,
+  "a5_6": 3.631,
+  "a5_7": 2.273,
+  "a5_8": 16.039,
+  "a5_9": 16.588,
+  "a5_11": 10.684,
+  "a5_13": 28.029,
+  "a5_15": 28.682,
+  "a5_18": 32.601,
+  "a5_19": 15.308,
+  "a5_20": 24.268,
+  "a5_23": 15.569,
+  "a6_ch": 5.721,
+  "a6_1": 22.596,
+  "a6_3": 14.446,
+  "a6_4": 29.074,
+  "a6_5": 16.196,
+  "a6_6": 17.162,
+  "a6_7": 28.918,
+  "a6_9": 20.114,
+  "a6_10": 20.846,
+  "a6_15": 21.473,
+  "a7_ch": 10.841,
+  "a7_1": 31.164,
+  "a7_4": 25.313,
+  "a7_6": 17.946,
+  "a7_7": 15.151,
+  "a7_8": 8.438,
+  "a7_9": 16.118,
+  "a7_11": 17.319,
+  "a7_12": 9.561,
+  "a7_13": 14.916,
+  "a7_14": 13.009,
+  "a7_15": 17.868,
+  "a7_16": 8.359,
+  "a8_ch": 7.811,
+  "a8_1": 15.647,
+  "a8_2": 12.748,
+  "a8_3": 16.849,
+  "a8_4": 14.367,
+  "a8_5": 10.371,
+  "a8_6": 10.606,
+  "a8_7": 13.009,
+  "a8_8": 19.331,
+  "a8_9": 10.919,
+  "a8_10": 21.394,
+  "a8_13": 22.126,
+  "a8_14": 12.513,
+  "a8_16": 15.308,
+  "a8_17": 21.002,
+  "coda1": 22.204,
+  "coda2": 13.087,
+  "coda3": 19.148,
+  "coda4": 15.726,
+  "bridge": 16.771
+ },
+ "images": {
+  "aa11_767": [
+   "aa11_767_1.jpg"
+  ],
+  "atc_scope_archival": [
+   "atc_scope_archival_1.jpg"
+  ],
+  "atlantic_city_angb": [
+   "atlantic_city_angb_1.jpg",
+   "atlantic_city_angb_2.jpg",
+   "atlantic_city_angb_3.jpg"
+  ],
+  "commission_hearing": [
+   "commission_hearing_1.png"
+  ],
+  "dot_headquarters": [
+   "dot_headquarters_1.jpg",
+   "dot_headquarters_2.png"
+  ],
+  "ex_cr_andrews": [
+   "ex_cr_andrews_1.png"
+  ],
+  "ex_cr_langley_east": [
+   "ex_cr_langley_east_1.png"
+  ],
+  "ex_cr_n334aa": [
+   "ex_cr_n334aa_1.png"
+  ],
+  "ex_cr_note120": [
+   "ex_cr_note120_1.png"
+  ],
+  "ex_cr_vp_mistaken": [
+   "ex_cr_vp_mistaken_1.png"
+  ],
+  "ex_foia-1": [
+   "ex_foia-1.png"
+  ],
+  "ex_foia-2": [
+   "ex_foia-2.png"
+  ],
+  "ex_foia_filelist": [
+   "ex_foia_filelist_1.png"
+  ],
+  "ex_foia_letter": [
+   "ex_foia_letter_1.png"
+  ],
+  "ex_ss17_conflicting": [
+   "ex_ss17_conflicting_1.png"
+  ],
+  "ex_ss17_discredit": [
+   "ex_ss17_discredit_1.png"
+  ],
+  "ex_ss17_firstcall": [
+   "ex_ss17_firstcall_1.png"
+  ],
+  "ex_ss17_negative_clearance": [
+   "ex_ss17_negative_clearance_1.png"
+  ],
+  "ex_ss17_p1-01": [
+   "ex_ss17_p1-01.png"
+  ],
+  "ex_ss17_p12-12": [
+   "ex_ss17_p12-12.png"
+  ],
+  "ex_ss17_p18-18": [
+   "ex_ss17_p18-18.png"
+  ],
+  "ex_ss17_p19-19": [
+   "ex_ss17_p19-19.png"
+  ],
+  "ex_ss17_p3-03": [
+   "ex_ss17_p3-03.png"
+  ],
+  "ex_ss17_p5-05": [
+   "ex_ss17_p5-05.png"
+  ],
+  "ex_ss17_phantom_source": [
+   "ex_ss17_phantom_source_1.png"
+  ],
+  "ex_ss17_presumptions": [
+   "ex_ss17_presumptions_1.png"
+  ],
+  "ex_ss17_protocols": [
+   "ex_ss17_protocols_1.png"
+  ],
+  "flight93_memorial": [
+   "flight93_memorial_1.jpg"
+  ],
+  "heather_penney": [
+   "heather_penney_1.jpg"
+  ],
+  "john_farmer": [
+   "john_farmer_1.png"
+  ],
+  "marr_email": [
+   "marr_email_1.png"
+  ],
+  "new_york_center": [
+   "new_york_center_1.png"
+  ],
+  "norad_release_timeline": [
+   "norad_release_timeline_1.png"
+  ],
+  "otis_f15": [
+   "otis_f15_1.jpg"
+  ],
+  "pentagon_aerial_2001_dod": [
+   "pentagon_aerial_2001_dod_1.jpg"
+  ],
+  "referral_letter": [
+   "referral_letter_1.png"
+  ],
+  "shanksville_field": [
+   "shanksville_field_1.jpg"
+  ],
+  "wtc_north_tower": [
+   "wtc_north_tower_2.jpg"
+  ],
+  "wtc_towers_burning_fema": [
+   "wtc_towers_burning_fema_2.jpg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.96,
+ "polish": true,
+ "mouth": {},
+ "texthash": {
+  "h1": "85f93b23ab7dbc40",
+  "h2": "586039e4335305ea",
+  "h3": "45b7f45459a48ba2",
+  "h4": "c9dafd7aaade9acf",
+  "h5": "fff1767b292dece6",
+  "h6": "8daa2f90a970ccd0",
+  "h7": "9720f377f1397042",
+  "h8": "9a7deee1da8651c7",
+  "h9": "37cf6dae4b2c2d1a",
+  "h10": "1f6503fe09c0d00f",
+  "sting": "58471da16918ee6c",
+  "title": "8ec8db8934794baa",
+  "a1_ch": "24fdc6ec194d626f",
+  "a1_2": "70068f62b4dd041f",
+  "a1_3": "150be561ef318a9c",
+  "a1_5": "1ad39a7664853dbc",
+  "a1_7": "f9a039998066c484",
+  "a1_8": "f5f162e71f8ec3d0",
+  "a1_9": "35502fa57a5d8df2",
+  "a2_ch": "61e7f00637bf9b53",
+  "a2_1": "b583299a42404565",
+  "a2_4": "129c754ef46bbab9",
+  "a2_6": "23123aa350bc731d",
+  "a2_7": "12bbf542b57c5f1d",
+  "a2_8": "c613492733077556",
+  "a2_9": "eb31dc4e1f40fced",
+  "a2_13": "76ef03a668748070",
+  "a2_15": "22055babb841f26b",
+  "a2_16": "bef2104dac23a8f1",
+  "a2_17": "e57d9d30ba43610b",
+  "a2_18": "62c3c1821725d5e0",
+  "a2_19": "b5a62dcf9a464df9",
+  "a2_21": "7fe8038ad40adf66",
+  "a2_22": "f53607acdfa1d969",
+  "a2_23": "dd88d93d945717f6",
+  "a2_25": "c95ef0c13233b92a",
+  "a2_27": "54beae40fa4e9ac6",
+  "a2_28": "8c1c8371d68e40de",
+  "a3_ch": "ddbd2ca7b4463476",
+  "a3_1": "f3d4a816202df4db",
+  "a3_5": "11905d41c9d46734",
+  "a3_7": "9df2da2093d14577",
+  "a3_10": "b2a956c80e1fdf97",
+  "a3_11": "263c49cd5467b25f",
+  "a3_12": "3b81b0d82214e8d6",
+  "a3_13": "7acbaa5eb98e0dda",
+  "a3_14": "723cd483fd3f037b",
+  "a3_17": "1a362b80f73b875c",
+  "a3_19": "558b0df9f97145f4",
+  "a4_ch": "4eed7700cefa784b",
+  "a4_1": "2ace15ec2e814634",
+  "a4_2": "e897baa59faff48e",
+  "a4_4": "f73b7a8766faa6cf",
+  "a4_7": "68c90cb82e5fa1d9",
+  "a4_9": "8072976d50bb003a",
+  "a4_11": "03e7b915608d7c6e",
+  "a4_12": "c027056089282325",
+  "a4_14": "e03fc05ed2efeed4",
+  "a4_15": "ef98af4a0a9cb9de",
+  "a4_16": "e583b728d853335f",
+  "a4_19": "4b09439aaba37964",
+  "a5_ch": "246ffab4bee75067",
+  "a5_3": "c008e0578295e4ac",
+  "a5_4": "93ff2434605588e0",
+  "a5_5": "d050321e259253fa",
+  "a5_6": "27ebe4d5a17aed3b",
+  "a5_7": "fe106b2b024f47a8",
+  "a5_8": "9d910415ad3c18f6",
+  "a5_9": "1c59ad371d1a3441",
+  "a5_11": "cff33946fe8792d1",
+  "a5_13": "1160a63b21c0678b",
+  "a5_15": "eb4d8d78b0a5812e",
+  "a5_18": "97459ddbe4c39e1b",
+  "a5_19": "1774406cb3ac2592",
+  "a5_20": "51769e2868be033a",
+  "a5_23": "bff3ca719b1d2870",
+  "a6_ch": "59fe4e7fe60914a9",
+  "a6_1": "06b79dad004ac806",
+  "a6_3": "d50227b3412ea0b2",
+  "a6_4": "52cc09d52582c774",
+  "a6_5": "b38a4620f4052982",
+  "a6_6": "a624710f9cf06402",
+  "a6_7": "9f3bbacadfed1242",
+  "a6_9": "632e2180abb9c834",
+  "a6_10": "2589f8f2e192a70b",
+  "a6_15": "3eef6e68d186e1f6",
+  "a7_ch": "e6885277d27cda10",
+  "a7_1": "a2ced78b06543bc9",
+  "a7_4": "749d95560a7d8b03",
+  "a7_6": "81f114cadd057471",
+  "a7_7": "50b2c91df7f90547",
+  "a7_8": "a42c96934c856c2a",
+  "a7_9": "69a72b473fe08cd6",
+  "a7_11": "c691d8e01f3c3c95",
+  "a7_12": "feca1176ba53f960",
+  "a7_13": "c53c885afa681ebe",
+  "a7_14": "a35b0f03e710c204",
+  "a7_15": "9e962ab3c31b35f5",
+  "a7_16": "7df3541dd1ab4459",
+  "a8_ch": "28eaa63c22f0877e",
+  "a8_1": "0b113bb7b59211ed",
+  "a8_2": "0ca1d73a409be26f",
+  "a8_3": "53c9c97a0e15b16f",
+  "a8_4": "bd8401b106710725",
+  "a8_5": "cf3da038f8631b9b",
+  "a8_6": "b6d7f58b590cc51a",
+  "a8_7": "22079d2d8e9db874",
+  "a8_8": "86db8134e24eef83",
+  "a8_9": "87e74bab2e8c0f63",
+  "a8_10": "db31e7cd8b072b5a",
+  "a8_13": "c74a74123fce5f19",
+  "a8_14": "ea84d1ada377fb7b",
+  "a8_16": "093da35e08a94c0b",
+  "a8_17": "fca3e13980bd3057",
+  "coda1": "30b96b70c9d8afb2",
+  "coda2": "cfa2ff3ee4a45b89",
+  "coda3": "794e84705a095a8f",
+  "coda4": "487af37f341ac3bd",
+  "bridge": "7f40402e7c122c18"
+ }
+}
