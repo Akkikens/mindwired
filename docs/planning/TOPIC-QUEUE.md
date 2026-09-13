@@ -1,6 +1,66 @@
 # Topic queue (Akshay, 2026-07-12 — from YT Studio "Inspiration")
 
-## ⭐⭐ thegrounding (Black Box Breakdown) — validated 2026-09-13, PASS, next episode
+## ⭐ apollo1 (mindwired) — validated 2026-09-13, PASS with a currency caveat, in production
+
+**The Apollo 1 fire, 27 January 1967** — told as the investigation, not as a tragedy
+compilation. Akshay picked it off the sweep; it is the highest ratio in any sweep run this
+session.
+
+### Steps 1-2 — the sweep (live yt-dlp, 2026-09-13)
+
+| Ratio | Views / subs | Date | Video |
+|---|---|---|---|
+| **1,332:1** | 673,015 / 505 | 2022-03 | "Got a fire in the cockpit!" — Epic Factx |
+| **273:1** | 368,865 / 1,350 | 2024-03 | The Apollo 1 Tragedy — Forgotten Fables |
+| **100.6:1** | **1,469,158 / 14,600** | 2021-08 | The Horrible Apollo 1 Disaster |
+| 15.2:1 | 910,029 / 59,700 | 2016 | Apollo 1 Audio — 27 January 1967 |
+
+**Ceiling proof: 1.47M views on a 14,600-sub channel.** The subject scales without an
+audience behind it, which is exactly this channel's situation.
+
+**⚠ TWO HONEST CAVEATS, recorded so nobody re-reads this entry as a clean PASS:**
+1. **The two highest ratios are movie clips.** 1,573:1 and 225:1 are both the Apollo 1
+   scene from *First Man* (2018). That is demand for a dramatised scene, not for an
+   explainer — and the footage is Universal's, so it is doubly useless to us. Discount them.
+2. **Currency is THIN.** The genuine big numbers are 2021-2024. The freshest Apollo-1
+   uploads are small: 123 views (Aug 2026), 8,273 (Nov 2025), 32,183 (Sep 2025). Compare
+   the deep-ocean lane swept the same day — 4.0M in March 2026, 2.7M in March 2026, 900K in
+   April 2026, all on small channels. **Deep ocean has the fresher wave; Apollo 1 has the
+   better evidence moat.** We chose the moat. If this underperforms, that trade is the
+   first thing to re-examine.
+
+### Step 3 — recognition: 3/3
+Apollo is a household name; the fire is the famous one. Mainstream footprint total
+(*First Man* put it in cinemas in 2018). Alive: weaker than the ratio suggests — see
+caveat 2.
+
+### ⛔ THE FRAMING CONSTRAINT — this is the whole bet
+The generic astronaut-death compilation lane is **saturated and dying**: "Every Astronaut
+Death Explained in 14 Minutes" (Jul 2026) did 2,895 views; "10 Most Horrifying Astronaut
+Deaths" (Aug 2026) did 1,006. **Do not make that video.** This episode is the
+*investigation*: what the Apollo 204 Review Board found, and the specific decisions that
+turned a test nobody classified as hazardous into something nobody could survive — a hatch
+that opened inward against internal pressure, a cabin of pure oxygen above sea-level
+pressure, and the wiring underneath.
+
+This also matches what wins in the lane mindwired keeps losing. Its own ocean video
+("Why the Mariana Trench Still Terrifies Scientists") did 197 views while the winners
+promise a found thing: *What They Found In The Deepest Place On Earth*. **Promise a
+payload, never a mood.**
+
+### Step 4 — sensitivity gate: FIRES
+Three men died by fire. Their families are living. The cockpit audio circulates widely and
+**this channel's rules bar victim audio** — the research scout is reporting on what exists
+with a recommendation, and the default is NOT to use it. Thomas Baron's report, testimony
+and death days later is where this subject turns conspiratorial; the script states what is
+documented and stops.
+
+### Channel: mindwired
+Space, and the death/disaster spine that produced the channel's one hit. Note the counter-
+evidence: mindwired's existing Apollo videos underperformed ("The Death Speech NASA Hoped
+You'd Never Hear" — 438 views), which the framing constraint above is meant to address.
+
+## ✅ RENDERED 2026-09-13 — thegrounding (Black Box) — master verified, metadata written, awaiting thumbnails + SRT
 
 **The day America landed every plane.** The FAA's national ground stop of 11 September
 2001 — every civil aircraft over the United States ordered down at 9:42 a.m., executed in
