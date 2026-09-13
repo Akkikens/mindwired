@@ -15,6 +15,46 @@ proceeds; no-human-available records BLOCKED-ON-DATA and proceeds.
 | Black Box Breakdown | TBD (observed de-facto: near-daily, mornings — Akshay to confirm a fixed slot or bless the daily cadence) |
 | mindwired | TBD (same observation) |
 
+## BACKLOG CLEARED — 2026-09-13 (Akshay published everything)
+
+The rendered-but-unpublished backlog the 2026-08 audit flagged is gone. Five uploads
+verified live via yt-dlp on 2026-09-13:
+
+| Date | Channel | Title as published | URL | Runtime |
+|---|---|---|---|---|
+| Sep 13 | Black Box | The Tapes That Broke NORAD's 9/11 Story | kl_rTye4ocA | 31:50 |
+| Sep 13 | mindwired | 8 People Sealed In. The Oxygen Kept Vanishing. | --sTmQzJtBk | 37:53 |
+| Sep 10 | Black Box | The 9/11 Air Files New York Kept Sealed for 25 Years | nPDC2r_m6ec | 16:42 |
+| Sep 8 | mindwired | Nobody Has Ever Seen a Full-Grown Colossal Squid | N1ZlQpP5be4 | 35:40 |
+| Aug 31 | mindwired | Project Hail Mary's Science Is More Real Than You Think | D9E-Opwl_HQ | 11:32 |
+
+**Packaging notes for the A/B record:**
+- `noradtapes` shipped on the **alternate** title ("The Tapes That Broke NORAD's 9/11
+  Story", ctr-engine 8.50) rather than the locked primary ("We Have Some Planes." Nobody
+  Knew What It Meant, 9.00). Worth watching: the primary led on the quote and withheld the
+  subject; the shipped title leads on the institution and states the conflict. If this one
+  underperforms the channel's 9/11 baseline, the title is the first variable to test, not
+  the thumbnail.
+- `biosphere2` shipped on its locked primary title, unchanged.
+- `groundzeroair` and `projecthailmary` both shipped on retitles.
+
+**DIAGNOSIS DUE 2026-09-15** for `noradtapes` (kl_rTye4ocA) and `biosphere2` (--sTmQzJtBk)
+— 48h. Akshay to paste Studio numbers: impressions, impressions CTR, average view duration
+and average % viewed, the 0-60s curve shape, and the Test & Compare state. **Compare
+against MH370 (kRjhzp4Ho9k) for Black Box and the channel's own best for mindwired** — never
+against universal benchmarks.
+
+**DIAGNOSIS OWED, now overdue:** `groundzeroair` (Sep 10, 96 views at 3 days),
+`colossalsquid` (Sep 8, 75 views at 5 days), `projecthailmary` (Aug 31, 164 views at 13
+days). All three are well past 48h. Those numbers are low against the channel's 9/11
+performers, and the loop cannot tell us why without impressions data — a small pool means
+topic demand, a healthy pool with low CTR means packaging. **Get the Studio numbers before
+picking the next topic;** icahn-validate Step 0 is meant to block on exactly this.
+
+**The live comparison this sets up:** two 9/11 episodes published three days apart on the
+same channel, into the same 25th-anniversary wave, with different packaging. That is the
+cleanest natural experiment this channel has ever had. Read it at 48h.
+
 ## WAVE SIGNAL + PARTIAL DIAGNOSIS — 2026-09-12 (Black Box Breakdown, 9/11 cluster)
 
 Akshay flagged both 9/11 uploads surging. **Verified live via yt-dlp, not memory**

@@ -44,22 +44,26 @@ House Style 2.0: zero text, one focal element, dark ground, real archival asset.
 
 > Run Test & Compare on all three. Decide on **watch-time share**, not CTR eyeballing.
 
-## CHAPTERS (from `gen_doc_srt.py`; verify against the master before pasting)
+## CHAPTERS — ✅ VERIFIED AGAINST THE MASTER (2026-09-13)
 ```
 00:00 The transmission nobody understood
-02:19 1 - The plan assumed the pilot would call
-03:53 2 - Nine minutes
-08:59 3 - The second plane heard the first
-11:40 4 - The fighters flew the wrong way
-14:26 5 - The order that came twenty-eight minutes late
-18:32 6 - Somebody cut it into pieces
-22:00 7 - A plane that did not exist
-25:41 8 - Nobody was charged
+02:20 1 - The plan assumed the pilot would call
+03:55 2 - Nine minutes
+09:03 3 - The second plane heard the first
+11:52 4 - The fighters flew the wrong way
+14:44 5 - The order that came twenty-eight minutes late
+18:51 6 - Somebody cut it into pieces
+22:19 7 - A plane that did not exist
+26:00 8 - Nobody was charged
 ```
-First chapter at 0:00, every gap ≥10s, plain hyphens only. The 02:15 title card is folded
-into chapter 1. **⚠ `gen_doc_srt.py` drifted up to 85 seconds on colossalsquid** (any
-episode using `extraHold`) — this episode uses extraHold on the four real-audio scenes, so
-**eyeball these against the finished master** before paste.
+First chapter at 0:00, every gap >=10s, plain hyphens only. The 02:16 title card is folded
+into chapter 1.
+
+**These are NOT `gen_doc_srt.py`'s numbers — that tool drifted up to 19 seconds on this
+episode** (the known extraHold bug, same as colossalsquid). These were computed directly
+from the manifest via `scripts/lib/doctiming.py`, which totals 31:34 and matches the
+master's body exactly (1910.3s master - 16.1s outro). Spot-checked on the render: the
+"twenty-eight minutes late" card lands at 14:46 and "Nobody was charged" at 26:02.
 
 ## DESCRIPTION (English only)
 At 8:24 and 38 seconds on the morning of September 11, 2001, a hijacker aboard American
