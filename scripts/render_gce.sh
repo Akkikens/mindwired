@@ -67,6 +67,17 @@ cleanup() {
     gcloud compute instances stop "$NAME" --zone "$ZONE" --quiet 2>/dev/null || true
     return
   fi
+  if [ "${VM_CONFIRMED_GONE:-0}" != "1" ] && [ "$RENDER_DONE" != "1" ] && [ "${RENDER_STARTED:-0}" = "1" ]; then
+    # We are exiting before the render reported DONE. If we never actually
+    # confirmed the instance was gone, deleting here destroys work in progress.
+    echo "[gce] NOT deleting ${NAME} — exiting with a render in flight and no confirmation it died."
+    echo "[gce] check it:    gcloud compute instances describe ${NAME} --zone ${ZONE} --format='value(status)'"
+    echo "[gce] follow it:   gcloud compute ssh ${NAME} --zone ${ZONE} --tunnel-through-iap --command 'tail -3 ~/${REMOTE}/out/render.log'"
+    echo "[gce] then fetch:  gcloud compute scp ${NAME}:~/${REMOTE}/out/${SLUG}.mp4 out/${SLUG}_gce.mp4 --zone ${ZONE}"
+    echo "[gce] and delete:  gcloud compute instances delete ${NAME} --zone ${ZONE}"
+    echo "[gce] (it self-deletes after --max-run-duration regardless, so it cannot bill forever.)"
+    return
+  fi
   echo "[gce] deleting VM ${NAME}…"
   gcloud compute instances delete "$NAME" --zone "$ZONE" --quiet 2>/dev/null || true
 }
@@ -89,7 +100,13 @@ if [ "${GCE_SPOT:-0}" = "1" ]; then
   PROVISION=(--provisioning-model=SPOT --instance-termination-action=DELETE)
   MODE=spot
 else
-  PROVISION=(--provisioning-model=STANDARD)
+  # Self-destruct ceiling (2026-09-13): the local EXIT trap used to be the ONLY
+  # thing that deleted a VM, and the service account has no compute scope so the
+  # box cannot delete itself. A dead laptop or a killed session therefore billed
+  # a 32-vCPU machine indefinitely. Now GCE terminates it regardless.
+  PROVISION=(--provisioning-model=STANDARD
+             --max-run-duration="${GCE_MAX_RUN_HOURS:-6}h"
+             --instance-termination-action=DELETE)
   MODE=on-demand
 fi
 CANDIDATES=(
@@ -201,12 +218,27 @@ gcloud compute ssh "$NAME" --zone "$ZONE" --command "
   echo started
 "
 
+RENDER_STARTED=1
 echo "[gce] render running — polling every 2 min…"
 while true; do
   sleep 120
-  if ! gcloud compute instances describe "$NAME" --zone "$ZONE" --format="value(status)" >/dev/null 2>&1; then
-    echo "[gce] VM GONE — spot instance was preempted mid-render. Just re-run (default is now on-demand; you had GCE_SPOT=1)."
-    exit 2
+  # Distinguish "the instance is gone" from "we could not ask" (2026-09-13).
+  # Expired gcloud credentials made describe fail, the poller called that a spot
+  # preemption on a VM that was never spot and never gone, and exit 2 fired the
+  # EXIT trap — which tried to DELETE a healthy render sitting at 56%. Only a
+  # real not-found counts as gone; anything else is transient and we keep polling.
+  VM_ERR=$(gcloud compute instances describe "$NAME" --zone "$ZONE" \
+             --format="value(status)" 2>&1 >/dev/null)
+  VM_RC=$?
+  if [ $VM_RC -ne 0 ]; then
+    if echo "$VM_ERR" | grep -qiE "was not found|404|does not exist"; then
+      echo "[gce] VM GONE — instance no longer exists (preemption, or deleted elsewhere)."
+      VM_CONFIRMED_GONE=1
+      exit 2
+    fi
+    echo "[gce] WARN cannot query instance state — NOT assuming anything: ${VM_ERR%%$'\n'*}"
+    echo "[gce]      (expired credentials? run: gcloud auth login — the render keeps going without us)"
+    continue
   fi
   STATUS=$(gcloud compute ssh "$NAME" --zone "$ZONE" --command "
     if grep -q -- '-> out/${SLUG}.mp4' $REMOTE/out/render.log 2>/dev/null; then echo DONE;
