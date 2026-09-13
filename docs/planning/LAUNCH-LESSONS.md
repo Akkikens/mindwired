@@ -15,6 +15,39 @@ proceeds; no-human-available records BLOCKED-ON-DATA and proceeds.
 | Black Box Breakdown | TBD (observed de-facto: near-daily, mornings — Akshay to confirm a fixed slot or bless the daily cadence) |
 | mindwired | TBD (same observation) |
 
+## WAVE SIGNAL + PARTIAL DIAGNOSIS — 2026-09-12 (Black Box Breakdown, 9/11 cluster)
+
+Akshay flagged both 9/11 uploads surging. **Verified live via yt-dlp, not memory**
+(public counts only — no Studio access this session):
+
+| Video | Published | Views @ 2026-09-12 | Prior reading |
+|---|---|---|---|
+| DISAPPEARING of Malaysia Airlines Flight 370 | Jul 18 | 40,488 | channel best |
+| What the Cockpit Recorder on United 93 Actually Captured (wsFhuwUjg_4) | Jul 27 | **9,245** (123 likes / 27 cmts) | 641 @ Aug 3 |
+| FIRE Took Down a 47-Story BUILDING 7 (wp8t2gOKYyE) | Aug 4 | **8,913** (85 likes / 92 cmts) | 4,183 @ Sep 9 |
+| next best long-form (MH370 Every Theory) | Jul 20 | 2,765 | — |
+
+**Lesson banked: the 25th-anniversary wave re-activated two old uploads with no
+re-promotion.** Building 7 gained ~4,700 views in three days; United 93 is up ~14x in
+five weeks. Every other long-form on the channel sits at or below 2,765. This is the
+wave-calendar rule proving itself from the inside: on a giant-name subject, the
+impressions pool is handed out by the *subject's* live demand, and an upload that
+already exists gets re-tested when the wave arrives. Two consequences:
+1. **Ride it now.** `noradtapes` validated the same day and is queued as the next
+   episode (TOPIC-QUEUE.md, top) — the tail of a 25th anniversary is worth more than a
+   cold week on a mid-tier topic.
+2. **Maintain the wave calendar properly.** These two videos landed their wave by
+   accident, six weeks early. The next giant-name episode should land 2-4 weeks BEFORE
+   its date, deliberately.
+
+**BLOCKED-ON-DATA for the real diagnosis:** no impressions, CTR, AVD or retention-curve
+numbers this session, and no Test & Compare state. Per Step 0 escape hatch (c), recorded
+and proceeding with validation. **Still owed from Akshay, for both videos plus MH370 as
+the comparable:** days live, impressions, impressions CTR, average view duration + average
+% viewed, the 0-60s curve shape, and which thumbnail variant is winning on watch-time
+share. Without those we cannot tell whether the surge is a bigger pool (topic demand) or
+a better CTR on the same pool (packaging) — and that answer changes what we do next.
+
 ## BLOCKED-ON-DATA — 2026-09-09
 
 Validating `groundzeroair` (Ground Zero air-quality records, Black Box) two days

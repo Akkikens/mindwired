@@ -1,5 +1,184 @@
 # Topic queue (Akshay, 2026-07-12 — from YT Studio "Inspiration")
 
+## ⭐⭐ noradtapes (Black Box Breakdown) — validated 2026-09-12, NEXT EPISODE, ship fast
+
+**"We Have Some Planes." Nobody Knew What It Meant.** — the 34 minutes of 9/11 air
+defense, told entirely through the recordings: the FAA/Boston Center tapes and the
+22-channel NEADS (Northeast Air Defense Sector) audio that the 9/11 Commission had to
+subpoena, and which contradicted the NORAD timeline that had stood publicly for two
+years. This is the Evidence Engine's home turf — the tape IS the episode.
+
+**Why now, and why this one:** Akshay's Studio read 2026-09-12 — the channel's two 9/11
+uploads are the #2 and #3 videos on the channel and both are SURGING on the 25th-
+anniversary wave (verified live via yt-dlp, not memory):
+
+| Video | Published | Views 2026-09-12 | Prior snapshot |
+|---|---|---|---|
+| MH370 (DISAPPEARING of…) | Jul 18 | 40,488 | channel best |
+| United 93 cockpit recorder | Jul 27 | **9,245** | 641 @ Aug 3 |
+| Building 7 | Aug 4 | **8,913** | 4,183 @ Sep 9 |
+| every other long-form | — | ≤ 2,765 | — |
+
+Building 7 added ~4,700 views in three days. United 93 is up ~14x since Aug 3. Nothing
+was re-promoted — that is pure anniversary-wave demand, and the wave is live RIGHT NOW
+(Sept 11 2026 = the 25th anniversary, one day ago).
+
+### Step 1-2 — outlier sweep (live yt-dlp, 2026-09-12; 7 topic sweeps, ~390 videos)
+
+The ATC/NORAD-tape cluster is the strongest evidence set this channel has ever
+validated — multiple EXTREME (100:1+) outliers with large absolute views:
+
+| Ratio | Views / subs | Date | Channel | Video |
+|---|---|---|---|---|
+| **733.9:1** | 17,100,021 / 23,300 | 2022-10-27 | Christian Koller | 9/11 attacks in realtime (dashboard) 7:46am-12:00pm |
+| **516.2:1** | 732,943 / 1,420 | 2020-09-21 | blind0x | 9/11: Cleared for Chaos |
+| **470.6:1** | 14,588 / 31 | 2026-03-26 | Bill S | Original Documentary 9/11: CLEARED FOR CHAOS |
+| **447.1:1** | 554,462 / 1,240 | 2021-05-20 | Jake Zelman | 9/11: Voices of the Aircraft Dispatchers |
+| **243.1:1** | 960,265 / 3,950 | 2022-06-05 | 9/11 ATC Transmissions | Kennedy Tower ATC Recording from September 11, 2001 |
+| **213.6:1** | 1,766,536 / 8,270 | **2026-02-05** | Aaron Atlases | How 9/11 Affected America's Airspace |
+| **189.8:1** | 432,824 / 2,280 | 2024-11-21 | CHANGES | What Happened Inside the Flight 11 Plane |
+| **170.2:1** | 1,422,716 / 8,360 | 2019-08-20 | David Von Pein #3 | 9/11/2001 AVIATION AUDIO TRANSMISSIONS (ATC, FAA, NORAD) |
+| **141.3:1** | 1,567,999 / 11,100 | 2013-01-28 | cjnewson88 | 9/11 The Lost Tapes — NEADS NORAD FAA TAPES |
+| 68.5:1 | 685,257 / 10,000 | 2012-10-01 | Nevermind Productions | NBC — The Air Traffic Controllers of 9/11 |
+
+**Ceiling proof (1M+ on the exact subject):** WMUR-TV "FAA recordings from the morning of
+Sept. 11" **3,737,936**; Smithsonian NASM "September 11: FAA Closure of US Airspace"
+**3,580,867**; cjnewson88 1.57M; David Von Pein 1.42M; IPhoneConservative "September 11th
+Audio Tapes" 1.02M. Koller's 17.1M realtime dashboard is the true ceiling and it is
+*nothing but the audio and a clock* — the demand is for the tape itself.
+
+**Freshness — the one weakness, and it clears.** Most of the tape cluster is 2019-2022.
+But Aaron Atlases (213.6:1) is 2026-02, and the whole 9/11 field is visibly alive this
+week: SmartHER News "A 9/11 Survivor Finally Shares the Story She Kept Private for 25
+Years" did **5,778,244 views in 2 days** (2026-09-10, 78.1K subs = 74:1); Historium TV's
+"Inside the Twin Towers on 9/11" did **124,524 in 3 days** on 498 subs (250:1, 2026-09-09);
+Kalitta Air's grounding story 160,917 on 2,330 subs (69:1, 2026-09-11). Saturation is NOT
+the rogue-planets pattern: fresh uploads are *pulling*, not dying.
+
+### Step 3 — recognition: **3/3, giant-name class**
+Name test: 9/11 — the highest-recognition subject on earth, no explanation needed.
+Mainstream footprint: total. Alive right now: the 25th anniversary wave is peaking this
+week and the channel's own two 9/11 videos are riding it. **Currency (Q4): STRONG** — not
+a closed story: the tapes' contradiction of the NORAD account is still argued, and the
+anniversary is the live trigger.
+
+**Ceiling class: giant-name.** Per the wave-calendar rule this should have shipped 2-4
+weeks BEFORE Sept 11. We are one day after the peak — the tail is still worth riding, but
+**speed is the whole play**: every week of delay costs pool.
+
+### Step 4 — sensitivity gate: FIRES (hard)
+Mass-casualty terrorism; living people throughout (the NEADS controllers, Col. Robert
+Marr, Maj. Kevin Nasypany, Heather Penney, Marc Sasseville, John Farmer). Conditions
+inherited by the script, all precedented by CLAIMS-flight93.md:
+- **The NORAD-timeline contradiction is stated as what it is: the Commission's finding
+  that the accounts were inaccurate.** John Farmer's characterisation ("at some level of
+  the government… there was an agreement not to tell the truth") is **attributed to
+  Farmer, never asserted as established fact**, and the Commission's *consideration* of a
+  referral must never be described as a referral, a charge, or a finding of perjury.
+- **Zero conspiracy platforming.** The tapes are the antidote to the "stand-down" myth,
+  not fuel for it — the whole point is that the failure was confusion, not conspiracy.
+  If any conspiracy claim appears it is one capped, attributed-and-rebutted segment, the
+  wtccollapse precedent.
+- **No victim audio.** No Flight 93 CVR (never publicly released), no phone-call audio
+  from victims. Recreations, if any, labeled "RECREATION" per the Evidence Engine rule.
+- Atta's 8:24 transmission is public record and endlessly published — usable.
+- Fact base to be built as `docs/planning/CLAIMS-noradtapes.md` before scripting.
+
+**AUDIO PROBE (2026-09-12): ✅ CLEARED — the spine of the episode is downloadable and
+public domain.** Found on archive.org inside the National Security Archive's 9/11
+collection (`nsia-911` / `nationalsecurityarchive` / `usgovernmentmirrors` /
+`government-documents`), both marked Public Domain Mark 1.0:
+
+- **`NORAD-USNORTHCOM_09_11_01_Tapes_governmentattic.org_Released_Apr_9_2008`** — **the
+  NEADS channel tapes themselves**, FOIA-released via governmentattic.org: **21 MP3s,
+  ~6.6 hours each**, named by operating position — `Channel_2_MCC_Op` (Mission Crew
+  Commander), `Channel_3_MCC_TK`, `Channel_4_ID_Op` / `5_ID_TK` (Identification),
+  `Channel_9/13/17/21_TT_Op` (Tracking Technician), `Channel_19/20_SD2` (Senior
+  Director), `Channel_24_AICC` + `Emerg-AICC`. Plus `NORAD-USNORTHCOM_9-11_Tapes.pdf`
+  (the FOIA release letter — a ready-made ExhibitScene).
+- **`RDOD_NEADS_AUDIO`** — 3.7 GB ZIP, same collections, same PD mark.
+- Primary documents for exhibits: `NARA_9-11_Commission_Records_MFR_Released_*`
+  (the Commission's memoranda for the record) and the NARA Commission record releases.
+
+**Two conditions on that clearance.** (1) The PD Mark is uploader-asserted; the real
+basis is that these are US-government (USAF/NORAD) recordings released under FOIA —
+worth one human confirmation before they carry the cold open, same posture as the NASA
+eClips check on biosphere2. (2) **⛔ The same collection is full of network-broadcast
+material** — CNN, ABC, CBS, FOX, NBC, HBO, PBS, History Channel dubs sitting in a
+folder labelled "government-documents." Those are copyrighted and Content-ID'd; the
+CLAUDE.md ban on news-broadcast footage applies exactly as hard inside this collection
+as outside it. Take the audio and the documents, never the broadcasts.
+
+**Still open: MOTION footage for the first 30s.** `fetch_footage.py --niche briefing`
+was still running at write time with no results yet. Targets: DVIDS/NARA public-domain
+imagery of a 2001-era en-route radar scope or an air-defense sector operations floor,
+and the Smithsonian/FAA material. If no real motion of an ATC/NEADS floor exists free,
+the honest fallback is the tape itself as the visual — waveform/channel-strip treatment
+over the real audio (the Koller 17.1M outlier is literally audio + a clock, so the
+format is proven) — but that must be a deliberate design decision, not a discovery
+after scripting.
+
+### Step 4.5 — LOCKED PACKAGE (ctr-engine Run A, 2026-09-12)
+
+```
+Title: "We Have Some Planes." Nobody Knew What It Meant.        (44 chars)
+  alternates: The Tapes That Broke NORAD's 9/11 Story           (39)
+              The Jets Were Chasing a Plane That Didn't Exist   (47)
+  Scored (curiosity / first-3-words / payoff honesty / mobile length):
+    A  9 / 9 / 10 / 8  = 9.00   ← the real transmission is the cold open; it pays fully
+    B  9 / 8 /  8 / 9  = 8.50
+    C 10 / 7 /  9 / 7  = 8.25
+  All three clear the >=7 kill bar. Rejected for honesty: anything containing "NORAD
+  LIED" or "STAND DOWN" — the Commission found inaccurate accounts, not a proven lie,
+  and the packaging must not assert what the film refuses to assert.
+
+Thumbnail A (primary): a real radar/ATC scope in the dark — green sweep on near-black,
+  one unexplained return. Zero text. Unidentifiable at 170px = the curiosity gap; it is
+  also literally what the controllers were staring at.
+  asset: PROBE PENDING — target DVIDS/NARA/FAA public-domain imagery of a 2001-era
+  en-route radar scope or an air-defense sector operations floor. MUST be probed before
+  the package locks (ctr-engine rule: a concept whose asset isn't verified is not locked).
+Thumbnail B: an unarmed F-16 on a dawn runway — the Penney/Sasseville ram mission.
+  asset: DVIDS F-16 public-domain imagery (abundant, PD as US military work).
+Thumbnail C: reel-to-reel/cassette deck lit hard against black — "the tape."
+  asset: Commons CC BY-SA audio-equipment photography, or Remotion Workflow B still.
+
+Suggested-adjacency (sit next to these, riff never clone):
+  Christian Koller "9/11 attacks in realtime (dashboard)" 17.1M https://youtu.be/zx8_Pumdkpg
+  cjnewson88 "9/11 The Lost Tapes — NEADS NORAD FAA TAPES" 1.57M https://youtu.be/P4Tj4XN6U_w
+  blind0x "9/11: Cleared for Chaos" 732K https://youtu.be/Zqf1mSuyd9w
+  Smithsonian NASM "FAA Closure of US Airspace" 3.58M https://youtu.be/bo1ZtpKqlYw
+
+First-30s handoff: cold open ON THE TAPE — 8:24 a.m., Atta keys the wrong mic and his
+  message to the cabin goes out over Boston Center's frequency instead. Real audio, real
+  timestamp, real motion behind it (radar/ops-floor footage, never a still — the
+  first-30s real-video rule). The controller rewinding it to be sure he heard it is the
+  hook's second beat.
+```
+
+### The spine (why this is not another 9/11 recap)
+The story is an **air-defense forensics story**, which no big channel has told as one:
+1. **8:24** — "We have some planes." Four words nobody in American aviation had a
+   procedure for. The hijack playbook was 30 years old: squawk 7500, talk them down,
+   land somewhere. Every assumption in it was wrong that morning.
+2. **The tapes existed because NEADS records everything on 22 channels** — and nobody
+   asked for them for two years. The Commission subpoenaed them.
+3. **What they contained contradicted the public timeline**: the notification times for
+   Flight 77 and Flight 93 could not have happened as described.
+4. **The jets went the wrong way** — Otis and Langley scrambled toward the ocean, chasing
+   in part a plane that no longer existed (the phantom "Flight 11 still airborne" report).
+5. **Two pilots took off unarmed** intending to ram Flight 93 with their own airframes.
+6. **The fix**: what actually changed in shootdown authority, SCATANA and the ground-stop.
+Closing line lands on the tape, not on a verdict.
+
+### Owed before the script locks
+- `CLAIMS-noradtapes.md` (the flight93 standard: adversarial fact-check + a dedicated
+  ethics pass, since this is mass-casualty terrorism with living named people).
+- Finish the audio/footage licence probe; confirm the exact PD provenance of every
+  transmission used, and secure real MOTION footage for the first 30s.
+- Thumbnail A's asset probe, then build all three as FILES (`out/thumbs/noradtapes_A/B/C.png`).
+
+
 ## ⭐ projecthailmary (mindwired) — validated 2026-08-29, next episode
 **"The Real Science of Project Hail Mary"** — mindwired long-form, science-explainer/
 critique angle (NOT a Booked book-critique episode — format mismatch: PHM is a novel,
