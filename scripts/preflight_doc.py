@@ -419,6 +419,46 @@ def main() -> int:
     if r.returncode != 0:
         block("lint_tts_text hits:\n" + (r.stdout or r.stderr).strip())
 
+    # ── VISUAL MONOTONY GATE (2026-09-13) ──────────────────────────────────
+    # Banked from noradtapes, which shipped with ONE clip carrying 32 of 123
+    # scenes (26% of the film) and 23 scenes sitting back-to-back on the same
+    # asset. Akshay: "i dont want u to repeat same stills same images... cuz
+    # im losing subs cuz we are repeating too much". A doc that reuses two
+    # clips for 40% of its runtime reads as cheap no matter how good the
+    # script is. CLAUDE.md already said to cap pools BEFORE assigning scenes;
+    # this makes it enforceable instead of aspirational.
+    from collections import Counter
+    vis_counts, consec, prev = Counter(), [], None
+    for sc in scenes:
+        v = sc.get("video") or sc.get("img")
+        if not v:
+            prev = None
+            continue
+        vis_counts[v] += 1
+        if v == prev:
+            consec.append(sc["id"])
+        prev = v
+    tot_vis = sum(vis_counts.values())
+    if tot_vis:
+        for asset, n in vis_counts.most_common():
+            share = n / tot_vis
+            if share > 0.12:
+                block(f"visual monotony: '{asset}' carries {n}/{tot_vis} scenes "
+                      f"({share:.0%}) — cap is 12%. Slice the clip into distinct "
+                      f"shots or widen the pool; do not ship one room for a "
+                      f"quarter of the film.")
+            elif share > 0.08:
+                warn(f"visual monotony: '{asset}' carries {n}/{tot_vis} scenes "
+                     f"({share:.0%}) — approaching the 12% cap.")
+        if consec:
+            (block if len(consec) > 4 else warn)(
+                f"visual monotony: {len(consec)} scene(s) repeat the previous "
+                f"scene's visual back-to-back ({', '.join(consec[:8])}"
+                f"{'...' if len(consec) > 8 else ''}) — vary the shot.")
+        if len(vis_counts) < max(12, tot_vis // 6):
+            warn(f"visual monotony: only {len(vis_counts)} distinct visuals across "
+                 f"{tot_vis} scenes — aim for roughly one per six scenes.")
+
     # scene<->visual relevance + cross-video reuse (audit_scene_relevance.py):
     # hook footage recycled from another slug BLOCKS (new video = new hook,
     # 2026-07-19); mismatched/generic/overused visuals warn.
