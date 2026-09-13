@@ -81,7 +81,13 @@ primary FAA source is found.** Say "more than four thousand" until then.
 ### Step 4.5 — LOCKED PACKAGE (ctr-engine Run A, 2026-09-13)
 
 ```
-Title: 4,000 Planes. Two Hours. One Order.                      (34 chars)
+Title: 4,500 Planes Had to Land. There Was No Plan.             (44 chars)
+  ⚠ REVISED 2026-09-13 after research. The original lock was "4,000 Planes. Two
+  Hours. One Order." — the research broke two thirds of it. The sky was not clear
+  until 12:16 p.m., two hours THIRTY-FOUR minutes after the order, and the FAA's
+  own bucket is "within the first three hours"; and the order is contested, because
+  the FAA's institutional timeline credits Mineta at 9:45 while the Commission
+  credits Sliney at 9:42. See CLAIMS-thegrounding.md correction #0.
   alternates: It Was His First Day. He Grounded the Country.     (45)
               America Closed Its Sky. Nobody Had Ever Tried.     (44)
   Scored (curiosity / first-3-words / payoff honesty / mobile length):
