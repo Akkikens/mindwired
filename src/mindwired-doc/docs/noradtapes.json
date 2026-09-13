@@ -1,0 +1,1296 @@
+{
+ "slug": "noradtapes",
+ "title": "\"We Have Some Planes.\" Nobody Knew What It Meant.",
+ "channel": "blackbox",
+ "niche": "history",
+ "language": "en",
+ "voice": "d46abd1d-2d02-43e8-819f-51fb652c1c61",
+ "scenes": [
+  {
+   "id": "h1",
+   "text": "Eight twenty four in the morning, September eleventh, two thousand one. In a dark room in Nashua, New Hampshire, an air traffic controller named Pete Zalewski has called the same airplane twelve times. Nobody has answered.",
+   "video": "wads_opsfloor_dvids873438.mp4",
+   "videoQuery": "air defense sector operations floor dark room radar scopes DVIDS",
+   "stat": "8:24 A.M. · SEPT 11, 2001 · BOSTON CENTER, NASHUA NH",
+   "cap": "Twelve calls. No answer.",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "h2",
+   "text": "Then a voice comes over his frequency. It is not the pilot. It was never meant for him at all. Whoever is holding the microphone in that cockpit has keyed the wrong one.",
+   "video": "radar_room_dvids415647.mp4",
+   "videoQuery": "radar room controllers scopes dark military DVIDS",
+   "cap": "A transmission never meant for the ground.",
+   "tone": "fear"
+  },
+  {
+   "id": "h2a",
+   "text": "[ unintelligible ]",
+   "speaker": "AMERICAN 11 - RECORDED ON THE ATC FREQUENCY",
+   "radioLabel": "ACTUAL FAA ATC RECORDING",
+   "timestamp": "8:24:38 A.M. EDT",
+   "cap": "ACTUAL FAA ATC RECORDING · this is what he heard",
+   "source": "FAA certified re-recording · Boston ARTCC, Sector 46 Radar · 1204-1232 UTC, 11 Sept 2001 · released under FOIA",
+   "video": "radar_room_dvids415647.mp4",
+   "extraHold": 20,
+   "tone": "fear"
+  },
+  {
+   "id": "h3",
+   "text": "He cannot make out the words. The official record says it plainly. He heard something unintelligible.",
+   "video": "wads_opsfloor_dvids873438.mp4",
+   "cap": "\"...something unintelligible.\"",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "h3a",
+   "text": "American eleven, are you trying to call?",
+   "speaker": "BOSTON CENTER, SECTOR 46 RADAR",
+   "radioLabel": "ACTUAL FAA ATC RECORDING",
+   "timestamp": "8:26:09 A.M. EDT",
+   "cap": "ACTUAL FAA ATC RECORDING · calling a plane that will never answer",
+   "source": "FAA certified re-recording · Boston ARTCC, Sector 46 Radar · 1204-1232 UTC, 11 Sept 2001 · released under FOIA",
+   "video": "wads_opsfloor_dvids873438.mp4",
+   "extraHold": 15,
+   "tone": "fear"
+  },
+  {
+   "id": "h4",
+   "text": "He turns, very quietly, and asks his supervisor to come over. Minutes later, in another room, the manager of Boston Center gives the Center's quality assurance specialist a three word instruction. Pull the tape.",
+   "video": "radar_room_dvids415647.mp4",
+   "stat": "BOSTON CENTER · \"PULL THE TAPE\"",
+   "cap": "\"Pull the tape.\"",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "h5",
+   "text": "The recording is played back, and a sentence comes out of it that nobody in the building heard live. We have some planes.",
+   "video": "wads_opsfloor_dvids873438.mp4",
+   "stat": "8:24:38 A.M. · RECOVERED FROM THE TAPE",
+   "cap": "\"We have some planes.\"",
+   "motion": "slow",
+   "speed": 0.95,
+   "tone": "fear"
+  },
+  {
+   "id": "h6",
+   "text": "The phrase that named the worst attack in American history was not heard. It was recovered, from a tape, by a man whose name the public report never gives.",
+   "video": "norad_joc_dvids873403.mp4",
+   "videoQuery": "NORAD joint operations center screens personnel DVIDS",
+   "cap": "Recovered from a recording. Not heard live.",
+   "tone": "fear"
+  },
+  {
+   "id": "h7",
+   "text": "Thirteen minutes after that voice, a phone rings at an air defense sector in upstate New York, and the technician who answers it asks one question. Is this real-world, or exercise?",
+   "video": "scramble_alert_dvids737138.mp4",
+   "videoQuery": "fighter alert scramble klaxon pilots running F-15 DVIDS",
+   "stat": "8:37:52 A.M. · THE FIRST CALL",
+   "cap": "\"Is this real-world or exercise?\"",
+   "motion": "fast",
+   "tone": "fear"
+  },
+  {
+   "id": "h8",
+   "text": "Two fighters launch from Cape Cod with no destination. Nine minutes is the most warning the military will get all day.",
+   "video": "scramble_alert_dvids737138.mp4",
+   "cap": "Nine minutes. The most warning they got all day.",
+   "tone": "fear"
+  },
+  {
+   "id": "h9",
+   "text": "Every second of it is recorded. Thirty some hours of tape, running on three or four machines in Rome, New York, capturing every phone line and every radio on that floor.",
+   "video": "eads_sector_rome_dvids913487.mp4",
+   "videoQuery": "Eastern Air Defense Sector Rome New York building operations DVIDS",
+   "stat": "NEADS · ROME, NEW YORK",
+   "cap": "Every channel. Every second.",
+   "motion": "slow",
+   "tone": "curiosity"
+  },
+  {
+   "id": "h10",
+   "text": "And three years later, when a commission finally forces those tapes into the open, they show that the account the military gave under oath was incorrect. This is the story of a recording that named an attack, cleared the men on the floor, and overturned the version their commanders had told.",
+   "video": "wads_opsfloor_dvids873438.mp4",
+   "cap": "One tape. Three verdicts.",
+   "motion": "slow",
+   "speed": 0.96,
+   "tone": "fear"
+  },
+  {
+   "id": "sting",
+   "sting": true,
+   "text": "You're watching Black Box Breakdown.",
+   "img": "otis_f15",
+   "query": "F-15 Eagle Otis Air National Guard Base 102nd Fighter Wing Cape Cod photograph",
+   "tone": "curiosity"
+  },
+  {
+   "id": "title",
+   "chapter": "\"WE HAVE SOME PLANES.\"\nNobody Knew What It Meant",
+   "text": "We have some planes. Nobody knew what it meant.",
+   "img": "otis_f15",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a1_ch",
+   "chapter": "ACT I\nTHE PLAN ASSUMED THE PILOT WOULD CALL",
+   "text": "To understand why nine minutes was all anyone got, start with what the plan expected. It expected the pilot to call.",
+   "img": "atc_scope_archival",
+   "tone": "curiosity",
+   "query": "FAA air traffic control radar scope controller archival photograph 1990s"
+  },
+  {
+   "id": "a1_2",
+   "exhibit": true,
+   "img": "ex_ss17_protocols",
+   "source": "9/11 Commission Staff Statement No. 17 · \"Improvising a Homeland Defense\" · June 17, 2004",
+   "highlight": [
+    0.1,
+    0.3,
+    0.8,
+    0.2
+   ],
+   "text": "The procedure on the books that morning assumed the pilot would tell you. Over the radio, or by setting his transponder to seven five zero zero. The code for a hijack.",
+   "cap": "The pilot would tell you.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a1_3",
+   "exhibit": true,
+   "img": "ex_ss17_protocols",
+   "source": "9/11 Commission Staff Statement No. 17 · \"The FAA and NORAD\"",
+   "highlight": [
+    0.1,
+    0.5,
+    0.8,
+    0.18
+   ],
+   "text": "Then the request would climb the chain of command, and there would be time for it to climb. And when a fighter arrived, its job was to follow. Vectored to a position five miles directly behind the hijacked aircraft. A discreet escort. The Commission staff put it in one sentence. The protocols did not contemplate an intercept.",
+   "cap": "\"The protocols did not contemplate an intercept.\"",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a1_5",
+   "exhibit": true,
+   "img": "ex_ss17_presumptions",
+   "source": "9/11 Commission Staff Statement No. 17 · \"The FAA and NORAD\"",
+   "highlight": [
+    0.1,
+    0.35,
+    0.8,
+    0.37
+   ],
+   "text": "So the plan presumed three things. That the aircraft would be identifiable and would not try to disappear. That there would be time to work up the chain of command. And that the hijacking would take the traditional form, not, in the staff's words, a suicide hijacking designed to convert the aircraft into a guided missile. All three were about to fail inside the same hour. The staff's own summary: the existing protocol was unsuited in every respect for what was about to happen.",
+   "cap": "\"...unsuited in every respect for what was about to happen.\"",
+   "tone": "fear"
+  },
+  {
+   "id": "a1_7",
+   "text": "Now the hardware. Across the entire continental United States, the number of fighters sitting on alert that morning was fourteen.",
+   "kinetic": {
+    "count": 14,
+    "suffix": " fighters on alert · continental U.S.",
+    "sub": "Two at each of a small number of sites, Sept 11, 2001"
+   },
+   "img": "otis_f15",
+   "tone": "fear"
+  },
+  {
+   "id": "a1_8",
+   "text": "Airborne above them at that moment were more than three thousand airliners.",
+   "kinetic": {
+    "count": 3000,
+    "suffix": "+ airliners airborne that morning",
+    "sub": "\"Thousands of green blips on your scope\" — Maj. Kevin Nasypany, NEADS"
+   },
+   "img": "atc_scope_archival",
+   "query": "FAA air traffic control radar scope controller archival photograph 1990s",
+   "tone": "fear"
+  },
+  {
+   "id": "a1_9",
+   "text": "The northeast belonged to one room. The Northeast Air Defense Sector, called Neads, in Rome, New York, with two alert sites. Otis, on Cape Cod. Langley, in Virginia. Two fighters at each. And at eight thirteen that morning, what Boston Center got was a pilot who stopped answering.",
+   "video": "eads_sector_rome_dvids913487.mp4",
+   "stat": "NEADS · ROME, NY · TWO ALERT SITES",
+   "cap": "Otis. Langley. Two jets each.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a2_ch",
+   "chapter": "ACT II\nNINE MINUTES",
+   "text": "Here is exactly how much warning that system gave, from the moment the airplane went quiet.",
+   "img": "aa11_767",
+   "query": "American Airlines Boeing 767-200 N334AA photograph",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a2_1",
+   "text": "Eight o'clock. American eleven begins its takeoff roll at Logan Airport in Boston, bound for Los Angeles. Eighty one passengers, eleven crew. Eight thirteen. Zalewski instructs the flight to turn twenty degrees right. The crew acknowledges. It is the last transmission American eleven will ever answer. In his own words, years afterward: I would go on to call that aircraft twelve times.",
+   "stat": "8:00 DEPARTS LOGAN · 8:13 LAST ACKNOWLEDGMENT",
+   "tone": "fear",
+   "video": "radar_room_dvids415647.mp4",
+   "cap": "\"I would go on to call that aircraft 12 times.\"",
+   "motion": "slow"
+  },
+  {
+   "id": "a2_4",
+   "text": "Eight twenty one. The transponder goes off, and with it the airplane's identity and altitude vanish from his scope. He turns to his supervisor. Would you please come over here? I think something is seriously wrong with this plane.",
+   "video": "radar_room_dvids415647.mp4",
+   "stat": "8:21 A.M. · TRANSPONDER OFF",
+   "cap": "\"I think something is seriously wrong with this plane.\"",
+   "tone": "fear"
+  },
+  {
+   "id": "a2_6",
+   "text": "Eight twenty four and thirty eight seconds. The voice. We have some planes. Just stay quiet, and you'll be okay. We are returning to the airport.",
+   "video": "radar_room_dvids415647.mp4",
+   "stat": "8:24:38 A.M. · RECREATION",
+   "cap": "\"We have some planes. Just stay quiet, and you'll be O.K.\"",
+   "motion": "slow",
+   "speed": 0.95,
+   "extraHold": 15,
+   "tone": "fear"
+  },
+  {
+   "id": "a2_7",
+   "text": "To the man on the ground it is noise. He did not hear those words. He heard, once again, something unintelligible. The hijacker's error with the microphone, not the controller's.",
+   "video": "wads_opsfloor_dvids873438.mp4",
+   "cap": "He did not hear those words.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a2_8",
+   "text": "Eight twenty four and fifty six seconds. A second transmission, and this one he understands. Nobody move. Everything will be okay. If you try to make any moves, you'll endanger yourself and the airplane. Just stay quiet.",
+   "video": "radar_room_dvids415647.mp4",
+   "stat": "8:24:56 A.M. · RECREATION",
+   "cap": "\"Nobody move.\"",
+   "motion": "slow",
+   "speed": 0.95,
+   "tone": "fear"
+  },
+  {
+   "id": "a2_9",
+   "text": "Now he knows. It is a hijacking. And because nobody understood the first transmission, the manager of Boston Center has the quality assurance specialist pull the tape, listen closely, and report back. Zalewski has said he asked for it, and credits others with doing it. And thankfully, he said, they did pull the tapes.",
+   "cap": "\"And thankfully, they did pull the tapes.\"",
+   "tone": "melancholy",
+   "video": "norad_joc_dvids873403.mp4",
+   "stat": "PETE ZALEWSKI · NBC NEWS, 2006",
+   "motion": "slow"
+  },
+  {
+   "id": "a2_9a",
+   "text": "I hereby certify that the following is a true recording of the original recorded transmissions pertaining to the aircraft accident.",
+   "speaker": "KAREN GOFF, QUALITY ASSURANCE TECHNICIAN, BOSTON ARTCC",
+   "radioLabel": "ACTUAL FAA ATC RECORDING",
+   "timestamp": "THE CERTIFICATION ON THE TAPE ITSELF",
+   "cap": "ACTUAL FAA ATC RECORDING · the tape, certifying itself",
+   "source": "FAA certified re-recording · Boston ARTCC, Sector 46 Radar · 1204-1232 UTC, 11 Sept 2001 · released under FOIA",
+   "video": "radar_room_dvids415647.mp4",
+   "extraHold": 20,
+   "tone": "curiosity"
+  },
+  {
+   "id": "a2_13",
+   "text": "Boston Center has been working its chain of command since eight twenty five. At eight thirty four it stops waiting and goes at the military directly. It also dials an alert site at Atlantic City that, unknown to Boston, has been phased out. There was no open line between the agencies. Every warning meant finding a number, and dialing it.",
+   "img": "atlantic_city_angb",
+   "query": "Atlantic City Air National Guard Base 177th Fighter Wing F-16 photograph",
+   "stat": "8:34 A.M. · BOSTON GOES OFF-PROTOCOL",
+   "cap": "One of the numbers was for a site that no longer stood alert.",
+   "tone": "fear"
+  },
+  {
+   "id": "a2_15",
+   "text": "Eight thirty seven and fifty two seconds. A phone rings on the operations floor of the Northeast Air Defense Sector in Rome, New York. Technical Sergeant Jeremy Powell picks it up.",
+   "video": "powell_interview_dvids812654.mp4",
+   "videoQuery": "Jeremy Powell NEADS 9/11 interview DVIDS",
+   "stat": "8:37:52 A.M. · THE FIRST CALL",
+   "cap": "Tech. Sgt. Jeremy Powell · NEADS",
+   "tone": "fear"
+  },
+  {
+   "id": "a2_16",
+   "text": "Hi. Boston Center T M U, we have a problem here. We have a hijacked aircraft headed towards New York, and we need you guys to, we need someone to scramble some F sixteens or something up there, help us out.",
+   "video": "eads_sector_rome_dvids913487.mp4",
+   "stat": "RECREATION · 8:37:52",
+   "cap": "\"...scramble some F-16s or something up there, help us out.\"",
+   "motion": "slow",
+   "speed": 0.95,
+   "extraHold": 15,
+   "tone": "fear"
+  },
+  {
+   "id": "a2_17",
+   "text": "The reply is one question. Is this real-world or exercise? And the answer. No, this is not an exercise, not a test.",
+   "video": "wads_opsfloor_dvids873438.mp4",
+   "stat": "RECREATION",
+   "cap": "\"Is this real-world or exercise?\"",
+   "motion": "slow",
+   "speed": 0.95,
+   "extraHold": 20,
+   "tone": "fear"
+  },
+  {
+   "id": "a2_18",
+   "text": "It makes sense once you know Neads was running a training exercise that morning. Norad's commander later testified that adjusting took about thirty seconds, and the Commission found the response was, if anything, faster for it.",
+   "video": "eads_sector_rome_dvids913487.mp4",
+   "cap": "The exercise cost about 30 seconds.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a2_19",
+   "exhibit": true,
+   "img": "ex_ss17_firstcall",
+   "source": "9/11 Commission Staff Statement No. 17 · \"American Airlines Flight 11\"",
+   "highlight": [
+    0.1,
+    0.4,
+    0.8,
+    0.2
+   ],
+   "text": "The Commission staff wrote this about that call. This was the first notification received by the military, at any level, that American eleven had been hijacked. The air defense of America began with this call.",
+   "cap": "\"The air defense of America began with this call.\"",
+   "motion": "slow",
+   "tone": "awe"
+  },
+  {
+   "id": "a2_21",
+   "text": "Otis goes to battle stations. Colonel Robert Marr, commanding Neads, phones his superior, a Norad commander, who tells him, by the Commission staff's account, to go ahead and scramble the airplanes, and we'd get permission later.",
+   "video": "scramble_alert_dvids737138.mp4",
+   "stat": "OTIS ANGB · BATTLE STATIONS",
+   "cap": "\"...go ahead and scramble the airplanes, and we'd get permission later.\"",
+   "tone": "fear"
+  },
+  {
+   "id": "a2_22",
+   "text": "Eight forty six. The scramble order goes to Otis. Two F fifteens.",
+   "video": "scramble_alert_dvids737138.mp4",
+   "stat": "8:46 A.M. · SCRAMBLE ORDERED",
+   "cap": "Two F-15s.",
+   "motion": "fast",
+   "tone": "fear"
+  },
+  {
+   "id": "a2_23",
+   "text": "But in that same minute, on the floor in Rome, there is a problem the protocol never imagined, and the tape catches it. I don't know where I'm scrambling these guys to. I need a direction, a destination.",
+   "video": "wads_opsfloor_dvids873438.mp4",
+   "stat": "RECREATION",
+   "cap": "\"I need a direction, a destination.\"",
+   "motion": "slow",
+   "speed": 0.95,
+   "tone": "fear"
+  },
+  {
+   "id": "a2_25",
+   "text": "Eight forty six and forty seconds. American eleven hits the North Tower.",
+   "img": "wtc_north_tower",
+   "query": "World Trade Center North Tower smoke September 11 2001 FEMA photograph",
+   "stat": "8:46:40 A.M.",
+   "motion": "slow",
+   "speed": 0.94,
+   "extraHold": 25,
+   "tone": "melancholy"
+  },
+  {
+   "id": "a2_27",
+   "text": "Eight fifty three. The Otis fighters are airborne, seven minutes after the airplane they were launched for had already hit the tower. With no target, they are sent to military airspace off Long Island, and hold there, over the ocean.",
+   "videoQuery": "F-15 Eagle in flight over ocean aerial footage DVIDS",
+   "stat": "8:53 A.M. · OTIS AIRBORNE · HOLDING 9:08–9:13",
+   "cap": "Holding off Long Island. No target.",
+   "tone": "fear"
+  },
+  {
+   "id": "a2_28",
+   "text": "From the first call to the impact: nine minutes. The Commission staff noted it was the most notice the military would receive that morning of any of the four hijackings.",
+   "kinetic": {
+    "count": 9,
+    "suffix": " minutes of warning",
+    "sub": "8:37:52 first call → 8:46:40 impact. The most the military got all day."
+   },
+   "img": "otis_f15",
+   "stat": "9 MINUTES · THE MAXIMUM, NOT THE NORM",
+   "tone": "fear"
+  },
+  {
+   "id": "a3_ch",
+   "chapter": "ACT III\nTHE SECOND PLANE HEARD THE FIRST",
+   "text": "The second hijacked aircraft had already heard the first one.",
+   "img": "wtc_towers_burning_fema",
+   "query": "World Trade Center towers burning September 11 2001 photograph FEMA public domain",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a3_1",
+   "text": "Eight thirty seven. Boston Center polls the aircraft on its frequencies. Has anyone seen an American seven sixty seven? The pilots of United one seventy five have, and add something else. A suspicious transmission on their departure out of Boston. It sounded like someone keyed the mikes and said, ah, everyone, ah, stay in your seats. Minutes later, that pilot was hijacked himself.",
+   "video": "radar_room_dvids415647.mp4",
+   "videoQuery": "air traffic control radar room controllers scopes",
+   "stat": "8:37 A.M. · BOSTON CENTER",
+   "cap": "RECREATION · United 175's pilot, before he was hijacked",
+   "tone": "fear",
+   "motion": "slow",
+   "speed": 0.95
+  },
+  {
+   "id": "a3_5",
+   "text": "Nine oh three. New York Center phones the sector about United one seventy five. The call comes in, in the Commission's words, at about the time the plane was hitting the South Tower. American eleven had given the military nine minutes. United one seventy five gave it none.",
+   "video": "wads_opsfloor_dvids873438.mp4",
+   "videoQuery": "air defense sector operations floor dark scopes",
+   "stat": "9:03 A.M. · NEADS LEARNS OF UNITED 175",
+   "cap": "Nine minutes for the first. None for the second.",
+   "speed": 0.95,
+   "tone": "fear"
+  },
+  {
+   "id": "a3_7",
+   "text": "Nine oh eight. The Mission Crew Commander learns of the second explosion, and his voice is on the tape. We need to talk to F A A. We need to tell 'em if this stuff is gonna keep on going, we need to take those fighters, put 'em over Manhattan. At least we got some kind of play. A combat air patrol is over New York at nine twenty five. Twenty two minutes after the second impact.",
+   "video": "wads_opsfloor_dvids873438.mp4",
+   "videoQuery": "NORAD air defense sector mission crew commander console",
+   "stat": "9:08 A.M. · THE OTIS FIGHTERS HOLD OFFSHORE",
+   "cap": "RECREATION · 9:08 A.M. · Mission Crew Commander",
+   "tone": "curiosity",
+   "extraHold": 45,
+   "speed": 0.95
+  },
+  {
+   "id": "a3_10",
+   "text": "Because the Otis jets are burning fuel, at nine oh nine the two Langley alert fighters go to battle stations. As back up, for fuel. At that moment, the Commission is precise, Norad had no indication that any other plane had been hijacked.",
+   "video": "scramble_alert_dvids737138.mp4",
+   "videoQuery": "alert fighter pilots battle stations hangar DVIDS",
+   "stat": "9:09 A.M. · LANGLEY TO BATTLE STATIONS",
+   "cap": "Battle stations as a refuelling backup. \"NORAD had no indication that any other plane had been hijacked.\"",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a3_11",
+   "text": "Then, at nine twenty one, a phone rings on the floor. It is Boston Center's military desk. Military, Boston Center. I just had a report that American eleven is still in the air, and it's on its way towards, heading towards Washington.",
+   "video": "wads_opsfloor_dvids873438.mp4",
+   "videoQuery": "air defense sector operations floor phone call",
+   "stat": "9:21 A.M. · A PLANE THAT NO LONGER EXISTED",
+   "cap": "RECREATION · 9:21 A.M. · Boston Center to NEADS",
+   "extraHold": 40,
+   "speed": 0.94,
+   "tone": "fear"
+  },
+  {
+   "id": "a3_12",
+   "text": "American eleven is not in the air. It hit the North Tower at eight forty six and forty seconds. Thirty five minutes ago.",
+   "img": "wtc_towers_burning_fema",
+   "kinetic": {
+    "count": 35,
+    "suffix": " minutes earlier",
+    "sub": "American 11 struck the North Tower at 8:46:40. At 9:21, NEADS was told it was still flying."
+   },
+   "tone": "fear"
+  },
+  {
+   "id": "a3_13",
+   "text": "You can hear the sector try to make it make sense. So American eleven isn't the hijack at all then, right? No, he is a hijack. He, American eleven is a hijack? Yes.",
+   "video": "wads_opsfloor_dvids873438.mp4",
+   "videoQuery": "air defense operations floor dark console operators",
+   "cap": "RECREATION · 9:21 A.M.",
+   "extraHold": 40,
+   "speed": 0.94,
+   "tone": "fear"
+  },
+  {
+   "id": "a3_14",
+   "text": "And he's heading into Washington? Yes. This could be a third aircraft.",
+   "video": "wads_opsfloor_dvids873438.mp4",
+   "videoQuery": "air defense radar scope tracks dark room",
+   "cap": "RECREATION · \"This could be a third aircraft.\"",
+   "extraHold": 50,
+   "speed": 0.94,
+   "tone": "fear"
+  },
+  {
+   "id": "a3_17",
+   "text": "Where did it come from? The Boston military desk had picked it up from an aviation headquarters teleconference. The Commission wrote one sentence. We have been unable to identify the source of this mistaken F A A information.",
+   "exhibit": true,
+   "img": "ex_ss17_phantom_source",
+   "source": "9/11 Commission Staff Statement No. 17 · American Airlines Flight 77, \"Military Notification and Response\"",
+   "highlight": [
+    0.1,
+    0.5,
+    0.8,
+    0.1
+   ],
+   "stat": "SOURCE OF THE REPORT: NEVER IDENTIFIED",
+   "cap": "\"We have been unable to identify the source of this mistaken FAA information.\"",
+   "motion": "slow",
+   "speed": 0.95,
+   "tone": "fear"
+  },
+  {
+   "id": "a3_19",
+   "text": "On the floor, the Mission Crew Commander turns to the battle commander. Okay, uh, American Airlines is still airborne. Eleven, the first guy, he's heading towards Washington. Okay? I think we need to scramble Langley right now. Nine twenty three: Okay, scramble Langley. Head them towards the Washington area. Wheels up at nine thirty.",
+   "video": "wads_opsfloor_dvids873438.mp4",
+   "videoQuery": "air defense sector commander headset console decision",
+   "cap": "RECREATION · \"I think we need to scramble Langley right now.\"",
+   "extraHold": 30,
+   "speed": 0.95,
+   "tone": "fear",
+   "stat": "9:23 ORDER · 9:24 TRANSMITTED · 9:30 AIRBORNE"
+  },
+  {
+   "id": "a4_ch",
+   "chapter": "ACT IV\nTHE FIGHTERS FLEW THE WRONG WAY",
+   "text": "Three separate things had to go wrong for the Langley fighters to end up over the Atlantic. All three did.",
+   "img": "pentagon_aerial_2001_dod",
+   "query": "Pentagon September 11 2001 aerial damage smoke photograph Department of Defense public domain",
+   "tone": "fear"
+  },
+  {
+   "id": "a4_1",
+   "text": "First, the order. Head them towards the Washington area. Unlike a normal scramble order, the Commission found, it included no distance to the target and no location. There was no target.",
+   "exhibit": true,
+   "img": "ex_cr_langley_east",
+   "source": "The 9/11 Commission Report · Chapter 1 · Why the Langley fighters flew east",
+   "highlight": [
+    0.1,
+    0.28,
+    0.8,
+    0.1
+   ],
+   "stat": "REASON ONE · NO DISTANCE, NO LOCATION",
+   "cap": "A scramble order with no target in it.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a4_2",
+   "text": "Second, the flight plan. A generic plan, filed to get the jets out of local airspace fast, incorrectly led the Langley fighters to believe they were ordered to fly due east, zero nine zero, for sixty miles. And third, the people. The lead pilot and the local F A A controller both assumed that instruction superseded the scramble order. So the F sixteens turned east, over the Atlantic.",
+   "exhibit": true,
+   "img": "ex_cr_langley_east",
+   "source": "The 9/11 Commission Report · Chapter 1 · Why the Langley fighters flew east",
+   "highlight": [
+    0.1,
+    0.4,
+    0.8,
+    0.1
+   ],
+   "stat": "REASONS TWO AND THREE · \"090 FOR 60\"",
+   "cap": "A generic flight plan, read as a heading: due east, 60 miles. And everyone assumed it overrode the scramble.",
+   "tone": "fear"
+  },
+  {
+   "id": "a4_4",
+   "text": "Meanwhile, a plane nobody in the military knew about was flying the other way. American seventy seven. At eight fifty six its transponder went off and it disappeared from Indianapolis Center's scopes. Its controller searched west. The plane had turned east.",
+   "stat": "8:56 A.M. · TRANSPONDER OFF · INDIANAPOLIS CENTER",
+   "cap": "He searched where it had been heading. It was going the other way.",
+   "tone": "curiosity",
+   "video": "radar_room_dvids415647.mp4"
+  },
+  {
+   "id": "a4_7",
+   "text": "Here is the part that is hard to sit with. For eight minutes and thirteen seconds its primary radar track was in the system, and not displayed on the Indianapolis scopes. For thirty six minutes, American seventy seven crossed toward Washington, due east, undetected.",
+   "kinetic": {
+    "count": 36,
+    "suffix": " minutes undetected",
+    "sub": "Due east toward Washington. Its primary track was in the system for 8 min 13 sec and never displayed."
+   },
+   "img": "pentagon_aerial_2001_dod",
+   "speed": 0.95,
+   "tone": "fear"
+  },
+  {
+   "id": "a4_9",
+   "text": "Nine thirty four. The sector learns of it by chance, from a call it placed itself to Washington Center, at the suggestion of Boston Center's military liaison. A Washington manager says, we're looking, we also lost American seventy seven. Not hijacked. Missing. Roughly three minutes before impact.",
+   "video": "wads_opsfloor_dvids873438.mp4",
+   "videoQuery": "air defense operations floor telephone call console",
+   "stat": "9:34 A.M. · \"WE ALSO LOST AMERICAN 77\"",
+   "cap": "RECREATION · Washington Center to NEADS",
+   "extraHold": 40,
+   "speed": 0.95,
+   "tone": "fear"
+  },
+  {
+   "id": "a4_11",
+   "text": "Nine thirty six. Boston Center again. Latest report. Aircraft, V F R, six miles southeast of the White House. Six, southwest. Six, southwest of the White House, deviating away.",
+   "video": "wads_opsfloor_dvids873438.mp4",
+   "videoQuery": "air defense sector floor urgent radio call",
+   "stat": "9:36 A.M. · SIX MILES FROM THE WHITE HOUSE",
+   "cap": "RECREATION · 9:36 A.M. · Boston Center",
+   "extraHold": 40,
+   "speed": 0.94,
+   "tone": "fear"
+  },
+  {
+   "id": "a4_12",
+   "text": "The Mission Crew Commander takes control of the airspace. Okay, we're going to turn it. Crank it up. Run them to the White House. Them, meaning the Langley fighters, which he believes are north, toward Baltimore. They are not. They are east, over the ocean.",
+   "video": "wads_opsfloor_dvids873438.mp4",
+   "videoQuery": "air defense mission crew commander giving orders console",
+   "cap": "RECREATION · \"Run them to the White House.\"",
+   "extraHold": 30,
+   "speed": 0.95,
+   "tone": "fear"
+  },
+  {
+   "id": "a4_14",
+   "text": "I don't care how many windows you break. Damn it. Okay. Push them back. He later confirmed to the Commission what the windows meant. Go supersonic. Over land. Whatever it costs.",
+   "video": "wads_opsfloor_dvids873438.mp4",
+   "videoQuery": "air defense operations floor commander frustration console",
+   "cap": "RECREATION · \"I don't care how many windows you break.\"",
+   "extraHold": 45,
+   "speed": 0.94,
+   "tone": "anger"
+  },
+  {
+   "id": "a4_15",
+   "text": "Nine thirty seven and forty six seconds. American seventy seven strikes the Pentagon.",
+   "videoQuery": "Pentagon September 11 2001 smoke aerial Department of Defense footage",
+   "stat": "9:37:46 A.M. · THE PENTAGON",
+   "cap": "9:37:46.",
+   "motion": "slow",
+   "speed": 0.94,
+   "extraHold": 30,
+   "tone": "melancholy"
+  },
+  {
+   "id": "a4_16",
+   "text": "At that moment, the Langley F sixteens are about a hundred and fifty miles away.",
+   "kinetic": {
+    "count": 150,
+    "suffix": " miles away",
+    "sub": "The Langley F-16s at 9:38 A.M., as the Pentagon burned"
+   },
+   "img": "pentagon_aerial_2001_dod",
+   "speed": 0.95,
+   "tone": "melancholy"
+  },
+  {
+   "id": "a4_19",
+   "text": "Because right now, at nine thirty eight, a fourth airliner is flying west over Pennsylvania, and it has just been taken. The sector will never see it on a radar scope. And the authorization to shoot it down will arrive twenty eight minutes after it hits the ground.",
+   "video": "wads_opsfloor_dvids873438.mp4",
+   "videoQuery": "air defense radar scope empty tracks dark",
+   "stat": "UNITED 93 · NEVER SEEN ON A NEADS SCOPE",
+   "cap": "The order came 28 minutes after the crash.",
+   "motion": "slow",
+   "speed": 0.94,
+   "extraHold": 30,
+   "tone": "fear"
+  },
+  {
+   "id": "a5_ch",
+   "chapter": "ACT V\nTHE ORDER THAT CAME TWENTY-EIGHT MINUTES LATE",
+   "text": "The story of the fourth plane is the story of an order, and how far it travelled before it stopped. United ninety three was not hijacked until about nine twenty eight, in Cleveland Center's airspace. At nine forty one its transponder went dark.",
+   "img": "shanksville_field",
+   "query": "Flight 93 National Memorial field Shanksville Pennsylvania photograph",
+   "tone": "fear"
+  },
+  {
+   "id": "a5_3",
+   "text": "At about nine thirty six, Cleveland Center asked the Command Center at Herndon whether anyone had asked the military for fighters, and offered to phone a nearby base itself. Herndon said that decision had to come from above. Thirteen minutes later, it put the question to F A A headquarters. Word for word.",
+   "video": "radar_room_dvids415647.mp4",
+   "cap": "\"...well above them in the chain of command...\"",
+   "stat": "9:36 A.M. · CLEVELAND ASKS FOR FIGHTERS · 9:49 HERNDON ASKS HEADQUARTERS",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a5_4",
+   "text": "Do we want to think, uh, about scrambling aircraft?",
+   "speaker": "FAA COMMAND CENTER, HERNDON",
+   "radioLabel": "RECREATION",
+   "timestamp": "9:49 A.M. EDT",
+   "cap": "RECREATION · 9/11 Commission Report, Ch. 1",
+   "tone": "fear"
+  },
+  {
+   "id": "a5_5",
+   "text": "Oh, God, I don't know.",
+   "speaker": "FAA HEADQUARTERS",
+   "radioLabel": "RECREATION",
+   "timestamp": "9:49 A.M. EDT",
+   "cap": "RECREATION · 9/11 Commission Report, Ch. 1",
+   "tone": "fear"
+  },
+  {
+   "id": "a5_6",
+   "text": "That's a decision somebody's gonna have to make probably in the next ten minutes.",
+   "speaker": "FAA COMMAND CENTER, HERNDON",
+   "radioLabel": "RECREATION",
+   "timestamp": "9:49 A.M. EDT",
+   "cap": "RECREATION · 9/11 Commission Report, Ch. 1",
+   "tone": "fear"
+  },
+  {
+   "id": "a5_7",
+   "text": "Ya know everybody just left the room.",
+   "speaker": "FAA HEADQUARTERS",
+   "radioLabel": "RECREATION",
+   "timestamp": "9:49 A.M. EDT",
+   "cap": "RECREATION · 9/11 Commission Report, Ch. 1",
+   "speed": 0.95,
+   "tone": "fear"
+  },
+  {
+   "id": "a5_8",
+   "text": "Fourteen minutes after that, at ten oh three and eleven seconds, United ninety three went into a field near Shanksville, Pennsylvania, as its passengers fought for the cockpit. A seismic study says ten oh six. The Commission uses ten oh three, and notes the dispute.",
+   "img": "shanksville_field",
+   "stat": "10:03:11 A.M. · SHANKSVILLE, PENNSYLVANIA",
+   "cap": "The passengers fought for the cockpit.",
+   "motion": "slow",
+   "speed": 0.95,
+   "tone": "melancholy"
+  },
+  {
+   "id": "a5_9",
+   "text": "Nobody at F A A headquarters ever asked the military for help with United ninety three. Nobody passed the military a single thing the F A A knew about it. The first call Neads received about the flight came at ten oh seven, four minutes after it had crashed. It never saw the flight on a radar scope.",
+   "video": "wads_opsfloor_dvids873438.mp4",
+   "videoQuery": "air defense sector operations floor consoles scopes",
+   "stat": "10:07 A.M. · NEADS HEARS OF UNITED 93 · 4 MIN AFTER IMPACT",
+   "cap": "Never seen on a NEADS scope.",
+   "motion": "slow",
+   "tone": "fear",
+   "speed": 0.95
+  },
+  {
+   "id": "a5_11",
+   "text": "Now the order. At ten ten, the Langley F sixteens were finally over Washington, and the instruction to them from the floor was explicit. Negative. Negative clearance to shoot.",
+   "exhibit": true,
+   "img": "ex_ss17_negative_clearance",
+   "source": "9/11 Commission Staff Statement No. 17 · Improvising a Homeland Defense · p. 20",
+   "highlight": [
+    0.1,
+    0.42,
+    0.8,
+    0.14
+   ],
+   "stat": "10:10 A.M. · \"NEGATIVE CLEARANCE TO SHOOT\"",
+   "cap": "Over Washington. No clearance to shoot.",
+   "tone": "fear"
+  },
+  {
+   "id": "a5_13",
+   "text": "Meanwhile, in the shelter under the White House, between ten ten and ten eighteen, the Vice President authorised fighters to engage an aircraft the Secret Service was reporting inbound. It was United ninety three. It had been on the ground since ten oh three. The word reached the Neads floor at ten thirty one, as an instant message on Norad's chat system, from a Norad commander. The floor's reaction is on the tape. You got a conflict on that direction? Right now no, but.",
+   "video": "wads_opsfloor_dvids873438.mp4",
+   "stat": "10:31 A.M. · THE ORDER ARRIVES · BY INSTANT MESSAGE",
+   "cap": "\"You got a conflict on that direction?\"",
+   "motion": "slow",
+   "speed": 0.95,
+   "tone": "fear"
+  },
+  {
+   "id": "a5_15",
+   "text": "Three years later, the Commission put its finding in one sentence. The Vice President was mistaken in his belief that shootdown authorization had been passed to the pilots flying at Norad's direction. The only orders actually conveyed to the pilots were to I D type and tail. Identify the aircraft. Read its tail number. And for the call in which the President is said to have approved the concept, the Commission notes, there is no documentary evidence, though the sources are incomplete. This film carries that hedge.",
+   "exhibit": true,
+   "img": "ex_cr_vp_mistaken",
+   "source": "The 9/11 Commission Report · Chapter 1, \"We Have Some Planes\" · United 93 and the Shootdown Order",
+   "highlight": [
+    0.1,
+    0.36,
+    0.8,
+    0.12
+   ],
+   "stat": "\"THE VICE PRESIDENT WAS MISTAKEN IN HIS BELIEF\"",
+   "cap": "The Commission's finding, verbatim.",
+   "speed": 0.95,
+   "tone": "fear"
+  },
+  {
+   "id": "a5_18",
+   "text": "And there was a second set of fighters that morning that nobody in that chain knew about. At Andrews Air Force Base, the D C Air National Guard's one hundred twenty first Fighter Squadron was not an alert unit, and not under Norad control. Its commander, General David Wherley, took his instructions through a Secret Service agent holding a phone to each ear, the other line to an agent at the White House relaying what he said he was getting from the Vice President. Wherley translated it as weapons free: the decision to shoot would rest with the pilot. The Commission found no evidence that Norad headquarters knew the Andrews jets were up at all.",
+   "exhibit": true,
+   "img": "ex_cr_andrews",
+   "source": "The 9/11 Commission Report · Chapter 1 · the Andrews launch",
+   "highlight": [
+    0.1,
+    0.3,
+    0.8,
+    0.3
+   ],
+   "cap": "A phone in each ear. Two sets of rules.",
+   "tone": "fear",
+   "stat": "ANDREWS AFB · 121st FIGHTER SQUADRON · NOT UNDER NORAD",
+   "motion": "slow"
+  },
+  {
+   "id": "a5_19",
+   "text": "The first Andrews jet was airborne at ten thirty eight. At about ten forty two, two more rolled. Lieutenant Colonel Marc Sasseville, and a twenty six year old lieutenant named Heather Penney. No missiles. About a hundred and five rounds of training ammunition, carried for trim.",
+   "video": "scramble_alert_dvids737138.mp4",
+   "videoQuery": "Air National Guard alert scramble fighter pilots running to jets",
+   "stat": "~10:42 A.M. · SASSEVILLE AND PENNEY · UNARMED",
+   "cap": "Alert scramble, modern Guard footage · not Andrews, 2001.",
+   "tone": "fear"
+  },
+  {
+   "id": "a5_20",
+   "text": "Penney has described the plan in her own words. We wouldn't be shooting it down. We would be ramming the aircraft, because we didn't have weapons on board. Sasseville would take the cockpit. Penney the tail, to aerodynamically unbalance the airplane and tip it over. You will see that reversed almost everywhere online. Nobody ordered it; there is no ram order in the record. I genuinely believed, Penney said, that was going to be the last time I took off.",
+   "img": "heather_penney",
+   "query": "Heather Penney F-16 pilot DC Air National Guard official photograph",
+   "cap": "\"...the last time I took off.\" — Heather Penney",
+   "speed": 0.95,
+   "tone": "melancholy",
+   "stat": "SASSEVILLE: THE COCKPIT · PENNEY: THE TAIL",
+   "motion": "slow"
+  },
+  {
+   "id": "a5_23",
+   "text": "And here is the part the retellings leave out. By the time their wheels left the runway, United ninety three had been on the ground for about thirty nine minutes. There was never a moment when two F sixteens were closing on a live airliner. Penney says so herself. Sass and I were a mission failure.",
+   "kinetic": {
+    "count": 39,
+    "suffix": " minutes after United 93 was already down",
+    "sub": "Flight 93 crashed 10:03 · Penney and Sasseville launched about 10:42"
+   },
+   "img": "shanksville_field",
+   "stat": "10:03 CRASH · ~10:42 LAUNCH",
+   "tone": "melancholy",
+   "cap": "\"Sass and I were a mission failure...\" — Heather Penney"
+  },
+  {
+   "id": "a6_ch",
+   "chapter": "ACT VI\nSOMEBODY CUT IT INTO PIECES",
+   "text": "Everything you have heard comes off a recording. Nobody handed those recordings over. Here is what it took.",
+   "img": "ex_foia_letter",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a6_1",
+   "text": "Go back to that same morning. About eleven forty, at New York Center on Long Island, a manager gathers controllers into a conference room the staff call the Bat Cave. Five of them had talked to two of the hijacked aircraft. Each gives a recorded statement, to hold law enforcement over until written accounts exist. The union representative agrees on one condition: once the written statements are done, the tape is destroyed.",
+   "img": "new_york_center",
+   "query": "New York Air Route Traffic Control Center Ronkonkoma Long Island building photograph",
+   "stat": "~11:40 A.M. · NEW YORK CENTER · \"THE BAT CAVE\"",
+   "cap": "Five controllers. One condition.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a6_3",
+   "text": "It was never used. Never even listened to. A controller who asked to hear it, to help write her own statement, was refused. And nobody outside the centre, not F A A headquarters, not the investigators, was told it existed.",
+   "img": "new_york_center",
+   "cap": "Never used. Never listened to. Never disclosed.",
+   "motion": "slow",
+   "tone": "fear",
+   "stat": "INSPECTOR GENERAL: FIVE CONTROLLERS · PRESS AT THE TIME: SIX"
+  },
+  {
+   "id": "a6_4",
+   "text": "Then, sometime between December two thousand one and February two thousand two, the centre's quality assurance manager, acting entirely on his own, destroyed it. He crushed the cassette in his hand, cut the tape into small pieces, and scattered the pieces into different trash cans around the building. He felt strongly, he told the Inspector General, that the tape should never have been made, and believed, from television crime shows, that the controllers had not been in the right frame of mind to consent.",
+   "videoQuery": "audio cassette tape unspooled close up macro",
+   "stat": "DEC 2001 – FEB 2002 · THE TAPE IS DESTROYED",
+   "cap": "Crushed. Cut. Scattered into different trash cans.",
+   "motion": "slow",
+   "speed": 0.94,
+   "tone": "anger"
+  },
+  {
+   "id": "a6_5",
+   "text": "The Transportation Department's Inspector General, Kenneth Mead, investigated at Senator John McCain's request and reported on the fourth of May, two thousand four. No cover-up. Nothing on the tape the managers were hiding. No failure by the controllers. Nobody was charged with anything.",
+   "img": "dot_headquarters",
+   "query": "US Department of Transportation headquarters building Washington DC photograph",
+   "stat": "DOT INSPECTOR GENERAL · MAY 4, 2004 · NO COVER-UP FOUND · NO CHARGES",
+   "cap": "No cover-up found. Nobody charged.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a6_6",
+   "text": "But he added a sentence that is, in a way, the thesis of this whole film. The destruction of evidence in the government's possession, in this case an audiotape, particularly during times of national crisis, has the effect of fostering an appearance that information is being withheld from the public.",
+   "img": "dot_headquarters",
+   "cap": "\"...fostering an appearance that information is being withheld...\"",
+   "motion": "slow",
+   "speed": 0.95,
+   "tone": "melancholy"
+  },
+  {
+   "id": "a6_7",
+   "text": "The Commission's staff learned of that tape in field interviews in the autumn of two thousand three. On the fifteenth of October it announced that tapes, statements and interview reports highly material to our inquiry had been inexplicably withheld, and voted to subpoena the F A A. On the seventh of November, the Commission turned to Norad. In several cases, it said, we were assured that all requested records had been produced, but we then discovered that these assurances were mistaken. They were the only two agencies the Commission ever subpoenaed.",
+   "img": "commission_hearing",
+   "query": "9/11 Commission public hearing Thomas Kean Lee Hamilton 2003 2004 photograph",
+   "stat": "OCT 15, 2003 · SUBPOENA: THE FAA   NOV 7, 2003 · SUBPOENA: NORAD",
+   "cap": "\"...inexplicably withheld.\"  \"...these assurances were mistaken.\"",
+   "tone": "fear"
+  },
+  {
+   "id": "a6_9",
+   "text": "John Farmer, the senior counsel who led that part of the inquiry, later wrote what the staff had been told before the subpoena. That no tapes were made. Then, that a technical malfunction would prevent them from hearing them. If we had not pushed as hard as we did, he wrote, many of the critical conversations from that morning may have been lost to history.",
+   "img": "john_farmer",
+   "query": "John Farmer Jr 9/11 Commission senior counsel photograph",
+   "cap": "\"...may have been lost to history.\" — John Farmer, 2011",
+   "tone": "fear",
+   "speed": 0.95,
+   "motion": "slow"
+  },
+  {
+   "id": "a6_10",
+   "text": "Then the tapes arrived. Neads had recorded every channel on its floor, continuously, as a matter of routine. Thirty some hours of audio, covering six and a half hours of real time. Across every agency the Commission would receive more than a thousand hours of tape from a single morning. In two thousand eight the same material was released to the public under the Freedom of Information Act.",
+   "video": "wads_opsfloor_dvids873438.mp4",
+   "cap": "Every channel. Every position. As a matter of routine.",
+   "tone": "awe",
+   "kinetic": {
+    "count": 1000,
+    "suffix": "+ hours of audiotape",
+    "sub": "Received by the Commission across all agencies — from one morning"
+   },
+   "stat": "30+ HOURS FROM NEADS · 1,000+ HOURS IN ALL · RELEASED APRIL 2008"
+  },
+  {
+   "id": "a6_15",
+   "text": "Every seat on that floor was wired to a recorder. Almost every seat. There is a hole in the evidence, and the Commission put it in a footnote. Because of a technical issue, there are no Neads recordings of the senior weapons director and weapons director technician position responsible for controlling the Otis scramble. The one position that controlled the first fighters launched that morning is the one position with no tape.",
+   "exhibit": true,
+   "img": "ex_cr_note120",
+   "source": "The 9/11 Commission Report · Chapter 1, note 120",
+   "highlight": [
+    0.1,
+    0.4,
+    0.8,
+    0.1
+   ],
+   "stat": "CH. 1, NOTE 120 · \"NO NEADS RECORDINGS AVAILABLE\"",
+   "cap": "The one seat with no tape controlled the first scramble.",
+   "tone": "fear",
+   "motion": "slow",
+   "speed": 0.94
+  },
+  {
+   "id": "a7_ch",
+   "chapter": "ACT VII\nA PLANE THAT DID NOT EXIST",
+   "text": "The Commission's staff laid thirty hours of tape beside what Norad's officers had said under oath. But before anyone outside the building had heard a second of it, the country had already been given a different morning.",
+   "img": "ex_ss17_conflicting",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a7_1",
+   "text": "The eighteenth of September, two thousand one. One week after the attack, Norad publishes a one page timeline. Notification of American eleven at eight forty. United one seventy five at eight forty three. American seventy seven at nine twenty four. United ninety three: not applicable. And on the twenty third of May, two thousand three, Norad officials testified in public before the Commission, under oath, that the military was told United ninety three was hijacked at nine sixteen, and American seventy seven at nine twenty four.",
+   "stat": "SEPT 18, 2001 · 8:40 · 8:43 · 9:24 · N/A     MAY 23, 2003 · 9:16 · 9:24",
+   "cap": "One week after. One page. Then, under oath.",
+   "motion": "slow",
+   "tone": "curiosity",
+   "img": "norad_release_timeline",
+   "query": "9/11 Commission exhibit NORAD press release September 18 2001 response times document"
+  },
+  {
+   "id": "a7_4",
+   "exhibit": true,
+   "img": "ex_ss17_conflicting",
+   "source": "9/11 Commission Staff Statement No. 17 · \"Conflicting Accounts\" · p.18",
+   "highlight": [
+    0.1,
+    0.22,
+    0.8,
+    0.3
+   ],
+   "text": "A year later, the Commission staff answered with a section headed Conflicting Accounts. On nine sixteen: This statement was incorrect. There was no hijack to report at nine sixteen. United ninety three was proceeding normally at that time. On nine twenty four: This statement was also incorrect. The notice Neads received at nine twenty four was not about American seventy seven. It was that American eleven had not hit the World Trade Center and was heading for Washington.",
+   "stat": "\"THIS STATEMENT WAS INCORRECT.\"",
+   "cap": "\"...was not about American 77.\"",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a7_6",
+   "exhibit": true,
+   "img": "ex_ss17_conflicting",
+   "source": "9/11 Commission Staff Statement No. 17 · \"Conflicting Accounts\" · p.18",
+   "highlight": [
+    0.1,
+    0.54,
+    0.8,
+    0.14
+   ],
+   "text": "And on the fighters: Norad officials also stated that the Langley fighters were scrambled to respond to American seventy seven and or United ninety three. These statements were incorrect as well. The response to a phantom, the staff noted, is not recounted in a single public timeline or statement issued by either agency.",
+   "cap": "\"These statements were incorrect as well.\"",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a7_7",
+   "text": "So how does a hijack that never happened get a time stamp? The answer is one line in the Mission Crew Commander's handwritten log on the operations floor, entered at nine twenty four. It reads: American Airlines, number november three three four alpha alpha, hijacked.",
+   "img": "ex_cr_n334aa",
+   "stat": "9:24 · \"AMERICAN AIRLINES #N334AA HIJACKED\"",
+   "cap": "One line in the mission crew commander's log.",
+   "tone": "curiosity",
+   "exhibit": true,
+   "source": "The 9/11 Commission Report · Chapter 1, \"We Have Some Planes\" · NEADS MCC log, 9:24",
+   "highlight": [
+    0.12,
+    0.3,
+    0.76,
+    0.12
+   ],
+   "motion": "slow",
+   "speed": 0.95
+  },
+  {
+   "id": "a7_8",
+   "text": "November three three four alpha alpha is a tail number. It belongs to American eleven. The plane that had flown into the North Tower thirty eight minutes earlier.",
+   "img": "ex_ss17_conflicting",
+   "kinetic": {
+    "count": 38,
+    "suffix": " minutes after it hit the North Tower",
+    "sub": "N334AA — the tail number of American 11, logged as a hijack at 9:24"
+   },
+   "cap": "N334AA. American 11.",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a7_9",
+   "text": "Someone reading that log later took the entry for American seventy seven, and a public timeline was built on it. The Defense Department's inspector general put it in one sentence: a Norad colonel's lack of attention to the details on the Neads log led him to mistakenly believe that entry was American seventy seven.",
+   "video": "wads_opsfloor_dvids873438.mp4",
+   "videoQuery": "Western Air Defense Sector operations floor consoles DVIDS",
+   "cap": "\"...lack of attention to the details on the NEADS log.\"",
+   "tone": "fear"
+  },
+  {
+   "id": "a7_11",
+   "text": "There is a document that shows how the story got told that way. At the May two thousand three hearing, Commissioner John Lehman had asked why the Langley fighters flew east. Afterwards, Colonel Marr, the Neads commander, emailed the retired colonel who had given the testimony. The Commission obtained it under subpoena.",
+   "img": "marr_email",
+   "query": "9/11 Commission subpoenaed NORAD documents email exhibit scan Team 8",
+   "cap": "Obtained under the Commission's subpoena.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a7_12",
+   "text": "It begins: The answer on American seventy seven is not easy, nor is it pretty. My records show United ninety three reported as hijacked at nine sixteen local.",
+   "img": "marr_email",
+   "cap": "\"The answer on AA77 is not easy, nor is it pretty.\"",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a7_13",
+   "text": "And then this. It is easiest to explain the simultaneous scramble order with the American seventy seven notification as the scramble being against American seventy seven. It takes a lot of time to explain to the public that you're scrambling fighters against a plane heading away from the possible target.",
+   "img": "marr_email",
+   "stat": "\"IT IS EASIEST TO EXPLAIN...\"",
+   "cap": "\"...a plane heading away from the possible target.\"",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a7_14",
+   "text": "Both halves of his records were wrong. United ninety three was not hijacked until nine twenty eight. American seventy seven was never reported to Neads as hijacked at all. Put that to him in interview, he could name no other reason the fighters went up.",
+   "video": "eads_sector_rome_dvids913487.mp4",
+   "videoQuery": "Eastern Air Defense Sector Rome New York building exterior DVIDS",
+   "cap": "Interviewed, he could name no other factor.",
+   "tone": "fear"
+  },
+  {
+   "id": "a7_15",
+   "exhibit": true,
+   "img": "ex_ss17_discredit",
+   "source": "9/11 Commission Staff Statement No. 17 · p.19",
+   "highlight": [
+    0.1,
+    0.3,
+    0.8,
+    0.14
+   ],
+   "text": "Here is what the correction costs. In the staff's words: the military did not have fourteen minutes to respond to American seventy seven, as testimony last year suggested. It had at most one or two minutes, and the fighters were in the wrong place to be able to help. They had been responding to a report about an aircraft that did not exist.",
+   "stat": "NOT 14 MINUTES · ONE OR TWO",
+   "cap": "\"...an aircraft that did not exist.\"",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a7_16",
+   "exhibit": true,
+   "img": "ex_ss17_discredit",
+   "source": "9/11 Commission Staff Statement No. 17 · p.19",
+   "highlight": [
+    0.1,
+    0.45,
+    0.8,
+    0.09
+   ],
+   "text": "And on United ninety three: nor did the military have forty seven minutes to respond. By the time the military learned about the flight, it had crashed.",
+   "stat": "NOT 47 MINUTES · NONE",
+   "cap": "\"By the time the military learned about the flight, it had crashed.\"",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a8_ch",
+   "chapter": "ACT VIII\nNOBODY WAS CHARGED",
+   "text": "Which leaves the question the internet has asked for twenty five years. If the account was wrong, was it a lie? Here is what the record says.",
+   "img": "ex_ss17_discredit",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a8_1",
+   "text": "The Commission's chairman and vice chairman, Thomas Kean and Lee Hamilton, wrote afterwards that fog of war could explain why people were confused on the day. But not why the after action reports, the accident investigation, and the public testimony all advanced an account that was untrue.",
+   "videoQuery": "9/11 Commission Kean Hamilton press conference 2004 C-SPAN archive",
+   "cap": "\"...advanced an account of 9/11 that was untrue.\" — Kean & Hamilton",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a8_2",
+   "text": "In the summer of two thousand four, in a closed meeting, the ten commissioners debated whether to refer military and aviation officials to the Justice Department for criminal investigation over the false statements. They decided not to.",
+   "videoQuery": "9/11 Commission commissioners hearing dais 2004 C-SPAN archive",
+   "stat": "SUMMER 2004 · CRIMINAL REFERRAL DEBATED · DECLINED",
+   "cap": "Debated. Declined.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a8_3",
+   "text": "Instead, on the twenty ninth of July, two thousand four, the Commission's general counsel, Daniel Marcus, wrote to the inspectors general of the Defense Department and the Transportation Department. The letter said plainly that the Commission did not investigate whether the inaccurate statements were knowingly false.",
+   "img": "referral_letter",
+   "query": "9/11 Commission general counsel referral letter Inspector General July 2004 document",
+   "stat": "JULY 29, 2004 · REFERRED TO TWO INSPECTORS GENERAL",
+   "cap": "\"...did not investigate whether the inaccurate statements were knowingly false.\"",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a8_4",
+   "text": "Some of the people who built the timeline believed they were. John Farmer later wrote that Commission staff believed there was significant evidence the false statements were deliberately false. And in public: I've been in government and I know what spin is. It simply wasn't true.",
+   "videoQuery": "9/11 Commission staff hearing June 17 2004 C-SPAN archive",
+   "cap": "Farmer: \"It simply wasn't true.\"",
+   "tone": "anger"
+  },
+  {
+   "id": "a8_5",
+   "text": "Commissioner John Lehman saw it differently. Whether it was willful or just the fog of stupid bureaucracy, I don't know. But going after bureaucrats because they misled the Commission didn't seem to make sense to me.",
+   "videoQuery": "9/11 Commission hearing commissioners 2004 C-SPAN archive",
+   "cap": "Lehman: \"...willful or just the fog of stupid bureaucracy, I don't know.\"",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a8_6",
+   "text": "And the chairman, Thomas Kean: We to this day don't know why Norad told us what they told us. It was just so far from the truth. It's one of those loose ends that never got tied.",
+   "videoQuery": "9/11 Commission chairman Thomas Kean speaking 2004 C-SPAN archive",
+   "cap": "Kean: \"...one of those loose ends that never got tied.\"",
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a8_7",
+   "text": "Both inspectors general investigated. The Defense Department's report, dated the twenty seventh of May, two thousand five, found no evidence of intentional deception. It attributed the errors to poor investigating and record keeping.",
+   "video": "norad_joc_dvids873403.mp4",
+   "videoQuery": "NORAD USNORTHCOM Joint Operations Center DVIDS",
+   "stat": "DoD INSPECTOR GENERAL · MAY 27, 2005 · NO EVIDENCE OF INTENTIONAL DECEPTION",
+   "cap": "\"...poor investigating and record keeping.\"",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a8_8",
+   "text": "The Transportation Department's inspector general, after thirty four interviews and more than a thousand documents, reported in August two thousand six. We did not find evidence to conclude that aviation officials knowingly made false statements, purposely omitted accurate information, or intentionally failed to correct any inaccurate statement after becoming aware of it.",
+   "videoQuery": "FAA Air Traffic Control System Command Center Herndon Virginia operations floor DVIDS",
+   "stat": "DOT INSPECTOR GENERAL · CC-2006-085 · AUG 31, 2006",
+   "cap": "\"We did not find evidence to conclude that FAA officials knowingly made false statements.\"",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a8_9",
+   "text": "So say it exactly. Nobody was ever charged. There was no prosecution, no perjury finding, and neither inspector general referred anyone to the Justice Department, though both had the power to.",
+   "img": "ex_ss17_discredit",
+   "stat": "NOBODY WAS EVER CHARGED",
+   "motion": "slow",
+   "tone": "curiosity",
+   "cap": "No prosecution · no perjury finding · no Justice Department referral",
+   "extraHold": 20
+  },
+  {
+   "id": "a8_10",
+   "text": "Colonel Marr's own answer: I can't think of any incentive why we'd want to spin that. I'll be the first to admit that immediately after, in fact for a long time after, we were very confused with who was what and where. And one of the officers who had testified, shown the phantom American eleven under oath in June two thousand four, said he had not been aware of those facts when he testified the year before.",
+   "video": "wads_opsfloor_dvids873438.mp4",
+   "videoQuery": "air defense sector operations floor DVIDS",
+   "cap": "Marr: \"I can't think of any incentive why we'd want to spin that.\"",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a8_13",
+   "exhibit": true,
+   "img": "ex_ss17_discredit",
+   "source": "9/11 Commission Staff Statement No. 17 · p.19",
+   "highlight": [
+    0.1,
+    0.62,
+    0.8,
+    0.16
+   ],
+   "text": "Now the part that gets left out of every argument about this. The same page that took the official timeline apart also says this: We do not believe that an accurate understanding of the events of that morning reflects discredit on the operational personnel from Neads or aviation facilities. The Neads commanders and floor officers were proactive in seeking information, and made the best judgments they could based on the information they received.",
+   "stat": "\"REFLECTS NO DISCREDIT\"",
+   "cap": "\"...made the best judgments they could based on the information they received.\"",
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a8_14",
+   "text": "John Farmer, the man who pushed hardest for the referral, said the same of the floor. The information they got was bad information, but they reacted in a way that you would have wanted them to. The calls Marr and Nasypany made were the right ones.",
+   "video": "powell_interview_dvids812654.mp4",
+   "videoQuery": "former NYANG Tech Sgt Jeremy Powell recalls 9/11 response interview DVIDS",
+   "cap": "Farmer: \"The calls Marr and Nasypany made were the right ones.\"",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a8_16",
+   "exhibit": true,
+   "img": "ex_ss17_discredit",
+   "source": "9/11 Commission Staff Statement No. 17 · p.19",
+   "highlight": [
+    0.1,
+    0.8,
+    0.8,
+    0.1
+   ],
+   "text": "And here is the sting, in the Commission staff's own words. It was inaccurate accounts of what happened that created questions about supposed delays in the military's interception of the hijacked aircraft. The theories did not come from the tape. They came from the version told before anyone had heard it.",
+   "stat": "\"IT WAS INACCURATE ACCOUNTS...THAT CREATED QUESTIONS\"",
+   "cap": "The theories came from the wrong timeline, not the tape.",
+   "motion": "slow",
+   "tone": "anger"
+  },
+  {
+   "id": "a8_17",
+   "text": "What changed is concrete. There is now a Domestic Events Network: one telephone line between the agencies with jurisdiction over American airspace, and it never hangs up. And Operation Noble Eagle began the next day, and has never stopped. In the month after the tenth of September two thousand, Norad scrambled seven times. A year later, forty one.",
+   "videoQuery": "Operation Noble Eagle F-16 alert scramble DVIDS",
+   "stat": "7 SCRAMBLES → 41 · THE DOMESTIC EVENTS NETWORK",
+   "tone": "awe",
+   "video": "scramble_alert_dvids737138.mp4",
+   "kinetic": {
+    "count": 41,
+    "suffix": " scrambles, Sept 10 – Oct 10, 2001",
+    "sub": "Seven in the same window a year earlier. One open line between the agencies, never hung up."
+   }
+  },
+  {
+   "id": "coda1",
+   "text": "Five years later, in two thousand six, the journalist Michael Bronner sat down with Kevin Nasypany, the mission crew commander whose voice runs through every hour of that tape. Bronner writes that as Nasypany began talking about the theories that his fighters had shot United ninety three down, the corners of his mouth began to quiver, and then, to the surprise of both of them, he put his head in his hands and cried.",
+   "video": "wads_opsfloor_dvids873438.mp4",
+   "videoQuery": "air defense sector operations floor dim consoles DVIDS",
+   "motion": "slow",
+   "speed": 0.94,
+   "cap": "Five years later.",
+   "tone": "melancholy"
+  },
+  {
+   "id": "coda2",
+   "text": "Then he looked up and said this. Flight ninety three was not shot down. The individuals on that aircraft, the passengers, they actually took the aircraft down. Because of what those people did, I didn't have to do anything.",
+   "img": "flight93_memorial",
+   "query": "Flight 93 National Memorial Shanksville Pennsylvania wall of names photograph",
+   "motion": "slow",
+   "speed": 0.94,
+   "cap": "\"Because of what those people did, I didn't have to do anything.\"",
+   "tone": "melancholy"
+  },
+  {
+   "id": "coda3",
+   "text": "I have spent this whole film reading time stamps against the official story, and Bronner wrote the warning I keep coming back to. Poring over transcripts that undercut the official account, one is tempted to get caught up in a game of gotcha. For those on the operations floor in the thick of it that day, the cold revelations of hindsight are a bitter pill to swallow.",
+   "video": "eads_sector_rome_dvids913487.mp4",
+   "videoQuery": "Eastern Air Defense Sector Rome New York exterior dusk DVIDS",
+   "motion": "slow",
+   "speed": 0.94,
+   "cap": "\"...a game of gotcha.\"",
+   "tone": "melancholy"
+  },
+  {
+   "id": "coda4",
+   "text": "Every true thing anyone knows about that morning came off a recording. And we have the recordings only because two agencies were subpoenaed for them, the aviation agency in October two thousand three, and Norad on the seventh of November. Nobody knew what it meant until somebody pulled the tape.",
+   "exhibit": true,
+   "img": "ex_foia_letter",
+   "source": "NORAD-USNORTHCOM Directorate of Public Affairs · FOIA release letter · April 9, 2008",
+   "highlight": [
+    0.1,
+    0.4,
+    0.8,
+    0.14
+   ],
+   "speed": 0.94,
+   "cap": "\"...six separate CDs labeled with various channels.\"",
+   "tone": "melancholy"
+  },
+  {
+   "id": "bridge",
+   "text": "If what the air defense tapes turned out to hold interests you, wait until you see what the one recording from that morning the public has never been allowed to hear actually contains. Watch What the Cockpit Recorder on United ninety three Actually Captured, right here on this channel. And subscribe to Black Box Breakdown, so you don't miss the next tape that gets pulled.",
+   "img": "flight93_memorial",
+   "cap": "Next: what the United 93 cockpit recorder captured.",
+   "tone": "curiosity"
+  }
+ ]
+}

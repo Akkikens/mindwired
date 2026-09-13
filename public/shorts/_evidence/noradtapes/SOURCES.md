@@ -72,3 +72,22 @@ own terms, since air-sovereignty alert operations is exactly this episode's subj
 The first-30s real-motion requirement is **not yet satisfied**; the archival scout's
 report decides whether it can be, or whether the honest fallback is the tape itself
 visualised (the 17.1M-view outlier on this subject is audio plus a clock).
+
+## Locating specific transmissions inside the tapes (2026-09-12 finding)
+
+`3_ZBW_127_SEC46R_1204-1240_UTC.mp3` is Boston Center Sector 46R, **12:04–12:40 UTC =
+08:04–08:40 ET** — the window containing the 8:24:38 transmission. Duration 2,256 s against
+2,160 s of wall time, so it runs roughly real-time, but a whisper pass over the 8:23:30–
+8:26:00 region returned essentially silence plus one unintelligible fragment.
+
+That is expected, not a failure: these are squelch-gated 8 kHz channel recordings and the
+hijacker transmission is famously faint and garbled — the Boston controller himself could
+not make it out live, which is the whole point of the episode. **Do not try to machine-
+transcribe your way to these moments.** Work from the published transcript in Staff
+Statement 17 / Commission Chapter 1, find the beat by ear against the printed wording, and
+mark the in/out points by hand. Budget editor time for this; it is the one genuinely
+manual step in the episode.
+
+Also note: the NEADS channels carry a periodic automated **GMT** time announcement
+("hours 26, minutes 20" = 08:26 EDT), which is the reliable way to locate a moment on the
+NEADS side.

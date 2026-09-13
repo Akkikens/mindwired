@@ -789,8 +789,7 @@ their duties on 9-11."*
 - **[DISPUTED]** OIG says **five** controllers; the contemporaneous press says **six**,
   plus ~10 other employees present. Use OIG's five and footnote the press.
 - **[CONFIRMED — the chronology that ties the whole film together]** The destroyed tape
-  surfaced during the Commission's **Sept–Oct 2003** field interviews; the QA manager had
-  denied Commission staff access before destroying it; **that discovery triggered the
+  surfaced during the Commission's **Sept–Oct 2003** field interviews; **that discovery triggered the
   15/16 October 2003 FAA subpoena, which established the precedent for the 7 November 2003
   NORAD subpoena — which is how we have the NEADS tapes at all.**
 
@@ -811,6 +810,15 @@ their duties on 9-11."*
   Museum's use of victims' final voicemails drew family criticism in 2014.
   **NEADS/NORAD channel audio is the safe material; victim audio is the material with a
   documented history of family objection. The episode must keep that line explicit.**
+
+## ⚠ CORRECTION MADE 2026-09-12 (caught during scripting)
+
+An earlier line in this file said the quality assurance manager "had denied Commission
+staff access before destroying" the tape. **That is chronologically impossible and has
+been struck** — the tape was destroyed between December 2001 and February 2002, and the
+9/11 Commission was not created until late November 2002. The destruction preceded the
+Commission entirely; what the Commission's autumn 2003 field interviews did was *discover*
+that the tape had existed and been destroyed. Do not reinstate the struck claim.
 
 ## ⛔ ADDITIONS TO THE "MUST NOT SAY" LIST
 9. **"TK means trunk."** It means Technician.
