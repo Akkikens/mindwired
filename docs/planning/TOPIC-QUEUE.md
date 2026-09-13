@@ -1,6 +1,123 @@
 # Topic queue (Akshay, 2026-07-12 — from YT Studio "Inspiration")
 
-## ⭐⭐ noradtapes (Black Box Breakdown) — validated 2026-09-12, NEXT EPISODE, ship fast
+## ⭐⭐ thegrounding (Black Box Breakdown) — validated 2026-09-13, PASS, next episode
+
+**The day America landed every plane.** The FAA's national ground stop of 11 September
+2001 — every civil aircraft over the United States ordered down at 9:42 a.m., executed in
+roughly two hours, by a system that had never rehearsed it and had no procedure for it.
+The natural sequel to `noradtapes`: that episode is the morning's failure, this is the one
+thing that morning that worked.
+
+### Step 0 — loop closure: BLOCKED-ON-DATA (2026-09-13)
+`noradtapes` and `biosphere2` published today — under 48h, escape hatch (b), DIAGNOSIS DUE
+2026-09-15 recorded. **But `groundzeroair` (Sep 10), `colossalsquid` (Sep 8) and
+`projecthailmary` (Aug 31) are all past 48h and all under 200 views, with no Studio numbers
+available this session.** Escape hatch (c) invoked to proceed. **This is a real debt, not a
+formality:** three consecutive weak launches with no impressions data means we cannot tell
+topic demand from packaging, and those two diagnoses point at opposite fixes. Get the
+numbers before the episode after this one.
+
+### Steps 1-2 — the sweep (live yt-dlp, 2026-09-13, 6 queries)
+
+**PASS, extreme class.**
+
+| Ratio | Views / subs | Date | Video |
+|---|---|---|---|
+| **517.6:1** | 734,922 / 1,420 | 2020-09-21 | blind0x — 9/11: Cleared for Chaos |
+| **243.3:1** | 960,970 / 3,950 | 2022-06-05 | Kennedy Tower ATC Recording |
+| **214.3:1** | 1,774,787 / 8,280 | **2026-02-05** | Aaron Atlases — How 9/11 Affected America's Airspace |
+| **170.5:1** | 1,425,795 / 8,360 | 2019-08-20 | 9/11/2001 Aviation Audio Transmissions |
+| **97.9:1** | 234,023 / 2,390 | **2026-09-11** | Kalitta Air — The Night America Was Grounded, This 747 Took Off |
+| 47.4:1 | 98,144 / 2,070 | 2021-04-25 | Operation Yellow Ribbon / Gander |
+| 34.2:1 | 3,624,689 / 106,000 | 2009 | Smithsonian NASM — FAA Closure of US Airspace |
+
+**Headline:** Aaron Atlases, **214:1 at 1.77M views on 8,280 subs, seven months old.**
+Extreme class and fresh — the combination the channel rarely gets.
+**Freshest signal:** Kalitta Air did **234,023 views in two days** (uploaded 11 Sept 2026)
+on a 2,390-sub *corporate* channel with no distribution advantage whatsoever.
+
+**Ceiling proof (1M+ on the exact subject):** AIRBOYD "9/11 Airspace Shutdown With
+Annotated Timeline" **4,020,741** — and note that is precisely our format. Plus WMUR
+3,757,442; Smithsonian 3,624,689; Koller's realtime dashboard 17,113,211.
+
+**Saturation check — NOT the rogue-planets pattern.** A fresh farm cluster exists (Piloris
+744 views / 2 subs; THE INNER HISTORY 1,087 / 31; Black Box Stories 143 / 17 — that last
+one is running *our exact Sliney angle* and dying). But the farms coexist with Kalitta's
+234K-in-two-days breakout, which means distribution is live and the ceiling is open. Same
+shape as biosphere2, opposite of rogue planets.
+
+### Step 3 — recognition: 3/3, with a bridge constraint
+Name test: 9/11 is the highest-recognition subject on earth. Mainstream footprint: total,
+and *Come From Away* — a Tony-winning Broadway musical about Gander — put the grounding
+itself in front of a mass audience. Alive right now: four fresh uploads on this subject in
+the last three weeks, one of them at a quarter-million views.
+
+**⚠ The bridge constraint: "Operation Yellow Ribbon" is NOT a recognised noun.** A cold
+scroller does not know the phrase. Every title concept must lead on 9/11 plus a concrete
+number; concepts leading on the operation's name are auto-rejected.
+
+**Currency: STRONG but decaying.** This is the 25th-anniversary tail. Ship inside two to
+three weeks or the pool shrinks.
+**Ceiling class:** giant-name subject, mid-tier framing.
+
+### Step 4 — sensitivity: fires, but lightly
+9/11, so the gate fires — but this is the story that *worked*. No contested cause, no
+accusation, no one to defame. Ben Sliney is living, has spoken publicly for two decades and
+played himself in the film *United 93*. Gander residents have been interviewed for
+twenty-five years and a hit musical.
+
+**⚠ Footage caution: Canadian material is NOT automatically public domain.** US-gov PD
+logic does not transfer — Crown copyright applies to Canadian government works, and the
+Gander archival is largely CBC (broadcast, banned). Plan the Gander act on stills and
+interviews we can clear, or carry it on narration over US-side footage.
+**Already owned from noradtapes:** the FAA/Herndon research, Sliney's own quotes, the
+SCATANA→ESCAT rewrite, the Domestic Events Network, the DOT IG report, and the Smithsonian
+and DVIDS asset paths.
+
+**⚠ NUMBER NOT YET VERIFIED:** the competitor titles use "4,546 planes"; History.com quotes
+Sliney as "700 of the over 4,000 planes in the air." **Do not assert a hard figure until a
+primary FAA source is found.** Say "more than four thousand" until then.
+
+### Step 4.5 — LOCKED PACKAGE (ctr-engine Run A, 2026-09-13)
+
+```
+Title: 4,000 Planes. Two Hours. One Order.                      (34 chars)
+  alternates: It Was His First Day. He Grounded the Country.     (45)
+              America Closed Its Sky. Nobody Had Ever Tried.     (44)
+  Scored (curiosity / first-3-words / payoff honesty / mobile length):
+    A  8 / 9 / 10 / 9 = 9.00   ← numbers ARE the story here, which is when they work
+    B  9 / 8 /  9 / 8 = 8.50   ← the Sliney hook; strongest curiosity, weakest honesty
+                                  (he ordered it, he did not do it alone)
+    C  9 / 8 /  9 / 8 = 8.50
+  Auto-rejected: anything leading on "Operation Yellow Ribbon" (unrecognised noun).
+
+Thumbnail A (primary): a radar scope crawling with aircraft tracks — the same green
+  air-picture used on noradtapes, which gives the two episodes a shared visual grammar
+  and starts a series identity. Zero text.
+  asset: DVIDS 873438 (Western Air Defense Sector), ALREADY ON DISK, PD.
+Thumbnail B: an airport ramp jammed with parked airliners, wingtip to wingtip, nose to
+  tail — the physical absurdity of four thousand aircraft with nowhere to go.
+  asset: NEEDS SOURCING — probe Commons/DVIDS for ramp-congestion imagery.
+Thumbnail C: an empty sky over an airport at midday. Hardest to read at 170px; fallback.
+
+Suggested-adjacency: AIRBOYD "9/11 Airspace Shutdown With Annotated Timeline" 4.02M
+  https://youtu.be/xh4V9PZT2VY / Smithsonian NASM 3.62M https://youtu.be/bo1ZtpKqlYw /
+  Aaron Atlases 1.77M https://youtu.be/rBCpN_25peE — riff, never clone.
+
+First-30s handoff: real motion of a radar picture dense with traffic, then the 9:42 order.
+  We own the scope footage already. Open on the number, not on Sliney.
+```
+
+### The spine
+The protocol did not exist. Herndon had no authority written down to land a continent, the
+military's SCATANA plan contemplated shutting off the navigation aids entirely, and the man
+who gave the order was on his **first day** in the job. Then: 9:42, every aircraft to the
+nearest airport, 700 down within ten minutes, and the diversions that turned a Newfoundland
+town of ten thousand into host to thirty-eight aircraft. Close on what it became — SCATANA
+replaced by ESCAT in 2007, and the Domestic Events Network, the standing open line that now
+exists precisely because on that morning there wasn't one.
+
+## ✅ SHIPPED 2026-09-13 — noradtapes (Black Box) — published as "The Tapes That Broke NORAD's 9/11 Story" (kl_rTye4ocA)
 
 **"We Have Some Planes." Nobody Knew What It Meant.** — the 34 minutes of 9/11 air
 defense, told entirely through the recordings: the FAA/Boston Center tapes and the
