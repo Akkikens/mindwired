@@ -10,9 +10,9 @@
       "id": "h1",
       "video": "lander_1.mp4",
       "videoQuery": "crab defending bait lander",
-      "text": "A laboratory bench. A scientist opens the gut of an animal that has spent its entire life in permanent darkness, seven kilometres below the surface of the Pacific. Inside it is a blue fibre.",
-      "stat": "THE HADAL ZONE · BELOW 6,000 METRES",
-      "cap": "It had never seen sunlight. It still had our clothing inside it.",
+      "text": "An animal that has spent its entire life in permanent darkness, seven kilometres below the Pacific. A scientist opens its gut. Inside is a blue fibre.",
+      "stat": "AMPHIPODS · THE DEEP SEA'S SCAVENGERS",
+      "cap": "It had never seen sunlight. It still had our fibres inside it.",
       "motion": "slow",
       "tone": "curiosity"
     },
@@ -25,11 +25,11 @@
     },
     {
       "id": "h3",
+      "text": "The animals they examined are amphipods. Scavengers, about the size of your thumb, and the dominant scavenging animal in the deepest places on Earth. Wherever something dies down there, they arrive.",
+      "cap": "Deep-sea scavengers, arriving at bait.",
+      "tone": "curiosity",
       "video": "amphipod_1.mp4",
-      "videoQuery": "giant isopod",
-      "text": "The animal is an amphipod. A scavenger, about the size of your thumb, and the dominant scavenging animal in the deepest places on Earth.",
-      "cap": "Amphipod. The deep sea's cleanup crew.",
-      "tone": "curiosity"
+      "videoQuery": "giant isopod"
     },
     {
       "id": "h4",
@@ -89,8 +89,9 @@
     {
       "id": "a1_ch",
       "chapter": "ACT I\nTHE ZONE THAT BEGINS AT SIX THOUSAND METRES",
-      "img": "trenchmap",
-      "tone": "curiosity"
+      "img": "deepframe",
+      "tone": "curiosity",
+      "text": "To understand what was found, you have to understand where. And the where is stranger than most people picture."
     },
     {
       "id": "a1_1",
@@ -145,17 +146,17 @@
     },
     {
       "id": "a1_8",
-      "video": "amphipod_3.mp4",
-      "videoQuery": "isopod",
       "text": "Which makes them the perfect animal to test. Whatever is falling into the trench ends up passing through them.",
       "cap": "Everything that falls, they eat.",
-      "tone": "curiosity"
+      "tone": "curiosity",
+      "img": "amphipodreal"
     },
     {
       "id": "a2_ch",
       "chapter": "ACT II\nTHE ANIMAL THAT GOT THERE FIRST",
       "img": "snailfish",
-      "tone": "awe"
+      "tone": "awe",
+      "text": "Before we get to the contamination, one animal deserves its own chapter. Because it got there first, and what it gave up to stay is extraordinary."
     },
     {
       "id": "a2_1",
@@ -267,7 +268,8 @@
       "id": "a3_ch",
       "chapter": "ACT III\nNINETY ANIMALS, SIX TRENCHES",
       "img": "trenchmap",
-      "tone": "fear"
+      "tone": "fear",
+      "text": "Now the measurement. Ninety animals, six trenches, and a method simple enough to describe in one sentence."
     },
     {
       "id": "a3_1",
@@ -300,16 +302,15 @@
         "suffix": "% had microparticles inside",
         "sub": "65 of 90 animals · six trenches · 7,000–10,890 m"
       },
-      "img": "trenchmap",
+      "img": "deepframe",
       "text": "Over seventy two percent of them had at least one. Sixty five animals out of ninety.",
       "tone": "fear"
     },
     {
       "id": "a3_5",
-      "video": "amphipod_4.mp4",
-      "videoQuery": "shrimp deep sea",
       "text": "I want to be careful with that number, because ninety animals is a small sample and the honest thing is to say so out loud. This is not a census of the deep ocean. It is ninety animals, from six places, examined one at a time.",
-      "tone": "curiosity"
+      "tone": "curiosity",
+      "img": "amphipodreal"
     },
     {
       "id": "a3_6",
@@ -342,7 +343,7 @@
         "suffix": "% of them contained fibres",
         "sub": "fragments appeared in only 16% · fibres are the dominant form"
       },
-      "img": "trenchmap",
+      "img": "deepframe",
       "text": "Most of what they found was not fragments of hard plastic. It was fibre. Fibres appeared in eighty four percent of the animals. Fragments in only sixteen.",
       "tone": "fear"
     },
@@ -352,8 +353,8 @@
       "text": "And one item dominated. Blue fibres, in sixty six percent of all the animals. With, and I am quoting the paper, all amphipods sampled from the Mariana Trench containing at least one of these.",
       "extraHold": 14,
       "tone": "fear",
-      "video": "fibre_3.mp4",
-      "videoQuery": "the mud maidens box core",
+      "video": "amphipod_3.mp4",
+      "videoQuery": "isopod",
       "stat": "JAMIESON ET AL. · 2019 · MOST PREVALENT ITEM INGESTED"
     },
     {
@@ -370,7 +371,7 @@
         "suffix": " materials identified",
         "sub": "nylon · polyethylene · polyamide · polyvinyl alcohol · PVC · rayon · lyocell · ramie"
       },
-      "img": "trenchmap",
+      "img": "deepframe",
       "text": "They ran a subsample through infrared spectroscopy to find out what the fibres actually were. Nylon. Polyethylene. Polyamide. Polyvinyl alcohol. P V C, often with inorganic filler. Rayon and lyocell, which are semi synthetic. And ramie, which is a plant.",
       "tone": "curiosity"
     },
@@ -410,8 +411,9 @@
     {
       "id": "a4_ch",
       "chapter": "ACT IV\nTHE CHEMICALS THAT WERE SUPPOSED TO BE GONE",
-      "img": "trenchmap",
-      "tone": "fear"
+      "img": "deepframe",
+      "tone": "fear",
+      "text": "The plastics are the visible half. The other half is chemical, it is older, and most of it was restricted before anyone reading this was born."
     },
     {
       "id": "a4_1",
@@ -498,7 +500,8 @@
       "id": "a5_ch",
       "chapter": "ACT V\nFOUR HUNDRED TIMES",
       "img": "trenchmap",
-      "tone": "fear"
+      "tone": "fear",
+      "text": "The third measurement is not in the animals. It is in the mud, and it carries a number I had to read twice."
     },
     {
       "id": "a5_1",
@@ -529,7 +532,7 @@
         "suffix": "× the global deep-sea average",
         "sub": "24–220 µg per square metre per year · accumulating in the trenches"
       },
-      "img": "trenchmap",
+      "img": "deepframe",
       "text": "They found the trenches are accumulating mercury at between twenty four and two hundred and twenty micrograms per square metre per year. Greater than the global deep sea average, they wrote, by a factor of up to four hundred.",
       "tone": "fear"
     },
@@ -557,7 +560,7 @@
         "suffix": " ng/g after 1950",
         "sub": "51 ± 14 before 1900 → 81 ± 32 after 1950 · the cores hold the change"
       },
-      "img": "trenchmap",
+      "img": "deepframe",
       "text": "The cores hold the change as a timeline. Before nineteen hundred, an average of fifty one nanograms per gram. After nineteen fifty, eighty one.",
       "tone": "fear"
     },
@@ -571,8 +574,9 @@
     {
       "id": "a6_ch",
       "chapter": "ACT VI\nWHY IT ENDS UP AT THE BOTTOM",
-      "img": "trenchmap",
-      "tone": "curiosity"
+      "img": "deepframe",
+      "tone": "curiosity",
+      "text": "Which leaves the question the measurements cannot answer on their own. Why does it end up down there at all?"
     },
     {
       "id": "a6_1",
@@ -641,11 +645,10 @@
     },
     {
       "id": "coda3",
-      "video": "amphipod_6.mp4",
-      "videoQuery": "hermit crab",
       "text": "And in the same trench, in every single animal a research team pulled up and opened, there was a blue fibre.",
       "cap": "Every single one.",
-      "tone": "melancholy"
+      "tone": "melancholy",
+      "img": "amphipodreal"
     },
     {
       "id": "coda4",
