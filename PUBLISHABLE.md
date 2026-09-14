@@ -12,21 +12,40 @@ the loop is carrying.
 
 ## 🟠 IN FLIGHT
 
-### thegrounding — "4,500 Planes Had to Land. There Was No Plan." (Black Box)
-**Status: rendering on GCE at ~89%** (`render-thegrounding-2361`). 44,179 frames, 4K.
-Body 24:16 + 16.1s outro ≈ **24:32**.
-**Package:** none yet — METADATA still to write. Fact base `CLAIMS-thegrounding.md` is done.
-**Visual pool:** 66 distinct assets across 112 scenes, heaviest at 3.6% — the fix for the
-repetition problem, and now enforced by a preflight gate rather than intended.
+### apollo1 — "The Apollo 1 Transcript That Doesn't Exist" (mindwired)
+**Status: rendering on GCE** (`render-apollo1-4873`, c2d-highcpu-32, chunked 4K).
+108 scenes, body 22:53 + 17.6s mindwired outro ≈ **23:10**. Preflight 0 blocking.
+**Package: DONE** — `METADATA-apollo1.md`, three thumbnail files built and tracked.
+**Spine:** the Review Board's own words — the second transmission "is garbled and is,
+therefore, subject to wide variation of interpretation… and no definitive transcription
+is possible." It printed three readings and chose none; neither does the episode.
 
 | # | Blocker | Who |
 |---|---|---|
-| 1 | Master must land and verify (rescue fetcher armed — ffprobe BEFORE the VM is deleted) | automatic |
-| 2 | `METADATA-thegrounding.md` — title, description, chapters, tags, pinned comment | me, ~30 min |
-| 3 | **Thumbnails not built** — no concepts locked yet either | me |
-| 4 | SRT off the master | me, 5 min |
-| 5 | Chapters must be computed from the manifest, **not** `gen_doc_srt.py` — it drifted 19s on the sister episode | me |
-| 6 | Human pulls still owed (in CLAIMS): the FAA's own 403'd pages, the Sliney MFR from NARA, Advisory 036, the NAV CANADA backgrounder | **human** |
+| 1 | Master must land and verify (ffprobe BEFORE the VM is deleted) | automatic |
+| 2 | SRT off the master | me, 5 min |
+| 3 | Paste the CC BY-SA 2.0 credit for the LC-34 memorial photo into the description | **licence obligation** |
+| 4 | Test & Compare: 3 thumbnails at publish; title test only AFTER it settles | human |
+
+---
+
+## 🟡 RENDERED, NOT YET PUBLISHED
+
+### thegrounding — "4,500 Planes Had to Land. There Was No Plan." (Black Box)
+**Master landed and verified:** `out/thegrounding_gce.mp4`, 24:32, 4K, 3.39 GB.
+**Package:** `METADATA-thegrounding.md` written 2026-09-13 (title, description,
+chapters, tags, pinned comment all done).
+**Visual pool:** 66 distinct assets across 112 scenes, heaviest at 3.6%.
+**Known and accepted:** 16 scenes are pillarboxed from portrait sources. Akshay's call
+2026-09-13 — "i dont want u to rework on the vid the grounding iots okay". Both root
+causes are fixed for every future episode (a preflight portrait gate and a portrait
+guard in the footage fetcher), so this cannot recur.
+
+| # | Blocker | Who |
+|---|---|---|
+| 1 | **Thumbnails not built** — no concepts locked either | me |
+| 2 | SRT off the master | me, 5 min |
+| 3 | Human pulls still owed (in CLAIMS): the FAA's own 403'd pages, the Sliney MFR from NARA, Advisory 036, the NAV CANADA backgrounder | **human** |
 
 ---
 
@@ -89,6 +108,16 @@ giant name, chosen off real launch data.
 ---
 
 ## HOUSEKEEPING
+
+- **⚠ MUSIC BEDS ARE NOT IN GIT.** `.gitignore` line 12 is `*.mp3`, so the eight
+  `public/beds/bed_*.mp3` files have never been version-controlled. They were missing
+  from this checkout entirely on 2026-09-13 and were recovered by copying from a second
+  clone at `~/mindwired`. If that copy is ever cleared, the approved bed set is gone and
+  has to be re-downloaded from the YouTube Audio Library by hand. Worth force-adding
+  them (the thumbnails already get force-added past the same ignore).
+- **⚠ `node_modules` was empty** on 2026-09-13; `npm install` restores it. Local
+  `remotion still` silently fails with "could not determine executable to run" until
+  it is.
 
 - **Root directory litter:** `Warning.mp4`, `Men.mp4`, `Wrong.mp4`, `Proof..mp4`,
   `Quiet..mp4` and others — the mp4-filename-is-title rule appears to have truncated titles
