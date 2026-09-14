@@ -1,0 +1,720 @@
+1
+00:00:00,380 --> 00:00:06,154
+An animal that has spent its entire life in permanent darkness, seven kilometres below the
+
+2
+00:00:06,154 --> 00:00:09,940
+Pacific. A scientist opens its gut. Inside is a blue fibre.
+
+3
+00:00:11,130 --> 00:00:15,880
+Not on the seafloor beside it. Inside it. In the hindgut, where food goes.
+
+4
+00:00:17,060 --> 00:00:18,684
+The animals they examined are amphipods.
+
+5
+00:00:18,684 --> 00:00:22,380
+Scavengers, about the size of your thumb, and the dominant scavenging animal in the deepest
+
+6
+00:00:22,380 --> 00:00:25,020
+places on Earth. Wherever something dies down there, they arrive.
+
+7
+00:00:26,190 --> 00:00:30,806
+In twenty nineteen, a team published what they found after examining ninety of them, pulled
+
+8
+00:00:30,806 --> 00:00:33,190
+from six of the deepest trenches on the planet.
+
+9
+00:00:34,350 --> 00:00:38,989
+Over seventy two percent of the individuals examined contained at least one microparticle.
+
+10
+00:00:38,989 --> 00:00:40,690
+Sixty five animals out of ninety.
+
+11
+00:00:42,200 --> 00:00:47,548
+And in the deepest trench of all, the Mariana, the figure was not seventy two percent.
+
+12
+00:00:47,548 --> 00:00:48,730
+It was one hundred.
+
+13
+00:00:49,920 --> 00:00:54,224
+Every single animal they brought up from the bottom of the world had something synthetic inside
+
+14
+00:00:54,224 --> 00:00:54,360
+it.
+
+15
+00:00:55,490 --> 00:00:59,539
+This is the story of how we measured that, what else is down there with it, and the one
+
+16
+00:00:59,539 --> 00:01:01,680
+question the measurements still cannot answer.
+
+17
+00:01:02,860 --> 00:01:04,340
+You're watching mindwired.
+
+18
+00:01:05,500 --> 00:01:08,420
+What they found inside the deepest animals on Earth.
+
+19
+00:01:09,620 --> 00:01:12,978
+To understand what was found, you have to understand where.
+
+20
+00:01:12,978 --> 00:01:15,880
+And the where is stranger than most people picture.
+
+21
+00:01:17,070 --> 00:01:21,023
+Oceanographers give the deepest water its own name. The hadal zone.
+
+22
+00:01:21,023 --> 00:01:25,270
+It begins at six thousand metres and runs to just under eleven thousand.
+
+23
+00:01:26,460 --> 00:01:30,269
+It is not a layer that covers the ocean. It is a set of holes in it.
+
+24
+00:01:30,269 --> 00:01:35,534
+Trenches, mostly around the rim of the Pacific, narrow and steep and separated from each other
+
+25
+00:01:35,534 --> 00:01:38,110
+by thousands of kilometres of shallower water.
+
+26
+00:01:39,350 --> 00:01:43,884
+At the bottom of the deepest one, the water above you weighs down at more than a thousand times
+
+27
+00:01:43,884 --> 00:01:45,220
+the pressure at the surface.
+
+28
+00:01:46,360 --> 00:01:47,790
+You cannot simply go there.
+
+29
+00:01:47,790 --> 00:01:51,920
+Almost everything we know about hadal animals comes from a machine that falls.
+
+30
+00:01:53,110 --> 00:01:57,078
+A baited lander is dropped over the side of a ship with weights attached.
+
+31
+00:01:57,078 --> 00:01:58,382
+It free falls for hours.
+
+32
+00:01:58,382 --> 00:02:02,350
+It sits on the bottom in the dark with a camera and a trap, and it waits.
+
+33
+00:02:03,530 --> 00:02:07,650
+Then it releases the weights and floats back up, and whatever came to the bait comes with it.
+
+34
+00:02:08,840 --> 00:02:13,860
+What comes to the bait, almost always, is amphipods. They arrive in their thousands.
+
+35
+00:02:13,860 --> 00:02:18,940
+In the hadal zone they are the animals that clean up everything that dies above them.
+
+36
+00:02:20,170 --> 00:02:22,350
+Which makes them the perfect animal to test.
+
+37
+00:02:22,350 --> 00:02:25,570
+Whatever is falling into the trench ends up passing through them.
+
+38
+00:02:26,710 --> 00:02:30,856
+Before we get to the contamination, one animal deserves its own chapter.
+
+39
+00:02:30,856 --> 00:02:35,060
+Because it got there first, and what it gave up to stay is extraordinary.
+
+40
+00:02:36,260 --> 00:02:40,264
+Before we get to what is in them, it is worth knowing what lives down there at all.
+
+41
+00:02:40,264 --> 00:02:42,290
+Because the answer is stranger than empty.
+
+42
+00:02:43,480 --> 00:02:46,327
+This is the hadal snailfish. Pseudoliparis swirei.
+
+43
+00:02:46,327 --> 00:02:51,680
+It lives between six and eight thousand metres, and it is the deepest vertebrate in the ocean.
+
+44
+00:02:52,860 --> 00:02:58,970
+It has no scales. It is barely pigmented. It looks, honestly, like something unfinished.
+
+45
+00:03:00,140 --> 00:03:04,556
+And in twenty twenty three, a team sequenced its genome and found something nobody expected
+
+46
+00:03:04,556 --> 00:03:06,400
+about how long it has been down there.
+
+47
+00:03:07,590 --> 00:03:12,069
+The hadal snailfish, they wrote, may have entered and fully adapted to such extreme
+
+48
+00:03:12,069 --> 00:03:14,660
+environments only in the last few million years.
+
+49
+00:03:16,180 --> 00:03:19,310
+A few million years. In evolutionary terms that is recent.
+
+50
+00:03:19,310 --> 00:03:24,220
+And having got there, it spread into separate Pacific trenches within a million years more.
+
+51
+00:03:25,400 --> 00:03:30,712
+Getting there cost it. The genome shows it lost its pigmentation. It lost visual genes.
+
+52
+00:03:30,712 --> 00:03:33,520
+It lost genes for calcifying its own skeleton.
+
+53
+00:03:34,760 --> 00:03:40,426
+And it gained things. A compound called T M A O that stops proteins collapsing under pressure.
+
+54
+00:03:40,426 --> 00:03:45,850
+And a duplicated gene for ferritin, which raised its tolerance to the reactive oxygen that
+
+55
+00:03:45,850 --> 00:03:48,080
+would otherwise tear its cells apart.
+
+56
+00:03:49,280 --> 00:03:54,680
+For decades that was almost everything we knew. We had specimens. We did not have behaviour.
+
+57
+00:03:55,860 --> 00:04:00,981
+Then, this year, a team put a baited lander at nearly seven thousand metres, filmed what came,
+
+58
+00:04:00,981 --> 00:04:05,340
+and tracked eight hundred and sixty eight separate sightings of individual fish.
+
+59
+00:04:06,520 --> 00:04:10,926
+It moves slowly. About seven tenths of its own body length every second.
+
+60
+00:04:10,926 --> 00:04:14,720
+A gentle, unhurried animal in the most hostile place there is.
+
+61
+00:04:15,900 --> 00:04:17,357
+And it finds food by smell.
+
+62
+00:04:17,357 --> 00:04:22,483
+The same study estimated it first picks up the scent of bait from about three hundred and fifty
+
+63
+00:04:22,483 --> 00:04:23,130
+metres away.
+
+64
+00:04:24,360 --> 00:04:26,917
+That is the world we are talking about.
+
+65
+00:04:26,917 --> 00:04:32,950
+Sparse, slow, patient, and until very recently, untouched by us in any way we could measure.
+
+66
+00:04:34,150 --> 00:04:35,438
+Now the measurement.
+
+67
+00:04:35,438 --> 00:04:40,910
+Ninety animals, six trenches, and a method simple enough to describe in one sentence.
+
+68
+00:04:42,050 --> 00:04:46,986
+The microplastics study is the one with the hardest numbers, so it is worth being precise about
+
+69
+00:04:46,986 --> 00:04:47,610
+what it did.
+
+70
+00:04:48,850 --> 00:04:54,847
+Six trenches around the Pacific Rim. Japan. Izu Bonin. Mariana. Kermadec. New Hebrides.
+
+71
+00:04:54,847 --> 00:05:01,120
+And Peru Chile. Depths from seven thousand metres to ten thousand eight hundred and ninety.
+
+72
+00:05:02,700 --> 00:05:05,069
+From those six trenches, ninety amphipods.
+
+73
+00:05:05,069 --> 00:05:10,090
+The researchers opened the hindgut of each one and looked for anything that was not food.
+
+74
+00:05:11,270 --> 00:05:15,940
+Over seventy two percent of them had at least one. Sixty five animals out of ninety.
+
+75
+00:05:17,120 --> 00:05:22,466
+I want to be careful with that number, because ninety animals is a small sample and the honest
+
+76
+00:05:22,466 --> 00:05:26,334
+thing is to say so out loud. This is not a census of the deep ocean.
+
+77
+00:05:26,334 --> 00:05:29,860
+It is ninety animals, from six places, examined one at a time.
+
+78
+00:05:31,030 --> 00:05:34,500
+But the pattern inside those ninety is very hard to look away from.
+
+79
+00:05:35,660 --> 00:05:39,702
+The frequency varied by site, between fifty percent and one hundred.
+
+80
+00:05:39,702 --> 00:05:43,089
+The lowest was the New Hebrides Trench, at fifty percent.
+
+81
+00:05:43,089 --> 00:05:46,180
+The highest was the Mariana, at one hundred percent.
+
+82
+00:05:47,780 --> 00:05:52,120
+The deepest trench on Earth had the highest contamination rate of all six.
+
+83
+00:05:52,120 --> 00:05:54,700
+Not the one nearest a city. The deepest one.
+
+84
+00:05:55,940 --> 00:06:00,218
+Most of what they found was not fragments of hard plastic. It was fibre.
+
+85
+00:06:00,218 --> 00:06:05,030
+Fibres appeared in eighty four percent of the animals. Fragments in only sixteen.
+
+86
+00:06:06,230 --> 00:06:11,070
+And one item dominated. Blue fibres, in sixty six percent of all the animals.
+
+87
+00:06:11,070 --> 00:06:16,916
+With, and I am quoting the paper, all amphipods sampled from the Mariana Trench containing at
+
+88
+00:06:16,916 --> 00:06:18,110
+least one of these.
+
+89
+00:06:19,780 --> 00:06:23,820
+A blue thread. In every animal, from the deepest place there is.
+
+90
+00:06:25,010 --> 00:06:32,144
+They ran a subsample through infrared spectroscopy to find out what the fibres actually were.
+
+91
+00:06:32,144 --> 00:06:38,740
+Nylon. Polyethylene. Polyamide. Polyvinyl alcohol. P V C, often with inorganic filler.
+
+92
+00:06:38,740 --> 00:06:44,340
+Rayon and lyocell, which are semi synthetic. And ramie, which is a plant.
+
+93
+00:06:45,570 --> 00:06:47,606
+That list is not a list of ocean things.
+
+94
+00:06:47,606 --> 00:06:51,830
+It is a list of the things our clothes and our ropes and our packaging are made of.
+
+95
+00:06:53,020 --> 00:06:56,180
+And then the paper makes the comparison that I think is the whole story.
+
+96
+00:06:57,370 --> 00:07:02,351
+The animals in the hadal zone are ingesting plastic at, in the paper's words, a similar
+
+97
+00:07:02,351 --> 00:07:06,530
+frequency, seventy two percent, to crustaceans in coastal water habitats.
+
+98
+00:07:08,190 --> 00:07:09,049
+Read that again.
+
+99
+00:07:09,049 --> 00:07:14,039
+The deepest, most isolated animals on the planet are as likely to have plastic in them as the
+
+100
+00:07:14,039 --> 00:07:15,810
+ones living just off our beaches.
+
+101
+00:07:16,980 --> 00:07:18,971
+The plastics are the visible half.
+
+102
+00:07:18,971 --> 00:07:24,360
+The other half is chemical, it is older, and most of it was restricted before anyone reading
+
+103
+00:07:24,360 --> 00:07:25,180
+this was born.
+
+104
+00:07:26,370 --> 00:07:31,769
+Two years before the plastics paper, the same lead researcher published something quieter and,
+
+105
+00:07:31,769 --> 00:07:32,630
+I think, worse.
+
+106
+00:07:33,820 --> 00:07:37,860
+Not what the animals had swallowed. What had accumulated in their tissue.
+
+107
+00:07:39,030 --> 00:07:40,701
+Persistent organic pollutants.
+
+108
+00:07:40,701 --> 00:07:45,659
+Industrial compounds built to not break down, which is exactly what makes them useful and
+
+109
+00:07:45,659 --> 00:07:48,723
+exactly what makes them a problem. They do not degrade.
+
+110
+00:07:48,723 --> 00:07:51,620
+They move up food chains and concentrate as they go.
+
+111
+00:07:52,870 --> 00:07:58,058
+Here we identify, they wrote, extraordinary levels of persistent organic pollutants in the
+
+112
+00:07:58,058 --> 00:08:03,130
+endemic amphipod fauna from two of the deepest ocean trenches, over ten thousand metres.
+
+113
+00:08:04,790 --> 00:08:09,625
+The two trenches were the Mariana and the Kermadec. Both over ten kilometres deep.
+
+114
+00:08:09,625 --> 00:08:12,750
+Both thousands of kilometres from any heavy industry.
+
+115
+00:08:13,940 --> 00:08:15,478
+And the sentence that matters.
+
+116
+00:08:15,478 --> 00:08:19,937
+Contaminant levels were considerably higher than documented for nearby regions of heavy
+
+117
+00:08:19,937 --> 00:08:20,860
+industrialization.
+
+118
+00:08:22,520 --> 00:08:28,196
+Higher in the trench than in the industrialised regions nearby. That is the finding.
+
+119
+00:08:28,196 --> 00:08:29,750
+Not comparable. Higher.
+
+120
+00:08:30,940 --> 00:08:35,403
+I am going to be disciplined here, because this is where this story usually goes wrong.
+
+121
+00:08:35,403 --> 00:08:39,457
+You will see a specific multiplier quoted for this study all over the internet.
+
+122
+00:08:39,457 --> 00:08:42,740
+A number of times more contaminated than a named polluted river.
+
+123
+00:08:43,970 --> 00:08:48,889
+That figure is not in the paper's abstract, the full text sits behind a paywall, and the press
+
+124
+00:08:48,889 --> 00:08:52,186
+release that carried it is gone. So we are not going to use it.
+
+125
+00:08:52,186 --> 00:08:56,844
+What the authors published in the open is the sentence you just read, and it is more than
+
+126
+00:08:56,844 --> 00:08:57,210
+enough.
+
+127
+00:08:58,390 --> 00:09:03,079
+Their conclusion was that this indicates bioaccumulation of anthropogenic contamination, and
+
+128
+00:09:03,079 --> 00:09:07,870
+infers that these pollutants are pervasive across the world's oceans, and to full ocean depth.
+
+129
+00:09:09,450 --> 00:09:11,920
+The third measurement is not in the animals.
+
+130
+00:09:11,920 --> 00:09:15,400
+It is in the mud, and it carries a number I had to read twice.
+
+131
+00:09:16,590 --> 00:09:20,560
+The third measurement is not in the animals at all. It is in the mud they live on.
+
+132
+00:09:21,720 --> 00:09:26,654
+In twenty twenty one, a team took sediment cores from four trench regions, from fifteen hundred
+
+133
+00:09:26,654 --> 00:09:31,120
+metres down to ten thousand eight hundred and forty, and measured the mercury in them.
+
+134
+00:09:32,310 --> 00:09:37,690
+Mercury is a neurotoxin, and like the organic pollutants, it concentrates as it moves up a food
+
+135
+00:09:37,690 --> 00:09:38,030
+chain.
+
+136
+00:09:39,200 --> 00:09:43,717
+They found the trenches are accumulating mercury at between twenty four and two hundred and
+
+137
+00:09:43,717 --> 00:09:45,902
+twenty micrograms per square metre per year.
+
+138
+00:09:45,902 --> 00:09:50,270
+Greater than the global deep sea average, they wrote, by a factor of up to four hundred.
+
+139
+00:09:51,460 --> 00:09:53,368
+And they traced where it came from.
+
+140
+00:09:53,368 --> 00:09:58,220
+Most of the mercury in these trenches, they concluded, is derived from the surface ocean.
+
+141
+00:09:59,800 --> 00:10:04,940
+From up here. From the lit, warm, busy part of the ocean that we actually touch.
+
+142
+00:10:06,120 --> 00:10:08,645
+The cores hold the change as a timeline.
+
+143
+00:10:08,645 --> 00:10:12,937
+Before nineteen hundred, an average of fifty one nanograms per gram.
+
+144
+00:10:12,937 --> 00:10:15,020
+After nineteen fifty, eighty one.
+
+145
+00:10:16,210 --> 00:10:21,092
+And the paper is explicit that this rise cannot be explained by a change in how much organic
+
+146
+00:10:21,092 --> 00:10:24,170
+carbon is falling. Something else had to be delivering it.
+
+147
+00:10:25,360 --> 00:10:28,893
+Which leaves the question the measurements cannot answer on their own.
+
+148
+00:10:28,893 --> 00:10:30,760
+Why does it end up down there at all?
+
+149
+00:10:31,940 --> 00:10:32,636
+So why there?
+
+150
+00:10:32,636 --> 00:10:37,080
+Why would the most remote place on Earth hold more of this than the water above it?
+
+151
+00:10:38,260 --> 00:10:42,770
+The mechanism people point to is shape. A trench is a funnel with no outlet.
+
+152
+00:10:43,970 --> 00:10:47,942
+Everything that sinks in the open ocean drifts down slowly and spreads out.
+
+153
+00:10:47,942 --> 00:10:52,709
+Everything that sinks near a trench slides down the walls and collects at the bottom, in a
+
+154
+00:10:52,709 --> 00:10:54,880
+narrow strip, with nowhere further to go.
+
+155
+00:10:56,090 --> 00:11:00,145
+And at the bottom of that funnel sit the scavengers, eating everything that arrives,
+
+156
+00:11:00,145 --> 00:11:03,090
+concentrating in their own tissue whatever came down with it.
+
+157
+00:11:04,320 --> 00:11:09,510
+That is the explanation, and it is a good one. But I want to be accurate about its status.
+
+158
+00:11:09,510 --> 00:11:12,105
+It is a mechanism that fits the observations.
+
+159
+00:11:12,105 --> 00:11:16,200
+It is not a proven cause, and the papers themselves do not claim it is.
+
+160
+00:11:17,410 --> 00:11:22,166
+There is a lot here that is genuinely unsettled. How fast this is still accumulating.
+
+161
+00:11:22,166 --> 00:11:25,524
+Whether it is harming the animals or simply sitting in them.
+
+162
+00:11:25,524 --> 00:11:30,000
+What the fibres do to an amphipod that has evolved for a diet of whatever falls.
+
+163
+00:11:31,190 --> 00:11:34,239
+And whether it reaches the snailfish that eat the amphipods.
+
+164
+00:11:34,239 --> 00:11:36,170
+Nobody has published that measurement.
+
+165
+00:11:37,380 --> 00:11:42,044
+Here is what I think this actually is, and it is not the thing these stories usually get turned
+
+166
+00:11:42,044 --> 00:11:42,290
+into.
+
+167
+00:11:43,460 --> 00:11:47,160
+The hadal snailfish arrived in the trenches a few million years ago.
+
+168
+00:11:47,160 --> 00:11:51,131
+It gave up its colour, its eyes and the calcium in its bones to be there.
+
+169
+00:11:51,131 --> 00:11:54,123
+It cruises at seven tenths of a body length per second.
+
+170
+00:11:54,123 --> 00:11:57,170
+It can smell a meal from three hundred and fifty metres.
+
+171
+00:11:58,390 --> 00:12:03,758
+And in the same trench, in every single animal a research team pulled up and opened, there was
+
+172
+00:12:03,758 --> 00:12:04,500
+a blue fibre.
+
+173
+00:12:05,680 --> 00:12:08,657
+Sixty five animals out of ninety, across six trenches.
+
+174
+00:12:08,657 --> 00:12:12,406
+It is a small sample and it proves less than a headline wants it to.
+
+175
+00:12:12,406 --> 00:12:17,589
+What it does prove is that there is no longer anywhere on this planet clean enough to use as a
+
+176
+00:12:17,589 --> 00:12:18,030
+control.
+
+177
+00:12:19,230 --> 00:12:24,115
+If the deep ocean holds your attention, there is one animal down there nobody has ever seen
+
+178
+00:12:24,115 --> 00:12:25,027
+alive and intact.
+
+179
+00:12:25,027 --> 00:12:29,321
+Watch Nobody Has Ever Seen a Full-Grown Colossal Squid, right here on mindwired.
+
+180
+00:12:29,321 --> 00:12:33,830
+And subscribe to mindwired, so you don't miss the next case we open from the record.
+

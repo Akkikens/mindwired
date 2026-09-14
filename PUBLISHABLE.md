@@ -12,6 +12,138 @@ the loop is carrying.
 
 ## 🟢 READY TO UPLOAD — everything below is copy-paste, nothing else to build
 
+### hadalpollution — mindwired — **What They Found Inside the Deepest Animals on Earth**
+
+| Asset | Path | Verified |
+|---|---|---|
+| Master | `What They Found Inside the Deepest Animals on Earth.mp4` (root) | 3840×2160 · **12:52** · 2.39 GB · **−14.0 LUFS** · 23,032 frames · mindwired outro baked in |
+| Captions | `What They Found Inside the Deepest Animals on Earth.srt` (root) | **180 cues, measured off the master** (model drifted +0.38s→+4.66s) |
+| Thumb A | `out/thumbs/hadalpollution_A.png` | *Hirondellea gigas* — the real Mariana amphipod, on black |
+| Thumb B | `out/thumbs/hadalpollution_B.png` | *Pseudoliparis swirei* — the real hadal snailfish |
+| Thumb C | `out/thumbs/hadalpollution_C.png` | NOAA lander frame — a scavenger at bait |
+
+Full package: `docs/metadata/METADATA-hadalpollution.md`
+
+#### TITLE
+```
+What They Found Inside the Deepest Animals on Earth
+```
+Title-test variants (only after the thumbnail test settles):
+1. `What They Found Seven Miles Down` (9.0)
+2. `100% of the Animals at Earth's Deepest Point Had Plastic` (8.25)
+
+#### DESCRIPTION (paste whole)
+```
+In 2019 a research team opened the guts of ninety amphipods — small scavenging
+crustaceans — pulled from six of the deepest ocean trenches on Earth, at depths between
+7,000 and 10,890 metres.
+
+Over 72% of them had swallowed something synthetic. In the Mariana Trench, the deepest
+of the six, the figure was 100%. Every animal they examined. The single most common item
+was a blue fibre, and every Mariana amphipod had at least one.
+
+The paper's own comparison is the part that stays with you: the animals in the hadal
+zone are ingesting plastic at "a similar frequency (72%) to crustaceans in coastal water
+habitats." The deepest, most isolated animals on the planet are as contaminated as the
+ones living just off our beaches.
+
+This is the investigation behind that measurement — and behind two others: the
+persistent organic pollutants found at levels "considerably higher than documented for
+nearby regions of heavy industrialization," and the mercury accumulating in trench
+sediment at up to 400 times the global deep-sea average, most of it arriving from the
+surface ocean.
+
+It is also the story of what lives down there: the hadal snailfish, the deepest
+vertebrate in the ocean, which appears to have arrived only in the last few million
+years and gave up its pigment, its vision genes and the calcium in its bones to stay.
+
+We say what the record says and we stop there. Where a number is widely repeated but
+could not be sourced to a document we could actually read, we say that out loud and
+leave it out.
+
+CHAPTERS
+0:00 A blue fibre, seven kilometres down
+1:09 Act I — The zone that begins at six thousand metres
+2:26 Act II — The animal that got there first
+4:34 Act III — Ninety animals, six trenches
+7:16 Act IV — The chemicals that were supposed to be gone
+9:09 Act V — Four hundred times
+10:25 Act VI — Why it ends up at the bottom
+
+SOURCES
+• Jamieson AJ, Malkocs T, Piertney SB, Fujii T, Zhang Z. "Bioaccumulation of persistent
+  organic pollutants in the deepest ocean fauna." Nature Ecology & Evolution, 13 Feb
+  2017. doi:10.1038/s41559-016-0051
+• Jamieson AJ et al. "Microplastics and synthetic particles ingested by deep-sea
+  amphipods in six of the deepest marine ecosystems on Earth." Royal Society Open
+  Science, 2019. doi:10.1098/rsos.180667 (open access)
+• Liu M et al. "Substantial accumulation of mercury in the deepest parts of the ocean
+  and implications for the environmental mercury cycle." PNAS, 2021.
+  doi:10.1073/pnas.2102629118
+• Xu W et al. "Chromosome-level genome assembly of hadal snailfish reveals mechanisms of
+  deep-sea adaptation in vertebrates." eLife, 2023. doi:10.7554/eLife.87198
+• Chen Y et al. "In situ swimming behavior of the Mariana snailfish Pseudoliparis
+  swirei." Scientific Reports, 2026. doi:10.1038/s41598-026-48409-2
+
+FOOTAGE CREDIT
+Deep-sea footage courtesy of **NOAA Ocean Exploration** (public domain). These are real
+ROV dives, but NOAA works largely between 300 and 3,000 metres — no footage in this
+video is presented as having been filmed in the hadal zone.
+
+IMAGE CREDITS
+• Hirondellea gigas — Wikimedia Commons, CC BY-SA 2.5
+• Pseudoliparis swirei — Wikimedia Commons, CC BY 3.0 (from the species description,
+  Zootaxa 4358.1.7)
+• Mariana Trench bathymetry — Wikimedia Commons, CC BY-SA 4.0 / CC BY 4.0
+
+▶ MORE FROM MINDWIRED
+• Nobody Has Ever Seen a Full-Grown Colossal Squid → https://youtu.be/N1ZlQpP5be4
+• 21 Astronauts Never Came Home. Here's Every Story. → https://youtu.be/maxZwNGqIDU
+• 8 People Sealed In. The Oxygen Kept Vanishing. → https://youtu.be/--sTmQzJtBk
+• The Lost Cosmonauts the USSR Pretended Never Existed → https://youtu.be/Hs6ZzZAQ7ms
+• Documentaries playlist → https://www.youtube.com/playlist?list=PLSGw_l2_Tsdo
+• Subscribe → https://www.youtube.com/@MINDWIREDD?sub_confirmation=1
+
+#DeepSea #MarianaTrench #Microplastics
+```
+
+#### TAGS
+```
+mariana trench, deep sea, hadal zone, microplastics, amphipod, hirondellea gigas,
+snailfish, pseudoliparis swirei, ocean pollution, deepest place on earth, challenger
+deep, deep sea creatures, ocean science, noaa ocean exploration, marine biology
+```
+
+#### PINNED COMMENT
+```
+The sentence that made this video, from the paper itself:
+
+"Over 72% of individuals examined (65 of 90) contained at least one microparticle… The
+frequency of ingestion varied between 50 and 100% of amphipods from a given site; the
+lowest being the New Hebrides Trench (50%) and the highest the Mariana Trench (100%)."
+
+And the comparison underneath it: that is "a similar frequency (72%) to crustaceans in
+coastal water habitats."
+
+Ninety animals is a small sample and we say so in the video. What it shows is that there
+is no longer anywhere on this planet clean enough to use as a control.
+
+Jamieson et al., Royal Society Open Science, 2019 — doi:10.1098/rsos.180667, open access.
+```
+
+#### SETTINGS
+Science & Technology · Standard YouTube License · Not made for kids · attach the .srt ·
+all 3 thumbnails into **Test & Compare** (winner on watch-time share, not CTR).
+
+#### ⚠ NOT OPTIONAL
+The description carries **CC BY-SA 2.5 / CC BY 3.0 / CC BY-SA 4.0** credits for the
+amphipod, snailfish and bathymetry stills, plus the NOAA Ocean Exploration credit.
+Those are licence obligations — if the description is trimmed, they stay.
+
+---
+
+## 🟢 READY TO UPLOAD — everything below is copy-paste, nothing else to build
+
 ### apollo1 — mindwired — **The Apollo 1 Transcript That Doesn't Exist**
 
 **All five deliverables verified on disk 2026-09-13:**

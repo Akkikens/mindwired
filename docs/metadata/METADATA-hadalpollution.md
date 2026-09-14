@@ -1,12 +1,12 @@
 # METADATA — hadalpollution (mindwired)
 
-**Runtime** ~12:48 (body 12:30 + 17.6s mindwired outro) · **Comp** `HadalPollutionDoc`
+**Runtime** **12:52** (measured; 23,032 frames, 3840x2160, −14.0 LUFS) · **Comp** `HadalPollutionDoc`
 **Bed** somber family, windowed · **Fact base** `docs/planning/CLAIMS-hadalpollution.md`
 
-> ⚠ **Chapters below are PROVISIONAL** — computed from the composition. A chunked
-> render's master drifts (apollo1 drifted +8.44s by the close). Before publishing, run
-> `scripts/align_srt_to_master.py hadalpollution <master.mp4>` and paste the measured
-> chapters it prints. Do NOT use `gen_doc_srt.py`.
+> ✅ **Chapters below are MEASURED off the master**, not computed. The composition
+> model was wrong by +0.38s at the open rising to +4.66s by the close, exactly the
+> chunked-render drift that hit apollo1 (+8.44s). Re-derived with
+> `scripts/align_srt_to_master.py`. Do NOT regenerate with `gen_doc_srt.py`.
 
 ---
 
@@ -63,12 +63,12 @@ leave it out.
 
 CHAPTERS
 0:00 A blue fibre, seven kilometres down
-1:08 Act I — The zone that begins at six thousand metres
-2:25 Act II — The animal that got there first
-4:32 Act III — Ninety animals, six trenches
-7:14 Act IV — The chemicals that were supposed to be gone
-9:05 Act V — Four hundred times
-10:21 Act VI — Why it ends up at the bottom
+1:09 Act I — The zone that begins at six thousand metres
+2:26 Act II — The animal that got there first
+4:34 Act III — Ninety animals, six trenches
+7:16 Act IV — The chemicals that were supposed to be gone
+9:09 Act V — Four hundred times
+10:25 Act VI — Why it ends up at the bottom
 
 SOURCES
 • Jamieson AJ, Malkocs T, Piertney SB, Fujii T, Zhang Z. "Bioaccumulation of persistent
@@ -169,5 +169,5 @@ retention is strong and watch-time is the limiter, the fix is a longer script on
 next one, not a slower edit of this one.
 
 ## STILL OWED
-- [ ] Re-measure chapters + SRT off the master with `align_srt_to_master.py`
+- [x] Chapters + SRT measured off the master — 180 cues
 - [ ] CC BY-SA / CC BY credit lines are in the description above — licence obligation
