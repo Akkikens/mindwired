@@ -10,22 +10,20 @@ the loop is carrying.
 
 ---
 
-## 🟠 IN FLIGHT
+## 🟢 READY TO UPLOAD
 
 ### apollo1 — "The Apollo 1 Transcript That Doesn't Exist" (mindwired)
-**Status: rendering on GCE** (`render-apollo1-4873`, c2d-highcpu-32, chunked 4K).
-108 scenes, body 22:53 + 17.6s mindwired outro ≈ **23:10**. Preflight 0 blocking.
-**Package: DONE** — `METADATA-apollo1.md`, three thumbnail files built and tracked.
-**Spine:** the Review Board's own words — the second transmission "is garbled and is,
-therefore, subject to wide variation of interpretation… and no definitive transcription
-is possible." It printed three readings and chose none; neither does the episode.
+**Master landed and verified.** `The Apollo 1 Transcript That Doesn't Exist.mp4` at repo
+root, 2.98 GB, 3840x2160, **23:18**, −14.0 LUFS, mindwired outro baked in.
+Frame count verified 41,719 == 41,719. Render VM deleted.
+**Package complete:** `METADATA-apollo1.md`, three thumbnail files, 329-cue SRT
+measured off the master.
 
-| # | Blocker | Who |
+| # | Remaining | Who |
 |---|---|---|
-| 1 | Master must land and verify (ffprobe BEFORE the VM is deleted) | automatic |
-| 2 | SRT off the master | me, 5 min |
-| 3 | Paste the CC BY-SA 2.0 credit for the LC-34 memorial photo into the description | **licence obligation** |
-| 4 | Test & Compare: 3 thumbnails at publish; title test only AFTER it settles | human |
+| 1 | Upload; paste the **CC BY-SA 2.0** credit for the LC-34 memorial photo (licence obligation) | **human** |
+| 2 | Test & Compare: all 3 thumbnails at publish. Winner on **watch-time share**, not CTR | human |
+| 3 | Title test only AFTER the thumbnail test settles — variant A is "NASA Printed 3 Versions of Apollo 1's Last Words" (scored 9.0 vs the shipped 8.5) | human |
 
 ---
 
@@ -109,6 +107,17 @@ giant name, chosen off real launch data.
 
 ## HOUSEKEEPING
 
+- **🔴 CHUNKED RENDERS DRIFT — chapters and SRTs must be MEASURED, not computed.**
+  apollo1's master rendered 41,719 frames (1390.6s at 30fps) but runs 1398.7s, with
+  every narration clip landing progressively later than `doctiming.py` predicts:
+  +0.38s at the cold open, **+8.44s by the close**. Audio and video drift together so
+  the video is fine; everything timed from the composition is not. **This is the real
+  cause of the "gen_doc_srt.py drifted 19s" note banked on noradtapes** — the script
+  was never wrong, the master just isn't the composition, and noradtapes shipped with
+  captions up to 19s out because of it. Fix, for every chunked render:
+  `scripts/align_srt_to_master.py <slug> <master.mp4> --out "<Title>.srt"`.
+  **noradtapes and thegrounding were both chunked and both need re-timing** —
+  noradtapes is already live with a drifting SRT.
 - **⚠ MUSIC BEDS ARE NOT IN GIT.** `.gitignore` line 12 is `*.mp3`, so the eight
   `public/beds/bed_*.mp3` files have never been version-controlled. They were missing
   from this checkout entirely on 2026-09-13 and were recovered by copying from a second
