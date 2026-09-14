@@ -1,0 +1,665 @@
+{
+  "slug": "hadalpollution",
+  "title": "What They Found Inside the Deepest Animals on Earth",
+  "channel": "mindwired",
+  "niche": "ocean",
+  "language": "en",
+  "voice": "d46abd1d-2d02-43e8-819f-51fb652c1c61",
+  "scenes": [
+    {
+      "id": "h1",
+      "video": "lander_1.mp4",
+      "videoQuery": "NOAA Ocean Exploration deep sea lander seafloor amphipods bait camera",
+      "text": "A laboratory bench. A scientist opens the gut of an animal that has spent its entire life in permanent darkness, seven kilometres below the surface of the Pacific. Inside it is a blue fibre.",
+      "stat": "THE HADAL ZONE · BELOW 6,000 METRES",
+      "cap": "It had never seen sunlight. It still had our clothing inside it.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h2",
+      "video": "trench_1.mp4",
+      "videoQuery": "NOAA Ocean Exploration deep ocean trench seafloor sediment ROV dive",
+      "text": "Not on the seafloor beside it. Inside it. In the hindgut, where food goes.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h3",
+      "video": "amphipod_1.mp4",
+      "videoQuery": "NOAA Ocean Exploration amphipod scavenger deep sea bait trap",
+      "text": "The animal is an amphipod. A scavenger, about the size of your thumb, and the dominant scavenging animal in the deepest places on Earth.",
+      "cap": "Amphipod. The deep sea's cleanup crew.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h4",
+      "video": "trench_2.mp4",
+      "videoQuery": "NOAA Ocean Exploration hadal trench deep sea floor darkness",
+      "text": "In twenty nineteen, a team published what they found after examining ninety of them, pulled from six of the deepest trenches on the planet.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h5",
+      "cap": "Over 72% of individuals examined.",
+      "text": "Over seventy two percent of the individuals examined contained at least one microparticle. Sixty five animals out of ninety.",
+      "extraHold": 10,
+      "tone": "fear",
+      "video": "rov_2.mp4",
+      "videoQuery": "NOAA Ocean Exploration deep sea ROV descent dark water lights",
+      "stat": "JAMIESON ET AL. · ROYAL SOCIETY OPEN SCIENCE · 2019 · doi:10.1098/rsos.180667"
+    },
+    {
+      "id": "h6",
+      "video": "marianamap_1.mp4",
+      "videoQuery": "NOAA Ocean Exploration Mariana Trench bathymetry map deep sea",
+      "text": "And in the deepest trench of all, the Mariana, the figure was not seventy two percent. It was one hundred.",
+      "stat": "MARIANA TRENCH · 100% OF ANIMALS SAMPLED",
+      "tone": "fear"
+    },
+    {
+      "id": "h7",
+      "video": "rov_1.mp4",
+      "videoQuery": "NOAA Ocean Exploration ROV deep sea lights descending water column",
+      "text": "Every single animal they brought up from the bottom of the world had something synthetic inside it.",
+      "cap": "Every one.",
+      "tone": "fear"
+    },
+    {
+      "id": "h8",
+      "video": "fibre_1.mp4",
+      "videoQuery": "NOAA Ocean Exploration marine debris plastic ocean microscope sample",
+      "text": "This is the story of how we measured that, what else is down there with it, and the one question the measurements still cannot answer.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "intro",
+      "chapter": "MINDWIRED",
+      "img": "snailfish",
+      "text": "You're watching mindwired.",
+      "tone": "awe"
+    },
+    {
+      "id": "title",
+      "chapter": "WHAT THEY FOUND INSIDE\nTHE DEEPEST ANIMALS ON EARTH",
+      "img": "trenchmap",
+      "text": "What they found inside the deepest animals on Earth.",
+      "tone": "awe",
+      "query": "Mariana Trench bathymetry map Pacific seafloor NOAA public domain"
+    },
+    {
+      "id": "a1_ch",
+      "chapter": "ACT I\nTHE ZONE THAT BEGINS AT SIX THOUSAND METRES",
+      "img": "trenchmap",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a1_1",
+      "video": "trench_3.mp4",
+      "videoQuery": "NOAA Ocean Exploration deep sea trench wall rock formation dive",
+      "text": "Oceanographers give the deepest water its own name. The hadal zone. It begins at six thousand metres and runs to just under eleven thousand.",
+      "stat": "HADAL ZONE · 6,000 m TO ~11,000 m",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a1_2",
+      "video": "trench_4.mp4",
+      "videoQuery": "NOAA Ocean Exploration abyssal seafloor sediment deep ocean",
+      "text": "It is not a layer that covers the ocean. It is a set of holes in it. Trenches, mostly around the rim of the Pacific, narrow and steep and separated from each other by thousands of kilometres of shallower water.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a1_3",
+      "video": "pressure_1.mp4",
+      "videoQuery": "NOAA Ocean Exploration deep sea pressure housing submersible equipment",
+      "text": "At the bottom of the deepest one, the water above you weighs down at more than a thousand times the pressure at the surface.",
+      "cap": "Over 1,000 atmospheres.",
+      "tone": "fear"
+    },
+    {
+      "id": "a1_4",
+      "video": "lander_2.mp4",
+      "videoQuery": "NOAA Ocean Exploration baited lander deployment ship deck ocean",
+      "text": "You cannot simply go there. Almost everything we know about hadal animals comes from a machine that falls.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a1_5",
+      "video": "lander_3.mp4",
+      "videoQuery": "NOAA Ocean Exploration lander descending deep sea camera bait",
+      "text": "A baited lander is dropped over the side of a ship with weights attached. It free falls for hours. It sits on the bottom in the dark with a camera and a trap, and it waits.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a1_6",
+      "video": "lander_4.mp4",
+      "videoQuery": "NOAA Ocean Exploration deep sea trap recovery ship winch ocean",
+      "text": "Then it releases the weights and floats back up, and whatever came to the bait comes with it.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a1_7",
+      "video": "amphipod_2.mp4",
+      "videoQuery": "NOAA Ocean Exploration amphipods swarming bait deep sea",
+      "text": "What comes to the bait, almost always, is amphipods. They arrive in their thousands. In the hadal zone they are the animals that clean up everything that dies above them.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a1_8",
+      "video": "amphipod_3.mp4",
+      "videoQuery": "NOAA Ocean Exploration deep sea crustacean closeup scavenger",
+      "text": "Which makes them the perfect animal to test. Whatever is falling into the trench ends up passing through them.",
+      "cap": "Everything that falls, they eat.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2_ch",
+      "chapter": "ACT II\nTHE ANIMAL THAT GOT THERE FIRST",
+      "img": "snailfish",
+      "tone": "awe"
+    },
+    {
+      "id": "a2_1",
+      "video": "snailfish_1.mp4",
+      "videoQuery": "NOAA Ocean Exploration snailfish deep sea fish hadal",
+      "text": "Before we get to what is in them, it is worth knowing what lives down there at all. Because the answer is stranger than empty.",
+      "tone": "awe"
+    },
+    {
+      "id": "a2_2",
+      "img": "snailfish",
+      "text": "This is the hadal snailfish. Pseudoliparis swirei. It lives between six and eight thousand metres, and it is the deepest vertebrate in the ocean.",
+      "stat": "PSEUDOLIPARIS SWIREI · 6,000–8,000 m",
+      "cap": "The deepest vertebrate known.",
+      "query": "Pseudoliparis swirei hadal snailfish Mariana Trench NOAA specimen photograph",
+      "tone": "awe"
+    },
+    {
+      "id": "a2_3",
+      "video": "snailfish_2.mp4",
+      "videoQuery": "NOAA Ocean Exploration deep sea fish swimming seafloor camera",
+      "text": "It has no scales. It is barely pigmented. It looks, honestly, like something unfinished.",
+      "tone": "awe"
+    },
+    {
+      "id": "a2_4",
+      "video": "snailfish_3.mp4",
+      "videoQuery": "NOAA Ocean Exploration translucent deep sea fish hadal depth",
+      "text": "And in twenty twenty three, a team sequenced its genome and found something nobody expected about how long it has been down there.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2_5",
+      "cap": "Only in the last few million years.",
+      "text": "The hadal snailfish, they wrote, may have entered and fully adapted to such extreme environments only in the last few million years.",
+      "extraHold": 10,
+      "tone": "awe",
+      "video": "snailfish_9.mp4",
+      "videoQuery": "NOAA Ocean Exploration deep sea fish hadal lander footage",
+      "stat": "XU ET AL. · eLIFE · 2023 · doi:10.7554/eLife.87198"
+    },
+    {
+      "id": "a2_6",
+      "video": "snailfish_4.mp4",
+      "videoQuery": "NOAA Ocean Exploration deep sea fish closeup pale",
+      "text": "A few million years. In evolutionary terms that is recent. And having got there, it spread into separate Pacific trenches within a million years more.",
+      "tone": "awe"
+    },
+    {
+      "id": "a2_7",
+      "kinetic": {
+        "count": 3,
+        "suffix": " things it gave up",
+        "sub": "pigmentation · visual genes · skeletal calcification genes"
+      },
+      "img": "snailfish",
+      "text": "Getting there cost it. The genome shows it lost its pigmentation. It lost visual genes. It lost genes for calcifying its own skeleton.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a2_8",
+      "video": "pressure_2.mp4",
+      "videoQuery": "NOAA Ocean Exploration deep sea equipment pressure test laboratory",
+      "text": "And it gained things. A compound called T M A O that stops proteins collapsing under pressure. And a duplicated gene for ferritin, which raised its tolerance to the reactive oxygen that would otherwise tear its cells apart.",
+      "tone": "awe"
+    },
+    {
+      "id": "a2_9",
+      "video": "snailfish_5.mp4",
+      "videoQuery": "NOAA Ocean Exploration hadal fish bait lander footage deep",
+      "text": "For decades that was almost everything we knew. We had specimens. We did not have behaviour.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2_10",
+      "video": "lander_5.mp4",
+      "videoQuery": "NOAA Ocean Exploration deep sea lander camera bait fish arrive",
+      "text": "Then, this year, a team put a baited lander at nearly seven thousand metres, filmed what came, and tracked eight hundred and sixty eight separate sightings of individual fish.",
+      "stat": "2026 · 868 ANNOTATED SIGHTINGS · ~7,000 m",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2_11",
+      "kinetic": {
+        "count": 71,
+        "suffix": "% of a body length per second",
+        "sub": "0.16–0.18 m/s · the routine cruising speed of the deepest vertebrate on Earth"
+      },
+      "img": "snailfish",
+      "text": "It moves slowly. About seven tenths of its own body length every second. A gentle, unhurried animal in the most hostile place there is.",
+      "tone": "awe"
+    },
+    {
+      "id": "a2_12",
+      "video": "snailfish_6.mp4",
+      "videoQuery": "NOAA Ocean Exploration deep sea fish swimming slow dark water",
+      "text": "And it finds food by smell. The same study estimated it first picks up the scent of bait from about three hundred and fifty metres away.",
+      "cap": "It smells a meal from 350 metres.",
+      "tone": "awe"
+    },
+    {
+      "id": "a2_13",
+      "video": "trench_5.mp4",
+      "videoQuery": "NOAA Ocean Exploration deep ocean darkness water column descent",
+      "text": "That is the world we are talking about. Sparse, slow, patient, and until very recently, untouched by us in any way we could measure.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a3_ch",
+      "chapter": "ACT III\nNINETY ANIMALS, SIX TRENCHES",
+      "img": "trenchmap",
+      "tone": "fear"
+    },
+    {
+      "id": "a3_1",
+      "video": "ship_1.mp4",
+      "videoQuery": "NOAA Ocean Exploration research vessel deck ocean operations",
+      "text": "The microplastics study is the one with the hardest numbers, so it is worth being precise about what it did.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a3_2",
+      "cap": "Japan · Izu-Bonin · Mariana · Kermadec · New Hebrides · Peru-Chile",
+      "text": "Six trenches around the Pacific Rim. Japan. Izu Bonin. Mariana. Kermadec. New Hebrides. And Peru Chile. Depths from seven thousand metres to ten thousand eight hundred and ninety.",
+      "extraHold": 12,
+      "tone": "curiosity",
+      "video": "marianamap_4.mp4",
+      "videoQuery": "NOAA Ocean Exploration Pacific bathymetry trench map seafloor",
+      "stat": "JAMIESON ET AL. · ROYAL SOCIETY OPEN SCIENCE · 2019 · SIX TRENCHES, 7,000–10,890 m"
+    },
+    {
+      "id": "a3_3",
+      "video": "lander_6.mp4",
+      "videoQuery": "NOAA Ocean Exploration deep sea sampling equipment recovery",
+      "text": "From those six trenches, ninety amphipods. The researchers opened the hindgut of each one and looked for anything that was not food.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a3_4",
+      "kinetic": {
+        "count": 72,
+        "suffix": "% had microparticles inside",
+        "sub": "65 of 90 animals · six trenches · 7,000–10,890 m"
+      },
+      "img": "trenchmap",
+      "text": "Over seventy two percent of them had at least one. Sixty five animals out of ninety.",
+      "tone": "fear"
+    },
+    {
+      "id": "a3_5",
+      "video": "amphipod_4.mp4",
+      "videoQuery": "NOAA Ocean Exploration amphipod deep sea specimen closeup",
+      "text": "I want to be careful with that number, because ninety animals is a small sample and the honest thing is to say so out loud. This is not a census of the deep ocean. It is ninety animals, from six places, examined one at a time.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a3_6",
+      "video": "trench_6.mp4",
+      "videoQuery": "NOAA Ocean Exploration deep trench seafloor sediment dark",
+      "text": "But the pattern inside those ninety is very hard to look away from.",
+      "tone": "fear"
+    },
+    {
+      "id": "a3_7",
+      "cap": "50% at the lowest. 100% at the deepest.",
+      "text": "The frequency varied by site, between fifty percent and one hundred. The lowest was the New Hebrides Trench, at fifty percent. The highest was the Mariana, at one hundred percent.",
+      "extraHold": 12,
+      "tone": "fear",
+      "video": "trench_15.mp4",
+      "videoQuery": "NOAA Ocean Exploration deep trench seafloor sediment dive",
+      "stat": "JAMIESON ET AL. · 2019 · FREQUENCY OF INGESTION BY SITE"
+    },
+    {
+      "id": "a3_8",
+      "video": "marianamap_2.mp4",
+      "videoQuery": "NOAA Ocean Exploration Mariana Trench map bathymetry deepest",
+      "text": "The deepest trench on Earth had the highest contamination rate of all six. Not the one nearest a city. The deepest one.",
+      "tone": "fear"
+    },
+    {
+      "id": "a3_9",
+      "kinetic": {
+        "count": 84,
+        "suffix": "% of them contained fibres",
+        "sub": "fragments appeared in only 16% · fibres are the dominant form"
+      },
+      "img": "trenchmap",
+      "text": "Most of what they found was not fragments of hard plastic. It was fibre. Fibres appeared in eighty four percent of the animals. Fragments in only sixteen.",
+      "tone": "fear"
+    },
+    {
+      "id": "a3_10",
+      "cap": "Blue fibres. 66%.",
+      "text": "And one item dominated. Blue fibres, in sixty six percent of all the animals. With, and I am quoting the paper, all amphipods sampled from the Mariana Trench containing at least one of these.",
+      "extraHold": 14,
+      "tone": "fear",
+      "video": "fibre_3.mp4",
+      "videoQuery": "NOAA Ocean Exploration marine debris plastic sample laboratory",
+      "stat": "JAMIESON ET AL. · 2019 · MOST PREVALENT ITEM INGESTED"
+    },
+    {
+      "id": "a3_11",
+      "video": "fibre_2.mp4",
+      "videoQuery": "NOAA Ocean Exploration marine debris microplastic fibre sample laboratory",
+      "text": "A blue thread. In every animal, from the deepest place there is.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a3_12",
+      "kinetic": {
+        "count": 8,
+        "suffix": " materials identified",
+        "sub": "nylon · polyethylene · polyamide · polyvinyl alcohol · PVC · rayon · lyocell · ramie"
+      },
+      "img": "trenchmap",
+      "text": "They ran a subsample through infrared spectroscopy to find out what the fibres actually were. Nylon. Polyethylene. Polyamide. Polyvinyl alcohol. P V C, often with inorganic filler. Rayon and lyocell, which are semi synthetic. And ramie, which is a plant.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a3_13",
+      "video": "textile_1.mp4",
+      "videoQuery": "textile factory fabric weaving machine industrial",
+      "text": "That list is not a list of ocean things. It is a list of the things our clothes and our ropes and our packaging are made of.",
+      "cap": "This is a list of our materials.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a3_14",
+      "video": "trench_7.mp4",
+      "videoQuery": "NOAA Ocean Exploration deep sea floor marine snow particles",
+      "text": "And then the paper makes the comparison that I think is the whole story.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a3_15",
+      "cap": "The same frequency as coastal crustaceans.",
+      "text": "The animals in the hadal zone are ingesting plastic at, in the paper's words, a similar frequency, seventy two percent, to crustaceans in coastal water habitats.",
+      "extraHold": 14,
+      "tone": "fear",
+      "video": "coast_2.mp4",
+      "videoQuery": "ocean coastline shallow water waves shore",
+      "stat": "JAMIESON ET AL. · 2019 · THE COMPARISON"
+    },
+    {
+      "id": "a3_16",
+      "video": "coast_1.mp4",
+      "videoQuery": "ocean coastline waves shore water surface",
+      "text": "Read that again. The deepest, most isolated animals on the planet are as likely to have plastic in them as the ones living just off our beaches.",
+      "cap": "The bottom of the world is as contaminated as the shore.",
+      "tone": "fear"
+    },
+    {
+      "id": "a4_ch",
+      "chapter": "ACT IV\nTHE CHEMICALS THAT WERE SUPPOSED TO BE GONE",
+      "img": "trenchmap",
+      "tone": "fear"
+    },
+    {
+      "id": "a4_1",
+      "video": "trench_8.mp4",
+      "videoQuery": "NOAA Ocean Exploration deep sea trench wall dive lights",
+      "text": "Two years before the plastics paper, the same lead researcher published something quieter and, I think, worse.",
+      "tone": "fear"
+    },
+    {
+      "id": "a4_2",
+      "video": "lab_1.mp4",
+      "videoQuery": "laboratory scientist analysis instrument chemistry research",
+      "text": "Not what the animals had swallowed. What had accumulated in their tissue.",
+      "tone": "fear"
+    },
+    {
+      "id": "a4_3",
+      "video": "lab_2.mp4",
+      "videoQuery": "laboratory chemical analysis equipment samples research",
+      "text": "Persistent organic pollutants. Industrial compounds built to not break down, which is exactly what makes them useful and exactly what makes them a problem. They do not degrade. They move up food chains and concentrate as they go.",
+      "cap": "Built not to break down.",
+      "tone": "fear"
+    },
+    {
+      "id": "a4_4",
+      "cap": "\"Extraordinary levels.\"",
+      "text": "Here we identify, they wrote, extraordinary levels of persistent organic pollutants in the endemic amphipod fauna from two of the deepest ocean trenches, over ten thousand metres.",
+      "extraHold": 14,
+      "tone": "fear",
+      "video": "trench_16.mp4",
+      "videoQuery": "NOAA Ocean Exploration deep ocean trench floor darkness",
+      "stat": "JAMIESON ET AL. · NATURE ECOLOGY & EVOLUTION · 13 FEB 2017 · doi:10.1038/s41559-016-0051"
+    },
+    {
+      "id": "a4_5",
+      "video": "marianamap_3.mp4",
+      "videoQuery": "NOAA Ocean Exploration Pacific trench map deep ocean bathymetry",
+      "text": "The two trenches were the Mariana and the Kermadec. Both over ten kilometres deep. Both thousands of kilometres from any heavy industry.",
+      "tone": "fear"
+    },
+    {
+      "id": "a4_6",
+      "cap": "Higher than regions of heavy industrialization.",
+      "text": "And the sentence that matters. Contaminant levels were considerably higher than documented for nearby regions of heavy industrialization.",
+      "extraHold": 14,
+      "tone": "fear",
+      "video": "industry_2.mp4",
+      "videoQuery": "industrial port factory coastline aerial infrastructure",
+      "stat": "JAMIESON ET AL. · 2017 · THE FINDING"
+    },
+    {
+      "id": "a4_7",
+      "video": "industry_1.mp4",
+      "videoQuery": "industrial facility factory pipes machinery aerial",
+      "text": "Higher in the trench than in the industrialised regions nearby. That is the finding. Not comparable. Higher.",
+      "tone": "fear"
+    },
+    {
+      "id": "a4_8",
+      "video": "trench_9.mp4",
+      "videoQuery": "NOAA Ocean Exploration deep ocean floor sediment darkness",
+      "text": "I am going to be disciplined here, because this is where this story usually goes wrong. You will see a specific multiplier quoted for this study all over the internet. A number of times more contaminated than a named polluted river.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a4_9",
+      "video": "trench_10.mp4",
+      "videoQuery": "NOAA Ocean Exploration deep sea sediment seafloor dive",
+      "text": "That figure is not in the paper's abstract, the full text sits behind a paywall, and the press release that carried it is gone. So we are not going to use it. What the authors published in the open is the sentence you just read, and it is more than enough.",
+      "cap": "If we cannot source it, we do not say it.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a4_10",
+      "cap": "Pervasive to full ocean depth.",
+      "text": "Their conclusion was that this indicates bioaccumulation of anthropogenic contamination, and infers that these pollutants are pervasive across the world's oceans, and to full ocean depth.",
+      "extraHold": 12,
+      "tone": "fear",
+      "video": "trench_17.mp4",
+      "videoQuery": "NOAA Ocean Exploration abyssal plain deep sea floor",
+      "stat": "JAMIESON ET AL. · 2017 · THE CONCLUSION"
+    },
+    {
+      "id": "a5_ch",
+      "chapter": "ACT V\nFOUR HUNDRED TIMES",
+      "img": "trenchmap",
+      "tone": "fear"
+    },
+    {
+      "id": "a5_1",
+      "video": "core_1.mp4",
+      "videoQuery": "NOAA Ocean Exploration sediment core sampling deep sea research",
+      "text": "The third measurement is not in the animals at all. It is in the mud they live on.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a5_2",
+      "video": "core_2.mp4",
+      "videoQuery": "sediment core laboratory analysis geology sample research",
+      "text": "In twenty twenty one, a team took sediment cores from four trench regions, from fifteen hundred metres down to ten thousand eight hundred and forty, and measured the mercury in them.",
+      "stat": "4 TRENCH REGIONS · 1,560–10,840 m",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a5_3",
+      "video": "lab_3.mp4",
+      "videoQuery": "laboratory mercury analysis instrument scientific measurement",
+      "text": "Mercury is a neurotoxin, and like the organic pollutants, it concentrates as it moves up a food chain.",
+      "tone": "fear"
+    },
+    {
+      "id": "a5_4",
+      "kinetic": {
+        "count": 400,
+        "suffix": "× the global deep-sea average",
+        "sub": "24–220 µg per square metre per year · accumulating in the trenches"
+      },
+      "img": "trenchmap",
+      "text": "They found the trenches are accumulating mercury at between twenty four and two hundred and twenty micrograms per square metre per year. Greater than the global deep sea average, they wrote, by a factor of up to four hundred.",
+      "tone": "fear"
+    },
+    {
+      "id": "a5_5",
+      "cap": "Most of it comes from the surface.",
+      "text": "And they traced where it came from. Most of the mercury in these trenches, they concluded, is derived from the surface ocean.",
+      "extraHold": 12,
+      "tone": "fear",
+      "video": "core_4.mp4",
+      "videoQuery": "sediment core sample laboratory analysis research",
+      "stat": "LIU ET AL. · PNAS · 2021 · doi:10.1073/pnas.2102629118"
+    },
+    {
+      "id": "a5_6",
+      "video": "surface_1.mp4",
+      "videoQuery": "ocean surface waves sunlight water open sea",
+      "text": "From up here. From the lit, warm, busy part of the ocean that we actually touch.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a5_7",
+      "kinetic": {
+        "count": 81,
+        "suffix": " ng/g after 1950",
+        "sub": "51 ± 14 before 1900 → 81 ± 32 after 1950 · the cores hold the change"
+      },
+      "img": "trenchmap",
+      "text": "The cores hold the change as a timeline. Before nineteen hundred, an average of fifty one nanograms per gram. After nineteen fifty, eighty one.",
+      "tone": "fear"
+    },
+    {
+      "id": "a5_8",
+      "video": "core_3.mp4",
+      "videoQuery": "sediment core layers geology stratigraphy sample",
+      "text": "And the paper is explicit that this rise cannot be explained by a change in how much organic carbon is falling. Something else had to be delivering it.",
+      "tone": "fear"
+    },
+    {
+      "id": "a6_ch",
+      "chapter": "ACT VI\nWHY IT ENDS UP AT THE BOTTOM",
+      "img": "trenchmap",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6_1",
+      "video": "snow_1.mp4",
+      "videoQuery": "NOAA Ocean Exploration marine snow particles falling deep water column",
+      "text": "So why there? Why would the most remote place on Earth hold more of this than the water above it?",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6_2",
+      "video": "snow_2.mp4",
+      "videoQuery": "NOAA Ocean Exploration deep sea marine snow drifting particles",
+      "text": "The mechanism people point to is shape. A trench is a funnel with no outlet.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6_3",
+      "video": "trench_11.mp4",
+      "videoQuery": "NOAA Ocean Exploration steep trench wall slope deep sea",
+      "text": "Everything that sinks in the open ocean drifts down slowly and spreads out. Everything that sinks near a trench slides down the walls and collects at the bottom, in a narrow strip, with nowhere further to go.",
+      "cap": "A funnel with no outlet.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6_4",
+      "video": "amphipod_5.mp4",
+      "videoQuery": "NOAA Ocean Exploration amphipods feeding bait deep sea swarm",
+      "text": "And at the bottom of that funnel sit the scavengers, eating everything that arrives, concentrating in their own tissue whatever came down with it.",
+      "tone": "fear"
+    },
+    {
+      "id": "a6_5",
+      "video": "trench_12.mp4",
+      "videoQuery": "NOAA Ocean Exploration deep ocean trench floor sediment dark water",
+      "text": "That is the explanation, and it is a good one. But I want to be accurate about its status. It is a mechanism that fits the observations. It is not a proven cause, and the papers themselves do not claim it is.",
+      "cap": "A mechanism that fits. Not a proven cause.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6_6",
+      "video": "lab_4.mp4",
+      "videoQuery": "laboratory research scientist microscope analysis samples",
+      "text": "There is a lot here that is genuinely unsettled. How fast this is still accumulating. Whether it is harming the animals or simply sitting in them. What the fibres do to an amphipod that has evolved for a diet of whatever falls.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6_7",
+      "video": "snailfish_7.mp4",
+      "videoQuery": "NOAA Ocean Exploration deep sea fish hadal footage lander",
+      "text": "And whether it reaches the snailfish that eat the amphipods. Nobody has published that measurement.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda1",
+      "video": "trench_13.mp4",
+      "videoQuery": "NOAA Ocean Exploration deep ocean darkness seafloor dive",
+      "text": "Here is what I think this actually is, and it is not the thing these stories usually get turned into.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda2",
+      "video": "snailfish_8.mp4",
+      "videoQuery": "NOAA Ocean Exploration hadal deep sea fish swimming dark",
+      "text": "The hadal snailfish arrived in the trenches a few million years ago. It gave up its colour, its eyes and the calcium in its bones to be there. It cruises at seven tenths of a body length per second. It can smell a meal from three hundred and fifty metres.",
+      "tone": "awe"
+    },
+    {
+      "id": "coda3",
+      "video": "amphipod_6.mp4",
+      "videoQuery": "NOAA Ocean Exploration amphipod deep sea closeup specimen",
+      "text": "And in the same trench, in every single animal a research team pulled up and opened, there was a blue fibre.",
+      "cap": "Every single one.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda4",
+      "video": "trench_14.mp4",
+      "videoQuery": "NOAA Ocean Exploration deep sea floor still dark water",
+      "text": "Sixty five animals out of ninety, across six trenches. It is a small sample and it proves less than a headline wants it to. What it does prove is that there is no longer anywhere on this planet clean enough to use as a control.",
+      "cap": "Nowhere left to use as a control.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "bridge",
+      "img": "snailfish",
+      "text": "If the deep ocean holds your attention, there is one animal down there nobody has ever seen alive and intact. Watch Nobody Has Ever Seen a Full-Grown Colossal Squid, right here on mindwired. And subscribe to mindwired, so you don't miss the next case we open from the record.",
+      "tone": "curiosity"
+    }
+  ]
+}

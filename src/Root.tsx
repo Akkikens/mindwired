@@ -71,6 +71,8 @@ import spaceShuttleDoc from "./mindwired-doc/docs/spaceshuttle.json";
 import spaceShuttleManifest from "./mindwired-doc/docs/spaceshuttle.manifest.json";
 import wtcCollapseDoc from "./mindwired-doc/docs/wtccollapse.json";
 import wtcCollapseManifest from "./mindwired-doc/docs/wtccollapse.manifest.json";
+import hadalDoc from "./mindwired-doc/docs/hadalpollution.json";
+import hadalManifest from "./mindwired-doc/docs/hadalpollution.manifest.json";
 import apollo1Doc from "./mindwired-doc/docs/apollo1.json";
 import apollo1Manifest from "./mindwired-doc/docs/apollo1.manifest.json";
 import theGroundingDoc from "./mindwired-doc/docs/thegrounding.json";
@@ -1501,6 +1503,33 @@ export const RemotionRoot: React.FC = () => {
              figure, never "two hours" (the sky cleared at 12:16), Sliney did
              not invoke SCATANA, Gander did not take the most planes, and the
              Sliney/Mineta conflict is presented unresolved. BB outro baked. ── */}
+      {/* ── HadalPollutionDoc — mindwired, 83 scenes. Every number traces to a DOI.
+             Spine: 72% of amphipods (65 of 90) across six trenches at 7,000-10,890 m
+             had ingested microparticles, the Mariana was 100%, blue fibres were in
+             66% and in EVERY Mariana animal — at "a similar frequency (72%) to
+             crustaceans in coastal water habitats" (Jamieson 2019, R Soc Open Sci,
+             doi:10.1098/rsos.180667, open access). Plus POPs "considerably higher
+             than documented for nearby regions of heavy industrialization"
+             (Jamieson 2017, Nat Ecol Evol) and trench mercury at up to 400x the
+             global deep-sea average, mostly from the surface (Liu 2021, PNAS).
+             Hard rules in docs/planning/CLAIMS-hadalpollution.md: the famous "50x
+             the Liaohe River" figure is BARRED (not in the abstract, body paywalled,
+             press release 404s); this is NOT the depth-zone descent video mindwired
+             already made and flopped at 197 views, and the Vescovo plastic-bag beat
+             is burned because that episode used it in scene 2; no doom and no call to
+             action. There are NO exhibit scenes: the journal PDFs are
+             publisher-blocked, so rendering a "page" would be a facsimile of
+             something never seen — the quotes are carried as attributed caption
+             cards over real footage instead. MW outro baked. ── */}
+      <Composition
+        id="HadalPollutionDoc"
+        component={makeDocComp(hadalDoc as any, hadalManifest as any, MW_OUTRO)}
+        durationInFrames={docTotalFrames(hadalDoc as any, hadalManifest as any, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
       {/* ── Apollo1Doc — mindwired, 108 scenes. The spine is the Review Board's
              own admission that the crew's second transmission "is garbled and
              is, therefore, subject to wide variation of interpretation... no
