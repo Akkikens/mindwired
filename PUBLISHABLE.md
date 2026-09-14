@@ -10,20 +10,129 @@ the loop is carrying.
 
 ---
 
-## 🟢 READY TO UPLOAD
+## 🟢 READY TO UPLOAD — everything below is copy-paste, nothing else to build
 
-### apollo1 — "The Apollo 1 Transcript That Doesn't Exist" (mindwired)
-**Master landed and verified.** `The Apollo 1 Transcript That Doesn't Exist.mp4` at repo
-root, 2.98 GB, 3840x2160, **23:18**, −14.0 LUFS, mindwired outro baked in.
-Frame count verified 41,719 == 41,719. Render VM deleted.
-**Package complete:** `METADATA-apollo1.md`, three thumbnail files, 329-cue SRT
-measured off the master.
+### apollo1 — mindwired — **The Apollo 1 Transcript That Doesn't Exist**
+
+**All five deliverables verified on disk 2026-09-13:**
+
+| Asset | Path | Verified |
+|---|---|---|
+| Master | `The Apollo 1 Transcript That Doesn't Exist.mp4` (repo root) | 3840×2160 · **23:18** · 2.98 GB · **−14.0 LUFS** · mindwired outro baked in · frames 41,719 == 41,719 |
+| Captions | `The Apollo 1 Transcript That Doesn't Exist.srt` (repo root) | **329 cues**, measured off the master (see the drift note in HOUSEKEEPING) |
+| Thumbnail A | `out/thumbs/apollo1_A.png` | 1920×1080 — the real AS-204 hatch, open, on near-black |
+| Thumbnail B | `out/thumbs/apollo1_B.png` | 1920×1080 — the burned interior of CM-012 |
+| Thumbnail C | `out/thumbs/apollo1_C.png` | 1920×1080 — the fire-scarred hatch opening in the hull |
+
+Full package with title scoring and rationale: `docs/metadata/METADATA-apollo1.md`.
+
+---
+
+#### TITLE (paste this one)
+```
+The Apollo 1 Transcript That Doesn't Exist
+```
+A/B variants for the title test — **only after the thumbnail test settles**:
+1. `NASA Printed 3 Versions of Apollo 1's Last Words` (scored 9.0 — higher than the shipped 8.5)
+2. `NASA's Own Report: No Transcript Is Possible` (8.75)
+
+#### DESCRIPTION (paste whole)
+```
+On 27 January 1967, Grissom, White and Chaffee died in a fire on the pad at Launch
+Complex 34. The line everyone quotes from that fire — "We've got a fire in the
+cockpit" — is not what the official record says.
+
+The Apollo 204 Review Board had the tape. It had Bell Telephone Laboratories run
+extensive analysis on it. And then it wrote, about the crew's second transmission,
+that it "is garbled and is, therefore, subject to wide variation of interpretation as
+to content and as to who made the transmission and no definitive transcription is
+possible."
+
+Then it printed three different readings of those five seconds, side by side, and
+refused to choose between them.
+
+This is the story of 10.3 seconds of recorded voice, a hatch that could not open
+against its own cabin pressure, a report the NASA Administrator said he had never
+seen, and a Board that was honest enough to write down what it could not prove.
+
+Everything on screen is a scanned page of the primary record — the Apollo 204 Review
+Board report of 5 April 1967, and Senate Report 956. We do not play the fire audio,
+and we do not read any of the three readings aloud as though it were the truth.
+
+CHAPTERS
+0:00 The line everyone knows
+1:31 Act I — A test nobody called dangerous
+4:17 Act II — Sixteen point seven
+6:16 Act III — The hatch
+9:04 Act IV — Ten point three seconds
+12:43 Act V — The Board could not name the spark
+16:29 Act VI — What Congress found in a drawer
+19:58 Act VII — The hatch that opens against the pressure
+
+SOURCES
+• Report of Apollo 204 Review Board to the Administrator, NASA (NASA-TM-84105), 5 April 1967
+• Apollo 204 Accident, Report of the Committee on Aeronautical and Space Sciences,
+  United States Senate (Senate Report No. 956, 90th Congress), 30 January 1968
+• NASA History Office, "Chariots for Apollo" (NASA SP-4205)
+All footage and stills are NASA/US government public domain except where credited below.
+
+IMAGE CREDIT
+Launch Complex 34 memorial photograph — "Launch Complex 34: Apollo 1 Crew, in
+Memoriam" via Wikimedia Commons, licensed CC BY-SA 2.0.
+
+▶ MORE FROM MINDWIRED
+• 21 Astronauts Never Came Home. Here's Every Story. → https://youtu.be/maxZwNGqIDU
+• Every Astronaut Who Almost Died in Space → https://youtu.be/0ovoWoiRBXg
+• The Lost Cosmonauts the USSR Pretended Never Existed → https://youtu.be/Hs6ZzZAQ7ms
+• 8 People Sealed In. The Oxygen Kept Vanishing. → https://youtu.be/--sTmQzJtBk
+• Documentaries playlist → https://www.youtube.com/playlist?list=PLSGw_l2_Tsdo
+• Subscribe → https://www.youtube.com/@MINDWIREDD?sub_confirmation=1
+
+#Apollo1 #NASA #SpaceHistory
+```
+
+#### TAGS
+```
+apollo 1, apollo 204, apollo 1 fire, gus grissom, ed white, roger chaffee, launch
+complex 34, apollo 204 review board, nasa history, apollo program, spacecraft 012,
+space disaster, 1967, nasa documentary, apollo 1 transcript
+```
+
+#### PINNED COMMENT (paste after upload, then pin)
+```
+The Board had the tape, and it had Bell Labs analyse it. Here is what it wrote about
+the crew's second transmission:
+
+"The entire second transmission is garbled and is, therefore, subject to wide variation
+of interpretation as to content and as to who made the transmission and no definitive
+transcription is possible."
+
+Then it printed three readings and picked none of them. That is why this video doesn't
+either.
+
+Report of Apollo 204 Review Board, 5 April 1967, page 5-8.
+
+(If this held you, the other eighteen are in 21 Astronauts Never Came Home:
+https://youtu.be/maxZwNGqIDU)
+```
+
+#### SETTINGS
+Category **Science & Technology** · Standard YouTube License · **Not made for kids** ·
+upload the .srt as English captions · all 3 thumbnails into **Test & Compare**.
+
+---
+
+#### ⚠ THE ONE THING THAT IS NOT OPTIONAL
+The description block above already contains the **CC BY-SA 2.0** credit for the
+Launch Complex 34 memorial photograph. That is a **licence obligation**, not a
+courtesy — if the description is trimmed, that line stays.
 
 | # | Remaining | Who |
 |---|---|---|
-| 1 | Upload; paste the **CC BY-SA 2.0** credit for the LC-34 memorial photo (licence obligation) | **human** |
-| 2 | Test & Compare: all 3 thumbnails at publish. Winner on **watch-time share**, not CTR | human |
-| 3 | Title test only AFTER the thumbnail test settles — variant A is "NASA Printed 3 Versions of Apollo 1's Last Words" (scored 9.0 vs the shipped 8.5) | human |
+| 1 | Upload with the description above, captions attached | **human** |
+| 2 | Test & Compare with all 3 thumbnails. Winner is decided on **watch-time share, not CTR** | human |
+| 3 | Title test only AFTER the thumbnail test settles | human |
+| 4 | 48h launch-diagnosis owed — **DIAGNOSIS DUE**, it gates the next topic pick | human |
 
 ---
 
