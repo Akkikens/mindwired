@@ -1,5 +1,74 @@
 # Topic queue (Akshay, 2026-07-12 — from YT Studio "Inspiration")
 
+## ⭐ hadalpollution (mindwired) — validated 2026-09-13, PASS, in production
+
+**What they found at the bottom of the deepest trenches on Earth: our own chemicals.**
+Told as the investigation behind one peer-reviewed finding, not as a descent tour.
+
+### Step 0
+Five uploads went live 2026-09-13, all under 48h. Escape hatch (b): **DIAGNOSIS DUE
+2026-09-15** — owed before the next publish. Studio numbers still not in hand.
+
+### Steps 1-2 — the sweep (live yt-dlp, 2026-09-13)
+
+| Ratio | Views / subs | Date | Video |
+|---|---|---|---|
+| **137.0:1** | **3,999,259 / 29,200** | **2026-03-03** | Mariana Trench: What They Found In The Deepest Place On Earth |
+| 71.7:1 | 16,932,314 / 236,000 | 2025-11-02 | Why Deep Sea Creatures Get Creepier the Deeper You Go |
+| **40.5:1** | **1,236,689 / 30,500** | **2026-03-18** | What NASA Actually Found At The Bottom Of The Ocean |
+| 27.8:1 | 12,988,213 / 468,000 | 2025-08-18 | What They Found In the Deepest Place on Earth (Astrum Earth) |
+
+**Two outliers on ~30K-sub channels, both March 2026, at 4.0M and 1.24M views.** That is
+the signal apollo1 did not have — its own big numbers were 2021-2024 with the freshest
+uploads at 123-8,273 views. This lane is live NOW.
+
+### Rejected in the same sweep, with reasons
+- **Antarctica — FAIL.** 11.4M and 9.4M views, but from 7.9M- and 8.7M-sub channels:
+  1.4:1 and 1.1:1. That is channel authority, not topic demand, and proves nothing for a
+  channel with no audience. The only decent ratio (18.6:1) carries "Will Cause Global
+  Tension" framing this channel will not touch.
+- **Unexplained NOAA ocean sounds — FAIL.** The dedicated uploads do 20K-51K views; the
+  Bloop's big numbers belong to large general channels. No small-channel outlier exists.
+- **Hunga Tonga — FAIL.** All news clips, no explainer outlier.
+
+### Step 3 — recognition: 3/3
+The Mariana Trench is a household name.
+
+### ⛔ THE FRAMING CONSTRAINT — this is the whole bet
+**mindwired already made a Mariana video and it did 197 views**
+("Why the Mariana Trench Still Terrifies Scientists" / "The Place on Earth Scarier Than
+Space", 33 scenes, a depth-zone descent). Demand was never the problem — the winners in
+this very sweep are the same subject. The problem was that it promised a MOOD
+("terrifies", "scarier than space") where the winners promise a PAYLOAD ("what they
+found"). **Do not make the descent video again.** This episode is the investigation
+behind a single finding, and the plastic-bag beat is BURNED — the old episode used it in
+scene 2.
+
+### The moat — a primary source no competitor in this lane uses
+Jamieson AJ, Malkocs T, Piertney SB, Fujii T, Zhang Z. **"Bioaccumulation of persistent
+organic pollutants in the deepest ocean fauna."** *Nature Ecology & Evolution*, 13 Feb
+2017. DOI 10.1038/s41559-016-0051. Abstract verified verbatim via Europe PMC:
+
+> "Here we identify extraordinary levels of persistent organic pollutants in the endemic
+> amphipod fauna from two of the deepest ocean trenches (>10,000 metres). Contaminant
+> levels were considerably higher than documented for nearby regions of heavy
+> industrialization, indicating bioaccumulation of anthropogenic contamination and
+> inferring that these pollutants are pervasive across the world's oceans and to full
+> ocean depth."
+
+Footage moat: **NOAA Ocean Exploration** dive footage is a US federal work and therefore
+public domain — a large, genuinely beautiful hadal/abyssal pool.
+
+**⚠ CLAIM NOT YET SOURCED — do not use until it is.** The widely repeated "50 times more
+contaminated than crabs from the Liaohe River" figure is NOT in the abstract and the
+Newcastle press release 404s. It is in the paper body, which is paywalled. Either source
+it properly during CLAIMS or state only what the abstract says.
+
+### Step 4 — sensitivity gate: none
+No victims, no living families. The honesty risk here is the opposite one: this subject
+slides easily into an environmental lecture or into doom. State the finding, state what
+is not known about how it concentrates, and stop.
+
 ## ⭐ apollo1 (mindwired) — validated 2026-09-13, PASS with a currency caveat, in production
 
 **The Apollo 1 fire, 27 January 1967** — told as the investigation, not as a tragedy
