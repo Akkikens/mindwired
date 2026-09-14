@@ -1,0 +1,772 @@
+1
+00:00:00,300 --> 00:00:05,420
+October 19, 2014. A sunspot big enough to swallow 12
+
+2
+00:00:05,420 --> 00:00:08,960
+Earths crosses the Sun. And from 93 million miles away,
+
+3
+00:00:09,340 --> 00:00:10,880
+we watch our star visibly dim.
+
+4
+00:00:12,260 --> 00:00:16,400
+A decade later, one of the best -selling science fiction novels in years would build
+
+5
+00:00:16,400 --> 00:00:19,620
+its entire plot around something far stranger doing that on purpose.
+
+6
+00:00:20,160 --> 00:00:22,520
+A living thing, riding the light of a star,
+
+7
+00:00:23,180 --> 00:00:24,420
+slowly starving it to death.
+
+8
+00:00:25,500 --> 00:00:27,680
+The book is called Project Hail Mary.
+
+9
+00:00:28,200 --> 00:00:31,160
+In 2026, it became a major motion picture,
+
+10
+00:00:31,780 --> 00:00:33,580
+and it carries an unusual reputation.
+
+11
+00:00:34,640 --> 00:00:36,200
+Fans and critics both call it hard,
+
+12
+00:00:36,580 --> 00:00:38,640
+science fiction, the kind that shows its work.
+
+13
+00:00:40,060 --> 00:00:43,360
+So we did the version nobody on the movie's press tour had time for.
+
+14
+00:00:43,920 --> 00:00:46,440
+We took the book's three biggest scientific claims.
+
+15
+00:00:46,800 --> 00:00:48,480
+A microbe that can starve a star,
+
+16
+00:00:48,940 --> 00:00:51,820
+a ship that flies at 94 % of the speed of light,
+
+17
+00:00:52,080 --> 00:00:54,500
+and an alien built from a different chemistry than us,
+
+18
+00:00:54,860 --> 00:00:56,780
+and checked every one of them against real,
+
+19
+00:00:56,920 --> 00:01:00,460
+published science. You're watching Mindwired.
+
+20
+00:01:02,160 --> 00:01:04,500
+This is the real science behind Project Hail Mary.
+
+21
+00:01:05,000 --> 00:01:07,000
+Which of its ideas are grounded in real,
+
+22
+00:01:07,380 --> 00:01:10,860
+published research? Which ones bend the rules of physics on purpose?
+
+23
+00:01:11,380 --> 00:01:15,720
+And the one honest admission its own author makes about exactly where fiction takes over.
+
+24
+00:01:19,960 --> 00:01:23,140
+In the story, it's called Astrophage.
+
+25
+00:01:23,540 --> 00:01:26,060
+A microscopic organism that lives inside stars,
+
+26
+00:01:26,340 --> 00:01:27,780
+feeds directly on their energy,
+
+27
+00:01:28,140 --> 00:01:29,640
+and multiplies by the trillion,
+
+28
+00:01:30,080 --> 00:01:31,680
+dimming its host star as it spreads.
+
+29
+00:01:33,300 --> 00:01:36,040
+So we start with the real record for extreme life on Earth.
+
+30
+00:01:36,700 --> 00:01:41,540
+The hardiest organism science has ever confirmed keeps reproducing at over 250 degrees
+
+31
+00:01:41,540 --> 00:01:45,220
+Fahrenheit, found thriving near hydrothermal vents on the ocean floor,
+
+32
+00:01:45,760 --> 00:01:48,460
+running entirely on chemistry with no sunlight at all.
+
+33
+00:01:49,920 --> 00:01:51,580
+Radiation is a different real record.
+
+34
+00:01:52,080 --> 00:01:56,880
+A bacterium called Dinococcus radiodurans survives radiation doses roughly a thousand
+
+35
+00:01:56,880 --> 00:02:00,220
+times what would kill a human and keeps its DNA intact.
+
+36
+00:02:01,740 --> 00:02:02,740
+Then there's the tardigrade.
+
+37
+00:02:03,240 --> 00:02:05,520
+In a real European space agency experiment,
+
+38
+00:02:05,940 --> 00:02:09,180
+it survived 10 days completely exposed to the vacuum of space.
+
+39
+00:02:09,480 --> 00:02:12,540
+No suit, no shielding, direct solar radiation,
+
+40
+00:02:12,940 --> 00:02:14,040
+and it didn't just survive.
+
+41
+00:02:14,600 --> 00:02:19,760
+It went on to reproduce. None of that gets an organism anywhere close to living inside
+
+42
+00:02:19,760 --> 00:02:23,900
+a star. The surface of our sun is almost 10 ,000 degrees Fahrenheit.
+
+43
+00:02:24,500 --> 00:02:25,900
+Its core runs into the millions.
+
+44
+00:02:26,640 --> 00:02:28,400
+At those temperatures matter isn't solid,
+
+45
+00:02:28,680 --> 00:02:30,440
+or even a gas. It's plasma.
+
+46
+00:02:31,160 --> 00:02:33,820
+Atoms torn apart into bare nuclei and free electrons.
+
+47
+00:02:34,280 --> 00:02:36,540
+There is no DNA, no cell membrane,
+
+48
+00:02:36,920 --> 00:02:38,980
+no chemistry of any kind that survives that.
+
+49
+00:02:40,500 --> 00:02:43,640
+Real stars really do dim in ways scientists can't fully explain.
+
+50
+00:02:44,400 --> 00:02:46,580
+One of them, nicknamed Boyajian's star,
+
+51
+00:02:47,040 --> 00:02:49,580
+dipped in brightness by as much as 22%,
+
+52
+00:02:49,580 --> 00:02:53,920
+unexplained enough that astronomers seriously floated the idea of an alien megastructure
+
+53
+00:02:53,920 --> 00:02:56,460
+before settling on a far less exciting answer,
+
+54
+00:02:57,020 --> 00:02:59,660
+probably just an unusually large amount of orbiting dust.
+
+55
+00:03:00,960 --> 00:03:02,600
+Physicist Jacqueline McCleary,
+
+56
+00:03:02,820 --> 00:03:04,180
+at Northeastern University,
+
+57
+00:03:04,620 --> 00:03:06,520
+ran the numbers on Astrophage specifically.
+
+58
+00:03:07,320 --> 00:03:09,040
+Her conclusion, there are,
+
+59
+00:03:09,320 --> 00:03:14,380
+in her words, orders of magnitude between what a microbe could ever store and what our
+
+60
+00:03:14,380 --> 00:03:17,560
+sun actually radiates every second into space.
+
+61
+00:03:19,000 --> 00:03:21,700
+Here's the part that actually earns this book its reputation.
+
+62
+00:03:22,400 --> 00:03:24,400
+Its own author doesn't dispute any of this.
+
+63
+00:03:25,240 --> 00:03:26,940
+Andy Weir has said, on the record,
+
+64
+00:03:27,360 --> 00:03:30,340
+that Astrophage required exactly one invented rule,
+
+65
+00:03:30,760 --> 00:03:35,080
+a fictional quirk in its cell membrane that lets it store energy no real biology could.
+
+66
+00:03:35,420 --> 00:03:39,200
+In his words, he looked for the absolute minimum way he could break the rules,
+
+67
+00:03:39,580 --> 00:03:43,140
+and then built everything else on top of real biology and real physics.
+
+68
+00:03:45,740 --> 00:03:50,920
+The ship in the story is called the Hail Mary.
+
+69
+00:03:51,540 --> 00:03:53,880
+Its fuel is the same organism from chapter one,
+
+70
+00:03:54,540 --> 00:03:56,360
+burned for propulsion, and it's fast,
+
+71
+00:03:57,000 --> 00:04:00,140
+capable of reaching roughly 94 % of the speed of light.
+
+72
+00:04:01,660 --> 00:04:04,320
+At that speed, time dilation isn't optional,
+
+73
+00:04:04,700 --> 00:04:06,440
+it's real, measured physics.
+
+74
+00:04:07,380 --> 00:04:11,040
+Clocks moving that fast really do run slower relative to the rest of the universe.
+
+75
+00:04:11,880 --> 00:04:16,320
+It's been confirmed in particle accelerators and in GPS satellites correcting for it
+
+76
+00:04:16,320 --> 00:04:21,480
+every single day. Oxford astrophysicist Becky Smethurst checked the
+
+77
+00:04:21,480 --> 00:04:24,900
+specific numbers this book uses for its characters aging differently than the people
+
+78
+00:04:24,900 --> 00:04:26,360
+back on Earth. Her verdict,
+
+79
+00:04:26,780 --> 00:04:28,120
+the timelines fully check out.
+
+80
+00:04:29,560 --> 00:04:30,440
+So does the acceleration.
+
+81
+00:04:31,200 --> 00:04:32,860
+The ship cruises at roughly 1g,
+
+82
+00:04:33,260 --> 00:04:34,920
+the same pull as Earth's gravity.
+
+83
+00:04:35,740 --> 00:04:36,520
+That's not a coincidence.
+
+84
+00:04:37,100 --> 00:04:40,080
+It's the number real physicists already use as the comfortable,
+
+85
+00:04:40,500 --> 00:04:44,020
+survivable long -haul profile for a hypothetical relativistic voyage,
+
+86
+00:04:44,340 --> 00:04:46,320
+doubling as artificial gravity for the crew.
+
+87
+00:04:47,920 --> 00:04:52,360
+Getting to 94 % of light speed at all is where real engineering falls far behind.
+
+88
+00:04:53,040 --> 00:04:57,540
+Humanity's actual, seriously studied interstellar concepts don't come close.
+
+89
+00:04:58,000 --> 00:05:02,960
+A laser -driven sail aims for 20 % of light speed and only for a probe lighter than a
+
+90
+00:05:02,960 --> 00:05:07,240
+paperclip. A 1950s nuclear pulse design aimed for 10%.
+
+91
+00:05:07,240 --> 00:05:08,760
+None of them ever flew a crew.
+
+92
+00:05:10,180 --> 00:05:14,000
+The one real mechanism with anywhere near the needed energy density is antimatter.
+
+93
+00:05:14,620 --> 00:05:16,980
+NASA has funded real feasibility studies on it.
+
+94
+00:05:17,280 --> 00:05:21,820
+The problem is cost. Producing even a single gram is estimated to need costs to drop
+
+95
+00:05:21,820 --> 00:05:24,320
+10 ,000 times over from where they stand today,
+
+96
+00:05:24,580 --> 00:05:28,440
+and we've only ever contained trace amounts for minutes at a lab in Europe.
+
+97
+00:05:29,960 --> 00:05:33,280
+Physicist Chad Orzel points out the specific problem with the ship's fuel.
+
+98
+00:05:33,900 --> 00:05:37,660
+Converting mass directly into energy at anywhere near total efficiency is,
+
+99
+00:05:38,080 --> 00:05:41,780
+in real physics, something only matter colliding with antimatter can do.
+
+100
+00:05:42,280 --> 00:05:46,380
+He notes that even the book's own author has called his fuel organism's exact energy
+
+101
+00:05:46,380 --> 00:05:50,960
+trick hand -wavy. There's also a hazard real physics can't ignore,
+
+102
+00:05:51,200 --> 00:05:52,720
+that the story simply writes around.
+
+103
+00:05:53,100 --> 00:05:57,720
+At those speeds, ordinary interstellar hydrogen turns into lethal radiation on impact.
+
+104
+00:05:58,700 --> 00:06:02,680
+One physics paper puts the real safe ceiling for an unshielded ship at around half the
+
+105
+00:06:02,680 --> 00:06:05,760
+speed of light, well under what this story's ship survives unscathed.
+
+106
+00:06:06,180 --> 00:06:08,900
+Asked directly whether a real mission like this is possible,
+
+107
+00:06:09,420 --> 00:06:11,760
+NASA's Lisa Carnell gave a one -line answer.
+
+108
+00:06:12,260 --> 00:06:15,360
+Not right now, with any technology that currently exists.
+
+109
+00:06:16,580 --> 00:06:20,380
+Weir himself has said this book took more research than anything he'd written before,
+
+110
+00:06:20,860 --> 00:06:22,340
+across physics, relativity,
+
+111
+00:06:22,820 --> 00:06:27,000
+and material science, and that he ran all the numbers on the fuel's energy budget himself.
+
+112
+00:06:27,480 --> 00:06:31,180
+His own framing, in an interview with astrophysicist Neil deGrasse Tyson,
+
+113
+00:06:31,540 --> 00:06:33,680
+is that the fuel is his one deliberate cheat,
+
+114
+00:06:34,080 --> 00:06:36,640
+chosen specifically so that everything built on top of it,
+
+115
+00:06:36,860 --> 00:06:38,980
+the acceleration, the time dilation,
+
+116
+00:06:39,400 --> 00:06:41,600
+the flight plan, could be calculated for real.
+
+117
+00:06:42,780 --> 00:06:46,080
+Chapter 3. The Friend That Shouldn't Be Possible.
+
+118
+00:06:47,840 --> 00:06:49,840
+The story's most beloved character isn't human.
+
+119
+00:06:51,080 --> 00:06:53,320
+Rocky is built from something closer to rock than flesh,
+
+120
+00:06:53,780 --> 00:06:56,540
+evolved on a world crushed under enormous pressure,
+
+121
+00:06:57,080 --> 00:06:59,980
+scorching hot with a poisonous atmosphere by our standards.
+
+122
+00:07:01,620 --> 00:07:03,360
+That's not as far -fetched as it sounds.
+
+123
+00:07:03,980 --> 00:07:08,140
+Real extremophiles on Earth already survive pressures over a thousand times sea level
+
+124
+00:07:08,140 --> 00:07:12,720
+at hydrothermal vents that run entirely on chemistry with no sunlight at all.
+
+125
+00:07:14,380 --> 00:07:17,160
+Assuming life has to look like us even has a real name in science.
+
+126
+00:07:17,820 --> 00:07:20,920
+Carbon chauvinism, a term coined by Carl Sagan himself,
+
+127
+00:07:21,380 --> 00:07:23,620
+who admitted even he was probably guilty of it.
+
+128
+00:07:24,400 --> 00:07:25,560
+Astrobiologist Mike Wong,
+
+129
+00:07:25,800 --> 00:07:27,420
+who studies exactly this question,
+
+130
+00:07:27,800 --> 00:07:31,920
+says the real diversity of possible life in the universe is almost certainly wider than
+
+131
+00:07:31,920 --> 00:07:34,820
+the one narrow example evolution happened to produce here on Earth.
+
+132
+00:07:36,320 --> 00:07:39,120
+The film's marketing calls Rocky's chemistry ammonia -based.
+
+133
+00:07:39,780 --> 00:07:41,320
+That's a slight oversimplification.
+
+134
+00:07:42,120 --> 00:07:44,520
+The real story, by the author's own account,
+
+135
+00:07:44,780 --> 00:07:47,980
+is a water -based creature that survives on a world with a thick,
+
+136
+00:07:48,660 --> 00:07:49,780
+ammonia -heavy atmosphere,
+
+137
+00:07:50,220 --> 00:07:51,780
+not a completely different biochemistry.
+
+138
+00:07:52,400 --> 00:07:55,940
+The idea of life actually built on ammonia instead of water is real too,
+
+139
+00:07:56,260 --> 00:07:58,980
+a 1954 hypothesis still unproven,
+
+140
+00:07:59,380 --> 00:08:00,900
+usually discussed for a moon like Titan.
+
+141
+00:08:02,120 --> 00:08:05,000
+The part real experts push back on hardest isn't the biology.
+
+142
+00:08:05,680 --> 00:08:07,620
+It's the language. In the story,
+
+143
+00:08:08,020 --> 00:08:09,920
+two minds with zero shared biology,
+
+144
+00:08:10,360 --> 00:08:14,480
+culture, or reference point build a working shared language astonishingly fast.
+
+145
+00:08:15,040 --> 00:08:19,440
+Linguist Hannah Little at the University of Liverpool points out that even translating
+
+146
+00:08:19,440 --> 00:08:24,240
+between two human languages takes an enormous amount of data and working out which alien
+
+147
+00:08:24,240 --> 00:08:26,000
+sounds even carry meaning would be,
+
+148
+00:08:26,360 --> 00:08:28,400
+in her words, a mammoth task.
+
+149
+00:08:29,800 --> 00:08:34,120
+The one part of that bridge real scientists do take seriously is starting with math and
+
+150
+00:08:34,120 --> 00:08:38,160
+physics, the closest thing to a universal language two different minds might actually
+
+151
+00:08:38,160 --> 00:08:43,320
+share. It's the exact principle behind the real interstellar message humanity beamed
+
+152
+00:08:43,320 --> 00:08:46,460
+into space from the Arecibo telescope back in 1974.
+
+153
+00:08:48,180 --> 00:08:50,700
+What is real is how carefully the character was built.
+
+154
+00:08:51,520 --> 00:08:53,800
+Andy Weir worked directly with an astrobiologist,
+
+155
+00:08:54,260 --> 00:08:55,780
+picked an actual candidate planet,
+
+156
+00:08:56,240 --> 00:08:58,740
+calculated what pressure and light it would really have,
+
+157
+00:08:59,140 --> 00:09:02,220
+and reverse engineered a creature that could plausibly survive there,
+
+158
+00:09:02,620 --> 00:09:06,480
+down to a specific, reasoned explanation for how it produces sound at all.
+
+159
+00:09:08,020 --> 00:09:11,700
+Even the planet itself is a small lesson in how fast real science moves.
+
+160
+00:09:12,580 --> 00:09:17,240
+The exact real star system the author picked as a candidate home for Rocky's world has,
+
+161
+00:09:17,600 --> 00:09:21,160
+since publication, been partly revised by newer observations.
+
+162
+00:09:21,920 --> 00:09:24,600
+Fiction had to guess. Astronomy kept going.
+
+163
+00:09:26,080 --> 00:09:31,300
+Chapter 4. So, one of the most careful science
+
+164
+00:09:31,300 --> 00:09:34,420
+outlets in the world, scientific American in the New York Times,
+
+165
+00:09:34,780 --> 00:09:39,240
+independently checked this entire book against real physics and biology after the movie's
+
+166
+00:09:39,240 --> 00:09:42,000
+release. They landed in almost the same place.
+
+167
+00:09:43,440 --> 00:09:45,460
+Their verdict, the orbital mechanics,
+
+168
+00:09:45,940 --> 00:09:49,560
+the ship's flight plan, and the alien's biology are treated fairly,
+
+169
+00:09:50,060 --> 00:09:53,460
+reasoned out from real constraints about as rigorously as fiction gets.
+
+170
+00:09:54,120 --> 00:09:58,220
+The one place the numbers genuinely don't work is the very premise the whole story is
+
+171
+00:09:58,220 --> 00:10:01,240
+built on, a microbe with enough energy to dim a star.
+
+172
+00:10:02,680 --> 00:10:05,240
+Which tracks with something the author has said about his own method.
+
+173
+00:10:05,700 --> 00:10:08,400
+Find the smallest possible place to break a rule of physics,
+
+174
+00:10:08,780 --> 00:10:11,420
+and then respect every other rule as strictly as you can.
+
+175
+00:10:12,140 --> 00:10:13,660
+Astrophage is that one break.
+
+176
+00:10:14,300 --> 00:10:16,700
+Almost everything downstream of it is real science,
+
+177
+00:10:17,160 --> 00:10:18,920
+pushed about as far as it can honestly go.
+
+178
+00:10:20,300 --> 00:10:22,460
+Here's what actually stayed with me researching this.
+
+179
+00:10:23,020 --> 00:10:24,880
+It's not that the book gets the science right,
+
+180
+00:10:25,200 --> 00:10:29,560
+it's how much real, published research it takes to even know exactly where it's wrong.
+
+181
+00:10:31,020 --> 00:10:34,040
+A microbe that lives inside a star will probably always be fiction,
+
+182
+00:10:34,520 --> 00:10:37,020
+but the extremophiles it's loosely based on are real,
+
+183
+00:10:37,480 --> 00:10:40,400
+and we're still finding stranger ones every year in trenches,
+
+184
+00:10:40,900 --> 00:10:44,180
+in ice, in radiation that would kill anything else we know of.
+
+185
+00:10:45,420 --> 00:10:48,020
+The gap between this story and reality isn't a flaw,
+
+186
+00:10:48,440 --> 00:10:51,860
+it's a map. It shows you exactly where the real science ends,
+
+187
+00:10:52,140 --> 00:10:54,240
+and points at what's actually left to go discover.
+
+188
+00:10:55,820 --> 00:10:58,620
+If a fictional microbe that can starve a star got under your skin,
+
+189
+00:10:59,300 --> 00:11:00,420
+wait until you see the real,
+
+190
+00:11:01,000 --> 00:11:03,300
+75 year old scientific argument for why,
+
+191
+00:11:03,620 --> 00:11:05,820
+if alien life like Rocky's is really out there,
+
+192
+00:11:06,200 --> 00:11:07,960
+we still haven't heard a single word from it.
+
+193
+00:11:08,520 --> 00:11:10,880
+That full story is live on this channel right now.
+

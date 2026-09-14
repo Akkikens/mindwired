@@ -1,0 +1,942 @@
+{
+ "slug": "nepalflood",
+ "title": "नेपाल में इतना पानी आया कहाँ से?",
+ "channel": "dimaagbatti",
+ "niche": "generic",
+ "language": "hi",
+ "voice": "4877b818-c7fe-4c89-b1cf-eadf8e23da72",
+ "scenes": [
+  {
+   "id": "h1",
+   "text": "छब्बीस अगस्त, दो हज़ार छब्बीस। सुबह के लगभग नौ बजे। नेपाल का रसुवा ज़िला, चीन की सीमा से कुछ ही किलोमीटर दूर।",
+   "stat": "26 अगस्त 2026",
+   "cap": "रसुवा, नेपाल।",
+   "motion": "slow",
+   "tone": "curiosity",
+   "video": "himalaya_dawn_1.mp4",
+   "videoQuery": "himalaya mountains aerial dawn clouds"
+  },
+  {
+   "id": "h2",
+   "text": "तिमुरे बाज़ार में दुकानें अभी-अभी खुली हैं। सीमा पर ट्रक खड़े हैं। और ऊपर पहाड़ों में, कुछ ऐसा होने वाला है जिसे शुरू में पूरी दुनिया भूकंप समझेगी।",
+   "cap": "तिमुरे बाज़ार।",
+   "tone": "unease",
+   "video": "mountain_road_1.mp4",
+   "videoQuery": "mountain road himalaya village trucks"
+  },
+  {
+   "id": "h3",
+   "text": "अमेरिका की भूवैज्ञानिक संस्था यू एस जी एस पहले चार दशमलव चार तीव्रता का भूकंप दर्ज करती है।",
+   "stat": "M4.4 — भूकंप?",
+   "tone": "tension",
+   "video": "seismo_v_1.mp4",
+   "videoQuery": "seismograph needle recording data"
+  },
+  {
+   "id": "h4",
+   "text": "लेकिन वो भूकंप था ही नहीं।",
+   "kinetic": {
+    "words": [
+     "वो",
+     "भूकंप",
+     "था",
+     "ही",
+     "नहीं।"
+    ]
+   },
+   "img": "seismo_1",
+   "query": "seismograph earthquake reading monitor",
+   "stock": true,
+   "extraHold": 26,
+   "tone": "dread"
+  },
+  {
+   "id": "h5",
+   "text": "धरती नहीं हिली थी। पाँच हज़ार दो सौ मीटर की ऊँचाई पर, एक ग्लेशियर का लगभग छह सौ मीटर चौड़ा हिस्सा — बर्फ़ के साथ नीचे की पूरी चट्टान समेत — टूटकर गिर गया था।",
+   "stat": "600 मीटर चौड़ा",
+   "cap": "ग्लेशियर और चट्टान, दोनों।",
+   "tone": "dread",
+   "video": "glacier_v_1.mp4",
+   "videoQuery": "glacier ice cliff aerial himalaya"
+  },
+  {
+   "id": "h6",
+   "text": "बारह सौ मीटर नीचे। सीधे लेंडे खोला की घाटी में।",
+   "stat": "1,200 मीटर गिरा",
+   "extraHold": 22,
+   "tone": "dread",
+   "video": "valley_v_1.mp4",
+   "videoQuery": "steep river gorge valley aerial"
+  },
+  {
+   "id": "h7",
+   "text": "जो झटका सेंसरों ने पकड़ा, वो भूकंप से नहीं आया था। वो इस गिरने से पैदा हुआ था। बाद में इसे पाँच दशमलव दो के बराबर आँका गया।",
+   "cap": "भूकंप नहीं — गिरने की आवाज़।",
+   "tone": "unease",
+   "video": "seismo_v_1.mp4",
+   "videoQuery": "seismograph needle recording data"
+  },
+  {
+   "id": "h8",
+   "text": "नौ दिन बाद, तीन सितंबर तक, आधिकारिक आँकड़ा था — बारह सौ बावन लोगों की मौत, और चार हज़ार दो सौ सोलह लोग लापता।",
+   "stat": "1,252 मृत · 4,216 लापता",
+   "cap": "3 सितंबर 2026 तक।",
+   "extraHold": 28,
+   "tone": "dread",
+   "video": "flood_v_1.mp4",
+   "videoQuery": "muddy river flood torrent raging"
+  },
+  {
+   "id": "h9",
+   "text": "और वैज्ञानिकों के सामने एक सवाल खड़ा था जिसका जवाब आसान नहीं था। इतना पानी आया कहाँ से?",
+   "cap": "पानी आया कहाँ से?",
+   "extraHold": 24,
+   "tone": "mystery",
+   "video": "flood_v_2.mp4",
+   "videoQuery": "brown flood water rushing debris"
+  },
+  {
+   "id": "sting1",
+   "sting": true,
+   "text": "आप देख रहे हैं दिमाग़ बत्ती।",
+   "img": "rasuwa_1",
+   "query": "Rasuwa Nepal mountains",
+   "tone": "confidence"
+  },
+  {
+   "id": "t1",
+   "text": "इस वीडियो में हम तीन चीज़ें समझेंगे। असल में हुआ क्या। वो पानी कहाँ से आया। और सबसे ज़रूरी — इसका भारत से क्या लेना-देना है।",
+   "img": "map_1",
+   "query": "Nepal India map Himalaya rivers",
+   "stock": true,
+   "cap": "तीन सवाल।",
+   "tone": "curiosity"
+  },
+  {
+   "id": "c1",
+   "chapter": "1 — जो गिरा,\nवो सिर्फ़ बर्फ़ नहीं थी",
+   "text": "अध्याय एक। जो गिरा, वो सिर्फ़ बर्फ़ नहीं थी।",
+   "img": "glacier_1",
+   "query": "Himalaya glacier ice cliff"
+  },
+  {
+   "id": "a1",
+   "text": "सबसे पहले भूगोल समझ लीजिए, क्योंकि आगे की पूरी कहानी इसी पर टिकी है।",
+   "img": "map_1",
+   "query": "Nepal India map Himalaya rivers",
+   "stock": true,
+   "tone": "curiosity"
+  },
+  {
+   "id": "a2",
+   "text": "लेंडे खोला एक छोटी नदी है, जो तिब्बत के गिरोंग इलाके से निकलती है और दक्षिण में नेपाल की तरफ़ बहती है।",
+   "img": "tibet_1",
+   "query": "Tibet plateau mountains river",
+   "stock": true,
+   "cap": "लेंडे खोला — तिब्बत से।",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a3",
+   "text": "ये मिलती है भोटेकोशी में। भोटेकोशी मिलती है त्रिशूली में। त्रिशूली बनती है नारायणी। और नारायणी जब भारत में घुसती है, तो उसका नाम हो जाता है — गंडक।",
+   "img": "map_1",
+   "query": "Nepal India map Himalaya rivers",
+   "stock": true,
+   "stat": "लेंडे → भोटेकोशी → त्रिशूली → नारायणी → गंडक",
+   "cap": "यही रास्ता याद रखिए।",
+   "extraHold": 26,
+   "tone": "curiosity"
+  },
+  {
+   "id": "a4",
+   "text": "ये कोसी नहीं है। ये गंडक है। ये फ़र्क़ आगे बहुत मायने रखेगा।",
+   "kinetic": {
+    "words": [
+     "कोसी",
+     "नहीं।",
+     "गंडक।"
+    ]
+   },
+   "img": "map_1",
+   "query": "Nepal India map rivers",
+   "stock": true,
+   "extraHold": 24,
+   "tone": "tension"
+  },
+  {
+   "id": "a5",
+   "text": "अब उस सुबह पर वापस आते हैं। नेपाल के जल एवं मौसम विज्ञान विभाग के मुताबिक़, ये बर्फ़ का तोदा, पिघलती हुई पर्माफ़्रॉस्ट और चट्टान — तीनों एक साथ खिसके।",
+   "img": "glacier_2",
+   "query": "rockfall landslide mountain debris",
+   "stock": true,
+   "source": "DHM Nepal / ICIMOD",
+   "tone": "dread"
+  },
+  {
+   "id": "a6",
+   "text": "आई सी आई एम ओ डी के वैज्ञानिक मोहम्मद फ़ारूक़ आज़म का शुरुआती अनुमान है — दस से बीस करोड़ घन मीटर मलबा। ये अनुमान है, अंतिम आँकड़ा नहीं।",
+   "img": "glacier_2",
+   "query": "rockfall landslide mountain debris",
+   "stock": true,
+   "stat": "10–20 करोड़ घन मीटर",
+   "cap": "शुरुआती अनुमान।",
+   "tone": "dread"
+  },
+  {
+   "id": "a7",
+   "text": "ये मलबा गिरकर लेंडे खोला के रास्ते में ही बैठ गया। नदी रुक गई। पीछे पानी जमा होने लगा। एक अस्थायी बाँध बन गया — जो किसी इंजीनियर ने नहीं बनाया था।",
+   "img": "landslide_dam_1",
+   "query": "landslide blocking river natural dam",
+   "stock": true,
+   "cap": "एक बाँध, जो किसी ने बनाया नहीं था।",
+   "tone": "dread"
+  },
+  {
+   "id": "a8",
+   "text": "और फिर वो टूट गया।",
+   "kinetic": {
+    "words": [
+     "और",
+     "फिर",
+     "वो",
+     "टूट",
+     "गया।"
+    ]
+   },
+   "img": "landslide_dam_1",
+   "query": "landslide blocking river natural dam",
+   "stock": true,
+   "extraHold": 28,
+   "tone": "dread"
+  },
+  {
+   "id": "a9",
+   "text": "गलच्छी में त्रिशूली नदी तीस मिनट में नौ मीटर ऊपर उठ गई। मलेखु में सात मीटर। कई जगहों पर नापने वाले यंत्र खुद बह गए।",
+   "img": "flood_1",
+   "query": "river flooding rising water torrent",
+   "stock": true,
+   "stat": "30 मिनट में 9 मीटर",
+   "tone": "dread"
+  },
+  {
+   "id": "a10",
+   "text": "कोलंबिया यूनिवर्सिटी के गोरान एकस्ट्रॉम के मुताबिक़, पानी की ये दीवार चालीस से पचास मीटर ऊँची थी, और लगभग सत्तर किलोमीटर प्रति घंटे की रफ़्तार से आ रही थी।",
+   "img": "flood_2",
+   "query": "flash flood wall of water debris",
+   "stock": true,
+   "stat": "40–50 मीटर ऊँची · ~70 km/h",
+   "source": "Göran Ekström, Columbia / ABC News",
+   "tone": "dread"
+  },
+  {
+   "id": "a11",
+   "text": "रसुवा के मुख्य सीमा शुल्क अधिकारी राजेंद्र ढुंगाना ने जो देखा, उनके शब्दों में — तिमुरे बाज़ार पलक झपकते ही ख़त्म हो गया।",
+   "img": "border_1",
+   "query": "destroyed buildings flood damage town",
+   "stock": true,
+   "cap": "“पलक झपकते ही।”",
+   "extraHold": 24,
+   "tone": "melancholy"
+  },
+  {
+   "id": "c2",
+   "chapter": "2 — इतना पानी\nआया कहाँ से?",
+   "text": "अध्याय दो। इतना पानी आया कहाँ से?",
+   "img": "flood_1",
+   "query": "himalayan river flood muddy water"
+  },
+  {
+   "id": "b1",
+   "text": "अब वो सवाल, जिसने वैज्ञानिकों को सबसे ज़्यादा उलझाया।",
+   "img": "glacier_1",
+   "query": "Himalaya glacier ice",
+   "stock": true,
+   "tone": "mystery"
+  },
+  {
+   "id": "b2",
+   "text": "सोचिए — जो गिरा वो ज़्यादातर बर्फ़ और चट्टान थी। तो इतना सारा पानी बना कैसे? सीधा जवाब लगता है — रगड़ से बर्फ़ पिघल गई होगी।",
+   "img": "glacier_2",
+   "query": "ice melting water glacier",
+   "stock": true,
+   "tone": "curiosity"
+  },
+  {
+   "id": "b3",
+   "text": "चलिए इसका हिसाब लगाते हैं। ये गणित आसान है, और ये आपको जवाब के क़रीब ले जाएगा।",
+   "img": "physics_1",
+   "query": "physics equation chalkboard calculation",
+   "stock": true,
+   "tone": "curiosity"
+  },
+  {
+   "id": "b4",
+   "text": "बारह सौ मीटर की ऊँचाई से गिरने पर, हर किलोग्राम बर्फ़ को लगभग ग्यारह दशमलव आठ किलोजूल ऊर्जा मिलती है।",
+   "img": "physics_1",
+   "query": "physics equation chalkboard",
+   "stock": true,
+   "stat": "11.8 kJ/kg",
+   "tone": "curiosity"
+  },
+  {
+   "id": "b5",
+   "text": "और एक किलोग्राम बर्फ़ को पिघलाने के लिए चाहिए — तीन सौ चौंतीस किलोजूल।",
+   "img": "physics_1",
+   "query": "physics equation chalkboard",
+   "stock": true,
+   "stat": "334 kJ/kg चाहिए",
+   "tone": "curiosity"
+  },
+  {
+   "id": "b6",
+   "text": "मतलब अगर गिरने की सारी ऊर्जा, सौ प्रतिशत, सिर्फ़ बर्फ़ पिघलाने में लग जाती — तब भी सिर्फ़ साढ़े तीन प्रतिशत बर्फ़ पिघलती।",
+   "kinetic": {
+    "words": [
+     "सिर्फ़",
+     "साढ़े",
+     "तीन",
+     "प्रतिशत।"
+    ]
+   },
+   "img": "physics_1",
+   "query": "physics equation chalkboard",
+   "stock": true,
+   "stat": "अधिकतम ~3.5%",
+   "extraHold": 28,
+   "tone": "awe"
+  },
+  {
+   "id": "b7",
+   "text": "और असल में तो ऊर्जा आवाज़ में, गर्मी में, चट्टान तोड़ने में भी जाती है। तो असली आँकड़ा इससे भी कम होगा।",
+   "img": "physics_1",
+   "query": "physics equation chalkboard",
+   "stock": true,
+   "tone": "curiosity"
+  },
+  {
+   "id": "b8",
+   "text": "ये हिसाब मेरा है, किसी वैज्ञानिक का बयान नहीं। लेकिन ये दिखाता है कि सवाल असली है — सिर्फ़ पिघलने से इतना पानी नहीं बन सकता।",
+   "img": "physics_1",
+   "query": "physics equation chalkboard",
+   "stock": true,
+   "cap": "ये गणना है, दावा नहीं।",
+   "tone": "unease"
+  },
+  {
+   "id": "b9",
+   "text": "ब्रिटेन के भूवैज्ञानिक डेव पेटली ने पहले ही दिन लिखा — पानी का स्रोत इस घटना का सबसे दिलचस्प हिस्सा है। और उन्होंने साफ़ जोड़ा कि वो अनुमान लगा रहे हैं।",
+   "img": "scientist_1",
+   "query": "geologist scientist research desk",
+   "stock": true,
+   "source": "Dave Petley, The Landslide Blog, 26 Aug 2026",
+   "tone": "curiosity"
+  },
+  {
+   "id": "b10",
+   "text": "तो जवाब क्या है? दो हिस्सों में है, और दोनों पिघलने से ज़्यादा दिलचस्प हैं।",
+   "img": "flood_1",
+   "query": "muddy flood water debris",
+   "stock": true,
+   "tone": "tension"
+  },
+  {
+   "id": "b11",
+   "text": "पहला — जो मलबा नीचे आया, उसमें पहले से पानी मौजूद था। मिट्टी में, चट्टानों के बीच, बर्फ़ के अंदर। शोधकर्ता सुनवी मास्के के मुताबिक़ रगड़ से कुछ बर्फ़ ज़रूर पिघली, पर साथ में ये फँसा हुआ पानी भी बहा।",
+   "img": "debris_1",
+   "query": "wet mud debris flow sediment",
+   "stock": true,
+   "tone": "curiosity"
+  },
+  {
+   "id": "b12",
+   "text": "और दूसरा, जो असली वजह है। कोलंबिया वॉटर सेंटर के निदेशक उपमन्यु लाल कहते हैं — पानी को कई गुना बढ़ाने वाली चीज़ पिघलना नहीं थी। वो था नदी का रुकना।",
+   "img": "landslide_dam_1",
+   "query": "landslide natural dam blocked river",
+   "stock": true,
+   "source": "Upmanu Lall, Columbia Water Center",
+   "cap": "असली वजह — नदी का रुकना।",
+   "tone": "awe"
+  },
+  {
+   "id": "b13",
+   "text": "नदी अपनी सामान्य रफ़्तार से बहती रही। बाँध के पीछे जमा होती रही। और जब बाँध टूटा, तो घंटों का जमा हुआ पानी — कुछ ही मिनटों में निकल गया।",
+   "kinetic": {
+    "words": [
+     "घंटों",
+     "का",
+     "पानी।",
+     "मिनटों",
+     "में।"
+    ]
+   },
+   "img": "landslide_dam_1",
+   "query": "dam burst water release",
+   "stock": true,
+   "extraHold": 28,
+   "tone": "dread"
+  },
+  {
+   "id": "b14",
+   "text": "यानी रहस्य ये नहीं था कि पानी कहाँ से पैदा हुआ। पानी तो नदी का ही था। रहस्य ये था कि वो सारा पानी एक साथ कैसे आ गया।",
+   "img": "flood_2",
+   "query": "flash flood torrent",
+   "stock": true,
+   "extraHold": 24,
+   "tone": "awe"
+  },
+  {
+   "id": "c3",
+   "chapter": "3 — ये वो बाढ़\nनहीं थी",
+   "text": "अध्याय तीन। ये वो बाढ़ नहीं थी।",
+   "img": "glacier_lake_1",
+   "query": "glacial lake himalaya turquoise"
+  },
+  {
+   "id": "d1",
+   "text": "यहाँ एक बहुत बड़ी ग़लतफ़हमी है, जो इंटरनेट पर तेज़ी से फैल रही है। और मैं चाहता हूँ कि आप इसे ठीक से समझ लें।",
+   "img": "glacier_lake_1",
+   "query": "glacial lake himalaya",
+   "stock": true,
+   "tone": "unease"
+  },
+  {
+   "id": "d2",
+   "text": "आपने शायद सुना हो कि ये ग्लेशियर झील फटने से आई बाढ़ थी। अंग्रेज़ी में इसे कहते हैं ग्लोफ़ — जब ऊपर बनी बर्फ़ की झील अचानक फूट पड़ती है।",
+   "img": "glacier_lake_1",
+   "query": "glacial lake himalaya",
+   "stock": true,
+   "cap": "GLOF क्या है?",
+   "tone": "curiosity"
+  },
+  {
+   "id": "d3",
+   "text": "ठीक इसी जगह पर, ठीक चौदह महीने पहले — आठ जुलाई दो हज़ार पच्चीस को — बाढ़ आई थी। और वो सचमुच ग्लोफ़ थी। तिब्बत में ग्लेशियर के ऊपर बनी एक झील फूटी थी।",
+   "img": "glacier_lake_1",
+   "query": "glacial lake outburst himalaya",
+   "stock": true,
+   "stat": "8 जुलाई 2025 — वो GLOF थी",
+   "source": "DHM / ICIMOD",
+   "tone": "tension"
+  },
+  {
+   "id": "d4",
+   "text": "लेकिन दो हज़ार छब्बीस वाली ये घटना — वैज्ञानिकों के मुताबिक़ शायद ग्लोफ़ थी ही नहीं।",
+   "kinetic": {
+    "words": [
+     "ये",
+     "शायद",
+     "GLOF",
+     "थी",
+     "ही",
+     "नहीं।"
+    ]
+   },
+   "img": "glacier_2",
+   "query": "rockfall ice avalanche",
+   "stock": true,
+   "extraHold": 26,
+   "tone": "dread"
+  },
+  {
+   "id": "d5",
+   "text": "डेव पेटली के शब्दों में — इस बात का कोई सबूत नहीं है कि ये ग्लोफ़ थी। आई सी आई एम ओ डी और नेपाल का विभाग भी इसे चट्टान और बर्फ़ का हिमस्खलन मानते हैं, झील का फटना नहीं।",
+   "img": "glacier_2",
+   "query": "rock ice avalanche mountain",
+   "stock": true,
+   "source": "Dave Petley, 26 Aug 2026",
+   "tone": "unease"
+  },
+  {
+   "id": "d6",
+   "text": "एक ही नदी। एक ही जगह। चौदह महीने का फ़ासला। और दो बिल्कुल अलग वजहें। जो चैनल इन दोनों को एक बता रहे हैं, वो आपको ग़लत जानकारी दे रहे हैं।",
+   "img": "valley_1",
+   "query": "himalayan river valley",
+   "stock": true,
+   "extraHold": 24,
+   "tone": "melancholy"
+  },
+  {
+   "id": "d7",
+   "text": "और हाँ — एक बात साफ़ कर दूँ। नासा ने इस घटना पर अब तक कुछ भी प्रकाशित नहीं किया है। अगर कोई वीडियो कहता है नासा के वैज्ञानिकों ने ये कहा, तो वो बात गढ़ी हुई है।",
+   "img": "scientist_1",
+   "query": "satellite earth observation",
+   "stock": true,
+   "cap": "नासा ने कुछ नहीं कहा।",
+   "extraHold": 22,
+   "tone": "unease"
+  },
+  {
+   "id": "c4",
+   "chapter": "4 — भारत तक\nसाढ़े सात घंटे",
+   "text": "अध्याय चार। भारत तक साढ़े सात घंटे।",
+   "img": "map_1",
+   "query": "Nepal India border rivers map"
+  },
+  {
+   "id": "e1",
+   "text": "अब वो हिस्सा, जो हम भारत में बैठे लोगों के लिए सबसे ज़रूरी है।",
+   "img": "map_1",
+   "query": "Nepal India map rivers",
+   "stock": true,
+   "tone": "tension"
+  },
+  {
+   "id": "e2",
+   "text": "आई सी आई एम ओ डी के सस्वत सान्याल के मुताबिक़, रसुवा से चला पानी का सबसे ऊँचा हिस्सा त्रिवेणी तक — यानी भारत की सीमा के पास — लगभग साढ़े सात घंटे में पहुँच गया।",
+   "img": "triveni_1",
+   "query": "river border India Nepal plains",
+   "stock": true,
+   "stat": "7.5 घंटे",
+   "source": "Saswata Sanyal, ICIMOD / BBC",
+   "cap": "सीमा तक, साढ़े सात घंटे में।",
+   "extraHold": 26,
+   "tone": "dread"
+  },
+  {
+   "id": "e3",
+   "text": "सुबह नौ बजे पहाड़ में जो टूटा, वो दोपहर के खाने से पहले भारत के दरवाज़े पर था।",
+   "kinetic": {
+    "words": [
+     "दोपहर",
+     "से",
+     "पहले।"
+    ]
+   },
+   "img": "triveni_1",
+   "query": "river plains border",
+   "stock": true,
+   "extraHold": 24,
+   "tone": "dread"
+  },
+  {
+   "id": "e4",
+   "text": "भारतीय विदेश मंत्रालय के मुताबिक़ कम से कम तीन सौ बीस भारतीय नागरिक लापता बताए गए। भारत ने वायुसेना के विमान से लगभग पचास टन राहत सामग्री भेजी।",
+   "img": "rescue_1",
+   "query": "relief aid cargo aircraft",
+   "stock": true,
+   "tone": "melancholy"
+  },
+  {
+   "id": "e5",
+   "text": "लेकिन यहाँ मुझे एक बात ईमानदारी से कहनी है। हमें भारत के अंदर इस बाढ़ से हुई मौतों, या किसी बाँध से पानी छोड़े जाने की कोई पुष्ट रिपोर्ट नहीं मिली।",
+   "img": "map_1",
+   "query": "India Nepal map",
+   "stock": true,
+   "cap": "ये पुष्ट नहीं है।",
+   "tone": "unease"
+  },
+  {
+   "id": "e6",
+   "text": "और एक और ग़लतफ़हमी ठीक कर देते हैं। इन दिनों उत्तर प्रदेश के इकतीस ज़िलों में बाढ़ है। वो नेपाल की इस घटना से नहीं आई। वो सामान्य मानसून की बाढ़ है — मंदाकिनी, पांडु और गंगा की।",
+   "img": "up_flood_1",
+   "query": "Uttar Pradesh monsoon flood village",
+   "stock": true,
+   "cap": "ये अलग घटना है।",
+   "tone": "unease"
+  },
+  {
+   "id": "e7",
+   "text": "दो अलग घटनाओं को जोड़ देना आसान है। लेकिन सही नहीं है।",
+   "img": "up_flood_1",
+   "query": "monsoon flood India",
+   "stock": true,
+   "extraHold": 20,
+   "tone": "melancholy"
+  },
+  {
+   "id": "c5",
+   "chapter": "5 — “नेपाल पानी\nछोड़ देता है”",
+   "text": "अध्याय पाँच। नेपाल पानी छोड़ देता है।",
+   "img": "barrage_1",
+   "query": "river barrage gates India"
+  },
+  {
+   "id": "f1",
+   "text": "हर साल जब बिहार में बाढ़ आती है, एक बात ज़रूर सुनाई देती है। नेपाल ने पानी छोड़ दिया।",
+   "img": "barrage_1",
+   "query": "river barrage gates flood",
+   "stock": true,
+   "cap": "“नेपाल ने पानी छोड़ा।”",
+   "tone": "tension"
+  },
+  {
+   "id": "f2",
+   "text": "ये बात ग़लत है। और इसकी वजह बहुत सीधी है।",
+   "kinetic": {
+    "words": [
+     "ये",
+     "बात",
+     "ग़लत",
+     "है।"
+    ]
+   },
+   "img": "barrage_1",
+   "query": "river barrage gates",
+   "stock": true,
+   "extraHold": 24,
+   "tone": "dread"
+  },
+  {
+   "id": "f3",
+   "text": "पानी छोड़ने के लिए पहले पानी रोकना पड़ता है। और नेपाल के पास रोकने के लिए बड़े बाँध हैं ही नहीं। नेपाल का सबसे बड़ा जलाशय कुलेखानी है — उसकी क्षमता शून्य दशमलव एक घन किलोमीटर से भी कम है।",
+   "img": "dam_1",
+   "query": "small hydropower dam reservoir mountains",
+   "stock": true,
+   "stat": "कुलेखानी < 0.1 km³",
+   "source": "Saswata Sanyal, ICIMOD",
+   "tone": "curiosity"
+  },
+  {
+   "id": "f4",
+   "text": "सान्याल के शब्दों में — छोड़ने के लिए कुछ है ही नहीं।",
+   "img": "dam_1",
+   "query": "small dam reservoir",
+   "stock": true,
+   "cap": "“छोड़ने के लिए कुछ है ही नहीं।”",
+   "extraHold": 22,
+   "tone": "awe"
+  },
+  {
+   "id": "f5",
+   "text": "और कोसी और गंडक बैराज — जिनके गेट खुलने की तस्वीरें हर साल वायरल होती हैं — वो नेपाल नहीं चलाता। वो भारत चलाता है।",
+   "kinetic": {
+    "words": [
+     "वो",
+     "बैराज",
+     "भारत",
+     "चलाता",
+     "है।"
+    ]
+   },
+   "img": "barrage_1",
+   "query": "barrage gates open river",
+   "stock": true,
+   "extraHold": 28,
+   "tone": "awe"
+  },
+  {
+   "id": "f6",
+   "text": "तो फिर बिहार में बाढ़ आती क्यों है? क्योंकि भूगोल ऐसा है। गंगा के सालाना बहाव का लगभग चालीस प्रतिशत नेपाल से आता है।",
+   "img": "map_1",
+   "query": "Ganges river basin map",
+   "stock": true,
+   "stat": "गंगा का ~40% बहाव",
+   "tone": "curiosity"
+  },
+  {
+   "id": "f7",
+   "text": "कोसी, गंडक, बागमती, कमला — ये सब नेपाल से निकलती हैं। और उत्तरी बिहार का लगभग तीन-चौथाई हिस्सा आधिकारिक तौर पर बाढ़-प्रवण घोषित है।",
+   "img": "bihar_1",
+   "query": "Bihar flood plains village water",
+   "stock": true,
+   "stat": "उत्तरी बिहार का ¾ हिस्सा",
+   "tone": "dread"
+  },
+  {
+   "id": "f8",
+   "text": "और दो हज़ार आठ की कोसी त्रासदी याद कीजिए। लगभग चार सौ लोग मारे गए थे। लेकिन आई आई टी कानपुर के राजीव सिन्हा बताते हैं कि उस दिन नदी में उसकी क्षमता का सिर्फ़ दसवाँ हिस्सा पानी था।",
+   "img": "bihar_1",
+   "query": "Bihar flood embankment breach",
+   "stock": true,
+   "tone": "dread"
+  },
+  {
+   "id": "f9",
+   "text": "बाँध इसलिए नहीं टूटा कि पानी ज़्यादा था। वो इसलिए टूटा क्योंकि पचास और साठ के दशक में बना तटबंध ठीक से संभाला नहीं गया था। सिन्हा के शब्दों में — ये ढाँचागत नाकामी थी, पानी की नहीं।",
+   "kinetic": {
+    "words": [
+     "ढाँचागत",
+     "नाकामी।",
+     "पानी",
+     "की",
+     "नहीं।"
+    ]
+   },
+   "img": "bihar_1",
+   "query": "embankment breach flood",
+   "stock": true,
+   "source": "Rajiv Sinha, IIT Kanpur",
+   "extraHold": 28,
+   "tone": "melancholy"
+  },
+  {
+   "id": "c6",
+   "chapter": "6 — ऊपर अब भी\nएक झील है",
+   "text": "अध्याय छह। ऊपर अब भी एक झील है।",
+   "img": "barrier_lake_1",
+   "query": "landslide barrier lake mountain valley"
+  },
+  {
+   "id": "g1",
+   "text": "अब वो हिस्सा जो अभी ख़त्म नहीं हुआ है।",
+   "img": "barrier_lake_1",
+   "query": "barrier lake mountain",
+   "stock": true,
+   "tone": "tension"
+  },
+  {
+   "id": "g2",
+   "text": "मलबे ने ऊपर एक और जगह नदी रोक दी — छोछेन खोला और पुरेपु सांगपो के संगम पर। वहाँ एक नई झील बन गई।",
+   "img": "barrier_lake_1",
+   "query": "landslide dammed lake valley",
+   "stock": true,
+   "cap": "एक नई झील।",
+   "tone": "dread"
+  },
+  {
+   "id": "g3",
+   "text": "चीन के जल संसाधन मंत्रालय के मुताबिक़ सत्ताईस अगस्त तक इसमें लगभग बीस लाख घन मीटर पानी था, और वो पहले ही ऊपर से बहने लगा था। अट्ठाईस अगस्त तक ये पच्चीस लाख घन मीटर हो गया।",
+   "img": "barrier_lake_1",
+   "query": "barrier lake water",
+   "stock": true,
+   "stat": "~25 लाख घन मीटर",
+   "source": "China Ministry of Water Resources / CCTV",
+   "tone": "dread"
+  },
+  {
+   "id": "g4",
+   "text": "अब यहाँ मुझे संतुलन बनाना है, क्योंकि कई वीडियो इसे बहुत बढ़ा-चढ़ाकर दिखा रहे हैं।",
+   "img": "barrier_lake_1",
+   "query": "barrier lake",
+   "stock": true,
+   "tone": "unease"
+  },
+  {
+   "id": "g5",
+   "text": "पच्चीस लाख घन मीटर — ये लगभग एक हज़ार ओलंपिक स्विमिंग पूल है। स्थानीय स्तर पर बेहद ख़तरनाक। लेकिन दो हज़ार तेईस में सिक्किम की जिस झील ने तबाही मचाई थी, ये उससे लगभग बीस गुना छोटी है।",
+   "img": "barrier_lake_1",
+   "query": "barrier lake mountains",
+   "stock": true,
+   "stat": "साउथ ल्होनक से ~20× छोटी",
+   "cap": "ख़तरनाक — पर विशाल नहीं।",
+   "tone": "curiosity"
+  },
+  {
+   "id": "g6",
+   "text": "अट्ठाईस अगस्त को जब ये ऊपर से बही, तो चीन ने कुछ देर के लिए बचाव कार्य रोक दिया। गिरोंग बंदरगाह के लिए निकासी के आदेश जारी हुए।",
+   "img": "rescue_1",
+   "query": "evacuation rescue operation mountain",
+   "stock": true,
+   "tone": "dread"
+  },
+  {
+   "id": "g7",
+   "text": "आई सी आई एम ओ डी की छियांगोंग झांग ने कहा — नेपाल-चीन सीमा पर ऊपर अब भी रुकावट मौजूद है, और अधिकारी चेतावनी दे रहे हैं कि दूसरी बाढ़ आ सकती है।",
+   "img": "barrier_lake_1",
+   "query": "mountain valley blocked river",
+   "stock": true,
+   "source": "Qianggong Zhang, ICIMOD",
+   "cap": "“दूसरी बाढ़ आ सकती है।”",
+   "tone": "dread"
+  },
+  {
+   "id": "g8",
+   "text": "हालाँकि कुछ विशेषज्ञों ने बी बी सी को ये भी कहा कि ये झील धीरे-धीरे अपने आप भी निकल सकती है। दोनों बातें अभी मुमकिन हैं।",
+   "img": "barrier_lake_1",
+   "query": "mountain lake drain",
+   "stock": true,
+   "tone": "unease"
+  },
+  {
+   "id": "g9",
+   "text": "और तीन सितंबर तक नेपाल के विभाग की सरस्वती बिस्ता के मुताबिक़ भोटेकोशी और त्रिशूली पर ख़तरा अब भी ऊँचा है — पर उसकी वजह ऊपर हो रही बारिश है, सिर्फ़ वो झील नहीं।",
+   "img": "rain_1",
+   "query": "monsoon rain mountains himalaya",
+   "stock": true,
+   "source": "Saraswati Bista, DHM Nepal, 3 Sep 2026",
+   "tone": "unease"
+  },
+  {
+   "id": "c7",
+   "chapter": "7 — जो बहस\nजान ले लेती है",
+   "text": "अध्याय सात। जो बहस जान ले लेती है।",
+   "img": "seismo_1",
+   "query": "seismograph monitoring station"
+  },
+  {
+   "id": "h_1",
+   "text": "अब हम वापस उसी जगह आते हैं जहाँ से शुरू किया था। उस भूकंप पर, जो भूकंप था ही नहीं।",
+   "img": "seismo_1",
+   "query": "seismograph reading",
+   "stock": true,
+   "tone": "tension"
+  },
+  {
+   "id": "h_2",
+   "text": "क्योंकि यही इस पूरी कहानी का सबसे ज़रूरी सबक़ है।",
+   "img": "seismo_1",
+   "query": "seismograph",
+   "stock": true,
+   "tone": "tension"
+  },
+  {
+   "id": "h_3",
+   "text": "चेतावनी भेजी गई थी। छब्बीस अगस्त को एस एम एस अलर्ट गए थे। लेकिन पानी बहुत तेज़ था, और सिर्फ़ एस एम एस काफ़ी नहीं था।",
+   "img": "phone_1",
+   "query": "mobile phone alert message hand",
+   "stock": true,
+   "tone": "dread"
+  },
+  {
+   "id": "h_4",
+   "text": "रीडिंग यूनिवर्सिटी के जेफ़ डा कोस्टा कहते हैं — इतनी बड़ी घटना में हमारे पास मिनट होते हैं, घंटे या दिन नहीं। सीमा के पास बसे लोगों के लिए चेतावनी का वक़्त लगभग था ही नहीं।",
+   "img": "scientist_1",
+   "query": "scientist researcher speaking",
+   "stock": true,
+   "source": "Jeff Da Costa, University of Reading",
+   "tone": "dread"
+  },
+  {
+   "id": "h_5",
+   "text": "और फिर उन्होंने वो बात कही, जो मेरे हिसाब से इस पूरे वीडियो का निचोड़ है।",
+   "img": "scientist_1",
+   "query": "scientist speaking",
+   "stock": true,
+   "tone": "tension"
+  },
+  {
+   "id": "h_6",
+   "text": "आपको ये जानने की ज़रूरत नहीं है कि सिग्नल भूकंप का है, ग्लेशियर के गिरने का है, या भूस्खलन का — इससे पहले कि आप लोगों को बताएँ कि ऊपर कुछ असाधारण हुआ है।",
+   "kinetic": {
+    "words": [
+     "पहले",
+     "बताओ।",
+     "फिर",
+     "समझो।"
+    ]
+   },
+   "img": "scientist_1",
+   "query": "scientist speaking",
+   "stock": true,
+   "source": "Jeff Da Costa",
+   "extraHold": 30,
+   "tone": "awe"
+  },
+  {
+   "id": "h_7",
+   "text": "वो चार दशमलव चार वाली भूकंप की रीडिंग — उसे समझने में जो वक़्त लगा, वो वक़्त नीचे बसे लोगों का था।",
+   "img": "valley_1",
+   "query": "himalayan village valley river",
+   "stock": true,
+   "extraHold": 26,
+   "tone": "melancholy"
+  },
+  {
+   "id": "h_8",
+   "text": "और ये पहली बार नहीं था। छियांगोंग झांग ने याद दिलाया — जिस जगह को पिछले साल की रसुवा बाढ़ ने तबाह किया था, वही जगह फिर ख़तरे में है।",
+   "img": "valley_1",
+   "query": "himalayan valley village",
+   "stock": true,
+   "source": "Qianggong Zhang, ICIMOD",
+   "tone": "melancholy"
+  },
+  {
+   "id": "h_9",
+   "text": "डेव पेटली इससे भी सख़्त हैं। उनके मुताबिक़ हम इस ख़तरे को व्यवस्थित तरीक़े से कम आँकते हैं। और बड़ी पनबिजली परियोजनाएँ बार-बार इन्हीं मलबे के सैलाबों में तबाह हो रही हैं।",
+   "img": "hydro_1",
+   "query": "hydropower plant river construction",
+   "stock": true,
+   "source": "Dave Petley",
+   "tone": "dread"
+  },
+  {
+   "id": "h_10",
+   "text": "इस बाढ़ में लगभग नौ सौ पनबिजली मज़दूर लापता हैं। कम से कम दो परियोजनाएँ पूरी तरह ख़त्म हो गईं।",
+   "img": "hydro_1",
+   "query": "destroyed hydropower construction flood",
+   "stock": true,
+   "stat": "~900 मज़दूर लापता",
+   "extraHold": 26,
+   "tone": "dread"
+  },
+  {
+   "id": "o1",
+   "text": "चार सितंबर को, बाढ़ के नौ दिन बाद, त्रिशूली तीन-ए की सुरंग से कुछ लोग ज़िंदा निकाले गए।",
+   "img": "rescue_1",
+   "query": "tunnel rescue survivors",
+   "stock": true,
+   "stat": "9 दिन बाद, ज़िंदा",
+   "extraHold": 24,
+   "tone": "hope"
+  },
+  {
+   "id": "o2",
+   "text": "तीन सितंबर तक बारह सौ बावन लोगों की मौत की पुष्टि हो चुकी थी। इनमें से सिर्फ़ पंचानवे शवों की पहचान हो पाई थी। और लगभग छह सौ बच्चे अब भी लापता हैं।",
+   "img": "rescue_1",
+   "query": "disaster aftermath rescue",
+   "stock": true,
+   "cap": "1,252 मृत · 95 की पहचान।",
+   "tone": "melancholy"
+  },
+  {
+   "id": "o3",
+   "text": "ये आँकड़े तीन सितंबर के हैं, और ये अभी बदल रहे हैं। तीस अगस्त से तीन सितंबर के बीच ये लगभग दोगुने हो गए।",
+   "img": "rescue_1",
+   "query": "disaster aftermath",
+   "stock": true,
+   "tone": "melancholy"
+  },
+  {
+   "id": "o4",
+   "text": "जलवायु परिवर्तन का इसमें क्या हाथ है? यहाँ मुझे सावधान रहना है। जिन भी वैज्ञानिकों से पूछा गया — शुगर, डा कोस्टा, कुक, आई सी आई एम ओ डी — सबने कहा कि इस एक घटना को सीधे जलवायु परिवर्तन से जोड़ना अभी जल्दबाज़ी होगी।",
+   "img": "glacier_1",
+   "query": "glacier melting himalaya",
+   "stock": true,
+   "cap": "किसी ने सीधा नहीं जोड़ा।",
+   "tone": "unease"
+  },
+  {
+   "id": "o5",
+   "text": "लेकिन वही वैज्ञानिक ये भी कहते हैं कि गर्म होती पर्माफ़्रॉस्ट पहाड़ों की पकड़ ढीली कर रही है, और ऐसी घटनाएँ आगे और होंगी। आई सी आई एम ओ डी के मुताबिक़ हिंदू कुश हिमालय ने उन्नीस सौ नब्बे से दो हज़ार बीस के बीच अपने ग्लेशियर क्षेत्र का लगभग बारह प्रतिशत खो दिया।",
+   "img": "glacier_1",
+   "query": "glacier retreat himalaya",
+   "stock": true,
+   "stat": "12% क्षेत्र, 1990–2020",
+   "tone": "dread"
+  },
+  {
+   "id": "o6",
+   "text": "यानी ये कहना ग़लत होगा कि ये बाढ़ जलवायु परिवर्तन से आई। और ये कहना भी ग़लत होगा कि इसका कोई लेना-देना नहीं।",
+   "img": "glacier_1",
+   "query": "glacier ice melt",
+   "stock": true,
+   "extraHold": 24,
+   "tone": "melancholy"
+  },
+  {
+   "id": "o7",
+   "text": "सच ये है कि पहाड़ बदल रहा है, और हमारी चेतावनी देने की रफ़्तार उस बदलाव से पीछे है।",
+   "kinetic": {
+    "words": [
+     "पहाड़",
+     "बदल",
+     "रहा",
+     "है।"
+    ]
+   },
+   "img": "glacier_2",
+   "query": "himalaya mountains clouds",
+   "stock": true,
+   "extraHold": 28,
+   "tone": "melancholy"
+  },
+  {
+   "id": "p1",
+   "text": "अगर आपको ये समझना है कि हिमालय की नदियाँ भारत की ज़िंदगी कैसे चलाती हैं, तो हमारी नदी-जल विवाद वाली वीडियो देखिए — लिंक स्क्रीन पर है।",
+   "img": "map_1",
+   "query": "Himalaya rivers India map",
+   "stock": true,
+   "cap": "आगे देखें →",
+   "tone": "curiosity"
+  },
+  {
+   "id": "p2",
+   "text": "और अगर ये समझ आया, तो दिमाग़ बत्ती को सब्सक्राइब कीजिए। हर मुद्दा, आसान भाषा में। देखने के लिए शुक्रिया।",
+   "img": "rasuwa_1",
+   "query": "Nepal himalaya mountains",
+   "stock": true,
+   "cap": "Subscribe",
+   "tone": "hope"
+  }
+ ]
+}
