@@ -1,0 +1,1316 @@
+1
+00:00:00,380 --> 00:00:04,787
+The most quoted sentence in the history of American spaceflight was never actually transcribed.
+
+2
+00:00:04,787 --> 00:00:08,080
+The people whose job it was to write it down said it could not be done.
+
+3
+00:00:09,260 --> 00:00:13,837
+You have heard it in every documentary about the Apollo One fire. We've got a bad fire.
+
+4
+00:00:13,837 --> 00:00:15,520
+Let's get out. We're burning up.
+
+5
+00:00:16,710 --> 00:00:20,515
+Here is what the official Review Board wrote about that transmission.
+
+6
+00:00:20,515 --> 00:00:25,422
+The entire second transmission is garbled and is, therefore, subject to wide variation of
+
+7
+00:00:25,422 --> 00:00:28,510
+interpretation. No definitive transcription is possible.
+
+8
+00:00:29,700 --> 00:00:32,748
+So the Board did something almost no retelling mentions.
+
+9
+00:00:32,748 --> 00:00:37,701
+It printed three different readings of the same five seconds, side by side, and declined to
+
+10
+00:00:37,701 --> 00:00:38,790
+choose between them.
+
+11
+00:00:39,980 --> 00:00:44,570
+Every video you have seen picks one of the three and calls it the transcript. This one will not.
+
+12
+00:00:45,760 --> 00:00:51,156
+Because when you read the three thousand pages the investigators actually produced, the story
+
+13
+00:00:51,156 --> 00:00:55,160
+is not the one you were told. It is stranger, and harder to sit with.
+
+14
+00:00:56,390 --> 00:00:59,924
+A test that nobody in the building had classified as dangerous.
+
+15
+00:00:59,924 --> 00:01:05,140
+A hatch that was designed to be hard to open, on purpose, for a reason that was written down.
+
+16
+00:01:06,350 --> 00:01:08,202
+Ten point three seconds of voice.
+
+17
+00:01:08,202 --> 00:01:12,690
+And a finding that no single cause of the fire was ever conclusively identified.
+
+18
+00:01:13,860 --> 00:01:16,332
+This is not the story of how three men died.
+
+19
+00:01:16,332 --> 00:01:21,444
+It is the story of what the investigation found, in its own words, and how far that is from
+
+20
+00:01:21,444 --> 00:01:22,680
+what everyone repeats.
+
+21
+00:01:23,880 --> 00:01:25,440
+You're watching mindwired.
+
+22
+00:01:26,580 --> 00:01:30,130
+Apollo One. The transcript that doesn't exist.
+
+23
+00:01:31,330 --> 00:01:34,796
+To understand how this happened, start with a piece of paper.
+
+24
+00:01:34,796 --> 00:01:37,750
+The paper that decided whether a test was dangerous.
+
+25
+00:01:38,950 --> 00:01:42,536
+The formal name was the Space Vehicle Plugs-Out Integrated Test.
+
+26
+00:01:42,536 --> 00:01:47,859
+Spacecraft zero one two, sitting on top of a Saturn One B rocket at Launch Complex thirty four,
+
+27
+00:01:47,859 --> 00:01:50,100
+with no propellant in the rocket at all.
+
+28
+00:01:51,300 --> 00:01:56,051
+Its purpose was to run the vehicle in as near a flight configuration as practical.
+
+29
+00:01:56,051 --> 00:02:00,280
+Simulated fuel-cell power. The ground umbilicals disconnected. Plugs out.
+
+30
+00:02:01,490 --> 00:02:06,606
+The crew would be sealed inside, on internal power, running a countdown to a launch that would
+
+31
+00:02:06,606 --> 00:02:10,470
+not happen. It was a rehearsal, and rehearsals had a rule about danger.
+
+32
+00:02:11,720 --> 00:02:13,952
+Here is the rule, in the Board's words.
+
+33
+00:02:13,952 --> 00:02:19,161
+This Plugs-Out Test had not been classified as hazardous because only those tests involving
+
+34
+00:02:19,161 --> 00:02:24,026
+fueled vehicles, hypergolic propellants, cryogenic systems, high pressure tanks, live
+
+35
+00:02:24,026 --> 00:02:28,490
+pyrotechnics or altitude chamber tests were routinely classified as hazardous.
+
+36
+00:02:29,720 --> 00:02:31,116
+Read that list again.
+
+37
+00:02:31,116 --> 00:02:36,699
+Fuel, hypergolics, cryogenics, high-pressure tanks, pyrotechnics, altitude chambers.
+
+38
+00:02:36,699 --> 00:02:42,150
+The plugs-out test had none of them. By the rule as written, it was not hazardous.
+
+39
+00:02:43,390 --> 00:02:44,825
+The Board's Finding Five.
+
+40
+00:02:44,825 --> 00:02:50,050
+Those organizations responsible for the planning, conduct and safety of this test failed to
+
+41
+00:02:50,050 --> 00:02:54,126
+identify it as being hazardous. And its determination, in one sentence.
+
+42
+00:02:54,126 --> 00:02:56,710
+The test conditions were extremely hazardous.
+
+43
+00:02:57,950 --> 00:03:02,054
+Frank Borman, the only astronaut on the Board, told the Senate in April.
+
+44
+00:03:02,054 --> 00:03:04,049
+I did not consider it as hazardous.
+
+45
+00:03:04,049 --> 00:03:09,351
+I do not believe that anyone within the test organization or the program office considered it
+
+46
+00:03:09,351 --> 00:03:13,170
+hazardous. And, this is the unfortunate trap through which we fell.
+
+47
+00:03:14,380 --> 00:03:16,867
+The Senate named no one, and neither will we.
+
+48
+00:03:16,867 --> 00:03:22,116
+It concluded that NASA's long history of successes in testing and launching space vehicles with
+
+49
+00:03:22,116 --> 00:03:27,366
+pure oxygen environments at sixteen point seven p s i and lower pressures led to overconfidence
+
+50
+00:03:27,366 --> 00:03:28,250
+and complacency.
+
+51
+00:03:29,480 --> 00:03:31,454
+Now the detail almost nobody tells.
+
+52
+00:03:31,454 --> 00:03:35,909
+The emergency egress practice was in the test at the flight crew's own request.
+
+53
+00:03:35,909 --> 00:03:40,534
+They asked for it in September, because the next test, the fully fuelled countdown
+
+54
+00:03:40,534 --> 00:03:45,440
+demonstration, was classified hazardous, and they wanted to have rehearsed getting out.
+
+55
+00:03:46,700 --> 00:03:48,564
+One more thing about the paperwork.
+
+56
+00:03:48,564 --> 00:03:53,252
+A two hundred and nine page revision to the test procedure arrived at half past five the
+
+57
+00:03:53,252 --> 00:03:56,501
+evening before, with four more pages the morning of the test.
+
+58
+00:03:56,501 --> 00:04:01,455
+The Board found this prevented people becoming adequately familiar with it, and found, in the
+
+59
+00:04:01,455 --> 00:04:05,610
+same breath, that it did not contribute to the accident. Both halves are true.
+
+60
+00:04:06,790 --> 00:04:11,191
+So on the afternoon of the twenty seventh, nobody in the white room at the top of that gantry
+
+61
+00:04:11,191 --> 00:04:13,984
+was standing next to something they believed was dangerous.
+
+62
+00:04:13,984 --> 00:04:16,350
+What they were standing next to was an atmosphere.
+
+63
+00:04:17,550 --> 00:04:20,111
+The number that decided everything was a pressure.
+
+64
+00:04:20,111 --> 00:04:23,030
+And the reason for that pressure was completely sensible.
+
+65
+00:04:24,230 --> 00:04:24,914
+Finding Two.
+
+66
+00:04:24,914 --> 00:04:30,270
+The test was conducted with a sixteen point seven pounds per square inch absolute, one hundred
+
+67
+00:04:30,270 --> 00:04:34,315
+percent oxygen atmosphere. In flight, the cabin would have run at five.
+
+68
+00:04:34,315 --> 00:04:37,050
+On the pad it ran at more than three times that.
+
+69
+00:04:38,300 --> 00:04:42,880
+Why so high? Because the cabin was deliberately run about two pounds above the air outside.
+
+70
+00:04:42,880 --> 00:04:47,509
+That overpressure pushed the plug-type inner hatch into its seal from the inside, and it let
+
+71
+00:04:47,509 --> 00:04:52,240
+engineers find leaks, because anything leaking would flow outward, where they could detect it.
+
+72
+00:04:53,440 --> 00:04:54,216
+Hold onto that.
+
+73
+00:04:54,216 --> 00:04:59,080
+The same pressure that sealed the hatch is the pressure that would make it impossible to open.
+
+74
+00:05:00,260 --> 00:05:04,407
+But notice what the Board did not do. It did not blame oxygen alone.
+
+75
+00:05:04,407 --> 00:05:10,201
+Finding Nine says a pure oxygen system presents severe fire hazards if, and the word is if, the
+
+76
+00:05:10,201 --> 00:05:14,470
+amount and location of combustibles are not restricted and controlled.
+
+77
+00:05:15,690 --> 00:05:21,251
+On adding a second gas, the Board wrote that it would undoubtedly reduce the risk of fire to a
+
+78
+00:05:21,251 --> 00:05:22,375
+significant degree.
+
+79
+00:05:22,375 --> 00:05:27,877
+And then, in the next sentence, that it would introduce other operational problems and risks.
+
+80
+00:05:27,877 --> 00:05:33,320
+That is the shape of this whole report. Every fix has a cost, and the Board wrote both down.
+
+81
+00:05:34,560 --> 00:05:37,100
+Here is what the pressure does to a spark.
+
+82
+00:05:37,100 --> 00:05:42,665
+In a sixteen and a half p s i oxygen atmosphere, the Board found, sparks blown from arcs can
+
+83
+00:05:42,665 --> 00:05:48,350
+ignite combustible material several inches from the arc. Not touching it. Several inches away.
+
+84
+00:05:49,600 --> 00:05:51,599
+And now the root of the complacency.
+
+85
+00:05:51,599 --> 00:05:56,429
+Spacecraft zero one two had already been pressurised with pure oxygen above atmospheric
+
+86
+00:05:56,429 --> 00:06:00,927
+pressure four times before this test, for six hours and fifteen minutes in total.
+
+87
+00:06:00,927 --> 00:06:04,980
+About two and a half times longer than it would be on the twenty seventh.
+
+88
+00:06:06,230 --> 00:06:11,223
+It had always been fine. That is the sentence underneath every other sentence in this story.
+
+89
+00:06:11,223 --> 00:06:15,130
+Nothing had ever happened before, so nothing was expected to happen now.
+
+90
+00:06:16,310 --> 00:06:18,968
+Three hatches stood between the crew and the white room.
+
+91
+00:06:18,968 --> 00:06:22,100
+The first one they would have to open was designed to open inward.
+
+92
+00:06:23,300 --> 00:06:24,387
+From the outside in.
+
+93
+00:06:24,387 --> 00:06:29,550
+The boost protective cover hatch, which on that day was in place but not fully latched, because
+
+94
+00:06:29,550 --> 00:06:32,866
+the wire bundles run in for the test had distorted the cover.
+
+95
+00:06:32,866 --> 00:06:34,822
+Then the ablative heat shield hatch.
+
+96
+00:06:34,822 --> 00:06:38,790
+Then the inner pressure vessel hatch, the one the crew would reach first.
+
+97
+00:06:40,030 --> 00:06:41,604
+The inner hatch was a plug.
+
+98
+00:06:41,604 --> 00:06:46,677
+It sat in its opening like a stopper in a bottle, and it opened inward, into the cabin.
+
+99
+00:06:46,677 --> 00:06:48,310
+Cabin pressure held it shut.
+
+100
+00:06:49,480 --> 00:06:50,761
+The Board put it plainly.
+
+101
+00:06:50,761 --> 00:06:55,627
+With a slightly higher pressure inside the Command Module than outside, opening the inner hatch
+
+102
+00:06:55,627 --> 00:06:58,599
+is impossible because of the resulting force on the hatch.
+
+103
+00:06:58,599 --> 00:07:03,209
+Finding Four: due to internal pressure, the Command Module inner hatch could not be opened
+
+104
+00:07:03,209 --> 00:07:04,080
+prior to rupture.
+
+105
+00:07:05,320 --> 00:07:10,087
+And the determination that follows it, which is the hardest sentence in the report.
+
+106
+00:07:10,087 --> 00:07:13,360
+The crew was never capable of effecting emergency egress.
+
+107
+00:07:14,920 --> 00:07:20,565
+How long did the hatches take under normal conditions? The Senate said at least ninety seconds.
+
+108
+00:07:20,565 --> 00:07:26,269
+The hatch panel gave forty seconds from inside and seventy from outside, under ideal conditions.
+
+109
+00:07:26,269 --> 00:07:31,974
+Borman, asked if ninety was right, said approximately, it depends upon the training of the crew.
+
+110
+00:07:31,974 --> 00:07:35,420
+There is no one clean number, so we will not give you one.
+
+111
+00:07:36,650 --> 00:07:40,270
+Now the part that makes this a tragedy and not simply negligence.
+
+112
+00:07:40,270 --> 00:07:44,056
+A quick-opening hatch had been considered, and rejected, on purpose.
+
+113
+00:07:44,056 --> 00:07:48,845
+Accidental release in space was considered to impose a risk in excess of the benefits.
+
+114
+00:07:48,845 --> 00:07:54,079
+The Senate's words: these items had not been omitted through neglect, but because of decisions
+
+115
+00:07:54,079 --> 00:07:58,200
+based on an attempt to balance one potential set of risks against another.
+
+116
+00:07:59,500 --> 00:08:01,051
+The reasoning was not hidden.
+
+117
+00:08:01,051 --> 00:08:06,080
+NASA's own history records that the contractor had been told not to design an explosive hatch,
+
+118
+00:08:06,080 --> 00:08:11,162
+because a hatch that blew accidentally in orbit meant an instant vacuum and certain death for a
+
+119
+00:08:11,162 --> 00:08:13,195
+crewman not wearing his pressure suit.
+
+120
+00:08:13,195 --> 00:08:17,100
+They weighed a death in space against a death on the pad, and they chose.
+
+121
+00:08:17,100 --> 00:08:18,330
+And they wrote it down.
+
+122
+00:08:19,570 --> 00:08:21,113
+There is a further twist.
+
+123
+00:08:21,113 --> 00:08:26,793
+An outward-opening hatch for the later Block Two spacecraft was already in design before the
+
+124
+00:08:26,793 --> 00:08:30,250
+fire. Not for escape. For the convenience of spacewalks.
+
+125
+00:08:31,460 --> 00:08:35,283
+Borman gave the House his opinion, and it is an opinion, not a Board finding.
+
+126
+00:08:35,283 --> 00:08:39,950
+If they had had a hatch that opened outward and opened in two seconds, there is no question in
+
+127
+00:08:39,950 --> 00:08:41,787
+my mind that they would have escaped.
+
+128
+00:08:41,787 --> 00:08:46,405
+He added that it was his firm opinion the crew would have escaped with a hatch that opened in
+
+129
+00:08:46,405 --> 00:08:47,100
+eight seconds.
+
+130
+00:08:48,310 --> 00:08:53,530
+Doctor Van Dolah, who led the fire panel, told the Senate that with a two to three second hatch
+
+131
+00:08:53,530 --> 00:08:58,475
+the crew could have escaped with only minor injuries at most. Again, a witness's judgment.
+
+132
+00:08:58,475 --> 00:09:03,530
+The Board itself never made that finding. Hold both of those thoughts as we go to the clock.
+
+133
+00:09:04,770 --> 00:09:06,932
+The Board's clock runs on Greenwich time.
+
+134
+00:09:06,932 --> 00:09:10,888
+Six thirty in the evening at the Cape is twenty three thirty on the record.
+
+135
+00:09:10,888 --> 00:09:12,470
+Here is what the record holds.
+
+136
+00:09:13,660 --> 00:09:17,231
+Eighteen hundred Greenwich, one in the afternoon at the Cape.
+
+137
+00:09:17,231 --> 00:09:21,271
+Gus Grissom enters the spacecraft, then Roger Chaffee, then Ed White.
+
+138
+00:09:21,271 --> 00:09:25,310
+Grissom in the left couch, White in the centre, Chaffee on the right.
+
+139
+00:09:26,550 --> 00:09:31,313
+Twenty minutes later, a hold. Grissom reports a sour smell in the suit oxygen loop.
+
+140
+00:09:31,313 --> 00:09:35,790
+It is investigated. The Board would later find it was not related to the fire.
+
+141
+00:09:36,980 --> 00:09:41,921
+Nineteen forty five, the hatches are installed and the cabin is purged to pure oxygen.
+
+142
+00:09:41,921 --> 00:09:47,207
+Around twenty two forty, another hold, for a live microphone that will not switch off in the
+
+143
+00:09:47,207 --> 00:09:52,033
+communications loop. At twenty three twenty, the count holds at T minus ten minutes.
+
+144
+00:09:52,033 --> 00:09:53,010
+It never resumes.
+
+145
+00:09:54,240 --> 00:09:58,987
+Twenty three thirty and fifty five seconds. A momentary failure in the electrical power.
+
+146
+00:09:58,987 --> 00:10:02,440
+The Board would later call this the probable moment of ignition.
+
+147
+00:10:03,630 --> 00:10:06,934
+Nine point seven seconds later, the first transmission.
+
+148
+00:10:06,934 --> 00:10:11,861
+The Board calls it an exclamatory remark, and says this transmission is not clear.
+
+149
+00:10:11,861 --> 00:10:16,667
+Listeners believe this initial remark was Hey, or Fire, but this is not certain.
+
+150
+00:10:16,667 --> 00:10:19,010
+Laboratory analysis pointed to Grissom.
+
+151
+00:10:20,310 --> 00:10:26,398
+One and a half seconds after that, the transmission that is clear. Got a fire in the cockpit.
+
+152
+00:10:26,398 --> 00:10:30,456
+Preceded by a word the Board could not resolve, I've or We've.
+
+153
+00:10:30,456 --> 00:10:35,693
+Many listeners believed it was Chaffee, the pilot, whose job was communications.
+
+154
+00:10:35,693 --> 00:10:38,900
+The Board wrote: no firm conclusion can be drawn.
+
+155
+00:10:40,090 --> 00:10:43,130
+Then six point eight seconds of nothing on the voice loop.
+
+156
+00:10:43,130 --> 00:10:45,960
+Six point eight seconds in which the record is silent.
+
+157
+00:10:47,420 --> 00:10:50,256
+Twenty three thirty one and sixteen point eight seconds.
+
+158
+00:10:50,256 --> 00:10:54,104
+The second transmission, five seconds long. This is the one everyone quotes.
+
+159
+00:10:54,104 --> 00:10:58,863
+On screen are the Board's three readings, exactly as it printed them, and we will not read one
+
+160
+00:10:58,863 --> 00:11:00,382
+aloud as if it were the truth.
+
+161
+00:11:00,382 --> 00:11:04,990
+Bell Telephone Laboratories told the Board there would be nearly as many interpretations of
+
+162
+00:11:04,990 --> 00:11:07,370
+what was said as there are qualified listeners.
+
+163
+00:11:09,060 --> 00:11:10,117
+That is everything.
+
+164
+00:11:10,117 --> 00:11:15,400
+From the first word to the last, the crew's voice on the record totals ten point three seconds.
+
+165
+00:11:16,850 --> 00:11:21,743
+At about twenty three thirty one and nineteen seconds the cabin ruptures from the pressure.
+
+166
+00:11:21,743 --> 00:11:26,529
+At twenty three thirty one and twenty two point four seconds, all voice and all data end.
+
+167
+00:11:26,529 --> 00:11:31,530
+Van Dolah's estimate was that the fire itself probably lasted only about twenty five seconds.
+
+168
+00:11:32,750 --> 00:11:38,120
+The Board reconstructed the crew's last actions in one sentence, and one sentence is all we
+
+169
+00:11:38,120 --> 00:11:43,549
+will use. Grissom had left his couch. White had reached for the hatch, as he was trained to.
+
+170
+00:11:43,549 --> 00:11:47,030
+Chaffee had stayed on communications, as he was trained to.
+
+171
+00:11:48,280 --> 00:11:50,043
+Now the people this story forgets.
+
+172
+00:11:50,043 --> 00:11:53,516
+Outside the spacecraft, the pad crew were thrown back by the flash.
+
+173
+00:11:53,516 --> 00:11:58,181
+They came back with extinguishers and were working on the hatches about a minute after the
+
+174
+00:11:58,181 --> 00:11:59,270
+first report of fire.
+
+175
+00:12:00,470 --> 00:12:06,453
+The white room filled with smoke. Visibility, in the record's words, was virtually zero.
+
+176
+00:12:06,453 --> 00:12:12,980
+Five men took turns going in, working the hatches by feel, coming out to breathe, going back in.
+
+177
+00:12:14,200 --> 00:12:19,815
+Four of them are named on the House record. Donald Babbitt. James Gleaves. L. D.
+
+178
+00:12:19,815 --> 00:12:24,306
+Reece, of North American. Henry Rogers, of NASA quality control.
+
+179
+00:12:24,306 --> 00:12:29,500
+Congressman Daddario put on the record that they acted with great courage.
+
+180
+00:12:30,730 --> 00:12:34,305
+At about twenty three thirty six, all three hatches were open.
+
+181
+00:12:34,305 --> 00:12:39,782
+Roughly five minutes after the first word. The crew's voice had lasted ten point three seconds.
+
+182
+00:12:39,782 --> 00:12:41,800
+The hatches had taken five minutes.
+
+183
+00:12:43,320 --> 00:12:48,100
+Sixty eight days after the fire, the Review Board handed the Administrator its report.
+
+184
+00:12:48,100 --> 00:12:51,990
+It knew where the fire probably began. It could not prove what lit it.
+
+185
+00:12:53,180 --> 00:12:57,333
+The Board was created the night of the fire, by Deputy Administrator Robert Seamans.
+
+186
+00:12:57,333 --> 00:13:01,684
+It convened the next morning at the Kennedy Space Center, under Doctor Floyd Thompson of
+
+187
+00:13:01,684 --> 00:13:02,080
+Langley.
+
+188
+00:13:03,260 --> 00:13:05,156
+Its only astronaut was Frank Borman.
+
+189
+00:13:05,156 --> 00:13:08,580
+His job was to take apart the spacecraft his friends had died in.
+
+190
+00:13:09,770 --> 00:13:15,880
+Twenty one task panels. Eleven findings. And when it was bound, nearly three thousand pages.
+
+191
+00:13:17,040 --> 00:13:21,753
+Borman would later say to a congressman, with some edge in it, perhaps you haven't had time to
+
+192
+00:13:21,753 --> 00:13:24,510
+read the three thousand pages. Here is what is in them.
+
+193
+00:13:25,670 --> 00:13:28,898
+Spacecraft zero one two was taken apart piece by piece.
+
+194
+00:13:28,898 --> 00:13:33,123
+Before anything was removed, its position was photographed and recorded.
+
+195
+00:13:33,123 --> 00:13:36,820
+The Board wanted the cabin to testify before the engineers did.
+
+196
+00:13:38,070 --> 00:13:40,134
+Finding one, in the Board's own words.
+
+197
+00:13:40,134 --> 00:13:45,132
+There was a momentary power failure at twenty three thirty and fifty five seconds, Greenwich
+
+198
+00:13:45,132 --> 00:13:49,315
+Mean Time. Evidence of several arcs was found in the post-fire investigation.
+
+199
+00:13:49,315 --> 00:13:52,900
+No single ignition source of the fire was conclusively identified.
+
+200
+00:13:54,530 --> 00:13:55,715
+Then the determination.
+
+201
+00:13:55,715 --> 00:14:00,610
+The most probable initiator was an electrical arc, near the floor, in the lower forward section
+
+202
+00:14:00,610 --> 00:14:05,144
+of the left-hand equipment bay, where instrumentation power wiring for the Environmental
+
+203
+00:14:05,144 --> 00:14:10,090
+Control System leads into the space between the Environmental Control Unit and the oxygen panel.
+
+204
+00:14:11,290 --> 00:14:15,728
+And the last sentence of finding one, which the Board thought necessary to write down.
+
+205
+00:14:15,728 --> 00:14:18,360
+No evidence was discovered that suggested sabotage.
+
+206
+00:14:19,590 --> 00:14:20,786
+Now the spot itself.
+
+207
+00:14:20,786 --> 00:14:26,229
+Low on the left side, under a small access door for the lithium hydroxide canister, a power
+
+208
+00:14:26,229 --> 00:14:29,818
+cable ran where the door's inside edge could rub against it.
+
+209
+00:14:29,818 --> 00:14:32,330
+The insulation was vulnerable to abrasion.
+
+210
+00:14:33,510 --> 00:14:38,531
+In a pure oxygen cabin at that pressure, the Board had already established what a small arc
+
+211
+00:14:38,531 --> 00:14:43,220
+could do. Sparks blown from arcs can ignite combustible material several inches away.
+
+212
+00:14:44,470 --> 00:14:48,171
+And then the Board wrote the most honest sentence in the whole report.
+
+213
+00:14:48,171 --> 00:14:53,036
+If this cable were the cause, it cannot be proven, since both the power cable and the inside
+
+214
+00:14:53,036 --> 00:14:55,310
+edge of the door were completely destroyed.
+
+215
+00:14:56,820 --> 00:15:00,490
+The fire had destroyed the only two objects that could have convicted it.
+
+216
+00:15:00,490 --> 00:15:04,210
+So the investigators did the other thing. They worked out what it was not.
+
+217
+00:15:05,390 --> 00:15:10,611
+Electrostatic discharge, ruled out. Spontaneous combustion, ruled out.
+
+218
+00:15:10,611 --> 00:15:16,353
+Mechanical heat, impact, and resonance heating. All examined. All eliminated.
+
+219
+00:15:16,353 --> 00:15:21,350
+What remained was electrical, and it remained probable, not proven.
+
+220
+00:15:22,570 --> 00:15:24,869
+The disassembly turned up something else.
+
+221
+00:15:24,869 --> 00:15:27,954
+Inside the spacecraft, the Board found a wrench socket.
+
+222
+00:15:27,954 --> 00:15:32,440
+It was logged as an enclosure to the report. Nobody had meant to leave it there.
+
+223
+00:15:33,620 --> 00:15:38,325
+The Board also noted that coolant leakage from the plumbing had been a chronic problem, and
+
+224
+00:15:38,325 --> 00:15:41,945
+that the coolant was both corrosive and combustible. It stopped there.
+
+225
+00:15:41,945 --> 00:15:44,220
+It did not build a chain it could not prove.
+
+226
+00:15:45,450 --> 00:15:51,706
+So when the Board summed up, it did not name a cause. It named conditions. A sealed cabin.
+
+227
+00:15:51,706 --> 00:15:57,057
+A pure oxygen atmosphere. Extensive combustible materials. Vulnerable wiring.
+
+228
+00:15:57,057 --> 00:16:03,730
+Vulnerable coolant plumbing. Inadequate provisions for escape. Inadequate provisions for rescue.
+
+229
+00:16:04,970 --> 00:16:08,624
+Any one of them, alone, might have been survivable.
+
+230
+00:16:08,624 --> 00:16:12,780
+Together, in that cabin, on that afternoon, they were not.
+
+231
+00:16:14,000 --> 00:16:18,389
+And then one sentence that was aimed at everyone, including the men who wrote it.
+
+232
+00:16:18,389 --> 00:16:23,481
+In its devotion to the many difficult problems of space travel, the Apollo team failed to give
+
+233
+00:16:23,481 --> 00:16:27,870
+adequate attention to certain mundane but equally vital questions of crew safety.
+
+234
+00:16:29,450 --> 00:16:34,424
+The Board had answered how. Congress wanted to know who had been told what, and when.
+
+235
+00:16:34,424 --> 00:16:38,930
+The answer turned up in a report Nasa's Administrator said he had never seen.
+
+236
+00:16:40,150 --> 00:16:41,005
+Two committees.
+
+237
+00:16:41,005 --> 00:16:46,304
+In the Senate, Aeronautical and Space Sciences, under Clinton Anderson, sitting from February
+
+238
+00:16:46,304 --> 00:16:49,324
+nineteen sixty seven to January nineteen sixty eight.
+
+239
+00:16:49,324 --> 00:16:54,510
+In the House, the Subcommittee on Nasa Oversight, under Olin Teague, through April and May.
+
+240
+00:16:55,710 --> 00:17:00,827
+In December nineteen sixty five, more than a year before the fire, General Phillips had led a
+
+241
+00:17:00,827 --> 00:17:03,578
+review of the contractor, North American Aviation.
+
+242
+00:17:03,578 --> 00:17:07,980
+His cover letter to the company's president is dated the nineteenth of December.
+
+243
+00:17:09,210 --> 00:17:12,003
+The committee put the review's purpose on the record.
+
+244
+00:17:12,003 --> 00:17:15,376
+A task force review, headed by Apollo Program Director Samuel C.
+
+245
+00:17:15,376 --> 00:17:19,697
+Phillips, made a detailed examination of the contractor's management and made many
+
+246
+00:17:19,697 --> 00:17:24,598
+recommendations for remedial action, in order to return the program to an acceptable level of
+
+247
+00:17:24,598 --> 00:17:25,231
+performance.
+
+248
+00:17:25,231 --> 00:17:30,027
+Its results went to North American management on the nineteenth of December, nineteen sixty
+
+249
+00:17:30,027 --> 00:17:30,290
+five.
+
+250
+00:17:31,550 --> 00:17:36,329
+On the twenty seventh of February nineteen sixty seven, one month after the fire, Senator
+
+251
+00:17:36,329 --> 00:17:39,551
+Mondale asked in open hearing whether such a report existed.
+
+252
+00:17:39,551 --> 00:17:43,740
+Administrator Webb replied that he knew of no unusual General Phillips report.
+
+253
+00:17:44,940 --> 00:17:45,561
+It existed.
+
+254
+00:17:45,561 --> 00:17:50,810
+And the Senate, when it had read it, made two findings that have to be held at the same time.
+
+255
+00:17:51,990 --> 00:17:52,315
+First.
+
+256
+00:17:52,315 --> 00:17:57,351
+The task force findings had no effect on the accident, did not lead to the accident, and were
+
+257
+00:17:57,351 --> 00:18:02,170
+not related to the accident. Second. The committee believes it should have been informed.
+
+258
+00:18:03,690 --> 00:18:06,206
+Mondale added his own views to the report.
+
+259
+00:18:06,206 --> 00:18:11,719
+He wrote of evasiveness, of a lack of candor, and of a patronizing attitude toward Congress.
+
+260
+00:18:11,719 --> 00:18:13,037
+That is in the record.
+
+261
+00:18:13,037 --> 00:18:17,710
+What is also in the record is that the Phillips report did not start the fire.
+
+262
+00:18:18,890 --> 00:18:20,240
+Then there is Thomas Baron.
+
+263
+00:18:20,240 --> 00:18:24,590
+He was a quality control inspector for North American at the Kennedy Space Center, from
+
+264
+00:18:24,590 --> 00:18:27,640
+September nineteen sixty five to November nineteen sixty six.
+
+265
+00:18:28,840 --> 00:18:33,911
+He wrote up what he saw as quality failures on the Apollo work. Fifty five pages of them.
+
+266
+00:18:33,911 --> 00:18:35,734
+He gave the report to the press.
+
+267
+00:18:35,734 --> 00:18:40,805
+On the fifth of January nineteen sixty seven, three weeks before the fire, North American
+
+268
+00:18:40,805 --> 00:18:41,660
+discharged him.
+
+269
+00:18:42,910 --> 00:18:45,045
+North American answered it point by point.
+
+270
+00:18:45,045 --> 00:18:49,824
+But some of the company's own officials later told Congress that about half of Baron's charges
+
+271
+00:18:49,824 --> 00:18:50,790
+were well grounded.
+
+272
+00:18:51,990 --> 00:18:56,875
+Baron testified before the House subcommittee on the twenty first of April nineteen sixty seven.
+
+273
+00:18:56,875 --> 00:19:00,030
+By then he was expanding his report toward five hundred pages.
+
+274
+00:19:01,210 --> 00:19:06,107
+Under questioning, he said a North American technician knew exactly what caused the fire.
+
+275
+00:19:06,107 --> 00:19:08,418
+A man he had met by chance in a drugstore.
+
+276
+00:19:08,418 --> 00:19:12,930
+He admitted he had taken this to a newspaperman, not to Nasa and not to the Board.
+
+277
+00:19:14,130 --> 00:19:15,502
+The technician was called.
+
+278
+00:19:15,502 --> 00:19:19,514
+He testified that Baron gets all his information from anonymous phone calls.
+
+279
+00:19:19,514 --> 00:19:21,520
+On that point, the committee moved on.
+
+280
+00:19:22,760 --> 00:19:28,362
+Six days later, on the twenty seventh of April nineteen sixty seven, Thomas Baron, his wife and
+
+281
+00:19:28,362 --> 00:19:33,020
+his stepdaughter were killed near Mims, Florida, when a train struck their car.
+
+282
+00:19:34,210 --> 00:19:38,527
+Nasa's own history of the program gives it one word of comment. Ironically.
+
+283
+00:19:38,527 --> 00:19:42,960
+No official document says anything more than that, and neither will this one.
+
+284
+00:19:44,360 --> 00:19:49,494
+When the Senate finally wrote its report, in January nineteen sixty eight, it began with this.
+
+285
+00:19:49,494 --> 00:19:52,171
+No single person bears all of the responsibility.
+
+286
+00:19:52,171 --> 00:19:57,360
+It happened because many people made the mistake of failing to recognize a hazardous situation.
+
+287
+00:19:58,930 --> 00:20:04,312
+What changed was not one part. It was the definition of what counted as dangerous.
+
+288
+00:20:04,312 --> 00:20:06,740
+Nasa gave the Senate the list itself.
+
+289
+00:20:07,920 --> 00:20:13,392
+First item on Nasa's list. Every test in a pure oxygen atmosphere was redefined as hazardous.
+
+290
+00:20:13,392 --> 00:20:18,217
+The rule that had let the plugs-out test through, because there was no fuel and no
+
+291
+00:20:18,217 --> 00:20:19,570
+pyrotechnics, was gone.
+
+292
+00:20:20,810 --> 00:20:23,380
+Responsibility for test procedures was redefined.
+
+293
+00:20:23,380 --> 00:20:26,055
+An independent Office of Flight Safety was created.
+
+294
+00:20:26,055 --> 00:20:29,517
+Emergency training and pad fire and rescue equipment were rebuilt.
+
+295
+00:20:29,517 --> 00:20:32,350
+Every crewed flight moved to the Block Two spacecraft.
+
+296
+00:20:33,530 --> 00:20:38,246
+Combustible materials inside the cabin were, in Nasa's words, severely restricted and
+
+297
+00:20:38,246 --> 00:20:38,856
+controlled.
+
+298
+00:20:38,856 --> 00:20:44,071
+Nasa told the Senate this one change was more significant than any other improvement resulting
+
+299
+00:20:44,071 --> 00:20:45,070
+from the accident.
+
+300
+00:20:46,300 --> 00:20:51,368
+Behind that sentence sits a materials program of more than three thousand tests on more than
+
+301
+00:20:51,368 --> 00:20:55,224
+five hundred materials. Nylon went out. Beta fibre and Teflon came in.
+
+302
+00:20:55,224 --> 00:20:59,300
+Soldered aluminium oxygen lines were replaced with brazed stainless steel.
+
+303
+00:21:00,490 --> 00:21:05,923
+And the hatch. Two hatches became one. The unified hatch opened outward, in about five seconds.
+
+304
+00:21:05,923 --> 00:21:09,240
+And it opened regardless of the pressure inside the cabin.
+
+305
+00:21:10,480 --> 00:21:12,396
+Remember why the old one could not.
+
+306
+00:21:12,396 --> 00:21:17,378
+A slightly higher pressure inside than outside, and opening the inner hatch was impossible.
+
+307
+00:21:17,378 --> 00:21:21,320
+That sentence, from the Board, is the one this hatch was built to erase.
+
+308
+00:21:22,550 --> 00:21:27,300
+Emergency oxygen for the crew. Launch facilities modified for rapid egress.
+
+309
+00:21:27,300 --> 00:21:28,947
+And the atmosphere itself.
+
+310
+00:21:28,947 --> 00:21:34,583
+On the pad, the cabin would now carry sixty percent oxygen and forty percent nitrogen, at
+
+311
+00:21:34,583 --> 00:21:40,410
+roughly sea-level pressure. In flight, it stayed pure oxygen at five pounds per square inch.
+
+312
+00:21:41,610 --> 00:21:46,589
+I want to be careful here, because there is a version of this story where the fire becomes a
+
+313
+00:21:46,589 --> 00:21:51,080
+necessary sacrifice, and I do not think the record supports saying it that cleanly.
+
+314
+00:21:51,080 --> 00:21:52,920
+What the record does hold is this.
+
+315
+00:21:54,140 --> 00:21:59,323
+The Senate, in January nineteen sixty eight, wrote that it was the committee's hope that the
+
+316
+00:21:59,323 --> 00:22:04,676
+remainder of the program would be carried out with greater understanding and dedication than if
+
+317
+00:22:04,676 --> 00:22:07,380
+there had been no accident. A hope. Not a claim.
+
+318
+00:22:08,600 --> 00:22:14,050
+And Frank Borman, in nineteen ninety nine, asked whether the changes were what let Nasa recover
+
+319
+00:22:14,050 --> 00:22:17,549
+so fast, answered in one word and one comparison. Absolutely.
+
+320
+00:22:17,549 --> 00:22:22,540
+Just take a look at the difference in recovery time between the Apollo and the Shuttle.
+
+321
+00:22:23,770 --> 00:22:27,280
+The mission was designated Apollo Two Oh Four. It never flew.
+
+322
+00:22:27,280 --> 00:22:32,746
+The crew's widows asked Nasa to reserve the name for the flight that never left the pad, and on
+
+323
+00:22:32,746 --> 00:22:36,831
+the twenty fourth of April nineteen sixty seven, Nasa made it official.
+
+324
+00:22:36,831 --> 00:22:39,880
+The flight that never flew kept its name. Apollo One.
+
+325
+00:22:41,610 --> 00:22:46,064
+Grissom, White and Chaffee are three of the twenty one astronauts who never came home.
+
+326
+00:22:46,064 --> 00:22:50,985
+If the investigation into their deaths held you, the other eighteen stories are already on this
+
+327
+00:22:50,985 --> 00:22:51,399
+channel.
+
+328
+00:22:51,399 --> 00:22:56,009
+Watch Twenty One Astronauts Never Came Home, Here's Every Story, right here on mindwired.
+
+329
+00:22:56,009 --> 00:23:00,360
+And subscribe to mindwired, so you don't miss the next case we open from the record.
+

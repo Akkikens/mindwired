@@ -1,6 +1,7 @@
 # METADATA — apollo1 (mindwired)
 
-**Runtime** 23:10 (22:53 body + 17.6s mindwired subscribe outro, baked into the render)
+**Runtime** 23:19 (measured off the master; the composition models 23:10 — see the
+drift note below)
 **Comp** `Apollo1Doc` · **Master** `out/apollo1_gce.mp4` · 4K, −14 LUFS
 **Bed** `bed_somber_redshift.mp3`, windowed (9 windows — cold open, each act turn, the close)
 **Fact base** `docs/planning/CLAIMS-apollo1.md`
@@ -57,13 +58,13 @@ and we do not read any of the three readings aloud as though it were the truth.
 
 CHAPTERS
 0:00 The line everyone knows
-1:30 Act I — A test nobody called dangerous
-4:15 Act II — Sixteen point seven
-6:13 Act III — The hatch
-9:01 Act IV — Ten point three seconds
-12:38 Act V — The Board could not name the spark
-16:23 Act VI — What Congress found in a drawer
-19:51 Act VII — The hatch that opens against the pressure
+1:31 Act I — A test nobody called dangerous
+4:17 Act II — Sixteen point seven
+6:16 Act III — The hatch
+9:04 Act IV — Ten point three seconds
+12:43 Act V — The Board could not name the spark
+16:29 Act VI — What Congress found in a drawer
+19:58 Act VII — The hatch that opens against the pressure
 
 SOURCES
 • Report of Apollo 204 Review Board to the Administrator, NASA (NASA-TM-84105), 5 April 1967
@@ -148,8 +149,27 @@ story has no reason to click. Variant A ("NASA Printed 3 Versions of Apollo 1's 
 Words") attacks exactly that by leading with the new fact instead of the famous name —
 which is why it is the first title test, not the second.
 
+## ⚠ CHAPTER/CAPTION TIMING — read before touching either
+
+The chapters above and the shipped `.srt` are **measured off the rendered master**,
+not computed from the composition. Do not regenerate either with `gen_doc_srt.py`.
+
+A chunked render's concatenated master does not carry the ideal timeline. This one
+rendered 41,719 frames — 1390.6s at 30fps — but the container runs 1398.7s, and every
+narration clip sits progressively later than `doctiming.py` predicts: **+0.38s at the
+cold open, +8.44s by the close**, rising monotonically. Audio and video drift together,
+so the video plays correctly; what breaks is anything timed from the model.
+
+This is the actual cause of the "gen_doc_srt drifted 19s" symptom banked on noradtapes.
+The script was never wrong about the composition — the master simply isn't the
+composition. Both were re-derived with:
+
+    scripts/align_srt_to_master.py apollo1 out/apollo1_gce.mp4 --out "<title>.srt"
+
+which locates each of the 108 VO clips inside the master by normalised
+cross-correlation at 10ms resolution. All 108 matched with confidence ≥ 0.30.
+**Any future chunked render needs the same treatment.**
+
 ## STILL OWED
-- [ ] SRT off the finished master
-- [ ] Chapters above are computed from the manifest via `doctiming.py`. **Do not
-      regenerate them with `gen_doc_srt.py`** — it drifted 19s on noradtapes.
+- [x] SRT off the finished master — `The Apollo 1 Transcript That Doesn't Exist.srt`, 329 cues
 - [ ] Paste the CC BY-SA 2.0 credit line into the live description (licence obligation)
