@@ -20,23 +20,23 @@ are carried by real STILLS of those exact species, credited in images/ATTRIBUTIO
 - `trench_1.mp4` — "Hydrographer Canyon", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/edu-themes-deep-sea-corals-media-video-multimedia-red-coral/
 - `trench_2.mp4` — "Geology on the Ocean Floor", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/edu-themes-seamounts-media-video-multimedia-geology/
 - `trench_3.mp4` — "Mona Canyon", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/video-playlist-canyon-monacanyon/
-- `trench_4.mp4` — "Tar Lilies", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/video-playlist-ex1402-tar-lilies/
+- `trench_4.mp4` — "Blind Lobster", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/video-shorts-ex1603-polychelidae/
 - `trench_5.mp4` — "Hiding in the Dark", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/video-playlist-ex1708-hiding-dark/
 - `trench_6.mp4` — "Halibut Canyon: September 2, 2019", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/video-playlist-ex1905-halibut/
 - `trench_7.mp4` — "Marine Snow", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/explorations-19gulfofalaska-logs-aug1-media-video-marine-snow/
 - `trench_8.mp4` — "Underwater Volcano", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/video-playlist-ex1605-uw-volcano/
 - `trench_9.mp4` — "Asphalt Seep", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/edu-themes-cold-seeps-media-video-multimedia-molten/
 - `trench_10.mp4` — "A New Seep Site: July 7, 2019", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/video-playlist-ex1903-new-seep/
-- `trench_11.mp4` — "Seamounts: A Geologic Puzzle", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/edu-themes-seafloor-mapping-media-video-multimedia-seamounts/
+- `trench_11.mp4` — "Swimming Crinoid", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/video-shorts-ex1504-swimming-crinoid/
 - `trench_12.mp4` — "New England Seep", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/edu-themes-cold-seeps-media-video-multimedia-octocoral/
-- `trench_13.mp4` — "Microbial Mat", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/explorations-20cascadia-seeps-logs-sept29-media-large-mat/
+- `trench_13.mp4` — "Bloody Belly Ctenophore", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/okeanos-explorations-ex2104-features-ctenophore-media-dive04-ctenophore/
 - `trench_14.mp4` — "The Deep Forest", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/video-playlist-deep-forest/
 - `trench_15.mp4` — "A Potential Seep", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/okeanos-explorations-ex1903-dailyupdates-july3-media-seep/
 - `trench_16.mp4` — "Methane Bed Bacterial Mats", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/edu-themes-cold-seeps-media-video-multimedia-northeast/
 - `trench_17.mp4` — "Deep-Sea Life", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/edu-themes-canyons-media-video-multimedia-bio-highlight/
 - `amphipod_1.mp4` — "Giant Isopod", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/video-playlist-ex1711-giant-isopod/
 - `amphipod_2.mp4` — "Swarm of Cutthroat Eels", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/video-playlist-deepczz-eels/
-- `amphipod_3.mp4` — "Isopod", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/video-shorts-ex1803-isopod-legs/
+- `amphipod_3.mp4` — "Long-legged Shrimp", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/video-shorts-ex1605-longlegshrimp/
 - `amphipod_4.mp4` — "Deep-Sea Shrimp", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/explorations-19biolum-logs-jun16-media-shrimp/
 - `amphipod_5.mp4` — "Starfish Have to Eat Too", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/okeanos-explorations-ex1903-dailyupdates-june29-media-starfish/
 - `amphipod_6.mp4` — "Crab", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/video-shorts-ex1304-crab-fishfood/
@@ -56,19 +56,19 @@ are carried by real STILLS of those exact species, credited in images/ATTRIBUTIO
 - `marianamap_3.mp4` — "2016 Deepwater Exploration of the Marianas", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/edu-themes-vents-and-volcanoes-media-video-multimedia-deepwater/
 - `marianamap_4.mp4` — "Brimstone Vent", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/video-playlist-06rof-brimstone/
 - `fibre_1.mp4` — "Connecting the Dots", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/edu-themes-seafloor-mapping-media-video-multimedia-dots/
-- `fibre_2.mp4` — "A Needle In A Haystack: June - July 2019", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/video-playlist-ex1903-haystack/
+- `fibre_2.mp4` — "Pancake Urchin", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/video-shorts-ex1811-urchin/
 - `fibre_3.mp4` — "Scale Worm", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/video-shorts-ex1711-worm/
 - `pressure_1.mp4` — "Extinct Hydrothermal Chimney", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/edu-themes-vents-and-volcanoes-media-video-multimedia-extinctchimney/
-- `pressure_2.mp4` — "The Big Picture", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/video-playlist-bigpicture/
+- `pressure_2.mp4` — "Sea Spider", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/video-shorts-ex1706-seaspider/
 - `snow_1.mp4` — "Water Column Waltz", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/video-playlist-column-waltz/
-- `snow_2.mp4` — "A Midwater Exploration", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/video-playlist-column-midwaterex/
+- `snow_2.mp4` — "Comb Jelly", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/video-playlist-ex2103-ctenophore/
 - `core_1.mp4` — "The Mud Maidens&#039; Box Core", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/video-playlist-technology-box/
 - `core_2.mp4` — "Timelapse of the Alvin Dive on an Extensive Coral Environment", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/edu-themes-deep-sea-corals-media-video-multimedia-timelapse/
 - `core_3.mp4` — "Tubeworm On the Seafloor: May 2019", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/video-playlist-deepsearch19-tubeworm/
 - `core_4.mp4` — "DEEP SEARCH Leg 1 Highlights", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/explorations-19deepsearch-logs-apr19-media-leg1-highlights/
 - `ship_1.mp4` — "Hydrothermal Vent", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/edu-themes-vents-and-volcanoes-media-video-multimedia-hydrothermal/
 - `lab_1.mp4` — "Leg 2 Highlights", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/explorations-19deepsearch-logs-summary-media-deepsearch-highlights/
-- `lab_2.mp4` — "No Boundaries", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/okeanos-explorations-ex1905-dailyupdates-videos-no-boundaries-no-boundaries/
+- `lab_2.mp4` — "Basket Star", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/video-shorts-10index-basketstar-0701/
 - `lab_3.mp4` — "Exploration At Its Finest", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/video-playlist-marine-finest/
 - `lab_4.mp4` — "Truly a Wonder: July 11, 2019", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/video-playlist-seeps-wonder/
 - `surface_1.mp4` — "World of Water", NOAA Ocean Exploration — **public domain (US federal work)** — https://oceanexplorer.noaa.gov/multimedia/video-playlist-ex1708-wow/
