@@ -742,7 +742,13 @@ const ExhibitScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: n
         <div style={{ position: "absolute", bottom: s.source ? 210 : 104, right: 96, maxWidth: 720,
           textAlign: "right", opacity: capIn,
           transform: `translateY(${interpolate(capIn, [0, 1], [20, 0])}px)` }}>
+          {/* the caption needs its own PLATE, not just a shadow (apollo1, 2026-09-13):
+              a zoomed exhibit is usually a scanned page, i.e. near-white, and a
+              white caption with only a text-shadow over it is unreadable. The
+              source lower-third already solved this the same way. */}
           <span style={{ fontFamily: th.body, fontWeight: 700, fontSize: 40, color: "#fff", lineHeight: 1.3,
+            display: "inline-block", background: "rgba(3,4,7,0.82)", padding: "10px 22px",
+            borderRadius: 8, boxShadow: "0 8px 32px rgba(0,0,0,0.55)",
             textShadow: "0 3px 20px rgba(0,0,0,0.9)" }}>{s.cap}</span>
         </div>
       )}

@@ -71,6 +71,8 @@ import spaceShuttleDoc from "./mindwired-doc/docs/spaceshuttle.json";
 import spaceShuttleManifest from "./mindwired-doc/docs/spaceshuttle.manifest.json";
 import wtcCollapseDoc from "./mindwired-doc/docs/wtccollapse.json";
 import wtcCollapseManifest from "./mindwired-doc/docs/wtccollapse.manifest.json";
+import apollo1Doc from "./mindwired-doc/docs/apollo1.json";
+import apollo1Manifest from "./mindwired-doc/docs/apollo1.manifest.json";
 import theGroundingDoc from "./mindwired-doc/docs/thegrounding.json";
 import theGroundingManifest from "./mindwired-doc/docs/thegrounding.manifest.json";
 import noradTapesDoc from "./mindwired-doc/docs/noradtapes.json";
@@ -1499,6 +1501,31 @@ export const RemotionRoot: React.FC = () => {
              figure, never "two hours" (the sky cleared at 12:16), Sliney did
              not invoke SCATANA, Gander did not take the most planes, and the
              Sliney/Mineta conflict is presented unresolved. BB outro baked. ── */}
+      {/* ── Apollo1Doc — mindwired, 108 scenes. The spine is the Review Board's
+             own admission that the crew's second transmission "is garbled and
+             is, therefore, subject to wide variation of interpretation... no
+             definitive transcription is possible" — the report prints three
+             candidate readings and refuses to pick one, so neither does this
+             episode. Every exhibit is a real scanned page from the Apollo 204
+             Review Board report (NASA-TM-84105, 5 April 1967) or Senate Report
+             956; the transmittal letter and the report's own GMT-conversion
+             note are pages 3 and 2 of that PDF. Hard rules in
+             docs/planning/CLAIMS-apollo1.md: NEVER play the fire audio (three
+             men dying, living children), no network broadcast footage of any
+             kind, no First Man (2018) footage, the Board named no single
+             ignition source and found no evidence of sabotage, Borman's
+             "they would have escaped" is his stated opinion and not a Board
+             finding, and the Baron beat gives the documented facts — including
+             the testimony that impeached him — then stops. MW outro baked. ── */}
+      <Composition
+        id="Apollo1Doc"
+        component={makeDocComp(apollo1Doc as any, apollo1Manifest as any, MW_OUTRO)}
+        durationInFrames={docTotalFrames(apollo1Doc as any, apollo1Manifest as any, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
       <Composition
         id="TheGroundingDoc"
         component={makeDocComp(theGroundingDoc, theGroundingManifest, BB_OUTRO)}

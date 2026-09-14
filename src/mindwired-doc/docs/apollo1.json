@@ -1,0 +1,1093 @@
+{
+  "slug": "apollo1",
+  "title": "The Apollo 1 Transcript That Doesn't Exist",
+  "channel": "mindwired",
+  "niche": "space",
+  "language": "en",
+  "voice": "d46abd1d-2d02-43e8-819f-51fb652c1c61",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "The most quoted sentence in the history of American spaceflight was never actually transcribed. The people whose job it was to write it down said it could not be done.",
+      "video": "a1film_10.mp4",
+      "stat": "JANUARY 27, 1967 · LAUNCH COMPLEX 34 · CAPE KENNEDY",
+      "cap": "The line everyone knows. Nobody could write it down.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h2",
+      "text": "You have heard it in every documentary about the Apollo One fire. We've got a bad fire. Let's get out. We're burning up.",
+      "video": "a1film_15.mp4",
+      "cap": "\"We've got a bad fire… we're burning up\" — as commonly quoted",
+      "tone": "melancholy"
+    },
+    {
+      "id": "h3",
+      "text": "Here is what the official Review Board wrote about that transmission. The entire second transmission is garbled and is, therefore, subject to wide variation of interpretation. No definitive transcription is possible.",
+      "video": "a1film_9.mp4",
+      "cap": "\"…no definitive transcription is possible.\" — Apollo 204 Review Board",
+      "motion": "slow",
+      "speed": 0.96,
+      "tone": "curiosity"
+    },
+    {
+      "id": "h4",
+      "text": "So the Board did something almost no retelling mentions. It printed three different readings of the same five seconds, side by side, and declined to choose between them.",
+      "video": "a1after_5.mp4",
+      "stat": "THREE READINGS · ONE TRANSMISSION · NO VERDICT",
+      "cap": "Three candidate readings. The Board chose none.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h5",
+      "text": "Every video you have seen picks one of the three and calls it the transcript. This one will not.",
+      "video": "a1film_13.mp4",
+      "cap": "One of three. Never \"the transcript.\"",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h6",
+      "text": "Because when you read the three thousand pages the investigators actually produced, the story is not the one you were told. It is stranger, and harder to sit with.",
+      "video": "a1after_11.mp4",
+      "stat": "APOLLO 204 REVIEW BOARD · 21 PANELS · ~3,000 PAGES",
+      "tone": "curiosity"
+    },
+    {
+      "id": "h7",
+      "text": "A test that nobody in the building had classified as dangerous. A hatch that was designed to be hard to open, on purpose, for a reason that was written down.",
+      "video": "a1film_8.mp4",
+      "cap": "Not classified hazardous. Hard to open by design.",
+      "tone": "fear"
+    },
+    {
+      "id": "h8",
+      "text": "Ten point three seconds of voice. And a finding that no single cause of the fire was ever conclusively identified.",
+      "video": "a1after_8.mp4",
+      "stat": "10.3 SECONDS OF VOICE · NO SINGLE IGNITION SOURCE IDENTIFIED",
+      "cap": "Ten point three seconds.",
+      "motion": "slow",
+      "speed": 0.95,
+      "tone": "fear"
+    },
+    {
+      "id": "h9",
+      "text": "This is not the story of how three men died. It is the story of what the investigation found, in its own words, and how far that is from what everyone repeats.",
+      "video": "a1film_11.mp4",
+      "cap": "The investigation, in its own words.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "sting",
+      "sting": true,
+      "text": "You're watching mindwired.",
+      "img": "crew_portrait",
+      "query": "Apollo 1 prime crew portrait Grissom White Chaffee NASA official photograph 1966",
+      "tone": "curiosity"
+    },
+    {
+      "id": "title",
+      "chapter": "THE APOLLO 1\nTRANSCRIPT THAT DOESN'T EXIST",
+      "text": "Apollo One. The transcript that doesn't exist.",
+      "img": "pad34_gantry",
+      "query": "Launch Complex 34 Saturn IB AS-204 on pad January 1967 NASA photograph",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a1_ch",
+      "chapter": "ACT I\nA TEST NOBODY CALLED DANGEROUS",
+      "text": "To understand how this happened, start with a piece of paper. The paper that decided whether a test was dangerous.",
+      "img": "crew_prime_backup",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a1_1",
+      "text": "The formal name was the Space Vehicle Plugs-Out Integrated Test. Spacecraft zero one two, sitting on top of a Saturn One B rocket at Launch Complex thirty four, with no propellant in the rocket at all.",
+      "video": "a1after_6.mp4",
+      "stat": "PLUGS-OUT INTEGRATED TEST · SPACECRAFT 012 · UNFUELLED SATURN IB",
+      "cap": "No propellant in the rocket.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a1_2",
+      "exhibit": true,
+      "img": "ex_rb_test_purpose",
+      "source": "Report of Apollo 204 Review Board to the Administrator · April 5, 1967 · Description of the test",
+      "highlight": [
+        0.1,
+        0.3,
+        0.8,
+        0.18
+      ],
+      "text": "Its purpose was to run the vehicle in as near a flight configuration as practical. Simulated fuel-cell power. The ground umbilicals disconnected. Plugs out.",
+      "cap": "As near a flight configuration as practical.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a1_3",
+      "text": "The crew would be sealed inside, on internal power, running a countdown to a launch that would not happen. It was a rehearsal, and rehearsals had a rule about danger.",
+      "video": "a1film_4.mp4",
+      "cap": "A countdown to a launch that would not happen.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a1_4",
+      "exhibit": true,
+      "img": "ex_rb_hazard_rule",
+      "source": "Report of Apollo 204 Review Board · April 5, 1967 · Classification of the test",
+      "highlight": [
+        0.1,
+        0.36,
+        0.8,
+        0.2
+      ],
+      "text": "Here is the rule, in the Board's words. This Plugs-Out Test had not been classified as hazardous because only those tests involving fueled vehicles, hypergolic propellants, cryogenic systems, high pressure tanks, live pyrotechnics or altitude chamber tests were routinely classified as hazardous.",
+      "cap": "\"…had not been classified as hazardous because…\"",
+      "speed": 0.96,
+      "tone": "curiosity"
+    },
+    {
+      "id": "a1_5",
+      "text": "Read that list again. Fuel, hypergolics, cryogenics, high-pressure tanks, pyrotechnics, altitude chambers. The plugs-out test had none of them. By the rule as written, it was not hazardous.",
+      "video": "a1film_14.mp4",
+      "stat": "FUEL · HYPERGOLICS · CRYOGENICS · HIGH-PRESSURE TANKS · PYROTECHNICS · ALTITUDE CHAMBER",
+      "cap": "None of the six. Therefore: not hazardous.",
+      "tone": "fear"
+    },
+    {
+      "id": "a1_6",
+      "exhibit": true,
+      "img": "ex_rb_finding5",
+      "source": "Report of Apollo 204 Review Board · April 5, 1967 · Finding 5 and Determination",
+      "highlight": [
+        0.1,
+        0.42,
+        0.8,
+        0.16
+      ],
+      "text": "The Board's Finding Five. Those organizations responsible for the planning, conduct and safety of this test failed to identify it as being hazardous. And its determination, in one sentence. The test conditions were extremely hazardous.",
+      "cap": "\"The test conditions were extremely hazardous.\"",
+      "stat": "FINDING 5 · DETERMINATION 2",
+      "speed": 0.96,
+      "tone": "fear"
+    },
+    {
+      "id": "a1_7",
+      "text": "Frank Borman, the only astronaut on the Board, told the Senate in April. I did not consider it as hazardous. I do not believe that anyone within the test organization or the program office considered it hazardous. And, this is the unfortunate trap through which we fell.",
+      "img": "senate_hearing_1967",
+      "query": "Frank Borman testifying Congress Apollo 204 hearing April 1967 NASA photograph",
+      "cap": "\"…the unfortunate trap through which we fell.\" — Borman, Senate, April 11, 1967",
+      "speed": 0.96,
+      "tone": "melancholy"
+    },
+    {
+      "id": "a1_8",
+      "exhibit": true,
+      "img": "ex_senate_overconfidence",
+      "source": "Senate Report 956, \"Apollo 204 Accident\" · Committee on Aeronautical and Space Sciences · January 30, 1968",
+      "highlight": [
+        0.1,
+        0.4,
+        0.8,
+        0.18
+      ],
+      "text": "The Senate named no one, and neither will we. It concluded that NASA's long history of successes in testing and launching space vehicles with pure oxygen environments at sixteen point seven p s i and lower pressures led to overconfidence and complacency.",
+      "cap": "\"…led to overconfidence and complacency.\" — Senate Report 956",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a1_9",
+      "text": "Now the detail almost nobody tells. The emergency egress practice was in the test at the flight crew's own request. They asked for it in September, because the next test, the fully fuelled countdown demonstration, was classified hazardous, and they wanted to have rehearsed getting out.",
+      "video": "a1film_8.mp4",
+      "stat": "EGRESS PRACTICE · ADDED SEPT 1966 · AT THE CREW'S REQUEST",
+      "cap": "They asked to practise getting out.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a1_10",
+      "text": "One more thing about the paperwork. A two hundred and nine page revision to the test procedure arrived at half past five the evening before, with four more pages the morning of the test. The Board found this prevented people becoming adequately familiar with it, and found, in the same breath, that it did not contribute to the accident. Both halves are true.",
+      "video": "a1after_12.mp4",
+      "stat": "209-PAGE REVISION · 5:30 P.M. JAN 26 · \"DID NOT CONTRIBUTE\"",
+      "cap": "Late paperwork. Not a cause. Both are in the record.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a1_11",
+      "text": "So on the afternoon of the twenty seventh, nobody in the white room at the top of that gantry was standing next to something they believed was dangerous. What they were standing next to was an atmosphere.",
+      "video": "a1film_7.mp4",
+      "cap": "Nobody in that room believed it was dangerous.",
+      "motion": "slow",
+      "tone": "fear"
+    },
+    {
+      "id": "a2_ch",
+      "chapter": "ACT II\nSIXTEEN POINT SEVEN",
+      "text": "The number that decided everything was a pressure. And the reason for that pressure was completely sensible.",
+      "img": "cm012_interior",
+      "query": "Apollo command module 012 interior couches Block I cabin NASA photograph 1966",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2_1",
+      "exhibit": true,
+      "img": "ex_rb_finding2",
+      "source": "Report of Apollo 204 Review Board · April 5, 1967 · Finding 2",
+      "highlight": [
+        0.1,
+        0.3,
+        0.8,
+        0.12
+      ],
+      "text": "Finding Two. The test was conducted with a sixteen point seven pounds per square inch absolute, one hundred percent oxygen atmosphere. In flight, the cabin would have run at five. On the pad it ran at more than three times that.",
+      "stat": "16.7 PSIA · 100% O₂ · FLIGHT PRESSURE WAS TO BE 5 PSIA",
+      "cap": "Pure oxygen, at more than three times flight pressure.",
+      "tone": "fear"
+    },
+    {
+      "id": "a2_2",
+      "text": "Why so high? Because the cabin was deliberately run about two pounds above the air outside. That overpressure pushed the plug-type inner hatch into its seal from the inside, and it let engineers find leaks, because anything leaking would flow outward, where they could detect it.",
+      "video": "a1film_15.mp4",
+      "cap": "Two pounds above ambient: the hatch seals itself, and leaks show.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2_3",
+      "text": "Hold onto that. The same pressure that sealed the hatch is the pressure that would make it impossible to open.",
+      "video": "a1film_9.mp4",
+      "cap": "What sealed the hatch is what locked it.",
+      "motion": "slow",
+      "speed": 0.95,
+      "tone": "fear"
+    },
+    {
+      "id": "a2_4",
+      "exhibit": true,
+      "img": "ex_rb_finding9",
+      "source": "Report of Apollo 204 Review Board · April 5, 1967 · Finding 9",
+      "highlight": [
+        0.1,
+        0.38,
+        0.8,
+        0.2
+      ],
+      "text": "But notice what the Board did not do. It did not blame oxygen alone. Finding Nine says a pure oxygen system presents severe fire hazards if, and the word is if, the amount and location of combustibles are not restricted and controlled.",
+      "cap": "\"…severe fire hazards IF the amount and location of combustibles…\"",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2_5",
+      "text": "On adding a second gas, the Board wrote that it would undoubtedly reduce the risk of fire to a significant degree. And then, in the next sentence, that it would introduce other operational problems and risks. That is the shape of this whole report. Every fix has a cost, and the Board wrote both down.",
+      "video": "a1after_10.mp4",
+      "cap": "\"…would introduce other operational problems and risks.\"",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a2_6",
+      "text": "Here is what the pressure does to a spark. In a sixteen and a half p s i oxygen atmosphere, the Board found, sparks blown from arcs can ignite combustible material several inches from the arc. Not touching it. Several inches away.",
+      "img": "cm012_postfire",
+      "query": "Apollo 204 command module interior wiring post-fire investigation NASA photograph 1967",
+      "stat": "SPARKS FROM ARCS · IGNITION \"SEVERAL INCHES FROM THE ARC\"",
+      "cap": "Several inches from the arc.",
+      "tone": "fear"
+    },
+    {
+      "id": "a2_7",
+      "text": "And now the root of the complacency. Spacecraft zero one two had already been pressurised with pure oxygen above atmospheric pressure four times before this test, for six hours and fifteen minutes in total. About two and a half times longer than it would be on the twenty seventh.",
+      "video": "a1film_13.mp4",
+      "stat": "4 PREVIOUS TESTS · 6 HR 15 MIN IN PURE O₂ ABOVE 14.7 PSIA",
+      "cap": "Four times before. Six hours and fifteen minutes.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a2_8",
+      "text": "It had always been fine. That is the sentence underneath every other sentence in this story. Nothing had ever happened before, so nothing was expected to happen now.",
+      "video": "a1film_7.mp4",
+      "cap": "It had always been fine before.",
+      "motion": "slow",
+      "speed": 0.95,
+      "tone": "melancholy"
+    },
+    {
+      "id": "a3_ch",
+      "chapter": "ACT III\nTHE HATCH",
+      "text": "Three hatches stood between the crew and the white room. The first one they would have to open was designed to open inward.",
+      "img": "block1_hatch",
+      "query": "Apollo Block I command module inner hatch plug type 1967 NASA photograph",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a3_1",
+      "text": "From the outside in. The boost protective cover hatch, which on that day was in place but not fully latched, because the wire bundles run in for the test had distorted the cover. Then the ablative heat shield hatch. Then the inner pressure vessel hatch, the one the crew would reach first.",
+      "video": "a1film_9.mp4",
+      "stat": "3 HATCHES · BOOST COVER · ABLATIVE · INNER PRESSURE HATCH",
+      "cap": "Outer, middle, inner. The crew reached the inner one first.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a3_2",
+      "text": "The inner hatch was a plug. It sat in its opening like a stopper in a bottle, and it opened inward, into the cabin. Cabin pressure held it shut.",
+      "img": "block1_hatch",
+      "cap": "A plug, held shut by the cabin's own pressure.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a3_3",
+      "exhibit": true,
+      "img": "ex_rb_finding4",
+      "source": "Report of Apollo 204 Review Board · April 5, 1967 · Finding 4 and Determination",
+      "highlight": [
+        0.1,
+        0.34,
+        0.8,
+        0.2
+      ],
+      "text": "The Board put it plainly. With a slightly higher pressure inside the Command Module than outside, opening the inner hatch is impossible because of the resulting force on the hatch. Finding Four: due to internal pressure, the Command Module inner hatch could not be opened prior to rupture.",
+      "cap": "\"…opening the inner hatch is impossible…\"",
+      "stat": "FINDING 4",
+      "speed": 0.96,
+      "tone": "fear"
+    },
+    {
+      "id": "a3_4",
+      "text": "And the determination that follows it, which is the hardest sentence in the report. The crew was never capable of effecting emergency egress.",
+      "video": "a1film_8.mp4",
+      "cap": "\"The crew was never capable of effecting emergency egress.\"",
+      "motion": "slow",
+      "speed": 0.94,
+      "extraHold": 10,
+      "tone": "melancholy"
+    },
+    {
+      "id": "a3_5",
+      "text": "How long did the hatches take under normal conditions? The Senate said at least ninety seconds. The hatch panel gave forty seconds from inside and seventy from outside, under ideal conditions. Borman, asked if ninety was right, said approximately, it depends upon the training of the crew. There is no one clean number, so we will not give you one.",
+      "kinetic": {
+        "count": 90,
+        "suffix": "+ seconds · under normal conditions",
+        "sub": "Senate Report 956. Panel 3: 40 s inside, 70 s outside, \"under ideal conditions.\" Borman: \"Approximately.\""
+      },
+      "img": "block1_hatch",
+      "query": "Pad 34 white room Apollo 204 spacecraft 012 access January 1967 NASA photograph",
+      "tone": "fear"
+    },
+    {
+      "id": "a3_6",
+      "exhibit": true,
+      "img": "ex_senate_hatch_balance",
+      "source": "Senate Report 956, \"Apollo 204 Accident\" · January 30, 1968 · On the hatch design decision",
+      "highlight": [
+        0.1,
+        0.44,
+        0.8,
+        0.2
+      ],
+      "text": "Now the part that makes this a tragedy and not simply negligence. A quick-opening hatch had been considered, and rejected, on purpose. Accidental release in space was considered to impose a risk in excess of the benefits. The Senate's words: these items had not been omitted through neglect, but because of decisions based on an attempt to balance one potential set of risks against another.",
+      "cap": "\"…not omitted through neglect, but… to balance one potential set of risks against another.\"",
+      "speed": 0.96,
+      "tone": "melancholy"
+    },
+    {
+      "id": "a3_7",
+      "text": "The reasoning was not hidden. NASA's own history records that the contractor had been told not to design an explosive hatch, because a hatch that blew accidentally in orbit meant an instant vacuum and certain death for a crewman not wearing his pressure suit. They weighed a death in space against a death on the pad, and they chose. And they wrote it down.",
+      "video": "a1film_12.mp4",
+      "cap": "An accidentally blown hatch in orbit: instant vacuum.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a3_8",
+      "text": "There is a further twist. An outward-opening hatch for the later Block Two spacecraft was already in design before the fire. Not for escape. For the convenience of spacewalks.",
+      "video": "a1after_3.mp4",
+      "stat": "BLOCK II OUTWARD HATCH · ALREADY IN DESIGN · FOR SPACEWALKS",
+      "cap": "Already being designed. For spacewalks, not escape.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a3_9",
+      "text": "Borman gave the House his opinion, and it is an opinion, not a Board finding. If they had had a hatch that opened outward and opened in two seconds, there is no question in my mind that they would have escaped. He added that it was his firm opinion the crew would have escaped with a hatch that opened in eight seconds.",
+      "img": "senate_hearing_1967",
+      "cap": "Borman's opinion to the House — a witness's view, not a finding.",
+      "stat": "WITNESS OPINION · NOT A BOARD FINDING",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a3_10",
+      "text": "Doctor Van Dolah, who led the fire panel, told the Senate that with a two to three second hatch the crew could have escaped with only minor injuries at most. Again, a witness's judgment. The Board itself never made that finding. Hold both of those thoughts as we go to the clock.",
+      "video": "a1after_11.mp4",
+      "cap": "Van Dolah, to the Senate. His judgment, not the Board's.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a4_ch",
+      "chapter": "ACT IV\nTEN POINT THREE SECONDS",
+      "text": "The Board's clock runs on Greenwich time. Six thirty in the evening at the Cape is twenty three thirty on the record. Here is what the record holds.",
+      "img": "crew_ingress",
+      "query": "Grissom White Chaffee pressure suits Pad 34 Apollo 1 crew training January 1967 NASA photograph",
+      "tone": "fear"
+    },
+    {
+      "id": "a4_1",
+      "text": "Eighteen hundred Greenwich, one in the afternoon at the Cape. Gus Grissom enters the spacecraft, then Roger Chaffee, then Ed White. Grissom in the left couch, White in the centre, Chaffee on the right.",
+      "video": "a1film_10.mp4",
+      "stat": "18:00 GMT · CREW INGRESS · GRISSOM · CHAFFEE · WHITE",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a4_2",
+      "text": "Twenty minutes later, a hold. Grissom reports a sour smell in the suit oxygen loop. It is investigated. The Board would later find it was not related to the fire.",
+      "video": "a1film_13.mp4",
+      "cap": "18:20 · a \"sour\" odour in the suit loop. Not related to the fire.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a4_3",
+      "text": "Nineteen forty five, the hatches are installed and the cabin is purged to pure oxygen. Around twenty two forty, another hold, for a live microphone that will not switch off in the communications loop. At twenty three twenty, the count holds at T minus ten minutes. It never resumes.",
+      "video": "a1film_15.mp4",
+      "stat": "19:45 HATCHES SEALED · ~22:40 COMMS FAULT · 23:20 HOLD AT T-10",
+      "cap": "A hold at T minus ten. The count never resumed.",
+      "tone": "fear"
+    },
+    {
+      "id": "a4_4",
+      "text": "Twenty three thirty and fifty five seconds. A momentary failure in the electrical power. The Board would later call this the probable moment of ignition.",
+      "video": "a1after_5.mp4",
+      "stat": "23:30:55 GMT · MOMENTARY POWER FAILURE",
+      "cap": "23:30:55. The probable moment of ignition.",
+      "motion": "slow",
+      "speed": 0.95,
+      "tone": "fear"
+    },
+    {
+      "id": "a4_5",
+      "exhibit": true,
+      "img": "ex_rb_transmission_first",
+      "source": "Report of Apollo 204 Review Board · April 5, 1967 · Crew transmissions, 23:31:04.7 GMT",
+      "highlight": [
+        0.1,
+        0.3,
+        0.8,
+        0.16
+      ],
+      "text": "Nine point seven seconds later, the first transmission. The Board calls it an exclamatory remark, and says this transmission is not clear. Listeners believe this initial remark was Hey, or Fire, but this is not certain. Laboratory analysis pointed to Grissom.",
+      "stat": "23:31:04.7 · \"HEY\" OR \"FIRE\" · \"THIS IS NOT CERTAIN\"",
+      "cap": "One word. The Board could not say which.",
+      "tone": "fear"
+    },
+    {
+      "id": "a4_6",
+      "exhibit": true,
+      "img": "ex_rb_transmission_second",
+      "source": "Report of Apollo 204 Review Board · April 5, 1967 · Crew transmissions, 23:31:06.2 GMT",
+      "highlight": [
+        0.1,
+        0.46,
+        0.8,
+        0.16
+      ],
+      "text": "One and a half seconds after that, the transmission that is clear. Got a fire in the cockpit. Preceded by a word the Board could not resolve, I've or We've. Many listeners believed it was Chaffee, the pilot, whose job was communications. The Board wrote: no firm conclusion can be drawn.",
+      "stat": "23:31:06.2 · \"…GOT A FIRE IN THE COCKPIT\"",
+      "cap": "\"…no firm conclusion can be drawn.\"",
+      "tone": "fear"
+    },
+    {
+      "id": "a4_7",
+      "text": "Then six point eight seconds of nothing on the voice loop. Six point eight seconds in which the record is silent.",
+      "video": "a1after_10.mp4",
+      "stat": "23:31:10 → 23:31:16.8 · 6.8 SECONDS · NO TRANSMISSION",
+      "cap": "Six point eight seconds of silence.",
+      "motion": "slow",
+      "speed": 0.94,
+      "extraHold": 8,
+      "tone": "fear"
+    },
+    {
+      "id": "a4_8",
+      "exhibit": true,
+      "img": "ex_rb_transmission_three_readings",
+      "source": "Report of Apollo 204 Review Board · April 5, 1967 · Second transmission, 23:31:16.8–23:31:21.8 GMT · three alternative readings",
+      "highlight": [
+        0.1,
+        0.3,
+        0.8,
+        0.3
+      ],
+      "text": "Twenty three thirty one and sixteen point eight seconds. The second transmission, five seconds long. This is the one everyone quotes. On screen are the Board's three readings, exactly as it printed them, and we will not read one aloud as if it were the truth. Bell Telephone Laboratories told the Board there would be nearly as many interpretations of what was said as there are qualified listeners.",
+      "stat": "23:31:16.8–23:31:21.8 · THREE READINGS · \"NO DEFINITIVE TRANSCRIPTION IS POSSIBLE\"",
+      "cap": "\"…nearly as many interpretations… as there are qualified listeners.\" — Bell Labs",
+      "speed": 0.95,
+      "extraHold": 12,
+      "tone": "melancholy"
+    },
+    {
+      "id": "a4_9",
+      "text": "That is everything. From the first word to the last, the crew's voice on the record totals ten point three seconds.",
+      "kinetic": {
+        "count": 10.3,
+        "suffix": " seconds of voice",
+        "sub": "23:31:04.7 → 23:31:21.8 GMT · every word the record holds"
+      },
+      "img": "cm012_interior",
+      "speed": 0.94,
+      "extraHold": 8,
+      "tone": "melancholy"
+    },
+    {
+      "id": "a4_10",
+      "text": "At about twenty three thirty one and nineteen seconds the cabin ruptures from the pressure. At twenty three thirty one and twenty two point four seconds, all voice and all data end. Van Dolah's estimate was that the fire itself probably lasted only about twenty five seconds.",
+      "video": "a1after_8.mp4",
+      "stat": "~23:31:19 RUPTURE · 23:31:22.4 ALL VOICE AND DATA END",
+      "cap": "Three seconds after rupture, the record stops.",
+      "motion": "slow",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a4_11",
+      "text": "The Board reconstructed the crew's last actions in one sentence, and one sentence is all we will use. Grissom had left his couch. White had reached for the hatch, as he was trained to. Chaffee had stayed on communications, as he was trained to.",
+      "img": "crew_portrait",
+      "cap": "Each man did what he was trained to do.",
+      "motion": "slow",
+      "speed": 0.94,
+      "tone": "melancholy"
+    },
+    {
+      "id": "a4_12",
+      "text": "Now the people this story forgets. Outside the spacecraft, the pad crew were thrown back by the flash. They came back with extinguishers and were working on the hatches about a minute after the first report of fire.",
+      "video": "a1after_6.mp4",
+      "cap": "They came back. About one minute after the first report.",
+      "tone": "awe"
+    },
+    {
+      "id": "a4_13",
+      "text": "The white room filled with smoke. Visibility, in the record's words, was virtually zero. Five men took turns going in, working the hatches by feel, coming out to breathe, going back in.",
+      "video": "a1after_4.mp4",
+      "stat": "WHITE ROOM · VISIBILITY \"VIRTUALLY ZERO\" · FIVE MEN IN TURNS",
+      "cap": "Five men, in turns, by feel.",
+      "tone": "awe"
+    },
+    {
+      "id": "a4_14",
+      "text": "Four of them are named on the House record. Donald Babbitt. James Gleaves. L. D. Reece, of North American. Henry Rogers, of NASA quality control. Congressman Daddario put on the record that they acted with great courage.",
+      "img": "crew_ingress",
+      "stat": "D. O. BABBITT · J. D. GLEAVES · L. D. REECE · H. H. ROGERS",
+      "cap": "\"…acted with great courage.\" — Rep. Daddario, House record",
+      "speed": 0.96,
+      "tone": "awe"
+    },
+    {
+      "id": "a4_15",
+      "text": "At about twenty three thirty six, all three hatches were open. Roughly five minutes after the first word. The crew's voice had lasted ten point three seconds. The hatches had taken five minutes.",
+      "video": "a1after_12.mp4",
+      "stat": "~23:36 GMT · ALL THREE HATCHES OPEN · ~5 MINUTES",
+      "cap": "Ten point three seconds of voice. Five minutes of hatches.",
+      "motion": "slow",
+      "speed": 0.94,
+      "extraHold": 10,
+      "tone": "melancholy"
+    },
+    {
+      "id": "a5_ch",
+      "chapter": "ACT V\nTHE BOARD COULD NOT NAME THE SPARK",
+      "text": "Sixty eight days after the fire, the Review Board handed the Administrator its report. It knew where the fire probably began. It could not prove what lit it.",
+      "img": "sc012_transfer",
+      "query": "Apollo 204 Review Board report cover April 1967 NASA document photograph",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a5_1",
+      "text": "The Board was created the night of the fire, by Deputy Administrator Robert Seamans. It convened the next morning at the Kennedy Space Center, under Doctor Floyd Thompson of Langley.",
+      "video": "a1film_11.mp4",
+      "stat": "CONVENED 28 JAN 1967 · DR. FLOYD THOMPSON, CHAIRMAN",
+      "cap": "Convened the morning after.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a5_2",
+      "text": "Its only astronaut was Frank Borman. His job was to take apart the spacecraft his friends had died in.",
+      "video": "a1after_2.mp4",
+      "cap": "Frank Borman, the Board's only astronaut.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a5_3",
+      "text": "Twenty one task panels. Eleven findings. And when it was bound, nearly three thousand pages.",
+      "kinetic": {
+        "count": 3000,
+        "suffix": " pages · Apollo 204 Review Board",
+        "sub": "21 task panels · 11 findings · report dated 5 April 1967 · every member concurring"
+      },
+      "img": "cm012_exterior_postfire",
+      "tone": "awe"
+    },
+    {
+      "id": "a5_4",
+      "text": "Borman would later say to a congressman, with some edge in it, perhaps you haven't had time to read the three thousand pages. Here is what is in them.",
+      "video": "a1after_3.mp4",
+      "cap": "\"Perhaps you haven't had time to read the 3,000 pages.\"",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a5_5",
+      "text": "Spacecraft zero one two was taken apart piece by piece. Before anything was removed, its position was photographed and recorded. The Board wanted the cabin to testify before the engineers did.",
+      "video": "a1after_4.mp4",
+      "stat": "SPACECRAFT 012 · DISASSEMBLY UNDER BOARD CONTROL",
+      "cap": "Every part photographed before it moved.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a5_6",
+      "exhibit": true,
+      "img": "ex_finding1",
+      "source": "Report of Apollo 204 Review Board to the Administrator · 5 April 1967 · Finding 1",
+      "highlight": [
+        0.1,
+        0.22,
+        0.8,
+        0.16
+      ],
+      "text": "Finding one, in the Board's own words. There was a momentary power failure at twenty three thirty and fifty five seconds, Greenwich Mean Time. Evidence of several arcs was found in the post-fire investigation. No single ignition source of the fire was conclusively identified.",
+      "stat": "\"NO SINGLE IGNITION SOURCE... WAS CONCLUSIVELY IDENTIFIED\"",
+      "cap": "Finding 1. Read it twice.",
+      "motion": "slow",
+      "extraHold": 12,
+      "tone": "curiosity"
+    },
+    {
+      "id": "a5_7",
+      "exhibit": true,
+      "img": "ex_finding1",
+      "source": "Report of Apollo 204 Review Board · Finding 1 · Determination",
+      "highlight": [
+        0.1,
+        0.4,
+        0.8,
+        0.2
+      ],
+      "text": "Then the determination. The most probable initiator was an electrical arc, near the floor, in the lower forward section of the left-hand equipment bay, where instrumentation power wiring for the Environmental Control System leads into the space between the Environmental Control Unit and the oxygen panel.",
+      "cap": "Most probable. Not certain.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a5_8",
+      "exhibit": true,
+      "img": "ex_finding1",
+      "source": "Report of Apollo 204 Review Board · Finding 1 · final sentence",
+      "highlight": [
+        0.1,
+        0.62,
+        0.8,
+        0.08
+      ],
+      "text": "And the last sentence of finding one, which the Board thought necessary to write down. No evidence was discovered that suggested sabotage.",
+      "stat": "\"NO EVIDENCE WAS DISCOVERED THAT SUGGESTED SABOTAGE\"",
+      "cap": "They checked.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a5_9",
+      "text": "Now the spot itself. Low on the left side, under a small access door for the lithium hydroxide canister, a power cable ran where the door's inside edge could rub against it. The insulation was vulnerable to abrasion.",
+      "video": "a1after_5.mp4",
+      "stat": "LITHIUM HYDROXIDE ACCESS DOOR · CABLE INSULATION VULNERABLE TO ABRASION",
+      "cap": "A door edge. A cable. Inches apart.",
+      "motion": "slow",
+      "tone": "fear"
+    },
+    {
+      "id": "a5_10",
+      "text": "In a pure oxygen cabin at that pressure, the Board had already established what a small arc could do. Sparks blown from arcs can ignite combustible material several inches away.",
+      "video": "a1film_14.mp4",
+      "cap": "\"...several inches from the arc.\"",
+      "tone": "fear"
+    },
+    {
+      "id": "a5_11",
+      "exhibit": true,
+      "img": "ex_cable_destroyed",
+      "source": "Report of Apollo 204 Review Board · Ignition source discussion",
+      "highlight": [
+        0.1,
+        0.45,
+        0.8,
+        0.14
+      ],
+      "text": "And then the Board wrote the most honest sentence in the whole report. If this cable were the cause, it cannot be proven, since both the power cable and the inside edge of the door were completely destroyed.",
+      "stat": "\"IT CANNOT BE PROVEN\"",
+      "cap": "The fire consumed its own evidence.",
+      "motion": "slow",
+      "extraHold": 10,
+      "tone": "melancholy"
+    },
+    {
+      "id": "a5_12",
+      "text": "The fire had destroyed the only two objects that could have convicted it. So the investigators did the other thing. They worked out what it was not.",
+      "video": "a1after_6.mp4",
+      "cap": "So they eliminated.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a5_13",
+      "text": "Electrostatic discharge, ruled out. Spontaneous combustion, ruled out. Mechanical heat, impact, and resonance heating. All examined. All eliminated. What remained was electrical, and it remained probable, not proven.",
+      "video": "a1after_7.mp4",
+      "stat": "ELIMINATED: STATIC · SPONTANEOUS COMBUSTION · MECHANICAL HEAT · IMPACT · RESONANCE",
+      "cap": "What it was not.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a5_14",
+      "text": "The disassembly turned up something else. Inside the spacecraft, the Board found a wrench socket. It was logged as an enclosure to the report. Nobody had meant to leave it there.",
+      "video": "a1after_8.mp4",
+      "stat": "ENCLOSURE 27 · A WRENCH SOCKET FOUND IN THE SPACECRAFT",
+      "cap": "A socket, left behind.",
+      "motion": "slow",
+      "tone": "fear"
+    },
+    {
+      "id": "a5_15",
+      "text": "The Board also noted that coolant leakage from the plumbing had been a chronic problem, and that the coolant was both corrosive and combustible. It stopped there. It did not build a chain it could not prove.",
+      "video": "a1after_9.mp4",
+      "cap": "\"...both corrosive and combustible.\"",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a5_16",
+      "text": "So when the Board summed up, it did not name a cause. It named conditions. A sealed cabin. A pure oxygen atmosphere. Extensive combustible materials. Vulnerable wiring. Vulnerable coolant plumbing. Inadequate provisions for escape. Inadequate provisions for rescue.",
+      "video": "a1after_10.mp4",
+      "stat": "SEALED CABIN · PURE O2 · COMBUSTIBLES · WIRING · PLUMBING · NO ESCAPE · NO RESCUE",
+      "cap": "Seven conditions. No single cause.",
+      "motion": "slow",
+      "tone": "anger"
+    },
+    {
+      "id": "a5_17",
+      "text": "Any one of them, alone, might have been survivable. Together, in that cabin, on that afternoon, they were not.",
+      "video": "mcc_2.mp4",
+      "cap": "Together.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "a5_18",
+      "exhibit": true,
+      "img": "ex_board_mundane",
+      "source": "Report of Apollo 204 Review Board · Board summary",
+      "highlight": [
+        0.1,
+        0.5,
+        0.8,
+        0.16
+      ],
+      "text": "And then one sentence that was aimed at everyone, including the men who wrote it. In its devotion to the many difficult problems of space travel, the Apollo team failed to give adequate attention to certain mundane but equally vital questions of crew safety.",
+      "stat": "\"MUNDANE BUT EQUALLY VITAL QUESTIONS OF CREW SAFETY\"",
+      "cap": "The Board's verdict on itself.",
+      "motion": "slow",
+      "speed": 0.95,
+      "extraHold": 12,
+      "tone": "melancholy"
+    },
+    {
+      "id": "a6_ch",
+      "chapter": "ACT VI\nWHAT CONGRESS FOUND IN A DRAWER",
+      "text": "The Board had answered how. Congress wanted to know who had been told what, and when. The answer turned up in a report Nasa's Administrator said he had never seen.",
+      "img": "senate_hearing_1967",
+      "query": "Senate Committee on Aeronautical and Space Sciences Apollo 204 hearing 1967 photograph Clinton Anderson",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6_1",
+      "text": "Two committees. In the Senate, Aeronautical and Space Sciences, under Clinton Anderson, sitting from February nineteen sixty seven to January nineteen sixty eight. In the House, the Subcommittee on Nasa Oversight, under Olin Teague, through April and May.",
+      "video": "a1film_2.mp4",
+      "stat": "SENATE: ANDERSON · HOUSE: TEAGUE · FEB 1967 – JAN 1968",
+      "cap": "Two committees, eleven months.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6_2",
+      "text": "In December nineteen sixty five, more than a year before the fire, General Phillips had led a review of the contractor, North American Aviation. His cover letter to the company's president is dated the nineteenth of December.",
+      "video": "a1film_11.mp4",
+      "stat": "THE PHILLIPS REPORT · DECEMBER 1965",
+      "cap": "Fourteen months before the fire.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6_3",
+      "source": "Senate Report 956 · the Phillips cover letter of 19 December 1965, as reproduced",
+      "highlight": [
+        0.1,
+        0.38,
+        0.8,
+        0.12
+      ],
+      "text": "The committee put the review's purpose on the record. A task force review, headed by Apollo Program Director Samuel C. Phillips, made a detailed examination of the contractor's management and made many recommendations for remedial action, in order to return the program to an acceptable level of performance. Its results went to North American management on the nineteenth of December, nineteen sixty five.",
+      "stat": "\"I AM DEFINITELY NOT SATISFIED\"",
+      "cap": "Phillips to North American, December 1965.",
+      "motion": "slow",
+      "tone": "anger",
+      "video": "a1film_8.mp4"
+    },
+    {
+      "id": "a6_4",
+      "text": "On the twenty seventh of February nineteen sixty seven, one month after the fire, Senator Mondale asked in open hearing whether such a report existed. Administrator Webb replied that he knew of no unusual General Phillips report.",
+      "video": "pad_2.mp4",
+      "stat": "27 FEB 1967 · MONDALE ASKS · WEBB: \"NO UNUSUAL GENERAL PHILLIPS REPORT\"",
+      "cap": "\"...no unusual General Phillips report.\"",
+      "motion": "slow",
+      "tone": "anger"
+    },
+    {
+      "id": "a6_5",
+      "text": "It existed. And the Senate, when it had read it, made two findings that have to be held at the same time.",
+      "video": "a1film_3.mp4",
+      "cap": "Both halves, together.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6_6",
+      "exhibit": true,
+      "img": "ex_senate_phillips_finding",
+      "source": "Senate Report 956 · \"Apollo 204 Accident\" · 30 January 1968",
+      "highlight": [
+        0.1,
+        0.3,
+        0.8,
+        0.18
+      ],
+      "text": "First. The task force findings had no effect on the accident, did not lead to the accident, and were not related to the accident. Second. The committee believes it should have been informed.",
+      "stat": "NOT CAUSAL · NOT DISCLOSED",
+      "cap": "Not the cause. Should have been disclosed.",
+      "motion": "slow",
+      "extraHold": 8,
+      "tone": "anger"
+    },
+    {
+      "id": "a6_7",
+      "text": "Mondale added his own views to the report. He wrote of evasiveness, of a lack of candor, and of a patronizing attitude toward Congress. That is in the record. What is also in the record is that the Phillips report did not start the fire.",
+      "video": "a1film_4.mp4",
+      "cap": "\"Evasiveness... lack of candor...\"",
+      "tone": "anger"
+    },
+    {
+      "id": "a6_8",
+      "text": "Then there is Thomas Baron. He was a quality control inspector for North American at the Kennedy Space Center, from September nineteen sixty five to November nineteen sixty six.",
+      "img": "sc012_transfer",
+      "query": "Thomas Baron report North American Aviation quality inspector 1966 document page NASA history",
+      "stat": "THOMAS BARON · NORTH AMERICAN QC INSPECTOR · KSC",
+      "cap": "A quality inspector with a list.",
+      "motion": "push",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6_9",
+      "text": "He wrote up what he saw as quality failures on the Apollo work. Fifty five pages of them. He gave the report to the press. On the fifth of January nineteen sixty seven, three weeks before the fire, North American discharged him.",
+      "kinetic": {
+        "count": 55,
+        "suffix": " pages · the Baron report",
+        "sub": "Leaked to the press · discharged 5 January 1967 · expanding toward ~500 pages when the fire happened"
+      },
+      "img": "senate_hearing_1967",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6_10",
+      "text": "North American answered it point by point. But some of the company's own officials later told Congress that about half of Baron's charges were well grounded.",
+      "video": "a1film_5.mp4",
+      "stat": "NAA REBUTTAL · \"ABOUT HALF... WERE WELL-GROUNDED\"",
+      "cap": "About half, by the company's own account.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6_11",
+      "text": "Baron testified before the House subcommittee on the twenty first of April nineteen sixty seven. By then he was expanding his report toward five hundred pages.",
+      "video": "a1film_6.mp4",
+      "stat": "21 APRIL 1967 · BARON TESTIFIES",
+      "cap": "Under oath, twenty first of April.",
+      "motion": "slow",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6_12",
+      "text": "Under questioning, he said a North American technician knew exactly what caused the fire. A man he had met by chance in a drugstore. He admitted he had taken this to a newspaperman, not to Nasa and not to the Board.",
+      "video": "mcc_4.mp4",
+      "cap": "A drugstore. A newspaperman. Not the Board.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6_13",
+      "text": "The technician was called. He testified that Baron gets all his information from anonymous phone calls. On that point, the committee moved on.",
+      "video": "a1film_7.mp4",
+      "cap": "\"...anonymous phone calls.\"",
+      "tone": "curiosity"
+    },
+    {
+      "id": "a6_14",
+      "text": "Six days later, on the twenty seventh of April nineteen sixty seven, Thomas Baron, his wife and his stepdaughter were killed near Mims, Florida, when a train struck their car.",
+      "img": "senate_hearing_1967",
+      "query": "Mims Florida railroad crossing Florida East Coast Railway 1960s archival photograph",
+      "stat": "27 APRIL 1967 · MIMS, FLORIDA",
+      "cap": "Six days after he testified.",
+      "motion": "slow",
+      "speed": 0.95,
+      "tone": "melancholy"
+    },
+    {
+      "id": "a6_15",
+      "text": "Nasa's own history of the program gives it one word of comment. Ironically. No official document says anything more than that, and neither will this one.",
+      "img": "sc012_transfer",
+      "cap": "\"Ironically.\" — NASA's own history. Nothing more is on the record.",
+      "motion": "slow",
+      "speed": 0.95,
+      "extraHold": 6,
+      "tone": "melancholy"
+    },
+    {
+      "id": "a6_16",
+      "exhibit": true,
+      "img": "ex_senate_no_single_person",
+      "source": "Senate Report 956 · \"Apollo 204 Accident\" · 30 January 1968 · preface",
+      "highlight": [
+        0.1,
+        0.35,
+        0.8,
+        0.16
+      ],
+      "text": "When the Senate finally wrote its report, in January nineteen sixty eight, it began with this. No single person bears all of the responsibility. It happened because many people made the mistake of failing to recognize a hazardous situation.",
+      "stat": "\"NO SINGLE PERSON BEARS ALL OF THE RESPONSIBILITY\"",
+      "cap": "Not one man. Many people, one mistake.",
+      "motion": "slow",
+      "extraHold": 10,
+      "tone": "melancholy"
+    },
+    {
+      "id": "a7_ch",
+      "chapter": "ACT VII\nTHE HATCH THAT OPENS AGAINST THE PRESSURE",
+      "text": "What changed was not one part. It was the definition of what counted as dangerous. Nasa gave the Senate the list itself.",
+      "img": "block2_hatch",
+      "query": "Apollo Block II unified hatch command module outward opening NASA photograph 1968",
+      "tone": "awe"
+    },
+    {
+      "id": "a7_1",
+      "text": "First item on Nasa's list. Every test in a pure oxygen atmosphere was redefined as hazardous. The rule that had let the plugs-out test through, because there was no fuel and no pyrotechnics, was gone.",
+      "video": "a1film_8.mp4",
+      "stat": "ALL PURE-OXYGEN TESTS → HAZARDOUS",
+      "cap": "The rule that let it through is gone.",
+      "motion": "slow",
+      "tone": "awe"
+    },
+    {
+      "id": "a7_2",
+      "text": "Responsibility for test procedures was redefined. An independent Office of Flight Safety was created. Emergency training and pad fire and rescue equipment were rebuilt. Every crewed flight moved to the Block Two spacecraft.",
+      "video": "a1after_2.mp4",
+      "stat": "OFFICE OF FLIGHT SAFETY · BLOCK II ONLY · PAD RESCUE REBUILT",
+      "cap": "An independent safety office.",
+      "motion": "slow",
+      "tone": "awe"
+    },
+    {
+      "id": "a7_3",
+      "text": "Combustible materials inside the cabin were, in Nasa's words, severely restricted and controlled. Nasa told the Senate this one change was more significant than any other improvement resulting from the accident.",
+      "video": "a1after_7.mp4",
+      "stat": "COMBUSTIBLES \"SEVERELY RESTRICTED AND CONTROLLED\"",
+      "cap": "\"...more significant than any other improvement.\"",
+      "motion": "slow",
+      "tone": "awe"
+    },
+    {
+      "id": "a7_4",
+      "text": "Behind that sentence sits a materials program of more than three thousand tests on more than five hundred materials. Nylon went out. Beta fibre and Teflon came in. Soldered aluminium oxygen lines were replaced with brazed stainless steel.",
+      "kinetic": {
+        "count": 3000,
+        "suffix": "+ flammability tests · 500+ materials",
+        "sub": "Nylon → Beta fibre and Teflon · soldered aluminium O2 lines → brazed stainless steel (NASA histories)"
+      },
+      "img": "block2_hatch",
+      "tone": "awe"
+    },
+    {
+      "id": "a7_5",
+      "text": "And the hatch. Two hatches became one. The unified hatch opened outward, in about five seconds. And it opened regardless of the pressure inside the cabin.",
+      "video": "a1after_9.mp4",
+      "stat": "UNIFIED HATCH · OUTWARD · ~5 SECONDS · REGARDLESS OF INTERNAL PRESSURE",
+      "cap": "Openable against the pressure.",
+      "motion": "slow",
+      "tone": "awe"
+    },
+    {
+      "id": "a7_6",
+      "text": "Remember why the old one could not. A slightly higher pressure inside than outside, and opening the inner hatch was impossible. That sentence, from the Board, is the one this hatch was built to erase.",
+      "video": "a1film_9.mp4",
+      "cap": "The sentence the new hatch was built to erase.",
+      "tone": "awe"
+    },
+    {
+      "id": "a7_7",
+      "text": "Emergency oxygen for the crew. Launch facilities modified for rapid egress. And the atmosphere itself. On the pad, the cabin would now carry sixty percent oxygen and forty percent nitrogen, at roughly sea-level pressure. In flight, it stayed pure oxygen at five pounds per square inch.",
+      "video": "a1film_10.mp4",
+      "stat": "PAD: 60% O2 / 40% N2 · FLIGHT: PURE O2 AT 5 PSI",
+      "cap": "Nitrogen on the pad.",
+      "motion": "slow",
+      "tone": "awe"
+    },
+    {
+      "id": "coda1",
+      "text": "I want to be careful here, because there is a version of this story where the fire becomes a necessary sacrifice, and I do not think the record supports saying it that cleanly. What the record does hold is this.",
+      "video": "a1film_12.mp4",
+      "motion": "slow",
+      "speed": 0.94,
+      "cap": "What the record actually holds.",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda2",
+      "exhibit": true,
+      "img": "ex_senate_hope",
+      "source": "Senate Report 956 · \"Apollo 204 Accident\" · 30 January 1968",
+      "highlight": [
+        0.1,
+        0.55,
+        0.8,
+        0.14
+      ],
+      "text": "The Senate, in January nineteen sixty eight, wrote that it was the committee's hope that the remainder of the program would be carried out with greater understanding and dedication than if there had been no accident. A hope. Not a claim.",
+      "cap": "\"...than if there had been no accident.\"",
+      "motion": "slow",
+      "speed": 0.94,
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda3",
+      "text": "And Frank Borman, in nineteen ninety nine, asked whether the changes were what let Nasa recover so fast, answered in one word and one comparison. Absolutely. Just take a look at the difference in recovery time between the Apollo and the Shuttle.",
+      "video": "a1film_13.mp4",
+      "motion": "slow",
+      "speed": 0.94,
+      "cap": "Borman, 1999: \"Absolutely.\"",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda4",
+      "text": "The mission was designated Apollo Two Oh Four. It never flew. The crew's widows asked Nasa to reserve the name for the flight that never left the pad, and on the twenty fourth of April nineteen sixty seven, Nasa made it official. The flight that never flew kept its name. Apollo One.",
+      "img": "tribute",
+      "query": "Apollo 1 mission patch Grissom White Chaffee official NASA insignia photograph",
+      "stat": "24 APRIL 1967 · \"APOLLO 1\" MADE OFFICIAL",
+      "cap": "Apollo 1.",
+      "motion": "slow",
+      "speed": 0.94,
+      "extraHold": 14,
+      "tone": "melancholy"
+    },
+    {
+      "id": "bridge",
+      "text": "Grissom, White and Chaffee are three of the twenty one astronauts who never came home. If the investigation into their deaths held you, the other eighteen stories are already on this channel. Watch Twenty One Astronauts Never Came Home, Here's Every Story, right here on mindwired. And subscribe to mindwired, so you don't miss the next case we open from the record.",
+      "img": "crew_portrait",
+      "cap": "Next: 21 Astronauts Never Came Home. Here's Every Story.",
+      "tone": "curiosity"
+    }
+  ]
+}

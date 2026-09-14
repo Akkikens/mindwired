@@ -1,0 +1,1080 @@
+                                                                       /
+
+   CONGRESS}                                                 REPORT
+!Zd Session                  SENATE                      {   No. 956
+
+
+
+
+              c APOLLO 204 ACCIDENT.:1
+
+
+
+
+                          REPORT
+                               OF THE
+
+
+           COMMITTEE ON
+  AERONAUTICAL AND SPACE SCIENCES
+               UNITED STATES SENATE
+                WITH ADDITIONAL VIEWS
+
+
+
+
+               JANUARY 30, 1968.-0rdered to be printed
+
+
+
+                 U.S. GOVERNMENT PRINTING OFFICE
+                         WASHINGTON : 1968
+L- R
+Cf 0 2..
+,5AS 5
+CY~d t,-
+
+
+
+
+                 COM~IITTEE        ON AERONAUTICAL AND SPACE SCIENCES
+                                CLINTON P . ANDERSON, New Mexico, Chairman
+           RIClL\.RD B. RUSSELL, Georgia                  MARGARET CHASE SMITH," Maine
+           WARREN G. MAGNUS0::-1, Washington              BOURKE B. HICKENLOOPER,Jrowa
+           STUART SYMINGTON, .Missouri                    CARL T. CURTIS, Nebraska
+           JOHN STENNIS, Mississippi                      LEN B. JORDAN, Idaho
+           STEPHEN M.. YOUNG, Ohio                        EDWARD W. BROOKE, ~iassacbuselts
+           THOMAS J. DODD, Connecticut                    CHARLES H. PERCY, Dllnois
+           HOWARD W. CAN::-! ON, Nevada
+           SPESSARD L. HOLLAND, Florida
+           WALTER F. MONDALE, Minnesota
+                                          J.uu:s J. GEIDUG, S/.aff Director
+                                EVERARD H. SM:!TH, Jr., Profeuional Staff Member
+                                   D r. GLEN P. WILSON , Profu&ional Staff Mr:mb<r
+                                     CR.UG VOORHEES, Pro[mional Staff Member
+                                     WILLLUI P Al\KER, Pro[e&rional Staff Member
+                                        SoU! BOUCHARD, A&&i&tant Chief Clerk
+                                      DONALD H. BREJ\'NAN, Re&earch A&&i&tant
+
+                                                     (II)
+                             PREFACE
+
+   It is the committee's view that, when an event such as the tragic
+Apollo 204 accident occurs, i t is necessary for the appropriate con-
+gressional committees to review the event thoroughly. The Congress
+has a duty to be fully informed and to provide an information flow to
+the people. Fmther, the committee has a responsibility to satisfy itself
+thu.t a strong K ASA management is exercising vigilance over the
+safety of the people working on the space progFams.
+   No single person bears all of t he responsibility for the Apollo 204
+accident. It happened because m any people made the mistake of failing
+to recognize a hazardous situation.
+   Three comageous men lost their lives in this tragic accident. They
+died in the service of their :country. Because of theu· deaths, manned
+space flight will be safer for those who follow them. The names
+Grissom, White, and Chaffee are recorded in history and the most
+fitting memorial the country can leave these men is the success of the
+Apollo program-the goal for which they gave their lives.
+                                  (ill)
+a
+
+
+
+
+                                 CO NT ENTS
+                                                                                    P1119
+
+    Preface-----------------------------------------------------------                III
+    Introduction   __ ________________ ________ _______________ _______ _____ _        1
+    Findings and conclusions ______ __ ___ ____ _____________ ________ ______ _        2
+         Apollo 204 Review Board _______________________ __ _____________ _            2
+         Conditions leading to the accident ______________________________ _           3
+         Principal aspects of the accident_ _______________________________ _          5
+         NASA response to findings, determinations, and recommendat ions of
+             Apollo 204 Review Board________________________ : ___________ _           5
+         )I" AS A-Spacecraft contractor relations ___________________________ _        7
+         Effects  of the
+             program      Apollo 204 accident on schedule and cost of the Apollo_
+                      ___________________________________________________
+                                                                                       8
+       SununarY-----------------------------------------------------                   9
+    Recommendations    ______________ _______ ___________ ________________ _          10
+    Additional views _________ -~-- __} ____ ------------ _________________ _         12
+    Appendix 1- ----------------- ----------- --------- - - --------- ------          17
+    Appendix !!!
+    AppendL~
+              11 ___________________  _~---------------- ------------- ----_
+                  _____________________________________________________               19
+                                                                                      20
+                                            (V)
+90TH CoNGRESS     }           SENATE
+  ~d Session                                       {      REPORT
+                                                          No. 956
+
+
+
+
+                      APOLLO 204: ACCIDENT
+
+
+                JANUARY 30, 1968.-0rdered to be printed
+
+
+
+
+.Nlr. ANDERSON, from the Committee on Aeronautical and ~ Space
+                 Sciences~ submitted the following
+
+                           REPORT
+                            togeliher with
+
+                       ADDITIONAL VIEWS
+
+
+
+
+                                 (VII)
+                            APOLLO 204 ACCIDENT
+
+                                       INTRODUCTION
+   During one of the final prelaunch tests 1 for the first manned Ap ollo
+flight, 2 at about 6:31:04.7 p.m. , e.s .t.- on January 27, 1967, a fire
+was reported by the astronauts in t he Apollo Command Module 012
+located on top of the uprated Saturn I 204launch vehicle on the launch
+pad of Complex 34 at the John F. Kennedy Space Center, F la. Aft er
+detection, the fire lasted only about 25% seconds-less than one-bali
+minute- before consuming all of the oxygen in the command module;
+nevertheless, very high temperatures were r eached inside the space-
+craft. This fire, designated the Apollo 204 accident, resulted in the
+deaths of Astronauts Virgil I. Grissom, Edward H. White, and
+Roger B. Chaffee.
+   On January 27, 1967, the Administrator of NASA., James E. Webb,
+in accordance with NASA regulations, established the Apollo 204
+Review Board to investigate the Apollo 204 accident.
+   On J anuary 28, the chairman of the U.S. Senate Commi ttee on
+Aeronautical and Space Sciences, Senator Clinton P. Anderson, with
+ the agreement of the ranlring minori ty member, Senator Ma.rgaret
+Chase Smith, announced that t;he committee would conduct a full
+review of the Apollo 204 accident, that the committee would examine
+the procedures and findings of the Apollo 204 Review Board, and
+would gather any additional information necessary to fulfill the com-
+mittee's responsibility. The cha:ll·man later announced, again with
+the agreement of the ranking minority member, that the committee
+would review related aspects of NASA's stewardship of the Apollo
+program in order to accomplish the above objective; and further, he
+d:ll·ected the committee staff to undertake such background study
+as was appropriate at that time and to keep informed of the progress
+of the N"ASA inquiry but to take no action which would in any way
+impede the formal inquiry of NASA. The cha:ll·man, on January 31,
+ 1967, by letter, requested from the Administrator of ~ASA all
+reports of the board of inquiry and such other supporting data as
+was necessary for the committee to conduct its review.
+   The committee conducted its review of the Apollo 204 accident
+along two lines : (1) the study of background data necessary to
+understand all the aspects of the accident; and (2) a series of hearings 3
+at which NASA officials, the Apollo 204 Review Board and repre-
+sentatives fr om the prime contractor, Korth American Aviation,
+Inc., 4 appeared before the committee to give the committee their
+views. The committee has reviewed the--
+  'This was a space vehicle plugs-out integrated test, its purpose being to demonstrate all space vehicle
+systems and operational p rocedures in as near a flight configuration as practical on the ground and to verily
+their capability in a simulated lallJlch.
+  • The launch was scbed n led for mid-February 1967.
+  • See " Apollo Accident Hearings" before the U.S. Senate Committee on Aeronautical and Space Sciences,
+pts. 1 through 8. See app. I for dates of committee hearings and list or witnesses.
+  • The name of the company was changed on Sept. 22, 1967, to North American-Rockwell Corp.
+                                                     (1)
+        S.Rept.956,90-2----2
+                                  2
+        1. Events leading to t he accident;
+        2. Events surrounding the accident on January 27, 1967;
+        3. Cause and nature of the accident;
+        4. Report of the Apollo 204 Review Board;
+        5. Stewardship of the National Aeronautics and Space Admin-
+     istration in the Apollo Program;
+        6. Performance of Korth American Aviation, Inc., as the prime
+     contractor for the Apollo command module; and
+        7. Changes in the Apollo program made by NASA as a r esult
+     of the Apollo 204 accident and the effect of th e accident on
+     program costs and schedules.
+  The committee's findings and conclusions resulting from its review
+are set forth below.
+                  FINDINGS AND CONCLUSIONS
+                         APOLLO 204 BOARD 5
+
+   On January 27, 1967, the Administrator of the National Aero-
+nautics and Space Administration established the Apollo 204 Review
+Board, appointing as Chairman, Dr. Floyd L. Thompson, DiJ:ector,
+Lan~ley R esear ch Center. Seven additional members were named
+to the Board, five from t he National Aeronautics and Space Ad-
+ministration, one from the U.S. Air Force and one from the U .S.
+Bureau of Mines.
+   T he B oard was heavily wei~hted with NASA p ersonnel because,
+in the judgment of the Admirustrator, the complexity of the Apollo
+program required Board members thoroughly familiar with the
+Apollo system and with the NASA management procedures to make
+an orderly and accurate investigation of the accident and determine
+its cause.              .
+   The " R eport of Ap'ollo 204 Review Board," along with several
+appendixes containing the Board's Panel reports, was submitted by
+the National Aeronautics and Space Administration to the committee
+on Sunday, April9, 1967. D uring the latter part of May 1967, NASA
+submitted to the committee appendix G, part 1, of the report which
+is c.omprised of errata to the Board report and the appendixes pre-
+viously submitted to the committee. On November 6, 1967, the com-
+mittee received appendi'\: G, part 2, containing a chronology of the
+Board's activities through May 24, 1967, the supplementary r eport of
+Panel 18, a report of test results, additional errata sheets and other
+material.
+   The committee found that the Board did conduct an exhaustive
+and thorough review of the accident and th at the Board's r eview
+was objective. The objectivity of the review is pointedly supported
+by the critical findings the Board made of certain r ational Aero-
+nautics and Space Administration management and technical
+operations.
+   In accomplishing i ts assigned task the Review Board established
+21 working panels to review the many Apollo spacecraft subsystems,
+components, and materials, and conducted many actual tests and
+ studies to verify its conclusion s.
+ • See app. II.
+                                                   3
+                      CO~DITIONS        LEADING TO THE ACCIDENT
+
+   On the basis of its review and the testimony obtained dm ing h ear-
+ings, the commi ttee believes that the conditions which led to and were
+direc!ily or indirectly related to the disaster follow:
+ Failure to I dentify Test as Ha-zardous
+   The test in process at the time of the accident was being conducted
+'lvith a 100-percent pure oxygen cabin atmospherf' at 16.7 p.s.i. and h ad
+not b een identified as hazardous by responsible officials. H owever,
+one of the principal determinations of the Apollo 204 Review B oard
+was that " the test conditions were extremely hazardous." The
+successful Mer cury and Gemini pr ograms both of which were tested
+and flmvn using a pure oxygen atmosphere and the hundreds of hours
+of successful testino- with 100 percent pure oxygen apparently led to a
+false sense of confi~ence and therefore complacency in this operation.
+T he committee can find no other explanation for the failme of th e
+hundreds of highly-trained people on the Apollo progr am, in cluding
+ the astronauts, to evaluate the conditions tmder which the test was
+being conducted as hazardous. Other serious oxygen fires had occured. 6
+NASA itself had commissioned r esearch 7 on the cause and effects
+of fir es in oxygen-rich atmospheres. It appears that everyon e asso-
+ciated with the design and test of the spacecr aft simply failed to
+understand fu lly the danger and the cooperative effect of an ignition
+sourre, the combustible materials, and the pure oxygen atmospher e
+in th e sealed spacecraft cabin .8
+Spacecraft Hatch
+   The A-pollo spacecraft 012 was equipped with an inward openino-
+hatch wh1ch required at least 90 seconds for ei ther internal or externa1
+r emoval end crew egr ess. Further, the 16.7 p.s .i. test atmosphere and
+ the increase of pr essure created by the fire did not permi t opening of
+ the hatch without cabin depressm·ization and the cabin had no means
+for ~epresstl!izin~ it quickly. ~ T he )Jatio_nal A~ronautic_s an~ Space
+AdiD1IDstrat10n , m the establishment of 1ts des1gn specificatiOns for
+ the ApoUo spacecraft, h ad considered the merits of this hatch with
+ those of a quick-opening hatch such as had been used on the Mercury
+and Gemini spacecraft. However , in weighing the tradeoffs, the possi-
+bility of accidental release in space of a quick-opening hatch (like the
+ones used in the earlier spacecraft) was considered to impose a risk
+in excess of the benefits to be gained from such a hatch.
+ Ground Safety Procedures
+    Ground safety procedures, personnel training in safety procedures,
+and the availability of proper emergency equipment at the launch
+p ad and in the vicinity of the spacecraft were completely inadequ ate.
+T he absence of properly trained and equipped personnel prevented
+ the test support crews from rendering immediate emergency assistance
+ to the astronauts in the spacecraft. These inadequacies originated in
+ the failme to identify this test as h azardous.
+  ' "Apollo Accidem Hearin~ts," pt. 1, Feb. 7, 1967, p. 33.
+ 'For example, see NASA SP--48, "Space Cabin Atmospheres, Part II-Fire and Blast Hazards, 1964."
+ • The Air Force 2 days later bad a fire in a test chamber with a. pure oxygen atmosphere at Brooks Air
+Force Base, Tex., whjch took the lives oC two airmen.
+ 'A device existed for very dow depressrn·!zation but for reasons unknown this device was not activated.
+                                    4
+
+Operational Test Procedures
+   Operational test procedures for the spacecraft were subjected to last-
+minute changes, which were agreed to verbally but not reduced to
+writing, so that all personnel would be informed and have an oppor-
+tunity to study the chan~es and thereby become aware of their impact
+upon the test being conducted. The Apollo 204 Review Board found
+and witnesses testified, that this did not cause or contribute to the
+accident; but N .ASA testified that the policy for development of test
+procedures does require th!).t an adequate time be provided prior to
+a test to complete procedures.
+Communications
+   The Apollo 204 Review Board determined that the overall com-
+munications system was unsatisfactory and recommended that the
+ground commtmication system be improved to insure reliable com-
+munications between all test elements before any manned operations.
+N .ASA agrees that Lhere were certain deficiencies in the communica-
+tions system but witnesses testified that in no way were they able to
+determine that the communications problem was related to the igni-
+tion of the fire or contributed to the accident.
+Control of Combustible Material
+   Control of material present inside the command module during the
+test was inadequate. Combustible standards established for non-
+metallic materials were too low and the criteria for selection and
+approval of spacecraft material were inadequate. Furthermore, there
+were no criteria for the placement of material to minimize the propaga-
+tion of a fire if ignited, and there was little control over the temporary
+usage of nonflight materials during ground test. Consequently, at the
+time of the fu·e there were nonflight materials inside the spacecraft.
+Engineering, Workmanship, and Quality Control Deficiencies
+   The Apollo 204 Review Board identified deficiencies in the com-
+mand module concerned with design, workmanship, a.nd quality
+control which it believes created an tmnecessarily hazardous condition.
+   Among the deficiencies noted by the Board were problems in design
+ and installation of electrical wiring; chronic failures of components of
+ the environmental control system; and the fact that no vibration
+ tests were conducted of a complete flight configured spacecraft.
+   Deficiencies existed in engineering design of the spacecraft as evi-
+ denced by improper protection for electrical cabling.
+   Deficiencies existed in the management of engineering such as
+ change orders, configuration <'Ontrol, and general status of the hard-
+ware at a particular point in time.
+    The level of workmanship in manufacturing, installation, and
+ rework which is required and expected in a program of the technical
+ sophistication of the Apollo spacecraft was absent.
+    Combined with poor workmanship was inadequate quality control
+ to identify and so permit conection of such workmanship deficiencies.
+ This was most clearly shown by the discovery of a wrench socket in
+ the 012 Command Module dtu-ing the postfue disassembly process.
+    The committee recognizes that a highly complex research and
+ development project, such as the Apollo spacecraft, involves untried
+ techniques and concepts, new materials and components, all focused
+                                                     5
+on accomplishing an objective never before achieved. H owever, these
+characteristics wer e well known from the start of the program; there-
+fore, the committee con cludes that the care and diligence exercised
+in both technical and managerial areas were below the leve) required
+for this undertaking.
+                         PRINCIPAL ASPECTS OF THE ACCIDENT
+
+   The R eview Board did not conclusively identify a single ignition
+source of the fire; however, it identified the most probable initiator A.s
+an electrical arc occm-ring near the floor in the lower forward section
+of the left-hand equipment bay where environmental control system
+instrmnentation power ·wiring led into the area between the environ-
+mental control unit and the oxygen panel.
+   The spacecraft design objective was to eliminate all sources of
+ignition. Consequently, this influenced other design criteria such as
+the decision not to use a quick-opening hatch nor to include a fire
+extinguishing system in the cabin. 10
+   Upon ignition a three-phase fire occurred. During the second phase
+combustible materials caused the fire to spread rapidly throu~h the
+spacecraft. The resulting increase in pressure r uptured the cabin at
+about 14.7 seconds after the call of fire. Temper atmes at some places
+in the cabin during the second phase reached more than 1,000° F .
+  The three crewmembers became unconscious from inhaling toxic
+gases shortly after initiation of the fire and death occurred soon
+thereafter. Autopsy reports proved conclusively th11t the astronauts
+died of asphyxiation and not from burns from the fire .
+  The hatch was not removed until4 minutes and 55 seconds 11 after
+the crew's report of fire and it was the opinion of the best medical
+advice available to the Board that the crew was beyond revival at that
+time.                            1
+  The first firemen did not arrive on the scene of the fire until about
+8 minutes, 55 seconds after the fire was reported; the first medical
+doctor did not arrive on the scene until at least 11 minutes, 55 seconds
+after the fire was reported.
+NASA RESPONSE TO FINDINGS, DETERMINAT IONS, AND RECOM:MENDA-
+             TIONS OF APOLLO 204 REVIEW BOARD
+
+  In addition to the extensive system, subsystem, and component
+studies on the Apollo spacecraft made by the Apollo 204 Review
+Board, NASA undertook a detailed analysis of the entire Apollo
+program and its management. This included a compreh ensive revie·w
+of each deficiency noted by the Board and its supp orting p anels to
+  "A fire extinguishing system could introduce hazards because of the toxic fumes generated by some sys-
+tems and the impact of such fumes on the crew if they are not in their space suits when the system was acti-
+vated. A qulck outward opening hatch presents risks such as being inadvertently act ivated especially on
+long duration space voyages. Therefore, these items had not been omitted through neglect, but because of
+decisions based on an attempt to balance one potential set of risks against another.
+  u Testimony before the co=ittee was 4 minutes, 36 seconds (pt. Ill, p. 246, or the bearings) . However,
+data in the report of the Apollo 204 Review Board and the report of Panel 3 shows about 4 minutes, 55
+seconds.
+                                     6
+identify and initiate corr ective action in those areas noted. In addition
+ to identifying and taking actions to improve crew safety, this review,
+because of i ts extraordinary depth and analysis, should result. in sub-
+stantial improvemen ts to m any other aspects of the Apollo program.
+   Many changes have been mn.de in the Apollo program because of
+the acciden t and are discussed in parts 6, 7, and 8 of the hearings. The
+astronauts have h ad an d will con tinue to have a direct hand in all
+planning and changes for the Apollo command module and no manned
+flights have been or will b e attempted in the Apollo program until
+the astronauts, in the light of their newly acquired technical informa-
+tion, are completely satisfied with all aspects of the Apollo system.
+   Substan tial changes in the management of the Apollo program have
+been made both in the agency and in th e prime contractor's effort.
+   Some of the more important procedure and hardware changes that
+have been initiated by NASA follow.
+fu~~                                                                          1
+  1. All tests taking place in 100 percent pure OA.'"Jgen environments        )
+are now defined as hazardous.
+    2. R esponsibility for test procedures at th e Kennedy Space Center
+and the Manned Spacecraft Center h as been redefined.
+    3. An Office of Flight Safety has been established independent of the
+flight program office at both headquar ters and field centers to review all
+aspects of design, manufacturing, test, and flight from a safe ty
+stan dpoint.
+    4. E mergency-type training is now required for test support per-
+sonnel and the launch pad is r equired to be equipped with appropriate
+fire fighting and rescue equipment.
+Spacecraft and Facility JYJodifications
+    1. All manned flights will b e in the Block II spacecraft, the design
+of which already incorporates many of the changes recommended bv
+the Apollo 204 Review Board.                                             ·
+    2 . A significant change has b een instituted in the approach to the
+selection and placement of materials inside the command module. This
+change, which severely restricts and controls the amount and location
+of combustible material in the command module, is more significant
+than any other improvement resul ting from the accident.
+    3. A new quick-opening h a tch to be installed on all Block II space-
+craft is being developed.
+    4. Provision has been made in the spacecraft for a fire extinguishing
+capability using jellied water.
+    5. An emergency oxygen supply system h as been provided for the
+                                                                              1
+flight crew in the event they are separated from their suits .
+    6. The launch facilities h ave been modified to accommodate the
+quick-opening hatch and expedite flight crew exit through the service
+str ucture in the event of fire.
+One Hund1·ed P ercent P ure 0:-cygen Environment
+    NASA has defined all tests takino- place in 100 percent p ure oxygen
+environment as hazardous. While NASA has reconfirmed by detailed
+review that the ioflight cabin atmosphere, outside the Earth's atmos-
+phe~·~.< should continue to be 100 percent oxygen at 5 p.s.i. a., it has
+moained the command module systems to be capable of using air, as
+" ·ell as pure oxygen, as a pressurant on the launch pad. Should full
+                                                       7
+    scale flammability tests indicate a need to change to an air atmosphere
+    for ground operations, NASA will implement this capability. However,
+    the dual gas cabin atmosphere, \\-bile reducing the fire hazard, creates
+    other risks such as tbe risk of the astronauts getting the "bends" if
+    their cabin pressure is reduced quickly.
+    NASA Status Report
+      NASA submitted to the committee on January 8, 1968, a report on
+    the status of actions taken on the Apollo 204 Review Board Report
+    as of December 28, 1967. This document is printed as part 8 of the
+    committee's bearings on the Apollo accident. This status report shows
+    that NASA has made substantial progress in adopting and imple-
+    menting the findings, determinations, and recommendations of the
+    Apollo 204 Review Board and its task panels.
+                        NASA-SPACECRAFT COXTRACTOR RELATIONS
+
+
+l      During the course of the committee's hearings it was called to the
+    attention of the committee that ~ASA had experienced schedule,
+    cost and performance problems with North American Aviation, Inc.,
+    prime contractor for the Apollo command and service modules and
+    the Satum S- II stage.
+       A task force review/ 2 beaded by Apollo Program Director Samuel
+    C. Phillips, made a detailed examination of the contractor's manage-
+    ment of assigned programs and made many recommendations for
+    remedial action on all aspects of the contractor's operations in order
+    to return the program to an acceptable level of_ performance. Its
+    results were submitted to Nort h American management on December
+    19, 1965 .
+       Snch a review is considered to be a proper management action on
+    the part of NASA and the committee was impressed by i ts profession-
+    alism and thoroughness. However, it was not made clear why the
+    responsible NASA centers permitted the situation to deteriorate as
+    far as it apparently had before initiating appropriate remedial action.
+       In response to committee questioning, NASA \vitnesses testified
+    t hat (a) the contractor has been responsive to the recommendations
+    and that NASA has confidence that the contractor will be able to
+    perform to the level of managerial and technical performance required
+    u,nd expected in the Apollo program; (b) that the results of such review
+    were supplied to the Apollo 204 Review Board for its consideration; 13
+    and (c) that the findings of the task force had no effect on the accident,
+    did not lead to the accident, and were not related to the accident. 14
+       The Administrator of NASA testified on May 9, 1967, that JASA
+    has realined certain responsibilities in the Apollo hardware program
+    to streamline the Apollo effort in the interests of better perform~nge
+    and &"reater efficiency on the part of the spacecraft contractor. One
+    princ1pal action in this regard is to assure that the contractor's efforts
+    to meet schedule and performance targets for the Apollo program will
+    not be diJuted during this period by follow-on Apollo Applications
+    work. Also, NASA has ordered the freezing of the command module
+    design throughout the Block II production.
+     "For a summary o! this review see "Apollo Accident Hearings," pt. 4, Apr. 13 and 17, 1967, p. 319.
+     u [bid., pp. 319 and 332.
+     II [bid., p. 319.
+                                                      8
+EFFECTS OF THE APOLLO 204 ACCIDENT ON SCHEDULE AND COST OF THE
+                        APOLLO PROGRA:VI
+
+    The Apollo 204 accident and its investigation resulted in substantial
+ changes in the proo-ram with resul tant impacts on costs and schedules.
+ The principal sche'aule changes and the cost impact of the accident on
+ the program follow.
+ Apollo Schedule 15
+    The initial Apollo manned flight with the modified Block II space-
+ craft is scheduled for launOb. by an uprated Saturn I vehicle during
+ the third or fourth quarter of calendar year 1968, some 17 or 18
+ months after the scheduled launch of Afollo 204 in February 1967.16
+ The first unmanned qualification flight o the Saturn V launch vehicle
+ carrying a Block I spacecraft was rescheduled from early 1967 to
+late 1967 when a highly successful system performance was realized.
+This flight is to be followed by a second unmanned Saturn V flight
+in March 1968 followed by a third Saturn V unmanned flight in
+ 1968. If the Satum V launch vehicle is manrated as a result of these
+flights and the first manned Block II spacecr aft mission meets i ts
+ objectives, subsequent Apollo flights involving command module and
+lunar module operations in earth orbit in preparation for the lun ar
+landing would be transferred to tbe Saturn V vehicle rather than
+ utilizin~ dual uprated Saturn I launches for these practice missions
+ as prevrously contemplated. However, dual uprated Saturn I missions
+could be :flown as backup missions in the event of Saturn V vehicle
+qualification delays. A Saturn V vehicle success schedule now projects
+.six manned launches in 1968 and 1969 with the possibility of ac-
+.complishing a lunar landino- before 1970.
+   The impact of the Apollo 204 accident has been to reduce the
+probability of such a landin~, not eliminate it . If required for the
+lunar landing objective, the last six of the original complement of
+15 Saturn V vehicles would be launched after 1969.
+Apollo Program Cost
+   Time is a major factor influencing the cost of the Apollo program.
+In 1966 NASA advised the committee that the total estimated cost
+ of theAfollo program was $22.718 billion assuming that all12 uprated
+Saturn and 15 Saturn V launch vehicles were required for the lunar
+landing. The comparable estimate provided by NASA during the
+ May 9, 1967 hearino- is $23.190 billion, an increase of $472 million.
+The increase is largel'y due to the effect of stretching out the Apollo/
+Saturn V launch schedule. H owever, early achievement of the lunar
+landing objective would permit the allocation of unused Apollo hard-
+  u NASA announced a new Apollo/Saturn launch schedule which is printed In app. ITI to this report.
+  "On May 9, 1967, Dr. George Mueller. Associate Administrator for Manned Space Flight, testified that
+the first manned space flight of the Apollo program would be delayed about a year so that It would take
+place in about March 1968. Later, before the Rouse Appropriations Committee, Maj. Oen. Samuel C.
+Phillips, Director of the Apollo program, testified that the first manned launch had slipped until at least
+May 1968. Still later, it became clear that the first manned flight will not take place until the summer ol
+1968. T he reason for the slippage of the first manned Apollo !light is that the requlrcd redesign and develop-
+ment of the Block II spacecraft has turned out to be a much larger job t han first estimated. ~Towever, NASA
+expect s these etrorts to provide an improved spacecraft and booster system. On November 8, 1967, Mr.
+James E. Webb testified before t his committee that:
+  "' • • .in the redesign of the Apollo capsule, we have incor porated many changes which relate to de-
+veloped new knowledge folio" ing the fire or new knowledge that was available at the time or the fire but
+which we could not incorporate without major change in the whole schedu le. For instance, the elimination
+of combustible material in the capsule tot he full~st extent possible bas produced a very much more advanced
+capsule which I think will be extremely useful over a long period of time if we choose to use it."
+  The committee believes that every reasonable etrort should be made to make the Apollo and all other
+space !lights as safe as possible and finds no fault w.ith ~A SA's decision to slip the schedule.
+                                                    9
+ware and an appropriate share of operational expenses to the Apollo
+applications program with an offsetting reduction in the cost of the
+Apollo program.
+   There was no immediate impact of the accident on the NASA
+fiscal year 1967 :financial plan or the fiscal year 1968 budget request 17
+because of offsetting factors such as the suspension of flight schedules
+and changes in spacecraft production planning, which permitted
+adjustments within the total NASA budget framework for these years.
+The overall impact of the Apollo 204 accident, therefore, will appear
+in future years as is evidenced by the increase in the total nmout
+cost estimate for the Apollo program.
+                                              SUMMARY
+
+    The thorough investigation by the Apollo 204 Review Board of the
+Apollo accident determined that the test conditions at the time of the
+accident were "extremely hazardous." Ho,vever, the test was not
+recognized as being hazardous by either NASA or the contractor prior
+ to the accident. Consequently, adequate safety precautions were
+neither established nor observed for this test. The amount and
+location of combustibles in the command module were not closely
+restricted and controlled, and there was no way for the crew to egress
+rapidly from the command module during this type of emergency nor
+had procedures been established for ground support personnel outside
+ the spacecraft to assist the crew. Proper emergency equipment was
+not located in the "white room" surrotmding the Apollo command
+module nor were emergency fire and medical rescue teams in
+attendance.
+    There appears to be no adequate explanation for the failure to recog-
+nize the test being conducted at the trme of the accident as hazardous.
+The only explanation offered 1the committee is that NASA officials
+believed they had eliminated all sources of ignition and since to have a
+.fire requir·es an ignition source, combustible material, and oxygen,
+ NASA believed that necessary and sufficient action had been taken to
+prevent a fire.
+    Of course, all ignition sourees had not been eliminated.
+    The Apollo 204 Review Board reported that it took approximately
+ 5 minutes to open all hatches and remove the two outer hatches after
+ the fire was reported; that the first firemen arrived about 8 to 9 minutes
+ after the fire was reported and that the first medical doctors did not
+ arrive until about 12 minutes or more after the fu·e was reported. Thus
+there was not expert medical opinion available on opening the hatch to
+determine the condition of the three astronauts although medical
+opinion based on autopsy reports concluded that chances for resuscita-
+ tion decreased rapidly once consciousness was lost and that resuscita-
+ tion was impossible by the time the hatch was opened.
+    It is clear from the Board's report and the testimony before the
+committee that this kind of accident was completely unexpected; that
+both NASA and the contractor were completely unprepared for i t
+despite the amount of documentation of fire hazards in pure oxygen
+environments. The committee can only conclude that NASA's
+  "NASA's appropriation for fiscal year 1968 was $511,100,000 less than the budget request, or which
+~ 50,000,000 was appli~d against tbe .Apollo program.
+                                    10
+long history of successes in testing and launching space vehicles \\ith
+pure oxygen environments at 16.7 p.s.i. and lower pressures led to
+overconfidence and complacency.
+   The Apollo 204 accident was a tragic event in the nation's space
+program. Because of it there has been a thorough analysis and review of
+all aspects of the Apollo program. Consequently many changes have
+been made in the Apollo system desi~n , operations, management,
+and procedures and NASA eA'Pects th1s "'ill result in an improved
+spacecraft and booster system. The committee's review of the accident
+found nothing which would m ake the committee question this expecta-
+tion. It is the committee's hope that the remainder of the program will
+be carried out with greater understanding and dedication than if there
+had been no accident. The total impact of the Apollo 204 accident on
+the Apollo proo-ram is not yet kno\\·n. In continuino- its close sur-
+veillance over the Apollo program, yo ur committee wfu be especially
+mindful of the impact of the accident on program schedules and cost,
+and on the effectiveness of the changes in management and operations
+made by NASA during the past several months.
+                       RECOMMENDATIONS
+   The committee recommends that NASA con tinue to move the Apollo
+program forward to achieve its goal.
+   NASA has testified that it is still possible to achieve a manned
+landing on the moon and a safe return to earth before the end of 1969
+provided that this can be accomplished "ichin the firs t nine Saturn V
+flights. The Apollo 204 accident, h owever , may well cause the date
+for an American landing on the moon to b e accomplished early in
+the next decade outside the schedule set in 1961. That would be
+regrettn.ble. When set , in 1961, it was a goal set for achievement
+and it ,..,.as t echnically feasible. While this goal has attracted a great
+deal of atten tion in terms of national prestige, as a pacesetter for the
+program and as a rallying point for the p eople on the program, its
+true significance is seldom mention ed. The target date was and still
+is essential to efficient management of the program. It is essential to
+the planning process and to maintaining a vigorous and competent
+organization. Any program and p articularly the largest and most com-
+plex research and development program ever undertaken by roan-
+the Apollo program-must have sched uled goals. The schedule is an
+essential and significant management tool-without i t the program
+would requir·e more and more time and more and more money .
+   Safety must be considered of paramount importance in the manned
+space fii~ht program even at the expense of target dates. The earnest
+declaratiOn that "safety is our prime consideration" m ust be transfused
+into watchfulness so that people do not again s tumble into the pitfall
+of complacency. NASA's creation of a Flight Safety Office '"ith
+broadened capabilities and better lines of communication is a step
+in that direction. The Congress, in the K ational Aeron autics and
+Space Administration's .fiscal year 1968 authorization act/ 8 direc ted
+ "Public Law 9(}.67.
+                                  11
+
+the Administrator to appoint an Aerospace Safety Advisory Panel
+to review NASA's operational plans and advise the Administrator
+with respect to the hazards of proposed or existing facilities, proposed
+operations, and on the adequacy of prop osed or existing safety stand-
+ards. The committee urges NASA to continue its postaccident efforts
+to achieve a high degree of safety in all of its operations and we
+recommend that NASA utilize the above-mentioned organizations
+to achieve the primacy in safety desired.
+   Finally, the committee urges that the National Aeronautics and
+Space Administration keep the appropriate congressional committees
+informed on significant problems arising in its programs.
+  During the hearings it was found that late in 1965 NASA found
+serious problems with the contractor's management of the contracts
+for the Apollo command and service module spacecraft and S-II
+stage-the second stage of the Saturn V vehicle. Notwithstanding that
+in NASA's judgment the contractor later made significant progress in
+overcoming the problems, the committee believes it should have
+been informed of the situation. The committee does not object to the
+position of the Administrator of NASA, that all details of Government/
+contractor relationships should not be put in the public domain.
+However, that position in no way can be used as an argument for
+not bringing this or other serious situations to the attention of the
+committee.
+.ADDITIO AL VIEWS OF ~IR. BROOKE AND MR. PERCY
+     While concurring in the report, we believe a number of poin ts
+  deserve additional emphasis .. The committee's inquiry into the Apollo
+  204 tragedy raised several important issues which go beyond the
+  specific aspects of last year's disaster treated in the committee report.
+  In our judgment, questions r egarding the candor and responsiveness
+  of KASA in its relations with the committee, the quality of manage-
+  ment of the Apollo program by NASA and its contractors, and the
+  flexibility of the program goal of reaching the moon in this decade all
+  call for additional discussion.
+     During the course of the committee's hearings, a NASA task force
+  review of the prime contractor's management of the Apollo Command
+  and Service Module and the Saturn S-II stage came to the attention
+  of the press, the public, and :finally the committee. This was the task
+  force headed by the Apollo program director, Y! aj. Gen. Sam ual
+  Phillips. The written material submitted by General Phillips to the
+  contractor late in 1965 became known as the Phillips report. It was
+  an adverse, hard-hitting, point-by-point critique of the contractor's
+  management of the program. The history of this report provides a
+  ready focal point for amplification of those issues of particular concern
+  to us.
+     Several members of the committee became concerned with the
+  responsiveness of some of NASA's officials when members sought to
+  obtain information concerning the report. Such concern prompted
+  t he committee, in the :feport accompanying the annual NASA author-
+  ization bill, to insist that NASA keep the committee cunently in-
+· formed on all NASA problems in order for the committee pr operly
+  to meet its r esponsibilities. This admonition is now repeated in the
+  report on the Apollo fu·e. But KASA's curious reticence to supply
+  these facts and materials relevant to a thorough evaluation of Apollo
+  program management brought the credibility of NASA and its t op
+  management into sharp question.
+     The committee r eport correctly notes NASA's testimony that
+  the deficiencies uncovered in the Phillips report were not related
+  to the disaster. Two facts remain, however : it is not possible to pin-
+  point the precise ignition source of the fu·e; and the Apollo Sp acecraft
+  012 was on the production line at Downey during the period of the
+  Phillips team inspection.' We do not mean to conclude here that
+  there was a causal connection. But these circumstances, together with
+  the similarity between certain of the Phillips report conclusions
+  and those of the Apollo Review Board, made the Phillips report of
+  more than incidental interest to the work of the committee.
+     This initallack of candor as to the existence and then the s tatus of
+  the Phillips report thJ:eatened one of the essential assets of the space
+  program-the confidence of the American public and their elected
+  • Apollo Accident Hearings, Committee on Aeronautical and Space Sciences, U.S. Senate, pp. 444-445
+                                               (12)
+                                   13
+representatives. It will be difficult for this report, these supplemental
+views, or any officia1 pronouncement to restore the public and congres-
+sional trust forfeited by the agency's response to members of tbis
+committee who sought to clarify tue matter. VVhile KASA will do well
+to invoke all remedial means to improve this unfortunate situation,
+in the long run both NASA's public credibility and effective congres-
+sional review of the agency's stewardship require a, fuller and more
+open agency-congressional reln.tionship.
+   The committee and the undersigned respect the necessity for
+NASA and its contractors to maintain mutual confidence. We under-
+stand NASA's reluctance to publicize internal exchanges with con-
+tractor teams. It is not our intention to have the committee intrude,
+unnecessarily in NASA's daily management responsibilities or to
+substitute congressional judgment on the innumerable · matters re-
+requiring decision by the program managers. It is a practical impossi-
+bility for the committee to review all communications between XASA
+and its contractors. Clearly KASA must exercise discretion in deter-
+mining what information it will call to the attention of Congress.
+    Never theless, the committee's investigation demonstrated that
+N ..<\SA must make a more concerted effort to alert Congress to major
+problem areas as the space program evolves. The serious contractor
+deficiencies noted by the Phillips task force should certainly have
+been reported to the committee at the time of the 1967 budget hearings,
+if not befor e.
+    We are disturbed at the possibility that, had there b een no disaster,
+important shortcomings in management, scheduling, design, produc-
+tion , and quality control might never have come tolight. It would be
+unfortunate if the impetus for improvement to the program thn.t may
+have come from discussion of the Phillips report with the committee
+was delayed.                   ,
+    We are also concerned that NASA did not mak e clear to the con-
+tr actor ~hat inferior performance would lead the Agency to seek
+other sources for the hardware involved and would prejudice the
+contractor's standing in competition for futUl'e work. The contractor ,
+for all its good intentions and reputed impr ovement in later months,
+may have felt NASA had no al ternative soUl'ce once the original
+contract was let. This, as well as the stupendous complexity of th e
+Apollo program, may hn.ve contributed to the contractor 's inadequate
+performance, observed on many occasions up to and including late
+ 1965. We agree that the sharp critique contained in the Phillips
+repor t may have been belated . NASA should act early and energetically
+ to correct contractor weaknesses; it should maintain equally vigilant
+ sur veillance over its own manao·ement functions.
+    We are p leased to have ~ASA's assurances that the original
+ problems with the contractor were largely corrected dUl'ing 1966.
+ But it is evident that the agency must prevent a repetition of the
+ unsatisfactory experience during the early phases of the Apollo
+ con tract work.
+    We believe it is p ossible to develop more sp ecific criteria to guide
+ NASA in meeting its commitment to keep the Congress informed.
+ The general standard now set up is too broad to be very useful; it
+ may impose undue burdens on NASA and swamp the committee with
+ more paperwork than it can digest.
+                                  14
+   In the interest of promoting a better dialog with NASA and as a
+contribution to developing more concrete guidelines, we would urge
+NASA to report promptly (a) any case involving a major contract
+(e.g., more than $20 million) in which a 15-percent cost overrun is
+projected; (b) any such case in which contractor management fails
+to meet major scheduled deadlines more than five times within a
+year, or experiences a single failure which disrupts the timely comple-
+tion of a major project; (c) any such case in which manao-ement
+deficiencies, quality control pr0blems, or other production dififculties
+require an exceptional contractor review (comparable to the Phillips
+exercise of late 1965) to supplement NASA's regular contract moni-
+toring and program management activities.
+   We repeat that these standards are only suggestive. But they could
+well serve as starting points for a discussion of improved guidelines
+which might be agreed upon between NASA and the committee:
+That discussion, in and of itself, could do much to relieve the existing
+difficulties.
+   We should like to add a final observation concerning the implementa-
+tion of Apollo program goals discussed in the committee report.
+We recognize the value to management· of scheduled goals, such as
+the objective of Iandino- a man on the moon in this decade, but we
+feel obliged to stress that under no circumstances must the Apollo
+target date of 1969 be considered immutable. The goal of a lunar
+landing in this decade should be pursued with vigor, but we must be
+prepared to adjust the schedule in li~ht of a prudent appreciation
+of the obstacles encountered since that goal was established. In
+our opinion a delay of the landing into the next decade, brought
+about in the interests of greater safety or as a result of efforts to
+avoid excessive costs that might develop in holding to the presen t
+schedule, would in no way be a political or technical disaster.
+   The mission is to develop a sound and safe operational capability
+at the earliest possible time. NASA should not misread this mandate
+as an imperative to meet the original schedule. The goal is more
+incentive than directive. Fulfillment of a schedule which the latest
+and most fully informed technical judgment deems appropriate should
+be the objective of program management. We believe that the Con-
+gress and the country are prepared to support a reasoned decision
+by NASA to alter any schedule_, including that established at the outset
+of the Apollo program.
+                                               EDWARD W. BROOKE.
+                                               CHARLES H. PERCY.
+           ADDITIO~AL VIEWS           OF MR. .MONDALE
+   I am in general agreement with the committee report as it now
+stands. However, one issue which · arose during the committee's
+investigation into the Apollo 204 tragedy-the so-called Phillips
+report--requires further elaboration and emphasis.
+   The committee report rightly admonishes theN ational Aeronautics
+and Space Administration and its Administrator, the H onorable
+James E. Webb, for failin~ to appraise the committee of the serious
+contractor deficiencies wh1ch prompted the Phillips report at the
+time these problems were being investigated.
+   The Phillips report represented the most far-reaching and funda-
+mental official criticism ever made of a major NASA program. The
+biggest and most ambitious NASA program of all- roan's flight to
+the moon-was in deep and peril ous trouble, and Congress was nn•
+aware of that fact.
+   Thus NASA's failuTe to inform the Congress of this grave situa.Lion
+was on unquestionably serious dereliction. B ut that this fail m e
+should be followed and compounded by deliberate efforts to mislead
+committee members and evade legitimate congri}Ssion al inquiries
+dm·ing an investigation of this Nation's worst space tr agedy, raises
+b asic issues regarding the role of the committee vis-a-vis NASA and
+the ability of the committee and Cono-ress to fulfill their responsi-
+bilities to the ation. Specifically, the Phillips report incident raises
+the question of whether the committee and the Congress are to be
+limited to only that inform ation which NASA sees fit to provide or
+whether the Congress will be · supplied with complete and candid
+information regarding basic problems and difficulties being experienced
+in various NASA programs.
+   NASA has an unfortunate habit of swamping Congress with en-
+gineering details and starving it for policy and management informa-
+tion.
+   And iL is in this second area- policy and management-not the
+first, where the responsibili.Ly of Congress lies.
+   Obviously, it is neither necessary nor desirable that the committee
+be inundated with every detail of NASA's relations with its con-
+tractors. But the Congress should be able to count on frank answers
+to pertinent, responsible, and legitimate inquiries.
+    Nonetheless, in response to such questions about the Phillips report,
+both NASA officials and representatives of the NASA contr actor
+ attempted to mislead the committee and evaded giving frank answers.
+When I first asked about the Phillips report on February 27, 1967,
+NASA officials responded with puzzlement and such statements as:
+ "I ]mow of no unusual General Phillips report." "I don't lmow of a
+specific report such as that." And "I cannot identify the (report)
+Senator :Yiondale was talking about." Repr esentatives of the NASA
+contractor , North American Aviation, responded in a similar vein in
+testimony before the House Subcommittee on NASA Oversight on
+                                   (15)
+                                   16
+April 11. When asked about the Phillips report, N AA President
+Atwood replied:
+        The Phillips report to whom? I have heard it mentioned,
+      but General Phillips has not given us a copy of any report.
+    A month later, on May 4, the same North American officials were
+talking knowledgeably before the Senate committee about the review
+and report of the "General Phillips task force." Mr. Atwood described
+the review as "a very comprehensive and very complete ~ * * review
+and performance assessment," and said that he personally "put a
+tremendous amount of emphasis on it" and that NAA formed an
+action group eonsisting of "top corporate executives" to carry out the
+recommendations.
+    Similarly; the same NASA officials who knew of "no unusual
+General Phillips report" in February were calling it "a high-level
+review" and "an extraordinary effort" in testimony before the Senate
+committee on May 9.
+    These eventual admissions o£ the importance of the Phillips report
+did not come until after the existence o£ the document was an estab-
+li.shed fact. Unfortunately-and despite repeated requests to NASA-
+ the Phillips report was first made available to the committee and Con.:.
+gress t~·ough sources other than official NASA channels, and through-
+out the hearings Congress was dependent upon an unofficial surrepti-
+tious source for the most significant single document involved in the
+Apollo 204 investigation.
+    Even when the facts of the Phillips review became known, NASA
+ and NAA officials attempted to mislead members of the committee
+by engaging in a "semantic waltz" as to whether there was in fact a
+"report" or merely some informal "notes" made by the general and his
+ associates. (The, Phillips report is entitled "NASA Review rream
+Report" and i t called' a report no less than 10 times in the text.)
+    NASA's performance-the evasiveness, the lack of candor, the
+patronizing attitude exhibited toward Congress, the"refusal to respond
+fully and forthrightly to legitimate congressional inquiries, and the
+solicitous concern for corporate sensitivities at a time of national
+ tragedy- can only produce a loss of con§o-ressional and public confidence
+in NASA programs. And neither NA A nor the Nation can afford
+such a loss.
+    The very least this situation warrants is a thorough r eview and
+reassessment by NASA of its policies and practices regarding con-
+gressional inquiries and its responsibilities to keep the appropriate
+committees of Congress fully appraised of all basic aspects-good and
+bad-of NASA programs.
+    Unfortunately, there has been no indication to my knowledge that
+NASA intends to review or change the policies and pFact.ices brought
+ to light by the Phillips report incident. Instead, there have been
+indications from the highest level of KASA management that such
+ policies and practices will continue.
+                                              WALTER    F. MoNDALE.
+                     l~PPENDIXES
+
+
+                          APPENDIX I
+        LisT oF WITNEssEs-APOLLO AcciDENT HEARINGS
+
+          Committee on Aeronautical and Space Sciences
+February 7, 1967
+    Dr. Charles A. Berry, Chief of Center Medical Programs, Manned
+      Spacecraft Center, ~ational Aeronautics and Space Adminis-
+      trn.tion.
+    Mr. Richard S. J ohnston, Chief of Crew Systems Division,
+      Manned Spacecraft Center, N !ttional Aeronautics and Space
+      Administration.
+    Dr. George E. Mueller, Associate Administrator, Office of Manned
+      Space Flight, National Aeronautics and Space Administration.
+    Dr. R obert C. Seamnns, .Tr., Deputy Administrator, National
+      Aeronautics and Space Administration.
+February 27, 1967
+    Dr. Charles A. Berry, Chief of Center :Medical Programs, Manned
+      Spacecraft Center, National Aeronautics and Space Adminis-
+      tration.                                           ·
+    Dr. George E. Mueller, Associate Administrator, Office of Manned
+      Space Flight, National Aeronautics and Space Administration.
+    Dr. Rober t C. Seamans, Jr., Deputy Administrator, National
+      Aeronautics and Space Administration.
+    R on. J ames E. Webb, Administrator, National Aeronautics and
+      Space Administrn.tion.
+April11, 1967
+    Dr. Floyd L. Thompson, Chairman of the Apollo 204 Review
+      Board, accompanied by members of the Review Board who are
+      as follows:
+         Col. Frank Borman.
+         Dr. Maxime A. F aget.
+         E. Barton Geer.
+         Dr. Robert W. Van Dolah.
+         Col. Charles F. Strang.
+         George C. White, Jr.
+         John-J. Williams.
+                                ( 17 )
+                                   18
+
+April13, 1967
+      Dr. George E. Mueller, Associate Administrator, Office of :M anned
+        Space Flight, National Aeronautics and Space Administration.
+      Gen. Samuel C. Phillips, Apollo Program Director, Office of
+         Manned Space Flight, K ational Aeronautics and Space Ad-
+        ministration.
+      Dr. Robert C. Seamans, Jr., Deputy Administrator, K ational
+        Aeronautics and Space Administration.
+      Dr. Charles A. Berry, Chief of Center Medical Pro$rams, Manned
+        Spacecraft Center, National Aeronautics and bpace Adminis-
+         tration.
+April17, 1967
+      Ron. James E. Webb, Administrator, National Aeronautics and
+         Space Administration.
+      Dr. George E. Mueller, Associate Administrator, Office of Manned
+         Space Flight, National Aeronautics and Space Administration.
+l'vlay 4, 1967
+      :Mr. J. L . Atwood, president of North American Aviation, Inc.
+      Mr. Dale D. Myers, vice president of the Space Division, North
+         American Aviation, Inc.
+May 9,1967
+      Ron. James E. Webb, Administrator, National Aeronautics and
+         Space Administration.
+      Dr. George E. Mueller, Associate Administrator for Manned
+         Space F light, National Aeronautics and Space Administration.
+       Gen. Samuel C. Phillips, Office of Manned Space Flight, National
+         Aeronautics and Space Administration.
+      Dr. Robert ..C. S.eamans, Jr., Deputy Administrator, National
+         Aeronautics ana Space Administration.
+                                                     '·
+                                                 19
+                                      APPENDIX II
+                  :MEMBERS OF APOLLO 204 REVIEW BO.\RD l
+
+Dr. Floyd L. Thompson, Director, Langley Research Center, NASA,
+   Chairman.
+Col. Frank Borman, Astronaut, )./f anned Spacecraft Center, NASA.
+Dr. Maxime A. Faget, Director , Engineering and Development,
+   ).1anned Spacecraft Center, NASA.
+E . Barton Geer, Associate Chief, Flight Vehicles and Systems Division,
+   Langley Research Center, NASA.
+Dr. Robert W. Van Dolah, Research Director, Explosive Research
+   Center, Bureau of Mines, Department of the Interior.
+Col. Charles F . Strang, Chief of Missiles and Space Safety Division,
+   Air F orce Inspector General, Norton .Air Force B ase, Calii.
+George C. White, Jr. , Director, Reliability and Quality, Apollo Pro-
+   gram Office, Headquarters NASA.
+John J. Williams, Director, Spacecraft Operations, Kennedy Space
+   Center, NASA.
+ • NASA, to date, has continued to keep the Board in Ioree.
+                                       APPEND L"t III
+                               APoLLo( SATURCif ScHEDULE 1
+
+    The ~ ational Aeronautics and Space Administration today an-
+nounced an Apollo mission schedule of six flights in 1968 and five .
+in 1969.                                                                      :
+    NASA Associate Administrator for Manned Space Flight, Dr. ,.. ·
+George :Mueller, said the new schedule and alternative plans provide
+a schedule under which a lin).ited number of Apollo command and
+service modules and lunar landing modules configured for lunar land-
+ing may be launched on test flights toward the :Moon by the end of
+the decade.
+    In the revised Apollo schedule, command, service, and lunar mod-
+ules ·will be tested and qualified on concurrent unmanned flights of :.
+ the Uprated Saturn and Saturn 5 launch vehicles. (Apollo(Uprated '
+Satlll'n flights are identified with a 200 series number, i.e., Apollo/ ..
+Saturn 204. Saturn 5 flights are identified with a 500 series number,
+i.e., Apollo/Saturn 502.)
+    The schedule for 1968 includes-
+         Apollo/Saturn 204, the first unmanned test of the lunar module
+      in earth orbit. 2
+         .Apollo/Saturn 502, second unmanned flight test of the Saturn
+      5 launch vehicle and Apollo command and service module .
+         .Apollo/Saturn 503, third unmanned test of the Saturn 5 and
+       command and service module.
+         Apollo/Saturn 206, second unmanned flight test of the lunar
+      module in earth orbit.
+         Apollo/Saturn 205, first Apollo manned flight a 10-day mis- i
+      sion qualifying the command and service modules for further
+       manned operations .
+         Apollo/Saturn 50~ first manned Apollo flight on the Saturn·· ' .
+       5 launch vehicle. This mission will provide the first manned··. •.
+       operation in space with both the command and service and lunar .,·· _
+       module, including crew transfer from the 0. & S.M. to the L .M . ·_ :.
+       and rendezvous and docking.                                         "·" ,•.
+    These flights will be flown in the above order and as rapidly as all .
+ necessary preparations can be completed. As they proceed, all oppor- :::: ...
+  tunities t~ accelerate progress. toward_ manned flights and a rapid ;; · .
+ accumulatiOn of manned expenence With the Apollo/Saturn system --,_.
+ will be sought.                                                         ~
+     The 1969 Apollo flight schedule calls for five manned Apollo/Saturn
+ flights, (AS 505 through AS 509) on the Saturn 5 space vehicle. Four .
+  of these flights. Apollo/Saturn 505 through 508, are programed as
+  lunar mission development flights or lunar mission simulations.
+    It is possible that the lunar landing could be made on the Apollo/
+ Saturn 509 but it is also possible that it may be delayed until one of
+  the remaining six Saturn 5 flights.
+  1NASA release No. 67-282 dated Nov. 3,1967.
+  •Accompllshed Jan. 22, 1968.
+
+
+
+       LR 902 .SAS5 1968
+       United States~ Congress,
+        Senate, Committee on Scienc
+       Apollo 204 accident          . st73
+

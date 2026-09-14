@@ -1,0 +1,332 @@
+{
+ "durations": {
+  "h1": 7.706,
+  "h2": 6.269,
+  "h3": 11.807,
+  "h4": 9.091,
+  "h5": 4.598,
+  "h6": 9.404,
+  "h7": 8.751,
+  "h8": 6.348,
+  "h9": 8.829,
+  "sting": 1.567,
+  "title": 3.553,
+  "a1_ch": 6.426,
+  "a1_1": 11.154,
+  "a1_2": 8.986,
+  "a1_3": 8.986,
+  "a1_4": 16.771,
+  "a1_5": 12.434,
+  "a1_6": 13.322,
+  "a1_7": 15.229,
+  "a1_8": 13.871,
+  "a1_9": 15.961,
+  "a1_10": 18.913,
+  "a1_11": 9.561,
+  "a2_ch": 5.486,
+  "a2_1": 12.826,
+  "a2_2": 13.949,
+  "a2_3": 5.642,
+  "a2_4": 14.211,
+  "a2_5": 17.633,
+  "a2_6": 13.793,
+  "a2_7": 15.386,
+  "a2_8": 8.908,
+  "a3_ch": 5.799,
+  "a3_1": 15.491,
+  "a3_2": 8.281,
+  "a3_3": 14.602,
+  "a3_4": 8.046,
+  "a3_5": 20.506,
+  "a3_6": 21.551,
+  "a3_7": 18.834,
+  "a3_8": 10.684,
+  "a3_9": 15.647,
+  "a3_10": 15.229,
+  "a4_ch": 7.706,
+  "a4_1": 11.651,
+  "a4_2": 9.247,
+  "a4_3": 16.039,
+  "a4_4": 8.202,
+  "a4_5": 15.386,
+  "a4_6": 18.599,
+  "a4_7": 5.878,
+  "a4_8": 19.958,
+  "a4_9": 6.348,
+  "a4_10": 14.681,
+  "a4_11": 14.289,
+  "a4_12": 10.998,
+  "a4_13": 12.513,
+  "a4_14": 15.308,
+  "a4_15": 11.076,
+  "a5_ch": 8.673,
+  "a5_1": 8.908,
+  "a5_2": 5.329,
+  "a5_3": 6.113,
+  "a5_4": 7.471,
+  "a5_5": 11.154,
+  "a5_6": 14.838,
+  "a5_7": 15.569,
+  "a5_8": 7.079,
+  "a5_9": 12.748,
+  "a5_10": 9.718,
+  "a5_11": 10.841,
+  "a5_12": 7.393,
+  "a5_13": 15.961,
+  "a5_14": 9.874,
+  "a5_15": 10.606,
+  "a5_16": 18.286,
+  "a5_17": 7.811,
+  "a5_18": 13.871,
+  "a6_ch": 9.482,
+  "a6_1": 14.367,
+  "a6_2": 12.278,
+  "a6_3": 21.081,
+  "a6_4": 12.199,
+  "a6_5": 5.878,
+  "a6_6": 10.188,
+  "a6_7": 14.028,
+  "a6_8": 8.751,
+  "a6_9": 12.826,
+  "a6_10": 7.889,
+  "a6_11": 8.046,
+  "a6_12": 11.729,
+  "a6_13": 7.393,
+  "a6_14": 10.266,
+  "a6_15": 8.751,
+  "a6_16": 13.009,
+  "a7_ch": 7.811,
+  "a7_1": 11.651,
+  "a7_2": 11.546,
+  "a7_3": 11.546,
+  "a7_4": 13.009,
+  "a7_5": 8.751,
+  "a7_6": 10.841,
+  "a7_7": 17.868,
+  "coda1": 11.311,
+  "coda2": 13.244,
+  "coda3": 13.949,
+  "coda4": 16.118,
+  "bridge": 18.756
+ },
+ "images": {
+  "block1_hatch": [
+   "block1_hatch_1.jpg",
+   "block1_hatch_2.jpg"
+  ],
+  "block2_hatch": [
+   "block2_hatch_1.jpg"
+  ],
+  "cm012_exterior_postfire": [
+   "cm012_exterior_postfire_1.jpg"
+  ],
+  "cm012_interior": [
+   "cm012_interior_1.jpg"
+  ],
+  "cm012_postfire": [
+   "cm012_postfire_1.jpg",
+   "cm012_postfire_2.jpg"
+  ],
+  "crew_ingress": [
+   "crew_ingress_1.jpg"
+  ],
+  "crew_portrait": [
+   "crew_portrait_1.jpg"
+  ],
+  "crew_prayer": [
+   "crew_prayer_1.jpg"
+  ],
+  "crew_prime_backup": [
+   "crew_prime_backup_1.jpg"
+  ],
+  "ex_board_cover": [
+   "ex_board_cover_1.png"
+  ],
+  "ex_board_mundane": [
+   "ex_board_mundane_1.png"
+  ],
+  "ex_cable_destroyed": [
+   "ex_cable_destroyed_1.png"
+  ],
+  "ex_finding1": [
+   "ex_finding1_1.png"
+  ],
+  "ex_gmt_note": [
+   "ex_gmt_note_1.png"
+  ],
+  "ex_rb_finding2": [
+   "ex_rb_finding2_1.png"
+  ],
+  "ex_rb_finding4": [
+   "ex_rb_finding4_1.png"
+  ],
+  "ex_rb_finding5": [
+   "ex_rb_finding5_1.png"
+  ],
+  "ex_rb_finding9": [
+   "ex_rb_finding9_1.png"
+  ],
+  "ex_rb_hazard_rule": [
+   "ex_rb_hazard_rule_1.png"
+  ],
+  "ex_rb_test_purpose": [
+   "ex_rb_test_purpose_1.png"
+  ],
+  "ex_rb_transmission_first": [
+   "ex_rb_transmission_first_1.png"
+  ],
+  "ex_rb_transmission_second": [
+   "ex_rb_transmission_second_1.png"
+  ],
+  "ex_rb_transmission_three_readings": [
+   "ex_rb_transmission_three_readings_1.png"
+  ],
+  "ex_senate_hatch_balance": [
+   "ex_senate_hatch_balance_1.png"
+  ],
+  "ex_senate_hope": [
+   "ex_senate_hope_1.png"
+  ],
+  "ex_senate_no_single_person": [
+   "ex_senate_no_single_person_1.png"
+  ],
+  "ex_senate_overconfidence": [
+   "ex_senate_overconfidence_1.png"
+  ],
+  "ex_senate_phillips_finding": [
+   "ex_senate_phillips_finding_1.png"
+  ],
+  "ex_transmittal": [
+   "ex_transmittal_1.png"
+  ],
+  "lc34_today": [
+   "lc34_today_1.jpg"
+  ],
+  "pad34_gantry": [
+   "pad34_gantry_1.jpg"
+  ],
+  "sc012_transfer": [
+   "sc012_transfer_1.jpg"
+  ],
+  "senate_hearing_1967": [
+   "senate_hearing_1967_1.jpg"
+  ],
+  "tribute": [
+   "tribute_1.jpg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.96,
+ "polish": true,
+ "mouth": {},
+ "texthash": {
+  "h1": "5e819bbc0306748d",
+  "h2": "56ee9c5fc2be8c77",
+  "h3": "feb6c08af34ec9d4",
+  "h4": "e11585755e417382",
+  "h5": "311e9029a06c48e8",
+  "h6": "0d599cbc49fef209",
+  "h7": "e3cc9199e09b6e72",
+  "h8": "7983c243efad59fe",
+  "h9": "77d63622e540fa10",
+  "sting": "76e56807b41f0322",
+  "title": "47fa2ab86b4cb5dd",
+  "a1_ch": "19552ca371b1bb8a",
+  "a1_1": "94a52cb6453acb45",
+  "a1_2": "92c06fcf14096a13",
+  "a1_3": "ec8c5149e2630191",
+  "a1_4": "556501178925759c",
+  "a1_5": "e37f863d574a882b",
+  "a1_6": "f03cc7e40dcf1d74",
+  "a1_7": "35de74b431c2f416",
+  "a1_8": "86b2870b011a6e9c",
+  "a1_9": "a31d4c9cfb4107fe",
+  "a1_10": "2d5a3e4c1f497f55",
+  "a1_11": "f8e4bb0e3d0d1871",
+  "a2_ch": "776281061eae7754",
+  "a2_1": "7e3e1c5746eb9e05",
+  "a2_2": "3be375f14fea5d3c",
+  "a2_3": "cc250e830a5394db",
+  "a2_4": "0b712b25bb7ac05a",
+  "a2_5": "be31b110772528ba",
+  "a2_6": "0d5658e3f91d3d83",
+  "a2_7": "ceec11d636819086",
+  "a2_8": "7484da7834dbbdab",
+  "a3_ch": "daf8b4206096770e",
+  "a3_1": "1542a1b75f374131",
+  "a3_2": "c4e79cc8f6edf82e",
+  "a3_3": "aac395d2392d165b",
+  "a3_4": "1b14c503f2f707dc",
+  "a3_5": "499d962af1105be7",
+  "a3_6": "05fb8c41ddb54167",
+  "a3_7": "c835c3821a64d6d1",
+  "a3_8": "9ff356ac5a6de881",
+  "a3_9": "0d73b8a57aa89a41",
+  "a3_10": "16149bb2254f1290",
+  "a4_ch": "2319bfd2f62aac2d",
+  "a4_1": "4da1453aee85d351",
+  "a4_2": "601d0d5519ae7996",
+  "a4_3": "b2616bb9cdb385bb",
+  "a4_4": "66f7c19aa75d20e5",
+  "a4_5": "ff007d64626ca500",
+  "a4_6": "c113d7dd1ec55155",
+  "a4_7": "528e2db8ecf6f1c9",
+  "a4_8": "0f124952a9eb9ea7",
+  "a4_9": "85a039f82f119fdf",
+  "a4_10": "84ea3efbe1c8227b",
+  "a4_11": "bb7fcad7f7713a70",
+  "a4_12": "bc8d61c4b8b1da7b",
+  "a4_13": "a754f9595bb4cb95",
+  "a4_14": "8be4f47830c04b5d",
+  "a4_15": "5df34b7d92aeaa17",
+  "a5_ch": "06409f514cd358fd",
+  "a5_1": "a9727f7ddecf3a7b",
+  "a5_2": "ca27567821ea65c5",
+  "a5_3": "8906746833cbd219",
+  "a5_4": "730d06b088b1a72a",
+  "a5_5": "4192721026e087e3",
+  "a5_6": "6264c4e7e61ff9dd",
+  "a5_7": "a9fbea7598fa6743",
+  "a5_8": "7d5f880ccd7ef5a9",
+  "a5_9": "4024f3d045c820f3",
+  "a5_10": "2b7b92b4dc7fef66",
+  "a5_11": "6500c82d542d30a6",
+  "a5_12": "de230991fc1ab609",
+  "a5_13": "5d8c38187a3ea71a",
+  "a5_14": "9b52b94a8681526a",
+  "a5_15": "37a0c886399ba4ef",
+  "a5_16": "d3e0110b71b8abde",
+  "a5_17": "27b58f5e2b13bb8c",
+  "a5_18": "44d9c182783eaa60",
+  "a6_ch": "7f2ab59fa94047ba",
+  "a6_1": "a8b48a351eccbb35",
+  "a6_2": "ff3195db2c6f3ea8",
+  "a6_3": "b15a56ad2dfad6eb",
+  "a6_4": "838d8646e7f5ba56",
+  "a6_5": "a6d9cb698e7f4d87",
+  "a6_6": "3b3ecb59a9e347bb",
+  "a6_7": "f6eb1a8de0e5f3bf",
+  "a6_8": "88a54b52d7311646",
+  "a6_9": "2c07078937df977c",
+  "a6_10": "f2d255896aa0447c",
+  "a6_11": "bbfc39d6a2ac498b",
+  "a6_12": "70508c77a69d3352",
+  "a6_13": "229be7bed82b4e7b",
+  "a6_14": "273cc4284139a764",
+  "a6_15": "7b88fab8ce136c82",
+  "a6_16": "5ad048aa4f93d846",
+  "a7_ch": "eac22d986a3dba4a",
+  "a7_1": "c096342981ab984d",
+  "a7_2": "51b543270b424f20",
+  "a7_3": "8a3f54840b2f6b28",
+  "a7_4": "4b7fde68a3b3ef20",
+  "a7_5": "62cbf5e10910ec14",
+  "a7_6": "03c36a2b384dbc08",
+  "a7_7": "334b62933e312130",
+  "coda1": "9c363cc7eb1394cf",
+  "coda2": "3e68c4df4befea1e",
+  "coda3": "7237bd74d85d1c21",
+  "coda4": "c03dca417d9311ee",
+  "bridge": "ae2aeea5324fdfda"
+ }
+}

@@ -459,7 +459,11 @@ def main() -> int:
             prev = None
             continue
         vis_counts[v] += 1
-        if v == prev:
+        # An EXHIBIT held across consecutive scenes while the highlight box moves
+        # down the page is correct documentary grammar, not monotony — the rule
+        # exists for a clip that silently replays from frame 0 (noradtapes, 23
+        # times). Don't punish a document being read.
+        if v == prev and not sc.get("exhibit"):
             consec.append(sc["id"])
         prev = v
     tot_vis = sum(vis_counts.values())
