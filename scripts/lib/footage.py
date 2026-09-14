@@ -17,12 +17,14 @@ Sources needing free keys degrade gracefully when the key is absent:
 from __future__ import annotations
 
 import base64
+import concurrent.futures as cf
 import html
 import json
 import os
 import re
 import subprocess
 import tempfile
+import time
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -467,28 +469,105 @@ def search_eso(query: str, count: int, media: str) -> list[Asset]:
     return out
 
 
+def _noaa_ocean_index() -> list[dict]:
+    """Build (and cache) an index of NOAA Ocean Exploration video pages.
+
+    Why not the WP REST media API (which this used to call): on 2026-09-13 every
+    /wp-json/wp/v2/media request began returning HTTP 500 "Database Error" —
+    the site's WordPress backend is down while the static pages stay up. The
+    ocean niche ranks noaa_ocean FIRST, so that outage silently emptied the
+    primary source for every ocean episode and pushed the fetcher down to
+    Pexels, which answers "deep sea amphipods" with a man fishing on a river.
+
+    The static Yoast sitemaps survive the database outage, so the index is
+    built from those instead: ~2,000 multimedia pages, of which the video ones
+    embed a direct mp4 under wp-content/uploads. Cached for a day.
+    """
+    cache = REPO / "public" / "shorts" / "_cache" / "noaa_ocean_video_index.json"
+    if cache.exists() and (time.time() - cache.stat().st_mtime) < 86400:
+        try:
+            return json.loads(cache.read_text())
+        except Exception:
+            pass
+    urls: list[str] = []
+    for sm in ("https://oceanexplorer.noaa.gov/multimedia-sitemap.xml",
+               "https://oceanexplorer.noaa.gov/multimedia-sitemap2.xml"):
+        try:
+            r = httpx.get(sm, headers=UA, timeout=60, follow_redirects=True)
+            if r.status_code == 200:
+                urls += re.findall(r"<loc>([^<]+)</loc>", r.text)
+        except Exception:
+            continue
+    KEY = ("video", "dive", "deep", "rov", "seafloor", "lander", "water-column",
+           "sediment", "marine-snow", "crustacean", "coral", "biolum", "canyon",
+           "vent", "squid", "octopus", "fish", "jelly", "shrimp", "crab", "seep")
+    cand = [u for u in urls if any(k in u.rstrip("/").split("/")[-1] for k in KEY)]
+
+    out: list[dict] = []
+    def grab(u: str):
+        try:
+            r = httpx.get(u, headers=UA, timeout=30, follow_redirects=True)
+            if r.status_code != 200:
+                return None
+            mp4 = re.findall(
+                r"https?://oceanexplorer\.noaa\.gov/wp-content/uploads/[^\"')\s]+\.mp4", r.text)
+            if not mp4:
+                return None
+            t = re.search(r"<title>([^<]{3,140})</title>", r.text)
+            title = (t.group(1) if t else "").split("|")[0].strip()
+            # widest variant wins (…_1280x720.mp4 over …_640x360.mp4)
+            return {"page": u, "url": sorted(set(mp4), key=len)[-1], "title": title}
+        except Exception:
+            return None
+
+    with cf.ThreadPoolExecutor(max_workers=12) as ex:
+        for res in ex.map(grab, cand):
+            if res:
+                out.append(res)
+    seen, uniq = set(), []
+    for a in out:
+        if a["url"] in seen:
+            continue
+        seen.add(a["url"]); uniq.append(a)
+    try:
+        cache.parent.mkdir(parents=True, exist_ok=True)
+        cache.write_text(json.dumps(uniq, indent=1))
+    except Exception:
+        pass
+    return uniq
+
+
 def search_noaa_ocean(query: str, count: int, media: str) -> list[Asset]:
-    """NOAA Ocean Exploration (oceanexplorer.noaa.gov) — deep-sea ROV footage,
-    US-gov PD (credit line requested). WordPress site: try the WP REST media
-    API; it exposes direct mp4s under wp-content/uploads."""
+    """NOAA Ocean Exploration — real deep-sea ROV footage, US-gov PD
+    (credit line "NOAA Ocean Exploration" requested; log it).
+
+    Matches the query against the page title and slug of the cached index
+    rather than the dead WP search endpoint. NOTE for scripting: NOAA's dives
+    are overwhelmingly 300-3,000 m, NOT hadal — there is no amphipod, snailfish,
+    hadal, Mariana or abyssal page in the whole index. Anything deeper than
+    Okeanos goes belongs to Schmidt/MBARI/Caladan, which are NC or
+    permission-only and stay barred.
+    """
     if media != "video":
         return []
-    data = _get_json("https://oceanexplorer.noaa.gov/wp-json/wp/v2/media",
-                     {"search": query, "per_page": min(30, count * 5),
-                      "media_type": "video"})
-    if not isinstance(data, list):
+    idx = _noaa_ocean_index()
+    if not idx:
         return []
+    stop = {"noaa", "ocean", "exploration", "the", "a", "of", "and", "deep", "sea", "footage"}
+    terms = [w for w in re.split(r"[^a-z0-9]+", query.lower()) if len(w) > 2 and w not in stop]
+    scored = []
+    for a in idx:
+        hay = f"{a['title']} {a['page']}".lower()
+        score = sum(1 for w in terms if w in hay)
+        if score:
+            scored.append((score, a))
+    scored.sort(key=lambda x: -x[0])
     out: list[Asset] = []
-    for m in data:
-        src = m.get("source_url", "") or ""
-        if not src.lower().endswith(".mp4"):
-            continue
-        title = strip_html(((m.get("title") or {}).get("rendered")) or Path(src).stem)
+    for _, a in scored[: max(count * 4, 12)]:
         out.append(Asset(
-            source="noaa_ocean", media="video", title=title, url=src,
-            page=m.get("link", src), author="NOAA Ocean Exploration",
-            license="Public domain (NOAA)", lic_key="pd",
-            meta={"desc": strip_html(((m.get("caption") or {}).get("rendered")) or "")[:400]}))
+            source="noaa_ocean", media="video", title=a["title"], url=a["url"],
+            page=a["page"], author="NOAA Ocean Exploration",
+            license="Public domain (NOAA)", lic_key="pd", meta={"desc": a["title"]}))
     return out
 
 
