@@ -22,6 +22,50 @@ Record what was seen as one line under the episode's Step 3 ("Charts: <trailer
 or show>, <country>, <date>") so a later diagnosis can tell wave-timed wins from
 luck. Nothing from Charts is ever played, sampled, or named in a music prompt.
 
+## 🔥 911conspiracyaudit (Black Box) — validated 2026-09-16, **PASS (giant-name)** — WAVE-TIMED, ahead of columbia
+
+**The 9/11 conspiracy audit.** Survey every major theory, answer each on evidence,
+land on the Saudi spine (28 pages, al-Bayoumi, al-Thumairy, the 1999 Capitol casing
+video unsealed 2024, the Aug 2025 ruling sending the families' suit to trial).
+Triggered by YESTERDAY's ~41-min video doing **1M views in 7 days** (rel. ~2026-09-09).
+
+**Demand side passes; the ctr-engine packaging gate (Step 4.5) is NOT yet run —
+not a final greenlight.** Ratios are point-in-time; recheck live at production start.
+
+| Ratio | Views / subs | Date | Video |
+|---|---|---|---|
+| **47.8:1** | 540,585 / 11,300 | 2026-05-12 | https://youtu.be/cIc2p53hbyA |
+| 50.8:1 | 2,905,770 / 57,200 | 2024-09-10 | https://youtu.be/tnrkvrXTCsw |
+| 45.8:1 | 636,075 / 13,900 | 2024-03-15 | https://youtu.be/F3ZTBZnWj7Y |
+| 44.6:1 | 1,213,263 / 27,200 | 2020-12-31 | https://youtu.be/7h4ckobkwSg |
+
+Ceiling: HISTORY 9.9M, Geopop 2.9M, TIME 1.8M, DW 1.2M, 60 Minutes 951K (2026-09-10).
+Recognition **3/3**, currency **STRONG** (25th-anniversary wave + Saudi suit to trial).
+
+**Charts:** not checked this run — charts.youtube.com/US glance still owed.
+
+### Why it goes BEFORE columbia
+Columbia has no time-lock. This rides a wave that is already decaying (anniversary
+peak was 2026-09-11) but still demonstrably paying: United 93, a dormant Jul 26
+upload, went 9,245 → 50,466 views on it and was still doing 27,792 views/48h at
+2026-09-15, 72.1% Browse.
+
+### Hard constraints handed to production
+- Build as the **HUB** of our 9/11 cluster (6th asset) — link out to all five
+  existing episodes; that is the anti-cannibalization argument.
+- **Do NOT redo the controlled-demolition debunk** — "What Really Brought Down
+  Building 7" (wp8t2gOKYyE) already is that video.
+- Saudi-alone is unproven as a puller (Ron Chapman 80,266/132,000 = 0.6:1). Full
+  audit format, Saudi as the payoff chapter.
+- HIGH sensitivity: United-93-tier ethics review; theories attributed, official
+  findings stated as fact, no strawman debunks.
+
+### Rejected alternative
+**JFK** — demand passes (100.6:1 @ 552K; 14.1:1 @ 564K 2026-03; ceiling Johnny
+Harris 17M) but rejected on **lane**: political assassination fits neither
+mindwired (space/science/ocean, explicitly not general history) nor Black Box
+(disaster/corporate forensics). Currency also decayed (Mar-2025 declassification).
+
 ## ⭐ columbia (Black Box) — validated 2026-09-16, **PASS (extreme class)** — next pick
 
 **Space Shuttle Columbia, STS-107.** The foam strike, the engineering emails, and the
