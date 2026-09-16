@@ -29,8 +29,12 @@ land on the Saudi spine (28 pages, al-Bayoumi, al-Thumairy, the 1999 Capitol cas
 video unsealed 2024, the Aug 2025 ruling sending the families' suit to trial).
 Triggered by YESTERDAY's ~41-min video doing **1M views in 7 days** (rel. ~2026-09-09).
 
-**Demand side passes; the ctr-engine packaging gate (Step 4.5) is NOT yet run —
-not a final greenlight.** Ratios are point-in-time; recheck live at production start.
+**GREENLIT 2026-09-16 — demand PASSED and ctr-engine Run A PASSED.** Locked title
+"4 9/11 Conspiracies the Government Confirmed"; three thumbnails BUILT at
+out/thumbs/911conspiracyaudit_{A,B,C}.png (winner A = the verbatim "did not have
+sufficient data" line from EPA OIG 2003-P-00012, glowing on black). Full package
+in memory icahn-911-conspiracy-audit. Ratios are point-in-time; recheck live at
+production start.
 
 | Ratio | Views / subs | Date | Video |
 |---|---|---|---|
@@ -43,6 +47,41 @@ Ceiling: HISTORY 9.9M, Geopop 2.9M, TIME 1.8M, DW 1.2M, 60 Minutes 951K (2026-09
 Recognition **3/3**, currency **STRONG** (25th-anniversary wave + Saudi suit to trial).
 
 **Charts:** not checked this run — charts.youtube.com/US glance still owed.
+
+### ANGLE LOCKED 2026-09-16 (Akshay): "9/11 Conspiracies That Turned Out True"
+The inverse of YESTERDAY's debunk — which is what stops it being a copycat.
+Demand for the framing is REAL but thinner than the audit framing: one fresh
+small-channel outlier (The Rogues, 380,123 / 19,100 = **19.9:1**, 2026-08-05,
+https://youtu.be/nhWjwBxRA4o) plus a big ceiling that is mostly large channels
+on their own audience (Chilling Scares 7.2M @ 2.5:1; Visual Venture 4.5M @
+2.3:1; The Paint Explainer 2.95M @ 1.5:1). No outlier found for the specific
+9/11 + "turned out true" combination — the 44-50:1 evidence belongs to the
+DEBUNK framing, not this one. Ship the angle on its differentiation, not on a
+claim that its ratios beat the audit's.
+
+**Honesty constraint — the list is FOUR items, not twelve.** Confirmed-by-
+government only, each with its document on screen:
+1. **The 28 pages** — classified 2002, declassified 2016-07-15; al-Bayoumi later
+   assessed by the FBI as a Saudi intelligence asset.
+2. **NORAD's timeline was false** — the military's original account to the 9/11
+   Commission was untrue; referred to the DoD and DOT Inspectors General. We
+   already own this material (noradtapes).
+3. **The EPA air-quality statements** — EPA Inspector General found the White
+   House CEQ shaped "the air is safe to breathe" and that EPA lacked data to
+   support it. **Strongest and least-covered item; make it the spine.** Live
+   pull confirmed: TIME's Ground Zero engineers video, 1.8M, 2026-09-10.
+4. **The bin Laden family flights** — happened; Commission confirmed the flights
+   while concluding passengers were screened. Partial, label it partial.
+
+**BANNED from the list** (the title must not be filled out with these): the put
+options (SEC + Commission found them innocuous), "pull it" (debunked), Able
+Danger (DoD IG found it unsubstantiated), Operation Northwoods (real, but a 1962
+Cuba plan — counting it as a 9/11 conspiracy is a cheat), and the "dancing
+Israelis" (men and detention real, foreknowledge NOT established; it is
+load-bearing in antisemitic 9/11 narratives — leave it out, do not gesture).
+Every claim attributed, official findings stated as fact
+([[attributed-mystery-format]]). A twelve-item version of this title is
+deceptive packaging and fails the quality-CTR rule in CLAUDE.md.
 
 ### Why it goes BEFORE columbia
 Columbia has no time-lock. This rides a wave that is already decaying (anniversary
