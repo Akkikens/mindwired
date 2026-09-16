@@ -1,5 +1,349 @@
 # Topic queue (Akshay, 2026-07-12 — from YT Studio "Inspiration")
 
+## Standing sensing source — YouTube Charts (charts.youtube.com/US), added 2026-09-16
+Charts is BANNED as an audio source (every music chart is commercial, Content-ID
+fingerprinted — same rule as broadcast footage). It is useful only as a DEMAND
+sensor for the wave calendar (icahn-validate Step 3). Check it at the start of
+every validation run; read it by hand, no scraper (the page is a JS app and the
+signal is a glance, not a dataset):
+- **Trending Movie Trailers** (per-country, refreshed several times a day). A
+  disaster / historical / true-crime film or documentary trailer charting = a
+  demand wave forming 4-10 weeks before release. That is exactly the lead time
+  the wave-calendar rule wants (land 2-4 weeks before the peak). Precedent: the
+  25th-anniversary 9/11 wave lifted a dormant July upload from 9,245 to 50,466
+  views. Action: for any charting trailer whose subject fits a lane, add a
+  dated wave-calendar entry here and run the yt-dlp sweep on the subject.
+- **Weekly Top Podcast Shows** (US / CA / MX, ranked by YouTube watch time).
+  True-crime and history shows charting show which stories have live pull this
+  week — they map onto Black Box Breakdown and Criminal Record. Action: note
+  which cases/eras the top-charting shows are covering this week; a case that
+  appears on two shows is a sweep candidate.
+Record what was seen as one line under the episode's Step 3 ("Charts: <trailer
+or show>, <country>, <date>") so a later diagnosis can tell wave-timed wins from
+luck. Nothing from Charts is ever played, sampled, or named in a music prompt.
+
+## ⭐ columbia (Black Box) — validated 2026-09-16, **PASS (extreme class)** — next pick
+
+**Space Shuttle Columbia, STS-107.** The foam strike, the engineering emails, and the
+management decisions that turned a known-since-1981 debris problem into seven deaths.
+
+### Step 0 — loop closure: hatch (b), clean for the first time in three validations
+`sept11timeline` published 2026-09-16, under 48h → **DIAGNOSIS DUE 2026-09-18**, owed before
+the NEXT publish. Crucially, the standing BLOCKED-ON-DATA debt is **partly paid**: real
+Studio numbers for United 93 were banked 2026-09-15 (see LAUNCH-LESSONS.md) and they
+confirmed the pool-vs-packaging question the loop had been stuck on since 2026-09-12.
+
+### Steps 1-2 — the sweep (live yt-dlp 2026.06.09, 2026-09-16, 4 queries, 95 raw → 65 deduped)
+
+**PASS, extreme class.**
+
+| Ratio | Views / subs | Date | Video |
+|---|---|---|---|
+| **451.2:1** | **3,916,464 / 8,680** | 2023-02-01 | Scott Münley — "Columbia Breakup in real time" |
+| **141.9:1** | **2,554,965 / 18,000** | 2024-01-12 | Shuttlesource — Flight Director Communications Loop |
+| **24.6:1** | **984,831 / 40,100** | **2025-11-28** | Documentary Overload — full documentary |
+| 20.7:1 | **9,490,611** / 458,000 | 2021-10-19 | Techno Blog — "The TRUTH Behind the Tragedy" |
+| **16.2:1** | **268,760 / 16,600** | **2026-01-24** | Cosmo — "The Mission That Changed NASA" |
+| 8.1:1 | 133,923 / 16,600 | **2026-07-31** | Cosmo — "NASA's Darkest Day" |
+| 82.7:1 | 1,488,879 / 18,000 | 2022-04-06 | Shuttlesource — reentry cam |
+| 111.3:1 | 190,271 / 1,710 | 2012-09-03 | NasaHD — foam strike tests |
+
+**Ceiling proof: 9.49M** (Techno Blog, 458K subs) plus 5.94M, 3.92M and 2.55M — all on the
+exact subject. **Freshness proof, which is what killed the other two candidates:** a
+16,600-sub channel pulled **268,760 views in Jan 2026 and another 133,923 in Jul 2026.**
+Demand is not anniversary-dependent; it is live all year.
+
+**Not saturated.** No near-zero-view copycat cluster — fresh small-channel uploads are
+pulling six figures, which is the opposite of the Kola pattern.
+
+### Step 3 — recognition: 3/3, full greenlight
+1. **Name test — yes.** "Space Shuttle Columbia" needs no explanation to a cold scroller.
+2. **Mainstream footprint — total.** Live global news event, Feb 2003; sustained coverage.
+3. **Alive right now — yes**, and this is the strongest part: two 2026 uploads on a small
+   channel at 268K and 133K.
+
+### ⛔ THE ANNIVERSARY IS NOT A REASON TO WAIT
+Columbia broke up 2003-02-01, so the next anniversary (2027-02-01) is the **24th** — not a
+round number, no 25th-anniversary wave to catch, and the sweep proves demand does not need
+one. **Ship now.** The 2026-09-12 lesson applies in our favour: "an upload that already
+exists gets re-tested when the wave arrives." Publishing now puts it in the catalogue for
+every future February re-test at zero extra cost — exactly how United 93 and Building 7
+earned their 2026 surge.
+
+### The moat — why this is a Black Box episode, not a mindwired one
+CAIB (Columbia Accident Investigation Board) Report, Vols I-VI: **federal, public domain**,
+and it is an Evidence-Engine document set of the same class as the 9/11 Commission Report.
+CLAUDE.md's tiebreak already says weight toward Black Box when either channel could take it.
+The channel also owns the adjacent workflow: `challengerdisaster` and `apollo1` are both
+built, so suggested-adjacency should map onto its own Challenger episode.
+
+**The spine — same discipline that carried 9/11.** Not "the foam broke the wing" (everyone
+does that). The episode is **the eight days between launch and reentry**: the Debris
+Assessment Team's three requests for on-orbit imaging, all declined; the "flight rationale"
+that reclassified a known anomaly as acceptable; and the CAIB's own finding that the
+organizational causes were as culpable as the physical one. Engineering memos and management
+decisions, which is precisely the institutional-failure lane.
+
+### ⚠ SENSITIVITY
+Seven named dead, families alive and publicly active. **Note the trap in the sweep data:**
+"What Happened to the Bodies of the Columbia Disaster Crew" pulled 140,078 views
+(2026-04-13). That is real demand and we do **not** serve it — the crew-remains angle is
+exploitative and off-brand. Attribute-never-assert on named living officials; the CAIB
+frames causes as organizational, and so do we. No personal blame.
+
+### Owed before production starts
+ctr-engine Run A (packaging-first gate), a CAIB fact-pack + CLAIMS-columbia.md, and a
+first-30s real-motion source that is NOT network broadcast (NASA launch/tracking imagery is
+PD — this one is unusually easy compared with 9/11).
+
+---
+
+## ❌ iranair655 (Black Box) — validated 2026-09-16, **FAIL** — do not build
+
+Sweep: 3 queries, 43 deduped. **Every outlier is stale.** The two that clear the bar are
+BoilerRoom4 (162,977 v / 4,190 subs = 38.9:1) from **2012** and Magnetpraetorian (107,450 v
+/ 4,840 = 22.2:1) from **2016**. Fresh uploads are a near-zero copycat cluster — 194 v, 580 v,
+26 v across 2026 — which the skill flags as the wave already broken. Ceiling exists (Wonder
+4.19M) but the pull does not. ⚠ Josh Cahill's 4.67M "BIZARRE AND SCARY FLIGHT ON IRAN AIR"
+is a travel vlog, NOT this subject — excluded; do not let it inflate the ceiling.
+Recognition ~1/3: the core noun is not household outside US-Iran news cycles.
+
+## ❌ kegworth / British Midland 092 (Black Box) — validated 2026-09-16, **FAIL** — the Tenerife trap
+
+Sweep: 3 queries, 57 deduped. Best headline is Baz Landwick 237,926 v / 9,980 subs = 23.8:1
+— from **2011**. The fresh picture is the textbook FAIL shape: 122 v, 46 v, 26 v, 23 v on
+2025-26 small-channel uploads, while big channels captured it recently and cleanly
+(Fascinating Horror 744,037 v @ 0.5:1, Feb 2025; Captain Steeeve 381,273 v @ 0.3:1, Dec 2025).
+Sub-1:1 on big channels is channel authority, not topic pull. Recognition 1/3 — historically
+important, not household. **This is Tenerife again**: deadliest-in-history credentials, 20.1K
+impressions. ⚠ Mentour Pilot's 4.06M is Pinnacle 3701, a different flight — excluded.
+
+## ⚠ Helios 522 — ALREADY PUBLISHED, YouTube Inspiration suggested it anyway
+"The Plane That Flew Itself for Three Hours (Helios 522)", published 2026-07-31,
+`0tT8C6v1Sj0`, 169 views. **Standing lesson: the Studio Inspiration panel recommends on
+thematic adjacency to your own titles and does not know your catalogue.** It is a source of
+candidates, never of validation — which is what this queue file was originally seeded from
+on 2026-07-12, and why the Icahn gate exists.
+
+## ✅ sept11timeline (Black Box) — validated 2026-09-14, PASS (extreme class), **PUBLISHED 2026-09-16**
+
+**The whole day, minute by minute — told through the evidence, not the broadcast footage.**
+All four aircraft, the FAA/NORAD response, both towers, the Pentagon, Shanksville, the
+collapses, the national ground stop. The episode the channel's other five 9/11 entries are
+each one act of.
+
+### Step 0 — loop closure: BLOCKED-ON-DATA (2026-09-14), escape hatch (c), Akshay's call
+`noradtapes` (Sep 13) and `biosphere2` (Sep 13) have DIAGNOSIS DUE 2026-09-15 — still under
+48h, hatch (b). But `groundzeroair` (Sep 10), `colossalsquid` (Sep 8) and `projecthailmary`
+(Aug 31) remain past 48h with no Studio numbers. **Hatch (c) invoked for the second
+consecutive validation.** The skill's own words: legitimate once, corrosive twice. This is
+now the loop's standing debt — see LAUNCH-LESSONS.md 2026-09-14.
+
+### Steps 1-2 — the sweep (live yt-dlp, 2026-09-14, 8 queries, 200 raw → 108 deduped)
+
+**PASS, extreme class.**
+
+| Ratio | Views / subs | Date | Video |
+|---|---|---|---|
+| **735.2:1** | **17,130,385 / 23,300** | 2022-10-27 | Christian Koller — 9/11 attacks in realtime, 7:46am-12:00pm |
+| **574.3:1** | 77,530 / 135 | **2026-09-07** | Bitesize Education — September 11 Explained |
+| **105.2:1** | **8,395,722 / 79,800** | **2026-09-10** | SmartHER News — a survivor's story kept private 25 years |
+| 215.1:1 | 2,559,969 / 11,900 | 2019-05-27 | Mark Davis — Today Show 9-11-01 live on NBC ⚠ reupload |
+| 80.5:1 | 21,343,889 / 265,000 | 2021-09-09 | Sydney Morning Herald / The Age — 9/11, 2001 as it happened |
+| 28.4:1 | 397,298 / 14,000 | 2026-03-09 | History with Charley — September 11th in REALTIME |
+| 28.1:1 | 255,450 / 9,080 | 2021-09-02 | Darias News — The Morning of September 11, 2001 |
+| 27.8:1 | 316,441 / 11,400 | 2026-03-04 | Perplex — The 9/11 Hijacking |
+| 18.0:1 | 5,006,915 / 278,000 | **2026-09-11** | The World History Channel — Minute by Minute As It Happened |
+
+**Ceiling proof:** 21.3M (SMH/The Age, 265K subs) and 17.1M (Koller, 23.3K subs) — the
+largest ceiling in any sweep this factory has run. Rejected as channel authority: CNN 13.6M
+at 0.7:1, HISTORY 9.75M at 0.6:1, Nat Geo 2.36M at 0.1:1, ~40 network anniversary specials
+all ≤0.1:1.
+
+### ⛔ THE WAVE READING IS CORRECTED — it is at crest, not decaying
+PUBLISHABLE.md (2026-09-13) recorded the 25th-anniversary wave as decaying and said the next
+topic should be non-9/11. **That was inferred from this channel's own two uploads, not from
+the market, and the market says the opposite.** 8.4M views in four days on an 80K-sub
+channel; 5.0M in three days; 77.5K on a **135-sub** channel — all dated Sept 7-12. The
+uploads carrying this wave are days old and still climbing. Saturation is the biosphere2
+pattern, not rogue-planets: a farm cluster exists (History Altas 208 v / 912 subs) but
+coexists with live breakouts, so distribution is open.
+**Consequence: ship fast.** The crest is the asset and it is perishable.
+
+### Step 3 — recognition: 3/3, giant-name class
+9/11 is the highest-recognition subject on earth — higher than MH370, which is this
+channel's only other topic ever granted a real impressions pool (399.5K impressions vs
+Tenerife's 20.1K). Mainstream footprint total. Alive right now: the anniversary was three
+days ago and fresh uploads are doing millions.
+
+### ⛔ THE FRAMING CONSTRAINT — this is the whole bet, and it is a hard one
+**Every large winner in this lane wins on network broadcast footage, which we cannot use.**
+Koller is a realtime dashboard of broadcast feeds; Mark Davis is a straight NBC *Today*
+reupload; The World History Channel's own title sells "Uncensored Footage." CLAUDE.md bans
+all of it — Content-ID fingerprinted regardless of clip length, no "few seconds" safe
+harbour, and a hit risks the channel's monetization rather than one video.
+
+**We cannot compete on their axis, so we must not try.** The differentiator is the one this
+channel already proved on `noradtapes`: **the day told through primary evidence** — the
+NEADS/FAA tapes (PD, already on disk), the Commission's own exhibits, the NIST and Pentagon
+engineering reports. Audio-led, document-led, not footage-led. A timeline video that tries
+to be the broadcast montage will lose to channels that simply take the footage.
+
+### The moat — five verified fact-packs this factory already owns
+Inventoried 2026-09-14 into `scratchpad/911master_inventory.md` (867 lines): **~65 distinct
+timestamped events, 8:00 a.m. to 5:21 p.m., already CONFIRMED** across CLAIMS-noradtapes
+(984 lines), -flight93, -wtccollapse, -thegrounding. Every one already adversarially
+fact-checked. **No competitor in this lane is assembling from a base like this.**
+`groundzeroair` contributes zero day-of events — it is pure aftermath from Sept 18.
+
+**8 CONFLICTS the inventory surfaced — these are the episode's spine, not its problems.**
+A timeline that shows its working where the record disagrees is the thing the 17M-view
+dashboard cannot do:
+1. **9:42 (Commission/Sliney) vs 9:45 (Mineta's sworn testimony + the FAA's own 2026
+   timeline)** — who ordered the national landing. ⛔ The Newsday gloss ("Mineta gave the
+   order about an hour after Sliney") appears nowhere in the Commission text — never repeat it.
+2. NORAD's false 9:16/9:24 notification claims — documented near-identically in BOTH
+   noradtapes and flight93 (same N334AA hinge, same Marr email). **Do not tell it twice.**
+3. "ATC zero" — 9:03 (McCormick's own retelling) vs 9:05 (Commission/SS17).
+4. The destroyed "Bat Cave" tape — five controllers (DOT OIG) vs six (contemporaneous press).
+5. UA93 crash — 10:03:11 (primary) vs 10:06 (the seismic study).
+6. Diversions to Canada — 224 flights / 33,000+ pax (Transport Canada) vs 239 aircraft
+   (NAV CANADA); Halifax alone has four competing official counts (40/44/47).
+7. "700 aircraft down within" — 4 minutes (FAA) vs 10 (Sliney) vs "within minutes" (Mineta).
+8. `thegrounding`'s own locked title breaks on two of three claims — the sky was not clear
+   for 2h34m, and "one order" is conflict #1.
+
+### THE GAPS — what must be researched fresh before scripting
+1. **American 77 and the Pentagon — a total gap.** No fact-pack narrates the hijacking, the
+   strike, the building damage or the casualties. Needs: Pentagon Building Performance
+   Report, ASCE, Arlington County After-Action Report.
+2. **AA11 and UA175 as human events** — boarding, hijacking mechanics, the impacts.
+   wtccollapse treats the impacts as engineering data only.
+3. **The tower evacuations** — stairwells, elevators. NIST NCSTAR 1-7; Commission Ch. 9.
+4. **FDNY/NYPD and the radio-interoperability failure.** NIST NCSTAR 1-8, the McKinsey
+   Report to FDNY, the FDNY oral histories.
+5. **The afternoon and evening** — Bush's day (Sarasota, Barksdale, Offutt, the 8:30 p.m.
+   address), the first casualty figures. Covered by nothing.
+
+### Step 4 — sensitivity gate: FIRES, hardest of any topic this channel has covered
+CLAIMS-flight93 already records this as "the highest of any topic this channel has covered."
+Carried forward wholesale: real named dead private citizens; living families who have spoken
+publicly for 25 years; the restricted UA93 CVR exhibit; living named officials whose conduct
+is contested (attributed-never-asserted). **Plus new for this episode: the KSM military
+tribunal is a live, ongoing legal proceeding — nothing may read as adjudicating guilt beyond
+what is on the record.** ⛔ Never platform conspiracy claims; the channel's Building 7
+episode is the reference for how that line is held.
+
+### ⚠ TWO FOOTAGE TRAPS, both verified on disk 2026-09-14
+- The `noradtapes` archive.org collection sits in the **same folder as copyrighted network
+  broadcast dubs.** Provenance must be checked per-file, not per-collection.
+- **FEMA 403 photography carries individual photographer copyrights that do NOT inherit the
+  report's PD mark** — wtccollapse used only the diagrams, deliberately. Same rule here.
+
+### Step 4.5 — PACKAGE (ctr-engine Run A, 2026-09-14) — titles LOCKED, thumbnail B PROBED OK
+
+**THE SPINE — the one thing that makes this more than a montage.**
+Do not build "the timeline with the footage." We lose that fight: every large winner in
+this lane runs network broadcast archive and we are banned from all of it. Build the day as
+**one continuous communications failure**, because that is what the primary evidence
+actually shows and it is the one version only an evidence-engine channel can tell:
+
+- 8:24 — "We have some planes." The transmission goes to the wrong place and the
+  controller does not hear it live (NT correction #1).
+- 8:46-9:03 — the second impact reaches the world by television before it reaches the
+  agencies responsible for the airspace.
+- 9:37 — the Pentagon is struck by an aircraft the system had already lost.
+- 9:42 vs 9:45 — the order to land a continent, and a record that still cannot agree on
+  who gave it (conflict #1).
+- 9:59 — the South Tower falls. The evacuation order goes out to the North Tower within
+  about a minute — but WITHOUT the Mayday-repetition protocol.
+  ⚠ **DO NOT SAY "THE RADIOS FAILED."** Research 2026-09-14 overturned the easy version:
+  Commission investigators, after reviewing ~78 minutes of FDNY radio tape, believed the
+  repeater and radios **were in fact working**. 🧍 Chief Joseph Pfeifer told Commission
+  staff his repeater attempt failed; investigators concluded he had switched frequencies;
+  the Port Authority maintained the system worked. Ch. 9 does not resolve it and neither
+  do we. The honest and more interesting beat: the order WAS sent, and whether it was
+  heard is still disputed 25 years later. Attributed, named, never adjudicated — and the
+  Commission frames the fault as systemic (a two-button console, civilian-operated,
+  ambiguously half-working), never personal. **This episode assigns no personal blame.**
+- 10:04 and 10:08 — NYPD aviation transmits assessments of the North Tower's instability.
+  FDNY lobby command **had no radio on which to receive them.** This one is NOT disputed,
+  and it is the load-bearing instance of the thesis — prefer it over the repeater story
+  wherever the script needs the failure stated plainly.
+- 10:03 — UA93 goes down in Pennsylvania. The fighters sent up are not where anyone
+  believes they are.
+- ~10:10-10:31 — the shootdown authorization is given. The Commission's finding is that
+  it **did not reach the pilots**.
+- 17:21 — WTC 7.
+
+Every act is the same failure in a different uniform. That thesis is Commission-supported,
+carries zero conspiracy freight, needs no broadcast footage to prove — it is carried by
+tapes, transcripts and radio logs — and it is the honest answer to "how did it all happen."
+
+**Curiosity gap (one sentence):** on the most recorded day in history, almost nothing that
+was said reached the people who needed to hear it.
+
+```
+Title (LOCKED): 9/11: The Orders That Never Arrived              (35 chars)
+  alternates: Four Planes. Nobody Could Talk to Anybody.          (42)
+              The Evacuation Order Nobody Could Hear              (38)
+  Scored (curiosity / first-3-words / payoff honesty / mobile length):
+    A  9 / 9 /  9 / 9 = 9.00   ← carries the recognized noun AND the thesis
+    B  9 / 9 /  9 / 8 = 8.75   ← strongest stopping power, but drops "9/11", which
+                                  costs suggested-adjacency mapping to the cluster below
+    C  9 / 8 /  8 / 9 = 8.50   ← promises one act; the episode is the whole day
+  Clears the >=7 kill bar. No ALL-CAPS, no ellipsis, no question form, negative-emotion
+  statement, payload noun front-loaded.
+  ⛔ AUTO-REJECTED and never to be revived: any title implying the official account is a
+  lie or a cover-up. The contradictions in the record are real and are the spine, but
+  "the official story is false" is conspiracy vocabulary, would summon that audience into
+  the comments, and is not what the documents say. Building 7 is this channel's reference
+  for holding that line.
+
+Thumbnail A (PROVISIONAL — primary): an FDNY handie-talkie radio, the physical object at
+  the centre of the failure. Dark ground, peak brightness on the handset only, zero text.
+  Unidentifiable-but-intriguing at 170px, which IS the curiosity gap.
+  asset: NOT YET PROBED — Smithsonian NMAH and the 9/11 Memorial Museum hold these
+  artifacts; licence must be established before lock. ⚠ THE PACKAGE CANNOT LOCK ON THIS
+  UNTIL IT PROBES OK. The footage-scout dimension is tasked with settling it.
+Thumbnail B: the Pentagon's collapsed Wedge 1 section — real 2001 archival, federal PD,
+  visually unlike every competitor in the lane, who all use tower imagery. Also pays off
+  the biggest gap we are filling. Zero text.
+  asset: ✅ **PROBED OK 2026-09-14, ON DISK** —
+  `public/shorts/sept11timeline/images/pentagon_wedge_1.jpeg`, "Aerial view of the
+  Pentagon during rescue operations post-September 11 attack" by **TSGT Cedric H.
+  Rudisill, USAF — PUBLIC DOMAIN** (US federal work), via Wikimedia Commons.
+  This is genuine 11 Sept 2001 imagery of the damaged wedge, licence-clean, and it
+  satisfies ctr-engine's "the real archival asset IS the differentiator" rule.
+  **B is now the buildable primary unless the FDNY handie-talkie (A) clears.**
+  ⚠ It is a STILL. It settles the THUMBNAIL only — the first-30s real-MOTION
+  requirement is untouched and still unsolved.
+Thumbnail C: a page of the 9/11 Commission's own timeline exhibit as the focal object —
+  the Black Box exhibit grammar. Weakest squint test; fallback only.
+  asset: 9/11 Commission Report, GPO PDF already on disk at public/shorts/_evidence/noradtapes/docs/GPO-911REPORT.pdf (585pp).
+
+Suggested-adjacency (riff, NEVER clone — verbatim clones of big titles demonstrably flop
+  on cold channels, twice-evidenced on this factory's own uploads):
+  Christian Koller "9/11 attacks in realtime" 17.1M https://youtu.be/zx8_Pumdkpg /
+  SMH & The Age "9/11, 2001 as it happened" 21.3M https://youtu.be/d2wVb_AILso /
+  History with Charley "September 11th Attacks in REALTIME" 397K
+  https://youtu.be/NmyxGQ-tz10 / SmartHER News 8.4M https://youtu.be/ouiaBGFg1iI
+
+First-30s handoff: the cold open is 9:59 — the South Tower is down, the evacuation order
+  goes out, and it does not arrive. Then the title card, then the day from 7:59. Opening
+  on the thesis beat and restarting chronologically is the standard doc structure and it
+  lets the thumbnail's promise land inside the first 30 seconds.
+  ⛔ HARD CONSTRAINT: those 30 seconds must be REAL MOTION FOOTAGE, must not be broadcast
+  material, and must not be byte-identical to any file another slug in this repo used
+  (render-blocking preflight failure). Securing that clip is the single highest-risk
+  unsolved item in this package.
+```
+
+### Owed before production starts
+ctr-engine Run A (packaging-first gate — no package, no production), the Pentagon/AA77
+research fan-out, and a first-30s real-motion-footage source that is verifiably not
+broadcast material.
+
 ## ⭐ hadalpollution (mindwired) — validated 2026-09-13, PASS, in production
 
 **What they found at the bottom of the deepest trenches on Earth: our own chemicals.**

@@ -343,6 +343,31 @@ placeholders; full copy in memory `blackbox-published-urls`):**
   outro's own audio (stop the last window at body-end, before the outro
   Sequence). Short-form docs (~5 min or less, like spaceanimals) can keep the
   plain continuous `--music` flag — this only bites on longer/heavier docs.
+- **Generated (original) beds — scaffold built 2026-09-16, NOT yet live.** Goal:
+  one original stem per episode via Higgsfield so no bed is ever recognizable
+  from another channel and nothing can Content-ID match. Probe facts (checked,
+  not assumed): the MCP's only music model is `sonilo_music`, catalog-labelled
+  "Game pipeline only" (the generate_audio tool text says to decline standalone
+  music); `get_cost` prices it at 0.0625 credits/sec (30s=1.88, 180s=11.25,
+  600s=37.5, no length ceiling surfaced); balance was 0 credits / free plan, so
+  a real job is UNPROVEN. Do not treat this as a working source until one stem
+  has been generated, listened to, and its FAL/Sonilo licence terms read.
+  Workflow when unblocked: `python3 scripts/gen_music_bed.py plan <slug> <tone>`
+  prints the windows, a 30-60s stem length (mix_music_windowed loops the stem,
+  windows are ~22-30s, so long generation is unnecessary), the credit math and
+  the exact `generate_audio` params — Claude runs it with `get_cost:true` FIRST
+  (higgsfield-broll-pipeline preflight rule), then for real; then
+  `gen_music_bed.py ingest <slug> <tone> <rawUrl> --model … --prompt '…'`
+  normalizes to `public/beds/generated/<slug>_<tone>_<n>.mp3` and appends the
+  provenance row (model, date, exact prompt) to `public/beds/LICENSES.md` —
+  a generated file without a row is unshippable. **Prompts describe
+  instrumentation/tempo/mood only — never an artist, song, soundtrack or
+  "in the style of" (the script refuses); YouTube Charts / trending tracks are
+  banned as audio, same Content-ID reason as broadcast footage.** Master with
+  the same ONE pass: `--music public/beds/generated/<file> --windows <slug>`.
+  Note `--windows` already computes the cold-open/chapter/closing windows from
+  the manifest via doctiming.music_windows() — verified on sept11timeline
+  (9 windows, 226s scored of 1904s body, last window ends at body-end).
 - Long-forms: listicle/ranked structure ("8 theories… each more unsettling") — this
   is the proven format for the niche (see memory: icahn-scary-space-niche).
   Use `word` scenes as chapter cards; vary the scene every 1-2 lines; give each

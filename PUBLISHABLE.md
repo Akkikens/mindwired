@@ -1,7 +1,7 @@
 # PUBLISHABLE — what is finished, what is blocking it
 
-Updated 2026-09-13 15:20 from actual repo and channel state, verified with yt-dlp and
-ffprobe rather than memory. Keep it current: `publish-video` updates the row it ships,
+Updated 2026-09-15 from actual repo and channel state, verified with ffprobe, ffmpeg
+ebur128 and frame sampling rather than memory. Keep it current: `publish-video` updates the row it ships,
 `doc-episode` adds a row when a master lands.
 
 **The backlog the 2026-08 audit flagged is gone.** Everything that was rendered-and-sitting
@@ -11,6 +11,167 @@ the loop is carrying.
 ---
 
 ## 🟢 READY TO UPLOAD — everything below is copy-paste, nothing else to build
+
+### sept11timeline — Black Box Breakdown — **9/11: The Orders That Never Arrived**
+
+Rendered 2026-09-14. Packaged 2026-09-15 off the master and the measured SRT, not the
+model's estimates. Title was LOCKED by ctr-engine Run A (2026-09-14, scored 9.00).
+
+| Asset | Path | Verified |
+|---|---|---|
+| Master | `9-11 - The Orders That Never Arrived.mp4` (root) | 3840×2160 · **32:00** · 5.80 GB · **−14.0 LUFS** (LRA 4.1) · 57,612 frames · blackbox outro baked in |
+| Captions | `9-11 - The Orders That Never Arrived.srt` (root) | **464 cues**, measured off the master (00:00:00,380 → 00:31:39,960) |
+| **Thumb B2 (PICK)** | `out/thumbs/sept11timeline_B2_wedge_flag.png` | **1280×720, built 2026-09-16.** Pentagon Wedge 1 + the flag on the west face. Zero text. Gash reads at 170px, flag carries instant 9/11 recognition, and no competitor in this lane uses Pentagon imagery — they all use towers |
+| Thumb B1 (alt) | `out/thumbs/sept11timeline_B1_wedge.png` | Same crop without the flag — cleaner, but loses the recognition cue |
+| Thumb B3 (reject) | `out/thumbs/sept11timeline_B3_gash_tight.png` | Tight on the gash. Fails the squint test — reads as generic rubble at 170px |
+| Source | `public/shorts/sept11timeline/images/pentagon_wedge_1.jpeg` | 1920×1251, TSGT Cedric H. Rudisill, USAF — **public domain** (US federal work), probed 2026-09-14 |
+| Thumb C (fallback) | `public/shorts/_evidence/noradtapes/docs/GPO-911REPORT.pdf` | Commission timeline exhibit page — exhibit grammar, weakest squint test |
+
+**QA run 2026-09-15 before ship:**
+- Loudness −14.0 LUFS — exactly YouTube's target, no adjustment needed.
+- **Visual variety is clean.** 51 distinct visuals over 137 scenes; heaviest asset is
+  `ops_floor_1.mp4` at **8.4% of runtime** (noradtapes, the episode that triggered the
+  monotony rule, ran one clip across **26%**). **Zero** back-to-back runs of 3+ on the
+  same visual. The one real reuse hotspot is `pentagon_wedge_1.jpeg` — a single file
+  carrying 5 scenes — and `atc_scope` at 2 files over 6 scenes.
+- **Portrait-source sweep: passes.** 0 portrait video. Of 31 images, 16 are portrait and
+  all 16 are `ex_` document exhibits, which route to `ExhibitScene` and are *meant* to be
+  portrait. This master does **not** carry the flight93 face-crop defect.
+- 128 frames sampled at 15s intervals and machine-checked for pillarboxing: the hits are
+  radio scenes (centred waveform), exhibit pages and chapter cards — all correct by design.
+
+**One known blemish, non-blocking:** `wtc_exterior_2.jpg` (1280×2236) is a portrait photo
+in a photo scene, so it renders pillarboxed with ~68% of the frame as blurred backdrop.
+It lands on **one** beat (the North Tower impact) via pool rotation. The new preflight gate
+flags it. Not worth a 32-minute re-render; refetch landscape before any future cut.
+
+#### TITLE
+```
+9/11: The Orders That Never Arrived
+```
+Alternates, only if the thumbnail test settles first:
+1. `Four Planes. Nobody Could Talk to Anybody.` (8.75)
+2. `The Evacuation Order Nobody Could Hear` (8.50)
+
+⛔ Never revive any title implying the official account is a lie or a cover-up. The
+contradictions in the record are real and are this episode's spine, but that phrasing is
+conspiracy vocabulary and summons that audience into the comments. Building 7 is the
+reference for holding the line.
+
+#### DESCRIPTION (paste whole)
+```
+At 9:59 in the morning the South Tower came down. It had stood fifty-six minutes after it
+was hit, and it fell in ten seconds. Two hundred metres away, inside the North Tower,
+firefighters were still climbing. Within about a minute an order went out over the radio
+from the lobby command post: evacuate, get out of the building.
+
+That order was sent. Whether it was heard is still disputed twenty-five years later.
+
+This is September 11th told as one continuous communications failure, because that is what
+the primary record actually shows. Not the broadcast footage — the tapes, the transcripts
+and the radio logs. The day from 7:59 in the morning to 5:21 in the afternoon, assembled
+from the 9/11 Commission Report and its staff statements, the NEADS and FAA tapes released
+under FOIA, the NIST NCSTAR reports on the towers, the Pentagon Building Performance Report
+and the Arlington County After-Action Report.
+
+Seven acts, and every one of them is the same failure wearing a different uniform:
+
+At 8:24 a hijacker keys a microphone and says "we have some planes." The transmission goes
+to the wrong place and the controller does not hear it live.
+
+Between 8:46 and 9:03 the second impact reaches the world by television before it reaches
+the agencies responsible for the airspace.
+
+At 9:37 the Pentagon is struck by an aircraft the system had already lost.
+
+At 9:42 — or 9:45, depending on which official record you read — someone orders every
+aircraft in American airspace to land. The record still cannot agree on who gave that order.
+
+At 10:04 and 10:08 NYPD aviation transmits assessments of the North Tower's instability.
+FDNY lobby command had no radio on which to receive them. That one is not disputed.
+
+At around 10:10 the shootdown authorization is given. The Commission's finding is that it
+never reached the pilots.
+
+And at 17:21, a third building.
+
+On the most recorded day in history, almost nothing that was said reached the people who
+needed to hear it.
+
+A note on what this video does not do. It assigns no personal blame — the Commission frames
+these failures as systemic, and so do we. It does not adjudicate the disputes in the record;
+where two official sources disagree, we show you both and say so. It does not platform
+conspiracy claims. And it uses no network broadcast footage: everything here is primary
+evidence, government imagery, or clearly labelled recreation.
+
+Where a recording is real docket audio it is labelled ACTUAL RECORDING. Where a line is
+performed from a transcript it is labelled RECREATION. We never mix those two up.
+
+Sources are listed in the pinned comment.
+```
+
+#### CHAPTERS (measured off the master SRT — paste into the description)
+```
+0:00 9:59 — the order that went out
+2:02 Act I — The first message went to the wrong place
+5:53 Act II — Nine minutes was the most anyone got
+8:54 Act III — The plane nobody was looking for
+14:05 Act IV — Seventeen thousand people, and the stairs
+16:32 Act V — The order that went out at 9:59
+20:04 Act VI — The order that never arrived
+24:22 Act VII — The one order that did arrive
+29:16 Coda — The tape that was destroyed
+```
+Title card lands at 1:58; Act I opens at 2:02. YouTube requires the first chapter at 0:00,
+so the cold open carries it. All nine timestamps were matched against SRT cue text, not
+computed from scene durations — `gen_doc_srt` drifted 19s on a sister episode.
+
+#### TAGS
+```
+9/11, september 11, 9/11 timeline, world trade center, pentagon september 11,
+united 93, american 11, united 175, american 77, 9/11 commission report,
+norad tapes, faa tapes, air traffic control 9/11, wtc 7, fdny 9/11,
+september 11 documentary, 9/11 minute by minute, black box breakdown
+```
+
+#### PINNED COMMENT
+```
+Every claim in this video comes from the primary record. The main sources:
+
+• The 9/11 Commission Report and its staff statements (GPO, public domain)
+• NEADS and FAA audio released under FOIA (NORAD/USNORTHCOM, April 2008)
+• NIST NCSTAR 1-7 (occupant behaviour and egress) and 1-8 (emergency response)
+• The Pentagon Building Performance Report (ASCE) and the Arlington County
+  After-Action Report
+• Department of Transportation Inspector General report on the destroyed
+  New York ARTCC tape
+
+Where the official record contradicts itself, the video says so rather than picking the
+tidier version. Three of those conflicts are in here: who ordered the national ground stop
+(9:42 vs 9:45), when ATC lost the airspace picture (9:03 vs 9:05), and how many controllers
+had spoken onto the tape that was later destroyed (five vs six).
+
+No network broadcast footage is used anywhere in this video.
+```
+
+#### END SCREEN
+Bridge is spoken at the end of the master (scene `bridge`) and points at
+**The Tapes That Broke NORAD's 9/11 Story** (`noradtapes`) — put that video in the end
+screen slot, plus the subscribe element. Do not point at United 93 here; it is already
+surging on Browse and does not need the referral, whereas `noradtapes` is the newer upload
+carrying the same thesis.
+
+#### SUGGESTED-ADJACENCY TARGETS (riff, never clone)
+Christian Koller "9/11 attacks in realtime" 17.1M · SMH/The Age "9/11, 2001 as it happened"
+21.3M · SmartHER News 8.4M · History with Charley "September 11th Attacks in REALTIME" 397K
+
+#### ✅ NOTHING BLOCKING — this is ready to upload
+The thumbnail was the last open item and it is built (2026-09-16). Upload **B2**. All three
+crops carry a radial falloff so peak brightness sits on the collapse: B2 measures 13.8% of
+the frame above L150, which clears the house "one focal element separated by brightness"
+rule. Do not let YouTube auto-pick a frame — it will grab a chapter card.
+
+---
 
 ### hadalpollution — mindwired — **What They Found Inside the Deepest Animals on Earth**
 
@@ -339,10 +500,21 @@ against MH370 (kRjhzp4Ho9k) for Black Box.
 older entries predate the current gates and would need re-validation, since ratios are
 point-in-time (the Kola Superdeep lesson).
 
-Worth noting for the wave calendar: the 25th-anniversary 9/11 wave that carried Building 7
+~~Worth noting for the wave calendar: the 25th-anniversary 9/11 wave that carried Building 7
 and United 93 to the channel's #2 and #3 slots **is decaying**. Two 9/11 episodes are now
 live into it and a third is rendering. The topic after this one should be a non-9/11
-giant name, chosen off real launch data.
+giant name, chosen off real launch data.~~
+
+**⚠ CORRECTED 2026-09-14 — the wave is at CREST, not decaying.** The paragraph above was
+inferred from this channel's own two launches, with no market sweep behind it. A live
+yt-dlp sweep the next day (8 queries, 200 raw → 108 deduped) found three fresh uploads
+days old and still climbing: SmartHER News 8,395,722 v / 79,800 subs (Sep 10), The World
+History Channel 5,006,915 v / 278,000 subs (Sep 11), Bitesize Education 77,530 v / **135
+subs** (Sep 7). A weak launch of ours is a CTR/packaging signal inside our pool; the sweep
+measures the pool's size. They are different measurements and must not be conflated — see
+LAUNCH-LESSONS.md 2026-09-14. **`sept11timeline` (the master minute-by-minute episode) is
+validated PASS/extreme-class off that sweep and is the next Black Box topic; the crest is
+perishable, so it ships fast.**
 
 ---
 

@@ -61,3 +61,23 @@ library terms.
 
 The old `doc_awe/doc_tension/doc_open/doc_somber.mp3` files remain BANNED
 (viewer complaints, 2026-07-25) — kept on disk only so old comps don't 404.
+
+## generated/ — original per-episode beds (scaffold added 2026-09-16; NOTHING generated yet)
+Goal: replace the fixed 8-track library with an original, generated stem per
+episode so no viewer ever recognizes a bed from another channel, and so nothing
+here can ever Content-ID match a commercial track. Rules: prompts describe
+instrumentation/tempo/mood only — never an artist, song, soundtrack or
+"in the style of" (scripts/gen_music_bed.py refuses such prompts). Every file
+in `generated/` MUST have a row below, written by `gen_music_bed.py ingest`,
+so the licence question ("where did this audio come from?") is answerable.
+
+Probe result 2026-09-16 (Higgsfield MCP, evidence not assumption): the only
+music model is `sonilo_music` (FAL), labelled "Game pipeline only" in the
+catalog; get_cost prices it at 0.0625 credits/sec (30s=1.88, 180s=11.25,
+600s=37.5); account balance was 0 credits on the free plan, so no stem has
+been generated and the model's acceptance of a standalone music job is
+UNPROVEN. Licence terms for Sonilo/FAL output have NOT been reviewed — do
+that before the first ingested bed ships in a monetized upload.
+
+| file | model | generated | tone | length | loudness | exact prompt |
+|---|---|---|---|---|---|---|

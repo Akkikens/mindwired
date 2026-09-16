@@ -1,0 +1,1361 @@
+{
+ "slug": "sept11timeline",
+ "title": "9/11: The Orders That Never Arrived",
+ "channel": "blackbox",
+ "niche": "aviation",
+ "language": "en",
+ "voice": "d46abd1d-2d02-43e8-819f-51fb652c1c61",
+ "scenes": [
+  {
+   "id": "h1",
+   "text": "Nine fifty nine in the morning. The south tower has just come down. It stood fifty six minutes after it was hit, then it was gone in ten seconds.",
+   "videoQuery": "firefighters emergency response street apparatus incident scene",
+   "stat": "9:59 A.M. · SEPT 11, 2001",
+   "cap": "The site. Fifty six minutes, then ten seconds.",
+   "motion": "slow",
+   "tone": "fear",
+   "video": "gz_10.mp4",
+   "note": "Footage is FEMA Ground Zero (DVIDS 734981), REAL and PD but from days after. The stat carries the narration's timestamp, NOT a claim that this frame was shot at 9:59; the cap says 'the site' for that reason. It replaced a Pexels clip of a modern VANCOUVER street (BC plate, Pride flag, metric fire truck) that sat under 'LOWER MANHATTAN' - caught only by eyeballing a still, never by the relevance audit."
+  },
+  {
+   "id": "h2",
+   "text": "Inside the north tower, two hundred metres away, there are still firefighters climbing. Within about a minute, an order goes out over the radio from the lobby command post. Evacuate. Get out of the building.",
+   "videoQuery": "two way radio communications equipment console closeup emergency",
+   "cap": "The order goes out.",
+   "tone": "fear",
+   "video": "radio_gear_1.mp4"
+  },
+  {
+   "id": "h3",
+   "text": "This film is about that order, and about a dozen others like it. Because the thing that keeps happening on September eleventh, over and over, in every agency, in every building, is that somebody says the right thing at the right time and it does not arrive.",
+   "videoQuery": "air defense sector operations floor radar scopes personnel dark room",
+   "cap": "Somebody says the right thing. It does not arrive.",
+   "motion": "slow",
+   "tone": "melancholy",
+   "video": "ops_floor_1.mp4"
+  },
+  {
+   "id": "h4",
+   "text": "At four minutes past ten, a New York police helicopter hovering beside the north tower radios that the top fifteen storeys are glowing red and the building is going to come down.",
+   "videoQuery": "helicopter aerial hovering over city buildings",
+   "stat": "10:04 A.M. · NYPD AVIATION",
+   "cap": "\"...glowing red.\"",
+   "tone": "fear",
+   "video": "nypd_heli_1.mp4"
+  },
+  {
+   "id": "h5",
+   "text": "Four minutes later the same pilot says he does not believe the tower will stand much longer. Both transmissions are real. Both are on the record. And the fire department commanders in the lobby of that tower do not hear either one.",
+   "videoQuery": "helicopter aerial hovering over city buildings",
+   "stat": "10:08 A.M. · NYPD AVIATION",
+   "cap": "10:08 — \"not much longer.\"",
+   "tone": "fear",
+   "video": "nypd_heli_2.mp4"
+  },
+  {
+   "id": "h6",
+   "text": "Not because they ignored it. Because they had no radio in that lobby capable of receiving a police department frequency. The two departments standing in the same disaster were not on the same system, and there was no way for one to hear the other.",
+   "videoQuery": "two way radio communications equipment console closeup emergency",
+   "cap": "No radio capable of receiving it.",
+   "extraHold": 20,
+   "tone": "anger",
+   "video": "radio_gear_2.mp4"
+  },
+  {
+   "id": "h7",
+   "text": "At ten twenty eight, the north tower comes down. It had stood for a hundred and two minutes.",
+   "videoQuery": "firefighters emergency response street apparatus incident scene",
+   "stat": "10:28 A.M. · 102 MINUTES AFTER IMPACT",
+   "cap": "102 minutes.",
+   "motion": "slow",
+   "tone": "fear",
+   "video": "gz_11.mp4"
+  },
+  {
+   "id": "h8",
+   "text": "Twenty three minutes before that, in Washington, the Vice President had authorised fighter pilots to shoot down a hijacked airliner. The nine eleven Commission established, years later, that the pilots were never given that order. The only instruction that ever reached them was to identify the type and tail number of what they saw.",
+   "videoQuery": "F-16 fighter aircraft air patrol formation flight aerial",
+   "cap": "The pilots were never given the order.",
+   "extraHold": 25,
+   "tone": "anger",
+   "video": "fighter_patrol_1.mp4"
+  },
+  {
+   "id": "h9",
+   "text": "This is the twenty fifth of September eleven, told through what was actually recorded. Not the footage. The tapes, the transcripts, the radio logs, and the reports that were written afterwards by people whose job was to find out what went wrong.",
+   "videoQuery": "air defense sector operations floor radar scopes personnel dark room",
+   "cap": "Told through what was recorded.",
+   "tone": "melancholy",
+   "video": "ops_floor_2.mp4"
+  },
+  {
+   "id": "sting",
+   "sting": true,
+   "text": "You're watching Black Box Breakdown.",
+   "img": "pentagon_wedge",
+   "query": "The Pentagon Arlington Virginia aerial view building",
+   "tone": "curiosity"
+  },
+  {
+   "id": "title",
+   "chapter": "9/11: The Orders\nThat Never Arrived",
+   "text": "September eleventh. The orders that never arrived.",
+   "img": "wtc_exterior",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a1_ch",
+   "chapter": "ACT I\nTHE FIRST MESSAGE WENT TO THE WRONG PLACE",
+   "text": "The first warning anyone on the ground received that morning was sent by accident, to a man who could not make out a word of it.",
+   "img": "atc_scope",
+   "query": "air traffic controller radar console tower interior",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a1_1",
+   "text": "Seven fifty nine in the morning. American eleven, a seven six seven bound for Los Angeles, lifts off from Boston Logan. Fourteen minutes later a Boston Center controller named Pete Zalewski tells it to turn twenty degrees right. The aircraft answers. It is the last instruction American eleven ever acknowledges.",
+   "videoQuery": "commercial airliner departure runway takeoff aviation",
+   "stat": "7:59 A.M. · AMERICAN 11 DEPARTS BOSTON",
+   "cap": "The last instruction it ever answered.",
+   "tone": "curiosity",
+   "video": "airliner_1.mp4"
+  },
+  {
+   "id": "a1_2",
+   "text": "At eight twenty one the transponder goes off. That is the box that tells the ground who you are and how high. Without it the aircraft becomes an anonymous dot among thousands. The controller does not yet think hijacking. Nothing in his training points there.",
+   "videoQuery": "radar screen air traffic display tracking aircraft dark",
+   "cap": "8:21 — the transponder goes off.",
+   "tone": "fear",
+   "video": "radar_scope_1.mp4"
+  },
+  {
+   "id": "a1_2a",
+   "text": "But the ground is not actually the first place this gets reported. It is reported from inside the aircraft, by two flight attendants, on the telephone, while it is happening.",
+   "videoQuery": "commercial airliner departure runway takeoff aviation",
+   "video": "airliner_2.mp4",
+   "cap": "It was reported from inside the aircraft.",
+   "tone": "fear"
+  },
+  {
+   "id": "a1_2b",
+   "text": "At nineteen minutes past eight, Betty Ong reaches American Airlines reservations in Cary, North Carolina. She stays on that line for about twenty three minutes.",
+   "videoQuery": "call centre office telephone headset operator",
+   "video": "airliner_3.mp4",
+   "stat": "8:19 A.M. · BETTY ONG CALLS AA RESERVATIONS",
+   "cap": "Twenty three minutes on the line.",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a1_2c",
+   "text": "Two minutes later, Madeline Amy Sweeney reaches a flight services manager at American's own operations at Logan, and talks to him for about twelve minutes.",
+   "videoQuery": "airport operations office staff desk interior",
+   "video": "airliner_1.mp4",
+   "stat": "8:21 A.M. · AMY SWEENEY CALLS LOGAN",
+   "cap": "Twelve minutes.",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a1_2d",
+   "text": "I am going to be careful with these two, because the record is careful with them. Several versions of what they said circulate, and they do not all match, and the Commission's own wording is not the wording most often quoted. So I will tell you what they did rather than put words in their mouths.",
+   "cap": "The versions don't all match.",
+   "tone": "melancholy",
+   "exhibit": true,
+   "img": "ex_cr_someplanes",
+   "source": "9/11 Commission Report · Chapter 1 · \"We Have Some Planes\"",
+   "highlight": [
+    0.1,
+    0.34,
+    0.8,
+    0.16
+   ]
+  },
+  {
+   "id": "a1_2e",
+   "text": "They described what was happening in the cabin, to people on the ground, calmly enough that those people could write it down. For thirty five minutes, the only accurate account of the first hijacking in American history to end in a building came from two members of cabin crew on a telephone.",
+   "cap": "The only accurate account came from the cabin.",
+   "extraHold": 25,
+   "tone": "melancholy",
+   "exhibit": true,
+   "img": "ex_cr_ong",
+   "source": "9/11 Commission Report · Chapter 1 · the Ong and Sweeney calls",
+   "highlight": [
+    0.1,
+    0.32,
+    0.8,
+    0.18
+   ]
+  },
+  {
+   "id": "a1_2f",
+   "text": "And that is the pattern setting itself up. The best information anyone had that morning was almost never in the hands of the people with the authority to act on it.",
+   "videoQuery": "air defense sector operations floor radar scopes personnel dark room",
+   "video": "ops_floor_1.mp4",
+   "cap": "The best information was in the wrong hands.",
+   "extraHold": 20,
+   "tone": "anger"
+  },
+  {
+   "id": "a1_3",
+   "exhibit": true,
+   "img": "ex_ss17_protocol",
+   "source": "9/11 Commission Staff Statement No. 17 · \"Improvising a Homeland Defense\" · June 17, 2004",
+   "highlight": [
+    0.1,
+    0.3,
+    0.8,
+    0.2
+   ],
+   "text": "Because the procedure on the books assumed something very specific. It assumed the pilot would tell you. Over the radio, or by setting the transponder to seven five zero zero, the code for a hijack. The hijacking in the manual was a negotiation that would land somewhere and be talked through.",
+   "cap": "The manual assumed the pilot would tell you.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a1_4",
+   "text": "At twenty four minutes and thirty eight seconds past eight, a voice comes over the frequency. It is not the pilot. Whoever is holding the microphone in that cockpit has keyed the wrong one, and is speaking to the cabin, and reaching the ground instead.",
+   "videoQuery": "radar screen air traffic display tracking aircraft dark",
+   "cap": "He keyed the wrong microphone.",
+   "tone": "fear",
+   "video": "radar_scope_2.mp4"
+  },
+  {
+   "id": "a1_5",
+   "text": "We have some planes.",
+   "speaker": "AMERICAN 11 — RECORDED ON THE ATC FREQUENCY",
+   "radioLabel": "RECREATION",
+   "timestamp": "8:24:38 A.M. EDT",
+   "cap": "RECREATION · the transmission, as transcribed",
+   "source": "Transcript text: 9/11 Commission Staff Statement No. 17. Voiced recreation — NOT the FAA tape.",
+   "videoQuery": "radar screen air traffic display tracking aircraft dark",
+   "extraHold": 25,
+   "tone": "fear",
+   "note": "LABEL DOWNGRADED TO \"RECREATION\" 2026-09-14, deliberately. This scene previously carried \"ACTUAL FAA ATC RECORDING\". The real FOIA tape cut exists in public/shorts/_evidence/noradtapes/audio/, but PUBLISHABLE.md records that the four ACTUAL-labelled cuts in the PUBLISHED noradtapes episode have never been ear-checked by a human - content was matched against the printed transcript, which is not listening. Until a human listens and places the cut, a synthesised voice under an \"ACTUAL RECORDING\" label would be a false honesty label, which is the worst defect this channel can ship. RECREATION is true as written. TO UPGRADE: ear-check the tape, place the real audio, restore the label.",
+   "video": "radar_scope_1.mp4"
+  },
+  {
+   "id": "a1_6",
+   "text": "Some planes. Plural. It is the single most important sentence spoken anywhere that morning, and here is what the record says about it. The controller could not make it out. What he heard was something unintelligible.",
+   "videoQuery": "air defense sector operations floor radar scopes personnel dark room",
+   "cap": "\"...something unintelligible.\"",
+   "extraHold": 15,
+   "tone": "fear",
+   "video": "ops_floor_2.mp4"
+  },
+  {
+   "id": "a1_7",
+   "text": "He replayed it. He asked colleagues to listen. It took roughly forty minutes before anyone in a position to act understood that the word was planes, and by then two of them had already been flown into buildings. The warning existed from twenty four minutes past eight. It just did not arrive.",
+   "cap": "The warning existed. It did not arrive.",
+   "extraHold": 20,
+   "tone": "anger",
+   "exhibit": true,
+   "img": "ex_ss17_protocol",
+   "source": "9/11 Commission Staff Statement No. 17 · June 17, 2004",
+   "highlight": [
+    0.1,
+    0.34,
+    0.8,
+    0.16
+   ]
+  },
+  {
+   "id": "a1_7a",
+   "text": "Ten minutes after the first one, the same voice comes back.",
+   "video": "radar_scope_2.mp4",
+   "videoQuery": "radar screen air traffic display tracking aircraft dark",
+   "cap": "A second transmission.",
+   "tone": "fear"
+  },
+  {
+   "id": "a1_7a2",
+   "text": "Nobody move please. We are going back to the airport.",
+   "speaker": "AMERICAN 11 — SECOND TRANSMISSION",
+   "radioLabel": "RECREATION",
+   "timestamp": "8:34 A.M. EDT",
+   "cap": "RECREATION · second transmission, 8:34 a.m.",
+   "source": "Transcript text: 9/11 Commission Staff Statement No. 17. Voiced recreation — NOT the FAA tape.",
+   "video": "radar_scope_1.mp4",
+   "extraHold": 20,
+   "tone": "fear",
+   "note": "Radio scenes must contain ONLY the quoted transmission. The original a1_7a merged narration and quote, so radio_recreate voiced the narration in the hijacker's voice. Split 2026-09-14."
+  },
+  {
+   "id": "a1_7b",
+   "text": "That one is clearer, and it tells the controller he has a hijacking. What it does not tell him, because the first transmission was unintelligible, is that the word was plural.",
+   "videoQuery": "radar room air traffic controllers dark scopes military",
+   "video": "radar_scope_2.mp4",
+   "cap": "Nobody knew it was plural.",
+   "tone": "fear"
+  },
+  {
+   "id": "a1_7c",
+   "text": "Think about what that one missing word costs. If some planes is understood at twenty four minutes past eight, then at that moment the entire system knows this is not one aeroplane and one negotiation. It knows to look for the others. Nobody looks for the others until the second one has already hit.",
+   "videoQuery": "air defense sector operations floor radar scopes personnel dark room",
+   "video": "ops_floor_1.mp4",
+   "cap": "Nobody looked for the others.",
+   "extraHold": 25,
+   "tone": "anger"
+  },
+  {
+   "id": "a1_7d",
+   "text": "At thirty four minutes past eight, Boston Center goes off the books. It tries to reach the military directly, through a base on Cape Cod, and through a site in Atlantic City that had already been decommissioned. There is no phone number written down anywhere for the thing that is happening.",
+   "videoQuery": "military radar operations centre personnel consoles",
+   "video": "ops_floor_2.mp4",
+   "cap": "There was no number to call.",
+   "tone": "anger"
+  },
+  {
+   "id": "a2_ch",
+   "chapter": "ACT II\nNINE MINUTES WAS THE MOST ANYONE GOT",
+   "text": "There is a number that defines the whole morning, and it is not a big one. Nine minutes.",
+   "img": "atc_scope",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a2_1",
+   "text": "At thirty seven minutes and fifty two seconds past eight, Boston Center reaches the North East Air Defense Sector in Rome, New York, and says it has a hijacked aircraft. The Commission staff called that call the moment the air defence of America began that morning.",
+   "videoQuery": "air defense sector operations floor radar scopes personnel dark room",
+   "stat": "8:37:52 A.M. · BOSTON CENTER REACHES NEADS",
+   "cap": "\"The air defense of America began with this call.\"",
+   "tone": "fear",
+   "video": "ops_floor_1.mp4"
+  },
+  {
+   "id": "a2_2",
+   "text": "American eleven hit the north tower at forty six minutes and forty seconds past eight. From the first military notification to impact is under nine minutes. And nine minutes turned out to be the most warning anybody got about anything, all day.",
+   "kinetic": {
+    "count": 9,
+    "suffix": " minutes of warning — the maximum",
+    "sub": "American 11: 8:37:52 notification → 8:46:40 impact"
+   },
+   "img": "atc_scope",
+   "tone": "fear"
+  },
+  {
+   "id": "a2_3",
+   "text": "Three minutes before that call, Boston Center had already gone off protocol. It tried to reach the military directly, through a base on Cape Cod and through a site in Atlantic City that had been decommissioned. There was no established line for what was happening, so people started improvising inside the first fifteen minutes.",
+   "videoQuery": "air defense sector operations floor radar scopes personnel dark room",
+   "cap": "No line existed. They improvised.",
+   "tone": "anger",
+   "video": "ops_floor_2.mp4"
+  },
+  {
+   "id": "a2_4",
+   "text": "At forty six minutes past eight, fighters at Otis on Cape Cod are ordered to scramble. The order goes out before anyone has permission to give it. The commanders' own account is blunt. Go ahead and scramble, we'd get permission later.",
+   "videoQuery": "fighter jet scramble takeoff afterburner air national guard",
+   "stat": "8:46 A.M. · OTIS SCRAMBLE ORDERED",
+   "cap": "\"...we'd get permission later.\"",
+   "tone": "fear",
+   "video": "fighter_scramble_1.mp4"
+  },
+  {
+   "id": "a2_4a",
+   "text": "Those fighters get airborne from Otis at fifty three minutes past eight. And then they are held, in military airspace off Long Island, between eight minutes and thirteen minutes past nine.",
+   "videoQuery": "F-16 fighter aircraft air patrol formation flight aerial",
+   "video": "fighter_patrol_2.mp4",
+   "stat": "9:08–9:13 A.M. · HELD OFF LONG ISLAND",
+   "cap": "Held offshore.",
+   "tone": "fear"
+  },
+  {
+   "id": "a2_4b",
+   "text": "Not because anyone was being cautious. Because nobody could tell them where to go. There was no target to give them. The aircraft they had been scrambled for had already hit a building, and the second one had not been identified to them yet.",
+   "videoQuery": "air defense sector operations floor radar scopes personnel dark room",
+   "video": "ops_floor_1.mp4",
+   "cap": "There was no target to give them.",
+   "extraHold": 20,
+   "tone": "anger"
+  },
+  {
+   "id": "a2_4c",
+   "text": "At eight minutes past nine the sector makes a decision that, in hindsight, is the most sensible thing anyone does all morning. It moves them over Manhattan instead of holding them out at sea. Put them where the problem is, and work out the rest later.",
+   "videoQuery": "fighter aircraft formation flight aerial",
+   "video": "fighter_patrol_1.mp4",
+   "cap": "Put them where the problem is.",
+   "tone": "awe"
+  },
+  {
+   "id": "a2_5",
+   "text": "American eleven struck the north tower at that same minute. Floors ninety three to ninety nine. All three stairwells in the building were severed from the ninety second floor upward, and every person above that line was cut off from the ground in the first second.",
+   "stat": "8:46:40 A.M. · AMERICAN 11 · WTC 1",
+   "cap": "All three stairwells severed at floor 92.",
+   "extraHold": 20,
+   "tone": "melancholy",
+   "img": "wtc_exterior",
+   "camera": "push"
+  },
+  {
+   "id": "a2_6",
+   "text": "Around ten minutes to nine, the air defence sector, still hunting for American eleven on radar, learns that a plane has hit the World Trade Center. They learn it by chance. They are still looking for the aircraft that has already hit it.",
+   "videoQuery": "air defense sector operations floor radar scopes personnel dark room",
+   "cap": "They were still looking for it.",
+   "tone": "anger",
+   "video": "ops_floor_2.mp4"
+  },
+  {
+   "id": "a2_7",
+   "text": "United one seventy five hits the south tower at three minutes and eleven seconds past nine. The air defence sector learns of that flight, in the Commission's words, at about the time the plane was hitting the south tower. Not before. At.",
+   "stat": "9:03:11 A.M. · UNITED 175 · WTC 2",
+   "cap": "They learned of it as it happened.",
+   "extraHold": 20,
+   "tone": "fear",
+   "img": "wtc_exterior",
+   "camera": "pull"
+  },
+  {
+   "id": "a2_8",
+   "text": "Which means the second aircraft reached the entire watching world, live, on television, before it reached the agency responsible for defending the airspace it was flying through. That is not a metaphor for the communications failure. It is the communications failure, measured.",
+   "videoQuery": "government hearing room briefing officials interior generic",
+   "cap": "It reached the world before it reached them.",
+   "extraHold": 20,
+   "tone": "anger",
+   "video": "gov_room_1.mp4"
+  },
+  {
+   "id": "a2_9",
+   "text": "In a classroom in Sarasota, Florida, at five minutes past nine, the President's chief of staff leans down and says seven words that are on the record exactly as spoken. A second plane hit the second tower. America is under attack.",
+   "stat": "9:05 A.M. · SARASOTA, FLORIDA",
+   "cap": "\"America is under attack.\"",
+   "extraHold": 20,
+   "tone": "fear",
+   "img": "wtc_exterior",
+   "camera": "pull"
+  },
+  {
+   "id": "a3_ch",
+   "chapter": "ACT III\nTHE PLANE NOBODY WAS LOOKING FOR",
+   "text": "The third aircraft was never reported hijacked to the military at all. Not once, by anyone.",
+   "img": "pentagon_wedge",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a3_1",
+   "text": "American seventy seven pushes back from the gate at Dulles at nine minutes past eight and takes off at twenty past. Around ten to nine, somewhere over Ohio, it is taken. At fifty six minutes past eight the transponder goes off, and then the primary radar return is lost as well. The aircraft simply stops existing on the screens that were watching it.",
+   "videoQuery": "commercial airliner departure runway takeoff aviation",
+   "stat": "8:20 A.M. · AMERICAN 77 DEPARTS DULLES",
+   "cap": "8:56 — the aircraft stops existing on screen.",
+   "tone": "fear",
+   "video": "airliner_2.mp4"
+  },
+  {
+   "id": "a3_2",
+   "text": "For thirty six minutes, nobody watching a radar screen in the United States knows where American seventy seven is.",
+   "kinetic": {
+    "count": 36,
+    "suffix": " minutes — American 77 unlocated",
+    "sub": "8:56 transponder and primary radar lost → 9:32 reacquired"
+   },
+   "img": "atc_scope",
+   "extraHold": 15,
+   "tone": "fear"
+  },
+  {
+   "id": "a3_3",
+   "text": "At thirty four minutes past nine, the air defence sector finds out that American seventy seven is missing. They find out by chance, on a phone call they themselves had placed about something else. The Commission's finding on this is one flat sentence, and it is worth hearing twice.",
+   "videoQuery": "air defense sector operations floor radar scopes personnel dark room",
+   "cap": "They found out by chance.",
+   "tone": "anger",
+   "video": "ops_floor_1.mp4"
+  },
+  {
+   "id": "a3_4",
+   "exhibit": true,
+   "img": "ex_ss17_aa77",
+   "source": "9/11 Commission Staff Statement No. 17 · \"Improvising a Homeland Defense\"",
+   "highlight": [
+    0.1,
+    0.42,
+    0.8,
+    0.16
+   ],
+   "text": "No one at the aviation agency's command centre or headquarters ever asked for military assistance with American seventy seven. Not before it was lost. Not during the thirty six minutes. Not at any point.",
+   "cap": "Nobody ever asked for help with American 77.",
+   "extraHold": 25,
+   "tone": "anger"
+  },
+  {
+   "id": "a3_5",
+   "text": "Meanwhile fighters have gone up from Langley in Virginia. They were not sent because of American seventy seven, and they were not sent because of United ninety three. They were sent because of a report that American eleven was still in the air and heading for Washington.",
+   "videoQuery": "fighter jet scramble takeoff afterburner air national guard",
+   "cap": "They were chasing a plane that no longer existed.",
+   "tone": "anger",
+   "video": "fighter_scramble_1.mp4"
+  },
+  {
+   "id": "a3_6",
+   "text": "American eleven had hit the north tower thirty five minutes earlier. The report was wrong. The Commission could never establish who originated it. So the aircraft the military was actively hunting over Washington that morning was one that had already been destroyed, while the one actually approaching Washington was invisible to everyone.",
+   "videoQuery": "radar screen air traffic display tracking aircraft dark",
+   "cap": "Hunting an aircraft that no longer existed.",
+   "extraHold": 25,
+   "tone": "anger",
+   "video": "radar_scope_1.mp4"
+  },
+  {
+   "id": "a3_6a",
+   "text": "It is worth slowing down on where that phantom came from, because it is the purest example of the whole problem.",
+   "videoQuery": "radar screen air traffic display tracking aircraft dark",
+   "video": "radar_scope_2.mp4",
+   "cap": "The purest example.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a3_6b",
+   "text": "At twenty one minutes past nine, a military liaison at Boston Center tells the air defence sector that American eleven is still in the air, and heading towards Washington. The sector believes it. It is a plausible thing to be told by a credible person on a dedicated line.",
+   "videoQuery": "air defense sector operations floor radar scopes personnel dark room",
+   "video": "ops_floor_2.mp4",
+   "stat": "9:21 A.M. · \"AMERICAN 11 IS STILL IN THE AIR\"",
+   "cap": "The sector believed it.",
+   "tone": "fear"
+  },
+  {
+   "id": "a3_6c",
+   "text": "Two minutes later the order goes out. Scramble Langley. Head them towards the Washington area. And a minute after that the sector's own log records the hijacked aircraft by tail number, November three three four Alpha Alpha.",
+   "videoQuery": "fighter jet scramble takeoff afterburner air national guard",
+   "video": "fighter_scramble_1.mp4",
+   "cap": "Logged by tail number.",
+   "tone": "fear"
+  },
+  {
+   "id": "a3_6d",
+   "text": "That tail number belongs to American eleven. The aircraft that hit the north tower thirty five minutes earlier. The military is scrambling fighters toward Washington to intercept an aeroplane that is already lying in the wreckage of a building in Manhattan.",
+   "videoQuery": "radar display tracking aircraft military operations",
+   "video": "radar_scope_1.mp4",
+   "cap": "N334AA. American 11. Already down.",
+   "extraHold": 25,
+   "tone": "anger"
+  },
+  {
+   "id": "a3_6e",
+   "text": "The Commission tried to find out who originated that report, and could not. It is not attributed in the final text to any named person, and I am not going to attribute it either, because the draft material that names someone was never carried into the published report.",
+   "cap": "The Commission could not establish the source.",
+   "tone": "melancholy",
+   "exhibit": true,
+   "img": "ex_ss17_aa77",
+   "source": "9/11 Commission Staff Statement No. 17 · \"Improvising a Homeland Defense\"",
+   "highlight": [
+    0.1,
+    0.34,
+    0.8,
+    0.16
+   ]
+  },
+  {
+   "id": "a3_6f",
+   "text": "So here is where the morning actually stands at half past nine. The fighters over New York are chasing a plane that no longer exists. The fighters heading for Washington were sent because of the same plane. And the aircraft genuinely approaching Washington is invisible, because nobody has told anyone to look for it.",
+   "videoQuery": "F-16 fighter aircraft air patrol formation flight aerial",
+   "video": "fighter_patrol_2.mp4",
+   "cap": "Everyone was looking the wrong way.",
+   "extraHold": 30,
+   "tone": "anger"
+  },
+  {
+   "id": "a3_7",
+   "text": "At thirty two minutes past nine, a radar facility at Dulles picks up a primary target tracking east at high speed. At thirty four minutes past, Reagan National warns the Secret Service of an unknown aircraft headed toward the White House. The aircraft is five miles from the Pentagon and turning.",
+   "videoQuery": "air traffic control tower radar room controllers working",
+   "stat": "9:34 A.M. · FIVE MILES OUT",
+   "cap": "Five miles, and turning.",
+   "tone": "fear",
+   "video": "atc_center_1.mp4"
+  },
+  {
+   "id": "a3_8",
+   "text": "American seventy seven strikes the Pentagon at forty six seconds past nine thirty seven, at roughly five hundred and thirty miles an hour.",
+   "stat": "9:37:46 A.M. · THE PENTAGON",
+   "cap": "9:37:46.",
+   "extraHold": 25,
+   "tone": "melancholy",
+   "img": "pentagon_wedge",
+   "camera": "push"
+  },
+  {
+   "id": "a3_9",
+   "text": "One hundred and twenty five people in the building are killed, and fifty nine aboard the aircraft. The section it hit had a detail that matters, and it is the one genuinely fortunate thing in this entire film.",
+   "kinetic": {
+    "count": 184,
+    "suffix": " killed at the Pentagon",
+    "sub": "125 in the building · 59 aboard American 77"
+   },
+   "img": "ex_asce_wedge",
+   "extraHold": 20,
+   "tone": "melancholy",
+   "cap": "125 in the building. 59 aboard."
+  },
+  {
+   "id": "a3_10",
+   "exhibit": true,
+   "img": "ex_asce_wedge",
+   "source": "Pentagon Building Performance Report · ASCE · January 2003",
+   "highlight": [
+    0.12,
+    0.3,
+    0.76,
+    0.2
+   ],
+   "text": "The aircraft hit the one wedge of the Pentagon that had just been rebuilt. The renovation was, in the engineers' own words, essentially complete at the time of the crash. It had put in blast resistant windows and reinforced the structure, and the report found the windows performed as they were designed to.",
+   "cap": "It hit the one section that had been rebuilt.",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a3_11",
+   "text": "Around fifty of the building's columns were destroyed or badly damaged. At fifty five minutes past nine, the incident commander outside ordered the impact area evacuated because he judged a collapse was coming. It came at fifty seven minutes past nine. Not one first responder was injured in it.",
+   "stat": "9:57 A.M. · PARTIAL COLLAPSE",
+   "cap": "He called it two minutes before it happened.",
+   "extraHold": 20,
+   "tone": "awe",
+   "img": "pentagon_wedge",
+   "camera": "push"
+  },
+  {
+   "id": "a3_12",
+   "text": "That is worth sitting with, because it is the counter example to everything else in this film. A man outside the Pentagon made a judgement, said it out loud, and the people who needed to hear it heard it, and moved. When the message arrives, this is what it looks like.",
+   "cap": "When the message arrives.",
+   "extraHold": 25,
+   "tone": "awe",
+   "exhibit": true,
+   "img": "ex_cr_arlington",
+   "source": "9/11 Commission Report · Chapter 9 · the Arlington County response",
+   "highlight": [
+    0.1,
+    0.32,
+    0.8,
+    0.18
+   ]
+  },
+  {
+   "id": "a3_12a",
+   "text": "I want to stay at the Pentagon a little longer, because what happens outside that building for the rest of the morning is the single best documented emergency response of the day, and it is documented precisely because somebody decided afterwards to write it all down.",
+   "videoQuery": "firefighters emergency response street apparatus incident scene",
+   "video": "fdny_scene_1.mp4",
+   "cap": "The best documented response of the day.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a3_12b",
+   "text": "Command is established at the site at forty one minutes past nine, four minutes after impact, and it is established by a county fire department. Not the military. Arlington County, Virginia, takes incident command of an attack on the headquarters of the United States armed forces.",
+   "stat": "9:41 A.M. · ARLINGTON COUNTY TAKES COMMAND",
+   "cap": "A county fire department took command.",
+   "tone": "awe",
+   "img": "pentagon_wedge",
+   "camera": "pull"
+  },
+  {
+   "id": "a3_12c",
+   "text": "That sounds like an administrative detail. It is the reason it worked. There was one commander, in one place, and everybody arriving knew who it was and where to report.",
+   "videoQuery": "emergency responders coordination incident command scene",
+   "video": "fdny_scene_2.mp4",
+   "cap": "One commander. One place.",
+   "extraHold": 20,
+   "tone": "awe"
+  },
+  {
+   "id": "a4_ch",
+   "chapter": "ACT IV\nSEVENTEEN THOUSAND PEOPLE, AND THE STAIRS",
+   "text": "While all of this is happening in the air, the largest evacuation of a building in American history is happening underneath it.",
+   "img": "wtc_exterior",
+   "query": "World Trade Center twin towers exterior photograph New York",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a4_1",
+   "text": "The federal investigation put the number of people inside the two towers at the moment of the first impact at roughly seventeen thousand four hundred, with an uncertainty of about eleven hundred either way.",
+   "kinetic": {
+    "count": 17400,
+    "suffix": " people inside the two towers",
+    "sub": "NIST NCSTAR 1-7 · ± 1,180, at 8:46 a.m."
+   },
+   "img": "ex_ncstar_egress",
+   "extraHold": 15,
+   "tone": "awe",
+   "cap": "NIST NCSTAR 1-7 · 17,400 ± 1,180"
+  },
+  {
+   "id": "a4_2",
+   "text": "The overwhelming majority of them got out. That is the part of this day that is almost never told, and it is the reason the toll was not very much worse. But the ones who did not get out were, almost entirely, decided by geometry in the first second.",
+   "videoQuery": "high rise building stairwell interior emergency exit concrete",
+   "cap": "Decided by geometry, in the first second.",
+   "tone": "melancholy",
+   "video": "stairwell_2.mp4"
+  },
+  {
+   "id": "a4_3",
+   "text": "In the north tower, all three stairwells ran through the impact zone, and all three were destroyed there. Nobody above the ninety first floor evacuated. Not one person. There was no route.",
+   "videoQuery": "high rise building stairwell interior emergency exit concrete",
+   "stat": "WTC 1 · NOBODY ABOVE FLOOR 91 GOT OUT",
+   "cap": "No route existed.",
+   "extraHold": 25,
+   "tone": "melancholy",
+   "video": "stairwell_3.mp4"
+  },
+  {
+   "id": "a4_4",
+   "text": "In the south tower, one stairwell survived. Stairwell A. It ran through the damaged floors and stayed passable, and at least eighteen people came down through the impact zone and lived.",
+   "stat": "WTC 2 · STAIRWELL A SURVIVED",
+   "cap": "One stairwell. At least eighteen people.",
+   "extraHold": 20,
+   "tone": "awe",
+   "exhibit": true,
+   "img": "ex_cr_stairwellA",
+   "source": "9/11 Commission Report · Chapter 9 · Stairwell A",
+   "highlight": [
+    0.1,
+    0.32,
+    0.8,
+    0.18
+   ]
+  },
+  {
+   "id": "a4_5",
+   "text": "Eighteen people, out of a tower where about six hundred and thirty died. The difference between those two numbers is one staircase that happened not to be in the way.",
+   "videoQuery": "September 11 memorial reflecting pool names New York",
+   "cap": "One staircase that wasn't in the way.",
+   "extraHold": 20,
+   "tone": "melancholy",
+   "video": "memorial_1.mp4"
+  },
+  {
+   "id": "a4_6",
+   "text": "There is one more thing the investigators found, and it belongs in a film about messages. The nineteen ninety three bombing of the same complex had changed how people in those buildings were trained and how the stairwells were lit. Eight years of drills, and photoluminescent markings on the steps, were quietly doing work that morning.",
+   "videoQuery": "high rise building stairwell interior emergency exit concrete",
+   "cap": "1993 was still doing work that morning.",
+   "tone": "awe",
+   "video": "stairwell_2.mp4"
+  },
+  {
+   "id": "a4_6a",
+   "text": "In February nineteen ninety three, a truck bomb went off in the parking garage under the north tower. Six people were killed. The towers filled with smoke, the lights in the stairwells failed, and it took people hours to get down in the dark.",
+   "videoQuery": "high rise building stairwell interior emergency exit concrete",
+   "video": "stairwell_3.mp4",
+   "stat": "FEBRUARY 26, 1993",
+   "cap": "They came down in the dark.",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a4_6b",
+   "text": "What happened afterwards is unglamorous and it saved a great many lives eight years later. The stairwells were marked with photoluminescent strips that glow without power. The drills became regular. People who worked in those buildings were taught the route down, repeatedly, for years.",
+   "videoQuery": "emergency exit sign stairwell photoluminescent marking",
+   "video": "stairwell_2.mp4",
+   "cap": "Strips that glow without power.",
+   "tone": "awe"
+  },
+  {
+   "id": "a4_6c",
+   "text": "On the eleventh of September, tens of thousands of people walked down those stairs, in smoke, and most of them had done it before. The investigators found that this mattered.",
+   "videoQuery": "building stairwell descending interior emergency lighting",
+   "video": "stairwell_3.mp4",
+   "cap": "Most of them had done it before.",
+   "extraHold": 20,
+   "tone": "awe"
+  },
+  {
+   "id": "a4_6d",
+   "text": "It is the one preparation anybody made for that day that actually functioned as intended. And it worked for a simple reason. It was a message delivered years in advance, over and over, to the people who would need it, in a form they could act on without being told anything new.",
+   "videoQuery": "office building stairwell emergency exit interior",
+   "video": "stairwell_2.mp4",
+   "cap": "A message delivered years in advance.",
+   "extraHold": 25,
+   "tone": "awe"
+  },
+  {
+   "id": "a5_ch",
+   "chapter": "ACT V\nTHE ORDER THAT WENT OUT AT 9:59",
+   "text": "By nine o'clock there were already around two hundred and thirty five firefighters committed to the World Trade Center. Before the morning ended, more than a third of every fire company in New York City would be there.",
+   "img": "ex_cr_heroism",
+   "query": "FDNY fire department apparatus New York City street",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a5_1",
+   "text": "At five minutes past nine, fire chiefs in the north tower lobby test the building's radio repeater. A repeater is the thing that takes a handheld radio signal and boosts it so it can travel through a hundred and ten floors of steel. Without one, a portable radio inside that tower is close to useless.",
+   "videoQuery": "two way radio communications equipment console closeup emergency",
+   "cap": "A radio inside that tower needed help.",
+   "tone": "curiosity",
+   "video": "radio_gear_1.mp4"
+  },
+  {
+   "id": "a5_2",
+   "text": "The console had two buttons. One had been pressed. The second, the one that actually enabled transmission, had not been pressed that morning. The chief tries it, cannot transmit, and the lobby command abandons the repeater and moves to ordinary tactical channels.",
+   "videoQuery": "two way radio communications equipment console closeup emergency",
+   "stat": "9:05 A.M. · THE REPEATER TEST FAILS",
+   "cap": "Two buttons. One had been pressed.",
+   "extraHold": 20,
+   "tone": "anger",
+   "video": "radio_gear_2.mp4"
+  },
+  {
+   "id": "a5_3",
+   "text": "Now I have to be careful here, because this is the part of the day that is most often told wrongly, including by people with no agenda at all.",
+   "videoQuery": "two way radio communications equipment console closeup emergency",
+   "cap": "This is the part most often told wrongly.",
+   "tone": "curiosity",
+   "video": "radio_gear_1.mp4"
+  },
+  {
+   "id": "a5_4",
+   "text": "It is very easy to say the radios failed. The Commission's own investigators did not find that. After reviewing around seventy eight minutes of fire department radio tape, they believed the repeater and the radios were in fact working, and that a chief who thought his call had failed had switched frequencies. The Port Authority maintained the system was in order. A chief who was there said his attempt did not get through.",
+   "videoQuery": "two way radio communications equipment console closeup emergency",
+   "cap": "The investigators believed they were working.",
+   "extraHold": 25,
+   "tone": "curiosity",
+   "video": "radio_gear_2.mp4"
+  },
+  {
+   "id": "a5_5",
+   "text": "Those accounts have never been reconciled, and I am not going to pretend to reconcile them. What the Commission concluded was not that a person failed. It was that the arrangement failed. A two button console, activated by a civilian operator, in a building where the equipment only half worked and nobody could be certain which half.",
+   "cap": "Not a person. An arrangement.",
+   "extraHold": 20,
+   "tone": "melancholy",
+   "exhibit": true,
+   "img": "ex_cr_repeater",
+   "source": "9/11 Commission Report · Chapter 9 · the repeater",
+   "highlight": [
+    0.1,
+    0.32,
+    0.8,
+    0.18
+   ]
+  },
+  {
+   "id": "a5_6",
+   "text": "At fifty nine minutes past nine, the south tower collapses. Everyone still inside it dies. And within about a minute, the order goes out to evacuate the north tower.",
+   "stat": "9:59 A.M. · WTC 2 COLLAPSES",
+   "cap": "The order goes out.",
+   "extraHold": 20,
+   "tone": "fear",
+   "img": "wtc_exterior",
+   "camera": "push"
+  },
+  {
+   "id": "a5_7",
+   "text": "It goes out without the repetition protocol that the department used for its most urgent transmissions. One order, into a building full of men climbing stairs with sixty pounds of equipment, on radios that may or may not have been carrying.",
+   "cap": "One order. Into a hundred and ten floors.",
+   "extraHold": 20,
+   "tone": "melancholy",
+   "exhibit": true,
+   "img": "ex_cr_evacorder",
+   "source": "9/11 Commission Report · Chapter 9 · the evacuation order",
+   "highlight": [
+    0.1,
+    0.32,
+    0.8,
+    0.18
+   ]
+  },
+  {
+   "id": "a5_8",
+   "text": "And then at four minutes past ten, and again at eight minutes past, the police helicopters say out loud that the north tower is about to go. Nobody in that lobby can hear them. The fire department and the police department of the same city, at the same incident, had no shared radio channel.",
+   "videoQuery": "helicopter aerial hovering over city buildings",
+   "cap": "No shared channel.",
+   "extraHold": 25,
+   "tone": "anger",
+   "video": "nypd_heli_1.mp4"
+  },
+  {
+   "id": "a5_9",
+   "text": "This one is not disputed by anybody. It is not a question of who pressed which button. Two organisations were looking at the same building, one of them knew, and there was no wire between them.",
+   "videoQuery": "two way radio communications equipment console closeup emergency",
+   "cap": "There was no wire between them.",
+   "extraHold": 25,
+   "tone": "anger",
+   "video": "radio_gear_1.mp4"
+  },
+  {
+   "id": "a5_10",
+   "text": "The north tower falls at twenty eight minutes past ten. Everyone alive on the upper floors is killed, with a handful of exceptions. Twelve firefighters, one Port Authority police officer and three civilians survive inside stairwell B as the building comes down around them.",
+   "videoQuery": "FEMA Ground Zero real 2001 footage",
+   "stat": "10:28 A.M. · WTC 1 COLLAPSES",
+   "cap": "Sixteen people lived through it, inside Stairwell B.",
+   "extraHold": 25,
+   "tone": "awe",
+   "video": "gz_12.mp4"
+  },
+  {
+   "id": "a5_10a",
+   "text": "I want to stop on those sixteen people, because it is the strangest fact in this entire day.",
+   "videoQuery": "high rise building stairwell interior emergency exit concrete",
+   "video": "stairwell_3.mp4",
+   "cap": "Sixteen people.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a5_10b",
+   "text": "A hundred and ten storeys of building came down on top of them, and a section of one stairwell did not. Twelve firefighters, a Port Authority police officer, and three civilians were inside that section, and when it stopped moving they were alive in it.",
+   "videoQuery": "building stairwell descending interior emergency lighting",
+   "video": "stairwell_2.mp4",
+   "stat": "STAIRWELL B · 16 SURVIVORS",
+   "cap": "The stairwell did not come down.",
+   "extraHold": 25,
+   "tone": "awe"
+  },
+  {
+   "id": "a5_10c",
+   "text": "Nobody engineered that. There is no lesson in it and no technique to take away from it. It is the one piece of pure luck in a day that otherwise ran entirely on preparation, or the lack of it.",
+   "videoQuery": "World Trade Center site memorial architecture",
+   "video": "memorial_2.mp4",
+   "cap": "Nobody engineered it.",
+   "extraHold": 20,
+   "tone": "melancholy"
+  },
+  {
+   "id": "a5_11",
+   "text": "Three hundred and forty three firefighters are killed. Thirty seven Port Authority police officers. Twenty three New York City police officers. Eight emergency medical personnel.",
+   "kinetic": {
+    "count": 343,
+    "suffix": " FDNY firefighters killed",
+    "sub": "plus 37 PAPD · 23 NYPD · 8 EMS"
+   },
+   "img": "fdny_response",
+   "extraHold": 25,
+   "tone": "melancholy"
+  },
+  {
+   "id": "a6_ch",
+   "chapter": "ACT VI\nTHE ORDER THAT NEVER ARRIVED",
+   "text": "The fourth aircraft is the one where the whole argument of this film becomes impossible to avoid.",
+   "img": "flight93_memorial",
+   "query": "Flight 93 National Memorial Shanksville Pennsylvania",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a6_1",
+   "text": "United ninety three was supposed to leave Newark at eight. Routine congestion held it on the ground, and it took off at forty two minutes past eight, forty two minutes late. That delay is the reason everything that follows is different.",
+   "videoQuery": "commercial airliner departure runway takeoff aviation",
+   "stat": "8:42 A.M. · UNITED 93 DEPARTS NEWARK · 42 MIN LATE",
+   "cap": "Forty two minutes late.",
+   "tone": "curiosity",
+   "video": "airliner_3.mp4"
+  },
+  {
+   "id": "a6_2",
+   "text": "It is hijacked at twenty eight minutes past nine over eastern Ohio. Four minutes later a hijacker makes an announcement to the cabin. We have a bomb on board. So, sit.",
+   "videoQuery": "radar screen air traffic display tracking aircraft dark",
+   "stat": "9:28 A.M. · HIJACKED OVER OHIO",
+   "cap": "\"We have a bomb on board. So, sit.\"",
+   "tone": "fear",
+   "video": "radar_scope_2.mp4"
+  },
+  {
+   "id": "a6_3",
+   "text": "And then something happens on this flight that happens on none of the others. Because it left late, the people on board have time, and they have telephones. Thirty seven calls are placed from that cabin. Thirty five from the seat back phones and two from personal mobiles.",
+   "kinetic": {
+    "count": 37,
+    "suffix": " calls placed from the cabin",
+    "sub": "35 seat-back Airfone · 2 personal mobile"
+   },
+   "img": "flight93_memorial",
+   "extraHold": 15,
+   "tone": "melancholy"
+  },
+  {
+   "id": "a6_4",
+   "text": "Through those calls, the passengers and crew learn what has already happened in New York. They are the only people on any of the four aircraft who find out what the hijacking is actually for. And they work out, correctly, that the plan is not to land anywhere.",
+   "videoQuery": "commercial airliner departure runway takeoff aviation",
+   "cap": "They were the only ones who knew.",
+   "extraHold": 20,
+   "tone": "melancholy",
+   "video": "airliner_1.mp4"
+  },
+  {
+   "id": "a6_5",
+   "text": "I am going to quote two of them once each, in the words the record actually holds, and then leave them alone. Everyone's running to first class. I've got to go. Bye. And, we're getting ready to do it now.",
+   "videoQuery": "September 11 memorial reflecting pool names New York",
+   "cap": "In the words the record holds.",
+   "extraHold": 30,
+   "tone": "melancholy",
+   "video": "memorial_1.mp4"
+  },
+  {
+   "id": "a6_6",
+   "text": "At fifty seven minutes past nine, in the Commission's own four words, the passenger assault began. The aircraft comes down in a field near Shanksville, Pennsylvania, at eleven seconds past ten oh three. Everyone aboard is killed. Nobody on the ground is hurt.",
+   "videoQuery": "September 11 memorial reflecting pool names New York",
+   "stat": "10:03:11 A.M. · SHANKSVILLE, PENNSYLVANIA",
+   "cap": "\"At 9:57, the passenger assault began.\"",
+   "extraHold": 25,
+   "tone": "melancholy",
+   "video": "memorial_2.mp4"
+  },
+  {
+   "id": "a6_7",
+   "text": "Now watch the clock, because this is the sequence the whole film has been walking toward.",
+   "videoQuery": "government hearing room briefing officials interior generic",
+   "cap": "Watch the clock.",
+   "tone": "fear",
+   "video": "ops_floor_1.mp4"
+  },
+  {
+   "id": "a6_8",
+   "text": "At seven minutes past ten, four minutes after United ninety three has already crashed, the air defence sector hears about it for the first time. At that same minute, a representative tells the air threat conference there is no indication of a hijack heading to Washington.",
+   "videoQuery": "air defense sector operations floor radar scopes personnel dark room",
+   "stat": "10:07 A.M. · FOUR MINUTES TOO LATE",
+   "cap": "They heard about it four minutes after it crashed.",
+   "extraHold": 20,
+   "tone": "anger",
+   "video": "ops_floor_2.mp4"
+  },
+  {
+   "id": "a6_9",
+   "text": "Between ten past ten and eighteen minutes past, a military aide tells the Vice President that an inbound aircraft is eighty miles out, then sixty miles out. The Vice President authorises fighters to engage it, each time. The aircraft they are discussing is United ninety three, which has been on the ground in Pennsylvania for several minutes.",
+   "videoQuery": "government hearing room briefing officials interior generic",
+   "cap": "The aircraft was already down.",
+   "extraHold": 25,
+   "tone": "anger",
+   "video": "ops_floor_1.mp4"
+  },
+  {
+   "id": "a6_10",
+   "text": "At ten past ten, the fighters over Washington are told something quite specific. Negative. Negative clearance to shoot.",
+   "videoQuery": "F-16 fighter aircraft air patrol formation flight aerial",
+   "stat": "10:10 A.M. · \"NEGATIVE CLEARANCE TO SHOOT\"",
+   "cap": "\"Negative clearance to shoot.\"",
+   "extraHold": 20,
+   "tone": "fear",
+   "video": "fighter_patrol_1.mp4"
+  },
+  {
+   "id": "a6_11",
+   "text": "At thirty one minutes past ten, a general instructs his staff to put a message out over the military's own messaging system. The Vice President has cleared us to intercept tracks of interest and shoot them down if they do not respond. That is the first moment the authorisation is documented reaching the operational chain at all. It is twenty eight minutes after United ninety three hit the ground.",
+   "videoQuery": "air defense sector operations floor radar scopes personnel dark room",
+   "stat": "10:31 A.M. · AUTHORISATION REACHES NORAD",
+   "cap": "Twenty eight minutes after the crash.",
+   "extraHold": 25,
+   "tone": "anger",
+   "video": "ops_floor_2.mp4"
+  },
+  {
+   "id": "a6_12",
+   "exhibit": true,
+   "img": "ex_cr_shootdown",
+   "source": "9/11 Commission Report · Chapter 1 · p.43",
+   "highlight": [
+    0.1,
+    0.36,
+    0.8,
+    0.14
+   ],
+   "text": "And then the Commission writes the sentence that this entire film is named after. While leaders in Washington believed that the fighters above them had been instructed to take out hostile aircraft, the only orders actually conveyed to the pilots were to identify type and tail.",
+   "cap": "\"...the only orders actually conveyed to the pilots were to 'ID type and tail.'\"",
+   "extraHold": 30,
+   "tone": "anger"
+  },
+  {
+   "id": "a6_13",
+   "exhibit": true,
+   "img": "ex_cr_shootdown2",
+   "source": "9/11 Commission Report · Chapter 1 · p.44",
+   "highlight": [
+    0.1,
+    0.3,
+    0.8,
+    0.12
+   ],
+   "text": "And one page later, plainer still. The Vice President was mistaken in his belief that shootdown authorisation had been passed to the pilots flying at Norad's direction.",
+   "cap": "\"The Vice President was mistaken in his belief...\"",
+   "extraHold": 30,
+   "tone": "anger"
+  },
+  {
+   "id": "a6_14",
+   "text": "The men in the chain explained why, under oath, and their answers are not excuses. The sector commander said he did not pass the order along because he was unaware of its ramifications. The mission commander and the senior weapons director said they did not pass it to the Langley pilots because they were unsure how the pilots would, or should, proceed with that guidance.",
+   "videoQuery": "air defense sector operations floor radar scopes personnel dark room",
+   "cap": "Nobody knew what to do with it.",
+   "extraHold": 25,
+   "tone": "melancholy",
+   "video": "ops_floor_1.mp4"
+  },
+  {
+   "id": "a6_15",
+   "text": "Read that again as a communications problem rather than a moral one. An instruction arrived that nobody had ever been trained to receive, in a form nobody could act on, about an aircraft that no longer existed. So it stopped. It did not get refused. It just stopped moving.",
+   "videoQuery": "radar screen air traffic display tracking aircraft dark",
+   "cap": "It didn't get refused. It stopped moving.",
+   "extraHold": 25,
+   "tone": "melancholy",
+   "video": "radar_scope_1.mp4"
+  },
+  {
+   "id": "a6_16",
+   "text": "And there is a final wrinkle that is almost too neat. A separate group of fighters launched from Andrews at thirty eight minutes past ten, at the Secret Service's request, operating under weapons free, meaning the decision to fire sat with the lead pilot in the cockpit. Norad headquarters did not know those aircraft were flying, or under what rules.",
+   "videoQuery": "fighter jet scramble takeoff afterburner air national guard",
+   "stat": "10:38 A.M. · ANDREWS LAUNCH · \"WEAPONS FREE\"",
+   "cap": "Headquarters didn't know they were up.",
+   "extraHold": 25,
+   "tone": "anger",
+   "video": "fighter_scramble_1.mp4"
+  },
+  {
+   "id": "a6_17",
+   "text": "Two chains of command, over the same city, on the same morning, with opposite rules of engagement, and neither one aware of the other.",
+   "videoQuery": "F-16 fighter aircraft air patrol formation flight aerial",
+   "cap": "Neither aware of the other.",
+   "extraHold": 25,
+   "tone": "anger",
+   "video": "fighter_patrol_2.mp4"
+  },
+  {
+   "id": "a7_ch",
+   "chapter": "ACT VII\nTHE ONE ORDER THAT DID ARRIVE",
+   "text": "There is exactly one message that morning that went out to a continent and was obeyed almost instantly, and it came from a man on his first day in the job.",
+   "img": "atc_scope",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a7_1",
+   "text": "At forty two minutes past nine, according to the Commission, the national operations manager at the aviation command centre ordered every facility in the country to instruct every aircraft to land at the nearest airport. His name was Ben Sliney. It was his first day running that floor.",
+   "videoQuery": "air traffic control tower radar room controllers working",
+   "stat": "9:42 A.M. · LAND EVERYTHING",
+   "cap": "It was his first day.",
+   "tone": "awe",
+   "video": "atc_center_2.mp4"
+  },
+  {
+   "id": "a7_2",
+   "text": "And here the record does something honest that most retellings tidy away. The Transportation Secretary testified under oath that at approximately nine forty five, he gave the aviation agency the final order for all civil aircraft to land. The agency's own official timeline, to this day, credits the order to him at nine forty five.",
+   "videoQuery": "government hearing room briefing officials interior generic",
+   "cap": "Two men. Two accounts. Three minutes apart.",
+   "tone": "curiosity",
+   "video": "atc_center_3.mp4"
+  },
+  {
+   "id": "a7_3",
+   "text": "Two accounts, three minutes apart, both from primary sources, and the honest way to say it is this. One of them is the operational order given on the floor, and the other is the ratification from the bunker. Nobody lied. The record simply holds both, and we are not going to pick.",
+   "cap": "The record holds both.",
+   "extraHold": 20,
+   "tone": "curiosity",
+   "exhibit": true,
+   "img": "ex_cr_ua93",
+   "source": "9/11 Commission Report · Chapter 1",
+   "highlight": [
+    0.1,
+    0.34,
+    0.8,
+    0.16
+   ]
+  },
+  {
+   "id": "a7_4",
+   "text": "More than four thousand aircraft were in American skies. Every one of them was told to get on the ground, by a system that had never rehearsed this and had no written procedure for it. The written order formally suspending national airspace operations was not issued until six minutes past eleven, eighty four minutes after the verbal one.",
+   "kinetic": {
+    "count": 4500,
+    "suffix": " aircraft told to land",
+    "sub": "\"about 4,500\" — 9/11 Commission Report"
+   },
+   "img": "atc_scope",
+   "extraHold": 20,
+   "tone": "awe"
+  },
+  {
+   "id": "a7_5",
+   "text": "The last aircraft was down at sixteen minutes past twelve. Two hours and thirty four minutes. It is the single largest thing anyone accomplished that day, and it happened because one instruction, for once, went out cleanly and everybody who needed to hear it did.",
+   "videoQuery": "commercial airliner departure runway takeoff aviation",
+   "stat": "12:16 P.M. · THE SKY IS EMPTY",
+   "cap": "2 hours 34 minutes.",
+   "extraHold": 25,
+   "tone": "awe",
+   "video": "airliner_2.mp4"
+  },
+  {
+   "id": "a7_5a",
+   "text": "There is one aircraft in that ground stop worth telling on its own, because it is the morning's whole thesis compressed into a single flight.",
+   "videoQuery": "commercial airliner departure runway takeoff aviation",
+   "video": "airliner_3.mp4",
+   "cap": "One aircraft, worth telling on its own.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "a7_5b",
+   "text": "Korean Air eight five was over the Pacific, heading for Anchorage. Its crew sent a routine text message to their company that contained the letters H, J, K. In the shorthand of airline messaging, that can mean hijack.",
+   "videoQuery": "commercial airliner departure runway takeoff aviation",
+   "video": "airliner_1.mp4",
+   "stat": "KOREAN AIR 85 · OVER THE PACIFIC",
+   "cap": "Three letters: H J K.",
+   "tone": "fear"
+  },
+  {
+   "id": "a7_5c",
+   "text": "Controllers asked the crew to confirm by squawking seven five zero zero, the hijack code. The crew did exactly what they were asked. And the moment they did it, the transponder was broadcasting that the aircraft was being hijacked.",
+   "videoQuery": "radar screen air traffic display tracking aircraft dark",
+   "video": "radar_scope_2.mp4",
+   "cap": "They did exactly what they were asked.",
+   "tone": "fear"
+  },
+  {
+   "id": "a7_5d",
+   "text": "Fighters were sent. Alaska moved people out of hotels. The aircraft was shadowed to Whitehorse in the Yukon, where part of the town was evacuated, and it landed at about ten to three in the afternoon with nothing wrong on board at all.",
+   "videoQuery": "fighter jet scramble takeoff afterburner air national guard",
+   "video": "fighter_scramble_1.mp4",
+   "stat": "~2:54 P.M. · WHITEHORSE, YUKON",
+   "cap": "Nothing was wrong on board.",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a7_5e",
+   "text": "A crew complied perfectly with an instruction and the compliance itself read as the emergency. That is not a mistake anybody made. It is what happens when the signal and the confirmation of the signal are the same signal.",
+   "videoQuery": "air traffic control tower radar room controllers working",
+   "video": "atc_center_1.mp4",
+   "cap": "The compliance read as the emergency.",
+   "extraHold": 25,
+   "tone": "melancholy"
+  },
+  {
+   "id": "a7_6",
+   "text": "The afternoon belongs to a third building. Seven World Trade Center was a forty seven storey tower across the street, and it is a separate building, not a third twin tower. When the north tower came down at twenty eight minutes past ten, debris tore into its south and west faces and severed seven exterior columns.",
+   "stat": "WTC 7 · A SEPARATE BUILDING",
+   "cap": "Seven exterior columns severed.",
+   "tone": "curiosity",
+   "img": "wtc_exterior",
+   "camera": "pull"
+  },
+  {
+   "id": "a7_7",
+   "text": "Fires burned in it, unfought, for about seven hours. As early as half past eleven the fire department found there was no water. The collapse of the towers had severed the city main. You cannot fight a fire in a forty seven storey building with no water, so at around half past two the department gave the order to stop trying and pull back to a safe distance.",
+   "videoQuery": "firefighters emergency response street apparatus incident scene",
+   "cap": "There was no water.",
+   "tone": "melancholy",
+   "video": "gz_13.mp4"
+  },
+  {
+   "id": "a7_8",
+   "text": "At fifty two seconds past five twenty in the afternoon, Seven World Trade Center came down. And the federal investigation records one sentence about it that deserves to be said out loud, because it is the fact that the noise around that building tends to bury. No lives were lost as a result of the collapse of Seven World Trade Center.",
+   "videoQuery": "FEMA Ground Zero real 2001 footage",
+   "stat": "5:20:52 P.M. · WTC 7",
+   "cap": "\"No lives were lost as a result of the collapse of WTC 7.\"",
+   "extraHold": 30,
+   "tone": "melancholy",
+   "video": "gz_14.mp4"
+  },
+  {
+   "id": "a7_9",
+   "text": "The reason nobody died in it is that the fire department read the building correctly, said so, cleared the area, and were listened to. Three hours before it fell. On a day defined by messages that did not arrive, the last major event of the afternoon was one that did.",
+   "videoQuery": "firefighters emergency response street apparatus incident scene",
+   "cap": "Three hours before it fell.",
+   "extraHold": 25,
+   "tone": "awe",
+   "video": "fdny_scene_1.mp4"
+  },
+  {
+   "id": "a7_10",
+   "text": "The President's aircraft had left Sarasota at fifty four minutes past nine, in the Commission's phrase, without any fixed destination. It went to Barksdale in Louisiana, then to Offutt in Nebraska, and back to Washington late in the day, over a Pentagon that was still smoking. At half past eight that night he spoke from the Oval Office.",
+   "videoQuery": "commercial airliner departure runway takeoff aviation",
+   "cap": "\"...without any fixed destination.\"",
+   "tone": "melancholy",
+   "video": "airliner_2.mp4"
+  },
+  {
+   "id": "a7_11",
+   "text": "The counting took years. In the days afterwards the figure was thought to be around three thousand seven hundred. A year later it was two thousand eight hundred and one. After investigators removed names that had been filed fraudulently, it settled near two thousand seven hundred and fifty. With the Pentagon and the four aircraft, the confirmed total is two thousand nine hundred and seventy seven.",
+   "kinetic": {
+    "count": 2977,
+    "suffix": " people killed",
+    "sub": "the confirmed total, across all four sites"
+   },
+   "img": "wtc_memorial",
+   "query": "National September 11 Memorial reflecting pool New York",
+   "extraHold": 25,
+   "tone": "melancholy"
+  },
+  {
+   "id": "a7_12",
+   "text": "As of last month, around sixty percent of the people who died in New York have been identified. The work of matching remains to names has never stopped. It is still going on now, twenty five years later.",
+   "videoQuery": "FEMA Ground Zero real 2001 footage",
+   "cap": "Still going on. Twenty five years later.",
+   "extraHold": 25,
+   "tone": "melancholy",
+   "video": "gz_15.mp4"
+  },
+  {
+   "id": "coda1",
+   "text": "I want to be careful about what this film is arguing, because there is a version of this story that I am not telling and do not believe.",
+   "videoQuery": "air defense sector operations floor radar scopes personnel dark room",
+   "cap": "A version I am not telling.",
+   "tone": "melancholy",
+   "video": "ops_floor_2.mp4"
+  },
+  {
+   "id": "coda2",
+   "text": "Nobody stood down. The Commission found that the military improvised, badly and bravely, against information that was wrong almost every time it arrived. It found the public account that Norad gave afterwards was incorrect, and it did not find that the people on the operations floor did anything wrong. Those are two different findings and they are both in the same report.",
+   "videoQuery": "air defense sector operations floor radar scopes personnel dark room",
+   "cap": "Two different findings. Same report.",
+   "extraHold": 25,
+   "tone": "melancholy",
+   "video": "ops_floor_1.mp4"
+  },
+  {
+   "id": "coda3",
+   "text": "What I keep coming back to is how ordinary every one of these failures is. A microphone keyed to the wrong channel. A console with two buttons where only one had been pressed. Two radio systems in one city that could not reach each other. An order that arrived in a form nobody had been trained to act on.",
+   "videoQuery": "two way radio communications equipment console closeup emergency",
+   "cap": "Every one of them is ordinary.",
+   "extraHold": 25,
+   "tone": "melancholy",
+   "video": "radio_gear_2.mp4"
+  },
+  {
+   "id": "coda4",
+   "text": "None of that is exotic. All of it is the kind of thing that is true in some building somewhere today. That is what makes the day worth going back through minute by minute, rather than remembering it as a single image.",
+   "videoQuery": "September 11 memorial reflecting pool names New York",
+   "cap": "Not exotic. Ordinary.",
+   "extraHold": 20,
+   "tone": "melancholy",
+   "video": "memorial_1.mp4"
+  },
+  {
+   "id": "coda5",
+   "text": "And the reason we can go back through it at all is that almost everything we know came off a recording. The tapes at the aviation agency and at the air defence sector were not volunteered. They were subpoenaed, in the autumn of two thousand three, and what was on them did not match what had been said in public for two years.",
+   "exhibit": true,
+   "img": "ex_foia_letter",
+   "source": "NORAD-USNORTHCOM · FOIA release letter · April 9, 2008",
+   "highlight": [
+    0.12,
+    0.34,
+    0.76,
+    0.16
+   ],
+   "cap": "Subpoenaed. Not volunteered.",
+   "extraHold": 25,
+   "tone": "melancholy"
+  },
+  {
+   "id": "coda5a",
+   "text": "And there is one recording that did not survive, which I am not going to leave out.",
+   "videoQuery": "air traffic control tower interior controllers radar",
+   "video": "atc_center_2.mp4",
+   "cap": "One recording did not survive.",
+   "tone": "anger"
+  },
+  {
+   "id": "coda5b",
+   "text": "At a New York air traffic facility that day, a manager recorded the accounts of controllers who had handled the hijacked aircraft, onto a single cassette, while it was fresh. It was an unusual thing to do and it was the right instinct.",
+   "videoQuery": "air traffic control tower interior controllers radar",
+   "video": "atc_center_3.mp4",
+   "cap": "Recorded while it was fresh.",
+   "tone": "curiosity"
+  },
+  {
+   "id": "coda5c",
+   "text": "That tape was later destroyed. It was crushed in a hand, cut into pieces, and the pieces put into different bins. The Transportation Department's own inspector general investigated and reported it. Their account says five controllers had spoken onto it. Contemporary press reporting said six.",
+   "cap": "Crushed, cut up, and binned.",
+   "extraHold": 25,
+   "tone": "anger",
+   "exhibit": true,
+   "img": "ex_cr_shootdown",
+   "source": "9/11 Commission Report · Chapter 1 · p.43",
+   "highlight": [
+    0.1,
+    0.34,
+    0.8,
+    0.16
+   ]
+  },
+  {
+   "id": "coda5d",
+   "text": "We do not know precisely what was on it, and we never will. On a day whose entire history we can only reconstruct because recordings existed, one of them was deliberately taken out of the record within weeks. I do not have a tidy conclusion about that. I just think you should know it happened.",
+   "videoQuery": "empty radar screen operations room dark",
+   "video": "radar_scope_1.mp4",
+   "cap": "We never will.",
+   "extraHold": 30,
+   "tone": "melancholy"
+  },
+  {
+   "id": "bridge",
+   "text": "If the gap between what was said in public and what was on the tape is the part that stays with you, that is its own story, and we made it. Watch The Tapes That Broke Norad's nine eleven Story, right here on this channel. And subscribe to Black Box Breakdown, so you don't miss the next one.",
+   "img": "wtc_memorial",
+   "cap": "Next: The Tapes That Broke NORAD's 9/11 Story",
+   "tone": "curiosity"
+  }
+ ]
+}

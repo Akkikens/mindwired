@@ -38,6 +38,12 @@ memory files cited inline):
     OffthreadVideo compositor intermittently; !=30fps warns to conform)
   - image asset over 2600px on a side (otzi Remotion timeout) or in a
     non-RGB colorspace (recurring CMYK-JPEG ffmpeg bug, venera/otzi)
+  - PORTRAIT photo (h>w) in a non-exhibit scene (2026-09-15). The portrait
+    gate added for thegrounding checked scene["video"] only, so photos walked
+    through: flight93/United 93 shipped 40 of 107 images portrait, back when
+    DocWide still used objectFit:"cover", and the crew members' faces were
+    cropped out of the finished film. Exhibits are exempt — ExhibitScene is
+    built to present portrait document pages whole.
   - WARN: one img pool covering >40% of visual scenes with <5 distinct files
     (swissair111 sprawl: one 3-photo pool crept to 100+ of 179 scenes)
 WARNS (hook checklist — see docs/guides/HOOK-CHECKLIST.md):
@@ -383,6 +389,19 @@ def main() -> int:
         if (s.get("chapter") or s.get("kinetic")) and s.get("img"):
             text_bg_files.update(man.get("images", {}).get(s["img"], []))
 
+    # files that render through the PHOTO scene, i.e. where the viewer is meant
+    # to LOOK AT the image. Two exemptions, both deliberate:
+    #   - exhibit scenes: ExhibitScene exists to present portrait document
+    #     pages whole, so portrait is the correct shape there.
+    #   - chapter/kinetic scenes: TextSceneBg uses the image as a blurred,
+    #     heavily dimmed backdrop behind type (both the paper and photo
+    #     branches), so a crop there loses nothing the viewer was to read.
+    photo_files: set[str] = set()
+    for s_ in scenes:
+        if s_.get("img") and not (s_.get("exhibit") or s_.get("chapter")
+                                  or s_.get("kinetic")):
+            photo_files.update(man.get("images", {}).get(s_["img"], []))
+
     try:
         from PIL import Image, ImageStat
         for f in disk:
@@ -404,6 +423,27 @@ def main() -> int:
                     elif max(im.size) > 2600:
                         warn(f"image {f} is {im.size[0]}x{im.size[1]} — >2600px "
                              f"risked a Remotion timeout on otzi; consider downscaling")
+                    # ── PORTRAIT-PHOTO GATE (2026-09-15) ──────────────────
+                    # The companion to the portrait-VIDEO gate below, which
+                    # only ever checked sc["video"] and let photos through.
+                    # flight93 (United 93, published Jul 26) shipped with 40
+                    # of its 107 images portrait. DocWide still used
+                    # objectFit:"cover" then, so an 867x1300 source kept only
+                    # its middle ~44% band — the crew members' faces were
+                    # cropped out of the finished film. Akshay, 2026-09-15:
+                    # "no crew member face was shown". DocWide pillarboxes
+                    # now (the Aug 2 fix) so faces survive, but a portrait
+                    # photo still leaves most of a 16:9 frame as blurred
+                    # backdrop and reads cheap. Refetch landscape instead.
+                    iw, ih = im.size
+                    if f in photo_files and ih > iw:
+                        waste = (1 - (iw / ih) / (16 / 9)) * 100
+                        block(f"image {f} is PORTRAIT ({iw}x{ih}) in a non-exhibit "
+                              f"scene — DocWide pillarboxes it and ~{waste:.0f}% of "
+                              f"the 16:9 frame becomes blurred backdrop (and masters "
+                              f"rendered before 2026-08-02 cropped the subject out "
+                              f"entirely — the flight93 face bug). Refetch landscape, "
+                              f'or set "exhibit": true if it really is a document page.')
                     if im.mode not in ("RGB", "RGBA", "L", "P"):
                         block(f"image {f} is mode {im.mode} — non-RGB JPEGs break "
                               f"the ffmpeg steps (venera/otzi); convert to RGB")

@@ -79,6 +79,8 @@ import theGroundingDoc from "./mindwired-doc/docs/thegrounding.json";
 import theGroundingManifest from "./mindwired-doc/docs/thegrounding.manifest.json";
 import noradTapesDoc from "./mindwired-doc/docs/noradtapes.json";
 import noradTapesManifest from "./mindwired-doc/docs/noradtapes.manifest.json";
+import sept11TimelineDoc from "./mindwired-doc/docs/sept11timeline.json";
+import sept11TimelineManifest from "./mindwired-doc/docs/sept11timeline.manifest.json";
 import groundZeroAirDoc from "./mindwired-doc/docs/groundzeroair.json";
 import groundZeroAirManifest from "./mindwired-doc/docs/groundzeroair.manifest.json";
 import flight93Doc from "./mindwired-doc/docs/flight93.json";
@@ -1568,6 +1570,45 @@ export const RemotionRoot: React.FC = () => {
         id="NoradTapesDoc"
         component={makeDocComp(noradTapesDoc, noradTapesManifest, BB_OUTRO)}
         durationInFrames={docTotalFrames(noradTapesDoc, noradTapesManifest, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── Black Box Breakdown — "9/11: The Orders That Never Arrived". The whole
+             day, 7:59 a.m. to 8:30 p.m., told as ONE continuous communications
+             failure, because that is what the primary record shows and it needs no
+             broadcast footage to prove. 137 scenes. THE CONSTRAINT THAT SHAPED IT:
+             every large winner in this lane runs network archive (Koller 17.1M, SMH
+             21.3M) and we are banned from all of it — so the differentiator is
+             evidence, not footage. Keyword footage search FAILED this episode
+             outright and must not be trusted here: it returned a cloth-physics
+             "simulation" for the WTC collapse simulation and the US Treasury
+             Building for the Pentagon, because the vision check scores files against
+             the QUERY STRING. Twelve wrong-subject clips were deleted; the pool was
+             rebuilt by hand from DVIDS asset IDs (scripts/fetch_dvids_ids.py).
+             Real 2001 material is exactly two things: the Pentagon aerial (TSGT
+             Cedric H. Rudisill, USAF, PD) and 15 shots sliced from FEMA's Ground
+             Zero compilation (DVIDS 734981) — which is AFTERMATH, with 9/13 and
+             10/3/2001 burned into its slates, so it never carries a day-of beat.
+             The impacts and collapses have NO clearable motion anywhere; they run on
+             real PD photographs of the towers with camera motion, never a fake
+             simulation. 11 exhibits are real document pages, incl. Commission p.44
+             ("The Vice President was mistaken in his belief..."). Hard rules in
+             docs/planning/CLAIMS-sept11timeline.md: never "the radios failed" (the
+             Commission's investigators found them working — the dispute is
+             unresolved and stays attributed), never NORAD "lied", never a
+             stand-down, the 9:42/9:45 Sliney-Mineta conflict stays unresolved, the
+             Pentagon collapse is 9:57 not 10:10, and the WTC-illness/attack-day
+             death-toll comparison is EXCLUDED (CDC does not track cause of death).
+             Both radio scenes are labelled RECREATION, deliberately: the real FOIA
+             tape has never been human ear-checked, and a synthesised voice under an
+             "ACTUAL RECORDING" label would be a false honesty label. BB outro
+             baked. ── */}
+      <Composition
+        id="Sept11TimelineDoc"
+        component={makeDocComp(sept11TimelineDoc, sept11TimelineManifest, BB_OUTRO)}
+        durationInFrames={docTotalFrames(sept11TimelineDoc, sept11TimelineManifest, BB_OUTRO)}
         fps={30}
         width={1920}
         height={1080}

@@ -1,0 +1,419 @@
+[
+ {
+  "id": "a7_ch",
+  "text": "What follows is the part the accident board actually spent most of its time on. Not the foam. The organisation.",
+  "chapter": "ACT VII\nWHAT THE RECORD SAYS",
+  "img": "ex_caib_cover",
+  "tone": "melancholy"
+ },
+ {
+  "id": "a7_1",
+  "text": "First, the search. More than twenty five thousand people from two hundred and seventy organisations. Over one and a half million hours, across two point three million acres, an area approaching the size of Connecticut.",
+  "stat": "25,000 PEOPLE · 2.3M ACRES",
+  "img": "debris_search_field",
+  "cap": "East Texas, February 2003.",
+  "tone": "melancholy"
+ },
+ {
+  "id": "a7_2",
+  "text": "Eighty four thousand pieces were recovered. Eighty four thousand, nine hundred pounds. Thirty eight per cent of the orbiter.",
+  "stat": "84,000 PIECES · 38%",
+  "img": "debris_hangar",
+  "cap": "The reconstruction hangar, KSC.",
+  "tone": "melancholy"
+ },
+ {
+  "id": "a7_3",
+  "text": "Satellites, infrared, hyperspectral imaging, ground penetrating radar and U two aircraft were all used. The board's assessment is that they proved of little value. It came down to people walking in a line through the woods.",
+  "videoQuery": "search teams walking line forest ground search personnel",
+  "motion": "slow",
+  "tone": "melancholy"
+ },
+ {
+  "id": "a7_4",
+  "text": "On the twenty seventh of March, a helicopter searching Angelina National Forest suffered a mechanical failure and went down at treetop height. It was too low to autorotate.",
+  "stat": "27 MAR 2003",
+  "videoQuery": "helicopter flying low over forest treetops aerial",
+  "tone": "fear"
+ },
+ {
+  "id": "a7_5",
+  "text": "Jules Mier, a contract pilot, and Charles Krenek, a Texas Forest Service aviation specialist, were killed. Three others were injured.",
+  "img": "ex_caib_dedication",
+  "exhibit": true,
+  "source": "CAIB Report, Vol. I, dedication",
+  "cap": "Jules F. Mier, Jr. · Charles Krenek",
+  "tone": "melancholy"
+ },
+ {
+  "id": "a7_6",
+  "text": "The accident board put both of their names on the dedication page of its report, with their job titles, underneath the seven astronauts. Nine people died because of this accident, and the report says so on the first page.",
+  "img": "ex_caib_dedication",
+  "exhibit": true,
+  "source": "CAIB Report, Vol. I, dedication",
+  "highlight": [
+   0.2,
+   0.62,
+   0.6,
+   0.18
+  ],
+  "motion": "slow",
+  "tone": "melancholy"
+ },
+ {
+  "id": "a7_7",
+  "text": "Then, in July, they went to San Antonio and fired the foam at the wing.",
+  "img": "swri_airgun_before",
+  "stat": "7 JULY 2003",
+  "cap": "Southwest Research Institute.",
+  "tone": "tension"
+ },
+ {
+  "id": "a7_8",
+  "text": "One point six seven pounds of foam, at seven hundred and seventy seven feet per second, into a panel taken from Atlantis that had flown twenty six missions.",
+  "img": "swri_airgun_before",
+  "cap": "A reference projectile. The real foam was never found.",
+  "tone": "tension",
+  "note": "C3. 1.67 lb is the Board's SELECTED reference projectile, not a measurement of the actual debris, which was destroyed."
+ },
+ {
+  "id": "a7_9",
+  "text": "A hole roughly sixteen inches by seventeen. Cracks running eleven inches out from it.",
+  "img": "swri_impact_after_1",
+  "stat": "16×17 INCHES",
+  "cap": "CAIB photo, 7 July 2003.",
+  "motion": "slow",
+  "tone": "fear"
+ },
+ {
+  "id": "a7_10",
+  "text": "And the board wrote down what the test was actually for, which is the most revealing sentence in that whole chapter.",
+  "img": "ex_denial_finding",
+  "exhibit": true,
+  "source": "CAIB Report, Vol. I, ch. 3, p. 82",
+  "tone": "tension"
+ },
+ {
+  "id": "a7_11",
+  "text": "The impact tests established that foam can breach the reinforced carbon carbon, and also counteracted the lingering denial or discounting of the analytic evidence.",
+  "img": "ex_denial_finding",
+  "exhibit": true,
+  "source": "CAIB Report, Vol. I, ch. 3, p. 82",
+  "highlight": [
+   0.08,
+   0.46,
+   0.84,
+   0.16
+  ],
+  "cap": "\"...counteracted the lingering denial.\"",
+  "motion": "slow",
+  "tone": "fear"
+ },
+ {
+  "id": "a7_12",
+  "text": "They did not fire that gun to find out whether foam could break a wing. The analysis already said it could. They fired it to end an argument inside their own organisation.",
+  "videoQuery": "laboratory test facility equipment industrial engineering",
+  "motion": "slow",
+  "tone": "fear"
+ },
+ {
+  "id": "a7_13",
+  "text": "Because five months earlier, four days after the accident, the shuttle programme manager had told a press conference that it doesn't make sense to us that a piece of debris could be the root cause of the loss of Columbia and its crew.",
+  "videoQuery": "press conference podium microphones briefing room",
+  "stat": "5 FEB 2003",
+  "tone": "tension",
+  "note": "Ron Dittemore. Frame as a documented institutional position held on the analysis then available - NEVER as a personal error. CAIB's own framing is collective."
+ },
+ {
+  "id": "a7_14",
+  "text": "That was not a lie. It was what the analysis appeared to show, to people who had watched foam fall off that tank for twenty two years without anyone dying.",
+  "videoQuery": "space shuttle launch ascent plume slow motion",
+  "motion": "slow",
+  "tone": "melancholy"
+ },
+ {
+  "id": "a7_15",
+  "text": "The board's conclusion is one sentence and it is the reason this episode exists.",
+  "img": "ex_org_cause",
+  "exhibit": true,
+  "source": "CAIB Report, Vol. I, ch. 7, p. 177",
+  "tone": "tension"
+ },
+ {
+  "id": "a7_16",
+  "text": "In the board's view, NASA's organisational culture and structure had as much to do with this accident as the external tank foam.",
+  "img": "ex_org_cause",
+  "exhibit": true,
+  "source": "CAIB Report, Vol. I, ch. 7, p. 177",
+  "highlight": [
+   0.08,
+   0.42,
+   0.84,
+   0.15
+  ],
+  "cap": "As much as the foam.",
+  "motion": "slow",
+  "tone": "fear"
+ },
+ {
+  "id": "a7_17",
+  "text": "And they knew how that would be received, so they wrote a warning about it first.",
+  "img": "ex_blame_warning",
+  "exhibit": true,
+  "source": "CAIB Report, Vol. I, ch. 7, p. 177",
+  "tone": "tension"
+ },
+ {
+  "id": "a7_18",
+  "text": "Many accident investigations make the same mistake in defining causes. They identify the widget that broke, then locate the person most closely connected with the technical failure. The board did not want to make these errors.",
+  "img": "ex_blame_warning",
+  "exhibit": true,
+  "source": "CAIB Report, Vol. I, ch. 7, p. 177",
+  "highlight": [
+   0.08,
+   0.34,
+   0.84,
+   0.2
+  ],
+  "cap": "\"The Board did not want to make these errors.\"",
+  "motion": "slow",
+  "tone": "melancholy"
+ },
+ {
+  "id": "a7_19",
+  "text": "Nobody was prosecuted. Some managers were reassigned that July, and NASA said publicly on the day that the changes were no reflection on the competence or diligence or commitment or professionalism of anybody.",
+  "videoQuery": "office building institutional exterior government facility",
+  "tone": "melancholy",
+  "note": "PHRASING RULE: reassigned / moved to / retired. NEVER removed, demoted, held responsible, took the fall."
+ },
+ {
+  "id": "a7_20",
+  "text": "So the organisation restructured while stating that no individual was at fault. Which is exactly what the board asked for. And it is also why no one was ever held to account. Both of those things are true at once.",
+  "videoQuery": "empty office corridor institutional building windows",
+  "motion": "slow",
+  "tone": "melancholy"
+ },
+ {
+  "id": "a7_21",
+  "text": "There is one more thing in this report, and it is the strangest fact I found.",
+  "img": "ex_caib_cover",
+  "tone": "tension"
+ },
+ {
+  "id": "a7_22",
+  "text": "In nineteen ninety six, a sociologist named Diane Vaughan published a book about the Challenger accident. She argued that the disaster was not caused by villains, but by an organisation slowly agreeing that a dangerous thing was normal. She called it the normalisation of deviance.",
+  "img": "vaughan_book",
+  "cap": "The Challenger Launch Decision, 1996.",
+  "tone": "melancholy"
+ },
+ {
+  "id": "a7_23",
+  "text": "In April two thousand and three, she was called to testify before the Columbia board, in Houston.",
+  "stat": "23 APR 2003 · TESTIMONY",
+  "videoQuery": "hearing room testimony table microphones panel",
+  "tone": "tension"
+ },
+ {
+  "id": "a7_24",
+  "text": "Then they hired her onto the staff.",
+  "img": "ex_caib_staff",
+  "exhibit": true,
+  "source": "CAIB Report, Vol. I, staff roster, p. 244",
+  "highlight": [
+   0.1,
+   0.48,
+   0.7,
+   0.08
+  ],
+  "cap": "Diane Vaughan, Ph.D. — Researcher.",
+  "tone": "tension"
+ },
+ {
+  "id": "a7_25",
+  "text": "And then she personally wrote chapter eight of the report. The chapter is called History as Cause: Columbia and Challenger.",
+  "img": "ex_ch8_title",
+  "exhibit": true,
+  "source": "CAIB Report, Vol. I, ch. 8",
+  "cap": "Chapter 8. She wrote it.",
+  "motion": "slow",
+  "tone": "fear"
+ },
+ {
+  "id": "a7_26",
+  "text": "The woman who diagnosed the first accident was brought in to write the finding that nobody had listened.",
+  "videoQuery": "library archive books shelves reading study",
+  "motion": "slow",
+  "tone": "melancholy"
+ },
+ {
+  "id": "a7_27",
+  "text": "Her chapter says this. The causes of the institutional failure responsible for Challenger have not been fixed. And second, that if these systemic flaws are not resolved, the scene is set for another accident.",
+  "img": "ex_ch8_conclusion",
+  "exhibit": true,
+  "source": "CAIB Report, Vol. I, ch. 8, p. 195",
+  "highlight": [
+   0.08,
+   0.4,
+   0.84,
+   0.18
+  ],
+  "cap": "\"...have not been fixed.\"",
+  "tone": "fear"
+ },
+ {
+  "id": "a7_28",
+  "text": "There is an image in that chapter I have not been able to stop thinking about. Engineers and managers incorporated worsening anomalies into the engineering experience base, which functioned as an elastic waistband, expanding to hold larger deviations from the original design.",
+  "img": "ex_ch8_conclusion",
+  "exhibit": true,
+  "source": "CAIB Report, Vol. I, ch. 8, p. 196",
+  "cap": "An elastic waistband.",
+  "motion": "slow",
+  "tone": "melancholy"
+ },
+ {
+  "id": "a7_29",
+  "text": "The word echoes, which that chapter turns on, came from Sally Ride. She sat on the Challenger commission in nineteen eighty six and on the Columbia board in two thousand and three. The only person who ever did both.",
+  "img": "sally_ride",
+  "cap": "Sally Ride. Both boards.",
+  "motion": "slow",
+  "tone": "melancholy"
+ },
+ {
+  "id": "a7_30",
+  "text": "And the closest parallel the report draws between the two accidents is a single sentence. Challenger astronauts were told that the cold temperature was not a problem, and Columbia astronauts were told that the foam strike was not a problem.",
+  "img": "ex_ch8_parallel",
+  "exhibit": true,
+  "source": "CAIB Report, Vol. I, ch. 8, p. 202",
+  "highlight": [
+   0.08,
+   0.44,
+   0.84,
+   0.16
+  ],
+  "motion": "slow",
+  "tone": "fear"
+ },
+ {
+  "id": "coda1",
+  "text": "The board made twenty nine recommendations. Fifteen had to be done before anyone flew again.",
+  "img": "ex_recommendations",
+  "exhibit": true,
+  "source": "CAIB Report, Vol. I, ch. 11",
+  "tone": "neutral"
+ },
+ {
+  "id": "coda2",
+  "text": "An independent task group later found NASA met the intent of twelve of them. Three, it could not.",
+  "stat": "12 OF 15",
+  "videoQuery": "nasa engineers hardware assembly facility work",
+  "tone": "tension"
+ },
+ {
+  "id": "coda3",
+  "text": "One of the three was hardening the orbiter's wing. And the stated reason it was dropped is this: the long term plan was abandoned after the national policy decision to retire the space shuttle fleet no later than twenty ten.",
+  "img": "ex_rtf_finding",
+  "exhibit": true,
+  "source": "Return to Flight Task Group, Final Report, Aug 2005",
+  "highlight": [
+   0.08,
+   0.48,
+   0.84,
+   0.16
+  ],
+  "tone": "fear"
+ },
+ {
+  "id": "coda4",
+  "text": "Which is worth sitting with. The accident board never recommended retiring the shuttle. It said: if you fly past twenty ten, recertify it first. A conditional.",
+  "videoQuery": "space shuttle orbiter hangar processing facility",
+  "tone": "tension"
+ },
+ {
+  "id": "coda5",
+  "text": "One hundred and fifty four days later the White House turned that conditional into a deadline. And the retirement decision then cancelled one of the fixes the accident had called for.",
+  "stat": "154 DAYS",
+  "videoQuery": "white house washington government building exterior",
+  "motion": "slow",
+  "tone": "fear"
+ },
+ {
+  "id": "coda6",
+  "text": "In July two thousand and five, Discovery flew the return to flight mission. The tank shed foam again. It missed. NASA grounded the fleet the following day, and did not fly again for eleven months.",
+  "videoQuery": "space shuttle launch ascent external tank camera view",
+  "tone": "melancholy",
+  "note": "C7. The foam MISSED the orbiter. Never say 'foam struck Discovery.'"
+ },
+ {
+  "id": "coda7",
+  "text": "Columbia itself is still at the Kennedy Space Center. Eighty four thousand pieces of it, in a room on the sixteenth floor of the Vehicle Assembly Building.",
+  "img": "vab_exterior",
+  "cap": "Vehicle Assembly Building, 16th floor.",
+  "tone": "melancholy"
+ },
+ {
+  "id": "coda8",
+  "text": "And they lend it out. Researchers studying how spacecraft come apart during re entry can borrow pieces of it. Three people have written doctorates based on that debris.",
+  "img": "debris_hangar",
+  "motion": "slow",
+  "tone": "melancholy"
+ },
+ {
+  "id": "coda9",
+  "text": "Challenger's recovered structure was sealed into a disused missile silo. Columbia's is signed out, studied, and returned. It is the only destroyed spacecraft in history that is still working.",
+  "videoQuery": "archive storage facility shelves containers industrial",
+  "motion": "slow",
+  "tone": "melancholy"
+ },
+ {
+  "id": "coda10",
+  "text": "One last thing. Ilan Ramon carried a copy of a pencil drawing into orbit with him. It is called Moon Landscape, and it shows the Earth as seen from the moon.",
+  "img": "ex_moon_landscape",
+  "exhibit": true,
+  "source": "Yad Vashem Art Museum, Jerusalem",
+  "cap": "Petr Ginz, \"Moon Landscape,\" 1942.",
+  "tone": "melancholy"
+ },
+ {
+  "id": "coda11",
+  "text": "It was drawn in nineteen forty two by a fourteen year old boy named Petr Ginz, in the Theresienstadt ghetto, from imagination. He was murdered at Auschwitz two years later, aged sixteen.",
+  "img": "ex_moon_landscape",
+  "exhibit": true,
+  "source": "Yad Vashem Art Museum, Jerusalem",
+  "motion": "slow",
+  "tone": "melancholy"
+ },
+ {
+  "id": "coda12",
+  "text": "Yad Vashem made Ramon a facsimile to take with him. The original never left Jerusalem, and it is still there.",
+  "img": "ex_moon_landscape",
+  "exhibit": true,
+  "source": "Yad Vashem Art Museum, Jerusalem",
+  "cap": "A facsimile. The original is still in Jerusalem.",
+  "tone": "melancholy",
+  "note": "C6/dim-5. He carried a COPY. Very commonly reported wrong."
+ },
+ {
+  "id": "coda13",
+  "text": "Petr Ginz was born on the first of February, nineteen twenty eight. Columbia came apart on the first of February, two thousand and three, which would have been his seventy fifth birthday.",
+  "img": "ex_moon_landscape",
+  "exhibit": true,
+  "source": "Yad Vashem Art Museum, Jerusalem",
+  "motion": "slow",
+  "tone": "melancholy"
+ },
+ {
+  "id": "coda14",
+  "text": "Three people asked for a photograph of that wing. The photograph was never taken. Everything else in this story follows from that.",
+  "img": "swri_impact_after_1",
+  "cap": "The hole, seven July, two thousand and three.",
+  "motion": "slow",
+  "tone": "fear"
+ },
+ {
+  "id": "bridge",
+  "text": "If the way an organisation talks itself past a warning is the part that stays with you, we made the other half of this story. Watch Engineers Said Don't Launch, Seventy Three Seconds Later Challenger Was Gone, right here on this channel. And subscribe to Black Box Breakdown, so you don't miss the next one.",
+  "videoQuery": "space shuttle launch night pad floodlights",
+  "motion": "slow",
+  "tone": "melancholy"
+ }
+]

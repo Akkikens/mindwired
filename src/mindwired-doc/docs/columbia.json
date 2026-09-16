@@ -1,0 +1,1392 @@
+{
+ "slug": "columbia",
+ "title": "Columbia: The Photos NASA Never Took",
+ "channel": "blackbox",
+ "niche": "space",
+ "language": "en",
+ "voice": "d46abd1d-2d02-43e8-819f-51fb652c1c61",
+ "scenes": [
+  {
+   "id": "h1",
+   "text": "It is the twenty second of January, two thousand and three. At the Johnson Space Center, an engineer named Rodney Rocha is typing an email he will not send.",
+   "videoQuery": "nasa mission control johnson space center consoles engineers working",
+   "stat": "22 JAN 2003 · JOHNSON SPACE CENTER",
+   "cap": "Rodney Rocha, chief engineer, Thermal Protection System.",
+   "motion": "slow",
+   "tone": "melancholy",
+   "note": "REAL NASA MCC video (PD, 646x472). Rocha worked at JSC; this is NOT footage of him on that day. The cap names the man, the visual establishes the building - same honesty pattern as sept11timeline h1."
+  },
+  {
+   "id": "h2",
+   "text": "Six days earlier, eighty one point seven seconds after Columbia left the pad, a piece of insulating foam came off the fuel tank. Two tenths of a second later it struck the underside of the left wing.",
+   "videoQuery": "space shuttle launch ascent external tank separation tracking camera",
+   "stat": "16 JAN 2003 · T PLUS 81.9 SECONDS",
+   "cap": "Bipod ramp foam. Left wing, leading edge.",
+   "tone": "tension",
+   "note": "THUMBNAIL PROMISE DELIVERED - foam + wing, on real motion. Use STS-107-FD01.mp4 (854x480 NASA JSC PAO) and/or the ET208 strike GIF. NOT the NARA STS-1 film - different mission, must never be narrated as STS-107. ⚠ CORRECTED per dim-1 correction #1: 81.7s is the SEPARATION time, impact was 0.2s later at 81.9s. The near-universal 'struck the wing at 81.7 seconds' conflates the two."
+  },
+  {
+   "id": "h3",
+   "text": "Nobody is sure how big it was. The cameras that should have recorded it were out of focus, or pointed the wrong way, or lost the vehicle altogether. So Rocha asks for a photograph of the wing.",
+   "videoQuery": "long lens tracking camera telescope optical ground station sky",
+   "cap": "Of a dozen camera sites, not one usable image.",
+   "tone": "tension",
+   "note": "CAIB p.140: first site lost track, second out of focus 'because of an improperly maintained lens', third caught only the upper wing. CAIB adds: 'The Board notes that camera problems also hindered the Challenger investigation.'"
+  },
+  {
+   "id": "h4",
+   "text": "He asks on flight day four and gets no answer. He asks again on flight day six. And on the morning of the twenty second, he is told the Shuttle Program is not requesting any outside imaging help.",
+   "videoQuery": "nasa engineers meeting conference room briefing slides",
+   "cap": "Three requests. Six days.",
+   "tone": "tension"
+  },
+  {
+   "id": "h5",
+   "text": "So he writes it down. That this is the wrong answer. That it borders on irresponsible. And at the end, this.",
+   "img": "ex_rocha_email",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, p. 157",
+   "cap": "The email, as printed in the accident report.",
+   "tone": "tension"
+  },
+  {
+   "id": "h6",
+   "text": "Remember the NASA safety posters everywhere around stating, if it's not safe, say so? Yes, it's that serious.",
+   "img": "ex_rocha_email",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, p. 157",
+   "highlight": [
+    0.348,
+    0.6685,
+    0.598,
+    0.0388
+   ],
+   "cap": "\"Yes, it's that serious.\"",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "h7",
+   "text": "He printed it out, carried it down the hall, and showed it to a colleague. He never sent it. Asked why, he told the accident board he did not want to jump the chain of command.",
+   "videoQuery": "office corridor fluorescent lights walking printed document paper",
+   "cap": "Never sent.",
+   "motion": "slow",
+   "tone": "melancholy",
+   "note": "THE DIFFERENTIATOR. Almost every retelling says he sent it and was ignored. CAIB p.157: 'An e-mail that he did not send but instead printed out and shared with a colleague follows.' Verified verbatim against chapter6.txt by the orchestrator. Do NOT say 'his warning went unanswered' of THIS email - that applies to his flight-day-four email."
+  },
+  {
+   "id": "h8",
+   "text": "Six months later, in San Antonio, engineers loaded a block of that foam into a nitrogen cannon built for testing bird strikes, and fired it at a shuttle wing at five hundred and thirty miles an hour.",
+   "img": "swri_airgun_before",
+   "stat": "7 JULY 2003 · SAN ANTONIO",
+   "cap": "A thirty-five foot barrel. Two hundred sensors.",
+   "tone": "tension"
+  },
+  {
+   "id": "h9",
+   "text": "This is what it did. A hole roughly sixteen inches across, straight through the leading edge. The photograph Rodney Rocha asked for, three times, was never taken.",
+   "img": "swri_impact_after_1",
+   "stat": "RCC PANEL 8 · TEST 1",
+   "cap": "CAIB photo, 7 July 2003.",
+   "motion": "slow",
+   "tone": "fear",
+   "note": "THUMBNAIL PAYOFF - the exact asset the thumbnail is cut from."
+  },
+  {
+   "id": "title",
+   "text": "Columbia. The photographs NASA never took.",
+   "chapter": "Columbia:\nThe Photos NASA Never Took",
+   "img": "orbiter_orbit",
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a1_ch",
+   "text": "To understand why nobody took that photograph, you have to go back twenty two years, to the first time a space shuttle ever flew.",
+   "chapter": "ACT I\nTHE THING THAT KEPT FALLING OFF",
+   "img": "sts1_launch",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a1_1",
+   "text": "April, nineteen eighty one. Columbia is the first orbiter, and this is the first flight of the programme. It comes back with damaged tiles.",
+   "videoQuery": "space shuttle launch 1981 tracking camera film grain ascent",
+   "stat": "12 APR 1981 · STS-1",
+   "cap": "The first flight. The first damage.",
+   "tone": "tension"
+  },
+  {
+   "id": "a1_2",
+   "text": "The external tank is covered in insulating foam, because it holds liquid hydrogen at two hundred and fifty three degrees below zero and it would otherwise ice over.",
+   "videoQuery": "external tank insulation foam orange spray application factory",
+   "tone": "neutral"
+  },
+  {
+   "id": "a1_3",
+   "text": "The design requirement was explicit. The tank was not supposed to shed anything. Not foam, not ice, nothing.",
+   "img": "ex_debris_req",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6",
+   "cap": "The requirement: no debris shedding.",
+   "tone": "tension"
+  },
+  {
+   "id": "a1_4",
+   "text": "It shed foam on the first flight. And on the second. And it kept doing it, for twenty two years, on flight after flight after flight.",
+   "videoQuery": "space shuttle launch ascent external tank separation tracking",
+   "motion": "slow",
+   "tone": "tension"
+  },
+  {
+   "id": "a1_5",
+   "text": "There is a particular place on the tank called the left bipod ramp, a wedge of hand sprayed foam over the strut that holds the orbiter's nose.",
+   "img": "ex_bipod_diagram",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6",
+   "cap": "The left bipod ramp.",
+   "tone": "neutral"
+  },
+  {
+   "id": "a1_6",
+   "text": "Before Columbia's last flight, foam had come off that exact ramp at least six times.",
+   "stat": "6 BIPOD FOAM LOSSES",
+   "img": "ex_bipod_events",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6, p. 123",
+   "cap": "Figure 6.1-1. Seven known events.",
+   "tone": "fear"
+  },
+  {
+   "id": "a1_7",
+   "text": "But here is the part that matters. At the flight readiness review before Columbia launched, managers were told there had been only three.",
+   "img": "ex_frr_slide",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6, p. 125",
+   "highlight": [
+    0.1659,
+    0.8225,
+    0.113,
+    0.0147
+   ],
+   "cap": "\"only 3 documented instances\"",
+   "tone": "fear",
+   "note": "Dim-1 correction #9. Events four and five (STS-52, STS-62) were discovered by the BOARD, after the accident. The people approving the flight rationale were reasoning from a count wrong by half."
+  },
+  {
+   "id": "a1_8",
+   "text": "Two of the six had not been found yet. The accident board discovered them afterwards, going back through the record. The people approving the flight were working from a number that was wrong by half.",
+   "videoQuery": "nasa engineers meeting conference room briefing slides projector",
+   "tone": "fear"
+  },
+  {
+   "id": "a1_9",
+   "text": "December, nineteen eighty eight. Atlantis comes back from a classified mission with more than seven hundred damaged tiles and one tile missing altogether.",
+   "stat": "STS-27R · 707 DAMAGED TILES",
+   "img": "sts27_damage",
+   "cap": "Atlantis, 1988.",
+   "tone": "fear"
+  },
+  {
+   "id": "a1_10",
+   "text": "The commander later said he believed they were going to die on re entry. The damage was directly beneath an antenna mounting plate, which was made of steel, and that is the only reason the wing survived.",
+   "img": "sts27_damage",
+   "cap": "A steel plate. That is the whole reason.",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a1_11",
+   "text": "October, two thousand and two. Three months before Columbia. Foam comes off the left bipod ramp and hits the solid rocket booster attach ring, about four inches wide and three inches deep.",
+   "stat": "7 OCT 2002 · STS-112",
+   "videoQuery": "solid rocket booster attach hardware closeup launch vehicle",
+   "cap": "Two missions before Columbia.",
+   "tone": "tension"
+  },
+  {
+   "id": "a1_12",
+   "text": "That was the closest warning anyone got, and it arrived two missions before the accident. The programme classified it, flew twice more, and did not fix the ramp.",
+   "videoQuery": "space shuttle vehicle assembly building crawler transport",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a1_13",
+   "text": "There is a word for what was happening, and the accident board used it. NASA had two categories for problems. In family, and out of family.",
+   "img": "ex_infamily_def",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6, p. 122",
+   "cap": "The definitions, as written.",
+   "tone": "neutral"
+  },
+  {
+   "id": "a1_14",
+   "text": "In family meant a problem you had seen before, within the experience base. Out of family meant something new. Foam loss had been seen so many times that it had become, by definition, in family.",
+   "videoQuery": "documents paperwork filing archive shelves office",
+   "tone": "tension"
+  },
+  {
+   "id": "a1_15",
+   "text": "The board called that a strange term indeed for a violation of system requirements. Because the classification had been introduced after Challenger, to help. And by definition, the problems moved into the lesser category got less attention.",
+   "img": "ex_infamily_def",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6, p. 196",
+   "cap": "A post-Challenger reform. It became a mechanism.",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a1_16",
+   "text": "The sociologist who worked on this report has a name for it. The normalisation of deviance. You see the thing that should not happen, and it does not kill you, so it stops being the thing that should not happen.",
+   "videoQuery": "space shuttle launch slow motion ascent plume",
+   "motion": "slow",
+   "tone": "melancholy",
+   "note": "Vaughan named in CAIB p.130. She wrote Chapter 8 - paid off in Act VII."
+  },
+  {
+   "id": "a2_ch",
+   "text": "On the sixteenth of January, two thousand and three, seven people boarded that orbiter for a sixteen day science mission.",
+   "chapter": "ACT II\nSIXTEEN DAYS",
+   "img": "crew_portrait",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a2_1",
+   "text": "Rick Husband, commander. William McCool, pilot. Michael Anderson, payload commander. Kalpana Chawla, flight engineer. David Brown. Laurel Clark. And Ilan Ramon, the first Israeli in space.",
+   "img": "crew_portrait",
+   "cap": "STS-107. Seven crew, sixteen days.",
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a2_2",
+   "text": "It was not a station flight. There was no docking, no rendezvous. Columbia carried a laboratory module in the payload bay and the crew ran experiments around the clock in two shifts.",
+   "videoQuery": "astronauts working inside spacecraft laboratory module microgravity",
+   "cap": "SPACEHAB. Around the clock, two shifts.",
+   "tone": "neutral"
+  },
+  {
+   "id": "a2_3",
+   "text": "That detail matters more than it sounds. Because Columbia was not going to the space station, it had no robotic arm fitted, and there was nowhere to shelter if anything went wrong.",
+   "videoQuery": "space shuttle orbiter payload bay doors open earth below",
+   "tone": "tension"
+  },
+  {
+   "id": "a2_4",
+   "text": "Eighty one point seven seconds after launch, the foam came off.",
+   "stat": "T PLUS 81.7 SECONDS",
+   "videoQuery": "space shuttle launch ascent tracking camera long lens",
+   "motion": "fast",
+   "tone": "fear"
+  },
+  {
+   "id": "a2_5",
+   "text": "Nobody saw it happen. Not in the control room, not on the pad, not anywhere. It was found the next day, when the routine film review caught it.",
+   "videoQuery": "film review screening room projector engineers watching footage",
+   "cap": "Found the next day. On the film.",
+   "tone": "tension"
+  },
+  {
+   "id": "a2_6",
+   "text": "And when they went looking for a clear picture of it, they did not have one.",
+   "videoQuery": "long lens tracking camera optical ground station sky",
+   "motion": "slow",
+   "tone": "tension"
+  },
+  {
+   "id": "a2_7",
+   "text": "Of the ground camera sites that should have recorded the ascent, the first lost track of the vehicle. The second was out of focus because of an improperly maintained lens. The third caught only the top of the wing.",
+   "img": "ex_camera_finding",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6, p. 140",
+   "cap": "Three sites. No usable image.",
+   "tone": "fear"
+  },
+  {
+   "id": "a2_8",
+   "text": "The accident board added one sentence to that finding. Camera problems also hindered the Challenger investigation.",
+   "img": "ex_camera_finding",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6, p. 140",
+   "highlight": [
+    0.084,
+    0.4461,
+    0.1134,
+    0.025
+   ],
+   "cap": "Seventeen years earlier. The same problem.",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a2_9",
+   "text": "So on the seventeenth of January, the chair of the photo working group picked up the phone. The strike was classified out of family. Something new. Something nobody had seen.",
+   "videoQuery": "nasa engineer office telephone desk documents",
+   "stat": "17 JAN · FLIGHT DAY 2",
+   "tone": "tension"
+  },
+  {
+   "id": "a2_10",
+   "text": "A team was stood up to analyse it. It was called the debris assessment team, and it was co chaired by Rodney Rocha.",
+   "videoQuery": "nasa mission control johnson space center consoles engineers",
+   "cap": "The Debris Assessment Team.",
+   "tone": "neutral"
+  },
+  {
+   "id": "a3_ch",
+   "text": "Over the next five days, three separate people asked for a photograph of that wing. Three separate requests, through three separate channels.",
+   "chapter": "ACT III\nTHREE REQUESTS",
+   "img": "ex_imagery_box",
+   "tone": "tension"
+  },
+  {
+   "id": "a3_1",
+   "text": "The board counted them, and printed them in a box in the report, so there could be no argument about it afterwards.",
+   "img": "ex_imagery_box",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6, p. 166",
+   "cap": "Imagery Requests. The Board's own box.",
+   "tone": "neutral"
+  },
+  {
+   "id": "a3_2",
+   "text": "Request one. Flight day two. Bob Page, chair of the photo working group, to Wayne Hale, shuttle programme manager for launch integration. In person.",
+   "img": "ex_imagery_box",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6, p. 166",
+   "highlight": [
+    0.08,
+    0.26,
+    0.84,
+    0.13
+   ],
+   "stat": "REQUEST 1 · IN PERSON",
+   "tone": "tension"
+  },
+  {
+   "id": "a3_3",
+   "text": "Request two. Flight day six. Bob White, a contractor manager, to Lambert Austin, head of systems integration. By phone.",
+   "img": "ex_imagery_box",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6, p. 166",
+   "highlight": [
+    0.08,
+    0.42,
+    0.84,
+    0.13
+   ],
+   "stat": "REQUEST 2 · BY PHONE",
+   "tone": "tension"
+  },
+  {
+   "id": "a3_4",
+   "text": "Request three. Flight day six. Rodney Rocha, to Paul Shack, manager of the shuttle engineering office. By email.",
+   "img": "ex_imagery_box",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6, p. 166",
+   "highlight": [
+    0.08,
+    0.58,
+    0.84,
+    0.13
+   ],
+   "stat": "REQUEST 3 · BY EMAIL",
+   "tone": "tension"
+  },
+  {
+   "id": "a3_5",
+   "text": "Rocha's email is worth reading, because of one word in it.",
+   "img": "ex_rocha_beg",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6, p. 151",
+   "tone": "tension"
+  },
+  {
+   "id": "a3_6",
+   "text": "Can we petition, and then in brackets, beg, for outside agency assistance.",
+   "img": "ex_rocha_beg",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6, p. 151",
+   "highlight": [
+    0.098,
+    0.1152,
+    0.394,
+    0.0218
+   ],
+   "cap": "\"Can we petition (beg)...\"",
+   "motion": "slow",
+   "tone": "fear",
+   "note": "Bold in the original. Verified verbatim against chapter6.txt."
+  },
+  {
+   "id": "a3_7",
+   "text": "He was the chief engineer for the thermal protection system. The heat shield. The thing that keeps the vehicle from burning up. And he is using the word beg.",
+   "videoQuery": "nasa engineer office desk computer documents working late",
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a3_8",
+   "text": "None of the three requests went through the normal channel, which ran through mission management. The engineers went up the engineering side instead, because management was not engaging.",
+   "videoQuery": "office corridor doors fluorescent institutional building",
+   "tone": "tension"
+  },
+  {
+   "id": "a3_9",
+   "text": "And the board found that this routing was itself part of the failure.",
+   "img": "ex_routing_finding",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6, p. 152",
+   "tone": "tension"
+  },
+  {
+   "id": "a3_10",
+   "text": "Routing the request through the engineering department led in part to it being viewed by shuttle programme managers as a non critical engineering desire, rather than a critical operational need.",
+   "img": "ex_routing_finding",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6, p. 152",
+   "highlight": [
+    0.21,
+    0.46,
+    0.2095,
+    0.025
+   ],
+   "cap": "A desire. Not a need.",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a4_ch",
+   "text": "On the morning of the twenty second of January, the United States military began preparing to photograph Columbia in orbit. Ninety minutes later it stopped.",
+   "chapter": "ACT IV\nNINETY MINUTES",
+   "img": "ex_dod_cancel",
+   "tone": "fear"
+  },
+  {
+   "id": "a4_1",
+   "text": "Wayne Hale phoned a defence department representative at the Cape and asked the military to start the process.",
+   "videoQuery": "military operations center personnel consoles screens dark room",
+   "stat": "22 JAN · MORNING",
+   "tone": "tension"
+  },
+  {
+   "id": "a4_2",
+   "text": "Within an hour, that request reached United States Strategic Command at Cheyenne Mountain, in Colorado. A plans officer there began identifying which assets could do it.",
+   "videoQuery": "cheyenne mountain military command facility tunnel blast door",
+   "cap": "Cheyenne Mountain. Assets being tasked.",
+   "tone": "tension"
+  },
+  {
+   "id": "a4_3",
+   "text": "This is real. It was happening. Somewhere in Colorado, people were working out how to point something at a wing.",
+   "videoQuery": "ground based telescope observatory dome night sky tracking",
+   "motion": "slow",
+   "tone": "tension"
+  },
+  {
+   "id": "a4_4",
+   "text": "At half past eight that morning, NASA's liaison officer called Strategic Command back and cancelled it.",
+   "img": "ex_dod_cancel",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6, p. 153",
+   "stat": "8:30 A.M. · CANCELLED",
+   "tone": "fear"
+  },
+  {
+   "id": "a4_5",
+   "text": "The reason given was that NASA had identified its own in house resources and no longer needed the military's help.",
+   "img": "ex_dod_cancel",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6, p. 153",
+   "highlight": [
+    0.3186,
+    0.4739,
+    0.6275,
+    0.0389
+   ],
+   "tone": "fear"
+  },
+  {
+   "id": "a4_6",
+   "text": "The board wrote the next sentence in a way that leaves nothing to interpret. The NASA request to the department of defense to prepare to image Columbia on orbit was both made and rescinded within ninety minutes.",
+   "img": "ex_dod_cancel",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6, p. 153",
+   "highlight": [
+    0.3186,
+    0.4739,
+    0.6275,
+    0.0389
+   ],
+   "cap": "Made and rescinded. Ninety minutes.",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a4_7",
+   "text": "What happened inside those ninety minutes, the board describes carefully, and so will we. It says the following sequence likely occurred.",
+   "videoQuery": "clock face ticking time office wall institutional",
+   "tone": "tension",
+   "note": "C1/C4. CAIB says 'likely occurred'. Do NOT assert. Ham did not personally phone USSTRATCOM."
+  },
+  {
+   "id": "a4_8",
+   "text": "The chair of the mission management team, Linda Ham, asked who was requesting the imagery. She called several senior managers. Each said they had not requested it, and could not identify a requirement for it.",
+   "videoQuery": "nasa management meeting conference table briefing",
+   "tone": "tension"
+  },
+  {
+   "id": "a4_9",
+   "text": "And that word, requirement, is where this comes apart. Because the engineers had not filed a requirement. They had asked a question.",
+   "videoQuery": "documents forms paperwork desk bureaucracy stamp",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a4_10",
+   "text": "The board's finding is narrow and it is precise. Ham has publicly said she did not know the debris assessment team wanted the images. The board does not dispute that. What it says is this.",
+   "img": "ex_ham_finding",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6, p. 153",
+   "tone": "tension"
+  },
+  {
+   "id": "a4_11",
+   "text": "She never asked them directly if the request was theirs, even though they were the team analysing the foam strike.",
+   "img": "ex_ham_finding",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6, p. 153",
+   "highlight": [
+    0.7709,
+    0.8767,
+    0.1522,
+    0.025
+   ],
+   "cap": "She never asked them.",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a4_12",
+   "text": "There is one more finding here, and it is the one almost nobody quotes.",
+   "videoQuery": "satellite orbiting earth space imagery reconnaissance",
+   "tone": "tension"
+  },
+  {
+   "id": "a4_13",
+   "text": "Nobody in the chain of command had the security clearance to know what American imaging satellites could actually do. Not at NASA, not at the contractors. Nobody asked what quality of picture was even possible.",
+   "img": "ex_clearance_finding",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6, p. 154",
+   "cap": "No one was cleared to know.",
+   "tone": "fear"
+  },
+  {
+   "id": "a4_14",
+   "text": "So the decision not to look was made by people who did not know what looking would have shown them. The board's phrase is that they were making critical decisions about imagery capabilities based on little or no knowledge.",
+   "img": "ex_clearance_finding",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6, p. 154",
+   "highlight": [
+    0.0539,
+    0.2656,
+    0.2195,
+    0.025
+   ],
+   "motion": "slow",
+   "tone": "fear",
+   "note": "C5. The finding is NOT that satellites would have shown the hole. Never claim that."
+  },
+  {
+   "id": "a4_15",
+   "text": "On the twenty third of January, a flight director wrote an email closing the matter. The shuttle programme was asked directly if they wanted outside resources. They said no. After talking to Phil, I consider it to be a dead issue.",
+   "img": "ex_cain_email",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6, p. 158",
+   "highlight": [
+    0.2433,
+    0.7301,
+    0.236,
+    0.0218
+   ],
+   "cap": "\"I consider it to be a dead issue.\"",
+   "tone": "fear"
+  },
+  {
+   "id": "a4_16",
+   "text": "The flight director who wrote that was LeRoy Cain. Remember the name. He comes back at the end of this.",
+   "videoQuery": "nasa mission control flight director console headset",
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a5_ch",
+   "text": "While all of that was happening, the engineers were doing the only thing left to them. They were trying to calculate the answer instead of photographing it.",
+   "chapter": "ACT V\nTHE MODEL THEY HAD LEFT",
+   "img": "ex_crater_diagram",
+   "tone": "tension"
+  },
+  {
+   "id": "a5_1",
+   "text": "The tool was called Crater. It was a mathematical model for predicting how deep a piece of debris would penetrate the tiles.",
+   "img": "ex_crater_diagram",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6",
+   "cap": "Crater.",
+   "tone": "neutral"
+  },
+  {
+   "id": "a5_2",
+   "text": "It had been built and validated for small debris. Ice, mostly. Pieces about three cubic inches.",
+   "videoQuery": "laboratory test rig materials testing equipment engineering",
+   "tone": "neutral"
+  },
+  {
+   "id": "a5_3",
+   "text": "The piece that hit Columbia was, by the board's later estimate, about four hundred times larger than anything Crater had ever been tested against.",
+   "stat": "400× OUTSIDE VALIDATION",
+   "img": "ex_crater_diagram",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6",
+   "cap": "Four hundred times.",
+   "tone": "fear"
+  },
+  {
+   "id": "a5_4",
+   "text": "The engineers running it that week thought the figure was six hundred and forty.",
+   "videoQuery": "engineer calculations spreadsheet computer screen data analysis",
+   "motion": "slow",
+   "tone": "fear",
+   "note": "Dim-2 correction C7. 640x is what the DAT believed at the time; 400x is the Board's own estimate. Both figures are real and they mean different things."
+  },
+  {
+   "id": "a5_5",
+   "text": "Crater came back and said the debris would go deeper than the tile itself. Which would mean burn through.",
+   "videoQuery": "thermal protection tiles spacecraft surface closeup heat shield",
+   "tone": "fear"
+  },
+  {
+   "id": "a5_6",
+   "text": "And here is the part that gets told wrong almost everywhere. Management did not overrule that result. The engineers did.",
+   "videoQuery": "engineers discussion whiteboard technical meeting",
+   "motion": "slow",
+   "tone": "tension",
+   "note": "C6. The 'no safety of flight' conclusion was the DAT's own. Do not frame it as managers overruling engineers."
+  },
+  {
+   "id": "a5_7",
+   "text": "They knew Crater ran conservative. They knew it did not model the hardened lower layer of the tile. So they talked themselves down, on reasoning that was defensible and turned out to be wrong.",
+   "videoQuery": "engineer office late night desk lamp documents",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a5_8",
+   "text": "What they could not do was check that reasoning. To check it, they needed a picture.",
+   "videoQuery": "camera lens telescope optics closeup aperture",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a5_9",
+   "text": "The board wrote one sentence about this situation that is, I think, the single most important line in the entire report.",
+   "img": "ex_burden_finding",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 7, p. 190",
+   "tone": "tension"
+  },
+  {
+   "id": "a5_10",
+   "text": "The debris assessment team was put in the untenable position of having to prove that a safety of flight issue existed, without the very images that would permit such a determination.",
+   "img": "ex_burden_finding",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 7, p. 190",
+   "highlight": [
+    0.4877,
+    0.5433,
+    0.2494,
+    0.025
+   ],
+   "tone": "fear"
+  },
+  {
+   "id": "a5_11",
+   "text": "Operations must be proved safe, rather than the other way around. NASA inverted this burden of proof.",
+   "img": "ex_burden_finding",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 7, p. 190",
+   "highlight": [
+    0.4877,
+    0.5433,
+    0.2494,
+    0.025
+   ],
+   "cap": "NASA inverted this burden of proof.",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a5_12",
+   "text": "Meanwhile, two engineers were emailing each other about what would happen if the landing gear bay burned through on the way down.",
+   "videoQuery": "landing gear aircraft wheel assembly mechanism closeup",
+   "tone": "tension"
+  },
+  {
+   "id": "a5_13",
+   "text": "On the twenty seventh of January, a landing gear specialist at Langley wrote back to a colleague at Houston. I would bail out before I would let a loved one land like that.",
+   "img": "ex_daugherty_email",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6, p. 164",
+   "highlight": [
+    0.1516,
+    0.8912,
+    0.4376,
+    0.0218
+   ],
+   "stat": "27 JAN",
+   "tone": "fear"
+  },
+  {
+   "id": "a5_14",
+   "text": "The next day he wrote again. Any more activity today on the tile damage, or are people just relegated to crossing their fingers and hoping for the best?",
+   "img": "ex_daugherty_email2",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6, p. 165",
+   "highlight": [
+    0.1569,
+    0.5024,
+    0.3413,
+    0.0218
+   ],
+   "cap": "Four days before re-entry.",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a5_15",
+   "text": "Those emails went sideways, between two engineers. They did not go up.",
+   "videoQuery": "email inbox screen computer monitor office dark",
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a5_16",
+   "text": "Programme rules said the mission management team would meet every day of a flight. During Columbia's sixteen days, it met five times.",
+   "stat": "5 MEETINGS IN 16 DAYS",
+   "videoQuery": "empty conference room table chairs institutional",
+   "tone": "fear"
+  },
+  {
+   "id": "a5_17",
+   "text": "Two safety officials were contacted about the strike. One of them was the highest ranking safety official at NASA. The board's finding is that safety personnel took no actions to obtain imagery.",
+   "img": "ex_safety_finding",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6, p. 152",
+   "cap": "Safety took no action.",
+   "tone": "fear"
+  },
+  {
+   "id": "a5_18",
+   "text": "And the crew. People often say the crew never knew. That is not true.",
+   "videoQuery": "astronauts inside spacecraft crew cabin working microgravity",
+   "tone": "tension"
+  },
+  {
+   "id": "a5_19",
+   "text": "On the twenty third of January a flight director emailed the commander and the pilot, sent them the video of the strike, and told them it was not even worth mentioning, and that there was absolutely no concern for entry. Husband wrote back and thanked him.",
+   "img": "ex_stich_email",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6, p. 159",
+   "highlight": [
+    0.1569,
+    0.419,
+    0.7162,
+    0.0356
+   ],
+   "cap": "\"...absolutely no concern for entry.\"",
+   "tone": "melancholy",
+   "note": "C12. They KNEW about the strike. What they were never told was that three imagery requests had been made and called off."
+  },
+  {
+   "id": "a5_20",
+   "text": "They knew about the foam. What they were never told was that three people had asked for a photograph of their wing, and that the request had been called off.",
+   "videoQuery": "astronauts inside spacecraft flight deck windows earth",
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a6_ch",
+   "text": "Saturday, the first of February, two thousand and three. Entry interface over the Pacific, eight forty four in the morning, eastern time.",
+   "chapter": "ACT VI\nTHE FIRST OF FEBRUARY",
+   "img": "mcc_entry",
+   "tone": "fear"
+  },
+  {
+   "id": "a6_1",
+   "text": "Columbia comes in over California, then Nevada, then New Mexico, trailing plasma. On the ground in Texas, people are filming it because it is a nice thing to watch on a Saturday morning.",
+   "videoQuery": "reentry plasma trail night sky spacecraft streak",
+   "tone": "tension"
+  },
+  {
+   "id": "a6_2",
+   "text": "At eight fifty four and twenty four seconds, a console officer in mission control calls the flight director.",
+   "videoQuery": "nasa mission control consoles screens operators headsets",
+   "stat": "8:54:24 A.M.",
+   "tone": "fear"
+  },
+  {
+   "id": "a6_3",
+   "text": "Flight, MMACS. I've just lost four separate temperature transducers on the left side of the vehicle.",
+   "speaker": "MMACS",
+   "radioLabel": "RECREATION FROM TRANSCRIPT",
+   "timestamp": "8:54:24 A.M. EST",
+   "source": "CAIB Report, Vol. I, ch. 2, p. 42",
+   "tone": "fear",
+   "note": "HONESTY RULE: this is a Cartesia recreation from the printed CAIB transcript, NOT actual MCC audio. Label must read RECREATION."
+  },
+  {
+   "id": "a6_4",
+   "text": "Four hydraulic return temps? Is there anything common to them? I mean, you're telling me you lost them all at exactly the same time?",
+   "speaker": "FLIGHT",
+   "radioLabel": "RECREATION FROM TRANSCRIPT",
+   "timestamp": "8:54:35 A.M. EST",
+   "source": "CAIB Report, Vol. I, ch. 2, p. 42",
+   "tone": "fear"
+  },
+  {
+   "id": "a6_5",
+   "text": "All four of them are located in the aft part of the left wing. And there is no commonality.",
+   "speaker": "MMACS",
+   "radioLabel": "RECREATION FROM TRANSCRIPT",
+   "timestamp": "8:54:45 A.M. EST",
+   "source": "CAIB Report, Vol. I, ch. 2, p. 42",
+   "tone": "fear"
+  },
+  {
+   "id": "a6_6",
+   "text": "No commonality. Meaning the sensors are not wired together, so a single wiring fault cannot explain it. Meaning something is happening to the left wing.",
+   "videoQuery": "wiring harness cables electrical schematic technical",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a6_7",
+   "text": "At eight fifty nine and fifteen seconds, the tyre pressures on the left main gear go.",
+   "speaker": "MMACS",
+   "radioLabel": "RECREATION FROM TRANSCRIPT",
+   "timestamp": "8:59:15 A.M. EST",
+   "source": "CAIB Report, Vol. I, ch. 2, p. 43",
+   "stat": "8:59:15 A.M.",
+   "tone": "fear"
+  },
+  {
+   "id": "a6_8",
+   "text": "And Columbia, Houston, we see your tyre pressure messages and we did not copy your last call.",
+   "speaker": "CAPCOM",
+   "radioLabel": "RECREATION FROM TRANSCRIPT",
+   "timestamp": "8:59:28 A.M. EST",
+   "source": "CAIB Report, Vol. I, ch. 2, p. 43",
+   "tone": "fear"
+  },
+  {
+   "id": "a6_9",
+   "text": "The answer comes back from the flight deck. One word, and the beginning of another.",
+   "videoQuery": "spacecraft cockpit instruments controls closeup",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a6_10",
+   "text": "The report prints it as: Roger. And then, in square brackets, cut off in mid word.",
+   "img": "ex_last_words",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 2, p. 43",
+   "highlight": [
+    0.2424,
+    0.2753,
+    0.1349,
+    0.0233
+   ],
+   "cap": "The last transmission.",
+   "motion": "slow",
+   "tone": "fear",
+   "note": "C11. CAIB does NOT transcribe the fragment. 'Roger, uh, buh' is a press/audio rendering - never attribute it to the report."
+  },
+  {
+   "id": "a6_11",
+   "text": "Eight fifty nine and thirty two seconds. Loss of signal. Which, at that point in an entry, is completely normal. It happens every flight when the antennas switch.",
+   "stat": "8:59:32 · LOSS OF SIGNAL",
+   "videoQuery": "antenna dish tracking station communications ground",
+   "tone": "fear"
+  },
+  {
+   "id": "a6_12",
+   "text": "So nobody in that room reacts. They wait, the way they always wait.",
+   "videoQuery": "nasa mission control room operators waiting consoles",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a6_13",
+   "text": "Forty six seconds later, the vehicle comes apart over east Texas. Mission control has no idea. They are still working the tyre pressure problem.",
+   "stat": "9:00:18 · BREAKUP",
+   "videoQuery": "nasa mission control consoles telemetry screens data",
+   "tone": "fear"
+  },
+  {
+   "id": "a6_14",
+   "text": "For twelve more minutes, the loop carries an ordinary technical conversation about instrumentation, while outside, in Nacogdoches and Hemphill and Lufkin, people are hearing what sounds like thunder on a clear day.",
+   "videoQuery": "small town texas street pine trees rural road",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a6_15",
+   "text": "At about twelve minutes past nine, a member of the flight control team gets a call on his mobile phone from someone who has just seen it on television. He walks over to the flight director's console and tells him.",
+   "videoQuery": "nasa mission control room wide view consoles personnel",
+   "tone": "fear"
+  },
+  {
+   "id": "a6_16",
+   "text": "LeRoy Cain calls for the ground control officer. He has to call twice.",
+   "speaker": "FLIGHT",
+   "radioLabel": "RECREATION FROM TRANSCRIPT",
+   "timestamp": "~9:12 A.M. EST",
+   "source": "CAIB Report, Vol. I, ch. 2, p. 44",
+   "tone": "fear"
+  },
+  {
+   "id": "a6_17",
+   "text": "Lock the doors.",
+   "speaker": "FLIGHT",
+   "radioLabel": "RECREATION FROM TRANSCRIPT",
+   "timestamp": "~9:12 A.M. EST",
+   "source": "CAIB Report, Vol. I, ch. 2, p. 44",
+   "motion": "slow",
+   "tone": "fear",
+   "note": "Verified verbatim by orchestrator against chapter2.txt. Three words, to GC. C5: do NOT weld the later contingency instructions onto it as one sentence."
+  },
+  {
+   "id": "a6_18",
+   "text": "Then he tells the room: no phone calls off site. No data in or out. Every console begins archiving its own data, because from this moment the room is evidence.",
+   "videoQuery": "nasa mission control consoles screens data archiving",
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a7_ch",
+   "text": "What follows is the part the accident board actually spent most of its time on. Not the foam. The organisation.",
+   "chapter": "ACT VII\nWHAT THE RECORD SAYS",
+   "img": "ex_caib_cover",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a7_1",
+   "text": "First, the search. More than twenty five thousand people from two hundred and seventy organisations. Over one and a half million hours, across two point three million acres, an area approaching the size of Connecticut.",
+   "stat": "25,000 PEOPLE · 2.3M ACRES",
+   "img": "debris_search_field",
+   "cap": "East Texas, February 2003.",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a7_2",
+   "text": "Eighty four thousand pieces were recovered. Eighty four thousand, nine hundred pounds. Thirty eight per cent of the orbiter.",
+   "stat": "84,000 PIECES · 38%",
+   "img": "debris_hangar",
+   "cap": "The reconstruction hangar, KSC.",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a7_3",
+   "text": "Satellites, infrared, hyperspectral imaging, ground penetrating radar and U two aircraft were all used. The board's assessment is that they proved of little value. It came down to people walking in a line through the woods.",
+   "videoQuery": "search teams walking line forest ground search personnel",
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a7_4",
+   "text": "On the twenty seventh of March, a helicopter searching Angelina National Forest suffered a mechanical failure and went down at treetop height. It was too low to autorotate.",
+   "stat": "27 MAR 2003",
+   "videoQuery": "helicopter flying low over forest treetops aerial",
+   "tone": "fear"
+  },
+  {
+   "id": "a7_5",
+   "text": "Jules Mier, a contract pilot, and Charles Krenek, a Texas Forest Service aviation specialist, were killed. Three others were injured.",
+   "img": "ex_caib_dedication",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, dedication",
+   "cap": "Jules F. Mier, Jr. · Charles Krenek",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a7_6",
+   "text": "The accident board put both of their names on the dedication page of its report, with their job titles, underneath the seven astronauts. Nine people died because of this accident, and the report says so on the first page.",
+   "img": "ex_caib_dedication",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, dedication",
+   "highlight": [
+    0.8293,
+    0.5711,
+    0.1168,
+    0.025
+   ],
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a7_7",
+   "text": "Then, in July, they went to San Antonio and fired the foam at the wing.",
+   "img": "swri_airgun_before",
+   "stat": "7 JULY 2003",
+   "cap": "Southwest Research Institute.",
+   "tone": "tension"
+  },
+  {
+   "id": "a7_8",
+   "text": "One point six seven pounds of foam, at seven hundred and seventy seven feet per second, into a panel taken from Atlantis that had flown twenty six missions.",
+   "img": "swri_airgun_before",
+   "cap": "A reference projectile. The real foam was never found.",
+   "tone": "tension",
+   "note": "C3. 1.67 lb is the Board's SELECTED reference projectile, not a measurement of the actual debris, which was destroyed."
+  },
+  {
+   "id": "a7_9",
+   "text": "A hole roughly sixteen inches by seventeen. Cracks running eleven inches out from it.",
+   "img": "swri_impact_after_1",
+   "stat": "16×17 INCHES",
+   "cap": "CAIB photo, 7 July 2003.",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a7_10",
+   "text": "And the board wrote down what the test was actually for, which is the most revealing sentence in that whole chapter.",
+   "img": "ex_denial_finding",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 3, p. 82",
+   "tone": "tension"
+  },
+  {
+   "id": "a7_11",
+   "text": "The impact tests established that foam can breach the reinforced carbon carbon, and also counteracted the lingering denial or discounting of the analytic evidence.",
+   "img": "ex_denial_finding",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 3, p. 82",
+   "highlight": [
+    0.1127,
+    0.71,
+    0.2262,
+    0.025
+   ],
+   "cap": "\"...counteracted the lingering denial.\"",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a7_12",
+   "text": "They did not fire that gun to find out whether foam could break a wing. The analysis already said it could. They fired it to end an argument inside their own organisation.",
+   "videoQuery": "laboratory test facility equipment industrial engineering",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a7_13",
+   "text": "Because five months earlier, four days after the accident, the shuttle programme manager had told a press conference that it doesn't make sense to us that a piece of debris could be the root cause of the loss of Columbia and its crew.",
+   "videoQuery": "press conference podium microphones briefing room",
+   "stat": "5 FEB 2003",
+   "tone": "tension",
+   "note": "Ron Dittemore. Frame as a documented institutional position held on the analysis then available - NEVER as a personal error. CAIB's own framing is collective."
+  },
+  {
+   "id": "a7_14",
+   "text": "That was not a lie. It was what the analysis appeared to show, to people who had watched foam fall off that tank for twenty two years without anyone dying.",
+   "videoQuery": "space shuttle launch ascent plume slow motion",
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a7_15",
+   "text": "The board's conclusion is one sentence and it is the reason this episode exists.",
+   "img": "ex_org_cause",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 7, p. 177",
+   "tone": "tension"
+  },
+  {
+   "id": "a7_16",
+   "text": "In the board's view, NASA's organisational culture and structure had as much to do with this accident as the external tank foam.",
+   "img": "ex_org_cause",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 7, p. 177",
+   "highlight": [
+    0.6349,
+    0.4461,
+    0.1643,
+    0.025
+   ],
+   "cap": "As much as the foam.",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a7_17",
+   "text": "And they knew how that would be received, so they wrote a warning about it first.",
+   "img": "ex_blame_warning",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 7, p. 177",
+   "tone": "tension"
+  },
+  {
+   "id": "a7_18",
+   "text": "Many accident investigations make the same mistake in defining causes. They identify the widget that broke, then locate the person most closely connected with the technical failure. The board did not want to make these errors.",
+   "img": "ex_blame_warning",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 7, p. 177",
+   "highlight": [
+    0.1127,
+    0.5711,
+    0.4011,
+    0.0389
+   ],
+   "cap": "\"The Board did not want to make these errors.\"",
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a7_19",
+   "text": "Nobody was prosecuted. Some managers were reassigned that July, and NASA said publicly on the day that the changes were no reflection on the competence or diligence or commitment or professionalism of anybody.",
+   "videoQuery": "office building institutional exterior government facility",
+   "tone": "melancholy",
+   "note": "PHRASING RULE: reassigned / moved to / retired. NEVER removed, demoted, held responsible, took the fall."
+  },
+  {
+   "id": "a7_20",
+   "text": "So the organisation restructured while stating that no individual was at fault. Which is exactly what the board asked for. And it is also why no one was ever held to account. Both of those things are true at once.",
+   "videoQuery": "empty office corridor institutional building windows",
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a7_21",
+   "text": "There is one more thing in this report, and it is the strangest fact I found.",
+   "img": "ex_caib_cover",
+   "tone": "tension"
+  },
+  {
+   "id": "a7_22",
+   "text": "In nineteen ninety six, a sociologist named Diane Vaughan published a book about the Challenger accident. She argued that the disaster was not caused by villains, but by an organisation slowly agreeing that a dangerous thing was normal. She called it the normalisation of deviance.",
+   "img": "ex_vaughan_cited",
+   "cap": "The Board names her, and the term.",
+   "tone": "melancholy",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6, p. 130",
+   "note": "RIGHTS: the 1996 book cover is copyrighted - never show it. Substituted the CAIB page where the Board itself cites Vaughan and adopts 'normalization of deviance'. PD, and stronger: it is the Board crediting her in its own text."
+  },
+  {
+   "id": "a7_23",
+   "text": "In April two thousand and three, she was called to testify before the Columbia board, in Houston.",
+   "stat": "23 APR 2003 · TESTIMONY",
+   "videoQuery": "hearing room testimony table microphones panel",
+   "tone": "tension"
+  },
+  {
+   "id": "a7_24",
+   "text": "Then they hired her onto the staff.",
+   "img": "ex_caib_staff",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, staff roster, p. 244",
+   "highlight": [
+    0.1046,
+    0.2192,
+    0.1406,
+    0.0233
+   ],
+   "cap": "Diane Vaughan, Ph.D. — Researcher.",
+   "tone": "tension"
+  },
+  {
+   "id": "a7_25",
+   "text": "And then she personally wrote chapter eight of the report. The chapter is called History as Cause: Columbia and Challenger.",
+   "img": "ex_ch8_title",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 8",
+   "cap": "Chapter 8. She wrote it.",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "a7_26",
+   "text": "The woman who diagnosed the first accident was brought in to write the finding that nobody had listened.",
+   "videoQuery": "library archive books shelves reading study",
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a7_27",
+   "text": "Her chapter says this. The causes of the institutional failure responsible for Challenger have not been fixed. And second, that if these systemic flaws are not resolved, the scene is set for another accident.",
+   "img": "ex_ch8_conclusion",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 8, p. 195",
+   "highlight": [
+    0.5449,
+    0.7378,
+    0.149,
+    0.025
+   ],
+   "cap": "\"...have not been fixed.\"",
+   "tone": "fear"
+  },
+  {
+   "id": "a7_28",
+   "text": "There is an image in that chapter I have not been able to stop thinking about. Engineers and managers incorporated worsening anomalies into the engineering experience base, which functioned as an elastic waistband, expanding to hold larger deviations from the original design.",
+   "img": "ex_ch8_conclusion",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 8, p. 196",
+   "cap": "An elastic waistband.",
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a7_29",
+   "text": "The word echoes, which that chapter turns on, came from Sally Ride. She sat on the Challenger commission in nineteen eighty six and on the Columbia board in two thousand and three. The only person who ever did both.",
+   "img": "sally_ride",
+   "cap": "Sally Ride. Both boards.",
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "a7_30",
+   "text": "And the closest parallel the report draws between the two accidents is a single sentence. Challenger astronauts were told that the cold temperature was not a problem, and Columbia astronauts were told that the foam strike was not a problem.",
+   "img": "ex_ch8_parallel",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 8, p. 202",
+   "highlight": [
+    0.112,
+    0.4878,
+    0.2363,
+    0.025
+   ],
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "coda1",
+   "text": "The board made twenty nine recommendations. Fifteen had to be done before anyone flew again.",
+   "img": "ex_recommendations",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 11",
+   "tone": "neutral"
+  },
+  {
+   "id": "coda2",
+   "text": "An independent task group later found NASA met the intent of twelve of them. Three, it could not.",
+   "stat": "12 OF 15",
+   "videoQuery": "nasa engineers hardware assembly facility work",
+   "tone": "tension"
+  },
+  {
+   "id": "coda3",
+   "text": "One of the three was hardening the orbiter's wing. And the stated reason it was dropped is this: the long term plan was abandoned after the national policy decision to retire the space shuttle fleet no later than twenty ten.",
+   "img": "ex_rtf_finding",
+   "exhibit": true,
+   "source": "Return to Flight Task Group, Final Report, Aug 2005",
+   "highlight": [
+    0.08,
+    0.48,
+    0.84,
+    0.16
+   ],
+   "tone": "fear"
+  },
+  {
+   "id": "coda4",
+   "text": "Which is worth sitting with. The accident board never recommended retiring the shuttle. It said: if you fly past twenty ten, recertify it first. A conditional.",
+   "videoQuery": "space shuttle orbiter hangar processing facility",
+   "tone": "tension"
+  },
+  {
+   "id": "coda5",
+   "text": "One hundred and fifty four days later the White House turned that conditional into a deadline. And the retirement decision then cancelled one of the fixes the accident had called for.",
+   "stat": "154 DAYS",
+   "videoQuery": "white house washington government building exterior",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "coda6",
+   "text": "In July two thousand and five, Discovery flew the return to flight mission. The tank shed foam again. It missed. NASA grounded the fleet the following day, and did not fly again for eleven months.",
+   "videoQuery": "space shuttle launch ascent external tank camera view",
+   "tone": "melancholy",
+   "note": "C7. The foam MISSED the orbiter. Never say 'foam struck Discovery.'"
+  },
+  {
+   "id": "coda7",
+   "text": "Columbia itself is still at the Kennedy Space Center. Eighty four thousand pieces of it, in a room on the sixteenth floor of the Vehicle Assembly Building.",
+   "img": "vab_exterior",
+   "cap": "Vehicle Assembly Building, 16th floor.",
+   "tone": "melancholy"
+  },
+  {
+   "id": "coda8",
+   "text": "And they lend it out. Researchers studying how spacecraft come apart during re entry can borrow pieces of it. Three people have written doctorates based on that debris.",
+   "img": "debris_hangar",
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "coda9",
+   "text": "Challenger's recovered structure was sealed into a disused missile silo. Columbia's is signed out, studied, and returned. It is the only destroyed spacecraft in history that is still working.",
+   "videoQuery": "archive storage facility shelves containers industrial",
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "coda10",
+   "text": "One last thing. Ilan Ramon carried a copy of a pencil drawing into orbit with him. It is called Moon Landscape, and it shows the Earth as seen from the moon.",
+   "img": "earthrise",
+   "source": "NASA / Apollo 8, 1968 (public domain)",
+   "cap": "Earth, seen from the Moon.",
+   "tone": "melancholy",
+   "note": "RIGHTS DECISION: Petr Ginz's 'Moon Landscape' is held by the Yad Vashem Art Museum, which asserts rights over reproduction; it is also a Holocaust artefact where respectful licensing matters. We do NOT reproduce it. Substituted NASA's Apollo 8 Earthrise - the real photograph of the exact thing the boy drew from imagination in 1942, 26 years before anyone saw it. Licence-clean and, I think, stronger. If Yad Vashem grants permission later, the drawing can replace this."
+  },
+  {
+   "id": "coda11",
+   "text": "It was drawn in nineteen forty two by a fourteen year old boy named Petr Ginz, in the Theresienstadt ghetto, from imagination. He was murdered at Auschwitz two years later, aged sixteen.",
+   "img": "earthrise",
+   "source": "NASA / Apollo 8, 1968 (public domain)",
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "coda12",
+   "text": "Yad Vashem made Ramon a facsimile to take with him. The original never left Jerusalem, and it is still there.",
+   "img": "earthrise",
+   "source": "NASA / Apollo 8, 1968 (public domain)",
+   "cap": "The original never left Jerusalem.",
+   "tone": "melancholy",
+   "note": "C6/dim-5. He carried a COPY. Very commonly reported wrong."
+  },
+  {
+   "id": "coda13",
+   "text": "Petr Ginz was born on the first of February, nineteen twenty eight. Columbia came apart on the first of February, two thousand and three, which would have been his seventy fifth birthday.",
+   "img": "earthrise",
+   "source": "NASA / Apollo 8, 1968 (public domain)",
+   "motion": "slow",
+   "tone": "melancholy"
+  },
+  {
+   "id": "coda14",
+   "text": "Three people asked for a photograph of that wing. The photograph was never taken. Everything else in this story follows from that.",
+   "img": "swri_impact_after_1",
+   "cap": "The hole, seven July, two thousand and three.",
+   "motion": "slow",
+   "tone": "fear"
+  },
+  {
+   "id": "bridge",
+   "text": "If the way an organisation talks itself past a warning is the part that stays with you, we made the other half of this story. Watch Engineers Said Don't Launch, Seventy Three Seconds Later Challenger Was Gone, right here on this channel. And subscribe to Black Box Breakdown, so you don't miss the next one.",
+   "videoQuery": "space shuttle launch night pad floodlights",
+   "motion": "slow",
+   "tone": "melancholy"
+  }
+ ]
+}

@@ -182,6 +182,13 @@ channels re-cover the giants repeatedly; (b) maintain a wave calendar
 (anniversaries, Netflix/major-doc releases, expedition dates, report publications)
 in docs/planning/TOPIC-QUEUE.md and time giant-name episodes to land ON the wave,
 2-4 weeks before the peak date, not after.
+Two cheap leading indicators for that calendar live at charts.youtube.com/US —
+**Trending Movie Trailers** (a disaster/history/true-crime trailer charting = a
+wave forming weeks before release) and **Weekly Top Podcast Shows** (US/CA/MX,
+true-crime/history shows charting = live pull for Black Box / Criminal Record).
+Glance at both every run and log one "Charts:" line under Step 3; see the
+standing section at the top of TOPIC-QUEUE.md. Charts is a demand sensor ONLY —
+its music is commercial and banned as audio.
 
 ## Step 4 — sensitivity gate (recent real disasters)
 

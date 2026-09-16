@@ -1,0 +1,88 @@
+[
+ {
+  "id": "h1",
+  "text": "It is the twenty second of January, two thousand and three. At the Johnson Space Center, an engineer named Rodney Rocha is typing an email he will not send.",
+  "videoQuery": "nasa mission control johnson space center consoles engineers working",
+  "stat": "22 JAN 2003 · JOHNSON SPACE CENTER",
+  "cap": "Rodney Rocha, chief engineer, Thermal Protection System.",
+  "motion": "slow",
+  "tone": "melancholy",
+  "note": "REAL NASA MCC video (PD, 646x472). Rocha worked at JSC; this is NOT footage of him on that day. The cap names the man, the visual establishes the building - same honesty pattern as sept11timeline h1."
+ },
+ {
+  "id": "h2",
+  "text": "Six days earlier, eighty one point seven seconds after Columbia left the pad, a piece of insulating foam came off the fuel tank. Two tenths of a second later it struck the underside of the left wing.",
+  "videoQuery": "space shuttle launch ascent external tank separation tracking camera",
+  "stat": "16 JAN 2003 · T PLUS 81.9 SECONDS",
+  "cap": "Bipod ramp foam. Left wing, leading edge.",
+  "tone": "tension",
+  "note": "THUMBNAIL PROMISE DELIVERED - foam + wing, on real motion. Use STS-107-FD01.mp4 (854x480 NASA JSC PAO) and/or the ET208 strike GIF. NOT the NARA STS-1 film - different mission, must never be narrated as STS-107. ⚠ CORRECTED per dim-1 correction #1: 81.7s is the SEPARATION time, impact was 0.2s later at 81.9s. The near-universal 'struck the wing at 81.7 seconds' conflates the two."
+ },
+ {
+  "id": "h3",
+  "text": "Nobody is sure how big it was. The cameras that should have recorded it were out of focus, or pointed the wrong way, or lost the vehicle altogether. So Rocha asks for a photograph of the wing.",
+  "videoQuery": "long lens tracking camera telescope optical ground station sky",
+  "cap": "Of a dozen camera sites, not one usable image.",
+  "tone": "tension",
+  "note": "CAIB p.140: first site lost track, second out of focus 'because of an improperly maintained lens', third caught only the upper wing. CAIB adds: 'The Board notes that camera problems also hindered the Challenger investigation.'"
+ },
+ {
+  "id": "h4",
+  "text": "He asks on flight day four and gets no answer. He asks again on flight day six. And on the morning of the twenty second, he is told the Shuttle Program is not requesting any outside imaging help.",
+  "videoQuery": "nasa engineers meeting conference room briefing slides",
+  "cap": "Three requests. Six days.",
+  "tone": "tension"
+ },
+ {
+  "id": "h5",
+  "text": "So he writes it down. That this is the wrong answer. That it borders on irresponsible. And at the end, this.",
+  "img": "ex_rocha_email",
+  "exhibit": true,
+  "source": "CAIB Report, Vol. I, p. 157",
+  "cap": "The email, as printed in the accident report.",
+  "tone": "tension"
+ },
+ {
+  "id": "h6",
+  "text": "Remember the NASA safety posters everywhere around stating, if it's not safe, say so? Yes, it's that serious.",
+  "img": "ex_rocha_email",
+  "exhibit": true,
+  "source": "CAIB Report, Vol. I, p. 157",
+  "highlight": [
+   0.08,
+   0.63,
+   0.84,
+   0.15
+  ],
+  "cap": "\"Yes, it's that serious.\"",
+  "motion": "slow",
+  "tone": "fear"
+ },
+ {
+  "id": "h7",
+  "text": "He printed it out, carried it down the hall, and showed it to a colleague. He never sent it. Asked why, he told the accident board he did not want to jump the chain of command.",
+  "videoQuery": "office corridor fluorescent lights walking printed document paper",
+  "cap": "Never sent.",
+  "motion": "slow",
+  "tone": "melancholy",
+  "note": "THE DIFFERENTIATOR. Almost every retelling says he sent it and was ignored. CAIB p.157: 'An e-mail that he did not send but instead printed out and shared with a colleague follows.' Verified verbatim against chapter6.txt by the orchestrator. Do NOT say 'his warning went unanswered' of THIS email - that applies to his flight-day-four email."
+ },
+ {
+  "id": "h8",
+  "text": "Six months later, in San Antonio, engineers loaded a block of that foam into a nitrogen cannon built for testing bird strikes, and fired it at a shuttle wing at five hundred and thirty miles an hour.",
+  "img": "swri_airgun_before",
+  "stat": "7 JULY 2003 · SAN ANTONIO",
+  "cap": "A thirty-five foot barrel. Two hundred sensors.",
+  "tone": "tension"
+ },
+ {
+  "id": "h9",
+  "text": "This is what it did. A hole roughly sixteen inches across, straight through the leading edge. The photograph Rodney Rocha asked for, three times, was never taken.",
+  "img": "swri_impact_after_1",
+  "stat": "RCC PANEL 8 · TEST 1",
+  "cap": "CAIB photo, 7 July 2003.",
+  "motion": "slow",
+  "tone": "fear",
+  "note": "THUMBNAIL PAYOFF - the exact asset the thumbnail is cut from."
+ }
+]

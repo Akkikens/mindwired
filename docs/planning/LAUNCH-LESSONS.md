@@ -15,6 +15,104 @@ proceeds; no-human-available records BLOCKED-ON-DATA and proceeds.
 | Black Box Breakdown | TBD (observed de-facto: near-daily, mornings — Akshay to confirm a fixed slot or bless the daily cadence) |
 | mindwired | TBD (same observation) |
 
+## ✅ REAL STUDIO NUMBERS AT LAST — 2026-09-15 (United 93, wsFhuwUjg_4, Black Box)
+
+**The standing data debt is partly paid.** Akshay shared the Studio *Video analytics*
+overview for United 93 (published Jul 26, so 51 days live). These are Studio figures read
+off the Overview tab, not yt-dlp public counts — the first real ones banked in this file
+since the 2026-08-03 backfill.
+
+| Metric | Value |
+|---|---|
+| Views since published | **50,466** |
+| Watch time | **3.3K hours** |
+| Subscribers gained | **+246** |
+| Estimated revenue | — (not monetised / withheld) |
+| Realtime, last 48h | **27,792 views** and still climbing |
+| Runtime | 16:23 (983s) |
+
+Traffic sources: **Browse features 72.1%** · Suggested videos 19.5% · YouTube search 5.6% ·
+Other YouTube features 1.1% · Direct or unknown 1.0%.
+
+**Derived (state these as derived, not as Studio-reported):**
+- **AVD ≈ 3:55** (3.3K h × 3600 ÷ 50,466 = 235s). Watch time is rounded to 2 significant
+  figures, so the honest range is 3:52–3:59.
+- **Average % viewed ≈ 24%** (235 ÷ 983). Range 23.6–24.3%.
+- **Subscriber conversion 0.49%** (246 ÷ 50,466).
+
+### The three lessons
+
+**1. The surge is a POOL story, not a packaging story — and that finally answers the
+question 2026-09-12 could not.** That entry said: "we cannot tell whether the surge is a
+bigger pool (topic demand) or a better CTR on the same pool (packaging) — and that answer
+changes what we do next." **72.1% Browse answers it.** Browse is YouTube pushing the video
+onto home feeds; it is the impressions pool being handed out, not viewers choosing us off a
+search page. Nothing about this video changed — no re-promotion, no new thumbnail. The
+*subject's* demand changed, and a video that already existed got re-tested. This is the
+clearest confirmation the factory has of icahn-validate's founding claim: **topic demand
+sets the pool, packaging only competes inside it.**
+
+**2. Wave traffic converts at LOW retention, and YouTube pushes it anyway.** 24% average
+viewed is well under MH370's 37.3% and even Tenerife's 35.9% (2026-07-26 snapshot). The
+naive reading is that the video got worse. It did not — the *audience* changed. Browse
+traffic on a giant-name subject is broad and low-intent, and a chunk of it bounces early.
+What matters to the algorithm here is the absolute number: **3:55 on a 16-minute video**,
+returned across 50K sessions. **Do not "fix" a Browse-driven video's retention by cutting it
+shorter.** The pool is being granted on subject demand; the job is to hold the people who
+stay, not to chase the percentage.
+
+**3. 0.49% sub conversion on a wave is healthy — and it is the reason to ride waves.**
+246 subs from one dormant upload, with zero effort spent. Subscriber growth is the channel's
+stated #1 problem. A crest re-activating the back catalogue converts better than a cold
+upload on a mid-tier topic ever has. **Consequence: when a wave arrives, ship into it AND
+check what the back catalogue already has standing in that lane** — United 93 and Building 7
+both earned their surge by simply existing when the wave hit.
+
+### What is still owed
+Impressions and impressions CTR, the 0–60s retention curve shape, and Test & Compare
+thumbnail state — none are on the Overview tab. Without impressions we still cannot compute
+CTR, so we cannot say whether the thumbnail is *also* over-performing inside the pool. Ask
+for the **Reach** tab next time; that one screenshot completes the diagnosis.
+
+**Consequence for the next pick, recorded now:** `sept11timeline` ships into this crest
+(packaged 2026-09-15, see PUBLISHABLE.md). It is the correct move and this entry is the
+evidence for it — the pool is live and demonstrably being granted to 9/11 material today.
+
+## ⚠ WAVE READING CORRECTED + STANDING DATA DEBT — 2026-09-14 (Black Box, 9/11 cluster)
+
+**The 2026-09-13 "the wave is decaying" reading was wrong, and the way it was wrong is the
+lesson.** PUBLISHABLE.md concluded the 25th-anniversary wave was decaying and that the next
+topic should be non-9/11. That conclusion was drawn from *this channel's own two uploads*
+(groundzeroair 96 views, noradtapes fresh) — i.e. from our launch results, with no market
+sweep behind it. A live yt-dlp sweep on 2026-09-14 (8 queries, 200 raw → 108 deduped)
+says the opposite: the wave is **at crest**.
+
+| Views / subs | Date | Video |
+|---|---|---|
+| 8,395,722 / 79,800 | 2026-09-10 | SmartHER News — 9/11 survivor's story |
+| 5,006,915 / 278,000 | 2026-09-11 | The World History Channel — Minute by Minute |
+| 77,530 / **135** | 2026-09-07 | Bitesize Education — September 11 Explained |
+
+Three fresh uploads, days old, still climbing, one of them on a 135-sub channel.
+**Lesson: a weak launch on a subject is not evidence the subject's wave has passed.** Those
+are different measurements — ours is a CTR/packaging signal inside our own pool, the sweep is
+a demand signal about the pool's size. Conflating them nearly cost the channel its best
+validated topic. **Never downgrade a wave from launch results alone; re-sweep first.**
+
+**STANDING DATA DEBT — hatch (c) invoked twice consecutively.** `sept11timeline` was
+validated 2026-09-14 under escape hatch (c), the second consecutive validation to use it
+(after `thegrounding`, 2026-09-13). The skill's own words are "legitimate once and corrosive
+twice," and we are now at twice. Akshay explicitly chose to proceed. **Still owed, and it
+now blocks the topic AFTER this one, not just this one:** for groundzeroair (Sep 10),
+colossalsquid (Sep 8), projecthailmary (Aug 31), plus noradtapes and biosphere2 at their
+2026-09-15 due date — days live, impressions, impressions CTR, average view duration and
+average % viewed, the 0-60s curve shape, Test & Compare state. Compare against MH370
+(kRjhzp4Ho9k) for Black Box.
+
+**The natural experiment set up on 2026-09-13 is still unread** — two 9/11 episodes three
+days apart on one channel into one wave with different packaging. It is now joined by a
+third data point coming (sept11timeline). Reading all three requires the Studio pull.
+
 ## BACKLOG CLEARED — 2026-09-13 (Akshay published everything)
 
 The rendered-but-unpublished backlog the 2026-08 audit flagged is gone. Five uploads
@@ -119,6 +217,7 @@ read via Akshay's browser). Views are point-in-time snapshots from that read.**
 
 | Date | Channel | Title | URL (watch?v=) | Views @03 Aug |
 |---|---|---|---|---|
+| **Sep 16** | **Black Box** | **9/11: The Orders That Never Arrived** | **PqqMOCG_BwM** | published 2026-09-16, **DIAGNOSIS DUE 2026-09-18** |
 | Aug 4 | Black Box | FIRE Took Down a 47-Story BUILDING 7 ? Here's FULL STORY | wp8t2gOKYyE | 4,183 @ 09 Sep |
 | Aug 3 | Black Box | They Had AMELIA EARHART's RADIO Log. They Never Had Her BODY. | 998g3UmVjKw | 30 |
 | Aug 3 | mindwired | The Biggest EXPLOSION in HISTORY Left No Crater | 9YOOCyi6oqk | 10 |
