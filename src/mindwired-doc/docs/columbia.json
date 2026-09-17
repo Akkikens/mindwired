@@ -14,7 +14,8 @@
    "cap": "Rodney Rocha, chief engineer, Thermal Protection System.",
    "motion": "slow",
    "tone": "melancholy",
-   "note": "REAL NASA MCC video (PD, 646x472). Rocha worked at JSC; this is NOT footage of him on that day. The cap names the man, the visual establishes the building - same honesty pattern as sept11timeline h1."
+   "note": "REAL NASA MCC video (PD, 646x472). Rocha worked at JSC; this is NOT footage of him on that day. The cap names the man, the visual establishes the building - same honesty pattern as sept11timeline h1.",
+   "video": "mission_control_1.mp4"
   },
   {
    "id": "h2",
@@ -23,7 +24,8 @@
    "stat": "16 JAN 2003 · T PLUS 81.9 SECONDS",
    "cap": "Bipod ramp foam. Left wing, leading edge.",
    "tone": "tension",
-   "note": "THUMBNAIL PROMISE DELIVERED - foam + wing, on real motion. Use STS-107-FD01.mp4 (854x480 NASA JSC PAO) and/or the ET208 strike GIF. NOT the NARA STS-1 film - different mission, must never be narrated as STS-107. ⚠ CORRECTED per dim-1 correction #1: 81.7s is the SEPARATION time, impact was 0.2s later at 81.9s. The near-universal 'struck the wing at 81.7 seconds' conflates the two."
+   "note": "THUMBNAIL PROMISE DELIVERED - foam + wing, on real motion. Use STS-107-FD01.mp4 (854x480 NASA JSC PAO) and/or the ET208 strike GIF. NOT the NARA STS-1 film - different mission, must never be narrated as STS-107. ⚠ CORRECTED per dim-1 correction #1: 81.7s is the SEPARATION time, impact was 0.2s later at 81.9s. The near-universal 'struck the wing at 81.7 seconds' conflates the two.",
+   "video": "launch_1.mp4"
   },
   {
    "id": "h3",
@@ -31,14 +33,17 @@
    "videoQuery": "long lens tracking camera telescope optical ground station sky",
    "cap": "Of a dozen camera sites, not one usable image.",
    "tone": "tension",
-   "note": "CAIB p.140: first site lost track, second out of focus 'because of an improperly maintained lens', third caught only the upper wing. CAIB adds: 'The Board notes that camera problems also hindered the Challenger investigation.'"
+   "note": "CAIB p.140: first site lost track, second out of focus 'because of an improperly maintained lens', third caught only the upper wing. CAIB adds: 'The Board notes that camera problems also hindered the Challenger investigation.'",
+   "video": "tracking_1.mp4"
   },
   {
    "id": "h4",
    "text": "He asks on flight day four and gets no answer. He asks again on flight day six. And on the morning of the twenty second, he is told the Shuttle Program is not requesting any outside imaging help.",
    "videoQuery": "nasa engineers meeting conference room briefing slides",
    "cap": "Three requests. Six days.",
-   "tone": "tension"
+   "tone": "tension",
+   "video": "meeting_1.mp4",
+   "stock": true
   },
   {
    "id": "h5",
@@ -72,7 +77,9 @@
    "cap": "Never sent.",
    "motion": "slow",
    "tone": "melancholy",
-   "note": "THE DIFFERENTIATOR. Almost every retelling says he sent it and was ignored. CAIB p.157: 'An e-mail that he did not send but instead printed out and shared with a colleague follows.' Verified verbatim against chapter6.txt by the orchestrator. Do NOT say 'his warning went unanswered' of THIS email - that applies to his flight-day-four email."
+   "note": "THE DIFFERENTIATOR. Almost every retelling says he sent it and was ignored. CAIB p.157: 'An e-mail that he did not send but instead printed out and shared with a colleague follows.' Verified verbatim against chapter6.txt by the orchestrator. Do NOT say 'his warning went unanswered' of THIS email - that applies to his flight-day-four email.",
+   "video": "corridor_1.mp4",
+   "stock": true
   },
   {
    "id": "h8",
@@ -113,13 +120,15 @@
    "videoQuery": "space shuttle launch 1981 tracking camera film grain ascent",
    "stat": "12 APR 1981 · STS-1",
    "cap": "The first flight. The first damage.",
-   "tone": "tension"
+   "tone": "tension",
+   "video": "launch_2.mp4"
   },
   {
    "id": "a1_2",
    "text": "The external tank is covered in insulating foam, because it holds liquid hydrogen at two hundred and fifty three degrees below zero and it would otherwise ice over.",
    "videoQuery": "external tank insulation foam orange spray application factory",
-   "tone": "neutral"
+   "tone": "neutral",
+   "video": "foam_1.mp4"
   },
   {
    "id": "a1_3",
@@ -135,7 +144,8 @@
    "text": "It shed foam on the first flight. And on the second. And it kept doing it, for twenty two years, on flight after flight after flight.",
    "videoQuery": "space shuttle launch ascent external tank separation tracking",
    "motion": "slow",
-   "tone": "tension"
+   "tone": "tension",
+   "video": "launch_3.mp4"
   },
   {
    "id": "a1_5",
@@ -176,7 +186,9 @@
    "id": "a1_8",
    "text": "Two of the six had not been found yet. The accident board discovered them afterwards, going back through the record. The people approving the flight were working from a number that was wrong by half.",
    "videoQuery": "nasa engineers meeting conference room briefing slides projector",
-   "tone": "fear"
+   "tone": "fear",
+   "video": "meeting_2.mp4",
+   "stock": true
   },
   {
    "id": "a1_9",
@@ -200,14 +212,16 @@
    "stat": "7 OCT 2002 · STS-112",
    "videoQuery": "solid rocket booster attach hardware closeup launch vehicle",
    "cap": "Two missions before Columbia.",
-   "tone": "tension"
+   "tone": "tension",
+   "video": "assembly_1.mp4"
   },
   {
    "id": "a1_12",
    "text": "That was the closest warning anyone got, and it arrived two missions before the accident. The programme classified it, flew twice more, and did not fix the ramp.",
    "videoQuery": "space shuttle vehicle assembly building crawler transport",
    "motion": "slow",
-   "tone": "fear"
+   "tone": "fear",
+   "video": "assembly_1.mp4"
   },
   {
    "id": "a1_13",
@@ -222,7 +236,9 @@
    "id": "a1_14",
    "text": "In family meant a problem you had seen before, within the experience base. Out of family meant something new. Foam loss had been seen so many times that it had become, by definition, in family.",
    "videoQuery": "documents paperwork filing archive shelves office",
-   "tone": "tension"
+   "tone": "tension",
+   "video": "docs_1.mp4",
+   "stock": true
   },
   {
    "id": "a1_15",
@@ -240,7 +256,8 @@
    "videoQuery": "space shuttle launch slow motion ascent plume",
    "motion": "slow",
    "tone": "melancholy",
-   "note": "Vaughan named in CAIB p.130. She wrote Chapter 8 - paid off in Act VII."
+   "note": "Vaughan named in CAIB p.130. She wrote Chapter 8 - paid off in Act VII.",
+   "video": "launch_1.mp4"
   },
   {
    "id": "a2_ch",
@@ -262,13 +279,15 @@
    "text": "It was not a station flight. There was no docking, no rendezvous. Columbia carried a laboratory module in the payload bay and the crew ran experiments around the clock in two shifts.",
    "videoQuery": "astronauts working inside spacecraft laboratory module microgravity",
    "cap": "SPACEHAB. Around the clock, two shifts.",
-   "tone": "neutral"
+   "tone": "neutral",
+   "video": "orbit_1.mp4"
   },
   {
    "id": "a2_3",
    "text": "That detail matters more than it sounds. Because Columbia was not going to the space station, it had no robotic arm fitted, and there was nowhere to shelter if anything went wrong.",
    "videoQuery": "space shuttle orbiter payload bay doors open earth below",
-   "tone": "tension"
+   "tone": "tension",
+   "video": "payloadbay_1.mp4"
   },
   {
    "id": "a2_4",
@@ -276,21 +295,25 @@
    "stat": "T PLUS 81.7 SECONDS",
    "videoQuery": "space shuttle launch ascent tracking camera long lens",
    "motion": "fast",
-   "tone": "fear"
+   "tone": "fear",
+   "video": "launch_2.mp4"
   },
   {
    "id": "a2_5",
    "text": "Nobody saw it happen. Not in the control room, not on the pad, not anywhere. It was found the next day, when the routine film review caught it.",
    "videoQuery": "film review screening room projector engineers watching footage",
    "cap": "Found the next day. On the film.",
-   "tone": "tension"
+   "tone": "tension",
+   "video": "screening_1.mp4",
+   "stock": true
   },
   {
    "id": "a2_6",
    "text": "And when they went looking for a clear picture of it, they did not have one.",
    "videoQuery": "long lens tracking camera optical ground station sky",
    "motion": "slow",
-   "tone": "tension"
+   "tone": "tension",
+   "video": "tracking_1.mp4"
   },
   {
    "id": "a2_7",
@@ -322,14 +345,17 @@
    "text": "So on the seventeenth of January, the chair of the photo working group picked up the phone. The strike was classified out of family. Something new. Something nobody had seen.",
    "videoQuery": "nasa engineer office telephone desk documents",
    "stat": "17 JAN · FLIGHT DAY 2",
-   "tone": "tension"
+   "tone": "tension",
+   "video": "engoffice_1.mp4",
+   "stock": true
   },
   {
    "id": "a2_10",
    "text": "A team was stood up to analyse it. It was called the debris assessment team, and it was co chaired by Rodney Rocha.",
    "videoQuery": "nasa mission control johnson space center consoles engineers",
    "cap": "The Debris Assessment Team.",
-   "tone": "neutral"
+   "tone": "neutral",
+   "video": "mission_control_2.mp4"
   },
   {
    "id": "a3_ch",
@@ -422,13 +448,17 @@
    "text": "He was the chief engineer for the thermal protection system. The heat shield. The thing that keeps the vehicle from burning up. And he is using the word beg.",
    "videoQuery": "nasa engineer office desk computer documents working late",
    "motion": "slow",
-   "tone": "melancholy"
+   "tone": "melancholy",
+   "video": "engoffice_2.mp4",
+   "stock": true
   },
   {
    "id": "a3_8",
    "text": "None of the three requests went through the normal channel, which ran through mission management. The engineers went up the engineering side instead, because management was not engaging.",
    "videoQuery": "office corridor doors fluorescent institutional building",
-   "tone": "tension"
+   "tone": "tension",
+   "video": "corridor_2.mp4",
+   "stock": true
   },
   {
    "id": "a3_9",
@@ -466,21 +496,24 @@
    "text": "Wayne Hale phoned a defence department representative at the Cape and asked the military to start the process.",
    "videoQuery": "military operations center personnel consoles screens dark room",
    "stat": "22 JAN · MORNING",
-   "tone": "tension"
+   "tone": "tension",
+   "video": "military_1.mp4"
   },
   {
    "id": "a4_2",
    "text": "Within an hour, that request reached United States Strategic Command at Cheyenne Mountain, in Colorado. A plans officer there began identifying which assets could do it.",
    "videoQuery": "cheyenne mountain military command facility tunnel blast door",
    "cap": "Cheyenne Mountain. Assets being tasked.",
-   "tone": "tension"
+   "tone": "tension",
+   "video": "military_1.mp4"
   },
   {
    "id": "a4_3",
    "text": "This is real. It was happening. Somewhere in Colorado, people were working out how to point something at a wing.",
    "videoQuery": "ground based telescope observatory dome night sky tracking",
    "motion": "slow",
-   "tone": "tension"
+   "tone": "tension",
+   "video": "observatory_1.mp4"
   },
   {
    "id": "a4_4",
@@ -526,20 +559,26 @@
    "text": "What happened inside those ninety minutes, the board describes carefully, and so will we. It says the following sequence likely occurred.",
    "videoQuery": "clock face ticking time office wall institutional",
    "tone": "tension",
-   "note": "C1/C4. CAIB says 'likely occurred'. Do NOT assert. Ham did not personally phone USSTRATCOM."
+   "note": "C1/C4. CAIB says 'likely occurred'. Do NOT assert. Ham did not personally phone USSTRATCOM.",
+   "video": "clock_1.mp4",
+   "stock": true
   },
   {
    "id": "a4_8",
    "text": "The chair of the mission management team, Linda Ham, asked who was requesting the imagery. She called several senior managers. Each said they had not requested it, and could not identify a requirement for it.",
    "videoQuery": "nasa management meeting conference table briefing",
-   "tone": "tension"
+   "tone": "tension",
+   "video": "meeting_1.mp4",
+   "stock": true
   },
   {
    "id": "a4_9",
    "text": "And that word, requirement, is where this comes apart. Because the engineers had not filed a requirement. They had asked a question.",
    "videoQuery": "documents forms paperwork desk bureaucracy stamp",
    "motion": "slow",
-   "tone": "fear"
+   "tone": "fear",
+   "video": "docs_1.mp4",
+   "stock": true
   },
   {
    "id": "a4_10",
@@ -569,7 +608,8 @@
    "id": "a4_12",
    "text": "There is one more finding here, and it is the one almost nobody quotes.",
    "videoQuery": "satellite orbiting earth space imagery reconnaissance",
-   "tone": "tension"
+   "tone": "tension",
+   "video": "satellite_1.mp4"
   },
   {
    "id": "a4_13",
@@ -616,7 +656,8 @@
    "text": "The flight director who wrote that was LeRoy Cain. Remember the name. He comes back at the end of this.",
    "videoQuery": "nasa mission control flight director console headset",
    "motion": "slow",
-   "tone": "melancholy"
+   "tone": "melancholy",
+   "video": "mission_control_3.mp4"
   },
   {
    "id": "a5_ch",
@@ -638,7 +679,8 @@
    "id": "a5_2",
    "text": "It had been built and validated for small debris. Ice, mostly. Pieces about three cubic inches.",
    "videoQuery": "laboratory test rig materials testing equipment engineering",
-   "tone": "neutral"
+   "tone": "neutral",
+   "video": "lab_1.mp4"
   },
   {
    "id": "a5_3",
@@ -656,13 +698,16 @@
    "videoQuery": "engineer calculations spreadsheet computer screen data analysis",
    "motion": "slow",
    "tone": "fear",
-   "note": "Dim-2 correction C7. 640x is what the DAT believed at the time; 400x is the Board's own estimate. Both figures are real and they mean different things."
+   "note": "Dim-2 correction C7. 640x is what the DAT believed at the time; 400x is the Board's own estimate. Both figures are real and they mean different things.",
+   "video": "lab_1.mp4",
+   "stock": true
   },
   {
    "id": "a5_5",
    "text": "Crater came back and said the debris would go deeper than the tile itself. Which would mean burn through.",
    "videoQuery": "thermal protection tiles spacecraft surface closeup heat shield",
-   "tone": "fear"
+   "tone": "fear",
+   "video": "tiles_1.mp4"
   },
   {
    "id": "a5_6",
@@ -670,20 +715,25 @@
    "videoQuery": "engineers discussion whiteboard technical meeting",
    "motion": "slow",
    "tone": "tension",
-   "note": "C6. The 'no safety of flight' conclusion was the DAT's own. Do not frame it as managers overruling engineers."
+   "note": "C6. The 'no safety of flight' conclusion was the DAT's own. Do not frame it as managers overruling engineers.",
+   "video": "meeting_2.mp4",
+   "stock": true
   },
   {
    "id": "a5_7",
    "text": "They knew Crater ran conservative. They knew it did not model the hardened lower layer of the tile. So they talked themselves down, on reasoning that was defensible and turned out to be wrong.",
    "videoQuery": "engineer office late night desk lamp documents",
-   "tone": "melancholy"
+   "tone": "melancholy",
+   "video": "engoffice_1.mp4",
+   "stock": true
   },
   {
    "id": "a5_8",
    "text": "What they could not do was check that reasoning. To check it, they needed a picture.",
    "videoQuery": "camera lens telescope optics closeup aperture",
    "motion": "slow",
-   "tone": "fear"
+   "tone": "fear",
+   "video": "tracking_1.mp4"
   },
   {
    "id": "a5_9",
@@ -727,7 +777,8 @@
    "id": "a5_12",
    "text": "Meanwhile, two engineers were emailing each other about what would happen if the landing gear bay burned through on the way down.",
    "videoQuery": "landing gear aircraft wheel assembly mechanism closeup",
-   "tone": "tension"
+   "tone": "tension",
+   "video": "gear_1.mp4"
   },
   {
    "id": "a5_13",
@@ -765,14 +816,18 @@
    "text": "Those emails went sideways, between two engineers. They did not go up.",
    "videoQuery": "email inbox screen computer monitor office dark",
    "motion": "slow",
-   "tone": "melancholy"
+   "tone": "melancholy",
+   "video": "screen_1.mp4",
+   "stock": true
   },
   {
    "id": "a5_16",
    "text": "Programme rules said the mission management team would meet every day of a flight. During Columbia's sixteen days, it met five times.",
    "stat": "5 MEETINGS IN 16 DAYS",
    "videoQuery": "empty conference room table chairs institutional",
-   "tone": "fear"
+   "tone": "fear",
+   "video": "engoffice_2.mp4",
+   "stock": true
   },
   {
    "id": "a5_17",
@@ -787,7 +842,8 @@
    "id": "a5_18",
    "text": "And the crew. People often say the crew never knew. That is not true.",
    "videoQuery": "astronauts inside spacecraft crew cabin working microgravity",
-   "tone": "tension"
+   "tone": "tension",
+   "video": "orbit_1.mp4"
   },
   {
    "id": "a5_19",
@@ -810,7 +866,8 @@
    "text": "They knew about the foam. What they were never told was that three people had asked for a photograph of their wing, and that the request had been called off.",
    "videoQuery": "astronauts inside spacecraft flight deck windows earth",
    "motion": "slow",
-   "tone": "melancholy"
+   "tone": "melancholy",
+   "video": "orbit_1.mp4"
   },
   {
    "id": "a6_ch",
@@ -823,14 +880,16 @@
    "id": "a6_1",
    "text": "Columbia comes in over California, then Nevada, then New Mexico, trailing plasma. On the ground in Texas, people are filming it because it is a nice thing to watch on a Saturday morning.",
    "videoQuery": "reentry plasma trail night sky spacecraft streak",
-   "tone": "tension"
+   "tone": "tension",
+   "video": "reentry_1.mp4"
   },
   {
    "id": "a6_2",
    "text": "At eight fifty four and twenty four seconds, a console officer in mission control calls the flight director.",
    "videoQuery": "nasa mission control consoles screens operators headsets",
    "stat": "8:54:24 A.M.",
-   "tone": "fear"
+   "tone": "fear",
+   "video": "mission_control_4.mp4"
   },
   {
    "id": "a6_3",
@@ -840,7 +899,9 @@
    "timestamp": "8:54:24 A.M. EST",
    "source": "CAIB Report, Vol. I, ch. 2, p. 42",
    "tone": "fear",
-   "note": "HONESTY RULE: this is a Cartesia recreation from the printed CAIB transcript, NOT actual MCC audio. Label must read RECREATION."
+   "note": "HONESTY RULE: this is a Cartesia recreation from the printed CAIB transcript, NOT actual MCC audio. Label must read RECREATION.",
+   "video": "mission_control_4.mp4",
+   "videoQuery": "nasa mission control consoles telemetry operators headsets"
   },
   {
    "id": "a6_4",
@@ -849,7 +910,9 @@
    "radioLabel": "RECREATION FROM TRANSCRIPT",
    "timestamp": "8:54:35 A.M. EST",
    "source": "CAIB Report, Vol. I, ch. 2, p. 42",
-   "tone": "fear"
+   "tone": "fear",
+   "video": "mission_control_5.mp4",
+   "videoQuery": "nasa mission control flight director console headset"
   },
   {
    "id": "a6_5",
@@ -858,14 +921,18 @@
    "radioLabel": "RECREATION FROM TRANSCRIPT",
    "timestamp": "8:54:45 A.M. EST",
    "source": "CAIB Report, Vol. I, ch. 2, p. 42",
-   "tone": "fear"
+   "tone": "fear",
+   "video": "mission_control_1.mp4",
+   "videoQuery": "nasa mission control room operators consoles screens"
   },
   {
    "id": "a6_6",
    "text": "No commonality. Meaning the sensors are not wired together, so a single wiring fault cannot explain it. Meaning something is happening to the left wing.",
    "videoQuery": "wiring harness cables electrical schematic technical",
    "motion": "slow",
-   "tone": "fear"
+   "tone": "fear",
+   "video": "wiring_1.mp4",
+   "stock": true
   },
   {
    "id": "a6_7",
@@ -875,7 +942,9 @@
    "timestamp": "8:59:15 A.M. EST",
    "source": "CAIB Report, Vol. I, ch. 2, p. 43",
    "stat": "8:59:15 A.M.",
-   "tone": "fear"
+   "tone": "fear",
+   "video": "gear_1.mp4",
+   "videoQuery": "landing gear aircraft wheel assembly mechanism closeup"
   },
   {
    "id": "a6_8",
@@ -884,14 +953,17 @@
    "radioLabel": "RECREATION FROM TRANSCRIPT",
    "timestamp": "8:59:28 A.M. EST",
    "source": "CAIB Report, Vol. I, ch. 2, p. 43",
-   "tone": "fear"
+   "tone": "fear",
+   "video": "mission_control_2.mp4",
+   "videoQuery": "nasa mission control consoles communication headset operator"
   },
   {
    "id": "a6_9",
    "text": "The answer comes back from the flight deck. One word, and the beginning of another.",
    "videoQuery": "spacecraft cockpit instruments controls closeup",
    "motion": "slow",
-   "tone": "fear"
+   "tone": "fear",
+   "video": "cockpit_1.mp4"
   },
   {
    "id": "a6_10",
@@ -915,34 +987,40 @@
    "text": "Eight fifty nine and thirty two seconds. Loss of signal. Which, at that point in an entry, is completely normal. It happens every flight when the antennas switch.",
    "stat": "8:59:32 · LOSS OF SIGNAL",
    "videoQuery": "antenna dish tracking station communications ground",
-   "tone": "fear"
+   "tone": "fear",
+   "video": "antenna_1.mp4"
   },
   {
    "id": "a6_12",
    "text": "So nobody in that room reacts. They wait, the way they always wait.",
    "videoQuery": "nasa mission control room operators waiting consoles",
    "motion": "slow",
-   "tone": "fear"
+   "tone": "fear",
+   "video": "mission_control_5.mp4"
   },
   {
    "id": "a6_13",
    "text": "Forty six seconds later, the vehicle comes apart over east Texas. Mission control has no idea. They are still working the tyre pressure problem.",
    "stat": "9:00:18 · BREAKUP",
    "videoQuery": "nasa mission control consoles telemetry screens data",
-   "tone": "fear"
+   "tone": "fear",
+   "video": "mission_control_1.mp4"
   },
   {
    "id": "a6_14",
    "text": "For twelve more minutes, the loop carries an ordinary technical conversation about instrumentation, while outside, in Nacogdoches and Hemphill and Lufkin, people are hearing what sounds like thunder on a clear day.",
    "videoQuery": "small town texas street pine trees rural road",
    "motion": "slow",
-   "tone": "fear"
+   "tone": "fear",
+   "video": "texas_1.mp4",
+   "stock": true
   },
   {
    "id": "a6_15",
    "text": "At about twelve minutes past nine, a member of the flight control team gets a call on his mobile phone from someone who has just seen it on television. He walks over to the flight director's console and tells him.",
    "videoQuery": "nasa mission control room wide view consoles personnel",
-   "tone": "fear"
+   "tone": "fear",
+   "video": "mission_control_2.mp4"
   },
   {
    "id": "a6_16",
@@ -951,7 +1029,9 @@
    "radioLabel": "RECREATION FROM TRANSCRIPT",
    "timestamp": "~9:12 A.M. EST",
    "source": "CAIB Report, Vol. I, ch. 2, p. 44",
-   "tone": "fear"
+   "tone": "fear",
+   "video": "mission_control_3.mp4",
+   "videoQuery": "nasa mission control room wide view consoles personnel"
   },
   {
    "id": "a6_17",
@@ -962,14 +1042,17 @@
    "source": "CAIB Report, Vol. I, ch. 2, p. 44",
    "motion": "slow",
    "tone": "fear",
-   "note": "Verified verbatim by orchestrator against chapter2.txt. Three words, to GC. C5: do NOT weld the later contingency instructions onto it as one sentence."
+   "note": "Verified verbatim by orchestrator against chapter2.txt. Three words, to GC. C5: do NOT weld the later contingency instructions onto it as one sentence.",
+   "video": "mission_control_4.mp4",
+   "videoQuery": "nasa mission control room wide shot consoles doors"
   },
   {
    "id": "a6_18",
    "text": "Then he tells the room: no phone calls off site. No data in or out. Every console begins archiving its own data, because from this moment the room is evidence.",
    "videoQuery": "nasa mission control consoles screens data archiving",
    "motion": "slow",
-   "tone": "melancholy"
+   "tone": "melancholy",
+   "video": "mission_control_3.mp4"
   },
   {
    "id": "a7_ch",
@@ -999,14 +1082,16 @@
    "text": "Satellites, infrared, hyperspectral imaging, ground penetrating radar and U two aircraft were all used. The board's assessment is that they proved of little value. It came down to people walking in a line through the woods.",
    "videoQuery": "search teams walking line forest ground search personnel",
    "motion": "slow",
-   "tone": "melancholy"
+   "tone": "melancholy",
+   "video": "search_1.mp4"
   },
   {
    "id": "a7_4",
    "text": "On the twenty seventh of March, a helicopter searching Angelina National Forest suffered a mechanical failure and went down at treetop height. It was too low to autorotate.",
    "stat": "27 MAR 2003",
    "videoQuery": "helicopter flying low over forest treetops aerial",
-   "tone": "fear"
+   "tone": "fear",
+   "video": "heli_1.mp4"
   },
   {
    "id": "a7_5",
@@ -1086,7 +1171,8 @@
    "text": "They did not fire that gun to find out whether foam could break a wing. The analysis already said it could. They fired it to end an argument inside their own organisation.",
    "videoQuery": "laboratory test facility equipment industrial engineering",
    "motion": "slow",
-   "tone": "fear"
+   "tone": "fear",
+   "video": "lab_1.mp4"
   },
   {
    "id": "a7_13",
@@ -1094,14 +1180,16 @@
    "videoQuery": "press conference podium microphones briefing room",
    "stat": "5 FEB 2003",
    "tone": "tension",
-   "note": "Ron Dittemore. Frame as a documented institutional position held on the analysis then available - NEVER as a personal error. CAIB's own framing is collective."
+   "note": "Ron Dittemore. Frame as a documented institutional position held on the analysis then available - NEVER as a personal error. CAIB's own framing is collective.",
+   "video": "presser_1.mp4"
   },
   {
    "id": "a7_14",
    "text": "That was not a lie. It was what the analysis appeared to show, to people who had watched foam fall off that tank for twenty two years without anyone dying.",
    "videoQuery": "space shuttle launch ascent plume slow motion",
    "motion": "slow",
-   "tone": "melancholy"
+   "tone": "melancholy",
+   "video": "launch_3.mp4"
   },
   {
    "id": "a7_15",
@@ -1156,14 +1244,18 @@
    "text": "Nobody was prosecuted. Some managers were reassigned that July, and NASA said publicly on the day that the changes were no reflection on the competence or diligence or commitment or professionalism of anybody.",
    "videoQuery": "office building institutional exterior government facility",
    "tone": "melancholy",
-   "note": "PHRASING RULE: reassigned / moved to / retired. NEVER removed, demoted, held responsible, took the fall."
+   "note": "PHRASING RULE: reassigned / moved to / retired. NEVER removed, demoted, held responsible, took the fall.",
+   "video": "corridor_1.mp4",
+   "stock": true
   },
   {
    "id": "a7_20",
    "text": "So the organisation restructured while stating that no individual was at fault. Which is exactly what the board asked for. And it is also why no one was ever held to account. Both of those things are true at once.",
    "videoQuery": "empty office corridor institutional building windows",
    "motion": "slow",
-   "tone": "melancholy"
+   "tone": "melancholy",
+   "video": "corridor_2.mp4",
+   "stock": true
   },
   {
    "id": "a7_21",
@@ -1186,7 +1278,8 @@
    "text": "In April two thousand and three, she was called to testify before the Columbia board, in Houston.",
    "stat": "23 APR 2003 · TESTIMONY",
    "videoQuery": "hearing room testimony table microphones panel",
-   "tone": "tension"
+   "tone": "tension",
+   "video": "hearing_1.mp4"
   },
   {
    "id": "a7_24",
@@ -1218,7 +1311,9 @@
    "text": "The woman who diagnosed the first accident was brought in to write the finding that nobody had listened.",
    "videoQuery": "library archive books shelves reading study",
    "motion": "slow",
-   "tone": "melancholy"
+   "tone": "melancholy",
+   "video": "archive_1.mp4",
+   "stock": true
   },
   {
    "id": "a7_27",
@@ -1281,7 +1376,8 @@
    "text": "An independent task group later found NASA met the intent of twelve of them. Three, it could not.",
    "stat": "12 OF 15",
    "videoQuery": "nasa engineers hardware assembly facility work",
-   "tone": "tension"
+   "tone": "tension",
+   "video": "hangar_1.mp4"
   },
   {
    "id": "coda3",
@@ -1301,7 +1397,8 @@
    "id": "coda4",
    "text": "Which is worth sitting with. The accident board never recommended retiring the shuttle. It said: if you fly past twenty ten, recertify it first. A conditional.",
    "videoQuery": "space shuttle orbiter hangar processing facility",
-   "tone": "tension"
+   "tone": "tension",
+   "video": "hangar_1.mp4"
   },
   {
    "id": "coda5",
@@ -1309,14 +1406,17 @@
    "stat": "154 DAYS",
    "videoQuery": "white house washington government building exterior",
    "motion": "slow",
-   "tone": "fear"
+   "tone": "fear",
+   "video": "govbldg_1.mp4",
+   "stock": true
   },
   {
    "id": "coda6",
    "text": "In July two thousand and five, Discovery flew the return to flight mission. The tank shed foam again. It missed. NASA grounded the fleet the following day, and did not fly again for eleven months.",
    "videoQuery": "space shuttle launch ascent external tank camera view",
    "tone": "melancholy",
-   "note": "C7. The foam MISSED the orbiter. Never say 'foam struck Discovery.'"
+   "note": "C7. The foam MISSED the orbiter. Never say 'foam struck Discovery.'",
+   "video": "launch_1.mp4"
   },
   {
    "id": "coda7",
@@ -1337,7 +1437,9 @@
    "text": "Challenger's recovered structure was sealed into a disused missile silo. Columbia's is signed out, studied, and returned. It is the only destroyed spacecraft in history that is still working.",
    "videoQuery": "archive storage facility shelves containers industrial",
    "motion": "slow",
-   "tone": "melancholy"
+   "tone": "melancholy",
+   "video": "archive_1.mp4",
+   "stock": true
   },
   {
    "id": "coda10",
@@ -1386,7 +1488,8 @@
    "text": "If the way an organisation talks itself past a warning is the part that stays with you, we made the other half of this story. Watch Engineers Said Don't Launch, Seventy Three Seconds Later Challenger Was Gone, right here on this channel. And subscribe to Black Box Breakdown, so you don't miss the next one.",
    "videoQuery": "space shuttle launch night pad floodlights",
    "motion": "slow",
-   "tone": "melancholy"
+   "tone": "melancholy",
+   "video": "launch_2.mp4"
   }
  ]
 }
