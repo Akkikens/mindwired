@@ -152,31 +152,77 @@ the highest defamation-risk item in the episode.
 
 ---
 
-## ITEM 2 — NORAD's timeline
-**Core CONFIRMED shape:** the military's initial public account of its response
-timeline did not match the recorded evidence; the 9/11 Commission found the
-account inaccurate and the matter was referred to the Inspectors General of the
-Department of Defense and the Department of Transportation.
+## ITEM 2 — NORAD's timeline: the accounts were wrong, and the Commission said so
 
-⚠ **Verify before scripting** against the 9/11 Commission Report and the relevant
-IG report, with page cites, to this file's EPA standard. We already own adjacent
-material — see the `noradtapes` episode and `CLAIMS-sept11timeline.md`, and reuse
-the *sourcing*, never the footage (NEW VIDEO = NEW FOOTAGE).
+**Primary source, now in hand:** *The 9/11 Commission Report*, official GPO
+edition, 585pp, public domain — `out/thumbs/_src/gpo_911report.pdf`
+(govinfo.gov/content/pkg/GPO-911REPORT). Cites are **PDF p.52 = printed p.34**,
+verified by extraction.
 
-**Do not re-tell the sept11timeline episode.** That video (published 2026-09-16) is
-the deep-dive; here this is one chapter of four, and it must end by pointing at it.
+### CONFIRMED — verbatim
+> "More than the actual events, inaccurate government accounts of those events
+> made it appear that the military was notified in time to respond to two of the
+> hijackings, raising questions about the adequacy of the response."
+
+> "In public testimony before this Commission in May 2003, NORAD officials stated
+> that at 9:16, NEADS received hijack notification of United 93 from the FAA.
+> **This statement was incorrect.** There was no hijack to report at 9:16."
+
+> "In this same public testimony, NORAD officials stated that at 9:24, NEADS
+> received notification of the hijacking of American 77. **This statement was
+> also incorrect.**"
+
+> "In their testimony and in other public accounts, NORAD officials also stated
+> that the Langley fighters were scrambled to respond to the notifications about
+> American 77, United 93, or both. **These statements were incorrect as well.**"
+
+> "Yet this response to a phantom aircraft was not recounted in a single public
+> timeline or statement issued by the FAA or Department of Defense."
+
+The Commission says it three times in its own words. It needs no embellishment
+and must not get any.
+
+### ⚠ Still UNVERIFIED — the criminal referral
+The widely repeated claim that the false statements were referred to the DoD and
+DOT Inspectors General is **not sourced in this pass**. Do NOT script it until a
+page cite exists. The verbatim material above is strong enough alone.
+
+### Scope guard
+**Do not re-tell the sept11timeline episode** (published 2026-09-16) — that is the
+deep-dive; here it is one chapter of four and ends by pointing at it. Reuse the
+sourcing, never the footage (NEW VIDEO = NEW FOOTAGE).
 
 ---
 
 ## ITEM 4 — the bin Laden family flights
-**Core CONFIRMED shape:** flights carrying Saudi nationals including bin Laden
-family members left the US after airspace reopened; the 9/11 Commission examined
-them and concluded passengers were screened by the FBI and that it found no
-evidence anyone of interest was allowed to leave.
 
-**Label this one PARTIAL on screen.** The flights are real — that part of the
-rumour was true. The sinister reading is not what the Commission found. Saying so
-plainly is what earns the other three items their credibility.
+**Primary source:** same Commission report, **PDF p.347 = printed p.329-330**,
+section "Flights of Saudi Nationals Leaving the United States". The Commission
+posed three questions and answered all three.
+
+### CONFIRMED — verbatim
+> "First, we found no evidence that any flights of Saudi nationals, domestic or
+> international, took place before the reopening of national airspace on the
+> morning of September 13, 2001. To the contrary, every flight we have identified
+> occurred after national airspace reopened."
+
+> "Second, we found no evidence of political intervention."
+
+> "Third, we believe that the FBI conducted a satisfactory screening of Saudi
+> nationals who left the United States on charter flights."
+
+Also CONFIRMED, same pages: Richard Clarke asked the FBI's Dale Watson "to handle
+that... And if they had no objections, it would be fine with me," and added "I
+have no recollection of clearing it with anybody at the White House." The
+President and Vice President told the Commission they were unaware of the issue
+until it surfaced in the media.
+
+### How to play it — this is the PARTIAL, and it is load-bearing
+The flights are real: that part of the rumour was **true**, and conceding it is
+why the audience trusts the other three items. But the sinister readings — that
+they flew while airspace was closed, or that the White House arranged it — are
+**specifically what the Commission looked for and did not find**. Label it PARTIAL
+on screen and state both halves in the same breath.
 
 ---
 
