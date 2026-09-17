@@ -29,11 +29,12 @@
   {
    "id": "h3",
    "text": "Nobody is sure how big it was. The cameras that should have recorded it were out of focus, or pointed the wrong way, or lost the vehicle altogether. So Rocha asks for a photograph of the wing.",
-   "videoQuery": "long lens tracking camera telescope optical ground station sky",
+   "videoQuery": "telescope tracking camera night sky",
    "cap": "Of a dozen camera sites, not one usable image.",
    "tone": "tension",
    "note": "CAIB p.140: first site lost track, second out of focus 'because of an improperly maintained lens', third caught only the upper wing. CAIB adds: 'The Board notes that camera problems also hindered the Challenger investigation.'",
-   "video": "tracking_1.mp4"
+   "video": "tracking_1.mp4",
+   "stock": true
   },
   {
    "id": "h4",
@@ -104,14 +105,16 @@
    "chapter": "Columbia:\nThe Photos NASA Never Took",
    "img": "orbiter_orbit",
    "motion": "slow",
-   "tone": "melancholy"
+   "tone": "melancholy",
+   "query": "space shuttle orbiter in orbit Earth"
   },
   {
    "id": "a1_ch",
    "text": "To understand why nobody took that photograph, you have to go back twenty two years, to the first time a space shuttle ever flew.",
    "chapter": "ACT I\nTHE THING THAT KEPT FALLING OFF",
    "img": "sts1_launch",
-   "tone": "melancholy"
+   "tone": "melancholy",
+   "query": "STS-1 space shuttle Columbia launch 1981"
   },
   {
    "id": "a1_1",
@@ -120,7 +123,7 @@
    "stat": "12 APR 1981 · STS-1",
    "cap": "The first flight. The first damage.",
    "tone": "tension",
-   "video": "launch_2.mp4"
+   "video": "launch_3.mp4"
   },
   {
    "id": "a1_2",
@@ -144,7 +147,7 @@
    "videoQuery": "space shuttle launch ascent external tank separation tracking",
    "motion": "slow",
    "tone": "tension",
-   "video": "launch_3.mp4"
+   "video": "launch_1.mp4"
   },
   {
    "id": "a1_5",
@@ -195,7 +198,8 @@
    "stat": "STS-27R · 707 DAMAGED TILES",
    "img": "sts27_damage",
    "cap": "Atlantis, 1988.",
-   "tone": "fear"
+   "tone": "fear",
+   "query": "STS-27 Atlantis thermal protection tile damage"
   },
   {
    "id": "a1_10",
@@ -203,7 +207,8 @@
    "img": "sts27_damage",
    "cap": "A steel plate. That is the whole reason.",
    "motion": "slow",
-   "tone": "fear"
+   "tone": "fear",
+   "query": "STS-27 Atlantis thermal protection tile damage"
   },
   {
    "id": "a1_11",
@@ -256,14 +261,15 @@
    "motion": "slow",
    "tone": "melancholy",
    "note": "Vaughan named in CAIB p.130. She wrote Chapter 8 - paid off in Act VII.",
-   "video": "launch_1.mp4"
+   "video": "launch_3.mp4"
   },
   {
    "id": "a2_ch",
    "text": "On the sixteenth of January, two thousand and three, seven people boarded that orbiter for a sixteen day science mission.",
    "chapter": "ACT II\nSIXTEEN DAYS",
    "img": "crew_portrait",
-   "tone": "melancholy"
+   "tone": "melancholy",
+   "query": "STS-107 crew portrait official"
   },
   {
    "id": "a2_1",
@@ -271,12 +277,13 @@
    "img": "crew_portrait",
    "cap": "STS-107. Seven crew, sixteen days.",
    "motion": "slow",
-   "tone": "melancholy"
+   "tone": "melancholy",
+   "query": "STS-107 crew portrait official"
   },
   {
    "id": "a2_2",
    "text": "It was not a station flight. There was no docking, no rendezvous. Columbia carried a laboratory module in the payload bay and the crew ran experiments around the clock in two shifts.",
-   "videoQuery": "astronauts working inside spacecraft laboratory module microgravity",
+   "videoQuery": "astronauts working inside space station module",
    "cap": "SPACEHAB. Around the clock, two shifts.",
    "tone": "neutral",
    "video": "orbit_1.mp4"
@@ -284,7 +291,7 @@
   {
    "id": "a2_3",
    "text": "That detail matters more than it sounds. Because Columbia was not going to the space station, it had no robotic arm fitted, and there was nowhere to shelter if anything went wrong.",
-   "videoQuery": "space shuttle orbiter payload bay doors open earth below",
+   "videoQuery": "space shuttle payload bay doors open",
    "tone": "tension",
    "video": "payloadbay_1.mp4"
   },
@@ -295,7 +302,7 @@
    "videoQuery": "space shuttle launch ascent tracking camera long lens",
    "motion": "fast",
    "tone": "fear",
-   "video": "launch_2.mp4"
+   "video": "launch_1.mp4"
   },
   {
    "id": "a2_5",
@@ -309,10 +316,11 @@
   {
    "id": "a2_6",
    "text": "And when they went looking for a clear picture of it, they did not have one.",
-   "videoQuery": "long lens tracking camera optical ground station sky",
+   "videoQuery": "telescope tracking camera night sky",
    "motion": "slow",
    "tone": "tension",
-   "video": "tracking_1.mp4"
+   "video": "tracking_1.mp4",
+   "stock": true
   },
   {
    "id": "a2_7",
@@ -448,7 +456,7 @@
    "videoQuery": "nasa engineer office desk computer documents working late",
    "motion": "slow",
    "tone": "melancholy",
-   "video": "engoffice_2.mp4",
+   "video": "engoffice_1.mp4",
    "stock": true
   },
   {
@@ -493,18 +501,20 @@
   {
    "id": "a4_1",
    "text": "Wayne Hale phoned a defence department representative at the Cape and asked the military to start the process.",
-   "videoQuery": "military operations center personnel consoles screens dark room",
+   "videoQuery": "military command center operations",
    "stat": "22 JAN · MORNING",
    "tone": "tension",
-   "video": "military_1.mp4"
+   "video": "military_1.mp4",
+   "stock": true
   },
   {
    "id": "a4_2",
    "text": "Within an hour, that request reached United States Strategic Command at Cheyenne Mountain, in Colorado. A plans officer there began identifying which assets could do it.",
-   "videoQuery": "cheyenne mountain military command facility tunnel blast door",
+   "videoQuery": "military command center operations",
    "cap": "Cheyenne Mountain. Assets being tasked.",
    "tone": "tension",
-   "video": "military_1.mp4"
+   "video": "military_1.mp4",
+   "stock": true
   },
   {
    "id": "a4_3",
@@ -606,7 +616,7 @@
   {
    "id": "a4_12",
    "text": "There is one more finding here, and it is the one almost nobody quotes.",
-   "videoQuery": "satellite orbiting earth space imagery reconnaissance",
+   "videoQuery": "satellite orbiting earth",
    "tone": "tension",
    "video": "satellite_1.mp4"
   },
@@ -704,7 +714,7 @@
   {
    "id": "a5_5",
    "text": "Crater came back and said the debris would go deeper than the tile itself. Which would mean burn through.",
-   "videoQuery": "thermal protection tiles spacecraft surface closeup heat shield",
+   "videoQuery": "space shuttle thermal protection tiles",
    "tone": "fear",
    "video": "tiles_1.mp4"
   },
@@ -729,10 +739,11 @@
   {
    "id": "a5_8",
    "text": "What they could not do was check that reasoning. To check it, they needed a picture.",
-   "videoQuery": "camera lens telescope optics closeup aperture",
+   "videoQuery": "telescope tracking camera night sky",
    "motion": "slow",
    "tone": "fear",
-   "video": "tracking_1.mp4"
+   "video": "tracking_1.mp4",
+   "stock": true
   },
   {
    "id": "a5_9",
@@ -825,7 +836,7 @@
    "stat": "5 MEETINGS IN 16 DAYS",
    "videoQuery": "empty conference room table chairs institutional",
    "tone": "fear",
-   "video": "engoffice_2.mp4",
+   "video": "engoffice_1.mp4",
    "stock": true
   },
   {
@@ -840,7 +851,7 @@
   {
    "id": "a5_18",
    "text": "And the crew. People often say the crew never knew. That is not true.",
-   "videoQuery": "astronauts inside spacecraft crew cabin working microgravity",
+   "videoQuery": "astronauts working inside space station module",
    "tone": "tension",
    "video": "orbit_1.mp4"
   },
@@ -863,7 +874,7 @@
   {
    "id": "a5_20",
    "text": "They knew about the foam. What they were never told was that three people had asked for a photograph of their wing, and that the request had been called off.",
-   "videoQuery": "astronauts inside spacecraft flight deck windows earth",
+   "videoQuery": "astronauts working inside space station module",
    "motion": "slow",
    "tone": "melancholy",
    "video": "orbit_1.mp4"
@@ -873,12 +884,13 @@
    "text": "Saturday, the first of February, two thousand and three. Entry interface over the Pacific, eight forty four in the morning, eastern time.",
    "chapter": "ACT VI\nTHE FIRST OF FEBRUARY",
    "img": "mcc_entry",
-   "tone": "fear"
+   "tone": "fear",
+   "query": "mission control center Houston flight control room"
   },
   {
    "id": "a6_1",
    "text": "Columbia comes in over California, then Nevada, then New Mexico, trailing plasma. On the ground in Texas, people are filming it because it is a nice thing to watch on a Saturday morning.",
-   "videoQuery": "reentry plasma trail night sky spacecraft streak",
+   "videoQuery": "spacecraft reentry plasma",
    "tone": "tension",
    "video": "reentry_1.mp4"
   },
@@ -959,7 +971,7 @@
   {
    "id": "a6_9",
    "text": "The answer comes back from the flight deck. One word, and the beginning of another.",
-   "videoQuery": "spacecraft cockpit instruments controls closeup",
+   "videoQuery": "spacecraft cockpit instrument panel",
    "motion": "slow",
    "tone": "fear",
    "video": "cockpit_1.mp4"
@@ -1008,7 +1020,7 @@
   {
    "id": "a6_14",
    "text": "For twelve more minutes, the loop carries an ordinary technical conversation about instrumentation, while outside, in Nacogdoches and Hemphill and Lufkin, people are hearing what sounds like thunder on a clear day.",
-   "videoQuery": "small town texas street pine trees rural road",
+   "videoQuery": "small town street trees",
    "motion": "slow",
    "tone": "fear",
    "video": "texas_1.mp4",
@@ -1063,7 +1075,8 @@
    "stat": "25,000 PEOPLE · 2.3M ACRES",
    "img": "debris_search_field",
    "cap": "East Texas, February 2003.",
-   "tone": "melancholy"
+   "tone": "melancholy",
+   "query": "Columbia debris recovery search east Texas"
   },
   {
    "id": "a7_2",
@@ -1071,23 +1084,26 @@
    "stat": "84,000 PIECES · 38%",
    "img": "debris_hangar",
    "cap": "The reconstruction hangar, KSC.",
-   "tone": "melancholy"
+   "tone": "melancholy",
+   "query": "Columbia debris reconstruction hangar Kennedy Space Center"
   },
   {
    "id": "a7_3",
    "text": "Satellites, infrared, hyperspectral imaging, ground penetrating radar and U two aircraft were all used. The board's assessment is that they proved of little value. It came down to people walking in a line through the woods.",
-   "videoQuery": "search teams walking line forest ground search personnel",
+   "videoQuery": "search and rescue team walking forest",
    "motion": "slow",
    "tone": "melancholy",
-   "video": "search_1.mp4"
+   "video": "search_1.mp4",
+   "stock": true
   },
   {
    "id": "a7_4",
    "text": "On the twenty seventh of March, a helicopter searching Angelina National Forest suffered a mechanical failure and went down at treetop height. It was too low to autorotate.",
    "stat": "27 MAR 2003",
-   "videoQuery": "helicopter flying low over forest treetops aerial",
+   "videoQuery": "helicopter flying over forest",
    "tone": "fear",
-   "video": "heli_1.mp4"
+   "video": "heli_1.mp4",
+   "stock": true
   },
   {
    "id": "a7_5",
@@ -1173,11 +1189,12 @@
   {
    "id": "a7_13",
    "text": "Because five months earlier, four days after the accident, the shuttle programme manager had told a press conference that it doesn't make sense to us that a piece of debris could be the root cause of the loss of Columbia and its crew.",
-   "videoQuery": "press conference podium microphones briefing room",
+   "videoQuery": "press conference podium microphones",
    "stat": "5 FEB 2003",
    "tone": "tension",
    "note": "Ron Dittemore. Frame as a documented institutional position held on the analysis then available - NEVER as a personal error. CAIB's own framing is collective.",
-   "video": "presser_1.mp4"
+   "video": "presser_1.mp4",
+   "stock": true
   },
   {
    "id": "a7_14",
@@ -1273,9 +1290,10 @@
    "id": "a7_23",
    "text": "In April two thousand and three, she was called to testify before the Columbia board, in Houston.",
    "stat": "23 APR 2003 · TESTIMONY",
-   "videoQuery": "hearing room testimony table microphones panel",
+   "videoQuery": "congressional hearing room testimony",
    "tone": "tension",
-   "video": "hearing_1.mp4"
+   "video": "hearing_1.mp4",
+   "stock": true
   },
   {
    "id": "a7_24",
@@ -1342,7 +1360,8 @@
    "img": "sally_ride",
    "cap": "Sally Ride. Both boards.",
    "motion": "slow",
-   "tone": "melancholy"
+   "tone": "melancholy",
+   "query": "Sally Ride astronaut NASA portrait"
   },
   {
    "id": "a7_30",
@@ -1419,14 +1438,16 @@
    "text": "Columbia itself is still at the Kennedy Space Center. Eighty four thousand pieces of it, in a room on the sixteenth floor of the Vehicle Assembly Building.",
    "img": "vab_exterior",
    "cap": "Vehicle Assembly Building, 16th floor.",
-   "tone": "melancholy"
+   "tone": "melancholy",
+   "query": "Vehicle Assembly Building Kennedy Space Center exterior"
   },
   {
    "id": "coda8",
    "text": "And they lend it out. Researchers studying how spacecraft come apart during re entry can borrow pieces of it. Three people have written doctorates based on that debris.",
    "img": "debris_hangar",
    "motion": "slow",
-   "tone": "melancholy"
+   "tone": "melancholy",
+   "query": "Columbia debris reconstruction hangar Kennedy Space Center"
   },
   {
    "id": "coda9",
@@ -1444,7 +1465,8 @@
    "source": "NASA / Apollo 8, 1968 (public domain)",
    "cap": "Earth, seen from the Moon.",
    "tone": "melancholy",
-   "note": "RIGHTS DECISION: Petr Ginz's 'Moon Landscape' is held by the Yad Vashem Art Museum, which asserts rights over reproduction; it is also a Holocaust artefact where respectful licensing matters. We do NOT reproduce it. Substituted NASA's Apollo 8 Earthrise - the real photograph of the exact thing the boy drew from imagination in 1942, 26 years before anyone saw it. Licence-clean and, I think, stronger. If Yad Vashem grants permission later, the drawing can replace this."
+   "note": "RIGHTS DECISION: Petr Ginz's 'Moon Landscape' is held by the Yad Vashem Art Museum, which asserts rights over reproduction; it is also a Holocaust artefact where respectful licensing matters. We do NOT reproduce it. Substituted NASA's Apollo 8 Earthrise - the real photograph of the exact thing the boy drew from imagination in 1942, 26 years before anyone saw it. Licence-clean and, I think, stronger. If Yad Vashem grants permission later, the drawing can replace this.",
+   "query": "Earthrise Apollo 8 Earth from lunar orbit"
   },
   {
    "id": "coda11",
@@ -1452,7 +1474,8 @@
    "img": "earthrise",
    "source": "NASA / Apollo 8, 1968 (public domain)",
    "motion": "slow",
-   "tone": "melancholy"
+   "tone": "melancholy",
+   "query": "Earthrise Apollo 8 Earth from lunar orbit"
   },
   {
    "id": "coda12",
@@ -1461,7 +1484,8 @@
    "source": "NASA / Apollo 8, 1968 (public domain)",
    "cap": "The original never left Jerusalem.",
    "tone": "melancholy",
-   "note": "C6/dim-5. He carried a COPY. Very commonly reported wrong."
+   "note": "C6/dim-5. He carried a COPY. Very commonly reported wrong.",
+   "query": "Earthrise Apollo 8 Earth from lunar orbit"
   },
   {
    "id": "coda13",
@@ -1469,7 +1493,8 @@
    "img": "earthrise",
    "source": "NASA / Apollo 8, 1968 (public domain)",
    "motion": "slow",
-   "tone": "melancholy"
+   "tone": "melancholy",
+   "query": "Earthrise Apollo 8 Earth from lunar orbit"
   },
   {
    "id": "coda14",
@@ -1485,7 +1510,7 @@
    "videoQuery": "space shuttle launch night pad floodlights",
    "motion": "slow",
    "tone": "melancholy",
-   "video": "launch_2.mp4"
+   "video": "launch_3.mp4"
   }
  ]
 }

@@ -5,3 +5,19 @@
 - **meeting_1.mp4** — an empty conference room 7648403 — Pexels License (free commercial use) — RDNE Stock project — https://www.pexels.com/video/an-empty-conference-room-7648403/
 - **meeting_2.mp4** — meeting, conference, talk, blur, bokeh, business, people, corporate, group, presentation, business meeting, office, corporate meeting, meeting people, room, discussion, communication, professional, teamwork, office meeting — Pixabay Content License (free commercial use) — Coverr-Free-Footage — https://pixabay.com/videos/id-1035/
 - **corridor_1.mp4** — a man walking slowly while reading a document 7651687 — Pexels License (free commercial use) — Kindel Media — https://www.pexels.com/video/a-man-walking-slowly-while-reading-a-document-7651687/
+- **corridor_2.mp4** — man walking on hallway 7651686 — Pexels License (free commercial use) — Kindel Media — https://www.pexels.com/video/man-walking-on-hallway-7651686/
+- **foam_1.mp4** — KSC-07-S-00085 — Public domain (NASA) — KSC — https://images.nasa.gov/details/ksc_091107_et_repair
+- **assembly_1.mp4** — KSC-05-S-00029 — Public domain (NASA) — KSC — https://images.nasa.gov/details/ksc_011305_rtf_et_proc
+- **docs_1.mp4** — a man walking in the office 8869989 — Pexels License (free commercial use) — MART  PRODUCTION — https://www.pexels.com/video/a-man-walking-in-the-office-8869989/
+- **screening_1.mp4** — projection, screening, celluloid, film, movie projector, movie, analogue, mechanical, lateral, 16 mm, reel, detail, closeup — Pixabay Content License (free commercial use) — artista_sk — https://pixabay.com/videos/id-9597/
+- **engoffice_1.mp4** — business, office, contemporary, computer, work, desk, table, beautiful wallpaper, technology, room, background, design, interior, workplace, programmer, software, developer, internet, engineer, programming, job, monitor, program, people — Pixabay Content License (free commercial use) — blackmarketmusic — https://pixabay.com/videos/id-136268/
+- **observatory_1.mp4** — SOFIA Discovers Water on a Sunlit Surface of the Moon (Video Resource Reel) — Public domain (NASA) — ARC — https://images.nasa.gov/details/ARC-20201026-AAV3259-SOFIA-MoonWater-ResourceReel-NASAWeb
+- **clock_1.mp4** — close up on clock on green background 10432925 — Pexels License (free commercial use) — Armend Istrefi — https://www.pexels.com/video/close-up-on-clock-on-green-background-10432925/
+- **lab_1.mp4** — Shake, Rattle and Roll: Testing NASA’s Mars 2020 Perseverance Rover — Public domain (NASA) — JPL — https://images.nasa.gov/details/JPL-20200518-M2020f-0001-Shake Rattle and Roll Testing NASAs Mars 2020 Perseverance Rover
+- **gear_1.mp4** — KSC-08-S-00030 — Public domain (NASA) — KSC — https://images.nasa.gov/details/ksc_050608_ssm_tv
+- **screen_1.mp4** — person using a laptop 6183287 — Pexels License (free commercial use) — Taryn Elliott — https://www.pexels.com/video/person-using-a-laptop-6183287/
+- **wiring_1.mp4** — back view of a man and woman fixing electrical wirings 6079427 — Pexels License (free commercial use) — K — https://www.pexels.com/video/back-view-of-a-man-and-woman-fixing-electrical-wirings-6079427/
+- **antenna_1.mp4** — NASAsRomanSpaceTelescopeHardwareHighlightsSpring2024_1080 — Public domain (NASA) — GSFC — https://images.nasa.gov/details/NASAsRomanSpaceTelescopeHardwareHighlightsSpring2024_1080
+- **archive_1.mp4** — a girl studying in the library 6549984 — Pexels License (free commercial use) — Tima Miroshnichenko — https://www.pexels.com/video/a-girl-studying-in-the-library-6549984/
+- **hangar_1.mp4** — NASA Orion Resource Reel — Public domain — jsc-pao-video-collection, nasa — https://archive.org/details/NASA-Orion-Resource-Reel
+- **govbldg_1.mp4** — iconic view of white house on sunny day 29188205 — Pexels License (free commercial use) — In Old News LLC — https://www.pexels.com/video/iconic-view-of-white-house-on-sunny-day-29188205/
