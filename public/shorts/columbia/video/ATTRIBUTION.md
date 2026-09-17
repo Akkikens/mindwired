@@ -21,3 +21,14 @@
 - **archive_1.mp4** — a girl studying in the library 6549984 — Pexels License (free commercial use) — Tima Miroshnichenko — https://www.pexels.com/video/a-girl-studying-in-the-library-6549984/
 - **hangar_1.mp4** — NASA Orion Resource Reel — Public domain — jsc-pao-video-collection, nasa — https://archive.org/details/NASA-Orion-Resource-Reel
 - **govbldg_1.mp4** — iconic view of white house on sunny day 29188205 — Pexels License (free commercial use) — In Old News LLC — https://www.pexels.com/video/iconic-view-of-white-house-on-sunny-day-29188205/
+- **tracking_1.mp4** — the night sky is shown with a telescope and a camera 17808868 — Pexels License (free commercial use) — Matheus Bertelli — https://www.pexels.com/video/the-night-sky-is-shown-with-a-telescope-and-a-camera-17808868/
+- **payloadbay_1.mp4** — KSC-05-S-00053 — Public domain (NASA) — KSC — https://images.nasa.gov/details/ksc_022805_htw_payload
+- **military_1.mp4** — soldiers undressing from uniforms 13884573 — Pexels License (free commercial use) — Amar  Preciado — https://www.pexels.com/video/soldiers-undressing-from-uniforms-13884573/
+- **satellite_1.mp4** — Starlink 10-45 Launches from Cape Canaveral Space Force Station — Public domain (US DoD via DVIDS) — Gwendolyn Kurzen — https://www.dvidshub.net/video/1016070/starlink-10-45-launches-cape-canaveral-space-force-station
+- **tiles_1.mp4** — KSC-05-S-00050 (ksc 022805 htw tps).webm — Public domain — NASA Kennedy Space Center — https://commons.wikimedia.org/wiki/File:KSC-05-S-00050_(ksc_022805_htw_tps).webm
+- **reentry_1.mp4** — Reentry video for Orion Exploration Flight Test 1.ogv — Public domain — NASA — https://commons.wikimedia.org/wiki/File:Reentry_video_for_Orion_Exploration_Flight_Test_1.ogv
+- **texas_1.mp4** — charming town street scene with church and cars 29199244 — Pexels License (free commercial use) — Sammy Marrco — https://www.pexels.com/video/charming-town-street-scene-with-church-and-cars-29199244/
+- **search_1.mp4** — volunteers walking together in the forest 10365999 — Pexels License (free commercial use) — Ron Lach — https://www.pexels.com/video/volunteers-walking-together-in-the-forest-10365999/
+- **heli_1.mp4** — nature, landscape, water, mountains, forest, lake, flying, drone — Pixabay Content License (free commercial use) — MAdrian78 — https://pixabay.com/videos/id-360527/
+- **hearing_1.mp4** — library of congress in washington dc 29188251 — Pexels License (free commercial use) — In Old News LLC — https://www.pexels.com/video/library-of-congress-in-washington-dc-29188251/
+- **presser_1.mp4** — news, newspaper, article, press, media, information, journalist, report, headline — Pixabay Content License (free commercial use) — tommyvideo — https://pixabay.com/videos/id-5398/
