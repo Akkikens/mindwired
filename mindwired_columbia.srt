@@ -1,0 +1,1136 @@
+1
+00:00:00,333 --> 00:00:03,623
+It is the twenty second of January, two thousand and three.
+
+2
+00:00:03,623 --> 00:00:09,006
+At the Johnson Space Center, an engineer named Rodney Rocha is typing an email he will not send.
+
+3
+00:00:10,133 --> 00:00:16,872
+Six days earlier, eighty one point seven seconds after Columbia left the pad, a piece of insulating foam came off the fuel tank.
+
+4
+00:00:16,872 --> 00:00:20,974
+Two tenths of a second later it struck the underside of the left wing.
+
+5
+00:00:22,099 --> 00:00:24,076
+Nobody is sure how big it was.
+
+6
+00:00:24,076 --> 00:00:30,007
+The cameras that should have recorded it were out of focus, or pointed the wrong way, or lost the vehicle altogether.
+
+7
+00:00:30,007 --> 00:00:32,548
+So Rocha asks for a photograph of the wing.
+
+8
+00:00:33,666 --> 00:00:38,761
+He asks on flight day four and gets no answer. He asks again on flight day six.
+
+9
+00:00:38,761 --> 00:00:45,055
+And on the morning of the twenty second, he is told the Shuttle Program is not requesting any outside imaging help.
+
+10
+00:00:46,199 --> 00:00:51,036
+So he writes it down. That this is the wrong answer. That it borders on irresponsible.
+
+11
+00:00:51,036 --> 00:00:52,547
+And at the end, this.
+
+12
+00:00:53,666 --> 00:00:58,989
+Remember the NASA safety posters everywhere around stating, if it's not safe, say so?
+
+13
+00:00:58,989 --> 00:01:00,510
+Yes, it's that serious.
+
+14
+00:01:01,633 --> 00:01:05,551
+He printed it out, carried it down the hall, and showed it to a colleague.
+
+15
+00:01:05,551 --> 00:01:06,596
+He never sent it.
+
+16
+00:01:06,596 --> 00:01:11,037
+Asked why, he told the accident board he did not want to jump the chain of command.
+
+17
+00:01:12,166 --> 00:01:22,615
+Six months later, in San Antonio, engineers loaded a block of that foam into a nitrogen cannon built for testing bird strikes, and fired it at a shuttle wing at five hundred and thirty miles an hour.
+
+18
+00:01:23,733 --> 00:01:25,489
+This is what it did.
+
+19
+00:01:25,489 --> 00:01:29,352
+A hole roughly sixteen inches across, straight through the leading edge.
+
+20
+00:01:29,352 --> 00:01:33,215
+The photograph Rodney Rocha asked for, three times, was never taken.
+
+21
+00:01:34,333 --> 00:01:37,415
+Columbia. The photographs NASA never took.
+
+22
+00:01:38,533 --> 00:01:45,299
+To understand why nobody took that photograph, you have to go back twenty two years, to the first time a space shuttle ever flew.
+
+23
+00:01:46,433 --> 00:01:47,852
+April, nineteen eighty one.
+
+24
+00:01:47,852 --> 00:01:52,820
+Columbia is the first orbiter, and this is the first flight of the programme.
+
+25
+00:01:52,820 --> 00:01:54,949
+It comes back with damaged tiles.
+
+26
+00:01:56,066 --> 00:02:04,190
+The external tank is covered in insulating foam, because it holds liquid hydrogen at two hundred and fifty three degrees below zero and it would otherwise ice over.
+
+27
+00:02:05,333 --> 00:02:10,219
+The design requirement was explicit. The tank was not supposed to shed anything.
+
+28
+00:02:10,219 --> 00:02:12,099
+Not foam, not ice, nothing.
+
+29
+00:02:13,233 --> 00:02:16,703
+It shed foam on the first flight. And on the second.
+
+30
+00:02:16,703 --> 00:02:21,435
+And it kept doing it, for twenty two years, on flight after flight after flight.
+
+31
+00:02:22,566 --> 00:02:29,645
+There is a particular place on the tank called the left bipod ramp, a wedge of hand sprayed foam over the strut that holds the orbiter's nose.
+
+32
+00:02:30,766 --> 00:02:35,442
+Before Columbia's last flight, foam had come off that exact ramp at least six times.
+
+33
+00:02:36,566 --> 00:02:38,768
+But here is the part that matters.
+
+34
+00:02:38,768 --> 00:02:43,802
+At the flight readiness review before Columbia launched, managers were told there had been only three.
+
+35
+00:02:44,933 --> 00:02:47,391
+Two of the six had not been found yet.
+
+36
+00:02:47,391 --> 00:02:50,396
+The accident board discovered them afterwards, going back through the record.
+
+37
+00:02:50,396 --> 00:02:54,494
+The people approving the flight were working from a number that was wrong by half.
+
+38
+00:02:55,633 --> 00:02:57,059
+December, nineteen eighty eight.
+
+39
+00:02:57,059 --> 00:03:03,835
+Atlantis comes back from a classified mission with more than seven hundred damaged tiles and one tile missing altogether.
+
+40
+00:03:04,966 --> 00:03:08,920
+The commander later said he believed they were going to die on re entry.
+
+41
+00:03:08,920 --> 00:03:15,415
+The damage was directly beneath an antenna mounting plate, which was made of steel, and that is the only reason the wing survived.
+
+42
+00:03:16,533 --> 00:03:19,626
+October, two thousand and two. Three months before Columbia.
+
+43
+00:03:19,626 --> 00:03:27,531
+Foam comes off the left bipod ramp and hits the solid rocket booster attach ring, about four inches wide and three inches deep.
+
+44
+00:03:28,666 --> 00:03:33,480
+That was the closest warning anyone got, and it arrived two missions before the accident.
+
+45
+00:03:33,480 --> 00:03:37,652
+The programme classified it, flew twice more, and did not fix the ramp.
+
+46
+00:03:38,799 --> 00:03:43,258
+There is a word for what was happening, and the accident board used it.
+
+47
+00:03:43,258 --> 00:03:47,080
+NASA had two categories for problems. In family, and out of family.
+
+48
+00:03:48,199 --> 00:03:52,789
+In family meant a problem you had seen before, within the experience base.
+
+49
+00:03:52,789 --> 00:03:54,907
+Out of family meant something new.
+
+50
+00:03:54,907 --> 00:04:00,556
+Foam loss had been seen so many times that it had become, by definition, in family.
+
+51
+00:04:01,699 --> 00:04:06,622
+The board called that a strange term indeed for a violation of system requirements.
+
+52
+00:04:06,622 --> 00:04:10,138
+Because the classification had been introduced after Challenger, to help.
+
+53
+00:04:10,138 --> 00:04:14,709
+And by definition, the problems moved into the lesser category got less attention.
+
+54
+00:04:15,833 --> 00:04:19,085
+The sociologist who worked on this report has a name for it.
+
+55
+00:04:19,085 --> 00:04:20,169
+The normalisation of deviance.
+
+56
+00:04:20,169 --> 00:04:26,674
+You see the thing that should not happen, and it does not kill you, so it stops being the thing that should not happen.
+
+57
+00:04:27,799 --> 00:04:34,800
+On the sixteenth of January, two thousand and three, seven people boarded that orbiter for a sixteen day science mission.
+
+58
+00:04:35,933 --> 00:04:40,836
+Rick Husband, commander. William McCool, pilot. Michael Anderson, payload commander.
+
+59
+00:04:40,836 --> 00:04:44,758
+Kalpana Chawla, flight engineer. David Brown. Laurel Clark.
+
+60
+00:04:44,758 --> 00:04:48,681
+And Ilan Ramon, the first Israeli in space.
+
+61
+00:04:49,799 --> 00:04:53,718
+It was not a station flight. There was no docking, no rendezvous.
+
+62
+00:04:53,718 --> 00:05:00,248
+Columbia carried a laboratory module in the payload bay and the crew ran experiments around the clock in two shifts.
+
+63
+00:05:01,366 --> 00:05:03,423
+That detail matters more than it sounds.
+
+64
+00:05:03,423 --> 00:05:10,770
+Because Columbia was not going to the space station, it had no robotic arm fitted, and there was nowhere to shelter if anything went wrong.
+
+65
+00:05:11,899 --> 00:05:15,373
+Eighty one point seven seconds after launch, the foam came off.
+
+66
+00:05:16,500 --> 00:05:20,893
+Nobody saw it happen. Not in the control room, not on the pad, not anywhere.
+
+67
+00:05:20,893 --> 00:05:24,701
+It was found the next day, when the routine film review caught it.
+
+68
+00:05:25,833 --> 00:05:29,386
+And when they went looking for a clear picture of it, they did not have one.
+
+69
+00:05:30,533 --> 00:05:35,391
+Of the ground camera sites that should have recorded the ascent, the first lost track of the vehicle.
+
+70
+00:05:35,391 --> 00:05:38,631
+The second was out of focus because of an improperly maintained lens.
+
+71
+00:05:38,631 --> 00:05:41,060
+The third caught only the top of the wing.
+
+72
+00:05:42,199 --> 00:05:45,726
+The accident board added one sentence to that finding.
+
+73
+00:05:45,726 --> 00:05:48,468
+Camera problems also hindered the Challenger investigation.
+
+74
+00:05:49,599 --> 00:05:54,928
+So on the seventeenth of January, the chair of the photo working group picked up the phone.
+
+75
+00:05:54,928 --> 00:05:59,003
+The strike was classified out of family. Something new. Something nobody had seen.
+
+76
+00:06:00,133 --> 00:06:02,259
+A team was stood up to analyse it.
+
+77
+00:06:02,259 --> 00:06:06,246
+It was called the debris assessment team, and it was co chaired by Rodney Rocha.
+
+78
+00:06:07,366 --> 00:06:12,353
+Over the next five days, three separate people asked for a photograph of that wing.
+
+79
+00:06:12,353 --> 00:06:14,680
+Three separate requests, through three separate channels.
+
+80
+00:06:15,800 --> 00:06:21,206
+The board counted them, and printed them in a box in the report, so there could be no argument about it afterwards.
+
+81
+00:06:22,333 --> 00:06:24,292
+Request one. Flight day two.
+
+82
+00:06:24,292 --> 00:06:30,953
+Bob Page, chair of the photo working group, to Wayne Hale, shuttle programme manager for launch integration.
+
+83
+00:06:30,953 --> 00:06:31,737
+In person.
+
+84
+00:06:32,866 --> 00:06:35,025
+Request two. Flight day six.
+
+85
+00:06:35,025 --> 00:06:41,068
+Bob White, a contractor manager, to Lambert Austin, head of systems integration. By phone.
+
+86
+00:06:42,200 --> 00:06:44,231
+Request three. Flight day six.
+
+87
+00:06:44,231 --> 00:06:49,514
+Rodney Rocha, to Paul Shack, manager of the shuttle engineering office. By email.
+
+88
+00:06:50,633 --> 00:06:53,794
+Rocha's email is worth reading, because of one word in it.
+
+89
+00:06:54,933 --> 00:07:00,079
+Can we petition, and then in brackets, beg, for outside agency assistance.
+
+90
+00:07:01,200 --> 00:07:04,982
+He was the chief engineer for the thermal protection system. The heat shield.
+
+91
+00:07:04,982 --> 00:07:09,638
+The thing that keeps the vehicle from burning up. And he is using the word beg.
+
+92
+00:07:10,766 --> 00:07:15,538
+None of the three requests went through the normal channel, which ran through mission management.
+
+93
+00:07:15,538 --> 00:07:19,674
+The engineers went up the engineering side instead, because management was not engaging.
+
+94
+00:07:20,800 --> 00:07:24,196
+And the board found that this routing was itself part of the failure.
+
+95
+00:07:25,333 --> 00:07:34,972
+Routing the request through the engineering department led in part to it being viewed by shuttle programme managers as a non critical engineering desire, rather than a critical operational need.
+
+96
+00:07:36,100 --> 00:07:42,411
+On the morning of the twenty second of January, the United States military began preparing to photograph Columbia in orbit.
+
+97
+00:07:42,411 --> 00:07:43,989
+Ninety minutes later it stopped.
+
+98
+00:07:45,133 --> 00:07:50,540
+Wayne Hale phoned a defence department representative at the Cape and asked the military to start the process.
+
+99
+00:07:51,666 --> 00:07:57,137
+Within an hour, that request reached United States Strategic Command at Cheyenne Mountain, in Colorado.
+
+100
+00:07:57,137 --> 00:08:01,148
+A plans officer there began identifying which assets could do it.
+
+101
+00:08:02,266 --> 00:08:04,225
+This is real. It was happening.
+
+102
+00:08:04,225 --> 00:08:08,797
+Somewhere in Colorado, people were working out how to point something at a wing.
+
+103
+00:08:09,933 --> 00:08:15,575
+At half past eight that morning, NASA's liaison officer called Strategic Command back and cancelled it.
+
+104
+00:08:16,700 --> 00:08:22,421
+The reason given was that NASA had identified its own in house resources and no longer needed the military's help.
+
+105
+00:08:23,566 --> 00:08:27,332
+The board wrote the next sentence in a way that leaves nothing to interpret.
+
+106
+00:08:27,332 --> 00:08:33,519
+The NASA request to the department of defense to prepare to image Columbia on orbit was both made and rescinded within ninety minutes.
+
+107
+00:08:34,666 --> 00:08:40,239
+What happened inside those ninety minutes, the board describes carefully, and so will we.
+
+108
+00:08:40,239 --> 00:08:43,025
+It says the following sequence likely occurred.
+
+109
+00:08:44,166 --> 00:08:49,014
+The chair of the mission management team, Linda Ham, asked who was requesting the imagery.
+
+110
+00:08:49,014 --> 00:08:50,630
+She called several senior managers.
+
+111
+00:08:50,630 --> 00:08:55,477
+Each said they had not requested it, and could not identify a requirement for it.
+
+112
+00:08:56,600 --> 00:08:59,827
+And that word, requirement, is where this comes apart.
+
+113
+00:08:59,827 --> 00:09:04,489
+Because the engineers had not filed a requirement. They had asked a question.
+
+114
+00:09:05,633 --> 00:09:08,400
+The board's finding is narrow and it is precise.
+
+115
+00:09:08,400 --> 00:09:13,012
+Ham has publicly said she did not know the debris assessment team wanted the images.
+
+116
+00:09:13,012 --> 00:09:16,395
+The board does not dispute that. What it says is this.
+
+117
+00:09:17,533 --> 00:09:22,679
+She never asked them directly if the request was theirs, even though they were the team analysing the foam strike.
+
+118
+00:09:23,800 --> 00:09:27,849
+There is one more finding here, and it is the one almost nobody quotes.
+
+119
+00:09:28,966 --> 00:09:35,106
+Nobody in the chain of command had the security clearance to know what American imaging satellites could actually do.
+
+120
+00:09:35,106 --> 00:09:37,369
+Not at NASA, not at the contractors.
+
+121
+00:09:37,369 --> 00:09:40,277
+Nobody asked what quality of picture was even possible.
+
+122
+00:09:41,399 --> 00:09:46,504
+So the decision not to look was made by people who did not know what looking would have shown them.
+
+123
+00:09:46,504 --> 00:09:51,353
+The board's phrase is that they were making critical decisions about imagery capabilities based on little or no knowledge.
+
+124
+00:09:52,500 --> 00:09:57,259
+On the twenty third of January, a flight director wrote an email closing the matter.
+
+125
+00:09:57,259 --> 00:10:01,701
+The shuttle programme was asked directly if they wanted outside resources. They said no.
+
+126
+00:10:01,701 --> 00:10:05,509
+After talking to Phil, I consider it to be a dead issue.
+
+127
+00:10:06,633 --> 00:10:10,065
+The flight director who wrote that was LeRoy Cain. Remember the name.
+
+128
+00:10:10,065 --> 00:10:12,354
+He comes back at the end of this.
+
+129
+00:10:13,500 --> 00:10:17,788
+While all of that was happening, the engineers were doing the only thing left to them.
+
+130
+00:10:17,788 --> 00:10:20,735
+They were trying to calculate the answer instead of photographing it.
+
+131
+00:10:21,866 --> 00:10:23,350
+The tool was called Crater.
+
+132
+00:10:23,350 --> 00:10:28,397
+It was a mathematical model for predicting how deep a piece of debris would penetrate the tiles.
+
+133
+00:10:29,533 --> 00:10:33,843
+It had been built and validated for small debris. Ice, mostly.
+
+134
+00:10:33,843 --> 00:10:35,802
+Pieces about three cubic inches.
+
+135
+00:10:36,933 --> 00:10:44,404
+The piece that hit Columbia was, by the board's later estimate, about four hundred times larger than anything Crater had ever been tested against.
+
+136
+00:10:45,533 --> 00:10:49,086
+The engineers running it that week thought the figure was six hundred and forty.
+
+137
+00:10:50,233 --> 00:10:54,159
+Crater came back and said the debris would go deeper than the tile itself.
+
+138
+00:10:54,159 --> 00:10:55,562
+Which would mean burn through.
+
+139
+00:10:56,700 --> 00:11:00,421
+And here is the part that gets told wrong almost everywhere.
+
+140
+00:11:00,421 --> 00:11:03,466
+Management did not overrule that result. The engineers did.
+
+141
+00:11:04,600 --> 00:11:06,006
+They knew Crater ran conservative.
+
+142
+00:11:06,006 --> 00:11:09,661
+They knew it did not model the hardened lower layer of the tile.
+
+143
+00:11:09,661 --> 00:11:14,161
+So they talked themselves down, on reasoning that was defensible and turned out to be wrong.
+
+144
+00:11:15,300 --> 00:11:19,427
+What they could not do was check that reasoning. To check it, they needed a picture.
+
+145
+00:11:20,566 --> 00:11:26,757
+The board wrote one sentence about this situation that is, I think, the single most important line in the entire report.
+
+146
+00:11:27,900 --> 00:11:36,651
+The debris assessment team was put in the untenable position of having to prove that a safety of flight issue existed, without the very images that would permit such a determination.
+
+147
+00:11:37,800 --> 00:11:41,603
+Operations must be proved safe, rather than the other way around.
+
+148
+00:11:41,603 --> 00:11:43,677
+NASA inverted this burden of proof.
+
+149
+00:11:44,800 --> 00:11:50,991
+Meanwhile, two engineers were emailing each other about what would happen if the landing gear bay burned through on the way down.
+
+150
+00:11:52,133 --> 00:11:57,457
+On the twenty seventh of January, a landing gear specialist at Langley wrote back to a colleague at Houston.
+
+151
+00:11:57,457 --> 00:12:01,380
+I would bail out before I would let a loved one land like that.
+
+152
+00:12:02,500 --> 00:12:04,067
+The next day he wrote again.
+
+153
+00:12:04,067 --> 00:12:09,814
+Any more activity today on the tile damage, or are people just relegated to crossing their fingers and hoping for the best?
+
+154
+00:12:10,933 --> 00:12:15,060
+Those emails went sideways, between two engineers. They did not go up.
+
+155
+00:12:16,200 --> 00:12:20,704
+Programme rules said the mission management team would meet every day of a flight.
+
+156
+00:12:20,704 --> 00:12:23,279
+During Columbia's sixteen days, it met five times.
+
+157
+00:12:24,400 --> 00:12:26,927
+Two safety officials were contacted about the strike.
+
+158
+00:12:26,927 --> 00:12:30,402
+One of them was the highest ranking safety official at NASA.
+
+159
+00:12:30,402 --> 00:12:34,509
+The board's finding is that safety personnel took no actions to obtain imagery.
+
+160
+00:12:35,633 --> 00:12:39,604
+And the crew. People often say the crew never knew. That is not true.
+
+161
+00:12:40,733 --> 00:12:51,977
+On the twenty third of January a flight director emailed the commander and the pilot, sent them the video of the strike, and told them it was not even worth mentioning, and that there was absolutely no concern for entry.
+
+162
+00:12:51,977 --> 00:12:53,664
+Husband wrote back and thanked him.
+
+163
+00:12:54,800 --> 00:12:56,058
+They knew about the foam.
+
+164
+00:12:56,058 --> 00:13:02,349
+What they were never told was that three people had asked for a photograph of their wing, and that the request had been called off.
+
+165
+00:13:03,466 --> 00:13:06,918
+Saturday, the first of February, two thousand and three.
+
+166
+00:13:06,918 --> 00:13:11,904
+Entry interface over the Pacific, eight forty four in the morning, eastern time.
+
+167
+00:13:13,033 --> 00:13:16,975
+Columbia comes in over California, then Nevada, then New Mexico, trailing plasma.
+
+168
+00:13:16,975 --> 00:13:23,874
+On the ground in Texas, people are filming it because it is a nice thing to watch on a Saturday morning.
+
+169
+00:13:25,000 --> 00:13:30,329
+At eight fifty four and twenty four seconds, a console officer in mission control calls the flight director.
+
+170
+00:13:31,466 --> 00:13:37,806
+FYI, I've just lost four separate temperature transducers on the left side of the vehicle, hydraulic return temperatures.
+
+171
+00:13:38,933 --> 00:13:42,397
+I mean, you're telling me you lost them all at exactly the same time?
+
+172
+00:13:43,533 --> 00:13:49,611
+All four of them are located in the aft part of the left wing, right in front of the elevons, elevon actuators.
+
+173
+00:13:49,611 --> 00:13:50,992
+And there is no commonality.
+
+174
+00:13:52,133 --> 00:13:52,808
+No commonality.
+
+175
+00:13:52,808 --> 00:13:57,871
+Meaning the sensors are not wired together, so a single wiring fault cannot explain it.
+
+176
+00:13:57,871 --> 00:14:00,571
+Meaning something is happening to the left wing.
+
+177
+00:14:01,700 --> 00:14:05,897
+We just lost tire pressure on the left outboard and left inboard, both tires.
+
+178
+00:14:07,033 --> 00:14:12,509
+And Columbia, Houston, we see your tire pressure messages and we did not copy your last call.
+
+179
+00:14:13,633 --> 00:14:17,917
+The answer comes back from the flight deck. One word, and the beginning of another.
+
+180
+00:14:19,066 --> 00:14:24,944
+The report prints it as: Roger. And then, in square brackets, cut off in mid word.
+
+181
+00:14:26,066 --> 00:14:29,621
+Eight fifty nine and thirty two seconds. Loss of signal.
+
+182
+00:14:29,621 --> 00:14:33,175
+Which, at that point in an entry, is completely normal.
+
+183
+00:14:33,175 --> 00:14:36,019
+It happens every flight when the antennas switch.
+
+184
+00:14:37,166 --> 00:14:41,032
+So nobody in that room reacts. They wait, the way they always wait.
+
+185
+00:14:42,166 --> 00:14:45,997
+Forty six seconds later, the vehicle comes apart over east Texas.
+
+186
+00:14:45,997 --> 00:14:50,525
+Mission control has no idea. They are still working the tyre pressure problem.
+
+187
+00:14:51,666 --> 00:15:02,664
+For twelve more minutes, the loop carries an ordinary technical conversation about instrumentation, while outside, in Nacogdoches and Hemphill and Lufkin, people are hearing what sounds like thunder on a clear day.
+
+188
+00:15:03,800 --> 00:15:11,489
+At about twelve minutes past nine, a member of the flight control team gets a call on his mobile phone from someone who has just seen it on television.
+
+189
+00:15:11,489 --> 00:15:14,406
+He walks over to the flight director's console and tells him.
+
+190
+00:15:15,533 --> 00:15:19,974
+Flight Director LeRoy Cain calls for the ground control officer. He has to call twice.
+
+191
+00:15:21,100 --> 00:15:22,245
+Lock the doors.
+
+192
+00:15:23,366 --> 00:15:27,820
+Then he tells the room: no phone calls off site. No data in or out.
+
+193
+00:15:27,820 --> 00:15:32,274
+Every console begins archiving its own data, because from this moment the room is evidence.
+
+194
+00:15:33,400 --> 00:15:38,533
+What follows is the part the accident board actually spent most of its time on.
+
+195
+00:15:38,533 --> 00:15:40,244
+Not the foam. The organisation.
+
+196
+00:15:41,366 --> 00:15:42,349
+First, the search.
+
+197
+00:15:42,349 --> 00:15:46,281
+More than twenty five thousand people from two hundred and seventy organisations.
+
+198
+00:15:46,281 --> 00:15:52,834
+Over one and a half million hours, across two point three million acres, an area approaching the size of Connecticut.
+
+199
+00:15:53,966 --> 00:15:58,190
+Eighty four thousand pieces were recovered. Eighty four thousand, nine hundred pounds.
+
+200
+00:15:58,190 --> 00:16:00,653
+Thirty eight per cent of the orbiter.
+
+201
+00:16:01,800 --> 00:16:06,757
+Satellites, infrared, hyperspectral imaging, ground penetrating radar and U two aircraft were all used.
+
+202
+00:16:06,757 --> 00:16:10,298
+The board's assessment is that they proved of little value.
+
+203
+00:16:10,298 --> 00:16:14,548
+It came down to people walking in a line through the woods.
+
+204
+00:16:15,666 --> 00:16:22,932
+On the twenty seventh of March, a helicopter searching Angelina National Forest suffered a mechanical failure and went down at treetop height.
+
+205
+00:16:22,932 --> 00:16:24,913
+It was too low to autorotate.
+
+206
+00:16:26,033 --> 00:16:32,720
+Jules Mier, a contract pilot, and Charles Krenek, a Texas Forest Service aviation specialist, were killed.
+
+207
+00:16:32,720 --> 00:16:34,392
+Three others were injured.
+
+208
+00:16:35,533 --> 00:16:42,203
+The accident board put both of their names on the dedication page of its report, with their job titles, underneath the seven astronauts.
+
+209
+00:16:42,203 --> 00:16:46,844
+Nine people died because of this accident, and the report says so on the first page.
+
+210
+00:16:47,966 --> 00:16:52,250
+Then, in July, they went to San Antonio and fired the foam at the wing.
+
+211
+00:16:53,400 --> 00:17:01,759
+One point six seven pounds of foam, at seven hundred and seventy seven feet per second, into a panel taken from Atlantis that had flown twenty six missions.
+
+212
+00:17:02,900 --> 00:17:07,498
+A hole roughly sixteen inches by seventeen. Cracks running eleven inches out from it.
+
+213
+00:17:08,633 --> 00:17:14,197
+And the board wrote down what the test was actually for, which is the most revealing sentence in that whole chapter.
+
+214
+00:17:15,333 --> 00:17:23,692
+The impact tests established that foam can breach the reinforced carbon carbon, and also counteracted the lingering denial or discounting of the analytic evidence.
+
+215
+00:17:24,833 --> 00:17:28,935
+They did not fire that gun to find out whether foam could break a wing.
+
+216
+00:17:28,935 --> 00:17:30,576
+The analysis already said it could.
+
+217
+00:17:30,576 --> 00:17:33,584
+They fired it to end an argument inside their own organisation.
+
+218
+00:17:34,733 --> 00:17:46,619
+Because five months earlier, four days after the accident, the shuttle programme manager had told a press conference that it doesn't make sense to us that a piece of debris could be the root cause of the loss of Columbia and its crew.
+
+219
+00:17:47,766 --> 00:17:49,024
+That was not a lie.
+
+220
+00:17:49,024 --> 00:17:55,315
+It was what the analysis appeared to show, to people who had watched foam fall off that tank for twenty two years without anyone dying.
+
+221
+00:17:56,433 --> 00:18:00,404
+The board's conclusion is one sentence and it is the reason this episode exists.
+
+222
+00:18:01,533 --> 00:18:08,064
+In the board's view, NASA's organisational culture and structure had as much to do with this accident as the external tank foam.
+
+223
+00:18:09,200 --> 00:18:12,831
+And they knew how that would be received, so they wrote a warning about it first.
+
+224
+00:18:13,966 --> 00:18:17,130
+Many accident investigations make the same mistake in defining causes.
+
+225
+00:18:17,130 --> 00:18:22,508
+They identify the widget that broke, then locate the person most closely connected with the technical failure.
+
+226
+00:18:22,508 --> 00:18:25,355
+The board did not want to make these errors.
+
+227
+00:18:26,500 --> 00:18:27,492
+Nobody was prosecuted.
+
+228
+00:18:27,492 --> 00:18:37,419
+Some managers were reassigned that July, and NASA said publicly on the day that the changes were no reflection on the competence or diligence or commitment or professionalism of anybody.
+
+229
+00:18:38,566 --> 00:18:41,795
+So the organisation restructured while stating that no individual was at fault.
+
+230
+00:18:41,795 --> 00:18:43,947
+Which is exactly what the board asked for.
+
+231
+00:18:43,947 --> 00:18:49,328
+And it is also why no one was ever held to account. Both of those things are true at once.
+
+232
+00:18:50,466 --> 00:18:54,437
+There is one more thing in this report, and it is the strangest fact I found.
+
+233
+00:18:55,566 --> 00:19:00,925
+In nineteen ninety six, a sociologist named Diane Vaughan published a book about the Challenger accident.
+
+234
+00:19:00,925 --> 00:19:08,294
+She argued that the disaster was not caused by villains, but by an organisation slowly agreeing that a dangerous thing was normal.
+
+235
+00:19:08,294 --> 00:19:10,639
+She called it the normalisation of deviance.
+
+236
+00:19:11,766 --> 00:19:16,912
+In April two thousand and three, she was called to testify before the Columbia board, in Houston.
+
+237
+00:19:18,033 --> 00:19:19,992
+Then they hired her onto the staff.
+
+238
+00:19:21,133 --> 00:19:24,712
+And then she personally wrote chapter eight of the report.
+
+239
+00:19:24,712 --> 00:19:28,291
+The chapter is called History as Cause: Columbia and Challenger.
+
+240
+00:19:29,433 --> 00:19:33,795
+The woman who diagnosed the first accident was brought in to write the finding that nobody had listened.
+
+241
+00:19:34,933 --> 00:19:36,340
+Her chapter says this.
+
+242
+00:19:36,340 --> 00:19:40,915
+The causes of the institutional failure responsible for Challenger have not been fixed.
+
+243
+00:19:40,915 --> 00:19:46,897
+And second, that if these systemic flaws are not resolved, the scene is set for another accident.
+
+244
+00:19:48,033 --> 00:19:53,476
+There is an image in that chapter I have not been able to stop thinking about.
+
+245
+00:19:53,476 --> 00:20:02,322
+Engineers and managers incorporated worsening anomalies into the engineering experience base, which functioned as an elastic waistband, expanding to hold larger deviations from the original design.
+
+246
+00:20:03,466 --> 00:20:06,946
+The word echoes, which that chapter turns on, came from Sally Ride.
+
+247
+00:20:06,946 --> 00:20:12,747
+She sat on the Challenger commission in nineteen eighty six and on the Columbia board in two thousand and three.
+
+248
+00:20:12,747 --> 00:20:14,777
+The only person who ever did both.
+
+249
+00:20:15,900 --> 00:20:20,170
+And the closest parallel the report draws between the two accidents is a single sentence.
+
+250
+00:20:20,170 --> 00:20:27,289
+Challenger astronauts were told that the cold temperature was not a problem, and Columbia astronauts were told that the foam strike was not a problem.
+
+251
+00:20:28,433 --> 00:20:30,397
+The board made twenty nine recommendations.
+
+252
+00:20:30,397 --> 00:20:33,344
+Fifteen had to be done before anyone flew again.
+
+253
+00:20:34,466 --> 00:20:38,672
+An independent task group later found NASA met the intent of twelve of them.
+
+254
+00:20:38,672 --> 00:20:39,873
+Three, it could not.
+
+255
+00:20:41,000 --> 00:20:43,492
+One of the three was hardening the orbiter's wing.
+
+256
+00:20:43,492 --> 00:20:52,076
+And the stated reason it was dropped is this: the long term plan was abandoned after the national policy decision to retire the space shuttle fleet no later than twenty ten.
+
+257
+00:20:53,200 --> 00:20:57,614
+Which is worth sitting with. The accident board never recommended retiring the shuttle.
+
+258
+00:20:57,614 --> 00:21:02,029
+It said: if you fly past twenty ten, recertify it first. A conditional.
+
+259
+00:21:03,166 --> 00:21:07,521
+One hundred and fifty four days later the White House turned that conditional into a deadline.
+
+260
+00:21:07,521 --> 00:21:11,604
+And the retirement decision then cancelled one of the fixes the accident had called for.
+
+261
+00:21:12,733 --> 00:21:16,847
+In July two thousand and five, Discovery flew the return to flight mission.
+
+262
+00:21:16,847 --> 00:21:19,062
+The tank shed foam again. It missed.
+
+263
+00:21:19,062 --> 00:21:23,809
+NASA grounded the fleet the following day, and did not fly again for eleven months.
+
+264
+00:21:24,933 --> 00:21:27,476
+Columbia itself is still at the Kennedy Space Center.
+
+265
+00:21:27,476 --> 00:21:32,561
+Eighty four thousand pieces of it, in a room on the sixteenth floor of the Vehicle Assembly Building.
+
+266
+00:21:33,700 --> 00:21:35,220
+And they lend it out.
+
+267
+00:21:35,220 --> 00:21:39,478
+Researchers studying how spacecraft come apart during re entry can borrow pieces of it.
+
+268
+00:21:39,478 --> 00:21:42,216
+Three people have written doctorates based on that debris.
+
+269
+00:21:43,333 --> 00:21:47,017
+Challenger's recovered structure was sealed into a disused missile silo.
+
+270
+00:21:47,017 --> 00:21:49,596
+Columbia's is signed out, studied, and returned.
+
+271
+00:21:49,596 --> 00:21:54,017
+It is the only destroyed spacecraft in history that is still working.
+
+272
+00:21:55,166 --> 00:22:00,020
+One last thing. Ilan Ramon carried a copy of a pencil drawing into orbit with him.
+
+273
+00:22:00,020 --> 00:22:04,570
+It is called Moon Landscape, and it shows the Earth as seen from the moon.
+
+274
+00:22:05,700 --> 00:22:13,045
+It was drawn in nineteen forty two by a fourteen year old boy named Petr Ginz, in the Theresienstadt ghetto, from imagination.
+
+275
+00:22:13,045 --> 00:22:16,384
+He was murdered at Auschwitz two years later, aged sixteen.
+
+276
+00:22:17,533 --> 00:22:20,472
+Yad Vashem made Ramon a facsimile to take with him.
+
+277
+00:22:20,472 --> 00:22:23,411
+The original never left Jerusalem, and it is still there.
+
+278
+00:22:24,533 --> 00:22:28,089
+Petr Ginz was born on the first of February, nineteen twenty eight.
+
+279
+00:22:28,089 --> 00:22:34,015
+Columbia came apart on the first of February, two thousand and three, which would have been his seventy fifth birthday.
+
+280
+00:22:35,133 --> 00:22:39,388
+Three people asked for a photograph of that wing. The photograph was never taken.
+
+281
+00:22:39,388 --> 00:22:41,820
+Everything else in this story follows from that.
+
+282
+00:22:42,966 --> 00:22:49,924
+If the way an organisation talks itself past a warning is the part that stays with you, we made the other half of this story.
+
+283
+00:22:49,924 --> 00:22:54,656
+Watch Engineers Said Don't Launch, Seventy Three Seconds Later Challenger Was Gone, right here on this channel.
+
+284
+00:22:54,656 --> 00:22:58,274
+And subscribe to Black Box Breakdown, so you don't miss the next one.
+
