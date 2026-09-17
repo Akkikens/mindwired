@@ -33,3 +33,5 @@
 - **hearing_1.mp4** — library of congress in washington dc 29188251 — Pexels License (free commercial use) — In Old News LLC — https://www.pexels.com/video/library-of-congress-in-washington-dc-29188251/
 - **presser_1.mp4** — news, newspaper, article, press, media, information, journalist, report, headline — Pixabay Content License (free commercial use) — tommyvideo — https://pixabay.com/videos/id-5398/
 - **orbit_1.mp4** — NASA's SpaceX Crew-2 Flight Day 1 Highlights — Public domain (NASA) — JSC — https://images.nasa.gov/details/jsc2021m000142_NASA's_SpaceX_Crew-2_Flight_Day_1_Highlights
+- **launch_2.mp4** — KSC-11-S-00001 — Public domain (NASA) — KSC — https://images.nasa.gov/details/ksc_012111_flyout_launchdirectors
+- **launch_3.mp4** — KSC-08-S-00033 — Public domain (NASA) — KSC — https://images.nasa.gov/details/ksc_052208_sts125_mode8
