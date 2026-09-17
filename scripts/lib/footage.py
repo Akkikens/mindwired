@@ -34,6 +34,9 @@ REPO = Path(__file__).resolve().parent.parent.parent
 # target render height — fetch_footage sets 2160 for --uhd; source pickers use
 # it to choose the smallest file that still covers the render resolution
 TARGET_H = 1080
+# Largest source file worth downloading for one b-roll clip (see SIZE CAP below).
+MAX_SOURCE_BYTES = 2 << 30  # 2 GiB
+
 UA = {"User-Agent": "mindwired-footage/1.0 (archival fetcher; akshay@climbtogether.co)"}
 REJECT = ("nc", "nd", "noncommercial", "noderiv")
 IMG_EXT = {".jpg", ".jpeg", ".png", ".webp"}
@@ -1021,9 +1024,28 @@ def download_assets(assets: list[Asset], out_dir: Path, prefix: str, count: int,
                             delete=False) as tf:
                         with client.stream("GET", a.url) as rd:
                             rd.raise_for_status()
+                            # SIZE CAP (2026-09-16). Archives serve preservation
+                            # masters over the same url shape as web copies; on
+                            # columbia one b-roll candidate streamed past 9 GB and
+                            # silently stalled the whole fetch for ~25 min with a
+                            # block-buffered log showing nothing. We only ever keep
+                            # a transcoded 1080p/2160p clip, so a source this large
+                            # is never worth finishing.
+                            got = 0
+                            too_big = False
                             for chunk in rd.iter_bytes():
                                 tf.write(chunk)
+                                got += len(chunk)
+                                if got > MAX_SOURCE_BYTES:
+                                    too_big = True
+                                    break
                         tmp = Path(tf.name)
+                    if too_big:
+                        print(f"  !! skipped (source over "
+                              f"{MAX_SOURCE_BYTES // (1 << 30)} GB): {a.title[:60]}",
+                              flush=True)
+                        tmp.unlink(missing_ok=True)
+                        continue
                     ok = transcode(tmp, dst, max_seconds, max_h=max_h)
                     tmp.unlink(missing_ok=True)
                     # PORTRAIT GUARD (2026-09-13). Stock libraries serve a lot of
