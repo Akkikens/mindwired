@@ -52,7 +52,7 @@ WARNS (hook checklist — see docs/guides/HOOK-CHECKLIST.md):
   - final scene missing the subscribe CTA or the verbal next-video bridge
 """
 from __future__ import annotations
-import argparse, hashlib, json, re, subprocess, sys
+import argparse, collections, hashlib, json, re, subprocess, sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent / "lib"))
@@ -143,6 +143,8 @@ def main() -> int:
     # CLAIMS fact base, normalised once — backs the quoted-transcript gate below.
     # Absent CLAIMS file => empty string => the gate no-ops rather than blocking
     # every older episode that predates the convention.
+    video_uses = collections.Counter(
+        sc["video"] for sc in scenes if sc.get("video"))
     claims_path = REPO / "docs" / "planning" / f"CLAIMS-{slug}.md"
     claims_norm = _norm_quote(claims_path.read_text()) if claims_path.exists() else ""
 
@@ -175,6 +177,24 @@ def main() -> int:
             block(f"{sid}: diagram '{s['diagram']}' not in DIAGRAMS (blank scene)")
         if s.get("speaker") and not s.get("radioLabel"):
             block(f"{sid}: radio scene without radioLabel — label ACTUAL vs RECREATION")
+        # ── CAPTION-IDENTITY GATE (2026-09-16) ────────────────────────
+        # columbia h1 captioned "Rodney Rocha, chief engineer, Thermal
+        # Protection System." over a face — and the clip was NASA's Chris Kraft
+        # obituary tribute, so we were labelling one real NASA figure as
+        # another. The scene's own note already said "this is NOT footage of
+        # him"; a viewer sees only a name under a face. The vision check
+        # validates SUBJECT, never identity, so nothing caught it.
+        # Heuristic: a cap that looks like "Firstname Lastname, role" over a
+        # clip that is SHARED across scenes (i.e. generic pool b-roll, not
+        # footage OF that person) is almost always a misidentification.
+        cap_txt = s.get("cap") or ""
+        if s.get("video") and re.match(r"^[A-Z][a-z]+ [A-Z][a-z]+,", cap_txt.strip()):
+            if video_uses.get(s["video"], 0) > 1:
+                warn(f"{sid}: cap names a person ({cap_txt[:34]!r}) over "
+                     f"'{s['video']}', which {video_uses[s['video']]} scenes share — "
+                     f"pool b-roll is not footage OF that person; move the name to a "
+                     f"scene showing their real document (the columbia h1 catch)")
+
         # ── QUOTED-TRANSCRIPT GATE (2026-09-16) ───────────────────────
         # Viewer complaint, relayed by Akshay: "people are screaming saying
         # that actual transcripts exist and we should use that not ai

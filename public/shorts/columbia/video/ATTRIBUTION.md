@@ -2,4 +2,6 @@
 - **mission_control_2.mp4** — Apollo Digest Series:  Mission Control — Public domain (NASA) — AFRC — https://images.nasa.gov/details/NDTV000910_Apollo_Digest_Series_Mission_Control
 - **mission_control_3.mp4** — Orion Mission Evaluation Room (MER) B-Roll — Public domain (NASA) — JSC — https://images.nasa.gov/details/jsc2025m000832
 - **launch_1.mp4** — First Space Shuttle Flight - Astronaut Bob Crippen on the legacy of STS-1 & Columbia – Rocket Ranch — Public domain (NASA) — KSC — https://images.nasa.gov/details/KSC-20210407-VP-CDC001-001-ROCKETRAUNCH-CRIPPEN-3269056
-- **launch_2.mp4** — Pan of the Crab Nebula (MIRI and NIRCam image) — CC BY 4.0 — NASA, ESA, CSA, STScI, T. Temim (Princeton University)Music: Noizefield - Expect the Unexpected — https://esawebb.org/videos/weic2417a/
+- **meeting_1.mp4** — an empty conference room 7648403 — Pexels License (free commercial use) — RDNE Stock project — https://www.pexels.com/video/an-empty-conference-room-7648403/
+- **meeting_2.mp4** — meeting, conference, talk, blur, bokeh, business, people, corporate, group, presentation, business meeting, office, corporate meeting, meeting people, room, discussion, communication, professional, teamwork, office meeting — Pixabay Content License (free commercial use) — Coverr-Free-Footage — https://pixabay.com/videos/id-1035/
+- **corridor_1.mp4** — a man walking slowly while reading a document 7651687 — Pexels License (free commercial use) — Kindel Media — https://www.pexels.com/video/a-man-walking-slowly-while-reading-a-document-7651687/
