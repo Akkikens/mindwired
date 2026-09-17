@@ -1,4 +1,5 @@
 - **mission_control_1.mp4** — Christopher C. Kraft, Jr., Father of Mission Control, Dies at 95 — Public domain (NASA) — HQ — https://images.nasa.gov/details/NHQ_2019_0722_Christopher C. Kraft, Jr., Father of Mission Control, Dies at 95
 - **mission_control_2.mp4** — Apollo Digest Series:  Mission Control — Public domain (NASA) — AFRC — https://images.nasa.gov/details/NDTV000910_Apollo_Digest_Series_Mission_Control
-- **mission_control_3.mp4** — Expedition 67 - Vice President Harris Talks with International Space Station Crew Sept. 9, 2022 — Public domain (NASA) — JSC — https://images.nasa.gov/details/iss067m262521510-VPOTUS_Harris_Calls_Expedition_67_USOS_Crew_220909
-- **mission_control_4.mp4** — Orion Mission Evaluation Room (MER) B-Roll — Public domain (NASA) — JSC — https://images.nasa.gov/details/jsc2025m000832
+- **mission_control_3.mp4** — Orion Mission Evaluation Room (MER) B-Roll — Public domain (NASA) — JSC — https://images.nasa.gov/details/jsc2025m000832
+- **launch_1.mp4** — First Space Shuttle Flight - Astronaut Bob Crippen on the legacy of STS-1 & Columbia – Rocket Ranch — Public domain (NASA) — KSC — https://images.nasa.gov/details/KSC-20210407-VP-CDC001-001-ROCKETRAUNCH-CRIPPEN-3269056
+- **launch_2.mp4** — Pan of the Crab Nebula (MIRI and NIRCam image) — CC BY 4.0 — NASA, ESA, CSA, STScI, T. Temim (Princeton University)Music: Noizefield - Expect the Unexpected — https://esawebb.org/videos/weic2417a/

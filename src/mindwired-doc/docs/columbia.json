@@ -11,10 +11,9 @@
    "text": "It is the twenty second of January, two thousand and three. At the Johnson Space Center, an engineer named Rodney Rocha is typing an email he will not send.",
    "videoQuery": "nasa mission control johnson space center consoles engineers working",
    "stat": "22 JAN 2003 · JOHNSON SPACE CENTER",
-   "cap": "Rodney Rocha, chief engineer, Thermal Protection System.",
    "motion": "slow",
    "tone": "melancholy",
-   "note": "REAL NASA MCC video (PD, 646x472). Rocha worked at JSC; this is NOT footage of him on that day. The cap names the man, the visual establishes the building - same honesty pattern as sept11timeline h1.",
+   "note": "Generic PD NASA MCC b-roll - NOT Rocha, and the source is the Chris Kraft tribute reel, so an on-screen name here would misidentify a real person. Rocha is named at h5/h6 over his actual email exhibit.",
    "video": "mission_control_1.mp4"
   },
   {
@@ -353,9 +352,9 @@
    "id": "a2_10",
    "text": "A team was stood up to analyse it. It was called the debris assessment team, and it was co chaired by Rodney Rocha.",
    "videoQuery": "nasa mission control johnson space center consoles engineers",
-   "cap": "The Debris Assessment Team.",
    "tone": "neutral",
-   "video": "mission_control_2.mp4"
+   "video": "mission_control_2.mp4",
+   "note": "Generic PD NASA MCC b-roll - the people on screen are not the Debris Assessment Team; narration carries the point, no identifying caption."
   },
   {
    "id": "a3_ch",
@@ -889,7 +888,7 @@
    "videoQuery": "nasa mission control consoles screens operators headsets",
    "stat": "8:54:24 A.M.",
    "tone": "fear",
-   "video": "mission_control_4.mp4"
+   "video": "mission_control_1.mp4"
   },
   {
    "id": "a6_3",
@@ -900,7 +899,7 @@
    "source": "CAIB Report, Vol. I, ch. 2, p. 42",
    "tone": "fear",
    "note": "HONESTY RULE: this is a Cartesia recreation from the printed CAIB transcript, NOT actual MCC audio. Label must read RECREATION.",
-   "video": "mission_control_4.mp4",
+   "video": "mission_control_2.mp4",
    "videoQuery": "nasa mission control consoles telemetry operators headsets"
   },
   {
@@ -911,7 +910,7 @@
    "timestamp": "8:54:35 A.M. EST",
    "source": "CAIB Report, Vol. I, ch. 2, p. 42",
    "tone": "fear",
-   "video": "mission_control_5.mp4",
+   "video": "mission_control_3.mp4",
    "videoQuery": "nasa mission control flight director console headset"
   },
   {
@@ -996,7 +995,7 @@
    "videoQuery": "nasa mission control room operators waiting consoles",
    "motion": "slow",
    "tone": "fear",
-   "video": "mission_control_5.mp4"
+   "video": "mission_control_3.mp4"
   },
   {
    "id": "a6_13",
@@ -1040,7 +1039,7 @@
    "motion": "slow",
    "tone": "fear",
    "note": "Verified verbatim by orchestrator against chapter2.txt. Three words, to GC. C5: do NOT weld the later contingency instructions onto it as one sentence.",
-   "video": "mission_control_4.mp4",
+   "video": "mission_control_1.mp4",
    "videoQuery": "nasa mission control room wide shot consoles doors"
   },
   {
@@ -1049,7 +1048,7 @@
    "videoQuery": "nasa mission control consoles screens data archiving",
    "motion": "slow",
    "tone": "melancholy",
-   "video": "mission_control_3.mp4"
+   "video": "mission_control_2.mp4"
   },
   {
    "id": "a7_ch",
