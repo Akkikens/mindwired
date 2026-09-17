@@ -154,6 +154,22 @@
   "bridge": 15.308
  },
  "images": {
+  "crew_portrait": [
+   "crew_portrait_1.jpg",
+   "crew_portrait_2.jpg"
+  ],
+  "debris_hangar": [
+   "debris_hangar_1.jpg",
+   "debris_hangar_2.jpg",
+   "debris_hangar_3.jpg"
+  ],
+  "debris_search_field": [
+   "debris_search_field_1.jpg",
+   "debris_search_field_2.jpg"
+  ],
+  "earthrise": [
+   "earthrise_1.png"
+  ],
   "ex_bipod_diagram": [
    "ex_bipod_diagram.png"
   ],
@@ -250,6 +266,20 @@
   "ex_vaughan_cited": [
    "ex_vaughan_cited.png"
   ],
+  "mcc_entry": [
+   "mcc_entry_1.jpg",
+   "mcc_entry_2.jpg",
+   "mcc_entry_3.jpg"
+  ],
+  "orbiter_orbit": [
+   "orbiter_orbit_1.jpg"
+  ],
+  "sally_ride": [
+   "sally_ride_1.jpg"
+  ],
+  "sts1_launch": [
+   "sts1_launch_1.jpg"
+  ],
   "swri_airgun_before": [
    "swri_airgun_before.jpg"
   ],
@@ -258,6 +288,10 @@
   ],
   "swri_impact_hole_cu": [
    "swri_impact_hole_cu.jpg"
+  ],
+  "vab_exterior": [
+   "vab_exterior_1.jpg",
+   "vab_exterior_2.jpg"
   ]
  },
  "missing": [],

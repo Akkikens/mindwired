@@ -14,7 +14,7 @@
    "motion": "slow",
    "tone": "melancholy",
    "note": "Generic PD NASA MCC b-roll - NOT Rocha, and the source is the Chris Kraft tribute reel, so an on-screen name here would misidentify a real person. Rocha is named at h5/h6 over his actual email exhibit.",
-   "video": "mission_control_1.mp4"
+   "video": "mission_control_2.mp4"
   },
   {
    "id": "h2",
@@ -92,7 +92,7 @@
   {
    "id": "h9",
    "text": "This is what it did. A hole roughly sixteen inches across, straight through the leading edge. The photograph Rodney Rocha asked for, three times, was never taken.",
-   "img": "swri_impact_after_1",
+   "img": "swri_impact_after",
    "stat": "RCC PANEL 8 · TEST 1",
    "cap": "CAIB photo, 7 July 2003.",
    "motion": "slow",
@@ -196,19 +196,21 @@
    "id": "a1_9",
    "text": "December, nineteen eighty eight. Atlantis comes back from a classified mission with more than seven hundred damaged tiles and one tile missing altogether.",
    "stat": "STS-27R · 707 DAMAGED TILES",
-   "img": "sts27_damage",
+   "img": "orbiter_orbit",
    "cap": "Atlantis, 1988.",
    "tone": "fear",
-   "query": "STS-27 Atlantis thermal protection tile damage"
+   "query": "STS-27 Atlantis thermal protection tile damage",
+   "note": "No PD image of STS-27's tile damage exists in NASA's public library; generic shuttle-in-orbit frame, claims nothing about the damage itself."
   },
   {
    "id": "a1_10",
    "text": "The commander later said he believed they were going to die on re entry. The damage was directly beneath an antenna mounting plate, which was made of steel, and that is the only reason the wing survived.",
-   "img": "sts27_damage",
+   "img": "sts1_launch",
    "cap": "A steel plate. That is the whole reason.",
    "motion": "slow",
    "tone": "fear",
-   "query": "STS-27 Atlantis thermal protection tile damage"
+   "query": "STS-27 Atlantis thermal protection tile damage",
+   "note": "No PD image of STS-27's tile damage exists in NASA's public library; generic shuttle-in-orbit frame, claims nothing about the damage itself."
   },
   {
    "id": "a1_11",
@@ -222,10 +224,11 @@
   {
    "id": "a1_12",
    "text": "That was the closest warning anyone got, and it arrived two missions before the accident. The programme classified it, flew twice more, and did not fix the ramp.",
-   "videoQuery": "space shuttle vehicle assembly building crawler transport",
    "motion": "slow",
    "tone": "fear",
-   "video": "assembly_1.mp4"
+   "img": "ex_bipod_events",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6, p. 123"
   },
   {
    "id": "a1_13",
@@ -267,7 +270,7 @@
    "id": "a2_ch",
    "text": "On the sixteenth of January, two thousand and three, seven people boarded that orbiter for a sixteen day science mission.",
    "chapter": "ACT II\nSIXTEEN DAYS",
-   "img": "crew_portrait",
+   "img": "orbiter_orbit",
    "tone": "melancholy",
    "query": "STS-107 crew portrait official"
   },
@@ -361,7 +364,7 @@
    "text": "A team was stood up to analyse it. It was called the debris assessment team, and it was co chaired by Rodney Rocha.",
    "videoQuery": "nasa mission control johnson space center consoles engineers",
    "tone": "neutral",
-   "video": "mission_control_2.mp4",
+   "video": "mission_control_1.mp4",
    "note": "Generic PD NASA MCC b-roll - the people on screen are not the Debris Assessment Team; narration carries the point, no identifying caption."
   },
   {
@@ -510,11 +513,11 @@
   {
    "id": "a4_2",
    "text": "Within an hour, that request reached United States Strategic Command at Cheyenne Mountain, in Colorado. A plans officer there began identifying which assets could do it.",
-   "videoQuery": "military command center operations",
    "cap": "Cheyenne Mountain. Assets being tasked.",
    "tone": "tension",
-   "video": "military_1.mp4",
-   "stock": true
+   "img": "ex_dod_cancel",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, ch. 6"
   },
   {
    "id": "a4_3",
@@ -971,10 +974,11 @@
   {
    "id": "a6_9",
    "text": "The answer comes back from the flight deck. One word, and the beginning of another.",
-   "videoQuery": "spacecraft cockpit instrument panel",
    "motion": "slow",
    "tone": "fear",
-   "video": "cockpit_1.mp4"
+   "img": "ex_last_words",
+   "exhibit": true,
+   "source": "CAIB Report, Vol. I, p. 43"
   },
   {
    "id": "a6_10",
@@ -1067,7 +1071,8 @@
    "text": "What follows is the part the accident board actually spent most of its time on. Not the foam. The organisation.",
    "chapter": "ACT VII\nWHAT THE RECORD SAYS",
    "img": "ex_caib_cover",
-   "tone": "melancholy"
+   "tone": "melancholy",
+   "exhibit": true
   },
   {
    "id": "a7_1",
@@ -1140,7 +1145,7 @@
   {
    "id": "a7_8",
    "text": "One point six seven pounds of foam, at seven hundred and seventy seven feet per second, into a panel taken from Atlantis that had flown twenty six missions.",
-   "img": "swri_airgun_before",
+   "img": "swri_impact_after",
    "cap": "A reference projectile. The real foam was never found.",
    "tone": "tension",
    "note": "C3. 1.67 lb is the Board's SELECTED reference projectile, not a measurement of the actual debris, which was destroyed."
@@ -1148,7 +1153,7 @@
   {
    "id": "a7_9",
    "text": "A hole roughly sixteen inches by seventeen. Cracks running eleven inches out from it.",
-   "img": "swri_impact_after_1",
+   "img": "swri_impact_after",
    "stat": "16×17 INCHES",
    "cap": "CAIB photo, 7 July 2003.",
    "motion": "slow",
@@ -1274,7 +1279,8 @@
    "id": "a7_21",
    "text": "There is one more thing in this report, and it is the strangest fact I found.",
    "img": "ex_caib_cover",
-   "tone": "tension"
+   "tone": "tension",
+   "exhibit": true
   },
   {
    "id": "a7_22",
@@ -1397,16 +1403,15 @@
   {
    "id": "coda3",
    "text": "One of the three was hardening the orbiter's wing. And the stated reason it was dropped is this: the long term plan was abandoned after the national policy decision to retire the space shuttle fleet no later than twenty ten.",
-   "img": "ex_rtf_finding",
-   "exhibit": true,
-   "source": "Return to Flight Task Group, Final Report, Aug 2005",
+   "img": "orbiter_orbit",
    "highlight": [
     0.08,
     0.48,
     0.84,
     0.16
    ],
-   "tone": "fear"
+   "tone": "fear",
+   "note": "Was an ex_rtf_finding exhibit; the RTF Task Group final report PDF could not be sourced (nasa.gov + NTRS both 404), so no document is shown."
   },
   {
    "id": "coda4",
@@ -1471,7 +1476,7 @@
   {
    "id": "coda11",
    "text": "It was drawn in nineteen forty two by a fourteen year old boy named Petr Ginz, in the Theresienstadt ghetto, from imagination. He was murdered at Auschwitz two years later, aged sixteen.",
-   "img": "earthrise",
+   "img": "crew_portrait",
    "source": "NASA / Apollo 8, 1968 (public domain)",
    "motion": "slow",
    "tone": "melancholy",
@@ -1490,7 +1495,7 @@
   {
    "id": "coda13",
    "text": "Petr Ginz was born on the first of February, nineteen twenty eight. Columbia came apart on the first of February, two thousand and three, which would have been his seventy fifth birthday.",
-   "img": "earthrise",
+   "img": "crew_portrait",
    "source": "NASA / Apollo 8, 1968 (public domain)",
    "motion": "slow",
    "tone": "melancholy",
@@ -1499,7 +1504,7 @@
   {
    "id": "coda14",
    "text": "Three people asked for a photograph of that wing. The photograph was never taken. Everything else in this story follows from that.",
-   "img": "swri_impact_after_1",
+   "img": "swri_impact_after",
    "cap": "The hole, seven July, two thousand and three.",
    "motion": "slow",
    "tone": "fear"
