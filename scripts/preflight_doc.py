@@ -73,6 +73,18 @@ RETIRED_VOICES = {
 EN_CHANNELS = {"blackbox", "mindwired", "criminalrecord"}
 
 
+def _norm_quote(t: str) -> str:
+    """Lowercase, strip everything but letters/digits/spaces, collapse runs.
+
+    Lets a scene line match its CLAIMS source across markdown bold, smart
+    quotes, ellipses and the tyre/tire kind of spelling drift.
+    """
+    import unicodedata
+    t = unicodedata.normalize("NFKD", t).lower()
+    t = "".join(c if (c.isalnum() or c.isspace()) else " " for c in t)
+    return " ".join(t.split())
+
+
 def block(msg): BLOCK.append(msg)
 def warn(msg): WARN.append(msg)
 
@@ -128,6 +140,12 @@ def main() -> int:
     scenes = doc["scenes"]
     durations = man.get("durations", {})
 
+    # CLAIMS fact base, normalised once — backs the quoted-transcript gate below.
+    # Absent CLAIMS file => empty string => the gate no-ops rather than blocking
+    # every older episode that predates the convention.
+    claims_path = REPO / "docs" / "planning" / f"CLAIMS-{slug}.md"
+    claims_norm = _norm_quote(claims_path.read_text()) if claims_path.exists() else ""
+
     # manifest freshness vs images dir
     img_dir = REPO / "public" / "shorts" / slug / "images"
     IMG_EXT = {".jpg", ".jpeg", ".png", ".webp"}  # mirror build_doc_vo.scan_images
@@ -157,6 +175,24 @@ def main() -> int:
             block(f"{sid}: diagram '{s['diagram']}' not in DIAGRAMS (blank scene)")
         if s.get("speaker") and not s.get("radioLabel"):
             block(f"{sid}: radio scene without radioLabel — label ACTUAL vs RECREATION")
+        # ── QUOTED-TRANSCRIPT GATE (2026-09-16) ───────────────────────
+        # Viewer complaint, relayed by Akshay: "people are screaming saying
+        # that actual transcripts exist and we should use that not ai
+        # generated one." A `speaker` scene renders as a transcript beat with
+        # a timestamp and an honesty label, so its text reads to the viewer as
+        # THE RECORD. On columbia, four of seven radio lines had been quietly
+        # reworded and two were plain narration wearing a RECREATION label
+        # ("LeRoy Cain calls for the ground control officer") — invented
+        # dialogue presented as a transcript. The label being honest about
+        # the AUDIO does not make invented WORDS honest.
+        # So: every quoted radio line must be traceable to the CLAIMS fact
+        # base, which is where the verbatim official transcript lives.
+        if s.get("speaker") and claims_norm:
+            t = _norm_quote(s.get("text", ""))
+            if len(t) >= 25 and t not in claims_norm:
+                block(f"{sid}: radio line not found verbatim in CLAIMS-{slug}.md — "
+                      f"quote the official transcript, never a reworded or "
+                      f"model-written line (see the columbia catch, 2026-09-16)")
         if s.get("speaker") and "[pause]" in s.get("text", ""):
             block(f"{sid}: [pause] marker in a RADIO scene — RadioScene renders text "
                   f"verbatim on screen; the marker is for narration-only scenes")

@@ -893,7 +893,7 @@
   },
   {
    "id": "a6_3",
-   "text": "Flight, MMACS. I've just lost four separate temperature transducers on the left side of the vehicle.",
+   "text": "FYI, I've just lost four separate temperature transducers on the left side of the vehicle, hydraulic return temperatures.",
    "speaker": "MMACS",
    "radioLabel": "RECREATION FROM TRANSCRIPT",
    "timestamp": "8:54:24 A.M. EST",
@@ -905,7 +905,7 @@
   },
   {
    "id": "a6_4",
-   "text": "Four hydraulic return temps? Is there anything common to them? I mean, you're telling me you lost them all at exactly the same time?",
+   "text": "I mean, you're telling me you lost them all at exactly the same time?",
    "speaker": "FLIGHT",
    "radioLabel": "RECREATION FROM TRANSCRIPT",
    "timestamp": "8:54:35 A.M. EST",
@@ -916,7 +916,7 @@
   },
   {
    "id": "a6_5",
-   "text": "All four of them are located in the aft part of the left wing. And there is no commonality.",
+   "text": "All four of them are located in the aft part of the left wing, right in front of the elevons, elevon actuators. And there is no commonality.",
    "speaker": "MMACS",
    "radioLabel": "RECREATION FROM TRANSCRIPT",
    "timestamp": "8:54:45 A.M. EST",
@@ -936,7 +936,7 @@
   },
   {
    "id": "a6_7",
-   "text": "At eight fifty nine and fifteen seconds, the tyre pressures on the left main gear go.",
+   "text": "We just lost tire pressure on the left outboard and left inboard, both tires.",
    "speaker": "MMACS",
    "radioLabel": "RECREATION FROM TRANSCRIPT",
    "timestamp": "8:59:15 A.M. EST",
@@ -948,7 +948,7 @@
   },
   {
    "id": "a6_8",
-   "text": "And Columbia, Houston, we see your tyre pressure messages and we did not copy your last call.",
+   "text": "And Columbia, Houston, we see your tire pressure messages and we did not copy your last call.",
    "speaker": "CAPCOM",
    "radioLabel": "RECREATION FROM TRANSCRIPT",
    "timestamp": "8:59:28 A.M. EST",
@@ -1024,10 +1024,7 @@
   },
   {
    "id": "a6_16",
-   "text": "LeRoy Cain calls for the ground control officer. He has to call twice.",
-   "speaker": "FLIGHT",
-   "radioLabel": "RECREATION FROM TRANSCRIPT",
-   "timestamp": "~9:12 A.M. EST",
+   "text": "Flight Director LeRoy Cain calls for the ground control officer. He has to call twice.",
    "source": "CAIB Report, Vol. I, ch. 2, p. 44",
    "tone": "fear",
    "video": "mission_control_3.mp4",
