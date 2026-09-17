@@ -1,7 +1,6 @@
 - **mission_control_1.mp4** — Christopher C. Kraft, Jr., Father of Mission Control, Dies at 95 — Public domain (NASA) — HQ — https://images.nasa.gov/details/NHQ_2019_0722_Christopher C. Kraft, Jr., Father of Mission Control, Dies at 95
 - **mission_control_2.mp4** — Apollo Digest Series:  Mission Control — Public domain (NASA) — AFRC — https://images.nasa.gov/details/NDTV000910_Apollo_Digest_Series_Mission_Control
 - **mission_control_3.mp4** — Orion Mission Evaluation Room (MER) B-Roll — Public domain (NASA) — JSC — https://images.nasa.gov/details/jsc2025m000832
-- **launch_1.mp4** — First Space Shuttle Flight - Astronaut Bob Crippen on the legacy of STS-1 & Columbia – Rocket Ranch — Public domain (NASA) — KSC — https://images.nasa.gov/details/KSC-20210407-VP-CDC001-001-ROCKETRAUNCH-CRIPPEN-3269056
 - **meeting_1.mp4** — an empty conference room 7648403 — Pexels License (free commercial use) — RDNE Stock project — https://www.pexels.com/video/an-empty-conference-room-7648403/
 - **meeting_2.mp4** — meeting, conference, talk, blur, bokeh, business, people, corporate, group, presentation, business meeting, office, corporate meeting, meeting people, room, discussion, communication, professional, teamwork, office meeting — Pixabay Content License (free commercial use) — Coverr-Free-Footage — https://pixabay.com/videos/id-1035/
 - **corridor_1.mp4** — a man walking slowly while reading a document 7651687 — Pexels License (free commercial use) — Kindel Media — https://www.pexels.com/video/a-man-walking-slowly-while-reading-a-document-7651687/
@@ -33,5 +32,3 @@
 - **hearing_1.mp4** — library of congress in washington dc 29188251 — Pexels License (free commercial use) — In Old News LLC — https://www.pexels.com/video/library-of-congress-in-washington-dc-29188251/
 - **presser_1.mp4** — news, newspaper, article, press, media, information, journalist, report, headline — Pixabay Content License (free commercial use) — tommyvideo — https://pixabay.com/videos/id-5398/
 - **orbit_1.mp4** — NASA's SpaceX Crew-2 Flight Day 1 Highlights — Public domain (NASA) — JSC — https://images.nasa.gov/details/jsc2021m000142_NASA's_SpaceX_Crew-2_Flight_Day_1_Highlights
-- **launch_2.mp4** — KSC-11-S-00001 — Public domain (NASA) — KSC — https://images.nasa.gov/details/ksc_012111_flyout_launchdirectors
-- **launch_3.mp4** — KSC-08-S-00033 — Public domain (NASA) — KSC — https://images.nasa.gov/details/ksc_052208_sts125_mode8

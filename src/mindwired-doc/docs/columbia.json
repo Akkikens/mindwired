@@ -20,12 +20,13 @@
   {
    "id": "h2",
    "text": "Six days earlier, eighty one point seven seconds after Columbia left the pad, a piece of insulating foam came off the fuel tank. Two tenths of a second later it struck the underside of the left wing.",
-   "videoQuery": "space shuttle launch ascent external tank separation tracking camera",
+   "videoQuery": "external tank foam repairs",
    "stat": "16 JAN 2003 · T PLUS 81.9 SECONDS",
    "cap": "Bipod ramp foam. Left wing, leading edge.",
    "tone": "tension",
    "note": "THUMBNAIL PROMISE DELIVERED - foam + wing, on real motion. Use STS-107-FD01.mp4 (854x480 NASA JSC PAO) and/or the ET208 strike GIF. NOT the NARA STS-1 film - different mission, must never be narrated as STS-107. ⚠ CORRECTED per dim-1 correction #1: 81.7s is the SEPARATION time, impact was 0.2s later at 81.9s. The near-universal 'struck the wing at 81.7 seconds' conflates the two.",
-   "video": "launch_1.mp4"
+   "video": "foam_1.mp4",
+   "videoFrom": 5
   },
   {
    "id": "h3",
@@ -120,11 +121,11 @@
   {
    "id": "a1_1",
    "text": "April, nineteen eighty one. Columbia is the first orbiter, and this is the first flight of the programme. It comes back with damaged tiles.",
-   "videoQuery": "space shuttle launch 1981 tracking camera film grain ascent",
    "stat": "12 APR 1981 · STS-1",
    "cap": "The first flight. The first damage.",
    "tone": "tension",
-   "video": "launch_3.mp4"
+   "img": "sts1_launch",
+   "note": "No usable-resolution shuttle-launch video exists in the free pool (NASA's era-correct assets are 320x212); real still instead."
   },
   {
    "id": "a1_2",
@@ -145,10 +146,10 @@
   {
    "id": "a1_4",
    "text": "It shed foam on the first flight. And on the second. And it kept doing it, for twenty two years, on flight after flight after flight.",
-   "videoQuery": "space shuttle launch ascent external tank separation tracking",
    "motion": "slow",
    "tone": "tension",
-   "video": "launch_1.mp4"
+   "img": "sts1_launch",
+   "note": "No usable-resolution shuttle-launch video exists in the free pool (NASA's era-correct assets are 320x212); real still instead."
   },
   {
    "id": "a1_5",
@@ -262,11 +263,10 @@
   {
    "id": "a1_16",
    "text": "The sociologist who worked on this report has a name for it. The normalisation of deviance. You see the thing that should not happen, and it does not kill you, so it stops being the thing that should not happen.",
-   "videoQuery": "space shuttle launch slow motion ascent plume",
    "motion": "slow",
    "tone": "melancholy",
-   "note": "Vaughan named in CAIB p.130. She wrote Chapter 8 - paid off in Act VII.",
-   "video": "launch_3.mp4"
+   "note": "No usable-resolution shuttle-launch video exists in the free pool (NASA's era-correct assets are 320x212); real still instead.",
+   "img": "orbiter_orbit"
   },
   {
    "id": "a2_ch",
@@ -305,10 +305,10 @@
    "id": "a2_4",
    "text": "Eighty one point seven seconds after launch, the foam came off.",
    "stat": "T PLUS 81.7 SECONDS",
-   "videoQuery": "space shuttle launch ascent tracking camera long lens",
    "motion": "fast",
    "tone": "fear",
-   "video": "launch_1.mp4"
+   "img": "sts1_launch",
+   "note": "No usable-resolution shuttle-launch video exists in the free pool (NASA's era-correct assets are 320x212); real still instead."
   },
   {
    "id": "a2_5",
@@ -1219,10 +1219,10 @@
   {
    "id": "a7_14",
    "text": "That was not a lie. It was what the analysis appeared to show, to people who had watched foam fall off that tank for twenty two years without anyone dying.",
-   "videoQuery": "space shuttle launch ascent plume slow motion",
    "motion": "slow",
    "tone": "melancholy",
-   "video": "launch_3.mp4"
+   "img": "orbiter_orbit",
+   "note": "No usable-resolution shuttle-launch video exists in the free pool (NASA's era-correct assets are 320x212); real still instead."
   },
   {
    "id": "a7_15",
@@ -1448,10 +1448,9 @@
   {
    "id": "coda6",
    "text": "In July two thousand and five, Discovery flew the return to flight mission. The tank shed foam again. It missed. NASA grounded the fleet the following day, and did not fly again for eleven months.",
-   "videoQuery": "space shuttle launch ascent external tank camera view",
    "tone": "melancholy",
-   "note": "C7. The foam MISSED the orbiter. Never say 'foam struck Discovery.'",
-   "video": "launch_1.mp4"
+   "note": "No usable-resolution shuttle-launch video exists in the free pool (NASA's era-correct assets are 320x212); real still instead.",
+   "img": "sts1_launch"
   },
   {
    "id": "coda7",
@@ -1527,10 +1526,10 @@
   {
    "id": "bridge",
    "text": "If the way an organisation talks itself past a warning is the part that stays with you, we made the other half of this story. Watch Engineers Said Don't Launch, Seventy Three Seconds Later Challenger Was Gone, right here on this channel. And subscribe to Black Box Breakdown, so you don't miss the next one.",
-   "videoQuery": "space shuttle launch night pad floodlights",
    "motion": "slow",
    "tone": "melancholy",
-   "video": "launch_3.mp4"
+   "img": "orbiter_orbit",
+   "note": "No usable-resolution shuttle-launch video exists in the free pool (NASA's era-correct assets are 320x212); real still instead."
   }
  ]
 }
