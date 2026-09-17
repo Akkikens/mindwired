@@ -243,3 +243,45 @@ on screen and state both halves in the same breath.
 This is the **hub** of a six-video 9/11 cluster. Every chapter should end by naming
 the deep-dive episode it belongs to, and the verbal bridge + end screen point at one
 live video. Real URLs: memory `blackbox-published-urls`.
+
+---
+
+# 🛑 STOP — SPINE INVALIDATED 2026-09-16 (read before scripting anything)
+
+**ITEM 3 (the EPA air-quality story) cannot be this episode's spine. We have
+already published it.**
+
+`groundzeroair` — **"The 9/11 Files New York Hid for 25 Years"**, Black Box,
+103 scenes, live — is that story end to end. Measured overlap against its doc
+spec: CEQ x18, Whitman x6, "safe to breath" x4, NSC x4, Water Street x2,
+asbestos x7, Inspector General x3. Its chapter cards walk the identical arc:
+what was said -> what was in the air -> who controlled the message -> the 2003
+IG report -> the press-release editing. Everything in ITEM 3 above is real and
+correctly cited; it is simply **not new for this channel**.
+
+It also **did 96 views**, so "lead with the EPA story" is a strategy this
+channel has already run and lost.
+
+**Knock-on:** the LOCKED PACKAGE (ctr-engine Run A, 2026-09-16) is built on the
+EPA report — winning thumbnail A is the "did not have sufficient data" crop, and
+the first-30s handoff promises it. **That package is invalidated with the spine.**
+Do not shoot the cold open against it.
+
+**Where that leaves the four items:**
+| Item | Already ours? |
+|---|---|
+| 1 — the 28 pages / Saudi | **NO — the only un-covered item** (but its PDF is still unfetchable) |
+| 2 — NORAD's timeline | yes: `noradtapes` + `sept11timeline` |
+| 3 — EPA air quality | yes: `groundzeroair` |
+| 4 — bin Laden flights | no, but it is a PARTIAL/debunk, not a spine |
+
+**Three honest options, for Akshay to choose:**
+(a) Build it as a true **HUB/recap** that surveys and links the five deep-dives.
+    Cheap, good for session watch-time, but recaps underperform and it cannot
+    pretend these are revelations.
+(b) **Pivot the spine to the Saudi / 28-pages item** — the only un-covered
+    ground. Needs the 28 pages sourced first, and note Saudi-alone is unproven
+    as a puller (Ron Chapman 80,266 / 132,000 = 0.6:1).
+(c) **Drop it** and take the next validated topic instead.
+
+Until that is decided, this file is research, not a production brief.

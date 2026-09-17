@@ -79,6 +79,8 @@ import theGroundingDoc from "./mindwired-doc/docs/thegrounding.json";
 import theGroundingManifest from "./mindwired-doc/docs/thegrounding.manifest.json";
 import noradTapesDoc from "./mindwired-doc/docs/noradtapes.json";
 import noradTapesManifest from "./mindwired-doc/docs/noradtapes.manifest.json";
+import columbiaDoc from "./mindwired-doc/docs/columbia.json";
+import columbiaManifest from "./mindwired-doc/docs/columbia.manifest.json";
 import sept11TimelineDoc from "./mindwired-doc/docs/sept11timeline.json";
 import sept11TimelineManifest from "./mindwired-doc/docs/sept11timeline.manifest.json";
 import groundZeroAirDoc from "./mindwired-doc/docs/groundzeroair.json";
@@ -1605,6 +1607,15 @@ export const RemotionRoot: React.FC = () => {
              tape has never been human ear-checked, and a synthesised voice under an
              "ACTUAL RECORDING" label would be a false honesty label. BB outro
              baked. ── */}
+      <Composition
+        id="ColumbiaDoc"
+        component={makeDocComp(columbiaDoc, columbiaManifest, BB_OUTRO)}
+        durationInFrames={docTotalFrames(columbiaDoc, columbiaManifest, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
       <Composition
         id="Sept11TimelineDoc"
         component={makeDocComp(sept11TimelineDoc, sept11TimelineManifest, BB_OUTRO)}
