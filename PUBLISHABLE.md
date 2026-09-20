@@ -85,9 +85,53 @@ Red/Blue shift split is the spine. All seven land twice — the CAIB dedication'
 **nine** names (incl. Jules Mier and Charles Krenek) and the seven asteroids found
 eighteen months before they died.
 
-#### ⚠ BLOCKED
-Chapters and the METADATA description cannot be produced from this session — the
-doc spec and manifest are in `~/Documents`, which tooling cannot read.
+#### CHAPTERS
+Derived from the **finished audio** (the 388-cue SRT on the Desktop), not from the
+doc spec — `~/Documents/.../src/mindwired-doc/docs/` is permission-denied to every
+tool in this session, bash and editor alike. Every mark below is a real cue start,
+so none can drift; all gaps clear YouTube's 10-second minimum. Eyeball them against
+the on-screen chapter cards before pasting, since those come from the spec.
+```
+0:00 The last morning
+1:42 The girl who named herself
+5:15 Eighty experiments, around the clock
+6:07 The seven
+8:39 The crew's cameraman
+11:18 Eighty-one point seven seconds
+12:12 Three requests for imagery
+14:51 No imagery was taken
+15:42 Eight fifty-four and twenty-four seconds
+18:14 What fell over Texas
+19:04 Culture as much as foam
+20:44 Fifteen things before anyone flew again
+21:35 The names
+```
+
+#### DESCRIPTION
+```
+She was born in Karnal, and the name on her school register was not the name she
+used. She picked Kalpana herself. It means imagination.
+
+This is the story of STS-107 told through its seven crew and the sixteen days they
+spent in orbit — the science they ran around the clock, the camcorder Dave Brown
+carried, the foam that came off eighty-one point seven seconds after liftoff, and
+the three separate requests for imagery of the wing that were never acted on.
+
+Sources are the Columbia Accident Investigation Board report and NASA's own
+footage. Where the record is disputed or thin, the film says so.
+
+Archival footage: NASA and the CAIB (public domain). Some archival material has
+been digitally upscaled.
+```
+
+#### ⚠ KNOWN DEFECT (shared with the Air Force One cut, NOT fixed here)
+Roughly **7 of 44 sampled frames — about 16% of the runtime, ~3:30** — are CAIB
+pages rendered full-page and too small to read, the same weak-zoom bug fixed for
+airforceone. It matters far less here: the episode is carried by real footage and
+narration rather than by reading the documents, and the two exhibits that do carry
+visual information (the CAIB cover and the ch.6 wing-diagram figure page) read
+fine. **Fixing it needs `~/Documents` readable** — grant the terminal Full Disk
+Access, or move the columbiakalpana spec into `~/mindwired`.
 
 ---
 
