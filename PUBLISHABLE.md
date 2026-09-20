@@ -108,7 +108,7 @@ public domain.
 
 ## TAGS
 ```
-9/11, September 11, Air Force One, Dick Cheney, shootdown order, United 93, Flight 93, 9/11 Commission Report, NEADS, NORAD, Scooter Libby, Ari Fleischer, George W Bush, Barksdale, Langley F-16, chain of command, PEOC, air threat conference, primary sources, declassified, aviation history, military history, documentary, Black Box Breakdown, what really happened, Pentagon, World Trade Center, Emma E Booker, Secret Service, Andrews Air Force Base, General Larry Arnold, Donald Rumsfeld, Joshua Bolten, air defense, 2001, September 11 2001, investigation
+9/11, September 11, Air Force One, Dick Cheney, shootdown order, United 93, Flight 93, 9/11 Commission Report, NEADS, NORAD, Scooter Libby, Ari Fleischer, George W Bush, Barksdale, Langley F-16, chain of command, PEOC, air threat conference, primary sources, declassified, aviation history, military history, documentary, Black Box Breakdown, what really happened, Pentagon, World Trade Center, Emma E Booker, Secret Service, Andrews Air Force Base, General Larry Arnold, Donald Rumsfeld, 2001
 ```
 
 ## WHAT IS ACTUALLY IN THIS VIDEO
@@ -209,7 +209,7 @@ digitally upscaled. The breakup footage is US Army AH-64D gun-camera video.
 
 ## TAGS
 ```
-Kalpana Chawla, Columbia disaster, STS-107, space shuttle Columbia, NASA, CAIB report, Columbia Accident Investigation Board, foam strike, Rick Husband, William McCool, Michael Anderson, David Brown, Laurel Clark, Ilan Ramon, Karnal, Indian astronaut, space shuttle, reentry, NASA culture, Challenger, space disaster, documentary, mindwired, space history, real footage, February 1 2003, wing leading edge, RCC panel, imagery request, return to flight, Petr Ginz, gun camera footage, space shuttle program, shuttle disaster, Texas
+Kalpana Chawla, Columbia disaster, STS-107, space shuttle Columbia, NASA, CAIB report, Columbia Accident Investigation Board, foam strike, Rick Husband, William McCool, Michael Anderson, David Brown, Laurel Clark, Ilan Ramon, Karnal, Indian astronaut, space shuttle, reentry, NASA culture, Challenger, space disaster, documentary, mindwired, space history, real footage, February 1 2003, wing leading edge, imagery request, return to flight, Petr Ginz, gun camera footage, space shuttle program
 ```
 
 ## STRUCTURE
