@@ -15,7 +15,13 @@ PDFs at 9-11commission.gov.
 - `ex_commission_p44.png` — Report ch. 1, printed p. 44 — same source
 - `ex_commission_p45.png` — Report ch. 1, printed p. 45 — same source
 - `ex_commission_p325.png` — Report ch. 10, printed p. 325 — https://www.9-11commission.gov/report/911Report_Ch10.pdf
-- `ex_commission_ch10n1.png` — Report ch. 10, note 1 page — same source
+- `ex_commission_ch10n1.png` — Report **Notes** volume, the page carrying ch. 10 n. 1 —
+  https://www.9-11commission.gov/report/911Report_Notes.pdf
+  ⚠ CORRECTED 2026-09-20: this file previously rendered ch. 10 printed p. 326, which
+  contains no Angel material at all, while the on-screen caption said "ch. 10, n. 1".
+  The note itself carries the threat to "Angel", the watch-officer misunderstanding,
+  the Situation Room director's dispute, and the word "unfounded" — i.e. every line
+  scenes a7_2/a7_4/a7_5/a7_6 narrate.
 - `ex_libby_note.png` — Report Notes volume, the page carrying n. 220 (Libby's
   contemporaneous note: "10:15–18: Aircraft 60 miles out, confirmed as hijack—engage?
   VP: Yes. JB [Joshua Bolten]: Get President and confirm engage order") —
