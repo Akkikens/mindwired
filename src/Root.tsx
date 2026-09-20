@@ -72,6 +72,8 @@ import spaceShuttleManifest from "./mindwired-doc/docs/spaceshuttle.manifest.jso
 import wtcCollapseDoc from "./mindwired-doc/docs/wtccollapse.json";
 import wtcCollapseManifest from "./mindwired-doc/docs/wtccollapse.manifest.json";
 import flight93Doc from "./mindwired-doc/docs/flight93.json";
+import airForceOneDoc from "./mindwired-doc/docs/airforceone.json";
+import airForceOneManifest from "./mindwired-doc/docs/airforceone.manifest.json";
 import flight93Manifest from "./mindwired-doc/docs/flight93.manifest.json";
 import us1549Doc from "./mindwired-doc/docs/us1549.json";
 import us1549Manifest from "./mindwired-doc/docs/us1549.manifest.json";
@@ -558,6 +560,20 @@ export const RemotionRoot: React.FC = () => {
       {/* ── Standing subscribe-outro assets — see CLAUDE.md "Subscribe outro".
           Append these to the end of every future render: long-form outro
           (20s, 16:9) for long-forms, short outro (5s, 9:16) for Shorts. ── */}
+      {/* ── airforceone — BLACK BOX. The shootdown order: given by a man outside
+             the military chain, about a plane already down, and never passed to a
+             single pilot. Libby's contemporaneous note is the spine exhibit.
+             ⛔ Title territory "orders that never arrived" belongs to the live
+             sept11timeline episode — do not drift back into it. BB outro. ── */}
+      <Composition
+        id="AirForceOneDoc"
+        component={makeDocComp(airForceOneDoc, airForceOneManifest, BB_OUTRO)}
+        durationInFrames={docTotalFrames(airForceOneDoc, airForceOneManifest, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
       <Composition
         id="SubscribeMindwiredLong"
         component={ViralShort}
