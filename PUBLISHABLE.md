@@ -212,6 +212,54 @@ digitally upscaled. The breakup footage is US Army AH-64D gun-camera video.
 Kalpana Chawla, Columbia disaster, STS-107, space shuttle Columbia, NASA, CAIB report, Columbia Accident Investigation Board, foam strike, Rick Husband, William McCool, Michael Anderson, David Brown, Laurel Clark, Ilan Ramon, Karnal, Indian astronaut, space shuttle, reentry, NASA culture, Challenger, space disaster, documentary, mindwired, space history, real footage, February 1 2003, wing leading edge, imagery request, return to flight, Petr Ginz, gun camera footage, space shuttle program
 ```
 
+## PINNED COMMENT
+Post it yourself, then pin. Pin within the first hour — it seeds the comment
+section's tone before the first wave of replies sets it.
+```
+Petr Ginz drew "Moon Landscape" in the Terezín ghetto when he was fourteen — the
+Earth as seen from the Moon, imagined by a boy who would never see either. He was
+murdered at Auschwitz in 1944.
+
+He was born on the 1st of February, 1928. Columbia broke up on the 1st of February,
+2003 — what would have been his 75th birthday. Ilan Ramon was carrying a copy of his
+drawing. The original has never left Jerusalem.
+
+That date isn't in the video. It's true, and it belongs somewhere.
+
+Three things worth repeating:
+
+— The CAIB report's dedication page carries NINE names, not seven. Jules Mier and
+Charles Krenek died when their helicopter came down while searching for debris in
+Texas. The board put them with the crew, job titles underneath.
+
+— The seven asteroids were picked up at Palomar in July 2001 and named in August
+2003. They were found eighteen months before the crew flew.
+
+— Kalpana chose her own name. It means imagination. So, in the end, did the drawing.
+
+Sources are the Columbia Accident Investigation Board report and NASA's own footage,
+all public domain. Where the record is thin or disputed, the film says so rather than
+picking the better story.
+
+Corrections welcome — with a source, and I'll pin them here.
+```
+
+## CAPTION FIX APPLIED 2026-09-20
+Whisper mangled every crew name it met. Corrected in the .srt on the Desktop
+(original backed up in the session scratchpad):
+| was | now | count |
+|---|---|---|
+| Kalpana **Chala** | Kalpana **Chawla** | 4 — *zero* correct spellings shipped |
+| **Ilhan** / **Elan** Ramon | **Ilan** Ramon | 2 |
+| Jules **Meir** | Jules **Mier** | 1 |
+| Charles **Krennek** | Charles **Krenek** | 1 |
+| **Peh Turjins** | **Petr Ginz** | 1 |
+
+The narration says all of these correctly — only the transcript was wrong. Worth
+catching: these are the names of the dead, and "Kalpana Chala" in the captions of an
+episode built for an Indian audience is the kind of thing that costs trust in the
+first comment.
+
 ## STRUCTURE
 Kalpana carries roughly 5 minutes; the other six crew are woven into the mission
 where the record touches them (Brown's camcorder = Missed Opportunity 2); the
