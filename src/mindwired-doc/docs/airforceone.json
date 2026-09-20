@@ -87,7 +87,13 @@
       "img": "ex_commission_p35",
       "exhibit": true,
       "tone": "neutral",
-      "source": "9/11 Commission Report, ch. 1, p. 35"
+      "source": "9/11 Commission Report, ch. 1, p. 35",
+      "highlight": [
+        0.1865,
+        0.2092,
+        0.627,
+        0.3097
+      ]
     },
     {
       "id": "a1_5",
@@ -334,7 +340,13 @@
       "img": "ex_commission_p40",
       "exhibit": true,
       "tone": "neutral",
-      "source": "9/11 Commission Report, ch. 1, p. 40"
+      "source": "9/11 Commission Report, ch. 1, p. 40",
+      "highlight": [
+        0.3624,
+        0.3667,
+        0.3184,
+        0.0212
+      ]
     },
     {
       "id": "a4_2",
@@ -378,7 +390,13 @@
       "text": "A few minutes later the aide is back. Sixty miles out. He asks again. The Vice President says yes again.",
       "img": "ex_libby_note",
       "exhibit": true,
-      "tone": "grave"
+      "tone": "grave",
+      "highlight": [
+        0.1865,
+        0.7396,
+        0.627,
+        0.0626
+      ]
     },
     {
       "id": "a4_8",
@@ -393,7 +411,13 @@
       "text": "Ten fifteen to eighteen. Aircraft sixty miles out, confirmed as hijack. Engage? V P. Yes.",
       "img": "ex_libby_note",
       "exhibit": true,
-      "tone": "grave"
+      "tone": "grave",
+      "highlight": [
+        0.2085,
+        0.7852,
+        0.3187,
+        0.017
+      ]
     },
     {
       "id": "a4_10",
@@ -408,7 +432,13 @@
       "img": "ex_libby_note",
       "exhibit": true,
       "tone": "grave",
-      "stat": "Confirm engage order"
+      "stat": "Confirm engage order",
+      "highlight": [
+        0.6852,
+        0.6028,
+        0.0248,
+        0.017
+      ]
     },
     {
       "id": "a4_12",
@@ -416,7 +446,13 @@
       "img": "ex_commission_p41",
       "exhibit": true,
       "tone": "grave",
-      "source": "9/11 Commission Report, ch. 1, p. 41"
+      "source": "9/11 Commission Report, ch. 1, p. 41",
+      "highlight": [
+        0.1865,
+        0.4629,
+        0.627,
+        0.1014
+      ]
     },
     {
       "id": "a4_13",
@@ -495,7 +531,13 @@
       "img": "ex_commission_p40",
       "exhibit": true,
       "tone": "grave",
-      "source": "9/11 Commission Report, ch. 1, pp. 40-41"
+      "source": "9/11 Commission Report, ch. 1, pp. 40-41",
+      "highlight": [
+        0.1865,
+        0.8312,
+        0.5585,
+        0.0375
+      ]
     },
     {
       "id": "a4_24",
@@ -693,7 +735,13 @@
       "img": "ex_commission_p43",
       "exhibit": true,
       "tone": "grave",
-      "source": "9/11 Commission Report, ch. 1, p. 43"
+      "source": "9/11 Commission Report, ch. 1, p. 43",
+      "highlight": [
+        0.2103,
+        0.7193,
+        0.3449,
+        0.0373
+      ]
     },
     {
       "id": "a5_16a",
@@ -875,7 +923,13 @@
       "img": "ex_commission_ch10n1",
       "exhibit": true,
       "tone": "grave",
-      "source": "9/11 Commission Report, ch. 10, n. 1"
+      "source": "9/11 Commission Report, ch. 10, n. 1",
+      "highlight": [
+        0.4906,
+        0.1584,
+        0.1029,
+        0.0212
+      ]
     },
     {
       "id": "a7_6",
@@ -928,7 +982,13 @@
       "img": "ex_commission_p325",
       "exhibit": true,
       "tone": "neutral",
-      "note": "NEEDS SOURCE — CLAIMS §7. Three conflicting figures in circulation for each."
+      "note": "NEEDS SOURCE — CLAIMS §7. Three conflicting figures in circulation for each.",
+      "highlight": [
+        0.1865,
+        0.4287,
+        0.627,
+        0.0693
+      ]
     },
     {
       "id": "a7_14",
@@ -995,7 +1055,13 @@
       "text": "Almost all of it got fixed. Not by an inquiry, but because the people inside it could see what had happened while it was happening.",
       "img": "ex_commission_p45",
       "exhibit": true,
-      "tone": "neutral"
+      "tone": "neutral",
+      "highlight": [
+        0.1865,
+        0.3507,
+        0.627,
+        0.0533
+      ]
     },
     {
       "id": "c6b",
