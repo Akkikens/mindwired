@@ -2,18 +2,22 @@
 
 ## Exhibits (primary record)
 
-- `ex_araib_p1..p6.png` — **Aviation Accident Preliminary Report AAR2404**,
-  Aviation and Railway Accident Investigation Board (ARAIB), Republic of Korea,
-  27 January 2025. Pages 1-6 rendered at 150 dpi from the official English PDF.
-  Mirror used: https://www.flightradar24.com/blog/wp-content/uploads/2025/01/HL8088-Preliminary-Report.pdf
+- `ex_araib_p1.png` — **Aviation Accident Preliminary Report AAR2404**, page 1 (synopsis: accident number, date, location, injury total) — Aviation and Railway Accident Investigation Board (ARAIB), Republic of Korea, 27 January 2025 — Korean government work — https://www.flightradar24.com/blog/wp-content/uploads/2025/01/HL8088-Preliminary-Report.pdf
+- `ex_araib_p2.png` — **Aviation Accident Preliminary Report AAR2404**, page 2 (history of flight; aircraft/operator; wreckage and impact) — Aviation and Railway Accident Investigation Board (ARAIB), Republic of Korea, 27 January 2025 — Korean government work — https://www.flightradar24.com/blog/wp-content/uploads/2025/01/HL8088-Preliminary-Report.pdf
+- `ex_araib_p3.png` — **Aviation Accident Preliminary Report AAR2404**, page 3 (wreckage figure; black boxes — recordings stopped 08:58:50) — Aviation and Railway Accident Investigation Board (ARAIB), Republic of Korea, 27 January 2025 — Korean government work — https://www.flightradar24.com/blog/wp-content/uploads/2025/01/HL8088-Preliminary-Report.pdf
+- `ex_araib_p4.png` — **Aviation Accident Preliminary Report AAR2404**, page 4 (speed/altitude at recorder stop (161 kts, 498 ft); flight path figure) — Aviation and Railway Accident Investigation Board (ARAIB), Republic of Korea, 27 January 2025 — Korean government work — https://www.flightradar24.com/blog/wp-content/uploads/2025/01/HL8088-Preliminary-Report.pdf
+- `ex_araib_p5.png` — **Aviation Accident Preliminary Report AAR2404**, page 5 (pilot information; weather (METAR); bird strike) — Aviation and Railway Accident Investigation Board (ARAIB), Republic of Korea, 27 January 2025 — Korean government work — https://www.flightradar24.com/blog/wp-content/uploads/2025/01/HL8088-Preliminary-Report.pdf
+- `ex_araib_p6.png` — **Aviation Accident Preliminary Report AAR2404**, page 6 (future investigation plan; NTSB and BEA assistance) — Aviation and Railway Accident Investigation Board (ARAIB), Republic of Korea, 27 January 2025 — Korean government work — https://www.flightradar24.com/blog/wp-content/uploads/2025/01/HL8088-Preliminary-Report.pdf
+
   ⚠ **REUSE LICENCE NOT CONFIRMED.** ARAIB publishes English reports and they are
   widely mirrored, but KOGL/reuse terms were not verified. Resolve before publish,
-  or drop to the FAA exhibit below, which carries the same argument.
-  ⚠ The report itself states on every page: "This is preliminary information,
-  subject to change, and may contain errors." Say so on screen.
+  or drop to the FAA exhibits below, which carry the same argument.
+  ⚠ The report states on every page: "This is preliminary information, subject to
+  change, and may contain errors." Say so on screen.
 
-- `ex_faa_frangible.png` — **FAA Advisory Circular 150/5300-13A, Airport Design,
-  page 20** — the definition of *frangible*. US federal work, **public domain**.
+- `ex_faa_frangible.png` — **FAA Advisory Circular 150/5300-13A, Airport Design, page 20** — the definition of *frangible*. US federal work, **public domain**.
+- `ex_faa_rsa.png` — **FAA Advisory Circular 150/5300-13A, Airport Design, page 23** — the definition of *Runway Safety Area*. US federal work, **public domain**.
+- `ex_faa_fixedbyfunction.png` — **FAA Advisory Circular 150/5300-13A, Airport Design, page 19** — the definition of *Fixed-By-Function Navigation Aid*. US federal work, **public domain**.
   https://www.faa.gov/documentLibrary/media/Advisory_Circular/150-5300-13A-chg1-interactive-201612.pdf
   This is the licence-safe exhibit and it carries the core argument on its own.
 

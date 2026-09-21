@@ -24,10 +24,13 @@ def ex(i, text, img, src, tone="grave", **kw):
 P = "ARAIB Preliminary Report AAR2404"
 FAA = "FAA AC 150/5300-13A, p. 20"
 RSA = "FAA AC 150/5300-13A, p. 23"
+FBF = "FAA AC 150/5300-13A, p. 19"
 
 # ══════════════ COLD OPEN — must pay off the thumbnail inside 30s ══════════════
-sc("h1", "Three minutes past nine in the morning, the twenty ninth of December, two thousand and twenty four. A Boeing seven three seven is sliding down a runway in the south west of South Korea on its belly, with no wheels down, in the wrong direction.",
+sc("h1", "A Boeing seven three seven is sliding down a Korean runway on its belly, backwards along the strip, with no wheels down.",
    video="c_b737_1_1.mp4", tone="tense", cap="09:03 KST")
+sc("h1b", "It is the twenty ninth of December, two thousand and twenty four. Three minutes past nine in the morning.",
+   video="c_runway_1_3.mp4", tone="tense")
 sc("h2", "It is running out of runway. Two hundred and fifty metres past the end of it there is a low grassy mound with an aerial on top.",
    video="c_runway_1_1.mp4", tone="tense")
 sc("h3", "Inside that mound is concrete.",
@@ -112,6 +115,30 @@ sc("a3_13", "All of it is in the four minutes nobody has.",
 sc("a3_14", "Everything anyone has concluded about those minutes was inferred from something other than the black boxes.",
    img="cvr_still")
 
+
+ex("a3_15", "One more thing about that document, and I think it is to the board's credit. On every single page of the preliminary report there is a line in small type.",
+   "ex_araib_p3", P, tone="neutral")
+sc("a3_16", "This is preliminary information, subject to change, and may contain errors. Any errors in this report will be corrected when the final report has been completed.",
+   img="ex_araib_p3", exhibit=True, source=P, tone="neutral")
+sc("a3_17", "They wrote that on every page. I would ask you to hold it against everything that followed.",
+   img="cvr_still", tone="neutral")
+
+
+sc("a3_14b", "It is worth being concrete about what is in those four minutes, because black box is a phrase people use without picturing it.",
+   img="cvr_still", tone="neutral")
+sc("a3_14c", "A flight data recorder is not a summary. It is a continuous stream of hundreds of parameters, sampled several times a second. Control positions. Engine parameters for each engine separately. Gear position. Flap position. Every warning that sounded.",
+   img="fdr_still", tone="neutral")
+sc("a3_14d", "A cockpit voice recorder is four channels. Each pilot's microphone, the cockpit area microphone, and the radio.",
+   img="cvr_still", tone="neutral")
+sc("a3_14e", "Between them, those two boxes would have answered almost every question anybody has asked about this accident.",
+   img="cvr_still")
+sc("a3_14f", "Which engine was producing thrust, and which one was not. What the crew said to each other about it. Whether a warning sounded. Whether the gear was selected and did not come. What they were trying to do in the turn.",
+   img="fdr_still")
+sc("a3_14g", "All of it was being written down, continuously, until fifty eight minutes and fifty seconds past eight.",
+   img="cvr_still")
+sc("a3_14h", "And then it was not.",
+   img="cvr_still")
+
 # ══════════════ A4 — THE LANDING ══════════════
 sc("a4_ch", "Nineteen, the wrong way.", chapter="The turn", img="muan_still", tone="neutral")
 sc("a4_1", "They had been approaching runway zero one. They go around.",
@@ -150,6 +177,28 @@ sc("a5_7", "The two survivors were cabin crew, in the rear jump seats, in the ta
 sc("a5_8", "They were both seriously injured. Everyone forward of them died.",
    img="muan_still")
 
+
+sc("a5_1b", "It is worth knowing what a localiser actually does, because it explains why it was sitting there at all.",
+   img="localizer_still", tone="neutral")
+sc("a5_1c", "It transmits a pair of overlapping radio beams straight down the runway centreline. An aircraft on approach compares them, and the needle in the cockpit tells the crew they are left, right, or exactly where they should be.",
+   img="localizer_still", tone="neutral")
+sc("a5_1d", "For that to work it has to sit in line with the runway, at the far end. Not near it. In line with it.",
+   img="localizer_still", tone="neutral")
+ex("a5_1e", "The design document has a phrase for equipment like this. Fixed by function. A navigation aid that must be positioned in a particular location in order to provide an essential benefit for aviation.",
+   "ex_faa_fixedbyfunction", FBF, tone="neutral")
+sc("a5_1f", "So nobody is arguing it should have been somewhere else. It could not be somewhere else. That is the whole point.",
+   img="localizer_still")
+sc("a5_1g", "The standard does not say move it. The standard says that because it has to be there, it has to break.",
+   img="localizer_still")
+
+
+sc("a5_8b", "I have not been able to establish much about the two who lived, and I am not going to invent it. What the report records is that they were crew, that they were seriously injured, and that they were in the tail.",
+   img="muan_still", tone="neutral")
+sc("a5_8c", "Whether they were seated there by roster, by rank, or by whatever ordinary arrangement puts a particular person in a particular seat on a particular morning, I do not know.",
+   img="muan_still", tone="neutral")
+sc("a5_8d", "It decided whether they lived.",
+   img="muan_still")
+
 # ══════════════ A6 — FRANGIBLE ══════════════
 sc("a6_ch", "Frangible.", chapter="The word that decides it", img="ex_faa_frangible", tone="neutral")
 sc("a6_1", "There is a word in airport design that decides this entire accident, and most people watching will never have needed to know it.",
@@ -186,6 +235,16 @@ ex("a6_14", "Read what that ground is for. It exists specifically for the case w
 sc("a6_15", "It is the one piece of an airport whose entire job is to be survivable.",
    img="localizer_still")
 sc("a6_16", "And two hundred and fifty metres into it, at Muan, there was concrete.",
+   img="localizer_still")
+
+
+sc("a6_9b", "A caveat I owe you, because I have been quoting an American document at a Korean airport.",
+   img="ex_faa_rsa", tone="neutral")
+sc("a6_9c", "The Federal Aviation Administration does not regulate Muan. I am using its wording because it is public, it is precise, and it is free to show you on screen.",
+   img="ex_faa_rsa", tone="neutral")
+sc("a6_9d", "The standard that actually binds a Korean airport is the international one, through the civil aviation organisation, and it requires the same thing in its own words. Equipment sited near a runway must be frangible.",
+   img="localizer_still", tone="neutral")
+sc("a6_9e", "I am not relying on my paraphrase of that. I am relying on what Korea's own anti corruption commission concluded in December two thousand and twenty five, which is that the embankment violated frangibility requirements.",
    img="localizer_still")
 
 # ══════════════ A7 — 22 YEARS ══════════════
@@ -312,6 +371,16 @@ for _s in S:
     if v:
         stem = "_".join(v.replace(".mp4","").split("_")[:3])
         if stem in VID_Q: _s["videoQuery"] = VID_Q[stem]
+
+
+sc("c14", "If you want the rest of this, the final report is still to come, and when it lands I will go through it here line by line, the same way.",
+   img="muan_still", tone="neutral")
+sc("c15", "Subscribe if you want that one, because it is the only way it reaches you.",
+   img="muan_still", tone="neutral")
+sc("c16", "And if you want the other side of this coin, there is a film on this channel about an order that was given in a bunker in Washington, correctly, by a man who was not in the chain of command, and which reached no pilot at all.",
+   img="muan_still", tone="neutral")
+sc("c17", "Same failure, running the opposite way. That video is called Cheney Said Engage, Nobody Told the Pilots, and it is on the channel now. Watch that one next.",
+   img="muan_still", tone="neutral")
 
 doc = {"slug": "jeju2216",
        "title": "Jeju Air 2216: The Mound at the End of the Runway",

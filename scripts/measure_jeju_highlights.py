@@ -14,6 +14,7 @@ S = "/private/tmp/claude-501/-Users-akshay/7bcb3701-c584-4294-8d62-6078f2362210/
 PAGES = {f"ex_araib_p{p}": (f"{S}/araib_prelim.pdf", p) for p in range(1, 7)}
 PAGES["ex_faa_frangible"] = (f"{S}/faa_ac.pdf", 20)
 PAGES["ex_faa_rsa"] = (f"{S}/faa_ac.pdf", 23)
+PAGES["ex_faa_fixedbyfunction"] = (f"{S}/faa_ac.pdf", 19)
 
 # scene id -> the sentence the narration is pointing at
 PHRASE = {
@@ -41,6 +42,9 @@ PHRASE = {
  "a6_4":  "breaks, distorts, or yields in such a manner as to present the minimum hazard",
  "c5":    "present the minimum hazard to aircraft",
  "c11":   "Retains its structural integrity and stiffness",
+ "a5_1e": "must be positioned in a particular location in order to provide an essential benefit for aviation",
+ "a3_15": "This is preliminary information, subject to change, and may contain errors",
+ "a3_16": "Any errors in this report will be corrected when the final report has been completed",
  "a6_12": "Runway Safety Area (RSA). A defined surface surrounding the runway",
  "a6_13": "prepared or suitable for reducing the risk of damage to aircraft in the event of an undershoot",
  "a6_14": "in the event of an undershoot, overshoot, or excursion from the runway",
@@ -90,8 +94,12 @@ for sc in doc["scenes"]:
         got = locate(ws, pw, ph, PHRASE[i])
         if got: hits.append((got[1], key, got[0], got[2]))
     if not hits: fails.append((i, f"NOT FOUND: {PHRASE[i][:45]}")); continue
-    hits.sort(reverse=True)
-    score, key, r, snip = hits[0]
+    # Tie-break deliberately: several pages carry the same boilerplate (the
+    # "preliminary information" disclaimer is on EVERY page), so an equal score
+    # must not be resolved by sort order. Prefer the page the scene was authored
+    # against, then the longest matched span.
+    best = max(hits, key=lambda h: (round(h[0], 3), h[1] == sc["img"], len(h[3])))
+    score, key, r, snip = best
     if key != sc["img"]: moved.append((i, sc["img"], key)); sc["img"] = key
     sc["highlight"] = r
     zoom = min(3.6, max(1.15, 0.30 / max(r[3] * 0.88, 0.001)))

@@ -8,11 +8,18 @@
  "scenes": [
   {
    "id": "h1",
-   "text": "Three minutes past nine in the morning, the twenty ninth of December, two thousand and twenty four. A Boeing seven three seven is sliding down a runway in the south west of South Korea on its belly, with no wheels down, in the wrong direction.",
+   "text": "A Boeing seven three seven is sliding down a Korean runway on its belly, backwards along the strip, with no wheels down.",
    "tone": "tense",
    "video": "c_b737_1_1.mp4",
    "cap": "09:03 KST",
    "videoQuery": "Boeing 737 landing on runway"
+  },
+  {
+   "id": "h1b",
+   "text": "It is the twenty ninth of December, two thousand and twenty four. Three minutes past nine in the morning.",
+   "tone": "tense",
+   "video": "c_runway_1_3.mp4",
+   "videoQuery": "airport runway seen from moving aircraft"
   },
   {
    "id": "h2",
@@ -402,6 +409,90 @@
    "query": "cockpit voice recorder orange flight recorder"
   },
   {
+   "id": "a3_15",
+   "text": "One more thing about that document, and I think it is to the board's credit. On every single page of the preliminary report there is a line in small type.",
+   "tone": "neutral",
+   "img": "ex_araib_p3",
+   "exhibit": true,
+   "source": "ARAIB Preliminary Report AAR2404",
+   "highlight": [
+    0.138,
+    0.9206,
+    0.7246,
+    0.0218
+   ]
+  },
+  {
+   "id": "a3_16",
+   "text": "This is preliminary information, subject to change, and may contain errors. Any errors in this report will be corrected when the final report has been completed.",
+   "tone": "neutral",
+   "img": "ex_araib_p3",
+   "exhibit": true,
+   "source": "ARAIB Preliminary Report AAR2404",
+   "highlight": [
+    0.138,
+    0.9206,
+    0.7246,
+    0.0361
+   ]
+  },
+  {
+   "id": "a3_17",
+   "text": "They wrote that on every page. I would ask you to hold it against everything that followed.",
+   "tone": "neutral",
+   "img": "cvr_still",
+   "query": "cockpit voice recorder orange flight recorder"
+  },
+  {
+   "id": "a3_14b",
+   "text": "It is worth being concrete about what is in those four minutes, because black box is a phrase people use without picturing it.",
+   "tone": "neutral",
+   "img": "cvr_still",
+   "query": "cockpit voice recorder orange flight recorder"
+  },
+  {
+   "id": "a3_14c",
+   "text": "A flight data recorder is not a summary. It is a continuous stream of hundreds of parameters, sampled several times a second. Control positions. Engine parameters for each engine separately. Gear position. Flap position. Every warning that sounded.",
+   "tone": "neutral",
+   "img": "fdr_still",
+   "query": "flight data recorder black box aircraft"
+  },
+  {
+   "id": "a3_14d",
+   "text": "A cockpit voice recorder is four channels. Each pilot's microphone, the cockpit area microphone, and the radio.",
+   "tone": "neutral",
+   "img": "cvr_still",
+   "query": "cockpit voice recorder orange flight recorder"
+  },
+  {
+   "id": "a3_14e",
+   "text": "Between them, those two boxes would have answered almost every question anybody has asked about this accident.",
+   "tone": "grave",
+   "img": "cvr_still",
+   "query": "cockpit voice recorder orange flight recorder"
+  },
+  {
+   "id": "a3_14f",
+   "text": "Which engine was producing thrust, and which one was not. What the crew said to each other about it. Whether a warning sounded. Whether the gear was selected and did not come. What they were trying to do in the turn.",
+   "tone": "grave",
+   "img": "fdr_still",
+   "query": "flight data recorder black box aircraft"
+  },
+  {
+   "id": "a3_14g",
+   "text": "All of it was being written down, continuously, until fifty eight minutes and fifty seconds past eight.",
+   "tone": "grave",
+   "img": "cvr_still",
+   "query": "cockpit voice recorder orange flight recorder"
+  },
+  {
+   "id": "a3_14h",
+   "text": "And then it was not.",
+   "tone": "grave",
+   "img": "cvr_still",
+   "query": "cockpit voice recorder orange flight recorder"
+  },
+  {
    "id": "a4_ch",
    "text": "Nineteen, the wrong way.",
    "tone": "neutral",
@@ -550,6 +641,76 @@
   {
    "id": "a5_8",
    "text": "They were both seriously injured. Everyone forward of them died.",
+   "tone": "grave",
+   "img": "muan_still",
+   "query": "airport terminal and runway aerial view"
+  },
+  {
+   "id": "a5_1b",
+   "text": "It is worth knowing what a localiser actually does, because it explains why it was sitting there at all.",
+   "tone": "neutral",
+   "img": "localizer_still",
+   "query": "ILS localizer antenna array beside airport runway"
+  },
+  {
+   "id": "a5_1c",
+   "text": "It transmits a pair of overlapping radio beams straight down the runway centreline. An aircraft on approach compares them, and the needle in the cockpit tells the crew they are left, right, or exactly where they should be.",
+   "tone": "neutral",
+   "img": "localizer_still",
+   "query": "ILS localizer antenna array beside airport runway"
+  },
+  {
+   "id": "a5_1d",
+   "text": "For that to work it has to sit in line with the runway, at the far end. Not near it. In line with it.",
+   "tone": "neutral",
+   "img": "localizer_still",
+   "query": "ILS localizer antenna array beside airport runway"
+  },
+  {
+   "id": "a5_1e",
+   "text": "The design document has a phrase for equipment like this. Fixed by function. A navigation aid that must be positioned in a particular location in order to provide an essential benefit for aviation.",
+   "tone": "neutral",
+   "img": "ex_faa_fixedbyfunction",
+   "exhibit": true,
+   "source": "FAA AC 150/5300-13A, p. 19",
+   "highlight": [
+    0.1126,
+    0.7885,
+    0.7716,
+    0.0476
+   ]
+  },
+  {
+   "id": "a5_1f",
+   "text": "So nobody is arguing it should have been somewhere else. It could not be somewhere else. That is the whole point.",
+   "tone": "grave",
+   "img": "localizer_still",
+   "query": "ILS localizer antenna array beside airport runway"
+  },
+  {
+   "id": "a5_1g",
+   "text": "The standard does not say move it. The standard says that because it has to be there, it has to break.",
+   "tone": "grave",
+   "img": "localizer_still",
+   "query": "ILS localizer antenna array beside airport runway"
+  },
+  {
+   "id": "a5_8b",
+   "text": "I have not been able to establish much about the two who lived, and I am not going to invent it. What the report records is that they were crew, that they were seriously injured, and that they were in the tail.",
+   "tone": "neutral",
+   "img": "muan_still",
+   "query": "airport terminal and runway aerial view"
+  },
+  {
+   "id": "a5_8c",
+   "text": "Whether they were seated there by roster, by rank, or by whatever ordinary arrangement puts a particular person in a particular seat on a particular morning, I do not know.",
+   "tone": "neutral",
+   "img": "muan_still",
+   "query": "airport terminal and runway aerial view"
+  },
+  {
+   "id": "a5_8d",
+   "text": "It decided whether they lived.",
    "tone": "grave",
    "img": "muan_still",
    "query": "airport terminal and runway aerial view"
@@ -710,6 +871,32 @@
   {
    "id": "a6_16",
    "text": "And two hundred and fifty metres into it, at Muan, there was concrete.",
+   "tone": "grave",
+   "img": "localizer_still",
+   "query": "ILS localizer antenna array beside airport runway"
+  },
+  {
+   "id": "a6_9b",
+   "text": "A caveat I owe you, because I have been quoting an American document at a Korean airport.",
+   "tone": "neutral",
+   "img": "ex_faa_rsa"
+  },
+  {
+   "id": "a6_9c",
+   "text": "The Federal Aviation Administration does not regulate Muan. I am using its wording because it is public, it is precise, and it is free to show you on screen.",
+   "tone": "neutral",
+   "img": "ex_faa_rsa"
+  },
+  {
+   "id": "a6_9d",
+   "text": "The standard that actually binds a Korean airport is the international one, through the civil aviation organisation, and it requires the same thing in its own words. Equipment sited near a runway must be frangible.",
+   "tone": "neutral",
+   "img": "localizer_still",
+   "query": "ILS localizer antenna array beside airport runway"
+  },
+  {
+   "id": "a6_9e",
+   "text": "I am not relying on my paraphrase of that. I am relying on what Korea's own anti corruption commission concluded in December two thousand and twenty five, which is that the embankment violated frangibility requirements.",
    "tone": "grave",
    "img": "localizer_still",
    "query": "ILS localizer antenna array beside airport runway"
@@ -1070,6 +1257,30 @@
    "tone": "grave",
    "img": "localizer_still",
    "query": "ILS localizer antenna array beside airport runway"
+  },
+  {
+   "id": "c14",
+   "text": "If you want the rest of this, the final report is still to come, and when it lands I will go through it here line by line, the same way.",
+   "tone": "neutral",
+   "img": "muan_still"
+  },
+  {
+   "id": "c15",
+   "text": "Subscribe if you want that one, because it is the only way it reaches you.",
+   "tone": "neutral",
+   "img": "muan_still"
+  },
+  {
+   "id": "c16",
+   "text": "And if you want the other side of this coin, there is a film on this channel about an order that was given in a bunker in Washington, correctly, by a man who was not in the chain of command, and which reached no pilot at all.",
+   "tone": "neutral",
+   "img": "muan_still"
+  },
+  {
+   "id": "c17",
+   "text": "Same failure, running the opposite way. That video is called Cheney Said Engage, Nobody Told the Pilots, and it is on the channel now. Watch that one next.",
+   "tone": "neutral",
+   "img": "muan_still"
   }
  ]
 }
