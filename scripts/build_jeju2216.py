@@ -264,6 +264,37 @@ sc("c12", "The rule was there. The paperwork said it had been followed.",
 sc("c13", "And it had not been.",
    img="localizer_still")
 
+
+# ── fetch queries ────────────────────────────────────────────────────────────
+# fetch_doc_footage.py reads these. Pools must be DEEP: preflight counts
+# repetition per FILE, so muan_still at 27 scenes needs ~9 distinct images.
+# No query targets the crash itself — that footage is news-agency owned and the
+# probe confirmed none of it is licensable.
+IMG_Q = {
+ "muan_still":      "airport terminal and runway aerial view",
+ "localizer_still": "ILS localizer antenna array beside airport runway",
+ "cvr_still":       "cockpit voice recorder orange flight recorder",
+ "fdr_still":       "flight data recorder black box aircraft",
+ "b737_still":      "Boeing 737-800 airliner exterior",
+ "engine_still":    "CFM56 turbofan jet engine close up",
+ "teal_still":      "Baikal teal duck flock wetland",
+}
+VID_Q = {
+ "c_b737_1":  "Boeing 737 landing on runway",
+ "c_runway_1":"airport runway seen from moving aircraft",
+ "c_airport_1":"airport control tower and apron operations",
+ "c_birds_1": "large flock of birds flying over wetland",
+ "c_atc_1":   "air traffic control tower radar screen",
+ "c_fire_1":  "airport fire service foam tender exercise",
+}
+for _s in S:
+    if _s.get("img") in IMG_Q and not _s.get("exhibit"):
+        _s["query"] = IMG_Q[_s["img"]]
+    v = _s.get("video")
+    if v:
+        stem = "_".join(v.replace(".mp4","").split("_")[:3])
+        if stem in VID_Q: _s["videoQuery"] = VID_Q[stem]
+
 doc = {"slug": "jeju2216",
        "title": "Jeju Air 2216: The Mound at the End of the Runway",
        "channel": "blackbox", "niche": "briefing", "language": "en",
