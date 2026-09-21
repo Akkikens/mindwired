@@ -13,6 +13,7 @@ from match import words, rect, norm
 S = "/private/tmp/claude-501/-Users-akshay/7bcb3701-c584-4294-8d62-6078f2362210/scratchpad/jeju"
 PAGES = {f"ex_araib_p{p}": (f"{S}/araib_prelim.pdf", p) for p in range(1, 7)}
 PAGES["ex_faa_frangible"] = (f"{S}/faa_ac.pdf", 20)
+PAGES["ex_faa_rsa"] = (f"{S}/faa_ac.pdf", 23)
 
 # scene id -> the sentence the narration is pointing at
 PHRASE = {
@@ -40,6 +41,9 @@ PHRASE = {
  "a6_4":  "breaks, distorts, or yields in such a manner as to present the minimum hazard",
  "c5":    "present the minimum hazard to aircraft",
  "c11":   "Retains its structural integrity and stiffness",
+ "a6_12": "Runway Safety Area (RSA). A defined surface surrounding the runway",
+ "a6_13": "prepared or suitable for reducing the risk of damage to aircraft in the event of an undershoot",
+ "a6_14": "in the event of an undershoot, overshoot, or excursion from the runway",
 }
 
 def locate(ws, pw, ph, phrase):

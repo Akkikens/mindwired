@@ -23,6 +23,7 @@ def ex(i, text, img, src, tone="grave", **kw):
 
 P = "ARAIB Preliminary Report AAR2404"
 FAA = "FAA AC 150/5300-13A, p. 20"
+RSA = "FAA AC 150/5300-13A, p. 23"
 
 # ══════════════ COLD OPEN — must pay off the thumbnail inside 30s ══════════════
 sc("h1", "Three minutes past nine in the morning, the twenty ninth of December, two thousand and twenty four. A Boeing seven three seven is sliding down a runway in the south west of South Korea on its belly, with no wheels down, in the wrong direction.",
@@ -168,6 +169,23 @@ sc("a6_7", "Concrete does not fold.",
 sc("a6_8", "In December two thousand and twenty five, South Korea's Anti Corruption and Civil Rights Commission ruled that the embankment at Muan violated frangibility safety requirements.",
    img="localizer_still", source="ACRC ruling, Dec 2025")
 sc("a6_9", "Not that it was unlucky. Not that it was borderline. That it violated the requirement.",
+   img="localizer_still")
+
+
+# ── RSA — the ground past the runway has a name and a job ──
+sc("a6_10", "And there is a second thing in that same document, which I did not know before I read it, and which I think is the quietest and worst fact in this entire story.",
+   img="ex_faa_rsa", tone="neutral")
+sc("a6_11", "The ground past the end of a runway is not spare ground. It has a name, and it has a defined purpose.",
+   img="localizer_still", tone="neutral")
+ex("a6_12", "It is called the runway safety area.",
+   "ex_faa_rsa", RSA)
+ex("a6_13", "A defined surface surrounding the runway, prepared or suitable for reducing the risk of damage to aircraft in the event of an undershoot, overshoot, or excursion from the runway.",
+   "ex_faa_rsa", RSA)
+ex("a6_14", "Read what that ground is for. It exists specifically for the case where an aeroplane leaves the runway. That is not an unforeseen event. It is the event the surface is designed around.",
+   "ex_faa_rsa", RSA)
+sc("a6_15", "It is the one piece of an airport whose entire job is to be survivable.",
+   img="localizer_still")
+sc("a6_16", "And two hundred and fifty metres into it, at Muan, there was concrete.",
    img="localizer_still")
 
 # ══════════════ A7 — 22 YEARS ══════════════

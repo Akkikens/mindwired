@@ -646,6 +646,75 @@
    "query": "ILS localizer antenna array beside airport runway"
   },
   {
+   "id": "a6_10",
+   "text": "And there is a second thing in that same document, which I did not know before I read it, and which I think is the quietest and worst fact in this entire story.",
+   "tone": "neutral",
+   "img": "ex_faa_rsa"
+  },
+  {
+   "id": "a6_11",
+   "text": "The ground past the end of a runway is not spare ground. It has a name, and it has a defined purpose.",
+   "tone": "neutral",
+   "img": "localizer_still",
+   "query": "ILS localizer antenna array beside airport runway"
+  },
+  {
+   "id": "a6_12",
+   "text": "It is called the runway safety area.",
+   "tone": "grave",
+   "img": "ex_faa_rsa",
+   "exhibit": true,
+   "source": "FAA AC 150/5300-13A, p. 23",
+   "highlight": [
+    0.1715,
+    0.1514,
+    0.699,
+    0.0302
+   ]
+  },
+  {
+   "id": "a6_13",
+   "text": "A defined surface surrounding the runway, prepared or suitable for reducing the risk of damage to aircraft in the event of an undershoot, overshoot, or excursion from the runway.",
+   "tone": "grave",
+   "img": "ex_faa_rsa",
+   "exhibit": true,
+   "source": "FAA AC 150/5300-13A, p. 23",
+   "highlight": [
+    0.1126,
+    0.1514,
+    0.7716,
+    0.0476
+   ]
+  },
+  {
+   "id": "a6_14",
+   "text": "Read what that ground is for. It exists specifically for the case where an aeroplane leaves the runway. That is not an unforeseen event. It is the event the surface is designed around.",
+   "tone": "grave",
+   "img": "ex_faa_rsa",
+   "exhibit": true,
+   "source": "FAA AC 150/5300-13A, p. 23",
+   "highlight": [
+    0.1126,
+    0.1514,
+    0.7716,
+    0.065
+   ]
+  },
+  {
+   "id": "a6_15",
+   "text": "It is the one piece of an airport whose entire job is to be survivable.",
+   "tone": "grave",
+   "img": "localizer_still",
+   "query": "ILS localizer antenna array beside airport runway"
+  },
+  {
+   "id": "a6_16",
+   "text": "And two hundred and fifty metres into it, at Muan, there was concrete.",
+   "tone": "grave",
+   "img": "localizer_still",
+   "query": "ILS localizer antenna array beside airport runway"
+  },
+  {
    "id": "a7_ch",
    "text": "Twenty two years.",
    "tone": "neutral",
