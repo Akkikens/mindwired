@@ -1,1286 +1,1296 @@
 {
- "slug": "jeju2216",
- "title": "Jeju Air 2216: The Mound at the End of the Runway",
- "channel": "blackbox",
- "niche": "briefing",
- "language": "en",
- "voice": "d46abd1d-2d02-43e8-819f-51fb652c1c61",
- "scenes": [
-  {
-   "id": "h1",
-   "text": "A Boeing seven three seven is sliding down a Korean runway on its belly, backwards along the strip, with no wheels down.",
-   "tone": "tense",
-   "video": "c_b737_1_1.mp4",
-   "cap": "09:03 KST",
-   "videoQuery": "Boeing 737 landing on runway"
-  },
-  {
-   "id": "h1b",
-   "text": "It is the twenty ninth of December, two thousand and twenty four. Three minutes past nine in the morning.",
-   "tone": "tense",
-   "video": "c_runway_1_3.mp4",
-   "videoQuery": "airport runway seen from moving aircraft"
-  },
-  {
-   "id": "h2",
-   "text": "It is running out of runway. Two hundred and fifty metres past the end of it there is a low grassy mound with an aerial on top.",
-   "tone": "tense",
-   "video": "c_runway_1_1.mp4",
-   "videoQuery": "airport runway seen from moving aircraft"
-  },
-  {
-   "id": "h3",
-   "text": "Inside that mound is concrete.",
-   "tone": "grave",
-   "video": "c_runway_1_2.mp4",
-   "videoQuery": "airport runway seen from moving aircraft"
-  },
-  {
-   "id": "h4",
-   "text": "One hundred and seventy nine of the one hundred and eighty one people on board will die. And a simulation commissioned by their own government will later conclude that every one of them could have survived.",
-   "tone": "grave",
-   "video": "c_b737_1_2.mp4",
-   "stat": "179 of 181",
-   "videoQuery": "Boeing 737 landing on runway"
-  },
-  {
-   "id": "h5",
-   "text": "This is not a film about pilot error. It is about a mound of earth with concrete in it, a rule that said it should have come apart, and twenty two years of paperwork that said it was fine.",
-   "tone": "grave",
-   "video": "c_runway_1_3.mp4",
-   "videoQuery": "airport runway seen from moving aircraft"
-  },
-  {
-   "id": "h6",
-   "text": "And it is about four minutes and seven seconds that nobody has a recording of.",
-   "tone": "tense",
-   "video": "c_b737_1_3.mp4",
-   "stat": "00:04:07 missing",
-   "videoQuery": "Boeing 737 landing on runway"
-  },
-  {
-   "id": "title",
-   "text": "Jeju Air two two one six.",
-   "tone": "neutral",
-   "img": "muan_still",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "a1_ch",
-   "text": "Bangkok to Muan.",
-   "tone": "neutral",
-   "chapter": "A duck and two engines",
-   "img": "b737_still",
-   "query": "Boeing 737-800 airliner exterior"
-  },
-  {
-   "id": "a1_1",
-   "text": "The board's own file number for this is A A R twenty four zero four. A Boeing seven three seven eight hundred, registration H L eight zero eight eight, serial number thirty seven five four one.",
-   "tone": "grave",
-   "img": "ex_araib_p1",
-   "exhibit": true,
-   "source": "ARAIB Preliminary Report AAR2404",
-   "highlight": [
-    0.1379,
-    0.2651,
-    0.3012,
-    0.0266
-   ]
-  },
-  {
-   "id": "a1_2",
-   "text": "One correction before we go on, because almost every comment thread gets it wrong. This is not a seven three seven Max. It is the previous generation, the eight hundred, and the difference matters the moment somebody reaches for the Max story.",
-   "tone": "neutral",
-   "img": "b737_still",
-   "note": "CLAIMS: errors in circulation #1.",
-   "query": "Boeing 737-800 airliner exterior"
-  },
-  {
-   "id": "a1_3",
-   "text": "Something in the report I did not expect. This aircraft was not delivered new to Jeju Air. It went to Ryanair, in September two thousand and nine. Jeju Air leased it in February two thousand and seventeen.",
-   "tone": "grave",
-   "img": "ex_araib_p2",
-   "exhibit": true,
-   "source": "ARAIB Preliminary Report AAR2404",
-   "highlight": [
-    0.1379,
-    0.2949,
-    0.7008,
-    0.0478
-   ]
-  },
-  {
-   "id": "a1_4",
-   "text": "It is fifteen years old. For an airliner that is middle aged, not old.",
-   "tone": "neutral",
-   "img": "b737_still",
-   "query": "Boeing 737-800 airliner exterior"
-  },
-  {
-   "id": "a1_5",
-   "text": "One hundred and seventy five passengers. Six crew. One hundred and eighty one people.",
-   "tone": "grave",
-   "img": "ex_araib_p1",
-   "exhibit": true,
-   "source": "ARAIB Preliminary Report AAR2404",
-   "stat": "181 aboard",
-   "highlight": [
-    0.1379,
-    0.4665,
-    0.4153,
-    0.0266
-   ]
-  },
-  {
-   "id": "a1_6",
-   "text": "It leaves Bangkok in the dark and it is due into Muan International, on the south western coast of Korea, a little after nine in the morning.",
-   "tone": "grave",
-   "video": "c_airport_1_1.mp4",
-   "videoQuery": "airport control tower and apron operations"
-  },
-  {
-   "id": "a1_7",
-   "text": "The crew are experienced. The captain has six thousand eight hundred and twenty three hours, six thousand of them on this type, and two and a half thousand of those in command of it. The first officer has one thousand six hundred and fifty.",
-   "tone": "neutral",
-   "img": "ex_araib_p5",
-   "exhibit": true,
-   "source": "ARAIB Preliminary Report AAR2404",
-   "highlight": [
-    0.1983,
-    0.1471,
-    0.6048,
-    0.0243
-   ]
-  },
-  {
-   "id": "a1_8",
-   "text": "And the weather is, frankly, lovely. Wind from one hundred and ten degrees at two knots. Nine kilometres of visibility. A few clouds at four and a half thousand feet. Two degrees. No significant change expected.",
-   "tone": "neutral",
-   "img": "ex_araib_p5",
-   "exhibit": true,
-   "source": "ARAIB Preliminary Report AAR2404",
-   "highlight": [
-    0.3042,
-    0.4425,
-    0.2345,
-    0.0243
-   ]
-  },
-  {
-   "id": "a1_9",
-   "text": "Nothing about the sky that morning is working against them.",
-   "tone": "neutral",
-   "video": "c_airport_1_2.mp4",
-   "videoQuery": "airport control tower and apron operations"
-  },
-  {
-   "id": "a1_10",
-   "text": "At fifty four minutes and forty three seconds past eight, the aircraft calls Muan tower for landing. The tower clears it to land on runway zero one.",
-   "tone": "grave",
-   "img": "ex_araib_p1",
-   "exhibit": true,
-   "source": "ARAIB Preliminary Report AAR2404",
-   "cap": "08:54:43",
-   "highlight": [
-    0.1379,
-    0.6744,
-    0.7156,
-    0.0478
-   ]
-  },
-  {
-   "id": "a1_11",
-   "text": "At fifty seven minutes and fifty seconds past eight, the tower tells them to be cautious of bird activity.",
-   "tone": "tense",
-   "img": "ex_araib_p1",
-   "exhibit": true,
-   "source": "ARAIB Preliminary Report AAR2404",
-   "cap": "08:57:50",
-   "highlight": [
-    0.1379,
-    0.7416,
-    0.7181,
-    0.0254
-   ]
-  },
-  {
-   "id": "a1_12",
-   "text": "Five minutes and seven seconds later the aircraft is in the embankment.",
-   "tone": "grave",
-   "video": "c_birds_1_1.mp4",
-   "videoQuery": "large flock of birds flying over wetland"
-  },
-  {
-   "id": "a2_ch",
-   "text": "Baikal teal.",
-   "tone": "neutral",
-   "chapter": "Both engines",
-   "img": "teal_still",
-   "query": "Baikal teal duck flock wetland"
-  },
-  {
-   "id": "a2_1",
-   "text": "The bird is a Baikal teal. A migratory duck. Enormous flocks of them winter in that part of Korea, in numbers that are genuinely hard to picture.",
-   "tone": "neutral",
-   "img": "teal_still",
-   "query": "Baikal teal duck flock wetland"
-  },
-  {
-   "id": "a2_2",
-   "text": "The report is careful about how it knows. The pilots identified a group of birds on approach. A security camera filmed the aircraft coming close to a group of birds during the go around.",
-   "tone": "grave",
-   "img": "ex_araib_p5",
-   "exhibit": true,
-   "source": "ARAIB Preliminary Report AAR2404",
-   "highlight": [
-    0.138,
-    0.588,
-    0.6844,
-    0.1233
-   ]
-  },
-  {
-   "id": "a2_3",
-   "text": "Both engines were examined. Feathers and blood were found on each. Samples went out for D N A analysis, and a domestic organisation identified them as Baikal teals.",
-   "tone": "grave",
-   "img": "ex_araib_p5",
-   "exhibit": true,
-   "source": "ARAIB Preliminary Report AAR2404",
-   "stat": "Both engines",
-   "highlight": [
-    0.138,
-    0.7083,
-    0.7098,
-    0.0702
-   ]
-  },
-  {
-   "id": "a2_4",
-   "text": "Both. Not one.",
-   "tone": "grave",
-   "img": "engine_still",
-   "query": "CFM56 turbofan jet engine close up"
-  },
-  {
-   "id": "a2_5",
-   "text": "A twin engine airliner is built to fly on one. That is the whole design philosophy. What it is not built for is losing thrust on both at five hundred feet with no height to trade.",
-   "tone": "grave",
-   "img": "engine_still",
-   "query": "CFM56 turbofan jet engine close up"
-  },
-  {
-   "id": "a3_ch",
-   "text": "Four minutes, seven seconds.",
-   "tone": "neutral",
-   "chapter": "The black boxes stop",
-   "img": "cvr_still",
-   "query": "cockpit voice recorder orange flight recorder"
-  },
-  {
-   "id": "a3_1",
-   "text": "This channel is called Black Box Breakdown, and this is the part of this accident I cannot get past.",
-   "tone": "grave",
-   "img": "cvr_still",
-   "query": "cockpit voice recorder orange flight recorder"
-  },
-  {
-   "id": "a3_2",
-   "text": "Both recorders were fitted and both were working. And then, at fifty eight minutes and fifty seconds past eight, both of them stopped.",
-   "tone": "grave",
-   "img": "ex_araib_p3",
-   "exhibit": true,
-   "source": "ARAIB Preliminary Report AAR2404",
-   "cap": "08:58:50",
-   "highlight": [
-    0.138,
-    0.8303,
-    0.6852,
-    0.0254
-   ]
-  },
-  {
-   "id": "a3_3",
-   "text": "The aircraft hit the embankment at two minutes and fifty seven seconds past nine. The report states the arithmetic plainly. The last four minutes and seven seconds of recording are missing.",
-   "tone": "grave",
-   "img": "ex_araib_p3",
-   "exhibit": true,
-   "source": "ARAIB Preliminary Report AAR2404",
-   "stat": "00:04:07",
-   "highlight": [
-    0.138,
-    0.8527,
-    0.7243,
-    0.0478
-   ]
-  },
-  {
-   "id": "a3_4",
-   "text": "It even tells you where the aeroplane was when the recording ended. One hundred and sixty one knots. Four hundred and ninety eight feet.",
-   "tone": "grave",
-   "img": "ex_araib_p4",
-   "exhibit": true,
-   "source": "ARAIB Preliminary Report AAR2404",
-   "cap": "161 kts · 498 ft",
-   "highlight": [
-    0.138,
-    0.0917,
-    0.706,
-    0.0478
-   ]
-  },
-  {
-   "id": "a3_5",
-   "text": "Not burned. Not crushed. Not unreadable. They stopped, together, while the aircraft was still flying.",
-   "tone": "grave",
-   "img": "cvr_still",
-   "query": "cockpit voice recorder orange flight recorder"
-  },
-  {
-   "id": "a3_6",
-   "text": "And here is the detail that reorganised this whole film for me. The mayday call is logged at fifty eight minutes and fifty six seconds past eight.",
-   "tone": "tense",
-   "img": "ex_araib_p1",
-   "exhibit": true,
-   "source": "ARAIB Preliminary Report AAR2404",
-   "cap": "08:58:56",
-   "highlight": [
-    0.1379,
-    0.8311,
-    0.6941,
-    0.0254
-   ]
-  },
-  {
-   "id": "a3_7",
-   "text": "Six seconds after the recorders stopped.",
-   "tone": "grave",
-   "img": "cvr_still",
-   "query": "cockpit voice recorder orange flight recorder"
-  },
-  {
-   "id": "a3_8",
-   "text": "I had this the wrong way round before I read the primary document. I assumed the emergency came first and the recorders died in whatever followed. It is the other way round.",
-   "tone": "neutral",
-   "img": "cvr_still",
-   "query": "cockpit voice recorder orange flight recorder"
-  },
-  {
-   "id": "a3_9",
-   "text": "The voice recorder was recovered intact and a transcript was made on the fourth of January. The data recorder had a severed connector and was flown to the National Transportation Safety Board in Washington to be read out.",
-   "tone": "grave",
-   "img": "fdr_still",
-   "source": "ARAIB, Jan 2025",
-   "query": "flight data recorder black box aircraft"
-  },
-  {
-   "id": "a3_10",
-   "text": "Both of them are missing the same four minutes and seven seconds.",
-   "tone": "grave",
-   "img": "cvr_still",
-   "query": "cockpit voice recorder orange flight recorder"
-  },
-  {
-   "id": "a3_11",
-   "text": "The leading theory, and I want to be careful because it is a theory, is a total loss of electrical power. That explanation was offered by Sim Jai dong, a former transport ministry investigator, in coverage at the time. It has not been confirmed as the cause.",
-   "tone": "neutral",
-   "img": "cvr_still",
-   "note": "ALLEGED — attribute every time. CLAIMS: black boxes section.",
-   "query": "cockpit voice recorder orange flight recorder"
-  },
-  {
-   "id": "a3_12",
-   "text": "Now hold what is inside that window. The go around. The turn back. The decision to land the other way. Whatever happened with the gear. Whatever happened with the engines.",
-   "tone": "grave",
-   "video": "c_runway_1_2.mp4",
-   "videoQuery": "airport runway seen from moving aircraft"
-  },
-  {
-   "id": "a3_13",
-   "text": "All of it is in the four minutes nobody has.",
-   "tone": "grave",
-   "video": "c_runway_1_3.mp4",
-   "videoQuery": "airport runway seen from moving aircraft"
-  },
-  {
-   "id": "a3_14",
-   "text": "Everything anyone has concluded about those minutes was inferred from something other than the black boxes.",
-   "tone": "grave",
-   "img": "cvr_still",
-   "query": "cockpit voice recorder orange flight recorder"
-  },
-  {
-   "id": "a3_15",
-   "text": "One more thing about that document, and I think it is to the board's credit. On every single page of the preliminary report there is a line in small type.",
-   "tone": "neutral",
-   "img": "ex_araib_p3",
-   "exhibit": true,
-   "source": "ARAIB Preliminary Report AAR2404",
-   "highlight": [
-    0.138,
-    0.9206,
-    0.7246,
-    0.0218
-   ]
-  },
-  {
-   "id": "a3_16",
-   "text": "This is preliminary information, subject to change, and may contain errors. Any errors in this report will be corrected when the final report has been completed.",
-   "tone": "neutral",
-   "img": "ex_araib_p3",
-   "exhibit": true,
-   "source": "ARAIB Preliminary Report AAR2404",
-   "highlight": [
-    0.138,
-    0.9206,
-    0.7246,
-    0.0361
-   ]
-  },
-  {
-   "id": "a3_17",
-   "text": "They wrote that on every page. I would ask you to hold it against everything that followed.",
-   "tone": "neutral",
-   "img": "cvr_still",
-   "query": "cockpit voice recorder orange flight recorder"
-  },
-  {
-   "id": "a3_14b",
-   "text": "It is worth being concrete about what is in those four minutes, because black box is a phrase people use without picturing it.",
-   "tone": "neutral",
-   "img": "cvr_still",
-   "query": "cockpit voice recorder orange flight recorder"
-  },
-  {
-   "id": "a3_14c",
-   "text": "A flight data recorder is not a summary. It is a continuous stream of hundreds of parameters, sampled several times a second. Control positions. Engine parameters for each engine separately. Gear position. Flap position. Every warning that sounded.",
-   "tone": "neutral",
-   "img": "fdr_still",
-   "query": "flight data recorder black box aircraft"
-  },
-  {
-   "id": "a3_14d",
-   "text": "A cockpit voice recorder is four channels. Each pilot's microphone, the cockpit area microphone, and the radio.",
-   "tone": "neutral",
-   "img": "cvr_still",
-   "query": "cockpit voice recorder orange flight recorder"
-  },
-  {
-   "id": "a3_14e",
-   "text": "Between them, those two boxes would have answered almost every question anybody has asked about this accident.",
-   "tone": "grave",
-   "img": "cvr_still",
-   "query": "cockpit voice recorder orange flight recorder"
-  },
-  {
-   "id": "a3_14f",
-   "text": "Which engine was producing thrust, and which one was not. What the crew said to each other about it. Whether a warning sounded. Whether the gear was selected and did not come. What they were trying to do in the turn.",
-   "tone": "grave",
-   "img": "fdr_still",
-   "query": "flight data recorder black box aircraft"
-  },
-  {
-   "id": "a3_14g",
-   "text": "All of it was being written down, continuously, until fifty eight minutes and fifty seconds past eight.",
-   "tone": "grave",
-   "img": "cvr_still",
-   "query": "cockpit voice recorder orange flight recorder"
-  },
-  {
-   "id": "a3_14h",
-   "text": "And then it was not.",
-   "tone": "grave",
-   "img": "cvr_still",
-   "query": "cockpit voice recorder orange flight recorder"
-  },
-  {
-   "id": "a4_ch",
-   "text": "Nineteen, the wrong way.",
-   "tone": "neutral",
-   "chapter": "The turn",
-   "img": "muan_still",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "a4_1",
-   "text": "They had been approaching runway zero one. They go around.",
-   "tone": "tense",
-   "video": "c_airport_1_3.mp4",
-   "videoQuery": "airport control tower and apron operations"
-  },
-  {
-   "id": "a4_2",
-   "text": "And then they do something that tells you exactly how much time they believed they had. As the report puts it, the aircraft was flying over the left side of runway zero one, turned right, and approached runway one nine.",
-   "tone": "grave",
-   "img": "ex_araib_p1",
-   "exhibit": true,
-   "source": "ARAIB Preliminary Report AAR2404",
-   "highlight": [
-    0.1379,
-    0.8758,
-    0.7239,
-    0.0254
-   ]
-  },
-  {
-   "id": "a4_3",
-   "text": "Same strip of tarmac. Opposite direction. No circuit, no second thoughts.",
-   "tone": "grave",
-   "video": "c_runway_1_1.mp4",
-   "videoQuery": "airport runway seen from moving aircraft"
-  },
-  {
-   "id": "a4_4",
-   "text": "The landing gear is not down. It never comes down.",
-   "tone": "grave",
-   "img": "b737_still",
-   "query": "Boeing 737-800 airliner exterior"
-  },
-  {
-   "id": "a4_5",
-   "text": "The aircraft touches down on its belly, roughly one thousand two hundred metres along the runway.",
-   "tone": "grave",
-   "video": "c_runway_1_2.mp4",
-   "stat": "~1,200 m in",
-   "videoQuery": "airport runway seen from moving aircraft"
-  },
-  {
-   "id": "a4_6",
-   "text": "And I want to be very clear about this next part, because it is the hinge of the entire story.",
-   "tone": "neutral",
-   "video": "c_runway_1_3.mp4",
-   "videoQuery": "airport runway seen from moving aircraft"
-  },
-  {
-   "id": "a4_7",
-   "text": "A belly landing on a runway is survivable. Aircraft have done it and people have walked away. The airframe slides, the friction takes the energy out, and it stops.",
-   "tone": "neutral",
-   "img": "b737_still",
-   "query": "Boeing 737-800 airliner exterior"
-  },
-  {
-   "id": "a4_8",
-   "text": "This one was still moving when it ran out of tarmac.",
-   "tone": "tense",
-   "video": "c_runway_1_1.mp4",
-   "videoQuery": "airport runway seen from moving aircraft"
-  },
-  {
-   "id": "a5_ch",
-   "text": "Two hundred and fifty metres.",
-   "tone": "neutral",
-   "chapter": "What it hit",
-   "img": "localizer_still",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "a5_1",
-   "text": "Past the end of runway one nine there is a structure carrying the aerial array for the instrument landing system. The localiser. The part that tells an approaching aircraft whether it is left or right of the centreline.",
-   "tone": "grave",
-   "img": "localizer_still",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "a5_2",
-   "text": "It sits about two hundred and fifty metres beyond the runway end, and with the aerials on top it stands around four metres tall.",
-   "tone": "grave",
-   "img": "localizer_still",
-   "stat": "250 m · ~4 m",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "a5_3",
-   "text": "From the air it is a low grassy mound. That is genuinely what it looks like.",
-   "tone": "neutral",
-   "img": "localizer_still",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "a5_4",
-   "text": "Inside it there is a concrete structure. And in two thousand and twenty three, a concrete slab was added.",
-   "tone": "grave",
-   "img": "localizer_still",
-   "source": "CLAIMS §embankment",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "a5_5",
-   "text": "The report's description of the wreckage is the part I would ask you to sit with. Both engines were buried in the embankment's soil mound.",
-   "tone": "grave",
-   "img": "ex_araib_p2",
-   "exhibit": true,
-   "source": "ARAIB Preliminary Report AAR2404",
-   "highlight": [
-    0.138,
-    0.6124,
-    0.684,
-    0.0254
-   ]
-  },
-  {
-   "id": "a5_6",
-   "text": "The forward fuselage scattered between thirty and two hundred metres from the embankment. The tail flipped and came down beyond it, partly burning.",
-   "tone": "grave",
-   "img": "ex_araib_p2",
-   "exhibit": true,
-   "source": "ARAIB Preliminary Report AAR2404",
-   "highlight": [
-    0.138,
-    0.6124,
-    0.684,
-    0.0478
-   ]
-  },
-  {
-   "id": "a5_7",
-   "text": "The two survivors were cabin crew, in the rear jump seats, in the tail. The part of the aeroplane that ended up past the thing it hit.",
-   "tone": "grave",
-   "img": "muan_still",
-   "stat": "2 survivors",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "a5_8",
-   "text": "They were both seriously injured. Everyone forward of them died.",
-   "tone": "grave",
-   "img": "muan_still",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "a5_1b",
-   "text": "It is worth knowing what a localiser actually does, because it explains why it was sitting there at all.",
-   "tone": "neutral",
-   "img": "localizer_still",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "a5_1c",
-   "text": "It transmits a pair of overlapping radio beams straight down the runway centreline. An aircraft on approach compares them, and the needle in the cockpit tells the crew they are left, right, or exactly where they should be.",
-   "tone": "neutral",
-   "img": "localizer_still",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "a5_1d",
-   "text": "For that to work it has to sit in line with the runway, at the far end. Not near it. In line with it.",
-   "tone": "neutral",
-   "img": "localizer_still",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "a5_1e",
-   "text": "The design document has a phrase for equipment like this. Fixed by function. A navigation aid that must be positioned in a particular location in order to provide an essential benefit for aviation.",
-   "tone": "neutral",
-   "img": "ex_faa_fixedbyfunction",
-   "exhibit": true,
-   "source": "FAA AC 150/5300-13A, p. 19",
-   "highlight": [
-    0.1126,
-    0.7885,
-    0.7716,
-    0.0476
-   ]
-  },
-  {
-   "id": "a5_1f",
-   "text": "So nobody is arguing it should have been somewhere else. It could not be somewhere else. That is the whole point.",
-   "tone": "grave",
-   "img": "localizer_still",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "a5_1g",
-   "text": "The standard does not say move it. The standard says that because it has to be there, it has to break.",
-   "tone": "grave",
-   "img": "localizer_still",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "a5_8b",
-   "text": "I have not been able to establish much about the two who lived, and I am not going to invent it. What the report records is that they were crew, that they were seriously injured, and that they were in the tail.",
-   "tone": "neutral",
-   "img": "muan_still",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "a5_8c",
-   "text": "Whether they were seated there by roster, by rank, or by whatever ordinary arrangement puts a particular person in a particular seat on a particular morning, I do not know.",
-   "tone": "neutral",
-   "img": "muan_still",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "a5_8d",
-   "text": "It decided whether they lived.",
-   "tone": "grave",
-   "img": "muan_still",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "a6_ch",
-   "text": "Frangible.",
-   "tone": "neutral",
-   "chapter": "The word that decides it",
-   "img": "ex_faa_frangible"
-  },
-  {
-   "id": "a6_1",
-   "text": "There is a word in airport design that decides this entire accident, and most people watching will never have needed to know it.",
-   "tone": "neutral",
-   "img": "ex_faa_frangible"
-  },
-  {
-   "id": "a6_2",
-   "text": "Frangible. Here is how the American regulator defines it, and the international standard says the same thing in different words.",
-   "tone": "grave",
-   "img": "ex_faa_frangible",
-   "exhibit": true,
-   "source": "FAA AC 150/5300-13A, p. 20",
-   "highlight": [
-    0.1715,
-    0.2188,
-    0.6447,
-    0.0302
-   ]
-  },
-  {
-   "id": "a6_3",
-   "text": "Retains its structural integrity and stiffness up to a designated maximum load, but on impact from a greater load, breaks, distorts, or yields in such a manner as to present the minimum hazard to aircraft.",
-   "tone": "grave",
-   "img": "ex_faa_frangible",
-   "exhibit": true,
-   "source": "FAA AC 150/5300-13A, p. 20",
-   "highlight": [
-    0.1126,
-    0.1866,
-    0.7663,
-    0.0799
-   ]
-  },
-  {
-   "id": "a6_4",
-   "text": "Read it again, because it is doing something very specific. It is not asking for a strong structure. It is requiring that past a certain load, the thing must give way.",
-   "tone": "grave",
-   "img": "ex_faa_frangible",
-   "exhibit": true,
-   "source": "FAA AC 150/5300-13A, p. 20",
-   "highlight": [
-    0.1126,
-    0.2188,
-    0.7663,
-    0.065
-   ]
-  },
-  {
-   "id": "a6_5",
-   "text": "The rule exists for exactly one reason. Aeroplanes sometimes leave the end of runways, and the things sitting near a runway have to break rather than stop them.",
-   "tone": "grave",
-   "img": "localizer_still",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "a6_6",
-   "text": "An aerial on a breakaway mast does its job perfectly well in normal use, and folds when seventy tonnes arrives.",
-   "tone": "neutral",
-   "img": "localizer_still",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "a6_7",
-   "text": "Concrete does not fold.",
-   "tone": "grave",
-   "img": "localizer_still",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "a6_8",
-   "text": "In December two thousand and twenty five, South Korea's Anti Corruption and Civil Rights Commission ruled that the embankment at Muan violated frangibility safety requirements.",
-   "tone": "grave",
-   "img": "localizer_still",
-   "source": "ACRC ruling, Dec 2025",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "a6_9",
-   "text": "Not that it was unlucky. Not that it was borderline. That it violated the requirement.",
-   "tone": "grave",
-   "img": "localizer_still",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "a6_10",
-   "text": "And there is a second thing in that same document, which I did not know before I read it, and which I think is the quietest and worst fact in this entire story.",
-   "tone": "neutral",
-   "img": "ex_faa_rsa"
-  },
-  {
-   "id": "a6_11",
-   "text": "The ground past the end of a runway is not spare ground. It has a name, and it has a defined purpose.",
-   "tone": "neutral",
-   "img": "localizer_still",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "a6_12",
-   "text": "It is called the runway safety area.",
-   "tone": "grave",
-   "img": "ex_faa_rsa",
-   "exhibit": true,
-   "source": "FAA AC 150/5300-13A, p. 23",
-   "highlight": [
-    0.1715,
-    0.1514,
-    0.699,
-    0.0302
-   ]
-  },
-  {
-   "id": "a6_13",
-   "text": "A defined surface surrounding the runway, prepared or suitable for reducing the risk of damage to aircraft in the event of an undershoot, overshoot, or excursion from the runway.",
-   "tone": "grave",
-   "img": "ex_faa_rsa",
-   "exhibit": true,
-   "source": "FAA AC 150/5300-13A, p. 23",
-   "highlight": [
-    0.1126,
-    0.1514,
-    0.7716,
-    0.0476
-   ]
-  },
-  {
-   "id": "a6_14",
-   "text": "Read what that ground is for. It exists specifically for the case where an aeroplane leaves the runway. That is not an unforeseen event. It is the event the surface is designed around.",
-   "tone": "grave",
-   "img": "ex_faa_rsa",
-   "exhibit": true,
-   "source": "FAA AC 150/5300-13A, p. 23",
-   "highlight": [
-    0.1126,
-    0.1514,
-    0.7716,
-    0.065
-   ]
-  },
-  {
-   "id": "a6_15",
-   "text": "It is the one piece of an airport whose entire job is to be survivable.",
-   "tone": "grave",
-   "img": "localizer_still",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "a6_16",
-   "text": "And two hundred and fifty metres into it, at Muan, there was concrete.",
-   "tone": "grave",
-   "img": "localizer_still",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "a6_9b",
-   "text": "A caveat I owe you, because I have been quoting an American document at a Korean airport.",
-   "tone": "neutral",
-   "img": "ex_faa_rsa"
-  },
-  {
-   "id": "a6_9c",
-   "text": "The Federal Aviation Administration does not regulate Muan. I am using its wording because it is public, it is precise, and it is free to show you on screen.",
-   "tone": "neutral",
-   "img": "ex_faa_rsa"
-  },
-  {
-   "id": "a6_9d",
-   "text": "The standard that actually binds a Korean airport is the international one, through the civil aviation organisation, and it requires the same thing in its own words. Equipment sited near a runway must be frangible.",
-   "tone": "neutral",
-   "img": "localizer_still",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "a6_9e",
-   "text": "I am not relying on my paraphrase of that. I am relying on what Korea's own anti corruption commission concluded in December two thousand and twenty five, which is that the embankment violated frangibility requirements.",
-   "tone": "grave",
-   "img": "localizer_still",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "a7_ch",
-   "text": "Twenty two years.",
-   "tone": "neutral",
-   "chapter": "It was not one airport",
-   "img": "localizer_still",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "a7_1",
-   "text": "If this were only Muan, it would be a story about one airport and one bad decision.",
-   "tone": "neutral",
-   "video": "c_airport_1_1.mp4",
-   "videoQuery": "airport control tower and apron operations"
-  },
-  {
-   "id": "a7_2",
-   "text": "In March two thousand and twenty six, a state audit reported that fourteen non compliant localiser installations, at eight airports, had been wrongly approved.",
-   "tone": "grave",
-   "img": "localizer_still",
-   "stat": "14 · 8 airports",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "a7_3",
-   "text": "The list included Muan. It also included Jeju, and Gimhae.",
-   "tone": "grave",
-   "img": "localizer_still",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "a7_4",
-   "text": "And they had been carrying certified safety inspections for up to twenty two years, while failing frangibility requirements.",
-   "tone": "grave",
-   "img": "localizer_still",
-   "stat": "Up to 22 years",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "a7_5",
-   "text": "Twenty two years of somebody signing a piece of paper that said this is fine.",
-   "tone": "grave",
-   "img": "localizer_still",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "a7_6",
-   "text": "As for why concrete was there at all. The reporting on the state findings says the ground beneath the runway safety area slopes away, and levelling it would have meant major earthworks.",
-   "tone": "neutral",
-   "img": "localizer_still",
-   "note": "Attribute to the state report. Do not assert motive beyond it.",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "a7_7",
-   "text": "So instead of moving the earth, they raised the aerial on a structure. It was cheaper.",
-   "tone": "grave",
-   "img": "localizer_still",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "a8_ch",
-   "text": "All of them.",
-   "tone": "neutral",
-   "chapter": "The simulation",
-   "img": "muan_still",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "a8_1",
-   "text": "On the eighth of January, two thousand and twenty six, the Korean broadcaster S B S and the New York Times revealed a report the families had been asking to see and had not been given.",
-   "tone": "grave",
-   "img": "muan_still",
-   "source": "SBS / New York Times, 8 Jan 2026",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "a8_2",
-   "text": "A computer simulation, commissioned by the government.",
-   "tone": "grave",
-   "img": "muan_still",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "a8_3",
-   "text": "Its conclusion was that if the localiser and its supports had not been there, or had been built from frangible materials, everyone on board would have survived.",
-   "tone": "grave",
-   "img": "muan_still",
-   "stat": "All 179",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "a8_4",
-   "text": "I want to be precise, because this is the strongest claim in this film and it does not need any help from me. The finding is that they could have survived. It is a simulation, and it carries a simulation's assumptions.",
-   "tone": "neutral",
-   "img": "muan_still",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "a8_5",
-   "text": "It is still a government commissioned finding that the structure is the reason the number is one hundred and seventy nine, rather than something close to zero.",
-   "tone": "grave",
-   "img": "muan_still",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "a8_6",
-   "text": "And the families had asked for it, and had not been shown it, until a journalist put it in a newspaper.",
-   "tone": "grave",
-   "img": "muan_still",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "a9_ch",
-   "text": "Withdrawn.",
-   "tone": "neutral",
-   "chapter": "The finding they pulled",
-   "img": "muan_still",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "a9_1",
-   "text": "Now the part most coverage of this accident handles badly, and I would rather go slowly here.",
-   "tone": "neutral",
-   "img": "muan_still",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "a9_2",
-   "text": "On the nineteenth of July, two thousand and twenty five, investigators presented interim findings to the victims' families.",
-   "tone": "grave",
-   "img": "muan_still",
-   "source": "ARAIB interim findings, 19 Jul 2025",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "a9_3",
-   "text": "Those findings said the crew had shut down the left engine, which was relatively undamaged, rather than the right, which was the one the birds had destroyed.",
-   "tone": "grave",
-   "img": "muan_still",
-   "note": "DISPUTED — never assert. Families and pilots' union reject it; release withdrawn. CLAIMS: contested finding.",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "a9_4",
-   "text": "That finding is disputed. I am not going to tell you it is true and I am not going to tell you it is false, because the investigation has not finished and the people who would know have not published.",
-   "tone": "neutral",
-   "img": "muan_still",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "a9_5",
-   "text": "What I can tell you is that it is an interim finding, and that the black boxes stop four minutes and seven seconds before impact.",
-   "tone": "grave",
-   "img": "cvr_still",
-   "query": "cockpit voice recorder orange flight recorder"
-  },
-  {
-   "id": "a9_6",
-   "text": "The families rejected it. So did the pilots' union.",
-   "tone": "grave",
-   "img": "muan_still",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "a9_7",
-   "text": "Their objection was not simply that it blamed the crew. It was that it made the crew's actions the story, while the barrier the aircraft actually hit was treated as background.",
-   "tone": "grave",
-   "img": "muan_still",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "a9_8",
-   "text": "And then something happened that almost never happens. The scheduled release of those findings was withdrawn, after the protests.",
-   "tone": "grave",
-   "img": "muan_still",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "a9_9",
-   "text": "The board agreed to widen the inquiry beyond pilot error, into infrastructure and systemic factors.",
-   "tone": "grave",
-   "img": "muan_still",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "a9_10",
-   "text": "Which, to be fair to the board, is what its own preliminary report had already said it would do. Tear down the engines. Analyse the recorders and the air traffic data. Investigate the embankment, the localisers, and the bird strike evidence.",
-   "tone": "neutral",
-   "img": "ex_araib_p6",
-   "exhibit": true,
-   "source": "ARAIB Preliminary Report AAR2404",
-   "highlight": [
-    0.138,
-    0.1572,
-    0.7031,
-    0.0702
-   ]
-  },
-  {
-   "id": "a9_11",
-   "text": "It also says the investigation is being assisted by the National Transportation Safety Board in the United States and the B E A in France.",
-   "tone": "neutral",
-   "img": "ex_araib_p6",
-   "exhibit": true,
-   "source": "ARAIB Preliminary Report AAR2404",
-   "highlight": [
-    0.138,
-    0.3813,
-    0.7106,
-    0.0478
-   ]
-  },
-  {
-   "id": "a9_12",
-   "text": "On the second of December, two thousand and twenty five, the interim report was delayed. International rules require an interim update when a final report is not finished within a year.",
-   "tone": "grave",
-   "img": "muan_still",
-   "source": "ICAO Annex 13",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "a9_13",
-   "text": "On the twenty second of December, South Korea's parliament passed a bill authorising an independent investigation.",
-   "tone": "grave",
-   "img": "muan_still",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "a9_14",
-   "text": "The final report was expected around the middle of two thousand and twenty six. As this film is made, it has still not been published.",
-   "tone": "grave",
-   "img": "muan_still",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "c_ch",
-   "text": "The record.",
-   "tone": "neutral",
-   "chapter": "What the record says",
-   "img": "muan_still",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "c1",
-   "text": "Strip out the argument and here is what is not in dispute.",
-   "tone": "neutral",
-   "img": "muan_still",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "c2",
-   "text": "On a clear morning with two knots of wind, a duck went into both engines of a serviceable aircraft, five minutes from the ground.",
-   "tone": "grave",
-   "img": "teal_still",
-   "query": "Baikal teal duck flock wetland"
-  },
-  {
-   "id": "c3",
-   "text": "Both flight recorders stopped together, four minutes and seven seconds before the end, at one hundred and sixty one knots and four hundred and ninety eight feet, and nobody has yet said why with certainty.",
-   "tone": "grave",
-   "img": "ex_araib_p3",
-   "exhibit": true,
-   "source": "ARAIB Preliminary Report AAR2404",
-   "highlight": [
-    0.138,
-    0.8527,
-    0.7243,
-    0.0478
-   ]
-  },
-  {
-   "id": "c4",
-   "text": "An experienced crew put the aircraft down on a runway, on its belly, which is a thing people survive.",
-   "tone": "grave",
-   "video": "c_runway_1_2.mp4",
-   "videoQuery": "airport runway seen from moving aircraft"
-  },
-  {
-   "id": "c5",
-   "text": "And it slid into concrete that an international standard said should have broken apart.",
-   "tone": "grave",
-   "img": "ex_faa_frangible",
-   "exhibit": true,
-   "source": "FAA AC 150/5300-13A, p. 20",
-   "highlight": [
-    0.1126,
-    0.254,
-    0.7088,
-    0.0299
-   ]
-  },
-  {
-   "id": "c6",
-   "text": "A state commission has since ruled that it violated the requirement. A government simulation says it is the reason everyone died.",
-   "tone": "grave",
-   "img": "localizer_still",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "c7",
-   "text": "One hundred and seventy nine people.",
-   "tone": "grave",
-   "img": "muan_still",
-   "stat": "179",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "c8",
-   "text": "Fourteen installations. Eight airports. Twenty two years of approvals.",
-   "tone": "grave",
-   "img": "localizer_still",
-   "stat": "14 · 8 · 22",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "c9",
-   "text": "None of it is hidden. It is in a preliminary report, a commission ruling, a state audit, and a simulation that had to be prised out through a newspaper.",
-   "tone": "grave",
-   "img": "muan_still",
-   "query": "airport terminal and runway aerial view"
-  },
-  {
-   "id": "c10",
-   "text": "What I keep coming back to is not the engines. It is not even the four minutes, though I would very much like to know what is on them.",
-   "tone": "neutral",
-   "img": "cvr_still",
-   "query": "cockpit voice recorder orange flight recorder"
-  },
-  {
-   "id": "c11",
-   "text": "It is that the rule was already written. Somebody worked out, decades ago, that aircraft sometimes run off the end, and that whatever sits near a runway has to give way when they do.",
-   "tone": "grave",
-   "img": "ex_faa_frangible",
-   "exhibit": true,
-   "source": "FAA AC 150/5300-13A, p. 20",
-   "highlight": [
-    0.1126,
-    0.1866,
-    0.7035,
-    0.0625
-   ]
-  },
-  {
-   "id": "c12",
-   "text": "The rule was there. The paperwork said it had been followed.",
-   "tone": "grave",
-   "img": "localizer_still",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "c13",
-   "text": "And it had not been.",
-   "tone": "grave",
-   "img": "localizer_still",
-   "query": "ILS localizer antenna array beside airport runway"
-  },
-  {
-   "id": "c14",
-   "text": "If you want the rest of this, the final report is still to come, and when it lands I will go through it here line by line, the same way.",
-   "tone": "neutral",
-   "img": "muan_still"
-  },
-  {
-   "id": "c15",
-   "text": "Subscribe if you want that one, because it is the only way it reaches you.",
-   "tone": "neutral",
-   "img": "muan_still"
-  },
-  {
-   "id": "c16",
-   "text": "And if you want the other side of this coin, there is a film on this channel about an order that was given in a bunker in Washington, correctly, by a man who was not in the chain of command, and which reached no pilot at all.",
-   "tone": "neutral",
-   "img": "muan_still"
-  },
-  {
-   "id": "c17",
-   "text": "Same failure, running the opposite way. That video is called Cheney Said Engage, Nobody Told the Pilots, and it is on the channel now. Watch that one next.",
-   "tone": "neutral",
-   "img": "muan_still"
-  }
- ]
+  "slug": "jeju2216",
+  "title": "Jeju Air 2216: The Mound at the End of the Runway",
+  "channel": "blackbox",
+  "niche": "briefing",
+  "language": "en",
+  "voice": "d46abd1d-2d02-43e8-819f-51fb652c1c61",
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "A Boeing seven three seven is sliding down a Korean runway on its belly, backwards along the strip, with no wheels down.",
+      "tone": "tense",
+      "video": "mw_terminal_1.mp4",
+      "cap": "09:03 KST",
+      "videoQuery": "Boeing 737 landing on runway"
+    },
+    {
+      "id": "h1b",
+      "text": "It is the twenty ninth of December, two thousand and twenty four. Three minutes past nine in the morning.",
+      "tone": "tense",
+      "video": "mw_heli_2.mp4",
+      "videoQuery": "airport runway seen from moving aircraft"
+    },
+    {
+      "id": "h2",
+      "text": "It is running out of runway. Two hundred and fifty metres past the end of it there is a low grassy mound with an aerial on top.",
+      "tone": "tense",
+      "video": "mw_mound_3.mp4",
+      "videoQuery": "airport runway seen from moving aircraft",
+      "stat": "250 M PAST THE END"
+    },
+    {
+      "id": "h3",
+      "text": "Inside that mound is concrete.",
+      "tone": "grave",
+      "video": "mw_mound_2.mp4",
+      "videoQuery": "airport runway seen from moving aircraft",
+      "videoFrom": 8
+    },
+    {
+      "id": "h4",
+      "text": "One hundred and seventy nine of the one hundred and eighty one people on board will die. And a simulation commissioned by their own government will later conclude that every one of them could have survived.",
+      "tone": "grave",
+      "video": "mw_tail_2.mp4",
+      "stat": "179 of 181",
+      "videoQuery": "Boeing 737 landing on runway"
+    },
+    {
+      "id": "h5",
+      "text": "This is not a film about pilot error. It is about a mound of earth with concrete in it, a rule that said it should have come apart, and twenty two years of paperwork that said it was fine.",
+      "tone": "grave",
+      "video": "mw_mound_1.mp4",
+      "videoQuery": "airport runway seen from moving aircraft"
+    },
+    {
+      "id": "h6",
+      "text": "And it is about four minutes and seven seconds that nobody has a recording of.",
+      "tone": "tense",
+      "video": "mw_tail_1.mp4",
+      "stat": "00:04:07 missing",
+      "videoQuery": "Boeing 737 landing on runway"
+    },
+    {
+      "id": "title",
+      "text": "Jeju Air two two one six.",
+      "tone": "neutral",
+      "img": "site",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "a1_ch",
+      "text": "Bangkok to Muan.",
+      "tone": "neutral",
+      "chapter": "A duck and two engines",
+      "img": "hl8088",
+      "query": "Boeing 737-800 airliner exterior"
+    },
+    {
+      "id": "a1_1",
+      "text": "The board's own file number for this is A A R twenty four zero four. A Boeing seven three seven eight hundred, registration H L eight zero eight eight, serial number thirty seven five four one.",
+      "tone": "grave",
+      "img": "ex_araib_p1",
+      "exhibit": true,
+      "source": "ARAIB Preliminary Report AAR2404",
+      "highlight": [
+        0.1379,
+        0.2651,
+        0.3012,
+        0.0266
+      ]
+    },
+    {
+      "id": "a1_2",
+      "text": "One correction before we go on, because almost every comment thread gets it wrong. This is not a seven three seven Max. It is the previous generation, the eight hundred, and the difference matters the moment somebody reaches for the Max story.",
+      "tone": "neutral",
+      "img": "hl8088",
+      "note": "CLAIMS: errors in circulation #1.",
+      "query": "Boeing 737-800 airliner exterior",
+      "cap": "HL8088 — the accident aircraft"
+    },
+    {
+      "id": "a1_3",
+      "text": "Something in the report I did not expect. This aircraft was not delivered new to Jeju Air. It went to Ryanair, in September two thousand and nine. Jeju Air leased it in February two thousand and seventeen.",
+      "tone": "grave",
+      "img": "ex_araib_p2",
+      "exhibit": true,
+      "source": "ARAIB Preliminary Report AAR2404",
+      "highlight": [
+        0.1379,
+        0.2949,
+        0.7008,
+        0.0478
+      ]
+    },
+    {
+      "id": "a1_4",
+      "text": "It is fifteen years old. For an airliner that is middle aged, not old.",
+      "tone": "neutral",
+      "img": "hl8088",
+      "query": "Boeing 737-800 airliner exterior",
+      "cap": "HL8088 — the accident aircraft"
+    },
+    {
+      "id": "a1_5",
+      "text": "One hundred and seventy five passengers. Six crew. One hundred and eighty one people.",
+      "tone": "grave",
+      "img": "ex_araib_p1",
+      "exhibit": true,
+      "source": "ARAIB Preliminary Report AAR2404",
+      "stat": "181 aboard",
+      "highlight": [
+        0.1379,
+        0.4665,
+        0.4153,
+        0.0266
+      ]
+    },
+    {
+      "id": "a1_6",
+      "text": "It leaves Bangkok in the dark and it is due into Muan International, on the south western coast of Korea, a little after nine in the morning.",
+      "tone": "grave",
+      "img": "route"
+    },
+    {
+      "id": "a1_7",
+      "text": "The crew are experienced. The captain has six thousand eight hundred and twenty three hours, six thousand of them on this type, and two and a half thousand of those in command of it. The first officer has one thousand six hundred and fifty.",
+      "tone": "neutral",
+      "img": "ex_araib_p5",
+      "exhibit": true,
+      "source": "ARAIB Preliminary Report AAR2404",
+      "highlight": [
+        0.1983,
+        0.1471,
+        0.6048,
+        0.0243
+      ]
+    },
+    {
+      "id": "a1_8",
+      "text": "And the weather is, frankly, lovely. Wind from one hundred and ten degrees at two knots. Nine kilometres of visibility. A few clouds at four and a half thousand feet. Two degrees. No significant change expected.",
+      "tone": "neutral",
+      "img": "ex_araib_p5",
+      "exhibit": true,
+      "source": "ARAIB Preliminary Report AAR2404",
+      "highlight": [
+        0.3042,
+        0.4425,
+        0.2345,
+        0.0243
+      ]
+    },
+    {
+      "id": "a1_9",
+      "text": "Nothing about the sky that morning is working against them.",
+      "tone": "neutral",
+      "img": "muanaerial"
+    },
+    {
+      "id": "a1_10",
+      "text": "At fifty four minutes and forty three seconds past eight, the aircraft calls Muan tower for landing. The tower clears it to land on runway zero one.",
+      "tone": "grave",
+      "img": "ex_araib_p1",
+      "exhibit": true,
+      "source": "ARAIB Preliminary Report AAR2404",
+      "cap": "08:54:43",
+      "highlight": [
+        0.1379,
+        0.6744,
+        0.7156,
+        0.0478
+      ]
+    },
+    {
+      "id": "a1_11",
+      "text": "At fifty seven minutes and fifty seconds past eight, the tower tells them to be cautious of bird activity.",
+      "tone": "tense",
+      "img": "ex_araib_p1",
+      "exhibit": true,
+      "source": "ARAIB Preliminary Report AAR2404",
+      "cap": "08:57:50",
+      "highlight": [
+        0.1379,
+        0.7416,
+        0.7181,
+        0.0254
+      ]
+    },
+    {
+      "id": "a1_12",
+      "text": "Five minutes and seven seconds later the aircraft is in the embankment.",
+      "tone": "grave",
+      "video": "c_birds_1_1.mp4",
+      "videoQuery": "large flock of birds flying over wetland"
+    },
+    {
+      "id": "a2_ch",
+      "text": "Baikal teal.",
+      "tone": "neutral",
+      "chapter": "Both engines",
+      "img": "teal",
+      "query": "Baikal teal duck flock wetland"
+    },
+    {
+      "id": "a2_1",
+      "text": "The bird is a Baikal teal. A migratory duck. Enormous flocks of them winter in that part of Korea, in numbers that are genuinely hard to picture.",
+      "tone": "neutral",
+      "img": "teal",
+      "query": "Baikal teal duck flock wetland"
+    },
+    {
+      "id": "a2_2",
+      "text": "The report is careful about how it knows. The pilots identified a group of birds on approach. A security camera filmed the aircraft coming close to a group of birds during the go around.",
+      "tone": "grave",
+      "img": "ex_araib_p5",
+      "exhibit": true,
+      "source": "ARAIB Preliminary Report AAR2404",
+      "highlight": [
+        0.138,
+        0.588,
+        0.6844,
+        0.1233
+      ]
+    },
+    {
+      "id": "a2_3",
+      "text": "Both engines were examined. Feathers and blood were found on each. Samples went out for D N A analysis, and a domestic organisation identified them as Baikal teals.",
+      "tone": "grave",
+      "img": "ex_araib_p5",
+      "exhibit": true,
+      "source": "ARAIB Preliminary Report AAR2404",
+      "stat": "Both engines",
+      "highlight": [
+        0.138,
+        0.7083,
+        0.7098,
+        0.0702
+      ]
+    },
+    {
+      "id": "a2_4",
+      "text": "Both. Not one.",
+      "tone": "grave",
+      "img": "engine_still",
+      "query": "CFM56 turbofan jet engine close up"
+    },
+    {
+      "id": "a2_5",
+      "text": "A twin engine airliner is built to fly on one. That is the whole design philosophy. What it is not built for is losing thrust on both at five hundred feet with no height to trade.",
+      "tone": "grave",
+      "img": "engine2",
+      "query": "CFM56 turbofan jet engine close up"
+    },
+    {
+      "id": "a3_ch",
+      "text": "Four minutes, seven seconds.",
+      "tone": "neutral",
+      "chapter": "The black boxes stop",
+      "img": "jejucvr",
+      "query": "cockpit voice recorder orange flight recorder"
+    },
+    {
+      "id": "a3_1",
+      "text": "This channel is called Black Box Breakdown, and this is the part of this accident I cannot get past.",
+      "tone": "grave",
+      "img": "jejucvr",
+      "query": "cockpit voice recorder orange flight recorder",
+      "cap": "The CVR of HL8088 — MOLIT"
+    },
+    {
+      "id": "a3_2",
+      "text": "Both recorders were fitted and both were working. And then, at fifty eight minutes and fifty seconds past eight, both of them stopped.",
+      "tone": "grave",
+      "img": "ex_araib_p3",
+      "exhibit": true,
+      "source": "ARAIB Preliminary Report AAR2404",
+      "cap": "08:58:50",
+      "highlight": [
+        0.138,
+        0.8303,
+        0.6852,
+        0.0254
+      ]
+    },
+    {
+      "id": "a3_3",
+      "text": "The aircraft hit the embankment at two minutes and fifty seven seconds past nine. The report states the arithmetic plainly. The last four minutes and seven seconds of recording are missing.",
+      "tone": "grave",
+      "img": "ex_araib_p3",
+      "exhibit": true,
+      "source": "ARAIB Preliminary Report AAR2404",
+      "stat": "00:04:07",
+      "highlight": [
+        0.138,
+        0.8527,
+        0.7243,
+        0.0478
+      ]
+    },
+    {
+      "id": "a3_4",
+      "text": "It even tells you where the aeroplane was when the recording ended. One hundred and sixty one knots. Four hundred and ninety eight feet.",
+      "tone": "grave",
+      "img": "ex_araib_p4",
+      "exhibit": true,
+      "source": "ARAIB Preliminary Report AAR2404",
+      "cap": "161 kts · 498 ft",
+      "highlight": [
+        0.138,
+        0.0917,
+        0.706,
+        0.0478
+      ]
+    },
+    {
+      "id": "a3_5",
+      "text": "Not burned. Not crushed. Not unreadable. They stopped, together, while the aircraft was still flying.",
+      "tone": "grave",
+      "img": "jejufdr",
+      "query": "cockpit voice recorder orange flight recorder"
+    },
+    {
+      "id": "a3_6",
+      "text": "And here is the detail that reorganised this whole film for me. The mayday call is logged at fifty eight minutes and fifty six seconds past eight.",
+      "tone": "tense",
+      "img": "ex_araib_p1",
+      "exhibit": true,
+      "source": "ARAIB Preliminary Report AAR2404",
+      "cap": "08:58:56",
+      "highlight": [
+        0.1379,
+        0.8311,
+        0.6941,
+        0.0254
+      ]
+    },
+    {
+      "id": "a3_7",
+      "text": "Six seconds after the recorders stopped.",
+      "tone": "grave",
+      "img": "jejucvr",
+      "query": "cockpit voice recorder orange flight recorder"
+    },
+    {
+      "id": "a3_8",
+      "text": "I had this the wrong way round before I read the primary document. I assumed the emergency came first and the recorders died in whatever followed. It is the other way round.",
+      "tone": "neutral",
+      "img": "fdr_still",
+      "query": "cockpit voice recorder orange flight recorder"
+    },
+    {
+      "id": "a3_9",
+      "text": "The voice recorder was recovered intact and a transcript was made on the fourth of January. The data recorder had a severed connector and was flown to the National Transportation Safety Board in Washington to be read out.",
+      "tone": "grave",
+      "img": "jejufdr",
+      "source": "ARAIB, Jan 2025",
+      "query": "flight data recorder black box aircraft",
+      "cap": "The FDR of HL8088 — connector severed"
+    },
+    {
+      "id": "a3_10",
+      "text": "Both of them are missing the same four minutes and seven seconds.",
+      "tone": "grave",
+      "img": "jejucvr",
+      "query": "cockpit voice recorder orange flight recorder"
+    },
+    {
+      "id": "a3_11",
+      "text": "The leading theory, and I want to be careful because it is a theory, is a total loss of electrical power. That explanation was offered by Sim Jai dong, a former transport ministry investigator, in coverage at the time. It has not been confirmed as the cause.",
+      "tone": "neutral",
+      "img": "fdr_still",
+      "note": "ALLEGED — attribute every time. CLAIMS: black boxes section.",
+      "query": "cockpit voice recorder orange flight recorder"
+    },
+    {
+      "id": "a3_12",
+      "text": "Now hold what is inside that window. The go around. The turn back. The decision to land the other way. Whatever happened with the gear. Whatever happened with the engines.",
+      "tone": "grave",
+      "video": "mw_wide_1.mp4",
+      "videoQuery": "airport runway seen from moving aircraft"
+    },
+    {
+      "id": "a3_13",
+      "text": "All of it is in the four minutes nobody has.",
+      "tone": "grave",
+      "video": "mw_tail_4.mp4",
+      "videoQuery": "airport runway seen from moving aircraft",
+      "videoFrom": 6
+    },
+    {
+      "id": "a3_14",
+      "text": "Everything anyone has concluded about those minutes was inferred from something other than the black boxes.",
+      "tone": "grave",
+      "img": "fdr_still",
+      "query": "cockpit voice recorder orange flight recorder"
+    },
+    {
+      "id": "a3_15",
+      "text": "One more thing about that document, and I think it is to the board's credit. On every single page of the preliminary report there is a line in small type.",
+      "tone": "neutral",
+      "img": "ex_araib_p3",
+      "exhibit": true,
+      "source": "ARAIB Preliminary Report AAR2404",
+      "highlight": [
+        0.138,
+        0.9206,
+        0.7246,
+        0.0218
+      ]
+    },
+    {
+      "id": "a3_16",
+      "text": "This is preliminary information, subject to change, and may contain errors. Any errors in this report will be corrected when the final report has been completed.",
+      "tone": "neutral",
+      "img": "ex_araib_p3",
+      "exhibit": true,
+      "source": "ARAIB Preliminary Report AAR2404",
+      "highlight": [
+        0.138,
+        0.9206,
+        0.7246,
+        0.0361
+      ]
+    },
+    {
+      "id": "a3_17",
+      "text": "They wrote that on every page. I would ask you to hold it against everything that followed.",
+      "tone": "neutral",
+      "img": "jejufdr",
+      "query": "cockpit voice recorder orange flight recorder"
+    },
+    {
+      "id": "a3_14b",
+      "text": "It is worth being concrete about what is in those four minutes, because black box is a phrase people use without picturing it.",
+      "tone": "neutral",
+      "img": "fdr_still",
+      "query": "cockpit voice recorder orange flight recorder"
+    },
+    {
+      "id": "a3_14c",
+      "text": "A flight data recorder is not a summary. It is a continuous stream of hundreds of parameters, sampled several times a second. Control positions. Engine parameters for each engine separately. Gear position. Flap position. Every warning that sounded.",
+      "tone": "neutral",
+      "img": "fdr_still",
+      "query": "flight data recorder black box aircraft"
+    },
+    {
+      "id": "a3_14d",
+      "text": "A cockpit voice recorder is four channels. Each pilot's microphone, the cockpit area microphone, and the radio.",
+      "tone": "neutral",
+      "img": "jejucvr",
+      "query": "cockpit voice recorder orange flight recorder"
+    },
+    {
+      "id": "a3_14e",
+      "text": "Between them, those two boxes would have answered almost every question anybody has asked about this accident.",
+      "tone": "grave",
+      "img": "fdr_still",
+      "query": "cockpit voice recorder orange flight recorder"
+    },
+    {
+      "id": "a3_14f",
+      "text": "Which engine was producing thrust, and which one was not. What the crew said to each other about it. Whether a warning sounded. Whether the gear was selected and did not come. What they were trying to do in the turn.",
+      "tone": "grave",
+      "img": "jejufdr",
+      "query": "flight data recorder black box aircraft"
+    },
+    {
+      "id": "a3_14g",
+      "text": "All of it was being written down, continuously, until fifty eight minutes and fifty seconds past eight.",
+      "tone": "grave",
+      "img": "fdr_still",
+      "query": "cockpit voice recorder orange flight recorder"
+    },
+    {
+      "id": "a3_14h",
+      "text": "And then it was not.",
+      "tone": "grave",
+      "img": "jejucvr",
+      "query": "cockpit voice recorder orange flight recorder"
+    },
+    {
+      "id": "a4_ch",
+      "text": "Nineteen, the wrong way.",
+      "tone": "neutral",
+      "chapter": "The turn",
+      "img": "muanmap",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "a4_1",
+      "text": "They had been approaching runway zero one. They go around.",
+      "tone": "tense",
+      "img": "muanmap"
+    },
+    {
+      "id": "a4_2",
+      "text": "And then they do something that tells you exactly how much time they believed they had. As the report puts it, the aircraft was flying over the left side of runway zero one, turned right, and approached runway one nine.",
+      "tone": "grave",
+      "img": "ex_araib_p1",
+      "exhibit": true,
+      "source": "ARAIB Preliminary Report AAR2404",
+      "highlight": [
+        0.1379,
+        0.8758,
+        0.7239,
+        0.0254
+      ]
+    },
+    {
+      "id": "a4_3",
+      "text": "Same strip of tarmac. Opposite direction. No circuit, no second thoughts.",
+      "tone": "grave",
+      "img": "muanmap"
+    },
+    {
+      "id": "a4_4",
+      "text": "The landing gear is not down. It never comes down.",
+      "tone": "grave",
+      "img": "hl8088",
+      "query": "Boeing 737-800 airliner exterior"
+    },
+    {
+      "id": "a4_5",
+      "text": "The aircraft touches down on its belly, roughly one thousand two hundred metres along the runway.",
+      "tone": "grave",
+      "video": "mw_terminal_1.mp4",
+      "stat": "~1,200 m in",
+      "videoQuery": "airport runway seen from moving aircraft",
+      "videoFrom": 6
+    },
+    {
+      "id": "a4_6",
+      "text": "And I want to be very clear about this next part, because it is the hinge of the entire story.",
+      "tone": "neutral",
+      "video": "mw_runway_2.mp4",
+      "videoQuery": "airport runway seen from moving aircraft"
+    },
+    {
+      "id": "a4_7",
+      "text": "A belly landing on a runway is survivable. Aircraft have done it and people have walked away. The airframe slides, the friction takes the energy out, and it stops.",
+      "tone": "neutral",
+      "img": "jejufleet",
+      "query": "Boeing 737-800 airliner exterior",
+      "cap": "A Jeju Air 737-800 (not HL8088)"
+    },
+    {
+      "id": "a4_8",
+      "text": "This one was still moving when it ran out of tarmac.",
+      "tone": "tense",
+      "video": "mw_mound_2.mp4",
+      "videoQuery": "airport runway seen from moving aircraft"
+    },
+    {
+      "id": "a5_ch",
+      "text": "Two hundred and fifty metres.",
+      "tone": "neutral",
+      "chapter": "What it hit",
+      "img": "muanloc",
+      "query": "ILS localizer antenna array beside airport runway"
+    },
+    {
+      "id": "a5_1",
+      "text": "Past the end of runway one nine there is a structure carrying the aerial array for the instrument landing system. The localiser. The part that tells an approaching aircraft whether it is left or right of the centreline.",
+      "tone": "grave",
+      "img": "muanloc",
+      "query": "ILS localizer antenna array beside airport runway"
+    },
+    {
+      "id": "a5_2",
+      "text": "It sits about two hundred and fifty metres beyond the runway end, and with the aerials on top it stands around four metres tall.",
+      "tone": "grave",
+      "img": "muanloc",
+      "stat": "250 m · ~4 m",
+      "query": "ILS localizer antenna array beside airport runway"
+    },
+    {
+      "id": "a5_3",
+      "text": "From the air it is a low grassy mound. That is genuinely what it looks like.",
+      "tone": "neutral",
+      "img": "muanloc",
+      "query": "ILS localizer antenna array beside airport runway"
+    },
+    {
+      "id": "a5_4",
+      "text": "Inside it there is a concrete structure. And in two thousand and twenty three, a concrete slab was added.",
+      "tone": "grave",
+      "img": "muanloc",
+      "source": "CLAIMS §embankment",
+      "query": "ILS localizer antenna array beside airport runway"
+    },
+    {
+      "id": "a5_5",
+      "text": "The report's description of the wreckage is the part I would ask you to sit with. Both engines were buried in the embankment's soil mound.",
+      "tone": "grave",
+      "img": "ex_araib_p2",
+      "exhibit": true,
+      "source": "ARAIB Preliminary Report AAR2404",
+      "highlight": [
+        0.138,
+        0.6124,
+        0.684,
+        0.0254
+      ]
+    },
+    {
+      "id": "a5_6",
+      "text": "The forward fuselage scattered between thirty and two hundred metres from the embankment. The tail flipped and came down beyond it, partly burning.",
+      "tone": "grave",
+      "img": "ex_araib_p2",
+      "exhibit": true,
+      "source": "ARAIB Preliminary Report AAR2404",
+      "highlight": [
+        0.138,
+        0.6124,
+        0.684,
+        0.0478
+      ]
+    },
+    {
+      "id": "a5_7",
+      "text": "The two survivors were cabin crew, in the rear jump seats, in the tail. The part of the aeroplane that ended up past the thing it hit.",
+      "tone": "grave",
+      "img": "site",
+      "stat": "2 survivors",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "a5_8",
+      "text": "They were both seriously injured. Everyone forward of them died.",
+      "tone": "grave",
+      "img": "site",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "a5_1b",
+      "text": "It is worth knowing what a localiser actually does, because it explains why it was sitting there at all.",
+      "tone": "neutral",
+      "img": "localizer",
+      "query": "ILS localizer antenna array beside airport runway",
+      "cap": "Localiser array — Leeds Bradford, UK (not Muan)"
+    },
+    {
+      "id": "a5_1c",
+      "text": "It transmits a pair of overlapping radio beams straight down the runway centreline. An aircraft on approach compares them, and the needle in the cockpit tells the crew they are left, right, or exactly where they should be.",
+      "tone": "neutral",
+      "img": "ilsdiagram",
+      "query": "ILS localizer antenna array beside airport runway"
+    },
+    {
+      "id": "a5_1d",
+      "text": "For that to work it has to sit in line with the runway, at the far end. Not near it. In line with it.",
+      "tone": "neutral",
+      "img": "localizer",
+      "query": "ILS localizer antenna array beside airport runway",
+      "cap": "Localiser array — Heathrow, UK (not Muan)"
+    },
+    {
+      "id": "a5_1e",
+      "text": "The design document has a phrase for equipment like this. Fixed by function. A navigation aid that must be positioned in a particular location in order to provide an essential benefit for aviation.",
+      "tone": "neutral",
+      "img": "ex_faa_fixedbyfunction",
+      "exhibit": true,
+      "source": "FAA AC 150/5300-13A, p. 19",
+      "highlight": [
+        0.1126,
+        0.7885,
+        0.7716,
+        0.0476
+      ]
+    },
+    {
+      "id": "a5_1f",
+      "text": "So nobody is arguing it should have been somewhere else. It could not be somewhere else. That is the whole point.",
+      "tone": "grave",
+      "img": "localizer",
+      "query": "ILS localizer antenna array beside airport runway"
+    },
+    {
+      "id": "a5_1g",
+      "text": "The standard does not say move it. The standard says that because it has to be there, it has to break.",
+      "tone": "grave",
+      "img": "localizer",
+      "query": "ILS localizer antenna array beside airport runway"
+    },
+    {
+      "id": "a5_8b",
+      "text": "I have not been able to establish much about the two who lived, and I am not going to invent it. What the report records is that they were crew, that they were seriously injured, and that they were in the tail.",
+      "tone": "neutral",
+      "img": "memorial",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "a5_8c",
+      "text": "Whether they were seated there by roster, by rank, or by whatever ordinary arrangement puts a particular person in a particular seat on a particular morning, I do not know.",
+      "tone": "neutral",
+      "img": "memorial",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "a5_8d",
+      "text": "It decided whether they lived.",
+      "tone": "grave",
+      "img": "site",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "a6_ch",
+      "text": "Frangible.",
+      "tone": "neutral",
+      "chapter": "The word that decides it",
+      "img": "ex_faa_frangible"
+    },
+    {
+      "id": "a6_1",
+      "text": "There is a word in airport design that decides this entire accident, and most people watching will never have needed to know it.",
+      "tone": "neutral",
+      "img": "ex_faa_frangible"
+    },
+    {
+      "id": "a6_2",
+      "text": "Frangible. Here is how the American regulator defines it, and the international standard says the same thing in different words.",
+      "tone": "grave",
+      "img": "ex_faa_frangible",
+      "exhibit": true,
+      "source": "FAA AC 150/5300-13A, p. 20",
+      "highlight": [
+        0.1715,
+        0.2188,
+        0.6447,
+        0.0302
+      ]
+    },
+    {
+      "id": "a6_3",
+      "text": "Retains its structural integrity and stiffness up to a designated maximum load, but on impact from a greater load, breaks, distorts, or yields in such a manner as to present the minimum hazard to aircraft.",
+      "tone": "grave",
+      "img": "ex_faa_frangible",
+      "exhibit": true,
+      "source": "FAA AC 150/5300-13A, p. 20",
+      "highlight": [
+        0.1126,
+        0.1866,
+        0.7663,
+        0.0799
+      ]
+    },
+    {
+      "id": "a6_4",
+      "text": "Read it again, because it is doing something very specific. It is not asking for a strong structure. It is requiring that past a certain load, the thing must give way.",
+      "tone": "grave",
+      "img": "ex_faa_frangible",
+      "exhibit": true,
+      "source": "FAA AC 150/5300-13A, p. 20",
+      "highlight": [
+        0.1126,
+        0.2188,
+        0.7663,
+        0.065
+      ]
+    },
+    {
+      "id": "a6_5",
+      "text": "The rule exists for exactly one reason. Aeroplanes sometimes leave the end of runways, and the things sitting near a runway have to break rather than stop them.",
+      "tone": "grave",
+      "img": "localizer",
+      "query": "ILS localizer antenna array beside airport runway",
+      "cap": "A localiser array elsewhere — not Muan"
+    },
+    {
+      "id": "a6_6",
+      "text": "An aerial on a breakaway mast does its job perfectly well in normal use, and folds when seventy tonnes arrives.",
+      "tone": "neutral",
+      "img": "localizer",
+      "query": "ILS localizer antenna array beside airport runway"
+    },
+    {
+      "id": "a6_7",
+      "text": "Concrete does not fold.",
+      "tone": "grave",
+      "img": "muanloc",
+      "query": "ILS localizer antenna array beside airport runway"
+    },
+    {
+      "id": "a6_8",
+      "text": "In December two thousand and twenty five, South Korea's Anti Corruption and Civil Rights Commission ruled that the embankment at Muan violated frangibility safety requirements.",
+      "tone": "grave",
+      "img": "muanloc",
+      "source": "ACRC ruling, Dec 2025",
+      "query": "ILS localizer antenna array beside airport runway"
+    },
+    {
+      "id": "a6_9",
+      "text": "Not that it was unlucky. Not that it was borderline. That it violated the requirement.",
+      "tone": "grave",
+      "img": "muanloc",
+      "query": "ILS localizer antenna array beside airport runway"
+    },
+    {
+      "id": "a6_10",
+      "text": "And there is a second thing in that same document, which I did not know before I read it, and which I think is the quietest and worst fact in this entire story.",
+      "tone": "neutral",
+      "img": "ex_faa_rsa"
+    },
+    {
+      "id": "a6_11",
+      "text": "The ground past the end of a runway is not spare ground. It has a name, and it has a defined purpose.",
+      "tone": "neutral",
+      "img": "site",
+      "query": "ILS localizer antenna array beside airport runway"
+    },
+    {
+      "id": "a6_12",
+      "text": "It is called the runway safety area.",
+      "tone": "grave",
+      "img": "ex_faa_rsa",
+      "exhibit": true,
+      "source": "FAA AC 150/5300-13A, p. 23",
+      "highlight": [
+        0.1715,
+        0.1514,
+        0.699,
+        0.0302
+      ]
+    },
+    {
+      "id": "a6_13",
+      "text": "A defined surface surrounding the runway, prepared or suitable for reducing the risk of damage to aircraft in the event of an undershoot, overshoot, or excursion from the runway.",
+      "tone": "grave",
+      "img": "ex_faa_rsa",
+      "exhibit": true,
+      "source": "FAA AC 150/5300-13A, p. 23",
+      "highlight": [
+        0.1126,
+        0.1514,
+        0.7716,
+        0.0476
+      ]
+    },
+    {
+      "id": "a6_14",
+      "text": "Read what that ground is for. It exists specifically for the case where an aeroplane leaves the runway. That is not an unforeseen event. It is the event the surface is designed around.",
+      "tone": "grave",
+      "img": "ex_faa_rsa",
+      "exhibit": true,
+      "source": "FAA AC 150/5300-13A, p. 23",
+      "highlight": [
+        0.1126,
+        0.1514,
+        0.7716,
+        0.065
+      ]
+    },
+    {
+      "id": "a6_15",
+      "text": "It is the one piece of an airport whose entire job is to be survivable.",
+      "tone": "grave",
+      "img": "site",
+      "query": "ILS localizer antenna array beside airport runway"
+    },
+    {
+      "id": "a6_16",
+      "text": "And two hundred and fifty metres into it, at Muan, there was concrete.",
+      "tone": "grave",
+      "img": "muanloc",
+      "query": "ILS localizer antenna array beside airport runway"
+    },
+    {
+      "id": "a6_9b",
+      "text": "A caveat I owe you, because I have been quoting an American document at a Korean airport.",
+      "tone": "neutral",
+      "img": "ex_faa_rsa"
+    },
+    {
+      "id": "a6_9c",
+      "text": "The Federal Aviation Administration does not regulate Muan. I am using its wording because it is public, it is precise, and it is free to show you on screen.",
+      "tone": "neutral",
+      "img": "ex_faa_rsa"
+    },
+    {
+      "id": "a6_9d",
+      "text": "The standard that actually binds a Korean airport is the international one, through the civil aviation organisation, and it requires the same thing in its own words. Equipment sited near a runway must be frangible.",
+      "tone": "neutral",
+      "img": "localizer",
+      "query": "ILS localizer antenna array beside airport runway"
+    },
+    {
+      "id": "a6_9e",
+      "text": "I am not relying on my paraphrase of that. I am relying on what Korea's own anti corruption commission concluded in December two thousand and twenty five, which is that the embankment violated frangibility requirements.",
+      "tone": "grave",
+      "img": "officials",
+      "query": "ILS localizer antenna array beside airport runway"
+    },
+    {
+      "id": "a7_ch",
+      "text": "Twenty two years.",
+      "tone": "neutral",
+      "chapter": "It was not one airport",
+      "img": "muanloc",
+      "query": "ILS localizer antenna array beside airport runway"
+    },
+    {
+      "id": "a7_1",
+      "text": "If this were only Muan, it would be a story about one airport and one bad decision.",
+      "tone": "neutral",
+      "video": "mw_wall_1.mp4",
+      "videoQuery": "airport control tower and apron operations"
+    },
+    {
+      "id": "a7_2",
+      "text": "In March two thousand and twenty six, a state audit reported that fourteen non compliant localiser installations, at eight airports, had been wrongly approved.",
+      "tone": "grave",
+      "img": "localizer",
+      "stat": "14 · 8 airports",
+      "query": "ILS localizer antenna array beside airport runway"
+    },
+    {
+      "id": "a7_3",
+      "text": "The list included Muan. It also included Jeju, and Gimhae.",
+      "tone": "grave",
+      "img": "jejufleet",
+      "query": "ILS localizer antenna array beside airport runway",
+      "cap": "A Jeju Air 737-800 (not HL8088)"
+    },
+    {
+      "id": "a7_4",
+      "text": "And they had been carrying certified safety inspections for up to twenty two years, while failing frangibility requirements.",
+      "tone": "grave",
+      "img": "localizer",
+      "stat": "Up to 22 years",
+      "query": "ILS localizer antenna array beside airport runway"
+    },
+    {
+      "id": "a7_5",
+      "text": "Twenty two years of somebody signing a piece of paper that said this is fine.",
+      "tone": "grave",
+      "img": "officials",
+      "query": "ILS localizer antenna array beside airport runway"
+    },
+    {
+      "id": "a7_6",
+      "text": "As for why concrete was there at all. The reporting on the state findings says the ground beneath the runway safety area slopes away, and levelling it would have meant major earthworks.",
+      "tone": "neutral",
+      "img": "muanloc",
+      "note": "Attribute to the state report. Do not assert motive beyond it.",
+      "query": "ILS localizer antenna array beside airport runway"
+    },
+    {
+      "id": "a7_7",
+      "text": "So instead of moving the earth, they raised the aerial on a structure. It was cheaper.",
+      "tone": "grave",
+      "img": "muanloc",
+      "query": "ILS localizer antenna array beside airport runway"
+    },
+    {
+      "id": "a8_ch",
+      "text": "All of them.",
+      "tone": "neutral",
+      "chapter": "The simulation",
+      "img": "memorial",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "a8_1",
+      "text": "On the eighth of January, two thousand and twenty six, the Korean broadcaster S B S and the New York Times revealed a report the families had been asking to see and had not been given.",
+      "tone": "grave",
+      "img": "memorial",
+      "source": "SBS / New York Times, 8 Jan 2026",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "a8_2",
+      "text": "A computer simulation, commissioned by the government.",
+      "tone": "grave",
+      "img": "officials",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "a8_3",
+      "text": "Its conclusion was that if the localiser and its supports had not been there, or had been built from frangible materials, everyone on board would have survived.",
+      "tone": "grave",
+      "img": "site",
+      "stat": "All 179",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "a8_4",
+      "text": "I want to be precise, because this is the strongest claim in this film and it does not need any help from me. The finding is that they could have survived. It is a simulation, and it carries a simulation's assumptions.",
+      "tone": "neutral",
+      "img": "site",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "a8_5",
+      "text": "It is still a government commissioned finding that the structure is the reason the number is one hundred and seventy nine, rather than something close to zero.",
+      "tone": "grave",
+      "img": "memorial",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "a8_6",
+      "text": "And the families had asked for it, and had not been shown it, until a journalist put it in a newspaper.",
+      "tone": "grave",
+      "img": "memorial",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "a9_ch",
+      "text": "Withdrawn.",
+      "tone": "neutral",
+      "chapter": "The finding they pulled",
+      "img": "officials",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "a9_1",
+      "text": "Now the part most coverage of this accident handles badly, and I would rather go slowly here.",
+      "tone": "neutral",
+      "img": "site",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "a9_2",
+      "text": "On the nineteenth of July, two thousand and twenty five, investigators presented interim findings to the victims' families.",
+      "tone": "grave",
+      "img": "officials",
+      "source": "ARAIB interim findings, 19 Jul 2025",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "a9_3",
+      "text": "Those findings said the crew had shut down the left engine, which was relatively undamaged, rather than the right, which was the one the birds had destroyed.",
+      "tone": "grave",
+      "img": "engine_still",
+      "note": "DISPUTED — never assert. Families and pilots' union reject it; release withdrawn. CLAIMS: contested finding.",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "a9_4",
+      "text": "That finding is disputed. I am not going to tell you it is true and I am not going to tell you it is false, because the investigation has not finished and the people who would know have not published.",
+      "tone": "neutral",
+      "img": "site",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "a9_5",
+      "text": "What I can tell you is that it is an interim finding, and that the black boxes stop four minutes and seven seconds before impact.",
+      "tone": "grave",
+      "img": "jejucvr",
+      "query": "cockpit voice recorder orange flight recorder"
+    },
+    {
+      "id": "a9_6",
+      "text": "The families rejected it. So did the pilots' union.",
+      "tone": "grave",
+      "img": "memorial",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "a9_7",
+      "text": "Their objection was not simply that it blamed the crew. It was that it made the crew's actions the story, while the barrier the aircraft actually hit was treated as background.",
+      "tone": "grave",
+      "img": "muanloc",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "a9_8",
+      "text": "And then something happened that almost never happens. The scheduled release of those findings was withdrawn, after the protests.",
+      "tone": "grave",
+      "img": "officials",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "a9_9",
+      "text": "The board agreed to widen the inquiry beyond pilot error, into infrastructure and systemic factors.",
+      "tone": "grave",
+      "img": "officials",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "a9_10",
+      "text": "Which, to be fair to the board, is what its own preliminary report had already said it would do. Tear down the engines. Analyse the recorders and the air traffic data. Investigate the embankment, the localisers, and the bird strike evidence.",
+      "tone": "neutral",
+      "img": "ex_araib_p6",
+      "exhibit": true,
+      "source": "ARAIB Preliminary Report AAR2404",
+      "highlight": [
+        0.138,
+        0.1572,
+        0.7031,
+        0.0702
+      ]
+    },
+    {
+      "id": "a9_11",
+      "text": "It also says the investigation is being assisted by the National Transportation Safety Board in the United States and the B E A in France.",
+      "tone": "neutral",
+      "img": "ex_araib_p6",
+      "exhibit": true,
+      "source": "ARAIB Preliminary Report AAR2404",
+      "highlight": [
+        0.138,
+        0.3813,
+        0.7106,
+        0.0478
+      ]
+    },
+    {
+      "id": "a9_12",
+      "text": "On the second of December, two thousand and twenty five, the interim report was delayed. International rules require an interim update when a final report is not finished within a year.",
+      "tone": "grave",
+      "img": "site",
+      "source": "ICAO Annex 13",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "a9_13",
+      "text": "On the twenty second of December, South Korea's parliament passed a bill authorising an independent investigation.",
+      "tone": "grave",
+      "img": "officials",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "a9_14",
+      "text": "The final report was expected around the middle of two thousand and twenty six. As this film is made, it has still not been published.",
+      "tone": "grave",
+      "img": "site",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "c_ch",
+      "text": "The record.",
+      "tone": "neutral",
+      "chapter": "What the record says",
+      "img": "site",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "c1",
+      "text": "Strip out the argument and here is what is not in dispute.",
+      "tone": "neutral",
+      "img": "site",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "c2",
+      "text": "On a clear morning with two knots of wind, a duck went into both engines of a serviceable aircraft, five minutes from the ground.",
+      "tone": "grave",
+      "img": "teal",
+      "query": "Baikal teal duck flock wetland"
+    },
+    {
+      "id": "c3",
+      "text": "Both flight recorders stopped together, four minutes and seven seconds before the end, at one hundred and sixty one knots and four hundred and ninety eight feet, and nobody has yet said why with certainty.",
+      "tone": "grave",
+      "img": "ex_araib_p3",
+      "exhibit": true,
+      "source": "ARAIB Preliminary Report AAR2404",
+      "highlight": [
+        0.138,
+        0.8527,
+        0.7243,
+        0.0478
+      ]
+    },
+    {
+      "id": "c4",
+      "text": "An experienced crew put the aircraft down on a runway, on its belly, which is a thing people survive.",
+      "tone": "grave",
+      "video": "mw_runway_2.mp4",
+      "videoQuery": "airport runway seen from moving aircraft",
+      "videoFrom": 6
+    },
+    {
+      "id": "c5",
+      "text": "And it slid into concrete that an international standard said should have broken apart.",
+      "tone": "grave",
+      "img": "ex_faa_frangible",
+      "exhibit": true,
+      "source": "FAA AC 150/5300-13A, p. 20",
+      "highlight": [
+        0.1126,
+        0.254,
+        0.7088,
+        0.0299
+      ]
+    },
+    {
+      "id": "c6",
+      "text": "A state commission has since ruled that it violated the requirement. A government simulation says it is the reason everyone died.",
+      "tone": "grave",
+      "img": "muanloc",
+      "query": "ILS localizer antenna array beside airport runway"
+    },
+    {
+      "id": "c7",
+      "text": "One hundred and seventy nine people.",
+      "tone": "grave",
+      "img": "memorialwide",
+      "stat": "179",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "c8",
+      "text": "Fourteen installations. Eight airports. Twenty two years of approvals.",
+      "tone": "grave",
+      "img": "localizer",
+      "stat": "14 · 8 · 22",
+      "query": "ILS localizer antenna array beside airport runway"
+    },
+    {
+      "id": "c9",
+      "text": "None of it is hidden. It is in a preliminary report, a commission ruling, a state audit, and a simulation that had to be prised out through a newspaper.",
+      "tone": "grave",
+      "img": "officials",
+      "query": "airport terminal and runway aerial view"
+    },
+    {
+      "id": "c10",
+      "text": "What I keep coming back to is not the engines. It is not even the four minutes, though I would very much like to know what is on them.",
+      "tone": "neutral",
+      "img": "jejucvr",
+      "query": "cockpit voice recorder orange flight recorder"
+    },
+    {
+      "id": "c11",
+      "text": "It is that the rule was already written. Somebody worked out, decades ago, that aircraft sometimes run off the end, and that whatever sits near a runway has to give way when they do.",
+      "tone": "grave",
+      "img": "ex_faa_frangible",
+      "exhibit": true,
+      "source": "FAA AC 150/5300-13A, p. 20",
+      "highlight": [
+        0.1126,
+        0.1866,
+        0.7035,
+        0.0625
+      ]
+    },
+    {
+      "id": "c12",
+      "text": "The rule was there. The paperwork said it had been followed.",
+      "tone": "grave",
+      "img": "localizer",
+      "query": "ILS localizer antenna array beside airport runway"
+    },
+    {
+      "id": "c13",
+      "text": "And it had not been.",
+      "tone": "grave",
+      "img": "muanloc",
+      "query": "ILS localizer antenna array beside airport runway"
+    },
+    {
+      "id": "c14",
+      "text": "If you want the rest of this, the final report is still to come, and when it lands I will go through it here line by line, the same way.",
+      "tone": "neutral",
+      "img": "site"
+    },
+    {
+      "id": "c15",
+      "text": "Subscribe if you want that one, because it is the only way it reaches you.",
+      "tone": "neutral",
+      "img": "hl8088"
+    },
+    {
+      "id": "c16",
+      "text": "And if you want the other side of this coin, there is a film on this channel about an order that was given in a bunker in Washington, correctly, by a man who was not in the chain of command, and which reached no pilot at all.",
+      "tone": "neutral",
+      "img": "site"
+    },
+    {
+      "id": "c17",
+      "text": "Same failure, running the opposite way. That video is called Cheney Said Engage, Nobody Told the Pilots, and it is on the channel now. Watch that one next.",
+      "tone": "neutral",
+      "img": "site"
+    }
+  ]
 }
