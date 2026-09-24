@@ -1,0 +1,920 @@
+1
+00:00:00,333 --> 00:00:06,942
+A Boeing 737 is sliding down a Korean runway on its belly, backwards along the strip, with no wheels down.
+
+2
+00:00:08,066 --> 00:00:11,580
+It is the 29th of December, 2024.
+
+3
+00:00:11,580 --> 00:00:13,630
+Three minutes past nine in the morning.
+
+4
+00:00:14,766 --> 00:00:16,107
+It is running out of runway.
+
+5
+00:00:16,107 --> 00:00:20,800
+250 metres past the end of it there is a low grassy mound with an aerial on top.
+
+6
+00:00:21,933 --> 00:00:24,049
+Inside that mound is concrete.
+
+7
+00:00:25,166 --> 00:00:29,533
+179 of the 181 people on board will die.
+
+8
+00:00:29,533 --> 00:00:34,413
+And a simulation commissioned by their own government will later conclude that every one of them could have survived.
+
+9
+00:00:35,533 --> 00:00:37,360
+This is not a film about pilot error.
+
+10
+00:00:37,360 --> 00:00:44,441
+It is about a mound of earth with concrete in it, a rule that said it should have come apart, and 22 years of paperwork that said it was fine.
+
+11
+00:00:45,566 --> 00:00:49,432
+And it is about four minutes and seven seconds that nobody has a recording of.
+
+12
+00:00:50,566 --> 00:00:53,074
+Jeju Air 2216.
+
+13
+00:00:54,200 --> 00:00:55,767
+Bangkok to Muan.
+
+14
+00:00:56,900 --> 00:01:02,113
+The board's own file number for this is AAR2404.
+
+15
+00:01:02,113 --> 00:01:09,413
+A Boeing 737-800, registration HL8088, serial number 37541.
+
+16
+00:01:10,533 --> 00:01:14,808
+One correction before we go on, because almost every comment thread gets it wrong.
+
+17
+00:01:14,808 --> 00:01:17,251
+This is not a 737 Max.
+
+18
+00:01:17,251 --> 00:01:23,359
+It is the previous generation, the 800, and the difference matters the moment somebody reaches for the Max story.
+
+19
+00:01:24,500 --> 00:01:29,888
+Something in the report I did not expect. This aircraft was not delivered new to Jeju Air.
+
+20
+00:01:29,888 --> 00:01:33,058
+It went to Ryanair, in September 2009.
+
+21
+00:01:33,058 --> 00:01:36,228
+Jeju Air leased it in February 2017.
+
+22
+00:01:37,366 --> 00:01:42,042
+It is 15 years old. For an airliner that is middle aged, not old.
+
+23
+00:01:43,166 --> 00:01:48,417
+175 passengers. Six crew. 181 people.
+
+24
+00:01:49,566 --> 00:01:57,194
+It leaves Bangkok in the dark and it is due into Muan International, on the south western coast of Korea, a little after nine in the morning.
+
+25
+00:01:58,333 --> 00:01:59,485
+The crew are experienced.
+
+26
+00:01:59,485 --> 00:02:08,123
+The captain has 6,823 hours, 6,000 of them on this type, and two and a half thousand of those in command of it.
+
+27
+00:02:08,123 --> 00:02:11,002
+The first officer has 1,650.
+
+28
+00:02:12,133 --> 00:02:18,588
+And the weather is, frankly, lovely. Wind from 110 degrees at two knots.
+
+29
+00:02:18,588 --> 00:02:25,043
+Nine kilometres of visibility. A few clouds at four and a half thousand feet. Two degrees.
+
+30
+00:02:25,043 --> 00:02:26,657
+No significant change expected.
+
+31
+00:02:27,800 --> 00:02:30,491
+Nothing about the sky that morning is working against them.
+
+32
+00:02:31,633 --> 00:02:36,995
+At 54 minutes and 43 seconds past eight, the aircraft calls Muan tower for landing.
+
+33
+00:02:36,995 --> 00:02:40,149
+The tower clears it to land on runway 01.
+
+34
+00:02:41,266 --> 00:02:46,673
+At 57 minutes and 50 seconds past eight, the tower tells them to be cautious of bird activity.
+
+35
+00:02:47,800 --> 00:02:51,353
+Five minutes and seven seconds later the aircraft is in the embankment.
+
+36
+00:02:52,500 --> 00:02:53,806
+Baikal teal.
+
+37
+00:02:54,933 --> 00:02:57,850
+The bird is a Baikal teal. A migratory duck.
+
+38
+00:02:57,850 --> 00:03:03,684
+Enormous flocks of them winter in that part of Korea, in numbers that are genuinely hard to picture.
+
+39
+00:03:04,833 --> 00:03:07,211
+The report is careful about how it knows.
+
+40
+00:03:07,211 --> 00:03:09,887
+The pilots identified a group of birds on approach.
+
+41
+00:03:09,887 --> 00:03:14,942
+A security camera filmed the aircraft coming close to a group of birds during the go around.
+
+42
+00:03:16,066 --> 00:03:19,668
+Both engines were examined. Feathers and blood were found on each.
+
+43
+00:03:19,668 --> 00:03:25,235
+Samples went out for DNA analysis, and a domestic organisation identified them as Baikal teals.
+
+44
+00:03:26,366 --> 00:03:27,777
+Both. Not one.
+
+45
+00:03:28,900 --> 00:03:33,149
+A twin engine airliner is built to fly on one. That is the whole design philosophy.
+
+46
+00:03:33,149 --> 00:03:38,461
+What it is not built for is losing thrust on both at 500 feet with no height to trade.
+
+47
+00:03:39,599 --> 00:03:41,716
+Four minutes, seven seconds.
+
+48
+00:03:42,833 --> 00:03:47,979
+This channel is called Black Box Breakdown, and this is the part of this accident I cannot get past.
+
+49
+00:03:49,099 --> 00:03:51,898
+Both recorders were fitted and both were working.
+
+50
+00:03:51,898 --> 00:03:57,145
+And then, at 58 minutes and 50 seconds past eight, both of them stopped.
+
+51
+00:03:58,266 --> 00:04:02,902
+The aircraft hit the embankment at two minutes and 57 seconds past nine.
+
+52
+00:04:02,902 --> 00:04:04,889
+The report states the arithmetic plainly.
+
+53
+00:04:04,889 --> 00:04:08,532
+The last four minutes and seven seconds of recording are missing.
+
+54
+00:04:09,666 --> 00:04:13,010
+It even tells you where the aeroplane was when the recording ended.
+
+55
+00:04:13,010 --> 00:04:16,353
+161 knots. 498 feet.
+
+56
+00:04:17,499 --> 00:04:20,394
+Not burned. Not crushed. Not unreadable.
+
+57
+00:04:20,394 --> 00:04:24,735
+They stopped, together, while the aircraft was still flying.
+
+58
+00:04:25,866 --> 00:04:29,372
+And here is the detail that reorganised this whole film for me.
+
+59
+00:04:29,372 --> 00:04:33,755
+The mayday call is logged at 58 minutes and 56 seconds past eight.
+
+60
+00:04:34,899 --> 00:04:37,093
+Six seconds after the recorders stopped.
+
+61
+00:04:38,233 --> 00:04:41,724
+I had this the wrong way round before I read the primary document.
+
+62
+00:04:41,724 --> 00:04:45,215
+I assumed the emergency came first and the recorders died in whatever followed.
+
+63
+00:04:45,215 --> 00:04:46,827
+It is the other way round.
+
+64
+00:04:47,966 --> 00:04:52,333
+The voice recorder was recovered intact and a transcript was made on the fourth of January.
+
+65
+00:04:52,333 --> 00:04:58,337
+The data recorder had a severed connector and was flown to the National Transportation Safety Board in Washington to be read out.
+
+66
+00:04:59,466 --> 00:05:02,627
+Both of them are missing the same four minutes and seven seconds.
+
+67
+00:05:03,766 --> 00:05:10,466
+The leading theory, and I want to be careful because it is a theory, is a total loss of electrical power.
+
+68
+00:05:10,466 --> 00:05:16,208
+That explanation was offered by Sim Jai dong, a former transport ministry investigator, in coverage at the time.
+
+69
+00:05:16,208 --> 00:05:18,760
+It has not been confirmed as the cause.
+
+70
+00:05:19,899 --> 00:05:24,144
+Now hold what is inside that window. The go around. The turn back.
+
+71
+00:05:24,144 --> 00:05:28,063
+The decision to land the other way. Whatever happened with the gear.
+
+72
+00:05:28,063 --> 00:05:29,696
+Whatever happened with the engines.
+
+73
+00:05:30,833 --> 00:05:33,341
+All of it is in the four minutes nobody has.
+
+74
+00:05:34,466 --> 00:05:39,220
+Everything anyone has concluded about those minutes was inferred from something other than the black boxes.
+
+75
+00:05:40,366 --> 00:05:44,350
+One more thing about that document, and I think it is to the board's credit.
+
+76
+00:05:44,350 --> 00:05:48,333
+On every single page of the preliminary report there is a line in small type.
+
+77
+00:05:49,466 --> 00:05:53,136
+This is preliminary information, subject to change, and may contain errors.
+
+78
+00:05:53,136 --> 00:05:58,139
+Any errors in this report will be corrected when the final report has been completed.
+
+79
+00:05:59,266 --> 00:06:00,806
+They wrote that on every page.
+
+80
+00:06:00,806 --> 00:06:03,628
+I would ask you to hold it against everything that followed.
+
+81
+00:06:04,766 --> 00:06:11,114
+It is worth being concrete about what is in those four minutes, because black box is a phrase people use without picturing it.
+
+82
+00:06:12,233 --> 00:06:15,439
+A flight data recorder is not a summary.
+
+83
+00:06:15,439 --> 00:06:21,050
+It is a continuous stream of hundreds of parameters, sampled several times a second.
+
+84
+00:06:21,050 --> 00:06:25,057
+Control positions. Engine parameters for each engine separately. Gear position.
+
+85
+00:06:25,057 --> 00:06:27,462
+Flap position. Every warning that sounded.
+
+86
+00:06:28,599 --> 00:06:31,245
+A cockpit voice recorder is four channels.
+
+87
+00:06:31,245 --> 00:06:35,025
+Each pilot's microphone, the cockpit area microphone, and the radio.
+
+88
+00:06:36,166 --> 00:06:41,730
+Between them, those two boxes would have answered almost every question anybody has asked about this accident.
+
+89
+00:06:42,866 --> 00:06:45,746
+Which engine was producing thrust, and which one was not.
+
+90
+00:06:45,746 --> 00:06:49,490
+What the crew said to each other about it. Whether a warning sounded.
+
+91
+00:06:49,490 --> 00:06:54,673
+Whether the gear was selected and did not come. What they were trying to do in the turn.
+
+92
+00:06:55,799 --> 00:07:01,285
+All of it was being written down, continuously, until 58 minutes and 50 seconds past eight.
+
+93
+00:07:02,433 --> 00:07:04,235
+And then it was not.
+
+94
+00:07:05,366 --> 00:07:07,404
+19, the wrong way.
+
+95
+00:07:08,533 --> 00:07:11,929
+They had been approaching runway 01. They go around.
+
+96
+00:07:13,066 --> 00:07:17,622
+And then they do something that tells you exactly how much time they believed they had.
+
+97
+00:07:17,622 --> 00:07:24,455
+As the report puts it, the aircraft was flying over the left side of runway 01, turned right, and approached runway 19.
+
+98
+00:07:25,600 --> 00:07:30,354
+Same strip of tarmac. Opposite direction. No circuit, no second thoughts.
+
+99
+00:07:31,500 --> 00:07:34,581
+The landing gear is not down. It never comes down.
+
+100
+00:07:35,699 --> 00:07:40,846
+The aircraft touches down on its belly, roughly 1,200 metres along the runway.
+
+101
+00:07:41,966 --> 00:07:47,034
+And I want to be very clear about this next part, because it is the hinge of the entire story.
+
+102
+00:07:48,166 --> 00:07:50,624
+A belly landing on a runway is survivable.
+
+103
+00:07:50,624 --> 00:07:53,388
+Aircraft have done it and people have walked away.
+
+104
+00:07:53,388 --> 00:07:57,074
+The airframe slides, the friction takes the energy out, and it stops.
+
+105
+00:07:58,199 --> 00:08:00,707
+This one was still moving when it ran out of tarmac.
+
+106
+00:08:01,833 --> 00:08:03,714
+250 metres.
+
+107
+00:08:04,833 --> 00:08:10,291
+Past the end of runway 19 there is a structure carrying the aerial array for the instrument landing system.
+
+108
+00:08:10,291 --> 00:08:10,837
+The localiser.
+
+109
+00:08:10,837 --> 00:08:15,204
+The part that tells an approaching aircraft whether it is left or right of the centreline.
+
+110
+00:08:16,333 --> 00:08:22,864
+It sits about 250 metres beyond the runway end, and with the aerials on top it stands around four metres tall.
+
+111
+00:08:24,000 --> 00:08:28,283
+From the air it is a low grassy mound. That is genuinely what it looks like.
+
+112
+00:08:29,433 --> 00:08:31,627
+Inside it there is a concrete structure.
+
+113
+00:08:31,627 --> 00:08:35,389
+And in 2023, a concrete slab was added.
+
+114
+00:08:36,533 --> 00:08:40,545
+The report's description of the wreckage is the part I would ask you to sit with.
+
+115
+00:08:40,545 --> 00:08:42,802
+Both engines were buried in the embankment's soil mound.
+
+116
+00:08:43,933 --> 00:08:48,436
+The forward fuselage scattered between 30 and 200 metres from the embankment.
+
+117
+00:08:48,436 --> 00:08:51,900
+The tail flipped and came down beyond it, partly burning.
+
+118
+00:08:53,033 --> 00:08:56,907
+The two survivors were cabin crew, in the rear jump seats, in the tail.
+
+119
+00:08:56,907 --> 00:09:00,504
+The part of the aeroplane that ended up past the thing it hit.
+
+120
+00:09:01,633 --> 00:09:05,029
+They were both seriously injured. Everyone forward of them died.
+
+121
+00:09:06,166 --> 00:09:11,155
+It is worth knowing what a localiser actually does, because it explains why it was sitting there at all.
+
+122
+00:09:12,300 --> 00:09:16,223
+It transmits a pair of overlapping radio beams straight down the runway centreline.
+
+123
+00:09:16,223 --> 00:09:23,768
+An aircraft on approach compares them, and the needle in the cockpit tells the crew they are left, right, or exactly where they should be.
+
+124
+00:09:24,900 --> 00:09:29,994
+For that to work it has to sit in line with the runway, at the far end. Not near it.
+
+125
+00:09:29,994 --> 00:09:31,013
+In line with it.
+
+126
+00:09:32,133 --> 00:09:36,146
+The design document has a phrase for equipment like this. Fixed by function.
+
+127
+00:09:36,146 --> 00:09:42,321
+A navigation aid that must be positioned in a particular location in order to provide an essential benefit for aviation.
+
+128
+00:09:43,466 --> 00:09:48,004
+So nobody is arguing it should have been somewhere else. It could not be somewhere else.
+
+129
+00:09:48,004 --> 00:09:49,422
+That is the whole point.
+
+130
+00:09:50,566 --> 00:09:52,447
+The standard does not say move it.
+
+131
+00:09:52,447 --> 00:09:56,208
+The standard says that because it has to be there, it has to break.
+
+132
+00:09:57,333 --> 00:10:02,518
+I have not been able to establish much about the two who lived, and I am not going to invent it.
+
+133
+00:10:02,518 --> 00:10:07,704
+What the report records is that they were crew, that they were seriously injured, and that they were in the tail.
+
+134
+00:10:08,833 --> 00:10:18,237
+Whether they were seated there by roster, by rank, or by whatever ordinary arrangement puts a particular person in a particular seat on a particular morning, I do not know.
+
+135
+00:10:19,366 --> 00:10:21,168
+It decided whether they lived.
+
+136
+00:10:22,300 --> 00:10:23,293
+Frangible.
+
+137
+00:10:24,433 --> 00:10:30,546
+There is a word in airport design that decides this entire accident, and most people watching will never have needed to know it.
+
+138
+00:10:31,666 --> 00:10:32,001
+Frangible.
+
+139
+00:10:32,001 --> 00:10:38,353
+Here is how the American regulator defines it, and the international standard says the same thing in different words.
+
+140
+00:10:39,500 --> 00:10:51,307
+Retains its structural integrity and stiffness up to a designated maximum load, but on impact from a greater load, breaks, distorts, or yields in such a manner as to present the minimum hazard to aircraft.
+
+141
+00:10:52,433 --> 00:10:55,391
+Read it again, because it is doing something very specific.
+
+142
+00:10:55,391 --> 00:10:57,757
+It is not asking for a strong structure.
+
+143
+00:10:57,757 --> 00:11:01,602
+It is requiring that past a certain load, the thing must give way.
+
+144
+00:11:02,733 --> 00:11:04,705
+The rule exists for exactly one reason.
+
+145
+00:11:04,705 --> 00:11:10,622
+Aeroplanes sometimes leave the end of runways, and the things sitting near a runway have to break rather than stop them.
+
+146
+00:11:11,766 --> 00:11:18,114
+An aerial on a breakaway mast does its job perfectly well in normal use, and folds when 70 tonnes arrives.
+
+147
+00:11:19,233 --> 00:11:20,957
+Concrete does not fold.
+
+148
+00:11:22,100 --> 00:11:30,850
+In December 2025, South Korea's Anti Corruption and Civil Rights Commission ruled that the embankment at Muan violated frangibility safety requirements.
+
+149
+00:11:32,000 --> 00:11:36,754
+Not that it was unlucky. Not that it was borderline. That it violated the requirement.
+
+150
+00:11:37,899 --> 00:11:46,024
+And there is a second thing in that same document, which I did not know before I read it, and which I think is the quietest and worst fact in this entire story.
+
+151
+00:11:47,166 --> 00:11:50,115
+The ground past the end of a runway is not spare ground.
+
+152
+00:11:50,115 --> 00:11:52,573
+It has a name, and it has a defined purpose.
+
+153
+00:11:53,699 --> 00:11:55,893
+It is called the runway safety area.
+
+154
+00:11:57,033 --> 00:12:06,829
+A defined surface surrounding the runway, prepared or suitable for reducing the risk of damage to aircraft in the event of an undershoot, overshoot, or excursion from the runway.
+
+155
+00:12:07,966 --> 00:12:09,804
+Read what that ground is for.
+
+156
+00:12:09,804 --> 00:12:13,480
+It exists specifically for the case where an aeroplane leaves the runway.
+
+157
+00:12:13,480 --> 00:12:18,075
+That is not an unforeseen event. It is the event the surface is designed around.
+
+158
+00:12:19,199 --> 00:12:22,830
+It is the one piece of an airport whose entire job is to be survivable.
+
+159
+00:12:23,966 --> 00:12:27,937
+And 250 metres into it, at Muan, there was concrete.
+
+160
+00:12:29,066 --> 00:12:33,350
+A caveat I owe you, because I have been quoting an American document at a Korean airport.
+
+161
+00:12:34,499 --> 00:12:37,007
+The Federal Aviation Administration does not regulate Muan.
+
+162
+00:12:37,007 --> 00:12:43,590
+I am using its wording because it is public, it is precise, and it is free to show you on screen.
+
+163
+00:12:44,733 --> 00:12:53,398
+The standard that actually binds a Korean airport is the international one, through the civil aviation organisation, and it requires the same thing in its own words.
+
+164
+00:12:53,398 --> 00:12:55,966
+Equipment sited near a runway must be frangible.
+
+165
+00:12:57,099 --> 00:12:59,988
+I am not relying on my paraphrase of that.
+
+166
+00:12:59,988 --> 00:13:08,332
+I am relying on what Korea's own anti corruption commission concluded in December 2025, which is that the embankment violated frangibility requirements.
+
+167
+00:13:09,466 --> 00:13:10,772
+22 years.
+
+168
+00:13:11,899 --> 00:13:16,418
+If this were only Muan, it would be a story about one airport and one bad decision.
+
+169
+00:13:17,566 --> 00:13:26,474
+In March 2026, a state audit reported that 14 non compliant localiser installations, at eight airports, had been wrongly approved.
+
+170
+00:13:27,599 --> 00:13:31,726
+The list included Muan. It also included Jeju, and Gimhae.
+
+171
+00:13:32,866 --> 00:13:39,135
+And they had been carrying certified safety inspections for up to 22 years, while failing frangibility requirements.
+
+172
+00:13:40,266 --> 00:13:43,740
+22 years of somebody signing a piece of paper that said this is fine.
+
+173
+00:13:44,866 --> 00:13:47,054
+As for why concrete was there at all.
+
+174
+00:13:47,054 --> 00:13:53,617
+The reporting on the state findings says the ground beneath the runway safety area slopes away, and levelling it would have meant major earthworks.
+
+175
+00:13:54,766 --> 00:13:59,207
+So instead of moving the earth, they raised the aerial on a structure. It was cheaper.
+
+176
+00:14:00,333 --> 00:14:01,169
+All of them.
+
+177
+00:14:02,299 --> 00:14:12,408
+On the eighth of January, 2026, the Korean broadcaster SBS and the New York Times revealed a report the families had been asking to see and had not been given.
+
+178
+00:14:13,533 --> 00:14:16,459
+A computer simulation, commissioned by the government.
+
+179
+00:14:17,599 --> 00:14:25,723
+Its conclusion was that if the localiser and its supports had not been there, or had been built from frangible materials, everyone on board would have survived.
+
+180
+00:14:26,866 --> 00:14:32,860
+I want to be precise, because this is the strongest claim in this film and it does not need any help from me.
+
+181
+00:14:32,860 --> 00:14:34,944
+The finding is that they could have survived.
+
+182
+00:14:34,944 --> 00:14:37,550
+It is a simulation, and it carries a simulation's assumptions.
+
+183
+00:14:38,699 --> 00:14:45,465
+It is still a government commissioned finding that the structure is the reason the number is 179, rather than something close to zero.
+
+184
+00:14:46,599 --> 00:14:52,320
+And the families had asked for it, and had not been shown it, until a journalist put it in a newspaper.
+
+185
+00:14:53,466 --> 00:14:54,459
+Withdrawn.
+
+186
+00:14:55,599 --> 00:15:00,432
+Now the part most coverage of this accident handles badly, and I would rather go slowly here.
+
+187
+00:15:01,566 --> 00:15:08,332
+On the nineteenth of July, 2025, investigators presented interim findings to the victims' families.
+
+188
+00:15:09,466 --> 00:15:17,094
+Those findings said the crew had shut down the left engine, which was relatively undamaged, rather than the right, which was the one the birds had destroyed.
+
+189
+00:15:18,233 --> 00:15:19,220
+That finding is disputed.
+
+190
+00:15:19,220 --> 00:15:28,107
+I am not going to tell you it is true and I am not going to tell you it is false, because the investigation has not finished and the people who would know have not published.
+
+191
+00:15:29,233 --> 00:15:35,581
+What I can tell you is that it is an interim finding, and that the black boxes stop four minutes and seven seconds before impact.
+
+192
+00:15:36,699 --> 00:15:39,781
+The families rejected it. So did the pilots' union.
+
+193
+00:15:40,899 --> 00:15:43,647
+Their objection was not simply that it blamed the crew.
+
+194
+00:15:43,647 --> 00:15:49,415
+It was that it made the crew's actions the story, while the barrier the aircraft actually hit was treated as background.
+
+195
+00:15:50,533 --> 00:15:53,316
+And then something happened that almost never happens.
+
+196
+00:15:53,316 --> 00:15:57,142
+The scheduled release of those findings was withdrawn, after the protests.
+
+197
+00:15:58,266 --> 00:16:03,673
+The board agreed to widen the inquiry beyond pilot error, into infrastructure and systemic factors.
+
+198
+00:16:04,799 --> 00:16:11,228
+Which, to be fair to the board, is what its own preliminary report had already said it would do.
+
+199
+00:16:11,228 --> 00:16:15,287
+Tear down the engines. Analyse the recorders and the air traffic data.
+
+200
+00:16:15,287 --> 00:16:18,670
+Investigate the embankment, the localisers, and the bird strike evidence.
+
+201
+00:16:19,799 --> 00:16:26,721
+It also says the investigation is being assisted by the National Transportation Safety Board in the United States and the BEA in France.
+
+202
+00:16:27,866 --> 00:16:32,606
+On the second of December, 2025, the interim report was delayed.
+
+203
+00:16:32,606 --> 00:16:37,662
+International rules require an interim update when a final report is not finished within a year.
+
+204
+00:16:38,799 --> 00:16:44,755
+On the 22nd of December, South Korea's parliament passed a bill authorising an independent investigation.
+
+205
+00:16:45,899 --> 00:16:49,820
+The final report was expected around the middle of 2026.
+
+206
+00:16:49,820 --> 00:16:52,900
+As this film is made, it has still not been published.
+
+207
+00:16:54,033 --> 00:16:54,791
+The record.
+
+208
+00:16:55,933 --> 00:16:58,937
+Strip out the argument and here is what is not in dispute.
+
+209
+00:17:00,066 --> 00:17:06,675
+On a clear morning with two knots of wind, a duck went into both engines of a serviceable aircraft, five minutes from the ground.
+
+210
+00:17:07,799 --> 00:17:17,830
+Both flight recorders stopped together, four minutes and seven seconds before the end, at 161 knots and 498 feet, and nobody has yet said why with certainty.
+
+211
+00:17:18,966 --> 00:17:24,452
+An experienced crew put the aircraft down on a runway, on its belly, which is a thing people survive.
+
+212
+00:17:25,599 --> 00:17:29,726
+And it slid into concrete that an international standard said should have broken apart.
+
+213
+00:17:30,866 --> 00:17:34,328
+A state commission has since ruled that it violated the requirement.
+
+214
+00:17:34,328 --> 00:17:37,475
+A government simulation says it is the reason everyone died.
+
+215
+00:17:38,599 --> 00:17:41,107
+179 people.
+
+216
+00:17:42,233 --> 00:17:46,674
+14 installations. Eight airports. 22 years of approvals.
+
+217
+00:17:47,799 --> 00:17:49,200
+None of it is hidden.
+
+218
+00:17:49,200 --> 00:17:55,923
+It is in a preliminary report, a commission ruling, a state audit, and a simulation that had to be prised out through a newspaper.
+
+219
+00:17:57,066 --> 00:17:59,372
+What I keep coming back to is not the engines.
+
+220
+00:17:59,372 --> 00:18:03,753
+It is not even the four minutes, though I would very much like to know what is on them.
+
+221
+00:18:04,899 --> 00:18:07,039
+It is that the rule was already written.
+
+222
+00:18:07,039 --> 00:18:13,990
+Somebody worked out, decades ago, that aircraft sometimes run off the end, and that whatever sits near a runway has to give way when they do.
+
+223
+00:18:15,133 --> 00:18:18,294
+The rule was there. The paperwork said it had been followed.
+
+224
+00:18:19,433 --> 00:18:20,739
+And it had not been.
+
+225
+00:18:21,866 --> 00:18:29,102
+If you want the rest of this, the final report is still to come, and when it lands I will go through it here line by line, the same way.
+
+226
+00:18:30,233 --> 00:18:33,629
+Subscribe if you want that one, because it is the only way it reaches you.
+
+227
+00:18:34,766 --> 00:18:45,920
+And if you want the other side of this coin, there is a film on this channel about an order that was given in a bunker in Washington, correctly, by a man who was not in the chain of command, and which reached no pilot at all.
+
+228
+00:18:47,066 --> 00:18:48,992
+Same failure, running the opposite way.
+
+229
+00:18:48,992 --> 00:18:54,768
+That video is called Cheney Said Engage, Nobody Told the Pilots, and it is on the channel now.
+
+230
+00:18:54,768 --> 00:18:56,052
+Watch that one next.
+
