@@ -14,7 +14,7 @@ repetitive": a real person, present and accountable, explaining real process.
 An AI-narrated appeal video would undercut the exact point it's trying to
 prove.
 
-Script timed for ~4:20 at a natural, unhurried pace (~145 wpm). Read it as
+Script timed for ~4:35 at a natural, unhurried pace (~145 wpm). Read it as
 yours — adjust phrasing to how you actually talk, the content is what matters.
 
 ---
@@ -53,17 +53,23 @@ don't assert disputed facts as settled, and when something is contested I say
 so on screen. That's not generic — that's the actual editorial standard every
 episode is held to."
 
-**[2:30–3:15] — I review and approve every step before anything publishes**
+**[2:30–3:28] — I review and approve every step before anything publishes**
 
 "I use AI tools to help with research synthesis, narration, and some of the
-editing — the same way a lot of creators now do. But nothing ships without
-me. I listen to the narration before it's final [SHOW: the VO sample file,
-or just describe listening to it], I check the visuals, and I watch the
-finished video start to finish before it goes anywhere. [SHOW: the
-preflight check output — '0 blocking' — and a render still or the finished
-frame]. The tools speed up production. The judgment is mine."
+editing — the same way a lot of creators now do. But I'm the owner of this
+channel, I built it, and nothing ships without me. I listen to the narration
+before it's final [SHOW: the VO sample file, or just describe listening to
+it], I check the visuals, and I watch the finished video start to finish
+before it goes anywhere. [SHOW: the preflight check output — '0 blocking' —
+and a render still or the finished frame]. The tools speed up production.
+Every judgment — what to cover, what's true, what ships — is mine.
 
-**[3:15–4:00] — Zoom out to the whole channel**
+And going forward, I'm scaling back how much of this relies on AI tools at
+all — doing more of the research, the writing, and the narration myself.
+This channel is mine. I want it to show that directly, not through a layer
+of automation."
+
+**[3:28–4:13] — Zoom out to the whole channel**
 
 "This isn't one video that happens to follow the rules — this is how every
 episode on this channel gets made. [SHOW: a quick scroll through
@@ -73,7 +79,7 @@ its own sourced fact base, each covering a real, verified topic people are
 actually searching for. That's the opposite of generic or reused content —
 it's original research and editorial work on a new subject every time."
 
-**[4:00–4:20] — Close, direct ask**
+**[4:13–4:33] — Close, direct ask**
 
 "I believe the 'generic or repetitive' finding doesn't reflect what's
 actually behind this channel, and I'd ask you to take another look with that
