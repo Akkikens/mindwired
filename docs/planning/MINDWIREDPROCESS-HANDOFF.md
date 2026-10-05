@@ -5,7 +5,16 @@ review (deadline **Oct 21, 2026**) — reviewer-facing, unlisted upload, URL
 pasted into the appeal form. Strategy + submission checklist:
 `docs/planning/YPP-APPEAL-SCRIPT.md`.
 
-## Status: BUILT AND REGISTERED — waiting on ONE input: Akshay's recorded voice take
+## Status: READY TO RENDER (2026-10-05) — VO recorded by Akshay, split, manifest real, preflight 0 blocking
+
+Akshay's 4:33 one-take recording is in (`recordings/appeal_vo.m4a`), split
+into all 20 scene clips via global word-alignment (every boundary
+phrase-complete; his ad-libbed warm closing kept), manifest measured from
+the real clips (4.4 min narration, 287s body ≈ 4:47 — under the 5:00 cap),
+preflight **0 blocking / 14 warnings** (all reviewed: keyword-heuristic
+flags on human-verified NASA clips + deliberate hook/outro deviations for a
+reviewer-facing video). Real-timeline stills verified (s1 panel, s7, final
+frame). Render command in step 5 below.
 
 ## The design decision that defines this video
 The channel was flagged "generic or repetitive." The previous attempt at a
