@@ -1,5 +1,13 @@
 # YPP Monetization Appeal — script + screen-share plan
 
+> **SUPERSEDED for the video itself (2026-10-05):** the appeal video is now a
+> produced comp — `MindwiredProcessDoc`, narrated by Akshay's own recorded
+> voice over real production evidence. Recording kit:
+> `docs/planning/APPEAL-VIDEO-RECORD-THIS.md`; full state:
+> `docs/planning/MINDWIREDPROCESS-HANDOFF.md`. This file stays as the
+> strategy record + the submission checklist at the bottom (URL in first 30s,
+> unlisted upload, submit before Oct 21).
+
 Deadline: **October 21, 2026**. Feedback cited: "Generic or repetitive content...
 does not deliver significant creative, educational, or other value."
 

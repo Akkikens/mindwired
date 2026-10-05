@@ -1,0 +1,87 @@
+{
+ "durations": {
+  "o1": 10.917,
+  "o2": 19.667,
+  "o3": 11.75,
+  "sting": 1.5,
+  "title": 5.083,
+  "c1": 3.833,
+  "s1": 21.333,
+  "c2": 4.25,
+  "s2": 18.417,
+  "s3": 18.833,
+  "c3": 3.417,
+  "s4": 14.667,
+  "s5": 13.417,
+  "c4": 4.25,
+  "s6": 16.333,
+  "s7": 22.583,
+  "s8": 12.583,
+  "c5": 2.583,
+  "v1": 22.583,
+  "v2": 15.083
+ },
+ "images": {
+  "attribution": [
+   "attribution_1.png"
+  ],
+  "breadth": [
+   "breadth_1.png"
+  ],
+  "chapterbg": [
+   "chapterbg_1.jpg",
+   "chapterbg_2.jpg",
+   "chapterbg_3.jpg",
+   "chapterbg_4.jpg"
+  ],
+  "claims": [
+   "claims_1.png",
+   "claims_2.png",
+   "claims_3.png"
+  ],
+  "episodeframes": [
+   "episodeframes_1.png",
+   "episodeframes_2.png"
+  ],
+  "gitlog": [
+   "gitlog_1.png"
+  ],
+  "policy": [
+   "policy_1.png"
+  ],
+  "preflight": [
+   "preflight_1.png"
+  ],
+  "topicqueue": [
+   "topicqueue_1.png"
+  ]
+ },
+ "missing": [
+  "o1",
+  "o2",
+  "o3",
+  "sting",
+  "title",
+  "c1",
+  "s1",
+  "c2",
+  "s2",
+  "s3",
+  "c3",
+  "s4",
+  "s5",
+  "c4",
+  "s6",
+  "s7",
+  "s8",
+  "c5",
+  "v1",
+  "v2"
+ ],
+ "speed": 1.0,
+ "polish": false,
+ "mouth": {},
+ "texthash": {},
+ "estimated": true,
+ "NOTE": "ESTIMATED scaffold for typecheck/registration only. Real manifest: place Akshay's split clips in audio/ then run build_doc_vo.py mindwiredprocess --manifest-only. NEVER synthesize VO for this slug."
+}

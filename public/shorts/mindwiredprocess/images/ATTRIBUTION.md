@@ -1,0 +1,4 @@
+- `chapterbg_1.jpg` — "Atlas-Centaur Orbiting Astronomical Observatory Shroud Test" by GRC — Public domain (NASA) — https://images.nasa.gov/details/GRC-1968-C-01258 (nasa)
+- `chapterbg_2.jpg` — "Orbiting Astronomical Observatory-1 Shroud Test in Space Power Chambers" by GRC — Public domain (NASA) — https://images.nasa.gov/details/GRC-1965-C-01864 (nasa)
+- `chapterbg_3.jpg` — "NASA's SOFIA infrared observatory in flight for the first of a series of test flights to verify the flight performance of the highly modified Boeing 747SP" by AFRC — Public domain (NASA) — https://images.nasa.gov/details/ED07-0237-15 (nasa)
+- `chapterbg_4.jpg` — "NASA's SOFIA infrared observatory and F/A-18 safety chase during the first series of test flights to verify the flight performance of the modified Boeing 747SP" by AFRC — Public domain (NASA) — https://images.nasa.gov/details/ED07-0237-16 (nasa)
