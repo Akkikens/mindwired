@@ -8,14 +8,21 @@ scene id; this produces them WITHOUT any TTS.
 
   python3 scripts/split_vo_take.py <slug> <take.(m4a|mp3|wav)> [--dry-run]
 
-How: faster-whisper word timestamps -> align each scene's opening words
-against the transcript (monotonic, fuzzy) -> cut at the silence midpoints
-between scenes -> public/shorts/<slug>/audio/<id>.mp3. Then run:
+How: faster-whisper word timestamps -> GLOBAL word-level alignment of the
+whole expected script (all scene texts, in order) against the whole
+transcript (difflib matching blocks, monotonic) -> each scene starts at its
+first aligned word -> cut in the silence between scenes. Global alignment
+survives ad-libs, dropped words, and accent-mangled transcription far better
+than per-scene anchor search (which mis-cut 5 of 20 boundaries on the first
+real take; a silence-snap heuristic then broke different ones — the narrator
+pauses mid-phrase as often as between beats, so content is the only reliable
+boundary signal). Then run:
 
   python3 scripts/build_doc_vo.py <slug> --manifest-only
 
-Low-confidence alignments are printed loudly — LISTEN to those clips before
-trusting them. Requires: pip install faster-whisper; ffmpeg on PATH.
+Low-confidence scenes (few of their expected words matched) are printed
+loudly — LISTEN to those clips before trusting them. Requires:
+pip install faster-whisper; ffmpeg on PATH.
 """
 import argparse
 import json
@@ -29,9 +36,8 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 DOCS = REPO / "src" / "mindwired-doc" / "docs"
 
-PAD = 0.08          # seconds kept before/after a scene inside the gap
-ANCHOR_WORDS = 6    # scene-opening words used to find each boundary
-MIN_RATIO = 0.55    # below this, the match is flagged for human review
+PAD = 0.08         # seconds kept before/after a scene inside the gap
+MIN_COVER = 0.5    # below this fraction of matched scene words, flag it
 
 
 def norm(t: str) -> list[str]:
@@ -47,21 +53,43 @@ def transcribe(wav: Path):
     words = []
     for seg in segs:
         for w in seg.words or []:
-            words.append((norm(w.word)[0] if norm(w.word) else "", w.start, w.end))
-    return [w for w in words if w[0]]
+            toks = norm(w.word)
+            if toks:
+                words.append((toks[0], w.start, w.end))
+    return words
 
 
-def find_anchor(words, anchor, from_idx):
-    """Best fuzzy position of `anchor` (list of words) at/after from_idx."""
-    best, best_i = -1.0, from_idx
+def align(scenes, words):
+    """Map each scene to its first/last matched transcript-word index via one
+    global alignment. Returns [(start_i, cover)] per scene; start_i of scene
+    n+1 bounds scene n."""
+    exp, owner = [], []
+    for n, s in enumerate(scenes):
+        for w in norm(s["text"]):
+            exp.append(w)
+            owner.append(n)
     hay = [w[0] for w in words]
-    for i in range(from_idx, len(words) - len(anchor) + 1):
-        r = SequenceMatcher(None, anchor, hay[i:i + len(anchor)]).ratio()
-        if r > best:
-            best, best_i = r, i
-            if r > 0.92:
-                break
-    return best_i, best
+    sm = SequenceMatcher(None, exp, hay, autojunk=False)
+    # exp index -> transcript index, for every matched word
+    emap: dict[int, int] = {}
+    for a, b, size in sm.get_matching_blocks():
+        for k in range(size):
+            emap[a + k] = b + k
+    starts, covers = [], []
+    bound = 0
+    for n in range(len(scenes)):
+        idxs = [i for i in range(len(exp)) if owner[i] == n]
+        hits = [emap[i] for i in idxs if i in emap]
+        hits = [h for h in hits if h >= bound]
+        if hits:
+            start = min(hits)
+            cover = len(hits) / len(idxs)
+        else:
+            start, cover = bound, 0.0
+        starts.append(start)
+        covers.append(cover)
+        bound = max(bound, start + 1)
+    return starts, covers
 
 
 def main():
@@ -89,35 +117,28 @@ def main():
     total = words[-1][2]
     print(f"[split] {len(words)} words, {total/60:.1f} min of audio")
 
-    # locate the START of every scene by its opening words, strictly monotonic
-    starts, flags, idx = [], [], 0
-    for s in scenes:
-        anchor = norm(s["text"])[:ANCHOR_WORDS]
-        i, r = find_anchor(words, anchor, idx)
-        starts.append(i)
-        flags.append(r)
-        idx = i + max(1, len(anchor) // 2)
-    # scene ranges: start word .. word before next scene's start
-    cuts = []
+    starts, covers = align(scenes, words)
+
+    cuts, bad = [], []
+    print(f"\n{'id':<8}{'start':>8}{'end':>8}{'dur':>7}  cover  clip edges")
     for n, s in enumerate(scenes):
-        w_start = words[starts[n]][1]
-        w_end = words[starts[n + 1] - 1][2] if n + 1 < len(scenes) else words[-1][2]
-        nxt_start = words[starts[n + 1]][1] if n + 1 < len(scenes) else total
-        gap = max(0.0, nxt_start - w_end)
+        lo = starts[n]
+        hi = starts[n + 1] if n + 1 < len(scenes) else len(words)
+        w_start, w_end = words[lo][1], words[hi - 1][2]
+        nxt = words[starts[n + 1]][1] if n + 1 < len(scenes) else total
+        gap = max(0.0, nxt - w_end)
         t0 = max(0.0, w_start - PAD if n else 0.0)
         t1 = min(total, w_end + min(PAD, gap / 2) if n + 1 < len(scenes) else total)
-        cuts.append((s["id"], t0, t1, flags[n]))
-
-    print(f"\n{'id':<8}{'start':>8}{'end':>8}{'dur':>7}  match")
-    bad = []
-    for sid, t0, t1, r in cuts:
-        mark = "OK " if r >= MIN_RATIO else "?? "
-        if r < MIN_RATIO:
-            bad.append(sid)
-        print(f"{sid:<8}{t0:>8.2f}{t1:>8.2f}{t1-t0:>7.2f}  {mark}{r:.2f}")
+        cuts.append((s["id"], t0, t1))
+        seg = [w[0] for w in words[lo:hi]]
+        mark = "OK " if covers[n] >= MIN_COVER else "?? "
+        if covers[n] < MIN_COVER:
+            bad.append(s["id"])
+        edges = f"[{' '.join(seg[:3])} … {' '.join(seg[-3:])}]"
+        print(f"{s['id']:<8}{t0:>8.2f}{t1:>8.2f}{t1-t0:>7.2f}  {mark}{covers[n]:.2f}  {edges}")
     if args.dry_run:
         return
-    for sid, t0, t1, _ in cuts:
+    for sid, t0, t1 in cuts:
         dst = out_dir / f"{sid}.mp3"
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(args.take),
                         "-ss", f"{t0:.3f}", "-to", f"{t1:.3f}",
