@@ -1,0 +1,12 @@
+- `chapterbg_1.jpg` — "Atlas-Centaur Orbiting Astronomical Observatory Shroud Test" by GRC — Public domain (NASA) — https://images.nasa.gov/details/GRC-1968-C-01258 (nasa)
+- `chapterbg_2.jpg` — "Orbiting Astronomical Observatory-1 Shroud Test in Space Power Chambers" by GRC — Public domain (NASA) — https://images.nasa.gov/details/GRC-1965-C-01864 (nasa)
+- `chapterbg_3.jpg` — "NASA's SOFIA infrared observatory in flight for the first of a series of test flights to verify the flight performance of the highly modified Boeing 747SP" by AFRC — Public domain (NASA) — https://images.nasa.gov/details/ED07-0237-15 (nasa)
+- `chapterbg_4.jpg` — "NASA's SOFIA infrared observatory and F/A-18 safety chase during the first series of test flights to verify the flight performance of the modified Boeing 747SP" by AFRC — Public domain (NASA) — https://images.nasa.gov/details/ED07-0237-16 (nasa)
+- `topicqueue_1.png` — repo-generated evidence panel: styled render of docs/planning/TOPIC-QUEUE.md (projecthailmary entry). Own work, no external media.
+- `claims_1.png` / `claims_2.png` / `claims_3.png` — repo-generated evidence panels: styled renders of docs/planning/CLAIMS-projecthailmary.md. Own work.
+- `attribution_1.png` — repo-generated evidence panel: styled render of public/shorts/projecthailmary/images/ATTRIBUTION.md. Own work.
+- `policy_1.png` — repo-generated evidence panel: styled render of scripts/SOURCES-GUIDE.md (rules excerpt). Own work.
+- `preflight_1.png` — repo-generated evidence panel: live `preflight_doc.py projecthailmary` output, 2026-10-05. Own work.
+- `gitlog_1.png` — repo-generated evidence panel: `git log` of this repository (production commits). Own work.
+- `breadth_1.png` — repo-generated evidence panel: listing of docs/planning/CLAIMS-*.md. Own work.
+- `episodeframes_1.png` / `episodeframes_2.png` — repo-generated evidence panels embedding out/thumbs/projecthailmary_A/B/C.png (built from a real NASA SDO frame — see docs/metadata/METADATA-projecthailmary.md). Own work + NASA PD.

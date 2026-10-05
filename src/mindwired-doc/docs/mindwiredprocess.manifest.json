@@ -1,0 +1,64 @@
+{
+ "durations": {
+  "o1": 10.971,
+  "o2": 20.271,
+  "o3": 11.128,
+  "sting": 1.907,
+  "title": 5.433,
+  "c1": 3.788,
+  "s1": 22.282,
+  "c2": 5.068,
+  "s2": 19.566,
+  "s3": 21.029,
+  "c3": 3.448,
+  "s4": 19.096,
+  "s5": 15.203,
+  "c4": 4.807,
+  "s6": 20.506,
+  "s7": 20.506,
+  "s8": 13.688,
+  "c5": 2.691,
+  "v1": 28.108,
+  "v2": 15.177
+ },
+ "images": {
+  "attribution": [
+   "attribution_1.png"
+  ],
+  "breadth": [
+   "breadth_1.png"
+  ],
+  "chapterbg": [
+   "chapterbg_1.jpg",
+   "chapterbg_2.jpg",
+   "chapterbg_3.jpg",
+   "chapterbg_4.jpg"
+  ],
+  "claims": [
+   "claims_1.png",
+   "claims_2.png",
+   "claims_3.png"
+  ],
+  "episodeframes": [
+   "episodeframes_1.png",
+   "episodeframes_2.png"
+  ],
+  "gitlog": [
+   "gitlog_1.png"
+  ],
+  "policy": [
+   "policy_1.png"
+  ],
+  "preflight": [
+   "preflight_1.png"
+  ],
+  "topicqueue": [
+   "topicqueue_1.png"
+  ]
+ },
+ "missing": [],
+ "speed": 1.0,
+ "polish": false,
+ "mouth": {},
+ "texthash": {}
+}

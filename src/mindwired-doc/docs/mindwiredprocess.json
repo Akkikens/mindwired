@@ -1,0 +1,165 @@
+{
+  "slug": "mindwiredprocess",
+  "title": "How a mindwired Episode Is Made",
+  "channel": "mindwired",
+  "niche": "space",
+  "language": "en",
+  "voice": "human-recorded \u2014 Akshay's own voice, one take, split by scripts/split_vo_take.py. NEVER run build_doc_vo without --manifest-only on this slug.",
+  "scenes": [
+    {
+      "id": "o1",
+      "text": "Hi. I'm Akshay, and I run the YouTube channel mindwired. You can find it at youtube dot com, slash, at mindwired, spelled with two d's.",
+      "video": "process1_1.mp4",
+      "videoQuery": "NASA mission control room real footage",
+      "cap": "youtube.com/@MINDWIREDD",
+      "tone": "confidence"
+    },
+    {
+      "id": "o2",
+      "text": "I'm making this video because a review flagged my channel as generic or repetitive content. I don't believe that's a fair read of the work. So instead of arguing about it, I'm going to show you, step by step, how an episode here actually gets made.",
+      "video": "process2b_1.mp4",
+      "videoQuery": "NASA rocket launch real archival footage",
+      "cap": "The flag: \"generic or repetitive content.\"",
+      "tone": "tension"
+    },
+    {
+      "id": "o3",
+      "text": "Everything you're about to see is real: the actual research files, the actual quality gates, and the actual footage logs behind the newest episode on this channel.",
+      "video": "process3_1.mp4",
+      "videoQuery": "observatory telescope night sky timelapse real footage",
+      "cap": "Real files. Real process. One episode, start to finish.",
+      "tone": "confidence"
+    },
+    {
+      "id": "sting",
+      "sting": true,
+      "text": "You're watching mindwired.",
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "text": "Here is how a mindwired episode gets made, in four steps.",
+      "chapter": "HOW A MINDWIRED\nEPISODE IS MADE",
+      "img": "chapterbg",
+      "query": "deep space observatory real photograph"
+    },
+    {
+      "id": "c1",
+      "text": "Step one. Prove the topic deserves to exist.",
+      "chapter": "STEP ONE\nPROVE THE TOPIC",
+      "img": "chapterbg",
+      "query": "radio telescope dish real photograph"
+    },
+    {
+      "id": "s1",
+      "text": "Nothing here gets made on a hunch. Before any production starts, I research real audience demand: which versions of a topic massively outperformed the channels that posted them. This is the actual research entry for the newest episode. Real view counts, real ratios, and a locked decision at the bottom.",
+      "img": "topicqueue",
+      "query": "repo artifact \u2014 TOPIC-QUEUE.md validation entry",
+      "cap": "docs/planning/TOPIC-QUEUE.md \u2014 the real validation entry.",
+      "stat": "38:1 OUTLIER",
+      "tone": "curiosity"
+    },
+    {
+      "id": "c2",
+      "text": "Step two. Build the fact base before the script.",
+      "chapter": "STEP TWO\nBUILD THE FACT BASE",
+      "img": "chapterbg",
+      "query": "library archive shelves real photograph"
+    },
+    {
+      "id": "s2",
+      "text": "Every claim that reaches an episode has to trace back to a sourced fact base first. This is the real one for the Project Hail Mary episode: pages of claims tied to published science journalism, named researchers, and the author's own public interviews.",
+      "img": "claims",
+      "query": "repo artifact \u2014 CLAIMS fact base pages",
+      "cap": "CLAIMS-projecthailmary.md \u2014 every script line traces here.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "s3",
+      "text": "It opens with a corrections section: places where the popular version of a story gets the science wrong, which the episode then fixes on screen. When a claim is contested, the episode says so. When the science kills a good line, the line dies.",
+      "img": "claims",
+      "query": "repo artifact \u2014 CLAIMS corrections block",
+      "cap": "DATA CORRECTIONS \u2014 locked in before a single scene was written.",
+      "tone": "confidence"
+    },
+    {
+      "id": "c3",
+      "text": "Step three. Real footage, logged and licensed.",
+      "chapter": "STEP THREE\nREAL FOOTAGE ONLY",
+      "img": "chapterbg",
+      "query": "film archive reels real photograph"
+    },
+    {
+      "id": "s4",
+      "text": "The visuals are real archival material from public domain government science sources, fetched fresh for every episode. Every file lands in an attribution log with its origin and license. This is the actual log.",
+      "img": "attribution",
+      "query": "repo artifact \u2014 ATTRIBUTION.md license log",
+      "cap": "ATTRIBUTION.md \u2014 source and license for every file.",
+      "tone": "curiosity"
+    },
+    {
+      "id": "s5",
+      "text": "And there are standing honesty rules, in writing: no footage presented as something it isn't, recreations labeled as recreations, and no real event shown through generated imagery when archival coverage exists.",
+      "img": "policy",
+      "query": "repo artifact \u2014 written honesty rules + episode image grid",
+      "cap": "House rule: real thing over real category over stock. Never fake archival.",
+      "tone": "confidence"
+    },
+    {
+      "id": "c4",
+      "text": "Step four. Gates that can block the whole video.",
+      "chapter": "STEP FOUR\nGATES THAT CAN SAY NO",
+      "img": "chapterbg",
+      "query": "server room data center real photograph"
+    },
+    {
+      "id": "s6",
+      "text": "Before anything renders, a preflight check runs over thirty hard gates: stale narration, missing sources, recycled hook footage, broken visuals. One failure blocks the render entirely. This is the real output for the newest episode. Zero blocking issues.",
+      "img": "preflight",
+      "query": "repo artifact \u2014 live preflight gate output",
+      "cap": "scripts/preflight_doc.py \u2014 the render cannot start on a failure.",
+      "stat": "0 BLOCKING",
+      "tone": "tension"
+    },
+    {
+      "id": "s7",
+      "text": "And here's the part I want to be direct about. I do use artificial intelligence tools in this pipeline, for the narration voice and parts of the assembly. I'm scaling that back, with more of the research, the writing, and the narration done myself. Starting with this video, which is my own voice.",
+      "img": "breadth",
+      "query": "repo artifact \u2014 per-episode fact base listing",
+      "cap": "This narration: recorded by me, not synthesized.",
+      "tone": "confidence"
+    },
+    {
+      "id": "s8",
+      "text": "But the judgment was always human. What gets covered, what counts as true, what ships. That's me, on every upload. Nothing publishes without me reviewing it start to finish.",
+      "img": "gitlog",
+      "query": "repo artifact \u2014 months of real commit history",
+      "cap": "Months of logged production work. One accountable owner.",
+      "tone": "confidence"
+    },
+    {
+      "id": "c5",
+      "text": "So. Is this channel generic?",
+      "chapter": "WHAT THIS\nADDS UP TO",
+      "img": "chapterbg",
+      "query": "galaxy wide field real telescope photograph"
+    },
+    {
+      "id": "v1",
+      "text": "This channel is more than thirty long form episodes, each built with its own researched fact base, its own fresh archival footage, and its own packaging, on subjects viewers demonstrably search for. That's not generic, and it's not repetitive. It's a one person documentary operation with written editorial standards, applied on every upload.",
+      "img": "episodeframes",
+      "query": "repo artifact \u2014 real episode packaging",
+      "cap": "Every episode: own fact base, own footage, own packaging.",
+      "stat": "30+ EPISODES",
+      "tone": "confidence"
+    },
+    {
+      "id": "v2",
+      "text": "I'd ask you to take another look at mindwired with all of that in mind. Thank you for your time. I'm Akshay, and the channel is youtube dot com, slash, at mindwired, with two d's.",
+      "img": "episodeframes",
+      "query": "repo artifact \u2014 real episode packaging",
+      "cap": "youtube.com/@MINDWIREDD \u2014 thank you for reviewing.",
+      "tone": "confidence"
+    }
+  ]
+}

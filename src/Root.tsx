@@ -30,6 +30,8 @@ import ww2EpicEnDoc from "./mindwired-doc/docs/ww2epic-en.json";
 import ww2EpicEnManifest from "./mindwired-doc/docs/ww2epic-en.manifest.json";
 import projectHailMaryDoc from "./mindwired-doc/docs/projecthailmary.json";
 import projectHailMaryManifest from "./mindwired-doc/docs/projecthailmary.manifest.json";
+import mindwiredProcessDoc from "./mindwired-doc/docs/mindwiredprocess.json";
+import mindwiredProcessManifest from "./mindwired-doc/docs/mindwiredprocess.manifest.json";
 import spaceDeathsHiDoc from "./mindwired-doc/docs/spacedeaths-hi.json";
 import spaceDeathsHiManifest from "./mindwired-doc/docs/spacedeaths-hi.manifest.json";
 import eastIndiaDoc from "./mindwired-doc/docs/eastindia.json";
@@ -3087,6 +3089,22 @@ export const RemotionRoot: React.FC = () => {
         id="ProjectHailMaryDoc"
         component={makeDocComp(projectHailMaryDoc as any, projectHailMaryManifest as any, MW_OUTRO)}
         durationInFrames={docTotalFrames(projectHailMaryDoc as any, projectHailMaryManifest as any, MW_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── mindwired — YPP appeal: "How a mindwired Episode Is Made" (reviewer-facing,
+             NOT channel content). Narration = AKSHAY'S OWN RECORDED VOICE, split from
+             one take by scripts/split_vo_take.py — NEVER synthesize VO for this slug.
+             NO outro (not a viewer upload; keeps runtime under YouTube's 5-min appeal
+             cap). Visuals: fresh-fetched real footage + styled renders of REAL repo
+             artifacts (public/shorts/mindwiredprocess/). Recording kit:
+             docs/planning/APPEAL-VIDEO-RECORD-THIS.md ── */}
+      <Composition
+        id="MindwiredProcessDoc"
+        component={makeDocComp(mindwiredProcessDoc as any, mindwiredProcessManifest as any)}
+        durationInFrames={docTotalFrames(mindwiredProcessDoc as any, mindwiredProcessManifest as any)}
         fps={30}
         width={1920}
         height={1080}
