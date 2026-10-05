@@ -38,13 +38,14 @@
     },
     {
       "id": "h3",
-      "text": "In the next thirty minutes, forty four people will decide, together, to do something no hijacked passengers had ever done before. Rush the men holding the plane.",
+      "text": "In the next thirty minutes, forty people will decide, together, to do something no hijacked passengers had ever done before. Rush the men holding the plane.",
       "img": "cabin_generic",
       "query": "airplane cabin interior seats empty",
       "stock": true,
       "stat": "44 PEOPLE ABOARD",
       "cap": "They decided to rush the hijackers.",
-      "tone": "awe"
+      "tone": "awe",
+      "note": "44 aboard = 33 passengers + 7 crew + 4 hijackers. The forty who decided are the non-hijackers. Never say 44 here."
     },
     {
       "id": "h4",
@@ -374,7 +375,14 @@
     {
       "id": "f1",
       "text": "At some point before nine fifty-seven, according to one of the phone calls, the passengers voted. Whether to rush the hijackers and try to retake the plane. The Commission's own words: they decided, and acted.",
-      "kinetic": { "words": ["\"They", "decided,", "and", "acted.\""] },
+      "kinetic": {
+        "words": [
+          "\"They",
+          "decided,",
+          "and",
+          "acted.\""
+        ]
+      },
       "extraHold": 20,
       "tone": "awe"
     },
@@ -390,7 +398,12 @@
       "exhibit": true,
       "img": "ex_assault",
       "source": "The 9/11 Commission Report, Chapter 1, p. 13",
-      "highlight": [0.08, 0.72, 0.84, 0.1],
+      "highlight": [
+        0.08,
+        0.72,
+        0.84,
+        0.1
+      ],
       "cap": "9:57 AM. The assault begins.",
       "text": "At nine fifty-seven in the morning, the passenger assault began. The Commission Report states it plainly. Several passengers had ended phone calls with the people they loved, in order to join the fight.",
       "extraHold": 20,
@@ -503,7 +516,11 @@
     {
       "id": "g6",
       "text": "All forty-four people aboard died. Thirty-three passengers. Seven crew. Four hijackers. No one on the ground was hurt. It is the only one of the four hijacked flights that morning where nobody outside the plane was killed.",
-      "kinetic": { "count": 44, "countLabel": "people aboard — all died", "sub": "the only one of the four flights with zero deaths on the ground" },
+      "kinetic": {
+        "count": 44,
+        "countLabel": "people aboard — all died",
+        "sub": "the only one of the four flights with zero deaths on the ground"
+      },
       "extraHold": 20,
       "tone": "melancholy"
     },
@@ -581,7 +598,14 @@
     {
       "id": "j4",
       "text": "The fighters were never told the real threat was hijacked airliners. Their own lead pilot later said: I'm thinking cruise missile threat from the sea. Nobody told us anything.",
-      "kinetic": { "words": ["\"Nobody", "told", "us", "anything.\""] },
+      "kinetic": {
+        "words": [
+          "\"Nobody",
+          "told",
+          "us",
+          "anything.\""
+        ]
+      },
       "extraHold": 16,
       "tone": "fear"
     },
@@ -645,7 +669,18 @@
     {
       "id": "k2",
       "text": "Flight 93 crashed at ten-oh-three. Four minutes earlier. The military learned Flight 93 existed after it was already on the ground.",
-      "kinetic": { "words": ["They", "learned", "of", "it", "4", "minutes", "TOO", "LATE."] },
+      "kinetic": {
+        "words": [
+          "They",
+          "learned",
+          "of",
+          "it",
+          "4",
+          "minutes",
+          "TOO",
+          "LATE."
+        ]
+      },
       "extraHold": 20,
       "tone": "shock"
     },
@@ -664,7 +699,12 @@
       "exhibit": true,
       "img": "ex_norad",
       "source": "The 9/11 Commission Report, Chapter 1, p. 45",
-      "highlight": [0.08, 0.68, 0.84, 0.1],
+      "highlight": [
+        0.08,
+        0.68,
+        0.84,
+        0.1
+      ],
       "cap": "\"We are not so sure.\"",
       "text": "The Commission's own report addresses the military's claim directly. Norad officials have maintained that they would have intercepted and shot down United 93. The Commission's answer: we are not so sure.",
       "extraHold": 24,
@@ -687,7 +727,15 @@
     {
       "id": "k6",
       "text": "The Commission closes with this. We are sure that the nation owes a debt to the passengers of United 93. Their actions saved the lives of countless others, and may have saved either the Capitol or the White House from destruction.",
-      "kinetic": { "words": ["\"The", "nation", "owes", "a", "debt.\""] },
+      "kinetic": {
+        "words": [
+          "\"The",
+          "nation",
+          "owes",
+          "a",
+          "debt.\""
+        ]
+      },
       "extraHold": 20,
       "tone": "confidence"
     },

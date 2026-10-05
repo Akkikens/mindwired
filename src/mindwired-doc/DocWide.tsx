@@ -683,9 +683,27 @@ const ExhibitScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: n
   const hl = s.highlight && s.highlight.length === 4 ? s.highlight : null;
   const targetX = hl ? hl[0] + hl[2] / 2 : 0.5;
   const targetY = hl ? hl[1] + hl[3] / 2 : 0.5;
-  const zoom = interpolate(ease, [0, 1], [1.0, hl ? 1.5 : 1.12]);
-  const shiftX = interpolate(ease, [0, 1], [0, (0.5 - targetX) * 820]);
-  const shiftY = interpolate(ease, [0, 1], [0, (0.5 - targetY) * 560]);
+  /* Zoom adapts to how big the highlight is (2026-09-18). A fixed 1.5x pushed
+     the same amount whether the target was a whole grey box or a single two-line
+     entry — so a request line in the CAIB imagery box ended up a few percent of
+     frame height and unreadable on a phone, which is where most of these are
+     watched. Aim to land the band at ~30% of frame height; the page renders at
+     88% height, hence the 0.88. Capped so a one-line target cannot push so far
+     that the surrounding page loses all context. */
+  const hlZoom = hl
+    ? Math.min(3.6, Math.max(1.15, 0.30 / Math.max(hl[3] * 0.88, 0.001)))
+    : 1.12;
+  const zoom = interpolate(ease, [0, 1], [1.0, hlZoom]);
+  /* Centring in PERCENT of the element, with transform-origin pinned to the
+     target. The old version translated by hard-coded 820/560 pixels, which were
+     never the page's real dimensions — so at the old fixed 1.5x a highlight was
+     only ever nudged ~40% of the way to centre, and at any other zoom it drifted
+     off-frame entirely. Percentages resolve against the element's own border box,
+     so this is geometry-exact for any page aspect without measuring the image:
+     scale() runs first about the target point (leaving it fixed on screen), then
+     translate() walks that point to the centre. */
+  const shiftXpc = interpolate(ease, [0, 1], [0, (0.5 - targetX) * 100]);
+  const shiftYpc = interpolate(ease, [0, 1], [0, (0.5 - targetY) * 100]);
   const boxIn = spring({ frame: frame - LEAD - 6, fps: FPS, config: { damping: 16 } });
   const srcIn = spring({ frame: frame - LEAD, fps: FPS, config: { damping: 18 } });
   const capIn = spring({ frame: frame - LEAD - 12, fps: FPS, config: { damping: 18 } });
@@ -702,7 +720,8 @@ const ExhibitScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: n
       {file && (
         <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", opacity: fadeIn }}>
           <div style={{ position: "relative", height: "88%",
-            transform: `translate(${shiftX}px, ${shiftY}px) scale(${zoom})` }}>
+            transformOrigin: `${targetX * 100}% ${targetY * 100}%`,
+            transform: `translate(${shiftXpc}%, ${shiftYpc}%) scale(${zoom})` }}>
             <Img src={staticFile(`shorts/${slug}/images/${file}`)}
               style={{ height: "100%", width: "auto", objectFit: "contain", display: "block",
                 boxShadow: "0 24px 80px rgba(0,0,0,0.8)", border: "1px solid rgba(255,255,255,0.12)",
@@ -714,13 +733,44 @@ const ExhibitScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: n
                 background: "#0A0C10", border: "1px solid rgba(255,255,255,0.16)",
                 borderRadius: 2 }} />
             ))}
-            {hl && (
-              <div style={{ position: "absolute", left: `${hl[0] * 100}%`, top: `${hl[1] * 100}%`,
-                width: `${hl[2] * 100}%`, height: `${hl[3] * 100}%`,
-                background: `${th.accent}22`, border: `3px solid ${th.accent}`,
-                boxShadow: `0 0 24px ${th.accent}88`, borderRadius: 4,
-                opacity: boxIn, transform: `scaleX(${boxIn})`, transformOrigin: "left" }} />
-            )}
+            {hl && (() => {
+              /* Highlighter sweep, not an outline box (fixed 2026-09-18 — Akshay
+                 flagged "bad highlightings over texts" on the shipped Columbia cut).
+                 Three separate defects in the old version:
+                  1. `transform: scaleX(boxIn)` with a damping-16 spring OVERSHOOTS
+                     past 1.0, so the box stretched wider than the passage and
+                     snapped back. Geometry must never be driven by a springy value
+                     — reveal is now a clip-path wipe, which cannot overshoot.
+                  2. `border: 3px` lives inside a container already at scale(zoom),
+                     so it rendered at 4.5px and got heavier through the push.
+                     Counter-divide by zoom to hold a constant on-screen weight.
+                  3. The rect is hand-authored in page fractions, so its edge landed
+                     mid-line and struck through the text. A highlighter reads as
+                     deliberate when it overshoots the glyphs slightly, so pad the
+                     band vertically instead of trying to hit the line box exactly.
+                 multiply blend = real marker-pen over a near-white scan: it darkens
+                 the paper and leaves the ink legible, where a translucent white-ish
+                 fill just washed the whole passage out. */
+              const wipe = Math.min(1, Math.max(0, boxIn));
+              const padY = hl[3] * 0.18;
+              return (
+                <div style={{
+                  position: "absolute",
+                  left: `${hl[0] * 100}%`, top: `${(hl[1] - padY / 2) * 100}%`,
+                  width: `${hl[2] * 100}%`, height: `${(hl[3] + padY) * 100}%`,
+                  background: `linear-gradient(90deg, ${th.accent}66, ${th.accent}4D)`,
+                  mixBlendMode: "multiply",
+                  borderRadius: 3 / zoom,
+                  clipPath: `inset(0 ${(1 - wipe) * 100}% 0 0)`,
+                }} />
+              );
+            })()}
+            {/* No accent rule under the band. Every variant of it — the original
+                3px border, then an offset rule, then one flush to the padded
+                bottom edge — ended up drawn through the FIRST LINE OF THE NEXT
+                PARAGRAPH, because list entries in a filing sit edge-to-edge with
+                no gap to put a rule in. The multiply band already reads as marker
+                pen and carries the squint test on its own. Don't reintroduce it. */}
           </div>
         </AbsoluteFill>
       )}
@@ -742,7 +792,13 @@ const ExhibitScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: n
         <div style={{ position: "absolute", bottom: s.source ? 210 : 104, right: 96, maxWidth: 720,
           textAlign: "right", opacity: capIn,
           transform: `translateY(${interpolate(capIn, [0, 1], [20, 0])}px)` }}>
+          {/* the caption needs its own PLATE, not just a shadow (apollo1, 2026-09-13):
+              a zoomed exhibit is usually a scanned page, i.e. near-white, and a
+              white caption with only a text-shadow over it is unreadable. The
+              source lower-third already solved this the same way. */}
           <span style={{ fontFamily: th.body, fontWeight: 700, fontSize: 40, color: "#fff", lineHeight: 1.3,
+            display: "inline-block", background: "rgba(3,4,7,0.82)", padding: "10px 22px",
+            borderRadius: 8, boxShadow: "0 8px 32px rgba(0,0,0,0.55)",
             textShadow: "0 3px 20px rgba(0,0,0,0.9)" }}>{s.cap}</span>
         </div>
       )}

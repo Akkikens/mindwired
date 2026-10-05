@@ -1,5 +1,53 @@
 # Topic queue (Akshay, 2026-07-12 — from YT Studio "Inspiration")
 
+## ⭐ NEXT (Icahn PASS-WITH-CONDITIONS 2026-09-20) — Jeju Air 2216 / Muan (Black Box)
+
+**"All 179 Could Have Survived"** — chosen by Akshay over Germanwings 9525 and
+KAL 007. Full memory: `icahn-jeju2216`.
+
+**Evidence (live yt-dlp sweep 2026-09-20, point-in-time — recheck at production start):**
+
+| Channel | Views | Subs | Ratio | Date | URL |
+|---|---|---|---|---|---|
+| AviFX | 521,560 | 9,490 | **55.0:1** | 2025-01-25 | https://youtu.be/KK5B-9RDCs0 |
+| AirCrashAnimations | 141,509 | 5,700 | 24.8:1 | 2025-05-23 | https://youtu.be/VH1qANywuCY |
+| Brian Murray | 2,087,197 | 108,000 | 19.3:1 | 2024-12-29 | https://youtu.be/XzBKCt8-uWg |
+| *ceiling* Pilot Debrief | 2,323,029 | 1,060,000 | — | 2025-01-02 | https://youtu.be/-0EgD7urF9Q |
+| *ceiling* blancolirio | 1,032,944 | 616,000 | — | 2024-12-29 | https://youtu.be/BzmptA6s-1g |
+
+**It did not win on ratio — it won on freshness.** 55:1 is small beside KAL 007's
+602:1 and AF447's 617:1, but *every* Jeju outlier is Dec 2024 or later, where those
+two are 2009-2013 and 2012-2019. The channel's own AF447 episode passed at 617:1 and
+did **2,088 views** (Studio, 2026-09-20). See `lesson-stale-outliers-dont-convert`.
+
+**Recognition 2/3 — bridge MANDATORY.** "Jeju Air" is not a household noun outside
+Korea. Lead on the concrete wall or the survivability finding; never the airline or
+flight number. **Currency: VERY STRONG** — investigation open and contested, final
+report overdue since June 2026. **Ceiling class: mid-tier.**
+
+**WAVE: the overdue final report.** Land 2-4 weeks before it drops, or on release.
+
+**Sensitivity gate FIRES:** cause NOT settled (crew action vs concrete berm;
+families formally rejected the interim wrong-engine finding and halted the report's
+release) → attributed-never-asserted throughout, tracked in `CLAIMS-jeju2216.md`.
+Footage probe 2026-09-20 returned **0 usable clips** — news-agency owned, the AI171
+shape. Visual path = official record + diagrams.
+
+**⚠ TWO CHECKS OWED BEFORE THE PACKAGE LOCKS:**
+1. **ARAIB reuse licence unconfirmed** (English reports exist, mirrored on SKYbrary;
+   KOGL terms not verified). Safe fallback exhibit: FAA AC 150/5300-13 frangibility
+   requirement — US federal work, public domain.
+2. **Duplicate check against YouTube Studio, not the repo.** `CLAIMS-*.md` is not a
+   record of what is published — AF447 shipped with no CLAIMS file.
+
+**Spine:** same shape as airforceone — the institution blames the individual, the
+record says the system killed them. Bird strike (duck DNA, both engines) → the crew
+shut down the working left engine → a survivable overrun into a **concrete**
+localizer berm built that way to save money on earthworks → a state audit finding 14
+non-compliant installations at 8 airports certified for up to 22 years.
+
+---
+
 ## ⭐ projecthailmary (mindwired) — validated 2026-08-29, next episode
 **"The Real Science of Project Hail Mary"** — mindwired long-form, science-explainer/
 critique angle (NOT a Booked book-critique episode — format mismatch: PHM is a novel,

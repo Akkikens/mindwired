@@ -1,0 +1,1553 @@
+{
+ "slug": "airforceone",
+ "title": "Air Force One: Ninety-Five Minutes Alone",
+ "channel": "blackbox",
+ "niche": "briefing",
+ "language": "en",
+ "voice": "d46abd1d-2d02-43e8-819f-51fb652c1c61",
+ "scenes": [
+  {
+   "id": "h1",
+   "text": "Two minutes past ten in the morning, the eleventh of September, two thousand and one. On an open line between the Federal Aviation Administration's command centre and its headquarters, a controller says something out loud that he probably should not have had to say.",
+   "video": "c_af1_1_1.mp4",
+   "tone": "grave",
+   "cap": "10:02 EDT"
+  },
+  {
+   "id": "h2",
+   "text": "Air Force One, he says, still does not have a fighter escort.",
+   "video": "c_af1_2_1.mp4",
+   "tone": "tense"
+  },
+  {
+   "id": "h3",
+   "text": "The voice at headquarters answers. They still do not? Holy cow.",
+   "tone": "grave",
+   "source": "9/11 Commission file 148-911-03011356A-1-s2",
+   "video": "c_af1_2_2.mp4",
+   "cap": "FAA Herndon Command Center → FAA HQ, 10:02"
+  },
+  {
+   "id": "h4",
+   "text": "The President of the United States had been in the air for seven minutes. He would be alone up there for about ninety five.",
+   "video": "c_barksdale_1_1.mp4",
+   "tone": "grave",
+   "stat": "~95 minutes"
+  },
+  {
+   "id": "h5",
+   "text": "And in a bunker underneath the White House, a man who was not in the military chain of command was about to give an order to shoot down a passenger aeroplane.",
+   "video": "c_barksdale_2_1.mp4",
+   "tone": "grave"
+  },
+  {
+   "id": "intro",
+   "text": "Black Box Breakdown.",
+   "tone": "neutral",
+   "img": "af1_still"
+  },
+  {
+   "id": "title",
+   "text": "Air Force One. Ninety five minutes alone.",
+   "chapter": "Air Force One",
+   "img": "af1_still",
+   "tone": "grave"
+  },
+  {
+   "id": "a1_ch",
+   "text": "Sarasota, Florida.",
+   "chapter": "A school in Florida",
+   "img": "booker_still",
+   "tone": "neutral"
+  },
+  {
+   "id": "a1_1",
+   "text": "At thirty two minutes past eight, the President leaves a beach resort for an elementary school. He is going to read with second graders and talk about a new education programme. On the scale of a presidency, this is a day nobody would have remembered.",
+   "video": "c_bush_2_1.mp4",
+   "tone": "neutral"
+  },
+  {
+   "id": "a1_2",
+   "text": "At forty six minutes past eight, American Airlines Flight Eleven hits the North Tower.",
+   "img": "wtc_north",
+   "tone": "grave",
+   "cap": "08:46"
+  },
+  {
+   "id": "a1_3",
+   "text": "The board's finding on what the President's party knew at that moment is one sentence, and it is worth hearing exactly. No one in the White House or travelling with the President knew that it had been hijacked.",
+   "img": "ex_commission_p35",
+   "exhibit": true,
+   "tone": "grave",
+   "source": "9/11 Commission Report, ch. 1, p. 35",
+   "highlight": [
+    0.1855,
+    0.1922,
+    0.6291,
+    0.0393
+   ]
+  },
+  {
+   "id": "a1_4",
+   "text": "Outside the classroom, Karl Rove tells the President a small twin engine plane has crashed into the World Trade Center. The President's reaction, the report says, was that the incident must have been caused by pilot error.",
+   "img": "ex_commission_p35",
+   "exhibit": true,
+   "tone": "neutral",
+   "source": "9/11 Commission Report, ch. 1, p. 35",
+   "highlight": [
+    0.1855,
+    0.4646,
+    0.629,
+    0.0713
+   ]
+  },
+  {
+   "id": "a1_5",
+   "text": "He speaks to Condoleezza Rice by phone. She tells him that is all we know right now, Mr President.",
+   "video": "c_bush_3_1.mp4",
+   "tone": "neutral"
+  },
+  {
+   "id": "a1_6",
+   "text": "At three minutes past nine, United Airlines Flight One Seventy Five hits the South Tower.",
+   "img": "wtc_south",
+   "tone": "grave",
+   "cap": "09:03"
+  },
+  {
+   "id": "a1_7",
+   "text": "Two minutes later, the White House Chief of Staff walks into a classroom of seven year olds and leans down to the President's ear.",
+   "video": "c_bush_4_1.mp4",
+   "tone": "grave"
+  },
+  {
+   "id": "a1_8",
+   "text": "A second plane hit the second tower. America is under attack.",
+   "img": "ex_card_line",
+   "exhibit": true,
+   "tone": "grave",
+   "stat": "09:05",
+   "source": "9/11 Commission Report, ch. 1, p. 38",
+   "highlight": [
+    0.1855,
+    0.7183,
+    0.629,
+    0.0393
+   ]
+  },
+  {
+   "id": "a1_9",
+   "text": "And then nothing happens. The board records it plainly. The President remained in the classroom for another five to seven minutes, while the children continued reading.",
+   "video": "c_af1_1_2.mp4",
+   "tone": "grave",
+   "source": "9/11 Commission Report, ch. 1, p. 38"
+  },
+  {
+   "id": "a1_10",
+   "text": "There is an argument about those minutes that has run for twenty five years, and this film is not going to settle it. What matters for what comes next is what the board found about the information reaching him.",
+   "video": "c_af1_2_2.mp4",
+   "tone": "neutral"
+  },
+  {
+   "id": "a1_11",
+   "text": "No one in the travelling party had any information during this time that other aircraft were hijacked or missing.",
+   "img": "ex_commission_p39",
+   "exhibit": true,
+   "tone": "grave",
+   "source": "9/11 Commission Report, ch. 1, p. 39",
+   "highlight": [
+    0.1855,
+    0.3016,
+    0.629,
+    0.0393
+   ]
+  },
+  {
+   "id": "a1_12",
+   "text": "At about half past nine he makes a short statement in the school hall, and the country hears its president for the first time that morning.",
+   "video": "c_barksdale_1_2.mp4",
+   "tone": "grave"
+  },
+  {
+   "id": "a1_13",
+   "text": "Today we've had a national tragedy.",
+   "video": "c_barksdale_2_2.mp4",
+   "tone": "grave"
+  },
+  {
+   "id": "a1_14",
+   "text": "At thirty three minutes past nine, the tower at Reagan National telephones the Secret Service with a sentence that changes the shape of the day. An aircraft is coming at you, and not talking with us.",
+   "img": "ex_commission_p39",
+   "exhibit": true,
+   "tone": "tense",
+   "source": "9/11 Commission Report, ch. 1, p. 39",
+   "highlight": [
+    0.1855,
+    0.6542,
+    0.629,
+    0.0553
+   ]
+  },
+  {
+   "id": "a1_15",
+   "text": "At about thirty five minutes past nine the motorcade leaves the school. The President learns about the Pentagon during the drive.",
+   "video": "c_bush_2_2.mp4",
+   "tone": "grave"
+  },
+  {
+   "id": "a1_16",
+   "text": "At thirty seven minutes and forty six seconds past nine, American Seventy Seven hits the Pentagon.",
+   "img": "pentagon_damage",
+   "tone": "grave",
+   "cap": "09:37:46"
+  },
+  {
+   "id": "a2_ch",
+   "text": "The plane with no destination.",
+   "chapter": "Wheels up",
+   "img": "af1_still",
+   "tone": "tense"
+  },
+  {
+   "id": "a2_1",
+   "text": "At about forty five minutes past nine the President boards. He asks first whether his family is safe. Then he calls the Vice President.",
+   "video": "c_bush_3_2.mp4",
+   "tone": "neutral"
+  },
+  {
+   "id": "a2_2",
+   "text": "Ari Fleischer, the press secretary, is taking notes by hand all day, and those notes are one of the few contemporaneous records of what was said. At about nine forty five the President tells the Vice President this.",
+   "img": "ex_fleischer_notes",
+   "exhibit": true,
+   "tone": "neutral",
+   "source": "9/11 Commission Report, ch. 1, p. 39, n. 206",
+   "highlight": [
+    0.1855,
+    0.6221,
+    0.6291,
+    0.0393
+   ]
+  },
+  {
+   "id": "a2_3",
+   "text": "Sounds like we have a minor war going on here. I heard about the Pentagon. We're at war. Somebody's going to pay.",
+   "img": "ex_commission_p39",
+   "exhibit": true,
+   "tone": "grave",
+   "source": "9/11 Commission Report, ch. 1, p. 39",
+   "highlight": [
+    0.1855,
+    0.4459,
+    0.6291,
+    0.0393
+   ]
+  },
+  {
+   "id": "a2_4",
+   "text": "Hold that call in your mind, because it becomes important later. There is no mention in it of shooting anything down.",
+   "video": "c_bush_4_2.mp4",
+   "tone": "tense"
+  },
+  {
+   "id": "a2_5",
+   "text": "Just before five to ten, Air Force One leaves Sarasota. The board's phrase for where it was going is three words long. Without any fixed destination.",
+   "img": "ex_commission_p39",
+   "exhibit": true,
+   "tone": "grave",
+   "source": "9/11 Commission Report, ch. 1, p. 39",
+   "highlight": [
+    0.1855,
+    0.6221,
+    0.629,
+    0.0232
+   ]
+  },
+  {
+   "id": "a2_6",
+   "text": "A small honesty note. The report gives two different times for that departure in two different chapters. Chapter one says about nine fifty four. Chapter ten says airborne at nine fifty five. We will say just before five to ten and leave it there.",
+   "img": "ex_commission_p39",
+   "exhibit": true,
+   "tone": "neutral",
+   "note": "DISPUTED inside the Report itself — CLAIMS §2. Do not pick one silently.",
+   "source": "9/11 Commission Report, ch. 1, p. 39",
+   "highlight": [
+    0.1855,
+    0.6221,
+    0.629,
+    0.0232
+   ]
+  },
+  {
+   "id": "a2_7",
+   "text": "The pilot, Colonel Mark Tillman, took off steeply and turned the aircraft away from a reported figure near the runway. It later turned out to be a man with a camera.",
+   "video": "c_af1_1_3.mp4",
+   "tone": "tense",
+   "note": "Tillman/Rove account, NOT Commission text. Attribute every time. CLAIMS §4."
+  },
+  {
+   "id": "a2_8",
+   "text": "That detail comes from the pilot's own account rather than the accident record, and we flag it as such. The man was never publicly identified.",
+   "video": "c_af1_2_3.mp4",
+   "tone": "neutral"
+  },
+  {
+   "id": "a2_9",
+   "text": "Nine minutes before they left, the North American Aerospace Defense Command had directed every air sovereignty aircraft it had to battle stations, fully armed.",
+   "img": "ex_commission_p38",
+   "exhibit": true,
+   "tone": "tense",
+   "source": "9/11 Commission Report, ch. 1, p. 38",
+   "highlight": [
+    0.1855,
+    0.526,
+    0.629,
+    0.0393
+   ]
+  },
+  {
+   "id": "a2_10",
+   "text": "And at nine fifty nine, an Air Force lieutenant colonel in the White House Military Office asked the air threat conference for three things.",
+   "img": "ex_commission_p38",
+   "exhibit": true,
+   "tone": "neutral",
+   "highlight": [
+    0.1855,
+    0.558,
+    0.629,
+    0.0393
+   ]
+  },
+  {
+   "id": "a2_11",
+   "text": "Continuity of government measures. A fighter combat air patrol over Washington. And fighter escorts for Air Force One.",
+   "img": "ex_commission_p38",
+   "exhibit": true,
+   "tone": "tense",
+   "source": "9/11 Commission Report, ch. 1, p. 38",
+   "highlight": [
+    0.1855,
+    0.6061,
+    0.629,
+    0.0393
+   ]
+  },
+  {
+   "id": "a2_12",
+   "text": "The request was made at nine fifty nine. The escort arrived at about half past eleven.",
+   "video": "c_barksdale_1_3.mp4",
+   "tone": "grave",
+   "stat": "Requested 09:59"
+  },
+  {
+   "id": "a3_ch",
+   "text": "Alone.",
+   "chapter": "Ninety-five minutes",
+   "img": "af1_still",
+   "tone": "grave"
+  },
+  {
+   "id": "a3_1",
+   "text": "For roughly an hour and a half, the aircraft carrying the President of the United States flew through American airspace with no fighter alongside it.",
+   "video": "c_barksdale_2_3.mp4",
+   "tone": "grave"
+  },
+  {
+   "id": "a3_2",
+   "text": "That is the exchange this film opened on. Two minutes past ten, an FAA line, one controller telling another that Air Force One still does not have a fighter escort.",
+   "img": "ex_faa_line",
+   "exhibit": true,
+   "tone": "tense",
+   "source": "9/11 Commission file 148-911-03011356A-1-s2",
+   "highlight": [
+    0.1855,
+    0.6061,
+    0.629,
+    0.0393
+   ]
+  },
+  {
+   "id": "a3_3",
+   "text": "They still do not? Holy cow. Is the National Military Command Center aware of this?",
+   "img": "ex_faa_line",
+   "exhibit": true,
+   "tone": "grave",
+   "highlight": [
+    0.1855,
+    0.6061,
+    0.629,
+    0.0393
+   ]
+  },
+  {
+   "id": "a3_4",
+   "text": "One correction to something you will hear repeated about that clip. It is not a military tape. It is a telephone line between the Federal Aviation Administration's command centre and its own headquarters.",
+   "img": "ex_faa_line",
+   "exhibit": true,
+   "tone": "neutral",
+   "note": "CLAIMS §4 — commonly misattributed to the 2008 NORAD FOIA release. It is not in it.",
+   "highlight": [
+    0.1855,
+    0.2215,
+    0.6291,
+    0.0713
+   ]
+  },
+  {
+   "id": "a3_5",
+   "text": "The aircraft climbed high and, at about ten past ten, turned and began heading due west, away from Washington.",
+   "img": "ex_commission_p325",
+   "exhibit": true,
+   "tone": "tense",
+   "source": "9/11 Commission Report, ch. 10, p. 325",
+   "highlight": [
+    0.1855,
+    0.5078,
+    0.629,
+    0.0393
+   ]
+  },
+  {
+   "id": "a3_6",
+   "text": "You will often hear that it climbed to forty five thousand feet. We could not trace that number to any primary source. The radar reconstruction puts it closer to thirty nine thousand.",
+   "video": "c_bush_2_3.mp4",
+   "tone": "neutral",
+   "note": "NEEDS SOURCE — 45,000 is untraced; Neo's 14.9M-view video states it. CLAIMS §4."
+  },
+  {
+   "id": "a3_7",
+   "text": "The plane also had a problem nobody had planned for. Its telephones kept dropping. The communications networks that morning were at their limit, and Air Force One was not an exception.",
+   "video": "c_bush_3_3.mp4",
+   "tone": "tense"
+  },
+  {
+   "id": "a4_ch",
+   "text": "The bunker.",
+   "chapter": "Engage",
+   "img": "ex_commission_p41",
+   "tone": "grave"
+  },
+  {
+   "id": "a4_1",
+   "text": "Underneath the East Wing of the White House there is a shelter conference room. The Vice President reached it at about two minutes to ten.",
+   "img": "ex_commission_p40",
+   "exhibit": true,
+   "tone": "neutral",
+   "source": "9/11 Commission Report, ch. 1, p. 40",
+   "highlight": [
+    0.1855,
+    0.526,
+    0.629,
+    0.0393
+   ]
+  },
+  {
+   "id": "a4_2",
+   "text": "At two minutes past ten, the shelter starts receiving Secret Service reports of an aircraft inbound to Washington.",
+   "img": "ex_commission_p41",
+   "exhibit": true,
+   "tone": "tense",
+   "highlight": [
+    0.1855,
+    0.2215,
+    0.6291,
+    0.0713
+   ]
+  },
+  {
+   "id": "a4_3",
+   "text": "It is United Ninety Three. And the reports are not radar. They are based on a projected flight path.",
+   "img": "ex_commission_p41",
+   "exhibit": true,
+   "tone": "tense",
+   "source": "9/11 Commission Report, ch. 1, p. 41",
+   "highlight": [
+    0.1855,
+    0.3176,
+    0.6291,
+    0.0393
+   ]
+  },
+  {
+   "id": "a4_4",
+   "text": "At three minutes and eleven seconds past ten, United Ninety Three goes into a field in Pennsylvania. Everyone in that bunker is now tracking a plane that no longer exists.",
+   "img": "ua93_field",
+   "tone": "grave",
+   "stat": "10:03:11"
+  },
+  {
+   "id": "a4_5",
+   "text": "Between ten past ten and a quarter past, a military aide comes into the room and says the aircraft is eighty miles out. He asks whether the fighters have authority to engage.",
+   "img": "ex_commission_p41",
+   "exhibit": true,
+   "tone": "tense",
+   "highlight": [
+    0.1855,
+    0.3494,
+    0.629,
+    0.0555
+   ]
+  },
+  {
+   "id": "a4_6",
+   "text": "The Vice President says yes. One of the men in the room, Scooter Libby, later described how long the decision took. In about the time it takes a batter to decide to swing.",
+   "img": "ex_commission_p41",
+   "exhibit": true,
+   "tone": "grave",
+   "source": "9/11 Commission Report, ch. 1, p. 41",
+   "highlight": [
+    0.1855,
+    0.3978,
+    0.6291,
+    0.0553
+   ]
+  },
+  {
+   "id": "a4_7",
+   "text": "A few minutes later the aide is back. Sixty miles out. He asks again. The Vice President says yes again.",
+   "img": "ex_libby_note",
+   "exhibit": true,
+   "tone": "grave",
+   "highlight": [
+    0.1855,
+    0.2144,
+    0.6291,
+    0.019
+   ]
+  },
+  {
+   "id": "a4_8",
+   "text": "Libby was writing it down as it happened. His note is the single best piece of paper we have from inside that room.",
+   "img": "ex_libby_note",
+   "exhibit": true,
+   "tone": "tense",
+   "source": "9/11 Commission Report, n. 220",
+   "highlight": [
+    0.1855,
+    0.1916,
+    0.196,
+    0.019
+   ]
+  },
+  {
+   "id": "a4_9",
+   "text": "Ten fifteen to eighteen. Aircraft sixty miles out, confirmed as hijack. Engage? V P. Yes.",
+   "img": "ex_libby_note",
+   "exhibit": true,
+   "tone": "grave",
+   "highlight": [
+    0.1855,
+    0.203,
+    0.6291,
+    0.0418
+   ]
+  },
+  {
+   "id": "a4_10",
+   "text": "And then the last line of that note, which is the reason this episode exists.",
+   "img": "ex_libby_note",
+   "exhibit": true,
+   "tone": "tense",
+   "highlight": [
+    0.1855,
+    0.2144,
+    0.6291,
+    0.0304
+   ]
+  },
+  {
+   "id": "a4_11",
+   "text": "J B. Get President and confirm engage order.",
+   "img": "ex_libby_note",
+   "exhibit": true,
+   "tone": "grave",
+   "stat": "Confirm engage order",
+   "highlight": [
+    0.1855,
+    0.2144,
+    0.6291,
+    0.0304
+   ]
+  },
+  {
+   "id": "a4_12",
+   "text": "J B is Joshua Bolten, the deputy chief of staff. He had been sitting there listening. After what the report calls a quiet moment, he suggested the Vice President call the President and confirm the order.",
+   "img": "ex_commission_p41",
+   "exhibit": true,
+   "tone": "grave",
+   "source": "9/11 Commission Report, ch. 1, p. 41",
+   "highlight": [
+    0.1855,
+    0.51,
+    0.629,
+    0.0713
+   ]
+  },
+  {
+   "id": "a4_13",
+   "text": "Think about what that request means. A man in the room believed the order that had just been given needed confirming from someone else.",
+   "video": "c_bush_4_3.mp4",
+   "tone": "grave"
+  },
+  {
+   "id": "a4_14",
+   "text": "Because the Vice President of the United States is not in the military chain of command.",
+   "img": "ex_commission_p43",
+   "exhibit": true,
+   "tone": "grave",
+   "highlight": [
+    0.2093,
+    0.3657,
+    0.6052,
+    0.0232
+   ]
+  },
+  {
+   "id": "a4_15",
+   "text": "The chain runs from the President, to the Secretary of Defense, to the combatant commander. Not through the Vice President. The report states it plainly on page forty three.",
+   "img": "ex_commission_p43",
+   "exhibit": true,
+   "tone": "grave",
+   "source": "9/11 Commission Report, ch. 1, p. 43",
+   "highlight": [
+    0.1855,
+    0.3657,
+    0.629,
+    0.0393
+   ]
+  },
+  {
+   "id": "a4_16",
+   "text": "The Secretary of Defense, Donald Rumsfeld, was at the Pentagon. The Pentagon had just been hit. He was outside, helping with the wounded.",
+   "img": "pentagon_damage",
+   "tone": "grave"
+  },
+  {
+   "id": "a4_17",
+   "text": "At eighteen minutes past ten, the logs show the Vice President calling the President. A two minute call that, in the board's words, obtained the confirmation.",
+   "img": "ex_commission_p41",
+   "exhibit": true,
+   "tone": "tense",
+   "source": "9/11 Commission Report, ch. 1, p. 41, n. 221",
+   "highlight": [
+    0.2093,
+    0.6061,
+    0.6052,
+    0.0232
+   ]
+  },
+  {
+   "id": "a4_18",
+   "text": "Two minutes after that, Fleischer writes in his notebook that the President had authorised a shootdown of aircraft if necessary.",
+   "img": "ex_fleischer_notes",
+   "exhibit": true,
+   "tone": "grave",
+   "stat": "10:20",
+   "highlight": [
+    0.1855,
+    0.6382,
+    0.6291,
+    0.0713
+   ]
+  },
+  {
+   "id": "a4_19",
+   "text": "And the board adds one sentence about that note which does a great deal of work. Fleischer's ten twenty note is the first mention of shootdown authority.",
+   "img": "ex_libby_note",
+   "exhibit": true,
+   "tone": "grave",
+   "source": "9/11 Commission Report, ch. 1, p. 41, n. 221",
+   "highlight": [
+    0.1855,
+    0.2486,
+    0.6291,
+    0.0304
+   ]
+  },
+  {
+   "id": "a4_20",
+   "text": "The first. Not a record of an earlier decision. The first.",
+   "img": "ex_libby_note",
+   "exhibit": true,
+   "tone": "grave",
+   "highlight": [
+    0.1855,
+    0.2486,
+    0.6291,
+    0.0304
+   ]
+  },
+  {
+   "id": "a4_21",
+   "text": "Which matters, because the Vice President has always said he was not making that decision. He has said the President had already authorised it, in an earlier call.",
+   "video": "c_af1_1_4.mp4",
+   "tone": "tense"
+  },
+  {
+   "id": "a4_22",
+   "text": "So the board went looking for that earlier call. Here is what they found, and this is verbatim.",
+   "img": "ex_commission_p40",
+   "exhibit": true,
+   "tone": "tense",
+   "highlight": [
+    0.2093,
+    0.8465,
+    0.6052,
+    0.0232
+   ]
+  },
+  {
+   "id": "a4_23",
+   "text": "We believe this call would have taken place sometime before ten ten to ten fifteen. Among the sources that reflect other important events of that morning, there is no documentary evidence for this call.",
+   "img": "ex_commission_p40",
+   "exhibit": true,
+   "tone": "grave",
+   "source": "9/11 Commission Report, ch. 1, pp. 40-41",
+   "highlight": [
+    0.2093,
+    0.8302,
+    0.5367,
+    0.0395
+   ]
+  },
+  {
+   "id": "a4_24",
+   "text": "And then the part that is rarely quoted. Others nearby who were taking notes, such as Scooter Libby and Mrs Cheney, did not note a call.",
+   "img": "ex_commission_p41",
+   "exhibit": true,
+   "tone": "grave",
+   "source": "9/11 Commission Report, ch. 1, p. 41",
+   "highlight": [
+    0.1855,
+    0.2055,
+    0.629,
+    0.0232
+   ]
+  },
+  {
+   "id": "a4_25",
+   "text": "The same man whose handwriting gives us the clearest record of the order recorded no earlier call authorising it. Neither did the Vice President's wife, sitting beside him, also writing.",
+   "img": "ex_libby_note",
+   "exhibit": true,
+   "tone": "grave",
+   "highlight": [
+    0.1855,
+    0.1916,
+    0.196,
+    0.019
+   ]
+  },
+  {
+   "id": "a4_26",
+   "text": "The board does not call anyone a liar. It says the sources are incomplete. We will do the same. What can be said is that the paper does not show what it would need to show.",
+   "video": "c_af1_2_4.mp4",
+   "tone": "grave"
+  },
+  {
+   "id": "a5_ch",
+   "text": "Down the chain.",
+   "chapter": "ID type and tail",
+   "img": "ex_commission_p43",
+   "tone": "grave"
+  },
+  {
+   "id": "a5_1",
+   "text": "So an order exists. The question is what happened to it.",
+   "video": "c_barksdale_1_4.mp4",
+   "tone": "tense"
+  },
+  {
+   "id": "a5_2",
+   "text": "At thirty one minutes past ten, a message goes out over the North American Aerospace Defense Command's internal chat system.",
+   "img": "ex_norad_chat",
+   "exhibit": true,
+   "tone": "tense",
+   "highlight": [
+    0.1855,
+    0.542,
+    0.6291,
+    0.0553
+   ]
+  },
+  {
+   "id": "a5_3",
+   "text": "Ten thirty one. Vice president has cleared to us to intercept tracks of interest and shoot them down if they do not respond, per General Arnold.",
+   "img": "ex_norad_chat",
+   "exhibit": true,
+   "tone": "grave",
+   "source": "9/11 Commission Report, ch. 1, p. 42, n. 229-230",
+   "highlight": [
+    0.1855,
+    0.558,
+    0.629,
+    0.0553
+   ]
+  },
+  {
+   "id": "a5_4",
+   "text": "That is the first time the shootdown authority reaches the people who would have to carry it out.",
+   "img": "ex_norad_chat",
+   "exhibit": true,
+   "tone": "grave",
+   "stat": "10:31",
+   "highlight": [
+    0.1855,
+    0.558,
+    0.629,
+    0.0553
+   ]
+  },
+  {
+   "id": "a5_5",
+   "text": "United Ninety Three had crashed at three minutes and eleven seconds past ten. The order arrived twenty eight minutes after the aeroplane it concerned was already in the ground.",
+   "img": "ua93_field",
+   "tone": "grave",
+   "stat": "28 minutes late"
+  },
+  {
+   "id": "a5_6",
+   "text": "And it still did not reach the pilots.",
+   "img": "ex_commission_p43",
+   "exhibit": true,
+   "tone": "tense",
+   "highlight": [
+    0.1855,
+    0.2696,
+    0.629,
+    0.0393
+   ]
+  },
+  {
+   "id": "a5_7",
+   "text": "The fighters over Washington that morning were from Langley. What they were actually told, in the board's own words, was this.",
+   "img": "ex_commission_p43",
+   "exhibit": true,
+   "tone": "tense",
+   "highlight": [
+    0.1855,
+    0.3177,
+    0.6291,
+    0.0393
+   ]
+  },
+  {
+   "id": "a5_8",
+   "text": "The only orders actually conveyed to the pilots were to identify type and tail.",
+   "img": "ex_commission_p43",
+   "exhibit": true,
+   "tone": "grave",
+   "source": "9/11 Commission Report, ch. 1, p. 43",
+   "highlight": [
+    0.1855,
+    0.3337,
+    0.629,
+    0.0393
+   ]
+  },
+  {
+   "id": "a5_9",
+   "text": "Identify type and tail. Go and look at it and tell us what it is. At ten past ten those pilots had been told, in writing, negative clearance to shoot.",
+   "img": "ex_commission_p45",
+   "exhibit": true,
+   "tone": "grave",
+   "highlight": [
+    0.1855,
+    0.526,
+    0.629,
+    0.0232
+   ]
+  },
+  {
+   "id": "a5_10",
+   "text": "And then the finding this whole film has been walking towards, on page forty four.",
+   "img": "ex_commission_p44",
+   "exhibit": true,
+   "tone": "tense",
+   "highlight": [
+    0.1855,
+    0.2052,
+    0.629,
+    0.0395
+   ]
+  },
+  {
+   "id": "a5_11",
+   "text": "The Vice President was mistaken in his belief that shootdown authorisation had been passed to the pilots.",
+   "img": "ex_commission_p44",
+   "exhibit": true,
+   "tone": "grave",
+   "source": "9/11 Commission Report, ch. 1, p. 44",
+   "highlight": [
+    0.1855,
+    0.2052,
+    0.629,
+    0.0555
+   ]
+  },
+  {
+   "id": "a5_12",
+   "text": "He thought he had given an order that was being carried out. It was not being carried out. Nobody in a cockpit had been told.",
+   "video": "c_barksdale_2_4.mp4",
+   "tone": "grave"
+  },
+  {
+   "id": "a5_12a",
+   "text": "And while that order was going nowhere, something else was happening at Andrews Air Force Base, ten miles from the Capitol.",
+   "img": "ex_commission_p44",
+   "exhibit": true,
+   "tone": "tense",
+   "highlight": [
+    0.1855,
+    0.2856,
+    0.6291,
+    0.0232
+   ]
+  },
+  {
+   "id": "a5_12b",
+   "text": "The District of Columbia Air National Guard was putting fighters into the air. Not because Norad told them to. Because the Secret Service picked up a phone and asked.",
+   "video": "c_bush_2_4.mp4",
+   "tone": "tense"
+  },
+  {
+   "id": "a5_12c",
+   "text": "The board's finding on that launch is as stark as the one about the Vice President. Those aircraft went up outside the military chain of command.",
+   "img": "ex_commission_p44",
+   "exhibit": true,
+   "tone": "grave",
+   "source": "9/11 Commission Report, ch. 1, p. 44",
+   "highlight": [
+    0.1855,
+    0.5741,
+    0.629,
+    0.0393
+   ]
+  },
+  {
+   "id": "a5_12d",
+   "text": "Norad did not know they were up. The National Military Command Center did not know. The President did not know. The Vice President did not know.",
+   "img": "ex_commission_p44",
+   "exhibit": true,
+   "tone": "grave",
+   "highlight": [
+    0.1855,
+    0.5741,
+    0.6291,
+    0.0553
+   ]
+  },
+  {
+   "id": "a5_12e",
+   "text": "The first of them was airborne at thirty eight minutes past ten.",
+   "video": "c_bush_3_4.mp4",
+   "tone": "tense",
+   "stat": "10:38"
+  },
+  {
+   "id": "a5_12f",
+   "text": "So hold the two halves of this next to each other. In a bunker, an order to engage, given by a man outside the chain, reaching no pilot.",
+   "img": "ex_libby_note",
+   "exhibit": true,
+   "tone": "grave",
+   "highlight": [
+    0.1855,
+    0.2144,
+    0.6291,
+    0.019
+   ]
+  },
+  {
+   "id": "a5_12g",
+   "text": "Over Washington, pilots in the air, launched outside the chain, who the chain did not know were there.",
+   "video": "c_bush_4_4.mp4",
+   "tone": "grave"
+  },
+  {
+   "id": "a5_12h",
+   "text": "Two failures of the same system, running in opposite directions, in the same twenty minutes.",
+   "img": "ex_commission_p43",
+   "exhibit": true,
+   "tone": "grave",
+   "highlight": [
+    0.1855,
+    0.3177,
+    0.6291,
+    0.0393
+   ]
+  },
+  {
+   "id": "a5_13",
+   "text": "At thirty nine minutes past ten, the Vice President and the Secretary of Defense finally speak. And the transcript of that call is the whole morning in miniature.",
+   "img": "ex_commission_p43",
+   "exhibit": true,
+   "tone": "tense",
+   "highlight": [
+    0.1855,
+    0.4298,
+    0.6291,
+    0.0553
+   ]
+  },
+  {
+   "id": "a5_14",
+   "text": "The Vice President says they have already taken a couple of aircraft out.",
+   "img": "ex_commission_p43",
+   "exhibit": true,
+   "tone": "grave",
+   "highlight": [
+    0.2093,
+    0.6862,
+    0.5814,
+    0.0553
+   ]
+  },
+  {
+   "id": "a5_15",
+   "text": "They had not. The board's next paragraph says he was mistaken. No aircraft had been engaged by anyone.",
+   "img": "ex_commission_p44",
+   "exhibit": true,
+   "tone": "grave",
+   "note": "NEVER run the 'taken a couple out' line without this correction. CLAIMS §11.",
+   "highlight": [
+    0.1855,
+    0.2052,
+    0.629,
+    0.0395
+   ]
+  },
+  {
+   "id": "a5_16",
+   "text": "By the end of that same call he says it himself. We can't confirm that. We're told that one aircraft is down but we do not have a pilot report that did it.",
+   "img": "ex_commission_p43",
+   "exhibit": true,
+   "tone": "grave",
+   "source": "9/11 Commission Report, ch. 1, p. 43",
+   "highlight": [
+    0.2331,
+    0.7343,
+    0.5576,
+    0.0393
+   ]
+  },
+  {
+   "id": "a5_16a",
+   "text": "There is one more moment in that bunker that says everything about the information they were working from.",
+   "img": "ex_commission_p41",
+   "exhibit": true,
+   "tone": "tense",
+   "highlight": [
+    0.1855,
+    0.526,
+    0.629,
+    0.0393
+   ]
+  },
+  {
+   "id": "a5_16b",
+   "text": "At about half past ten, another report comes in. Another hijacked aircraft, five to ten miles out.",
+   "img": "ex_commission_p41",
+   "exhibit": true,
+   "tone": "tense",
+   "source": "9/11 Commission Report, ch. 1, p. 41",
+   "highlight": [
+    0.1855,
+    0.7023,
+    0.629,
+    0.0713
+   ]
+  },
+  {
+   "id": "a5_16c",
+   "text": "The Vice President authorises engagement again. Take it out.",
+   "img": "ex_commission_p41",
+   "exhibit": true,
+   "tone": "grave",
+   "source": "9/11 Commission Report, ch. 1, p. 41",
+   "highlight": [
+    0.1855,
+    0.7503,
+    0.629,
+    0.0393
+   ]
+  },
+  {
+   "id": "a5_16d",
+   "text": "It was a medical evacuation helicopter.",
+   "img": "ex_commission_p42",
+   "exhibit": true,
+   "tone": "grave",
+   "highlight": [
+    0.1855,
+    0.1894,
+    0.629,
+    0.0393
+   ]
+  },
+  {
+   "id": "a5_16e",
+   "text": "Nothing happened to it, because the order had nowhere to go. That is the only reason.",
+   "video": "c_af1_1_5.mp4",
+   "tone": "grave"
+  },
+  {
+   "id": "a5_17",
+   "text": "One aircraft was down. Forty people had put it there.",
+   "img": "ua93_field",
+   "tone": "grave"
+  },
+  {
+   "id": "a6_ch",
+   "text": "The claim.",
+   "chapter": "Testing a theory",
+   "img": "ua93_field",
+   "tone": "tense"
+  },
+  {
+   "id": "a6_1",
+   "text": "There is a version of this story that says the order was carried out. That United Ninety Three was shot down, and that the passenger revolt is the cover story.",
+   "img": "ua93_field",
+   "tone": "tense"
+  },
+  {
+   "id": "a6_2",
+   "text": "It is worth stating fairly, because it is not made of nothing. Its supporters point to debris found well away from the crash site, to witnesses who described a second aircraft, and to the Vice President's own ambiguous remarks that morning.",
+   "img": "ua93_field",
+   "tone": "neutral"
+  },
+  {
+   "id": "a6_3",
+   "text": "So let us test it, plank by plank, against the record.",
+   "img": "ex_commission_p44",
+   "exhibit": true,
+   "tone": "tense",
+   "highlight": [
+    0.1855,
+    0.6862,
+    0.629,
+    0.0232
+   ]
+  },
+  {
+   "id": "a6_4",
+   "text": "First. The order reached the North American Aerospace Defense Command at thirty one minutes past ten. The aeroplane hit the ground at three minutes past ten. An order that arrives twenty eight minutes late cannot have been executed.",
+   "img": "ex_norad_chat",
+   "exhibit": true,
+   "tone": "grave",
+   "highlight": [
+    0.1855,
+    0.542,
+    0.6291,
+    0.0553
+   ]
+  },
+  {
+   "id": "a6_5",
+   "text": "Second. The pilots were never told to shoot. The board is explicit. The only orders actually conveyed to them were to identify type and tail.",
+   "img": "ex_commission_p43",
+   "exhibit": true,
+   "tone": "grave",
+   "highlight": [
+    0.1855,
+    0.3337,
+    0.629,
+    0.0393
+   ]
+  },
+  {
+   "id": "a6_6",
+   "text": "Third, and this is the one that ends it. The defence sector responsible did not know United Ninety Three existed until after it had crashed.",
+   "img": "ex_commission_p44",
+   "exhibit": true,
+   "tone": "grave",
+   "source": "9/11 Commission Report, ch. 1, p. 44",
+   "highlight": [
+    0.1855,
+    0.7503,
+    0.629,
+    0.0393
+   ]
+  },
+  {
+   "id": "a6_7",
+   "text": "They first heard of it at seven minutes past ten, from a civilian centre's military liaison. Four minutes after it was already down.",
+   "img": "ex_commission_p45",
+   "exhibit": true,
+   "tone": "grave",
+   "stat": "10:07",
+   "source": "9/11 Commission Report, ch. 1, p. 45",
+   "highlight": [
+    0.1855,
+    0.2055,
+    0.6291,
+    0.0232
+   ]
+  },
+  {
+   "id": "a6_8",
+   "text": "The command had originally told investigators it had been tracking the flight since nine sixteen. That timeline turned out to be false. The board said so.",
+   "img": "ex_commission_p44",
+   "exhibit": true,
+   "tone": "grave",
+   "highlight": [
+    0.1855,
+    0.7503,
+    0.629,
+    0.0232
+   ]
+  },
+  {
+   "id": "a6_9",
+   "text": "You cannot shoot down an aircraft you have not been told about, with an order that has not arrived, using pilots who were told to identify it.",
+   "video": "c_af1_2_5.mp4",
+   "tone": "grave"
+  },
+  {
+   "id": "a6_10",
+   "text": "And there is one more line, endlessly quoted by people arguing for the shootdown, which says the opposite of what they think it says.",
+   "img": "ex_commission_p44",
+   "exhibit": true,
+   "tone": "tense",
+   "highlight": [
+    0.1855,
+    0.6862,
+    0.629,
+    0.0232
+   ]
+  },
+  {
+   "id": "a6_11",
+   "text": "Norad officials have maintained that they would have intercepted and shot down United Ninety Three. We are not so sure.",
+   "img": "ex_commission_p44",
+   "exhibit": true,
+   "tone": "grave",
+   "source": "9/11 Commission Report, ch. 1, pp. 44-46",
+   "highlight": [
+    0.1855,
+    0.6862,
+    0.629,
+    0.0232
+   ]
+  },
+  {
+   "id": "a6_12",
+   "text": "Read it again. The board is not doubting the official story. The board is doubting the military's claim that it could have stopped the plane at all.",
+   "img": "ex_commission_p44",
+   "exhibit": true,
+   "tone": "grave",
+   "highlight": [
+    0.1855,
+    0.6862,
+    0.6291,
+    0.0713
+   ]
+  },
+  {
+   "id": "a6_13",
+   "text": "And all forty four people aboard were identified. Fingerprints, dental records, and D N A, overseen by the county coroner. Thirty three passengers, seven crew, and four hijackers.",
+   "img": "ex_commission_p44",
+   "exhibit": true,
+   "tone": "grave",
+   "stat": "44 identified",
+   "highlight": [
+    0.1855,
+    0.6862,
+    0.6291,
+    0.0713
+   ]
+  },
+  {
+   "id": "a7_ch",
+   "text": "Angel.",
+   "chapter": "A threat that wasn't",
+   "img": "af1_still",
+   "tone": "tense"
+  },
+  {
+   "id": "a7_1",
+   "text": "Around half past ten, a warning spreads through the bunker and onto the aeroplane. A call had come into the White House switchboard.",
+   "video": "c_barksdale_1_5.mp4",
+   "tone": "tense"
+  },
+  {
+   "id": "a7_2",
+   "text": "Angel is next. Angel was the internal call sign for Air Force One, and it was not public.",
+   "img": "ex_commission_ch10n1",
+   "exhibit": true,
+   "tone": "grave",
+   "stat": "10:32",
+   "source": "9/11 Commission Report, ch. 10, n. 1",
+   "highlight": [
+    0.1855,
+    0.3625,
+    0.629,
+    0.0304
+   ]
+  },
+  {
+   "id": "a7_3",
+   "text": "Which meant, to the people on board, that whoever made that call knew something they should not have known. Agents were posted in the aisle and at the cockpit door.",
+   "video": "c_barksdale_2_5.mp4",
+   "tone": "grave"
+  },
+  {
+   "id": "a7_4",
+   "text": "Here is what the record actually says, and it is more complicated than the version you usually hear.",
+   "img": "ex_commission_ch10n1",
+   "exhibit": true,
+   "tone": "tense",
+   "highlight": [
+    0.1855,
+    0.3625,
+    0.629,
+    0.0304
+   ]
+  },
+  {
+   "id": "a7_5",
+   "text": "The report describes a reported threat to Angel that originated in a misunderstanding by a watch officer in the White House Situation Room, and it calls the threat unfounded.",
+   "img": "ex_commission_ch10n1",
+   "exhibit": true,
+   "tone": "grave",
+   "source": "9/11 Commission Report, ch. 10, n. 1",
+   "highlight": [
+    0.1855,
+    0.4309,
+    0.6291,
+    0.0304
+   ]
+  },
+  {
+   "id": "a7_6",
+   "text": "But it also records that the director of the Situation Room disputes that account. So the report does not say the words were never spoken. It says the threat was unfounded, and that there is an argument about how it started.",
+   "img": "ex_commission_ch10n1",
+   "exhibit": true,
+   "tone": "neutral",
+   "note": "CLAIMS §8 — do NOT flatten to 'those words were never said'. Popular videos do.",
+   "highlight": [
+    0.1855,
+    0.4423,
+    0.629,
+    0.0304
+   ]
+  },
+  {
+   "id": "a7_7",
+   "text": "And one thing that gets the order of events backwards. The threat arrived after the decision not to return to Washington had already been taken. It did not cause the diversion.",
+   "video": "c_bush_2_5.mp4",
+   "tone": "grave",
+   "note": "CLAIMS §8 — Neo's 14.9M-view video implies causation. It is not there."
+  },
+  {
+   "id": "a7_8",
+   "text": "The President wanted to go home. He said so, repeatedly, and he was overruled by people whose job was to keep him alive.",
+   "video": "c_bush_3_5.mp4",
+   "tone": "grave"
+  },
+  {
+   "id": "a7_9",
+   "text": "So instead the aeroplane went to Barksdale Air Force Base in Louisiana. It landed there at about a quarter to twelve.",
+   "video": "c_bush_4_5.mp4",
+   "tone": "neutral"
+  },
+  {
+   "id": "a7_10",
+   "text": "And from a room with portraits of airmen on the wall, he spoke to the country a second time.",
+   "video": "c_af1_1_1.mp4",
+   "tone": "grave"
+  },
+  {
+   "id": "a7_11",
+   "text": "Freedom itself was attacked this morning.",
+   "video": "c_af1_2_1.mp4",
+   "tone": "grave"
+  },
+  {
+   "id": "a7_12",
+   "text": "Then on again, west, to Offutt Air Force Base in Nebraska, where the United States Strategic Command keeps a bunker forty feet underground. He landed there just before three in the afternoon.",
+   "video": "c_barksdale_1_1.mp4",
+   "tone": "neutral"
+  },
+  {
+   "id": "a7_13",
+   "text": "A note on the times for those last legs. The commission gives far fewer of them than the retellings do. We could not source the departure minutes from Barksdale or Offutt to a primary document, so we are not going to state them as fact.",
+   "img": "ex_commission_p325",
+   "exhibit": true,
+   "tone": "neutral",
+   "note": "NEEDS SOURCE — CLAIMS §7. Three conflicting figures in circulation for each.",
+   "highlight": [
+    0.1855,
+    0.604,
+    0.6291,
+    0.0393
+   ]
+  },
+  {
+   "id": "a7_14",
+   "text": "By the evening the airspace over the United States was empty. A complete closure had been ordered, and by around quarter past twelve every commercial and general aviation aircraft in the country was on the ground.",
+   "video": "c_barksdale_2_1.mp4",
+   "tone": "grave"
+  },
+  {
+   "id": "a7_15",
+   "text": "Air Force One flew the last leg home almost alone in American airspace, which is what it had been for most of the day anyway.",
+   "video": "c_bush_2_1.mp4",
+   "tone": "grave"
+  },
+  {
+   "id": "c_ch",
+   "text": "What the record says.",
+   "chapter": "The record",
+   "img": "ex_commission_p44",
+   "tone": "grave"
+  },
+  {
+   "id": "c1",
+   "text": "Strip out the argument and what is left is a sequence that nobody designed.",
+   "img": "ex_commission_p43",
+   "exhibit": true,
+   "tone": "grave",
+   "highlight": [
+    0.1855,
+    0.3177,
+    0.6291,
+    0.0393
+   ]
+  },
+  {
+   "id": "c2",
+   "text": "A request for fighter escort made at nine fifty nine, answered at about half past eleven.",
+   "video": "c_bush_3_1.mp4",
+   "tone": "grave"
+  },
+  {
+   "id": "c3",
+   "text": "An order to shoot down a civilian airliner, given by a man the chain of command does not run through, about an aeroplane that had already crashed.",
+   "img": "ex_libby_note",
+   "exhibit": true,
+   "tone": "grave",
+   "highlight": [
+    0.1855,
+    0.2144,
+    0.6291,
+    0.019
+   ]
+  },
+  {
+   "id": "c4",
+   "text": "A confirmation call whose existence the board could not document, from a room where two other people were writing everything down and recorded no such call.",
+   "img": "ex_commission_p41",
+   "exhibit": true,
+   "tone": "grave",
+   "source": "9/11 Commission Report, ch. 1, p. 41",
+   "highlight": [
+    0.1855,
+    0.1574,
+    0.629,
+    0.0393
+   ]
+  },
+  {
+   "id": "c5",
+   "text": "And authority that reached the defence command twenty eight minutes too late, and reached the pilots not at all.",
+   "img": "ex_norad_chat",
+   "exhibit": true,
+   "tone": "grave",
+   "highlight": [
+    0.1855,
+    0.2052,
+    0.5515,
+    0.0555
+   ]
+  },
+  {
+   "id": "c6",
+   "text": "None of this is a conspiracy. All of it is in the report, in the notes, and on the tapes, and it has been public for more than twenty years.",
+   "img": "ex_commission_p44",
+   "exhibit": true,
+   "tone": "grave",
+   "highlight": [
+    0.1855,
+    0.6862,
+    0.629,
+    0.0232
+   ]
+  },
+  {
+   "id": "c6a",
+   "text": "Almost all of it got fixed. Not by an inquiry, but because the people inside it could see what had happened while it was happening.",
+   "img": "ex_commission_p45",
+   "exhibit": true,
+   "tone": "neutral",
+   "highlight": [
+    0.1855,
+    0.7183,
+    0.629,
+    0.0393
+   ]
+  },
+  {
+   "id": "c6b",
+   "text": "The rules for who can authorise engaging a civilian aircraft were written down. The link between the civil aviation authority and the military was rebuilt so that a hijacking reaches a defence sector in minutes, not never.",
+   "img": "ex_commission_p45",
+   "exhibit": true,
+   "tone": "neutral",
+   "highlight": [
+    0.1855,
+    0.7183,
+    0.629,
+    0.0393
+   ]
+  },
+  {
+   "id": "c6c",
+   "text": "The board's own summary of the morning is four words long, and it is not about any individual.",
+   "img": "ex_commission_p45",
+   "exhibit": true,
+   "tone": "tense",
+   "highlight": [
+    0.1855,
+    0.7503,
+    0.6291,
+    0.0393
+   ]
+  },
+  {
+   "id": "c6d",
+   "text": "Improvised. Untested. Unfamiliar. Unprepared.",
+   "img": "ex_commission_p45",
+   "exhibit": true,
+   "tone": "grave",
+   "note": "NEEDS SOURCE — confirm this compound phrasing against p.45 before VO. If not verbatim, cut it.",
+   "highlight": [
+    0.1855,
+    0.7503,
+    0.6291,
+    0.0393
+   ]
+  },
+  {
+   "id": "c7",
+   "text": "The forty people on United Ninety Three did not know any of that. They took a vote, and they went up the aisle, and they brought the aeroplane down themselves.",
+   "img": "ua93_field",
+   "tone": "grave"
+  },
+  {
+   "id": "c8",
+   "text": "The system that was supposed to protect them never knew they were there.",
+   "img": "ex_commission_p42",
+   "exhibit": true,
+   "tone": "grave",
+   "highlight": [
+    0.1855,
+    0.558,
+    0.629,
+    0.0232
+   ]
+  },
+  {
+   "id": "bridge",
+   "text": "If the part that stays with you is an order that went nowhere, we made the film about the tapes that proved the military's own timeline was wrong. The Tapes That Broke Norad's Nine Eleven Story, right here on this channel. And subscribe to Black Box Breakdown so you don't miss the next one.",
+   "img": "ex_commission_p44",
+   "tone": "warm"
+  }
+ ]
+}

@@ -236,3 +236,26 @@ Format per entry:
   this exact misconception in one day — consider flagging it more visibly
   (e.g. a standing note Akshay sees before requesting footage) if it recurs
   again.
+
+## AF447 — real Studio number, 2026-09-20 (the loop's first hard data point)
+
+**"Air France 447 Fell for 3 Minutes And Nobody Knew Why"** (published 2026-07-15,
+25:17, A/B test completed) — **2,088 views** as of 2026-09-20, read from Akshay's
+Studio.
+
+AF447 had passed icahn-validate with a **617.8:1** headline, five more outliers over
+100:1, and 9.2M / 18M ceilings. It did 2,088. **Every one of those outliers was
+2012-2019**, and the freshest uploads on the topic were near-zero-view copycats.
+
+**Lesson, now enforced:** a raw-Icahn PASS additionally requires at least one outlier
+**under 12 months old with real absolute views**. Freshness outranks ratio. This
+directly decided the 2026-09-20 sweep — Jeju Air 2216 (55:1, all-fresh) was taken
+over KAL 007 (602:1, all 2009-2013).
+
+**Second lesson:** `CLAIMS-*.md` is not a publication record. AF447 shipped without
+one and was nearly re-validated as a new topic. Duplicate-check against Studio.
+
+**STILL OWED:** real 48h diagnoses (impressions / CTR / avg % viewed) for
+groundzeroair, colossalsquid, projecthailmary, and the Columbia + Air Force One
+uploads once live. Views alone are not a diagnosis — without the impressions pool
+and CTR we cannot tell a demand failure from a packaging failure.
