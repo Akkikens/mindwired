@@ -3,7 +3,7 @@
 Single-file summary of everything done on this episode. Read `CLAUDE.md` first for
 the production manual; this doc is the episode-specific state.
 
-## Status: VO + PREFLIGHT + COMP DONE — 4K RENDER RUNNING on Akshay's local machine via GCE (packaging drafted, not yet finalized)
+## Status: VO + PREFLIGHT + COMP DONE — FINAL 4K RENDER COMMAND READY (see §7; prior attempt's outcome unconfirmed, and it had NO music bed — the final render adds windowed `bed_awe_laniakea`)
 
 ## Files
 | What | Path |
@@ -176,13 +176,40 @@ service-account JSON — unusable here).
 
 **Resolution: Akshay is running the render himself**, locally, per this
 repo's own documented convention for exactly this situation (see other
-`*-HANDOFF.md` files' "only Akshay can run gcloud auth login" notes):
+`*-HANDOFF.md` files' "only Akshay can run gcloud auth login" notes).
+
+**THE FINAL RENDER COMMAND (2026-10-05 — supersedes earlier attempts):**
 ```
-cd ~/mindwired   # his existing local clone
+cd ~/mindwired
 git checkout claude/best-video-project-lf3bau && git pull
-scripts/render_gce.sh ProjectHailMaryDoc projecthailmary
-# optionally: --music public/beds/bed_awe_<name>.mp3 --windows projecthailmary --music-gain-db -20
+CHUNKED=1 scripts/render_gce.sh ProjectHailMaryDoc projecthailmary \
+  --music public/beds/bed_awe_laniakea.mp3 --windows projecthailmary --music-gain-db -20
 ```
+If every on-demand combo reports NO CAPACITY (happened 2026-09), prefix
+`GCE_SPOT=1 ` and re-run (preemption risk accepted; the poll loop detects
+"VM GONE" and says to re-run).
+
+Why each piece (don't drop any):
+- **4K** — `--scale 2` is hardcoded in render_gce.sh; nothing to pass.
+- **`CHUNKED=1`** — the first attempt died on the known intermittent
+  delayRender font race (memory `starfishprime-video-10fps-bug`); chunked
+  mode is the documented workaround and shipped Challenger cleanly.
+- **Windowed music** — earlier attempts had NO `--music` at all: a bone-dry
+  11.5-min doc, which no shipped episode does. 11:28 total is over the
+  ~8-10 min line where CLAUDE.md mandates windowed (not continuous) bed.
+  `bed_awe_laniakea` = awe family (mindwired tone map), rotates clean off
+  Fermi Paradox (eventhorizon) and Apollo 13 (pulsar). doctiming computes
+  the windows; last window stops at body-end so the bed never bleeds into
+  the baked outro (same as every shipped windowed episode).
+- Chunked + windowed music together is proven (Challenger: 119/119 chunks,
+  16 mix windows).
+
+**If a finished `out/projecthailmary_gce.mp4` from the earlier (music-less)
+attempt already exists on his machine, DON'T delete it** — mastering is
+audio-only (`-c:v copy` in every scripts/lib/master.py path), so the
+windowed bed can be mixed onto that existing 4K video losslessly in minutes
+with no second GCE render. Say so before re-running the big command.
+
 This lands the master at `out/projecthailmary_gce.mp4` **on his machine**, not
 in this session — so the next session/agent picking this up needs him to
 share that file, or needs to run the verification steps below itself once it
