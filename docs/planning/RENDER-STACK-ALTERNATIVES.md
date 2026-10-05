@@ -80,11 +80,18 @@ the cheapest speed experiment available and should be benchmarked BEFORE any
 external candidate. Docs: remotion.dev/docs/web-renderer.
 
 ### 0.5 Immediate Remotion tuning for THIS repo's exact pain (VERIFIED docs guidance)
-- **The delayRender font race we hit on GCE:** current guidance is to
-  centralize font loading and use @remotion/fonts' waitUntilDone()/
-  waitForFonts() rather than ad-hoc delayRender plumbing. `src/lib/fonts.ts`
-  already uses @remotion/fonts loadFont — audit whether the wait pattern is
-  wired in; CHUNKED=1 is the workaround, this is the fix.
+- **The delayRender font race we hit on GCE — root cause CONFIRMED
+  (2026-10-05, mindwiredprocess local render):** `src/lib/fonts.ts` loads
+  **14 font faces at module-eval**, each holding its own delayRender; every
+  Chrome tab re-pays all 14, so under CPU contention the loads exceed
+  Remotion's 28s default — deterministically on a slow box (6/6 chunk
+  retries all failed on a 4-core container at default timeout), as an
+  intermittent race on big VMs. The working knobs: `--remotion-timeout
+  120000`+ (render_gce.sh already defaults to 120-240s — any manual/local
+  render must pass it too) plus CHUNKED's fresh-process-per-chunk. The
+  eventual real fix: per-comp font loading (a DocWide render pays for
+  Devanagari/Caveat/PatrickHand it never draws) — do it in a dedicated
+  pass validated by stills, not mid-render.
 - **Footage playback:** Remotion recommends @remotion/media's <Video> for best
   source-video performance — check what DocWide uses (OffthreadVideo predates
   this guidance).
