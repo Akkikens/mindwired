@@ -5,7 +5,7 @@ review (deadline **Oct 21, 2026**) — reviewer-facing, unlisted upload, URL
 pasted into the appeal form. Strategy + submission checklist:
 `docs/planning/YPP-APPEAL-SCRIPT.md`.
 
-## Status: READY TO RENDER (2026-10-05) — VO recorded by Akshay, split, manifest real, preflight 0 blocking
+## Status: RENDERED 2026-10-06 in the cloud session — 4K master verified (3840×2160, 4:49, −14.1 LUFS, 8619 frames verified); delivery to Akshay pending (file exceeds session transfer limit — re-render via GCE locally, or chunked git delivery on request)
 
 Akshay's 4:33 one-take recording is in (`recordings/appeal_vo.m4a`), split
 into all 20 scene clips via global word-alignment (every boundary
