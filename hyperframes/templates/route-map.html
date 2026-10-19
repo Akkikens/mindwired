@@ -1,0 +1,276 @@
+<!-- scene: route-map — animated flight path over a Natural Earth basemap (Mercator), labeled waypoints,
+     a holding pattern, an event marker and an optional camera push. All geometry is baked at build time
+     (paths pre-sampled); nothing is measured or fetched during the timeline.
+     data: { eyebrow, title, basemap, view:[lonMin,latMin,lonMax,latMax], labels:[{text,lon,lat,size?}],
+             waypoints:[{name,lon,lat,time?,note?,anchor?,kind?:"origin|dest|fix"}], legs:[[fromIdx,toIdx]...],
+             holding?:{lon,lat,label,time?,widthKm,heightKm,headingDeg,loopsDrawn?,exitTime?,exitLabel?,labelDx?,labelDy?},
+             event?:{lon,lat,time?,label,anchor?},
+             zoom?:{lon,lat,scale,at,duration,screenX?,screenY?}, pathNote?, duration } -->
+<style>
+  #root { position: absolute; inset: 0; width: 100%; height: 100%; overflow: hidden; background: #060A12; }
+  #{{ID}}-svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+  #{{ID}}-svg .sea { fill: #070C16; }
+  #{{ID}}-svg .land { fill: #151C29; stroke: rgba(255,255,255,0.22); stroke-width: 1.1; fill-rule: evenodd; vector-effect: non-scaling-stroke; }
+  #{{ID}}-svg .grat { stroke: rgba(255,255,255,0.055); stroke-width: 1; vector-effect: non-scaling-stroke; }
+  #{{ID}}-svg .gratlbl { font-family: var(--mono); font-size: 15px; fill: rgba(255,255,255,0.28); letter-spacing: 1px; }
+  #{{ID}}-svg .lbl { font-family: var(--mono); font-weight: 500; fill: rgba(255,255,255,0.42); letter-spacing: 5px; text-anchor: middle; }
+  #{{ID}}-svg .route { fill: none; stroke: var(--accent); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; filter: drop-shadow(0 0 10px var(--accent-dim)); }
+  #{{ID}}-svg .route-ghost { fill: none; stroke: rgba(255,255,255,0.10); stroke-width: 2; stroke-dasharray: 6 10; vector-effect: non-scaling-stroke; }
+  #{{ID}}-svg .hold { fill: none; stroke: var(--accent); stroke-width: 3; stroke-linecap: round; vector-effect: non-scaling-stroke; }
+  #{{ID}}-svg .wp { fill: #060A12; stroke: var(--ink); stroke-width: 3; }
+  #{{ID}}-svg .wp.origin, #{{ID}}-svg .wp.fix { fill: var(--accent); stroke: #060A12; }
+  #{{ID}}-svg .wp.dest { fill: none; stroke: var(--ink-2); stroke-dasharray: 3 3; }
+  #{{ID}}-svg .wplbl { font-family: var(--display); font-weight: 800; font-size: 26px; fill: var(--ink); letter-spacing: 1px; paint-order: stroke; stroke: #060A12; stroke-width: 8px; stroke-linejoin: round; }
+  #{{ID}}-svg .wpsub { font-family: var(--mono); font-weight: 600; font-size: 20px; fill: var(--accent); letter-spacing: 2px; paint-order: stroke; stroke: #060A12; stroke-width: 7px; stroke-linejoin: round; }
+  #{{ID}}-svg .holdlbl { font-family: var(--mono); font-weight: 600; font-size: 20px; fill: var(--ink); letter-spacing: 2px; paint-order: stroke; stroke: #060A12; stroke-width: 7px; }
+  #{{ID}}-svg .ev-ring { fill: none; stroke: var(--danger); stroke-width: 3; }
+  #{{ID}}-svg .ev-dot { fill: var(--danger); }
+  #{{ID}}-svg .evlbl { font-family: var(--display); font-weight: 800; font-size: 30px; fill: var(--ink); paint-order: stroke; stroke: #060A12; stroke-width: 9px; stroke-linejoin: round; }
+  #{{ID}}-svg .evsub { font-family: var(--mono); font-weight: 600; font-size: 21px; fill: var(--danger); letter-spacing: 2px; paint-order: stroke; stroke: #060A12; stroke-width: 7px; }
+  #{{ID}}-svg .plane { fill: var(--ink); filter: drop-shadow(0 0 8px rgba(255,255,255,0.6)); }
+  #{{ID}}-svg .scale { stroke: var(--ink-2); stroke-width: 2; }
+  #{{ID}}-svg .scalelbl { font-family: var(--mono); font-size: 17px; fill: var(--ink-2); letter-spacing: 1px; }
+  #{{ID}}-chrome { position: absolute; left: var(--safe-x); top: 64px; display: flex; flex-direction: column; gap: 10px; }
+  #{{ID}}-title { font-family: var(--display); font-weight: 800; font-size: 44px; color: var(--ink); text-shadow: 0 4px 24px rgba(0,0,0,0.9); }
+  #{{ID}}-readout { position: absolute; left: var(--safe-x); top: 196px; font-family: var(--mono); font-weight: 600; font-size: 24px; letter-spacing: 2px; color: var(--accent); background: var(--panel); padding: 10px 18px; border-radius: 4px; border-left: 4px solid var(--accent); min-width: 420px; }
+  #{{ID}}-readout b { font-weight: 600; color: var(--ink); margin-left: 14px; }
+  #{{ID}}-note { position: absolute; right: 54px; bottom: 44px; font-family: var(--mono); font-size: 16px; letter-spacing: 1px; color: var(--ink-3); text-align: right; }
+</style>
+
+<div id="root" data-composition-id="{{ID}}" data-start="0" data-width="1920" data-height="1080" data-duration="{{DURATION}}">
+  <svg id="{{ID}}-svg" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+    <rect class="sea" x="0" y="0" width="1920" height="1080"/>
+    <g id="{{ID}}-cam">
+      <g id="{{ID}}-grat"></g>
+      <g id="{{ID}}-land"></g>
+      <g id="{{ID}}-labels"></g>
+      <g id="{{ID}}-routes"></g>
+      <g id="{{ID}}-wps"></g>
+      <g id="{{ID}}-event"></g>
+      <g id="{{ID}}-planeg"><polygon id="{{ID}}-plane" class="plane" points="0,-14 9,12 0,7 -9,12"/></g>
+    </g>
+    <g id="{{ID}}-scale"></g>
+  </svg>
+  <div id="{{ID}}-chrome">
+    <div class="eyebrow left" id="{{ID}}-eyebrow"></div>
+    <div id="{{ID}}-title"></div>
+  </div>
+  <div id="{{ID}}-readout"><span id="{{ID}}-ro-time"></span><b id="{{ID}}-ro-text"></b></div>
+  <div id="{{ID}}-note"></div>
+</div>
+
+<script>
+(() => {
+  const DATA = {{DATA}};
+  const GEO = {{GEO}};
+  const ID = "{{ID}}";
+  const DUR = {{DURATION}};
+  const $ = (s) => document.getElementById(`${ID}-${s}`);
+  const NS = "http://www.w3.org/2000/svg";
+  const el = (tag, attrs, parent) => { const n = document.createElementNS(NS, tag); for (const k in attrs) n.setAttribute(k, attrs[k]); if (parent) parent.appendChild(n); return n; };
+  const W = 1920, H = 1080;
+
+  // ---- Mercator fit of DATA.view into the frame (uniform scale, centered) ----
+  const [vx0, vy0, vx1, vy1] = DATA.view;
+  const merc = (lat) => Math.log(Math.tan(Math.PI / 4 + (lat * Math.PI) / 360)) * (180 / Math.PI);
+  const my0 = merc(vy0), my1 = merc(vy1);
+  const s = Math.min(W / (vx1 - vx0), H / (my1 - my0));
+  const cx = (vx0 + vx1) / 2, cmy = (my0 + my1) / 2;
+  const P = (lon, lat) => [W / 2 + (lon - cx) * s, H / 2 - (merc(lat) - cmy) * s];
+
+  // every text/marker that must keep its screen size under the camera zoom registers here: [node, x, y]
+  const fixed = [];
+  const pin = (node, x, y) => { fixed.push([node, x, y]); return node; };
+
+  // ---- basemap ----
+  const grat = $("grat");
+  for (let lon = Math.ceil(vx0 / 2) * 2 - 6; lon <= vx1 + 6; lon += 2) {
+    const [x] = P(lon, vy0); if (x < 0 || x > W) continue;
+    el("line", { class: "grat", x1: x, y1: -2000, x2: x, y2: H + 2000 }, grat);
+    const t = pin(el("text", { class: "gratlbl", x: x + 6, y: H - 14 }, grat), x + 6, H - 14); t.textContent = `${lon}°E`;
+  }
+  for (let lat = Math.ceil(vy0 / 2) * 2 - 6; lat <= vy1 + 6; lat += 2) {
+    const [, y] = P(vx0, lat); if (y < 0 || y > H) continue;
+    el("line", { class: "grat", x1: -2000, y1: y, x2: W + 2000, y2: y }, grat);
+    const t = pin(el("text", { class: "gratlbl", x: 10, y: y - 6 }, grat), 10, y - 6); t.textContent = `${lat}°N`;
+  }
+  const land = $("land");
+  for (const f of GEO.features) {
+    const d = f.rings.map((r) => r.map(([lon, lat], i) => { const [x, y] = P(lon, lat); return `${i ? "L" : "M"}${x.toFixed(1)} ${y.toFixed(1)}`; }).join("") + "Z").join("");
+    el("path", { class: "land", d }, land);
+  }
+  const labels = $("labels");
+  for (const l of DATA.labels ?? []) {
+    const [x, y] = P(l.lon, l.lat);
+    const t = pin(el("text", { class: "lbl", x, y, "font-size": l.size ?? 22 }, labels), x, y); t.textContent = l.text;
+  }
+  // scale bar (100 km at the view's mid latitude; outside the camera group, re-labeled under zoom)
+  const midLat = (vy0 + vy1) / 2;
+  const kmPerDegLon = 111.32 * Math.cos((midLat * Math.PI) / 180);
+  const px100 = (100 / kmPerDegLon) * s;
+  const scaleG = $("scale"); let scaleLbl, scaleLines;
+  {
+    const x = W - 54 - px100, y = H - 86;
+    scaleLines = [el("line", { class: "scale", x1: x, y1: y, x2: x + px100, y2: y }, scaleG), el("line", { class: "scale", x1: x, y1: y - 7, x2: x, y2: y + 7 }, scaleG), el("line", { class: "scale", x1: x + px100, y1: y - 7, x2: x + px100, y2: y + 7 }, scaleG)];
+    scaleLbl = el("text", { class: "scalelbl", x: x + px100 / 2, y: y - 12, "text-anchor": "middle" }, scaleG); scaleLbl.textContent = "100 km";
+  }
+
+  // ---- route geometry: great-circle legs, optional holding racetrack, final leg to the event ----
+  const toXYZ = (lon, lat) => { const φ = lat * Math.PI / 180, λ = lon * Math.PI / 180; return [Math.cos(φ) * Math.cos(λ), Math.cos(φ) * Math.sin(λ), Math.sin(φ)]; };
+  const fromXYZ = ([x, y, z]) => [Math.atan2(y, x) * 180 / Math.PI, Math.atan2(z, Math.hypot(x, y)) * 180 / Math.PI];
+  const gc = (a, b, n = 48) => { const A = toXYZ(a.lon, a.lat), B = toXYZ(b.lon, b.lat); const pts = []; for (let i = 0; i <= n; i++) { const t = i / n; const v = A.map((c, k) => c * (1 - t) + B[k] * t); const m = Math.hypot(...v); pts.push(fromXYZ(v.map((c) => c / m))); } return pts; };
+  const WP = DATA.waypoints;
+  const segs = []; // [{pts:[[lon,lat]...], kind, time, text}]
+  const wpText = (w) => `${w.name.toUpperCase()}${w.note ? " · " + w.note : ""}`;
+  for (const [a, b] of DATA.legs ?? []) segs.push({ pts: gc(WP[a], WP[b]), kind: "leg", time: WP[a].time ?? "", text: wpText(WP[a]) });
+  const H0 = DATA.holding;
+  if (H0) {
+    const kmLat = 110.57, kmLon = 111.32 * Math.cos(H0.lat * Math.PI / 180);
+    const ang = (H0.headingDeg ?? 0) * Math.PI / 180, pts = [];
+    for (let i = 0; i <= 96; i++) { // racetrack: two semicircles joined by straights
+      const t = i / 96, L = H0.widthKm / 2 - H0.heightKm / 2, r = H0.heightKm / 2; let u, v;
+      if (t < 0.25) { const a = t / 0.25 * Math.PI; u = L + Math.sin(a) * r; v = -Math.cos(a) * r; }
+      else if (t < 0.5) { u = L - (t - 0.25) / 0.25 * 2 * L; v = r; }
+      else if (t < 0.75) { const a = (t - 0.5) / 0.25 * Math.PI; u = -L - Math.sin(a) * r; v = Math.cos(a) * r; }
+      else { u = -L + (t - 0.75) / 0.25 * 2 * L; v = -r; }
+      const ex = u * Math.cos(ang) - v * Math.sin(ang), ey = u * Math.sin(ang) + v * Math.cos(ang);
+      pts.push([H0.lon + ex / kmLon, H0.lat + ey / kmLat]);
+    }
+    const last = segs.length ? segs[segs.length - 1].pts.slice(-1)[0] : [H0.lon, H0.lat];
+    let best = 0, bd = Infinity; pts.forEach((p, i) => { const d = Math.hypot(p[0] - last[0], p[1] - last[1]); if (d < bd) { bd = d; best = i; } });
+    const rot = pts.slice(best).concat(pts.slice(1, best + 1));
+    const prev = segs[segs.length - 1];
+    segs.push({ pts: [last, rot[0]], kind: "leg", time: prev?.time ?? "", text: prev?.text ?? "" });
+    for (let k = 0; k < (H0.loopsDrawn ?? 1); k++) segs.push({ pts: rot, kind: "hold", time: H0.time ?? "", text: H0.label });
+    if (DATA.event) segs.push({ pts: gc({ lon: rot[rot.length - 1][0], lat: rot[rot.length - 1][1] }, DATA.event, 24), kind: "leg", time: H0.exitTime ?? "", text: H0.exitLabel ?? "" });
+  } else if (DATA.event && segs.length) {
+    const e = segs[segs.length - 1].pts.slice(-1)[0];
+    segs.push({ pts: gc({ lon: e[0], lat: e[1] }, DATA.event, 24), kind: "leg", time: segs[segs.length - 1].time, text: segs[segs.length - 1].text });
+  }
+  const routes = $("routes");
+  const dOf = (pts) => pts.map(([lon, lat], i) => { const [x, y] = P(lon, lat); return `${i ? "L" : "M"}${x.toFixed(1)} ${y.toFixed(1)}`; }).join("");
+  // pre-sample every path ONCE at build time (positions + headings) so the timeline never measures the DOM
+  const SAMPLES = 400;
+  const paths = segs.map((sg) => {
+    el("path", { class: "route-ghost", d: dOf(sg.pts) }, routes);
+    const p = el("path", { class: sg.kind === "hold" ? "hold" : "route", d: dOf(sg.pts) }, routes);
+    const len = p.getTotalLength();
+    p.setAttribute("stroke-dasharray", `${len} ${len}`); p.setAttribute("stroke-dashoffset", len);
+    const pts = []; for (let i = 0; i <= SAMPLES; i++) { const q = p.getPointAtLength((i / SAMPLES) * len); pts.push([q.x, q.y]); }
+    return { p, len, pts };
+  });
+  const totalLen = paths.reduce((a, p) => a + p.len, 0);
+
+  // ---- waypoints + labels ----
+  const wps = $("wps");
+  const anchorOff = { n: [0, -22], s: [0, 40], e: [20, 10], w: [-20, 10], ne: [16, -16], nw: [-16, -16], se: [16, 34], sw: [-16, 34] };
+  const anchorTA = (a) => a.includes("w") ? "end" : (a === "n" || a === "s") ? "middle" : "start";
+  const wpNodes = WP.map((w) => {
+    const [x, y] = P(w.lon, w.lat);
+    const g = pin(el("g", { transform: `translate(${x} ${y})` }, wps), x, y);
+    el("circle", { class: `wp ${w.kind ?? "fix"}`, r: w.kind === "dest" ? 10 : 8 }, g);
+    const a = w.anchor ?? "ne", [dx, dy] = anchorOff[a];
+    const t1 = el("text", { class: "wplbl", x: dx, y: dy, "text-anchor": anchorTA(a) }, g); t1.textContent = w.name.toUpperCase();
+    if (w.time || w.note) { const t2 = el("text", { class: "wpsub", x: dx, y: dy + 26, "text-anchor": anchorTA(a) }, g); t2.textContent = [w.time, w.note].filter(Boolean).join(" · "); }
+    return g;
+  });
+  let holdLbl = null;
+  if (H0) { const [x, y] = P(H0.lon, H0.lat); holdLbl = pin(el("g", { transform: `translate(${x} ${y})` }, wps), x, y); const t = el("text", { class: "holdlbl", x: H0.labelDx ?? 0, y: H0.labelDy ?? 60, "text-anchor": "middle" }, holdLbl); t.textContent = H0.label; }
+  const evg = $("event"); let evRing, evG;
+  if (DATA.event) {
+    const [x, y] = P(DATA.event.lon, DATA.event.lat);
+    evG = pin(el("g", { transform: `translate(${x} ${y})` }, evg), x, y);
+    evRing = el("circle", { class: "ev-ring", r: 14 }, evG);
+    el("circle", { class: "ev-dot", r: 9 }, evG);
+    const a = DATA.event.anchor ?? "nw", [dx, dy] = anchorOff[a];
+    const t1 = el("text", { class: "evlbl", x: dx, y: dy, "text-anchor": anchorTA(a) }, evG); t1.textContent = DATA.event.label.toUpperCase();
+    if (DATA.event.time) { const t2 = el("text", { class: "evsub", x: dx, y: dy + 28, "text-anchor": anchorTA(a) }, evG); t2.textContent = DATA.event.time; }
+  }
+
+  $("eyebrow").textContent = DATA.eyebrow ?? "";
+  $("title").textContent = DATA.title ?? "";
+  $("note").textContent = [DATA.pathNote, "BASEMAP: NATURAL EARTH 10m (PUBLIC DOMAIN) · MERCATOR"].filter(Boolean).join("  ·  ");
+
+  // ---- camera (optional push): one driver u 0→1; map group scales about the zoom point while every
+  //      pinned label/marker counter-scales so type keeps its screen size ----
+  const cam = $("cam"); const Z = DATA.zoom; const camState = { u: 0 };
+  const planeG = $("planeg"); let planeXY = [0, 0], planeAng = 0;
+  const applyCam = () => {
+    const u = camState.u, K = Z ? 1 + (Z.scale - 1) * u : 1;
+    let tx = 0, ty = 0;
+    if (Z) {
+      const [px, py] = P(Z.lon, Z.lat); const sx = Z.screenX ?? W / 2, sy = Z.screenY ?? H / 2;
+      const ex = px + (sx - px) * u, ey = py + (sy - py) * u; // where the zoom point sits on screen
+      tx = ex - px * K; ty = ey - py * K;
+      cam.setAttribute("transform", `translate(${tx} ${ty}) scale(${K})`);
+      const inv = 1 / K;
+      for (const [node, x, y] of fixed) node.setAttribute("transform", `translate(${x} ${y}) scale(${inv})`);
+      const km = 100 / K; const nice = km >= 60 ? 100 : km >= 25 ? 50 : km >= 12 ? 20 : 10;
+      const px0 = px100 * nice / 100 * K; const x = W - 54 - px0, y = H - 86;
+      scaleLines[0].setAttribute("x1", x); scaleLines[0].setAttribute("x2", x + px0); scaleLines[1].setAttribute("x1", x); scaleLines[1].setAttribute("x2", x); scaleLbl.setAttribute("x", x + px0 / 2); scaleLbl.textContent = `${nice} km`;
+    }
+    planeG.setAttribute("transform", `translate(${planeXY[0]} ${planeXY[1]}) scale(${1 / K}) rotate(${planeAng})`);
+  };
+  // pinned nodes already carry translate(x y); refactor them so the counter-scale composes correctly
+  for (const [node, x, y] of fixed) { if (node.tagName === "text") { node.setAttribute("x", 0); node.setAttribute("y", 0); } node.setAttribute("transform", `translate(${x} ${y}) scale(1)`); }
+
+  // ---- timeline ----
+  const tl = gsap.timeline({ paused: true });
+  const T_IN = 1.2, T_DRAW_END = Math.max(T_IN + 3, DUR - 3.2);
+  tl.fromTo(land.querySelectorAll("path"), { opacity: 0 }, { opacity: 1, duration: 0.9, ease: "power2.out", stagger: { each: 0.02, from: "random", grid: "auto" } }, 0);
+  tl.fromTo([grat, labels, scaleG], { opacity: 0 }, { opacity: 1, duration: 0.8 }, 0.3);
+  tl.fromTo($("chrome"), { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.7, ease: "power2.out" }, 0.4);
+  tl.fromTo([$("readout"), $("note")], { opacity: 0 }, { opacity: 1, duration: 0.5 }, 0.9);
+  tl.fromTo(wpNodes, { opacity: 0 }, { opacity: 1, duration: 0.4, stagger: 0.1 }, 0.8);
+  if (holdLbl) tl.fromTo(holdLbl, { opacity: 0 }, { opacity: 1, duration: 0.4 }, 0.8);
+  if (evG) tl.set(evG, { opacity: 0 }, 0);
+
+  // ONE driver for the route: draw, plane position/heading and the readout are all projections of p.
+  // Time is budgeted per segment (not per km): a holding loop and the final descent get fixed beats,
+  // the cruise legs share the rest in proportion to their length.
+  const budget = segs.map((sg, i) => sg.kind === "hold" ? (H0.loopSeconds ?? 3.2) : (i === segs.length - 1 && DATA.event) ? (DATA.event.legSeconds ?? 2.2) : (sg.pts.length <= 2 ? 0.25 : -1));
+  const fixedT = budget.reduce((a, b) => a + (b > 0 ? b : 0), 0);
+  const freeLen = segs.reduce((a, sg, i) => a + (budget[i] < 0 ? paths[i].len : 0), 0);
+  const DRAW = T_DRAW_END - T_IN;
+  const segDur = budget.map((b, i) => b > 0 ? b : ((DRAW - fixedT) * paths[i].len) / freeLen);
+  const segStart = []; { let a = 0; for (const d of segDur) { segStart.push(a); a += d; } }
+  const drv = { p: 0 };
+  const roTime = $("ro-time"), roText = $("ro-text");
+  let lastRO = "";
+  const setRO = (time, text) => { const k = time + "|" + text; if (k === lastRO) return; lastRO = k; roTime.textContent = time; roText.textContent = text; };
+  const segAt = (tt) => { let i = 0; while (i < segs.length - 1 && tt >= segStart[i + 1]) i++; return i; };
+  const roFor = (tt) => {
+    const i = segAt(tt); const local = (tt - segStart[i]) / segDur[i];
+    if (i === segs.length - 1 && DATA.event && local >= 0.985) return [DATA.event.time ?? "", DATA.event.label.toUpperCase()];
+    return [segs[i].time, segs[i].text];
+  };
+  setRO(...roFor(0));
+  planeXY = paths[0].pts[0]; applyCam();
+  tl.to(drv, { p: DRAW, duration: DRAW, ease: "none", onUpdate: () => {
+    const tt = drv.p; const cur = segAt(tt);
+    for (let i = 0; i < paths.length; i++) {
+      const { p: path, len, pts } = paths[i];
+      const local = i < cur ? 1 : i > cur ? 0 : Math.max(0, Math.min(1, (tt - segStart[i]) / segDur[i]));
+      path.setAttribute("stroke-dashoffset", len * (1 - local));
+      if (i === cur) {
+        const f = local * SAMPLES, i0 = Math.min(SAMPLES - 1, Math.floor(f)), t = f - i0;
+        const a = pts[i0], b = pts[i0 + 1];
+        planeXY = [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t];
+        planeAng = Math.atan2(b[1] - a[1], b[0] - a[0]) * 180 / Math.PI + 90;
+      }
+    }
+    setRO(...roFor(tt));
+    applyCam();
+  } }, T_IN);
+  tl.fromTo($("plane"), { opacity: 0 }, { opacity: 1, duration: 0.3 }, T_IN);
+  if (Z) tl.to(camState, { u: 1, duration: Z.duration ?? 2, ease: "power2.inOut", onUpdate: applyCam }, Z.at ?? 4);
+  if (evG) {
+    tl.to($("plane"), { opacity: 0, duration: 0.3 }, T_DRAW_END - 0.1);
+    tl.fromTo(evG, { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power2.out" }, T_DRAW_END - 0.2);
+    const cycles = Math.max(0, Math.floor((DUR - T_DRAW_END - 0.5) / 1.2) - 1);
+    tl.fromTo(evRing, { attr: { r: 14 }, opacity: 1 }, { attr: { r: 46 }, opacity: 0, duration: 1.2, ease: "power2.out", repeat: cycles }, T_DRAW_END + 0.2);
+  }
+  tl.to([$("chrome"), $("readout"), $("note"), $("svg")], { opacity: 0, duration: 0.45, ease: "power2.in" }, DUR - 0.45);
+  window.__timelines[ID] = tl;
+})();
+</script>

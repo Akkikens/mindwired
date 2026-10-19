@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="UTF-8" /><title>diagram-mechanism</title></head>
+<body>
+<template>
+<style>
+/* mindwired scene-kit theme — derived from src/mindwired-doc/DocWide.tsx (THEMES, dsp(),
+   StatChip, CaptionBar, ChapterCard) and docs/planning/CRAFT-AUDIT.md's four-voice type system.
+   Fonts are the SAME OFL files the Remotion engine ships in public/fonts (copied to assets/fonts),
+   declared with @font-face so HyperFrames inlines them at build time — no runtime font race.
+
+   The build script (scripts/build.mjs) inlines this file into every generated scene and swaps
+   the accent for the channel given on the command line (--channel mindwired|blackbox|criminalrecord). */
+
+@font-face { font-family: 'Archivo Expanded'; src: url('assets/fonts/ArchivoExpanded-ExtraBold.ttf') format('truetype'); font-weight: 700 900; font-style: normal; font-display: block; }
+@font-face { font-family: 'Archivo Expanded'; src: url('assets/fonts/ArchivoExpanded-SemiBold.ttf') format('truetype'); font-weight: 100 699; font-style: normal; font-display: block; }
+@font-face { font-family: 'Spectral'; src: url('assets/fonts/Spectral-Medium.ttf') format('truetype'); font-weight: 500; font-style: normal; font-display: block; }
+@font-face { font-family: 'Spectral'; src: url('assets/fonts/Spectral-MediumItalic.ttf') format('truetype'); font-weight: 500; font-style: italic; font-display: block; }
+@font-face { font-family: 'IBM Plex Mono'; src: url('assets/fonts/IBMPlexMono-Medium.ttf') format('truetype'); font-weight: 500; font-style: normal; font-display: block; }
+@font-face { font-family: 'IBM Plex Mono'; src: url('assets/fonts/IBMPlexMono-SemiBold.ttf') format('truetype'); font-weight: 600; font-style: normal; font-display: block; }
+@font-face { font-family: 'Inter'; src: url('assets/fonts/Inter.ttf') format('truetype'); font-weight: 100 900; font-style: normal; font-display: block; }
+
+:root, #root {
+  /* palette — DocWide BASE #05070C, mindwired accent #4DD8FF (blackbox #FF9500, criminalrecord #7FB4FF) */
+  --base: #05070C;
+  --base-2: #0B1019;
+  --panel: rgba(4, 6, 10, 0.78);
+  --ink: #FFFFFF;
+  --ink-2: rgba(255, 255, 255, 0.72);
+  --ink-3: rgba(255, 255, 255, 0.50);
+  --rule: rgba(255, 255, 255, 0.14);
+  --rule-2: rgba(255, 255, 255, 0.26);
+  --accent: #4DD8FF;
+  --accent-dim: rgba(77, 216, 255, 0.35);
+  --accent-tint: rgba(77, 216, 255, 0.12);
+  --danger: #FF4D4D;
+  --ok: #7CFC9B;
+
+  /* four-voice type system (CRAFT-AUDIT Finding 2) */
+  --display: 'Archivo Expanded', 'Archivo', 'Space Grotesk', sans-serif; /* hero titles, chapter cards, stat numerals */
+  --serif: 'Spectral', Georgia, serif;                                     /* quotes, testimony, editorial lines */
+  --mono: 'IBM Plex Mono', 'SF Mono', Menlo, monospace;                    /* evidence chrome, eyebrows, clocks */
+  --body: 'Inter', sans-serif;                                             /* captions, labels */
+
+  /* DocWide overlay safe zones (the host comp draws these on top of a video scene):
+     brand lockup top-right (42px/54px), stat chip top-left (118px/96px), caption bar bottom 84px.
+     Scenes keep the bottom 150px quiet and the top-right corner free. */
+  --safe-x: 96px;
+  --safe-top: 96px;
+  --safe-bottom: 150px;
+}
+
+#root { background: var(--base); color: var(--ink); font-family: var(--body); -webkit-font-smoothing: antialiased; }
+
+/* evidence eyebrow: mono, tracked, hairlines either side (DocWide ChapterCard) */
+.eyebrow { font-family: var(--mono); font-weight: 600; font-size: 24px; letter-spacing: 8px; color: var(--accent); text-transform: uppercase; display: flex; align-items: center; gap: 22px; }
+.eyebrow::before, .eyebrow::after { content: ""; display: block; width: 72px; height: 1px; background: var(--accent-dim); }
+.eyebrow.left::before { display: none; }
+
+/* hairline-diamond rule */
+.diamond-rule { display: flex; align-items: center; gap: 14px; }
+.diamond-rule i { display: block; width: 150px; height: 2px; background: linear-gradient(90deg, transparent, var(--accent)); }
+.diamond-rule i:last-child { background: linear-gradient(270deg, transparent, var(--accent)); }
+.diamond-rule b { display: block; width: 9px; height: 9px; background: var(--accent); transform: rotate(45deg); }
+
+/* stat chip (DocWide StatChip) */
+.stat-chip { font-family: var(--display); font-weight: 800; font-size: 50px; letter-spacing: 0.5px; font-variant-numeric: tabular-nums lining-nums; color: var(--ink); background: var(--panel); padding: 14px 30px 15px; border-left: 6px solid var(--accent); border-radius: 6px; display: inline-block; }
+
+/* source plate (DocWide ExhibitScene lower-third) */
+.source-plate { font-family: var(--body); font-weight: 600; font-size: 30px; line-height: 1.3; color: var(--ink); background: rgba(3,4,7,0.8); padding: 10px 22px; border-left: 5px solid var(--accent); border-radius: 8px; display: inline-block; max-width: 1100px; }
+.source-plate .tag { display: block; font-family: var(--mono); font-weight: 700; font-size: 20px; letter-spacing: 4px; color: var(--accent); margin-bottom: 4px; }
+
+</style>
+<!-- scene: diagram — mechanism flowchart in diagram-design grammar (shape carries type: oval start/end, rect step,
+     diamond decision; ONE focal node in accent; labeled branches), animated as a staggered reveal with path draw.
+     Nodes are HTML (text wraps), edges are SVG underneath; positions come from a grid in the data so layout is authored, not measured.
+     data: { eyebrow, title, grid:{cols,rows,colW,rowH,x0,y0}, nodes:[{id,kind:"start|step|decision|end",label,sub?,focal?,col,row,w?}],
+             edges:[{from,to,label?,route?:"v"|"h"|"hv"|"vh",danger?}], order?:[ids...], note?, duration } -->
+<style>
+  #root { position: absolute; inset: 0; width: 100%; height: 100%; overflow: hidden; }
+  #diagram-mechanism-chrome { position: absolute; left: var(--safe-x); top: 64px; display: flex; flex-direction: column; gap: 10px; }
+  #diagram-mechanism-title { font-family: var(--display); font-weight: 800; font-size: 44px; color: var(--ink); }
+  #diagram-mechanism-canvas { position: absolute; inset: 0; }
+  #diagram-mechanism-edges { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+  #diagram-mechanism-edges path { fill: none; stroke: var(--ink-2); stroke-width: 2.5; stroke-linejoin: round; }
+  #diagram-mechanism-edges path.danger { stroke: var(--danger); }
+  #diagram-mechanism-edges .arrow { fill: var(--ink-2); }
+  #diagram-mechanism-edges .arrow.danger { fill: var(--danger); }
+  #diagram-mechanism-edges .elbl { font-family: var(--mono); font-weight: 600; font-size: 18px; letter-spacing: 2px; fill: var(--ink); paint-order: stroke; stroke: #05070C; stroke-width: 10px; stroke-linejoin: round; text-anchor: middle; text-transform: uppercase; }
+  .diagram-mechanism-node { position: absolute; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 14px 22px; border: 2px solid var(--rule-2); background: var(--base-2); color: var(--ink); will-change: transform, opacity; }
+  .diagram-mechanism-node .l { font-family: var(--body); font-weight: 600; font-size: 26px; line-height: 1.22; }
+  .diagram-mechanism-node .s { font-family: var(--mono); font-weight: 500; font-size: 17px; letter-spacing: 1px; color: var(--ink-2); margin-top: 8px; line-height: 1.3; }
+  .diagram-mechanism-node.step { border-radius: 6px; }
+  .diagram-mechanism-node.start, .diagram-mechanism-node.end { border-radius: 999px; padding: 14px 30px; }
+  .diagram-mechanism-node.end { border-color: var(--danger); }
+  .diagram-mechanism-node.end .l { color: var(--danger); }
+  .diagram-mechanism-node.decision { background: transparent; border: none; padding: 0; }
+  .diagram-mechanism-node.decision .dia { position: absolute; inset: 0; background: var(--base-2); border: 2px solid var(--rule-2); transform: rotate(45deg) scale(0.72); border-radius: 6px; }
+  .diagram-mechanism-node.decision .l, .diagram-mechanism-node.decision .s { position: relative; }
+  .diagram-mechanism-node.decision .l { font-size: 22px; max-width: 190px; }
+  .diagram-mechanism-node.focal { border-color: var(--accent); background: var(--accent-tint); box-shadow: 0 0 0 1px var(--accent-dim), 0 0 40px var(--accent-tint); }
+  .diagram-mechanism-node.focal .l { color: var(--accent); }
+  .diagram-mechanism-node.focal .s { color: var(--ink); }
+  #diagram-mechanism-note { position: absolute; right: 54px; bottom: 44px; font-family: var(--mono); font-size: 16px; letter-spacing: 1px; color: var(--ink-3); text-align: right; max-width: 1200px; }
+</style>
+
+<div id="root" data-composition-id="diagram-mechanism" data-start="0" data-width="1920" data-height="1080" data-duration="18">
+  <div id="diagram-mechanism-chrome">
+    <div class="eyebrow left" id="diagram-mechanism-eyebrow"></div>
+    <div id="diagram-mechanism-title"></div>
+  </div>
+  <div id="diagram-mechanism-canvas">
+    <svg id="diagram-mechanism-edges" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg"></svg>
+  </div>
+  <div id="diagram-mechanism-note"></div>
+</div>
+
+<script>
+(() => {
+  const DATA = {"scene":"diagram","duration":18,"eyebrow":"Mechanism · AAIASB causal chain","title":"How a selector left in MANUAL became hypoxia","note":"ORDER FOLLOWS THE REPORT'S CAUSAL CHAIN (P.171) AND CONTRIBUTING FACTORS · THE BOARD CALLED THE SELECTOR A DISTRIBUTED FINDING, NOT ONE PERSON'S FAULT","grid":{"cols":3,"rows":3,"colW":560,"rowH":225,"x0":120,"y0":200,"nodeW":440,"nodeH":120},"nodes":[{"id":"leak","kind":"start","label":"Overnight pressurization leak check","sub":"01:25h – 03:15h · released \"NIL defects\"","col":0,"row":0},{"id":"manual","kind":"step","label":"Pressurization mode selector left in MANUAL","sub":"not reset to AUTO · no checklist step required it","focal":true,"col":0,"row":1},{"id":"checks","kind":"decision","label":"Caught on any of three crew checks?","col":0,"row":2,"sub":"preflight · after-start · after-takeoff"},{"id":"climb","kind":"step","label":"Aircraft climbs; cabin does not pressurize","sub":"takeoff 09:07","col":1,"row":2},{"id":"horn","kind":"step","label":"Cabin altitude horn at 12,040 ft","sub":"09:12:38 · same tone as the takeoff-configuration horn","col":1,"row":1},{"id":"misread","kind":"step","label":"Crew report a \"takeoff configuration warning\"","sub":"09:14:11 · last transmission","col":1,"row":0},{"id":"hypoxia","kind":"end","label":"Crew incapacitated by hypoxia","sub":"level at FL340 from 09:23:32","col":2,"row":0,"h":120},{"id":"fuel","kind":"end","label":"Autopilot holds at KEA until fuel exhaustion","sub":"left engine 11:49:50 · right engine 11:59:47 · impact 12:03:32","col":2,"row":2,"h":150}],"edges":[{"from":"leak","to":"manual"},{"from":"manual","to":"checks"},{"from":"checks","to":"climb","label":"No, three times","route":"h","danger":true,"labelDy":-16},{"from":"climb","to":"horn"},{"from":"horn","to":"misread"},{"from":"misread","to":"hypoxia","route":"h"},{"from":"hypoxia","to":"fuel"}],"order":["leak","manual","checks","climb","horn","misread","hypoxia","fuel"],"_facts":"CLAIMS-helios522.md probable cause chain: (1) crew never recognized the selector in MANUAL; (2) never identified the true problem; (3) hypoxia; (4) fuel exhaustion; (5) impact. Contributing: engineer left selector on MANUAL after leak check; crew missed it on three checks (preflight, after-start, after-takeoff); identical horn tone caused the misdiagnosis; Boeing manual had no explicit AUTO-confirm step. Times: 01:25h landing, 03:15h release, 09:07 takeoff, 09:12:38 horn at 12,040 ft, 09:14:11 last transmission, 09:23:32 FL340, 11:49:50 / 11:59:47 flameouts, 12:03:32 impact."};
+  const ID = "diagram-mechanism";
+  const DUR = 18;
+  const $ = (s) => document.getElementById(`${ID}-${s}`);
+  const NS = "http://www.w3.org/2000/svg";
+  const el = (tag, attrs, parent) => { const n = document.createElementNS(NS, tag); for (const k in attrs) n.setAttribute(k, attrs[k]); if (parent) parent.appendChild(n); return n; };
+  $("eyebrow").textContent = DATA.eyebrow ?? "";
+  $("title").textContent = DATA.title ?? "";
+  $("note").textContent = DATA.note ?? "";
+
+  // ---- authored layout: every node box is a constant from the grid (no measurement) ----
+  const G = DATA.grid; const canvas = $("canvas"), svg = $("edges");
+  const NODE_H = G.nodeH ?? 118, NODE_W = G.nodeW ?? Math.round(G.colW * 0.8);
+  const box = {}; // id -> {x,y,w,h,cx,cy}
+  const nodes = {};
+  for (const n of DATA.nodes) {
+    const w = n.w ?? (n.kind === "decision" ? NODE_H * 2.4 : NODE_W), h = n.h ?? (n.kind === "decision" ? NODE_H * 1.75 : NODE_H);
+    const cx = G.x0 + n.col * G.colW + G.colW / 2, cy = G.y0 + n.row * G.rowH + G.rowH / 2;
+    box[n.id] = { x: cx - w / 2, y: cy - h / 2, w, h, cx, cy };
+    const d = document.createElement("div"); d.className = `${ID}-node ${n.kind}${n.focal ? " focal" : ""}`;
+    d.style.left = `${cx - w / 2}px`; d.style.top = `${cy - h / 2}px`; d.style.width = `${w}px`; d.style.height = `${h}px`;
+    if (n.kind === "decision") { const dia = document.createElement("div"); dia.className = "dia"; d.appendChild(dia); }
+    const l = document.createElement("div"); l.className = "l"; l.textContent = n.label; d.appendChild(l);
+    if (n.sub) { const s = document.createElement("div"); s.className = "s"; s.textContent = n.sub; d.appendChild(s); }
+    canvas.appendChild(d); nodes[n.id] = d;
+  }
+  // ---- edges: orthogonal routes between box edges, arrowhead at the target, label plate at the midpoint ----
+  const edgeNodes = DATA.edges.map((e) => {
+    const a = box[e.from], b = box[e.to];
+    const route = e.route ?? (a.cx === b.cx ? "v" : a.cy === b.cy ? "h" : "vh");
+    let pts;
+    const aDia = DATA.nodes.find((n) => n.id === e.from).kind === "decision";
+    const insetA = aDia ? 0.72 : 1; // the diamond's visible tip sits inside its box
+    if (route === "v") pts = [[a.cx, a.y + a.h * (0.5 + insetA / 2)], [b.cx, b.y]];
+    else if (route === "h") pts = [[a.x + a.w * (0.5 + insetA / 2), a.cy], [b.x, b.cy]];
+    else if (route === "vh") pts = [[a.cx, a.y + a.h * (0.5 + insetA / 2)], [a.cx, b.cy], [b.x, b.cy]];
+    else pts = [[a.x + a.w * (0.5 + insetA / 2), a.cy], [b.cx, a.cy], [b.cx, b.y]];
+    if (b.cx < a.cx && route === "h") pts = [[a.x, a.cy], [b.x + b.w, b.cy]];
+    const d = pts.map(([x, y], i) => `${i ? "L" : "M"}${x} ${y}`).join("");
+    const p = el("path", { d, class: e.danger ? "danger" : "" }, svg);
+    const len = p.getTotalLength(); p.setAttribute("stroke-dasharray", `${len} ${len}`); p.setAttribute("stroke-dashoffset", len);
+    const [ex, ey] = pts[pts.length - 1], [px, py] = pts[pts.length - 2];
+    const ang = Math.atan2(ey - py, ex - px) * 180 / Math.PI;
+    const arrow = el("polygon", { class: `arrow ${e.danger ? "danger" : ""}`, points: "0,0 -14,-7 -14,7", transform: `translate(${ex} ${ey}) rotate(${ang})` }, svg);
+    let lbl = null;
+    if (e.label) { const m = pts.length === 3 ? pts[1] : [(pts[0][0] + pts[1][0]) / 2, (pts[0][1] + pts[1][1]) / 2]; const lx = e.labelDx ?? 0, ly = e.labelDy ?? 0; lbl = el("text", { class: "elbl", x: m[0] + lx, y: m[1] + ly + 6 }, svg); lbl.textContent = e.label; }
+    return { p, len, arrow, lbl, e };
+  });
+
+  // ---- timeline: staggered reveal in narrative order (diagram-design "stage reveal"), edges draw after their source ----
+  const order = DATA.order ?? DATA.nodes.map((n) => n.id);
+  const T0 = 1.0, T1 = DUR - 2.2;
+  const step = (T1 - T0) / order.length;
+  const at = {}; order.forEach((id, i) => { at[id] = T0 + i * step; });
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo($("chrome"), { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.7, ease: "power2.out" }, 0);
+  tl.fromTo($("note"), { opacity: 0 }, { opacity: 1, duration: 0.5 }, 0.9);
+  for (const id of order) {
+    const n = DATA.nodes.find((x) => x.id === id);
+    tl.fromTo(nodes[id], { opacity: 0, y: 10, scale: 0.96 }, { opacity: 1, y: 0, scale: 1, duration: 0.5, ease: "power3.out" }, at[id]);
+    if (n.focal) tl.fromTo(nodes[id], { boxShadow: "0 0 0 1px var(--accent-dim), 0 0 0px var(--accent-tint)" }, { boxShadow: "0 0 0 1px var(--accent-dim), 0 0 48px var(--accent-tint)", duration: 0.8, ease: "power2.out" }, at[id] + 0.3);
+  }
+  for (const { p, len, arrow, lbl, e } of edgeNodes) {
+    const t = Math.max(at[e.from] ?? 0, (at[e.to] ?? 0) - step * 0.7) + 0.25;
+    tl.to(p, { strokeDashoffset: 0, duration: Math.min(0.6, step * 0.7), ease: "power2.inOut" }, t);
+    tl.fromTo(arrow, { opacity: 0 }, { opacity: 1, duration: 0.2 }, t + Math.min(0.5, step * 0.6));
+    if (lbl) tl.fromTo(lbl, { opacity: 0 }, { opacity: 1, duration: 0.3 }, t + 0.2);
+  }
+  // hold on the complete figure with the focal node breathing once (the "one live element" of the hold)
+  const focal = DATA.nodes.find((n) => n.focal);
+  if (focal) tl.fromTo(nodes[focal.id], { scale: 1 }, { scale: 1.03, duration: 1.2, ease: "sine.inOut", yoyo: true, repeat: 1 }, T1 + 0.2);
+  tl.to([$("chrome"), canvas, $("note")], { opacity: 0, duration: 0.45, ease: "power2.in" }, DUR - 0.45);
+  window.__timelines[ID] = tl;
+})();
+</script>
+
+</template>
+</body>
+</html>

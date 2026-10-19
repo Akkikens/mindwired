@@ -1,0 +1,40 @@
+{
+  "scene": "chart",
+  "kind": "bar",
+  "duration": 10,
+  "eyebrow": "Who was aboard",
+  "title": "121 people, three nationalities",
+  "note": "NATIONALITY COUNTS INCLUDE CREW · SOURCE: AAIASB REPORT 11/2006",
+  "bar": {
+    "max": 120,
+    "categories": [
+      {
+        "label": "Cypriot",
+        "v": 107
+      },
+      {
+        "label": "Greek",
+        "v": 13
+      },
+      {
+        "label": "German",
+        "v": 1
+      }
+    ]
+  },
+  "stats": [
+    {
+      "value": 115,
+      "label": "passengers"
+    },
+    {
+      "value": 6,
+      "label": "crew"
+    },
+    {
+      "value": 118,
+      "label": "bodies recovered"
+    }
+  ],
+  "_facts": "CLAIMS-helios522.md: 121 aboard (115 passengers + 6 crew: 107 Cypriot incl. crew, 13 Greek incl. crew, 1 German — Capt. Merten). All 121 killed. 118 bodies recovered."
+}

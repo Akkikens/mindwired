@@ -1,0 +1,132 @@
+{
+  "scene": "diagram",
+  "duration": 18,
+  "eyebrow": "Mechanism · AAIASB causal chain",
+  "title": "How a selector left in MANUAL became hypoxia",
+  "note": "ORDER FOLLOWS THE REPORT'S CAUSAL CHAIN (P.171) AND CONTRIBUTING FACTORS · THE BOARD CALLED THE SELECTOR A DISTRIBUTED FINDING, NOT ONE PERSON'S FAULT",
+  "grid": {
+    "cols": 3,
+    "rows": 3,
+    "colW": 560,
+    "rowH": 225,
+    "x0": 120,
+    "y0": 200,
+    "nodeW": 440,
+    "nodeH": 120
+  },
+  "nodes": [
+    {
+      "id": "leak",
+      "kind": "start",
+      "label": "Overnight pressurization leak check",
+      "sub": "01:25h – 03:15h · released \"NIL defects\"",
+      "col": 0,
+      "row": 0
+    },
+    {
+      "id": "manual",
+      "kind": "step",
+      "label": "Pressurization mode selector left in MANUAL",
+      "sub": "not reset to AUTO · no checklist step required it",
+      "focal": true,
+      "col": 0,
+      "row": 1
+    },
+    {
+      "id": "checks",
+      "kind": "decision",
+      "label": "Caught on any of three crew checks?",
+      "col": 0,
+      "row": 2,
+      "sub": "preflight · after-start · after-takeoff"
+    },
+    {
+      "id": "climb",
+      "kind": "step",
+      "label": "Aircraft climbs; cabin does not pressurize",
+      "sub": "takeoff 09:07",
+      "col": 1,
+      "row": 2
+    },
+    {
+      "id": "horn",
+      "kind": "step",
+      "label": "Cabin altitude horn at 12,040 ft",
+      "sub": "09:12:38 · same tone as the takeoff-configuration horn",
+      "col": 1,
+      "row": 1
+    },
+    {
+      "id": "misread",
+      "kind": "step",
+      "label": "Crew report a \"takeoff configuration warning\"",
+      "sub": "09:14:11 · last transmission",
+      "col": 1,
+      "row": 0
+    },
+    {
+      "id": "hypoxia",
+      "kind": "end",
+      "label": "Crew incapacitated by hypoxia",
+      "sub": "level at FL340 from 09:23:32",
+      "col": 2,
+      "row": 0,
+      "h": 120
+    },
+    {
+      "id": "fuel",
+      "kind": "end",
+      "label": "Autopilot holds at KEA until fuel exhaustion",
+      "sub": "left engine 11:49:50 · right engine 11:59:47 · impact 12:03:32",
+      "col": 2,
+      "row": 2,
+      "h": 150
+    }
+  ],
+  "edges": [
+    {
+      "from": "leak",
+      "to": "manual"
+    },
+    {
+      "from": "manual",
+      "to": "checks"
+    },
+    {
+      "from": "checks",
+      "to": "climb",
+      "label": "No, three times",
+      "route": "h",
+      "danger": true,
+      "labelDy": -16
+    },
+    {
+      "from": "climb",
+      "to": "horn"
+    },
+    {
+      "from": "horn",
+      "to": "misread"
+    },
+    {
+      "from": "misread",
+      "to": "hypoxia",
+      "route": "h"
+    },
+    {
+      "from": "hypoxia",
+      "to": "fuel"
+    }
+  ],
+  "order": [
+    "leak",
+    "manual",
+    "checks",
+    "climb",
+    "horn",
+    "misread",
+    "hypoxia",
+    "fuel"
+  ],
+  "_facts": "CLAIMS-helios522.md probable cause chain: (1) crew never recognized the selector in MANUAL; (2) never identified the true problem; (3) hypoxia; (4) fuel exhaustion; (5) impact. Contributing: engineer left selector on MANUAL after leak check; crew missed it on three checks (preflight, after-start, after-takeoff); identical horn tone caused the misdiagnosis; Boeing manual had no explicit AUTO-confirm step. Times: 01:25h landing, 03:15h release, 09:07 takeoff, 09:12:38 horn at 12,040 ft, 09:14:11 last transmission, 09:23:32 FL340, 11:49:50 / 11:59:47 flameouts, 12:03:32 impact."
+}

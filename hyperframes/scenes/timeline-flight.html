@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1920, height=1080" />
+<title>helios522 · timeline-flight</title>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1920px; height: 1080px; overflow: hidden; background: #05070C; }
+/* mindwired scene-kit theme — derived from src/mindwired-doc/DocWide.tsx (THEMES, dsp(),
+   StatChip, CaptionBar, ChapterCard) and docs/planning/CRAFT-AUDIT.md's four-voice type system.
+   Fonts are the SAME OFL files the Remotion engine ships in public/fonts (copied to ../assets/fonts),
+   declared with @font-face so HyperFrames inlines them at build time — no runtime font race.
+
+   The build script (scripts/build.mjs) inlines this file into every generated scene and swaps
+   the accent for the channel given on the command line (--channel mindwired|blackbox|criminalrecord). */
+
+@font-face { font-family: 'Archivo Expanded'; src: url('../assets/fonts/ArchivoExpanded-ExtraBold.ttf') format('truetype'); font-weight: 700 900; font-style: normal; font-display: block; }
+@font-face { font-family: 'Archivo Expanded'; src: url('../assets/fonts/ArchivoExpanded-SemiBold.ttf') format('truetype'); font-weight: 100 699; font-style: normal; font-display: block; }
+@font-face { font-family: 'Spectral'; src: url('../assets/fonts/Spectral-Medium.ttf') format('truetype'); font-weight: 500; font-style: normal; font-display: block; }
+@font-face { font-family: 'Spectral'; src: url('../assets/fonts/Spectral-MediumItalic.ttf') format('truetype'); font-weight: 500; font-style: italic; font-display: block; }
+@font-face { font-family: 'IBM Plex Mono'; src: url('../assets/fonts/IBMPlexMono-Medium.ttf') format('truetype'); font-weight: 500; font-style: normal; font-display: block; }
+@font-face { font-family: 'IBM Plex Mono'; src: url('../assets/fonts/IBMPlexMono-SemiBold.ttf') format('truetype'); font-weight: 600; font-style: normal; font-display: block; }
+@font-face { font-family: 'Inter'; src: url('../assets/fonts/Inter.ttf') format('truetype'); font-weight: 100 900; font-style: normal; font-display: block; }
+
+:root, #root {
+  /* palette — DocWide BASE #05070C, mindwired accent #4DD8FF (blackbox #FF9500, criminalrecord #7FB4FF) */
+  --base: #05070C;
+  --base-2: #0B1019;
+  --panel: rgba(4, 6, 10, 0.78);
+  --ink: #FFFFFF;
+  --ink-2: rgba(255, 255, 255, 0.72);
+  --ink-3: rgba(255, 255, 255, 0.50);
+  --rule: rgba(255, 255, 255, 0.14);
+  --rule-2: rgba(255, 255, 255, 0.26);
+  --accent: #4DD8FF;
+  --accent-dim: rgba(77, 216, 255, 0.35);
+  --accent-tint: rgba(77, 216, 255, 0.12);
+  --danger: #FF4D4D;
+  --ok: #7CFC9B;
+
+  /* four-voice type system (CRAFT-AUDIT Finding 2) */
+  --display: 'Archivo Expanded', 'Archivo', 'Space Grotesk', sans-serif; /* hero titles, chapter cards, stat numerals */
+  --serif: 'Spectral', Georgia, serif;                                     /* quotes, testimony, editorial lines */
+  --mono: 'IBM Plex Mono', 'SF Mono', Menlo, monospace;                    /* evidence chrome, eyebrows, clocks */
+  --body: 'Inter', sans-serif;                                             /* captions, labels */
+
+  /* DocWide overlay safe zones (the host comp draws these on top of a video scene):
+     brand lockup top-right (42px/54px), stat chip top-left (118px/96px), caption bar bottom 84px.
+     Scenes keep the bottom 150px quiet and the top-right corner free. */
+  --safe-x: 96px;
+  --safe-top: 96px;
+  --safe-bottom: 150px;
+}
+
+#root { background: var(--base); color: var(--ink); font-family: var(--body); -webkit-font-smoothing: antialiased; }
+
+/* evidence eyebrow: mono, tracked, hairlines either side (DocWide ChapterCard) */
+.eyebrow { font-family: var(--mono); font-weight: 600; font-size: 24px; letter-spacing: 8px; color: var(--accent); text-transform: uppercase; display: flex; align-items: center; gap: 22px; }
+.eyebrow::before, .eyebrow::after { content: ""; display: block; width: 72px; height: 1px; background: var(--accent-dim); }
+.eyebrow.left::before { display: none; }
+
+/* hairline-diamond rule */
+.diamond-rule { display: flex; align-items: center; gap: 14px; }
+.diamond-rule i { display: block; width: 150px; height: 2px; background: linear-gradient(90deg, transparent, var(--accent)); }
+.diamond-rule i:last-child { background: linear-gradient(270deg, transparent, var(--accent)); }
+.diamond-rule b { display: block; width: 9px; height: 9px; background: var(--accent); transform: rotate(45deg); }
+
+/* stat chip (DocWide StatChip) */
+.stat-chip { font-family: var(--display); font-weight: 800; font-size: 50px; letter-spacing: 0.5px; font-variant-numeric: tabular-nums lining-nums; color: var(--ink); background: var(--panel); padding: 14px 30px 15px; border-left: 6px solid var(--accent); border-radius: 6px; display: inline-block; }
+
+/* source plate (DocWide ExhibitScene lower-third) */
+.source-plate { font-family: var(--body); font-weight: 600; font-size: 30px; line-height: 1.3; color: var(--ink); background: rgba(3,4,7,0.8); padding: 10px 22px; border-left: 5px solid var(--accent); border-radius: 8px; display: inline-block; max-width: 1100px; }
+.source-plate .tag { display: block; font-family: var(--mono); font-weight: 700; font-size: 20px; letter-spacing: 4px; color: var(--accent); margin-bottom: 4px; }
+
+</style>
+</head>
+<body>
+<!-- scene: timeline — minute-by-minute event sequence: a true-scale time rail with a moving playhead,
+     a running log on the left that fills as the playhead passes each event, and the active event large on the right.
+     data: { eyebrow, title, tz?, start:"HH:MM", end:"HH:MM", hourTicks?:["HH:MM",...],
+             events:[{t:"HH:MM[:SS]", text, tag?, color?:"accent|danger|ok"}], duration } -->
+<style>
+  #root { position: absolute; inset: 0; width: 100%; height: 100%; overflow: hidden; }
+  #timeline-flight-chrome { position: absolute; left: var(--safe-x); top: 64px; display: flex; flex-direction: column; gap: 10px; }
+  #timeline-flight-title { font-family: var(--display); font-weight: 800; font-size: 44px; color: var(--ink); }
+  #timeline-flight-logwin { position: absolute; left: var(--safe-x); top: 214px; width: 820px; height: 600px; overflow: hidden; -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 40px, #000 calc(100% - 70px), transparent 100%); mask-image: linear-gradient(180deg, transparent 0, #000 40px, #000 calc(100% - 70px), transparent 100%); }
+  #timeline-flight-log { position: absolute; left: 0; top: 0; width: 820px; display: flex; flex-direction: column; gap: 0; will-change: transform; }
+  .timeline-flight-row { display: grid; grid-template-columns: 150px 1fr; gap: 18px; align-items: baseline; padding: 9px 0; border-bottom: 1px solid var(--rule); will-change: opacity, transform; }
+  .timeline-flight-row .t { font-family: var(--mono); font-weight: 600; font-size: 22px; letter-spacing: 1px; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+  .timeline-flight-row .x { font-family: var(--body); font-weight: 500; font-size: 23px; line-height: 1.25; color: var(--ink-3); }
+  .timeline-flight-row.on .t { color: var(--accent); }
+  .timeline-flight-row.on .x { color: var(--ink); font-weight: 600; }
+  .timeline-flight-row.danger.on .t { color: var(--danger); }
+  #timeline-flight-active { position: absolute; left: 1000px; top: 232px; width: 824px; }
+  #timeline-flight-clock { font-family: var(--display); font-weight: 800; font-size: 118px; line-height: 1; color: var(--ink); font-variant-numeric: tabular-nums; letter-spacing: -1px; }
+  #timeline-flight-clock small { font-family: var(--mono); font-weight: 600; font-size: 24px; letter-spacing: 4px; color: var(--ink-2); margin-left: 16px; }
+  #timeline-flight-tag { font-family: var(--mono); font-weight: 600; font-size: 22px; letter-spacing: 5px; color: var(--accent); margin-top: 26px; text-transform: uppercase; }
+  #timeline-flight-text { font-family: var(--body); font-weight: 600; font-size: 40px; line-height: 1.28; color: var(--ink); margin-top: 12px; max-width: 800px; }
+  #timeline-flight-rail { position: absolute; left: var(--safe-x); right: var(--safe-x); top: 860px; height: 70px; }
+  #timeline-flight-rail-svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+  #timeline-flight-rail-svg .base { stroke: rgba(255,255,255,0.22); stroke-width: 2; }
+  #timeline-flight-rail-svg .done { stroke: var(--accent); stroke-width: 3; }
+  #timeline-flight-rail-svg .htick { stroke: rgba(255,255,255,0.4); stroke-width: 2; }
+  #timeline-flight-rail-svg .hlbl { font-family: var(--mono); font-size: 18px; fill: var(--ink-3); letter-spacing: 1px; text-anchor: middle; }
+  #timeline-flight-rail-svg .ev { fill: #05070C; stroke: rgba(255,255,255,0.5); stroke-width: 2; }
+  #timeline-flight-rail-svg .ev.on { fill: var(--accent); stroke: var(--accent); }
+  #timeline-flight-rail-svg .ev.danger.on { fill: var(--danger); stroke: var(--danger); }
+  #timeline-flight-rail-svg .ph { stroke: var(--ink); stroke-width: 3; }
+  #timeline-flight-rail-svg .phhead { fill: var(--ink); }
+  #timeline-flight-note { position: absolute; right: 54px; bottom: 44px; font-family: var(--mono); font-size: 16px; letter-spacing: 1px; color: var(--ink-3); }
+</style>
+
+<div id="root" data-composition-id="timeline-flight" data-start="0" data-width="1920" data-height="1080" data-duration="26">
+  <div id="timeline-flight-chrome">
+    <div class="eyebrow left" id="timeline-flight-eyebrow"></div>
+    <div id="timeline-flight-title"></div>
+  </div>
+  <div id="timeline-flight-logwin"><div id="timeline-flight-log"></div></div>
+  <div id="timeline-flight-active">
+    <div id="timeline-flight-clock"><span id="timeline-flight-clock-t"></span><small id="timeline-flight-clock-tz"></small></div>
+    <div id="timeline-flight-tag"></div>
+    <div id="timeline-flight-text"></div>
+  </div>
+  <div id="timeline-flight-rail">
+    <svg id="timeline-flight-rail-svg" viewBox="0 0 1728 70" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+      <line class="base" x1="0" x2="1728" y1="35" y2="35"/>
+      <line class="done" id="timeline-flight-done" x1="0" x2="0" y1="35" y2="35"/>
+      <g id="timeline-flight-hours"></g>
+      <g id="timeline-flight-evs"></g>
+      <g id="timeline-flight-playhead"><line class="ph" x1="0" x2="0" y1="6" y2="64"/><polygon class="phhead" points="-8,0 8,0 0,10"/></g>
+    </svg>
+  </div>
+  <div id="timeline-flight-note"></div>
+</div>
+
+<script>
+(() => {
+  const DATA = {"scene":"timeline","duration":26,"eyebrow":"14 Aug 2005 · Larnaca to Grammatiko","title":"Two hours and fifty-six minutes","tz":"EEST","start":"09:00","end":"12:10","hourTicks":["09:00","10:00","11:00","12:00"],"note":"TIMES FROM AAIASB REPORT 11/2006 · LOCAL TIME (UTC+3)","events":[{"t":"09:07","tag":"Takeoff","text":"Helios 522 lifts off from Larnaca, bound for Athens."},{"t":"09:12:38","tag":"Cabin altitude horn","text":"The warning horn sounds at 12,040 ft cabin altitude. It is tonally identical to the ground-only takeoff-configuration horn.","color":"danger"},{"t":"09:14:11","tag":"Last transmission","text":"Captain Merten radios Helios operations about the \"takeoff configuration warning\". The engineer asks whether the pressurization panel is set to AUTO; Merten asks about circuit breakers instead."},{"t":"09:23:32","tag":"Level at FL340","text":"The aircraft levels at about 34,000 ft on autopilot and continues its programmed route."},{"t":"09:37","tag":"Athens FIR","text":"Enters the Athens flight information region with no radio contact."},{"t":"10:40","tag":"Holding","text":"Enters a holding pattern at the KEA VOR, its programmed fallback."},{"t":"11:05","tag":"Scramble","text":"Two Hellenic Air Force F-16s scramble from Nea Anchialos."},{"t":"11:23","tag":"Intercept","text":"The F-16s intercept on the sixth holding loop: the first officer slumped, the captain's seat empty, oxygen masks dangling.","color":"danger"},{"t":"11:49","tag":"Cockpit","text":"Flight attendant Andreas Prodromou enters the cockpit on portable oxygen and waves at the F-16s."},{"t":"11:49:50","tag":"Left engine","text":"The left engine flames out from fuel exhaustion. The aircraft leaves the hold and begins descending."},{"t":"11:54","tag":"Mayday","text":"The cockpit voice recorder captures five mayday calls, still on the Larnaca frequency. Athens never hears them."},{"t":"11:59:47","tag":"Right engine","text":"The right engine flames out."},{"t":"12:03:32","tag":"Impact","text":"The aircraft strikes hills near Grammatiko. All 121 aboard are killed.","color":"danger"}],"_facts":"Every event and time is from the CONFIRMED timeline in docs/planning/CLAIMS-helios522.md (EEST). The 10:12–10:50 'nineteen failed ATC contact attempts' span is left out because it is a window, not a single minute."};
+  const ID = "timeline-flight";
+  const DUR = 26;
+  const $ = (s) => document.getElementById(`${ID}-${s}`);
+  const NS = "http://www.w3.org/2000/svg";
+  const el = (tag, attrs, parent) => { const n = document.createElementNS(NS, tag); for (const k in attrs) n.setAttribute(k, attrs[k]); if (parent) parent.appendChild(n); return n; };
+  const sec = (t) => { const p = t.split(":").map(Number); return p[0] * 3600 + p[1] * 60 + (p[2] ?? 0); };
+  const RW = 1728;
+  const t0 = sec(DATA.start), t1 = sec(DATA.end);
+  const X = (t) => ((t - t0) / (t1 - t0)) * RW;
+  const EV = DATA.events.slice().sort((a, b) => sec(a.t) - sec(b.t));
+
+  $("eyebrow").textContent = DATA.eyebrow ?? "";
+  $("title").textContent = DATA.title ?? "";
+  $("clock-tz").textContent = DATA.tz ?? "";
+  $("note").textContent = DATA.note ?? "";
+
+  for (const h of DATA.hourTicks ?? []) { const x = X(sec(h)); el("line", { class: "htick", x1: x, x2: x, y1: 24, y2: 46 }, $("hours")); const t = el("text", { class: "hlbl", x, y: 68 }, $("hours")); t.textContent = h; }
+  const dots = EV.map((e) => el("circle", { class: `ev ${e.color ?? ""}`, cx: X(sec(e.t)), cy: 35, r: 7 }, $("evs")));
+  const rows = EV.map((e) => {
+    const r = document.createElement("div"); r.className = `${ID}-row ${e.color ?? ""}`;
+    const t = document.createElement("div"); t.className = "t"; t.textContent = e.t;
+    const x = document.createElement("div"); x.className = "x"; x.textContent = e.text;
+    r.appendChild(t); r.appendChild(x); $("log").appendChild(r); return r;
+  });
+
+  // schedule: each event gets an equal slot of the available time; the playhead travels for 30% of
+  // the slot and holds for 70%, so clustered events (minutes apart) still get their own beat.
+  const T0 = 1.0, T1 = DUR - 0.9;
+  const slot = (T1 - T0) / EV.length;
+  const keys = []; // [{tl time, rail time}] piecewise-linear playhead
+  keys.push([T0, t0]);
+  EV.forEach((e, i) => { const arrive = T0 + slot * i + slot * 0.3; keys.push([arrive, sec(e.t)]); keys.push([T0 + slot * (i + 1), sec(e.t)]); });
+  const railTimeAt = (tt) => { if (tt <= keys[0][0]) return keys[0][1]; for (let i = 1; i < keys.length; i++) { if (tt <= keys[i][0]) { const [a, va] = keys[i - 1], [b, vb] = keys[i]; return b === a ? vb : va + ((vb - va) * (tt - a)) / (b - a); } } return keys[keys.length - 1][1]; };
+
+  const clock = $("clock-t"), tag = $("tag"), text = $("text"), done = $("done"), ph = $("playhead");
+  const fmtClock = (s) => `${String(Math.floor(s / 3600)).padStart(2, "0")}:${String(Math.floor((s % 3600) / 60)).padStart(2, "0")}`;
+  let lastActive = -2, lastClock = "";
+  const drv = { t: 0 };
+  const apply = () => {
+    const rt = railTimeAt(drv.t); const x = X(rt);
+    ph.setAttribute("transform", `translate(${x} 0)`); done.setAttribute("x2", x);
+    // active = last event whose time <= rail time (with a 1s tolerance for exact arrivals)
+    let a = -1; for (let i = 0; i < EV.length; i++) if (sec(EV[i].t) <= rt + 0.5) a = i;
+    if (a !== lastActive) {
+      rows.forEach((r, i) => r.classList.toggle("on", i === a)); dots.forEach((d, i) => d.classList.toggle("on", i <= a));
+      if (a >= 0) { clock.textContent = EV[a].t; tag.textContent = EV[a].tag ?? ""; text.textContent = EV[a].text; } else { clock.textContent = fmtClock(rt); tag.textContent = ""; text.textContent = ""; }
+      lastActive = a; lastClock = clock.textContent;
+    } else if (a >= 0 && rt > sec(EV[a].t) + 59) {
+      // travelling between events: the clock runs with the playhead (minute resolution), the card keeps the last event
+      const c = fmtClock(rt); if (c !== lastClock) { clock.textContent = c; lastClock = c; }
+    }
+  };
+  apply();
+
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo($("chrome"), { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.7, ease: "power2.out" }, 0);
+  tl.fromTo($("rail"), { opacity: 0 }, { opacity: 1, duration: 0.6 }, 0.3);
+  tl.fromTo($("note"), { opacity: 0 }, { opacity: 1, duration: 0.5 }, 0.9);
+  // rows exist from the start as faint ruled lines (the log's "paper"), each brightening on arrival
+  rows.forEach((r, i) => { const arrive = T0 + slot * i + slot * 0.3; tl.fromTo(r, { opacity: 0.18, x: 0 }, { opacity: 1, x: 0, duration: 0.4, ease: "power2.out" }, arrive); });
+  tl.fromTo($("active"), { opacity: 0 }, { opacity: 1, duration: 0.4 }, T0);
+  // the log scrolls so the active row stays inside the window (row heights are authored constants that mirror the CSS:
+  // 23px/1.25 body on a 652px column ≈ 56 chars per line; 9px padding top/bottom + 1px rule)
+  const rowH = EV.map((e) => 19 + Math.max(1, Math.ceil(e.text.length / 56)) * 29);
+  const rowTop = []; { let a = 0; for (const h of rowH) { rowTop.push(a); a += h; } }
+  const WIN = 600, KEEP = 330; // keep the active row's top above this line
+  let yPrev = 0;
+  EV.forEach((e, i) => { const arrive = T0 + slot * i + slot * 0.3; const y = -Math.max(0, rowTop[i] - KEEP); if (y !== yPrev) { tl.fromTo($("log"), { y: yPrev }, { y, duration: 0.6, ease: "power2.inOut", immediateRender: false }, arrive - 0.2); yPrev = y; } });
+  // the active card re-enters on every event change: one tween per arrival (seek-safe, explicit from-state)
+  EV.forEach((e, i) => { const arrive = T0 + slot * i + slot * 0.3; tl.fromTo([tag, text], { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.45, ease: "power3.out", immediateRender: false }, arrive); tl.fromTo(clock, { scale: 0.96, transformOrigin: "left center" }, { scale: 1, duration: 0.5, ease: "back.out(1.6)", immediateRender: false }, arrive); });
+  tl.to(drv, { t: DUR, duration: DUR, ease: "none", onUpdate: apply }, 0);
+  tl.to([$("chrome"), $("logwin"), $("active"), $("rail"), $("note")], { opacity: 0, duration: 0.45, ease: "power2.in" }, DUR - 0.45);
+  window.__timelines[ID] = tl;
+})();
+</script>
+
+</body>
+</html>

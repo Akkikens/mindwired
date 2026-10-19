@@ -1,0 +1,11 @@
+{
+  "scene": "title-card",
+  "duration": 6,
+  "eyebrow": "Chapter 2",
+  "title": "Two Warnings. One Sound.",
+  "sub": "09:12:38 EEST · CABIN ALTITUDE HORN · 12,040 FT",
+  "image": "assets/samples/helios_5B-DBY_cdg_2005.jpeg",
+  "imageCredit": "5B-DBY, PARIS CDG, MAY 2005 · CC BY 2.0 · WIKIMEDIA COMMONS",
+  "accentLastWord": true,
+  "_facts": "CLAIMS-helios522.md: 09:12:38 cabin altitude warning horn at 12,040 ft; tonally identical to the takeoff-configuration horn (report p.133)."
+}

@@ -1,0 +1,128 @@
+<!-- scene: exhibit — document page with a slow push toward the key line, an animated highlight sweep and a cover-bar reveal.
+     Two modes:
+       mode:"page"  — a typeset page built from `blocks` (for reports whose scans are NOT public domain; carries an on-page
+                      "typeset excerpt, not a facsimile" stamp so it can never be mistaken for a scan)
+       mode:"image" — a real public-domain scan (`image`) with normalized rects, like DocWide's ExhibitScene
+     data: { mode, eyebrow, source, stamp?, page?:{header:[...], blocks:[{kind:"meta"|"entry"|"para"|"finding"|"gap", ...}]},
+             image?, highlight?: {block:n} | [x,y,w,h], cover?: {block:n, revealAt:s} | {rect:[x,y,w,h], revealAt},
+             focus?:[x,y] (0..1 push target), zoom?, duration } -->
+<style>
+  #root { position: absolute; inset: 0; width: 100%; height: 100%; overflow: hidden; background: #030407; }
+  #{{ID}}-back { position: absolute; inset: -8%; background: radial-gradient(ellipse at 50% 40%, #1A2030 0%, #0A0D14 55%, #030407 100%); }
+  #{{ID}}-backimg { position: absolute; inset: -8%; background-size: cover; background-position: center; filter: blur(34px) brightness(0.35) saturate(0.7); opacity: 0.5; }
+  #{{ID}}-stage { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; }
+  #{{ID}}-page { position: relative; height: 940px; width: 700px; background: #F3F0E9; color: #1C1B18; box-shadow: 0 30px 90px rgba(0,0,0,0.85); border: 1px solid rgba(255,255,255,0.12); overflow: hidden; will-change: transform; }
+  #{{ID}}-page.image { width: auto; }
+  #{{ID}}-page img { display: block; height: 100%; width: auto; }
+  #{{ID}}-paper { position: absolute; inset: 0; }
+  #{{ID}}-paper .blk { position: absolute; left: 56px; width: 588px; }
+  #{{ID}}-paper .hdr { padding-right: 150px; font-family: var(--mono); font-weight: 600; font-size: 15px; letter-spacing: 1.5px; color: #4A4740; text-transform: uppercase; border-bottom: 1.5px solid #1C1B18; padding-bottom: 12px; display: flex; flex-direction: column; gap: 4px; }
+  #{{ID}}-paper .hdr b { font-family: var(--serif); font-weight: 500; font-size: 22px; letter-spacing: 0; text-transform: none; color: #1C1B18; }
+  #{{ID}}-paper .meta { display: grid; grid-template-columns: 150px 1fr; gap: 6px 14px; font-family: var(--mono); font-size: 15px; color: #3A3832; }
+  #{{ID}}-paper .meta b { font-weight: 600; color: #1C1B18; }
+  #{{ID}}-paper .entry { display: grid; grid-template-columns: 96px 1fr; gap: 14px; align-items: start; }
+  #{{ID}}-paper .entry .t { font-family: var(--mono); font-weight: 600; font-size: 17px; color: #1C1B18; padding-top: 3px; }
+  #{{ID}}-paper .entry .w { font-family: var(--mono); font-size: 13px; letter-spacing: 1px; color: #4F4B43; text-transform: uppercase; margin-bottom: 3px; }
+  #{{ID}}-paper .entry .q { font-family: var(--serif); font-size: 21px; line-height: 1.38; color: #1C1B18; }
+  #{{ID}}-paper .para { font-family: var(--serif); font-size: 19px; line-height: 1.42; color: #2A2823; }
+  #{{ID}}-paper .finding { display: grid; grid-template-columns: 76px 1fr; gap: 12px; font-family: var(--serif); font-size: 19px; line-height: 1.4; }
+  #{{ID}}-paper .finding .n { font-family: var(--mono); font-weight: 600; font-size: 16px; color: #1C1B18; padding-top: 3px; }
+  #{{ID}}-paper .gap { display: flex; flex-direction: column; gap: 11px; padding: 4px 0; }
+  #{{ID}}-paper .gap i { display: block; height: 1px; background: #CFCAC0; }
+  #{{ID}}-paper .gap span { font-family: var(--mono); font-size: 12px; letter-spacing: 1.5px; color: #5C584F; text-transform: uppercase; }
+  #{{ID}}-stamp { position: absolute; right: 18px; top: 30px; width: 118px; text-align: center; line-height: 1.5; font-family: var(--mono); font-weight: 600; font-size: 12px; letter-spacing: 2px; color: #9A2E2E; border: 2px solid #9A2E2E; padding: 6px 10px; transform: rotate(-4deg); text-transform: uppercase; background: rgba(243,240,233,0.85); }
+  #{{ID}}-hl { position: absolute; background: var(--accent); mix-blend-mode: multiply; opacity: 0.55; transform-origin: left center; border-radius: 3px; pointer-events: none; }
+  #{{ID}}-cover { position: absolute; background: #121418; transform-origin: right center; border-radius: 2px; }
+  #{{ID}}-chrome { position: absolute; left: var(--safe-x); top: 64px; display: flex; flex-direction: column; gap: 10px; }
+  #{{ID}}-src { position: absolute; left: var(--safe-x); bottom: 96px; max-width: 440px; }
+  #{{ID}}-src.source-plate { font-size: 24px; }
+  #{{ID}}-caption { position: absolute; left: var(--safe-x); top: 150px; max-width: 420px; font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 36px; line-height: 1.3; color: var(--ink); text-shadow: 0 3px 22px rgba(0,0,0,0.9); }
+  #{{ID}}-caption b { color: var(--accent); font-style: normal; font-weight: 500; margin-right: 10px; }
+</style>
+
+<div id="root" data-composition-id="{{ID}}" data-start="0" data-width="1920" data-height="1080" data-duration="{{DURATION}}">
+  <div id="{{ID}}-back"></div>
+  <div id="{{ID}}-backimg"></div>
+  <div id="{{ID}}-stage">
+    <div id="{{ID}}-page">
+      <div id="{{ID}}-paper"></div>
+      <div id="{{ID}}-stamp"></div>
+      <div id="{{ID}}-hl"></div>
+      <div id="{{ID}}-cover"></div>
+    </div>
+  </div>
+  <div id="{{ID}}-chrome"><div class="eyebrow left" id="{{ID}}-eyebrow"></div></div>
+  <div id="{{ID}}-src" class="source-plate"><span class="tag">EXHIBIT</span><span id="{{ID}}-src-text"></span></div>
+  <div id="{{ID}}-caption"><b>—</b><span id="{{ID}}-caption-text"></span></div>
+</div>
+
+<script>
+(() => {
+  const DATA = {{DATA}};
+  const ID = "{{ID}}";
+  const DUR = {{DURATION}};
+  const $ = (s) => document.getElementById(`${ID}-${s}`);
+  const page = $("page"), paper = $("paper");
+  $("eyebrow").textContent = DATA.eyebrow ?? "";
+  $("src-text").textContent = DATA.source ?? "";
+  $("caption-text").textContent = DATA.caption ?? ""; if (!DATA.caption) $("caption").style.display = "none";
+
+  // Page geometry is authored in CSS pixels (700×940 page) so every rect below is a plain constant: no measuring.
+  const PAGE_W = 700, PAGE_H = 940;
+  const blockRects = []; // [x,y,w,h] in page px, filled while laying out the typeset page
+  if (DATA.mode === "image") {
+    page.classList.add("image"); paper.style.display = "none";
+    const img = document.createElement("img"); img.src = DATA.image; page.insertBefore(img, paper);
+    $("backimg").style.backgroundImage = `url('${DATA.image}')`;
+    $("stamp").style.display = "none";
+  } else {
+    $("backimg").style.display = "none";
+    $("stamp").textContent = DATA.stamp ?? "Typeset excerpt · not a facsimile";
+    // layout: a simple vertical flow with fixed line metrics (constants mirror the CSS so rects need no measurement)
+    const P = DATA.page; let y = 48; const x = 56, w = PAGE_W - 112;
+    const add = (html, h) => { const d = document.createElement("div"); d.className = "blk"; d.innerHTML = html; d.style.top = `${y}px`; d.style.height = `${h}px`; paper.appendChild(d); const r = [x, y, w, h]; y += h + 18; return r; };
+    const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+    const lines = (s, cpl) => Math.max(1, Math.ceil(String(s).length / cpl));
+    add(`<div class="hdr">${(P.header ?? []).map((h, i) => i === 0 ? `<b>${esc(h)}</b>` : `<span>${esc(h)}</span>`).join("")}</div>`, 30 + (P.header ?? []).reduce((a, h, i) => a + (i === 0 ? 30 : lines(h, 34) * 22), 0) + 12);
+    for (const b of P.blocks ?? []) {
+      if (b.kind === "meta") blockRects.push(add(`<div class="meta">${b.rows.map(([k, v]) => `<b>${esc(k)}</b><span>${esc(v)}</span>`).join("")}</div>`, b.rows.length * 25));
+      else if (b.kind === "entry") blockRects.push(add(`<div class="entry"><div class="t">${esc(b.time ?? "")}</div><div><div class="w">${esc(b.who ?? "")}</div><div class="q">${esc(b.text)}</div></div></div>`, 20 + lines(b.text, 40) * 29));
+      else if (b.kind === "para") blockRects.push(add(`<div class="para">${esc(b.text)}</div>`, lines(b.text, 52) * 27));
+      else if (b.kind === "finding") blockRects.push(add(`<div class="finding"><div class="n">${esc(b.n ?? "")}</div><div>${esc(b.text)}</div></div>`, lines(b.text, 46) * 27));
+      else if (b.kind === "gap") { const n = b.lines ?? 3; blockRects.push(add(`<div class="gap"><span>${esc(b.note ?? "text not reproduced")}</span>${"<i></i>".repeat(n)}</div>`, 18 + n * 12)); }
+    }
+  }
+  const rectOf = (spec, pad = 6) => {
+    if (!spec) return null;
+    if (Array.isArray(spec)) return [spec[0] * PAGE_W, spec[1] * PAGE_H, spec[2] * PAGE_W, spec[3] * PAGE_H];
+    const r = blockRects[spec.block]; if (!r) return null;
+    const [x, y, w, h] = r; return [x - pad, y - pad, w + pad * 2, h + pad * 2];
+  };
+  const hl = $("hl"), cover = $("cover");
+  const hlR = rectOf(DATA.highlight), cvR = rectOf(DATA.cover?.rect ?? DATA.cover);
+  const put = (node, r) => { if (!r) { node.style.display = "none"; return; } node.style.left = `${r[0]}px`; node.style.top = `${r[1]}px`; node.style.width = `${r[2]}px`; node.style.height = `${r[3]}px`; };
+  put(hl, hlR); put(cover, cvR);
+
+  // push toward the focus point (the highlight's centre by default) — DocWide ExhibitScene: smoothstep zoom 1 → 1.5
+  const focus = DATA.focus ?? (hlR ? [(hlR[0] + hlR[2] / 2) / PAGE_W, (hlR[1] + hlR[3] / 2) / PAGE_H] : [0.5, 0.5]);
+  const ZOOM = DATA.zoom ?? 1.55;
+  const screenX = DATA.screenX ?? 1150; // where the focus point lands (right of centre: the left column holds the chrome)
+  const dx = (0.5 - focus[0]) * PAGE_W * ZOOM + (screenX - 960), dy = (0.5 - focus[1]) * PAGE_H * ZOOM;
+
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo($("back"), { opacity: 0 }, { opacity: 1, duration: 0.8 }, 0);
+  tl.fromTo($("backimg"), { opacity: 0 }, { opacity: 0.5, duration: 0.8 }, 0);
+  tl.fromTo(page, { opacity: 0, y: 30, scale: 1, x: 120 }, { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" }, 0.1);
+  tl.to(page, { scale: ZOOM, x: dx, y: dy, duration: DUR - 1.4, ease: "sine.inOut" }, 0.9);
+  tl.fromTo($("chrome"), { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.7, ease: "power2.out" }, 0.3);
+  tl.fromTo($("src"), { opacity: 0, y: 18 }, { opacity: 1, y: 0, duration: 0.7, ease: "power3.out" }, 0.9);
+  if (DATA.caption) tl.fromTo($("caption"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.7, ease: "power3.out" }, 1.3);
+  if (hlR) tl.fromTo(hl, { scaleX: 0, opacity: 0.55 }, { scaleX: 1, duration: 0.9, ease: "power2.inOut" }, DATA.highlightAt ?? 2.2);
+  if (cvR) {
+    const at = DATA.cover.revealAt ?? Math.min(DUR - 3, 6);
+    tl.fromTo(cover, { scaleX: 1 }, { scaleX: 0, duration: 0.8, ease: "power3.inOut" }, at);
+  }
+  tl.to([page, $("chrome"), $("src"), $("caption"), $("back"), $("backimg")], { opacity: 0, duration: 0.45, ease: "power2.in" }, DUR - 0.45);
+  window.__timelines[ID] = tl;
+})();
+</script>

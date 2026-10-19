@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1920, height=1080" />
+<title>helios522 · exhibit-techlog</title>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1920px; height: 1080px; overflow: hidden; background: #05070C; }
+/* mindwired scene-kit theme — derived from src/mindwired-doc/DocWide.tsx (THEMES, dsp(),
+   StatChip, CaptionBar, ChapterCard) and docs/planning/CRAFT-AUDIT.md's four-voice type system.
+   Fonts are the SAME OFL files the Remotion engine ships in public/fonts (copied to ../assets/fonts),
+   declared with @font-face so HyperFrames inlines them at build time — no runtime font race.
+
+   The build script (scripts/build.mjs) inlines this file into every generated scene and swaps
+   the accent for the channel given on the command line (--channel mindwired|blackbox|criminalrecord). */
+
+@font-face { font-family: 'Archivo Expanded'; src: url('../assets/fonts/ArchivoExpanded-ExtraBold.ttf') format('truetype'); font-weight: 700 900; font-style: normal; font-display: block; }
+@font-face { font-family: 'Archivo Expanded'; src: url('../assets/fonts/ArchivoExpanded-SemiBold.ttf') format('truetype'); font-weight: 100 699; font-style: normal; font-display: block; }
+@font-face { font-family: 'Spectral'; src: url('../assets/fonts/Spectral-Medium.ttf') format('truetype'); font-weight: 500; font-style: normal; font-display: block; }
+@font-face { font-family: 'Spectral'; src: url('../assets/fonts/Spectral-MediumItalic.ttf') format('truetype'); font-weight: 500; font-style: italic; font-display: block; }
+@font-face { font-family: 'IBM Plex Mono'; src: url('../assets/fonts/IBMPlexMono-Medium.ttf') format('truetype'); font-weight: 500; font-style: normal; font-display: block; }
+@font-face { font-family: 'IBM Plex Mono'; src: url('../assets/fonts/IBMPlexMono-SemiBold.ttf') format('truetype'); font-weight: 600; font-style: normal; font-display: block; }
+@font-face { font-family: 'Inter'; src: url('../assets/fonts/Inter.ttf') format('truetype'); font-weight: 100 900; font-style: normal; font-display: block; }
+
+:root, #root {
+  /* palette — DocWide BASE #05070C, mindwired accent #4DD8FF (blackbox #FF9500, criminalrecord #7FB4FF) */
+  --base: #05070C;
+  --base-2: #0B1019;
+  --panel: rgba(4, 6, 10, 0.78);
+  --ink: #FFFFFF;
+  --ink-2: rgba(255, 255, 255, 0.72);
+  --ink-3: rgba(255, 255, 255, 0.50);
+  --rule: rgba(255, 255, 255, 0.14);
+  --rule-2: rgba(255, 255, 255, 0.26);
+  --accent: #4DD8FF;
+  --accent-dim: rgba(77, 216, 255, 0.35);
+  --accent-tint: rgba(77, 216, 255, 0.12);
+  --danger: #FF4D4D;
+  --ok: #7CFC9B;
+
+  /* four-voice type system (CRAFT-AUDIT Finding 2) */
+  --display: 'Archivo Expanded', 'Archivo', 'Space Grotesk', sans-serif; /* hero titles, chapter cards, stat numerals */
+  --serif: 'Spectral', Georgia, serif;                                     /* quotes, testimony, editorial lines */
+  --mono: 'IBM Plex Mono', 'SF Mono', Menlo, monospace;                    /* evidence chrome, eyebrows, clocks */
+  --body: 'Inter', sans-serif;                                             /* captions, labels */
+
+  /* DocWide overlay safe zones (the host comp draws these on top of a video scene):
+     brand lockup top-right (42px/54px), stat chip top-left (118px/96px), caption bar bottom 84px.
+     Scenes keep the bottom 150px quiet and the top-right corner free. */
+  --safe-x: 96px;
+  --safe-top: 96px;
+  --safe-bottom: 150px;
+}
+
+#root { background: var(--base); color: var(--ink); font-family: var(--body); -webkit-font-smoothing: antialiased; }
+
+/* evidence eyebrow: mono, tracked, hairlines either side (DocWide ChapterCard) */
+.eyebrow { font-family: var(--mono); font-weight: 600; font-size: 24px; letter-spacing: 8px; color: var(--accent); text-transform: uppercase; display: flex; align-items: center; gap: 22px; }
+.eyebrow::before, .eyebrow::after { content: ""; display: block; width: 72px; height: 1px; background: var(--accent-dim); }
+.eyebrow.left::before { display: none; }
+
+/* hairline-diamond rule */
+.diamond-rule { display: flex; align-items: center; gap: 14px; }
+.diamond-rule i { display: block; width: 150px; height: 2px; background: linear-gradient(90deg, transparent, var(--accent)); }
+.diamond-rule i:last-child { background: linear-gradient(270deg, transparent, var(--accent)); }
+.diamond-rule b { display: block; width: 9px; height: 9px; background: var(--accent); transform: rotate(45deg); }
+
+/* stat chip (DocWide StatChip) */
+.stat-chip { font-family: var(--display); font-weight: 800; font-size: 50px; letter-spacing: 0.5px; font-variant-numeric: tabular-nums lining-nums; color: var(--ink); background: var(--panel); padding: 14px 30px 15px; border-left: 6px solid var(--accent); border-radius: 6px; display: inline-block; }
+
+/* source plate (DocWide ExhibitScene lower-third) */
+.source-plate { font-family: var(--body); font-weight: 600; font-size: 30px; line-height: 1.3; color: var(--ink); background: rgba(3,4,7,0.8); padding: 10px 22px; border-left: 5px solid var(--accent); border-radius: 8px; display: inline-block; max-width: 1100px; }
+.source-plate .tag { display: block; font-family: var(--mono); font-weight: 700; font-size: 20px; letter-spacing: 4px; color: var(--accent); margin-bottom: 4px; }
+
+</style>
+</head>
+<body>
+<!-- scene: exhibit — document page with a slow push toward the key line, an animated highlight sweep and a cover-bar reveal.
+     Two modes:
+       mode:"page"  — a typeset page built from `blocks` (for reports whose scans are NOT public domain; carries an on-page
+                      "typeset excerpt, not a facsimile" stamp so it can never be mistaken for a scan)
+       mode:"image" — a real public-domain scan (`image`) with normalized rects, like DocWide's ExhibitScene
+     data: { mode, eyebrow, source, stamp?, page?:{header:[...], blocks:[{kind:"meta"|"entry"|"para"|"finding"|"gap", ...}]},
+             image?, highlight?: {block:n} | [x,y,w,h], cover?: {block:n, revealAt:s} | {rect:[x,y,w,h], revealAt},
+             focus?:[x,y] (0..1 push target), zoom?, duration } -->
+<style>
+  #root { position: absolute; inset: 0; width: 100%; height: 100%; overflow: hidden; background: #030407; }
+  #exhibit-techlog-back { position: absolute; inset: -8%; background: radial-gradient(ellipse at 50% 40%, #1A2030 0%, #0A0D14 55%, #030407 100%); }
+  #exhibit-techlog-backimg { position: absolute; inset: -8%; background-size: cover; background-position: center; filter: blur(34px) brightness(0.35) saturate(0.7); opacity: 0.5; }
+  #exhibit-techlog-stage { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; }
+  #exhibit-techlog-page { position: relative; height: 940px; width: 700px; background: #F3F0E9; color: #1C1B18; box-shadow: 0 30px 90px rgba(0,0,0,0.85); border: 1px solid rgba(255,255,255,0.12); overflow: hidden; will-change: transform; }
+  #exhibit-techlog-page.image { width: auto; }
+  #exhibit-techlog-page img { display: block; height: 100%; width: auto; }
+  #exhibit-techlog-paper { position: absolute; inset: 0; }
+  #exhibit-techlog-paper .blk { position: absolute; left: 56px; width: 588px; }
+  #exhibit-techlog-paper .hdr { padding-right: 150px; font-family: var(--mono); font-weight: 600; font-size: 15px; letter-spacing: 1.5px; color: #4A4740; text-transform: uppercase; border-bottom: 1.5px solid #1C1B18; padding-bottom: 12px; display: flex; flex-direction: column; gap: 4px; }
+  #exhibit-techlog-paper .hdr b { font-family: var(--serif); font-weight: 500; font-size: 22px; letter-spacing: 0; text-transform: none; color: #1C1B18; }
+  #exhibit-techlog-paper .meta { display: grid; grid-template-columns: 150px 1fr; gap: 6px 14px; font-family: var(--mono); font-size: 15px; color: #3A3832; }
+  #exhibit-techlog-paper .meta b { font-weight: 600; color: #1C1B18; }
+  #exhibit-techlog-paper .entry { display: grid; grid-template-columns: 96px 1fr; gap: 14px; align-items: start; }
+  #exhibit-techlog-paper .entry .t { font-family: var(--mono); font-weight: 600; font-size: 17px; color: #1C1B18; padding-top: 3px; }
+  #exhibit-techlog-paper .entry .w { font-family: var(--mono); font-size: 13px; letter-spacing: 1px; color: #4F4B43; text-transform: uppercase; margin-bottom: 3px; }
+  #exhibit-techlog-paper .entry .q { font-family: var(--serif); font-size: 21px; line-height: 1.38; color: #1C1B18; }
+  #exhibit-techlog-paper .para { font-family: var(--serif); font-size: 19px; line-height: 1.42; color: #2A2823; }
+  #exhibit-techlog-paper .finding { display: grid; grid-template-columns: 76px 1fr; gap: 12px; font-family: var(--serif); font-size: 19px; line-height: 1.4; }
+  #exhibit-techlog-paper .finding .n { font-family: var(--mono); font-weight: 600; font-size: 16px; color: #1C1B18; padding-top: 3px; }
+  #exhibit-techlog-paper .gap { display: flex; flex-direction: column; gap: 11px; padding: 4px 0; }
+  #exhibit-techlog-paper .gap i { display: block; height: 1px; background: #CFCAC0; }
+  #exhibit-techlog-paper .gap span { font-family: var(--mono); font-size: 12px; letter-spacing: 1.5px; color: #5C584F; text-transform: uppercase; }
+  #exhibit-techlog-stamp { position: absolute; right: 18px; top: 30px; width: 118px; text-align: center; line-height: 1.5; font-family: var(--mono); font-weight: 600; font-size: 12px; letter-spacing: 2px; color: #9A2E2E; border: 2px solid #9A2E2E; padding: 6px 10px; transform: rotate(-4deg); text-transform: uppercase; background: rgba(243,240,233,0.85); }
+  #exhibit-techlog-hl { position: absolute; background: var(--accent); mix-blend-mode: multiply; opacity: 0.55; transform-origin: left center; border-radius: 3px; pointer-events: none; }
+  #exhibit-techlog-cover { position: absolute; background: #121418; transform-origin: right center; border-radius: 2px; }
+  #exhibit-techlog-chrome { position: absolute; left: var(--safe-x); top: 64px; display: flex; flex-direction: column; gap: 10px; }
+  #exhibit-techlog-src { position: absolute; left: var(--safe-x); bottom: 96px; max-width: 440px; }
+  #exhibit-techlog-src.source-plate { font-size: 24px; }
+  #exhibit-techlog-caption { position: absolute; left: var(--safe-x); top: 150px; max-width: 420px; font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 36px; line-height: 1.3; color: var(--ink); text-shadow: 0 3px 22px rgba(0,0,0,0.9); }
+  #exhibit-techlog-caption b { color: var(--accent); font-style: normal; font-weight: 500; margin-right: 10px; }
+</style>
+
+<div id="root" data-composition-id="exhibit-techlog" data-start="0" data-width="1920" data-height="1080" data-duration="15">
+  <div id="exhibit-techlog-back"></div>
+  <div id="exhibit-techlog-backimg"></div>
+  <div id="exhibit-techlog-stage">
+    <div id="exhibit-techlog-page">
+      <div id="exhibit-techlog-paper"></div>
+      <div id="exhibit-techlog-stamp"></div>
+      <div id="exhibit-techlog-hl"></div>
+      <div id="exhibit-techlog-cover"></div>
+    </div>
+  </div>
+  <div id="exhibit-techlog-chrome"><div class="eyebrow left" id="exhibit-techlog-eyebrow"></div></div>
+  <div id="exhibit-techlog-src" class="source-plate"><span class="tag">EXHIBIT</span><span id="exhibit-techlog-src-text"></span></div>
+  <div id="exhibit-techlog-caption"><b>—</b><span id="exhibit-techlog-caption-text"></span></div>
+</div>
+
+<script>
+(() => {
+  const DATA = {"scene":"exhibit","mode":"page","duration":15,"eyebrow":"Exhibit · the night before","source":"AAIASB Report 11/2006, Helios Airways HCY522 — cabin-crew log and ground-engineer release, quoted; typeset here because the Greek report is not public-domain","stamp":"Typeset excerpt · not a facsimile","caption":"Released to service with the selector still in MANUAL.","page":{"header":["Aircraft Accident Report 11/2006","Helios Airways Flight HCY522 · Boeing 737-300 · 5B-DBY","Grammatiko, Greece · 14 August 2005 · AAIASB"],"blocks":[{"kind":"meta","rows":[["Prior flight","Heathrow – Larnaca"],["Landed","14 Aug 2005, 01:25h local (EEST)"],["Released","03:15h local"]]},{"kind":"entry","time":"01:25h","who":"Cabin crew log, verbatim","text":"\"Aft service door (starboard) seal around door freezes & hard bangs are heard during flt.\""},{"kind":"gap","lines":2,"note":"inspection narrative not reproduced"},{"kind":"entry","time":"03:15h","who":"Ground engineer release, verbatim","text":"\"NIL defects…No leaks or abnormal noises.\""},{"kind":"finding","n":"3.1.3.9","text":"Leaving the selector off AUTO \"was not a formal omission,\" though \"it would have been prudent\" to reset it."},{"kind":"gap","lines":3,"note":"remaining findings not reproduced"}]},"highlight":{"block":1},"highlightAt":2.4,"cover":{"block":3,"revealAt":7.5},"zoom":1.6,"_facts":"All quoted strings and times are verbatim from docs/planning/CLAIMS-helios522.md (the cabin-crew log line, the engineer's release wording, finding 3.1.3.9). The page is a typeset stand-in: AAIASB report scans are not public domain (CLAIMS: 'RESOLVED, do not use as ExhibitScene'). Gaps are labelled 'not reproduced' rather than filled with invented text."};
+  const ID = "exhibit-techlog";
+  const DUR = 15;
+  const $ = (s) => document.getElementById(`${ID}-${s}`);
+  const page = $("page"), paper = $("paper");
+  $("eyebrow").textContent = DATA.eyebrow ?? "";
+  $("src-text").textContent = DATA.source ?? "";
+  $("caption-text").textContent = DATA.caption ?? ""; if (!DATA.caption) $("caption").style.display = "none";
+
+  // Page geometry is authored in CSS pixels (700×940 page) so every rect below is a plain constant: no measuring.
+  const PAGE_W = 700, PAGE_H = 940;
+  const blockRects = []; // [x,y,w,h] in page px, filled while laying out the typeset page
+  if (DATA.mode === "image") {
+    page.classList.add("image"); paper.style.display = "none";
+    const img = document.createElement("img"); img.src = DATA.image; page.insertBefore(img, paper);
+    $("backimg").style.backgroundImage = `url('${DATA.image}')`;
+    $("stamp").style.display = "none";
+  } else {
+    $("backimg").style.display = "none";
+    $("stamp").textContent = DATA.stamp ?? "Typeset excerpt · not a facsimile";
+    // layout: a simple vertical flow with fixed line metrics (constants mirror the CSS so rects need no measurement)
+    const P = DATA.page; let y = 48; const x = 56, w = PAGE_W - 112;
+    const add = (html, h) => { const d = document.createElement("div"); d.className = "blk"; d.innerHTML = html; d.style.top = `${y}px`; d.style.height = `${h}px`; paper.appendChild(d); const r = [x, y, w, h]; y += h + 18; return r; };
+    const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+    const lines = (s, cpl) => Math.max(1, Math.ceil(String(s).length / cpl));
+    add(`<div class="hdr">${(P.header ?? []).map((h, i) => i === 0 ? `<b>${esc(h)}</b>` : `<span>${esc(h)}</span>`).join("")}</div>`, 30 + (P.header ?? []).reduce((a, h, i) => a + (i === 0 ? 30 : lines(h, 34) * 22), 0) + 12);
+    for (const b of P.blocks ?? []) {
+      if (b.kind === "meta") blockRects.push(add(`<div class="meta">${b.rows.map(([k, v]) => `<b>${esc(k)}</b><span>${esc(v)}</span>`).join("")}</div>`, b.rows.length * 25));
+      else if (b.kind === "entry") blockRects.push(add(`<div class="entry"><div class="t">${esc(b.time ?? "")}</div><div><div class="w">${esc(b.who ?? "")}</div><div class="q">${esc(b.text)}</div></div></div>`, 20 + lines(b.text, 40) * 29));
+      else if (b.kind === "para") blockRects.push(add(`<div class="para">${esc(b.text)}</div>`, lines(b.text, 52) * 27));
+      else if (b.kind === "finding") blockRects.push(add(`<div class="finding"><div class="n">${esc(b.n ?? "")}</div><div>${esc(b.text)}</div></div>`, lines(b.text, 46) * 27));
+      else if (b.kind === "gap") { const n = b.lines ?? 3; blockRects.push(add(`<div class="gap"><span>${esc(b.note ?? "text not reproduced")}</span>${"<i></i>".repeat(n)}</div>`, 18 + n * 12)); }
+    }
+  }
+  const rectOf = (spec, pad = 6) => {
+    if (!spec) return null;
+    if (Array.isArray(spec)) return [spec[0] * PAGE_W, spec[1] * PAGE_H, spec[2] * PAGE_W, spec[3] * PAGE_H];
+    const r = blockRects[spec.block]; if (!r) return null;
+    const [x, y, w, h] = r; return [x - pad, y - pad, w + pad * 2, h + pad * 2];
+  };
+  const hl = $("hl"), cover = $("cover");
+  const hlR = rectOf(DATA.highlight), cvR = rectOf(DATA.cover?.rect ?? DATA.cover);
+  const put = (node, r) => { if (!r) { node.style.display = "none"; return; } node.style.left = `${r[0]}px`; node.style.top = `${r[1]}px`; node.style.width = `${r[2]}px`; node.style.height = `${r[3]}px`; };
+  put(hl, hlR); put(cover, cvR);
+
+  // push toward the focus point (the highlight's centre by default) — DocWide ExhibitScene: smoothstep zoom 1 → 1.5
+  const focus = DATA.focus ?? (hlR ? [(hlR[0] + hlR[2] / 2) / PAGE_W, (hlR[1] + hlR[3] / 2) / PAGE_H] : [0.5, 0.5]);
+  const ZOOM = DATA.zoom ?? 1.55;
+  const screenX = DATA.screenX ?? 1150; // where the focus point lands (right of centre: the left column holds the chrome)
+  const dx = (0.5 - focus[0]) * PAGE_W * ZOOM + (screenX - 960), dy = (0.5 - focus[1]) * PAGE_H * ZOOM;
+
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo($("back"), { opacity: 0 }, { opacity: 1, duration: 0.8 }, 0);
+  tl.fromTo($("backimg"), { opacity: 0 }, { opacity: 0.5, duration: 0.8 }, 0);
+  tl.fromTo(page, { opacity: 0, y: 30, scale: 1, x: 120 }, { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" }, 0.1);
+  tl.to(page, { scale: ZOOM, x: dx, y: dy, duration: DUR - 1.4, ease: "sine.inOut" }, 0.9);
+  tl.fromTo($("chrome"), { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.7, ease: "power2.out" }, 0.3);
+  tl.fromTo($("src"), { opacity: 0, y: 18 }, { opacity: 1, y: 0, duration: 0.7, ease: "power3.out" }, 0.9);
+  if (DATA.caption) tl.fromTo($("caption"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.7, ease: "power3.out" }, 1.3);
+  if (hlR) tl.fromTo(hl, { scaleX: 0, opacity: 0.55 }, { scaleX: 1, duration: 0.9, ease: "power2.inOut" }, DATA.highlightAt ?? 2.2);
+  if (cvR) {
+    const at = DATA.cover.revealAt ?? Math.min(DUR - 3, 6);
+    tl.fromTo(cover, { scaleX: 1 }, { scaleX: 0, duration: 0.8, ease: "power3.inOut" }, at);
+  }
+  tl.to([page, $("chrome"), $("src"), $("caption"), $("back"), $("backimg")], { opacity: 0, duration: 0.45, ease: "power2.in" }, DUR - 0.45);
+  window.__timelines[ID] = tl;
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!-- scene: diagram — mechanism flowchart in diagram-design grammar (shape carries type: oval start/end, rect step,
+     diamond decision; ONE focal node in accent; labeled branches), animated as a staggered reveal with path draw.
+     Nodes are HTML (text wraps), edges are SVG underneath; positions come from a grid in the data so layout is authored, not measured.
+     data: { eyebrow, title, grid:{cols,rows,colW,rowH,x0,y0}, nodes:[{id,kind:"start|step|decision|end",label,sub?,focal?,col,row,w?}],
+             edges:[{from,to,label?,route?:"v"|"h"|"hv"|"vh",danger?}], order?:[ids...], note?, duration } -->
+<style>
+  #root { position: absolute; inset: 0; width: 100%; height: 100%; overflow: hidden; }
+  #{{ID}}-chrome { position: absolute; left: var(--safe-x); top: 64px; display: flex; flex-direction: column; gap: 10px; }
+  #{{ID}}-title { font-family: var(--display); font-weight: 800; font-size: 44px; color: var(--ink); }
+  #{{ID}}-canvas { position: absolute; inset: 0; }
+  #{{ID}}-edges { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+  #{{ID}}-edges path { fill: none; stroke: var(--ink-2); stroke-width: 2.5; stroke-linejoin: round; }
+  #{{ID}}-edges path.danger { stroke: var(--danger); }
+  #{{ID}}-edges .arrow { fill: var(--ink-2); }
+  #{{ID}}-edges .arrow.danger { fill: var(--danger); }
+  #{{ID}}-edges .elbl { font-family: var(--mono); font-weight: 600; font-size: 18px; letter-spacing: 2px; fill: var(--ink); paint-order: stroke; stroke: #05070C; stroke-width: 10px; stroke-linejoin: round; text-anchor: middle; text-transform: uppercase; }
+  .{{ID}}-node { position: absolute; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 14px 22px; border: 2px solid var(--rule-2); background: var(--base-2); color: var(--ink); will-change: transform, opacity; }
+  .{{ID}}-node .l { font-family: var(--body); font-weight: 600; font-size: 26px; line-height: 1.22; }
+  .{{ID}}-node .s { font-family: var(--mono); font-weight: 500; font-size: 17px; letter-spacing: 1px; color: var(--ink-2); margin-top: 8px; line-height: 1.3; }
+  .{{ID}}-node.step { border-radius: 6px; }
+  .{{ID}}-node.start, .{{ID}}-node.end { border-radius: 999px; padding: 14px 30px; }
+  .{{ID}}-node.end { border-color: var(--danger); }
+  .{{ID}}-node.end .l { color: var(--danger); }
+  .{{ID}}-node.decision { background: transparent; border: none; padding: 0; }
+  .{{ID}}-node.decision .dia { position: absolute; inset: 0; background: var(--base-2); border: 2px solid var(--rule-2); transform: rotate(45deg) scale(0.72); border-radius: 6px; }
+  .{{ID}}-node.decision .l, .{{ID}}-node.decision .s { position: relative; }
+  .{{ID}}-node.decision .l { font-size: 22px; max-width: 190px; }
+  .{{ID}}-node.focal { border-color: var(--accent); background: var(--accent-tint); box-shadow: 0 0 0 1px var(--accent-dim), 0 0 40px var(--accent-tint); }
+  .{{ID}}-node.focal .l { color: var(--accent); }
+  .{{ID}}-node.focal .s { color: var(--ink); }
+  #{{ID}}-note { position: absolute; right: 54px; bottom: 44px; font-family: var(--mono); font-size: 16px; letter-spacing: 1px; color: var(--ink-3); text-align: right; max-width: 1200px; }
+</style>
+
+<div id="root" data-composition-id="{{ID}}" data-start="0" data-width="1920" data-height="1080" data-duration="{{DURATION}}">
+  <div id="{{ID}}-chrome">
+    <div class="eyebrow left" id="{{ID}}-eyebrow"></div>
+    <div id="{{ID}}-title"></div>
+  </div>
+  <div id="{{ID}}-canvas">
+    <svg id="{{ID}}-edges" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg"></svg>
+  </div>
+  <div id="{{ID}}-note"></div>
+</div>
+
+<script>
+(() => {
+  const DATA = {{DATA}};
+  const ID = "{{ID}}";
+  const DUR = {{DURATION}};
+  const $ = (s) => document.getElementById(`${ID}-${s}`);
+  const NS = "http://www.w3.org/2000/svg";
+  const el = (tag, attrs, parent) => { const n = document.createElementNS(NS, tag); for (const k in attrs) n.setAttribute(k, attrs[k]); if (parent) parent.appendChild(n); return n; };
+  $("eyebrow").textContent = DATA.eyebrow ?? "";
+  $("title").textContent = DATA.title ?? "";
+  $("note").textContent = DATA.note ?? "";
+
+  // ---- authored layout: every node box is a constant from the grid (no measurement) ----
+  const G = DATA.grid; const canvas = $("canvas"), svg = $("edges");
+  const NODE_H = G.nodeH ?? 118, NODE_W = G.nodeW ?? Math.round(G.colW * 0.8);
+  const box = {}; // id -> {x,y,w,h,cx,cy}
+  const nodes = {};
+  for (const n of DATA.nodes) {
+    const w = n.w ?? (n.kind === "decision" ? NODE_H * 2.4 : NODE_W), h = n.h ?? (n.kind === "decision" ? NODE_H * 1.75 : NODE_H);
+    const cx = G.x0 + n.col * G.colW + G.colW / 2, cy = G.y0 + n.row * G.rowH + G.rowH / 2;
+    box[n.id] = { x: cx - w / 2, y: cy - h / 2, w, h, cx, cy };
+    const d = document.createElement("div"); d.className = `${ID}-node ${n.kind}${n.focal ? " focal" : ""}`;
+    d.style.left = `${cx - w / 2}px`; d.style.top = `${cy - h / 2}px`; d.style.width = `${w}px`; d.style.height = `${h}px`;
+    if (n.kind === "decision") { const dia = document.createElement("div"); dia.className = "dia"; d.appendChild(dia); }
+    const l = document.createElement("div"); l.className = "l"; l.textContent = n.label; d.appendChild(l);
+    if (n.sub) { const s = document.createElement("div"); s.className = "s"; s.textContent = n.sub; d.appendChild(s); }
+    canvas.appendChild(d); nodes[n.id] = d;
+  }
+  // ---- edges: orthogonal routes between box edges, arrowhead at the target, label plate at the midpoint ----
+  const edgeNodes = DATA.edges.map((e) => {
+    const a = box[e.from], b = box[e.to];
+    const route = e.route ?? (a.cx === b.cx ? "v" : a.cy === b.cy ? "h" : "vh");
+    let pts;
+    const aDia = DATA.nodes.find((n) => n.id === e.from).kind === "decision";
+    const insetA = aDia ? 0.72 : 1; // the diamond's visible tip sits inside its box
+    if (route === "v") pts = [[a.cx, a.y + a.h * (0.5 + insetA / 2)], [b.cx, b.y]];
+    else if (route === "h") pts = [[a.x + a.w * (0.5 + insetA / 2), a.cy], [b.x, b.cy]];
+    else if (route === "vh") pts = [[a.cx, a.y + a.h * (0.5 + insetA / 2)], [a.cx, b.cy], [b.x, b.cy]];
+    else pts = [[a.x + a.w * (0.5 + insetA / 2), a.cy], [b.cx, a.cy], [b.cx, b.y]];
+    if (b.cx < a.cx && route === "h") pts = [[a.x, a.cy], [b.x + b.w, b.cy]];
+    const d = pts.map(([x, y], i) => `${i ? "L" : "M"}${x} ${y}`).join("");
+    const p = el("path", { d, class: e.danger ? "danger" : "" }, svg);
+    const len = p.getTotalLength(); p.setAttribute("stroke-dasharray", `${len} ${len}`); p.setAttribute("stroke-dashoffset", len);
+    const [ex, ey] = pts[pts.length - 1], [px, py] = pts[pts.length - 2];
+    const ang = Math.atan2(ey - py, ex - px) * 180 / Math.PI;
+    const arrow = el("polygon", { class: `arrow ${e.danger ? "danger" : ""}`, points: "0,0 -14,-7 -14,7", transform: `translate(${ex} ${ey}) rotate(${ang})` }, svg);
+    let lbl = null;
+    if (e.label) { const m = pts.length === 3 ? pts[1] : [(pts[0][0] + pts[1][0]) / 2, (pts[0][1] + pts[1][1]) / 2]; const lx = e.labelDx ?? 0, ly = e.labelDy ?? 0; lbl = el("text", { class: "elbl", x: m[0] + lx, y: m[1] + ly + 6 }, svg); lbl.textContent = e.label; }
+    return { p, len, arrow, lbl, e };
+  });
+
+  // ---- timeline: staggered reveal in narrative order (diagram-design "stage reveal"), edges draw after their source ----
+  const order = DATA.order ?? DATA.nodes.map((n) => n.id);
+  const T0 = 1.0, T1 = DUR - 2.2;
+  const step = (T1 - T0) / order.length;
+  const at = {}; order.forEach((id, i) => { at[id] = T0 + i * step; });
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo($("chrome"), { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.7, ease: "power2.out" }, 0);
+  tl.fromTo($("note"), { opacity: 0 }, { opacity: 1, duration: 0.5 }, 0.9);
+  for (const id of order) {
+    const n = DATA.nodes.find((x) => x.id === id);
+    tl.fromTo(nodes[id], { opacity: 0, y: 10, scale: 0.96 }, { opacity: 1, y: 0, scale: 1, duration: 0.5, ease: "power3.out" }, at[id]);
+    if (n.focal) tl.fromTo(nodes[id], { boxShadow: "0 0 0 1px var(--accent-dim), 0 0 0px var(--accent-tint)" }, { boxShadow: "0 0 0 1px var(--accent-dim), 0 0 48px var(--accent-tint)", duration: 0.8, ease: "power2.out" }, at[id] + 0.3);
+  }
+  for (const { p, len, arrow, lbl, e } of edgeNodes) {
+    const t = Math.max(at[e.from] ?? 0, (at[e.to] ?? 0) - step * 0.7) + 0.25;
+    tl.to(p, { strokeDashoffset: 0, duration: Math.min(0.6, step * 0.7), ease: "power2.inOut" }, t);
+    tl.fromTo(arrow, { opacity: 0 }, { opacity: 1, duration: 0.2 }, t + Math.min(0.5, step * 0.6));
+    if (lbl) tl.fromTo(lbl, { opacity: 0 }, { opacity: 1, duration: 0.3 }, t + 0.2);
+  }
+  // hold on the complete figure with the focal node breathing once (the "one live element" of the hold)
+  const focal = DATA.nodes.find((n) => n.focal);
+  if (focal) tl.fromTo(nodes[focal.id], { scale: 1 }, { scale: 1.03, duration: 1.2, ease: "sine.inOut", yoyo: true, repeat: 1 }, T1 + 0.2);
+  tl.to([$("chrome"), canvas, $("note")], { opacity: 0, duration: 0.45, ease: "power2.in" }, DUR - 0.45);
+  window.__timelines[ID] = tl;
+})();
+</script>

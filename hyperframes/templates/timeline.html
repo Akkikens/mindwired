@@ -1,0 +1,136 @@
+<!-- scene: timeline — minute-by-minute event sequence: a true-scale time rail with a moving playhead,
+     a running log on the left that fills as the playhead passes each event, and the active event large on the right.
+     data: { eyebrow, title, tz?, start:"HH:MM", end:"HH:MM", hourTicks?:["HH:MM",...],
+             events:[{t:"HH:MM[:SS]", text, tag?, color?:"accent|danger|ok"}], duration } -->
+<style>
+  #root { position: absolute; inset: 0; width: 100%; height: 100%; overflow: hidden; }
+  #{{ID}}-chrome { position: absolute; left: var(--safe-x); top: 64px; display: flex; flex-direction: column; gap: 10px; }
+  #{{ID}}-title { font-family: var(--display); font-weight: 800; font-size: 44px; color: var(--ink); }
+  #{{ID}}-logwin { position: absolute; left: var(--safe-x); top: 214px; width: 820px; height: 600px; overflow: hidden; -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 40px, #000 calc(100% - 70px), transparent 100%); mask-image: linear-gradient(180deg, transparent 0, #000 40px, #000 calc(100% - 70px), transparent 100%); }
+  #{{ID}}-log { position: absolute; left: 0; top: 0; width: 820px; display: flex; flex-direction: column; gap: 0; will-change: transform; }
+  .{{ID}}-row { display: grid; grid-template-columns: 150px 1fr; gap: 18px; align-items: baseline; padding: 9px 0; border-bottom: 1px solid var(--rule); will-change: opacity, transform; }
+  .{{ID}}-row .t { font-family: var(--mono); font-weight: 600; font-size: 22px; letter-spacing: 1px; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+  .{{ID}}-row .x { font-family: var(--body); font-weight: 500; font-size: 23px; line-height: 1.25; color: var(--ink-3); }
+  .{{ID}}-row.on .t { color: var(--accent); }
+  .{{ID}}-row.on .x { color: var(--ink); font-weight: 600; }
+  .{{ID}}-row.danger.on .t { color: var(--danger); }
+  #{{ID}}-active { position: absolute; left: 1000px; top: 232px; width: 824px; }
+  #{{ID}}-clock { font-family: var(--display); font-weight: 800; font-size: 118px; line-height: 1; color: var(--ink); font-variant-numeric: tabular-nums; letter-spacing: -1px; }
+  #{{ID}}-clock small { font-family: var(--mono); font-weight: 600; font-size: 24px; letter-spacing: 4px; color: var(--ink-2); margin-left: 16px; }
+  #{{ID}}-tag { font-family: var(--mono); font-weight: 600; font-size: 22px; letter-spacing: 5px; color: var(--accent); margin-top: 26px; text-transform: uppercase; }
+  #{{ID}}-text { font-family: var(--body); font-weight: 600; font-size: 40px; line-height: 1.28; color: var(--ink); margin-top: 12px; max-width: 800px; }
+  #{{ID}}-rail { position: absolute; left: var(--safe-x); right: var(--safe-x); top: 860px; height: 70px; }
+  #{{ID}}-rail-svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+  #{{ID}}-rail-svg .base { stroke: rgba(255,255,255,0.22); stroke-width: 2; }
+  #{{ID}}-rail-svg .done { stroke: var(--accent); stroke-width: 3; }
+  #{{ID}}-rail-svg .htick { stroke: rgba(255,255,255,0.4); stroke-width: 2; }
+  #{{ID}}-rail-svg .hlbl { font-family: var(--mono); font-size: 18px; fill: var(--ink-3); letter-spacing: 1px; text-anchor: middle; }
+  #{{ID}}-rail-svg .ev { fill: #05070C; stroke: rgba(255,255,255,0.5); stroke-width: 2; }
+  #{{ID}}-rail-svg .ev.on { fill: var(--accent); stroke: var(--accent); }
+  #{{ID}}-rail-svg .ev.danger.on { fill: var(--danger); stroke: var(--danger); }
+  #{{ID}}-rail-svg .ph { stroke: var(--ink); stroke-width: 3; }
+  #{{ID}}-rail-svg .phhead { fill: var(--ink); }
+  #{{ID}}-note { position: absolute; right: 54px; bottom: 44px; font-family: var(--mono); font-size: 16px; letter-spacing: 1px; color: var(--ink-3); }
+</style>
+
+<div id="root" data-composition-id="{{ID}}" data-start="0" data-width="1920" data-height="1080" data-duration="{{DURATION}}">
+  <div id="{{ID}}-chrome">
+    <div class="eyebrow left" id="{{ID}}-eyebrow"></div>
+    <div id="{{ID}}-title"></div>
+  </div>
+  <div id="{{ID}}-logwin"><div id="{{ID}}-log"></div></div>
+  <div id="{{ID}}-active">
+    <div id="{{ID}}-clock"><span id="{{ID}}-clock-t"></span><small id="{{ID}}-clock-tz"></small></div>
+    <div id="{{ID}}-tag"></div>
+    <div id="{{ID}}-text"></div>
+  </div>
+  <div id="{{ID}}-rail">
+    <svg id="{{ID}}-rail-svg" viewBox="0 0 1728 70" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+      <line class="base" x1="0" x2="1728" y1="35" y2="35"/>
+      <line class="done" id="{{ID}}-done" x1="0" x2="0" y1="35" y2="35"/>
+      <g id="{{ID}}-hours"></g>
+      <g id="{{ID}}-evs"></g>
+      <g id="{{ID}}-playhead"><line class="ph" x1="0" x2="0" y1="6" y2="64"/><polygon class="phhead" points="-8,0 8,0 0,10"/></g>
+    </svg>
+  </div>
+  <div id="{{ID}}-note"></div>
+</div>
+
+<script>
+(() => {
+  const DATA = {{DATA}};
+  const ID = "{{ID}}";
+  const DUR = {{DURATION}};
+  const $ = (s) => document.getElementById(`${ID}-${s}`);
+  const NS = "http://www.w3.org/2000/svg";
+  const el = (tag, attrs, parent) => { const n = document.createElementNS(NS, tag); for (const k in attrs) n.setAttribute(k, attrs[k]); if (parent) parent.appendChild(n); return n; };
+  const sec = (t) => { const p = t.split(":").map(Number); return p[0] * 3600 + p[1] * 60 + (p[2] ?? 0); };
+  const RW = 1728;
+  const t0 = sec(DATA.start), t1 = sec(DATA.end);
+  const X = (t) => ((t - t0) / (t1 - t0)) * RW;
+  const EV = DATA.events.slice().sort((a, b) => sec(a.t) - sec(b.t));
+
+  $("eyebrow").textContent = DATA.eyebrow ?? "";
+  $("title").textContent = DATA.title ?? "";
+  $("clock-tz").textContent = DATA.tz ?? "";
+  $("note").textContent = DATA.note ?? "";
+
+  for (const h of DATA.hourTicks ?? []) { const x = X(sec(h)); el("line", { class: "htick", x1: x, x2: x, y1: 24, y2: 46 }, $("hours")); const t = el("text", { class: "hlbl", x, y: 68 }, $("hours")); t.textContent = h; }
+  const dots = EV.map((e) => el("circle", { class: `ev ${e.color ?? ""}`, cx: X(sec(e.t)), cy: 35, r: 7 }, $("evs")));
+  const rows = EV.map((e) => {
+    const r = document.createElement("div"); r.className = `${ID}-row ${e.color ?? ""}`;
+    const t = document.createElement("div"); t.className = "t"; t.textContent = e.t;
+    const x = document.createElement("div"); x.className = "x"; x.textContent = e.text;
+    r.appendChild(t); r.appendChild(x); $("log").appendChild(r); return r;
+  });
+
+  // schedule: each event gets an equal slot of the available time; the playhead travels for 30% of
+  // the slot and holds for 70%, so clustered events (minutes apart) still get their own beat.
+  const T0 = 1.0, T1 = DUR - 0.9;
+  const slot = (T1 - T0) / EV.length;
+  const keys = []; // [{tl time, rail time}] piecewise-linear playhead
+  keys.push([T0, t0]);
+  EV.forEach((e, i) => { const arrive = T0 + slot * i + slot * 0.3; keys.push([arrive, sec(e.t)]); keys.push([T0 + slot * (i + 1), sec(e.t)]); });
+  const railTimeAt = (tt) => { if (tt <= keys[0][0]) return keys[0][1]; for (let i = 1; i < keys.length; i++) { if (tt <= keys[i][0]) { const [a, va] = keys[i - 1], [b, vb] = keys[i]; return b === a ? vb : va + ((vb - va) * (tt - a)) / (b - a); } } return keys[keys.length - 1][1]; };
+
+  const clock = $("clock-t"), tag = $("tag"), text = $("text"), done = $("done"), ph = $("playhead");
+  const fmtClock = (s) => `${String(Math.floor(s / 3600)).padStart(2, "0")}:${String(Math.floor((s % 3600) / 60)).padStart(2, "0")}`;
+  let lastActive = -2, lastClock = "";
+  const drv = { t: 0 };
+  const apply = () => {
+    const rt = railTimeAt(drv.t); const x = X(rt);
+    ph.setAttribute("transform", `translate(${x} 0)`); done.setAttribute("x2", x);
+    // active = last event whose time <= rail time (with a 1s tolerance for exact arrivals)
+    let a = -1; for (let i = 0; i < EV.length; i++) if (sec(EV[i].t) <= rt + 0.5) a = i;
+    if (a !== lastActive) {
+      rows.forEach((r, i) => r.classList.toggle("on", i === a)); dots.forEach((d, i) => d.classList.toggle("on", i <= a));
+      if (a >= 0) { clock.textContent = EV[a].t; tag.textContent = EV[a].tag ?? ""; text.textContent = EV[a].text; } else { clock.textContent = fmtClock(rt); tag.textContent = ""; text.textContent = ""; }
+      lastActive = a; lastClock = clock.textContent;
+    } else if (a >= 0 && rt > sec(EV[a].t) + 59) {
+      // travelling between events: the clock runs with the playhead (minute resolution), the card keeps the last event
+      const c = fmtClock(rt); if (c !== lastClock) { clock.textContent = c; lastClock = c; }
+    }
+  };
+  apply();
+
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo($("chrome"), { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.7, ease: "power2.out" }, 0);
+  tl.fromTo($("rail"), { opacity: 0 }, { opacity: 1, duration: 0.6 }, 0.3);
+  tl.fromTo($("note"), { opacity: 0 }, { opacity: 1, duration: 0.5 }, 0.9);
+  // rows exist from the start as faint ruled lines (the log's "paper"), each brightening on arrival
+  rows.forEach((r, i) => { const arrive = T0 + slot * i + slot * 0.3; tl.fromTo(r, { opacity: 0.18, x: 0 }, { opacity: 1, x: 0, duration: 0.4, ease: "power2.out" }, arrive); });
+  tl.fromTo($("active"), { opacity: 0 }, { opacity: 1, duration: 0.4 }, T0);
+  // the log scrolls so the active row stays inside the window (row heights are authored constants that mirror the CSS:
+  // 23px/1.25 body on a 652px column ≈ 56 chars per line; 9px padding top/bottom + 1px rule)
+  const rowH = EV.map((e) => 19 + Math.max(1, Math.ceil(e.text.length / 56)) * 29);
+  const rowTop = []; { let a = 0; for (const h of rowH) { rowTop.push(a); a += h; } }
+  const WIN = 600, KEEP = 330; // keep the active row's top above this line
+  let yPrev = 0;
+  EV.forEach((e, i) => { const arrive = T0 + slot * i + slot * 0.3; const y = -Math.max(0, rowTop[i] - KEEP); if (y !== yPrev) { tl.fromTo($("log"), { y: yPrev }, { y, duration: 0.6, ease: "power2.inOut", immediateRender: false }, arrive - 0.2); yPrev = y; } });
+  // the active card re-enters on every event change: one tween per arrival (seek-safe, explicit from-state)
+  EV.forEach((e, i) => { const arrive = T0 + slot * i + slot * 0.3; tl.fromTo([tag, text], { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.45, ease: "power3.out", immediateRender: false }, arrive); tl.fromTo(clock, { scale: 0.96, transformOrigin: "left center" }, { scale: 1, duration: 0.5, ease: "back.out(1.6)", immediateRender: false }, arrive); });
+  tl.to(drv, { t: DUR, duration: DUR, ease: "none", onUpdate: apply }, 0);
+  tl.to([$("chrome"), $("logwin"), $("active"), $("rail"), $("note")], { opacity: 0, duration: 0.45, ease: "power2.in" }, DUR - 0.45);
+  window.__timelines[ID] = tl;
+})();
+</script>

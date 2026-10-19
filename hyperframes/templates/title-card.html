@@ -1,0 +1,74 @@
+<!-- scene: title-card — kinetic chapter card (DocWide ChapterCard, animated word by word)
+     data: { eyebrow, title, sub?, image?, imageCredit?, accentLastWord? (default true), duration } -->
+<style>
+  #root { position: absolute; inset: 0; width: 100%; height: 100%; overflow: hidden; }
+  #{{ID}}-bg { position: absolute; inset: -6%; background-size: cover; background-position: center; filter: brightness(0.32) saturate(0.6) blur(2px); will-change: transform; }
+  #{{ID}}-shade { position: absolute; inset: 0; background: radial-gradient(ellipse 62% 70% at 50% 52%, rgba(5,7,12,0.1) 0%, rgba(5,7,12,0.78) 68%, rgba(5,7,12,0.96) 100%); }
+  #{{ID}}-ring { position: absolute; left: 50%; top: 52%; width: 760px; height: 760px; margin: -380px 0 0 -380px; border-radius: 50%; border: 1px solid var(--accent-dim); will-change: transform, opacity; }
+  #{{ID}}-stack { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 34px; padding: 0 180px var(--safe-bottom); }
+  #{{ID}}-title { font-family: var(--display); font-weight: 800; font-size: 96px; line-height: 1.06; letter-spacing: -0.5px; text-align: center; max-width: 1560px; color: var(--ink); text-shadow: 0 6px 30px rgba(0,0,0,0.6); }
+  #{{ID}}-title .w { display: inline-block; margin: 0 0.14em; will-change: transform, opacity; }
+  #{{ID}}-title .w.accent { color: var(--accent); }
+  #{{ID}}-sub { font-family: var(--mono); font-weight: 500; font-size: 26px; letter-spacing: 3px; color: var(--ink-2); text-align: center; }
+  #{{ID}}-credit { position: absolute; right: 54px; bottom: 44px; font-family: var(--mono); font-size: 16px; letter-spacing: 1px; color: var(--ink-3); }
+  .diamond-rule i, .diamond-rule b { will-change: transform; }
+</style>
+
+<div id="root" data-composition-id="{{ID}}" data-start="0" data-width="1920" data-height="1080" data-duration="{{DURATION}}">
+  <div id="{{ID}}-bg"></div>
+  <div id="{{ID}}-shade"></div>
+  <div id="{{ID}}-ring"></div>
+  <div id="{{ID}}-stack">
+    <div class="eyebrow" id="{{ID}}-eyebrow"><span id="{{ID}}-eyebrow-text"></span></div>
+    <h1 id="{{ID}}-title"></h1>
+    <div class="diamond-rule" id="{{ID}}-rule"><i></i><b></b><i></i></div>
+    <div id="{{ID}}-sub"></div>
+  </div>
+  <div id="{{ID}}-credit"></div>
+</div>
+
+<script>
+(() => {
+  const DATA = {{DATA}};
+  const ID = "{{ID}}";
+  const $ = (s) => document.getElementById(`${ID}-${s}`);
+  const DUR = {{DURATION}};
+
+  if (DATA.image) $("bg").style.backgroundImage = `url('${DATA.image}')`;
+  $("eyebrow-text").textContent = DATA.eyebrow ?? "";
+  $("sub").textContent = DATA.sub ?? "";
+  $("credit").textContent = DATA.imageCredit ?? "";
+
+  const words = String(DATA.title ?? "").split(/\s+/).filter(Boolean);
+  const accentLast = DATA.accentLastWord !== false;
+  const title = $("title");
+  words.forEach((w, i) => {
+    const span = document.createElement("span");
+    span.className = "w" + (accentLast && i === words.length - 1 ? " accent" : "");
+    span.textContent = w;
+    title.appendChild(span);
+  });
+
+  const tl = gsap.timeline({ paused: true });
+  // slow push on the plate for the whole hold (DocWide ChapterCard: smoothstep scale 1 → 1.06)
+  tl.fromTo($("bg"), { scale: 1.0 }, { scale: 1.07, duration: DUR, ease: "sine.inOut" }, 0);
+  tl.fromTo($("bg"), { opacity: 0 }, { opacity: 1, duration: 0.8, ease: "power2.out" }, 0);
+  tl.fromTo($("ring"), { scale: 0.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 1.6, ease: "power3.out" }, 0.1);
+  tl.to($("ring"), { scale: 1.08, duration: DUR - 1.7, ease: "sine.inOut" }, 1.7);
+  tl.fromTo($("eyebrow"), { opacity: 0, y: -12 }, { opacity: 1, y: 0, duration: 0.9, ease: "power3.out" }, 0.25);
+  // words rise one per beat (DocWide KineticScene per-word spring), stagger capped so the arrival reads as one line
+  const stagger = Math.min(0.14, 0.6 / Math.max(1, words.length));
+  tl.fromTo(title.querySelectorAll(".w"), { y: 46, opacity: 0, rotateX: -20 },
+    { y: 0, opacity: 1, rotateX: 0, duration: 0.7, ease: "back.out(1.4)", stagger }, 0.55);
+  const rule = $("rule");
+  tl.fromTo(rule.querySelector("b"), { scale: 0, rotate: 45 }, { scale: 1, rotate: 45, duration: 0.5, ease: "back.out(2)" }, 1.05 + stagger * words.length);
+  tl.fromTo(rule.querySelectorAll("i"), { scaleX: 0 }, { scaleX: 1, duration: 0.7, ease: "power3.out", stagger: 0 }, 1.15 + stagger * words.length);
+  tl.fromTo($("sub"), { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.7, ease: "power2.out" }, 1.35 + stagger * words.length);
+  tl.fromTo($("credit"), { opacity: 0 }, { opacity: 1, duration: 0.6 }, 1.6);
+  // settle: a faint breathing on the title so the hold never freezes
+  tl.fromTo(title, { scale: 1 }, { scale: 1.015, duration: DUR - 2.2, ease: "sine.inOut" }, 2.2);
+  // fade to base for the cut
+  tl.to([$("stack"), $("bg"), $("ring"), $("credit")], { opacity: 0, duration: 0.45, ease: "power2.in" }, DUR - 0.45);
+  window.__timelines[ID] = tl;
+})();
+</script>

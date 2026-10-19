@@ -1,0 +1,72 @@
+{
+  "scene": "exhibit",
+  "mode": "page",
+  "duration": 15,
+  "eyebrow": "Exhibit · the night before",
+  "source": "AAIASB Report 11/2006, Helios Airways HCY522 — cabin-crew log and ground-engineer release, quoted; typeset here because the Greek report is not public-domain",
+  "stamp": "Typeset excerpt · not a facsimile",
+  "caption": "Released to service with the selector still in MANUAL.",
+  "page": {
+    "header": [
+      "Aircraft Accident Report 11/2006",
+      "Helios Airways Flight HCY522 · Boeing 737-300 · 5B-DBY",
+      "Grammatiko, Greece · 14 August 2005 · AAIASB"
+    ],
+    "blocks": [
+      {
+        "kind": "meta",
+        "rows": [
+          [
+            "Prior flight",
+            "Heathrow – Larnaca"
+          ],
+          [
+            "Landed",
+            "14 Aug 2005, 01:25h local (EEST)"
+          ],
+          [
+            "Released",
+            "03:15h local"
+          ]
+        ]
+      },
+      {
+        "kind": "entry",
+        "time": "01:25h",
+        "who": "Cabin crew log, verbatim",
+        "text": "\"Aft service door (starboard) seal around door freezes & hard bangs are heard during flt.\""
+      },
+      {
+        "kind": "gap",
+        "lines": 2,
+        "note": "inspection narrative not reproduced"
+      },
+      {
+        "kind": "entry",
+        "time": "03:15h",
+        "who": "Ground engineer release, verbatim",
+        "text": "\"NIL defects…No leaks or abnormal noises.\""
+      },
+      {
+        "kind": "finding",
+        "n": "3.1.3.9",
+        "text": "Leaving the selector off AUTO \"was not a formal omission,\" though \"it would have been prudent\" to reset it."
+      },
+      {
+        "kind": "gap",
+        "lines": 3,
+        "note": "remaining findings not reproduced"
+      }
+    ]
+  },
+  "highlight": {
+    "block": 1
+  },
+  "highlightAt": 2.4,
+  "cover": {
+    "block": 3,
+    "revealAt": 7.5
+  },
+  "zoom": 1.6,
+  "_facts": "All quoted strings and times are verbatim from docs/planning/CLAIMS-helios522.md (the cabin-crew log line, the engineer's release wording, finding 3.1.3.9). The page is a typeset stand-in: AAIASB report scans are not public domain (CLAIMS: 'RESOLVED, do not use as ExhibitScene'). Gaps are labelled 'not reproduced' rather than filled with invented text."
+}

@@ -1,0 +1,3 @@
+#!/bin/sh
+# pinned CLI wrapper used by the kit scripts
+exec npx --yes hyperframes@0.8.173 "$@"

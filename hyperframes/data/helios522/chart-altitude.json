@@ -1,0 +1,84 @@
+{
+  "scene": "chart",
+  "kind": "line",
+  "duration": 14,
+  "eyebrow": "Altitude profile · EEST",
+  "title": "Three hours on autopilot, then the fuel ran out",
+  "unit": "ft",
+  "note": "KNOWN POINTS FROM THE AAIASB TIMELINE, JOINED BY STRAIGHT SEGMENTS · THE RED MARK IS CABIN ALTITUDE, NOT AIRCRAFT ALTITUDE",
+  "line": {
+    "yMax": 36000,
+    "yTicks": [
+      0,
+      10000,
+      20000,
+      30000
+    ],
+    "xTicks": [
+      "09:00",
+      "10:00",
+      "11:00",
+      "12:00"
+    ],
+    "series": [
+      {
+        "t": "09:07:00",
+        "v": 0,
+        "label": "09:07 TAKEOFF",
+        "labelPos": "above",
+        "labelAnchor": "start"
+      },
+      {
+        "t": "09:20:00",
+        "v": 28900,
+        "label": "~09:20 LAST CONTACT · ~28,900 FT",
+        "labelPos": "below",
+        "labelAnchor": "start"
+      },
+      {
+        "t": "09:23:32",
+        "v": 34000,
+        "label": "09:23:32 LEVEL AT FL340",
+        "labelPos": "above",
+        "labelAnchor": "start"
+      },
+      {
+        "t": "11:49:50",
+        "v": 34000,
+        "label": "11:49:50 LEFT ENGINE FLAMEOUT",
+        "labelPos": "above",
+        "labelAnchor": "end"
+      },
+      {
+        "t": "12:03:32",
+        "v": 0,
+        "label": "12:03:32 IMPACT",
+        "labelPos": "above",
+        "labelAnchor": "end"
+      }
+    ],
+    "markers": [
+      {
+        "t": "09:12:38",
+        "v": 12040,
+        "label": "09:12:38 CABIN ALTITUDE HORN · 12,040 FT"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "value": 121,
+      "label": "aboard · no survivors"
+    },
+    {
+      "value": 19,
+      "label": "failed ATC contact attempts"
+    },
+    {
+      "value": "6",
+      "suffix": "th",
+      "label": "holding loop when the F‑16s closed in"
+    }
+  ],
+  "_facts": "CLAIMS-helios522.md timeline: 09:07 takeoff; 09:12:38 cabin altitude horn at 12,040 ft; ~09:20 last contact climbing through ~28,900 ft; 09:23:32 levels at FL340 (~34,000 ft); 11:49:50 left engine flames out and descent begins; 12:03:32 crash. 121 aboard, all killed; 10:12–10:50 nineteen failed ATC contact attempts; F-16s intercept on the 6th holding loop. The right-engine flameout (11:59:47) is omitted because no altitude is given for it."
+}

@@ -22,3 +22,8 @@ __pycache__/
 public/host/*_sonic.png
 !public/sfx/*.wav
 public/shorts/*/video/*.mp4
+
+# hyperframes scene kit — CLI artifacts (snapshots, history, caches) and local renders
+hyperframes/.hyperframes/
+hyperframes/renders/
+hyperframes/node_modules/

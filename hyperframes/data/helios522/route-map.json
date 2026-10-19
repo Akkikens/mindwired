@@ -1,0 +1,110 @@
+{
+  "scene": "route-map",
+  "duration": 17,
+  "eyebrow": "Flight path · 14 Aug 2005",
+  "title": "Larnaca to the hills of Grammatiko",
+  "basemap": "assets/geo/eastmed.json",
+  "view": [
+    21.3,
+    33.4,
+    35.6,
+    41.3
+  ],
+  "labels": [
+    {
+      "text": "GREECE",
+      "lon": 22.25,
+      "lat": 39.05,
+      "size": 24
+    },
+    {
+      "text": "TURKEY",
+      "lon": 31.6,
+      "lat": 38.9,
+      "size": 24
+    },
+    {
+      "text": "CYPRUS",
+      "lon": 32.9,
+      "lat": 35.55,
+      "size": 20
+    },
+    {
+      "text": "CRETE",
+      "lon": 24.9,
+      "lat": 35.05,
+      "size": 18
+    },
+    {
+      "text": "AEGEAN SEA",
+      "lon": 25.4,
+      "lat": 39.2,
+      "size": 18
+    },
+    {
+      "text": "MEDITERRANEAN SEA",
+      "lon": 29.2,
+      "lat": 34.1,
+      "size": 18
+    }
+  ],
+  "waypoints": [
+    {
+      "name": "Larnaca",
+      "lon": 33.62,
+      "lat": 34.88,
+      "time": "09:07",
+      "note": "TAKEOFF",
+      "anchor": "se",
+      "kind": "origin"
+    },
+    {
+      "name": "Athens",
+      "lon": 23.94,
+      "lat": 37.94,
+      "note": "DESTINATION",
+      "anchor": "sw",
+      "kind": "dest"
+    }
+  ],
+  "legs": [
+    [
+      0,
+      1
+    ]
+  ],
+  "holding": {
+    "lon": 24.33,
+    "lat": 37.62,
+    "label": "KEA VOR · HOLDING FROM 10:40",
+    "time": "10:40",
+    "widthKm": 40,
+    "heightKm": 18,
+    "headingDeg": 20,
+    "loopsDrawn": 1,
+    "labelDy": -60,
+    "labelDx": 0,
+    "exitTime": "11:49:50",
+    "exitLabel": "LEFT ENGINE OUT · LEAVING THE HOLD",
+    "loopSeconds": 3.4
+  },
+  "event": {
+    "lon": 23.96,
+    "lat": 38.2,
+    "time": "12:03:32 · IMPACT",
+    "label": "Grammatiko",
+    "anchor": "ne",
+    "legSeconds": 2.4
+  },
+  "pathNote": "PATH SCHEMATIC FROM THE AAIASB TIMELINE",
+  "_facts": "CLAIMS-helios522.md: 09:07 takeoff Larnaca bound for Athens; 10:40 holding at KEA VOR; 11:49:50 left engine flameout, exits holding, descends; 12:03:32 crash into hills near Grammatiko. Place coordinates are reference geography (airport/island/village positions), not episode claims; the legs are great-circle schematics, not the recorded radar track.",
+  "zoom": {
+    "lon": 24.15,
+    "lat": 37.9,
+    "scale": 3.6,
+    "at": 4.6,
+    "duration": 2.6,
+    "screenX": 1150,
+    "screenY": 600
+  }
+}

@@ -1,0 +1,103 @@
+#!/usr/bin/env node
+/**
+ * mindwired scene-kit builder.
+ *
+ *   node scripts/build.mjs [--episode helios522] [--channel mindwired|blackbox|criminalrecord]
+ *
+ * For every data/<episode>/<name>.json it reads templates/<scene>.html (scene = json.scene),
+ * bakes the JSON (and any basemap it references) into the markup, inlines theme/mindwired.css
+ * with the channel accent, and writes:
+ *
+ *   compositions/<name>.html   — templated sub-composition (mounted by index.html for check/preview)
+ *   scenes/<name>.html         — standalone composition of the same scene (what render-all.sh renders)
+ *   index.html                 — host that plays every scene back to back
+ *
+ * Templates are plain HTML fragments: a <style>, the #root composition div, and a <script>.
+ * Placeholders: {{ID}} {{DURATION}} {{DATA}} (JSON) {{GEO}} (JSON basemap or null).
+ */
+import fs from "node:fs";
+import path from "node:path";
+
+const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
+const argv = process.argv.slice(2);
+const opt = (k, d) => { const i = argv.indexOf(`--${k}`); return i >= 0 ? argv[i + 1] : d; };
+const episode = opt("episode", "helios522");
+const channel = opt("channel", "mindwired");
+
+const ACCENTS = { mindwired: "#4DD8FF", blackbox: "#FF9500", criminalrecord: "#7FB4FF", dimaagbatti: "#FFC53D" };
+const accent = ACCENTS[channel];
+if (!accent) { console.error(`unknown channel ${channel}; one of ${Object.keys(ACCENTS).join(", ")}`); process.exit(2); }
+const hexToRgb = (h) => [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16)).join(", ");
+
+let theme = fs.readFileSync(path.join(root, "theme/mindwired.css"), "utf8")
+  .replace(/--accent: #[0-9A-Fa-f]{6};/, `--accent: ${accent};`)
+  .replace(/--accent-dim: rgba\([^)]*\)/, `--accent-dim: rgba(${hexToRgb(accent)}, 0.35)`)
+  .replace(/--accent-tint: rgba\([^)]*\)/, `--accent-tint: rgba(${hexToRgb(accent)}, 0.12)`);
+
+const dataDir = path.join(root, "data", episode);
+const files = fs.readdirSync(dataDir).filter((f) => f.endsWith(".json")).sort();
+const GSAP = '<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>';
+const built = [];
+
+for (const file of files) {
+  const name = path.basename(file, ".json");
+  const data = JSON.parse(fs.readFileSync(path.join(dataDir, file), "utf8"));
+  const tplPath = path.join(root, "templates", `${data.scene}.html`);
+  if (!fs.existsSync(tplPath)) { console.error(`${file}: no template for scene "${data.scene}"`); process.exit(1); }
+  const duration = Number(data.duration);
+  if (!(duration > 0)) { console.error(`${file}: "duration" (seconds) is required`); process.exit(1); }
+  let geo = null;
+  if (data.basemap) geo = JSON.parse(fs.readFileSync(path.join(root, data.basemap), "utf8"));
+
+  const fragment = fs.readFileSync(tplPath, "utf8")
+    .replaceAll("{{ID}}", name)
+    .replaceAll("{{DURATION}}", String(duration))
+    .replaceAll("{{DATA}}", JSON.stringify(data))
+    .replaceAll("{{GEO}}", JSON.stringify(geo));
+
+  const sub = `<!doctype html>\n<html lang="en">\n<head><meta charset="UTF-8" /><title>${name}</title></head>\n<body>\n<template>\n<style>\n${theme}\n</style>\n${fragment}\n</template>\n</body>\n</html>\n`;
+  fs.writeFileSync(path.join(root, "compositions", `${name}.html`), sub);
+
+  const standalone = `<!doctype html>\n<html lang="en">\n<head>\n<meta charset="UTF-8" />\n<meta name="viewport" content="width=1920, height=1080" />\n<title>${episode} · ${name}</title>\n${GSAP}\n<style>\n* { margin: 0; padding: 0; box-sizing: border-box; }\nhtml, body { width: 1920px; height: 1080px; overflow: hidden; background: #05070C; }\n${theme}\n</style>\n</head>\n<body>\n${fragment}\n</body>\n</html>\n`;
+  fs.mkdirSync(path.join(root, "scenes"), { recursive: true });
+  // scenes/ is one level down, so asset references step up one directory
+  fs.writeFileSync(path.join(root, "scenes", `${name}.html`), standalone.replaceAll("assets/", "../assets/"));
+  built.push({ name, duration, scene: data.scene });
+  console.log(`built ${name} (${data.scene}, ${duration}s)`);
+}
+
+// Host composition: every scene back to back on one lane.
+let t = 0;
+const mounts = built.map((b) => {
+  const m = `  <div id="slot-${b.name}" class="clip" data-composition-id="${b.name}" data-composition-src="compositions/${b.name}.html" data-start="${t}" data-duration="${b.duration}" data-track-index="0" data-width="1920" data-height="1080"></div>`;
+  t += b.duration;
+  return m;
+}).join("\n");
+const index = `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1920, height=1080" />
+<title>mindwired scene kit · ${episode}</title>
+${GSAP}
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1920px; height: 1080px; overflow: hidden; background: #05070C; }
+#root { position: relative; width: 100%; height: 100%; overflow: hidden; background: #05070C; }
+.clip { position: absolute; inset: 0; }
+</style>
+</head>
+<body>
+<!-- GENERATED by scripts/build.mjs — edit data/${episode}/*.json or templates/*.html, not this file. -->
+<div id="root" data-composition-id="main" data-start="0" data-duration="${t}" data-width="1920" data-height="1080">
+${mounts}
+</div>
+<script>
+  const tl = gsap.timeline({ paused: true });
+  window.__timelines["main"] = tl;
+</script>
+</body>
+</html>
+`;
+fs.writeFileSync(path.join(root, "index.html"), index);
+console.log(`index.html: ${built.length} scenes, ${t}s total (${episode}, ${channel} accent ${accent})`);
