@@ -86,7 +86,8 @@
   #diagram-mechanism-edges path.danger { stroke: var(--danger); }
   #diagram-mechanism-edges .arrow { fill: var(--ink-2); }
   #diagram-mechanism-edges .arrow.danger { fill: var(--danger); }
-  #diagram-mechanism-edges .elbl { font-family: var(--mono); font-weight: 600; font-size: 18px; letter-spacing: 2px; fill: var(--ink); paint-order: stroke; stroke: #05070C; stroke-width: 10px; stroke-linejoin: round; text-anchor: middle; text-transform: uppercase; }
+  .diagram-mechanism-elbl { position: absolute; transform: translate(-50%, -50%); font-family: var(--mono); font-weight: 600; font-size: 17px; letter-spacing: 2px; color: var(--ink); background: var(--base); padding: 3px 8px; border-radius: 3px; white-space: nowrap; text-transform: uppercase; z-index: 2; }
+  .diagram-mechanism-elbl.danger { color: var(--danger); }
   .diagram-mechanism-node { position: absolute; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 14px 22px; border: 2px solid var(--rule-2); background: var(--base-2); color: var(--ink); will-change: transform, opacity; }
   .diagram-mechanism-node .l { font-family: var(--body); font-weight: 600; font-size: 26px; line-height: 1.22; }
   .diagram-mechanism-node .s { font-family: var(--mono); font-weight: 500; font-size: 17px; letter-spacing: 1px; color: var(--ink-2); margin-top: 8px; line-height: 1.3; }
@@ -95,9 +96,11 @@
   .diagram-mechanism-node.end { border-color: var(--danger); }
   .diagram-mechanism-node.end .l { color: var(--danger); }
   .diagram-mechanism-node.decision { background: transparent; border: none; padding: 0; }
-  .diagram-mechanism-node.decision .dia { position: absolute; inset: 0; background: var(--base-2); border: 2px solid var(--rule-2); transform: rotate(45deg) scale(0.72); border-radius: 6px; }
+  .diagram-mechanism-node.decision .dia { position: absolute; inset: 0; background: var(--rule-2); clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); }
+  .diagram-mechanism-node.decision .dia::after { content: ""; position: absolute; inset: 2px; background: var(--base-2); clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); }
   .diagram-mechanism-node.decision .l, .diagram-mechanism-node.decision .s { position: relative; }
-  .diagram-mechanism-node.decision .l { font-size: 22px; max-width: 190px; }
+  .diagram-mechanism-node.decision .l { font-size: 21px; }
+  .diagram-mechanism-node.decision .s { font-size: 15px; }
   .diagram-mechanism-node.focal { border-color: var(--accent); background: var(--accent-tint); box-shadow: 0 0 0 1px var(--accent-dim), 0 0 40px var(--accent-tint); }
   .diagram-mechanism-node.focal .l { color: var(--accent); }
   .diagram-mechanism-node.focal .s { color: var(--ink); }
@@ -117,7 +120,7 @@
 
 <script>
 (() => {
-  const DATA = {"scene":"diagram","duration":18,"eyebrow":"Mechanism · AAIASB causal chain","title":"How a selector left in MANUAL became hypoxia","note":"ORDER FOLLOWS THE REPORT'S CAUSAL CHAIN (P.171) AND CONTRIBUTING FACTORS · THE BOARD CALLED THE SELECTOR A DISTRIBUTED FINDING, NOT ONE PERSON'S FAULT","grid":{"cols":3,"rows":3,"colW":560,"rowH":225,"x0":120,"y0":200,"nodeW":440,"nodeH":120},"nodes":[{"id":"leak","kind":"start","label":"Overnight pressurization leak check","sub":"01:25h – 03:15h · released \"NIL defects\"","col":0,"row":0},{"id":"manual","kind":"step","label":"Pressurization mode selector left in MANUAL","sub":"not reset to AUTO · no checklist step required it","focal":true,"col":0,"row":1},{"id":"checks","kind":"decision","label":"Caught on any of three crew checks?","col":0,"row":2,"sub":"preflight · after-start · after-takeoff"},{"id":"climb","kind":"step","label":"Aircraft climbs; cabin does not pressurize","sub":"takeoff 09:07","col":1,"row":2},{"id":"horn","kind":"step","label":"Cabin altitude horn at 12,040 ft","sub":"09:12:38 · same tone as the takeoff-configuration horn","col":1,"row":1},{"id":"misread","kind":"step","label":"Crew report a \"takeoff configuration warning\"","sub":"09:14:11 · last transmission","col":1,"row":0},{"id":"hypoxia","kind":"end","label":"Crew incapacitated by hypoxia","sub":"level at FL340 from 09:23:32","col":2,"row":0,"h":120},{"id":"fuel","kind":"end","label":"Autopilot holds at KEA until fuel exhaustion","sub":"left engine 11:49:50 · right engine 11:59:47 · impact 12:03:32","col":2,"row":2,"h":150}],"edges":[{"from":"leak","to":"manual"},{"from":"manual","to":"checks"},{"from":"checks","to":"climb","label":"No, three times","route":"h","danger":true,"labelDy":-16},{"from":"climb","to":"horn"},{"from":"horn","to":"misread"},{"from":"misread","to":"hypoxia","route":"h"},{"from":"hypoxia","to":"fuel"}],"order":["leak","manual","checks","climb","horn","misread","hypoxia","fuel"],"_facts":"CLAIMS-helios522.md probable cause chain: (1) crew never recognized the selector in MANUAL; (2) never identified the true problem; (3) hypoxia; (4) fuel exhaustion; (5) impact. Contributing: engineer left selector on MANUAL after leak check; crew missed it on three checks (preflight, after-start, after-takeoff); identical horn tone caused the misdiagnosis; Boeing manual had no explicit AUTO-confirm step. Times: 01:25h landing, 03:15h release, 09:07 takeoff, 09:12:38 horn at 12,040 ft, 09:14:11 last transmission, 09:23:32 FL340, 11:49:50 / 11:59:47 flameouts, 12:03:32 impact."};
+  const DATA = {"scene":"diagram","duration":18,"eyebrow":"Mechanism · AAIASB causal chain","title":"How a selector left in MANUAL became hypoxia","note":"ORDER FOLLOWS THE REPORT'S CAUSAL CHAIN (P.171) AND CONTRIBUTING FACTORS · THE BOARD CALLED THE SELECTOR A DISTRIBUTED FINDING, NOT ONE PERSON'S FAULT","grid":{"cols":3,"rows":3,"colW":560,"rowH":232,"x0":120,"y0":190,"nodeW":440,"nodeH":120},"nodes":[{"id":"leak","kind":"start","label":"Overnight pressurization leak check","sub":"01:25h – 03:15h · released \"NIL defects\"","col":0,"row":0},{"id":"manual","kind":"step","label":"Pressurization mode selector left in MANUAL","sub":"not reset to AUTO · no checklist step required it","focal":true,"col":0,"row":1},{"id":"checks","kind":"decision","label":"Caught on any of three crew checks?","col":0,"row":2,"sub":"preflight · after-start · after-takeoff"},{"id":"climb","kind":"step","label":"Aircraft climbs; cabin does not pressurize","sub":"takeoff 09:07","col":1,"row":2},{"id":"horn","kind":"step","label":"Cabin altitude horn at 12,040 ft","sub":"09:12:38 · same tone as the takeoff-configuration horn","col":1,"row":1},{"id":"misread","kind":"step","label":"Crew report a \"takeoff configuration warning\"","sub":"09:14:11 · last transmission","col":1,"row":0},{"id":"hypoxia","kind":"end","label":"Crew incapacitated by hypoxia","sub":"level at FL340 from 09:23:32","col":2,"row":0},{"id":"fuel","kind":"end","label":"Autopilot holds at KEA until fuel exhaustion","sub":"left engine 11:49:50 · right engine 11:59:47 · impact 12:03:32","col":2,"row":2}],"edges":[{"from":"leak","to":"manual"},{"from":"manual","to":"checks"},{"from":"checks","to":"climb","label":"No, three times","route":"h","danger":true,"labelDy":-22},{"from":"climb","to":"horn"},{"from":"horn","to":"misread"},{"from":"misread","to":"hypoxia","route":"h"},{"from":"hypoxia","to":"fuel"}],"order":["leak","manual","checks","climb","horn","misread","hypoxia","fuel"],"_facts":"CLAIMS-helios522.md probable cause chain: (1) crew never recognized the selector in MANUAL; (2) never identified the true problem; (3) hypoxia; (4) fuel exhaustion; (5) impact. Contributing: engineer left selector on MANUAL after leak check; crew missed it on three checks (preflight, after-start, after-takeoff); identical horn tone caused the misdiagnosis; Boeing manual had no explicit AUTO-confirm step. Times: 01:25h landing, 03:15h release, 09:07 takeoff, 09:12:38 horn at 12,040 ft, 09:14:11 last transmission, 09:23:32 FL340, 11:49:50 / 11:59:47 flameouts, 12:03:32 impact."};
   const ID = "diagram-mechanism";
   const DUR = 18;
   const $ = (s) => document.getElementById(`${ID}-${s}`);
@@ -132,15 +135,28 @@
   const NODE_H = G.nodeH ?? 118, NODE_W = G.nodeW ?? Math.round(G.colW * 0.8);
   const box = {}; // id -> {x,y,w,h,cx,cy}
   const nodes = {};
+  // text-fit guard: estimate wrapped line counts from average glyph widths (Inter 600 ≈ 0.52em, Plex Mono ≈ 0.6em) and grow the
+  // node to hold them, so any episode's labels stay inside their shape. Authors can still pin w/h per node.
+  const linesFor = (text, px, em, width) => Math.max(1, Math.ceil((String(text ?? "").length * px * em) / Math.max(40, width)));
+  const textBlock = (n, innerW, lpx, spx) => { const ll = linesFor(n.label, lpx, 0.52, innerW), sl = n.sub ? linesFor(n.sub, spx, 0.6, innerW) : 0; return { w: innerW, h: ll * lpx * 1.22 + (sl ? 8 + sl * spx * 1.3 : 0) }; };
   for (const n of DATA.nodes) {
-    const w = n.w ?? (n.kind === "decision" ? NODE_H * 2.4 : NODE_W), h = n.h ?? (n.kind === "decision" ? NODE_H * 1.75 : NODE_H);
+    let w, h;
+    if (n.kind === "decision") {
+      // rhombus with half-diagonals w/2, h/2 holds a tw×th block when tw/w + th/h <= 1 → give the text half of each
+      const inner = n.textWidth ?? 180; const tb = textBlock(n, inner, 21, 15);
+      w = n.w ?? inner * 2 + 20; h = n.h ?? Math.max(NODE_H, tb.h * 2 + 12);
+      n._tw = inner;
+    } else {
+      w = n.w ?? NODE_W; const pad = (n.kind === "step" ? 44 : 60); const tb = textBlock(n, w - pad, 26, 17);
+      h = n.h ?? Math.max(NODE_H, tb.h + 30);
+    }
     const cx = G.x0 + n.col * G.colW + G.colW / 2, cy = G.y0 + n.row * G.rowH + G.rowH / 2;
     box[n.id] = { x: cx - w / 2, y: cy - h / 2, w, h, cx, cy };
     const d = document.createElement("div"); d.className = `${ID}-node ${n.kind}${n.focal ? " focal" : ""}`;
     d.style.left = `${cx - w / 2}px`; d.style.top = `${cy - h / 2}px`; d.style.width = `${w}px`; d.style.height = `${h}px`;
     if (n.kind === "decision") { const dia = document.createElement("div"); dia.className = "dia"; d.appendChild(dia); }
-    const l = document.createElement("div"); l.className = "l"; l.textContent = n.label; d.appendChild(l);
-    if (n.sub) { const s = document.createElement("div"); s.className = "s"; s.textContent = n.sub; d.appendChild(s); }
+    const l = document.createElement("div"); l.className = "l"; l.textContent = n.label; if (n._tw) l.style.maxWidth = `${n._tw}px`; d.appendChild(l);
+    if (n.sub) { const s = document.createElement("div"); s.className = "s"; s.textContent = n.sub; if (n._tw) s.style.maxWidth = `${n._tw}px`; d.appendChild(s); }
     canvas.appendChild(d); nodes[n.id] = d;
   }
   // ---- edges: orthogonal routes between box edges, arrowhead at the target, label plate at the midpoint ----
@@ -148,8 +164,7 @@
     const a = box[e.from], b = box[e.to];
     const route = e.route ?? (a.cx === b.cx ? "v" : a.cy === b.cy ? "h" : "vh");
     let pts;
-    const aDia = DATA.nodes.find((n) => n.id === e.from).kind === "decision";
-    const insetA = aDia ? 0.72 : 1; // the diamond's visible tip sits inside its box
+    const insetA = 1; // every shape (rhombus included) touches its box edge
     if (route === "v") pts = [[a.cx, a.y + a.h * (0.5 + insetA / 2)], [b.cx, b.y]];
     else if (route === "h") pts = [[a.x + a.w * (0.5 + insetA / 2), a.cy], [b.x, b.cy]];
     else if (route === "vh") pts = [[a.cx, a.y + a.h * (0.5 + insetA / 2)], [a.cx, b.cy], [b.x, b.cy]];
@@ -162,7 +177,7 @@
     const ang = Math.atan2(ey - py, ex - px) * 180 / Math.PI;
     const arrow = el("polygon", { class: `arrow ${e.danger ? "danger" : ""}`, points: "0,0 -14,-7 -14,7", transform: `translate(${ex} ${ey}) rotate(${ang})` }, svg);
     let lbl = null;
-    if (e.label) { const m = pts.length === 3 ? pts[1] : [(pts[0][0] + pts[1][0]) / 2, (pts[0][1] + pts[1][1]) / 2]; const lx = e.labelDx ?? 0, ly = e.labelDy ?? 0; lbl = el("text", { class: "elbl", x: m[0] + lx, y: m[1] + ly + 6 }, svg); lbl.textContent = e.label; }
+    if (e.label) { const m = pts.length === 3 ? pts[1] : [(pts[0][0] + pts[1][0]) / 2, (pts[0][1] + pts[1][1]) / 2]; const lx = e.labelDx ?? 0, ly = e.labelDy ?? 0; lbl = document.createElement("div"); lbl.className = `${ID}-elbl${e.danger ? " danger" : ""}`; lbl.style.left = `${m[0] + lx}px`; lbl.style.top = `${m[1] + ly}px`; lbl.textContent = e.label; canvas.appendChild(lbl); }
     return { p, len, arrow, lbl, e };
   });
 

@@ -190,7 +190,7 @@
       const w = document.createElement("div"); w.className = `${ID}-bar`;
       const v = document.createElement("div"); v.className = "v"; v.textContent = "0";
       const b = document.createElement("span"); b.className = "b"; b.style.height = `${Math.max(2, (c.v / max) * (PH - 90))}px`; if (c.color) b.style.background = c.color;
-      const l = document.createElement("div"); l.className = "l"; l.textContent = c.label;
+      const l = document.createElement("div"); l.className = "l"; l.textContent = c.label; l.setAttribute("data-layout-allow-overflow", ""); // axis label sits below the baseline by design
       w.appendChild(v); w.appendChild(b); w.appendChild(l); box.appendChild(w);
       return { v, b, c };
     });

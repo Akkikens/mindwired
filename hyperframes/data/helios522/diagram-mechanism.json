@@ -8,9 +8,9 @@
     "cols": 3,
     "rows": 3,
     "colW": 560,
-    "rowH": 225,
+    "rowH": 232,
     "x0": 120,
-    "y0": 200,
+    "y0": 190,
     "nodeW": 440,
     "nodeH": 120
   },
@@ -70,8 +70,7 @@
       "label": "Crew incapacitated by hypoxia",
       "sub": "level at FL340 from 09:23:32",
       "col": 2,
-      "row": 0,
-      "h": 120
+      "row": 0
     },
     {
       "id": "fuel",
@@ -79,8 +78,7 @@
       "label": "Autopilot holds at KEA until fuel exhaustion",
       "sub": "left engine 11:49:50 · right engine 11:59:47 · impact 12:03:32",
       "col": 2,
-      "row": 2,
-      "h": 150
+      "row": 2
     }
   ],
   "edges": [
@@ -98,7 +96,7 @@
       "label": "No, three times",
       "route": "h",
       "danger": true,
-      "labelDy": -16
+      "labelDy": -22
     },
     {
       "from": "climb",

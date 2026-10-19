@@ -33,22 +33,25 @@
   #{{ID}}-stamp { position: absolute; right: 18px; top: 30px; width: 118px; text-align: center; line-height: 1.5; font-family: var(--mono); font-weight: 600; font-size: 12px; letter-spacing: 2px; color: #9A2E2E; border: 2px solid #9A2E2E; padding: 6px 10px; transform: rotate(-4deg); text-transform: uppercase; background: rgba(243,240,233,0.85); }
   #{{ID}}-hl { position: absolute; background: var(--accent); mix-blend-mode: multiply; opacity: 0.55; transform-origin: left center; border-radius: 3px; pointer-events: none; }
   #{{ID}}-cover { position: absolute; background: #121418; transform-origin: right center; border-radius: 2px; }
-  #{{ID}}-chrome { position: absolute; left: var(--safe-x); top: 64px; display: flex; flex-direction: column; gap: 10px; }
-  #{{ID}}-src { position: absolute; left: var(--safe-x); bottom: 96px; max-width: 440px; }
+  /* left lane: 96..576px. The page's left edge stays right of 600px at every moment of the push (see screenX below). */
+  #{{ID}}-chrome { position: absolute; left: var(--safe-x); top: 64px; width: 480px; }
+  #{{ID}}-chrome .eyebrow { font-size: 22px; letter-spacing: 6px; line-height: 1.5; display: block; }
+  #{{ID}}-chrome .eyebrow::before, #{{ID}}-chrome .eyebrow::after { display: none; }
+  #{{ID}}-src { position: absolute; left: var(--safe-x); bottom: 96px; max-width: 480px; }
   #{{ID}}-src.source-plate { font-size: 24px; }
-  #{{ID}}-caption { position: absolute; left: var(--safe-x); top: 150px; max-width: 420px; font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 36px; line-height: 1.3; color: var(--ink); text-shadow: 0 3px 22px rgba(0,0,0,0.9); }
+  #{{ID}}-caption { position: absolute; left: var(--safe-x); top: 170px; max-width: 460px; font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 36px; line-height: 1.3; color: var(--ink); text-shadow: 0 3px 22px rgba(0,0,0,0.9); }
   #{{ID}}-caption b { color: var(--accent); font-style: normal; font-weight: 500; margin-right: 10px; }
 </style>
 
 <div id="root" data-composition-id="{{ID}}" data-start="0" data-width="1920" data-height="1080" data-duration="{{DURATION}}">
-  <div id="{{ID}}-back"></div>
+  <div id="{{ID}}-back" data-layout-allow-overflow></div>
   <div id="{{ID}}-backimg"></div>
   <div id="{{ID}}-stage">
     <div id="{{ID}}-page">
       <div id="{{ID}}-paper"></div>
       <div id="{{ID}}-stamp"></div>
       <div id="{{ID}}-hl"></div>
-      <div id="{{ID}}-cover"></div>
+      <div id="{{ID}}-cover" data-layout-allow-occlusion></div>
     </div>
   </div>
   <div id="{{ID}}-chrome"><div class="eyebrow left" id="{{ID}}-eyebrow"></div></div>
@@ -102,17 +105,24 @@
   const hlR = rectOf(DATA.highlight), cvR = rectOf(DATA.cover?.rect ?? DATA.cover);
   const put = (node, r) => { if (!r) { node.style.display = "none"; return; } node.style.left = `${r[0]}px`; node.style.top = `${r[1]}px`; node.style.width = `${r[2]}px`; node.style.height = `${r[3]}px`; };
   put(hl, hlR); put(cover, cvR);
+  // the covered block is hidden on purpose until revealAt: tell the layout audit so
+  if (DATA.cover && !Array.isArray(DATA.cover) && DATA.cover.block !== undefined) { const b = paper.querySelectorAll(".blk")[DATA.cover.block + 1]; if (b) { b.setAttribute("data-layout-allow-occlusion", ""); b.querySelectorAll("*").forEach((n) => n.setAttribute("data-layout-allow-occlusion", "")); } }
 
   // push toward the focus point (the highlight's centre by default) — DocWide ExhibitScene: smoothstep zoom 1 → 1.5
   const focus = DATA.focus ?? (hlR ? [(hlR[0] + hlR[2] / 2) / PAGE_W, (hlR[1] + hlR[3] / 2) / PAGE_H] : [0.5, 0.5]);
   const ZOOM = DATA.zoom ?? 1.55;
-  const screenX = DATA.screenX ?? 1150; // where the focus point lands (right of centre: the left column holds the chrome)
+  // where the focus point lands: as far right as needed to keep the zoomed page's left edge right of the 600px lane line,
+  // without pushing its right edge past the frame
+  const pageW = (DATA.mode === "image" ? PAGE_H * 0.75 : PAGE_W) * ZOOM;
+  const LANE = 600;
+  const screenX = DATA.screenX ?? Math.min(1920 - pageW / 2 - 40, Math.max(960, LANE + pageW / 2 + 20));
   const dx = (0.5 - focus[0]) * PAGE_W * ZOOM + (screenX - 960), dy = (0.5 - focus[1]) * PAGE_H * ZOOM;
+  const startX = Math.max(0, LANE + PAGE_W / 2 + 20 - 960); // page starts centred-right so it clears the lane at scale 1 too
 
   const tl = gsap.timeline({ paused: true });
   tl.fromTo($("back"), { opacity: 0 }, { opacity: 1, duration: 0.8 }, 0);
   tl.fromTo($("backimg"), { opacity: 0 }, { opacity: 0.5, duration: 0.8 }, 0);
-  tl.fromTo(page, { opacity: 0, y: 30, scale: 1, x: 120 }, { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" }, 0.1);
+  tl.fromTo(page, { opacity: 0, y: 30, scale: 1, x: startX }, { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" }, 0.1);
   tl.to(page, { scale: ZOOM, x: dx, y: dy, duration: DUR - 1.4, ease: "sine.inOut" }, 0.9);
   tl.fromTo($("chrome"), { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.7, ease: "power2.out" }, 0.3);
   tl.fromTo($("src"), { opacity: 0, y: 18 }, { opacity: 1, y: 0, duration: 0.7, ease: "power3.out" }, 0.9);

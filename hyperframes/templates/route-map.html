@@ -40,7 +40,7 @@
 <div id="root" data-composition-id="{{ID}}" data-start="0" data-width="1920" data-height="1080" data-duration="{{DURATION}}">
   <svg id="{{ID}}-svg" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
     <rect class="sea" x="0" y="0" width="1920" height="1080"/>
-    <g id="{{ID}}-cam">
+    <g id="{{ID}}-cam" data-layout-allow-overflow>
       <g id="{{ID}}-grat"></g>
       <g id="{{ID}}-land"></g>
       <g id="{{ID}}-labels"></g>
@@ -80,19 +80,19 @@
 
   // every text/marker that must keep its screen size under the camera zoom registers here: [node, x, y]
   const fixed = [];
-  const pin = (node, x, y) => { fixed.push([node, x, y]); return node; };
+  const pin = (node, x, y, band = 140) => { fixed.push([node, x, y, band]); return node; };
 
   // ---- basemap ----
   const grat = $("grat");
   for (let lon = Math.ceil(vx0 / 2) * 2 - 6; lon <= vx1 + 6; lon += 2) {
     const [x] = P(lon, vy0); if (x < 0 || x > W) continue;
     el("line", { class: "grat", x1: x, y1: -2000, x2: x, y2: H + 2000 }, grat);
-    const t = pin(el("text", { class: "gratlbl", x: x + 6, y: H - 14 }, grat), x + 6, H - 14); t.textContent = `${lon}°E`;
+    const t = pin(el("text", { class: "gratlbl", x: x + 6, y: H - 14 }, grat), x + 6, H - 14, 1); t.textContent = `${lon}°E`;
   }
   for (let lat = Math.ceil(vy0 / 2) * 2 - 6; lat <= vy1 + 6; lat += 2) {
     const [, y] = P(vx0, lat); if (y < 0 || y > H) continue;
     el("line", { class: "grat", x1: -2000, y1: y, x2: W + 2000, y2: y }, grat);
-    const t = pin(el("text", { class: "gratlbl", x: 10, y: y - 6 }, grat), 10, y - 6); t.textContent = `${lat}°N`;
+    const t = pin(el("text", { class: "gratlbl", x: 10, y: y - 6 }, grat), 10, y - 6, 1); t.textContent = `${lat}°N`;
   }
   const land = $("land");
   for (const f of GEO.features) {
@@ -102,7 +102,7 @@
   const labels = $("labels");
   for (const l of DATA.labels ?? []) {
     const [x, y] = P(l.lon, l.lat);
-    const t = pin(el("text", { class: "lbl", x, y, "font-size": l.size ?? 22 }, labels), x, y); t.textContent = l.text;
+    const t = pin(el("text", { class: "lbl", x, y, "font-size": l.size ?? 22 }, labels), x, y, 200); t.textContent = l.text;
   }
   // scale bar (100 km at the view's mid latitude; outside the camera group, re-labeled under zoom)
   const midLat = (vy0 + vy1) / 2;
@@ -167,24 +167,26 @@
   const anchorTA = (a) => a.includes("w") ? "end" : (a === "n" || a === "s") ? "middle" : "start";
   const wpNodes = WP.map((w) => {
     const [x, y] = P(w.lon, w.lat);
-    const g = pin(el("g", { transform: `translate(${x} ${y})` }, wps), x, y);
+    const outer = el("g", {}, wps);
+    const g = pin(el("g", { transform: `translate(${x} ${y})` }, outer), x, y);
     el("circle", { class: `wp ${w.kind ?? "fix"}`, r: w.kind === "dest" ? 10 : 8 }, g);
     const a = w.anchor ?? "ne", [dx, dy] = anchorOff[a];
     const t1 = el("text", { class: "wplbl", x: dx, y: dy, "text-anchor": anchorTA(a) }, g); t1.textContent = w.name.toUpperCase();
     if (w.time || w.note) { const t2 = el("text", { class: "wpsub", x: dx, y: dy + 26, "text-anchor": anchorTA(a) }, g); t2.textContent = [w.time, w.note].filter(Boolean).join(" · "); }
-    return g;
+    return outer;
   });
   let holdLbl = null;
-  if (H0) { const [x, y] = P(H0.lon, H0.lat); holdLbl = pin(el("g", { transform: `translate(${x} ${y})` }, wps), x, y); const t = el("text", { class: "holdlbl", x: H0.labelDx ?? 0, y: H0.labelDy ?? 60, "text-anchor": "middle" }, holdLbl); t.textContent = H0.label; }
+  if (H0) { const [x, y] = P(H0.lon, H0.lat); holdLbl = el("g", {}, wps); const inner = pin(el("g", { transform: `translate(${x} ${y})` }, holdLbl), x, y); const t = el("text", { class: "holdlbl", x: H0.labelDx ?? 0, y: H0.labelDy ?? 60, "text-anchor": "middle" }, inner); t.textContent = H0.label; }
   const evg = $("event"); let evRing, evG;
   if (DATA.event) {
     const [x, y] = P(DATA.event.lon, DATA.event.lat);
-    evG = pin(el("g", { transform: `translate(${x} ${y})` }, evg), x, y);
-    evRing = el("circle", { class: "ev-ring", r: 14 }, evG);
-    el("circle", { class: "ev-dot", r: 9 }, evG);
+    evG = el("g", {}, evg);
+    const inner = pin(el("g", { transform: `translate(${x} ${y})` }, evG), x, y);
+    evRing = el("circle", { class: "ev-ring", r: 14 }, inner);
+    el("circle", { class: "ev-dot", r: 9 }, inner);
     const a = DATA.event.anchor ?? "nw", [dx, dy] = anchorOff[a];
-    const t1 = el("text", { class: "evlbl", x: dx, y: dy, "text-anchor": anchorTA(a) }, evG); t1.textContent = DATA.event.label.toUpperCase();
-    if (DATA.event.time) { const t2 = el("text", { class: "evsub", x: dx, y: dy + 28, "text-anchor": anchorTA(a) }, evG); t2.textContent = DATA.event.time; }
+    const t1 = el("text", { class: "evlbl", x: dx, y: dy, "text-anchor": anchorTA(a) }, inner); t1.textContent = DATA.event.label.toUpperCase();
+    if (DATA.event.time) { const t2 = el("text", { class: "evsub", x: dx, y: dy + 28, "text-anchor": anchorTA(a) }, inner); t2.textContent = DATA.event.time; }
   }
 
   $("eyebrow").textContent = DATA.eyebrow ?? "";
@@ -204,7 +206,13 @@
       tx = ex - px * K; ty = ey - py * K;
       cam.setAttribute("transform", `translate(${tx} ${ty}) scale(${K})`);
       const inv = 1 / K;
-      for (const [node, x, y] of fixed) node.setAttribute("transform", `translate(${x} ${y}) scale(${inv})`);
+      for (const [node, x, y, band] of fixed) {
+        node.setAttribute("transform", `translate(${x} ${y}) scale(${inv})`);
+        // edge guard: a pinned label fades out over `band` px as its anchor approaches any frame edge (0 = already outside)
+        const sx = tx + x * K, sy = ty + y * K;
+        const dEdge = Math.min(sx, W - sx, sy, H - sy);
+        node.style.opacity = String(Math.max(0, Math.min(1, (dEdge - Math.min(40, band * 0.3)) / (band - Math.min(40, band * 0.3)))));
+      }
       const km = 100 / K; const nice = km >= 60 ? 100 : km >= 25 ? 50 : km >= 12 ? 20 : 10;
       const px0 = px100 * nice / 100 * K; const x = W - 54 - px0, y = H - 86;
       scaleLines[0].setAttribute("x1", x); scaleLines[0].setAttribute("x2", x + px0); scaleLines[1].setAttribute("x1", x); scaleLines[1].setAttribute("x2", x); scaleLbl.setAttribute("x", x + px0 / 2); scaleLbl.textContent = `${nice} km`;
