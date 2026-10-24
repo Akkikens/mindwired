@@ -35,7 +35,7 @@ Reference format: `docs/metadata/METADATA-boeing737max.md` and
 
 - [ ] **Primary title + 2 A/B alternates** (generate/score via ctr-engine if missing —
       30-50 chars, negative-emotion statement, per ctr-engine's title spec)
-- [ ] **Thumbnail FILES, not concepts** — `out/thumbs/<slug>_A.png`, `_B.png`,
+- [ ] **Thumbnail FILES, not concepts** — `assets/thumbs/<slug>_A.png`, `_B.png`,
       `_C.png` must exist (≥720p) per ctr-engine step 5. **A metadata file whose
       thumbnail section is a concept/prompt with no built image is INCOMPLETE — this
       is the leak that shipped a month of episodes with no purpose-built thumbnail.**
@@ -94,7 +94,7 @@ Reference format: `docs/metadata/METADATA-boeing737max.md` and
    its currency decays.**
 1. Upload the mp4 as **draft/private** — never straight to public.
 2. Set thumbnail **A** and start **Test & Compare with all 3 built variants**
-   (`out/thumbs/<slug>_A/B/C.png`) — mandatory on every long-form. Winner is
+   (`assets/thumbs/<slug>_A/B/C.png`) — mandatory on every long-form. Winner is
    decided by WATCH-TIME SHARE (YouTube's own metric), not CTR eyeballing. One
    variable per test (thumbs now; a title test can follow after it settles).
 3. Set **title A** (primary).

@@ -259,7 +259,7 @@ Confirm the −14 LUFS line in the render log (render_and_master prints before/a
    3-5 hashtags, pinned comment (incl. the one-line Hype ask), category/license
    lines. English only (Hindi only on DimaagBatti).
 3. **BUILD the 3 thumbnail variants** (ctr-engine Run B, step 5) —
-   `out/thumbs/<slug>_A/B/C.png`, ≥720p, House Style 2.0 (zero/≤10-char text, one
+   `assets/thumbs/<slug>_A/B/C.png`, ≥720p, House Style 2.0 (zero/≤10-char text, one
    bright focal element, real archival asset). **A metadata file with concepts but
    no image files is an incomplete package — this was the audited leak.**
 4. **Final filename = the actual video title, bare, at repo root** — the

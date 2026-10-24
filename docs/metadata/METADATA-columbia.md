@@ -77,12 +77,13 @@ If this one got to you, the Hype button genuinely helps a channel this size reac
 ---
 
 ## STUDIO SETTINGS
+- AI use: NO — all archival NASA/CAIB assets, code-rendered graphics, Cartesia narration (synthetic voice is not "altered or synthetic media" under YouTube's disclosure rule; no realistic depiction of real people/events was generated).
 - Category: Education
 - Licence: Standard YouTube Licence
 - Made for kids: No
 - Language: English · Captions: upload `Columbia - The Photos NASA Never Took.srt`
 - End screen: the ONE named video from the verbal bridge + subscribe (single-video end screens roughly double 4-grid CTR)
-- Thumbnail Test & Compare: `out/thumbs/columbia_A.png` (winner — RCC panel breach, tight), `_B.png` (with the "RCC #8 Test 1" placard), `_C.png` (wide wing). Winner is decided on **watch-time share**, not CTR.
+- Thumbnail Test & Compare: `assets/thumbs/columbia_A.png` (winner — RCC panel breach, tight), `_B.png` (with the "RCC #8 Test 1" placard), `_C.png` (wide wing). Winner is decided on **watch-time share**, not CTR.
 
 ## SENSITIVITY
 Seven people died. No speculation about their final moments beyond what the CAIB

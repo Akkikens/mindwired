@@ -15,7 +15,7 @@ description: Generate, score, and BUILD high-CTR titles and thumbnails for a Min
 2. **A concept is not a thumbnail.** Audit finding (2026-08-03): every episode since
    ~mid-July shipped metadata with thumbnail *concepts* and no actual image file —
    the single most-controllable CTR lever, skipped at the last step. This skill is
-   not done until real image files exist in `out/thumbs/`.
+   not done until real image files exist in `assets/thumbs/`.
 
 ## When it runs
 - **Run A — validation gate (inside icahn-validate):** 10 title concepts + 3
@@ -103,9 +103,9 @@ Two working paths in this repo, both already proven:
   skip generation entirely: crop/grade the real photo or exhibit directly.
 - **Path B (Remotion comp):** a `<Slug>Thumbnail` composition in Root.tsx (existing
   pattern: `NasaUfoFilesThumbnail`), rendered via
-  `npx remotion still <Comp> out/thumbs/<slug>_A.png` — pixel-perfect text, reuses
+  `npx remotion still <Comp> assets/thumbs/<slug>_A.png` — pixel-perfect text, reuses
   the episode's own real assets.
-Deliverable: **three files** — `out/thumbs/<slug>_A.png`, `_B.png`, `_C.png`
+Deliverable: **three files** — `assets/thumbs/<slug>_A.png`, `_B.png`, `_C.png`
 (1280×720 minimum; Test & Compare rejects variants under 720p). Eyeball each at
 small size before calling it done. **No files = the run failed.**
 
@@ -132,6 +132,6 @@ small size before calling it done. **No files = the run failed.**
 ## What this skill will NOT do
 Promise virality, invent fake numbers, approve packaging that overpromises (tanks
 satisfaction signals = future impressions), or count a run as done without image
-files in `out/thumbs/`. If the topic has no proven demand, point to icahn-validate
+files in `assets/thumbs/`. If the topic has no proven demand, point to icahn-validate
 first — and if no package concept scores, say the topic should die NOW, before a
 dollar of production is spent on it.

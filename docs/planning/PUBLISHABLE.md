@@ -313,9 +313,9 @@ Those are licence obligations — if the description is trimmed, they stay.
 |---|---|---|
 | Master | `The Apollo 1 Transcript That Doesn't Exist.mp4` (repo root) | 3840×2160 · **23:18** · 2.98 GB · **−14.0 LUFS** · mindwired outro baked in · frames 41,719 == 41,719 |
 | Captions | `The Apollo 1 Transcript That Doesn't Exist.srt` (repo root) | **329 cues**, measured off the master (see the drift note in HOUSEKEEPING) |
-| Thumbnail A | `out/thumbs/apollo1_A.png` | 1920×1080 — the real AS-204 hatch, open, on near-black |
-| Thumbnail B | `out/thumbs/apollo1_B.png` | 1920×1080 — the burned interior of CM-012 |
-| Thumbnail C | `out/thumbs/apollo1_C.png` | 1920×1080 — the fire-scarred hatch opening in the hull |
+| Thumbnail A | `assets/thumbs/apollo1_A.png` | 1920×1080 — the real AS-204 hatch, open, on near-black |
+| Thumbnail B | `assets/thumbs/apollo1_B.png` | 1920×1080 — the burned interior of CM-012 |
+| Thumbnail C | `assets/thumbs/apollo1_C.png` | 1920×1080 — the fire-scarred hatch opening in the hull |
 
 Full package with title scoring and rationale: `docs/metadata/METADATA-apollo1.md`.
 

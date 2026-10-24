@@ -14,6 +14,8 @@ Order (a failing gate stops the run):
   6. 4 stills             spread across the comp (CHECKPOINT: look at them)
   7. render_and_master    the ONE render, -14 LUFS, music ducked/windowed
   8. gen_doc_srt          SRT + CHAPTERS block
+  9. publish_kit          package complete? (METADATA, root mp4/srt, thumbs,
+                          Shorts schedule, HANDOFF) — reports, never re-renders
 
 --windowed applies the long/heavy-doc music rule (bed only at cold open,
 chapter transitions, closing). --yes skips the interactive checkpoints
@@ -60,10 +62,10 @@ def main() -> None:
     args = ap.parse_args()
     slug = args.slug
 
-    run("1/8 TTS lint", [PY, "scripts/lint_tts_text.py",
+    run("1/9 TTS lint", [PY, "scripts/lint_tts_text.py",
                          str(doctiming.DOCS / f"{slug}.json")])
-    run("2/8 radio recreations", [PY, "scripts/radio_recreate.py", slug])
-    run("3/8 VO build + manifest", [PY, "scripts/build_doc_vo.py", slug])
+    run("2/9 radio recreations", [PY, "scripts/radio_recreate.py", slug])
+    run("3/9 VO build + manifest", [PY, "scripts/build_doc_vo.py", slug])
 
     # run-BY-EAR check (2026-07-19, "AI voice" complaints): splice 3 clips
     # (hook / middle / last) into one sample and actually listen to it.
@@ -88,17 +90,17 @@ def main() -> None:
             checkpoint(f"VO sample concat FAILED (ffmpeg rc={rc}) — listen to 2-3 clips "
                        f"under {audio.relative_to(REPO)} by hand.", args.yes)
 
-    run("4/8 image audit (contact sheets -> out/qa/)",
+    run("4/9 image audit (contact sheets -> out/qa/)",
         [PY, "scripts/audit_doc_images.py", slug])
     checkpoint(f"eyeball the contact sheets in out/qa/ for {slug}.", args.yes)
-    run("5/8 preflight validator", [PY, "scripts/preflight_doc.py", slug])
+    run("5/9 preflight validator", [PY, "scripts/preflight_doc.py", slug])
 
     doc, man = doctiming.load(slug)
     total = int(doctiming.body_seconds(doc, man["durations"]) * doctiming.FPS)
     stills = REPO / "out" / "qa" / f"{slug}_stills"
     stills.mkdir(parents=True, exist_ok=True)
     for i, fr in enumerate(int(total * p) for p in (0.02, 0.3, 0.6, 0.9)):
-        run(f"6/8 still {i + 1}/4 (frame {fr})",
+        run(f"6/9 still {i + 1}/4 (frame {fr})",
             ["npx", "remotion", "still", args.comp,
              str(stills / f"f{fr}.png"), f"--frame={fr}"])
     checkpoint(f"look at the 4 stills in {stills.relative_to(REPO)}.", args.yes)
@@ -111,9 +113,16 @@ def main() -> None:
         cmd += ["--music", str(args.music), "--music-gain-db", str(args.music_gain_db)]
         if args.windowed:
             cmd += ["--windows", slug]
-    run("7/8 THE render + master", cmd)
-    run("8/8 SRT + chapters", [PY, "scripts/gen_doc_srt.py", slug])
-    print(f"\nDONE -> {out}  (verify: ffprobe duration, outro-splice frame, LUFS above)")
+    run("7/9 THE render + master", cmd)
+    run("8/9 SRT + chapters", [PY, "scripts/gen_doc_srt.py", slug])
+    print(f"\nRENDERED -> {out}  (verify: ffprobe duration, outro-splice frame, LUFS above)")
+    # packaging is not a render gate: the master stands, but the episode is not
+    # done until the kit is (root <Title>.mp4/.srt, METADATA, thumbs, Shorts, HANDOFF)
+    print(f"\n=== 9/9 publish kit\n$ {PY} scripts/publish_kit.py {slug}")
+    if subprocess.run([PY, "scripts/publish_kit.py", slug], cwd=REPO).returncode != 0:
+        sys.exit("PACKAGE INCOMPLETE — render is done; finish the items above "
+                 "(ctr-engine / shorts-funnel / publish-video), then rerun publish_kit.py")
+    print("\nDONE — rendered and packaged")
 
 
 if __name__ == "__main__":
