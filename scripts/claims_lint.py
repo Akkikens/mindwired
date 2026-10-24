@@ -115,8 +115,15 @@ WORD_SCALE = re.compile(r"\s*(thousand|million|billion)\b", re.I)
 WORD_MULT = {"thousand": 1e3, "million": 1e6, "billion": 1e9}
 
 
+# NTSB transcripts/AARs write clock times as HHMM:SS(.s) ("0913:21",
+# "0916:14.8"). Normalize to HH:MM:SS before tokenizing so a data file's
+# "09:13:21" matches a CLAIMS anchor written the NTSB way (and vice versa),
+# instead of splitting into the numbers 913 and 21.
+NTSB_TIME_RE = re.compile(r"(?<![\d:.])([01]\d|2[0-3])([0-5]\d):([0-5]\d(?:\.\d+)?)(?![\d:])")
+
+
 def _nfkc(t: str) -> str:
-    return unicodedata.normalize("NFKC", t)
+    return NTSB_TIME_RE.sub(r"\1:\2:\3", unicodedata.normalize("NFKC", t))
 
 
 def times_in(text: str) -> list[tuple[str, tuple]]:
@@ -254,8 +261,12 @@ def parse_anchors(text: str) -> dict[str, dict] | None:
         aid, value, unit, source, note = cells[:5]
         fs = FactSet()
         fs.add_text(value.replace("`", ""))
-        status = next((s for s in ("EXCLUDE", "DISPUTED", "ALLEGED", "UNVERIFIED")
-                       if s in note.upper()), "CONFIRMED")
+        # Status from the note column by word, or from a one-letter label
+        # column (C/D/A/U/X — the CLAIMS-american587 ANCHORS shape).
+        label = {"D": "DISPUTED", "A": "ALLEGED", "U": "UNVERIFIED", "X": "EXCLUDE",
+                 "E": "EXCLUDE"}.get(note.strip().upper())
+        status = label or next((s for s in ("EXCLUDE", "DISPUTED", "ALLEGED", "UNVERIFIED")
+                                if s in note.upper()), "CONFIRMED")
         anchors[aid] = {"value": value, "unit": unit, "source": source,
                         "note": note, "status": status, "facts": fs}
     return anchors
