@@ -173,10 +173,9 @@
   statNodes.forEach(({ d, num, st }, i) => {
     const at = 1.0 + i * 0.5;
     tl.fromTo(d, { opacity: 0, y: 18 }, { opacity: 1, y: 0, duration: 0.6, ease: "power3.out" }, at);
-    if (typeof st.value === "number") {
-      const c = { v: 0 }; num.textContent = "0";
-      tl.to(c, { v: st.value, duration: 1.4, ease: "power3.out", onUpdate: () => { num.textContent = fmt(c.v); } }, at + 0.1);
-    } else num.textContent = st.value;
+    // No roll-up counters (memory no-count-up-number-animation): the figure
+    // lands at its real value with the tile's own fade/rise, never ticks up.
+    num.textContent = typeof st.value === "number" ? fmt(st.value) : st.value;
   });
 
   const W = 1240, H = 660, PADL = 110, PADR = 30, PADT = 40, PADB = 60;
@@ -197,8 +196,7 @@
     nodes.forEach(({ v, b, c }, i) => {
       const at = 0.9 + i * 0.22;
       tl.fromTo(b, { scaleY: 0 }, { scaleY: 1, duration: 1.1, ease: "power3.out" }, at);
-      const cnt = { v: 0 };
-      tl.to(cnt, { v: c.v, duration: 1.1, ease: "power3.out", onUpdate: () => { v.textContent = fmt(cnt.v); } }, at);
+      v.textContent = fmt(c.v); // final value from frame one — no roll-up (see stat tiles above)
       tl.fromTo(v, { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.5 }, at);
     });
     tl.fromTo(box, { opacity: 0 }, { opacity: 1, duration: 0.4 }, 0.6);

@@ -207,29 +207,17 @@
     {
       "id": "ch4_1",
       "text": "By nine twenty three, it levels off at its programmed cruising altitude, thirty four thousand feet, and keeps flying its planned route. On autopilot. Alone.",
-      "img": "helios_livery",
-      "stat": "FL340 \u2014 ~34,000 FT",
-      "kinetic": {
-        "count": 34000,
-        "suffix": " ft \u2014 cruising altitude",
-        "sub": "On autopilot. Alone."
-      }
+      "hf": "chart-altitude"
     },
     {
       "id": "ch4_2",
       "text": "At nine thirty seven, it enters Greek airspace with no one answering the radio. Air traffic control tries to reach it again, and again. Nineteen separate attempts. Nobody answers.",
-      "kinetic": {
-        "count": 19,
-        "suffix": " failed radio calls",
-        "sub": "Air traffic control, trying to reach a silent plane"
-      },
-      "img": "helios_livery"
+      "hf": "timeline-flight"
     },
     {
       "id": "ch4_3",
       "text": "With no instructions, the autopilot does exactly what it was programmed to do. It enters a holding pattern over a radio beacon near Athens, and starts flying in circles.",
-      "img": "helios_livery",
-      "cap": "10:40 AM \u2014 holding pattern begins"
+      "hf": "route-map"
     },
     {
       "id": "ch4_4",

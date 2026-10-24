@@ -136,5 +136,28 @@
  },
  "missing": [],
  "speed": 0.96,
- "mouth": {}
+ "mouth": {},
+ "hf": {
+  "chart-altitude": {
+   "sha256": "7861e016469bf90566760a9a625112ef121344aa7bfd4c934d71f13dd61150b5",
+   "rendered_at_frames": 360,
+   "duration": 12.0,
+   "accent": "#FF9500",
+   "mp4": "public/shorts/helios522/video/hf_chart-altitude.mp4"
+  },
+  "route-map": {
+   "sha256": "1415a0da6ed7ed9a691bd60afc8e7ce0c6877dbcc91b4806d835348386908080",
+   "rendered_at_frames": 323,
+   "duration": 10.74,
+   "accent": "#FF9500",
+   "mp4": "public/shorts/helios522/video/hf_route-map.mp4"
+  },
+  "timeline-flight": {
+   "sha256": "bc927a8022dc1531f6effd870f329e5fd679d465c988ab6ad30c670dd0005627",
+   "rendered_at_frames": 371,
+   "duration": 12.34,
+   "accent": "#FF9500",
+   "mp4": "public/shorts/helios522/video/hf_timeline-flight.mp4"
+  }
+ }
 }

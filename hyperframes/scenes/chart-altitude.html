@@ -119,7 +119,7 @@ html, body { width: 1920px; height: 1080px; overflow: hidden; background: #05070
   #chart-altitude-note { position: absolute; right: 54px; bottom: 44px; font-family: var(--mono); font-size: 16px; letter-spacing: 1px; color: var(--ink-3); text-align: right; max-width: 1100px; }
 </style>
 
-<div id="root" data-composition-id="chart-altitude" data-start="0" data-width="1920" data-height="1080" data-duration="14">
+<div id="root" data-composition-id="chart-altitude" data-start="0" data-width="1920" data-height="1080" data-duration="12">
   <div id="chart-altitude-glow"></div>
   <div id="chart-altitude-chrome">
     <div class="eyebrow left" id="chart-altitude-eyebrow"></div>
@@ -146,9 +146,9 @@ html, body { width: 1920px; height: 1080px; overflow: hidden; background: #05070
 
 <script>
 (() => {
-  const DATA = {"scene":"chart","kind":"line","duration":14,"eyebrow":"Altitude profile · EEST","title":"Three hours on autopilot, then the fuel ran out","unit":"ft","note":"KNOWN POINTS FROM THE AAIASB TIMELINE, JOINED BY STRAIGHT SEGMENTS · THE RED MARK IS CABIN ALTITUDE, NOT AIRCRAFT ALTITUDE","line":{"yMax":36000,"yTicks":[0,10000,20000,30000],"xTicks":["09:00","10:00","11:00","12:00"],"series":[{"t":"09:07:00","v":0,"label":"09:07 TAKEOFF","labelPos":"above","labelAnchor":"start"},{"t":"09:20:00","v":28900,"label":"~09:20 LAST CONTACT · ~28,900 FT","labelPos":"below","labelAnchor":"start"},{"t":"09:23:32","v":34000,"label":"09:23:32 LEVEL AT FL340","labelPos":"above","labelAnchor":"start"},{"t":"11:49:50","v":34000,"label":"11:49:50 LEFT ENGINE FLAMEOUT","labelPos":"above","labelAnchor":"end"},{"t":"12:03:32","v":0,"label":"12:03:32 IMPACT","labelPos":"above","labelAnchor":"end"}],"markers":[{"t":"09:12:38","v":12040,"label":"09:12:38 CABIN ALTITUDE HORN · 12,040 FT"}]},"stats":[{"value":121,"label":"aboard · no survivors"},{"value":19,"label":"failed ATC contact attempts"},{"value":"6","suffix":"th","label":"holding loop when the F‑16s closed in"}],"_facts":"CLAIMS-helios522.md timeline: 09:07 takeoff; 09:12:38 cabin altitude horn at 12,040 ft; ~09:20 last contact climbing through ~28,900 ft; 09:23:32 levels at FL340 (~34,000 ft); 11:49:50 left engine flames out and descent begins; 12:03:32 crash. 121 aboard, all killed; 10:12–10:50 nineteen failed ATC contact attempts; F-16s intercept on the 6th holding loop. The right-engine flameout (11:59:47) is omitted because no altitude is given for it."};
+  const DATA = {"scene":"chart","kind":"line","duration":12,"eyebrow":"Altitude profile · EEST","title":"Three hours on autopilot, then the fuel ran out","unit":"ft","note":"KNOWN POINTS FROM THE AAIASB TIMELINE, JOINED BY STRAIGHT SEGMENTS · THE RED MARK IS CABIN ALTITUDE, NOT AIRCRAFT ALTITUDE","line":{"yMax":36000,"yTicks":[0,10000,20000,30000],"xTicks":["09:00","10:00","11:00","12:00"],"series":[{"t":"09:07:00","v":0,"label":"09:07 TAKEOFF","labelPos":"above","labelAnchor":"start"},{"t":"09:20:00","v":28900,"label":"~09:20 LAST CONTACT · ~28,900 FT","labelPos":"below","labelAnchor":"start"},{"t":"09:23:32","v":34000,"label":"09:23:32 LEVEL AT FL340","labelPos":"above","labelAnchor":"start"},{"t":"11:49:50","v":34000,"label":"11:49:50 LEFT ENGINE FLAMEOUT","labelPos":"above","labelAnchor":"end"},{"t":"12:03:32","v":0,"label":"12:03:32 IMPACT","labelPos":"above","labelAnchor":"end"}],"markers":[{"t":"09:12:38","v":12040,"label":"09:12:38 CABIN ALTITUDE HORN · 12,040 FT"}]},"stats":[{"value":121,"label":"aboard · no survivors"},{"value":19,"label":"failed ATC contact attempts"},{"value":"6","suffix":"th","label":"holding loop when the F‑16s closed in"}],"_facts":"CLAIMS-helios522.md timeline: 09:07 takeoff; 09:12:38 cabin altitude horn at 12,040 ft; ~09:20 last contact climbing through ~28,900 ft; 09:23:32 levels at FL340 (~34,000 ft); 11:49:50 left engine flames out and descent begins; 12:03:32 crash. 121 aboard, all killed; 10:12–10:50 nineteen failed ATC contact attempts; F-16s intercept on the 6th holding loop. The right-engine flameout (11:59:47) is omitted because no altitude is given for it."};
   const ID = "chart-altitude";
-  const DUR = 14;
+  const DUR = 12;
   const $ = (s) => document.getElementById(`${ID}-${s}`);
   const NS = "http://www.w3.org/2000/svg";
   const el = (tag, attrs, parent) => { const n = document.createElementNS(NS, tag); for (const k in attrs) n.setAttribute(k, attrs[k]); if (parent) parent.appendChild(n); return n; };
@@ -179,10 +179,9 @@ html, body { width: 1920px; height: 1080px; overflow: hidden; background: #05070
   statNodes.forEach(({ d, num, st }, i) => {
     const at = 1.0 + i * 0.5;
     tl.fromTo(d, { opacity: 0, y: 18 }, { opacity: 1, y: 0, duration: 0.6, ease: "power3.out" }, at);
-    if (typeof st.value === "number") {
-      const c = { v: 0 }; num.textContent = "0";
-      tl.to(c, { v: st.value, duration: 1.4, ease: "power3.out", onUpdate: () => { num.textContent = fmt(c.v); } }, at + 0.1);
-    } else num.textContent = st.value;
+    // No roll-up counters (memory no-count-up-number-animation): the figure
+    // lands at its real value with the tile's own fade/rise, never ticks up.
+    num.textContent = typeof st.value === "number" ? fmt(st.value) : st.value;
   });
 
   const W = 1240, H = 660, PADL = 110, PADR = 30, PADT = 40, PADB = 60;
@@ -203,8 +202,7 @@ html, body { width: 1920px; height: 1080px; overflow: hidden; background: #05070
     nodes.forEach(({ v, b, c }, i) => {
       const at = 0.9 + i * 0.22;
       tl.fromTo(b, { scaleY: 0 }, { scaleY: 1, duration: 1.1, ease: "power3.out" }, at);
-      const cnt = { v: 0 };
-      tl.to(cnt, { v: c.v, duration: 1.1, ease: "power3.out", onUpdate: () => { v.textContent = fmt(cnt.v); } }, at);
+      v.textContent = fmt(c.v); // final value from frame one — no roll-up (see stat tiles above)
       tl.fromTo(v, { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.5 }, at);
     });
     tl.fromTo(box, { opacity: 0 }, { opacity: 1, duration: 0.4 }, 0.6);
