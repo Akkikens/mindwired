@@ -1,0 +1,1348 @@
+{
+ "durations": {
+  "h1": 8.908,
+  "h2": 10.031,
+  "h3": 9.639,
+  "h4": 14.211,
+  "h5": 10.449,
+  "h6": 3.004,
+  "h7": 12.042,
+  "sting": 2.038,
+  "title": 11.546,
+  "c1": 5.329,
+  "c1_1": 14.681,
+  "c1_2": 14.759,
+  "c1_3": 11.233,
+  "c1_4": 19.958,
+  "c1_7": 15.073,
+  "c1_8": 17.241,
+  "r1": 2.131,
+  "r2": 1.212,
+  "c1_10": 12.434,
+  "c2": 8.594,
+  "c2_1": 8.281,
+  "r3": 7.691,
+  "r4": 7.374,
+  "c2_2": 17.241,
+  "r5": 1.311,
+  "r6": 7.535,
+  "r7": 4.29,
+  "r8": 1.552,
+  "r9": 6.939,
+  "r10": 1.794,
+  "c2_3": 9.326,
+  "hf_plate": 10.527,
+  "c2_4": 7.314,
+  "r11": 7.146,
+  "r12": 3.329,
+  "c2_5": 4.911,
+  "hf_route": 16.666,
+  "r13": 6.584,
+  "r14": 7.133,
+  "c2_6": 8.829,
+  "c3": 6.922,
+  "r15": 4.501,
+  "c3_1": 20.036,
+  "r16": 4.22,
+  "r17": 1.89,
+  "r18": 0.675,
+  "r19": 1.485,
+  "hf_timeline": 15.073,
+  "c3_3": 15.491,
+  "hf_pedals": 17.476,
+  "r20": 1.069,
+  "c3_4": 6.687,
+  "r21": 0.763,
+  "r22": 1.484,
+  "r23": 2.445,
+  "c3_5": 2.847,
+  "r24": 1.64,
+  "c3_6": 13.166,
+  "c3_7": 10.841,
+  "c3_8": 9.718,
+  "hf_altitude": 16.849,
+  "c3_9": 13.558,
+  "r25": 2.918,
+  "r26": 2.36,
+  "c3_10": 10.684,
+  "c3_11": 12.434,
+  "c3_12": 12.748,
+  "c3_13": 9.247,
+  "c4": 6.687,
+  "c4_1": 17.319,
+  "c4_2": 13.087,
+  "c4_3": 16.274,
+  "c4_4": 16.666,
+  "c4_5": 13.558,
+  "c4_6": 12.434,
+  "c4_7": 13.322,
+  "c4_8": 21.081,
+  "c5": 9.718,
+  "c5_1": 11.886,
+  "c5_2": 20.193,
+  "hf_exhibit": 14.524,
+  "c5_3": 11.651,
+  "c5_4": 16.196,
+  "c5_5": 13.322,
+  "c5_6": 13.401,
+  "c5_7": 20.036,
+  "c6": 8.751,
+  "c6_1": 13.401,
+  "c6_2": 10.606,
+  "c6_3": 12.278,
+  "c6_4": 24.268,
+  "c6_6": 20.114,
+  "c6_7": 16.118,
+  "c6_8": 6.531,
+  "c6_9": 17.319,
+  "c6_10": 13.636,
+  "c6_11": 13.558,
+  "c6_12": 11.389,
+  "c6_13": 22.047,
+  "c7": 6.426,
+  "c7_1": 11.311,
+  "c7_2": 11.389,
+  "c7_3": 11.076,
+  "hf_diagram": 22.282,
+  "c7_4": 11.233,
+  "c7_5": 15.491,
+  "c7_6": 10.109,
+  "c7_7": 9.639,
+  "c7_8": 15.308,
+  "c7_9": 14.838,
+  "c7_10": 17.946,
+  "c8": 5.407,
+  "c8_1": 15.647,
+  "c8_2": 20.114,
+  "c8_3": 9.874,
+  "c8_5": 18.286,
+  "c8_6": 19.226,
+  "c8_7": 15.882,
+  "c9": 6.844,
+  "c9_1": 18.286,
+  "c9_2": 9.404,
+  "c9_3": 13.636,
+  "c9_4": 6.531,
+  "c9_5": 13.793,
+  "c9_6": 16.196,
+  "c9_7": 8.281,
+  "c9_8": 13.479,
+  "coda1": 11.311,
+  "coda2": 15.569,
+  "coda3": 9.482,
+  "coda4": 3.396,
+  "bridge": 13.166,
+  "end": 3.631
+ },
+ "images": {
+  "a300": [
+   "a300_1.jpg",
+   "a300_2.jpg",
+   "a300_3.jpg"
+  ],
+  "aamp_booklet": [
+   "aamp_booklet.png"
+  ],
+  "aar_carmody": [
+   "aar_carmody.png"
+  ],
+  "aar_cause": [
+   "aar_cause.png"
+  ],
+  "aar_memo": [
+   "aar_memo.png"
+  ],
+  "aar_p24": [
+   "aar_p24.png"
+  ],
+  "aar_p26": [
+   "aar_p26.png"
+  ],
+  "aar_p87": [
+   "aar_p87.png"
+  ],
+  "cvr_p27": [
+   "cvr_p27.png"
+  ],
+  "fedreg_ad": [
+   "fedreg_ad.png"
+  ],
+  "fin": [
+   "fin_1.jpg"
+  ],
+  "finwreck": [
+   "finwreck_1.jpg",
+   "finwreck_2.jpg",
+   "finwreck_3.jpg"
+  ],
+  "gasstation": [
+   "gasstation_1.jpg"
+  ],
+  "hres870": [
+   "hres870.png"
+  ],
+  "inscription": [
+   "inscription_1.jpg"
+  ],
+  "jfk": [
+   "jfk_1.jpg",
+   "jfk_2.jpg",
+   "jfk_3.jpg"
+  ],
+  "langley": [
+   "langley_1.jpg",
+   "langley_2.jpg"
+  ],
+  "lug": [
+   "lug_1.jpg",
+   "lug_2.jpg",
+   "lug_3.jpg",
+   "lug_4.jpg"
+  ],
+  "memorial": [
+   "memorial_1.jpg"
+  ],
+  "noaa": [
+   "noaa_1.jpg"
+  ],
+  "recovery": [
+   "recovery_1.jpg",
+   "recovery_2.jpg",
+   "recovery_3.jpg"
+  ],
+  "rockawaypark": [
+   "rockawaypark_1.jpg",
+   "rockawaypark_2.jpg",
+   "rockawaypark_3.jpg"
+  ],
+  "rudder": [
+   "rudder_1.jpg",
+   "rudder_2.jpg",
+   "rudder_3.jpg"
+  ],
+  "site": [
+   "site_1.jpg",
+   "site_2.jpg",
+   "site_3.jpg"
+  ],
+  "toll": [
+   "toll_1.jpg",
+   "toll_2.jpg"
+  ]
+ },
+ "missing": [],
+ "speed": 0.96,
+ "polish": true,
+ "mouth": {},
+ "texthash": {
+  "h1": "4cc6be6f176bc215",
+  "h2": "3b981f17dee4c8e6",
+  "h3": "3576faefbf928340",
+  "h4": "d43d27a7909bfe73",
+  "h5": "000486a9db9b3a02",
+  "h6": "5dd6ef8dedc0ffe9",
+  "h7": "6192196a974e5543",
+  "sting": "58471da16918ee6c",
+  "title": "6931ff27a511f17c",
+  "c1": "d21c5156c3b72cda",
+  "c1_1": "0c66ba26b6098051",
+  "c1_2": "4e72aad4691c759c",
+  "c1_3": "8fed7b2643e03db4",
+  "c1_4": "544d241d72f9adea",
+  "c1_7": "9eb7f40eb4549dfe",
+  "c1_8": "12d51b2e136446d0",
+  "c1_10": "8327c18a03928c2e",
+  "c2": "59dcfa04cbb5610d",
+  "c2_1": "d1833ef9cefbb50e",
+  "c2_2": "33558573f50286f8",
+  "c2_3": "51c99fad9c1dc10a",
+  "hf_plate": "13eff68f03cbe961",
+  "c2_4": "1ac1905a4f93a18e",
+  "c2_5": "f2ccd9a79893e046",
+  "hf_route": "8ea329d9cc8ea774",
+  "c2_6": "9e035450a8ec754a",
+  "c3": "c481830fa697a53e",
+  "c3_1": "f4c0603be3a3f201",
+  "hf_timeline": "9ba80f1eddb04657",
+  "c3_3": "44b5258baafa9646",
+  "hf_pedals": "5a0b1e4702edc3f5",
+  "c3_4": "e6009a6e69fd9756",
+  "c3_5": "80da79aed14ebc86",
+  "c3_6": "2d4dfaf1635538ef",
+  "c3_7": "8d767419c57254a7",
+  "c3_8": "983ee55bbabc4110",
+  "hf_altitude": "d481ed522743f625",
+  "c3_9": "eea7b27a5a972616",
+  "c3_10": "cb4faff8f6fd1129",
+  "c3_11": "745eea73daf7e138",
+  "c3_12": "80a84ea2b3907f1e",
+  "c3_13": "410fb2622e1b26bf",
+  "c4": "cbdc7c65eefac1d0",
+  "c4_1": "3c6de7f0a6c83ca8",
+  "c4_2": "99a4b75ef7bc7001",
+  "c4_3": "ac2a25d9e02e6798",
+  "c4_4": "c43dd47c48f81c9b",
+  "c4_5": "0c16c6f5ed4ccdf8",
+  "c4_6": "a17de045a3582b46",
+  "c4_7": "4f4198d56caadd98",
+  "c4_8": "9f1d3cdf4bb852f3",
+  "c5": "96bd3d24534fb35e",
+  "c5_1": "3491f0e295b3fbd6",
+  "c5_2": "56f86df973a5230d",
+  "hf_exhibit": "9a9b74be98b17ffa",
+  "c5_3": "83ebee113b0e0fd6",
+  "c5_4": "68668c8c1b29c118",
+  "c5_5": "87e781d4f669cdeb",
+  "c5_6": "383457ca74949280",
+  "c5_7": "c7ff6ee04a8277b6",
+  "c6": "7c0af3eb5efceb22",
+  "c6_1": "ce9772d132ff2713",
+  "c6_2": "b6709a868eb9d074",
+  "c6_3": "784482d25c0caae4",
+  "c6_4": "3c563322a4a2525b",
+  "c6_6": "0a1bf0a70291fadf",
+  "c6_7": "14d09532b79f5584",
+  "c6_8": "d077d2a4c5e8ee4d",
+  "c6_9": "6e95835c89a9cb17",
+  "c6_10": "2d4517bd6812fa66",
+  "c6_11": "f1e8f8348a2202d3",
+  "c6_12": "f9f0afe4215b9f89",
+  "c6_13": "33df8296ccbb106e",
+  "c7": "098ae721d6bc03a9",
+  "c7_1": "19525d7ac783e374",
+  "c7_2": "eb9318a9f6289ba4",
+  "c7_3": "963602340e4919c0",
+  "hf_diagram": "e9475e4a9ae15fea",
+  "c7_4": "ce949de440399b77",
+  "c7_5": "6cdd9fb4e0c93833",
+  "c7_6": "10ee4f05d002290e",
+  "c7_7": "726019024c73c9bc",
+  "c7_8": "1935fd2cded6d59e",
+  "c7_9": "48c090c7c95ea7ed",
+  "c7_10": "ee295c789d6cd434",
+  "c8": "f11fa173d6fd825b",
+  "c8_1": "c915010b7a1afd97",
+  "c8_2": "876ca0a5645fc633",
+  "c8_3": "bc036729e2cbfbb9",
+  "c8_5": "e4fc2c6477272667",
+  "c8_6": "1031998eb39578c4",
+  "c8_7": "2d91cbf1942f80df",
+  "c9": "9ea4003830a6533d",
+  "c9_1": "6f58407a21274096",
+  "c9_2": "9a519b1e9fe2082f",
+  "c9_3": "f4a4c9cb0975a668",
+  "c9_4": "8c7b78efcf487e62",
+  "c9_5": "c2bbfd0807e09a70",
+  "c9_6": "0955f78753a073a6",
+  "c9_7": "d5deb1789bea11b5",
+  "c9_8": "70d59e249c28c30c",
+  "coda1": "e287335865313173",
+  "coda2": "148815c8dc63cdb7",
+  "coda3": "e27290c569eb6ff0",
+  "coda4": "04542bf3060b4730",
+  "bridge": "5f29b664574b8605",
+  "end": "af2ed742683fd46e"
+ },
+ "hf": {
+  "chart-altitude": {
+   "sha256": "78175f7a8bf2e0378ea4188dc3bcf774efcac59754a86eb940a99e99d8e437b3",
+   "rendered_at_frames": 555,
+   "duration": 18.47,
+   "accent": "#FF9500",
+   "mp4": "public/shorts/american587/video/hf_chart-altitude.mp4"
+  },
+  "chart-pedals": {
+   "sha256": "fa472ab9847d359a8ef3e01bed6e1ba5790867569915058f989f7a67d06d7806",
+   "rendered_at_frames": 573,
+   "duration": 19.1,
+   "accent": "#FF9500",
+   "mp4": "public/shorts/american587/video/hf_chart-pedals.mp4"
+  },
+  "diagram-mechanism": {
+   "sha256": "f6c847c899366892e321d2a5e15e42118cb4ccae5533855f903b387345974834",
+   "rendered_at_frames": 717,
+   "duration": 23.9,
+   "accent": "#FF9500",
+   "mp4": "public/shorts/american587/video/hf_diagram-mechanism.mp4"
+  },
+  "exhibit-techlog": {
+   "sha256": "b7fd0ad88a6bb95377d41fc587235e8814cb581cf4ac5c513bb7c87d8f731c6a",
+   "rendered_at_frames": 486,
+   "duration": 16.17,
+   "accent": "#FF9500",
+   "mp4": "public/shorts/american587/video/hf_exhibit-techlog.mp4"
+  },
+  "route-map": {
+   "sha256": "2d322e8d12a51a638374e299632aeae0ce194c928cbb54cce543e95fda316545",
+   "rendered_at_frames": 549,
+   "duration": 18.3,
+   "accent": "#FF9500",
+   "mp4": "public/shorts/american587/video/hf_route-map.mp4"
+  },
+  "timeline-flight": {
+   "sha256": "2755f1a8a68f326ee8c4b49cbd19a412cb4b38456e5a823d8fa7a0cdd4738966",
+   "rendered_at_frames": 501,
+   "duration": 16.7,
+   "accent": "#FF9500",
+   "mp4": "public/shorts/american587/video/hf_timeline-flight.mp4"
+  },
+  "title-chapter2": {
+   "sha256": "b79b99173add9e22e347f394c4b7a66bf00f66bc0e80778394fd9edd1346516d",
+   "rendered_at_frames": 366,
+   "duration": 12.17,
+   "accent": "#FF9500",
+   "mp4": "public/shorts/american587/video/hf_title-chapter2.mp4"
+  }
+ },
+ "assets": {
+  "fin_1.jpg": {
+   "source": "commons",
+   "title": "American Airlines Flight 587 vertical stabilizer.png",
+   "license": "Public domain (PD-USGov-NTSB)",
+   "lic_key": "pd",
+   "author": "NTSB",
+   "page": "https://commons.wikimedia.org/wiki/File:American_Airlines_Flight_587_vertical_stabilizer.png",
+   "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_Flight_587_vertical_stabilizer.png",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: the AA-liveried vertical stabilizer hanging from a crane over a barge marked US ARMY, recovered from Jamaica Bay, 2001. On-subject, in era.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "a300_1.jpg": {
+   "source": "commons",
+   "title": "American A300-600 N70873 at JFK (16998064588).jpg",
+   "license": "CC BY-SA 2.0",
+   "lic_key": "by-sa",
+   "author": "G B_NZ",
+   "page": "https://commons.wikimedia.org/wiki/File:American_A300-600_N70873_at_JFK_(16998064588).jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:American_A300-600_N70873_at_JFK_(16998064588).jpg",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: American Airlines A300-600 (N70873, sister ship, NOT N14053) on stand at JFK, 1994. TYPE shot \u2014 never caption as N14053.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "a300_2.jpg": {
+   "source": "commons",
+   "title": "American Airlines Airbus A300-600 inbound to John F. Kennedy International Airport.jpg",
+   "license": "Public domain (PD-self)",
+   "lic_key": "pd",
+   "author": "Eheik",
+   "page": "https://commons.wikimedia.org/wiki/File:American_Airlines_Airbus_A300-600_inbound_to_John_F._Kennedy_International_Airport.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_Airbus_A300-600_inbound_to_John_F._Kennedy_International_Airport.jpg",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: American A300-600 on approach to JFK, 2005 photo. TYPE shot, post-2001 \u2014 caption as the type only.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "a300_3.jpg": {
+   "source": "commons",
+   "title": "American Airlines 587 before takeoff.jpg",
+   "license": "Public domain (PD-USGov-NTSB)",
+   "lic_key": "pd",
+   "author": "NTSB (JFK construction-site camera)",
+   "page": "https://commons.wikimedia.org/wiki/File:American_Airlines_587_before_takeoff.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_587_before_takeoff.jpg",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: N14053 itself taxiing at JFK on Nov 12 2001 (construction-camera frame). Bottom cropped to remove the camcorder clock (not real time).",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "jfk_2.jpg": {
+   "source": "commons",
+   "title": "JFK Airport - USGS 8 April 1994.jpg",
+   "license": "Public domain (USGS)",
+   "lic_key": "pd",
+   "author": "United States Geological Survey",
+   "page": "https://commons.wikimedia.org/wiki/File:JFK_Airport_-_USGS_8_April_1994.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:JFK_Airport_-_USGS_8_April_1994.jpg",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: USGS black-and-white aerial of JFK airport runways/terminals, 1994. Real place, pre-2001.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "jfk_1.jpg": {
+   "source": "commons",
+   "title": "American Airlines 587 taxiing at NYC.jpg",
+   "license": "Public domain (PD-USGov-NTSB)",
+   "lic_key": "pd",
+   "author": "National Transportation Safety Board",
+   "page": "https://commons.wikimedia.org/wiki/File:American_Airlines_587_taxiing_at_NYC.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_587_taxiing_at_NYC.jpg",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: N14053 taxiing past the JFK control tower, Nov 12 2001 (construction camera). Clock cropped off.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "jfk_3.jpg": {
+   "source": "commons",
+   "title": "Airport architecture (3485789973).jpg",
+   "license": "CC BY-SA 2.0",
+   "lic_key": "by-sa",
+   "author": "Cory W. Watts",
+   "page": "https://commons.wikimedia.org/wiki/File:Airport_architecture_(3485789973).jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Airport_architecture_(3485789973).jpg",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: an American A300 at a JFK gate through terminal glass, 2009. TYPE/place shot, post-2001 \u2014 not N14053.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "toll_2.jpg": {
+   "source": "commons",
+   "title": "AA587 Tollbooth Video.JPG",
+   "license": "Public domain",
+   "lic_key": "pd",
+   "author": "Triborough Bridge and Tunnel Authority (via NTSB)",
+   "page": "https://commons.wikimedia.org/wiki/File:AA587_Tollbooth_Video.JPG",
+   "url": "https://commons.wikimedia.org/wiki/File:AA587_Tollbooth_Video.JPG",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: TBTA security-camera still, white circle marking the falling aircraft above the toll-plaza lanes, Nov 12 2001.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "toll_1.jpg": {
+   "source": "commons",
+   "title": "American Airlines Flight 587 Toll Booth video.ogv",
+   "license": "Public domain (PD-USGov-NTSB)",
+   "lic_key": "pd",
+   "author": "Triborough Bridge and Tunnel Authority (via NTSB)",
+   "page": "https://commons.wikimedia.org/wiki/File:American_Airlines_Flight_587_Toll_Booth_video.ogv",
+   "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_Flight_587_Toll_Booth_video.ogv",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: frame at src 33.5s of the TBTA tape \u2014 camera 16 N. PARKING LOT, yellow circle on the smoke rising over Belle Harbor, PEXT inset. Still extracted from the PD video.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "finwreck_1.jpg": {
+   "source": "faa",
+   "title": "FAA Lessons Learned N14053: Fin Attachment Points on Wreckage - NTSB Photo",
+   "license": "Public domain (US government work, NTSB photo credited on FAA page)",
+   "lic_key": "pd",
+   "author": "NTSB photo, via FAA Lessons Learned",
+   "page": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/N14053",
+   "url": "https://www.faa.gov/sites/faa.gov/files/images/lessons_learned/N14053/fin_attach_points_on_wreckage.jpg",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: the fuselage-side fin attachment fittings on the main wreckage amid debris, Belle Harbor 2001.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "finwreck_2.jpg": {
+   "source": "ntsb",
+   "title": "NTSB docket DCA02MA001 Exhibit 15A (Materials Laboratory) Figure 29: Overall views of the vertical stabilizer trailing edge",
+   "license": "Public domain (US government work, NTSB)",
+   "lic_key": "pd",
+   "author": "NTSB Materials Laboratory",
+   "page": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=1161199&FileExtension=pdf&FileName=Materials%20Laboratory%2015-Exhibit%2015A%20Selected%20Photographs%20and%20Drawings%20of%20the%20Damage%20Areas%20on%20the%20Fin%20and%20Rudder-Master.pdf",
+   "url": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=1161199&FileExtension=pdf&FileName=Materials%20Laboratory%2015-Exhibit%2015A%20Selected%20Photographs%20and%20Drawings%20of%20the%20Damage%20Areas%20on%20the%20Fin%20and%20Rudder-Master.pdf",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: the recovered fin's trailing edge laid out in an examination hangar, 2001-02.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "finwreck_3.jpg": {
+   "source": "ntsb",
+   "title": "NTSB docket DCA02MA001 Exhibit 15A (Materials Laboratory) Figure 29: Overall views of the vertical stabilizer trailing edge (second view)",
+   "license": "Public domain (US government work, NTSB)",
+   "lic_key": "pd",
+   "author": "NTSB Materials Laboratory",
+   "page": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=1161199&FileExtension=pdf&FileName=Materials%20Laboratory%2015-Exhibit%2015A%20Selected%20Photographs%20and%20Drawings%20of%20the%20Damage%20Areas%20on%20the%20Fin%20and%20Rudder-Master.pdf",
+   "url": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=1161199&FileExtension=pdf&FileName=Materials%20Laboratory%2015-Exhibit%2015A%20Selected%20Photographs%20and%20Drawings%20of%20the%20Damage%20Areas%20on%20the%20Fin%20and%20Rudder-Master.pdf",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: second panoramic view of the fin trailing edge with hinge fittings, examination hangar.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "lug_1.jpg": {
+   "source": "ntsb",
+   "title": "NTSB docket DCA02MA001 Exhibit 15A (Materials Laboratory) Figure 16: View of the right forward longitudinal lug on the vertical stabilizer",
+   "license": "Public domain (US government work, NTSB)",
+   "lic_key": "pd",
+   "author": "NTSB Materials Laboratory",
+   "page": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=1161199&FileExtension=pdf&FileName=Materials%20Laboratory%2015-Exhibit%2015A%20Selected%20Photographs%20and%20Drawings%20of%20the%20Damage%20Areas%20on%20the%20Fin%20and%20Rudder-Master.pdf",
+   "url": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=1161199&FileExtension=pdf&FileName=Materials%20Laboratory%2015-Exhibit%2015A%20Selected%20Photographs%20and%20Drawings%20of%20the%20Damage%20Areas%20on%20the%20Fin%20and%20Rudder-Master.pdf",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: close-up of a fractured fin attachment lug (right forward), composite fracture.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "lug_2.jpg": {
+   "source": "ntsb",
+   "title": "NTSB docket DCA02MA001 Exhibit 15A (Materials Laboratory) Figure 12: View of the right aft longitudinal lug on the vertical stabilizer",
+   "license": "Public domain (US government work, NTSB)",
+   "lic_key": "pd",
+   "author": "NTSB Materials Laboratory",
+   "page": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=1161199&FileExtension=pdf&FileName=Materials%20Laboratory%2015-Exhibit%2015A%20Selected%20Photographs%20and%20Drawings%20of%20the%20Damage%20Areas%20on%20the%20Fin%20and%20Rudder-Master.pdf",
+   "url": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=1161199&FileExtension=pdf&FileName=Materials%20Laboratory%2015-Exhibit%2015A%20Selected%20Photographs%20and%20Drawings%20of%20the%20Damage%20Areas%20on%20the%20Fin%20and%20Rudder-Master.pdf",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: right AFT (rear) lug \u2014 the one that failed first \u2014 with lug hole and fracture.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "lug_3.jpg": {
+   "source": "ntsb",
+   "title": "NTSB docket DCA02MA001 Exhibit 15A (Materials Laboratory) Figure 13: Another view of the right aft longitudinal lug after the piece of rib 1 was removed",
+   "license": "Public domain (US government work, NTSB)",
+   "lic_key": "pd",
+   "author": "NTSB Materials Laboratory",
+   "page": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=1161199&FileExtension=pdf&FileName=Materials%20Laboratory%2015-Exhibit%2015A%20Selected%20Photographs%20and%20Drawings%20of%20the%20Damage%20Areas%20on%20the%20Fin%20and%20Rudder-Master.pdf",
+   "url": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=1161199&FileExtension=pdf&FileName=Materials%20Laboratory%2015-Exhibit%2015A%20Selected%20Photographs%20and%20Drawings%20of%20the%20Damage%20Areas%20on%20the%20Fin%20and%20Rudder-Master.pdf",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: right aft lug fracture surface from above \u2014 matches c4_8 cap 'right rear lug failed first'.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "lug_4.jpg": {
+   "source": "ntsb",
+   "title": "NTSB docket DCA02MA001 Exhibit 15A (Materials Laboratory) Figure 14: View of the right center longitudinal lug area on the vertical stabilizer",
+   "license": "Public domain (US government work, NTSB)",
+   "lic_key": "pd",
+   "author": "NTSB Materials Laboratory",
+   "page": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=1161199&FileExtension=pdf&FileName=Materials%20Laboratory%2015-Exhibit%2015A%20Selected%20Photographs%20and%20Drawings%20of%20the%20Damage%20Areas%20on%20the%20Fin%20and%20Rudder-Master.pdf",
+   "url": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=1161199&FileExtension=pdf&FileName=Materials%20Laboratory%2015-Exhibit%2015A%20Selected%20Photographs%20and%20Drawings%20of%20the%20Damage%20Areas%20on%20the%20Fin%20and%20Rudder-Master.pdf",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: right center lug area, delaminated/torn composite.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "rudder_1.jpg": {
+   "source": "ntsb",
+   "title": "NTSB docket DCA02MA001 Exhibit 15A (Materials Laboratory) Figure 46: Overall view of the right side of the rudder",
+   "license": "Public domain (US government work, NTSB)",
+   "lic_key": "pd",
+   "author": "NTSB Materials Laboratory",
+   "page": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=1161199&FileExtension=pdf&FileName=Materials%20Laboratory%2015-Exhibit%2015A%20Selected%20Photographs%20and%20Drawings%20of%20the%20Damage%20Areas%20on%20the%20Fin%20and%20Rudder-Master.pdf",
+   "url": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=1161199&FileExtension=pdf&FileName=Materials%20Laboratory%2015-Exhibit%2015A%20Selected%20Photographs%20and%20Drawings%20of%20the%20Damage%20Areas%20on%20the%20Fin%20and%20Rudder-Master.pdf",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: the recovered rudder, right side, laid on the floor (portrait). Rotated 90deg to landscape (top-down floor photo, no horizon) for the portrait gate.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "rudder_2.jpg": {
+   "source": "faa",
+   "title": "FAA Lessons Learned N14053: One of the Failed Rudder Attachment Points - NTSB Photo",
+   "license": "Public domain (US government work, NTSB photo credited on FAA page)",
+   "lic_key": "pd",
+   "author": "NTSB photo, via FAA Lessons Learned",
+   "page": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/N14053",
+   "url": "https://www.faa.gov/sites/faa.gov/files/images/lessons_learned/N14053/failed_rudder_pts.jpg",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: rudder skin torn at number 5 rudder attach point; FAA's white annotation text burned in at bottom.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "rudder_3.jpg": {
+   "source": "faa",
+   "title": "FAA Lessons Learned N14053: Portion of Rudder from Wreckage - NTSB Photo",
+   "license": "Public domain (US government work, NTSB photo credited on FAA page)",
+   "lic_key": "pd",
+   "author": "NTSB photo, via FAA Lessons Learned",
+   "page": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/N14053",
+   "url": "https://www.faa.gov/sites/faa.gov/files/images/lessons_learned/N14053/rudder_fracture.jpg",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: rudder section with orange honeycomb exposed along a straight fracture line; FAA annotation text burned in top-right.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "site_1.jpg": {
+   "source": "commons",
+   "title": "American Airlines Flight 587 accident site.jpg",
+   "license": "Public domain (PD-USGov-FAA)",
+   "lic_key": "pd",
+   "author": "FAA",
+   "page": "https://commons.wikimedia.org/wiki/File:American_Airlines_Flight_587_accident_site.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_Flight_587_accident_site.jpg",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: responders working in burned wreckage beside a house, Belle Harbor ground scene, Nov 2001. Commons description mis-describes it; it IS the ground scene (CLAIMS correction #26).",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "site_3.jpg": {
+   "source": "commons",
+   "title": "Belleh loz 137-3714 IMG.jpg",
+   "license": "CC BY 4.0",
+   "lic_key": "by",
+   "author": "Alex Lozupone",
+   "page": "https://commons.wikimedia.org/wiki/File:Belleh_loz_137-3714_IMG.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Belleh_loz_137-3714_IMG.jpg",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: fire-gutted house at dusk on a Belle Harbor street; EXIF 2001-11-22 (10 days after). Aftermath, in era.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "site_2.jpg": {
+   "source": "commons",
+   "title": "Belleh loz 137-3708 IMG.jpg",
+   "license": "CC BY 4.0",
+   "lic_key": "by",
+   "author": "Alex Lozupone",
+   "page": "https://commons.wikimedia.org/wiki/File:Belleh_loz_137-3708_IMG.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Belleh_loz_137-3708_IMG.jpg",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: burned-out vehicle with green spray-paint search mark, lumber in front; EXIF 2001-11-22, Belle Harbor crash site.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "noaa_1.jpg": {
+   "source": "commons",
+   "title": "Flight 587 NOAA Photo of Crash Site.jpg",
+   "license": "Public domain (PD-USGov-NOAA)",
+   "lic_key": "pd",
+   "author": "NOAA",
+   "page": "https://commons.wikimedia.org/wiki/File:Flight_587_NOAA_Photo_of_Crash_Site.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Flight_587_NOAA_Photo_of_Crash_Site.jpg",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: oblique aerial of the Belle Harbor blocks with the burned crash site in the middle, Nov 13 2001.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "gasstation_1.jpg": {
+   "source": "faa",
+   "title": "FAA Lessons Learned N14053: Left engine from AA587 (remote from main wreckage) - NTSB Docket Photo",
+   "license": "Public domain (US government work, NTSB photo credited on FAA page)",
+   "lic_key": "pd",
+   "author": "NTSB photo, via FAA Lessons Learned",
+   "page": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/N14053",
+   "url": "https://www.faa.gov/sites/faa.gov/files/images/lessons_learned/N14053/engine_at_gas_station.jpg",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: the left engine wreckage on a gas-station forecourt at night, police officer standing by.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "recovery_1.jpg": {
+   "source": "dvids",
+   "title": "FLIGHT 587 CRASH (DVIDS 1070436)",
+   "license": "Public domain (US government work, DVIDS)",
+   "lic_key": "pd",
+   "author": "PA3 Michael Hvozda, U.S. Coast Guard",
+   "page": "https://www.dvidshub.net/image/1070436/flight-587-crash",
+   "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1312/1070436/2000w_q95.jpg",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: the fin on a US Army Corps barge, crane lines attached, tugs alongside, Nov 12 2001.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "recovery_2.jpg": {
+   "source": "ntsb",
+   "title": "NTSB docket DCA02MA001 Exhibit 15A (Materials Laboratory) Figure 4: Another recovery photo showing the right side of the vertical stabilizer",
+   "license": "Public domain (US government work, NTSB)",
+   "lic_key": "pd",
+   "author": "NTSB Materials Laboratory",
+   "page": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=1161199&FileExtension=pdf&FileName=Materials%20Laboratory%2015-Exhibit%2015A%20Selected%20Photographs%20and%20Drawings%20of%20the%20Damage%20Areas%20on%20the%20Fin%20and%20Rudder-Master.pdf",
+   "url": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=1161199&FileExtension=pdf&FileName=Materials%20Laboratory%2015-Exhibit%2015A%20Selected%20Photographs%20and%20Drawings%20of%20the%20Damage%20Areas%20on%20the%20Fin%20and%20Rudder-Master.pdf",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: the fin being lowered by crane onto a pier beside a tug, onlookers, Nov 2001.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "recovery_3.jpg": {
+   "source": "dvids",
+   "title": "FLIGHT 587 CRASH (DVIDS 1070467)",
+   "license": "Public domain (US government work, DVIDS)",
+   "lic_key": "pd",
+   "author": "PA3 Michael Hvozda, U.S. Coast Guard",
+   "page": "https://www.dvidshub.net/image/1070467/flight-587-crash",
+   "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1312/1070467/2000w_q95.jpg",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: tail-section pieces on a Coast Guard pier, responders in orange, Marine Parkway bridge behind, Nov 12 2001. Re-cropped to landscape 2000x1500 (lower part: tail pieces on the pier) for the portrait gate.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "langley_1.jpg": {
+   "source": "commons",
+   "title": "Marion Blakey AA587.jpg",
+   "license": "Public domain (PD-USGov-NASA)",
+   "lic_key": "pd",
+   "author": "Jeff Caplan (NASA)",
+   "page": "https://commons.wikimedia.org/wiki/File:Marion_Blakey_AA587.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Marion_Blakey_AA587.jpg",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: NTSB Chairman Marion Blakey and staff examining the fin at NASA Langley, 11 Feb 2002 \u2014 caption as the later inspection, never the Nov 12 briefing. Re-cropped to landscape 400x300 (rows 60-360: officials + fin) for the portrait gate.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "langley_2.jpg": {
+   "source": "ntsb",
+   "title": "NTSB docket DCA02MA001 Exhibit 15A (Materials Laboratory) Figure 9: Overall view of the vertical stabilizer as it was examined at NASA Langley",
+   "license": "Public domain (US government work, NTSB)",
+   "lic_key": "pd",
+   "author": "NTSB Materials Laboratory",
+   "page": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=1161199&FileExtension=pdf&FileName=Materials%20Laboratory%2015-Exhibit%2015A%20Selected%20Photographs%20and%20Drawings%20of%20the%20Damage%20Areas%20on%20the%20Fin%20and%20Rudder-Master.pdf",
+   "url": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=1161199&FileExtension=pdf&FileName=Materials%20Laboratory%2015-Exhibit%2015A%20Selected%20Photographs%20and%20Drawings%20of%20the%20Damage%20Areas%20on%20the%20Fin%20and%20Rudder-Master.pdf",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: the whole recovered fin standing in the NASA Langley lab, US flag and AA logo visible. Re-cropped to landscape 1050x788 (rows 240-1028) for the portrait gate.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "memorial_1.jpg": {
+   "source": "commons",
+   "title": "Despues no quiero mas que paz Flight 587 jeh.jpg",
+   "license": "CC0",
+   "lic_key": "cc0",
+   "author": "Jim.henderson",
+   "page": "https://commons.wikimedia.org/wiki/File:Despues_no_quiero_mas_que_paz_Flight_587_jeh.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Despues_no_quiero_mas_que_paz_Flight_587_jeh.jpg",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: the curved Flight 587 memorial wall with doorway, Rockaway Park, 2012. Present-day memorial (aftermath).",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "rockawaypark_1.jpg": {
+   "source": "commons",
+   "title": "Rockaway Park - 1 (3478148838).jpg",
+   "license": "CC BY-SA 2.0",
+   "lic_key": "by-sa",
+   "author": "Kai Brinker",
+   "page": "https://commons.wikimedia.org/wiki/File:Rockaway_Park_-_1_(3478148838).jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Rockaway_Park_-_1_(3478148838).jpg",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: Flight 587 memorial plaza at Beach 116th St, Rockaway Park, 2009.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "rockawaypark_2.jpg": {
+   "source": "commons",
+   "title": "Rockaway Park - 2 (3478152288).jpg",
+   "license": "CC BY-SA 2.0",
+   "lic_key": "by-sa",
+   "author": "Kai Brinker",
+   "page": "https://commons.wikimedia.org/wiki/File:Rockaway_Park_-_2_(3478152288).jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Rockaway_Park_-_2_(3478152288).jpg",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: memorial plaza with 'FLIGHT 587 MEMORIAL' lettering on the planter wall, 2009.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "rockawaypark_3.jpg": {
+   "source": "commons",
+   "title": "Rockaway Park - 4 (3478158998).jpg",
+   "license": "CC BY-SA 2.0",
+   "lic_key": "by-sa",
+   "author": "Kai Brinker",
+   "page": "https://commons.wikimedia.org/wiki/File:Rockaway_Park_-_4_(3478158998).jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Rockaway_Park_-_4_(3478158998).jpg",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: boardwalk edge at the memorial facing the Atlantic, two distant figures, 2009.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "inscription_1.jpg": {
+   "source": "commons",
+   "title": "Flight 587 inscription jeh.jpg",
+   "license": "CC0",
+   "lic_key": "cc0",
+   "author": "Jim.henderson",
+   "page": "https://commons.wikimedia.org/wiki/File:Flight_587_inscription_jeh.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Flight_587_inscription_jeh.jpg",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Seen: inscribed names panel on the memorial wall, 2012.",
+    "at": "2026-10-24T09:51:55Z"
+   },
+   "origin": "provenance"
+  },
+  "aar_p24.png": {
+   "source": "ntsb",
+   "title": "NTSB AAR-04/04 printed p.24 (PDF p.38) \u2014 \u00a71.6.2.2 Airbus Changes to the A300-600 Rudder Control System Design",
+   "license": "Public domain (US government work, 17 U.S.C. 105)",
+   "lic_key": "pd",
+   "author": "NTSB",
+   "page": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR0404.pdf",
+   "url": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR0404.pdf",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Rendered page; footer/header reads 'Factual Information 24'. Highlight on 'Airbus made two changes' sentence, measured with pdftotext -bbox and eyeballed.",
+    "at": "2026-10-24T09:56:13Z"
+   },
+   "origin": "provenance"
+  },
+  "aar_p26.png": {
+   "source": "ntsb",
+   "title": "NTSB AAR-04/04 printed p.26 (PDF p.40) \u2014 rudder pedal sensitivity, figure 8",
+   "license": "Public domain (US government work, 17 U.S.C. 105)",
+   "lic_key": "pd",
+   "author": "NTSB",
+   "page": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR0404.pdf",
+   "url": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR0404.pdf",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Header reads 26. Highlight on 'twice as responsive ... 250 knots KCAS than at 165 KCAS', eyeballed.",
+    "at": "2026-10-24T09:56:13Z"
+   },
+   "origin": "provenance"
+  },
+  "aar_p87.png": {
+   "source": "ntsb",
+   "title": "NTSB AAR-04/04 printed p.87 (PDF p.101) \u2014 \u00a71.17.1.2.5 Comments on the Program (May 22/23 1997 letters)",
+   "license": "Public domain (US government work, 17 U.S.C. 105)",
+   "lic_key": "pd",
+   "author": "NTSB",
+   "page": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR0404.pdf",
+   "url": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR0404.pdf",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Header reads 87. Highlight on the May 23 facsimile 'shared the ... concern' sentence, eyeballed.",
+    "at": "2026-10-24T09:56:13Z"
+   },
+   "origin": "provenance"
+  },
+  "aar_memo.png": {
+   "source": "ntsb",
+   "title": "NTSB AAR-04/04 printed p.88 (PDF p.102) \u2014 the May 27, 1997 memo and its Feb 6, 2003 submission",
+   "license": "Public domain (US government work, 17 U.S.C. 105)",
+   "lic_key": "pd",
+   "author": "NTSB",
+   "page": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR0404.pdf",
+   "url": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR0404.pdf",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Header reads 88. Two highlights (Feb 6 2003 line; grave concerns/exceptionally dangerous lines), eyeballed.",
+    "at": "2026-10-24T09:56:13Z"
+   },
+   "origin": "provenance"
+  },
+  "aar_cause.png": {
+   "source": "ntsb",
+   "title": "NTSB AAR-04/04 printed p.160 (PDF p.174) \u2014 \u00a73.2 Probable Cause + footnote 211",
+   "license": "Public domain (US government work, 17 U.S.C. 105)",
+   "lic_key": "pd",
+   "author": "NTSB",
+   "page": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR0404.pdf",
+   "url": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR0404.pdf",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Header reads 160. Highlights on probable-cause sentence and contributing-factors sentence, eyeballed.",
+    "at": "2026-10-24T09:56:13Z"
+   },
+   "origin": "provenance"
+  },
+  "aar_carmody.png": {
+   "source": "ntsb",
+   "title": "NTSB AAR-04/04 printed p.165 (PDF p.179) \u2014 Board Member Statements, Member Carol J. Carmody",
+   "license": "Public domain (US government work, 17 U.S.C. 105)",
+   "lic_key": "pd",
+   "author": "NTSB",
+   "page": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR0404.pdf",
+   "url": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR0404.pdf",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Header reads 165. Highlights on staff-draft order sentence and 'To diminish the role of the AAMP ...' passage, eyeballed.",
+    "at": "2026-10-24T09:56:13Z"
+   },
+   "origin": "provenance"
+  },
+  "cvr_p27.png": {
+   "source": "commons",
+   "title": "NTSB CVR Group Chairman's Factual Report transcript, page '27 of 28' (Commons PDF p.34)",
+   "license": "Public domain (US government work, 17 U.S.C. 105)",
+   "lic_key": "pd",
+   "author": "NTSB",
+   "page": "https://commons.wikimedia.org/wiki/File:American_Airlines_Flight_587_CVR_transcript.pdf",
+   "url": "https://commons.wikimedia.org/wiki/File:American_Airlines_Flight_587_CVR_transcript.pdf",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Page header reads '27 of 28'; highlight on '0915:58.5 CAM [sound of loud bang]', eyeballed.",
+    "at": "2026-10-24T09:56:13Z"
+   },
+   "origin": "provenance"
+  },
+  "aamp_booklet.png": {
+   "source": "ntsb",
+   "title": "NTSB docket DCA02MA001 Operations 2 Attachment I \u2014 Excerpts from the AAMP Flight Training Course Material, PDF p.13 (booklet p.16, dated 1/1/97), upper booklet page rotated upright",
+   "license": "Documentary exhibit from the NTSB public docket (American Airlines training material; reproduced by NTSB) \u2014 not US-gov authored",
+   "lic_key": "unknown",
+   "author": "American Airlines (via NTSB public docket)",
+   "page": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=1161089&FileExtension=pdf&FileName=Operations%202-Attachment%20I-Excerpts%20from%20the%20AAMP%20Flight%20Training%20Course%20Material-Master.pdf",
+   "url": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=1161089&FileExtension=pdf&FileName=Operations%202-Attachment%20I-Excerpts%20from%20the%20AAMP%20Flight%20Training%20Course%20Material-Master.pdf",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Scanned booklet page 'Aerodynamic Definitions \u2014 Dihedral Effect (3)', footer '1/1/97 -16-', 'THE RUDDER becomes the most effective roll control'. NOTE licence: an American Airlines training document reproduced in the NTSB public docket \u2014 used as a documentary exhibit (fair-use excerpt), not US-gov authored. Cropped to the upper booklet panel (825x600) so non-exhibit scenes are landscape.",
+    "at": "2026-10-24T09:56:13Z"
+   },
+   "origin": "provenance"
+  },
+  "fedreg_ad.png": {
+   "source": "govinfo",
+   "title": "Federal Register Vol. 77 No. 218, Nov 9 2012, p. 67260 \u2014 AD 2012-21-15 (FR Doc 2012-26963, PDF p.5)",
+   "license": "Public domain (US government work, 17 U.S.C. 105)",
+   "lic_key": "pd",
+   "author": "FAA / Office of the Federal Register",
+   "page": "https://www.govinfo.gov/content/pkg/FR-2012-11-09/pdf/2012-26963.pdf",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2012-11-09/pdf/2012-26963.pdf",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Header reads 67260; highlights on 'in response to SRs A-04-058, A-04-044, A-04-063' and '215 airplanes of U.S. registry', eyeballed.",
+    "at": "2026-10-24T09:56:13Z"
+   },
+   "origin": "provenance"
+  },
+  "hres870.png": {
+   "source": "congress",
+   "title": "H.Res.870, 119th Congress, introduced Nov 10, 2025 \u2014 page 1",
+   "license": "Public domain (US government work, 17 U.S.C. 105)",
+   "lic_key": "pd",
+   "author": "U.S. House of Representatives (GPO)",
+   "page": "https://www.congress.gov/119/bills/hres870/BILLS-119hres870ih.pdf",
+   "url": "https://www.congress.gov/119/bills/hres870/BILLS-119hres870ih.pdf",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Page 1 title block; highlight on 'IN THE HOUSE OF REPRESENTATIVES / NOVEMBER 10, 2025', measured by ink profile, eyeballed.",
+    "at": "2026-10-24T09:56:13Z"
+   },
+   "origin": "provenance"
+  }
+ },
+ "videos": {
+  "tollbooth_1.mp4": {
+   "source": "commons",
+   "title": "American Airlines Flight 587 Toll Booth video.ogv",
+   "license": "Public domain (US government work, 17 U.S.C. 105; NTSB docket DCA02MA001 item 208)",
+   "lic_key": "pd",
+   "author": "Triborough Bridge and Tunnel Authority security camera, via NTSB",
+   "page": "https://commons.wikimedia.org/wiki/File:American_Airlines_Flight_587_Toll_Booth_video.ogv",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/American_Airlines_Flight_587_Toll_Booth_video.ogv",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Frames 0/3/6/9/12/15/18s: TBTA 'LANE 1 EXT' camera 11/12/01, white circle tracks the aircraft dot L->R over the toll-plaza roof (0-6.9s); from 6.9s NTSB's red-bordered inset of camera PEXT R006 shows the descending dot. Real 2001 PD, subject = AA587.",
+    "at": "2026-10-24T09:43:20Z"
+   },
+   "origin": "provenance"
+  },
+  "tollbooth_2.mp4": {
+   "source": "commons",
+   "title": "American Airlines Flight 587 Toll Booth video.ogv",
+   "license": "Public domain (US government work, 17 U.S.C. 105; NTSB docket DCA02MA001 item 208)",
+   "lic_key": "pd",
+   "author": "Triborough Bridge and Tunnel Authority security camera, via NTSB",
+   "page": "https://commons.wikimedia.org/wiki/File:American_Airlines_Flight_587_Toll_Booth_video.ogv",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/American_Airlines_Flight_587_Toll_Booth_video.ogv",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Frames 0/3/6/9/12s: crop of the NTSB inset (camera PEXT R006, 09:16:46-09:16:58 on its clock) \u2014 white circle on the falling aircraft/streak against the sky above the building, 6-12s. Real 2001 PD.",
+    "at": "2026-10-24T09:43:20Z"
+   },
+   "origin": "provenance"
+  },
+  "tollbooth_3.mp4": {
+   "source": "commons",
+   "title": "American Airlines Flight 587 Toll Booth video.ogv",
+   "license": "Public domain (US government work, 17 U.S.C. 105; NTSB docket DCA02MA001 item 208)",
+   "lic_key": "pd",
+   "author": "Triborough Bridge and Tunnel Authority security camera, via NTSB",
+   "page": "https://commons.wikimedia.org/wiki/File:American_Airlines_Flight_587_Toll_Booth_video.ogv",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/American_Airlines_Flight_587_Toll_Booth_video.ogv",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Frames 0/3/6/9/12s: camera '16 N. PARKING LOT' overview of the Rockaways rooftops, yellow circle on the smoke plume rising on the horizon (grows 3-15s), PEXT inset still in corner. Real 2001 PD.",
+    "at": "2026-10-24T09:43:20Z"
+   },
+   "origin": "provenance"
+  },
+  "takeoff_1.mp4": {
+   "source": "commons",
+   "title": "American Airlines Flight 587 takeoff.ogv",
+   "license": "Public domain (US government work, 17 U.S.C. 105; NTSB docket DCA02MA001 item 208)",
+   "lic_key": "pd",
+   "author": "JFK construction-site camera (video by construction workers), via NTSB",
+   "page": "https://commons.wikimedia.org/wiki/File:American_Airlines_Flight_587_takeoff.ogv",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/American_Airlines_Flight_587_takeoff.ogv",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Frames 0/3/6/9/12/15/18/21/24s: American A300 taxiing (0s, = Commons 'before takeoff' still), wide field views of JFK runways, two workers walking past ~8-9.5s (small, unidentifiable), then the A300 takeoff roll past the JFK tower 10-24s. Real Nov 12 2001 PD; on-screen camcorder clock (not real time, docket item 208) CROPPED OUT.",
+    "at": "2026-10-24T09:43:20Z"
+   },
+   "origin": "provenance"
+  },
+  "takeoff_2.mp4": {
+   "source": "commons",
+   "title": "American Airlines Flight 587 takeoff.ogv",
+   "license": "Public domain (US government work, 17 U.S.C. 105; NTSB docket DCA02MA001 item 208)",
+   "lic_key": "pd",
+   "author": "JFK construction-site camera (video by construction workers), via NTSB",
+   "page": "https://commons.wikimedia.org/wiki/File:American_Airlines_Flight_587_takeoff.ogv",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/American_Airlines_Flight_587_takeoff.ogv",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Frames 0/3/6/9/12/15/18/21/24s: end of roll past tower (0-6s), A300 climbing away in haze (7-12s), field pan (12-16s), group of construction workers at a pickup (16.5-18.6s, low-res), black smoke plume rising over Jamaica Bay/Belle Harbor (18.6-26.7s). Real Nov 12 2001 PD; camcorder clock cropped out.",
+    "at": "2026-10-24T09:43:20Z"
+   },
+   "origin": "provenance"
+  },
+  "ntsbanim_1.mp4": {
+   "source": "commons",
+   "title": "American Airlines Flight 587 Accident animation.ogv",
+   "license": "Public domain (US government work, 17 U.S.C. 105; NTSB docket DCA02MA001 item 208)",
+   "lic_key": "pd",
+   "author": "NTSB (3D reconstruction from FDR/CVR data)",
+   "page": "https://commons.wikimedia.org/wiki/File:American_Airlines_Flight_587_Accident_animation.ogv",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/American_Airlines_Flight_587_Accident_animation.ogv",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Frames 0-24s: NTSB reconstruction, A300 climbing over Jamaica Bay, instrument panel 09:15:24-09:15:49 (1493-2324 ft), FDR pedal/rudder boxes; CVR text 'DEP: 587 heavy, turn left', 'CAM [sound of brief squeak and a rattle]' (9:15:36 first wake), 'CAPT: little wake turbulence, huh?'. RECONSTRUCTION, labelled by cap.",
+    "at": "2026-10-24T09:43:20Z"
+   },
+   "origin": "provenance"
+  },
+  "ntsbanim_2.mp4": {
+   "source": "commons",
+   "title": "American Airlines Flight 587 Accident animation.ogv",
+   "license": "Public domain (US government work, 17 U.S.C. 105; NTSB docket DCA02MA001 item 208)",
+   "lic_key": "pd",
+   "author": "NTSB (3D reconstruction from FDR/CVR data)",
+   "page": "https://commons.wikimedia.org/wiki/File:American_Airlines_Flight_587_Accident_animation.ogv",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/American_Airlines_Flight_587_Accident_animation.ogv",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Frames 0-21s: reconstruction 09:15:38-09:15:59 \u2014 pedal/rudder trace boxes swinging, 'two thumps', 'yea I'm fine / hang on to it', 'let's go for power please / loud thump / loud bang' at 21s (09:15:59). RECONSTRUCTION.",
+    "at": "2026-10-24T09:43:20Z"
+   },
+   "origin": "provenance"
+  },
+  "ntsbanim_3.mp4": {
+   "source": "commons",
+   "title": "American Airlines Flight 587 Accident animation.ogv",
+   "license": "Public domain (US government work, 17 U.S.C. 105; NTSB docket DCA02MA001 item 208)",
+   "lic_key": "pd",
+   "author": "NTSB (3D reconstruction from FDR/CVR data)",
+   "page": "https://commons.wikimedia.org/wiki/File:American_Airlines_Flight_587_Accident_animation.ogv",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/American_Airlines_Flight_587_Accident_animation.ogv",
+   "verify": {
+    "status": "verified",
+    "verdict": "MATCH",
+    "model": "human-eyeball",
+    "note": "Frames 0/3/6/9/12s: reconstruction 09:15:54-09:16:00 \u2014 'max power [strained voice]', loud thump, loud bang, fin-less airplane yawing/falling, 'End of DFDR Data'; from ~8s NTSB's own CVR text cards on black ('roaring noise decreases and ends', ['Streak' in tollbooth video occurs]); 2.7s fully black 9.7-12.4s. RECONSTRUCTION.",
+    "at": "2026-10-24T09:43:20Z"
+   },
+   "origin": "provenance"
+  },
+  "hf_chart-altitude.mp4": {
+   "source": "hyperframes",
+   "license": "code-rendered",
+   "origin": "provenance",
+   "verify": {
+    "status": "generated"
+   },
+   "lic_key": "generated"
+  },
+  "hf_chart-pedals.mp4": {
+   "source": "hyperframes",
+   "license": "code-rendered",
+   "origin": "provenance",
+   "verify": {
+    "status": "generated"
+   },
+   "lic_key": "generated"
+  },
+  "hf_diagram-mechanism.mp4": {
+   "source": "hyperframes",
+   "license": "code-rendered",
+   "origin": "provenance",
+   "verify": {
+    "status": "generated"
+   },
+   "lic_key": "generated"
+  },
+  "hf_exhibit-techlog.mp4": {
+   "source": "hyperframes",
+   "license": "code-rendered",
+   "origin": "provenance",
+   "verify": {
+    "status": "generated"
+   },
+   "lic_key": "generated"
+  },
+  "hf_route-map.mp4": {
+   "source": "hyperframes",
+   "license": "code-rendered",
+   "origin": "provenance",
+   "verify": {
+    "status": "generated"
+   },
+   "lic_key": "generated"
+  },
+  "hf_timeline-flight.mp4": {
+   "source": "hyperframes",
+   "license": "code-rendered",
+   "origin": "provenance",
+   "verify": {
+    "status": "generated"
+   },
+   "lic_key": "generated"
+  },
+  "hf_title-chapter2.mp4": {
+   "source": "hyperframes",
+   "license": "code-rendered",
+   "origin": "provenance",
+   "verify": {
+    "status": "generated"
+   },
+   "lic_key": "generated"
+  }
+ }
+}

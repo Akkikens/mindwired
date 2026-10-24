@@ -113,6 +113,8 @@ import swissair111Doc from "./mindwired-doc/docs/swissair111.json";
 import swissair111Manifest from "./mindwired-doc/docs/swissair111.manifest.json";
 import challengerdisasterDoc from "./mindwired-doc/docs/challengerdisaster.json";
 import challengerdisasterManifest from "./mindwired-doc/docs/challengerdisaster.manifest.json";
+import american587Doc from "./mindwired-doc/docs/american587.json";
+import american587Manifest from "./mindwired-doc/docs/american587.manifest.json";
 import costaconcordiaManifest from "./mindwired-doc/docs/costaconcordia.manifest.json";
 import area51Doc from "./mindwired-doc/docs/area51.json";
 import area51Manifest from "./mindwired-doc/docs/area51.manifest.json";
@@ -1948,6 +1950,26 @@ export const RemotionRoot: React.FC = () => {
         id="ChallengerDisasterDoc"
         component={makeDocComp(challengerdisasterDoc as any, challengerdisasterManifest as any, BB_OUTRO)}
         durationInFrames={docTotalFrames(challengerdisasterDoc as any, challengerdisasterManifest as any, BB_OUTRO)}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* ── American Airlines 587 (Nov 12, 2001) — Black Box Breakdown, the
+             PROOF EPISODE of the 2027 pipeline revamp (docs/planning/
+             BLACKBOX-2027-REVAMP.md §6): first episode with `hf` HyperFrames
+             data scenes (route map, timeline, altitude + rudder-pedal charts,
+             mechanism diagram, exhibit, section plate), provenance-gated real
+             footage, claims-traced figures and the sensitivity gate. Icahn
+             PASS-COND (memory `icahn-american587`, recognition 2/3 — package
+             leads with "two months after 9/11", never the flight number).
+             Cold open on the PD NTSB tollbooth security-cam clip; 26 CVR/ATC
+             lines are verbatim docket recreations (no audio exists). Ship on
+             the 25th anniversary, Nov 12, 2026. BB_OUTRO baked. ── */}
+      <Composition
+        id="American587Doc"
+        component={makeDocComp(american587Doc as any, american587Manifest as any, BB_OUTRO)}
+        durationInFrames={docTotalFrames(american587Doc as any, american587Manifest as any, BB_OUTRO)}
         fps={30}
         width={1920}
         height={1080}

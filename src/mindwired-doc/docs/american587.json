@@ -1,1153 +1,1173 @@
 {
- "slug": "american587",
- "title": "New York Thought It Was 9/11 Again. It Wasn't",
- "channel": "blackbox",
- "niche": "aviation",
- "language": "en",
- "voice": "d46abd1d-2d02-43e8-819f-51fb652c1c61",
- "sensitivity": {
-  "tier": "high",
-  "victimsNamed": false,
-  "livingParties": [
-   "Felicia Miller",
-   "Gilbert Waldo",
-   "George Fredericks",
-   "Carol Carmody",
-   "Mark Rosenker",
-   "Richard Healing",
-   "Ellen Engleman Conners",
-   "Deborah Hersman",
-   "Marion Blakey",
-   "Robert Benzon",
-   "Belkis Lora",
-   "Rhoda Molin",
-   "Siri Parsons",
-   "Mary States",
-   "Bob Tamburini",
-   "Ari Fleischer",
-   "George W. Bush",
-   "Rudolph Giuliani",
-   "George Pataki",
-   "Adriano Espaillat",
-   "Gregory Meeks",
-   "Geraldine Pomponio",
-   "Thomas Murphy",
-   "Ed Devito",
-   "Darwin de la Cruz",
-   "Jesse Figueroa",
-   "Eric Adams",
-   "Virginia Hernandez",
-   "Steve Pounian"
-  ],
-  "note": "HIGH: 265 dead incl. 5 on the ground; ~90% of passengers of Dominican descent; probable cause names the deceased F/O's inputs and was contested by APA and by his late father (d. 2014; widow Rhoda and daughter Siri survive). F/O inputs are always 'the NTSB found'. No victim surnames in cap/stat/chapter. Terrorism only as the documented same-day sequence. Sara Hammel material EXCLUDED."
- },
- "scenes": [
-  {
-   "id": "h1",
-   "text": "November twelfth, two thousand one. Belle Harbor, Queens. Nine sixteen in the morning — sixty two days after September eleventh.",
-   "video": "tollbooth_1.mp4",
-   "videoQuery": "File:American Airlines Flight 587 Toll Booth video.ogv",
-   "videoFrom": 0,
-   "cap": "November 12, 2001 · Belle Harbor, Queens · 9:16 a.m.",
-   "stat": "62 DAYS AFTER 9/11",
-   "statColor": "#FF4D4D",
-   "tone": "neutral",
-   "note": "HOOK-DOCTOR 2026-10-24. Fern open: date → place → time, with the recognized element (9/11) in line 1 per the CLAIMS recognition-bridge constraint. TBTA toll-plaza security camera, PD via NTSB docket items 205/208. Archival plate, never full-bleed. Clip is 34.94 s — scan frames at 0/8/20 s before locking videoFrom (h1 0–7, h2 8–20, h5 20–32: sequential, no overlap). REVIEW 2026-10-24: SLICE PLAN (monotony gate compares filenames; each distinct camera view of a source .ogv is its own file, videoFrom is relative to that slice — re-scan frames at 0/8/15 s after slicing): tollbooth_1 = view 1 (dot crossing the bay), tollbooth_2 = view 2 (descending dot / streak), tollbooth_3 = view 3 (smoke rising over Belle Harbor) from File:American Airlines Flight 587 Toll Booth video.ogv (34.94 s, docket item 207: four views); takeoff_1 = taxi/takeoff-roll view, takeoff_2 = climbout / smoke-on-horizon view from File:American Airlines Flight 587 takeoff.ogv (50.73 s); ntsbanim_1 = wake-encounter segment, ntsbanim_2 = pedal/rudder-trace segment, ntsbanim_3 = post-separation fall from File:American Airlines Flight 587 Accident animation.ogv (265 s). All PD via NTSB docket item 208."
+  "slug": "american587",
+  "title": "New York Thought It Was 9/11 Again. It Wasn't",
+  "channel": "blackbox",
+  "niche": "aviation",
+  "era": {
+    "from": "2001",
+    "to": "2001"
   },
-  {
-   "id": "h2",
-   "text": "A security camera at a toll plaza across Jamaica Bay catches an airliner falling out of the sky. It left Kennedy less than two minutes ago. Two hundred sixty people are on board.",
-   "video": "tollbooth_2.mp4",
-   "videoFrom": 0,
-   "cap": "Toll-plaza security camera · 2–3 fields per second",
-   "tone": "tension",
-   "note": "Stakes land in line 2 (260 aboard, anchor c61). The 2–3 fps / stop-motion explanation lives in the cap, not the narration (hook-doctor: no throat-clearing). Liftoff 0914:29 → crash about 0916:15 = under two minutes (AAR p.1/p.3). View 2 of the toll-plaza tape (the fall) — distinct slice so h1→h2 is not a back-to-back repeat.",
-   "videoQuery": "File:American Airlines Flight 587 Toll Booth video.ogv"
+  "fetchRules": {
+    "blocklist": [
+      "CNN",
+      "NBC",
+      "ABC News",
+      "ABC7",
+      "CBS",
+      "Fox News",
+      "FOX 5",
+      "WABC",
+      "WNBC",
+      "WCBS",
+      "NY1",
+      "news"
+    ]
   },
-  {
-   "id": "h3",
-   "text": "American Airlines Flight five eighty seven, bound for Santo Domingo, comes down on a Queens neighborhood that had lost about sixty five of its own at the World Trade Center.",
-   "video": "takeoff_1.mp4",
-   "videoQuery": "File:American Airlines Flight 587 takeoff.ogv",
-   "videoFrom": 0,
-   "cap": "Belle Harbor · about 65 residents killed at the World Trade Center",
-   "tone": "tension",
-   "note": "JFK construction-site camera, PD via NTSB docket item 208; clip is 50.73 s (h3 0–11, h6 11–16, h7 16–31). On-screen clock is NOT real time — crop or ignore it. 'about sixty five' = DATA CORRECTIONS #10 phrasing (H.Res.870). h1–h3 = 82 words ≈ 26.5 s VO at Grant's 3.1 w/s — clears preflight's 25 s pure-VO real-video gate by ~1.5 s and puts h4 at ≈0:29.5 wall-clock (VO + 3×LEAD/HOLD). Do NOT add words to h1–h3 without re-checking both numbers."
-  },
-  {
-   "id": "h4",
-   "text": "What investigators lifted out of Jamaica Bay, roughly a mile north of the wreckage, was this. The airplane's entire tail fin. It had come off in the air — and the fin itself, investigators would find, was not the problem.",
-   "img": "fin",
-   "query": "American Airlines Flight 587 vertical stabilizer recovered Jamaica Bay crane NTSB",
-   "camera": "push",
-   "cap": "The vertical stabilizer, recovered from Jamaica Bay",
-   "tone": "shock",
-   "note": "THUMBNAIL PROMISE — File:American Airlines Flight 587 vertical stabilizer.png (NTSB, PD). Starts right after the 25 s real-video gate (≈0:29.5 wall-clock at Grant's pace; no PD motion of the fin exists, so this is the one still before 0:30 — flagged to Akshay). OPENS THE LOOP: 'the fin itself was not the problem' = Finding 6 (performed consistent with its design and certification), Finding 1 (fatigue not a factor), NTSB press release Oct 26 2004 (composite not a factor). Closed by coda4. 'roughly a mile north' = DATA CORRECTIONS #2. REVIEW 2026-10-24: 'fin' is now a SINGLE-FILE prefix = Commons File:American Airlines Flight 587 vertical stabilizer.png only, so the thumbnail promise and the title card always render the thumbnail asset; the DVIDS/FAA recovery photos moved to prefix 'recovery'."
-  },
-  {
-   "id": "h5",
-   "text": "Across the city, the assumption was instant, and it was the same everywhere. The bridges and tunnels closed. Fighter jets went up. By midday the FBI was on the ground in Queens.",
-   "video": "tollbooth_3.mp4",
-   "videoFrom": 0,
-   "cap": "Bridges and tunnels closed · fighters scrambled · FBI on site",
-   "tone": "tension",
-   "note": "CLAIMS B.7: bridges/tunnels closed to inbound traffic, fighters scrambled (Fleischer), FBI NY Assistant Director on site per the 12:08 briefing. View 3 (smoke rising) — the city-reaction beat over the real aftermath motion.",
-   "videoQuery": "File:American Airlines Flight 587 Toll Booth video.ogv"
-  },
-  {
-   "id": "h6",
-   "text": "New York thought it was happening again. It wasn't.",
-   "video": "takeoff_2.mp4",
-   "videoFrom": 0,
-   "cap": "It wasn't.",
-   "tone": "shock",
-   "note": "The title line, spoken. Short beat — let it breathe. Climbout / smoke-on-horizon view of the JFK construction-cam tape.",
-   "videoQuery": "File:American Airlines Flight 587 takeoff.ogv"
-  },
-  {
-   "id": "h7",
-   "text": "Two hundred sixty five people died that morning, and not one of them because of a bomb. What tore the tail off took twenty two seconds — and three years later split the Safety Board three votes to two over who was to blame.",
-   "video": "takeoff_1.mp4",
-   "videoFrom": 16,
-   "stat": "265 DEAD",
-   "statColor": "#FF4D4D",
-   "tone": "shock",
-   "note": "Loop, second turn: 22 s = first wake encounter 0915:36 → fin separation 0915:58.4 (AAR pp.3–5); 3–2 vote = AAR fn 211 (Carmody + Healing against Rosenker's reordering), adopted Oct 26 2004. Paid off at c7 (the vote) and coda4 (the tail performed as designed)."
-  },
-  {
-   "id": "sting",
-   "sting": true,
-   "text": "You're watching Black Box Breakdown.",
-   "tone": "confidence"
-  },
-  {
-   "id": "title",
-   "text": "This is American Airlines Flight five eighty seven — the twenty two seconds that took the tail off an airliner, the three-to-two vote over who was to blame, and the city that spent a morning believing it was under attack.",
-   "chapter": "NEW YORK THOUGHT IT WAS\n9/11 AGAIN. IT WASN'T",
-   "img": "fin",
-   "cap": "BLACK BOX BREAKDOWN — AMERICAN AIRLINES FLIGHT 587"
-  },
-  {
-   "id": "c1",
-   "chapter": "1 — FOUR SIXTEEN\nIN THE MORNING",
-   "text": "That morning began with two alarm clocks, and an airplane that had been flying for thirteen years.",
-   "img": "a300",
-   "query": "American Airlines Airbus A300-605R N14053 photo",
-   "note": "LICENCE FLAG (review 2026-10-24): Commons File:Airbus A300B4-605R, American Airlines JP5950383.jpg (N14053, Jon Proctor) is GFDL 1.2 — NOT in the PD/CC0/CC-BY/CC-BY-SA allow-list; airliners.net AN0201219/AN0201220 are not free. Fill 'a300' from PD/CC sources only (e.g. the 2005 PD-self type shot '…inbound to JFK.jpg', captioned as the type, never as N14053) and have the licence gate confirm before render."
-  },
-  {
-   "id": "c1_1",
-   "text": "Plainsboro, New Jersey. Four sixteen a.m. An alarm goes off. Edward States — forty two, a former Air Force Reserve transport pilot, Cub Scout committee member, halfway through remodeling his own bathroom — is out the door by five.",
-   "img": "jfk",
-   "cap": "4:16 a.m. · Plainsboro, New Jersey",
-   "tone": "neutral",
-   "note": "HP Factual pp.11–12 (alarm 0416, left ~0500); APFA p.26 (USAF Reserve C-141); 6ABC (Plainsboro). No face — the airplane stands in for the man."
-  },
-  {
-   "id": "c1_2",
-   "text": "His first officer's alarm is set for five thirty. Sten Molin, thirty four, taught to fly at eighteen by his father, a retired airline pilot. Around ten thirty the night before, he had called his parents to say he was flying in the morning.",
-   "img": "a300",
-   "query": "American Airlines 587 before takeoff JFK runway 31L construction camera still",
-   "tone": "neutral",
-   "note": "HP Factual pp.5–7 (alarm 0530, sailboat, ~2230 call to parents, taught by Stan Molin)."
-  },
-  {
-   "id": "c1_3",
-   "text": "A friend later told investigators he was looking forward to this trip because of the captain — in her words, such a great person, and nice to work with. They had flown thirty six legs together.",
-   "img": "jfk",
-   "cap": "A friend, to NTSB investigators: “such a great person, and nice to work with.”",
-   "stat": "36 LEGS FLOWN TOGETHER",
-   "tone": "neutral"
-  },
-  {
-   "id": "c1_4",
-   "text": "At six fourteen the captain checked in at Kennedy; at six thirty, the first officer. The airplane waiting for them was an Airbus A three hundred, registration November one four zero five three, delivered new to American in July nineteen eighty eight. Thirty seven and a half thousand hours. Every airworthiness directive complied with.",
-   "img": "a300",
-   "cap": "N14053 · Airbus A300-605R · delivered July 12, 1988",
-   "tone": "neutral"
-  },
-  {
-   "id": "c1_7",
-   "text": "Flight five eighty seven was not just any route. In Washington Heights, the Dominican heart of Manhattan, it had something close to cult status: every Dominican in New York, one organizer later said, has either taken that flight or knows someone who has.",
-   "img": "jfk",
-   "cap": "“Every Dominican in New York has either taken that flight or knows someone who has.”",
-   "tone": "neutral"
-  },
-  {
-   "id": "c1_8",
-   "text": "Two hundred fifty one passengers boarded that Monday, five of them infants on laps. Around ninety percent were of Dominican descent; dozens were from a single town, Baní. It was sixty two days after September eleventh. At eight fifty nine, pushback. The first officer would fly this leg.",
-   "img": "a300",
-   "stat": "~90% OF DOMINICAN DESCENT",
-   "tone": "neutral"
-  },
-  {
-   "id": "r1",
-   "speaker": "CAPT",
-   "timestamp": "9:02:05 AM",
-   "radioLabel": "CVR RECREATION",
-   "text": "your leg, you check the rudders."
-  },
-  {
-   "id": "r2",
-   "speaker": "FO",
-   "timestamp": "9:02:23 AM",
-   "radioLabel": "CVR RECREATION",
-   "text": "rudders check."
-  },
-  {
-   "id": "c1_10",
-   "text": "A routine pedal check: each pedal pushed almost to its stop, three point seven inches right, three point six left. In the air, at two hundred fifty knots, this airplane would need less than a third of that.",
-   "img": "lug",
-   "cap": "Pedal check: 3.7 in right · 3.6 in left",
-   "tone": "tension"
-  },
-  {
-   "id": "c2",
-   "chapter": "2 — THE PLANE\nIN FRONT",
-   "text": "Ahead of them in line for runway three one left was a Japan Airlines seven forty seven. Heavy. That airplane is where this story turns.",
-   "img": "jfk"
-  },
-  {
-   "id": "c2_1",
-   "text": "In the tower, the local controller — five years into the job, on the fourth day of her week — knew what a seven forty seven leaves behind it.",
-   "video": "takeoff_1.mp4",
-   "videoFrom": 4,
-   "tone": "neutral",
-   "note": "ATC Factual pp.5–6 — Felicia Miller, FAA since May 1996, shift 0700–1500, fourth of five. Living private individual: every clause 'told investigators'; no face."
-  },
-  {
-   "id": "r3",
-   "speaker": "ATC",
-   "timestamp": "9:11:08 AM",
-   "radioLabel": "ATC RECREATION",
-   "text": "Japan Airlines forty seven heavy, wind three zero zero at one zero runway three one left, cleared for takeoff."
-  },
-  {
-   "id": "r4",
-   "speaker": "ATC",
-   "timestamp": "9:11:36 AM",
-   "radioLabel": "ATC RECREATION",
-   "text": "American five eighty seven heavy Kennedy tower, caution wake turbulence runway three one left, taxi into position and hold."
-  },
-  {
-   "id": "c2_2",
-   "text": "Caution wake turbulence. Two spinning vortices trail from the wingtips of every heavy jet, strongest when it is slow and climbing. The rule for a heavy behind a heavy is two minutes — or four nautical miles. She told investigators she added more than four miles, because seven forty sevens are often slow climbers.",
-   "video": "takeoff_2.mp4",
-   "videoFrom": 4,
-   "cap": "Heavy behind heavy: 2 minutes OR 4 nautical miles",
-   "tone": "neutral"
-  },
-  {
-   "id": "r5",
-   "speaker": "CAPT",
-   "timestamp": "9:13:21 AM",
-   "radioLabel": "CVR RECREATION",
-   "text": "you have the airplane."
-  },
-  {
-   "id": "r6",
-   "speaker": "ATC",
-   "timestamp": "9:13:27 AM",
-   "radioLabel": "ATC RECREATION",
-   "text": "American five eight seven heavy, wind three zero zero at niner, runway three one left, cleared for takeoff."
-  },
-  {
-   "id": "r7",
-   "speaker": "CAPT",
-   "timestamp": "9:13:31 AM",
-   "radioLabel": "CVR RECREATION",
-   "text": "cleared for takeoff, American ah, five eight seven heavy."
-  },
-  {
-   "id": "r8",
-   "speaker": "FO",
-   "timestamp": "9:13:35 AM",
-   "radioLabel": "CVR RECREATION",
-   "text": "you happy with that distance?"
-  },
-  {
-   "id": "r9",
-   "speaker": "CAPT",
-   "timestamp": "9:13:38 AM",
-   "radioLabel": "CVR RECREATION",
-   "text": "aah, he's.... we'll be all right once we get rollin'. he's supposed to be five miles by the time we're airborne, that's the idea."
-  },
-  {
-   "id": "r10",
-   "speaker": "FO",
-   "timestamp": "9:13:45 AM",
-   "radioLabel": "CVR RECREATION",
-   "text": "so you're happy. lights?"
-  },
-  {
-   "id": "c2_3",
-   "text": "Nine thirteen and fifty one seconds: the takeoff roll. Nine fourteen and twenty nine: liftoff. One minute and forty seconds after the seven forty seven.",
-   "video": "takeoff_1.mp4",
-   "videoFrom": 16,
-   "stat": "1 MIN 40 SEC BEHIND JAL 47",
-   "tone": "tension"
-  },
-  {
-   "id": "hf_plate",
-   "text": "Less than the two minutes the rule names. But more than the four miles the same rule also allows. The safety board checked, and wrote it down as its third finding: the controller complied.",
-   "hf": "title-chapter2",
-   "tone": "neutral"
-  },
-  {
-   "id": "c2_4",
-   "text": "At five hundred feet the airplane began the Bridge Climb — a left turn to heading two two zero, the standard departure out over Jamaica Bay.",
-   "video": "takeoff_2.mp4",
-   "videoFrom": 10,
-   "tone": "neutral"
-  },
-  {
-   "id": "r11",
-   "speaker": "ATC",
-   "timestamp": "9:14:42 AM",
-   "radioLabel": "ATC RECREATION",
-   "text": "American five eight seven heavy, turn left. fly the Bridge Climb. contact New York departure. good morning."
-  },
-  {
-   "id": "r12",
-   "speaker": "CAPT",
-   "timestamp": "9:14:48 AM",
-   "radioLabel": "CVR RECREATION",
-   "text": "American five eighty seven heavy, so long."
-  },
-  {
-   "id": "c2_5",
-   "text": "The controller told investigators that the last time she saw the airplane was as it made that left turn.",
-   "video": "takeoff_2.mp4",
-   "videoFrom": 16,
-   "tone": "tension"
-  },
-  {
-   "id": "hf_route",
-   "text": "The seven forty seven had flown the same climb a minute and forty seconds earlier, and was by now at least four point three miles ahead and three thousand eight hundred feet above. Its wake — about a hundred seconds old — was sinking slowly into the air Flight five eighty seven was about to climb through.",
-   "hf": "route-map",
-   "tone": "tension"
-  },
-  {
-   "id": "r13",
-   "speaker": "CAPT",
-   "timestamp": "9:15:00 AM",
-   "radioLabel": "CVR RECREATION",
-   "text": "ah New York, American five eighty seven heavy, thirteen hundred feet, we're climbing to five thousand."
-  },
-  {
-   "id": "r14",
-   "speaker": "ATC",
-   "timestamp": "9:15:04 AM",
-   "radioLabel": "ATC RECREATION",
-   "text": "American five eight seven heavy, New York departure. radar contact. climb maintain one three thousand."
-  },
-  {
-   "id": "c2_6",
-   "text": "Everything to this point is routine. At nine fifteen and twenty eight, the captain says: clean machine. There are forty six seconds left on the tape.",
-   "video": "takeoff_2.mp4",
-   "videoFrom": 22,
-   "tone": "tension",
-   "extraHold": 8
-  },
-  {
-   "id": "c3",
-   "chapter": "3 — TWENTY-TWO\nSECONDS",
-   "text": "From the first bump of wake to the moment the tail came off took twenty two seconds. Here is what the recorders say happened inside them.",
-   "img": "toll",
-   "query": "AA587 Tollbooth Video still frame"
-  },
-  {
-   "id": "r15",
-   "speaker": "ATC",
-   "timestamp": "9:15:36 AM",
-   "radioLabel": "ATC RECREATION",
-   "text": "American five eighty seven heavy, turn left, proceed direct Wavey."
-  },
-  {
-   "id": "c3_1",
-   "text": "Nine fifteen and thirty six seconds, climbing through about seventeen hundred feet. The first wake encounter. A small drop, a lurch to the left. The control wheel moves seven times; the rudder pedals barely move. The airplane rides it out. Then comes the last transmission air traffic control will ever receive from Flight five eighty seven.",
-   "video": "ntsbanim_1.mp4",
-   "videoQuery": "File:American Airlines Flight 587 Accident animation.ogv",
-   "videoFrom": 0,
-   "cap": "NTSB reconstruction animation from flight-data-recorder data",
-   "tone": "tension",
-   "note": "NTSB 3D reconstruction, 265 s, silent, PD (docket item 208). Scan for the wake-encounter segment and set videoFrom to it; the caption keeps it labelled a reconstruction."
-  },
-  {
-   "id": "r16",
-   "speaker": "CAPT",
-   "timestamp": "9:15:41 AM",
-   "radioLabel": "CVR RECREATION",
-   "text": "uh, we'll turn direct Wavey, American five eighty seven heavy."
-  },
-  {
-   "id": "r17",
-   "speaker": "CAPT",
-   "timestamp": "9:15:44 AM",
-   "radioLabel": "CVR RECREATION",
-   "text": "little wake turbulence, huh?"
-  },
-  {
-   "id": "r18",
-   "speaker": "FO",
-   "timestamp": "9:15:45 AM",
-   "radioLabel": "CVR RECREATION",
-   "text": "yeah.",
-   "note": "Transcript reads '…yeah.' — leading ellipsis dropped to avoid the Cartesia empty-clip bug; normalized text is identical."
-  },
-  {
-   "id": "r19",
-   "speaker": "FO",
-   "timestamp": "9:15:48 AM",
-   "radioLabel": "CVR RECREATION",
-   "text": "two fifty thank you."
-  },
-  {
-   "id": "hf_timeline",
-   "text": "Nine fifteen and fifty one seconds. About two thousand four hundred feet above the ground. The second wake encounter — stronger. The airplane rolls further left. And this time, the safety board found, the first officer's response is different.",
-   "hf": "timeline-flight",
-   "tone": "tension"
-  },
-  {
-   "id": "c3_3",
-   "text": "The control wheel goes to sixty four degrees right. Four tenths of a second later, the right rudder pedal goes down an inch and seven tenths. Then left. Then right. Then right again, harder. Then left, harder still. Then right.",
-   "video": "ntsbanim_2.mp4",
-   "videoFrom": 0,
-   "cap": "NTSB reconstruction animation · pedal and rudder traces",
-   "tone": "tension",
-   "videoQuery": "File:American Airlines Flight 587 Accident animation.ogv",
-   "note": "Pedal/rudder-trace segment of the NTSB reconstruction (its own slice)."
-  },
-  {
-   "id": "hf_pedals",
-   "text": "Six pedal inputs in under seven seconds, four of them reversals. At this speed the airplane needs barely an inch of pedal travel and thirty two pounds of foot pressure to reach full rudder. Each push swung the tail the other way, and the sideslip built — four degrees, then seven, then eleven.",
-   "hf": "chart-pedals",
-   "tone": "tension"
-  },
-  {
-   "id": "r20",
-   "speaker": "FO",
-   "timestamp": "9:15:54 AM",
-   "radioLabel": "CVR RECREATION",
-   "text": "max power.",
-   "note": "Transcript annotation '[spoken in strained voice]' is narrated in the next scene rather than voiced."
-  },
-  {
-   "id": "c3_4",
-   "text": "Max power — in a strained voice, the transcript notes. The captain did not change the power setting.",
-   "img": "toll",
-   "tone": "tension"
-  },
-  {
-   "id": "r21",
-   "speaker": "CAPT",
-   "timestamp": "9:15:55 AM",
-   "radioLabel": "CVR RECREATION",
-   "text": "you all right?"
-  },
-  {
-   "id": "r22",
-   "speaker": "FO",
-   "timestamp": "9:15:55 AM",
-   "radioLabel": "CVR RECREATION",
-   "text": "yea, I'm fine."
-  },
-  {
-   "id": "r23",
-   "speaker": "CAPT",
-   "timestamp": "9:15:56 AM",
-   "radioLabel": "CVR RECREATION",
-   "text": "hang onto it. hang onto it."
-  },
-  {
-   "id": "c3_5",
-   "text": "A snap on the recording. Then a loud thump.",
-   "img": "finwreck",
-   "tone": "tension",
-   "extraHold": 6,
-   "query": "FAA Lessons Learned N14053 vertical stabilizer wreckage fin attach points photo",
-   "note": "REVIEW 2026-10-24: new prefix 'finwreck' = FAA Lessons-Learned (NTSB-credited, PD) fin_attach_points_on_wreckage.jpg / vertical_stabilizer.jpg / failed_fin_at_attach_point.jpg — the recovered fin on the ground, CLAIMS §FOOTAGE 'Tail separation — the lugs' row."
-  },
-  {
-   "id": "r24",
-   "speaker": "FO",
-   "timestamp": "9:15:57 AM",
-   "radioLabel": "CVR RECREATION",
-   "text": "let's go for power please."
-  },
-  {
-   "id": "c3_6",
-   "text": "Nine fifteen, fifty eight point four seconds. With the rudder about eleven degrees right and the airplane skidding sideways at eleven or twelve degrees, the right rear attachment fitting of the vertical fin fractures. The rest follow immediately.",
-   "img": "lug",
-   "kinetic": {
-    "words": [
-     "9:15:58.4"
+  "language": "en",
+  "voice": "d46abd1d-2d02-43e8-819f-51fb652c1c61",
+  "sensitivity": {
+    "tier": "high",
+    "victimsNamed": false,
+    "livingParties": [
+      "Felicia Miller",
+      "Gilbert Waldo",
+      "George Fredericks",
+      "Carol Carmody",
+      "Mark Rosenker",
+      "Richard Healing",
+      "Ellen Engleman Conners",
+      "Deborah Hersman",
+      "Marion Blakey",
+      "Robert Benzon",
+      "Belkis Lora",
+      "Rhoda Molin",
+      "Siri Parsons",
+      "Mary States",
+      "Bob Tamburini",
+      "Ari Fleischer",
+      "George W. Bush",
+      "Rudolph Giuliani",
+      "George Pataki",
+      "Adriano Espaillat",
+      "Gregory Meeks",
+      "Geraldine Pomponio",
+      "Thomas Murphy",
+      "Ed Devito",
+      "Darwin de la Cruz",
+      "Jesse Figueroa",
+      "Eric Adams",
+      "Virginia Hernandez",
+      "Steve Pounian"
     ],
-    "sub": "right rear main attachment fitting fractures"
-   },
-   "tone": "shock"
-  },
-  {
-   "id": "c3_7",
-   "text": "A tenth of a second later the cockpit microphone picks up a loud bang. The fin and rudder are gone, falling toward Jamaica Bay. The airplane is flying at two hundred fifty one knots with no tail fin.",
-   "video": "tollbooth_2.mp4",
-   "videoFrom": 6,
-   "stat": "251 KNOTS",
-   "statColor": "#FF4D4D",
-   "tone": "shock"
-  },
-  {
-   "id": "c3_8",
-   "text": "This is the actual transcript page. The bang is logged at nine fifteen, fifty eight point five seconds. Everything under it is from the last sixteen seconds of the recording.",
-   "img": "cvr_p27",
-   "exhibit": true,
-   "source": "NTSB docket DCA02MA001, item 180 — CVR Group Chairman's Factual Report, transcript p. 27 of 28",
-   "highlight": [
-    0.08,
-    0.52,
-    0.84,
-    0.1
-   ],
-   "tone": "tension",
-   "note": "Commons File:American Airlines Flight 587 CVR transcript.pdf (PD) — pdftoppm the page whose footer reads '27 of 28'. Measure the highlight box on the fetched page."
-  },
-  {
-   "id": "hf_altitude",
-   "text": "The board later estimated the loads on the fin at about twice what it was certified to carry — beyond its ultimate design load. Its finding: the tail did exactly what it was designed to do. It failed in overstress, right rear lug first, under loads no transport tail is built to survive.",
-   "hf": "chart-altitude",
-   "tone": "neutral"
-  },
-  {
-   "id": "c3_9",
-   "text": "Without a fin the airplane yaws violently; the sideslip reaches thirty one degrees before the data ends, thirteen point six seconds before impact. Both engines separate during the fall — the report does not fix the exact second.",
-   "video": "ntsbanim_3.mp4",
-   "videoFrom": 0,
-   "cap": "NTSB reconstruction animation",
-   "tone": "tension",
-   "videoQuery": "File:American Airlines Flight 587 Accident animation.ogv",
-   "note": "Post-separation segment of the reconstruction (its own slice)."
-  },
-  {
-   "id": "r25",
-   "speaker": "FO",
-   "timestamp": "9:16:07 AM",
-   "radioLabel": "CVR RECREATION",
-   "text": "what the hell are we into. we're stuck in it.",
-   "note": "Transcript has an unintelligible-word marker (*) after 'into'; omitted from the spoken line, normalized text identical."
-  },
-  {
-   "id": "r26",
-   "speaker": "CAPT",
-   "timestamp": "9:16:12 AM",
-   "radioLabel": "CVR RECREATION",
-   "text": "get out of it, get out of it."
-  },
-  {
-   "id": "c3_10",
-   "text": "Nine sixteen and fourteen point eight seconds. End of recording. The cockpit voice recorder had run for thirty minutes and thirty nine seconds — on the emergency bus, after everything else was gone.",
-   "video": "tollbooth_1.mp4",
-   "videoFrom": 8,
-   "cap": "9:16:14.8 — END of RECORDING",
-   "tone": "shock"
-  },
-  {
-   "id": "c3_11",
-   "text": "The toll-plaza camera across the bay catches the end of it: a dot, then a streak, then smoke rising from Belle Harbor. About nine sixteen and fifteen seconds. Newport Avenue and Beach one hundred thirty first Street.",
-   "video": "tollbooth_3.mp4",
-   "videoFrom": 6,
-   "stat": "9:16 A.M.",
-   "statColor": "#FF4D4D",
-   "tone": "shock"
-  },
-  {
-   "id": "c3_12",
-   "text": "The main wreckage came down in a block of houses about four miles southwest of the runway. The left engine landed on a gas station forecourt eight hundred feet away; the right engine on a house, and on a boat in its driveway.",
-   "img": "site",
-   "query": "American Airlines Flight 587 crash site Belle Harbor Queens street wreckage investigators",
-   "cap": "4 homes destroyed · 3 substantially damaged · 3 with minor damage",
-   "tone": "tension",
-   "note": "Commons File:American Airlines Flight 587 accident site.jpg is MIS-DESCRIBED on Commons — it is the ground scene (correction #26). Caption it as the Belle Harbor street; log in ATTRIBUTION.md. FAA engine_at_gas_station.jpg (NTSB-credited, PD) belongs in this pool."
-  },
-  {
-   "id": "c3_13",
-   "text": "Two hundred sixty people on the airplane. Five people in the houses below — among them a mother and her son, and a man in a front bedroom. Two hundred sixty five.",
-   "img": "noaa",
-   "stat": "265 DEAD",
-   "statColor": "#FF4D4D",
-   "tone": "melancholy",
-   "extraHold": 10,
-   "query": "Flight 587 NOAA aerial photo of crash site Belle Harbor",
-   "note": "REVIEW 2026-10-24: new prefix 'noaa' = Commons File:Flight 587 NOAA Photo of Crash Site.jpg (NOAA, PD aerial) — CLAIMS §FOOTAGE 'Ground scene' row."
-  },
-  {
-   "id": "c4",
-   "chapter": "4 — THE SECOND\nATTACK",
-   "text": "For the next several hours, New York City believed it was under attack again. Here is how that morning actually unfolded.",
-   "img": "site"
-  },
-  {
-   "id": "c4_1",
-   "text": "Belle Harbor is a narrow strip of the Rockaway peninsula, home to one of the city's highest concentrations of firefighters. On September eleventh it had lost about sixty five of its own. Sixty two days later, a jet fell on it. It was the Veterans Day holiday; the local paper noted the schools were closed.",
-   "img": "noaa",
-   "stat": "~65 RESIDENTS LOST ON 9/11",
-   "tone": "melancholy"
-  },
-  {
-   "id": "c4_2",
-   "text": "A fire battalion chief who lived on Beach one hundred twenty ninth Street told the local paper: I heard the plane hit and then my whole house shook. By the Queens Chronicle's count, the first fire units arrived within about three minutes.",
-   "img": "gasstation",
-   "cap": "“I heard the plane hit and then my whole house shook.” — FDNY battalion chief, to The Wave",
-   "tone": "tension",
-   "query": "FAA Lessons Learned N14053 engine at gas station Beach 129th Street photo",
-   "note": "REVIEW 2026-10-24: new prefix 'gasstation' = FAA engine_at_gas_station.jpg (NTSB-credited, PD) — the left engine on the Beach 129th forecourt (c58)."
-  },
-  {
-   "id": "c4_3",
-   "text": "At about nine twenty five, during a National Security Council meeting, an aide handed President Bush a note. By late morning the FAA had closed Kennedy, LaGuardia and Newark, the city had closed its bridges and tunnels to inbound traffic, and fighters were up.",
-   "img": "recovery",
-   "cap": "9:25 a.m. — the President is handed a note",
-   "tone": "tension",
-   "note": " REVIEW 2026-10-24: new prefix 'recovery' = DVIDS 1070467 / 1070436 (USCG PA3 Mike Hvozda, 12 Nov 2001, PD) + FAA fin_recovery.jpg — aftermath-era exemption; moved out of 'fin' so that prefix stays single-file.",
-   "query": "American Airlines Flight 587 vertical stabilizer recovery Jamaica Bay Coast Guard November 12 2001"
-  },
-  {
-   "id": "c4_4",
-   "text": "Then the rumor started. Wire reports said the FBI believed there had been an explosion on board. At eight minutes past noon the White House press secretary said he had been informed that no government official had given any such indication. Nothing ruled in, nothing ruled out; no unusual communications with the cockpit.",
-   "img": "site",
-   "cap": "“…there was no government official who gave any such indication.” — White House, 12:08 p.m.",
-   "tone": "tension"
-  },
-  {
-   "id": "c4_5",
-   "text": "By early afternoon an FBI official — unnamed — was telling the wires that the evidence so far pointed to an accident of some kind, not terrorism. The mayor asked New Yorkers not to speculate, and said there was no threat to them.",
-   "img": "recovery",
-   "tone": "neutral"
-  },
-  {
-   "id": "c4_6",
-   "text": "That evening the chairman of the safety board, Marion Blakey, said in New York: everything points to an accident. The communications from the cockpit, she said, were normal up until the last few seconds before the crash.",
-   "img": "langley",
-   "query": "Marion Blakey NASA Langley AA587 vertical stabilizer inspection February 2002",
-   "cap": "“Everything points to an accident.” — NTSB Chairman Marion Blakey, Nov. 12, 2001 · photo: NASA Langley, Feb. 2002",
-   "tone": "neutral",
-   "note": "File:Marion Blakey AA587.jpg (NASA/Jeff Caplan, PD) is from Feb 2002 at Langley — caption it as the later inspection, never as the evening briefing."
-  },
-  {
-   "id": "c4_7",
-   "text": "But three hundred fifty four witnesses had been watching, and more than half reported seeing fire. Some were certain the fire came first, and the tail second. A retired firefighter among them told a newspaper: I'll go to my grave with that.",
-   "img": "toll",
-   "stat": "354 WITNESSES · 56% REPORTED FIRE",
-   "tone": "tension"
-  },
-  {
-   "id": "c4_8",
-   "text": "The board's answer, in the end, was that they were most likely seeing fuel released as the airplane broke up, or engine compressor surges — after the fin was already gone. The fin's attachment lugs had broken in overstress, the right rear first. The FBI was a formal party to the investigation; the case was treated, from the start, as an accident.",
-   "img": "lug",
-   "cap": "Recovered from Jamaica Bay — the right rear lug failed first",
-   "tone": "neutral"
-  },
-  {
-   "id": "c5",
-   "chapter": "5 — THIRTY-TWO\nPOUNDS",
-   "text": "So if it was not a bomb, and the wake was, in one expert's words, nothing extraordinary — why did a tail come off a modern airliner in clear air?",
-   "img": "rudder",
-   "query": "FAA Lessons Learned N14053 rudder system rudder fracture failed rudder points photo",
-   "note": "REVIEW 2026-10-24: new prefix 'rudder' = FAA Lessons-Learned (NTSB-credited, PD) rudder_system.jpg / rudder_fracture.jpg / failed_rudder_pts.jpg — CLAIMS §FOOTAGE 'Tail separation — the lugs' row."
-  },
-  {
-   "id": "c5_1",
-   "text": "The first suspect was the material. The A three hundred's fin is carbon-fiber composite, and in two thousand one that was new enough that the New York Times asked whether a workhorse of the skies had a deadly defect.",
-   "img": "finwreck",
-   "cap": "“A Workhorse of the Skies, Perhaps With a Deadly Defect” — New York Times, Nov. 19, 2001",
-   "tone": "tension"
-  },
-  {
-   "id": "c5_2",
-   "text": "The fin went to NASA's Langley center for examination; the lugs went to Hamburg for testing. They broke at roughly twice their design limit load — exactly as designed. The composite, the board said, was not a factor; the tail failed well beyond its certificated and design limits. Which moved the whole investigation to the pedals.",
-   "img": "langley",
-   "cap": "Composite construction: “not a factor” — NTSB, Oct. 26, 2004",
-   "tone": "neutral",
-   "extraHold": 6
-  },
-  {
-   "id": "hf_exhibit",
-   "text": "The numbers are on page twenty three of the final report. At one hundred thirty five knots, full rudder on this airplane takes sixty five pounds of foot pressure and four inches of travel. At two hundred fifty knots, thirty two pounds — and one point two inches.",
-   "hf": "exhibit-techlog",
-   "tone": "neutral"
-  },
-  {
-   "id": "c5_3",
-   "text": "Twenty two pounds of that is just the breakout force — the stiffness you push through before the pedal moves at all. So at climb speed, about ten pounds more, and an inch of travel, took the rudder to its limit.",
-   "img": "rudder",
-   "stat": "BREAKOUT FORCE: 22 LB",
-   "tone": "neutral"
-  },
-  {
-   "id": "c5_4",
-   "text": "Airbus had made two design choices on this version of the airplane. It had lightened the pedal forces, for consistency, after pilots asked for lighter control-wheel forces. And it had changed the device that caps rudder travel at speed from a variable-ratio design to a simpler variable stop.",
-   "img": "aar_table3",
-   "exhibit": true,
-   "source": "NTSB AAR-04/04, p. 23 — Table 3, rudder pedal force and travel",
-   "highlight": [
-    0.1,
-    0.3,
-    0.8,
-    0.22
-   ],
-   "tone": "neutral",
-   "note": "pdftoppm the AAR PDF: printed p.23 = PDF p.37. Single-file prefix."
-  },
-  {
-   "id": "c5_5",
-   "text": "The result, the board wrote, was a substantial increase in the airplane's response to a given amount of force above the pedal breakout force at higher airspeeds — twice as responsive to a pedal displacement at two hundred fifty knots as at one sixty five.",
-   "img": "aar_p26",
-   "exhibit": true,
-   "source": "NTSB AAR-04/04, p. 26 — rudder control system design",
-   "highlight": [
-    0.1,
-    0.4,
-    0.8,
-    0.18
-   ],
-   "tone": "neutral",
-   "note": "printed p.26 = PDF p.40. Single-file prefix."
-  },
-  {
-   "id": "c5_6",
-   "text": "Finding eleven, in the board's words: the A three hundred dash six hundred couples a rudder travel limiter system that increases in sensitivity with airspeed with the lightest pedal forces of all the transport-category aircraft evaluated.",
-   "img": "rudder",
-   "cap": "“…the lightest pedal forces of all the transport-category aircraft evaluated.” — NTSB Finding 11",
-   "tone": "tension"
-  },
-  {
-   "id": "c5_7",
-   "text": "At the public hearing, an Airbus training vice president put the manufacturer's position plainly: the rudder is not a primary flight control to induce roll under any circumstances unless normal roll control is not functional. So why would a trained airline pilot — as the board found this one did — start pushing it, back and forth, to the stop?",
-   "img": "a300",
-   "cap": "“…not a primary flight control to induce roll under any circumstances…” — Airbus, NTSB public hearing",
-   "tone": "tension"
-  },
-  {
-   "id": "c6",
-   "chapter": "6 — WHAT THE\nTRAINING TAPE SAID",
-   "text": "In nineteen ninety six, American Airlines built a new upset-recovery course. It would be taught to every pilot at the airline. Both of these men took it.",
-   "img": "aamp_booklet"
-  },
-  {
-   "id": "c6_1",
-   "text": "It was called the Advanced Aircraft Maneuvering Program, built after an industry review found loss of control the leading cause of fatal accidents. Nobody at the airline, the report says, had thought its widebodies could be upset by a normal wake encounter.",
-   "img": "aamp_booklet",
-   "exhibit": true,
-   "source": "NTSB docket DCA02MA001, item 15 — AAMP ground-school booklet excerpts (1997)",
-   "highlight": [
-    0.1,
-    0.25,
-    0.8,
-    0.2
-   ],
-   "tone": "neutral",
-   "note": "Fetch via scripts/fetch_ntsb_docket.py; pick the Jan 1, 1997 booklet page with the 'THE RUDDER' line. Single-file prefix."
-  },
-  {
-   "id": "c6_2",
-   "text": "The January nineteen ninety seven booklet — the version these two pilots received — put it in capital letters: at the higher angles of attack, the rudder becomes the most effective roll control.",
-   "img": "aamp_booklet",
-   "exhibit": true,
-   "source": "NTSB docket DCA02MA001, item 15 — AAMP booklet, Jan. 1, 1997 edition",
-   "highlight": [
-    0.1,
-    0.5,
-    0.8,
-    0.14
-   ],
-   "cap": "“At the higher angles of attack, THE RUDDER becomes the most effective roll control.”",
-   "tone": "tension"
-  },
-  {
-   "id": "c6_3",
-   "text": "The course developer, who had personally taught about two hundred pilots that spring, said this on the training video recorded that December: if you jam full right rudder, that's the spin entry procedure, see?",
-   "img": "rudder",
-   "cap": "“…if you jam full right rudder, that's the spin entry procedure, see?” — AAMP video, Dec. 19, 1997",
-   "tone": "tension"
-  },
-  {
-   "id": "c6_4",
-   "text": "In the simulator, pilots were told they were following a heavy jet — some instructors said a seven forty seven. The simulator rolled them ten degrees one way, then past ninety the other, with the controls frozen until the bank passed fifty degrees. Real wake upsets in airliners were usually thirty degrees or less. Finding nine: the exercise could give pilots an unrealistic and exaggerated view of the effects of wake turbulence.",
-   "img": "a300",
-   "cap": "Simulator exercise: controls inhibited until 50° of bank or 10 seconds",
-   "tone": "neutral"
-  },
-  {
-   "id": "c6_6",
-   "text": "Inside American, some people saw the problem immediately. In May nineteen ninety seven the airline's own A three hundred technical pilot wrote to Airbus's chief test pilot that one aspect of the course was, in his words, inaccurate and potentially hazardous. Airbus's test pilot replied that he shared the concern.",
-   "img": "aar_memo",
-   "exhibit": true,
-   "source": "NTSB AAR-04/04, pp. 87–89 — the May 1997 letters and internal memo",
-   "highlight": [
-    0.1,
-    0.2,
-    0.8,
-    0.2
-   ],
-   "tone": "tension",
-   "note": "printed p.88 = PDF p.102. Single-file prefix."
-  },
-  {
-   "id": "c6_7",
-   "text": "Five days later, a managing director of flight operations wrote to the chief pilot of grave concerns about some flawed aerodynamic theory and flying techniques — that it was exceptionally dangerous to teach rudder as a primary roll control — and urged immediate corrective action.",
-   "img": "aar_memo",
-   "exhibit": true,
-   "source": "NTSB AAR-04/04, p. 88 — internal American Airlines memo, May 27, 1997",
-   "highlight": [
-    0.1,
-    0.45,
-    0.8,
-    0.2
-   ],
-   "cap": "“…exceptionally dangerous…” — internal American Airlines memo, May 27, 1997",
-   "tone": "tension"
-  },
-  {
-   "id": "c6_8",
-   "text": "American did not hand that memo to the safety board until February two thousand three — fifteen months after the crash.",
-   "img": "aar_memo",
-   "stat": "MEMO GIVEN TO NTSB: FEB. 6, 2003",
-   "tone": "shock",
-   "extraHold": 6,
-   "exhibit": true,
-   "source": "NTSB AAR-04/04, p. 89 — the May 27, 1997 memo and its February 6, 2003 submission to the Board",
-   "highlight": [
-    0.1,
-    0.7,
-    0.8,
-    0.14
-   ],
-   "note": "Held exhibit (highlight moves down the memo page): printed p.89 = PDF p.103; measure the box on the fetched page."
-  },
-  {
-   "id": "c6_9",
-   "text": "And there was a precedent. May twelfth, nineteen ninety seven, Flight nine oh three: an American A three hundred near West Palm Beach stalled in a holding turn, and the pilot used full rudder to stop the roll. Thirty four seconds of oscillation. One serious injury. The airplane landed.",
-   "img": "a300",
-   "cap": "Flight 903 · May 12, 1997 · Florida",
-   "tone": "tension"
-  },
-  {
-   "id": "c6_10",
-   "text": "Airbus estimated that fin had taken one and a half times its limit load on the first rudder reversal, and loads beyond ultimate after that. It told American the airplane must be deeply inspected. American reported the fin was fine.",
-   "img": "finwreck",
-   "stat": "1.53× LIMIT LOAD — FLIGHT 903",
-   "tone": "tension"
-  },
-  {
-   "id": "c6_11",
-   "text": "In March two thousand two, four months after Belle Harbor, inspectors at Tulsa pulled the pin on that airplane's right rear fin fitting. Underneath it they found delamination — in the same fitting that fractured first on Flight five eighty seven.",
-   "img": "lug",
-   "stat": "MARCH 11, 2002 — DELAMINATION FOUND",
-   "statColor": "#FF4D4D",
-   "tone": "shock"
-  },
-  {
-   "id": "c6_12",
-   "text": "The board declined to draw a causal line between the two flights. What it drew instead was a line through the training. Finding seven: the first officer had a tendency to overreact to wake turbulence.",
-   "img": "aamp_booklet",
-   "tone": "neutral"
-  },
-  {
-   "id": "c6_13",
-   "text": "One account stands behind that finding, and it comes from one captain. He told investigators that in nineteen ninety seven, on a seven twenty seven, after a wake encounter, the first officer had stroked the rudder pedals — one, two, three, about that fast — and, when challenged, insisted that the maneuvering program directed him to use the rudder pedals in that manner.",
-   "img": "jfk",
-   "tone": "tension",
-   "note": "AAR pp.12–13 — single attributed account ('a captain told investigators'); fn31: F/O had done AAMP ground school but not yet the simulator. Attributed-never-asserted."
-  },
-  {
-   "id": "c7",
-   "chapter": "7 — THREE VOTES\nTO TWO",
-   "text": "Three years after the crash, five board members sat down to decide the official cause. They did not agree.",
-   "img": "aar_cause"
-  },
-  {
-   "id": "c7_1",
-   "text": "The public hearing ran four days in Washington in the fall of two thousand two, with acting chairman Carol Carmody presiding. The final report was adopted on October twenty sixth, two thousand four.",
-   "img": "langley",
-   "cap": "Public hearing: Oct. 29 – Nov. 1, 2002 · Report adopted: Oct. 26, 2004",
-   "tone": "neutral"
-  },
-  {
-   "id": "c7_2",
-   "text": "The probable cause, verbatim: the in-flight separation of the vertical stabilizer as a result of the loads beyond ultimate design that were created by the first officer's unnecessary and excessive rudder pedal inputs.",
-   "img": "aar_cause",
-   "exhibit": true,
-   "source": "NTSB AAR-04/04, p. 160 — §3.2 Probable Cause",
-   "highlight": [
-    0.1,
-    0.28,
-    0.8,
-    0.2
-   ],
-   "tone": "tension",
-   "note": "printed p.160 = PDF p.174. Single-file prefix."
-  },
-  {
-   "id": "c7_3",
-   "text": "Contributing to these rudder pedal inputs were characteristics of the Airbus A three hundred dash six hundred rudder system design, and elements of the American Airlines Advanced Aircraft Maneuvering Program.",
-   "img": "aar_cause",
-   "exhibit": true,
-   "source": "NTSB AAR-04/04, p. 160 — §3.2 Probable Cause, contributing factors",
-   "highlight": [
-    0.1,
-    0.46,
-    0.8,
-    0.14
-   ],
-   "tone": "neutral"
-  },
-  {
-   "id": "hf_diagram",
-   "text": "That is the chain the board drew: a normal wake, an unnecessary pedal input, a rudder that needed almost no force to reach its stop, reversals that built sideslip, loads beyond ultimate, and a fin that failed exactly as designed. Its press release added one sentence: had the first officer stopped making inputs at any time before the vertical stabilizer failed, the accident would not have happened.",
-   "hf": "diagram-mechanism",
-   "tone": "neutral"
-  },
-  {
-   "id": "c7_4",
-   "text": "But notice the order of those two contributing factors. The staff draft had put the training program first and the rudder design second. The vice chairman moved to swap them. It passed, three votes to two.",
-   "img": "aar_carmody",
-   "exhibit": true,
-   "source": "NTSB AAR-04/04, p. 165 — Board Member Statements",
-   "highlight": [
-    0.1,
-    0.2,
-    0.8,
-    0.18
-   ],
-   "tone": "tension",
-   "note": "printed p.165 = PDF p.179. Single-file prefix."
-  },
-  {
-   "id": "c7_5",
-   "text": "Carol Carmody dissented, and wrote it down. To diminish the role of the training program, she wrote, is to downplay the role it played in the pilot's actions which caused the accident. Staff was unable to find any example of unusual rudder use by the pilot before his training.",
-   "img": "aar_carmody",
-   "exhibit": true,
-   "source": "NTSB AAR-04/04, p. 165 — statement of Member Carol J. Carmody, joined by Member Healing",
-   "highlight": [
-    0.1,
-    0.42,
-    0.8,
-    0.2
-   ],
-   "tone": "tension"
-  },
-  {
-   "id": "c7_6",
-   "text": "This system, she wrote, had not been an issue in some sixteen million hours of testing and operator experience — until the A A M P trained pilot flew it.",
-   "img": "aar_cause",
-   "kinetic": {
-    "count": 16,
-    "suffix": " million",
-    "sub": "hours without a rudder-system issue — Member Carmody's dissent"
-   },
-   "tone": "tension"
-  },
-  {
-   "id": "c7_7",
-   "text": "Airbus said: this was a pilot acting on training he received. It did not believe, it said, that the facts pointed to the rudder's sensitivity as contributing.",
-   "img": "a300",
-   "cap": "“This was a pilot acting on training he received.” — Airbus, Oct. 26, 2004",
-   "tone": "neutral"
-  },
-  {
-   "id": "c7_8",
-   "text": "American's statement said: if Airbus had shared what it knew from three prior incidents and accidents, the five eighty seven tragedy would have been prevented. Its spokesman asked how safety was served by blaming a pilot who had no way of knowing the design sensitivities of that airplane.",
-   "img": "jfk",
-   "cap": "“…the 587 tragedy would have been prevented.” — American Airlines statement, Oct. 26, 2004",
-   "tone": "tension"
-  },
-  {
-   "id": "c7_9",
-   "text": "The pilots' union went further. Its submission called the crash an aircraft-pilot coupling event, the result of a flawed design modification, and said Airbus was forewarned of this catastrophe by preceding in-service events. The board did not adopt that.",
-   "img": "rudder",
-   "cap": "Allied Pilots Association submission: “an Aircraft Pilot Coupling (APC) event” — not adopted by the NTSB",
-   "tone": "neutral"
-  },
-  {
-   "id": "c7_10",
-   "text": "And the first officer's father — a retired airline captain who had taught his son to fly — spent the rest of his life contesting the finding. The fifth time he hit the rudder pedal, he told a local paper in twenty ten, the tail came off. It was the system's fault. He died in twenty fourteen.",
-   "img": "a300",
-   "tone": "melancholy",
-   "note": "Stan Molin, d. Apr 17, 2014 — past tense; The Wave Aug 13, 2010 quotes verified verbatim. Living family (Rhoda, Siri) — no further detail."
-  },
-  {
-   "id": "c8",
-   "chapter": "8 — ELEVEN\nYEARS",
-   "text": "The board's recommendations went out in two thousand four. The hardware fix took eleven years.",
-   "img": "fedreg_ad"
-  },
-  {
-   "id": "c8_1",
-   "text": "The board asked the FAA for a new certification standard for rudder pedal sensitivity, a review of existing designs, a modification to the A three hundred dash six hundred and A three ten — and that pilots be told plainly: alternating full rudder inputs are never needed.",
-   "img": "fedreg_ad",
-   "exhibit": true,
-   "source": "Federal Register, AD 2012-21-15 (Nov. 9, 2012) — preamble citing NTSB Safety Recommendations A-04-44, A-04-58 and A-04-63",
-   "highlight": [
-    0.1,
-    0.3,
-    0.8,
-    0.2
-   ],
-   "tone": "neutral",
-   "note": "Federal Register page for AD 2012-21-15 (US gov, PD) is the single file for this prefix; the recommendations are cited in its preamble."
-  },
-  {
-   "id": "c8_2",
-   "text": "The airworthiness directive took effect on December fourteenth, twenty twelve. Within forty eight months, every A three hundred dash six hundred and A three ten in the United States — two hundred fifteen airplanes — had to get either a pedal travel limiter, at about a hundred ninety eight thousand dollars each, or a cockpit warning telling the pilot to stop making rudder inputs.",
-   "img": "fedreg_ad",
-   "exhibit": true,
-   "source": "Federal Register, AD 2012-21-15 — effective Dec. 14, 2012",
-   "highlight": [
-    0.1,
-    0.5,
-    0.8,
-    0.18
-   ],
-   "stat": "215 AIRPLANES · 48 MONTHS",
-   "tone": "neutral"
-  },
-  {
-   "id": "c8_3",
-   "text": "FedEx and UPS asked for it to be withdrawn. The FAA's answer: we have concluded that training alone is inadequate. Which option each airline chose is not public.",
-   "img": "a300",
-   "cap": "“We have concluded that training alone is inadequate.” — FAA, 2012",
-   "tone": "neutral"
-  },
-  {
-   "id": "c8_5",
-   "text": "And the pattern had repeated. January tenth, two thousand eight: an Air Canada A three nineteen hit a wake at thirty six thousand feet. Canadian investigators found the lateral accelerations were due mostly to pilot rudder control inputs, and a fin fitting had seen one hundred twenty nine percent of its limit load.",
-   "img": "rudder",
-   "stat": "129% OF LIMIT LOAD — AIR CANADA 190, 2008",
-   "tone": "tension"
-  },
-  {
-   "id": "c8_6",
-   "text": "In court, the families' cases were consolidated before one federal judge in Manhattan, who ruled in two thousand six that the crash was governed by maritime law, in part because the fin had fallen into navigable water. That shaped who got paid: spouses, children, parents — nothing for siblings or partners.",
-   "img": "recovery",
-   "cap": "May 2006: the crash is ruled subject to general maritime law",
-   "tone": "neutral"
-  },
-  {
-   "id": "c8_7",
-   "text": "One organizer later said compensation created a lot of problems; that instead of becoming more united, many families were torn apart. The plaintiffs' lead lawyer put the settlements at more than five hundred million dollars. How that was split between Airbus and American has never been made public.",
-   "img": "memorial",
-   "query": "Flight 587 memorial Rockaway Park Beach 116th Street granite wall Despues no quiero mas que paz",
-   "tone": "melancholy",
-   "note": "REVIEW 2026-10-24: 'memorial' = Commons File:Despues no quiero mas que paz Flight 587 jeh.jpg (CC0) only."
-  },
-  {
-   "id": "c9",
-   "chapter": "9 — NINE\nSIXTEEN",
-   "text": "Every November twelfth, at nine sixteen in the morning, a bell rings at the south end of Beach one hundred sixteenth Street.",
-   "img": "rockawaypark",
-   "query": "Rockaway Park Flight 587 memorial plaza photo Kai Brinker",
-   "note": "REVIEW 2026-10-24: new prefix 'rockawaypark' = Commons 'Rockaway Park - 1/2/4' (Kai Brinker, CC BY-SA 2.0 — author line required in ATTRIBUTION.md)."
-  },
-  {
-   "id": "c9_1",
-   "text": "The memorial took five years, and a fight. Families wanted it at the crash site; residents objected. The bickering, the Associated Press reported, got ugly at times, with some claiming racism against Dominicans — a charge denied by residents of the largely Irish and Jewish neighborhood.",
-   "img": "memorial",
-   "tone": "melancholy"
-  },
-  {
-   "id": "c9_2",
-   "text": "The compromise put it about fifteen blocks away, at Rockaway Park, for nine point two million dollars. It was dedicated on November twelfth, two thousand six.",
-   "img": "rockawaypark",
-   "stat": "$9.2 MILLION · DEDICATED NOV. 12, 2006",
-   "tone": "melancholy"
-  },
-  {
-   "id": "c9_3",
-   "text": "A curved granite wall carries two hundred sixty five names, a doorway angled toward the Dominican Republic, and one line from the poet Pedro Mir: Después no quiero más que paz. Afterwards, I want nothing more than peace.",
-   "img": "memorial",
-   "cap": "“Después no quiero más que paz” — Pedro Mir",
-   "tone": "melancholy"
-  },
-  {
-   "id": "c9_4",
-   "text": "Now we can touch their names, said the woman who had organized the families — who had taken her own brother to the airport that morning.",
-   "img": "inscription",
-   "tone": "melancholy",
-   "query": "Flight 587 inscription names granite wall Rockaway Park photo",
-   "note": "REVIEW 2026-10-24: new prefix 'inscription' = Commons File:Flight 587 inscription jeh.jpg (CC0) — the names close-up for the 'touch their names' beats."
-  },
-  {
-   "id": "c9_5",
-   "text": "In May two thousand seven, the city entombed eight hundred eighty nine fragments of remains that were unidentified or never claimed — three hundred eight of them never matched to anyone — in two crypts at Woodlawn Cemetery in the Bronx.",
-   "img": "memorial",
-   "stat": "889 FRAGMENTS · 308 UNIDENTIFIED",
-   "tone": "melancholy"
-  },
-  {
-   "id": "c9_6",
-   "text": "In twenty seventeen, a corner in Washington Heights was co-named Flight five eighty seven Way. Every November since twenty twenty one, a resolution naming all two hundred sixty five has been reintroduced in the House — most recently on November tenth, twenty twenty five.",
-   "img": "hres870",
-   "exhibit": true,
-   "source": "H.Res. 870, 119th Congress — introduced Nov. 10, 2025",
-   "highlight": [
-    0.1,
-    0.2,
-    0.8,
-    0.16
-   ],
-   "tone": "neutral",
-   "note": "congress.gov PDF, US gov PD. Single-file prefix."
-  },
-  {
-   "id": "c9_7",
-   "text": "Last November, a man who had lost his father and an aunt on the flight told a Queens newspaper: I find myself still thinking about them every day.",
-   "img": "inscription",
-   "cap": "“I find myself still thinking about them every day.” — Queens Eagle, Nov. 2025",
-   "tone": "melancholy"
-  },
-  {
-   "id": "c9_8",
-   "text": "This November twelfth is the twenty fifth anniversary. As of this recording, nothing special has been announced. The pattern will likely hold: a morning gathering at the wall, two hundred sixty five names read aloud, a bell at nine sixteen.",
-   "img": "memorial",
-   "tone": "melancholy",
-   "extraHold": 8
-  },
-  {
-   "id": "coda1",
-   "text": "I have spent a lot of time with this report, and the thing I keep coming back to is not the tail. It is twenty two seconds. Everything that decided this fits inside the time it took you to hear this paragraph.",
-   "img": "fin",
-   "tone": "melancholy"
-  },
-  {
-   "id": "coda2",
-   "text": "The board put the cause on a dead man's feet, then — three votes to two — put the airplane ahead of his training in the list of reasons. The airline said Airbus knew. Airbus said the airline taught it. The union said the design was flawed. His father said it was the system's fault.",
-   "img": "rudder",
-   "tone": "melancholy"
-  },
-  {
-   "id": "coda3",
-   "text": "Twenty five years on, the airplane is retired, the route is gone, the pedals have a limiter or a warning light, and two hundred sixty five names are on a wall facing the sea.",
-   "img": "rockawaypark",
-   "tone": "melancholy"
-  },
-  {
-   "id": "coda4",
-   "text": "The tail that failed had performed exactly as it was designed.",
-   "img": "fin",
-   "tone": "melancholy",
-   "extraHold": 10
-  },
-  {
-   "id": "bridge",
-   "text": "If a city mistaking an accident for an attack got to you, wait until you hear the real audio from the morning it actually was one — the Norad tapes from September eleventh, and the official story they broke. That breakdown is on the channel now.",
-   "img": "inscription",
-   "tone": "confidence"
-  },
-  {
-   "id": "end",
-   "text": "Subscribe to Black Box Breakdown for the next real investigation.",
-   "chapter": "SUBSCRIBE",
-   "img": "memorial",
-   "cap": "Watch next: The Tapes That Broke NORAD's 9/11 Story"
-  }
- ]
+    "note": "HIGH: 265 dead incl. 5 on the ground; ~90% of passengers of Dominican descent; probable cause names the deceased F/O's inputs and was contested by APA and by his late father (d. 2014; widow Rhoda and daughter Siri survive). F/O inputs are always 'the NTSB found'. No victim surnames in cap/stat/chapter. Terrorism only as the documented same-day sequence. Sara Hammel material EXCLUDED."
+  },
+  "scenes": [
+    {
+      "id": "h1",
+      "text": "November twelfth, two thousand one. Belle Harbor, Queens. Nine sixteen in the morning — sixty two days after September eleventh.",
+      "video": "tollbooth_1.mp4",
+      "videoQuery": "File:American Airlines Flight 587 Toll Booth video.ogv",
+      "videoFrom": 0,
+      "cap": "November 12, 2001 · Belle Harbor, Queens · 9:16 a.m.",
+      "stat": "62 DAYS AFTER 9/11",
+      "statColor": "#FF4D4D",
+      "tone": "neutral",
+      "note": "HOOK-DOCTOR 2026-10-24. Fern open: date → place → time, with the recognized element (9/11) in line 1 per the CLAIMS recognition-bridge constraint. TBTA toll-plaza security camera, PD via NTSB docket items 205/208. Archival plate, never full-bleed. Clip is 34.94 s — scan frames at 0/8/20 s before locking videoFrom (h1 0–7, h2 8–20, h5 20–32: sequential, no overlap). REVIEW 2026-10-24: SLICE PLAN (monotony gate compares filenames; each distinct camera view of a source .ogv is its own file, videoFrom is relative to that slice — re-scan frames at 0/8/15 s after slicing): tollbooth_1 = view 1 (dot crossing the bay), tollbooth_2 = view 2 (descending dot / streak), tollbooth_3 = view 3 (smoke rising over Belle Harbor) from File:American Airlines Flight 587 Toll Booth video.ogv (34.94 s, docket item 207: four views); takeoff_1 = taxi/takeoff-roll view, takeoff_2 = climbout / smoke-on-horizon view from File:American Airlines Flight 587 takeoff.ogv (50.73 s); ntsbanim_1 = wake-encounter segment, ntsbanim_2 = pedal/rudder-trace segment, ntsbanim_3 = post-separation fall from File:American Airlines Flight 587 Accident animation.ogv (265 s). All PD via NTSB docket item 208."
+    },
+    {
+      "id": "h2",
+      "text": "A security camera at a toll plaza across Jamaica Bay catches an airliner falling out of the sky. It left Kennedy less than two minutes ago. Two hundred sixty people are on board.",
+      "video": "tollbooth_2.mp4",
+      "videoFrom": 0.3,
+      "cap": "Toll-plaza security camera · 2–3 fields per second",
+      "tone": "tension",
+      "note": "Stakes land in line 2 (260 aboard, anchor c61). The 2–3 fps / stop-motion explanation lives in the cap, not the narration (hook-doctor: no throat-clearing). Liftoff 0914:29 → crash about 0916:15 = under two minutes (AAR p.1/p.3). View 2 of the toll-plaza tape (the fall) — distinct slice so h1→h2 is not a back-to-back repeat.",
+      "videoQuery": "File:American Airlines Flight 587 Toll Booth video.ogv"
+    },
+    {
+      "id": "h3",
+      "text": "American Airlines Flight five eighty seven, bound for Santo Domingo, comes down on a Queens neighborhood that had lost about sixty five of its own at the World Trade Center.",
+      "video": "takeoff_1.mp4",
+      "videoQuery": "File:American Airlines Flight 587 takeoff.ogv",
+      "videoFrom": 10.5,
+      "cap": "Belle Harbor · about 65 residents killed at the World Trade Center",
+      "tone": "tension",
+      "note": "JFK construction-site camera, PD via NTSB docket item 208; clip is 50.73 s (h3 0–11, h6 11–16, h7 16–31). On-screen clock is NOT real time — crop or ignore it. 'about sixty five' = DATA CORRECTIONS #10 phrasing (H.Res.870). h1–h3 = 82 words ≈ 26.5 s VO at Grant's 3.1 w/s — clears preflight's 25 s pure-VO real-video gate by ~1.5 s and puts h4 at ≈0:29.5 wall-clock (VO + 3×LEAD/HOLD). Do NOT add words to h1–h3 without re-checking both numbers."
+    },
+    {
+      "id": "h4",
+      "text": "What investigators lifted out of Jamaica Bay, roughly a mile north of the wreckage, was this. The airplane's entire tail fin. It had come off in the air — and the fin itself, investigators would find, was not the problem.",
+      "img": "fin",
+      "query": "American Airlines Flight 587 vertical stabilizer recovered Jamaica Bay crane NTSB",
+      "camera": "push",
+      "cap": "The vertical stabilizer, recovered from Jamaica Bay",
+      "tone": "shock",
+      "note": "THUMBNAIL PROMISE — File:American Airlines Flight 587 vertical stabilizer.png (NTSB, PD). Starts right after the 25 s real-video gate (≈0:29.5 wall-clock at Grant's pace; no PD motion of the fin exists, so this is the one still before 0:30 — flagged to Akshay). OPENS THE LOOP: 'the fin itself was not the problem' = Finding 6 (performed consistent with its design and certification), Finding 1 (fatigue not a factor), NTSB press release Oct 26 2004 (composite not a factor). Closed by coda4. 'roughly a mile north' = DATA CORRECTIONS #2. REVIEW 2026-10-24: 'fin' is now a SINGLE-FILE prefix = Commons File:American Airlines Flight 587 vertical stabilizer.png only, so the thumbnail promise and the title card always render the thumbnail asset; the DVIDS/FAA recovery photos moved to prefix 'recovery'."
+    },
+    {
+      "id": "h5",
+      "text": "Across the city, the assumption was instant, and it was the same everywhere. The bridges and tunnels closed. Fighter jets went up. By midday the FBI was on the ground in Queens.",
+      "video": "tollbooth_3.mp4",
+      "videoFrom": 0,
+      "cap": "Bridges and tunnels closed · fighters scrambled · FBI on site",
+      "tone": "tension",
+      "note": "CLAIMS B.7: bridges/tunnels closed to inbound traffic, fighters scrambled (Fleischer), FBI NY Assistant Director on site per the 12:08 briefing. View 3 (smoke rising) — the city-reaction beat over the real aftermath motion.",
+      "videoQuery": "File:American Airlines Flight 587 Toll Booth video.ogv"
+    },
+    {
+      "id": "h6",
+      "text": "New York thought it was happening again. It wasn't.",
+      "video": "takeoff_2.mp4",
+      "videoFrom": 20.5,
+      "cap": "It wasn't.",
+      "tone": "shock",
+      "note": "The title line, spoken. Short beat — let it breathe. Climbout / smoke-on-horizon view of the JFK construction-cam tape.",
+      "videoQuery": "File:American Airlines Flight 587 takeoff.ogv"
+    },
+    {
+      "id": "h7",
+      "text": "Two hundred sixty five people died that morning, and not one of them because of a bomb. What tore the tail off took twenty two seconds — and three years later split the Safety Board three votes to two over who was to blame.",
+      "video": "takeoff_1.mp4",
+      "videoFrom": 0,
+      "stat": "265 DEAD",
+      "statColor": "#FF4D4D",
+      "tone": "shock",
+      "note": "Loop, second turn: 22 s = first wake encounter 0915:36 → fin separation 0915:58.4 (AAR pp.3–5); 3–2 vote = AAR fn 211 (Carmody + Healing against Rosenker's reordering), adopted Oct 26 2004. Paid off at c7 (the vote) and coda4 (the tail performed as designed)."
+    },
+    {
+      "id": "sting",
+      "sting": true,
+      "text": "You're watching Black Box Breakdown.",
+      "tone": "confidence"
+    },
+    {
+      "id": "title",
+      "text": "This is American Airlines Flight five eighty seven — the twenty two seconds that took the tail off an airliner, the three-to-two vote over who was to blame, and the city that spent a morning believing it was under attack.",
+      "chapter": "NEW YORK THOUGHT IT WAS\n9/11 AGAIN. IT WASN'T",
+      "img": "fin",
+      "cap": "BLACK BOX BREAKDOWN — AMERICAN AIRLINES FLIGHT 587"
+    },
+    {
+      "id": "c1",
+      "chapter": "1 — FOUR SIXTEEN\nIN THE MORNING",
+      "text": "That morning began with two alarm clocks, and an airplane that had been flying for thirteen years.",
+      "img": "a300",
+      "query": "American Airlines Airbus A300-605R N14053 photo",
+      "note": "LICENCE FLAG (review 2026-10-24): Commons File:Airbus A300B4-605R, American Airlines JP5950383.jpg (N14053, Jon Proctor) is GFDL 1.2 — NOT in the PD/CC0/CC-BY/CC-BY-SA allow-list; airliners.net AN0201219/AN0201220 are not free. Fill 'a300' from PD/CC sources only (e.g. the 2005 PD-self type shot '…inbound to JFK.jpg', captioned as the type, never as N14053) and have the licence gate confirm before render."
+    },
+    {
+      "id": "c1_1",
+      "text": "Plainsboro, New Jersey. Four sixteen a.m. An alarm goes off. Edward States — forty two, a former Air Force Reserve transport pilot, Cub Scout committee member, halfway through remodeling his own bathroom — is out the door by five.",
+      "img": "jfk",
+      "cap": "4:16 a.m. · Plainsboro, New Jersey",
+      "tone": "neutral",
+      "note": "HP Factual pp.11–12 (alarm 0416, left ~0500); APFA p.26 (USAF Reserve C-141); 6ABC (Plainsboro). No face — the airplane stands in for the man."
+    },
+    {
+      "id": "c1_2",
+      "text": "His first officer's alarm is set for five thirty. Sten Molin, thirty four, taught to fly at eighteen by his father, a retired airline pilot. Around ten thirty the night before, he had called his parents to say he was flying in the morning.",
+      "img": "a300",
+      "query": "American Airlines 587 before takeoff JFK runway 31L construction camera still",
+      "tone": "neutral",
+      "note": "HP Factual pp.5–7 (alarm 0530, sailboat, ~2230 call to parents, taught by Stan Molin)."
+    },
+    {
+      "id": "c1_3",
+      "text": "A friend later told investigators he was looking forward to this trip because of the captain — in her words, such a great person, and nice to work with. They had flown thirty six legs together.",
+      "img": "jfk",
+      "cap": "A friend, to NTSB investigators: “such a great person, and nice to work with.”",
+      "stat": "36 LEGS FLOWN TOGETHER",
+      "tone": "neutral"
+    },
+    {
+      "id": "c1_4",
+      "text": "At six fourteen the captain checked in at Kennedy; at six thirty, the first officer. The airplane waiting for them was an Airbus A three hundred, registration November one four zero five three, delivered new to American in July nineteen eighty eight. Thirty seven and a half thousand hours. Every airworthiness directive complied with.",
+      "img": "a300",
+      "cap": "N14053 · Airbus A300-605R · delivered July 12, 1988",
+      "tone": "neutral"
+    },
+    {
+      "id": "c1_7",
+      "text": "Flight five eighty seven was not just any route. In Washington Heights, the Dominican heart of Manhattan, it had something close to cult status: every Dominican in New York, one organizer later said, has either taken that flight or knows someone who has.",
+      "img": "jfk",
+      "cap": "“Every Dominican in New York has either taken that flight or knows someone who has.”",
+      "tone": "neutral"
+    },
+    {
+      "id": "c1_8",
+      "text": "Two hundred fifty one passengers boarded that Monday, five of them infants on laps. Around ninety percent were of Dominican descent; dozens were from a single town, Baní. It was sixty two days after September eleventh. At eight fifty nine, pushback. The first officer would fly this leg.",
+      "img": "a300",
+      "stat": "~90% OF DOMINICAN DESCENT",
+      "tone": "neutral"
+    },
+    {
+      "id": "r1",
+      "speaker": "CAPT",
+      "timestamp": "9:02:05 AM",
+      "radioLabel": "CVR RECREATION",
+      "text": "your leg, you check the rudders."
+    },
+    {
+      "id": "r2",
+      "speaker": "FO",
+      "timestamp": "9:02:23 AM",
+      "radioLabel": "CVR RECREATION",
+      "text": "rudders check."
+    },
+    {
+      "id": "c1_10",
+      "text": "A routine pedal check: each pedal pushed almost to its stop, three point seven inches right, three point six left. In the air, at two hundred fifty knots, this airplane would need less than a third of that.",
+      "img": "lug",
+      "cap": "Pedal check: 3.7 in right · 3.6 in left",
+      "tone": "tension"
+    },
+    {
+      "id": "c2",
+      "chapter": "2 — THE PLANE\nIN FRONT",
+      "text": "Ahead of them in line for runway three one left was a Japan Airlines seven forty seven. Heavy. That airplane is where this story turns.",
+      "img": "jfk"
+    },
+    {
+      "id": "c2_1",
+      "text": "In the tower, the local controller — five years into the job, on the fourth day of her week — knew what a seven forty seven leaves behind it.",
+      "video": "takeoff_1.mp4",
+      "videoFrom": 3,
+      "tone": "neutral",
+      "note": "ATC Factual pp.5–6 — Felicia Miller, FAA since May 1996, shift 0700–1500, fourth of five. Living private individual: every clause 'told investigators'; no face."
+    },
+    {
+      "id": "r3",
+      "speaker": "ATC",
+      "timestamp": "9:11:08 AM",
+      "radioLabel": "ATC RECREATION",
+      "text": "Japan Airlines forty seven heavy, wind three zero zero at one zero runway three one left, cleared for takeoff."
+    },
+    {
+      "id": "r4",
+      "speaker": "ATC",
+      "timestamp": "9:11:36 AM",
+      "radioLabel": "ATC RECREATION",
+      "text": "American five eighty seven heavy Kennedy tower, caution wake turbulence runway three one left, taxi into position and hold."
+    },
+    {
+      "id": "c2_2",
+      "text": "Caution wake turbulence. Two spinning vortices trail from the wingtips of every heavy jet, strongest when it is slow and climbing. The rule for a heavy behind a heavy is two minutes — or four nautical miles. She told investigators she added more than four miles, because seven forty sevens are often slow climbers.",
+      "video": "takeoff_2.mp4",
+      "videoFrom": 0,
+      "cap": "Heavy behind heavy: 2 minutes OR 4 nautical miles",
+      "tone": "neutral"
+    },
+    {
+      "id": "r5",
+      "speaker": "CAPT",
+      "timestamp": "9:13:21 AM",
+      "radioLabel": "CVR RECREATION",
+      "text": "you have the airplane."
+    },
+    {
+      "id": "r6",
+      "speaker": "ATC",
+      "timestamp": "9:13:27 AM",
+      "radioLabel": "ATC RECREATION",
+      "text": "American five eight seven heavy, wind three zero zero at niner, runway three one left, cleared for takeoff."
+    },
+    {
+      "id": "r7",
+      "speaker": "CAPT",
+      "timestamp": "9:13:31 AM",
+      "radioLabel": "CVR RECREATION",
+      "text": "cleared for takeoff, American ah, five eight seven heavy."
+    },
+    {
+      "id": "r8",
+      "speaker": "FO",
+      "timestamp": "9:13:35 AM",
+      "radioLabel": "CVR RECREATION",
+      "text": "you happy with that distance?"
+    },
+    {
+      "id": "r9",
+      "speaker": "CAPT",
+      "timestamp": "9:13:38 AM",
+      "radioLabel": "CVR RECREATION",
+      "text": "aah, he's.... we'll be all right once we get rollin'. he's supposed to be five miles by the time we're airborne, that's the idea."
+    },
+    {
+      "id": "r10",
+      "speaker": "FO",
+      "timestamp": "9:13:45 AM",
+      "radioLabel": "CVR RECREATION",
+      "text": "so you're happy. lights?"
+    },
+    {
+      "id": "c2_3",
+      "text": "Nine thirteen and fifty one seconds: the takeoff roll. Nine fourteen and twenty nine: liftoff. One minute and forty seconds after the seven forty seven.",
+      "video": "takeoff_1.mp4",
+      "videoFrom": 15.5,
+      "stat": "1 MIN 40 SEC BEHIND JAL 47",
+      "tone": "tension"
+    },
+    {
+      "id": "hf_plate",
+      "text": "Less than the two minutes the rule names. But more than the four miles the same rule also allows. The safety board checked, and wrote it down as its third finding: the controller complied.",
+      "hf": "title-chapter2",
+      "tone": "neutral"
+    },
+    {
+      "id": "c2_4",
+      "text": "At five hundred feet the airplane began the Bridge Climb — a left turn to heading two two zero, the standard departure out over Jamaica Bay.",
+      "video": "takeoff_2.mp4",
+      "videoFrom": 6.5,
+      "tone": "neutral"
+    },
+    {
+      "id": "r11",
+      "speaker": "ATC",
+      "timestamp": "9:14:42 AM",
+      "radioLabel": "ATC RECREATION",
+      "text": "American five eight seven heavy, turn left. fly the Bridge Climb. contact New York departure. good morning."
+    },
+    {
+      "id": "r12",
+      "speaker": "CAPT",
+      "timestamp": "9:14:48 AM",
+      "radioLabel": "CVR RECREATION",
+      "text": "American five eighty seven heavy, so long."
+    },
+    {
+      "id": "c2_5",
+      "text": "The controller told investigators that the last time she saw the airplane was as it made that left turn.",
+      "video": "takeoff_2.mp4",
+      "videoFrom": 7.5,
+      "tone": "tension"
+    },
+    {
+      "id": "hf_route",
+      "text": "The seven forty seven had flown the same climb a minute and forty seconds earlier, and was by now at least four point three miles ahead and three thousand eight hundred feet above. Its wake — about a hundred seconds old — was sinking slowly into the air Flight five eighty seven was about to climb through.",
+      "hf": "route-map",
+      "tone": "tension"
+    },
+    {
+      "id": "r13",
+      "speaker": "CAPT",
+      "timestamp": "9:15:00 AM",
+      "radioLabel": "CVR RECREATION",
+      "text": "ah New York, American five eighty seven heavy, thirteen hundred feet, we're climbing to five thousand."
+    },
+    {
+      "id": "r14",
+      "speaker": "ATC",
+      "timestamp": "9:15:04 AM",
+      "radioLabel": "ATC RECREATION",
+      "text": "American five eight seven heavy, New York departure. radar contact. climb maintain one three thousand."
+    },
+    {
+      "id": "c2_6",
+      "text": "Everything to this point is routine. At nine fifteen and twenty eight, the captain says: clean machine. There are forty six seconds left on the tape.",
+      "video": "takeoff_2.mp4",
+      "videoFrom": 14.5,
+      "tone": "tension",
+      "extraHold": 8
+    },
+    {
+      "id": "c3",
+      "chapter": "3 — TWENTY-TWO\nSECONDS",
+      "text": "From the first bump of wake to the moment the tail came off took twenty two seconds. Here is what the recorders say happened inside them.",
+      "img": "toll",
+      "query": "AA587 Tollbooth Video still frame"
+    },
+    {
+      "id": "r15",
+      "speaker": "ATC",
+      "timestamp": "9:15:36 AM",
+      "radioLabel": "ATC RECREATION",
+      "text": "American five eighty seven heavy, turn left, proceed direct Wavey."
+    },
+    {
+      "id": "c3_1",
+      "text": "Nine fifteen and thirty six seconds, climbing through about seventeen hundred feet. The first wake encounter. A small drop, a lurch to the left. The control wheel moves seven times; the rudder pedals barely move. The airplane rides it out. Then comes the last transmission air traffic control will ever receive from Flight five eighty seven.",
+      "video": "ntsbanim_1.mp4",
+      "videoQuery": "File:American Airlines Flight 587 Accident animation.ogv",
+      "videoFrom": 4,
+      "cap": "NTSB reconstruction animation from flight-data-recorder data",
+      "tone": "tension",
+      "note": "NTSB 3D reconstruction, 265 s, silent, PD (docket item 208). Scan for the wake-encounter segment and set videoFrom to it; the caption keeps it labelled a reconstruction."
+    },
+    {
+      "id": "r16",
+      "speaker": "CAPT",
+      "timestamp": "9:15:41 AM",
+      "radioLabel": "CVR RECREATION",
+      "text": "uh, we'll turn direct Wavey, American five eighty seven heavy."
+    },
+    {
+      "id": "r17",
+      "speaker": "CAPT",
+      "timestamp": "9:15:44 AM",
+      "radioLabel": "CVR RECREATION",
+      "text": "little wake turbulence, huh?"
+    },
+    {
+      "id": "r18",
+      "speaker": "FO",
+      "timestamp": "9:15:45 AM",
+      "radioLabel": "CVR RECREATION",
+      "text": "yeah.",
+      "note": "Transcript reads '…yeah.' — leading ellipsis dropped to avoid the Cartesia empty-clip bug; normalized text is identical."
+    },
+    {
+      "id": "r19",
+      "speaker": "FO",
+      "timestamp": "9:15:48 AM",
+      "radioLabel": "CVR RECREATION",
+      "text": "two fifty thank you."
+    },
+    {
+      "id": "hf_timeline",
+      "text": "Nine fifteen and fifty one seconds. About two thousand four hundred feet above the ground. The second wake encounter — stronger. The airplane rolls further left. And this time, the safety board found, the first officer's response is different.",
+      "hf": "timeline-flight",
+      "tone": "tension"
+    },
+    {
+      "id": "c3_3",
+      "text": "The control wheel goes to sixty four degrees right. Four tenths of a second later, the right rudder pedal goes down an inch and seven tenths. Then left. Then right. Then right again, harder. Then left, harder still. Then right.",
+      "video": "ntsbanim_2.mp4",
+      "videoFrom": 3.4,
+      "cap": "NTSB reconstruction animation · pedal and rudder traces",
+      "tone": "tension",
+      "videoQuery": "File:American Airlines Flight 587 Accident animation.ogv",
+      "note": "Pedal/rudder-trace segment of the NTSB reconstruction (its own slice)."
+    },
+    {
+      "id": "hf_pedals",
+      "text": "Six pedal inputs in under seven seconds, four of them reversals. At this speed the airplane needs barely an inch of pedal travel and thirty two pounds of foot pressure to reach full rudder. Each push swung the tail the other way, and the sideslip built — four degrees, then seven, then eleven.",
+      "hf": "chart-pedals",
+      "tone": "tension"
+    },
+    {
+      "id": "r20",
+      "speaker": "FO",
+      "timestamp": "9:15:54 AM",
+      "radioLabel": "CVR RECREATION",
+      "text": "max power.",
+      "note": "Transcript annotation '[spoken in strained voice]' is narrated in the next scene rather than voiced."
+    },
+    {
+      "id": "c3_4",
+      "text": "Max power — in a strained voice, the transcript notes. The captain did not change the power setting.",
+      "img": "toll",
+      "tone": "tension"
+    },
+    {
+      "id": "r21",
+      "speaker": "CAPT",
+      "timestamp": "9:15:55 AM",
+      "radioLabel": "CVR RECREATION",
+      "text": "you all right?"
+    },
+    {
+      "id": "r22",
+      "speaker": "FO",
+      "timestamp": "9:15:55 AM",
+      "radioLabel": "CVR RECREATION",
+      "text": "yea, I'm fine."
+    },
+    {
+      "id": "r23",
+      "speaker": "CAPT",
+      "timestamp": "9:15:56 AM",
+      "radioLabel": "CVR RECREATION",
+      "text": "hang onto it. hang onto it."
+    },
+    {
+      "id": "c3_5",
+      "text": "A snap on the recording. Then a loud thump.",
+      "img": "finwreck",
+      "tone": "tension",
+      "extraHold": 6,
+      "query": "FAA Lessons Learned N14053 vertical stabilizer wreckage fin attach points photo",
+      "note": "REVIEW 2026-10-24: new prefix 'finwreck' = FAA Lessons-Learned (NTSB-credited, PD) fin_attach_points_on_wreckage.jpg / vertical_stabilizer.jpg / failed_fin_at_attach_point.jpg — the recovered fin on the ground, CLAIMS §FOOTAGE 'Tail separation — the lugs' row."
+    },
+    {
+      "id": "r24",
+      "speaker": "FO",
+      "timestamp": "9:15:57 AM",
+      "radioLabel": "CVR RECREATION",
+      "text": "let's go for power please."
+    },
+    {
+      "id": "c3_6",
+      "text": "Nine fifteen, fifty eight point four seconds. With the rudder about eleven degrees right and the airplane skidding sideways at eleven or twelve degrees, the right rear attachment fitting of the vertical fin fractures. The rest follow immediately.",
+      "img": "lug",
+      "kinetic": {
+        "words": [
+          "9:15:58.4"
+        ],
+        "sub": "right rear main attachment fitting fractures"
+      },
+      "tone": "shock"
+    },
+    {
+      "id": "c3_7",
+      "text": "A tenth of a second later the cockpit microphone picks up a loud bang. The fin and rudder are gone, falling toward Jamaica Bay. The airplane is flying at two hundred fifty one knots with no tail fin.",
+      "video": "tollbooth_2.mp4",
+      "videoFrom": 0,
+      "stat": "251 KNOTS",
+      "statColor": "#FF4D4D",
+      "tone": "shock"
+    },
+    {
+      "id": "c3_8",
+      "text": "This is the actual transcript page. The bang is logged at nine fifteen, fifty eight point five seconds. Everything under it is from the last sixteen seconds of the recording.",
+      "img": "cvr_p27",
+      "exhibit": true,
+      "source": "NTSB docket DCA02MA001, item 180 — CVR Group Chairman's Factual Report, transcript p. 27 of 28",
+      "highlight": [
+        0.086,
+        0.517,
+        0.197,
+        0.045
+      ],
+      "tone": "tension",
+      "note": "Commons File:American Airlines Flight 587 CVR transcript.pdf (PD) — pdftoppm the page whose footer reads '27 of 28'. Measure the highlight box on the fetched page."
+    },
+    {
+      "id": "hf_altitude",
+      "text": "The board later estimated the loads on the fin at about twice what it was certified to carry — beyond its ultimate design load. Its finding: the tail did exactly what it was designed to do. It failed in overstress, right rear lug first, under loads no transport tail is built to survive.",
+      "hf": "chart-altitude",
+      "tone": "neutral"
+    },
+    {
+      "id": "c3_9",
+      "text": "Without a fin the airplane yaws violently; the sideslip reaches thirty one degrees before the data ends, thirteen point six seconds before impact. Both engines separate during the fall — the report does not fix the exact second.",
+      "video": "ntsbanim_3.mp4",
+      "videoFrom": 0,
+      "cap": "NTSB reconstruction animation",
+      "tone": "tension",
+      "videoQuery": "File:American Airlines Flight 587 Accident animation.ogv",
+      "note": "Post-separation segment of the reconstruction (its own slice)."
+    },
+    {
+      "id": "r25",
+      "speaker": "FO",
+      "timestamp": "9:16:07 AM",
+      "radioLabel": "CVR RECREATION",
+      "text": "what the hell are we into. we're stuck in it.",
+      "note": "Transcript has an unintelligible-word marker (*) after 'into'; omitted from the spoken line, normalized text identical."
+    },
+    {
+      "id": "r26",
+      "speaker": "CAPT",
+      "timestamp": "9:16:12 AM",
+      "radioLabel": "CVR RECREATION",
+      "text": "get out of it, get out of it."
+    },
+    {
+      "id": "c3_10",
+      "text": "Nine sixteen and fourteen point eight seconds. End of recording. The cockpit voice recorder had run for thirty minutes and thirty nine seconds — on the emergency bus, after everything else was gone.",
+      "video": "tollbooth_1.mp4",
+      "videoFrom": 6.9,
+      "cap": "9:16:14.8 — END of RECORDING",
+      "tone": "shock"
+    },
+    {
+      "id": "c3_11",
+      "text": "The toll-plaza camera across the bay catches the end of it: a dot, then a streak, then smoke rising from Belle Harbor. About nine sixteen and fifteen seconds. Newport Avenue and Beach one hundred thirty first Street.",
+      "video": "tollbooth_3.mp4",
+      "videoFrom": 1.5,
+      "stat": "9:16 A.M.",
+      "statColor": "#FF4D4D",
+      "tone": "shock"
+    },
+    {
+      "id": "c3_12",
+      "text": "The main wreckage came down in a block of houses about four miles southwest of the runway. The left engine landed on a gas station forecourt eight hundred feet away; the right engine on a house, and on a boat in its driveway.",
+      "img": "site",
+      "query": "American Airlines Flight 587 crash site Belle Harbor Queens street wreckage investigators",
+      "cap": "4 homes destroyed · 3 substantially damaged · 3 with minor damage",
+      "tone": "tension",
+      "note": "Commons File:American Airlines Flight 587 accident site.jpg is MIS-DESCRIBED on Commons — it is the ground scene (correction #26). Caption it as the Belle Harbor street; log in ATTRIBUTION.md. FAA engine_at_gas_station.jpg (NTSB-credited, PD) belongs in this pool."
+    },
+    {
+      "id": "c3_13",
+      "text": "Two hundred sixty people on the airplane. Five people in the houses below — among them a mother and her son, and a man in a front bedroom. Two hundred sixty five.",
+      "img": "noaa",
+      "stat": "265 DEAD",
+      "statColor": "#FF4D4D",
+      "tone": "melancholy",
+      "extraHold": 10,
+      "query": "Flight 587 NOAA aerial photo of crash site Belle Harbor",
+      "note": "REVIEW 2026-10-24: new prefix 'noaa' = Commons File:Flight 587 NOAA Photo of Crash Site.jpg (NOAA, PD aerial) — CLAIMS §FOOTAGE 'Ground scene' row."
+    },
+    {
+      "id": "c4",
+      "chapter": "4 — THE SECOND\nATTACK",
+      "text": "For the next several hours, New York City believed it was under attack again. Here is how that morning actually unfolded.",
+      "img": "site"
+    },
+    {
+      "id": "c4_1",
+      "text": "Belle Harbor is a narrow strip of the Rockaway peninsula, home to one of the city's highest concentrations of firefighters. On September eleventh it had lost about sixty five of its own. Sixty two days later, a jet fell on it. It was the Veterans Day holiday; the local paper noted the schools were closed.",
+      "img": "noaa",
+      "stat": "~65 RESIDENTS LOST ON 9/11",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c4_2",
+      "text": "A fire battalion chief who lived on Beach one hundred twenty ninth Street told the local paper: I heard the plane hit and then my whole house shook. By the Queens Chronicle's count, the first fire units arrived within about three minutes.",
+      "img": "gasstation",
+      "cap": "“I heard the plane hit and then my whole house shook.” — FDNY battalion chief, to The Wave",
+      "tone": "tension",
+      "query": "FAA Lessons Learned N14053 engine at gas station Beach 129th Street photo",
+      "note": "REVIEW 2026-10-24: new prefix 'gasstation' = FAA engine_at_gas_station.jpg (NTSB-credited, PD) — the left engine on the Beach 129th forecourt (c58)."
+    },
+    {
+      "id": "c4_3",
+      "text": "At about nine twenty five, during a National Security Council meeting, an aide handed President Bush a note. By late morning the FAA had closed Kennedy, LaGuardia and Newark, the city had closed its bridges and tunnels to inbound traffic, and fighters were up.",
+      "img": "recovery",
+      "cap": "9:25 a.m. — the President is handed a note",
+      "tone": "tension",
+      "note": " REVIEW 2026-10-24: new prefix 'recovery' = DVIDS 1070467 / 1070436 (USCG PA3 Mike Hvozda, 12 Nov 2001, PD) + FAA fin_recovery.jpg — aftermath-era exemption; moved out of 'fin' so that prefix stays single-file.",
+      "query": "American Airlines Flight 587 vertical stabilizer recovery Jamaica Bay Coast Guard November 12 2001"
+    },
+    {
+      "id": "c4_4",
+      "text": "Then the rumor started. Wire reports said the FBI believed there had been an explosion on board. At eight minutes past noon the White House press secretary said he had been informed that no government official had given any such indication. Nothing ruled in, nothing ruled out; no unusual communications with the cockpit.",
+      "img": "site",
+      "cap": "“…there was no government official who gave any such indication.” — White House, 12:08 p.m.",
+      "tone": "tension"
+    },
+    {
+      "id": "c4_5",
+      "text": "By early afternoon an FBI official — unnamed — was telling the wires that the evidence so far pointed to an accident of some kind, not terrorism. The mayor asked New Yorkers not to speculate, and said there was no threat to them.",
+      "img": "recovery",
+      "tone": "neutral"
+    },
+    {
+      "id": "c4_6",
+      "text": "That evening the chairman of the safety board, Marion Blakey, said in New York: everything points to an accident. The communications from the cockpit, she said, were normal up until the last few seconds before the crash.",
+      "img": "langley",
+      "query": "Marion Blakey NASA Langley AA587 vertical stabilizer inspection February 2002",
+      "cap": "“Everything points to an accident.” — NTSB Chairman Marion Blakey, Nov. 12, 2001 · photo: NASA Langley, Feb. 2002",
+      "tone": "neutral",
+      "note": "File:Marion Blakey AA587.jpg (NASA/Jeff Caplan, PD) is from Feb 2002 at Langley — caption it as the later inspection, never as the evening briefing."
+    },
+    {
+      "id": "c4_7",
+      "text": "But three hundred fifty four witnesses had been watching, and more than half reported seeing fire. Some were certain the fire came first, and the tail second. A retired firefighter among them told a newspaper: I'll go to my grave with that.",
+      "img": "toll",
+      "stat": "354 WITNESSES · 56% REPORTED FIRE",
+      "tone": "tension"
+    },
+    {
+      "id": "c4_8",
+      "text": "The board's answer, in the end, was that they were most likely seeing fuel released as the airplane broke up, or engine compressor surges — after the fin was already gone. The fin's attachment lugs had broken in overstress, the right rear first. The FBI was a formal party to the investigation; the case was treated, from the start, as an accident.",
+      "img": "lug",
+      "cap": "Recovered from Jamaica Bay — the right rear lug failed first",
+      "tone": "neutral"
+    },
+    {
+      "id": "c5",
+      "chapter": "5 — THIRTY-TWO\nPOUNDS",
+      "text": "So if it was not a bomb, and the wake was, in one expert's words, nothing extraordinary — why did a tail come off a modern airliner in clear air?",
+      "img": "rudder",
+      "query": "FAA Lessons Learned N14053 rudder system rudder fracture failed rudder points photo",
+      "note": "REVIEW 2026-10-24: new prefix 'rudder' = FAA Lessons-Learned (NTSB-credited, PD) rudder_system.jpg / rudder_fracture.jpg / failed_rudder_pts.jpg — CLAIMS §FOOTAGE 'Tail separation — the lugs' row."
+    },
+    {
+      "id": "c5_1",
+      "text": "The first suspect was the material. The A three hundred's fin is carbon-fiber composite, and in two thousand one that was new enough that the New York Times asked whether a workhorse of the skies had a deadly defect.",
+      "img": "finwreck",
+      "cap": "“A Workhorse of the Skies, Perhaps With a Deadly Defect” — New York Times, Nov. 19, 2001",
+      "tone": "tension"
+    },
+    {
+      "id": "c5_2",
+      "text": "The fin went to NASA's Langley center for examination; the lugs went to Hamburg for testing. They broke at roughly twice their design limit load — exactly as designed. The composite, the board said, was not a factor; the tail failed well beyond its certificated and design limits. Which moved the whole investigation to the pedals.",
+      "img": "langley",
+      "cap": "Composite construction: “not a factor” — NTSB, Oct. 26, 2004",
+      "tone": "neutral",
+      "extraHold": 6
+    },
+    {
+      "id": "hf_exhibit",
+      "text": "The numbers are on page twenty three of the final report. At one hundred thirty five knots, full rudder on this airplane takes sixty five pounds of foot pressure and four inches of travel. At two hundred fifty knots, thirty two pounds — and one point two inches.",
+      "hf": "exhibit-techlog",
+      "tone": "neutral"
+    },
+    {
+      "id": "c5_3",
+      "text": "Twenty two pounds of that is just the breakout force — the stiffness you push through before the pedal moves at all. So at climb speed, about ten pounds more, and an inch of travel, took the rudder to its limit.",
+      "img": "rudder",
+      "stat": "BREAKOUT FORCE: 22 LB",
+      "tone": "neutral"
+    },
+    {
+      "id": "c5_4",
+      "text": "Airbus had made two design choices on this version of the airplane. It had lightened the pedal forces, for consistency, after pilots asked for lighter control-wheel forces. And it had changed the device that caps rudder travel at speed from a variable-ratio design to a simpler variable stop.",
+      "img": "aar_p24",
+      "exhibit": true,
+      "source": "NTSB AAR-04/04, p. 24 — §1.6.2.2 Airbus Changes to the A300-600 Rudder Control System Design",
+      "highlight": [
+        0.143,
+        0.482,
+        0.714,
+        0.057
+      ],
+      "tone": "neutral",
+      "note": "pdftoppm the AAR PDF: printed p.24 = PDF p.38 (§1.6.2.2, Airbus's two design changes; Table 3 on p.23 does not carry this passage — moved 2026-10-24 footage pass). Single-file prefix. Highlight measured with pdftotext -bbox."
+    },
+    {
+      "id": "c5_5",
+      "text": "The result, the board wrote, was a substantial increase in the airplane's response to a given amount of force above the pedal breakout force at higher airspeeds — twice as responsive to a pedal displacement at two hundred fifty knots as at one sixty five.",
+      "img": "aar_p26",
+      "exhibit": true,
+      "source": "NTSB AAR-04/04, p. 26 — §1.6.2.2, Figure 8 discussion: twice as responsive at 250 KCAS as at 165 KCAS",
+      "highlight": [
+        0.143,
+        0.162,
+        0.714,
+        0.039
+      ],
+      "tone": "neutral",
+      "note": "printed p.26 = PDF p.40. Single-file prefix."
+    },
+    {
+      "id": "c5_6",
+      "text": "Finding eleven, in the board's words: the A three hundred dash six hundred couples a rudder travel limiter system that increases in sensitivity with airspeed with the lightest pedal forces of all the transport-category aircraft evaluated.",
+      "img": "rudder",
+      "cap": "“…the lightest pedal forces of all the transport-category aircraft evaluated.” — NTSB Finding 11",
+      "tone": "tension"
+    },
+    {
+      "id": "c5_7",
+      "text": "At the public hearing, an Airbus training vice president put the manufacturer's position plainly: the rudder is not a primary flight control to induce roll under any circumstances unless normal roll control is not functional. So why would a trained airline pilot — as the board found this one did — start pushing it, back and forth, to the stop?",
+      "img": "a300",
+      "cap": "“…not a primary flight control to induce roll under any circumstances…” — Airbus, NTSB public hearing",
+      "tone": "tension"
+    },
+    {
+      "id": "c6",
+      "chapter": "6 — WHAT THE\nTRAINING TAPE SAID",
+      "text": "In nineteen ninety six, American Airlines built a new upset-recovery course. It would be taught to every pilot at the airline. Both of these men took it.",
+      "img": "aamp_booklet"
+    },
+    {
+      "id": "c6_1",
+      "text": "It was called the Advanced Aircraft Maneuvering Program, built after an industry review found loss of control the leading cause of fatal accidents. Nobody at the airline, the report says, had thought its widebodies could be upset by a normal wake encounter.",
+      "img": "aamp_booklet",
+      "exhibit": true,
+      "source": "NTSB docket DCA02MA001, Operations 2 Attachment I — AAMP ground-school booklet, Jan. 1, 1997, p. 16",
+      "highlight": [
+        0.19,
+        0.069,
+        0.52,
+        0.115
+      ],
+      "tone": "neutral",
+      "note": "Fetch via scripts/fetch_ntsb_docket.py; pick the Jan 1, 1997 booklet page with the 'THE RUDDER' line. Single-file prefix."
+    },
+    {
+      "id": "c6_2",
+      "text": "The January nineteen ninety seven booklet — the version these two pilots received — put it in capital letters: at the higher angles of attack, the rudder becomes the most effective roll control.",
+      "img": "aamp_booklet",
+      "exhibit": true,
+      "source": "NTSB docket DCA02MA001, Operations 2 Attachment I — AAMP booklet, Jan. 1, 1997 edition, p. 16",
+      "highlight": [
+        0.12,
+        0.508,
+        0.72,
+        0.159
+      ],
+      "cap": "“At the higher angles of attack, THE RUDDER becomes the most effective roll control.”",
+      "tone": "tension"
+    },
+    {
+      "id": "c6_3",
+      "text": "The course developer, who had personally taught about two hundred pilots that spring, said this on the training video recorded that December: if you jam full right rudder, that's the spin entry procedure, see?",
+      "img": "rudder",
+      "cap": "“…if you jam full right rudder, that's the spin entry procedure, see?” — AAMP video, Dec. 19, 1997",
+      "tone": "tension"
+    },
+    {
+      "id": "c6_4",
+      "text": "In the simulator, pilots were told they were following a heavy jet — some instructors said a seven forty seven. The simulator rolled them ten degrees one way, then past ninety the other, with the controls frozen until the bank passed fifty degrees. Real wake upsets in airliners were usually thirty degrees or less. Finding nine: the exercise could give pilots an unrealistic and exaggerated view of the effects of wake turbulence.",
+      "img": "a300",
+      "cap": "Simulator exercise: controls inhibited until 50° of bank or 10 seconds",
+      "tone": "neutral"
+    },
+    {
+      "id": "c6_6",
+      "text": "Inside American, some people saw the problem immediately. In May nineteen ninety seven the airline's own A three hundred technical pilot wrote to Airbus's chief test pilot that one aspect of the course was — in words the Associated Press later reported — inaccurate and potentially hazardous. Airbus's test pilot replied that he shared the concern.",
+      "img": "aar_p87",
+      "exhibit": true,
+      "source": "NTSB AAR-04/04, p. 87 — the May 22 and May 23, 1997 letters",
+      "highlight": [
+        0.143,
+        0.352,
+        0.714,
+        0.039
+      ],
+      "tone": "tension",
+      "note": "printed p.87 = PDF p.101 — the May 22 letter + May 23 facsimile ('shared the ... concern'). NOTE: the quoted words 'inaccurate and potentially hazardous' are the AP's quote of the letter (CLAIMS §A, CBS/AP), NOT printed on this AAR page — the highlight sits on the May 23 'shared the concern' sentence. Single-file prefix."
+    },
+    {
+      "id": "c6_7",
+      "text": "Five days later, a managing director of flight operations wrote to the chief pilot of grave concerns about some flawed aerodynamic theory and flying techniques — that it was exceptionally dangerous to teach rudder as a primary roll control — and urged immediate corrective action.",
+      "img": "aar_memo",
+      "exhibit": true,
+      "source": "NTSB AAR-04/04, p. 88 — internal American Airlines memo, May 27, 1997",
+      "highlight": [
+        0.143,
+        0.753,
+        0.714,
+        0.057
+      ],
+      "cap": "“…exceptionally dangerous…” — internal American Airlines memo, May 27, 1997",
+      "tone": "tension"
+    },
+    {
+      "id": "c6_8",
+      "text": "American did not hand that memo to the safety board until February two thousand three — fifteen months after the crash.",
+      "img": "aar_memo",
+      "stat": "MEMO GIVEN TO NTSB: FEB. 6, 2003",
+      "tone": "shock",
+      "extraHold": 6,
+      "exhibit": true,
+      "source": "NTSB AAR-04/04, p. 88 — the May 27, 1997 memo and its February 6, 2003 submission to the Board",
+      "highlight": [
+        0.143,
+        0.7,
+        0.714,
+        0.039
+      ],
+      "note": "Held exhibit (highlight moves down the memo page): printed p.89 = PDF p.103; measure the box on the fetched page."
+    },
+    {
+      "id": "c6_9",
+      "text": "And there was a precedent. May twelfth, nineteen ninety seven, Flight nine oh three: an American A three hundred near West Palm Beach stalled in a holding turn, and the pilot used full rudder to stop the roll. Thirty four seconds of oscillation. One serious injury. The airplane landed.",
+      "img": "a300",
+      "cap": "Flight 903 · May 12, 1997 · Florida · same aircraft type",
+      "tone": "tension"
+    },
+    {
+      "id": "c6_10",
+      "text": "Airbus estimated that fin had taken one and a half times its limit load on the first rudder reversal, and loads beyond ultimate after that. It told American the airplane must be deeply inspected. American reported the fin was fine.",
+      "img": "finwreck",
+      "stat": "1.53× LIMIT LOAD — FLIGHT 903",
+      "tone": "tension"
+    },
+    {
+      "id": "c6_11",
+      "text": "In March two thousand two, four months after Belle Harbor, inspectors at Tulsa pulled the pin on that airplane's right rear fin fitting. Underneath it they found delamination — in the same fitting that fractured first on Flight five eighty seven.",
+      "img": "lug",
+      "stat": "MARCH 11, 2002 — DELAMINATION FOUND",
+      "statColor": "#FF4D4D",
+      "tone": "shock"
+    },
+    {
+      "id": "c6_12",
+      "text": "The board declined to draw a causal line between the two flights. What it drew instead was a line through the training. Finding seven: the first officer had a tendency to overreact to wake turbulence.",
+      "img": "aamp_booklet",
+      "tone": "neutral"
+    },
+    {
+      "id": "c6_13",
+      "text": "One account stands behind that finding, and it comes from one captain. He told investigators that in nineteen ninety seven, on a seven twenty seven, after a wake encounter, the first officer had stroked the rudder pedals — one, two, three, about that fast — and, when challenged, insisted that the maneuvering program directed him to use the rudder pedals in that manner.",
+      "img": "jfk",
+      "tone": "tension",
+      "note": "AAR pp.12–13 — single attributed account ('a captain told investigators'); fn31: F/O had done AAMP ground school but not yet the simulator. Attributed-never-asserted."
+    },
+    {
+      "id": "c7",
+      "chapter": "7 — THREE VOTES\nTO TWO",
+      "text": "Three years after the crash, five board members sat down to decide the official cause. They did not agree.",
+      "img": "aar_cause"
+    },
+    {
+      "id": "c7_1",
+      "text": "The public hearing ran four days in Washington in the fall of two thousand two, with acting chairman Carol Carmody presiding. The final report was adopted on October twenty sixth, two thousand four.",
+      "img": "langley",
+      "cap": "Public hearing: Oct. 29 – Nov. 1, 2002 · Report adopted: Oct. 26, 2004",
+      "tone": "neutral"
+    },
+    {
+      "id": "c7_2",
+      "text": "The probable cause, verbatim: the in-flight separation of the vertical stabilizer as a result of the loads beyond ultimate design that were created by the first officer's unnecessary and excessive rudder pedal inputs.",
+      "img": "aar_cause",
+      "exhibit": true,
+      "source": "NTSB AAR-04/04, p. 160 — §3.2 Probable Cause",
+      "highlight": [
+        0.143,
+        0.78,
+        0.714,
+        0.057
+      ],
+      "tone": "tension",
+      "note": "printed p.160 = PDF p.174. Single-file prefix."
+    },
+    {
+      "id": "c7_3",
+      "text": "Contributing to these rudder pedal inputs were characteristics of the Airbus A three hundred dash six hundred rudder system design, and elements of the American Airlines Advanced Aircraft Maneuvering Program.",
+      "img": "aar_cause",
+      "exhibit": true,
+      "source": "NTSB AAR-04/04, p. 160 — §3.2 Probable Cause, contributing factors",
+      "highlight": [
+        0.143,
+        0.815,
+        0.714,
+        0.057
+      ],
+      "tone": "neutral"
+    },
+    {
+      "id": "hf_diagram",
+      "text": "That is the chain the board drew: a normal wake, an unnecessary pedal input, a rudder that needed almost no force to reach its stop, reversals that built sideslip, loads beyond ultimate, and a fin that failed exactly as designed. Its press release added one sentence: had the first officer stopped making inputs at any time before the vertical stabilizer failed, the accident would not have happened.",
+      "hf": "diagram-mechanism",
+      "tone": "neutral"
+    },
+    {
+      "id": "c7_4",
+      "text": "But notice the order of those two contributing factors. The staff draft had put the training program first and the rudder design second. The vice chairman moved to swap them. It passed, three votes to two.",
+      "img": "aar_carmody",
+      "exhibit": true,
+      "source": "NTSB AAR-04/04, p. 165 — Member Carmody's statement on the staff draft's order of contributing factors",
+      "highlight": [
+        0.143,
+        0.226,
+        0.714,
+        0.057
+      ],
+      "tone": "tension",
+      "note": "printed p.165 = PDF p.179. Single-file prefix."
+    },
+    {
+      "id": "c7_5",
+      "text": "Carol Carmody dissented, and wrote it down. To diminish the role of the training program, she wrote, is to downplay the role it played in the pilot's actions which caused the accident. Staff was unable to find any example of unusual rudder use by the pilot before his training.",
+      "img": "aar_carmody",
+      "exhibit": true,
+      "source": "NTSB AAR-04/04, p. 165 — statement of Member Carol J. Carmody, joined by Member Healing",
+      "highlight": [
+        0.143,
+        0.296,
+        0.714,
+        0.075
+      ],
+      "tone": "tension"
+    },
+    {
+      "id": "c7_6",
+      "text": "This system, she wrote, had not been an issue in some sixteen million hours of testing and operator experience — until the A A M P trained pilot flew it.",
+      "img": "aar_cause",
+      "kinetic": {
+        "count": 16,
+        "suffix": " million",
+        "sub": "hours without a rudder-system issue — Member Carmody's dissent"
+      },
+      "tone": "tension"
+    },
+    {
+      "id": "c7_7",
+      "text": "Airbus said: this was a pilot acting on training he received. It did not believe, it said, that the facts pointed to the rudder's sensitivity as contributing.",
+      "img": "a300",
+      "cap": "“This was a pilot acting on training he received.” — Airbus, Oct. 26, 2004",
+      "tone": "neutral"
+    },
+    {
+      "id": "c7_8",
+      "text": "American's statement said: if Airbus had shared what it knew from three prior incidents and accidents, the five eighty seven tragedy would have been prevented. Its spokesman asked how safety was served by blaming a pilot who had no way of knowing the design sensitivities of that airplane.",
+      "img": "jfk",
+      "cap": "“…the 587 tragedy would have been prevented.” — American Airlines statement, Oct. 26, 2004",
+      "tone": "tension"
+    },
+    {
+      "id": "c7_9",
+      "text": "The pilots' union went further. Its submission called the crash an aircraft-pilot coupling event, the result of a flawed design modification, and said Airbus was forewarned of this catastrophe by preceding in-service events. The board did not adopt that.",
+      "img": "rudder",
+      "cap": "Allied Pilots Association submission: “an Aircraft Pilot Coupling (APC) event” — not adopted by the NTSB",
+      "tone": "neutral"
+    },
+    {
+      "id": "c7_10",
+      "text": "And the first officer's father — a retired airline captain who had taught his son to fly — spent the rest of his life contesting the finding. The fifth time he hit the rudder pedal, he told a local paper in twenty ten, the tail came off. It was the system's fault. He died in twenty fourteen.",
+      "img": "a300",
+      "tone": "melancholy",
+      "note": "Stan Molin, d. Apr 17, 2014 — past tense; The Wave Aug 13, 2010 quotes verified verbatim. Living family (Rhoda, Siri) — no further detail."
+    },
+    {
+      "id": "c8",
+      "chapter": "8 — ELEVEN\nYEARS",
+      "text": "The board's recommendations went out in two thousand four. The hardware fix took eleven years.",
+      "img": "fedreg_ad"
+    },
+    {
+      "id": "c8_1",
+      "text": "The board asked the FAA for a new certification standard for rudder pedal sensitivity, a review of existing designs, a modification to the A three hundred dash six hundred and A three ten — and that pilots be told plainly: alternating full rudder inputs are never needed.",
+      "img": "fedreg_ad",
+      "exhibit": true,
+      "source": "Federal Register, Nov. 9, 2012 — AD 2012-21-15 preamble: issued in response to NTSB Safety Recommendations A-04-58, A-04-44 and A-04-63",
+      "highlight": [
+        0.07,
+        0.201,
+        0.262,
+        0.045
+      ],
+      "tone": "neutral",
+      "note": "Federal Register page for AD 2012-21-15 (US gov, PD) is the single file for this prefix; the recommendations are cited in its preamble."
+    },
+    {
+      "id": "c8_2",
+      "text": "The airworthiness directive took effect on December fourteenth, twenty twelve. Within forty eight months, every A three hundred dash six hundred and A three ten in the United States — two hundred fifteen airplanes — had to get either a pedal travel limiter, at about a hundred ninety eight thousand dollars each, or a cockpit warning telling the pilot to stop making rudder inputs.",
+      "img": "fedreg_ad",
+      "exhibit": true,
+      "source": "Federal Register, Nov. 9, 2012 — AD 2012-21-15 costs of compliance: 215 U.S.-registered airplanes",
+      "highlight": [
+        0.648,
+        0.094,
+        0.262,
+        0.032
+      ],
+      "stat": "215 AIRPLANES · 48 MONTHS",
+      "tone": "neutral"
+    },
+    {
+      "id": "c8_3",
+      "text": "FedEx and UPS asked for it to be withdrawn. The FAA's answer: we have concluded that training alone is inadequate. Which option each airline chose is not public.",
+      "img": "a300",
+      "cap": "“We have concluded that training alone is inadequate.” — FAA, 2012",
+      "tone": "neutral"
+    },
+    {
+      "id": "c8_5",
+      "text": "And the pattern had repeated. January tenth, two thousand eight: an Air Canada A three nineteen hit a wake at thirty six thousand feet. Canadian investigators found the lateral accelerations were due mostly to pilot rudder control inputs, and a fin fitting had seen one hundred twenty nine percent of its limit load.",
+      "img": "rudder",
+      "stat": "129% OF LIMIT LOAD — AIR CANADA 190, 2008",
+      "tone": "tension"
+    },
+    {
+      "id": "c8_6",
+      "text": "In court, the families' cases were consolidated before one federal judge in Manhattan, who ruled in two thousand six that the crash was governed by maritime law, in part because the fin had fallen into navigable water. That shaped who got paid: spouses, children, parents — nothing for siblings or partners.",
+      "img": "recovery",
+      "cap": "May 2006: the crash is ruled subject to general maritime law",
+      "tone": "neutral"
+    },
+    {
+      "id": "c8_7",
+      "text": "One organizer later said compensation created a lot of problems; that instead of becoming more united, many families were torn apart. The plaintiffs' lead lawyer put the settlements at more than five hundred million dollars. How that was split between Airbus and American has never been made public.",
+      "img": "memorial",
+      "query": "Flight 587 memorial Rockaway Park Beach 116th Street granite wall Despues no quiero mas que paz",
+      "tone": "melancholy",
+      "note": "REVIEW 2026-10-24: 'memorial' = Commons File:Despues no quiero mas que paz Flight 587 jeh.jpg (CC0) only."
+    },
+    {
+      "id": "c9",
+      "chapter": "9 — NINE\nSIXTEEN",
+      "text": "Every November twelfth, at nine sixteen in the morning, a bell rings at the south end of Beach one hundred sixteenth Street.",
+      "img": "rockawaypark",
+      "query": "Rockaway Park Flight 587 memorial plaza photo Kai Brinker",
+      "note": "REVIEW 2026-10-24: new prefix 'rockawaypark' = Commons 'Rockaway Park - 1/2/4' (Kai Brinker, CC BY-SA 2.0 — author line required in ATTRIBUTION.md)."
+    },
+    {
+      "id": "c9_1",
+      "text": "The memorial took five years, and a fight. Families wanted it at the crash site; residents objected. The bickering, the Associated Press reported, got ugly at times, with some claiming racism against Dominicans — a charge denied by residents of the largely Irish and Jewish neighborhood.",
+      "img": "memorial",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c9_2",
+      "text": "The compromise put it about fifteen blocks away, at Rockaway Park, for nine point two million dollars. It was dedicated on November twelfth, two thousand six.",
+      "img": "rockawaypark",
+      "stat": "$9.2 MILLION · DEDICATED NOV. 12, 2006",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c9_3",
+      "text": "A curved granite wall carries two hundred sixty five names, a doorway angled toward the Dominican Republic, and one line from the poet Pedro Mir: Después no quiero más que paz. Afterwards, I want nothing more than peace.",
+      "img": "memorial",
+      "cap": "“Después no quiero más que paz” — Pedro Mir",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c9_4",
+      "text": "Now we can touch their names, said the woman who had organized the families — who had taken her own brother to the airport that morning.",
+      "img": "inscription",
+      "tone": "melancholy",
+      "query": "Flight 587 inscription names granite wall Rockaway Park photo",
+      "note": "REVIEW 2026-10-24: new prefix 'inscription' = Commons File:Flight 587 inscription jeh.jpg (CC0) — the names close-up for the 'touch their names' beats."
+    },
+    {
+      "id": "c9_5",
+      "text": "In May two thousand seven, the city entombed eight hundred eighty nine fragments of remains that were unidentified or never claimed — three hundred eight of them never matched to anyone — in two crypts at Woodlawn Cemetery in the Bronx.",
+      "img": "memorial",
+      "stat": "889 FRAGMENTS · 308 UNIDENTIFIED",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c9_6",
+      "text": "In twenty seventeen, a corner in Washington Heights was co-named Flight five eighty seven Way. Every November since twenty twenty one, a resolution naming all two hundred sixty five has been reintroduced in the House — most recently on November tenth, twenty twenty five.",
+      "img": "hres870",
+      "exhibit": true,
+      "source": "H.Res. 870, 119th Congress — introduced Nov. 10, 2025",
+      "highlight": [
+        0.264,
+        0.356,
+        0.472,
+        0.054
+      ],
+      "tone": "neutral",
+      "note": "congress.gov PDF, US gov PD. Single-file prefix."
+    },
+    {
+      "id": "c9_7",
+      "text": "Last November, a man who had lost his father and an aunt on the flight told a Queens newspaper: I find myself still thinking about them every day.",
+      "img": "inscription",
+      "cap": "“I find myself still thinking about them every day.” — Queens Eagle, Nov. 2025",
+      "tone": "melancholy"
+    },
+    {
+      "id": "c9_8",
+      "text": "This November twelfth is the twenty fifth anniversary. As of this recording, nothing special has been announced. The pattern will likely hold: a morning gathering at the wall, two hundred sixty five names read aloud, a bell at nine sixteen.",
+      "img": "memorial",
+      "tone": "melancholy",
+      "extraHold": 8
+    },
+    {
+      "id": "coda1",
+      "text": "I have spent a lot of time with this report, and the thing I keep coming back to is not the tail. It is twenty two seconds. Everything that decided this fits inside the time it took you to hear this paragraph.",
+      "img": "fin",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda2",
+      "text": "The board put the cause on a dead man's feet, then — three votes to two — put the airplane ahead of his training in the list of reasons. The airline said Airbus knew. Airbus said the airline taught it. The union said the design was flawed. His father said it was the system's fault.",
+      "img": "rudder",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda3",
+      "text": "Twenty five years on, the airplane is retired, the route is gone, the pedals have a limiter or a warning light, and two hundred sixty five names are on a wall facing the sea.",
+      "img": "rockawaypark",
+      "tone": "melancholy"
+    },
+    {
+      "id": "coda4",
+      "text": "The tail that failed had performed exactly as it was designed.",
+      "img": "fin",
+      "tone": "melancholy",
+      "extraHold": 10
+    },
+    {
+      "id": "bridge",
+      "text": "If a city mistaking an accident for an attack got to you, wait until you hear the real audio from the morning it actually was one — the Norad tapes from September eleventh, and the official story they broke. That breakdown is on the channel now.",
+      "img": "inscription",
+      "tone": "confidence"
+    },
+    {
+      "id": "end",
+      "text": "Subscribe to Black Box Breakdown for the next real investigation.",
+      "chapter": "SUBSCRIBE",
+      "img": "memorial",
+      "cap": "Watch next: The Tapes That Broke NORAD's 9/11 Story"
+    }
+  ]
 }
