@@ -276,3 +276,49 @@ official report, textbook dramatic irony for this channel's cold-open
 formula. F-16 pilot's radio report and Prodromou's mayday calls are strong
 STING/climax beats, not cold-open material — save them for mid-episode
 reveals.
+
+## ANCHORS
+
+Machine-checked figure table (BLACKBOX-2027-REVAMP §4.1, `scripts/claims_lint.py`).
+Every number/time printed by a HyperFrames data graphic under
+`hyperframes/data/helios522/` must match a row here, or preflight BLOCKS —
+the worked example of the convention. Each row restates a fact already
+sourced in the sections above; it adds no new claim. `note` carries the
+label (CONFIRMED / DISPUTED / ALLEGED / EXCLUDE — EXCLUDE rows never match).
+Times are EEST (DATA CORRECTION #9).
+
+| id | value | unit | source | note |
+|----|-------|------|--------|------|
+| c00 | 522 | flight number | AAIASB 11/2006 | CONFIRMED Helios Airways Flight 522 (HCY522) |
+| c01 | 14 Aug 2005 | date | AAIASB 11/2006 | CONFIRMED accident date; the 01:25h landing is the same calendar day |
+| c02 | 01:25 | EEST | AAIASB 11/2006 | CONFIRMED landing at Larnaca from Heathrow, cabin-crew log entry |
+| c03 | 03:15 | EEST | AAIASB 11/2006 | CONFIRMED aircraft released to service, selector left in MANUAL |
+| c04 | 09:07 | EEST | AAIASB 11/2006 | CONFIRMED takeoff, Larnaca |
+| c05 | 09:12:38 | EEST | AAIASB 11/2006 p.133 | CONFIRMED cabin altitude warning horn |
+| c06 | 12,040 | ft | AAIASB 11/2006 p.133 | CONFIRMED cabin altitude when the horn sounded |
+| c07 | 09:14:11 | EEST | AAIASB 11/2006 p.16, p.137 | CONFIRMED last transmission (Merten to Helios operations) |
+| c08 | 09:20 | EEST | AAIASB 11/2006 | CONFIRMED approximate ("~09:20") last contact |
+| c09 | 28,900 | ft | AAIASB 11/2006 | CONFIRMED approximate altitude climbing through at last contact |
+| c10 | 09:23:32 | EEST | AAIASB 11/2006 | CONFIRMED levels at FL340 on autopilot |
+| c11 | 34,000 | ft | AAIASB 11/2006 | CONFIRMED FL340 cruise altitude (FL340 = 34,000 ft) |
+| c12 | 09:37 | EEST | AAIASB 11/2006 | CONFIRMED enters Athens FIR with no contact |
+| c13 | 10:12 – 10:50 | EEST | AAIASB 11/2006 | CONFIRMED window of the failed ATC contact attempts |
+| c14 | 19 | attempts | AAIASB 11/2006 | CONFIRMED "nineteen failed ATC contact attempts" |
+| c15 | 10:40 | EEST | AAIASB 11/2006 | CONFIRMED enters the holding pattern at KEA VOR |
+| c16 | 11:05 | EEST | AAIASB 11/2006 | CONFIRMED two F-16s scramble from Nea Anchialos |
+| c17 | 11:23 – 11:24 | EEST | AAIASB 11/2006 | CONFIRMED F-16 intercept |
+| c18 | 6 | holding loop | AAIASB 11/2006 | CONFIRMED intercept on the 6th holding loop |
+| c19 | 11:49 | EEST | AAIASB 11/2006 | CONFIRMED Prodromou enters the cockpit on portable oxygen |
+| c20 | 11:49:50 | EEST | AAIASB 11/2006 | CONFIRMED left engine flameout; aircraft leaves the hold |
+| c21 | 11:54 | EEST | AAIASB 11/2006 (CVR) | CONFIRMED mayday calls recorded |
+| c22 | 5 | mayday calls | AAIASB 11/2006 (CVR) | CONFIRMED "five mayday calls", never heard by Athens |
+| c23 | 11:59:47 | EEST | AAIASB 11/2006 | CONFIRMED right engine flameout |
+| c24 | 12:03:32 | EEST | AAIASB 11/2006 | CONFIRMED impact, hills near Grammatiko |
+| c25 | 121 | people | AAIASB 11/2006 | CONFIRMED aboard; all killed, zero survivors |
+| c26 | 115 | passengers | AAIASB 11/2006 | CONFIRMED |
+| c27 | 6 | crew | AAIASB 11/2006 | CONFIRMED |
+| c28 | 107 | people | AAIASB 11/2006 | CONFIRMED Cypriot, including crew |
+| c29 | 13 | people | AAIASB 11/2006 | CONFIRMED Greek, including crew |
+| c30 | 1 | person | AAIASB 11/2006 | CONFIRMED German (Capt. Merten) |
+| c31 | 118 | bodies | AAIASB 11/2006 | CONFIRMED bodies recovered |
+| c32 | 0 | ft | chart convention | CONFIRMED schematic ground line for takeoff and impact on the altitude chart — NOT a recorded altitude (the impact site is hill terrain) |

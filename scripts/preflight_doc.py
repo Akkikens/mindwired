@@ -63,6 +63,22 @@ edited after its clip was rendered:
   - clip missing, shorter than the scene, not 3840x2160, or not 30fps
   - accent baked into hyperframes/scenes/<name>.html != THEMES[doc.channel]
   - WARN: data JSON cites no CLAIMS file (numbers on screen with no trace)
+CLAIMS + SENSITIVITY GATES (2026-10-24, revamp Phase 1 #3 + #5, logic lives in
+scripts/claims_lint.py so the CLI and the gate can't drift):
+  - any claim-bearing number/time in hyperframes/data/<slug>/*.json missing
+    from the CLAIMS file's `## ANCHORS` table (file + key path printed; a
+    typo'd chart value rendered silently before — `_facts` was unchecked
+    prose); unknown `claims` ids; WARN: data file with no `_facts`/`claims`,
+    no ANCHORS table (falls back to the whole CLAIMS text), unclassified
+    numeric key, figure tracing only to a DISPUTED/ALLEGED anchor
+  - WARN-ONLY narration tracer: stat / kinetic.count / exhibit source
+    figures not found anywhere in CLAIMS (calibrated false-positive rate is
+    printed on every run — claims_lint.CALIBRATION)
+  - sensitivity: a victim surname (CLAIMS `## SENSITIVITY` `victims:` list)
+    in cap/stat/mainText/chapter without doc.sensitivity.victimsNamed: true;
+    an unattributed "<living party> lied|knew|caused|is guilty…" sentence;
+    malformed sensitivity block. WARN: blackbox doc with no sensitivity
+    block (docs/guides/SENSITIVITY-GATE.md, publish-video §6 codified)
 WARNS (hook checklist — see docs/guides/HOOK-CHECKLIST.md):
   - first scene over 30 words / greeting-style opener
   - no stat/chapter in the first 4 scenes
@@ -74,6 +90,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent / "lib"))
 import doctiming  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import claims_lint  # noqa: E402
 
 REPO = doctiming.REPO
 BLOCK, WARN = [], []
@@ -186,7 +204,9 @@ def main() -> int:
     video_uses = collections.Counter(
         sc["video"] for sc in scenes if sc.get("video"))
     claims_path = REPO / "docs" / "planning" / f"CLAIMS-{slug}.md"
-    claims_norm = _norm_quote(claims_path.read_text()) if claims_path.exists() else ""
+    claims_text = claims_path.read_text() if claims_path.exists() else ""
+    claims_norm = _norm_quote(claims_text)
+    cl_blocks, cl_warns = claims_lint.lint_data(slug, claims_text if claims_text else None)
 
     # manifest freshness vs images dir
     img_dir = REPO / "public" / "shorts" / slug / "images"
@@ -542,19 +562,55 @@ def main() -> int:
         elif baked != want_accent:
             block(f"{sid}: hf '{name}' baked accent {baked} != {channel} accent "
                   f"{want_accent} (THEMES) — wrong channel colour; rerun `{rerun}`")
-        # claims trace for on-screen numbers is Phase 1 #3; here only the cite
+        # the per-number claims trace runs once over every data file below
+        # (claims_lint.lint_data); here only the cite-the-file check
         try:
             data_txt = data_path.read_text()
             data = json.loads(data_txt)
         except ValueError:
             block(f"{sid}: hf data {data_path.relative_to(REPO)} is not valid JSON")
             continue
-        if not (data.get("_facts") or data.get("claims")):
-            warn(f"{sid}: hf data {name}.json has no `_facts`/`claims` — every number "
-                 f"on screen needs a trace to CLAIMS-{slug}.md")
-        elif "CLAIMS-" not in data_txt:
-            warn(f"{sid}: hf data {name}.json cites no CLAIMS file in `_facts`/`claims` "
+        if data.get("_facts") and not data.get("claims") and "CLAIMS-" not in data_txt:
+            warn(f"{sid}: hf data {name}.json cites no CLAIMS file in `_facts` "
                  f"— name CLAIMS-{slug}.md as the source")
+
+    # ── HF DATA CLAIMS GATE (2026-10-24, revamp Phase 1 #3 / §4.1) ──────────
+    # A data graphic prints numbers the viewer reads as THE RECORD — the same
+    # reasoning as the quoted-transcript gate. `_facts` was prose nobody could
+    # check, so a typo'd chart value would have rendered silently. Every
+    # claim-bearing number/time in hyperframes/data/<slug>/*.json must match a
+    # row of the CLAIMS file's `## ANCHORS` table (tolerances documented in
+    # claims_lint.py). BLOCKs only for hf data; the narration tracer is WARN.
+    for m in cl_blocks:
+        block(f"claims: {m}")
+    for m in cl_warns:
+        warn(f"claims: {m}")
+
+    # ── NARRATION TRACER (WARN-ONLY, revamp §4.1) ──────────────────────────
+    # stat / kinetic.count / exhibit source figures traced to CLAIMS (any
+    # section). Not a BLOCK until the measured false-positive rate allows it.
+    if claims_text:
+        tr = claims_lint.trace_figures(doc, claims_text)
+        if tr["misses"]:
+            warn(f"claims tracer: {len(tr['misses'])} of {tr['checked']} on-screen "
+                 f"figures not found in CLAIMS-{slug}.md (WARN-only; "
+                 f"`claims_lint.py {slug}` lists them) — "
+                 + ", ".join(f"{sid}:{lit}" for sid, _, lit in tr["misses"][:8])
+                 + (" …" if len(tr["misses"]) > 8 else ""))
+        tracer_line = (f"claims tracer: {tr['hits']}/{tr['checked']} on-screen figures "
+                       f"traced to CLAIMS · {claims_lint.CALIBRATION}")
+    else:
+        tracer_line = f"claims tracer: no CLAIMS-{slug}.md — not run"
+
+    # ── SENSITIVITY GATE v1 (2026-10-24, revamp Phase 1 #5 / §4.4) ─────────
+    # docs/guides/SENSITIVITY-GATE.md: victim surnames in on-screen text need
+    # a declared victimsNamed decision; unattributed guilt assertions about
+    # declared living parties BLOCK; a blackbox doc with no block WARNs.
+    s_blocks, s_warns = claims_lint.sensitivity_gate(doc, claims_text)
+    for m in s_blocks:
+        block(f"sensitivity: {m}")
+    for m in s_warns:
+        warn(f"sensitivity: {m}")
 
     # clip fps sanity — 10fps archival cuts crashed the OffthreadVideo
     # compositor intermittently (memory starfishprime-video-10fps-bug)
@@ -764,6 +820,7 @@ def main() -> int:
         print("\nCHAPTERS (eyeball these — they become the SRT/description chapter list):")
         for sid, ch in chapters_in_order:
             print(f"  {sid:8s} {ch.replace(chr(10), ' / ')}")
+    print(f"\n{tracer_line}")
     print(f"\n{slug}: {len(BLOCK)} blocking, {len(WARN)} warnings "
           f"({len(scenes)} scenes, {doctiming.body_seconds(doc, durations):.0f}s body)")
     return 1 if BLOCK else 0
