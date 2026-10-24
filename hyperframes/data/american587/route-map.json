@@ -1,0 +1,43 @@
+{
+  "scene": "route-map",
+  "duration": 12,
+  "eyebrow": "Departure · 12 Nov 2001 · EST",
+  "title": "Runway 31L to Belle Harbor",
+  "basemap": "assets/geo/newyork.json",
+  "view": [-74.3, 40.3, -73.3, 40.95],
+  "labels": [
+    { "text": "MANHATTAN", "lon": -73.97, "lat": 40.78, "size": 18 },
+    { "text": "BROOKLYN", "lon": -73.95, "lat": 40.65, "size": 20 },
+    { "text": "QUEENS", "lon": -73.82, "lat": 40.72, "size": 22 },
+    { "text": "JAMAICA BAY", "lon": -73.85, "lat": 40.61, "size": 16 },
+    { "text": "LONG ISLAND", "lon": -73.5, "lat": 40.8, "size": 18 },
+    { "text": "ATLANTIC OCEAN", "lon": -73.7, "lat": 40.42, "size": 18 }
+  ],
+  "waypoints": [
+    { "name": "JFK · Runway 31L", "lon": -73.775, "lat": 40.635, "time": "09:14:29", "note": "LIFTOFF", "anchor": "ne", "kind": "origin" },
+    { "name": "Bridge Climb", "lon": -73.84, "lat": 40.6, "note": "LEFT TURN TO HEADING 220 · FROM 500 FT", "anchor": "sw", "kind": "fix" },
+    { "name": "JAL47 heavy", "lon": -73.93, "lat": 40.47, "note": "CLEARED FOR TAKEOFF 09:11:08 · 1 MIN 40 S AHEAD · AT LEAST 4.3 NM AND 3,800 FT · POSITION SCHEMATIC", "anchor": "se", "kind": "fix" },
+    { "name": "WAVEY", "lon": -73.3, "lat": 40.28, "note": "ABOUT 30 MI SE OF JFK · CLEARED DIRECT 09:15:36", "anchor": "se", "kind": "dest" }
+  ],
+  "legs": [[0, 1]],
+  "event": {
+    "lon": -73.8504,
+    "lat": 40.5771,
+    "time": "09:16:15 · IMPACT",
+    "label": "Belle Harbor",
+    "anchor": "nw",
+    "legSeconds": 2.6
+  },
+  "zoom": {
+    "lon": -73.82,
+    "lat": 40.59,
+    "scale": 3.2,
+    "at": 5.2,
+    "duration": 2.6,
+    "screenX": 1150,
+    "screenY": 560
+  },
+  "pathNote": "PATH SCHEMATIC FROM NTSB AAR-04/04 · NOT THE RECORDED RADAR TRACK",
+  "claims": ["c01", "c09", "c17", "c18", "c20", "c21", "c26", "c27", "c50", "c53", "c54"],
+  "_facts": "CLAIMS-american587.md ANCHORS: c01 date; c17 liftoff 0914:29; c18 1 min 40 s behind JAL 47; c09 JAL 47 cleared for takeoff 0911:08; c20 separation at least 4.3 nm / 3,800 ft (AAR fn 11); c21 500 ft msl then left turn to heading 220 (Bridge Climb); c26/c27 cleared direct WAVEY at 0915:36, WAVEY ~30 mi SE of JFK; c50 impact about 0916:15; c53 impact coordinates 40°34'37.59\"N 73°51'01.31\"W = the event marker; c54 Newport Ave & Beach 131st St. JFK, Bridge-Climb turn point, JAL47 position and WAVEY are reference/schematic geography, not recorded positions — the on-screen pathNote says so. The basemap assets/geo/newyork.json must be clipped from Natural Earth 10m admin_0 (public domain) with scripts/clip_basemap.mjs --bbox -74.4,40.2,-73.2,41.0 before build."
+}

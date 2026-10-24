@@ -1,0 +1,64 @@
+{
+  "scene": "exhibit",
+  "mode": "page",
+  "duration": 15,
+  "eyebrow": "Exhibit · the pedals",
+  "source": "NTSB Aircraft Accident Report AAR-04/04 — Table 3 (p.23) and Findings 11 and 14 (p.160), quoted; typeset excerpt — the report's own page scans appear elsewhere in this episode",
+  "stamp": "Typeset excerpt · not a facsimile",
+  "caption": "Thirty-two pounds. One point two inches.",
+  "page": {
+    "header": [
+      "Aircraft Accident Report NTSB/AAR-04/04",
+      "In-Flight Separation of Vertical Stabilizer · Airbus Industrie A300-605R, N14053",
+      "Belle Harbor, New York · November 12, 2001 · Adopted October 26, 2004"
+    ],
+    "blocks": [
+      {
+        "kind": "meta",
+        "rows": [
+          ["Table 3", "Rudder pedal force and travel for full rudder deflection"],
+          ["Breakout force", "22 lb"],
+          ["Maximum pedal travel", "4.0 in"]
+        ]
+      },
+      {
+        "kind": "entry",
+        "time": "Low speed",
+        "who": "Full rudder at one hundred thirty-five knots — Table 3, first row",
+        "text": "65 lb of pedal force · 4.0 in of pedal travel · 30° of rudder"
+      },
+      {
+        "kind": "entry",
+        "time": "250 kt",
+        "who": "Full rudder, verbatim row",
+        "text": "32 lb of pedal force · 1.2 in of pedal travel · 9.3° of rudder"
+      },
+      {
+        "kind": "gap",
+        "lines": 2,
+        "note": "intervening table rows not reproduced"
+      },
+      {
+        "kind": "finding",
+        "n": "11",
+        "text": "\"…couples a rudder travel limiter system that increases in sensitivity with airspeed… with the lightest pedal forces of all the transport-category aircraft evaluated.\""
+      },
+      {
+        "kind": "finding",
+        "n": "14",
+        "text": "\"…susceptible to potentially hazardous rudder pedal inputs at higher airspeeds.\""
+      },
+      {
+        "kind": "gap",
+        "lines": 3,
+        "note": "remaining findings not reproduced"
+      }
+    ]
+  },
+  "highlight": { "block": 2 },
+  "highlightAt": 2.4,
+  "cover": { "block": 4, "revealAt": 7.5 },
+  "zoom": 1.6,
+  "claims": ["c01", "c75", "c81", "c82", "c83", "c84", "c139"],
+  "_facts": "CLAIMS-american587.md §A.2 and ANCHORS: c81 22-lb breakout force and 4-in maximum pedal travel (AAR p.18); c84 135 KCAS row — 65 lb / 4.0 in / 30° (Table 3, p.23); c83 250 KCAS row — 32 lb / 1.2 in (Table 3); c82 9.3° rudder limit at 250 kt (Table 2); Findings 11 and 14 verbatim (AAR p.160, CLAIMS §A.2); c75 N14053; c01 accident date; c139 adopted 2004-10-26. The page is a typeset stand-in so the scene can zoom to the two rows that matter; the actual AAR page scans (PD) are DocWide ExhibitScenes in the same chapter. Gaps are labelled 'not reproduced' rather than filled. The 135-knot row's airspeed is written in words because ANCHORS c84 carries '135 KCAS' only in its unit cell, not its value cell — move it into the value cell and the digits can return."
+}

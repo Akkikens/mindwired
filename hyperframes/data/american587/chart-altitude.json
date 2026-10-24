@@ -1,0 +1,30 @@
+{
+  "scene": "chart",
+  "kind": "line",
+  "duration": 12,
+  "eyebrow": "Climb profile · EST",
+  "title": "The climb, and where it stopped",
+  "unit": "ft",
+  "note": "ALTITUDES ABOVE SEA LEVEL FROM NTSB AAR-04/04 · KNOWN POINTS JOINED BY STRAIGHT SEGMENTS · THE RED MARK IS HEIGHT ABOVE GROUND AT THE SECOND WAKE ENCOUNTER · THE FIN'S ALTITUDE AT SEPARATION IS NOT GIVEN AS A SINGLE FIGURE AND IS NOT PLOTTED",
+  "line": {
+    "yMax": 3000,
+    "yTicks": [0, 1000, 2000, 3000],
+    "xTicks": ["09:14:30", "09:15:00", "09:15:30", "09:16:00"],
+    "series": [
+      { "t": "09:14:29", "v": 0, "label": "09:14:29 LIFTOFF", "labelPos": "above", "labelAnchor": "start" },
+      { "t": "09:15:36", "v": 1700, "label": "09:15:36 FIRST WAKE · ~1,700 FT", "labelPos": "below", "labelAnchor": "start" },
+      { "t": "09:15:48", "v": 2300, "label": "09:15:48 \"TWO FIFTY\" · ~2,300 FT", "labelPos": "above", "labelAnchor": "end" },
+      { "t": "09:16:15", "v": 0, "label": "09:16:15 IMPACT · BELLE HARBOR", "labelPos": "above", "labelAnchor": "end" }
+    ],
+    "markers": [
+      { "t": "09:15:51", "v": 2430, "label": "09:15:51 SECOND WAKE · ~2,430 FT ABOVE GROUND" }
+    ]
+  },
+  "stats": [
+    { "value": 240, "suffix": " kt", "label": "airspeed at \"max power\" · 09:15:54" },
+    { "value": 251, "suffix": " kt", "label": "airspeed when the fin separated · 09:15:58.4" },
+    { "value": "13.6", "suffix": " s", "label": "flight data stopped before impact" }
+  ],
+  "claims": ["c17", "c24", "c25", "c30", "c31", "c32", "c40", "c41", "c43", "c44", "c45", "c50"],
+  "_facts": "CLAIMS-american587.md ANCHORS: c17 liftoff 0914:29 (schematic 0 ft — the ground line, not a measured altitude); c24/c25 first wake encounter 0915:36 at ~1,700 ft msl; c30 0915:48.2 'two fifty thank you' at ~2,300 ft msl; c31/c32 second encounter 0915:51 at ~2,430 ft agl (marker, labelled as above-ground); c40 'max power' at 0915:54.2, 240 kt; c41/c43 fracture at 0915:58.4, ~251 kt; c44/c45 last FDR data 0916:01.23, 13.6 s before impact; c50 impact ~0916:15 (schematic 0 ft). The 0915:00 'thirteen hundred feet' call is left off the series because 1,300 is not an ANCHORS value; the separation point is not plotted on the altitude axis because the AAR does not give one figure for it. The chart template draws one series, so airspeed lives in the stat tiles instead of a second line."
+}

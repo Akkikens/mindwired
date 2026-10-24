@@ -1,0 +1,27 @@
+{
+  "scene": "chart",
+  "kind": "bar",
+  "duration": 12,
+  "eyebrow": "Rudder pedal inputs · 09:15:51.9 to 09:15:58.5 EST",
+  "title": "Six pedal inputs in under seven seconds",
+  "unit": "in",
+  "note": "PEDAL TRAVEL IN INCHES FROM NTSB AAR-04/04 · R = RIGHT, L = LEFT · FULL PEDAL TRAVEL IS FOUR INCHES · THE RECORDER SAMPLED THE PEDALS TWICE A SECOND, SO PEAKS MAY HAVE BEEN HIGHER · THE NTSB FOUND THESE WERE THE FIRST OFFICER'S INPUTS (FINDING 5); THE PILOTS' UNION CONTESTED THE CAUSE",
+  "bar": {
+    "max": 4,
+    "categories": [
+      { "label": "1st · right", "v": 1.7 },
+      { "label": "2nd · left", "v": 1.7 },
+      { "label": "3rd · right", "v": 1.7 },
+      { "label": "4th · right", "v": 2.0 },
+      { "label": "5th · left", "v": 2.4, "color": "danger" },
+      { "label": "6th · right", "v": 1.3 }
+    ]
+  },
+  "stats": [
+    { "value": 32, "suffix": " lb", "label": "foot force for full rudder at 250 kt" },
+    { "value": "1.2", "suffix": " in", "label": "pedal travel to full rudder at 250 kt" },
+    { "value": "9.3", "suffix": "°", "label": "rudder limit at 250 kt" }
+  ],
+  "claims": ["c34", "c35", "c42", "c81", "c82", "c83"],
+  "_facts": "CLAIMS-american587.md ANCHORS: c34 first pedal input 1.7 in right at 0915:51.9; c35 pedal sequence 1.7R → 1.7L → 1.7R → 2.0R → 2.4L → 1.3R between 0915:52 and 0915:58.5 (AAR p.5); c42 0915:58.5 bang; c81 max pedal travel 4 in; c82 rudder limit 9.3° at 250 kt (Table 2); c83 32 lb / 1.2 in for full rudder at 250 KCAS (Table 3). Bars are magnitudes with direction in the label; the window is given as first input (c34) to the bang (c42) because 0915:52 is not itself an ANCHORS value. The FDR 2/s sampling caveat is from item 164 (CLAIMS §B.4). Attribution to the first officer is Finding 5 and is stated as the NTSB's finding on the note line."
+}

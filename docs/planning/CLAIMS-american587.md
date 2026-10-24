@@ -48,6 +48,24 @@ first. The LOCKED PACKAGE (§F) already applies it.
 
 ---
 
+## SENSITIVITY
+
+Machine-readable block for `claims_lint.py` / `preflight_doc.py` (SENSITIVITY-GATE.md).
+Tier HIGH — the prose rules are in the header above and in DATA CORRECTIONS #11, #14,
+#16, #22, #30, #31. The `victims:` line lists every victim NAMED anywhere in this file
+(crew, the five killed on the ground, and the individually profiled passengers), so the
+gate blocks any of their surnames in `cap`/`stat`/`mainText`/`chapter` unless the doc
+declares `victimsNamed: true` with a rationale. Spoken `text` may name the crew (the
+official record and H.Res.870 do); the gate does not read `text`.
+
+victims: Edward States; Sten Molin; Deborah Fontakis; Barbara Giannasca; Wilmer Gonzalez; Joseph Lopes; Michele Mills; Carol Palm; William Valdespino; Helen Concannon; Thomas Concannon; Christopher Lawler; Kathleen Lawler; Frank Pomponio; Hilda Yolanda Mayol; Ana Made; Tito Bautista; Roberto Despradel; Lorenzo Despradel; Robert Despradel; José Francisco Lora; Félix Sánchez; Yesica Carolina Jiménez Cavallo; Norma Guzman; Johnny Guzman; Ruben Rodriguez; Baudilio Bautista Garcia
+
+Living parties named in the record (attribute every clause; no faces over pool b-roll):
+see the 🧍 marks throughout and `sensitivity.livingParties` in the doc spec. Stan Molin
+(d. Apr 17, 2014) is NOT living — past tense; his widow Rhoda and daughter Siri Parsons are.
+
+---
+
 ## ⚠ DATA CORRECTIONS (baked in — do NOT revert)
 
 Every figure or claim the six dimensions disagreed on, or that could not be verified,

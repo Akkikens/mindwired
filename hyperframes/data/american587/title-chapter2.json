@@ -1,0 +1,12 @@
+{
+  "scene": "title-card",
+  "duration": 6,
+  "eyebrow": "09:14:29 · Liftoff, runway 31L",
+  "title": "One Minute, Forty Seconds Behind",
+  "sub": "RULE: TWO MINUTES OR FOUR NAUTICAL MILES · ACTUAL: AT LEAST 4.3 NM AND 3,800 FT · NTSB FINDING THREE: THE CONTROLLER COMPLIED",
+  "image": "assets/samples/aa587_before_takeoff.jpg",
+  "imageCredit": "N14053 BEFORE TAKEOFF, JFK, 12 NOV 2001 · CONSTRUCTION-SITE CAMERA · NTSB DOCKET · PUBLIC DOMAIN",
+  "accentLastWord": true,
+  "claims": ["c17", "c18", "c19", "c20"],
+  "_facts": "CLAIMS-american587.md ANCHORS: c17 liftoff 0914:29; c18 1 min 40 s behind JAL 47 (AAR p.3); c19 heavy-behind-heavy rule 2 min OR 4 nm (AAR fn 9); c20 actual separation at least 4.3 nm / 3,800 ft (fn 11); Finding 3 'the controller complied' (CLAIMS correction #5). The plate image is Commons File:American Airlines 587 before takeoff.jpg (720×480, PD, NTSB docket) copied to assets/samples/aa587_before_takeoff.jpg at footage time; it shows the accident aircraft itself, so the credit may name N14053."
+}

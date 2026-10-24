@@ -1,0 +1,39 @@
+{
+  "scene": "diagram",
+  "duration": 18,
+  "eyebrow": "Mechanism · NTSB probable cause",
+  "title": "How a wake encounter became a fin separation",
+  "note": "CHAIN AS THE NTSB ADOPTED IT ON 26 OCT 2004 · CONTRIBUTING FACTORS ORDERED BY A THREE-TO-TWO BOARD VOTE · THE PILOTS' UNION AND THE FIRST OFFICER'S FAMILY CONTESTED THE CAUSE",
+  "grid": {
+    "cols": 3,
+    "rows": 3,
+    "colW": 560,
+    "rowH": 232,
+    "x0": 120,
+    "y0": 190,
+    "nodeW": 440,
+    "nodeH": 120
+  },
+  "nodes": [
+    { "id": "wake", "kind": "start", "label": "Second wake encounter, 09:15:51", "sub": "JAL47 heavy 1 min 40 s ahead · ~2,430 ft above ground", "col": 0, "row": 0 },
+    { "id": "input", "kind": "step", "label": "Wheel 64° right, then right pedal 1.7 in", "sub": "09:15:51.5 and 09:15:51.9 · NTSB: wheel \"too aggressive\", pedal \"unnecessary\"", "col": 0, "row": 1 },
+    { "id": "training", "kind": "step", "label": "AAMP training: rudder taught as roll control", "sub": "Jan 1997 booklet · NTSB Findings 8 and 9", "col": 0, "row": 2 },
+    { "id": "design", "kind": "step", "label": "A300-600 rudder: 32 lb and 1.2 in to full travel at 250 kt", "sub": "Finding 11 · lightest pedal forces of the transports evaluated", "col": 1, "row": 0 },
+    { "id": "reversals", "kind": "step", "label": "Alternating full-rudder inputs", "sub": "pedal 1.7R → 1.7L → 1.7R → 2.0R → 2.4L → 1.3R · four reversals", "focal": true, "col": 1, "row": 1 },
+    { "id": "stop", "kind": "decision", "label": "Inputs stop?", "sub": "NTSB: stopping at any time before 09:15:58.4 would have prevented the accident", "col": 1, "row": 2 },
+    { "id": "loads", "kind": "step", "label": "Sideslip 11–12° · fin loads about twice the limit, beyond ultimate", "sub": "09:15:58.4 · rudder 10–11° right", "col": 2, "row": 1 },
+    { "id": "fracture", "kind": "end", "label": "Right rear lug fractures · fin separates", "sub": "09:15:58.4 · ~251 kt · loud bang on the CVR at 09:15:58.5", "col": 2, "row": 2 }
+  ],
+  "edges": [
+    { "from": "wake", "to": "input" },
+    { "from": "input", "to": "reversals", "route": "h" },
+    { "from": "design", "to": "reversals" },
+    { "from": "training", "to": "reversals", "route": "hv" },
+    { "from": "reversals", "to": "stop" },
+    { "from": "stop", "to": "loads", "label": "No", "route": "hv", "danger": true, "labelDy": -22 },
+    { "from": "loads", "to": "fracture" }
+  ],
+  "order": ["wake", "input", "design", "training", "reversals", "stop", "loads", "fracture"],
+  "claims": ["c18", "c31", "c32", "c33", "c34", "c35", "c39", "c41", "c42", "c43", "c83", "c94", "c106", "c139", "c140"],
+  "_facts": "CLAIMS-american587.md §B.6 probable cause verbatim (separation from loads beyond ultimate created by the first officer's unnecessary and excessive rudder pedal inputs; contributing: A300-600 rudder system design characteristics and elements of AAMP), fn 211 3–2 vote (c140), adopted 2004-10-26 (c139). ANCHORS: c18 1 min 40 s; c31/c32 second encounter 0915:51 ~2,430 ft agl; c33 wheel 64° R 0915:51.5; c34 pedal 1.7 in R 0915:51.9; c35 sequence; c39 rudder 10–11° R / sideslip 11–12° R at 0915:58.4; c41 fracture 0915:58.4; c42 bang 0915:58.5; c43 ~251 kt; c83 32 lb / 1.2 in at 250 KCAS; c94 ~2× limit, > ultimate (Finding 6); c106 Jan 1 1997 booklet. Findings 5, 8, 9, 11, 12 quoted from CLAIMS §B.6; the 'stopped making inputs at any time' sentence is the NTSB press release of Oct 26 2004 (CLAIMS §B.5). The note line records that the pilots' union (APA, 'aircraft-pilot coupling' submission, CLAIMS §B.6) and the first officer's family (Stan Molin, d. 2014, CLAIMS §C.4) contested the cause, per the attributed-never-asserted rule. 'Full-rudder' = the pedal travel (1.7–2.4 in) exceeded the 1.2 in needed for full rudder at 250 KCAS (c83); the pedals themselves did not reach their 4-in stop (c81)."
+}
