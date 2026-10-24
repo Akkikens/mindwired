@@ -104,6 +104,11 @@ export type DocScene = {
    *  muted, letterboxed, with narration audio over it. videoFrom = start seconds
    *  (window into a long clip so consecutive scenes progress through it). */
   video?: string; videoFrom?: number;
+  /** HyperFrames data scene (map/timeline/chart/diagram from hyperframes/data/<slug>/<hf>.json,
+   *  rendered by scripts/build_hf_scenes.py to video/hf_<hf>.mp4). NOT real footage: the clip
+   *  owns the whole frame — no drift/grade/scrim/blur-fill, no Brand/StatChip/CaptionBar
+   *  (preflight BLOCKS stat/cap/chapter/img/video alongside it). */
+  hf?: string;
   /** Hand-drawn brand layer (Sketch.tsx): sketch:true renders the img prefix as
    *  an ink illustration on paper (draw-on reveal, line boil, Caveat captions);
    *  react:<pose> pops the mascot (public/mascot/<pose>.png, gen_mascot.py)
@@ -277,8 +282,10 @@ const DepthGauge: React.FC<{ from: number; to: number; th: Theme }> = ({ from, t
   );
 };
 
-const GrainVignette: React.FC = () => {
+const GrainVignette: React.FC<{ skip?: [number, number][] }> = ({ skip = [] }) => {
   const frame = useCurrentFrame();
+  // hf scenes own their whole frame (revamp §3.1) — no grain/vignette over the kit
+  if (skip.some(([a, b]) => frame >= a && frame < b)) return null;
   const jx = (frame * 97) % 512, jy = (frame * 61) % 512;
   return (
     <AbsoluteFill style={{ pointerEvents: "none" }}>
@@ -604,7 +611,7 @@ const DiagramScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Th
 
 /** True when the router (makeDocComp) sends this scene to VideoScene —
  *  must mirror the branch order there (chapter/sting/speaker win over video). */
-const isVideoScene = (s?: DocScene) => !!s && !s.chapter && !s.sting && !s.speaker && !!s.video;
+const isVideoScene = (s?: DocScene) => !!s && !s.chapter && !s.sting && !s.speaker && !!(s.hf || s.video);
 
 /* Real footage scene (NTSB animation etc.): muted video, narration over it.
    cutIn/cutOut: the neighbouring scene is also footage, so the edge hard-cuts
@@ -622,6 +629,20 @@ const VideoScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Them
   const src = staticFile(`shorts/${slug}/video/${s.video}`);
   const startFrom = Math.round((s.videoFrom ?? 0) * FPS);
   const drift = interpolate(frame, [0, dur], [1.0, 1.05]);
+  if (s.hf) {
+    // HyperFrames owns the whole frame (BLACKBOX-2027-REVAMP §3.1): the kit draws its own
+    // chrome/credit, so no drift, grade, scrim, blur-fill or DocWide overlays on top of it.
+    return (
+      <AbsoluteFill style={{ backgroundColor: "#05070C", opacity: fadeOut }}>
+        <AbsoluteFill style={{ opacity: fadeIn }}>
+          <OffthreadVideo src={src} muted startFrom={startFrom}
+            style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+        </AbsoluteFill>
+        {hasAudio && <Sequence from={LEAD}><Audio src={staticFile(`shorts/${slug}/audio/${s.id}.mp3`)} /></Sequence>}
+        <SceneSfx sceneDur={dur} cues={sceneCues(s, [])} />
+      </AbsoluteFill>
+    );
+  }
   return (
     <AbsoluteFill style={{ backgroundColor: "#05070C", opacity: fadeOut }}>
       <AbsoluteFill style={{ opacity: fadeIn, justifyContent: "center", alignItems: "center" }}>
@@ -899,6 +920,8 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest, outro?: OutroSp
   for (const s of doc.scenes) {
     if (s.depth !== undefined) { depthPrev[s.id] = lastDepth ?? 0; lastDepth = s.depth; }
   }
+  const hfSpans: [number, number][] = [];
+  { let c = 0; for (const s of doc.scenes) { const d = sceneFrames(s, manifest); if (s.hf) hfSpans.push([c, c + d]); c += d; } }
   const Comp: React.FC = () => {
     let cursor = 0;
     return (
@@ -916,6 +939,9 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest, outro?: OutroSp
                 ? <StingScene s={s} slug={doc.slug} m={manifest} th={th} />
                 : s.speaker
                 ? <RadioScene s={s} slug={doc.slug} m={manifest} th={th} />
+                : s.hf
+                ? <VideoScene s={{ ...s, video: `hf_${s.hf}.mp4` }} slug={doc.slug} m={manifest} th={th}
+                    cutIn={isVideoScene(doc.scenes[i - 1])} cutOut={isVideoScene(doc.scenes[i + 1])} />
                 : s.video
                 ? <VideoScene s={s} slug={doc.slug} m={manifest} th={th}
                     cutIn={isVideoScene(doc.scenes[i - 1])} cutOut={isVideoScene(doc.scenes[i + 1])} />
@@ -1018,7 +1044,7 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest, outro?: OutroSp
           );
         })}
         <Sequence from={0} durationInFrames={docTotalFrames(doc, manifest)} name="grain-grade">
-          <GrainVignette />
+          <GrainVignette skip={hfSpans} />
         </Sequence>
         {outro && (
           <Sequence from={docTotalFrames(doc, manifest)} durationInFrames={outro.frames} name="subscribe-outro">

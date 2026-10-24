@@ -77,3 +77,45 @@ def music_windows(doc: dict, durations: dict, *,
         else:
             merged.append((a, b))
     return merged
+
+
+# ── HyperFrames data scenes (BLACKBOX-2027-REVAMP §3.1) ──────────────────────
+# A doc scene's `hf: "<name>"` = hyperframes/data/<slug>/<name>.json, rendered by
+# scripts/build_hf_scenes.py to public/shorts/<slug>/video/hf_<name>.mp4 and
+# recorded as manifest["hf"][<name>] = {sha256, rendered_at_frames, duration,
+# accent, mp4}.
+# hf_sha() is the ONE freshness hash: build_hf_scenes writes it, preflight
+# recomputes it — both must call this, never re-derive it.
+HF_ROOT = REPO / "hyperframes"
+
+
+def hf_paths(slug: str, name: str) -> tuple[Path, Path | None]:
+    """(data json, template html or None when the data file is unreadable /
+    names no scene)."""
+    data = HF_ROOT / "data" / slug / f"{name}.json"
+    try:
+        scene = json.loads(data.read_text()).get("scene")
+    except (OSError, ValueError):
+        return data, None
+    return data, (HF_ROOT / "templates" / f"{scene}.html") if scene else None
+
+
+# everything besides the data file + its template that shapes a rendered clip
+# (accent is recorded/checked separately): the theme, the builder, the pinned CLI
+HF_HASH_SHARED = ("theme/mindwired.css", "scripts/build.mjs", "scripts/hf")
+
+
+def hf_sha(slug: str, name: str) -> str | None:
+    """sha256 hex over data json + template html + HF_HASH_SHARED (revamp §3.1),
+    each as `relpath \\0 bytes \\0` — byte-identical to build_hf_scenes.hf_hash,
+    which stores it as manifest["hf"][name]["sha256"]. None if a file is missing.
+    Compare by prefix (a 16-char stored value matches its full digest)."""
+    import hashlib
+    data, tpl = hf_paths(slug, name)
+    parts = [data, tpl, *(HF_ROOT / r for r in HF_HASH_SHARED)]
+    if any(p is None or not p.exists() for p in parts):
+        return None
+    h = hashlib.sha256()
+    for p in parts:
+        h.update(p.relative_to(HF_ROOT).as_posix().encode() + b"\0" + p.read_bytes() + b"\0")
+    return h.hexdigest()

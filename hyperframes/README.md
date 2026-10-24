@@ -79,6 +79,8 @@ gitignored `out/` (`out/scene-kit/`); `hyperframes/renders/` is covered by the `
    exists so a page can say "not reproduced" instead of filling space with invented prose.
 5. Set `channel` in the doc spec, then `node scripts/build.mjs --episode <slug>`, `./scripts/hf check
    --snapshots`, look at the frames, `./scripts/render-all.sh <slug>`.
+6. To ship them in the episode, put `"hf": "<name>"` on the doc scenes (see below) and let
+   `build_hf_scenes.py` size, render and register them.
 
 ### Design rules baked into the templates
 
@@ -90,7 +92,45 @@ gitignored `out/` (`out/scene-kit/`); `hyperframes/renders/` is covered by the `
 - Text is sized for phones: nothing informational below 16 px mono / 19 px labels at 1080p, titles 44 px,
   stat numerals 76 px.
 
-## Dropping a clip into a DocWide episode
+## Declaring a scene in a DocWide episode (`hf`)
+
+A doc scene names a data file with `"hf": "<name>"` (= `data/<slug>/<name>.json`; the data file
+carries the `scene` type, so the doc never repeats it):
+
+```json
+{ "id": "ch4_3", "text": "With no instructions, the autopilot ... starts flying in circles.", "hf": "route-map" }
+```
+
+HyperFrames owns that whole frame (docs/planning/BLACKBOX-2027-REVAMP.md §3.1): no `img`, `video`,
+`chapter`, `stat` or `cap` on an hf scene. It is code-rendered, not real footage — it never counts
+toward the first-30s real-video hook and never replaces real footage of the actual aircraft/place.
+
+```bash
+python3 scripts/build_hf_scenes.py <slug> [--only id1,id2] [--dry-run] [--jobs 2] [--force]
+```
+
+`ship_doc.py` runs it as step 3b, right after `build_doc_vo.py`, because it:
+
+1. checks every hf scene's data file exists and its `scene` has a template;
+2. rewrites the data file's top-level `duration` to `doctiming.scene_frames(scene)/30 + 0.5 s`
+   (rounded up to 0.01 s) so the clip always outlasts the VO — it stops if the manifest has no
+   duration for the scene (build the VO first);
+3. runs `build.mjs --episode <slug> --channel <doc channel> --only <names>` (then a full rebuild
+   so the checked-in `scenes/`/`compositions/` keep every scene);
+4. renders each at 3840×2160 / 30 fps, `--jobs` at a time, logging wall seconds and bytes to
+   `out/qa/<slug>_hf_render.log`; a clip whose sha256 (data JSON + template + theme + build.mjs +
+   pinned CLI) and accent match the last render is skipped as fresh;
+5. copies it to `public/shorts/<slug>/video/hf_<name>.mp4`, adds an `ATTRIBUTION.md` line
+   (`code-rendered, not archival`) and a `PROVENANCE.jsonl` row (`source: "hyperframes"`,
+   `license: "code-rendered"`, `sha`);
+6. records `manifest["hf"][<name>] = {sha256, rendered_at_frames, duration, accent, mp4}` in
+   `src/mindwired-doc/docs/<slug>.manifest.json`, leaving every other key alone.
+
+Editing a data file or template after that changes the hash: rerun `build_hf_scenes.py <slug>
+--only <id>`. The hand-copy route below still works for one-off experiments, but a declared `hf`
+scene is the shipping path.
+
+## Dropping a clip into a DocWide episode by hand
 
 DocWide already has a `video` scene (`VideoScene` in `src/mindwired-doc/DocWide.tsx`): a muted clip
 from `public/shorts/<slug>/video/`, letterboxed with `objectFit: contain`, narration over it, optional

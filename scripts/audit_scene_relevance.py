@@ -24,6 +24,12 @@ file actually IS (source title from ATTRIBUTION.md + filename), and flags:
   X-REUSE    byte-identical file shared with another slug later in the body
              (warning — allowed for true utility shots, but keep it rare)
 
+HyperFrames data scenes (`hf` field, or any video named hf_*.mp4) are generated
+graphics with their own provenance row (source: hyperframes), NOT real footage:
+they are exempt from MISMATCH/WEAK/UNSOURCED/REUSE and never count as reuse of
+real footage (BLACKBOX-2027-REVAMP §3.1). The hook rule for them lives in
+preflight_doc.py (an hf scene in the first ~25s BLOCKS like a still).
+
     python3 scripts/audit_scene_relevance.py <slug> [--hook-seconds 30] [--json]
 
 Exit codes: 0 ok/warnings, 2 hook-reuse (render-blocking).
@@ -51,6 +57,11 @@ international national public domain library collection department office center
 """.split())
 IMG_EXT = {".jpg", ".jpeg", ".png", ".webp"}
 VID_EXT = {".mp4", ".webm", ".mov"}
+
+
+def is_hf(fname: str | None) -> bool:
+    """build_hf_scenes.py output (video/hf_<name>.mp4) — generated, not footage."""
+    return bool(fname) and Path(fname).name.startswith("hf_")
 
 
 def tokens(text: str) -> set[str]:
@@ -114,7 +125,7 @@ def resolve_visuals(doc: dict, images: dict[str, list[str]]) -> list[tuple[dict,
     """[(scene, filename-or-None, kind)] mirroring DocWide exactly: the rotation
     counter ticks for EVERY scene with an img prefix (even when another branch
     renders), and the render branch follows DocWide's precedence
-    chapter > speaker > video > diagram > img."""
+    chapter > speaker > hf > video > diagram > img."""
     rotation: dict[str, int] = {}
     out = []
     for s in doc["scenes"]:
@@ -126,6 +137,8 @@ def resolve_visuals(doc: dict, images: dict[str, list[str]]) -> list[tuple[dict,
             out.append((s, None, "card"))
         elif s.get("speaker"):
             out.append((s, None, "radio"))
+        elif s.get("hf"):
+            out.append((s, f"hf_{s['hf']}.mp4", "hf"))
         elif s.get("video"):
             out.append((s, s["video"], "video"))
         elif s.get("diagram"):
@@ -188,7 +201,7 @@ def cross_slug_ledger(exclude_slug: str) -> dict[str, list[str]]:
             if not d.exists() or d.is_symlink():
                 continue
             for f in d.iterdir():
-                if f.suffix.lower() in IMG_EXT | VID_EXT:
+                if f.suffix.lower() in IMG_EXT | VID_EXT and not is_hf(f.name):
                     key = quick_hash(f)
                     if key:
                         ledger.setdefault(key, []).append(
@@ -228,7 +241,7 @@ def main() -> int:
     # ---- per-scene relevance ----
     unsourced: dict[str, list[str]] = {}
     for s, fname, kind in visuals:
-        if kind not in ("img", "video") or not fname:
+        if kind not in ("img", "video") or not fname or is_hf(fname):
             continue
         title = titles.get(fname, "")
         scene_vocab = tokens(f"{s.get('text','')} {s.get('cap','')} {s.get('stat','')}")
@@ -261,6 +274,9 @@ def main() -> int:
     use_count: dict[str, list[str]] = {}
     prev_file = None
     for s, fname, kind in visuals:
+        if is_hf(fname):
+            prev_file = None
+            continue
         if fname:
             use_count.setdefault(fname, []).append(s["id"])
             if fname == prev_file:
@@ -289,7 +305,7 @@ def main() -> int:
     seen_x: set[str] = set()
     hook_block = False
     for s, fname, kind in visuals:
-        if not fname:
+        if not fname or is_hf(fname):
             continue
         p = (vid_dir if kind == "video" else img_dir) / fname
         if not p.exists():

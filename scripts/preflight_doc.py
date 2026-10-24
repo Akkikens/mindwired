@@ -46,6 +46,23 @@ memory files cited inline):
     built to present portrait document pages whole.
   - WARN: one img pool covering >40% of visual scenes with <5 distinct files
     (swissair111 sprawl: one 3-photo pool crept to 100+ of 179 scenes)
+HYPERFRAMES GATES (2026-10-24, BLACKBOX-2027-REVAMP §3.1 / Phase 1 #2) — an
+`hf` scene plays video/hf_<name>.mp4, a GENERATED data graphic that owns its
+whole frame. Before these gates the kit clips were hand-copied `video` scenes:
+they passed the hook rule as "real footage", rendered under DocWide's grade/
+scrim/Brand (flattening the kit's own chrome), shipped in the wrong channel
+accent (render-all.sh dropped --channel), and nothing noticed a data JSON
+edited after its clip was rendered:
+  - hf scene in the first ~25s (it is NOT real footage — treated as a still;
+    warn-only for criminalrecord like the rest of the hook rule)
+  - stat/cap/chapter/img/video on an hf scene (hf owns the frame; chapter
+    stays ChapterCard's so chapter numbering + SRT CHAPTERS keep one source)
+  - manifest.hf[name] missing, or doctiming.hf_sha (data json + template +
+    theme + build.mjs + pinned CLI) drifted from manifest.hf[name].sha256
+    (prints the build_hf_scenes.py --only rerun)
+  - clip missing, shorter than the scene, not 3840x2160, or not 30fps
+  - accent baked into hyperframes/scenes/<name>.html != THEMES[doc.channel]
+  - WARN: data JSON cites no CLAIMS file (numbers on screen with no trace)
 WARNS (hook checklist — see docs/guides/HOOK-CHECKLIST.md):
   - first scene over 30 words / greeting-style opener
   - no stat/chapter in the first 4 scenes
@@ -114,7 +131,30 @@ def ffprobe_fps(p: Path) -> float:
 # ic814kandahar / starfishprime black-screen sweeps, all found post-render)
 VISUAL_FIELDS = ("img", "video", "diagram", "dossier", "kinetic", "chapter",
                  "timeline", "route", "tree", "sting", "speaker", "sketch",
-                 "mascotFull", "mascotAside", "exhibit")
+                 "mascotFull", "mascotAside", "exhibit", "hf")
+
+
+def theme_accents() -> dict[str, str]:
+    """channel -> accent hex, parsed from DocWide's THEMES table exactly the way
+    hyperframes/scripts/build.mjs does, so the gate and the kit can't disagree."""
+    src = (REPO / "src/mindwired-doc/DocWide.tsx").read_text()
+    i = src.find("const THEMES")
+    body = src[i:src.find("\n};", i)] if i >= 0 else ""
+    return {m.group(1): m.group(2).upper() for m in re.finditer(
+        r'^  (\w+): \{[\s\S]*?accent: "(#[0-9A-Fa-f]{6})"', body, re.M)}
+
+
+def ffprobe_video(p: Path) -> tuple[int, int, float]:
+    """(width, height, fps) of the first video stream; zeros when unreadable."""
+    r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0",
+                        "-show_entries", "stream=width,height,r_frame_rate",
+                        "-of", "csv=p=0", str(p)], capture_output=True, text=True)
+    try:
+        w, h, rate = r.stdout.strip().splitlines()[0].split(",")[:3]
+        num, den = rate.split("/")
+        return int(w), int(h), (float(num) / float(den) if float(den) else 0.0)
+    except (ValueError, IndexError, ZeroDivisionError):
+        return 0, 0, 0.0
 
 
 def diagram_names() -> set[str]:
@@ -415,11 +455,106 @@ def main() -> int:
         if t >= 25.0:
             break
         sid = s["id"]
-        if not s.get("video") and not s.get("speaker"):
+        if s.get("hf"):
+            # a HyperFrames clip moves, but it is a generated graphic, not real
+            # footage — the hook rule counts it as a still (revamp §2)
+            msg = (f"{sid}: hf scene '{s['hf']}' starting at {t:.0f}s — HyperFrames "
+                   f"data scenes are NOT real footage and never sit in the first ~30s; "
+                   f"move it after the real-video hook")
+            (warn if channel == "criminalrecord" else block)(msg)
+        elif not s.get("video") and not s.get("speaker"):
             msg = (f"{sid}: scene starting at {t:.0f}s has no `video` — first ~30s "
                    f"must be real motion footage, stills don't hold scrollers")
             (warn if channel == "criminalrecord" else block)(msg)
         t += durations.get(sid, 3.0)
+
+    # ── HYPERFRAMES GATES (2026-10-24, revamp §3.1) ────────────────────────
+    # see the docstring: frame ownership, freshness hash, clip shape, accent
+    hf_man = man.get("hf", {}) or {}
+    accents = theme_accents()
+    want_accent = accents.get(channel)
+    hf_root = doctiming.HF_ROOT
+    for s in scenes:
+        name = s.get("hf")
+        if not name:
+            continue
+        sid = s["id"]
+        for f in ("stat", "cap", "chapter", "img", "video"):
+            if s.get(f):
+                block(f"{sid}: hf scene carries `{f}` — HyperFrames owns the whole "
+                      f"frame (no StatChip/CaptionBar/Brand on top; chapter cards stay "
+                      f"ChapterCard's; img/video are ignored). Put the text in "
+                      f"hyperframes/data/{slug}/{name}.json or split the scene")
+        rerun = f"scripts/build_hf_scenes.py {slug} --only {sid}"
+        data_path, tpl_path = doctiming.hf_paths(slug, name)
+        if not data_path.exists():
+            block(f"{sid}: hf '{name}' has no data file "
+                  f"{data_path.relative_to(REPO)}")
+            continue
+        if tpl_path is None or not tpl_path.exists():
+            block(f"{sid}: hf '{name}' data names no existing template "
+                  f"({tpl_path.relative_to(REPO) if tpl_path else 'no `scene` field'})")
+            continue
+        entry = hf_man.get(name)
+        if not isinstance(entry, dict):
+            block(f"{sid}: hf '{name}' has no manifest.hf entry — clip never built "
+                  f"(or built by hand); run `{rerun}`")
+        else:
+            sha_now = doctiming.hf_sha(slug, name) or ""
+            sha_rec = str(entry.get("sha256") or entry.get("sha") or "")
+            if len(sha_rec) < 16 or not sha_now.startswith(sha_rec.lower()):
+                block(f"{sid}: hf '{name}' data/template changed AFTER its clip was "
+                      f"rendered (sha {sha_rec[:16] or '—'} recorded, "
+                      f"{sha_now[:16]} now) — the clip shows stale data; rerun `{rerun}`")
+        clip = video_dir / f"hf_{name}.mp4"
+        if not clip.exists():
+            block(f"{sid}: hf clip {clip.relative_to(REPO)} missing — run `{rerun}`")
+            continue
+        need = doctiming.scene_frames(s, durations) / doctiming.FPS
+        got = ffprobe_dur(clip)
+        if got < need:
+            block(f"{sid}: hf clip hf_{name}.mp4 is {got:.2f}s but the scene runs "
+                  f"{need:.2f}s — it would freeze on its last frame; rerun `{rerun}`")
+        w, h, fps = ffprobe_video(clip)
+        if (w, h) != (3840, 2160) or abs(fps - 30) > 0.01:
+            block(f"{sid}: hf clip hf_{name}.mp4 is {w}x{h}@{fps:.3g}fps — must be "
+                  f"3840x2160@30 (landscape-4k, --fps 30); rerun `{rerun}`")
+        # accent baked into the built scene HTML; scenes/ is rebuilt per episode,
+        # so fall back to the build list build.mjs wrote for this slug
+        baked = None
+        scene_html = hf_root / "scenes" / f"{name}.html"
+        built = hf_root / ".hyperframes" / f"built-{slug}.json"
+        if scene_html.exists():
+            m_acc = re.search(r"--accent:\s*(#[0-9A-Fa-f]{6})", scene_html.read_text())
+            baked = m_acc.group(1).upper() if m_acc else None
+        if baked is None and built.exists():
+            try:
+                b = json.loads(built.read_text())
+                if name in b.get("scenes", []):
+                    baked = str(b.get("accent", "")).upper() or None
+            except ValueError:
+                pass
+        if want_accent is None:
+            block(f"{sid}: doc channel {channel!r} has no THEMES accent in DocWide.tsx")
+        elif baked is None:
+            warn(f"{sid}: hf '{name}' accent not checkable (no hyperframes/scenes/"
+                 f"{name}.html or built-{slug}.json) — rerun `{rerun}` to verify")
+        elif baked != want_accent:
+            block(f"{sid}: hf '{name}' baked accent {baked} != {channel} accent "
+                  f"{want_accent} (THEMES) — wrong channel colour; rerun `{rerun}`")
+        # claims trace for on-screen numbers is Phase 1 #3; here only the cite
+        try:
+            data_txt = data_path.read_text()
+            data = json.loads(data_txt)
+        except ValueError:
+            block(f"{sid}: hf data {data_path.relative_to(REPO)} is not valid JSON")
+            continue
+        if not (data.get("_facts") or data.get("claims")):
+            warn(f"{sid}: hf data {name}.json has no `_facts`/`claims` — every number "
+                 f"on screen needs a trace to CLAIMS-{slug}.md")
+        elif "CLAIMS-" not in data_txt:
+            warn(f"{sid}: hf data {name}.json cites no CLAIMS file in `_facts`/`claims` "
+                 f"— name CLAIMS-{slug}.md as the source")
 
     # clip fps sanity — 10fps archival cuts crashed the OffthreadVideo
     # compositor intermittently (memory starfishprime-video-10fps-bug)

@@ -2,7 +2,10 @@
 /**
  * mindwired scene-kit builder.
  *
- *   node scripts/build.mjs [--episode helios522] [--channel mindwired|blackbox|criminalrecord]
+ *   node scripts/build.mjs [--episode helios522] [--channel mindwired|blackbox|criminalrecord] [--only a,b]
+ *
+ * --only limits the build to those data file names (scripts/build_hf_scenes.py passes the doc's
+ * hf scenes); the built list then holds just those, so render-all.sh renders just those.
  *
  * For every data/<episode>/<name>.json it reads templates/<scene>.html (scene = json.scene),
  * bakes the JSON (and any basemap it references) into the markup, inlines theme/mindwired.css
@@ -45,7 +48,13 @@ let theme = fs.readFileSync(path.join(root, "theme/mindwired.css"), "utf8")
   .replace(/--accent-tint: rgba\([^)]*\)/, `--accent-tint: rgba(${hexToRgb(accent)}, 0.12)`);
 
 const dataDir = path.join(root, "data", episode);
-const files = fs.readdirSync(dataDir).filter((f) => f.endsWith(".json")).sort();
+const only = (opt("only", "") || "").split(",").map((x) => x.trim()).filter(Boolean);
+let files = fs.readdirSync(dataDir).filter((f) => f.endsWith(".json")).sort();
+if (only.length) {
+  const missing = only.filter((n) => !files.includes(`${n}.json`));
+  if (missing.length) { console.error(`--only: no data/${episode}/<name>.json for ${missing.join(", ")}`); process.exit(1); }
+  files = files.filter((f) => only.includes(path.basename(f, ".json")));
+}
 // Vendored (assets/vendor/README.md) — renders must work offline.
 const GSAP_FILE = "assets/vendor/gsap-3.14.2.min.js";
 if (!fs.existsSync(path.join(root, GSAP_FILE))) { console.error(`missing ${GSAP_FILE}`); process.exit(1); }

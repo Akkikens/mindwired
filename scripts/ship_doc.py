@@ -9,6 +9,8 @@ Order (a failing gate stops the run):
   1. lint_tts_text        spoken numbers/codes read wrong by TTS
   2. radio_recreate       scenes with `speaker` -> radio-EQ'd recreations
   3. build_doc_vo         per-scene VO + manifest (idempotent)
+  3b. build_hf_scenes     `hf` data scenes -> 4K clips sized to their VO
+                          (skips fresh clips; no-op without hf scenes)
   4. audit_doc_images     contact sheets -> out/qa/ (CHECKPOINT: eyeball them)
   5. preflight_doc        blocks on missing assets/stale manifest/empty clips
   6. 4 stills             spread across the comp (CHECKPOINT: look at them)
@@ -66,6 +68,8 @@ def main() -> None:
                          str(doctiming.DOCS / f"{slug}.json")])
     run("2/9 radio recreations", [PY, "scripts/radio_recreate.py", slug])
     run("3/9 VO build + manifest", [PY, "scripts/build_doc_vo.py", slug])
+    # HyperFrames data scenes: AFTER the VO so every clip is sized to its beat
+    run("3b/9 HyperFrames scenes", [PY, "scripts/build_hf_scenes.py", slug])
 
     # run-BY-EAR check (2026-07-19, "AI voice" complaints): splice 3 clips
     # (hook / middle / last) into one sample and actually listen to it.

@@ -69,11 +69,17 @@ def main() -> None:
     prev_speed = None
     prev_polish = None
     prev_hash: dict[str, str] = {}
+    prev_hf: dict = {}
     if mpath_prev.exists():
         _prev = json.loads(mpath_prev.read_text())
         prev_speed = _prev.get("speed")
         prev_polish = _prev.get("polish")
         prev_hash = _prev.get("texthash", {})
+        # hf scene records are written by build_hf_scenes.py (ship_doc step
+        # 3b); carry them like texthash so a VO rebuild doesn't make preflight
+        # BLOCK with "no manifest.hf entry" until 3b reruns. A duration change
+        # still invalidates them through the sha check.
+        prev_hf = _prev.get("hf", {})
     # polish: sticky per episode. A pre-existing manifest without the key means
     # the episode predates the polish chain — its clips are raw, so --only
     # re-synths must stay raw too (else one clip splices in sounding different).
@@ -161,6 +167,8 @@ def main() -> None:
     manifest = {"durations": durs, "images": scan_images(out / "images"),
                 "missing": missing, "speed": args.speed, "polish": do_polish,
                 "mouth": mouths, "texthash": texthash}
+    if prev_hf:
+        manifest["hf"] = prev_hf
     mpath = DOCS / f"{args.slug}.manifest.json"
     mpath.write_text(json.dumps(manifest, indent=1))
     total = sum(durs.values())
