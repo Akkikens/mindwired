@@ -25,6 +25,8 @@ events/people/places.
 | **generic** | commons → archive_org → pexels → pixabay | Pexels/Pixabay = modern generic b-roll ONLY (ocean, clouds, city) — never presented as archival |
 | **briefing** | dvids → nasa → archive_org → nara → commons | The LEGAL analog to a network news broadcast (2026-08-21) — real podium, real officials, PD because it's a federal government work. Use whenever an episode's topic has an actual NASA/NTSB/FAA/Pentagon/White House press conference or briefing on the record — it carries the same "breaking news" energy as CNN/BBC/Fox footage without the copyright risk. **Never substitute real network/local news broadcast footage** — it's copyrighted, Content-ID-fingerprinted (no clip-length safe harbor — "just use 5 seconds" is not a legal exemption), and repeated hits risk the whole channel's monetization. |
 
+| **nasa_institutional** | dvids → nasa → nara → archive_org → commons | NASA-institutional/hardware stories (columbia, challenger, apollo1): press/briefing/mission-control sources first, NASA library next, **no observatories** — `space` ranks ESO and returned a Crab Nebula pan for a shuttle-launch query (memory `footage-era-identity-niche`). Unlike `briefing`, the era rejection stays on. |
+
 ## Finding a real press conference/briefing (niche `briefing`)
 
 When a topic has a real, on-the-record government response — a NASA press
@@ -102,6 +104,33 @@ lumpur airport night"` (image pool per prefix), `"video": "b777_1.mp4",
 archival-first), doc-level `"niche"`. Write SPECIFIC queries — the aircraft,
 the ship name, the place — never just "ocean". Then eyeball the contact sheet,
 `build_doc_vo.py --manifest-only`, `audit_scene_relevance.py`.
+
+## Slice, era, identity, clip gates (revamp Phase 2 #2, 2026-10-24)
+
+Mirrors `scripts/lib/footage.py` + `fetch_doc_footage.py` — update together.
+- **Slice-aware fetch.** A source longer than its per-prefix cap is no longer
+  cut from the top. `pick_slice` samples 0/8/15 s plus one frame per ~10 % of
+  the full length, drops near-black/dark-slate frames, asks the vision model
+  in ONE call which frames show the query, and keeps the window holding the
+  most matches. `source_offset` + `slice` land in PROVENANCE.jsonl; the run
+  prints `source_offset=` and `suggested videoFrom=`. No matching frame = the
+  candidate is a MISMATCH. Without a key it still skips black/slate openings.
+- **Era + identity verdict** (3 frames, one call, strict JSON): subject,
+  visual era, real person. Doc-level `"era": {"from": "1981", "to": "2003"}`
+  rejects ANACHRONISTIC footage → `!! MISMATCH (era)`. A pool whose scenes
+  are ALL `"era": "aftermath"`, or anything fetched as niche `briefing`, may be
+  post-event official material (briefings, recovery, hearings) and skips that
+  rejection. A query naming a person rejects a clip of someone else →
+  `!! MISMATCH (identity)` (WRONG-PERSON); who-is-shown is logged either way.
+- **Blocklist.** `"fetchRules": {"blocklist": ["starlink", "eso.org"]}` in the
+  doc JSON (or `fetch_footage.py --blocklist`): a dotted entry matches the
+  url/page host, anything else a title substring.
+- **Clip gates (WARN).** clip shorter than its scene from `videoFrom` (with
+  the shortfall), and ffmpeg freezedetect spans inside a scene's window —
+  printed after every fetch; `fetch_doc_footage.py <slug> --check-clips`
+  runs both without fetching, `--dry-run` runs the length check.
+- `--no-verify` still skips every vision call (the slice scan falls back to
+  the slate scan); PROVENANCE then records `verify.status: skipped`.
 
 ## The anti-slop rules (enforced by the pipeline)
 

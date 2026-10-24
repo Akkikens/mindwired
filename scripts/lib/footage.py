@@ -7,8 +7,11 @@ scripts/fetch_footage.py ranks + orchestrates them per niche. Rules baked in:
   - Every download logged to <out>/ATTRIBUTION.md (same formats fetch_media.py /
     fetch_video.py use, so audit_scene_relevance.py can parse source titles),
     plus one JSON row per file in the episode root's PROVENANCE.jsonl.
-  - Video transcoded to 1080p H.264 mp4 (Remotion OffthreadVideo); long clips
-    start ~10% in so archival slates/titles don't eat the b-roll window.
+  - Video transcoded to 1080p H.264 mp4 (Remotion OffthreadVideo); a source
+    longer than its cap is sliced where a frame scan (0/8/15s + every ~10%)
+    finds the query, past black/slate frames (pick_slice) — offset recorded.
+  - Vision verdict over 3 frames: subject, era (doc `era`, aftermath/briefing
+    exempt) and real-person identity (verify_clip).
   - Idempotent: existing prefix_N files are never re-downloaded.
 
 Sources needing free keys degrade gracefully when the key is absent:
@@ -833,14 +836,17 @@ def ffprobe_duration(p: Path) -> float:
         return 0.0
 
 
-def transcode(src: Path, dst: Path, max_seconds: int, max_h: int = 1080) -> bool:
-    """-> H.264 mp4 (1080p default; max_h=2160 for 4K episodes), silent. Long
-    archival reels start ~10% in (skip slates/titles) instead of always taking
-    the first seconds."""
-    dur = ffprobe_duration(src)
-    start = 0.0
-    if dur > max_seconds * 3:
-        start = min(dur * 0.10, 45.0)
+def transcode(src: Path, dst: Path, max_seconds: int, max_h: int = 1080,
+              start: float | None = None) -> bool:
+    """-> H.264 mp4 (1080p default; max_h=2160 for 4K episodes), silent.
+    `start` is the source offset of the kept window (download_assets picks it
+    with pick_slice's frame scan); None keeps the legacy guess — long reels
+    start ~10% in."""
+    if start is None:
+        dur = ffprobe_duration(src)
+        start = 0.0
+        if dur > max_seconds * 3:
+            start = min(dur * 0.10, 45.0)
     max_w = max_h * 16 // 9
     cmd = ["ffmpeg", "-y", "-v", "error"]
     if start:
@@ -856,6 +862,23 @@ def transcode(src: Path, dst: Path, max_seconds: int, max_h: int = 1080) -> bool
             and dst.stat().st_size > 0 and ffprobe_duration(dst) > 0.5)
 
 
+_clip_start_mod_cache = None
+
+
+def _clip_start_mod():
+    """scripts/find_clip_start.py as a module (numpy/PIL) — one source of
+    truth for the slate statistics. Raises when it can't load."""
+    global _clip_start_mod_cache
+    if _clip_start_mod_cache is None:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location(
+            "find_clip_start", REPO / "scripts" / "find_clip_start.py")
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        _clip_start_mod_cache = mod
+    return _clip_start_mod_cache
+
+
 def suggest_clip_start(path: Path, max_scan: float = 30.0) -> float | None:
     """First second of a saved clip that is real footage, not a near-black
     frame or a dark title slate — the suggested DocWide `videoFrom`. Reuses
@@ -864,29 +887,97 @@ def suggest_clip_start(path: Path, max_scan: float = 30.0) -> float | None:
     BRIGHT slates (columbia's green Moon graphic), so the contact sheet is
     still the final word (memory footage-20s-slice-root-cause)."""
     try:
-        import importlib.util
-        spec = importlib.util.spec_from_file_location(
-            "find_clip_start", REPO / "scripts" / "find_clip_start.py")
-        mod = importlib.util.module_from_spec(spec)
-        spec.loader.exec_module(mod)
-        return float(mod.find_start(path, max_scan))
+        return float(_clip_start_mod().find_start(path, max_scan))
     except Exception:  # noqa: BLE001 — advisory only, never kill the fetch run
         return None
 
 
-def verify_status(reason: str) -> str:
-    """verify_relevance()'s reason string -> verified|skipped|error, so a
-    fail-open check leaves a trace instead of looking like a pass."""
-    if reason.startswith("verify error"):
-        return "error"
-    if reason in ("verification skipped", "no frame extracted", "no query"):
-        return "skipped"
-    return "verified"
+def is_real_frame(path: Path, t: float) -> bool:
+    """True when the frame at `t` is real footage, False for near-black or a
+    dark title slate — find_clip_start.find_start's exact test. Fails open
+    (True) when numpy/PIL are missing."""
+    try:
+        mod = _clip_start_mod()
+        with tempfile.TemporaryDirectory() as td:
+            black, spread, sat = mod.frame_stats(path, t, Path(td) / "f.png")
+    except Exception:  # noqa: BLE001
+        return True
+    return black < 0.55 and (spread > 14 or sat > 6)
+
+
+def scan_times(dur: float) -> list[float]:
+    """Where pick_slice looks in a long source: 0/8/15s (the contact-sheet
+    strip) plus one frame per ~10% of the full length, so a launch that starts
+    at minute 3 of a NASA reel is found instead of the first 20s being kept
+    blindly (memory footage-20s-slice-root-cause)."""
+    if dur <= 0:
+        return [0.0]
+    ts = {0.0, 8.0, 15.0} | {round(dur * k / 10, 1) for k in range(1, 10)}
+    last = max(0.0, dur - 0.5)
+    return sorted(t for t in ts if t <= last)
+
+
+# ------------------------------------------------------------- clip-length gates
+
+def detect_freezes(path: Path, min_s: float = 2.0,
+                   noise: str = "-60dB") -> list[tuple[float, float]]:
+    """[(start, end)] spans where the picture does not change for >= min_s
+    (ffmpeg freezedetect) — a held frame / still-in-a-video-wrapper reads as a
+    broken render on screen. Empty on any ffmpeg failure."""
+    r = subprocess.run(["ffmpeg", "-nostdin", "-v", "info", "-i", str(path),
+                        "-vf", f"freezedetect=n={noise}:d={min_s}", "-map", "0:v:0",
+                        "-f", "null", "-"], capture_output=True, text=True)
+    starts = [float(x) for x in re.findall(r"freeze_start: ([\d.]+)", r.stderr)]
+    ends = [float(x) for x in re.findall(r"freeze_end: ([\d.]+)", r.stderr)]
+    if len(ends) < len(starts):  # frozen through EOF: no freeze_end is printed
+        ends.append(ffprobe_duration(path))
+    return list(zip(starts, ends))
+
+
+def clip_warnings(path: Path, need_s: float | None = None, offset: float = 0.0,
+                  freeze: bool = True) -> list[str]:
+    """WARN lines for one saved clip: shorter than the on-screen time it has
+    to fill from `offset` (DocWide holds the last frame — a freeze on screen),
+    and freezedetect spans inside that window."""
+    out: list[str] = []
+    dur = ffprobe_duration(path)
+    if need_s is not None and dur - offset < need_s - 0.5:
+        out.append(f"WARN clip-short: {path.name} has {max(0.0, dur - offset):.1f}s "
+                   f"from {offset:g}s, scene needs {need_s:.1f}s "
+                   f"(short by {need_s - (dur - offset):.1f}s)")
+    if freeze:
+        hi = offset + need_s if need_s is not None else dur
+        for a, b in detect_freezes(path):
+            if b > offset and a < hi:
+                out.append(f"WARN freeze: {path.name} picture frozen "
+                           f"{a:.1f}-{b:.1f}s")
+    return out
+
+
+def blocked_by(a: Asset, blocklist: list[str] | None) -> str | None:
+    """The doc's fetchRules.blocklist entry this asset hits, else None. An
+    entry that looks like a domain (has a dot, no spaces) matches the url/page
+    host; anything else is a case-insensitive title substring."""
+    if not blocklist:
+        return None
+    from urllib.parse import urlparse
+    hosts = {urlparse(u).hostname or "" for u in (a.url, a.page) if u}
+    title = (a.title or "").lower()
+    for entry in blocklist:
+        e = str(entry).strip().lower()
+        if not e:
+            continue
+        if "." in e and " " not in e and any(h == e or h.endswith("." + e) for h in hosts):
+            return entry
+        if e in title:
+            return entry
+    return None
 
 
 def log_attribution(out_dir: Path, dst_name: str, a: Asset, query: str = "",
                     verify: dict | None = None,
-                    suggested_from: float | None = None) -> None:
+                    suggested_from: float | None = None,
+                    slice_: dict | None = None) -> None:
     att = out_dir / "ATTRIBUTION.md"
     with att.open("a", encoding="utf-8") as f:
         if a.media == "video":
@@ -909,6 +1000,11 @@ def log_attribution(out_dir: Path, dst_name: str, a: Asset, query: str = "",
            "fetched_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
     if suggested_from is not None:
         row["suggested_from"] = suggested_from
+    if slice_:
+        # where in the SOURCE the kept window starts — the title/page describe
+        # the whole source, this says which part of it the file actually is
+        row["slice"] = slice_
+        row["source_offset"] = slice_.get("start", 0.0)
     with (root / "PROVENANCE.jsonl").open("a", encoding="utf-8") as f:
         f.write(json.dumps(row, ensure_ascii=False) + "\n")
 
@@ -949,93 +1045,300 @@ def _load_gemini_key() -> str | None:
     return _gemini_key_cache or None
 
 
-def _frame_for_verify(path: Path) -> Path | None:
-    """A still to hand the vision model: the image itself, or one video frame
-    (~30% in, past any title/slate card) downscaled so the request stays small
-    and fast."""
+def extract_frame(path: Path, t: float = 0.0, max_px: int = 768) -> Path | None:
+    """A downscaled JPEG still for the vision model: the image itself, or the
+    video frame at `t` seconds. The caller unlinks it. None on any failure."""
     try:
         from PIL import Image
     except ImportError:
         return None
-    tmp = Path(tempfile.mktemp(suffix=".jpg"))
+    fd, name = tempfile.mkstemp(suffix=".jpg")
+    os.close(fd)
+    tmp = Path(name)
     try:
-        if path.suffix.lower() == ".mp4":
-            dur = ffprobe_duration(path)
-            at = max(0.5, min(dur * 0.3, 8.0)) if dur else 1.0
-            r = subprocess.run(["ffmpeg", "-y", "-v", "error", "-ss", f"{at:.1f}",
+        if path.suffix.lower() not in IMG_EXT:
+            r = subprocess.run(["ffmpeg", "-y", "-v", "error", "-ss", f"{t:.2f}",
                                 "-i", str(path), "-frames:v", "1", str(tmp)])
-            if r.returncode != 0 or not tmp.exists():
+            if r.returncode != 0 or not tmp.exists() or tmp.stat().st_size == 0:
+                tmp.unlink(missing_ok=True)
                 return None
             im = Image.open(tmp).convert("RGB")
         else:
             im = Image.open(path).convert("RGB")
-        im.thumbnail((768, 768))
+        im.thumbnail((max_px, max_px))
         im.save(tmp, "JPEG", quality=85)
         return tmp
-    except Exception:
+    except Exception:  # noqa: BLE001
+        tmp.unlink(missing_ok=True)
         return None
 
 
-def verify_relevance(query: str, path: Path, title: str = "") -> tuple[bool, str]:
-    """Ask Gemini whether `path` actually shows what `query` (+ optional source
-    `title`) describes. Returns (passed, reason). Fails OPEN (passed=True) on
-    any error/missing key/missing PIL — a flaky verifier must never block the
-    whole pipeline, it only removes a positive signal."""
-    key = _load_gemini_key()
-    if not VERIFY or not key:
-        return True, "verification skipped"
-    frame = _frame_for_verify(path)
-    if frame is None:
-        return True, "no frame extracted"
+def norm_era(era) -> dict | None:
+    """Doc-level `era` -> {"from": "YYYY", "to": "YYYY"}. Accepts that dict,
+    a [from, to] pair or "1981-2003". None when absent; ValueError when
+    malformed (a typo'd era must not silently switch the gate off)."""
+    if era in (None, "", {}, []):
+        return None
+    if isinstance(era, dict):
+        f, t = era.get("from"), era.get("to")
+    elif isinstance(era, (list, tuple)) and len(era) == 2:
+        f, t = era
+    elif isinstance(era, str) and re.fullmatch(r"\s*\d{4}\s*[-–]\s*\d{4}\s*", era):
+        f, t = re.split(r"\s*[-–]\s*", era.strip())
+    else:
+        raise ValueError(f"era {era!r} — want {{\"from\": \"YYYY\", \"to\": \"YYYY\"}}")
+    f, t = str(f or "").strip(), str(t or "").strip()
+    if not (re.fullmatch(r"\d{4}", f) and re.fullmatch(r"\d{4}", t)) or f > t:
+        raise ValueError(f"era {era!r} — want {{\"from\": \"YYYY\", \"to\": \"YYYY\"}}, from <= to")
+    return {"from": f, "to": t}
+
+
+def _era_exempt(ctx: dict | None) -> bool:
+    """Scenes tagged era:"aftermath" and briefing-niche fetches expect footage
+    recorded AFTER the event (NTSB/NASA press conferences, recovery) — the
+    anachronism rejection would delete exactly the material CLAUDE.md asks for."""
+    return bool(ctx and (ctx.get("aftermath") or ctx.get("briefing")))
+
+
+def build_verify_prompt(query: str, title: str = "", ctx: dict | None = None,
+                        times: list[float] | None = None) -> str:
+    """The three-question clip verdict: subject, visual era, real-person
+    identity (memory footage-era-identity-niche — the old subject-only check
+    passed a 2022 VP-Harris ISS call under a 2003 breakup). Strict JSON out."""
+    era = (ctx or {}).get("era")
+    n = len(times) if times else 1
+    what = (f"{n} frames from ONE video clip (at {', '.join(f'{t:g}s' for t in times)})"
+            if times and n > 1 else "one image (a video frame or the photo itself)")
+    p = ("You are a strict fact-checker for a documentary's archival-footage pool. "
+         f"The editor searched for: \"{query}\"."
+         + (f" The source's own title/caption for this file is: \"{title}\"." if title else "")
+         + f" Attached: {what}. Judge ONLY what is visibly depicted — ignore the "
+           "title/caption wherever it contradicts what you actually see. Answer three "
+           "questions.\n"
+           "1. SUBJECT: MATCH if the frames genuinely show the subject searched for (the "
+           "right object/person/place/event, not a thematically-similar stand-in); MISMATCH "
+           "if they show something else (wrong subject, wrong specific entity, unrelated "
+           "stock, a title slate, or a chart/diagram/screenshot when real footage was "
+           "wanted).\n")
+    if era and _era_exempt(ctx):
+        p += (f"2. ERA: the story happened {era['from']}-{era['to']}, but this scene uses "
+              f"official AFTERMATH material — footage recorded after {era['to']} (press "
+              "briefings, investigation, recovery, hearings, memorials) is EXPECTED and is "
+              f"NOT anachronistic. Answer ANACHRONISTIC only if it plainly predates "
+              f"{era['from']}; otherwise PLAUSIBLE or UNSURE.\n")
+    elif era:
+        p += (f"2. ERA: the story is set {era['from']}-{era['to']}. Is the footage visually "
+              "plausible for that period? Look for anachronistic technology, screens and "
+              "UI, vehicles, aircraft liveries, rockets/spacecraft, clothing, and image "
+              f"quality (modern HD digital video of a pre-digital era). Footage clearly "
+              f"recorded after {era['to']} or before {era['from']} is ANACHRONISTIC. "
+              "Answer PLAUSIBLE, ANACHRONISTIC or UNSURE.\n")
+    else:
+        p += "2. ERA: no era is set for this story — answer NA.\n"
+    p += ("3. IDENTITY: does any frame show a specific, identifiable real person (a "
+          "recognisable face, a name caption, a well-known public figure)? If so, who — "
+          "a name if you recognise them, else a short description. If the search names "
+          "a specific person, does the person shown match them (YES/NO); NA when the "
+          "search names no person or nobody identifiable is shown.\n"
+          "Reply with ONLY this JSON object, no prose, no code fence:\n"
+          "{\"subject\": \"MATCH|MISMATCH\", \"era\": \"PLAUSIBLE|ANACHRONISTIC|UNSURE|NA\", "
+          "\"identity\": {\"person\": true|false, \"who\": \"...\", \"matches_query\": "
+          "\"YES|NO|NA\"}, \"reason\": \"one sentence\"}")
+    return p
+
+
+def build_scan_prompt(query: str, title: str, n: int) -> str:
+    """One call over every scanned frame of a long source: which of them show
+    the subject? pick_slice keeps the window around those."""
+    return ("You are choosing which part of a long archival video to keep for a "
+            f"documentary. The editor searched for: \"{query}\"."
+            + (f" The source's title is: \"{title}\" (it describes the whole video, not "
+               "every part of it)." if title else "")
+            + f" Attached are {n} frames sampled in time order from ONE source video, "
+              f"numbered 1 to {n}. For each, decide whether it genuinely shows the "
+              "subject searched for — not a title card, slate, interview talking head, "
+              "audience shot or unrelated b-roll. Reply with ONLY this JSON object, no "
+              "prose: {\"match\": [numbers of the frames that show it]}")
+
+
+def _parse_json(text: str) -> dict:
+    t = re.sub(r"^```(?:json)?|```$", "", (text or "").strip(), flags=re.M).strip()
+    m = re.search(r"\{.*\}", t, re.S)
+    if not m:
+        raise ValueError("no JSON object in vision reply")
+    return json.loads(m.group(0))
+
+
+def parse_verdict(text: str) -> dict:
+    """Vision reply -> {subject, era, identity:{person, who, matches_query},
+    reason}. Falls back to the legacy 'MATCH/MISMATCH\\nreason' shape."""
     try:
-        mime = "image/jpeg"
-        data = base64.b64encode(frame.read_bytes()).decode()
-        prompt = (
-            "You are a strict fact-checker for a documentary's stock-footage pool. "
-            f"The editor searched for: \"{query}\"."
-            + (f" The source's own title/caption for this file is: \"{title}\"." if title else "")
-            + " Look at the attached image (a video frame or the photo itself) and judge "
-              "ONLY what is visibly depicted — ignore the title/caption if it contradicts "
-              "what you actually see. Answer on the first line with exactly one word, "
-              "MATCH or MISMATCH, then a second line with a one-sentence reason. MATCH means "
-              "the image genuinely shows the subject searched for (the right object/person/"
-              "place/event, not just a thematically-similar stand-in). MISMATCH means it "
-              "shows something else (wrong subject, wrong specific entity, unrelated stock "
-              "photo, or a chart/diagram/screenshot instead of a real photo when a real "
-              "photo was wanted)."
-        )
-        body = {
-            "contents": [{"parts": [
-                {"text": prompt},
-                {"inline_data": {"mime_type": mime, "data": data}},
-            ]}],
-            "generationConfig": {"temperature": 0, "maxOutputTokens": 60},
-        }
-        r = httpx.post(_GEMINI_ENDPOINT.format(model=_GEMINI_VERIFY_MODEL),
-                       params={"key": key}, json=body, timeout=30)
-        r.raise_for_status()
-        out = r.json()["candidates"][0]["content"]["parts"][0]["text"].strip()
-        first_line = out.splitlines()[0].strip().upper()
-        passed = first_line.startswith("MATCH")
-        reason = out.splitlines()[1].strip() if len(out.splitlines()) > 1 else out
-        return passed, reason
+        d = _parse_json(text)
+    except Exception:  # noqa: BLE001 — legacy two-line answer
+        lines = [l.strip() for l in (text or "").strip().splitlines() if l.strip()]
+        if not lines:
+            raise ValueError("empty vision reply")
+        first = lines[0].upper()
+        if not first.startswith(("MATCH", "MISMATCH")):
+            raise ValueError(f"unparseable vision reply: {lines[0][:60]!r}")
+        return {"subject": "MATCH" if first.startswith("MATCH") else "MISMATCH",
+                "era": "NA", "identity": {"person": False, "who": "", "matches_query": "NA"},
+                "reason": lines[1] if len(lines) > 1 else lines[0]}
+    ident = d.get("identity") if isinstance(d.get("identity"), dict) else {}
+    return {"subject": str(d.get("subject", "")).strip().upper() or "MISMATCH",
+            "era": str(d.get("era", "NA")).strip().upper() or "NA",
+            "identity": {"person": bool(ident.get("person")),
+                         "who": str(ident.get("who") or "").strip(),
+                         "matches_query": str(ident.get("matches_query") or "NA").strip().upper()},
+            "reason": str(d.get("reason") or "").strip()}
+
+
+def judge_verdict(v: dict, ctx: dict | None = None) -> tuple[bool, str, str]:
+    """(passed, category, reason). category: subject | era | identity | "".
+    ANACHRONISTIC only rejects when the doc has an era and the scene is not
+    aftermath/briefing; WRONG-PERSON rejects whenever the query named someone
+    and the model says the person shown is not them."""
+    reason = v.get("reason") or ""
+    if not v.get("subject", "").startswith("MATCH"):
+        return False, "subject", reason
+    if v.get("era") == "ANACHRONISTIC" and (ctx or {}).get("era") and not _era_exempt(ctx):
+        return False, "era", f"ANACHRONISTIC — {reason}"
+    if (v.get("identity") or {}).get("matches_query") == "NO":
+        who = (v.get("identity") or {}).get("who") or "someone else"
+        return False, "identity", f"WRONG-PERSON (shows {who}) — {reason}"
+    return True, "", reason
+
+
+def _vision_call(prompt: str, frames: list[Path]) -> str:
+    """One Gemini request: prompt + JPEG frames -> reply text. Raises on any
+    error (callers fail open). Tests monkeypatch this — no live API needed."""
+    key = _load_gemini_key()
+    if not key:
+        raise RuntimeError("no GEMINI_API_KEY")
+    parts: list[dict] = [{"text": prompt}]
+    for f in frames:
+        parts.append({"inline_data": {"mime_type": "image/jpeg",
+                                      "data": base64.b64encode(f.read_bytes()).decode()}})
+    body = {"contents": [{"parts": parts}],
+            "generationConfig": {"temperature": 0, "maxOutputTokens": 1024,
+                                 "responseMimeType": "application/json"}}
+    r = httpx.post(_GEMINI_ENDPOINT.format(model=_GEMINI_VERIFY_MODEL),
+                   params={"key": key}, json=body, timeout=60)
+    r.raise_for_status()
+    return r.json()["candidates"][0]["content"]["parts"][0]["text"].strip()
+
+
+_CATEGORY_VERDICT = {"subject": "MISMATCH", "era": "ANACHRONISTIC", "identity": "WRONG-PERSON"}
+
+
+def verify_clip(query: str, path: Path, title: str = "",
+                ctx: dict | None = None) -> dict:
+    """Vision verdict for one saved file over 3 frames (0/8/15s of the kept
+    slice, or the image) in ONE call. Returns the PROVENANCE `verify` dict plus
+    `passed`. Fails OPEN (passed=True, status skipped|error) on a missing key,
+    PIL or API error — a flaky verifier never blocks a fetch, but the status
+    says it was not checked."""
+    if not VERIFY or not _load_gemini_key():
+        return {"passed": True, "status": "skipped", "note": "verification skipped"}
+    is_vid = path.suffix.lower() not in IMG_EXT
+    times = _strip_times(ffprobe_duration(path)) if is_vid else [0.0]
+    shots = [(t, extract_frame(path, t)) for t in times]
+    shots = [(t, f) for t, f in shots if f]
+    if not shots:
+        return {"passed": True, "status": "skipped", "note": "no frame extracted"}
+    try:
+        prompt = build_verify_prompt(query, title, ctx,
+                                     [t for t, _ in shots] if is_vid else None)
+        v = parse_verdict(_vision_call(prompt, [f for _, f in shots]))
+        passed, cat, reason = judge_verdict(v, ctx)
+        return {"passed": passed, "status": "verified", "model": _GEMINI_VERIFY_MODEL,
+                "frames": [t for t, _ in shots],
+                "verdict": "MATCH" if passed else _CATEGORY_VERDICT[cat],
+                "category": cat, "subject": v["subject"], "era": v["era"],
+                "era_window": (ctx or {}).get("era"), "era_exempt": _era_exempt(ctx),
+                "identity": v["identity"], "reason": reason, "note": reason}
     except Exception as e:  # noqa: BLE001 — fail open, never kill the fetch run
-        return True, f"verify error ({e.__class__.__name__}) — kept unverified"
+        return {"passed": True, "status": "error",
+                "note": f"verify error ({e.__class__.__name__}) — kept unverified"}
     finally:
-        frame.unlink(missing_ok=True)
+        for _, f in shots:
+            f.unlink(missing_ok=True)
+
+
+def verify_relevance(query: str, path: Path, title: str = "",
+                     ctx: dict | None = None) -> tuple[bool, str]:
+    """(passed, reason) wrapper over verify_clip for older callers."""
+    v = verify_clip(query, path, title, ctx)
+    return v["passed"], v.get("reason") or v.get("note", "")
+
+
+def pick_slice(src: Path, max_seconds: float, query: str = "",
+               title: str = "") -> dict | None:
+    """Which `max_seconds` window of a long source to keep (revamp §3.2,
+    memory footage-20s-slice-root-cause). Scans scan_times(): drops near-black
+    / dark-slate frames locally, sends the rest to ONE vision call asking which
+    show the query, and keeps the window holding the most matches (earliest on
+    a tie), starting at a matching frame. Returns {start, end, source_duration,
+    method, hits, scanned}, or None when the vision scan ran and NO frame of
+    the source shows the query — the caller rejects it as a MISMATCH. Without a
+    vision key (or on an API error) it still skips black/slate openings."""
+    dur = ffprobe_duration(src)
+    if dur <= max_seconds + 0.5:
+        return {"start": 0.0, "end": round(dur, 1), "source_duration": round(dur, 1),
+                "method": "whole"}
+    times = scan_times(dur)
+    real = [t for t in times if is_real_frame(src, t)]
+    hits, method = real, "slate-scan"
+    if query and VERIFY and _load_gemini_key() and real:
+        shots = [(t, extract_frame(src, t, 512)) for t in real]
+        shots = [(t, f) for t, f in shots if f]
+        try:
+            d = _parse_json(_vision_call(build_scan_prompt(query, title, len(shots)),
+                                         [f for _, f in shots]))
+            idx = [int(i) for i in (d.get("match") or [])
+                   if str(i).strip().lstrip("-").isdigit()]
+            hits = sorted({shots[i - 1][0] for i in idx if 1 <= i <= len(shots)})
+            method = "vision-scan"
+            if not hits:
+                return None
+        except Exception as e:  # noqa: BLE001 — fail open to the slate scan
+            method = f"slate-scan (verify error {e.__class__.__name__})"
+        finally:
+            for _, f in shots:
+                f.unlink(missing_ok=True)
+    latest = max(0.0, dur - max_seconds)
+    if not hits:  # every scanned frame black/slate: legacy guess, contact sheet decides
+        start, method = min(dur * 0.10, 45.0, latest), "legacy (no real frame found)"
+    else:
+        best = None
+        for c in hits:
+            s = min(c, latest)
+            score = sum(1 for h in hits if s <= h <= s + max_seconds)
+            if best is None or score > best[0]:
+                best = (score, s)
+        start = best[1]
+    start = round(start, 1)
+    return {"start": start, "end": round(min(dur, start + max_seconds), 1),
+            "source_duration": round(dur, 1), "method": method,
+            "hits": hits, "scanned": times}
 
 
 def download_assets(assets: list[Asset], out_dir: Path, prefix: str, count: int,
                     max_seconds: int = 20, min_width: int = 800, max_h: int = 1080,
-                    query: str = "",
+                    query: str = "", verify_ctx: dict | None = None,
+                    need_seconds: float | None = None,
                     ) -> list[tuple[Path, Asset]]:
     """Download up to `count` assets as <prefix>_N.<ext>, resuming numbering after
     existing files (idempotent). Videos are transcoded; images saved as-is.
-    When `query` is given (and VERIFY is on + GEMINI_API_KEY is set), each saved
-    file is vision-checked against it before it counts toward `count` — a
-    MISMATCH is deleted and the loop moves to the next candidate instead of
-    silently keeping a wrong-subject file. Returns (path, asset) pairs for what
-    was actually saved and passed verification."""
+    A source longer than `max_seconds` is sliced where pick_slice's frame scan
+    finds the query (not blindly from the top); the offset lands in
+    PROVENANCE.jsonl as `source_offset`. When `query` is given (and VERIFY is
+    on + GEMINI_API_KEY is set), each saved file is vision-checked for subject,
+    era (`verify_ctx` = {"era": {...}, "aftermath": bool, "briefing": bool})
+    and identity before it counts toward `count` — a rejection is deleted and
+    the loop moves to the next candidate. `need_seconds` (on-screen time the
+    clip must fill) drives the clip-short WARN. Returns (path, asset) pairs for
+    what was actually saved and passed verification."""
     out_dir.mkdir(parents=True, exist_ok=True)
     media = assets[0].media if assets else "video"
     kind_ext = {".mp4"} if media == "video" else IMG_EXT
@@ -1090,8 +1393,17 @@ def download_assets(assets: list[Asset], out_dir: Path, prefix: str, count: int,
                               flush=True)
                         tmp.unlink(missing_ok=True)
                         continue
-                    ok = transcode(tmp, dst, max_seconds, max_h=max_h)
+                    sl = pick_slice(tmp, max_seconds, query, a.title)
+                    if sl is None:
+                        tmp.unlink(missing_ok=True)
+                        print(f"  !! MISMATCH (vision check): {a.title[:50]} — no scanned "
+                              f"frame of the source shows the query")
+                        continue
+                    ok = transcode(tmp, dst, max_seconds, max_h=max_h, start=sl["start"])
                     tmp.unlink(missing_ok=True)
+                    if ok and sl["method"] != "whole":
+                        print(f"     slice {sl['start']:g}-{sl['end']:g}s of a "
+                              f"{sl['source_duration']:g}s source [{sl['method']}]")
                     # PORTRAIT GUARD (2026-09-13). Stock libraries serve a lot of
                     # 608x1080 phone video. In a 1920x1080 doc it renders as a
                     # narrow strip between black bars — thegrounding shipped 16
@@ -1128,12 +1440,14 @@ def download_assets(assets: list[Asset], out_dir: Path, prefix: str, count: int,
             except Exception as e:  # noqa: BLE001 — skip broken items, keep going
                 print(f"  skip ({e.__class__.__name__}): {a.title[:50]}")
                 continue
-            reason = "no query"
+            vres: dict = {"status": "skipped", "note": "no query"}
             if query:
-                ok_rel, reason = verify_relevance(query, dst, a.title)
-                if not ok_rel:
+                vres = verify_clip(query, dst, a.title, verify_ctx)
+                if not vres.pop("passed"):
                     dst.unlink(missing_ok=True)
-                    print(f"  !! MISMATCH (vision check): {a.title[:50]} — {reason}")
+                    label = {"era": "era", "identity": "identity"}.get(
+                        vres.get("category", ""), "vision check")
+                    print(f"  !! MISMATCH ({label}): {a.title[:50]} — {vres.get('reason', '')}")
                     continue
             n += 1
             saved.append((dst, a))
@@ -1141,13 +1455,20 @@ def download_assets(assets: list[Asset], out_dir: Path, prefix: str, count: int,
             # DocWide starts every clip at videoFrom ?? 0 — surface where the
             # real footage starts so a slate never opens a scene
             start = suggest_clip_start(dst) if a.media == "video" else None
-            log_attribution(out_dir, dst.name, a, query=query,
-                            verify={"status": verify_status(reason), "note": reason},
-                            suggested_from=start)
+            log_attribution(out_dir, dst.name, a, query=query, verify=vres,
+                            suggested_from=start,
+                            slice_=({k: sl[k] for k in ("start", "end", "source_duration",
+                                                        "method")}
+                                    if a.media == "video" else None))
             extra = f" {ffprobe_duration(dst):.0f}s" if a.media == "video" else ""
             print(f"  -> {dst.name}  [{a.source}/{a.lic_key}]{extra}  {a.title[:56]}")
-            if start is not None:
-                print(f"     suggested videoFrom={start:g}  ({dst.name})")
+            if a.media == "video":
+                if sl["start"]:
+                    print(f"     source_offset={sl['start']:g}s  ({dst.name})")
+                if start is not None:
+                    print(f"     suggested videoFrom={start:g}  ({dst.name})")
+                for w in clip_warnings(dst, need_seconds, offset=start or 0.0):
+                    print(f"     {w}")
     return saved
 
 

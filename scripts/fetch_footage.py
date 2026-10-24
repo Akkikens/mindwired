@@ -11,14 +11,21 @@ PD / CC0 / CC-BY / CC-BY-SA only — NC/ND never pass the filter.
       --prefix b777 --count 4
 
   --kind video|image      what to fetch (default video)
-  --niche aviation|space|ocean|history|football|tech|generic
+  --niche aviation|space|ocean|history|football|tech|generic|briefing|nasa_institutional
                           picks the source ranking (see scripts/SOURCES-GUIDE.md)
   --sources a,b,c         override the ranking explicitly
-  --max-seconds N         video clip cap (default 20; long reels start ~10% in).
-                          fetch_doc_footage.py sizes this per prefix from the
-                          scenes that use it — prefer it for episode fetches
+  --max-seconds N         video clip cap (default 20). A longer source is
+                          sliced where a frame scan (0/8/15s + every ~10%)
+                          finds the query, not from its top; the offset is
+                          logged as source_offset. fetch_doc_footage.py sizes
+                          this per prefix from the scenes that use it —
+                          prefer it for episode fetches
   Every saved clip prints a "suggested videoFrom=N" (first non-slate second)
   and gets a PROVENANCE.jsonl row next to ATTRIBUTION.md.
+  --era 1981-2003         vision check also rejects ANACHRONISTIC footage
+  --aftermath             post-event official material allowed (implied by
+                          --niche briefing): skips the anachronism rejection
+  --blocklist a,b.org     title substrings / domains to skip
   --no-sheet              skip the contact sheet
   --no-verify             skip the Gemini vision relevance check (on by default)
 
@@ -78,10 +85,31 @@ NICHE_RANK: dict[str, dict[str, list[str]]] = {
     # Content-ID-fingerprinted, no clip-length safe harbor (2026-08-21).
     "briefing": {"video": ["dvids", "nasa", "archive_org", "nara", "commons"],
                  "image": ["nasa", "dvids", "commons"]},
+    # NASA-institutional / hardware stories (columbia, challenger, apollo1):
+    # press/briefing/mission-control sources first, the NASA library next, NO
+    # observatories — `space` put ESO first-page and returned a Crab Nebula pan
+    # for a shuttle-launch query (memory footage-era-identity-niche). Unlike
+    # `briefing`, era rejection stays ON (the story is date-anchored).
+    "nasa_institutional": {"video": ["dvids", "nasa", "nara", "archive_org", "commons"],
+                           "image": ["nasa", "dvids", "commons"]},
 }
 
 
+def verify_ctx(era, aftermath: bool = False, niche: str = "") -> dict:
+    """The verify_clip context: normalized era + the aftermath exemption
+    (scene era:"aftermath", or anything fetched under niche briefing)."""
+    return {"era": footage.norm_era(era), "aftermath": bool(aftermath),
+            "briefing": niche == "briefing"}
+
+
 norm_title = footage.norm_title
+
+
+def _blocked(a: footage.Asset, blocklist: list[str]) -> bool:
+    hit = footage.blocked_by(a, blocklist)
+    if hit:
+        print(f"    skip (blocklist {hit!r}): {a.title[:60]}")
+    return bool(hit)
 
 
 def existing_titles(out_dir: Path) -> set[str]:
@@ -121,7 +149,20 @@ def main() -> None:
     ap.add_argument("--no-verify", action="store_true",
                     help="skip the Gemini vision relevance check (default: on if "
                          "GEMINI_API_KEY is set) — use for speed or if the API is down")
+    ap.add_argument("--era", default="",
+                    help="story era FROM-TO (e.g. 1981-2003): the vision check rejects "
+                         "ANACHRONISTIC footage")
+    ap.add_argument("--aftermath", action="store_true",
+                    help="footage after the era is expected (briefings, recovery) — "
+                         "skips the anachronism rejection (implied by --niche briefing)")
+    ap.add_argument("--blocklist", default="",
+                    help="comma list of title substrings / domains to skip")
     args = ap.parse_args()
+    try:
+        ctx = verify_ctx(args.era or None, args.aftermath, args.niche)
+    except ValueError as e:
+        sys.exit(f"--era: {e}")
+    blocklist = [b.strip() for b in args.blocklist.split(",") if b.strip()]
 
     footage.TARGET_H = 2160 if args.uhd else 1080
     footage.VERIFY = not args.no_verify
@@ -148,7 +189,8 @@ def main() -> None:
         found = footage.rank_by_query(
             [a for a in found
              if a.url and a.url not in seen_urls
-             and norm_title(a.title) not in seen_titles], args.query)
+             and norm_title(a.title) not in seen_titles
+             and not _blocked(a, blocklist)], args.query)
         if not found:
             print(f"  ({src}: no usable results)")
             continue
@@ -158,7 +200,7 @@ def main() -> None:
         saved = footage.download_assets(
             found, args.out, args.prefix, args.count,
             max_seconds=args.max_seconds, min_width=args.min_width,
-            max_h=2160 if args.uhd else 1080, query=args.query)
+            max_h=2160 if args.uhd else 1080, query=args.query, verify_ctx=ctx)
         for p, a in saved:
             got.append(p)
             tally[src] = tally.get(src, 0) + 1
