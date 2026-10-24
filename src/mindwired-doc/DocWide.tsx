@@ -20,6 +20,7 @@ import {
   staticFile, useCurrentFrame,
 } from "remotion";
 import "../lib/fonts";
+import { type ArchivalGrade, BLACKBOX_GRADE, LEGACY_GRADE } from "../lib/theme";
 import { DIAGRAMS } from "./Diagrams";
 import { DossierScene, MascotReact, MascotZoom, SketchScene } from "./Sketch";
 import { CaseTimeline, GenealogyTree, RouteMap } from "../criminalrecord/RecordScenes";
@@ -35,7 +36,13 @@ type Theme = { display: string; body: string; serif: string; mono: string;
   /** brightness multiplier for the dimmed image behind chapter/kinetic text.
    *  Tuned for photos by default; document-first channels need it far lower or
    *  a white page drowns the type. */
-  textBg?: { fg: number; bg: number; blur: number } };
+  textBg?: { fg: number; bg: number; blur: number };
+  /** archival plate treatment (src/lib/theme.ts) — LEGACY_GRADE reproduces
+   *  the pre-2027 filters exactly; blackbox defaults to BLACKBOX_GRADE. */
+  grade: ArchivalGrade;
+  /** channel wordmark lockup used by Brand/StingScene when the doc opts in
+   *  (doc.visual "2027" or doc.caseId) */
+  lockup?: "blackbox" };
 // 2026-08-22 craft overhaul (docs/planning/CRAFT-AUDIT.md): four-voice type
 // system replaces the flat Space-Grotesk-for-everything register — Archivo
 // (expanded) for display, Spectral for editorial/quotes, IBM Plex Mono for
@@ -48,26 +55,29 @@ const THEMES: Record<string, Theme> = {
   mindwired: {
     display: DOC_DISPLAY, body: "'Inter', sans-serif",
     serif: DOC_SERIF, mono: DOC_MONO, stretch: "118%",
-    accent: "#4DD8FF", brand: "mindwired",
+    accent: "#4DD8FF", brand: "mindwired", grade: LEGACY_GRADE,
   },
   dimaagbatti: {
     display: "'Noto Sans Devanagari', 'Archivo', 'Space Grotesk', sans-serif",
     body: "'Noto Sans Devanagari', 'Inter', sans-serif",
     serif: "'Noto Sans Devanagari', 'Spectral', serif", mono: DOC_MONO,
     stretch: "100%", // Devanagari has no wdth axis — keep normal width
-    accent: "#FFC53D", brand: "दिमाग़बत्ती",
+    accent: "#FFC53D", brand: "दिमाग़बत्ती", grade: LEGACY_GRADE,
   },
   blackbox: {
     display: DOC_DISPLAY, body: "'Inter', sans-serif",
     serif: DOC_SERIF, mono: DOC_MONO, stretch: "118%",
     accent: "#FF9500", brand: "Black Box",
+    // the one default-on piece of the 2027 visual system (revamp §3.3):
+    // every blackbox plate gets the archival grade, old docs included
+    grade: BLACKBOX_GRADE, lockup: "blackbox",
   },
   // Criminal Record (@WatchCriminalRecord) — cold blue-white so it reads as
   // Black Box's sibling, not a clone. See docs/guides/CRIMINALRECORD-CHANNEL-BRIEF.md
   criminalrecord: {
     display: DOC_DISPLAY, body: "'Inter', sans-serif",
     serif: DOC_SERIF, mono: DOC_MONO, stretch: "112%",
-    accent: "#7FB4FF", brand: "Criminal Record",
+    accent: "#7FB4FF", brand: "Criminal Record", grade: LEGACY_GRADE,
     // court filings are black-on-WHITE; at photo dimming the page text fights
     // the title and the accent eyebrow becomes unreadable.
     textBg: { fg: 0.20, bg: 0.16, blur: 16 },
@@ -186,13 +196,69 @@ export type DocScene = {
   extraHold?: number;
   tone?: string;            // Cartesia emotion (VO-only; ignored by the renderer)
   speed?: number;           // per-scene VO speed (VO-only; ignored by the renderer)
+  /* ---------- 2027 visual system (BLACKBOX-2027-REVAMP §3.3 / Phase 2 #5) ----------
+   *  Every field below is OPT-IN: a doc that sets none of them (and no doc-level
+   *  `visual`/`caseId`/`sourceLine`) renders exactly as before, except the
+   *  blackbox archival grade, which is the channel default. */
+  /** SceneChrome layout on photo/footage/diagram scenes. Default: `slate` when
+   *  `slate` is set, `quote` when `quoteBy` is set, else `caption` (the classic
+   *  lower-third). `lower-third`/`quoteBy` are accepted aliases. Mirrored by
+   *  preflight_doc.py chrome_layout() for the layout-concentration WARN. */
+  // plain string, not a literal union: JSON imports widen literals and the
+  // union would fail every doc that sets it (the `motion` errors in Root.tsx)
+  layout?: string; // "caption" | "lower-third" | "slate" | "quote" | "quoteBy" | "none"
+  /** big dated place/time plate (Fern cold open: date, place, one action).
+   *  `clock` advances in REAL TIME from a verbatim CLAIMS time — never counts
+   *  toward a figure (memory no-count-up-number-animation). */
+  slate?: { date: string; place?: string; clock?: string };
+  /** attribution line under a `quote` layout (cap = the verbatim quote) or
+   *  under a radio transcript ("Rodney Rocha · unsent email, CAIB p.157") */
+  quoteBy?: string;
+  /** small mono citation line, bottom-left. true = from `source`, else the
+   *  shown file's provenance record (manifest.assets/videos); a string = that
+   *  text; false = hide. Defaults to doc.sourceLine (or on under visual "2027"). */
+  sourceLine?: boolean | string;
+  /** ArchivalPlate framing: blurfill (default) | fill (cover crop) | pillar */
+  plate?: string; // "blurfill" | "fill" | "pillar"
+  /** generated graphic shown through the photo path (report figure render,
+   *  chart PNG): bypasses the archival grade/grain/stamp like hf does */
+  graphic?: boolean;
+  /** date-stamp chrome on the plate ("JAN 28 1986") — channels whose grade
+   *  allows it (blackbox). Must be the real date of the footage/photo. */
+  stamp?: string;
+  /** ChapterCard tease-first: `kicker` = short mono label, `tease` = the
+   *  curiosity line that lands BEFORE the title. */
+  kicker?: string; tease?: string;
+  /** exhibit page tint: warm (aged paper) | cool (photocopy) | neutral (mono) */
+  paperTone?: string; // "warm" | "cool" | "neutral"
+  /** exhibit choreography: push (default — page floats, push to highlight) |
+   *  document (page COVERS the frame with a slow drift down to the highlight;
+   *  the criminalrecord TextSceneBg paper move, generalised) */
+  exhibitMode?: string; // "push" | "document"
 };
-export type DocSpec = { slug: string; title: string; channel?: string; scenes: DocScene[] };
+export type DocSpec = { slug: string; title: string; channel?: string; scenes: DocScene[];
+  /** "2027" switches the doc onto the full 2027 visual system: blackbox lockup
+   *  (hidden in the first-30s hook), SourceLine on, ChapterCard progress ticks +
+   *  next-scene video plate, RadioScene level track + plate + CVR strip. */
+  visual?: string;
+  /** case number in the blackbox lockup + sting ("NTSB DCA02MA001") */
+  caseId?: string;
+  /** doc-wide SourceLine default (scene `sourceLine` overrides) */
+  sourceLine?: boolean };
+/** provenance record subset (scripts/lib/provenance.py) used by SourceLine */
+type AssetRecord = { source?: string | null; title?: string | null; author?: string | null;
+  license?: string | null };
 export type DocManifest = {
   durations: Record<string, number>;
   images: Record<string, string[]>;
   /** per-scene mouth-flap tracks ("0"-"3" per frame) for speak:true scenes */
   mouth?: Record<string, string>;
+  /** per-scene VO level track, one digit per frame (RadioScene level bars;
+   *  falls back to `mouth`, then to a flat idle line — never a fake wave) */
+  level?: Record<string, string>;
+  /** provenance snapshots keyed by file name (build_doc_vo.py) */
+  assets?: Record<string, AssetRecord>;
+  videos?: Record<string, AssetRecord>;
 };
 // Subscribe outro baked INTO the render (one render, no separate ffmpeg concat).
 // file = REAL copy under public/ (NOT a symlink — Remotion doesn't bundle symlinks); frames @30fps.
@@ -312,12 +378,307 @@ const dsp = (th: Theme, wght: number): React.CSSProperties =>
     ? { fontFamily: th.display, fontWeight: wght >= 700 ? 800 : 600 }
     : { fontFamily: `'Archivo Expanded', ${th.display}`, fontWeight: wght >= 700 ? 800 : 600 };
 
-const Brand: React.FC<{ th: Theme }> = ({ th }) => (
-  <div style={{ position: "absolute", top: 42, right: 54, display: "flex", alignItems: "center", gap: 10, opacity: 0.78 }}>
-    <div style={{ width: 13, height: 13, borderRadius: "50%", background: th.accent, boxShadow: `0 0 14px ${th.accent}` }} />
-    <span style={{ ...dsp(th, 700), fontSize: 26, color: "#fff", letterSpacing: 2 }}>{th.brand}</span>
+/* ── 2027 visual system context (BLACKBOX-2027-REVAMP §3.3). makeDocComp
+      provides one per scene so chrome deep in a scene component knows the
+      doc-level opt-ins without threading props through every scene type. ── */
+type ChromeCtxT = {
+  /** doc.visual === "2027" */
+  v2: boolean;
+  /** draw the channel lockup instead of the legacy dot+wordmark chip */
+  lockup: boolean;
+  caseId?: string;
+  /** scene starts inside the first-30s hook */
+  hook: boolean;
+  /** 1-based chapter number of this scene (0 = not a chapter) / total */
+  chapterNo: number; chapterTotal: number;
+  /** doc-wide SourceLine default */
+  sourceLine: boolean;
+};
+const ChromeCtx = React.createContext<ChromeCtxT>({
+  v2: false, lockup: false, hook: false, chapterNo: 0, chapterTotal: 0, sourceLine: false,
+});
+const HOOK_FRAMES = 30 * FPS;
+
+/** Flight-recorder glyph: the international-orange box with its two
+ *  reflective bands — Black Box's mark in the lockup and the sting. */
+const RecorderGlyph: React.FC<{ size: number; color: string }> = ({ size, color }) => (
+  <div style={{ position: "relative", width: size, height: size * 0.74, flex: "none" }}>
+    <div style={{ position: "absolute", inset: 0, background: color, borderRadius: size * 0.12,
+      boxShadow: `0 0 ${size * 0.5}px ${color}66` }} />
+    {[0.3, 0.58].map((y) => (
+      <div key={y} style={{ position: "absolute", left: 0, right: 0, top: `${y * 100}%`,
+        height: size * 0.09, background: "rgba(255,255,255,0.88)" }} />
+    ))}
+    <div style={{ position: "absolute", right: -size * 0.12, top: "34%", width: size * 0.12,
+      height: "32%", background: color, borderRadius: `0 ${size * 0.04}px ${size * 0.04}px 0`, opacity: 0.85 }} />
   </div>
 );
+
+const BlackBoxLockup: React.FC<{ th: Theme; caseId?: string }> = ({ th, caseId }) => (
+  <div style={{ position: "absolute", top: 40, right: 54, display: "flex", alignItems: "center", gap: 14,
+    background: "rgba(4,6,10,0.55)", border: "1px solid rgba(255,255,255,0.1)", borderRadius: 4,
+    padding: "9px 18px 9px 14px", opacity: 0.88 }}>
+    <RecorderGlyph size={30} color={th.accent} />
+    <span style={{ fontFamily: th.mono, fontWeight: 600, fontSize: 23, letterSpacing: 6, color: "#fff" }}>
+      BLACK BOX
+    </span>
+    {caseId && (
+      <>
+        <div style={{ width: 1, height: 22, background: "rgba(255,255,255,0.28)" }} />
+        <span style={{ fontFamily: th.mono, fontWeight: 500, fontSize: 18, letterSpacing: 2, color: th.accent }}>
+          {caseId}
+        </span>
+      </>
+    )}
+  </div>
+);
+
+const Brand: React.FC<{ th: Theme }> = ({ th }) => {
+  const cx = React.useContext(ChromeCtx);
+  // 2027 docs keep the first-30s hook brand-free (revamp §3.3 "hidden during the hook")
+  if (cx.v2 && cx.hook) return null;
+  if (cx.lockup && th.lockup === "blackbox") return <BlackBoxLockup th={th} caseId={cx.caseId} />;
+  return (
+    <div style={{ position: "absolute", top: 42, right: 54, display: "flex", alignItems: "center", gap: 10, opacity: 0.78 }}>
+      <div style={{ width: 13, height: 13, borderRadius: "50%", background: th.accent, boxShadow: `0 0 14px ${th.accent}` }} />
+      <span style={{ ...dsp(th, 700), fontSize: 26, color: "#fff", letterSpacing: 2 }}>{th.brand}</span>
+    </div>
+  );
+};
+
+/* ── ArchivalPlate: the ONE renderer for real photos/footage. Applies the
+      channel grade token once (Theme.grade), the blur-fill/fill/pillar
+      framing, the LUT-ish split tone, plate grain and the optional date
+      stamp. hf scenes never reach it; `graphic` scenes get the framing with
+      no grade/tone/grain/stamp. With `dim` it is the chapter/kinetic text
+      backdrop (TextSceneBg). ── */
+type PlateFrame = "blurfill" | "fill" | "pillar";
+const ArchivalPlate: React.FC<{
+  src: string; kind: "image" | "video"; th: Theme;
+  /** PlateFrame; any other string (or unset) = blurfill */
+  frame?: string; scale?: number; x?: number; startFrom?: number;
+  dim?: { fg: number; bg: number; blur: number };
+  graphic?: boolean; stamp?: string; stampBottom?: number;
+}> = ({ src, kind, th, frame: frRaw, scale = 1, x = 0, startFrom = 0, dim, graphic, stamp, stampBottom = 64 }) => {
+  const f = useCurrentFrame();
+  const fr: PlateFrame = frRaw === "fill" || frRaw === "pillar" ? frRaw : "blurfill";
+  const g = th.grade;
+  const gText = graphic ? "" : ` ${g.text}`;
+  const fg = dim ? `brightness(${dim.fg})${gText}` : graphic ? "none" : kind === "video" ? g.video : g.photo;
+  const bg = dim ? `brightness(${dim.bg})${gText} blur(${dim.blur}px)`
+    : `${graphic ? "" : `${g.back} `}blur(14px) brightness(0.55)`;
+  const media = (style: React.CSSProperties) => kind === "video"
+    ? <OffthreadVideo src={src} muted startFrom={startFrom} style={style} />
+    : <Img src={src} style={style} />;
+  const tx = x ? ` translateX(${x}px)` : "";
+  const cover = media({ width: "100%", height: "100%", objectFit: "cover",
+    transform: `scale(${fr === "fill" ? scale : scale * 1.15})${tx}`, filter: fr === "fill" ? fg : bg });
+  const contain = kind === "video"
+    ? media({ width: "100%", height: "100%", objectFit: "contain", transform: `scale(${scale})${tx}`, filter: fg })
+    : media({ maxWidth: "100%", maxHeight: "100%", width: "auto", height: "auto", objectFit: "contain",
+        transform: `scale(${scale})${tx}`, filter: fg });
+  const tone = !graphic && g.tone;
+  const jx = (f * 53) % 512, jy = (f * 89) % 512;
+  return (
+    <AbsoluteFill>
+      {fr !== "pillar" && <AbsoluteFill>{cover}</AbsoluteFill>}
+      {fr !== "fill" && <AbsoluteFill style={{ justifyContent: "center", alignItems: "center" }}>{contain}</AbsoluteFill>}
+      {tone && (
+        <>
+          <AbsoluteFill style={{ background: tone.lift, mixBlendMode: "lighten", pointerEvents: "none" }} />
+          <AbsoluteFill style={{ background: tone.warm, mixBlendMode: "soft-light", opacity: tone.warmOpacity,
+            pointerEvents: "none" }} />
+        </>
+      )}
+      {!graphic && g.grain > 0 && (
+        <AbsoluteFill style={{ backgroundImage: NOISE_URI, backgroundRepeat: "repeat",
+          backgroundPosition: `${jx}px ${jy}px`, opacity: g.grain, mixBlendMode: "overlay", pointerEvents: "none" }} />
+      )}
+      {!graphic && g.stamp && stamp && (
+        <div style={{ position: "absolute", right: 64, bottom: stampBottom, fontFamily: th.mono, fontWeight: 600,
+          fontSize: 30, letterSpacing: 3, color: "#FFB347", opacity: 0.86,
+          textShadow: "0 0 8px rgba(255,140,40,0.75), 0 0 2px rgba(255,120,30,0.9)" }}>{stamp}</div>
+      )}
+    </AbsoluteFill>
+  );
+};
+
+/* ── SceneChrome: the lower-third / slate / quote / stat / source system for
+      photo, footage and diagram scenes. Layout is chosen per scene (see
+      chromeLayout); gradients only darken where text actually sits. The
+      `caption` layout is byte-for-byte the pre-2027 chrome. ── */
+type ChromeLayout = "caption" | "slate" | "quote" | "none";
+const LAYOUTS: Record<string, ChromeLayout> = {
+  caption: "caption", "lower-third": "caption", slate: "slate", quote: "quote", quoteBy: "quote", none: "none",
+};
+export const chromeLayout = (s: DocScene): ChromeLayout => {
+  const l = s.layout ? LAYOUTS[s.layout] : undefined; // unknown value -> auto
+  if (l) return l;
+  if (s.slate) return "slate";
+  if (s.quoteBy) return "quote";
+  return "caption";
+};
+
+/** Real-time clock from a verbatim start time ("08:59:32 EST", "9:14 PM").
+ *  Only a time WITH seconds advances (a minutes-only time stays put); the
+ *  suffix (zone / AM-PM) is preserved. Never counts toward a figure. */
+const advanceClock = (t: string, frames: number): string => {
+  const m = t.match(/^(\s*)(\d{1,2}):(\d{2}):(\d{2})(.*)$/);
+  if (!m || frames <= 0) return t;
+  let sec = (+m[2]) * 3600 + (+m[3]) * 60 + (+m[4]) + Math.floor(frames / FPS);
+  const h = Math.floor(sec / 3600) % 24; sec %= 3600;
+  const hh = m[2].length === 2 ? String(h).padStart(2, "0") : String(h);
+  return `${m[1]}${hh}:${String(Math.floor(sec / 60)).padStart(2, "0")}:${String(sec % 60).padStart(2, "0")}${m[5]}`;
+};
+
+/** Citation text for the SourceLine, or null when the scene shows none. */
+const sourceText = (s: DocScene, m: DocManifest, cx: ChromeCtxT, file: string | null, kind: "image" | "video" | "diagram"): string | null => {
+  const on = s.sourceLine ?? (cx.sourceLine || cx.v2);
+  if (on === false || s.hf) return null;
+  if (typeof on === "string") return on;
+  if (s.source) return s.source;
+  if (!file || kind === "diagram") return null;
+  const r = (kind === "video" ? m.videos : m.assets)?.[file];
+  if (!r) return null;
+  const real = (v?: string | null) => (v && !/^(unknown|n\/?a|none)$/i.test(v.trim()) ? v.trim() : "");
+  const who = real(r.author) || real(r.source);
+  const lic = (r.license || "").trim();
+  return [who, lic].filter(Boolean).join(" · ") || null;
+};
+
+/** Small mono citation, bottom-left, under any lower-third. */
+const SourceLine: React.FC<{ th: Theme; text: string }> = ({ th, text }) => {
+  const f = useCurrentFrame();
+  const o = interpolate(f, [LEAD, LEAD + 10], [0, 0.72], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  return (
+    <div style={{ position: "absolute", left: 96, bottom: 34, maxWidth: 1300, opacity: o,
+      fontFamily: th.mono, fontWeight: 500, fontSize: 18, letterSpacing: 1.5, color: "#fff",
+      textShadow: "0 2px 10px rgba(0,0,0,0.95)", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
+      <span style={{ color: th.accent, marginRight: 12 }}>SOURCE</span>{text}
+    </div>
+  );
+};
+
+const Slate: React.FC<{ th: Theme; slate: NonNullable<DocScene["slate"]>; cap?: string }> = ({ th, slate, cap }) => {
+  const f = useCurrentFrame();
+  const placeIn = spring({ frame: f - 2, fps: FPS, config: { damping: 18 } });
+  const dateIn = spring({ frame: f - LEAD, fps: FPS, config: { damping: 15, stiffness: 120 } });
+  const clockIn = interpolate(f, [LEAD + 10, LEAD + 18], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const capIn = spring({ frame: f - LEAD - 16, fps: FPS, config: { damping: 18 } });
+  return (
+    <div style={{ position: "absolute", left: 96, bottom: 88, maxWidth: 1400 }}>
+      {slate.place && (
+        <div style={{ display: "flex", alignItems: "center", gap: 18, opacity: placeIn,
+          transform: `translateX(${interpolate(placeIn, [0, 1], [-24, 0])}px)` }}>
+          <div style={{ width: 46, height: 2, background: th.accent }} />
+          <span style={{ fontFamily: th.mono, fontWeight: 600, fontSize: 26, letterSpacing: 7,
+            color: th.accent, textTransform: "uppercase" }}>{slate.place}</span>
+        </div>
+      )}
+      <div style={{ ...dsp(th, 800), fontSize: 104, lineHeight: 1.02, color: "#fff", marginTop: 14,
+        letterSpacing: 0.5, textShadow: "0 6px 34px rgba(0,0,0,0.8)", opacity: dateIn,
+        transform: `translateY(${interpolate(dateIn, [0, 1], [26, 0])}px)` }}>{slate.date}</div>
+      {slate.clock && (
+        <div style={{ fontFamily: th.mono, fontWeight: 600, fontSize: 44, letterSpacing: 3, marginTop: 10,
+          fontVariantNumeric: "tabular-nums", color: "rgba(255,255,255,0.82)", opacity: clockIn }}>
+          {advanceClock(slate.clock, f - LEAD - 10)}
+        </div>
+      )}
+      {cap && (
+        <div style={{ marginTop: 26, opacity: capIn, transform: `translateY(${interpolate(capIn, [0, 1], [18, 0])}px)` }}>
+          <CaptionBar th={th} text={cap} />
+        </div>
+      )}
+    </div>
+  );
+};
+
+const QuoteBlock: React.FC<{ th: Theme; quote: string; by?: string }> = ({ th, quote, by }) => {
+  const f = useCurrentFrame();
+  const qIn = spring({ frame: f - LEAD, fps: FPS, config: { damping: 18 } });
+  const byIn = interpolate(f, [LEAD + 14, LEAD + 24], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const q = quote.trim().replace(/^["“‘']+|["”’']+$/g, "");
+  return (
+    <div style={{ position: "absolute", left: 120, top: "50%", maxWidth: 1180,
+      borderLeft: `6px solid ${th.accent}`, paddingLeft: 44,
+      transform: `translateY(-50%) translateY(${interpolate(qIn, [0, 1], [24, 0])}px)`, opacity: qIn }}>
+      <div style={{ fontFamily: th.serif, fontWeight: 500, fontStyle: "italic", fontSize: 64, lineHeight: 1.26,
+        color: "#fff", textShadow: "0 4px 26px rgba(0,0,0,0.9)" }}>{q}</div>
+      {by && (
+        <div style={{ display: "flex", alignItems: "center", gap: 18, marginTop: 30, opacity: byIn }}>
+          <div style={{ width: 56, height: 2, background: th.accent }} />
+          <span style={{ fontFamily: th.mono, fontWeight: 600, fontSize: 25, letterSpacing: 3,
+            color: "rgba(255,255,255,0.8)" }}>{by}</span>
+        </div>
+      )}
+    </div>
+  );
+};
+
+/** One chrome stack for Illus/Diagram/Video. `scrimArgs` are the scene type's
+ *  legacy scrim(...) numbers so the caption layout stays pixel-identical. */
+const SceneChrome: React.FC<{
+  s: DocScene; m: DocManifest; th: Theme; file: string | null; kind: "image" | "video" | "diagram";
+  scrimArgs: [number, number, number, number];
+}> = ({ s, m, th, file, kind, scrimArgs: [topA, topStop, botStop, botA] }) => {
+  const frame = useCurrentFrame();
+  const cx = React.useContext(ChromeCtx);
+  const layout = chromeLayout(s);
+  const capIn = spring({ frame: frame - LEAD, fps: FPS, config: { damping: 18 } });
+  const statAt = LEAD + Math.round(sceneAud(s, m) * 0.35 * FPS);
+  const statSp = spring({ frame: frame - statAt, fps: FPS, config: { damping: 12, stiffness: 130 } });
+  const src = sourceText(s, m, cx, file, kind);
+  const bg = layout === "caption" ? scrim(!!s.cap, topA, topStop, botStop, botA)
+    : layout === "slate"
+    ? `linear-gradient(180deg, rgba(5,7,12,${topA}) 0%, transparent ${topStop}%, transparent 40%, rgba(5,7,12,0.9) 100%), linear-gradient(90deg, rgba(5,7,12,0.55) 0%, transparent 60%)`
+    : layout === "quote"
+    ? `linear-gradient(180deg, rgba(5,7,12,${topA}) 0%, transparent ${topStop}%), linear-gradient(90deg, rgba(5,7,12,0.86) 0%, rgba(5,7,12,0.6) 46%, transparent 82%)`
+    : scrim(false, topA, topStop, botStop, botA);
+  return (
+    <>
+      <AbsoluteFill style={{ background: bg, pointerEvents: "none" }} />
+      {/* SourceLine sits at the very bottom — give it its own faint floor
+          when the layout left the lower frame clean */}
+      {src && layout !== "caption" && layout !== "slate" && (
+        <AbsoluteFill style={{ background: "linear-gradient(180deg, transparent 84%, rgba(5,7,12,0.6) 100%)", pointerEvents: "none" }} />
+      )}
+      {src && layout === "caption" && !s.cap && (
+        <AbsoluteFill style={{ background: "linear-gradient(180deg, transparent 84%, rgba(5,7,12,0.6) 100%)", pointerEvents: "none" }} />
+      )}
+
+      {s.stat && layout !== "none" && (
+        <div style={{ position: "absolute", top: 118, left: 96,
+          transform: `translateY(${interpolate(statSp, [0, 1], [22, 0])}px) scale(${interpolate(statSp, [0, 1], [0.92, 1])})`,
+          opacity: interpolate(frame - statAt, [0, 8], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) }}>
+          <StatChip th={th} text={s.stat} color={s.statColor} />
+        </div>
+      )}
+
+      <Brand th={th} />
+
+      {layout === "caption" && s.cap && (
+        <div style={{ position: "absolute", bottom: 84, left: 96, right: 96,
+          transform: `translateY(${interpolate(capIn, [0, 1], [30, 0])}px)`, opacity: capIn }}>
+          <CaptionBar th={th} text={s.cap} />
+        </div>
+      )}
+      {layout === "slate" && s.slate && <Slate th={th} slate={s.slate} cap={s.cap} />}
+      {layout === "slate" && !s.slate && s.cap && (
+        <div style={{ position: "absolute", bottom: 84, left: 96, right: 96, opacity: capIn }}>
+          <CaptionBar th={th} text={s.cap} />
+        </div>
+      )}
+      {layout === "quote" && (s.cap ?? "").trim() && <QuoteBlock th={th} quote={s.cap ?? ""} by={s.quoteBy} />}
+      {src && <SourceLine th={th} text={src} />}
+    </>
+  );
+};
+
+/** where a plate's date stamp sits so it clears this scene's lower chrome */
+const stampBottomFor = (s: DocScene) => {
+  const l = chromeLayout(s);
+  return l === "caption" && s.cap ? 236 : 72; // slate/quote sit left; the stamp sits right
+};
 
 /* ── Shared overlay chrome (2026-08-22 craft overhaul) — one implementation
       for the stat chip and caption bar that used to be copy-pasted across
@@ -362,7 +723,126 @@ const CaptionBar: React.FC<{ th: Theme; text: string }> = ({ th, text }) => {
 
 /* Evidence-engine radio beat: dark screen, animated waveform, speaker tag,
    transcript line, honesty label (ACTUAL ATC RECORDING vs CVR RECREATION). */
-const RadioScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Theme }> = ({ s, slug, m, th }) => {
+const RadioScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Theme; idx: number }> = (p) => {
+  const cx = React.useContext(ChromeCtx);
+  return cx.v2 ? <RadioSceneV2 {...p} /> : <RadioSceneLegacy {...p} />;
+};
+
+/** Normalised 0-1 VO level at audio frame `af` from the manifest track
+ *  (`level`, else the mouth-flap track); null when the scene has no track. */
+const levelTrack = (m: DocManifest, id: string): ((af: number) => number) | null => {
+  const t = m.level?.[id] ?? m.mouth?.[id];
+  if (!t) return null;
+  let max = 1;
+  for (let i = 0; i < t.length; i++) max = Math.max(max, t.charCodeAt(i) - 48);
+  return (af) => (af < 0 || af >= t.length ? 0 : Math.max(0, Math.min(9, t.charCodeAt(af) - 48)) / max);
+};
+
+/* 2027 radio beat (revamp §3.3): the scene's real plate (video or img, heavy
+   dim) behind the transcript, a level track from the REAL VO envelope (no
+   synthetic waveform — a scene without a track shows a flat idle line), and a
+   CVR/ATC strip whose first and largest element is the honesty label. Label
+   wording and colours are unchanged: green = ACTUAL docket audio. */
+const RadioSceneV2: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Theme; idx: number }> = ({ s, slug, m, th, idx }) => {
+  const frame = useCurrentFrame();
+  const dur = sceneFrames(s, m);
+  const hasAudio = m.durations[s.id] !== undefined;
+  const aud = sceneAud(s, m) * FPS;
+  const label = s.radioLabel ?? "CVR RECREATION";
+  const actual = label.includes("ACTUAL");
+  const lc = actual ? "#7CFC9B" : th.accent;
+  const files = (s.img && m.images[s.img]) || [];
+  const img = files.length ? files[idx % files.length] : null;
+  const vid = s.video && !s.hf ? s.video : null;
+  const fadeIn = interpolate(frame, [0, 8], [0, 1], { extrapolateRight: "clamp" });
+  const drift = interpolate(frame, [0, dur], [1.04, 1.1]);
+  const lvl = levelTrack(m, s.id);
+  const N = 84;
+  const bars = Array.from({ length: N }, (_, i) => {
+    const v = lvl ? lvl(frame - LEAD - (N - 1 - i) * 2) : 0;
+    return 4 + v * 58;
+  });
+  const words = (s.cap ?? s.text).split(/\s+/).filter(Boolean);
+  const per = words.length ? (aud * 0.85) / words.length : 0;
+  const tagIn = spring({ frame: frame - 4, fps: FPS, config: { damping: 18 } });
+  const stripIn = spring({ frame, fps: FPS, config: { damping: 20 } });
+  const channelTag = actual ? "ATC" : /CVR/.test(label) ? "CVR" : "RADIO";
+  return (
+    <AbsoluteFill style={{ backgroundColor: "#07090D" }}>
+      {(vid || img) && (
+        <AbsoluteFill style={{ opacity: fadeIn }}>
+          <ArchivalPlate th={th} kind={vid ? "video" : "image"} scale={drift}
+            src={staticFile(vid ? `shorts/${slug}/video/${vid}` : `shorts/${slug}/images/${img}`)}
+            startFrom={Math.round((s.videoFrom ?? 0) * FPS)}
+            dim={{ fg: 0.34, bg: 0.24, blur: 12 }} graphic={s.graphic} />
+        </AbsoluteFill>
+      )}
+      <AbsoluteFill style={{ background: "radial-gradient(ellipse 70% 60% at 50% 44%, rgba(4,6,10,0.35) 0%, rgba(4,6,10,0.82) 100%)" }} />
+      {/* speaker + transcript (verbatim — the quoted-transcript gate owns the words) */}
+      <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", paddingBottom: 150 }}>
+        <div style={{ opacity: tagIn, transform: `translateY(${interpolate(tagIn, [0, 1], [14, 0])}px)` }}>
+          <span style={{ ...dsp(th, 700), fontSize: 38, color: "#0A0C10",
+            background: th.accent, padding: "6px 22px", borderRadius: 6 }}>{s.speaker}</span>
+        </div>
+        <div style={{ marginTop: 34, maxWidth: 1460, textAlign: "center", padding: "0 60px" }}>
+          {words.map((w, i) => {
+            const wIn = interpolate(frame, [LEAD + i * per, LEAD + i * per + 6], [0, 1],
+              { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+            return (
+              <span key={i} style={{ fontFamily: th.serif, fontWeight: 500, fontStyle: "italic", fontSize: 58,
+                lineHeight: 1.36, color: "#fff", opacity: 0.12 + 0.88 * wIn,
+                textShadow: "0 3px 22px rgba(0,0,0,0.9)" }}>
+                {i === 0 ? "“" : ""}{w}{i === words.length - 1 ? "”" : ""}{" "}
+              </span>
+            );
+          })}
+        </div>
+        {s.quoteBy && (
+          <div style={{ marginTop: 26, fontFamily: th.mono, fontWeight: 600, fontSize: 24, letterSpacing: 3,
+            color: "rgba(255,255,255,0.72)" }}>— {s.quoteBy}</div>
+        )}
+      </AbsoluteFill>
+      {/* CVR / ATC strip */}
+      <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: 150,
+        background: "rgba(4,6,10,0.88)", borderTop: `1px solid ${lc}55`,
+        display: "flex", alignItems: "center", padding: "0 54px", gap: 40,
+        transform: `translateY(${interpolate(stripIn, [0, 1], [40, 0])}px)` }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 18, flex: "none" }}>
+          <div style={{ width: 22, height: 22, borderRadius: "50%", flex: "none",
+            background: actual ? lc : "transparent", border: `3px solid ${lc}`,
+            boxShadow: actual ? `0 0 14px ${lc}` : "none" }} />
+          <span style={{ fontFamily: th.mono, fontWeight: 600, fontSize: 40, letterSpacing: 5, color: lc }}>{label}</span>
+        </div>
+        <div style={{ flex: 1, height: 70, display: "flex", alignItems: "center", gap: 4, overflow: "hidden" }}>
+          {bars.map((h, i) => (
+            <div key={i} style={{ flex: 1, minWidth: 3, height: h, borderRadius: 2,
+              background: i >= N - 3 ? lc : "rgba(255,255,255,0.5)" }} />
+          ))}
+        </div>
+        <div style={{ textAlign: "right", flex: "none", maxWidth: 520 }}>
+          <div style={{ fontFamily: th.mono, fontWeight: 500, fontSize: 18, letterSpacing: 4,
+            color: "rgba(255,255,255,0.55)" }}>{channelTag}</div>
+          {s.timestamp && (
+            <div style={{ fontFamily: th.mono, fontWeight: 600, fontSize: 44, letterSpacing: 2,
+              fontVariantNumeric: "tabular-nums", color: "#fff" }}>{advanceClock(s.timestamp, frame - LEAD)}</div>
+          )}
+          {s.source && (
+            <div style={{ fontFamily: th.mono, fontWeight: 500, fontSize: 17, letterSpacing: 1, marginTop: 2,
+              color: "rgba(255,255,255,0.55)", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{s.source}</div>
+          )}
+        </div>
+      </div>
+      <Brand th={th} />
+      {hasAudio && <Sequence from={LEAD}><Audio src={staticFile(`shorts/${slug}/audio/${s.id}.mp3`)} /></Sequence>}
+      <SceneSfx sceneDur={dur} cues={sceneCues(s, [
+        { name: "radio_key_up", volume: 0.16 },
+        { name: "radio_key_down", at: "out", volume: 0.12 },
+      ])} />
+    </AbsoluteFill>
+  );
+};
+
+const RadioSceneLegacy: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Theme }> = ({ s, slug, m, th }) => {
   const frame = useCurrentFrame();
   const hasAudio = m.durations[s.id] !== undefined;
   const capIn = spring({ frame: frame - LEAD, fps: FPS, config: { damping: 18 } });
@@ -426,10 +906,26 @@ const RadioScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Them
    exists for the scene; bare black-screen-and-text reads cheap and empty
    (Akshay, 2026-07-25 — "70-80% of the video is black screen"). Falls back to
    BASE (solid dark) only when the scene genuinely has no img prefix. */
-const TextSceneBg: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: number; th?: Theme }> = ({ s, slug, m, idx, th }) => {
+const TextSceneBg: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: number; th?: Theme;
+  /** muted footage plate instead of the img (ChapterCard under visual "2027":
+   *  the NEXT scene's clip, so the card teases the footage it cuts into) */
+  video?: { file: string; startFrom: number } }> = ({ s, slug, m, idx, th, video }) => {
   const frame = useCurrentFrame();
   const files = (s.img && m.images[s.img]) || [];
   const file = files.length ? files[idx % files.length] : null;
+  if (video && th) {
+    const fadeInV = interpolate(frame, [0, 5], [0, 1], { extrapolateRight: "clamp" });
+    const tbv = th.textBg ?? { fg: 0.62, bg: 0.5, blur: 10 };
+    return (
+      <AbsoluteFill style={{ opacity: fadeInV }}>
+        <ArchivalPlate th={th} kind="video" src={staticFile(`shorts/${slug}/video/${video.file}`)}
+          startFrom={video.startFrom} scale={interpolate(frame, [0, 1400], [1.04, 1.12], { extrapolateRight: "clamp" })}
+          // footage moves, so it sits a step darker than a still behind the type
+          dim={{ fg: tbv.fg * 0.78, bg: tbv.bg * 0.8, blur: tbv.blur }} />
+        <AbsoluteFill style={{ background: "radial-gradient(circle, rgba(4,6,10,0.12) 0%, rgba(4,6,10,0.72) 82%)" }} />
+      </AbsoluteFill>
+    );
+  }
   if (!file) return null;
   const fadeIn = interpolate(frame, [0, 5], [0, 1], { extrapolateRight: "clamp" });
   const drift = interpolate(frame, [0, 1400], [1.06, 1.18], { extrapolateRight: "clamp" });
@@ -449,23 +945,126 @@ const TextSceneBg: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: nu
             transform: `scale(${drift})`,
             filter: `brightness(${tb.fg}) contrast(1.06) saturate(0.7) blur(${Math.max(4, tb.blur - 11)}px)` }} />
       ) : (
-        <>
-          <Img src={staticFile(`shorts/${slug}/images/${file}`)}
-            style={{ width: "100%", height: "100%", objectFit: "cover", transform: `scale(${drift * 1.15})`,
-              filter: `brightness(${tb.bg}) saturate(0.85) blur(${tb.blur}px)` }} />
-          <AbsoluteFill style={{ justifyContent: "center", alignItems: "center" }}>
-            <Img src={staticFile(`shorts/${slug}/images/${file}`)}
-              style={{ maxWidth: "100%", maxHeight: "100%", width: "auto", height: "auto", objectFit: "contain",
-                transform: `scale(${drift})`, filter: `brightness(${tb.fg}) saturate(0.85)` }} />
-          </AbsoluteFill>
-        </>
+        // through the archival plate so the channel grade applies once
+        // (LEGACY_GRADE.text = the old saturate(0.85) — identical for old channels)
+        <ArchivalPlate th={th ?? THEMES.mindwired} kind="image" src={staticFile(`shorts/${slug}/images/${file}`)}
+          scale={drift} dim={tb} graphic={s.graphic} />
       )}
       <AbsoluteFill style={{ background: "radial-gradient(circle, rgba(4,6,10,0.12) 0%, rgba(4,6,10,0.72) 82%)" }} />
     </AbsoluteFill>
   );
 };
 
-const ChapterCard: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: number; th: Theme }> = ({ s, slug, m, idx, th }) => {
+const ChapterCard: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: number; th: Theme; next?: DocScene }> = (p) => {
+  const cx = React.useContext(ChromeCtx);
+  return (cx.v2 || p.s.tease || p.s.kicker) ? <ChapterCardV2 {...p} /> : <ChapterCardLegacy {...p} />;
+};
+
+/* Tease-first chapter card (revamp §3.3, ports the HF title-card choreography):
+   eyebrow → kicker → the tease line lands FIRST, then the title rises word by
+   word (last word in accent), a diamond rule, and a thin chapter-progress
+   track. Under visual "2027" the backdrop is the NEXT scene's footage (dimmed,
+   cued to run INTO that scene's videoFrom when it can) — else the img. */
+const ChapterCardV2: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: number; th: Theme; next?: DocScene }> = ({ s, slug, m, idx, th, next }) => {
+  const frame = useCurrentFrame();
+  const cx = React.useContext(ChromeCtx);
+  const dur = sceneFrames(s, m);
+  const hasAudio = m.durations[s.id] !== undefined;
+  const lines = (s.chapter ?? "").split("\n");
+  const eyebrow = lines.length > 1 ? lines[0] : "";
+  const title = lines.length > 1 ? lines.slice(1).join(" ") : lines[0];
+  const words = title.split(/\s+/).filter(Boolean);
+  const nv = cx.v2 && next?.video && !next.hf ? next : null;
+  const nvFrom = nv ? Math.round((nv.videoFrom ?? 0) * FPS) : 0;
+  const video = nv ? { file: nv.video as string, startFrom: nvFrom >= dur ? nvFrom - dur : nvFrom } : undefined;
+  const ebIn = spring({ frame: frame - 2, fps: FPS, config: { damping: 18 } });
+  const teaseAt = 4;
+  const teaseIn = spring({ frame: frame - teaseAt, fps: FPS, config: { damping: 20 } });
+  const titleAt = s.tease ? LEAD + 16 : 12;
+  const stagger = Math.min(4, Math.round(18 / Math.max(1, words.length)));
+  const ruleAt = titleAt + stagger * words.length + 6;
+  const ruleIn = spring({ frame: frame - ruleAt, fps: FPS, config: { damping: 14 } });
+  const progIn = interpolate(frame, [ruleAt, ruleAt + 12], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const breathe = interpolate(frame, [ruleAt, dur], [1, 1.015], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const n = cx.chapterNo, total = cx.chapterTotal;
+  return (
+    <AbsoluteFill style={{ backgroundColor: BASE, justifyContent: "center", alignItems: "center" }}>
+      <TextSceneBg s={s} slug={slug} m={m} idx={idx} th={th} video={video} />
+      <div style={{ position: "absolute", width: 760, height: 760, borderRadius: "50%",
+        border: `1px solid ${th.accent}33`,
+        transform: `scale(${interpolate(spring({ frame: frame - 3, fps: FPS, config: { damping: 30 } }), [0, 1], [0.6, 1])})`,
+        background: `radial-gradient(circle, ${th.accent}14 0%, transparent 62%)` }} />
+      {/* position:relative — a child whose only effect is opacity stops forming a
+          stacking context once its spring settles at exactly 1, and would then
+          paint UNDER the absolutely-positioned backdrop (kicker vanished on
+          some frames). Positioned = always painted in DOM order, on top. */}
+      <div style={{ position: "relative", textAlign: "center", maxWidth: 1600, padding: "0 120px" }}>
+        {eyebrow && (
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 26, marginBottom: 22,
+            opacity: ebIn, transform: `translateY(${interpolate(ebIn, [0, 1], [-12, 0])}px)` }}>
+            <div style={{ width: 84, height: 1, background: `${th.accent}88` }} />
+            <div style={{ fontFamily: th.mono, fontWeight: 600, fontSize: 25, color: th.accent, letterSpacing: 9 }}>
+              {eyebrow}
+            </div>
+            <div style={{ width: 84, height: 1, background: `${th.accent}88` }} />
+          </div>
+        )}
+        {s.kicker && (
+          <div style={{ marginBottom: 18, opacity: ebIn }}>
+            <span style={{ fontFamily: th.mono, fontWeight: 600, fontSize: 21, letterSpacing: 6, color: "#fff",
+              border: "1px solid rgba(255,255,255,0.32)", padding: "6px 16px", textTransform: "uppercase" }}>{s.kicker}</span>
+          </div>
+        )}
+        {s.tease && (
+          <div style={{ fontFamily: th.serif, fontWeight: 500, fontStyle: "italic", fontSize: 46, lineHeight: 1.3,
+            color: "rgba(255,255,255,0.88)", marginBottom: 30, textShadow: "0 3px 22px rgba(0,0,0,0.85)",
+            opacity: teaseIn, transform: `translateY(${interpolate(teaseIn, [0, 1], [16, 0])}px)` }}>{s.tease}</div>
+        )}
+        <div style={{ ...dsp(th, 800), fontSize: 96, color: "#fff", lineHeight: 1.06,
+          letterSpacing: 1, textShadow: "0 4px 34px rgba(0,0,0,0.75)", transform: `scale(${breathe})` }}>
+          {words.map((w, i) => {
+            const wIn = spring({ frame: frame - titleAt - i * stagger, fps: FPS, config: { damping: 14, stiffness: 140 } });
+            return (
+              <span key={i} style={{ display: "inline-block", margin: "0 0.14em",
+                color: i === words.length - 1 && words.length > 1 ? th.accent : "#fff",
+                opacity: interpolate(wIn, [0, 0.4], [0, 1], { extrapolateRight: "clamp" }),
+                transform: `translateY(${interpolate(wIn, [0, 1], [46, 0])}px)` }}>{w}</span>
+            );
+          })}
+        </div>
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 12, marginTop: 38 }}>
+          <div style={{ width: 150, height: 2, background: `linear-gradient(90deg, transparent, ${th.accent})`,
+            transform: `scaleX(${ruleIn})`, transformOrigin: "right" }} />
+          <div style={{ width: 9, height: 9, background: th.accent, transform: `rotate(45deg) scale(${ruleIn})` }} />
+          <div style={{ width: 150, height: 2, background: `linear-gradient(270deg, transparent, ${th.accent})`,
+            transform: `scaleX(${ruleIn})`, transformOrigin: "left" }} />
+        </div>
+      </div>
+      {/* chapter progress: one tick per chapter card in the doc, filled up to this one */}
+      {total > 1 && n > 0 && (
+        <div style={{ position: "absolute", bottom: 84, left: 0, right: 0, display: "flex",
+          justifyContent: "center", alignItems: "center", gap: 22, opacity: progIn }}>
+          <div style={{ display: "flex", gap: 6, alignItems: "center" }}>
+            {Array.from({ length: total }, (_, i) => (
+              <div key={i} style={{ width: Math.max(14, Math.min(72, 760 / total)), height: i + 1 === n ? 4 : 2,
+                background: i + 1 <= n ? th.accent : "rgba(255,255,255,0.24)",
+                opacity: i + 1 < n ? 0.6 : 1 }} />
+            ))}
+          </div>
+          <span style={{ fontFamily: th.mono, fontWeight: 500, fontSize: 19, letterSpacing: 3,
+            color: "rgba(255,255,255,0.62)", fontVariantNumeric: "tabular-nums" }}>
+            {String(n).padStart(2, "0")} / {String(total).padStart(2, "0")}
+          </span>
+        </div>
+      )}
+      {cx.v2 && <Brand th={th} />}
+      {hasAudio && <Sequence from={LEAD}><Audio src={staticFile(`shorts/${slug}/audio/${s.id}.mp3`)} /></Sequence>}
+      <SceneSfx sceneDur={dur} cues={sceneCues(s, [{ name: "chapter_boom" }])} />
+    </AbsoluteFill>
+  );
+};
+
+const ChapterCardLegacy: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: number; th: Theme }> = ({ s, slug, m, idx, th }) => {
   const frame = useCurrentFrame();
   const hasAudio = m.durations[s.id] !== undefined;
   const sp = spring({ frame, fps: FPS, config: { damping: 16 } });
@@ -520,47 +1119,21 @@ const IllusScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: num
   const fadeOut = interpolate(frame, [dur - 10, dur], [1, 0], { extrapolateLeft: "clamp" });
   const files = (s.img && m.images[s.img]) || [];
   const file = files.length ? files[idx % files.length] : null; // idx = per-prefix occurrence (even rotation)
-  const capIn = spring({ frame: frame - LEAD, fps: FPS, config: { damping: 18 } });
   const statAt = LEAD + Math.round(sceneAud(s, m) * 0.35 * FPS);
-  const statSp = spring({ frame: frame - statAt, fps: FPS, config: { damping: 12, stiffness: 130 } });
   const hasAudio = m.durations[s.id] !== undefined;
 
   return (
     <AbsoluteFill style={{ backgroundColor: BASE, opacity: fadeOut }}>
       {file && (
         <AbsoluteFill style={{ opacity: fadeIn }}>
-          {/* blurred cover backdrop fills the frame regardless of source aspect ratio */}
-          <Img src={staticFile(`shorts/${slug}/images/${file}`)}
-            style={{ width: "100%", height: "100%", objectFit: "cover",
-              transform: `scale(${scale * 1.15}) translateX(${driftX}px)`,
-              filter: "saturate(0.88) contrast(1.05) blur(14px) brightness(0.55)" }} />
-          {/* sharp foreground never crops — portrait sources stay pillarboxed instead of losing content */}
-          <AbsoluteFill style={{ justifyContent: "center", alignItems: "center" }}>
-            <Img src={staticFile(`shorts/${slug}/images/${file}`)}
-              style={{ maxWidth: "100%", maxHeight: "100%", width: "auto", height: "auto", objectFit: "contain",
-                transform: `scale(${scale}) translateX(${driftX}px)`,
-                filter: "saturate(0.88) contrast(1.05)" }} />
-          </AbsoluteFill>
+          {/* blur-fill: blurred cover backdrop fills the frame regardless of source
+              aspect; the sharp foreground never crops (portrait sources stay whole) */}
+          <ArchivalPlate th={th} kind="image" src={staticFile(`shorts/${slug}/images/${file}`)}
+            frame={s.plate} scale={scale} x={driftX} graphic={s.graphic}
+            stamp={s.stamp} stampBottom={stampBottomFor(s)} />
         </AbsoluteFill>
       )}
-      <AbsoluteFill style={{ background: scrim(!!s.cap, 0.62, 24, 56, 0.94), pointerEvents: "none" }} />
-
-      {s.stat && (
-        <div style={{ position: "absolute", top: 118, left: 96,
-          transform: `translateY(${interpolate(statSp, [0, 1], [22, 0])}px) scale(${interpolate(statSp, [0, 1], [0.92, 1])})`,
-          opacity: interpolate(frame - statAt, [0, 8], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) }}>
-          <StatChip th={th} text={s.stat} color={s.statColor} />
-        </div>
-      )}
-
-      <Brand th={th} />
-
-      {s.cap && (
-        <div style={{ position: "absolute", bottom: 84, left: 96, right: 96,
-          transform: `translateY(${interpolate(capIn, [0, 1], [30, 0])}px)`, opacity: capIn }}>
-          <CaptionBar th={th} text={s.cap} />
-        </div>
-      )}
+      <SceneChrome s={s} m={m} th={th} file={file} kind="image" scrimArgs={[0.62, 24, 56, 0.94]} />
 
       {hasAudio && <Sequence from={LEAD}><Audio src={staticFile(`shorts/${slug}/audio/${s.id}.mp3`)} /></Sequence>}
       <SceneSfx sceneDur={dur} cues={sceneCues(s, s.stat ? [{ name: "stat_hit", at: statAt }] : [])} />
@@ -573,9 +1146,7 @@ const DiagramScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Th
   const dur = sceneFrames(s, m);
   const fadeIn = interpolate(frame, [0, 12], [0, 1], { extrapolateRight: "clamp" });
   const fadeOut = interpolate(frame, [dur - 10, dur], [1, 0], { extrapolateLeft: "clamp" });
-  const capIn = spring({ frame: frame - LEAD, fps: FPS, config: { damping: 18 } });
   const statAt = LEAD + Math.round(sceneAud(s, m) * 0.35 * FPS);
-  const statSp = spring({ frame: frame - statAt, fps: FPS, config: { damping: 12, stiffness: 130 } });
   const hasAudio = m.durations[s.id] !== undefined;
   const Diagram = (s.diagram && DIAGRAMS[s.diagram]) || null;
 
@@ -584,24 +1155,7 @@ const DiagramScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Th
       <AbsoluteFill style={{ opacity: fadeIn }}>
         {Diagram ? <Diagram dur={dur} arg={s.arg} accent={th.accent} /> : <AbsoluteFill style={{ backgroundColor: BASE }} />}
       </AbsoluteFill>
-      <AbsoluteFill style={{ background: scrim(!!s.cap, 0.55, 22, 60, 0.92), pointerEvents: "none" }} />
-
-      {s.stat && (
-        <div style={{ position: "absolute", top: 118, left: 96,
-          transform: `translateY(${interpolate(statSp, [0, 1], [22, 0])}px) scale(${interpolate(statSp, [0, 1], [0.92, 1])})`,
-          opacity: interpolate(frame - statAt, [0, 8], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) }}>
-          <StatChip th={th} text={s.stat} color={s.statColor} />
-        </div>
-      )}
-
-      <Brand th={th} />
-
-      {s.cap && (
-        <div style={{ position: "absolute", bottom: 84, left: 96, right: 96,
-          transform: `translateY(${interpolate(capIn, [0, 1], [30, 0])}px)`, opacity: capIn }}>
-          <CaptionBar th={th} text={s.cap} />
-        </div>
-      )}
+      <SceneChrome s={s} m={m} th={th} file={null} kind="diagram" scrimArgs={[0.55, 22, 60, 0.92]} />
 
       {hasAudio && <Sequence from={LEAD}><Audio src={staticFile(`shorts/${slug}/audio/${s.id}.mp3`)} /></Sequence>}
       <SceneSfx sceneDur={dur} cues={sceneCues(s, s.stat ? [{ name: "stat_hit", at: statAt }] : [])} />
@@ -622,9 +1176,7 @@ const VideoScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Them
   const dur = sceneFrames(s, m);
   const fadeIn = cutIn ? 1 : interpolate(frame, [0, 12], [0, 1], { extrapolateRight: "clamp" });
   const fadeOut = cutOut ? 1 : interpolate(frame, [dur - 10, dur], [1, 0], { extrapolateLeft: "clamp" });
-  const capIn = spring({ frame: frame - LEAD, fps: FPS, config: { damping: 18 } });
   const statAt = LEAD + Math.round(sceneAud(s, m) * 0.35 * FPS);
-  const statSp = spring({ frame: frame - statAt, fps: FPS, config: { damping: 12, stiffness: 130 } });
   const hasAudio = m.durations[s.id] !== undefined;
   const src = staticFile(`shorts/${slug}/video/${s.video}`);
   const startFrom = Math.round((s.videoFrom ?? 0) * FPS);
@@ -645,35 +1197,13 @@ const VideoScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Them
   }
   return (
     <AbsoluteFill style={{ backgroundColor: "#05070C", opacity: fadeOut }}>
-      <AbsoluteFill style={{ opacity: fadeIn, justifyContent: "center", alignItems: "center" }}>
-        {/* blurred cover copy fills the frame so 4:3 / portrait archival never
-            shows black pillar/letterbox bars (same move as IllusScene) */}
-        <AbsoluteFill>
-          <OffthreadVideo src={src} muted startFrom={startFrom}
-            style={{ width: "100%", height: "100%", objectFit: "cover",
-              transform: `scale(${drift * 1.15})`,
-              filter: "saturate(0.88) contrast(1.05) blur(14px) brightness(0.55)" }} />
-        </AbsoluteFill>
-        <OffthreadVideo src={src} muted startFrom={startFrom}
-          style={{ width: "100%", height: "100%", objectFit: "contain",
-            transform: `scale(${drift})`,
-            filter: "saturate(0.92) contrast(1.06)" }} />
+      <AbsoluteFill style={{ opacity: fadeIn }}>
+        {/* blur-fill (default): blurred cover copy fills the frame so 4:3 /
+            portrait archival never shows black pillar/letterbox bars */}
+        <ArchivalPlate th={th} kind="video" src={src} startFrom={startFrom} scale={drift}
+          frame={s.plate} graphic={s.graphic} stamp={s.stamp} stampBottom={stampBottomFor(s)} />
       </AbsoluteFill>
-      <AbsoluteFill style={{ background: scrim(!!s.cap, 0.55, 22, 60, 0.92), pointerEvents: "none" }} />
-      {s.stat && (
-        <div style={{ position: "absolute", top: 118, left: 96,
-          transform: `translateY(${interpolate(statSp, [0, 1], [22, 0])}px) scale(${interpolate(statSp, [0, 1], [0.92, 1])})`,
-          opacity: interpolate(frame - statAt, [0, 8], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) }}>
-          <StatChip th={th} text={s.stat} color={s.statColor} />
-        </div>
-      )}
-      <Brand th={th} />
-      {s.cap && (
-        <div style={{ position: "absolute", bottom: 84, left: 96, right: 96,
-          transform: `translateY(${interpolate(capIn, [0, 1], [30, 0])}px)`, opacity: capIn }}>
-          <CaptionBar th={th} text={s.cap} />
-        </div>
-      )}
+      <SceneChrome s={s} m={m} th={th} file={s.video ?? null} kind="video" scrimArgs={[0.55, 22, 60, 0.92]} />
       {hasAudio && <Sequence from={LEAD}><Audio src={staticFile(`shorts/${slug}/audio/${s.id}.mp3`)} /></Sequence>}
       <SceneSfx sceneDur={dur} cues={sceneCues(s, s.stat ? [{ name: "stat_hit", at: statAt }] : [])} />
     </AbsoluteFill>
@@ -683,7 +1213,59 @@ const VideoScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Them
 /* DELAYED BRAND STING (documentary-pivot): audio-led mindwired ident that plays
    AFTER the cold open — wordmark bloom + expanding accent ring + a musical motif
    (sfx/sting_motif) under the spoken line. One standing beat, every episode. */
-const StingScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Theme }> = ({ s, slug, m, th }) => {
+const StingScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Theme }> = (p) => {
+  const cx = React.useContext(ChromeCtx);
+  return cx.lockup && p.th.lockup === "blackbox" ? <StingBlackBox {...p} caseId={cx.caseId} /> : <StingLegacy {...p} />;
+};
+
+/* Black Box sting: the recorder glyph lands, the mono wordmark types on as a
+   case-file header, an accent scan line sweeps, and the case number (when the
+   doc has one) prints under it. Same motif audio + timing as the legacy sting. */
+const StingBlackBox: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Theme; caseId?: string }> = ({ s, slug, m, th, caseId }) => {
+  const frame = useCurrentFrame();
+  const dur = sceneFrames(s, m);
+  const hasAudio = m.durations[s.id] !== undefined;
+  const glyphIn = spring({ frame: frame - 4, fps: FPS, config: { damping: 13, stiffness: 110 } });
+  const word = "BLACK BOX";
+  const typed = Math.max(0, Math.min(word.length, Math.floor((frame - 14) / 2)));
+  const scan = interpolate(frame, [12, 44], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const subIn = interpolate(frame, [36, 50], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const caseIn = interpolate(frame, [48, 62], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const glow = interpolate(frame, [6, 30, dur - 20, dur], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const fadeOut = interpolate(frame, [dur - 12, dur], [1, 0], { extrapolateLeft: "clamp" });
+  return (
+    <AbsoluteFill style={{ backgroundColor: "#04060A", justifyContent: "center", alignItems: "center", opacity: fadeOut }}>
+      <div style={{ position: "absolute", width: 820, height: 820, borderRadius: "50%",
+        background: `radial-gradient(circle, ${th.accent}1C 0%, transparent 62%)`, opacity: glow }} />
+      <div style={{ position: "absolute", left: 0, right: 0, top: `${18 + scan * 64}%`, height: 2,
+        background: `linear-gradient(90deg, transparent, ${th.accent}AA, transparent)`, opacity: (1 - scan) * 0.8 }} />
+      <div style={{ position: "relative", display: "flex", flexDirection: "column", alignItems: "center" }}>
+        <div style={{ transform: `scale(${interpolate(glyphIn, [0, 1], [0.6, 1])})`, opacity: glyphIn }}>
+          <RecorderGlyph size={150} color={th.accent} />
+        </div>
+        <div style={{ marginTop: 54, fontFamily: th.mono, fontWeight: 600, fontSize: 118, letterSpacing: 22,
+          color: "#fff", whiteSpace: "pre", textShadow: `0 0 ${glow * 36}px ${th.accent}55`, minHeight: 140 }}>
+          {word.slice(0, typed)}<span style={{ opacity: typed < word.length || Math.floor(frame / 12) % 2 === 0 ? 1 : 0,
+            color: th.accent }}>▌</span>
+        </div>
+        <div style={{ marginTop: 6, fontFamily: th.mono, fontWeight: 500, fontSize: 32, letterSpacing: 26,
+          color: th.accent, opacity: subIn, paddingLeft: 26 }}>BREAKDOWN</div>
+        {caseId && (
+          <div style={{ marginTop: 40, display: "flex", alignItems: "center", gap: 18, opacity: caseIn }}>
+            <div style={{ width: 60, height: 1, background: "rgba(255,255,255,0.35)" }} />
+            <span style={{ fontFamily: th.mono, fontWeight: 500, fontSize: 26, letterSpacing: 4,
+              color: "rgba(255,255,255,0.7)" }}>CASE FILE · {caseId}</span>
+            <div style={{ width: 60, height: 1, background: "rgba(255,255,255,0.35)" }} />
+          </div>
+        )}
+      </div>
+      {hasAudio && <Sequence from={LEAD}><Audio src={staticFile(`shorts/${slug}/audio/${s.id}.mp3`)} /></Sequence>}
+      <SceneSfx sceneDur={dur} cues={sceneCues(s, [{ name: "sting_motif", at: 0 }])} />
+    </AbsoluteFill>
+  );
+};
+
+const StingLegacy: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Theme }> = ({ s, slug, m, th }) => {
   const frame = useCurrentFrame();
   const dur = sceneFrames(s, m);
   const hasAudio = m.durations[s.id] !== undefined;
@@ -714,6 +1296,14 @@ const StingScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Them
   );
 };
 
+/** Exhibit page tints (scene `paperTone`): a filter on the page + a multiply
+ *  wash. Unset = the legacy contrast(1.05) brightness(1.03) page. */
+const PAPER_TONES: Record<string, { filter: string; wash: string; washOpacity: number }> = {
+  warm: { filter: "sepia(0.3) saturate(0.85) contrast(1.06) brightness(0.98)", wash: "#F1DFBE", washOpacity: 0.4 },
+  cool: { filter: "grayscale(0.5) contrast(1.08) brightness(1.0)", wash: "#D3DFEC", washOpacity: 0.45 },
+  neutral: { filter: "grayscale(1) contrast(1.1) brightness(1.02)", wash: "#ECECEA", washOpacity: 0.2 },
+};
+
 /* EXHIBIT beat (the Jani "receipts" move): the scene's img is a real document
    page — dark blurred surround, slow push (toward the highlight = the damning
    line), an accent highlight box, and a source lower-third. */
@@ -736,6 +1326,19 @@ const ExhibitScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: n
   const boxIn = spring({ frame: frame - LEAD - 6, fps: FPS, config: { damping: 16 } });
   const srcIn = spring({ frame: frame - LEAD, fps: FPS, config: { damping: 18 } });
   const capIn = spring({ frame: frame - LEAD - 12, fps: FPS, config: { damping: 18 } });
+  const cx = React.useContext(ChromeCtx);
+  const tone = (s.paperTone && PAPER_TONES[s.paperTone]) || null;
+  const doc = s.exhibitMode === "document";
+  // document-first: the page is frame-wide and COVERS the frame; the read
+  // point drifts down the page toward the highlight (portrait pages — the
+  // [0.24, 0.76] clamp keeps a letter-size page's edges off screen)
+  const cl = (v: number, a: number, b: number) => Math.max(a, Math.min(b, v));
+  const dTy = hl ? interpolate(ease, [0, 1], [cl(targetY - 0.08, 0.24, 0.76), cl(targetY, 0.24, 0.76)])
+    : interpolate(ease, [0, 1], [0.28, 0.42]);
+  const dTx = cl(targetX, 0.25, 0.75);
+  const dZoom = interpolate(ease, [0, 1], [1.0, hl ? 1.22 : 1.08]);
+  const dShiftX = (0.5 - dTx) * 1920 * (dZoom - 1) * 0.9;
+  const autoSrc = !s.source ? sourceText(s, m, cx, file, "image") : null;
   return (
     <AbsoluteFill style={{ backgroundColor: "#030407", opacity: fadeOut }}>
       {file && (
@@ -746,14 +1349,45 @@ const ExhibitScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: n
         </AbsoluteFill>
       )}
       <AbsoluteFill style={{ background: "rgba(3,4,7,0.55)" }} />
-      {file && (
+      {file && doc && (
+        <AbsoluteFill style={{ opacity: fadeIn, overflow: "hidden" }}>
+          <div style={{ position: "absolute", left: 0, width: "100%", top: "50%",
+            transformOrigin: `${dTx * 100}% ${dTy * 100}%`,
+            transform: `translate(${dShiftX}px, ${-dTy * 100}%) scale(${dZoom})` }}>
+            <Img src={staticFile(`shorts/${slug}/images/${file}`)}
+              style={{ width: "100%", height: "auto", display: "block",
+                filter: tone ? tone.filter : "contrast(1.05) brightness(1.03)" }} />
+            {tone && <div style={{ position: "absolute", inset: 0, background: tone.wash,
+              mixBlendMode: "multiply", opacity: tone.washOpacity }} />}
+            {(s.redact ?? []).map((r, i) => r.length === 4 && (
+              <div key={`rd${i}`} style={{ position: "absolute",
+                left: `${r[0] * 100}%`, top: `${r[1] * 100}%`,
+                width: `${r[2] * 100}%`, height: `${r[3] * 100}%`,
+                background: "#0A0C10", border: "1px solid rgba(255,255,255,0.16)",
+                borderRadius: 2 }} />
+            ))}
+            {hl && (
+              <div style={{ position: "absolute", left: `${hl[0] * 100}%`, top: `${hl[1] * 100}%`,
+                width: `${hl[2] * 100}%`, height: `${hl[3] * 100}%`,
+                background: `${th.accent}22`, border: `3px solid ${th.accent}`,
+                boxShadow: `0 0 24px ${th.accent}88`, borderRadius: 4,
+                opacity: boxIn, transform: `scaleX(${boxIn})`, transformOrigin: "left" }} />
+            )}
+          </div>
+          {/* the page fills the frame, so the chrome needs its own floor + ceiling */}
+          <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(3,4,7,0.55) 0%, transparent 18%, transparent 56%, rgba(3,4,7,0.92) 100%)" }} />
+        </AbsoluteFill>
+      )}
+      {file && !doc && (
         <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", opacity: fadeIn }}>
           <div style={{ position: "relative", height: "88%",
             transform: `translate(${shiftX}px, ${shiftY}px) scale(${zoom})` }}>
             <Img src={staticFile(`shorts/${slug}/images/${file}`)}
               style={{ height: "100%", width: "auto", objectFit: "contain", display: "block",
                 boxShadow: "0 24px 80px rgba(0,0,0,0.8)", border: "1px solid rgba(255,255,255,0.12)",
-                filter: "contrast(1.05) brightness(1.03)" }} />
+                filter: tone ? tone.filter : "contrast(1.05) brightness(1.03)" }} />
+            {tone && <div style={{ position: "absolute", inset: 0, background: tone.wash,
+              mixBlendMode: "multiply", opacity: tone.washOpacity }} />}
             {(s.redact ?? []).map((r, i) => r.length === 4 && (
               <div key={`rd${i}`} style={{ position: "absolute",
                 left: `${r[0] * 100}%`, top: `${r[1] * 100}%`,
@@ -799,6 +1433,7 @@ const ExhibitScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: n
             textShadow: "0 3px 20px rgba(0,0,0,0.9)" }}>{s.cap}</span>
         </div>
       )}
+      {autoSrc && <SourceLine th={th} text={autoSrc} />}
       <Brand th={th} />
       {hasAudio && <Sequence from={LEAD}><Audio src={staticFile(`shorts/${slug}/audio/${s.id}.mp3`)} /></Sequence>}
       <SceneSfx sceneDur={dur} cues={sceneCues(s, [{ name: "page_turn", at: 0, volume: 0.2 }])} />
@@ -922,6 +1557,11 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest, outro?: OutroSp
   }
   const hfSpans: [number, number][] = [];
   { let c = 0; for (const s of doc.scenes) { const d = sceneFrames(s, manifest); if (s.hf) hfSpans.push([c, c + d]); c += d; } }
+  // 2027 visual-system opt-ins (doc-level) + chapter numbering for the progress ticks
+  const v2 = doc.visual === "2027";
+  const chapterNo: Record<string, number> = {};
+  { let n = 0; for (const s of doc.scenes) if (s.chapter) chapterNo[s.id] = ++n; }
+  const chapterTotal = Object.keys(chapterNo).length;
   const Comp: React.FC = () => {
     let cursor = 0;
     return (
@@ -931,14 +1571,18 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest, outro?: OutroSp
         <style>{DEVANAGARI_FONT_CSS}</style>
         {doc.scenes.map((s, i) => {
           const from = cursor; const dur = sceneFrames(s, manifest); cursor += dur;
+          const cx: ChromeCtxT = { v2, lockup: v2 || !!doc.caseId, caseId: doc.caseId, hook: from < HOOK_FRAMES,
+            chapterNo: chapterNo[s.id] ?? 0, chapterTotal, sourceLine: !!doc.sourceLine };
           return (
             <Sequence key={s.id} from={from} durationInFrames={dur} name={s.id}>
+              <ChromeCtx.Provider value={cx}>
               {s.chapter
-                ? <ChapterCard s={s} slug={doc.slug} m={manifest} idx={sceneFileIdx[s.id] ?? i} th={th} />
+                ? <ChapterCard s={s} slug={doc.slug} m={manifest} idx={sceneFileIdx[s.id] ?? i} th={th}
+                    next={doc.scenes[i + 1]} />
                 : s.sting
                 ? <StingScene s={s} slug={doc.slug} m={manifest} th={th} />
                 : s.speaker
-                ? <RadioScene s={s} slug={doc.slug} m={manifest} th={th} />
+                ? <RadioScene s={s} slug={doc.slug} m={manifest} th={th} idx={sceneFileIdx[s.id] ?? i} />
                 : s.hf
                 ? <VideoScene s={{ ...s, video: `hf_${s.hf}.mp4` }} slug={doc.slug} m={manifest} th={th}
                     cutIn={isVideoScene(doc.scenes[i - 1])} cutOut={isVideoScene(doc.scenes[i + 1])} />
@@ -1040,6 +1684,7 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest, outro?: OutroSp
                 </>
               )}
               {s.depth !== undefined && <DepthGauge from={depthPrev[s.id]} to={s.depth} th={th} />}
+              </ChromeCtx.Provider>
             </Sequence>
           );
         })}

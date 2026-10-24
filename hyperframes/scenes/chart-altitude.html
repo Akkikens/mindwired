@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=1920, height=1080" />
-<title>helios522 · chart-altitude</title>
+<title>american587 · chart-altitude</title>
 <script src="../assets/vendor/gsap-3.14.2.min.js"></script>
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -119,7 +119,7 @@ html, body { width: 1920px; height: 1080px; overflow: hidden; background: #05070
   #chart-altitude-note { position: absolute; right: 54px; bottom: 44px; font-family: var(--mono); font-size: 16px; letter-spacing: 1px; color: var(--ink-3); text-align: right; max-width: 1100px; }
 </style>
 
-<div id="root" data-composition-id="chart-altitude" data-start="0" data-width="1920" data-height="1080" data-duration="12">
+<div id="root" data-composition-id="chart-altitude" data-start="0" data-width="1920" data-height="1080" data-duration="18.47">
   <div id="chart-altitude-glow"></div>
   <div id="chart-altitude-chrome">
     <div class="eyebrow left" id="chart-altitude-eyebrow"></div>
@@ -146,9 +146,9 @@ html, body { width: 1920px; height: 1080px; overflow: hidden; background: #05070
 
 <script>
 (() => {
-  const DATA = {"scene":"chart","kind":"line","duration":12,"eyebrow":"Altitude profile · EEST","title":"Three hours on autopilot, then the fuel ran out","unit":"ft","note":"KNOWN POINTS FROM THE AAIASB TIMELINE, JOINED BY STRAIGHT SEGMENTS · THE RED MARK IS CABIN ALTITUDE, NOT AIRCRAFT ALTITUDE","line":{"yMax":36000,"yTicks":[0,10000,20000,30000],"xTicks":["09:00","10:00","11:00","12:00"],"series":[{"t":"09:07:00","v":0,"label":"09:07 TAKEOFF","labelPos":"above","labelAnchor":"start"},{"t":"09:20:00","v":28900,"label":"~09:20 LAST CONTACT · ~28,900 FT","labelPos":"below","labelAnchor":"start"},{"t":"09:23:32","v":34000,"label":"09:23:32 LEVEL AT FL340","labelPos":"above","labelAnchor":"start"},{"t":"11:49:50","v":34000,"label":"11:49:50 LEFT ENGINE FLAMEOUT","labelPos":"above","labelAnchor":"end"},{"t":"12:03:32","v":0,"label":"12:03:32 IMPACT","labelPos":"above","labelAnchor":"end"}],"markers":[{"t":"09:12:38","v":12040,"label":"09:12:38 CABIN ALTITUDE HORN · 12,040 FT"}]},"stats":[{"value":121,"label":"aboard · no survivors"},{"value":19,"label":"failed ATC contact attempts"},{"value":"6","suffix":"th","label":"holding loop when the F‑16s closed in"}],"_facts":"CLAIMS-helios522.md timeline: 09:07 takeoff; 09:12:38 cabin altitude horn at 12,040 ft; ~09:20 last contact climbing through ~28,900 ft; 09:23:32 levels at FL340 (~34,000 ft); 11:49:50 left engine flames out and descent begins; 12:03:32 crash. 121 aboard, all killed; 10:12–10:50 nineteen failed ATC contact attempts; F-16s intercept on the 6th holding loop. The right-engine flameout (11:59:47) is omitted because no altitude is given for it."};
+  const DATA = {"scene":"chart","kind":"line","duration":18.47,"eyebrow":"Climb profile · EST","title":"The climb, and where it stopped","unit":"ft","note":"ALTITUDES ABOVE SEA LEVEL FROM NTSB AAR-04/04 · KNOWN POINTS JOINED BY STRAIGHT SEGMENTS · THE RED MARK IS HEIGHT ABOVE GROUND AT THE SECOND WAKE ENCOUNTER · THE FIN'S ALTITUDE AT SEPARATION IS NOT GIVEN AS A SINGLE FIGURE AND IS NOT PLOTTED","line":{"yMax":3000,"yTicks":[0,1000,2000,3000],"xTicks":["09:14:30","09:15:00","09:15:30","09:16:00"],"series":[{"t":"09:14:29","v":0,"label":"09:14:29 LIFTOFF","labelPos":"above","labelAnchor":"start"},{"t":"09:15:36","v":1700,"label":"09:15:36 FIRST WAKE · ~1,700 FT","labelPos":"below","labelAnchor":"start"},{"t":"09:15:48","v":2300,"label":"09:15:48 \"TWO FIFTY\" · ~2,300 FT","labelPos":"above","labelAnchor":"end"},{"t":"09:16:15","v":0,"label":"09:16:15 IMPACT · BELLE HARBOR","labelPos":"above","labelAnchor":"end"}],"markers":[{"t":"09:15:51","v":2430,"label":"09:15:51 SECOND WAKE · ~2,430 FT ABOVE GROUND"}]},"stats":[{"value":240,"suffix":" kt","label":"airspeed at \"max power\" · 09:15:54"},{"value":251,"suffix":" kt","label":"airspeed when the fin separated · 09:15:58.4"},{"value":"13.6","suffix":" s","label":"flight data stopped before impact"}],"claims":["c17","c24","c25","c30","c31","c32","c40","c41","c43","c44","c45","c50"],"_facts":"CLAIMS-american587.md ANCHORS: c17 liftoff 0914:29 (schematic 0 ft — the ground line, not a measured altitude); c24/c25 first wake encounter 0915:36 at ~1,700 ft msl; c30 0915:48.2 'two fifty thank you' at ~2,300 ft msl; c31/c32 second encounter 0915:51 at ~2,430 ft agl (marker, labelled as above-ground); c40 'max power' at 0915:54.2, 240 kt; c41/c43 fracture at 0915:58.4, ~251 kt; c44/c45 last FDR data 0916:01.23, 13.6 s before impact; c50 impact ~0916:15 (schematic 0 ft). The 0915:00 'thirteen hundred feet' call is left off the series because 1,300 is not an ANCHORS value; the separation point is not plotted on the altitude axis because the AAR does not give one figure for it. The chart template draws one series, so airspeed lives in the stat tiles instead of a second line."};
   const ID = "chart-altitude";
-  const DUR = 12;
+  const DUR = 18.47;
   const $ = (s) => document.getElementById(`${ID}-${s}`);
   const NS = "http://www.w3.org/2000/svg";
   const el = (tag, attrs, parent) => { const n = document.createElementNS(NS, tag); for (const k in attrs) n.setAttribute(k, attrs[k]); if (parent) parent.appendChild(n); return n; };

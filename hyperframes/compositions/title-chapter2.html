@@ -87,7 +87,7 @@
   .diamond-rule i, .diamond-rule b { will-change: transform; }
 </style>
 
-<div id="root" data-composition-id="title-chapter2" data-start="0" data-width="1920" data-height="1080" data-duration="6">
+<div id="root" data-composition-id="title-chapter2" data-start="0" data-width="1920" data-height="1080" data-duration="12.17">
   <div id="title-chapter2-bg" data-layout-allow-overflow></div>
   <div id="title-chapter2-shade"></div>
   <div id="title-chapter2-ring"></div>
@@ -102,10 +102,10 @@
 
 <script>
 (() => {
-  const DATA = {"scene":"title-card","duration":6,"eyebrow":"Chapter 2","title":"Two Warnings. One Sound.","sub":"09:12:38 EEST · CABIN ALTITUDE HORN · 12,040 FT","image":"assets/samples/helios_5B-DBY_cdg_2005.jpeg","imageCredit":"5B-DBY, PARIS CDG, MAY 2005 · CC BY 2.0 · WIKIMEDIA COMMONS","accentLastWord":true,"_facts":"CLAIMS-helios522.md: 09:12:38 cabin altitude warning horn at 12,040 ft; tonally identical to the takeoff-configuration horn (report p.133)."};
+  const DATA = {"scene":"title-card","duration":12.17,"eyebrow":"09:14:29 · Liftoff, runway 31L","title":"One Minute, Forty Seconds Behind","sub":"RULE: TWO MINUTES OR FOUR NAUTICAL MILES · ACTUAL: AT LEAST 4.3 NM AND 3,800 FT · NTSB FINDING THREE: THE CONTROLLER COMPLIED","image":"assets/samples/aa587_before_takeoff.jpg","imageCredit":"N14053 BEFORE TAKEOFF, JFK, 12 NOV 2001 · CONSTRUCTION-SITE CAMERA · NTSB DOCKET · PUBLIC DOMAIN","accentLastWord":true,"claims":["c17","c18","c19","c20"],"_facts":"CLAIMS-american587.md ANCHORS: c17 liftoff 0914:29; c18 1 min 40 s behind JAL 47 (AAR p.3); c19 heavy-behind-heavy rule 2 min OR 4 nm (AAR fn 9); c20 actual separation at least 4.3 nm / 3,800 ft (fn 11); Finding 3 'the controller complied' (CLAIMS correction #5). The plate image is Commons File:American Airlines 587 before takeoff.jpg (720×480, PD, NTSB docket) copied to assets/samples/aa587_before_takeoff.jpg at footage time; it shows the accident aircraft itself, so the credit may name N14053."};
   const ID = "title-chapter2";
   const $ = (s) => document.getElementById(`${ID}-${s}`);
-  const DUR = 6;
+  const DUR = 12.17;
 
   if (DATA.image) $("bg").style.backgroundImage = `url('${DATA.image}')`;
   $("eyebrow-text").textContent = DATA.eyebrow ?? "";

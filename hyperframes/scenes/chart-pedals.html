@@ -1,24 +1,28 @@
 <!doctype html>
 <html lang="en">
-<head><meta charset="UTF-8" /><title>chart-nationality</title></head>
-<body>
-<template>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1920, height=1080" />
+<title>american587 · chart-pedals</title>
+<script src="../assets/vendor/gsap-3.14.2.min.js"></script>
 <style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1920px; height: 1080px; overflow: hidden; background: #05070C; }
 /* mindwired scene-kit theme — derived from src/mindwired-doc/DocWide.tsx (THEMES, dsp(),
    StatChip, CaptionBar, ChapterCard) and docs/planning/CRAFT-AUDIT.md's four-voice type system.
-   Fonts are the SAME OFL files the Remotion engine ships in public/fonts (copied to assets/fonts),
+   Fonts are the SAME OFL files the Remotion engine ships in public/fonts (copied to ../assets/fonts),
    declared with @font-face so HyperFrames inlines them at build time — no runtime font race.
 
    The build script (scripts/build.mjs) inlines this file into every generated scene and swaps
    the accent for the channel given on the command line (--channel mindwired|blackbox|criminalrecord). */
 
-@font-face { font-family: 'Archivo Expanded'; src: url('assets/fonts/ArchivoExpanded-ExtraBold.ttf') format('truetype'); font-weight: 700 900; font-style: normal; font-display: block; }
-@font-face { font-family: 'Archivo Expanded'; src: url('assets/fonts/ArchivoExpanded-SemiBold.ttf') format('truetype'); font-weight: 100 699; font-style: normal; font-display: block; }
-@font-face { font-family: 'Spectral'; src: url('assets/fonts/Spectral-Medium.ttf') format('truetype'); font-weight: 500; font-style: normal; font-display: block; }
-@font-face { font-family: 'Spectral'; src: url('assets/fonts/Spectral-MediumItalic.ttf') format('truetype'); font-weight: 500; font-style: italic; font-display: block; }
-@font-face { font-family: 'IBM Plex Mono'; src: url('assets/fonts/IBMPlexMono-Medium.ttf') format('truetype'); font-weight: 500; font-style: normal; font-display: block; }
-@font-face { font-family: 'IBM Plex Mono'; src: url('assets/fonts/IBMPlexMono-SemiBold.ttf') format('truetype'); font-weight: 600; font-style: normal; font-display: block; }
-@font-face { font-family: 'Inter'; src: url('assets/fonts/Inter.ttf') format('truetype'); font-weight: 100 900; font-style: normal; font-display: block; }
+@font-face { font-family: 'Archivo Expanded'; src: url('../assets/fonts/ArchivoExpanded-ExtraBold.ttf') format('truetype'); font-weight: 700 900; font-style: normal; font-display: block; }
+@font-face { font-family: 'Archivo Expanded'; src: url('../assets/fonts/ArchivoExpanded-SemiBold.ttf') format('truetype'); font-weight: 100 699; font-style: normal; font-display: block; }
+@font-face { font-family: 'Spectral'; src: url('../assets/fonts/Spectral-Medium.ttf') format('truetype'); font-weight: 500; font-style: normal; font-display: block; }
+@font-face { font-family: 'Spectral'; src: url('../assets/fonts/Spectral-MediumItalic.ttf') format('truetype'); font-weight: 500; font-style: italic; font-display: block; }
+@font-face { font-family: 'IBM Plex Mono'; src: url('../assets/fonts/IBMPlexMono-Medium.ttf') format('truetype'); font-weight: 500; font-style: normal; font-display: block; }
+@font-face { font-family: 'IBM Plex Mono'; src: url('../assets/fonts/IBMPlexMono-SemiBold.ttf') format('truetype'); font-weight: 600; font-style: normal; font-display: block; }
+@font-face { font-family: 'Inter'; src: url('../assets/fonts/Inter.ttf') format('truetype'); font-weight: 100 900; font-style: normal; font-display: block; }
 
 :root, #root {
   /* palette — DocWide BASE #05070C, mindwired accent #4DD8FF (blackbox #FF9500, criminalrecord #7FB4FF) */
@@ -71,6 +75,8 @@
 .source-plate .tag { display: block; font-family: var(--mono); font-weight: 700; font-size: 20px; letter-spacing: 4px; color: var(--accent); margin-bottom: 4px; }
 
 </style>
+</head>
+<body>
 <!-- scene: chart — animated line (time series with a read head) or bar chart, plus count-up stat tiles.
      data: { kind:"line"|"bar", eyebrow, title, unit?, note?, duration,
              line: { series:[{t:"HH:MM[:SS]", v:number, label?}], markers?:[{t,v,label,color?}], yTicks?:[n...], xTicks?:["HH:MM"...] }
@@ -78,71 +84,71 @@
              stats?:[{value:number|string, label, suffix?, prefix?}] } -->
 <style>
   #root { position: absolute; inset: 0; width: 100%; height: 100%; overflow: hidden; }
-  #chart-nationality-glow { position: absolute; left: 30%; top: 20%; width: 1100px; height: 700px; border-radius: 50%; background: radial-gradient(circle, var(--accent-tint) 0%, transparent 65%); filter: blur(40px); will-change: transform, opacity; }
-  #chart-nationality-chrome { position: absolute; left: var(--safe-x); top: 64px; display: flex; flex-direction: column; gap: 10px; }
-  #chart-nationality-title { font-family: var(--display); font-weight: 800; font-size: 44px; color: var(--ink); }
-  #chart-nationality-plot { position: absolute; left: 96px; top: 230px; width: 1240px; height: 660px; }
-  #chart-nationality-svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
-  #chart-nationality-svg .grid { stroke: rgba(255,255,255,0.08); stroke-width: 1; }
-  #chart-nationality-svg .axis { stroke: rgba(255,255,255,0.35); stroke-width: 2; }
-  #chart-nationality-svg .tick { font-family: var(--mono); font-size: 19px; fill: var(--ink-3); letter-spacing: 1px; }
-  #chart-nationality-svg .series { fill: none; stroke: var(--accent); stroke-width: 5; stroke-linejoin: round; stroke-linecap: round; filter: drop-shadow(0 0 12px var(--accent-dim)); }
-  #chart-nationality-svg .area { fill: url(#chart-nationality-fade); }
-  #chart-nationality-svg .pt { fill: #05070C; stroke: var(--accent); stroke-width: 3; }
-  #chart-nationality-svg .ptlbl { font-family: var(--mono); font-weight: 600; font-size: 19px; fill: var(--ink-2); letter-spacing: 1px; paint-order: stroke; stroke: #05070C; stroke-width: 6px; }
-  #chart-nationality-svg .mk { fill: var(--danger); }
-  #chart-nationality-svg .mklbl { font-family: var(--mono); font-weight: 600; font-size: 19px; fill: var(--danger); letter-spacing: 1px; paint-order: stroke; stroke: #05070C; stroke-width: 6px; }
-  #chart-nationality-svg .head { stroke: var(--ink); stroke-width: 1.5; stroke-dasharray: 5 6; }
-  #chart-nationality-svg .headdot { fill: var(--ink); }
+  #chart-pedals-glow { position: absolute; left: 30%; top: 20%; width: 1100px; height: 700px; border-radius: 50%; background: radial-gradient(circle, var(--accent-tint) 0%, transparent 65%); filter: blur(40px); will-change: transform, opacity; }
+  #chart-pedals-chrome { position: absolute; left: var(--safe-x); top: 64px; display: flex; flex-direction: column; gap: 10px; }
+  #chart-pedals-title { font-family: var(--display); font-weight: 800; font-size: 44px; color: var(--ink); }
+  #chart-pedals-plot { position: absolute; left: 96px; top: 230px; width: 1240px; height: 660px; }
+  #chart-pedals-svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+  #chart-pedals-svg .grid { stroke: rgba(255,255,255,0.08); stroke-width: 1; }
+  #chart-pedals-svg .axis { stroke: rgba(255,255,255,0.35); stroke-width: 2; }
+  #chart-pedals-svg .tick { font-family: var(--mono); font-size: 19px; fill: var(--ink-3); letter-spacing: 1px; }
+  #chart-pedals-svg .series { fill: none; stroke: var(--accent); stroke-width: 5; stroke-linejoin: round; stroke-linecap: round; filter: drop-shadow(0 0 12px var(--accent-dim)); }
+  #chart-pedals-svg .area { fill: url(#chart-pedals-fade); }
+  #chart-pedals-svg .pt { fill: #05070C; stroke: var(--accent); stroke-width: 3; }
+  #chart-pedals-svg .ptlbl { font-family: var(--mono); font-weight: 600; font-size: 19px; fill: var(--ink-2); letter-spacing: 1px; paint-order: stroke; stroke: #05070C; stroke-width: 6px; }
+  #chart-pedals-svg .mk { fill: var(--danger); }
+  #chart-pedals-svg .mklbl { font-family: var(--mono); font-weight: 600; font-size: 19px; fill: var(--danger); letter-spacing: 1px; paint-order: stroke; stroke: #05070C; stroke-width: 6px; }
+  #chart-pedals-svg .head { stroke: var(--ink); stroke-width: 1.5; stroke-dasharray: 5 6; }
+  #chart-pedals-svg .headdot { fill: var(--ink); }
   /* fixed readout above the plot's right edge: it never collides with point labels inside the plot */
-  #chart-nationality-tip { position: absolute; right: -40px; top: -84px; min-width: 240px; background: var(--panel); border-left: 4px solid var(--accent); padding: 8px 16px; border-radius: 4px; }
-  #chart-nationality-tip .t { font-family: var(--mono); font-weight: 600; font-size: 20px; color: var(--accent); letter-spacing: 2px; }
-  #chart-nationality-tip .v { font-family: var(--display); font-weight: 800; font-size: 38px; color: var(--ink); font-variant-numeric: tabular-nums; margin-top: 2px; }
-  #chart-nationality-tip .v small { font-family: var(--mono); font-weight: 500; font-size: 20px; color: var(--ink-2); margin-left: 8px; }
-  #chart-nationality-bars { position: absolute; left: 0; right: 0; top: 40px; bottom: 60px; display: flex; align-items: flex-end; justify-content: space-evenly; gap: 40px; border-bottom: 2px solid rgba(255,255,255,0.35); }
-  .chart-nationality-bar { display: flex; flex-direction: column; align-items: center; width: 220px; height: 100%; justify-content: flex-end; }
-  .chart-nationality-bar .v { font-family: var(--display); font-weight: 800; font-size: 54px; color: var(--ink); font-variant-numeric: tabular-nums; margin-bottom: 14px; }
-  .chart-nationality-bar .b { display: block; width: 100%; background: var(--accent); border-radius: 4px 4px 0 0; transform-origin: bottom; will-change: transform; }
-  .chart-nationality-bar .l { position: absolute; bottom: -46px; font-family: var(--mono); font-weight: 600; font-size: 21px; letter-spacing: 2px; color: var(--ink-2); text-transform: uppercase; white-space: nowrap; }
-  .chart-nationality-bar { position: relative; }
-  #chart-nationality-stats { position: absolute; left: 1420px; top: 250px; width: 404px; display: flex; flex-direction: column; gap: 34px; }
-  .chart-nationality-stat { border-top: 1px solid var(--rule-2); padding-top: 16px; }
-  .chart-nationality-stat .v { font-family: var(--display); font-weight: 800; font-size: 76px; line-height: 1; color: var(--ink); font-variant-numeric: tabular-nums; }
-  .chart-nationality-stat .v em { font-style: normal; color: var(--accent); }
-  .chart-nationality-stat .l { font-family: var(--mono); font-weight: 600; font-size: 21px; letter-spacing: 3px; color: var(--ink-2); text-transform: uppercase; margin-top: 10px; }
-  #chart-nationality-note { position: absolute; right: 54px; bottom: 44px; font-family: var(--mono); font-size: 16px; letter-spacing: 1px; color: var(--ink-3); text-align: right; max-width: 1100px; }
+  #chart-pedals-tip { position: absolute; right: -40px; top: -84px; min-width: 240px; background: var(--panel); border-left: 4px solid var(--accent); padding: 8px 16px; border-radius: 4px; }
+  #chart-pedals-tip .t { font-family: var(--mono); font-weight: 600; font-size: 20px; color: var(--accent); letter-spacing: 2px; }
+  #chart-pedals-tip .v { font-family: var(--display); font-weight: 800; font-size: 38px; color: var(--ink); font-variant-numeric: tabular-nums; margin-top: 2px; }
+  #chart-pedals-tip .v small { font-family: var(--mono); font-weight: 500; font-size: 20px; color: var(--ink-2); margin-left: 8px; }
+  #chart-pedals-bars { position: absolute; left: 0; right: 0; top: 40px; bottom: 60px; display: flex; align-items: flex-end; justify-content: space-evenly; gap: 40px; border-bottom: 2px solid rgba(255,255,255,0.35); }
+  .chart-pedals-bar { display: flex; flex-direction: column; align-items: center; width: 220px; height: 100%; justify-content: flex-end; }
+  .chart-pedals-bar .v { font-family: var(--display); font-weight: 800; font-size: 54px; color: var(--ink); font-variant-numeric: tabular-nums; margin-bottom: 14px; }
+  .chart-pedals-bar .b { display: block; width: 100%; background: var(--accent); border-radius: 4px 4px 0 0; transform-origin: bottom; will-change: transform; }
+  .chart-pedals-bar .l { position: absolute; bottom: -46px; font-family: var(--mono); font-weight: 600; font-size: 21px; letter-spacing: 2px; color: var(--ink-2); text-transform: uppercase; white-space: nowrap; }
+  .chart-pedals-bar { position: relative; }
+  #chart-pedals-stats { position: absolute; left: 1420px; top: 250px; width: 404px; display: flex; flex-direction: column; gap: 34px; }
+  .chart-pedals-stat { border-top: 1px solid var(--rule-2); padding-top: 16px; }
+  .chart-pedals-stat .v { font-family: var(--display); font-weight: 800; font-size: 76px; line-height: 1; color: var(--ink); font-variant-numeric: tabular-nums; }
+  .chart-pedals-stat .v em { font-style: normal; color: var(--accent); }
+  .chart-pedals-stat .l { font-family: var(--mono); font-weight: 600; font-size: 21px; letter-spacing: 3px; color: var(--ink-2); text-transform: uppercase; margin-top: 10px; }
+  #chart-pedals-note { position: absolute; right: 54px; bottom: 44px; font-family: var(--mono); font-size: 16px; letter-spacing: 1px; color: var(--ink-3); text-align: right; max-width: 1100px; }
 </style>
 
-<div id="root" data-composition-id="chart-nationality" data-start="0" data-width="1920" data-height="1080" data-duration="10">
-  <div id="chart-nationality-glow"></div>
-  <div id="chart-nationality-chrome">
-    <div class="eyebrow left" id="chart-nationality-eyebrow"></div>
-    <div id="chart-nationality-title"></div>
+<div id="root" data-composition-id="chart-pedals" data-start="0" data-width="1920" data-height="1080" data-duration="19.1">
+  <div id="chart-pedals-glow"></div>
+  <div id="chart-pedals-chrome">
+    <div class="eyebrow left" id="chart-pedals-eyebrow"></div>
+    <div id="chart-pedals-title"></div>
   </div>
-  <div id="chart-nationality-plot">
-    <svg id="chart-nationality-svg" viewBox="0 0 1240 660" xmlns="http://www.w3.org/2000/svg">
-      <defs><linearGradient id="chart-nationality-fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="var(--accent)" stop-opacity="0.22"/><stop offset="1" stop-color="var(--accent)" stop-opacity="0"/></linearGradient></defs>
-      <g id="chart-nationality-grid"></g>
-      <g id="chart-nationality-axes"></g>
-      <path id="chart-nationality-area" class="area"/>
-      <path id="chart-nationality-series" class="series"/>
-      <g id="chart-nationality-pts"></g>
-      <g id="chart-nationality-mks"></g>
-      <line id="chart-nationality-head" class="head" y1="0" y2="600"/>
-      <circle id="chart-nationality-headdot" class="headdot" r="9"/>
+  <div id="chart-pedals-plot">
+    <svg id="chart-pedals-svg" viewBox="0 0 1240 660" xmlns="http://www.w3.org/2000/svg">
+      <defs><linearGradient id="chart-pedals-fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="var(--accent)" stop-opacity="0.22"/><stop offset="1" stop-color="var(--accent)" stop-opacity="0"/></linearGradient></defs>
+      <g id="chart-pedals-grid"></g>
+      <g id="chart-pedals-axes"></g>
+      <path id="chart-pedals-area" class="area"/>
+      <path id="chart-pedals-series" class="series"/>
+      <g id="chart-pedals-pts"></g>
+      <g id="chart-pedals-mks"></g>
+      <line id="chart-pedals-head" class="head" y1="0" y2="600"/>
+      <circle id="chart-pedals-headdot" class="headdot" r="9"/>
     </svg>
-    <div id="chart-nationality-bars"></div>
-    <div id="chart-nationality-tip"><div class="t" id="chart-nationality-tip-t"></div><div class="v"><span id="chart-nationality-tip-v"></span><small id="chart-nationality-tip-u"></small></div></div>
+    <div id="chart-pedals-bars"></div>
+    <div id="chart-pedals-tip"><div class="t" id="chart-pedals-tip-t"></div><div class="v"><span id="chart-pedals-tip-v"></span><small id="chart-pedals-tip-u"></small></div></div>
   </div>
-  <div id="chart-nationality-stats"></div>
-  <div id="chart-nationality-note"></div>
+  <div id="chart-pedals-stats"></div>
+  <div id="chart-pedals-note"></div>
 </div>
 
 <script>
 (() => {
-  const DATA = {"scene":"chart","kind":"bar","duration":10,"eyebrow":"Who was aboard","title":"121 people, three nationalities","note":"NATIONALITY COUNTS INCLUDE CREW · SOURCE: AAIASB REPORT 11/2006","bar":{"max":120,"categories":[{"label":"Cypriot","v":107},{"label":"Greek","v":13},{"label":"German","v":1}]},"stats":[{"value":115,"label":"passengers"},{"value":6,"label":"crew"},{"value":118,"label":"bodies recovered"}],"_facts":"CLAIMS-helios522.md: 121 aboard (115 passengers + 6 crew: 107 Cypriot incl. crew, 13 Greek incl. crew, 1 German — Capt. Merten). All 121 killed. 118 bodies recovered."};
-  const ID = "chart-nationality";
-  const DUR = 10;
+  const DATA = {"scene":"chart","kind":"bar","duration":19.1,"eyebrow":"Rudder pedal inputs · 09:15:51.9 to 09:15:58.5 EST","title":"Six pedal inputs in under seven seconds","unit":"in","note":"PEDAL TRAVEL IN INCHES FROM NTSB AAR-04/04 · R = RIGHT, L = LEFT · FULL PEDAL TRAVEL IS FOUR INCHES · THE RECORDER SAMPLED THE PEDALS TWICE A SECOND, SO PEAKS MAY HAVE BEEN HIGHER · THE NTSB FOUND THESE WERE THE FIRST OFFICER'S INPUTS (FINDING 5); THE PILOTS' UNION CONTESTED THE CAUSE","bar":{"max":4,"categories":[{"label":"1st · right","v":1.7},{"label":"2nd · left","v":1.7},{"label":"3rd · right","v":1.7},{"label":"4th · right","v":2},{"label":"5th · left","v":2.4,"color":"danger"},{"label":"6th · right","v":1.3}]},"stats":[{"value":32,"suffix":" lb","label":"foot force for full rudder at 250 kt"},{"value":"1.2","suffix":" in","label":"pedal travel to full rudder at 250 kt"},{"value":"9.3","suffix":"°","label":"rudder limit at 250 kt"}],"claims":["c34","c35","c42","c81","c82","c83"],"_facts":"CLAIMS-american587.md ANCHORS: c34 first pedal input 1.7 in right at 0915:51.9; c35 pedal sequence 1.7R → 1.7L → 1.7R → 2.0R → 2.4L → 1.3R between 0915:52 and 0915:58.5 (AAR p.5); c42 0915:58.5 bang; c81 max pedal travel 4 in; c82 rudder limit 9.3° at 250 kt (Table 2); c83 32 lb / 1.2 in for full rudder at 250 KCAS (Table 3). Bars are magnitudes with direction in the label; the window is given as first input (c34) to the bang (c42) because 0915:52 is not itself an ANCHORS value. The FDR 2/s sampling caveat is from item 164 (CLAIMS §B.4). Attribution to the first officer is Finding 5 and is stated as the NTSB's finding on the note line."};
+  const ID = "chart-pedals";
+  const DUR = 19.1;
   const $ = (s) => document.getElementById(`${ID}-${s}`);
   const NS = "http://www.w3.org/2000/svg";
   const el = (tag, attrs, parent) => { const n = document.createElementNS(NS, tag); for (const k in attrs) n.setAttribute(k, attrs[k]); if (parent) parent.appendChild(n); return n; };
@@ -267,6 +273,5 @@
 })();
 </script>
 
-</template>
 </body>
 </html>

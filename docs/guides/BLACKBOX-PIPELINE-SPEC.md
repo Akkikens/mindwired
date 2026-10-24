@@ -151,3 +151,43 @@ The channel's signature: real recordings + labeled recreations.
    lines) — render it to hear the radio chain.
 7. **Shorts**: a 45–58s pure-radio exchange (waveform + transcript) is a
    proven standalone viral format — cut at least one per episode.
+
+## 6. Visual system — DocWide 2027 chrome (revamp §3.3, Phase 2 #5)
+Everything below is **opt-in** except the archival grade: a blackbox doc that
+sets none of these fields renders exactly as before, plus the grade.
+1. **ArchivalPlate + `Theme.grade`** (default for channel `blackbox`): every
+   real photo/footage plate (Illus, Video, chapter/kinetic backdrops, radio
+   plates) goes through one component carrying the channel grade token
+   (`src/lib/theme.ts` `BLACKBOX_GRADE`: desaturate + sepia, lifted blue-black
+   shadows, faint warm highlights, extra plate grain). Other channels use
+   `LEGACY_GRADE` = the old filters, pixel-identical. Scene fields: `plate`
+   (`blurfill` default | `fill` | `pillar`), `graphic: true` (report figure /
+   chart PNG — no grade/grain/stamp), `stamp: "APR 17 2016"` (date-stamp
+   chrome; must be the real date of that footage/photo). `hf` scenes never
+   touch the plate.
+2. **Doc-level switch `"visual": "2027"`** turns on the rest: Black Box lockup
+   (recorder glyph + mono wordmark + `"caseId": "NTSB DCA02MA001"`) hidden for
+   the first 30 s hook; SourceLine on; ChapterCard progress ticks + the next
+   scene's footage as the chapter plate; RadioScene v2. `caseId` alone also
+   enables the lockup + Black Box sting (`sting: true`).
+3. **SceneChrome layouts** (photo/footage/diagram scenes): `caption` (default
+   lower-third) · `slate` — `"slate": {"date", "place", "clock"}` for Fern
+   cold opens and dated turns (`clock` = verbatim CLAIMS time; it advances in
+   real time only, never toward a figure — replaces faking a slate in `stat`)
+   · `quote` — `cap` = the verbatim quote, `"quoteBy"` = attribution line ·
+   `none` — footage that should breathe. Preflight WARNs when one layout sits
+   on >70% of a 2027 doc's chrome-bearing scenes.
+4. **SourceLine** (small mono, bottom-left): `source` text, else the shown
+   file's provenance record (`manifest.assets`/`videos`); per scene
+   `"sourceLine": true|false|"<text>"`, doc-wide `"sourceLine": true`.
+5. **ChapterCard tease-first**: `"kicker"` (short mono tag) and `"tease"` (the
+   curiosity question, lands BEFORE the title, which then rises word by word).
+6. **RadioScene v2**: the scene's `video`/`img` as a heavily dimmed plate, the
+   transcript lit word by word, a CVR/ATC strip whose first and largest
+   element is the honesty label (wording/colours unchanged), a level track
+   from `manifest.level[id]` (falls back to the mouth track, else a flat idle
+   line — never a synthetic waveform), the `timestamp` clock (HH:MM:SS
+   advances in real time) and `source`; `quoteBy` adds an attribution line.
+7. **Exhibits**: `"paperTone": "warm"|"cool"|"neutral"`, and
+   `"exhibitMode": "document"` — the page covers the frame and drifts down to
+   the `highlight` (portrait report/filing pages; keep `push` for landscape).

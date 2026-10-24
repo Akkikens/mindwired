@@ -96,6 +96,9 @@ ATTRIBUTION.md there), live from those files for anything the manifest lacks:
     Digest, Orion MER, Starlink, Roman) is exactly this class — memory
     footage-era-identity-niche. Clear it by eyeballing frames 0/8/15s, then
     `provenance_backfill.py <slug> --verify video/<f> --note "..."`.
+LAYOUT WARN (2026-10-24, revamp Phase 2 #5): a doc opted into the 2027 chrome
+(visual "2027" / any layout|slate|quoteBy) with one SceneChrome layout on >70%
+of its chrome-bearing scenes (layout_concentration(); mirrors chromeLayout()).
 WARNS (hook checklist — see docs/guides/HOOK-CHECKLIST.md):
   - first scene over 30 words / greeting-style opener
   - no stat/chapter in the first 4 scenes
@@ -221,6 +224,51 @@ def license_gate(slug: str, doc: dict, man: dict) -> None:
     if len(w) > 12:
         warn(f"license: +{len(w) - 12} more — python3 scripts/lib/licenses.py {slug} -v")
 # ── END LICENSE GATE ──────────────────────────────────────────────────────
+
+# ── LAYOUT-CONCENTRATION WARN (2026-10-24, revamp §3.3 / Phase 2 #5) ──────
+# DocWide's SceneChrome picks a layout per photo/footage/diagram scene
+# (caption | slate | quote | none). The audit's "identical lower-third on every
+# scene" complaint is a monotony problem, so a doc that has opted into the
+# 2027 chrome (visual "2027", or any scene setting layout/slate/quoteBy) WARNs
+# when one effective layout covers >70% of its chrome-bearing scenes. Legacy
+# docs (no opt-in) stay silent — every one of them is 100% caption by design.
+# chrome_layout() MIRRORS DocWide.tsx chromeLayout(); keep the two in step.
+CHROME_LAYOUTS = {"caption": "caption", "lower-third": "caption", "slate": "slate",
+                  "quote": "quote", "quoteBy": "quote", "none": "none"}
+# scene types whose renderer is NOT SceneChrome (mirrors makeDocComp's router)
+_NON_CHROME = ("chapter", "sting", "speaker", "hf", "mascotFull", "sketch", "mascotAside",
+               "exhibit", "dossier", "timeline", "route", "tree", "kinetic")
+
+
+def chrome_layout(s: dict) -> str:
+    lay = CHROME_LAYOUTS.get(s.get("layout") or "")
+    if lay:
+        return lay
+    if s.get("slate"):
+        return "slate"
+    if s.get("quoteBy"):
+        return "quote"
+    return "caption"
+
+
+def layout_concentration(doc: dict, threshold: float = 0.70, min_scenes: int = 5) -> None:
+    scenes = doc.get("scenes", [])
+    chrome = [s for s in scenes
+              if not any(s.get(k) for k in _NON_CHROME)
+              and (s.get("cap") or s.get("slate") or s.get("quoteBy") or s.get("layout"))]
+    opted = doc.get("visual") == "2027" or any(
+        s.get("layout") or s.get("slate") or s.get("quoteBy") for s in scenes)
+    if not opted or len(chrome) < min_scenes:
+        return
+    counts = collections.Counter(chrome_layout(s) for s in chrome)
+    lay, n = counts.most_common(1)[0]
+    if n / len(chrome) > threshold:
+        mix = ", ".join(f"{k} {v}" for k, v in counts.most_common())
+        warn(f"layout concentration: '{lay}' on {n}/{len(chrome)} chrome-bearing scenes "
+             f"({100 * n / len(chrome):.0f}% > {100 * threshold:.0f}%; mix: {mix}) — vary SceneChrome: "
+             "`slate` for dated cold-open/turn beats, `quote`+`quoteBy` for testimony, "
+             "`none` for footage that should breathe (BLACKBOX-PIPELINE-SPEC §Visual system)")
+# ── END LAYOUT-CONCENTRATION WARN ─────────────────────────────────────────
 
 
 def main() -> int:
@@ -905,6 +953,7 @@ def main() -> int:
         warn("outro: no verbal next-video bridge in the last 3 scenes (CLAUDE.md 2026-07-14 rule)")
 
     license_gate(slug, doc, man)  # LICENSE GATE (see block above main)
+    layout_concentration(doc)     # LAYOUT-CONCENTRATION WARN (see block above main)
 
     for m in BLOCK:
         print(f"BLOCK  {m}")
