@@ -68,11 +68,16 @@
       "video": "tollbooth_1.mp4",
       "videoQuery": "File:American Airlines Flight 587 Toll Booth video.ogv",
       "videoFrom": 0,
-      "cap": "November 12, 2001 · Belle Harbor, Queens · 9:16 a.m.",
       "stat": "62 DAYS AFTER 9/11",
       "statColor": "#FF4D4D",
       "tone": "neutral",
-      "note": "HOOK-DOCTOR 2026-10-24. Fern open: date → place → time, with the recognized element (9/11) in line 1 per the CLAIMS recognition-bridge constraint. TBTA toll-plaza security camera, PD via NTSB docket items 205/208. Archival plate, never full-bleed. Clip is 34.94 s — scan frames at 0/8/20 s before locking videoFrom (h1 0–7, h2 8–20, h5 20–32: sequential, no overlap). REVIEW 2026-10-24: SLICE PLAN (monotony gate compares filenames; each distinct camera view of a source .ogv is its own file, videoFrom is relative to that slice — re-scan frames at 0/8/15 s after slicing): tollbooth_1 = view 1 (dot crossing the bay), tollbooth_2 = view 2 (descending dot / streak), tollbooth_3 = view 3 (smoke rising over Belle Harbor) from File:American Airlines Flight 587 Toll Booth video.ogv (34.94 s, docket item 207: four views); takeoff_1 = taxi/takeoff-roll view, takeoff_2 = climbout / smoke-on-horizon view from File:American Airlines Flight 587 takeoff.ogv (50.73 s); ntsbanim_1 = wake-encounter segment, ntsbanim_2 = pedal/rudder-trace segment, ntsbanim_3 = post-separation fall from File:American Airlines Flight 587 Accident animation.ogv (265 s). All PD via NTSB docket item 208."
+      "note": "HOOK-DOCTOR 2026-10-24. Fern open: date → place → time, with the recognized element (9/11) in line 1 per the CLAIMS recognition-bridge constraint. TBTA toll-plaza security camera, PD via NTSB docket items 205/208. Archival plate, never full-bleed. Clip is 34.94 s — scan frames at 0/8/20 s before locking videoFrom (h1 0–7, h2 8–20, h5 20–32: sequential, no overlap). REVIEW 2026-10-24: SLICE PLAN (monotony gate compares filenames; each distinct camera view of a source .ogv is its own file, videoFrom is relative to that slice — re-scan frames at 0/8/15 s after slicing): tollbooth_1 = view 1 (dot crossing the bay), tollbooth_2 = view 2 (descending dot / streak), tollbooth_3 = view 3 (smoke rising over Belle Harbor) from File:American Airlines Flight 587 Toll Booth video.ogv (34.94 s, docket item 207: four views); takeoff_1 = taxi/takeoff-roll view, takeoff_2 = climbout / smoke-on-horizon view from File:American Airlines Flight 587 takeoff.ogv (50.73 s); ntsbanim_1 = wake-encounter segment, ntsbanim_2 = pedal/rudder-trace segment, ntsbanim_3 = post-separation fall from File:American Airlines Flight 587 Accident animation.ogv (265 s). All PD via NTSB docket item 208.",
+      "layout": "slate",
+      "slate": {
+        "date": "November 12, 2001",
+        "place": "Belle Harbor, Queens",
+        "clock": "9:16 AM"
+      }
     },
     {
       "id": "h2",
@@ -145,7 +150,8 @@
       "text": "This is American Airlines Flight five eighty seven — the twenty two seconds that took the tail off an airliner, the three-to-two vote over who was to blame, and the city that spent a morning believing it was under attack.",
       "chapter": "NEW YORK THOUGHT IT WAS\n9/11 AGAIN. IT WASN'T",
       "img": "fin",
-      "cap": "BLACK BOX BREAKDOWN — AMERICAN AIRLINES FLIGHT 587"
+      "cap": "BLACK BOX BREAKDOWN — AMERICAN AIRLINES FLIGHT 587",
+      "plate": "fill"
     },
     {
       "id": "c1",
@@ -153,7 +159,8 @@
       "text": "That morning began with two alarm clocks, and an airplane that had been flying for thirteen years.",
       "img": "a300",
       "query": "American Airlines Airbus A300-605R N14053 photo",
-      "note": "LICENCE FLAG (review 2026-10-24): Commons File:Airbus A300B4-605R, American Airlines JP5950383.jpg (N14053, Jon Proctor) is GFDL 1.2 — NOT in the PD/CC0/CC-BY/CC-BY-SA allow-list; airliners.net AN0201219/AN0201220 are not free. Fill 'a300' from PD/CC sources only (e.g. the 2005 PD-self type shot '…inbound to JFK.jpg', captioned as the type, never as N14053) and have the licence gate confirm before render."
+      "note": "LICENCE FLAG (review 2026-10-24): Commons File:Airbus A300B4-605R, American Airlines JP5950383.jpg (N14053, Jon Proctor) is GFDL 1.2 — NOT in the PD/CC0/CC-BY/CC-BY-SA allow-list; airliners.net AN0201219/AN0201220 are not free. Fill 'a300' from PD/CC sources only (e.g. the 2005 PD-self type shot '…inbound to JFK.jpg', captioned as the type, never as N14053) and have the licence gate confirm before render.",
+      "plate": "fill"
     },
     {
       "id": "c1_1",
@@ -225,7 +232,8 @@
       "id": "c2",
       "chapter": "2 — THE PLANE\nIN FRONT",
       "text": "Ahead of them in line for runway three one left was a Japan Airlines seven forty seven. Heavy. That airplane is where this story turns.",
-      "img": "jfk"
+      "img": "jfk",
+      "plate": "fill"
     },
     {
       "id": "c2_1",
@@ -374,7 +382,8 @@
       "chapter": "3 — TWENTY-TWO\nSECONDS",
       "text": "From the first bump of wake to the moment the tail came off took twenty two seconds. Here is what the recorders say happened inside them.",
       "img": "toll",
-      "query": "AA587 Tollbooth Video still frame"
+      "query": "AA587 Tollbooth Video still frame",
+      "plate": "fill"
     },
     {
       "id": "r15",
@@ -603,7 +612,8 @@
       "id": "c4",
       "chapter": "4 — THE SECOND\nATTACK",
       "text": "For the next several hours, New York City believed it was under attack again. Here is how that morning actually unfolded.",
-      "img": "site"
+      "img": "site",
+      "plate": "fill"
     },
     {
       "id": "c4_1",
@@ -672,7 +682,8 @@
       "text": "So if it was not a bomb, and the wake was, in one expert's words, nothing extraordinary — why did a tail come off a modern airliner in clear air?",
       "img": "rudder",
       "query": "FAA Lessons Learned N14053 rudder system rudder fracture failed rudder points photo",
-      "note": "REVIEW 2026-10-24: new prefix 'rudder' = FAA Lessons-Learned (NTSB-credited, PD) rudder_system.jpg / rudder_fracture.jpg / failed_rudder_pts.jpg — CLAIMS §FOOTAGE 'Tail separation — the lugs' row."
+      "note": "REVIEW 2026-10-24: new prefix 'rudder' = FAA Lessons-Learned (NTSB-credited, PD) rudder_system.jpg / rudder_fracture.jpg / failed_rudder_pts.jpg — CLAIMS §FOOTAGE 'Tail separation — the lugs' row.",
+      "plate": "fill"
     },
     {
       "id": "c5_1",
@@ -750,7 +761,8 @@
       "id": "c6",
       "chapter": "6 — WHAT THE\nTRAINING TAPE SAID",
       "text": "In nineteen ninety six, American Airlines built a new upset-recovery course. It would be taught to every pilot at the airline. Both of these men took it.",
-      "img": "aamp_booklet"
+      "img": "aamp_booklet",
+      "plate": "fill"
     },
     {
       "id": "c6_1",
@@ -882,7 +894,8 @@
       "id": "c7",
       "chapter": "7 — THREE VOTES\nTO TWO",
       "text": "Three years after the crash, five board members sat down to decide the official cause. They did not agree.",
-      "img": "aar_cause"
+      "img": "aar_cause",
+      "plate": "fill"
     },
     {
       "id": "c7_1",
@@ -998,7 +1011,8 @@
       "id": "c8",
       "chapter": "8 — ELEVEN\nYEARS",
       "text": "The board's recommendations went out in two thousand four. The hardware fix took eleven years.",
-      "img": "fedreg_ad"
+      "img": "fedreg_ad",
+      "plate": "fill"
     },
     {
       "id": "c8_1",
@@ -1065,7 +1079,8 @@
       "text": "Every November twelfth, at nine sixteen in the morning, a bell rings at the south end of Beach one hundred sixteenth Street.",
       "img": "rockawaypark",
       "query": "Rockaway Park Flight 587 memorial plaza photo Kai Brinker",
-      "note": "REVIEW 2026-10-24: new prefix 'rockawaypark' = Commons 'Rockaway Park - 1/2/4' (Kai Brinker, CC BY-SA 2.0 — author line required in ATTRIBUTION.md)."
+      "note": "REVIEW 2026-10-24: new prefix 'rockawaypark' = Commons 'Rockaway Park - 1/2/4' (Kai Brinker, CC BY-SA 2.0 — author line required in ATTRIBUTION.md).",
+      "plate": "fill"
     },
     {
       "id": "c9_1",
@@ -1167,7 +1182,11 @@
       "text": "Subscribe to Black Box Breakdown for the next real investigation.",
       "chapter": "SUBSCRIBE",
       "img": "memorial",
-      "cap": "Watch next: The Tapes That Broke NORAD's 9/11 Story"
+      "cap": "Watch next: The Tapes That Broke NORAD's 9/11 Story",
+      "plate": "fill"
     }
-  ]
+  ],
+  "visual": "2027",
+  "caseId": "NTSB DCA02MA001",
+  "sourceLine": true
 }
