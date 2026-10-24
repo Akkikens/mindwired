@@ -67,6 +67,18 @@ channel:"blackbox", scenes:[…]}`. House voice = the 737max register:
    narration may only describe what a verified image shows.
 2. ffprobe scan of every VO mp3 (catches Cartesia empty-clip bug).
 3. `npx remotion still` ×4 spread across the comp — look at them.
+4. **VO back-check — `scripts/verify_vo.py <slug> [--only ids] [--json]`**
+   (ship_doc step 3c, right after the VO + hf builds). Local faster-whisper
+   (same path as `whisper_srt.py`) transcribes every clip and aligns it
+   against the respelled scene text, number runs normalized ("ninety three"
+   = "93"). **BLOCK**: any sentence with <60% of its words heard
+   (`--threshold`) — the TTS dropped or garbled it; fix with `build_doc_vo.py
+   --only <id> --force`. **WARN**: clip similarity <0.85, misses on radio
+   recreations (EQ hurts whisper), and phonetic leaks — the transcript
+   carrying a respelled code ("seven three seven") whose written form
+   ("737") belongs in the uploaded .srt. "ACTUAL ATC RECORDING" clips are
+   skipped. Cached by text+clip hash in `out/qa/<slug>_vo_check.json`; exit 3
+   = faster-whisper missing (gate not run — ship_doc stops at a checkpoint).
 
 ### Phase V→P — Build & publish
 1. **Preferred: `python3 scripts/ship_doc.py <slug> <CompId> --music

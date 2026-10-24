@@ -11,6 +11,8 @@ Order (a failing gate stops the run):
   3. build_doc_vo         per-scene VO + manifest (idempotent)
   3b. build_hf_scenes     `hf` data scenes -> 4K clips sized to their VO
                           (skips fresh clips; no-op without hf scenes)
+  3c. verify_vo           whisper back-check: BLOCKs a dropped/garbled
+                          sentence, WARNs phonetic leaks ("seven three seven")
   4. audit_doc_images     contact sheets -> out/qa/ (CHECKPOINT: eyeball them)
   5. preflight_doc        blocks on missing assets/stale manifest/empty clips
   6. 4 stills             spread across the comp (CHECKPOINT: look at them)
@@ -70,6 +72,17 @@ def main() -> None:
     run("3/9 VO build + manifest", [PY, "scripts/build_doc_vo.py", slug])
     # HyperFrames data scenes: AFTER the VO so every clip is sized to its beat
     run("3b/9 HyperFrames scenes", [PY, "scripts/build_hf_scenes.py", slug])
+    # VO back-check (BLACKBOX-2027-REVAMP Phase 1 #4): every clip transcribed
+    # and aligned to its script — a dropped sentence BLOCKs. Exit 3 = no
+    # faster-whisper here: not a pass, so stop at a checkpoint instead.
+    cmd = [PY, "scripts/verify_vo.py", slug]
+    print(f"\n=== 3c/9 VO back-check (whisper)\n$ {' '.join(cmd)}")
+    rc = subprocess.run(cmd, cwd=REPO).returncode
+    if rc == 3:
+        checkpoint("VO back-check NOT RUN (faster-whisper missing) — every clip is "
+                   "unverified.", args.yes)
+    elif rc != 0:
+        sys.exit("GATE FAILED: 3c/9 VO back-check")
 
     # run-BY-EAR check (2026-07-19, "AI voice" complaints): splice 3 clips
     # (hook / middle / last) into one sample and actually listen to it.
