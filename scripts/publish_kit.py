@@ -15,6 +15,8 @@ Checks existence + parse of every deliverable the packaging standard
       * a PINNED COMMENT section with content
       * an "AI use: YES|NO" line (BLACKBOX-2027-REVAMP §3.4 — the upload
         disclosure is read from it, never hard-coded)
+      * a credits block naming every CC-BY / CC-BY-SA / OGL author whose file
+        is on screen (scripts/lib/licenses.py; docs/guides/LICENSES-GATE.md)
   - root "<Title>.mp4" + "<Title>.srt", Title = the METADATA locked title
     made filename-safe (":" -> " -", "/" -> "-"; the mp4-filename-is-title
     rule). A "ships as `X.mp4`" line in METADATA overrides the derivation.
@@ -31,6 +33,8 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 DOCS = REPO / "src" / "mindwired-doc" / "docs"
+sys.path.insert(0, str(REPO / "scripts" / "lib"))
+import licenses  # noqa: E402
 
 TS = re.compile(r"^\s*(?:[-*•]\s*)?((?:\d{1,2}:)?\d{1,2}:\d{2})\s+\S")
 HASHLINE = re.compile(r"^\s*(?:#[^\s#]+\s*)+$")
@@ -194,6 +198,18 @@ def main() -> None:
             fails.append("METADATA: no 'AI use: YES|NO + rationale' line")
         else:
             oks.append(f"AI use: {m.group(1).upper()}")
+
+        # CC-BY/BY-SA/OGL credit (license gate, docs/guides/LICENSES-GATE.md):
+        # every such author shown on screen must be named in a credits block
+        dp, mp = DOCS / f"{slug}.json", DOCS / f"{slug}.manifest.json"
+        if dp.exists() and mp.exists():
+            cf = licenses.cc_credit_failures(slug, json.loads(dp.read_text()),
+                                             json.loads(mp.read_text()), text)
+            fails.extend(cf)
+            if not cf:
+                oks.append("CC credits")
+        else:
+            warns.append("CC credit check skipped — no doc JSON + manifest")
 
         ov = re.search(r"ships as `([^`]+)\.mp4`", text)
         if ov:

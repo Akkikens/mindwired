@@ -14,8 +14,11 @@ file actually IS (source title from ATTRIBUTION.md + filename), and flags:
              "Oakland" / "1942" that appear nowhere in the doc, near-zero overlap)
   WEAK       zero keyword overlap between narration and the asset — generic b-roll
              under a specific fact
-  UNSOURCED  file has no ATTRIBUTION.md entry (AI-generated? untracked origin) —
-             verify it is not passing off a recreation as real
+  UNSOURCED  file has no provenance at all — no manifest.assets/videos record,
+             no PROVENANCE.jsonl row, no ATTRIBUTION.md entry (AI-generated?
+             untracked origin). BLOCKS (exit 2) when the file is shown inside
+             the first ~30s hook or on an `exhibit` scene (a receipt with no
+             origin is a fabricated receipt — revamp Phase 2 #1); warn elsewhere
   REUSE      same file shown on >3 scenes, or two adjacent scenes with the
              same visual
   HOOK-REUSE (exit 2 — preflight BLOCKS) a file in the first ~30s hook is
@@ -32,7 +35,12 @@ preflight_doc.py (an hf scene in the first ~25s BLOCKS like a still).
 
     python3 scripts/audit_scene_relevance.py <slug> [--hook-seconds 30] [--json]
 
-Exit codes: 0 ok/warnings, 2 hook-reuse (render-blocking).
+Provenance is read from the manifest FIRST (manifest.assets / manifest.videos,
+written by build_doc_vo.py from PROVENANCE.jsonl + ATTRIBUTION.md), then live
+from those files (scripts/lib/provenance.py) for anything the manifest lacks.
+
+Exit codes: 0 ok/warnings, 2 any BLOCK (hook-reuse, or UNSOURCED in the hook
+window / on an exhibit) — render-blocking.
 Wired into preflight_doc.py — runs automatically before every render.
 """
 from __future__ import annotations
@@ -40,6 +48,8 @@ import argparse, hashlib, json, re, sys
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(REPO / "scripts" / "lib"))
+import provenance  # noqa: E402
 DOCS = REPO / "src" / "mindwired-doc" / "docs"
 SHORTS = REPO / "public" / "shorts"
 
@@ -74,41 +84,10 @@ def tokens(text: str) -> set[str]:
 
 
 def parse_attribution(dirpath: Path) -> dict[str, str]:
-    """filename -> source title. Handles fetch_video (- **f** — Title — …),
-    fetch_media (- `f` — "Title" by …), hand-written bare lines
-    (- f.jpg — "Title", …  /  - f.jpg — PIA24681 …) and grouped shorthand
-    (- amphipod_1/2/3.jpg — …) — all formats found in real ATTRIBUTION.md files."""
-    out: dict[str, str] = {}
-    att = dirpath / "ATTRIBUTION.md"
-    if not att.exists():
-        return out
-    for line in att.read_text(encoding="utf-8", errors="replace").splitlines():
-        line = line.strip()
-        # markdown-table format (mariana): filename | subject | url | license —
-        # the wiki File: name in the URL carries the real source title
-        tmrow = re.match(
-            r"([\w./()\- ]+\.(?:jpg|jpeg|png|webp|mp4|webm|ogv|ogg))\s*\|"
-            r"\s*([^|]*)\|\s*(\S+)\s*\|", line, re.I)
-        if tmrow:
-            from urllib.parse import unquote
-            urlname = unquote(tmrow.group(3).rsplit("File:", 1)[-1].rsplit("/", 1)[-1])
-            title = f"{tmrow.group(2).strip()} {urlname.replace('_', ' ')}".strip()
-            out[tmrow.group(1).strip()] = title
-            continue
-        m = re.match(
-            r"-\s+\*{0,2}`?(.+?\.(?:jpg|jpeg|png|webp|mp4|webm|ogv|ogg))`?\*{0,2}"
-            r"\s+[—–-]\s+(.+)$", line, re.I)
-        if not m:
-            continue
-        fname_part, rest = m.group(1).strip(), m.group(2).strip()
-        tm = re.match(r'["“](.+?)["”]', rest)
-        title = tm.group(1) if tm else re.split(r"\s+[—–-]\s+", rest)[0]
-        gm = re.match(r"(.+?_)(\d+(?:/\d+)+)(\.\w+)$", fname_part)
-        names = ([f"{gm.group(1)}{n}{gm.group(3)}" for n in gm.group(2).split("/")]
-                 if gm else [fname_part])
-        for nme in names:
-            out[nme] = title.strip()
-    return out
+    """filename -> source title from ATTRIBUTION.md (the four real-file
+    shapes; parser lives in lib/provenance.py so build_doc_vo, the backfill
+    and this audit can't drift). Kept for callers that only want titles."""
+    return {f: r["title"] for f, r in provenance.parse_attribution_rows(dirpath).items()}
 
 
 def scan_images(img_dir: Path) -> dict[str, list[str]]:
@@ -219,12 +198,25 @@ def main() -> int:
 
     doc = json.loads((DOCS / f"{slug}.json").read_text())
     man_path = DOCS / f"{slug}.manifest.json"
-    durations = (json.loads(man_path.read_text()).get("durations", {})
-                 if man_path.exists() else {})
+    man = json.loads(man_path.read_text()) if man_path.exists() else {}
+    durations = man.get("durations", {})
     img_dir = SHORTS / slug / "images"
     vid_dir = SHORTS / slug / "video"
-    images = scan_images(img_dir) if img_dir.exists() else {}
-    titles = parse_attribution(img_dir) | parse_attribution(vid_dir)
+    # resolve against manifest.images — the pool DocWide actually renders from
+    # — so a slug whose media is archived off disk is still audited (the old
+    # preflight exhibit check read the manifest too); disk scan when no manifest
+    images = man.get("images") or (scan_images(img_dir) if img_dir.exists() else {})
+    prov = provenance.Provenance(slug, man)
+
+    def sub_of(kind: str) -> str:
+        return "video" if kind == "video" else "images"
+
+    def title_of(fname: str, kind: str) -> str:
+        rec = prov.get(sub_of(kind), fname)
+        return (rec or {}).get("title", "") or ""
+
+    # hook window computed once, up front: UNSOURCED and HOOK-REUSE share it
+    hook_ids = set(provenance.hook_scene_ids(doc, durations, args.hook_seconds))
 
     doc_vocab = tokens(" ".join(
         [doc.get("title", "")] +
@@ -240,15 +232,21 @@ def main() -> int:
 
     # ---- per-scene relevance ----
     unsourced: dict[str, list[str]] = {}
+    unsourced_kind: dict[str, str] = {}
     for s, fname, kind in visuals:
         if kind not in ("img", "video") or not fname or is_hf(fname):
             continue
-        title = titles.get(fname, "")
+        title = title_of(fname, kind)
         scene_vocab = tokens(f"{s.get('text','')} {s.get('cap','')} {s.get('stat','')}")
         asset_vocab = (tokens(title) | tokens(fname.rsplit(".", 1)[0].replace("_", " "))) - GENERIC
         overlap = sorted(scene_vocab & asset_vocab)
         if not title:
+            # named in ATTRIBUTION.md but in a shape the parser can't title:
+            # sourced (it has an entry), just nothing to compare narration to
+            if prov.sourced(sub_of(kind), fname):
+                continue
             unsourced.setdefault(fname, []).append(s["id"])
+            unsourced_kind[fname] = kind
             continue
         foreign = foreign_entities(title, doc_vocab)
         if len(foreign) >= 2 and len(overlap) < 2:
@@ -264,10 +262,27 @@ def main() -> int:
                 msg=f"{s['id']}: '{fname}' mentions {', '.join(foreign[:3])} — not in this doc; "
                     f"eyeball that the shot can't be identified as the wrong subject."))
 
+    exhibit_ids = {s["id"] for s in doc["scenes"] if s.get("exhibit")}
+    hard_block = False
     for fname, ids in sorted(unsourced.items()):
+        where = ", ".join(ids[:5]) + ("…" if len(ids) > 5 else "")
+        in_hook = [i for i in ids if i in hook_ids]
+        on_exhibit = [i for i in ids if i in exhibit_ids]
+        if in_hook or on_exhibit:
+            hard_block = True
+            why = (f"inside the first {args.hook_seconds:.0f}s hook ({', '.join(in_hook)})"
+                   if in_hook else f"on exhibit scene(s) {', '.join(on_exhibit)}")
+            findings.append(dict(level="block", kind="UNSOURCED", id=(in_hook or on_exhibit)[0],
+                file=fname,
+                msg=f"'{fname}' has NO provenance (no manifest/PROVENANCE.jsonl row, no "
+                    f"{sub_of(unsourced_kind[fname])}/ATTRIBUTION.md entry) and is shown {why} — "
+                    f"an untracked file in the hook or on a receipt is a render BLOCK. "
+                    f"Log its real source (fetch via fetch_doc_footage.py, or add the "
+                    f"ATTRIBUTION line + provenance_backfill.py {slug}) or replace it."))
+            continue
         findings.append(dict(level="warn", kind="UNSOURCED", id=ids[0], file=fname,
-            msg=f"'{fname}' ({len(ids)} scene(s): {', '.join(ids[:5])}{'…' if len(ids) > 5 else ''}) "
-                f"has no ATTRIBUTION.md entry — untracked origin (AI-generated?). "
+            msg=f"'{fname}' ({len(ids)} scene(s): {where}) "
+                f"has no provenance entry — untracked origin (AI-generated?). "
                 f"If it depicts a real event, it must be real archival."))
 
     # ---- variety: per-file use count + adjacent repeats ----
@@ -291,17 +306,9 @@ def main() -> int:
                     f"cap is ~3 per video; fetch more variety."))
 
     # ---- cross-video reuse (new video = new footage; hook must be FRESH) ----
+    # hook_ids (above): screen time = narration (or the doctiming words/2.3
+    # estimate when no manifest yet) + LEAD/HOLD padding (~34 frames @30fps)
     ledger = cross_slug_ledger(slug)
-    hook_ids: set[str] = set()
-    t = 0.0
-    for s in doc["scenes"]:
-        hook_ids.add(s["id"])
-        # screen time = narration (or the doctiming words/2.3 estimate when no
-        # manifest yet) + LEAD/HOLD padding (~34 frames @30fps)
-        est = len(s.get("text", "").split()) / 2.3
-        t += durations.get(s["id"], est) + 34 / 30
-        if t >= args.hook_seconds:
-            break
     seen_x: set[str] = set()
     hook_block = False
     for s, fname, kind in visuals:
@@ -342,7 +349,7 @@ def main() -> int:
               f"{sum(1 for f in findings if f['level']=='warn')} warnings, "
               f"{sum(1 for f in findings if f['level']=='info')} info "
               f"({n_scenes} visual scenes audited)")
-    return 2 if hook_block else 0
+    return 2 if (hook_block or hard_block) else 0
 
 
 if __name__ == "__main__":

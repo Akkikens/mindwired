@@ -79,6 +79,23 @@ scripts/claims_lint.py so the CLI and the gate can't drift):
     an unattributed "<living party> lied|knew|caused|is guilty…" sentence;
     malformed sensitivity block. WARN: blackbox doc with no sensitivity
     block (docs/guides/SENSITIVITY-GATE.md, publish-video §6 codified)
+PROVENANCE GATES (2026-10-24, revamp §3.2 / Phase 2 #1, logic in
+scripts/lib/provenance.py). Provenance is read from manifest.assets /
+manifest.videos FIRST (build_doc_vo.py snapshots PROVENANCE.jsonl +
+ATTRIBUTION.md there), live from those files for anything the manifest lacks:
+  - UNSOURCED (no provenance at all) shown in the first ~30s hook or on an
+    exhibit BLOCKS; elsewhere warns (emitted by audit_scene_relevance.py, so
+    the audit CLI and this gate print the same line)
+  - exhibit file whose provenance is generic stock (Pexels/Pixabay) while the
+    scene cites a `source` (carlawalker false-provenance bug)
+  - verify.status: a shown file that never passed the vision check
+    (legacy-unverified = known only from ATTRIBUTION.md / provenance_backfill;
+    skipped/error = fetched with --no-verify or a failed check) BLOCKS inside
+    the first ~30s hook and WARNS elsewhere, one line listing each file + its
+    source title. columbia's era-wrong pool (Kraft 2019 obituary, Apollo
+    Digest, Orion MER, Starlink, Roman) is exactly this class — memory
+    footage-era-identity-niche. Clear it by eyeballing frames 0/8/15s, then
+    `provenance_backfill.py <slug> --verify video/<f> --note "..."`.
 WARNS (hook checklist — see docs/guides/HOOK-CHECKLIST.md):
   - first scene over 30 words / greeting-style opener
   - no stat/chapter in the first 4 scenes
@@ -92,6 +109,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent / "lib"))
 import doctiming  # noqa: E402
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import claims_lint  # noqa: E402
+import audit_scene_relevance as relevance  # noqa: E402
+import provenance  # noqa: E402
 
 REPO = doctiming.REPO
 BLOCK, WARN = [], []
@@ -179,6 +198,29 @@ def diagram_names() -> set[str]:
     src = (REPO / "src/mindwired-doc/Diagrams.tsx").read_text()
     m = re.search(r"export const DIAGRAMS[^=]*=\s*\{(.*?)\};", src, re.S)
     return set(re.findall(r"(\w+)\s*:", m.group(1))) if m else set()
+
+
+# ── LICENSE GATE (2026-10-24, revamp §3.2 / Phase 2 #3) ───────────────────
+# Self-contained: scripts/lib/licenses.py parses every on-screen file's
+# license (PROVENANCE.jsonl, then ATTRIBUTION.md) into one class and applies
+# the rules — news-broadcast / non-commercial BLOCK anywhere; Crown Copyright
+# BLOCKs as an exhibit/dossier page (WARN as b-roll); unknown WARNs, BLOCKs in
+# the first-25s hook; CC-BY/BY-SA/OGL lines without an author WARN.
+# Calibrated over the catalog before enabling: docs/guides/LICENSES-GATE.md.
+def license_gate(slug: str, doc: dict, man: dict) -> None:
+    import licenses  # noqa: E402 — scripts/lib is already on sys.path
+    try:
+        b, w, _ = licenses.license_findings(slug, doc, man)
+    except Exception as e:  # noqa: BLE001 — a parser crash must not hide other gates
+        warn(f"license gate crashed ({type(e).__name__}: {e}) — licenses NOT checked")
+        return
+    for m in b:
+        block(m)
+    for m in w[:12]:
+        warn(m)
+    if len(w) > 12:
+        warn(f"license: +{len(w) - 12} more — python3 scripts/lib/licenses.py {slug} -v")
+# ── END LICENSE GATE ──────────────────────────────────────────────────────
 
 
 def main() -> int:
@@ -407,11 +449,10 @@ def main() -> int:
     # exhibit pinning + provenance (TWA800 ntsbcause fix, now enforced; the
     # carlawalker false-provenance lesson): an exhibit is a RECEIPT on screen —
     # its prefix must resolve deterministically, and its file must trace to a
-    # real, non-stock ATTRIBUTION entry
-    attr_text = ""
-    attr_path = REPO / "public" / "shorts" / slug / "images" / "ATTRIBUTION.md"
-    if attr_path.exists():
-        attr_text = attr_path.read_text()
+    # real, non-stock provenance record. A file with NO record at all BLOCKS
+    # via the relevance audit's UNSOURCED (exhibit rule, Phase 2 #1) — not
+    # repeated here, so one defect prints one line.
+    prov = provenance.Provenance(slug, man)
     for s in scenes:
         if not s.get("exhibit"):
             continue
@@ -428,14 +469,66 @@ def main() -> int:
                    "rotation; " if s.get("highlight") else "rotation risk; ")
                 + "give the exhibit its own single-file prefix")
         for f in files:
-            if attr_text and f not in attr_text:
-                block(f"{sid}: exhibit file {f} has NO ATTRIBUTION.md entry — "
-                      f"an exhibit without provenance is a fabricated receipt")
-            elif attr_text and s.get("source"):
-                line = next((l for l in attr_text.splitlines() if f in l), "")
-                if re.search(r"pexels|pixabay", line, re.I):
-                    block(f"{sid}: exhibit cites source {s['source']!r} but the file "
-                          f"is generic stock ({f}) — the carlawalker false-provenance bug")
+            if not s.get("source"):
+                continue
+            rec = prov.get("images", f)
+            if rec:
+                hay = " ".join(str(rec.get(k, "")) for k in
+                               ("lic_key", "source", "license", "page", "url"))
+            else:   # named in ATTRIBUTION.md in a shape the parser can't read
+                hay = next((l for l in provenance.attribution_mentions(
+                    REPO / "public" / "shorts" / slug / "images").splitlines()
+                    if f in l), "")
+            if re.search(r"pexels|pixabay", hay, re.I):
+                block(f"{sid}: exhibit cites source {s['source']!r} but the file "
+                      f"is generic stock ({f}) — the carlawalker false-provenance bug")
+
+    # verify.status (revamp Phase 2 #1): every file actually SHOWN (DocWide's
+    # rotation, via the relevance audit's resolver) that never passed the
+    # vision check. Hook window = the audit's 30s walk, so UNSOURCED and this
+    # gate agree on what "the hook" is.
+    hook_ids = set(provenance.hook_scene_ids(doc, durations, 30.0))
+    unverified: dict[tuple[str, str], list[str]] = {}
+    for s_, fname, kind in relevance.resolve_visuals(doc, man.get("images", {})):
+        if kind not in ("img", "video") or not fname or relevance.is_hf(fname):
+            continue
+        sub = "video" if kind == "video" else "images"
+        st = prov.status(sub, fname)
+        if st is None or st in (provenance.VERIFIED, provenance.GENERATED):
+            continue   # None = UNSOURCED, reported by the relevance audit
+        unverified.setdefault((sub, fname), []).append(s_["id"])
+    exhibit_ids = {s_["id"] for s_ in scenes if s_.get("exhibit")}
+    soft, soft_ex = [], 0
+    for (sub, fname), ids in sorted(unverified.items()):
+        st = prov.status(sub, fname)
+        title = (prov.get(sub, fname) or {}).get("title", "")[:60]
+        in_hook = [i for i in ids if i in hook_ids]
+        if in_hook:
+            what = "image" if sub == "images" else "video"
+            block(f"{in_hook[0]}: hook {what} "
+                  f"'{fname}' is {st} (“{title}”) inside the first ~30s — never "
+                  f"vision-checked for subject/ERA. Eyeball frames 0/8/15s, then "
+                  f"`provenance_backfill.py {slug} --verify {sub}/{fname} --note '...'`, "
+                  f"or refetch it through fetch_doc_footage.py")
+        if all(i in exhibit_ids for i in ids):
+            soft_ex += 1
+            continue
+        soft.append(f"{fname}{' [hook: BLOCK]' if in_hook else ''} ({st}, "
+                    f"{len(ids)} scene(s), “{title}”)")
+    if soft:
+        warn(f"provenance: {len(soft)} shown file(s) never vision-verified — check "
+             f"subject AND era by eye (memory footage-era-identity-niche):")
+        for line in soft:
+            warn("  " + line)
+    if prov.stale:
+        warn(f"provenance: manifest.assets/videos predate PROVENANCE.jsonl for "
+             f"{len(prov.stale)} file(s) ({', '.join(sorted(prov.stale)[:4])}"
+             f"{'…' if len(prov.stale) > 4 else ''}) — gates used the newer rows; "
+             f"rerun build_doc_vo.py {slug} --manifest-only to snapshot them")
+    if soft_ex:
+        warn(f"provenance: {soft_ex} exhibit page(s) carry no persisted verify verdict "
+             f"(hand-cut report crops; the citation is the provenance) — "
+             f"`provenance_backfill.py {slug} --verify images/<f>` once checked")
 
     # radio caps with hand-typed quote marks render visibly doubled (RadioScene
     # adds its own curly quotes)
@@ -781,7 +874,8 @@ def main() -> int:
                        capture_output=True, text=True)
     rel_lines = [l for l in (r.stdout or "").splitlines() if l.strip()]
     if r.returncode == 2:
-        block("relevance audit — hook reuses another video's footage:\n" +
+        block("relevance audit — hook footage reused from another video, or an "
+              "UNSOURCED file in the hook / on an exhibit:\n" +
               "\n".join(l for l in rel_lines if l.startswith("BLOCK")))
     elif r.returncode != 0:
         # the audit CRASHED — never let the anti-slop gate vanish silently
@@ -809,6 +903,8 @@ def main() -> int:
         warn("outro: no subscribe CTA line in the last 3 scenes")
     if not re.search(r"(next|wait until|if .* shocked)", tail_text):
         warn("outro: no verbal next-video bridge in the last 3 scenes (CLAUDE.md 2026-07-14 rule)")
+
+    license_gate(slug, doc, man)  # LICENSE GATE (see block above main)
 
     for m in BLOCK:
         print(f"BLOCK  {m}")

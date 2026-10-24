@@ -8,6 +8,12 @@ src/mindwired-doc/docs/<slug>.manifest.json with:
 
   durations: {id: seconds}            (ffprobe of the real clips)
   images:    {prefix: [filenames...]} (scan of public/shorts/<slug>/images)
+  assets:    {image filename: provenance record}  (images/)
+  videos:    {video filename: provenance record}  (video/)
+             — from public/shorts/<slug>/PROVENANCE.jsonl, falling back to the
+             images|video/ATTRIBUTION.md line (verify.status
+             "legacy-unverified"); scripts/lib/provenance.py. The gates read
+             these FIRST (revamp Phase 2 #1).
 
 The Remotion comp (src/mindwired-doc/DocWide.tsx) imports doc + manifest
 statically, so ALWAYS run this before typecheck/render. Idempotent per clip —
@@ -23,6 +29,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent / "lib"))
 import cartesia  # noqa: E402
 import mouthtrack  # noqa: E402
 import pronounce  # noqa: E402
+import provenance  # noqa: E402
 import vopolish  # noqa: E402
 
 REPO = Path(__file__).resolve().parent.parent
@@ -169,10 +176,19 @@ def main() -> None:
                 "mouth": mouths, "texthash": texthash}
     if prev_hf:
         manifest["hf"] = prev_hf
+    # structured provenance (revamp §3.2): one record per file, jsonl row
+    # first, ATTRIBUTION.md fallback — so gates stop regex-parsing markdown
+    assets, videos = provenance.live_maps(args.slug)
+    manifest["assets"] = assets
+    manifest["videos"] = videos
     mpath = DOCS / f"{args.slug}.manifest.json"
     mpath.write_text(json.dumps(manifest, indent=1))
     total = sum(durs.values())
     print(f"\n{len(durs)} clips · narration {total/60:.1f} min · manifest -> {mpath.name}")
+    n_leg = sum(1 for r in (*assets.values(), *videos.values())
+                if (r.get("verify") or {}).get("status") in provenance.UNVERIFIED_STATUSES)
+    print(f"provenance: {len(assets)} image + {len(videos)} video records "
+          f"({n_leg} not vision-verified)")
     if missing:
         print(f"MISSING AUDIO ({len(missing)}): {','.join(missing[:20])}{'...' if len(missing) > 20 else ''}")
 
