@@ -15,9 +15,12 @@ Per clip (public/shorts/<slug>/audio/<id>.mp3):
   - reference = scene text after lib/pronounce.respell() (what was SENT to
     TTS) — so "Haise" is expected as "Hayes"; [pause]/<tags> dropped
   - both sides normalized: lowercase, punctuation stripped, hyphens split,
-    apostrophes removed, and every run of number words / digits ("ninety
-    three", "93", "19th", "twenty fourteen", "2014") collapsed to ONE <n>
-    token — whisper writes digits, our scripts spell them, both are right
+    apostrophes removed, and spoken numbers converted to digits ("thirty
+    seven and a half thousand" -> 37500, "nine fifteen" -> 915, "fifty eight
+    point four" -> 58.4, "nineteen eighty eight" -> 1988, "nineteenth" -> 19)
+    while written ones lose commas/colons/suffixes ("37,500", "9:15", "19th")
+    — whisper writes digits, our scripts spell them, both are right. Clause
+    punctuation bounds a number, so "nine fifteen, fifty eight" stays two
   - difflib alignment of reference vs transcript tokens
 BLOCK  - any scene sentence with < --threshold (default 0.6) of its words
          matched in the transcript alignment (the TTS dropped/garbled it) —
@@ -31,7 +34,8 @@ WARN   - whole-clip difflib ratio < --warn-ratio (default 0.85)
          up in the whisper SRT / auto-captions; the WARN names the written
          form so the uploaded .srt can be corrected. Candidates come from the
          doc's on-screen fields (cap/stat/mainText/chapter) plus a generic
-         rule: 3+ consecutive single-digit words.
+         rule: 3+ consecutive single-digit words (not comma-separated, not
+         an ascending count — "one, two, three" is counting, not a code).
 SKIPPED - scenes labelled "ACTUAL ATC RECORDING" (real docket audio, not TTS).
 
 Idempotent: results cache in out/qa/<slug>_vo_check.json keyed by scene id
@@ -68,34 +72,147 @@ _ORD = {"first", "second", "third", "fourth", "fifth", "sixth", "seventh",
 NUM_WORDS = set(_UNITS) | set(_TENS[2:]) | _ORD | {
     "hundred", "thousand", "million", "billion", "trillion", "oh"}
 DIGIT_WORDS = {w: str(i) for i, w in enumerate(_UNITS[:10])} | {"oh": "0"}
-_DIGIT_TOK = re.compile(r"^\d[\d,.]*(st|nd|rd|th|s)?$")
-NUM = "<n>"
+_DIGIT_TOK = re.compile(r"^\d+(?:\.\d+)?(st|nd|rd|th|s)?$")
+
+# spoken number -> digits (applied to BOTH script and transcript, so
+# "thirty seven and a half thousand" == "37,500", "nine fifteen" == "9:15")
+_VAL = {w: i for i, w in enumerate(_UNITS)} | {w: 10 * i for i, w in enumerate(_TENS) if w}
+_SCALE = {"thousand": 1e3, "million": 1e6, "billion": 1e9, "trillion": 1e12}
+_SCALE_H = set(_SCALE) | {"hundred"}
+# ordinals -> cardinal word; they close the number. "second" is left out: it is
+# far more often the time unit ("one second") than the ordinal.
+_ORD2CARD = {"first": "one", "third": "three", "fifth": "five", "eighth": "eight",
+             "ninth": "nine", "twelfth": "twelve", "hundredth": "hundred",
+             "thousandth": "thousand", "millionth": "million", "billionth": "billion"}
+for _w in _UNITS[4:] + _TENS[2:]:
+    if _w and _w not in ("five", "eight", "nine", "twelve"):
+        _ORD2CARD.setdefault((_w[:-1] + "ieth") if _w.endswith("y") else _w + "th", _w)
+_DECADE = {w[:-1] + "ies": w for w in _TENS[2:]}           # "nineties" -> ninety
 
 
-def _is_num(tok: str) -> bool:
-    return tok in NUM_WORDS or bool(_DIGIT_TOK.match(tok))
+def _numeric(w: str) -> bool:
+    return w in _VAL or w in _ORD2CARD or w in _DECADE or bool(_DIGIT_TOK.match(w))
+
+
+def _fmt(v: float) -> str:
+    return str(int(v)) if v == int(v) else f"{v:.6f}".rstrip("0").rstrip(".")
+
+
+def _parse_number(ws: list[str], i: int) -> tuple[str, int]:
+    """Parse the number run starting at ws[i]; return (digits, next index).
+    A run is one or more cardinal segments; segments that can't combine
+    arithmetically are concatenated the way a narrator reads codes, years and
+    clock times: "nine fifteen" -> 915, "nineteen eighty eight" -> 1988,
+    "one four zero five three" -> 14053, "nine oh five" -> 905."""
+    segs: list[str] = []
+    total = cur = 0.0
+    small = 0            # sub-hundred part of cur (decides what may follow)
+    has = closed = False  # closed: only a scale / "point" may follow
+    dec = ""
+
+    def flush():
+        nonlocal total, cur, small, has, closed, dec
+        if has:
+            s = _fmt(total + cur)
+            segs.append(s + "." + dec if dec and "." not in s else s)
+        total = cur = 0.0
+        small, has, closed, dec = 0, False, False, ""
+
+    k = i
+    while k < len(ws):
+        w = ws[k]
+        nxt = ws[k + 1] if k + 1 < len(ws) else ""
+        if w in _ORD2CARD or w in _DECADE:
+            w, close_after = _ORD2CARD.get(w) or _DECADE[w], True
+        else:
+            close_after = False
+        if _DIGIT_TOK.match(w):
+            flush()
+            bare = re.sub(r"[a-z]+$", "", w)
+            if nxt not in _SCALE and nxt != "hundred":
+                segs.append(bare)                       # keep "05" / "0600" as written
+                k += 1
+                continue
+            cur, small, has, closed = float(bare), 99, True, True
+        elif w in ("oh", "zero"):
+            if w == "oh" and not has and not _numeric(nxt):
+                break
+            flush()
+            cur, has, closed = 0.0, True, True
+        elif w in _VAL:
+            v = _VAL[w]
+            fits = not closed and (small == 0 or (v < 10 and small >= 20 and small % 10 == 0))
+            if has and not fits:
+                flush()
+            cur += v
+            small += v
+            has = True
+        elif w == "hundred":
+            cur = (cur or 1) * 100                      # "nine hundred", "fifteen hundred"
+            small, has, closed = 0, True, False
+        elif w in _SCALE:
+            total += (cur if has else 1) * _SCALE[w]
+            cur, small, has, closed = 0.0, 0, True, False
+        elif w == "a" and not has and nxt in _SCALE_H:
+            cur, small, has, closed = 1.0, 99, True, False
+        elif w == "and" and has and nxt == "a" and k + 2 < len(ws) and ws[k + 2] == "half":
+            cur += 0.5                                  # "thirty seven and a half"
+            small, closed = 99, True
+            k += 3
+            continue
+        elif w == "and" and has and small == 0 and nxt in _VAL:
+            pass                                        # "a hundred and forty"
+        elif w == "point" and has and (nxt in DIGIT_WORDS or nxt == "zero"):
+            k += 1
+            while k < len(ws) and (ws[k] in DIGIT_WORDS or ws[k] == "zero"):
+                dec += DIGIT_WORDS.get(ws[k], "0")
+                k += 1
+            closed, small = True, 99
+            continue
+        else:
+            break
+        if close_after:
+            closed, small = True, 99
+        k += 1
+    flush()
+    return "".join(segs), k
+
+
+_BOUNDARY = ","
 
 
 def tokens(text: str) -> list[str]:
-    """Normalized word tokens; number runs collapse to a single <n>."""
+    """Normalized word tokens; spoken numbers become digits ("37500", "915",
+    "58.4") and written numbers lose their commas/colons/ordinal suffixes, so
+    the script's phonetic spelling and whisper's digits compare equal."""
     t = text.lower()
     t = re.sub(r"\[pause\]|<[^>]+>", " ", t)
     t = t.replace("%", " percent ").replace("&", " and ")
     t = re.sub(r"[’'`]", "", t)                       # don't -> dont
-    t = re.sub(r"(?<=\d),(?=\d)", "", t)              # 35,000 -> 35000
-    t = re.sub(r"[^a-z0-9.\s]|(?<!\d)\.|\.(?!\d)", " ", t)  # keep 121.5
+    t = re.sub(r"(?<=\d)[,:/](?=\d)", "", t)          # 37,500 / 9:15 / 9/11
+    t = re.sub(r"(?<=[a-z])(?=\d)", " ", t)           # a300 -> a 300
+    t = re.sub(r"(?<=\d)(?=[a-z])(?!(?:st|nd|rd|th|s)\b)", " ", t)
+    # clause punctuation is a number boundary ("nine fifteen, fifty eight")
+    t = re.sub(r"[,;:?!()—–]|(?<!\d)\.|\.(?!\d)", f" {_BOUNDARY} ", t)
+    t = re.sub(r"[^a-z0-9.,\s]", " ", t)              # hyphens etc; keep 121.5
     raw = t.split()
     out: list[str] = []
-    for i, w in enumerate(raw):
-        if _is_num(w) and not (w == "oh" and not (
-                (i and _is_num(raw[i - 1])) or (i + 1 < len(raw) and _is_num(raw[i + 1])))):
-            if out and out[-1] == NUM:
+    i = 0
+    while i < len(raw):
+        w = raw[i]
+        if w == _BOUNDARY:
+            i += 1
+            continue
+        if _numeric(w) or w == "zero" or (w == "oh" and i + 1 < len(raw) and _numeric(raw[i + 1])) \
+                or (w == "a" and i + 1 < len(raw) and raw[i + 1] in _SCALE_H):
+            num, j = _parse_number(raw, i)
+            if num and j > i:
+                # whisper writes clock times as "9.13"; "nine thirteen" is 913
+                out.append(re.sub(r"^(\d{1,2})\.(\d{2})$", r"\1\2", num))
+                i = j
                 continue
-            out.append(NUM)
-        elif w == "and" and out and out[-1] == NUM and i + 1 < len(raw) and _is_num(raw[i + 1]):
-            continue                                   # "a hundred and forty"
-        else:
-            out.append(w)
+        out.append(w)
+        i += 1
     return out
 
 
@@ -185,11 +302,18 @@ def phonetic_leaks(transcript: str, cands: dict[str, str]) -> list[tuple[str, st
     for sp, written in sorted(cands.items(), key=lambda kv: -len(kv[0])):
         if f" {sp} " in t and not any(sp in h for h, _ in hits):
             hits.append((sp, written))
-    # generic: 3+ single-digit words in a row is a code read digit by digit
-    for m in re.finditer(r"(?:\b(?:zero|one|two|three|four|five|six|seven|eight|nine|oh)\b\s*){3,}", t):
-        seq = m.group(0).strip()
+    # generic: 3+ single-digit words in a row is a code read digit by digit —
+    # matched on the punctuated transcript, because whisper writes a spoken
+    # count "one, two, three" with commas and a code "seven three seven"
+    # without; an ascending count from one/zero is never a code either
+    tp = transcript.lower().replace("-", " ")
+    d = r"\b(?:zero|one|two|three|four|five|six|seven|eight|nine|oh)\b"
+    for m in re.finditer(rf"{d}(?:[ \t]+{d}){{2,}}", tp):
+        seq = " ".join(m.group(0).split())
         words = seq.split()
-        if not any(w != "oh" for w in words) or any(seq in h or h in seq for h, _ in hits):
+        vals = [int(DIGIT_WORDS[w]) for w in words]
+        if (not any(w != "oh" for w in words) or any(seq in h or h in seq for h, _ in hits)
+                or (vals[0] <= 1 and vals == list(range(vals[0], vals[0] + len(vals))))):
             continue
         hits.append((seq, "".join(DIGIT_WORDS[w] for w in words)))
     return hits
@@ -277,7 +401,9 @@ def main() -> None:
     only = {s.strip() for s in args.only.split(",") if s.strip()}
     cache_p = REPO / "out" / "qa" / f"{args.slug}_vo_check.json"
     cache = {}
-    if cache_p.exists() and not args.no_cache and not args.audio_dir:
+    # --no-cache skips cache READS only; the file is still merged on write so
+    # `--only x --no-cache` doesn't wipe every other scene's transcript
+    if cache_p.exists() and not args.audio_dir:
         try:
             cache = json.loads(cache_p.read_text())
             if cache.get("_v") != CACHE_VERSION:
@@ -301,7 +427,7 @@ def main() -> None:
             continue
         key = {"text": _sha(text.encode()), "clip": _sha(clip.read_bytes())}
         hit = cache.get(sid)
-        if hit and hit.get("key") == key and hit.get("model") == args.model:
+        if hit and not args.no_cache and hit.get("key") == key and hit.get("model") == args.model:
             transcript = hit["transcript"]
         else:
             if model is None:
