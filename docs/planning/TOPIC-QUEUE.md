@@ -1,5 +1,18 @@
 # Topic queue (Akshay, 2026-07-12 — from YT Studio "Inspiration")
 
+## ⭐ NEXT (Black Box) — American Airlines 587 — validated 2026-10-23, proof episode for the 2027 pipeline
+
+PASS-WITH-CONDITIONS (memory `icahn-american587`). Live 5-candidate sweep:
+headline 425,791v/1,540subs = 276.5:1; fresh Jan-2026 outlier Engineering
+Feats & Failures 1,296,199v/92,900subs = 14:1; ceiling 3.5M/2.6M. Recognition
+2/3 — package leads with "two months after 9/11 / New York / Queens", never
+"Flight 587" first. Wave: 25th anniversary **Nov 12, 2026**. Real PD NTSB
+motion clips on Commons (tollbooth cam, takeoff-roll tape, board animation);
+docket DCA02MA001 public (275 items, transcripts only, no audio). Ratios are
+point-in-time — recheck at production start. Losers: Air Florida 90 (no PD
+motion video, 30s flight), ValuJet 592 (95K headline), Eastern 401 (ghost-
+legend demand), Comair 5191 (raw FAIL, HIGH sensitivity).
+
 ## Standing sensing source — YouTube Charts (charts.youtube.com/US), added 2026-09-16
 Charts is BANNED as an audio source (every music chart is commercial, Content-ID
 fingerprinted — same rule as broadcast footage). It is useful only as a DEMAND

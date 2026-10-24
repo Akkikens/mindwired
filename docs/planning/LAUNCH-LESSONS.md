@@ -8,6 +8,15 @@ Escape hatches (no deadlocks): the pre-seeded 2026-08-03 audit lessons satisfy t
 gate for the first post-overhaul run; an under-48h upload notes DIAGNOSIS DUE and
 proceeds; no-human-available records BLOCKED-ON-DATA and proceeds.
 
+## BLOCKED-ON-DATA — 2026-10-23 (Black Box, pre-validation of american587)
+
+Most recent Black Box uploads (noradtapes Sep 13, sept11timeline Sep 10) have no
+banked 48h Studio diagnosis beyond the Sep 15 United 93 numbers; no human Studio
+pull available this session. Recorded per icahn-validate Step 0 escape hatch (c)
+and proceeded — the third consecutive use of a hatch. Phase 3.5 of the 2027
+revamp (YouTube OAuth, Akshay approved 2026-10-23) exists to end this pattern:
+the next diagnosis must come from `yt_studio_pull.py`, not a hatch.
+
 ## Publish slots (one-time call per channel — publish-video reads this; TBD rows: ask Akshay once)
 
 | Channel | Slot (day + time, local) |
