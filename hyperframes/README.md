@@ -31,13 +31,25 @@ wide Archivo cuts and Plex Mono are unmistakable; nothing falls back to Helvetic
 
 ```bash
 cd hyperframes
-node scripts/build.mjs --episode helios522 --channel mindwired   # data + templates → compositions/, scenes/, index.html
-./scripts/hf check --snapshots                                   # lint + runtime + layout + motion + contrast
-./scripts/render-all.sh helios522                                # → ../out/scene-kit/helios522-<name>.mp4 (3840×2160, 30 fps)
+node scripts/build.mjs --episode helios522      # data + templates → compositions/, scenes/, index.html
+./scripts/hf check --snapshots                  # lint + runtime + layout + motion + contrast
+./scripts/render-all.sh helios522               # → ../out/scene-kit/helios522-<name>.mp4 (3840×2160, 30 fps)
 ```
 
-`scripts/hf` is a thin wrapper for the pinned CLI (`npx --yes hyperframes@0.8.173`). `--channel` swaps the
-accent (`mindwired` #4DD8FF, `blackbox` #FF9500, `criminalrecord` #7FB4FF, `dimaagbatti` #FFC53D).
+`scripts/hf` is a thin wrapper for the pinned CLI (`npx --yes hyperframes@0.8.173`).
+
+- **Channel / accent.** The build reads `channel` from `src/mindwired-doc/docs/<episode>.json` (helios522
+  is `blackbox`) and falls back to `mindwired`; `--channel <name>` overrides (render-all.sh takes it as
+  its 4th argument). The accent hex is parsed from DocWide's `THEMES` table at build time, so the clips
+  always match the comp (`mindwired` #4DD8FF, `blackbox` #FF9500, `criminalrecord` #7FB4FF,
+  `dimaagbatti` #FFC53D).
+- **Clean output.** Every build empties `scenes/` and `compositions/` (keeping `compositions/components/`
+  if it exists) before writing, so a removed data file or another episode's scenes never linger.
+- **Built list.** The build writes `.hyperframes/built-<episode>.json` (episode, channel, accent, scene
+  names, durations); `render-all.sh` renders exactly that list instead of globbing `scenes/*.html`.
+- **Offline.** gsap 3.14.2 is vendored in `assets/vendor/` (see its README for provenance + sha256), and
+  the build fails if any emitted HTML still has a remote `<script src>`, `<link href>`, `@import` or
+  `url()` — renders need no network.
 
 The build writes two renderable forms of every scene from one template:
 
@@ -65,8 +77,8 @@ gitignored `out/` (`out/scene-kit/`); `hyperframes/renders/` is covered by the `
    `public/shorts/twa800/images/ntsbreport_*.jpg` pages). Non-US government reports (AAIASB, BEA…) are
    not automatically public domain — use `mode:"page"` and quote, don't fabricate: the `gap` block
    exists so a page can say "not reproduced" instead of filling space with invented prose.
-5. `node scripts/build.mjs --episode <slug>`, `./scripts/hf check --snapshots`, look at the frames,
-   `./scripts/render-all.sh <slug>`.
+5. Set `channel` in the doc spec, then `node scripts/build.mjs --episode <slug>`, `./scripts/hf check
+   --snapshots`, look at the frames, `./scripts/render-all.sh <slug>`.
 
 ### Design rules baked into the templates
 
@@ -74,7 +86,7 @@ gitignored `out/` (`out/scene-kit/`); `hyperframes/renders/` is covered by the `
   the top-right corner free (brand lockup). Scene chrome (eyebrow + title) lives top-left, so **do not
   also pass `stat` on the DocWide scene** — it would land on the same corner.
 - Everything is seek-safe and deterministic: one paused GSAP timeline per scene, geometry baked at build
-  time, no DOM measurement in callbacks, no randomness, no network.
+  time, no DOM measurement in callbacks, no randomness, no network (gsap is vendored; the build rejects remote URLs).
 - Text is sized for phones: nothing informational below 16 px mono / 19 px labels at 1080p, titles 44 px,
   stat numerals 76 px.
 

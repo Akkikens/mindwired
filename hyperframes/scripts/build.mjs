@@ -22,9 +22,19 @@ const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..")
 const argv = process.argv.slice(2);
 const opt = (k, d) => { const i = argv.indexOf(`--${k}`); return i >= 0 ? argv[i + 1] : d; };
 const episode = opt("episode", "helios522");
-const channel = opt("channel", "mindwired");
+const repo = path.resolve(root, "..");
 
-const ACCENTS = { mindwired: "#4DD8FF", blackbox: "#FF9500", criminalrecord: "#7FB4FF", dimaagbatti: "#FFC53D" };
+// Channel: --channel wins, else the doc spec's "channel" (src/mindwired-doc/docs/<episode>.json),
+// else mindwired — the same default DocWide applies.
+const docPath = path.join(repo, "src/mindwired-doc/docs", `${episode}.json`);
+const docChannel = fs.existsSync(docPath) ? JSON.parse(fs.readFileSync(docPath, "utf8")).channel : undefined;
+const channel = opt("channel", docChannel ?? "mindwired");
+
+// Accents come straight from DocWide's THEMES table so the clips can never drift from the comp.
+const docWide = fs.readFileSync(path.join(repo, "src/mindwired-doc/DocWide.tsx"), "utf8");
+const themesSrc = docWide.slice(docWide.indexOf("const THEMES"), docWide.indexOf("\n};", docWide.indexOf("const THEMES")));
+const ACCENTS = Object.fromEntries([...themesSrc.matchAll(/^  (\w+): \{[\s\S]*?accent: "(#[0-9A-Fa-f]{6})"/gm)].map((m) => [m[1], m[2]]));
+if (!ACCENTS.mindwired) { console.error("could not parse THEMES accents from src/mindwired-doc/DocWide.tsx"); process.exit(2); }
 const accent = ACCENTS[channel];
 if (!accent) { console.error(`unknown channel ${channel}; one of ${Object.keys(ACCENTS).join(", ")}`); process.exit(2); }
 const hexToRgb = (h) => [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16)).join(", ");
@@ -36,8 +46,21 @@ let theme = fs.readFileSync(path.join(root, "theme/mindwired.css"), "utf8")
 
 const dataDir = path.join(root, "data", episode);
 const files = fs.readdirSync(dataDir).filter((f) => f.endsWith(".json")).sort();
-const GSAP = '<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>';
+// Vendored (assets/vendor/README.md) — renders must work offline.
+const GSAP_FILE = "assets/vendor/gsap-3.14.2.min.js";
+if (!fs.existsSync(path.join(root, GSAP_FILE))) { console.error(`missing ${GSAP_FILE}`); process.exit(1); }
+const GSAP = `<script src="${GSAP_FILE}"></script>`;
 const built = [];
+
+// Start from empty output dirs so a scene deleted from data/ (or another episode's scenes) can't
+// linger and get rendered. compositions/components/ is hand-authored and kept.
+for (const dir of ["scenes", "compositions"]) {
+  const abs = path.join(root, dir);
+  fs.mkdirSync(abs, { recursive: true });
+  for (const e of fs.readdirSync(abs)) if (!(dir === "compositions" && e === "components")) fs.rmSync(path.join(abs, e), { recursive: true, force: true });
+}
+const written = [];
+const emit = (rel, html) => { fs.writeFileSync(path.join(root, rel), html); written.push(rel); };
 
 for (const file of files) {
   const name = path.basename(file, ".json");
@@ -56,12 +79,11 @@ for (const file of files) {
     .replaceAll("{{GEO}}", JSON.stringify(geo));
 
   const sub = `<!doctype html>\n<html lang="en">\n<head><meta charset="UTF-8" /><title>${name}</title></head>\n<body>\n<template>\n<style>\n${theme}\n</style>\n${fragment}\n</template>\n</body>\n</html>\n`;
-  fs.writeFileSync(path.join(root, "compositions", `${name}.html`), sub);
+  emit(`compositions/${name}.html`, sub);
 
   const standalone = `<!doctype html>\n<html lang="en">\n<head>\n<meta charset="UTF-8" />\n<meta name="viewport" content="width=1920, height=1080" />\n<title>${episode} · ${name}</title>\n${GSAP}\n<style>\n* { margin: 0; padding: 0; box-sizing: border-box; }\nhtml, body { width: 1920px; height: 1080px; overflow: hidden; background: #05070C; }\n${theme}\n</style>\n</head>\n<body>\n${fragment}\n</body>\n</html>\n`;
-  fs.mkdirSync(path.join(root, "scenes"), { recursive: true });
   // scenes/ is one level down, so asset references step up one directory
-  fs.writeFileSync(path.join(root, "scenes", `${name}.html`), standalone.replaceAll("assets/", "../assets/"));
+  emit(`scenes/${name}.html`, standalone.replaceAll("assets/", "../assets/"));
   built.push({ name, duration, scene: data.scene });
   console.log(`built ${name} (${data.scene}, ${duration}s)`);
 }
@@ -99,5 +121,16 @@ ${mounts}
 </body>
 </html>
 `;
-fs.writeFileSync(path.join(root, "index.html"), index);
+emit("index.html", index);
+
+// Offline gate: no remote script/stylesheet/import may survive into anything we emitted.
+// (SVG xmlns="http://www.w3.org/2000/svg" is a namespace string, not a fetch, and is allowed.)
+const REMOTE = /<script\b[^>]*\bsrc\s*=\s*["']?(?:https?:)?\/\/|<link\b[^>]*\bhref\s*=\s*["']?(?:https?:)?\/\/|@import\s+(?:url\()?\s*["']?(?:https?:)?\/\/|url\(\s*["']?(?:https?:)?\/\//i;
+const remote = written.filter((rel) => REMOTE.test(fs.readFileSync(path.join(root, rel), "utf8")));
+if (remote.length) { console.error(`REMOTE URL in emitted HTML (vendor it under assets/vendor/): ${remote.join(", ")}`); process.exit(1); }
+
+// The exact scene list render-all.sh renders (never a glob over scenes/).
+fs.mkdirSync(path.join(root, ".hyperframes"), { recursive: true });
+fs.writeFileSync(path.join(root, ".hyperframes", `built-${episode}.json`),
+  JSON.stringify({ episode, channel, accent, scenes: built.map((b) => b.name), durations: Object.fromEntries(built.map((b) => [b.name, b.duration])) }, null, 2) + "\n");
 console.log(`index.html: ${built.length} scenes, ${t}s total (${episode}, ${channel} accent ${accent})`);
