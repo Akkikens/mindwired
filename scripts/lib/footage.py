@@ -5,7 +5,8 @@ Every module searches ONE free archive and returns normalized results;
 scripts/fetch_footage.py ranks + orchestrates them per niche. Rules baked in:
   - PD / CC0 / CC-BY / CC-BY-SA only. NC/ND always rejected (can't monetize).
   - Every download logged to <out>/ATTRIBUTION.md (same formats fetch_media.py /
-    fetch_video.py use, so audit_scene_relevance.py can parse source titles).
+    fetch_video.py use, so audit_scene_relevance.py can parse source titles),
+    plus one JSON row per file in the episode root's PROVENANCE.jsonl.
   - Video transcoded to 1080p H.264 mp4 (Remotion OffthreadVideo); long clips
     start ~10% in so archival slates/titles don't eat the b-roll window.
   - Idempotent: existing prefix_N files are never re-downloaded.
@@ -855,7 +856,37 @@ def transcode(src: Path, dst: Path, max_seconds: int, max_h: int = 1080) -> bool
             and dst.stat().st_size > 0 and ffprobe_duration(dst) > 0.5)
 
 
-def log_attribution(out_dir: Path, dst_name: str, a: Asset) -> None:
+def suggest_clip_start(path: Path, max_scan: float = 30.0) -> float | None:
+    """First second of a saved clip that is real footage, not a near-black
+    frame or a dark title slate — the suggested DocWide `videoFrom`. Reuses
+    scripts/find_clip_start.py's frame statistics (one source of truth for the
+    thresholds). None when the scan can't run (numpy/PIL missing). It misses
+    BRIGHT slates (columbia's green Moon graphic), so the contact sheet is
+    still the final word (memory footage-20s-slice-root-cause)."""
+    try:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location(
+            "find_clip_start", REPO / "scripts" / "find_clip_start.py")
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        return float(mod.find_start(path, max_scan))
+    except Exception:  # noqa: BLE001 — advisory only, never kill the fetch run
+        return None
+
+
+def verify_status(reason: str) -> str:
+    """verify_relevance()'s reason string -> verified|skipped|error, so a
+    fail-open check leaves a trace instead of looking like a pass."""
+    if reason.startswith("verify error"):
+        return "error"
+    if reason in ("verification skipped", "no frame extracted", "no query"):
+        return "skipped"
+    return "verified"
+
+
+def log_attribution(out_dir: Path, dst_name: str, a: Asset, query: str = "",
+                    verify: dict | None = None,
+                    suggested_from: float | None = None) -> None:
     att = out_dir / "ATTRIBUTION.md"
     with att.open("a", encoding="utf-8") as f:
         if a.media == "video":
@@ -867,6 +898,19 @@ def log_attribution(out_dir: Path, dst_name: str, a: Asset) -> None:
     # can contain — / "by" that break regex round-trips; dedup reads this instead
     with (out_dir / ".fetched_titles").open("a", encoding="utf-8") as f:
         f.write(norm_title(a.title) + "\n")
+    # machine-readable twin (revamp §3.2): one JSON row per saved file in the
+    # episode root (public/shorts/<slug>/PROVENANCE.jsonl) so gates stop
+    # regex-parsing the markdown above
+    root = out_dir.parent if out_dir.name in ("video", "images") else out_dir
+    row = {"file": str((out_dir / dst_name).relative_to(root)), "media": a.media,
+           "source": a.source, "title": a.title, "url": a.url, "page": a.page,
+           "author": a.author, "license": a.license, "lic_key": a.lic_key,
+           "query": query, "verify": verify or {"status": "skipped", "note": "no query"},
+           "fetched_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
+    if suggested_from is not None:
+        row["suggested_from"] = suggested_from
+    with (root / "PROVENANCE.jsonl").open("a", encoding="utf-8") as f:
+        f.write(json.dumps(row, ensure_ascii=False) + "\n")
 
 
 # --------------------------------------------------------- vision relevance check
@@ -1084,6 +1128,7 @@ def download_assets(assets: list[Asset], out_dir: Path, prefix: str, count: int,
             except Exception as e:  # noqa: BLE001 — skip broken items, keep going
                 print(f"  skip ({e.__class__.__name__}): {a.title[:50]}")
                 continue
+            reason = "no query"
             if query:
                 ok_rel, reason = verify_relevance(query, dst, a.title)
                 if not ok_rel:
@@ -1093,47 +1138,86 @@ def download_assets(assets: list[Asset], out_dir: Path, prefix: str, count: int,
             n += 1
             saved.append((dst, a))
             batch_titles.add(norm_title(a.title))
-            log_attribution(out_dir, dst.name, a)
+            # DocWide starts every clip at videoFrom ?? 0 — surface where the
+            # real footage starts so a slate never opens a scene
+            start = suggest_clip_start(dst) if a.media == "video" else None
+            log_attribution(out_dir, dst.name, a, query=query,
+                            verify={"status": verify_status(reason), "note": reason},
+                            suggested_from=start)
             extra = f" {ffprobe_duration(dst):.0f}s" if a.media == "video" else ""
             print(f"  -> {dst.name}  [{a.source}/{a.lic_key}]{extra}  {a.title[:56]}")
+            if start is not None:
+                print(f"     suggested videoFrom={start:g}  ({dst.name})")
     return saved
 
 
+def _strip_times(dur: float) -> list[float]:
+    """Contact-sheet sample points: 0/8/15s, or evenly spaced when shorter."""
+    if dur >= 16:
+        return [0.0, 8.0, 15.0]
+    end = max(0.0, dur - 0.5)
+    return [0.0, round(end / 2, 1), round(end, 1)]
+
+
 def contact_sheet(files: list[Path], out_png: Path, label: str = "") -> Path | None:
-    """One-glance QA sheet: first frame of each video / thumbnail of each image."""
+    """One-glance QA sheet: a 3-frame strip (0/8/15s) per video — one frame
+    hid that columbia's whole launch pool showed no launch (memory
+    footage-20s-slice-root-cause) — and a thumbnail per image. Video tiles
+    are two grid cells wide."""
     try:
         from PIL import Image, ImageDraw
     except ImportError:
         return None
+    TW, TH, CAP = 370, 210, 26
     tiles = []
     for f in files:
         try:
             if f.suffix.lower() == ".mp4":
-                with tempfile.NamedTemporaryFile(suffix=".jpg", delete=False) as tf:
-                    tmp = Path(tf.name)
-                subprocess.run(["ffmpeg", "-y", "-v", "error", "-ss", "1", "-i", str(f),
-                                "-frames:v", "1", str(tmp)], check=True)
-                im = Image.open(tmp).convert("RGB")
-                tmp.unlink(missing_ok=True)
+                times = _strip_times(ffprobe_duration(f))
+                frames = []
+                for t in times:
+                    with tempfile.NamedTemporaryFile(suffix=".jpg", delete=False) as tf:
+                        tmp = Path(tf.name)
+                    subprocess.run(["ffmpeg", "-y", "-v", "error", "-ss", f"{t:.1f}",
+                                    "-i", str(f), "-frames:v", "1", str(tmp)], check=True)
+                    fr = Image.open(tmp).convert("RGB")
+                    fr.load()
+                    tmp.unlink(missing_ok=True)
+                    fr.thumbnail(((2 * TW - 16) // 3, TH))
+                    frames.append(fr)
+                im = Image.new("RGB", (sum(fr.width for fr in frames) + 4 * (len(frames) - 1),
+                                       max(fr.height for fr in frames)), "black")
+                x = 0
+                for fr in frames:
+                    im.paste(fr, (x, (im.height - fr.height) // 2))
+                    x += fr.width + 4
+                name = f"{f.name}  @" + "/".join(f"{t:g}" for t in times) + "s"
+                tiles.append((name, im, 2))
             else:
                 im = Image.open(f).convert("RGB")
-            im.thumbnail((360, 200))
-            tiles.append((f.name, im))
+                im.thumbnail((360, 200))
+                tiles.append((f.name, im, 1))
         except Exception:
             continue
     if not tiles:
         return None
-    cols = min(4, len(tiles))
-    rows = (len(tiles) + cols - 1) // cols
-    TW, TH, CAP = 370, 210, 26
+    # flow layout on a 4-cell grid; a 2-cell video strip wraps to the next row
+    cols = min(4, sum(w for _, _, w in tiles))
+    places, c, r = [], 0, 0
+    for _, _, w in tiles:
+        if c + w > cols:
+            c, r = 0, r + 1
+        places.append((c, r))
+        c += w
+    rows = r + 1
     from PIL import Image as PImage, ImageDraw as PDraw
     sheet = PImage.new("RGB", (cols * TW, rows * (TH + CAP) + 30), "black")
     d = PDraw.Draw(sheet)
     d.text((8, 6), label or out_png.stem, fill="yellow")
-    for i, (name, im) in enumerate(tiles):
-        x, y = (i % cols) * TW, 30 + (i // cols) * (TH + CAP)
-        sheet.paste(im, (x + (TW - im.width) // 2, y + (TH - im.height) // 2))
-        d.text((x + 4, y + TH + 4), name[:52], fill="white")
+    for (name, im, w), (c, r) in zip(tiles, places):
+        x, y = c * TW, 30 + r * (TH + CAP)
+        sheet.paste(im, (x + (w * TW - im.width) // 2, y + (TH - im.height) // 2))
+        d.text((x + 4, y + TH + 4), name[:52 * w], fill="white")
     out_png.parent.mkdir(parents=True, exist_ok=True)
     sheet.save(out_png)
     return out_png

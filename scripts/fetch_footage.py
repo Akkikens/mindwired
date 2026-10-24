@@ -14,7 +14,11 @@ PD / CC0 / CC-BY / CC-BY-SA only — NC/ND never pass the filter.
   --niche aviation|space|ocean|history|football|tech|generic
                           picks the source ranking (see scripts/SOURCES-GUIDE.md)
   --sources a,b,c         override the ranking explicitly
-  --max-seconds N         video clip cap (default 20; long reels start ~10% in)
+  --max-seconds N         video clip cap (default 20; long reels start ~10% in).
+                          fetch_doc_footage.py sizes this per prefix from the
+                          scenes that use it — prefer it for episode fetches
+  Every saved clip prints a "suggested videoFrom=N" (first non-slate second)
+  and gets a PROVENANCE.jsonl row next to ATTRIBUTION.md.
   --no-sheet              skip the contact sheet
   --no-verify             skip the Gemini vision relevance check (on by default)
 
