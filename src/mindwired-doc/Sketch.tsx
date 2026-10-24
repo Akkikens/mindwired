@@ -14,6 +14,7 @@ import {
   AbsoluteFill, Img, interpolate, spring, staticFile, useCurrentFrame,
 } from "remotion";
 import { SKETCH_FONT_CSS } from "./sketchFonts";
+import { MONO } from "../lib/theme"; // evidence-chrome mono (IBM Plex Mono), same as DocWide th.mono
 
 const FPS = 30;
 const PAPER = "#F4F0E6";
@@ -594,7 +595,7 @@ export const DossierScene: React.FC<DossierProps> = ({
           opacity: stampIn, transform: `scale(${stampIn}) rotate(-5deg)`,
         }}>
           <div style={{
-            fontFamily: "'Courier New', monospace", fontWeight: 700, fontSize: 30,
+            fontFamily: MONO, fontWeight: 700, fontSize: 30,
             letterSpacing: 3, color: accent, border: `3px solid ${accent}`,
             padding: "8px 22px", borderRadius: 3,
             boxShadow: `0 0 ${16 + stampIn * 10}px ${accent}55`,
@@ -608,7 +609,7 @@ export const DossierScene: React.FC<DossierProps> = ({
           opacity: capIn, transform: `translateY(${interpolate(capIn, [0, 1], [22, 0])}px)`,
         }}>
           <div style={{
-            fontFamily: "'Courier New', monospace", fontWeight: 700, fontSize: 34,
+            fontFamily: MONO, fontWeight: 700, fontSize: 34,
             color: "rgba(244,240,230,0.92)", lineHeight: 1.34,
             textShadow: "0 3px 16px rgba(0,0,0,0.8)",
           }}>
@@ -624,7 +625,7 @@ export const DossierScene: React.FC<DossierProps> = ({
           reconstruction, never a real archival photo */}
       <div style={{
         position: "absolute", bottom: 30, right: 44, opacity: 0.6,
-        fontFamily: "'Courier New', monospace", fontWeight: 700, fontSize: 17,
+        fontFamily: MONO, fontWeight: 700, fontSize: 17,
         letterSpacing: 3, color: "rgba(244,240,230,0.85)",
       }}>RECONSTRUCTION</div>
     </AbsoluteFill>

@@ -316,6 +316,15 @@ const Brand: React.FC<{ th: Theme }> = ({ th }) => (
       for the stat chip and caption bar that used to be copy-pasted across
       Illus/Diagram/Video/Exhibit with template-grade styling. ── */
 
+/** Edge scrim for photo/diagram/video scenes. The top band always renders
+ *  (Brand + stat chip sit there); the bottom darkening renders only when a
+ *  caption sits on it — a cap-less scene keeps its lower frame clean
+ *  (BLACKBOX-2027-REVAMP §3.3, conditional chrome). */
+const scrim = (cap: boolean, topA: number, topStop: number, botStop: number, botA: number) =>
+  cap
+    ? `linear-gradient(180deg, rgba(5,7,12,${topA}) 0%, transparent ${topStop}%, transparent ${botStop}%, rgba(5,7,12,${botA}) 100%)`
+    : `linear-gradient(180deg, rgba(5,7,12,${topA}) 0%, transparent ${topStop}%)`;
+
 /** Stat chip: expanded-Archivo tabular figures on a sharp editorial plate.
  *  Mounted inside the caller's animated wrapper (entry transform stays there). */
 const StatChip: React.FC<{ th: Theme; text: string; color?: string }> = ({ th, text, color }) => (
@@ -360,7 +369,7 @@ const RadioScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Them
     <AbsoluteFill style={{ backgroundColor: "#07090D", justifyContent: "center", alignItems: "center" }}>
       {/* honesty label */}
       <div style={{ position: "absolute", top: 110, left: 0, right: 0, textAlign: "center" }}>
-        <span style={{ fontFamily: th.display, fontWeight: 700, fontSize: 26, letterSpacing: 6,
+        <span style={{ ...dsp(th, 700), fontSize: 26, letterSpacing: 6,
           color: s.radioLabel?.includes("ACTUAL") ? "#7CFC9B" : th.accent,
           border: `2px solid ${s.radioLabel?.includes("ACTUAL") ? "#7CFC9B" : th.accent}`,
           padding: "10px 26px", borderRadius: 8, opacity: 0.92 }}>
@@ -376,7 +385,7 @@ const RadioScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Them
       </div>
       {/* speaker + timestamp */}
       <div style={{ marginTop: 54, display: "flex", alignItems: "center", gap: 22 }}>
-        <span style={{ fontFamily: th.display, fontWeight: 700, fontSize: 40, color: "#0A0C10",
+        <span style={{ ...dsp(th, 700), fontSize: 40, color: "#0A0C10",
           background: th.accent, padding: "6px 22px", borderRadius: 10 }}>{s.speaker}</span>
         {s.timestamp && (
           <span style={{ fontFamily: th.mono, fontWeight: 700, fontSize: 38,
@@ -527,7 +536,7 @@ const IllusScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: num
           </AbsoluteFill>
         </AbsoluteFill>
       )}
-      <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(5,7,12,0.62) 0%, transparent 24%, transparent 56%, rgba(5,7,12,0.94) 100%)", pointerEvents: "none" }} />
+      <AbsoluteFill style={{ background: scrim(!!s.cap, 0.62, 24, 56, 0.94), pointerEvents: "none" }} />
 
       {s.stat && (
         <div style={{ position: "absolute", top: 118, left: 96,
@@ -568,7 +577,7 @@ const DiagramScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Th
       <AbsoluteFill style={{ opacity: fadeIn }}>
         {Diagram ? <Diagram dur={dur} arg={s.arg} accent={th.accent} /> : <AbsoluteFill style={{ backgroundColor: BASE }} />}
       </AbsoluteFill>
-      <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(5,7,12,0.55) 0%, transparent 22%, transparent 60%, rgba(5,7,12,0.92) 100%)", pointerEvents: "none" }} />
+      <AbsoluteFill style={{ background: scrim(!!s.cap, 0.55, 22, 60, 0.92), pointerEvents: "none" }} />
 
       {s.stat && (
         <div style={{ position: "absolute", top: 118, left: 96,
@@ -593,26 +602,43 @@ const DiagramScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Th
   );
 };
 
-/* Real footage scene (NTSB animation etc.): muted video, narration over it. */
-const VideoScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Theme }> = ({ s, slug, m, th }) => {
+/** True when the router (makeDocComp) sends this scene to VideoScene —
+ *  must mirror the branch order there (chapter/sting/speaker win over video). */
+const isVideoScene = (s?: DocScene) => !!s && !s.chapter && !s.sting && !s.speaker && !!s.video;
+
+/* Real footage scene (NTSB animation etc.): muted video, narration over it.
+   cutIn/cutOut: the neighbouring scene is also footage, so the edge hard-cuts
+   instead of dipping to black (scene timing is unchanged — only the opacity
+   ramps are skipped). */
+const VideoScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Theme; cutIn?: boolean; cutOut?: boolean }> = ({ s, slug, m, th, cutIn, cutOut }) => {
   const frame = useCurrentFrame();
   const dur = sceneFrames(s, m);
-  const fadeIn = interpolate(frame, [0, 12], [0, 1], { extrapolateRight: "clamp" });
-  const fadeOut = interpolate(frame, [dur - 10, dur], [1, 0], { extrapolateLeft: "clamp" });
+  const fadeIn = cutIn ? 1 : interpolate(frame, [0, 12], [0, 1], { extrapolateRight: "clamp" });
+  const fadeOut = cutOut ? 1 : interpolate(frame, [dur - 10, dur], [1, 0], { extrapolateLeft: "clamp" });
   const capIn = spring({ frame: frame - LEAD, fps: FPS, config: { damping: 18 } });
   const statAt = LEAD + Math.round(sceneAud(s, m) * 0.35 * FPS);
   const statSp = spring({ frame: frame - statAt, fps: FPS, config: { damping: 12, stiffness: 130 } });
   const hasAudio = m.durations[s.id] !== undefined;
+  const src = staticFile(`shorts/${slug}/video/${s.video}`);
+  const startFrom = Math.round((s.videoFrom ?? 0) * FPS);
+  const drift = interpolate(frame, [0, dur], [1.0, 1.05]);
   return (
     <AbsoluteFill style={{ backgroundColor: "#05070C", opacity: fadeOut }}>
       <AbsoluteFill style={{ opacity: fadeIn, justifyContent: "center", alignItems: "center" }}>
-        <OffthreadVideo src={staticFile(`shorts/${slug}/video/${s.video}`)} muted
-          startFrom={Math.round((s.videoFrom ?? 0) * FPS)}
+        {/* blurred cover copy fills the frame so 4:3 / portrait archival never
+            shows black pillar/letterbox bars (same move as IllusScene) */}
+        <AbsoluteFill>
+          <OffthreadVideo src={src} muted startFrom={startFrom}
+            style={{ width: "100%", height: "100%", objectFit: "cover",
+              transform: `scale(${drift * 1.15})`,
+              filter: "saturate(0.88) contrast(1.05) blur(14px) brightness(0.55)" }} />
+        </AbsoluteFill>
+        <OffthreadVideo src={src} muted startFrom={startFrom}
           style={{ width: "100%", height: "100%", objectFit: "contain",
-            transform: `scale(${interpolate(frame, [0, dur], [1.0, 1.05])})`,
+            transform: `scale(${drift})`,
             filter: "saturate(0.92) contrast(1.06)" }} />
       </AbsoluteFill>
-      <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(5,7,12,0.55) 0%, transparent 22%, transparent 60%, rgba(5,7,12,0.92) 100%)", pointerEvents: "none" }} />
+      <AbsoluteFill style={{ background: scrim(!!s.cap, 0.55, 22, 60, 0.92), pointerEvents: "none" }} />
       {s.stat && (
         <div style={{ position: "absolute", top: 118, left: 96,
           transform: `translateY(${interpolate(statSp, [0, 1], [22, 0])}px) scale(${interpolate(statSp, [0, 1], [0.92, 1])})`,
@@ -655,7 +681,7 @@ const StingScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; th: Them
         <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 20 }}>
           <div style={{ width: 28, height: 28, borderRadius: "50%", background: th.accent,
             boxShadow: `0 0 ${18 + glow * 28}px ${th.accent}` }} />
-          <span style={{ fontFamily: th.display, fontWeight: 700, fontSize: 132, color: "#fff", letterSpacing: 1,
+          <span style={{ ...dsp(th, 700), fontSize: 132, color: "#fff", letterSpacing: 1,
             textShadow: `0 0 ${glow * 44}px ${th.accent}77` }}>{th.brand}</span>
         </div>
         <div style={{ height: 5, background: th.accent, borderRadius: 4, margin: "28px auto 0",
@@ -785,15 +811,22 @@ const KineticScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: n
   const fmt = (n: number) => n.toLocaleString("en-US");
   const words = k.words ?? [];
   const perWord = words.length ? (aud * 0.78) / words.length : 0;
+  // Auto-fit the figure: long prefix/suffix strings ("1,776 ft — One World
+  // Trade Center's symbolic height") wrapped to four lines at 200px on the
+  // expanded display cut and ran into the sub-caption. Same width estimate
+  // as CountUp in src/components/kinetic.tsx (~0.62em per bold glyph),
+  // clamped so short figures keep the full 200px.
+  const figureText = `${k.prefix ?? ""}${shown !== null ? fmt(shown) : ""}${k.suffix ?? ""}`;
+  const figureSize = Math.max(96, Math.min(200, Math.floor(1700 / Math.max(1, figureText.length * 0.62))));
   return (
     <AbsoluteFill style={{ backgroundColor: "#04060A", justifyContent: "center", alignItems: "center", opacity: fadeOut }}>
       <TextSceneBg s={s} slug={slug} m={m} idx={idx} th={th} />
       <div style={{ position: "absolute", width: 780, height: 780, borderRadius: "50%",
         background: `radial-gradient(circle, ${th.accent}0F 0%, transparent 60%)` }} />
       {shown !== null && (
-        <div style={{ textAlign: "center" }}>
+        <div style={{ textAlign: "center", maxWidth: 1700 }}>
           <div style={{ position: "relative", display: "inline-block" }}>
-            <span style={{ fontFamily: th.display, fontWeight: 700, fontSize: 200, color: "#fff", letterSpacing: 1,
+            <span style={{ ...dsp(th, 700), fontSize: figureSize, color: "#fff", letterSpacing: 1,
               lineHeight: 1, textShadow: "0 4px 30px rgba(0,0,0,0.75)",
               display: "inline-block",
               transform: `scale(${interpolate(landSp, [0, 1], [1.08, 1])})`,
@@ -814,7 +847,7 @@ const KineticScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: n
           )}
           {k.strike !== undefined && (
             <div style={{ marginTop: 26, opacity: revealSp, transform: `scale(${interpolate(revealSp, [0, 1], [0.8, 1])})` }}>
-              <span style={{ fontFamily: th.display, fontWeight: 700, fontSize: 150, color: th.accent,
+              <span style={{ ...dsp(th, 700), fontSize: 150, color: th.accent,
                 textShadow: `0 0 40px ${th.accent}66` }}>{k.prefix ?? ""}{fmt(k.strike)}{k.suffix ?? ""}</span>
               {k.strikeLabel && (
                 <div style={{ fontFamily: th.body, fontWeight: 600, fontSize: 46, color: "#fff", marginTop: 4 }}>{k.strikeLabel}</div>
@@ -829,7 +862,7 @@ const KineticScene: React.FC<{ s: DocScene; slug: string; m: DocManifest; idx: n
             const wIn = spring({ frame: frame - 3 - i * perWord, fps: FPS, config: { damping: 16 } });
             return (
               <span key={i} style={{ display: "inline-block", margin: "0 14px",
-                fontFamily: th.display, fontWeight: 700, fontSize: 92, lineHeight: 1.3,
+                ...dsp(th, 700), fontSize: 92, lineHeight: 1.3,
                 color: i === words.length - 1 ? th.accent : "#fff", textShadow: "0 3px 24px rgba(0,0,0,0.75)",
                 opacity: wIn, transform: `translateY(${interpolate(wIn, [0, 1], [26, 0])}px)` }}>{w}</span>
             );
@@ -884,7 +917,8 @@ export const makeDocComp = (doc: DocSpec, manifest: DocManifest, outro?: OutroSp
                 : s.speaker
                 ? <RadioScene s={s} slug={doc.slug} m={manifest} th={th} />
                 : s.video
-                ? <VideoScene s={s} slug={doc.slug} m={manifest} th={th} />
+                ? <VideoScene s={s} slug={doc.slug} m={manifest} th={th}
+                    cutIn={isVideoScene(doc.scenes[i - 1])} cutOut={isVideoScene(doc.scenes[i + 1])} />
                 : s.mascotFull
                 ? <MascotZoom
                     sceneDur={dur} mouthOffset={LEAD} cap={s.cap} accent={th.accent}
