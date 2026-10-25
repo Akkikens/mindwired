@@ -75,7 +75,9 @@ cleanup() {
     echo "[gce] follow it:   gcloud compute ssh ${NAME} --zone ${ZONE} --tunnel-through-iap --command 'tail -3 ~/${REMOTE}/out/render.log'"
     echo "[gce] then fetch:  gcloud compute scp ${NAME}:~/${REMOTE}/out/${SLUG}.mp4 out/${SLUG}_gce.mp4 --zone ${ZONE}"
     echo "[gce] and delete:  gcloud compute instances delete ${NAME} --zone ${ZONE}"
-    echo "[gce] (it self-deletes after --max-run-duration regardless, so it cannot bill forever.)"
+    echo "[gce] (it STOPS itself after --max-run-duration, keeping its disk and finished chunks — restart it with"
+    echo "[gce]  'gcloud compute instances start ${NAME} --zone ${ZONE}' and rerun the render command over ssh to resume;"
+    echo "[gce]  a stopped VM bills only its disk, so delete it once the master is fetched.)"
     return
   fi
   echo "[gce] deleting VM ${NAME}…"
@@ -104,9 +106,15 @@ else
   # thing that deleted a VM, and the service account has no compute scope so the
   # box cannot delete itself. A dead laptop or a killed session therefore billed
   # a 32-vCPU machine indefinitely. Now GCE terminates it regardless.
+  # STOP, not DELETE, at the ceiling (2026-10-24): american587 hit the 6h cap
+  # mid-render and the VM deleted itself with ~all chunks done but unfetched.
+  # A stopped VM bills disk only, keeps out/chunks-<comp>/ (the chunked
+  # renderer resumes from it), and can be restarted to finish. Default ceiling
+  # raised to 10h for CHUNKED renders of long docs.
+  if [ "${CHUNKED:-0}" = "1" ]; then MAX_H="${GCE_MAX_RUN_HOURS:-10}"; else MAX_H="${GCE_MAX_RUN_HOURS:-6}"; fi
   PROVISION=(--provisioning-model=STANDARD
-             --max-run-duration="${GCE_MAX_RUN_HOURS:-6}h"
-             --instance-termination-action=DELETE)
+             --max-run-duration="${MAX_H}h"
+             --instance-termination-action=STOP)
   MODE=on-demand
 fi
 CANDIDATES=(
@@ -212,7 +220,7 @@ gcloud compute ssh "$NAME" --zone "$ZONE" --command "
   dpkg -s fonts-noto-core >/dev/null 2>&1 || sudo apt-get install -y -qq fonts-noto-core fonts-indic 2>&1 | tail -1
   fc-cache -f >/dev/null 2>&1 || true
   mkdir -p out
-  nohup python3 $RENDER_SCRIPT '$COMP' out/${SLUG}.mp4 --scale 2 \
+  nohup python3 $RENDER_SCRIPT '$COMP' out/${SLUG}.mp4 --scale ${GCE_SCALE:-2} \
     $RENDER_EXTRA --remotion-timeout $REMOTION_TIMEOUT ${EXTRA_ARGS[*]:-} \
     > out/render.log 2>&1 &
   echo started
@@ -227,9 +235,15 @@ while true; do
   # preemption on a VM that was never spot and never gone, and exit 2 fired the
   # EXIT trap — which tried to DELETE a healthy render sitting at 56%. Only a
   # real not-found counts as gone; anything else is transient and we keep polling.
-  VM_ERR=$(gcloud compute instances describe "$NAME" --zone "$ZONE" \
-             --format="value(status)" 2>&1 >/dev/null)
+  VM_STATE=$(gcloud compute instances describe "$NAME" --zone "$ZONE" \
+             --format="value(status)" 2>/tmp/gce_describe_err.$$)
   VM_RC=$?
+  VM_ERR=$(cat /tmp/gce_describe_err.$$ 2>/dev/null); rm -f /tmp/gce_describe_err.$$
+  if [ $VM_RC -eq 0 ] && echo "$VM_STATE" | grep -qE "TERMINATED|STOPPED|STOPPING|SUSPENDED"; then
+    # hit --max-run-duration (or stopped by hand): disk + chunks survive
+    echo "[gce] VM ${VM_STATE} — ran out its ${MAX_H:-?}h ceiling or was stopped. Finished chunks are on its disk."
+    exit 3   # EXIT trap sees RENDER_STARTED=1 and keeps the VM (prints resume steps)
+  fi
   if [ $VM_RC -ne 0 ]; then
     if echo "$VM_ERR" | grep -qiE "was not found|404|does not exist"; then
       echo "[gce] VM GONE — instance no longer exists (preemption, or deleted elsewhere)."
@@ -243,7 +257,10 @@ while true; do
   STATUS=$(gcloud compute ssh "$NAME" --zone "$ZONE" --command "
     if grep -q -- '-> out/${SLUG}.mp4' $REMOTE/out/render.log 2>/dev/null; then echo DONE;
     elif grep -qiE 'Traceback|render failed|GATE FAILED' $REMOTE/out/render.log 2>/dev/null; then echo FAILED;
-    else grep -oE 'Rendered [0-9]+/[0-9]+' $REMOTE/out/render.log | tail -1; fi" 2>/dev/null || echo "ssh-retry")
+    else grep -oE 'Rendered [0-9]+/[0-9]+|[0-9]+/[0-9]+ chunks done' $REMOTE/out/render.log | tail -1; fi" 2>/dev/null || echo "ssh-retry")
+  # (2026-10-24) the chunked renderer prints 'N/M chunks done', which the old
+  # pattern never matched — american587 polled 172 times with an empty status
+  # and ran out its time cap with no visible progress.
   echo "[gce] $(date +%H:%M) ${STATUS}"
   if [ "$STATUS" = "DONE" ]; then RENDER_DONE=1; break; fi
   if [ "$STATUS" = "FAILED" ]; then
