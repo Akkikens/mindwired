@@ -34,6 +34,22 @@ SLUG="${2:?usage: render_gce.sh <CompId> <slug> [render args...]}"
 shift 2
 EXTRA_ARGS=("$@")
 
+# Fail BEFORE creating a VM if a file the render needs is missing locally
+# (2026-10-25: a missing --music bed made the remote render exit in its first
+# second; the poll never noticed and an idle 32-vCPU VM sat for 10 hours).
+prev=""
+for a in "${EXTRA_ARGS[@]:-}"; do
+  if [ "$prev" = "--music" ] && [ ! -f "$a" ]; then
+    echo "[gce] ABORT — --music file not found locally: $a (nothing was created)"; exit 1
+  fi
+  prev="$a"
+done
+for need in public/outro/subscribe_blackbox_long.mp4; do
+  if grep -q "$(basename "$need")" src/Root.tsx 2>/dev/null && [ ! -f "$need" ]; then
+    echo "[gce] ABORT — baked outro missing locally: $need"; exit 1
+  fi
+done
+
 # keep the local poll loop alive through macOS sleep (3+ renders were
 # interrupted by the machine sleeping — memory otzi/gce lessons)
 if command -v caffeinate >/dev/null 2>&1; then
@@ -256,7 +272,8 @@ while true; do
   fi
   STATUS=$(gcloud compute ssh "$NAME" --zone "$ZONE" --command "
     if grep -q -- '-> out/${SLUG}.mp4' $REMOTE/out/render.log 2>/dev/null; then echo DONE;
-    elif grep -qiE 'Traceback|render failed|GATE FAILED' $REMOTE/out/render.log 2>/dev/null; then echo FAILED;
+    elif grep -qiE 'Traceback|render failed|GATE FAILED|not found|^error' $REMOTE/out/render.log 2>/dev/null; then echo FAILED;
+    elif ! pgrep -f 'render_[c]hunked_and_master.py|render_[a]nd_master.py' >/dev/null; then echo FAILED;
     else grep -oE 'Rendered [0-9]+/[0-9]+|[0-9]+/[0-9]+ chunks done' $REMOTE/out/render.log | tail -1; fi" 2>/dev/null || echo "ssh-retry")
   # (2026-10-24) the chunked renderer prints 'N/M chunks done', which the old
   # pattern never matched — american587 polled 172 times with an empty status
